@@ -1,6 +1,13 @@
 import { Manwha } from '../../../models/manwha-model';
 
-export type ManwhaView = 'read' | 'readlist' | 'owned' | 'toReRead' | 'recommendations';
+export type ManwhaView =
+  | 'read'
+  | 'readlist'
+  | 'owned'
+  | 'borrowed'
+  | 'loaned'
+  | 'toReRead'
+  | 'recommendations';
 
 export type OptionalManwhaView = Exclude<ManwhaView, 'read' | 'readlist'>;
 
@@ -27,6 +34,8 @@ export const manwhaViewOptions: { value: ManwhaView; label: string }[] = [
   { value: 'read', label: 'Manwhas lus' },
   { value: 'readlist', label: 'Manwhas à lire' },
   { value: 'owned', label: 'Manwhas possédés' },
+  { value: 'borrowed', label: 'Manwhas empruntés' },
+  { value: 'loaned', label: 'Manwhas prêtés' },
   { value: 'toReRead', label: 'À relire' },
   { value: 'recommendations', label: 'Recommandations' },
 ];

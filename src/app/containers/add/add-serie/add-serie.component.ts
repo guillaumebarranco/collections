@@ -31,6 +31,8 @@ type AddSerieDialogData = {
 
 type AddSerieUserForm = {
   owned: boolean;
+  borrowed: string;
+  loaned: string;
   watchPriority: number;
   seasons: {
     seasonNumber: number;
@@ -75,6 +77,8 @@ export class AddSerieComponent {
 
   userForm = signal<AddSerieUserForm>({
     owned: false,
+    borrowed: '',
+    loaned: '',
     watchPriority: 1,
     seasons: [],
     ratingComment: '',
@@ -243,6 +247,8 @@ export class AddSerieComponent {
           },
           user: {
             owned: this.userForm().owned,
+            borrowed: this.userForm().borrowed ?? '',
+            loaned: this.userForm().loaned ?? '',
             watchPriority: this.userForm().watchPriority,
             seasons: this.userForm().seasons,
           },

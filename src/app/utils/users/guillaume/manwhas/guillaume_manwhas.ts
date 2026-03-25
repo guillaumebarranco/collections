@@ -11,6 +11,8 @@ export const guillaumeManwhas: UserManwhas = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
   },
   {
     title: 'Red Storm',
@@ -22,6 +24,8 @@ export const guillaumeManwhas: UserManwhas = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
   },
   {
     title: 'Noblesse',
@@ -33,6 +37,8 @@ export const guillaumeManwhas: UserManwhas = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
   },
   {
     title: 'Tower Of God',
@@ -44,6 +50,8 @@ export const guillaumeManwhas: UserManwhas = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
   },
   {
     title: "Girls of The Wild's",
@@ -55,6 +63,8 @@ export const guillaumeManwhas: UserManwhas = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
   },
   {
     title: 'DICE: The Cube that Changes Everything',
@@ -66,6 +76,8 @@ export const guillaumeManwhas: UserManwhas = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
   },
   {
     title: 'Dr. Frost',
@@ -77,6 +89,8 @@ export const guillaumeManwhas: UserManwhas = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
   },
   {
     title: 'Unordinary',
@@ -88,6 +102,8 @@ export const guillaumeManwhas: UserManwhas = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
   },
   {
     title: 'I Love Yoo',
@@ -99,6 +115,8 @@ export const guillaumeManwhas: UserManwhas = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
   },
   {
     title: 'Wind Breaker',
@@ -110,6 +128,8 @@ export const guillaumeManwhas: UserManwhas = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
   },
   {
     title: 'Lookism',
@@ -121,6 +141,8 @@ export const guillaumeManwhas: UserManwhas = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
   },
   {
     title: 'Bastard',
@@ -132,6 +154,8 @@ export const guillaumeManwhas: UserManwhas = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
   },
   {
     title: 'Sidekicks',
@@ -143,6 +167,8 @@ export const guillaumeManwhas: UserManwhas = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
   },
   {
     title: 'Solo Leveling',
@@ -154,5 +180,7 @@ export const guillaumeManwhas: UserManwhas = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
   },
 ];

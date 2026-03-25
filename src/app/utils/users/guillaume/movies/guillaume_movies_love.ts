@@ -13,6 +13,8 @@ export const guillaumeMoviesLove: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: ['Mes romances'],
   },
   {
@@ -27,6 +29,8 @@ export const guillaumeMoviesLove: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
   {
@@ -41,6 +45,8 @@ export const guillaumeMoviesLove: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
   {
@@ -55,6 +61,8 @@ export const guillaumeMoviesLove: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: ['Mes romances'],
   },
   {
@@ -69,6 +77,8 @@ export const guillaumeMoviesLove: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
   {
@@ -83,6 +93,8 @@ export const guillaumeMoviesLove: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
   {
@@ -97,6 +109,8 @@ export const guillaumeMoviesLove: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
   {
@@ -111,6 +125,8 @@ export const guillaumeMoviesLove: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: ['Mes romances'],
   },
   {
@@ -125,6 +141,8 @@ export const guillaumeMoviesLove: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
   {
@@ -139,6 +157,8 @@ export const guillaumeMoviesLove: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: ['Mes romances'],
   },
   {
@@ -153,6 +173,8 @@ export const guillaumeMoviesLove: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
   {
@@ -167,6 +189,8 @@ export const guillaumeMoviesLove: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
   {
@@ -181,6 +205,8 @@ export const guillaumeMoviesLove: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
   {
@@ -195,6 +221,8 @@ export const guillaumeMoviesLove: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
   {
@@ -209,6 +237,8 @@ export const guillaumeMoviesLove: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: ['Mes romances'],
   },
   {
@@ -223,6 +253,8 @@ export const guillaumeMoviesLove: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
   {
@@ -237,6 +269,8 @@ export const guillaumeMoviesLove: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
   {
@@ -251,6 +285,8 @@ export const guillaumeMoviesLove: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
   {
@@ -265,6 +301,8 @@ export const guillaumeMoviesLove: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
   {
@@ -279,6 +317,8 @@ export const guillaumeMoviesLove: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
   {
@@ -293,6 +333,8 @@ export const guillaumeMoviesLove: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: ['Mes romances'],
   },
   {
@@ -307,6 +349,8 @@ export const guillaumeMoviesLove: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
   {
@@ -321,6 +365,8 @@ export const guillaumeMoviesLove: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
   {
@@ -335,6 +381,8 @@ export const guillaumeMoviesLove: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: ['Mes classiques', 'Mes romances'],
   },
   {
@@ -349,6 +397,8 @@ export const guillaumeMoviesLove: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: ['Mes classiques', 'Mes romances'],
   },
   {
@@ -363,6 +413,8 @@ export const guillaumeMoviesLove: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
   {
@@ -377,6 +429,8 @@ export const guillaumeMoviesLove: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
   {
@@ -391,6 +445,8 @@ export const guillaumeMoviesLove: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: ['Mes classiques'],
   },
   {
@@ -405,6 +461,8 @@ export const guillaumeMoviesLove: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: ['Mes romances'],
   },
   {
@@ -419,6 +477,8 @@ export const guillaumeMoviesLove: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
   {
@@ -433,6 +493,8 @@ export const guillaumeMoviesLove: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
   {
@@ -447,6 +509,8 @@ export const guillaumeMoviesLove: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: ['Mes romances'],
   },
   {
@@ -461,6 +525,8 @@ export const guillaumeMoviesLove: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: ['Mes romances'],
   },
   {
@@ -475,6 +541,8 @@ export const guillaumeMoviesLove: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
   {
@@ -489,6 +557,8 @@ export const guillaumeMoviesLove: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: ['Mes romances'],
   },
   {
@@ -503,6 +573,8 @@ export const guillaumeMoviesLove: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
   {
@@ -517,6 +589,8 @@ export const guillaumeMoviesLove: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
   {
@@ -531,6 +605,8 @@ export const guillaumeMoviesLove: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
   {
@@ -545,6 +621,8 @@ export const guillaumeMoviesLove: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: ['Mes classiques', 'Mes romances'],
   },
   {
@@ -559,6 +637,8 @@ export const guillaumeMoviesLove: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
   {
@@ -573,6 +653,8 @@ export const guillaumeMoviesLove: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
   {
@@ -587,6 +669,8 @@ export const guillaumeMoviesLove: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: ['Mes classiques', 'Mes romances'],
   },
   {
@@ -601,6 +685,8 @@ export const guillaumeMoviesLove: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: ['Mes classiques', 'Mes romances'],
   },
   {
@@ -615,6 +701,8 @@ export const guillaumeMoviesLove: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
   {
@@ -629,6 +717,8 @@ export const guillaumeMoviesLove: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: ['Mes romances'],
   },
   {
@@ -643,6 +733,8 @@ export const guillaumeMoviesLove: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: ['Mes romances'],
   },
   {
@@ -657,6 +749,8 @@ export const guillaumeMoviesLove: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: ['Mes classiques', 'Mes romances'],
   },
   {
@@ -671,6 +765,8 @@ export const guillaumeMoviesLove: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
   {
@@ -685,6 +781,8 @@ export const guillaumeMoviesLove: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
   {
@@ -699,6 +797,8 @@ export const guillaumeMoviesLove: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: ['Mes romances'],
   },
   {
@@ -713,6 +813,8 @@ export const guillaumeMoviesLove: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
   {
@@ -727,6 +829,8 @@ export const guillaumeMoviesLove: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
   {
@@ -741,6 +845,8 @@ export const guillaumeMoviesLove: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
   {
@@ -755,6 +861,8 @@ export const guillaumeMoviesLove: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
   {
@@ -769,6 +877,8 @@ export const guillaumeMoviesLove: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
   {
@@ -783,6 +893,8 @@ export const guillaumeMoviesLove: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: ['Mes romances'],
   },
   {
@@ -797,6 +909,8 @@ export const guillaumeMoviesLove: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
   {
@@ -811,6 +925,8 @@ export const guillaumeMoviesLove: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
   {
@@ -825,6 +941,8 @@ export const guillaumeMoviesLove: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: ['Mes classiques', 'Mes romances'],
   },
   {
@@ -839,6 +957,8 @@ export const guillaumeMoviesLove: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
   {
@@ -853,6 +973,8 @@ export const guillaumeMoviesLove: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
 ];

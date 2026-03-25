@@ -20,6 +20,8 @@ type AddMangaUserForm = {
   readTimes: number;
   readDate: string;
   owned: boolean;
+  borrowed: string;
+  loaned: string;
   ratingComment: string;
 };
 
@@ -59,6 +61,8 @@ export class AddMangaComponent {
     readTimes: 1,
     readDate: '',
     owned: false,
+    borrowed: '',
+    loaned: '',
     ratingComment: '',
   });
 

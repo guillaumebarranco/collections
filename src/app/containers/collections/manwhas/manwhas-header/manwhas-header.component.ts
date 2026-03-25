@@ -77,10 +77,16 @@ export class ManwhasHeaderComponent {
     this.selectedView() === 'readlist'
       ? 'Manwhas à lire'
       : this.selectedView() === 'owned'
-      ? 'Manwhas possédés'
-      : this.selectedView() === 'recommendations'
-      ? 'Recommandations'
-      : 'Manwhas lus'
+        ? 'Manwhas possédés'
+        : this.selectedView() === 'borrowed'
+          ? 'Manwhas empruntés'
+          : this.selectedView() === 'loaned'
+            ? 'Manwhas prêtés'
+            : this.selectedView() === 'toReRead'
+              ? 'Manwhas à relire'
+              : this.selectedView() === 'recommendations'
+                ? 'Recommandations'
+                : 'Manwhas lus'
   );
 
   getSelectManwhasRoute(): string {

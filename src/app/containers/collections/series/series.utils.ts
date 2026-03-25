@@ -11,6 +11,8 @@ export type SerieView =
   | 'finished'
   | 'watchlist'
   | 'owned'
+  | 'borrowed'
+  | 'loaned'
   | 'toReWatch'
   | 'sagas'
   | 'countries'
@@ -39,6 +41,8 @@ export const serieViewOptions: { value: SerieView; label: string }[] = [
   { value: 'finished', label: 'Séries finies' },
   { value: 'watchlist', label: 'Séries à voir' },
   { value: 'owned', label: 'Séries possédées' },
+  { value: 'borrowed', label: 'Séries empruntées' },
+  { value: 'loaned', label: 'Séries prêtées' },
   { value: 'toReWatch', label: 'À revoir' },
   { value: 'sagas', label: 'Voir par saga' },
   { value: 'countries', label: 'Voir par pays' },
@@ -255,7 +259,13 @@ export const getSeriesBySaga = ({
     baseBySaga.set(sagaName, list);
   }
 
-  const sagaGroups = Array.from(sagaMap.entries()).map(([saga, seenSeries]) => {
+  const allSagaNames = new Set<string>([
+    ...sagaMap.keys(),
+    ...baseBySaga.keys(),
+  ]);
+
+  const sagaGroups = Array.from(allSagaNames).map((saga) => {
+    const seenSeries = sagaMap.get(saga) ?? [];
     const missing =
       saga === 'Sans saga'
         ? []
@@ -267,20 +277,7 @@ export const getSeriesBySaga = ({
     };
   });
 
-  const filteredSagaGroups =
-    selectedSort === 'saga-user-rating' || selectedSort === 'saga-global-rating'
-      ? sagaGroups.filter((group) => {
-          const ratedSeries = group.seenSeries.filter(
-            (s) => getSerieAverageRating(s) > 0
-          );
-          return ratedSeries.length >= 5;
-        })
-      : sagaGroups.filter(
-          (group) =>
-            group.seenSeries.length + group.missingSeries.length > 3
-        );
-
-  filteredSagaGroups.sort((a, b) => {
+  sagaGroups.sort((a, b) => {
     switch (selectedSort) {
       case 'saga-count': {
         const countA = a.seenSeries.length + a.missingSeries.length;
@@ -330,7 +327,7 @@ export const getSeriesBySaga = ({
     }
   });
 
-  return filteredSagaGroups;
+  return sagaGroups;
 };
 
 export const getSortedSeries = (

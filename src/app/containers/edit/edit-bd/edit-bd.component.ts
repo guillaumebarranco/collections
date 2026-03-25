@@ -27,6 +27,8 @@ type EditBdForm = {
   readTimes: number;
   readDate: string;
   owned: boolean;
+  borrowed: string;
+  loaned: string;
   wantToReadAgain: boolean;
   ratingComment: string;
 };
@@ -238,6 +240,8 @@ export class EditBdComponent {
           readTimes: form.readTimes,
           readDate: form.readDate,
           owned: form.owned,
+          borrowed: form.borrowed,
+          loaned: form.loaned,
           wantToReadAgain: form.wantToReadAgain,
           ratingComment: form.ratingComment ?? '',
           entity: this.isAdminView()
@@ -429,6 +433,8 @@ export class EditBdComponent {
       readTimes: bd.readTimes || 0,
       readDate: bd.readDate,
       owned: bd.owned,
+      borrowed: bd.borrowed ?? '',
+      loaned: bd.loaned ?? '',
       wantToReadAgain: bd.wantToReadAgain ?? false,
       ratingComment: bd.ratingComment ?? '',
     };

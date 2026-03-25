@@ -11,6 +11,8 @@ export const masterofmadnessMangas: UserManga[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
   },
   {
     title: 'Kingdom',
@@ -22,6 +24,8 @@ export const masterofmadnessMangas: UserManga[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
   },
   {
     title: 'Dragon Ball',
@@ -33,6 +37,8 @@ export const masterofmadnessMangas: UserManga[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
   },
   {
     title: 'Nanatsu No Taizai',
@@ -44,6 +50,8 @@ export const masterofmadnessMangas: UserManga[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
   },
   {
     title: 'One Piece',
@@ -55,6 +63,8 @@ export const masterofmadnessMangas: UserManga[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
   },
   {
     title: 'Toriko',
@@ -66,6 +76,8 @@ export const masterofmadnessMangas: UserManga[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
   },
   {
     title: 'Death Note',
@@ -77,6 +89,8 @@ export const masterofmadnessMangas: UserManga[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
   },
   {
     title: 'Assassination Classroom',
@@ -88,6 +102,8 @@ export const masterofmadnessMangas: UserManga[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
   },
   {
     title: 'Hunter X Hunter',
@@ -99,6 +115,8 @@ export const masterofmadnessMangas: UserManga[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
   },
   {
     title: 'Beelzebub',
@@ -110,6 +128,8 @@ export const masterofmadnessMangas: UserManga[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
   },
   {
     title: 'Gamaran',
@@ -121,6 +141,8 @@ export const masterofmadnessMangas: UserManga[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
   },
   {
     title: 'The Breaker',
@@ -132,6 +154,8 @@ export const masterofmadnessMangas: UserManga[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
   },
   {
     title: 'Bleach',
@@ -143,6 +167,8 @@ export const masterofmadnessMangas: UserManga[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
   },
   {
     title: 'Jujutsu Kaisen',
@@ -154,6 +180,8 @@ export const masterofmadnessMangas: UserManga[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
   },
   {
     title: 'Demon Slayer',
@@ -165,6 +193,8 @@ export const masterofmadnessMangas: UserManga[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
   },
   {
     title: 'Spy x Family',
@@ -176,6 +206,8 @@ export const masterofmadnessMangas: UserManga[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
   },
   {
     title: 'Fairy Tail',
@@ -187,6 +219,8 @@ export const masterofmadnessMangas: UserManga[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
   },
   {
     title: 'Ao no exorcist',
@@ -198,6 +232,8 @@ export const masterofmadnessMangas: UserManga[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
   },
   {
     title: 'Beck',
@@ -209,5 +245,7 @@ export const masterofmadnessMangas: UserManga[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
-  }
+    borrowed: '',
+    loaned: '',
+  },
 ];

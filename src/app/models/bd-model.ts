@@ -9,8 +9,8 @@ export interface BaseBd extends MandatoryBdData {
   genre: string;
   designer: string;
   description: string;
-  saga?: string;
-  sagaOrder?: number;
+  saga: string;
+  sagaOrder: number;
 }
 
 export interface UserBd extends MandatoryBdData {
@@ -21,6 +21,8 @@ export interface UserBd extends MandatoryBdData {
   readPriority: 1 | 2 | 3;
   wantToReadAgain: boolean;
   ratingComment: string;
+  borrowed: string;
+  loaned: string;
 }
 
 export type UserBds = UserBd[];

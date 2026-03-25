@@ -40,6 +40,8 @@ router.post('/', (req: any, res: any) => {
       readPriority: normalizeNumber(input.readPriority, 'readPriority') ?? 1,
       wantToReadAgain: normalizeBoolean(input.wantToReadAgain, 'wantToReadAgain') ?? false,
       ratingComment: normalizeString(input.ratingComment, 'ratingComment') ?? '',
+      borrowed: normalizeString(input.borrowed, 'borrowed') ?? '',
+      loaned: normalizeString(input.loaned, 'loaned') ?? '',
     };
 
     const entityPayload = input.entity || null;

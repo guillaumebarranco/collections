@@ -11,6 +11,8 @@ export const dantesMangas: UserManga[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
   },
 
   {
@@ -23,6 +25,8 @@ export const dantesMangas: UserManga[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
   },
 
   {
@@ -35,6 +39,8 @@ export const dantesMangas: UserManga[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
   },
 
   {
@@ -47,6 +53,8 @@ export const dantesMangas: UserManga[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
   },
 
   {
@@ -59,6 +67,8 @@ export const dantesMangas: UserManga[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
   },
 
   {
@@ -71,6 +81,8 @@ export const dantesMangas: UserManga[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
   },
 
   {
@@ -83,6 +95,8 @@ export const dantesMangas: UserManga[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
   },
 
   {
@@ -95,6 +109,8 @@ export const dantesMangas: UserManga[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
   },
 
   {
@@ -107,6 +123,8 @@ export const dantesMangas: UserManga[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
   },
 
   {
@@ -119,6 +137,8 @@ export const dantesMangas: UserManga[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
   },
 
   {
@@ -131,6 +151,8 @@ export const dantesMangas: UserManga[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
   },
 
   {
@@ -143,6 +165,8 @@ export const dantesMangas: UserManga[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
   },
 
   {
@@ -155,6 +179,8 @@ export const dantesMangas: UserManga[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
   },
 
   {
@@ -167,6 +193,8 @@ export const dantesMangas: UserManga[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
   },
 
   {
@@ -179,6 +207,8 @@ export const dantesMangas: UserManga[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
   },
 
   {
@@ -191,5 +221,7 @@ export const dantesMangas: UserManga[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
   },
 ];

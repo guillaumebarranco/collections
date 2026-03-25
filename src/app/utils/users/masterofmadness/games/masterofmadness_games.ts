@@ -9,6 +9,8 @@ export const masterofmadnessGames: UserGame[] = [
     gamelistPriority: 1,
     wantToPlayAgain: false,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     sessions: [],
   },
 
@@ -20,6 +22,8 @@ export const masterofmadnessGames: UserGame[] = [
     gamelistPriority: 1,
     wantToPlayAgain: false,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     sessions: [],
   },
 
@@ -31,6 +35,8 @@ export const masterofmadnessGames: UserGame[] = [
     gamelistPriority: 1,
     wantToPlayAgain: false,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     sessions: [],
   },
 
@@ -42,6 +48,8 @@ export const masterofmadnessGames: UserGame[] = [
     gamelistPriority: 1,
     wantToPlayAgain: false,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     sessions: [],
   },
 
@@ -53,6 +61,8 @@ export const masterofmadnessGames: UserGame[] = [
     gamelistPriority: 1,
     wantToPlayAgain: false,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     sessions: [],
   },
 
@@ -64,6 +74,8 @@ export const masterofmadnessGames: UserGame[] = [
     gamelistPriority: 1,
     wantToPlayAgain: false,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     sessions: [],
   },
 
@@ -75,6 +87,8 @@ export const masterofmadnessGames: UserGame[] = [
     gamelistPriority: 1,
     wantToPlayAgain: false,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     sessions: [],
   },
 
@@ -86,6 +100,8 @@ export const masterofmadnessGames: UserGame[] = [
     gamelistPriority: 1,
     wantToPlayAgain: false,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     sessions: [],
   },
 
@@ -97,6 +113,8 @@ export const masterofmadnessGames: UserGame[] = [
     gamelistPriority: 1,
     wantToPlayAgain: false,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     sessions: [],
   },
 
@@ -108,6 +126,8 @@ export const masterofmadnessGames: UserGame[] = [
     gamelistPriority: 1,
     wantToPlayAgain: false,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     sessions: [],
   },
 
@@ -119,6 +139,8 @@ export const masterofmadnessGames: UserGame[] = [
     gamelistPriority: 1,
     wantToPlayAgain: false,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     sessions: [],
   },
 
@@ -130,6 +152,8 @@ export const masterofmadnessGames: UserGame[] = [
     gamelistPriority: 1,
     wantToPlayAgain: false,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     sessions: [],
   },
 
@@ -141,6 +165,8 @@ export const masterofmadnessGames: UserGame[] = [
     gamelistPriority: 1,
     wantToPlayAgain: false,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     sessions: [],
   },
 
@@ -152,6 +178,8 @@ export const masterofmadnessGames: UserGame[] = [
     gamelistPriority: 1,
     wantToPlayAgain: false,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     sessions: [],
   },
 
@@ -163,6 +191,8 @@ export const masterofmadnessGames: UserGame[] = [
     gamelistPriority: 1,
     wantToPlayAgain: false,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     sessions: [],
   },
 
@@ -174,6 +204,8 @@ export const masterofmadnessGames: UserGame[] = [
     gamelistPriority: 1,
     wantToPlayAgain: false,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     sessions: [],
   },
 
@@ -185,6 +217,8 @@ export const masterofmadnessGames: UserGame[] = [
     gamelistPriority: 1,
     wantToPlayAgain: false,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     sessions: [],
   },
 
@@ -196,17 +230,21 @@ export const masterofmadnessGames: UserGame[] = [
     gamelistPriority: 1,
     wantToPlayAgain: false,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     sessions: [],
   },
 
   {
-    title: 'La Terre du Milieu : L\'Ombre du Mordor',
+    title: "La Terre du Milieu : L'Ombre du Mordor",
     editor: 'Monolith Productions',
     rating: 0,
     owned: false,
     gamelistPriority: 1,
     wantToPlayAgain: false,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     sessions: [],
   },
 
@@ -218,6 +256,8 @@ export const masterofmadnessGames: UserGame[] = [
     gamelistPriority: 1,
     wantToPlayAgain: false,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     sessions: [],
   },
 
@@ -229,6 +269,8 @@ export const masterofmadnessGames: UserGame[] = [
     gamelistPriority: 1,
     wantToPlayAgain: false,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     sessions: [],
   },
 
@@ -240,6 +282,8 @@ export const masterofmadnessGames: UserGame[] = [
     gamelistPriority: 1,
     wantToPlayAgain: false,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     sessions: [],
   },
 
@@ -251,6 +295,8 @@ export const masterofmadnessGames: UserGame[] = [
     gamelistPriority: 1,
     wantToPlayAgain: false,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     sessions: [],
   },
 
@@ -262,6 +308,8 @@ export const masterofmadnessGames: UserGame[] = [
     gamelistPriority: 1,
     wantToPlayAgain: false,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     sessions: [],
   },
 
@@ -273,17 +321,21 @@ export const masterofmadnessGames: UserGame[] = [
     gamelistPriority: 1,
     wantToPlayAgain: false,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     sessions: [],
   },
 
   {
-    title: 'Programme d\'entraînement cérébral du Dr Kawashima',
+    title: "Programme d'entraînement cérébral du Dr Kawashima",
     editor: 'Nintendo',
     rating: 0,
     owned: false,
     gamelistPriority: 1,
     wantToPlayAgain: false,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     sessions: [],
   },
 
@@ -295,6 +347,8 @@ export const masterofmadnessGames: UserGame[] = [
     gamelistPriority: 1,
     wantToPlayAgain: false,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     sessions: [],
   },
 ];

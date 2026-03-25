@@ -39,7 +39,8 @@ router.post('/', (req: any, res: any) => {
       firstReadDate: normalizeString(input.firstReadDate, 'firstReadDate'),
       lastReadDate: normalizeString(input.lastReadDate, 'lastReadDate'),
       owned: normalizeBoolean(input.owned, 'owned'),
-      borrowed: normalizeBoolean(input.borrowed, 'borrowed') ?? false,
+      borrowed: normalizeString(input.borrowed, 'borrowed') ?? '',
+      loaned: normalizeString(input.loaned, 'loaned') ?? '',
       readPriority: normalizeNumber(input.readPriority, 'readPriority'),
       wantToReadAgain:
         normalizeBoolean(input.wantToReadAgain, 'wantToReadAgain') ?? false,
@@ -172,6 +173,7 @@ router.post('/', (req: any, res: any) => {
         lastReadDate: payload.lastReadDate,
         owned: payload.owned,
         borrowed: payload.borrowed,
+        loaned: payload.loaned,
         readPriority: payload.readPriority,
         wantToReadAgain: payload.wantToReadAgain,
       })

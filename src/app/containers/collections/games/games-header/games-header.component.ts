@@ -78,10 +78,14 @@ export class GamesHeaderComponent {
     this.selectedView() === 'gamelist'
       ? '🎮 Jeux à jouer'
       : this.selectedView() === 'owned'
-      ? '🎮 Jeux possédés'
-      : this.selectedView() === 'recommendations'
-      ? 'Recommandations'
-      : '🎮 Jeux vidéo'
+        ? '🎮 Jeux possédés'
+        : this.selectedView() === 'borrowed'
+          ? '🎮 Jeux empruntés'
+          : this.selectedView() === 'loaned'
+            ? '🎮 Jeux prêtés'
+            : this.selectedView() === 'recommendations'
+              ? 'Recommandations'
+              : '🎮 Jeux vidéo'
   );
 
   getSelectGamesRoute(): string {

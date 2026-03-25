@@ -13,6 +13,8 @@ export const masterofmadnessMovies: UserMovie[] = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
 
@@ -28,6 +30,8 @@ export const masterofmadnessMovies: UserMovie[] = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
 
@@ -43,6 +47,8 @@ export const masterofmadnessMovies: UserMovie[] = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
 
@@ -58,6 +64,8 @@ export const masterofmadnessMovies: UserMovie[] = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
 
@@ -73,6 +81,8 @@ export const masterofmadnessMovies: UserMovie[] = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
 
@@ -88,6 +98,8 @@ export const masterofmadnessMovies: UserMovie[] = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
 
@@ -103,6 +115,8 @@ export const masterofmadnessMovies: UserMovie[] = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
 
@@ -118,6 +132,8 @@ export const masterofmadnessMovies: UserMovie[] = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
 
@@ -133,6 +149,8 @@ export const masterofmadnessMovies: UserMovie[] = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
 
@@ -148,6 +166,8 @@ export const masterofmadnessMovies: UserMovie[] = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
 
@@ -163,11 +183,13 @@ export const masterofmadnessMovies: UserMovie[] = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
 
   {
-    title: 'L\'aile ou la cuisse',
+    title: "L'aile ou la cuisse",
     director: 'Claude Zidi',
     rating: 0,
     timesWatched: 1,
@@ -178,6 +200,8 @@ export const masterofmadnessMovies: UserMovie[] = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
 
@@ -193,6 +217,8 @@ export const masterofmadnessMovies: UserMovie[] = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
 
@@ -208,6 +234,8 @@ export const masterofmadnessMovies: UserMovie[] = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
 
@@ -223,6 +251,8 @@ export const masterofmadnessMovies: UserMovie[] = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
 
@@ -238,6 +268,8 @@ export const masterofmadnessMovies: UserMovie[] = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
 
@@ -253,6 +285,8 @@ export const masterofmadnessMovies: UserMovie[] = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
 
@@ -268,6 +302,8 @@ export const masterofmadnessMovies: UserMovie[] = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
 
@@ -283,6 +319,8 @@ export const masterofmadnessMovies: UserMovie[] = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
 
@@ -298,6 +336,8 @@ export const masterofmadnessMovies: UserMovie[] = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
 
@@ -313,6 +353,8 @@ export const masterofmadnessMovies: UserMovie[] = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
 
@@ -328,6 +370,8 @@ export const masterofmadnessMovies: UserMovie[] = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
 
@@ -343,6 +387,8 @@ export const masterofmadnessMovies: UserMovie[] = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
 
@@ -358,6 +404,8 @@ export const masterofmadnessMovies: UserMovie[] = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
 
@@ -373,11 +421,13 @@ export const masterofmadnessMovies: UserMovie[] = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
 
   {
-    title: 'Comment c\'est loin',
+    title: "Comment c'est loin",
     director: 'Orelsan',
     rating: 0,
     timesWatched: 1,
@@ -388,6 +438,8 @@ export const masterofmadnessMovies: UserMovie[] = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
 
@@ -403,6 +455,8 @@ export const masterofmadnessMovies: UserMovie[] = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
 
@@ -418,6 +472,8 @@ export const masterofmadnessMovies: UserMovie[] = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
 
@@ -433,6 +489,8 @@ export const masterofmadnessMovies: UserMovie[] = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
 
@@ -448,6 +506,8 @@ export const masterofmadnessMovies: UserMovie[] = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
 
@@ -463,6 +523,8 @@ export const masterofmadnessMovies: UserMovie[] = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
 
@@ -478,6 +540,8 @@ export const masterofmadnessMovies: UserMovie[] = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
 
@@ -493,6 +557,8 @@ export const masterofmadnessMovies: UserMovie[] = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
 
@@ -508,6 +574,8 @@ export const masterofmadnessMovies: UserMovie[] = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
 
@@ -523,6 +591,8 @@ export const masterofmadnessMovies: UserMovie[] = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
 
@@ -538,6 +608,8 @@ export const masterofmadnessMovies: UserMovie[] = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
 
@@ -553,6 +625,8 @@ export const masterofmadnessMovies: UserMovie[] = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
 
@@ -568,6 +642,8 @@ export const masterofmadnessMovies: UserMovie[] = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
 
@@ -583,6 +659,8 @@ export const masterofmadnessMovies: UserMovie[] = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
 
@@ -598,6 +676,8 @@ export const masterofmadnessMovies: UserMovie[] = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
 
@@ -613,6 +693,8 @@ export const masterofmadnessMovies: UserMovie[] = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
 
@@ -628,6 +710,8 @@ export const masterofmadnessMovies: UserMovie[] = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
 
@@ -643,6 +727,8 @@ export const masterofmadnessMovies: UserMovie[] = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
 
@@ -658,6 +744,8 @@ export const masterofmadnessMovies: UserMovie[] = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
 
@@ -673,11 +761,13 @@ export const masterofmadnessMovies: UserMovie[] = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
 
   {
-    title: '20 ans d\'écart',
+    title: "20 ans d'écart",
     director: 'David Moreau',
     rating: 0,
     timesWatched: 1,
@@ -688,6 +778,8 @@ export const masterofmadnessMovies: UserMovie[] = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
 
@@ -703,6 +795,8 @@ export const masterofmadnessMovies: UserMovie[] = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
 
@@ -718,6 +812,8 @@ export const masterofmadnessMovies: UserMovie[] = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
 
@@ -733,6 +829,8 @@ export const masterofmadnessMovies: UserMovie[] = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
 
@@ -748,6 +846,8 @@ export const masterofmadnessMovies: UserMovie[] = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
 
@@ -763,11 +863,13 @@ export const masterofmadnessMovies: UserMovie[] = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
 
   {
-    title: 'Braquage à l\'ancienne',
+    title: "Braquage à l'ancienne",
     director: 'Zach Braff',
     rating: 0,
     timesWatched: 1,
@@ -778,6 +880,8 @@ export const masterofmadnessMovies: UserMovie[] = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
 
@@ -793,6 +897,8 @@ export const masterofmadnessMovies: UserMovie[] = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
 
@@ -808,6 +914,8 @@ export const masterofmadnessMovies: UserMovie[] = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
 
@@ -823,6 +931,8 @@ export const masterofmadnessMovies: UserMovie[] = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
 
@@ -838,6 +948,8 @@ export const masterofmadnessMovies: UserMovie[] = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
 
@@ -853,11 +965,13 @@ export const masterofmadnessMovies: UserMovie[] = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
 
   {
-    title: 'Qu\'est-ce qu\'on a fait au bon dieu ?',
+    title: "Qu'est-ce qu'on a fait au bon dieu ?",
     director: 'Philippe de Chauveron',
     rating: 0,
     timesWatched: 1,
@@ -868,11 +982,13 @@ export const masterofmadnessMovies: UserMovie[] = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
 
   {
-    title: 'Bienvenue chez les Ch\'tis',
+    title: "Bienvenue chez les Ch'tis",
     director: 'Dany Boon',
     rating: 0,
     timesWatched: 1,
@@ -883,6 +999,8 @@ export const masterofmadnessMovies: UserMovie[] = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
 
@@ -898,6 +1016,8 @@ export const masterofmadnessMovies: UserMovie[] = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
 
@@ -913,6 +1033,8 @@ export const masterofmadnessMovies: UserMovie[] = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
 
@@ -928,6 +1050,8 @@ export const masterofmadnessMovies: UserMovie[] = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
 
@@ -943,6 +1067,8 @@ export const masterofmadnessMovies: UserMovie[] = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
 
@@ -958,6 +1084,8 @@ export const masterofmadnessMovies: UserMovie[] = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
 
@@ -973,6 +1101,8 @@ export const masterofmadnessMovies: UserMovie[] = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
 
@@ -988,6 +1118,8 @@ export const masterofmadnessMovies: UserMovie[] = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
 
@@ -1003,6 +1135,8 @@ export const masterofmadnessMovies: UserMovie[] = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
 
@@ -1018,6 +1152,8 @@ export const masterofmadnessMovies: UserMovie[] = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
 
@@ -1033,6 +1169,8 @@ export const masterofmadnessMovies: UserMovie[] = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
 
@@ -1048,11 +1186,13 @@ export const masterofmadnessMovies: UserMovie[] = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
 
   {
-    title: 'L\'Âge de Glace',
+    title: "L'Âge de Glace",
     director: 'Chris Wedge, Carlos Saldanha',
     rating: 0,
     timesWatched: 1,
@@ -1063,11 +1203,13 @@ export const masterofmadnessMovies: UserMovie[] = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
 
   {
-    title: 'L\'Âge de Glace 2',
+    title: "L'Âge de Glace 2",
     director: 'Carlos Saldanha',
     rating: 0,
     timesWatched: 1,
@@ -1078,11 +1220,13 @@ export const masterofmadnessMovies: UserMovie[] = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
 
   {
-    title: 'L\'Âge de Glace 3 : Le Temps des Dinosaures',
+    title: "L'Âge de Glace 3 : Le Temps des Dinosaures",
     director: 'Carlos Saldanha',
     rating: 0,
     timesWatched: 1,
@@ -1093,11 +1237,13 @@ export const masterofmadnessMovies: UserMovie[] = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
 
   {
-    title: 'L\'Âge de Glace 4 : La Dérive des Continents',
+    title: "L'Âge de Glace 4 : La Dérive des Continents",
     director: 'Steve Martino, Mike Thurmeier',
     rating: 0,
     timesWatched: 1,
@@ -1108,6 +1254,8 @@ export const masterofmadnessMovies: UserMovie[] = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
 
@@ -1123,6 +1271,8 @@ export const masterofmadnessMovies: UserMovie[] = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
 
@@ -1138,6 +1288,8 @@ export const masterofmadnessMovies: UserMovie[] = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
 
@@ -1153,6 +1305,8 @@ export const masterofmadnessMovies: UserMovie[] = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
 
@@ -1168,6 +1322,8 @@ export const masterofmadnessMovies: UserMovie[] = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
 
@@ -1183,6 +1339,8 @@ export const masterofmadnessMovies: UserMovie[] = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
 
@@ -1198,6 +1356,8 @@ export const masterofmadnessMovies: UserMovie[] = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
 
@@ -1213,6 +1373,8 @@ export const masterofmadnessMovies: UserMovie[] = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
 
@@ -1228,6 +1390,8 @@ export const masterofmadnessMovies: UserMovie[] = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
 
@@ -1243,6 +1407,8 @@ export const masterofmadnessMovies: UserMovie[] = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
 
@@ -1258,6 +1424,8 @@ export const masterofmadnessMovies: UserMovie[] = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
 
@@ -1273,6 +1441,8 @@ export const masterofmadnessMovies: UserMovie[] = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
 
@@ -1288,6 +1458,8 @@ export const masterofmadnessMovies: UserMovie[] = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
 
@@ -1303,6 +1475,8 @@ export const masterofmadnessMovies: UserMovie[] = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
 
@@ -1318,6 +1492,8 @@ export const masterofmadnessMovies: UserMovie[] = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
 
@@ -1333,6 +1509,8 @@ export const masterofmadnessMovies: UserMovie[] = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
 
@@ -1348,6 +1526,8 @@ export const masterofmadnessMovies: UserMovie[] = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
 
@@ -1363,6 +1543,8 @@ export const masterofmadnessMovies: UserMovie[] = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
 
@@ -1378,6 +1560,8 @@ export const masterofmadnessMovies: UserMovie[] = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
 
@@ -1393,6 +1577,8 @@ export const masterofmadnessMovies: UserMovie[] = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
 
@@ -1408,6 +1594,8 @@ export const masterofmadnessMovies: UserMovie[] = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
 
@@ -1423,6 +1611,8 @@ export const masterofmadnessMovies: UserMovie[] = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
 
@@ -1438,6 +1628,8 @@ export const masterofmadnessMovies: UserMovie[] = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
 
@@ -1453,12 +1645,15 @@ export const masterofmadnessMovies: UserMovie[] = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
 
   {
     title: 'Pinocchio',
-    director: 'Norman Ferguson, T. Hee, Wilfred Jackson, Jack Kinney, Hamilton Luske, Bill Roberts, Ben Sharpsteen',
+    director:
+      'Norman Ferguson, T. Hee, Wilfred Jackson, Jack Kinney, Hamilton Luske, Bill Roberts, Ben Sharpsteen',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -1468,6 +1663,8 @@ export const masterofmadnessMovies: UserMovie[] = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
 
@@ -1483,6 +1680,8 @@ export const masterofmadnessMovies: UserMovie[] = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
 
@@ -1498,6 +1697,8 @@ export const masterofmadnessMovies: UserMovie[] = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
 
@@ -1513,6 +1714,8 @@ export const masterofmadnessMovies: UserMovie[] = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
 
@@ -1528,6 +1731,8 @@ export const masterofmadnessMovies: UserMovie[] = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
 
@@ -1543,6 +1748,8 @@ export const masterofmadnessMovies: UserMovie[] = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
 
@@ -1558,6 +1765,8 @@ export const masterofmadnessMovies: UserMovie[] = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
 
@@ -1573,6 +1782,8 @@ export const masterofmadnessMovies: UserMovie[] = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
 
@@ -1588,6 +1799,8 @@ export const masterofmadnessMovies: UserMovie[] = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
 
@@ -1603,6 +1816,8 @@ export const masterofmadnessMovies: UserMovie[] = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
 
@@ -1618,6 +1833,8 @@ export const masterofmadnessMovies: UserMovie[] = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
 
@@ -1633,6 +1850,8 @@ export const masterofmadnessMovies: UserMovie[] = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
 
@@ -1648,6 +1867,8 @@ export const masterofmadnessMovies: UserMovie[] = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
 
@@ -1663,6 +1884,8 @@ export const masterofmadnessMovies: UserMovie[] = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
 
@@ -1678,6 +1901,8 @@ export const masterofmadnessMovies: UserMovie[] = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
 
@@ -1693,11 +1918,13 @@ export const masterofmadnessMovies: UserMovie[] = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
 
   {
-    title: 'L\'Étrange Noël de monsieur Jack',
+    title: "L'Étrange Noël de monsieur Jack",
     director: 'Henry Selick',
     rating: 0,
     timesWatched: 1,
@@ -1708,6 +1935,8 @@ export const masterofmadnessMovies: UserMovie[] = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
 
@@ -1723,6 +1952,8 @@ export const masterofmadnessMovies: UserMovie[] = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
 
@@ -1738,6 +1969,8 @@ export const masterofmadnessMovies: UserMovie[] = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
 
@@ -1753,6 +1986,8 @@ export const masterofmadnessMovies: UserMovie[] = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
 
@@ -1768,6 +2003,8 @@ export const masterofmadnessMovies: UserMovie[] = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
 
@@ -1783,11 +2020,13 @@ export const masterofmadnessMovies: UserMovie[] = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
 
   {
-    title: 'Kuzco, l\'Empereur mégalo',
+    title: "Kuzco, l'Empereur mégalo",
     director: 'Mark Dindal',
     rating: 0,
     timesWatched: 1,
@@ -1798,11 +2037,13 @@ export const masterofmadnessMovies: UserMovie[] = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
 
   {
-    title: 'Atlantis : L\'Empire perdu',
+    title: "Atlantis : L'Empire perdu",
     director: 'Gary Trousdale, Kirk Wise',
     rating: 0,
     timesWatched: 1,
@@ -1813,6 +2054,8 @@ export const masterofmadnessMovies: UserMovie[] = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
 
@@ -1828,6 +2071,8 @@ export const masterofmadnessMovies: UserMovie[] = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
 
@@ -1843,6 +2088,8 @@ export const masterofmadnessMovies: UserMovie[] = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
 
@@ -1858,6 +2105,8 @@ export const masterofmadnessMovies: UserMovie[] = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
 
@@ -1873,6 +2122,8 @@ export const masterofmadnessMovies: UserMovie[] = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
 
@@ -1888,6 +2139,8 @@ export const masterofmadnessMovies: UserMovie[] = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
 
@@ -1903,6 +2156,8 @@ export const masterofmadnessMovies: UserMovie[] = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
 
@@ -1918,6 +2173,8 @@ export const masterofmadnessMovies: UserMovie[] = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
 
@@ -1933,6 +2190,8 @@ export const masterofmadnessMovies: UserMovie[] = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
 
@@ -1948,6 +2207,8 @@ export const masterofmadnessMovies: UserMovie[] = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
 
@@ -1963,6 +2224,8 @@ export const masterofmadnessMovies: UserMovie[] = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
 
@@ -1978,6 +2241,8 @@ export const masterofmadnessMovies: UserMovie[] = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
 
@@ -1993,6 +2258,8 @@ export const masterofmadnessMovies: UserMovie[] = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
 
@@ -2008,6 +2275,8 @@ export const masterofmadnessMovies: UserMovie[] = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
 
@@ -2023,6 +2292,8 @@ export const masterofmadnessMovies: UserMovie[] = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
 
@@ -2038,12 +2309,14 @@ export const masterofmadnessMovies: UserMovie[] = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
 
   {
     title: 'Case départ',
-    director: 'Lionel Steketee, Fabrice Éboué, Thomas N\'Gijol',
+    director: "Lionel Steketee, Fabrice Éboué, Thomas N'Gijol",
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -2053,6 +2326,8 @@ export const masterofmadnessMovies: UserMovie[] = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
 
@@ -2068,6 +2343,8 @@ export const masterofmadnessMovies: UserMovie[] = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
 
@@ -2083,6 +2360,8 @@ export const masterofmadnessMovies: UserMovie[] = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
 
@@ -2098,6 +2377,8 @@ export const masterofmadnessMovies: UserMovie[] = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
 
@@ -2113,6 +2394,8 @@ export const masterofmadnessMovies: UserMovie[] = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
 
@@ -2128,6 +2411,8 @@ export const masterofmadnessMovies: UserMovie[] = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
 
@@ -2143,6 +2428,8 @@ export const masterofmadnessMovies: UserMovie[] = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
 
@@ -2158,6 +2445,8 @@ export const masterofmadnessMovies: UserMovie[] = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
 
@@ -2173,6 +2462,8 @@ export const masterofmadnessMovies: UserMovie[] = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
 ];

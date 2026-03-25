@@ -27,6 +27,8 @@ type EditManwhaForm = {
   readTimes: number;
   readDate: string;
   owned: boolean;
+  borrowed: string;
+  loaned: string;
   wantToReadAgain: boolean;
   ratingComment: string;
 };
@@ -238,6 +240,8 @@ export class EditManwhaComponent {
           readTimes: form.readTimes,
           readDate: form.readDate,
           owned: form.owned,
+          borrowed: form.borrowed,
+          loaned: form.loaned,
           wantToReadAgain: form.wantToReadAgain,
           ratingComment: form.ratingComment ?? '',
           entity: this.isAdminView()
@@ -429,6 +433,8 @@ export class EditManwhaComponent {
       readTimes: manwha.readTimes || 0,
       readDate: manwha.readDate,
       owned: manwha.owned,
+      borrowed: manwha.borrowed ?? '',
+      loaned: manwha.loaned ?? '',
       wantToReadAgain: manwha.wantToReadAgain ?? false,
       ratingComment: manwha.ratingComment ?? '',
     };

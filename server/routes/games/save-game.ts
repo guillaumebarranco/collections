@@ -57,6 +57,8 @@ router.post('/', (req: any, res: any) => {
         wantToPlayAgain:
           normalizeBoolean(game.wantToPlayAgain, 'wantToPlayAgain') ?? false,
         ratingComment: normalizeString(game.ratingComment, 'ratingComment') ?? '',
+        borrowed: normalizeString(game.borrowed, 'borrowed') ?? '',
+        loaned: normalizeString(game.loaned, 'loaned') ?? '',
         sessions,
       };
     });

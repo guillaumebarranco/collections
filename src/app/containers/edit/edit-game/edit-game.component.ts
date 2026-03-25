@@ -38,6 +38,8 @@ type EditGameForm = {
   rating: number;
   sessions: EditGameSessionForm[];
   owned: boolean;
+  borrowed: string;
+  loaned: string;
   gamelistPriority: number;
   wantToPlayAgain: boolean;
   ratingComment: string;
@@ -306,6 +308,8 @@ export class EditGameComponent {
           rating: form.rating,
           ...this.formSessionsToPayload(form.sessions),
           owned: form.owned,
+          borrowed: form.borrowed,
+          loaned: form.loaned,
           gamelistPriority: form.gamelistPriority,
           wantToPlayAgain: form.wantToPlayAgain,
           ratingComment: form.ratingComment ?? '',
@@ -501,6 +505,8 @@ export class EditGameComponent {
       rating: game.rating,
       sessions,
       owned: game.owned,
+      borrowed: game.borrowed ?? '',
+      loaned: game.loaned ?? '',
       gamelistPriority: game.gamelistPriority ?? 0,
       wantToPlayAgain: game.wantToPlayAgain ?? false,
       ratingComment: game.ratingComment ?? '',

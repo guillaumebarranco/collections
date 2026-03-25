@@ -13,6 +13,8 @@ export const ronanCinemaMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
   {
@@ -27,6 +29,8 @@ export const ronanCinemaMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
   {
@@ -41,6 +45,8 @@ export const ronanCinemaMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
   {
@@ -55,6 +61,8 @@ export const ronanCinemaMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
   {
@@ -69,6 +77,8 @@ export const ronanCinemaMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
   {
@@ -83,6 +93,8 @@ export const ronanCinemaMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
   {
@@ -97,6 +109,8 @@ export const ronanCinemaMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
   {
@@ -111,6 +125,8 @@ export const ronanCinemaMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
   {
@@ -125,6 +141,8 @@ export const ronanCinemaMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
   {
@@ -139,6 +157,8 @@ export const ronanCinemaMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
   {
@@ -153,6 +173,8 @@ export const ronanCinemaMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
   {
@@ -167,6 +189,8 @@ export const ronanCinemaMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
   {
@@ -181,6 +205,8 @@ export const ronanCinemaMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
   {
@@ -195,6 +221,8 @@ export const ronanCinemaMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
   {
@@ -209,6 +237,8 @@ export const ronanCinemaMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
   {
@@ -223,6 +253,8 @@ export const ronanCinemaMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
   {
@@ -237,6 +269,8 @@ export const ronanCinemaMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
   {
@@ -251,6 +285,8 @@ export const ronanCinemaMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
   {
@@ -265,6 +301,8 @@ export const ronanCinemaMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
   {
@@ -279,6 +317,8 @@ export const ronanCinemaMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
   {
@@ -293,6 +333,8 @@ export const ronanCinemaMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
   {
@@ -307,6 +349,8 @@ export const ronanCinemaMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
   {
@@ -321,6 +365,8 @@ export const ronanCinemaMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
   {
@@ -335,6 +381,8 @@ export const ronanCinemaMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
   {
@@ -349,6 +397,8 @@ export const ronanCinemaMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
   {
@@ -363,6 +413,8 @@ export const ronanCinemaMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
   {
@@ -377,6 +429,8 @@ export const ronanCinemaMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
   {
@@ -391,6 +445,8 @@ export const ronanCinemaMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
   {
@@ -405,6 +461,8 @@ export const ronanCinemaMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
   {
@@ -419,6 +477,8 @@ export const ronanCinemaMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
   {
@@ -433,6 +493,8 @@ export const ronanCinemaMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
   {
@@ -447,6 +509,8 @@ export const ronanCinemaMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
 
@@ -462,6 +526,8 @@ export const ronanCinemaMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
   {
@@ -476,6 +542,8 @@ export const ronanCinemaMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
   {
@@ -490,6 +558,8 @@ export const ronanCinemaMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
   {
@@ -504,6 +574,8 @@ export const ronanCinemaMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
   {
@@ -518,6 +590,8 @@ export const ronanCinemaMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
   {
@@ -532,6 +606,8 @@ export const ronanCinemaMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
   {
@@ -546,6 +622,8 @@ export const ronanCinemaMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
   {
@@ -560,6 +638,8 @@ export const ronanCinemaMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
   {
@@ -574,6 +654,8 @@ export const ronanCinemaMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
   {
@@ -588,6 +670,8 @@ export const ronanCinemaMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
   {
@@ -602,6 +686,8 @@ export const ronanCinemaMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
   {
@@ -616,6 +702,8 @@ export const ronanCinemaMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
   {
@@ -630,6 +718,8 @@ export const ronanCinemaMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
   {
@@ -644,6 +734,8 @@ export const ronanCinemaMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
   {
@@ -658,6 +750,8 @@ export const ronanCinemaMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
   {
@@ -672,6 +766,8 @@ export const ronanCinemaMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
   {
@@ -686,6 +782,8 @@ export const ronanCinemaMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
   {
@@ -700,6 +798,8 @@ export const ronanCinemaMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
   {
@@ -714,6 +814,8 @@ export const ronanCinemaMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
   {
@@ -728,6 +830,8 @@ export const ronanCinemaMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
   {
@@ -742,6 +846,8 @@ export const ronanCinemaMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
   {
@@ -756,6 +862,8 @@ export const ronanCinemaMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
   {
@@ -770,6 +878,8 @@ export const ronanCinemaMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
   {
@@ -784,6 +894,8 @@ export const ronanCinemaMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
   {
@@ -798,6 +910,8 @@ export const ronanCinemaMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
   {
@@ -812,6 +926,8 @@ export const ronanCinemaMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
   {
@@ -826,6 +942,8 @@ export const ronanCinemaMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
   {
@@ -840,6 +958,8 @@ export const ronanCinemaMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
   {
@@ -854,6 +974,8 @@ export const ronanCinemaMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
   {
@@ -868,6 +990,8 @@ export const ronanCinemaMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
   {
@@ -882,6 +1006,8 @@ export const ronanCinemaMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
   {
@@ -896,6 +1022,8 @@ export const ronanCinemaMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
   {
@@ -910,6 +1038,8 @@ export const ronanCinemaMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
   {
@@ -924,6 +1054,8 @@ export const ronanCinemaMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
   {
@@ -938,6 +1070,8 @@ export const ronanCinemaMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
   {
@@ -952,6 +1086,8 @@ export const ronanCinemaMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
   {
@@ -966,6 +1102,8 @@ export const ronanCinemaMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
   {
@@ -980,6 +1118,8 @@ export const ronanCinemaMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
   {
@@ -994,6 +1134,8 @@ export const ronanCinemaMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
   {
@@ -1008,6 +1150,8 @@ export const ronanCinemaMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
   {
@@ -1022,6 +1166,8 @@ export const ronanCinemaMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
   {
@@ -1036,6 +1182,8 @@ export const ronanCinemaMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
   {
@@ -1050,6 +1198,8 @@ export const ronanCinemaMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
   {
@@ -1064,6 +1214,8 @@ export const ronanCinemaMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
   {
@@ -1078,6 +1230,8 @@ export const ronanCinemaMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
   {
@@ -1092,6 +1246,8 @@ export const ronanCinemaMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
   {
@@ -1106,6 +1262,8 @@ export const ronanCinemaMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
   {
@@ -1120,6 +1278,8 @@ export const ronanCinemaMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
   {
@@ -1134,6 +1294,8 @@ export const ronanCinemaMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
   {
@@ -1148,6 +1310,8 @@ export const ronanCinemaMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
   {
@@ -1162,6 +1326,8 @@ export const ronanCinemaMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
   {
@@ -1176,6 +1342,8 @@ export const ronanCinemaMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
   {
@@ -1190,6 +1358,8 @@ export const ronanCinemaMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
   {
@@ -1204,6 +1374,8 @@ export const ronanCinemaMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
   {
@@ -1218,6 +1390,8 @@ export const ronanCinemaMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
   {
@@ -1232,6 +1406,8 @@ export const ronanCinemaMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
   {
@@ -1246,6 +1422,8 @@ export const ronanCinemaMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
   {
@@ -1260,6 +1438,8 @@ export const ronanCinemaMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
   {
@@ -1274,6 +1454,8 @@ export const ronanCinemaMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
   {
@@ -1288,6 +1470,8 @@ export const ronanCinemaMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
   {
@@ -1302,6 +1486,8 @@ export const ronanCinemaMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
   {
@@ -1316,6 +1502,8 @@ export const ronanCinemaMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
   {
@@ -1330,6 +1518,8 @@ export const ronanCinemaMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
   {
@@ -1344,6 +1534,8 @@ export const ronanCinemaMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
   {
@@ -1358,6 +1550,8 @@ export const ronanCinemaMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
   {
@@ -1372,6 +1566,8 @@ export const ronanCinemaMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
   {
@@ -1386,6 +1582,8 @@ export const ronanCinemaMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
   {
@@ -1400,6 +1598,8 @@ export const ronanCinemaMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
   {
@@ -1414,6 +1614,8 @@ export const ronanCinemaMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
   {
@@ -1428,6 +1630,8 @@ export const ronanCinemaMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
   {
@@ -1442,6 +1646,8 @@ export const ronanCinemaMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
   {
@@ -1456,6 +1662,8 @@ export const ronanCinemaMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
   {
@@ -1470,6 +1678,8 @@ export const ronanCinemaMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
   {
@@ -1484,6 +1694,8 @@ export const ronanCinemaMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
   {
@@ -1498,6 +1710,8 @@ export const ronanCinemaMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
   {
@@ -1512,6 +1726,8 @@ export const ronanCinemaMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
   {
@@ -1526,6 +1742,8 @@ export const ronanCinemaMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
   {
@@ -1540,6 +1758,8 @@ export const ronanCinemaMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
   {
@@ -1554,6 +1774,8 @@ export const ronanCinemaMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
   {
@@ -1568,6 +1790,8 @@ export const ronanCinemaMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
   {
@@ -1582,6 +1806,8 @@ export const ronanCinemaMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
   {
@@ -1596,6 +1822,8 @@ export const ronanCinemaMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
   {
@@ -1610,6 +1838,8 @@ export const ronanCinemaMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
   {
@@ -1624,6 +1854,8 @@ export const ronanCinemaMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
   {
@@ -1638,6 +1870,8 @@ export const ronanCinemaMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
   {
@@ -1652,6 +1886,8 @@ export const ronanCinemaMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
   {
@@ -1666,6 +1902,8 @@ export const ronanCinemaMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
   {
@@ -1680,6 +1918,8 @@ export const ronanCinemaMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
   {
@@ -1694,6 +1934,8 @@ export const ronanCinemaMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
   {
@@ -1708,6 +1950,8 @@ export const ronanCinemaMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
   {
@@ -1722,6 +1966,8 @@ export const ronanCinemaMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
   {
@@ -1736,6 +1982,8 @@ export const ronanCinemaMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
   {
@@ -1750,6 +1998,8 @@ export const ronanCinemaMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
   {
@@ -1764,6 +2014,8 @@ export const ronanCinemaMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
   {
@@ -1778,6 +2030,8 @@ export const ronanCinemaMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
   {
@@ -1792,6 +2046,8 @@ export const ronanCinemaMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
   {
@@ -1806,6 +2062,8 @@ export const ronanCinemaMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
   {
@@ -1820,6 +2078,8 @@ export const ronanCinemaMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
   {
@@ -1834,6 +2094,8 @@ export const ronanCinemaMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
   {
@@ -1848,6 +2110,8 @@ export const ronanCinemaMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
   {
@@ -1862,6 +2126,8 @@ export const ronanCinemaMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
   {
@@ -1876,6 +2142,8 @@ export const ronanCinemaMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
   {
@@ -1890,6 +2158,8 @@ export const ronanCinemaMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
   {
@@ -1904,6 +2174,8 @@ export const ronanCinemaMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
   {
@@ -1918,6 +2190,8 @@ export const ronanCinemaMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
   {
@@ -1932,6 +2206,8 @@ export const ronanCinemaMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
   {
@@ -1946,6 +2222,8 @@ export const ronanCinemaMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
   {
@@ -1960,6 +2238,8 @@ export const ronanCinemaMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
   {
@@ -1974,6 +2254,8 @@ export const ronanCinemaMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
   {
@@ -1988,6 +2270,8 @@ export const ronanCinemaMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
   {
@@ -2002,6 +2286,8 @@ export const ronanCinemaMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
   {
@@ -2016,6 +2302,8 @@ export const ronanCinemaMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
   {
@@ -2030,6 +2318,8 @@ export const ronanCinemaMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
   {
@@ -2044,6 +2334,8 @@ export const ronanCinemaMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
   {
@@ -2058,6 +2350,8 @@ export const ronanCinemaMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
   {
@@ -2072,6 +2366,8 @@ export const ronanCinemaMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
   {
@@ -2086,6 +2382,8 @@ export const ronanCinemaMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
   {
@@ -2100,6 +2398,8 @@ export const ronanCinemaMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
   {
@@ -2114,6 +2414,8 @@ export const ronanCinemaMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
   {
@@ -2128,6 +2430,8 @@ export const ronanCinemaMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
   {
@@ -2142,6 +2446,8 @@ export const ronanCinemaMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
   {
@@ -2156,6 +2462,8 @@ export const ronanCinemaMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
   {
@@ -2170,6 +2478,8 @@ export const ronanCinemaMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
   {
@@ -2184,6 +2494,8 @@ export const ronanCinemaMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
   {
@@ -2198,6 +2510,8 @@ export const ronanCinemaMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
   {
@@ -2212,6 +2526,8 @@ export const ronanCinemaMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
   {
@@ -2226,6 +2542,8 @@ export const ronanCinemaMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
   {
@@ -2240,6 +2558,8 @@ export const ronanCinemaMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
   {
@@ -2254,6 +2574,8 @@ export const ronanCinemaMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
   {
@@ -2268,6 +2590,8 @@ export const ronanCinemaMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
   {
@@ -2282,6 +2606,8 @@ export const ronanCinemaMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
   {
@@ -2296,6 +2622,8 @@ export const ronanCinemaMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
   {
@@ -2310,6 +2638,8 @@ export const ronanCinemaMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
   {
@@ -2324,6 +2654,8 @@ export const ronanCinemaMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
   {
@@ -2338,6 +2670,8 @@ export const ronanCinemaMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
   {
@@ -2352,6 +2686,8 @@ export const ronanCinemaMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
   {
@@ -2366,6 +2702,8 @@ export const ronanCinemaMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
   {
@@ -2380,6 +2718,8 @@ export const ronanCinemaMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
   {
@@ -2394,6 +2734,8 @@ export const ronanCinemaMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
   {
@@ -2408,6 +2750,8 @@ export const ronanCinemaMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
   {
@@ -2422,6 +2766,8 @@ export const ronanCinemaMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
   {
@@ -2436,6 +2782,8 @@ export const ronanCinemaMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
   {
@@ -2450,6 +2798,8 @@ export const ronanCinemaMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
   {
@@ -2464,6 +2814,8 @@ export const ronanCinemaMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
   {
@@ -2478,6 +2830,8 @@ export const ronanCinemaMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
   {
@@ -2492,6 +2846,8 @@ export const ronanCinemaMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
   {
@@ -2506,6 +2862,8 @@ export const ronanCinemaMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
   {
@@ -2520,6 +2878,8 @@ export const ronanCinemaMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
   {
@@ -2534,6 +2894,8 @@ export const ronanCinemaMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
   {
@@ -2548,6 +2910,8 @@ export const ronanCinemaMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
   {
@@ -2562,6 +2926,8 @@ export const ronanCinemaMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
   {
@@ -2576,6 +2942,8 @@ export const ronanCinemaMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
   {
@@ -2590,6 +2958,8 @@ export const ronanCinemaMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
   {
@@ -2604,6 +2974,8 @@ export const ronanCinemaMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
   {
@@ -2618,6 +2990,8 @@ export const ronanCinemaMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
   {
@@ -2632,6 +3006,8 @@ export const ronanCinemaMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
   {
@@ -2646,6 +3022,8 @@ export const ronanCinemaMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
   {
@@ -2660,6 +3038,8 @@ export const ronanCinemaMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
   {
@@ -2674,6 +3054,8 @@ export const ronanCinemaMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
   {
@@ -2688,6 +3070,8 @@ export const ronanCinemaMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
   {
@@ -2702,6 +3086,8 @@ export const ronanCinemaMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
   {
@@ -2716,6 +3102,8 @@ export const ronanCinemaMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
   {
@@ -2730,6 +3118,8 @@ export const ronanCinemaMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
   {
@@ -2744,6 +3134,8 @@ export const ronanCinemaMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
   {
@@ -2758,6 +3150,8 @@ export const ronanCinemaMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
   {
@@ -2772,6 +3166,8 @@ export const ronanCinemaMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
   {
@@ -2786,6 +3182,8 @@ export const ronanCinemaMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
   {
@@ -2800,6 +3198,8 @@ export const ronanCinemaMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
   {
@@ -2814,6 +3214,8 @@ export const ronanCinemaMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
   {
@@ -2828,6 +3230,8 @@ export const ronanCinemaMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
   {
@@ -2842,6 +3246,8 @@ export const ronanCinemaMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
   {
@@ -2856,6 +3262,8 @@ export const ronanCinemaMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
   {
@@ -2870,6 +3278,8 @@ export const ronanCinemaMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
   {
@@ -2884,6 +3294,8 @@ export const ronanCinemaMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
   {
@@ -2898,6 +3310,8 @@ export const ronanCinemaMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
   {
@@ -2912,6 +3326,8 @@ export const ronanCinemaMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
   {
@@ -2926,6 +3342,8 @@ export const ronanCinemaMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
   {
@@ -2940,6 +3358,8 @@ export const ronanCinemaMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
   {
@@ -2954,6 +3374,8 @@ export const ronanCinemaMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
   {
@@ -2968,6 +3390,8 @@ export const ronanCinemaMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
   {
@@ -2982,6 +3406,8 @@ export const ronanCinemaMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
   {
@@ -2996,6 +3422,8 @@ export const ronanCinemaMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
   {
@@ -3010,6 +3438,8 @@ export const ronanCinemaMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
   {
@@ -3024,6 +3454,8 @@ export const ronanCinemaMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
   {
@@ -3038,6 +3470,8 @@ export const ronanCinemaMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
   {
@@ -3052,6 +3486,8 @@ export const ronanCinemaMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
   {
@@ -3066,6 +3502,8 @@ export const ronanCinemaMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
   {
@@ -3080,6 +3518,8 @@ export const ronanCinemaMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
   {
@@ -3094,6 +3534,8 @@ export const ronanCinemaMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
   {
@@ -3108,6 +3550,8 @@ export const ronanCinemaMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
   {
@@ -3122,6 +3566,8 @@ export const ronanCinemaMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
   {
@@ -3136,6 +3582,8 @@ export const ronanCinemaMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
   {
@@ -3150,6 +3598,8 @@ export const ronanCinemaMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
   {
@@ -3164,6 +3614,8 @@ export const ronanCinemaMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
   {
@@ -3178,6 +3630,8 @@ export const ronanCinemaMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
   {
@@ -3192,6 +3646,8 @@ export const ronanCinemaMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
   {
@@ -3206,6 +3662,8 @@ export const ronanCinemaMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
   {
@@ -3220,6 +3678,8 @@ export const ronanCinemaMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
   {
@@ -3234,6 +3694,8 @@ export const ronanCinemaMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
   {
@@ -3248,6 +3710,8 @@ export const ronanCinemaMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
   {
@@ -3262,6 +3726,8 @@ export const ronanCinemaMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
   {
@@ -3276,6 +3742,8 @@ export const ronanCinemaMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
   {
@@ -3290,6 +3758,8 @@ export const ronanCinemaMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
   {
@@ -3304,6 +3774,8 @@ export const ronanCinemaMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
   {
@@ -3318,6 +3790,8 @@ export const ronanCinemaMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
   {
@@ -3332,6 +3806,8 @@ export const ronanCinemaMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
   {
@@ -3346,6 +3822,8 @@ export const ronanCinemaMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
   {
@@ -3360,6 +3838,8 @@ export const ronanCinemaMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
   {
@@ -3374,6 +3854,8 @@ export const ronanCinemaMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
   {
@@ -3388,6 +3870,8 @@ export const ronanCinemaMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
   {
@@ -3402,6 +3886,8 @@ export const ronanCinemaMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
   {
@@ -3416,6 +3902,8 @@ export const ronanCinemaMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
   {
@@ -3430,6 +3918,8 @@ export const ronanCinemaMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
   {
@@ -3444,6 +3934,8 @@ export const ronanCinemaMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
   {
@@ -3458,6 +3950,8 @@ export const ronanCinemaMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
   {
@@ -3472,6 +3966,8 @@ export const ronanCinemaMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
   {
@@ -3486,6 +3982,8 @@ export const ronanCinemaMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
   {
@@ -3500,6 +3998,8 @@ export const ronanCinemaMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
   {
@@ -3514,6 +4014,8 @@ export const ronanCinemaMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
   {
@@ -3528,6 +4030,8 @@ export const ronanCinemaMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
   {
@@ -3542,6 +4046,8 @@ export const ronanCinemaMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
   {
@@ -3556,6 +4062,8 @@ export const ronanCinemaMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
   {
@@ -3570,6 +4078,8 @@ export const ronanCinemaMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
   {
@@ -3584,6 +4094,8 @@ export const ronanCinemaMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
   {
@@ -3598,6 +4110,8 @@ export const ronanCinemaMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
   {
@@ -3612,6 +4126,8 @@ export const ronanCinemaMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
   {
@@ -3626,6 +4142,8 @@ export const ronanCinemaMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
   {
@@ -3640,6 +4158,8 @@ export const ronanCinemaMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
 
@@ -3655,6 +4175,8 @@ export const ronanCinemaMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
   {
@@ -3669,6 +4191,8 @@ export const ronanCinemaMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
   {
@@ -3683,6 +4207,8 @@ export const ronanCinemaMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
   {
@@ -3697,6 +4223,8 @@ export const ronanCinemaMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
   {
@@ -3711,6 +4239,8 @@ export const ronanCinemaMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
   {
@@ -3725,6 +4255,8 @@ export const ronanCinemaMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
   {
@@ -3739,6 +4271,8 @@ export const ronanCinemaMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
   {
@@ -3753,6 +4287,8 @@ export const ronanCinemaMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
   {
@@ -3767,6 +4303,8 @@ export const ronanCinemaMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
   {
@@ -3781,6 +4319,8 @@ export const ronanCinemaMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
   {
@@ -3795,6 +4335,8 @@ export const ronanCinemaMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
   {
@@ -3809,6 +4351,8 @@ export const ronanCinemaMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
   {
@@ -3823,6 +4367,8 @@ export const ronanCinemaMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
   {
@@ -3837,6 +4383,8 @@ export const ronanCinemaMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
   {
@@ -3851,6 +4399,8 @@ export const ronanCinemaMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
   {
@@ -3865,6 +4415,8 @@ export const ronanCinemaMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
   {
@@ -3879,6 +4431,8 @@ export const ronanCinemaMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
   {
@@ -3893,6 +4447,8 @@ export const ronanCinemaMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
   {
@@ -3907,6 +4463,8 @@ export const ronanCinemaMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
   {
@@ -3921,6 +4479,8 @@ export const ronanCinemaMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
   {
@@ -3935,6 +4495,8 @@ export const ronanCinemaMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
   {
@@ -3949,6 +4511,8 @@ export const ronanCinemaMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
   {
@@ -3963,6 +4527,8 @@ export const ronanCinemaMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
   {
@@ -3977,6 +4543,8 @@ export const ronanCinemaMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
   {
@@ -3991,6 +4559,8 @@ export const ronanCinemaMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
   {
@@ -4005,6 +4575,8 @@ export const ronanCinemaMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
   {
@@ -4019,6 +4591,8 @@ export const ronanCinemaMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
   {
@@ -4033,6 +4607,8 @@ export const ronanCinemaMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
   {
@@ -4047,6 +4623,8 @@ export const ronanCinemaMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
   {
@@ -4061,6 +4639,8 @@ export const ronanCinemaMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
   {
@@ -4075,6 +4655,8 @@ export const ronanCinemaMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
   {
@@ -4089,6 +4671,8 @@ export const ronanCinemaMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
   {
@@ -4103,6 +4687,8 @@ export const ronanCinemaMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
   {
@@ -4117,6 +4703,8 @@ export const ronanCinemaMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
   {
@@ -4131,6 +4719,8 @@ export const ronanCinemaMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
   {
@@ -4145,6 +4735,8 @@ export const ronanCinemaMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
   {
@@ -4159,6 +4751,8 @@ export const ronanCinemaMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
   {
@@ -4173,6 +4767,8 @@ export const ronanCinemaMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
   {
@@ -4187,6 +4783,8 @@ export const ronanCinemaMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
   {
@@ -4201,6 +4799,8 @@ export const ronanCinemaMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
   {
@@ -4215,6 +4815,8 @@ export const ronanCinemaMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
   {
@@ -4229,6 +4831,8 @@ export const ronanCinemaMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
   {
@@ -4243,6 +4847,8 @@ export const ronanCinemaMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
   {
@@ -4257,6 +4863,8 @@ export const ronanCinemaMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
   {
@@ -4271,6 +4879,8 @@ export const ronanCinemaMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
   {
@@ -4285,6 +4895,8 @@ export const ronanCinemaMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
   {
@@ -4299,6 +4911,8 @@ export const ronanCinemaMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
 
@@ -4314,6 +4928,8 @@ export const ronanCinemaMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
   {
@@ -4328,6 +4944,8 @@ export const ronanCinemaMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
   {
@@ -4342,6 +4960,8 @@ export const ronanCinemaMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
 
@@ -4357,6 +4977,8 @@ export const ronanCinemaMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
 
@@ -4372,6 +4994,8 @@ export const ronanCinemaMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
   {
@@ -4386,6 +5010,8 @@ export const ronanCinemaMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
   {
@@ -4400,6 +5026,8 @@ export const ronanCinemaMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
 
@@ -4415,6 +5043,8 @@ export const ronanCinemaMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
   {
@@ -4429,6 +5059,8 @@ export const ronanCinemaMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
   {
@@ -4443,6 +5075,8 @@ export const ronanCinemaMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
   {
@@ -4457,6 +5091,8 @@ export const ronanCinemaMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
   {
@@ -4471,6 +5107,8 @@ export const ronanCinemaMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
   {
@@ -4485,6 +5123,8 @@ export const ronanCinemaMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
   {
@@ -4499,6 +5139,8 @@ export const ronanCinemaMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
   {
@@ -4513,6 +5155,8 @@ export const ronanCinemaMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
 
@@ -4528,6 +5172,8 @@ export const ronanCinemaMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
 ];

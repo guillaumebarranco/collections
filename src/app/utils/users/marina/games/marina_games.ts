@@ -9,6 +9,8 @@ export const marinaGames: UserGame[] = [
     gamelistPriority: 1,
     wantToPlayAgain: false,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     sessions: [],
   },
 
@@ -20,6 +22,8 @@ export const marinaGames: UserGame[] = [
     gamelistPriority: 1,
     wantToPlayAgain: false,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     sessions: [],
   },
 ];

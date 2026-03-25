@@ -156,14 +156,25 @@
       />
     </div>
 
-    <div class="form-row checkbox-row">
-      <label for="borrowed">Prêté</label>
+    <div class="form-row">
+      <label for="borrowed">Emprunté à</label>
       <input
         id="borrowed"
-        type="checkbox"
-        [checked]="bookForm()?.borrowed"
-        (change)="updateCheckbox('borrowed', $any($event).target.checked)"
+        type="text"
+        [ngModel]="bookForm()?.borrowed"
+        (ngModelChange)="updateField('borrowed', $event)"
         name="borrowed"
+      />
+    </div>
+
+    <div class="form-row">
+      <label for="loaned">Prêté à</label>
+      <input
+        id="loaned"
+        type="text"
+        [ngModel]="bookForm()?.loaned"
+        (ngModelChange)="updateField('loaned', $event)"
+        name="loaned"
       />
     </div>
 
@@ -173,7 +184,9 @@
         id="wantToReadAgain"
         type="checkbox"
         [checked]="bookForm()?.wantToReadAgain"
-        (change)="updateCheckbox('wantToReadAgain', $any($event).target.checked)"
+        (change)="
+          updateCheckbox('wantToReadAgain', $any($event).target.checked)
+        "
         name="wantToReadAgain"
       />
     </div>

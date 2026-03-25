@@ -4265,6 +4265,40 @@ export const baseSeries: BaseSerie[] = [
     countryOrigin: 'États-Unis',
   },
   {
+    title: 'Why Women Kill',
+    director: 'Marc Cherry',
+    actors: [
+      {
+        name: 'Lucy Liu',
+      },
+      {
+        name: 'Ginnifer Goodwin',
+      },
+      {
+        name: 'Kirby Howell-Baptiste',
+      },
+    ],
+    coverUrl: 'https://www.avoir-alire.com/IMG/logo/arton42401.jpg',
+    releaseDate: '2019-08-15',
+    endDate: '2022-10-27',
+    genre: 'Comedy, Crime, Drama',
+    seasonsData: [
+      {
+        seasonNumber: 1,
+        nbEpisodes: 10,
+        totalLength: 500,
+      },
+      {
+        seasonNumber: 2,
+        nbEpisodes: 10,
+        totalLength: 500,
+      },
+    ],
+    description: '',
+    saga: '',
+    countryOrigin: 'États-Unis',
+  },
+  {
     title: 'Yu Yu Hakusho (live-action)',
     director: 'Shô Tsukikawa',
     actors: [

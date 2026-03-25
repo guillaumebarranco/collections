@@ -97,6 +97,8 @@ export class SeriesComponent implements OnInit {
 
   optionalViewConfig = signal<Record<OptionalSerieView, boolean>>({
     owned: true,
+    borrowed: true,
+    loaned: true,
     toReWatch: true,
     sagas: false,
     countries: false,
@@ -180,6 +182,34 @@ export class SeriesComponent implements OnInit {
       series = this.allWatchlistSeries();
     } else if (this.selectedView() === 'owned') {
       series = this.allSeries().filter((serie) => serie.owned);
+    } else if (this.selectedView() === 'borrowed') {
+      const key = (s: Serie) => `${s.title}|${s.director}`;
+      const readB = this.allSeries().filter((s) =>
+        Boolean(s.borrowed?.trim())
+      );
+      const listB = this.allWatchlistSeries().filter((s) =>
+        Boolean(s.borrowed?.trim())
+      );
+      const seen = new Set<string>();
+      series = [...readB, ...listB].filter((s) => {
+        const k = key(s);
+        if (seen.has(k)) return false;
+        seen.add(k);
+        return true;
+      });
+    } else if (this.selectedView() === 'loaned') {
+      const key = (s: Serie) => `${s.title}|${s.director}`;
+      const readL = this.allSeries().filter((s) => Boolean(s.loaned?.trim()));
+      const listL = this.allWatchlistSeries().filter((s) =>
+        Boolean(s.loaned?.trim())
+      );
+      const seen = new Set<string>();
+      series = [...readL, ...listL].filter((s) => {
+        const k = key(s);
+        if (seen.has(k)) return false;
+        seen.add(k);
+        return true;
+      });
     } else if (this.selectedView() === 'toReWatch') {
       series = this.allSeries().filter(
         (serie) => serie.wantToWatchAgain === true
@@ -267,6 +297,8 @@ export class SeriesComponent implements OnInit {
     this.isLoadingViewConfig = true;
     this.optionalViewConfig.set({
       owned: parsed.owned ?? true,
+      borrowed: parsed.borrowed ?? true,
+      loaned: parsed.loaned ?? true,
       toReWatch: parsed.toReWatch ?? true,
       sagas: parsed.sagas ?? false,
       countries: parsed.countries ?? false,

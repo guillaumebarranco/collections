@@ -78,10 +78,16 @@ export class MangasHeaderComponent {
     this.selectedView() === 'readlist'
       ? 'Mangas à lire'
       : this.selectedView() === 'owned'
-      ? 'Mangas possédés'
-      : this.selectedView() === 'recommendations'
-      ? 'Recommandations'
-      : 'Mangas lus'
+        ? 'Mangas possédés'
+        : this.selectedView() === 'borrowed'
+          ? 'Mangas empruntés'
+          : this.selectedView() === 'loaned'
+            ? 'Mangas prêtés'
+            : this.selectedView() === 'toReRead'
+              ? 'Mangas à relire'
+              : this.selectedView() === 'recommendations'
+                ? 'Recommandations'
+                : 'Mangas lus'
   );
 
   getSelectMangasRoute(): string {

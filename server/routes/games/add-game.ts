@@ -48,6 +48,8 @@ function formatUserGame(user: any): string {
     gamelistPriority: ${user.gamelistPriority ?? 1},
     wantToPlayAgain: ${user.wantToPlayAgain ?? false},
     ratingComment: '${escapeString(user.ratingComment ?? '')}',
+    borrowed: '${escapeString(user.borrowed ?? '')}',
+    loaned: '${escapeString(user.loaned ?? '')}',
     ${sessionsStr}
   },`;
 }
@@ -150,6 +152,8 @@ router.post('/add', (req: any, res: any) => {
         normalizeBoolean(user.wantToPlayAgain, 'wantToPlayAgain') ?? false,
       ratingComment:
         normalizeString(user.ratingComment, 'ratingComment') ?? '',
+      borrowed: normalizeString(user.borrowed, 'borrowed') ?? '',
+      loaned: normalizeString(user.loaned, 'loaned') ?? '',
       sessions,
     };
 

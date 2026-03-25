@@ -32,6 +32,8 @@ type EditMovieForm = {
   lastViewedDate: string;
   seenAtCinema: boolean;
   owned: boolean;
+  borrowed: string;
+  loaned: string;
   wantToSeeAgain: boolean;
   watchPriority: number;
   ratingComment: string;
@@ -263,6 +265,8 @@ export class EditMovieComponent {
           lastViewedDate: form.lastViewedDate,
           seenAtCinema: form.seenAtCinema,
           owned: form.owned,
+          borrowed: form.borrowed,
+          loaned: form.loaned,
           wantToSeeAgain: form.wantToSeeAgain,
           watchPriority: form.watchPriority,
           ratingComment: form.ratingComment ?? '',
@@ -463,6 +467,8 @@ export class EditMovieComponent {
       lastViewedDate: movie.lastViewedDate,
       seenAtCinema: movie.seenAtCinema,
       owned: movie.owned,
+      borrowed: movie.borrowed ?? '',
+      loaned: movie.loaned ?? '',
       wantToSeeAgain: movie.wantToSeeAgain ?? false,
       watchPriority: movie.watchPriority ?? 0,
       ratingComment: movie.ratingComment ?? '',

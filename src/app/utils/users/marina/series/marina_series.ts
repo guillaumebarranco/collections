@@ -34,6 +34,8 @@ export const marinaSeries: UserSerie[] = [
     watchPriority: 1,
     wantToWatchAgain: false,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
   },
 
   {
@@ -51,6 +53,8 @@ export const marinaSeries: UserSerie[] = [
     watchPriority: 1,
     wantToWatchAgain: false,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
   },
 
   {
@@ -104,6 +108,8 @@ export const marinaSeries: UserSerie[] = [
     watchPriority: 1,
     wantToWatchAgain: false,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
   },
 
   {
@@ -163,6 +169,8 @@ export const marinaSeries: UserSerie[] = [
     watchPriority: 1,
     wantToWatchAgain: false,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
   },
 
   {
@@ -222,6 +230,8 @@ export const marinaSeries: UserSerie[] = [
     watchPriority: 1,
     wantToWatchAgain: false,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
   },
 
   {
@@ -257,6 +267,8 @@ export const marinaSeries: UserSerie[] = [
     watchPriority: 1,
     wantToWatchAgain: false,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
   },
 
   {
@@ -298,6 +310,8 @@ export const marinaSeries: UserSerie[] = [
     watchPriority: 1,
     wantToWatchAgain: false,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
   },
 
   {
@@ -327,6 +341,8 @@ export const marinaSeries: UserSerie[] = [
     watchPriority: 1,
     wantToWatchAgain: false,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
   },
 
   {
@@ -374,6 +390,8 @@ export const marinaSeries: UserSerie[] = [
     watchPriority: 1,
     wantToWatchAgain: false,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
   },
 
   {
@@ -427,6 +445,8 @@ export const marinaSeries: UserSerie[] = [
     watchPriority: 1,
     wantToWatchAgain: false,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
   },
 
   {
@@ -468,6 +488,8 @@ export const marinaSeries: UserSerie[] = [
     watchPriority: 1,
     wantToWatchAgain: false,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
   },
 
   {
@@ -485,6 +507,8 @@ export const marinaSeries: UserSerie[] = [
     watchPriority: 1,
     wantToWatchAgain: false,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
   },
 
   {
@@ -514,6 +538,8 @@ export const marinaSeries: UserSerie[] = [
     watchPriority: 1,
     wantToWatchAgain: false,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
   },
 
   {
@@ -555,6 +581,8 @@ export const marinaSeries: UserSerie[] = [
     watchPriority: 1,
     wantToWatchAgain: false,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
   },
 
   {
@@ -572,6 +600,8 @@ export const marinaSeries: UserSerie[] = [
     watchPriority: 1,
     wantToWatchAgain: false,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
   },
 
   {
@@ -595,6 +625,8 @@ export const marinaSeries: UserSerie[] = [
     watchPriority: 1,
     wantToWatchAgain: false,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
   },
 
   {
@@ -630,6 +662,8 @@ export const marinaSeries: UserSerie[] = [
     watchPriority: 1,
     wantToWatchAgain: false,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
   },
 
   {
@@ -671,6 +705,8 @@ export const marinaSeries: UserSerie[] = [
     watchPriority: 1,
     wantToWatchAgain: false,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
   },
 
   {
@@ -718,6 +754,8 @@ export const marinaSeries: UserSerie[] = [
     watchPriority: 1,
     wantToWatchAgain: false,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
   },
 
   {
@@ -747,6 +785,8 @@ export const marinaSeries: UserSerie[] = [
     watchPriority: 1,
     wantToWatchAgain: false,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
   },
 
   {
@@ -788,6 +828,8 @@ export const marinaSeries: UserSerie[] = [
     watchPriority: 1,
     wantToWatchAgain: false,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
   },
 
   {
@@ -823,6 +865,8 @@ export const marinaSeries: UserSerie[] = [
     watchPriority: 1,
     wantToWatchAgain: false,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
   },
 
   {
@@ -876,6 +920,8 @@ export const marinaSeries: UserSerie[] = [
     watchPriority: 1,
     wantToWatchAgain: false,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
   },
 
   {
@@ -953,6 +999,8 @@ export const marinaSeries: UserSerie[] = [
     watchPriority: 1,
     wantToWatchAgain: false,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
   },
 
   {
@@ -982,6 +1030,8 @@ export const marinaSeries: UserSerie[] = [
     watchPriority: 1,
     wantToWatchAgain: false,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
   },
 
   {
@@ -1035,6 +1085,8 @@ export const marinaSeries: UserSerie[] = [
     watchPriority: 1,
     wantToWatchAgain: false,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
   },
 
   {
@@ -1088,6 +1140,8 @@ export const marinaSeries: UserSerie[] = [
     watchPriority: 1,
     wantToWatchAgain: false,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
   },
 
   {
@@ -1111,6 +1165,8 @@ export const marinaSeries: UserSerie[] = [
     watchPriority: 1,
     wantToWatchAgain: false,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
   },
 
   {
@@ -1146,6 +1202,8 @@ export const marinaSeries: UserSerie[] = [
     watchPriority: 1,
     wantToWatchAgain: false,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
   },
 
   {
@@ -1367,6 +1425,8 @@ export const marinaSeries: UserSerie[] = [
     watchPriority: 1,
     wantToWatchAgain: false,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
   },
 
   {
@@ -1384,6 +1444,8 @@ export const marinaSeries: UserSerie[] = [
     watchPriority: 1,
     wantToWatchAgain: false,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
   },
 
   {
@@ -1407,6 +1469,8 @@ export const marinaSeries: UserSerie[] = [
     watchPriority: 1,
     wantToWatchAgain: false,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
   },
 
   {
@@ -1442,6 +1506,8 @@ export const marinaSeries: UserSerie[] = [
     watchPriority: 1,
     wantToWatchAgain: false,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
   },
 
   {
@@ -1477,6 +1543,8 @@ export const marinaSeries: UserSerie[] = [
     watchPriority: 1,
     wantToWatchAgain: false,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
   },
 
   {
@@ -1500,6 +1568,8 @@ export const marinaSeries: UserSerie[] = [
     watchPriority: 1,
     wantToWatchAgain: false,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
   },
 
   {
@@ -1517,6 +1587,8 @@ export const marinaSeries: UserSerie[] = [
     watchPriority: 1,
     wantToWatchAgain: false,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
   },
 
   {
@@ -1534,6 +1606,8 @@ export const marinaSeries: UserSerie[] = [
     watchPriority: 1,
     wantToWatchAgain: false,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
   },
 
   {
@@ -1551,6 +1625,8 @@ export const marinaSeries: UserSerie[] = [
     watchPriority: 1,
     wantToWatchAgain: false,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
   },
 
   {
@@ -1574,6 +1650,8 @@ export const marinaSeries: UserSerie[] = [
     watchPriority: 1,
     wantToWatchAgain: false,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
   },
 
   {
@@ -1597,6 +1675,8 @@ export const marinaSeries: UserSerie[] = [
     watchPriority: 1,
     wantToWatchAgain: false,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
   },
 
   {
@@ -1668,6 +1748,8 @@ export const marinaSeries: UserSerie[] = [
     watchPriority: 1,
     wantToWatchAgain: false,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
   },
 
   {
@@ -1697,6 +1779,8 @@ export const marinaSeries: UserSerie[] = [
     watchPriority: 1,
     wantToWatchAgain: false,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
   },
 
   {
@@ -1720,6 +1804,8 @@ export const marinaSeries: UserSerie[] = [
     watchPriority: 1,
     wantToWatchAgain: false,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
   },
 
   {
@@ -1737,6 +1823,8 @@ export const marinaSeries: UserSerie[] = [
     watchPriority: 1,
     wantToWatchAgain: false,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
   },
 
   {
@@ -1754,6 +1842,8 @@ export const marinaSeries: UserSerie[] = [
     watchPriority: 1,
     wantToWatchAgain: false,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
   },
 
   /* Séries ajoutées depuis base_series_from_marina */
@@ -1772,6 +1862,8 @@ export const marinaSeries: UserSerie[] = [
     watchPriority: 1,
     wantToWatchAgain: false,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
   },
   {
     title: 'Les maîtres de la peur (Fear Itself)',
@@ -1788,6 +1880,8 @@ export const marinaSeries: UserSerie[] = [
     watchPriority: 1,
     wantToWatchAgain: false,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
   },
   {
     title: 'Gossip Girl',
@@ -1804,6 +1898,8 @@ export const marinaSeries: UserSerie[] = [
     watchPriority: 1,
     wantToWatchAgain: false,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
   },
   {
     title: 'Santa Clarita Diet',
@@ -1820,6 +1916,8 @@ export const marinaSeries: UserSerie[] = [
     watchPriority: 1,
     wantToWatchAgain: false,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
   },
   {
     title: 'Cassandra',
@@ -1836,6 +1934,8 @@ export const marinaSeries: UserSerie[] = [
     watchPriority: 1,
     wantToWatchAgain: false,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
   },
   {
     title: 'Good Doctor',
@@ -1852,6 +1952,8 @@ export const marinaSeries: UserSerie[] = [
     watchPriority: 1,
     wantToWatchAgain: false,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
   },
   {
     title: 'Apple cider vinegar',
@@ -1868,6 +1970,8 @@ export const marinaSeries: UserSerie[] = [
     watchPriority: 1,
     wantToWatchAgain: false,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
   },
   {
     title: 'La chute de la maison Usher',
@@ -1884,6 +1988,8 @@ export const marinaSeries: UserSerie[] = [
     watchPriority: 1,
     wantToWatchAgain: false,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
   },
   {
     title: 'Pretty Little Liars',
@@ -1900,6 +2006,8 @@ export const marinaSeries: UserSerie[] = [
     watchPriority: 1,
     wantToWatchAgain: false,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
   },
   {
     title: 'Orange is the New Black',
@@ -1916,6 +2024,8 @@ export const marinaSeries: UserSerie[] = [
     watchPriority: 1,
     wantToWatchAgain: false,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
   },
   {
     title: 'The Good Place',
@@ -1932,6 +2042,8 @@ export const marinaSeries: UserSerie[] = [
     watchPriority: 1,
     wantToWatchAgain: false,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
   },
   {
     title: 'Dead to Me',
@@ -1948,6 +2060,8 @@ export const marinaSeries: UserSerie[] = [
     watchPriority: 1,
     wantToWatchAgain: false,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
   },
   {
     title: 'Insatiable',
@@ -1964,6 +2078,8 @@ export const marinaSeries: UserSerie[] = [
     watchPriority: 1,
     wantToWatchAgain: false,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
   },
   {
     title: 'The Haunting of Hill House',
@@ -1980,6 +2096,8 @@ export const marinaSeries: UserSerie[] = [
     watchPriority: 1,
     wantToWatchAgain: false,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
   },
   {
     title: 'The Haunting of Bly Manor',
@@ -1996,6 +2114,8 @@ export const marinaSeries: UserSerie[] = [
     watchPriority: 1,
     wantToWatchAgain: false,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
   },
   {
     title: 'Sweet Home',
@@ -2012,6 +2132,8 @@ export const marinaSeries: UserSerie[] = [
     watchPriority: 1,
     wantToWatchAgain: false,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
   },
   {
     title: 'I Am a Killer',
@@ -2028,6 +2150,8 @@ export const marinaSeries: UserSerie[] = [
     watchPriority: 1,
     wantToWatchAgain: false,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
   },
   {
     title: 'Les chroniques de la peur',
@@ -2044,6 +2168,8 @@ export const marinaSeries: UserSerie[] = [
     watchPriority: 1,
     wantToWatchAgain: false,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
   },
   {
     title: 'Poupée russe',
@@ -2060,6 +2186,8 @@ export const marinaSeries: UserSerie[] = [
     watchPriority: 1,
     wantToWatchAgain: false,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
   },
   {
     title: 'Mon petit renne',
@@ -2076,6 +2204,8 @@ export const marinaSeries: UserSerie[] = [
     watchPriority: 1,
     wantToWatchAgain: false,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
   },
   {
     title: 'Slasher',
@@ -2092,6 +2222,8 @@ export const marinaSeries: UserSerie[] = [
     watchPriority: 1,
     wantToWatchAgain: false,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
   },
   {
     title: 'Scream Queens',
@@ -2108,6 +2240,8 @@ export const marinaSeries: UserSerie[] = [
     watchPriority: 1,
     wantToWatchAgain: false,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
   },
   {
     title: 'Hannah Montana',
@@ -2124,6 +2258,8 @@ export const marinaSeries: UserSerie[] = [
     watchPriority: 1,
     wantToWatchAgain: false,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
   },
   {
     title: 'Phénomène Raven',
@@ -2140,6 +2276,8 @@ export const marinaSeries: UserSerie[] = [
     watchPriority: 1,
     wantToWatchAgain: false,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
   },
   {
     title: 'Les sorciers de Waverly Place',
@@ -2156,6 +2294,8 @@ export const marinaSeries: UserSerie[] = [
     watchPriority: 1,
     wantToWatchAgain: false,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
   },
   {
     title: 'La vie de palace de Zack et Cody',
@@ -2172,6 +2312,8 @@ export const marinaSeries: UserSerie[] = [
     watchPriority: 1,
     wantToWatchAgain: false,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
   },
   {
     title: 'La vie de croisière de Zack et Cody',
@@ -2188,6 +2330,8 @@ export const marinaSeries: UserSerie[] = [
     watchPriority: 1,
     wantToWatchAgain: false,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
   },
   {
     title: 'Phineas et Ferb',
@@ -2204,6 +2348,8 @@ export const marinaSeries: UserSerie[] = [
     watchPriority: 1,
     wantToWatchAgain: false,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
   },
   {
     title: 'Jessie',
@@ -2220,6 +2366,8 @@ export const marinaSeries: UserSerie[] = [
     watchPriority: 1,
     wantToWatchAgain: false,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
   },
   {
     title: 'Drôle de frère - La guerre des Stevens',
@@ -2236,6 +2384,8 @@ export const marinaSeries: UserSerie[] = [
     watchPriority: 1,
     wantToWatchAgain: false,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
   },
   {
     title: 'Lizzie McGuire',
@@ -2252,6 +2402,8 @@ export const marinaSeries: UserSerie[] = [
     watchPriority: 1,
     wantToWatchAgain: false,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
   },
   {
     title: 'Shake It Up',
@@ -2268,6 +2420,8 @@ export const marinaSeries: UserSerie[] = [
     watchPriority: 1,
     wantToWatchAgain: false,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
   },
   {
     title: 'Austin et Ally',
@@ -2284,6 +2438,8 @@ export const marinaSeries: UserSerie[] = [
     watchPriority: 1,
     wantToWatchAgain: false,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
   },
   {
     title: 'Phil du futur',
@@ -2300,6 +2456,8 @@ export const marinaSeries: UserSerie[] = [
     watchPriority: 1,
     wantToWatchAgain: false,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
   },
   {
     title: 'Cory est dans la place',
@@ -2316,6 +2474,8 @@ export const marinaSeries: UserSerie[] = [
     watchPriority: 1,
     wantToWatchAgain: false,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
   },
   {
     title: 'Sonny',
@@ -2332,6 +2492,8 @@ export const marinaSeries: UserSerie[] = [
     watchPriority: 1,
     wantToWatchAgain: false,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
   },
   {
     title: 'Jonas L.A',
@@ -2348,6 +2510,8 @@ export const marinaSeries: UserSerie[] = [
     watchPriority: 1,
     wantToWatchAgain: false,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
   },
   {
     title: 'Bonne chance Charlie',
@@ -2364,6 +2528,8 @@ export const marinaSeries: UserSerie[] = [
     watchPriority: 1,
     wantToWatchAgain: false,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
   },
   {
     title: 'Section Genius',
@@ -2380,6 +2546,8 @@ export const marinaSeries: UserSerie[] = [
     watchPriority: 1,
     wantToWatchAgain: false,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
   },
   {
     title: 'Violetta',
@@ -2396,6 +2564,8 @@ export const marinaSeries: UserSerie[] = [
     watchPriority: 1,
     wantToWatchAgain: false,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
   },
   {
     title: 'La petite sirène',
@@ -2412,6 +2582,8 @@ export const marinaSeries: UserSerie[] = [
     watchPriority: 1,
     wantToWatchAgain: false,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
   },
   {
     title: 'Tic et Tac, les rangers du risque',
@@ -2428,6 +2600,8 @@ export const marinaSeries: UserSerie[] = [
     watchPriority: 1,
     wantToWatchAgain: false,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
   },
   {
     title: 'Aladdin',
@@ -2444,6 +2618,8 @@ export const marinaSeries: UserSerie[] = [
     watchPriority: 1,
     wantToWatchAgain: false,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
   },
   {
     title: 'Timon et Pumbaa',
@@ -2460,6 +2636,8 @@ export const marinaSeries: UserSerie[] = [
     watchPriority: 1,
     wantToWatchAgain: false,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
   },
   {
     title: 'La cour de récré',
@@ -2476,6 +2654,8 @@ export const marinaSeries: UserSerie[] = [
     watchPriority: 1,
     wantToWatchAgain: false,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
   },
   {
     title: 'Hercule',
@@ -2492,6 +2672,8 @@ export const marinaSeries: UserSerie[] = [
     watchPriority: 1,
     wantToWatchAgain: false,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
   },
   {
     title: "Les aventures de Buzz l'Éclair",
@@ -2508,6 +2690,8 @@ export const marinaSeries: UserSerie[] = [
     watchPriority: 1,
     wantToWatchAgain: false,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
   },
   {
     title: 'La légende de Tarzan',
@@ -2524,6 +2708,8 @@ export const marinaSeries: UserSerie[] = [
     watchPriority: 1,
     wantToWatchAgain: false,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
   },
   {
     title: 'Kim Possible',
@@ -2540,6 +2726,8 @@ export const marinaSeries: UserSerie[] = [
     watchPriority: 1,
     wantToWatchAgain: false,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
   },
   {
     title: 'Lilo et Stitch la série',
@@ -2556,6 +2744,8 @@ export const marinaSeries: UserSerie[] = [
     watchPriority: 1,
     wantToWatchAgain: false,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
   },
   {
     title: 'American Dragon Jake Long',
@@ -2572,6 +2762,8 @@ export const marinaSeries: UserSerie[] = [
     watchPriority: 1,
     wantToWatchAgain: false,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
   },
   {
     title: 'W.I.T.C.H.',
@@ -2588,6 +2780,8 @@ export const marinaSeries: UserSerie[] = [
     watchPriority: 1,
     wantToWatchAgain: false,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
   },
   {
     title: "Kuzco, un empereur à l'école",
@@ -2604,5 +2798,7 @@ export const marinaSeries: UserSerie[] = [
     watchPriority: 1,
     wantToWatchAgain: false,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
   },
 ];

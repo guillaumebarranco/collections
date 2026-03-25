@@ -52,6 +52,8 @@ export const ronanSeries: UserSeries = [
     watchPriority: 1,
     wantToWatchAgain: false,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
   },
   {
     title: 'How I Met Your Mother',
@@ -116,6 +118,8 @@ export const ronanSeries: UserSeries = [
     watchPriority: 1,
     wantToWatchAgain: false,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
   },
   {
     title: 'Loki',
@@ -138,6 +142,8 @@ export const ronanSeries: UserSeries = [
     watchPriority: 1,
     wantToWatchAgain: false,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
   },
   {
     title: 'Le Jeu de la Dame',
@@ -154,6 +160,8 @@ export const ronanSeries: UserSeries = [
     watchPriority: 1,
     wantToWatchAgain: false,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
   },
   {
     title: 'WandaVision',
@@ -170,6 +178,8 @@ export const ronanSeries: UserSeries = [
     watchPriority: 1,
     wantToWatchAgain: false,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
   },
   {
     title: 'Obi-Wan Kenobi',
@@ -186,6 +196,8 @@ export const ronanSeries: UserSeries = [
     watchPriority: 1,
     wantToWatchAgain: false,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
   },
   {
     title: 'Squid Game',
@@ -214,6 +226,8 @@ export const ronanSeries: UserSeries = [
     watchPriority: 1,
     wantToWatchAgain: false,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
   },
   {
     title: 'Breaking Bad',
@@ -254,6 +268,8 @@ export const ronanSeries: UserSeries = [
     watchPriority: 1,
     wantToWatchAgain: false,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
   },
   {
     title: 'Umbrella Academy',
@@ -288,6 +304,8 @@ export const ronanSeries: UserSeries = [
     watchPriority: 1,
     wantToWatchAgain: false,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
   },
   {
     title: 'You',
@@ -328,6 +346,8 @@ export const ronanSeries: UserSeries = [
     watchPriority: 1,
     wantToWatchAgain: false,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
   },
   {
     title: 'The Boys',
@@ -362,6 +382,8 @@ export const ronanSeries: UserSeries = [
     watchPriority: 1,
     wantToWatchAgain: false,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
   },
   {
     title: 'Stranger Things',
@@ -402,6 +424,8 @@ export const ronanSeries: UserSeries = [
     watchPriority: 1,
     wantToWatchAgain: false,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
   },
   {
     title: 'Lupin',
@@ -430,6 +454,8 @@ export const ronanSeries: UserSeries = [
     watchPriority: 1,
     wantToWatchAgain: false,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
   },
   {
     title: 'Arcane',
@@ -452,6 +478,8 @@ export const ronanSeries: UserSeries = [
     watchPriority: 1,
     wantToWatchAgain: false,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
   },
   {
     title: 'South Park',
@@ -618,6 +646,8 @@ export const ronanSeries: UserSeries = [
     watchPriority: 1,
     wantToWatchAgain: false,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
   },
   {
     title: 'Daredevil',
@@ -646,6 +676,8 @@ export const ronanSeries: UserSeries = [
     watchPriority: 1,
     wantToWatchAgain: false,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
   },
   {
     title: 'Daredevil : Born Again',
@@ -662,6 +694,8 @@ export const ronanSeries: UserSeries = [
     watchPriority: 1,
     wantToWatchAgain: false,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
   },
   {
     title: 'Jessica Jones',
@@ -690,6 +724,8 @@ export const ronanSeries: UserSeries = [
     watchPriority: 1,
     wantToWatchAgain: false,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
   },
   {
     title: 'Luke Cage',
@@ -712,6 +748,8 @@ export const ronanSeries: UserSeries = [
     watchPriority: 1,
     wantToWatchAgain: false,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
   },
   {
     title: 'Iron Fist',
@@ -734,6 +772,8 @@ export const ronanSeries: UserSeries = [
     watchPriority: 1,
     wantToWatchAgain: false,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
   },
   {
     title: 'The Defenders',
@@ -750,6 +790,8 @@ export const ronanSeries: UserSeries = [
     watchPriority: 1,
     wantToWatchAgain: false,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
   },
   {
     title: 'The Last of Us',
@@ -772,6 +814,8 @@ export const ronanSeries: UserSeries = [
     watchPriority: 1,
     wantToWatchAgain: false,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
   },
   {
     title: '13 Reasons Why',
@@ -806,6 +850,8 @@ export const ronanSeries: UserSeries = [
     watchPriority: 1,
     wantToWatchAgain: false,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
   },
   {
     title: 'Astérix & Obélix : Le Combat des Chefs',
@@ -822,6 +868,8 @@ export const ronanSeries: UserSeries = [
     watchPriority: 1,
     wantToWatchAgain: false,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
   },
   {
     title: 'Brooklyn Nine-Nine',
@@ -880,6 +928,8 @@ export const ronanSeries: UserSeries = [
     watchPriority: 1,
     wantToWatchAgain: false,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
   },
   {
     title: 'Mercredi',
@@ -902,6 +952,8 @@ export const ronanSeries: UserSeries = [
     watchPriority: 1,
     wantToWatchAgain: false,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
   },
   {
     title: 'Montre jamais ça à personne',
@@ -924,6 +976,8 @@ export const ronanSeries: UserSeries = [
     watchPriority: 1,
     wantToWatchAgain: false,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
   },
   {
     title: 'Arrow',
@@ -982,6 +1036,8 @@ export const ronanSeries: UserSeries = [
     watchPriority: 1,
     wantToWatchAgain: false,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
   },
   {
     title: 'The Flash',
@@ -1046,6 +1102,8 @@ export const ronanSeries: UserSeries = [
     watchPriority: 1,
     wantToWatchAgain: false,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
   },
   {
     title: 'La Casa de Papel',
@@ -1080,6 +1138,8 @@ export const ronanSeries: UserSeries = [
     watchPriority: 1,
     wantToWatchAgain: false,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
   },
   {
     title: 'Lucifer',
@@ -1126,6 +1186,8 @@ export const ronanSeries: UserSeries = [
     watchPriority: 1,
     wantToWatchAgain: false,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
   },
   {
     title: 'The Punisher',
@@ -1148,6 +1210,8 @@ export const ronanSeries: UserSeries = [
     watchPriority: 1,
     wantToWatchAgain: false,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
   },
   {
     title: 'Rick and Morty',
@@ -1200,6 +1264,8 @@ export const ronanSeries: UserSeries = [
     watchPriority: 1,
     wantToWatchAgain: false,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
   },
   {
     title: 'Sense8',
@@ -1222,6 +1288,8 @@ export const ronanSeries: UserSeries = [
     watchPriority: 1,
     wantToWatchAgain: false,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
   },
   {
     title: 'The End of the F***ing World',
@@ -1244,6 +1312,8 @@ export const ronanSeries: UserSeries = [
     watchPriority: 1,
     wantToWatchAgain: false,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
   },
   {
     title: 'Superman & Lois',
@@ -1278,6 +1348,8 @@ export const ronanSeries: UserSeries = [
     watchPriority: 1,
     wantToWatchAgain: false,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
   },
   {
     title: 'Locke & Key',
@@ -1306,6 +1378,8 @@ export const ronanSeries: UserSeries = [
     watchPriority: 1,
     wantToWatchAgain: false,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
   },
   {
     title: 'Mon amie Adèle',
@@ -1322,6 +1396,8 @@ export const ronanSeries: UserSeries = [
     watchPriority: 1,
     wantToWatchAgain: false,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
   },
   {
     title: 'Agent Carter',
@@ -1344,6 +1420,8 @@ export const ronanSeries: UserSeries = [
     watchPriority: 1,
     wantToWatchAgain: false,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
   },
   {
     title: 'Agents of S.H.I.E.L.D.',
@@ -1396,6 +1474,8 @@ export const ronanSeries: UserSeries = [
     watchPriority: 1,
     wantToWatchAgain: false,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
   },
   {
     title: 'Ahsoka',
@@ -1412,6 +1492,8 @@ export const ronanSeries: UserSeries = [
     watchPriority: 1,
     wantToWatchAgain: false,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
   },
   {
     title: 'Altered Carbon',
@@ -1434,6 +1516,8 @@ export const ronanSeries: UserSeries = [
     watchPriority: 1,
     wantToWatchAgain: false,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
   },
   {
     title: 'Avatar: The Last Airbender',
@@ -1462,6 +1546,8 @@ export const ronanSeries: UserSeries = [
     watchPriority: 1,
     wantToWatchAgain: false,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
   },
   {
     title: 'Avengers Assemble',
@@ -1502,6 +1588,8 @@ export const ronanSeries: UserSeries = [
     watchPriority: 1,
     wantToWatchAgain: false,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
   },
   {
     title: 'Bloqués',
@@ -1536,6 +1624,8 @@ export const ronanSeries: UserSeries = [
     watchPriority: 1,
     wantToWatchAgain: false,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
   },
   {
     title: 'Bodyguard',
@@ -1552,6 +1642,8 @@ export const ronanSeries: UserSeries = [
     watchPriority: 1,
     wantToWatchAgain: false,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
   },
   {
     title: 'Cloak & Dagger',
@@ -1574,6 +1666,8 @@ export const ronanSeries: UserSeries = [
     watchPriority: 1,
     wantToWatchAgain: false,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
   },
   {
     title: 'Community',
@@ -1620,6 +1714,8 @@ export const ronanSeries: UserSeries = [
     watchPriority: 1,
     wantToWatchAgain: false,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
   },
   {
     title: 'Constantine',
@@ -1636,6 +1732,8 @@ export const ronanSeries: UserSeries = [
     watchPriority: 1,
     wantToWatchAgain: false,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
   },
   {
     title: 'Death Note',
@@ -1652,6 +1750,8 @@ export const ronanSeries: UserSeries = [
     watchPriority: 1,
     wantToWatchAgain: false,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
   },
   {
     title: 'Desperate Housewives',
@@ -1710,6 +1810,8 @@ export const ronanSeries: UserSeries = [
     watchPriority: 1,
     wantToWatchAgain: false,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
   },
   {
     title: 'Dexter',
@@ -1768,6 +1870,8 @@ export const ronanSeries: UserSeries = [
     watchPriority: 1,
     wantToWatchAgain: false,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
   },
   {
     title: 'Family Business',
@@ -1796,6 +1900,8 @@ export const ronanSeries: UserSeries = [
     watchPriority: 1,
     wantToWatchAgain: false,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
   },
   {
     title: 'Game of Thrones',
@@ -1854,6 +1960,8 @@ export const ronanSeries: UserSeries = [
     watchPriority: 1,
     wantToWatchAgain: false,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
   },
   {
     title: 'Gotham',
@@ -1894,6 +2002,8 @@ export const ronanSeries: UserSeries = [
     watchPriority: 1,
     wantToWatchAgain: false,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
   },
   {
     title: 'Hawkeye',
@@ -1910,6 +2020,8 @@ export const ronanSeries: UserSeries = [
     watchPriority: 1,
     wantToWatchAgain: false,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
   },
   {
     title: 'Heroes',
@@ -1944,6 +2056,8 @@ export const ronanSeries: UserSeries = [
     watchPriority: 1,
     wantToWatchAgain: false,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
   },
   {
     title: 'Heroes Reborn',
@@ -1960,6 +2074,8 @@ export const ronanSeries: UserSeries = [
     watchPriority: 1,
     wantToWatchAgain: false,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
   },
   {
     title: 'Inhumans',
@@ -1976,6 +2092,8 @@ export const ronanSeries: UserSeries = [
     watchPriority: 1,
     wantToWatchAgain: false,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
   },
   {
     title: "Jupiter's Legacy",
@@ -1992,6 +2110,8 @@ export const ronanSeries: UserSeries = [
     watchPriority: 1,
     wantToWatchAgain: false,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
   },
   {
     title: 'Les Grands',
@@ -2020,6 +2140,8 @@ export const ronanSeries: UserSeries = [
     watchPriority: 1,
     wantToWatchAgain: false,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
   },
   {
     title: 'Malcolm in the Middle',
@@ -2072,6 +2194,8 @@ export const ronanSeries: UserSeries = [
     watchPriority: 1,
     wantToWatchAgain: false,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
   },
   {
     title: 'Mindhunter',
@@ -2094,6 +2218,8 @@ export const ronanSeries: UserSeries = [
     watchPriority: 1,
     wantToWatchAgain: false,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
   },
   {
     title: 'Misfits',
@@ -2134,6 +2260,8 @@ export const ronanSeries: UserSeries = [
     watchPriority: 1,
     wantToWatchAgain: false,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
   },
   {
     title: 'Mortel',
@@ -2156,6 +2284,8 @@ export const ronanSeries: UserSeries = [
     watchPriority: 1,
     wantToWatchAgain: false,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
   },
   {
     title: 'Naruto',
@@ -2202,6 +2332,8 @@ export const ronanSeries: UserSeries = [
     watchPriority: 1,
     wantToWatchAgain: false,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
   },
   {
     title: 'Penny Dreadful',
@@ -2230,6 +2362,8 @@ export const ronanSeries: UserSeries = [
     watchPriority: 1,
     wantToWatchAgain: false,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
   },
   {
     title: 'Runaways',
@@ -2258,6 +2392,8 @@ export const ronanSeries: UserSeries = [
     watchPriority: 1,
     wantToWatchAgain: false,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
   },
   {
     title: 'Samurai Champloo',
@@ -2274,6 +2410,8 @@ export const ronanSeries: UserSeries = [
     watchPriority: 1,
     wantToWatchAgain: false,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
   },
   {
     title: 'Shameless',
@@ -2350,6 +2488,8 @@ export const ronanSeries: UserSeries = [
     watchPriority: 1,
     wantToWatchAgain: false,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
   },
   {
     title: 'Smallville',
@@ -2420,6 +2560,8 @@ export const ronanSeries: UserSeries = [
     watchPriority: 1,
     wantToWatchAgain: false,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
   },
   {
     title: 'Sons of Anarchy',
@@ -2472,6 +2614,8 @@ export const ronanSeries: UserSeries = [
     watchPriority: 1,
     wantToWatchAgain: false,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
   },
   {
     title: 'Spartacus',
@@ -2500,6 +2644,8 @@ export const ronanSeries: UserSeries = [
     watchPriority: 1,
     wantToWatchAgain: false,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
   },
   {
     title: 'Star Wars Rebels',
@@ -2534,6 +2680,8 @@ export const ronanSeries: UserSeries = [
     watchPriority: 1,
     wantToWatchAgain: false,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
   },
   {
     title: 'Star Wars: The Clone Wars',
@@ -2586,6 +2734,8 @@ export const ronanSeries: UserSeries = [
     watchPriority: 1,
     wantToWatchAgain: false,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
   },
   {
     title: 'Supernatural',
@@ -2686,6 +2836,8 @@ export const ronanSeries: UserSeries = [
     watchPriority: 1,
     wantToWatchAgain: false,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
   },
   {
     title: 'Teen Wolf',
@@ -2732,6 +2884,8 @@ export const ronanSeries: UserSeries = [
     watchPriority: 1,
     wantToWatchAgain: false,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
   },
   {
     title: 'The Big Bang Theory',
@@ -2814,6 +2968,8 @@ export const ronanSeries: UserSeries = [
     watchPriority: 1,
     wantToWatchAgain: false,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
   },
   {
     title: 'The Falcon and the Winter Soldier',
@@ -2830,6 +2986,8 @@ export const ronanSeries: UserSeries = [
     watchPriority: 1,
     wantToWatchAgain: false,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
   },
   {
     title: 'The Get Down',
@@ -2852,6 +3010,8 @@ export const ronanSeries: UserSeries = [
     watchPriority: 1,
     wantToWatchAgain: false,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
   },
   {
     title: 'The Office',
@@ -2916,6 +3076,8 @@ export const ronanSeries: UserSeries = [
     watchPriority: 1,
     wantToWatchAgain: false,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
   },
   {
     title: 'The Originals',
@@ -2956,6 +3118,8 @@ export const ronanSeries: UserSeries = [
     watchPriority: 1,
     wantToWatchAgain: false,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
   },
   {
     title: 'The Returned',
@@ -2978,6 +3142,8 @@ export const ronanSeries: UserSeries = [
     watchPriority: 1,
     wantToWatchAgain: false,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
   },
   {
     title: 'The Shannara Chronicles',
@@ -3000,6 +3166,8 @@ export const ronanSeries: UserSeries = [
     watchPriority: 1,
     wantToWatchAgain: false,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
   },
   {
     title: 'The Tomorrow People',
@@ -3016,6 +3184,8 @@ export const ronanSeries: UserSeries = [
     watchPriority: 1,
     wantToWatchAgain: false,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
   },
   {
     title: 'The Vampire Diaries',
@@ -3074,6 +3244,8 @@ export const ronanSeries: UserSeries = [
     watchPriority: 1,
     wantToWatchAgain: false,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
   },
   {
     title: 'Vikings',
@@ -3120,6 +3292,8 @@ export const ronanSeries: UserSeries = [
     watchPriority: 1,
     wantToWatchAgain: false,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
   },
   {
     title: 'Watchmen',
@@ -3136,6 +3310,8 @@ export const ronanSeries: UserSeries = [
     watchPriority: 1,
     wantToWatchAgain: false,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
   },
   {
     title: 'Yu Yu Hakusho',
@@ -3170,6 +3346,8 @@ export const ronanSeries: UserSeries = [
     watchPriority: 1,
     wantToWatchAgain: false,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
   },
   {
     title: 'One Piece (live-action)',
@@ -3186,6 +3364,8 @@ export const ronanSeries: UserSeries = [
     watchPriority: 1,
     wantToWatchAgain: false,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
   },
   {
     title: 'His & Hers',
@@ -3202,6 +3382,8 @@ export const ronanSeries: UserSeries = [
     watchPriority: 1,
     wantToWatchAgain: false,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
   },
   {
     title: 'Dexter: New Blood',
@@ -3218,6 +3400,8 @@ export const ronanSeries: UserSeries = [
     watchPriority: 1,
     wantToWatchAgain: false,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
   },
   {
     title: 'Dexter: Resurrection',
@@ -3240,6 +3424,8 @@ export const ronanSeries: UserSeries = [
     watchPriority: 1,
     wantToWatchAgain: false,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
   },
   {
     title: "L'Attaque des Titans",
@@ -3274,6 +3460,8 @@ export const ronanSeries: UserSeries = [
     watchPriority: 1,
     wantToWatchAgain: false,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
   },
   {
     title: 'Assassination Classroom',
@@ -3296,6 +3484,8 @@ export const ronanSeries: UserSeries = [
     watchPriority: 1,
     wantToWatchAgain: false,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
   },
   {
     title: 'Soul Eater',
@@ -3312,6 +3502,8 @@ export const ronanSeries: UserSeries = [
     watchPriority: 1,
     wantToWatchAgain: false,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
   },
   {
     title: 'Full Metal Alchemist',
@@ -3328,6 +3520,8 @@ export const ronanSeries: UserSeries = [
     watchPriority: 1,
     wantToWatchAgain: false,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
   },
   {
     title: 'Fullmetal Alchemist: Brotherhood',
@@ -3350,6 +3544,8 @@ export const ronanSeries: UserSeries = [
     watchPriority: 1,
     wantToWatchAgain: false,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
   },
   {
     title: 'Eyeshield 21',
@@ -3378,6 +3574,8 @@ export const ronanSeries: UserSeries = [
     watchPriority: 1,
     wantToWatchAgain: false,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
   },
   {
     title: 'Galactik Football',
@@ -3406,6 +3604,8 @@ export const ronanSeries: UserSeries = [
     watchPriority: 1,
     wantToWatchAgain: false,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
   },
   {
     title: 'La Légende de Korra',
@@ -3440,6 +3640,8 @@ export const ronanSeries: UserSeries = [
     watchPriority: 1,
     wantToWatchAgain: false,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
   },
   {
     title: 'One Punch Man',
@@ -3468,6 +3670,8 @@ export const ronanSeries: UserSeries = [
     watchPriority: 1,
     wantToWatchAgain: false,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
   },
   {
     title: 'Naruto Shippuden',
@@ -3610,6 +3814,8 @@ export const ronanSeries: UserSeries = [
     watchPriority: 1,
     wantToWatchAgain: false,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
   },
   {
     title: 'One Piece',
@@ -3752,6 +3958,8 @@ export const ronanSeries: UserSeries = [
     watchPriority: 1,
     wantToWatchAgain: false,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
   },
   {
     title: 'Dragon Ball',
@@ -3816,6 +4024,8 @@ export const ronanSeries: UserSeries = [
     watchPriority: 1,
     wantToWatchAgain: false,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
   },
   {
     title: 'Dragon Ball Z',
@@ -3892,6 +4102,8 @@ export const ronanSeries: UserSeries = [
     watchPriority: 1,
     wantToWatchAgain: false,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
   },
   {
     title: 'Dragon Ball GT',
@@ -3932,6 +4144,8 @@ export const ronanSeries: UserSeries = [
     watchPriority: 1,
     wantToWatchAgain: false,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
   },
   {
     title: 'Le marsupilami',
@@ -3960,6 +4174,8 @@ export const ronanSeries: UserSeries = [
     watchPriority: 1,
     wantToWatchAgain: false,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
   },
   {
     title: 'Oggy et les cafards',
@@ -4012,6 +4228,8 @@ export const ronanSeries: UserSeries = [
     watchPriority: 1,
     wantToWatchAgain: false,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
   },
   {
     title: 'Les Tortues Ninja',
@@ -4088,6 +4306,8 @@ export const ronanSeries: UserSeries = [
     watchPriority: 1,
     wantToWatchAgain: false,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
   },
   {
     title: 'Pokémon',
@@ -4242,6 +4462,8 @@ export const ronanSeries: UserSeries = [
     watchPriority: 1,
     wantToWatchAgain: false,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
   },
   {
     title: 'Jackie Chan (série animée)',
@@ -4264,6 +4486,8 @@ export const ronanSeries: UserSeries = [
     watchPriority: 1,
     wantToWatchAgain: false,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
   },
   {
     title: 'Marcelino',
@@ -4280,6 +4504,8 @@ export const ronanSeries: UserSeries = [
     watchPriority: 1,
     wantToWatchAgain: false,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
   },
   {
     title: 'Les Simpsons',
@@ -4500,6 +4726,8 @@ export const ronanSeries: UserSeries = [
     watchPriority: 1,
     wantToWatchAgain: false,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
   },
   {
     title: 'Fairy Tail',
@@ -4564,6 +4792,8 @@ export const ronanSeries: UserSeries = [
     watchPriority: 1,
     wantToWatchAgain: false,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
   },
   {
     title: 'Fruit Basket',
@@ -4592,6 +4822,8 @@ export const ronanSeries: UserSeries = [
     watchPriority: 1,
     wantToWatchAgain: false,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
   },
   {
     title: 'Hamtaro',
@@ -4608,6 +4840,8 @@ export const ronanSeries: UserSeries = [
     watchPriority: 1,
     wantToWatchAgain: false,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
   },
   {
     title: 'winx club',
@@ -4624,6 +4858,8 @@ export const ronanSeries: UserSeries = [
     watchPriority: 1,
     wantToWatchAgain: false,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
   },
   {
     title: 'Fallout',
@@ -4646,6 +4882,8 @@ export const ronanSeries: UserSeries = [
     watchPriority: 1,
     wantToWatchAgain: false,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
   },
   {
     title: 'Wonder Man',
@@ -4662,6 +4900,8 @@ export const ronanSeries: UserSeries = [
     watchPriority: 1,
     wantToWatchAgain: false,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
   },
 
   {
@@ -4679,6 +4919,8 @@ export const ronanSeries: UserSeries = [
     watchPriority: 1,
     wantToWatchAgain: false,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
   },
 
   {
@@ -4696,6 +4938,8 @@ export const ronanSeries: UserSeries = [
     watchPriority: 1,
     wantToWatchAgain: false,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
   },
 
   {
@@ -4713,6 +4957,8 @@ export const ronanSeries: UserSeries = [
     watchPriority: 1,
     wantToWatchAgain: false,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
   },
 
   {
@@ -4730,6 +4976,8 @@ export const ronanSeries: UserSeries = [
     watchPriority: 1,
     wantToWatchAgain: false,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
   },
 
   {
@@ -4747,6 +4995,8 @@ export const ronanSeries: UserSeries = [
     watchPriority: 1,
     wantToWatchAgain: false,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
   },
 
   {
@@ -4776,6 +5026,8 @@ export const ronanSeries: UserSeries = [
     watchPriority: 1,
     wantToWatchAgain: false,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
   },
 
   {
@@ -4793,6 +5045,8 @@ export const ronanSeries: UserSeries = [
     watchPriority: 1,
     wantToWatchAgain: false,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
   },
 
   {
@@ -4816,6 +5070,8 @@ export const ronanSeries: UserSeries = [
     watchPriority: 1,
     wantToWatchAgain: false,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
   },
 
   {
@@ -4833,6 +5089,8 @@ export const ronanSeries: UserSeries = [
     watchPriority: 1,
     wantToWatchAgain: false,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
   },
 
   {
@@ -4850,6 +5108,8 @@ export const ronanSeries: UserSeries = [
     watchPriority: 1,
     wantToWatchAgain: false,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
   },
 
   {
@@ -4879,216 +5139,230 @@ export const ronanSeries: UserSeries = [
     watchPriority: 1,
     wantToWatchAgain: false,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
   },
 
   {
     title: 'Supergirl',
     director: 'Greg Berlanti, Ali Adler',
     seasons: [
-    {
-      seasonNumber: 1,
-      seasonRating: 3,
-      seasonTimesWatched: 1,
-      lastViewedDate: '',
-    },
-    {
-      seasonNumber: 2,
-      seasonRating: 4,
-      seasonTimesWatched: 0,
-      lastViewedDate: '',
-    },
-    {
-      seasonNumber: 3,
-      seasonRating: 2.5,
-      seasonTimesWatched: 1,
-      lastViewedDate: '',
-    },
-    {
-      seasonNumber: 4,
-      seasonRating: 2,
-      seasonTimesWatched: 1,
-      lastViewedDate: '',
-    },
-    {
-      seasonNumber: 5,
-      seasonRating: 0,
-      seasonTimesWatched: 0,
-      lastViewedDate: '',
-    },
-    {
-      seasonNumber: 6,
-      seasonRating: 0,
-      seasonTimesWatched: 0,
-      lastViewedDate: '',
-    }
-  ],
+      {
+        seasonNumber: 1,
+        seasonRating: 3,
+        seasonTimesWatched: 1,
+        lastViewedDate: '',
+      },
+      {
+        seasonNumber: 2,
+        seasonRating: 4,
+        seasonTimesWatched: 0,
+        lastViewedDate: '',
+      },
+      {
+        seasonNumber: 3,
+        seasonRating: 2.5,
+        seasonTimesWatched: 1,
+        lastViewedDate: '',
+      },
+      {
+        seasonNumber: 4,
+        seasonRating: 2,
+        seasonTimesWatched: 1,
+        lastViewedDate: '',
+      },
+      {
+        seasonNumber: 5,
+        seasonRating: 0,
+        seasonTimesWatched: 0,
+        lastViewedDate: '',
+      },
+      {
+        seasonNumber: 6,
+        seasonRating: 0,
+        seasonTimesWatched: 0,
+        lastViewedDate: '',
+      },
+    ],
     owned: false,
     watchPriority: 1,
     wantToWatchAgain: false,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
   },
 
   {
-    title: 'DC\'s Legends of Tomorrow',
+    title: "DC's Legends of Tomorrow",
     director: 'Greg Berlanti, Marc Guggenheim',
     seasons: [
-    {
-      seasonNumber: 1,
-      seasonRating: 2.5,
-      seasonTimesWatched: 1,
-      lastViewedDate: '',
-    },
-    {
-      seasonNumber: 2,
-      seasonRating: 3.5,
-      seasonTimesWatched: 1,
-      lastViewedDate: '',
-    },
-    {
-      seasonNumber: 3,
-      seasonRating: 4,
-      seasonTimesWatched: 1,
-      lastViewedDate: '',
-    },
-    {
-      seasonNumber: 4,
-      seasonRating: 4,
-      seasonTimesWatched: 1,
-      lastViewedDate: '',
-    },
-    {
-      seasonNumber: 5,
-      seasonRating: 0,
-      seasonTimesWatched: 0,
-      lastViewedDate: '',
-    },
-    {
-      seasonNumber: 6,
-      seasonRating: 0,
-      seasonTimesWatched: 0,
-      lastViewedDate: '',
-    },
-    {
-      seasonNumber: 7,
-      seasonRating: 0,
-      seasonTimesWatched: 0,
-      lastViewedDate: '',
-    }
-  ],
+      {
+        seasonNumber: 1,
+        seasonRating: 2.5,
+        seasonTimesWatched: 1,
+        lastViewedDate: '',
+      },
+      {
+        seasonNumber: 2,
+        seasonRating: 3.5,
+        seasonTimesWatched: 1,
+        lastViewedDate: '',
+      },
+      {
+        seasonNumber: 3,
+        seasonRating: 4,
+        seasonTimesWatched: 1,
+        lastViewedDate: '',
+      },
+      {
+        seasonNumber: 4,
+        seasonRating: 4,
+        seasonTimesWatched: 1,
+        lastViewedDate: '',
+      },
+      {
+        seasonNumber: 5,
+        seasonRating: 0,
+        seasonTimesWatched: 0,
+        lastViewedDate: '',
+      },
+      {
+        seasonNumber: 6,
+        seasonRating: 0,
+        seasonTimesWatched: 0,
+        lastViewedDate: '',
+      },
+      {
+        seasonNumber: 7,
+        seasonRating: 0,
+        seasonTimesWatched: 0,
+        lastViewedDate: '',
+      },
+    ],
     owned: false,
     watchPriority: 1,
     wantToWatchAgain: false,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
   },
 
   {
     title: 'Black Lightning',
     director: ' Salim Akil',
     seasons: [
-    {
-      seasonNumber: 1,
-      seasonRating: 2.5,
-      seasonTimesWatched: 1,
-      lastViewedDate: '',
-    },
-    {
-      seasonNumber: 2,
-      seasonRating: 2,
-      seasonTimesWatched: 1,
-      lastViewedDate: '',
-    },
-    {
-      seasonNumber: 3,
-      seasonRating: 1.5,
-      seasonTimesWatched: 1,
-      lastViewedDate: '',
-    },
-    {
-      seasonNumber: 4,
-      seasonRating: 0,
-      seasonTimesWatched: 0,
-      lastViewedDate: '',
-    }
-  ],
+      {
+        seasonNumber: 1,
+        seasonRating: 2.5,
+        seasonTimesWatched: 1,
+        lastViewedDate: '',
+      },
+      {
+        seasonNumber: 2,
+        seasonRating: 2,
+        seasonTimesWatched: 1,
+        lastViewedDate: '',
+      },
+      {
+        seasonNumber: 3,
+        seasonRating: 1.5,
+        seasonTimesWatched: 1,
+        lastViewedDate: '',
+      },
+      {
+        seasonNumber: 4,
+        seasonRating: 0,
+        seasonTimesWatched: 0,
+        lastViewedDate: '',
+      },
+    ],
     owned: false,
     watchPriority: 1,
     wantToWatchAgain: false,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
   },
 
   {
     title: 'Batwoman',
     director: 'Caroline Dries',
     seasons: [
-    {
-      seasonNumber: 1,
-      seasonRating: 2,
-      seasonTimesWatched: 1,
-      lastViewedDate: '',
-    },
-    {
-      seasonNumber: 2,
-      seasonRating: 0,
-      seasonTimesWatched: 0,
-      lastViewedDate: '',
-    },
-    {
-      seasonNumber: 3,
-      seasonRating: 0,
-      seasonTimesWatched: 0,
-      lastViewedDate: '',
-    }
-  ],
+      {
+        seasonNumber: 1,
+        seasonRating: 2,
+        seasonTimesWatched: 1,
+        lastViewedDate: '',
+      },
+      {
+        seasonNumber: 2,
+        seasonRating: 0,
+        seasonTimesWatched: 0,
+        lastViewedDate: '',
+      },
+      {
+        seasonNumber: 3,
+        seasonRating: 0,
+        seasonTimesWatched: 0,
+        lastViewedDate: '',
+      },
+    ],
     owned: false,
     watchPriority: 1,
     wantToWatchAgain: false,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
   },
 
   {
     title: 'Vixen',
     director: 'Greg Berlanti, Marc Guggenheim, Andrew Kreisberg',
     seasons: [
-    {
-      seasonNumber: 1,
-      seasonRating: 2.5,
-      seasonTimesWatched: 1,
-      lastViewedDate: '',
-    },
-    {
-      seasonNumber: 2,
-      seasonRating: 2.5,
-      seasonTimesWatched: 1,
-      lastViewedDate: '',
-    }
-  ],
+      {
+        seasonNumber: 1,
+        seasonRating: 2.5,
+        seasonTimesWatched: 1,
+        lastViewedDate: '',
+      },
+      {
+        seasonNumber: 2,
+        seasonRating: 2.5,
+        seasonTimesWatched: 1,
+        lastViewedDate: '',
+      },
+    ],
     owned: false,
     watchPriority: 1,
     wantToWatchAgain: false,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
   },
 
   {
     title: 'Freedom Fighters: The Ray',
     director: 'Greg Berlanti, Marc Guggenheim',
     seasons: [
-    {
-      seasonNumber: 1,
-      seasonRating: 2.5,
-      seasonTimesWatched: 0,
-      lastViewedDate: '',
-    },
-    {
-      seasonNumber: 2,
-      seasonRating: 2.5,
-      seasonTimesWatched: 1,
-      lastViewedDate: '',
-    }
-  ],
+      {
+        seasonNumber: 1,
+        seasonRating: 2.5,
+        seasonTimesWatched: 0,
+        lastViewedDate: '',
+      },
+      {
+        seasonNumber: 2,
+        seasonRating: 2.5,
+        seasonTimesWatched: 1,
+        lastViewedDate: '',
+      },
+    ],
     owned: false,
     watchPriority: 1,
     wantToWatchAgain: false,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
   },
 
   {
@@ -5106,12 +5380,14 @@ export const ronanSeries: UserSeries = [
         seasonRating: 0,
         seasonTimesWatched: 0,
         lastViewedDate: '',
-      }
+      },
     ],
     owned: false,
     watchPriority: 1,
     wantToWatchAgain: false,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
   },
 
   {
@@ -5129,12 +5405,14 @@ export const ronanSeries: UserSeries = [
         seasonRating: 3.5,
         seasonTimesWatched: 1,
         lastViewedDate: '2026-01-21',
-      }
+      },
     ],
     owned: false,
     watchPriority: 1,
     wantToWatchAgain: false,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
   },
 
   {
@@ -5146,12 +5424,14 @@ export const ronanSeries: UserSeries = [
         seasonRating: 3.5,
         seasonTimesWatched: 1,
         lastViewedDate: '2026-03-02',
-      }
+      },
     ],
     owned: false,
     watchPriority: 1,
     wantToWatchAgain: false,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
   },
 
   {
@@ -5163,12 +5443,14 @@ export const ronanSeries: UserSeries = [
         seasonRating: 3,
         seasonTimesWatched: 1,
         lastViewedDate: '2022-07-13',
-      }
+      },
     ],
     owned: false,
     watchPriority: 1,
     wantToWatchAgain: false,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
   },
 
   {
@@ -5180,41 +5462,45 @@ export const ronanSeries: UserSeries = [
         seasonRating: 4,
         seasonTimesWatched: 1,
         lastViewedDate: '2025-02-18',
-      }
+      },
     ],
     owned: false,
     watchPriority: 1,
     wantToWatchAgain: false,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
   },
 
   {
     title: 'What if...?',
     director: 'A.C. Bradley',
     seasons: [
-    {
-      seasonNumber: 1,
-      seasonRating: 3,
-      seasonTimesWatched: 1,
-      lastViewedDate: '',
-    },
-    {
-      seasonNumber: 2,
-      seasonRating: 3,
-      seasonTimesWatched: 1,
-      lastViewedDate: '',
-    },
-    {
-      seasonNumber: 3,
-      seasonRating: 3,
-      seasonTimesWatched: 1,
-      lastViewedDate: '',
-    }
-  ],
+      {
+        seasonNumber: 1,
+        seasonRating: 3,
+        seasonTimesWatched: 1,
+        lastViewedDate: '',
+      },
+      {
+        seasonNumber: 2,
+        seasonRating: 3,
+        seasonTimesWatched: 1,
+        lastViewedDate: '',
+      },
+      {
+        seasonNumber: 3,
+        seasonRating: 3,
+        seasonTimesWatched: 1,
+        lastViewedDate: '',
+      },
+    ],
     owned: false,
     watchPriority: 1,
     wantToWatchAgain: false,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
   },
 
   {
@@ -5238,170 +5524,190 @@ export const ronanSeries: UserSeries = [
         seasonRating: 0,
         seasonTimesWatched: 0,
         lastViewedDate: '',
-      }
+      },
     ],
     owned: false,
     watchPriority: 1,
     wantToWatchAgain: false,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
   },
 
   {
     title: 'Agatha All Along',
     director: 'Jac Schaeffer',
     seasons: [
-    {
-      seasonNumber: 1,
-      seasonRating: 3.5,
-      seasonTimesWatched: 1,
-      lastViewedDate: '',
-    }
-  ],
+      {
+        seasonNumber: 1,
+        seasonRating: 3.5,
+        seasonTimesWatched: 1,
+        lastViewedDate: '',
+      },
+    ],
     owned: false,
     watchPriority: 1,
     wantToWatchAgain: false,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
   },
 
   {
     title: 'Eyes of Wakanda',
     director: 'Todd Harris',
     seasons: [
-    {
-      seasonNumber: 1,
-      seasonRating: 2.5,
-      seasonTimesWatched: 1,
-      lastViewedDate: '',
-    }
-  ],
+      {
+        seasonNumber: 1,
+        seasonRating: 2.5,
+        seasonTimesWatched: 1,
+        lastViewedDate: '',
+      },
+    ],
     owned: false,
     watchPriority: 1,
     wantToWatchAgain: false,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
   },
 
   {
     title: 'Moon Knight',
     director: 'Mohamed Diab',
     seasons: [
-    {
-      seasonNumber: 1,
-      seasonRating: 2.5,
-      seasonTimesWatched: 1,
-      lastViewedDate: '',
-    }
-  ],
+      {
+        seasonNumber: 1,
+        seasonRating: 2.5,
+        seasonTimesWatched: 1,
+        lastViewedDate: '',
+      },
+    ],
     owned: true,
     watchPriority: 1,
     wantToWatchAgain: false,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
   },
 
   {
-    title: 'Je s\'appelle Groot',
+    title: "Je s'appelle Groot",
     director: 'Kirsten Lepore',
     seasons: [
-    {
-      seasonNumber: 1,
-      seasonRating: 2.5,
-      seasonTimesWatched: 0,
-      lastViewedDate: '',
-    },
-    {
-      seasonNumber: 2,
-      seasonRating: 0,
-      seasonTimesWatched: 0,
-      lastViewedDate: '',
-    }
-  ],
+      {
+        seasonNumber: 1,
+        seasonRating: 2.5,
+        seasonTimesWatched: 0,
+        lastViewedDate: '',
+      },
+      {
+        seasonNumber: 2,
+        seasonRating: 0,
+        seasonTimesWatched: 0,
+        lastViewedDate: '',
+      },
+    ],
     owned: false,
     watchPriority: 1,
     wantToWatchAgain: false,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
   },
 
   {
     title: 'She-Hulk : Attorney at Law',
     director: 'Jessica Gao',
     seasons: [
-    {
-      seasonNumber: 1,
-      seasonRating: 3,
-      seasonTimesWatched: 1,
-      lastViewedDate: '',
-    }
-  ],
+      {
+        seasonNumber: 1,
+        seasonRating: 3,
+        seasonTimesWatched: 1,
+        lastViewedDate: '',
+      },
+    ],
     owned: false,
     watchPriority: 1,
     wantToWatchAgain: false,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
   },
 
   {
     title: 'Secret Invasion',
     director: 'Kyle Bradstreet',
     seasons: [
-    {
-      seasonNumber: 1,
-      seasonRating: 3,
-      seasonTimesWatched: 1,
-      lastViewedDate: '',
-    }
-  ],
+      {
+        seasonNumber: 1,
+        seasonRating: 3,
+        seasonTimesWatched: 1,
+        lastViewedDate: '',
+      },
+    ],
     owned: false,
     watchPriority: 1,
     wantToWatchAgain: false,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
   },
 
   {
     title: 'Echo',
     director: 'Sydney Freeland',
     seasons: [
-    {
-      seasonNumber: 1,
-      seasonRating: 2.5,
-      seasonTimesWatched: 1,
-      lastViewedDate: '',
-    }
-  ],
+      {
+        seasonNumber: 1,
+        seasonRating: 2.5,
+        seasonTimesWatched: 1,
+        lastViewedDate: '',
+      },
+    ],
     owned: false,
     watchPriority: 1,
     wantToWatchAgain: false,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
   },
 
   {
     title: 'Ironheart',
     director: 'Chinaka Hodge',
     seasons: [
-    {
-      seasonNumber: 1,
-      seasonRating: 2,
-      seasonTimesWatched: 1,
-      lastViewedDate: '',
-    }
-  ],
+      {
+        seasonNumber: 1,
+        seasonRating: 2,
+        seasonTimesWatched: 1,
+        lastViewedDate: '',
+      },
+    ],
     owned: false,
     watchPriority: 1,
     wantToWatchAgain: false,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
   },
 
   {
     title: 'Marvel Zombies',
     director: 'Zeb Wells',
     seasons: [
-    {
-      seasonNumber: 1,
-      seasonRating: 3,
-      seasonTimesWatched: 1,
-      lastViewedDate: '',
-    }
-  ],
+      {
+        seasonNumber: 1,
+        seasonRating: 3,
+        seasonTimesWatched: 1,
+        lastViewedDate: '',
+      },
+    ],
     owned: false,
     watchPriority: 1,
     wantToWatchAgain: false,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
   },
 ];

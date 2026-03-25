@@ -10,6 +10,8 @@ export const guillaumeGameListGames: UserGames = [
     wantToPlayAgain: false,
     sessions: [],
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
   },
   {
     title: 'Clair Obscur : Expedition 33',
@@ -20,6 +22,8 @@ export const guillaumeGameListGames: UserGames = [
     wantToPlayAgain: false,
     sessions: [],
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
   },
   {
     title: 'Ratchet & Clank : Rift Apart',
@@ -30,5 +34,7 @@ export const guillaumeGameListGames: UserGames = [
     wantToPlayAgain: false,
     sessions: [],
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
   },
 ];

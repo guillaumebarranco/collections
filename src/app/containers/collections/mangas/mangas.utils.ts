@@ -1,6 +1,13 @@
 import { Manga } from '../../../models/manga-model';
 
-export type MangaView = 'read' | 'readlist' | 'owned' | 'toReRead' | 'recommendations';
+export type MangaView =
+  | 'read'
+  | 'readlist'
+  | 'owned'
+  | 'borrowed'
+  | 'loaned'
+  | 'toReRead'
+  | 'recommendations';
 
 export type OptionalMangaView = Exclude<MangaView, 'read' | 'readlist'>;
 
@@ -27,6 +34,8 @@ export const mangaViewOptions: { value: MangaView; label: string }[] = [
   { value: 'read', label: 'Mangas lus' },
   { value: 'readlist', label: 'Mangas à lire' },
   { value: 'owned', label: 'Mangas possédés' },
+  { value: 'borrowed', label: 'Mangas empruntés' },
+  { value: 'loaned', label: 'Mangas prêtés' },
   { value: 'toReRead', label: 'À relire' },
   { value: 'recommendations', label: 'Recommandations' },
 ];

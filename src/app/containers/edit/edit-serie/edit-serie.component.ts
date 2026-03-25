@@ -30,6 +30,8 @@ import { DEFAULT_USER_ID } from '../../../utils/constants';
 type EditSerieForm = {
   seasons: UserSerieSeason[];
   owned: boolean;
+  borrowed: string;
+  loaned: string;
   watchPriority: number;
   wantToWatchAgain: boolean;
   ratingComment: string;
@@ -169,6 +171,8 @@ export class EditSerieComponent {
           director: serie.director,
           seasons: form.seasons,
           owned: form.owned,
+          borrowed: form.borrowed,
+          loaned: form.loaned,
           watchPriority: form.watchPriority,
           wantToWatchAgain: form.wantToWatchAgain,
           ratingComment: form.ratingComment ?? '',
@@ -364,6 +368,8 @@ export class EditSerieComponent {
     return {
       seasons: this.buildSeasons(serie),
       owned: serie.owned,
+      borrowed: serie.borrowed ?? '',
+      loaned: serie.loaned ?? '',
       watchPriority: serie.watchPriority ?? 0,
       wantToWatchAgain: serie.wantToWatchAgain ?? false,
       ratingComment: serie.ratingComment ?? '',

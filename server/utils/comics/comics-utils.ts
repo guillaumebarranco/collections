@@ -130,6 +130,16 @@ function parseComicsFromFile(content: string): any[] {
             wantToReadAgain:
               parseBooleanField(objectText, 'wantToReadAgain') ?? false,
             ratingComment: parseStringField(objectText, 'ratingComment') ?? '',
+            borrowed:
+              parseStringField(objectText, 'borrowed') ??
+              ((parseBooleanField(objectText, 'borrowed') ?? false)
+                ? 'Inconnu'
+                : ''),
+            loaned:
+              parseStringField(objectText, 'loaned') ??
+              ((parseBooleanField(objectText, 'loaned') ?? false)
+                ? 'Inconnu'
+                : ''),
           });
         }
       }
@@ -278,6 +288,8 @@ function updateComicInFile(filePath: string, comicData: any): boolean {
     readPriority: ${comic.readPriority ?? 1},
     wantToReadAgain: ${comic.wantToReadAgain ?? false},
     ratingComment: '${escapeString(comic.ratingComment || '')}',
+    borrowed: '${escapeString(comic.borrowed || '')}',
+    loaned: '${escapeString(comic.loaned || '')}',
   }`
     )
     .join(',\n');
@@ -331,6 +343,8 @@ function updateComicIdentityInFile(filePath: string, comicData: any): boolean {
     readPriority: ${comic.readPriority ?? 1},
     wantToReadAgain: ${comic.wantToReadAgain ?? false},
     ratingComment: '${escapeString(comic.ratingComment || '')}',
+    borrowed: '${escapeString(comic.borrowed || '')}',
+    loaned: '${escapeString(comic.loaned || '')}',
   }`
     )
     .join(',\n');
@@ -449,6 +463,8 @@ function removeComicFromFile(content: string, payload: any): string {
     readPriority: ${comic.readPriority ?? 1},
     wantToReadAgain: ${comic.wantToReadAgain ?? false},
     ratingComment: '${escapeString(comic.ratingComment || '')}',
+    borrowed: '${escapeString(comic.borrowed || '')}',
+    loaned: '${escapeString(comic.loaned || '')}',
   }`
     )
     .join(',\n');

@@ -41,6 +41,8 @@ router.post('/', (req: any, res: any) => {
         normalizeBoolean(input.wantToWatchAgain, 'wantToWatchAgain') ?? false,
       rating: normalizeNumber(input.rating, 'rating'),
       ratingComment: normalizeString(input.ratingComment, 'ratingComment') ?? '',
+      borrowed: normalizeString(input.borrowed, 'borrowed') ?? '',
+      loaned: normalizeString(input.loaned, 'loaned') ?? '',
     };
 
     const entityPayload = input.entity || null;

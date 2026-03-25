@@ -66,7 +66,7 @@ function formatUserMovie(user: any): string {
         user.inList.map((s: any) => "'" + escapeString(s) + "'").join(', ') +
         ']'
       : '[]'
-  },\n  },`;
+  },\n    borrowed: '${escapeString(user.borrowed ?? '')}',\n    loaned: '${escapeString(user.loaned ?? '')}',\n  },`;
 }
 
 function getUserMoviesTargetFile(userId: string) {
@@ -148,6 +148,8 @@ router.post('/add', (req: any, res: any) => {
         normalizeBoolean(user.wantToSeeAgain, 'wantToSeeAgain') ?? false,
       watchPriority: normalizeNumber(user.watchPriority, 'watchPriority') ?? 1,
       ratingComment: normalizeString(user.ratingComment, 'ratingComment') ?? '',
+      borrowed: normalizeString(user.borrowed, 'borrowed') ?? '',
+      loaned: normalizeString(user.loaned, 'loaned') ?? '',
     };
 
     const baseMovieContent = appendObjectToArrayFile(

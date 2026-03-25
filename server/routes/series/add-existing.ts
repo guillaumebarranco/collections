@@ -83,6 +83,8 @@ ${formatSeasons(seasons)}
     watchPriority: 1,
     wantToWatchAgain: false,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
   },`;
 }
 
@@ -96,6 +98,8 @@ ${formatSeasons(seasons)}
     watchPriority: 1,
     wantToWatchAgain: false,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
   },`;
 }
 

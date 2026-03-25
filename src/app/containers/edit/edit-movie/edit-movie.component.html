@@ -181,6 +181,26 @@
         name="owned"
       />
     </div>
+    <div class="form-row">
+      <label for="borrowed">Emprunté à</label>
+      <input
+        id="borrowed"
+        type="text"
+        [ngModel]="movieForm()?.borrowed"
+        (ngModelChange)="updateField('borrowed', $event)"
+        name="borrowed"
+      />
+    </div>
+    <div class="form-row">
+      <label for="loaned">Prêté à</label>
+      <input
+        id="loaned"
+        type="text"
+        [ngModel]="movieForm()?.loaned"
+        (ngModelChange)="updateField('loaned', $event)"
+        name="loaned"
+      />
+    </div>
 
     <div class="form-row checkbox-row">
       <label for="wantToSeeAgain">Voir à nouveau</label>

@@ -98,6 +98,8 @@ export class GamesComponent implements OnInit {
   optionalViewConfig = signal<Record<OptionalGameView, boolean>>({
     platined: true,
     owned: true,
+    borrowed: true,
+    loaned: true,
     finished: true,
     toRePlay: true,
     recommendations: false,
@@ -193,6 +195,34 @@ export class GamesComponent implements OnInit {
       games = this.allGames().filter((game) => game.platined);
     } else if (this.selectedView() === 'owned') {
       games = this.allGames().filter((game) => game.owned);
+    } else if (this.selectedView() === 'borrowed') {
+      const key = (g: Game) => `${g.title}|${g.editor}`;
+      const readB = this.allGames().filter((g) =>
+        Boolean(g.borrowed?.trim())
+      );
+      const listB = this.allGamelistGames().filter((g) =>
+        Boolean(g.borrowed?.trim())
+      );
+      const seen = new Set<string>();
+      games = [...readB, ...listB].filter((g) => {
+        const k = key(g);
+        if (seen.has(k)) return false;
+        seen.add(k);
+        return true;
+      });
+    } else if (this.selectedView() === 'loaned') {
+      const key = (g: Game) => `${g.title}|${g.editor}`;
+      const readL = this.allGames().filter((g) => Boolean(g.loaned?.trim()));
+      const listL = this.allGamelistGames().filter((g) =>
+        Boolean(g.loaned?.trim())
+      );
+      const seen = new Set<string>();
+      games = [...readL, ...listL].filter((g) => {
+        const k = key(g);
+        if (seen.has(k)) return false;
+        seen.add(k);
+        return true;
+      });
     } else if (this.selectedView() === 'toRePlay') {
       games = this.allGames().filter((game) => game.wantToPlayAgain === true);
     } else {
@@ -364,6 +394,8 @@ export class GamesComponent implements OnInit {
     this.optionalViewConfig.set({
       platined: parsed.platined ?? true,
       owned: parsed.owned ?? true,
+      borrowed: parsed.borrowed ?? true,
+      loaned: parsed.loaned ?? true,
       finished: parsed.finished ?? true,
       toRePlay: parsed.toRePlay ?? true,
       recommendations: parsed.recommendations ?? false,
@@ -374,7 +406,7 @@ export class GamesComponent implements OnInit {
   private loadViewPreferencesFromStorage(): void {
     const parsed = this.localStorageService.getItem<
       Partial<{
-        view: 'played' | 'platined' | 'gamelist' | 'owned';
+        view: GameView;
         sort: string;
       }>
     >(this.viewPreferencesStorageKey);
@@ -382,7 +414,7 @@ export class GamesComponent implements OnInit {
     this.isLoadingPreferences = true;
     if (
       parsed.view &&
-      ['played', 'platined', 'gamelist', 'owned'].includes(parsed.view)
+      this.viewOptions().some((opt) => opt.value === parsed.view)
     ) {
       this.selectedView.set(parsed.view);
     }

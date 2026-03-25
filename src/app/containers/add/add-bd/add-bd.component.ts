@@ -21,6 +21,8 @@ type AddBdUserForm = {
   readTimes: number;
   readDate: string;
   owned: boolean;
+  borrowed: string;
+  loaned: string;
   ratingComment: string;
 };
 
@@ -61,6 +63,8 @@ export class AddBdComponent {
     readTimes: 1,
     readDate: '',
     owned: false,
+    borrowed: '',
+    loaned: '',
     ratingComment: '',
   });
 

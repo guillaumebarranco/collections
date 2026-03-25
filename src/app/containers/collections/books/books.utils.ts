@@ -5,6 +5,7 @@ export type BookView =
   | 'readlist'
   | 'owned'
   | 'borrowed'
+  | 'loaned'
   | 'toReRead'
   | 'authors'
   | 'sagas'
@@ -45,6 +46,7 @@ export const bookViewOptions: { value: BookView; label: string }[] = [
   { value: 'readlist', label: 'À lire' },
   { value: 'owned', label: 'Possédés' },
   { value: 'borrowed', label: 'Livres empruntés' },
+  { value: 'loaned', label: 'Livres prêtés' },
   { value: 'toReRead', label: 'À relire' },
   { value: 'authors', label: 'Voir par auteurs' },
   { value: 'sagas', label: 'Voir par sagas' },
@@ -291,7 +293,13 @@ export const getBooksBySaga = ({
     baseBySaga.set(sagaName, list);
   }
 
-  const groups = Array.from(sagaMap.entries()).map(([saga, readBooks]) => {
+  const allSagaNames = new Set<string>([
+    ...sagaMap.keys(),
+    ...baseBySaga.keys(),
+  ]);
+
+  const groups = Array.from(allSagaNames).map((saga) => {
+    const readBooks = sagaMap.get(saga) ?? [];
     // Trier les livres lus par sagaOrder, puis par le tri sélectionné
     const sortedreadBooks = [...readBooks].sort((a, b) => {
       const orderA = a.sagaOrder ?? 0;
@@ -320,7 +328,9 @@ export const getBooksBySaga = ({
 
     return {
       saga,
-      isSagaFinished: sortedreadBooks.every((book) => book.sagaFinished),
+      isSagaFinished:
+        sortedreadBooks.length > 0 &&
+        sortedreadBooks.every((book) => book.sagaFinished),
       readBooks: sortedreadBooks,
       missingBooks: sortedMissingBooks,
     };

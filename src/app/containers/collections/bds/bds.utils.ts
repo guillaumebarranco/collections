@@ -4,6 +4,8 @@ export type BdView =
   | 'read'
   | 'readlist'
   | 'owned'
+  | 'borrowed'
+  | 'loaned'
   | 'toReRead'
   | 'sagas'
   | 'recommendations';
@@ -35,6 +37,8 @@ export const bdViewOptions: { value: BdView; label: string }[] = [
   { value: 'read', label: 'BD lues' },
   { value: 'readlist', label: 'BD à lire' },
   { value: 'owned', label: 'BD possédées' },
+  { value: 'borrowed', label: 'BD empruntées' },
+  { value: 'loaned', label: 'BD prêtées' },
   { value: 'toReRead', label: 'À relire' },
   { value: 'sagas', label: 'Voir par saga' },
   { value: 'recommendations', label: 'Recommandations' },
@@ -169,7 +173,13 @@ export const getBdsBySaga = ({
     baseBySaga.set(sagaName, list);
   }
 
-  const groups = Array.from(sagaMap.entries()).map(([saga, readBds]) => {
+  const allSagaNames = new Set<string>([
+    ...sagaMap.keys(),
+    ...baseBySaga.keys(),
+  ]);
+
+  const groups = Array.from(allSagaNames).map((saga) => {
+    const readBds = sagaMap.get(saga) ?? [];
     // Trier par sagaOrder, puis fallback sur le tri sélectionné
     const sortedRead = [...readBds].sort((a, b) => {
       const orderA = a.sagaOrder ?? 0;

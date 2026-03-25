@@ -130,6 +130,16 @@ function parseMangasFromFile(content: string): any[] {
             wantToReadAgain:
               parseBooleanField(objectText, 'wantToReadAgain') ?? false,
             ratingComment: parseStringField(objectText, 'ratingComment') ?? '',
+            borrowed:
+              parseStringField(objectText, 'borrowed') ??
+              ((parseBooleanField(objectText, 'borrowed') ?? false)
+                ? 'Inconnu'
+                : ''),
+            loaned:
+              parseStringField(objectText, 'loaned') ??
+              ((parseBooleanField(objectText, 'loaned') ?? false)
+                ? 'Inconnu'
+                : ''),
           });
         }
       }
@@ -272,6 +282,8 @@ function updateMangaInFile(filePath: string, mangaData: any): boolean {
     readPriority: ${manga.readPriority ?? 1},
     wantToReadAgain: ${manga.wantToReadAgain ?? false},
     ratingComment: '${escapeString(manga.ratingComment || '')}',
+    borrowed: '${escapeString(manga.borrowed || '')}',
+    loaned: '${escapeString(manga.loaned || '')}',
   }`
     )
     .join(',\n');
@@ -325,6 +337,8 @@ function updateMangaIdentityInFile(filePath: string, mangaData: any): boolean {
     readPriority: ${manga.readPriority ?? 1},
     wantToReadAgain: ${manga.wantToReadAgain ?? false},
     ratingComment: '${escapeString(manga.ratingComment || '')}',
+    borrowed: '${escapeString(manga.borrowed || '')}',
+    loaned: '${escapeString(manga.loaned || '')}',
   }`
     )
     .join(',\n');
@@ -441,6 +455,8 @@ function removeMangaFromFile(content: string, payload: any): string {
     readPriority: ${manga.readPriority ?? 1},
     wantToReadAgain: ${manga.wantToReadAgain ?? false},
     ratingComment: '${escapeString(manga.ratingComment || '')}',
+    borrowed: '${escapeString(manga.borrowed || '')}',
+    loaned: '${escapeString(manga.loaned || '')}',
   }`
     )
     .join(',\n');

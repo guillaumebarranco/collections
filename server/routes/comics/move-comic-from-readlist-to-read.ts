@@ -62,7 +62,7 @@ function formatUserComic(comic: any, options?: { rating?: number; ratingComment?
   const readDate = getReadDateToday();
   const rating = options?.rating != null ? Number(options.rating) : 0;
   const ratingComment = typeof options?.ratingComment === 'string' ? options.ratingComment : '';
-  return `  {\n    title: '${escapeString(comic.title)}',\n    writer: '${escapeString(comic.writer)}',\n    readDate: '${readDate}',\n    rating: ${rating},\n    readTimes: 1,\n    owned: false,\n    readPriority: ${comic.readPriority ?? 1},\n    wantToReadAgain: false,\n    ratingComment: '${escapeString(ratingComment)}',\n  },`;
+  return `  {\n    title: '${escapeString(comic.title)}',\n    writer: '${escapeString(comic.writer)}',\n    readDate: '${readDate}',\n    rating: ${rating},\n    readTimes: 1,\n    owned: false,\n    readPriority: ${comic.readPriority ?? 1},\n    wantToReadAgain: false,\n    ratingComment: '${escapeString(ratingComment)}',\n    borrowed: '${escapeString(typeof comic.borrowed === 'string' ? comic.borrowed : '')}',\n    loaned: '${escapeString(typeof comic.loaned === 'string' ? comic.loaned : '')}',\n  },`;
 }
 
 function getUserComicsTargetFile(userId: string, isReadlist: boolean) {

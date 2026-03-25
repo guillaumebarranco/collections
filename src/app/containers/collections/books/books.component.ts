@@ -112,6 +112,7 @@ export class BooksComponent implements OnInit {
   optionalViewConfig = signal<Record<OptionalBookView, boolean>>({
     owned: true,
     borrowed: true,
+    loaned: true,
     toReRead: true,
     authors: false,
     sagas: false,
@@ -262,6 +263,7 @@ export class BooksComponent implements OnInit {
       queryParams['view'] === 'read' ||
       queryParams['view'] === 'owned' ||
       queryParams['view'] === 'borrowed' ||
+      queryParams['view'] === 'loaned' ||
       queryParams['view'] === 'toReRead' ||
       queryParams['view'] === 'authors' ||
       queryParams['view'] === 'sagas' ||
@@ -324,6 +326,7 @@ export class BooksComponent implements OnInit {
     this.optionalViewConfig.set({
       owned: parsed.owned ?? true,
       borrowed: parsed.borrowed ?? true,
+      loaned: parsed.loaned ?? true,
       toReRead: parsed.toReRead ?? true,
       authors: parsed.authors ?? false,
       sagas: parsed.sagas ?? false,
@@ -391,13 +394,27 @@ export class BooksComponent implements OnInit {
       books = this.allBooks().filter((book) => book.owned);
     } else if (this.selectedView() === 'borrowed') {
       const readBorrowed = this.allBooks().filter(
-        (book) => book.borrowed === true
+        (book) => Boolean(book.borrowed && book.borrowed.trim().length > 0)
       );
       const readlistBorrowed = this.allReadlistBooks().filter(
-        (book) => book.borrowed === true
+        (book) => Boolean(book.borrowed && book.borrowed.trim().length > 0)
       );
       const seen = new Set<string>();
       books = [...readBorrowed, ...readlistBorrowed].filter((book) => {
+        const key = `${book.title}|${book.author}`;
+        if (seen.has(key)) return false;
+        seen.add(key);
+        return true;
+      });
+    } else if (this.selectedView() === 'loaned') {
+      const readLoaned = this.allBooks().filter(
+        (book) => Boolean(book.loaned && book.loaned.trim().length > 0)
+      );
+      const readlistLoaned = this.allReadlistBooks().filter(
+        (book) => Boolean(book.loaned && book.loaned.trim().length > 0)
+      );
+      const seen = new Set<string>();
+      books = [...readLoaned, ...readlistLoaned].filter((book) => {
         const key = `${book.title}|${book.author}`;
         if (seen.has(key)) return false;
         seen.add(key);
@@ -434,6 +451,7 @@ export class BooksComponent implements OnInit {
     if (
       this.selectedView() === 'read' ||
       this.selectedView() === 'borrowed' ||
+      this.selectedView() === 'loaned' ||
       this.selectedView() === 'toReRead'
     ) {
       const dateInYear = (
@@ -470,12 +488,32 @@ export class BooksComponent implements OnInit {
         this.selectedYearFilter() !== 'all'
       ) {
         const readlistBorrowed = this.allReadlistBooks().filter(
-          (b) => b.borrowed === true
+          (b) => Boolean(b.borrowed && b.borrowed.trim().length > 0)
         );
         const seen = new Set(
           filteredBooks.map((b) => `${b.title}|${b.author}`)
         );
         for (const b of readlistBorrowed) {
+          const key = `${b.title}|${b.author}`;
+          if (!seen.has(key)) {
+            seen.add(key);
+            filteredBooks = [...filteredBooks, b];
+          }
+        }
+      }
+
+      // Vue « Livres prêtés » : garder aussi les prêtés de la readlist (sans date de lecture)
+      if (
+        this.selectedView() === 'loaned' &&
+        this.selectedYearFilter() !== 'all'
+      ) {
+        const readlistLoaned = this.allReadlistBooks().filter(
+          (b) => Boolean(b.loaned && b.loaned.trim().length > 0)
+        );
+        const seen = new Set(
+          filteredBooks.map((b) => `${b.title}|${b.author}`)
+        );
+        for (const b of readlistLoaned) {
           const key = `${b.title}|${b.author}`;
           if (!seen.has(key)) {
             seen.add(key);

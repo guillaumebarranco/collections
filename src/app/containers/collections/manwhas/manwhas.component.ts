@@ -98,6 +98,8 @@ export class ManwhasComponent implements OnInit {
 
   optionalViewConfig = signal<Record<OptionalManwhaView, boolean>>({
     owned: true,
+    borrowed: true,
+    loaned: true,
     toReRead: true,
     recommendations: false,
   });
@@ -180,6 +182,34 @@ export class ManwhasComponent implements OnInit {
       manwhas = this.allReadlistManwhas();
     } else if (this.selectedView() === 'owned') {
       manwhas = this.allManwhas().filter((manwha) => manwha.owned);
+    } else if (this.selectedView() === 'borrowed') {
+      const key = (m: Manwha) => `${m.title}|${m.author}`;
+      const readB = this.allManwhas().filter((m) =>
+        Boolean(m.borrowed?.trim())
+      );
+      const listB = this.allReadlistManwhas().filter((m) =>
+        Boolean(m.borrowed?.trim())
+      );
+      const seen = new Set<string>();
+      manwhas = [...readB, ...listB].filter((m) => {
+        const k = key(m);
+        if (seen.has(k)) return false;
+        seen.add(k);
+        return true;
+      });
+    } else if (this.selectedView() === 'loaned') {
+      const key = (m: Manwha) => `${m.title}|${m.author}`;
+      const readL = this.allManwhas().filter((m) => Boolean(m.loaned?.trim()));
+      const listL = this.allReadlistManwhas().filter((m) =>
+        Boolean(m.loaned?.trim())
+      );
+      const seen = new Set<string>();
+      manwhas = [...readL, ...listL].filter((m) => {
+        const k = key(m);
+        if (seen.has(k)) return false;
+        seen.add(k);
+        return true;
+      });
     } else if (this.selectedView() === 'toReRead') {
       manwhas = this.allManwhas().filter(
         (manwha) => manwha.wantToReadAgain === true
@@ -277,6 +307,8 @@ export class ManwhasComponent implements OnInit {
     this.isLoadingViewConfig = true;
     this.optionalViewConfig.set({
       owned: parsed.owned ?? true,
+      borrowed: parsed.borrowed ?? true,
+      loaned: parsed.loaned ?? true,
       toReRead: parsed.toReRead ?? true,
       recommendations: parsed.recommendations ?? false,
     });
@@ -286,13 +318,16 @@ export class ManwhasComponent implements OnInit {
   private loadViewPreferencesFromStorage(): void {
     const parsed = this.localStorageService.getItem<
       Partial<{
-        view: 'read' | 'readlist' | 'owned';
+        view: ManwhaView;
         sort: string;
       }>
     >(this.viewPreferencesStorageKey);
     if (!parsed || typeof parsed !== 'object') return;
     this.isLoadingPreferences = true;
-    if (parsed.view && ['read', 'readlist', 'owned'].includes(parsed.view)) {
+    if (
+      parsed.view &&
+      this.viewOptions.some((opt) => opt.value === parsed.view)
+    ) {
       this.selectedView.set(parsed.view);
     }
     if (

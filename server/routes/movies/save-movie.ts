@@ -50,6 +50,8 @@ router.post('/', (req: any, res: any) => {
       inList: Array.isArray(input.inList)
         ? input.inList.filter((s: any) => typeof s === 'string')
         : [],
+      borrowed: normalizeString(input.borrowed, 'borrowed') ?? '',
+      loaned: normalizeString(input.loaned, 'loaned') ?? '',
     };
 
     const entityPayload = input.entity || null;

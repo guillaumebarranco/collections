@@ -23,6 +23,8 @@ export interface UserGame extends MandatoryGameData {
   /** Sessions de jeu (dérivent timesFinished, platined, etc.) */
   sessions: UserGameSession[];
   ratingComment: string;
+  borrowed: string;
+  loaned: string;
 }
 
 export interface UserGameSession {

@@ -56,6 +56,8 @@ function formatUserGame(game: any): string {
     gamelistPriority: ${game.gamelistPriority ?? 1},
     wantToPlayAgain: false,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     sessions: [],
   },`;
 }
@@ -69,6 +71,8 @@ function formatGamelistGame(game: any): string {
     gamelistPriority: ${game.gamelistPriority ?? 1},
     wantToPlayAgain: false,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     sessions: [],
   },`;
 }

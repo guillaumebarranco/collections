@@ -11,6 +11,8 @@ export const guillaumeReadListBds: UserBds = [
     readPriority: 2,
     wantToReadAgain: false,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
   },
   {
     title: 'Racines',
@@ -22,5 +24,7 @@ export const guillaumeReadListBds: UserBds = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
   },
 ];

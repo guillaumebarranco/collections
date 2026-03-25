@@ -13,6 +13,8 @@ export const unhoWatchListMovies: UserMovie[] = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
   {
@@ -27,6 +29,8 @@ export const unhoWatchListMovies: UserMovie[] = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
   {
@@ -41,6 +45,8 @@ export const unhoWatchListMovies: UserMovie[] = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
   {
@@ -55,6 +61,8 @@ export const unhoWatchListMovies: UserMovie[] = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
   {
@@ -69,6 +77,8 @@ export const unhoWatchListMovies: UserMovie[] = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
   {
@@ -83,10 +93,12 @@ export const unhoWatchListMovies: UserMovie[] = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
   {
-    title: 'Le Fabuleux Destin d\'Amélie Poulain',
+    title: "Le Fabuleux Destin d'Amélie Poulain",
     director: 'Jean-Pierre Jeunet',
     rating: 0,
     timesWatched: 0,
@@ -97,6 +109,8 @@ export const unhoWatchListMovies: UserMovie[] = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
   {
@@ -111,6 +125,8 @@ export const unhoWatchListMovies: UserMovie[] = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
   {
@@ -125,6 +141,8 @@ export const unhoWatchListMovies: UserMovie[] = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
   {
@@ -139,6 +157,8 @@ export const unhoWatchListMovies: UserMovie[] = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
   {
@@ -153,10 +173,12 @@ export const unhoWatchListMovies: UserMovie[] = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
   {
-    title: '2001 : L\'Odyssée de l\'espace',
+    title: "2001 : L'Odyssée de l'espace",
     director: 'Yannick Rolandeau',
     rating: 0,
     timesWatched: 0,
@@ -167,6 +189,8 @@ export const unhoWatchListMovies: UserMovie[] = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
   {
@@ -181,6 +205,8 @@ export const unhoWatchListMovies: UserMovie[] = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
   {
@@ -195,6 +221,8 @@ export const unhoWatchListMovies: UserMovie[] = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
   {
@@ -209,6 +237,8 @@ export const unhoWatchListMovies: UserMovie[] = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
   {
@@ -223,6 +253,8 @@ export const unhoWatchListMovies: UserMovie[] = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
   {
@@ -237,6 +269,8 @@ export const unhoWatchListMovies: UserMovie[] = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
   {
@@ -251,10 +285,12 @@ export const unhoWatchListMovies: UserMovie[] = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
   {
-    title: 'L\'exorciste',
+    title: "L'exorciste",
     director: 'William Friedkin',
     rating: 0,
     timesWatched: 0,
@@ -265,6 +301,8 @@ export const unhoWatchListMovies: UserMovie[] = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
   {
@@ -279,6 +317,8 @@ export const unhoWatchListMovies: UserMovie[] = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
   {
@@ -293,6 +333,8 @@ export const unhoWatchListMovies: UserMovie[] = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
   {
@@ -307,6 +349,8 @@ export const unhoWatchListMovies: UserMovie[] = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
   {
@@ -321,6 +365,8 @@ export const unhoWatchListMovies: UserMovie[] = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
   {
@@ -335,6 +381,8 @@ export const unhoWatchListMovies: UserMovie[] = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
   {
@@ -349,6 +397,8 @@ export const unhoWatchListMovies: UserMovie[] = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
   {
@@ -363,6 +413,8 @@ export const unhoWatchListMovies: UserMovie[] = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
   {
@@ -377,6 +429,8 @@ export const unhoWatchListMovies: UserMovie[] = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
   {
@@ -391,6 +445,8 @@ export const unhoWatchListMovies: UserMovie[] = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
   {
@@ -405,6 +461,8 @@ export const unhoWatchListMovies: UserMovie[] = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
   {
@@ -419,6 +477,8 @@ export const unhoWatchListMovies: UserMovie[] = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
   {
@@ -433,6 +493,8 @@ export const unhoWatchListMovies: UserMovie[] = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
   {
@@ -447,6 +509,8 @@ export const unhoWatchListMovies: UserMovie[] = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
   {
@@ -461,6 +525,8 @@ export const unhoWatchListMovies: UserMovie[] = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
   {
@@ -475,10 +541,12 @@ export const unhoWatchListMovies: UserMovie[] = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
   {
-    title: 'Une bataille après l\'autre',
+    title: "Une bataille après l'autre",
     director: 'Paul Thomas Anderson',
     rating: 0,
     timesWatched: 0,
@@ -489,6 +557,8 @@ export const unhoWatchListMovies: UserMovie[] = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
   {
@@ -503,6 +573,8 @@ export const unhoWatchListMovies: UserMovie[] = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
   {
@@ -517,6 +589,8 @@ export const unhoWatchListMovies: UserMovie[] = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
   {
@@ -531,6 +605,8 @@ export const unhoWatchListMovies: UserMovie[] = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
   {
@@ -545,6 +621,8 @@ export const unhoWatchListMovies: UserMovie[] = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
   {
@@ -559,6 +637,8 @@ export const unhoWatchListMovies: UserMovie[] = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
   {
@@ -573,6 +653,8 @@ export const unhoWatchListMovies: UserMovie[] = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
   {
@@ -587,6 +669,8 @@ export const unhoWatchListMovies: UserMovie[] = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
   {
@@ -601,6 +685,8 @@ export const unhoWatchListMovies: UserMovie[] = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
   {
@@ -615,6 +701,8 @@ export const unhoWatchListMovies: UserMovie[] = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
   {
@@ -629,10 +717,12 @@ export const unhoWatchListMovies: UserMovie[] = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
   {
-    title: 'Le Prince d\'Égypte',
+    title: "Le Prince d'Égypte",
     director: 'Brenda Chapman, Steve Hickner',
     rating: 0,
     timesWatched: 0,
@@ -643,6 +733,8 @@ export const unhoWatchListMovies: UserMovie[] = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
   {
@@ -657,6 +749,8 @@ export const unhoWatchListMovies: UserMovie[] = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
   {
@@ -671,6 +765,8 @@ export const unhoWatchListMovies: UserMovie[] = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
   {
@@ -685,6 +781,8 @@ export const unhoWatchListMovies: UserMovie[] = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
   {
@@ -699,6 +797,8 @@ export const unhoWatchListMovies: UserMovie[] = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
   {
@@ -713,6 +813,8 @@ export const unhoWatchListMovies: UserMovie[] = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
   {
@@ -727,6 +829,8 @@ export const unhoWatchListMovies: UserMovie[] = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
   {
@@ -741,6 +845,8 @@ export const unhoWatchListMovies: UserMovie[] = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
   {
@@ -755,6 +861,8 @@ export const unhoWatchListMovies: UserMovie[] = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
   {
@@ -769,6 +877,8 @@ export const unhoWatchListMovies: UserMovie[] = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
   {
@@ -783,6 +893,8 @@ export const unhoWatchListMovies: UserMovie[] = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
   {
@@ -797,10 +909,12 @@ export const unhoWatchListMovies: UserMovie[] = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
   {
-    title: 'Hunger Games : La Ballade du serpent et de l\'oiseau chanteur',
+    title: "Hunger Games : La Ballade du serpent et de l'oiseau chanteur",
     director: 'Francis Lawrence',
     rating: 0,
     timesWatched: 0,
@@ -811,6 +925,8 @@ export const unhoWatchListMovies: UserMovie[] = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
   {
@@ -825,6 +941,8 @@ export const unhoWatchListMovies: UserMovie[] = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
   {
@@ -839,6 +957,8 @@ export const unhoWatchListMovies: UserMovie[] = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
   {
@@ -853,6 +973,8 @@ export const unhoWatchListMovies: UserMovie[] = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
   {
@@ -867,10 +989,12 @@ export const unhoWatchListMovies: UserMovie[] = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
   {
-    title: 'La Forme de l\'eau',
+    title: "La Forme de l'eau",
     director: 'Guillermo del Toro',
     rating: 0,
     timesWatched: 0,
@@ -881,6 +1005,8 @@ export const unhoWatchListMovies: UserMovie[] = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
   {
@@ -895,6 +1021,8 @@ export const unhoWatchListMovies: UserMovie[] = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
   {
@@ -909,6 +1037,8 @@ export const unhoWatchListMovies: UserMovie[] = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
   {
@@ -923,6 +1053,8 @@ export const unhoWatchListMovies: UserMovie[] = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
   {
@@ -937,6 +1069,8 @@ export const unhoWatchListMovies: UserMovie[] = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
   {
@@ -951,6 +1085,8 @@ export const unhoWatchListMovies: UserMovie[] = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
   {
@@ -965,6 +1101,8 @@ export const unhoWatchListMovies: UserMovie[] = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
   {
@@ -979,6 +1117,8 @@ export const unhoWatchListMovies: UserMovie[] = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
   {
@@ -993,6 +1133,8 @@ export const unhoWatchListMovies: UserMovie[] = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
   {
@@ -1007,10 +1149,12 @@ export const unhoWatchListMovies: UserMovie[] = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
   {
-    title: 'Avengers : L\'Ère d\'Ultron',
+    title: "Avengers : L'Ère d'Ultron",
     director: 'Joss Whedon',
     rating: 0,
     timesWatched: 0,
@@ -1021,6 +1165,8 @@ export const unhoWatchListMovies: UserMovie[] = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
   {
@@ -1035,6 +1181,8 @@ export const unhoWatchListMovies: UserMovie[] = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
   {
@@ -1049,6 +1197,8 @@ export const unhoWatchListMovies: UserMovie[] = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
   {
@@ -1063,10 +1213,12 @@ export const unhoWatchListMovies: UserMovie[] = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
   {
-    title: 'Star Wars : Episode 9 - L\'ascension de Skywalker',
+    title: "Star Wars : Episode 9 - L'ascension de Skywalker",
     director: 'J.J. Abrams',
     rating: 0,
     timesWatched: 0,
@@ -1077,6 +1229,8 @@ export const unhoWatchListMovies: UserMovie[] = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
   {
@@ -1091,6 +1245,8 @@ export const unhoWatchListMovies: UserMovie[] = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
   {
@@ -1105,6 +1261,8 @@ export const unhoWatchListMovies: UserMovie[] = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
   {
@@ -1119,6 +1277,8 @@ export const unhoWatchListMovies: UserMovie[] = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
   {
@@ -1133,6 +1293,8 @@ export const unhoWatchListMovies: UserMovie[] = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
   {
@@ -1147,6 +1309,8 @@ export const unhoWatchListMovies: UserMovie[] = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
   {
@@ -1161,6 +1325,8 @@ export const unhoWatchListMovies: UserMovie[] = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
   {
@@ -1175,6 +1341,8 @@ export const unhoWatchListMovies: UserMovie[] = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
   {
@@ -1189,6 +1357,8 @@ export const unhoWatchListMovies: UserMovie[] = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
   {
@@ -1203,6 +1373,8 @@ export const unhoWatchListMovies: UserMovie[] = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
   {
@@ -1217,6 +1389,8 @@ export const unhoWatchListMovies: UserMovie[] = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
   {
@@ -1231,6 +1405,8 @@ export const unhoWatchListMovies: UserMovie[] = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
   {
@@ -1245,6 +1421,8 @@ export const unhoWatchListMovies: UserMovie[] = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
   {
@@ -1259,6 +1437,8 @@ export const unhoWatchListMovies: UserMovie[] = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
-  }
+  },
 ];

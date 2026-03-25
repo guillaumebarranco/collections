@@ -205,6 +205,16 @@ function parseSeriesFromFile(content: string): any[] {
               parseBooleanField(objectText, 'wantToWatchAgain') ?? false,
             rating: parseNumberField(objectText, 'rating') ?? 0,
             ratingComment: parseStringField(objectText, 'ratingComment') ?? '',
+            borrowed:
+              parseStringField(objectText, 'borrowed') ??
+              ((parseBooleanField(objectText, 'borrowed') ?? false)
+                ? 'Inconnu'
+                : ''),
+            loaned:
+              parseStringField(objectText, 'loaned') ??
+              ((parseBooleanField(objectText, 'loaned') ?? false)
+                ? 'Inconnu'
+                : ''),
           });
         }
       }
@@ -563,6 +573,12 @@ function updateSerieInFile(content: string, payload: any) {
             payload.wantToWatchAgain
           );
           updated = upsertField(updated, 'ratingComment', payload.ratingComment ?? '');
+          updated = upsertField(
+            updated,
+            'borrowed',
+            payload.borrowed ?? ''
+          );
+          updated = upsertField(updated, 'loaned', payload.loaned ?? '');
 
           return (
             content.slice(0, objectStart) +

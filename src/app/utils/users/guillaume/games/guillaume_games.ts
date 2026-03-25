@@ -41,6 +41,8 @@ export const guillaumeGames: UserGames = [
     gamelistPriority: 1,
     wantToPlayAgain: false,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
   },
   {
     title: 'The Legend of Zelda: The Wind Waker',
@@ -82,6 +84,8 @@ export const guillaumeGames: UserGames = [
     gamelistPriority: 1,
     wantToPlayAgain: false,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
   },
   {
     title: 'The Legend of Zelda: Twilight Princess',
@@ -105,6 +109,8 @@ export const guillaumeGames: UserGames = [
     gamelistPriority: 1,
     wantToPlayAgain: false,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
   },
   {
     title: 'The Legend of Zelda: Skyward Sword',
@@ -128,6 +134,8 @@ export const guillaumeGames: UserGames = [
     gamelistPriority: 1,
     wantToPlayAgain: false,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
   },
   {
     title: 'The Legend of Zelda: Breath of the Wild',
@@ -145,6 +153,8 @@ export const guillaumeGames: UserGames = [
     gamelistPriority: 1,
     wantToPlayAgain: false,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
   },
   {
     title: 'The Legend of Zelda: A Link to the Past',
@@ -162,6 +172,8 @@ export const guillaumeGames: UserGames = [
     gamelistPriority: 1,
     wantToPlayAgain: false,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
   },
   {
     title: "The Legend of Zelda: Link's Awakening",
@@ -179,6 +191,8 @@ export const guillaumeGames: UserGames = [
     gamelistPriority: 1,
     wantToPlayAgain: false,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
   },
   {
     title: 'The Legend of Zelda: Oracle of Seasons',
@@ -208,6 +222,8 @@ export const guillaumeGames: UserGames = [
     gamelistPriority: 1,
     wantToPlayAgain: false,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
   },
   {
     title: 'The Legend of Zelda: Oracle of Ages',
@@ -237,6 +253,8 @@ export const guillaumeGames: UserGames = [
     gamelistPriority: 1,
     wantToPlayAgain: false,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
   },
   {
     title: 'The Legend of Zelda: The Minish Cap',
@@ -260,6 +278,8 @@ export const guillaumeGames: UserGames = [
     gamelistPriority: 1,
     wantToPlayAgain: false,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
   },
   {
     title: 'Call of Duty 4: Modern Warfare',
@@ -277,6 +297,8 @@ export const guillaumeGames: UserGames = [
     gamelistPriority: 1,
     wantToPlayAgain: false,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
   },
   {
     title: 'Call of Duty: World at War',
@@ -294,6 +316,8 @@ export const guillaumeGames: UserGames = [
     gamelistPriority: 1,
     wantToPlayAgain: false,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
   },
   {
     title: 'Call of Duty: Modern Warfare 2',
@@ -311,6 +335,8 @@ export const guillaumeGames: UserGames = [
     gamelistPriority: 1,
     wantToPlayAgain: false,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
   },
   {
     title: 'Call of Duty: Black Ops',
@@ -328,6 +354,8 @@ export const guillaumeGames: UserGames = [
     gamelistPriority: 1,
     wantToPlayAgain: false,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
   },
   {
     title: 'Call of Duty: Modern Warfare 3',
@@ -345,6 +373,8 @@ export const guillaumeGames: UserGames = [
     gamelistPriority: 1,
     wantToPlayAgain: false,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
   },
   {
     title: 'Call of Duty: Black Ops II',
@@ -362,6 +392,8 @@ export const guillaumeGames: UserGames = [
     gamelistPriority: 1,
     wantToPlayAgain: false,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
   },
   {
     title: 'Call of Duty: Black Ops III',
@@ -379,6 +411,8 @@ export const guillaumeGames: UserGames = [
     gamelistPriority: 1,
     wantToPlayAgain: false,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
   },
   {
     title: 'Call of Duty: Infinite Warfare',
@@ -396,6 +430,8 @@ export const guillaumeGames: UserGames = [
     gamelistPriority: 1,
     wantToPlayAgain: false,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
   },
   {
     title: 'Call of Duty: WWII',
@@ -413,6 +449,8 @@ export const guillaumeGames: UserGames = [
     gamelistPriority: 1,
     wantToPlayAgain: false,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
   },
   {
     title: 'Call of Duty: Black Ops 4',
@@ -430,6 +468,8 @@ export const guillaumeGames: UserGames = [
     gamelistPriority: 1,
     wantToPlayAgain: false,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
   },
   {
     title: 'Call of Duty: Black Ops Cold War',
@@ -447,6 +487,8 @@ export const guillaumeGames: UserGames = [
     gamelistPriority: 1,
     wantToPlayAgain: false,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
   },
   {
     title: 'Call of Duty: Black Ops 6',
@@ -464,6 +506,8 @@ export const guillaumeGames: UserGames = [
     gamelistPriority: 1,
     wantToPlayAgain: false,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
   },
   {
     title: 'Call of Duty: Black Ops 7',
@@ -481,6 +525,8 @@ export const guillaumeGames: UserGames = [
     gamelistPriority: 1,
     wantToPlayAgain: false,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
   },
   {
     title: 'Pokémon Bleu',
@@ -558,6 +604,8 @@ export const guillaumeGames: UserGames = [
     gamelistPriority: 1,
     wantToPlayAgain: false,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
   },
   {
     title: 'Pokémon Or',
@@ -599,6 +647,8 @@ export const guillaumeGames: UserGames = [
     gamelistPriority: 1,
     wantToPlayAgain: false,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
   },
   {
     title: 'Pokémon Cristal',
@@ -640,6 +690,8 @@ export const guillaumeGames: UserGames = [
     gamelistPriority: 1,
     wantToPlayAgain: false,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
   },
   {
     title: 'Pokémon Saphir',
@@ -681,6 +733,8 @@ export const guillaumeGames: UserGames = [
     gamelistPriority: 1,
     wantToPlayAgain: false,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
   },
   {
     title: 'Pokémon Émeraude',
@@ -722,6 +776,8 @@ export const guillaumeGames: UserGames = [
     gamelistPriority: 1,
     wantToPlayAgain: false,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
   },
   {
     title: 'Pokémon Rouge Feu',
@@ -745,6 +801,8 @@ export const guillaumeGames: UserGames = [
     gamelistPriority: 1,
     wantToPlayAgain: false,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
   },
   {
     title: 'Pokémon Bouclier',
@@ -762,6 +820,8 @@ export const guillaumeGames: UserGames = [
     gamelistPriority: 1,
     wantToPlayAgain: false,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
   },
   {
     title: 'Pokémon Violet',
@@ -779,6 +839,8 @@ export const guillaumeGames: UserGames = [
     gamelistPriority: 1,
     wantToPlayAgain: false,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
   },
   {
     title: 'One Piece: Unlimited Cruise Episode 1',
@@ -796,6 +858,8 @@ export const guillaumeGames: UserGames = [
     gamelistPriority: 1,
     wantToPlayAgain: false,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
   },
   {
     title: 'One Piece: Unlimited Cruise Episode 2',
@@ -819,6 +883,8 @@ export const guillaumeGames: UserGames = [
     gamelistPriority: 1,
     wantToPlayAgain: false,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
   },
   {
     title: 'One Piece: Pirate Warriors',
@@ -836,6 +902,8 @@ export const guillaumeGames: UserGames = [
     gamelistPriority: 1,
     wantToPlayAgain: false,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
   },
   {
     title: 'One Piece: Pirate Warriors 2',
@@ -853,6 +921,8 @@ export const guillaumeGames: UserGames = [
     gamelistPriority: 1,
     wantToPlayAgain: false,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
   },
   {
     title: 'One Piece: Unlimited World Red',
@@ -870,6 +940,8 @@ export const guillaumeGames: UserGames = [
     gamelistPriority: 1,
     wantToPlayAgain: false,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
   },
   {
     title: 'One Piece: Pirate Warriors 3',
@@ -887,6 +959,8 @@ export const guillaumeGames: UserGames = [
     gamelistPriority: 1,
     wantToPlayAgain: false,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
   },
   {
     title: 'One Piece: Burning Blood',
@@ -904,6 +978,8 @@ export const guillaumeGames: UserGames = [
     gamelistPriority: 1,
     wantToPlayAgain: false,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
   },
   {
     title: 'One Piece: Treasure Cruise',
@@ -921,6 +997,8 @@ export const guillaumeGames: UserGames = [
     gamelistPriority: 1,
     wantToPlayAgain: false,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
   },
   {
     title: 'Naruto: Ultimate Ninja Storm',
@@ -938,6 +1016,8 @@ export const guillaumeGames: UserGames = [
     gamelistPriority: 1,
     wantToPlayAgain: false,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
   },
   {
     title: 'Naruto Shippuden: Ultimate Ninja Storm 2',
@@ -955,6 +1035,8 @@ export const guillaumeGames: UserGames = [
     gamelistPriority: 1,
     wantToPlayAgain: false,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
   },
   {
     title: 'Naruto Shippuden: Ultimate Ninja Storm 3',
@@ -972,6 +1054,8 @@ export const guillaumeGames: UserGames = [
     gamelistPriority: 1,
     wantToPlayAgain: false,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
   },
   {
     title: 'Naruto Shippuden: Ultimate Ninja Storm 4',
@@ -989,6 +1073,8 @@ export const guillaumeGames: UserGames = [
     gamelistPriority: 1,
     wantToPlayAgain: false,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
   },
   {
     title: 'Infamous',
@@ -1006,6 +1092,8 @@ export const guillaumeGames: UserGames = [
     gamelistPriority: 1,
     wantToPlayAgain: false,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
   },
   {
     title: 'Infamous 2',
@@ -1023,6 +1111,8 @@ export const guillaumeGames: UserGames = [
     gamelistPriority: 1,
     wantToPlayAgain: false,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
   },
   {
     title: 'Infamous: Second Son',
@@ -1040,6 +1130,8 @@ export const guillaumeGames: UserGames = [
     gamelistPriority: 1,
     wantToPlayAgain: false,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
   },
   {
     title: 'Infamous: First Light',
@@ -1057,6 +1149,8 @@ export const guillaumeGames: UserGames = [
     gamelistPriority: 1,
     wantToPlayAgain: false,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
   },
   {
     title: 'Super Smash Bros. Melee',
@@ -1074,6 +1168,8 @@ export const guillaumeGames: UserGames = [
     gamelistPriority: 1,
     wantToPlayAgain: true,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
   },
   {
     title: 'Super Smash Bros. Ultimate',
@@ -1091,6 +1187,8 @@ export const guillaumeGames: UserGames = [
     gamelistPriority: 1,
     wantToPlayAgain: false,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
   },
   {
     title: 'LittleBigPlanet',
@@ -1108,6 +1206,8 @@ export const guillaumeGames: UserGames = [
     gamelistPriority: 1,
     wantToPlayAgain: false,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
   },
   {
     title: 'Brutal Legend',
@@ -1125,6 +1225,8 @@ export const guillaumeGames: UserGames = [
     gamelistPriority: 1,
     wantToPlayAgain: false,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
   },
   {
     title: 'Batman: Arkham Asylum',
@@ -1142,6 +1244,8 @@ export const guillaumeGames: UserGames = [
     gamelistPriority: 1,
     wantToPlayAgain: false,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
   },
   {
     title: 'The Amazing Spider-Man',
@@ -1159,6 +1263,8 @@ export const guillaumeGames: UserGames = [
     gamelistPriority: 1,
     wantToPlayAgain: false,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
   },
   {
     title: "Marvel's Spider-Man",
@@ -1176,6 +1282,8 @@ export const guillaumeGames: UserGames = [
     gamelistPriority: 1,
     wantToPlayAgain: false,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
   },
   {
     title: "Marvel's Spider-Man: Miles Morales",
@@ -1193,6 +1301,8 @@ export const guillaumeGames: UserGames = [
     gamelistPriority: 1,
     wantToPlayAgain: false,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
   },
   {
     title: "Marvel's Spider-Man 2",
@@ -1210,6 +1320,8 @@ export const guillaumeGames: UserGames = [
     gamelistPriority: 1,
     wantToPlayAgain: false,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
   },
   {
     title: 'Dead Nation',
@@ -1227,6 +1339,8 @@ export const guillaumeGames: UserGames = [
     gamelistPriority: 1,
     wantToPlayAgain: false,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
   },
   {
     title: 'BioShock Infinite',
@@ -1244,6 +1358,8 @@ export const guillaumeGames: UserGames = [
     gamelistPriority: 1,
     wantToPlayAgain: false,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
   },
   {
     title: 'Brothers: A Tale of Two Sons',
@@ -1261,6 +1377,8 @@ export const guillaumeGames: UserGames = [
     gamelistPriority: 1,
     wantToPlayAgain: false,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
   },
   {
     title: 'Injustice : Les Dieux sont Parmi Nous - Ultimate Edition',
@@ -1278,6 +1396,8 @@ export const guillaumeGames: UserGames = [
     gamelistPriority: 1,
     wantToPlayAgain: false,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
   },
   {
     title: "Mirror's Edge",
@@ -1295,6 +1415,8 @@ export const guillaumeGames: UserGames = [
     gamelistPriority: 1,
     wantToPlayAgain: false,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
   },
   {
     title: 'PlayStation All-Stars Battle Royale',
@@ -1312,6 +1434,8 @@ export const guillaumeGames: UserGames = [
     gamelistPriority: 1,
     wantToPlayAgain: false,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
   },
   {
     title: 'Stick It to the Man',
@@ -1329,6 +1453,8 @@ export const guillaumeGames: UserGames = [
     gamelistPriority: 1,
     wantToPlayAgain: false,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
   },
   {
     title: 'Watch Dogs',
@@ -1346,6 +1472,8 @@ export const guillaumeGames: UserGames = [
     gamelistPriority: 1,
     wantToPlayAgain: false,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
   },
   {
     title: 'Super Meat Boy',
@@ -1381,6 +1509,8 @@ export const guillaumeGames: UserGames = [
     gamelistPriority: 1,
     wantToPlayAgain: false,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
   },
   {
     title: 'J-Stars Victory VS',
@@ -1398,6 +1528,8 @@ export const guillaumeGames: UserGames = [
     gamelistPriority: 1,
     wantToPlayAgain: false,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
   },
   {
     title: 'Dragon Ball Z: Budokai 2',
@@ -1427,6 +1559,8 @@ export const guillaumeGames: UserGames = [
     gamelistPriority: 1,
     wantToPlayAgain: false,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
   },
   {
     title: 'Dragon Ball Z: Budokai 3',
@@ -1450,6 +1584,8 @@ export const guillaumeGames: UserGames = [
     gamelistPriority: 1,
     wantToPlayAgain: false,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
   },
   {
     title: 'Dragon Ball Z: Budokai Tenkaichi 2',
@@ -1467,6 +1603,8 @@ export const guillaumeGames: UserGames = [
     gamelistPriority: 1,
     wantToPlayAgain: false,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
   },
   {
     title: 'Dragon Ball Z: Dokkan Battle',
@@ -1484,6 +1622,8 @@ export const guillaumeGames: UserGames = [
     gamelistPriority: 1,
     wantToPlayAgain: false,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
   },
   {
     title: 'Ratchet & Clank',
@@ -1501,6 +1641,8 @@ export const guillaumeGames: UserGames = [
     gamelistPriority: 1,
     wantToPlayAgain: false,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
   },
   {
     title: 'South Park: Le Bâton de la Vérité',
@@ -1518,6 +1660,8 @@ export const guillaumeGames: UserGames = [
     gamelistPriority: 1,
     wantToPlayAgain: false,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
   },
   {
     title: 'God of War',
@@ -1535,6 +1679,8 @@ export const guillaumeGames: UserGames = [
     gamelistPriority: 1,
     wantToPlayAgain: false,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
   },
   {
     title: 'God of War Ragnarök',
@@ -1552,6 +1698,8 @@ export const guillaumeGames: UserGames = [
     gamelistPriority: 1,
     wantToPlayAgain: false,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
   },
   {
     title: 'Hogwarts Legacy',
@@ -1569,6 +1717,8 @@ export const guillaumeGames: UserGames = [
     gamelistPriority: 1,
     wantToPlayAgain: false,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
   },
   {
     title: 'Metroid Fusion',
@@ -1628,6 +1778,8 @@ export const guillaumeGames: UserGames = [
     gamelistPriority: 1,
     wantToPlayAgain: false,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
   },
   {
     title: 'Metroid: Zero Mission',
@@ -1645,6 +1797,8 @@ export const guillaumeGames: UserGames = [
     gamelistPriority: 1,
     wantToPlayAgain: false,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
   },
   {
     title: 'Metroid Prime',
@@ -1662,6 +1816,8 @@ export const guillaumeGames: UserGames = [
     gamelistPriority: 1,
     wantToPlayAgain: false,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
   },
   {
     title: 'Metroid Prime 2: Echoes',
@@ -1679,6 +1835,8 @@ export const guillaumeGames: UserGames = [
     gamelistPriority: 1,
     wantToPlayAgain: false,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
   },
   {
     title: 'Metroid Prime 3: Corruption',
@@ -1696,6 +1854,8 @@ export const guillaumeGames: UserGames = [
     gamelistPriority: 1,
     wantToPlayAgain: false,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
   },
   {
     title: 'Metroid Dread',
@@ -1713,6 +1873,8 @@ export const guillaumeGames: UserGames = [
     gamelistPriority: 1,
     wantToPlayAgain: false,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
   },
   {
     title: 'Super Mario 64',
@@ -1730,6 +1892,8 @@ export const guillaumeGames: UserGames = [
     gamelistPriority: 1,
     wantToPlayAgain: false,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
   },
   {
     title: 'Super Mario Galaxy',
@@ -1747,6 +1911,8 @@ export const guillaumeGames: UserGames = [
     gamelistPriority: 1,
     wantToPlayAgain: false,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
   },
   {
     title: 'Super Mario Odyssey',
@@ -1764,6 +1930,8 @@ export const guillaumeGames: UserGames = [
     gamelistPriority: 1,
     wantToPlayAgain: false,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
   },
   {
     title: 'Mario Kart: Double Dash!!',
@@ -1781,6 +1949,8 @@ export const guillaumeGames: UserGames = [
     gamelistPriority: 1,
     wantToPlayAgain: false,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
   },
   {
     title: 'Mario Kart Wii',
@@ -1798,6 +1968,8 @@ export const guillaumeGames: UserGames = [
     gamelistPriority: 1,
     wantToPlayAgain: false,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
   },
   {
     title: 'Mario Kart 8 Deluxe',
@@ -1815,6 +1987,8 @@ export const guillaumeGames: UserGames = [
     gamelistPriority: 1,
     wantToPlayAgain: false,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
   },
   {
     title: 'Mario Party 5',
@@ -1832,6 +2006,8 @@ export const guillaumeGames: UserGames = [
     gamelistPriority: 1,
     wantToPlayAgain: false,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
   },
   {
     title: 'Mario Party 6',
@@ -1849,6 +2025,8 @@ export const guillaumeGames: UserGames = [
     gamelistPriority: 1,
     wantToPlayAgain: false,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
   },
   {
     title: 'Mario Party 7',
@@ -1866,6 +2044,8 @@ export const guillaumeGames: UserGames = [
     gamelistPriority: 1,
     wantToPlayAgain: false,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
   },
   {
     title: 'Mario Party 8',
@@ -1883,6 +2063,8 @@ export const guillaumeGames: UserGames = [
     gamelistPriority: 1,
     wantToPlayAgain: false,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
   },
   {
     title: 'Super Mario Party',
@@ -1900,6 +2082,8 @@ export const guillaumeGames: UserGames = [
     gamelistPriority: 1,
     wantToPlayAgain: false,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
   },
   {
     title: 'Super Paper Mario',
@@ -1917,6 +2101,8 @@ export const guillaumeGames: UserGames = [
     gamelistPriority: 1,
     wantToPlayAgain: false,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
   },
   {
     title: 'Mario & Luigi: Superstar Saga',
@@ -1934,6 +2120,8 @@ export const guillaumeGames: UserGames = [
     gamelistPriority: 1,
     wantToPlayAgain: false,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
   },
   {
     title: 'Need for Speed: Most Wanted',
@@ -1969,6 +2157,8 @@ export const guillaumeGames: UserGames = [
     gamelistPriority: 1,
     wantToPlayAgain: false,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
   },
   {
     title: 'Need for Speed: Carbon',
@@ -2022,6 +2212,8 @@ export const guillaumeGames: UserGames = [
     gamelistPriority: 1,
     wantToPlayAgain: false,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
   },
   {
     title: 'Yu-Gi-Oh! Duel des ténèbres',
@@ -2039,6 +2231,8 @@ export const guillaumeGames: UserGames = [
     gamelistPriority: 1,
     wantToPlayAgain: false,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
   },
   {
     title: 'Yu-Gi-Oh! The Sacred Cards',
@@ -2062,6 +2256,8 @@ export const guillaumeGames: UserGames = [
     gamelistPriority: 1,
     wantToPlayAgain: false,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
   },
   {
     title: 'Yu-Gi-Oh! Reshef of Destruction',
@@ -2079,6 +2275,8 @@ export const guillaumeGames: UserGames = [
     gamelistPriority: 1,
     wantToPlayAgain: false,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
   },
   {
     title: 'Medal of Honor : En première ligne',
@@ -2096,6 +2294,8 @@ export const guillaumeGames: UserGames = [
     gamelistPriority: 1,
     wantToPlayAgain: false,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
   },
   {
     title: 'Guitar Hero III: Legends of Rock',
@@ -2113,6 +2313,8 @@ export const guillaumeGames: UserGames = [
     gamelistPriority: 1,
     wantToPlayAgain: false,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
   },
   {
     title: "Luigi's Mansion",
@@ -2136,6 +2338,8 @@ export const guillaumeGames: UserGames = [
     gamelistPriority: 1,
     wantToPlayAgain: false,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
   },
   {
     title: 'Tekken: Dark Resurrection',
@@ -2153,6 +2357,8 @@ export const guillaumeGames: UserGames = [
     gamelistPriority: 1,
     wantToPlayAgain: false,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
   },
   {
     title: 'Grand Theft Auto: San Andreas',
@@ -2176,6 +2382,8 @@ export const guillaumeGames: UserGames = [
     gamelistPriority: 1,
     wantToPlayAgain: false,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
   },
   {
     title: 'Grand Theft Auto: Vice City',
@@ -2193,6 +2401,8 @@ export const guillaumeGames: UserGames = [
     gamelistPriority: 1,
     wantToPlayAgain: false,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
   },
   {
     title: 'Grand Theft Auto: Vice City Stories',
@@ -2216,6 +2426,8 @@ export const guillaumeGames: UserGames = [
     gamelistPriority: 1,
     wantToPlayAgain: false,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
   },
   {
     title: 'Grand Theft Auto: Liberty City Stories',
@@ -2239,6 +2451,8 @@ export const guillaumeGames: UserGames = [
     gamelistPriority: 1,
     wantToPlayAgain: false,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
   },
   {
     title: 'Star Wars: Le Pouvoir de la Force',
@@ -2256,6 +2470,8 @@ export const guillaumeGames: UserGames = [
     gamelistPriority: 1,
     wantToPlayAgain: false,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
   },
   {
     title: 'Lego Star Wars',
@@ -2273,6 +2489,8 @@ export const guillaumeGames: UserGames = [
     gamelistPriority: 1,
     wantToPlayAgain: false,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
   },
   {
     title: 'Star Wars: Rebel Strike',
@@ -2290,6 +2508,8 @@ export const guillaumeGames: UserGames = [
     gamelistPriority: 1,
     wantToPlayAgain: false,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
   },
   {
     title: 'WarioWare: Smooth Moves',
@@ -2307,6 +2527,8 @@ export const guillaumeGames: UserGames = [
     gamelistPriority: 1,
     wantToPlayAgain: false,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
   },
   {
     title: 'Gunbound World Champion',
@@ -2324,6 +2546,8 @@ export const guillaumeGames: UserGames = [
     gamelistPriority: 1,
     wantToPlayAgain: false,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
   },
   {
     title: 'GoldenEye 007',
@@ -2341,6 +2565,8 @@ export const guillaumeGames: UserGames = [
     gamelistPriority: 1,
     wantToPlayAgain: false,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
   },
   {
     title: 'Wii Sports',
@@ -2358,6 +2584,8 @@ export const guillaumeGames: UserGames = [
     gamelistPriority: 1,
     wantToPlayAgain: false,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
   },
   {
     title: 'Harry Potter: Coupe du Monde de Quidditch',
@@ -2375,6 +2603,8 @@ export const guillaumeGames: UserGames = [
     gamelistPriority: 1,
     wantToPlayAgain: false,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
   },
   {
     title: 'Les Simpsons: Le Jeu',
@@ -2392,6 +2622,8 @@ export const guillaumeGames: UserGames = [
     gamelistPriority: 1,
     wantToPlayAgain: false,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
   },
   {
     title: 'Sonic Adventure 2 Battle',
@@ -2409,6 +2641,8 @@ export const guillaumeGames: UserGames = [
     gamelistPriority: 1,
     wantToPlayAgain: false,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
   },
   {
     title: 'Sonic Unleashed',
@@ -2426,6 +2660,8 @@ export const guillaumeGames: UserGames = [
     gamelistPriority: 1,
     wantToPlayAgain: false,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
   },
   {
     title: 'Mario & Sonic aux Jeux Olympiques',
@@ -2443,6 +2679,8 @@ export const guillaumeGames: UserGames = [
     gamelistPriority: 1,
     wantToPlayAgain: false,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
   },
   {
     title: 'Super Smash Bros. Brawl',
@@ -2460,6 +2698,8 @@ export const guillaumeGames: UserGames = [
     gamelistPriority: 1,
     wantToPlayAgain: false,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
   },
   {
     title: 'Streets of Rage',
@@ -2477,6 +2717,8 @@ export const guillaumeGames: UserGames = [
     gamelistPriority: 1,
     wantToPlayAgain: false,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
   },
   {
     title: 'Shadow Warriors',
@@ -2494,6 +2736,8 @@ export const guillaumeGames: UserGames = [
     gamelistPriority: 1,
     wantToPlayAgain: false,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
   },
   {
     title: "Super Mario World 2: Yoshi's Island",
@@ -2511,6 +2755,8 @@ export const guillaumeGames: UserGames = [
     gamelistPriority: 1,
     wantToPlayAgain: false,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
   },
   {
     title: 'Double Dragon',
@@ -2520,6 +2766,8 @@ export const guillaumeGames: UserGames = [
     gamelistPriority: 1,
     wantToPlayAgain: false,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     sessions: [
       {
         finishedGame: true,
@@ -2537,6 +2785,8 @@ export const guillaumeGames: UserGames = [
     gamelistPriority: 1,
     wantToPlayAgain: false,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     sessions: [
       {
         finishedGame: false,
@@ -2554,6 +2804,8 @@ export const guillaumeGames: UserGames = [
     gamelistPriority: 1,
     wantToPlayAgain: false,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     sessions: [
       {
         finishedGame: false,
@@ -2595,6 +2847,8 @@ export const guillaumeGames: UserGames = [
     gamelistPriority: 1,
     wantToPlayAgain: false,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     sessions: [
       {
         finishedGame: false,
@@ -2612,6 +2866,8 @@ export const guillaumeGames: UserGames = [
     gamelistPriority: 1,
     wantToPlayAgain: false,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     sessions: [
       {
         finishedGame: false,
@@ -2629,6 +2885,8 @@ export const guillaumeGames: UserGames = [
     gamelistPriority: 1,
     wantToPlayAgain: false,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     sessions: [
       {
         finishedGame: false,
@@ -2646,6 +2904,8 @@ export const guillaumeGames: UserGames = [
     gamelistPriority: 1,
     wantToPlayAgain: false,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     sessions: [
       {
         finishedGame: false,
@@ -2663,6 +2923,8 @@ export const guillaumeGames: UserGames = [
     gamelistPriority: 1,
     wantToPlayAgain: false,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     sessions: [
       {
         finishedGame: false,
@@ -2680,6 +2942,8 @@ export const guillaumeGames: UserGames = [
     gamelistPriority: 1,
     wantToPlayAgain: false,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     sessions: [
       {
         finishedGame: false,
@@ -2697,6 +2961,8 @@ export const guillaumeGames: UserGames = [
     gamelistPriority: 1,
     wantToPlayAgain: false,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     sessions: [
       {
         finishedGame: false,
@@ -2714,6 +2980,8 @@ export const guillaumeGames: UserGames = [
     gamelistPriority: 1,
     wantToPlayAgain: false,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     sessions: [
       {
         finishedGame: false,
@@ -2731,6 +2999,8 @@ export const guillaumeGames: UserGames = [
     gamelistPriority: 1,
     wantToPlayAgain: false,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     sessions: [
       {
         finishedGame: false,
@@ -2748,6 +3018,8 @@ export const guillaumeGames: UserGames = [
     gamelistPriority: 1,
     wantToPlayAgain: false,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     sessions: [
       {
         finishedGame: false,
@@ -2765,6 +3037,8 @@ export const guillaumeGames: UserGames = [
     gamelistPriority: 1,
     wantToPlayAgain: false,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     sessions: [
       {
         finishedGame: false,
@@ -2782,6 +3056,8 @@ export const guillaumeGames: UserGames = [
     gamelistPriority: 1,
     wantToPlayAgain: false,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     sessions: [
       {
         finishedGame: false,
@@ -2799,6 +3075,8 @@ export const guillaumeGames: UserGames = [
     gamelistPriority: 1,
     wantToPlayAgain: false,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     sessions: [
       {
         finishedGame: false,
@@ -2816,6 +3094,8 @@ export const guillaumeGames: UserGames = [
     gamelistPriority: 1,
     wantToPlayAgain: false,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     sessions: [
       {
         finishedGame: false,
@@ -2833,6 +3113,8 @@ export const guillaumeGames: UserGames = [
     gamelistPriority: 1,
     wantToPlayAgain: false,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     sessions: [
       {
         finishedGame: false,
@@ -2850,6 +3132,8 @@ export const guillaumeGames: UserGames = [
     gamelistPriority: 1,
     wantToPlayAgain: false,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     sessions: [
       {
         finishedGame: false,
@@ -2867,6 +3151,8 @@ export const guillaumeGames: UserGames = [
     gamelistPriority: 1,
     wantToPlayAgain: false,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     sessions: [
       {
         finishedGame: true,
@@ -2890,6 +3176,8 @@ export const guillaumeGames: UserGames = [
     gamelistPriority: 1,
     wantToPlayAgain: false,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     sessions: [
       {
         finishedGame: false,

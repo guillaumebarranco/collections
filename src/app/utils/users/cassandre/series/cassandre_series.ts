@@ -142,6 +142,8 @@ export const cassandreSeries: UserSeries = [
     watchPriority: 1,
     wantToWatchAgain: false,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
   },
 
   {
@@ -159,6 +161,8 @@ export const cassandreSeries: UserSeries = [
     watchPriority: 1,
     wantToWatchAgain: false,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
   },
 
   {
@@ -236,6 +240,8 @@ export const cassandreSeries: UserSeries = [
     watchPriority: 1,
     wantToWatchAgain: false,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
   },
 
   {
@@ -277,6 +283,8 @@ export const cassandreSeries: UserSeries = [
     watchPriority: 1,
     wantToWatchAgain: false,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
   },
 
   {
@@ -294,6 +302,8 @@ export const cassandreSeries: UserSeries = [
     watchPriority: 1,
     wantToWatchAgain: false,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
   },
 
   {
@@ -341,6 +351,8 @@ export const cassandreSeries: UserSeries = [
     watchPriority: 1,
     wantToWatchAgain: false,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
   },
 
   {
@@ -364,6 +376,8 @@ export const cassandreSeries: UserSeries = [
     watchPriority: 1,
     wantToWatchAgain: false,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
   },
 
   {
@@ -477,6 +491,8 @@ export const cassandreSeries: UserSeries = [
     watchPriority: 1,
     wantToWatchAgain: false,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
   },
 
   {
@@ -506,6 +522,8 @@ export const cassandreSeries: UserSeries = [
     watchPriority: 1,
     wantToWatchAgain: false,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
   },
 
   {
@@ -535,6 +553,8 @@ export const cassandreSeries: UserSeries = [
     watchPriority: 1,
     wantToWatchAgain: false,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
   },
 
   {
@@ -570,6 +590,8 @@ export const cassandreSeries: UserSeries = [
     watchPriority: 1,
     wantToWatchAgain: false,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
   },
 
   {
@@ -587,6 +609,8 @@ export const cassandreSeries: UserSeries = [
     watchPriority: 1,
     wantToWatchAgain: false,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
   },
 
   {
@@ -604,6 +628,8 @@ export const cassandreSeries: UserSeries = [
     watchPriority: 1,
     wantToWatchAgain: false,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
   },
 
   {
@@ -645,6 +671,8 @@ export const cassandreSeries: UserSeries = [
     watchPriority: 1,
     wantToWatchAgain: false,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
   },
 
   {
@@ -662,6 +690,8 @@ export const cassandreSeries: UserSeries = [
     watchPriority: 1,
     wantToWatchAgain: false,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
   },
 
   {
@@ -697,6 +727,8 @@ export const cassandreSeries: UserSeries = [
     watchPriority: 1,
     wantToWatchAgain: false,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
   },
 
   {
@@ -750,6 +782,8 @@ export const cassandreSeries: UserSeries = [
     watchPriority: 1,
     wantToWatchAgain: false,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
   },
 
   {
@@ -827,6 +861,8 @@ export const cassandreSeries: UserSeries = [
     watchPriority: 1,
     wantToWatchAgain: false,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
   },
 
   {
@@ -904,6 +940,8 @@ export const cassandreSeries: UserSeries = [
     watchPriority: 1,
     wantToWatchAgain: false,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
   },
 
   {
@@ -933,6 +971,8 @@ export const cassandreSeries: UserSeries = [
     watchPriority: 1,
     wantToWatchAgain: false,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
   },
 
   {
@@ -986,6 +1026,8 @@ export const cassandreSeries: UserSeries = [
     watchPriority: 1,
     wantToWatchAgain: false,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
   },
 
   {
@@ -1039,6 +1081,8 @@ export const cassandreSeries: UserSeries = [
     watchPriority: 1,
     wantToWatchAgain: false,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
   },
 
   {
@@ -1116,6 +1160,8 @@ export const cassandreSeries: UserSeries = [
     watchPriority: 1,
     wantToWatchAgain: false,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
   },
 
   {
@@ -1133,6 +1179,8 @@ export const cassandreSeries: UserSeries = [
     watchPriority: 1,
     wantToWatchAgain: false,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
   },
 
   {
@@ -1288,6 +1336,8 @@ export const cassandreSeries: UserSeries = [
     watchPriority: 1,
     wantToWatchAgain: false,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
   },
 
   {
@@ -1305,6 +1355,8 @@ export const cassandreSeries: UserSeries = [
     watchPriority: 1,
     wantToWatchAgain: false,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
   },
 
   {
@@ -1340,6 +1392,8 @@ export const cassandreSeries: UserSeries = [
     watchPriority: 1,
     wantToWatchAgain: false,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
   },
 
   {
@@ -1399,6 +1453,8 @@ export const cassandreSeries: UserSeries = [
     watchPriority: 1,
     wantToWatchAgain: false,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
   },
 
   {
@@ -1416,6 +1472,8 @@ export const cassandreSeries: UserSeries = [
     watchPriority: 1,
     wantToWatchAgain: false,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
   },
 
   {
@@ -1433,6 +1491,8 @@ export const cassandreSeries: UserSeries = [
     watchPriority: 1,
     wantToWatchAgain: false,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
   },
 
   {
@@ -1456,6 +1516,8 @@ export const cassandreSeries: UserSeries = [
     watchPriority: 1,
     wantToWatchAgain: false,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
   },
 
   {
@@ -1479,6 +1541,8 @@ export const cassandreSeries: UserSeries = [
     watchPriority: 1,
     wantToWatchAgain: false,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
   },
 
   {
@@ -1514,6 +1578,8 @@ export const cassandreSeries: UserSeries = [
     watchPriority: 1,
     wantToWatchAgain: false,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
   },
 
   {
@@ -1543,6 +1609,8 @@ export const cassandreSeries: UserSeries = [
     watchPriority: 1,
     wantToWatchAgain: false,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
   },
 
   {
@@ -1566,6 +1634,8 @@ export const cassandreSeries: UserSeries = [
     watchPriority: 1,
     wantToWatchAgain: false,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
   },
 
   {
@@ -1595,6 +1665,8 @@ export const cassandreSeries: UserSeries = [
     watchPriority: 1,
     wantToWatchAgain: false,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
   },
   {
     title: 'Code Geass',
@@ -1617,6 +1689,8 @@ export const cassandreSeries: UserSeries = [
     watchPriority: 1,
     wantToWatchAgain: false,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
   },
   {
     title: 'GTO : Great Teacher Onizuka',
@@ -1633,6 +1707,8 @@ export const cassandreSeries: UserSeries = [
     watchPriority: 1,
     wantToWatchAgain: false,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
   },
   {
     title: 'Psycho-Pass',
@@ -1661,6 +1737,8 @@ export const cassandreSeries: UserSeries = [
     watchPriority: 1,
     wantToWatchAgain: false,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
   },
   {
     title: 'Your Lie in April',
@@ -1677,6 +1755,8 @@ export const cassandreSeries: UserSeries = [
     watchPriority: 1,
     wantToWatchAgain: false,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
   },
   {
     title: 'Sword Art Online',
@@ -1711,6 +1791,8 @@ export const cassandreSeries: UserSeries = [
     watchPriority: 1,
     wantToWatchAgain: false,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
   },
   {
     title: 'Tokyo Ghoul',
@@ -1745,6 +1827,8 @@ export const cassandreSeries: UserSeries = [
     watchPriority: 1,
     wantToWatchAgain: false,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
   },
   {
     title: 'Fairy Tail',
@@ -1809,6 +1893,8 @@ export const cassandreSeries: UserSeries = [
     watchPriority: 1,
     wantToWatchAgain: false,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
   },
   {
     title: 'Fate/zero',
@@ -1831,6 +1917,8 @@ export const cassandreSeries: UserSeries = [
     watchPriority: 1,
     wantToWatchAgain: false,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
   },
   {
     title: 'Fate Stay Night',
@@ -1847,6 +1935,8 @@ export const cassandreSeries: UserSeries = [
     watchPriority: 1,
     wantToWatchAgain: false,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
   },
   {
     title: 'Fate Apocrypha',
@@ -1863,6 +1953,8 @@ export const cassandreSeries: UserSeries = [
     watchPriority: 1,
     wantToWatchAgain: false,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
   },
   {
     title: 'Fate Grand Order',
@@ -1879,6 +1971,8 @@ export const cassandreSeries: UserSeries = [
     watchPriority: 1,
     wantToWatchAgain: false,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
   },
   {
     title: 'Fate Unlimited blade works',
@@ -1901,6 +1995,8 @@ export const cassandreSeries: UserSeries = [
     watchPriority: 1,
     wantToWatchAgain: false,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
   },
   {
     title: 'RWBY',
@@ -1965,6 +2061,8 @@ export const cassandreSeries: UserSeries = [
     watchPriority: 1,
     wantToWatchAgain: false,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
   },
   {
     title: 'Elfen Lied',
@@ -1981,6 +2079,8 @@ export const cassandreSeries: UserSeries = [
     watchPriority: 1,
     wantToWatchAgain: false,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
   },
   {
     title: 'Angel Beats!',
@@ -1997,6 +2097,8 @@ export const cassandreSeries: UserSeries = [
     watchPriority: 1,
     wantToWatchAgain: false,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
   },
   {
     title: 'Charlotte',
@@ -2013,6 +2115,8 @@ export const cassandreSeries: UserSeries = [
     watchPriority: 1,
     wantToWatchAgain: false,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
   },
   {
     title: 'Clannad',
@@ -2035,6 +2139,8 @@ export const cassandreSeries: UserSeries = [
     watchPriority: 1,
     wantToWatchAgain: false,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
   },
   {
     title: 'Mirai Nikki',
@@ -2051,6 +2157,8 @@ export const cassandreSeries: UserSeries = [
     watchPriority: 1,
     wantToWatchAgain: false,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
   },
   {
     title: 'Durarara!!',
@@ -2085,6 +2193,8 @@ export const cassandreSeries: UserSeries = [
     watchPriority: 1,
     wantToWatchAgain: false,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
   },
   {
     title: 'Nana',
@@ -2101,6 +2211,8 @@ export const cassandreSeries: UserSeries = [
     watchPriority: 1,
     wantToWatchAgain: false,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
   },
   {
     title: 'Black Butler',
@@ -2135,6 +2247,8 @@ export const cassandreSeries: UserSeries = [
     watchPriority: 1,
     wantToWatchAgain: false,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
   },
   {
     title: 'Violet Evergarden',
@@ -2151,6 +2265,8 @@ export const cassandreSeries: UserSeries = [
     watchPriority: 1,
     wantToWatchAgain: false,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
   },
   {
     title: 'The Promised Neverland',
@@ -2173,6 +2289,8 @@ export const cassandreSeries: UserSeries = [
     watchPriority: 1,
     wantToWatchAgain: false,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
   },
   {
     title: 'Death Parade',
@@ -2189,6 +2307,8 @@ export const cassandreSeries: UserSeries = [
     watchPriority: 1,
     wantToWatchAgain: false,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
   },
   {
     title: 'Magia record',
@@ -2217,6 +2337,8 @@ export const cassandreSeries: UserSeries = [
     watchPriority: 1,
     wantToWatchAgain: false,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
   },
   {
     title: 'Gambling School',
@@ -2239,6 +2361,8 @@ export const cassandreSeries: UserSeries = [
     watchPriority: 1,
     wantToWatchAgain: false,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
   },
   {
     title: 'Oshi no Ko',
@@ -2261,6 +2385,8 @@ export const cassandreSeries: UserSeries = [
     watchPriority: 1,
     wantToWatchAgain: false,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
   },
   {
     title: 'Another',
@@ -2277,6 +2403,8 @@ export const cassandreSeries: UserSeries = [
     watchPriority: 1,
     wantToWatchAgain: false,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
   },
   {
     title: 'Solo Leveling',
@@ -2299,6 +2427,8 @@ export const cassandreSeries: UserSeries = [
     watchPriority: 1,
     wantToWatchAgain: false,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
   },
   {
     title: 'Tower of god',
@@ -2321,6 +2451,8 @@ export const cassandreSeries: UserSeries = [
     watchPriority: 1,
     wantToWatchAgain: false,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
   },
   {
     title: 'Noblesse',
@@ -2337,6 +2469,8 @@ export const cassandreSeries: UserSeries = [
     watchPriority: 1,
     wantToWatchAgain: false,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
   },
   {
     title: 'Beyblade',
@@ -2365,6 +2499,8 @@ export const cassandreSeries: UserSeries = [
     watchPriority: 1,
     wantToWatchAgain: false,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
   },
   {
     title: 'High school of the dead',
@@ -2381,6 +2517,8 @@ export const cassandreSeries: UserSeries = [
     watchPriority: 1,
     wantToWatchAgain: false,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
   },
   {
     title: 'Deadman Wonderland',
@@ -2397,6 +2535,8 @@ export const cassandreSeries: UserSeries = [
     watchPriority: 1,
     wantToWatchAgain: false,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
   },
   {
     title: 'Danganronpa',
@@ -2413,6 +2553,8 @@ export const cassandreSeries: UserSeries = [
     watchPriority: 1,
     wantToWatchAgain: false,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
   },
   {
     title: "Darwin's Game",
@@ -2429,6 +2571,8 @@ export const cassandreSeries: UserSeries = [
     watchPriority: 1,
     wantToWatchAgain: false,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
   },
   {
     title: 'Toriko',
@@ -2445,6 +2589,8 @@ export const cassandreSeries: UserSeries = [
     watchPriority: 1,
     wantToWatchAgain: false,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
   },
   {
     title: 'Aggretsuko',
@@ -2485,6 +2631,8 @@ export const cassandreSeries: UserSeries = [
     watchPriority: 1,
     wantToWatchAgain: false,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
   },
   {
     title: 'Sailor Moon',
@@ -2525,6 +2673,8 @@ export const cassandreSeries: UserSeries = [
     watchPriority: 1,
     wantToWatchAgain: false,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
   },
   {
     title: 'Fruit Basket',
@@ -2553,6 +2703,8 @@ export const cassandreSeries: UserSeries = [
     watchPriority: 1,
     wantToWatchAgain: false,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
   },
   {
     title: 'Guilty Crown',
@@ -2569,6 +2721,8 @@ export const cassandreSeries: UserSeries = [
     watchPriority: 1,
     wantToWatchAgain: false,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
   },
   {
     title: 'Sakura chasseuse de cartes',
@@ -2585,6 +2739,8 @@ export const cassandreSeries: UserSeries = [
     watchPriority: 1,
     wantToWatchAgain: false,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
   },
   {
     title: 'Hamtaro',
@@ -2601,6 +2757,8 @@ export const cassandreSeries: UserSeries = [
     watchPriority: 1,
     wantToWatchAgain: false,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
   },
   {
     title: 'Higurashi no naku koro ni',
@@ -2617,6 +2775,8 @@ export const cassandreSeries: UserSeries = [
     watchPriority: 1,
     wantToWatchAgain: false,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
   },
   {
     title: 'Umineko no naku koro ni',
@@ -2633,6 +2793,8 @@ export const cassandreSeries: UserSeries = [
     watchPriority: 1,
     wantToWatchAgain: false,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
   },
   {
     title: 'Romeo X Juliet',
@@ -2649,6 +2811,8 @@ export const cassandreSeries: UserSeries = [
     watchPriority: 1,
     wantToWatchAgain: false,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
   },
   {
     title: 'Jeanne et Serge',
@@ -2665,6 +2829,8 @@ export const cassandreSeries: UserSeries = [
     watchPriority: 1,
     wantToWatchAgain: false,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
   },
   {
     title: 'Toradora !',
@@ -2681,6 +2847,8 @@ export const cassandreSeries: UserSeries = [
     watchPriority: 1,
     wantToWatchAgain: false,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
   },
   {
     title: 'Tonari no Kaibutsu-kun',
@@ -2697,6 +2865,8 @@ export const cassandreSeries: UserSeries = [
     watchPriority: 1,
     wantToWatchAgain: false,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
   },
   {
     title: 'Maid sama',
@@ -2713,6 +2883,8 @@ export const cassandreSeries: UserSeries = [
     watchPriority: 1,
     wantToWatchAgain: false,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
   },
   {
     title: 'My happy marriage',
@@ -2729,6 +2901,8 @@ export const cassandreSeries: UserSeries = [
     watchPriority: 1,
     wantToWatchAgain: false,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
   },
   {
     title: 'Yakuza fiancee',
@@ -2745,6 +2919,8 @@ export const cassandreSeries: UserSeries = [
     watchPriority: 1,
     wantToWatchAgain: false,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
   },
   {
     title: 'Si je suis la vilaine, autant mater le boss final',
@@ -2761,6 +2937,8 @@ export const cassandreSeries: UserSeries = [
     watchPriority: 1,
     wantToWatchAgain: false,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
   },
   {
     title: 'winx club',
@@ -2777,6 +2955,8 @@ export const cassandreSeries: UserSeries = [
     watchPriority: 1,
     wantToWatchAgain: false,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
   },
   {
     title: 'magical girl raising project',
@@ -2793,6 +2973,8 @@ export const cassandreSeries: UserSeries = [
     watchPriority: 1,
     wantToWatchAgain: false,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
   },
   {
     title: 'wish upon the pleiades',
@@ -2809,5 +2991,7 @@ export const cassandreSeries: UserSeries = [
     watchPriority: 1,
     wantToWatchAgain: false,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
   },
 ];

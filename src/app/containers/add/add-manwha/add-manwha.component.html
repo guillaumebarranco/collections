@@ -159,6 +159,26 @@
           name="owned"
         />
       </div>
+      <div class="form-row">
+        <label for="borrowed">Emprunté à</label>
+        <input
+          id="borrowed"
+          type="text"
+          [ngModel]="userForm().borrowed"
+          (ngModelChange)="updateUserField('borrowed', $event)"
+          name="borrowed"
+        />
+      </div>
+      <div class="form-row">
+        <label for="loaned">Prêté à</label>
+        <input
+          id="loaned"
+          type="text"
+          [ngModel]="userForm().loaned"
+          (ngModelChange)="updateUserField('loaned', $event)"
+          name="loaned"
+        />
+      </div>
     </section>
 
     @if(errorMessage()) {

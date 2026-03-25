@@ -129,33 +129,33 @@
       <div class="form-row">
         <label>Note</label>
         <div class="rating-control">
-            <button
-              *ngFor="let star of [1, 2, 3, 4, 5]"
-              type="button"
-              class="star-btn"
-              (click)="setRatingFromClick(star, $event)"
+          <button
+            *ngFor="let star of [1, 2, 3, 4, 5]"
+            type="button"
+            class="star-btn"
+            (click)="setRatingFromClick(star, $event)"
+          >
+            <span
+              class="star"
+              [class.star-full]="
+                getStarType(userForm().rating || 0, star) === 'full'
+              "
+              [class.star-threeQuarter]="
+                getStarType(userForm().rating || 0, star) === 'threeQuarter'
+              "
+              [class.star-half]="
+                getStarType(userForm().rating || 0, star) === 'half'
+              "
+              [class.star-quarter]="
+                getStarType(userForm().rating || 0, star) === 'quarter'
+              "
+              [class.star-empty]="
+                getStarType(userForm().rating || 0, star) === 'empty'
+              "
             >
-              <span
-                class="star"
-                [class.star-full]="
-                  getStarType(userForm().rating || 0, star) === 'full'
-                "
-                [class.star-threeQuarter]="
-                  getStarType(userForm().rating || 0, star) === 'threeQuarter'
-                "
-                [class.star-half]="
-                  getStarType(userForm().rating || 0, star) === 'half'
-                "
-                [class.star-quarter]="
-                  getStarType(userForm().rating || 0, star) === 'quarter'
-                "
-                [class.star-empty]="
-                  getStarType(userForm().rating || 0, star) === 'empty'
-                "
-              >
-                ★
-              </span>
-            </button>
+              ★
+            </span>
+          </button>
           <input
             type="number"
             min="0"
@@ -215,14 +215,25 @@
         />
       </div>
 
-      <div class="form-row checkbox-row">
-        <label for="borrowed">Prêté</label>
+      <div class="form-row">
+        <label for="borrowed">Emprunté à</label>
         <input
           id="borrowed"
-          type="checkbox"
-          [checked]="userForm().borrowed"
-          (change)="updateUserCheckbox('borrowed', $any($event).target.checked)"
+          type="text"
+          [ngModel]="userForm().borrowed"
+          (ngModelChange)="updateUserField('borrowed', $event)"
           name="borrowed"
+        />
+      </div>
+
+      <div class="form-row">
+        <label for="loaned">Prêté à</label>
+        <input
+          id="loaned"
+          type="text"
+          [ngModel]="userForm().loaned"
+          (ngModelChange)="updateUserField('loaned', $event)"
+          name="loaned"
         />
       </div>
 

@@ -56,7 +56,9 @@ export class SelectSeriesComponent
     return list.filter((serie) => {
       const title = normalizeSearchText(serie.title ?? '');
       const director = normalizeSearchText(serie.director ?? '');
-      return title.includes(normalizedTerm) || director.includes(normalizedTerm);
+      return (
+        title.includes(normalizedTerm) || director.includes(normalizedTerm)
+      );
     });
   });
 
@@ -123,6 +125,8 @@ export class SelectSeriesComponent
       watchPriority: 1,
       wantToWatchAgain: false,
       ratingComment: '',
+      borrowed: '',
+      loaned: '',
     }));
   }
 

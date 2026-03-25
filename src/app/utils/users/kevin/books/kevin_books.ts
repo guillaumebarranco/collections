@@ -12,7 +12,8 @@ export const kevinBooks: UserBooks = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
-    borrowed: false,
+    borrowed: '',
+    loaned: '',
   },
   {
     title: "L'Alchimiste",
@@ -25,7 +26,8 @@ export const kevinBooks: UserBooks = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
-    borrowed: false,
+    borrowed: '',
+    loaned: '',
   },
   {
     title: 'Le porteur de lumière, tome 1 : Le prisme noir',
@@ -38,7 +40,8 @@ export const kevinBooks: UserBooks = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
-    borrowed: false,
+    borrowed: '',
+    loaned: '',
   },
   {
     title: 'Le Signe des quatre',
@@ -51,7 +54,8 @@ export const kevinBooks: UserBooks = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
-    borrowed: false,
+    borrowed: '',
+    loaned: '',
   },
   {
     title: 'Le Voleur de foudre',
@@ -64,7 +68,8 @@ export const kevinBooks: UserBooks = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
-    borrowed: false,
+    borrowed: '',
+    loaned: '',
   },
   {
     title: 'La Mer des monstres',
@@ -77,7 +82,8 @@ export const kevinBooks: UserBooks = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
-    borrowed: false,
+    borrowed: '',
+    loaned: '',
   },
   {
     title: 'Le Sort du titan',
@@ -90,7 +96,8 @@ export const kevinBooks: UserBooks = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
-    borrowed: false,
+    borrowed: '',
+    loaned: '',
   },
   {
     title: 'La Bataille du labyrinthe',
@@ -103,7 +110,8 @@ export const kevinBooks: UserBooks = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
-    borrowed: false,
+    borrowed: '',
+    loaned: '',
   },
   {
     title: 'Le Dernier Olympien',
@@ -116,7 +124,8 @@ export const kevinBooks: UserBooks = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
-    borrowed: false,
+    borrowed: '',
+    loaned: '',
   },
   {
     title: 'The Lost Hero (The Heroes of Olympus, #1)',
@@ -129,7 +138,8 @@ export const kevinBooks: UserBooks = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
-    borrowed: false,
+    borrowed: '',
+    loaned: '',
   },
   {
     title: 'Ils étaient dix',
@@ -142,7 +152,8 @@ export const kevinBooks: UserBooks = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
-    borrowed: false,
+    borrowed: '',
+    loaned: '',
   },
   {
     title: 'Madame Bovary',
@@ -155,7 +166,8 @@ export const kevinBooks: UserBooks = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
-    borrowed: false,
+    borrowed: '',
+    loaned: '',
   },
   {
     title: 'Candide',
@@ -168,7 +180,8 @@ export const kevinBooks: UserBooks = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
-    borrowed: false,
+    borrowed: '',
+    loaned: '',
   },
   {
     title: 'Hunger Games',
@@ -181,7 +194,8 @@ export const kevinBooks: UserBooks = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
-    borrowed: false,
+    borrowed: '',
+    loaned: '',
   },
   {
     title: "L'Embrasement",
@@ -194,7 +208,8 @@ export const kevinBooks: UserBooks = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
-    borrowed: false,
+    borrowed: '',
+    loaned: '',
   },
   {
     title: 'La Révolte',
@@ -207,7 +222,8 @@ export const kevinBooks: UserBooks = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
-    borrowed: false,
+    borrowed: '',
+    loaned: '',
   },
   {
     title: "La Ballade du serpent et de l'oiseau chanteur",
@@ -220,7 +236,8 @@ export const kevinBooks: UserBooks = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
-    borrowed: false,
+    borrowed: '',
+    loaned: '',
   },
   {
     title: 'Croc-Blanc',
@@ -233,7 +250,8 @@ export const kevinBooks: UserBooks = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
-    borrowed: false,
+    borrowed: '',
+    loaned: '',
   },
   {
     title: 'Robinson Crusoe',
@@ -246,7 +264,8 @@ export const kevinBooks: UserBooks = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
-    borrowed: false,
+    borrowed: '',
+    loaned: '',
   },
   {
     title: "L'Apprenti Assassin",
@@ -259,7 +278,8 @@ export const kevinBooks: UserBooks = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
-    borrowed: false,
+    borrowed: '',
+    loaned: '',
   },
   {
     title: "L'Assassin du Roi",
@@ -272,7 +292,8 @@ export const kevinBooks: UserBooks = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
-    borrowed: false,
+    borrowed: '',
+    loaned: '',
   },
   {
     title: 'La Nef du Crépuscule',
@@ -285,7 +306,8 @@ export const kevinBooks: UserBooks = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
-    borrowed: false,
+    borrowed: '',
+    loaned: '',
   },
   {
     title: 'Le Poison de la Vengeance',
@@ -298,7 +320,8 @@ export const kevinBooks: UserBooks = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
-    borrowed: false,
+    borrowed: '',
+    loaned: '',
   },
   {
     title: 'La Voie Magique',
@@ -311,7 +334,8 @@ export const kevinBooks: UserBooks = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
-    borrowed: false,
+    borrowed: '',
+    loaned: '',
   },
   {
     title: 'La Reine Solitaire',
@@ -324,7 +348,8 @@ export const kevinBooks: UserBooks = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
-    borrowed: false,
+    borrowed: '',
+    loaned: '',
   },
   {
     title: 'Le Prophète Blanc',
@@ -337,7 +362,8 @@ export const kevinBooks: UserBooks = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
-    borrowed: false,
+    borrowed: '',
+    loaned: '',
   },
   {
     title: 'La Secte Maudite',
@@ -350,7 +376,8 @@ export const kevinBooks: UserBooks = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
-    borrowed: false,
+    borrowed: '',
+    loaned: '',
   },
   {
     title: 'Les Secrets de Castelcerf',
@@ -363,7 +390,8 @@ export const kevinBooks: UserBooks = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
-    borrowed: false,
+    borrowed: '',
+    loaned: '',
   },
   {
     title: 'Serments et Deuils',
@@ -376,7 +404,8 @@ export const kevinBooks: UserBooks = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
-    borrowed: false,
+    borrowed: '',
+    loaned: '',
   },
   {
     title: 'Le Dragon des Glaces',
@@ -389,7 +418,8 @@ export const kevinBooks: UserBooks = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
-    borrowed: false,
+    borrowed: '',
+    loaned: '',
   },
   {
     title: "L'Homme Noir",
@@ -402,7 +432,8 @@ export const kevinBooks: UserBooks = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
-    borrowed: false,
+    borrowed: '',
+    loaned: '',
   },
   {
     title: 'Adieux et Retrouvailles',
@@ -415,7 +446,8 @@ export const kevinBooks: UserBooks = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
-    borrowed: false,
+    borrowed: '',
+    loaned: '',
   },
   {
     title: "Le Fou et l'Assassin",
@@ -428,7 +460,8 @@ export const kevinBooks: UserBooks = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
-    borrowed: false,
+    borrowed: '',
+    loaned: '',
   },
   {
     title: "La Fille de l'Assassin",
@@ -441,7 +474,8 @@ export const kevinBooks: UserBooks = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
-    borrowed: false,
+    borrowed: '',
+    loaned: '',
   },
   {
     title: 'En Quête de Vengeance',
@@ -454,7 +488,8 @@ export const kevinBooks: UserBooks = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
-    borrowed: false,
+    borrowed: '',
+    loaned: '',
   },
   {
     title: "Le Retour de l'Assassin",
@@ -467,7 +502,8 @@ export const kevinBooks: UserBooks = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
-    borrowed: false,
+    borrowed: '',
+    loaned: '',
   },
   {
     title: "Sur les Rives de l'Art",
@@ -480,7 +516,8 @@ export const kevinBooks: UserBooks = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
-    borrowed: false,
+    borrowed: '',
+    loaned: '',
   },
   {
     title: "Le Destin de l'Assassin",
@@ -493,7 +530,8 @@ export const kevinBooks: UserBooks = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
-    borrowed: false,
+    borrowed: '',
+    loaned: '',
   },
   {
     title: 'Quand Vient la Horde',
@@ -506,7 +544,8 @@ export const kevinBooks: UserBooks = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
-    borrowed: false,
+    borrowed: '',
+    loaned: '',
   },
   {
     title: 'Les annales du Disque-Monde, tome 1 : La huitième couleur',
@@ -519,7 +558,8 @@ export const kevinBooks: UserBooks = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
-    borrowed: false,
+    borrowed: '',
+    loaned: '',
   },
   {
     title: "N'oublie Jamais",
@@ -532,7 +572,8 @@ export const kevinBooks: UserBooks = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
-    borrowed: false,
+    borrowed: '',
+    loaned: '',
   },
   {
     title: 'Les Grands Jeux',
@@ -545,7 +586,8 @@ export const kevinBooks: UserBooks = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
-    borrowed: false,
+    borrowed: '',
+    loaned: '',
   },
   {
     title: "L'Aube Obscure",
@@ -558,7 +600,8 @@ export const kevinBooks: UserBooks = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
-    borrowed: false,
+    borrowed: '',
+    loaned: '',
   },
   {
     title: "L'Empire Ultime",
@@ -571,7 +614,8 @@ export const kevinBooks: UserBooks = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
-    borrowed: false,
+    borrowed: '',
+    loaned: '',
   },
   {
     title: "Le puits de l'Ascension",
@@ -584,7 +628,8 @@ export const kevinBooks: UserBooks = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
-    borrowed: false,
+    borrowed: '',
+    loaned: '',
   },
   {
     title: 'Le Héros des Siècles',
@@ -597,7 +642,8 @@ export const kevinBooks: UserBooks = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
-    borrowed: false,
+    borrowed: '',
+    loaned: '',
   },
   {
     title: 'Les Voleurs de fumée, tome 1',
@@ -610,7 +656,8 @@ export const kevinBooks: UserBooks = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
-    borrowed: false,
+    borrowed: '',
+    loaned: '',
   },
   {
     title: 'Le Démon et mademoiselle Prym',
@@ -623,7 +670,8 @@ export const kevinBooks: UserBooks = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
-    borrowed: false,
+    borrowed: '',
+    loaned: '',
   },
   {
     title: 'Les Maîtres Enlumineurs',
@@ -636,7 +684,8 @@ export const kevinBooks: UserBooks = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
-    borrowed: false,
+    borrowed: '',
+    loaned: '',
   },
   {
     title: "L'Ange de la Nuit, Tome 1 : La Voie des ombres",
@@ -649,7 +698,8 @@ export const kevinBooks: UserBooks = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
-    borrowed: false,
+    borrowed: '',
+    loaned: '',
   },
   {
     title: "Le royaume de Pierre d'Angle, tome 1 : L'art du naufrage",
@@ -662,7 +712,8 @@ export const kevinBooks: UserBooks = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
-    borrowed: false,
+    borrowed: '',
+    loaned: '',
   },
   {
     title: 'Cycle de Tschai - Intégrale',
@@ -675,7 +726,8 @@ export const kevinBooks: UserBooks = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
-    borrowed: false,
+    borrowed: '',
+    loaned: '',
   },
   {
     title: 'Les Mensonges de Locke Lamora',
@@ -688,7 +740,8 @@ export const kevinBooks: UserBooks = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
-    borrowed: false,
+    borrowed: '',
+    loaned: '',
   },
   {
     title: 'Des Horizons Rouge Sang',
@@ -701,7 +754,8 @@ export const kevinBooks: UserBooks = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
-    borrowed: false,
+    borrowed: '',
+    loaned: '',
   },
   {
     title: 'La République des Voleurs',
@@ -714,7 +768,8 @@ export const kevinBooks: UserBooks = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
-    borrowed: false,
+    borrowed: '',
+    loaned: '',
   },
   {
     title: 'La Compagnie Noire',
@@ -727,7 +782,8 @@ export const kevinBooks: UserBooks = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
-    borrowed: false,
+    borrowed: '',
+    loaned: '',
   },
   {
     title: 'Le Château Noir',
@@ -740,7 +796,8 @@ export const kevinBooks: UserBooks = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
-    borrowed: false,
+    borrowed: '',
+    loaned: '',
   },
   {
     title: 'La Rose Blanche',
@@ -753,7 +810,8 @@ export const kevinBooks: UserBooks = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
-    borrowed: false,
+    borrowed: '',
+    loaned: '',
   },
   {
     title: "L'Enfant de Poussière",
@@ -766,7 +824,8 @@ export const kevinBooks: UserBooks = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
-    borrowed: false,
+    borrowed: '',
+    loaned: '',
   },
   {
     title: 'La Peste et la Vigne',
@@ -779,7 +838,8 @@ export const kevinBooks: UserBooks = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
-    borrowed: false,
+    borrowed: '',
+    loaned: '',
   },
   {
     title: 'Les Chiens et la Charrue',
@@ -792,7 +852,8 @@ export const kevinBooks: UserBooks = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
-    borrowed: false,
+    borrowed: '',
+    loaned: '',
   },
   {
     title: 'La Maison des Veilleurs',
@@ -805,7 +866,8 @@ export const kevinBooks: UserBooks = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
-    borrowed: false,
+    borrowed: '',
+    loaned: '',
   },
   {
     title: 'La Sorcière Captive',
@@ -818,7 +880,8 @@ export const kevinBooks: UserBooks = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
-    borrowed: false,
+    borrowed: '',
+    loaned: '',
   },
   {
     title: "L'Héritière Rebelle",
@@ -831,7 +894,8 @@ export const kevinBooks: UserBooks = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
-    borrowed: false,
+    borrowed: '',
+    loaned: '',
   },
   {
     title: "L'Empire Libéré",
@@ -844,7 +908,8 @@ export const kevinBooks: UserBooks = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
-    borrowed: false,
+    borrowed: '',
+    loaned: '',
   },
   {
     title: 'La Voie des Rois (1/2)',
@@ -857,7 +922,8 @@ export const kevinBooks: UserBooks = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
-    borrowed: false,
+    borrowed: '',
+    loaned: '',
   },
   {
     title: 'La Voie des Rois (2/2)',
@@ -870,7 +936,8 @@ export const kevinBooks: UserBooks = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
-    borrowed: false,
+    borrowed: '',
+    loaned: '',
   },
   {
     title: 'Le livre des Radieux (1/2)',
@@ -883,7 +950,8 @@ export const kevinBooks: UserBooks = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
-    borrowed: false,
+    borrowed: '',
+    loaned: '',
   },
   {
     title: 'Le Livre des Radieux (2/2)',
@@ -896,7 +964,8 @@ export const kevinBooks: UserBooks = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
-    borrowed: false,
+    borrowed: '',
+    loaned: '',
   },
   {
     title: 'Justicière (1/2)',
@@ -909,7 +978,8 @@ export const kevinBooks: UserBooks = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
-    borrowed: false,
+    borrowed: '',
+    loaned: '',
   },
   {
     title: 'Justicière (2/2)',
@@ -922,7 +992,8 @@ export const kevinBooks: UserBooks = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
-    borrowed: false,
+    borrowed: '',
+    loaned: '',
   },
   {
     title: 'Rythme de Guerre (1/2)',
@@ -935,7 +1006,8 @@ export const kevinBooks: UserBooks = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
-    borrowed: false,
+    borrowed: '',
+    loaned: '',
   },
   {
     title: 'Rythme de Guerre (2/2)',
@@ -948,7 +1020,8 @@ export const kevinBooks: UserBooks = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
-    borrowed: false,
+    borrowed: '',
+    loaned: '',
   },
   {
     title: 'Le Don de Mort',
@@ -961,7 +1034,8 @@ export const kevinBooks: UserBooks = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
-    borrowed: false,
+    borrowed: '',
+    loaned: '',
   },
   {
     title: 'La Grande Traque',
@@ -974,7 +1048,8 @@ export const kevinBooks: UserBooks = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
-    borrowed: false,
+    borrowed: '',
+    loaned: '',
   },
   {
     title: 'Le Don de Vie',
@@ -987,7 +1062,8 @@ export const kevinBooks: UserBooks = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
-    borrowed: false,
+    borrowed: '',
+    loaned: '',
   },
   {
     title: "L'Etoile de Feu",
@@ -1000,7 +1076,8 @@ export const kevinBooks: UserBooks = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
-    borrowed: false,
+    borrowed: '',
+    loaned: '',
   },
   {
     title: 'La Guerre Céleste',
@@ -1013,7 +1090,8 @@ export const kevinBooks: UserBooks = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
-    borrowed: false,
+    borrowed: '',
+    loaned: '',
   },
   {
     title: 'La Dixième Prophétie',
@@ -1026,7 +1104,8 @@ export const kevinBooks: UserBooks = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
-    borrowed: false,
+    borrowed: '',
+    loaned: '',
   },
   {
     title: 'Les Jardins de la Lune',
@@ -1039,7 +1118,8 @@ export const kevinBooks: UserBooks = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
-    borrowed: false,
+    borrowed: '',
+    loaned: '',
   },
   {
     title: 'Les Portes de la Maison des Morts',
@@ -1052,7 +1132,8 @@ export const kevinBooks: UserBooks = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
-    borrowed: false,
+    borrowed: '',
+    loaned: '',
   },
   {
     title: 'Les Souvenirs de la Glace',
@@ -1065,7 +1146,8 @@ export const kevinBooks: UserBooks = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
-    borrowed: false,
+    borrowed: '',
+    loaned: '',
   },
   {
     title: 'La Maison des Chaînes',
@@ -1078,7 +1160,8 @@ export const kevinBooks: UserBooks = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
-    borrowed: false,
+    borrowed: '',
+    loaned: '',
   },
   {
     title: 'Les Marées de Minuit',
@@ -1091,7 +1174,8 @@ export const kevinBooks: UserBooks = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
-    borrowed: false,
+    borrowed: '',
+    loaned: '',
   },
   {
     title: "L'Alliage de la Justice",
@@ -1104,7 +1188,8 @@ export const kevinBooks: UserBooks = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
-    borrowed: false,
+    borrowed: '',
+    loaned: '',
   },
   {
     title: 'Jeux de Masques',
@@ -1117,7 +1202,8 @@ export const kevinBooks: UserBooks = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
-    borrowed: false,
+    borrowed: '',
+    loaned: '',
   },
   {
     title: 'Les Bracelets des Larmes',
@@ -1130,7 +1216,8 @@ export const kevinBooks: UserBooks = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
-    borrowed: false,
+    borrowed: '',
+    loaned: '',
   },
   {
     title: "Les Princes d'Ambre - Cycle 1",
@@ -1143,7 +1230,8 @@ export const kevinBooks: UserBooks = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
-    borrowed: false,
+    borrowed: '',
+    loaned: '',
   },
   {
     title: 'Le Trône du Dragon',
@@ -1156,7 +1244,8 @@ export const kevinBooks: UserBooks = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
-    borrowed: false,
+    borrowed: '',
+    loaned: '',
   },
   {
     title: "Le Roi de l'Orage",
@@ -1169,7 +1258,8 @@ export const kevinBooks: UserBooks = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
-    borrowed: false,
+    borrowed: '',
+    loaned: '',
   },
   {
     title: "La Maison de l'Ancêtre",
@@ -1182,7 +1272,8 @@ export const kevinBooks: UserBooks = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
-    borrowed: false,
+    borrowed: '',
+    loaned: '',
   },
   {
     title: "La Pierre de l'Adieu",
@@ -1195,7 +1286,8 @@ export const kevinBooks: UserBooks = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
-    borrowed: false,
+    borrowed: '',
+    loaned: '',
   },
   {
     title: 'Le Livre du Nécromant',
@@ -1208,7 +1300,8 @@ export const kevinBooks: UserBooks = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
-    borrowed: false,
+    borrowed: '',
+    loaned: '',
   },
   {
     title: 'Le Cri de Camaris',
@@ -1221,7 +1314,8 @@ export const kevinBooks: UserBooks = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
-    borrowed: false,
+    borrowed: '',
+    loaned: '',
   },
   {
     title: "L'Ombre de la Roue",
@@ -1234,7 +1328,8 @@ export const kevinBooks: UserBooks = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
-    borrowed: false,
+    borrowed: '',
+    loaned: '',
   },
   {
     title: "La Tour de l'Ange Vert",
@@ -1247,7 +1342,8 @@ export const kevinBooks: UserBooks = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
-    borrowed: false,
+    borrowed: '',
+    loaned: '',
   },
   {
     title: 'Tuer la Reine',
@@ -1260,7 +1356,8 @@ export const kevinBooks: UserBooks = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
-    borrowed: false,
+    borrowed: '',
+    loaned: '',
   },
   {
     title: 'Défendre le Prince',
@@ -1273,7 +1370,8 @@ export const kevinBooks: UserBooks = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
-    borrowed: false,
+    borrowed: '',
+    loaned: '',
   },
   {
     title: 'Écraser le roi',
@@ -1286,7 +1384,8 @@ export const kevinBooks: UserBooks = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
-    borrowed: false,
+    borrowed: '',
+    loaned: '',
   },
   {
     title: 'Un jour de nuit tombée',
@@ -1299,7 +1398,8 @@ export const kevinBooks: UserBooks = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
-    borrowed: false,
+    borrowed: '',
+    loaned: '',
   },
   {
     title: "Le Prieuré de l'Oranger",
@@ -1312,7 +1412,8 @@ export const kevinBooks: UserBooks = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
-    borrowed: false,
+    borrowed: '',
+    loaned: '',
   },
   {
     title: 'La Tempête des Echos',
@@ -1325,7 +1426,8 @@ export const kevinBooks: UserBooks = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
-    borrowed: false,
+    borrowed: '',
+    loaned: '',
   },
   {
     title: 'La Mémoire de Babel',
@@ -1338,7 +1440,8 @@ export const kevinBooks: UserBooks = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
-    borrowed: false,
+    borrowed: '',
+    loaned: '',
   },
   {
     title: 'Les Disparus du Clairdelune',
@@ -1351,7 +1454,8 @@ export const kevinBooks: UserBooks = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
-    borrowed: false,
+    borrowed: '',
+    loaned: '',
   },
   {
     title: "Les Fiancés de l'Hiver",
@@ -1364,7 +1468,8 @@ export const kevinBooks: UserBooks = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
-    borrowed: false,
+    borrowed: '',
+    loaned: '',
   },
   {
     title: 'Le Retour du Hiérophante',
@@ -1377,7 +1482,8 @@ export const kevinBooks: UserBooks = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
-    borrowed: false,
+    borrowed: '',
+    loaned: '',
   },
   {
     title: 'Les Terres Closes',
@@ -1390,7 +1496,8 @@ export const kevinBooks: UserBooks = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
-    borrowed: false,
+    borrowed: '',
+    loaned: '',
   },
   {
     title: "Eclat de l'Aube",
@@ -1403,7 +1510,8 @@ export const kevinBooks: UserBooks = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
-    borrowed: false,
+    borrowed: '',
+    loaned: '',
   },
   {
     title: 'Les Osseleurs',
@@ -1416,7 +1524,8 @@ export const kevinBooks: UserBooks = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
-    borrowed: false,
+    borrowed: '',
+    loaned: '',
   },
   {
     title: 'Le Souffle du Moissonneur',
@@ -1429,7 +1538,8 @@ export const kevinBooks: UserBooks = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
-    borrowed: false,
+    borrowed: '',
+    loaned: '',
   },
   {
     title: 'Le Métal Perdu',
@@ -1442,7 +1552,8 @@ export const kevinBooks: UserBooks = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
-    borrowed: false,
+    borrowed: '',
+    loaned: '',
   },
 
   {
@@ -1453,10 +1564,12 @@ export const kevinBooks: UserBooks = [
     rating: 3,
     readTimes: 1,
     owned: false,
-    borrowed: false,
+    borrowed: '',
+    loaned: '',
     readPriority: 3,
     wantToReadAgain: false,
-    ratingComment: 'Des idées intéressantes mais une écriture qui laisse à désirer. L\'histoire est assez classique sans grande surprise. La fin du tome est tout de même sympathique sans être extraordinaire.',
+    ratingComment:
+      "Des idées intéressantes mais une écriture qui laisse à désirer. L'histoire est assez classique sans grande surprise. La fin du tome est tout de même sympathique sans être extraordinaire.",
   },
 
   {
@@ -1467,23 +1580,27 @@ export const kevinBooks: UserBooks = [
     rating: 3.5,
     readTimes: 1,
     owned: false,
-    borrowed: false,
+    borrowed: '',
+    loaned: '',
     readPriority: 3,
     wantToReadAgain: false,
-    ratingComment: 'Le second tome est largement meilleur que le premier. Les intrigues sont plus intéressantes, mieux développées, mais surtout la fin du tome est beaucoup plus poignante. Dommage que l\'œuvre manque de complexité.',
+    ratingComment:
+      "Le second tome est largement meilleur que le premier. Les intrigues sont plus intéressantes, mieux développées, mais surtout la fin du tome est beaucoup plus poignante. Dommage que l'œuvre manque de complexité.",
   },
 
   {
-    title: 'L\'Ordre des Ecailleux',
+    title: "L'Ordre des Ecailleux",
     author: 'Stephen Deas',
     firstReadDate: '2026-03-15',
     lastReadDate: '2026-03-15',
     rating: 2.75,
     readTimes: 1,
     owned: false,
-    borrowed: false,
+    borrowed: '',
+    loaned: '',
     readPriority: 3,
     wantToReadAgain: false,
-    ratingComment: 'La fin est incomplète, il manque un livre mais on peut s\'en satisfaire. Cela dit, beaucoup d\'intrigues non traitées et d\'éléments importants passés sous silence.',
+    ratingComment:
+      "La fin est incomplète, il manque un livre mais on peut s'en satisfaire. Cela dit, beaucoup d'intrigues non traitées et d'éléments importants passés sous silence.",
   },
 ];

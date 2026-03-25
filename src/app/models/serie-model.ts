@@ -38,6 +38,8 @@ export interface UserSerie extends MandatorySerieData {
   watchPriority: 1 | 2 | 3;
   wantToWatchAgain: boolean;
   ratingComment: string;
+  borrowed: string;
+  loaned: string;
 }
 
 export type UserSeries = UserSerie[];

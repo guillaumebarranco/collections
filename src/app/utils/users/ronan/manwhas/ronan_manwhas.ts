@@ -11,6 +11,8 @@ export const ronanManwhas: UserManwhas = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
   },
   {
     title: 'Tower Of God',
@@ -22,6 +24,8 @@ export const ronanManwhas: UserManwhas = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
   },
   {
     title: 'Solo Leveling',
@@ -33,5 +37,7 @@ export const ronanManwhas: UserManwhas = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
   },
 ];

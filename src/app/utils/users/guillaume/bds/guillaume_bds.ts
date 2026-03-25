@@ -11,6 +11,8 @@ export const guillaumeBds: UserBds = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
   },
   {
     title: 'CommitStrip : Rise of The Coders',
@@ -22,5 +24,7 @@ export const guillaumeBds: UserBds = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
   },
 ];

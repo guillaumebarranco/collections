@@ -26,6 +26,8 @@ type AddMovieUserForm = {
   lastViewedDate: string;
   seenAtCinema: boolean;
   owned: boolean;
+  borrowed: string;
+  loaned: string;
   wantToSeeAgain: boolean;
   watchPriority: number;
   ratingComment: string;
@@ -73,6 +75,8 @@ export class AddMovieComponent {
     lastViewedDate: '',
     seenAtCinema: false,
     owned: false,
+    borrowed: '',
+    loaned: '',
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',

@@ -32,6 +32,14 @@
         <option value="5">#5</option>
       </select>
     </span>
+    } @if (manwha.borrowed?.trim() && !isBaseEntityView) {
+    <span class="missing-badge" style="background-color: #9c27b0; color: white"
+      >Emprunté à {{ manwha.borrowed }}</span
+    >
+    } @if (manwha.loaned?.trim() && !isBaseEntityView) {
+    <span class="missing-badge" style="background-color: #00695c; color: white"
+      >Prêté à {{ manwha.loaned }}</span
+    >
     }
   </ng-container>
   <img

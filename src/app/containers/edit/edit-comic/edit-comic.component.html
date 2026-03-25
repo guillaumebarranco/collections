@@ -150,6 +150,26 @@
         name="owned"
       />
     </div>
+    <div class="form-row">
+      <label for="borrowed">Emprunté à</label>
+      <input
+        id="borrowed"
+        type="text"
+        [ngModel]="comicForm()?.borrowed"
+        (ngModelChange)="updateField('borrowed', $event)"
+        name="borrowed"
+      />
+    </div>
+    <div class="form-row">
+      <label for="loaned">Prêté à</label>
+      <input
+        id="loaned"
+        type="text"
+        [ngModel]="comicForm()?.loaned"
+        (ngModelChange)="updateField('loaned', $event)"
+        name="loaned"
+      />
+    </div>
 
     <div class="form-row checkbox-row">
       <label for="wantToReadAgain">À relire</label>

@@ -37,6 +37,8 @@ export const getBdDataFromUserBdAndBaseBd = (
   ratingComment: userBd.ratingComment ?? '',
   saga: baseBd?.saga ?? '',
   sagaOrder: baseBd?.sagaOrder ?? 0,
+  borrowed: userBd.borrowed ?? '',
+  loaned: userBd.loaned ?? '',
 });
 
 export const getBookDataFromUserBookAndBaseBook = (
@@ -55,7 +57,8 @@ export const getBookDataFromUserBookAndBaseBook = (
   saga: baseBook?.saga || '',
   sagaOrder: baseBook?.sagaOrder || 0,
   owned: userBook.owned,
-  borrowed: userBook.borrowed ?? false,
+  borrowed: userBook.borrowed ?? '',
+  loaned: userBook.loaned ?? '',
   readPriority: userBook.readPriority,
   sagaFinished: baseBook?.sagaFinished || false,
   releaseDate: baseBook?.releaseDate || '',
@@ -85,6 +88,8 @@ export const getComicDataFromUserComicAndBaseComic = (
   ratingComment: userComic.ratingComment ?? '',
   saga: baseComic?.saga ?? '',
   sagaOrder: baseComic?.sagaOrder ?? 0,
+  borrowed: userComic.borrowed ?? '',
+  loaned: userComic.loaned ?? '',
 });
 
 /**
@@ -159,6 +164,8 @@ export const getGameDataFromUserGameAndBaseGame = (
     sessions: userGame.sessions ?? [],
     description: baseGame?.description ?? '',
     ratingComment: userGame.ratingComment ?? '',
+    borrowed: userGame.borrowed ?? '',
+    loaned: userGame.loaned ?? '',
   };
 };
 
@@ -180,6 +187,8 @@ export const getMangaDataFromUserMangaAndBaseManga = (
   wantToReadAgain: userManga.wantToReadAgain,
   description: baseManga?.description ?? '',
   ratingComment: userManga.ratingComment ?? '',
+  borrowed: userManga.borrowed ?? '',
+  loaned: userManga.loaned ?? '',
 });
 
 export const getManwhaDataFromUserManwhaAndBaseManwha = (
@@ -202,6 +211,8 @@ export const getManwhaDataFromUserManwhaAndBaseManwha = (
   wantToReadAgain: userManwha.wantToReadAgain,
   description: baseManwha?.description ?? '',
   ratingComment: userManwha.ratingComment ?? '',
+  borrowed: userManwha.borrowed ?? '',
+  loaned: userManwha.loaned ?? '',
 });
 
 export const getMovieDataFromUserMovieAndBaseMovie = (
@@ -229,6 +240,8 @@ export const getMovieDataFromUserMovieAndBaseMovie = (
   fromEntity: baseMovie?.fromEntity ?? null,
   ratingComment: userMovie.ratingComment ?? '',
   inList: userMovie.inList ?? [],
+  borrowed: userMovie.borrowed ?? '',
+  loaned: userMovie.loaned ?? '',
 });
 
 export const getSerieDataFromUserSerieAndBaseSerie = (
@@ -252,4 +265,6 @@ export const getSerieDataFromUserSerieAndBaseSerie = (
   description: baseSerie?.description ?? '',
   ratingComment: userSerie.ratingComment ?? '',
   saga: baseSerie?.saga ?? '',
+  borrowed: userSerie.borrowed ?? '',
+  loaned: userSerie.loaned ?? '',
 });

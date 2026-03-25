@@ -100,6 +100,8 @@ export class BdsComponent implements OnInit {
 
   optionalViewConfig = signal<Record<OptionalBdView, boolean>>({
     owned: true,
+    borrowed: true,
+    loaned: true,
     toReRead: true,
     sagas: true,
     recommendations: false,
@@ -183,6 +185,32 @@ export class BdsComponent implements OnInit {
       bds = this.allReadlistBds();
     } else if (this.selectedView() === 'owned') {
       bds = this.allBds().filter((bd) => bd.owned);
+    } else if (this.selectedView() === 'borrowed') {
+      const key = (b: Bd) => `${b.title}|${b.writer}`;
+      const readB = this.allBds().filter((b) => Boolean(b.borrowed?.trim()));
+      const listB = this.allReadlistBds().filter((b) =>
+        Boolean(b.borrowed?.trim())
+      );
+      const seen = new Set<string>();
+      bds = [...readB, ...listB].filter((b) => {
+        const k = key(b);
+        if (seen.has(k)) return false;
+        seen.add(k);
+        return true;
+      });
+    } else if (this.selectedView() === 'loaned') {
+      const key = (b: Bd) => `${b.title}|${b.writer}`;
+      const readL = this.allBds().filter((b) => Boolean(b.loaned?.trim()));
+      const listL = this.allReadlistBds().filter((b) =>
+        Boolean(b.loaned?.trim())
+      );
+      const seen = new Set<string>();
+      bds = [...readL, ...listL].filter((b) => {
+        const k = key(b);
+        if (seen.has(k)) return false;
+        seen.add(k);
+        return true;
+      });
     } else if (this.selectedView() === 'toReRead') {
       bds = this.allBds().filter((bd) => bd.wantToReadAgain === true);
     } else {
@@ -290,6 +318,8 @@ export class BdsComponent implements OnInit {
     this.isLoadingViewConfig = true;
     this.optionalViewConfig.set({
       owned: parsed.owned ?? true,
+      borrowed: parsed.borrowed ?? true,
+      loaned: parsed.loaned ?? true,
       toReRead: parsed.toReRead ?? true,
       sagas: parsed.sagas ?? true,
       recommendations: parsed.recommendations ?? false,
@@ -308,9 +338,16 @@ export class BdsComponent implements OnInit {
     this.isLoadingPreferences = true;
     if (
       parsed.view &&
-      ['read', 'readlist', 'owned', 'toReRead', 'sagas', 'recommendations'].includes(
-        parsed.view
-      )
+      [
+        'read',
+        'readlist',
+        'owned',
+        'borrowed',
+        'loaned',
+        'toReRead',
+        'sagas',
+        'recommendations',
+      ].includes(parsed.view)
     ) {
       this.selectedView.set(parsed.view as BdView);
     }

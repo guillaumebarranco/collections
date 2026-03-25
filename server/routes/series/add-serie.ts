@@ -85,6 +85,8 @@ ${seasonsBlock}
     watchPriority: ${user.watchPriority ?? 1},
     wantToWatchAgain: ${user.wantToWatchAgain ?? false},
     ratingComment: '${escapeString(user.ratingComment ?? '')}',
+    borrowed: '${escapeString(user.borrowed ?? '')}',
+    loaned: '${escapeString(user.loaned ?? '')}',
   },`;
 }
 
@@ -205,6 +207,8 @@ router.post('/add', (req: any, res: any) => {
         normalizeBoolean(user.wantToWatchAgain, 'wantToWatchAgain') ?? false,
       ratingComment:
         normalizeString(user.ratingComment, 'ratingComment') ?? '',
+      borrowed: normalizeString(user.borrowed, 'borrowed') ?? '',
+      loaned: normalizeString(user.loaned, 'loaned') ?? '',
     };
 
     const baseSerieContent = appendObjectToArrayFile(

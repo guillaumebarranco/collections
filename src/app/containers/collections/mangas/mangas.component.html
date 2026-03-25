@@ -112,6 +112,26 @@
       <label class="mangas-config-option">
         <input
           type="checkbox"
+          [checked]="optionalViewConfig().borrowed"
+          (change)="
+            onOptionalViewChange('borrowed', $any($event.target).checked)
+          "
+        />
+        Mangas empruntés
+      </label>
+      <label class="mangas-config-option">
+        <input
+          type="checkbox"
+          [checked]="optionalViewConfig().loaned"
+          (change)="
+            onOptionalViewChange('loaned', $any($event.target).checked)
+          "
+        />
+        Mangas prêtés
+      </label>
+      <label class="mangas-config-option">
+        <input
+          type="checkbox"
           [checked]="optionalViewConfig().toReRead"
           (change)="
             onOptionalViewChange('toReRead', $any($event.target).checked)

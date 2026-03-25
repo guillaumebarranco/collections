@@ -30,6 +30,14 @@
         <option value="5">#5</option>
       </select>
     </span>
+    } @if (bd.borrowed?.trim() && !isBaseEntityView) {
+    <span class="missing-badge" style="background-color: #9c27b0; color: white"
+      >Emprunté à {{ bd.borrowed }}</span
+    >
+    } @if (bd.loaned?.trim() && !isBaseEntityView) {
+    <span class="missing-badge" style="background-color: #00695c; color: white"
+      >Prêté à {{ bd.loaned }}</span
+    >
     }
   </ng-container>
   <img

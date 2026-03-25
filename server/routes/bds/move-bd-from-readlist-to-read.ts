@@ -62,7 +62,7 @@ function formatUserBd(bd: any, options?: { rating?: number; ratingComment?: stri
   const readDate = getReadDateToday();
   const rating = options?.rating != null ? Number(options.rating) : 0;
   const ratingComment = typeof options?.ratingComment === 'string' ? options.ratingComment : '';
-  return `  {\n    title: '${escapeString(bd.title)}',\n    writer: '${escapeString(bd.writer)}',\n    readDate: '${readDate}',\n    rating: ${rating},\n    readTimes: 1,\n    owned: false,\n    readPriority: ${bd.readPriority ?? 1},\n    wantToReadAgain: false,\n    ratingComment: '${escapeString(ratingComment)}',\n  },`;
+  return `  {\n    title: '${escapeString(bd.title)}',\n    writer: '${escapeString(bd.writer)}',\n    readDate: '${readDate}',\n    rating: ${rating},\n    readTimes: 1,\n    owned: false,\n    readPriority: ${bd.readPriority ?? 1},\n    wantToReadAgain: false,\n    ratingComment: '${escapeString(ratingComment)}',\n    borrowed: '${escapeString(typeof bd.borrowed === 'string' ? bd.borrowed : '')}',\n    loaned: '${escapeString(typeof bd.loaned === 'string' ? bd.loaned : '')}',\n  },`;
 }
 
 function getUserBdsTargetFile(userId: string, isReadlist: boolean) {

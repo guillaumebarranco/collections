@@ -1,7 +1,8 @@
 import { Component, OnInit, computed, inject, signal } from '@angular/core';
 import { CommonModule } from '@angular/common';
-import { RouterModule } from '@angular/router';
+import { Router, RouterModule } from '@angular/router';
 import { AuthService } from '../../core/auth.service';
+import { ImpersonateService } from '../../services/impersonate.service';
 import {
   getAdminUsers,
   getAdminUserStats,
@@ -34,6 +35,8 @@ export const COLLECTION_LABELS: { key: keyof UserCollectionCounts; label: string
 })
 export class AdminDashboardComponent implements OnInit {
   private readonly authService = inject(AuthService);
+  private readonly router = inject(Router);
+  private readonly impersonateService = inject(ImpersonateService);
 
   readonly collectionLabels = COLLECTION_LABELS;
   readonly users = signal<AdminUserWithStats[]>([]);
@@ -47,6 +50,15 @@ export class AdminDashboardComponent implements OnInit {
 
   getUserRoute(username: string): string {
     return `/${username.toLowerCase()}/dashboard`;
+  }
+
+  /** Quitte l’admin et l’impersonation éventuelle, retour au dashboard de l’utilisateur connecté. */
+  goToUserDashboard(): void {
+    this.impersonateService.clearImpersonation();
+    const authId =
+      this.authService.getAuthenticatedUserId?.() ?? this.authService.userId();
+    const uid = authId ? String(authId).toLowerCase() : DEFAULT_USER_ID;
+    void this.router.navigate([`/${uid}/dashboard`]);
   }
 
   async ngOnInit() {

@@ -73,7 +73,16 @@ function parseBooksFromFile(content: string): any[] {
             firstReadDate: parseStringField(objectText, 'firstReadDate') ?? '',
             lastReadDate: parseStringField(objectText, 'lastReadDate') ?? '',
             owned: parseBooleanField(objectText, 'owned') ?? false,
-            borrowed: parseBooleanField(objectText, 'borrowed') ?? false,
+            borrowed:
+              parseStringField(objectText, 'borrowed') ??
+              ((parseBooleanField(objectText, 'borrowed') ?? false)
+                ? 'Inconnu'
+                : ''),
+            loaned:
+              parseStringField(objectText, 'loaned') ??
+              ((parseBooleanField(objectText, 'loaned') ?? false)
+                ? 'Inconnu'
+                : ''),
             readPriority: parseNumberField(objectText, 'readPriority') ?? 1,
             wantToReadAgain:
               parseBooleanField(objectText, 'wantToReadAgain') ?? false,
@@ -378,6 +387,7 @@ function updateBookInFile(content: string, payload: any) {
           updated = replaceField(updated, 'lastReadDate', payload.lastReadDate);
           updated = replaceField(updated, 'owned', payload.owned);
           updated = upsertField(updated, 'borrowed', payload.borrowed);
+          updated = upsertField(updated, 'loaned', payload.loaned);
           updated = replaceField(updated, 'readPriority', payload.readPriority);
           updated = replaceField(
             updated,
@@ -591,7 +601,8 @@ function removeBookFromFile(content: string, payload: any) {
     rating: ${book.rating ?? 0},
     readTimes: ${book.readTimes ?? 0},
     owned: ${book.owned ?? false},
-    borrowed: ${book.borrowed ?? false},
+    borrowed: '${escapeString(book.borrowed ?? '')}',
+    loaned: '${escapeString(book.loaned ?? '')}',
     readPriority: ${book.readPriority ?? 1},
     wantToReadAgain: ${book.wantToReadAgain ?? false},
     ratingComment: '${escapeString(book.ratingComment ?? '')}',

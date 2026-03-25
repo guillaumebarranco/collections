@@ -308,6 +308,14 @@
       <label class="books-config-option">
         <input
           type="checkbox"
+          [checked]="optionalViewConfig().loaned"
+          (change)="onOptionalViewChange('loaned', $any($event.target).checked)"
+        />
+        Livres prêtés
+      </label>
+      <label class="books-config-option">
+        <input
+          type="checkbox"
           [checked]="optionalViewConfig().toReRead"
           (change)="
             onOptionalViewChange('toReRead', $any($event.target).checked)

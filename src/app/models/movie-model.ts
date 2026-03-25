@@ -34,6 +34,8 @@ export interface UserMovie extends MandatoryMovieData {
   watchPriority: 1 | 2 | 3;
   ratingComment: string;
   inList: string[];
+  borrowed: string;
+  loaned: string;
 }
 
 export type UserMovies = UserMovie[];

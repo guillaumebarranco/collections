@@ -13,6 +13,8 @@ export const dantesMovies: UserMovie[] = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
 
@@ -28,6 +30,8 @@ export const dantesMovies: UserMovie[] = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
 
@@ -43,6 +47,8 @@ export const dantesMovies: UserMovie[] = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
 
@@ -58,6 +64,8 @@ export const dantesMovies: UserMovie[] = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
 
@@ -73,6 +81,8 @@ export const dantesMovies: UserMovie[] = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
 
@@ -88,6 +98,8 @@ export const dantesMovies: UserMovie[] = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
 
@@ -103,6 +115,8 @@ export const dantesMovies: UserMovie[] = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
 
@@ -118,6 +132,8 @@ export const dantesMovies: UserMovie[] = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
 
@@ -133,6 +149,8 @@ export const dantesMovies: UserMovie[] = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
 
@@ -148,6 +166,8 @@ export const dantesMovies: UserMovie[] = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
 
@@ -163,6 +183,8 @@ export const dantesMovies: UserMovie[] = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
 
@@ -178,6 +200,8 @@ export const dantesMovies: UserMovie[] = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
 
@@ -193,6 +217,8 @@ export const dantesMovies: UserMovie[] = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
 
@@ -208,6 +234,8 @@ export const dantesMovies: UserMovie[] = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
 
@@ -223,6 +251,8 @@ export const dantesMovies: UserMovie[] = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
 
@@ -238,6 +268,8 @@ export const dantesMovies: UserMovie[] = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
 
@@ -253,6 +285,8 @@ export const dantesMovies: UserMovie[] = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
 
@@ -268,6 +302,8 @@ export const dantesMovies: UserMovie[] = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
 
@@ -283,6 +319,8 @@ export const dantesMovies: UserMovie[] = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
 
@@ -298,6 +336,8 @@ export const dantesMovies: UserMovie[] = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
 
@@ -313,6 +353,8 @@ export const dantesMovies: UserMovie[] = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
 
@@ -328,6 +370,8 @@ export const dantesMovies: UserMovie[] = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
 
@@ -343,6 +387,8 @@ export const dantesMovies: UserMovie[] = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
 
@@ -358,6 +404,8 @@ export const dantesMovies: UserMovie[] = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
 
@@ -373,6 +421,8 @@ export const dantesMovies: UserMovie[] = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
 
@@ -388,6 +438,8 @@ export const dantesMovies: UserMovie[] = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
 
@@ -403,6 +455,8 @@ export const dantesMovies: UserMovie[] = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
 
@@ -418,6 +472,8 @@ export const dantesMovies: UserMovie[] = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
 
@@ -433,6 +489,8 @@ export const dantesMovies: UserMovie[] = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
 
@@ -448,6 +506,8 @@ export const dantesMovies: UserMovie[] = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
 
@@ -463,6 +523,8 @@ export const dantesMovies: UserMovie[] = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
 
@@ -478,6 +540,8 @@ export const dantesMovies: UserMovie[] = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
 
@@ -493,6 +557,8 @@ export const dantesMovies: UserMovie[] = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
 
@@ -508,6 +574,8 @@ export const dantesMovies: UserMovie[] = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
 
@@ -523,6 +591,8 @@ export const dantesMovies: UserMovie[] = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
 
@@ -538,6 +608,8 @@ export const dantesMovies: UserMovie[] = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
 
@@ -553,6 +625,8 @@ export const dantesMovies: UserMovie[] = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
 
@@ -568,6 +642,8 @@ export const dantesMovies: UserMovie[] = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
 
@@ -583,6 +659,8 @@ export const dantesMovies: UserMovie[] = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
 
@@ -598,6 +676,8 @@ export const dantesMovies: UserMovie[] = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
 
@@ -613,6 +693,8 @@ export const dantesMovies: UserMovie[] = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
 
@@ -628,6 +710,8 @@ export const dantesMovies: UserMovie[] = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
 
@@ -643,6 +727,8 @@ export const dantesMovies: UserMovie[] = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
 
@@ -658,6 +744,8 @@ export const dantesMovies: UserMovie[] = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
 
@@ -673,6 +761,8 @@ export const dantesMovies: UserMovie[] = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
 
@@ -688,6 +778,8 @@ export const dantesMovies: UserMovie[] = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
 
@@ -703,6 +795,8 @@ export const dantesMovies: UserMovie[] = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
 
@@ -718,6 +812,8 @@ export const dantesMovies: UserMovie[] = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
 
@@ -733,6 +829,8 @@ export const dantesMovies: UserMovie[] = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
 
@@ -748,6 +846,8 @@ export const dantesMovies: UserMovie[] = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
 
@@ -763,6 +863,8 @@ export const dantesMovies: UserMovie[] = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
 
@@ -778,6 +880,8 @@ export const dantesMovies: UserMovie[] = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
 
@@ -793,6 +897,8 @@ export const dantesMovies: UserMovie[] = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
 
@@ -808,6 +914,8 @@ export const dantesMovies: UserMovie[] = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
 
@@ -823,6 +931,8 @@ export const dantesMovies: UserMovie[] = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
 
@@ -838,6 +948,8 @@ export const dantesMovies: UserMovie[] = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
 
@@ -853,6 +965,8 @@ export const dantesMovies: UserMovie[] = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
 
@@ -868,6 +982,8 @@ export const dantesMovies: UserMovie[] = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
 
@@ -883,6 +999,8 @@ export const dantesMovies: UserMovie[] = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
 
@@ -898,6 +1016,8 @@ export const dantesMovies: UserMovie[] = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
 
@@ -913,6 +1033,8 @@ export const dantesMovies: UserMovie[] = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
 
@@ -928,6 +1050,8 @@ export const dantesMovies: UserMovie[] = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
 
@@ -943,6 +1067,8 @@ export const dantesMovies: UserMovie[] = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
 
@@ -958,6 +1084,8 @@ export const dantesMovies: UserMovie[] = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
 
@@ -973,6 +1101,8 @@ export const dantesMovies: UserMovie[] = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
 
@@ -988,6 +1118,8 @@ export const dantesMovies: UserMovie[] = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
 
@@ -1003,6 +1135,8 @@ export const dantesMovies: UserMovie[] = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
 
@@ -1018,6 +1152,8 @@ export const dantesMovies: UserMovie[] = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
 
@@ -1033,6 +1169,8 @@ export const dantesMovies: UserMovie[] = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
 
@@ -1048,6 +1186,8 @@ export const dantesMovies: UserMovie[] = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
 
@@ -1063,6 +1203,8 @@ export const dantesMovies: UserMovie[] = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
 
@@ -1078,6 +1220,8 @@ export const dantesMovies: UserMovie[] = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
 
@@ -1093,6 +1237,8 @@ export const dantesMovies: UserMovie[] = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
 
@@ -1108,6 +1254,8 @@ export const dantesMovies: UserMovie[] = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
 
@@ -1123,6 +1271,8 @@ export const dantesMovies: UserMovie[] = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
 
@@ -1138,6 +1288,8 @@ export const dantesMovies: UserMovie[] = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
 
@@ -1153,6 +1305,8 @@ export const dantesMovies: UserMovie[] = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
 
@@ -1168,6 +1322,8 @@ export const dantesMovies: UserMovie[] = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
 
@@ -1183,6 +1339,8 @@ export const dantesMovies: UserMovie[] = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
 
@@ -1198,6 +1356,8 @@ export const dantesMovies: UserMovie[] = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
 
@@ -1213,6 +1373,8 @@ export const dantesMovies: UserMovie[] = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
 
@@ -1228,6 +1390,8 @@ export const dantesMovies: UserMovie[] = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
 
@@ -1243,6 +1407,8 @@ export const dantesMovies: UserMovie[] = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
 
@@ -1258,6 +1424,8 @@ export const dantesMovies: UserMovie[] = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
 
@@ -1273,6 +1441,8 @@ export const dantesMovies: UserMovie[] = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
 
@@ -1288,6 +1458,8 @@ export const dantesMovies: UserMovie[] = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
 
@@ -1303,6 +1475,8 @@ export const dantesMovies: UserMovie[] = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
 
@@ -1318,6 +1492,8 @@ export const dantesMovies: UserMovie[] = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
 
@@ -1333,6 +1509,8 @@ export const dantesMovies: UserMovie[] = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
 
@@ -1348,6 +1526,8 @@ export const dantesMovies: UserMovie[] = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
 
@@ -1363,6 +1543,8 @@ export const dantesMovies: UserMovie[] = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
 
@@ -1378,6 +1560,8 @@ export const dantesMovies: UserMovie[] = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
 
@@ -1393,6 +1577,8 @@ export const dantesMovies: UserMovie[] = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
 
@@ -1408,6 +1594,8 @@ export const dantesMovies: UserMovie[] = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
 
@@ -1423,6 +1611,8 @@ export const dantesMovies: UserMovie[] = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
 
@@ -1438,6 +1628,8 @@ export const dantesMovies: UserMovie[] = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
 
@@ -1453,6 +1645,8 @@ export const dantesMovies: UserMovie[] = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
 
@@ -1468,6 +1662,8 @@ export const dantesMovies: UserMovie[] = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
 
@@ -1483,6 +1679,8 @@ export const dantesMovies: UserMovie[] = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
 
@@ -1498,6 +1696,8 @@ export const dantesMovies: UserMovie[] = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
 
@@ -1513,6 +1713,8 @@ export const dantesMovies: UserMovie[] = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
 
@@ -1528,6 +1730,8 @@ export const dantesMovies: UserMovie[] = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
 
@@ -1543,6 +1747,8 @@ export const dantesMovies: UserMovie[] = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
 
@@ -1558,6 +1764,8 @@ export const dantesMovies: UserMovie[] = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
 
@@ -1573,6 +1781,8 @@ export const dantesMovies: UserMovie[] = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
 
@@ -1588,6 +1798,8 @@ export const dantesMovies: UserMovie[] = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
 
@@ -1603,6 +1815,8 @@ export const dantesMovies: UserMovie[] = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
 
@@ -1618,6 +1832,8 @@ export const dantesMovies: UserMovie[] = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
 
@@ -1633,6 +1849,8 @@ export const dantesMovies: UserMovie[] = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
 
@@ -1648,6 +1866,8 @@ export const dantesMovies: UserMovie[] = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
 
@@ -1663,6 +1883,8 @@ export const dantesMovies: UserMovie[] = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
 
@@ -1678,6 +1900,8 @@ export const dantesMovies: UserMovie[] = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
 
@@ -1693,6 +1917,8 @@ export const dantesMovies: UserMovie[] = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
 
@@ -1708,6 +1934,8 @@ export const dantesMovies: UserMovie[] = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
 
@@ -1723,6 +1951,8 @@ export const dantesMovies: UserMovie[] = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
 
@@ -1738,6 +1968,8 @@ export const dantesMovies: UserMovie[] = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
 
@@ -1753,6 +1985,8 @@ export const dantesMovies: UserMovie[] = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
 
@@ -1768,6 +2002,8 @@ export const dantesMovies: UserMovie[] = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
 
@@ -1783,6 +2019,8 @@ export const dantesMovies: UserMovie[] = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
 
@@ -1798,6 +2036,8 @@ export const dantesMovies: UserMovie[] = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
 
@@ -1813,6 +2053,8 @@ export const dantesMovies: UserMovie[] = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
 
@@ -1828,6 +2070,8 @@ export const dantesMovies: UserMovie[] = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
 
@@ -1843,6 +2087,8 @@ export const dantesMovies: UserMovie[] = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
 
@@ -1858,6 +2104,8 @@ export const dantesMovies: UserMovie[] = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
 
@@ -1873,6 +2121,8 @@ export const dantesMovies: UserMovie[] = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
 
@@ -1888,6 +2138,8 @@ export const dantesMovies: UserMovie[] = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
 
@@ -1903,6 +2155,8 @@ export const dantesMovies: UserMovie[] = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
 
@@ -1918,6 +2172,8 @@ export const dantesMovies: UserMovie[] = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
 
@@ -1933,6 +2189,8 @@ export const dantesMovies: UserMovie[] = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
 
@@ -1948,6 +2206,8 @@ export const dantesMovies: UserMovie[] = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
 
@@ -1963,6 +2223,8 @@ export const dantesMovies: UserMovie[] = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
 
@@ -1978,6 +2240,8 @@ export const dantesMovies: UserMovie[] = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
 
@@ -1993,6 +2257,8 @@ export const dantesMovies: UserMovie[] = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
 
@@ -2008,6 +2274,8 @@ export const dantesMovies: UserMovie[] = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
 
@@ -2023,6 +2291,8 @@ export const dantesMovies: UserMovie[] = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
 
@@ -2038,6 +2308,8 @@ export const dantesMovies: UserMovie[] = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
 
@@ -2053,6 +2325,8 @@ export const dantesMovies: UserMovie[] = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
 
@@ -2068,6 +2342,8 @@ export const dantesMovies: UserMovie[] = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
 
@@ -2083,6 +2359,8 @@ export const dantesMovies: UserMovie[] = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
 
@@ -2098,6 +2376,8 @@ export const dantesMovies: UserMovie[] = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
 
@@ -2113,6 +2393,8 @@ export const dantesMovies: UserMovie[] = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
 
@@ -2128,6 +2410,8 @@ export const dantesMovies: UserMovie[] = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
 
@@ -2143,6 +2427,8 @@ export const dantesMovies: UserMovie[] = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
 
@@ -2158,6 +2444,8 @@ export const dantesMovies: UserMovie[] = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
 
@@ -2173,6 +2461,8 @@ export const dantesMovies: UserMovie[] = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
 
@@ -2188,6 +2478,8 @@ export const dantesMovies: UserMovie[] = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
 
@@ -2203,6 +2495,8 @@ export const dantesMovies: UserMovie[] = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
 
@@ -2218,6 +2512,8 @@ export const dantesMovies: UserMovie[] = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
 
@@ -2233,6 +2529,8 @@ export const dantesMovies: UserMovie[] = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
 
@@ -2248,6 +2546,8 @@ export const dantesMovies: UserMovie[] = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
 
@@ -2263,6 +2563,8 @@ export const dantesMovies: UserMovie[] = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
 
@@ -2278,6 +2580,8 @@ export const dantesMovies: UserMovie[] = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
 
@@ -2293,6 +2597,8 @@ export const dantesMovies: UserMovie[] = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
 
@@ -2308,6 +2614,8 @@ export const dantesMovies: UserMovie[] = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
 
@@ -2323,6 +2631,8 @@ export const dantesMovies: UserMovie[] = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
 
@@ -2338,6 +2648,8 @@ export const dantesMovies: UserMovie[] = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
 
@@ -2353,6 +2665,8 @@ export const dantesMovies: UserMovie[] = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
 
@@ -2368,6 +2682,8 @@ export const dantesMovies: UserMovie[] = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
 
@@ -2383,6 +2699,8 @@ export const dantesMovies: UserMovie[] = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
 
@@ -2398,6 +2716,8 @@ export const dantesMovies: UserMovie[] = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
 
@@ -2413,6 +2733,8 @@ export const dantesMovies: UserMovie[] = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
 
@@ -2428,6 +2750,8 @@ export const dantesMovies: UserMovie[] = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
 
@@ -2443,6 +2767,8 @@ export const dantesMovies: UserMovie[] = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
 
@@ -2458,6 +2784,8 @@ export const dantesMovies: UserMovie[] = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
 
@@ -2473,6 +2801,8 @@ export const dantesMovies: UserMovie[] = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
 
@@ -2488,6 +2818,8 @@ export const dantesMovies: UserMovie[] = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
 
@@ -2503,6 +2835,8 @@ export const dantesMovies: UserMovie[] = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
 
@@ -2518,6 +2852,8 @@ export const dantesMovies: UserMovie[] = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
 
@@ -2533,6 +2869,8 @@ export const dantesMovies: UserMovie[] = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
 
@@ -2548,6 +2886,8 @@ export const dantesMovies: UserMovie[] = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
 
@@ -2563,6 +2903,8 @@ export const dantesMovies: UserMovie[] = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
 
@@ -2578,6 +2920,8 @@ export const dantesMovies: UserMovie[] = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
 
@@ -2593,6 +2937,8 @@ export const dantesMovies: UserMovie[] = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
 
@@ -2608,6 +2954,8 @@ export const dantesMovies: UserMovie[] = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
 
@@ -2623,6 +2971,8 @@ export const dantesMovies: UserMovie[] = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
 
@@ -2638,6 +2988,8 @@ export const dantesMovies: UserMovie[] = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
 
@@ -2653,6 +3005,8 @@ export const dantesMovies: UserMovie[] = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
 
@@ -2668,6 +3022,8 @@ export const dantesMovies: UserMovie[] = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
 
@@ -2683,6 +3039,8 @@ export const dantesMovies: UserMovie[] = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
 
@@ -2698,6 +3056,8 @@ export const dantesMovies: UserMovie[] = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
 
@@ -2713,6 +3073,8 @@ export const dantesMovies: UserMovie[] = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
 
@@ -2728,6 +3090,8 @@ export const dantesMovies: UserMovie[] = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
 
@@ -2743,6 +3107,8 @@ export const dantesMovies: UserMovie[] = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
 
@@ -2758,6 +3124,8 @@ export const dantesMovies: UserMovie[] = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
 
@@ -2773,6 +3141,8 @@ export const dantesMovies: UserMovie[] = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
 
@@ -2789,6 +3159,8 @@ export const dantesMovies: UserMovie[] = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
 
@@ -2804,6 +3176,8 @@ export const dantesMovies: UserMovie[] = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
 
@@ -2819,6 +3193,8 @@ export const dantesMovies: UserMovie[] = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
 
@@ -2834,6 +3210,8 @@ export const dantesMovies: UserMovie[] = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
 
@@ -2849,6 +3227,8 @@ export const dantesMovies: UserMovie[] = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
 
@@ -2864,6 +3244,8 @@ export const dantesMovies: UserMovie[] = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
 
@@ -2879,6 +3261,8 @@ export const dantesMovies: UserMovie[] = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
 
@@ -2894,6 +3278,8 @@ export const dantesMovies: UserMovie[] = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
 
@@ -2909,6 +3295,8 @@ export const dantesMovies: UserMovie[] = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
 
@@ -2924,6 +3312,8 @@ export const dantesMovies: UserMovie[] = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
 
@@ -2939,6 +3329,8 @@ export const dantesMovies: UserMovie[] = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
 
@@ -2954,6 +3346,8 @@ export const dantesMovies: UserMovie[] = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
 
@@ -2969,6 +3363,8 @@ export const dantesMovies: UserMovie[] = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
 
@@ -2984,6 +3380,8 @@ export const dantesMovies: UserMovie[] = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
 
@@ -2999,6 +3397,8 @@ export const dantesMovies: UserMovie[] = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
 
@@ -3014,6 +3414,8 @@ export const dantesMovies: UserMovie[] = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
 
@@ -3029,6 +3431,8 @@ export const dantesMovies: UserMovie[] = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
 
@@ -3044,6 +3448,8 @@ export const dantesMovies: UserMovie[] = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
 
@@ -3059,6 +3465,8 @@ export const dantesMovies: UserMovie[] = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
 
@@ -3074,6 +3482,8 @@ export const dantesMovies: UserMovie[] = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
 
@@ -3089,6 +3499,8 @@ export const dantesMovies: UserMovie[] = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
 
@@ -3104,6 +3516,8 @@ export const dantesMovies: UserMovie[] = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
 
@@ -3119,6 +3533,8 @@ export const dantesMovies: UserMovie[] = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
 
@@ -3134,6 +3550,8 @@ export const dantesMovies: UserMovie[] = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
 
@@ -3149,6 +3567,8 @@ export const dantesMovies: UserMovie[] = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
 
@@ -3164,6 +3584,8 @@ export const dantesMovies: UserMovie[] = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
 
@@ -3179,6 +3601,8 @@ export const dantesMovies: UserMovie[] = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
 
@@ -3194,6 +3618,8 @@ export const dantesMovies: UserMovie[] = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
 
@@ -3209,6 +3635,8 @@ export const dantesMovies: UserMovie[] = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
 
@@ -3224,6 +3652,8 @@ export const dantesMovies: UserMovie[] = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
 
@@ -3239,6 +3669,8 @@ export const dantesMovies: UserMovie[] = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
 
@@ -3254,6 +3686,8 @@ export const dantesMovies: UserMovie[] = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
 
@@ -3269,6 +3703,8 @@ export const dantesMovies: UserMovie[] = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
 
@@ -3284,6 +3720,8 @@ export const dantesMovies: UserMovie[] = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
 
@@ -3299,6 +3737,8 @@ export const dantesMovies: UserMovie[] = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
 
@@ -3314,6 +3754,8 @@ export const dantesMovies: UserMovie[] = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
 
@@ -3329,6 +3771,8 @@ export const dantesMovies: UserMovie[] = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
 
@@ -3344,6 +3788,8 @@ export const dantesMovies: UserMovie[] = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
 
@@ -3359,6 +3805,8 @@ export const dantesMovies: UserMovie[] = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
 
@@ -3374,6 +3822,8 @@ export const dantesMovies: UserMovie[] = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
 
@@ -3389,6 +3839,8 @@ export const dantesMovies: UserMovie[] = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
 
@@ -3404,6 +3856,8 @@ export const dantesMovies: UserMovie[] = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
 
@@ -3419,6 +3873,8 @@ export const dantesMovies: UserMovie[] = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
 
@@ -3434,6 +3890,8 @@ export const dantesMovies: UserMovie[] = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
 
@@ -3449,6 +3907,8 @@ export const dantesMovies: UserMovie[] = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
 
@@ -3464,6 +3924,8 @@ export const dantesMovies: UserMovie[] = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
 
@@ -3479,6 +3941,8 @@ export const dantesMovies: UserMovie[] = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
 
@@ -3494,6 +3958,8 @@ export const dantesMovies: UserMovie[] = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
 
@@ -3509,6 +3975,8 @@ export const dantesMovies: UserMovie[] = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
 
@@ -3524,6 +3992,8 @@ export const dantesMovies: UserMovie[] = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
 
@@ -3539,6 +4009,8 @@ export const dantesMovies: UserMovie[] = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
 
@@ -3554,6 +4026,8 @@ export const dantesMovies: UserMovie[] = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
 
@@ -3569,6 +4043,8 @@ export const dantesMovies: UserMovie[] = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
 
@@ -3584,6 +4060,8 @@ export const dantesMovies: UserMovie[] = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
 
@@ -3599,6 +4077,8 @@ export const dantesMovies: UserMovie[] = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
 
@@ -3614,6 +4094,8 @@ export const dantesMovies: UserMovie[] = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
 
@@ -3629,6 +4111,8 @@ export const dantesMovies: UserMovie[] = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
 
@@ -3644,6 +4128,8 @@ export const dantesMovies: UserMovie[] = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
 
@@ -3659,6 +4145,8 @@ export const dantesMovies: UserMovie[] = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
 
@@ -3674,6 +4162,8 @@ export const dantesMovies: UserMovie[] = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
 
@@ -3689,6 +4179,8 @@ export const dantesMovies: UserMovie[] = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
 
@@ -3704,6 +4196,8 @@ export const dantesMovies: UserMovie[] = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
 
@@ -3719,6 +4213,8 @@ export const dantesMovies: UserMovie[] = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
 
@@ -3734,6 +4230,8 @@ export const dantesMovies: UserMovie[] = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
 
@@ -3750,6 +4248,8 @@ export const dantesMovies: UserMovie[] = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
 
@@ -3765,6 +4265,8 @@ export const dantesMovies: UserMovie[] = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
 
@@ -3780,6 +4282,8 @@ export const dantesMovies: UserMovie[] = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
 
@@ -3795,6 +4299,8 @@ export const dantesMovies: UserMovie[] = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
 
@@ -3810,6 +4316,8 @@ export const dantesMovies: UserMovie[] = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
 
@@ -3825,6 +4333,8 @@ export const dantesMovies: UserMovie[] = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
 
@@ -3840,6 +4350,8 @@ export const dantesMovies: UserMovie[] = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
 
@@ -3855,6 +4367,8 @@ export const dantesMovies: UserMovie[] = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
 
@@ -3870,6 +4384,8 @@ export const dantesMovies: UserMovie[] = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
 
@@ -3885,6 +4401,8 @@ export const dantesMovies: UserMovie[] = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
 
@@ -3900,6 +4418,8 @@ export const dantesMovies: UserMovie[] = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
 
@@ -3915,6 +4435,8 @@ export const dantesMovies: UserMovie[] = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
 
@@ -3930,6 +4452,8 @@ export const dantesMovies: UserMovie[] = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
 
@@ -3945,6 +4469,8 @@ export const dantesMovies: UserMovie[] = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
 
@@ -3960,6 +4486,8 @@ export const dantesMovies: UserMovie[] = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
 
@@ -3975,6 +4503,8 @@ export const dantesMovies: UserMovie[] = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
 
@@ -3990,6 +4520,8 @@ export const dantesMovies: UserMovie[] = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
 
@@ -4005,6 +4537,8 @@ export const dantesMovies: UserMovie[] = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
 
@@ -4020,6 +4554,8 @@ export const dantesMovies: UserMovie[] = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
 
@@ -4035,6 +4571,8 @@ export const dantesMovies: UserMovie[] = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
 
@@ -4050,6 +4588,8 @@ export const dantesMovies: UserMovie[] = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
 
@@ -4065,6 +4605,8 @@ export const dantesMovies: UserMovie[] = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
 
@@ -4080,6 +4622,8 @@ export const dantesMovies: UserMovie[] = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
 
@@ -4095,6 +4639,8 @@ export const dantesMovies: UserMovie[] = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
 
@@ -4110,6 +4656,8 @@ export const dantesMovies: UserMovie[] = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
 
@@ -4125,6 +4673,8 @@ export const dantesMovies: UserMovie[] = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
 
@@ -4140,6 +4690,8 @@ export const dantesMovies: UserMovie[] = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
 
@@ -4155,6 +4707,8 @@ export const dantesMovies: UserMovie[] = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
 
@@ -4170,6 +4724,8 @@ export const dantesMovies: UserMovie[] = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
 
@@ -4185,6 +4741,8 @@ export const dantesMovies: UserMovie[] = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
 
@@ -4200,6 +4758,8 @@ export const dantesMovies: UserMovie[] = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
 
@@ -4215,6 +4775,8 @@ export const dantesMovies: UserMovie[] = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
 
@@ -4230,6 +4792,8 @@ export const dantesMovies: UserMovie[] = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
 
@@ -4245,6 +4809,8 @@ export const dantesMovies: UserMovie[] = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
 
@@ -4260,6 +4826,8 @@ export const dantesMovies: UserMovie[] = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
 
@@ -4275,6 +4843,8 @@ export const dantesMovies: UserMovie[] = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
 
@@ -4290,6 +4860,8 @@ export const dantesMovies: UserMovie[] = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
 
@@ -4305,6 +4877,8 @@ export const dantesMovies: UserMovie[] = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
 
@@ -4320,6 +4894,8 @@ export const dantesMovies: UserMovie[] = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
 
@@ -4335,6 +4911,8 @@ export const dantesMovies: UserMovie[] = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
 
@@ -4350,6 +4928,8 @@ export const dantesMovies: UserMovie[] = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
 
@@ -4365,6 +4945,8 @@ export const dantesMovies: UserMovie[] = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
 
@@ -4380,6 +4962,8 @@ export const dantesMovies: UserMovie[] = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
 
@@ -4395,6 +4979,8 @@ export const dantesMovies: UserMovie[] = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
 
@@ -4410,6 +4996,8 @@ export const dantesMovies: UserMovie[] = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
 
@@ -4425,6 +5013,8 @@ export const dantesMovies: UserMovie[] = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
 
@@ -4440,6 +5030,8 @@ export const dantesMovies: UserMovie[] = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
 
@@ -4455,6 +5047,8 @@ export const dantesMovies: UserMovie[] = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
 
@@ -4470,6 +5064,8 @@ export const dantesMovies: UserMovie[] = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
 
@@ -4485,6 +5081,8 @@ export const dantesMovies: UserMovie[] = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
 
@@ -4500,6 +5098,8 @@ export const dantesMovies: UserMovie[] = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
 
@@ -4515,6 +5115,8 @@ export const dantesMovies: UserMovie[] = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
 
@@ -4530,6 +5132,8 @@ export const dantesMovies: UserMovie[] = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
 
@@ -4545,6 +5149,8 @@ export const dantesMovies: UserMovie[] = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
 
@@ -4560,6 +5166,8 @@ export const dantesMovies: UserMovie[] = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
 
@@ -4575,6 +5183,8 @@ export const dantesMovies: UserMovie[] = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
 
@@ -4590,6 +5200,8 @@ export const dantesMovies: UserMovie[] = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
 
@@ -4605,6 +5217,8 @@ export const dantesMovies: UserMovie[] = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
 
@@ -4620,6 +5234,8 @@ export const dantesMovies: UserMovie[] = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
 
@@ -4635,6 +5251,8 @@ export const dantesMovies: UserMovie[] = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
 
@@ -4650,6 +5268,8 @@ export const dantesMovies: UserMovie[] = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
 
@@ -4665,6 +5285,8 @@ export const dantesMovies: UserMovie[] = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
 
@@ -4680,6 +5302,8 @@ export const dantesMovies: UserMovie[] = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
 
@@ -4695,6 +5319,8 @@ export const dantesMovies: UserMovie[] = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
 
@@ -4710,6 +5336,8 @@ export const dantesMovies: UserMovie[] = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
 
@@ -4725,6 +5353,8 @@ export const dantesMovies: UserMovie[] = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
 
@@ -4740,6 +5370,8 @@ export const dantesMovies: UserMovie[] = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
 
@@ -4755,6 +5387,8 @@ export const dantesMovies: UserMovie[] = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
 
@@ -4770,6 +5404,8 @@ export const dantesMovies: UserMovie[] = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
 
@@ -4785,11 +5421,13 @@ export const dantesMovies: UserMovie[] = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
 
   {
-    title: 'Don\'t look up, déni cosmique',
+    title: "Don't look up, déni cosmique",
     director: 'Adam McKay',
     rating: 0,
     timesWatched: 1,
@@ -4800,6 +5438,8 @@ export const dantesMovies: UserMovie[] = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
 
@@ -4815,6 +5455,8 @@ export const dantesMovies: UserMovie[] = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
 
@@ -4830,6 +5472,8 @@ export const dantesMovies: UserMovie[] = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
 
@@ -4845,6 +5489,8 @@ export const dantesMovies: UserMovie[] = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
 
@@ -4860,6 +5506,8 @@ export const dantesMovies: UserMovie[] = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
 
@@ -4875,6 +5523,8 @@ export const dantesMovies: UserMovie[] = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
 
@@ -4890,6 +5540,8 @@ export const dantesMovies: UserMovie[] = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
 
@@ -4905,6 +5557,8 @@ export const dantesMovies: UserMovie[] = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
 
@@ -4920,6 +5574,8 @@ export const dantesMovies: UserMovie[] = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
 
@@ -4935,6 +5591,8 @@ export const dantesMovies: UserMovie[] = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
 
@@ -4950,6 +5608,8 @@ export const dantesMovies: UserMovie[] = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
 
@@ -4965,6 +5625,8 @@ export const dantesMovies: UserMovie[] = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
 
@@ -4980,6 +5642,8 @@ export const dantesMovies: UserMovie[] = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
 
@@ -4995,6 +5659,8 @@ export const dantesMovies: UserMovie[] = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
 
@@ -5010,6 +5676,8 @@ export const dantesMovies: UserMovie[] = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
 
@@ -5025,6 +5693,8 @@ export const dantesMovies: UserMovie[] = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
 
@@ -5040,6 +5710,8 @@ export const dantesMovies: UserMovie[] = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
 
@@ -5055,6 +5727,8 @@ export const dantesMovies: UserMovie[] = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
 
@@ -5070,6 +5744,8 @@ export const dantesMovies: UserMovie[] = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
 
@@ -5085,6 +5761,8 @@ export const dantesMovies: UserMovie[] = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
 
@@ -5100,6 +5778,8 @@ export const dantesMovies: UserMovie[] = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
 
@@ -5115,6 +5795,8 @@ export const dantesMovies: UserMovie[] = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
 
@@ -5130,6 +5812,8 @@ export const dantesMovies: UserMovie[] = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
 
@@ -5145,6 +5829,8 @@ export const dantesMovies: UserMovie[] = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
 
@@ -5160,6 +5846,8 @@ export const dantesMovies: UserMovie[] = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
 
@@ -5175,6 +5863,8 @@ export const dantesMovies: UserMovie[] = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
 
@@ -5190,11 +5880,13 @@ export const dantesMovies: UserMovie[] = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
 
   {
-    title: 'Il n\'est jamais trop tard',
+    title: "Il n'est jamais trop tard",
     director: 'Tom Hanks',
     rating: 0,
     timesWatched: 1,
@@ -5205,6 +5897,8 @@ export const dantesMovies: UserMovie[] = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
 
@@ -5220,6 +5914,8 @@ export const dantesMovies: UserMovie[] = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
 
@@ -5235,6 +5931,8 @@ export const dantesMovies: UserMovie[] = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
 
@@ -5250,6 +5948,8 @@ export const dantesMovies: UserMovie[] = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
 
@@ -5265,11 +5965,13 @@ export const dantesMovies: UserMovie[] = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
 
   {
-    title: 'L\'Extraordinaire Mr. Rogers',
+    title: "L'Extraordinaire Mr. Rogers",
     director: 'Marielle Heller',
     rating: 0,
     timesWatched: 1,
@@ -5280,6 +5982,8 @@ export const dantesMovies: UserMovie[] = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
 
@@ -5295,11 +5999,13 @@ export const dantesMovies: UserMovie[] = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
 
   {
-    title: 'USS Greyhound : La Bataille de l\'Atlantique',
+    title: "USS Greyhound : La Bataille de l'Atlantique",
     director: 'Aaron Schneider',
     rating: 0,
     timesWatched: 1,
@@ -5310,6 +6016,8 @@ export const dantesMovies: UserMovie[] = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
 
@@ -5325,6 +6033,8 @@ export const dantesMovies: UserMovie[] = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
 
@@ -5340,6 +6050,8 @@ export const dantesMovies: UserMovie[] = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
 
@@ -5355,11 +6067,13 @@ export const dantesMovies: UserMovie[] = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
 
   {
-    title: 'Une bataille après l\'autre',
+    title: "Une bataille après l'autre",
     director: 'Paul Thomas Anderson',
     rating: 0,
     timesWatched: 1,
@@ -5370,6 +6084,8 @@ export const dantesMovies: UserMovie[] = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
 
@@ -5385,6 +6101,8 @@ export const dantesMovies: UserMovie[] = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
 
@@ -5400,11 +6118,13 @@ export const dantesMovies: UserMovie[] = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
 
   {
-    title: 'Pour l\'amour de l\'art',
+    title: "Pour l'amour de l'art",
     director: 'Griffin Dunne',
     rating: 0,
     timesWatched: 1,
@@ -5415,6 +6135,8 @@ export const dantesMovies: UserMovie[] = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
 
@@ -5430,6 +6152,8 @@ export const dantesMovies: UserMovie[] = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
 
@@ -5445,11 +6169,13 @@ export const dantesMovies: UserMovie[] = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
 
   {
-    title: 'L\'Homme qui murmurait à l\'oreille des chevaux',
+    title: "L'Homme qui murmurait à l'oreille des chevaux",
     director: 'Robert Redford',
     rating: 0,
     timesWatched: 1,
@@ -5460,6 +6186,8 @@ export const dantesMovies: UserMovie[] = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
 
@@ -5475,6 +6203,8 @@ export const dantesMovies: UserMovie[] = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
 
@@ -5490,6 +6220,8 @@ export const dantesMovies: UserMovie[] = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
 
@@ -5505,6 +6237,8 @@ export const dantesMovies: UserMovie[] = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
 
@@ -5520,6 +6254,8 @@ export const dantesMovies: UserMovie[] = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
 
@@ -5535,6 +6271,8 @@ export const dantesMovies: UserMovie[] = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
 
@@ -5550,6 +6288,8 @@ export const dantesMovies: UserMovie[] = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
 
@@ -5565,6 +6305,8 @@ export const dantesMovies: UserMovie[] = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
 
@@ -5580,11 +6322,13 @@ export const dantesMovies: UserMovie[] = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
 
   {
-    title: 'L\'impasse',
+    title: "L'impasse",
     director: 'Brian De Palma',
     rating: 0,
     timesWatched: 1,
@@ -5595,11 +6339,13 @@ export const dantesMovies: UserMovie[] = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
 
   {
-    title: 'Vol au-dessus d\'un nid de coucou',
+    title: "Vol au-dessus d'un nid de coucou",
     director: 'Milos Forman',
     rating: 0,
     timesWatched: 1,
@@ -5610,6 +6356,8 @@ export const dantesMovies: UserMovie[] = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
 
@@ -5625,6 +6373,8 @@ export const dantesMovies: UserMovie[] = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
 
@@ -5640,6 +6390,8 @@ export const dantesMovies: UserMovie[] = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
 
@@ -5655,6 +6407,8 @@ export const dantesMovies: UserMovie[] = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
 
@@ -5670,6 +6424,8 @@ export const dantesMovies: UserMovie[] = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
 
@@ -5685,6 +6441,8 @@ export const dantesMovies: UserMovie[] = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
 
@@ -5700,6 +6458,8 @@ export const dantesMovies: UserMovie[] = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
 
@@ -5715,6 +6475,8 @@ export const dantesMovies: UserMovie[] = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
 
@@ -5730,6 +6492,8 @@ export const dantesMovies: UserMovie[] = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
 
@@ -5745,6 +6509,8 @@ export const dantesMovies: UserMovie[] = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
 
@@ -5760,11 +6526,13 @@ export const dantesMovies: UserMovie[] = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
 
   {
-    title: 'L\'Armée des Ombres',
+    title: "L'Armée des Ombres",
     director: 'Jean-Pierre Melville',
     rating: 0,
     timesWatched: 1,
@@ -5775,6 +6543,8 @@ export const dantesMovies: UserMovie[] = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
 
@@ -5790,6 +6560,8 @@ export const dantesMovies: UserMovie[] = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
 
@@ -5805,6 +6577,8 @@ export const dantesMovies: UserMovie[] = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
 
@@ -5820,6 +6594,8 @@ export const dantesMovies: UserMovie[] = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
 
@@ -5835,6 +6611,8 @@ export const dantesMovies: UserMovie[] = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
 
@@ -5850,6 +6628,8 @@ export const dantesMovies: UserMovie[] = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
 
@@ -5865,6 +6645,8 @@ export const dantesMovies: UserMovie[] = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
 
@@ -5880,6 +6662,8 @@ export const dantesMovies: UserMovie[] = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
 
@@ -5895,6 +6679,8 @@ export const dantesMovies: UserMovie[] = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
 
@@ -5910,6 +6696,8 @@ export const dantesMovies: UserMovie[] = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
 
@@ -5925,6 +6713,8 @@ export const dantesMovies: UserMovie[] = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
 
@@ -5940,6 +6730,8 @@ export const dantesMovies: UserMovie[] = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
 
@@ -5955,6 +6747,8 @@ export const dantesMovies: UserMovie[] = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
 
@@ -5970,6 +6764,8 @@ export const dantesMovies: UserMovie[] = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
 
@@ -5985,11 +6781,13 @@ export const dantesMovies: UserMovie[] = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
 
   {
-    title: 'Bienvenue chez les Ch\'tis',
+    title: "Bienvenue chez les Ch'tis",
     director: 'Dany Boon',
     rating: 0,
     timesWatched: 1,
@@ -6000,6 +6798,8 @@ export const dantesMovies: UserMovie[] = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
 
@@ -6015,6 +6815,8 @@ export const dantesMovies: UserMovie[] = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
 
@@ -6030,6 +6832,8 @@ export const dantesMovies: UserMovie[] = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
 
@@ -6045,6 +6849,8 @@ export const dantesMovies: UserMovie[] = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
 
@@ -6060,6 +6866,8 @@ export const dantesMovies: UserMovie[] = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
 
@@ -6075,6 +6883,8 @@ export const dantesMovies: UserMovie[] = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
 
@@ -6090,6 +6900,8 @@ export const dantesMovies: UserMovie[] = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
 
@@ -6105,6 +6917,8 @@ export const dantesMovies: UserMovie[] = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
 
@@ -6120,6 +6934,8 @@ export const dantesMovies: UserMovie[] = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
 
@@ -6135,6 +6951,8 @@ export const dantesMovies: UserMovie[] = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
 
@@ -6150,6 +6968,8 @@ export const dantesMovies: UserMovie[] = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
 
@@ -6165,6 +6985,8 @@ export const dantesMovies: UserMovie[] = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
 
@@ -6180,6 +7002,8 @@ export const dantesMovies: UserMovie[] = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
 
@@ -6195,6 +7019,8 @@ export const dantesMovies: UserMovie[] = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
 
@@ -6210,6 +7036,8 @@ export const dantesMovies: UserMovie[] = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
 
@@ -6225,6 +7053,8 @@ export const dantesMovies: UserMovie[] = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
 
@@ -6240,11 +7070,13 @@ export const dantesMovies: UserMovie[] = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
 
   {
-    title: 'L\'Âge de Glace',
+    title: "L'Âge de Glace",
     director: 'Chris Wedge, Carlos Saldanha',
     rating: 0,
     timesWatched: 1,
@@ -6255,11 +7087,13 @@ export const dantesMovies: UserMovie[] = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
 
   {
-    title: 'L\'Âge de Glace 2',
+    title: "L'Âge de Glace 2",
     director: 'Carlos Saldanha',
     rating: 0,
     timesWatched: 1,
@@ -6270,11 +7104,13 @@ export const dantesMovies: UserMovie[] = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
 
   {
-    title: 'L\'Âge de Glace 3 : Le Temps des Dinosaures',
+    title: "L'Âge de Glace 3 : Le Temps des Dinosaures",
     director: 'Carlos Saldanha',
     rating: 0,
     timesWatched: 1,
@@ -6285,11 +7121,13 @@ export const dantesMovies: UserMovie[] = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
 
   {
-    title: 'L\'Âge de Glace 4 : La Dérive des Continents',
+    title: "L'Âge de Glace 4 : La Dérive des Continents",
     director: 'Steve Martino, Mike Thurmeier',
     rating: 0,
     timesWatched: 1,
@@ -6300,6 +7138,8 @@ export const dantesMovies: UserMovie[] = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
 
@@ -6315,6 +7155,8 @@ export const dantesMovies: UserMovie[] = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
 
@@ -6330,6 +7172,8 @@ export const dantesMovies: UserMovie[] = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
 
@@ -6345,6 +7189,8 @@ export const dantesMovies: UserMovie[] = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
 
@@ -6360,6 +7206,8 @@ export const dantesMovies: UserMovie[] = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
 
@@ -6375,11 +7223,13 @@ export const dantesMovies: UserMovie[] = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
 
   {
-    title: 'One Piece : L\'Aventure de l\'île de l\'horloge',
+    title: "One Piece : L'Aventure de l'île de l'horloge",
     director: 'Atsuji Shimizu',
     rating: 0,
     timesWatched: 1,
@@ -6390,11 +7240,13 @@ export const dantesMovies: UserMovie[] = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
 
   {
-    title: 'One Piece : Le Royaume de Chopper, l\'île des bêtes étranges',
+    title: "One Piece : Le Royaume de Chopper, l'île des bêtes étranges",
     director: 'Atsuji Shimizu',
     rating: 0,
     timesWatched: 1,
@@ -6405,11 +7257,13 @@ export const dantesMovies: UserMovie[] = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
 
   {
-    title: 'One Piece : L\'Aventure sans issue',
+    title: "One Piece : L'Aventure sans issue",
     director: 'Kōnosuke Uda',
     rating: 0,
     timesWatched: 1,
@@ -6420,11 +7274,13 @@ export const dantesMovies: UserMovie[] = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
 
   {
-    title: 'One Piece : La Malédiction de l\'épée sacrée',
+    title: "One Piece : La Malédiction de l'épée sacrée",
     director: 'Kazuhisa Takenouchi',
     rating: 0,
     timesWatched: 1,
@@ -6435,11 +7291,13 @@ export const dantesMovies: UserMovie[] = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
 
   {
-    title: 'One Piece : Le baron Omatsuri et l\'île secrète',
+    title: "One Piece : Le baron Omatsuri et l'île secrète",
     director: 'Mamoru Hosoda',
     rating: 0,
     timesWatched: 1,
@@ -6450,6 +7308,8 @@ export const dantesMovies: UserMovie[] = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
 
@@ -6465,6 +7325,8 @@ export const dantesMovies: UserMovie[] = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
 
@@ -6480,6 +7342,8 @@ export const dantesMovies: UserMovie[] = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
 
@@ -6495,6 +7359,8 @@ export const dantesMovies: UserMovie[] = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
 
@@ -6510,6 +7376,8 @@ export const dantesMovies: UserMovie[] = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
 
@@ -6525,6 +7393,8 @@ export const dantesMovies: UserMovie[] = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
 
@@ -6540,6 +7410,8 @@ export const dantesMovies: UserMovie[] = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
 
@@ -6555,6 +7427,8 @@ export const dantesMovies: UserMovie[] = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
 
@@ -6570,6 +7444,8 @@ export const dantesMovies: UserMovie[] = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
 
@@ -6585,6 +7461,8 @@ export const dantesMovies: UserMovie[] = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
 
@@ -6600,11 +7478,13 @@ export const dantesMovies: UserMovie[] = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
 
   {
-    title: 'O\'Brother',
+    title: "O'Brother",
     director: 'Ethan Coen, Joel Coen',
     rating: 0,
     timesWatched: 1,
@@ -6615,6 +7495,8 @@ export const dantesMovies: UserMovie[] = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
 
@@ -6630,11 +7512,13 @@ export const dantesMovies: UserMovie[] = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
 
   {
-    title: 'Chérie, j\'ai rétréci les gosses',
+    title: "Chérie, j'ai rétréci les gosses",
     director: 'Joe Johnston',
     rating: 0,
     timesWatched: 1,
@@ -6645,11 +7529,13 @@ export const dantesMovies: UserMovie[] = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
 
   {
-    title: 'La Venue de l\'Avenir',
+    title: "La Venue de l'Avenir",
     director: 'Cédric Klapisch',
     rating: 0,
     timesWatched: 1,
@@ -6660,6 +7546,8 @@ export const dantesMovies: UserMovie[] = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
 
@@ -6675,6 +7563,8 @@ export const dantesMovies: UserMovie[] = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
 
@@ -6690,6 +7580,8 @@ export const dantesMovies: UserMovie[] = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
 
@@ -6705,6 +7597,8 @@ export const dantesMovies: UserMovie[] = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
 
@@ -6720,6 +7614,8 @@ export const dantesMovies: UserMovie[] = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
 
@@ -6735,6 +7631,8 @@ export const dantesMovies: UserMovie[] = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
 
@@ -6750,6 +7648,8 @@ export const dantesMovies: UserMovie[] = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
 
@@ -6765,6 +7665,8 @@ export const dantesMovies: UserMovie[] = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
 
@@ -6780,6 +7682,8 @@ export const dantesMovies: UserMovie[] = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
 
@@ -6795,6 +7699,8 @@ export const dantesMovies: UserMovie[] = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
 
@@ -6810,6 +7716,8 @@ export const dantesMovies: UserMovie[] = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
 
@@ -6825,6 +7733,8 @@ export const dantesMovies: UserMovie[] = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
 
@@ -6840,6 +7750,8 @@ export const dantesMovies: UserMovie[] = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
 
@@ -6855,6 +7767,8 @@ export const dantesMovies: UserMovie[] = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
 
@@ -6870,6 +7784,8 @@ export const dantesMovies: UserMovie[] = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
 
@@ -6885,6 +7801,8 @@ export const dantesMovies: UserMovie[] = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
 
@@ -6900,11 +7818,13 @@ export const dantesMovies: UserMovie[] = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
 
   {
-    title: 'Le Crime de l\'Orient-Express',
+    title: "Le Crime de l'Orient-Express",
     director: 'Kenneth Branagh',
     rating: 0,
     timesWatched: 1,
@@ -6915,6 +7835,8 @@ export const dantesMovies: UserMovie[] = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
 
@@ -6930,6 +7852,8 @@ export const dantesMovies: UserMovie[] = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
 
@@ -6945,6 +7869,8 @@ export const dantesMovies: UserMovie[] = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
 
@@ -6960,6 +7886,8 @@ export const dantesMovies: UserMovie[] = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
 
@@ -6975,6 +7903,8 @@ export const dantesMovies: UserMovie[] = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
 
@@ -6990,6 +7920,8 @@ export const dantesMovies: UserMovie[] = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
 
@@ -7005,6 +7937,8 @@ export const dantesMovies: UserMovie[] = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
 
@@ -7020,6 +7954,8 @@ export const dantesMovies: UserMovie[] = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
 
@@ -7035,11 +7971,13 @@ export const dantesMovies: UserMovie[] = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
 
   {
-    title: 'La Revanche d\'une blonde',
+    title: "La Revanche d'une blonde",
     director: 'Robert Luketic',
     rating: 0,
     timesWatched: 1,
@@ -7050,6 +7988,8 @@ export const dantesMovies: UserMovie[] = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
 
@@ -7065,6 +8005,8 @@ export const dantesMovies: UserMovie[] = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
 
@@ -7080,6 +8022,8 @@ export const dantesMovies: UserMovie[] = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
 
@@ -7095,6 +8039,8 @@ export const dantesMovies: UserMovie[] = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
 
@@ -7110,6 +8056,8 @@ export const dantesMovies: UserMovie[] = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
 
@@ -7125,6 +8073,8 @@ export const dantesMovies: UserMovie[] = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
 
@@ -7140,6 +8090,8 @@ export const dantesMovies: UserMovie[] = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
 
@@ -7155,6 +8107,8 @@ export const dantesMovies: UserMovie[] = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
 
@@ -7170,6 +8124,8 @@ export const dantesMovies: UserMovie[] = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
 
@@ -7185,11 +8141,13 @@ export const dantesMovies: UserMovie[] = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
 
   {
-    title: 'The Party\'s Over!',
+    title: "The Party's Over!",
     director: 'Antony Cordier',
     rating: 0,
     timesWatched: 1,
@@ -7200,6 +8158,8 @@ export const dantesMovies: UserMovie[] = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
 
@@ -7215,6 +8175,8 @@ export const dantesMovies: UserMovie[] = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
 
@@ -7230,6 +8192,8 @@ export const dantesMovies: UserMovie[] = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
 
@@ -7245,6 +8209,8 @@ export const dantesMovies: UserMovie[] = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
 
@@ -7260,6 +8226,8 @@ export const dantesMovies: UserMovie[] = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
 
@@ -7275,6 +8243,8 @@ export const dantesMovies: UserMovie[] = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
 
@@ -7290,6 +8260,8 @@ export const dantesMovies: UserMovie[] = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
 
@@ -7305,6 +8277,8 @@ export const dantesMovies: UserMovie[] = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
 
@@ -7320,6 +8294,8 @@ export const dantesMovies: UserMovie[] = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
 
@@ -7335,6 +8311,8 @@ export const dantesMovies: UserMovie[] = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
 
@@ -7350,6 +8328,8 @@ export const dantesMovies: UserMovie[] = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
 
@@ -7365,6 +8345,8 @@ export const dantesMovies: UserMovie[] = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
 
@@ -7380,11 +8362,13 @@ export const dantesMovies: UserMovie[] = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
 
   {
-    title: 'Sherlock Holmes : Jeu d\'ombres',
+    title: "Sherlock Holmes : Jeu d'ombres",
     director: 'Guy Ritchie',
     rating: 0,
     timesWatched: 1,
@@ -7395,6 +8379,8 @@ export const dantesMovies: UserMovie[] = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
 
@@ -7410,6 +8396,8 @@ export const dantesMovies: UserMovie[] = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
 
@@ -7425,6 +8413,8 @@ export const dantesMovies: UserMovie[] = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
 
@@ -7440,6 +8430,8 @@ export const dantesMovies: UserMovie[] = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
 
@@ -7455,11 +8447,13 @@ export const dantesMovies: UserMovie[] = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
 
   {
-    title: 'Inside Man : L\'Homme de l\'intérieur',
+    title: "Inside Man : L'Homme de l'intérieur",
     director: 'Spike Lee',
     rating: 0,
     timesWatched: 1,
@@ -7470,6 +8464,8 @@ export const dantesMovies: UserMovie[] = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
 
@@ -7485,6 +8481,8 @@ export const dantesMovies: UserMovie[] = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
 
@@ -7500,6 +8498,8 @@ export const dantesMovies: UserMovie[] = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
 
@@ -7515,6 +8515,8 @@ export const dantesMovies: UserMovie[] = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
 
@@ -7530,6 +8532,8 @@ export const dantesMovies: UserMovie[] = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
 
@@ -7545,11 +8549,13 @@ export const dantesMovies: UserMovie[] = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
 
   {
-    title: 'Le Seigneur des anneaux : La Communauté de l\'anneau',
+    title: "Le Seigneur des anneaux : La Communauté de l'anneau",
     director: 'Peter Jackson',
     rating: 0,
     timesWatched: 1,
@@ -7560,6 +8566,8 @@ export const dantesMovies: UserMovie[] = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
 
@@ -7575,6 +8583,8 @@ export const dantesMovies: UserMovie[] = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
 
@@ -7590,6 +8600,8 @@ export const dantesMovies: UserMovie[] = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
 
@@ -7605,6 +8617,8 @@ export const dantesMovies: UserMovie[] = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
 
@@ -7620,6 +8634,8 @@ export const dantesMovies: UserMovie[] = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
 
@@ -7635,6 +8651,8 @@ export const dantesMovies: UserMovie[] = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
 
@@ -7650,6 +8668,8 @@ export const dantesMovies: UserMovie[] = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
 
@@ -7665,6 +8685,8 @@ export const dantesMovies: UserMovie[] = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
 
@@ -7680,6 +8702,8 @@ export const dantesMovies: UserMovie[] = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
 
@@ -7695,11 +8719,13 @@ export const dantesMovies: UserMovie[] = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
 
   {
-    title: 'Il était une fois dans l\'Ouest',
+    title: "Il était une fois dans l'Ouest",
     director: 'Sergio Leone',
     rating: 0,
     timesWatched: 1,
@@ -7710,6 +8736,8 @@ export const dantesMovies: UserMovie[] = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
 
@@ -7725,11 +8753,13 @@ export const dantesMovies: UserMovie[] = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
 
   {
-    title: 'Valentine\'s Day',
+    title: "Valentine's Day",
     director: 'Garry Marshall',
     rating: 0,
     timesWatched: 1,
@@ -7740,6 +8770,8 @@ export const dantesMovies: UserMovie[] = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
 
@@ -7755,6 +8787,8 @@ export const dantesMovies: UserMovie[] = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
 
@@ -7770,6 +8804,8 @@ export const dantesMovies: UserMovie[] = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
 
@@ -7785,6 +8821,8 @@ export const dantesMovies: UserMovie[] = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
 
@@ -7800,6 +8838,8 @@ export const dantesMovies: UserMovie[] = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
 
@@ -7815,6 +8855,8 @@ export const dantesMovies: UserMovie[] = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
 
@@ -7830,6 +8872,8 @@ export const dantesMovies: UserMovie[] = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
 
@@ -7845,6 +8889,8 @@ export const dantesMovies: UserMovie[] = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
 
@@ -7860,6 +8906,8 @@ export const dantesMovies: UserMovie[] = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
 
@@ -7875,6 +8923,8 @@ export const dantesMovies: UserMovie[] = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
 
@@ -7890,6 +8940,8 @@ export const dantesMovies: UserMovie[] = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
 
@@ -7905,6 +8957,8 @@ export const dantesMovies: UserMovie[] = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
 
@@ -7920,11 +8974,13 @@ export const dantesMovies: UserMovie[] = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
 
   {
-    title: 'X-Men : L\'Affrontement Final',
+    title: "X-Men : L'Affrontement Final",
     director: 'Brett Ratner',
     rating: 0,
     timesWatched: 1,
@@ -7935,6 +8991,8 @@ export const dantesMovies: UserMovie[] = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
 
@@ -7950,6 +9008,8 @@ export const dantesMovies: UserMovie[] = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
 
@@ -7965,6 +9025,8 @@ export const dantesMovies: UserMovie[] = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
 
@@ -7980,6 +9042,8 @@ export const dantesMovies: UserMovie[] = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
 
@@ -7995,6 +9059,8 @@ export const dantesMovies: UserMovie[] = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
 
@@ -8010,6 +9076,8 @@ export const dantesMovies: UserMovie[] = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
 
@@ -8025,6 +9093,8 @@ export const dantesMovies: UserMovie[] = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
 
@@ -8040,6 +9110,8 @@ export const dantesMovies: UserMovie[] = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
 
@@ -8055,6 +9127,8 @@ export const dantesMovies: UserMovie[] = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
 
@@ -8070,6 +9144,8 @@ export const dantesMovies: UserMovie[] = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
 
@@ -8085,6 +9161,8 @@ export const dantesMovies: UserMovie[] = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
 
@@ -8100,6 +9178,8 @@ export const dantesMovies: UserMovie[] = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
 
@@ -8115,6 +9195,8 @@ export const dantesMovies: UserMovie[] = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
 
@@ -8130,6 +9212,8 @@ export const dantesMovies: UserMovie[] = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
 
@@ -8145,6 +9229,8 @@ export const dantesMovies: UserMovie[] = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
 
@@ -8160,6 +9246,8 @@ export const dantesMovies: UserMovie[] = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
 
@@ -8175,6 +9263,8 @@ export const dantesMovies: UserMovie[] = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
 
@@ -8190,6 +9280,8 @@ export const dantesMovies: UserMovie[] = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
 
@@ -8205,6 +9297,8 @@ export const dantesMovies: UserMovie[] = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
 
@@ -8220,6 +9314,8 @@ export const dantesMovies: UserMovie[] = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
 
@@ -8235,6 +9331,8 @@ export const dantesMovies: UserMovie[] = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
 
@@ -8250,6 +9348,8 @@ export const dantesMovies: UserMovie[] = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
 
@@ -8265,11 +9365,13 @@ export const dantesMovies: UserMovie[] = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
 
   {
-    title: 'La momie : la tombe de l\'empereur dragon',
+    title: "La momie : la tombe de l'empereur dragon",
     director: 'Rob Cohen',
     rating: 0,
     timesWatched: 1,
@@ -8280,6 +9382,8 @@ export const dantesMovies: UserMovie[] = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
 
@@ -8295,6 +9399,8 @@ export const dantesMovies: UserMovie[] = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
 
@@ -8310,6 +9416,8 @@ export const dantesMovies: UserMovie[] = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
 
@@ -8325,6 +9433,8 @@ export const dantesMovies: UserMovie[] = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
 
@@ -8340,11 +9450,13 @@ export const dantesMovies: UserMovie[] = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
 
   {
-    title: 'Hunger Games : L\'Embrasement',
+    title: "Hunger Games : L'Embrasement",
     director: 'Francis Lawrence',
     rating: 0,
     timesWatched: 1,
@@ -8355,6 +9467,8 @@ export const dantesMovies: UserMovie[] = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
 
@@ -8370,6 +9484,8 @@ export const dantesMovies: UserMovie[] = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
 
@@ -8385,6 +9501,8 @@ export const dantesMovies: UserMovie[] = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
 
@@ -8400,6 +9518,8 @@ export const dantesMovies: UserMovie[] = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
 
@@ -8415,6 +9535,8 @@ export const dantesMovies: UserMovie[] = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
 
@@ -8430,6 +9552,8 @@ export const dantesMovies: UserMovie[] = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
 
@@ -8445,6 +9569,8 @@ export const dantesMovies: UserMovie[] = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
 
@@ -8460,6 +9586,8 @@ export const dantesMovies: UserMovie[] = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
 
@@ -8475,6 +9603,8 @@ export const dantesMovies: UserMovie[] = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
 
@@ -8490,6 +9620,8 @@ export const dantesMovies: UserMovie[] = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
 
@@ -8505,6 +9637,8 @@ export const dantesMovies: UserMovie[] = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
 
@@ -8520,6 +9654,8 @@ export const dantesMovies: UserMovie[] = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
 
@@ -8535,6 +9671,8 @@ export const dantesMovies: UserMovie[] = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
 
@@ -8550,6 +9688,8 @@ export const dantesMovies: UserMovie[] = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
 
@@ -8565,6 +9705,8 @@ export const dantesMovies: UserMovie[] = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
 
@@ -8580,6 +9722,8 @@ export const dantesMovies: UserMovie[] = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
 
@@ -8595,11 +9739,13 @@ export const dantesMovies: UserMovie[] = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
 
   {
-    title: 'Assassin\'s Creed',
+    title: "Assassin's Creed",
     director: 'Justin Kurzel',
     rating: 0,
     timesWatched: 1,
@@ -8610,6 +9756,8 @@ export const dantesMovies: UserMovie[] = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
 
@@ -8625,6 +9773,8 @@ export const dantesMovies: UserMovie[] = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
 
@@ -8640,6 +9790,8 @@ export const dantesMovies: UserMovie[] = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
 
@@ -8655,6 +9807,8 @@ export const dantesMovies: UserMovie[] = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
 
@@ -8670,11 +9824,13 @@ export const dantesMovies: UserMovie[] = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
 
   {
-    title: 'Le Discours d\'un roi',
+    title: "Le Discours d'un roi",
     director: 'Tom Hooper',
     rating: 0,
     timesWatched: 1,
@@ -8685,11 +9841,13 @@ export const dantesMovies: UserMovie[] = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
 
   {
-    title: 'Les Aventuriers de l\'Arche perdue',
+    title: "Les Aventuriers de l'Arche perdue",
     director: 'Steven Spielberg',
     rating: 0,
     timesWatched: 1,
@@ -8700,6 +9858,8 @@ export const dantesMovies: UserMovie[] = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
 
@@ -8715,6 +9875,8 @@ export const dantesMovies: UserMovie[] = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
 
@@ -8730,6 +9892,8 @@ export const dantesMovies: UserMovie[] = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
 
@@ -8745,6 +9909,8 @@ export const dantesMovies: UserMovie[] = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
 
@@ -8760,6 +9926,8 @@ export const dantesMovies: UserMovie[] = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
 
@@ -8775,6 +9943,8 @@ export const dantesMovies: UserMovie[] = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
 
@@ -8790,6 +9960,8 @@ export const dantesMovies: UserMovie[] = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     inList: [],
   },
 ];

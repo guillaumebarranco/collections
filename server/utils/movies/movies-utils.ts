@@ -189,6 +189,16 @@ function parseMoviesFromFile(content: string): any[] {
             watchPriority: parseNumberField(objectText, 'watchPriority') ?? 1,
             ratingComment: parseStringField(objectText, 'ratingComment') ?? '',
             inList: parseStringArrayField(objectText, 'inList') ?? [],
+            borrowed:
+              parseStringField(objectText, 'borrowed') ??
+              ((parseBooleanField(objectText, 'borrowed') ?? false)
+                ? 'Inconnu'
+                : ''),
+            loaned:
+              parseStringField(objectText, 'loaned') ??
+              ((parseBooleanField(objectText, 'loaned') ?? false)
+                ? 'Inconnu'
+                : ''),
           });
         }
       }
@@ -543,6 +553,12 @@ function updateMovieInFile(content: string, payload: any) {
             updated,
             Array.isArray(payload.inList) ? payload.inList : []
           );
+          updated = upsertField(
+            updated,
+            'borrowed',
+            payload.borrowed ?? ''
+          );
+          updated = upsertField(updated, 'loaned', payload.loaned ?? '');
 
           return (
             content.slice(0, objectStart) +

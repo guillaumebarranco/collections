@@ -99,6 +99,8 @@ export class ComicsComponent implements OnInit {
 
   optionalViewConfig = signal<Record<OptionalComicView, boolean>>({
     owned: true,
+    borrowed: true,
+    loaned: true,
     toReRead: true,
     sagas: true,
     recommendations: false,
@@ -182,6 +184,34 @@ export class ComicsComponent implements OnInit {
       comics = this.allReadlistComics();
     } else if (this.selectedView() === 'owned') {
       comics = this.allComics().filter((comic) => comic.owned);
+    } else if (this.selectedView() === 'borrowed') {
+      const key = (c: Comic) => `${c.title}|${c.writer}`;
+      const readB = this.allComics().filter((c) =>
+        Boolean(c.borrowed?.trim())
+      );
+      const listB = this.allReadlistComics().filter((c) =>
+        Boolean(c.borrowed?.trim())
+      );
+      const seen = new Set<string>();
+      comics = [...readB, ...listB].filter((c) => {
+        const k = key(c);
+        if (seen.has(k)) return false;
+        seen.add(k);
+        return true;
+      });
+    } else if (this.selectedView() === 'loaned') {
+      const key = (c: Comic) => `${c.title}|${c.writer}`;
+      const readL = this.allComics().filter((c) => Boolean(c.loaned?.trim()));
+      const listL = this.allReadlistComics().filter((c) =>
+        Boolean(c.loaned?.trim())
+      );
+      const seen = new Set<string>();
+      comics = [...readL, ...listL].filter((c) => {
+        const k = key(c);
+        if (seen.has(k)) return false;
+        seen.add(k);
+        return true;
+      });
     } else if (this.selectedView() === 'toReRead') {
       comics = this.allComics().filter(
         (comic) => comic.wantToReadAgain === true
@@ -293,6 +323,8 @@ export class ComicsComponent implements OnInit {
     this.isLoadingViewConfig = true;
     this.optionalViewConfig.set({
       owned: parsed.owned ?? true,
+      borrowed: parsed.borrowed ?? true,
+      loaned: parsed.loaned ?? true,
       toReRead: parsed.toReRead ?? true,
       sagas: parsed.sagas ?? true,
       recommendations: parsed.recommendations ?? false,
@@ -311,9 +343,16 @@ export class ComicsComponent implements OnInit {
     this.isLoadingPreferences = true;
     if (
       parsed.view &&
-      ['read', 'readlist', 'owned', 'toReRead', 'sagas', 'recommendations'].includes(
-        parsed.view
-      )
+      [
+        'read',
+        'readlist',
+        'owned',
+        'borrowed',
+        'loaned',
+        'toReRead',
+        'sagas',
+        'recommendations',
+      ].includes(parsed.view)
     ) {
       this.selectedView.set(parsed.view as ComicView);
     }

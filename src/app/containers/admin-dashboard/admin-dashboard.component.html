@@ -1,5 +1,14 @@
 <div class="admin-dashboard">
-  <h1>Vue admin</h1>
+  <div class="admin-dashboard__header">
+    <h1>Vue admin</h1>
+    <button
+      type="button"
+      class="admin-dashboard__back-user makya-btn-small"
+      (click)="goToUserDashboard()"
+    >
+      Revenir au dashboard utilisateur
+    </button>
+  </div>
 
   @if (isLoading()) {
   <p class="admin-loading">Chargement des utilisateurs...</p>

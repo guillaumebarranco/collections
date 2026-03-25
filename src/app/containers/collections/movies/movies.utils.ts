@@ -5,6 +5,8 @@ export type MovieView =
   | 'cinema'
   | 'watchlist'
   | 'owned'
+  | 'borrowed'
+  | 'loaned'
   | 'toReWatch'
   | 'sagas'
   | 'actors'
@@ -26,7 +28,9 @@ export const moviesSortOptions = (
     selectedView === 'watched' ||
     selectedView === 'cinema' ||
     selectedView === 'toReWatch' ||
-    selectedView === 'owned'
+    selectedView === 'owned' ||
+    selectedView === 'borrowed' ||
+    selectedView === 'loaned'
   ) {
     return viewedMoviesSortOptions;
   }
@@ -151,6 +155,8 @@ export const movieViewOptions: { value: MovieView; label: string }[] = [
   { value: 'cinema', label: 'Vus au cinéma' },
   { value: 'watchlist', label: 'À voir' },
   { value: 'owned', label: 'Possédés' },
+  { value: 'borrowed', label: 'Films empruntés' },
+  { value: 'loaned', label: 'Films prêtés' },
   { value: 'toReWatch', label: 'À revoir' },
   { value: 'sagas', label: 'Voir par sagas' },
   { value: 'actors', label: 'Voir par acteurs' },
@@ -324,7 +330,13 @@ export const getMoviesBySaga = ({
     baseBySaga.set(sagaName, list);
   }
 
-  const sagaGroups = Array.from(sagaMap.entries()).map(([saga, seenMovies]) => {
+  const allSagaNames = new Set<string>([
+    ...sagaMap.keys(),
+    ...baseBySaga.keys(),
+  ]);
+
+  const sagaGroups = Array.from(allSagaNames).map((saga) => {
+    const seenMovies = sagaMap.get(saga) ?? [];
     const missing =
       saga === 'Sans saga'
         ? []
@@ -336,21 +348,8 @@ export const getMoviesBySaga = ({
     };
   });
 
-  // Filtrer les sagas avec au moins 5 films notés pour les tris basés sur les notes
-  const filteredSagaGroups =
-    selectedSort === 'saga-user-rating' || selectedSort === 'saga-global-rating'
-      ? sagaGroups.filter((group) => {
-          const ratedMovies = group.seenMovies.filter(
-            (movie) => movie.rating && movie.rating > 0
-          );
-          return ratedMovies.length >= 5;
-        })
-      : sagaGroups.filter(
-          (group) => group.seenMovies.length + group.missingMovies.length > 3
-        );
-
-  // Appliquer le tri selon selectedSort
-  filteredSagaGroups.sort((a, b) => {
+  // Appliquer le tri selon selectedSort (toutes les sagas du catalogue ou vues)
+  sagaGroups.sort((a, b) => {
     switch (selectedSort) {
       case 'saga-count': {
         const countA = a.seenMovies.length + a.missingMovies.length;
@@ -410,7 +409,7 @@ export const getMoviesBySaga = ({
     }
   });
 
-  return filteredSagaGroups;
+  return sagaGroups;
 };
 
 export const getMoviesByActor = ({

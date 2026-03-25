@@ -10,6 +10,8 @@ export const ronanGameListGames: UserGames = [
     wantToPlayAgain: false,
     sessions: [],
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
   },
 
   {
@@ -21,6 +23,8 @@ export const ronanGameListGames: UserGames = [
     wantToPlayAgain: false,
     sessions: [],
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
   },
 
   {
@@ -32,6 +36,8 @@ export const ronanGameListGames: UserGames = [
     wantToPlayAgain: false,
     sessions: [],
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
   },
 
   {
@@ -43,6 +49,8 @@ export const ronanGameListGames: UserGames = [
     wantToPlayAgain: false,
     sessions: [],
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
   },
 
   {
@@ -54,6 +62,8 @@ export const ronanGameListGames: UserGames = [
     wantToPlayAgain: false,
     sessions: [],
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
   },
 
   {
@@ -65,6 +75,8 @@ export const ronanGameListGames: UserGames = [
     wantToPlayAgain: false,
     sessions: [],
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
   },
 
   {
@@ -76,5 +88,7 @@ export const ronanGameListGames: UserGames = [
     wantToPlayAgain: false,
     sessions: [],
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
   },
 ];

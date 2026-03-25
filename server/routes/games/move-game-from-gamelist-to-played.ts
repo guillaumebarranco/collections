@@ -64,6 +64,8 @@ function formatUserGame(game: any, options?: { rating?: number; ratingComment?: 
     gamelistPriority: ${game.gamelistPriority ?? 1},
     wantToPlayAgain: false,
     ratingComment: '${escapeString(ratingComment)}',
+    borrowed: '${escapeString(typeof game.borrowed === 'string' ? game.borrowed : '')}',
+    loaned: '${escapeString(typeof game.loaned === 'string' ? game.loaned : '')}',
     sessions: [],
   },`;
 }

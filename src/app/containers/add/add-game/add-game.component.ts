@@ -30,6 +30,8 @@ type AddGameUserForm = {
   rating: number;
   sessions: AddGameSessionForm[];
   owned: boolean;
+  borrowed: string;
+  loaned: string;
   gamelistPriority: number;
   wantToPlayAgain: boolean;
   ratingComment: string;
@@ -73,6 +75,8 @@ export class AddGameComponent {
     rating: 0,
     sessions: [{ completion: 'none', additionnalEstimatedTime: 0 }],
     owned: false,
+    borrowed: '',
+    loaned: '',
     gamelistPriority: 1,
     wantToPlayAgain: false,
     ratingComment: '',
@@ -221,6 +225,8 @@ export class AddGameComponent {
       const userPayload = {
         rating: user.rating,
         owned: user.owned,
+        borrowed: user.borrowed ?? '',
+        loaned: user.loaned ?? '',
         gamelistPriority: user.gamelistPriority,
         wantToPlayAgain: user.wantToPlayAgain ?? false,
         sessions,

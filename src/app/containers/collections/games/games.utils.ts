@@ -6,6 +6,8 @@ export type GameView =
   | 'platined'
   | 'gamelist'
   | 'owned'
+  | 'borrowed'
+  | 'loaned'
   | 'finished'
   | 'toRePlay'
   | 'recommendations';
@@ -34,6 +36,8 @@ export const gameViewOptions: { value: GameView; label: string }[] = [
   { value: 'platined', label: 'Jeux platinés' },
   { value: 'gamelist', label: 'Jeux à jouer' },
   { value: 'owned', label: 'Jeux possédés' },
+  { value: 'borrowed', label: 'Jeux empruntés' },
+  { value: 'loaned', label: 'Jeux prêtés' },
   { value: 'toRePlay', label: 'À rejouer' },
   { value: 'recommendations', label: 'Recommandations' },
 ];

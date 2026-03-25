@@ -11,5 +11,7 @@ export const marinaMangas: UserManga[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
-  }
+    borrowed: '',
+    loaned: '',
+  },
 ];

@@ -133,6 +133,16 @@ function parseManwhasFromFile(content: string): any[] {
             wantToReadAgain:
               parseBooleanField(objectText, 'wantToReadAgain') ?? false,
             ratingComment: parseStringField(objectText, 'ratingComment') ?? '',
+            borrowed:
+              parseStringField(objectText, 'borrowed') ??
+              ((parseBooleanField(objectText, 'borrowed') ?? false)
+                ? 'Inconnu'
+                : ''),
+            loaned:
+              parseStringField(objectText, 'loaned') ??
+              ((parseBooleanField(objectText, 'loaned') ?? false)
+                ? 'Inconnu'
+                : ''),
           });
         }
       }
@@ -275,6 +285,8 @@ function updateManwhaInFile(filePath: string, manwhaData: any): boolean {
     readPriority: ${manwha.readPriority ?? 1},
     wantToReadAgain: ${manwha.wantToReadAgain ?? false},
     ratingComment: '${escapeString(manwha.ratingComment || '')}',
+    borrowed: '${escapeString(manwha.borrowed || '')}',
+    loaned: '${escapeString(manwha.loaned || '')}',
   }`
     )
     .join(',\n');
@@ -331,6 +343,8 @@ function updateManwhaIdentityInFile(
     readPriority: ${manwha.readPriority ?? 1},
     wantToReadAgain: ${manwha.wantToReadAgain ?? false},
     ratingComment: '${escapeString(manwha.ratingComment || '')}',
+    borrowed: '${escapeString(manwha.borrowed || '')}',
+    loaned: '${escapeString(manwha.loaned || '')}',
   }`
     )
     .join(',\n');
@@ -448,6 +462,8 @@ function removeManwhaFromFile(content: string, payload: any): string {
     readPriority: ${manwha.readPriority ?? 1},
     wantToReadAgain: ${manwha.wantToReadAgain ?? false},
     ratingComment: '${escapeString(manwha.ratingComment || '')}',
+    borrowed: '${escapeString(manwha.borrowed || '')}',
+    loaned: '${escapeString(manwha.loaned || '')}',
   }`
     )
     .join(',\n');

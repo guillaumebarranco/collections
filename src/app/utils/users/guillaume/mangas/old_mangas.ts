@@ -43,6 +43,8 @@ export const mangas = [
       },
     },
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
   },
   {
     _type: 'manga',
@@ -88,6 +90,8 @@ export const mangas = [
       },
     },
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
   },
   {
     _type: 'manga',
@@ -136,6 +140,8 @@ export const mangas = [
       },
     },
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
   },
   {
     _type: 'manga',
@@ -181,6 +187,8 @@ export const mangas = [
       },
     },
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
   },
   {
     _type: 'manga',
@@ -225,6 +233,8 @@ export const mangas = [
       },
     },
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
   },
   {
     _type: 'manga',
@@ -269,6 +279,8 @@ export const mangas = [
       },
     },
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
   },
   {
     _type: 'manga',
@@ -307,6 +319,8 @@ export const mangas = [
       },
     },
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
   },
   {
     _type: 'manga',
@@ -350,6 +364,8 @@ export const mangas = [
       },
     },
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
   },
   {
     _type: 'manga',
@@ -394,6 +410,8 @@ export const mangas = [
       },
     },
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
   },
   {
     _type: 'manga',
@@ -440,6 +458,8 @@ export const mangas = [
       },
     },
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
   },
   {
     _type: 'manga',
@@ -485,6 +505,8 @@ export const mangas = [
       },
     },
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
   },
   {
     _type: 'manga',
@@ -529,6 +551,8 @@ export const mangas = [
       },
     },
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
   },
   {
     _type: 'manga',
@@ -572,6 +596,8 @@ export const mangas = [
       },
     },
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
   },
   {
     _type: 'manga',
@@ -617,6 +643,8 @@ export const mangas = [
       },
     },
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
   },
   {
     _type: 'manga',
@@ -661,6 +689,8 @@ export const mangas = [
       },
     },
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
   },
   {
     _type: 'manga',
@@ -705,6 +735,8 @@ export const mangas = [
       },
     },
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
   },
   {
     _type: 'manga',
@@ -753,6 +785,8 @@ export const mangas = [
       },
     },
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
   },
   {
     _type: 'manga',
@@ -797,6 +831,8 @@ export const mangas = [
       },
     },
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
   },
   {
     _type: 'manga',
@@ -841,6 +877,8 @@ export const mangas = [
       },
     },
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
   },
   {
     _type: 'manga',
@@ -886,6 +924,8 @@ export const mangas = [
       },
     },
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
   },
   {
     _type: 'manga',
@@ -931,6 +971,8 @@ export const mangas = [
       },
     },
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
   },
   {
     _type: 'manga',
@@ -978,6 +1020,8 @@ export const mangas = [
       },
     },
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
   },
   {
     _type: 'manga',
@@ -1023,6 +1067,8 @@ export const mangas = [
       },
     },
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
   },
   {
     _type: 'manga',
@@ -1068,6 +1114,8 @@ export const mangas = [
       },
     },
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
   },
   {
     _type: 'manga',
@@ -1112,6 +1160,8 @@ export const mangas = [
       },
     },
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
   },
   {
     _type: 'manga',
@@ -1156,6 +1206,8 @@ export const mangas = [
       },
     },
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
   },
   {
     _type: 'manga',
@@ -1200,6 +1252,8 @@ export const mangas = [
       },
     },
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
   },
   {
     _type: 'manga',
@@ -1238,6 +1292,8 @@ export const mangas = [
       },
     },
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
   },
   {
     _type: 'manga',
@@ -1283,6 +1339,8 @@ export const mangas = [
       },
     },
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
   },
   {
     _type: 'manga',
@@ -1330,6 +1388,8 @@ export const mangas = [
       },
     },
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
   },
   {
     _type: 'manga',
@@ -1377,6 +1437,8 @@ export const mangas = [
       },
     },
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
   },
   {
     _type: 'manga',
@@ -1421,6 +1483,8 @@ export const mangas = [
       },
     },
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
   },
   {
     _type: 'manga',
@@ -1465,6 +1529,8 @@ export const mangas = [
       },
     },
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
   },
   {
     _type: 'manga',
@@ -1512,6 +1578,8 @@ export const mangas = [
       },
     },
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
   },
   {
     _type: 'manga',
@@ -1556,6 +1624,8 @@ export const mangas = [
       },
     },
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
   },
   {
     _type: 'manga',
@@ -1602,6 +1672,8 @@ export const mangas = [
       },
     },
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
   },
   {
     _type: 'manga',
@@ -1647,6 +1719,8 @@ export const mangas = [
       },
     },
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
   },
   {
     _type: 'manga',
@@ -1692,6 +1766,8 @@ export const mangas = [
       },
     },
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
   },
   {
     _type: 'manga',
@@ -1737,6 +1813,8 @@ export const mangas = [
       },
     },
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
   },
   {
     _type: 'manga',
@@ -1782,6 +1860,8 @@ export const mangas = [
       },
     },
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
   },
   {
     _type: 'manga',
@@ -1828,6 +1908,8 @@ export const mangas = [
       },
     },
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
   },
   {
     _type: 'manga',
@@ -1872,6 +1954,8 @@ export const mangas = [
       },
     },
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
   },
   {
     _type: 'manga',
@@ -1915,6 +1999,8 @@ export const mangas = [
       },
     },
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
   },
   {
     _type: 'manga',
@@ -1960,6 +2046,8 @@ export const mangas = [
       },
     },
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
   },
   {
     _type: 'manga',
@@ -2006,6 +2094,8 @@ export const mangas = [
       },
     },
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
   },
   {
     _type: 'manga',
@@ -2051,6 +2141,8 @@ export const mangas = [
       },
     },
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
   },
   {
     _type: 'manga',
@@ -2094,6 +2186,8 @@ export const mangas = [
       },
     },
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
   },
   {
     _type: 'manga',
@@ -2138,6 +2232,8 @@ export const mangas = [
       },
     },
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
   },
   {
     _type: 'manga',
@@ -2182,6 +2278,8 @@ export const mangas = [
       },
     },
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
   },
   {
     _type: 'manga',
@@ -2226,6 +2324,8 @@ export const mangas = [
       },
     },
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
   },
   {
     _type: 'manga',
@@ -2278,6 +2378,8 @@ export const mangas = [
       },
     },
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
   },
   {
     _type: 'manga',
@@ -2331,6 +2433,8 @@ export const mangas = [
       },
     },
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
   },
   {
     _type: 'manga',
@@ -2383,6 +2487,8 @@ export const mangas = [
       },
     },
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
   },
   {
     _type: 'manga',
@@ -2426,6 +2532,8 @@ export const mangas = [
       },
     },
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
   },
   {
     _type: 'manga',
@@ -2470,6 +2578,8 @@ export const mangas = [
       },
     },
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
   },
   {
     _type: 'manga',
@@ -2516,6 +2626,8 @@ export const mangas = [
       },
     },
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
   },
   {
     _type: 'manga',
@@ -2559,6 +2671,8 @@ export const mangas = [
       },
     },
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
   },
   {
     _type: 'manga',
@@ -2603,6 +2717,8 @@ export const mangas = [
       },
     },
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
   },
   {
     _type: 'manga',
@@ -2647,6 +2763,8 @@ export const mangas = [
       },
     },
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
   },
   {
     _type: 'manga',
@@ -2691,6 +2809,8 @@ export const mangas = [
       },
     },
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
   },
   {
     _type: 'manga',
@@ -2737,6 +2857,8 @@ export const mangas = [
       },
     },
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
   },
   {
     _type: 'manga',
@@ -2781,6 +2903,8 @@ export const mangas = [
       },
     },
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
   },
   {
     _type: 'manga',
@@ -2820,6 +2944,8 @@ export const mangas = [
       },
     },
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
   },
   {
     _type: 'manga',
@@ -2860,6 +2986,8 @@ export const mangas = [
       },
     },
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
   },
   {
     _type: 'manga',
@@ -2903,6 +3031,8 @@ export const mangas = [
       },
     },
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
   },
   {
     _type: 'manga',
@@ -2943,6 +3073,8 @@ export const mangas = [
       },
     },
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
   },
   {
     _type: 'manga',
@@ -2986,6 +3118,8 @@ export const mangas = [
       },
     },
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
   },
   {
     _type: 'manga',
@@ -3026,6 +3160,8 @@ export const mangas = [
       },
     },
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
   },
   {
     _type: 'manga',
@@ -3066,6 +3202,8 @@ export const mangas = [
       },
     },
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
   },
   {
     _type: 'manga',
@@ -3106,6 +3244,8 @@ export const mangas = [
       },
     },
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
   },
   {
     _type: 'manga',
@@ -3146,6 +3286,8 @@ export const mangas = [
       },
     },
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
   },
   {
     _type: 'manga',
@@ -3186,6 +3328,8 @@ export const mangas = [
       },
     },
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
   },
   {
     _type: 'manga',
@@ -3226,5 +3370,7 @@ export const mangas = [
       },
     },
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
   },
 ];

@@ -4,6 +4,8 @@ export type ComicView =
   | 'read'
   | 'readlist'
   | 'owned'
+  | 'borrowed'
+  | 'loaned'
   | 'toReRead'
   | 'sagas'
   | 'recommendations';
@@ -35,6 +37,8 @@ export const comicViewOptions: { value: ComicView; label: string }[] = [
   { value: 'read', label: 'Comics lus' },
   { value: 'readlist', label: 'Comics à lire' },
   { value: 'owned', label: 'Comics possédés' },
+  { value: 'borrowed', label: 'Comics empruntés' },
+  { value: 'loaned', label: 'Comics prêtés' },
   { value: 'toReRead', label: 'À relire' },
   { value: 'sagas', label: 'Voir par saga' },
   { value: 'recommendations', label: 'Recommandations' },
@@ -170,7 +174,13 @@ export const getComicsBySaga = ({
     baseBySaga.set(sagaName, list);
   }
 
-  const groups = Array.from(sagaMap.entries()).map(([saga, readComics]) => {
+  const allSagaNames = new Set<string>([
+    ...sagaMap.keys(),
+    ...baseBySaga.keys(),
+  ]);
+
+  const groups = Array.from(allSagaNames).map((saga) => {
+    const readComics = sagaMap.get(saga) ?? [];
     const sortedRead = [...readComics].sort((a, b) => {
       const orderA = a.sagaOrder ?? 0;
       const orderB = b.sagaOrder ?? 0;

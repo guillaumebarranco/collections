@@ -26,7 +26,8 @@ type AddBookUserForm = {
   firstReadDate: string;
   lastReadDate: string;
   owned: boolean;
-  borrowed: boolean;
+  borrowed: string;
+  loaned: string;
   readPriority: number;
   ratingComment: string;
 };
@@ -72,7 +73,8 @@ export class AddBookComponent {
     firstReadDate: '',
     lastReadDate: '',
     owned: false,
-    borrowed: false,
+    borrowed: '',
+    loaned: '',
     readPriority: 1,
     ratingComment: '',
   });
@@ -127,7 +129,7 @@ export class AddBookComponent {
     });
   }
 
-  updateUserCheckbox(field: 'owned' | 'borrowed', checked: boolean) {
+  updateUserCheckbox(field: 'owned', checked: boolean) {
     const current = this.userForm();
     this.userForm.set({
       ...current,

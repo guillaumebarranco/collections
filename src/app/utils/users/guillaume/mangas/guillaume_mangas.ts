@@ -11,6 +11,8 @@ export const guillaumeMangas: UserMangas = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
   },
   {
     title: 'Kingdom',
@@ -22,6 +24,8 @@ export const guillaumeMangas: UserMangas = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
   },
   {
     title: 'Eyeshield 21',
@@ -33,6 +37,8 @@ export const guillaumeMangas: UserMangas = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
   },
   {
     title: 'My Hero Academia',
@@ -44,6 +50,8 @@ export const guillaumeMangas: UserMangas = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
   },
   {
     title: 'Black Clover',
@@ -55,6 +63,8 @@ export const guillaumeMangas: UserMangas = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
   },
   {
     title: 'Nisekoi',
@@ -66,6 +76,8 @@ export const guillaumeMangas: UserMangas = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
   },
   {
     title: 'Dreamland',
@@ -77,6 +89,8 @@ export const guillaumeMangas: UserMangas = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
   },
   {
     title: 'Saru Lock',
@@ -88,6 +102,8 @@ export const guillaumeMangas: UserMangas = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
   },
   {
     title: 'Pretty Face',
@@ -99,6 +115,8 @@ export const guillaumeMangas: UserMangas = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
   },
   {
     title: 'Dragon Ball',
@@ -110,6 +128,8 @@ export const guillaumeMangas: UserMangas = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
   },
   {
     title: 'Dragon Ball Super',
@@ -121,6 +141,8 @@ export const guillaumeMangas: UserMangas = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
   },
   {
     title: 'OnePunch-Man',
@@ -132,6 +154,8 @@ export const guillaumeMangas: UserMangas = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
   },
   {
     title: 'GTO',
@@ -143,6 +167,8 @@ export const guillaumeMangas: UserMangas = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
   },
   {
     title: 'Captain Tsubasa',
@@ -154,6 +180,8 @@ export const guillaumeMangas: UserMangas = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
   },
   {
     title: 'Slam Dunk',
@@ -165,6 +193,8 @@ export const guillaumeMangas: UserMangas = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
   },
   {
     title: "Darwin's Game",
@@ -176,6 +206,8 @@ export const guillaumeMangas: UserMangas = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
   },
   {
     title: 'Hikaru No Go',
@@ -187,6 +219,8 @@ export const guillaumeMangas: UserMangas = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
   },
   {
     title: 'Rave',
@@ -198,6 +232,8 @@ export const guillaumeMangas: UserMangas = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
   },
   {
     title: 'Kuroko No Basket',
@@ -209,6 +245,8 @@ export const guillaumeMangas: UserMangas = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
   },
   {
     title: 'Code:breaker',
@@ -220,6 +258,8 @@ export const guillaumeMangas: UserMangas = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
   },
   {
     title: 'Bakuman',
@@ -231,6 +271,8 @@ export const guillaumeMangas: UserMangas = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    borrowed: '',
+    loaned: 'Amine',
   },
   {
     title: 'Jackals',
@@ -242,6 +284,8 @@ export const guillaumeMangas: UserMangas = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
   },
   {
     title: 'Magi The Labyrinth of Magic',
@@ -253,6 +297,8 @@ export const guillaumeMangas: UserMangas = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
   },
   {
     title: 'Fullmetal Alchemist',
@@ -264,6 +310,8 @@ export const guillaumeMangas: UserMangas = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
   },
   {
     title: 'Ginga Patrol Jako',
@@ -275,6 +323,8 @@ export const guillaumeMangas: UserMangas = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
   },
   {
     title: 'Gamble fish',
@@ -286,6 +336,8 @@ export const guillaumeMangas: UserMangas = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
   },
   {
     title: 'Tonari no Seki-kun',
@@ -297,6 +349,8 @@ export const guillaumeMangas: UserMangas = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
   },
   {
     title: 'Puella Magi Madoka Magica',
@@ -308,6 +362,8 @@ export const guillaumeMangas: UserMangas = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
   },
   {
     title: 'Nanatsu No Taizai',
@@ -319,6 +375,8 @@ export const guillaumeMangas: UserMangas = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
   },
   {
     title: 'Black Cat',
@@ -330,6 +388,8 @@ export const guillaumeMangas: UserMangas = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
   },
   {
     title: 'Shaman king',
@@ -341,6 +401,8 @@ export const guillaumeMangas: UserMangas = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
   },
   {
     title: 'Doubt',
@@ -352,6 +414,8 @@ export const guillaumeMangas: UserMangas = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
   },
   {
     title: 'Shokugeki no Soma',
@@ -363,6 +427,8 @@ export const guillaumeMangas: UserMangas = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
   },
   {
     title: 'Blue Dragon : Ral Ω Grad',
@@ -374,6 +440,8 @@ export const guillaumeMangas: UserMangas = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
   },
   {
     title: 'One Piece',
@@ -385,6 +453,8 @@ export const guillaumeMangas: UserMangas = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
   },
   {
     title: 'Kenshin le Vagabond',
@@ -396,6 +466,8 @@ export const guillaumeMangas: UserMangas = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
   },
   {
     title: 'Feng Shen Ji',
@@ -407,6 +479,8 @@ export const guillaumeMangas: UserMangas = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
   },
   {
     title: 'Toriko',
@@ -418,6 +492,8 @@ export const guillaumeMangas: UserMangas = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
   },
   {
     title: 'Satan 666',
@@ -429,6 +505,8 @@ export const guillaumeMangas: UserMangas = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
   },
   {
     title: 'Worst',
@@ -440,6 +518,8 @@ export const guillaumeMangas: UserMangas = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
   },
   {
     title: 'Akame Ga Kill',
@@ -451,6 +531,8 @@ export const guillaumeMangas: UserMangas = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
   },
   {
     title: 'Death Note',
@@ -462,6 +544,8 @@ export const guillaumeMangas: UserMangas = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
   },
   {
     title: 'Assassination Classroom',
@@ -473,6 +557,8 @@ export const guillaumeMangas: UserMangas = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
   },
   {
     title: 'Karate Shoukoushi Kohinata Minoru',
@@ -484,6 +570,8 @@ export const guillaumeMangas: UserMangas = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
   },
   {
     title: 'Hunter X Hunter',
@@ -495,6 +583,8 @@ export const guillaumeMangas: UserMangas = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
   },
   {
     title: 'Beelzebub',
@@ -506,6 +596,8 @@ export const guillaumeMangas: UserMangas = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    borrowed: '',
+    loaned: 'Aelys',
   },
   {
     title: "L'attaque des titans",
@@ -517,6 +609,8 @@ export const guillaumeMangas: UserMangas = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
   },
   {
     title: 'Claymore',
@@ -528,6 +622,8 @@ export const guillaumeMangas: UserMangas = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
   },
   {
     title: 'Ashita No Joe',
@@ -539,6 +635,8 @@ export const guillaumeMangas: UserMangas = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
   },
   {
     title: 'Gamaran',
@@ -550,6 +648,8 @@ export const guillaumeMangas: UserMangas = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
   },
   {
     title: 'Terra Formars',
@@ -561,6 +661,8 @@ export const guillaumeMangas: UserMangas = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
   },
   {
     title: 'World Trigger',
@@ -572,6 +674,8 @@ export const guillaumeMangas: UserMangas = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
   },
   {
     title: 'The Breaker',
@@ -583,6 +687,8 @@ export const guillaumeMangas: UserMangas = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
   },
   {
     title: 'Asu No Yoichi',
@@ -594,6 +700,8 @@ export const guillaumeMangas: UserMangas = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
   },
   {
     title: 'Ken-ichi, le disciple ultime',
@@ -605,6 +713,8 @@ export const guillaumeMangas: UserMangas = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
   },
   {
     title: 'Yu-Gi-Oh!',
@@ -616,6 +726,8 @@ export const guillaumeMangas: UserMangas = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
   },
   {
     title: 'Bleach',
@@ -627,6 +739,8 @@ export const guillaumeMangas: UserMangas = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
   },
   {
     title: 'Lui Ou Rien !',
@@ -638,6 +752,8 @@ export const guillaumeMangas: UserMangas = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
   },
   {
     title: 'All You Need Is Kill',
@@ -649,6 +765,8 @@ export const guillaumeMangas: UserMangas = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
   },
   {
     title: 'Crows',
@@ -660,6 +778,8 @@ export const guillaumeMangas: UserMangas = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
   },
   {
     title: 'Détective Conan',
@@ -671,6 +791,8 @@ export const guillaumeMangas: UserMangas = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
   },
   {
     title: 'Hinomaru Zumou',
@@ -682,6 +804,8 @@ export const guillaumeMangas: UserMangas = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
   },
   {
     title: 'Haikyū!!',
@@ -693,6 +817,8 @@ export const guillaumeMangas: UserMangas = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
   },
   {
     title: 'The Promised Neverland',
@@ -704,6 +830,8 @@ export const guillaumeMangas: UserMangas = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
   },
   {
     title: 'Gunnm',
@@ -715,6 +843,8 @@ export const guillaumeMangas: UserMangas = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
   },
   {
     title: 'Hajime no Ippo',
@@ -726,6 +856,8 @@ export const guillaumeMangas: UserMangas = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
   },
   {
     title: 'Vagabond',
@@ -737,6 +869,8 @@ export const guillaumeMangas: UserMangas = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
   },
   {
     title: 'Ken le Survivant',
@@ -748,6 +882,8 @@ export const guillaumeMangas: UserMangas = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
   },
   {
     title: 'Captain Tsubasa : World Youth',
@@ -759,6 +895,8 @@ export const guillaumeMangas: UserMangas = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
   },
   {
     title: 'Captain Tsubasa: Road to 2002',
@@ -770,6 +908,8 @@ export const guillaumeMangas: UserMangas = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
   },
   {
     title: 'Captain Tsubasa: Golden 23',
@@ -781,6 +921,8 @@ export const guillaumeMangas: UserMangas = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
   },
   {
     title: 'Captain Tsubasa: Rising Sun',
@@ -792,6 +934,8 @@ export const guillaumeMangas: UserMangas = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
   },
   {
     title: 'Platinum End',
@@ -803,6 +947,8 @@ export const guillaumeMangas: UserMangas = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
   },
   {
     title: 'The Legend Of Zelda',
@@ -814,5 +960,7 @@ export const guillaumeMangas: UserMangas = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
   },
 ];

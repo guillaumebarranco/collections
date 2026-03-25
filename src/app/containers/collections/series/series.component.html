@@ -255,6 +255,26 @@
       <label class="series-config-option">
         <input
           type="checkbox"
+          [checked]="optionalViewConfig().borrowed"
+          (change)="
+            onOptionalViewChange('borrowed', $any($event.target).checked)
+          "
+        />
+        Séries empruntées
+      </label>
+      <label class="series-config-option">
+        <input
+          type="checkbox"
+          [checked]="optionalViewConfig().loaned"
+          (change)="
+            onOptionalViewChange('loaned', $any($event.target).checked)
+          "
+        />
+        Séries prêtées
+      </label>
+      <label class="series-config-option">
+        <input
+          type="checkbox"
           [checked]="optionalViewConfig().toReWatch"
           (change)="
             onOptionalViewChange('toReWatch', $any($event.target).checked)

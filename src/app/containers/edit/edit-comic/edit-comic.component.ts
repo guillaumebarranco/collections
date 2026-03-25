@@ -27,6 +27,8 @@ type EditComicForm = {
   readTimes: number;
   readDate: string;
   owned: boolean;
+  borrowed: string;
+  loaned: string;
   wantToReadAgain: boolean;
   ratingComment: string;
 };
@@ -234,6 +236,8 @@ export class EditComicComponent {
           readTimes: form.readTimes,
           readDate: form.readDate,
           owned: form.owned,
+          borrowed: form.borrowed,
+          loaned: form.loaned,
           wantToReadAgain: form.wantToReadAgain,
           ratingComment: form.ratingComment ?? '',
           entity: this.isAdminView()
@@ -425,6 +429,8 @@ export class EditComicComponent {
       readTimes: comic.readTimes || 0,
       readDate: comic.readDate,
       owned: comic.owned,
+      borrowed: comic.borrowed ?? '',
+      loaned: comic.loaned ?? '',
       wantToReadAgain: comic.wantToReadAgain ?? false,
       ratingComment: comic.ratingComment ?? '',
     };

@@ -100,6 +100,8 @@ ${formatSeasons(seasons)}
     watchPriority: ${serie.watchPriority ?? 1},
     wantToWatchAgain: false,
     ratingComment: '${escapeString(ratingComment)}',
+    borrowed: '${escapeString(typeof serie.borrowed === 'string' ? serie.borrowed : '')}',
+    loaned: '${escapeString(typeof serie.loaned === 'string' ? serie.loaned : '')}',
   },`;
 }
 

@@ -38,7 +38,11 @@
     <span class="missing-badge">{{ recommendationBadge }}</span>
     } @if (book.borrowed && !isBaseEntityView) {
     <span class="missing-badge" style="background-color: #9c27b0; color: white"
-      >Prêté</span
+      >Emprunté à {{ book.borrowed }}</span
+    >
+    } @if (book.loaned && !isBaseEntityView) {
+    <span class="missing-badge" style="background-color: #00695c; color: white"
+      >Prêté à {{ book.loaned }}</span
     >
     } @if (book.wantToReadAgain && !isBaseEntityView) {
     <span class="missing-badge" style="background-color: #2196f3; color: white"
@@ -77,17 +81,15 @@
     <p class="book-pages">
       <span>{{ book.pages }}</span> pages
     </p>
-    } @if ((book.lastReadDate || book.firstReadDate).includes('-') && !isBaseEntityView) {
+    } @if ((book.lastReadDate || book.firstReadDate).includes('-') &&
+    !isBaseEntityView) {
     <p class="book-read-times">
-      Lu le {{ (book.lastReadDate || book.firstReadDate) | date : "dd/MM/yyyy" }}
+      Lu le {{ book.lastReadDate || book.firstReadDate | date : "dd/MM/yyyy" }}
     </p>
     } @if (book.readTimes && book.readTimes > 1 && !isBaseEntityView) {
     <p class="book-read-times">Lu {{ book.readTimes }} fois</p>
-    } @if (
-      !isBaseEntityView ||
-      (showAddToMyReadlist &&
-        (canAddToMyReadlist || canAddAsRead))
-    ) {
+    } @if ( !isBaseEntityView || (showAddToMyReadlist && (canAddToMyReadlist ||
+    canAddAsRead)) ) {
     <app-entity-card-rating-and-buttons
       [entityData]="getEntityData()"
       [recommendationText]="recommendationText"

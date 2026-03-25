@@ -42,6 +42,8 @@ export const manwhas = [
       },
     },
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
   },
   {
     _type: 'manga',
@@ -85,6 +87,8 @@ export const manwhas = [
       },
     },
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
   },
   {
     _type: 'manga',
@@ -137,6 +141,8 @@ export const manwhas = [
       },
     },
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
   },
   {
     _type: 'manga',
@@ -184,6 +190,8 @@ export const manwhas = [
       },
     },
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
   },
   {
     _type: 'manga',
@@ -228,6 +236,8 @@ export const manwhas = [
       },
     },
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
   },
   {
     _type: 'manga',
@@ -273,6 +283,8 @@ export const manwhas = [
       },
     },
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
   },
   {
     _type: 'manga',
@@ -318,6 +330,8 @@ export const manwhas = [
       },
     },
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
   },
   {
     _type: 'manga',
@@ -358,6 +372,8 @@ export const manwhas = [
       },
     },
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
   },
   {
     _type: 'manga',
@@ -398,6 +414,8 @@ export const manwhas = [
       },
     },
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
   },
   {
     _type: 'manga',
@@ -438,6 +456,8 @@ export const manwhas = [
       },
     },
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
   },
   {
     _type: 'manga',
@@ -478,6 +498,8 @@ export const manwhas = [
       },
     },
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
   },
   {
     _type: 'manga',
@@ -518,6 +540,8 @@ export const manwhas = [
       },
     },
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
   },
   {
     _type: 'manga',
@@ -561,6 +585,8 @@ export const manwhas = [
       },
     },
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
   },
   {
     _type: 'manga',
@@ -601,6 +627,8 @@ export const manwhas = [
       },
     },
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
   },
   {
     _type: 'manga',
@@ -644,5 +672,7 @@ export const manwhas = [
       },
     },
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
   },
 ];

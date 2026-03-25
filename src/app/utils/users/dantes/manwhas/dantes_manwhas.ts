@@ -11,5 +11,7 @@ export const dantesManwhas: UserManwha[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
   },
 ];

@@ -29,7 +29,8 @@ type EditBookForm = {
   firstReadDate: string;
   lastReadDate: string;
   owned: boolean;
-  borrowed: boolean;
+  borrowed: string;
+  loaned: string;
   readPriority: number;
   sagaFinished: boolean;
   wantToReadAgain: boolean;
@@ -168,7 +169,7 @@ export class EditBookComponent {
   }
 
   updateCheckbox(
-    field: 'owned' | 'borrowed' | 'wantToReadAgain',
+    field: 'owned' | 'wantToReadAgain',
     checked: boolean
   ) {
     const current = this.bookForm();
@@ -260,6 +261,7 @@ export class EditBookComponent {
           lastReadDate: form.lastReadDate,
           owned: form.owned,
           borrowed: form.borrowed,
+          loaned: form.loaned,
           readPriority: form.readPriority,
           wantToReadAgain: form.wantToReadAgain,
           ratingComment: form.ratingComment ?? '',
@@ -453,7 +455,8 @@ export class EditBookComponent {
       firstReadDate: book.firstReadDate,
       lastReadDate: book.lastReadDate,
       owned: book.owned,
-      borrowed: book.borrowed ?? false,
+      borrowed: book.borrowed ?? '',
+      loaned: book.loaned ?? '',
       readPriority: book.readPriority ?? 0,
       sagaFinished: book.sagaFinished,
       wantToReadAgain: book.wantToReadAgain ?? false,

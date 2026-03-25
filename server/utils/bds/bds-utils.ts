@@ -130,6 +130,16 @@ function parseBdsFromFile(content: string): any[] {
             wantToReadAgain:
               parseBooleanField(objectText, 'wantToReadAgain') ?? false,
             ratingComment: parseStringField(objectText, 'ratingComment') ?? '',
+            borrowed:
+              parseStringField(objectText, 'borrowed') ??
+              ((parseBooleanField(objectText, 'borrowed') ?? false)
+                ? 'Inconnu'
+                : ''),
+            loaned:
+              parseStringField(objectText, 'loaned') ??
+              ((parseBooleanField(objectText, 'loaned') ?? false)
+                ? 'Inconnu'
+                : ''),
           });
         }
       }
@@ -273,6 +283,8 @@ function updateBdInFile(filePath: string, bdData: any): boolean {
     readPriority: ${bd.readPriority ?? 1},
     wantToReadAgain: ${bd.wantToReadAgain ?? false},
     ratingComment: '${escapeString(bd.ratingComment || '')}',
+    borrowed: '${escapeString(bd.borrowed || '')}',
+    loaned: '${escapeString(bd.loaned || '')}',
   }`
     )
     .join(',\n');
@@ -326,6 +338,8 @@ function updateBdIdentityInFile(filePath: string, bdData: any): boolean {
     readPriority: ${bd.readPriority ?? 1},
     wantToReadAgain: ${bd.wantToReadAgain ?? false},
     ratingComment: '${escapeString(bd.ratingComment || '')}',
+    borrowed: '${escapeString(bd.borrowed || '')}',
+    loaned: '${escapeString(bd.loaned || '')}',
   }`
     )
     .join(',\n');
@@ -444,6 +458,8 @@ function removeBdFromFile(content: string, payload: any): string {
     readPriority: ${bd.readPriority ?? 1},
     wantToReadAgain: ${bd.wantToReadAgain ?? false},
     ratingComment: '${escapeString(bd.ratingComment || '')}',
+    borrowed: '${escapeString(bd.borrowed || '')}',
+    loaned: '${escapeString(bd.loaned || '')}',
   }`
     )
     .join(',\n');

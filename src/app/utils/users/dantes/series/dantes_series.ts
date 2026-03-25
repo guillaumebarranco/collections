@@ -10,12 +10,14 @@ export const dantesSeries: UserSerie[] = [
         seasonRating: 0,
         seasonTimesWatched: 0,
         lastViewedDate: '',
-      }
+      },
     ],
     owned: false,
     watchPriority: 1,
     wantToWatchAgain: false,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
   },
 
   {
@@ -51,12 +53,14 @@ export const dantesSeries: UserSerie[] = [
         seasonRating: 0,
         seasonTimesWatched: 0,
         lastViewedDate: '',
-      }
+      },
     ],
     owned: false,
     watchPriority: 1,
     wantToWatchAgain: false,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
   },
 
   {
@@ -110,12 +114,14 @@ export const dantesSeries: UserSerie[] = [
         seasonRating: 0,
         seasonTimesWatched: 0,
         lastViewedDate: '',
-      }
+      },
     ],
     owned: false,
     watchPriority: 1,
     wantToWatchAgain: false,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
   },
 
   {
@@ -169,12 +175,14 @@ export const dantesSeries: UserSerie[] = [
         seasonRating: 0,
         seasonTimesWatched: 0,
         lastViewedDate: '',
-      }
+      },
     ],
     owned: false,
     watchPriority: 1,
     wantToWatchAgain: false,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
   },
 
   {
@@ -210,12 +218,14 @@ export const dantesSeries: UserSerie[] = [
         seasonRating: 0,
         seasonTimesWatched: 0,
         lastViewedDate: '',
-      }
+      },
     ],
     owned: false,
     watchPriority: 1,
     wantToWatchAgain: false,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
   },
 
   {
@@ -245,12 +255,14 @@ export const dantesSeries: UserSerie[] = [
         seasonRating: 0,
         seasonTimesWatched: 0,
         lastViewedDate: '',
-      }
+      },
     ],
     owned: false,
     watchPriority: 1,
     wantToWatchAgain: false,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
   },
 
   {
@@ -262,12 +274,14 @@ export const dantesSeries: UserSerie[] = [
         seasonRating: 0,
         seasonTimesWatched: 0,
         lastViewedDate: '',
-      }
+      },
     ],
     owned: false,
     watchPriority: 1,
     wantToWatchAgain: false,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
   },
 
   {
@@ -327,12 +341,14 @@ export const dantesSeries: UserSerie[] = [
         seasonRating: 0,
         seasonTimesWatched: 0,
         lastViewedDate: '',
-      }
+      },
     ],
     owned: false,
     watchPriority: 1,
     wantToWatchAgain: false,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
   },
 
   {
@@ -362,12 +378,14 @@ export const dantesSeries: UserSerie[] = [
         seasonRating: 0,
         seasonTimesWatched: 0,
         lastViewedDate: '',
-      }
+      },
     ],
     owned: false,
     watchPriority: 1,
     wantToWatchAgain: false,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
   },
 
   {
@@ -379,12 +397,14 @@ export const dantesSeries: UserSerie[] = [
         seasonRating: 0,
         seasonTimesWatched: 0,
         lastViewedDate: '',
-      }
+      },
     ],
     owned: false,
     watchPriority: 1,
     wantToWatchAgain: false,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
   },
 
   {
@@ -408,12 +428,14 @@ export const dantesSeries: UserSerie[] = [
         seasonRating: 0,
         seasonTimesWatched: 0,
         lastViewedDate: '',
-      }
+      },
     ],
     owned: false,
     watchPriority: 1,
     wantToWatchAgain: false,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
   },
 
   {
@@ -431,12 +453,14 @@ export const dantesSeries: UserSerie[] = [
         seasonRating: 0,
         seasonTimesWatched: 0,
         lastViewedDate: '',
-      }
+      },
     ],
     owned: false,
     watchPriority: 1,
     wantToWatchAgain: false,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
   },
 
   {
@@ -448,12 +472,14 @@ export const dantesSeries: UserSerie[] = [
         seasonRating: 0,
         seasonTimesWatched: 0,
         lastViewedDate: '',
-      }
+      },
     ],
     owned: false,
     watchPriority: 1,
     wantToWatchAgain: false,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
   },
 
   {
@@ -531,12 +557,14 @@ export const dantesSeries: UserSerie[] = [
         seasonRating: 0,
         seasonTimesWatched: 0,
         lastViewedDate: '',
-      }
+      },
     ],
     owned: false,
     watchPriority: 1,
     wantToWatchAgain: false,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
   },
 
   {
@@ -566,12 +594,14 @@ export const dantesSeries: UserSerie[] = [
         seasonRating: 0,
         seasonTimesWatched: 0,
         lastViewedDate: '',
-      }
+      },
     ],
     owned: false,
     watchPriority: 1,
     wantToWatchAgain: false,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
   },
 
   {
@@ -613,12 +643,14 @@ export const dantesSeries: UserSerie[] = [
         seasonRating: 0,
         seasonTimesWatched: 0,
         lastViewedDate: '',
-      }
+      },
     ],
     owned: false,
     watchPriority: 1,
     wantToWatchAgain: false,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
   },
 
   {
@@ -756,12 +788,14 @@ export const dantesSeries: UserSerie[] = [
         seasonRating: 0,
         seasonTimesWatched: 0,
         lastViewedDate: '',
-      }
+      },
     ],
     owned: false,
     watchPriority: 1,
     wantToWatchAgain: false,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
   },
 
   {
@@ -899,12 +933,14 @@ export const dantesSeries: UserSerie[] = [
         seasonRating: 0,
         seasonTimesWatched: 0,
         lastViewedDate: '',
-      }
+      },
     ],
     owned: false,
     watchPriority: 1,
     wantToWatchAgain: false,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
   },
 
   {
@@ -982,16 +1018,18 @@ export const dantesSeries: UserSerie[] = [
         seasonRating: 0,
         seasonTimesWatched: 0,
         lastViewedDate: '',
-      }
+      },
     ],
     owned: false,
     watchPriority: 1,
     wantToWatchAgain: false,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
   },
 
   {
-    title: 'Bob l\'éponge',
+    title: "Bob l'éponge",
     director: 'Stephen Hillenburg',
     seasons: [
       {
@@ -1035,12 +1073,14 @@ export const dantesSeries: UserSerie[] = [
         seasonRating: 0,
         seasonTimesWatched: 0,
         lastViewedDate: '',
-      }
+      },
     ],
     owned: false,
     watchPriority: 1,
     wantToWatchAgain: false,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
   },
 
   {
@@ -1058,12 +1098,14 @@ export const dantesSeries: UserSerie[] = [
         seasonRating: 0,
         seasonTimesWatched: 0,
         lastViewedDate: '',
-      }
+      },
     ],
     owned: false,
     watchPriority: 1,
     wantToWatchAgain: false,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
   },
 
   {
@@ -1279,12 +1321,14 @@ export const dantesSeries: UserSerie[] = [
         seasonRating: 0,
         seasonTimesWatched: 0,
         lastViewedDate: '',
-      }
+      },
     ],
     owned: false,
     watchPriority: 1,
     wantToWatchAgain: false,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
   },
 
   {
@@ -1302,12 +1346,14 @@ export const dantesSeries: UserSerie[] = [
         seasonRating: 0,
         seasonTimesWatched: 0,
         lastViewedDate: '',
-      }
+      },
     ],
     owned: false,
     watchPriority: 1,
     wantToWatchAgain: false,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
   },
 
   {
@@ -1331,12 +1377,14 @@ export const dantesSeries: UserSerie[] = [
         seasonRating: 0,
         seasonTimesWatched: 0,
         lastViewedDate: '',
-      }
+      },
     ],
     owned: false,
     watchPriority: 1,
     wantToWatchAgain: false,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
   },
 
   {
@@ -1348,12 +1396,14 @@ export const dantesSeries: UserSerie[] = [
         seasonRating: 0,
         seasonTimesWatched: 0,
         lastViewedDate: '',
-      }
+      },
     ],
     owned: false,
     watchPriority: 1,
     wantToWatchAgain: false,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
   },
 
   {
@@ -1371,12 +1421,14 @@ export const dantesSeries: UserSerie[] = [
         seasonRating: 0,
         seasonTimesWatched: 0,
         lastViewedDate: '',
-      }
+      },
     ],
     owned: false,
     watchPriority: 1,
     wantToWatchAgain: false,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
   },
 
   {
@@ -1388,12 +1440,14 @@ export const dantesSeries: UserSerie[] = [
         seasonRating: 0,
         seasonTimesWatched: 0,
         lastViewedDate: '',
-      }
+      },
     ],
     owned: false,
     watchPriority: 1,
     wantToWatchAgain: false,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
   },
 
   {
@@ -1417,12 +1471,14 @@ export const dantesSeries: UserSerie[] = [
         seasonRating: 0,
         seasonTimesWatched: 0,
         lastViewedDate: '',
-      }
+      },
     ],
     owned: false,
     watchPriority: 1,
     wantToWatchAgain: false,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
   },
 
   {
@@ -1446,12 +1502,14 @@ export const dantesSeries: UserSerie[] = [
         seasonRating: 0,
         seasonTimesWatched: 0,
         lastViewedDate: '',
-      }
+      },
     ],
     owned: false,
     watchPriority: 1,
     wantToWatchAgain: false,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
   },
 
   {
@@ -1505,12 +1563,14 @@ export const dantesSeries: UserSerie[] = [
         seasonRating: 0,
         seasonTimesWatched: 0,
         lastViewedDate: '',
-      }
+      },
     ],
     owned: false,
     watchPriority: 1,
     wantToWatchAgain: false,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
   },
 
   {
@@ -1546,12 +1606,14 @@ export const dantesSeries: UserSerie[] = [
         seasonRating: 0,
         seasonTimesWatched: 0,
         lastViewedDate: '',
-      }
+      },
     ],
     owned: false,
     watchPriority: 1,
     wantToWatchAgain: false,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
   },
 
   {
@@ -1599,12 +1661,14 @@ export const dantesSeries: UserSerie[] = [
         seasonRating: 0,
         seasonTimesWatched: 0,
         lastViewedDate: '',
-      }
+      },
     ],
     owned: false,
     watchPriority: 1,
     wantToWatchAgain: false,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
   },
 
   {
@@ -1628,11 +1692,13 @@ export const dantesSeries: UserSerie[] = [
         seasonRating: 0,
         seasonTimesWatched: 0,
         lastViewedDate: '',
-      }
+      },
     ],
     owned: false,
     watchPriority: 1,
     wantToWatchAgain: false,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
   },
 ];

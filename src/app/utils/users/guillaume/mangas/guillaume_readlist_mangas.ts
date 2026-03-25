@@ -11,5 +11,7 @@ export const guillaumeReadListMangas: UserMangas = [
     readPriority: 2,
     wantToReadAgain: false,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
   },
 ];

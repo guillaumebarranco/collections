@@ -8,6 +8,8 @@ export const ronanGames: UserGames = [
     gamelistPriority: 1,
     wantToPlayAgain: false,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     sessions: [
       {
         finishedGame: true,
@@ -25,6 +27,8 @@ export const ronanGames: UserGames = [
     gamelistPriority: 1,
     wantToPlayAgain: false,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     sessions: [
       {
         finishedGame: true,
@@ -42,6 +46,8 @@ export const ronanGames: UserGames = [
     gamelistPriority: 1,
     wantToPlayAgain: false,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     sessions: [
       {
         finishedGame: false,
@@ -65,6 +71,8 @@ export const ronanGames: UserGames = [
     gamelistPriority: 1,
     wantToPlayAgain: false,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     sessions: [
       {
         finishedGame: true,
@@ -82,6 +90,8 @@ export const ronanGames: UserGames = [
     gamelistPriority: 1,
     wantToPlayAgain: false,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     sessions: [
       {
         finishedGame: true,
@@ -99,6 +109,8 @@ export const ronanGames: UserGames = [
     gamelistPriority: 1,
     wantToPlayAgain: false,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     sessions: [
       {
         finishedGame: true,
@@ -116,6 +128,8 @@ export const ronanGames: UserGames = [
     gamelistPriority: 1,
     wantToPlayAgain: false,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     sessions: [
       {
         finishedGame: false,
@@ -133,6 +147,8 @@ export const ronanGames: UserGames = [
     gamelistPriority: 1,
     wantToPlayAgain: false,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     sessions: [
       {
         finishedGame: true,
@@ -150,6 +166,8 @@ export const ronanGames: UserGames = [
     gamelistPriority: 1,
     wantToPlayAgain: false,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     sessions: [
       {
         finishedGame: true,
@@ -167,6 +185,8 @@ export const ronanGames: UserGames = [
     gamelistPriority: 1,
     wantToPlayAgain: false,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     sessions: [
       {
         finishedGame: false,
@@ -190,6 +210,8 @@ export const ronanGames: UserGames = [
     gamelistPriority: 1,
     wantToPlayAgain: true,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     sessions: [
       {
         finishedGame: true,
@@ -207,6 +229,8 @@ export const ronanGames: UserGames = [
     gamelistPriority: 1,
     wantToPlayAgain: true,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     sessions: [
       {
         finishedGame: false,
@@ -224,6 +248,8 @@ export const ronanGames: UserGames = [
     gamelistPriority: 1,
     wantToPlayAgain: false,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     sessions: [
       {
         finishedGame: false,
@@ -247,6 +273,8 @@ export const ronanGames: UserGames = [
     gamelistPriority: 1,
     wantToPlayAgain: true,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     sessions: [
       {
         finishedGame: false,
@@ -270,6 +298,8 @@ export const ronanGames: UserGames = [
     gamelistPriority: 1,
     wantToPlayAgain: false,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     sessions: [
       {
         finishedGame: false,
@@ -293,6 +323,8 @@ export const ronanGames: UserGames = [
     gamelistPriority: 1,
     wantToPlayAgain: false,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     sessions: [
       {
         finishedGame: false,
@@ -316,6 +348,8 @@ export const ronanGames: UserGames = [
     gamelistPriority: 1,
     wantToPlayAgain: false,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     sessions: [
       {
         finishedGame: false,
@@ -339,6 +373,8 @@ export const ronanGames: UserGames = [
     gamelistPriority: 1,
     wantToPlayAgain: false,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     sessions: [
       {
         finishedGame: false,
@@ -362,6 +398,8 @@ export const ronanGames: UserGames = [
     gamelistPriority: 1,
     wantToPlayAgain: false,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     sessions: [
       {
         finishedGame: false,
@@ -379,6 +417,8 @@ export const ronanGames: UserGames = [
     gamelistPriority: 1,
     wantToPlayAgain: false,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     sessions: [
       {
         finishedGame: false,
@@ -402,6 +442,8 @@ export const ronanGames: UserGames = [
     gamelistPriority: 1,
     wantToPlayAgain: false,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     sessions: [
       {
         finishedGame: false,
@@ -425,6 +467,8 @@ export const ronanGames: UserGames = [
     gamelistPriority: 1,
     wantToPlayAgain: true,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     sessions: [
       {
         finishedGame: false,
@@ -442,6 +486,8 @@ export const ronanGames: UserGames = [
     gamelistPriority: 1,
     wantToPlayAgain: true,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     sessions: [
       {
         finishedGame: true,
@@ -459,6 +505,8 @@ export const ronanGames: UserGames = [
     gamelistPriority: 1,
     wantToPlayAgain: false,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     sessions: [
       {
         finishedGame: true,
@@ -476,6 +524,8 @@ export const ronanGames: UserGames = [
     gamelistPriority: 1,
     wantToPlayAgain: false,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     sessions: [
       {
         finishedGame: true,
@@ -517,6 +567,8 @@ export const ronanGames: UserGames = [
     gamelistPriority: 1,
     wantToPlayAgain: false,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     sessions: [
       {
         finishedGame: true,
@@ -534,6 +586,8 @@ export const ronanGames: UserGames = [
     gamelistPriority: 1,
     wantToPlayAgain: false,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     sessions: [
       {
         finishedGame: false,
@@ -557,6 +611,8 @@ export const ronanGames: UserGames = [
     gamelistPriority: 1,
     wantToPlayAgain: false,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     sessions: [
       {
         finishedGame: false,
@@ -574,6 +630,8 @@ export const ronanGames: UserGames = [
     gamelistPriority: 1,
     wantToPlayAgain: false,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     sessions: [
       {
         finishedGame: false,
@@ -591,6 +649,8 @@ export const ronanGames: UserGames = [
     gamelistPriority: 1,
     wantToPlayAgain: false,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     sessions: [
       {
         finishedGame: false,
@@ -608,6 +668,8 @@ export const ronanGames: UserGames = [
     gamelistPriority: 1,
     wantToPlayAgain: true,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     sessions: [
       {
         finishedGame: true,
@@ -625,6 +687,8 @@ export const ronanGames: UserGames = [
     gamelistPriority: 1,
     wantToPlayAgain: false,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     sessions: [
       {
         finishedGame: false,
@@ -642,6 +706,8 @@ export const ronanGames: UserGames = [
     gamelistPriority: 1,
     wantToPlayAgain: false,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     sessions: [
       {
         finishedGame: false,
@@ -659,6 +725,8 @@ export const ronanGames: UserGames = [
     gamelistPriority: 1,
     wantToPlayAgain: false,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     sessions: [
       {
         finishedGame: false,
@@ -682,6 +750,8 @@ export const ronanGames: UserGames = [
     gamelistPriority: 1,
     wantToPlayAgain: false,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     sessions: [
       {
         finishedGame: true,
@@ -699,6 +769,8 @@ export const ronanGames: UserGames = [
     gamelistPriority: 1,
     wantToPlayAgain: false,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     sessions: [
       {
         finishedGame: false,
@@ -716,6 +788,8 @@ export const ronanGames: UserGames = [
     gamelistPriority: 1,
     wantToPlayAgain: false,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     sessions: [
       {
         finishedGame: true,
@@ -733,6 +807,8 @@ export const ronanGames: UserGames = [
     gamelistPriority: 1,
     wantToPlayAgain: false,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     sessions: [
       {
         finishedGame: false,
@@ -762,6 +838,8 @@ export const ronanGames: UserGames = [
     gamelistPriority: 1,
     wantToPlayAgain: false,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     sessions: [
       {
         finishedGame: false,
@@ -791,6 +869,8 @@ export const ronanGames: UserGames = [
     gamelistPriority: 1,
     wantToPlayAgain: false,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     sessions: [
       {
         finishedGame: false,
@@ -820,6 +900,8 @@ export const ronanGames: UserGames = [
     gamelistPriority: 1,
     wantToPlayAgain: false,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     sessions: [
       {
         finishedGame: false,
@@ -843,6 +925,8 @@ export const ronanGames: UserGames = [
     gamelistPriority: 1,
     wantToPlayAgain: false,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     sessions: [
       {
         finishedGame: false,
@@ -860,6 +944,8 @@ export const ronanGames: UserGames = [
     gamelistPriority: 1,
     wantToPlayAgain: false,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     sessions: [
       {
         finishedGame: false,
@@ -877,6 +963,8 @@ export const ronanGames: UserGames = [
     gamelistPriority: 1,
     wantToPlayAgain: false,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     sessions: [
       {
         finishedGame: false,
@@ -900,6 +988,8 @@ export const ronanGames: UserGames = [
     gamelistPriority: 1,
     wantToPlayAgain: false,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     sessions: [
       {
         finishedGame: false,
@@ -923,6 +1013,8 @@ export const ronanGames: UserGames = [
     gamelistPriority: 1,
     wantToPlayAgain: false,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     sessions: [
       {
         finishedGame: false,
@@ -946,6 +1038,8 @@ export const ronanGames: UserGames = [
     gamelistPriority: 1,
     wantToPlayAgain: false,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     sessions: [
       {
         finishedGame: false,
@@ -969,6 +1063,8 @@ export const ronanGames: UserGames = [
     gamelistPriority: 1,
     wantToPlayAgain: false,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     sessions: [
       {
         finishedGame: false,
@@ -992,6 +1088,8 @@ export const ronanGames: UserGames = [
     gamelistPriority: 1,
     wantToPlayAgain: false,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     sessions: [
       {
         finishedGame: false,
@@ -1015,6 +1113,8 @@ export const ronanGames: UserGames = [
     gamelistPriority: 1,
     wantToPlayAgain: false,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     sessions: [
       {
         finishedGame: false,
@@ -1032,6 +1132,8 @@ export const ronanGames: UserGames = [
     gamelistPriority: 1,
     wantToPlayAgain: false,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     sessions: [
       {
         finishedGame: false,
@@ -1049,6 +1151,8 @@ export const ronanGames: UserGames = [
     gamelistPriority: 1,
     wantToPlayAgain: false,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     sessions: [
       {
         finishedGame: false,
@@ -1066,6 +1170,8 @@ export const ronanGames: UserGames = [
     gamelistPriority: 1,
     wantToPlayAgain: false,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     sessions: [
       {
         finishedGame: false,
@@ -1083,6 +1189,8 @@ export const ronanGames: UserGames = [
     gamelistPriority: 1,
     wantToPlayAgain: false,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     sessions: [
       {
         finishedGame: false,
@@ -1100,6 +1208,8 @@ export const ronanGames: UserGames = [
     gamelistPriority: 1,
     wantToPlayAgain: true,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     sessions: [
       {
         finishedGame: false,
@@ -1141,6 +1251,8 @@ export const ronanGames: UserGames = [
     gamelistPriority: 1,
     wantToPlayAgain: true,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     sessions: [
       {
         finishedGame: false,
@@ -1170,6 +1282,8 @@ export const ronanGames: UserGames = [
     gamelistPriority: 1,
     wantToPlayAgain: true,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     sessions: [
       {
         finishedGame: false,
@@ -1199,6 +1313,8 @@ export const ronanGames: UserGames = [
     gamelistPriority: 1,
     wantToPlayAgain: true,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     sessions: [
       {
         finishedGame: true,
@@ -1222,6 +1338,8 @@ export const ronanGames: UserGames = [
     gamelistPriority: 1,
     wantToPlayAgain: false,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     sessions: [
       {
         finishedGame: true,
@@ -1239,6 +1357,8 @@ export const ronanGames: UserGames = [
     gamelistPriority: 1,
     wantToPlayAgain: false,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     sessions: [
       {
         finishedGame: true,
@@ -1256,6 +1376,8 @@ export const ronanGames: UserGames = [
     gamelistPriority: 1,
     wantToPlayAgain: false,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     sessions: [
       {
         finishedGame: false,
@@ -1273,6 +1395,8 @@ export const ronanGames: UserGames = [
     gamelistPriority: 1,
     wantToPlayAgain: false,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     sessions: [
       {
         finishedGame: false,
@@ -1290,6 +1414,8 @@ export const ronanGames: UserGames = [
     gamelistPriority: 1,
     wantToPlayAgain: false,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     sessions: [
       {
         finishedGame: false,
@@ -1307,6 +1433,8 @@ export const ronanGames: UserGames = [
     gamelistPriority: 1,
     wantToPlayAgain: false,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     sessions: [
       {
         finishedGame: false,
@@ -1330,6 +1458,8 @@ export const ronanGames: UserGames = [
     gamelistPriority: 1,
     wantToPlayAgain: false,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     sessions: [
       {
         finishedGame: true,
@@ -1347,6 +1477,8 @@ export const ronanGames: UserGames = [
     gamelistPriority: 1,
     wantToPlayAgain: false,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     sessions: [
       {
         finishedGame: true,
@@ -1364,6 +1496,8 @@ export const ronanGames: UserGames = [
     gamelistPriority: 1,
     wantToPlayAgain: false,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     sessions: [
       {
         finishedGame: false,
@@ -1387,6 +1521,8 @@ export const ronanGames: UserGames = [
     gamelistPriority: 1,
     wantToPlayAgain: false,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     sessions: [
       {
         finishedGame: false,
@@ -1410,6 +1546,8 @@ export const ronanGames: UserGames = [
     gamelistPriority: 1,
     wantToPlayAgain: false,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     sessions: [
       {
         finishedGame: true,
@@ -1427,6 +1565,8 @@ export const ronanGames: UserGames = [
     gamelistPriority: 1,
     wantToPlayAgain: false,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     sessions: [
       {
         finishedGame: true,
@@ -1444,6 +1584,8 @@ export const ronanGames: UserGames = [
     gamelistPriority: 1,
     wantToPlayAgain: false,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     sessions: [
       {
         finishedGame: true,
@@ -1461,6 +1603,8 @@ export const ronanGames: UserGames = [
     gamelistPriority: 1,
     wantToPlayAgain: false,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     sessions: [
       {
         finishedGame: true,
@@ -1478,6 +1622,8 @@ export const ronanGames: UserGames = [
     gamelistPriority: 1,
     wantToPlayAgain: false,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     sessions: [
       {
         finishedGame: true,
@@ -1495,6 +1641,8 @@ export const ronanGames: UserGames = [
     gamelistPriority: 1,
     wantToPlayAgain: false,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     sessions: [
       {
         finishedGame: false,
@@ -1512,6 +1660,8 @@ export const ronanGames: UserGames = [
     gamelistPriority: 1,
     wantToPlayAgain: false,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     sessions: [
       {
         finishedGame: false,
@@ -1535,6 +1685,8 @@ export const ronanGames: UserGames = [
     gamelistPriority: 1,
     wantToPlayAgain: false,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     sessions: [
       {
         finishedGame: false,
@@ -1552,6 +1704,8 @@ export const ronanGames: UserGames = [
     gamelistPriority: 1,
     wantToPlayAgain: false,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     sessions: [
       {
         finishedGame: true,
@@ -1569,6 +1723,8 @@ export const ronanGames: UserGames = [
     gamelistPriority: 1,
     wantToPlayAgain: false,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     sessions: [
       {
         finishedGame: false,
@@ -1586,6 +1742,8 @@ export const ronanGames: UserGames = [
     gamelistPriority: 1,
     wantToPlayAgain: true,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     sessions: [
       {
         finishedGame: true,
@@ -1603,6 +1761,8 @@ export const ronanGames: UserGames = [
     gamelistPriority: 1,
     wantToPlayAgain: false,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     sessions: [
       {
         finishedGame: false,
@@ -1620,6 +1780,8 @@ export const ronanGames: UserGames = [
     gamelistPriority: 1,
     wantToPlayAgain: false,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     sessions: [
       {
         finishedGame: false,
@@ -1637,6 +1799,8 @@ export const ronanGames: UserGames = [
     gamelistPriority: 1,
     wantToPlayAgain: false,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     sessions: [
       {
         finishedGame: true,
@@ -1654,6 +1818,8 @@ export const ronanGames: UserGames = [
     gamelistPriority: 1,
     wantToPlayAgain: false,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     sessions: [
       {
         finishedGame: true,
@@ -1671,6 +1837,8 @@ export const ronanGames: UserGames = [
     gamelistPriority: 1,
     wantToPlayAgain: false,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     sessions: [
       {
         finishedGame: true,
@@ -1688,6 +1856,8 @@ export const ronanGames: UserGames = [
     gamelistPriority: 1,
     wantToPlayAgain: false,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     sessions: [
       {
         finishedGame: false,
@@ -1711,6 +1881,8 @@ export const ronanGames: UserGames = [
     gamelistPriority: 1,
     wantToPlayAgain: false,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     sessions: [
       {
         finishedGame: false,
@@ -1728,6 +1900,8 @@ export const ronanGames: UserGames = [
     gamelistPriority: 1,
     wantToPlayAgain: false,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     sessions: [
       {
         finishedGame: false,
@@ -1751,6 +1925,8 @@ export const ronanGames: UserGames = [
     gamelistPriority: 1,
     wantToPlayAgain: false,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     sessions: [
       {
         finishedGame: true,
@@ -1768,6 +1944,8 @@ export const ronanGames: UserGames = [
     gamelistPriority: 1,
     wantToPlayAgain: false,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     sessions: [
       {
         finishedGame: true,
@@ -1785,6 +1963,8 @@ export const ronanGames: UserGames = [
     gamelistPriority: 1,
     wantToPlayAgain: false,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     sessions: [
       {
         finishedGame: false,
@@ -1802,6 +1982,8 @@ export const ronanGames: UserGames = [
     gamelistPriority: 1,
     wantToPlayAgain: false,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     sessions: [
       {
         finishedGame: false,
@@ -1819,6 +2001,8 @@ export const ronanGames: UserGames = [
     gamelistPriority: 1,
     wantToPlayAgain: false,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     sessions: [
       {
         finishedGame: true,
@@ -1836,6 +2020,8 @@ export const ronanGames: UserGames = [
     gamelistPriority: 1,
     wantToPlayAgain: false,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     sessions: [
       {
         finishedGame: false,
@@ -1853,6 +2039,8 @@ export const ronanGames: UserGames = [
     gamelistPriority: 1,
     wantToPlayAgain: false,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     sessions: [
       {
         finishedGame: false,
@@ -1870,6 +2058,8 @@ export const ronanGames: UserGames = [
     gamelistPriority: 1,
     wantToPlayAgain: false,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     sessions: [
       {
         finishedGame: true,
@@ -1887,6 +2077,8 @@ export const ronanGames: UserGames = [
     gamelistPriority: 1,
     wantToPlayAgain: false,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     sessions: [
       {
         finishedGame: true,
@@ -1904,6 +2096,8 @@ export const ronanGames: UserGames = [
     gamelistPriority: 1,
     wantToPlayAgain: false,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     sessions: [
       {
         finishedGame: true,
@@ -1921,6 +2115,8 @@ export const ronanGames: UserGames = [
     gamelistPriority: 1,
     wantToPlayAgain: false,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     sessions: [
       {
         finishedGame: true,
@@ -1938,6 +2134,8 @@ export const ronanGames: UserGames = [
     gamelistPriority: 1,
     wantToPlayAgain: false,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     sessions: [
       {
         finishedGame: false,
@@ -1955,6 +2153,8 @@ export const ronanGames: UserGames = [
     gamelistPriority: 1,
     wantToPlayAgain: false,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     sessions: [
       {
         finishedGame: false,
@@ -1972,6 +2172,8 @@ export const ronanGames: UserGames = [
     gamelistPriority: 1,
     wantToPlayAgain: false,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     sessions: [
       {
         finishedGame: true,
@@ -1989,6 +2191,8 @@ export const ronanGames: UserGames = [
     gamelistPriority: 1,
     wantToPlayAgain: false,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     sessions: [
       {
         finishedGame: true,
@@ -2006,6 +2210,8 @@ export const ronanGames: UserGames = [
     gamelistPriority: 1,
     wantToPlayAgain: false,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     sessions: [
       {
         finishedGame: false,
@@ -2023,6 +2229,8 @@ export const ronanGames: UserGames = [
     gamelistPriority: 1,
     wantToPlayAgain: true,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     sessions: [
       {
         finishedGame: true,
@@ -2040,6 +2248,8 @@ export const ronanGames: UserGames = [
     gamelistPriority: 1,
     wantToPlayAgain: true,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     sessions: [
       {
         finishedGame: true,
@@ -2057,6 +2267,8 @@ export const ronanGames: UserGames = [
     gamelistPriority: 1,
     wantToPlayAgain: false,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     sessions: [
       {
         finishedGame: true,
@@ -2074,6 +2286,8 @@ export const ronanGames: UserGames = [
     gamelistPriority: 1,
     wantToPlayAgain: false,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     sessions: [
       {
         finishedGame: false,
@@ -2091,6 +2305,8 @@ export const ronanGames: UserGames = [
     gamelistPriority: 1,
     wantToPlayAgain: true,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     sessions: [
       {
         finishedGame: true,
@@ -2108,6 +2324,8 @@ export const ronanGames: UserGames = [
     gamelistPriority: 1,
     wantToPlayAgain: true,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     sessions: [
       {
         finishedGame: true,
@@ -2125,6 +2343,8 @@ export const ronanGames: UserGames = [
     gamelistPriority: 1,
     wantToPlayAgain: false,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     sessions: [
       {
         finishedGame: true,
@@ -2142,6 +2362,8 @@ export const ronanGames: UserGames = [
     gamelistPriority: 1,
     wantToPlayAgain: false,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     sessions: [
       {
         finishedGame: true,
@@ -2159,6 +2381,8 @@ export const ronanGames: UserGames = [
     gamelistPriority: 1,
     wantToPlayAgain: false,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     sessions: [
       {
         finishedGame: false,
@@ -2176,6 +2400,8 @@ export const ronanGames: UserGames = [
     gamelistPriority: 1,
     wantToPlayAgain: false,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     sessions: [
       {
         finishedGame: false,
@@ -2199,6 +2425,8 @@ export const ronanGames: UserGames = [
     gamelistPriority: 1,
     wantToPlayAgain: false,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     sessions: [
       {
         finishedGame: false,
@@ -2216,6 +2444,8 @@ export const ronanGames: UserGames = [
     gamelistPriority: 1,
     wantToPlayAgain: true,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     sessions: [
       {
         finishedGame: true,
@@ -2233,6 +2463,8 @@ export const ronanGames: UserGames = [
     gamelistPriority: 1,
     wantToPlayAgain: false,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     sessions: [
       {
         finishedGame: true,
@@ -2250,6 +2482,8 @@ export const ronanGames: UserGames = [
     gamelistPriority: 1,
     wantToPlayAgain: false,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     sessions: [
       {
         finishedGame: false,
@@ -2267,6 +2501,8 @@ export const ronanGames: UserGames = [
     gamelistPriority: 1,
     wantToPlayAgain: true,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     sessions: [
       {
         finishedGame: true,
@@ -2284,6 +2520,8 @@ export const ronanGames: UserGames = [
     gamelistPriority: 1,
     wantToPlayAgain: false,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     sessions: [
       {
         finishedGame: true,
@@ -2301,6 +2539,8 @@ export const ronanGames: UserGames = [
     gamelistPriority: 1,
     wantToPlayAgain: false,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     sessions: [
       {
         finishedGame: false,
@@ -2324,6 +2564,8 @@ export const ronanGames: UserGames = [
     gamelistPriority: 1,
     wantToPlayAgain: true,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     sessions: [
       {
         finishedGame: true,
@@ -2341,6 +2583,8 @@ export const ronanGames: UserGames = [
     gamelistPriority: 1,
     wantToPlayAgain: false,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     sessions: [
       {
         finishedGame: true,
@@ -2358,6 +2602,8 @@ export const ronanGames: UserGames = [
     gamelistPriority: 1,
     wantToPlayAgain: true,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     sessions: [
       {
         finishedGame: true,
@@ -2375,6 +2621,8 @@ export const ronanGames: UserGames = [
     gamelistPriority: 1,
     wantToPlayAgain: false,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     sessions: [
       {
         finishedGame: false,
@@ -2392,6 +2640,8 @@ export const ronanGames: UserGames = [
     gamelistPriority: 1,
     wantToPlayAgain: false,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     sessions: [
       {
         finishedGame: true,
@@ -2409,6 +2659,8 @@ export const ronanGames: UserGames = [
     gamelistPriority: 1,
     wantToPlayAgain: false,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     sessions: [
       {
         finishedGame: true,
@@ -2426,6 +2678,8 @@ export const ronanGames: UserGames = [
     gamelistPriority: 1,
     wantToPlayAgain: false,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     sessions: [
       {
         finishedGame: true,
@@ -2443,6 +2697,8 @@ export const ronanGames: UserGames = [
     gamelistPriority: 1,
     wantToPlayAgain: false,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     sessions: [
       {
         finishedGame: true,
@@ -2460,6 +2716,8 @@ export const ronanGames: UserGames = [
     gamelistPriority: 1,
     wantToPlayAgain: false,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     sessions: [
       {
         finishedGame: true,
@@ -2477,6 +2735,8 @@ export const ronanGames: UserGames = [
     gamelistPriority: 1,
     wantToPlayAgain: false,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     sessions: [
       {
         finishedGame: true,
@@ -2494,6 +2754,8 @@ export const ronanGames: UserGames = [
     gamelistPriority: 1,
     wantToPlayAgain: false,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     sessions: [
       {
         finishedGame: false,
@@ -2511,6 +2773,8 @@ export const ronanGames: UserGames = [
     gamelistPriority: 1,
     wantToPlayAgain: false,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     sessions: [
       {
         finishedGame: true,
@@ -2528,6 +2792,8 @@ export const ronanGames: UserGames = [
     gamelistPriority: 1,
     wantToPlayAgain: true,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     sessions: [
       {
         finishedGame: true,
@@ -2545,6 +2811,8 @@ export const ronanGames: UserGames = [
     gamelistPriority: 1,
     wantToPlayAgain: false,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     sessions: [
       {
         finishedGame: true,
@@ -2562,6 +2830,8 @@ export const ronanGames: UserGames = [
     gamelistPriority: 1,
     wantToPlayAgain: false,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     sessions: [
       {
         finishedGame: false,
@@ -2579,6 +2849,8 @@ export const ronanGames: UserGames = [
     gamelistPriority: 1,
     wantToPlayAgain: false,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     sessions: [
       {
         finishedGame: true,
@@ -2596,6 +2868,8 @@ export const ronanGames: UserGames = [
     gamelistPriority: 1,
     wantToPlayAgain: true,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     sessions: [
       {
         finishedGame: true,
@@ -2613,6 +2887,8 @@ export const ronanGames: UserGames = [
     gamelistPriority: 1,
     wantToPlayAgain: false,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     sessions: [
       {
         finishedGame: true,
@@ -2630,6 +2906,8 @@ export const ronanGames: UserGames = [
     gamelistPriority: 1,
     wantToPlayAgain: false,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     sessions: [
       {
         finishedGame: true,
@@ -2647,6 +2925,8 @@ export const ronanGames: UserGames = [
     gamelistPriority: 1,
     wantToPlayAgain: false,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     sessions: [
       {
         finishedGame: true,
@@ -2664,6 +2944,8 @@ export const ronanGames: UserGames = [
     gamelistPriority: 1,
     wantToPlayAgain: false,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     sessions: [
       {
         finishedGame: true,
@@ -2681,6 +2963,8 @@ export const ronanGames: UserGames = [
     gamelistPriority: 1,
     wantToPlayAgain: false,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     sessions: [
       {
         finishedGame: true,
@@ -2698,6 +2982,8 @@ export const ronanGames: UserGames = [
     gamelistPriority: 1,
     wantToPlayAgain: false,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     sessions: [
       {
         finishedGame: true,
@@ -2715,6 +3001,8 @@ export const ronanGames: UserGames = [
     gamelistPriority: 1,
     wantToPlayAgain: false,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     sessions: [
       {
         finishedGame: true,
@@ -2732,6 +3020,8 @@ export const ronanGames: UserGames = [
     gamelistPriority: 1,
     wantToPlayAgain: false,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     sessions: [
       {
         finishedGame: true,
@@ -2749,6 +3039,8 @@ export const ronanGames: UserGames = [
     gamelistPriority: 1,
     wantToPlayAgain: true,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     sessions: [
       {
         finishedGame: true,
@@ -2766,6 +3058,8 @@ export const ronanGames: UserGames = [
     gamelistPriority: 1,
     wantToPlayAgain: true,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     sessions: [
       {
         finishedGame: true,
@@ -2795,6 +3089,8 @@ export const ronanGames: UserGames = [
     gamelistPriority: 1,
     wantToPlayAgain: false,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     sessions: [
       {
         finishedGame: true,
@@ -2824,6 +3120,8 @@ export const ronanGames: UserGames = [
     gamelistPriority: 1,
     wantToPlayAgain: false,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     sessions: [
       {
         finishedGame: true,
@@ -2841,6 +3139,8 @@ export const ronanGames: UserGames = [
     gamelistPriority: 1,
     wantToPlayAgain: false,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     sessions: [
       {
         finishedGame: true,
@@ -2858,6 +3158,8 @@ export const ronanGames: UserGames = [
     gamelistPriority: 1,
     wantToPlayAgain: false,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     sessions: [
       {
         finishedGame: true,
@@ -2875,6 +3177,8 @@ export const ronanGames: UserGames = [
     gamelistPriority: 1,
     wantToPlayAgain: false,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     sessions: [
       {
         finishedGame: true,
@@ -2904,6 +3208,8 @@ export const ronanGames: UserGames = [
     gamelistPriority: 1,
     wantToPlayAgain: false,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     sessions: [
       {
         finishedGame: true,
@@ -2921,6 +3227,8 @@ export const ronanGames: UserGames = [
     gamelistPriority: 1,
     wantToPlayAgain: true,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     sessions: [
       {
         finishedGame: true,
@@ -2938,6 +3246,8 @@ export const ronanGames: UserGames = [
     gamelistPriority: 1,
     wantToPlayAgain: true,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     sessions: [
       {
         finishedGame: true,
@@ -2955,6 +3265,8 @@ export const ronanGames: UserGames = [
     gamelistPriority: 1,
     wantToPlayAgain: false,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     sessions: [
       {
         finishedGame: true,
@@ -2972,6 +3284,8 @@ export const ronanGames: UserGames = [
     gamelistPriority: 1,
     wantToPlayAgain: false,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     sessions: [
       {
         finishedGame: true,
@@ -2989,6 +3303,8 @@ export const ronanGames: UserGames = [
     gamelistPriority: 1,
     wantToPlayAgain: false,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     sessions: [
       {
         finishedGame: true,
@@ -3018,6 +3334,8 @@ export const ronanGames: UserGames = [
     gamelistPriority: 1,
     wantToPlayAgain: false,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     sessions: [
       {
         finishedGame: true,
@@ -3047,6 +3365,8 @@ export const ronanGames: UserGames = [
     gamelistPriority: 1,
     wantToPlayAgain: false,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     sessions: [
       {
         finishedGame: true,
@@ -3118,6 +3438,8 @@ export const ronanGames: UserGames = [
     gamelistPriority: 1,
     wantToPlayAgain: false,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     sessions: [
       {
         finishedGame: true,
@@ -3135,6 +3457,8 @@ export const ronanGames: UserGames = [
     gamelistPriority: 1,
     wantToPlayAgain: false,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     sessions: [
       {
         finishedGame: true,
@@ -3152,6 +3476,8 @@ export const ronanGames: UserGames = [
     gamelistPriority: 1,
     wantToPlayAgain: false,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     sessions: [
       {
         finishedGame: true,
@@ -3169,6 +3495,8 @@ export const ronanGames: UserGames = [
     gamelistPriority: 1,
     wantToPlayAgain: false,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     sessions: [
       {
         finishedGame: true,
@@ -3186,6 +3514,8 @@ export const ronanGames: UserGames = [
     gamelistPriority: 1,
     wantToPlayAgain: false,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     sessions: [
       {
         finishedGame: true,
@@ -3203,6 +3533,8 @@ export const ronanGames: UserGames = [
     gamelistPriority: 1,
     wantToPlayAgain: true,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     sessions: [
       {
         finishedGame: true,
@@ -3220,6 +3552,8 @@ export const ronanGames: UserGames = [
     gamelistPriority: 1,
     wantToPlayAgain: false,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     sessions: [
       {
         finishedGame: true,
@@ -3237,6 +3571,8 @@ export const ronanGames: UserGames = [
     gamelistPriority: 1,
     wantToPlayAgain: false,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     sessions: [
       {
         finishedGame: true,
@@ -3254,6 +3590,8 @@ export const ronanGames: UserGames = [
     gamelistPriority: 1,
     wantToPlayAgain: false,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     sessions: [
       {
         finishedGame: true,
@@ -3271,6 +3609,8 @@ export const ronanGames: UserGames = [
     gamelistPriority: 1,
     wantToPlayAgain: false,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     sessions: [
       {
         finishedGame: true,
@@ -3288,6 +3628,8 @@ export const ronanGames: UserGames = [
     gamelistPriority: 1,
     wantToPlayAgain: false,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     sessions: [
       {
         finishedGame: true,
@@ -3305,6 +3647,8 @@ export const ronanGames: UserGames = [
     gamelistPriority: 1,
     wantToPlayAgain: false,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     sessions: [
       {
         finishedGame: true,
@@ -3322,6 +3666,8 @@ export const ronanGames: UserGames = [
     gamelistPriority: 1,
     wantToPlayAgain: false,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     sessions: [
       {
         finishedGame: true,
@@ -3339,6 +3685,8 @@ export const ronanGames: UserGames = [
     gamelistPriority: 1,
     wantToPlayAgain: false,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     sessions: [
       {
         finishedGame: true,
@@ -3356,6 +3704,8 @@ export const ronanGames: UserGames = [
     gamelistPriority: 1,
     wantToPlayAgain: false,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     sessions: [
       {
         finishedGame: true,
@@ -3373,6 +3723,8 @@ export const ronanGames: UserGames = [
     gamelistPriority: 1,
     wantToPlayAgain: false,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     sessions: [
       {
         finishedGame: true,
@@ -3390,6 +3742,8 @@ export const ronanGames: UserGames = [
     gamelistPriority: 1,
     wantToPlayAgain: false,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     sessions: [
       {
         finishedGame: true,
@@ -3407,6 +3761,8 @@ export const ronanGames: UserGames = [
     gamelistPriority: 1,
     wantToPlayAgain: false,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     sessions: [
       {
         finishedGame: true,
@@ -3424,6 +3780,8 @@ export const ronanGames: UserGames = [
     gamelistPriority: 1,
     wantToPlayAgain: false,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     sessions: [
       {
         finishedGame: true,
@@ -3441,6 +3799,8 @@ export const ronanGames: UserGames = [
     gamelistPriority: 1,
     wantToPlayAgain: false,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     sessions: [
       {
         finishedGame: true,
@@ -3458,6 +3818,8 @@ export const ronanGames: UserGames = [
     gamelistPriority: 1,
     wantToPlayAgain: false,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     sessions: [
       {
         finishedGame: true,
@@ -3529,6 +3891,8 @@ export const ronanGames: UserGames = [
     gamelistPriority: 1,
     wantToPlayAgain: false,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     sessions: [
       {
         finishedGame: true,
@@ -3546,6 +3910,8 @@ export const ronanGames: UserGames = [
     gamelistPriority: 1,
     wantToPlayAgain: false,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     sessions: [
       {
         finishedGame: true,
@@ -3563,6 +3929,8 @@ export const ronanGames: UserGames = [
     gamelistPriority: 1,
     wantToPlayAgain: false,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     sessions: [
       {
         finishedGame: true,
@@ -3580,6 +3948,8 @@ export const ronanGames: UserGames = [
     gamelistPriority: 1,
     wantToPlayAgain: false,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     sessions: [
       {
         finishedGame: true,
@@ -3597,6 +3967,8 @@ export const ronanGames: UserGames = [
     gamelistPriority: 1,
     wantToPlayAgain: false,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     sessions: [
       {
         finishedGame: true,
@@ -3614,6 +3986,8 @@ export const ronanGames: UserGames = [
     gamelistPriority: 1,
     wantToPlayAgain: false,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     sessions: [
       {
         finishedGame: true,
@@ -3631,6 +4005,8 @@ export const ronanGames: UserGames = [
     gamelistPriority: 1,
     wantToPlayAgain: false,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     sessions: [
       {
         finishedGame: true,
@@ -3648,6 +4024,8 @@ export const ronanGames: UserGames = [
     gamelistPriority: 1,
     wantToPlayAgain: false,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     sessions: [
       {
         finishedGame: true,
@@ -3665,6 +4043,8 @@ export const ronanGames: UserGames = [
     gamelistPriority: 1,
     wantToPlayAgain: false,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     sessions: [
       {
         finishedGame: true,
@@ -3682,6 +4062,8 @@ export const ronanGames: UserGames = [
     gamelistPriority: 1,
     wantToPlayAgain: false,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     sessions: [
       {
         finishedGame: true,
@@ -3699,6 +4081,8 @@ export const ronanGames: UserGames = [
     gamelistPriority: 1,
     wantToPlayAgain: false,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     sessions: [
       {
         finishedGame: true,
@@ -3716,6 +4100,8 @@ export const ronanGames: UserGames = [
     gamelistPriority: 1,
     wantToPlayAgain: false,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     sessions: [
       {
         finishedGame: true,
@@ -3733,6 +4119,8 @@ export const ronanGames: UserGames = [
     gamelistPriority: 1,
     wantToPlayAgain: false,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     sessions: [
       {
         finishedGame: true,
@@ -3750,6 +4138,8 @@ export const ronanGames: UserGames = [
     gamelistPriority: 1,
     wantToPlayAgain: false,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     sessions: [
       {
         finishedGame: true,
@@ -3767,6 +4157,8 @@ export const ronanGames: UserGames = [
     gamelistPriority: 1,
     wantToPlayAgain: false,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     sessions: [
       {
         finishedGame: true,
@@ -3784,6 +4176,8 @@ export const ronanGames: UserGames = [
     gamelistPriority: 1,
     wantToPlayAgain: false,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     sessions: [
       {
         finishedGame: true,
@@ -3801,6 +4195,8 @@ export const ronanGames: UserGames = [
     gamelistPriority: 1,
     wantToPlayAgain: false,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     sessions: [
       {
         finishedGame: true,
@@ -3818,6 +4214,8 @@ export const ronanGames: UserGames = [
     gamelistPriority: 1,
     wantToPlayAgain: false,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     sessions: [
       {
         finishedGame: true,
@@ -3835,6 +4233,8 @@ export const ronanGames: UserGames = [
     gamelistPriority: 1,
     wantToPlayAgain: true,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     sessions: [
       {
         finishedGame: true,
@@ -3852,6 +4252,8 @@ export const ronanGames: UserGames = [
     gamelistPriority: 1,
     wantToPlayAgain: false,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     sessions: [
       {
         finishedGame: false,
@@ -3870,8 +4272,15 @@ export const ronanGames: UserGames = [
     gamelistPriority: 1,
     wantToPlayAgain: false,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
     sessions: [
-      { finishedGame: true, finishedGameWithHundredPercent: false, platinedGame: false, additionnalEstimatedTime: 0 }
+      {
+        finishedGame: true,
+        finishedGameWithHundredPercent: false,
+        platinedGame: false,
+        additionnalEstimatedTime: 0,
+      },
     ],
   },
 ];

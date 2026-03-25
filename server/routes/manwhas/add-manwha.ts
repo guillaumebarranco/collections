@@ -36,6 +36,8 @@ function formatUserManwha(user: any): string {
     readPriority: ${user.readPriority ?? 1},
     wantToReadAgain: ${user.wantToReadAgain ?? false},
     ratingComment: '${escapeString(user.ratingComment ?? '')}',
+    borrowed: '${escapeString(user.borrowed ?? '')}',
+    loaned: '${escapeString(user.loaned ?? '')}',
   },`;
 }
 
@@ -123,6 +125,8 @@ router.post('/add', (req: any, res: any) => {
       wantToReadAgain: normalizeBoolean(user.wantToReadAgain, 'wantToReadAgain') ?? false,
       ratingComment:
         normalizeString(user.ratingComment, 'ratingComment') ?? '',
+      borrowed: normalizeString(user.borrowed, 'borrowed') ?? '',
+      loaned: normalizeString(user.loaned, 'loaned') ?? '',
     };
 
     const baseManwhaContent = appendObjectToArrayFile(

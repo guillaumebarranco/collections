@@ -11,5 +11,7 @@ export const guillaumeReadListManwhas: UserManwhas = [
     readPriority: 2,
     wantToReadAgain: false,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
   },
 ];

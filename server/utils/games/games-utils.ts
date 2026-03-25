@@ -167,6 +167,8 @@ function formatGameObject(game: any) {
     gamelistPriority: ${game.gamelistPriority ?? 1},
     wantToPlayAgain: ${game.wantToPlayAgain ?? false},
     ratingComment: '${escapeString(game.ratingComment || '')}',
+    borrowed: '${escapeString(game.borrowed || '')}',
+    loaned: '${escapeString(game.loaned || '')}',
     ${sessionsPart}
   }`;
 }
@@ -214,6 +216,16 @@ function parseGamesFromFile(content: string): any[] {
             wantToPlayAgain:
               parseBooleanField(objectText, 'wantToPlayAgain') ?? false,
             ratingComment: parseStringField(objectText, 'ratingComment') ?? '',
+            borrowed:
+              parseStringField(objectText, 'borrowed') ??
+              ((parseBooleanField(objectText, 'borrowed') ?? false)
+                ? 'Inconnu'
+                : ''),
+            loaned:
+              parseStringField(objectText, 'loaned') ??
+              ((parseBooleanField(objectText, 'loaned') ?? false)
+                ? 'Inconnu'
+                : ''),
             sessions: Array.isArray(sessions) ? sessions : [],
           });
         }

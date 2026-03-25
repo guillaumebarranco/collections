@@ -126,6 +126,26 @@
       <label class="manwhas-config-option">
         <input
           type="checkbox"
+          [checked]="optionalViewConfig().borrowed"
+          (change)="
+            onOptionalViewChange('borrowed', $any($event.target).checked)
+          "
+        />
+        Manwhas empruntés
+      </label>
+      <label class="manwhas-config-option">
+        <input
+          type="checkbox"
+          [checked]="optionalViewConfig().loaned"
+          (change)="
+            onOptionalViewChange('loaned', $any($event.target).checked)
+          "
+        />
+        Manwhas prêtés
+      </label>
+      <label class="manwhas-config-option">
+        <input
+          type="checkbox"
           [checked]="optionalViewConfig().toReRead"
           (change)="
             onOptionalViewChange('toReRead', $any($event.target).checked)

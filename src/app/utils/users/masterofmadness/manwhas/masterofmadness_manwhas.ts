@@ -11,6 +11,8 @@ export const masterofmadnessManwhas: UserManwha[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
   },
 
   {
@@ -23,5 +25,7 @@ export const masterofmadnessManwhas: UserManwha[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
   },
 ];

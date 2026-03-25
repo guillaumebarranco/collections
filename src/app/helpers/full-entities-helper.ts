@@ -24,6 +24,8 @@ export const getFullBd = (bd: BaseBd): Bd => ({
   ratingComment: '',
   saga: bd.saga ?? '',
   sagaOrder: bd.sagaOrder ?? 0,
+  borrowed: '',
+  loaned: '',
 });
 
 export const getFullComic = (comic: BaseComic): Comic => ({
@@ -43,6 +45,8 @@ export const getFullComic = (comic: BaseComic): Comic => ({
   ratingComment: '',
   saga: comic.saga ?? '',
   sagaOrder: comic.sagaOrder ?? 0,
+  borrowed: '',
+  loaned: '',
 });
 
 export const getFullBook = (book: BaseBook): Book => ({
@@ -58,7 +62,8 @@ export const getFullBook = (book: BaseBook): Book => ({
   lastReadDate: '',
   readTimes: 0,
   owned: false,
-  borrowed: false,
+  borrowed: '',
+  loaned: '',
   readPriority: 1,
   sagaFinished: book.sagaFinished,
   releaseDate: book.releaseDate,
@@ -80,6 +85,8 @@ export const getFullGame = (game: BaseGame): Game => ({
   additionnalEstimatedTime: 0,
   platined: false,
   ratingComment: '',
+  borrowed: '',
+  loaned: '',
 });
 
 export const getFullManga = (manga: BaseManga): Manga => ({
@@ -97,6 +104,8 @@ export const getFullManga = (manga: BaseManga): Manga => ({
   wantToReadAgain: false,
   description: manga.description ?? '',
   ratingComment: '',
+  borrowed: '',
+  loaned: '',
 });
 
 export const getFullManwha = (manwha: BaseManwha): Manwha => ({
@@ -114,6 +123,8 @@ export const getFullManwha = (manwha: BaseManwha): Manwha => ({
   wantToReadAgain: false,
   description: manwha.description ?? '',
   ratingComment: '',
+  borrowed: '',
+  loaned: '',
 });
 
 export const getFullMovie = (movie: BaseMovie): Movie => ({
@@ -138,6 +149,8 @@ export const getFullMovie = (movie: BaseMovie): Movie => ({
   description: movie.description ?? '',
   ratingComment: '',
   inList: [],
+  borrowed: '',
+  loaned: '',
 });
 
 export const getFullSerie = (serie: BaseSerie): Serie => ({
@@ -157,4 +170,6 @@ export const getFullSerie = (serie: BaseSerie): Serie => ({
   description: serie.description ?? '',
   ratingComment: '',
   saga: serie.saga ?? '',
+  borrowed: '',
+  loaned: '',
 });

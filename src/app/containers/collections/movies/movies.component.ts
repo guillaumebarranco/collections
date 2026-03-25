@@ -113,6 +113,8 @@ export class MoviesComponent implements OnInit {
   optionalViewConfig = signal<Record<OptionalMovieView, boolean>>({
     cinema: true,
     owned: true,
+    borrowed: true,
+    loaned: true,
     toReWatch: true,
     sagas: true,
     actors: false,
@@ -267,6 +269,34 @@ export class MoviesComponent implements OnInit {
       movies = this.allMovies().filter(
         (movie) => movie.wantToSeeAgain === true
       );
+    } else if (this.selectedView() === 'borrowed') {
+      const key = (m: Movie) => `${m.title}|${m.director}`;
+      const readB = this.allMovies().filter((m) =>
+        Boolean(m.borrowed?.trim())
+      );
+      const listB = this.allWatchlistMovies().filter((m) =>
+        Boolean(m.borrowed?.trim())
+      );
+      const seen = new Set<string>();
+      movies = [...readB, ...listB].filter((m) => {
+        const k = key(m);
+        if (seen.has(k)) return false;
+        seen.add(k);
+        return true;
+      });
+    } else if (this.selectedView() === 'loaned') {
+      const key = (m: Movie) => `${m.title}|${m.director}`;
+      const readL = this.allMovies().filter((m) => Boolean(m.loaned?.trim()));
+      const listL = this.allWatchlistMovies().filter((m) =>
+        Boolean(m.loaned?.trim())
+      );
+      const seen = new Set<string>();
+      movies = [...readL, ...listL].filter((m) => {
+        const k = key(m);
+        if (seen.has(k)) return false;
+        seen.add(k);
+        return true;
+      });
     } else if (
       this.selectedView() === 'sagas' ||
       this.selectedView() === 'actors' ||
@@ -296,7 +326,12 @@ export class MoviesComponent implements OnInit {
     let filteredMovies = [...this.filteredMovies()];
 
     // Filtrage par année : date de visionnage pour vus/cinéma, date de sortie pour sagas/acteurs/réalisateurs
-    if (this.selectedView() === 'watched' || this.selectedView() === 'cinema') {
+    if (
+      this.selectedView() === 'watched' ||
+      this.selectedView() === 'cinema' ||
+      this.selectedView() === 'borrowed' ||
+      this.selectedView() === 'loaned'
+    ) {
       if (allYearsSince2000.includes(Number(this.selectedYearFilter()))) {
         filteredMovies = filteredMovies.filter((m) =>
           m.firstViewedDate?.startsWith(this.selectedYearFilter())
@@ -409,6 +444,8 @@ export class MoviesComponent implements OnInit {
       queryParams['view'] === 'cinema' ||
       queryParams['view'] === 'owned' ||
       queryParams['view'] === 'toReWatch' ||
+      queryParams['view'] === 'borrowed' ||
+      queryParams['view'] === 'loaned' ||
       queryParams['view'] === 'sagas' ||
       queryParams['view'] === 'actors' ||
       queryParams['view'] === 'directors' ||
@@ -803,6 +840,8 @@ export class MoviesComponent implements OnInit {
     this.optionalViewConfig.set({
       cinema: parsed.cinema ?? true,
       owned: parsed.owned ?? true,
+      borrowed: parsed.borrowed ?? true,
+      loaned: parsed.loaned ?? true,
       sagas: parsed.sagas ?? true,
       actors: parsed.actors ?? false,
       directors: parsed.directors ?? false,
