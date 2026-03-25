@@ -839,4 +839,18 @@ export const baseBooksApi: BaseBook[] = [
     description: '',
     countryOrigin: 'Royaume-Uni',
   },
+
+  {
+    title: 'La plus secrète mémoire des hommes',
+    author: 'Mohamed Mbougar Sarr',
+    coverUrl: 'https://lh6.googleusercontent.com/proxy/fKr7lkSn1oXzUIq-LWP2gU6gwldiZNcbaf8A9xaByKZ5uoLOALY1wFe6vp15mMj_4-4JJgQ0181spXK7LQ8ffCVcMfl4cwwNSD8',
+    pages: 448,
+    genre: '',
+    saga: '',
+    sagaOrder: 0,
+    sagaFinished: true,
+    releaseDate: '',
+    description: '',
+    countryOrigin: '',
+  },
 ];

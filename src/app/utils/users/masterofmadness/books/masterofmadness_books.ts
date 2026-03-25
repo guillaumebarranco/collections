@@ -3404,4 +3404,19 @@ export const masterofmadnessBooks: UserBook[] = [
     wantToReadAgain: false,
     ratingComment: '',
   },
+
+  {
+    title: 'La plus secrète mémoire des hommes',
+    author: 'Mohamed Mbougar Sarr',
+    firstReadDate: '',
+    lastReadDate: '',
+    rating: 0,
+    readTimes: 1,
+    owned: false,
+    borrowed: '',
+    loaned: '',
+    readPriority: 1,
+    wantToReadAgain: false,
+    ratingComment: '',
+  },
 ];
