@@ -828,7 +828,7 @@ export const baseMoviesApi: BaseMovie[] = [
         name: 'Audrey Tautou',
       },
     ],
-    coverUrl: 'https://www.cine-feuilles.ch/storage/app/uploads/public/5a3/e67/3ff/5a3e673ff2de3103040041.jpg',
+    coverUrl: '/movies_pictures/1ae4f0135bee.jpg',
     releaseDate: '2013-12-04',
     length: 120,
     genre: 'Comédie',
