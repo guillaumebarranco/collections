@@ -25,6 +25,7 @@
       >
         ⚙️ Configurer ma vue livres
       </button>
+      @if(canShowAddBooksButton()) {
       <button
         class="makya-btn-small"
         [routerLink]="getSelectBooksRoute()"
@@ -32,12 +33,9 @@
         title="Ajouter des livres"
       >
         ➕
-        {{
-          selectedView() === "readlist"
-            ? "Ajouter des livres à lire"
-            : "Ajouter des livres lus"
-        }}
+        {{ addBooksButtonLabel() }}
       </button>
+      } @if(canShowUpdateBooksRatingButton()) {
       <button
         class="makya-btn-small"
         [routerLink]="getSelectBooksRatingRoute()"
@@ -45,6 +43,7 @@
       >
         ⭐Notes
       </button>
+      } @if(canShowUpdateBooksTimesReadButton()) {
       <button
         class="makya-btn-small"
         [routerLink]="getSelectBooksTimesReadRoute()"
@@ -52,6 +51,7 @@
       >
         🎬 Lectures
       </button>
+      } @if(canShowUpdateBooksOwnedButton()) {
       <button
         class="makya-btn-small"
         [routerLink]="getSelectBooksOwnedRoute()"
@@ -59,6 +59,7 @@
       >
         ✅ Possédés
       </button>
+      } @if(canShowTopFiveRankButton()) {
       <button
         class="makya-btn-small"
         [class.active]="showTopFiveRank()"
@@ -67,6 +68,7 @@
       >
         🏆 Top 5
       </button>
+      }
     </div>
   </div>
   } @if(allBooksCount() === 0) {
@@ -79,7 +81,7 @@
       Sélectionner mes livres
     </button>
   </div>
-  } @if (showFiltersAndSearch()) {
+  } @if (showFiltersAndSearch() && canShowFiltersAndSearch()) {
   <div class="books-stats-bloc">
     <app-stats-display
       [stats]="stats()"
@@ -99,8 +101,7 @@
         >
         </app-sort-dropdown>
       </div>
-      }
-
+      } @if(canShowSortDropdown()) {
       <app-sort-dropdown
         label="Trier par :"
         [sortOptions]="sortOptions()"
@@ -108,6 +109,7 @@
         (sortChange)="onSortChange.emit($event)"
       >
       </app-sort-dropdown>
+      }
     </div>
   </div>
 
@@ -118,6 +120,10 @@
       [ngModel]="searchTerm()"
       (ngModelChange)="onSearchChange.emit($event)"
     />
+  </div>
+  } @if(noDataForThisView()) {
+  <div class="empty-state">
+    <p class="empty-message">Aucun livre à afficher pour cette sélection.</p>
   </div>
   }
 </div>

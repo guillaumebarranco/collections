@@ -25,6 +25,7 @@
       >
         ⚙️ Configurer ma vue BD
       </button>
+      @if (canShowAddBdsButton()) {
       <button
         class="makya-btn-small"
         [routerLink]="getSelectBdsRoute()"
@@ -32,12 +33,10 @@
         title="Ajouter des BD"
       >
         ➕
-        {{
-          selectedView() === "readlist"
-            ? "Ajouter des BD à lire"
-            : "Ajouter des BD"
-        }}
+        {{ addBdsButtonLabel() }}
       </button>
+      }
+      @if (canShowUpdateBdsRatingButton()) {
       <button
         class="makya-btn-small"
         [routerLink]="getSelectBdsRatingRoute()"
@@ -45,6 +44,8 @@
       >
         ⭐ Notes
       </button>
+      }
+      @if (canShowUpdateBdsTimesReadButton()) {
       <button
         class="makya-btn-small"
         [routerLink]="getSelectBdsTimesReadRoute()"
@@ -52,6 +53,8 @@
       >
         📖 Lectures
       </button>
+      }
+      @if (canShowUpdateBdsOwnedButton()) {
       <button
         class="makya-btn-small"
         [routerLink]="getSelectBdsOwnedRoute()"
@@ -59,6 +62,8 @@
       >
         ✅ Possédées
       </button>
+      }
+      @if (canShowTopFiveRankButton()) {
       <button
         class="makya-btn-small"
         [class.active]="showTopFiveRank()"
@@ -67,6 +72,7 @@
       >
         🏆 Top 5
       </button>
+      }
     </div>
   </div>
   } @if(allBdsCount() === 0 && allReadlistBdsCount() === 0) {

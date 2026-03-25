@@ -25,6 +25,7 @@
       >
         ⚙️ Configurer ma vue comics
       </button>
+      @if (canShowAddComicsButton()) {
       <button
         class="makya-btn-small"
         [routerLink]="getSelectComicsRoute()"
@@ -32,12 +33,10 @@
         title="Ajouter des comics"
       >
         ➕
-        {{
-          selectedView() === "readlist"
-            ? "Ajouter des comics à lire"
-            : "Ajouter des comics"
-        }}
+        {{ addComicsButtonLabel() }}
       </button>
+      }
+      @if (canShowUpdateComicsRatingButton()) {
       <button
         class="makya-btn-small"
         [routerLink]="getSelectComicsRatingRoute()"
@@ -45,6 +44,8 @@
       >
         ⭐ Notes
       </button>
+      }
+      @if (canShowUpdateComicsTimesReadButton()) {
       <button
         class="makya-btn-small"
         [routerLink]="getSelectComicsTimesReadRoute()"
@@ -52,6 +53,8 @@
       >
         📖 Lectures
       </button>
+      }
+      @if (canShowUpdateComicsOwnedButton()) {
       <button
         class="makya-btn-small"
         [routerLink]="getSelectComicsOwnedRoute()"
@@ -59,6 +62,8 @@
       >
         ✅ Possédés
       </button>
+      }
+      @if (canShowTopFiveRankButton()) {
       <button
         class="makya-btn-small"
         [class.active]="showTopFiveRank()"
@@ -67,6 +72,7 @@
       >
         🏆 Top 5
       </button>
+      }
     </div>
   </div>
   } @if(allComicsCount() === 0 && allReadlistComicsCount() === 0) {

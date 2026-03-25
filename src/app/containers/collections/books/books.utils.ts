@@ -44,10 +44,10 @@ export const yearFilterOptions: { value: string; label: string }[] = [
 export const bookViewOptions: { value: BookView; label: string }[] = [
   { value: 'read', label: 'Lus' },
   { value: 'readlist', label: 'À lire' },
+  { value: 'toReRead', label: 'À relire' },
   { value: 'owned', label: 'Possédés' },
   { value: 'borrowed', label: 'Livres empruntés' },
   { value: 'loaned', label: 'Livres prêtés' },
-  { value: 'toReRead', label: 'À relire' },
   { value: 'authors', label: 'Voir par auteurs' },
   { value: 'sagas', label: 'Voir par sagas' },
   { value: 'countries', label: 'Voir par pays' },

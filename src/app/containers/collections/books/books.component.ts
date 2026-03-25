@@ -125,6 +125,8 @@ export class BooksComponent implements OnInit {
   );
 
   collapsedCountries = signal<Record<string, boolean>>({});
+  collapsedAuthors = signal<Record<string, boolean>>({});
+  collapsedSagas = signal<Record<string, boolean>>({});
 
   yearFilterOptions = yearFilterOptions;
 
@@ -649,6 +651,28 @@ export class BooksComponent implements OnInit {
 
   isCountryCollapsed(country: string): boolean {
     return !!this.collapsedCountries()[country];
+  }
+
+  toggleAuthor(author: string): void {
+    this.collapsedAuthors.update((prev) => ({
+      ...prev,
+      [author]: !prev[author],
+    }));
+  }
+
+  isAuthorCollapsed(author: string): boolean {
+    return !!this.collapsedAuthors()[author];
+  }
+
+  toggleSaga(saga: string): void {
+    this.collapsedSagas.update((prev) => ({
+      ...prev,
+      [saga]: !prev[saga],
+    }));
+  }
+
+  isSagaCollapsed(saga: string): boolean {
+    return !!this.collapsedSagas()[saga];
   }
 
   openEditBookDialog(book: Book): void {

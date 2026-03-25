@@ -64,6 +64,29 @@ export class BdsHeaderComponent {
   selectedSort = signal<string>('rating');
   searchTerm = signal<string>('');
 
+  addBdsButtonLabel = computed(() =>
+    this.selectedView() === 'readlist' ? 'Ajouter des BD à lire' : 'Ajouter des BD'
+  );
+
+  canShowAddBdsButton = computed(
+    () => this.selectedView() === 'read' || this.selectedView() === 'readlist'
+  );
+
+  canShowUpdateBdsRatingButton = computed(() => this.selectedView() === 'read');
+
+  canShowUpdateBdsTimesReadButton = computed(
+    () => this.selectedView() === 'read'
+  );
+
+  canShowUpdateBdsOwnedButton = computed(
+    () =>
+      this.selectedView() === 'read' ||
+      this.selectedView() === 'readlist' ||
+      this.selectedView() === 'owned'
+  );
+
+  canShowTopFiveRankButton = computed(() => this.selectedView() === 'read');
+
   constructor() {
     effect(() => {
       this.selectedSort.set(this.selectedSortInput());

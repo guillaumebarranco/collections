@@ -65,6 +65,33 @@ export class MangasHeaderComponent {
   selectedSort = signal<string>('rating');
   searchTerm = signal<string>('');
 
+  addMangasButtonLabel = computed(() =>
+    this.selectedView() === 'readlist'
+      ? 'Ajouter des mangas à lire'
+      : 'Ajouter des mangas'
+  );
+
+  canShowAddMangasButton = computed(
+    () => this.selectedView() === 'read' || this.selectedView() === 'readlist'
+  );
+
+  canShowUpdateMangasRatingButton = computed(
+    () => this.selectedView() === 'read'
+  );
+
+  canShowUpdateMangasTimesReadButton = computed(
+    () => this.selectedView() === 'read'
+  );
+
+  canShowUpdateMangasOwnedButton = computed(
+    () =>
+      this.selectedView() === 'read' ||
+      this.selectedView() === 'readlist' ||
+      this.selectedView() === 'owned'
+  );
+
+  canShowTopFiveRankButton = computed(() => this.selectedView() === 'read');
+
   constructor() {
     effect(() => {
       this.selectedSort.set(this.selectedSortInput());

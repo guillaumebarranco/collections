@@ -25,6 +25,7 @@
       >
         ⚙️ Configurer ma vue séries
       </button>
+      @if (canShowAddSeriesButton()) {
       <button
         class="makya-btn-small"
         [routerLink]="getSelectSeriesRoute()"
@@ -35,12 +36,10 @@
         title="Ajouter une série"
       >
         ➕
-        {{
-          selectedView() === "watchlist"
-            ? "Ajouter des séries à voir"
-            : "Ajouter une série"
-        }}
+        {{ addSeriesButtonLabel() }}
       </button>
+      }
+      @if (canShowUpdateSeriesRatingButton()) {
       <button
         class="makya-btn-small"
         [routerLink]="getSelectSeriesRatingRoute()"
@@ -48,6 +47,8 @@
       >
         ⭐ Notes
       </button>
+      }
+      @if (canShowUpdateSeriesTimesWatchedButton()) {
       <button
         class="makya-btn-small"
         [routerLink]="getSelectSeriesTimesWatchedRoute()"
@@ -55,6 +56,8 @@
       >
         🎬 Visionnages
       </button>
+      }
+      @if (canShowUpdateSeriesOwnedButton()) {
       <button
         class="makya-btn-small"
         [routerLink]="getSelectSeriesOwnedRoute()"
@@ -62,6 +65,8 @@
       >
         ✅ Possédées
       </button>
+      }
+      @if (canShowTopFiveRankButton()) {
       <button
         class="makya-btn-small"
         [class.active]="showTopFiveRank()"
@@ -70,6 +75,7 @@
       >
         🏆 Top 5
       </button>
+      }
     </div>
   </div>
   } @if(allSeriesCount() === 0) {

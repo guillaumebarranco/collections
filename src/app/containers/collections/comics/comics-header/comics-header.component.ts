@@ -64,6 +64,33 @@ export class ComicsHeaderComponent {
   selectedSort = signal<string>('rating');
   searchTerm = signal<string>('');
 
+  addComicsButtonLabel = computed(() =>
+    this.selectedView() === 'readlist'
+      ? 'Ajouter des comics à lire'
+      : 'Ajouter des comics'
+  );
+
+  canShowAddComicsButton = computed(
+    () => this.selectedView() === 'read' || this.selectedView() === 'readlist'
+  );
+
+  canShowUpdateComicsRatingButton = computed(
+    () => this.selectedView() === 'read'
+  );
+
+  canShowUpdateComicsTimesReadButton = computed(
+    () => this.selectedView() === 'read'
+  );
+
+  canShowUpdateComicsOwnedButton = computed(
+    () =>
+      this.selectedView() === 'read' ||
+      this.selectedView() === 'readlist' ||
+      this.selectedView() === 'owned'
+  );
+
+  canShowTopFiveRankButton = computed(() => this.selectedView() === 'read');
+
   constructor() {
     effect(() => {
       this.selectedSort.set(this.selectedSortInput());

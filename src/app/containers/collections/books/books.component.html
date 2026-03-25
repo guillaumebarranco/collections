@@ -85,12 +85,21 @@
     <div class="books-by-author">
       @for (authorGroup of booksByAuthor(); track authorGroup.author) {
       <section class="books-author-section">
-        <h2 class="books-author-title">
+        <h2
+          class="books-author-title books-author-title--clickable"
+          (click)="toggleAuthor(authorGroup.author)"
+        >
+          @if (isAuthorCollapsed(authorGroup.author)) {
+          <span class="books-author-title-chevron">▶</span>
+          } @else {
+          <span class="books-author-title-chevron">▼</span>
+          }
           {{ authorGroup.author }} ({{ authorGroup.readBooks.length }} lus) ({{
             authorGroup.missingBooks.length
           }}
           restants à lire)
         </h2>
+        @if (!isAuthorCollapsed(authorGroup.author)) {
         <div class="books">
           @for (book of authorGroup.readBooks; track book.title) {
           <div class="book-card">
@@ -128,6 +137,7 @@
           </div>
         </div>
         }
+        }
       </section>
       }
     </div>
@@ -135,7 +145,15 @@
     <div class="books-by-author">
       @for (sagaGroup of booksBySaga(); track sagaGroup.saga) {
       <section class="books-author-section">
-        <h2 class="books-author-title">
+        <h2
+          class="books-author-title books-author-title--clickable"
+          (click)="toggleSaga(sagaGroup.saga)"
+        >
+          @if (isSagaCollapsed(sagaGroup.saga)) {
+          <span class="books-author-title-chevron">▶</span>
+          } @else {
+          <span class="books-author-title-chevron">▼</span>
+          }
           {{ sagaGroup.saga }} ({{ sagaGroup.readBooks.length }} lus) ({{
             sagaGroup.missingBooks.length
           }}
@@ -145,6 +163,7 @@
           <span style="color: orange">Saga en cours</span>
           }
         </h2>
+        @if (!isSagaCollapsed(sagaGroup.saga)) {
         <div class="books">
           @for (book of sagaGroup.readBooks; track book.title) {
           <div class="book-card">
@@ -181,6 +200,7 @@
             }
           </div>
         </div>
+        }
         }
       </section>
       }

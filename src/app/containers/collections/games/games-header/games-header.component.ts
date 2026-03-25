@@ -61,9 +61,35 @@ export class GamesHeaderComponent {
   stats = input.required<StatItem[]>();
 
   private readonly activatedRoute = inject(ActivatedRoute);
-  private readonly router = inject(Router);
   selectedSort = signal<string>('rating');
   searchTerm = signal<string>('');
+
+  addGamesButtonLabel = computed(() =>
+    this.selectedView() === 'gamelist'
+      ? 'Ajouter des jeux à jouer'
+      : 'Ajouter un jeu'
+  );
+
+  canShowAddGamesButton = computed(
+    () => this.selectedView() === 'played' || this.selectedView() === 'gamelist'
+  );
+
+  canShowUpdateGamesRatingButton = computed(
+    () => this.selectedView() === 'played'
+  );
+
+  canShowUpdateGamesTimesFinishedButton = computed(
+    () => this.selectedView() === 'played'
+  );
+
+  canShowUpdateGamesOwnedButton = computed(
+    () =>
+      this.selectedView() === 'played' ||
+      this.selectedView() === 'gamelist' ||
+      this.selectedView() === 'owned'
+  );
+
+  canShowTopFiveRankButton = computed(() => this.selectedView() === 'played');
 
   constructor() {
     effect(() => {

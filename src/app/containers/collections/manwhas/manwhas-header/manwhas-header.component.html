@@ -25,6 +25,7 @@
       >
         ⚙️ Configurer ma vue manwhas
       </button>
+      @if (canShowAddManwhasButton()) {
       <button
         class="makya-btn-small"
         [routerLink]="getSelectManwhasRoute()"
@@ -32,12 +33,10 @@
         title="Ajouter des manwhas"
       >
         ➕
-        {{
-          selectedView() === "readlist"
-            ? "Ajouter des manwhas à lire"
-            : "Ajouter des manwhas"
-        }}
+        {{ addManwhasButtonLabel() }}
       </button>
+      }
+      @if (canShowUpdateManwhasRatingButton()) {
       <button
         class="makya-btn-small"
         [routerLink]="getSelectManwhasRatingRoute()"
@@ -45,6 +44,8 @@
       >
         ⭐ Notes
       </button>
+      }
+      @if (canShowUpdateManwhasTimesReadButton()) {
       <button
         class="makya-btn-small"
         [routerLink]="getSelectManwhasTimesReadRoute()"
@@ -52,6 +53,8 @@
       >
         📖 Lectures
       </button>
+      }
+      @if (canShowUpdateManwhasOwnedButton()) {
       <button
         class="makya-btn-small"
         [routerLink]="getSelectManwhasOwnedRoute()"
@@ -59,6 +62,8 @@
       >
         ✅ Possédés
       </button>
+      }
+      @if (canShowTopFiveRankButton()) {
       <button
         class="makya-btn-small"
         [class.active]="showTopFiveRank()"
@@ -67,6 +72,7 @@
       >
         🏆 Top 5
       </button>
+      }
     </div>
   </div>
   } @if(allManwhasCount() === 0 && allReadlistManwhasCount() === 0) {

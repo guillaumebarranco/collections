@@ -69,6 +69,52 @@ export class BooksHeaderComponent {
   selectedYearFilter = signal<string>('all');
   searchTerm = signal<string>('');
 
+  addBooksButtonLabel = computed(() =>
+    this.selectedView() === 'readlist'
+      ? 'Ajouter des livres à lire'
+      : 'Ajouter des livres lus'
+  );
+
+  canShowAddBooksButton = computed(
+    () => this.selectedView() === 'read' || this.selectedView() === 'readlist'
+  );
+
+  canShowUpdateBooksRatingButton = computed(
+    () => this.selectedView() === 'read'
+  );
+
+  canShowUpdateBooksTimesReadButton = computed(
+    () => this.selectedView() === 'read'
+  );
+
+  canShowUpdateBooksOwnedButton = computed(
+    () =>
+      this.selectedView() === 'read' ||
+      this.selectedView() === 'readlist' ||
+      this.selectedView() === 'owned'
+  );
+
+  canShowTopFiveRankButton = computed(() => this.selectedView() === 'read');
+
+  canShowSortDropdown = computed(
+    () => this.selectedView() === 'read' || this.selectedView() === 'readlist'
+  );
+
+  canShowFiltersAndSearch = computed(
+    () =>
+      this.filteredBooksCount() > 0 &&
+      this.searchTerm() === '' &&
+      (this.selectedView() === 'read' ||
+        this.selectedView() === 'readlist' ||
+        this.selectedView() === 'toReRead' ||
+        this.selectedView() === 'owned' ||
+        this.selectedView() === 'recommendations')
+  );
+
+  noDataForThisView = computed(
+    () => this.filteredBooksCount() === 0 && this.searchTerm() === ''
+  );
+
   constructor() {
     // Synchroniser les inputs avec les signaux locaux
     effect(() => {

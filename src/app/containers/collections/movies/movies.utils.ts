@@ -2,12 +2,12 @@ import { Movie } from '../../../models/movie-model';
 
 export type MovieView =
   | 'watched'
-  | 'cinema'
   | 'watchlist'
+  | 'toReWatch'
+  | 'cinema'
   | 'owned'
   | 'borrowed'
   | 'loaned'
-  | 'toReWatch'
   | 'sagas'
   | 'actors'
   | 'directors'
@@ -152,12 +152,12 @@ export const viewedMoviesSortOptions: { value: string; label: string }[] = [
 
 export const movieViewOptions: { value: MovieView; label: string }[] = [
   { value: 'watched', label: 'Vus' },
-  { value: 'cinema', label: 'Vus au cinéma' },
   { value: 'watchlist', label: 'À voir' },
+  { value: 'toReWatch', label: 'À revoir' },
+  { value: 'cinema', label: 'Vus au cinéma' },
   { value: 'owned', label: 'Possédés' },
   { value: 'borrowed', label: 'Films empruntés' },
   { value: 'loaned', label: 'Films prêtés' },
-  { value: 'toReWatch', label: 'À revoir' },
   { value: 'sagas', label: 'Voir par sagas' },
   { value: 'actors', label: 'Voir par acteurs' },
   { value: 'directors', label: 'Voir par réalisateurs' },

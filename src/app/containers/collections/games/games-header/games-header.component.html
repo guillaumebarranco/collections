@@ -25,6 +25,7 @@
       >
         ⚙️ Configurer ma vue jeux
       </button>
+      @if (canShowAddGamesButton()) {
       <button
         class="makya-btn-small"
         [routerLink]="getSelectGamesRoute()"
@@ -35,12 +36,10 @@
         title="Ajouter un jeu"
       >
         ➕
-        {{
-          selectedView() === "gamelist"
-            ? "Ajouter des jeux à jouer"
-            : "Ajouter un jeu"
-        }}
+        {{ addGamesButtonLabel() }}
       </button>
+      }
+      @if (canShowUpdateGamesRatingButton()) {
       <button
         class="makya-btn-small"
         [routerLink]="getSelectGamesRatingRoute()"
@@ -48,6 +47,8 @@
       >
         ⭐ Notes
       </button>
+      }
+      @if (canShowUpdateGamesTimesFinishedButton()) {
       <button
         class="makya-btn-small"
         [routerLink]="getSelectGamesTimesFinishedRoute()"
@@ -55,6 +56,8 @@
       >
         🎮 Terminés
       </button>
+      }
+      @if (canShowUpdateGamesOwnedButton()) {
       <button
         class="makya-btn-small"
         [routerLink]="getSelectGamesOwnedRoute()"
@@ -62,6 +65,8 @@
       >
         ✅ Possédés
       </button>
+      }
+      @if (canShowTopFiveRankButton()) {
       <button
         class="makya-btn-small"
         [class.active]="showTopFiveRank()"
@@ -70,6 +75,7 @@
       >
         🏆 Top 5
       </button>
+      }
     </div>
   </div>
   } @if(allGamesCount() === 0 && allGamelistGamesCount() === 0) {

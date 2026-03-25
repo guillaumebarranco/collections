@@ -26,8 +26,7 @@
         ⚙️ Configurer ma vue films
       </button>
 
-      @if(selectedView() === 'watched' || selectedView() === 'watchlist' ||
-      selectedView() === 'cinema') {
+      @if (canShowAddMoviesButton()) {
       <button
         class="makya-btn-small"
         [routerLink]="getSelectMoviesRoute()"
@@ -38,15 +37,9 @@
         title="Ajouter un film"
       >
         ➕
-        {{
-          selectedView() === "watchlist"
-            ? "Ajouter des films à voir"
-            : selectedView() === "cinema"
-            ? "Modifier mes films vus au cinema"
-            : "Ajouter des films vus"
-        }}
+        {{ addMoviesButtonLabel() }}
       </button>
-      } @if(selectedView() === 'watched') {
+      } @if (canShowUpdateMoviesRatingButton()) {
 
       <ng-container>
         <button
@@ -56,6 +49,9 @@
         >
           ⭐ Notes
         </button>
+      </ng-container>
+      } @if (canShowUpdateMoviesTimesWatchedButton()) {
+      <ng-container>
         <button
           class="makya-btn-small"
           [routerLink]="getSelectMoviesTimesWatchedRoute()"
@@ -63,6 +59,9 @@
         >
           🎬 Visionnages
         </button>
+      </ng-container>
+      } @if (canShowUpdateMoviesOwnedButton()) {
+      <ng-container>
         <button
           class="makya-btn-small"
           [routerLink]="getSelectMoviesOwnedRoute()"
@@ -70,6 +69,9 @@
         >
           ✅ Possédés
         </button>
+      </ng-container>
+      } @if (canShowTopFiveRankButton()) {
+      <ng-container>
         <button
           class="makya-btn-small"
           [class.active]="showTopFiveRank()"
@@ -93,7 +95,8 @@
     </button>
   </div>
   } @if(filteredMoviesByYearCount() === 0 && selectedView() !== 'watchlist' &&
-  selectedView() !== 'toReWatch' && allMoviesCount() !== 0) {
+  selectedView() !== 'toReWatch' && allMoviesCount() !== 0 && selectedView() !==
+  'loaned' && selectedView() !== 'borrowed' && selectedView() !== 'owned') {
   <div class="empty-state">
     <p class="empty-message">Aucun film à afficher pour cette sélection.</p>
     <p class="empty-subtitle">
@@ -115,7 +118,7 @@
     </button>
     }
   </div>
-  } @if (showFiltersAndSearch()) {
+  } @if (showFiltersAndSearch() && canShowFiltersAndSearch()) {
   <div class="movies-stats-bloc">
     <ng-content select="[movies-stats-bloc-content]"></ng-content>
     <ng-content select="[movies-filters]"></ng-content>
@@ -131,23 +134,39 @@
       />
     </div>
     @if (selectedView() === 'watched' && userMoviesLists().length > 0) {
-    <div class="movies-list-filters" role="group" aria-label="Filtrer par liste">
+    <div
+      class="movies-list-filters"
+      role="group"
+      aria-label="Filtrer par liste"
+    >
       @for (list of userMoviesLists(); track list.name) {
       <button
         type="button"
         class="movies-list-filter-chip"
-        [class.movies-list-filter-chip--selected]="selectedListFilter() === list.name"
+        [class.movies-list-filter-chip--selected]="
+          selectedListFilter() === list.name
+        "
         [style.--list-color]="list.color"
-        (click)="onListFilterChange.emit(selectedListFilter() === list.name ? null : list.name)"
+        (click)="
+          onListFilterChange.emit(
+            selectedListFilter() === list.name ? null : list.name
+          )
+        "
         [attr.aria-pressed]="selectedListFilter() === list.name"
         [attr.aria-label]="'Filtrer par liste : ' + list.name"
       >
-        <span class="movies-list-filter-chip__icon" aria-hidden="true">{{ list.icon }}</span>
+        <span class="movies-list-filter-chip__icon" aria-hidden="true">{{
+          list.icon
+        }}</span>
         <span class="movies-list-filter-chip__name">{{ list.name }}</span>
       </button>
       }
     </div>
     }
+  </div>
+  } @if(noDataForThisView()) {
+  <div class="empty-state">
+    <p class="empty-message">Aucun film à afficher pour cette sélection.</p>
   </div>
   }
 </div>

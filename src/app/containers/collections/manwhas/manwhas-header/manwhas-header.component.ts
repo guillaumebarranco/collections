@@ -64,6 +64,33 @@ export class ManwhasHeaderComponent {
   selectedSort = signal<string>('rating');
   searchTerm = signal<string>('');
 
+  addManwhasButtonLabel = computed(() =>
+    this.selectedView() === 'readlist'
+      ? 'Ajouter des manwhas à lire'
+      : 'Ajouter des manwhas'
+  );
+
+  canShowAddManwhasButton = computed(
+    () => this.selectedView() === 'read' || this.selectedView() === 'readlist'
+  );
+
+  canShowUpdateManwhasRatingButton = computed(
+    () => this.selectedView() === 'read'
+  );
+
+  canShowUpdateManwhasTimesReadButton = computed(
+    () => this.selectedView() === 'read'
+  );
+
+  canShowUpdateManwhasOwnedButton = computed(
+    () =>
+      this.selectedView() === 'read' ||
+      this.selectedView() === 'readlist' ||
+      this.selectedView() === 'owned'
+  );
+
+  canShowTopFiveRankButton = computed(() => this.selectedView() === 'read');
+
   constructor() {
     effect(() => {
       this.selectedSort.set(this.selectedSortInput());

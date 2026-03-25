@@ -53,6 +53,56 @@ export class MoviesHeaderComponent {
 
   searchTerm = signal<string>('');
 
+  addMoviesButtonLabel = computed(() =>
+    this.selectedView() === 'watchlist'
+      ? 'Ajouter des films à voir'
+      : this.selectedView() === 'cinema'
+      ? 'Modifier mes films vus au cinema'
+      : 'Ajouter des films vus'
+  );
+
+  canShowAddMoviesButton = computed(
+    () =>
+      this.selectedView() === 'watched' ||
+      this.selectedView() === 'watchlist' ||
+      this.selectedView() === 'cinema'
+  );
+
+  canShowUpdateMoviesRatingButton = computed(
+    () => this.selectedView() === 'watched' || this.selectedView() === 'cinema'
+  );
+
+  canShowUpdateMoviesTimesWatchedButton = computed(
+    () => this.selectedView() === 'watched' || this.selectedView() === 'cinema'
+  );
+
+  canShowUpdateMoviesOwnedButton = computed(
+    () =>
+      this.selectedView() === 'watched' ||
+      this.selectedView() === 'cinema' ||
+      this.selectedView() === 'owned'
+  );
+
+  canShowTopFiveRankButton = computed(() => this.selectedView() === 'watched');
+
+  canShowFiltersAndSearch = computed(
+    () =>
+      this.filteredMoviesByYearCount() > 0 &&
+      this.searchTerm() === '' &&
+      this.selectedListFilter() === null &&
+      (this.selectedView() === 'watched' ||
+        this.selectedView() === 'watchlist' ||
+        this.selectedView() === 'cinema' ||
+        this.selectedView() === 'owned')
+  );
+
+  noDataForThisView = computed(
+    () =>
+      this.filteredMoviesByYearCount() === 0 &&
+      this.searchTerm() === '' &&
+      this.selectedListFilter() === null
+  );
+
   moviesPageTitle = computed(() =>
     this.selectedView() === 'watchlist'
       ? 'Films à voir'

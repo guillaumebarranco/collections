@@ -513,9 +513,7 @@
         <input
           type="checkbox"
           [checked]="optionalViewConfig().loaned"
-          (change)="
-            onOptionalViewChange('loaned', $any($event.target).checked)
-          "
+          (change)="onOptionalViewChange('loaned', $any($event.target).checked)"
         />
         Films prêtés
       </label>

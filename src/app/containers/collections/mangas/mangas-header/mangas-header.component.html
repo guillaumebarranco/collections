@@ -25,6 +25,7 @@
       >
         ⚙️ Configurer ma vue mangas
       </button>
+      @if (canShowAddMangasButton()) {
       <button
         class="makya-btn-small"
         [routerLink]="getSelectMangasRoute()"
@@ -32,12 +33,10 @@
         title="Ajouter des mangas"
       >
         ➕
-        {{
-          selectedView() === "readlist"
-            ? "Ajouter des mangas à lire"
-            : "Ajouter des mangas"
-        }}
+        {{ addMangasButtonLabel() }}
       </button>
+      }
+      @if (canShowUpdateMangasRatingButton()) {
       <button
         class="makya-btn-small"
         [routerLink]="getSelectMangasRatingRoute()"
@@ -45,6 +44,8 @@
       >
         ⭐ Notes
       </button>
+      }
+      @if (canShowUpdateMangasTimesReadButton()) {
       <button
         class="makya-btn-small"
         [routerLink]="getSelectMangasTimesReadRoute()"
@@ -52,6 +53,8 @@
       >
         📖 Lectures
       </button>
+      }
+      @if (canShowUpdateMangasOwnedButton()) {
       <button
         class="makya-btn-small"
         [routerLink]="getSelectMangasOwnedRoute()"
@@ -59,6 +62,8 @@
       >
         ✅ Possédés
       </button>
+      }
+      @if (canShowTopFiveRankButton()) {
       <button
         class="makya-btn-small"
         [class.active]="showTopFiveRank()"
@@ -67,6 +72,7 @@
       >
         🏆 Top 5
       </button>
+      }
     </div>
   </div>
   } @if(allMangasCount() === 0 && allReadlistMangasCount() === 0) {

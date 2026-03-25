@@ -63,6 +63,34 @@ export class SeriesHeaderComponent {
   selectedSort = signal<string>('rating');
   searchTerm = signal<string>('');
 
+  addSeriesButtonLabel = computed(() =>
+    this.selectedView() === 'watchlist'
+      ? 'Ajouter des séries à voir'
+      : 'Ajouter une série'
+  );
+
+  canShowAddSeriesButton = computed(
+    () =>
+      this.selectedView() === 'finished' || this.selectedView() === 'watchlist'
+  );
+
+  canShowUpdateSeriesRatingButton = computed(
+    () => this.selectedView() === 'finished'
+  );
+
+  canShowUpdateSeriesTimesWatchedButton = computed(
+    () => this.selectedView() === 'finished'
+  );
+
+  canShowUpdateSeriesOwnedButton = computed(
+    () =>
+      this.selectedView() === 'finished' ||
+      this.selectedView() === 'watchlist' ||
+      this.selectedView() === 'owned'
+  );
+
+  canShowTopFiveRankButton = computed(() => this.selectedView() === 'finished');
+
   constructor() {
     effect(() => {
       this.selectedSort.set(this.selectedSortInput());
