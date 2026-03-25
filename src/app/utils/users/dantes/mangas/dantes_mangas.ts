@@ -235,10 +235,12 @@ export const dantesMangas: UserManga[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
   },
 
   {
-    title: 'L\'attaque des titans',
+    title: "L'attaque des titans",
     author: 'Isayama Hajime',
     readDate: '',
     rating: 0,
@@ -247,6 +249,8 @@ export const dantesMangas: UserManga[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
   },
 
   {
@@ -259,6 +263,8 @@ export const dantesMangas: UserManga[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
   },
 
   {
@@ -271,6 +277,8 @@ export const dantesMangas: UserManga[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
   },
 
   {
@@ -283,6 +291,8 @@ export const dantesMangas: UserManga[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
   },
 
   {
@@ -295,6 +305,8 @@ export const dantesMangas: UserManga[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
   },
 
   {
@@ -307,6 +319,8 @@ export const dantesMangas: UserManga[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
   },
 
   {
@@ -319,6 +333,8 @@ export const dantesMangas: UserManga[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
   },
 
   {
@@ -331,6 +347,8 @@ export const dantesMangas: UserManga[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
   },
 
   {
@@ -343,5 +361,7 @@ export const dantesMangas: UserManga[] = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
+    borrowed: '',
+    loaned: '',
   },
 ];
