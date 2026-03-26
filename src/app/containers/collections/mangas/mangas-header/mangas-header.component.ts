@@ -98,13 +98,13 @@ export class MangasHeaderComponent {
 
   canShowFiltersAndSearch = computed(
     () =>
-      this.filteredMangasCount() > 0 &&
-      this.searchTerm() === '' &&
-      (this.selectedView() === 'read' ||
-        this.selectedView() === 'readlist' ||
-        this.selectedView() === 'toReRead' ||
-        this.selectedView() === 'owned' ||
-        this.selectedView() === 'recommendations')
+      (this.filteredMangasCount() > 0 && this.searchTerm() === '') ||
+      (this.searchTerm() !== '' &&
+        (this.selectedView() === 'read' ||
+          this.selectedView() === 'readlist' ||
+          this.selectedView() === 'toReRead' ||
+          this.selectedView() === 'owned' ||
+          this.selectedView() === 'recommendations'))
   );
 
   noDataForThisView = computed(
@@ -145,16 +145,16 @@ export class MangasHeaderComponent {
     this.selectedView() === 'readlist'
       ? 'Mangas à lire'
       : this.selectedView() === 'owned'
-        ? 'Mangas possédés'
-        : this.selectedView() === 'borrowed'
-          ? 'Mangas empruntés'
-          : this.selectedView() === 'loaned'
-            ? 'Mangas prêtés'
-            : this.selectedView() === 'toReRead'
-              ? 'Mangas à relire'
-              : this.selectedView() === 'recommendations'
-                ? 'Recommandations'
-                : 'Mangas lus'
+      ? 'Mangas possédés'
+      : this.selectedView() === 'borrowed'
+      ? 'Mangas empruntés'
+      : this.selectedView() === 'loaned'
+      ? 'Mangas prêtés'
+      : this.selectedView() === 'toReRead'
+      ? 'Mangas à relire'
+      : this.selectedView() === 'recommendations'
+      ? 'Recommandations'
+      : 'Mangas lus'
   );
 
   getSelectMangasRoute(): string {

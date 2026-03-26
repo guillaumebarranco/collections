@@ -65,7 +65,9 @@ export class BdsHeaderComponent {
   searchTerm = signal<string>('');
 
   addBdsButtonLabel = computed(() =>
-    this.selectedView() === 'readlist' ? 'Ajouter des BD à lire' : 'Ajouter des BD'
+    this.selectedView() === 'readlist'
+      ? 'Ajouter des BD à lire'
+      : 'Ajouter des BD'
   );
 
   canShowAddBdsButton = computed(
@@ -93,13 +95,13 @@ export class BdsHeaderComponent {
 
   canShowFiltersAndSearch = computed(
     () =>
-      this.filteredBdsCount() > 0 &&
-      this.searchTerm() === '' &&
-      (this.selectedView() === 'read' ||
-        this.selectedView() === 'readlist' ||
-        this.selectedView() === 'toReRead' ||
-        this.selectedView() === 'owned' ||
-        this.selectedView() === 'recommendations')
+      (this.filteredBdsCount() > 0 && this.searchTerm() === '') ||
+      (this.searchTerm() !== '' &&
+        (this.selectedView() === 'read' ||
+          this.selectedView() === 'readlist' ||
+          this.selectedView() === 'toReRead' ||
+          this.selectedView() === 'owned' ||
+          this.selectedView() === 'recommendations'))
   );
 
   noDataForThisView = computed(
@@ -121,7 +123,7 @@ export class BdsHeaderComponent {
       case 'loaned':
         return 'Vous n\'avez marqué aucune BD comme "prêtée". Sur vos BD lues ou à lire, éditez une fiche pour indiquer le prêt.';
       case 'sagas':
-        return 'Aucune BD à regrouper par saga pour l\'instant. Ajoutez des BD ou complétez le champ saga.';
+        return "Aucune BD à regrouper par saga pour l'instant. Ajoutez des BD ou complétez le champ saga.";
       case 'recommendations':
         return 'Aucune recommandation pour le moment.';
       default:
@@ -142,18 +144,18 @@ export class BdsHeaderComponent {
     this.selectedView() === 'readlist'
       ? 'BD à lire'
       : this.selectedView() === 'owned'
-        ? 'BD possédées'
-        : this.selectedView() === 'borrowed'
-          ? 'BD empruntées'
-          : this.selectedView() === 'loaned'
-            ? 'BD prêtées'
-            : this.selectedView() === 'toReRead'
-              ? 'BD à relire'
-              : this.selectedView() === 'sagas'
-                ? 'BD par saga'
-                : this.selectedView() === 'recommendations'
-                  ? 'Recommandations'
-                  : 'BD lues'
+      ? 'BD possédées'
+      : this.selectedView() === 'borrowed'
+      ? 'BD empruntées'
+      : this.selectedView() === 'loaned'
+      ? 'BD prêtées'
+      : this.selectedView() === 'toReRead'
+      ? 'BD à relire'
+      : this.selectedView() === 'sagas'
+      ? 'BD par saga'
+      : this.selectedView() === 'recommendations'
+      ? 'Recommandations'
+      : 'BD lues'
   );
 
   getSelectBdsRoute(): string {

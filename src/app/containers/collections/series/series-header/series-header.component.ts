@@ -93,19 +93,18 @@ export class SeriesHeaderComponent {
 
   canShowSortDropdown = computed(
     () =>
-      this.selectedView() === 'finished' ||
-      this.selectedView() === 'watchlist'
+      this.selectedView() === 'finished' || this.selectedView() === 'watchlist'
   );
 
   canShowFiltersAndSearch = computed(
     () =>
-      this.filteredSeriesCount() > 0 &&
-      this.searchTerm() === '' &&
-      (this.selectedView() === 'finished' ||
-        this.selectedView() === 'watchlist' ||
-        this.selectedView() === 'toReWatch' ||
-        this.selectedView() === 'owned' ||
-        this.selectedView() === 'recommendations')
+      (this.filteredSeriesCount() > 0 && this.searchTerm() === '') ||
+      (this.searchTerm() !== '' &&
+        (this.selectedView() === 'finished' ||
+          this.selectedView() === 'watchlist' ||
+          this.selectedView() === 'toReWatch' ||
+          this.selectedView() === 'owned' ||
+          this.selectedView() === 'recommendations'))
   );
 
   noDataForThisView = computed(
@@ -127,9 +126,9 @@ export class SeriesHeaderComponent {
       case 'loaned':
         return 'Vous n\'avez marqué aucune série comme "prêtée". Éditez une fiche pour indiquer le prêt.';
       case 'sagas':
-        return 'Aucune série à regrouper par saga pour l\'instant. Ajoutez des séries ou complétez le champ saga.';
+        return "Aucune série à regrouper par saga pour l'instant. Ajoutez des séries ou complétez le champ saga.";
       case 'countries':
-        return 'Aucune donnée par pays pour l\'instant. Complétez les pays sur vos séries.';
+        return "Aucune donnée par pays pour l'instant. Complétez les pays sur vos séries.";
       case 'recommendations':
         return 'Aucune recommandation pour le moment.';
       default:
@@ -150,20 +149,20 @@ export class SeriesHeaderComponent {
     this.selectedView() === 'watchlist'
       ? 'Séries à voir'
       : this.selectedView() === 'owned'
-        ? 'Séries possédées'
-        : this.selectedView() === 'borrowed'
-          ? 'Séries empruntées'
-          : this.selectedView() === 'loaned'
-            ? 'Séries prêtées'
-            : this.selectedView() === 'toReWatch'
-              ? 'Séries à revoir'
-              : this.selectedView() === 'sagas'
-                ? 'Séries par saga'
-                : this.selectedView() === 'recommendations'
-                  ? 'Recommandations'
-                  : this.selectedView() === 'countries'
-                    ? 'Séries par pays'
-                    : 'Séries finies'
+      ? 'Séries possédées'
+      : this.selectedView() === 'borrowed'
+      ? 'Séries empruntées'
+      : this.selectedView() === 'loaned'
+      ? 'Séries prêtées'
+      : this.selectedView() === 'toReWatch'
+      ? 'Séries à revoir'
+      : this.selectedView() === 'sagas'
+      ? 'Séries par saga'
+      : this.selectedView() === 'recommendations'
+      ? 'Recommandations'
+      : this.selectedView() === 'countries'
+      ? 'Séries par pays'
+      : 'Séries finies'
   );
 
   getSelectSeriesRoute(): string {

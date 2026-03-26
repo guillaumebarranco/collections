@@ -209,7 +209,7 @@ export const guillaumeBooksFantasySaga: UserBooks = [
     wantToReadAgain: false,
     ratingComment: '',
     borrowed: '',
-    loaned: '',
+    loaned: 'Aelys',
   },
   {
     title: 'Le livre interdit',

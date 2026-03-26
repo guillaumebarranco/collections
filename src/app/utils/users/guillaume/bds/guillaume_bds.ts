@@ -12,7 +12,7 @@ export const guillaumeBds: UserBds = [
     wantToReadAgain: false,
     ratingComment: '',
     borrowed: '',
-    loaned: '',
+    loaned: 'Thibault',
   },
   {
     title: 'CommitStrip : Rise of The Coders',

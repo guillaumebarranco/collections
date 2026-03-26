@@ -66,7 +66,7 @@ export const guillaumeWatchlistMovies: UserMovies = [
     inList: [],
   },
   {
-    title: "Le Crime de l'Orient-Express",
+    title: 'Le Crime de l\'Orient-Express',
     director: 'Kenneth Branagh',
     rating: 0,
     timesWatched: 0,
@@ -130,7 +130,7 @@ export const guillaumeWatchlistMovies: UserMovies = [
     inList: [],
   },
   {
-    title: "L'Étrange Histoire de Benjamin Button",
+    title: 'L\'Étrange Histoire de Benjamin Button',
     director: 'David Fincher',
     rating: 0,
     timesWatched: 0,
@@ -194,7 +194,7 @@ export const guillaumeWatchlistMovies: UserMovies = [
     inList: [],
   },
   {
-    title: "Atlantis : L'Empire perdu",
+    title: 'Atlantis : L\'Empire perdu',
     director: 'Gary Trousdale, Kirk Wise',
     rating: 0,
     timesWatched: 0,
@@ -322,7 +322,7 @@ export const guillaumeWatchlistMovies: UserMovies = [
     inList: [],
   },
   {
-    title: "L'amour au présent",
+    title: 'L\'amour au présent',
     director: 'John Crowley',
     rating: 0,
     timesWatched: 0,
@@ -466,7 +466,7 @@ export const guillaumeWatchlistMovies: UserMovies = [
     inList: [],
   },
   {
-    title: "À tous les garçons que j'ai aimés",
+    title: 'À tous les garçons que j\'ai aimés',
     director: 'Susan Johnson',
     rating: 0,
     timesWatched: 0,
@@ -594,7 +594,7 @@ export const guillaumeWatchlistMovies: UserMovies = [
     inList: [],
   },
   {
-    title: "Ennemi d'Etat",
+    title: 'Ennemi d\'Etat',
     director: 'Tony Scott',
     rating: 0,
     timesWatched: 0,
@@ -690,7 +690,7 @@ export const guillaumeWatchlistMovies: UserMovies = [
     inList: [],
   },
   {
-    title: "L'Expert",
+    title: 'L\'Expert',
     director: 'James Mangold',
     rating: 0,
     timesWatched: 0,
@@ -1010,7 +1010,7 @@ export const guillaumeWatchlistMovies: UserMovies = [
     inList: [],
   },
   {
-    title: "Spy game, jeu d'espions",
+    title: 'Spy game, jeu d\'espions',
     director: 'Tony Scott',
     rating: 0,
     timesWatched: 0,
@@ -1250,7 +1250,7 @@ export const guillaumeWatchlistMovies: UserMovies = [
     inList: [],
   },
   {
-    title: "Une bataille après l'autre",
+    title: 'Une bataille après l\'autre',
     director: 'Paul Thomas Anderson',
     rating: 0,
     timesWatched: 0,
@@ -1394,7 +1394,7 @@ export const guillaumeWatchlistMovies: UserMovies = [
     inList: [],
   },
   {
-    title: "L'Amour sans préavis",
+    title: 'L\'Amour sans préavis',
     director: 'Marc Lawrence',
     rating: 0,
     timesWatched: 0,
@@ -1603,7 +1603,7 @@ export const guillaumeWatchlistMovies: UserMovies = [
   },
   {
     title: 'Hurlevent',
-    director: "Frances O'Connor",
+    director: 'Frances O\'Connor',
     rating: 0,
     timesWatched: 0,
     firstViewedDate: '',
@@ -1666,7 +1666,7 @@ export const guillaumeWatchlistMovies: UserMovies = [
     inList: [],
   },
   {
-    title: "L'impasse",
+    title: 'L\'impasse',
     director: 'Brian De Palma',
     rating: 0,
     timesWatched: 0,
@@ -1698,7 +1698,7 @@ export const guillaumeWatchlistMovies: UserMovies = [
     inList: [],
   },
   {
-    title: "Le Discours d'un roi",
+    title: 'Le Discours d\'un roi',
     director: 'Tom Hooper',
     rating: 0,
     timesWatched: 0,
@@ -1795,7 +1795,7 @@ export const guillaumeWatchlistMovies: UserMovies = [
   },
   {
     title: 'Jane Got a Gun',
-    director: "Gavin O'Connor",
+    director: 'Gavin O\'Connor',
     rating: 0,
     timesWatched: 0,
     firstViewedDate: '',
@@ -2114,7 +2114,7 @@ export const guillaumeWatchlistMovies: UserMovies = [
     inList: [],
   },
   {
-    title: "Jennifer's Body",
+    title: 'Jennifer\'s Body',
     director: 'Karyn Kusama',
     rating: 0,
     timesWatched: 0,
@@ -2690,7 +2690,7 @@ export const guillaumeWatchlistMovies: UserMovies = [
     inList: [],
   },
   {
-    title: "Des hommes d'honneur",
+    title: 'Des hommes d\'honneur',
     director: 'Rob Reiner',
     rating: 0,
     timesWatched: 0,
@@ -2722,7 +2722,7 @@ export const guillaumeWatchlistMovies: UserMovies = [
     inList: [],
   },
   {
-    title: "L'Homme au masque de fer",
+    title: 'L\'Homme au masque de fer',
     director: 'Randall Wallace',
     rating: 0,
     timesWatched: 0,
@@ -2755,7 +2755,7 @@ export const guillaumeWatchlistMovies: UserMovies = [
   },
   {
     title: 'Sweet November',
-    director: "Pat O'Connor",
+    director: 'Pat O\'Connor',
     rating: 0,
     timesWatched: 0,
     firstViewedDate: '',
@@ -2978,7 +2978,7 @@ export const guillaumeWatchlistMovies: UserMovies = [
     inList: [],
   },
   {
-    title: "L'Homme qui murmurait à l'oreille des chevaux",
+    title: 'L\'Homme qui murmurait à l\'oreille des chevaux',
     director: 'Robert Redford',
     rating: 0,
     timesWatched: 0,
@@ -3250,7 +3250,7 @@ export const guillaumeWatchlistMovies: UserMovies = [
     inList: [],
   },
   {
-    title: "À tous les garçons : P.S. Je t'aime toujours",
+    title: 'À tous les garçons : P.S. Je t\'aime toujours',
     director: 'Michael Fimognari',
     rating: 0,
     timesWatched: 0,
@@ -3456,5 +3456,6 @@ export const guillaumeWatchlistMovies: UserMovies = [
     borrowed: '',
     loaned: '',
     inList: [],
-  },
+  }
 ];
+

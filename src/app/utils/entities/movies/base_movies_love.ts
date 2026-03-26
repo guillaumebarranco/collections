@@ -1622,4 +1622,25 @@ export const baseMoviesLove: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: 'France',
   },
+  {
+    title: 'Friendzone',
+    director: 'Charles Van Tieghem',
+    actors: [
+      {
+        name: 'Mickaël Lumière',
+      },
+      {
+        name: 'Manon Azem',
+      },
+    ],
+    coverUrl:
+      'https://image.pmgstatic.com/cache/resized/w420/files/images/film/posters/165/691/165691077_0f7996.jpg',
+    releaseDate: '2021-09-29',
+    length: 88,
+    genre: 'Comedy, Romance',
+    saga: '',
+    description: '',
+    fromEntity: null,
+    countryOrigin: 'France',
+  },
 ];

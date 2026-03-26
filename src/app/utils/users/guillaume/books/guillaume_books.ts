@@ -668,7 +668,7 @@ export const guillaumeBooks: UserBooks = [
     readTimes: 3,
     owned: true,
     borrowed: '',
-    loaned: '',
+    loaned: 'Aelys',
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',

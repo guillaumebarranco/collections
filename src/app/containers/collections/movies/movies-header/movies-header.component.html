@@ -130,7 +130,7 @@
         type="text"
         placeholder="Rechercher par titre, réalisateur, acteur..."
         [ngModel]="searchTerm()"
-        (ngModelChange)="onSearchChange.emit($event)"
+        (ngModelChange)="handleSearchChange($event)"
       />
     </div>
     @if (selectedView() === 'watched' && userMoviesLists().length > 0) {

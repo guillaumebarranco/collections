@@ -92,18 +92,17 @@ export class GamesHeaderComponent {
   canShowTopFiveRankButton = computed(() => this.selectedView() === 'played');
 
   canShowSortDropdown = computed(
-    () =>
-      this.selectedView() === 'played' || this.selectedView() === 'gamelist'
+    () => this.selectedView() === 'played' || this.selectedView() === 'gamelist'
   );
 
   canShowFiltersAndSearch = computed(
     () =>
-      this.filteredGamesCount() > 0 &&
-      this.searchTerm() === '' &&
-      (this.selectedView() === 'played' ||
-        this.selectedView() === 'gamelist' ||
-        this.selectedView() === 'owned' ||
-        this.selectedView() === 'recommendations')
+      (this.filteredGamesCount() > 0 && this.searchTerm() === '') ||
+      (this.searchTerm() !== '' &&
+        (this.selectedView() === 'played' ||
+          this.selectedView() === 'gamelist' ||
+          this.selectedView() === 'owned' ||
+          this.selectedView() === 'recommendations'))
   );
 
   noDataForThisView = computed(
@@ -148,14 +147,14 @@ export class GamesHeaderComponent {
     this.selectedView() === 'gamelist'
       ? '🎮 Jeux à jouer'
       : this.selectedView() === 'owned'
-        ? '🎮 Jeux possédés'
-        : this.selectedView() === 'borrowed'
-          ? '🎮 Jeux empruntés'
-          : this.selectedView() === 'loaned'
-            ? '🎮 Jeux prêtés'
-            : this.selectedView() === 'recommendations'
-              ? 'Recommandations'
-              : '🎮 Jeux vidéo'
+      ? '🎮 Jeux possédés'
+      : this.selectedView() === 'borrowed'
+      ? '🎮 Jeux empruntés'
+      : this.selectedView() === 'loaned'
+      ? '🎮 Jeux prêtés'
+      : this.selectedView() === 'recommendations'
+      ? 'Recommandations'
+      : '🎮 Jeux vidéo'
   );
 
   getSelectGamesRoute(): string {

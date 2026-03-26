@@ -102,13 +102,13 @@ export class BooksHeaderComponent {
 
   canShowFiltersAndSearch = computed(
     () =>
-      this.filteredBooksCount() > 0 &&
-      this.searchTerm() === '' &&
-      (this.selectedView() === 'read' ||
-        this.selectedView() === 'readlist' ||
-        this.selectedView() === 'toReRead' ||
-        this.selectedView() === 'owned' ||
-        this.selectedView() === 'recommendations')
+      (this.filteredBooksCount() > 0 && this.searchTerm() === '') ||
+      (this.searchTerm() !== '' &&
+        (this.selectedView() === 'read' ||
+          this.selectedView() === 'readlist' ||
+          this.selectedView() === 'toReRead' ||
+          this.selectedView() === 'owned' ||
+          this.selectedView() === 'recommendations'))
   );
 
   noDataForThisView = computed(

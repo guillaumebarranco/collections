@@ -2,6 +2,7 @@ import {
   ChangeDetectionStrategy,
   Component,
   computed,
+  effect,
   inject,
   input,
   output,
@@ -53,6 +54,15 @@ export class MoviesHeaderComponent {
 
   searchTerm = signal<string>('');
 
+  constructor() {
+    // Quand on change de contexte (vue), on remet l'input de recherche à zéro.
+    // Sinon, `canShowFiltersAndSearch()` peut rester basé sur une recherche obsolète.
+    effect(() => {
+      this.selectedView();
+      this.searchTerm.set('');
+    });
+  }
+
   addMoviesButtonLabel = computed(() =>
     this.selectedView() === 'watchlist'
       ? 'Ajouter des films à voir'
@@ -87,9 +97,8 @@ export class MoviesHeaderComponent {
 
   canShowFiltersAndSearch = computed(
     () =>
-      this.filteredMoviesByYearCount() > 0 &&
-      this.searchTerm() === '' &&
-      this.selectedListFilter() === null &&
+      (this.searchTerm() !== '' ||
+        (this.filteredMoviesByYearCount() > 0 && this.searchTerm() === '')) &&
       (this.selectedView() === 'watched' ||
         this.selectedView() === 'watchlist' ||
         this.selectedView() === 'cinema' ||
@@ -112,7 +121,7 @@ export class MoviesHeaderComponent {
       case 'toReWatch':
         return 'Vous n\'avez marqué aucun film comme "à revoir". Rendez-vous sur vos films visionnés et éditez une fiche pour le marquer comme "à revoir".';
       case 'cinema':
-        return 'Vous n\'avez indiqué aucun film vu au cinéma. Sélectionnez parmi vos films vus ceux vus au cinéma.';
+        return "Vous n'avez indiqué aucun film vu au cinéma. Sélectionnez parmi vos films vus ceux vus au cinéma.";
       case 'owned':
         return 'Vous n\'avez marqué aucun film comme "possédé". Utilisez le bouton "Possédés" au-dessus.';
       case 'borrowed':
@@ -120,7 +129,7 @@ export class MoviesHeaderComponent {
       case 'loaned':
         return 'Vous n\'avez marqué aucun film comme "prêté". Éditez une fiche pour indiquer le prêt.';
       case 'sagas':
-        return 'Aucun film à regrouper par saga pour l\'instant. Complétez les sagas sur vos films.';
+        return "Aucun film à regrouper par saga pour l'instant. Complétez les sagas sur vos films.";
       case 'actors':
         return 'Aucun film à afficher par acteur. Ajoutez des acteurs ou des films.';
       case 'directors':
@@ -133,6 +142,13 @@ export class MoviesHeaderComponent {
         return "Vous n'avez aucun film à afficher pour cette sélection.";
     }
   });
+
+  handleSearchChange(value: string): void {
+    // IMPORTANT: on met aussi à jour le signal local
+    // pour que `canShowFiltersAndSearch()` ne cache pas les filtres pendant qu'on tape.
+    this.searchTerm.set(value);
+    this.onSearchChange.emit(value);
+  }
 
   moviesPageTitle = computed(() =>
     this.selectedView() === 'watchlist'

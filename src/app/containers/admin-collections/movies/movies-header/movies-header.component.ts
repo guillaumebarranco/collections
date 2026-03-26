@@ -5,6 +5,7 @@ import {
   inject,
   input,
   output,
+  effect,
   signal,
 } from '@angular/core';
 import { ViewToggleComponent } from '../../../../components/shared/view-toggle/view-toggle.component';
@@ -39,6 +40,19 @@ export class AdminMoviesHeaderComponent {
   private readonly dialog = inject(MatDialog);
 
   searchTerm = signal<string>('');
+
+  constructor() {
+    effect(() => {
+      // On évite d'afficher un texte obsolète quand on change de vue.
+      this.selectedView();
+      this.searchTerm.set('');
+    });
+  }
+
+  handleSearchChange(value: string): void {
+    this.searchTerm.set(value);
+    this.onSearchChange.emit(value);
+  }
 
   moviesPageTitle = computed(() => {
     const view = this.selectedView();

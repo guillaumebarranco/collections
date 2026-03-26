@@ -97,13 +97,13 @@ export class ManwhasHeaderComponent {
 
   canShowFiltersAndSearch = computed(
     () =>
-      this.filteredManwhasCount() > 0 &&
-      this.searchTerm() === '' &&
-      (this.selectedView() === 'read' ||
-        this.selectedView() === 'readlist' ||
-        this.selectedView() === 'toReRead' ||
-        this.selectedView() === 'owned' ||
-        this.selectedView() === 'recommendations')
+      (this.filteredManwhasCount() > 0 && this.searchTerm() === '') ||
+      (this.searchTerm() !== '' &&
+        (this.selectedView() === 'read' ||
+          this.selectedView() === 'readlist' ||
+          this.selectedView() === 'toReRead' ||
+          this.selectedView() === 'owned' ||
+          this.selectedView() === 'recommendations'))
   );
 
   noDataForThisView = computed(
@@ -144,16 +144,16 @@ export class ManwhasHeaderComponent {
     this.selectedView() === 'readlist'
       ? 'Manwhas à lire'
       : this.selectedView() === 'owned'
-        ? 'Manwhas possédés'
-        : this.selectedView() === 'borrowed'
-          ? 'Manwhas empruntés'
-          : this.selectedView() === 'loaned'
-            ? 'Manwhas prêtés'
-            : this.selectedView() === 'toReRead'
-              ? 'Manwhas à relire'
-              : this.selectedView() === 'recommendations'
-                ? 'Recommandations'
-                : 'Manwhas lus'
+      ? 'Manwhas possédés'
+      : this.selectedView() === 'borrowed'
+      ? 'Manwhas empruntés'
+      : this.selectedView() === 'loaned'
+      ? 'Manwhas prêtés'
+      : this.selectedView() === 'toReRead'
+      ? 'Manwhas à relire'
+      : this.selectedView() === 'recommendations'
+      ? 'Recommandations'
+      : 'Manwhas lus'
   );
 
   getSelectManwhasRoute(): string {

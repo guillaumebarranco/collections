@@ -97,13 +97,13 @@ export class ComicsHeaderComponent {
 
   canShowFiltersAndSearch = computed(
     () =>
-      this.filteredComicsCount() > 0 &&
-      this.searchTerm() === '' &&
-      (this.selectedView() === 'read' ||
-        this.selectedView() === 'readlist' ||
-        this.selectedView() === 'toReRead' ||
-        this.selectedView() === 'owned' ||
-        this.selectedView() === 'recommendations')
+      (this.filteredComicsCount() > 0 && this.searchTerm() === '') ||
+      (this.searchTerm() !== '' &&
+        (this.selectedView() === 'read' ||
+          this.selectedView() === 'readlist' ||
+          this.selectedView() === 'toReRead' ||
+          this.selectedView() === 'owned' ||
+          this.selectedView() === 'recommendations'))
   );
 
   noDataForThisView = computed(
@@ -125,7 +125,7 @@ export class ComicsHeaderComponent {
       case 'loaned':
         return 'Vous n\'avez marqué aucun comic comme "prêté". Sur vos comics lus ou à lire, éditez une fiche pour indiquer le prêt.';
       case 'sagas':
-        return 'Aucun comic à regrouper par saga pour l\'instant. Ajoutez des comics ou complétez le champ saga.';
+        return "Aucun comic à regrouper par saga pour l'instant. Ajoutez des comics ou complétez le champ saga.";
       case 'recommendations':
         return 'Aucune recommandation pour le moment.';
       default:
@@ -146,18 +146,18 @@ export class ComicsHeaderComponent {
     this.selectedView() === 'readlist'
       ? 'Comics à lire'
       : this.selectedView() === 'owned'
-        ? 'Comics possédés'
-        : this.selectedView() === 'borrowed'
-          ? 'Comics empruntés'
-          : this.selectedView() === 'loaned'
-            ? 'Comics prêtés'
-            : this.selectedView() === 'toReRead'
-              ? 'Comics à relire'
-              : this.selectedView() === 'sagas'
-                ? 'Comics par saga'
-                : this.selectedView() === 'recommendations'
-                  ? 'Recommandations'
-                  : 'Comics lus'
+      ? 'Comics possédés'
+      : this.selectedView() === 'borrowed'
+      ? 'Comics empruntés'
+      : this.selectedView() === 'loaned'
+      ? 'Comics prêtés'
+      : this.selectedView() === 'toReRead'
+      ? 'Comics à relire'
+      : this.selectedView() === 'sagas'
+      ? 'Comics par saga'
+      : this.selectedView() === 'recommendations'
+      ? 'Recommandations'
+      : 'Comics lus'
   );
 
   getSelectComicsRoute(): string {

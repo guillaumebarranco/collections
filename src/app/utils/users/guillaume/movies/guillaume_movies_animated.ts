@@ -580,7 +580,7 @@ export const guillaumeMoviesAnimated: UserMovies = [
   {
     title: 'Shrek',
     director: 'Andrew Adamson, Vicky Jenson',
-    rating: 4,
+    rating: 4.25,
     timesWatched: 10,
     firstViewedDate: '',
     lastViewedDate: '',
@@ -596,7 +596,7 @@ export const guillaumeMoviesAnimated: UserMovies = [
   {
     title: 'Shrek 2',
     director: 'Andrew Adamson, Kelly Asbury, Conrad Vernon',
-    rating: 3.5,
+    rating: 4,
     timesWatched: 5,
     firstViewedDate: '2004-05-24',
     lastViewedDate: '2004-05-24',

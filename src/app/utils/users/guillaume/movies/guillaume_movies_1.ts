@@ -2423,4 +2423,21 @@ export const guillaumeMoviesPage1: UserMovies = [
     loaned: '',
     inList: [],
   },
+
+  {
+    title: 'Friendzone',
+    director: 'Charles Van Tieghem',
+    rating: 3.25,
+    timesWatched: 1,
+    firstViewedDate: '2026-03-26',
+    lastViewedDate: '2026-03-26',
+    seenAtCinema: false,
+    owned: false,
+    wantToSeeAgain: false,
+    watchPriority: 1,
+    ratingComment: '',
+    inList: [],
+    borrowed: '',
+    loaned: '',
+  },
 ];
