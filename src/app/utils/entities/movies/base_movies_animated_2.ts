@@ -1035,7 +1035,8 @@ export const baseMoviesAnimated2: BaseMovie[] = [
     title: 'Coco',
     director: 'Lee Unkrich',
     actors: [{ name: 'Anthony Gonzalez' }],
-    coverUrl: '/movies_pictures/39968-coco-0-150-0-225-crop.jpg',
+    coverUrl:
+      '/movies_pictures/cb8e1f58155a.jpeg',
     releaseDate: '2017-11-22',
     length: 105,
     genre: 'Animation',

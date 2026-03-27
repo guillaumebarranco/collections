@@ -60,8 +60,7 @@ export const baseBds: BaseBd[] = [
     title: 'Astérix et Cléopâtre',
     writer: 'René Goscinny',
     designer: 'Albert Uderzo',
-    coverUrl:
-      'https://cdn1.booknode.com/book_cover/1363/full/asterix-tome-6-asterix-et-cleopatre-1363392.jpg',
+    coverUrl: '/bds_pictures/asterix-tome-6-asterix-et-cleopatre-1363392.jpg',
     pages: 48,
     genre: 'Humour',
     description: '',

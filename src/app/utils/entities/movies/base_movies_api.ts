@@ -218,7 +218,7 @@ export const baseMoviesApi: BaseMovie[] = [
       },
       {
         name: 'Jean Reno',
-      }
+      },
     ],
     coverUrl: '/movies_pictures/813c13b26a5c.jpg',
     releaseDate: '2026-02-04',
@@ -647,8 +647,7 @@ export const baseMoviesApi: BaseMovie[] = [
         name: 'Sara Giraudeau',
       },
     ],
-    coverUrl:
-      '/movies_pictures/a4314bd0a23f.jpg',
+    coverUrl: '/movies_pictures/a4314bd0a23f.jpg',
     releaseDate: '2025-05-22',
     length: 125,
     genre: 'Comédie dramatique',
@@ -659,7 +658,7 @@ export const baseMoviesApi: BaseMovie[] = [
   },
 
   {
-    title: 'Scarlet et l\'éternité',
+    title: "Scarlet et l'éternité",
     director: 'Mamoru Hosoda',
     actors: [
       {
@@ -691,7 +690,7 @@ export const baseMoviesApi: BaseMovie[] = [
       },
       {
         name: 'Pedro Pascal',
-      }
+      },
     ],
     coverUrl: '/movies_pictures/9a099cf183d6.jpg',
     releaseDate: '2025-07-02',
@@ -717,7 +716,8 @@ export const baseMoviesApi: BaseMovie[] = [
         name: 'Franck Dubosc',
       },
     ],
-    coverUrl: '/movies_pictures/48916-iznogoud-0-150-0-225-crop.jpg',
+    coverUrl:
+      '/movies_pictures/78bc8801b843.jpg',
     releaseDate: '2005-01-19',
     length: 95,
     genre: 'Comédie',
@@ -728,7 +728,7 @@ export const baseMoviesApi: BaseMovie[] = [
   },
 
   {
-    title: 'Peaky Blinders : L\'Immortel',
+    title: "Peaky Blinders : L'Immortel",
     director: 'Tom Harper',
     actors: [
       {
@@ -836,5 +836,53 @@ export const baseMoviesApi: BaseMovie[] = [
     description: '',
     fromEntity: null,
     countryOrigin: 'France',
+  },
+  {
+    title: 'Trouble Jeu',
+    director: 'Matt Bettinelli-Olpin, Tyler Gillett',
+    actors: [
+      {
+        name: 'Samara Weaving',
+      },
+      {
+        name: 'Adam Brody',
+      },
+      {
+        name: "Mark O'Brien",
+      },
+    ],
+    coverUrl:
+      '/movies_pictures/d5bf1c5e8a97.jpg',
+    releaseDate: '2019-08-21',
+    length: 95,
+    genre: 'Horreur, Thriller',
+    saga: '',
+    description: '',
+    fromEntity: null,
+    countryOrigin: 'États-Unis',
+  },
+  {
+    title: 'Life of Chuck',
+    director: 'Mike Flanagan',
+    actors: [
+      {
+        name: 'Tom Hiddleston',
+      },
+      {
+        name: 'Chiwetel Ejiofor',
+      },
+      {
+        name: 'Karen Gillan',
+      },
+    ],
+    coverUrl:
+      '/movies_pictures/5cc3ec3ae765.jpg',
+    releaseDate: '2024-09-06',
+    length: 111,
+    genre: 'Drame, Fantastique',
+    saga: '',
+    description: '',
+    fromEntity: null,
+    countryOrigin: 'États-Unis',
   },
 ];

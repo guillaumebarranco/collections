@@ -42,11 +42,11 @@
         <option value="5">#5</option>
       </select>
     </span>
-    } @if (movie.borrowed?.trim() && !isBaseEntityView) {
+    } @if (movie.borrowed.trim() && !isBaseEntityView) {
     <span class="missing-badge" style="background-color: #9c27b0; color: white"
       >Emprunté à {{ movie.borrowed }}</span
     >
-    } @if (movie.loaned?.trim() && !isBaseEntityView) {
+    } @if (movie.loaned.trim() && !isBaseEntityView) {
     <span class="missing-badge" style="background-color: #00695c; color: white"
       >Prêté à {{ movie.loaned }}</span
     >
@@ -123,11 +123,8 @@
       Dernier visionnage le
       {{ movie.lastViewedDate | date : "dd/MM/yyyy" }}
     </p>
-    } @if (
-      !isBaseEntityView ||
-      (showAddToMyWatchlist &&
-        (canAddToMyWatchlist || canAddAsWatched))
-    ) {
+    } @if ( !isBaseEntityView || (showAddToMyWatchlist && (canAddToMyWatchlist
+    || canAddAsWatched)) ) {
     <app-entity-card-rating-and-buttons
       [entityData]="getEntityData()"
       [recommendationText]="recommendationText()"

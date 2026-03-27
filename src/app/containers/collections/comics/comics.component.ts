@@ -186,11 +186,9 @@ export class ComicsComponent implements OnInit {
       comics = this.allComics().filter((comic) => comic.owned);
     } else if (this.selectedView() === 'borrowed') {
       const key = (c: Comic) => `${c.title}|${c.writer}`;
-      const readB = this.allComics().filter((c) =>
-        Boolean(c.borrowed?.trim())
-      );
+      const readB = this.allComics().filter((c) => Boolean(c.borrowed.trim()));
       const listB = this.allReadlistComics().filter((c) =>
-        Boolean(c.borrowed?.trim())
+        Boolean(c.borrowed.trim())
       );
       const seen = new Set<string>();
       comics = [...readB, ...listB].filter((c) => {
@@ -201,9 +199,9 @@ export class ComicsComponent implements OnInit {
       });
     } else if (this.selectedView() === 'loaned') {
       const key = (c: Comic) => `${c.title}|${c.writer}`;
-      const readL = this.allComics().filter((c) => Boolean(c.loaned?.trim()));
+      const readL = this.allComics().filter((c) => Boolean(c.loaned.trim()));
       const listL = this.allReadlistComics().filter((c) =>
-        Boolean(c.loaned?.trim())
+        Boolean(c.loaned.trim())
       );
       const seen = new Set<string>();
       comics = [...readL, ...listL].filter((c) => {
@@ -361,8 +359,8 @@ export class ComicsComponent implements OnInit {
         parsed.sort === 'nbTomes'
           ? 'sagaOrder'
           : parsed.sort === 'nbTomes-asc'
-            ? 'sagaOrder-asc'
-            : parsed.sort;
+          ? 'sagaOrder-asc'
+          : parsed.sort;
       if (this.sortOptions().some((opt) => opt.value === legacy)) {
         this.selectedSort.set(legacy);
       }

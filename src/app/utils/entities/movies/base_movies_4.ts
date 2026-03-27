@@ -114,7 +114,8 @@ export const baseMoviesPage4: BaseMovie[] = [
       { name: 'Brenton Thwaites' },
       { name: 'Gerard Butler' },
     ],
-    coverUrl: '/movies_pictures/gods-of-egypt.jpg',
+    coverUrl:
+      '/movies_pictures/a0102365a43c.jpg',
     releaseDate: '2016-02-26',
     length: 127,
     genre: 'Action, Adventure, Fantasy',

@@ -184,11 +184,9 @@ export class SeriesComponent implements OnInit {
       series = this.allSeries().filter((serie) => serie.owned);
     } else if (this.selectedView() === 'borrowed') {
       const key = (s: Serie) => `${s.title}|${s.director}`;
-      const readB = this.allSeries().filter((s) =>
-        Boolean(s.borrowed?.trim())
-      );
+      const readB = this.allSeries().filter((s) => Boolean(s.borrowed.trim()));
       const listB = this.allWatchlistSeries().filter((s) =>
-        Boolean(s.borrowed?.trim())
+        Boolean(s.borrowed.trim())
       );
       const seen = new Set<string>();
       series = [...readB, ...listB].filter((s) => {
@@ -199,9 +197,9 @@ export class SeriesComponent implements OnInit {
       });
     } else if (this.selectedView() === 'loaned') {
       const key = (s: Serie) => `${s.title}|${s.director}`;
-      const readL = this.allSeries().filter((s) => Boolean(s.loaned?.trim()));
+      const readL = this.allSeries().filter((s) => Boolean(s.loaned.trim()));
       const listL = this.allWatchlistSeries().filter((s) =>
-        Boolean(s.loaned?.trim())
+        Boolean(s.loaned.trim())
       );
       const seen = new Set<string>();
       series = [...readL, ...listL].filter((s) => {
@@ -361,7 +359,9 @@ export class SeriesComponent implements OnInit {
         getAllWatchlistSeries(connectedUserId),
       ]);
       this.connectedUserSeries.set(connectedSeries[connectedUserId] ?? []);
-      this.connectedUserWatchlist.set(connectedWatchlist[connectedUserId] ?? []);
+      this.connectedUserWatchlist.set(
+        connectedWatchlist[connectedUserId] ?? []
+      );
     } else {
       this.connectedUserSeries.set([]);
       this.connectedUserWatchlist.set([]);

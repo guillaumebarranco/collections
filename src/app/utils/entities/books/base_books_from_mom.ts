@@ -2023,7 +2023,7 @@ export const baseBooksFromMom: BaseBook[] = [
     title: "Le Royaume des ombres (Journal d'un vampire, #4)",
     author: 'L.J. Smith',
     coverUrl:
-      'https://cdn1.booknode.com/book_cover/502/journal_dun_vampire_tome_4_le_royaume_des_ombres-502011-264-432.webp',
+      '/books_pictures/journal_dun_vampire_tome_4_le_royaume_des_ombres-502011-264-432.jpg',
     pages: 576,
     genre: 'Paralittérature',
     saga: "Journal d'un vampire",
@@ -2036,8 +2036,7 @@ export const baseBooksFromMom: BaseBook[] = [
   {
     title: "L'Ultime Crépuscule (Journal d'un vampire, #5)",
     author: 'L.J. Smith',
-    coverUrl:
-      '/books_pictures/f3dd15f0cbf1.webp',
+    coverUrl: '/books_pictures/f3dd15f0cbf1.webp',
     pages: 576,
     genre: 'Paralittérature',
     saga: "Journal d'un vampire",
@@ -2050,8 +2049,7 @@ export const baseBooksFromMom: BaseBook[] = [
   {
     title: "Dévoreur (Journal d'un vampire, #6)",
     author: 'L.J. Smith',
-    coverUrl:
-      'https://fr.shopping.rakuten.com/pictures/01999058-6261-7f73-9ac8-7127376ab2ea.jpg',
+    coverUrl: '/books_pictures/81aVC9EIrvL._AC_UF1000,1000_QL80_.jpg',
     pages: 416,
     genre: 'Paralittérature',
     saga: "Journal d'un vampire",
@@ -2064,8 +2062,7 @@ export const baseBooksFromMom: BaseBook[] = [
   {
     title: "Le Chant de la lune (Journal d'un vampire, #7)",
     author: 'L.J. Smith',
-    coverUrl:
-      '/books_pictures/88c15b990990.jpg',
+    coverUrl: '/books_pictures/88c15b990990.jpg',
     pages: 416,
     genre: 'Paralittérature',
     saga: "Journal d'un vampire",
@@ -2079,7 +2076,7 @@ export const baseBooksFromMom: BaseBook[] = [
     title: "Cruelle Destinée (Journal d'un vampire, #8)",
     author: 'L.J. Smith',
     coverUrl:
-      'https://cdn1.booknode.com/book_cover/3435/full/journal-dun-vampire-tome-8-cruelle-destinee-3435463.jpg',
+      '/books_pictures/journal-dun-vampire-tome-8-cruelle-destinee-3435463.jpg',
     pages: 400,
     genre: 'Paralittérature',
     saga: "Journal d'un vampire",
@@ -2092,8 +2089,7 @@ export const baseBooksFromMom: BaseBook[] = [
   {
     title: "Le Cauchemar (Journal d'un vampire, #9)",
     author: 'L.J. Smith',
-    coverUrl:
-      '/books_pictures/29c37679841a.jpg',
+    coverUrl: '/books_pictures/29c37679841a.jpg',
     pages: 400,
     genre: 'Paralittérature',
     saga: "Journal d'un vampire",
@@ -2106,8 +2102,7 @@ export const baseBooksFromMom: BaseBook[] = [
   {
     title: "La Traque (Journal d'un vampire, #10)",
     author: 'L.J. Smith',
-    coverUrl:
-      '/books_pictures/652b34f220ff.jpg',
+    coverUrl: '/books_pictures/652b34f220ff.jpg',
     pages: 400,
     genre: 'Paralittérature',
     saga: "Journal d'un vampire",
@@ -2120,8 +2115,7 @@ export const baseBooksFromMom: BaseBook[] = [
   {
     title: "Rédemption (Journal d'un vampire, #11)",
     author: 'L.J. Smith',
-    coverUrl:
-      '/books_pictures/a1e9cf074293.jpg',
+    coverUrl: '/books_pictures/a1e9cf074293.jpg',
     pages: 400,
     genre: 'Paralittérature',
     saga: "Journal d'un vampire",
@@ -2135,8 +2129,7 @@ export const baseBooksFromMom: BaseBook[] = [
   {
     title: 'La Révélation des Médicus',
     author: 'Eli Anderson',
-    coverUrl:
-      '/books_pictures/a25ee66ac002.jpg',
+    coverUrl: '/books_pictures/a25ee66ac002.jpg',
     pages: 571,
     genre: 'Paralittérature',
     saga: 'Oscar Pill',
@@ -2175,8 +2168,7 @@ export const baseBooksFromMom: BaseBook[] = [
   {
     title: "L'allié des ténèbres",
     author: 'Eli Anderson',
-    coverUrl:
-      '/books_pictures/55a1e36b01c2.webp',
+    coverUrl: '/books_pictures/55a1e36b01c2.webp',
     pages: 500,
     genre: 'Paralittérature',
     saga: 'Oscar Pill',
@@ -2203,8 +2195,7 @@ export const baseBooksFromMom: BaseBook[] = [
   {
     title: "La Morsure de l'Araignée",
     author: 'Darren Shan',
-    coverUrl:
-      '/books_pictures/66364a055299.jpg',
+    coverUrl: '/books_pictures/66364a055299.jpg',
     pages: 320,
     genre: 'Paralittérature',
     saga: "L'Assistant du vampire",
@@ -2217,8 +2208,7 @@ export const baseBooksFromMom: BaseBook[] = [
   {
     title: 'Le Cauchemar Continue',
     author: 'Darren Shan',
-    coverUrl:
-      '/books_pictures/039611f95065.jpg',
+    coverUrl: '/books_pictures/039611f95065.jpg',
     pages: 224,
     genre: 'Paralittérature',
     saga: "L'Assistant du vampire",
@@ -2231,8 +2221,7 @@ export const baseBooksFromMom: BaseBook[] = [
   {
     title: 'Jeux de Sang',
     author: 'Darren Shan',
-    coverUrl:
-      '/books_pictures/88b9a72bc7a2.jpg',
+    coverUrl: '/books_pictures/88b9a72bc7a2.jpg',
     pages: 210,
     genre: 'Paralittérature',
     saga: "L'Assistant du vampire",
@@ -2245,8 +2234,7 @@ export const baseBooksFromMom: BaseBook[] = [
   {
     title: 'La Montagne des Vampires',
     author: 'Darren Shan',
-    coverUrl:
-      '/books_pictures/550041220e41.webp',
+    coverUrl: '/books_pictures/550041220e41.webp',
     pages: 187,
     genre: 'Paralittérature',
     saga: "L'Assistant du vampire",

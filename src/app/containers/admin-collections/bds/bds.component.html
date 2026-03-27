@@ -17,7 +17,7 @@
   </div>
   } @else {
   <div class="bds">
-    @for (bd of sortedBds(); track `${bd.title}-${bd.writer}`) {
+    @for (bd of sortedBds(); track `${bd.title}-${bd.writer}-${$index}`) {
     <div class="bd-card">
       <app-bd
         [bd]="bd"

@@ -187,9 +187,9 @@ export class BdsComponent implements OnInit {
       bds = this.allBds().filter((bd) => bd.owned);
     } else if (this.selectedView() === 'borrowed') {
       const key = (b: Bd) => `${b.title}|${b.writer}`;
-      const readB = this.allBds().filter((b) => Boolean(b.borrowed?.trim()));
+      const readB = this.allBds().filter((b) => Boolean(b.borrowed.trim()));
       const listB = this.allReadlistBds().filter((b) =>
-        Boolean(b.borrowed?.trim())
+        Boolean(b.borrowed.trim())
       );
       const seen = new Set<string>();
       bds = [...readB, ...listB].filter((b) => {
@@ -200,9 +200,9 @@ export class BdsComponent implements OnInit {
       });
     } else if (this.selectedView() === 'loaned') {
       const key = (b: Bd) => `${b.title}|${b.writer}`;
-      const readL = this.allBds().filter((b) => Boolean(b.loaned?.trim()));
+      const readL = this.allBds().filter((b) => Boolean(b.loaned.trim()));
       const listL = this.allReadlistBds().filter((b) =>
-        Boolean(b.loaned?.trim())
+        Boolean(b.loaned.trim())
       );
       const seen = new Set<string>();
       bds = [...readL, ...listL].filter((b) => {
@@ -356,8 +356,8 @@ export class BdsComponent implements OnInit {
         parsed.sort === 'nbTomes'
           ? 'sagaOrder'
           : parsed.sort === 'nbTomes-asc'
-            ? 'sagaOrder-asc'
-            : parsed.sort;
+          ? 'sagaOrder-asc'
+          : parsed.sort;
       if (this.sortOptions().some((opt) => opt.value === legacy)) {
         this.selectedSort.set(legacy);
       }

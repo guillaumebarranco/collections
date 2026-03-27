@@ -30,11 +30,11 @@
         <option value="5">#5</option>
       </select>
     </span>
-    } @if (bd.borrowed?.trim() && !isBaseEntityView) {
+    } @if (bd.borrowed.trim() && !isBaseEntityView) {
     <span class="missing-badge" style="background-color: #9c27b0; color: white"
       >Emprunté à {{ bd.borrowed }}</span
     >
-    } @if (bd.loaned?.trim() && !isBaseEntityView) {
+    } @if (bd.loaned.trim() && !isBaseEntityView) {
     <span class="missing-badge" style="background-color: #00695c; color: white"
       >Prêté à {{ bd.loaned }}</span
     >
@@ -69,11 +69,8 @@
     <p class="book-read-times">Lu le {{ bd.readDate | date : "dd/MM/yyyy" }}</p>
     } @if (bd.readTimes && bd.readTimes > 1 && !isBaseEntityView) {
     <p class="book-read-times">Lu {{ bd.readTimes }} fois</p>
-    } @if (
-      !isBaseEntityView ||
-      (showAddToMyReadlist &&
-        (canAddToMyReadlist || canAddAsRead))
-    ) {
+    } @if ( !isBaseEntityView || (showAddToMyReadlist && (canAddToMyReadlist ||
+    canAddAsRead)) ) {
     <app-entity-card-rating-and-buttons
       [entityData]="getEntityData()"
       [recommendationText]="recommendationText"

@@ -987,8 +987,7 @@ export const baseComics: BaseComic[] = [
     title: 'Les seigneurs de Bagdad',
     writer: 'Garth Ennis',
     designer: 'Brian K. Vaughan - Niko Henrichon',
-    coverUrl:
-      '/comics_pictures/testurban-comics-nomad-les-seigneurs-de-bagdad.jpg',
+    coverUrl: '/comics_pictures/les-seigneurs-de-bagdad-nomad.jpg',
     pages: 144,
     genre: 'Super-héros',
     saga: '',

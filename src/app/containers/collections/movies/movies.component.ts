@@ -271,11 +271,9 @@ export class MoviesComponent implements OnInit {
       );
     } else if (this.selectedView() === 'borrowed') {
       const key = (m: Movie) => `${m.title}|${m.director}`;
-      const readB = this.allMovies().filter((m) =>
-        Boolean(m.borrowed?.trim())
-      );
+      const readB = this.allMovies().filter((m) => Boolean(m.borrowed.trim()));
       const listB = this.allWatchlistMovies().filter((m) =>
-        Boolean(m.borrowed?.trim())
+        Boolean(m.borrowed.trim())
       );
       const seen = new Set<string>();
       movies = [...readB, ...listB].filter((m) => {
@@ -286,9 +284,9 @@ export class MoviesComponent implements OnInit {
       });
     } else if (this.selectedView() === 'loaned') {
       const key = (m: Movie) => `${m.title}|${m.director}`;
-      const readL = this.allMovies().filter((m) => Boolean(m.loaned?.trim()));
+      const readL = this.allMovies().filter((m) => Boolean(m.loaned.trim()));
       const listL = this.allWatchlistMovies().filter((m) =>
-        Boolean(m.loaned?.trim())
+        Boolean(m.loaned.trim())
       );
       const seen = new Set<string>();
       movies = [...readL, ...listL].filter((m) => {
@@ -493,7 +491,8 @@ export class MoviesComponent implements OnInit {
           getAllWatchlistMovies(connectedUserId),
         ]);
         const connectedMoviesList = connectedMovies[connectedUserId] ?? [];
-        const connectedWatchlistList = connectedWatchlist[connectedUserId] ?? [];
+        const connectedWatchlistList =
+          connectedWatchlist[connectedUserId] ?? [];
         this.connectedUserMovies.set(connectedMoviesList);
         this.connectedUserWatchlist.set(connectedWatchlistList);
       } else {
@@ -933,7 +932,10 @@ export class MoviesComponent implements OnInit {
   }
 
   async addMovieToWatchlist(movie: Movie): Promise<void> {
-    const addSuccess = await addMovieToWatchlistApi(movie, this.getActiveUserId());
+    const addSuccess = await addMovieToWatchlistApi(
+      movie,
+      this.getActiveUserId()
+    );
 
     if (addSuccess) {
       await this.refreshMovies();
@@ -977,11 +979,7 @@ export class MoviesComponent implements OnInit {
   }
 
   async onAddMovieToList(movie: Movie, listName: string): Promise<void> {
-    const ok = await addMovieToList(
-      movie,
-      listName,
-      this.getActiveUserId()
-    );
+    const ok = await addMovieToList(movie, listName, this.getActiveUserId());
     if (ok) await this.refreshMovies();
   }
 
@@ -989,7 +987,12 @@ export class MoviesComponent implements OnInit {
     const name = window.prompt('Nom de la nouvelle liste :');
     if (!name?.trim()) return;
     const userId = this.getActiveUserId();
-    const updatedLists = await createUserMovieList(userId, name.trim(), '📋', '#6b7280');
+    const updatedLists = await createUserMovieList(
+      userId,
+      name.trim(),
+      '📋',
+      '#6b7280'
+    );
     if (updatedLists) {
       this.userMoviesLists.set(updatedLists);
       const ok = await addMovieToList(movie, name.trim(), userId);

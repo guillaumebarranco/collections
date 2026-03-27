@@ -1487,7 +1487,7 @@ export const marinaBooks: UserBook[] = [
     ratingComment: '',
   },
   {
-    title: 'Battle Royale ',
+    title: 'Battle Royale',
     author: 'Kōshun Takami',
     firstReadDate: '',
     lastReadDate: '',

@@ -780,6 +780,8 @@ function removeMovieFromFile(content: string, payload: any) {
     wantToSeeAgain: ${movie.wantToSeeAgain ?? false},
     watchPriority: ${movie.watchPriority ?? 1},
     ratingComment: '${escapeString(movie.ratingComment || '')}',
+    borrowed: '${escapeString(movie.borrowed || '')}',
+    loaned: '${escapeString(movie.loaned || '')}',
     inList: ${inList},
   }`;
     })

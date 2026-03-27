@@ -849,7 +849,7 @@ export const baseGames: BaseGame[] = [
     title: "Mirror's Edge",
     editor: 'DICE',
     hero: 'Faith Connors',
-    coverUrl: "/games_pictures/Mirror's_Edge.jpg",
+    coverUrl: '/games_pictures/miroredge.webp',
     releaseDate: '2008-11-11',
     averageTimeToFinish: 15,
     averageTimeToHundredPercent: 40,

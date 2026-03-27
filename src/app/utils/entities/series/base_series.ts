@@ -4278,7 +4278,7 @@ export const baseSeries: BaseSerie[] = [
         name: 'Kirby Howell-Baptiste',
       },
     ],
-    coverUrl: 'https://www.avoir-alire.com/IMG/logo/arton42401.jpg',
+    coverUrl: '/series_pictures/7cb3392cdf69.jpg',
     releaseDate: '2019-08-15',
     endDate: '2022-10-27',
     genre: 'Comedy, Crime, Drama',

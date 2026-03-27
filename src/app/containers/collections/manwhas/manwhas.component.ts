@@ -184,11 +184,9 @@ export class ManwhasComponent implements OnInit {
       manwhas = this.allManwhas().filter((manwha) => manwha.owned);
     } else if (this.selectedView() === 'borrowed') {
       const key = (m: Manwha) => `${m.title}|${m.author}`;
-      const readB = this.allManwhas().filter((m) =>
-        Boolean(m.borrowed?.trim())
-      );
+      const readB = this.allManwhas().filter((m) => Boolean(m.borrowed.trim()));
       const listB = this.allReadlistManwhas().filter((m) =>
-        Boolean(m.borrowed?.trim())
+        Boolean(m.borrowed.trim())
       );
       const seen = new Set<string>();
       manwhas = [...readB, ...listB].filter((m) => {
@@ -199,9 +197,9 @@ export class ManwhasComponent implements OnInit {
       });
     } else if (this.selectedView() === 'loaned') {
       const key = (m: Manwha) => `${m.title}|${m.author}`;
-      const readL = this.allManwhas().filter((m) => Boolean(m.loaned?.trim()));
+      const readL = this.allManwhas().filter((m) => Boolean(m.loaned.trim()));
       const listL = this.allReadlistManwhas().filter((m) =>
-        Boolean(m.loaned?.trim())
+        Boolean(m.loaned.trim())
       );
       const seen = new Set<string>();
       manwhas = [...readL, ...listL].filter((m) => {

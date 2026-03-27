@@ -197,11 +197,9 @@ export class GamesComponent implements OnInit {
       games = this.allGames().filter((game) => game.owned);
     } else if (this.selectedView() === 'borrowed') {
       const key = (g: Game) => `${g.title}|${g.editor}`;
-      const readB = this.allGames().filter((g) =>
-        Boolean(g.borrowed?.trim())
-      );
+      const readB = this.allGames().filter((g) => Boolean(g.borrowed.trim()));
       const listB = this.allGamelistGames().filter((g) =>
-        Boolean(g.borrowed?.trim())
+        Boolean(g.borrowed.trim())
       );
       const seen = new Set<string>();
       games = [...readB, ...listB].filter((g) => {
@@ -212,9 +210,9 @@ export class GamesComponent implements OnInit {
       });
     } else if (this.selectedView() === 'loaned') {
       const key = (g: Game) => `${g.title}|${g.editor}`;
-      const readL = this.allGames().filter((g) => Boolean(g.loaned?.trim()));
+      const readL = this.allGames().filter((g) => Boolean(g.loaned.trim()));
       const listL = this.allGamelistGames().filter((g) =>
-        Boolean(g.loaned?.trim())
+        Boolean(g.loaned.trim())
       );
       const seen = new Set<string>();
       games = [...readL, ...listL].filter((g) => {

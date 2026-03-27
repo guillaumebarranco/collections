@@ -777,6 +777,8 @@ ${seasonsText}
     watchPriority: ${serie.watchPriority ?? 1},
     wantToWatchAgain: ${serie.wantToWatchAgain ?? false},
     ratingComment: '${escapeString(serie.ratingComment || '')}',
+    borrowed: '${escapeString(serie.borrowed || '')}',
+    loaned: '${escapeString(serie.loaned || '')}',
   }`;
     })
     .join(',\n');

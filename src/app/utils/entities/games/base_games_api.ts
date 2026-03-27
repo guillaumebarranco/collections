@@ -681,7 +681,7 @@ export const baseGamesApi: BaseGame[] = [
     title: "Pirates des Caraïbes: Jusqu'au Bout du Monde",
     editor: 'Disney',
     hero: '',
-    coverUrl: '/games_pictures/pirates-caraibes.jpg',
+    coverUrl: '/games_pictures/sfsdfdfsdfsdfsdfd.jpg',
     releaseDate: '2007-05-25',
     averageTimeToFinish: 7,
     averageTimeToHundredPercent: 0,
@@ -799,8 +799,7 @@ export const baseGamesApi: BaseGame[] = [
     title: 'Stray',
     editor: 'Annapurna Interactive',
     hero: '',
-    coverUrl:
-      '/games_pictures/19466137824f.jpg',
+    coverUrl: '/games_pictures/19466137824f.jpg',
     releaseDate: '2022-07-19',
     averageTimeToFinish: 7,
     platform: 'Playstation 5',

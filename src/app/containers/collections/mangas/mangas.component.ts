@@ -189,11 +189,9 @@ export class MangasComponent implements OnInit {
       mangas = this.allMangas().filter((manga) => manga.owned);
     } else if (this.selectedView() === 'borrowed') {
       const key = (m: Manga) => `${m.title}|${m.author}`;
-      const readB = this.allMangas().filter((m) =>
-        Boolean(m.borrowed?.trim())
-      );
+      const readB = this.allMangas().filter((m) => Boolean(m.borrowed.trim()));
       const listB = this.allReadlistMangas().filter((m) =>
-        Boolean(m.borrowed?.trim())
+        Boolean(m.borrowed.trim())
       );
       const seen = new Set<string>();
       mangas = [...readB, ...listB].filter((m) => {
@@ -204,9 +202,9 @@ export class MangasComponent implements OnInit {
       });
     } else if (this.selectedView() === 'loaned') {
       const key = (m: Manga) => `${m.title}|${m.author}`;
-      const readL = this.allMangas().filter((m) => Boolean(m.loaned?.trim()));
+      const readL = this.allMangas().filter((m) => Boolean(m.loaned.trim()));
       const listL = this.allReadlistMangas().filter((m) =>
-        Boolean(m.loaned?.trim())
+        Boolean(m.loaned.trim())
       );
       const seen = new Set<string>();
       mangas = [...readL, ...listL].filter((m) => {

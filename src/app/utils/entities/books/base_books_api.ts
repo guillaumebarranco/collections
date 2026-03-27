@@ -659,8 +659,7 @@ export const baseBooksApi: BaseBook[] = [
   {
     title: 'Un amour pour rien',
     author: "Jean d'Ormesson",
-    coverUrl:
-      '/books_pictures/d60e8feff916.jpg',
+    coverUrl: '/books_pictures/d60e8feff916.jpg',
     pages: 224,
     genre: '',
     saga: '',
@@ -674,8 +673,7 @@ export const baseBooksApi: BaseBook[] = [
   {
     title: 'Bientôt les vivants',
     author: 'Amina Damerdji',
-    coverUrl:
-      '/books_pictures/07dc345dcd22.jpg',
+    coverUrl: '/books_pictures/07dc345dcd22.jpg',
     pages: 320,
     genre: '',
     saga: '',
@@ -687,9 +685,9 @@ export const baseBooksApi: BaseBook[] = [
   },
 
   {
-    title: 'Battle Royale ',
+    title: 'Battle Royale',
     author: 'Kōshun Takami',
-    coverUrl: ' https://share.google/APK3NhcyPyeEqjsw2',
+    coverUrl: ' /books_pictures/81QZU43MKJL._AC_UF1000,1000_QL80_.jpg',
     pages: 576,
     genre: 'Horreur, dystopie, action',
     saga: '',
@@ -745,7 +743,7 @@ export const baseBooksApi: BaseBook[] = [
   {
     title: 'Soumission',
     author: 'Michel Houellebecq',
-    coverUrl: 'https://fr.shopping.rakuten.com/pictures/0199910e-7e26-7496-86e0-10bd686affd8_L_NOPAD.jpg',
+    coverUrl: '/books_pictures/61ZSfCj+ddL._AC_UF1000,1000_QL80_.jpg',
     pages: 320,
     genre: '',
     saga: '',
@@ -799,7 +797,7 @@ export const baseBooksApi: BaseBook[] = [
   },
 
   {
-    title: 'La Prise d\'Orange',
+    title: "La Prise d'Orange",
     author: 'Anonyme',
     coverUrl: '/books_pictures/4afc26b17e4d.jpg',
     pages: 304,
@@ -827,7 +825,7 @@ export const baseBooksApi: BaseBook[] = [
   },
 
   {
-    title: 'Le Monde de Narnia (Tome 5) L\'Odyssée du Passeur d\'Aurore',
+    title: "Le Monde de Narnia (Tome 5) L'Odyssée du Passeur d'Aurore",
     author: 'C. S. Lewis',
     coverUrl: '/books_pictures/fa70fb199a78.jpg',
     pages: 272,
@@ -843,7 +841,7 @@ export const baseBooksApi: BaseBook[] = [
   {
     title: 'La plus secrète mémoire des hommes',
     author: 'Mohamed Mbougar Sarr',
-    coverUrl: 'https://lh6.googleusercontent.com/proxy/fKr7lkSn1oXzUIq-LWP2gU6gwldiZNcbaf8A9xaByKZ5uoLOALY1wFe6vp15mMj_4-4JJgQ0181spXK7LQ8ffCVcMfl4cwwNSD8',
+    coverUrl: '/books_pictures/sfsedfesfzef.jpg',
     pages: 448,
     genre: '',
     saga: '',
