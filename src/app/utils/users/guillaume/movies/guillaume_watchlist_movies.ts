@@ -3489,5 +3489,22 @@ export const guillaumeWatchlistMovies: UserMovies = [
     loaned: '',
     inList: [],
   },
+
+  {
+    title: 'Luca',
+    director: 'Enrico Casarosa',
+    rating: 0,
+    timesWatched: 0,
+    firstViewedDate: '',
+    lastViewedDate: '',
+    seenAtCinema: false,
+    owned: false,
+    wantToSeeAgain: false,
+    watchPriority: 1,
+    ratingComment: '',
+    inList: [],
+    borrowed: '',
+    loaned: '',
+  },
 ];
 
