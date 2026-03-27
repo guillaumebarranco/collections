@@ -12,8 +12,7 @@ export const baseMoviesFromMarina: BaseMovie[] = [
       { name: "Mark O'Brien" },
       { name: 'Henry Czerny' },
     ],
-    coverUrl:
-      '/movies_pictures/f8fe5b1d0bd0.jpg',
+    coverUrl: '/movies_pictures/f8fe5b1d0bd0.jpg',
     releaseDate: '2019-01-01',
     length: 87,
     genre: 'Thriller',
@@ -31,8 +30,7 @@ export const baseMoviesFromMarina: BaseMovie[] = [
       { name: 'Jacob Tremblay' },
       { name: 'Annabeth Gish' },
     ],
-    coverUrl:
-      '/movies_pictures/a6b7bf1c8e17.jpg',
+    coverUrl: '/movies_pictures/a6b7bf1c8e17.jpg',
     releaseDate: '2017-01-01',
     length: 97,
     genre: 'Thriller',
@@ -50,8 +48,7 @@ export const baseMoviesFromMarina: BaseMovie[] = [
       { name: 'Patrick Wilson' },
       { name: 'Avery Whitted' },
     ],
-    coverUrl:
-      '/movies_pictures/efc4348dc145.jpg',
+    coverUrl: '/movies_pictures/efc4348dc145.jpg',
     releaseDate: '2019-01-01',
     length: 101,
     genre: 'Horreur',
@@ -68,8 +65,7 @@ export const baseMoviesFromMarina: BaseMovie[] = [
       { name: 'Marina Foïs' },
       { name: 'Pio Marmaï' },
     ],
-    coverUrl:
-      '/movies_pictures/0f3ae1f6a2e1.jpg',
+    coverUrl: '/movies_pictures/0f3ae1f6a2e1.jpg',
     releaseDate: '2019-01-01',
     length: 107,
     genre: 'Drame',
@@ -87,8 +83,7 @@ export const baseMoviesFromMarina: BaseMovie[] = [
       { name: 'Anastasia Phillips' },
       { name: 'Emilia Jones' },
     ],
-    coverUrl:
-      '/movies_pictures/1d2a9b27f71e.jpg',
+    coverUrl: '/movies_pictures/1d2a9b27f71e.jpg',
     releaseDate: '2018-01-01',
     length: 91,
     genre: 'Horreur',
@@ -106,8 +101,7 @@ export const baseMoviesFromMarina: BaseMovie[] = [
       { name: 'Stephen Lang' },
       { name: 'Daniel Zovatto' },
     ],
-    coverUrl:
-      '/movies_pictures/21bfc6532a80.jpg',
+    coverUrl: '/movies_pictures/21bfc6532a80.jpg',
     releaseDate: '2016-01-01',
     length: 88,
     genre: 'Thriller',
@@ -125,8 +119,7 @@ export const baseMoviesFromMarina: BaseMovie[] = [
       { name: 'Andrew Howard' },
       { name: 'Daniel Spink' },
     ],
-    coverUrl:
-      '/movies_pictures/98aba15fdcfc.jpg',
+    coverUrl: '/movies_pictures/98aba15fdcfc.jpg',
     releaseDate: '2010-01-01',
     length: 108,
     genre: 'Thriller',
@@ -144,8 +137,7 @@ export const baseMoviesFromMarina: BaseMovie[] = [
       { name: 'Madeleine McGraw' },
       { name: 'Jeremy Davies' },
     ],
-    coverUrl:
-      '/movies_pictures/b78fc57ea13b.jpg',
+    coverUrl: '/movies_pictures/b78fc57ea13b.jpg',
     releaseDate: '2021-01-01',
     length: 103,
     genre: 'Horreur',
@@ -163,8 +155,7 @@ export const baseMoviesFromMarina: BaseMovie[] = [
       { name: 'Juliette Lewis' },
       { name: 'Luke Evans' },
     ],
-    coverUrl:
-      '/movies_pictures/8721d8136f4f.jpg',
+    coverUrl: '/movies_pictures/8721d8136f4f.jpg',
     releaseDate: '2019-01-01',
     length: 99,
     genre: 'Thriller',
@@ -182,8 +173,7 @@ export const baseMoviesFromMarina: BaseMovie[] = [
       { name: 'Rachel Weisz' },
       { name: 'Stanley Tucci' },
     ],
-    coverUrl:
-      '/movies_pictures/3eddafceaeea.jpg',
+    coverUrl: '/movies_pictures/3eddafceaeea.jpg',
     releaseDate: '2009-01-01',
     length: 135,
     genre: 'Drame',
@@ -200,8 +190,7 @@ export const baseMoviesFromMarina: BaseMovie[] = [
       { name: 'Logan Marshall-Green' },
       { name: 'Robert John Burke' },
     ],
-    coverUrl:
-      '/movies_pictures/2fc720108dfc.jpg',
+    coverUrl: '/movies_pictures/2fc720108dfc.jpg',
     releaseDate: '2019-01-01',
     length: 92,
     genre: 'Thriller',
@@ -218,8 +207,7 @@ export const baseMoviesFromMarina: BaseMovie[] = [
       { name: 'Logan Marshall-Green' },
       { name: 'Robert John Burke' },
     ],
-    coverUrl:
-      '/movies_pictures/2c5e33d85784.jpg',
+    coverUrl: '/movies_pictures/2c5e33d85784.jpg',
     releaseDate: '2021-01-01',
     length: 92,
     genre: 'Thriller',
@@ -237,8 +225,7 @@ export const baseMoviesFromMarina: BaseMovie[] = [
       { name: 'Ziad Bakri' },
       { name: 'Luke Norris' },
     ],
-    coverUrl:
-      '/movies_pictures/917a6d22a9e9.jpg',
+    coverUrl: '/movies_pictures/917a6d22a9e9.jpg',
     releaseDate: '2022-01-01',
     length: 89,
     genre: 'Thriller',
@@ -273,8 +260,7 @@ export const baseMoviesFromMarina: BaseMovie[] = [
       { name: 'Mike Vogel' },
       { name: 'Dennis Haysbert' },
     ],
-    coverUrl:
-      '/movies_pictures/b157dfe4ba46.jpg',
+    coverUrl: '/movies_pictures/b157dfe4ba46.jpg',
     releaseDate: '2019-01-01',
     length: 97,
     genre: 'Thriller',
@@ -292,8 +278,7 @@ export const baseMoviesFromMarina: BaseMovie[] = [
       { name: 'Mike Colter' },
       { name: 'Danny Pino' },
     ],
-    coverUrl:
-      '/movies_pictures/569866547576.jpg',
+    coverUrl: '/movies_pictures/569866547576.jpg',
     releaseDate: '2020-01-01',
     length: 91,
     genre: 'Thriller',
@@ -311,8 +296,7 @@ export const baseMoviesFromMarina: BaseMovie[] = [
       { name: 'Geoff Stults' },
       { name: 'Cheryl Ladd' },
     ],
-    coverUrl:
-      '/movies_pictures/4fc1969cb036.jpg',
+    coverUrl: '/movies_pictures/4fc1969cb036.jpg',
     releaseDate: '2017-01-01',
     length: 100,
     genre: 'Drame',
@@ -329,8 +313,7 @@ export const baseMoviesFromMarina: BaseMovie[] = [
       { name: 'Michael Ealy' },
       { name: 'Mike Colter' },
     ],
-    coverUrl:
-      '/movies_pictures/56e7f1f73fe2.jpg',
+    coverUrl: '/movies_pictures/56e7f1f73fe2.jpg',
     releaseDate: '2020-01-01',
     length: 91,
     genre: 'Thriller',
@@ -348,8 +331,7 @@ export const baseMoviesFromMarina: BaseMovie[] = [
       { name: 'Nick Sagar' },
       { name: 'Sean Sagar' },
     ],
-    coverUrl:
-      '/movies_pictures/9659ccd9b054.jpg',
+    coverUrl: '/movies_pictures/9659ccd9b054.jpg',
     releaseDate: '2024-01-01',
     length: 120,
     genre: 'Thriller',
@@ -366,8 +348,7 @@ export const baseMoviesFromMarina: BaseMovie[] = [
       { name: 'Elise Schaap' },
       { name: 'Walid Benmbarek' },
     ],
-    coverUrl:
-      '/movies_pictures/013d6ca72250.jpg',
+    coverUrl: '/movies_pictures/013d6ca72250.jpg',
     releaseDate: '2022-01-01',
     length: 96,
     genre: 'Thriller',
@@ -385,8 +366,7 @@ export const baseMoviesFromMarina: BaseMovie[] = [
       { name: 'Anne Archer' },
       { name: 'Ellen Hamilton Latzen' },
     ],
-    coverUrl:
-      '/movies_pictures/f27b36b93efe.webp',
+    coverUrl: '/movies_pictures/f27b36b93efe.webp',
     releaseDate: '1987-01-01',
     length: 119,
     genre: 'Thriller',
@@ -404,8 +384,7 @@ export const baseMoviesFromMarina: BaseMovie[] = [
       { name: 'Eddie Marsan' },
       { name: 'Rich Sommer' },
     ],
-    coverUrl:
-      '/movies_pictures/40e860ab19e2.jpg',
+    coverUrl: '/movies_pictures/40e860ab19e2.jpg',
     releaseDate: '2023-01-01',
     length: 113,
     genre: 'Thriller',
@@ -422,8 +401,7 @@ export const baseMoviesFromMarina: BaseMovie[] = [
       { name: 'Emile Hirsch' },
       { name: 'Ophelia Lovibond' },
     ],
-    coverUrl:
-      '/movies_pictures/9cf6a1c08bc1.jpg',
+    coverUrl: '/movies_pictures/9cf6a1c08bc1.jpg',
     releaseDate: '2016-01-01',
     length: 95,
     genre: 'Thriller',
@@ -441,8 +419,7 @@ export const baseMoviesFromMarina: BaseMovie[] = [
       { name: 'Brian Van Holt' },
       { name: 'Paris Hilton' },
     ],
-    coverUrl:
-      '/movies_pictures/e1c75dd0d057.jpg',
+    coverUrl: '/movies_pictures/e1c75dd0d057.jpg',
     releaseDate: '2005-01-01',
     length: 113,
     genre: 'Horreur',
@@ -460,8 +437,7 @@ export const baseMoviesFromMarina: BaseMovie[] = [
       { name: 'Ruby Modine' },
       { name: 'Charles Aitken' },
     ],
-    coverUrl:
-      '/movies_pictures/52a131fe1f4f.png',
+    coverUrl: '/movies_pictures/52a131fe1f4f.png',
     releaseDate: '2017-01-01',
     length: 96,
     genre: 'Horreur',
@@ -479,8 +455,7 @@ export const baseMoviesFromMarina: BaseMovie[] = [
       { name: 'Violett Beane' },
       { name: 'Nolan Gerard Funk' },
     ],
-    coverUrl:
-      '/movies_pictures/43bdb09e65ab.jpg',
+    coverUrl: '/movies_pictures/43bdb09e65ab.jpg',
     releaseDate: '2018-01-01',
     length: 100,
     genre: 'Thriller',
@@ -498,8 +473,7 @@ export const baseMoviesFromMarina: BaseMovie[] = [
       { name: 'Victor Meutelet' },
       { name: 'Pierre Benoist' },
     ],
-    coverUrl:
-      '/movies_pictures/3e08c57a1064.jpg',
+    coverUrl: '/movies_pictures/3e08c57a1064.jpg',
     releaseDate: '2019-01-01',
     length: 98,
     genre: 'Thriller',
@@ -517,8 +491,7 @@ export const baseMoviesFromMarina: BaseMovie[] = [
       { name: 'Jean-François Boudreau' },
       { name: 'Charlotte St-Martin' },
     ],
-    coverUrl:
-      '/movies_pictures/9bbe62194e94.jpg',
+    coverUrl: '/movies_pictures/9bbe62194e94.jpg',
     releaseDate: '2017-01-01',
     length: 95,
     genre: 'Horreur',
@@ -536,8 +509,7 @@ export const baseMoviesFromMarina: BaseMovie[] = [
       { name: 'Kelly Lou Dennis' },
       { name: 'Will Brittain' },
     ],
-    coverUrl:
-      '/movies_pictures/66f7789ed64b.jpg',
+    coverUrl: '/movies_pictures/66f7789ed64b.jpg',
     releaseDate: '2019-01-01',
     length: 80,
     genre: 'Horreur',
@@ -555,8 +527,7 @@ export const baseMoviesFromMarina: BaseMovie[] = [
       { name: 'Ted Danson' },
       { name: 'Mary Steenburgen' },
     ],
-    coverUrl:
-      '/movies_pictures/3eb2cd4d11e5.jpg',
+    coverUrl: '/movies_pictures/3eb2cd4d11e5.jpg',
     releaseDate: '2014-01-01',
     length: 91,
     genre: 'Thriller',
@@ -574,8 +545,7 @@ export const baseMoviesFromMarina: BaseMovie[] = [
       { name: 'Brandon Sklenar' },
       { name: 'Jenny Slate' },
     ],
-    coverUrl:
-      '/movies_pictures/476548f83609.webp',
+    coverUrl: '/movies_pictures/476548f83609.webp',
     releaseDate: '2024-01-01',
     length: 130,
     genre: 'Thriller',
@@ -593,8 +563,7 @@ export const baseMoviesFromMarina: BaseMovie[] = [
       { name: 'Sheri Moon Zombie' },
       { name: 'Karen Black' },
     ],
-    coverUrl:
-      '/movies_pictures/8e8fed3f61ea.jpg',
+    coverUrl: '/movies_pictures/8e8fed3f61ea.jpg',
     releaseDate: '2003-01-01',
     length: 88,
     genre: 'Horreur',
@@ -612,8 +581,7 @@ export const baseMoviesFromMarina: BaseMovie[] = [
       { name: 'William Mapother' },
       { name: 'Clea DuVall' },
     ],
-    coverUrl:
-      '/movies_pictures/6b8879b12484.jpg',
+    coverUrl: '/movies_pictures/6b8879b12484.jpg',
     releaseDate: '2004-01-01',
     length: 91,
     genre: 'Horreur',
@@ -631,8 +599,7 @@ export const baseMoviesFromMarina: BaseMovie[] = [
       { name: 'Alfre Woodard' },
       { name: 'Tony Amendola' },
     ],
-    coverUrl:
-      '/movies_pictures/e587c18e1841.jpg',
+    coverUrl: '/movies_pictures/e587c18e1841.jpg',
     releaseDate: '2014-01-01',
     length: 99,
     genre: 'Horreur',
@@ -650,8 +617,7 @@ export const baseMoviesFromMarina: BaseMovie[] = [
       { name: 'Jonas Bloquet' },
       { name: 'Charlotte Hope' },
     ],
-    coverUrl:
-      '/movies_pictures/30dadb7e9225.jpg',
+    coverUrl: '/movies_pictures/30dadb7e9225.jpg',
     releaseDate: '2018-01-01',
     length: 100,
     genre: 'Horreur',
@@ -669,8 +635,7 @@ export const baseMoviesFromMarina: BaseMovie[] = [
       { name: 'Christine Kilmer' },
       { name: 'Jacob Elordi' },
     ],
-    coverUrl:
-      '/movies_pictures/bcfff1f57081.jpg',
+    coverUrl: '/movies_pictures/bcfff1f57081.jpg',
     releaseDate: '2020-01-01',
     length: 108,
     genre: 'Horreur',
@@ -688,8 +653,7 @@ export const baseMoviesFromMarina: BaseMovie[] = [
       { name: 'Deborah Ann Woll' },
       { name: 'Jay Ellis' },
     ],
-    coverUrl:
-      '/movies_pictures/d9a82017ce67.jpg',
+    coverUrl: '/movies_pictures/d9a82017ce67.jpg',
     releaseDate: '2017-01-01',
     length: 99,
     genre: 'Thriller',
@@ -707,8 +671,7 @@ export const baseMoviesFromMarina: BaseMovie[] = [
       { name: 'Wes Bentley' },
       { name: 'Logan Huffman' },
     ],
-    coverUrl:
-      '/movies_pictures/5c2a9d9f267d.jpg',
+    coverUrl: '/movies_pictures/5c2a9d9f267d.jpg',
     releaseDate: '2015-01-01',
     length: 90,
     genre: 'Thriller',
@@ -727,7 +690,8 @@ export const baseMoviesFromMarina: BaseMovie[] = [
       { name: 'Kirby Morrow' },
       { name: 'Christopher Gaze' },
     ],
-    coverUrl: '',
+    coverUrl:
+      '/movies_pictures/34b36bddcc62.jpg',
     releaseDate: '2001-01-01',
     length: 76,
     genre: 'Animation',
@@ -744,7 +708,8 @@ export const baseMoviesFromMarina: BaseMovie[] = [
       { name: 'Anjelica Huston' },
       { name: 'Cree Summer' },
     ],
-    coverUrl: '',
+    coverUrl:
+      '/movies_pictures/f4ca7f21da1c.jpg',
     releaseDate: '2002-01-01',
     length: 83,
     genre: 'Animation',
@@ -761,7 +726,8 @@ export const baseMoviesFromMarina: BaseMovie[] = [
       { name: 'Mark Hildreth' },
       { name: 'Kelsey Grammer' },
     ],
-    coverUrl: '',
+    coverUrl:
+      '/movies_pictures/48abaff26b2d.jpg',
     releaseDate: '2003-01-01',
     length: 83,
     genre: 'Animation',
@@ -778,7 +744,8 @@ export const baseMoviesFromMarina: BaseMovie[] = [
       { name: 'Andrea Martin' },
       { name: 'Pam Hyatt' },
     ],
-    coverUrl: '',
+    coverUrl:
+      '/movies_pictures/3b464b7ed2b6.jpg',
     releaseDate: '2004-01-01',
     length: 85,
     genre: 'Animation',
@@ -795,7 +762,8 @@ export const baseMoviesFromMarina: BaseMovie[] = [
       { name: 'Kathleen Barr' },
       { name: 'Tabitha St. Germain' },
     ],
-    coverUrl: '',
+    coverUrl:
+      '/movies_pictures/c6f97fe8a2f0.jpg',
     releaseDate: '2005-01-01',
     length: 70,
     genre: 'Animation',
@@ -812,7 +780,8 @@ export const baseMoviesFromMarina: BaseMovie[] = [
       { name: 'Christopher Gaze' },
       { name: 'Nicole Oliver' },
     ],
-    coverUrl: '',
+    coverUrl:
+      '/movies_pictures/9c3cc59133f6.jpg',
     releaseDate: '2005-01-01',
     length: 83,
     genre: 'Animation',
@@ -829,7 +798,8 @@ export const baseMoviesFromMarina: BaseMovie[] = [
       { name: 'Kathleen Barr' },
       { name: 'Tabitha St. Germain' },
     ],
-    coverUrl: '',
+    coverUrl:
+      '/movies_pictures/92e100c3a37a.jpg',
     releaseDate: '2006-01-01',
     length: 75,
     genre: 'Animation',
@@ -846,7 +816,8 @@ export const baseMoviesFromMarina: BaseMovie[] = [
       { name: 'Alex Doduk' },
       { name: 'Tabitha St. Germain' },
     ],
-    coverUrl: '',
+    coverUrl:
+      '/movies_pictures/676febce9741.jpg',
     releaseDate: '2006-01-01',
     length: 70,
     genre: 'Animation',
@@ -863,7 +834,8 @@ export const baseMoviesFromMarina: BaseMovie[] = [
       { name: 'Kathleen Barr' },
       { name: 'Ashleigh Ball' },
     ],
-    coverUrl: '',
+    coverUrl:
+      '/movies_pictures/1a2e655209c3.jpg',
     releaseDate: '2006-01-01',
     length: 83,
     genre: 'Animation',
@@ -880,7 +852,8 @@ export const baseMoviesFromMarina: BaseMovie[] = [
       { name: 'Kathleen Barr' },
       { name: 'Tabitha St. Germain' },
     ],
-    coverUrl: '',
+    coverUrl:
+      '/movies_pictures/52be7cb47763.jpg',
     releaseDate: '2007-01-01',
     length: 75,
     genre: 'Animation',
@@ -897,7 +870,8 @@ export const baseMoviesFromMarina: BaseMovie[] = [
       { name: 'Andrea Robinson' },
       { name: 'Brian Drummond' },
     ],
-    coverUrl: '',
+    coverUrl:
+      '/movies_pictures/2b5b3f8493ad.jpg',
     releaseDate: '2007-01-01',
     length: 86,
     genre: 'Animation',
@@ -914,7 +888,8 @@ export const baseMoviesFromMarina: BaseMovie[] = [
       { name: 'Chiara Zanni' },
       { name: 'Kathleen Barr' },
     ],
-    coverUrl: '',
+    coverUrl:
+      '/movies_pictures/be621304e018.jpg',
     releaseDate: '2008-01-01',
     length: 75,
     genre: 'Animation',
@@ -931,7 +906,8 @@ export const baseMoviesFromMarina: BaseMovie[] = [
       { name: 'Kathleen Barr' },
       { name: 'Tabitha St. Germain' },
     ],
-    coverUrl: '',
+    coverUrl:
+      '/movies_pictures/6654a80aa50e.jpg',
     releaseDate: '2008-01-01',
     length: 78,
     genre: 'Animation',
@@ -948,7 +924,8 @@ export const baseMoviesFromMarina: BaseMovie[] = [
       { name: 'Kathleen Barr' },
       { name: 'Brian Dobson' },
     ],
-    coverUrl: '',
+    coverUrl:
+      '/movies_pictures/aaf738f9ee77.jpg',
     releaseDate: '2008-01-01',
     length: 75,
     genre: 'Animation',
@@ -965,7 +942,8 @@ export const baseMoviesFromMarina: BaseMovie[] = [
       { name: 'Tabitha St. Germain' },
       { name: 'Kathleen Barr' },
     ],
-    coverUrl: '',
+    coverUrl:
+      '/movies_pictures/a97080b744a0.jpg',
     releaseDate: '2009-01-01',
     length: 78,
     genre: 'Animation',
@@ -982,7 +960,8 @@ export const baseMoviesFromMarina: BaseMovie[] = [
       { name: 'Tim Curry' },
       { name: 'Kira Tozer' },
     ],
-    coverUrl: '',
+    coverUrl:
+      '/movies_pictures/a25b5b2abea1.jpg',
     releaseDate: '2009-01-01',
     length: 81,
     genre: 'Animation',
@@ -999,7 +978,8 @@ export const baseMoviesFromMarina: BaseMovie[] = [
       { name: 'Kathleen Barr' },
       { name: 'Tabitha St. Germain' },
     ],
-    coverUrl: '',
+    coverUrl:
+      '/movies_pictures/2d54904963bf.jpg',
     releaseDate: '2010-01-01',
     length: 83,
     genre: 'Animation',
@@ -1016,7 +996,8 @@ export const baseMoviesFromMarina: BaseMovie[] = [
       { name: 'Tabitha St. Germain' },
       { name: 'Kathleen Barr' },
     ],
-    coverUrl: '',
+    coverUrl:
+      '/movies_pictures/50899015f795.jpg',
     releaseDate: '2010-01-01',
     length: 83,
     genre: 'Animation',
@@ -1033,7 +1014,8 @@ export const baseMoviesFromMarina: BaseMovie[] = [
       { name: 'Kathleen Barr' },
       { name: 'Tabitha St. Germain' },
     ],
-    coverUrl: '',
+    coverUrl:
+      '/movies_pictures/d05341f9a687.jpg',
     releaseDate: '2011-01-01',
     length: 75,
     genre: 'Animation',
@@ -1050,7 +1032,8 @@ export const baseMoviesFromMarina: BaseMovie[] = [
       { name: 'Kathleen Barr' },
       { name: 'Tabitha St. Germain' },
     ],
-    coverUrl: '',
+    coverUrl:
+      '/movies_pictures/4851af0c76ef.jpg',
     releaseDate: '2011-01-01',
     length: 75,
     genre: 'Animation',
@@ -1069,7 +1052,8 @@ export const baseMoviesFromMarina: BaseMovie[] = [
       { name: 'Kathleen Barr' },
       { name: 'Tabitha St. Germain' },
     ],
-    coverUrl: '',
+    coverUrl:
+      '/movies_pictures/60850b2afbbe.jpg',
     releaseDate: '2012-01-01',
     length: 73,
     genre: 'Animation',
@@ -1086,7 +1070,8 @@ export const baseMoviesFromMarina: BaseMovie[] = [
       { name: 'Tabitha St. Germain' },
       { name: 'Kathleen Barr' },
     ],
-    coverUrl: '',
+    coverUrl:
+      '/movies_pictures/cdca4454ae84.jpg',
     releaseDate: '2012-01-01',
     length: 75,
     genre: 'Animation',
@@ -1103,7 +1088,8 @@ export const baseMoviesFromMarina: BaseMovie[] = [
       { name: 'Kathleen Barr' },
       { name: 'Tabitha St. Germain' },
     ],
-    coverUrl: '',
+    coverUrl:
+      'https://fusion.molotov.tv/arts/i/446x588/Ch8SHQoUVwdcIC_YMspTDReRMzQlLrZstpASA2pwZxgB/jpg',
     releaseDate: '2013-01-01',
     length: 83,
     genre: 'Animation',
@@ -1120,7 +1106,8 @@ export const baseMoviesFromMarina: BaseMovie[] = [
       { name: 'Chiara Zanni' },
       { name: 'Kathleen Barr' },
     ],
-    coverUrl: '',
+    coverUrl:
+      '/movies_pictures/94db30f94e01.jpg',
     releaseDate: '2013-01-01',
     length: 75,
     genre: 'Animation',
@@ -1137,7 +1124,8 @@ export const baseMoviesFromMarina: BaseMovie[] = [
       { name: 'America Young' },
       { name: 'Cassidy Naber' },
     ],
-    coverUrl: '',
+    coverUrl:
+      '/movies_pictures/aeef10ad41d7.jpg',
     releaseDate: '2013-01-01',
     length: 72,
     genre: 'Animation',
@@ -1154,7 +1142,8 @@ export const baseMoviesFromMarina: BaseMovie[] = [
       { name: 'America Young' },
       { name: 'Cassidy Naber' },
     ],
-    coverUrl: '',
+    coverUrl:
+      '/movies_pictures/adcc85ebe351.jpg',
     releaseDate: '2014-01-01',
     length: 83,
     genre: 'Animation',
@@ -1171,7 +1160,8 @@ export const baseMoviesFromMarina: BaseMovie[] = [
       { name: 'Kate Higgins' },
       { name: 'David Kaye' },
     ],
-    coverUrl: '',
+    coverUrl:
+      '/movies_pictures/2a562ed648d7.jpg',
     releaseDate: '2014-01-01',
     length: 81,
     genre: 'Animation',
@@ -1188,7 +1178,8 @@ export const baseMoviesFromMarina: BaseMovie[] = [
       { name: 'Kate Higgins' },
       { name: 'David Kaye' },
     ],
-    coverUrl: '',
+    coverUrl:
+      '/movies_pictures/c7ef59c909e3.jpg',
     releaseDate: '2015-01-01',
     length: 72,
     genre: 'Animation',
@@ -1205,7 +1196,8 @@ export const baseMoviesFromMarina: BaseMovie[] = [
       { name: 'Kate Higgins' },
       { name: 'David Kaye' },
     ],
-    coverUrl: '',
+    coverUrl:
+      '/movies_pictures/0547b0e05be2.jpg',
     releaseDate: '2015-01-01',
     length: 87,
     genre: 'Animation',
@@ -1222,7 +1214,8 @@ export const baseMoviesFromMarina: BaseMovie[] = [
       { name: 'America Young' },
       { name: 'Cassidy Naber' },
     ],
-    coverUrl: '',
+    coverUrl:
+      '/movies_pictures/563fd78feea8.jpg',
     releaseDate: '2015-01-01',
     length: 72,
     genre: 'Animation',
@@ -1239,7 +1232,8 @@ export const baseMoviesFromMarina: BaseMovie[] = [
       { name: 'Kate Higgins' },
       { name: 'David Kaye' },
     ],
-    coverUrl: '',
+    coverUrl:
+      '/movies_pictures/30db09eb7525.jpg',
     releaseDate: '2016-01-01',
     length: 83,
     genre: 'Animation',
@@ -1256,7 +1250,8 @@ export const baseMoviesFromMarina: BaseMovie[] = [
       { name: 'Kate Higgins' },
       { name: 'America Young' },
     ],
-    coverUrl: '',
+    coverUrl:
+      '/movies_pictures/99f0bbb88779.jpg',
     releaseDate: '2016-01-01',
     length: 83,
     genre: 'Animation',
@@ -1273,7 +1268,8 @@ export const baseMoviesFromMarina: BaseMovie[] = [
       { name: 'America Young' },
       { name: 'Cassidy Naber' },
     ],
-    coverUrl: '',
+    coverUrl:
+      '/movies_pictures/543199371942.jpg',
     releaseDate: '2016-01-01',
     length: 72,
     genre: 'Animation',
@@ -1290,7 +1286,8 @@ export const baseMoviesFromMarina: BaseMovie[] = [
       { name: 'Kate Higgins' },
       { name: 'America Young' },
     ],
-    coverUrl: '',
+    coverUrl:
+      '/movies_pictures/0a16598fc5b7.jpg',
     releaseDate: '2017-01-01',
     length: 83,
     genre: 'Animation',
@@ -1310,8 +1307,7 @@ export const baseMoviesFromMarina: BaseMovie[] = [
       { name: 'Danielle Macdonald' },
       { name: 'Rebecca Henderson' },
     ],
-    coverUrl:
-      '/movies_pictures/a5001b7847bb.jpg',
+    coverUrl: '/movies_pictures/a5001b7847bb.jpg',
     releaseDate: '2025-01-01',
     length: 95,
     genre: 'Drame',
@@ -1329,8 +1325,7 @@ export const baseMoviesFromMarina: BaseMovie[] = [
       { name: 'Ian McShane' },
       { name: 'Bradley Cooper' },
     ],
-    coverUrl:
-      '/movies_pictures/65a2b0895afd.jpg',
+    coverUrl: '/movies_pictures/65a2b0895afd.jpg',
     releaseDate: '2009-01-01',
     length: 109,
     genre: 'Thriller',
@@ -1348,8 +1343,7 @@ export const baseMoviesFromMarina: BaseMovie[] = [
       { name: 'Carlos Santos' },
       { name: 'Teresa Rabal' },
     ],
-    coverUrl:
-      '/movies_pictures/24eb8a247381.jpg',
+    coverUrl: '/movies_pictures/24eb8a247381.jpg',
     releaseDate: '2023-01-01',
     length: 117,
     genre: 'Thriller',
@@ -1367,8 +1361,7 @@ export const baseMoviesFromMarina: BaseMovie[] = [
       { name: 'Damon Herriman' },
       { name: 'Neil Melville' },
     ],
-    coverUrl:
-      '/movies_pictures/e633abdbe2a4.jpg',
+    coverUrl: '/movies_pictures/e633abdbe2a4.jpg',
     releaseDate: '2023-01-01',
     length: 100,
     genre: 'Thriller',
@@ -1386,8 +1379,7 @@ export const baseMoviesFromMarina: BaseMovie[] = [
       { name: 'Lili Taylor' },
       { name: 'Max Martini' },
     ],
-    coverUrl:
-      '/movies_pictures/b0ff17605bce.jpg',
+    coverUrl: '/movies_pictures/b0ff17605bce.jpg',
     releaseDate: '2019-01-01',
     length: 98,
     genre: 'Horreur',
@@ -1423,8 +1415,7 @@ export const baseMoviesFromMarina: BaseMovie[] = [
       { name: 'Justin Long' },
       { name: 'Matthew Patrick Davis' },
     ],
-    coverUrl:
-      '/movies_pictures/7086cfc2645d.jpg',
+    coverUrl: '/movies_pictures/7086cfc2645d.jpg',
     releaseDate: '2002-01-01',
     length: 102,
     genre: 'Drame',
@@ -1442,8 +1433,7 @@ export const baseMoviesFromMarina: BaseMovie[] = [
       { name: 'Alex Sharp' },
       { name: 'Ingrid Oliver' },
     ],
-    coverUrl:
-      '/movies_pictures/621d08062b84.jpg',
+    coverUrl: '/movies_pictures/621d08062b84.jpg',
     releaseDate: '2019-01-01',
     length: 93,
     genre: 'Comédie',
@@ -1461,8 +1451,7 @@ export const baseMoviesFromMarina: BaseMovie[] = [
       { name: 'Elisabeth Moss' },
       { name: 'Tim Heidecker' },
     ],
-    coverUrl:
-      '/movies_pictures/5e0de4e5772d.jpg',
+    coverUrl: '/movies_pictures/5e0de4e5772d.jpg',
     releaseDate: '2019-01-01',
     length: 116,
     genre: 'Horreur',
@@ -1480,8 +1469,7 @@ export const baseMoviesFromMarina: BaseMovie[] = [
       { name: 'Olwen Fouéré' },
       { name: 'Alistair Brammer' },
     ],
-    coverUrl:
-      '/movies_pictures/8938b7839604.jpg',
+    coverUrl: '/movies_pictures/8938b7839604.jpg',
     releaseDate: '2024-01-01',
     length: 102,
     genre: 'Thriller',
@@ -1517,8 +1505,7 @@ export const baseMoviesFromMarina: BaseMovie[] = [
       { name: 'Judah Lewis' },
       { name: 'Libe Barer' },
     ],
-    coverUrl:
-      '/movies_pictures/017583c9b42f.jpg',
+    coverUrl: '/movies_pictures/017583c9b42f.jpg',
     releaseDate: '2019-01-01',
     length: 99,
     genre: 'Thriller',
@@ -1538,8 +1525,7 @@ export const baseMoviesFromMarina: BaseMovie[] = [
       { name: 'Michael C. Hall' },
       { name: 'Jennifer Ehle' },
     ],
-    coverUrl:
-      '/movies_pictures/256d5a138b87.jpg',
+    coverUrl: '/movies_pictures/256d5a138b87.jpg',
     releaseDate: '2022-01-01',
     length: 95,
     genre: 'Thriller',
@@ -1557,8 +1543,7 @@ export const baseMoviesFromMarina: BaseMovie[] = [
       { name: 'Noemie Merlant' },
       { name: 'Alec Secareanu' },
     ],
-    coverUrl:
-      '/movies_pictures/f95b1833e52f.jpg',
+    coverUrl: '/movies_pictures/f95b1833e52f.jpg',
     releaseDate: '2017-01-01',
     length: 89,
     genre: 'Horreur',
@@ -1576,8 +1561,7 @@ export const baseMoviesFromMarina: BaseMovie[] = [
       { name: 'Callan McAuliffe' },
       { name: 'Maika Monroe' },
     ],
-    coverUrl:
-      '/movies_pictures/3d7c6b08c5c4.jpg',
+    coverUrl: '/movies_pictures/3d7c6b08c5c4.jpg',
     releaseDate: '2021-01-01',
     length: 95,
     genre: 'Thriller',
@@ -1595,8 +1579,7 @@ export const baseMoviesFromMarina: BaseMovie[] = [
       { name: 'Amanda Peet' },
       { name: 'John Hawkes' },
     ],
-    coverUrl:
-      '/movies_pictures/805408d7dd8d.jpg',
+    coverUrl: '/movies_pictures/805408d7dd8d.jpg',
     releaseDate: '2003-01-01',
     length: 90,
     genre: 'Thriller',
@@ -1614,8 +1597,7 @@ export const baseMoviesFromMarina: BaseMovie[] = [
       { name: 'Azhy Robertson' },
       { name: 'Winslow Fegley' },
     ],
-    coverUrl:
-      '/movies_pictures/3bc92a3d4c72.jpg',
+    coverUrl: '/movies_pictures/3bc92a3d4c72.jpg',
     releaseDate: '2024-01-01',
     length: 98,
     genre: 'Thriller',
@@ -1633,8 +1615,7 @@ export const baseMoviesFromMarina: BaseMovie[] = [
       { name: 'Minami Hamabe' },
       { name: 'Sota Fukushi' },
     ],
-    coverUrl:
-      '/movies_pictures/38b0fc6b8a9d.jpg',
+    coverUrl: '/movies_pictures/38b0fc6b8a9d.jpg',
     releaseDate: '2022-01-01',
     length: 102,
     genre: 'Thriller',
@@ -1652,8 +1633,7 @@ export const baseMoviesFromMarina: BaseMovie[] = [
       { name: 'Jacob Tremblay' },
       { name: 'Annabeth Gish' },
     ],
-    coverUrl:
-      '/movies_pictures/45a33c48943c.jpg',
+    coverUrl: '/movies_pictures/45a33c48943c.jpg',
     releaseDate: '2016-01-01',
     length: 97,
     genre: 'Thriller',
@@ -1671,8 +1651,7 @@ export const baseMoviesFromMarina: BaseMovie[] = [
       { name: 'Chris Pine' },
       { name: 'Olivia Wilde' },
     ],
-    coverUrl:
-      '/movies_pictures/e929d5e34dfe.jpg',
+    coverUrl: '/movies_pictures/e929d5e34dfe.jpg',
     releaseDate: '2022-01-01',
     length: 122,
     genre: 'Thriller',
@@ -1690,8 +1669,7 @@ export const baseMoviesFromMarina: BaseMovie[] = [
       { name: 'Enno Trebs' },
       { name: 'Langston Uibel' },
     ],
-    coverUrl:
-      '/movies_pictures/e929d5e34dfe.jpg',
+    coverUrl: '/movies_pictures/e929d5e34dfe.jpg',
     releaseDate: '2024-01-01',
     length: 111,
     genre: 'Thriller',
@@ -1709,8 +1687,7 @@ export const baseMoviesFromMarina: BaseMovie[] = [
       { name: 'Roman Knizka' },
       { name: 'Daniel Holzberg' },
     ],
-    coverUrl:
-      '/movies_pictures/78d60976a1eb.jpg',
+    coverUrl: '/movies_pictures/78d60976a1eb.jpg',
     releaseDate: '2022-01-01',
     length: 102,
     genre: 'Thriller',
@@ -1728,8 +1705,7 @@ export const baseMoviesFromMarina: BaseMovie[] = [
       { name: 'Eva Melander' },
       { name: 'Peter Eggers' },
     ],
-    coverUrl:
-      '/movies_pictures/3e16a1a46ddb.jpg',
+    coverUrl: '/movies_pictures/3e16a1a46ddb.jpg',
     releaseDate: '2023-01-01',
     length: 100,
     genre: 'Thriller',
@@ -1760,8 +1736,7 @@ export const baseMoviesFromMarina: BaseMovie[] = [
     title: 'Creep',
     director: 'Patrick Brice',
     actors: [{ name: 'Mark Duplass' }, { name: 'Patrick Brice' }],
-    coverUrl:
-      '/movies_pictures/2a399b569f61.jpg',
+    coverUrl: '/movies_pictures/2a399b569f61.jpg',
     releaseDate: '2014-01-01',
     length: 77,
     genre: 'Horreur',
@@ -1779,8 +1754,7 @@ export const baseMoviesFromMarina: BaseMovie[] = [
       { name: 'Dulé Hill' },
       { name: 'Jaime M. Callica' },
     ],
-    coverUrl:
-      '/movies_pictures/f496aa82d428.jpg',
+    coverUrl: '/movies_pictures/f496aa82d428.jpg',
     releaseDate: '2021-01-01',
     length: 88,
     genre: 'Thriller',
@@ -1798,8 +1772,7 @@ export const baseMoviesFromMarina: BaseMovie[] = [
       { name: 'Patrick Schwarzenegger' },
       { name: 'Wendy Moniz' },
     ],
-    coverUrl:
-      '/movies_pictures/218ba2e93436.jpg',
+    coverUrl: '/movies_pictures/218ba2e93436.jpg',
     releaseDate: '2024-01-01',
     length: 90,
     genre: 'Thriller',
@@ -1817,8 +1790,7 @@ export const baseMoviesFromMarina: BaseMovie[] = [
       { name: 'Stellan Skarsgård' },
       { name: 'Trevor Morgan' },
     ],
-    coverUrl:
-      '/movies_pictures/4d94d28212e4.jpg',
+    coverUrl: '/movies_pictures/4d94d28212e4.jpg',
     releaseDate: '2001-01-01',
     length: 106,
     genre: 'Thriller',
@@ -1836,8 +1808,7 @@ export const baseMoviesFromMarina: BaseMovie[] = [
       { name: 'Famke Janssen' },
       { name: 'Anna Friel' },
     ],
-    coverUrl:
-      '/movies_pictures/0e80f4200dc5.jpg',
+    coverUrl: '/movies_pictures/0e80f4200dc5.jpg',
     releaseDate: '2023-01-01',
     length: 97,
     genre: 'Thriller',
@@ -1855,8 +1826,7 @@ export const baseMoviesFromMarina: BaseMovie[] = [
       { name: 'Lukas Haas' },
       { name: 'Emilie de Ravin' },
     ],
-    coverUrl:
-      '/movies_pictures/caa4286253c4.jpg',
+    coverUrl: '/movies_pictures/caa4286253c4.jpg',
     releaseDate: '2005-01-01',
     length: 110,
     genre: 'Thriller',
@@ -1874,8 +1844,7 @@ export const baseMoviesFromMarina: BaseMovie[] = [
       { name: 'Zorion Eguileor' },
       { name: 'Gorka Otxoa' },
     ],
-    coverUrl:
-      '/movies_pictures/40d5bf72ddd6.jpg',
+    coverUrl: '/movies_pictures/40d5bf72ddd6.jpg',
     releaseDate: '2020-01-01',
     length: 88,
     genre: 'Drame',
@@ -1893,8 +1862,7 @@ export const baseMoviesFromMarina: BaseMovie[] = [
       { name: 'Vicky Luengo' },
       { name: 'Pablo Derqui' },
     ],
-    coverUrl:
-      '/movies_pictures/fedea54fb058.jpg',
+    coverUrl: '/movies_pictures/fedea54fb058.jpg',
     releaseDate: '2020-01-01',
     length: 95,
     genre: 'Thriller',
@@ -1912,8 +1880,7 @@ export const baseMoviesFromMarina: BaseMovie[] = [
       { name: 'Zazie Beetz' },
       { name: 'Karl Glusman' },
     ],
-    coverUrl:
-      '/movies_pictures/d531eff43fe2.jpg',
+    coverUrl: '/movies_pictures/d531eff43fe2.jpg',
     releaseDate: '2019-01-01',
     length: 95,
     genre: 'Horreur',
@@ -1931,8 +1898,7 @@ export const baseMoviesFromMarina: BaseMovie[] = [
       { name: 'Steven Weber' },
       { name: 'Alaina Meyer' },
     ],
-    coverUrl:
-      '/movies_pictures/20769b471295.jpg',
+    coverUrl: '/movies_pictures/20769b471295.jpg',
     releaseDate: '2019-01-01',
     length: 90,
     genre: 'Thriller',
@@ -1950,8 +1916,7 @@ export const baseMoviesFromMarina: BaseMovie[] = [
       { name: 'Shea Whigham' },
       { name: 'Marin Ireland' },
     ],
-    coverUrl:
-      '/movies_pictures/b8bbcd8f5e82.jpg',
+    coverUrl: '/movies_pictures/b8bbcd8f5e82.jpg',
     releaseDate: '2023-01-01',
     length: 97,
     genre: 'Thriller',
@@ -1969,8 +1934,7 @@ export const baseMoviesFromMarina: BaseMovie[] = [
       { name: 'Indya Moore' },
       { name: 'Holland Roden' },
     ],
-    coverUrl:
-      '/movies_pictures/6f6aa1cc5b0a.jpg',
+    coverUrl: '/movies_pictures/6f6aa1cc5b0a.jpg',
     releaseDate: '2021-01-01',
     length: 88,
     genre: 'Thriller',
@@ -1988,8 +1952,7 @@ export const baseMoviesFromMarina: BaseMovie[] = [
       { name: 'Michael Caine' },
       { name: 'Shirley MacLaine' },
     ],
-    coverUrl:
-      '/movies_pictures/3656abaf6c93.jpg',
+    coverUrl: '/movies_pictures/3656abaf6c93.jpg',
     releaseDate: '2005-01-01',
     length: 102,
     genre: 'Comédie',
@@ -2006,8 +1969,7 @@ export const baseMoviesFromMarina: BaseMovie[] = [
       { name: 'Pierre Tornade' },
       { name: 'Henri Labussière' },
     ],
-    coverUrl:
-      '/movies_pictures/2acc3be007e4.png',
+    coverUrl: '/movies_pictures/2acc3be007e4.png',
     releaseDate: '1989-01-01',
     length: 79,
     genre: 'Animation',
@@ -2024,8 +1986,7 @@ export const baseMoviesFromMarina: BaseMovie[] = [
       { name: 'Pierre Tornade' },
       { name: 'Graham Bushnell' },
     ],
-    coverUrl:
-      '/movies_pictures/69a6f568d770.jpg',
+    coverUrl: '/movies_pictures/69a6f568d770.jpg',
     releaseDate: '1986-01-01',
     length: 79,
     genre: 'Animation',
@@ -2042,8 +2003,7 @@ export const baseMoviesFromMarina: BaseMovie[] = [
       { name: 'Pierre Tornade' },
       { name: 'Henri Labussière' },
     ],
-    coverUrl:
-      '/movies_pictures/9d81cfb94b87.jpg',
+    coverUrl: '/movies_pictures/9d81cfb94b87.jpg',
     releaseDate: '1985-01-01',
     length: 81,
     genre: 'Animation',
@@ -2095,8 +2055,7 @@ export const baseMoviesFromMarina: BaseMovie[] = [
       { name: "Maimouna N'Diaye" },
       { name: 'Robert Liensol' },
     ],
-    coverUrl:
-      '/movies_pictures/7922a3260082.jpg',
+    coverUrl: '/movies_pictures/7922a3260082.jpg',
     releaseDate: '1998-01-01',
     length: 71,
     genre: 'Animation',
@@ -2114,8 +2073,7 @@ export const baseMoviesFromMarina: BaseMovie[] = [
       { name: 'Isabelle Gélinas' },
       { name: 'François Morel' },
     ],
-    coverUrl:
-      '/movies_pictures/41df16ed6e6b.jpg',
+    coverUrl: '/movies_pictures/41df16ed6e6b.jpg',
     releaseDate: '2012-01-01',
     length: 79,
     genre: 'Animation',
@@ -2133,8 +2091,7 @@ export const baseMoviesFromMarina: BaseMovie[] = [
       { name: 'Peter Ostrum' },
       { name: 'Roy Kinnear' },
     ],
-    coverUrl:
-      '/movies_pictures/761aca29f06f.jpg',
+    coverUrl: '/movies_pictures/761aca29f06f.jpg',
     releaseDate: '1971-01-01',
     length: 100,
     genre: 'Familial',
@@ -2152,8 +2109,7 @@ export const baseMoviesFromMarina: BaseMovie[] = [
       { name: 'Eartha Kitt' },
       { name: 'Patrick Warburton' },
     ],
-    coverUrl:
-      '/movies_pictures/d15f6a1aa261.jpg',
+    coverUrl: '/movies_pictures/d15f6a1aa261.jpg',
     releaseDate: '2005-01-01',
     length: 75,
     genre: 'Animation',
@@ -2171,8 +2127,7 @@ export const baseMoviesFromMarina: BaseMovie[] = [
       { name: 'Nick Jonas' },
       { name: 'Kevin Jonas' },
     ],
-    coverUrl:
-      '/movies_pictures/1bbe71712521.jpg',
+    coverUrl: '/movies_pictures/1bbe71712521.jpg',
     releaseDate: '2008-01-01',
     length: 94,
     genre: 'Comédie musicale',
