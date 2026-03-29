@@ -3658,7 +3658,7 @@ export const dantesMovies: UserMovie[] = [
   },
 
   {
-    title: 'Ace Ventura: Détective pour chiens et chats',
+    title: 'Ace Ventura, détective pour chiens et chats',
     director: 'Tom Shadyac',
     rating: 0,
     timesWatched: 1,
