@@ -1390,4 +1390,19 @@ export const ronanBooks: UserBooks = [
     wantToReadAgain: false,
     ratingComment: '',
   },
+
+  {
+    title: 'Le Monde de Narnia (Tome 6) Le Fauteuil d\'Argent',
+    author: 'C. S. Lewis',
+    firstReadDate: '2026-03-29',
+    lastReadDate: '2026-03-29',
+    rating: 3.5,
+    readTimes: 1,
+    owned: true,
+    borrowed: '',
+    loaned: '',
+    readPriority: 1,
+    wantToReadAgain: false,
+    ratingComment: '',
+  },
 ];

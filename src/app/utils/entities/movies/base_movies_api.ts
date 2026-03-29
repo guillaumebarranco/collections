@@ -885,4 +885,61 @@ export const baseMoviesApi: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: 'États-Unis',
   },
+
+  {
+    title: 'Kong: Skull Island',
+    director: ' Jordan Vogt-Roberts',
+    actors: [
+      {
+        name: 'Tom Hiddleston',
+      },
+      {
+        name: 'Brie Larson',
+      },
+      {
+        name: 'Samuel L. Jackson',
+      },
+      {
+        name: 'John C Reilly',
+      },
+      {
+        name: 'John Goodman',
+      },
+      {
+        name: 'Toby Kebbell',
+      },
+    ],
+    coverUrl: 'https://m.media-amazon.com/images/M/MV5BMTcwMjcxYTQtYjJlOS00YTE1LWIyZGYtOGRlOTBlMWZmYTliXkEyXkFqcGc@._V1_.jpg',
+    releaseDate: '2017-03-08',
+    length: 118,
+    genre: 'Action',
+    saga: 'MonsterVerse',
+    description: '',
+    fromEntity: null,
+    countryOrigin: 'États-Unis',
+  },
+
+  {
+    title: 'Ace Ventura, détective pour chiens et chats',
+    director: 'Tom Shadyac',
+    actors: [
+      {
+        name: 'Jim Carrey',
+      },
+      {
+        name: 'Courtney Cox',
+      },
+      {
+        name: 'Sean Young',
+      },
+    ],
+    coverUrl: 'https://m.media-amazon.com/images/M/MV5BOWU1M2Q5MDgtOTkxZS00NjdmLWFlNWEtOGEyOTNlNGYyYTZlXkEyXkFqcGc@._V1_.jpg',
+    releaseDate: '1994-02-04',
+    length: 86,
+    genre: 'Comédie',
+    saga: '',
+    description: '',
+    fromEntity: null,
+    countryOrigin: 'États-Unis',
+  },
 ];

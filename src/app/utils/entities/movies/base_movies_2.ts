@@ -1126,12 +1126,16 @@ export const baseMoviesPage2: BaseMovie[] = [
   {
     title: 'Godzilla',
     director: 'Roland Emmerich',
-    actors: [{ name: 'Matthew Broderick' }],
+    actors: [
+      {
+        name: 'Matthew Broderick',
+      }
+    ],
     coverUrl: '/movies_pictures/51224-godzilla-0-150-0-225-crop.jpg',
     releaseDate: '1998-05-20',
     length: 139,
     genre: 'Action',
-    saga: 'MonsterVerse',
+    saga: '',
     description: '',
     fromEntity: null,
     countryOrigin: 'États-Unis',

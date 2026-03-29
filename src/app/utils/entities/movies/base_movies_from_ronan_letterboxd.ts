@@ -1690,13 +1690,13 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
       },
       {
         name: 'Minami Hamabe',
-      },
+      }
     ],
     coverUrl: '/movies_pictures/godzilla_minus_one.jpg',
     releaseDate: '2023-01-01',
     length: 125,
     genre: 'Action',
-    saga: 'MonsterVerse',
+    saga: '',
     description: '',
     fromEntity: null,
     countryOrigin: 'Japon',
