@@ -2,22 +2,8 @@ import { UserMangas } from '../../../../models/manga-model';
 
 export const guillaumeReadListMangas: UserMangas = [
   {
-    title: "Gen d'Hiroshima",
-    author: "Kazuo Umezu",
-    readDate: "",
-    rating: 3.5,
-    readTimes: 1,
-    owned: false,
-    readPriority: 1,
-    wantToReadAgain: false,
-    ratingComment: "",
-    borrowed: "",
-    loaned: "",
-  }
-,
-  {
-    title: "Vinland Saga",
-    author: "Makoto Yukimura",
+    title: 'Vinland Saga',
+    author: 'Makoto Yukimura',
     readDate: '',
     rating: 0,
     readTimes: 1,
@@ -30,8 +16,8 @@ export const guillaumeReadListMangas: UserMangas = [
   },
 
   {
-    title: "Moriarty",
-    author: "Ryosuke Takeuchi, Hikaru Miyoshi",
+    title: 'Moriarty',
+    author: 'Ryosuke Takeuchi, Hikaru Miyoshi',
     readDate: '',
     rating: 0,
     readTimes: 1,
@@ -44,8 +30,8 @@ export const guillaumeReadListMangas: UserMangas = [
   },
 
   {
-    title: "AKIRA",
-    author: "Katsuhiro Otomo",
+    title: 'AKIRA',
+    author: 'Katsuhiro Otomo',
     readDate: '',
     rating: 0,
     readTimes: 1,
@@ -58,8 +44,8 @@ export const guillaumeReadListMangas: UserMangas = [
   },
 
   {
-    title: "La Vie de Bouddha",
-    author: "Osamu Tezuka",
+    title: 'La Vie de Bouddha',
+    author: 'Osamu Tezuka',
     readDate: '',
     rating: 0,
     readTimes: 1,
@@ -72,8 +58,8 @@ export const guillaumeReadListMangas: UserMangas = [
   },
 
   {
-    title: "Coq de combat",
-    author: "Izo Hashimoto, Akio Tanaka",
+    title: 'Coq de combat',
+    author: 'Izo Hashimoto, Akio Tanaka',
     readDate: '',
     rating: 0,
     readTimes: 1,
