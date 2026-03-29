@@ -50,7 +50,7 @@ export const ronanWatchlistMovies: UserMovies = [
     inList: [],
   },
   {
-    title: "A l'aube du 6ème jour",
+    title: 'A l\'aube du 6ème jour',
     director: 'Roger Spottiswoode',
     rating: 0,
     timesWatched: 0,
@@ -530,7 +530,7 @@ export const ronanWatchlistMovies: UserMovies = [
     inList: [],
   },
   {
-    title: "Le Joyeux Noël d'Harold et Kumar",
+    title: 'Le Joyeux Noël d\'Harold et Kumar',
     director: 'Todd Strauss-Schulson',
     rating: 0,
     timesWatched: 0,
@@ -1250,7 +1250,7 @@ export const ronanWatchlistMovies: UserMovies = [
     inList: [],
   },
   {
-    title: "L'arme fatale 4",
+    title: 'L\'arme fatale 4',
     director: 'Richard Donner',
     rating: 0,
     timesWatched: 0,
@@ -1682,7 +1682,7 @@ export const ronanWatchlistMovies: UserMovies = [
     inList: [],
   },
   {
-    title: "Ennemi d'Etat",
+    title: 'Ennemi d\'Etat',
     director: 'Tony Scott',
     rating: 0,
     timesWatched: 0,
@@ -1858,7 +1858,7 @@ export const ronanWatchlistMovies: UserMovies = [
     inList: [],
   },
   {
-    title: "L'Armée des 12 singes",
+    title: 'L\'Armée des 12 singes',
     director: 'Terry Gilliam',
     rating: 0,
     timesWatched: 0,
@@ -1986,7 +1986,7 @@ export const ronanWatchlistMovies: UserMovies = [
     inList: [],
   },
   {
-    title: "Fous d'Irène",
+    title: 'Fous d\'Irène',
     director: 'Bobby Farrelly, Peter Farrelly',
     rating: 0,
     timesWatched: 0,
@@ -2146,7 +2146,7 @@ export const ronanWatchlistMovies: UserMovies = [
     inList: [],
   },
   {
-    title: "Légendes d'automne",
+    title: 'Légendes d\'automne',
     director: 'Edward Zwick',
     rating: 0,
     timesWatched: 0,
@@ -2210,7 +2210,7 @@ export const ronanWatchlistMovies: UserMovies = [
     inList: [],
   },
   {
-    title: "Spy game, jeu d'espions",
+    title: 'Spy game, jeu d\'espions',
     director: 'Tony Scott',
     rating: 0,
     timesWatched: 0,
@@ -2226,7 +2226,7 @@ export const ronanWatchlistMovies: UserMovies = [
     inList: [],
   },
   {
-    title: "L'Assassinat de Jesse James par le lâche Robert Ford",
+    title: 'L\'Assassinat de Jesse James par le lâche Robert Ford',
     director: 'Andrew Dominik',
     rating: 0,
     timesWatched: 0,
@@ -2370,7 +2370,7 @@ export const ronanWatchlistMovies: UserMovies = [
     inList: [],
   },
   {
-    title: "Il n'est jamais trop tard",
+    title: 'Il n\'est jamais trop tard',
     director: 'Tom Hanks',
     rating: 0,
     timesWatched: 0,
@@ -2610,23 +2610,7 @@ export const ronanWatchlistMovies: UserMovies = [
     inList: [],
   },
   {
-    title: 'Gilbert Grape',
-    director: 'Lasse Hallström',
-    rating: 0,
-    timesWatched: 0,
-    firstViewedDate: '',
-    lastViewedDate: '',
-    seenAtCinema: false,
-    owned: false,
-    wantToSeeAgain: false,
-    watchPriority: 1,
-    ratingComment: '',
-    borrowed: '',
-    loaned: '',
-    inList: [],
-  },
-  {
-    title: "Mensonges d'État",
+    title: 'Mensonges d\'État',
     director: 'Ridley Scott',
     rating: 0,
     timesWatched: 0,
@@ -2914,7 +2898,7 @@ export const ronanWatchlistMovies: UserMovies = [
     inList: [],
   },
   {
-    title: "L'Île au trésor",
+    title: 'L\'Île au trésor',
     director: 'Fraser Clarke Heston',
     rating: 0,
     timesWatched: 0,
@@ -3107,7 +3091,7 @@ export const ronanWatchlistMovies: UserMovies = [
   },
   {
     title: 'Hurlevent',
-    director: "Frances O'Connor",
+    director: 'Frances O\'Connor',
     rating: 0,
     timesWatched: 0,
     firstViewedDate: '',
@@ -3218,7 +3202,7 @@ export const ronanWatchlistMovies: UserMovies = [
     inList: [],
   },
   {
-    title: "Braquage à l'ancienne",
+    title: 'Braquage à l\'ancienne',
     director: 'Zach Braff',
     rating: 0,
     timesWatched: 0,
@@ -3234,7 +3218,7 @@ export const ronanWatchlistMovies: UserMovies = [
     inList: [],
   },
   {
-    title: "L'impasse",
+    title: 'L\'impasse',
     director: 'Brian De Palma',
     rating: 0,
     timesWatched: 0,
@@ -3250,7 +3234,7 @@ export const ronanWatchlistMovies: UserMovies = [
     inList: [],
   },
   {
-    title: "Vol au-dessus d'un nid de coucou",
+    title: 'Vol au-dessus d\'un nid de coucou',
     director: 'Milos Forman',
     rating: 0,
     timesWatched: 0,
@@ -3346,7 +3330,7 @@ export const ronanWatchlistMovies: UserMovies = [
     inList: [],
   },
   {
-    title: "Voyage au bout de l'enfer",
+    title: 'Voyage au bout de l\'enfer',
     director: 'Michael Cimino',
     rating: 0,
     timesWatched: 0,
@@ -3458,7 +3442,7 @@ export const ronanWatchlistMovies: UserMovies = [
     inList: [],
   },
   {
-    title: "La Ruée vers l'or",
+    title: 'La Ruée vers l\'or',
     director: 'Charlie Chaplin',
     rating: 0,
     timesWatched: 0,
@@ -3618,7 +3602,7 @@ export const ronanWatchlistMovies: UserMovies = [
     inList: [],
   },
   {
-    title: "Lawrence d'Arabie",
+    title: 'Lawrence d\'Arabie',
     director: 'David Lean',
     rating: 0,
     timesWatched: 0,
@@ -3651,7 +3635,7 @@ export const ronanWatchlistMovies: UserMovies = [
   },
   {
     title: 'Je veux manger ton pancréas',
-    director: "Shin'ichirô Ushijima",
+    director: 'Shin\'ichirô Ushijima',
     rating: 0,
     timesWatched: 0,
     firstViewedDate: '',
@@ -3826,7 +3810,7 @@ export const ronanWatchlistMovies: UserMovies = [
     inList: [],
   },
   {
-    title: "La vie d'Adèle",
+    title: 'La vie d\'Adèle',
     director: 'Abdellatif Kechiche',
     rating: 0,
     timesWatched: 0,
@@ -4242,7 +4226,7 @@ export const ronanWatchlistMovies: UserMovies = [
     inList: [],
   },
   {
-    title: "La Revanche d'une blonde",
+    title: 'La Revanche d\'une blonde',
     director: 'Robert Luketic',
     rating: 0,
     timesWatched: 0,
@@ -4594,7 +4578,7 @@ export const ronanWatchlistMovies: UserMovies = [
     inList: [],
   },
   {
-    title: "L'Imaginarium du Docte...",
+    title: 'L\'Imaginarium du Docte...',
     director: 'Terry Gilliam',
     rating: 0,
     timesWatched: 0,
@@ -4658,7 +4642,7 @@ export const ronanWatchlistMovies: UserMovies = [
     inList: [],
   },
   {
-    title: "La Zone d'intérêt",
+    title: 'La Zone d\'intérêt',
     director: 'Jonathan Glazer',
     rating: 0,
     timesWatched: 0,
@@ -4738,7 +4722,7 @@ export const ronanWatchlistMovies: UserMovies = [
     inList: [],
   },
   {
-    title: "Les Promesses de l'ombre",
+    title: 'Les Promesses de l\'ombre',
     director: 'David Cronenberg',
     rating: 0,
     timesWatched: 0,
@@ -4866,7 +4850,7 @@ export const ronanWatchlistMovies: UserMovies = [
     inList: [],
   },
   {
-    title: "Willy's Wonderland",
+    title: 'Willy\'s Wonderland',
     director: 'Kevin Lewis',
     rating: 0,
     timesWatched: 0,
@@ -4994,7 +4978,7 @@ export const ronanWatchlistMovies: UserMovies = [
     inList: [],
   },
   {
-    title: "Largo Winch : Le Prix de l'argent",
+    title: 'Largo Winch : Le Prix de l\'argent',
     director: 'Olivier Masset-Depasse',
     rating: 0,
     timesWatched: 0,
@@ -5122,7 +5106,7 @@ export const ronanWatchlistMovies: UserMovies = [
     inList: [],
   },
   {
-    title: "Anatomie d'une chute",
+    title: 'Anatomie d\'une chute',
     director: 'Justine Triet',
     rating: 0,
     timesWatched: 0,
@@ -5138,7 +5122,7 @@ export const ronanWatchlistMovies: UserMovies = [
     inList: [],
   },
   {
-    title: "L'Homme qui en savait trop",
+    title: 'L\'Homme qui en savait trop',
     director: 'Alfred Hitchcock',
     rating: 0,
     timesWatched: 0,
@@ -5314,7 +5298,7 @@ export const ronanWatchlistMovies: UserMovies = [
     inList: [],
   },
   {
-    title: "2001 : L'Odyssée de l'espace",
+    title: '2001 : L\'Odyssée de l\'espace',
     director: 'Yannick Rolandeau',
     rating: 0,
     timesWatched: 0,
@@ -5554,7 +5538,7 @@ export const ronanWatchlistMovies: UserMovies = [
     inList: [],
   },
   {
-    title: "Les Banshees d'Inisherin",
+    title: 'Les Banshees d\'Inisherin',
     director: 'Martin McDonagh',
     rating: 0,
     timesWatched: 0,
@@ -5762,7 +5746,7 @@ export const ronanWatchlistMovies: UserMovies = [
     inList: [],
   },
   {
-    title: "La Proie d'une ombre",
+    title: 'La Proie d\'une ombre',
     director: 'Nick Murphy',
     rating: 0,
     timesWatched: 0,
@@ -6482,7 +6466,7 @@ export const ronanWatchlistMovies: UserMovies = [
     inList: [],
   },
   {
-    title: "L'Échange",
+    title: 'L\'Échange',
     director: 'Clint Eastwood',
     rating: 0,
     timesWatched: 0,
@@ -6496,5 +6480,5 @@ export const ronanWatchlistMovies: UserMovies = [
     borrowed: '',
     loaned: '',
     inList: [],
-  },
+  }
 ];

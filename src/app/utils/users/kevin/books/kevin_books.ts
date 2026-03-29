@@ -1603,4 +1603,19 @@ export const kevinBooks: UserBooks = [
     ratingComment:
       "La fin est incomplète, il manque un livre mais on peut s'en satisfaire. Cela dit, beaucoup d'intrigues non traitées et d'éléments importants passés sous silence.",
   },
+
+  {
+    title: 'Le Nom du Vent',
+    author: 'Patrick Rothfuss',
+    firstReadDate: '2026-03-28',
+    lastReadDate: '2026-03-28',
+    rating: 4.5,
+    readTimes: 1,
+    owned: false,
+    borrowed: '',
+    loaned: '',
+    readPriority: 3,
+    wantToReadAgain: false,
+    ratingComment: 'Très bon livre, très agréable à lire, il lui manque juste ces petits événements marquants et exceptionnels qui provoquent tant de sentiment, qui en aurait fait une pépite.',
+  },
 ];

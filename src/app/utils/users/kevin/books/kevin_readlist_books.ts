@@ -2,7 +2,7 @@ import { UserBooks } from '../../../../models/book-model';
 
 export const kevinReadListBooks: UserBooks = [
   {
-    title: "Jeux d'Ombres",
+    title: 'Jeux d\'Ombres',
     author: 'Glen Cook',
     firstReadDate: '',
     lastReadDate: '',
@@ -16,7 +16,7 @@ export const kevinReadListBooks: UserBooks = [
     ratingComment: '',
   },
   {
-    title: "Rêves d'Acier",
+    title: 'Rêves d\'Acier',
     author: 'Glen Cook',
     firstReadDate: '',
     lastReadDate: '',
@@ -30,7 +30,7 @@ export const kevinReadListBooks: UserBooks = [
     ratingComment: '',
   },
   {
-    title: "La Pointe d'Argent",
+    title: 'La Pointe d\'Argent',
     author: 'Glen Cook',
     firstReadDate: '',
     lastReadDate: '',
@@ -86,7 +86,7 @@ export const kevinReadListBooks: UserBooks = [
     ratingComment: '',
   },
   {
-    title: "L'Eau Dort - Part. 1",
+    title: 'L\'Eau Dort - Part. 1',
     author: 'Glen Cook',
     firstReadDate: '',
     lastReadDate: '',
@@ -100,7 +100,7 @@ export const kevinReadListBooks: UserBooks = [
     ratingComment: '',
   },
   {
-    title: "L'Eau Dort - Part. 2",
+    title: 'L\'Eau Dort - Part. 2',
     author: 'Glen Cook',
     firstReadDate: '',
     lastReadDate: '',
@@ -166,20 +166,6 @@ export const kevinReadListBooks: UserBooks = [
     borrowed: '',
     loaned: '',
     readPriority: 1,
-    wantToReadAgain: false,
-    ratingComment: '',
-  },
-  {
-    title: 'Le Nom du Vent',
-    author: 'Patrick Rothfuss',
-    firstReadDate: '',
-    lastReadDate: '',
-    rating: 0,
-    readTimes: 1,
-    owned: false,
-    borrowed: '',
-    loaned: '',
-    readPriority: 3,
     wantToReadAgain: false,
     ratingComment: '',
   },
@@ -282,7 +268,7 @@ export const kevinReadListBooks: UserBooks = [
     ratingComment: '',
   },
   {
-    title: "L'Etoile de la Sorcière",
+    title: 'L\'Etoile de la Sorcière',
     author: 'James Clemens',
     firstReadDate: '',
     lastReadDate: '',
@@ -310,7 +296,7 @@ export const kevinReadListBooks: UserBooks = [
     ratingComment: '',
   },
   {
-    title: "L'Oeil Brisé",
+    title: 'L\'Oeil Brisé',
     author: 'Brent Weeks',
     firstReadDate: '',
     lastReadDate: '',
@@ -364,5 +350,5 @@ export const kevinReadListBooks: UserBooks = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
-  },
+  }
 ];

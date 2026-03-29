@@ -5471,7 +5471,7 @@ export const ronanMovies: UserMovies = [
     watchPriority: 1,
     ratingComment: '',
     borrowed: '',
-    loaned: '',
+    loaned: 'Guillaume',
     inList: [],
   },
   {
@@ -5519,7 +5519,7 @@ export const ronanMovies: UserMovies = [
     watchPriority: 1,
     ratingComment: '',
     borrowed: '',
-    loaned: '',
+    loaned: 'Guillaume',
     inList: [],
   },
   {
@@ -6319,7 +6319,7 @@ export const ronanMovies: UserMovies = [
     watchPriority: 1,
     ratingComment: '',
     borrowed: '',
-    loaned: '',
+    loaned: 'Guillaume',
     inList: [],
   },
   {
@@ -6783,7 +6783,7 @@ export const ronanMovies: UserMovies = [
     watchPriority: 1,
     ratingComment: '',
     borrowed: '',
-    loaned: '',
+    loaned: 'Guillaume',
     inList: [],
   },
   {
@@ -10975,7 +10975,7 @@ export const ronanMovies: UserMovies = [
     watchPriority: 1,
     ratingComment: '',
     borrowed: '',
-    loaned: '',
+    loaned: 'Guillaume',
     inList: [],
   },
   {
@@ -11167,7 +11167,7 @@ export const ronanMovies: UserMovies = [
     watchPriority: 1,
     ratingComment: '',
     borrowed: '',
-    loaned: '',
+    loaned: 'Guillaume',
     inList: [],
   },
   {
@@ -11327,7 +11327,7 @@ export const ronanMovies: UserMovies = [
     watchPriority: 1,
     ratingComment: '',
     borrowed: '',
-    loaned: '',
+    loaned: 'Guillaume',
     inList: [],
   },
   {
@@ -11487,7 +11487,7 @@ export const ronanMovies: UserMovies = [
     watchPriority: 1,
     ratingComment: '',
     borrowed: '',
-    loaned: '',
+    loaned: 'Guillaume',
     inList: [],
   },
   {
@@ -14161,7 +14161,7 @@ export const ronanMovies: UserMovies = [
     watchPriority: 1,
     ratingComment: '',
     borrowed: '',
-    loaned: '',
+    loaned: 'Guillaume',
     inList: [],
   },
   {
@@ -14945,7 +14945,7 @@ export const ronanMovies: UserMovies = [
     watchPriority: 1,
     ratingComment: '',
     borrowed: '',
-    loaned: '',
+    loaned: 'Guillaume',
     inList: [],
   },
   {
@@ -14977,7 +14977,7 @@ export const ronanMovies: UserMovies = [
     watchPriority: 1,
     ratingComment: '',
     borrowed: '',
-    loaned: '',
+    loaned: 'Guillaume',
     inList: [],
   },
   {
@@ -15057,7 +15057,7 @@ export const ronanMovies: UserMovies = [
     watchPriority: 1,
     ratingComment: '',
     borrowed: '',
-    loaned: '',
+    loaned: 'Guillaume',
     inList: [],
   },
   {
@@ -16997,5 +16997,22 @@ export const ronanMovies: UserMovies = [
     borrowed: '',
     loaned: '',
     inList: [],
+  },
+
+  {
+    title: 'Gilbert Grape',
+    director: 'Lasse Hallström',
+    rating: 3,
+    timesWatched: 1,
+    firstViewedDate: '2026-03-25',
+    lastViewedDate: '2026-03-25',
+    seenAtCinema: false,
+    owned: false,
+    wantToSeeAgain: false,
+    watchPriority: 1,
+    ratingComment: '',
+    inList: [],
+    borrowed: '',
+    loaned: '',
   },
 ];
