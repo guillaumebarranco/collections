@@ -223,8 +223,8 @@ export const masterofmadnessMangas: UserManga[] = [
     loaned: '',
   },
   {
-    title: 'Ao no exorcist',
-    author: 'Kazue Kato',
+    title: 'Blue Exorcist',
+    author: 'Kazue Katō',
     readDate: '',
     rating: 0,
     readTimes: 1,

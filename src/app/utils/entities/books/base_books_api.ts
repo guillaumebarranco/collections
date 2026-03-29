@@ -855,7 +855,7 @@ export const baseBooksApi: BaseBook[] = [
   {
     title: 'Le Monde de Narnia (Tome 6) Le Fauteuil d\'Argent',
     author: 'C. S. Lewis',
-    coverUrl: 'https://m.media-amazon.com/images/I/81q+BTN8EHL._UF1000,1000_QL80_.jpg',
+    coverUrl: '/books_pictures/fab8a20076f0.jpg',
     pages: 271,
     genre: 'Fantasy',
     saga: 'Le Monde de Narnia',

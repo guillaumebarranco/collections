@@ -1411,7 +1411,7 @@ export const baseMoviesPage3: BaseMovie[] = [
       { name: 'Vic Chao' },
     ],
     coverUrl:
-      'https://m.media-amazon.com/images/I/61mGvGGnIaL._AC_UF894,1000_QL80_.jpg',
+      '/movies_pictures/c59723a6b76d.jpg',
     releaseDate: '2009-05-19',
     length: 88,
     genre: 'Action, Horror, Science Fiction',
