@@ -2,6 +2,7 @@ const express = require('express');
 const fs = require('fs');
 const path = require('path');
 const { execFileSync } = require('child_process');
+const { escapeStringForTsDoubleQuote: escapeString } = require('../../utils/escape-ts-string');
 const {
   normalizeString,
   normalizeBoolean,
@@ -48,15 +49,6 @@ function ensureUserExists(userId: string) {
   execFileSync('node', args, { stdio: 'ignore' });
 }
 
-/** Échappe une chaîne pour l’injection dans un fichier .ts (chaîne entre simples quotes). */
-function escapeString(value: string) {
-  return value
-    .replace(/\\/g, '\\\\')
-    .replace(/'/g, "\\'")
-    .replace(/\r/g, '\\r')
-    .replace(/\n/g, '\\n');
-}
-
 function getTodayISO(): string {
   const today = new Date();
   const year = today.getFullYear();
@@ -69,19 +61,19 @@ function formatUserMovie(movie: any, options?: { rating?: number; ratingComment?
   const viewedDate = getTodayISO();
   const rating = options?.rating != null ? Number(options.rating) : 0;
   const ratingComment = typeof options?.ratingComment === 'string' ? options.ratingComment : '';
-  return `  {\n    title: '${escapeString(
+  return `  {\n    title: "${escapeString(
     movie.title
-  )}',\n    director: '${escapeString(
+  )}",\n    director: "${escapeString(
     movie.director
-  )}',\n    rating: ${rating},\n    timesWatched: 1,\n    firstViewedDate: '${viewedDate}',\n    lastViewedDate: '${viewedDate}',\n    seenAtCinema: false,\n    owned: false,\n    wantToSeeAgain: false,\n    watchPriority: 1,\n    ratingComment: '${escapeString(ratingComment)}',\n    inList: [],\n    borrowed: '${escapeString(typeof movie.borrowed === 'string' ? movie.borrowed : '')}',\n    loaned: '${escapeString(typeof movie.loaned === 'string' ? movie.loaned : '')}',\n  },`;
+  )}",\n    rating: ${rating},\n    timesWatched: 1,\n    firstViewedDate: "${viewedDate}",\n    lastViewedDate: "${viewedDate}",\n    seenAtCinema: false,\n    owned: false,\n    wantToSeeAgain: false,\n    watchPriority: 1,\n    ratingComment: "${escapeString(ratingComment)}",\n    inList: [],\n    borrowed: "${escapeString(typeof movie.borrowed === 'string' ? movie.borrowed : '')}",\n    loaned: "${escapeString(typeof movie.loaned === 'string' ? movie.loaned : '')}",\n  },`;
 }
 
 function formatWatchlistMovie(movie: any) {
-  return `  {\n    title: '${escapeString(
+  return `  {\n    title: "${escapeString(
     movie.title
-  )}',\n    director: '${escapeString(
+  )}",\n    director: "${escapeString(
     movie.director
-  )}',\n    rating: 0,\n    timesWatched: 0,\n    firstViewedDate: '',\n    lastViewedDate: '',\n    seenAtCinema: false,\n    owned: false,\n    wantToSeeAgain: false,\n    watchPriority: 1,\n    ratingComment: '',\n    inList: [],\n    borrowed: '${escapeString(typeof movie.borrowed === 'string' ? movie.borrowed : '')}',\n    loaned: '${escapeString(typeof movie.loaned === 'string' ? movie.loaned : '')}',\n  },`;
+  )}",\n    rating: 0,\n    timesWatched: 0,\n    firstViewedDate: '',\n    lastViewedDate: '',\n    seenAtCinema: false,\n    owned: false,\n    wantToSeeAgain: false,\n    watchPriority: 1,\n    ratingComment: '',\n    inList: [],\n    borrowed: "${escapeString(typeof movie.borrowed === 'string' ? movie.borrowed : '')}",\n    loaned: "${escapeString(typeof movie.loaned === 'string' ? movie.loaned : '')}",\n  },`;
 }
 
 function getUserMoviesTargetFile(userId: string, isWatchlist: boolean) {

@@ -49,8 +49,8 @@ function ensureUserExists(userId: string) {
 
 function formatUserGame(game: any): string {
   return `  {
-    title: '${escapeString(game.title)}',
-    editor: '${escapeString(game.editor)}',
+    title: "${escapeString(game.title)}",
+    editor: "${escapeString(game.editor)}",
     rating: 0,
     owned: false,
     gamelistPriority: ${game.gamelistPriority ?? 1},
@@ -64,8 +64,8 @@ function formatUserGame(game: any): string {
 
 function formatGamelistGame(game: any): string {
   return `  {
-    title: '${escapeString(game.title)}',
-    editor: '${escapeString(game.editor)}',
+    title: "${escapeString(game.title)}",
+    editor: "${escapeString(game.editor)}",
     rating: 0,
     owned: false,
     gamelistPriority: ${game.gamelistPriority ?? 1},

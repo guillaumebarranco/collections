@@ -1,5 +1,6 @@
 const fs = require('fs');
 const path = require('path');
+const { escapeStringForTsDoubleQuote: escapeString } = require('../escape-ts-string');
 
 const USERS_SERIES_DIR = path.join(
   __dirname,
@@ -324,10 +325,6 @@ function parseBaseSeriesFullFromFile(content: string): any[] {
   return series;
 }
 
-function escapeString(value: string): string {
-  return value.replace(/\\/g, '\\\\').replace(/'/g, "\\'");
-}
-
 function appendObjectToArrayFile(filePath: string, objectText: string) {
   const content = fs.readFileSync(filePath, 'utf8');
   const exportIndex = content.indexOf('export const');
@@ -398,11 +395,9 @@ function replaceField(objectText: string, key: string, value: any) {
     if (!regex.test(next)) {
       throw new Error(`Field ${key} not found`);
     }
-    next = next.replace(regex, (match, prefix, quote) => {
-      const escaped = value
-        .replace(/\\/g, '\\\\')
-        .replace(new RegExp(quote, 'g'), `\\${quote}`);
-      return `${prefix}${quote}${escaped}${quote}`;
+    next = next.replace(regex, (match, prefix) => {
+      const escaped = escapeString(value);
+      return `${prefix}"${escaped}"`;
     });
     return next;
   }
@@ -437,7 +432,7 @@ function upsertField(objectText: string, key: string, value: any) {
       return replaceField(next, key, value);
     }
     const escaped = escapeString(value);
-    return next.replace(/\}\s*$/, `    ${key}: '${escaped}',\n  }`);
+    return next.replace(/\}\s*$/, `    ${key}: "${escaped}",\n  }`);
   }
   if (typeof value === 'boolean' || typeof value === 'number') {
     const regex = new RegExp(`(${key}\\s*:\\s*)([^,\\n]+)`);
@@ -451,7 +446,7 @@ function upsertField(objectText: string, key: string, value: any) {
 
 function formatActors(actors: string[]) {
   const items = actors.map(
-    (name) => `      {\n        name: '${escapeString(name)}',\n      }`
+    (name) => `      {\n        name: "${escapeString(name)}",\n      }`
   );
   return `actors: [\n${items.join(',\n')}\n    ]`;
 }
@@ -508,7 +503,7 @@ function formatSeasons(seasons: any[]) {
       seasonTimesWatched: ${
         Number.isNaN(seasonTimesWatched) ? 0 : seasonTimesWatched
       },
-      lastViewedDate: '${escapeString(lastViewedDate)}',
+      lastViewedDate: "${escapeString(lastViewedDate)}",
     }`;
   });
   return `seasons: [\n${lines.join(',\n')}\n  ]`;
@@ -770,15 +765,15 @@ function removeSerieFromFile(content: string, payload: any) {
         '    '
       )},`;
       return `  {
-    title: '${escapeString(serie.title)}',
-    director: '${escapeString(serie.director)}',
+    title: "${escapeString(serie.title)}",
+    director: "${escapeString(serie.director)}",
 ${seasonsText}
     owned: ${serie.owned ?? false},
     watchPriority: ${serie.watchPriority ?? 1},
     wantToWatchAgain: ${serie.wantToWatchAgain ?? false},
-    ratingComment: '${escapeString(serie.ratingComment || '')}',
-    borrowed: '${escapeString(serie.borrowed || '')}',
-    loaned: '${escapeString(serie.loaned || '')}',
+    ratingComment: "${escapeString(serie.ratingComment || '')}",
+    borrowed: "${escapeString(serie.borrowed || '')}",
+    loaned: "${escapeString(serie.loaned || '')}",
   }`;
     })
     .join(',\n');

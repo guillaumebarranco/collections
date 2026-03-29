@@ -2,6 +2,7 @@ const express = require('express');
 const fs = require('fs');
 const path = require('path');
 const { execFileSync } = require('child_process');
+const { escapeStringForTsDoubleQuote: escapeString } = require('../../utils/escape-ts-string');
 const {
   normalizeString,
   normalizeBoolean,
@@ -45,14 +46,6 @@ function ensureUserExists(userId: string) {
   execFileSync('node', args, { stdio: 'ignore' });
 }
 
-function escapeString(value: string) {
-  return value
-    .replace(/\\/g, '\\\\')
-    .replace(/'/g, "\\'")
-    .replace(/\r/g, '\\r')
-    .replace(/\n/g, '\\n');
-}
-
 function getReadDateToday() {
   const d = new Date();
   return `${d.getFullYear()}-${String(d.getMonth() + 1).padStart(2, '0')}-${String(d.getDate()).padStart(2, '0')}`;
@@ -62,7 +55,7 @@ function formatUserComic(comic: any, options?: { rating?: number; ratingComment?
   const readDate = getReadDateToday();
   const rating = options?.rating != null ? Number(options.rating) : 0;
   const ratingComment = typeof options?.ratingComment === 'string' ? options.ratingComment : '';
-  return `  {\n    title: '${escapeString(comic.title)}',\n    writer: '${escapeString(comic.writer)}',\n    readDate: '${readDate}',\n    rating: ${rating},\n    readTimes: 1,\n    owned: false,\n    readPriority: ${comic.readPriority ?? 1},\n    wantToReadAgain: false,\n    ratingComment: '${escapeString(ratingComment)}',\n    borrowed: '${escapeString(typeof comic.borrowed === 'string' ? comic.borrowed : '')}',\n    loaned: '${escapeString(typeof comic.loaned === 'string' ? comic.loaned : '')}',\n  },`;
+  return `  {\n    title: "${escapeString(comic.title)}",\n    writer: "${escapeString(comic.writer)}",\n    readDate: "${readDate}",\n    rating: ${rating},\n    readTimes: 1,\n    owned: false,\n    readPriority: ${comic.readPriority ?? 1},\n    wantToReadAgain: false,\n    ratingComment: "${escapeString(ratingComment)}",\n    borrowed: "${escapeString(typeof comic.borrowed === 'string' ? comic.borrowed : '')}",\n    loaned: "${escapeString(typeof comic.loaned === 'string' ? comic.loaned : '')}",\n  },`;
 }
 
 function getUserComicsTargetFile(userId: string, isReadlist: boolean) {

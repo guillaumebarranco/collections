@@ -2,6 +2,7 @@ const express = require('express');
 const fs = require('fs');
 const path = require('path');
 const { execFileSync } = require('child_process');
+const { escapeStringForTsDoubleQuote: escapeString } = require('../../utils/escape-ts-string');
 const {
   normalizeString,
   normalizeBoolean,
@@ -47,10 +48,6 @@ function ensureUserExists(userId: string) {
   execFileSync('node', args, { stdio: 'ignore' });
 }
 
-function escapeString(value: string) {
-  return value.replace(/\\/g, '\\\\').replace(/'/g, "\\'");
-}
-
 function buildSeasons(seasonsCount: number) {
   const count = Math.max(0, Number(seasonsCount) || 0);
   return Array.from({ length: count }, (_, index) => ({
@@ -67,7 +64,7 @@ function formatSeasons(seasons: any[]) {
         seasonNumber: ${season.seasonNumber},
         seasonRating: ${season.seasonRating},
         seasonTimesWatched: ${season.seasonTimesWatched},
-        lastViewedDate: '${escapeString(season.lastViewedDate || '')}',
+        lastViewedDate: "${escapeString(season.lastViewedDate || '')}",
       }`
   );
   return `    seasons: [\n${lines.join(',\n')}\n    ],`;
@@ -76,8 +73,8 @@ function formatSeasons(seasons: any[]) {
 function formatUserSerie(serie: any) {
   const seasons = buildSeasons(serie.seasonsCount);
   return `  {
-    title: '${escapeString(serie.title)}',
-    director: '${escapeString(serie.director)}',
+    title: "${escapeString(serie.title)}",
+    director: "${escapeString(serie.director)}",
 ${formatSeasons(seasons)}
     owned: false,
     watchPriority: 1,
@@ -91,8 +88,8 @@ ${formatSeasons(seasons)}
 function formatWatchlistSerie(serie: any) {
   const seasons = buildSeasons(serie.seasonsCount);
   return `  {
-    title: '${escapeString(serie.title)}',
-    director: '${escapeString(serie.director)}',
+    title: "${escapeString(serie.title)}",
+    director: "${escapeString(serie.director)}",
 ${formatSeasons(seasons)}
     owned: false,
     watchPriority: 1,

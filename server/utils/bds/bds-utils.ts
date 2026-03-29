@@ -1,5 +1,6 @@
 const fs = require('fs');
 const path = require('path');
+const { escapeStringForTsDoubleQuote: escapeString } = require('../escape-ts-string');
 
 const USERS_BDS_DIR = path.join(
   __dirname,
@@ -205,10 +206,6 @@ function parseBaseBdsFullFromFile(content: string): any[] {
   return bds;
 }
 
-function escapeString(value: string): string {
-  return value.replace(/\\/g, '\\\\').replace(/'/g, "\\'");
-}
-
 function appendObjectToArrayFile(filePath: string, objectText: string) {
   const content = fs.readFileSync(filePath, 'utf8');
   const exportIndex = content.indexOf('export const');
@@ -274,17 +271,17 @@ function updateBdInFile(filePath: string, bdData: any): boolean {
   const newArrayContent = bds
     .map(
       (bd) => `  {
-    title: '${escapeString(bd.title)}',
-    writer: '${escapeString(bd.writer)}',
-    readDate: '${escapeString(bd.readDate || '')}',
+    title: "${escapeString(bd.title)}",
+    writer: "${escapeString(bd.writer)}",
+    readDate: "${escapeString(bd.readDate || '')}",
     rating: ${bd.rating ?? 0},
     readTimes: ${bd.readTimes ?? 1},
     owned: ${bd.owned ?? false},
     readPriority: ${bd.readPriority ?? 1},
     wantToReadAgain: ${bd.wantToReadAgain ?? false},
-    ratingComment: '${escapeString(bd.ratingComment || '')}',
-    borrowed: '${escapeString(bd.borrowed || '')}',
-    loaned: '${escapeString(bd.loaned || '')}',
+    ratingComment: "${escapeString(bd.ratingComment || '')}",
+    borrowed: "${escapeString(bd.borrowed || '')}",
+    loaned: "${escapeString(bd.loaned || '')}",
   }`
     )
     .join(',\n');
@@ -329,17 +326,17 @@ function updateBdIdentityInFile(filePath: string, bdData: any): boolean {
   const newArrayContent = bds
     .map(
       (bd) => `  {
-    title: '${escapeString(bd.title)}',
-    writer: '${escapeString(bd.writer)}',
-    readDate: '${escapeString(bd.readDate || '')}',
+    title: "${escapeString(bd.title)}",
+    writer: "${escapeString(bd.writer)}",
+    readDate: "${escapeString(bd.readDate || '')}",
     rating: ${bd.rating ?? 0},
     readTimes: ${bd.readTimes ?? 1},
     owned: ${bd.owned ?? false},
     readPriority: ${bd.readPriority ?? 1},
     wantToReadAgain: ${bd.wantToReadAgain ?? false},
-    ratingComment: '${escapeString(bd.ratingComment || '')}',
-    borrowed: '${escapeString(bd.borrowed || '')}',
-    loaned: '${escapeString(bd.loaned || '')}',
+    ratingComment: "${escapeString(bd.ratingComment || '')}",
+    borrowed: "${escapeString(bd.borrowed || '')}",
+    loaned: "${escapeString(bd.loaned || '')}",
   }`
     )
     .join(',\n');
@@ -385,15 +382,15 @@ function updateBaseBdInFile(filePath: string, bdData: any): boolean {
   const newArrayContent = bds
     .map(
       (bd) => `  {
-    title: '${escapeString(bd.title)}',
-    writer: '${escapeString(bd.writer || '')}',
-    designer: '${escapeString(bd.designer || '')}',
-    coverUrl: '${escapeString(bd.coverUrl || '')}',
+    title: "${escapeString(bd.title)}",
+    writer: "${escapeString(bd.writer || '')}",
+    designer: "${escapeString(bd.designer || '')}",
+    coverUrl: "${escapeString(bd.coverUrl || '')}",
     pages: ${bd.pages ?? 0},
-    genre: '${escapeString(bd.genre || '')}',
-    saga: '${escapeString(bd.saga || '')}',
+    genre: "${escapeString(bd.genre || '')}",
+    saga: "${escapeString(bd.saga || '')}",
     sagaOrder: ${bd.sagaOrder ?? 0},
-    description: '${escapeString(bd.description || '')}',
+    description: "${escapeString(bd.description || '')}",
   }`
     )
     .join(',\n');
@@ -449,17 +446,17 @@ function removeBdFromFile(content: string, payload: any): string {
   const newArrayContent = filtered
     .map(
       (bd) => `  {
-    title: '${escapeString(bd.title)}',
-    writer: '${escapeString(bd.writer)}',
-    readDate: '${escapeString(bd.readDate || '')}',
+    title: "${escapeString(bd.title)}",
+    writer: "${escapeString(bd.writer)}",
+    readDate: "${escapeString(bd.readDate || '')}",
     rating: ${bd.rating ?? 0},
     readTimes: ${bd.readTimes ?? 1},
     owned: ${bd.owned ?? false},
     readPriority: ${bd.readPriority ?? 1},
     wantToReadAgain: ${bd.wantToReadAgain ?? false},
-    ratingComment: '${escapeString(bd.ratingComment || '')}',
-    borrowed: '${escapeString(bd.borrowed || '')}',
-    loaned: '${escapeString(bd.loaned || '')}',
+    ratingComment: "${escapeString(bd.ratingComment || '')}",
+    borrowed: "${escapeString(bd.borrowed || '')}",
+    loaned: "${escapeString(bd.loaned || '')}",
   }`
     )
     .join(',\n');

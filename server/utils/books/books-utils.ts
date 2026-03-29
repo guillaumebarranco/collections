@@ -1,5 +1,6 @@
 const fs = require('fs');
 const path = require('path');
+const { escapeStringForTsDoubleQuote: escapeString } = require('../escape-ts-string');
 const {
   normalizeString,
   normalizeBoolean,
@@ -201,15 +202,6 @@ function parseBaseBooksFullFromFile(content: string): any[] {
   return books;
 }
 
-/** Échappe une chaîne pour l'injection dans un fichier .ts (chaîne entre simples quotes). */
-function escapeString(value: string): string {
-  return value
-    .replace(/\\/g, '\\\\')
-    .replace(/'/g, "\\'")
-    .replace(/\r/g, '\\r')
-    .replace(/\n/g, '\\n');
-}
-
 /** Index du '[' qui ouvre le tableau littéral (après " = ["), pas celui du type UserBook[]. */
 function getArrayLiteralStartIndex(content: string, exportIndex: number) {
   const eqBracket = content.indexOf(' = [', exportIndex);
@@ -289,11 +281,9 @@ function replaceField(objectText: string, key: string, value: any) {
     if (!regex.test(next)) {
       throw new Error(`Field ${key} not found`);
     }
-    next = next.replace(regex, (match, prefix, quote) => {
-      const escaped = value
-        .replace(/\\/g, '\\\\')
-        .replace(new RegExp(quote, 'g'), `\\${quote}`);
-      return `${prefix}${quote}${escaped}${quote}`;
+    next = next.replace(regex, (match, prefix) => {
+      const escaped = escapeString(value);
+      return `${prefix}"${escaped}"`;
     });
     return next;
   }
@@ -328,7 +318,7 @@ function upsertField(objectText: string, key: string, value: any) {
       return replaceField(next, key, value);
     }
     const escaped = escapeString(value);
-    return next.replace(/\}\s*$/, `    ${key}: '${escaped}',\n  }`);
+    return next.replace(/\}\s*$/, `    ${key}: "${escaped}",\n  }`);
   }
   if (typeof value === 'boolean' || typeof value === 'number') {
     const regex = new RegExp(`(${key}\\s*:\\s*)([^,\\n]+)`);
@@ -594,18 +584,18 @@ function removeBookFromFile(content: string, payload: any) {
   const newArrayContent = filtered
     .map(
       (book) => `  {
-    title: '${escapeString(book.title)}',
-    author: '${escapeString(book.author)}',
-    firstReadDate: '${escapeString(book.firstReadDate || '')}',
-    lastReadDate: '${escapeString(book.lastReadDate || '')}',
+    title: "${escapeString(book.title)}",
+    author: "${escapeString(book.author)}",
+    firstReadDate: "${escapeString(book.firstReadDate || '')}",
+    lastReadDate: "${escapeString(book.lastReadDate || '')}",
     rating: ${book.rating ?? 0},
     readTimes: ${book.readTimes ?? 0},
     owned: ${book.owned ?? false},
-    borrowed: '${escapeString(book.borrowed ?? '')}',
-    loaned: '${escapeString(book.loaned ?? '')}',
+    borrowed: "${escapeString(book.borrowed ?? '')}",
+    loaned: "${escapeString(book.loaned ?? '')}",
     readPriority: ${book.readPriority ?? 1},
     wantToReadAgain: ${book.wantToReadAgain ?? false},
-    ratingComment: '${escapeString(book.ratingComment ?? '')}',
+    ratingComment: "${escapeString(book.ratingComment ?? '')}",
   }`
     )
     .join(',\n');

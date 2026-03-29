@@ -1,5 +1,6 @@
 const fs = require('fs');
 const path = require('path');
+const { escapeStringForTsDoubleQuote: escapeString } = require('../escape-ts-string');
 
 const USERS_FILE = path.join(
   __dirname,
@@ -26,10 +27,6 @@ function parseBooleanField(objectText: string, key: string) {
   const match = objectText.match(regex);
   if (!match) return null;
   return match[1] === 'true';
-}
-
-function escapeString(value: string): string {
-  return value.replace(/\\/g, '\\\\').replace(/'/g, "\\'");
 }
 
 function parseUsersFromFile(content: string): any[] {
@@ -83,9 +80,9 @@ function saveUsers(users: any[]) {
   const body = users
     .map(
       (user) => `  {
-    username: '${escapeString(user.username)}',
-    passwordHash: '${escapeString(user.passwordHash || '')}',
-    passwordSalt: '${escapeString(user.passwordSalt || '')}',
+    username: "${escapeString(user.username)}",
+    passwordHash: "${escapeString(user.passwordHash || '')}",
+    passwordSalt: "${escapeString(user.passwordSalt || '')}",
     admin: ${user.admin ? 'true' : 'false'},
   }`
     )

@@ -15,34 +15,34 @@ const router = express.Router();
 
 function formatBaseBook(entity: any): string {
   return `  {
-    title: '${escapeString(entity.title)}',
-    author: '${escapeString(entity.author)}',
-    coverUrl: '${escapeString(entity.coverUrl || '')}',
+    title: "${escapeString(entity.title)}",
+    author: "${escapeString(entity.author)}",
+    coverUrl: "${escapeString(entity.coverUrl || '')}",
     pages: ${entity.pages || 0},
-    genre: '${escapeString(entity.genre || '')}',
-    saga: '${escapeString(entity.saga || '')}',
+    genre: "${escapeString(entity.genre || '')}",
+    saga: "${escapeString(entity.saga || '')}",
     sagaOrder: ${entity.sagaOrder || 0},
     sagaFinished: ${entity.sagaFinished ?? false},
-    releaseDate: '${escapeString(entity.releaseDate || '')}',
-    description: '${escapeString(entity.description ?? '')}',
-    countryOrigin: '${escapeString(entity.countryOrigin ?? '')}',
+    releaseDate: "${escapeString(entity.releaseDate || '')}",
+    description: "${escapeString(entity.description ?? '')}",
+    countryOrigin: "${escapeString(entity.countryOrigin ?? '')}",
   },`;
 }
 
 function formatUserBook(user: any): string {
   return `  {
-    title: '${escapeString(user.title)}',
-    author: '${escapeString(user.author)}',
-    firstReadDate: '${escapeString(user.firstReadDate || '')}',
-    lastReadDate: '${escapeString(user.lastReadDate || '')}',
+    title: "${escapeString(user.title)}",
+    author: "${escapeString(user.author)}",
+    firstReadDate: "${escapeString(user.firstReadDate || '')}",
+    lastReadDate: "${escapeString(user.lastReadDate || '')}",
     rating: ${user.rating ?? 0},
     readTimes: ${user.readTimes ?? 1},
     owned: ${user.owned ?? false},
-    borrowed: '${escapeString(user.borrowed ?? '')}',
-    loaned: '${escapeString(user.loaned ?? '')}',
+    borrowed: "${escapeString(user.borrowed ?? '')}",
+    loaned: "${escapeString(user.loaned ?? '')}",
     readPriority: ${user.readPriority ?? 1},
     wantToReadAgain: ${user.wantToReadAgain ?? false},
-    ratingComment: '${escapeString(user.ratingComment ?? '')}',
+    ratingComment: "${escapeString(user.ratingComment ?? '')}",
   },`;
 }
 

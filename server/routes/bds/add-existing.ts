@@ -48,11 +48,11 @@ function ensureUserExists(userId: string) {
 }
 
 function formatUserBd(bd: any) {
-  return `  {\n    title: '${escapeString(
+  return `  {\n    title: "${escapeString(
     bd.title
-  )}',\n    writer: '${escapeString(
+  )}",\n    writer: "${escapeString(
     bd.writer
-  )}',\n    readDate: '',\n    rating: 0,\n    readTimes: 1,\n    owned: false,\n    readPriority: 1,\n    wantToReadAgain: false,\n    ratingComment: '',\n    borrowed: '',\n    loaned: '',\n  },`;
+  )}",\n    readDate: '',\n    rating: 0,\n    readTimes: 1,\n    owned: false,\n    readPriority: 1,\n    wantToReadAgain: false,\n    ratingComment: '',\n    borrowed: '',\n    loaned: '',\n  },`;
 }
 
 function getUserBdsTargetFile(userId: string, isReadlist: boolean) {

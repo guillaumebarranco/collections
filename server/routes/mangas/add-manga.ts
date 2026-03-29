@@ -15,29 +15,29 @@ const router = express.Router();
 
 function formatBaseManga(entity: any): string {
   return `  {
-    title: '${escapeString(entity.title)}',
-    author: '${escapeString(entity.author)}',
-    coverUrl: '${escapeString(entity.coverUrl || '')}',
-    genre: '${escapeString(entity.genre || '')}',
+    title: "${escapeString(entity.title)}",
+    author: "${escapeString(entity.author)}",
+    coverUrl: "${escapeString(entity.coverUrl || '')}",
+    genre: "${escapeString(entity.genre || '')}",
     nbTomes: ${entity.nbTomes || 0},
     isFinished: ${entity.isFinished ?? true},
-    description: '${escapeString(entity.description ?? '')}',
+    description: "${escapeString(entity.description ?? '')}",
   },`;
 }
 
 function formatUserManga(user: any): string {
   return `  {
-    title: '${escapeString(user.title)}',
-    author: '${escapeString(user.author)}',
-    readDate: '${escapeString(user.readDate || '')}',
+    title: "${escapeString(user.title)}",
+    author: "${escapeString(user.author)}",
+    readDate: "${escapeString(user.readDate || '')}",
     rating: ${user.rating ?? 0},
     readTimes: ${user.readTimes ?? 1},
     owned: ${user.owned ?? false},
     readPriority: ${user.readPriority ?? 1},
     wantToReadAgain: ${user.wantToReadAgain ?? false},
-    ratingComment: '${escapeString(user.ratingComment ?? '')}',
-    borrowed: '${escapeString(user.borrowed ?? '')}',
-    loaned: '${escapeString(user.loaned ?? '')}',
+    ratingComment: "${escapeString(user.ratingComment ?? '')}",
+    borrowed: "${escapeString(user.borrowed ?? '')}",
+    loaned: "${escapeString(user.loaned ?? '')}",
   },`;
 }
 

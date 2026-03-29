@@ -2,6 +2,7 @@ const express = require('express');
 const fs = require('fs');
 const path = require('path');
 const { execFileSync } = require('child_process');
+const { escapeStringForTsDoubleQuote: escapeString } = require('../../utils/escape-ts-string');
 const {
   normalizeString,
   normalizeBoolean,
@@ -46,16 +47,12 @@ function ensureUserExists(userId: string) {
   execFileSync('node', args, { stdio: 'ignore' });
 }
 
-function escapeString(value: string) {
-  return value.replace(/\\/g, '\\\\').replace(/'/g, "\\'");
-}
-
 function formatUserBook(book: any) {
-  return `  {\n    title: '${escapeString(
+  return `  {\n    title: "${escapeString(
     book.title
-  )}',\n    author: '${escapeString(
+  )}",\n    author: "${escapeString(
     book.author
-  )}',\n    firstReadDate: '',\n    lastReadDate: '',\n    rating: 0,\n    readTimes: 1,\n    owned: false,\n    borrowed: '',\n    loaned: '',\n    readPriority: 1,\n    wantToReadAgain: false,\n    ratingComment: '',\n  },`;
+  )}",\n    firstReadDate: '',\n    lastReadDate: '',\n    rating: 0,\n    readTimes: 1,\n    owned: false,\n    borrowed: '',\n    loaned: '',\n    readPriority: 1,\n    wantToReadAgain: false,\n    ratingComment: '',\n  },`;
 }
 
 function getUserBooksTargetFile(userId: string, isReadlist: boolean) {

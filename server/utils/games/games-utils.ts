@@ -1,5 +1,6 @@
 const fs = require('fs');
 const path = require('path');
+const { escapeStringForTsDoubleQuote: escapeString } = require('../escape-ts-string');
 
 const USERS_GAMES_DIR = path.join(
   __dirname,
@@ -160,15 +161,15 @@ function formatGameObject(game: any) {
   const sessions = Array.isArray(game.sessions) ? game.sessions : [];
   const sessionsPart = formatSessions(sessions);
   return `  {
-    title: '${escapeString(game.title)}',
-    editor: '${escapeString(game.editor)}',
+    title: "${escapeString(game.title)}",
+    editor: "${escapeString(game.editor)}",
     rating: ${game.rating ?? 0},
     owned: ${game.owned ?? false},
     gamelistPriority: ${game.gamelistPriority ?? 1},
     wantToPlayAgain: ${game.wantToPlayAgain ?? false},
-    ratingComment: '${escapeString(game.ratingComment || '')}',
-    borrowed: '${escapeString(game.borrowed || '')}',
-    loaned: '${escapeString(game.loaned || '')}',
+    ratingComment: "${escapeString(game.ratingComment || '')}",
+    borrowed: "${escapeString(game.borrowed || '')}",
+    loaned: "${escapeString(game.loaned || '')}",
     ${sessionsPart}
   }`;
 }
@@ -292,10 +293,6 @@ function parseBaseGamesFullFromFile(content: string): any[] {
   }
 
   return games;
-}
-
-function escapeString(value: string): string {
-  return value.replace(/\\/g, '\\\\').replace(/'/g, "\\'");
 }
 
 function appendObjectToArrayFile(filePath: string, objectText: string) {
@@ -448,17 +445,17 @@ function updateBaseGameInFile(filePath: string, gameData: any): boolean {
   const newArrayContent = games
     .map(
       (game) => `  {
-    title: '${escapeString(game.title)}',
-    editor: '${escapeString(game.editor)}',
-    hero: '${escapeString(game.hero || '')}',
-    coverUrl: '${escapeString(game.coverUrl || '')}',
-    releaseDate: '${escapeString(game.releaseDate || '')}',
+    title: "${escapeString(game.title)}",
+    editor: "${escapeString(game.editor)}",
+    hero: "${escapeString(game.hero || '')}",
+    coverUrl: "${escapeString(game.coverUrl || '')}",
+    releaseDate: "${escapeString(game.releaseDate || '')}",
     averageTimeToFinish: ${game.averageTimeToFinish ?? 0},
     averageTimeToHundredPercent: ${game.averageTimeToHundredPercent ?? 0},
-    platform: '${escapeString(game.platform || '')}',
-    saga: '${escapeString(game.saga || '')}',
+    platform: "${escapeString(game.platform || '')}",
+    saga: "${escapeString(game.saga || '')}",
     platineTime: ${game.platineTime ?? 0},
-    description: '${escapeString(game.description || '')}',
+    description: "${escapeString(game.description || '')}",
   }`
     )
     .join(',\n');

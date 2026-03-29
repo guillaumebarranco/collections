@@ -48,11 +48,11 @@ function ensureUserExists(userId: string) {
 }
 
 function formatUserManga(manga: any) {
-  return `  {\n    title: '${escapeString(
+  return `  {\n    title: "${escapeString(
     manga.title
-  )}',\n    author: '${escapeString(
+  )}",\n    author: "${escapeString(
     manga.author
-  )}',\n    readDate: '',\n    rating: 0,\n    readTimes: 1,\n    owned: false,\n    readPriority: 1,\n    wantToReadAgain: false,\n    ratingComment: '',\n    borrowed: '',\n    loaned: '',\n  },`;
+  )}",\n    readDate: '',\n    rating: 0,\n    readTimes: 1,\n    owned: false,\n    readPriority: 1,\n    wantToReadAgain: false,\n    ratingComment: '',\n    borrowed: '',\n    loaned: '',\n  },`;
 }
 
 function getUserMangasTargetFile(userId: string, isReadlist: boolean) {

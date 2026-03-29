@@ -1,5 +1,6 @@
 const fs = require('fs');
 const path = require('path');
+const { escapeStringForTsDoubleQuote: escapeString } = require('../escape-ts-string');
 
 const USERS_COMICS_DIR = path.join(
   __dirname,
@@ -205,10 +206,6 @@ function parseBaseComicsFullFromFile(content: string): any[] {
   return comics;
 }
 
-function escapeString(value: string): string {
-  return value.replace(/\\/g, '\\\\').replace(/'/g, "\\'");
-}
-
 function appendObjectToArrayFile(filePath: string, objectText: string) {
   const content = fs.readFileSync(filePath, 'utf8');
   const exportIndex = content.indexOf('export const');
@@ -279,17 +276,17 @@ function updateComicInFile(filePath: string, comicData: any): boolean {
   const newArrayContent = comics
     .map(
       (comic) => `  {
-    title: '${escapeString(comic.title)}',
-    writer: '${escapeString(comic.writer)}',
-    readDate: '${escapeString(comic.readDate || '')}',
+    title: "${escapeString(comic.title)}",
+    writer: "${escapeString(comic.writer)}",
+    readDate: "${escapeString(comic.readDate || '')}",
     rating: ${comic.rating ?? 0},
     readTimes: ${comic.readTimes ?? 1},
     owned: ${comic.owned ?? false},
     readPriority: ${comic.readPriority ?? 1},
     wantToReadAgain: ${comic.wantToReadAgain ?? false},
-    ratingComment: '${escapeString(comic.ratingComment || '')}',
-    borrowed: '${escapeString(comic.borrowed || '')}',
-    loaned: '${escapeString(comic.loaned || '')}',
+    ratingComment: "${escapeString(comic.ratingComment || '')}",
+    borrowed: "${escapeString(comic.borrowed || '')}",
+    loaned: "${escapeString(comic.loaned || '')}",
   }`
     )
     .join(',\n');
@@ -334,17 +331,17 @@ function updateComicIdentityInFile(filePath: string, comicData: any): boolean {
   const newArrayContent = comics
     .map(
       (comic) => `  {
-    title: '${escapeString(comic.title)}',
-    writer: '${escapeString(comic.writer)}',
-    readDate: '${escapeString(comic.readDate || '')}',
+    title: "${escapeString(comic.title)}",
+    writer: "${escapeString(comic.writer)}",
+    readDate: "${escapeString(comic.readDate || '')}",
     rating: ${comic.rating ?? 0},
     readTimes: ${comic.readTimes ?? 1},
     owned: ${comic.owned ?? false},
     readPriority: ${comic.readPriority ?? 1},
     wantToReadAgain: ${comic.wantToReadAgain ?? false},
-    ratingComment: '${escapeString(comic.ratingComment || '')}',
-    borrowed: '${escapeString(comic.borrowed || '')}',
-    loaned: '${escapeString(comic.loaned || '')}',
+    ratingComment: "${escapeString(comic.ratingComment || '')}",
+    borrowed: "${escapeString(comic.borrowed || '')}",
+    loaned: "${escapeString(comic.loaned || '')}",
   }`
     )
     .join(',\n');
@@ -390,15 +387,15 @@ function updateBaseComicInFile(filePath: string, comicData: any): boolean {
   const newArrayContent = comics
     .map(
       (comic) => `  {
-    title: '${escapeString(comic.title)}',
-    writer: '${escapeString(comic.writer || '')}',
-    designer: '${escapeString(comic.designer || '')}',
-    coverUrl: '${escapeString(comic.coverUrl || '')}',
+    title: "${escapeString(comic.title)}",
+    writer: "${escapeString(comic.writer || '')}",
+    designer: "${escapeString(comic.designer || '')}",
+    coverUrl: "${escapeString(comic.coverUrl || '')}",
     pages: ${comic.pages ?? 0},
-    genre: '${escapeString(comic.genre || '')}',
-    saga: '${escapeString(comic.saga || '')}',
+    genre: "${escapeString(comic.genre || '')}",
+    saga: "${escapeString(comic.saga || '')}",
     sagaOrder: ${comic.sagaOrder ?? 0},
-    description: '${escapeString(comic.description || '')}',
+    description: "${escapeString(comic.description || '')}",
   }`
     )
     .join(',\n');
@@ -454,17 +451,17 @@ function removeComicFromFile(content: string, payload: any): string {
   const newArrayContent = filtered
     .map(
       (comic) => `  {
-    title: '${escapeString(comic.title)}',
-    writer: '${escapeString(comic.writer)}',
-    readDate: '${escapeString(comic.readDate || '')}',
+    title: "${escapeString(comic.title)}",
+    writer: "${escapeString(comic.writer)}",
+    readDate: "${escapeString(comic.readDate || '')}",
     rating: ${comic.rating ?? 0},
     readTimes: ${comic.readTimes ?? 1},
     owned: ${comic.owned ?? false},
     readPriority: ${comic.readPriority ?? 1},
     wantToReadAgain: ${comic.wantToReadAgain ?? false},
-    ratingComment: '${escapeString(comic.ratingComment || '')}',
-    borrowed: '${escapeString(comic.borrowed || '')}',
-    loaned: '${escapeString(comic.loaned || '')}',
+    ratingComment: "${escapeString(comic.ratingComment || '')}",
+    borrowed: "${escapeString(comic.borrowed || '')}",
+    loaned: "${escapeString(comic.loaned || '')}",
   }`
     )
     .join(',\n');

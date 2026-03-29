@@ -18,7 +18,7 @@ function formatBaseSerie(entity: any): string {
   const actorsLines = actors
     .map(
       (name: string) => `      {
-        name: '${escapeString(name)}',
+        name: "${escapeString(name)}",
       },`
     )
     .join('\n');
@@ -36,21 +36,21 @@ function formatBaseSerie(entity: any): string {
     .join('\n');
 
   return `  {
-    title: '${escapeString(entity.title)}',
-    director: '${escapeString(entity.director)}',
+    title: "${escapeString(entity.title)}",
+    director: "${escapeString(entity.director)}",
     actors: [
 ${actorsLines || "      { name: 'Inconnu' },"}
     ],
-    coverUrl: '${escapeString(entity.coverUrl || '')}',
-    releaseDate: '${escapeString(entity.releaseDate || '')}',
-    endDate: '${escapeString(entity.endDate || '')}',
-    genre: '${escapeString(entity.genre || '')}',
+    coverUrl: "${escapeString(entity.coverUrl || '')}",
+    releaseDate: "${escapeString(entity.releaseDate || '')}",
+    endDate: "${escapeString(entity.endDate || '')}",
+    genre: "${escapeString(entity.genre || '')}",
     seasonsData: [
 ${seasonsLines}
     ],
-    description: '${escapeString(entity.description ?? '')}',
-    countryOrigin: '${escapeString(entity.countryOrigin ?? '')}',
-    saga: '${escapeString(entity.saga ?? '')}',
+    description: "${escapeString(entity.description ?? '')}",
+    countryOrigin: "${escapeString(entity.countryOrigin ?? '')}",
+    saga: "${escapeString(entity.saga ?? '')}",
   },`;
 }
 
@@ -63,7 +63,7 @@ function formatUserSerie(user: any): string {
         seasonNumber: ${season.seasonNumber},
         seasonRating: ${season.seasonRating},
         seasonTimesWatched: ${season.seasonTimesWatched},
-        lastViewedDate: '${escapeString(season.lastViewedDate || '')}',
+        lastViewedDate: "${escapeString(season.lastViewedDate || '')}",
       }`
         )
       : Array.from(
@@ -78,15 +78,15 @@ function formatUserSerie(user: any): string {
 
   const seasonsBlock = `    seasons: [\n${seasons.join(',\n')}\n    ],`;
   return `  {
-    title: '${escapeString(user.title)}',
-    director: '${escapeString(user.director)}',
+    title: "${escapeString(user.title)}",
+    director: "${escapeString(user.director)}",
 ${seasonsBlock}
     owned: ${user.owned ?? false},
     watchPriority: ${user.watchPriority ?? 1},
     wantToWatchAgain: ${user.wantToWatchAgain ?? false},
-    ratingComment: '${escapeString(user.ratingComment ?? '')}',
-    borrowed: '${escapeString(user.borrowed ?? '')}',
-    loaned: '${escapeString(user.loaned ?? '')}',
+    ratingComment: "${escapeString(user.ratingComment ?? '')}",
+    borrowed: "${escapeString(user.borrowed ?? '')}",
+    loaned: "${escapeString(user.loaned ?? '')}",
   },`;
 }
 

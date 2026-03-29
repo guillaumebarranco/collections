@@ -2,6 +2,7 @@ const express = require('express');
 const fs = require('fs');
 const path = require('path');
 const { execFileSync } = require('child_process');
+const { escapeStringForTsDoubleQuote: escapeString } = require('../../utils/escape-ts-string');
 const {
   normalizeString,
   normalizeBoolean,
@@ -45,14 +46,6 @@ function ensureUserExists(userId: string) {
   execFileSync('node', args, { stdio: 'ignore' });
 }
 
-function escapeString(value: string) {
-  return value
-    .replace(/\\/g, '\\\\')
-    .replace(/'/g, "\\'")
-    .replace(/\r/g, '\\r')
-    .replace(/\n/g, '\\n');
-}
-
 function getReadDateToday() {
   const d = new Date();
   return `${d.getFullYear()}-${String(d.getMonth() + 1).padStart(2, '0')}-${String(d.getDate()).padStart(2, '0')}`;
@@ -62,7 +55,7 @@ function formatUserBd(bd: any, options?: { rating?: number; ratingComment?: stri
   const readDate = getReadDateToday();
   const rating = options?.rating != null ? Number(options.rating) : 0;
   const ratingComment = typeof options?.ratingComment === 'string' ? options.ratingComment : '';
-  return `  {\n    title: '${escapeString(bd.title)}',\n    writer: '${escapeString(bd.writer)}',\n    readDate: '${readDate}',\n    rating: ${rating},\n    readTimes: 1,\n    owned: false,\n    readPriority: ${bd.readPriority ?? 1},\n    wantToReadAgain: false,\n    ratingComment: '${escapeString(ratingComment)}',\n    borrowed: '${escapeString(typeof bd.borrowed === 'string' ? bd.borrowed : '')}',\n    loaned: '${escapeString(typeof bd.loaned === 'string' ? bd.loaned : '')}',\n  },`;
+  return `  {\n    title: "${escapeString(bd.title)}",\n    writer: "${escapeString(bd.writer)}",\n    readDate: "${readDate}",\n    rating: ${rating},\n    readTimes: 1,\n    owned: false,\n    readPriority: ${bd.readPriority ?? 1},\n    wantToReadAgain: false,\n    ratingComment: "${escapeString(ratingComment)}",\n    borrowed: "${escapeString(typeof bd.borrowed === 'string' ? bd.borrowed : '')}",\n    loaned: "${escapeString(typeof bd.loaned === 'string' ? bd.loaned : '')}",\n  },`;
 }
 
 function getUserBdsTargetFile(userId: string, isReadlist: boolean) {

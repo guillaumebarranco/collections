@@ -12,11 +12,11 @@ const {
 const router = express.Router();
 
 function formatUserMusic(music: any) {
-  return `  {\n    title: '${escapeString(
+  return `  {\n    title: "${escapeString(
     music.title
-  )}',\n    artist: '${escapeString(
+  )}",\n    artist: "${escapeString(
     music.artist
-  )}',\n    rating: 0,\n    timesListened: 1,\n  },`;
+  )}",\n    rating: 0,\n    timesListened: 1,\n  },`;
 }
 
 router.post('/add-existing', (req: any, res: any) => {

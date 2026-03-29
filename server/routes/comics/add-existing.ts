@@ -48,11 +48,11 @@ function ensureUserExists(userId: string) {
 }
 
 function formatUserComic(comic: any) {
-  return `  {\n    title: '${escapeString(
+  return `  {\n    title: "${escapeString(
     comic.title
-  )}',\n    writer: '${escapeString(
+  )}",\n    writer: "${escapeString(
     comic.writer
-  )}',\n    readDate: '',\n    rating: 0,\n    readTimes: 1,\n    owned: false,\n    readPriority: 1,\n    wantToReadAgain: false,\n    ratingComment: '',\n    borrowed: '',\n    loaned: '',\n  },`;
+  )}",\n    readDate: '',\n    rating: 0,\n    readTimes: 1,\n    owned: false,\n    readPriority: 1,\n    wantToReadAgain: false,\n    ratingComment: '',\n    borrowed: '',\n    loaned: '',\n  },`;
 }
 
 function getUserComicsTargetFile(userId: string, isReadlist: boolean) {

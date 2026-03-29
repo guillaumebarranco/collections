@@ -1,5 +1,6 @@
 const fs = require('fs');
 const path = require('path');
+const { escapeStringForTsDoubleQuote: escapeTsStr } = require('../escape-ts-string');
 
 const QUIZZS_DIR = path.join(
   __dirname,
@@ -198,24 +199,21 @@ function formatQuizzFile(quizzs: any[], exportName: string) {
       const questions = (quizz.questions || [])
         .map((question: any) => {
           const proposed = (question.proposedAnswers || [])
-            .map((answer: string) => `'${answer.replace(/'/g, "\\'")}'`)
+            .map((answer: string) => `"${escapeTsStr(String(answer))}"`)
             .join(', ');
           const accepted = (question.acceptedAnswers || [])
-            .map((answer: string) => `'${answer.replace(/'/g, "\\'")}'`)
+            .map((answer: string) => `"${escapeTsStr(String(answer))}"`)
             .join(', ');
-          return `    {\n      id: ${question.id},\n      title: '${String(
-            question.title || ''
-          ).replace(/'/g, "\\'")}',\n      multipleChoice: ${Boolean(
+          return `    {\n      id: ${question.id},\n      title: "${escapeTsStr(
+            String(question.title || '')
+          )}",\n      multipleChoice: ${Boolean(
             question.multipleChoice
           )},\n      proposedAnswers: [${proposed}],\n      acceptedAnswers: [${accepted}],\n    }`;
         })
         .join(',\n');
-      return `  {\n    creator: '${String(quizz.creator || '').replace(
-        /'/g,
-        "\\'"
-      )}',\n    entityType: EntityType.${entityEnum},\n    entityTitle: '${String(
-        quizz.entityTitle || ''
-      ).replace(/'/g, "\\'")}',\n    level: ${quizz.level || 1},\n    questions: [\n${questions}\n    ],\n  }`;
+      return `  {\n    creator: "${escapeTsStr(String(quizz.creator || ''))}",\n    entityType: EntityType.${entityEnum},\n    entityTitle: "${escapeTsStr(
+        String(quizz.entityTitle || '')
+      )}",\n    level: ${quizz.level || 1},\n    questions: [\n${questions}\n    ],\n  }`;
     })
     .join(',\n');
 

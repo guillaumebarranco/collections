@@ -2,6 +2,7 @@ const express = require('express');
 const fs = require('fs');
 const path = require('path');
 const { execFileSync } = require('child_process');
+const { escapeStringForTsDoubleQuote: escapeString } = require('../../utils/escape-ts-string');
 const {
   normalizeString,
   normalizeBoolean,
@@ -58,10 +59,10 @@ function formatUserBook(book: any, options?: { rating?: number; ratingComment?: 
   const ratingComment = typeof options?.ratingComment === 'string' ? options.ratingComment : '';
 
   return `  {
-    title: '${escapeString(book.title)}',
-    author: '${escapeString(book.author)}',
-    firstReadDate: '${readDate}',
-    lastReadDate: '${readDate}',
+    title: "${escapeString(book.title)}",
+    author: "${escapeString(book.author)}",
+    firstReadDate: "${readDate}",
+    lastReadDate: "${readDate}",
     rating: ${rating},
     readTimes: 1,
     owned: false,
@@ -69,14 +70,14 @@ function formatUserBook(book: any, options?: { rating?: number; ratingComment?: 
     loaned: '',
     readPriority: ${book.readPriority ?? 1},
     wantToReadAgain: ${book.wantToReadAgain ?? false},
-    ratingComment: '${escapeString(ratingComment)}',
+    ratingComment: "${escapeString(ratingComment)}",
   },`;
 }
 
 function formatReadlistBook(book: any) {
   return `  {
-    title: '${escapeString(book.title)}',
-    author: '${escapeString(book.author)}',
+    title: "${escapeString(book.title)}",
+    author: "${escapeString(book.author)}",
     firstReadDate: '',
     lastReadDate: '',
     rating: 0,
@@ -88,15 +89,6 @@ function formatReadlistBook(book: any) {
     wantToReadAgain: ${book.wantToReadAgain ?? false},
     ratingComment: '',
   },`;
-}
-
-/** Échappe une chaîne pour l’injection dans un fichier .ts (chaîne entre simples quotes). */
-function escapeString(value: string) {
-  return value
-    .replace(/\\/g, '\\\\')
-    .replace(/'/g, "\\'")
-    .replace(/\r/g, '\\r')
-    .replace(/\n/g, '\\n');
 }
 
 function getUserBooksTargetFile(userId: string, isReadlist: boolean) {

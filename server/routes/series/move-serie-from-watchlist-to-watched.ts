@@ -2,6 +2,7 @@ const express = require('express');
 const fs = require('fs');
 const path = require('path');
 const { execFileSync } = require('child_process');
+const { escapeStringForTsDoubleQuote: escapeString } = require('../../utils/escape-ts-string');
 const {
   normalizeString,
   normalizeBoolean,
@@ -49,15 +50,6 @@ function ensureUserExists(userId: string) {
   execFileSync('node', args, { stdio: 'ignore' });
 }
 
-/** Échappe une chaîne pour l’injection dans un fichier .ts (chaîne entre simples quotes). */
-function escapeString(value: string) {
-  return value
-    .replace(/\\/g, '\\\\')
-    .replace(/'/g, "\\'")
-    .replace(/\r/g, '\\r')
-    .replace(/\n/g, '\\n');
-}
-
 function getTodayISO(): string {
   const today = new Date();
   const year = today.getFullYear();
@@ -83,7 +75,7 @@ function formatSeasons(seasons: any[]) {
         seasonNumber: ${season.seasonNumber},
         seasonRating: ${season.seasonRating},
         seasonTimesWatched: ${season.seasonTimesWatched},
-        lastViewedDate: '${escapeString(season.lastViewedDate || '')}',
+        lastViewedDate: "${escapeString(season.lastViewedDate || '')}",
       }`
   );
   return `    seasons: [\n${lines.join(',\n')}\n    ],`;
@@ -93,15 +85,15 @@ function formatUserSerie(serie: any, options?: { ratingComment?: string }) {
   const seasons = buildWatchedSeasons(serie.seasonsCount);
   const ratingComment = typeof options?.ratingComment === 'string' ? options.ratingComment : '';
   return `  {
-    title: '${escapeString(serie.title)}',
-    director: '${escapeString(serie.director)}',
+    title: "${escapeString(serie.title)}",
+    director: "${escapeString(serie.director)}",
 ${formatSeasons(seasons)}
     owned: false,
     watchPriority: ${serie.watchPriority ?? 1},
     wantToWatchAgain: false,
-    ratingComment: '${escapeString(ratingComment)}',
-    borrowed: '${escapeString(typeof serie.borrowed === 'string' ? serie.borrowed : '')}',
-    loaned: '${escapeString(typeof serie.loaned === 'string' ? serie.loaned : '')}',
+    ratingComment: "${escapeString(ratingComment)}",
+    borrowed: "${escapeString(typeof serie.borrowed === 'string' ? serie.borrowed : '')}",
+    loaned: "${escapeString(typeof serie.loaned === 'string' ? serie.loaned : '')}",
   },`;
 }
 

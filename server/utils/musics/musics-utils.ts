@@ -1,5 +1,6 @@
 const fs = require('fs');
 const path = require('path');
+const { escapeStringForTsDoubleQuote: escapeString } = require('../escape-ts-string');
 
 const USERS_MUSICS_DIR = path.join(
   __dirname,
@@ -85,11 +86,9 @@ function replaceField(objectText: string, key: string, value: any) {
     if (!regex.test(next)) {
       throw new Error(`Field ${key} not found`);
     }
-    next = next.replace(regex, (_match: string, prefix: string, quote: string) => {
-      const escaped = value
-        .replace(/\\/g, '\\\\')
-        .replace(new RegExp(quote, 'g'), `\\${quote}`);
-      return `${prefix}${quote}${escaped}${quote}`;
+    next = next.replace(regex, (_match: string, prefix: string) => {
+      const escaped = escapeString(value);
+      return `${prefix}"${escaped}"`;
     });
     return next;
   }
@@ -233,10 +232,6 @@ function getUserMusicsFiles(userId: string): string[] {
   return listTsFilesRecursive(userDir);
 }
 
-
-function escapeString(value: string): string {
-  return value.replace(/\\/g, '\\\\').replace(/'/g, "\\'");
-}
 
 function appendObjectToArrayFile(filePath: string, objectText: string) {
   const content = fs.readFileSync(filePath, 'utf8');

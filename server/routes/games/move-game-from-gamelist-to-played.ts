@@ -2,6 +2,7 @@ const express = require('express');
 const fs = require('fs');
 const path = require('path');
 const { execFileSync } = require('child_process');
+const { escapeStringForTsDoubleQuote: escapeString } = require('../../utils/escape-ts-string');
 const {
   normalizeString,
   normalizeBoolean,
@@ -45,27 +46,19 @@ function ensureUserExists(userId: string) {
   execFileSync('node', args, { stdio: 'ignore' });
 }
 
-function escapeString(value: string) {
-  return value
-    .replace(/\\/g, '\\\\')
-    .replace(/'/g, "\\'")
-    .replace(/\r/g, '\\r')
-    .replace(/\n/g, '\\n');
-}
-
 function formatUserGame(game: any, options?: { rating?: number; ratingComment?: string }) {
   const rating = options?.rating != null ? Number(options.rating) : 0;
   const ratingComment = typeof options?.ratingComment === 'string' ? options.ratingComment : '';
   return `  {
-    title: '${escapeString(game.title)}',
-    editor: '${escapeString(game.editor)}',
+    title: "${escapeString(game.title)}",
+    editor: "${escapeString(game.editor)}",
     rating: ${rating},
     owned: false,
     gamelistPriority: ${game.gamelistPriority ?? 1},
     wantToPlayAgain: false,
-    ratingComment: '${escapeString(ratingComment)}',
-    borrowed: '${escapeString(typeof game.borrowed === 'string' ? game.borrowed : '')}',
-    loaned: '${escapeString(typeof game.loaned === 'string' ? game.loaned : '')}',
+    ratingComment: "${escapeString(ratingComment)}",
+    borrowed: "${escapeString(typeof game.borrowed === 'string' ? game.borrowed : '')}",
+    loaned: "${escapeString(typeof game.loaned === 'string' ? game.loaned : '')}",
     sessions: [],
   },`;
 }

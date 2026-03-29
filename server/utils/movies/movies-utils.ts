@@ -1,5 +1,6 @@
 const fs = require('fs');
 const path = require('path');
+const { escapeStringForTsDoubleQuote: escapeString } = require('../escape-ts-string');
 
 const USERS_MOVIES_DIR = path.join(
   __dirname,
@@ -322,10 +323,6 @@ function parseBaseMoviesFullFromFile(content: string): any[] {
   return movies;
 }
 
-function escapeString(value: string): string {
-  return value.replace(/\\/g, '\\\\').replace(/'/g, "\\'");
-}
-
 function appendObjectToArrayFile(filePath: string, objectText: string) {
   const content = fs.readFileSync(filePath, 'utf8');
   const exportIndex = content.indexOf('export const');
@@ -377,11 +374,9 @@ function replaceField(objectText: string, key: string, value: any) {
     if (!regex.test(next)) {
       throw new Error(`Field ${key} not found`);
     }
-    next = next.replace(regex, (match, prefix, quote) => {
-      const escaped = value
-        .replace(/\\/g, '\\\\')
-        .replace(new RegExp(quote, 'g'), `\\${quote}`);
-      return `${prefix}${quote}${escaped}${quote}`;
+    next = next.replace(regex, (match, prefix) => {
+      const escaped = escapeString(value);
+      return `${prefix}"${escaped}"`;
     });
     return next;
   }
@@ -411,7 +406,7 @@ function upsertInListField(objectText: string, arr: string[]) {
   const serialized =
     arr.length === 0
       ? '[]'
-      : '[' + arr.map((s) => "'" + escapeString(s) + "'").join(', ') + ']';
+      : '[' + arr.map((s) => '"' + escapeString(s) + '"').join(', ') + ']';
   const existingRegex = /inList\s*:\s*\[[\s\S]*?\]/;
   if (existingRegex.test(objectText)) {
     return objectText.replace(existingRegex, `inList: ${serialized}`);
@@ -428,7 +423,7 @@ function upsertField(objectText: string, key: string, value: any) {
       return replaceField(next, key, value);
     }
     const escaped = escapeString(value);
-    return next.replace(/\}\s*$/, `    ${key}: '${escaped}',\n  }`);
+    return next.replace(/\}\s*$/, `    ${key}: "${escaped}",\n  }`);
   }
   if (typeof value === 'boolean' || typeof value === 'number') {
     const regex = new RegExp(`(${key}\\s*:\\s*)([^,\\n]+)`);
@@ -442,7 +437,7 @@ function upsertField(objectText: string, key: string, value: any) {
 
 function formatActors(actors: string[]) {
   const items = actors.map(
-    (name) => `      {\n        name: '${escapeString(name)}',\n      }`
+    (name) => `      {\n        name: "${escapeString(name)}",\n      }`
   );
   return `actors: [\n${items.join(',\n')}\n    ]`;
 }
@@ -473,9 +468,9 @@ function upsertfromEntityField(
   const fromEntityBlock =
     value === null
       ? 'fromEntity: null'
-      : `fromEntity: { entityType: '${entityType}', title: '${escapeString(
+      : `fromEntity: { entityType: "${entityType}", title: "${escapeString(
           value.title
-        )}', secondEntityKey: '${escapeString(value.secondEntityKey)}' }`;
+        )}", secondEntityKey: "${escapeString(value.secondEntityKey)}" }`;
   const existingNull = /fromEntity\s*:\s*null/;
   const existingObj = /fromEntity\s*:\s*\{[\s\S]*?\}/;
   if (existingNull.test(objectText)) {
@@ -764,24 +759,24 @@ function removeMovieFromFile(content: string, payload: any) {
         Array.isArray(movie.inList) && movie.inList.length > 0
           ? '[' +
             movie.inList
-              .map((s: any) => "'" + escapeString(s) + "'")
+              .map((s: any) => '"' + escapeString(s) + '"')
               .join(', ') +
             ']'
           : '[]';
       return `  {
-    title: '${escapeString(movie.title)}',
-    director: '${escapeString(movie.director)}',
+    title: "${escapeString(movie.title)}",
+    director: "${escapeString(movie.director)}",
     rating: ${movie.rating ?? 0},
     timesWatched: ${movie.timesWatched ?? 0},
-    firstViewedDate: '${escapeString(movie.firstViewedDate || '')}',
-    lastViewedDate: '${escapeString(movie.lastViewedDate || '')}',
+    firstViewedDate: "${escapeString(movie.firstViewedDate || '')}",
+    lastViewedDate: "${escapeString(movie.lastViewedDate || '')}",
     seenAtCinema: ${movie.seenAtCinema ?? false},
     owned: ${movie.owned ?? false},
     wantToSeeAgain: ${movie.wantToSeeAgain ?? false},
     watchPriority: ${movie.watchPriority ?? 1},
-    ratingComment: '${escapeString(movie.ratingComment || '')}',
-    borrowed: '${escapeString(movie.borrowed || '')}',
-    loaned: '${escapeString(movie.loaned || '')}',
+    ratingComment: "${escapeString(movie.ratingComment || '')}",
+    borrowed: "${escapeString(movie.borrowed || '')}",
+    loaned: "${escapeString(movie.loaned || '')}",
     inList: ${inList},
   }`;
     })

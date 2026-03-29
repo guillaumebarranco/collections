@@ -15,17 +15,17 @@ const router = express.Router();
 
 function formatBaseGame(entity: any): string {
   return `  {
-    title: '${escapeString(entity.title)}',
-    editor: '${escapeString(entity.editor)}',
-    hero: '${escapeString(entity.hero || '')}',
-    coverUrl: '${escapeString(entity.coverUrl || '')}',
-    releaseDate: '${escapeString(entity.releaseDate || '')}',
+    title: "${escapeString(entity.title)}",
+    editor: "${escapeString(entity.editor)}",
+    hero: "${escapeString(entity.hero || '')}",
+    coverUrl: "${escapeString(entity.coverUrl || '')}",
+    releaseDate: "${escapeString(entity.releaseDate || '')}",
     averageTimeToFinish: ${entity.averageTimeToFinish ?? 0},
     averageTimeToHundredPercent: ${entity.averageTimeToHundredPercent ?? 0},
-    platform: '${escapeString(entity.platform || '')}',
-    saga: '${escapeString(entity.saga || '')}',
+    platform: "${escapeString(entity.platform || '')}",
+    saga: "${escapeString(entity.saga || '')}",
     platineTime: ${entity.platineTime ?? 0},
-    description: '${escapeString(entity.description ?? '')}',
+    description: "${escapeString(entity.description ?? '')}",
   },`;
 }
 
@@ -41,15 +41,15 @@ function formatUserGame(user: any): string {
       .join(',\n') +
     '\n    ],';
   return `  {
-    title: '${escapeString(user.title)}',
-    editor: '${escapeString(user.editor)}',
+    title: "${escapeString(user.title)}",
+    editor: "${escapeString(user.editor)}",
     rating: ${user.rating ?? 0},
     owned: ${user.owned ?? false},
     gamelistPriority: ${user.gamelistPriority ?? 1},
     wantToPlayAgain: ${user.wantToPlayAgain ?? false},
-    ratingComment: '${escapeString(user.ratingComment ?? '')}',
-    borrowed: '${escapeString(user.borrowed ?? '')}',
-    loaned: '${escapeString(user.loaned ?? '')}',
+    ratingComment: "${escapeString(user.ratingComment ?? '')}",
+    borrowed: "${escapeString(user.borrowed ?? '')}",
+    loaned: "${escapeString(user.loaned ?? '')}",
     ${sessionsStr}
   },`;
 }

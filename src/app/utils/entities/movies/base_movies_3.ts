@@ -1403,6 +1403,24 @@ export const baseMoviesPage3: BaseMovie[] = [
     countryOrigin: 'États-Unis',
   },
   {
+    title: 'Mega Shark vs. Giant Octopus',
+    director: 'Jack Perez',
+    actors: [
+      { name: 'Debbie Gibson' },
+      { name: 'Lorenzo Lamas' },
+      { name: 'Vic Chao' },
+    ],
+    coverUrl:
+      'https://m.media-amazon.com/images/I/61mGvGGnIaL._AC_UF894,1000_QL80_.jpg',
+    releaseDate: '2009-05-19',
+    length: 88,
+    genre: 'Action, Horror, Science Fiction',
+    saga: '',
+    description: '',
+    fromEntity: null,
+    countryOrigin: 'États-Unis',
+  },
+  {
     title: 'Lucky Luke',
     director: 'James Huth',
     actors: [{ name: 'Jean Dujardin' }],

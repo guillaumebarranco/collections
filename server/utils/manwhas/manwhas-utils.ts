@@ -1,5 +1,6 @@
 const fs = require('fs');
 const path = require('path');
+const { escapeStringForTsDoubleQuote: escapeString } = require('../escape-ts-string');
 
 const USERS_MANWHAS_DIR = path.join(
   __dirname,
@@ -206,10 +207,6 @@ function parseBaseManwhasFullFromFile(content: string): any[] {
   return manwhas;
 }
 
-function escapeString(value: string): string {
-  return value.replace(/\\/g, '\\\\').replace(/'/g, "\\'");
-}
-
 function appendObjectToArrayFile(filePath: string, objectText: string) {
   const content = fs.readFileSync(filePath, 'utf8');
   const exportIndex = content.indexOf('export const');
@@ -276,17 +273,17 @@ function updateManwhaInFile(filePath: string, manwhaData: any): boolean {
   const newArrayContent = manwhas
     .map(
       (manwha) => `  {
-    title: '${escapeString(manwha.title)}',
-    author: '${escapeString(manwha.author)}',
-    readDate: '${escapeString(manwha.readDate || '')}',
+    title: "${escapeString(manwha.title)}",
+    author: "${escapeString(manwha.author)}",
+    readDate: "${escapeString(manwha.readDate || '')}",
     rating: ${manwha.rating ?? 0},
     readTimes: ${manwha.readTimes ?? 1},
     owned: ${manwha.owned ?? false},
     readPriority: ${manwha.readPriority ?? 1},
     wantToReadAgain: ${manwha.wantToReadAgain ?? false},
-    ratingComment: '${escapeString(manwha.ratingComment || '')}',
-    borrowed: '${escapeString(manwha.borrowed || '')}',
-    loaned: '${escapeString(manwha.loaned || '')}',
+    ratingComment: "${escapeString(manwha.ratingComment || '')}",
+    borrowed: "${escapeString(manwha.borrowed || '')}",
+    loaned: "${escapeString(manwha.loaned || '')}",
   }`
     )
     .join(',\n');
@@ -334,17 +331,17 @@ function updateManwhaIdentityInFile(
   const newArrayContent = manwhas
     .map(
       (manwha) => `  {
-    title: '${escapeString(manwha.title)}',
-    author: '${escapeString(manwha.author)}',
-    readDate: '${escapeString(manwha.readDate || '')}',
+    title: "${escapeString(manwha.title)}",
+    author: "${escapeString(manwha.author)}",
+    readDate: "${escapeString(manwha.readDate || '')}",
     rating: ${manwha.rating ?? 0},
     readTimes: ${manwha.readTimes ?? 1},
     owned: ${manwha.owned ?? false},
     readPriority: ${manwha.readPriority ?? 1},
     wantToReadAgain: ${manwha.wantToReadAgain ?? false},
-    ratingComment: '${escapeString(manwha.ratingComment || '')}',
-    borrowed: '${escapeString(manwha.borrowed || '')}',
-    loaned: '${escapeString(manwha.loaned || '')}',
+    ratingComment: "${escapeString(manwha.ratingComment || '')}",
+    borrowed: "${escapeString(manwha.borrowed || '')}",
+    loaned: "${escapeString(manwha.loaned || '')}",
   }`
     )
     .join(',\n');
@@ -390,13 +387,13 @@ function updateBaseManwhaInFile(filePath: string, manwhaData: any): boolean {
   const newArrayContent = manwhas
     .map(
       (manwha) => `  {
-    title: '${escapeString(manwha.title)}',
-    author: '${escapeString(manwha.author)}',
-    coverUrl: '${escapeString(manwha.coverUrl || '')}',
-    genre: '${escapeString(manwha.genre || '')}',
+    title: "${escapeString(manwha.title)}",
+    author: "${escapeString(manwha.author)}",
+    coverUrl: "${escapeString(manwha.coverUrl || '')}",
+    genre: "${escapeString(manwha.genre || '')}",
     nbChapters: ${manwha.nbChapters ?? 0},
     isFinished: ${manwha.isFinished ?? false},
-    description: '${escapeString(manwha.description || '')}',
+    description: "${escapeString(manwha.description || '')}",
   }`
     )
     .join(',\n');
@@ -453,17 +450,17 @@ function removeManwhaFromFile(content: string, payload: any): string {
   const newArrayContent = filtered
     .map(
       (manwha) => `  {
-    title: '${escapeString(manwha.title)}',
-    author: '${escapeString(manwha.author)}',
-    readDate: '${escapeString(manwha.readDate || '')}',
+    title: "${escapeString(manwha.title)}",
+    author: "${escapeString(manwha.author)}",
+    readDate: "${escapeString(manwha.readDate || '')}",
     rating: ${manwha.rating ?? 0},
     readTimes: ${manwha.readTimes ?? 1},
     owned: ${manwha.owned ?? false},
     readPriority: ${manwha.readPriority ?? 1},
     wantToReadAgain: ${manwha.wantToReadAgain ?? false},
-    ratingComment: '${escapeString(manwha.ratingComment || '')}',
-    borrowed: '${escapeString(manwha.borrowed || '')}',
-    loaned: '${escapeString(manwha.loaned || '')}',
+    ratingComment: "${escapeString(manwha.ratingComment || '')}",
+    borrowed: "${escapeString(manwha.borrowed || '')}",
+    loaned: "${escapeString(manwha.loaned || '')}",
   }`
     )
     .join(',\n');

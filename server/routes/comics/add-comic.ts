@@ -15,31 +15,31 @@ const router = express.Router();
 
 function formatBaseComic(entity: any): string {
   return `  {
-    title: '${escapeString(entity.title)}',
-    writer: '${escapeString(entity.writer)}',
-    designer: '${escapeString(entity.designer)}',
-    coverUrl: '${escapeString(entity.coverUrl || '')}',
+    title: "${escapeString(entity.title)}",
+    writer: "${escapeString(entity.writer)}",
+    designer: "${escapeString(entity.designer)}",
+    coverUrl: "${escapeString(entity.coverUrl || '')}",
     pages: ${entity.pages || 0},
-    genre: '${escapeString(entity.genre || '')}',
-    saga: '${escapeString(entity.saga || '')}',
+    genre: "${escapeString(entity.genre || '')}",
+    saga: "${escapeString(entity.saga || '')}",
     sagaOrder: ${entity.sagaOrder ?? 0},
-    description: '${escapeString(entity.description ?? '')}',
+    description: "${escapeString(entity.description ?? '')}",
   },`;
 }
 
 function formatUserComic(user: any): string {
   return `  {
-    title: '${escapeString(user.title)}',
-    writer: '${escapeString(user.writer)}',
-    readDate: '${escapeString(user.readDate || '')}',
+    title: "${escapeString(user.title)}",
+    writer: "${escapeString(user.writer)}",
+    readDate: "${escapeString(user.readDate || '')}",
     rating: ${user.rating ?? 0},
     readTimes: ${user.readTimes ?? 1},
     owned: ${user.owned ?? false},
     readPriority: ${user.readPriority ?? 1},
     wantToReadAgain: ${user.wantToReadAgain ?? false},
-    ratingComment: '${escapeString(user.ratingComment ?? '')}',
-    borrowed: '${escapeString(user.borrowed ?? '')}',
-    loaned: '${escapeString(user.loaned ?? '')}',
+    ratingComment: "${escapeString(user.ratingComment ?? '')}",
+    borrowed: "${escapeString(user.borrowed ?? '')}",
+    loaned: "${escapeString(user.loaned ?? '')}",
   },`;
 }
 

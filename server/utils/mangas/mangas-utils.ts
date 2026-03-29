@@ -1,5 +1,6 @@
 const fs = require('fs');
 const path = require('path');
+const { escapeStringForTsDoubleQuote: escapeString } = require('../escape-ts-string');
 
 const USERS_MANGAS_DIR = path.join(
   __dirname,
@@ -203,10 +204,6 @@ function parseBaseMangasFullFromFile(content: string): any[] {
   return mangas;
 }
 
-function escapeString(value: string): string {
-  return value.replace(/\\/g, '\\\\').replace(/'/g, "\\'");
-}
-
 function appendObjectToArrayFile(filePath: string, objectText: string) {
   const content = fs.readFileSync(filePath, 'utf8');
   const exportIndex = content.indexOf('export const');
@@ -273,17 +270,17 @@ function updateMangaInFile(filePath: string, mangaData: any): boolean {
   const newArrayContent = mangas
     .map(
       (manga) => `  {
-    title: '${escapeString(manga.title)}',
-    author: '${escapeString(manga.author)}',
-    readDate: '${escapeString(manga.readDate || '')}',
+    title: "${escapeString(manga.title)}",
+    author: "${escapeString(manga.author)}",
+    readDate: "${escapeString(manga.readDate || '')}",
     rating: ${manga.rating ?? 0},
     readTimes: ${manga.readTimes ?? 1},
     owned: ${manga.owned ?? false},
     readPriority: ${manga.readPriority ?? 1},
     wantToReadAgain: ${manga.wantToReadAgain ?? false},
-    ratingComment: '${escapeString(manga.ratingComment || '')}',
-    borrowed: '${escapeString(manga.borrowed || '')}',
-    loaned: '${escapeString(manga.loaned || '')}',
+    ratingComment: "${escapeString(manga.ratingComment || '')}",
+    borrowed: "${escapeString(manga.borrowed || '')}",
+    loaned: "${escapeString(manga.loaned || '')}",
   }`
     )
     .join(',\n');
@@ -328,17 +325,17 @@ function updateMangaIdentityInFile(filePath: string, mangaData: any): boolean {
   const newArrayContent = mangas
     .map(
       (manga) => `  {
-    title: '${escapeString(manga.title)}',
-    author: '${escapeString(manga.author)}',
-    readDate: '${escapeString(manga.readDate || '')}',
+    title: "${escapeString(manga.title)}",
+    author: "${escapeString(manga.author)}",
+    readDate: "${escapeString(manga.readDate || '')}",
     rating: ${manga.rating ?? 0},
     readTimes: ${manga.readTimes ?? 1},
     owned: ${manga.owned ?? false},
     readPriority: ${manga.readPriority ?? 1},
     wantToReadAgain: ${manga.wantToReadAgain ?? false},
-    ratingComment: '${escapeString(manga.ratingComment || '')}',
-    borrowed: '${escapeString(manga.borrowed || '')}',
-    loaned: '${escapeString(manga.loaned || '')}',
+    ratingComment: "${escapeString(manga.ratingComment || '')}",
+    borrowed: "${escapeString(manga.borrowed || '')}",
+    loaned: "${escapeString(manga.loaned || '')}",
   }`
     )
     .join(',\n');
@@ -384,13 +381,13 @@ function updateBaseMangaInFile(filePath: string, mangaData: any): boolean {
   const newArrayContent = mangas
     .map(
       (manga) => `  {
-    title: '${escapeString(manga.title)}',
-    author: '${escapeString(manga.author)}',
-    coverUrl: '${escapeString(manga.coverUrl || '')}',
-    genre: '${escapeString(manga.genre || '')}',
+    title: "${escapeString(manga.title)}",
+    author: "${escapeString(manga.author)}",
+    coverUrl: "${escapeString(manga.coverUrl || '')}",
+    genre: "${escapeString(manga.genre || '')}",
     nbTomes: ${manga.nbTomes ?? 0},
     isFinished: ${manga.isFinished ?? false},
-    description: '${escapeString(manga.description || '')}',
+    description: "${escapeString(manga.description || '')}",
   }`
     )
     .join(',\n');
@@ -446,17 +443,17 @@ function removeMangaFromFile(content: string, payload: any): string {
   const newArrayContent = filtered
     .map(
       (manga) => `  {
-    title: '${escapeString(manga.title)}',
-    author: '${escapeString(manga.author)}',
-    readDate: '${escapeString(manga.readDate || '')}',
+    title: "${escapeString(manga.title)}",
+    author: "${escapeString(manga.author)}",
+    readDate: "${escapeString(manga.readDate || '')}",
     rating: ${manga.rating ?? 0},
     readTimes: ${manga.readTimes ?? 1},
     owned: ${manga.owned ?? false},
     readPriority: ${manga.readPriority ?? 1},
     wantToReadAgain: ${manga.wantToReadAgain ?? false},
-    ratingComment: '${escapeString(manga.ratingComment || '')}',
-    borrowed: '${escapeString(manga.borrowed || '')}',
-    loaned: '${escapeString(manga.loaned || '')}',
+    ratingComment: "${escapeString(manga.ratingComment || '')}",
+    borrowed: "${escapeString(manga.borrowed || '')}",
+    loaned: "${escapeString(manga.loaned || '')}",
   }`
     )
     .join(',\n');

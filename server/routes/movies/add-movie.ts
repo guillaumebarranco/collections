@@ -18,55 +18,55 @@ function formatBaseMovie(entity: any): string {
   const actorsLines = actors
     .map(
       (name: string) =>
-        `      {\n        name: '${escapeString(name)}',\n      },`
+        `      {\n        name: "${escapeString(name)}",\n      },`
     )
     .join('\n');
 
-  return `  {\n    title: '${escapeString(
+  return `  {\n    title: "${escapeString(
     entity.title
-  )}',\n    director: '${escapeString(entity.director)}',\n    actors: [\n${
-    actorsLines || "      { name: 'Inconnu' },"
-  }\n    ],\n    coverUrl: '${escapeString(
+  )}",\n    director: "${escapeString(entity.director)}",\n    actors: [\n${
+    actorsLines || '      { name: "Inconnu" },'
+  }\n    ],\n    coverUrl: "${escapeString(
     entity.coverUrl || ''
-  )}',\n    releaseDate: '${escapeString(
+  )}",\n    releaseDate: "${escapeString(
     entity.releaseDate || ''
-  )}',\n    length: ${entity.length ?? 0},\n    genre: '${escapeString(
+  )}",\n    length: ${entity.length ?? 0},\n    genre: "${escapeString(
     entity.genre || ''
-  )}',\n    saga: '${escapeString(
+  )}",\n    saga: "${escapeString(
     entity.saga || ''
-  )}',\n    description: '${escapeString(
+  )}",\n    description: "${escapeString(
     entity.description ?? ''
-  )}',\n    fromEntity: null,\n    countryOrigin: '${escapeString(
+  )}",\n    fromEntity: null,\n    countryOrigin: "${escapeString(
     entity.countryOrigin ?? ''
-  )}',\n  },`;
+  )}",\n  },`;
 }
 
 function formatUserMovie(user: any): string {
-  return `  {\n    title: '${escapeString(
+  return `  {\n    title: "${escapeString(
     user.title
-  )}',\n    director: '${escapeString(user.director)}',\n    rating: ${
+  )}",\n    director: "${escapeString(user.director)}",\n    rating: ${
     user.rating ?? 0
   },\n    timesWatched: ${
     user.timesWatched ?? 0
-  },\n    firstViewedDate: '${escapeString(
+  },\n    firstViewedDate: "${escapeString(
     user.firstViewedDate || ''
-  )}',\n    lastViewedDate: '${escapeString(
+  )}",\n    lastViewedDate: "${escapeString(
     user.lastViewedDate || ''
-  )}',\n    seenAtCinema: ${user.seenAtCinema ?? false},\n    owned: ${
+  )}",\n    seenAtCinema: ${user.seenAtCinema ?? false},\n    owned: ${
     user.owned ?? false
   },\n    wantToSeeAgain: ${
     user.wantToSeeAgain ?? false
   },\n    watchPriority: ${
     user.watchPriority ?? 1
-  },\n    ratingComment: '${escapeString(
+  },\n    ratingComment: "${escapeString(
     user.ratingComment ?? ''
-  )}',\n    inList: ${
+  )}",\n    inList: ${
     Array.isArray(user.inList) && user.inList.length > 0
       ? '[' +
-        user.inList.map((s: any) => "'" + escapeString(s) + "'").join(', ') +
+        user.inList.map((s: any) => '"' + escapeString(s) + '"').join(', ') +
         ']'
       : '[]'
-  },\n    borrowed: '${escapeString(user.borrowed ?? '')}',\n    loaned: '${escapeString(user.loaned ?? '')}',\n  },`;
+  },\n    borrowed: "${escapeString(user.borrowed ?? '')}",\n    loaned: "${escapeString(user.loaned ?? '')}",\n  },`;
 }
 
 function getUserMoviesTargetFile(userId: string) {
