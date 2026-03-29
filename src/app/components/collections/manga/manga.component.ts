@@ -68,7 +68,7 @@ export class MangaComponent {
   }>();
   @Output() wantToReRead = new EventEmitter<Manga>();
   @Output() haveReRead = new EventEmitter<Manga>();
-  @Output() mangaUpdated = new EventEmitter<void>();
+  @Output() readlistMarkedAsRead = new EventEmitter<Manga>();
   @Input() showTopFiveSelector = false;
   @Input() topFiveRank: number | null = null;
   @Output() topFiveRankChange = new EventEmitter<number | null>();
@@ -171,7 +171,7 @@ export class MangaComponent {
         );
         return;
       }
-      this.mangaUpdated.emit();
+      this.readlistMarkedAsRead.emit(this.manga);
     } catch (error) {
       console.warn('Erreur réseau lors du passage du manga en lu.', error);
     }

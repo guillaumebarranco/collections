@@ -57,6 +57,9 @@ import { TopFiveService } from '../../../services/top-five.service';
 import { FollowsService } from '../../../services/follows.service';
 import { AuthService } from '../../../core/auth.service';
 import { getEntityKey } from '../../../utils/top-five.utils';
+import { isLocalhost } from '../../../core/config';
+import { BadgesService } from '../../../services/badges.service';
+import { openCollectionEntityFollowUpModal } from '../../../utils/collection-entity-follow-up-dialog';
 
 type RecommendationDetail = { userId: string; rating: number };
 type RecommendedManwha = Manwha & {
@@ -85,6 +88,7 @@ export class ManwhasComponent implements OnInit {
   private readonly topFiveService = inject(TopFiveService);
   private readonly followsService = inject(FollowsService);
   private readonly authService = inject(AuthService);
+  private readonly badgesService = inject(BadgesService);
   private isLoadingPreferences = false;
   private isLoadingViewConfig = false;
   private readonly viewConfigStorageKey = 'manwhas_view_config';
@@ -417,8 +421,20 @@ export class ManwhasComponent implements OnInit {
     });
   }
 
-  onManwhaUpdated(): void {
-    void this.refreshManwhas();
+  async onReadlistMarkedAsRead(manwha: Manwha): Promise<void> {
+    await this.refreshManwhas();
+    if (this.isViewingOtherProfile()) return;
+    if (!isLocalhost()) {
+      void this.badgesService.loadFromApi(this.getActiveUserId());
+    }
+    openCollectionEntityFollowUpModal(this.dialog, {
+      entityTitle: manwha.title,
+      coverUrl: manwha.coverUrl ?? '',
+      coverAltPrefix: 'Couverture de',
+      messageLead: 'Vous avez lu',
+      progressUnitLabel: 'manhwas lus',
+      progressRows: [],
+    });
   }
 
   private async refreshManwhas() {

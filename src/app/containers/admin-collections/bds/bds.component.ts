@@ -98,10 +98,6 @@ export class AdminBdsComponent implements OnInit {
     });
   }
 
-  onBdUpdated(): void {
-    void this.refreshBds();
-  }
-
   private matchesSearch(bd: Bd, term: string): boolean {
     const haystack = [bd.title, bd.writer, bd.designer, bd.genre]
       .filter(Boolean)

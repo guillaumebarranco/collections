@@ -68,7 +68,7 @@ export class ComicComponent {
   }>();
   @Output() wantToReRead = new EventEmitter<Comic>();
   @Output() haveReRead = new EventEmitter<Comic>();
-  @Output() comicUpdated = new EventEmitter<void>();
+  @Output() readlistMarkedAsRead = new EventEmitter<Comic>();
   @Input() showTopFiveSelector = false;
   @Input() topFiveRank: number | null = null;
   @Output() topFiveRankChange = new EventEmitter<number | null>();
@@ -171,7 +171,7 @@ export class ComicComponent {
         );
         return;
       }
-      this.comicUpdated.emit();
+      this.readlistMarkedAsRead.emit(this.comic);
     } catch (error) {
       console.warn('Erreur réseau lors du passage du comic en lu.', error);
     }

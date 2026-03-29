@@ -25,7 +25,7 @@
         [isReadlistView]="false"
         [selectedView]="'read'"
         (editRequested)="openEditMangaDialog(manga)"
-        (mangaUpdated)="onMangaUpdated()"
+        (readlistMarkedAsRead)="refreshMangas()"
       ></app-manga>
     </div>
     }

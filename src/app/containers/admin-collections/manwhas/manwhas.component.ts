@@ -98,10 +98,6 @@ export class AdminManwhasComponent implements OnInit {
     });
   }
 
-  onManwhaUpdated(): void {
-    void this.refreshManwhas();
-  }
-
   private matchesSearch(manwha: Manwha, term: string): boolean {
     const haystack = [manwha.title, manwha.author, manwha.genre]
       .filter(Boolean)

@@ -58,6 +58,9 @@ import { TopFiveService } from '../../../services/top-five.service';
 import { FollowsService } from '../../../services/follows.service';
 import { AuthService } from '../../../core/auth.service';
 import { getEntityKey } from '../../../utils/top-five.utils';
+import { isLocalhost } from '../../../core/config';
+import { BadgesService } from '../../../services/badges.service';
+import { openCollectionEntityFollowUpModal } from '../../../utils/collection-entity-follow-up-dialog';
 
 type RecommendationDetail = { userId: string; rating: number };
 type RecommendedManga = Manga & {
@@ -88,6 +91,7 @@ export class MangasComponent implements OnInit {
   private readonly topFiveService = inject(TopFiveService);
   private readonly followsService = inject(FollowsService);
   private readonly authService = inject(AuthService);
+  private readonly badgesService = inject(BadgesService);
   private isLoadingPreferences = false;
   private isLoadingViewConfig = false;
   private readonly viewConfigStorageKey = 'mangas_view_config';
@@ -446,8 +450,20 @@ export class MangasComponent implements OnInit {
     });
   }
 
-  onMangaUpdated(): void {
-    void this.refreshMangas();
+  async onReadlistMarkedAsRead(manga: Manga): Promise<void> {
+    await this.refreshMangas();
+    if (this.isViewingOtherProfile()) return;
+    if (!isLocalhost()) {
+      void this.badgesService.loadFromApi(this.getActiveUserId());
+    }
+    openCollectionEntityFollowUpModal(this.dialog, {
+      entityTitle: manga.title,
+      coverUrl: manga.coverUrl ?? '',
+      coverAltPrefix: 'Couverture de',
+      messageLead: 'Vous avez lu',
+      progressUnitLabel: 'mangas lus',
+      progressRows: [],
+    });
   }
 
   getActiveUserId(): string {

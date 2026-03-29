@@ -64,6 +64,8 @@ export class SerieComponent {
   @Input() canAddToMyWatchlist = false;
   @Input() canAddAsWatched = false;
   @Output() serieUpdated = new EventEmitter<void>();
+  /** Après watchlist → vu (API OK). */
+  @Output() watchlistMarkedAsWatched = new EventEmitter<Serie>();
 
   @Output() addToWatchlist = new EventEmitter<Serie>();
   @Output() addToMyWatchlist = new EventEmitter<Serie>();
@@ -246,7 +248,7 @@ export class SerieComponent {
         return;
       }
 
-      this.serieUpdated.emit();
+      this.watchlistMarkedAsWatched.emit(this.serie);
     } catch (error) {
       console.warn(
         'Erreur réseau lors du passage de la série en « vus ».',

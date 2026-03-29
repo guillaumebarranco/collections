@@ -25,7 +25,7 @@
         [isReadlistView]="false"
         [selectedView]="'read'"
         (editRequested)="openEditComicDialog(comic)"
-        (comicUpdated)="onComicUpdated()"
+        (readlistMarkedAsRead)="refreshComics()"
       ></app-comic>
     </div>
     }

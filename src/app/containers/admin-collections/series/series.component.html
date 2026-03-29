@@ -37,6 +37,7 @@
             [index]="i"
             [selectedView]="selectedView()"
             (serieUpdated)="refreshSeries()"
+            (watchlistMarkedAsWatched)="refreshSeries()"
           ></app-serie>
         </div>
         }
@@ -92,6 +93,7 @@
             [index]="i"
             [selectedView]="selectedView()"
             (serieUpdated)="refreshSeries()"
+            (watchlistMarkedAsWatched)="refreshSeries()"
           ></app-serie>
         </div>
         }
@@ -126,6 +128,7 @@
         [index]="i"
         [selectedView]="selectedView()"
         (serieUpdated)="refreshSeries()"
+        (watchlistMarkedAsWatched)="refreshSeries()"
       ></app-serie>
     </div>
     }

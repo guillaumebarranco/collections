@@ -101,7 +101,7 @@
             (readPriorityUpdated)="updateReadPriority($event)"
             (wantToReRead)="markComicAsWantToReRead($event)"
             (haveReRead)="markComicAsReRead($event)"
-            (comicUpdated)="onComicUpdated()"
+            (readlistMarkedAsRead)="onReadlistMarkedAsRead($event)"
             (addToMyReadlist)="addComicToConnectedUserReadlist($event)"
             (addToMyRead)="addComicToConnectedUserAsRead($event)"
           ></app-comic>
@@ -159,7 +159,7 @@
         (readPriorityUpdated)="updateReadPriority($event)"
         (wantToReRead)="markComicAsWantToReRead($event)"
         (haveReRead)="markComicAsReRead($event)"
-        (comicUpdated)="onComicUpdated()"
+        (readlistMarkedAsRead)="onReadlistMarkedAsRead($event)"
         (addToMyReadlist)="addComicToConnectedUserReadlist($event)"
         (addToMyRead)="addComicToConnectedUserAsRead($event)"
       ></app-comic>

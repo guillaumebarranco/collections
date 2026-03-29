@@ -67,7 +67,8 @@ export class BdComponent {
   }>();
   @Output() wantToReRead = new EventEmitter<Bd>();
   @Output() haveReRead = new EventEmitter<Bd>();
-  @Output() bdUpdated = new EventEmitter<void>();
+  /** Après readlist → lu (API OK). */
+  @Output() readlistMarkedAsRead = new EventEmitter<Bd>();
   @Input() showTopFiveSelector = false;
   @Input() topFiveRank: number | null = null;
   @Output() topFiveRankChange = new EventEmitter<number | null>();
@@ -170,7 +171,7 @@ export class BdComponent {
         );
         return;
       }
-      this.bdUpdated.emit();
+      this.readlistMarkedAsRead.emit(this.bd);
     } catch (error) {
       console.warn('Erreur réseau lors du passage de la BD en lue.', error);
     }

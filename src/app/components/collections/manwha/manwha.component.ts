@@ -68,7 +68,7 @@ export class ManwhaComponent {
   }>();
   @Output() wantToReRead = new EventEmitter<Manwha>();
   @Output() haveReRead = new EventEmitter<Manwha>();
-  @Output() manwhaUpdated = new EventEmitter<void>();
+  @Output() readlistMarkedAsRead = new EventEmitter<Manwha>();
   @Input() showTopFiveSelector = false;
   @Input() topFiveRank: number | null = null;
   @Output() topFiveRankChange = new EventEmitter<number | null>();
@@ -171,7 +171,7 @@ export class ManwhaComponent {
         );
         return;
       }
-      this.manwhaUpdated.emit();
+      this.readlistMarkedAsRead.emit(this.manwha);
     } catch (error) {
       console.warn('Erreur réseau lors du passage du manwha en lu.', error);
     }

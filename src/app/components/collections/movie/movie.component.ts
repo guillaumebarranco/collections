@@ -68,6 +68,8 @@ export class MovieComponent {
   @Input() canAddToMyWatchlist = false;
   @Input() canAddAsWatched = false;
   @Output() movieUpdated = new EventEmitter<void>();
+  /** Après passage watchlist → vu (API OK) : le parent peut afficher le suivi (badges, animation). */
+  @Output() watchlistMarkedAsWatched = new EventEmitter<Movie>();
 
   @Output() wantToReWatch = new EventEmitter<Movie>();
   @Output() addToWatchlist = new EventEmitter<Movie>();
@@ -309,7 +311,7 @@ export class MovieComponent {
         return;
       }
 
-      this.movieUpdated.emit();
+      this.watchlistMarkedAsWatched.emit(this.movie);
     } catch (error) {
       console.warn("Erreur réseau lors de l'ajout batch des films.", error);
     }

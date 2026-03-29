@@ -75,6 +75,7 @@
         [canAddToMyGamelist]="canAddGameToMyGamelist(game)"
         [canAddAsPlayed]="canAddGameToMyPlayed(game)"
         (gameUpdated)="refreshGames()"
+        (gamelistMarkedAsPlayed)="onGamelistMarkedAsPlayed($event)"
         (topFiveRankChange)="onTopFiveRankChange(game, $event)"
         (gamelistPriorityUpdated)="updateGamelistPriority($event)"
         (wantToRePlay)="markGameAsWantToRePlay($event)"

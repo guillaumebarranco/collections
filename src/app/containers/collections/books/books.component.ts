@@ -65,6 +65,10 @@ import {
   markBookAsReRead as markBookAsReReadApi,
   updateReadPriority as updateReadPriorityApi,
 } from './books.controller';
+import { isLocalhost } from '../../../core/config';
+import { BookUpdateFollowUpModalComponent } from '../../../components/modals/book-update-follow-up-modal/book-update-follow-up-modal.component';
+import { buildBookReadFollowUpProgress } from '../../../utils/book-read-follow-up.utils';
+import { BadgesService } from '../../../services/badges.service';
 
 type RecommendationDetail = { userId: string; rating: number };
 type RecommendedBook = Book & {
@@ -101,6 +105,7 @@ export class BooksComponent implements OnInit {
   private readonly followsService = inject(FollowsService);
   private readonly authService = inject(AuthService);
   private readonly dialog = inject(MatDialog);
+  private readonly badgesService = inject(BadgesService);
   private readonly cdr = inject(ChangeDetectorRef);
   private isInitializing = false;
   private isLoadingViewConfig = false;
@@ -257,6 +262,27 @@ export class BooksComponent implements OnInit {
 
     // Forcer la détection des changements pour que le header (OnPush) affiche le bloc stats
     this.cdr.detectChanges();
+  }
+
+  /** Après readlist → lu : rafraîchit les listes puis modale félicitations / badges (profil affiché = le vôtre). */
+  async onReadlistMarkedAsRead(book: Book): Promise<void> {
+    await this.refreshBooks();
+    if (this.isViewingOtherProfile()) return;
+    const progressRows = buildBookReadFollowUpProgress(book, this.allBooks());
+    if (!isLocalhost()) {
+      void this.badgesService.loadFromApi(this.getActiveUserId());
+    }
+    this.dialog.open(BookUpdateFollowUpModalComponent, {
+      data: {
+        bookTitle: book.title,
+        coverUrl: book.coverUrl ?? '',
+        progressRows,
+      },
+      width: 'min(440px, 95vw)',
+      maxHeight: '90vh',
+      panelClass: 'book-update-follow-up-dialog',
+      autoFocus: '.entity-follow-up__footer .makya-btn',
+    });
   }
 
   private loadParamsFromUrl(queryParams: Params) {

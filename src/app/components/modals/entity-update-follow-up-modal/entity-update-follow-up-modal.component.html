@@ -1,0 +1,98 @@
+<div
+  class="entity-follow-up"
+  [attr.aria-labelledby]="titleId"
+  [attr.aria-describedby]="descId"
+>
+  <div class="entity-follow-up__fireworks" aria-hidden="true">
+    @for (n of sparkIndices; track n) {
+    <span [class]="'entity-follow-up__spark entity-follow-up__spark--' + n"></span>
+    }
+  </div>
+
+  <div class="entity-follow-up__header">
+    <h2 [id]="titleId" class="entity-follow-up__title">Bravo !</h2>
+    <button
+      type="button"
+      class="entity-follow-up__close"
+      aria-label="Fermer"
+      (click)="onDismiss()"
+    >
+      ✕
+    </button>
+  </div>
+
+  <div class="entity-follow-up__body">
+    <div class="entity-follow-up__hero">
+      @if (coverUrl()) {
+      <img
+        class="entity-follow-up__cover"
+        [src]="coverUrl()"
+        [alt]="effectiveCoverAlt()"
+        width="120"
+        height="180"
+      />
+      }
+      <p [id]="descId" class="entity-follow-up__message">
+        {{ messageLead() }}
+        <strong>{{ entityTitle() }}</strong>
+        , félicitations&nbsp;!
+      </p>
+    </div>
+
+    @if (progressRows().length > 0) {
+    <div class="entity-follow-up__badges">
+      <p class="entity-follow-up__badges-title">Progression des badges</p>
+      <ul class="entity-follow-up__badge-list">
+        @for (row of progressRows(); track row.badgeId) {
+        <li class="entity-follow-up__badge-row">
+          <img
+            class="entity-follow-up__badge-img"
+            [src]="row.badgeImage"
+            alt=""
+            width="40"
+            height="40"
+          />
+          <div class="entity-follow-up__badge-text">
+            <span class="entity-follow-up__badge-name">{{ row.badgeName }}</span>
+            @if (row.complete) {
+            <span class="entity-follow-up__badge-count entity-follow-up__badge-count--max">
+              Palier max atteint ({{ row.current }}
+              {{ row.unitLabel || progressUnitLabel() }})
+            </span>
+            } @else {
+            <span class="entity-follow-up__badge-count">
+              {{ row.current }} / {{ row.target }}
+            </span>
+            <div
+              class="entity-follow-up__bar"
+              role="progressbar"
+              [attr.aria-valuenow]="row.current"
+              [attr.aria-valuemin]="0"
+              [attr.aria-valuemax]="row.target"
+              [attr.aria-label]="
+                'Progression vers ' +
+                row.badgeName +
+                ' : ' +
+                row.current +
+                ' sur ' +
+                row.target
+              "
+            >
+              <div
+                class="entity-follow-up__bar-fill"
+                [style.width.%]="progressPercent(row)"
+              ></div>
+            </div>
+            }
+          </div>
+        </li>
+        }
+      </ul>
+    </div>
+    }
+  </div>
+
+  <div class="entity-follow-up__footer">
+    <button type="button" class="makya-btn" (click)="onDismiss()">Super</button>
+  </div>
+</div>

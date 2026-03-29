@@ -98,10 +98,6 @@ export class AdminMangasComponent implements OnInit {
     });
   }
 
-  onMangaUpdated(): void {
-    void this.refreshMangas();
-  }
-
   private matchesSearch(manga: Manga, term: string): boolean {
     const haystack = [manga.title, manga.author, manga.genre]
       .filter(Boolean)

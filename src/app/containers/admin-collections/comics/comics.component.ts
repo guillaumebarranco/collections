@@ -98,10 +98,6 @@ export class AdminComicsComponent implements OnInit {
     });
   }
 
-  onComicUpdated(): void {
-    void this.refreshComics();
-  }
-
   private matchesSearch(comic: Comic, term: string): boolean {
     const haystack = [comic.title, comic.writer, comic.designer, comic.genre]
       .filter(Boolean)

@@ -71,7 +71,8 @@ export class BookComponent {
     book: any;
     priority: number;
   }>();
-  @Output() bookUpdated = new EventEmitter<void>();
+  /** Après passage readlist → lu (API OK). */
+  @Output() readlistMarkedAsRead = new EventEmitter<Book>();
   @Output() wantToReRead = new EventEmitter<Book>();
   @Output() haveReRead = new EventEmitter<Book>();
   /** Afficher le sélecteur "Mon top 5" (rang 1-5). À utiliser dans les vues collection. */
@@ -183,7 +184,7 @@ export class BookComponent {
         return;
       }
 
-      this.bookUpdated.emit();
+      this.readlistMarkedAsRead.emit(this.book);
     } catch (error) {
       console.warn("Erreur réseau lors de l'ajout batch des livres.", error);
     }

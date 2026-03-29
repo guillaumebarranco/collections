@@ -52,7 +52,7 @@ import {
   getMoviesBySaga,
   getMoviesByCountry,
 } from './movies.utils';
-import { getApiBaseUrl } from '../../../core/config';
+import { getApiBaseUrl, isLocalhost } from '../../../core/config';
 import { MoviesHeaderComponent } from './movies-header/movies-header.component';
 import { LoaderComponent } from '../../../components/shared/loader/loader.component';
 import { getFullMovie } from '../../../helpers/full-entities-helper';
@@ -67,6 +67,10 @@ import {
   addMovieToList,
 } from './movies.controller';
 import { AuthService } from '../../../core/auth.service';
+import { MatDialog } from '@angular/material/dialog';
+import { MovieUpdateFollowUpModalComponent } from '../../../components/modals/movie-update-follow-up-modal/movie-update-follow-up-modal.component';
+import { buildMovieWatchFollowUpProgress } from '../../../utils/movie-watch-follow-up.utils';
+import { BadgesService } from '../../../services/badges.service';
 
 type RecommendationDetail = { userId: string; rating: number };
 type RecommendedMovie = Movie & {
@@ -97,6 +101,8 @@ export class MoviesComponent implements OnInit {
   private readonly topFiveService = inject(TopFiveService);
   private readonly followsService = inject(FollowsService);
   private readonly authService = inject(AuthService);
+  private readonly dialog = inject(MatDialog);
+  private readonly badgesService = inject(BadgesService);
   private isInitializing = false;
   private isLoadingViewConfig = false;
   private isLoadingPreferences = false;
@@ -502,6 +508,27 @@ export class MoviesComponent implements OnInit {
     } finally {
       this.isLoadingMovies.set(false);
     }
+  }
+
+  /** Après watchlist → vu : rafraîchit les listes puis modale félicitations / badges (profil affiché = le vôtre). */
+  async onWatchlistMarkedAsWatched(movie: Movie): Promise<void> {
+    await this.refreshMovies();
+    if (this.isViewingOtherProfile()) return;
+    const progressRows = buildMovieWatchFollowUpProgress(movie, this.allMovies());
+    if (!isLocalhost()) {
+      void this.badgesService.loadFromApi(this.getActiveUserId());
+    }
+    this.dialog.open(MovieUpdateFollowUpModalComponent, {
+      data: {
+        movieTitle: movie.title,
+        coverUrl: movie.coverUrl ?? '',
+        progressRows,
+      },
+      width: 'min(440px, 95vw)',
+      maxHeight: '90vh',
+      panelClass: 'movie-update-follow-up-dialog',
+      autoFocus: '.entity-follow-up__footer .makya-btn',
+    });
   }
 
   getActiveUserId(): string {

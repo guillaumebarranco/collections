@@ -57,6 +57,9 @@ import { TopFiveService } from '../../../services/top-five.service';
 import { FollowsService } from '../../../services/follows.service';
 import { AuthService } from '../../../core/auth.service';
 import { getEntityKey } from '../../../utils/top-five.utils';
+import { isLocalhost } from '../../../core/config';
+import { BadgesService } from '../../../services/badges.service';
+import { openCollectionEntityFollowUpModal } from '../../../utils/collection-entity-follow-up-dialog';
 type RecommendationDetail = { userId: string; rating: number };
 type RecommendedComic = Comic & {
   recommendationDetails: RecommendationDetail[];
@@ -86,6 +89,7 @@ export class ComicsComponent implements OnInit {
   private readonly topFiveService = inject(TopFiveService);
   private readonly followsService = inject(FollowsService);
   private readonly authService = inject(AuthService);
+  private readonly badgesService = inject(BadgesService);
   private isLoadingPreferences = false;
   private isLoadingViewConfig = false;
   private readonly viewConfigStorageKey = 'comics_view_config';
@@ -476,8 +480,20 @@ export class ComicsComponent implements OnInit {
     });
   }
 
-  onComicUpdated(): void {
-    void this.refreshComics();
+  async onReadlistMarkedAsRead(comic: Comic): Promise<void> {
+    await this.refreshComics();
+    if (this.isViewingOtherProfile()) return;
+    if (!isLocalhost()) {
+      void this.badgesService.loadFromApi(this.getActiveUserId());
+    }
+    openCollectionEntityFollowUpModal(this.dialog, {
+      entityTitle: comic.title,
+      coverUrl: comic.coverUrl ?? '',
+      coverAltPrefix: 'Couverture de',
+      messageLead: 'Vous avez lu',
+      progressUnitLabel: 'comics lus',
+      progressRows: [],
+    });
   }
 
   async updateReadPriority(data: {

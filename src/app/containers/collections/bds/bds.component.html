@@ -100,7 +100,7 @@
             (readPriorityUpdated)="updateReadPriority($event)"
             (wantToReRead)="markBdAsWantToReRead($event)"
             (haveReRead)="markBdAsReRead($event)"
-            (bdUpdated)="onBdUpdated()"
+            (readlistMarkedAsRead)="onReadlistMarkedAsRead($event)"
             (addToMyReadlist)="addBdToConnectedUserReadlist($event)"
             (addToMyRead)="addBdToConnectedUserAsRead($event)"
           ></app-bd>
@@ -156,7 +156,7 @@
         (readPriorityUpdated)="updateReadPriority($event)"
         (wantToReRead)="markBdAsWantToReRead($event)"
         (haveReRead)="markBdAsReRead($event)"
-        (bdUpdated)="onBdUpdated()"
+        (readlistMarkedAsRead)="onReadlistMarkedAsRead($event)"
         (addToMyReadlist)="addBdToConnectedUserReadlist($event)"
         (addToMyRead)="addBdToConnectedUserAsRead($event)"
       ></app-bd>

@@ -50,6 +50,11 @@ import { TopFiveService } from '../../../services/top-five.service';
 import { FollowsService } from '../../../services/follows.service';
 import { AuthService } from '../../../core/auth.service';
 import { getEntityKey } from '../../../utils/top-five.utils';
+import { MatDialog, MatDialogModule } from '@angular/material/dialog';
+import { isLocalhost } from '../../../core/config';
+import { BadgesService } from '../../../services/badges.service';
+import { openCollectionEntityFollowUpModal } from '../../../utils/collection-entity-follow-up-dialog';
+import { buildGameGamelistFollowUpProgress } from '../../../utils/game-gamelist-follow-up.utils';
 
 type RecommendationDetail = { userId: string; rating: number };
 type RecommendedGame = Game & {
@@ -70,6 +75,7 @@ import {
     FormsModule,
     GameComponent,
     MenuComponent,
+    MatDialogModule,
 
     GamesHeaderComponent,
     RouterLink,
@@ -84,6 +90,8 @@ export class GamesComponent implements OnInit {
   private readonly topFiveService = inject(TopFiveService);
   private readonly followsService = inject(FollowsService);
   private readonly authService = inject(AuthService);
+  private readonly dialog = inject(MatDialog);
+  private readonly badgesService = inject(BadgesService);
   private isLoadingPreferences = false;
   private isLoadingViewConfig = false;
   private readonly viewConfigStorageKey = 'games_view_config';
@@ -319,6 +327,22 @@ export class GamesComponent implements OnInit {
       this.connectedUserGames.set([]);
       this.connectedUserGamelist.set([]);
     }
+  }
+
+  async onGamelistMarkedAsPlayed(game: Game): Promise<void> {
+    await this.refreshGames();
+    if (this.isViewingOtherProfile()) return;
+    if (!isLocalhost()) {
+      void this.badgesService.loadFromApi(this.getActiveUserId());
+    }
+    openCollectionEntityFollowUpModal(this.dialog, {
+      entityTitle: game.title,
+      coverUrl: game.coverUrl ?? '',
+      coverAltPrefix: 'Jaquette de',
+      messageLead: 'Vous avez joué à',
+      progressUnitLabel: 'jeux',
+      progressRows: buildGameGamelistFollowUpProgress(game, this.allGames()),
+    });
   }
 
   getActiveUserId(): string {

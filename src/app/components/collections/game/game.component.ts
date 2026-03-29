@@ -62,6 +62,8 @@ export class GameComponent {
   @Input() canAddToMyGamelist = false;
   @Input() canAddAsPlayed = false;
   @Output() gameUpdated = new EventEmitter<void>();
+  /** Après gamelist → joué (API OK). */
+  @Output() gamelistMarkedAsPlayed = new EventEmitter<Game>();
 
   @Output() addToGamelist = new EventEmitter<Game>();
   @Output() addToMyGamelist = new EventEmitter<Game>();
@@ -207,7 +209,7 @@ export class GameComponent {
         );
         return;
       }
-      this.gameUpdated.emit();
+      this.gamelistMarkedAsPlayed.emit(this.game);
     } catch (error) {
       console.warn('Erreur réseau lors du passage du jeu en joué.', error);
     }

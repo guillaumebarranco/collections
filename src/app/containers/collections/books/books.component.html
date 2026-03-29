@@ -278,7 +278,7 @@
           [canAddAsRead]="canAddBookToMyRead(book)"
           (editRequested)="openEditBookDialog(book)"
           (readPriorityUpdated)="updateReadPriority($event)"
-          (bookUpdated)="refreshBooks()"
+          (readlistMarkedAsRead)="onReadlistMarkedAsRead($event)"
           (topFiveRankChange)="onTopFiveRankChange(book, $event)"
           (wantToReRead)="markBookAsWantToReRead($event)"
           (haveReRead)="markBookAsReRead($event)"

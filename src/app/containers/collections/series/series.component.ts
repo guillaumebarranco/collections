@@ -57,6 +57,10 @@ import {
   addSerieAsWatched as addSerieAsWatchedApi,
 } from './series.controller';
 import { AuthService } from '../../../core/auth.service';
+import { MatDialog, MatDialogModule } from '@angular/material/dialog';
+import { isLocalhost } from '../../../core/config';
+import { BadgesService } from '../../../services/badges.service';
+import { openCollectionEntityFollowUpModal } from '../../../utils/collection-entity-follow-up-dialog';
 
 type RecommendationDetail = { userId: string; rating: number };
 type RecommendedSerie = Serie & {
@@ -70,6 +74,7 @@ type RecommendedSerie = Serie & {
     FormsModule,
     SerieComponent,
     MenuComponent,
+    MatDialogModule,
 
     SeriesHeaderComponent,
     RouterLink,
@@ -84,6 +89,8 @@ export class SeriesComponent implements OnInit {
   private readonly topFiveService = inject(TopFiveService);
   private readonly followsService = inject(FollowsService);
   private readonly authService = inject(AuthService);
+  private readonly dialog = inject(MatDialog);
+  private readonly badgesService = inject(BadgesService);
   private isLoadingPreferences = false;
   private isLoadingViewConfig = false;
   private readonly viewConfigStorageKey = 'series_view_config';
@@ -366,6 +373,22 @@ export class SeriesComponent implements OnInit {
       this.connectedUserSeries.set([]);
       this.connectedUserWatchlist.set([]);
     }
+  }
+
+  async onWatchlistMarkedAsWatched(serie: Serie): Promise<void> {
+    await this.refreshSeries();
+    if (this.isViewingOtherProfile()) return;
+    if (!isLocalhost()) {
+      void this.badgesService.loadFromApi(this.getActiveUserId());
+    }
+    openCollectionEntityFollowUpModal(this.dialog, {
+      entityTitle: serie.title,
+      coverUrl: serie.coverUrl ?? '',
+      coverAltPrefix: 'Jaquette de',
+      messageLead: 'Vous avez vu',
+      progressUnitLabel: 'séries',
+      progressRows: [],
+    });
   }
 
   getActiveUserId(): string {
