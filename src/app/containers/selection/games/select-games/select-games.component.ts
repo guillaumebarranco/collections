@@ -44,6 +44,16 @@ export class SelectGamesComponent
     return new Set(userGames.map((game) => this.getGameKey(game)));
   });
 
+  /** Au moins un jeu terminé issu du catalogue — pour afficher l’ajout manuel. */
+  hasPlayedGamesFromExistingCatalog = computed(() => {
+    const catalogKeys = new Set(
+      this.allGamesMergedList().map((g) => this.getGameKey(g))
+    );
+    return this.userGames().some((g) =>
+      catalogKeys.has(this.getGameKey(g))
+    );
+  });
+
   alreadyInGamelistGames = computed<Set<string>>(() => {
     if (!this.isWatchOrReadlistMode()) {
       return new Set();

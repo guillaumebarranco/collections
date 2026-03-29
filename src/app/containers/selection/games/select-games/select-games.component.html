@@ -20,15 +20,16 @@
         Sélectionne les jeux que tu as terminés, puis clique sur "Ajouter à mes
         jeux terminés".
       </p>
+      @if (hasPlayedGamesFromExistingCatalog()) {
       <p>
         Si tu ne trouves pas ton jeu dans la liste, ajoute-le d'abord dans les
         entités (si jamais tu souhaites ajouter un grand nombre de jeux non
         présents ici, le mieux reste de contacter l'administrateur) :
       </p>
       <button class="makya-btn" (click)="openAddGameDialog()">
-        Ajouter un nouveau jeu
+        Ajouter un jeu qui n'existe pas encore sur Makya
       </button>
-      } @else if(isWatchOrReadlistMode()) {
+      } } @else if(isWatchOrReadlistMode()) {
       <p>
         Bonjour {{ username() }} <br /><br />
         Tu es en mode "Gamelist" ! Ici, tu peux sélectionner les jeux que tu

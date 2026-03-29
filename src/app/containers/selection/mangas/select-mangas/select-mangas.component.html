@@ -20,15 +20,16 @@
         Sélectionne les mangas que tu as lus, puis clique sur "Ajouter à mes
         mangas lus".
       </p>
+      @if (hasReadMangasFromExistingCatalog()) {
       <p>
         Si tu ne trouves pas ton manga dans la liste, ajoute-le d'abord dans les
         entités (si jamais tu souhaites ajouter un grand nombre de mangas non
         présents ici, le mieux reste de contacter l'administrateur) :
       </p>
       <button class="makya-btn" (click)="openAddMangaDialog()">
-        Ajouter un nouveau manga
+        Ajouter un manga qui n'existe pas encore sur Makya
       </button>
-      } @else if(isWatchOrReadlistMode()) {
+      } } @else if(isWatchOrReadlistMode()) {
       <p>
         Bonjour {{ username() }} <br /><br />
         Tu es en mode "Readlist" ! Ici, tu peux sélectionner les mangas que tu

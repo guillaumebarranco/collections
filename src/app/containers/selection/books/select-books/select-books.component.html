@@ -20,15 +20,16 @@
         Sélectionne les livres que tu as lus, puis clique sur "Ajouter à mes
         livres lus".
       </p>
+      @if (hasReadBooksFromExistingCatalog()) {
       <p>
         Si tu ne trouves pas ton livre dans la liste, ajoute-le d'abord dans les
         entités (si jamais tu souhaites ajouter un grand nombre de livres non
         présents ici, le mieux reste de contacter l'administrateur) :
       </p>
       <button class="makya-btn" (click)="openAddBookDialog()">
-        Ajouter un nouveau livre
+        Ajouter un livre qui n'existe pas encore sur Makya
       </button>
-      } @else if(isWatchOrReadlistMode()) {
+      } } @else if(isWatchOrReadlistMode()) {
       <p>
         Bonjour {{ username() }} <br /><br />
         Tu es en mode "Readlist" ! Ici, tu peux sélectionner les livres que tu

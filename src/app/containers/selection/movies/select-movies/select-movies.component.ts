@@ -44,6 +44,16 @@ export class SelectMoviesComponent
     return new Set(userMovies.map((movie) => this.getMovieKey(movie)));
   });
 
+  /** Au moins un film vu issu du catalogue — pour afficher l’ajout manuel. */
+  hasWatchedMoviesFromExistingCatalog = computed(() => {
+    const catalogKeys = new Set(
+      this.allMoviesMergedList().map((m) => this.getMovieKey(m))
+    );
+    return this.userMovies().some((m) =>
+      catalogKeys.has(this.getMovieKey(m))
+    );
+  });
+
   // Films déjà en watchlist (toujours exclus de la liste pour éviter les doublons)
   alreadyInWatchlistMovies = computed<Set<string>>(() => {
     const watchlistMovies = this.watchlistMovies();

@@ -47,6 +47,14 @@ export class SelectBooksComponent
     return new Set(userBooks.map((book) => this.getBookKey(book)));
   });
 
+  /** Au moins un livre lu issu du catalogue (entités existantes) — pour afficher l’ajout manuel. */
+  hasReadBooksFromExistingCatalog = computed(() => {
+    const baseKeys = new Set(
+      this.baseBooks().map((b) => `${b.title}-${b.author}`)
+    );
+    return this.userBooks().some((book) => baseKeys.has(this.getBookKey(book)));
+  });
+
   // Livres déjà en readlist (toujours exclus de la liste pour éviter les doublons)
   alreadyInReadlistBooks = computed<Set<string>>(() => {
     const readlistBooks = this.readlistBooks();

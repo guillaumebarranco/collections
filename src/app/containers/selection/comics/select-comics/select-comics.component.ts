@@ -44,6 +44,14 @@ export class SelectComicsComponent
     return new Set(userComics.map((comic) => this.getComicKey(comic)));
   });
 
+  /** Au moins un comic lu issu du catalogue — pour afficher l’ajout manuel. */
+  hasReadComicsFromExistingCatalog = computed(() => {
+    const baseKeys = new Set(
+      this.baseComics().map((c) => `${c.title}-${c.writer}`)
+    );
+    return this.userComics().some((c) => baseKeys.has(this.getComicKey(c)));
+  });
+
   alreadyInReadlistComics = computed<Set<string>>(() => {
     if (!this.isWatchOrReadlistMode()) {
       return new Set();

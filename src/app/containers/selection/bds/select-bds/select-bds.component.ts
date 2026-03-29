@@ -44,6 +44,14 @@ export class SelectBdsComponent
     return new Set(userBds.map((bd) => this.getBdKey(bd)));
   });
 
+  /** Au moins une BD lue issue du catalogue — pour afficher l’ajout manuel. */
+  hasReadBdsFromExistingCatalog = computed(() => {
+    const baseKeys = new Set(
+      this.baseBds().map((b) => `${b.title}-${b.writer}`)
+    );
+    return this.userBds().some((bd) => baseKeys.has(this.getBdKey(bd)));
+  });
+
   alreadyInReadlistBds = computed<Set<string>>(() => {
     if (!this.isWatchOrReadlistMode()) {
       return new Set();

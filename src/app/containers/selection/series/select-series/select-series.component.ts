@@ -34,6 +34,16 @@ export class SelectSeriesComponent
     return new Set(userSeries.map((serie) => this.getSerieKey(serie)));
   });
 
+  /** Au moins une série vue issue du catalogue — pour afficher l’ajout manuel. */
+  hasWatchedSeriesFromExistingCatalog = computed(() => {
+    const catalogKeys = new Set(
+      this.allSeriesMergedList().map((s) => this.getSerieKey(s))
+    );
+    return this.userSeries().some((s) =>
+      catalogKeys.has(this.getSerieKey(s))
+    );
+  });
+
   // Toutes les séries, filtrées en mode ajout
   allSeries = computed<Serie[]>(() => {
     const allSeriesList = this.allSeriesMergedList();

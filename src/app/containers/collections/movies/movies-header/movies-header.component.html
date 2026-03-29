@@ -94,30 +94,6 @@
       Sélectionner mes films
     </button>
   </div>
-  } @if(filteredMoviesByYearCount() === 0 && selectedView() !== 'watchlist' &&
-  selectedView() !== 'toReWatch' && allMoviesCount() !== 0 && selectedView() !==
-  'loaned' && selectedView() !== 'borrowed' && selectedView() !== 'owned') {
-  <div class="empty-state">
-    <p class="empty-message">Aucun film à afficher pour cette sélection.</p>
-    <p class="empty-subtitle">
-      @if(selectedView() === 'cinema') { Sélectionnez parmi vos films vus ceux
-      que vous avez vus au cinéma. } @else { Passez sur l'autre vue ou ajoutez
-      de nouveaux films à votre collection. }
-    </p>
-    @if(selectedView() === 'cinema') {
-    <button
-      class="makya-btn-ultra-big"
-      [routerLink]="getSelectCinemaRoute()"
-      [queryParams]="{ cinema: 'true' }"
-    >
-      Sélectionner mes films vus au cinéma
-    </button>
-    } @else {
-    <button class="makya-btn-ultra-big" [routerLink]="getSelectMoviesRoute()">
-      Sélectionner mes films
-    </button>
-    }
-  </div>
   } @if (showFiltersAndSearch() && canShowFiltersAndSearch()) {
   <div class="movies-stats-bloc">
     <ng-content select="[movies-stats-bloc-content]"></ng-content>
@@ -164,7 +140,7 @@
     </div>
     }
   </div>
-  } @if(noDataForThisView()) {
+  } @if(noDataForThisView() && allMoviesCount() !== 0) {
   <div class="empty-state">
     <p class="empty-message">{{ noDataMessageText() }}</p>
   </div>

@@ -29,15 +29,16 @@
         Sélectionne les films que tu as vus, puis clique sur "Ajouter à mes
         films vus".
       </p>
+      @if (hasWatchedMoviesFromExistingCatalog()) {
       <p>
         Si tu ne trouves pas ton film dans la liste, ajoute-le d'abord dans les
         entités (si jamais tu souhaites ajouter un grand nombre de films non
         présents ici, le mieux reste de contacter l'administrateur) :
       </p>
       <button class="makya-btn" (click)="openAddMovieDialog()">
-        Ajouter un nouveau film
+        Ajouter un film qui n'existe pas encore sur Makya
       </button>
-      } @else if(isWatchOrReadlistMode()) {
+      } } @else if(isWatchOrReadlistMode()) {
       <p>
         Bonjour {{ username() }} <br /><br />
         Tu es en mode "Watchlist" ! Ici, tu peux sélectionner les films que tu

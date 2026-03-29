@@ -44,6 +44,14 @@ export class SelectMangasComponent
     return new Set(userMangas.map((manga) => this.getMangaKey(manga)));
   });
 
+  /** Au moins un manga lu issu du catalogue — pour afficher l’ajout manuel. */
+  hasReadMangasFromExistingCatalog = computed(() => {
+    const baseKeys = new Set(
+      this.baseMangas().map((m) => `${m.title}-${m.author}`)
+    );
+    return this.userMangas().some((m) => baseKeys.has(this.getMangaKey(m)));
+  });
+
   alreadyInReadlistMangas = computed<Set<string>>(() => {
     if (!this.isWatchOrReadlistMode()) {
       return new Set();

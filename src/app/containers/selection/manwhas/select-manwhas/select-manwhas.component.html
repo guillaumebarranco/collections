@@ -21,15 +21,16 @@
         Sélectionne les manwhas que tu as lus, puis clique sur "Ajouter à mes
         manwhas lus".
       </p>
+      @if (hasReadManwhasFromExistingCatalog()) {
       <p>
         Si tu ne trouves pas ton manwha dans la liste, ajoute-le d'abord dans
         les entités (si jamais tu souhaites ajouter un grand nombre de manwhas
         non présents ici, le mieux reste de contacter l'administrateur) :
       </p>
       <button class="makya-btn" (click)="openAddManwhaDialog()">
-        Ajouter un nouveau manwha
+        Ajouter un manwha qui n'existe pas encore sur Makya
       </button>
-      } @else if(isWatchOrReadlistMode()) {
+      } } @else if(isWatchOrReadlistMode()) {
       <p>
         Bonjour {{ username() }} <br /><br />
         Tu es en mode "Readlist" ! Ici, tu peux sélectionner les manwhas que tu

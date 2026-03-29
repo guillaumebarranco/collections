@@ -35,8 +35,7 @@
         ➕
         {{ addComicsButtonLabel() }}
       </button>
-      }
-      @if (canShowUpdateComicsRatingButton()) {
+      } @if (canShowUpdateComicsRatingButton()) {
       <button
         class="makya-btn-small"
         [routerLink]="getSelectComicsRatingRoute()"
@@ -44,8 +43,7 @@
       >
         ⭐ Notes
       </button>
-      }
-      @if (canShowUpdateComicsTimesReadButton()) {
+      } @if (canShowUpdateComicsTimesReadButton()) {
       <button
         class="makya-btn-small"
         [routerLink]="getSelectComicsTimesReadRoute()"
@@ -53,8 +51,7 @@
       >
         📖 Lectures
       </button>
-      }
-      @if (canShowUpdateComicsOwnedButton()) {
+      } @if (canShowUpdateComicsOwnedButton()) {
       <button
         class="makya-btn-small"
         [routerLink]="getSelectComicsOwnedRoute()"
@@ -62,8 +59,7 @@
       >
         ✅ Possédés
       </button>
-      }
-      @if (canShowTopFiveRankButton()) {
+      } @if (canShowTopFiveRankButton()) {
       <button
         class="makya-btn-small"
         [class.active]="showTopFiveRank()"
@@ -112,7 +108,7 @@
       (ngModelChange)="onSearchChange.emit($event)"
     />
   </div>
-  } @if (noDataForThisView()) {
+  } @if (noDataForThisView() && allComicsCount() !== 0) {
   <div class="empty-state">
     <p class="empty-message">{{ noDataMessageText() }}</p>
   </div>

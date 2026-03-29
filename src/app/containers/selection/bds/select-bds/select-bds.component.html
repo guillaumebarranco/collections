@@ -20,15 +20,16 @@
         Sélectionne les BD que tu as lues, puis clique sur "Ajouter à mes BD
         lues".
       </p>
+      @if (hasReadBdsFromExistingCatalog()) {
       <p>
         Si tu ne trouves pas ta BD dans la liste, ajoute-la d'abord dans les
         entités (si jamais tu souhaites ajouter un grand nombre de BD non
         présents ici, le mieux reste de contacter l'administrateur) :
       </p>
       <button class="makya-btn" (click)="openAddBdDialog()">
-        Ajouter une nouvelle BD
+        Ajouter une BD qui n'existe pas encore sur Makya
       </button>
-      } @else if(isWatchOrReadlistMode()) {
+      } } @else if(isWatchOrReadlistMode()) {
       <p>
         Bonjour {{ username() }} <br /><br />
         Tu es en mode "Readlist" ! Ici, tu peux sélectionner les BD que tu

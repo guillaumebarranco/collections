@@ -20,14 +20,15 @@
         Sélectionne les séries que tu as vues, puis clique sur "Ajouter à mes
         séries vues".
       </p>
+      @if (hasWatchedSeriesFromExistingCatalog()) {
       <p>
         Si tu ne trouves pas ta série dans la liste, ajoute-la d'abord dans les
         entités :
       </p>
       <button class="makya-btn" (click)="openAddSerieDialog()">
-        Ajouter une nouvelle série
+        Ajouter une série qui n'existe pas encore sur Makya
       </button>
-      } @else if(isWatchOrReadlistMode()) {
+      } } @else if(isWatchOrReadlistMode()) {
       <p>
         Bonjour {{ username() }} <br /><br />
         Tu es en mode "Watchlist" ! Ici, tu peux sélectionner les séries que tu

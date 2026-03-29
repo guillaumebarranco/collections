@@ -35,8 +35,7 @@
         ➕
         {{ addBdsButtonLabel() }}
       </button>
-      }
-      @if (canShowUpdateBdsRatingButton()) {
+      } @if (canShowUpdateBdsRatingButton()) {
       <button
         class="makya-btn-small"
         [routerLink]="getSelectBdsRatingRoute()"
@@ -44,8 +43,7 @@
       >
         ⭐ Notes
       </button>
-      }
-      @if (canShowUpdateBdsTimesReadButton()) {
+      } @if (canShowUpdateBdsTimesReadButton()) {
       <button
         class="makya-btn-small"
         [routerLink]="getSelectBdsTimesReadRoute()"
@@ -53,8 +51,7 @@
       >
         📖 Lectures
       </button>
-      }
-      @if (canShowUpdateBdsOwnedButton()) {
+      } @if (canShowUpdateBdsOwnedButton()) {
       <button
         class="makya-btn-small"
         [routerLink]="getSelectBdsOwnedRoute()"
@@ -62,8 +59,7 @@
       >
         ✅ Possédées
       </button>
-      }
-      @if (canShowTopFiveRankButton()) {
+      } @if (canShowTopFiveRankButton()) {
       <button
         class="makya-btn-small"
         [class.active]="showTopFiveRank()"
@@ -112,7 +108,7 @@
       (ngModelChange)="onSearchChange.emit($event)"
     />
   </div>
-  } @if (noDataForThisView()) {
+  } @if (noDataForThisView() && allBdsCount() !== 0) {
   <div class="empty-state">
     <p class="empty-message">{{ noDataMessageText() }}</p>
   </div>

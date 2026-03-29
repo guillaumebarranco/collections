@@ -71,17 +71,7 @@
 
   <div>
     @if(selectedView() !== 'recommendations') { @if(selectedView() ===
-    'readlist' && sortedBooks().length === 0) {
-    <div class="readlist-actions">
-      <button
-        class="makya-btn-ultra-big"
-        [routerLink]="['/select-books']"
-        [queryParams]="{ readlist: 'true' }"
-      >
-        Ajouter des livres à ma readlist
-      </button>
-    </div>
-    } @if(selectedView() === 'authors') {
+    'authors') {
     <div class="books-by-author">
       @for (authorGroup of booksByAuthor(); track authorGroup.author) {
       <section class="books-author-section">
@@ -136,8 +126,7 @@
             }
           </div>
         </div>
-        }
-        }
+        } }
       </section>
       }
     </div>
@@ -200,8 +189,7 @@
             }
           </div>
         </div>
-        }
-        }
+        } }
       </section>
       }
     </div>

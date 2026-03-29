@@ -44,6 +44,14 @@ export class SelectManwhasComponent
     return new Set(userManwhas.map((manwha) => this.getManwhaKey(manwha)));
   });
 
+  /** Au moins un manwha lu issu du catalogue — pour afficher l’ajout manuel. */
+  hasReadManwhasFromExistingCatalog = computed(() => {
+    const baseKeys = new Set(
+      this.baseManwhas().map((m) => `${m.title}-${m.author}`)
+    );
+    return this.userManwhas().some((m) => baseKeys.has(this.getManwhaKey(m)));
+  });
+
   alreadyInReadlistManwhas = computed<Set<string>>(() => {
     if (!this.isWatchOrReadlistMode()) {
       return new Set();

@@ -38,8 +38,7 @@
         ➕
         {{ addSeriesButtonLabel() }}
       </button>
-      }
-      @if (canShowUpdateSeriesRatingButton()) {
+      } @if (canShowUpdateSeriesRatingButton()) {
       <button
         class="makya-btn-small"
         [routerLink]="getSelectSeriesRatingRoute()"
@@ -47,8 +46,7 @@
       >
         ⭐ Notes
       </button>
-      }
-      @if (canShowUpdateSeriesTimesWatchedButton()) {
+      } @if (canShowUpdateSeriesTimesWatchedButton()) {
       <button
         class="makya-btn-small"
         [routerLink]="getSelectSeriesTimesWatchedRoute()"
@@ -56,8 +54,7 @@
       >
         🎬 Visionnages
       </button>
-      }
-      @if (canShowUpdateSeriesOwnedButton()) {
+      } @if (canShowUpdateSeriesOwnedButton()) {
       <button
         class="makya-btn-small"
         [routerLink]="getSelectSeriesOwnedRoute()"
@@ -65,8 +62,7 @@
       >
         ✅ Possédées
       </button>
-      }
-      @if (canShowTopFiveRankButton()) {
+      } @if (canShowTopFiveRankButton()) {
       <button
         class="makya-btn-small"
         [class.active]="showTopFiveRank()"
@@ -118,7 +114,7 @@
       (ngModelChange)="onSearchChange.emit($event)"
     />
   </div>
-  } @if (noDataForThisView()) {
+  } @if (noDataForThisView() && allSeriesCount() !== 0) {
   <div class="empty-state">
     <p class="empty-message">{{ noDataMessageText() }}</p>
   </div>

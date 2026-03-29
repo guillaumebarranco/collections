@@ -21,18 +21,6 @@
     (onTopFiveRankChange)="toggleTopFiveRankDisplay()"
   ></app-manwhas-header>
 
-  @if(selectedView() === 'readlist') {
-  <div class="readlist-actions">
-    <button
-      class="makya-btn-ultra-big"
-      [routerLink]="getSelectManwhasRoute()"
-      [queryParams]="{ readlist: 'true' }"
-    >
-      Ajouter des manwhas à ma readlist
-    </button>
-  </div>
-  }
-
   <!-- Recommendations -->
   @if(selectedView() === 'recommendations') {
   <div class="manwhas">
@@ -137,9 +125,7 @@
         <input
           type="checkbox"
           [checked]="optionalViewConfig().loaned"
-          (change)="
-            onOptionalViewChange('loaned', $any($event.target).checked)
-          "
+          (change)="onOptionalViewChange('loaned', $any($event.target).checked)"
         />
         Manwhas prêtés
       </label>

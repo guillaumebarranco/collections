@@ -61,19 +61,6 @@
   <p>Résultats affichés: {{ sortedMovies().length }}</p>
   }
 
-  <!-- Add movies to watchlist button -->
-  @if(selectedView() === 'watchlist' && allWatchlistMovies().length === 0) {
-  <div class="watchlist-actions">
-    <button
-      class="makya-btn-ultra-big"
-      [routerLink]="getSelectWatchlistRoute()"
-      [queryParams]="{ watchlist: 'true' }"
-    >
-      Ajouter des films à ma watchlist
-    </button>
-  </div>
-  }
-
   <!-- Recommendations -->
   @if(selectedView() === 'recommendations') {
   <div class="movies">

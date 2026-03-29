@@ -35,8 +35,7 @@
         ➕
         {{ addMangasButtonLabel() }}
       </button>
-      }
-      @if (canShowUpdateMangasRatingButton()) {
+      } @if (canShowUpdateMangasRatingButton()) {
       <button
         class="makya-btn-small"
         [routerLink]="getSelectMangasRatingRoute()"
@@ -44,8 +43,7 @@
       >
         ⭐ Notes
       </button>
-      }
-      @if (canShowUpdateMangasTimesReadButton()) {
+      } @if (canShowUpdateMangasTimesReadButton()) {
       <button
         class="makya-btn-small"
         [routerLink]="getSelectMangasTimesReadRoute()"
@@ -53,8 +51,7 @@
       >
         📖 Lectures
       </button>
-      }
-      @if (canShowUpdateMangasOwnedButton()) {
+      } @if (canShowUpdateMangasOwnedButton()) {
       <button
         class="makya-btn-small"
         [routerLink]="getSelectMangasOwnedRoute()"
@@ -62,8 +59,7 @@
       >
         ✅ Possédés
       </button>
-      }
-      @if (canShowTopFiveRankButton()) {
+      } @if (canShowTopFiveRankButton()) {
       <button
         class="makya-btn-small"
         [class.active]="showTopFiveRank()"
@@ -112,7 +108,7 @@
       (ngModelChange)="onSearchChange.emit($event)"
     />
   </div>
-  } @if (noDataForThisView()) {
+  } @if (noDataForThisView() && allMangasCount() !== 0) {
   <div class="empty-state">
     <p class="empty-message">{{ noDataMessageText() }}</p>
   </div>

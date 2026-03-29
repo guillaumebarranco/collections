@@ -35,8 +35,7 @@
         ➕
         {{ addManwhasButtonLabel() }}
       </button>
-      }
-      @if (canShowUpdateManwhasRatingButton()) {
+      } @if (canShowUpdateManwhasRatingButton()) {
       <button
         class="makya-btn-small"
         [routerLink]="getSelectManwhasRatingRoute()"
@@ -44,8 +43,7 @@
       >
         ⭐ Notes
       </button>
-      }
-      @if (canShowUpdateManwhasTimesReadButton()) {
+      } @if (canShowUpdateManwhasTimesReadButton()) {
       <button
         class="makya-btn-small"
         [routerLink]="getSelectManwhasTimesReadRoute()"
@@ -53,8 +51,7 @@
       >
         📖 Lectures
       </button>
-      }
-      @if (canShowUpdateManwhasOwnedButton()) {
+      } @if (canShowUpdateManwhasOwnedButton()) {
       <button
         class="makya-btn-small"
         [routerLink]="getSelectManwhasOwnedRoute()"
@@ -62,8 +59,7 @@
       >
         ✅ Possédés
       </button>
-      }
-      @if (canShowTopFiveRankButton()) {
+      } @if (canShowTopFiveRankButton()) {
       <button
         class="makya-btn-small"
         [class.active]="showTopFiveRank()"
@@ -112,7 +108,7 @@
       (ngModelChange)="onSearchChange.emit($event)"
     />
   </div>
-  } @if (noDataForThisView()) {
+  } @if (noDataForThisView() && allManwhasCount() !== 0) {
   <div class="empty-state">
     <p class="empty-message">{{ noDataMessageText() }}</p>
   </div>

@@ -121,7 +121,7 @@
       (ngModelChange)="onSearchChange.emit($event)"
     />
   </div>
-  } @if(noDataForThisView()) {
+  } @if(noDataForThisView() && allBooksCount() !== 0) {
   <div class="empty-state">
     <p class="empty-message">{{ noDataMessageText() }}</p>
   </div>
