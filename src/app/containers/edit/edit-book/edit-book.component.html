@@ -20,8 +20,8 @@
     <div>{{ book()?.title }}</div>
     <div class="entity-details">
       <p><strong>Auteur :</strong> {{ book()?.author }}</p>
-      @if (book()?.genre) {
-      <p><strong>Genre :</strong> {{ book()?.genre }}</p>
+      @if (book()?.genre?.length) {
+      <p><strong>Genre :</strong> {{ book()?.genre?.join(', ') }}</p>
       } @if (book()?.pages) {
       <p><strong>Pages :</strong> {{ book()?.pages }}</p>
       } @if (book()?.saga) {
@@ -227,15 +227,22 @@
       />
     </div>
 
-    <div class="form-row">
-      <label for="entityGenre">Genre</label>
-      <input
-        id="entityGenre"
-        type="text"
-        [ngModel]="bookEntityForm()?.genre"
-        (ngModelChange)="updateEntityField('genre', $event)"
-        name="entityGenre"
-      />
+    <div class="form-row genre-row">
+      <mat-form-field appearance="outline" class="genre-field">
+        <mat-label>Genres</mat-label>
+        <mat-select
+          id="entityGenre"
+          multiple
+          [ngModel]="bookEntityForm()?.genre"
+          (ngModelChange)="setEntityGenres($event)"
+          name="entityGenre"
+          placeholder="Sélectionner un ou plusieurs genres"
+        >
+          @for (g of bookGenreOptions; track g) {
+            <mat-option [value]="g">{{ g }}</mat-option>
+          }
+        </mat-select>
+      </mat-form-field>
     </div>
 
     <div class="form-row">

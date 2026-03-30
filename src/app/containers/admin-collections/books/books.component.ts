@@ -137,7 +137,7 @@ export class AdminBooksComponent implements OnInit {
   }
 
   private matchesSearch(book: Book, term: string): boolean {
-    const haystack = [book.title, book.author, book.genre, book.saga]
+    const haystack = [book.title, book.author, ...book.genre, book.saga]
       .filter(Boolean)
       .join(' ');
     const normalizedHaystack = normalizeSearchText(haystack);

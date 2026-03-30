@@ -4,6 +4,7 @@ const {
   normalizeNumber,
   normalizeBoolean,
   normalizeString,
+  normalizeGenre,
   updateBookInFile,
   updateBookIdentityInFile,
   updateBaseBookInFiles,
@@ -104,7 +105,10 @@ router.post('/', (req: any, res: any) => {
         matchAuthor: originalAuthor || author,
         coverUrl: normalizeString(entityPayload.coverUrl, 'coverUrl'),
         pages: normalizeNumber(entityPayload.pages, 'pages'),
-        genre: normalizeString(entityPayload.genre, 'genre'),
+        genre:
+          entityPayload.genre !== undefined && entityPayload.genre !== null
+            ? normalizeGenre(entityPayload.genre)
+            : undefined,
         saga: normalizeString(entityPayload.saga, 'saga'),
         sagaOrder: normalizeNumber(entityPayload.sagaOrder, 'sagaOrder'),
         sagaFinished: normalizeBoolean(

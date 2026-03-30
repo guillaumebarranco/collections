@@ -55,17 +55,21 @@ export class ProfileBadgeModalComponent {
     this.dialogRef.close(false);
   }
 
-  confirm(): void {
+  async confirm(): Promise<void> {
     this.saving.set(true);
     this.errorMessage.set('');
     try {
-      this.profileBadgeService.setProfileBadge(
+      await this.profileBadgeService.saveProfileBadge(
         this.userId,
         this.selectedId()
       );
       this.dialogRef.close(true);
-    } catch {
-      this.errorMessage.set('Enregistrement impossible. Réessayez.');
+    } catch (e) {
+      const msg =
+        e instanceof Error && e.message
+          ? e.message
+          : 'Enregistrement impossible. Réessayez.';
+      this.errorMessage.set(msg);
     } finally {
       this.saving.set(false);
     }

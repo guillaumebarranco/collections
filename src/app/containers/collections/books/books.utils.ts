@@ -1,5 +1,9 @@
 import { Book } from '../../../models/book-model';
 
+function bookGenreSortKey(genre: string[]): string {
+  return genre.join(', ');
+}
+
 export type BookView =
   | 'read'
   | 'readlist'
@@ -164,9 +168,13 @@ export const getSortedBooks = (books: Book[], selectedSort: string): Book[] => {
     case 'pages-asc':
       return books.sort((a, b) => (a.pages || 0) - (b.pages || 0));
     case 'genre':
-      return books.sort((a, b) => a.genre.localeCompare(b.genre));
+      return books.sort((a, b) =>
+        bookGenreSortKey(a.genre).localeCompare(bookGenreSortKey(b.genre))
+      );
     case 'genre-desc':
-      return books.sort((a, b) => b.genre.localeCompare(a.genre));
+      return books.sort((a, b) =>
+        bookGenreSortKey(b.genre).localeCompare(bookGenreSortKey(a.genre))
+      );
     case 'readPriority':
       return books.sort((a, b) => {
         const priorityA = a.readPriority ?? 0;

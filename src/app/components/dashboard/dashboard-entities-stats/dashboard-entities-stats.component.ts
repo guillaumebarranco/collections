@@ -264,8 +264,10 @@ export class DashboardEntitiesStatsComponent implements OnInit {
     // Genres les plus représentés
     const genresCount: { [key: string]: number } = {};
     uniqueBooks.forEach((book) => {
-      if (book.genre) {
-        genresCount[book.genre] = (genresCount[book.genre] || 0) + 1;
+      for (const g of book.genre ?? []) {
+        if (g) {
+          genresCount[g] = (genresCount[g] || 0) + 1;
+        }
       }
     });
 

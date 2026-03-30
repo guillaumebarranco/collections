@@ -33,6 +33,54 @@ const BASE_BOOKS_DIR = path.join(
 );
 const BASE_BOOKS_API_FILE = path.join(BASE_BOOKS_DIR, 'base_books_api.ts');
 
+function escapeSingleQuotedTsString(s: string) {
+  return String(s).replace(/\\/g, '\\\\').replace(/'/g, "\\'");
+}
+
+function formatGenreTsArray(genres: string[]) {
+  const parts = (genres || []).map((g) => `'${escapeSingleQuotedTsString(g)}'`);
+  return `[${parts.join(', ')}]`;
+}
+
+function parseGenreField(objectText: string): string[] {
+  const m = objectText.match(/genre\s*:\s*\[([\s\S]*?)\]/);
+  if (m) {
+    const inner = m[1].trim();
+    if (!inner) return [];
+    const out: string[] = [];
+    const re = /'((?:[^'\\]|\\.)*)'/g;
+    let x: RegExpExecArray | null;
+    while ((x = re.exec(inner)) !== null) {
+      out.push(
+        x[1].replace(/\\'/g, "'").replace(/\\\\/g, '\\')
+      );
+    }
+    return out;
+  }
+  const legacy = parseStringField(objectText, 'genre');
+  if (!legacy) return [];
+  return legacy
+    .split(',')
+    .map((s: string) => s.trim())
+    .filter(Boolean);
+}
+
+function normalizeGenre(value: any): string[] {
+  if (value === undefined || value === null) return [];
+  if (Array.isArray(value)) {
+    return value
+      .map((v) => (typeof v === 'string' ? v.trim() : String(v)))
+      .filter(Boolean);
+  }
+  if (typeof value === 'string') {
+    return value
+      .split(',')
+      .map((s: string) => s.trim())
+      .filter(Boolean);
+  }
+  throw new Error('Invalid genre');
+}
+
 function parseBooksFromFile(content: string): any[] {
   content = repairArrayDeclaration(content);
   const exportIndex = content.indexOf('export const');
@@ -186,7 +234,7 @@ function parseBaseBooksFullFromFile(content: string): any[] {
           author,
           coverUrl: parseStringField(objectText, 'coverUrl') || '',
           pages: parseNumberField(objectText, 'pages') ?? 0,
-          genre: parseStringField(objectText, 'genre') || '',
+          genre: parseGenreField(objectText),
           saga: parseStringField(objectText, 'saga') || '',
           sagaOrder: parseNumberField(objectText, 'sagaOrder') ?? 0,
           sagaFinished: parseBooleanField(objectText, 'sagaFinished') ?? false,
@@ -312,6 +360,20 @@ function replaceField(objectText: string, key: string, value: any) {
 function upsertField(objectText: string, key: string, value: any) {
   if (value === undefined) return objectText;
   let next = objectText;
+  if (key === 'genre' && Array.isArray(value)) {
+    const formatted = formatGenreTsArray(value);
+    const regexArray = new RegExp(`${key}\\s*:\\s*\\[[^\\]]*\\]`);
+    if (regexArray.test(next)) {
+      return next.replace(regexArray, `${key}: ${formatted}`);
+    }
+    const regexStr = new RegExp(
+      `(${key}\\s*:\\s*)(['"])((?:\\\\.|(?!\\2).)*)\\2`
+    );
+    if (regexStr.test(next)) {
+      return next.replace(regexStr, `$1${formatted}`);
+    }
+    return next.replace(/\}\s*$/, `    ${key}: ${formatted},\n  }`);
+  }
   if (typeof value === 'string') {
     const regex = new RegExp(`(${key}\\s*:\\s*)(['"])((?:\\\\.|(?!\\2).)*)\\2`);
     if (regex.test(next)) {
@@ -645,6 +707,8 @@ module.exports = {
   normalizeNumber,
   normalizeBoolean,
   normalizeString,
+  normalizeGenre,
+  formatGenreTsArray,
   parseBooksFromFile,
   parseBaseBooksFromFile,
   parseBaseBooksFullFromFile,

@@ -5,13 +5,19 @@ import { MAT_DIALOG_DATA, MatDialogRef } from '@angular/material/dialog';
 import { getApiBaseUrl } from '../../../core/config';
 import { DEFAULT_USER_ID } from '../../../utils/constants';
 import { CountrySelectComponent } from '../../../components/shared/country-select/country-select.component';
+import { MatFormFieldModule } from '@angular/material/form-field';
+import { MatSelectModule } from '@angular/material/select';
+import {
+  BOOK_GENRE_OPTIONS,
+  type BookGenre,
+} from '../../../models/book-model';
 
 type AddBookEntityForm = {
   title: string;
   author: string;
   coverUrl: string;
   pages: number;
-  genre: string;
+  genre: BookGenre[];
   saga: string;
   sagaOrder: number;
   sagaFinished: boolean;
@@ -39,7 +45,13 @@ type AddBookDialogData = {
 @Component({
   selector: 'app-add-book',
   standalone: true,
-  imports: [CommonModule, FormsModule, CountrySelectComponent],
+  imports: [
+    CommonModule,
+    FormsModule,
+    CountrySelectComponent,
+    MatFormFieldModule,
+    MatSelectModule,
+  ],
   templateUrl: './add-book.component.html',
   styleUrls: ['./add-book.component.scss'],
 })
@@ -52,13 +64,14 @@ export class AddBookComponent {
 
   readonly isSaving = signal<boolean>(false);
   readonly errorMessage = signal<string>('');
+  readonly bookGenreOptions = BOOK_GENRE_OPTIONS;
 
   entityForm = signal<AddBookEntityForm>({
     title: '',
     author: '',
     coverUrl: '',
     pages: 0,
-    genre: '',
+    genre: [],
     saga: '',
     sagaOrder: 0,
     sagaFinished: true,
@@ -119,6 +132,11 @@ export class AddBookComponent {
       ...current,
       [field]: nextValue,
     });
+  }
+
+  setGenres(genres: BookGenre[]) {
+    const current = this.entityForm();
+    this.entityForm.set({ ...current, genre: genres });
   }
 
   updateCheckbox(field: 'sagaFinished', checked: boolean) {

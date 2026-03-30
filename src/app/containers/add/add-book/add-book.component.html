@@ -55,15 +55,22 @@
         />
       </div>
 
-      <div class="form-row">
-        <label for="genre">Genre</label>
-        <input
-          id="genre"
-          type="text"
-          [ngModel]="entityForm().genre"
-          (ngModelChange)="updateEntityField('genre', $event)"
-          name="genre"
-        />
+      <div class="form-row genre-row">
+        <mat-form-field appearance="outline" class="genre-field">
+          <mat-label>Genres</mat-label>
+          <mat-select
+            id="genre"
+            multiple
+            [ngModel]="entityForm().genre"
+            (ngModelChange)="setGenres($event)"
+            name="genre"
+            placeholder="Sélectionner un ou plusieurs genres"
+          >
+            @for (g of bookGenreOptions; track g) {
+              <mat-option [value]="g">{{ g }}</mat-option>
+            }
+          </mat-select>
+        </mat-form-field>
       </div>
 
       <div class="form-row">

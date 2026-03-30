@@ -35,10 +35,15 @@ export function countReadBooks(books: Book[]): number {
   return books.filter((b) => (b.readTimes ?? 0) > 0).length;
 }
 
-export function isRomanceBookGenre(genre: string | undefined): boolean {
-  if (!genre?.trim()) return false;
-  const g = genre.toLowerCase();
-  return g.includes('romance') || g.includes('romantique');
+export function isRomanceBookGenre(
+  genre: string | string[] | undefined
+): boolean {
+  if (!genre) return false;
+  const parts = Array.isArray(genre) ? genre : [genre];
+  return parts.some((p) => {
+    const g = p.trim().toLowerCase();
+    return g.includes('romance') || g.includes('romantique');
+  });
 }
 
 export function countRomanceReadBooks(books: Book[]): number {

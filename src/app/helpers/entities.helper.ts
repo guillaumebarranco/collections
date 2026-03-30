@@ -53,7 +53,7 @@ export const getBookDataFromUserBookAndBaseBook = (
   readTimes: userBook.readTimes,
   coverUrl: baseBook?.coverUrl || '',
   pages: baseBook?.pages || 0,
-  genre: baseBook?.genre || '',
+  genre: baseBook?.genre ?? [],
   saga: baseBook?.saga || '',
   sagaOrder: baseBook?.sagaOrder || 0,
   owned: userBook.owned,

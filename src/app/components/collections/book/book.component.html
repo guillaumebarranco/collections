@@ -109,7 +109,7 @@
       (addToMyDone)="addToMyRead.emit(book)"
     />
     } @if (isBaseEntityView) {
-    <p class="book-genre">{{ book.genre }}</p>
+    <p class="book-genre">{{ book.genre.join(', ') }}</p>
     }
   </div>
 </app-entity-card>

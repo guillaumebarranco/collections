@@ -5,6 +5,8 @@ const {
   normalizeNumber,
   normalizeBoolean,
   normalizeString,
+  normalizeGenre,
+  formatGenreTsArray,
   escapeString,
   appendObjectToArrayFile,
   baseBookExists,
@@ -14,12 +16,13 @@ const {
 const router = express.Router();
 
 function formatBaseBook(entity: any): string {
+  const genreTs = formatGenreTsArray(entity.genre || []);
   return `  {
     title: "${escapeString(entity.title)}",
     author: "${escapeString(entity.author)}",
     coverUrl: "${escapeString(entity.coverUrl || '')}",
     pages: ${entity.pages || 0},
-    genre: "${escapeString(entity.genre || '')}",
+    genre: ${genreTs},
     saga: "${escapeString(entity.saga || '')}",
     sagaOrder: ${entity.sagaOrder || 0},
     sagaFinished: ${entity.sagaFinished ?? false},
@@ -112,7 +115,7 @@ router.post('/add', (req: any, res: any) => {
       author,
       coverUrl: normalizeString(entity.coverUrl, 'coverUrl') || '',
       pages: normalizeNumber(entity.pages, 'pages') || 0,
-      genre: normalizeString(entity.genre, 'genre') || '',
+      genre: normalizeGenre(entity.genre),
       saga: normalizeString(entity.saga, 'saga') || '',
       sagaOrder: normalizeNumber(entity.sagaOrder, 'sagaOrder') || 0,
       sagaFinished:

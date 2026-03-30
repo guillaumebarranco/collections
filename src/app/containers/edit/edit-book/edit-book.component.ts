@@ -7,7 +7,12 @@ import {
   Router,
   RouterModule,
 } from '@angular/router';
-import { Book } from '../../../models/book-model';
+import {
+  BOOK_GENRE_OPTIONS,
+  Book,
+  filterToBookGenres,
+  type BookGenre,
+} from '../../../models/book-model';
 import { getBooksByUser } from '../../../facades/books/books.facade';
 import {
   MAT_DIALOG_DATA,
@@ -21,6 +26,8 @@ import { QuizzCreateModalComponent } from '../../../components/modals/quizz-crea
 import { EntityType } from '../../../models/quizz-model';
 import { EditEntityHeaderComponent } from '../../../components/entity/edit-entity-header/edit-entity-header.component';
 import { CountrySelectComponent } from '../../../components/shared/country-select/country-select.component';
+import { MatFormFieldModule } from '@angular/material/form-field';
+import { MatSelectModule } from '@angular/material/select';
 import { DEFAULT_USER_ID } from '../../../utils/constants';
 
 type EditBookForm = {
@@ -39,7 +46,7 @@ type EditBookForm = {
 
 type EditBookEntityForm = {
   pages: number;
-  genre: string;
+  genre: BookGenre[];
   saga: string;
   sagaOrder: number;
   sagaFinished: boolean;
@@ -66,6 +73,8 @@ type EditBookDialogData = {
     EditEntityComponent,
     EditEntityHeaderComponent,
     CountrySelectComponent,
+    MatFormFieldModule,
+    MatSelectModule,
   ],
   templateUrl: './edit-book.component.html',
   styleUrls: ['./edit-book.component.scss'],
@@ -133,6 +142,8 @@ export class EditBookComponent {
     return `${this.dialogIndex() + 1}/${this.dialogList().length}`;
   });
 
+  readonly bookGenreOptions = BOOK_GENRE_OPTIONS;
+
   readonly bookSlug = computed(() => {
     return this.activatedRoute.snapshot.paramMap.get('slug') || '';
   });
@@ -180,6 +191,12 @@ export class EditBookComponent {
     });
   }
 
+  setEntityGenres(genres: BookGenre[]) {
+    const current = this.bookEntityForm();
+    if (!current) return;
+    this.bookEntityForm.set({ ...current, genre: genres });
+  }
+
   updateEntityField<K extends keyof EditBookEntityForm>(
     field: K,
     value: string | number
@@ -191,7 +208,9 @@ export class EditBookComponent {
       field !== 'genre' &&
       field !== 'saga' &&
       field !== 'coverUrl' &&
-      field !== 'releaseDate'
+      field !== 'releaseDate' &&
+      field !== 'description' &&
+      field !== 'countryOrigin'
     ) {
       const asNumber = Number(value);
       nextValue = (
@@ -467,7 +486,7 @@ export class EditBookComponent {
   private toEntityForm(book: Book): EditBookEntityForm {
     return {
       pages: book.pages || 0,
-      genre: book.genre || '',
+      genre: filterToBookGenres(book.genre ?? []),
       saga: book.saga || '',
       sagaOrder: book.sagaOrder || 0,
       coverUrl: book.coverUrl || '',
