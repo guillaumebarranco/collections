@@ -4215,9 +4215,9 @@ export const ronanCinemaMovies: UserMovies = [
     title: "Avengers : L'Ère d'Ultron",
     director: 'Joss Whedon',
     rating: 4, // Avengers: Age of Ultron (2015) ★★★★
-    timesWatched: 15,
-    firstViewedDate: '2015-05-01',
-    lastViewedDate: '',
+    timesWatched: 16,
+    firstViewedDate: "2015-05-01",
+    lastViewedDate: "2026-03-30",
     seenAtCinema: true,
     owned: true,
     wantToSeeAgain: false,
