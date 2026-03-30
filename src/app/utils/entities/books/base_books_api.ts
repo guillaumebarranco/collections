@@ -869,7 +869,7 @@ export const baseBooksApi: BaseBook[] = [
     title: 'Un animal sauvage',
     author: 'Joël Dicker',
     coverUrl:
-      'https://www.dolpo.fr/var/img_cache/thumbnails/livre/9782889730476-lg.webp',
+      '/books_pictures/d11f0f896ab1.webp',
     pages: 0,
     genre: [],
     saga: '',
@@ -883,7 +883,7 @@ export const baseBooksApi: BaseBook[] = [
   {
     title: 'Le bazar du zèbre à pois',
     author: 'Kyan Khojandi',
-    coverUrl: 'https://m.media-amazon.com/images/I/61UMtuL760L.jpg',
+    coverUrl: '/books_pictures/a18e346e6280.jpg',
     pages: 0,
     genre: [],
     saga: '',
@@ -898,7 +898,7 @@ export const baseBooksApi: BaseBook[] = [
     title: 'Une sirène à Paris',
     author: 'Katherine Pancol',
     coverUrl:
-      'https://static.fnac-static.com/multimedia/PE/Images/FR/NR/3c/f2/cd/13496892/1507-1/tsp20260325144501/Une-sirene-a-Paris.jpg',
+      '/books_pictures/5be8f086cbb6.jpg',
     pages: 0,
     genre: [],
     saga: '',
@@ -913,7 +913,7 @@ export const baseBooksApi: BaseBook[] = [
     title: 'Chats sur ordonnance',
     author: 'Éric-Emmanuel Schmitt',
     coverUrl:
-      'https://www.albin-michel.fr/sites/default/files/couvertures/albin/Article/Image/2024/9782226493460-j.jpg',
+      '/books_pictures/b03595961aee.jpg',
     pages: 0,
     genre: [],
     saga: '',
@@ -927,7 +927,7 @@ export const baseBooksApi: BaseBook[] = [
   {
     title: 'Rougemuraille tome 1',
     author: 'Brian Jacques',
-    coverUrl: 'https://images.epagine.fr/813/9782740407813_1_75.jpg',
+    coverUrl: '/books_pictures/f90c6d64a331.jpg',
     pages: 0,
     genre: [],
     saga: 'Rougemuraille',
@@ -942,7 +942,7 @@ export const baseBooksApi: BaseBook[] = [
     title: 'Rougemuraille tome 2',
     author: 'Brian Jacques',
     coverUrl:
-      'https://cdn.cultura.com/cdn-cgi/image/width=830/media/pim/TITELIVE/4_9782740408728_1_75.jpg',
+      '/books_pictures/bd2f6455ed7a.jpg',
     pages: 0,
     genre: [],
     saga: 'Rougemuraille',
@@ -957,7 +957,7 @@ export const baseBooksApi: BaseBook[] = [
     title: 'Rougemuraille tome 3',
     author: 'Brian Jacques',
     coverUrl:
-      'https://cdn.cultura.com/cdn-cgi/image/width=830/media/pim/TITELIVE/14_9782740409060_1_75.jpg',
+      '/books_pictures/68a23d659360.jpg',
     pages: 0,
     genre: [],
     saga: 'Rougemuraille',
@@ -972,7 +972,7 @@ export const baseBooksApi: BaseBook[] = [
     title: 'Rougemuraille tome 4',
     author: 'Brian Jacques',
     coverUrl:
-      'https://cdn.cultura.com/cdn-cgi/image/width=830/media/pim/TITELIVE/48_9782740411605_1_75.jpg',
+      '/books_pictures/29eed076a224.jpg',
     pages: 0,
     genre: [],
     saga: 'Rougemuraille',
@@ -986,7 +986,7 @@ export const baseBooksApi: BaseBook[] = [
   {
     title: 'Rougemuraille tome 5',
     author: 'Brian Jacques',
-    coverUrl: 'https://img.livraddict.com/covers/201/201176/couv2662841.jpg',
+    coverUrl: '/books_pictures/54b942885f77.jpg',
     pages: 0,
     genre: [],
     saga: 'Rougemuraille',
@@ -1001,7 +1001,7 @@ export const baseBooksApi: BaseBook[] = [
     title: 'Rougemuraille tome 6',
     author: 'Brian Jacques',
     coverUrl:
-      'https://m.media-amazon.com/images/I/51YT65PRT8L._AC_UF1000,1000_QL80_.jpg',
+      '/books_pictures/baea228eed55.jpg',
     pages: 0,
     genre: [],
     saga: 'Rougemuraille',
@@ -1016,7 +1016,7 @@ export const baseBooksApi: BaseBook[] = [
     title: 'La librairie disparue',
     author: 'Éva Sallés',
     coverUrl:
-      'https://cdn.cultura.com/cdn-cgi/image/width=830/media/pim/TITELIVE/30_9782824638881_1_75.jpg',
+      '/books_pictures/43aef9fbc5b8.jpg',
     pages: 0,
     genre: [],
     saga: '',
@@ -1030,7 +1030,7 @@ export const baseBooksApi: BaseBook[] = [
   {
     title: 'La boîte à magie',
     author: 'Camilla Läckberg et Henrik Fexeus',
-    coverUrl: '',
+    coverUrl: '/books_pictures/141309eef90f.jpg',
     pages: 0,
     genre: [],
     saga: '',
@@ -1044,7 +1044,8 @@ export const baseBooksApi: BaseBook[] = [
   {
     title: 'Œdipe roi',
     author: 'Sophocle',
-    coverUrl: '',
+    coverUrl:
+      '/books_pictures/97e263f391eb.jpg',
     pages: 0,
     genre: [],
     saga: '',
@@ -1058,7 +1059,8 @@ export const baseBooksApi: BaseBook[] = [
   {
     title: 'Un jeudi saveur chocolat',
     author: 'Michiko Aoyama',
-    coverUrl: '',
+    coverUrl:
+      'https://m.media-amazon.com/images/I/71vy02KWGSL._AC_UF1000,1000_QL80_.jpg',
     pages: 0,
     genre: [],
     saga: '',
@@ -1071,8 +1073,9 @@ export const baseBooksApi: BaseBook[] = [
 
   {
     title: 'Les Mystères de Fleat House',
-    author: 'Robert Galbraith',
-    coverUrl: '',
+    author: 'Lucinda Riley',
+    coverUrl:
+      '/books_pictures/c74bb0450d24.jpg',
     pages: 0,
     genre: [],
     saga: '',
@@ -1086,7 +1089,8 @@ export const baseBooksApi: BaseBook[] = [
   {
     title: "La lettre d'amour interdite",
     author: 'Lucinda Riley',
-    coverUrl: '',
+    coverUrl:
+      '/books_pictures/9247327c49ef.jpg',
     pages: 0,
     genre: [],
     saga: '',
@@ -1098,9 +1102,10 @@ export const baseBooksApi: BaseBook[] = [
   },
 
   {
-    title: 'Numéro 2',
+    title: 'Numéro deux',
     author: 'David Foenkinos',
-    coverUrl: '',
+    coverUrl:
+      '/books_pictures/2141572fe4ec.jpg',
     pages: 0,
     genre: [],
     saga: '',
@@ -1114,7 +1119,7 @@ export const baseBooksApi: BaseBook[] = [
   {
     title: 'Sans famille',
     author: 'Hector Malot',
-    coverUrl: '',
+    coverUrl: '/books_pictures/fa0ec7981911.jpg',
     pages: 0,
     genre: [],
     saga: '',
@@ -1128,7 +1133,8 @@ export const baseBooksApi: BaseBook[] = [
   {
     title: "Ta deuxième vie commence quand tu comprends que tu n'en as qu'une",
     author: 'Raphaëlle Giordano',
-    coverUrl: '',
+    coverUrl:
+      '/books_pictures/00d1b3a48ed8.jpg',
     pages: 0,
     genre: [],
     saga: '',
@@ -1141,8 +1147,8 @@ export const baseBooksApi: BaseBook[] = [
 
   {
     title: 'Loin',
-    author: 'Caryl Férey',
-    coverUrl: '',
+    author: 'Alexis Michalik',
+    coverUrl: 'https://m.media-amazon.com/images/I/71jSt8rH0aL.jpg',
     pages: 0,
     genre: [],
     saga: '',
@@ -1156,7 +1162,8 @@ export const baseBooksApi: BaseBook[] = [
   {
     title: 'Le parfum du bonheur est plus fort sous la pluie',
     author: 'Virginie Grimaldi',
-    coverUrl: '',
+    coverUrl:
+      '/books_pictures/6ef03e920f2d.jpg',
     pages: 0,
     genre: [],
     saga: '',
@@ -1170,7 +1177,7 @@ export const baseBooksApi: BaseBook[] = [
   {
     title: 'Le papillon des étoiles',
     author: 'Bernard Werber',
-    coverUrl: '',
+    coverUrl: 'https://m.media-amazon.com/images/I/81yhIBBvgLL.jpg',
     pages: 0,
     genre: [],
     saga: '',
@@ -1184,7 +1191,7 @@ export const baseBooksApi: BaseBook[] = [
   {
     title: 'Demain les chats',
     author: 'Bernard Werber',
-    coverUrl: '',
+    coverUrl: '/books_pictures/c55822c83945.jpg',
     pages: 0,
     genre: [],
     saga: '',
@@ -1198,7 +1205,8 @@ export const baseBooksApi: BaseBook[] = [
   {
     title: 'Petits miracles au bureau des objets trouvés',
     author: 'Keigo Higashino',
-    coverUrl: '',
+    coverUrl:
+      '/books_pictures/69e097933905.jpg',
     pages: 0,
     genre: [],
     saga: '',
@@ -1212,7 +1220,7 @@ export const baseBooksApi: BaseBook[] = [
   {
     title: 'Le mystère Henri Pick',
     author: 'David Foenkinos',
-    coverUrl: '',
+    coverUrl: '/books_pictures/02ce9f59f644.jpg',
     pages: 0,
     genre: [],
     saga: '',
@@ -1226,7 +1234,8 @@ export const baseBooksApi: BaseBook[] = [
   {
     title: 'Ciao Bella',
     author: 'Serena Giuliano',
-    coverUrl: '',
+    coverUrl:
+      'https://images-na.ssl-images-amazon.com/images/I/71389HTqA4L.jpg',
     pages: 0,
     genre: [],
     saga: '',
@@ -1240,7 +1249,8 @@ export const baseBooksApi: BaseBook[] = [
   {
     title: '59 secondes',
     author: 'Richard Wiseman',
-    coverUrl: '',
+    coverUrl:
+      'https://media.hachette.fr/fit-in/780x1280/imgArticle/LATTES/2010/9782709634281-T.jpg?source=web',
     pages: 0,
     genre: [],
     saga: '',
@@ -1253,8 +1263,9 @@ export const baseBooksApi: BaseBook[] = [
 
   {
     title: "Un goût de cannelle et d'espoir",
-    author: 'Virginie Grimaldi',
-    coverUrl: '',
+    author: 'Sarah McCoy',
+    coverUrl:
+      '/books_pictures/166f81fd1082.jpg',
     pages: 0,
     genre: [],
     saga: '',
@@ -1268,7 +1279,8 @@ export const baseBooksApi: BaseBook[] = [
   {
     title: 'Un amour vintage',
     author: 'Isabel Wolff',
-    coverUrl: '',
+    coverUrl:
+      '/books_pictures/efda03f55a3c.jpg',
     pages: 0,
     genre: [],
     saga: '',
@@ -1281,8 +1293,8 @@ export const baseBooksApi: BaseBook[] = [
 
   {
     title: "Un parfum d'encre et de liberté",
-    author: 'Aurélie Valognes',
-    coverUrl: '',
+    author: 'Sarah McCoy',
+    coverUrl: 'https://m.media-amazon.com/images/I/71GLjpOy6XL.jpg',
     pages: 0,
     genre: [],
     saga: '',
@@ -1296,7 +1308,8 @@ export const baseBooksApi: BaseBook[] = [
   {
     title: "L'homme qui voulait vivre sa vie",
     author: 'Douglas Kennedy',
-    coverUrl: '',
+    coverUrl:
+      '/books_pictures/f3eb98f626c8.jpg',
     pages: 0,
     genre: [],
     saga: '',
@@ -1310,7 +1323,8 @@ export const baseBooksApi: BaseBook[] = [
   {
     title: 'Demain est un autre jour',
     author: 'May Angeli',
-    coverUrl: '',
+    coverUrl:
+      '/books_pictures/619a33c3baea.jpg',
     pages: 0,
     genre: [],
     saga: '',
@@ -1323,8 +1337,9 @@ export const baseBooksApi: BaseBook[] = [
 
   {
     title: 'Le jour où les lions mangeront de la salade',
-    author: 'Éric-Emmanuel Schmitt',
-    coverUrl: '',
+    author: 'Raphaëlle Giordano',
+    coverUrl:
+      'https://m.media-amazon.com/images/I/71pmdIR+npL._AC_UF1000,1000_QL80_.jpg',
     pages: 0,
     genre: [],
     saga: '',
@@ -1338,7 +1353,8 @@ export const baseBooksApi: BaseBook[] = [
   {
     title: "Avant d'aller dormir",
     author: 'S.J. Watson',
-    coverUrl: '',
+    coverUrl:
+      '/books_pictures/f661a2b6f932.jpg',
     pages: 0,
     genre: [],
     saga: '',
@@ -1352,7 +1368,7 @@ export const baseBooksApi: BaseBook[] = [
   {
     title: 'La quiche fatale',
     author: 'Katherine Pancol',
-    coverUrl: '',
+    coverUrl: '/books_pictures/e0a7a56c1d00.jpg',
     pages: 0,
     genre: [],
     saga: '',
@@ -1365,8 +1381,9 @@ export const baseBooksApi: BaseBook[] = [
 
   {
     title: 'Les yeux de Sophie',
-    author: 'Marc Levy',
-    coverUrl: '',
+    author: 'Jojo Moyes',
+    coverUrl:
+      '/books_pictures/75571f2d0e75.jpg',
     pages: 0,
     genre: [],
     saga: '',
@@ -1380,7 +1397,8 @@ export const baseBooksApi: BaseBook[] = [
   {
     title: 'Miracle Morning',
     author: 'Hal Elrod',
-    coverUrl: '',
+    coverUrl:
+      '/books_pictures/f9e777aefd48.jpg',
     pages: 0,
     genre: [],
     saga: '',
@@ -1394,7 +1412,8 @@ export const baseBooksApi: BaseBook[] = [
   {
     title: 'La petite boulangerie du bout du monde',
     author: 'Jenny Colgan',
-    coverUrl: '',
+    coverUrl:
+      '/books_pictures/68d9b02e4746.jpg',
     pages: 0,
     genre: [],
     saga: '',
@@ -1408,7 +1427,8 @@ export const baseBooksApi: BaseBook[] = [
   {
     title: 'En voiture Simone',
     author: 'Aurélie Valognes',
-    coverUrl: '',
+    coverUrl:
+      '/books_pictures/6a4fd9f70263.jpg',
     pages: 0,
     genre: [],
     saga: '',
@@ -1422,7 +1442,8 @@ export const baseBooksApi: BaseBook[] = [
   {
     title: 'Jonathan Strange et Mr Norrell',
     author: 'Susanna Clarke',
-    coverUrl: '',
+    coverUrl:
+      '/books_pictures/be4fe12cb3b5.jpg',
     pages: 0,
     genre: [],
     saga: '',
@@ -1436,7 +1457,7 @@ export const baseBooksApi: BaseBook[] = [
   {
     title: '1Q84, tome 1',
     author: 'Haruki Murakami',
-    coverUrl: '',
+    coverUrl: '/books_pictures/b5247c0f05ee.jpg',
     pages: 0,
     genre: [],
     saga: '1Q84',
@@ -1450,7 +1471,8 @@ export const baseBooksApi: BaseBook[] = [
   {
     title: 'Vendredi ou la vie sauvage',
     author: 'Michel Tournier',
-    coverUrl: '',
+    coverUrl:
+      '/books_pictures/b094fb73f134.jpg',
     pages: 0,
     genre: [],
     saga: '',
@@ -1464,7 +1486,7 @@ export const baseBooksApi: BaseBook[] = [
   {
     title: 'Alice aux pays des merveilles',
     author: 'Lewis Carroll',
-    coverUrl: '',
+    coverUrl: '/books_pictures/430179432bac.jpg',
     pages: 0,
     genre: [],
     saga: '',
@@ -1478,21 +1500,7 @@ export const baseBooksApi: BaseBook[] = [
   {
     title: "Changer l'eau des fleurs",
     author: 'Valérie Perrin',
-    coverUrl: '',
-    pages: 0,
-    genre: [],
-    saga: '',
-    sagaOrder: 0,
-    sagaFinished: false,
-    releaseDate: '',
-    description: '',
-    countryOrigin: '',
-  },
-
-  {
-    title: 'Vipère au poing',
-    author: 'Hervé Bazin',
-    coverUrl: '',
+    coverUrl: '/books_pictures/6e4fdd4b0d3f.jpg',
     pages: 0,
     genre: [],
     saga: '',
@@ -1506,7 +1514,8 @@ export const baseBooksApi: BaseBook[] = [
   {
     title: 'Le roi Arthur',
     author: 'Anonyme',
-    coverUrl: '',
+    coverUrl:
+      '/books_pictures/32cf9ac0c150.jpg',
     pages: 0,
     genre: [],
     saga: '',
@@ -1520,7 +1529,8 @@ export const baseBooksApi: BaseBook[] = [
   {
     title: "Le petit nicolas - L'intégral",
     author: 'René Goscinny',
-    coverUrl: '',
+    coverUrl:
+      '/books_pictures/0acec8b43e72.png',
     pages: 0,
     genre: [],
     saga: '',
@@ -1534,7 +1544,7 @@ export const baseBooksApi: BaseBook[] = [
   {
     title: 'La gloire de mon père',
     author: 'Marcel Pagnol',
-    coverUrl: '',
+    coverUrl: '/books_pictures/d034ba7d7f08.jpg',
     pages: 0,
     genre: [],
     saga: '',
@@ -1547,8 +1557,9 @@ export const baseBooksApi: BaseBook[] = [
 
   {
     title: 'La compagnie des menteurs',
-    author: 'Camille Aubry',
-    coverUrl: '',
+    author: 'Karen Maitland',
+    coverUrl:
+      '/books_pictures/486229b5f04d.jpg',
     pages: 0,
     genre: [],
     saga: '',
@@ -1562,7 +1573,8 @@ export const baseBooksApi: BaseBook[] = [
   {
     title: 'Elle et lui',
     author: 'Marc Levy',
-    coverUrl: '',
+    coverUrl:
+      '/books_pictures/c187967e746b.jpg',
     pages: 0,
     genre: [],
     saga: '',
@@ -1576,7 +1588,8 @@ export const baseBooksApi: BaseBook[] = [
   {
     title: 'La dernière des Stanfield',
     author: 'Marc Levy',
-    coverUrl: '',
+    coverUrl:
+      '/books_pictures/c1ee29d4281d.jpg',
     pages: 0,
     genre: [],
     saga: '',
@@ -1590,7 +1603,7 @@ export const baseBooksApi: BaseBook[] = [
   {
     title: 'Le club des 5 heures du mat',
     author: 'Robin Sharma',
-    coverUrl: 'https://m.media-amazon.com/images/I/61giBqj52GL.jpg',
+    coverUrl: '/books_pictures/e3e1510cdb3a.jpg',
     pages: 0,
     genre: [],
     saga: '',
@@ -1619,7 +1632,7 @@ export const baseBooksApi: BaseBook[] = [
   {
     title: 'Le royaume de Tobin, tome 2',
     author: 'Lynn Flewelling',
-    coverUrl: 'https://www.le-livre.fr/photos/R20/R200072481.jpg',
+    coverUrl: '/books_pictures/6f2b417a45dd.jpg',
     pages: 0,
     genre: [],
     saga: 'Le royaume de Tobin',
@@ -1634,7 +1647,7 @@ export const baseBooksApi: BaseBook[] = [
     title: 'Le royaume de Tobin, tome 3',
     author: 'Lynn Flewelling',
     coverUrl:
-      'https://m.media-amazon.com/images/I/718MbYAEt4L._AC_UF1000,1000_QL80_.jpg',
+      '/books_pictures/cbc32a6a324f.jpg',
     pages: 0,
     genre: [],
     saga: 'Le royaume de Tobin',
@@ -1649,7 +1662,7 @@ export const baseBooksApi: BaseBook[] = [
     title: 'Le royaume de Tobin, tome 4',
     author: 'Lynn Flewelling',
     coverUrl:
-      'https://products-images.di-static.com/image/flewelling-lynn-le-royaume-de-tobin-tome-4-la-revelation/9782857049593-475x500-1.webp',
+      '/books_pictures/aff3033d3507.webp',
     pages: 0,
     genre: [],
     saga: 'Le royaume de Tobin',
@@ -1664,7 +1677,7 @@ export const baseBooksApi: BaseBook[] = [
     title: 'Le royaume de Tobin, tome 5',
     author: 'Lynn Flewelling',
     coverUrl:
-      'https://m.media-amazon.com/images/I/51a1HklvmmL._AC_UF1000,1000_QL80_.jpg',
+      '/books_pictures/a6a99e267f4c.jpg',
     pages: 0,
     genre: [],
     saga: 'Le royaume de Tobin',
@@ -1694,7 +1707,7 @@ export const baseBooksApi: BaseBook[] = [
     title: 'La couronne des 7 royaumes, tome 1',
     author: 'David B. Coe',
     coverUrl:
-      'https://m.media-amazon.com/images/I/61p7QjgA8uL._UF1000,1000_QL80_.jpg',
+      '/books_pictures/eeb54ba64188.jpg',
     pages: 0,
     genre: [],
     saga: 'La couronne des 7 royaumes',
@@ -1709,7 +1722,7 @@ export const baseBooksApi: BaseBook[] = [
     title: 'La couronne des 7 royaumes, tome 2',
     author: 'David B. Coe',
     coverUrl:
-      'https://m.media-amazon.com/images/I/61ggFiebMoL._UF1000,1000_QL80_.jpg',
+      '/books_pictures/30fc54eff0de.jpg',
     pages: 0,
     genre: [],
     saga: 'La couronne des 7 royaumes',
@@ -1724,7 +1737,7 @@ export const baseBooksApi: BaseBook[] = [
     title: 'La couronne des 7 royaumes, tome 3',
     author: 'David B. Coe',
     coverUrl:
-      'https://m.media-amazon.com/images/I/61Q9a0x4nqL._UF1000,1000_QL80_.jpg',
+      '/books_pictures/5e195f6d9cb7.jpg',
     pages: 0,
     genre: [],
     saga: 'La couronne des 7 royaumes',
@@ -1739,7 +1752,7 @@ export const baseBooksApi: BaseBook[] = [
     title: 'La couronne des 7 royaumes, tome 4',
     author: 'David B. Coe',
     coverUrl:
-      'https://m.media-amazon.com/images/I/61uq7asiktL._UF1000,1000_QL80_.jpg',
+      '/books_pictures/df646beb01c1.jpg',
     pages: 0,
     genre: [],
     saga: 'La couronne des 7 royaumes',
@@ -1754,7 +1767,7 @@ export const baseBooksApi: BaseBook[] = [
     title: 'La couronne des 7 royaumes, tome 5',
     author: 'David B. Coe',
     coverUrl:
-      'https://products-images.di-static.com/image/coe-david-b--la-couronne-des-7-royaumes-tome-5-les-fruits-de-la-vengeance/9782756400211-475x500-1.webp',
+      '/books_pictures/319e1dd77ca5.webp',
     pages: 0,
     genre: [],
     saga: 'La couronne des 7 royaumes',
@@ -1769,7 +1782,7 @@ export const baseBooksApi: BaseBook[] = [
     title: 'La couronne des 7 royaumes, tome 6',
     author: 'David B. Coe',
     coverUrl:
-      'https://static.fnac-static.com/multimedia/PE/Images/FR/NR/aa/d7/1c/1890218/1507-1/tsp20250405073542/Le-Sang-des-traitres.jpg',
+      '/books_pictures/ad1e4b0385f4.jpg',
     pages: 0,
     genre: [],
     saga: 'La couronne des 7 royaumes',
@@ -1784,7 +1797,7 @@ export const baseBooksApi: BaseBook[] = [
     title: 'La couronne des 7 royaumes, tome 7',
     author: 'David B. Coe',
     coverUrl:
-      'https://m.media-amazon.com/images/I/61Fj5tU3LVL._UF1000,1000_QL80_.jpg',
+      '/books_pictures/24e7ba64a30a.jpg',
     pages: 0,
     genre: [],
     saga: 'La couronne des 7 royaumes',
@@ -1799,7 +1812,7 @@ export const baseBooksApi: BaseBook[] = [
     title: 'La couronne des 7 royaumes, tome 8',
     author: 'David B. Coe',
     coverUrl:
-      'https://m.media-amazon.com/images/I/61zlUfuVsXL._UF1000,1000_QL80_.jpg',
+      '/books_pictures/75d9c6594228.jpg',
     pages: 0,
     genre: [],
     saga: 'La couronne des 7 royaumes',
@@ -1814,7 +1827,7 @@ export const baseBooksApi: BaseBook[] = [
     title: 'La couronne des 7 royaumes, tome 9',
     author: 'David B. Coe',
     coverUrl:
-      'https://static.fnac-static.com/multimedia/PE/Images/FR/NR/b2/16/22/2234034/1507-1/tsp20250405073725/L-Alliance-sacree.jpg',
+      '/books_pictures/3b4e6412aa34.jpg',
     pages: 0,
     genre: [],
     saga: 'La couronne des 7 royaumes',
@@ -1829,7 +1842,7 @@ export const baseBooksApi: BaseBook[] = [
     title: 'La couronne des 7 royaumes, tome 10',
     author: 'David B. Coe',
     coverUrl:
-      'https://m.media-amazon.com/images/I/61jll0-hJVL._UF1000,1000_QL80_.jpg',
+      '/books_pictures/062eea802be4.jpg',
     pages: 0,
     genre: [],
     saga: 'La couronne des 7 royaumes',
@@ -1843,7 +1856,7 @@ export const baseBooksApi: BaseBook[] = [
   {
     title: 'Le clan des otoris, tome 1',
     author: 'Lian Hearn',
-    coverUrl: 'https://www.babelio.com/couv/CVT_36517_1704696.jpg',
+    coverUrl: '/books_pictures/45a36a2432f3.jpg',
     pages: 0,
     genre: [],
     saga: 'Le clan des Otori',
@@ -1858,7 +1871,7 @@ export const baseBooksApi: BaseBook[] = [
     title: 'Le clan des otoris, tome 2',
     author: 'Lian Hearn',
     coverUrl:
-      'https://m.media-amazon.com/images/I/81z0O0WfWjL._AC_UF1000,1000_QL80_.jpg',
+      '/books_pictures/d706218f2d20.jpg',
     pages: 0,
     genre: [],
     saga: 'Le clan des Otori',
@@ -1873,7 +1886,7 @@ export const baseBooksApi: BaseBook[] = [
     title: 'Le clan des otoris, tome 3',
     author: 'Lian Hearn',
     coverUrl:
-      'https://m.media-amazon.com/images/I/91RSyZS8DYL._AC_UF1000,1000_QL80_.jpg',
+      '/books_pictures/ef740664920a.jpg',
     pages: 0,
     genre: [],
     saga: 'Le clan des Otori',
@@ -1887,7 +1900,7 @@ export const baseBooksApi: BaseBook[] = [
   {
     title: 'Les âmes vagabondes',
     author: 'Stephenie Meyer',
-    coverUrl: 'https://m.media-amazon.com/images/I/712Wug-TmsL.jpg',
+    coverUrl: '/books_pictures/f1dd2605aeec.jpg',
     pages: 0,
     genre: [],
     saga: '',
@@ -1902,7 +1915,7 @@ export const baseBooksApi: BaseBook[] = [
     title: 'Il est grand temps de rallumer les étoiles',
     author: 'Virginie Grimaldi',
     coverUrl:
-      'https://m.media-amazon.com/images/I/71f1oCkdUtL._AC_UF1000,1000_QL80_.jpg',
+      '/books_pictures/f021cd2b1137.jpg',
     pages: 0,
     genre: [],
     saga: '',
@@ -1917,7 +1930,7 @@ export const baseBooksApi: BaseBook[] = [
     title: 'La disparition de Stéphanie Mailer',
     author: 'Joël Dicker',
     coverUrl:
-      'https://m.media-amazon.com/images/I/81IZjgDwTuL._AC_UF1000,1000_QL80_.jpg',
+      '/books_pictures/84aafd42398e.jpg',
     pages: 0,
     genre: [],
     saga: '',
@@ -1932,7 +1945,7 @@ export const baseBooksApi: BaseBook[] = [
     title: "La maison de l'orchidée",
     author: 'Lucinda Riley',
     coverUrl:
-      'https://m.media-amazon.com/images/I/91LYDI7Lg0L._AC_UF1000,1000_QL80_.jpg',
+      '/books_pictures/5e33920f6b80.jpg',
     pages: 0,
     genre: [],
     saga: '',
@@ -1947,7 +1960,7 @@ export const baseBooksApi: BaseBook[] = [
     title: 'Chroniques des temps Obscurs, tome 1',
     author: 'Michelle Paver',
     coverUrl:
-      'https://m.media-amazon.com/images/I/81IEQY8pv-L._AC_UF1000,1000_QL80_.jpg',
+      '/books_pictures/7e17bc306444.jpg',
     pages: 0,
     genre: [],
     saga: 'Chroniques des temps Obscurs',
@@ -1962,7 +1975,7 @@ export const baseBooksApi: BaseBook[] = [
     title: 'Chroniques des temps Obscurs, tome 2',
     author: 'Michelle Paver',
     coverUrl:
-      'https://m.media-amazon.com/images/I/91qUEVHwyfL._AC_UF1000,1000_QL80_.jpg',
+      '/books_pictures/f1559ec7749d.jpg',
     pages: 0,
     genre: [],
     saga: 'Chroniques des temps Obscurs',
@@ -1977,7 +1990,7 @@ export const baseBooksApi: BaseBook[] = [
     title: 'James et la pêche géante',
     author: 'Roald Dahl',
     coverUrl:
-      'https://fr.web.img5.acsta.net/c_310_420/img/c7/b6/c7b67d31753ca615803d252ac927790d.jpg',
+      '/books_pictures/333ee03703fd.jpg',
     pages: 0,
     genre: [],
     saga: '',

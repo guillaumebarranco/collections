@@ -912,7 +912,8 @@ export const amandineBooks: UserBooks = [
     ratingComment: '',
     borrowed: '',
     loaned: '',
-  },{
+  },
+  {
     title: 'Un animal sauvage',
     author: 'Joël Dicker',
     firstReadDate: '',
@@ -1124,21 +1125,6 @@ export const amandineBooks: UserBooks = [
 
   {
     title: 'Les Mystères de Fleat House',
-    author: 'Robert Galbraith',
-    firstReadDate: '',
-    lastReadDate: '',
-    rating: 0,
-    readTimes: 1,
-    owned: false,
-    borrowed: '',
-    loaned: '',
-    readPriority: 1,
-    wantToReadAgain: false,
-    ratingComment: '',
-  },
-
-  {
-    title: 'La lettre d\'amour interdite',
     author: 'Lucinda Riley',
     firstReadDate: '',
     lastReadDate: '',
@@ -1153,7 +1139,22 @@ export const amandineBooks: UserBooks = [
   },
 
   {
-    title: 'Numéro 2',
+    title: "La lettre d'amour interdite",
+    author: 'Lucinda Riley',
+    firstReadDate: '',
+    lastReadDate: '',
+    rating: 0,
+    readTimes: 1,
+    owned: false,
+    borrowed: '',
+    loaned: '',
+    readPriority: 1,
+    wantToReadAgain: false,
+    ratingComment: '',
+  },
+
+  {
+    title: 'Numéro deux',
     author: 'David Foenkinos',
     firstReadDate: '',
     lastReadDate: '',
@@ -1183,7 +1184,7 @@ export const amandineBooks: UserBooks = [
   },
 
   {
-    title: 'Ta deuxième vie commence quand tu comprends que tu n\'en as qu\'une',
+    title: "Ta deuxième vie commence quand tu comprends que tu n'en as qu'une",
     author: 'Raphaëlle Giordano',
     firstReadDate: '',
     lastReadDate: '',
@@ -1199,7 +1200,7 @@ export const amandineBooks: UserBooks = [
 
   {
     title: 'Loin',
-    author: 'Caryl Férey',
+    author: 'Alexis Michalik',
     firstReadDate: '',
     lastReadDate: '',
     rating: 0,
@@ -1318,8 +1319,8 @@ export const amandineBooks: UserBooks = [
   },
 
   {
-    title: 'Un goût de cannelle et d\'espoir',
-    author: 'Virginie Grimaldi',
+    title: "Un goût de cannelle et d'espoir",
+    author: 'Sarah McCoy',
     firstReadDate: '',
     lastReadDate: '',
     rating: 0,
@@ -1348,8 +1349,8 @@ export const amandineBooks: UserBooks = [
   },
 
   {
-    title: 'Un parfum d\'encre et de liberté',
-    author: 'Aurélie Valognes',
+    title: "Un parfum d'encre et de liberté",
+    author: 'Sarah McCoy',
     firstReadDate: '',
     lastReadDate: '',
     rating: 0,
@@ -1363,7 +1364,7 @@ export const amandineBooks: UserBooks = [
   },
 
   {
-    title: 'L\'homme qui voulait vivre sa vie',
+    title: "L'homme qui voulait vivre sa vie",
     author: 'Douglas Kennedy',
     firstReadDate: '',
     lastReadDate: '',
@@ -1394,7 +1395,7 @@ export const amandineBooks: UserBooks = [
 
   {
     title: 'Le jour où les lions mangeront de la salade',
-    author: 'Éric-Emmanuel Schmitt',
+    author: 'Raphaëlle Giordano',
     firstReadDate: '',
     lastReadDate: '',
     rating: 0,
@@ -1408,7 +1409,7 @@ export const amandineBooks: UserBooks = [
   },
 
   {
-    title: 'Avant d\'aller dormir',
+    title: "Avant d'aller dormir",
     author: 'S.J. Watson',
     firstReadDate: '',
     lastReadDate: '',
@@ -1439,7 +1440,7 @@ export const amandineBooks: UserBooks = [
 
   {
     title: 'Les yeux de Sophie',
-    author: 'Marc Levy',
+    author: 'Jojo Moyes',
     firstReadDate: '',
     lastReadDate: '',
     rating: 0,
@@ -1558,7 +1559,7 @@ export const amandineBooks: UserBooks = [
   },
 
   {
-    title: 'Changer l\'eau des fleurs',
+    title: "Changer l'eau des fleurs",
     author: 'Valérie Perrin',
     firstReadDate: '',
     lastReadDate: '',
@@ -1603,7 +1604,7 @@ export const amandineBooks: UserBooks = [
   },
 
   {
-    title: 'Le petit nicolas - L\'intégral',
+    title: "Le petit nicolas - L'intégral",
     author: 'René Goscinny',
     firstReadDate: '',
     lastReadDate: '',
@@ -1634,7 +1635,7 @@ export const amandineBooks: UserBooks = [
 
   {
     title: 'La compagnie des menteurs',
-    author: 'Camille Aubry',
+    author: 'Karen Maitland',
     firstReadDate: '',
     lastReadDate: '',
     rating: 0,
@@ -2023,7 +2024,7 @@ export const amandineBooks: UserBooks = [
   },
 
   {
-    title: 'La maison de l\'orchidée',
+    title: "La maison de l'orchidée",
     author: 'Lucinda Riley',
     firstReadDate: '',
     lastReadDate: '',
@@ -2081,5 +2082,4 @@ export const amandineBooks: UserBooks = [
     wantToReadAgain: false,
     ratingComment: '',
   },
-
 ];

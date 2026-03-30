@@ -130,7 +130,7 @@ export const baseManwhas: BaseManwha[] = [
   {
     title: 'Omniscient Reader',
     author: 'singNsong, Sleepy-C',
-    coverUrl: 'https://m.media-amazon.com/images/I/81ZuZO5vr2L.jpg',
+    coverUrl: '/manwhas_pictures/d547d01ec770.jpg',
     genre: 'Action',
     nbChapters: 551,
     isFinished: true,
@@ -140,7 +140,7 @@ export const baseManwhas: BaseManwha[] = [
     title: 'The Beginning After the End',
     author: 'TurtleMe, Fuyuki23',
     coverUrl:
-      'https://www.manga-news.com/public/images/series/The_Beginning_After_The_End_1_kbooks.webp',
+      '/manwhas_pictures/eb6da97dc5c8.webp',
     genre: 'Fantasy',
     nbChapters: 220,
     isFinished: false,
@@ -159,7 +159,7 @@ export const baseManwhas: BaseManwha[] = [
   {
     title: 'Hellper',
     author: 'SSAK',
-    coverUrl: 'https://i.redd.it/btemhmegoidg1.jpeg',
+    coverUrl: '/manwhas_pictures/522147d20229.jpeg',
     genre: 'Action',
     nbChapters: 200,
     isFinished: true,
@@ -178,7 +178,7 @@ export const baseManwhas: BaseManwha[] = [
   {
     title: 'Kubera',
     author: 'Currygom',
-    coverUrl: 'https://www.nautiljon.com/images/manga/00/21/kubera_22112.webp',
+    coverUrl: '/manwhas_pictures/8a4f874e2bcb.webp',
     genre: 'Fantasy',
     nbChapters: 650,
     isFinished: false,
@@ -198,7 +198,7 @@ export const baseManwhas: BaseManwha[] = [
     title: 'The Boxer',
     author: 'Jeong Ji-hun',
     coverUrl:
-      'https://media.senscritique.com/media/000020575710/0/the_boxer.jpg',
+      '/manwhas_pictures/47cb607b137c.jpg',
     genre: 'Drama',
     nbChapters: 132,
     isFinished: true,
@@ -208,7 +208,7 @@ export const baseManwhas: BaseManwha[] = [
     title: 'Adonis',
     author: 'Seol I, Dodam',
     coverUrl:
-      'https://www.manga-news.com/public/images/series/adonis-visuel.jpg',
+      '/manwhas_pictures/839831f50056.jpg',
     genre: 'Romance',
     nbChapters: 180,
     isFinished: false,
@@ -218,7 +218,7 @@ export const baseManwhas: BaseManwha[] = [
     title: 'Lumine',
     author: 'Emma Krogell',
     coverUrl:
-      'https://m.media-amazon.com/images/I/81CRNauCzmL._AC_UF1000,1000_QL80_.jpg',
+      '/manwhas_pictures/ed5a5189ee0e.jpg',
     genre: 'Fantasy',
     nbChapters: 300,
     isFinished: true,
@@ -228,7 +228,7 @@ export const baseManwhas: BaseManwha[] = [
     title: 'Selfish Romance',
     author: 'Gang Ha-neul',
     coverUrl:
-      'https://preview.redd.it/you-guys-need-to-read-selfish-romance-totally-worth-it-v0-bn0co4ekobrf1.jpg?width=828&format=pjpg&auto=webp&s=8eaf637436584bed9fdd320ccbaa96ea6e05e6c0',
+      '/manwhas_pictures/cf35c87e7b20.jpg',
     genre: 'Romance',
     nbChapters: 80,
     isFinished: false,
@@ -238,7 +238,7 @@ export const baseManwhas: BaseManwha[] = [
     title: 'Hand Jumper',
     author: 'Sipjeung',
     coverUrl:
-      'https://www.nautiljon.com/images/manga/00/18/hand_jumper_26281.webp',
+      '/manwhas_pictures/dbecd94ac5c4.webp',
     genre: 'Thriller',
     nbChapters: 120,
     isFinished: false,
@@ -248,7 +248,7 @@ export const baseManwhas: BaseManwha[] = [
     title: 'Tales of Demons and Gods',
     author: 'Mad Snail, Jiang Ruotai',
     coverUrl:
-      'https://www.manga-news.com/public/images/series/todag-1-nazca.webp',
+      '/manwhas_pictures/a8d7df4dd7ab.webp',
     genre: 'Fantasy',
     nbChapters: 450,
     isFinished: false,
@@ -258,7 +258,7 @@ export const baseManwhas: BaseManwha[] = [
     title: 'True Beauty',
     author: 'Yaongyi',
     coverUrl:
-      'https://www.manga-news.com/public/images/series/true-beauty-kbooks.webp',
+      '/manwhas_pictures/191c6c22e16e.webp',
     genre: 'Romance',
     nbChapters: 240,
     isFinished: true,
