@@ -868,7 +868,8 @@ export const baseBooksApi: BaseBook[] = [
   {
     title: 'Un animal sauvage',
     author: 'Joël Dicker',
-    coverUrl: '',
+    coverUrl:
+      'https://www.dolpo.fr/var/img_cache/thumbnails/livre/9782889730476-lg.webp',
     pages: 0,
     genre: [],
     saga: '',
@@ -882,7 +883,7 @@ export const baseBooksApi: BaseBook[] = [
   {
     title: 'Le bazar du zèbre à pois',
     author: 'Kyan Khojandi',
-    coverUrl: '',
+    coverUrl: 'https://m.media-amazon.com/images/I/61UMtuL760L.jpg',
     pages: 0,
     genre: [],
     saga: '',
@@ -896,7 +897,8 @@ export const baseBooksApi: BaseBook[] = [
   {
     title: 'Une sirène à Paris',
     author: 'Katherine Pancol',
-    coverUrl: '',
+    coverUrl:
+      'https://static.fnac-static.com/multimedia/PE/Images/FR/NR/3c/f2/cd/13496892/1507-1/tsp20260325144501/Une-sirene-a-Paris.jpg',
     pages: 0,
     genre: [],
     saga: '',
@@ -910,7 +912,8 @@ export const baseBooksApi: BaseBook[] = [
   {
     title: 'Chats sur ordonnance',
     author: 'Éric-Emmanuel Schmitt',
-    coverUrl: '',
+    coverUrl:
+      'https://www.albin-michel.fr/sites/default/files/couvertures/albin/Article/Image/2024/9782226493460-j.jpg',
     pages: 0,
     genre: [],
     saga: '',
@@ -924,7 +927,7 @@ export const baseBooksApi: BaseBook[] = [
   {
     title: 'Rougemuraille tome 1',
     author: 'Brian Jacques',
-    coverUrl: '',
+    coverUrl: 'https://images.epagine.fr/813/9782740407813_1_75.jpg',
     pages: 0,
     genre: [],
     saga: 'Rougemuraille',
@@ -938,7 +941,8 @@ export const baseBooksApi: BaseBook[] = [
   {
     title: 'Rougemuraille tome 2',
     author: 'Brian Jacques',
-    coverUrl: '',
+    coverUrl:
+      'https://cdn.cultura.com/cdn-cgi/image/width=830/media/pim/TITELIVE/4_9782740408728_1_75.jpg',
     pages: 0,
     genre: [],
     saga: 'Rougemuraille',
@@ -952,7 +956,8 @@ export const baseBooksApi: BaseBook[] = [
   {
     title: 'Rougemuraille tome 3',
     author: 'Brian Jacques',
-    coverUrl: '',
+    coverUrl:
+      'https://cdn.cultura.com/cdn-cgi/image/width=830/media/pim/TITELIVE/14_9782740409060_1_75.jpg',
     pages: 0,
     genre: [],
     saga: 'Rougemuraille',
@@ -966,7 +971,8 @@ export const baseBooksApi: BaseBook[] = [
   {
     title: 'Rougemuraille tome 4',
     author: 'Brian Jacques',
-    coverUrl: '',
+    coverUrl:
+      'https://cdn.cultura.com/cdn-cgi/image/width=830/media/pim/TITELIVE/48_9782740411605_1_75.jpg',
     pages: 0,
     genre: [],
     saga: 'Rougemuraille',
@@ -980,7 +986,7 @@ export const baseBooksApi: BaseBook[] = [
   {
     title: 'Rougemuraille tome 5',
     author: 'Brian Jacques',
-    coverUrl: '',
+    coverUrl: 'https://img.livraddict.com/covers/201/201176/couv2662841.jpg',
     pages: 0,
     genre: [],
     saga: 'Rougemuraille',
@@ -994,7 +1000,8 @@ export const baseBooksApi: BaseBook[] = [
   {
     title: 'Rougemuraille tome 6',
     author: 'Brian Jacques',
-    coverUrl: '',
+    coverUrl:
+      'https://m.media-amazon.com/images/I/51YT65PRT8L._AC_UF1000,1000_QL80_.jpg',
     pages: 0,
     genre: [],
     saga: 'Rougemuraille',
@@ -1008,7 +1015,8 @@ export const baseBooksApi: BaseBook[] = [
   {
     title: 'La librairie disparue',
     author: 'Éva Sallés',
-    coverUrl: '',
+    coverUrl:
+      'https://cdn.cultura.com/cdn-cgi/image/width=830/media/pim/TITELIVE/30_9782824638881_1_75.jpg',
     pages: 0,
     genre: [],
     saga: '',
@@ -1582,7 +1590,7 @@ export const baseBooksApi: BaseBook[] = [
   {
     title: 'Le club des 5 heures du mat',
     author: 'Robin Sharma',
-    coverUrl: '',
+    coverUrl: 'https://m.media-amazon.com/images/I/61giBqj52GL.jpg',
     pages: 0,
     genre: [],
     saga: '',
@@ -1596,7 +1604,8 @@ export const baseBooksApi: BaseBook[] = [
   {
     title: 'Le royaume de Tobin, tome 1',
     author: 'Lynn Flewelling',
-    coverUrl: '',
+    coverUrl:
+      'https://cdn1.booknode.com/book_cover/265/full/le-royaume-de-tobin-tome-1-les-jumeaux-264751.jpg',
     pages: 0,
     genre: [],
     saga: 'Le royaume de Tobin',
@@ -1610,7 +1619,7 @@ export const baseBooksApi: BaseBook[] = [
   {
     title: 'Le royaume de Tobin, tome 2',
     author: 'Lynn Flewelling',
-    coverUrl: '',
+    coverUrl: 'https://www.le-livre.fr/photos/R20/R200072481.jpg',
     pages: 0,
     genre: [],
     saga: 'Le royaume de Tobin',
@@ -1624,7 +1633,8 @@ export const baseBooksApi: BaseBook[] = [
   {
     title: 'Le royaume de Tobin, tome 3',
     author: 'Lynn Flewelling',
-    coverUrl: '',
+    coverUrl:
+      'https://m.media-amazon.com/images/I/718MbYAEt4L._AC_UF1000,1000_QL80_.jpg',
     pages: 0,
     genre: [],
     saga: 'Le royaume de Tobin',
@@ -1638,7 +1648,8 @@ export const baseBooksApi: BaseBook[] = [
   {
     title: 'Le royaume de Tobin, tome 4',
     author: 'Lynn Flewelling',
-    coverUrl: '',
+    coverUrl:
+      'https://products-images.di-static.com/image/flewelling-lynn-le-royaume-de-tobin-tome-4-la-revelation/9782857049593-475x500-1.webp',
     pages: 0,
     genre: [],
     saga: 'Le royaume de Tobin',
@@ -1652,7 +1663,8 @@ export const baseBooksApi: BaseBook[] = [
   {
     title: 'Le royaume de Tobin, tome 5',
     author: 'Lynn Flewelling',
-    coverUrl: '',
+    coverUrl:
+      'https://m.media-amazon.com/images/I/51a1HklvmmL._AC_UF1000,1000_QL80_.jpg',
     pages: 0,
     genre: [],
     saga: 'Le royaume de Tobin',
@@ -1666,7 +1678,8 @@ export const baseBooksApi: BaseBook[] = [
   {
     title: 'Le royaume de Tobin, tome 6',
     author: 'Lynn Flewelling',
-    coverUrl: '',
+    coverUrl:
+      'https://fr.shopping.rakuten.com/pictures/01996604-8de6-7ce3-906c-5835bb310fb7.jpg',
     pages: 0,
     genre: [],
     saga: 'Le royaume de Tobin',
@@ -1680,7 +1693,8 @@ export const baseBooksApi: BaseBook[] = [
   {
     title: 'La couronne des 7 royaumes, tome 1',
     author: 'David B. Coe',
-    coverUrl: '',
+    coverUrl:
+      'https://m.media-amazon.com/images/I/61p7QjgA8uL._UF1000,1000_QL80_.jpg',
     pages: 0,
     genre: [],
     saga: 'La couronne des 7 royaumes',
@@ -1694,7 +1708,8 @@ export const baseBooksApi: BaseBook[] = [
   {
     title: 'La couronne des 7 royaumes, tome 2',
     author: 'David B. Coe',
-    coverUrl: '',
+    coverUrl:
+      'https://m.media-amazon.com/images/I/61ggFiebMoL._UF1000,1000_QL80_.jpg',
     pages: 0,
     genre: [],
     saga: 'La couronne des 7 royaumes',
@@ -1708,7 +1723,8 @@ export const baseBooksApi: BaseBook[] = [
   {
     title: 'La couronne des 7 royaumes, tome 3',
     author: 'David B. Coe',
-    coverUrl: '',
+    coverUrl:
+      'https://m.media-amazon.com/images/I/61Q9a0x4nqL._UF1000,1000_QL80_.jpg',
     pages: 0,
     genre: [],
     saga: 'La couronne des 7 royaumes',
@@ -1722,7 +1738,8 @@ export const baseBooksApi: BaseBook[] = [
   {
     title: 'La couronne des 7 royaumes, tome 4',
     author: 'David B. Coe',
-    coverUrl: '',
+    coverUrl:
+      'https://m.media-amazon.com/images/I/61uq7asiktL._UF1000,1000_QL80_.jpg',
     pages: 0,
     genre: [],
     saga: 'La couronne des 7 royaumes',
@@ -1736,7 +1753,8 @@ export const baseBooksApi: BaseBook[] = [
   {
     title: 'La couronne des 7 royaumes, tome 5',
     author: 'David B. Coe',
-    coverUrl: '',
+    coverUrl:
+      'https://products-images.di-static.com/image/coe-david-b--la-couronne-des-7-royaumes-tome-5-les-fruits-de-la-vengeance/9782756400211-475x500-1.webp',
     pages: 0,
     genre: [],
     saga: 'La couronne des 7 royaumes',
@@ -1750,7 +1768,8 @@ export const baseBooksApi: BaseBook[] = [
   {
     title: 'La couronne des 7 royaumes, tome 6',
     author: 'David B. Coe',
-    coverUrl: '',
+    coverUrl:
+      'https://static.fnac-static.com/multimedia/PE/Images/FR/NR/aa/d7/1c/1890218/1507-1/tsp20250405073542/Le-Sang-des-traitres.jpg',
     pages: 0,
     genre: [],
     saga: 'La couronne des 7 royaumes',
@@ -1764,7 +1783,8 @@ export const baseBooksApi: BaseBook[] = [
   {
     title: 'La couronne des 7 royaumes, tome 7',
     author: 'David B. Coe',
-    coverUrl: '',
+    coverUrl:
+      'https://m.media-amazon.com/images/I/61Fj5tU3LVL._UF1000,1000_QL80_.jpg',
     pages: 0,
     genre: [],
     saga: 'La couronne des 7 royaumes',
@@ -1778,7 +1798,8 @@ export const baseBooksApi: BaseBook[] = [
   {
     title: 'La couronne des 7 royaumes, tome 8',
     author: 'David B. Coe',
-    coverUrl: '',
+    coverUrl:
+      'https://m.media-amazon.com/images/I/61zlUfuVsXL._UF1000,1000_QL80_.jpg',
     pages: 0,
     genre: [],
     saga: 'La couronne des 7 royaumes',
@@ -1792,7 +1813,8 @@ export const baseBooksApi: BaseBook[] = [
   {
     title: 'La couronne des 7 royaumes, tome 9',
     author: 'David B. Coe',
-    coverUrl: '',
+    coverUrl:
+      'https://static.fnac-static.com/multimedia/PE/Images/FR/NR/b2/16/22/2234034/1507-1/tsp20250405073725/L-Alliance-sacree.jpg',
     pages: 0,
     genre: [],
     saga: 'La couronne des 7 royaumes',
@@ -1806,7 +1828,8 @@ export const baseBooksApi: BaseBook[] = [
   {
     title: 'La couronne des 7 royaumes, tome 10',
     author: 'David B. Coe',
-    coverUrl: '',
+    coverUrl:
+      'https://m.media-amazon.com/images/I/61jll0-hJVL._UF1000,1000_QL80_.jpg',
     pages: 0,
     genre: [],
     saga: 'La couronne des 7 royaumes',
@@ -1820,7 +1843,7 @@ export const baseBooksApi: BaseBook[] = [
   {
     title: 'Le clan des otoris, tome 1',
     author: 'Lian Hearn',
-    coverUrl: '',
+    coverUrl: 'https://www.babelio.com/couv/CVT_36517_1704696.jpg',
     pages: 0,
     genre: [],
     saga: 'Le clan des Otori',
@@ -1834,7 +1857,8 @@ export const baseBooksApi: BaseBook[] = [
   {
     title: 'Le clan des otoris, tome 2',
     author: 'Lian Hearn',
-    coverUrl: '',
+    coverUrl:
+      'https://m.media-amazon.com/images/I/81z0O0WfWjL._AC_UF1000,1000_QL80_.jpg',
     pages: 0,
     genre: [],
     saga: 'Le clan des Otori',
@@ -1848,7 +1872,8 @@ export const baseBooksApi: BaseBook[] = [
   {
     title: 'Le clan des otoris, tome 3',
     author: 'Lian Hearn',
-    coverUrl: '',
+    coverUrl:
+      'https://m.media-amazon.com/images/I/91RSyZS8DYL._AC_UF1000,1000_QL80_.jpg',
     pages: 0,
     genre: [],
     saga: 'Le clan des Otori',
@@ -1862,7 +1887,7 @@ export const baseBooksApi: BaseBook[] = [
   {
     title: 'Les âmes vagabondes',
     author: 'Stephenie Meyer',
-    coverUrl: '',
+    coverUrl: 'https://m.media-amazon.com/images/I/712Wug-TmsL.jpg',
     pages: 0,
     genre: [],
     saga: '',
@@ -1876,7 +1901,8 @@ export const baseBooksApi: BaseBook[] = [
   {
     title: 'Il est grand temps de rallumer les étoiles',
     author: 'Virginie Grimaldi',
-    coverUrl: '',
+    coverUrl:
+      'https://m.media-amazon.com/images/I/71f1oCkdUtL._AC_UF1000,1000_QL80_.jpg',
     pages: 0,
     genre: [],
     saga: '',
@@ -1890,7 +1916,8 @@ export const baseBooksApi: BaseBook[] = [
   {
     title: 'La disparition de Stéphanie Mailer',
     author: 'Joël Dicker',
-    coverUrl: '',
+    coverUrl:
+      'https://m.media-amazon.com/images/I/81IZjgDwTuL._AC_UF1000,1000_QL80_.jpg',
     pages: 0,
     genre: [],
     saga: '',
@@ -1904,7 +1931,8 @@ export const baseBooksApi: BaseBook[] = [
   {
     title: "La maison de l'orchidée",
     author: 'Lucinda Riley',
-    coverUrl: '',
+    coverUrl:
+      'https://m.media-amazon.com/images/I/91LYDI7Lg0L._AC_UF1000,1000_QL80_.jpg',
     pages: 0,
     genre: [],
     saga: '',
@@ -1918,7 +1946,8 @@ export const baseBooksApi: BaseBook[] = [
   {
     title: 'Chroniques des temps Obscurs, tome 1',
     author: 'Michelle Paver',
-    coverUrl: '',
+    coverUrl:
+      'https://m.media-amazon.com/images/I/81IEQY8pv-L._AC_UF1000,1000_QL80_.jpg',
     pages: 0,
     genre: [],
     saga: 'Chroniques des temps Obscurs',
@@ -1932,7 +1961,8 @@ export const baseBooksApi: BaseBook[] = [
   {
     title: 'Chroniques des temps Obscurs, tome 2',
     author: 'Michelle Paver',
-    coverUrl: '',
+    coverUrl:
+      'https://m.media-amazon.com/images/I/91qUEVHwyfL._AC_UF1000,1000_QL80_.jpg',
     pages: 0,
     genre: [],
     saga: 'Chroniques des temps Obscurs',
@@ -1946,7 +1976,8 @@ export const baseBooksApi: BaseBook[] = [
   {
     title: 'James et la pêche géante',
     author: 'Roald Dahl',
-    coverUrl: '',
+    coverUrl:
+      'https://fr.web.img5.acsta.net/c_310_420/img/c7/b6/c7b67d31753ca615803d252ac927790d.jpg',
     pages: 0,
     genre: [],
     saga: '',

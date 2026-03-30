@@ -119,7 +119,7 @@ function main(): void {
 
   const genreByBookKey: Record<string, string> = {};
   for (const b of allBaseBooks) {
-    genreByBookKey[bookKey(b)] = b.genre || '';
+    genreByBookKey[bookKey(b)] = (b.genre || []).join(', ');
   }
 
   const genreByMovieKey: Record<string, string> = {};

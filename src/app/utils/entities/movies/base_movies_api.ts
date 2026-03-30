@@ -942,4 +942,56 @@ export const baseMoviesApi: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: 'États-Unis',
   },
+
+  {
+    title: 'Le Mystère Henri Pick',
+    director: 'Rémi Bezançon',
+    actors: [
+      {
+        name: 'Fabrice Luchini',
+      },
+      {
+        name: 'Camille Cottin',
+      },
+      {
+        name: 'Alice Isaaz',
+      },
+      {
+        name: 'Bastien Bouillon',
+      },
+    ],
+    coverUrl: '/movies_pictures/le_mystere_henri_pick.jpg',
+    releaseDate: '2019-03-06',
+    length: 100,
+    genre: 'Comédie dramatique',
+    saga: '',
+    description: '',
+    fromEntity: {
+      entityType: 'book',
+      title: 'Le mystère Henri Pick',
+      secondEntityKey: 'David Foenkinos',
+    },
+    countryOrigin: 'France',
+  },
+
+  {
+    title: "L'Épreuve d'amour",
+    director: 'Arnaud Sélignac',
+    actors: [
+      {
+        name: 'Fred Testot',
+      },
+      {
+        name: 'Marie-Josée Croze',
+      },
+    ],
+    coverUrl: '/movies_pictures/l_epreuve_d_amour.jpg',
+    releaseDate: '2017-11-22',
+    length: 89,
+    genre: 'Drame',
+    saga: '',
+    description: '',
+    fromEntity: null,
+    countryOrigin: 'France',
+  },
 ];
