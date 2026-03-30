@@ -156,6 +156,50 @@ export async function markBookAsReRead(
   }
 }
 
+/** Readlist : marque le livre comme commencé (readTimes = 0.5), reste dans la readlist. */
+export async function markReadlistBookAsStarted(
+  book: Book,
+  userId: string
+): Promise<boolean> {
+  try {
+    const response = await fetch(`${getApiBaseUrl()}/books`, {
+      method: 'POST',
+      headers: {
+        'Content-Type': 'application/json',
+      },
+      body: JSON.stringify({
+        userId,
+        title: book.title,
+        author: book.author,
+        rating: book.rating ?? 0,
+        readTimes: 0.5,
+        firstReadDate: book.firstReadDate ?? '',
+        lastReadDate: book.lastReadDate ?? '',
+        owned: book.owned ?? false,
+        borrowed: book.borrowed ?? '',
+        loaned: book.loaned ?? '',
+        readPriority: book.readPriority ?? 1,
+        wantToReadAgain: book.wantToReadAgain ?? false,
+        ratingComment: book.ratingComment ?? '',
+      }),
+    });
+
+    if (!response.ok) {
+      const payload = await response.json().catch(() => ({}));
+      console.warn(
+        'Échec du marquage « en cours de lecture » :',
+        payload?.error || response.statusText
+      );
+      return false;
+    }
+
+    return true;
+  } catch (error) {
+    console.warn('Erreur réseau lors du marquage « en cours de lecture ».', error);
+    return false;
+  }
+}
+
 export async function updateReadPriority(
   data: {
     book: Book;

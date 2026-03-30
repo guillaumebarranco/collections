@@ -37,6 +37,8 @@ export interface EntityCardRatingLabels {
   addToMyWishlist: string;
   /** « Tiens, j’ai déjà vu/lu/joué… » */
   addToMyDone: string;
+  /** Readlist livre : « J'ai commencé ce livre » (readTimes → 0.5). */
+  markStartedReading?: string;
 }
 @Component({
   selector: 'app-entity-card-rating-and-buttons',
@@ -57,6 +59,9 @@ export class EntityCardRatingAndButtonsComponent {
   /** Override optionnel des libellés par défaut (déduits de entityType). */
   @Input() labels: Partial<EntityCardRatingLabels> = {};
 
+  /** readTimes côté readlist (0 = pas commencé, 0.5 = en cours) — pour le bouton « J'ai commencé ». */
+  @Input() listReadTimes = 0;
+
   /** Afficher la paire de boutons « copier vers ma liste / déjà fait chez moi » (vue autre profil). */
   @Input() showAddToMyListActions = false;
   @Input() canAddToMyWishlist = false;
@@ -70,6 +75,7 @@ export class EntityCardRatingAndButtonsComponent {
   @Output() haveReReadClick = new EventEmitter<void>();
   @Output() addToMyWishlist = new EventEmitter<void>();
   @Output() addToMyDone = new EventEmitter<void>();
+  @Output() startedReadingClick = new EventEmitter<void>();
 
   showAddToListButton = computed(() => {
     if (this.entityData?.alreadySeenRead) {
@@ -81,8 +87,7 @@ export class EntityCardRatingAndButtonsComponent {
         this.getReadViewNameForType(this.entityData?.entityType) &&
       this.selectedView !==
         this.getReReadViewNameForType(this.entityData?.entityType) &&
-      this.selectedView !==
-        this.getListViewNameForType(this.entityData?.entityType) &&
+      !this.isReadlistLikeView() &&
       this.selectedView !==
         this.getOwnedViewNameForType(this.entityData?.entityType)
     );
@@ -112,9 +117,19 @@ export class EntityCardRatingAndButtonsComponent {
     return this.getListViewNameForType(this.entityData?.entityType);
   }
 
+  /** Livres : readlist ou « En cours » ; autres entités : vue liste habituelle. */
+  isReadlistLikeView(): boolean {
+    const t = this.entityData?.entityType;
+    const v = this.selectedView;
+    if (t === 'book') {
+      return v === 'readlist' || v === 'readingInProgress';
+    }
+    return v === this.listViewName;
+  }
+
   /** True quand la vue courante est la vue liste (readlist, watchlist, gamelist). */
   get isReadlistView(): boolean {
-    return this.selectedView === this.listViewName;
+    return this.isReadlistLikeView();
   }
 
   get effectiveLabels(): EntityCardRatingLabels {
@@ -151,6 +166,7 @@ export class EntityCardRatingAndButtonsComponent {
           haveReRead: "J'ai relu ce livre",
           addToMyWishlist: 'Je veux lire ce livre',
           addToMyDone: "Tiens, j'ai déjà lu ce livre !",
+          markStartedReading: "J'ai commencé ce livre",
         };
       case 'manga':
         return {
@@ -347,5 +363,17 @@ export class EntityCardRatingAndButtonsComponent {
 
   onAddToMyDoneClick(): void {
     this.addToMyDone.emit();
+  }
+
+  onStartedReadingClick(): void {
+    this.startedReadingClick.emit();
+  }
+
+  get showMarkStartedReadingButton(): boolean {
+    return (
+      this.entityData?.entityType === 'book' &&
+      this.selectedView === 'readlist' &&
+      this.listReadTimes === 0
+    );
   }
 }

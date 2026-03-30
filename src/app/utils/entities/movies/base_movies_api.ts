@@ -716,8 +716,7 @@ export const baseMoviesApi: BaseMovie[] = [
         name: 'Franck Dubosc',
       },
     ],
-    coverUrl:
-      '/movies_pictures/78bc8801b843.jpg',
+    coverUrl: '/movies_pictures/78bc8801b843.jpg',
     releaseDate: '2005-01-19',
     length: 95,
     genre: 'Comédie',
@@ -851,8 +850,7 @@ export const baseMoviesApi: BaseMovie[] = [
         name: "Mark O'Brien",
       },
     ],
-    coverUrl:
-      '/movies_pictures/d5bf1c5e8a97.jpg',
+    coverUrl: '/movies_pictures/d5bf1c5e8a97.jpg',
     releaseDate: '2019-08-21',
     length: 95,
     genre: 'Horreur, Thriller',
@@ -875,8 +873,7 @@ export const baseMoviesApi: BaseMovie[] = [
         name: 'Karen Gillan',
       },
     ],
-    coverUrl:
-      '/movies_pictures/5cc3ec3ae765.jpg',
+    coverUrl: '/movies_pictures/5cc3ec3ae765.jpg',
     releaseDate: '2024-09-06',
     length: 111,
     genre: 'Drame, Fantastique',
@@ -960,7 +957,8 @@ export const baseMoviesApi: BaseMovie[] = [
         name: 'Bastien Bouillon',
       },
     ],
-    coverUrl: '/movies_pictures/le_mystere_henri_pick.jpg',
+    coverUrl:
+      'https://fr.web.img3.acsta.net/c_310_420/pictures/19/01/08/16/11/5107965.jpg',
     releaseDate: '2019-03-06',
     length: 100,
     genre: 'Comédie dramatique',
@@ -985,7 +983,8 @@ export const baseMoviesApi: BaseMovie[] = [
         name: 'Marie-Josée Croze',
       },
     ],
-    coverUrl: '/movies_pictures/l_epreuve_d_amour.jpg',
+    coverUrl:
+      'https://optimale.fr/wp-content/uploads/2021/01/l-epreuve-d-amour-cover.jpg',
     releaseDate: '2017-11-22',
     length: 89,
     genre: 'Drame',

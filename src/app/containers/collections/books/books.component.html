@@ -257,7 +257,10 @@
         <app-book
           [book]="book"
           [showTopFiveSelector]="showTopFiveRank()"
-          [isReadlistView]="selectedView() === 'readlist'"
+          [isReadlistView]="
+            selectedView() === 'readlist' ||
+            selectedView() === 'readingInProgress'
+          "
           [selectedView]="selectedView()"
           [isInReadlist]="bookAlreadyInUserReadlist(book)"
           [topFiveRank]="getTopFiveRank(book)"
@@ -266,6 +269,7 @@
           [canAddAsRead]="canAddBookToMyRead(book)"
           (editRequested)="openEditBookDialog(book)"
           (readPriorityUpdated)="updateReadPriority($event)"
+          (readlistStartedReading)="onReadlistStartedReading($event)"
           (readlistMarkedAsRead)="onReadlistMarkedAsRead($event)"
           (topFiveRankChange)="onTopFiveRankChange(book, $event)"
           (wantToReRead)="markBookAsWantToReRead($event)"
@@ -370,7 +374,7 @@
         Recommandations
       </label>
       <p class="books-config-hint">
-        "Lus" et "À lire" restent affichés par défaut.
+        « Lus », « À lire » et « En cours » restent affichés par défaut.
       </p>
     </div>
   </div>

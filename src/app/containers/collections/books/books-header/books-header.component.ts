@@ -70,13 +70,17 @@ export class BooksHeaderComponent {
   searchTerm = signal<string>('');
 
   addBooksButtonLabel = computed(() =>
-    this.selectedView() === 'readlist'
+    this.selectedView() === 'readlist' ||
+    this.selectedView() === 'readingInProgress'
       ? 'Ajouter des livres à lire'
       : 'Ajouter des livres lus'
   );
 
   canShowAddBooksButton = computed(
-    () => this.selectedView() === 'read' || this.selectedView() === 'readlist'
+    () =>
+      this.selectedView() === 'read' ||
+      this.selectedView() === 'readlist' ||
+      this.selectedView() === 'readingInProgress'
   );
 
   canShowUpdateBooksRatingButton = computed(
@@ -91,13 +95,17 @@ export class BooksHeaderComponent {
     () =>
       this.selectedView() === 'read' ||
       this.selectedView() === 'readlist' ||
+      this.selectedView() === 'readingInProgress' ||
       this.selectedView() === 'owned'
   );
 
   canShowTopFiveRankButton = computed(() => this.selectedView() === 'read');
 
   canShowSortDropdown = computed(
-    () => this.selectedView() === 'read' || this.selectedView() === 'readlist'
+    () =>
+      this.selectedView() === 'read' ||
+      this.selectedView() === 'readlist' ||
+      this.selectedView() === 'readingInProgress'
   );
 
   canShowFiltersAndSearch = computed(
@@ -106,6 +114,7 @@ export class BooksHeaderComponent {
       (this.searchTerm() !== '' &&
         (this.selectedView() === 'read' ||
           this.selectedView() === 'readlist' ||
+          this.selectedView() === 'readingInProgress' ||
           this.selectedView() === 'toReRead' ||
           this.selectedView() === 'owned' ||
           this.selectedView() === 'recommendations'))
@@ -121,6 +130,8 @@ export class BooksHeaderComponent {
         return "Vous n'avez renseigné aucun livre lu";
       case 'readlist':
         return 'Vous n\'avez marqué aucun livre comme "à lire". Vous pouvez le faire via le bouton au-dessus.';
+      case 'readingInProgress':
+        return "Vous n'avez aucun livre en cours de lecture. Depuis « À lire », utilisez « J'ai commencé ce livre » sur un titre.";
       case 'toReRead':
         return 'Vous n\'avez marqué aucun livre comme "à relire". Vous pouvez vous rendre sur vos livres lus et en cliquant sur le bouton d\'edit d\'un livre, le marqué comme "à relire".';
       case 'owned':
@@ -150,6 +161,8 @@ export class BooksHeaderComponent {
   booksPageTitle = computed(() =>
     this.selectedView() === 'readlist'
       ? 'Livres à lire'
+      : this.selectedView() === 'readingInProgress'
+      ? 'Livres en cours de lecture'
       : this.selectedView() === 'owned'
       ? 'Livres possédés'
       : this.selectedView() === 'borrowed'

@@ -84,6 +84,7 @@ export interface UserBook extends MandatoryBookData {
   firstReadDate: string;
   lastReadDate: string;
   rating: number;
+  /** Readlist : 0 = à lire, 0.5 = en cours de lecture, ≥1 = lu (nombre de lectures). */
   readTimes?: number;
   owned: boolean;
   readPriority: 1 | 2 | 3;

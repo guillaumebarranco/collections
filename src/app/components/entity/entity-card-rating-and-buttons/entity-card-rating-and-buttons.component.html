@@ -33,6 +33,15 @@
       }
     </div>
   </div>
+  @if (showMarkStartedReadingButton) {
+  <button
+    type="button"
+    class="makya-btn-small"
+    (click)="onStartedReadingClick()"
+  >
+    {{ effectiveLabels.markStartedReading }}
+  </button>
+  }
   <button type="button" class="makya-btn-small" (click)="onAddFromList()">
     {{ effectiveLabels.addFromList }}
   </button>
@@ -43,7 +52,7 @@
   } @else {
   <span class="recommendation-text">{{ effectiveLabels.alreadyInList }}</span>
   } } @if ( !hideWantToReReadButton && selectedView !== reReadViewName &&
-  selectedView !== listViewName && entityData.alreadySeenRead ) { @if
+  !isReadlistView && entityData.alreadySeenRead ) { @if
   (!wantToReRead) {
   <button type="button" class="makya-btn-small" (click)="onWantToReReadClick()">
     {{ effectiveLabels.wantToReRead }}

@@ -7,6 +7,7 @@ function bookGenreSortKey(genre: string[]): string {
 export type BookView =
   | 'read'
   | 'readlist'
+  | 'readingInProgress'
   | 'owned'
   | 'borrowed'
   | 'loaned'
@@ -16,7 +17,10 @@ export type BookView =
   | 'countries'
   | 'recommendations';
 
-export type OptionalBookView = Exclude<BookView, 'read' | 'readlist'>;
+export type OptionalBookView = Exclude<
+  BookView,
+  'read' | 'readlist' | 'readingInProgress'
+>;
 
 export const booksSortOptions: { value: string; label: string }[] = [
   { value: 'title', label: 'Titre (A-Z)' },
@@ -48,6 +52,7 @@ export const yearFilterOptions: { value: string; label: string }[] = [
 export const bookViewOptions: { value: BookView; label: string }[] = [
   { value: 'read', label: 'Lus' },
   { value: 'readlist', label: 'À lire' },
+  { value: 'readingInProgress', label: 'En cours' },
   { value: 'toReRead', label: 'À relire' },
   { value: 'owned', label: 'Possédés' },
   { value: 'borrowed', label: 'Livres empruntés' },

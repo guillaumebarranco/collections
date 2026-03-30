@@ -64,6 +64,7 @@ import {
   markBookAsWantToReRead as markBookAsWantToReReadApi,
   markBookAsReRead as markBookAsReReadApi,
   updateReadPriority as updateReadPriorityApi,
+  markReadlistBookAsStarted as markReadlistBookAsStartedApi,
 } from './books.controller';
 import { isLocalhost } from '../../../core/config';
 import { BookUpdateFollowUpModalComponent } from '../../../components/modals/book-update-follow-up-modal/book-update-follow-up-modal.component';
@@ -265,6 +266,13 @@ export class BooksComponent implements OnInit {
   }
 
   /** Après readlist → lu : rafraîchit les listes puis modale félicitations / badges (profil affiché = le vôtre). */
+  async onReadlistStartedReading(book: Book): Promise<void> {
+    const ok = await markReadlistBookAsStartedApi(book, this.getActiveUserId());
+    if (ok) {
+      await this.refreshBooks();
+    }
+  }
+
   async onReadlistMarkedAsRead(book: Book): Promise<void> {
     await this.refreshBooks();
     if (this.isViewingOtherProfile()) return;
@@ -288,6 +296,7 @@ export class BooksComponent implements OnInit {
   private loadParamsFromUrl(queryParams: Params) {
     if (
       queryParams['view'] === 'readlist' ||
+      queryParams['view'] === 'readingInProgress' ||
       queryParams['view'] === 'read' ||
       queryParams['view'] === 'owned' ||
       queryParams['view'] === 'borrowed' ||
@@ -339,7 +348,11 @@ export class BooksComponent implements OnInit {
   }
 
   private isViewOptionVisible(view: BookView): boolean {
-    if (view === 'read' || view === 'readlist') {
+    if (
+      view === 'read' ||
+      view === 'readlist' ||
+      view === 'readingInProgress'
+    ) {
       return true;
     }
     return this.optionalViewConfig()[view];
@@ -417,7 +430,13 @@ export class BooksComponent implements OnInit {
   filteredBooks = computed<Book[]>(() => {
     let books: Book[] = this.allBooks();
     if (this.selectedView() === 'readlist') {
-      books = this.allReadlistBooks();
+      books = this.allReadlistBooks().filter(
+        (b) => (b.readTimes ?? 0) !== 0.5
+      );
+    } else if (this.selectedView() === 'readingInProgress') {
+      books = this.allReadlistBooks().filter(
+        (b) => (b.readTimes ?? 0) === 0.5
+      );
     } else if (this.selectedView() === 'owned') {
       books = this.allBooks().filter((book) => book.owned);
     } else if (this.selectedView() === 'borrowed') {
@@ -555,7 +574,8 @@ export class BooksComponent implements OnInit {
   });
 
   sortedBooks = computed(() =>
-    this.selectedView() === 'readlist'
+    this.selectedView() === 'readlist' ||
+    this.selectedView() === 'readingInProgress'
       ? getSortedBooks([...this.filteredBooksByYear()], 'readPriority')
       : getSortedBooks([...this.filteredBooksByYear()], this.selectedSort())
   );
@@ -567,7 +587,8 @@ export class BooksComponent implements OnInit {
     const totalPagesRead = getTotalPagesRead(booksToUse);
 
     const estimatedReadingTime =
-      this.selectedView() === 'readlist'
+      this.selectedView() === 'readlist' ||
+      this.selectedView() === 'readingInProgress'
         ? formatTimeStats(totalPages * MINUTES_PER_PAGE)
         : getEstimatedReadingTime(booksToUse);
 
@@ -580,7 +601,10 @@ export class BooksComponent implements OnInit {
       },
     ];
 
-    if (this.selectedView() !== 'readlist') {
+    if (
+      this.selectedView() !== 'readlist' &&
+      this.selectedView() !== 'readingInProgress'
+    ) {
       return [
         ...stats,
         {
@@ -953,7 +977,7 @@ export class BooksComponent implements OnInit {
     const alreadyRead = this.connectedUserBooks().some(
       (b) =>
         this.getBookIdentityKey(b) === key &&
-        Boolean(b.readTimes && b.readTimes > 0)
+        (b.readTimes ?? 0) >= 1
     );
     return !inReadlist && !alreadyRead;
   }
@@ -964,7 +988,7 @@ export class BooksComponent implements OnInit {
     const alreadyRead = this.connectedUserBooks().some(
       (b) =>
         this.getBookIdentityKey(b) === key &&
-        Boolean(b.readTimes && b.readTimes > 0)
+        (b.readTimes ?? 0) >= 1
     );
     return !alreadyRead;
   }

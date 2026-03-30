@@ -71,6 +71,8 @@ export class BookComponent {
     book: any;
     priority: number;
   }>();
+  /** Readlist : marqué « en cours » (readTimes 0.5), API OK. */
+  @Output() readlistStartedReading = new EventEmitter<Book>();
   /** Après passage readlist → lu (API OK). */
   @Output() readlistMarkedAsRead = new EventEmitter<Book>();
   @Output() wantToReRead = new EventEmitter<Book>();
@@ -87,6 +89,10 @@ export class BookComponent {
     this.editRequested.emit();
   }
 
+  onStartedReadingClick(): void {
+    this.readlistStartedReading.emit(this.book);
+  }
+
   onTopFiveSelect(event: Event): void {
     const value = (event.target as HTMLSelectElement).value;
     this.topFiveRankChange.emit(
@@ -101,7 +107,7 @@ export class BookComponent {
 
   getEntityData(): EntityCardEntityData {
     return {
-      alreadySeenRead: !!(this.book.readTimes && this.book.readTimes > 0),
+      alreadySeenRead: (this.book.readTimes ?? 0) >= 1,
       alreadyInList: this.isInReadlist,
       rating: this.book.rating ?? 0,
       hasRatingComment: !!this.book.ratingComment,
