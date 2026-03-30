@@ -2245,4 +2245,18 @@ export const baseBooks: BaseBook[] = [
     description: '',
     countryOrigin: 'Royaume-Uni',
   },
+  {
+    title: 'Le Talentueux M. Ripley',
+    author: 'Patricia Highsmith',
+    coverUrl:
+      'https://m.media-amazon.com/images/I/71b2nuVlrwL._UF1000,1000_QL80_.jpg',
+    pages: 272,
+    genre: 'Thriller',
+    saga: '',
+    sagaOrder: 0,
+    sagaFinished: false,
+    releaseDate: '1955-01-01',
+    description: '',
+    countryOrigin: 'États-Unis',
+  },
 ];

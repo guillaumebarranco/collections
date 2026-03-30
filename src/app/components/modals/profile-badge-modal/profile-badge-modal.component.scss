@@ -1,0 +1,80 @@
+.profile-badge-modal__content {
+  min-width: min(100%, 420px);
+  max-width: 520px;
+}
+
+.profile-badge-modal__intro {
+  margin: 0 0 1rem;
+  font-size: 0.95rem;
+  line-height: 1.45;
+  color: rgba(0, 0, 0, 0.75);
+}
+
+.profile-badge-modal__empty {
+  margin: 0;
+  padding: 1rem 0;
+  color: rgba(0, 0, 0, 0.6);
+}
+
+.profile-badge-modal__grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(100px, 1fr));
+  gap: 12px;
+  margin-bottom: 1rem;
+}
+
+.profile-badge-modal__card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 8px;
+  padding: 10px;
+  border: 2px solid transparent;
+  border-radius: 10px;
+  background: rgba(255, 255, 255, 0.9);
+  cursor: pointer;
+  transition: border-color 0.2s ease, box-shadow 0.2s ease;
+
+  &:hover {
+    border-color: rgba(102, 126, 234, 0.6);
+  }
+
+  &:focus-visible {
+    outline: 2px solid #667eea;
+    outline-offset: 2px;
+  }
+}
+
+.profile-badge-modal__card--selected {
+  border-color: #667eea;
+  box-shadow: 0 0 0 2px rgba(102, 126, 234, 0.25);
+}
+
+.profile-badge-modal__img {
+  width: 64px;
+  height: 64px;
+  object-fit: contain;
+}
+
+.profile-badge-modal__name {
+  font-size: 0.75rem;
+  text-align: center;
+  line-height: 1.25;
+  color: #333;
+}
+
+.profile-badge-modal__reset {
+  margin-top: 0.5rem;
+}
+
+.profile-badge-modal__error {
+  margin: 0.75rem 0 0;
+  color: #b00020;
+  font-size: 0.875rem;
+}
+
+mat-dialog-actions {
+  display: flex;
+  gap: 8px;
+  align-items: center;
+}

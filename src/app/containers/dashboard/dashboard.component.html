@@ -312,6 +312,17 @@
       <p class="badges-intro">
         Débloquez des badges en lisant, regardant et notant vos œuvres.
       </p>
+      @if (isOwnUserDashboard()) {
+      <div class="badges-profile-action">
+        <button
+          type="button"
+          class="makya-btn makya-btn--secondary"
+          (click)="openProfileBadgeModal()"
+        >
+          Modifier mon badge de profil
+        </button>
+      </div>
+      }
       <div class="badges-grid">
         @for (badge of userBadges(); track badge.id) {
         <div

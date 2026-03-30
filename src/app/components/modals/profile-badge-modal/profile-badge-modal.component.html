@@ -1,0 +1,43 @@
+<h2 mat-dialog-title>Badge de profil</h2>
+<mat-dialog-content class="profile-badge-modal__content">
+  <p class="profile-badge-modal__intro">
+    Choisissez un badge débloqué pour l’afficher à la place de l’icône
+    utilisateur dans le menu.
+  </p>
+  @if (earnedBadges().length === 0) {
+  <p class="profile-badge-modal__empty">
+    Vous n’avez encore aucun badge débloqué.
+  </p>
+  } @else {
+  <div class="profile-badge-modal__grid">
+    @for (badge of earnedBadges(); track badge.id) {
+    <button
+      type="button"
+      class="profile-badge-modal__card"
+      [class.profile-badge-modal__card--selected]="selectedId() === badge.id"
+      (click)="selectBadge(badge.id)"
+    >
+      <img
+        [src]="badge.image"
+        [alt]="badge.name"
+        class="profile-badge-modal__img"
+      />
+      <span class="profile-badge-modal__name">{{ badge.name }}</span>
+    </button>
+    }
+  </div>
+  } @if (errorMessage()) {
+  <p class="profile-badge-modal__error" role="alert">{{ errorMessage() }}</p>
+  }
+</mat-dialog-content>
+<mat-dialog-actions align="end">
+  <button type="button" class="makya-btn" (click)="cancel()">Annuler</button>
+  <button
+    type="button"
+    class="makya-btn"
+    (click)="confirm()"
+    [disabled]="saving()"
+  >
+    Enregistrer
+  </button>
+</mat-dialog-actions>

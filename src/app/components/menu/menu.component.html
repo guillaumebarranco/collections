@@ -101,7 +101,17 @@
           type="button"
           (click)="toggleUserMenu()"
         >
-          <span class="menu-user-mobile">👤</span>
+          @if (profileBadgeAvatarUrl(); as avatarUrl) {
+          <img
+            [src]="avatarUrl"
+            alt=""
+            class="menu-user-avatar"
+            width="28"
+            height="28"
+          />
+          } @else {
+          <span class="menu-user-mobile" aria-hidden="true">👤</span>
+          }
           <span class="menu-user-username">{{ authenticatedUser() }}</span>
           <span class="menu-caret">▾</span>
         </button>

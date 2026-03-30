@@ -89,6 +89,10 @@ import {
   type FollowsModalData,
 } from '../../components/modals/follows-modal/follows-modal.component';
 import { FeaturesModalComponent } from '../../components/modals/features-modal/features-modal.component';
+import {
+  ProfileBadgeModalComponent,
+  type ProfileBadgeModalData,
+} from '../../components/modals/profile-badge-modal/profile-badge-modal.component';
 import { FollowsService } from '../../services/follows.service';
 import { FeedService } from '../../services/feed.service';
 import { ImpersonateService } from '../../services/impersonate.service';
@@ -100,6 +104,7 @@ import {
 } from '../../utils/top-five.utils';
 import { getBadgesDisplay, type BadgeDisplay } from '../../utils/users/badges';
 import { BadgesService } from '../../services/badges.service';
+import { ProfileBadgeService } from '../../services/profile-badge.service';
 
 interface TopBook extends Book {
   formattedReadingTime: string;
@@ -151,6 +156,7 @@ export class DashboardComponent implements OnInit {
   authService = inject(AuthService);
   topFiveService = inject(TopFiveService);
   badgesService = inject(BadgesService);
+  profileBadgeService = inject(ProfileBadgeService);
   private readonly dialog = inject(MatDialog);
   private readonly followsService = inject(FollowsService);
   private readonly feedService = inject(FeedService);
@@ -796,6 +802,16 @@ export class DashboardComponent implements OnInit {
     });
   }
 
+  openProfileBadgeModal(): void {
+    const uid = this.authService.getAuthenticatedUserId();
+    if (!uid) return;
+    this.dialog.open(ProfileBadgeModalComponent, {
+      width: '480px',
+      maxWidth: '95vw',
+      data: { userId: uid } satisfies ProfileBadgeModalData,
+    });
+  }
+
   goToOwnDashboard(): void {
     this.impersonateService.clearImpersonation();
     const ownId = this.authService.getAuthenticatedUserId();
@@ -822,6 +838,7 @@ export class DashboardComponent implements OnInit {
   ngOnInit() {
     this.topFiveService.loadFromStorage();
     this.badgesService.loadFromStorage();
+    this.profileBadgeService.loadFromStorage();
   }
 
   private loadAllDashboardData(): void {

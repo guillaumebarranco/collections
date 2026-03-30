@@ -166,6 +166,10 @@
   font-size: 0.9rem;
 }
 
+.badges-profile-action {
+  margin-bottom: 16px;
+}
+
 .badges-grid {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));

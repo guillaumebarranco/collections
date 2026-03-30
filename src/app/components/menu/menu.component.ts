@@ -4,6 +4,7 @@ import {
   HostListener,
   inject,
   computed,
+  effect,
 } from '@angular/core';
 import { ActivatedRoute, Params, Router, RouterModule } from '@angular/router';
 import { CommonModule } from '@angular/common';
@@ -13,6 +14,8 @@ import { DEFAULT_USER_ID } from '../../utils/constants';
 import { MenuConfigService } from '../../core/menu-config.service';
 import { MenuConfigModalComponent } from '../modals/menu-config-modal/menu-config-modal.component';
 import { ImpersonateService } from '../../services/impersonate.service';
+import { ProfileBadgeService } from '../../services/profile-badge.service';
+import { getBadgeDefinitionById } from '../../utils/users/badges';
 
 @Component({
   selector: 'app-menu',
@@ -34,6 +37,7 @@ export class MenuComponent implements OnInit {
   authService = inject(AuthService);
   menuConfig = inject(MenuConfigService);
   impersonateService = inject(ImpersonateService);
+  profileBadgeService = inject(ProfileBadgeService);
   private readonly dialog = inject(MatDialog);
 
   /** Utilisateur dont on affiche le contexte (impersonation ou route ou connecté). */
@@ -55,6 +59,17 @@ export class MenuComponent implements OnInit {
   authenticatedUser = computed(() => {
     const userId = this.authService.userId();
     return userId ? this.capitalizeFirstLetter(userId) : '';
+  });
+
+  /** Image du badge choisi comme avatar (utilisateur connecté uniquement). */
+  profileBadgeAvatarUrl = computed(() => {
+    const uid = this.authService.userId();
+    if (!uid) return null;
+    this.profileBadgeService.cache();
+    const badgeId = this.profileBadgeService.getProfileBadgeId(uid);
+    if (!badgeId) return null;
+    const def = getBadgeDefinitionById(badgeId);
+    return def?.image ?? null;
   });
 
   capitalizeFirstLetter(val: string) {
@@ -89,8 +104,18 @@ export class MenuComponent implements OnInit {
     { label: 'Quizz', icon: '🎯', key: 'quizzs', hideOnMobile: false, group: 'extras' },
   ];
 
+  constructor() {
+    effect(() => {
+      const uid = this.authService.userId();
+      if (uid) {
+        void this.profileBadgeService.loadFromApi(uid);
+      }
+    });
+  }
+
   ngOnInit() {
     this.checkScreenSize();
+    this.profileBadgeService.loadFromStorage();
   }
 
   getRoute(route: string): string {
