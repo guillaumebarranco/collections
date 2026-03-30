@@ -12,6 +12,24 @@ const {
 } = require('../../utils/movies/movies-utils');
 const { isAdminUser, loadUsers } = require('../../utils/users/users-utils');
 
+/** Payload passé à updateMovieInFile (champs optionnels seulement si présents dans le body). */
+interface SaveMovieUserPayload {
+  title: string;
+  director: string;
+  rating: number | undefined;
+  timesWatched: number | undefined;
+  firstViewedDate: string | undefined;
+  lastViewedDate: string | undefined;
+  seenAtCinema: boolean | undefined;
+  owned: boolean | undefined;
+  wantToSeeAgain: boolean | undefined;
+  watchPriority: number | undefined;
+  ratingComment?: string;
+  inList?: string[];
+  borrowed?: string;
+  loaned?: string;
+}
+
 const router = express.Router();
 
 router.post('/', (req: any, res: any) => {
@@ -31,7 +49,7 @@ router.post('/', (req: any, res: any) => {
       return;
     }
 
-    const payload: Record<string, unknown> = {
+    const payload: SaveMovieUserPayload = {
       title,
       director,
       rating: normalizeNumber(input.rating, 'rating'),
