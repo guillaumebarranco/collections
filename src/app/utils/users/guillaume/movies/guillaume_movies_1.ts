@@ -2491,4 +2491,21 @@ export const guillaumeMoviesPage1: UserMovies = [
     borrowed: '',
     loaned: '',
   },
+
+  {
+    title: "Mission : Impossible - Protocole Fantôme",
+    director: "Brad Bird",
+    rating: 3.5,
+    timesWatched: 1,
+    firstViewedDate: "2026-03-30",
+    lastViewedDate: "2026-03-30",
+    seenAtCinema: false,
+    owned: false,
+    wantToSeeAgain: false,
+    watchPriority: 1,
+    ratingComment: "",
+    inList: [],
+    borrowed: "",
+    loaned: "",
+  },
 ];

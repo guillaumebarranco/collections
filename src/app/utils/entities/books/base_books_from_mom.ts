@@ -1789,7 +1789,7 @@ export const baseBooksFromMom: BaseBook[] = [
     author: 'René Barjavel',
     coverUrl: '/books_pictures/bcdf3e58c5d5.jpg',
     pages: 288,
-    genre: ['Science-fiction'],
+    genre: ['Science Fiction'],
     saga: '',
     sagaOrder: 0,
     sagaFinished: false,

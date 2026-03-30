@@ -539,21 +539,27 @@ function updateMovieInFile(content: string, payload: any) {
             'watchPriority',
             payload.watchPriority
           );
-          updated = upsertField(
-            updated,
-            'ratingComment',
-            payload.ratingComment ?? ''
-          );
-          updated = upsertInListField(
-            updated,
-            Array.isArray(payload.inList) ? payload.inList : []
-          );
-          updated = upsertField(
-            updated,
-            'borrowed',
-            payload.borrowed ?? ''
-          );
-          updated = upsertField(updated, 'loaned', payload.loaned ?? '');
+          // Ne mettre à jour ces champs que si le payload les fournit (évite d’effacer
+          // prêt/emprunt, commentaires et listes lors d’updates partiels, ex. POST /movies/batch-rating).
+          if (payload.ratingComment !== undefined) {
+            updated = upsertField(
+              updated,
+              'ratingComment',
+              payload.ratingComment ?? ''
+            );
+          }
+          if (payload.inList !== undefined) {
+            updated = upsertInListField(
+              updated,
+              Array.isArray(payload.inList) ? payload.inList : []
+            );
+          }
+          if (payload.borrowed !== undefined) {
+            updated = upsertField(updated, 'borrowed', payload.borrowed ?? '');
+          }
+          if (payload.loaned !== undefined) {
+            updated = upsertField(updated, 'loaned', payload.loaned ?? '');
+          }
 
           return (
             content.slice(0, objectStart) +

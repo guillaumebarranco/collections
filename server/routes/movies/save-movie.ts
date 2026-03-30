@@ -31,7 +31,7 @@ router.post('/', (req: any, res: any) => {
       return;
     }
 
-    const payload = {
+    const payload: Record<string, unknown> = {
       title,
       director,
       rating: normalizeNumber(input.rating, 'rating'),
@@ -45,14 +45,20 @@ router.post('/', (req: any, res: any) => {
       owned: normalizeBoolean(input.owned, 'owned'),
       wantToSeeAgain: normalizeBoolean(input.wantToSeeAgain, 'wantToSeeAgain'),
       watchPriority: normalizeNumber(input.watchPriority, 'watchPriority'),
-      ratingComment:
-        normalizeString(input.ratingComment, 'ratingComment') ?? '',
-      inList: Array.isArray(input.inList)
-        ? input.inList.filter((s: any) => typeof s === 'string')
-        : [],
-      borrowed: normalizeString(input.borrowed, 'borrowed') ?? '',
-      loaned: normalizeString(input.loaned, 'loaned') ?? '',
     };
+    if (Object.prototype.hasOwnProperty.call(input, 'ratingComment')) {
+      payload.ratingComment =
+        normalizeString(input.ratingComment, 'ratingComment') ?? '';
+    }
+    if (Array.isArray(input.inList)) {
+      payload.inList = input.inList.filter((s: any) => typeof s === 'string');
+    }
+    if (Object.prototype.hasOwnProperty.call(input, 'borrowed')) {
+      payload.borrowed = normalizeString(input.borrowed, 'borrowed') ?? '';
+    }
+    if (Object.prototype.hasOwnProperty.call(input, 'loaned')) {
+      payload.loaned = normalizeString(input.loaned, 'loaned') ?? '';
+    }
 
     const entityPayload = input.entity || null;
     const entityOnly = Boolean(input.entityOnly);

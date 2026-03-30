@@ -6,26 +6,20 @@ export interface MandatoryBookData {
 }
 
 export type BookGenre =
-  | 'Jeunesse'
-  | 'Aventure'
   | 'Science Fiction'
   | 'Fantasy'
   | 'Romance'
+  | 'Policier'
+  | 'Nonfiction'
   | 'Thriller'
+  | 'Jeunesse'
+  | 'Aventure'
   | 'Classiques'
   | 'Dark Romance'
-  | 'Enquête'
   | 'Horreur'
-  | 'Nonfiction'
-  | 'Science-fiction'
-  | 'Polar'
-  | 'Enfant'
-  | 'Fiction'
-  | 'Roman'
-  | 'Policier'
   | 'Dystopie'
-  | 'Action'
   | 'Théâtre'
+  | 'Fiction'
   | 'Fiction historique'
   | 'Poésie'
   | 'Conte'
@@ -34,26 +28,20 @@ export type BookGenre =
 
 /** Liste ordonnée des genres (alignée sur {@link BookGenre}) pour les formulaires. */
 export const BOOK_GENRE_OPTIONS: readonly BookGenre[] = [
-  'Jeunesse',
-  'Aventure',
   'Science Fiction',
   'Fantasy',
   'Romance',
+  'Policier',
+  'Nonfiction',
   'Thriller',
+  'Jeunesse',
+  'Aventure',
   'Classiques',
   'Dark Romance',
-  'Enquête',
   'Horreur',
-  'Nonfiction',
-  'Science-fiction',
-  'Polar',
-  'Enfant',
-  'Fiction',
-  'Roman',
-  'Policier',
   'Dystopie',
-  'Action',
   'Théâtre',
+  'Fiction',
   'Fiction historique',
   'Poésie',
   'Conte',
