@@ -64,14 +64,17 @@ export class SeriesHeaderComponent {
   searchTerm = signal<string>('');
 
   addSeriesButtonLabel = computed(() =>
-    this.selectedView() === 'watchlist'
+    this.selectedView() === 'watchlist' ||
+    this.selectedView() === 'watchingInProgress'
       ? 'Ajouter des séries à voir'
       : 'Ajouter une série'
   );
 
   canShowAddSeriesButton = computed(
     () =>
-      this.selectedView() === 'finished' || this.selectedView() === 'watchlist'
+      this.selectedView() === 'finished' ||
+      this.selectedView() === 'watchlist' ||
+      this.selectedView() === 'watchingInProgress'
   );
 
   canShowUpdateSeriesRatingButton = computed(
@@ -86,6 +89,7 @@ export class SeriesHeaderComponent {
     () =>
       this.selectedView() === 'finished' ||
       this.selectedView() === 'watchlist' ||
+      this.selectedView() === 'watchingInProgress' ||
       this.selectedView() === 'owned'
   );
 
@@ -93,7 +97,9 @@ export class SeriesHeaderComponent {
 
   canShowSortDropdown = computed(
     () =>
-      this.selectedView() === 'finished' || this.selectedView() === 'watchlist'
+      this.selectedView() === 'finished' ||
+      this.selectedView() === 'watchlist' ||
+      this.selectedView() === 'watchingInProgress'
   );
 
   canShowFiltersAndSearch = computed(
@@ -102,6 +108,7 @@ export class SeriesHeaderComponent {
       (this.searchTerm() !== '' &&
         (this.selectedView() === 'finished' ||
           this.selectedView() === 'watchlist' ||
+          this.selectedView() === 'watchingInProgress' ||
           this.selectedView() === 'toReWatch' ||
           this.selectedView() === 'owned' ||
           this.selectedView() === 'recommendations'))
@@ -117,6 +124,8 @@ export class SeriesHeaderComponent {
         return "Vous n'avez renseigné aucune série terminée";
       case 'watchlist':
         return 'Vous n\'avez marqué aucune série comme "à voir". Vous pouvez le faire via le bouton au-dessus.';
+      case 'watchingInProgress':
+        return "Vous n'avez aucune série en cours de visionnage. Depuis « Séries à voir », utilisez « J'ai commencé cette série » sur un titre.";
       case 'toReWatch':
         return 'Vous n\'avez marqué aucune série comme "à revoir". Rendez-vous sur vos séries terminées et éditez une fiche pour la marquer comme "à revoir".';
       case 'owned':
@@ -148,6 +157,8 @@ export class SeriesHeaderComponent {
   seriesPageTitle = computed(() =>
     this.selectedView() === 'watchlist'
       ? 'Séries à voir'
+      : this.selectedView() === 'watchingInProgress'
+      ? 'Séries en cours de visionnage'
       : this.selectedView() === 'owned'
       ? 'Séries possédées'
       : this.selectedView() === 'borrowed'

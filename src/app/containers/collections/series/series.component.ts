@@ -34,6 +34,8 @@ import { normalizeSearchText } from '../../../utils/normalize-search-text';
 import {
   getSerieTotalLengthMinutes,
   getSerieWatchedLengthMinutes,
+  isSerieFinishedWithNewSeasonInProgress,
+  isSerieWatchlistInProgress,
 } from '../../../utils/series.utils';
 import { ActivatedRoute, Params, Router, RouterLink } from '@angular/router';
 import {
@@ -55,6 +57,8 @@ import {
   markSerieAsReWatched as markSerieAsReWatchedApi,
   addSerieToWatchlist as addSerieToWatchlistApi,
   addSerieAsWatched as addSerieAsWatchedApi,
+  markWatchlistSerieAsStarted as markWatchlistSerieAsStartedApi,
+  markWatchedSerieNextSeasonAsStarted as markWatchedSerieNextSeasonAsStartedApi,
 } from './series.controller';
 import { AuthService } from '../../../core/auth.service';
 import { MatDialog, MatDialogModule } from '@angular/material/dialog';
@@ -176,17 +180,57 @@ export class SeriesComponent implements OnInit {
       : this.watchingSeriesList()[DEFAULT_USER_ID];
   });
 
+  /** Vues « vues / sagas / … » : afficher le bouton « nouvelle saison » si applicable. */
+  showNewSeasonStartedAction = computed(() => {
+    const v = this.selectedView();
+    return (
+      v !== 'watchlist' &&
+      v !== 'watchingInProgress' &&
+      v !== 'recommendations'
+    );
+  });
+
   /** True si l'utilisateur a des items dans la vue courante (affiche stats, filtres, recherche). */
-  showFiltersAndSearch = computed(() =>
-    this.selectedView() === 'watchlist'
-      ? this.allWatchlistSeries().length > 0
-      : this.allSeries().length > 0
-  );
+  showFiltersAndSearch = computed(() => {
+    const v = this.selectedView();
+    if (v === 'watchlist') {
+      return this.allWatchlistSeries().length > 0;
+    }
+    if (v === 'watchingInProgress') {
+      const wl = this.allWatchlistSeries().filter((s) =>
+        isSerieWatchlistInProgress(s)
+      );
+      const hy = this.allSeries().filter((s) =>
+        isSerieFinishedWithNewSeasonInProgress(s)
+      );
+      return wl.length + hy.length > 0;
+    }
+    return this.allSeries().length > 0;
+  });
 
   filteredSeries = computed<Serie[]>(() => {
     let series: Serie[] = [];
     if (this.selectedView() === 'watchlist') {
-      series = this.allWatchlistSeries();
+      series = this.allWatchlistSeries().filter(
+        (s) => !isSerieWatchlistInProgress(s)
+      );
+    } else if (this.selectedView() === 'watchingInProgress') {
+      const keyFn = (s: Serie) => `${s.title}|${s.director}`;
+      const fromWatchlist = this.allWatchlistSeries().filter((s) =>
+        isSerieWatchlistInProgress(s)
+      );
+      const fromWatched = this.allSeries().filter((s) =>
+        isSerieFinishedWithNewSeasonInProgress(s)
+      );
+      const seen = new Set<string>();
+      series = [...fromWatchlist, ...fromWatched].filter((s) => {
+        const k = keyFn(s);
+        if (seen.has(k)) {
+          return false;
+        }
+        seen.add(k);
+        return true;
+      });
     } else if (this.selectedView() === 'owned') {
       series = this.allSeries().filter((serie) => serie.owned);
     } else if (this.selectedView() === 'borrowed') {
@@ -237,7 +281,8 @@ export class SeriesComponent implements OnInit {
   });
 
   sortedSeries = computed<Serie[]>(() =>
-    this.selectedView() === 'watchlist'
+    this.selectedView() === 'watchlist' ||
+    this.selectedView() === 'watchingInProgress'
       ? getSortedSeries([...this.filteredSeries()], 'watchPriority')
       : getSortedSeries([...this.filteredSeries()], this.selectedSort())
   );
@@ -288,7 +333,11 @@ export class SeriesComponent implements OnInit {
   }
 
   private isViewOptionVisible(view: SerieView): boolean {
-    if (view === 'finished' || view === 'watchlist') {
+    if (
+      view === 'finished' ||
+      view === 'watchlist' ||
+      view === 'watchingInProgress'
+    ) {
       return true;
     }
     return this.optionalViewConfig()[view];
@@ -372,6 +421,26 @@ export class SeriesComponent implements OnInit {
     } else {
       this.connectedUserSeries.set([]);
       this.connectedUserWatchlist.set([]);
+    }
+  }
+
+  async onWatchlistStartedWatching(serie: Serie): Promise<void> {
+    const ok = await markWatchlistSerieAsStartedApi(
+      serie,
+      this.getActiveUserId()
+    );
+    if (ok) {
+      await this.refreshSeries();
+    }
+  }
+
+  async onFinishedSerieNewSeasonStarted(serie: Serie): Promise<void> {
+    const ok = await markWatchedSerieNextSeasonAsStartedApi(
+      serie,
+      this.getActiveUserId()
+    );
+    if (ok) {
+      await this.refreshSeries();
     }
   }
 

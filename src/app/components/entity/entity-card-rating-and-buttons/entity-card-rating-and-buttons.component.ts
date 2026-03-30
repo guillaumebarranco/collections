@@ -39,6 +39,8 @@ export interface EntityCardRatingLabels {
   addToMyDone: string;
   /** Readlist livre : « J'ai commencé ce livre » (readTimes → 0.5). */
   markStartedReading?: string;
+  /** Série vue : « J'ai commencé une nouvelle saison » (saison N+1 → 0.5). */
+  markStartedNewSeason?: string;
 }
 @Component({
   selector: 'app-entity-card-rating-and-buttons',
@@ -62,6 +64,12 @@ export class EntityCardRatingAndButtonsComponent {
   /** readTimes côté readlist (0 = pas commencé, 0.5 = en cours) — pour le bouton « J'ai commencé ». */
   @Input() listReadTimes = 0;
 
+  /** Watchlist série : toutes les saisons à seasonTimesWatched 0 — affiche « J'ai commencé cette série ». */
+  @Input() watchlistSerieNotStarted = false;
+
+  /** Série fichier vus : nouvelle saison dispo, affiche « J'ai commencé une nouvelle saison ». */
+  @Input() showMarkNewSeasonButton = false;
+
   /** Afficher la paire de boutons « copier vers ma liste / déjà fait chez moi » (vue autre profil). */
   @Input() showAddToMyListActions = false;
   @Input() canAddToMyWishlist = false;
@@ -76,6 +84,7 @@ export class EntityCardRatingAndButtonsComponent {
   @Output() addToMyWishlist = new EventEmitter<void>();
   @Output() addToMyDone = new EventEmitter<void>();
   @Output() startedReadingClick = new EventEmitter<void>();
+  @Output() startedNewSeasonClick = new EventEmitter<void>();
 
   showAddToListButton = computed(() => {
     if (this.entityData?.alreadySeenRead) {
@@ -117,12 +126,15 @@ export class EntityCardRatingAndButtonsComponent {
     return this.getListViewNameForType(this.entityData?.entityType);
   }
 
-  /** Livres : readlist ou « En cours » ; autres entités : vue liste habituelle. */
+  /** Livres : readlist ou « En cours » ; séries : watchlist ou « En cours ». */
   isReadlistLikeView(): boolean {
     const t = this.entityData?.entityType;
     const v = this.selectedView;
     if (t === 'book') {
       return v === 'readlist' || v === 'readingInProgress';
+    }
+    if (t === 'serie') {
+      return v === 'watchlist' || v === 'watchingInProgress';
     }
     return v === this.listViewName;
   }
@@ -239,6 +251,8 @@ export class EntityCardRatingAndButtonsComponent {
           haveReRead: "J'ai revu cette série",
           addToMyWishlist: 'Je veux voir cette série',
           addToMyDone: "Tiens, j'ai déjà vu cette série !",
+          markStartedReading: "J'ai commencé cette série",
+          markStartedNewSeason: "J'ai commencé une nouvelle saison",
         };
       default:
         return {
@@ -369,11 +383,19 @@ export class EntityCardRatingAndButtonsComponent {
     this.startedReadingClick.emit();
   }
 
+  onStartedNewSeasonClick(): void {
+    this.startedNewSeasonClick.emit();
+  }
+
   get showMarkStartedReadingButton(): boolean {
-    return (
-      this.entityData?.entityType === 'book' &&
-      this.selectedView === 'readlist' &&
-      this.listReadTimes === 0
-    );
+    if (this.entityData?.entityType === 'book') {
+      return this.selectedView === 'readlist' && this.listReadTimes === 0;
+    }
+    if (this.entityData?.entityType === 'serie') {
+      return (
+        this.selectedView === 'watchlist' && this.watchlistSerieNotStarted
+      );
+    }
+    return false;
   }
 }

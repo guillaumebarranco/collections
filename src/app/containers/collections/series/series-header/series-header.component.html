@@ -30,7 +30,9 @@
         class="makya-btn-small"
         [routerLink]="getSelectSeriesRoute()"
         [queryParams]="{
-          watchlist: selectedView() === 'watchlist',
+          watchlist:
+            selectedView() === 'watchlist' ||
+            selectedView() === 'watchingInProgress',
           add: 'true'
         }"
         title="Ajouter une série"

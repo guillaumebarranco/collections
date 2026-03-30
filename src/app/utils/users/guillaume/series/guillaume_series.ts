@@ -3069,25 +3069,25 @@ export const guillaumeSeries: UserSeries = [
     title: 'Fallout',
     director: 'Geneva Robertson-Dworet, Graham Wagner',
     seasons: [
-      {
-        seasonNumber: 1,
-        seasonRating: 3.5,
-        seasonTimesWatched: 1,
-        lastViewedDate: '2026-02-10',
-      },
-      {
-        seasonNumber: 2,
-        seasonRating: 0,
-        seasonTimesWatched: 0,
-        lastViewedDate: '',
-      },
-    ],
+    {
+      seasonNumber: 1,
+      seasonRating: 3.5,
+      seasonTimesWatched: 1,
+      lastViewedDate: "2026-02-10",
+    },
+    {
+      seasonNumber: 2,
+      seasonRating: 0,
+      seasonTimesWatched: 0.5,
+      lastViewedDate: "",
+    }
+  ],
     owned: false,
     watchPriority: 1,
     wantToWatchAgain: false,
-    ratingComment: '',
-    borrowed: '',
-    loaned: '',
+    ratingComment: "",
+    borrowed: "",
+    loaned: "",
   },
   {
     title: "La vie secrète d'un ado ordinaire",

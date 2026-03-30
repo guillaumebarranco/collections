@@ -79,6 +79,8 @@
       [recommendationBadge]="recommendationBadge"
       [showRating]="false"
       [selectedView]="selectedView"
+      [watchlistSerieNotStarted]="watchlistSerieNotStarted()"
+      [showMarkNewSeasonButton]="showMarkNewSeasonButton()"
       [showAddToMyListActions]="showAddToMyWatchlist"
       [canAddToMyWishlist]="canAddToMyWatchlist"
       [canAddToMyDone]="canAddAsWatched"
@@ -90,6 +92,8 @@
       (haveReReadClick)="haveReWatched.emit(serie)"
       (addToMyWishlist)="addToMyWatchlist.emit(serie)"
       (addToMyDone)="addToMyWatched.emit(serie)"
+      (startedReadingClick)="onStartedWatchingClick()"
+      (startedNewSeasonClick)="onStartedNewSeasonClick()"
     >
       @if (!isBaseEntityView) {
       <div entityCardRatingExtra class="serie-seasons-details">
@@ -117,7 +121,9 @@
                 d="M12 5c5.05 0 9.27 3.11 11 7-1.73 3.89-5.95 7-11 7s-9.27-3.11-11-7c1.73-3.89 5.95-7 11-7zm0 2c-3.84 0-7.23 2.19-8.83 5 1.6 2.81 4.99 5 8.83 5s7.23-2.19 8.83-5c-1.6-2.81-4.99-5-8.83-5zm0 2.5a2.5 2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5z"
               />
             </svg>
-            {{ season.seasonTimesWatched }}
+            {{
+              season.seasonTimesWatched < 1 ? "0" : season.seasonTimesWatched
+            }}
           </span>
         </div>
         }

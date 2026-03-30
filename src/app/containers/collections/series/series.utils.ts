@@ -10,6 +10,7 @@ import {
 export type SerieView =
   | 'finished'
   | 'watchlist'
+  | 'watchingInProgress'
   | 'owned'
   | 'borrowed'
   | 'loaned'
@@ -18,7 +19,10 @@ export type SerieView =
   | 'countries'
   | 'recommendations';
 
-export type OptionalSerieView = Exclude<SerieView, 'finished' | 'watchlist'>;
+export type OptionalSerieView = Exclude<
+  SerieView,
+  'finished' | 'watchlist' | 'watchingInProgress'
+>;
 
 export const seriesSortOptions: { value: string; label: string }[] = [
   { value: 'title', label: 'Titre (A-Z)' },
@@ -40,6 +44,7 @@ export const seriesSortOptions: { value: string; label: string }[] = [
 export const serieViewOptions: { value: SerieView; label: string }[] = [
   { value: 'finished', label: 'Séries finies' },
   { value: 'watchlist', label: 'Séries à voir' },
+  { value: 'watchingInProgress', label: 'En cours' },
   { value: 'owned', label: 'Séries possédées' },
   { value: 'borrowed', label: 'Séries empruntées' },
   { value: 'loaned', label: 'Séries prêtées' },

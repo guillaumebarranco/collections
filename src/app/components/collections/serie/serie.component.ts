@@ -30,6 +30,10 @@ import { isBaseEntityView, getApiBaseUrl } from '../../../core/config';
 import { DEFAULT_USER_ID } from '../../../utils/constants';
 import { StarInfo } from '../../../models/various-model';
 import { getRatingStars } from '../../../utils/constants';
+import {
+  isSerieWatchlistNotStarted,
+  serieShowsNewSeasonStartedButton,
+} from '../../../utils/series.utils';
 
 @Component({
   selector: 'app-serie',
@@ -63,9 +67,15 @@ export class SerieComponent {
   @Input() showAddToMyWatchlist = false;
   @Input() canAddToMyWatchlist = false;
   @Input() canAddAsWatched = false;
+  /** Afficher l’action « nouvelle saison » (vues / sagas / pays, pas watchlist ni reco). */
+  @Input() showNewSeasonStartedAction = false;
   @Output() serieUpdated = new EventEmitter<void>();
   /** Après watchlist → vu (API OK). */
   @Output() watchlistMarkedAsWatched = new EventEmitter<Serie>();
+  /** Watchlist : marqué « en cours » (seasonTimesWatched 0.5 par saison), API OK. */
+  @Output() watchlistStartedWatching = new EventEmitter<Serie>();
+  /** Fichier vus : saison N+1 passée à 0.5, API OK. */
+  @Output() finishedSerieNewSeasonStarted = new EventEmitter<Serie>();
 
   @Output() addToWatchlist = new EventEmitter<Serie>();
   @Output() addToMyWatchlist = new EventEmitter<Serie>();
@@ -119,8 +129,12 @@ export class SerieComponent {
   }
 
   getEntityData(): EntityCardEntityData {
+    const seasons = this.serie.seasons ?? [];
+    const alreadySeenRead =
+      seasons.length > 0 &&
+      seasons.some((s) => (s.seasonTimesWatched ?? 0) >= 1);
     return {
-      alreadySeenRead: !!(this.serie.seasons && this.serie.seasons.length > 0),
+      alreadySeenRead,
       alreadyInList: this.isInWatchlist,
       rating: 0,
       hasRatingComment: !!this.serie.ratingComment,
@@ -196,6 +210,25 @@ export class SerieComponent {
 
   updateWatchPriority(priority: number): void {
     this.watchPriorityUpdated.emit({ serie: this.serie, priority });
+  }
+
+  onStartedWatchingClick(): void {
+    this.watchlistStartedWatching.emit(this.serie);
+  }
+
+  watchlistSerieNotStarted(): boolean {
+    return isSerieWatchlistNotStarted(this.serie);
+  }
+
+  showMarkNewSeasonButton(): boolean {
+    return (
+      this.showNewSeasonStartedAction &&
+      serieShowsNewSeasonStartedButton(this.serie)
+    );
+  }
+
+  onStartedNewSeasonClick(): void {
+    this.finishedSerieNewSeasonStarted.emit(this.serie);
   }
 
   addSerieFromWatchlist(): void {
