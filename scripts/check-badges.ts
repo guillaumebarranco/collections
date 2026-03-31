@@ -4,6 +4,10 @@
  *
  * À lancer manuellement : npm run check-badges
  * Les conditions doivent rester alignées avec les descriptions dans badges.ts.
+ * Pour les livres : les IDs doivent correspondre à `BOOKS_BADGE_DEFINITIONS` dans
+ * `src/app/utils/badges/books-badges.ts`.
+ * Pour les films : les IDs doivent correspondre à `MOVIES_BADGE_DEFINITIONS` dans
+ * `src/app/utils/badges/movies-badges.ts`.
  */
 
 const path = require('path');
@@ -46,95 +50,97 @@ type BadgeStats = {
   sagasFullyWatched: Set<string>;
 };
 
-/** Conditions des badges (alignées avec badges.ts). */
+/** Conditions des badges (alignées avec books-badges.ts, movies-badges.ts, games-badges). */
 const BADGE_CONDITIONS: Record<string, (stats: BadgeStats) => boolean> = {
-  // ——— Livres (général)
+  // ——— Livres (général) — books-badges.ts
   'petit-lecteur': (s) => s.booksRead >= 50,
   'graine-lecteur': (s) => s.booksRead >= 100,
   'lecteur-assidu': (s) => s.booksRead >= 150,
   'lecteur-chevronne': (s) => s.booksRead >= 200,
   'lecteur-passionne': (s) => s.booksRead >= 250,
   'lecteur-veteran': (s) => s.booksRead >= 300,
-  'maitre-lecteur': (s) => s.booksRead >= 400,
+  'rat-bibliotheque': (s) => s.booksRead >= 350,
+  'amoureux-lecture': (s) => s.booksRead >= 400,
+  'maitre-lecteur': (s) => s.booksRead >= 450,
   'doyen-lecteurs': (s) => s.booksRead >= 500,
-  // ——— Fantasy (livres) — aligné avec badges.ts (15, 30, 50, 80, 100)
-  'eleve-fantasy': (s) => s.booksFantasyRead >= 15,
-  'amoureux-fantasy': (s) => s.booksFantasyRead >= 30,
-  'chevalier-fantasy': (s) => s.booksFantasyRead >= 50,
-  'heros-fantasy': (s) => s.booksFantasyRead >= 80,
+  // ——— Fantasy (livres)
+  sorcelier: (s) => s.booksFantasyRead >= 15,
+  'demi-dieu': (s) => s.booksFantasyRead >= 30,
+  'reine-dragons': (s) => s.booksFantasyRead >= 50,
+  'elu-prophetie': (s) => s.booksFantasyRead >= 80,
   'seigneur-fantasy': (s) => s.booksFantasyRead >= 100,
-  // ——— Romance (livres) — aligné avec badges.ts (15, 30, 50, 80, 100)
+  // ——— Romance (livres)
   'petit-beguin-books': (s) => s.booksRomanceRead >= 15,
   'lover-books': (s) => s.booksRomanceRead >= 30,
-  'amoureux-books': (s) => s.booksRomanceRead >= 50,
-  'grand-amour-books': (s) => s.booksRomanceRead >= 80,
-  'amour-eternel-books': (s) => s.booksRomanceRead >= 100,
-  // ——— Science-fiction (livres) — aligné avec books-badges.ts (15, 30, 50, 80, 100)
-  'initie-science-fiction': (s) => s.booksScienceFictionRead >= 15,
-  'lecteur-science-fiction': (s) => s.booksScienceFictionRead >= 30,
-  'explorateur-science-fiction': (s) => s.booksScienceFictionRead >= 50,
-  'voyageur-science-fiction': (s) => s.booksScienceFictionRead >= 80,
-  'maitre-science-fiction': (s) => s.booksScienceFictionRead >= 100,
-  // ——— Policier (livres) — aligné avec books-badges.ts (15, 30, 50, 80, 100)
-  'lecteur-polar': (s) => s.booksPolicierRead >= 15,
-  'amateur-polars': (s) => s.booksPolicierRead >= 30,
-  'enqueteur-livres': (s) => s.booksPolicierRead >= 50,
-  'inspecteur-livres': (s) => s.booksPolicierRead >= 80,
-  'maitre-polar': (s) => s.booksPolicierRead >= 100,
-  // ——— Nonfiction (livres) — aligné avec books-badges.ts (15, 30, 50, 80, 100)
+  'ames-soeurs': (s) => s.booksRomanceRead >= 50,
+  'amour-a-travers-la-mort': (s) => s.booksRomanceRead >= 80,
+  'icone-romance': (s) => s.booksRomanceRead >= 100,
+  // ——— Science-fiction (livres)
+  'marche-vers-l-inconnu': (s) => s.booksScienceFictionRead >= 15,
+  'guerrier-omniscient': (s) => s.booksScienceFictionRead >= 30,
+  'explorateur-profondeurs': (s) => s.booksScienceFictionRead >= 50,
+  'survivant-invasion': (s) => s.booksScienceFictionRead >= 80,
+  'architecte-psychohistoire': (s) => s.booksScienceFictionRead >= 100,
+  // ——— Policier (livres)
+  'amateur-polars': (s) => s.booksPolicierRead >= 15,
+  'enqueteur-verite': (s) => s.booksPolicierRead >= 30,
+  'artiste-evasion': (s) => s.booksPolicierRead >= 50,
+  'maitre-mystere': (s) => s.booksPolicierRead >= 80,
+  'genie-deduction': (s) => s.booksPolicierRead >= 100,
+  // ——— Nonfiction (livres)
   'lecteur-curieux-nonfiction': (s) => s.booksNonfictionRead >= 15,
   'chercheur-savoir': (s) => s.booksNonfictionRead >= 30,
-  'amateur-reel': (s) => s.booksNonfictionRead >= 50,
-  'erudit-livres': (s) => s.booksNonfictionRead >= 80,
-  'sage-nonfiction': (s) => s.booksNonfictionRead >= 100,
-  // ——— Aventure (livres) — aligné avec books-badges.ts (15, 30, 50, 80, 100)
-  'petit-explorateur-aventure': (s) => s.booksAventureRead >= 15,
-  'aventurier-livres': (s) => s.booksAventureRead >= 30,
+  'precurseur-progres': (s) => s.booksNonfictionRead >= 50,
+  'icone-changement': (s) => s.booksNonfictionRead >= 80,
+  'sage-humanite': (s) => s.booksNonfictionRead >= 100,
+  // ——— Aventure (livres)
+  explorateur: (s) => s.booksAventureRead >= 15,
+  'moussaillon-flots': (s) => s.booksAventureRead >= 30,
   'grand-voyageur-livres': (s) => s.booksAventureRead >= 50,
-  'heros-aventure': (s) => s.booksAventureRead >= 80,
-  'legende-aventure': (s) => s.booksAventureRead >= 100,
+  'ubiquiste-monde': (s) => s.booksAventureRead >= 80,
+  'aventurier-legendaire': (s) => s.booksAventureRead >= 100,
   // ——— Films
   'cinephile-herbe': (s) => s.moviesWatched >= 100,
   'cinephile-amateur': (s) => s.moviesWatched >= 300,
   'cinephile-passionne': (s) => s.moviesWatched >= 500,
   'cinephile-devoué': (s) => s.moviesWatched >= 800,
   'cinephile-inconditionnel': (s) => s.moviesWatched >= 1000,
-  // ——— Romance (films)
-  'petit-beguin-movies': (s) => s.moviesRomanceWatched >= 50,
-  'lover-movies': (s) => s.moviesRomanceWatched >= 100,
-  'amoureux-movies': (s) => s.moviesRomanceWatched >= 150,
+  // ——— Romance (films) — movies-badges.ts
+  'amour-jeunesse': (s) => s.moviesRomanceWatched >= 50,
+  'un-amour-de-cinema': (s) => s.moviesRomanceWatched >= 100,
+  'passion-vacances': (s) => s.moviesRomanceWatched >= 150,
   'grand-amour-movies': (s) => s.moviesRomanceWatched >= 200,
   'amour-eternel-movies': (s) => s.moviesRomanceWatched >= 300,
-  // ——— Science-fiction (films)
-  'initie-scifi-movies': (s) => s.moviesScienceFictionWatched >= 50,
-  'lecteur-scifi-movies': (s) => s.moviesScienceFictionWatched >= 100,
-  'explorateur-scifi-movies': (s) => s.moviesScienceFictionWatched >= 150,
-  'voyageur-scifi-movies': (s) => s.moviesScienceFictionWatched >= 200,
-  'maitre-scifi-movies': (s) => s.moviesScienceFictionWatched >= 300,
-  // ——— Thriller (films)
-  'frisson-thriller-movies': (s) => s.moviesThrillerWatched >= 50,
-  'amateur-thriller-movies': (s) => s.moviesThrillerWatched >= 100,
-  'enqueteur-thriller-movies': (s) => s.moviesThrillerWatched >= 150,
-  'inspecteur-thriller-movies': (s) => s.moviesThrillerWatched >= 200,
-  'maitre-thriller-movies': (s) => s.moviesThrillerWatched >= 300,
-  // ——— Horreur (films)
-  'courage-horreur-movies': (s) => s.moviesHorreurWatched >= 50,
-  'amateur-horreur-movies': (s) => s.moviesHorreurWatched >= 100,
-  'survivant-horreur-movies': (s) => s.moviesHorreurWatched >= 150,
-  'chasseur-horreur-movies': (s) => s.moviesHorreurWatched >= 200,
+  // ——— Science-fiction (films) — movies-badges.ts
+  extraterrestre: (s) => s.moviesScienceFictionWatched >= 50,
+  'machine-du-futur': (s) => s.moviesScienceFictionWatched >= 100,
+  'elu-de-la-matrice': (s) => s.moviesScienceFictionWatched >= 150,
+  'voyageur-temporel': (s) => s.moviesScienceFictionWatched >= 200,
+  'maitre-galaxie': (s) => s.moviesScienceFictionWatched >= 300,
+  // ——— Thriller (films) — movies-badges.ts
+  'obsession-psychologique': (s) => s.moviesThrillerWatched >= 50,
+  'expert-tension': (s) => s.moviesThrillerWatched >= 100,
+  'fondateur-thriller': (s) => s.moviesThrillerWatched >= 150,
+  'maitre-suspense': (s) => s.moviesThrillerWatched >= 200,
+  'genie-manipulation': (s) => s.moviesThrillerWatched >= 300,
+  // ——— Horreur (films) — movies-badges.ts
+  'tout-ce-sang': (s) => s.moviesHorreurWatched >= 50,
+  'derriere-le-masque': (s) => s.moviesHorreurWatched >= 100,
+  'gardien-horreur': (s) => s.moviesHorreurWatched >= 150,
+  'terreur-autre-monde': (s) => s.moviesHorreurWatched >= 200,
   'maitre-horreur-movies': (s) => s.moviesHorreurWatched >= 300,
-  // ——— Comédie (films)
-  'sourire-comedie-movies': (s) => s.moviesComedieWatched >= 50,
-  'rire-comedie-movies': (s) => s.moviesComedieWatched >= 100,
-  'fou-rire-comedie-movies': (s) => s.moviesComedieWatched >= 150,
-  'comedien-comedie-movies': (s) => s.moviesComedieWatched >= 200,
-  'maitre-comedie-movies': (s) => s.moviesComedieWatched >= 300,
-  // ——— Action (films)
-  'recrue-action-movies': (s) => s.moviesActionWatched >= 50,
-  'soldat-action-movies': (s) => s.moviesActionWatched >= 100,
-  'commandant-action-movies': (s) => s.moviesActionWatched >= 150,
-  'elite-action-movies': (s) => s.moviesActionWatched >= 200,
-  'legende-action-movies': (s) => s.moviesActionWatched >= 300,
+  // ——— Comédie (films) — movies-badges.ts
+  'drole-de-gendarme': (s) => s.moviesComedieWatched >= 50,
+  'espion-blanquette': (s) => s.moviesComedieWatched >= 100,
+  'oh-le-con': (s) => s.moviesComedieWatched >= 150,
+  'sancho-de-cuba': (s) => s.moviesComedieWatched >= 200,
+  'architecte-humour': (s) => s.moviesComedieWatched >= 300,
+  // ——— Action (films) — movies-badges.ts
+  transporteur: (s) => s.moviesActionWatched >= 50,
+  'baba-yaga': (s) => s.moviesActionWatched >= 100,
+  'flic-new-york': (s) => s.moviesActionWatched >= 150,
+  veteran: (s) => s.moviesActionWatched >= 200,
+  'icone-action': (s) => s.moviesActionWatched >= 300,
   // ——— Films (sagas) — avoir vu tous les films de la saga
   'vengeurs-de-la-terre': (s) => s.sagasFullyWatched.has('Marvel Cinematic Universe'),
   'badges-des-trois-sorciers': (s) => s.sagasFullyWatched.has('Wizarding World'),
@@ -185,6 +191,18 @@ function countMoviesByGenre(
   }).length;
 }
 
+function countBooksByGenre(
+  books: Array<{ title: string; author: string }>,
+  genreByBookKey: Record<string, string>,
+  genreTokens: string[]
+): number {
+  const normalizedTokens = genreTokens.map((token) => normalizeGenreValue(token));
+  return books.filter((book) => {
+    const normalizedGenre = normalizeGenreValue(genreByBookKey[bookKey(book)] || '');
+    return normalizedTokens.some((token) => normalizedGenre.includes(token));
+  }).length;
+}
+
 function main(): void {
   // Import côté app (résolution au runtime)
   const { users } = require('../src/app/utils/users/users');
@@ -226,37 +244,20 @@ function main(): void {
     const movies = getLocalMoviesByUser(userId);
     const games = getLocalGamesByUser(userId);
 
-    const booksFantasyRead = books.filter(
-      (b: { title: string; author: string }) =>
-        (genreByBookKey[bookKey(b)] || '').toLowerCase().includes('fantasy')
-    ).length;
-
-    const booksRomanceRead = books.filter(
-      (b: { title: string; author: string }) =>
-        (genreByBookKey[bookKey(b)] || '').toLowerCase().includes('romance')
-    ).length;
-
-    const booksScienceFictionRead = books.filter(
-      (b: { title: string; author: string }) =>
-        (genreByBookKey[bookKey(b)] || '')
-          .toLowerCase()
-          .includes('science-fiction')
-    ).length;
-
-    const booksPolicierRead = books.filter(
-      (b: { title: string; author: string }) =>
-        (genreByBookKey[bookKey(b)] || '').toLowerCase().includes('policier')
-    ).length;
-
-    const booksNonfictionRead = books.filter(
-      (b: { title: string; author: string }) =>
-        (genreByBookKey[bookKey(b)] || '').toLowerCase().includes('nonfiction')
-    ).length;
-
-    const booksAventureRead = books.filter(
-      (b: { title: string; author: string }) =>
-        (genreByBookKey[bookKey(b)] || '').toLowerCase().includes('aventure')
-    ).length;
+    const booksFantasyRead = countBooksByGenre(books, genreByBookKey, ['fantasy']);
+    const booksRomanceRead = countBooksByGenre(books, genreByBookKey, ['romance']);
+    const booksScienceFictionRead = countBooksByGenre(books, genreByBookKey, [
+      'science-fiction',
+      'science fiction',
+      'scifi',
+      'sci fi',
+    ]);
+    const booksPolicierRead = countBooksByGenre(books, genreByBookKey, ['policier', 'polar']);
+    const booksNonfictionRead = countBooksByGenre(books, genreByBookKey, [
+      'nonfiction',
+      'non fiction',
+    ]);
+    const booksAventureRead = countBooksByGenre(books, genreByBookKey, ['aventure']);
 
     const moviesRomanceWatched = countMoviesByGenre(movies, genreByMovieKey, ['romance']);
     const moviesScienceFictionWatched = countMoviesByGenre(

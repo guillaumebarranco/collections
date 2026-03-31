@@ -2,7 +2,7 @@ import { BADGE_DEFINITIONS } from './users/badges';
 import type { Book } from '../models/book-model';
 import type { EntityBadgeProgressRow } from './entity-badge-progress.types';
 
-/** Paliers badges « nombre de livres lus » (ordre croissant, alignés sur badges.ts). */
+/** Paliers badges « nombre de livres lus » — aligné avec books-badges.ts. */
 export const READER_BOOK_TIERS: { id: string; threshold: number }[] = [
   { id: 'petit-lecteur', threshold: 50 },
   { id: 'graine-lecteur', threshold: 100 },
@@ -10,17 +10,19 @@ export const READER_BOOK_TIERS: { id: string; threshold: number }[] = [
   { id: 'lecteur-chevronne', threshold: 200 },
   { id: 'lecteur-passionne', threshold: 250 },
   { id: 'lecteur-veteran', threshold: 300 },
-  { id: 'maitre-lecteur', threshold: 400 },
+  { id: 'rat-bibliotheque', threshold: 350 },
+  { id: 'amoureux-lecture', threshold: 400 },
+  { id: 'maitre-lecteur', threshold: 450 },
   { id: 'doyen-lecteurs', threshold: 500 },
 ];
 
-/** Paliers badges « livres de romance lus ». */
+/** Paliers badges « livres de romance lus » — aligné avec books-badges.ts. */
 export const ROMANCE_BOOK_TIERS: { id: string; threshold: number }[] = [
   { id: 'petit-beguin-books', threshold: 15 },
   { id: 'lover-books', threshold: 30 },
-  { id: 'amoureux-books', threshold: 50 },
-  { id: 'grand-amour-books', threshold: 80 },
-  { id: 'amour-eternel-books', threshold: 100 },
+  { id: 'ames-soeurs', threshold: 50 },
+  { id: 'amour-a-travers-la-mort', threshold: 80 },
+  { id: 'icone-romance', threshold: 100 },
 ];
 
 function badgeMeta(id: string): { name: string; image: string } {

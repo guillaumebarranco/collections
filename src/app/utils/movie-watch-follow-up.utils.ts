@@ -13,11 +13,11 @@ export const CINEPHILE_MOVIE_TIERS: { id: string; threshold: number }[] = [
   { id: 'cinephile-inconditionnel', threshold: 1000 },
 ];
 
-/** Paliers badges « films de romance vus ». */
+/** Paliers badges « films de romance vus » — aligné avec movies-badges.ts. */
 export const ROMANCE_MOVIE_TIERS: { id: string; threshold: number }[] = [
-  { id: 'petit-beguin-movies', threshold: 50 },
-  { id: 'lover-movies', threshold: 100 },
-  { id: 'amoureux-movies', threshold: 150 },
+  { id: 'amour-jeunesse', threshold: 50 },
+  { id: 'un-amour-de-cinema', threshold: 100 },
+  { id: 'passion-vacances', threshold: 150 },
   { id: 'grand-amour-movies', threshold: 200 },
   { id: 'amour-eternel-movies', threshold: 300 },
 ];
