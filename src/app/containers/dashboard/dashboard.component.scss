@@ -270,6 +270,23 @@
       color: #94a3b8;
     }
   }
+
+  &__progress {
+    width: 100%;
+    max-width: 130px;
+    height: 8px;
+    border-radius: 4px;
+    background: rgba(0, 0, 0, 0.08);
+    overflow: hidden;
+    margin-top: 6px;
+  }
+
+  &__progress-fill {
+    height: 100%;
+    border-radius: 4px;
+    background: linear-gradient(90deg, #c62828, #ff7043);
+    transition: width 0.4s ease-out;
+  }
 }
 
 // Responsive

@@ -24,6 +24,10 @@ type BadgeStats = {
   booksRead: number;
   booksFantasyRead: number;
   booksRomanceRead: number;
+  booksScienceFictionRead: number;
+  booksPolicierRead: number;
+  booksNonfictionRead: number;
+  booksAventureRead: number;
   moviesWatched: number;
   moviesRomanceWatched: number;
   booksRated: number;
@@ -60,6 +64,30 @@ const BADGE_CONDITIONS: Record<string, (stats: BadgeStats) => boolean> = {
   'amoureux-books': (s) => s.booksRomanceRead >= 50,
   'grand-amour-books': (s) => s.booksRomanceRead >= 80,
   'amour-eternel-books': (s) => s.booksRomanceRead >= 100,
+  // ——— Science-fiction (livres) — aligné avec books-badges.ts (15, 30, 50, 80, 100)
+  'initie-science-fiction': (s) => s.booksScienceFictionRead >= 15,
+  'lecteur-science-fiction': (s) => s.booksScienceFictionRead >= 30,
+  'explorateur-science-fiction': (s) => s.booksScienceFictionRead >= 50,
+  'voyageur-science-fiction': (s) => s.booksScienceFictionRead >= 80,
+  'maitre-science-fiction': (s) => s.booksScienceFictionRead >= 100,
+  // ——— Policier (livres) — aligné avec books-badges.ts (15, 30, 50, 80, 100)
+  'lecteur-polar': (s) => s.booksPolicierRead >= 15,
+  'amateur-polars': (s) => s.booksPolicierRead >= 30,
+  'enqueteur-livres': (s) => s.booksPolicierRead >= 50,
+  'inspecteur-livres': (s) => s.booksPolicierRead >= 80,
+  'maitre-polar': (s) => s.booksPolicierRead >= 100,
+  // ——— Nonfiction (livres) — aligné avec books-badges.ts (15, 30, 50, 80, 100)
+  'lecteur-curieux-nonfiction': (s) => s.booksNonfictionRead >= 15,
+  'chercheur-savoir': (s) => s.booksNonfictionRead >= 30,
+  'amateur-reel': (s) => s.booksNonfictionRead >= 50,
+  'erudit-livres': (s) => s.booksNonfictionRead >= 80,
+  'sage-nonfiction': (s) => s.booksNonfictionRead >= 100,
+  // ——— Aventure (livres) — aligné avec books-badges.ts (15, 30, 50, 80, 100)
+  'petit-explorateur-aventure': (s) => s.booksAventureRead >= 15,
+  'aventurier-livres': (s) => s.booksAventureRead >= 30,
+  'grand-voyageur-livres': (s) => s.booksAventureRead >= 50,
+  'heros-aventure': (s) => s.booksAventureRead >= 80,
+  'legende-aventure': (s) => s.booksAventureRead >= 100,
   // ——— Films
   'cinephile-herbe': (s) => s.moviesWatched >= 100,
   'cinephile-amateur': (s) => s.moviesWatched >= 300,
@@ -152,6 +180,28 @@ function main(): void {
         (genreByBookKey[bookKey(b)] || '').toLowerCase().includes('romance')
     ).length;
 
+    const booksScienceFictionRead = books.filter(
+      (b: { title: string; author: string }) =>
+        (genreByBookKey[bookKey(b)] || '')
+          .toLowerCase()
+          .includes('science-fiction')
+    ).length;
+
+    const booksPolicierRead = books.filter(
+      (b: { title: string; author: string }) =>
+        (genreByBookKey[bookKey(b)] || '').toLowerCase().includes('policier')
+    ).length;
+
+    const booksNonfictionRead = books.filter(
+      (b: { title: string; author: string }) =>
+        (genreByBookKey[bookKey(b)] || '').toLowerCase().includes('nonfiction')
+    ).length;
+
+    const booksAventureRead = books.filter(
+      (b: { title: string; author: string }) =>
+        (genreByBookKey[bookKey(b)] || '').toLowerCase().includes('aventure')
+    ).length;
+
     const moviesRomanceWatched = movies.filter(
       (m: { title: string; director: string }) =>
         (genreByMovieKey[movieKey(m)] || '').toLowerCase().includes('romance')
@@ -177,6 +227,10 @@ function main(): void {
       booksRead: books.length,
       booksFantasyRead,
       booksRomanceRead,
+      booksScienceFictionRead,
+      booksPolicierRead,
+      booksNonfictionRead,
+      booksAventureRead,
       moviesWatched: movies.length,
       moviesRomanceWatched,
       booksRated: books.filter((b: { rating?: unknown }) => isRated(b.rating)).length,

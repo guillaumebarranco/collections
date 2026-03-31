@@ -346,8 +346,21 @@
               <span class="badge-card__status">Débloqué</span>
               } @else {
               <span class="badge-card__status badge-card__status--locked"
-                >À débloquer</span
+                >{{ getBadgeProgressText(badge.id) }}</span
               >
+              <div
+                class="badge-card__progress"
+                role="progressbar"
+                [attr.aria-valuenow]="getBadgeProgressPercent(badge.id)"
+                aria-valuemin="0"
+                aria-valuemax="100"
+                [attr.aria-label]="'Progression vers ' + badge.name"
+              >
+                <div
+                  class="badge-card__progress-fill"
+                  [style.width.%]="getBadgeProgressPercent(badge.id)"
+                ></div>
+              </div>
               }
             </div>
             }

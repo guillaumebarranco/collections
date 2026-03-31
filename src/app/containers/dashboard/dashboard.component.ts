@@ -55,6 +55,7 @@ import {
   getAllMovies,
   getAllWatchlistMovies,
 } from '../../facades/movies/movies.facade';
+import { allBaseMovies } from '../../facades/movies/local-movies.facade';
 import {
   getAllSeries,
   getAllWatchlistSeries,
@@ -456,6 +457,191 @@ export class DashboardComponent implements OnInit {
     ];
     return orderedGroups.filter((g) => g.badges.length > 0);
   });
+
+  private normalizeGenreValue(genre: unknown): string {
+    const raw = Array.isArray(genre)
+      ? genre.join(' ')
+      : String(genre ?? '');
+    return raw
+      .normalize('NFD')
+      .replace(/[\u0300-\u036f]/g, '')
+      .toLowerCase()
+      .replace(/[^a-z0-9]+/g, ' ')
+      .trim();
+  }
+
+  private countBooksByGenre(tokens: string[]): number {
+    return this.allBooks().filter((b) => {
+      const g = this.normalizeGenreValue((b as unknown as { genre?: unknown }).genre);
+      return tokens.some((token) => g.includes(this.normalizeGenreValue(token)));
+    }).length;
+  }
+
+  private countMoviesByGenre(tokens: string[]): number {
+    return this.allMovies().filter((m) => {
+      const g = this.normalizeGenreValue((m as unknown as { genre?: unknown }).genre);
+      return tokens.some((token) => g.includes(this.normalizeGenreValue(token)));
+    }).length;
+  }
+
+  private getWatchedSagaCount(sagaName: string): number {
+    const watched = new Set(
+      this.allMovies().map((m) => `${m.title}|${m.director}`)
+    );
+    const sagaMovies = allBaseMovies.filter(
+      (m) => (m.saga || '').trim() === sagaName
+    );
+    if (sagaMovies.length === 0) {
+      return 0;
+    }
+    return sagaMovies.filter((m) => watched.has(`${m.title}|${m.director}`)).length;
+  }
+
+  badgeProgressById = computed<Record<string, string>>(() => {
+    const books = this.allBooks().length;
+    const movies = this.allMovies().length;
+    const games = this.allGames().length;
+    const gamesFinished = this.allGames().filter((g) =>
+      (g.sessions || []).some((s) => s.finishedGame === true)
+    ).length;
+
+    const progress: Record<string, string> = {
+      // Livres (global)
+      'petit-lecteur': `${books}/50`,
+      'graine-lecteur': `${books}/100`,
+      'lecteur-assidu': `${books}/150`,
+      'lecteur-chevronne': `${books}/200`,
+      'lecteur-passionne': `${books}/250`,
+      'lecteur-veteran': `${books}/300`,
+      'maitre-lecteur': `${books}/400`,
+      'doyen-lecteurs': `${books}/500`,
+
+      // Livres par genre
+      'eleve-fantasy': `${this.countBooksByGenre(['fantasy'])}/15`,
+      'amoureux-fantasy': `${this.countBooksByGenre(['fantasy'])}/30`,
+      'chevalier-fantasy': `${this.countBooksByGenre(['fantasy'])}/50`,
+      'heros-fantasy': `${this.countBooksByGenre(['fantasy'])}/80`,
+      'seigneur-fantasy': `${this.countBooksByGenre(['fantasy'])}/100`,
+
+      'petit-beguin-books': `${this.countBooksByGenre(['romance'])}/15`,
+      'lover-books': `${this.countBooksByGenre(['romance'])}/30`,
+      'amoureux-books': `${this.countBooksByGenre(['romance'])}/50`,
+      'grand-amour-books': `${this.countBooksByGenre(['romance'])}/80`,
+      'amour-eternel-books': `${this.countBooksByGenre(['romance'])}/100`,
+
+      'initie-science-fiction': `${this.countBooksByGenre(['science fiction', 'science-fiction', 'scifi'])}/15`,
+      'lecteur-science-fiction': `${this.countBooksByGenre(['science fiction', 'science-fiction', 'scifi'])}/30`,
+      'explorateur-science-fiction': `${this.countBooksByGenre(['science fiction', 'science-fiction', 'scifi'])}/50`,
+      'voyageur-science-fiction': `${this.countBooksByGenre(['science fiction', 'science-fiction', 'scifi'])}/80`,
+      'maitre-science-fiction': `${this.countBooksByGenre(['science fiction', 'science-fiction', 'scifi'])}/100`,
+
+      'lecteur-polar': `${this.countBooksByGenre(['policier', 'polar'])}/15`,
+      'amateur-polars': `${this.countBooksByGenre(['policier', 'polar'])}/30`,
+      'enqueteur-livres': `${this.countBooksByGenre(['policier', 'polar'])}/50`,
+      'inspecteur-livres': `${this.countBooksByGenre(['policier', 'polar'])}/80`,
+      'maitre-polar': `${this.countBooksByGenre(['policier', 'polar'])}/100`,
+
+      'lecteur-curieux-nonfiction': `${this.countBooksByGenre(['nonfiction', 'non fiction'])}/15`,
+      'chercheur-savoir': `${this.countBooksByGenre(['nonfiction', 'non fiction'])}/30`,
+      'amateur-reel': `${this.countBooksByGenre(['nonfiction', 'non fiction'])}/50`,
+      'erudit-livres': `${this.countBooksByGenre(['nonfiction', 'non fiction'])}/80`,
+      'sage-nonfiction': `${this.countBooksByGenre(['nonfiction', 'non fiction'])}/100`,
+
+      'petit-explorateur-aventure': `${this.countBooksByGenre(['aventure'])}/15`,
+      'aventurier-livres': `${this.countBooksByGenre(['aventure'])}/30`,
+      'grand-voyageur-livres': `${this.countBooksByGenre(['aventure'])}/50`,
+      'heros-aventure': `${this.countBooksByGenre(['aventure'])}/80`,
+      'legende-aventure': `${this.countBooksByGenre(['aventure'])}/100`,
+
+      // Films (global)
+      'cinephile-herbe': `${movies}/100`,
+      'cinephile-amateur': `${movies}/300`,
+      'cinephile-passionne': `${movies}/500`,
+      'cinephile-devoué': `${movies}/800`,
+      'cinephile-inconditionnel': `${movies}/1000`,
+
+      // Films par genre
+      'petit-beguin-movies': `${this.countMoviesByGenre(['romance'])}/50`,
+      'lover-movies': `${this.countMoviesByGenre(['romance'])}/100`,
+      'amoureux-movies': `${this.countMoviesByGenre(['romance'])}/150`,
+      'grand-amour-movies': `${this.countMoviesByGenre(['romance'])}/200`,
+      'amour-eternel-movies': `${this.countMoviesByGenre(['romance'])}/300`,
+
+      'initie-scifi-movies': `${this.countMoviesByGenre(['science fiction', 'science-fiction', 'scifi'])}/50`,
+      'lecteur-scifi-movies': `${this.countMoviesByGenre(['science fiction', 'science-fiction', 'scifi'])}/100`,
+      'explorateur-scifi-movies': `${this.countMoviesByGenre(['science fiction', 'science-fiction', 'scifi'])}/150`,
+      'voyageur-scifi-movies': `${this.countMoviesByGenre(['science fiction', 'science-fiction', 'scifi'])}/200`,
+      'maitre-scifi-movies': `${this.countMoviesByGenre(['science fiction', 'science-fiction', 'scifi'])}/300`,
+
+      'frisson-thriller-movies': `${this.countMoviesByGenre(['thriller'])}/50`,
+      'amateur-thriller-movies': `${this.countMoviesByGenre(['thriller'])}/100`,
+      'enqueteur-thriller-movies': `${this.countMoviesByGenre(['thriller'])}/150`,
+      'inspecteur-thriller-movies': `${this.countMoviesByGenre(['thriller'])}/200`,
+      'maitre-thriller-movies': `${this.countMoviesByGenre(['thriller'])}/300`,
+
+      'courage-horreur-movies': `${this.countMoviesByGenre(['horreur', 'horror'])}/50`,
+      'amateur-horreur-movies': `${this.countMoviesByGenre(['horreur', 'horror'])}/100`,
+      'survivant-horreur-movies': `${this.countMoviesByGenre(['horreur', 'horror'])}/150`,
+      'chasseur-horreur-movies': `${this.countMoviesByGenre(['horreur', 'horror'])}/200`,
+      'maitre-horreur-movies': `${this.countMoviesByGenre(['horreur', 'horror'])}/300`,
+
+      'sourire-comedie-movies': `${this.countMoviesByGenre(['comedie', 'comédie'])}/50`,
+      'rire-comedie-movies': `${this.countMoviesByGenre(['comedie', 'comédie'])}/100`,
+      'fou-rire-comedie-movies': `${this.countMoviesByGenre(['comedie', 'comédie'])}/150`,
+      'comedien-comedie-movies': `${this.countMoviesByGenre(['comedie', 'comédie'])}/200`,
+      'maitre-comedie-movies': `${this.countMoviesByGenre(['comedie', 'comédie'])}/300`,
+
+      'recrue-action-movies': `${this.countMoviesByGenre(['action'])}/50`,
+      'soldat-action-movies': `${this.countMoviesByGenre(['action'])}/100`,
+      'commandant-action-movies': `${this.countMoviesByGenre(['action'])}/150`,
+      'elite-action-movies': `${this.countMoviesByGenre(['action'])}/200`,
+      'legende-action-movies': `${this.countMoviesByGenre(['action'])}/300`,
+
+      // Sagas
+      'vengeurs-de-la-terre': `${this.getWatchedSagaCount('Marvel Cinematic Universe')}/${allBaseMovies.filter((m) => (m.saga || '').trim() === 'Marvel Cinematic Universe').length}`,
+      'badges-des-trois-sorciers': `${this.getWatchedSagaCount('Wizarding World')}/${allBaseMovies.filter((m) => (m.saga || '').trim() === 'Wizarding World').length}`,
+      'guerrier-de-la-terre-du-milieu': `${this.getWatchedSagaCount('Tolkien')}/${allBaseMovies.filter((m) => (m.saga || '').trim() === 'Tolkien').length}`,
+      'membre-de-l-ordre': `${this.getWatchedSagaCount('Star Wars')}/${allBaseMovies.filter((m) => (m.saga || '').trim() === 'Star Wars').length}`,
+
+      // Jeux
+      'joueur-du-dimanche': `${games}/20`,
+      'petit-joueur': `${games}/50`,
+      gamer: `${games}/100`,
+      nerd: `${games}/150`,
+      'no-life': `${games}/200`,
+      'joueur-capable': `${gamesFinished}/50`,
+      'champion-du-joystick': `${gamesFinished}/100`,
+      'virtuose-de-la-manette': `${gamesFinished}/200`,
+    };
+
+    return progress;
+  });
+
+  getBadgeProgressText(badgeId: string): string {
+    return this.badgeProgressById()[badgeId] ?? 'Progression indisponible';
+  }
+
+  private parseBadgeProgress(
+    badgeId: string
+  ): { current: number; target: number } | null {
+    const raw = this.badgeProgressById()[badgeId] ?? '';
+    const match = raw.match(/^\s*(\d+)\s*\/\s*(\d+)\s*$/);
+    if (!match) {
+      return null;
+    }
+    const current = Number(match[1]);
+    const target = Number(match[2]);
+    if (!Number.isFinite(current) || !Number.isFinite(target) || target <= 0) {
+      return null;
+    }
+    return { current, target };
+  }
+
+  getBadgeProgressPercent(badgeId: string): number {
+    const parsed = this.parseBadgeProgress(badgeId);
+    if (!parsed) return 0;
+    return Math.max(0, Math.min(100, Math.round((parsed.current / parsed.target) * 100)));
+  }
 
   topBooks = computed<TopBook[]>(() => {
     return this.allBooks()
