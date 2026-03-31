@@ -323,12 +323,23 @@
         </button>
       </div>
       }
-      <div class="badges-groups">
+      <div class="tabs">
         @for (group of groupedUserBadges(); track group.key) {
-        <section class="badges-group">
-          <h3 class="badges-group__title">{{ group.label }}</h3>
-          <div class="badges-grid">
-            @for (badge of group.badges; track badge.id) {
+        <button
+          type="button"
+          class="tab-button"
+          [class.active]="selectedBadgeEntity() === group.key"
+          (click)="selectBadgeEntity(group.key)"
+        >
+          {{ group.label }}
+        </button>
+        }
+      </div>
+      @if (activeBadgeGroup(); as activeGroup) {
+      <section class="badges-group">
+        <h3 class="badges-group__title">{{ activeGroup.label }}</h3>
+        <div class="badges-grid">
+          @for (badge of activeGroup.badges; track badge.id) {
             <div
               class="badge-card"
               [class.badge-card--earned]="badge.earned"
@@ -363,11 +374,10 @@
               </div>
               }
             </div>
-            }
-          </div>
-        </section>
-        }
-      </div>
+          }
+        </div>
+      </section>
+      }
     </div>
     }
   </div>

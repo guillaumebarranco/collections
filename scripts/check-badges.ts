@@ -30,6 +30,11 @@ type BadgeStats = {
   booksAventureRead: number;
   moviesWatched: number;
   moviesRomanceWatched: number;
+  moviesScienceFictionWatched: number;
+  moviesThrillerWatched: number;
+  moviesHorreurWatched: number;
+  moviesComedieWatched: number;
+  moviesActionWatched: number;
   booksRated: number;
   moviesRated: number;
   gamesRated: number;
@@ -100,6 +105,36 @@ const BADGE_CONDITIONS: Record<string, (stats: BadgeStats) => boolean> = {
   'amoureux-movies': (s) => s.moviesRomanceWatched >= 150,
   'grand-amour-movies': (s) => s.moviesRomanceWatched >= 200,
   'amour-eternel-movies': (s) => s.moviesRomanceWatched >= 300,
+  // ——— Science-fiction (films)
+  'initie-scifi-movies': (s) => s.moviesScienceFictionWatched >= 50,
+  'lecteur-scifi-movies': (s) => s.moviesScienceFictionWatched >= 100,
+  'explorateur-scifi-movies': (s) => s.moviesScienceFictionWatched >= 150,
+  'voyageur-scifi-movies': (s) => s.moviesScienceFictionWatched >= 200,
+  'maitre-scifi-movies': (s) => s.moviesScienceFictionWatched >= 300,
+  // ——— Thriller (films)
+  'frisson-thriller-movies': (s) => s.moviesThrillerWatched >= 50,
+  'amateur-thriller-movies': (s) => s.moviesThrillerWatched >= 100,
+  'enqueteur-thriller-movies': (s) => s.moviesThrillerWatched >= 150,
+  'inspecteur-thriller-movies': (s) => s.moviesThrillerWatched >= 200,
+  'maitre-thriller-movies': (s) => s.moviesThrillerWatched >= 300,
+  // ——— Horreur (films)
+  'courage-horreur-movies': (s) => s.moviesHorreurWatched >= 50,
+  'amateur-horreur-movies': (s) => s.moviesHorreurWatched >= 100,
+  'survivant-horreur-movies': (s) => s.moviesHorreurWatched >= 150,
+  'chasseur-horreur-movies': (s) => s.moviesHorreurWatched >= 200,
+  'maitre-horreur-movies': (s) => s.moviesHorreurWatched >= 300,
+  // ——— Comédie (films)
+  'sourire-comedie-movies': (s) => s.moviesComedieWatched >= 50,
+  'rire-comedie-movies': (s) => s.moviesComedieWatched >= 100,
+  'fou-rire-comedie-movies': (s) => s.moviesComedieWatched >= 150,
+  'comedien-comedie-movies': (s) => s.moviesComedieWatched >= 200,
+  'maitre-comedie-movies': (s) => s.moviesComedieWatched >= 300,
+  // ——— Action (films)
+  'recrue-action-movies': (s) => s.moviesActionWatched >= 50,
+  'soldat-action-movies': (s) => s.moviesActionWatched >= 100,
+  'commandant-action-movies': (s) => s.moviesActionWatched >= 150,
+  'elite-action-movies': (s) => s.moviesActionWatched >= 200,
+  'legende-action-movies': (s) => s.moviesActionWatched >= 300,
   // ——— Films (sagas) — avoir vu tous les films de la saga
   'vengeurs-de-la-terre': (s) => s.sagasFullyWatched.has('Marvel Cinematic Universe'),
   'badges-des-trois-sorciers': (s) => s.sagasFullyWatched.has('Wizarding World'),
@@ -127,6 +162,27 @@ function bookKey(book: { title: string; author: string }): string {
 
 function movieKey(movie: { title: string; director: string }): string {
   return `${movie.title}|${movie.director}`;
+}
+
+function normalizeGenreValue(value: string): string {
+  return value
+    .normalize('NFD')
+    .replace(/[\u0300-\u036f]/g, '')
+    .toLowerCase()
+    .replace(/[^a-z0-9]+/g, ' ')
+    .trim();
+}
+
+function countMoviesByGenre(
+  movies: Array<{ title: string; director: string }>,
+  genreByMovieKey: Record<string, string>,
+  genreTokens: string[]
+): number {
+  const normalizedTokens = genreTokens.map((token) => normalizeGenreValue(token));
+  return movies.filter((movie) => {
+    const normalizedGenre = normalizeGenreValue(genreByMovieKey[movieKey(movie)] || '');
+    return normalizedTokens.some((token) => normalizedGenre.includes(token));
+  }).length;
 }
 
 function main(): void {
@@ -202,10 +258,24 @@ function main(): void {
         (genreByBookKey[bookKey(b)] || '').toLowerCase().includes('aventure')
     ).length;
 
-    const moviesRomanceWatched = movies.filter(
-      (m: { title: string; director: string }) =>
-        (genreByMovieKey[movieKey(m)] || '').toLowerCase().includes('romance')
-    ).length;
+    const moviesRomanceWatched = countMoviesByGenre(movies, genreByMovieKey, ['romance']);
+    const moviesScienceFictionWatched = countMoviesByGenre(
+      movies,
+      genreByMovieKey,
+      ['science-fiction', 'science fiction', 'scifi', 'sci fi']
+    );
+    const moviesThrillerWatched = countMoviesByGenre(movies, genreByMovieKey, ['thriller']);
+    const moviesHorreurWatched = countMoviesByGenre(
+      movies,
+      genreByMovieKey,
+      ['horreur', 'horror']
+    );
+    const moviesComedieWatched = countMoviesByGenre(
+      movies,
+      genreByMovieKey,
+      ['comedie', 'comedy']
+    );
+    const moviesActionWatched = countMoviesByGenre(movies, genreByMovieKey, ['action']);
 
     const userMovieKeys = new Set(
       movies.map((m: { title: string; director: string }) => movieKey(m))
@@ -233,6 +303,11 @@ function main(): void {
       booksAventureRead,
       moviesWatched: movies.length,
       moviesRomanceWatched,
+      moviesScienceFictionWatched,
+      moviesThrillerWatched,
+      moviesHorreurWatched,
+      moviesComedieWatched,
+      moviesActionWatched,
       booksRated: books.filter((b: { rating?: unknown }) => isRated(b.rating)).length,
       moviesRated: movies.filter((m: { rating?: unknown }) => isRated(m.rating)).length,
       gamesRated: games.filter((g: { rating?: unknown }) => isRated(g.rating)).length,

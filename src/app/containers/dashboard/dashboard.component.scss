@@ -170,10 +170,37 @@
   margin-bottom: 16px;
 }
 
-.badges-groups {
+.tabs {
   display: flex;
-  flex-direction: column;
-  gap: 18px;
+  gap: 10px;
+  margin-bottom: 16px;
+  border-bottom: 2px solid #e9ecef;
+  flex-wrap: wrap;
+}
+
+.tab-button {
+  padding: 12px 20px;
+  border: none;
+  background: transparent;
+  color: #6c757d;
+  font-size: 1rem;
+  font-weight: 500;
+  cursor: pointer;
+  border-bottom: 3px solid transparent;
+  transition: all 0.2s ease;
+  position: relative;
+  top: 2px;
+
+  &:hover {
+    color: #007bff;
+    background: #f8f9fa;
+  }
+
+  &.active {
+    color: #007bff;
+    border-bottom-color: #007bff;
+    font-weight: 600;
+  }
 }
 
 .badges-group {

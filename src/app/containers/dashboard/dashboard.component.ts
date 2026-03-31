@@ -176,6 +176,7 @@ export class DashboardComponent implements OnInit {
     | 'badges'
     | 'records'
   >('overview');
+  selectedBadgeEntity = signal<BadgeEntityKey>('books');
   isAuthenticated = computed<boolean>(() => this.authService.isAuthenticated());
   isAdmin = computed<boolean>(() => this.authService.isAdmin());
 
@@ -457,6 +458,18 @@ export class DashboardComponent implements OnInit {
     ];
     return orderedGroups.filter((g) => g.badges.length > 0);
   });
+
+  activeBadgeGroup = computed<BadgeGroup | null>(() => {
+    const groups = this.groupedUserBadges();
+    if (groups.length === 0) return null;
+    return (
+      groups.find((g) => g.key === this.selectedBadgeEntity()) ?? groups[0]
+    );
+  });
+
+  selectBadgeEntity(entity: BadgeEntityKey): void {
+    this.selectedBadgeEntity.set(entity);
+  }
 
   private normalizeGenreValue(genre: unknown): string {
     const raw = Array.isArray(genre)
@@ -1050,6 +1063,15 @@ export class DashboardComponent implements OnInit {
         void this.feedService.loadFromApi(uid);
       }
       void this.loadAllDashboardData();
+    });
+
+    effect(() => {
+      const groups = this.groupedUserBadges();
+      const selected = this.selectedBadgeEntity();
+      if (groups.length === 0) return;
+      if (!groups.some((g) => g.key === selected)) {
+        this.selectedBadgeEntity.set(groups[0].key);
+      }
     });
   }
 
