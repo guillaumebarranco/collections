@@ -176,7 +176,7 @@ export const BOOKS_BADGE_DEFINITIONS: BadgeDefinition[] = [
   // ——— Nonfiction (livres)
   {
     id: 'lecteur-curieux-nonfiction',
-    name: 'Lecteur curieux (nonfiction)',
+    name: 'Lecteur curieux',
     description: 'Avoir lu au moins 15 livres de nonfiction',
     image: `${BADGES_IMAGE_PATH}/books/Tara_Duncan.png`,
   },

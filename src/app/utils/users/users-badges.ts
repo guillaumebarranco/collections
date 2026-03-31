@@ -18,6 +18,7 @@ export const usersBadges: Record<string, string[]> = {
     "joueur-capable",
     "joueur-du-dimanche",
     "lecteur-assidu",
+    "lecteur-polar",
     "membre-de-l-ordre",
     "petit-beguin-books",
     "petit-beguin-movies",
@@ -57,14 +58,18 @@ export const usersBadges: Record<string, string[]> = {
     "graine-lecteur",
     "heros-fantasy",
     "lecteur-assidu",
-    "petit-lecteur"
+    "petit-lecteur",
+    "seigneur-fantasy"
   ],
   "amandine": [
     "badges-des-trois-sorciers",
     "cinephile-amateur",
     "cinephile-herbe",
     "cinephile-passionne",
-    "petit-beguin-movies"
+    "eleve-fantasy",
+    "graine-lecteur",
+    "petit-beguin-movies",
+    "petit-lecteur"
   ],
   "bastien": [
     "cinephile-amateur",
@@ -79,17 +84,36 @@ export const usersBadges: Record<string, string[]> = {
     "cinephile-herbe"
   ],
   "dantes": [
+    "amateur-polars",
     "badges-des-trois-sorciers",
     "cinephile-amateur",
     "cinephile-herbe",
     "cinephile-passionne",
     "eleve-fantasy",
     "graine-lecteur",
+    "guerrier-de-la-terre-du-milieu",
     "lecteur-assidu",
     "lecteur-chevronne",
     "lecteur-passionne",
+    "lecteur-polar",
+    "lecteur-veteran",
     "petit-lecteur"
   ],
-  "marina": [],
-  "masterofmadness": []
+  "marina": [
+    "amoureux-fantasy",
+    "badges-des-trois-sorciers",
+    "cinephile-amateur",
+    "cinephile-herbe",
+    "cinephile-passionne",
+    "eleve-fantasy",
+    "graine-lecteur",
+    "petit-lecteur"
+  ],
+  "masterofmadness": [
+    "eleve-fantasy",
+    "graine-lecteur",
+    "lecteur-assidu",
+    "lecteur-chevronne",
+    "petit-lecteur"
+  ]
 };

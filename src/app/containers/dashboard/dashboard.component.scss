@@ -170,11 +170,29 @@
   margin-bottom: 16px;
 }
 
+.badges-groups {
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+}
+
+.badges-group {
+  background: #f8f9fa;
+  border: 1px solid #e9ecef;
+  border-radius: 12px;
+  padding: 14px;
+}
+
+.badges-group__title {
+  margin: 0 0 10px 0;
+  font-size: 1.05rem;
+  color: #495057;
+}
+
 .badges-grid {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
   gap: 12px;
-  margin-top: 12px;
 }
 
 .badge-card {

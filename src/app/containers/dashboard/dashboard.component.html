@@ -323,29 +323,36 @@
         </button>
       </div>
       }
-      <div class="badges-grid">
-        @for (badge of userBadges(); track badge.id) {
-        <div
-          class="badge-card"
-          [class.badge-card--earned]="badge.earned"
-          [class.badge-card--locked]="!badge.earned"
-        >
-          <img
-            [src]="badge.image"
-            [alt]="badge.name"
-            class="badge-card-image"
-            [class.badge-card-image-locked]="!badge.earned"
-          />
-          <h3 class="badge-card__name">{{ badge.name }}</h3>
-          <p class="badge-card__description">{{ badge.description }}</p>
-          @if (badge.earned) {
-          <span class="badge-card__status">Débloqué</span>
-          } @else {
-          <span class="badge-card__status badge-card__status--locked"
-            >À débloquer</span
-          >
-          }
-        </div>
+      <div class="badges-groups">
+        @for (group of groupedUserBadges(); track group.key) {
+        <section class="badges-group">
+          <h3 class="badges-group__title">{{ group.label }}</h3>
+          <div class="badges-grid">
+            @for (badge of group.badges; track badge.id) {
+            <div
+              class="badge-card"
+              [class.badge-card--earned]="badge.earned"
+              [class.badge-card--locked]="!badge.earned"
+            >
+              <img
+                [src]="badge.image"
+                [alt]="badge.name"
+                class="badge-card-image"
+                [class.badge-card-image-locked]="!badge.earned"
+              />
+              <h3 class="badge-card__name">{{ badge.name }}</h3>
+              <p class="badge-card__description">{{ badge.description }}</p>
+              @if (badge.earned) {
+              <span class="badge-card__status">Débloqué</span>
+              } @else {
+              <span class="badge-card__status badge-card__status--locked"
+                >À débloquer</span
+              >
+              }
+            </div>
+            }
+          </div>
+        </section>
         }
       </div>
     </div>

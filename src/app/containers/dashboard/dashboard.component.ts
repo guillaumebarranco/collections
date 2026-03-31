@@ -131,6 +131,9 @@ interface TopManga extends Manga {
   formattedReadingTime: string;
 }
 
+type BadgeEntityKey = 'books' | 'movies' | 'games' | 'other';
+type BadgeGroup = { key: BadgeEntityKey; label: string; badges: BadgeDisplay[] };
+
 @Component({
   selector: 'app-daloard',
   standalone: true,
@@ -423,6 +426,35 @@ export class DashboardComponent implements OnInit {
     return getBadgesDisplay(
       this.badgesService.getBadges(this.userId() || DEFAULT_USER_ID)
     );
+  });
+
+  groupedUserBadges = computed<BadgeGroup[]>(() => {
+    const groups: Record<BadgeEntityKey, BadgeDisplay[]> = {
+      books: [],
+      movies: [],
+      games: [],
+      other: [],
+    };
+    for (const badge of this.userBadges()) {
+      const image = (badge.image || '').toLowerCase();
+      if (image.includes('/books/')) {
+        groups.books.push(badge);
+      } else if (image.includes('/movies/')) {
+        groups.movies.push(badge);
+      } else if (image.includes('/games/')) {
+        groups.games.push(badge);
+      } else {
+        groups.other.push(badge);
+      }
+    }
+
+    const orderedGroups: BadgeGroup[] = [
+      { key: 'books', label: '📖 Livres', badges: groups.books },
+      { key: 'movies', label: '🎬 Films', badges: groups.movies },
+      { key: 'games', label: '🎮 Jeux', badges: groups.games },
+      { key: 'other', label: '✨ Autres', badges: groups.other },
+    ];
+    return orderedGroups.filter((g) => g.badges.length > 0);
   });
 
   topBooks = computed<TopBook[]>(() => {
