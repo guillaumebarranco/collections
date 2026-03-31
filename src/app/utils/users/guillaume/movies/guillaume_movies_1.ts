@@ -2508,4 +2508,21 @@ export const guillaumeMoviesPage1: UserMovies = [
     borrowed: "",
     loaned: "",
   },
+
+  {
+    title: "The Lego Movie",
+    director: "Phil Lord, Christopher Miller",
+    rating: 3.75,
+    timesWatched: 1,
+    firstViewedDate: "2026-03-31",
+    lastViewedDate: "2026-03-31",
+    seenAtCinema: false,
+    owned: false,
+    wantToSeeAgain: false,
+    watchPriority: 1,
+    ratingComment: "",
+    inList: [],
+    borrowed: "",
+    loaned: "",
+  },
 ];
