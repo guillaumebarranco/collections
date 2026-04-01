@@ -764,11 +764,16 @@ export class MoviesComponent implements OnInit {
 
   private matchesSearch(movie: Movie, term: string): boolean {
     const actors = movie.actors?.map((actor) => actor.name).join(' ') || '';
+    const genreParts = Array.isArray(movie.genre)
+      ? movie.genre
+      : movie.genre
+        ? [movie.genre]
+        : [];
     const haystack = [
       movie.title,
       movie.director,
       actors,
-      movie.genre,
+      ...genreParts,
       movie.saga,
       movie.countryOrigin ?? '',
     ]

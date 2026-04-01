@@ -64,6 +64,93 @@ function unescapeString(value: string, quote: string) {
     .replace(/\\\\/g, '\\');
 }
 
+/** Lit genre: [...] ou ancien genre: 'A, B' dans un littéral d'objet film. */
+function parseMovieGenreField(objectText: string): string[] {
+  const keyMatch = objectText.match(/\bgenre\s*:\s*/);
+  if (!keyMatch || keyMatch.index === undefined) {
+    return [];
+  }
+  let pos = keyMatch.index + keyMatch[0].length;
+  while (pos < objectText.length && /\s/.test(objectText[pos])) {
+    pos += 1;
+  }
+  if (pos >= objectText.length) {
+    return [];
+  }
+  if (objectText[pos] === '[') {
+    let depth = 0;
+    let i = pos;
+    while (i < objectText.length) {
+      const c = objectText[i];
+      if (c === '[') {
+        depth += 1;
+      } else if (c === ']') {
+        depth -= 1;
+        if (depth === 0) {
+          i += 1;
+          break;
+        }
+      }
+      i += 1;
+    }
+    const inner = objectText.slice(pos + 1, i - 1);
+    if (!inner.trim()) {
+      return [];
+    }
+    const regex = /(['"])((?:\\.|(?!\1).)*)\1/g;
+    const result: string[] = [];
+    let match = regex.exec(inner);
+    while (match) {
+      result.push(unescapeString(match[2], match[1]));
+      match = regex.exec(inner);
+    }
+    return result;
+  }
+  const legacy = parseStringField(objectText, 'genre');
+  if (!legacy?.trim()) {
+    return [];
+  }
+  return legacy
+    .split(',')
+    .map((g) => g.trim())
+    .filter(Boolean);
+}
+
+function escapeForSingleQuotedTs(s: string) {
+  return String(s).replace(/\\/g, '\\\\').replace(/'/g, "\\'");
+}
+
+function formatMovieGenreArrayTs(arr: string[]) {
+  const trimmed = arr.map((s) => String(s).trim()).filter(Boolean);
+  if (trimmed.length === 0) {
+    return '[]';
+  }
+  return (
+    '[' +
+    trimmed.map((s) => `'${escapeForSingleQuotedTs(s)}'`).join(', ') +
+    ']'
+  );
+}
+
+function normalizeMovieGenreInput(value: any): string[] {
+  if (value === undefined || value === null) {
+    return [];
+  }
+  if (Array.isArray(value)) {
+    return value.map((s) => String(s).trim()).filter(Boolean);
+  }
+  if (typeof value === 'string') {
+    if (!value.trim()) {
+      return [];
+    }
+    return value
+      .split(',')
+      .map((g) => g.trim())
+      .filter(Boolean);
+  }
+  return [];
+}
+
 function parseNumberField(objectText: string, key: string) {
   const regex = new RegExp(`${key}\\s*:\\s*([^,\\n]+)`);
   const match = objectText.match(regex);
@@ -309,7 +396,7 @@ function parseBaseMoviesFullFromFile(content: string): any[] {
           coverUrl: parseStringField(objectText, 'coverUrl') || '',
           releaseDate: parseStringField(objectText, 'releaseDate') || '',
           length: parseNumberField(objectText, 'length') ?? 0,
-          genre: parseStringField(objectText, 'genre') || '',
+          genre: parseMovieGenreField(objectText),
           saga: parseStringField(objectText, 'saga') || '',
           description: parseStringField(objectText, 'description') || '',
           countryOrigin: parseStringField(objectText, 'countryOrigin') || '',
@@ -400,6 +487,20 @@ function replaceField(objectText: string, key: string, value: any) {
   }
 
   return next;
+}
+
+function upsertGenreField(objectText: string, value: any) {
+  if (value === undefined) {
+    return objectText;
+  }
+  const arr = normalizeMovieGenreInput(value);
+  const serialized = formatMovieGenreArrayTs(arr);
+  const regex =
+    /\bgenre\s*:\s*(\[[\s\S]*?\]|(['"])((?:\\.|(?!\2).)*)\2)/;
+  if (regex.test(objectText)) {
+    return objectText.replace(regex, `genre: ${serialized}`);
+  }
+  return objectText.replace(/\}\s*$/, `    genre: ${serialized},\n  }`);
 }
 
 function upsertInListField(objectText: string, arr: string[]) {
@@ -683,7 +784,7 @@ function updateBaseMovieInFile(content: string, payload: any) {
           updated = upsertField(updated, 'coverUrl', payload.coverUrl);
           updated = upsertField(updated, 'releaseDate', payload.releaseDate);
           updated = upsertField(updated, 'length', payload.length);
-          updated = upsertField(updated, 'genre', payload.genre);
+          updated = upsertGenreField(updated, payload.genre);
           updated = upsertField(updated, 'saga', payload.saga);
           updated = upsertField(
             updated,
@@ -847,6 +948,8 @@ module.exports = {
   normalizeNumber,
   normalizeBoolean,
   normalizeString,
+  normalizeMovieGenreInput,
+  formatMovieGenreArrayTs,
   parseMoviesFromFile,
   parseBaseMoviesFromFile,
   parseBaseMoviesFullFromFile,

@@ -7,13 +7,21 @@ import {
   Router,
   RouterModule,
 } from '@angular/router';
-import { BaseMovie, Movie } from '../../../models/movie-model';
+import {
+  BaseMovie,
+  Movie,
+  MovieGenre,
+  MOVIE_GENRE_OPTIONS,
+  filterToMovieGenres,
+} from '../../../models/movie-model';
 import { getMoviesByUser } from '../../../facades/movies/movies.facade';
 import {
   MAT_DIALOG_DATA,
   MatDialog,
   MatDialogRef,
 } from '@angular/material/dialog';
+import { MatFormFieldModule } from '@angular/material/form-field';
+import { MatSelectModule } from '@angular/material/select';
 import { getApiBaseUrl } from '../../../core/config';
 import { EditEntityComponent } from '../../../components/entity/edit-entity/edit-entity.component';
 import { EditEntityHeaderComponent } from '../../../components/entity/edit-entity-header/edit-entity-header.component';
@@ -45,7 +53,7 @@ type EditMovieEntityForm = {
   coverUrl: string;
   releaseDate: string;
   length: number;
-  genre: string;
+  genre: MovieGenre[];
   saga: string;
   description: string;
   countryOrigin: string;
@@ -69,6 +77,8 @@ type EditMovieDialogData = {
     EditEntityComponent,
     EditEntityHeaderComponent,
     CountrySelectComponent,
+    MatFormFieldModule,
+    MatSelectModule,
   ],
   templateUrl: './edit-movie.component.html',
   styleUrls: ['./edit-movie.component.scss'],
@@ -136,6 +146,7 @@ export class EditMovieComponent {
   });
 
   readonly baseBooks = signal<BaseBook[]>([]);
+  readonly movieGenreOptions = MOVIE_GENRE_OPTIONS;
   readonly fromEntitySelectValue = computed(() => {
     const form = this.movieEntityForm();
     if (!form?.fromEntity) return '';
@@ -196,6 +207,12 @@ export class EditMovieComponent {
       ...current,
       [field]: checked,
     });
+  }
+
+  setEntityGenres(genres: MovieGenre[]) {
+    const current = this.movieEntityForm();
+    if (!current) return;
+    this.movieEntityForm.set({ ...current, genre: genres });
   }
 
   updateEntityField<K extends keyof EditMovieEntityForm>(
@@ -482,12 +499,24 @@ export class EditMovieComponent {
       coverUrl: movie.coverUrl,
       releaseDate: movie.releaseDate,
       length: movie.length,
-      genre: movie.genre,
+      genre: this.normalizeMovieGenresForForm(movie.genre),
       saga: movie.saga || '',
       description: movie.description ?? '',
       countryOrigin: movie.countryOrigin ?? '',
       fromEntity: movie.fromEntity ?? null,
     };
+  }
+
+  private normalizeMovieGenresForForm(raw: unknown): MovieGenre[] {
+    if (Array.isArray(raw)) {
+      return filterToMovieGenres(raw as string[]);
+    }
+    if (typeof raw === 'string' && raw.trim()) {
+      return filterToMovieGenres(
+        raw.split(',').map((g) => g.trim()).filter(Boolean)
+      );
+    }
+    return [];
   }
 
   private toEntityPayload(form: EditMovieEntityForm | null) {

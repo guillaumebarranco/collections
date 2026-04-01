@@ -24,8 +24,8 @@
     <div>{{ movie()?.title }}</div>
     <div class="entity-details">
       <p><strong>Réalisateur :</strong> {{ movie()?.director }}</p>
-      @if (movie()?.genre) {
-      <p><strong>Genre :</strong> {{ movie()?.genre }}</p>
+      @if (movie()?.genre?.length) {
+      <p><strong>Genre :</strong> {{ movie()?.genre?.join(', ') }}</p>
       } @if (movie()?.saga) {
       <p><strong>Saga :</strong> {{ movie()?.saga }}</p>
       } @if (movie()?.countryOrigin) {
@@ -271,15 +271,22 @@
       />
     </div>
 
-    <div class="form-row">
-      <label for="entityGenre">Genre</label>
-      <input
-        id="entityGenre"
-        type="text"
-        [ngModel]="movieEntityForm()?.genre"
-        (ngModelChange)="updateEntityField('genre', $event)"
-        name="entityGenre"
-      />
+    <div class="form-row genre-row">
+      <mat-form-field appearance="outline" class="genre-field">
+        <mat-label>Genres</mat-label>
+        <mat-select
+          id="entityGenre"
+          multiple
+          [ngModel]="movieEntityForm()?.genre"
+          (ngModelChange)="setEntityGenres($event)"
+          name="entityGenre"
+          placeholder="Sélectionner un ou plusieurs genres"
+        >
+          @for (g of movieGenreOptions; track g) {
+            <mat-option [value]="g">{{ g }}</mat-option>
+          }
+        </mat-select>
+      </mat-form-field>
     </div>
 
     <div class="form-row">

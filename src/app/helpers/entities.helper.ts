@@ -229,7 +229,7 @@ export const getMovieDataFromUserMovieAndBaseMovie = (
   coverUrl: baseMovie?.coverUrl || '',
   releaseDate: baseMovie?.releaseDate || '',
   length: baseMovie?.length || 0,
-  genre: baseMovie?.genre || '',
+  genre: baseMovie?.genre ?? [],
   seenAtCinema: userMovie.seenAtCinema,
   owned: userMovie.owned,
   saga: baseMovie?.saga || '',

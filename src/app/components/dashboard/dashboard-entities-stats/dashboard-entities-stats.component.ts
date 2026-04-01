@@ -174,12 +174,15 @@ export class DashboardEntitiesStatsComponent implements OnInit {
     // Genres les plus représentés
     const genresCount: { [key: string]: number } = {};
     uniqueMovies.forEach((movie) => {
-      if (movie.genre) {
-        const genres = movie.genre.split(',').map((g) => g.trim());
-        genres.forEach((genre) => {
-          genresCount[genre] = (genresCount[genre] || 0) + 1;
-        });
-      }
+      const raw = movie.genre as string | string[] | undefined;
+      const genresList = Array.isArray(raw)
+        ? raw.map((g) => g.trim()).filter(Boolean)
+        : typeof raw === 'string' && raw.trim()
+          ? raw.split(',').map((g) => g.trim()).filter(Boolean)
+          : [];
+      genresList.forEach((genre) => {
+        genresCount[genre] = (genresCount[genre] || 0) + 1;
+      });
     });
 
     // Sagas les plus vues

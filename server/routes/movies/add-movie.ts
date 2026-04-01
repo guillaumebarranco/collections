@@ -5,6 +5,8 @@ const {
   normalizeNumber,
   normalizeBoolean,
   normalizeString,
+  normalizeMovieGenreInput,
+  formatMovieGenreArrayTs,
   escapeString,
   appendObjectToArrayFile,
   baseMovieExists,
@@ -30,9 +32,9 @@ function formatBaseMovie(entity: any): string {
     entity.coverUrl || ''
   )}",\n    releaseDate: "${escapeString(
     entity.releaseDate || ''
-  )}",\n    length: ${entity.length ?? 0},\n    genre: "${escapeString(
-    entity.genre || ''
-  )}",\n    saga: "${escapeString(
+  )}",\n    length: ${entity.length ?? 0},\n    genre: ${formatMovieGenreArrayTs(
+    normalizeMovieGenreInput(entity.genre)
+  )},\n    saga: "${escapeString(
     entity.saga || ''
   )}",\n    description: "${escapeString(
     entity.description ?? ''
@@ -125,7 +127,7 @@ router.post('/add', (req: any, res: any) => {
       coverUrl: normalizeString(entity.coverUrl, 'coverUrl') || '',
       releaseDate: normalizeString(entity.releaseDate, 'releaseDate') || '',
       length: normalizeNumber(entity.length, 'length') || 0,
-      genre: normalizeString(entity.genre, 'genre') || '',
+      genre: normalizeMovieGenreInput(entity.genre),
       saga: normalizeString(entity.saga, 'saga') || '',
       description: normalizeString(entity.description, 'description') ?? '',
       countryOrigin:

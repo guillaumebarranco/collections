@@ -4,6 +4,7 @@ const {
   normalizeNumber,
   normalizeBoolean,
   normalizeString,
+  normalizeMovieGenreInput,
   updateMovieInFile,
   updateMovieIdentityInFile,
   updateBaseMovieInFiles,
@@ -139,7 +140,9 @@ router.post('/', (req: any, res: any) => {
         coverUrl: normalizeString(entityPayload.coverUrl, 'coverUrl'),
         releaseDate: normalizeString(entityPayload.releaseDate, 'releaseDate'),
         length: normalizeNumber(entityPayload.length, 'length'),
-        genre: normalizeString(entityPayload.genre, 'genre'),
+        genre: Object.prototype.hasOwnProperty.call(entityPayload, 'genre')
+          ? normalizeMovieGenreInput(entityPayload.genre)
+          : undefined,
         saga: normalizeString(entityPayload.saga, 'saga'),
         description:
           normalizeString(entityPayload.description, 'description') ?? '',

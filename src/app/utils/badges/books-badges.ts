@@ -113,7 +113,7 @@ export const BOOKS_BADGE_DEFINITIONS: BadgeDefinition[] = [
   },
   {
     id: 'amour-a-travers-la-mort',
-    name: "L'amour à travers la mort",
+    name: "L'amour absolu",
     description: 'Avoir lu au moins 80 livres de romance',
     image: `${BADGES_IMAGE_PATH}/books/Romeo_et_Juliette.png`,
   },

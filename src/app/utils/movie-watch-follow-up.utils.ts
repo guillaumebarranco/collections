@@ -35,10 +35,18 @@ export function countWatchedMovies(movies: Movie[]): number {
   return movies.filter((m) => (m.timesWatched ?? 0) > 0).length;
 }
 
-export function isRomanceMovieGenre(genre: string | undefined): boolean {
-  if (!genre?.trim()) return false;
-  const g = genre.toLowerCase();
-  return g.includes('romance') || g.includes('romantique');
+export function isRomanceMovieGenre(
+  genre: string | string[] | undefined
+): boolean {
+  const parts = Array.isArray(genre)
+    ? genre
+    : genre?.trim()
+      ? [genre]
+      : [];
+  return parts.some((p) => {
+    const g = p.trim().toLowerCase();
+    return g.includes('romance') || g.includes('romantique');
+  });
 }
 
 export function countRomanceWatchedMovies(movies: Movie[]): number {

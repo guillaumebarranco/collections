@@ -227,7 +227,9 @@ function main(): void {
   const genreByMovieKey: Record<string, string> = {};
   const sagaToMovieKeys: Record<string, Set<string>> = {};
   for (const m of allBaseMovies) {
-    genreByMovieKey[movieKey(m)] = m.genre || '';
+    genreByMovieKey[movieKey(m)] = Array.isArray(m.genre)
+      ? m.genre.join(', ')
+      : String(m.genre ?? '');
     const sagaName = (m.saga || '').trim();
     if (sagaName) {
       if (!sagaToMovieKeys[sagaName]) {
