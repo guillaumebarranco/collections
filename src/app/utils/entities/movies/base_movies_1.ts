@@ -1046,17 +1046,38 @@ export const baseMoviesPage1: BaseMovie[] = [
     director: 'Alain Chabat',
     actors: [
       {
-        name: 'Marion Cotillard',
+        name: "Alain Chabat",
       },
+      {
+        name: "Jean-Paul Rouve",
+      },
+      {
+        name: "Gérard Depardieu",
+      },
+      {
+        name: "Marina Foïs",
+      },
+      {
+        name: "Maurice Barthélemy",
+      },
+      {
+        name: "Pierre-François Martin-Laval",
+      }
     ],
-    coverUrl: '/movies_pictures/38203-rrrrrrr--0-150-0-225-crop.jpg',
-    releaseDate: '2004-01-28',
+    coverUrl: "/movies_pictures/38203-rrrrrrr--0-150-0-225-crop.jpg",
+    releaseDate: "2004-01-28",
     length: 94,
+<<<<<<< Updated upstream
     genre: ['Comédie'],
     saga: '',
     description: '',
+=======
+    genre: "Comedy",
+    saga: "",
+    description: "",
+>>>>>>> Stashed changes
     fromEntity: null,
-    countryOrigin: 'France',
+    countryOrigin: "France",
   },
 
   {
