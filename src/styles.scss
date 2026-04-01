@@ -297,3 +297,50 @@ ul li {
     box-sizing: border-box;
   }
 }
+
+/* Ajout livre/film + édition en modale : genre multi-select lisible, contour blanc */
+.add-book .genre-field.mat-mdc-form-field,
+.add-movie .genre-field.mat-mdc-form-field,
+.genre-field.genre-field--dark-popin.mat-mdc-form-field {
+  --mat-form-field-outlined-label-text-color: rgba(255, 255, 255, 0.78);
+  --mat-form-field-outlined-focus-label-text-color: #9cc9c3;
+  --mat-form-field-outlined-hover-label-text-color: rgba(255, 255, 255, 0.92);
+  --mat-select-enabled-trigger-text-color: #eee;
+  --mat-select-placeholder-text-color: rgba(255, 255, 255, 0.52);
+  --mat-select-enabled-arrow-color: rgba(255, 255, 255, 0.7);
+  --mdc-outlined-text-field-label-text-color: rgba(255, 255, 255, 0.78);
+  --mdc-outlined-text-field-focus-label-text-color: #9cc9c3;
+  --mdc-outlined-text-field-input-text-color: #eee;
+  --mdc-outlined-text-field-outline-color: #fff;
+  --mdc-outlined-text-field-hover-outline-color: #fff;
+  --mdc-outlined-text-field-focus-outline-color: #fff;
+}
+
+/* Édition en modale : fond sombre derrière le texte clair (surface dialog claire) */
+.genre-field.genre-field--dark-popin.mat-mdc-form-field .mat-mdc-text-field-wrapper {
+  background-color: #1f1f1f;
+  border-radius: 4px;
+}
+
+.cdk-overlay-container .makya-mat-select-panel-dark.mat-mdc-select-panel {
+  --mat-select-panel-background-color: #2e2e2e;
+  --mat-option-label-text-color: #eee;
+  --mat-option-hover-state-layer-color: rgba(255, 255, 255, 0.08);
+  --mat-option-focus-state-layer-color: rgba(255, 255, 255, 0.12);
+  --mat-option-selected-state-label-text-color: #9cc9c3;
+  background: #2e2e2e;
+  color: #eee;
+
+  .mat-mdc-option .mdc-list-item__primary-text {
+    color: #eee;
+  }
+
+  .mat-mdc-option.mdc-list-item--selected:not(.mdc-list-item--disabled):not(
+      .mat-mdc-option-multiple
+    )
+    .mdc-list-item__primary-text,
+  .mat-mdc-option.mdc-list-item--selected:not(.mdc-list-item--disabled).mat-mdc-option-multiple
+    .mdc-list-item__primary-text {
+    color: #9cc9c3;
+  }
+}

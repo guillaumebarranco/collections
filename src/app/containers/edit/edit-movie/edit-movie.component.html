@@ -272,11 +272,18 @@
     </div>
 
     <div class="form-row genre-row">
-      <mat-form-field appearance="outline" class="genre-field">
+      <mat-form-field
+        appearance="outline"
+        class="genre-field"
+        [class.genre-field--dark-popin]="isDialogMode()"
+      >
         <mat-label>Genres</mat-label>
         <mat-select
           id="entityGenre"
           multiple
+          [panelClass]="
+            isDialogMode() ? 'makya-mat-select-panel-dark' : ''
+          "
           [ngModel]="movieEntityForm()?.genre"
           (ngModelChange)="setEntityGenres($event)"
           name="entityGenre"

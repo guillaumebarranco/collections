@@ -5,6 +5,12 @@ import { MAT_DIALOG_DATA, MatDialogRef } from '@angular/material/dialog';
 import { getApiBaseUrl } from '../../../core/config';
 import { DEFAULT_USER_ID } from '../../../utils/constants';
 import { CountrySelectComponent } from '../../../components/shared/country-select/country-select.component';
+import { MatFormFieldModule } from '@angular/material/form-field';
+import { MatSelectModule } from '@angular/material/select';
+import {
+  MOVIE_GENRE_OPTIONS,
+  type MovieGenre,
+} from '../../../models/movie-model';
 
 type AddMovieEntityForm = {
   title: string;
@@ -13,7 +19,7 @@ type AddMovieEntityForm = {
   coverUrl: string;
   releaseDate: string;
   length: number;
-  genre: string;
+  genre: MovieGenre[];
   saga: string;
   description: string;
   countryOrigin: string;
@@ -41,7 +47,13 @@ type AddMovieDialogData = {
 @Component({
   selector: 'app-add-movie',
   standalone: true,
-  imports: [CommonModule, FormsModule, CountrySelectComponent],
+  imports: [
+    CommonModule,
+    FormsModule,
+    CountrySelectComponent,
+    MatFormFieldModule,
+    MatSelectModule,
+  ],
   templateUrl: './add-movie.component.html',
   styleUrls: ['./add-movie.component.scss'],
 })
@@ -54,6 +66,7 @@ export class AddMovieComponent {
 
   readonly isSaving = signal<boolean>(false);
   readonly errorMessage = signal<string>('');
+  readonly movieGenreOptions = MOVIE_GENRE_OPTIONS;
 
   entityForm = signal<AddMovieEntityForm>({
     title: '',
@@ -62,7 +75,7 @@ export class AddMovieComponent {
     coverUrl: '',
     releaseDate: '',
     length: 0,
-    genre: '',
+    genre: [],
     saga: '',
     description: '',
     countryOrigin: '',
@@ -103,6 +116,11 @@ export class AddMovieComponent {
       ...current,
       [field]: nextValue,
     });
+  }
+
+  setGenres(genres: MovieGenre[]) {
+    const current = this.entityForm();
+    this.entityForm.set({ ...current, genre: genres });
   }
 
   updateUserField<K extends keyof AddMovieUserForm>(
