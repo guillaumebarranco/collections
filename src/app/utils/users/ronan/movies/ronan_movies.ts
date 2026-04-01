@@ -17134,4 +17134,21 @@ export const ronanMovies: UserMovies = [
     borrowed: "",
     loaned: "",
   },
+
+  {
+    title: "Le Petit Nicolas",
+    director: "Laurent Tirard",
+    rating: 3,
+    timesWatched: 5,
+    firstViewedDate: "",
+    lastViewedDate: "",
+    seenAtCinema: false,
+    owned: false,
+    wantToSeeAgain: false,
+    watchPriority: 1,
+    ratingComment: "",
+    inList: [],
+    borrowed: "",
+    loaned: "",
+  },
 ];

@@ -1142,4 +1142,34 @@ export const baseMoviesApi: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: 'France',
   },
+
+  {
+    title: "Le Petit Nicolas",
+    director: "Laurent Tirard",
+    actors: [
+      {
+        name: "Maxime Godart",
+      },
+      {
+        name: "Kad Merad",
+      },
+      {
+        name: "Valérie Lemercier",
+      },
+      {
+        name: "François-Xavier Demaison",
+      },
+      {
+        name: "Sandrine Kiberlain",
+      },
+    ],
+    coverUrl: "https://dvdtoile.com/FILMS/43/43715.jpg",
+    releaseDate: "2009-09-30",
+    length: 91,
+    genre: ['Comédie'],
+    saga: "",
+    description: "",
+    fromEntity: null,
+    countryOrigin: "France",
+  },
 ];
