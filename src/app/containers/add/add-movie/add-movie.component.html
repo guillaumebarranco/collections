@@ -107,14 +107,23 @@
         />
       </div>
 
-      <div class="form-row">
-        <label for="countryOrigin">Nationalité du film</label>
-        <app-country-select
-          inputId="countryOrigin"
-          name="countryOrigin"
-          [value]="entityForm().countryOrigin"
-          (valueChange)="updateEntityField('countryOrigin', $event)"
-        />
+      <div class="form-row genre-row">
+        <mat-form-field appearance="outline" class="genre-field">
+          <mat-label>Nationalités</mat-label>
+          <mat-select
+            id="countryOrigin"
+            multiple
+            panelClass="makya-mat-select-panel-dark"
+            [ngModel]="entityForm().countryOrigin"
+            (ngModelChange)="setCountries($event)"
+            name="countryOrigin"
+            placeholder="Sélectionner un ou plusieurs pays"
+          >
+            @for (c of movieCountryOptions; track c) {
+              <mat-option [value]="c">{{ c }}</mat-option>
+            }
+          </mat-select>
+        </mat-form-field>
       </div>
     </section>
 

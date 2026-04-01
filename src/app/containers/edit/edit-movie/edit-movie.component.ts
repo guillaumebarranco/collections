@@ -13,6 +13,8 @@ import {
   MovieGenre,
   MOVIE_GENRE_OPTIONS,
   filterToMovieGenres,
+  getMovieCountryOriginLabels,
+  normalizeMovieCountryOriginsForForm,
 } from '../../../models/movie-model';
 import { getMoviesByUser } from '../../../facades/movies/movies.facade';
 import {
@@ -25,7 +27,10 @@ import { MatSelectModule } from '@angular/material/select';
 import { getApiBaseUrl } from '../../../core/config';
 import { EditEntityComponent } from '../../../components/entity/edit-entity/edit-entity.component';
 import { EditEntityHeaderComponent } from '../../../components/entity/edit-entity-header/edit-entity-header.component';
-import { CountrySelectComponent } from '../../../components/shared/country-select/country-select.component';
+import {
+  Country,
+  MOVIE_COUNTRY_MULTI_SELECT_OPTIONS,
+} from '../../../models/countries.enum';
 import { AuthService } from '../../../core/auth.service';
 import { QuizzCreateModalComponent } from '../../../components/modals/quizz-create-modal/quizz-create-modal.component';
 import { EntityType } from '../../../models/quizz-model';
@@ -56,7 +61,7 @@ type EditMovieEntityForm = {
   genre: MovieGenre[];
   saga: string;
   description: string;
-  countryOrigin: string;
+  countryOrigin: Exclude<Country, ''>[];
   fromEntity: BaseMovie['fromEntity'];
 };
 
@@ -76,7 +81,6 @@ type EditMovieDialogData = {
     RouterModule,
     EditEntityComponent,
     EditEntityHeaderComponent,
-    CountrySelectComponent,
     MatFormFieldModule,
     MatSelectModule,
   ],
@@ -213,6 +217,18 @@ export class EditMovieComponent {
     const current = this.movieEntityForm();
     if (!current) return;
     this.movieEntityForm.set({ ...current, genre: genres });
+  }
+
+  setEntityCountries(countries: Exclude<Country, ''>[]) {
+    const current = this.movieEntityForm();
+    if (!current) return;
+    this.movieEntityForm.set({ ...current, countryOrigin: countries });
+  }
+
+  readonly movieCountryOptions = MOVIE_COUNTRY_MULTI_SELECT_OPTIONS;
+
+  countriesDisplay(movie: Movie | null | undefined): string {
+    return movie ? getMovieCountryOriginLabels(movie).join(', ') : '';
   }
 
   updateEntityField<K extends keyof EditMovieEntityForm>(
@@ -502,7 +518,7 @@ export class EditMovieComponent {
       genre: this.normalizeMovieGenresForForm(movie.genre),
       saga: movie.saga || '',
       description: movie.description ?? '',
-      countryOrigin: movie.countryOrigin ?? '',
+      countryOrigin: normalizeMovieCountryOriginsForForm(movie.countryOrigin),
       fromEntity: movie.fromEntity ?? null,
     };
   }
@@ -532,7 +548,7 @@ export class EditMovieComponent {
       genre: form.genre,
       saga: form.saga,
       description: form.description ?? '',
-      countryOrigin: form.countryOrigin ?? '',
+      countryOrigin: form.countryOrigin ?? [],
       fromEntity: form.fromEntity,
     };
   }

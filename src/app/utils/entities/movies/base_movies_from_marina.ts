@@ -19,7 +19,7 @@ export const baseMoviesFromMarina: BaseMovie[] = [
     saga: '',
     description: '',
     fromEntity: null,
-    countryOrigin: 'États-Unis',
+    countryOrigin: ['États-Unis'],
   },
   {
     title: 'Jessie',
@@ -37,7 +37,7 @@ export const baseMoviesFromMarina: BaseMovie[] = [
     saga: '',
     description: '',
     fromEntity: null,
-    countryOrigin: 'États-Unis',
+    countryOrigin: ['États-Unis'],
   },
   {
     title: 'Dans les hautes herbes',
@@ -55,7 +55,7 @@ export const baseMoviesFromMarina: BaseMovie[] = [
     saga: '',
     description: '',
     fromEntity: null,
-    countryOrigin: 'États-Unis',
+    countryOrigin: ['États-Unis'],
   },
   {
     title: 'La fracture',
@@ -72,7 +72,7 @@ export const baseMoviesFromMarina: BaseMovie[] = [
     saga: '',
     description: '',
     fromEntity: null,
-    countryOrigin: 'France',
+    countryOrigin: ['France'],
   },
   {
     title: 'Ghostland',
@@ -90,7 +90,7 @@ export const baseMoviesFromMarina: BaseMovie[] = [
     saga: '',
     description: '',
     fromEntity: null,
-    countryOrigin: 'France',
+    countryOrigin: ['France'],
   },
   {
     title: "Don't Breathe",
@@ -108,7 +108,7 @@ export const baseMoviesFromMarina: BaseMovie[] = [
     saga: '',
     description: '',
     fromEntity: null,
-    countryOrigin: 'États-Unis',
+    countryOrigin: ['États-Unis'],
   },
   {
     title: 'I Spit on Your Grave',
@@ -126,7 +126,7 @@ export const baseMoviesFromMarina: BaseMovie[] = [
     saga: '',
     description: '',
     fromEntity: null,
-    countryOrigin: 'États-Unis',
+    countryOrigin: ['États-Unis'],
   },
   {
     title: 'Black Phone',
@@ -144,7 +144,7 @@ export const baseMoviesFromMarina: BaseMovie[] = [
     saga: '',
     description: '',
     fromEntity: null,
-    countryOrigin: 'États-Unis',
+    countryOrigin: ['États-Unis'],
   },
   {
     title: 'Ma',
@@ -162,7 +162,7 @@ export const baseMoviesFromMarina: BaseMovie[] = [
     saga: '',
     description: '',
     fromEntity: null,
-    countryOrigin: 'États-Unis',
+    countryOrigin: ['États-Unis'],
   },
   {
     title: 'Lovely Bones',
@@ -180,7 +180,7 @@ export const baseMoviesFromMarina: BaseMovie[] = [
     saga: '',
     description: '',
     fromEntity: null,
-    countryOrigin: 'États-Unis',
+    countryOrigin: ['États-Unis'],
   },
   {
     title: 'Intrusion',
@@ -197,7 +197,7 @@ export const baseMoviesFromMarina: BaseMovie[] = [
     saga: '',
     description: '',
     fromEntity: null,
-    countryOrigin: 'États-Unis',
+    countryOrigin: ['États-Unis'],
   },
   {
     title: "L'intrusion",
@@ -214,7 +214,7 @@ export const baseMoviesFromMarina: BaseMovie[] = [
     saga: '',
     description: '',
     fromEntity: null,
-    countryOrigin: 'États-Unis',
+    countryOrigin: ['États-Unis'],
   },
   {
     title: 'The Weekend Away',
@@ -232,7 +232,7 @@ export const baseMoviesFromMarina: BaseMovie[] = [
     saga: '',
     description: '',
     fromEntity: null,
-    countryOrigin: 'États-Unis',
+    countryOrigin: ['États-Unis'],
   },
   {
     title: 'La femme à la fenêtre',
@@ -250,7 +250,7 @@ export const baseMoviesFromMarina: BaseMovie[] = [
     saga: '',
     description: '',
     fromEntity: null,
-    countryOrigin: 'États-Unis',
+    countryOrigin: ['États-Unis'],
   },
   {
     title: 'Obsession secrète',
@@ -267,7 +267,7 @@ export const baseMoviesFromMarina: BaseMovie[] = [
     saga: '',
     description: '',
     fromEntity: null,
-    countryOrigin: 'États-Unis',
+    countryOrigin: ['États-Unis'],
   },
   {
     title: 'Fatale',
@@ -285,7 +285,7 @@ export const baseMoviesFromMarina: BaseMovie[] = [
     saga: '',
     description: '',
     fromEntity: null,
-    countryOrigin: 'États-Unis',
+    countryOrigin: ['États-Unis'],
   },
   {
     title: 'Rivales',
@@ -303,7 +303,7 @@ export const baseMoviesFromMarina: BaseMovie[] = [
     saga: '',
     description: '',
     fromEntity: null,
-    countryOrigin: 'États-Unis',
+    countryOrigin: ['États-Unis'],
   },
   {
     title: 'Rencontre fatale',
@@ -320,7 +320,7 @@ export const baseMoviesFromMarina: BaseMovie[] = [
     saga: '',
     description: '',
     fromEntity: null,
-    countryOrigin: 'États-Unis',
+    countryOrigin: ['États-Unis'],
   },
   {
     title: 'Mea Culpa',
@@ -338,7 +338,7 @@ export const baseMoviesFromMarina: BaseMovie[] = [
     saga: '',
     description: '',
     fromEntity: null,
-    countryOrigin: 'États-Unis',
+    countryOrigin: ['États-Unis'],
   },
   {
     title: 'Double vice',
@@ -355,7 +355,7 @@ export const baseMoviesFromMarina: BaseMovie[] = [
     saga: '',
     description: '',
     fromEntity: null,
-    countryOrigin: 'États-Unis',
+    countryOrigin: ['États-Unis'],
   },
   {
     title: 'Liaison fatale',
@@ -373,7 +373,7 @@ export const baseMoviesFromMarina: BaseMovie[] = [
     saga: '',
     description: '',
     fromEntity: null,
-    countryOrigin: 'États-Unis',
+    countryOrigin: ['États-Unis'],
   },
   {
     title: 'Fair Play',
@@ -391,7 +391,7 @@ export const baseMoviesFromMarina: BaseMovie[] = [
     saga: '',
     description: '',
     fromEntity: null,
-    countryOrigin: 'États-Unis',
+    countryOrigin: ['États-Unis'],
   },
   {
     title: 'The Jane Doe Identity',
@@ -408,7 +408,7 @@ export const baseMoviesFromMarina: BaseMovie[] = [
     saga: '',
     description: '',
     fromEntity: null,
-    countryOrigin: 'États-Unis',
+    countryOrigin: ['États-Unis'],
   },
   {
     title: 'La maison de cire',
@@ -426,7 +426,7 @@ export const baseMoviesFromMarina: BaseMovie[] = [
     saga: '',
     description: '',
     fromEntity: null,
-    countryOrigin: 'États-Unis',
+    countryOrigin: ['États-Unis'],
   },
   {
     title: 'Happy Death Day',
@@ -444,7 +444,7 @@ export const baseMoviesFromMarina: BaseMovie[] = [
     saga: '',
     description: '',
     fromEntity: null,
-    countryOrigin: 'États-Unis',
+    countryOrigin: ['États-Unis'],
   },
   {
     title: 'Action ou vérité',
@@ -462,7 +462,7 @@ export const baseMoviesFromMarina: BaseMovie[] = [
     saga: '',
     description: '',
     fromEntity: null,
-    countryOrigin: 'États-Unis',
+    countryOrigin: ['États-Unis'],
   },
   {
     title: 'Play or Die',
@@ -480,7 +480,7 @@ export const baseMoviesFromMarina: BaseMovie[] = [
     saga: '',
     description: '',
     fromEntity: null,
-    countryOrigin: 'France',
+    countryOrigin: ['France'],
   },
   {
     title: 'Affamés',
@@ -498,7 +498,7 @@ export const baseMoviesFromMarina: BaseMovie[] = [
     saga: '',
     description: '',
     fromEntity: null,
-    countryOrigin: 'États-Unis',
+    countryOrigin: ['États-Unis'],
   },
   {
     title: 'The Farm',
@@ -516,7 +516,7 @@ export const baseMoviesFromMarina: BaseMovie[] = [
     saga: '',
     description: '',
     fromEntity: null,
-    countryOrigin: 'États-Unis',
+    countryOrigin: ['États-Unis'],
   },
   {
     title: 'Couple modèle',
@@ -534,7 +534,7 @@ export const baseMoviesFromMarina: BaseMovie[] = [
     saga: '',
     description: '',
     fromEntity: null,
-    countryOrigin: 'États-Unis',
+    countryOrigin: ['États-Unis'],
   },
   {
     title: 'Jamais plus',
@@ -552,7 +552,7 @@ export const baseMoviesFromMarina: BaseMovie[] = [
     saga: '',
     description: '',
     fromEntity: null,
-    countryOrigin: 'États-Unis',
+    countryOrigin: ['États-Unis'],
   },
   {
     title: 'La maison des 1000 morts',
@@ -570,7 +570,7 @@ export const baseMoviesFromMarina: BaseMovie[] = [
     saga: '',
     description: '',
     fromEntity: null,
-    countryOrigin: 'États-Unis',
+    countryOrigin: ['États-Unis'],
   },
   {
     title: 'The Grudge',
@@ -588,7 +588,7 @@ export const baseMoviesFromMarina: BaseMovie[] = [
     saga: '',
     description: '',
     fromEntity: null,
-    countryOrigin: 'États-Unis',
+    countryOrigin: ['États-Unis'],
   },
   {
     title: 'Annabelle',
@@ -606,7 +606,7 @@ export const baseMoviesFromMarina: BaseMovie[] = [
     saga: '',
     description: '',
     fromEntity: null,
-    countryOrigin: 'États-Unis',
+    countryOrigin: ['États-Unis'],
   },
   {
     title: 'La nonne',
@@ -624,7 +624,7 @@ export const baseMoviesFromMarina: BaseMovie[] = [
     saga: '',
     description: '',
     fromEntity: null,
-    countryOrigin: 'États-Unis',
+    countryOrigin: ['États-Unis'],
   },
   {
     title: 'The Mortuary',
@@ -642,7 +642,7 @@ export const baseMoviesFromMarina: BaseMovie[] = [
     saga: '',
     description: '',
     fromEntity: null,
-    countryOrigin: 'États-Unis',
+    countryOrigin: ['États-Unis'],
   },
   {
     title: 'Escape Room',
@@ -660,7 +660,7 @@ export const baseMoviesFromMarina: BaseMovie[] = [
     saga: '',
     description: '',
     fromEntity: null,
-    countryOrigin: 'États-Unis',
+    countryOrigin: ['États-Unis'],
   },
   {
     title: 'Final Girl',
@@ -678,7 +678,7 @@ export const baseMoviesFromMarina: BaseMovie[] = [
     saga: '',
     description: '',
     fromEntity: null,
-    countryOrigin: 'États-Unis',
+    countryOrigin: ['États-Unis'],
   },
 
   /* Barbie 2001–2011 */
@@ -697,7 +697,7 @@ export const baseMoviesFromMarina: BaseMovie[] = [
     saga: '',
     description: '',
     fromEntity: null,
-    countryOrigin: 'États-Unis',
+    countryOrigin: ['États-Unis'],
   },
   {
     title: 'Barbie, princesse Raiponce',
@@ -714,7 +714,7 @@ export const baseMoviesFromMarina: BaseMovie[] = [
     saga: '',
     description: '',
     fromEntity: null,
-    countryOrigin: 'États-Unis',
+    countryOrigin: ['États-Unis'],
   },
   {
     title: 'Barbie et le Lac des cygnes',
@@ -731,7 +731,7 @@ export const baseMoviesFromMarina: BaseMovie[] = [
     saga: '',
     description: '',
     fromEntity: null,
-    countryOrigin: 'États-Unis',
+    countryOrigin: ['États-Unis'],
   },
   {
     title: 'Barbie : Cœur de princesse',
@@ -748,7 +748,7 @@ export const baseMoviesFromMarina: BaseMovie[] = [
     saga: '',
     description: '',
     fromEntity: null,
-    countryOrigin: 'États-Unis',
+    countryOrigin: ['États-Unis'],
   },
   {
     title: 'Barbie Fairytopia',
@@ -765,7 +765,7 @@ export const baseMoviesFromMarina: BaseMovie[] = [
     saga: '',
     description: '',
     fromEntity: null,
-    countryOrigin: 'États-Unis',
+    countryOrigin: ['États-Unis'],
   },
   {
     title: 'Barbie et le Cheval magique',
@@ -782,7 +782,7 @@ export const baseMoviesFromMarina: BaseMovie[] = [
     saga: '',
     description: '',
     fromEntity: null,
-    countryOrigin: 'États-Unis',
+    countryOrigin: ['États-Unis'],
   },
   {
     title: 'Barbie Fairytopia: Mermaidia',
@@ -799,7 +799,7 @@ export const baseMoviesFromMarina: BaseMovie[] = [
     saga: '',
     description: '',
     fromEntity: null,
-    countryOrigin: 'États-Unis',
+    countryOrigin: ['États-Unis'],
   },
   {
     title: 'Le Journal de Barbie',
@@ -816,7 +816,7 @@ export const baseMoviesFromMarina: BaseMovie[] = [
     saga: '',
     description: '',
     fromEntity: null,
-    countryOrigin: 'États-Unis',
+    countryOrigin: ['États-Unis'],
   },
   {
     title: 'Barbie au bal des douze princesses',
@@ -833,7 +833,7 @@ export const baseMoviesFromMarina: BaseMovie[] = [
     saga: '',
     description: '',
     fromEntity: null,
-    countryOrigin: 'États-Unis',
+    countryOrigin: ['États-Unis'],
   },
   {
     title: "Barbie Fairytopia: Magie de l'arc-en-ciel",
@@ -850,7 +850,7 @@ export const baseMoviesFromMarina: BaseMovie[] = [
     saga: '',
     description: '',
     fromEntity: null,
-    countryOrigin: 'États-Unis',
+    countryOrigin: ['États-Unis'],
   },
   {
     title: "Barbie, princesse de l'Île merveilleuse",
@@ -867,7 +867,7 @@ export const baseMoviesFromMarina: BaseMovie[] = [
     saga: '',
     description: '',
     fromEntity: null,
-    countryOrigin: 'États-Unis',
+    countryOrigin: ['États-Unis'],
   },
   {
     title: 'Barbie: Mariposa et ses amies les fées papillons',
@@ -884,7 +884,7 @@ export const baseMoviesFromMarina: BaseMovie[] = [
     saga: '',
     description: '',
     fromEntity: null,
-    countryOrigin: 'États-Unis',
+    countryOrigin: ['États-Unis'],
   },
   {
     title: 'Barbie et le Palais de diamant',
@@ -901,7 +901,7 @@ export const baseMoviesFromMarina: BaseMovie[] = [
     saga: '',
     description: '',
     fromEntity: null,
-    countryOrigin: 'États-Unis',
+    countryOrigin: ['États-Unis'],
   },
   {
     title: 'Barbie et la Magie de Noël',
@@ -918,7 +918,7 @@ export const baseMoviesFromMarina: BaseMovie[] = [
     saga: '',
     description: '',
     fromEntity: null,
-    countryOrigin: 'États-Unis',
+    countryOrigin: ['États-Unis'],
   },
   {
     title: 'Barbie présente Lilipucia',
@@ -935,7 +935,7 @@ export const baseMoviesFromMarina: BaseMovie[] = [
     saga: '',
     description: '',
     fromEntity: null,
-    countryOrigin: 'États-Unis',
+    countryOrigin: ['États-Unis'],
   },
   {
     title: 'Barbie et les Trois Mousquetaires',
@@ -952,7 +952,7 @@ export const baseMoviesFromMarina: BaseMovie[] = [
     saga: '',
     description: '',
     fromEntity: null,
-    countryOrigin: 'États-Unis',
+    countryOrigin: ['États-Unis'],
   },
   {
     title: 'Barbie et le Secret des sirènes',
@@ -969,7 +969,7 @@ export const baseMoviesFromMarina: BaseMovie[] = [
     saga: '',
     description: '',
     fromEntity: null,
-    countryOrigin: 'États-Unis',
+    countryOrigin: ['États-Unis'],
   },
   {
     title: 'Barbie: La Magie de la mode',
@@ -986,7 +986,7 @@ export const baseMoviesFromMarina: BaseMovie[] = [
     saga: '',
     description: '',
     fromEntity: null,
-    countryOrigin: 'États-Unis',
+    countryOrigin: ['États-Unis'],
   },
   {
     title: 'Barbie: Le Secret des fées',
@@ -1003,7 +1003,7 @@ export const baseMoviesFromMarina: BaseMovie[] = [
     saga: '',
     description: '',
     fromEntity: null,
-    countryOrigin: 'États-Unis',
+    countryOrigin: ['États-Unis'],
   },
   {
     title: 'Barbie, apprentie princesse',
@@ -1020,7 +1020,7 @@ export const baseMoviesFromMarina: BaseMovie[] = [
     saga: '',
     description: '',
     fromEntity: null,
-    countryOrigin: 'États-Unis',
+    countryOrigin: ['États-Unis'],
   },
 
   /* Barbie 2012–2017 */
@@ -1039,7 +1039,7 @@ export const baseMoviesFromMarina: BaseMovie[] = [
     saga: '',
     description: '',
     fromEntity: null,
-    countryOrigin: 'États-Unis',
+    countryOrigin: ['États-Unis'],
   },
   {
     title: 'Barbie : La Princesse et la Popstar',
@@ -1056,7 +1056,7 @@ export const baseMoviesFromMarina: BaseMovie[] = [
     saga: '',
     description: '',
     fromEntity: null,
-    countryOrigin: 'États-Unis',
+    countryOrigin: ['États-Unis'],
   },
   {
     title: 'Barbie : Rêve de danseuse étoile',
@@ -1074,7 +1074,7 @@ export const baseMoviesFromMarina: BaseMovie[] = [
     saga: '',
     description: '',
     fromEntity: null,
-    countryOrigin: 'États-Unis',
+    countryOrigin: ['États-Unis'],
   },
   {
     title: 'Barbie : Mariposa et le Royaume des fées',
@@ -1091,7 +1091,7 @@ export const baseMoviesFromMarina: BaseMovie[] = [
     saga: '',
     description: '',
     fromEntity: null,
-    countryOrigin: 'États-Unis',
+    countryOrigin: ['États-Unis'],
   },
   {
     title: 'Barbie et ses sœurs au club hippique',
@@ -1108,7 +1108,7 @@ export const baseMoviesFromMarina: BaseMovie[] = [
     saga: '',
     description: '',
     fromEntity: null,
-    countryOrigin: 'États-Unis',
+    countryOrigin: ['États-Unis'],
   },
   {
     title: 'Barbie et la Magie des perles',
@@ -1125,7 +1125,7 @@ export const baseMoviesFromMarina: BaseMovie[] = [
     saga: '',
     description: '',
     fromEntity: null,
-    countryOrigin: 'États-Unis',
+    countryOrigin: ['États-Unis'],
   },
   {
     title: 'Barbie et la Porte secrète',
@@ -1142,7 +1142,7 @@ export const baseMoviesFromMarina: BaseMovie[] = [
     saga: '',
     description: '',
     fromEntity: null,
-    countryOrigin: 'États-Unis',
+    countryOrigin: ['États-Unis'],
   },
   {
     title: 'Barbie en super princesse',
@@ -1159,7 +1159,7 @@ export const baseMoviesFromMarina: BaseMovie[] = [
     saga: '',
     description: '',
     fromEntity: null,
-    countryOrigin: 'États-Unis',
+    countryOrigin: ['États-Unis'],
   },
   {
     title: 'Barbie : Rock et Royales',
@@ -1176,7 +1176,7 @@ export const baseMoviesFromMarina: BaseMovie[] = [
     saga: '',
     description: '',
     fromEntity: null,
-    countryOrigin: 'États-Unis',
+    countryOrigin: ['États-Unis'],
   },
   {
     title: 'Barbie et ses sœurs : La Grande Aventure des chiots',
@@ -1193,7 +1193,7 @@ export const baseMoviesFromMarina: BaseMovie[] = [
     saga: '',
     description: '',
     fromEntity: null,
-    countryOrigin: 'États-Unis',
+    countryOrigin: ['États-Unis'],
   },
   {
     title: 'Barbie : Agents secrets',
@@ -1210,7 +1210,7 @@ export const baseMoviesFromMarina: BaseMovie[] = [
     saga: '',
     description: '',
     fromEntity: null,
-    countryOrigin: 'États-Unis',
+    countryOrigin: ['États-Unis'],
   },
   {
     title: 'Barbie : Aventure dans les étoiles',
@@ -1227,7 +1227,7 @@ export const baseMoviesFromMarina: BaseMovie[] = [
     saga: '',
     description: '',
     fromEntity: null,
-    countryOrigin: 'États-Unis',
+    countryOrigin: ['États-Unis'],
   },
   {
     title: 'Barbie et ses sœurs : À la recherche des chiots',
@@ -1244,7 +1244,7 @@ export const baseMoviesFromMarina: BaseMovie[] = [
     saga: '',
     description: '',
     fromEntity: null,
-    countryOrigin: 'États-Unis',
+    countryOrigin: ['États-Unis'],
   },
   {
     title: 'Barbie : Héroïne de jeu vidéo',
@@ -1261,7 +1261,7 @@ export const baseMoviesFromMarina: BaseMovie[] = [
     saga: '',
     description: '',
     fromEntity: null,
-    countryOrigin: 'États-Unis',
+    countryOrigin: ['États-Unis'],
   },
 
   /* Liste 2 – Autres films */
@@ -1281,7 +1281,7 @@ export const baseMoviesFromMarina: BaseMovie[] = [
     saga: '',
     description: '',
     fromEntity: null,
-    countryOrigin: 'États-Unis',
+    countryOrigin: ['États-Unis'],
   },
   {
     title: 'Le cas 39',
@@ -1299,7 +1299,7 @@ export const baseMoviesFromMarina: BaseMovie[] = [
     saga: '',
     description: '',
     fromEntity: null,
-    countryOrigin: 'États-Unis',
+    countryOrigin: ['États-Unis'],
   },
   {
     title: 'Tin et Tina',
@@ -1317,7 +1317,7 @@ export const baseMoviesFromMarina: BaseMovie[] = [
     saga: '',
     description: '',
     fromEntity: null,
-    countryOrigin: 'Espagne',
+    countryOrigin: ['Espagne'],
   },
   {
     title: 'Run Rabbit Run',
@@ -1335,7 +1335,7 @@ export const baseMoviesFromMarina: BaseMovie[] = [
     saga: '',
     description: '',
     fromEntity: null,
-    countryOrigin: 'Australie',
+    countryOrigin: ['Australie'],
   },
   {
     title: 'Eli',
@@ -1353,7 +1353,7 @@ export const baseMoviesFromMarina: BaseMovie[] = [
     saga: '',
     description: '',
     fromEntity: null,
-    countryOrigin: 'États-Unis',
+    countryOrigin: ['États-Unis'],
   },
   {
     title: 'Autant en emporte le vent',
@@ -1371,7 +1371,7 @@ export const baseMoviesFromMarina: BaseMovie[] = [
     saga: '',
     description: '',
     fromEntity: null,
-    countryOrigin: 'États-Unis',
+    countryOrigin: ['États-Unis'],
   },
   {
     title: 'Barbare',
@@ -1389,7 +1389,7 @@ export const baseMoviesFromMarina: BaseMovie[] = [
     saga: '',
     description: '',
     fromEntity: null,
-    countryOrigin: 'États-Unis',
+    countryOrigin: ['États-Unis'],
   },
   {
     title: 'Le coup du siècle',
@@ -1407,7 +1407,7 @@ export const baseMoviesFromMarina: BaseMovie[] = [
     saga: '',
     description: '',
     fromEntity: null,
-    countryOrigin: 'Royaume-Uni',
+    countryOrigin: ['Royaume-Uni'],
   },
   {
     title: 'Us',
@@ -1425,7 +1425,7 @@ export const baseMoviesFromMarina: BaseMovie[] = [
     saga: '',
     description: '',
     fromEntity: null,
-    countryOrigin: 'États-Unis',
+    countryOrigin: ['États-Unis'],
   },
   {
     title: 'Les guetteurs',
@@ -1443,7 +1443,7 @@ export const baseMoviesFromMarina: BaseMovie[] = [
     saga: '',
     description: '',
     fromEntity: null,
-    countryOrigin: 'États-Unis',
+    countryOrigin: ['États-Unis'],
   },
   {
     title: 'Midsommar',
@@ -1461,7 +1461,7 @@ export const baseMoviesFromMarina: BaseMovie[] = [
     saga: '',
     description: '',
     fromEntity: null,
-    countryOrigin: 'États-Unis',
+    countryOrigin: ['États-Unis'],
   },
   {
     title: 'I See You',
@@ -1479,7 +1479,7 @@ export const baseMoviesFromMarina: BaseMovie[] = [
     saga: '',
     description: '',
     fromEntity: null,
-    countryOrigin: 'États-Unis',
+    countryOrigin: ['États-Unis'],
   },
 
   /* Liste 4 – Thrillers / divers */
@@ -1499,7 +1499,7 @@ export const baseMoviesFromMarina: BaseMovie[] = [
     saga: '',
     description: '',
     fromEntity: null,
-    countryOrigin: 'États-Unis',
+    countryOrigin: ['États-Unis'],
   },
   {
     title: 'Baba Yaga',
@@ -1517,7 +1517,7 @@ export const baseMoviesFromMarina: BaseMovie[] = [
     saga: '',
     description: '',
     fromEntity: null,
-    countryOrigin: 'États-Unis',
+    countryOrigin: ['États-Unis'],
   },
   {
     title: 'Dans les angles morts',
@@ -1535,7 +1535,7 @@ export const baseMoviesFromMarina: BaseMovie[] = [
     saga: '',
     description: '',
     fromEntity: null,
-    countryOrigin: 'États-Unis',
+    countryOrigin: ['États-Unis'],
   },
   {
     title: 'Identity',
@@ -1553,7 +1553,7 @@ export const baseMoviesFromMarina: BaseMovie[] = [
     saga: '',
     description: '',
     fromEntity: null,
-    countryOrigin: 'États-Unis',
+    countryOrigin: ['États-Unis'],
   },
   {
     title: 'Jeu intérieur',
@@ -1571,7 +1571,7 @@ export const baseMoviesFromMarina: BaseMovie[] = [
     saga: '',
     description: '',
     fromEntity: null,
-    countryOrigin: 'États-Unis',
+    countryOrigin: ['États-Unis'],
   },
   {
     title: 'Re Member',
@@ -1589,7 +1589,7 @@ export const baseMoviesFromMarina: BaseMovie[] = [
     saga: '',
     description: '',
     fromEntity: null,
-    countryOrigin: 'États-Unis',
+    countryOrigin: ['États-Unis'],
   },
   {
     title: "Ne t'endors pas",
@@ -1607,7 +1607,7 @@ export const baseMoviesFromMarina: BaseMovie[] = [
     saga: '',
     description: '',
     fromEntity: null,
-    countryOrigin: 'États-Unis',
+    countryOrigin: ['États-Unis'],
   },
   {
     title: "Don't Worry Darling",
@@ -1625,7 +1625,7 @@ export const baseMoviesFromMarina: BaseMovie[] = [
     saga: '',
     description: '',
     fromEntity: null,
-    countryOrigin: 'États-Unis',
+    countryOrigin: ['États-Unis'],
   },
   {
     title: 'Les couleurs du mal Rouge',
@@ -1643,7 +1643,7 @@ export const baseMoviesFromMarina: BaseMovie[] = [
     saga: '',
     description: '',
     fromEntity: null,
-    countryOrigin: 'États-Unis',
+    countryOrigin: ['États-Unis'],
   },
   {
     title: 'The Privilege',
@@ -1661,7 +1661,7 @@ export const baseMoviesFromMarina: BaseMovie[] = [
     saga: '',
     description: '',
     fromEntity: null,
-    countryOrigin: 'Allemagne',
+    countryOrigin: ['Allemagne'],
   },
   {
     title: 'Séminaire',
@@ -1679,7 +1679,7 @@ export const baseMoviesFromMarina: BaseMovie[] = [
     saga: '',
     description: '',
     fromEntity: null,
-    countryOrigin: 'États-Unis',
+    countryOrigin: ['États-Unis'],
   },
   {
     title: "N'écoute pas",
@@ -1697,7 +1697,7 @@ export const baseMoviesFromMarina: BaseMovie[] = [
     saga: '',
     description: '',
     fromEntity: null,
-    countryOrigin: 'États-Unis',
+    countryOrigin: ['États-Unis'],
   },
   {
     title: 'Creep',
@@ -1710,7 +1710,7 @@ export const baseMoviesFromMarina: BaseMovie[] = [
     saga: '',
     description: '',
     fromEntity: null,
-    countryOrigin: 'États-Unis',
+    countryOrigin: ['États-Unis'],
   },
   {
     title: 'Hypnotique',
@@ -1728,7 +1728,7 @@ export const baseMoviesFromMarina: BaseMovie[] = [
     saga: '',
     description: '',
     fromEntity: null,
-    countryOrigin: 'États-Unis',
+    countryOrigin: ['États-Unis'],
   },
   {
     title: "Don't Move",
@@ -1746,7 +1746,7 @@ export const baseMoviesFromMarina: BaseMovie[] = [
     saga: '',
     description: '',
     fromEntity: null,
-    countryOrigin: 'États-Unis',
+    countryOrigin: ['États-Unis'],
   },
   {
     title: 'La prison de verre',
@@ -1764,7 +1764,7 @@ export const baseMoviesFromMarina: BaseMovie[] = [
     saga: '',
     description: '',
     fromEntity: null,
-    countryOrigin: 'États-Unis',
+    countryOrigin: ['États-Unis'],
   },
   {
     title: 'Locked In',
@@ -1782,7 +1782,7 @@ export const baseMoviesFromMarina: BaseMovie[] = [
     saga: '',
     description: '',
     fromEntity: null,
-    countryOrigin: 'Royaume-Uni',
+    countryOrigin: ['Royaume-Uni'],
   },
   {
     title: 'Brick',
@@ -1800,7 +1800,7 @@ export const baseMoviesFromMarina: BaseMovie[] = [
     saga: '',
     description: '',
     fromEntity: null,
-    countryOrigin: 'États-Unis',
+    countryOrigin: ['États-Unis'],
   },
   {
     title: 'Irrémédiable',
@@ -1818,7 +1818,7 @@ export const baseMoviesFromMarina: BaseMovie[] = [
     saga: '',
     description: '',
     fromEntity: null,
-    countryOrigin: 'États-Unis',
+    countryOrigin: ['États-Unis'],
   },
   {
     title: 'Chez moi',
@@ -1836,7 +1836,7 @@ export const baseMoviesFromMarina: BaseMovie[] = [
     saga: '',
     description: '',
     fromEntity: null,
-    countryOrigin: 'États-Unis',
+    countryOrigin: ['États-Unis'],
   },
   {
     title: 'Wounds',
@@ -1854,7 +1854,7 @@ export const baseMoviesFromMarina: BaseMovie[] = [
     saga: '',
     description: '',
     fromEntity: null,
-    countryOrigin: 'États-Unis',
+    countryOrigin: ['États-Unis'],
   },
   {
     title: 'The Perfection',
@@ -1872,7 +1872,7 @@ export const baseMoviesFromMarina: BaseMovie[] = [
     saga: '',
     description: '',
     fromEntity: null,
-    countryOrigin: 'États-Unis',
+    countryOrigin: ['États-Unis'],
   },
   {
     title: 'Eileen',
@@ -1890,7 +1890,7 @@ export const baseMoviesFromMarina: BaseMovie[] = [
     saga: '',
     description: '',
     fromEntity: null,
-    countryOrigin: 'États-Unis',
+    countryOrigin: ['États-Unis'],
   },
   {
     title: 'Escape Game 2',
@@ -1908,7 +1908,7 @@ export const baseMoviesFromMarina: BaseMovie[] = [
     saga: '',
     description: '',
     fromEntity: null,
-    countryOrigin: 'États-Unis',
+    countryOrigin: ['États-Unis'],
   },
   {
     title: 'Ma sorcière bien aimée',
@@ -1926,7 +1926,7 @@ export const baseMoviesFromMarina: BaseMovie[] = [
     saga: '',
     description: '',
     fromEntity: null,
-    countryOrigin: 'États-Unis',
+    countryOrigin: ['États-Unis'],
   },
   {
     title: 'Astérix et le Coup du menhir',
@@ -1943,7 +1943,7 @@ export const baseMoviesFromMarina: BaseMovie[] = [
     saga: '',
     description: '',
     fromEntity: null,
-    countryOrigin: 'France',
+    countryOrigin: ['France'],
   },
   {
     title: 'Astérix chez les Bretons',
@@ -1960,7 +1960,7 @@ export const baseMoviesFromMarina: BaseMovie[] = [
     saga: '',
     description: '',
     fromEntity: null,
-    countryOrigin: 'France',
+    countryOrigin: ['France'],
   },
   {
     title: 'Astérix et la Surprise de César',
@@ -1977,7 +1977,7 @@ export const baseMoviesFromMarina: BaseMovie[] = [
     saga: '',
     description: '',
     fromEntity: null,
-    countryOrigin: 'France',
+    countryOrigin: ['France'],
   },
   {
     title: "Les 12 Travaux d'Astérix",
@@ -1994,7 +1994,7 @@ export const baseMoviesFromMarina: BaseMovie[] = [
     saga: '',
     description: '',
     fromEntity: null,
-    countryOrigin: 'France',
+    countryOrigin: ['France'],
   },
   {
     title: 'Astérix le Gaulois',
@@ -2011,7 +2011,7 @@ export const baseMoviesFromMarina: BaseMovie[] = [
     saga: '',
     description: '',
     fromEntity: null,
-    countryOrigin: 'France',
+    countryOrigin: ['France'],
   },
   {
     title: 'Kirikou et la Sorcière',
@@ -2029,7 +2029,7 @@ export const baseMoviesFromMarina: BaseMovie[] = [
     saga: '',
     description: '',
     fromEntity: null,
-    countryOrigin: 'France',
+    countryOrigin: ['France'],
   },
   {
     title: 'Le magasin des suicides',
@@ -2047,7 +2047,7 @@ export const baseMoviesFromMarina: BaseMovie[] = [
     saga: '',
     description: '',
     fromEntity: null,
-    countryOrigin: 'France',
+    countryOrigin: ['France'],
   },
   {
     title: 'Charlie et la Chocolaterie',
@@ -2065,7 +2065,7 @@ export const baseMoviesFromMarina: BaseMovie[] = [
     saga: '',
     description: '',
     fromEntity: null,
-    countryOrigin: 'États-Unis',
+    countryOrigin: ['États-Unis'],
   },
   {
     title: 'Kuzco 2',
@@ -2083,7 +2083,7 @@ export const baseMoviesFromMarina: BaseMovie[] = [
     saga: '',
     description: '',
     fromEntity: null,
-    countryOrigin: 'États-Unis',
+    countryOrigin: ['États-Unis'],
   },
   {
     title: 'Camp Rock',
@@ -2101,7 +2101,7 @@ export const baseMoviesFromMarina: BaseMovie[] = [
     saga: '',
     description: '',
     fromEntity: null,
-    countryOrigin: 'États-Unis',
+    countryOrigin: ['États-Unis'],
   },
   {
     title: 'Camp Rock 2',
@@ -2119,6 +2119,6 @@ export const baseMoviesFromMarina: BaseMovie[] = [
     saga: '',
     description: '',
     fromEntity: null,
-    countryOrigin: 'États-Unis',
+    countryOrigin: ['États-Unis'],
   },
 ];

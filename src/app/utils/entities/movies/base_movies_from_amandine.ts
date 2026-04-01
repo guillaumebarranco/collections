@@ -22,7 +22,7 @@ export const baseMoviesFromAmandine: BaseMovie[] = [
       title: 'Frankenstein',
       secondEntityKey: 'Mary Shelley',
     },
-    countryOrigin: 'États-Unis',
+    countryOrigin: ['États-Unis'],
   },
   {
     title: 'Wicked',
@@ -35,7 +35,7 @@ export const baseMoviesFromAmandine: BaseMovie[] = [
     saga: '',
     description: '',
     fromEntity: null,
-    countryOrigin: 'États-Unis',
+    countryOrigin: ['États-Unis'],
   },
   {
     title: 'Wonka',
@@ -59,7 +59,7 @@ export const baseMoviesFromAmandine: BaseMovie[] = [
       title: 'Charlie et la Chocolaterie',
       secondEntityKey: 'Roald Dahl',
     },
-    countryOrigin: 'États-Unis',
+    countryOrigin: ['États-Unis'],
   },
   {
     title: 'La Petite Sirène',
@@ -72,7 +72,7 @@ export const baseMoviesFromAmandine: BaseMovie[] = [
     saga: '',
     description: '',
     fromEntity: null,
-    countryOrigin: 'États-Unis',
+    countryOrigin: ['États-Unis'],
   },
   {
     title: "Donjons & Dragons : L'Honneur des voleurs",
@@ -86,7 +86,7 @@ export const baseMoviesFromAmandine: BaseMovie[] = [
     saga: '',
     description: '',
     fromEntity: null,
-    countryOrigin: 'États-Unis',
+    countryOrigin: ['États-Unis'],
   },
   {
     title: 'Il était une fois 2',
@@ -99,7 +99,7 @@ export const baseMoviesFromAmandine: BaseMovie[] = [
     saga: '',
     description: '',
     fromEntity: null,
-    countryOrigin: 'États-Unis',
+    countryOrigin: ['États-Unis'],
   },
   {
     title: 'Pinocchio',
@@ -117,7 +117,7 @@ export const baseMoviesFromAmandine: BaseMovie[] = [
     saga: '',
     description: '',
     fromEntity: null,
-    countryOrigin: 'États-Unis',
+    countryOrigin: ['États-Unis'],
   },
   {
     title: 'Blonde',
@@ -130,7 +130,7 @@ export const baseMoviesFromAmandine: BaseMovie[] = [
     saga: '',
     description: '',
     fromEntity: null,
-    countryOrigin: 'États-Unis',
+    countryOrigin: ['États-Unis'],
   },
   {
     title: 'Elvis',
@@ -143,7 +143,7 @@ export const baseMoviesFromAmandine: BaseMovie[] = [
     saga: '',
     description: '',
     fromEntity: null,
-    countryOrigin: 'États-Unis',
+    countryOrigin: ['États-Unis'],
   },
   {
     title: 'Downton Abbey II : Une nouvelle ère',
@@ -156,7 +156,7 @@ export const baseMoviesFromAmandine: BaseMovie[] = [
     saga: '',
     description: '',
     fromEntity: null,
-    countryOrigin: 'États-Unis',
+    countryOrigin: ['États-Unis'],
   },
 
   {
@@ -174,7 +174,7 @@ export const baseMoviesFromAmandine: BaseMovie[] = [
       title: 'Mort sur le Nil',
       secondEntityKey: 'Agatha Christie',
     },
-    countryOrigin: 'États-Unis',
+    countryOrigin: ['États-Unis'],
   },
 
   {
@@ -188,7 +188,7 @@ export const baseMoviesFromAmandine: BaseMovie[] = [
     saga: '',
     description: '',
     fromEntity: null,
-    countryOrigin: 'États-Unis',
+    countryOrigin: ['États-Unis'],
   },
 
   {
@@ -202,7 +202,7 @@ export const baseMoviesFromAmandine: BaseMovie[] = [
     saga: '',
     description: '',
     fromEntity: null,
-    countryOrigin: 'États-Unis',
+    countryOrigin: ['États-Unis'],
   },
   {
     title: 'Old',
@@ -215,7 +215,7 @@ export const baseMoviesFromAmandine: BaseMovie[] = [
     saga: '',
     description: '',
     fromEntity: null,
-    countryOrigin: 'États-Unis',
+    countryOrigin: ['États-Unis'],
   },
   {
     title: 'Cruella',
@@ -228,7 +228,7 @@ export const baseMoviesFromAmandine: BaseMovie[] = [
     saga: '',
     description: '',
     fromEntity: null,
-    countryOrigin: 'États-Unis',
+    countryOrigin: ['États-Unis'],
   },
 
   {
@@ -242,7 +242,7 @@ export const baseMoviesFromAmandine: BaseMovie[] = [
     saga: '',
     description: '',
     fromEntity: null,
-    countryOrigin: 'États-Unis',
+    countryOrigin: ['États-Unis'],
   },
   {
     title: '2 Hearts',
@@ -255,7 +255,7 @@ export const baseMoviesFromAmandine: BaseMovie[] = [
     saga: '',
     description: '',
     fromEntity: null,
-    countryOrigin: 'États-Unis',
+    countryOrigin: ['États-Unis'],
   },
   {
     title: 'Rebecca',
@@ -268,7 +268,7 @@ export const baseMoviesFromAmandine: BaseMovie[] = [
     saga: '',
     description: '',
     fromEntity: null,
-    countryOrigin: 'États-Unis',
+    countryOrigin: ['États-Unis'],
   },
 
   {
@@ -283,7 +283,7 @@ export const baseMoviesFromAmandine: BaseMovie[] = [
     saga: '',
     description: '',
     fromEntity: null,
-    countryOrigin: 'États-Unis',
+    countryOrigin: ['États-Unis'],
   },
 
   {
@@ -305,7 +305,7 @@ export const baseMoviesFromAmandine: BaseMovie[] = [
     saga: '',
     description: '',
     fromEntity: null,
-    countryOrigin: 'États-Unis',
+    countryOrigin: ['États-Unis'],
   },
   {
     title: 'The Gentlemen',
@@ -318,7 +318,7 @@ export const baseMoviesFromAmandine: BaseMovie[] = [
     saga: '',
     description: '',
     fromEntity: null,
-    countryOrigin: 'États-Unis',
+    countryOrigin: ['États-Unis'],
   },
   {
     title: 'La Belle et le Clochard',
@@ -331,7 +331,7 @@ export const baseMoviesFromAmandine: BaseMovie[] = [
     saga: '',
     description: '',
     fromEntity: null,
-    countryOrigin: 'États-Unis',
+    countryOrigin: ['États-Unis'],
   },
   {
     title: 'Maléfique : Le Pouvoir du Mal',
@@ -344,7 +344,7 @@ export const baseMoviesFromAmandine: BaseMovie[] = [
     saga: 'Disney Live Action',
     description: '',
     fromEntity: null,
-    countryOrigin: 'États-Unis',
+    countryOrigin: ['États-Unis'],
   },
   {
     title: 'The King',
@@ -358,7 +358,7 @@ export const baseMoviesFromAmandine: BaseMovie[] = [
     saga: '',
     description: '',
     fromEntity: null,
-    countryOrigin: 'États-Unis',
+    countryOrigin: ['États-Unis'],
   },
   {
     title: 'Parasite',
@@ -378,7 +378,7 @@ export const baseMoviesFromAmandine: BaseMovie[] = [
     saga: '',
     description: '',
     fromEntity: null,
-    countryOrigin: 'Corée du Sud',
+    countryOrigin: ['Corée du Sud'],
   },
   {
     title: 'Rocketman',
@@ -391,7 +391,7 @@ export const baseMoviesFromAmandine: BaseMovie[] = [
     saga: '',
     description: '',
     fromEntity: null,
-    countryOrigin: 'États-Unis',
+    countryOrigin: ['États-Unis'],
   },
   {
     title: 'Pokémon : Détective Pikachu',
@@ -408,7 +408,7 @@ export const baseMoviesFromAmandine: BaseMovie[] = [
       title: 'Pokémon Bleu',
       secondEntityKey: 'Game Freak',
     },
-    countryOrigin: 'États-Unis',
+    countryOrigin: ['États-Unis'],
   },
   {
     title: 'Dumbo',
@@ -421,7 +421,7 @@ export const baseMoviesFromAmandine: BaseMovie[] = [
     saga: 'Disney Live Action',
     description: '',
     fromEntity: null,
-    countryOrigin: 'États-Unis',
+    countryOrigin: ['États-Unis'],
   },
   {
     title: 'Le Retour de Mary Poppins',
@@ -434,7 +434,7 @@ export const baseMoviesFromAmandine: BaseMovie[] = [
     saga: '',
     description: '',
     fromEntity: null,
-    countryOrigin: 'États-Unis',
+    countryOrigin: ['États-Unis'],
   },
   {
     title: 'Bohemian Rhapsody',
@@ -447,7 +447,7 @@ export const baseMoviesFromAmandine: BaseMovie[] = [
     saga: '',
     description: '',
     fromEntity: null,
-    countryOrigin: 'États-Unis',
+    countryOrigin: ['États-Unis'],
   },
   {
     title: 'Mamma Mia! Here We Go Again',
@@ -460,7 +460,7 @@ export const baseMoviesFromAmandine: BaseMovie[] = [
     saga: '',
     description: '',
     fromEntity: null,
-    countryOrigin: 'États-Unis',
+    countryOrigin: ['États-Unis'],
   },
 
   {
@@ -474,7 +474,7 @@ export const baseMoviesFromAmandine: BaseMovie[] = [
     saga: '',
     description: '',
     fromEntity: null,
-    countryOrigin: 'États-Unis',
+    countryOrigin: ['États-Unis'],
   },
   {
     title: 'Tomb Raider',
@@ -487,7 +487,7 @@ export const baseMoviesFromAmandine: BaseMovie[] = [
     saga: '',
     description: '',
     fromEntity: null,
-    countryOrigin: 'États-Unis',
+    countryOrigin: ['États-Unis'],
   },
   {
     title: 'Pitch Perfect 3',
@@ -500,7 +500,7 @@ export const baseMoviesFromAmandine: BaseMovie[] = [
     saga: '',
     description: '',
     fromEntity: null,
-    countryOrigin: 'États-Unis',
+    countryOrigin: ['États-Unis'],
   },
   {
     title: 'The Greatest Showman',
@@ -514,7 +514,7 @@ export const baseMoviesFromAmandine: BaseMovie[] = [
     saga: '',
     description: '',
     fromEntity: null,
-    countryOrigin: 'États-Unis',
+    countryOrigin: ['États-Unis'],
   },
   {
     title: 'Paddington 2',
@@ -534,7 +534,7 @@ export const baseMoviesFromAmandine: BaseMovie[] = [
     saga: '',
     description: '',
     fromEntity: null,
-    countryOrigin: 'Royaume-Uni',
+    countryOrigin: ['Royaume-Uni'],
   },
   {
     title: "Le Crime de l'Orient-Express",
@@ -551,7 +551,7 @@ export const baseMoviesFromAmandine: BaseMovie[] = [
       title: "Le Crime de l'Orient-Express",
       secondEntityKey: 'Agatha Christie',
     },
-    countryOrigin: 'États-Unis',
+    countryOrigin: ['États-Unis'],
   },
   {
     title: 'Miss Peregrine et les Enfants particuliers',
@@ -564,7 +564,7 @@ export const baseMoviesFromAmandine: BaseMovie[] = [
     saga: '',
     description: '',
     fromEntity: null,
-    countryOrigin: 'États-Unis',
+    countryOrigin: ['États-Unis'],
   },
   {
     title: 'Lion',
@@ -577,7 +577,7 @@ export const baseMoviesFromAmandine: BaseMovie[] = [
     saga: '',
     description: '',
     fromEntity: null,
-    countryOrigin: 'États-Unis',
+    countryOrigin: ['États-Unis'],
   },
   {
     title: 'Warcraft',
@@ -590,7 +590,7 @@ export const baseMoviesFromAmandine: BaseMovie[] = [
     saga: '',
     description: '',
     fromEntity: null,
-    countryOrigin: 'États-Unis',
+    countryOrigin: ['États-Unis'],
   },
   {
     title: 'Le Nouveau Stagiaire',
@@ -604,7 +604,7 @@ export const baseMoviesFromAmandine: BaseMovie[] = [
     saga: '',
     description: '',
     fromEntity: null,
-    countryOrigin: 'États-Unis',
+    countryOrigin: ['États-Unis'],
   },
 
   {
@@ -618,7 +618,7 @@ export const baseMoviesFromAmandine: BaseMovie[] = [
     saga: '',
     description: '',
     fromEntity: null,
-    countryOrigin: 'États-Unis',
+    countryOrigin: ['États-Unis'],
   },
   {
     title: 'Cendrillon',
@@ -631,7 +631,7 @@ export const baseMoviesFromAmandine: BaseMovie[] = [
     saga: '',
     description: '',
     fromEntity: null,
-    countryOrigin: 'États-Unis',
+    countryOrigin: ['États-Unis'],
   },
   {
     title: 'Paddington',
@@ -651,7 +651,7 @@ export const baseMoviesFromAmandine: BaseMovie[] = [
     saga: '',
     description: '',
     fromEntity: null,
-    countryOrigin: 'Royaume-Uni',
+    countryOrigin: ['Royaume-Uni'],
   },
   {
     title: 'Big Eyes',
@@ -664,7 +664,7 @@ export const baseMoviesFromAmandine: BaseMovie[] = [
     saga: '',
     description: '',
     fromEntity: null,
-    countryOrigin: 'États-Unis',
+    countryOrigin: ['États-Unis'],
   },
   {
     title: 'Snowpiercer',
@@ -677,7 +677,7 @@ export const baseMoviesFromAmandine: BaseMovie[] = [
     saga: '',
     description: '',
     fromEntity: null,
-    countryOrigin: 'Corée du Sud',
+    countryOrigin: ['Corée du Sud'],
   },
 
   {
@@ -691,7 +691,7 @@ export const baseMoviesFromAmandine: BaseMovie[] = [
     saga: '',
     description: '',
     fromEntity: null,
-    countryOrigin: 'États-Unis',
+    countryOrigin: ['États-Unis'],
   },
 
   {
@@ -709,7 +709,7 @@ export const baseMoviesFromAmandine: BaseMovie[] = [
       title: 'Les Misérables',
       secondEntityKey: 'Victor Hugo',
     },
-    countryOrigin: 'États-Unis',
+    countryOrigin: ['États-Unis'],
   },
 
   {
@@ -724,7 +724,7 @@ export const baseMoviesFromAmandine: BaseMovie[] = [
     saga: '',
     description: '',
     fromEntity: null,
-    countryOrigin: 'États-Unis',
+    countryOrigin: ['États-Unis'],
   },
   {
     title: 'Ted',
@@ -741,7 +741,7 @@ export const baseMoviesFromAmandine: BaseMovie[] = [
     saga: '',
     description: '',
     fromEntity: null,
-    countryOrigin: 'États-Unis',
+    countryOrigin: ['États-Unis'],
   },
   {
     title: 'Dark Shadows',
@@ -754,7 +754,7 @@ export const baseMoviesFromAmandine: BaseMovie[] = [
     saga: '',
     description: '',
     fromEntity: null,
-    countryOrigin: 'États-Unis',
+    countryOrigin: ['États-Unis'],
   },
 
   {
@@ -768,7 +768,7 @@ export const baseMoviesFromAmandine: BaseMovie[] = [
     saga: '',
     description: '',
     fromEntity: null,
-    countryOrigin: 'États-Unis',
+    countryOrigin: ['États-Unis'],
   },
 
   {
@@ -782,7 +782,7 @@ export const baseMoviesFromAmandine: BaseMovie[] = [
     saga: '',
     description: '',
     fromEntity: null,
-    countryOrigin: 'États-Unis',
+    countryOrigin: ['États-Unis'],
   },
   {
     title: "L'Apprenti sorcier",
@@ -795,7 +795,7 @@ export const baseMoviesFromAmandine: BaseMovie[] = [
     saga: '',
     description: '',
     fromEntity: null,
-    countryOrigin: 'États-Unis',
+    countryOrigin: ['États-Unis'],
   },
   {
     title: 'Sherlock Holmes',
@@ -812,7 +812,7 @@ export const baseMoviesFromAmandine: BaseMovie[] = [
       title: 'Une étude en rouge',
       secondEntityKey: 'Arthur Conan Doyle',
     },
-    countryOrigin: 'États-Unis',
+    countryOrigin: ['États-Unis'],
   },
   {
     title: "Sherlock Holmes : Jeu d'ombres",
@@ -839,7 +839,7 @@ export const baseMoviesFromAmandine: BaseMovie[] = [
       title: 'Une étude en rouge',
       secondEntityKey: 'Arthur Conan Doyle',
     },
-    countryOrigin: 'États-Unis',
+    countryOrigin: ['États-Unis'],
   },
   {
     title: 'Lovely Bones',
@@ -852,7 +852,7 @@ export const baseMoviesFromAmandine: BaseMovie[] = [
     saga: '',
     description: '',
     fromEntity: null,
-    countryOrigin: 'États-Unis',
+    countryOrigin: ['États-Unis'],
   },
   {
     title: "Jennifer's Body",
@@ -865,7 +865,7 @@ export const baseMoviesFromAmandine: BaseMovie[] = [
     saga: '',
     description: '',
     fromEntity: null,
-    countryOrigin: 'États-Unis',
+    countryOrigin: ['États-Unis'],
   },
   {
     title: 'District 9',
@@ -878,7 +878,7 @@ export const baseMoviesFromAmandine: BaseMovie[] = [
     saga: '',
     description: '',
     fromEntity: null,
-    countryOrigin: 'États-Unis',
+    countryOrigin: ['États-Unis'],
   },
   {
     title: 'Orphan',
@@ -892,7 +892,7 @@ export const baseMoviesFromAmandine: BaseMovie[] = [
     saga: '',
     description: '',
     fromEntity: null,
-    countryOrigin: 'États-Unis',
+    countryOrigin: ['États-Unis'],
   },
   {
     title: 'Public Enemies',
@@ -909,7 +909,7 @@ export const baseMoviesFromAmandine: BaseMovie[] = [
     saga: '',
     description: '',
     fromEntity: null,
-    countryOrigin: 'États-Unis',
+    countryOrigin: ['États-Unis'],
   },
 
   {
@@ -923,7 +923,7 @@ export const baseMoviesFromAmandine: BaseMovie[] = [
     saga: '',
     description: '',
     fromEntity: null,
-    countryOrigin: 'États-Unis',
+    countryOrigin: ['États-Unis'],
   },
   {
     title: 'Mamma Mia!',
@@ -936,7 +936,7 @@ export const baseMoviesFromAmandine: BaseMovie[] = [
     saga: '',
     description: '',
     fromEntity: null,
-    countryOrigin: 'États-Unis',
+    countryOrigin: ['États-Unis'],
   },
 
   {
@@ -950,7 +950,7 @@ export const baseMoviesFromAmandine: BaseMovie[] = [
     saga: '',
     description: '',
     fromEntity: null,
-    countryOrigin: 'États-Unis',
+    countryOrigin: ['États-Unis'],
   },
   {
     title: 'Sweeney Todd : Le Diabolique Barbier de Fleet Street',
@@ -963,7 +963,7 @@ export const baseMoviesFromAmandine: BaseMovie[] = [
     saga: '',
     description: '',
     fromEntity: null,
-    countryOrigin: 'États-Unis',
+    countryOrigin: ['États-Unis'],
   },
   {
     title: 'Enchanted',
@@ -976,7 +976,7 @@ export const baseMoviesFromAmandine: BaseMovie[] = [
     saga: '',
     description: '',
     fromEntity: null,
-    countryOrigin: 'États-Unis',
+    countryOrigin: ['États-Unis'],
   },
 
   {
@@ -990,7 +990,7 @@ export const baseMoviesFromAmandine: BaseMovie[] = [
     saga: '',
     description: '',
     fromEntity: null,
-    countryOrigin: 'États-Unis',
+    countryOrigin: ['États-Unis'],
   },
   {
     title: 'Hairspray',
@@ -1003,7 +1003,7 @@ export const baseMoviesFromAmandine: BaseMovie[] = [
     saga: '',
     description: '',
     fromEntity: null,
-    countryOrigin: 'États-Unis',
+    countryOrigin: ['États-Unis'],
   },
   {
     title: 'Le Secret de Terabithia',
@@ -1016,7 +1016,7 @@ export const baseMoviesFromAmandine: BaseMovie[] = [
     saga: '',
     description: '',
     fromEntity: null,
-    countryOrigin: 'États-Unis',
+    countryOrigin: ['États-Unis'],
   },
   {
     title: 'Le Labyrinthe de Pan',
@@ -1029,7 +1029,7 @@ export const baseMoviesFromAmandine: BaseMovie[] = [
     saga: '',
     description: '',
     fromEntity: null,
-    countryOrigin: 'Espagne',
+    countryOrigin: ['Espagne'],
   },
   {
     title: 'Marie Antoinette',
@@ -1042,7 +1042,7 @@ export const baseMoviesFromAmandine: BaseMovie[] = [
     saga: '',
     description: '',
     fromEntity: null,
-    countryOrigin: 'États-Unis',
+    countryOrigin: ['États-Unis'],
   },
   {
     title: 'Constantine',
@@ -1059,7 +1059,7 @@ export const baseMoviesFromAmandine: BaseMovie[] = [
     saga: '',
     description: '',
     fromEntity: null,
-    countryOrigin: 'États-Unis',
+    countryOrigin: ['États-Unis'],
   },
   {
     title: 'Aviator',
@@ -1076,7 +1076,7 @@ export const baseMoviesFromAmandine: BaseMovie[] = [
     saga: '',
     description: '',
     fromEntity: null,
-    countryOrigin: 'États-Unis',
+    countryOrigin: ['États-Unis'],
   },
   {
     title: 'Les déstreuses aventures des Orphelins Baudelaire',
@@ -1089,7 +1089,7 @@ export const baseMoviesFromAmandine: BaseMovie[] = [
     saga: '',
     description: '',
     fromEntity: null,
-    countryOrigin: 'États-Unis',
+    countryOrigin: ['États-Unis'],
   },
 
   {
@@ -1103,7 +1103,7 @@ export const baseMoviesFromAmandine: BaseMovie[] = [
     saga: '',
     description: '',
     fromEntity: null,
-    countryOrigin: 'États-Unis',
+    countryOrigin: ['États-Unis'],
   },
   {
     title: 'Comme Cendrillon',
@@ -1116,7 +1116,7 @@ export const baseMoviesFromAmandine: BaseMovie[] = [
     saga: '',
     description: '',
     fromEntity: null,
-    countryOrigin: 'États-Unis',
+    countryOrigin: ['États-Unis'],
   },
   {
     title: 'Troy',
@@ -1134,7 +1134,7 @@ export const baseMoviesFromAmandine: BaseMovie[] = [
       title: "L'iliade",
       secondEntityKey: 'Homère',
     },
-    countryOrigin: 'États-Unis',
+    countryOrigin: ['États-Unis'],
   },
   {
     title: 'Lolita malgré moi',
@@ -1147,7 +1147,7 @@ export const baseMoviesFromAmandine: BaseMovie[] = [
     saga: '',
     description: '',
     fromEntity: null,
-    countryOrigin: 'États-Unis',
+    countryOrigin: ['États-Unis'],
   },
   {
     title: '30 ans sinon rien',
@@ -1160,7 +1160,7 @@ export const baseMoviesFromAmandine: BaseMovie[] = [
     saga: '',
     description: '',
     fromEntity: null,
-    countryOrigin: 'États-Unis',
+    countryOrigin: ['États-Unis'],
   },
   {
     title: 'Ella au pays enchanté',
@@ -1173,7 +1173,7 @@ export const baseMoviesFromAmandine: BaseMovie[] = [
     saga: '',
     description: '',
     fromEntity: null,
-    countryOrigin: 'États-Unis',
+    countryOrigin: ['États-Unis'],
   },
   {
     title: 'Une nana au poil',
@@ -1186,7 +1186,7 @@ export const baseMoviesFromAmandine: BaseMovie[] = [
     saga: '',
     description: '',
     fromEntity: null,
-    countryOrigin: 'États-Unis',
+    countryOrigin: ['États-Unis'],
   },
   {
     title: 'Big Fish',
@@ -1199,7 +1199,7 @@ export const baseMoviesFromAmandine: BaseMovie[] = [
     saga: '',
     description: '',
     fromEntity: null,
-    countryOrigin: 'États-Unis',
+    countryOrigin: ['États-Unis'],
   },
   {
     title: 'Le Manoir hanté et les 999 Fantômes',
@@ -1212,7 +1212,7 @@ export const baseMoviesFromAmandine: BaseMovie[] = [
     saga: '',
     description: '',
     fromEntity: null,
-    countryOrigin: 'États-Unis',
+    countryOrigin: ['États-Unis'],
   },
   {
     title: 'Le Dernier Samouraï',
@@ -1225,7 +1225,7 @@ export const baseMoviesFromAmandine: BaseMovie[] = [
     saga: '',
     description: '',
     fromEntity: null,
-    countryOrigin: 'États-Unis',
+    countryOrigin: ['États-Unis'],
   },
   {
     title: 'George de la Jungle 2',
@@ -1238,7 +1238,7 @@ export const baseMoviesFromAmandine: BaseMovie[] = [
     saga: '',
     description: '',
     fromEntity: null,
-    countryOrigin: 'États-Unis',
+    countryOrigin: ['États-Unis'],
   },
   {
     title: 'Un vendredi dingue, dingue, dingue',
@@ -1255,7 +1255,7 @@ export const baseMoviesFromAmandine: BaseMovie[] = [
     saga: '',
     description: '',
     fromEntity: null,
-    countryOrigin: 'États-Unis',
+    countryOrigin: ['États-Unis'],
   },
 
   {
@@ -1269,7 +1269,7 @@ export const baseMoviesFromAmandine: BaseMovie[] = [
     saga: '',
     description: '',
     fromEntity: null,
-    countryOrigin: 'États-Unis',
+    countryOrigin: ['États-Unis'],
   },
   {
     title: 'Chicago',
@@ -1282,7 +1282,7 @@ export const baseMoviesFromAmandine: BaseMovie[] = [
     saga: '',
     description: '',
     fromEntity: null,
-    countryOrigin: 'États-Unis',
+    countryOrigin: ['États-Unis'],
   },
   {
     title: 'Tuck Everlasting',
@@ -1295,7 +1295,7 @@ export const baseMoviesFromAmandine: BaseMovie[] = [
     saga: '',
     description: '',
     fromEntity: null,
-    countryOrigin: 'États-Unis',
+    countryOrigin: ['États-Unis'],
   },
   {
     title: '8 Mile',
@@ -1308,7 +1308,7 @@ export const baseMoviesFromAmandine: BaseMovie[] = [
     saga: '',
     description: '',
     fromEntity: null,
-    countryOrigin: 'États-Unis',
+    countryOrigin: ['États-Unis'],
   },
   {
     title: 'Insomnia',
@@ -1321,7 +1321,7 @@ export const baseMoviesFromAmandine: BaseMovie[] = [
     saga: '',
     description: '',
     fromEntity: null,
-    countryOrigin: 'États-Unis',
+    countryOrigin: ['États-Unis'],
   },
 
   {
@@ -1335,7 +1335,7 @@ export const baseMoviesFromAmandine: BaseMovie[] = [
     saga: '',
     description: '',
     fromEntity: null,
-    countryOrigin: 'Espagne',
+    countryOrigin: ['Espagne'],
   },
 
   {
@@ -1349,7 +1349,7 @@ export const baseMoviesFromAmandine: BaseMovie[] = [
     saga: '',
     description: '',
     fromEntity: null,
-    countryOrigin: 'États-Unis',
+    countryOrigin: ['États-Unis'],
   },
   {
     title: 'Le Grinch',
@@ -1362,7 +1362,7 @@ export const baseMoviesFromAmandine: BaseMovie[] = [
     saga: '',
     description: '',
     fromEntity: null,
-    countryOrigin: 'États-Unis',
+    countryOrigin: ['États-Unis'],
   },
   {
     title: 'Drôles de dames',
@@ -1376,7 +1376,7 @@ export const baseMoviesFromAmandine: BaseMovie[] = [
     saga: '',
     description: '',
     fromEntity: null,
-    countryOrigin: 'États-Unis',
+    countryOrigin: ['États-Unis'],
   },
 
   {
@@ -1390,7 +1390,7 @@ export const baseMoviesFromAmandine: BaseMovie[] = [
     saga: '',
     description: '',
     fromEntity: null,
-    countryOrigin: 'États-Unis',
+    countryOrigin: ['États-Unis'],
   },
   {
     title: 'Stuart Little',
@@ -1403,7 +1403,7 @@ export const baseMoviesFromAmandine: BaseMovie[] = [
     saga: '',
     description: '',
     fromEntity: null,
-    countryOrigin: 'États-Unis',
+    countryOrigin: ['États-Unis'],
   },
   {
     title: 'Sleepy Hollow',
@@ -1416,7 +1416,7 @@ export const baseMoviesFromAmandine: BaseMovie[] = [
     saga: '',
     description: '',
     fromEntity: null,
-    countryOrigin: 'États-Unis',
+    countryOrigin: ['États-Unis'],
   },
   {
     title: 'Fight Club',
@@ -1429,7 +1429,7 @@ export const baseMoviesFromAmandine: BaseMovie[] = [
     saga: '',
     description: '',
     fromEntity: null,
-    countryOrigin: 'États-Unis',
+    countryOrigin: ['États-Unis'],
   },
 
   {
@@ -1443,7 +1443,7 @@ export const baseMoviesFromAmandine: BaseMovie[] = [
     saga: '',
     description: '',
     fromEntity: null,
-    countryOrigin: 'États-Unis',
+    countryOrigin: ['États-Unis'],
   },
 
   {
@@ -1458,7 +1458,7 @@ export const baseMoviesFromAmandine: BaseMovie[] = [
     saga: '',
     description: '',
     fromEntity: null,
-    countryOrigin: 'États-Unis',
+    countryOrigin: ['États-Unis'],
   },
 
   {
@@ -1472,7 +1472,7 @@ export const baseMoviesFromAmandine: BaseMovie[] = [
     saga: '',
     description: '',
     fromEntity: null,
-    countryOrigin: 'États-Unis',
+    countryOrigin: ['États-Unis'],
   },
   {
     title: "Souviens-toi... l'été dernier",
@@ -1488,7 +1488,7 @@ export const baseMoviesFromAmandine: BaseMovie[] = [
     saga: '',
     description: '',
     fromEntity: null,
-    countryOrigin: 'États-Unis',
+    countryOrigin: ['États-Unis'],
   },
   {
     title: 'Gattaca',
@@ -1501,7 +1501,7 @@ export const baseMoviesFromAmandine: BaseMovie[] = [
     saga: '',
     description: '',
     fromEntity: null,
-    countryOrigin: 'États-Unis',
+    countryOrigin: ['États-Unis'],
   },
   {
     title: 'Face/Off',
@@ -1515,7 +1515,7 @@ export const baseMoviesFromAmandine: BaseMovie[] = [
     saga: '',
     description: '',
     fromEntity: null,
-    countryOrigin: 'États-Unis',
+    countryOrigin: ['États-Unis'],
   },
   {
     title: 'Austin Powers',
@@ -1528,7 +1528,7 @@ export const baseMoviesFromAmandine: BaseMovie[] = [
     saga: 'Austin Powers',
     description: '',
     fromEntity: null,
-    countryOrigin: 'États-Unis',
+    countryOrigin: ['États-Unis'],
   },
   {
     title: 'Mars Attacks !',
@@ -1541,7 +1541,7 @@ export const baseMoviesFromAmandine: BaseMovie[] = [
     saga: '',
     description: '',
     fromEntity: null,
-    countryOrigin: 'États-Unis',
+    countryOrigin: ['États-Unis'],
   },
 
   {
@@ -1555,7 +1555,7 @@ export const baseMoviesFromAmandine: BaseMovie[] = [
     saga: '',
     description: '',
     fromEntity: null,
-    countryOrigin: 'États-Unis',
+    countryOrigin: ['États-Unis'],
   },
   {
     title: 'GoldenEye',
@@ -1568,7 +1568,7 @@ export const baseMoviesFromAmandine: BaseMovie[] = [
     saga: '',
     description: '',
     fromEntity: null,
-    countryOrigin: 'États-Unis',
+    countryOrigin: ['États-Unis'],
   },
   {
     title: 'Casper',
@@ -1581,7 +1581,7 @@ export const baseMoviesFromAmandine: BaseMovie[] = [
     saga: '',
     description: '',
     fromEntity: null,
-    countryOrigin: 'États-Unis',
+    countryOrigin: ['États-Unis'],
   },
   {
     title: 'Braveheart',
@@ -1594,7 +1594,7 @@ export const baseMoviesFromAmandine: BaseMovie[] = [
     saga: '',
     description: '',
     fromEntity: null,
-    countryOrigin: 'États-Unis',
+    countryOrigin: ['États-Unis'],
   },
   {
     title: 'Super Noël',
@@ -1607,7 +1607,7 @@ export const baseMoviesFromAmandine: BaseMovie[] = [
     saga: '',
     description: '',
     fromEntity: null,
-    countryOrigin: 'États-Unis',
+    countryOrigin: ['États-Unis'],
   },
   {
     title: 'Entretien avec un vampire',
@@ -1621,7 +1621,7 @@ export const baseMoviesFromAmandine: BaseMovie[] = [
     saga: '',
     description: '',
     fromEntity: null,
-    countryOrigin: 'États-Unis',
+    countryOrigin: ['États-Unis'],
   },
   {
     title: 'Un jour sans fin',
@@ -1634,7 +1634,7 @@ export const baseMoviesFromAmandine: BaseMovie[] = [
     saga: '',
     description: '',
     fromEntity: null,
-    countryOrigin: 'États-Unis',
+    countryOrigin: ['États-Unis'],
   },
   {
     title: '3 Ninjas',
@@ -1647,7 +1647,7 @@ export const baseMoviesFromAmandine: BaseMovie[] = [
     saga: '',
     description: '',
     fromEntity: null,
-    countryOrigin: 'États-Unis',
+    countryOrigin: ['États-Unis'],
   },
 
   {
@@ -1661,7 +1661,7 @@ export const baseMoviesFromAmandine: BaseMovie[] = [
     saga: '',
     description: '',
     fromEntity: null,
-    countryOrigin: 'États-Unis',
+    countryOrigin: ['États-Unis'],
   },
   {
     title: 'La Famille Addams',
@@ -1674,7 +1674,7 @@ export const baseMoviesFromAmandine: BaseMovie[] = [
     saga: '',
     description: '',
     fromEntity: null,
-    countryOrigin: 'États-Unis',
+    countryOrigin: ['États-Unis'],
   },
 
   {
@@ -1688,7 +1688,7 @@ export const baseMoviesFromAmandine: BaseMovie[] = [
     saga: '',
     description: '',
     fromEntity: null,
-    countryOrigin: 'États-Unis',
+    countryOrigin: ['États-Unis'],
   },
   {
     title: 'Ghost',
@@ -1701,7 +1701,7 @@ export const baseMoviesFromAmandine: BaseMovie[] = [
     saga: '',
     description: '',
     fromEntity: null,
-    countryOrigin: 'États-Unis',
+    countryOrigin: ['États-Unis'],
   },
   {
     title: 'Beetlejuice',
@@ -1714,7 +1714,7 @@ export const baseMoviesFromAmandine: BaseMovie[] = [
     saga: '',
     description: '',
     fromEntity: null,
-    countryOrigin: 'États-Unis',
+    countryOrigin: ['États-Unis'],
   },
   {
     title: 'Labyrinthe',
@@ -1727,7 +1727,7 @@ export const baseMoviesFromAmandine: BaseMovie[] = [
     saga: '',
     description: '',
     fromEntity: null,
-    countryOrigin: 'États-Unis',
+    countryOrigin: ['États-Unis'],
   },
   {
     title: 'Gremlins',
@@ -1740,7 +1740,7 @@ export const baseMoviesFromAmandine: BaseMovie[] = [
     saga: '',
     description: '',
     fromEntity: null,
-    countryOrigin: 'États-Unis',
+    countryOrigin: ['États-Unis'],
   },
 
   {
@@ -1754,7 +1754,7 @@ export const baseMoviesFromAmandine: BaseMovie[] = [
     saga: '',
     description: '',
     fromEntity: null,
-    countryOrigin: 'États-Unis',
+    countryOrigin: ['États-Unis'],
   },
   {
     title: 'Halloween',
@@ -1767,7 +1767,7 @@ export const baseMoviesFromAmandine: BaseMovie[] = [
     saga: '',
     description: '',
     fromEntity: null,
-    countryOrigin: 'États-Unis',
+    countryOrigin: ['États-Unis'],
   },
 
   {
@@ -1781,7 +1781,7 @@ export const baseMoviesFromAmandine: BaseMovie[] = [
     saga: '',
     description: '',
     fromEntity: null,
-    countryOrigin: 'États-Unis',
+    countryOrigin: ['États-Unis'],
   },
   {
     title: 'Mary Poppins',
@@ -1794,7 +1794,7 @@ export const baseMoviesFromAmandine: BaseMovie[] = [
     saga: 'Disney Classique',
     description: '',
     fromEntity: null,
-    countryOrigin: 'États-Unis',
+    countryOrigin: ['États-Unis'],
   },
   {
     title: 'Les Parapluies de Cherbourg',
@@ -1814,7 +1814,7 @@ export const baseMoviesFromAmandine: BaseMovie[] = [
     saga: '',
     description: '',
     fromEntity: null,
-    countryOrigin: 'France',
+    countryOrigin: ['France'],
   },
   {
     title: 'West Side Story',
@@ -1838,7 +1838,7 @@ export const baseMoviesFromAmandine: BaseMovie[] = [
       title: 'Roméo et Juliette',
       secondEntityKey: 'William Shakespeare',
     },
-    countryOrigin: 'États-Unis',
+    countryOrigin: ['États-Unis'],
   },
 
   {
@@ -1852,7 +1852,7 @@ export const baseMoviesFromAmandine: BaseMovie[] = [
     saga: '',
     description: '',
     fromEntity: null,
-    countryOrigin: 'États-Unis',
+    countryOrigin: ['États-Unis'],
   },
   {
     title: "Le Magicien d'Oz",
@@ -1865,6 +1865,6 @@ export const baseMoviesFromAmandine: BaseMovie[] = [
     saga: '',
     description: '',
     fromEntity: null,
-    countryOrigin: 'États-Unis',
+    countryOrigin: ['États-Unis'],
   },
 ];

@@ -1,4 +1,17 @@
-import { Country } from './countries.enum';
+import { Country, COUNTRY_SELECT_OPTIONS } from './countries.enum';
+
+const MOVIE_COUNTRY_LABEL_SET = new Set(
+  COUNTRY_SELECT_OPTIONS.filter((c): c is Exclude<Country, ''> => c !== '')
+);
+
+/** Filtre les libellés vers des pays connus du select (hors entrée vide). */
+export function filterToMovieCountries(
+  labels: readonly string[]
+): Exclude<Country, ''>[] {
+  return labels.filter((l): l is Exclude<Country, ''> =>
+    MOVIE_COUNTRY_LABEL_SET.has(l as Exclude<Country, ''>)
+  );
+}
 
 export interface MandatoryMovieData {
   title: string;
@@ -25,7 +38,8 @@ export type MovieGenre =
   | 'Mystère'
   | 'Comédie musicale'
   | 'Western'
-  | 'Animation';
+  | 'Animation'
+  | 'Peplum';
 
 /** Liste ordonnée des genres (alignée sur {@link MovieGenre}) pour les formulaires. */
 export const MOVIE_GENRE_OPTIONS: readonly MovieGenre[] = [
@@ -49,6 +63,7 @@ export const MOVIE_GENRE_OPTIONS: readonly MovieGenre[] = [
   'Comédie musicale',
   'Western',
   'Animation',
+  'Peplum',
 ];
 
 const MOVIE_GENRE_OPTION_SET = new Set<string>(MOVIE_GENRE_OPTIONS);
@@ -68,12 +83,48 @@ export interface BaseMovie extends MandatoryMovieData {
   genre: MovieGenre[];
   saga: string;
   description: string;
-  countryOrigin: Country;
+  /** Pays de production (plusieurs possibles). */
+  countryOrigin: string[];
   fromEntity: {
     entityType: 'book' | 'game' | 'comic' | 'manga' | 'manwha' | 'serie';
     title: string;
     secondEntityKey: string;
   } | null;
+}
+
+/**
+ * Libellés pays pour affichage / recherche (supporte encore une chaîne unique en runtime).
+ */
+export function getMovieCountryOriginLabels(movie: {
+  countryOrigin: unknown;
+}): string[] {
+  const raw = movie.countryOrigin;
+  if (Array.isArray(raw)) {
+    return raw.map((c) => String(c).trim()).filter(Boolean);
+  }
+  if (typeof raw === 'string' && raw.trim()) {
+    return [raw.trim()];
+  }
+  return [];
+}
+
+/** Normalise les données héritées (chaîne ou tableau) pour les formulaires. */
+export function normalizeMovieCountryOriginsForForm(raw: unknown): Exclude<
+  Country,
+  ''
+>[] {
+  if (Array.isArray(raw)) {
+    return filterToMovieCountries(raw as string[]);
+  }
+  if (typeof raw === 'string' && raw.trim()) {
+    return filterToMovieCountries(
+      raw
+        .split(',')
+        .map((g) => g.trim())
+        .filter(Boolean)
+    );
+  }
+  return [];
 }
 
 export interface UserMovie extends MandatoryMovieData {

@@ -12,7 +12,7 @@ export const baseMoviesAnimated: BaseMovie[] = [
     saga: 'Dragons',
     description: '',
     fromEntity: null,
-    countryOrigin: 'États-Unis',
+    countryOrigin: ['États-Unis'],
   },
   {
     title: 'Dragons 2',
@@ -26,7 +26,7 @@ export const baseMoviesAnimated: BaseMovie[] = [
     saga: 'Dragons',
     description: '',
     fromEntity: null,
-    countryOrigin: 'États-Unis',
+    countryOrigin: ['États-Unis'],
   },
   {
     title: 'Dragons 3 : Le Monde caché',
@@ -44,7 +44,7 @@ export const baseMoviesAnimated: BaseMovie[] = [
     saga: 'Dragons',
     description: '',
     fromEntity: null,
-    countryOrigin: 'États-Unis',
+    countryOrigin: ['États-Unis'],
   },
   {
     title: 'Spider-Man: Into the Spider-Verse',
@@ -62,7 +62,7 @@ export const baseMoviesAnimated: BaseMovie[] = [
     saga: 'Spider-Verse',
     description: '',
     fromEntity: null,
-    countryOrigin: 'États-Unis',
+    countryOrigin: ['États-Unis'],
   },
   {
     title: 'Spider-Man : À Travers le Spider-Verse',
@@ -80,7 +80,7 @@ export const baseMoviesAnimated: BaseMovie[] = [
     saga: 'Spider-Verse',
     description: '',
     fromEntity: null,
-    countryOrigin: 'États-Unis',
+    countryOrigin: ['États-Unis'],
   },
   {
     title: 'Les Mondes de Ralph',
@@ -93,7 +93,7 @@ export const baseMoviesAnimated: BaseMovie[] = [
     saga: 'Disney Classique',
     description: '',
     fromEntity: null,
-    countryOrigin: 'États-Unis',
+    countryOrigin: ['États-Unis'],
   },
   {
     title: 'Ralph Breaks the Internet',
@@ -111,7 +111,7 @@ export const baseMoviesAnimated: BaseMovie[] = [
     saga: 'Disney Classique',
     description: '',
     fromEntity: null,
-    countryOrigin: 'États-Unis',
+    countryOrigin: ['États-Unis'],
   },
   {
     title: 'Super Mario Bros. le Film',
@@ -129,7 +129,7 @@ export const baseMoviesAnimated: BaseMovie[] = [
     saga: '',
     description: '',
     fromEntity: null,
-    countryOrigin: 'États-Unis',
+    countryOrigin: ['États-Unis'],
   },
   {
     title: 'Encanto',
@@ -146,7 +146,7 @@ export const baseMoviesAnimated: BaseMovie[] = [
     saga: 'Disney Classique',
     description: '',
     fromEntity: null,
-    countryOrigin: 'États-Unis',
+    countryOrigin: ['États-Unis'],
   },
   {
     title: 'Cars',
@@ -160,7 +160,7 @@ export const baseMoviesAnimated: BaseMovie[] = [
     saga: 'Pixar',
     description: '',
     fromEntity: null,
-    countryOrigin: 'États-Unis',
+    countryOrigin: ['États-Unis'],
   },
   {
     title: 'Cars 2',
@@ -173,7 +173,7 @@ export const baseMoviesAnimated: BaseMovie[] = [
     saga: 'Pixar',
     description: '',
     fromEntity: null,
-    countryOrigin: 'États-Unis',
+    countryOrigin: ['États-Unis'],
   },
   {
     title: 'Cars 3',
@@ -186,7 +186,7 @@ export const baseMoviesAnimated: BaseMovie[] = [
     saga: 'Pixar',
     description: '',
     fromEntity: null,
-    countryOrigin: 'États-Unis',
+    countryOrigin: ['États-Unis'],
   },
   {
     title: 'Baby boss',
@@ -199,7 +199,7 @@ export const baseMoviesAnimated: BaseMovie[] = [
     saga: '',
     description: '',
     fromEntity: null,
-    countryOrigin: 'États-Unis',
+    countryOrigin: ['États-Unis'],
   },
   {
     title: 'Vaiana',
@@ -212,7 +212,7 @@ export const baseMoviesAnimated: BaseMovie[] = [
     saga: 'Disney Classique',
     description: '',
     fromEntity: null,
-    countryOrigin: 'États-Unis',
+    countryOrigin: ['États-Unis'],
   },
   {
     title: 'Vaiana 2',
@@ -241,7 +241,7 @@ export const baseMoviesAnimated: BaseMovie[] = [
     saga: '',
     description: '',
     fromEntity: null,
-    countryOrigin: 'États-Unis',
+    countryOrigin: ['États-Unis'],
   },
   {
     title: 'Vice-Versa',
@@ -254,7 +254,7 @@ export const baseMoviesAnimated: BaseMovie[] = [
     saga: 'Pixar',
     description: '',
     fromEntity: null,
-    countryOrigin: 'États-Unis',
+    countryOrigin: ['États-Unis'],
   },
   {
     title: 'Les Nouveaux Héros',
@@ -267,7 +267,7 @@ export const baseMoviesAnimated: BaseMovie[] = [
     saga: 'Disney Classique',
     description: '',
     fromEntity: null,
-    countryOrigin: 'États-Unis',
+    countryOrigin: ['États-Unis'],
   },
   {
     title: 'La Reine des Neiges',
@@ -280,7 +280,7 @@ export const baseMoviesAnimated: BaseMovie[] = [
     saga: 'Disney Classique',
     description: '',
     fromEntity: null,
-    countryOrigin: 'États-Unis',
+    countryOrigin: ['États-Unis'],
   },
   {
     title: 'Moi, Moche et Méchant',
@@ -293,7 +293,7 @@ export const baseMoviesAnimated: BaseMovie[] = [
     saga: 'Moi, Moche et Méchant',
     description: '',
     fromEntity: null,
-    countryOrigin: 'États-Unis',
+    countryOrigin: ['États-Unis'],
   },
   {
     title: 'Moi, Moche et Méchant 2',
@@ -306,7 +306,7 @@ export const baseMoviesAnimated: BaseMovie[] = [
     saga: 'Moi, Moche et Méchant',
     description: '',
     fromEntity: null,
-    countryOrigin: 'États-Unis',
+    countryOrigin: ['États-Unis'],
   },
   {
     title: 'Les Cinq Légendes',
@@ -319,7 +319,7 @@ export const baseMoviesAnimated: BaseMovie[] = [
     saga: '',
     description: '',
     fromEntity: null,
-    countryOrigin: 'États-Unis',
+    countryOrigin: ['États-Unis'],
   },
   {
     title: "L'Âge de Glace",
@@ -332,7 +332,7 @@ export const baseMoviesAnimated: BaseMovie[] = [
     saga: "L'Age de Glace",
     description: '',
     fromEntity: null,
-    countryOrigin: 'États-Unis',
+    countryOrigin: ['États-Unis'],
   },
   {
     title: "L'Âge de Glace 2",
@@ -345,7 +345,7 @@ export const baseMoviesAnimated: BaseMovie[] = [
     saga: "L'Age de Glace",
     description: '',
     fromEntity: null,
-    countryOrigin: 'États-Unis',
+    countryOrigin: ['États-Unis'],
   },
   {
     title: "L'Âge de Glace 3 : Le Temps des Dinosaures",
@@ -359,7 +359,7 @@ export const baseMoviesAnimated: BaseMovie[] = [
     saga: "L'Age de Glace",
     description: '',
     fromEntity: null,
-    countryOrigin: 'États-Unis',
+    countryOrigin: ['États-Unis'],
   },
   {
     title: "L'Âge de Glace 4 : La Dérive des Continents",
@@ -372,7 +372,7 @@ export const baseMoviesAnimated: BaseMovie[] = [
     saga: "L'Age de Glace",
     description: '',
     fromEntity: null,
-    countryOrigin: 'États-Unis',
+    countryOrigin: ['États-Unis'],
   },
   {
     title: 'Rebelle',
@@ -385,7 +385,7 @@ export const baseMoviesAnimated: BaseMovie[] = [
     saga: 'Pixar',
     description: '',
     fromEntity: null,
-    countryOrigin: 'États-Unis',
+    countryOrigin: ['États-Unis'],
   },
   {
     title: 'Arthur et les Minimoys',
@@ -403,7 +403,7 @@ export const baseMoviesAnimated: BaseMovie[] = [
     saga: 'Minimoys',
     description: '',
     fromEntity: null,
-    countryOrigin: 'France',
+    countryOrigin: ['France'],
   },
   {
     title: 'Arthur et la Vengeance de Maltazard',
@@ -421,7 +421,7 @@ export const baseMoviesAnimated: BaseMovie[] = [
     saga: 'Minimoys',
     description: '',
     fromEntity: null,
-    countryOrigin: 'France',
+    countryOrigin: ['France'],
   },
   {
     title: 'Arthur 3 : La Guerre des Deux Mondes',
@@ -439,7 +439,7 @@ export const baseMoviesAnimated: BaseMovie[] = [
     saga: 'Minimoys',
     description: '',
     fromEntity: null,
-    countryOrigin: 'France',
+    countryOrigin: ['France'],
   },
   {
     title: 'La Princesse et la Grenouille',
@@ -453,7 +453,7 @@ export const baseMoviesAnimated: BaseMovie[] = [
     saga: 'Disney Classique',
     description: '',
     fromEntity: null,
-    countryOrigin: 'États-Unis',
+    countryOrigin: ['États-Unis'],
   },
   {
     title: 'Tempête de Boulettes Géantes',
@@ -467,7 +467,7 @@ export const baseMoviesAnimated: BaseMovie[] = [
     saga: '',
     description: '',
     fromEntity: null,
-    countryOrigin: 'États-Unis',
+    countryOrigin: ['États-Unis'],
   },
   {
     title: 'Monstres contre Aliens',
@@ -480,7 +480,7 @@ export const baseMoviesAnimated: BaseMovie[] = [
     saga: '',
     description: '',
     fromEntity: null,
-    countryOrigin: 'États-Unis',
+    countryOrigin: ['États-Unis'],
   },
   {
     title: 'WALL-E',
@@ -493,7 +493,7 @@ export const baseMoviesAnimated: BaseMovie[] = [
     saga: 'Pixar',
     description: '',
     fromEntity: null,
-    countryOrigin: 'États-Unis',
+    countryOrigin: ['États-Unis'],
   },
 
   {
@@ -507,7 +507,7 @@ export const baseMoviesAnimated: BaseMovie[] = [
     saga: '',
     description: '',
     fromEntity: null,
-    countryOrigin: 'États-Unis',
+    countryOrigin: ['États-Unis'],
   },
   {
     title: 'Les Simpson, le Film',
@@ -520,7 +520,7 @@ export const baseMoviesAnimated: BaseMovie[] = [
     saga: '',
     description: '',
     fromEntity: null,
-    countryOrigin: 'États-Unis',
+    countryOrigin: ['États-Unis'],
   },
   {
     title: 'Ratatouille',
@@ -533,7 +533,7 @@ export const baseMoviesAnimated: BaseMovie[] = [
     saga: 'Pixar',
     description: '',
     fromEntity: null,
-    countryOrigin: 'États-Unis',
+    countryOrigin: ['États-Unis'],
   },
   {
     title: 'Shrek',
@@ -546,7 +546,7 @@ export const baseMoviesAnimated: BaseMovie[] = [
     saga: 'Shrek',
     description: '',
     fromEntity: null,
-    countryOrigin: 'États-Unis',
+    countryOrigin: ['États-Unis'],
   },
   {
     title: 'Shrek 2',
@@ -559,7 +559,7 @@ export const baseMoviesAnimated: BaseMovie[] = [
     saga: 'Shrek',
     description: '',
     fromEntity: null,
-    countryOrigin: 'États-Unis',
+    countryOrigin: ['États-Unis'],
   },
   {
     title: 'Shrek le Troisième',
@@ -572,7 +572,7 @@ export const baseMoviesAnimated: BaseMovie[] = [
     saga: 'Shrek',
     description: '',
     fromEntity: null,
-    countryOrigin: 'États-Unis',
+    countryOrigin: ['États-Unis'],
   },
   {
     title: 'Shrek 4 : Il Était une Fois',
@@ -585,7 +585,7 @@ export const baseMoviesAnimated: BaseMovie[] = [
     saga: 'Shrek',
     description: '',
     fromEntity: null,
-    countryOrigin: 'États-Unis',
+    countryOrigin: ['États-Unis'],
   },
   {
     title: 'Les Indestructibles',
@@ -598,7 +598,7 @@ export const baseMoviesAnimated: BaseMovie[] = [
     saga: 'Pixar',
     description: '',
     fromEntity: null,
-    countryOrigin: 'États-Unis',
+    countryOrigin: ['États-Unis'],
   },
   {
     title: 'Les Indestructibles 2',
@@ -615,7 +615,7 @@ export const baseMoviesAnimated: BaseMovie[] = [
     saga: 'Pixar',
     description: '',
     fromEntity: null,
-    countryOrigin: 'États-Unis',
+    countryOrigin: ['États-Unis'],
   },
   {
     title: 'Le monde de Nemo',
@@ -628,7 +628,7 @@ export const baseMoviesAnimated: BaseMovie[] = [
     saga: 'Pixar',
     description: '',
     fromEntity: null,
-    countryOrigin: 'États-Unis',
+    countryOrigin: ['États-Unis'],
   },
   {
     title: 'Le monde de Dory',
@@ -641,7 +641,7 @@ export const baseMoviesAnimated: BaseMovie[] = [
     saga: 'Pixar',
     description: '',
     fromEntity: null,
-    countryOrigin: 'États-Unis',
+    countryOrigin: ['États-Unis'],
   },
   {
     title: 'Planes',
@@ -654,7 +654,7 @@ export const baseMoviesAnimated: BaseMovie[] = [
     saga: '',
     description: '',
     fromEntity: null,
-    countryOrigin: 'États-Unis',
+    countryOrigin: ['États-Unis'],
   },
   {
     title: 'Planes 2',
@@ -667,7 +667,7 @@ export const baseMoviesAnimated: BaseMovie[] = [
     saga: '',
     description: '',
     fromEntity: null,
-    countryOrigin: 'États-Unis',
+    countryOrigin: ['États-Unis'],
   },
   {
     title: 'Monstres et Cie',
@@ -680,7 +680,7 @@ export const baseMoviesAnimated: BaseMovie[] = [
     saga: 'Pixar',
     description: '',
     fromEntity: null,
-    countryOrigin: 'États-Unis',
+    countryOrigin: ['États-Unis'],
   },
   {
     title: 'Toy Story',
@@ -693,7 +693,7 @@ export const baseMoviesAnimated: BaseMovie[] = [
     saga: 'Pixar',
     description: '',
     fromEntity: null,
-    countryOrigin: 'États-Unis',
+    countryOrigin: ['États-Unis'],
   },
   {
     title: 'Toy Story 2',
@@ -706,7 +706,7 @@ export const baseMoviesAnimated: BaseMovie[] = [
     saga: 'Pixar',
     description: '',
     fromEntity: null,
-    countryOrigin: 'États-Unis',
+    countryOrigin: ['États-Unis'],
   },
   {
     title: 'Toy Story 3',
@@ -719,7 +719,7 @@ export const baseMoviesAnimated: BaseMovie[] = [
     saga: 'Pixar',
     description: '',
     fromEntity: null,
-    countryOrigin: 'États-Unis',
+    countryOrigin: ['États-Unis'],
   },
   {
     title: 'Toy Story 4',
@@ -742,7 +742,7 @@ export const baseMoviesAnimated: BaseMovie[] = [
     saga: 'Pixar',
     description: '',
     fromEntity: null,
-    countryOrigin: 'États-Unis',
+    countryOrigin: ['États-Unis'],
   },
   {
     title: 'South Park, le Film',
@@ -756,7 +756,7 @@ export const baseMoviesAnimated: BaseMovie[] = [
     saga: '',
     description: '',
     fromEntity: null,
-    countryOrigin: 'États-Unis',
+    countryOrigin: ['États-Unis'],
   },
   {
     title: 'Tarzan',
@@ -769,7 +769,7 @@ export const baseMoviesAnimated: BaseMovie[] = [
     saga: 'Disney Classique',
     description: '',
     fromEntity: null,
-    countryOrigin: 'États-Unis',
+    countryOrigin: ['États-Unis'],
   },
   {
     title: 'La Légende de Tarzan et Jane',
@@ -792,7 +792,7 @@ export const baseMoviesAnimated: BaseMovie[] = [
     saga: '',
     description: '',
     fromEntity: null,
-    countryOrigin: 'États-Unis',
+    countryOrigin: ['États-Unis'],
   },
   {
     title: 'Fourmiz',
@@ -805,7 +805,7 @@ export const baseMoviesAnimated: BaseMovie[] = [
     saga: '',
     description: '',
     fromEntity: null,
-    countryOrigin: 'États-Unis',
+    countryOrigin: ['États-Unis'],
   },
   {
     title: 'Mulan',
@@ -818,7 +818,7 @@ export const baseMoviesAnimated: BaseMovie[] = [
     saga: '',
     description: '',
     fromEntity: null,
-    countryOrigin: 'États-Unis',
+    countryOrigin: ['États-Unis'],
   },
   {
     title: 'Princesse Mononoké',
@@ -832,7 +832,7 @@ export const baseMoviesAnimated: BaseMovie[] = [
     saga: 'Ghibli',
     description: '',
     fromEntity: null,
-    countryOrigin: 'Japon',
+    countryOrigin: ['Japon'],
   },
   {
     title: 'Hercule',
@@ -845,7 +845,7 @@ export const baseMoviesAnimated: BaseMovie[] = [
     saga: 'Disney Classique',
     description: '',
     fromEntity: null,
-    countryOrigin: 'États-Unis',
+    countryOrigin: ['États-Unis'],
   },
   {
     title: 'Pocahontas',
@@ -858,7 +858,7 @@ export const baseMoviesAnimated: BaseMovie[] = [
     saga: 'Disney Classique',
     description: '',
     fromEntity: null,
-    countryOrigin: 'États-Unis',
+    countryOrigin: ['États-Unis'],
   },
   {
     title: 'Space Jam',
@@ -871,7 +871,7 @@ export const baseMoviesAnimated: BaseMovie[] = [
     saga: '',
     description: '',
     fromEntity: null,
-    countryOrigin: 'États-Unis',
+    countryOrigin: ['États-Unis'],
   },
   {
     title: 'Le Roi Lion',
@@ -884,7 +884,7 @@ export const baseMoviesAnimated: BaseMovie[] = [
     saga: 'Disney Classique',
     description: '',
     fromEntity: null,
-    countryOrigin: 'États-Unis',
+    countryOrigin: ['États-Unis'],
   },
   {
     title: 'Aladdin',
@@ -897,7 +897,7 @@ export const baseMoviesAnimated: BaseMovie[] = [
     saga: 'Disney Classique',
     description: '',
     fromEntity: null,
-    countryOrigin: 'États-Unis',
+    countryOrigin: ['États-Unis'],
   },
   {
     title: 'La petite sirène',
@@ -910,7 +910,7 @@ export const baseMoviesAnimated: BaseMovie[] = [
     saga: 'Disney Classique',
     description: '',
     fromEntity: null,
-    countryOrigin: 'États-Unis',
+    countryOrigin: ['États-Unis'],
   },
   {
     title: 'Peter Pan',
@@ -923,7 +923,7 @@ export const baseMoviesAnimated: BaseMovie[] = [
     saga: 'Disney Classique',
     description: '',
     fromEntity: null,
-    countryOrigin: 'États-Unis',
+    countryOrigin: ['États-Unis'],
   },
   {
     title: 'Pinocchio',
@@ -941,7 +941,7 @@ export const baseMoviesAnimated: BaseMovie[] = [
     saga: 'Disney Classique',
     description: '',
     fromEntity: null,
-    countryOrigin: 'États-Unis',
+    countryOrigin: ['États-Unis'],
   },
   {
     title: 'Megamind',
@@ -954,7 +954,7 @@ export const baseMoviesAnimated: BaseMovie[] = [
     saga: '',
     description: '',
     fromEntity: null,
-    countryOrigin: 'États-Unis',
+    countryOrigin: ['États-Unis'],
   },
   {
     title: 'Horton',
@@ -967,7 +967,7 @@ export const baseMoviesAnimated: BaseMovie[] = [
     saga: '',
     description: '',
     fromEntity: null,
-    countryOrigin: 'États-Unis',
+    countryOrigin: ['États-Unis'],
   },
   {
     title: 'Raya et le Dernier Dragon',
@@ -985,7 +985,7 @@ export const baseMoviesAnimated: BaseMovie[] = [
     saga: 'Disney Classique',
     description: '',
     fromEntity: null,
-    countryOrigin: 'États-Unis',
+    countryOrigin: ['États-Unis'],
   },
   {
     title: 'One Piece : Le film',
@@ -998,7 +998,7 @@ export const baseMoviesAnimated: BaseMovie[] = [
     saga: 'One Piece OAV',
     description: '',
     fromEntity: null,
-    countryOrigin: 'Japon',
+    countryOrigin: ['Japon'],
   },
   {
     title: "One Piece : L'Aventure de l'île de l'horloge",
@@ -1012,7 +1012,7 @@ export const baseMoviesAnimated: BaseMovie[] = [
     saga: 'One Piece OAV',
     description: '',
     fromEntity: null,
-    countryOrigin: 'Japon',
+    countryOrigin: ['Japon'],
   },
   {
     title: "One Piece : Le Royaume de Chopper, l'île des bêtes étranges",
@@ -1025,7 +1025,7 @@ export const baseMoviesAnimated: BaseMovie[] = [
     saga: 'One Piece OAV',
     description: '',
     fromEntity: null,
-    countryOrigin: 'Japon',
+    countryOrigin: ['Japon'],
   },
   {
     title: "One Piece : L'Aventure sans issue",
@@ -1039,7 +1039,7 @@ export const baseMoviesAnimated: BaseMovie[] = [
     saga: 'One Piece OAV',
     description: '',
     fromEntity: null,
-    countryOrigin: 'Japon',
+    countryOrigin: ['Japon'],
   },
   {
     title: "One Piece : La Malédiction de l'épée sacrée",
@@ -1052,7 +1052,7 @@ export const baseMoviesAnimated: BaseMovie[] = [
     saga: 'One Piece OAV',
     description: '',
     fromEntity: null,
-    countryOrigin: 'Japon',
+    countryOrigin: ['Japon'],
   },
   {
     title: "One Piece : Le baron Omatsuri et l'île secrète",
@@ -1065,7 +1065,7 @@ export const baseMoviesAnimated: BaseMovie[] = [
     saga: '',
     description: '',
     fromEntity: null,
-    countryOrigin: 'Japon',
+    countryOrigin: ['Japon'],
   },
   {
     title: 'One Piece : Le Mecha géant du château Karakuri',
@@ -1078,7 +1078,7 @@ export const baseMoviesAnimated: BaseMovie[] = [
     saga: '',
     description: '',
     fromEntity: null,
-    countryOrigin: 'Japon',
+    countryOrigin: ['Japon'],
   },
   {
     title: 'One Piece Film: Strong World',
@@ -1101,7 +1101,7 @@ export const baseMoviesAnimated: BaseMovie[] = [
     saga: 'One Piece OAV',
     description: '',
     fromEntity: null,
-    countryOrigin: 'Japon',
+    countryOrigin: ['Japon'],
   },
   {
     title: 'One Piece Film Z',
@@ -1124,7 +1124,7 @@ export const baseMoviesAnimated: BaseMovie[] = [
     saga: 'One Piece OAV',
     description: '',
     fromEntity: null,
-    countryOrigin: 'Japon',
+    countryOrigin: ['Japon'],
   },
   {
     title: 'One Piece : Gold',
@@ -1137,7 +1137,7 @@ export const baseMoviesAnimated: BaseMovie[] = [
     saga: 'One Piece OAV',
     description: '',
     fromEntity: null,
-    countryOrigin: 'Japon',
+    countryOrigin: ['Japon'],
   },
   {
     title: 'One Piece: Stampede',
@@ -1150,7 +1150,7 @@ export const baseMoviesAnimated: BaseMovie[] = [
     saga: 'One Piece OAV',
     description: '',
     fromEntity: null,
-    countryOrigin: 'Japon',
+    countryOrigin: ['Japon'],
   },
   {
     title: 'One Piece Film: Red',
@@ -1173,7 +1173,7 @@ export const baseMoviesAnimated: BaseMovie[] = [
     saga: 'One Piece OAV',
     description: '',
     fromEntity: null,
-    countryOrigin: 'Japon',
+    countryOrigin: ['Japon'],
   },
 
   {
@@ -1187,7 +1187,7 @@ export const baseMoviesAnimated: BaseMovie[] = [
     saga: 'Pixar',
     description: '',
     fromEntity: null,
-    countryOrigin: 'États-Unis',
+    countryOrigin: ['États-Unis'],
   },
   {
     title: 'La Colline aux coquelicots',
@@ -1210,7 +1210,7 @@ export const baseMoviesAnimated: BaseMovie[] = [
     saga: 'Ghibli',
     description: '',
     fromEntity: null,
-    countryOrigin: 'Japon',
+    countryOrigin: ['Japon'],
   },
   {
     title: 'Superman/Batman : Apocalypse',
@@ -1233,7 +1233,7 @@ export const baseMoviesAnimated: BaseMovie[] = [
     saga: 'DC Animated Universe',
     description: '',
     fromEntity: null,
-    countryOrigin: 'États-Unis',
+    countryOrigin: ['États-Unis'],
   },
   {
     title: 'Batman et Red Hood : Sous le masque rouge',
@@ -1256,7 +1256,7 @@ export const baseMoviesAnimated: BaseMovie[] = [
     saga: 'DC Animated Universe',
     description: '',
     fromEntity: null,
-    countryOrigin: 'États-Unis',
+    countryOrigin: ['États-Unis'],
   },
   {
     title: 'Superman/Batman : Ennemis publics',
@@ -1279,7 +1279,7 @@ export const baseMoviesAnimated: BaseMovie[] = [
     saga: 'DC Animated Universe',
     description: '',
     fromEntity: null,
-    countryOrigin: 'États-Unis',
+    countryOrigin: ['États-Unis'],
   },
   {
     title: 'TMNT : Les Tortues Ninja',
@@ -1302,7 +1302,7 @@ export const baseMoviesAnimated: BaseMovie[] = [
     saga: '',
     description: '',
     fromEntity: null,
-    countryOrigin: 'États-Unis',
+    countryOrigin: ['États-Unis'],
   },
   {
     title: 'Astérix et les Vikings',
@@ -1325,7 +1325,7 @@ export const baseMoviesAnimated: BaseMovie[] = [
     saga: 'Astérix',
     description: '',
     fromEntity: null,
-    countryOrigin: 'France',
+    countryOrigin: ['France'],
   },
   {
     title: 'Le Pôle Express',
@@ -1348,7 +1348,7 @@ export const baseMoviesAnimated: BaseMovie[] = [
     saga: '',
     description: '',
     fromEntity: null,
-    countryOrigin: 'États-Unis',
+    countryOrigin: ['États-Unis'],
   },
   {
     title: 'Gang de requins',
@@ -1371,7 +1371,7 @@ export const baseMoviesAnimated: BaseMovie[] = [
     saga: '',
     description: '',
     fromEntity: null,
-    countryOrigin: 'États-Unis',
+    countryOrigin: ['États-Unis'],
   },
   {
     title: 'Le Château ambulant',
@@ -1394,7 +1394,7 @@ export const baseMoviesAnimated: BaseMovie[] = [
     saga: 'Ghibli',
     description: '',
     fromEntity: null,
-    countryOrigin: 'Japon',
+    countryOrigin: ['Japon'],
   },
   {
     title: 'Batman : La Mystérieuse Batwoman',
@@ -1417,7 +1417,7 @@ export const baseMoviesAnimated: BaseMovie[] = [
     saga: 'DC Animated Universe',
     description: '',
     fromEntity: null,
-    countryOrigin: 'États-Unis',
+    countryOrigin: ['États-Unis'],
   },
 
   {
@@ -1447,7 +1447,7 @@ export const baseMoviesAnimated: BaseMovie[] = [
     saga: '',
     description: '',
     fromEntity: null,
-    countryOrigin: 'États-Unis',
+    countryOrigin: ['États-Unis'],
   },
   {
     title: 'Batman vs. Robin',
@@ -1470,7 +1470,7 @@ export const baseMoviesAnimated: BaseMovie[] = [
     saga: 'DC Animated Universe',
     description: '',
     fromEntity: null,
-    countryOrigin: 'États-Unis',
+    countryOrigin: ['États-Unis'],
   },
   {
     title: 'Astérix : Le Domaine des dieux',
@@ -1493,7 +1493,7 @@ export const baseMoviesAnimated: BaseMovie[] = [
     saga: 'Astérix',
     description: '',
     fromEntity: null,
-    countryOrigin: 'France',
+    countryOrigin: ['France'],
   },
   {
     title: 'Batman: The Dark Knight Returns, Part 2',
@@ -1516,7 +1516,7 @@ export const baseMoviesAnimated: BaseMovie[] = [
     saga: 'DC Animated Universe',
     description: '',
     fromEntity: null,
-    countryOrigin: 'États-Unis',
+    countryOrigin: ['États-Unis'],
   },
   {
     title: 'Batman: The Dark Knight Returns, Part 1',
@@ -1539,7 +1539,7 @@ export const baseMoviesAnimated: BaseMovie[] = [
     saga: 'DC Animated Universe',
     description: '',
     fromEntity: null,
-    countryOrigin: 'États-Unis',
+    countryOrigin: ['États-Unis'],
   },
   {
     title: "Superman contre l'Élite",
@@ -1562,7 +1562,7 @@ export const baseMoviesAnimated: BaseMovie[] = [
     saga: 'DC Animated Universe',
     description: '',
     fromEntity: null,
-    countryOrigin: 'États-Unis',
+    countryOrigin: ['États-Unis'],
   },
   {
     title: 'Le Lorax',
@@ -1585,7 +1585,7 @@ export const baseMoviesAnimated: BaseMovie[] = [
     saga: '',
     description: '',
     fromEntity: null,
-    countryOrigin: 'États-Unis',
+    countryOrigin: ['États-Unis'],
   },
   {
     title: 'Batman: Year One',
@@ -1608,7 +1608,7 @@ export const baseMoviesAnimated: BaseMovie[] = [
     saga: 'DC Animated Universe',
     description: '',
     fromEntity: null,
-    countryOrigin: 'États-Unis',
+    countryOrigin: ['États-Unis'],
   },
   {
     title: 'Wish : Asha et la Bonne Étoile',
@@ -1637,7 +1637,7 @@ export const baseMoviesAnimated: BaseMovie[] = [
     saga: 'Disney Classique',
     description: '',
     fromEntity: null,
-    countryOrigin: 'États-Unis',
+    countryOrigin: ['États-Unis'],
   },
   {
     title: 'Teenage Mutant Ninja Turtles: Mutant Mayhem',
@@ -1666,7 +1666,7 @@ export const baseMoviesAnimated: BaseMovie[] = [
     saga: '',
     description: '',
     fromEntity: null,
-    countryOrigin: 'États-Unis',
+    countryOrigin: ['États-Unis'],
   },
   {
     title: 'Krypto et les Super-Animaux',
@@ -1689,7 +1689,7 @@ export const baseMoviesAnimated: BaseMovie[] = [
     saga: '',
     description: '',
     fromEntity: null,
-    countryOrigin: 'États-Unis',
+    countryOrigin: ['États-Unis'],
   },
   {
     title: 'Le Monstre des mers',
@@ -1712,7 +1712,7 @@ export const baseMoviesAnimated: BaseMovie[] = [
     saga: '',
     description: '',
     fromEntity: null,
-    countryOrigin: 'États-Unis',
+    countryOrigin: ['États-Unis'],
   },
   {
     title: 'Astérix : Le Secret de la potion magique',
@@ -1739,7 +1739,7 @@ export const baseMoviesAnimated: BaseMovie[] = [
       title: 'Astérix le Gaulois',
       secondEntityKey: 'René Goscinny',
     },
-    countryOrigin: 'France',
+    countryOrigin: ['France'],
   },
   {
     title: 'Lego Batman, le film',
@@ -1766,7 +1766,7 @@ export const baseMoviesAnimated: BaseMovie[] = [
       title: 'Batman',
       secondEntityKey: 'DC Comics',
     },
-    countryOrigin: 'États-Unis',
+    countryOrigin: ['États-Unis'],
   },
   {
     title: 'Sing',
@@ -1789,6 +1789,6 @@ export const baseMoviesAnimated: BaseMovie[] = [
     saga: '',
     description: '',
     fromEntity: null,
-    countryOrigin: 'États-Unis',
+    countryOrigin: ['États-Unis'],
   },
 ];

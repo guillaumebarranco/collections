@@ -9,7 +9,10 @@ import {
 import { CommonModule } from '@angular/common';
 import { MovieComponent } from '../../../components/collections/movie/movie.component';
 
-import { Movie } from '../../../models/movie-model';
+import {
+  getMovieCountryOriginLabels,
+  Movie,
+} from '../../../models/movie-model';
 
 import { getAllBaseMovies } from '../../../facades/movies/movies.facade';
 import { normalizeSearchText } from '../../../utils/normalize-search-text';
@@ -213,7 +216,7 @@ export class AdminMoviesComponent implements OnInit {
       actors,
       ...genreParts,
       movie.saga,
-      movie.countryOrigin ?? '',
+      ...getMovieCountryOriginLabels(movie),
     ]
       .filter(Boolean)
       .join(' ');

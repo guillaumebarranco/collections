@@ -28,7 +28,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     saga: '',
     description: '',
     fromEntity: null,
-    countryOrigin: 'États-Unis',
+    countryOrigin: ['États-Unis'],
   },
   {
     title: 'Wicked: For Good',
@@ -57,7 +57,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     saga: '',
     description: '',
     fromEntity: null,
-    countryOrigin: 'États-Unis',
+    countryOrigin: ['États-Unis'],
   },
   {
     title: 'Running Man',
@@ -86,7 +86,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     saga: '',
     description: '',
     fromEntity: null,
-    countryOrigin: 'États-Unis',
+    countryOrigin: ['États-Unis'],
   },
   {
     title: 'TRON : Ares',
@@ -121,7 +121,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     saga: 'Tron',
     description: '',
     fromEntity: null,
-    countryOrigin: 'États-Unis',
+    countryOrigin: ['États-Unis'],
   },
   {
     title: 'A Big Bold Beautiful Journey',
@@ -150,7 +150,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     saga: '',
     description: '',
     fromEntity: null,
-    countryOrigin: 'États-Unis',
+    countryOrigin: ['États-Unis'],
   },
   {
     title: 'Smashing Machine',
@@ -179,7 +179,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     saga: '',
     description: '',
     fromEntity: null,
-    countryOrigin: 'États-Unis',
+    countryOrigin: ['États-Unis'],
   },
   {
     title: 'Jay Kelly',
@@ -214,7 +214,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     saga: '',
     description: '',
     fromEntity: null,
-    countryOrigin: 'États-Unis',
+    countryOrigin: ['États-Unis'],
   },
   {
     title: 'Adieu Jean-Pat',
@@ -234,7 +234,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     saga: '',
     description: '',
     fromEntity: null,
-    countryOrigin: 'France',
+    countryOrigin: ['France'],
   },
   {
     title: 'Pris au piège',
@@ -269,7 +269,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     saga: '',
     description: '',
     fromEntity: null,
-    countryOrigin: 'États-Unis',
+    countryOrigin: ['États-Unis'],
   },
   {
     title: 'Évanouis',
@@ -304,7 +304,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     saga: '',
     description: '',
     fromEntity: null,
-    countryOrigin: 'États-Unis',
+    countryOrigin: ['États-Unis'],
   },
   {
     title: 'F1',
@@ -339,7 +339,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     saga: '',
     description: '',
     fromEntity: null,
-    countryOrigin: 'États-Unis',
+    countryOrigin: ['États-Unis'],
   },
   {
     title: 'Dragons',
@@ -368,7 +368,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     saga: '',
     description: '',
     fromEntity: null,
-    countryOrigin: 'États-Unis',
+    countryOrigin: ['États-Unis'],
   },
 
   {
@@ -401,7 +401,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     saga: '',
     description: '',
     fromEntity: null,
-    countryOrigin: 'États-Unis',
+    countryOrigin: ['États-Unis'],
   },
   {
     title: "The Party's Over!",
@@ -430,7 +430,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     saga: '',
     description: '',
     fromEntity: null,
-    countryOrigin: 'France',
+    countryOrigin: ['France'],
   },
   {
     title: 'Highest 2 Lowest',
@@ -459,7 +459,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     saga: '',
     description: '',
     fromEntity: null,
-    countryOrigin: 'États-Unis',
+    countryOrigin: ['États-Unis'],
   },
   {
     title: 'Alpha',
@@ -476,7 +476,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     saga: '',
     description: '',
     fromEntity: null,
-    countryOrigin: 'France',
+    countryOrigin: ['France'],
   },
   {
     title: 'The Phoenician Scheme',
@@ -505,7 +505,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     saga: '',
     description: '',
     fromEntity: null,
-    countryOrigin: 'États-Unis',
+    countryOrigin: ['États-Unis'],
   },
   {
     title: 'Exit 8',
@@ -534,7 +534,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     saga: '',
     description: '',
     fromEntity: null,
-    countryOrigin: 'États-Unis',
+    countryOrigin: ['États-Unis'],
   },
   {
     title: 'Eddington',
@@ -566,7 +566,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     saga: '',
     description: '',
     fromEntity: null,
-    countryOrigin: 'États-Unis',
+    countryOrigin: ['États-Unis'],
   },
   {
     title: 'Partir un jour',
@@ -586,7 +586,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     saga: '',
     description: '',
     fromEntity: null,
-    countryOrigin: 'France',
+    countryOrigin: ['France'],
   },
   {
     title: 'Destination Finale : Bloodlines',
@@ -615,7 +615,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     saga: 'Destination Finale',
     description: '',
     fromEntity: null,
-    countryOrigin: 'États-Unis',
+    countryOrigin: ['États-Unis'],
   },
   {
     title: 'Karate Kid: Legends',
@@ -644,7 +644,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     saga: 'Karate Kid',
     description: '',
     fromEntity: null,
-    countryOrigin: 'États-Unis',
+    countryOrigin: ['États-Unis'],
   },
 
   {
@@ -677,7 +677,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     saga: 'Balle Perdue',
     description: '',
     fromEntity: null,
-    countryOrigin: 'France',
+    countryOrigin: ['France'],
   },
   {
     title: 'Until Dawn : La mort sans fin',
@@ -706,7 +706,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     saga: '',
     description: '',
     fromEntity: null,
-    countryOrigin: 'États-Unis',
+    countryOrigin: ['États-Unis'],
   },
   {
     title: 'Train Dreams',
@@ -735,7 +735,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     saga: '',
     description: '',
     fromEntity: null,
-    countryOrigin: 'États-Unis',
+    countryOrigin: ['États-Unis'],
   },
   {
     title: 'Un parfait inconnu',
@@ -764,7 +764,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     saga: '',
     description: '',
     fromEntity: null,
-    countryOrigin: 'États-Unis',
+    countryOrigin: ['États-Unis'],
   },
 
   {
@@ -798,7 +798,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
       title: 'Dracula',
       secondEntityKey: 'Bram Stoker',
     },
-    countryOrigin: 'États-Unis',
+    countryOrigin: ['États-Unis'],
   },
   {
     title: 'Juré n°2',
@@ -827,7 +827,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     saga: '',
     description: '',
     fromEntity: null,
-    countryOrigin: 'États-Unis',
+    countryOrigin: ['États-Unis'],
   },
   {
     title: 'Loups-Garous',
@@ -859,7 +859,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     saga: '',
     description: '',
     fromEntity: null,
-    countryOrigin: 'France',
+    countryOrigin: ['France'],
   },
   {
     title: 'Gladiator II',
@@ -888,7 +888,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     saga: '',
     description: '',
     fromEntity: null,
-    countryOrigin: 'États-Unis',
+    countryOrigin: ['États-Unis'],
   },
   {
     title: 'Caddo Lake',
@@ -911,7 +911,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     saga: '',
     description: '',
     fromEntity: null,
-    countryOrigin: 'États-Unis',
+    countryOrigin: ['États-Unis'],
   },
 
   {
@@ -941,7 +941,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     saga: '',
     description: '',
     fromEntity: null,
-    countryOrigin: 'États-Unis',
+    countryOrigin: ['États-Unis'],
   },
   {
     title: 'Life of Chuck',
@@ -970,7 +970,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     saga: '',
     description: '',
     fromEntity: null,
-    countryOrigin: 'États-Unis',
+    countryOrigin: ['États-Unis'],
   },
   {
     title: "L'amour au présent",
@@ -999,7 +999,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     saga: '',
     description: '',
     fromEntity: null,
-    countryOrigin: 'États-Unis',
+    countryOrigin: ['États-Unis'],
   },
   {
     title: 'Joker : Folie à Deux',
@@ -1032,7 +1032,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
       title: 'Batman',
       secondEntityKey: 'DC Comics',
     },
-    countryOrigin: 'États-Unis',
+    countryOrigin: ['États-Unis'],
   },
   {
     title: 'Beetlejuice Beetlejuice',
@@ -1061,7 +1061,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     saga: '',
     description: '',
     fromEntity: null,
-    countryOrigin: 'États-Unis',
+    countryOrigin: ['États-Unis'],
   },
   {
     title: 'Trap',
@@ -1090,7 +1090,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     saga: '',
     description: '',
     fromEntity: null,
-    countryOrigin: 'États-Unis',
+    countryOrigin: ['États-Unis'],
   },
   {
     title: 'Twisters',
@@ -1119,7 +1119,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     saga: '',
     description: '',
     fromEntity: null,
-    countryOrigin: 'États-Unis',
+    countryOrigin: ['États-Unis'],
   },
   {
     title: 'Fly Me to the Moon',
@@ -1148,7 +1148,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     saga: '',
     description: '',
     fromEntity: null,
-    countryOrigin: 'États-Unis',
+    countryOrigin: ['États-Unis'],
   },
   {
     title: 'Anora',
@@ -1171,7 +1171,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     saga: '',
     description: '',
     fromEntity: null,
-    countryOrigin: 'États-Unis',
+    countryOrigin: ['États-Unis'],
   },
   {
     title: 'The Substance',
@@ -1197,7 +1197,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     saga: '',
     description: '',
     fromEntity: null,
-    countryOrigin: 'États-Unis',
+    countryOrigin: ['États-Unis'],
   },
   {
     title: 'The Marching Band',
@@ -1226,7 +1226,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     saga: '',
     description: '',
     fromEntity: null,
-    countryOrigin: 'France',
+    countryOrigin: ['France'],
   },
   {
     title: 'Emilia Pérez',
@@ -1255,7 +1255,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     saga: '',
     description: '',
     fromEntity: null,
-    countryOrigin: 'France',
+    countryOrigin: ['France'],
   },
   {
     title: 'Megalopolis',
@@ -1284,7 +1284,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     saga: '',
     description: '',
     fromEntity: null,
-    countryOrigin: 'États-Unis',
+    countryOrigin: ['États-Unis'],
   },
 
   {
@@ -1314,7 +1314,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     saga: '',
     description: '',
     fromEntity: null,
-    countryOrigin: 'France',
+    countryOrigin: ['France'],
   },
   {
     title: 'Rebel Moon – Part Two: The Scargiver',
@@ -1343,7 +1343,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     saga: '',
     description: '',
     fromEntity: null,
-    countryOrigin: 'États-Unis',
+    countryOrigin: ['États-Unis'],
   },
   {
     title: 'Godzilla × Kong: The New Empire',
@@ -1372,7 +1372,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     saga: 'MonsterVerse',
     description: '',
     fromEntity: null,
-    countryOrigin: 'États-Unis',
+    countryOrigin: ['États-Unis'],
   },
   {
     title: 'Ghostbusters: Frozen Empire',
@@ -1389,7 +1389,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     saga: 'Ghostbusters',
     description: '',
     fromEntity: null,
-    countryOrigin: 'États-Unis',
+    countryOrigin: ['États-Unis'],
   },
   {
     title: 'Civil War',
@@ -1418,7 +1418,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     saga: '',
     description: '',
     fromEntity: null,
-    countryOrigin: 'États-Unis',
+    countryOrigin: ['États-Unis'],
   },
   {
     title: 'The Fall Guy',
@@ -1447,7 +1447,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     saga: '',
     description: '',
     fromEntity: null,
-    countryOrigin: 'États-Unis',
+    countryOrigin: ['États-Unis'],
   },
   {
     title: 'Monkey Man',
@@ -1476,7 +1476,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     saga: '',
     description: '',
     fromEntity: null,
-    countryOrigin: 'États-Unis',
+    countryOrigin: ['États-Unis'],
   },
 
   {
@@ -1506,7 +1506,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     saga: '',
     description: '',
     fromEntity: null,
-    countryOrigin: 'Canada',
+    countryOrigin: ['Canada'],
   },
   {
     title: 'Argylle',
@@ -1535,7 +1535,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     saga: 'Kingsman',
     description: '',
     fromEntity: null,
-    countryOrigin: 'États-Unis',
+    countryOrigin: ['États-Unis'],
   },
   {
     title: 'Aquaman et le Royaume perdu',
@@ -1558,7 +1558,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     saga: 'DCEU',
     description: '',
     fromEntity: null,
-    countryOrigin: 'États-Unis',
+    countryOrigin: ['États-Unis'],
   },
   {
     title: 'Tout sauf toi',
@@ -1587,7 +1587,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     saga: '',
     description: '',
     fromEntity: null,
-    countryOrigin: 'États-Unis',
+    countryOrigin: ['États-Unis'],
   },
   {
     title: 'Rebel Moon - Partie 1 : Enfant du feu',
@@ -1616,7 +1616,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     saga: '',
     description: '',
     fromEntity: null,
-    countryOrigin: 'États-Unis',
+    countryOrigin: ['États-Unis'],
   },
   {
     title: 'Les Trois Mousquetaires : Milady',
@@ -1649,7 +1649,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
       title: 'Les Trois Mousquetaires',
       secondEntityKey: 'Alexandre Dumas',
     },
-    countryOrigin: 'France',
+    countryOrigin: ['France'],
   },
   {
     title: 'Iron Claw',
@@ -1678,7 +1678,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     saga: '',
     description: '',
     fromEntity: null,
-    countryOrigin: 'États-Unis',
+    countryOrigin: ['États-Unis'],
   },
 
   {
@@ -1699,7 +1699,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     saga: '',
     description: '',
     fromEntity: null,
-    countryOrigin: 'Japon',
+    countryOrigin: ['Japon'],
   },
   {
     title: 'Cinq nuits chez Freddy',
@@ -1728,7 +1728,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     saga: '',
     description: '',
     fromEntity: null,
-    countryOrigin: 'États-Unis',
+    countryOrigin: ['États-Unis'],
   },
   {
     title: 'The Creator',
@@ -1757,7 +1757,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     saga: '',
     description: '',
     fromEntity: null,
-    countryOrigin: 'États-Unis',
+    countryOrigin: ['États-Unis'],
   },
   {
     title: 'The Killer',
@@ -1786,7 +1786,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     saga: '',
     description: '',
     fromEntity: null,
-    countryOrigin: 'États-Unis',
+    countryOrigin: ['États-Unis'],
   },
   {
     title: 'Pauvres Créatures',
@@ -1815,7 +1815,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     saga: '',
     description: '',
     fromEntity: null,
-    countryOrigin: 'États-Unis',
+    countryOrigin: ['États-Unis'],
   },
   {
     title: 'Ferrari',
@@ -1844,7 +1844,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     saga: '',
     description: '',
     fromEntity: null,
-    countryOrigin: 'États-Unis',
+    countryOrigin: ['États-Unis'],
   },
   {
     title: 'The Equalizer 3',
@@ -1867,7 +1867,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     saga: 'Equalizer',
     description: '',
     fromEntity: null,
-    countryOrigin: 'États-Unis',
+    countryOrigin: ['États-Unis'],
   },
 
   {
@@ -1897,7 +1897,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     saga: '',
     description: '',
     fromEntity: null,
-    countryOrigin: 'États-Unis',
+    countryOrigin: ['États-Unis'],
   },
   {
     title: 'Yannick',
@@ -1923,7 +1923,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     saga: '',
     description: '',
     fromEntity: null,
-    countryOrigin: 'France',
+    countryOrigin: ['France'],
   },
   {
     title: 'Insidious: The Red Door',
@@ -1946,7 +1946,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     saga: 'Insidious',
     description: '',
     fromEntity: null,
-    countryOrigin: 'États-Unis',
+    countryOrigin: ['États-Unis'],
   },
 
   {
@@ -1976,7 +1976,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     saga: '',
     description: '',
     fromEntity: null,
-    countryOrigin: 'États-Unis',
+    countryOrigin: ['États-Unis'],
   },
   {
     title: 'Extraction 2',
@@ -1999,7 +1999,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     saga: '',
     description: '',
     fromEntity: null,
-    countryOrigin: 'États-Unis',
+    countryOrigin: ['États-Unis'],
   },
   {
     title: 'Mon crime',
@@ -2028,7 +2028,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     saga: '',
     description: '',
     fromEntity: null,
-    countryOrigin: 'France',
+    countryOrigin: ['France'],
   },
   {
     title: 'Killers of the Flower Moon',
@@ -2051,7 +2051,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     saga: '',
     description: '',
     fromEntity: null,
-    countryOrigin: 'États-Unis',
+    countryOrigin: ['États-Unis'],
   },
   {
     title: 'AKA',
@@ -2074,7 +2074,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     saga: '',
     description: '',
     fromEntity: null,
-    countryOrigin: 'France',
+    countryOrigin: ['France'],
   },
   {
     title: "The Three Musketeers: D'Artagnan",
@@ -2101,7 +2101,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
       title: 'Les Trois Mousquetaires',
       secondEntityKey: 'Alexandre Dumas',
     },
-    countryOrigin: 'France',
+    countryOrigin: ['France'],
   },
   {
     title: 'Air',
@@ -2124,7 +2124,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     saga: '',
     description: '',
     fromEntity: null,
-    countryOrigin: 'États-Unis',
+    countryOrigin: ['États-Unis'],
   },
   {
     title: 'Shazam! La Rage des Dieux',
@@ -2147,7 +2147,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     saga: 'DCEU',
     description: '',
     fromEntity: null,
-    countryOrigin: 'États-Unis',
+    countryOrigin: ['États-Unis'],
   },
   {
     title: 'Knock at the Cabin',
@@ -2170,7 +2170,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     saga: '',
     description: '',
     fromEntity: null,
-    countryOrigin: 'États-Unis',
+    countryOrigin: ['États-Unis'],
   },
   {
     title: "Past Lives – Nos vies d'avant",
@@ -2193,7 +2193,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     saga: '',
     description: '',
     fromEntity: null,
-    countryOrigin: 'États-Unis',
+    countryOrigin: ['États-Unis'],
   },
   {
     title: 'Alibi.com 2',
@@ -2216,7 +2216,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     saga: '',
     description: '',
     fromEntity: null,
-    countryOrigin: 'France',
+    countryOrigin: ['France'],
   },
   {
     title: 'Balle perdue 2',
@@ -2239,7 +2239,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     saga: 'Balle Perdue',
     description: '',
     fromEntity: null,
-    countryOrigin: 'France',
+    countryOrigin: ['France'],
   },
   {
     title: 'Slumberland',
@@ -2262,7 +2262,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     saga: '',
     description: '',
     fromEntity: null,
-    countryOrigin: 'États-Unis',
+    countryOrigin: ['États-Unis'],
   },
   {
     title: 'Werewolf by Night',
@@ -2285,7 +2285,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     saga: 'Marvel Cinematic Universe',
     description: '',
     fromEntity: null,
-    countryOrigin: 'États-Unis',
+    countryOrigin: ['États-Unis'],
   },
 
   {
@@ -2309,7 +2309,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     saga: '',
     description: '',
     fromEntity: null,
-    countryOrigin: 'États-Unis',
+    countryOrigin: ['États-Unis'],
   },
   {
     title: 'The Whale',
@@ -2332,7 +2332,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     saga: '',
     description: '',
     fromEntity: null,
-    countryOrigin: 'États-Unis',
+    countryOrigin: ['États-Unis'],
   },
   {
     title: 'Athena',
@@ -2355,7 +2355,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     saga: '',
     description: '',
     fromEntity: null,
-    countryOrigin: 'France',
+    countryOrigin: ['France'],
   },
 
   {
@@ -2379,7 +2379,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     saga: '',
     description: '',
     fromEntity: null,
-    countryOrigin: 'États-Unis',
+    countryOrigin: ['États-Unis'],
   },
   {
     title: 'The Princess',
@@ -2402,7 +2402,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     saga: '',
     description: '',
     fromEntity: null,
-    countryOrigin: 'États-Unis',
+    countryOrigin: ['États-Unis'],
   },
   {
     title: 'Le Visiteur du Futur',
@@ -2425,7 +2425,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     saga: '',
     description: '',
     fromEntity: null,
-    countryOrigin: 'France',
+    countryOrigin: ['France'],
   },
 
   {
@@ -2449,7 +2449,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     saga: '',
     description: '',
     fromEntity: null,
-    countryOrigin: 'France',
+    countryOrigin: ['France'],
   },
   {
     title: 'Ténor',
@@ -2472,7 +2472,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     saga: '',
     description: '',
     fromEntity: null,
-    countryOrigin: 'France',
+    countryOrigin: ['France'],
   },
   {
     title: 'Ambulance',
@@ -2495,7 +2495,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     saga: '',
     description: '',
     fromEntity: null,
-    countryOrigin: 'États-Unis',
+    countryOrigin: ['États-Unis'],
   },
   {
     title: 'Uncharted',
@@ -2522,7 +2522,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
       title: "Uncharted : Drake's Fortune",
       secondEntityKey: 'Naughty Dog',
     },
-    countryOrigin: 'États-Unis',
+    countryOrigin: ['États-Unis'],
   },
   {
     title: 'Super-héros malgré lui',
@@ -2545,7 +2545,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     saga: '',
     description: '',
     fromEntity: null,
-    countryOrigin: 'États-Unis',
+    countryOrigin: ['États-Unis'],
   },
   {
     title: 'tick, tick... BOOM!',
@@ -2568,7 +2568,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     saga: '',
     description: '',
     fromEntity: null,
-    countryOrigin: 'États-Unis',
+    countryOrigin: ['États-Unis'],
   },
   {
     title: 'Army of Thieves',
@@ -2591,7 +2591,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     saga: '',
     description: '',
     fromEntity: null,
-    countryOrigin: 'États-Unis',
+    countryOrigin: ['États-Unis'],
   },
   {
     title: 'The Last Duel',
@@ -2614,7 +2614,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     saga: '',
     description: '',
     fromEntity: null,
-    countryOrigin: 'États-Unis',
+    countryOrigin: ['États-Unis'],
   },
   {
     title: 'The Stronghold',
@@ -2637,7 +2637,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     saga: '',
     description: '',
     fromEntity: null,
-    countryOrigin: 'États-Unis',
+    countryOrigin: ['États-Unis'],
   },
   {
     title: 'The Trip',
@@ -2660,7 +2660,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     saga: '',
     description: '',
     fromEntity: null,
-    countryOrigin: 'Norvège',
+    countryOrigin: ['Norvège'],
   },
   {
     title: 'The Suicide Squad',
@@ -2683,7 +2683,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     saga: 'DCEU',
     description: '',
     fromEntity: null,
-    countryOrigin: 'États-Unis',
+    countryOrigin: ['États-Unis'],
   },
   {
     title: 'Space Jam : Nouvelle Ère',
@@ -2706,7 +2706,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     saga: '',
     description: '',
     fromEntity: null,
-    countryOrigin: 'États-Unis',
+    countryOrigin: ['États-Unis'],
   },
   {
     title: 'Un papa hors pair',
@@ -2729,7 +2729,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     saga: '',
     description: '',
     fromEntity: null,
-    countryOrigin: 'États-Unis',
+    countryOrigin: ['États-Unis'],
   },
   {
     title: 'Hitman & Bodyguard 2',
@@ -2755,7 +2755,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     saga: '',
     description: '',
     fromEntity: null,
-    countryOrigin: 'États-Unis',
+    countryOrigin: ['États-Unis'],
   },
   {
     title: 'The Woman in the Window',
@@ -2778,7 +2778,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     saga: '',
     description: '',
     fromEntity: null,
-    countryOrigin: 'États-Unis',
+    countryOrigin: ['États-Unis'],
   },
   {
     title: 'Un homme en colère',
@@ -2801,7 +2801,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     saga: '',
     description: '',
     fromEntity: null,
-    countryOrigin: 'États-Unis',
+    countryOrigin: ['États-Unis'],
   },
   {
     title: 'Army of the Dead',
@@ -2824,7 +2824,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     saga: '',
     description: '',
     fromEntity: null,
-    countryOrigin: 'États-Unis',
+    countryOrigin: ['États-Unis'],
   },
   {
     title: 'Godzilla vs. Kong',
@@ -2847,7 +2847,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     saga: 'MonsterVerse',
     description: '',
     fromEntity: null,
-    countryOrigin: 'États-Unis',
+    countryOrigin: ['États-Unis'],
   },
   {
     title: 'Boîte noire',
@@ -2870,7 +2870,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     saga: '',
     description: '',
     fromEntity: null,
-    countryOrigin: 'France',
+    countryOrigin: ['France'],
   },
   {
     title: 'Malcolm & Marie',
@@ -2890,7 +2890,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     saga: '',
     description: '',
     fromEntity: null,
-    countryOrigin: 'États-Unis',
+    countryOrigin: ['États-Unis'],
   },
   {
     title: 'The Little Things',
@@ -2913,7 +2913,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     saga: '',
     description: '',
     fromEntity: null,
-    countryOrigin: 'États-Unis',
+    countryOrigin: ['États-Unis'],
   },
   {
     title: 'Lost Bullet',
@@ -2936,7 +2936,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     saga: 'Balle Perdue',
     description: '',
     fromEntity: null,
-    countryOrigin: 'France',
+    countryOrigin: ['France'],
   },
   {
     title: 'Da 5 Bloods : Frères de sang',
@@ -2959,7 +2959,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     saga: '',
     description: '',
     fromEntity: null,
-    countryOrigin: 'États-Unis',
+    countryOrigin: ['États-Unis'],
   },
   {
     title: 'Extraction',
@@ -2982,7 +2982,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     saga: '',
     description: '',
     fromEntity: null,
-    countryOrigin: 'États-Unis',
+    countryOrigin: ['États-Unis'],
   },
   {
     title: 'Sans un bruit 2',
@@ -3005,7 +3005,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     saga: 'Sans un bruit',
     description: '',
     fromEntity: null,
-    countryOrigin: 'États-Unis',
+    countryOrigin: ['États-Unis'],
   },
   {
     title: 'Bloodshot',
@@ -3028,7 +3028,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     saga: '',
     description: '',
     fromEntity: null,
-    countryOrigin: 'États-Unis',
+    countryOrigin: ['États-Unis'],
   },
   {
     title: 'The Invisible Man',
@@ -3051,7 +3051,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     saga: '',
     description: '',
     fromEntity: null,
-    countryOrigin: 'États-Unis',
+    countryOrigin: ['États-Unis'],
   },
   {
     title: 'En avant',
@@ -3074,7 +3074,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     saga: 'Pixar',
     description: '',
     fromEntity: null,
-    countryOrigin: 'États-Unis',
+    countryOrigin: ['États-Unis'],
   },
   {
     title: 'Jumanji: Next Level',
@@ -3097,7 +3097,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     saga: 'Jumanji',
     description: '',
     fromEntity: null,
-    countryOrigin: 'États-Unis',
+    countryOrigin: ['États-Unis'],
   },
   {
     title: 'Zombieland: Double Tap',
@@ -3120,7 +3120,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     saga: '',
     description: '',
     fromEntity: null,
-    countryOrigin: 'États-Unis',
+    countryOrigin: ['États-Unis'],
   },
   {
     title: 'Code 8',
@@ -3143,7 +3143,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     saga: '',
     description: '',
     fromEntity: null,
-    countryOrigin: 'Canada',
+    countryOrigin: ['Canada'],
   },
   {
     title: 'Gemini Man',
@@ -3166,7 +3166,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     saga: '',
     description: '',
     fromEntity: null,
-    countryOrigin: 'États-Unis',
+    countryOrigin: ['États-Unis'],
   },
   {
     title: 'Le Mans 66',
@@ -3189,7 +3189,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     saga: '',
     description: '',
     fromEntity: null,
-    countryOrigin: 'États-Unis',
+    countryOrigin: ['États-Unis'],
   },
   {
     title: 'Marriage Story',
@@ -3212,7 +3212,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     saga: '',
     description: '',
     fromEntity: null,
-    countryOrigin: 'États-Unis',
+    countryOrigin: ['États-Unis'],
   },
   {
     title: 'Play',
@@ -3235,7 +3235,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     saga: '',
     description: '',
     fromEntity: null,
-    countryOrigin: 'France',
+    countryOrigin: ['France'],
   },
   {
     title: 'It Chapter Two',
@@ -3258,7 +3258,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     saga: '',
     description: '',
     fromEntity: null,
-    countryOrigin: 'États-Unis',
+    countryOrigin: ['États-Unis'],
   },
   {
     title: 'Men in Black: International',
@@ -3281,7 +3281,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     saga: 'Men in Black',
     description: '',
     fromEntity: null,
-    countryOrigin: 'États-Unis',
+    countryOrigin: ['États-Unis'],
   },
 
   {
@@ -3305,7 +3305,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     saga: 'MonsterVerse',
     description: '',
     fromEntity: null,
-    countryOrigin: 'États-Unis',
+    countryOrigin: ['États-Unis'],
   },
   {
     title: 'The Specials',
@@ -3328,7 +3328,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     saga: '',
     description: '',
     fromEntity: null,
-    countryOrigin: 'France',
+    countryOrigin: ['France'],
   },
   {
     title: 'Yesterday',
@@ -3351,7 +3351,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     saga: '',
     description: '',
     fromEntity: null,
-    countryOrigin: 'États-Unis',
+    countryOrigin: ['États-Unis'],
   },
   {
     title: 'Tolkien',
@@ -3374,7 +3374,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     saga: '',
     description: '',
     fromEntity: null,
-    countryOrigin: 'États-Unis',
+    countryOrigin: ['États-Unis'],
   },
   {
     title: 'Escape Game',
@@ -3397,7 +3397,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     saga: '',
     description: '',
     fromEntity: null,
-    countryOrigin: 'États-Unis',
+    countryOrigin: ['États-Unis'],
   },
   {
     title: 'Nicky Larson Private Eyes',
@@ -3424,7 +3424,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
       title: 'City Hunter',
       secondEntityKey: 'Tsukasa Hōjō',
     },
-    countryOrigin: 'France',
+    countryOrigin: ['France'],
   },
   {
     title: 'Le Grinch',
@@ -3447,7 +3447,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     saga: '',
     description: '',
     fromEntity: null,
-    countryOrigin: 'États-Unis',
+    countryOrigin: ['États-Unis'],
   },
   {
     title: "Sale temps à l'hôtel El Royale",
@@ -3470,7 +3470,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     saga: '',
     description: '',
     fromEntity: null,
-    countryOrigin: 'États-Unis',
+    countryOrigin: ['États-Unis'],
   },
   {
     title: 'Green Book : Sur les routes du Sud',
@@ -3493,7 +3493,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     saga: '',
     description: '',
     fromEntity: null,
-    countryOrigin: 'États-Unis',
+    countryOrigin: ['États-Unis'],
   },
   {
     title: "À tous les garçons que j'ai aimés",
@@ -3516,7 +3516,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     saga: '',
     description: '',
     fromEntity: null,
-    countryOrigin: 'États-Unis',
+    countryOrigin: ['États-Unis'],
   },
   {
     title: 'Crazy Rich Asians',
@@ -3539,7 +3539,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     saga: '',
     description: '',
     fromEntity: null,
-    countryOrigin: 'États-Unis',
+    countryOrigin: ['États-Unis'],
   },
   {
     title: 'The Meg',
@@ -3562,7 +3562,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     saga: '',
     description: '',
     fromEntity: null,
-    countryOrigin: 'États-Unis',
+    countryOrigin: ['États-Unis'],
   },
   {
     title: 'Equalizer 2',
@@ -3585,7 +3585,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     saga: 'Equalizer',
     description: '',
     fromEntity: null,
-    countryOrigin: 'États-Unis',
+    countryOrigin: ['États-Unis'],
   },
 
   {
@@ -3609,7 +3609,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     saga: '',
     description: '',
     fromEntity: null,
-    countryOrigin: 'États-Unis',
+    countryOrigin: ['États-Unis'],
   },
   {
     title: 'American Nightmare 4 : Les Origines',
@@ -3632,7 +3632,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     saga: 'American Nightmare',
     description: '',
     fromEntity: null,
-    countryOrigin: 'États-Unis',
+    countryOrigin: ['États-Unis'],
   },
 
   {
@@ -3656,7 +3656,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     saga: '',
     description: '',
     fromEntity: null,
-    countryOrigin: 'États-Unis',
+    countryOrigin: ['États-Unis'],
   },
   {
     title: 'Sans un bruit',
@@ -3679,7 +3679,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     saga: 'Sans un bruit',
     description: '',
     fromEntity: null,
-    countryOrigin: 'États-Unis',
+    countryOrigin: ['États-Unis'],
   },
   {
     title: 'Hérédité',
@@ -3702,7 +3702,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     saga: '',
     description: '',
     fromEntity: null,
-    countryOrigin: 'États-Unis',
+    countryOrigin: ['États-Unis'],
   },
   {
     title: 'Jumanji : Bienvenue dans la jungle',
@@ -3722,7 +3722,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     saga: 'Jumanji',
     description: '',
     fromEntity: null,
-    countryOrigin: 'États-Unis',
+    countryOrigin: ['États-Unis'],
   },
   {
     title: 'Ne coupez pas !',
@@ -3745,7 +3745,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     saga: '',
     description: '',
     fromEntity: null,
-    countryOrigin: 'Japon',
+    countryOrigin: ['Japon'],
   },
   {
     title: 'Justice League',
@@ -3774,7 +3774,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     saga: 'DCEU',
     description: '',
     fromEntity: null,
-    countryOrigin: 'États-Unis',
+    countryOrigin: ['États-Unis'],
   },
   {
     title: 'The Babysitter',
@@ -3797,7 +3797,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     saga: '',
     description: '',
     fromEntity: null,
-    countryOrigin: 'États-Unis',
+    countryOrigin: ['États-Unis'],
   },
   {
     title: 'Blade Runner 2049',
@@ -3820,7 +3820,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     saga: '',
     description: '',
     fromEntity: null,
-    countryOrigin: 'États-Unis',
+    countryOrigin: ['États-Unis'],
   },
   {
     title: 'Ça',
@@ -3843,7 +3843,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     saga: '',
     description: '',
     fromEntity: null,
-    countryOrigin: 'États-Unis',
+    countryOrigin: ['États-Unis'],
   },
   {
     title: 'Lady Bird',
@@ -3866,7 +3866,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     saga: '',
     description: '',
     fromEntity: null,
-    countryOrigin: 'États-Unis',
+    countryOrigin: ['États-Unis'],
   },
   {
     title: "La Forme de l'eau",
@@ -3889,7 +3889,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     saga: '',
     description: '',
     fromEntity: null,
-    countryOrigin: 'États-Unis',
+    countryOrigin: ['États-Unis'],
   },
   {
     title: 'La Tour sombre',
@@ -3912,7 +3912,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     saga: '',
     description: '',
     fromEntity: null,
-    countryOrigin: 'États-Unis',
+    countryOrigin: ['États-Unis'],
   },
   {
     title: 'La Colle',
@@ -3935,7 +3935,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     saga: '',
     description: '',
     fromEntity: null,
-    countryOrigin: 'France',
+    countryOrigin: ['France'],
   },
   {
     title: 'American Assassin',
@@ -3958,7 +3958,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     saga: '',
     description: '',
     fromEntity: null,
-    countryOrigin: 'États-Unis',
+    countryOrigin: ['États-Unis'],
   },
   {
     title: 'Dunkerque',
@@ -3981,7 +3981,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     saga: '',
     description: '',
     fromEntity: null,
-    countryOrigin: 'États-Unis',
+    countryOrigin: ['États-Unis'],
   },
 
   {
@@ -4005,7 +4005,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     saga: '',
     description: '',
     fromEntity: null,
-    countryOrigin: 'États-Unis',
+    countryOrigin: ['États-Unis'],
   },
   {
     title: "Le Roi Arthur : La Légende d'Excalibur",
@@ -4028,7 +4028,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     saga: '',
     description: '',
     fromEntity: null,
-    countryOrigin: 'États-Unis',
+    countryOrigin: ['États-Unis'],
   },
   {
     title: 'Mary',
@@ -4051,7 +4051,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     saga: '',
     description: '',
     fromEntity: null,
-    countryOrigin: 'États-Unis',
+    countryOrigin: ['États-Unis'],
   },
   {
     title: 'Power Rangers',
@@ -4074,7 +4074,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     saga: '',
     description: '',
     fromEntity: null,
-    countryOrigin: 'États-Unis',
+    countryOrigin: ['États-Unis'],
   },
   {
     title: 'Life : Origine inconnue',
@@ -4097,7 +4097,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     saga: '',
     description: '',
     fromEntity: null,
-    countryOrigin: 'États-Unis',
+    countryOrigin: ['États-Unis'],
   },
 
   {
@@ -4121,7 +4121,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     saga: '',
     description: '',
     fromEntity: null,
-    countryOrigin: 'États-Unis',
+    countryOrigin: ['États-Unis'],
   },
   {
     title: 'Call Me by Your Name',
@@ -4144,7 +4144,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     saga: '',
     description: '',
     fromEntity: null,
-    countryOrigin: 'États-Unis',
+    countryOrigin: ['États-Unis'],
   },
   {
     title: 'Alibi.com',
@@ -4167,7 +4167,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     saga: '',
     description: '',
     fromEntity: null,
-    countryOrigin: 'France',
+    countryOrigin: ['France'],
   },
   {
     title: 'The Boyfriend : Pourquoi lui ?',
@@ -4190,7 +4190,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     saga: '',
     description: '',
     fromEntity: null,
-    countryOrigin: 'États-Unis',
+    countryOrigin: ['États-Unis'],
   },
   {
     title: "Assassin's Creed",
@@ -4217,7 +4217,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
       title: "Assassin's Creed II",
       secondEntityKey: 'Ubisoft',
     },
-    countryOrigin: 'États-Unis',
+    countryOrigin: ['États-Unis'],
   },
   {
     title: 'Beauté cachée',
@@ -4240,7 +4240,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     saga: '',
     description: '',
     fromEntity: null,
-    countryOrigin: 'États-Unis',
+    countryOrigin: ['États-Unis'],
   },
   {
     title: "Les Figures de l'ombre",
@@ -4263,7 +4263,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     saga: '',
     description: '',
     fromEntity: null,
-    countryOrigin: 'États-Unis',
+    countryOrigin: ['États-Unis'],
   },
 
   {
@@ -4287,7 +4287,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     saga: '',
     description: '',
     fromEntity: null,
-    countryOrigin: 'États-Unis',
+    countryOrigin: ['États-Unis'],
   },
   {
     title: 'War Dogs',
@@ -4310,7 +4310,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     saga: '',
     description: '',
     fromEntity: null,
-    countryOrigin: 'États-Unis',
+    countryOrigin: ['États-Unis'],
   },
   {
     title: 'American Nightmare 3 : Élections',
@@ -4333,7 +4333,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     saga: '',
     description: '',
     fromEntity: null,
-    countryOrigin: 'États-Unis',
+    countryOrigin: ['États-Unis'],
   },
   {
     title: 'Tarzan',
@@ -4356,7 +4356,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     saga: '',
     description: '',
     fromEntity: null,
-    countryOrigin: 'États-Unis',
+    countryOrigin: ['États-Unis'],
   },
   {
     title: "Alice de l'autre côté du miroir",
@@ -4379,7 +4379,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     saga: 'Disney Live Action',
     description: '',
     fromEntity: null,
-    countryOrigin: 'États-Unis',
+    countryOrigin: ['États-Unis'],
   },
   {
     title: 'Teenage Mutant Ninja Turtles: Out of the Shadows',
@@ -4403,7 +4403,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     saga: '',
     description: '',
     fromEntity: null,
-    countryOrigin: 'États-Unis',
+    countryOrigin: ['États-Unis'],
   },
   {
     title: 'Dernier train pour Busan',
@@ -4426,7 +4426,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     saga: '',
     description: '',
     fromEntity: null,
-    countryOrigin: 'Corée du Sud',
+    countryOrigin: ['Corée du Sud'],
   },
   {
     title: 'Money Monster',
@@ -4449,7 +4449,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     saga: '',
     description: '',
     fromEntity: null,
-    countryOrigin: 'États-Unis',
+    countryOrigin: ['États-Unis'],
   },
   {
     title: 'The Nice Guys',
@@ -4472,7 +4472,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     saga: '',
     description: '',
     fromEntity: null,
-    countryOrigin: 'États-Unis',
+    countryOrigin: ['États-Unis'],
   },
   {
     title: 'Nos pires voisins 2',
@@ -4495,7 +4495,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     saga: '',
     description: '',
     fromEntity: null,
-    countryOrigin: 'États-Unis',
+    countryOrigin: ['États-Unis'],
   },
   {
     title: 'Le Chasseur et la Reine des glaces',
@@ -4518,7 +4518,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     saga: '',
     description: '',
     fromEntity: null,
-    countryOrigin: 'États-Unis',
+    countryOrigin: ['États-Unis'],
   },
   {
     title: 'Le Livre de la jungle',
@@ -4538,7 +4538,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     saga: 'Disney Live Action',
     description: '',
     fromEntity: null,
-    countryOrigin: 'États-Unis',
+    countryOrigin: ['États-Unis'],
   },
   {
     title: 'Five',
@@ -4558,7 +4558,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     saga: '',
     description: '',
     fromEntity: null,
-    countryOrigin: 'France',
+    countryOrigin: ['France'],
   },
 
   {
@@ -4582,7 +4582,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     saga: '',
     description: '',
     fromEntity: null,
-    countryOrigin: 'États-Unis',
+    countryOrigin: ['États-Unis'],
   },
   {
     title: 'Crimson Peak',
@@ -4605,7 +4605,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     saga: '',
     description: '',
     fromEntity: null,
-    countryOrigin: 'États-Unis',
+    countryOrigin: ['États-Unis'],
   },
   {
     title: 'Steve Jobs',
@@ -4628,7 +4628,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     saga: '',
     description: '',
     fromEntity: null,
-    countryOrigin: 'États-Unis',
+    countryOrigin: ['États-Unis'],
   },
   {
     title: 'Agents très spéciaux : Code U.N.C.L.E.',
@@ -4651,7 +4651,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     saga: '',
     description: '',
     fromEntity: null,
-    countryOrigin: 'États-Unis',
+    countryOrigin: ['États-Unis'],
   },
 
   {
@@ -4678,7 +4678,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     saga: '',
     description: '',
     fromEntity: null,
-    countryOrigin: 'États-Unis',
+    countryOrigin: ['États-Unis'],
   },
   {
     title: 'Magic Mike XXL',
@@ -4701,7 +4701,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     saga: 'Magic Mike',
     description: '',
     fromEntity: null,
-    countryOrigin: 'États-Unis',
+    countryOrigin: ['États-Unis'],
   },
   {
     title: 'Hitman: Agent 47',
@@ -4724,7 +4724,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     saga: '',
     description: '',
     fromEntity: null,
-    countryOrigin: 'États-Unis',
+    countryOrigin: ['États-Unis'],
   },
   {
     title: 'Sicario',
@@ -4747,7 +4747,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     saga: '',
     description: '',
     fromEntity: null,
-    countryOrigin: 'États-Unis',
+    countryOrigin: ['États-Unis'],
   },
   {
     title: 'À la poursuite de demain',
@@ -4770,7 +4770,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     saga: '',
     description: '',
     fromEntity: null,
-    countryOrigin: 'États-Unis',
+    countryOrigin: ['États-Unis'],
   },
   {
     title: 'Maggie',
@@ -4793,7 +4793,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     saga: '',
     description: '',
     fromEntity: null,
-    countryOrigin: 'États-Unis',
+    countryOrigin: ['États-Unis'],
   },
   {
     title: 'Éternelle Adaline',
@@ -4816,7 +4816,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     saga: '',
     description: '',
     fromEntity: null,
-    countryOrigin: 'États-Unis',
+    countryOrigin: ['États-Unis'],
   },
 
   {
@@ -4840,7 +4840,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     saga: '',
     description: '',
     fromEntity: null,
-    countryOrigin: 'États-Unis',
+    countryOrigin: ['États-Unis'],
   },
   {
     title: 'Dope',
@@ -4863,7 +4863,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     saga: '',
     description: '',
     fromEntity: null,
-    countryOrigin: 'États-Unis',
+    countryOrigin: ['États-Unis'],
   },
 
   {
@@ -4887,7 +4887,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     saga: '',
     description: '',
     fromEntity: null,
-    countryOrigin: 'États-Unis',
+    countryOrigin: ['États-Unis'],
   },
   {
     title: 'Fury',
@@ -4910,7 +4910,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     saga: '',
     description: '',
     fromEntity: null,
-    countryOrigin: 'États-Unis',
+    countryOrigin: ['États-Unis'],
   },
   {
     title: 'Dracula Untold',
@@ -4937,7 +4937,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
       title: 'Dracula',
       secondEntityKey: 'Bram Stoker',
     },
-    countryOrigin: 'États-Unis',
+    countryOrigin: ['États-Unis'],
   },
   {
     title: 'Equalizer',
@@ -4960,7 +4960,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     saga: 'Equalizer',
     description: '',
     fromEntity: null,
-    countryOrigin: 'États-Unis',
+    countryOrigin: ['États-Unis'],
   },
   {
     title: 'Ninja Turtles',
@@ -4983,7 +4983,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     saga: '',
     description: '',
     fromEntity: null,
-    countryOrigin: 'États-Unis',
+    countryOrigin: ['États-Unis'],
   },
   {
     title: 'American Nightmare 2 : Anarchy',
@@ -5006,7 +5006,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     saga: 'American Nightmare',
     description: '',
     fromEntity: null,
-    countryOrigin: 'États-Unis',
+    countryOrigin: ['États-Unis'],
   },
   {
     title: 'Step Up: All In',
@@ -5029,7 +5029,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     saga: 'Sexy Dance',
     description: '',
     fromEntity: null,
-    countryOrigin: 'États-Unis',
+    countryOrigin: ['États-Unis'],
   },
 
   {
@@ -5053,7 +5053,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     saga: '',
     description: '',
     fromEntity: null,
-    countryOrigin: 'États-Unis',
+    countryOrigin: ['États-Unis'],
   },
   {
     title: 'Godzilla',
@@ -5076,7 +5076,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     saga: 'MonsterVerse',
     description: '',
     fromEntity: null,
-    countryOrigin: 'États-Unis',
+    countryOrigin: ['États-Unis'],
   },
   {
     title: 'Nos pires voisins',
@@ -5099,7 +5099,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     saga: '',
     description: '',
     fromEntity: null,
-    countryOrigin: 'États-Unis',
+    countryOrigin: ['États-Unis'],
   },
   {
     title: 'Noé',
@@ -5122,7 +5122,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     saga: '',
     description: '',
     fromEntity: null,
-    countryOrigin: 'États-Unis',
+    countryOrigin: ['États-Unis'],
   },
   {
     title: "300 : La Naissance d'un Empire",
@@ -5145,7 +5145,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     saga: '',
     description: '',
     fromEntity: null,
-    countryOrigin: 'États-Unis',
+    countryOrigin: ['États-Unis'],
   },
   {
     title: 'The Grand Budapest Hotel',
@@ -5168,7 +5168,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     saga: '',
     description: '',
     fromEntity: null,
-    countryOrigin: 'États-Unis',
+    countryOrigin: ['États-Unis'],
   },
   {
     title: 'The Monuments Men',
@@ -5194,7 +5194,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     saga: '',
     description: '',
     fromEntity: null,
-    countryOrigin: 'États-Unis',
+    countryOrigin: ['États-Unis'],
   },
   {
     title: 'The Raid 2',
@@ -5217,7 +5217,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     saga: '',
     description: '',
     fromEntity: null,
-    countryOrigin: 'États-Unis',
+    countryOrigin: ['États-Unis'],
   },
   {
     title: 'Vampires en toute intimité',
@@ -5240,7 +5240,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     saga: '',
     description: '',
     fromEntity: null,
-    countryOrigin: 'Nouvelle-Zélande',
+    countryOrigin: ['Nouvelle-Zélande'],
   },
   {
     title: 'Mister Babadook',
@@ -5263,7 +5263,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     saga: '',
     description: '',
     fromEntity: null,
-    countryOrigin: 'États-Unis',
+    countryOrigin: ['États-Unis'],
   },
   {
     title: 'Whiplash',
@@ -5286,7 +5286,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     saga: '',
     description: '',
     fromEntity: null,
-    countryOrigin: 'États-Unis',
+    countryOrigin: ['États-Unis'],
   },
   {
     title: 'Les Brasiers de la colère',
@@ -5315,7 +5315,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     saga: '',
     description: '',
     fromEntity: null,
-    countryOrigin: 'États-Unis',
+    countryOrigin: ['États-Unis'],
   },
   {
     title: 'Mindscape',
@@ -5338,7 +5338,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     saga: '',
     description: '',
     fromEntity: null,
-    countryOrigin: 'États-Unis',
+    countryOrigin: ['États-Unis'],
   },
   {
     title: 'Her',
@@ -5361,7 +5361,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     saga: '',
     description: '',
     fromEntity: null,
-    countryOrigin: 'États-Unis',
+    countryOrigin: ['États-Unis'],
   },
   {
     title: 'Insidious : Chapitre 2',
@@ -5384,7 +5384,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     saga: 'Insidious',
     description: '',
     fromEntity: null,
-    countryOrigin: 'États-Unis',
+    countryOrigin: ['États-Unis'],
   },
   {
     title: 'Dallas Buyers Club',
@@ -5407,7 +5407,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     saga: '',
     description: '',
     fromEntity: null,
-    countryOrigin: 'États-Unis',
+    countryOrigin: ['États-Unis'],
   },
   {
     title: 'Et (beaucoup) plus si affinités',
@@ -5430,7 +5430,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     saga: '',
     description: '',
     fromEntity: null,
-    countryOrigin: 'États-Unis',
+    countryOrigin: ['États-Unis'],
   },
   {
     title: 'New York Melody',
@@ -5453,7 +5453,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     saga: '',
     description: '',
     fromEntity: null,
-    countryOrigin: 'États-Unis',
+    countryOrigin: ['États-Unis'],
   },
   {
     title: 'Percy Jackson : La Mer des monstres',
@@ -5480,7 +5480,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
       title: 'Le Voleur de foudre',
       secondEntityKey: 'Rick Riordan',
     },
-    countryOrigin: 'États-Unis',
+    countryOrigin: ['États-Unis'],
   },
   {
     title: 'Les Miller, une famille en herbe',
@@ -5503,7 +5503,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     saga: '',
     description: '',
     fromEntity: null,
-    countryOrigin: 'États-Unis',
+    countryOrigin: ['États-Unis'],
   },
   {
     title: 'Copains pour toujours 2',
@@ -5526,7 +5526,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     saga: '',
     description: '',
     fromEntity: null,
-    countryOrigin: 'États-Unis',
+    countryOrigin: ['États-Unis'],
   },
   {
     title: 'Les Stagiaires',
@@ -5549,7 +5549,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     saga: '',
     description: '',
     fromEntity: null,
-    countryOrigin: 'États-Unis',
+    countryOrigin: ['États-Unis'],
   },
   {
     title: "C'est la fin",
@@ -5572,7 +5572,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     saga: '',
     description: '',
     fromEntity: null,
-    countryOrigin: 'États-Unis',
+    countryOrigin: ['États-Unis'],
   },
   {
     title: 'American Nightmare',
@@ -5595,7 +5595,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     saga: 'American Nightmare',
     description: '',
     fromEntity: null,
-    countryOrigin: 'États-Unis',
+    countryOrigin: ['États-Unis'],
   },
   {
     title: 'Gatsby le Magnifique',
@@ -5615,7 +5615,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     saga: '',
     description: '',
     fromEntity: null,
-    countryOrigin: 'États-Unis',
+    countryOrigin: ['États-Unis'],
   },
   {
     title: 'G.I. Joe : Conspiration',
@@ -5638,7 +5638,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     saga: '',
     description: '',
     fromEntity: null,
-    countryOrigin: 'États-Unis',
+    countryOrigin: ['États-Unis'],
   },
   {
     title: 'Evil Dead',
@@ -5661,7 +5661,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     saga: 'Evil Dead',
     description: '',
     fromEntity: null,
-    countryOrigin: 'États-Unis',
+    countryOrigin: ['États-Unis'],
   },
   {
     title: 'Jobs',
@@ -5684,7 +5684,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     saga: '',
     description: '',
     fromEntity: null,
-    countryOrigin: 'États-Unis',
+    countryOrigin: ['États-Unis'],
   },
   {
     title: 'Hansel & Gretel : Witch Hunters',
@@ -5707,7 +5707,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     saga: '',
     description: '',
     fromEntity: null,
-    countryOrigin: 'États-Unis',
+    countryOrigin: ['États-Unis'],
   },
   {
     title: 'Mama',
@@ -5730,7 +5730,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     saga: '',
     description: '',
     fromEntity: null,
-    countryOrigin: 'États-Unis',
+    countryOrigin: ['États-Unis'],
   },
   {
     title: 'Gangster Squad',
@@ -5753,7 +5753,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     saga: '',
     description: '',
     fromEntity: null,
-    countryOrigin: 'États-Unis',
+    countryOrigin: ['États-Unis'],
   },
 
   {
@@ -5777,7 +5777,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     saga: 'Astérix',
     description: '',
     fromEntity: null,
-    countryOrigin: 'France',
+    countryOrigin: ['France'],
   },
   {
     title: 'Le Monde de Charlie',
@@ -5800,7 +5800,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     saga: '',
     description: '',
     fromEntity: null,
-    countryOrigin: 'États-Unis',
+    countryOrigin: ['États-Unis'],
   },
   {
     title: 'Seven Psychopaths',
@@ -5823,7 +5823,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     saga: '',
     description: '',
     fromEntity: null,
-    countryOrigin: 'États-Unis',
+    countryOrigin: ['États-Unis'],
   },
 
   {
@@ -5847,7 +5847,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     saga: 'Magic Mike',
     description: '',
     fromEntity: null,
-    countryOrigin: 'États-Unis',
+    countryOrigin: ['États-Unis'],
   },
 
   {
@@ -5871,7 +5871,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     saga: '',
     description: '',
     fromEntity: null,
-    countryOrigin: 'États-Unis',
+    countryOrigin: ['États-Unis'],
   },
   {
     title: 'Battleship',
@@ -5894,7 +5894,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     saga: '',
     description: '',
     fromEntity: null,
-    countryOrigin: 'États-Unis',
+    countryOrigin: ['États-Unis'],
   },
   {
     title: 'Sinister',
@@ -5917,7 +5917,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     saga: '',
     description: '',
     fromEntity: null,
-    countryOrigin: 'États-Unis',
+    countryOrigin: ['États-Unis'],
   },
 
   {
@@ -5941,7 +5941,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     saga: '',
     description: '',
     fromEntity: null,
-    countryOrigin: 'États-Unis',
+    countryOrigin: ['États-Unis'],
   },
   {
     title: 'La Cabane dans les bois',
@@ -5964,7 +5964,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     saga: '',
     description: '',
     fromEntity: null,
-    countryOrigin: 'États-Unis',
+    countryOrigin: ['États-Unis'],
   },
   {
     title: 'Happy New Year',
@@ -5987,7 +5987,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     saga: '',
     description: '',
     fromEntity: null,
-    countryOrigin: 'États-Unis',
+    countryOrigin: ['États-Unis'],
   },
 
   {
@@ -6011,7 +6011,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     saga: '',
     description: '',
     fromEntity: null,
-    countryOrigin: 'États-Unis',
+    countryOrigin: ['États-Unis'],
   },
   {
     title: 'Les Trois Mousquetaires',
@@ -6034,7 +6034,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     saga: '',
     description: '',
     fromEntity: null,
-    countryOrigin: 'États-Unis',
+    countryOrigin: ['États-Unis'],
   },
   {
     title: 'La Couleur des sentiments',
@@ -6057,7 +6057,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     saga: '',
     description: '',
     fromEntity: null,
-    countryOrigin: 'États-Unis',
+    countryOrigin: ['États-Unis'],
   },
 
   {
@@ -6081,7 +6081,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     saga: '',
     description: '',
     fromEntity: null,
-    countryOrigin: 'États-Unis',
+    countryOrigin: ['États-Unis'],
   },
 
   {
@@ -6105,7 +6105,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     saga: 'Insidious',
     description: '',
     fromEntity: null,
-    countryOrigin: 'États-Unis',
+    countryOrigin: ['États-Unis'],
   },
   {
     title: 'Incendies',
@@ -6128,7 +6128,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     saga: '',
     description: '',
     fromEntity: null,
-    countryOrigin: 'Canada',
+    countryOrigin: ['Canada'],
   },
   {
     title: 'Piranha 3D',
@@ -6151,7 +6151,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     saga: '',
     description: '',
     fromEntity: null,
-    countryOrigin: 'États-Unis',
+    countryOrigin: ['États-Unis'],
   },
   {
     title: 'Le Secret de Charlie',
@@ -6174,7 +6174,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     saga: '',
     description: '',
     fromEntity: null,
-    countryOrigin: 'États-Unis',
+    countryOrigin: ['États-Unis'],
   },
 
   {
@@ -6198,7 +6198,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     saga: '',
     description: '',
     fromEntity: null,
-    countryOrigin: 'États-Unis',
+    countryOrigin: ['États-Unis'],
   },
   {
     title: 'Le Dernier Exorcisme',
@@ -6221,7 +6221,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     saga: '',
     description: '',
     fromEntity: null,
-    countryOrigin: 'États-Unis',
+    countryOrigin: ['États-Unis'],
   },
   {
     title: 'Copains pour toujours',
@@ -6244,7 +6244,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     saga: '',
     description: '',
     fromEntity: null,
-    countryOrigin: 'États-Unis',
+    countryOrigin: ['États-Unis'],
   },
   {
     title: "L'Agence tous risques",
@@ -6267,7 +6267,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     saga: '',
     description: '',
     fromEntity: null,
-    countryOrigin: 'États-Unis',
+    countryOrigin: ['États-Unis'],
   },
   {
     title: 'Nanny McPhee et le Big Bang',
@@ -6290,7 +6290,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     saga: '',
     description: '',
     fromEntity: null,
-    countryOrigin: 'États-Unis',
+    countryOrigin: ['États-Unis'],
   },
   {
     title: "L'Arnacœur",
@@ -6307,7 +6307,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     saga: '',
     description: '',
     fromEntity: null,
-    countryOrigin: 'États-Unis',
+    countryOrigin: ['États-Unis'],
   },
   {
     title: 'La Rafle',
@@ -6330,7 +6330,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     saga: '',
     description: '',
     fromEntity: null,
-    countryOrigin: 'États-Unis',
+    countryOrigin: ['États-Unis'],
   },
   {
     title: "Le Livre d'Eli",
@@ -6353,7 +6353,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     saga: '',
     description: '',
     fromEntity: null,
-    countryOrigin: 'États-Unis',
+    countryOrigin: ['États-Unis'],
   },
 
   {
@@ -6377,7 +6377,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     saga: '',
     description: '',
     fromEntity: null,
-    countryOrigin: 'États-Unis',
+    countryOrigin: ['États-Unis'],
   },
   {
     title: 'G.I. Joe : Le Réveil du Cobra',
@@ -6400,7 +6400,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     saga: '',
     description: '',
     fromEntity: null,
-    countryOrigin: 'États-Unis',
+    countryOrigin: ['États-Unis'],
   },
   {
     title: 'Coco',
@@ -6417,7 +6417,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     saga: '',
     description: '',
     fromEntity: null,
-    countryOrigin: 'États-Unis',
+    countryOrigin: ['États-Unis'],
   },
   {
     title: 'High School Musical 3 : Nos années lycée',
@@ -6440,7 +6440,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     saga: 'High School Musical',
     description: '',
     fromEntity: null,
-    countryOrigin: 'États-Unis',
+    countryOrigin: ['États-Unis'],
   },
   {
     title: 'Les Chroniques de Spiderwick',
@@ -6463,7 +6463,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     saga: '',
     description: '',
     fromEntity: null,
-    countryOrigin: 'États-Unis',
+    countryOrigin: ['États-Unis'],
   },
   {
     title: 'Benjamin Gates et le Livre des secrets',
@@ -6486,7 +6486,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     saga: '',
     description: '',
     fromEntity: null,
-    countryOrigin: 'États-Unis',
+    countryOrigin: ['États-Unis'],
   },
   {
     title: "À la croisée des mondes : La Boussole d'or",
@@ -6509,7 +6509,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     saga: '',
     description: '',
     fromEntity: null,
-    countryOrigin: 'États-Unis',
+    countryOrigin: ['États-Unis'],
   },
   {
     title: 'Hitman',
@@ -6532,7 +6532,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     saga: '',
     description: '',
     fromEntity: null,
-    countryOrigin: 'États-Unis',
+    countryOrigin: ['États-Unis'],
   },
   {
     title: 'Funny Games U.S.',
@@ -6555,7 +6555,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     saga: '',
     description: '',
     fromEntity: null,
-    countryOrigin: 'États-Unis',
+    countryOrigin: ['États-Unis'],
   },
   {
     title: '[REC]',
@@ -6578,7 +6578,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     saga: '',
     description: '',
     fromEntity: null,
-    countryOrigin: 'Espagne',
+    countryOrigin: ['Espagne'],
   },
   {
     title: 'High School Musical 2',
@@ -6601,7 +6601,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     saga: 'High School Musical',
     description: '',
     fromEntity: null,
-    countryOrigin: 'États-Unis',
+    countryOrigin: ['États-Unis'],
   },
   {
     title: 'Boulevard de la mort',
@@ -6624,7 +6624,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     saga: '',
     description: '',
     fromEntity: null,
-    countryOrigin: 'États-Unis',
+    countryOrigin: ['États-Unis'],
   },
   {
     title: 'Sunshine',
@@ -6647,7 +6647,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     saga: '',
     description: '',
     fromEntity: null,
-    countryOrigin: 'États-Unis',
+    countryOrigin: ['États-Unis'],
   },
 
   {
@@ -6671,7 +6671,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     saga: 'Cornetto',
     description: '',
     fromEntity: null,
-    countryOrigin: 'Royaume-Uni',
+    countryOrigin: ['Royaume-Uni'],
   },
   {
     title: 'Hannibal Lecter : Les Origines du mal',
@@ -6694,7 +6694,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     saga: '',
     description: '',
     fromEntity: null,
-    countryOrigin: 'États-Unis',
+    countryOrigin: ['États-Unis'],
   },
   {
     title: 'Eragon',
@@ -6718,7 +6718,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     saga: '',
     description: '',
     fromEntity: null,
-    countryOrigin: 'États-Unis',
+    countryOrigin: ['États-Unis'],
   },
   {
     title: "Les Fils de l'homme",
@@ -6741,7 +6741,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     saga: '',
     description: '',
     fromEntity: null,
-    countryOrigin: 'États-Unis',
+    countryOrigin: ['États-Unis'],
   },
 
   {
@@ -6765,7 +6765,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     saga: '',
     description: '',
     fromEntity: null,
-    countryOrigin: 'États-Unis',
+    countryOrigin: ['États-Unis'],
   },
   {
     title: 'La Colline a des yeux',
@@ -6788,7 +6788,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     saga: '',
     description: '',
     fromEntity: null,
-    countryOrigin: 'États-Unis',
+    countryOrigin: ['États-Unis'],
   },
   {
     title: 'High School Musical : Premiers pas sur scène',
@@ -6811,7 +6811,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     saga: 'High School Musical',
     description: '',
     fromEntity: null,
-    countryOrigin: 'États-Unis',
+    countryOrigin: ['États-Unis'],
   },
   {
     title: 'Little Miss Sunshine',
@@ -6834,7 +6834,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     saga: '',
     description: '',
     fromEntity: null,
-    countryOrigin: 'États-Unis',
+    countryOrigin: ['États-Unis'],
   },
   {
     title: 'Treize à la douzaine 2',
@@ -6857,7 +6857,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     saga: '',
     description: '',
     fromEntity: null,
-    countryOrigin: 'États-Unis',
+    countryOrigin: ['États-Unis'],
   },
   {
     title: 'Le Secret de Brokeback Mountain',
@@ -6883,7 +6883,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     saga: '',
     description: '',
     fromEntity: null,
-    countryOrigin: 'États-Unis',
+    countryOrigin: ['États-Unis'],
   },
   {
     title: '40 ans, toujours puceau',
@@ -6900,7 +6900,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     saga: '',
     description: '',
     fromEntity: null,
-    countryOrigin: 'États-Unis',
+    countryOrigin: ['États-Unis'],
   },
   {
     title: 'Kiss Kiss Bang Bang',
@@ -6923,7 +6923,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     saga: '',
     description: '',
     fromEntity: null,
-    countryOrigin: 'États-Unis',
+    countryOrigin: ['États-Unis'],
   },
   {
     title: 'Hooligans',
@@ -6946,7 +6946,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     saga: '',
     description: '',
     fromEntity: null,
-    countryOrigin: 'États-Unis',
+    countryOrigin: ['États-Unis'],
   },
   {
     title: 'Le Fils du Mask',
@@ -6969,7 +6969,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     saga: '',
     description: '',
     fromEntity: null,
-    countryOrigin: 'États-Unis',
+    countryOrigin: ['États-Unis'],
   },
   {
     title: 'Danny the Dog',
@@ -6992,7 +6992,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     saga: '',
     description: '',
     fromEntity: null,
-    countryOrigin: 'États-Unis',
+    countryOrigin: ['États-Unis'],
   },
   {
     title: 'Benjamin Gates et le Trésor des Templiers',
@@ -7012,7 +7012,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     saga: '',
     description: '',
     fromEntity: null,
-    countryOrigin: 'États-Unis',
+    countryOrigin: ['États-Unis'],
   },
   {
     title: 'Les Dalton',
@@ -7035,7 +7035,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     saga: '',
     description: '',
     fromEntity: null,
-    countryOrigin: 'France',
+    countryOrigin: ['France'],
   },
 
   {
@@ -7059,7 +7059,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     saga: '',
     description: '',
     fromEntity: null,
-    countryOrigin: 'États-Unis',
+    countryOrigin: ['États-Unis'],
   },
   {
     title: 'Les Fils du vent',
@@ -7082,7 +7082,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     saga: '',
     description: '',
     fromEntity: null,
-    countryOrigin: 'France',
+    countryOrigin: ['France'],
   },
   {
     title: 'F.B.I. : Fausses blondes infiltrées',
@@ -7105,7 +7105,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     saga: '',
     description: '',
     fromEntity: null,
-    countryOrigin: 'États-Unis',
+    countryOrigin: ['États-Unis'],
   },
   {
     title: '30 ans sinon rien',
@@ -7125,7 +7125,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     saga: '',
     description: '',
     fromEntity: null,
-    countryOrigin: 'États-Unis',
+    countryOrigin: ['États-Unis'],
   },
   {
     title: 'Deux Frères',
@@ -7145,7 +7145,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     saga: '',
     description: '',
     fromEntity: null,
-    countryOrigin: 'France',
+    countryOrigin: ['France'],
   },
   {
     title: 'Les Choristes',
@@ -7162,7 +7162,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     saga: '',
     description: '',
     fromEntity: null,
-    countryOrigin: 'France',
+    countryOrigin: ['France'],
   },
   {
     title: "L'Armée des morts",
@@ -7185,7 +7185,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     saga: '',
     description: '',
     fromEntity: null,
-    countryOrigin: 'États-Unis',
+    countryOrigin: ['États-Unis'],
   },
   {
     title: 'Street Dancers',
@@ -7208,7 +7208,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     saga: '',
     description: '',
     fromEntity: null,
-    countryOrigin: 'États-Unis',
+    countryOrigin: ['États-Unis'],
   },
   {
     title: 'Treize à la douzaine',
@@ -7231,7 +7231,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     saga: '',
     description: '',
     fromEntity: null,
-    countryOrigin: 'États-Unis',
+    countryOrigin: ['États-Unis'],
   },
   {
     title: "Master and Commander : De l'autre côté du monde",
@@ -7255,7 +7255,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     saga: '',
     description: '',
     fromEntity: null,
-    countryOrigin: 'États-Unis',
+    countryOrigin: ['États-Unis'],
   },
 
   {
@@ -7279,7 +7279,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     saga: '',
     description: '',
     fromEntity: null,
-    countryOrigin: 'États-Unis',
+    countryOrigin: ['États-Unis'],
   },
   {
     title: 'Lost in Translation',
@@ -7302,7 +7302,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     saga: '',
     description: '',
     fromEntity: null,
-    countryOrigin: 'États-Unis',
+    countryOrigin: ['États-Unis'],
   },
   {
     title: 'Mystic River',
@@ -7325,7 +7325,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     saga: '',
     description: '',
     fromEntity: null,
-    countryOrigin: 'États-Unis',
+    countryOrigin: ['États-Unis'],
   },
   {
     title: 'Identity',
@@ -7348,7 +7348,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     saga: '',
     description: '',
     fromEntity: null,
-    countryOrigin: 'États-Unis',
+    countryOrigin: ['États-Unis'],
   },
   {
     title: 'Comment se faire larguer en dix leçons',
@@ -7371,7 +7371,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     saga: '',
     description: '',
     fromEntity: null,
-    countryOrigin: 'États-Unis',
+    countryOrigin: ['États-Unis'],
   },
   {
     title: 'Gangs of New York',
@@ -7394,7 +7394,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     saga: '',
     description: '',
     fromEntity: null,
-    countryOrigin: 'États-Unis',
+    countryOrigin: ['États-Unis'],
   },
   {
     title: 'Dragon rouge',
@@ -7417,7 +7417,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     saga: '',
     description: '',
     fromEntity: null,
-    countryOrigin: 'États-Unis',
+    countryOrigin: ['États-Unis'],
   },
   {
     title: 'Hero',
@@ -7440,7 +7440,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     saga: '',
     description: '',
     fromEntity: null,
-    countryOrigin: 'États-Unis',
+    countryOrigin: ['États-Unis'],
   },
 
   {
@@ -7464,7 +7464,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     saga: '',
     description: '',
     fromEntity: null,
-    countryOrigin: 'États-Unis',
+    countryOrigin: ['États-Unis'],
   },
   {
     title: 'Hannibal',
@@ -7487,7 +7487,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     saga: '',
     description: '',
     fromEntity: null,
-    countryOrigin: 'États-Unis',
+    countryOrigin: ['États-Unis'],
   },
   {
     title: 'Le Pacte des loups',
@@ -7510,7 +7510,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     saga: '',
     description: '',
     fromEntity: null,
-    countryOrigin: 'France',
+    countryOrigin: ['France'],
   },
   {
     title: 'Donnie Darko',
@@ -7533,7 +7533,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     saga: '',
     description: '',
     fromEntity: null,
-    countryOrigin: 'États-Unis',
+    countryOrigin: ['États-Unis'],
   },
   {
     title: 'Seul au monde',
@@ -7550,7 +7550,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     saga: '',
     description: '',
     fromEntity: null,
-    countryOrigin: 'États-Unis',
+    countryOrigin: ['États-Unis'],
   },
   {
     title: 'Charlie et ses drôles de dames',
@@ -7573,7 +7573,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     saga: '',
     description: '',
     fromEntity: null,
-    countryOrigin: 'États-Unis',
+    countryOrigin: ['États-Unis'],
   },
 
   {
@@ -7597,7 +7597,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     saga: '',
     description: '',
     fromEntity: null,
-    countryOrigin: 'États-Unis',
+    countryOrigin: ['États-Unis'],
   },
   {
     title: 'La Plage',
@@ -7620,7 +7620,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     saga: '',
     description: '',
     fromEntity: null,
-    countryOrigin: 'États-Unis',
+    countryOrigin: ['États-Unis'],
   },
   {
     title: 'American Psycho',
@@ -7643,7 +7643,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     saga: '',
     description: '',
     fromEntity: null,
-    countryOrigin: 'États-Unis',
+    countryOrigin: ['États-Unis'],
   },
   {
     title: 'Ghost Dog : La Voie du samouraï',
@@ -7666,7 +7666,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     saga: '',
     description: '',
     fromEntity: null,
-    countryOrigin: 'États-Unis',
+    countryOrigin: ['États-Unis'],
   },
   {
     title: 'Le Projet Blair Witch',
@@ -7689,7 +7689,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     saga: '',
     description: '',
     fromEntity: null,
-    countryOrigin: 'États-Unis',
+    countryOrigin: ['États-Unis'],
   },
   {
     title: 'Le Masque de Zorro',
@@ -7712,7 +7712,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     saga: '',
     description: '',
     fromEntity: null,
-    countryOrigin: 'États-Unis',
+    countryOrigin: ['États-Unis'],
   },
   {
     title: 'American History X',
@@ -7735,7 +7735,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     saga: '',
     description: '',
     fromEntity: null,
-    countryOrigin: 'États-Unis',
+    countryOrigin: ['États-Unis'],
   },
   {
     title: 'The Game',
@@ -7758,7 +7758,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     saga: '',
     description: '',
     fromEntity: null,
-    countryOrigin: 'États-Unis',
+    countryOrigin: ['États-Unis'],
   },
   {
     title: 'George de la jungle',
@@ -7781,7 +7781,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     saga: '',
     description: '',
     fromEntity: null,
-    countryOrigin: 'États-Unis',
+    countryOrigin: ['États-Unis'],
   },
   {
     title: "Les Ailes de l'enfer",
@@ -7804,7 +7804,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     saga: '',
     description: '',
     fromEntity: null,
-    countryOrigin: 'États-Unis',
+    countryOrigin: ['États-Unis'],
   },
   {
     title: 'Le Cinquième Élément',
@@ -7821,7 +7821,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     saga: '',
     description: '',
     fromEntity: null,
-    countryOrigin: 'États-Unis',
+    countryOrigin: ['États-Unis'],
   },
   {
     title: 'La Course au jouet',
@@ -7847,7 +7847,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     saga: '',
     description: '',
     fromEntity: null,
-    countryOrigin: 'États-Unis',
+    countryOrigin: ['États-Unis'],
   },
 
   {
@@ -7871,7 +7871,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     saga: '',
     description: '',
     fromEntity: null,
-    countryOrigin: 'États-Unis',
+    countryOrigin: ['États-Unis'],
   },
   {
     title: 'Lancelot, le premier chevalier',
@@ -7894,7 +7894,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     saga: '',
     description: '',
     fromEntity: null,
-    countryOrigin: 'États-Unis',
+    countryOrigin: ['États-Unis'],
   },
   {
     title: 'The Crow',
@@ -7917,7 +7917,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     saga: '',
     description: '',
     fromEntity: null,
-    countryOrigin: 'États-Unis',
+    countryOrigin: ['États-Unis'],
   },
   {
     title: 'Sister Act, acte 2',
@@ -7940,7 +7940,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     saga: '',
     description: '',
     fromEntity: null,
-    countryOrigin: 'États-Unis',
+    countryOrigin: ['États-Unis'],
   },
 
   {
@@ -7964,7 +7964,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     saga: 'Tortues Ninja',
     description: '',
     fromEntity: null,
-    countryOrigin: 'États-Unis',
+    countryOrigin: ['États-Unis'],
   },
   {
     title: 'Bodyguard',
@@ -7987,7 +7987,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     saga: '',
     description: '',
     fromEntity: null,
-    countryOrigin: 'États-Unis',
+    countryOrigin: ['États-Unis'],
   },
   {
     title: 'Dracula',
@@ -8014,7 +8014,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
       title: 'Dracula',
       secondEntityKey: 'Bram Stoker',
     },
-    countryOrigin: 'États-Unis',
+    countryOrigin: ['États-Unis'],
   },
   {
     title: 'Le Dernier des Mohicans',
@@ -8037,7 +8037,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     saga: '',
     description: '',
     fromEntity: null,
-    countryOrigin: 'États-Unis',
+    countryOrigin: ['États-Unis'],
   },
   {
     title: 'Sister Act',
@@ -8060,7 +8060,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     saga: '',
     description: '',
     fromEntity: null,
-    countryOrigin: 'États-Unis',
+    countryOrigin: ['États-Unis'],
   },
   {
     title: 'Thelma et Louise',
@@ -8083,7 +8083,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     saga: '',
     description: '',
     fromEntity: null,
-    countryOrigin: 'États-Unis',
+    countryOrigin: ['États-Unis'],
   },
   {
     title: 'Les Tortues Ninja 2 : Les héros sont de retour',
@@ -8107,7 +8107,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     saga: 'Tortues Ninja',
     description: '',
     fromEntity: null,
-    countryOrigin: 'États-Unis',
+    countryOrigin: ['États-Unis'],
   },
   {
     title: 'Les Tortues Ninja',
@@ -8130,7 +8130,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     saga: 'Tortues Ninja',
     description: '',
     fromEntity: null,
-    countryOrigin: 'États-Unis',
+    countryOrigin: ['États-Unis'],
   },
   {
     title: 'Rain Man',
@@ -8153,7 +8153,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     saga: '',
     description: '',
     fromEntity: null,
-    countryOrigin: 'États-Unis',
+    countryOrigin: ['États-Unis'],
   },
   {
     title: 'Big',
@@ -8176,7 +8176,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     saga: '',
     description: '',
     fromEntity: null,
-    countryOrigin: 'États-Unis',
+    countryOrigin: ['États-Unis'],
   },
   {
     title: 'Willow',
@@ -8199,7 +8199,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     saga: '',
     description: '',
     fromEntity: null,
-    countryOrigin: 'États-Unis',
+    countryOrigin: ['États-Unis'],
   },
   {
     title: 'Full Metal Jacket',
@@ -8222,7 +8222,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     saga: '',
     description: '',
     fromEntity: null,
-    countryOrigin: 'États-Unis',
+    countryOrigin: ['États-Unis'],
   },
   {
     title: 'Evil Dead II',
@@ -8245,7 +8245,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     saga: 'Evil Dead',
     description: '',
     fromEntity: null,
-    countryOrigin: 'États-Unis',
+    countryOrigin: ['États-Unis'],
   },
   {
     title: 'Stand by Me',
@@ -8268,7 +8268,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     saga: '',
     description: '',
     fromEntity: null,
-    countryOrigin: 'États-Unis',
+    countryOrigin: ['États-Unis'],
   },
   {
     title: 'La Folle Journée de Ferris Bueller',
@@ -8291,7 +8291,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     saga: '',
     description: '',
     fromEntity: null,
-    countryOrigin: 'États-Unis',
+    countryOrigin: ['États-Unis'],
   },
   {
     title: 'Les Goonies',
@@ -8314,7 +8314,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     saga: '',
     description: '',
     fromEntity: null,
-    countryOrigin: 'États-Unis',
+    countryOrigin: ['États-Unis'],
   },
   {
     title: 'Breakfast Club',
@@ -8337,7 +8337,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     saga: '',
     description: '',
     fromEntity: null,
-    countryOrigin: 'États-Unis',
+    countryOrigin: ['États-Unis'],
   },
   {
     title: 'Amadeus',
@@ -8360,7 +8360,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     saga: '',
     description: '',
     fromEntity: null,
-    countryOrigin: 'États-Unis',
+    countryOrigin: ['États-Unis'],
   },
   {
     title: "L'Histoire sans fin",
@@ -8383,7 +8383,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     saga: '',
     description: '',
     fromEntity: null,
-    countryOrigin: 'États-Unis',
+    countryOrigin: ['États-Unis'],
   },
   {
     title: 'Risky Business',
@@ -8406,7 +8406,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     saga: '',
     description: '',
     fromEntity: null,
-    countryOrigin: 'États-Unis',
+    countryOrigin: ['États-Unis'],
   },
   {
     title: 'Conan le Barbare',
@@ -8429,7 +8429,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     saga: '',
     description: '',
     fromEntity: null,
-    countryOrigin: 'États-Unis',
+    countryOrigin: ['États-Unis'],
   },
   {
     title: 'Evil Dead',
@@ -8452,7 +8452,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     saga: 'Evil Dead',
     description: '',
     fromEntity: null,
-    countryOrigin: 'États-Unis',
+    countryOrigin: ['États-Unis'],
   },
   {
     title: 'Les Dents de la mer, 2ᵉ partie',
@@ -8475,7 +8475,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     saga: '',
     description: '',
     fromEntity: null,
-    countryOrigin: 'États-Unis',
+    countryOrigin: ['États-Unis'],
   },
   {
     title: 'Les Valseuses',
@@ -8498,7 +8498,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     saga: '',
     description: '',
     fromEntity: null,
-    countryOrigin: 'France',
+    countryOrigin: ['France'],
   },
   {
     title: "Il était une fois dans l'Ouest",
@@ -8521,6 +8521,6 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     saga: '',
     description: '',
     fromEntity: null,
-    countryOrigin: 'États-Unis',
+    countryOrigin: ['États-Unis'],
   },
 ];

@@ -236,7 +236,7 @@ export const getMovieDataFromUserMovieAndBaseMovie = (
   wantToSeeAgain: userMovie.wantToSeeAgain,
   watchPriority: userMovie.watchPriority,
   description: baseMovie?.description ?? '',
-  countryOrigin: baseMovie?.countryOrigin ?? '',
+  countryOrigin: baseMovie?.countryOrigin ?? [],
   fromEntity: baseMovie?.fromEntity ?? null,
   ratingComment: userMovie.ratingComment ?? '',
   inList: userMovie.inList ?? [],

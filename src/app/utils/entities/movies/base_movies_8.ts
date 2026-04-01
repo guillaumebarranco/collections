@@ -16,7 +16,7 @@ export const baseMoviesPage8: BaseMovie[] = [
     saga: '',
     description: '',
     fromEntity: null,
-    countryOrigin: 'Japon',
+    countryOrigin: ['Japon'],
   },
   {
     title: 'Chico et Rita',
@@ -33,7 +33,7 @@ export const baseMoviesPage8: BaseMovie[] = [
     saga: '',
     description: '',
     fromEntity: null,
-    countryOrigin: 'Espagne',
+    countryOrigin: ['Espagne'],
   },
   {
     title: 'Mars Express',
@@ -50,7 +50,7 @@ export const baseMoviesPage8: BaseMovie[] = [
     saga: '',
     description: '',
     fromEntity: null,
-    countryOrigin: 'France',
+    countryOrigin: ['France'],
   },
   {
     title: 'Longlegs',
@@ -67,7 +67,7 @@ export const baseMoviesPage8: BaseMovie[] = [
     saga: '',
     description: '',
     fromEntity: null,
-    countryOrigin: 'Canada',
+    countryOrigin: ['Canada'],
   },
   {
     title: 'Burning',
@@ -84,7 +84,7 @@ export const baseMoviesPage8: BaseMovie[] = [
     saga: '',
     description: '',
     fromEntity: null,
-    countryOrigin: 'Corée du Sud',
+    countryOrigin: ['Corée du Sud'],
   },
   {
     title: 'Quelque part dans le temps',
@@ -101,7 +101,7 @@ export const baseMoviesPage8: BaseMovie[] = [
     saga: '',
     description: '',
     fromEntity: null,
-    countryOrigin: 'États-Unis',
+    countryOrigin: ['États-Unis'],
   },
   {
     title: 'The Strangers',
@@ -118,7 +118,7 @@ export const baseMoviesPage8: BaseMovie[] = [
     saga: '',
     description: '',
     fromEntity: null,
-    countryOrigin: 'États-Unis',
+    countryOrigin: ['États-Unis'],
   },
   {
     title: 'Silence',
@@ -135,7 +135,7 @@ export const baseMoviesPage8: BaseMovie[] = [
     saga: '',
     description: '',
     fromEntity: null,
-    countryOrigin: 'Royaume-Uni',
+    countryOrigin: ['Royaume-Uni'],
   },
   {
     title: 'Take Shelter',
@@ -152,7 +152,7 @@ export const baseMoviesPage8: BaseMovie[] = [
     saga: '',
     description: '',
     fromEntity: null,
-    countryOrigin: 'États-Unis',
+    countryOrigin: ['États-Unis'],
   },
   {
     title: 'Massacre à la tronconneuse',
@@ -169,7 +169,7 @@ export const baseMoviesPage8: BaseMovie[] = [
     saga: '',
     description: '',
     fromEntity: null,
-    countryOrigin: 'États-Unis',
+    countryOrigin: ['États-Unis'],
   },
   {
     title: 'Vendredi 13',
@@ -186,7 +186,7 @@ export const baseMoviesPage8: BaseMovie[] = [
     saga: '',
     description: '',
     fromEntity: null,
-    countryOrigin: 'États-Unis',
+    countryOrigin: ['États-Unis'],
   },
   {
     title: "L'Imaginarium du Docte...",
@@ -203,7 +203,7 @@ export const baseMoviesPage8: BaseMovie[] = [
     saga: '',
     description: '',
     fromEntity: null,
-    countryOrigin: 'Royaume-Uni',
+    countryOrigin: ['Royaume-Uni'],
   },
   {
     title: 'Démineurs',
@@ -220,7 +220,7 @@ export const baseMoviesPage8: BaseMovie[] = [
     saga: '',
     description: '',
     fromEntity: null,
-    countryOrigin: 'États-Unis',
+    countryOrigin: ['États-Unis'],
   },
   {
     title: 'Neverland',
@@ -237,7 +237,7 @@ export const baseMoviesPage8: BaseMovie[] = [
     saga: '',
     description: '',
     fromEntity: null,
-    countryOrigin: 'États-Unis',
+    countryOrigin: ['États-Unis'],
   },
   {
     title: 'Misanthrope',
@@ -254,7 +254,7 @@ export const baseMoviesPage8: BaseMovie[] = [
     saga: '',
     description: '',
     fromEntity: null,
-    countryOrigin: 'États-Unis',
+    countryOrigin: ['États-Unis'],
   },
   {
     title: "La Zone d'intérêt",
@@ -271,7 +271,7 @@ export const baseMoviesPage8: BaseMovie[] = [
     saga: '',
     description: '',
     fromEntity: null,
-    countryOrigin: 'Royaume-Uni',
+    countryOrigin: ['Royaume-Uni'],
   },
   {
     title: 'La Chair et le Sang',
@@ -288,7 +288,7 @@ export const baseMoviesPage8: BaseMovie[] = [
     saga: '',
     description: '',
     fromEntity: null,
-    countryOrigin: 'Pays-Bas',
+    countryOrigin: ['Pays-Bas'],
   },
   {
     title: 'Le Règne animal',
@@ -305,7 +305,7 @@ export const baseMoviesPage8: BaseMovie[] = [
     saga: '',
     description: '',
     fromEntity: null,
-    countryOrigin: 'France',
+    countryOrigin: ['France'],
   },
   {
     title: 'Winter Break',
@@ -322,7 +322,7 @@ export const baseMoviesPage8: BaseMovie[] = [
     saga: '',
     description: '',
     fromEntity: null,
-    countryOrigin: 'États-Unis',
+    countryOrigin: ['États-Unis'],
   },
   {
     title: 'Sympathy for Mister Vengeance',
@@ -339,7 +339,7 @@ export const baseMoviesPage8: BaseMovie[] = [
     saga: '',
     description: '',
     fromEntity: null,
-    countryOrigin: 'Corée du Sud',
+    countryOrigin: ['Corée du Sud'],
   },
   {
     title: "Les Promesses de l'ombre",
@@ -356,7 +356,7 @@ export const baseMoviesPage8: BaseMovie[] = [
     saga: '',
     description: '',
     fromEntity: null,
-    countryOrigin: 'Royaume-Uni',
+    countryOrigin: ['Royaume-Uni'],
   },
   {
     title: 'Loft',
@@ -373,7 +373,7 @@ export const baseMoviesPage8: BaseMovie[] = [
     saga: '',
     description: '',
     fromEntity: null,
-    countryOrigin: 'Belgique',
+    countryOrigin: ['Belgique'],
   },
   {
     title: 'Taking Lives, destins violés',
@@ -390,7 +390,7 @@ export const baseMoviesPage8: BaseMovie[] = [
     saga: '',
     description: '',
     fromEntity: null,
-    countryOrigin: 'États-Unis',
+    countryOrigin: ['États-Unis'],
   },
   {
     title: 'Rupture fatale',
@@ -407,7 +407,7 @@ export const baseMoviesPage8: BaseMovie[] = [
     saga: '',
     description: '',
     fromEntity: null,
-    countryOrigin: 'États-Unis',
+    countryOrigin: ['États-Unis'],
   },
   {
     title: 'Les Intrus',
@@ -424,7 +424,7 @@ export const baseMoviesPage8: BaseMovie[] = [
     saga: '',
     description: '',
     fromEntity: null,
-    countryOrigin: 'Espagne',
+    countryOrigin: ['Espagne'],
   },
   {
     title: 'La Fracture',
@@ -441,7 +441,7 @@ export const baseMoviesPage8: BaseMovie[] = [
     saga: '',
     description: '',
     fromEntity: null,
-    countryOrigin: 'États-Unis',
+    countryOrigin: ['États-Unis'],
   },
   {
     title: 'The Lost Bus - Au cœur de...',
@@ -458,7 +458,7 @@ export const baseMoviesPage8: BaseMovie[] = [
     saga: '',
     description: '',
     fromEntity: null,
-    countryOrigin: 'États-Unis',
+    countryOrigin: ['États-Unis'],
   },
   {
     title: 'Jouer avec le feu',
@@ -476,7 +476,7 @@ export const baseMoviesPage8: BaseMovie[] = [
     saga: '',
     description: '',
     fromEntity: null,
-    countryOrigin: 'France',
+    countryOrigin: ['France'],
   },
   {
     title: "Willy's Wonderland",
@@ -493,7 +493,7 @@ export const baseMoviesPage8: BaseMovie[] = [
     saga: '',
     description: '',
     fromEntity: null,
-    countryOrigin: 'États-Unis',
+    countryOrigin: ['États-Unis'],
   },
   {
     title: 'Un grand voyage vers la nuit',
@@ -510,7 +510,7 @@ export const baseMoviesPage8: BaseMovie[] = [
     saga: '',
     description: '',
     fromEntity: null,
-    countryOrigin: 'Chine',
+    countryOrigin: ['Chine'],
   },
   {
     title: 'Ray',
@@ -527,7 +527,7 @@ export const baseMoviesPage8: BaseMovie[] = [
     saga: '',
     description: '',
     fromEntity: null,
-    countryOrigin: 'États-Unis',
+    countryOrigin: ['États-Unis'],
   },
   {
     title: 'La Nuit des masques',
@@ -544,7 +544,7 @@ export const baseMoviesPage8: BaseMovie[] = [
     saga: '',
     description: '',
     fromEntity: null,
-    countryOrigin: 'États-Unis',
+    countryOrigin: ['États-Unis'],
   },
   {
     title: 'Les Griffes de la nuit',
@@ -561,7 +561,7 @@ export const baseMoviesPage8: BaseMovie[] = [
     saga: '',
     description: '',
     fromEntity: null,
-    countryOrigin: 'États-Unis',
+    countryOrigin: ['États-Unis'],
   },
   {
     title: 'Primer',
@@ -578,7 +578,7 @@ export const baseMoviesPage8: BaseMovie[] = [
     saga: '',
     description: '',
     fromEntity: null,
-    countryOrigin: 'États-Unis',
+    countryOrigin: ['États-Unis'],
   },
   {
     title: 'The Man from Earth',
@@ -595,7 +595,7 @@ export const baseMoviesPage8: BaseMovie[] = [
     saga: '',
     description: '',
     fromEntity: null,
-    countryOrigin: 'États-Unis',
+    countryOrigin: ['États-Unis'],
   },
   {
     title: 'The Patriot : Le Chemin de l...',
@@ -612,7 +612,7 @@ export const baseMoviesPage8: BaseMovie[] = [
     saga: '',
     description: '',
     fromEntity: null,
-    countryOrigin: 'Allemagne',
+    countryOrigin: ['Allemagne'],
   },
   {
     title: "Largo Winch : Le Prix de l'argent",
@@ -629,7 +629,7 @@ export const baseMoviesPage8: BaseMovie[] = [
     saga: '',
     description: '',
     fromEntity: null,
-    countryOrigin: 'France',
+    countryOrigin: ['France'],
   },
   {
     title: 'Largo Winch',
@@ -646,7 +646,7 @@ export const baseMoviesPage8: BaseMovie[] = [
     saga: '',
     description: '',
     fromEntity: null,
-    countryOrigin: 'France',
+    countryOrigin: ['France'],
   },
   {
     title: 'Largo Winch II',
@@ -663,7 +663,7 @@ export const baseMoviesPage8: BaseMovie[] = [
     saga: '',
     description: '',
     fromEntity: null,
-    countryOrigin: 'France',
+    countryOrigin: ['France'],
   },
   {
     title: 'Alien : Romulus',
@@ -680,7 +680,7 @@ export const baseMoviesPage8: BaseMovie[] = [
     saga: '',
     description: '',
     fromEntity: null,
-    countryOrigin: 'Royaume-Uni',
+    countryOrigin: ['Royaume-Uni'],
   },
   {
     title: 'Sans un bruit : Jour 1',
@@ -697,7 +697,7 @@ export const baseMoviesPage8: BaseMovie[] = [
     saga: '',
     description: '',
     fromEntity: null,
-    countryOrigin: 'États-Unis',
+    countryOrigin: ['États-Unis'],
   },
   {
     title: 'Back to Black',
@@ -714,7 +714,7 @@ export const baseMoviesPage8: BaseMovie[] = [
     saga: '',
     description: '',
     fromEntity: null,
-    countryOrigin: 'Royaume-Uni',
+    countryOrigin: ['Royaume-Uni'],
   },
   {
     title: 'Before Midnight',
@@ -731,7 +731,7 @@ export const baseMoviesPage8: BaseMovie[] = [
     saga: '',
     description: '',
     fromEntity: null,
-    countryOrigin: 'États-Unis',
+    countryOrigin: ['États-Unis'],
   },
   {
     title: 'Empire of Light',
@@ -748,7 +748,7 @@ export const baseMoviesPage8: BaseMovie[] = [
     saga: '',
     description: '',
     fromEntity: null,
-    countryOrigin: 'Royaume-Uni',
+    countryOrigin: ['Royaume-Uni'],
   },
   {
     title: 'Le Monde après nous',
@@ -765,7 +765,7 @@ export const baseMoviesPage8: BaseMovie[] = [
     saga: '',
     description: '',
     fromEntity: null,
-    countryOrigin: 'États-Unis',
+    countryOrigin: ['États-Unis'],
   },
   {
     title: "Anatomie d'une chute",
@@ -782,7 +782,7 @@ export const baseMoviesPage8: BaseMovie[] = [
     saga: '',
     description: '',
     fromEntity: null,
-    countryOrigin: 'France',
+    countryOrigin: ['France'],
   },
   {
     title: "L'Homme qui en savait trop",
@@ -799,7 +799,7 @@ export const baseMoviesPage8: BaseMovie[] = [
     saga: '',
     description: '',
     fromEntity: null,
-    countryOrigin: 'États-Unis',
+    countryOrigin: ['États-Unis'],
   },
   {
     title: 'Val',
@@ -816,7 +816,7 @@ export const baseMoviesPage8: BaseMovie[] = [
     saga: '',
     description: '',
     fromEntity: null,
-    countryOrigin: 'États-Unis',
+    countryOrigin: ['États-Unis'],
   },
   {
     title: 'Malcolm X',
@@ -833,7 +833,7 @@ export const baseMoviesPage8: BaseMovie[] = [
     saga: '',
     description: '',
     fromEntity: null,
-    countryOrigin: 'Japon',
+    countryOrigin: ['Japon'],
   },
   {
     title: 'Aftersun',
@@ -850,7 +850,7 @@ export const baseMoviesPage8: BaseMovie[] = [
     saga: '',
     description: '',
     fromEntity: null,
-    countryOrigin: 'Royaume-Uni',
+    countryOrigin: ['Royaume-Uni'],
   },
   {
     title: 'Paprika',
@@ -867,7 +867,7 @@ export const baseMoviesPage8: BaseMovie[] = [
     saga: '',
     description: '',
     fromEntity: null,
-    countryOrigin: 'Japon',
+    countryOrigin: ['Japon'],
   },
   {
     title: 'Snowden',
@@ -884,7 +884,7 @@ export const baseMoviesPage8: BaseMovie[] = [
     saga: '',
     description: '',
     fromEntity: null,
-    countryOrigin: 'États-Unis',
+    countryOrigin: ['États-Unis'],
   },
   {
     title: 'Volte/Face',
@@ -901,7 +901,7 @@ export const baseMoviesPage8: BaseMovie[] = [
     saga: '',
     description: '',
     fromEntity: null,
-    countryOrigin: 'États-Unis',
+    countryOrigin: ['États-Unis'],
   },
   {
     title: 'Foxcatcher',
@@ -918,7 +918,7 @@ export const baseMoviesPage8: BaseMovie[] = [
     saga: '',
     description: '',
     fromEntity: null,
-    countryOrigin: 'États-Unis',
+    countryOrigin: ['États-Unis'],
   },
   {
     title: 'Spotlight',
@@ -935,7 +935,7 @@ export const baseMoviesPage8: BaseMovie[] = [
     saga: '',
     description: '',
     fromEntity: null,
-    countryOrigin: 'États-Unis',
+    countryOrigin: ['États-Unis'],
   },
   {
     title: 'Nightmare Alley',
@@ -952,7 +952,7 @@ export const baseMoviesPage8: BaseMovie[] = [
     saga: '',
     description: '',
     fromEntity: null,
-    countryOrigin: 'États-Unis',
+    countryOrigin: ['États-Unis'],
   },
   {
     title: 'Last Night in Soho',
@@ -969,7 +969,7 @@ export const baseMoviesPage8: BaseMovie[] = [
     saga: '',
     description: '',
     fromEntity: null,
-    countryOrigin: 'Royaume-Uni',
+    countryOrigin: ['Royaume-Uni'],
   },
   {
     title: "2001 : L'Odyssée de l'espace",
@@ -982,7 +982,7 @@ export const baseMoviesPage8: BaseMovie[] = [
     saga: '',
     description: '',
     fromEntity: null,
-    countryOrigin: 'France',
+    countryOrigin: ['France'],
   },
   {
     title: 'First Man - Le Premier Homme s...',
@@ -999,7 +999,7 @@ export const baseMoviesPage8: BaseMovie[] = [
     saga: '',
     description: '',
     fromEntity: null,
-    countryOrigin: 'États-Unis',
+    countryOrigin: ['États-Unis'],
   },
   {
     title: 'The Thing',
@@ -1016,7 +1016,7 @@ export const baseMoviesPage8: BaseMovie[] = [
     saga: '',
     description: '',
     fromEntity: null,
-    countryOrigin: 'États-Unis',
+    countryOrigin: ['États-Unis'],
   },
   {
     title: 'Wolfs',
@@ -1033,7 +1033,7 @@ export const baseMoviesPage8: BaseMovie[] = [
     saga: '',
     description: '',
     fromEntity: null,
-    countryOrigin: 'Royaume-Uni',
+    countryOrigin: ['Royaume-Uni'],
   },
   {
     title: 'Fantastic Mr. Fox',
@@ -1050,7 +1050,7 @@ export const baseMoviesPage8: BaseMovie[] = [
     saga: '',
     description: '',
     fromEntity: null,
-    countryOrigin: 'États-Unis',
+    countryOrigin: ['États-Unis'],
   },
   {
     title: 'Ave, César',
@@ -1067,7 +1067,7 @@ export const baseMoviesPage8: BaseMovie[] = [
     saga: '',
     description: '',
     fromEntity: null,
-    countryOrigin: 'États-Unis',
+    countryOrigin: ['États-Unis'],
   },
   {
     title: 'Ne Zha',
@@ -1080,7 +1080,7 @@ export const baseMoviesPage8: BaseMovie[] = [
     saga: '',
     description: '',
     fromEntity: null,
-    countryOrigin: 'Chine',
+    countryOrigin: ['Chine'],
   },
   {
     title: 'Ne Zha 2',
@@ -1093,7 +1093,7 @@ export const baseMoviesPage8: BaseMovie[] = [
     saga: '',
     description: '',
     fromEntity: null,
-    countryOrigin: 'Chine',
+    countryOrigin: ['Chine'],
   },
   {
     title: 'Magazine Dreams',
@@ -1110,7 +1110,7 @@ export const baseMoviesPage8: BaseMovie[] = [
     saga: '',
     description: '',
     fromEntity: null,
-    countryOrigin: 'États-Unis',
+    countryOrigin: ['États-Unis'],
   },
   {
     title: 'Les Sept Samourais',
@@ -1127,7 +1127,7 @@ export const baseMoviesPage8: BaseMovie[] = [
     saga: '',
     description: '',
     fromEntity: null,
-    countryOrigin: 'Japon',
+    countryOrigin: ['Japon'],
   },
   {
     title: 'Cléopâtre',
@@ -1140,7 +1140,7 @@ export const baseMoviesPage8: BaseMovie[] = [
     saga: '',
     description: '',
     fromEntity: null,
-    countryOrigin: 'Royaume-Uni',
+    countryOrigin: ['Royaume-Uni'],
   },
   {
     title: 'Vermines',
@@ -1157,7 +1157,7 @@ export const baseMoviesPage8: BaseMovie[] = [
     saga: '',
     description: '',
     fromEntity: null,
-    countryOrigin: 'Canada',
+    countryOrigin: ['Canada'],
   },
   {
     title: 'Under the Silver Lake',
@@ -1174,7 +1174,7 @@ export const baseMoviesPage8: BaseMovie[] = [
     saga: '',
     description: '',
     fromEntity: null,
-    countryOrigin: 'États-Unis',
+    countryOrigin: ['États-Unis'],
   },
   {
     title: 'Le Garçon au pyjama rayé',
@@ -1191,7 +1191,7 @@ export const baseMoviesPage8: BaseMovie[] = [
     saga: '',
     description: '',
     fromEntity: null,
-    countryOrigin: 'Royaume-Uni',
+    countryOrigin: ['Royaume-Uni'],
   },
   {
     title: 'Lady Vengeance',
@@ -1208,7 +1208,7 @@ export const baseMoviesPage8: BaseMovie[] = [
     saga: '',
     description: '',
     fromEntity: null,
-    countryOrigin: 'Corée du Sud',
+    countryOrigin: ['Corée du Sud'],
   },
   {
     title: 'La Chute',
@@ -1225,7 +1225,7 @@ export const baseMoviesPage8: BaseMovie[] = [
     saga: '',
     description: '',
     fromEntity: null,
-    countryOrigin: 'Allemagne',
+    countryOrigin: ['Allemagne'],
   },
   {
     title: "Les Banshees d'Inisherin",
@@ -1242,7 +1242,7 @@ export const baseMoviesPage8: BaseMovie[] = [
     saga: '',
     description: '',
     fromEntity: null,
-    countryOrigin: 'Irlande',
+    countryOrigin: ['Irlande'],
   },
   {
     title: 'Papillon',
@@ -1259,7 +1259,7 @@ export const baseMoviesPage8: BaseMovie[] = [
     saga: '',
     description: '',
     fromEntity: null,
-    countryOrigin: 'France',
+    countryOrigin: ['France'],
   },
   {
     title: 'Il était une fois le Bronx',
@@ -1276,7 +1276,7 @@ export const baseMoviesPage8: BaseMovie[] = [
     saga: '',
     description: '',
     fromEntity: null,
-    countryOrigin: 'États-Unis',
+    countryOrigin: ['États-Unis'],
   },
   {
     title: 'Fargo',
@@ -1293,7 +1293,7 @@ export const baseMoviesPage8: BaseMovie[] = [
     saga: '',
     description: '',
     fromEntity: null,
-    countryOrigin: 'Royaume-Uni',
+    countryOrigin: ['Royaume-Uni'],
   },
   {
     title: 'Booksmart',
@@ -1310,7 +1310,7 @@ export const baseMoviesPage8: BaseMovie[] = [
     saga: '',
     description: '',
     fromEntity: null,
-    countryOrigin: 'États-Unis',
+    countryOrigin: ['États-Unis'],
   },
   {
     title: 'Poker Face',
@@ -1327,7 +1327,7 @@ export const baseMoviesPage8: BaseMovie[] = [
     saga: '',
     description: '',
     fromEntity: null,
-    countryOrigin: 'États-Unis',
+    countryOrigin: ['États-Unis'],
   },
   {
     title: 'Une nuit en enfer',
@@ -1344,7 +1344,7 @@ export const baseMoviesPage8: BaseMovie[] = [
     saga: '',
     description: '',
     fromEntity: null,
-    countryOrigin: 'États-Unis',
+    countryOrigin: ['États-Unis'],
   },
   {
     title: 'Festen',
@@ -1361,7 +1361,7 @@ export const baseMoviesPage8: BaseMovie[] = [
     saga: '',
     description: '',
     fromEntity: null,
-    countryOrigin: 'Suède',
+    countryOrigin: ['Suède'],
   },
   {
     title: 'Armageddon Time',
@@ -1378,7 +1378,7 @@ export const baseMoviesPage8: BaseMovie[] = [
     saga: '',
     description: '',
     fromEntity: null,
-    countryOrigin: 'Brésil',
+    countryOrigin: ['Brésil'],
   },
   {
     title: 'Violent Night',
@@ -1395,7 +1395,7 @@ export const baseMoviesPage8: BaseMovie[] = [
     saga: '',
     description: '',
     fromEntity: null,
-    countryOrigin: 'États-Unis',
+    countryOrigin: ['États-Unis'],
   },
   {
     title: 'Novembre',
@@ -1412,7 +1412,7 @@ export const baseMoviesPage8: BaseMovie[] = [
     saga: '',
     description: '',
     fromEntity: null,
-    countryOrigin: 'Estonie',
+    countryOrigin: ['Estonie'],
   },
   {
     title: 'The Northman',
@@ -1429,7 +1429,7 @@ export const baseMoviesPage8: BaseMovie[] = [
     saga: '',
     description: '',
     fromEntity: null,
-    countryOrigin: 'Royaume-Uni',
+    countryOrigin: ['Royaume-Uni'],
   },
   {
     title: 'The Reader',
@@ -1446,7 +1446,7 @@ export const baseMoviesPage8: BaseMovie[] = [
     saga: '',
     description: '',
     fromEntity: null,
-    countryOrigin: 'Allemagne',
+    countryOrigin: ['Allemagne'],
   },
   {
     title: 'Rock',
@@ -1463,7 +1463,7 @@ export const baseMoviesPage8: BaseMovie[] = [
     saga: '',
     description: '',
     fromEntity: null,
-    countryOrigin: 'États-Unis',
+    countryOrigin: ['États-Unis'],
   },
   {
     title: "La Proie d'une ombre",
@@ -1480,7 +1480,7 @@ export const baseMoviesPage8: BaseMovie[] = [
     saga: '',
     description: '',
     fromEntity: null,
-    countryOrigin: 'Royaume-Uni',
+    countryOrigin: ['Royaume-Uni'],
   },
   {
     title: 'Blow Out',
@@ -1497,7 +1497,7 @@ export const baseMoviesPage8: BaseMovie[] = [
     saga: '',
     description: '',
     fromEntity: null,
-    countryOrigin: 'États-Unis',
+    countryOrigin: ['États-Unis'],
   },
   {
     title: 'The Bikeriders',
@@ -1514,7 +1514,7 @@ export const baseMoviesPage8: BaseMovie[] = [
     saga: '',
     description: '',
     fromEntity: null,
-    countryOrigin: 'États-Unis',
+    countryOrigin: ['États-Unis'],
   },
   {
     title: 'Le Garçon et le héron',
@@ -1531,7 +1531,7 @@ export const baseMoviesPage8: BaseMovie[] = [
     saga: '',
     description: '',
     fromEntity: null,
-    countryOrigin: 'Japon',
+    countryOrigin: ['Japon'],
   },
   {
     title: 'Le Plus Beau des combats',
@@ -1548,7 +1548,7 @@ export const baseMoviesPage8: BaseMovie[] = [
     saga: '',
     description: '',
     fromEntity: null,
-    countryOrigin: 'États-Unis',
+    countryOrigin: ['États-Unis'],
   },
   {
     title: 'Only God Forgives',
@@ -1565,7 +1565,7 @@ export const baseMoviesPage8: BaseMovie[] = [
     saga: '',
     description: '',
     fromEntity: null,
-    countryOrigin: 'Danemark',
+    countryOrigin: ['Danemark'],
   },
   {
     title: 'Les Marches du pouvoir',
@@ -1582,7 +1582,7 @@ export const baseMoviesPage8: BaseMovie[] = [
     saga: '',
     description: '',
     fromEntity: null,
-    countryOrigin: 'États-Unis',
+    countryOrigin: ['États-Unis'],
   },
   {
     title: 'Excalibur',
@@ -1599,7 +1599,7 @@ export const baseMoviesPage8: BaseMovie[] = [
     saga: '',
     description: '',
     fromEntity: null,
-    countryOrigin: 'Royaume-Uni',
+    countryOrigin: ['Royaume-Uni'],
   },
   {
     title: 'Le cas Richard Jewell',
@@ -1616,7 +1616,7 @@ export const baseMoviesPage8: BaseMovie[] = [
     saga: '',
     description: '',
     fromEntity: null,
-    countryOrigin: 'États-Unis',
+    countryOrigin: ['États-Unis'],
   },
   {
     title: 'Moonfall',
@@ -1633,7 +1633,7 @@ export const baseMoviesPage8: BaseMovie[] = [
     saga: '',
     description: '',
     fromEntity: null,
-    countryOrigin: 'États-Unis',
+    countryOrigin: ['États-Unis'],
   },
   {
     title: 'Mort sur le Nil',
@@ -1650,7 +1650,7 @@ export const baseMoviesPage8: BaseMovie[] = [
     saga: '',
     description: '',
     fromEntity: null,
-    countryOrigin: 'États-Unis',
+    countryOrigin: ['États-Unis'],
   },
   {
     title: 'Palmer',
@@ -1667,7 +1667,7 @@ export const baseMoviesPage8: BaseMovie[] = [
     saga: '',
     description: '',
     fromEntity: null,
-    countryOrigin: 'États-Unis',
+    countryOrigin: ['États-Unis'],
   },
   {
     title: 'My Dinner with Andrew',
@@ -1681,7 +1681,7 @@ export const baseMoviesPage8: BaseMovie[] = [
     saga: '',
     description: '',
     fromEntity: null,
-    countryOrigin: 'États-Unis',
+    countryOrigin: ['États-Unis'],
   },
   {
     title: 'A history of violence',
@@ -1698,7 +1698,7 @@ export const baseMoviesPage8: BaseMovie[] = [
     saga: '',
     description: '',
     fromEntity: null,
-    countryOrigin: 'États-Unis',
+    countryOrigin: ['États-Unis'],
   },
   {
     title: 'The Wicker Man',
@@ -1715,7 +1715,7 @@ export const baseMoviesPage8: BaseMovie[] = [
     saga: '',
     description: '',
     fromEntity: null,
-    countryOrigin: 'Royaume-Uni',
+    countryOrigin: ['Royaume-Uni'],
   },
   {
     title: 'Family Man',
@@ -1732,7 +1732,7 @@ export const baseMoviesPage8: BaseMovie[] = [
     saga: '',
     description: '',
     fromEntity: null,
-    countryOrigin: 'États-Unis',
+    countryOrigin: ['États-Unis'],
   },
   {
     title: 'La Stratégie Ender',
@@ -1749,7 +1749,7 @@ export const baseMoviesPage8: BaseMovie[] = [
     saga: '',
     description: '',
     fromEntity: null,
-    countryOrigin: 'États-Unis',
+    countryOrigin: ['États-Unis'],
   },
   {
     title: 'Tu ne tueras point',
@@ -1766,7 +1766,7 @@ export const baseMoviesPage8: BaseMovie[] = [
     saga: '',
     description: '',
     fromEntity: null,
-    countryOrigin: 'États-Unis',
+    countryOrigin: ['États-Unis'],
   },
 
   {
@@ -1780,7 +1780,7 @@ export const baseMoviesPage8: BaseMovie[] = [
     saga: '',
     description: '',
     fromEntity: null,
-    countryOrigin: '',
+    countryOrigin: [],
   },
   {
     title: 'Wind River',
@@ -1797,7 +1797,7 @@ export const baseMoviesPage8: BaseMovie[] = [
     saga: '',
     description: '',
     fromEntity: null,
-    countryOrigin: 'Royaume-Uni',
+    countryOrigin: ['Royaume-Uni'],
   },
   {
     title: 'Killer Joe',
@@ -1814,7 +1814,7 @@ export const baseMoviesPage8: BaseMovie[] = [
     saga: '',
     description: '',
     fromEntity: null,
-    countryOrigin: 'États-Unis',
+    countryOrigin: ['États-Unis'],
   },
   {
     title: 'La Fièvre du Samedi soir',
@@ -1831,7 +1831,7 @@ export const baseMoviesPage8: BaseMovie[] = [
     saga: '',
     description: '',
     fromEntity: null,
-    countryOrigin: 'États-Unis',
+    countryOrigin: ['États-Unis'],
   },
   {
     title: 'Highlander',
@@ -1848,7 +1848,7 @@ export const baseMoviesPage8: BaseMovie[] = [
     saga: '',
     description: '',
     fromEntity: null,
-    countryOrigin: 'Royaume-Uni',
+    countryOrigin: ['Royaume-Uni'],
   },
   {
     title: 'Peur primale',
@@ -1865,7 +1865,7 @@ export const baseMoviesPage8: BaseMovie[] = [
     saga: '',
     description: '',
     fromEntity: null,
-    countryOrigin: 'États-Unis',
+    countryOrigin: ['États-Unis'],
   },
   {
     title: 'Le Secret des Marrowbone',
@@ -1882,7 +1882,7 @@ export const baseMoviesPage8: BaseMovie[] = [
     saga: '',
     description: '',
     fromEntity: null,
-    countryOrigin: 'Espagne',
+    countryOrigin: ['Espagne'],
   },
   {
     title: 'Bagdad Café',
@@ -1899,7 +1899,7 @@ export const baseMoviesPage8: BaseMovie[] = [
     saga: '',
     description: '',
     fromEntity: null,
-    countryOrigin: 'Allemagne',
+    countryOrigin: ['Allemagne'],
   },
   {
     title: 'Snake Eyes',
@@ -1916,7 +1916,7 @@ export const baseMoviesPage8: BaseMovie[] = [
     saga: '',
     description: '',
     fromEntity: null,
-    countryOrigin: 'États-Unis',
+    countryOrigin: ['États-Unis'],
   },
   {
     title: 'Spartacus',
@@ -1933,7 +1933,7 @@ export const baseMoviesPage8: BaseMovie[] = [
     saga: '',
     description: '',
     fromEntity: null,
-    countryOrigin: 'États-Unis',
+    countryOrigin: ['États-Unis'],
   },
   {
     title: 'Sur la route de Madison',
@@ -1950,7 +1950,7 @@ export const baseMoviesPage8: BaseMovie[] = [
     saga: '',
     description: '',
     fromEntity: null,
-    countryOrigin: 'États-Unis',
+    countryOrigin: ['États-Unis'],
   },
   {
     title: 'The Green Knight',
@@ -1967,7 +1967,7 @@ export const baseMoviesPage8: BaseMovie[] = [
     saga: '',
     description: '',
     fromEntity: null,
-    countryOrigin: 'États-Unis',
+    countryOrigin: ['États-Unis'],
   },
   {
     title: 'Chaplin',
@@ -1984,7 +1984,7 @@ export const baseMoviesPage8: BaseMovie[] = [
     saga: '',
     description: '',
     fromEntity: null,
-    countryOrigin: 'Royaume-Uni',
+    countryOrigin: ['Royaume-Uni'],
   },
   {
     title: 'The Father',
@@ -2001,7 +2001,7 @@ export const baseMoviesPage8: BaseMovie[] = [
     saga: '',
     description: '',
     fromEntity: null,
-    countryOrigin: 'Royaume-Uni',
+    countryOrigin: ['Royaume-Uni'],
   },
   {
     title: 'La 25ème Heure',
@@ -2018,7 +2018,7 @@ export const baseMoviesPage8: BaseMovie[] = [
     saga: '',
     description: '',
     fromEntity: null,
-    countryOrigin: 'États-Unis',
+    countryOrigin: ['États-Unis'],
   },
   {
     title: 'Coherence',
@@ -2035,7 +2035,7 @@ export const baseMoviesPage8: BaseMovie[] = [
     saga: '',
     description: '',
     fromEntity: null,
-    countryOrigin: 'États-Unis',
+    countryOrigin: ['États-Unis'],
   },
   {
     title: 'Boyhood',
@@ -2052,7 +2052,7 @@ export const baseMoviesPage8: BaseMovie[] = [
     saga: '',
     description: '',
     fromEntity: null,
-    countryOrigin: 'États-Unis',
+    countryOrigin: ['États-Unis'],
   },
   {
     title: 'Before Sunrise',
@@ -2069,7 +2069,7 @@ export const baseMoviesPage8: BaseMovie[] = [
     saga: '',
     description: '',
     fromEntity: null,
-    countryOrigin: 'États-Unis',
+    countryOrigin: ['États-Unis'],
   },
   {
     title: 'Before Sunset',
@@ -2086,7 +2086,7 @@ export const baseMoviesPage8: BaseMovie[] = [
     saga: '',
     description: '',
     fromEntity: null,
-    countryOrigin: 'États-Unis',
+    countryOrigin: ['États-Unis'],
   },
   {
     title: 'Live by Night',
@@ -2103,7 +2103,7 @@ export const baseMoviesPage8: BaseMovie[] = [
     saga: '',
     description: '',
     fromEntity: null,
-    countryOrigin: 'États-Unis',
+    countryOrigin: ['États-Unis'],
   },
   {
     title: 'Cherry',
@@ -2120,7 +2120,7 @@ export const baseMoviesPage8: BaseMovie[] = [
     saga: '',
     description: '',
     fromEntity: null,
-    countryOrigin: 'États-Unis',
+    countryOrigin: ['États-Unis'],
   },
   {
     title: 'Orgueil et Préjugés et Zombies',
@@ -2137,7 +2137,7 @@ export const baseMoviesPage8: BaseMovie[] = [
     saga: '',
     description: '',
     fromEntity: null,
-    countryOrigin: 'États-Unis',
+    countryOrigin: ['États-Unis'],
   },
   {
     title: 'Autant en emporte le vent',
@@ -2154,7 +2154,7 @@ export const baseMoviesPage8: BaseMovie[] = [
     saga: '',
     description: '',
     fromEntity: null,
-    countryOrigin: 'États-Unis',
+    countryOrigin: ['États-Unis'],
   },
   {
     title: 'Casse-Noisette et les quatr...',
@@ -2171,7 +2171,7 @@ export const baseMoviesPage8: BaseMovie[] = [
     saga: '',
     description: '',
     fromEntity: null,
-    countryOrigin: 'Canada',
+    countryOrigin: ['Canada'],
   },
   {
     title: 'Ben-Hur',
@@ -2188,7 +2188,7 @@ export const baseMoviesPage8: BaseMovie[] = [
     saga: '',
     description: '',
     fromEntity: null,
-    countryOrigin: 'États-Unis',
+    countryOrigin: ['États-Unis'],
   },
   {
     title: 'There Will Be Blood',
@@ -2205,7 +2205,7 @@ export const baseMoviesPage8: BaseMovie[] = [
     saga: '',
     description: '',
     fromEntity: null,
-    countryOrigin: 'États-Unis',
+    countryOrigin: ['États-Unis'],
   },
   {
     title: 'Air Force One',
@@ -2222,7 +2222,7 @@ export const baseMoviesPage8: BaseMovie[] = [
     saga: '',
     description: '',
     fromEntity: null,
-    countryOrigin: 'États-Unis',
+    countryOrigin: ['États-Unis'],
   },
   {
     title: "L'Échange",
@@ -2239,6 +2239,6 @@ export const baseMoviesPage8: BaseMovie[] = [
     saga: '',
     description: '',
     fromEntity: null,
-    countryOrigin: 'États-Unis',
+    countryOrigin: ['États-Unis'],
   },
 ];

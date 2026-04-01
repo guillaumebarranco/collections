@@ -116,6 +116,58 @@ function parseMovieGenreField(objectText: string): string[] {
     .filter(Boolean);
 }
 
+/** Lit countryOrigin: [...] ou ancienne forme chaîne dans un littéral d'objet film. */
+function parseMovieCountryOriginField(objectText: string): string[] {
+  const keyMatch = objectText.match(/\bcountryOrigin\s*:\s*/);
+  if (!keyMatch || keyMatch.index === undefined) {
+    return [];
+  }
+  let pos = keyMatch.index + keyMatch[0].length;
+  while (pos < objectText.length && /\s/.test(objectText[pos])) {
+    pos += 1;
+  }
+  if (pos >= objectText.length) {
+    return [];
+  }
+  if (objectText[pos] === '[') {
+    let depth = 0;
+    let i = pos;
+    while (i < objectText.length) {
+      const c = objectText[i];
+      if (c === '[') {
+        depth += 1;
+      } else if (c === ']') {
+        depth -= 1;
+        if (depth === 0) {
+          i += 1;
+          break;
+        }
+      }
+      i += 1;
+    }
+    const inner = objectText.slice(pos + 1, i - 1);
+    if (!inner.trim()) {
+      return [];
+    }
+    const regex = /(['"])((?:\\.|(?!\1).)*)\1/g;
+    const result: string[] = [];
+    let match = regex.exec(inner);
+    while (match) {
+      result.push(unescapeString(match[2], match[1]));
+      match = regex.exec(inner);
+    }
+    return result;
+  }
+  const legacy = parseStringField(objectText, 'countryOrigin');
+  if (!legacy?.trim()) {
+    return [];
+  }
+  return legacy
+    .split(',')
+    .map((g) => g.trim())
+    .filter(Boolean);
+}
+
 function escapeForSingleQuotedTs(s: string) {
   return String(s).replace(/\\/g, '\\\\').replace(/'/g, "\\'");
 }
@@ -149,6 +201,14 @@ function normalizeMovieGenreInput(value: any): string[] {
       .filter(Boolean);
   }
   return [];
+}
+
+function normalizeMovieCountryOriginInput(value: any): string[] {
+  return normalizeMovieGenreInput(value);
+}
+
+function formatMovieCountryOriginArrayTs(arr: string[]) {
+  return formatMovieGenreArrayTs(arr);
 }
 
 function parseNumberField(objectText: string, key: string) {
@@ -399,7 +459,7 @@ function parseBaseMoviesFullFromFile(content: string): any[] {
           genre: parseMovieGenreField(objectText),
           saga: parseStringField(objectText, 'saga') || '',
           description: parseStringField(objectText, 'description') || '',
-          countryOrigin: parseStringField(objectText, 'countryOrigin') || '',
+          countryOrigin: parseMovieCountryOriginField(objectText),
           fromEntity: parsefromEntityField(objectText) ?? null,
         });
       }
@@ -501,6 +561,23 @@ function upsertGenreField(objectText: string, value: any) {
     return objectText.replace(regex, `genre: ${serialized}`);
   }
   return objectText.replace(/\}\s*$/, `    genre: ${serialized},\n  }`);
+}
+
+function upsertCountryOriginField(objectText: string, value: any) {
+  if (value === undefined) {
+    return objectText;
+  }
+  const arr = normalizeMovieCountryOriginInput(value);
+  const serialized = formatMovieCountryOriginArrayTs(arr);
+  const regex =
+    /\bcountryOrigin\s*:\s*(\[[\s\S]*?\]|(['"])((?:\\.|(?!\2).)*)\2)/;
+  if (regex.test(objectText)) {
+    return objectText.replace(regex, `countryOrigin: ${serialized}`);
+  }
+  return objectText.replace(
+    /\}\s*$/,
+    `    countryOrigin: ${serialized},\n  }`
+  );
 }
 
 function upsertInListField(objectText: string, arr: string[]) {
@@ -791,11 +868,7 @@ function updateBaseMovieInFile(content: string, payload: any) {
             'description',
             payload.description ?? ''
           );
-          updated = upsertField(
-            updated,
-            'countryOrigin',
-            payload.countryOrigin ?? ''
-          );
+          updated = upsertCountryOriginField(updated, payload.countryOrigin);
           updated = upsertfromEntityField(updated, payload.fromEntity);
 
           return (
@@ -949,7 +1022,9 @@ module.exports = {
   normalizeBoolean,
   normalizeString,
   normalizeMovieGenreInput,
+  normalizeMovieCountryOriginInput,
   formatMovieGenreArrayTs,
+  formatMovieCountryOriginArrayTs,
   parseMoviesFromFile,
   parseBaseMoviesFromFile,
   parseBaseMoviesFullFromFile,

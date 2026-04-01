@@ -5,6 +5,7 @@ const {
   normalizeBoolean,
   normalizeString,
   normalizeMovieGenreInput,
+  normalizeMovieCountryOriginInput,
   updateMovieInFile,
   updateMovieIdentityInFile,
   updateBaseMovieInFiles,
@@ -146,8 +147,12 @@ router.post('/', (req: any, res: any) => {
         saga: normalizeString(entityPayload.saga, 'saga'),
         description:
           normalizeString(entityPayload.description, 'description') ?? '',
-        countryOrigin:
-          normalizeString(entityPayload.countryOrigin, 'countryOrigin') ?? '',
+        countryOrigin: Object.prototype.hasOwnProperty.call(
+          entityPayload,
+          'countryOrigin'
+        )
+          ? normalizeMovieCountryOriginInput(entityPayload.countryOrigin)
+          : undefined,
         fromEntity:
           entityPayload.fromEntity === null ||
           entityPayload.fromEntity === undefined

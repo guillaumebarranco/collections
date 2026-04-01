@@ -23,7 +23,10 @@ import {
   capitalizeFirstLetter,
 } from '../../../utils/stats.utils';
 import { normalizeSearchText } from '../../../utils/normalize-search-text';
-import { Movie } from '../../../models/movie-model';
+import {
+  getMovieCountryOriginLabels,
+  Movie,
+} from '../../../models/movie-model';
 import type { UserMovieListItem } from '../../../models/movie-list.model';
 import { DEFAULT_USER_ID } from '../../../utils/constants';
 
@@ -775,7 +778,7 @@ export class MoviesComponent implements OnInit {
       actors,
       ...genreParts,
       movie.saga,
-      movie.countryOrigin ?? '',
+      ...getMovieCountryOriginLabels(movie),
     ]
       .filter(Boolean)
       .join(' ');

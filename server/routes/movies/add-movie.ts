@@ -6,7 +6,9 @@ const {
   normalizeBoolean,
   normalizeString,
   normalizeMovieGenreInput,
+  normalizeMovieCountryOriginInput,
   formatMovieGenreArrayTs,
+  formatMovieCountryOriginArrayTs,
   escapeString,
   appendObjectToArrayFile,
   baseMovieExists,
@@ -38,9 +40,9 @@ function formatBaseMovie(entity: any): string {
     entity.saga || ''
   )}",\n    description: "${escapeString(
     entity.description ?? ''
-  )}",\n    fromEntity: null,\n    countryOrigin: "${escapeString(
-    entity.countryOrigin ?? ''
-  )}",\n  },`;
+  )}",\n    fromEntity: null,\n    countryOrigin: ${formatMovieCountryOriginArrayTs(
+    normalizeMovieCountryOriginInput(entity.countryOrigin)
+  )},\n  },`;
 }
 
 function formatUserMovie(user: any): string {
@@ -130,8 +132,7 @@ router.post('/add', (req: any, res: any) => {
       genre: normalizeMovieGenreInput(entity.genre),
       saga: normalizeString(entity.saga, 'saga') || '',
       description: normalizeString(entity.description, 'description') ?? '',
-      countryOrigin:
-        normalizeString(entity.countryOrigin, 'countryOrigin') ?? '',
+      countryOrigin: normalizeMovieCountryOriginInput(entity.countryOrigin),
     };
 
     const userPayload = {

@@ -22,7 +22,7 @@ export const baseMoviesApi: BaseMovie[] = [
     saga: '',
     description: '',
     fromEntity: null,
-    countryOrigin: 'États-Unis',
+    countryOrigin: ['États-Unis'],
   },
   {
     title: 'The Rip',
@@ -45,7 +45,7 @@ export const baseMoviesApi: BaseMovie[] = [
     saga: '',
     description: '',
     fromEntity: null,
-    countryOrigin: 'États-Unis',
+    countryOrigin: ['États-Unis'],
   },
   {
     title: 'Greenland - Le Dernier Refuge',
@@ -68,7 +68,7 @@ export const baseMoviesApi: BaseMovie[] = [
     saga: '',
     description: '',
     fromEntity: null,
-    countryOrigin: 'États-Unis',
+    countryOrigin: ['États-Unis'],
   },
   {
     title: 'La Cité de Dieu',
@@ -94,7 +94,7 @@ export const baseMoviesApi: BaseMovie[] = [
     saga: '',
     description: '',
     fromEntity: null,
-    countryOrigin: 'Brésil',
+    countryOrigin: ['Brésil'],
   },
   {
     title: 'Gourou',
@@ -114,7 +114,7 @@ export const baseMoviesApi: BaseMovie[] = [
     saga: '',
     description: '',
     fromEntity: null,
-    countryOrigin: 'France',
+    countryOrigin: ['France'],
   },
 
   {
@@ -138,7 +138,7 @@ export const baseMoviesApi: BaseMovie[] = [
     saga: '',
     description: '',
     fromEntity: null,
-    countryOrigin: 'France',
+    countryOrigin: ['France'],
   },
 
   {
@@ -152,7 +152,7 @@ export const baseMoviesApi: BaseMovie[] = [
     saga: '',
     description: '',
     fromEntity: null,
-    countryOrigin: 'États-Unis',
+    countryOrigin: ['États-Unis'],
   },
   {
     title: "O'Brother",
@@ -175,7 +175,7 @@ export const baseMoviesApi: BaseMovie[] = [
     saga: '',
     description: '',
     fromEntity: null,
-    countryOrigin: 'États-Unis',
+    countryOrigin: ['États-Unis'],
   },
   {
     title: 'Bugonia',
@@ -195,7 +195,7 @@ export const baseMoviesApi: BaseMovie[] = [
     saga: '',
     description: '',
     fromEntity: null,
-    countryOrigin: 'États-Unis',
+    countryOrigin: ['États-Unis'],
   },
   {
     title: 'Marsupilami',
@@ -227,7 +227,7 @@ export const baseMoviesApi: BaseMovie[] = [
     saga: 'Marsupilami',
     description: '',
     fromEntity: null,
-    countryOrigin: 'France',
+    countryOrigin: ['France'],
   },
 
   {
@@ -251,7 +251,7 @@ export const baseMoviesApi: BaseMovie[] = [
     saga: '',
     description: '',
     fromEntity: null,
-    countryOrigin: 'États-Unis',
+    countryOrigin: ['États-Unis'],
   },
   {
     title: "L'Auberge Espagnol",
@@ -274,7 +274,7 @@ export const baseMoviesApi: BaseMovie[] = [
     saga: 'Trilogie Cédric Klapisch',
     description: '',
     fromEntity: null,
-    countryOrigin: 'France',
+    countryOrigin: ['France'],
   },
   {
     title: 'Hamnet',
@@ -298,7 +298,7 @@ export const baseMoviesApi: BaseMovie[] = [
       title: 'Hamlet',
       secondEntityKey: 'William Shakespeare',
     },
-    countryOrigin: 'Royaume-Uni',
+    countryOrigin: ['Royaume-Uni'],
   },
   {
     title: 'Hannah Montana - Le Film',
@@ -321,7 +321,7 @@ export const baseMoviesApi: BaseMovie[] = [
     saga: '',
     description: '',
     fromEntity: null,
-    countryOrigin: 'États-Unis',
+    countryOrigin: ['États-Unis'],
   },
   {
     title: 'Les Poupées Russes',
@@ -347,7 +347,7 @@ export const baseMoviesApi: BaseMovie[] = [
     saga: 'Trilogie Cédric Klapisch',
     description: '',
     fromEntity: null,
-    countryOrigin: 'France',
+    countryOrigin: ['France'],
   },
   {
     title: 'Le Coursier',
@@ -376,7 +376,7 @@ export const baseMoviesApi: BaseMovie[] = [
     saga: '',
     description: '',
     fromEntity: null,
-    countryOrigin: 'France',
+    countryOrigin: ['France'],
   },
   {
     title: 'Un prophète',
@@ -393,7 +393,7 @@ export const baseMoviesApi: BaseMovie[] = [
     saga: '',
     description: '',
     fromEntity: null,
-    countryOrigin: 'France',
+    countryOrigin: ['France'],
   },
   {
     title: 'Grave',
@@ -410,7 +410,7 @@ export const baseMoviesApi: BaseMovie[] = [
     saga: '',
     description: '',
     fromEntity: null,
-    countryOrigin: 'France',
+    countryOrigin: ['France'],
   },
   {
     title: 'Les Sous-doués',
@@ -428,7 +428,7 @@ export const baseMoviesApi: BaseMovie[] = [
     saga: '',
     description: '',
     fromEntity: null,
-    countryOrigin: 'France',
+    countryOrigin: ['France'],
   },
   {
     title: 'Case départ',
@@ -446,7 +446,7 @@ export const baseMoviesApi: BaseMovie[] = [
     saga: '',
     description: '',
     fromEntity: null,
-    countryOrigin: 'France',
+    countryOrigin: ['France'],
   },
   {
     title: 'Monty Python - Sacré Graal !',
@@ -466,7 +466,7 @@ export const baseMoviesApi: BaseMovie[] = [
     saga: 'Monty Python',
     description: '',
     fromEntity: null,
-    countryOrigin: 'Royaume-Uni',
+    countryOrigin: ['Royaume-Uni'],
   },
   {
     title: 'Orange mécanique',
@@ -485,7 +485,7 @@ export const baseMoviesApi: BaseMovie[] = [
     saga: '',
     description: '',
     fromEntity: null,
-    countryOrigin: 'Royaume-Uni',
+    countryOrigin: ['Royaume-Uni'],
   },
   {
     title: 'Arnaques, crimes & botanique',
@@ -504,7 +504,7 @@ export const baseMoviesApi: BaseMovie[] = [
     saga: '',
     description: '',
     fromEntity: null,
-    countryOrigin: 'Royaume-Uni',
+    countryOrigin: ['Royaume-Uni'],
   },
   {
     title: 'Le Dernier Pub avant la fin du monde',
@@ -524,7 +524,7 @@ export const baseMoviesApi: BaseMovie[] = [
     saga: 'Trilogie Cornetto',
     description: '',
     fromEntity: null,
-    countryOrigin: 'Royaume-Uni',
+    countryOrigin: ['Royaume-Uni'],
   },
 
   {
@@ -545,7 +545,7 @@ export const baseMoviesApi: BaseMovie[] = [
     saga: '',
     description: '',
     fromEntity: null,
-    countryOrigin: 'France',
+    countryOrigin: ['France'],
   },
 
   {
@@ -579,7 +579,7 @@ export const baseMoviesApi: BaseMovie[] = [
       title: 'Dragon Ball',
       secondEntityKey: 'Akira Toriyama',
     },
-    countryOrigin: 'États-Unis',
+    countryOrigin: ['États-Unis'],
   },
   {
     title: 'The Ghost Writer',
@@ -597,7 +597,7 @@ export const baseMoviesApi: BaseMovie[] = [
     saga: '',
     description: '',
     fromEntity: null,
-    countryOrigin: 'Royaume-Uni',
+    countryOrigin: ['Royaume-Uni'],
   },
   {
     title: "Chérie, j'ai rétréci les gosses",
@@ -615,7 +615,7 @@ export const baseMoviesApi: BaseMovie[] = [
     saga: '',
     description: '',
     fromEntity: null,
-    countryOrigin: 'États-Unis',
+    countryOrigin: ['États-Unis'],
   },
 
   {
@@ -654,7 +654,7 @@ export const baseMoviesApi: BaseMovie[] = [
     saga: '',
     description: '',
     fromEntity: null,
-    countryOrigin: 'France',
+    countryOrigin: ['France'],
   },
 
   {
@@ -675,7 +675,7 @@ export const baseMoviesApi: BaseMovie[] = [
     saga: '',
     description: '',
     fromEntity: null,
-    countryOrigin: 'Japon',
+    countryOrigin: ['Japon'],
   },
 
   {
@@ -699,7 +699,7 @@ export const baseMoviesApi: BaseMovie[] = [
     saga: '',
     description: '',
     fromEntity: null,
-    countryOrigin: 'États-Unis',
+    countryOrigin: ['États-Unis'],
   },
 
   {
@@ -723,7 +723,7 @@ export const baseMoviesApi: BaseMovie[] = [
     saga: '',
     description: '',
     fromEntity: null,
-    countryOrigin: 'France',
+    countryOrigin: ['France'],
   },
 
   {
@@ -756,7 +756,7 @@ export const baseMoviesApi: BaseMovie[] = [
     saga: '',
     description: '',
     fromEntity: null,
-    countryOrigin: 'Royaume-Uni',
+    countryOrigin: ['Royaume-Uni'],
   },
 
   {
@@ -780,7 +780,7 @@ export const baseMoviesApi: BaseMovie[] = [
     saga: '',
     description: '',
     fromEntity: null,
-    countryOrigin: 'États-Unis',
+    countryOrigin: ['États-Unis'],
   },
 
   {
@@ -810,7 +810,7 @@ export const baseMoviesApi: BaseMovie[] = [
     saga: 'Marsupilami',
     description: '',
     fromEntity: null,
-    countryOrigin: 'France',
+    countryOrigin: ['France'],
   },
 
   {
@@ -834,7 +834,7 @@ export const baseMoviesApi: BaseMovie[] = [
     saga: 'Trilogie Cédric Klapisch',
     description: '',
     fromEntity: null,
-    countryOrigin: 'France',
+    countryOrigin: ['France'],
   },
   {
     title: 'Trouble Jeu',
@@ -857,7 +857,7 @@ export const baseMoviesApi: BaseMovie[] = [
     saga: '',
     description: '',
     fromEntity: null,
-    countryOrigin: 'États-Unis',
+    countryOrigin: ['États-Unis'],
   },
   {
     title: 'Life of Chuck',
@@ -880,7 +880,7 @@ export const baseMoviesApi: BaseMovie[] = [
     saga: '',
     description: '',
     fromEntity: null,
-    countryOrigin: 'États-Unis',
+    countryOrigin: ['États-Unis'],
   },
 
   {
@@ -913,7 +913,7 @@ export const baseMoviesApi: BaseMovie[] = [
     saga: 'MonsterVerse',
     description: '',
     fromEntity: null,
-    countryOrigin: 'États-Unis',
+    countryOrigin: ['États-Unis'],
   },
 
   {
@@ -937,7 +937,7 @@ export const baseMoviesApi: BaseMovie[] = [
     saga: '',
     description: '',
     fromEntity: null,
-    countryOrigin: 'États-Unis',
+    countryOrigin: ['États-Unis'],
   },
 
   {
@@ -969,7 +969,7 @@ export const baseMoviesApi: BaseMovie[] = [
       title: 'Le mystère Henri Pick',
       secondEntityKey: 'David Foenkinos',
     },
-    countryOrigin: 'France',
+    countryOrigin: ['France'],
   },
 
   {
@@ -991,7 +991,7 @@ export const baseMoviesApi: BaseMovie[] = [
     saga: '',
     description: '',
     fromEntity: null,
-    countryOrigin: 'France',
+    countryOrigin: ['France'],
   },
 
   {
@@ -1025,7 +1025,7 @@ export const baseMoviesApi: BaseMovie[] = [
     saga: '',
     description: '',
     fromEntity: null,
-    countryOrigin: 'États-Unis',
+    countryOrigin: ['États-Unis'],
   },
 
   {
@@ -1053,7 +1053,7 @@ export const baseMoviesApi: BaseMovie[] = [
     saga: '',
     description: '',
     fromEntity: null,
-    countryOrigin: 'France',
+    countryOrigin: ['France'],
   },
 
   {
@@ -1084,7 +1084,7 @@ export const baseMoviesApi: BaseMovie[] = [
     saga: 'Les Tuches',
     description: '',
     fromEntity: null,
-    countryOrigin: 'France',
+    countryOrigin: ['France'],
   },
 
   {
@@ -1112,7 +1112,7 @@ export const baseMoviesApi: BaseMovie[] = [
     saga: "L'Eleve Ducobu",
     description: '',
     fromEntity: null,
-    countryOrigin: 'France',
+    countryOrigin: ['France'],
   },
 
   {
@@ -1140,7 +1140,7 @@ export const baseMoviesApi: BaseMovie[] = [
     saga: "L'Eleve Ducobu",
     description: '',
     fromEntity: null,
-    countryOrigin: 'France',
+    countryOrigin: ['France'],
   },
 
   {
@@ -1170,6 +1170,6 @@ export const baseMoviesApi: BaseMovie[] = [
     saga: "",
     description: "",
     fromEntity: null,
-    countryOrigin: "France",
+    countryOrigin: ['France'],
   },
 ];

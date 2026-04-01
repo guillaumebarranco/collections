@@ -12,7 +12,7 @@ export const baseMoviesDc: BaseMovie[] = [
     saga: '',
     description: '',
     fromEntity: null,
-    countryOrigin: 'États-Unis',
+    countryOrigin: ['États-Unis'],
   },
   {
     title: 'Batman',
@@ -29,7 +29,7 @@ export const baseMoviesDc: BaseMovie[] = [
       title: 'Batman',
       secondEntityKey: 'DC Comics',
     },
-    countryOrigin: 'États-Unis',
+    countryOrigin: ['États-Unis'],
   },
   {
     title: 'Batman Returns',
@@ -51,7 +51,7 @@ export const baseMoviesDc: BaseMovie[] = [
       title: 'Batman',
       secondEntityKey: 'DC Comics',
     },
-    countryOrigin: 'États-Unis',
+    countryOrigin: ['États-Unis'],
   },
   {
     title: 'Batman Forever',
@@ -78,7 +78,7 @@ export const baseMoviesDc: BaseMovie[] = [
       title: 'Batman',
       secondEntityKey: 'DC Comics',
     },
-    countryOrigin: 'États-Unis',
+    countryOrigin: ['États-Unis'],
   },
   {
     title: 'Batman & Robin',
@@ -102,7 +102,7 @@ export const baseMoviesDc: BaseMovie[] = [
       title: 'Batman',
       secondEntityKey: 'DC Comics',
     },
-    countryOrigin: 'États-Unis',
+    countryOrigin: ['États-Unis'],
   },
   {
     title: 'Batman Begins',
@@ -138,7 +138,7 @@ export const baseMoviesDc: BaseMovie[] = [
       title: 'Batman',
       secondEntityKey: 'DC Comics',
     },
-    countryOrigin: 'États-Unis',
+    countryOrigin: ['États-Unis'],
   },
   {
     title: 'The Dark Knight : Le Chevalier Noir',
@@ -171,7 +171,7 @@ export const baseMoviesDc: BaseMovie[] = [
       title: 'Batman',
       secondEntityKey: 'DC Comics',
     },
-    countryOrigin: 'États-Unis',
+    countryOrigin: ['États-Unis'],
   },
   {
     title: 'The Dark Knight Rises',
@@ -208,7 +208,7 @@ export const baseMoviesDc: BaseMovie[] = [
       title: 'Batman',
       secondEntityKey: 'DC Comics',
     },
-    countryOrigin: 'États-Unis',
+    countryOrigin: ['États-Unis'],
   },
   {
     title: 'The Batman',
@@ -232,7 +232,7 @@ export const baseMoviesDc: BaseMovie[] = [
       title: 'Batman',
       secondEntityKey: 'DC Comics',
     },
-    countryOrigin: 'États-Unis',
+    countryOrigin: ['États-Unis'],
   },
   {
     title: "Batman v Superman : L'Aube de la Justice",
@@ -268,7 +268,7 @@ export const baseMoviesDc: BaseMovie[] = [
       title: 'Batman',
       secondEntityKey: 'DC Comics',
     },
-    countryOrigin: 'États-Unis',
+    countryOrigin: ['États-Unis'],
   },
   {
     title: 'Shazam!',
@@ -286,7 +286,7 @@ export const baseMoviesDc: BaseMovie[] = [
     saga: 'DCEU',
     description: '',
     fromEntity: null,
-    countryOrigin: 'États-Unis',
+    countryOrigin: ['États-Unis'],
   },
   {
     title: 'Aquaman',
@@ -304,7 +304,7 @@ export const baseMoviesDc: BaseMovie[] = [
     saga: 'DCEU',
     description: '',
     fromEntity: null,
-    countryOrigin: 'États-Unis',
+    countryOrigin: ['États-Unis'],
   },
   {
     title: 'Black Adam',
@@ -324,7 +324,7 @@ export const baseMoviesDc: BaseMovie[] = [
     saga: 'DCEU',
     description: '',
     fromEntity: null,
-    countryOrigin: 'États-Unis',
+    countryOrigin: ['États-Unis'],
   },
   {
     title: "Zack Snyder's Justice League",
@@ -354,7 +354,7 @@ export const baseMoviesDc: BaseMovie[] = [
     saga: 'DCEU',
     description: '',
     fromEntity: null,
-    countryOrigin: 'États-Unis',
+    countryOrigin: ['États-Unis'],
   },
   {
     title: 'Suicide Squad',
@@ -374,7 +374,7 @@ export const baseMoviesDc: BaseMovie[] = [
     saga: 'DCEU',
     description: '',
     fromEntity: null,
-    countryOrigin: 'États-Unis',
+    countryOrigin: ['États-Unis'],
   },
   {
     title: 'Superman',
@@ -391,7 +391,7 @@ export const baseMoviesDc: BaseMovie[] = [
       title: 'Superman',
       secondEntityKey: 'DC Comics',
     },
-    countryOrigin: 'États-Unis',
+    countryOrigin: ['États-Unis'],
   },
   {
     title: 'Superman II',
@@ -408,7 +408,7 @@ export const baseMoviesDc: BaseMovie[] = [
       title: 'Superman',
       secondEntityKey: 'DC Comics',
     },
-    countryOrigin: 'États-Unis',
+    countryOrigin: ['États-Unis'],
   },
   {
     title: 'Superman IV : Le Face-à-face',
@@ -425,7 +425,7 @@ export const baseMoviesDc: BaseMovie[] = [
     saga: 'Superman',
     description: '',
     fromEntity: null,
-    countryOrigin: 'États-Unis',
+    countryOrigin: ['États-Unis'],
   },
   {
     title: 'Superman Returns',
@@ -442,7 +442,7 @@ export const baseMoviesDc: BaseMovie[] = [
       title: 'Superman',
       secondEntityKey: 'DC Comics',
     },
-    countryOrigin: 'États-Unis',
+    countryOrigin: ['États-Unis'],
   },
   {
     title: 'Man of Steel',
@@ -475,7 +475,7 @@ export const baseMoviesDc: BaseMovie[] = [
       title: 'Superman',
       secondEntityKey: 'DC Comics',
     },
-    countryOrigin: 'États-Unis',
+    countryOrigin: ['États-Unis'],
   },
   {
     title: 'Superman',
@@ -502,7 +502,7 @@ export const baseMoviesDc: BaseMovie[] = [
       title: 'Superman',
       secondEntityKey: 'DC Comics',
     },
-    countryOrigin: 'États-Unis',
+    countryOrigin: ['États-Unis'],
   },
   {
     title: 'Watchmen : Les Gardiens',
@@ -519,7 +519,7 @@ export const baseMoviesDc: BaseMovie[] = [
       title: 'Watchmen',
       secondEntityKey: 'Alan Moore',
     },
-    countryOrigin: 'États-Unis',
+    countryOrigin: ['États-Unis'],
   },
   {
     title: 'Catwoman',
@@ -532,7 +532,7 @@ export const baseMoviesDc: BaseMovie[] = [
     saga: '',
     description: '',
     fromEntity: null,
-    countryOrigin: 'États-Unis',
+    countryOrigin: ['États-Unis'],
   },
   {
     title: 'Wonder Woman',
@@ -549,7 +549,7 @@ export const baseMoviesDc: BaseMovie[] = [
     saga: 'DCEU',
     description: '',
     fromEntity: null,
-    countryOrigin: 'États-Unis',
+    countryOrigin: ['États-Unis'],
   },
   {
     title: 'Wonder Woman 1984',
@@ -566,7 +566,7 @@ export const baseMoviesDc: BaseMovie[] = [
     saga: 'DCEU',
     description: '',
     fromEntity: null,
-    countryOrigin: 'États-Unis',
+    countryOrigin: ['États-Unis'],
   },
   {
     title: 'The Flash',
@@ -583,7 +583,7 @@ export const baseMoviesDc: BaseMovie[] = [
     saga: 'DCEU',
     description: '',
     fromEntity: null,
-    countryOrigin: 'États-Unis',
+    countryOrigin: ['États-Unis'],
   },
   {
     title: 'Birds of Prey',
@@ -601,7 +601,7 @@ export const baseMoviesDc: BaseMovie[] = [
     saga: 'DCEU',
     description: '',
     fromEntity: null,
-    countryOrigin: 'États-Unis',
+    countryOrigin: ['États-Unis'],
   },
   {
     title: 'Blue Beetle',
@@ -630,6 +630,6 @@ export const baseMoviesDc: BaseMovie[] = [
     saga: 'DCEU',
     description: '',
     fromEntity: null,
-    countryOrigin: 'États-Unis',
+    countryOrigin: ['États-Unis'],
   },
 ];

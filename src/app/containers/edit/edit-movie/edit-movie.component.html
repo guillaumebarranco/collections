@@ -28,8 +28,8 @@
       <p><strong>Genre :</strong> {{ movie()?.genre?.join(', ') }}</p>
       } @if (movie()?.saga) {
       <p><strong>Saga :</strong> {{ movie()?.saga }}</p>
-      } @if (movie()?.countryOrigin) {
-      <p><strong>Nationalité :</strong> {{ movie()?.countryOrigin }}</p>
+      } @if (countriesDisplay(movie())) {
+      <p><strong>Nationalité :</strong> {{ countriesDisplay(movie()) }}</p>
       } @if (movie()?.releaseDate) {
       <p><strong>Date de sortie :</strong> {{ movie()?.releaseDate }}</p>
       } @if (movie()?.length) {
@@ -307,14 +307,29 @@
       />
     </div>
 
-    <div class="form-row">
-      <label for="entityCountryOrigin">Nationalité du film</label>
-      <app-country-select
-        inputId="entityCountryOrigin"
-        name="entityCountryOrigin"
-        [value]="movieEntityForm()?.countryOrigin ?? ''"
-        (valueChange)="updateEntityField('countryOrigin', $event)"
-      />
+    <div class="form-row genre-row">
+      <mat-form-field
+        appearance="outline"
+        class="genre-field"
+        [class.genre-field--dark-popin]="isDialogMode()"
+      >
+        <mat-label>Nationalités</mat-label>
+        <mat-select
+          id="entityCountryOrigin"
+          multiple
+          [panelClass]="
+            isDialogMode() ? 'makya-mat-select-panel-dark' : ''
+          "
+          [ngModel]="movieEntityForm()?.countryOrigin"
+          (ngModelChange)="setEntityCountries($event)"
+          name="entityCountryOrigin"
+          placeholder="Sélectionner un ou plusieurs pays"
+        >
+          @for (c of movieCountryOptions; track c) {
+            <mat-option [value]="c">{{ c }}</mat-option>
+          }
+        </mat-select>
+      </mat-form-field>
     </div>
 
     <div class="form-row">

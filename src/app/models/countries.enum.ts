@@ -405,6 +405,17 @@ const ALL_COUNTRIES: Country[] = [
 const PRIORITY_COUNTRIES: Country[] = ['France', 'États-Unis', 'Royaume-Uni'];
 
 /**
+ * Pays pour sélection multiple (films), sans entrée vide.
+ * Même ordre de tête que {@link COUNTRY_SELECT_OPTIONS}, puis alphabétique.
+ */
+export const MOVIE_COUNTRY_MULTI_SELECT_OPTIONS: Country[] = [
+  ...PRIORITY_COUNTRIES,
+  ...ALL_COUNTRIES.filter(
+    (c) => c !== '' && !PRIORITY_COUNTRIES.includes(c)
+  ).sort((a, b) => a.localeCompare(b, 'fr')),
+];
+
+/**
  * Liste des pays pour les selectbox (formulaires livre/film).
  * Ordre : vide, puis France, États-Unis, Royaume-Uni, puis le reste par ordre alphabétique.
  */

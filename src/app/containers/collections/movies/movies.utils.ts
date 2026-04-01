@@ -1,4 +1,4 @@
-import { Movie } from '../../../models/movie-model';
+import { getMovieCountryOriginLabels, Movie } from '../../../models/movie-model';
 
 export type MovieView =
   | 'watched'
@@ -735,11 +735,12 @@ export const getMoviesByCountry = ({
 }): MoviesByCountryGroup[] => {
   const countryMap = new Map<string, Movie[]>();
   for (const movie of sortedMovies) {
-    const countryName = (movie.countryOrigin ?? '').trim();
-    if (!countryName) continue;
-    const list = countryMap.get(countryName) ?? [];
-    list.push(movie);
-    countryMap.set(countryName, list);
+    for (const countryName of getMovieCountryOriginLabels(movie)) {
+      if (!countryName) continue;
+      const list = countryMap.get(countryName) ?? [];
+      list.push(movie);
+      countryMap.set(countryName, list);
+    }
   }
 
   const seenKeys = new Set(
@@ -747,12 +748,13 @@ export const getMoviesByCountry = ({
   );
   const baseByCountry = new Map<string, Movie[]>();
   for (const movie of baseMovies) {
-    const countryName = (movie.countryOrigin ?? '').trim();
-    if (!countryName) continue;
     if (seenKeys.has(getMovieIdentityKey(movie))) continue;
-    const list = baseByCountry.get(countryName) ?? [];
-    list.push(movie);
-    baseByCountry.set(countryName, list);
+    for (const countryName of getMovieCountryOriginLabels(movie)) {
+      if (!countryName) continue;
+      const list = baseByCountry.get(countryName) ?? [];
+      list.push(movie);
+      baseByCountry.set(countryName, list);
+    }
   }
 
   const countryGroups = Array.from(countryMap.entries()).map(
