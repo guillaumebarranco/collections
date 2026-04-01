@@ -1139,23 +1139,17 @@ export const baseMoviesPage3: BaseMovie[] = [
     director: 'Olivier Baroux',
     actors: [
       {
-        name: "Jean-Paul Rouve",
-      }
+        name: 'Jean-Paul Rouve',
+      },
     ],
-    coverUrl: "/movies_pictures/les_tuche.jpg",
-    releaseDate: "2011-06-29",
+    coverUrl: '/movies_pictures/les_tuche.jpg',
+    releaseDate: '2011-06-29',
     length: 95,
-<<<<<<< Updated upstream
     genre: ['Comédie'],
-    saga: '',
+    saga: 'Les Tuche',
     description: '',
-=======
-    genre: "Comedy",
-    saga: "Les Tuche",
-    description: "",
->>>>>>> Stashed changes
     fromEntity: null,
-    countryOrigin: "France",
+    countryOrigin: 'France',
   },
   {
     title: 'Comment tuer son boss',

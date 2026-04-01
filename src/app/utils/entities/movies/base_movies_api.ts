@@ -995,146 +995,151 @@ export const baseMoviesApi: BaseMovie[] = [
   },
 
   {
-    title: "Super Mario Galaxy, le film",
-    director: "Michael Jelenic, Aaron Horvath",
+    title: 'Super Mario Galaxy, le film',
+    director: 'Michael Jelenic, Aaron Horvath',
     actors: [
       {
-        name: "Chris Pratt",
+        name: 'Chris Pratt',
       },
       {
-        name: "Charlie Day",
+        name: 'Charlie Day',
       },
       {
-        name: "Jack Black",
+        name: 'Jack Black',
       },
       {
-        name: "Brie Larson",
+        name: 'Brie Larson',
       },
       {
-        name: "Ben Safdie",
+        name: 'Ben Safdie',
       },
       {
-        name: "Anya Taylor-Joy",
+        name: 'Anya Taylor-Joy',
       },
     ],
-    coverUrl: "https://fr.web.img4.acsta.net/r_1920_1080/img/92/3c/923c580e3fb2488d308865d6b6a2e381.jpg",
-    releaseDate: "2026-04-01",
+    coverUrl:
+      'https://fr.web.img4.acsta.net/r_1920_1080/img/92/3c/923c580e3fb2488d308865d6b6a2e381.jpg',
+    releaseDate: '2026-04-01',
     length: 99,
-    genre: "Comédie, Aventure, Famille, Animation",
-    saga: "",
-    description: "",
+    genre: ['Comédie', 'Aventure', 'Jeunesse', 'Animation'],
+    saga: '',
+    description: '',
     fromEntity: null,
-    countryOrigin: "États-Unis",
+    countryOrigin: 'États-Unis',
   },
 
   {
-    title: "Les Profs",
-    director: "Pierre-François Martin-Laval",
+    title: 'Les Profs',
+    director: 'Pierre-François Martin-Laval',
     actors: [
       {
-        name: "Kev Adams",
+        name: 'Kev Adams',
       },
       {
-        name: "Christian Clavier",
+        name: 'Christian Clavier',
       },
       {
-        name: "Isabelle Nanty",
+        name: 'Isabelle Nanty',
       },
       {
-        name: "Arnaud Ducret",
+        name: 'Arnaud Ducret',
       },
     ],
-    coverUrl: "https://fr.web.img2.acsta.net/medias/nmedia/18/95/14/16/20455360.jpg",
-    releaseDate: "2013-04-17",
+    coverUrl:
+      'https://fr.web.img2.acsta.net/medias/nmedia/18/95/14/16/20455360.jpg',
+    releaseDate: '2013-04-17',
     length: 88,
-    genre: "Comédie",
-    saga: "",
-    description: "",
+    genre: ['Comédie'],
+    saga: '',
+    description: '',
     fromEntity: null,
-    countryOrigin: "France",
+    countryOrigin: 'France',
   },
 
   {
-    title: "Les Tuche 2 : Le Rêve américain",
-    director: "Olivier Baroux",
+    title: 'Les Tuche 2 : Le Rêve américain',
+    director: 'Olivier Baroux',
     actors: [
       {
-        name: "Jean-Paul Rouve",
+        name: 'Jean-Paul Rouve',
       },
       {
-        name: "Isabelle Nanty",
+        name: 'Isabelle Nanty',
       },
       {
-        name: "Pierre Lottin",
+        name: 'Pierre Lottin',
       },
       {
-        name: "Théo Fernandez",
+        name: 'Théo Fernandez',
       },
       {
-        name: "Sarah Stern",
+        name: 'Sarah Stern',
       },
     ],
-    coverUrl: "https://fr.web.img3.acsta.net/c_310_420/pictures/15/11/30/15/05/193488.jpg",
-    releaseDate: "2016-02-03",
+    coverUrl:
+      'https://fr.web.img3.acsta.net/c_310_420/pictures/15/11/30/15/05/193488.jpg',
+    releaseDate: '2016-02-03',
     length: 94,
-    genre: "Comédie",
-    saga: "Les Tuches",
-    description: "",
+    genre: ['Comédie'],
+    saga: 'Les Tuches',
+    description: '',
     fromEntity: null,
-    countryOrigin: "France",
+    countryOrigin: 'France',
   },
 
   {
     title: "L'Élève Ducobu",
-    director: "Philippe de Chauveron",
+    director: 'Philippe de Chauveron',
     actors: [
       {
-        name: "Vincent Claude",
+        name: 'Vincent Claude',
       },
       {
-        name: "Juliette Chappey",
+        name: 'Juliette Chappey',
       },
       {
-        name: "Joséphine de Meaux",
+        name: 'Joséphine de Meaux',
       },
       {
-        name: "Elie Semoun",
+        name: 'Elie Semoun',
       },
     ],
-    coverUrl: "https://fr.web.img6.acsta.net/medias/nmedia/18/79/86/48/19736959.jpg",
-    releaseDate: "2011-06-22",
+    coverUrl:
+      'https://fr.web.img6.acsta.net/medias/nmedia/18/79/86/48/19736959.jpg',
+    releaseDate: '2011-06-22',
     length: 96,
-    genre: "Comédie",
+    genre: ['Comédie'],
     saga: "L'Eleve Ducobu",
-    description: "",
+    description: '',
     fromEntity: null,
-    countryOrigin: "France",
+    countryOrigin: 'France',
   },
 
   {
-    title: "Les Vacances de Ducobu",
-    director: "Philippe de Chauveron",
+    title: 'Les Vacances de Ducobu',
+    director: 'Philippe de Chauveron',
     actors: [
       {
-        name: "François Viette",
+        name: 'François Viette',
       },
       {
-        name: "Joséphine de Meaux",
+        name: 'Joséphine de Meaux',
       },
       {
-        name: "Juliette Chappey",
+        name: 'Juliette Chappey',
       },
       {
-        name: "Elie Semoun",
+        name: 'Elie Semoun',
       },
     ],
-    coverUrl: "https://fr.web.img6.acsta.net/medias/nmedia/18/86/68/24/20034402.jpg",
-    releaseDate: "2012-04-25",
+    coverUrl:
+      'https://fr.web.img6.acsta.net/medias/nmedia/18/86/68/24/20034402.jpg',
+    releaseDate: '2012-04-25',
     length: 94,
-    genre: "Comédie",
+    genre: ['Comédie'],
     saga: "L'Eleve Ducobu",
-    description: "",
+    description: '',
     fromEntity: null,
-    countryOrigin: "France",
+    countryOrigin: 'France',
   },
 ];
