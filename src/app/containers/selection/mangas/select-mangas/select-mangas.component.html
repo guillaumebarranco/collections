@@ -1,5 +1,27 @@
 <app-menu></app-menu>
 
+<ng-template #selectionSummaryBand>
+  <div class="selection-info">
+    <span class="count">{{ selectedCount() }} manga(s) sélectionné(s)</span>
+    <span class="total">sur {{ filteredMangas().length }}</span>
+  </div>
+
+  <div class="actions">
+    <button
+      class="makya-btn-big"
+      (click)="addSelectedMangas()"
+      [disabled]="selectedCount() === 0"
+    >
+      {{
+        isWatchOrReadlistMode()
+          ? "Ajouter à mes mangas à lire"
+          : "Ajouter à mes mangas lus"
+      }}
+      ({{ selectedCount() }})
+    </button>
+  </div>
+</ng-template>
+
 <app-select-entity class="select-mangas-container">
   <div class="header" select-header>
     <h1>
@@ -45,10 +67,7 @@
   </div>
 
   <div class="toolbar" select-toolbar>
-    <div class="selection-info">
-      <span class="count">{{ selectedCount() }} manga(s) sélectionné(s)</span>
-      <span class="total">sur {{ filteredMangas().length }}</span>
-    </div>
+    <ng-container *ngTemplateOutlet="selectionSummaryBand" />
 
     <div class="select-search">
       <input
@@ -59,21 +78,6 @@
         [value]="searchTerm()"
         (input)="searchTerm.set($any($event.target).value)"
       />
-    </div>
-
-    <div class="actions">
-      <button
-        class="makya-btn-big"
-        (click)="addSelectedMangas()"
-        [disabled]="selectedCount() === 0"
-      >
-        {{
-          isWatchOrReadlistMode()
-            ? "Ajouter à mes mangas à lire"
-            : "Ajouter à mes mangas lus"
-        }}
-        ({{ selectedCount() }})
-      </button>
     </div>
   </div>
 
@@ -95,5 +99,13 @@
       </div>
     </div>
     }
+  </div>
+
+  <div
+    class="toolbar toolbar--footer"
+    select-extra
+    aria-label="Résumé de sélection et validation en bas de page"
+  >
+    <ng-container *ngTemplateOutlet="selectionSummaryBand" />
   </div>
 </app-select-entity>

@@ -1,5 +1,29 @@
 <app-menu></app-menu>
 
+<ng-template #selectionSummaryBand>
+  <div class="selection-info">
+    <span class="count">{{ selectedCount() }} film(s) sélectionné(s)</span>
+    <span class="total">sur {{ filteredMovies().length }}</span>
+  </div>
+
+  <div class="actions">
+    <button
+      class="makya-btn-big"
+      (click)="addSelectedMovies()"
+      [disabled]="selectedCount() === 0"
+    >
+      {{
+        isCinemaMode()
+          ? "Modifier mes films vus au cinema"
+          : isWatchOrReadlistMode()
+          ? "Ajouter à mes films à voir"
+          : "Ajouter à mes films vus"
+      }}
+      ({{ selectedCount() }})
+    </button>
+  </div>
+</ng-template>
+
 <app-select-entity class="select-movies-container">
   <div class="header" select-header>
     <h1>
@@ -64,10 +88,7 @@
   </div>
 
   <div class="toolbar" select-toolbar>
-    <div class="selection-info">
-      <span class="count">{{ selectedCount() }} film(s) sélectionné(s)</span>
-      <span class="total">sur {{ filteredMovies().length }}</span>
-    </div>
+    <ng-container *ngTemplateOutlet="selectionSummaryBand" />
 
     <div class="select-search">
       <input
@@ -78,23 +99,6 @@
         [value]="searchTerm()"
         (input)="searchTerm.set($any($event.target).value)"
       />
-    </div>
-
-    <div class="actions">
-      <button
-        class="makya-btn-big"
-        (click)="addSelectedMovies()"
-        [disabled]="selectedCount() === 0"
-      >
-        {{
-          isCinemaMode()
-            ? "Modifier mes films vus au cinema"
-            : isWatchOrReadlistMode()
-            ? "Ajouter à mes films à voir"
-            : "Ajouter à mes films vus"
-        }}
-        ({{ selectedCount() }})
-      </button>
     </div>
   </div>
 
@@ -119,5 +123,13 @@
       </div>
     </div>
     }
+  </div>
+
+  <div
+    class="toolbar toolbar--footer"
+    select-extra
+    aria-label="Résumé de sélection et validation en bas de page"
+  >
+    <ng-container *ngTemplateOutlet="selectionSummaryBand" />
   </div>
 </app-select-entity>

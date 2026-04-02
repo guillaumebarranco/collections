@@ -1,5 +1,22 @@
 <app-menu></app-menu>
 
+<ng-template #selectionSummaryBand>
+  <div class="selection-info">
+    <span class="count">{{ modifiedCount() }} jeu(x) modifié(s)</span>
+    <span class="total">sur {{ allGames().length }}</span>
+  </div>
+
+  <div class="actions">
+    <button
+      class="makya-btn-big"
+      (click)="saveGamesOwned()"
+      [disabled]="allGames().length === 0 || isSaving()"
+    >
+      ✅ Enregistrer mes possessions ({{ modifiedCount() }})
+    </button>
+  </div>
+</ng-template>
+
 <div class="select-games-owned-container">
   <div class="header">
     <h1>Mettre à jour les jeux possédés</h1>
@@ -17,20 +34,7 @@
   </div>
 
   <div class="toolbar">
-    <div class="selection-info">
-      <span class="count">{{ modifiedCount() }} jeu(x) modifié(s)</span>
-      <span class="total">sur {{ allGames().length }}</span>
-    </div>
-
-    <div class="actions">
-      <button
-        class="makya-btn-big"
-        (click)="saveGamesOwned()"
-        [disabled]="allGames().length === 0 || isSaving()"
-      >
-        ✅ Enregistrer mes possessions ({{ modifiedCount() }})
-      </button>
-    </div>
+    <ng-container *ngTemplateOutlet="selectionSummaryBand" />
   </div>
 
   <div class="games-grid">
@@ -68,5 +72,12 @@
       </div>
     </div>
     }
+  </div>
+
+  <div
+    class="toolbar toolbar--footer"
+    aria-label="Résumé des modifications et enregistrement en bas de page"
+  >
+    <ng-container *ngTemplateOutlet="selectionSummaryBand" />
   </div>
 </div>

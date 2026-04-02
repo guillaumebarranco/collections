@@ -1,5 +1,47 @@
 <app-menu></app-menu>
 
+<ng-template #selectionSummaryBand>
+  <div class="view-toggle">
+    <button
+      class="toggle-option"
+      [class.active]="viewMode() === 'tracks'"
+      (click)="setViewMode('tracks')"
+    >
+      Par musique
+    </button>
+    <button
+      class="toggle-option"
+      [class.active]="viewMode() === 'albums'"
+      (click)="setViewMode('albums')"
+    >
+      Par album
+    </button>
+  </div>
+  <div class="selection-info">
+    <span class="count">{{ selectedCount() }} musique(s) sélectionnée(s)</span>
+    <span class="total">
+      sur {{ totalCount() }}
+      {{ viewMode() === "albums" ? "albums" : "musiques" }}
+    </span>
+  </div>
+
+  <div class="actions">
+    <button class="btn btn-secondary" (click)="selectAll()">
+      Tout sélectionner
+    </button>
+    <button class="btn btn-secondary" (click)="deselectAll()">
+      Tout désélectionner
+    </button>
+    <button
+      class="makya-btn-big"
+      (click)="addSelectedMusics()"
+      [disabled]="selectedCount() === 0"
+    >
+      ➕ Ajouter à mes musiques ({{ selectedCount() }})
+    </button>
+  </div>
+</ng-template>
+
 <div class="select-musics-container">
   <div class="header">
     <h1>Sélectionner des musiques</h1>
@@ -9,31 +51,7 @@
   </div>
 
   <div class="toolbar">
-    <div class="view-toggle">
-      <button
-        class="toggle-option"
-        [class.active]="viewMode() === 'tracks'"
-        (click)="setViewMode('tracks')"
-      >
-        Par musique
-      </button>
-      <button
-        class="toggle-option"
-        [class.active]="viewMode() === 'albums'"
-        (click)="setViewMode('albums')"
-      >
-        Par album
-      </button>
-    </div>
-    <div class="selection-info">
-      <span class="count"
-        >{{ selectedCount() }} musique(s) sélectionnée(s)</span
-      >
-      <span class="total">
-        sur {{ totalCount() }}
-        {{ viewMode() === "albums" ? "albums" : "musiques" }}
-      </span>
-    </div>
+    <ng-container *ngTemplateOutlet="selectionSummaryBand" />
 
     <div class="select-search">
       <input
@@ -44,22 +62,6 @@
         [value]="searchTerm()"
         (input)="searchTerm.set($any($event.target).value)"
       />
-    </div>
-
-    <div class="actions">
-      <button class="btn btn-secondary" (click)="selectAll()">
-        Tout sélectionner
-      </button>
-      <button class="btn btn-secondary" (click)="deselectAll()">
-        Tout désélectionner
-      </button>
-      <button
-        class="makya-btn-big"
-        (click)="addSelectedMusics()"
-        [disabled]="selectedCount() === 0"
-      >
-        ➕ Ajouter à mes musiques ({{ selectedCount() }})
-      </button>
     </div>
   </div>
 
@@ -108,4 +110,11 @@
     }
   </div>
   }
+
+  <div
+    class="toolbar toolbar--footer"
+    aria-label="Résumé de sélection et validation en bas de page"
+  >
+    <ng-container *ngTemplateOutlet="selectionSummaryBand" />
+  </div>
 </div>

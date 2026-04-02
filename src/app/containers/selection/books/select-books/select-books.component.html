@@ -1,5 +1,27 @@
 <app-menu></app-menu>
 
+<ng-template #selectionSummaryBand>
+  <div class="selection-info">
+    <span class="count">{{ selectedCount() }} livre(s) sélectionné(s)</span>
+    <span class="total">sur {{ filteredBooks().length }}</span>
+  </div>
+
+  <div class="actions">
+    <button
+      class="makya-btn-big"
+      (click)="addSelectedBooks()"
+      [disabled]="selectedCount() === 0"
+    >
+      {{
+        isWatchOrReadlistMode()
+          ? "Ajouter à mes livres à lire"
+          : "Ajouter à mes livres lus"
+      }}
+      ({{ selectedCount() }})
+    </button>
+  </div>
+</ng-template>
+
 <app-select-entity class="select-books-container">
   <div class="header" select-header>
     <h1>
@@ -55,10 +77,7 @@
   </div>
 
   <div class="toolbar" select-toolbar>
-    <div class="selection-info">
-      <span class="count">{{ selectedCount() }} livre(s) sélectionné(s)</span>
-      <span class="total">sur {{ filteredBooks().length }}</span>
-    </div>
+    <ng-container *ngTemplateOutlet="selectionSummaryBand" />
 
     <div class="select-search">
       <input
@@ -69,21 +88,6 @@
         [value]="searchTerm()"
         (input)="searchTerm.set($any($event.target).value)"
       />
-    </div>
-
-    <div class="actions">
-      <button
-        class="makya-btn-big"
-        (click)="addSelectedBooks()"
-        [disabled]="selectedCount() === 0"
-      >
-        {{
-          isWatchOrReadlistMode()
-            ? "Ajouter à mes livres à lire"
-            : "Ajouter à mes livres lus"
-        }}
-        ({{ selectedCount() }})
-      </button>
     </div>
   </div>
 
@@ -105,5 +109,13 @@
       </div>
     </div>
     }
+  </div>
+
+  <div
+    class="toolbar toolbar--footer"
+    select-extra
+    aria-label="Résumé de sélection et validation en bas de page"
+  >
+    <ng-container *ngTemplateOutlet="selectionSummaryBand" />
   </div>
 </app-select-entity>

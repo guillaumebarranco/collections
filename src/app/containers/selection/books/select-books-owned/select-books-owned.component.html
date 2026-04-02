@@ -1,5 +1,22 @@
 <app-menu></app-menu>
 
+<ng-template #selectionSummaryBand>
+  <div class="selection-info">
+    <span class="count">{{ modifiedCount() }} livre(s) modifié(s)</span>
+    <span class="total">sur {{ allBooks().length }}</span>
+  </div>
+
+  <div class="actions">
+    <button
+      class="makya-btn-big"
+      (click)="saveBooksOwned()"
+      [disabled]="allBooks().length === 0 || isSaving()"
+    >
+      ✅ Enregistrer mes possessions ({{ modifiedCount() }})
+    </button>
+  </div>
+</ng-template>
+
 <div class="select-books-owned-container">
   <div class="header">
     <h1>Mettre à jour les livres possédés</h1>
@@ -17,20 +34,7 @@
   </div>
 
   <div class="toolbar">
-    <div class="selection-info">
-      <span class="count">{{ modifiedCount() }} livre(s) modifié(s)</span>
-      <span class="total">sur {{ allBooks().length }}</span>
-    </div>
-
-    <div class="actions">
-      <button
-        class="makya-btn-big"
-        (click)="saveBooksOwned()"
-        [disabled]="allBooks().length === 0 || isSaving()"
-      >
-        ✅ Enregistrer mes possessions ({{ modifiedCount() }})
-      </button>
-    </div>
+    <ng-container *ngTemplateOutlet="selectionSummaryBand" />
   </div>
 
   <div class="books-grid">
@@ -65,5 +69,12 @@
       </div>
     </div>
     }
+  </div>
+
+  <div
+    class="toolbar toolbar--footer"
+    aria-label="Résumé des modifications et enregistrement en bas de page"
+  >
+    <ng-container *ngTemplateOutlet="selectionSummaryBand" />
   </div>
 </div>

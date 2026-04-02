@@ -55,7 +55,14 @@
   flex-wrap: wrap;
   gap: 1rem;
 
+  // Ordre visuel stable : quand compteur + actions viennent d’un même ng-template
+  // (DOM : selection-info, actions, select-search), la recherche reste au centre.
+  .view-toggle {
+    order: 1;
+  }
+
   .selection-info {
+    order: 2;
     display: flex;
     align-items: center;
     gap: 0.5rem;
@@ -71,16 +78,18 @@
     }
   }
 
-  .actions {
-    display: flex;
-    gap: 1rem;
-    flex-wrap: wrap;
-  }
-
   .select-search {
+    order: 3;
     flex: 1 1 260px;
     max-width: 360px;
     min-width: 220px;
+  }
+
+  .actions {
+    order: 4;
+    display: flex;
+    gap: 1rem;
+    flex-wrap: wrap;
   }
 
   .select-search-input {
@@ -97,6 +106,12 @@
       box-shadow: 0 0 0 2px rgba(0, 0, 0, 0.15);
     }
   }
+}
+
+// Bandeau dupliqué sous la grille (même contenu que le toolbar du haut)
+.toolbar.toolbar--footer {
+  margin-top: 2rem;
+  margin-bottom: 0;
 }
 
 // Grid commun
