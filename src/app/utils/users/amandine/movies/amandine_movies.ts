@@ -6451,4 +6451,21 @@ export const amandineMovies1: UserMovies = [
     loaned: '',
     inList: [],
   },
+
+  {
+    title: "Le nombre 23",
+    director: "Joel Schumacher",
+    rating: 4,
+    timesWatched: 5,
+    firstViewedDate: "",
+    lastViewedDate: "",
+    seenAtCinema: false,
+    owned: false,
+    wantToSeeAgain: false,
+    watchPriority: 1,
+    ratingComment: "",
+    inList: [],
+    borrowed: "",
+    loaned: "",
+  },
 ];
