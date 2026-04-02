@@ -226,7 +226,7 @@ export const masterofmadnessBooks: UserBook[] = [
     ratingComment: '',
   },
   {
-    title: "Le Seigneur des Anneaux Tome 1 : La Communauté de l'Anneau",
+    title: "La Communauté de l'Anneau",
     author: 'J.R.R. Tolkien',
     firstReadDate: '',
     lastReadDate: '',

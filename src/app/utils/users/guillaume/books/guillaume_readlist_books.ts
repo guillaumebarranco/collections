@@ -170,7 +170,7 @@ export const guillaumeReadlistBooks: UserBooks = [
     ratingComment: '',
   },
   {
-    title: 'Le trone de fer intégrale 4',
+    title: "Le Trône de fer, L'Intégrale Tome 4",
     author: 'George R.R. Martin',
     firstReadDate: '',
     lastReadDate: '',
@@ -184,7 +184,7 @@ export const guillaumeReadlistBooks: UserBooks = [
     ratingComment: '',
   },
   {
-    title: 'Le trone de fer intégrale 5',
+    title: "Le Trône de fer, L'Intégrale Tome 5",
     author: 'George R.R. Martin',
     firstReadDate: '',
     lastReadDate: '',
@@ -227,7 +227,7 @@ export const guillaumeReadlistBooks: UserBooks = [
   },
   {
     title: 'Où vont les larmes quand elles sèchent',
-    author: 'Virginie Grimaldi',
+    author: 'Baptiste Beaulieu',
     firstReadDate: '',
     lastReadDate: '',
     rating: 0,

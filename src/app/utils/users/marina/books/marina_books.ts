@@ -1011,7 +1011,7 @@ export const marinaBooks: UserBook[] = [
     ratingComment: '',
   },
   {
-    title: 'Peter Pan',
+    title: 'Les contes interdits : Peter Pan',
     author: 'Simon Rousseau',
     firstReadDate: '',
     lastReadDate: '',

@@ -14,6 +14,7 @@ export type BookGenre =
   | 'Thriller'
   | 'Jeunesse'
   | 'Aventure'
+  | 'Fantastique'
   | 'Classiques'
   | 'Dark Romance'
   | 'Horreur'
@@ -23,7 +24,6 @@ export type BookGenre =
   | 'Fiction historique'
   | 'Poésie'
   | 'Conte'
-  | 'Paralittérature'
   | 'Littérature';
 
 /** Liste ordonnée des genres (alignée sur {@link BookGenre}) pour les formulaires. */
@@ -36,6 +36,7 @@ export const BOOK_GENRE_OPTIONS: readonly BookGenre[] = [
   'Thriller',
   'Jeunesse',
   'Aventure',
+  'Fantastique',
   'Classiques',
   'Dark Romance',
   'Horreur',
@@ -45,7 +46,6 @@ export const BOOK_GENRE_OPTIONS: readonly BookGenre[] = [
   'Fiction historique',
   'Poésie',
   'Conte',
-  'Paralittérature',
   'Littérature',
 ];
 

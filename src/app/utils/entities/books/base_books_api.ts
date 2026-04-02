@@ -30,20 +30,6 @@ export const baseBooksApi: BaseBook[] = [
   },
 
   {
-    title: 'Le Monde de Narnia (Tome 3) Le Cheval et son Ecuyer',
-    author: 'C. S. Lewis',
-    coverUrl: '/books_pictures/narnia-3-cheval-ecuyer.png',
-    pages: 240,
-    genre: ['Fantasy'],
-    saga: 'Le Monde de Narnia',
-    sagaOrder: 3,
-    sagaFinished: false,
-    releaseDate: '1954-09-06',
-    description: '',
-    countryOrigin: 'Royaume-Uni',
-  },
-
-  {
     title: 'Un jour de nuit tombée',
     author: 'Samantha Shannon',
     coverUrl: '/books_pictures/813Tp3wtlML.jpg',
@@ -299,20 +285,6 @@ export const baseBooksApi: BaseBook[] = [
   },
 
   {
-    title: 'La Voie des Ombres',
-    author: 'Brent Weeks',
-    coverUrl: '/books_pictures/voie-ombres.jpg',
-    pages: 552,
-    genre: ['Fantasy'],
-    saga: "L'Ange de la Nuit",
-    sagaOrder: 1,
-    sagaFinished: true,
-    releaseDate: '',
-    description: '',
-    countryOrigin: 'États-Unis',
-  },
-
-  {
     title: 'Le Prisme Noir',
     author: 'Brent Weeks',
     coverUrl: '/books_pictures/prisme-noir.jpg',
@@ -405,36 +377,6 @@ export const baseBooksApi: BaseBook[] = [
     saga: 'Chronique du Tueur de Roi',
     sagaOrder: 2,
     sagaFinished: false,
-    releaseDate: '',
-    description: '',
-    countryOrigin: 'États-Unis',
-  },
-
-  {
-    title: 'Le Choix des Ombres',
-    author: 'Brent Weeks',
-    coverUrl:
-      '/books_pictures/lange_de_la_nuit_tome_2_le_choix_des_ombres-52796-264-432.jpg',
-    pages: 704,
-    genre: ['Fantasy'],
-    saga: "L'Ange de la Nuit",
-    sagaOrder: 2,
-    sagaFinished: true,
-    releaseDate: '',
-    description: '',
-    countryOrigin: 'États-Unis',
-  },
-
-  {
-    title: 'Au-delà des Ombres',
-    author: 'Brent Weeks',
-    coverUrl:
-      '/books_pictures/lange_de_la_nuit_tome_3_au_dela_des_ombres-1170772-264-432.jpg',
-    pages: 720,
-    genre: ['Fantasy'],
-    saga: "L'Ange de la Nuit",
-    sagaOrder: 3,
-    sagaFinished: true,
     releaseDate: '',
     description: '',
     countryOrigin: 'États-Unis',
@@ -565,95 +507,6 @@ export const baseBooksApi: BaseBook[] = [
     releaseDate: '',
     description: '',
     countryOrigin: 'États-Unis',
-  },
-
-  {
-    title: 'Le Couteau Aveuglant',
-    author: 'Brent Weeks',
-    coverUrl:
-      '/books_pictures/le_porteur_de_lumiere_tome_2_le_couteau_aveuglant-3750482-264-432.jpg',
-    pages: 677,
-    genre: ['Fantasy'],
-    saga: 'Le Porteur de Lumière',
-    sagaOrder: 2,
-    sagaFinished: true,
-    releaseDate: '',
-    description: '',
-    countryOrigin: 'États-Unis',
-  },
-
-  {
-    title: "L'Oeil Brisé",
-    author: 'Brent Weeks',
-    coverUrl:
-      '/books_pictures/le_porteur_de_lumiere_tome_3_loeil_brise-604491-264-432.jpg',
-    pages: 672,
-    genre: ['Fantasy'],
-    saga: 'Le Porteur de Lumière',
-    sagaOrder: 3,
-    sagaFinished: true,
-    releaseDate: '',
-    description: '',
-    countryOrigin: 'États-Unis',
-  },
-
-  {
-    title: 'Le Miroir de Sang',
-    author: 'Brent Weeks',
-    coverUrl:
-      '/books_pictures/le_porteur_de_lumiere_tome_4_le_miroir_de_sang-905374-264-432.jpg',
-    pages: 672,
-    genre: ['Fantasy'],
-    saga: 'Le Porteur de Lumière',
-    sagaOrder: 4,
-    sagaFinished: true,
-    releaseDate: '',
-    description: '',
-    countryOrigin: 'États-Unis',
-  },
-
-  {
-    title: 'Le Blanc Incandescent (1/2)',
-    author: 'Brent Weeks',
-    coverUrl:
-      '/books_pictures/le_porteur_de_lumiere_tome_5_le_blanc_incandescent_premiere_partie-1330136-264-432.jpg',
-    pages: 600,
-    genre: ['Fantasy'],
-    saga: 'Le Porteur de Lumière',
-    sagaOrder: 5,
-    sagaFinished: true,
-    releaseDate: '',
-    description: '',
-    countryOrigin: 'États-Unis',
-  },
-
-  {
-    title: 'Le Blanc Incandescent (2/2)',
-    author: 'Brent Weeks',
-    coverUrl:
-      '/books_pictures/le_porteur_de_lumiere_tome_6_le_blanc_incandescent_deuxieme_partie-1382619-264-432.jpg',
-    pages: 648,
-    genre: ['Fantasy'],
-    saga: 'Le Porteur de Lumière',
-    sagaOrder: 6,
-    sagaFinished: true,
-    releaseDate: '',
-    description: '',
-    countryOrigin: 'États-Unis',
-  },
-
-  {
-    title: 'Le Monde de Narnia (Tome 4) Le Prince Caspian',
-    author: 'C. S. Lewis',
-    coverUrl: '/books_pictures/0636edfc34ef.png',
-    pages: 240,
-    genre: ['Fantasy'],
-    saga: 'Le Monde de Narnia',
-    sagaOrder: 4,
-    sagaFinished: true,
-    releaseDate: '1951-10-15',
-    description: '',
-    countryOrigin: 'Royaume-Uni',
   },
 
   {
@@ -825,20 +678,6 @@ export const baseBooksApi: BaseBook[] = [
   },
 
   {
-    title: "Le Monde de Narnia (Tome 5) L'Odyssée du Passeur d'Aurore",
-    author: 'C. S. Lewis',
-    coverUrl: '/books_pictures/fa70fb199a78.jpg',
-    pages: 272,
-    genre: ['Fantasy'],
-    saga: 'Le Monde de Narnia',
-    sagaOrder: 5,
-    sagaFinished: true,
-    releaseDate: '1952-09-15',
-    description: '',
-    countryOrigin: 'Royaume-Uni',
-  },
-
-  {
     title: 'La plus secrète mémoire des hommes',
     author: 'Mohamed Mbougar Sarr',
     coverUrl: '/books_pictures/sfsedfesfzef.jpg',
@@ -852,19 +691,6 @@ export const baseBooksApi: BaseBook[] = [
     countryOrigin: '',
   },
 
-  {
-    title: "Le Monde de Narnia (Tome 6) Le Fauteuil d'Argent",
-    author: 'C. S. Lewis',
-    coverUrl: '/books_pictures/fab8a20076f0.jpg',
-    pages: 271,
-    genre: ['Fantasy'],
-    saga: 'Le Monde de Narnia',
-    sagaOrder: 6,
-    sagaFinished: true,
-    releaseDate: '1953-09-07',
-    description: '',
-    countryOrigin: 'Royaume-Uni',
-  },
   {
     title: 'Un animal sauvage',
     author: 'Joël Dicker',
@@ -1947,19 +1773,5 @@ export const baseBooksApi: BaseBook[] = [
     releaseDate: '',
     description: '',
     countryOrigin: '',
-  },
-
-  {
-    title: "Le Monde de Narnia (Tome 7) La Dernière Bataille",
-    author: "C. S. Lewis",
-    coverUrl: "https://cdn.shopify.com/s/files/1/0398/4202/1535/files/vhi8dhORFOkew3x_B68sh6B-m_fSccAEBFQEneSkvB0.png?v=1772704984",
-    pages: 224,
-    genre: ['Fantasy'],
-    saga: "Le Monde de Narnia",
-    sagaOrder: 7,
-    sagaFinished: true,
-    releaseDate: "1956-09-04",
-    description: "",
-    countryOrigin: "Royaume-Uni",
   },
 ];

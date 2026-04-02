@@ -30,7 +30,7 @@ export const kevinBooks: UserBooks = [
     loaned: '',
   },
   {
-    title: 'Le porteur de lumière, tome 1 : Le prisme noir',
+    title: 'Le prisme noir',
     author: 'Brent Weeks',
     firstReadDate: '',
     lastReadDate: '',
@@ -681,20 +681,6 @@ export const kevinBooks: UserBooks = [
     rating: 3.5,
     readTimes: 1,
     owned: true,
-    readPriority: 1,
-    wantToReadAgain: false,
-    ratingComment: '',
-    borrowed: '',
-    loaned: '',
-  },
-  {
-    title: "L'Ange de la Nuit, Tome 1 : La Voie des ombres",
-    author: 'Brent Weeks',
-    firstReadDate: '',
-    lastReadDate: '',
-    rating: 0,
-    readTimes: 1,
-    owned: false,
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
@@ -1616,6 +1602,7 @@ export const kevinBooks: UserBooks = [
     loaned: '',
     readPriority: 3,
     wantToReadAgain: false,
-    ratingComment: 'Très bon livre, très agréable à lire, il lui manque juste ces petits événements marquants et exceptionnels qui provoquent tant de sentiment, qui en aurait fait une pépite.',
+    ratingComment:
+      'Très bon livre, très agréable à lire, il lui manque juste ces petits événements marquants et exceptionnels qui provoquent tant de sentiment, qui en aurait fait une pépite.',
   },
 ];

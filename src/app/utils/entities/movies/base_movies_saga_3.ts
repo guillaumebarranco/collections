@@ -353,7 +353,7 @@ export const baseMoviesSagaPage3: BaseMovie[] = [
     description: '',
     fromEntity: {
       entityType: 'book',
-      title: "Le Seigneur des Anneaux Tome 1 : La Communauté de l'Anneau",
+      title: "La Communauté de l'Anneau",
       secondEntityKey: 'J.R.R. Tolkien',
     },
     countryOrigin: ['Nouvelle-Zélande'],
@@ -380,7 +380,7 @@ export const baseMoviesSagaPage3: BaseMovie[] = [
     description: '',
     fromEntity: {
       entityType: 'book',
-      title: "Le Seigneur des Anneaux Tome 1 : La Communauté de l'Anneau",
+      title: "La Communauté de l'Anneau",
       secondEntityKey: 'J.R.R. Tolkien',
     },
     countryOrigin: ['Nouvelle-Zélande'],
@@ -407,7 +407,7 @@ export const baseMoviesSagaPage3: BaseMovie[] = [
     description: '',
     fromEntity: {
       entityType: 'book',
-      title: "Le Seigneur des Anneaux Tome 1 : La Communauté de l'Anneau",
+      title: "La Communauté de l'Anneau",
       secondEntityKey: 'J.R.R. Tolkien',
     },
     countryOrigin: ['Nouvelle-Zélande'],
@@ -441,7 +441,7 @@ export const baseMoviesSagaPage3: BaseMovie[] = [
     description: '',
     fromEntity: {
       entityType: 'book',
-      title: "Le Seigneur des Anneaux Tome 1 : La Communauté de l'Anneau",
+      title: "La Communauté de l'Anneau",
       secondEntityKey: 'J.R.R. Tolkien',
     },
     countryOrigin: ['États-Unis'],

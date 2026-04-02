@@ -901,7 +901,7 @@ export const dantesBooks: UserBook[] = [
   },
 
   {
-    title: "Le Seigneur des Anneaux Tome 1 : La Communauté de l'Anneau",
+    title: "La Communauté de l'Anneau",
     author: 'J.R.R. Tolkien',
     firstReadDate: '',
     lastReadDate: '',
@@ -1411,7 +1411,7 @@ export const dantesBooks: UserBook[] = [
   },
 
   {
-    title: 'Le trone de fer intégrale 4',
+    title: "Le Trône de fer, L'Intégrale Tome 4",
     author: 'George R.R. Martin',
     firstReadDate: '',
     lastReadDate: '',
@@ -1426,7 +1426,7 @@ export const dantesBooks: UserBook[] = [
   },
 
   {
-    title: 'Le trone de fer intégrale 5',
+    title: "Le Trône de fer, L'Intégrale Tome 5",
     author: 'George R.R. Martin',
     firstReadDate: '',
     lastReadDate: '',
@@ -4954,8 +4954,8 @@ export const dantesBooks: UserBook[] = [
   },
 
   {
-    title: "Meurtre en Mésopotamie",
-    author: "Agatha Christie",
+    title: 'Meurtre en Mésopotamie',
+    author: 'Agatha Christie',
     firstReadDate: '',
     lastReadDate: '',
     rating: 0,
@@ -4969,8 +4969,8 @@ export const dantesBooks: UserBook[] = [
   },
 
   {
-    title: "Dracula",
-    author: "Bram Stoker",
+    title: 'Dracula',
+    author: 'Bram Stoker',
     firstReadDate: '',
     lastReadDate: '',
     rating: 0,
@@ -4984,8 +4984,8 @@ export const dantesBooks: UserBook[] = [
   },
 
   {
-    title: "Sois jeune et tais-toi",
-    author: "Salomé Saqué",
+    title: 'Sois jeune et tais-toi',
+    author: 'Salomé Saqué',
     firstReadDate: '',
     lastReadDate: '',
     rating: 0,
@@ -4999,7 +4999,7 @@ export const dantesBooks: UserBook[] = [
   },
 
   {
-    title: "Un amour pour rien",
+    title: 'Un amour pour rien',
     author: "Jean d'Ormesson",
     firstReadDate: '',
     lastReadDate: '',
@@ -5014,8 +5014,8 @@ export const dantesBooks: UserBook[] = [
   },
 
   {
-    title: "Soumission",
-    author: "Michel Houellebecq",
+    title: 'Soumission',
+    author: 'Michel Houellebecq',
     firstReadDate: '',
     lastReadDate: '',
     rating: 0,
@@ -5029,8 +5029,8 @@ export const dantesBooks: UserBook[] = [
   },
 
   {
-    title: "Un animal sauvage",
-    author: "Joël Dicker",
+    title: 'Un animal sauvage',
+    author: 'Joël Dicker',
     firstReadDate: '',
     lastReadDate: '',
     rating: 0,
@@ -5044,8 +5044,8 @@ export const dantesBooks: UserBook[] = [
   },
 
   {
-    title: "Le papillon des étoiles",
-    author: "Bernard Werber",
+    title: 'Le papillon des étoiles',
+    author: 'Bernard Werber',
     firstReadDate: '',
     lastReadDate: '',
     rating: 0,
@@ -5059,8 +5059,8 @@ export const dantesBooks: UserBook[] = [
   },
 
   {
-    title: "Demain les chats",
-    author: "Bernard Werber",
+    title: 'Demain les chats',
+    author: 'Bernard Werber',
     firstReadDate: '',
     lastReadDate: '',
     rating: 0,
@@ -5074,8 +5074,8 @@ export const dantesBooks: UserBook[] = [
   },
 
   {
-    title: "Alice aux pays des merveilles",
-    author: "Lewis Carroll",
+    title: 'Alice aux pays des merveilles',
+    author: 'Lewis Carroll',
     firstReadDate: '',
     lastReadDate: '',
     rating: 0,
@@ -5089,8 +5089,8 @@ export const dantesBooks: UserBook[] = [
   },
 
   {
-    title: "La gloire de mon père",
-    author: "Marcel Pagnol",
+    title: 'La gloire de mon père',
+    author: 'Marcel Pagnol',
     firstReadDate: '',
     lastReadDate: '',
     rating: 0,
@@ -5104,8 +5104,8 @@ export const dantesBooks: UserBook[] = [
   },
 
   {
-    title: "La disparition de Stéphanie Mailer",
-    author: "Joël Dicker",
+    title: 'La disparition de Stéphanie Mailer',
+    author: 'Joël Dicker',
     firstReadDate: '',
     lastReadDate: '',
     rating: 0,
@@ -5119,8 +5119,8 @@ export const dantesBooks: UserBook[] = [
   },
 
   {
-    title: "James et la pêche géante",
-    author: "Roald Dahl",
+    title: 'James et la pêche géante',
+    author: 'Roald Dahl',
     firstReadDate: '',
     lastReadDate: '',
     rating: 0,
@@ -5134,8 +5134,8 @@ export const dantesBooks: UserBook[] = [
   },
 
   {
-    title: "Dictionnaire des idées reçues",
-    author: "Gustave Flaubert",
+    title: 'Dictionnaire des idées reçues',
+    author: 'Gustave Flaubert',
     firstReadDate: '',
     lastReadDate: '',
     rating: 0,
@@ -5149,8 +5149,8 @@ export const dantesBooks: UserBook[] = [
   },
 
   {
-    title: "À rebours",
-    author: "Joris-Karl Huysmans",
+    title: 'À rebours',
+    author: 'Joris-Karl Huysmans',
     firstReadDate: '',
     lastReadDate: '',
     rating: 0,
@@ -5164,7 +5164,7 @@ export const dantesBooks: UserBook[] = [
   },
 
   {
-    title: "Les Diaboliques",
+    title: 'Les Diaboliques',
     author: "Barbey d'Aurevilly",
     firstReadDate: '',
     lastReadDate: '',
@@ -5180,7 +5180,7 @@ export const dantesBooks: UserBook[] = [
 
   {
     title: "Les Crimes de l'amour",
-    author: "Marquis de Sade",
+    author: 'Marquis de Sade',
     firstReadDate: '',
     lastReadDate: '',
     rating: 0,
@@ -5194,8 +5194,8 @@ export const dantesBooks: UserBook[] = [
   },
 
   {
-    title: "Atala",
-    author: "François-René de Chateaubriand",
+    title: 'Atala',
+    author: 'François-René de Chateaubriand',
     firstReadDate: '',
     lastReadDate: '',
     rating: 0,
@@ -5209,8 +5209,8 @@ export const dantesBooks: UserBook[] = [
   },
 
   {
-    title: "Médée",
-    author: "Pierre Corneille",
+    title: 'Médée',
+    author: 'Pierre Corneille',
     firstReadDate: '',
     lastReadDate: '',
     rating: 0,
@@ -5224,8 +5224,8 @@ export const dantesBooks: UserBook[] = [
   },
 
   {
-    title: "La Jalousie",
-    author: "Alain Robbe-Grillet",
+    title: 'La Jalousie',
+    author: 'Alain Robbe-Grillet',
     firstReadDate: '',
     lastReadDate: '',
     rating: 0,
@@ -5239,8 +5239,8 @@ export const dantesBooks: UserBook[] = [
   },
 
   {
-    title: "Petite histoire de la littérature française",
-    author: "Michel Butor",
+    title: 'Petite histoire de la littérature française',
+    author: 'Michel Butor',
     firstReadDate: '',
     lastReadDate: '',
     rating: 0,
@@ -5255,7 +5255,7 @@ export const dantesBooks: UserBook[] = [
 
   {
     title: "Connaissance de l'Est",
-    author: "Paul Claudel",
+    author: 'Paul Claudel',
     firstReadDate: '',
     lastReadDate: '',
     rating: 0,
@@ -5269,8 +5269,8 @@ export const dantesBooks: UserBook[] = [
   },
 
   {
-    title: "Clair-obscur",
-    author: "Jean Cocteau",
+    title: 'Clair-obscur',
+    author: 'Jean Cocteau',
     firstReadDate: '',
     lastReadDate: '',
     rating: 0,
@@ -5284,8 +5284,8 @@ export const dantesBooks: UserBook[] = [
   },
 
   {
-    title: "Les Hirondelles de Kaboul",
-    author: "Yasmina Khadra",
+    title: 'Les Hirondelles de Kaboul',
+    author: 'Yasmina Khadra',
     firstReadDate: '',
     lastReadDate: '',
     rating: 0,
@@ -5299,8 +5299,8 @@ export const dantesBooks: UserBook[] = [
   },
 
   {
-    title: "Comme un roman",
-    author: "Daniel Pennac",
+    title: 'Comme un roman',
+    author: 'Daniel Pennac',
     firstReadDate: '',
     lastReadDate: '',
     rating: 0,
@@ -5314,8 +5314,8 @@ export const dantesBooks: UserBook[] = [
   },
 
   {
-    title: "Azincourt par temps de pluie",
-    author: "Jean Teulé",
+    title: 'Azincourt par temps de pluie',
+    author: 'Jean Teulé',
     firstReadDate: '',
     lastReadDate: '',
     rating: 0,

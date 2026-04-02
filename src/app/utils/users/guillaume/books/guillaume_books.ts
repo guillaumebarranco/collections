@@ -13,7 +13,7 @@ export const guillaumeBooks: UserBooks = [
     loaned: '',
     readPriority: 1,
     wantToReadAgain: false,
-    ratingComment: '',
+    ratingComment: "",
   },
   {
     title: 'Les liaisons dangereuses',
@@ -27,7 +27,7 @@ export const guillaumeBooks: UserBooks = [
     loaned: '',
     readPriority: 1,
     wantToReadAgain: false,
-    ratingComment: '',
+    ratingComment: "",
   },
   {
     title: 'Castel Boy',
@@ -41,7 +41,7 @@ export const guillaumeBooks: UserBooks = [
     loaned: '',
     readPriority: 1,
     wantToReadAgain: false,
-    ratingComment: '',
+    ratingComment: "",
   },
   {
     title: 'En bons pères de famille',
@@ -55,7 +55,7 @@ export const guillaumeBooks: UserBooks = [
     loaned: '',
     readPriority: 1,
     wantToReadAgain: false,
-    ratingComment: '',
+    ratingComment: "",
   },
   {
     title: "Où va l'argent des pauvres",
@@ -69,7 +69,7 @@ export const guillaumeBooks: UserBooks = [
     loaned: '',
     readPriority: 1,
     wantToReadAgain: false,
-    ratingComment: '',
+    ratingComment: "",
   },
   {
     title: 'Les tout-petits face aux écrans',
@@ -83,7 +83,7 @@ export const guillaumeBooks: UserBooks = [
     loaned: '',
     readPriority: 1,
     wantToReadAgain: false,
-    ratingComment: '',
+    ratingComment: "",
   },
   {
     title: 'Les serres sous le velours noir',
@@ -97,7 +97,7 @@ export const guillaumeBooks: UserBooks = [
     loaned: '',
     readPriority: 1,
     wantToReadAgain: false,
-    ratingComment: '',
+    ratingComment: "",
   },
   {
     title: "Ne tirez pas sur l'oiseau moqueur",
@@ -111,7 +111,7 @@ export const guillaumeBooks: UserBooks = [
     loaned: '',
     readPriority: 1,
     wantToReadAgain: false,
-    ratingComment: '',
+    ratingComment: "",
   },
   {
     title: 'Les Hauts de Hurlevent',
@@ -125,7 +125,7 @@ export const guillaumeBooks: UserBooks = [
     loaned: '',
     readPriority: 1,
     wantToReadAgain: false,
-    ratingComment: '',
+    ratingComment: "",
   },
   {
     title: 'Voyage au centre de la terre',
@@ -139,7 +139,7 @@ export const guillaumeBooks: UserBooks = [
     loaned: '',
     readPriority: 1,
     wantToReadAgain: false,
-    ratingComment: '',
+    ratingComment: "",
   },
   {
     title: 'Le tour du monde en 80 jours',
@@ -153,7 +153,7 @@ export const guillaumeBooks: UserBooks = [
     loaned: '',
     readPriority: 1,
     wantToReadAgain: false,
-    ratingComment: '',
+    ratingComment: "",
   },
   {
     title: 'Vingt Mille Lieues sous les mers',
@@ -167,7 +167,7 @@ export const guillaumeBooks: UserBooks = [
     loaned: '',
     readPriority: 1,
     wantToReadAgain: false,
-    ratingComment: '',
+    ratingComment: "",
   },
   {
     title: "L'Île mystérieuse",
@@ -181,7 +181,7 @@ export const guillaumeBooks: UserBooks = [
     loaned: '',
     readPriority: 1,
     wantToReadAgain: false,
-    ratingComment: '',
+    ratingComment: "",
   },
   {
     title: 'De la Terre à la Lune',
@@ -195,7 +195,7 @@ export const guillaumeBooks: UserBooks = [
     loaned: '',
     readPriority: 1,
     wantToReadAgain: false,
-    ratingComment: '',
+    ratingComment: "",
   },
   {
     title: 'Le Comte de Monte-Cristo',
@@ -209,7 +209,7 @@ export const guillaumeBooks: UserBooks = [
     loaned: '',
     readPriority: 1,
     wantToReadAgain: false,
-    ratingComment: '',
+    ratingComment: "",
   },
   {
     title: 'Frankenstein',
@@ -223,7 +223,7 @@ export const guillaumeBooks: UserBooks = [
     loaned: '',
     readPriority: 1,
     wantToReadAgain: false,
-    ratingComment: '',
+    ratingComment: "",
   },
   {
     title: 'Le Portrait de Dorian Gray',
@@ -237,7 +237,7 @@ export const guillaumeBooks: UserBooks = [
     loaned: '',
     readPriority: 1,
     wantToReadAgain: false,
-    ratingComment: '',
+    ratingComment: "",
   },
   {
     title: 'La Ferme des animaux',
@@ -251,7 +251,7 @@ export const guillaumeBooks: UserBooks = [
     loaned: '',
     readPriority: 1,
     wantToReadAgain: false,
-    ratingComment: '',
+    ratingComment: "",
   },
   {
     title: 'Orgueil et Préjugés',
@@ -265,7 +265,7 @@ export const guillaumeBooks: UserBooks = [
     loaned: '',
     readPriority: 1,
     wantToReadAgain: false,
-    ratingComment: '',
+    ratingComment: "",
   },
   {
     title: '1984',
@@ -279,7 +279,7 @@ export const guillaumeBooks: UserBooks = [
     loaned: '',
     readPriority: 1,
     wantToReadAgain: false,
-    ratingComment: '',
+    ratingComment: "",
   },
   {
     title: 'Fondation',
@@ -293,7 +293,7 @@ export const guillaumeBooks: UserBooks = [
     loaned: '',
     readPriority: 1,
     wantToReadAgain: false,
-    ratingComment: '',
+    ratingComment: "",
   },
   {
     title: 'Fahrenheit 451',
@@ -307,7 +307,7 @@ export const guillaumeBooks: UserBooks = [
     loaned: '',
     readPriority: 1,
     wantToReadAgain: false,
-    ratingComment: '',
+    ratingComment: "",
   },
   {
     title: 'Miss Marple au club du mardi',
@@ -321,7 +321,7 @@ export const guillaumeBooks: UserBooks = [
     loaned: '',
     readPriority: 1,
     wantToReadAgain: false,
-    ratingComment: '',
+    ratingComment: "",
   },
   {
     title: "L'Affaire Protheroe",
@@ -335,7 +335,7 @@ export const guillaumeBooks: UserBooks = [
     loaned: '',
     readPriority: 1,
     wantToReadAgain: false,
-    ratingComment: '',
+    ratingComment: "",
   },
   {
     title: "Le crime de l'Orient Express",
@@ -349,7 +349,7 @@ export const guillaumeBooks: UserBooks = [
     loaned: '',
     readPriority: 1,
     wantToReadAgain: false,
-    ratingComment: '',
+    ratingComment: "",
   },
   {
     title: 'Mort sur le Nil',
@@ -363,7 +363,7 @@ export const guillaumeBooks: UserBooks = [
     loaned: '',
     readPriority: 1,
     wantToReadAgain: false,
-    ratingComment: '',
+    ratingComment: "",
   },
   {
     title: 'Ils étaient dix',
@@ -377,7 +377,7 @@ export const guillaumeBooks: UserBooks = [
     loaned: '',
     readPriority: 1,
     wantToReadAgain: false,
-    ratingComment: '',
+    ratingComment: "",
   },
   {
     title: 'Le Meurtre de Roger Ackroyd',
@@ -391,7 +391,7 @@ export const guillaumeBooks: UserBooks = [
     loaned: '',
     readPriority: 1,
     wantToReadAgain: false,
-    ratingComment: '',
+    ratingComment: "",
   },
   {
     title: 'Meurtre en Mésopotamie',
@@ -405,7 +405,7 @@ export const guillaumeBooks: UserBooks = [
     loaned: '',
     readPriority: 1,
     wantToReadAgain: false,
-    ratingComment: '',
+    ratingComment: "",
   },
   {
     title: 'Cinq petits cochons',
@@ -419,7 +419,7 @@ export const guillaumeBooks: UserBooks = [
     loaned: '',
     readPriority: 1,
     wantToReadAgain: false,
-    ratingComment: '',
+    ratingComment: "",
   },
   {
     title: 'Dracula',
@@ -433,7 +433,7 @@ export const guillaumeBooks: UserBooks = [
     loaned: '',
     readPriority: 1,
     wantToReadAgain: false,
-    ratingComment: '',
+    ratingComment: "",
   },
   {
     title: 'Jane Eyre',
@@ -447,7 +447,7 @@ export const guillaumeBooks: UserBooks = [
     loaned: '',
     readPriority: 1,
     wantToReadAgain: false,
-    ratingComment: '',
+    ratingComment: "",
   },
   {
     title: 'Une vie',
@@ -461,7 +461,7 @@ export const guillaumeBooks: UserBooks = [
     loaned: '',
     readPriority: 1,
     wantToReadAgain: false,
-    ratingComment: '',
+    ratingComment: "",
   },
   {
     title: 'La tête sur les épaules',
@@ -475,7 +475,7 @@ export const guillaumeBooks: UserBooks = [
     loaned: '',
     readPriority: 1,
     wantToReadAgain: false,
-    ratingComment: '',
+    ratingComment: "",
   },
   {
     title: 'La Nuit des temps',
@@ -489,7 +489,7 @@ export const guillaumeBooks: UserBooks = [
     loaned: '',
     readPriority: 1,
     wantToReadAgain: false,
-    ratingComment: '',
+    ratingComment: "",
   },
   {
     title: 'La Horde du Contrevent',
@@ -503,7 +503,7 @@ export const guillaumeBooks: UserBooks = [
     loaned: '',
     readPriority: 1,
     wantToReadAgain: false,
-    ratingComment: '',
+    ratingComment: "",
   },
   {
     title: 'Madame Bovary',
@@ -517,7 +517,7 @@ export const guillaumeBooks: UserBooks = [
     loaned: '',
     readPriority: 1,
     wantToReadAgain: false,
-    ratingComment: '',
+    ratingComment: "",
   },
   {
     title: 'Bel-Ami',
@@ -531,7 +531,7 @@ export const guillaumeBooks: UserBooks = [
     loaned: '',
     readPriority: 1,
     wantToReadAgain: false,
-    ratingComment: '',
+    ratingComment: "",
   },
   {
     title: 'Résister',
@@ -545,7 +545,7 @@ export const guillaumeBooks: UserBooks = [
     loaned: '',
     readPriority: 1,
     wantToReadAgain: false,
-    ratingComment: '',
+    ratingComment: "",
   },
   {
     title: 'Le coût de la virilité',
@@ -559,7 +559,7 @@ export const guillaumeBooks: UserBooks = [
     loaned: '',
     readPriority: 1,
     wantToReadAgain: false,
-    ratingComment: '',
+    ratingComment: "",
   },
   {
     title: 'Sois jeune et tais-toi',
@@ -573,7 +573,7 @@ export const guillaumeBooks: UserBooks = [
     loaned: '',
     readPriority: 1,
     wantToReadAgain: false,
-    ratingComment: '',
+    ratingComment: "",
   },
   {
     title: "L'Île au trésor",
@@ -587,7 +587,7 @@ export const guillaumeBooks: UserBooks = [
     loaned: '',
     readPriority: 1,
     wantToReadAgain: false,
-    ratingComment: '',
+    ratingComment: "",
   },
   {
     title: 'Faites-les lire !',
@@ -601,7 +601,7 @@ export const guillaumeBooks: UserBooks = [
     loaned: '',
     readPriority: 1,
     wantToReadAgain: false,
-    ratingComment: '',
+    ratingComment: "",
   },
   {
     title: 'Candide',
@@ -615,7 +615,7 @@ export const guillaumeBooks: UserBooks = [
     loaned: '',
     readPriority: 1,
     wantToReadAgain: false,
-    ratingComment: '',
+    ratingComment: "",
   },
   {
     title: 'Carrie',
@@ -629,7 +629,7 @@ export const guillaumeBooks: UserBooks = [
     loaned: '',
     readPriority: 1,
     wantToReadAgain: false,
-    ratingComment: '',
+    ratingComment: "",
   },
   {
     title: 'Désolation',
@@ -643,7 +643,7 @@ export const guillaumeBooks: UserBooks = [
     loaned: '',
     readPriority: 1,
     wantToReadAgain: false,
-    ratingComment: '',
+    ratingComment: "",
   },
   {
     title: "L'étrange cas du docteur Jekyll et de Mr. Hyde",
@@ -657,7 +657,7 @@ export const guillaumeBooks: UserBooks = [
     loaned: '',
     readPriority: 1,
     wantToReadAgain: false,
-    ratingComment: '',
+    ratingComment: "",
   },
   {
     title: "L'ordinatueur",
@@ -671,7 +671,7 @@ export const guillaumeBooks: UserBooks = [
     loaned: 'Aelys',
     readPriority: 1,
     wantToReadAgain: false,
-    ratingComment: '',
+    ratingComment: "",
   },
   {
     title: 'La Potion magique de Georges Bouillon',
@@ -685,7 +685,7 @@ export const guillaumeBooks: UserBooks = [
     loaned: '',
     readPriority: 1,
     wantToReadAgain: false,
-    ratingComment: '',
+    ratingComment: "",
   },
   {
     title: 'Gatsby le magnifique',
@@ -699,7 +699,7 @@ export const guillaumeBooks: UserBooks = [
     loaned: '',
     readPriority: 1,
     wantToReadAgain: false,
-    ratingComment: '',
+    ratingComment: "",
   },
   {
     title: 'La guerre des mondes',
@@ -713,7 +713,7 @@ export const guillaumeBooks: UserBooks = [
     loaned: '',
     readPriority: 1,
     wantToReadAgain: false,
-    ratingComment: '',
+    ratingComment: "",
   },
   {
     title: 'La machine à explorer le temps',
@@ -727,7 +727,7 @@ export const guillaumeBooks: UserBooks = [
     loaned: '',
     readPriority: 1,
     wantToReadAgain: false,
-    ratingComment: '',
+    ratingComment: "",
   },
   {
     title: "L'homme invisible",
@@ -736,12 +736,12 @@ export const guillaumeBooks: UserBooks = [
     lastReadDate: '2025-09-04',
     rating: 3.5,
     readTimes: 1,
-    owned: false,
+    owned: true,
     borrowed: '',
     loaned: '',
     readPriority: 1,
     wantToReadAgain: false,
-    ratingComment: '',
+    ratingComment: "",
   },
   {
     title: 'La photo qui tue',
@@ -755,7 +755,7 @@ export const guillaumeBooks: UserBooks = [
     loaned: '',
     readPriority: 1,
     wantToReadAgain: false,
-    ratingComment: '',
+    ratingComment: "",
   },
   {
     title: 'Les pages de notre amour',
@@ -769,7 +769,7 @@ export const guillaumeBooks: UserBooks = [
     loaned: '',
     readPriority: 1,
     wantToReadAgain: false,
-    ratingComment: '',
+    ratingComment: "",
   },
   {
     title: 'À tout jamais',
@@ -783,7 +783,7 @@ export const guillaumeBooks: UserBooks = [
     loaned: '',
     readPriority: 1,
     wantToReadAgain: false,
-    ratingComment: '',
+    ratingComment: "",
   },
   {
     title: 'Le porte bonheur',
@@ -797,7 +797,7 @@ export const guillaumeBooks: UserBooks = [
     loaned: '',
     readPriority: 1,
     wantToReadAgain: false,
-    ratingComment: '',
+    ratingComment: "",
   },
   {
     title: 'Memento mori',
@@ -811,7 +811,7 @@ export const guillaumeBooks: UserBooks = [
     loaned: '',
     readPriority: 1,
     wantToReadAgain: false,
-    ratingComment: '',
+    ratingComment: "",
   },
   {
     title: 'Un choix',
@@ -825,7 +825,7 @@ export const guillaumeBooks: UserBooks = [
     loaned: '',
     readPriority: 1,
     wantToReadAgain: false,
-    ratingComment: '',
+    ratingComment: "",
   },
   {
     title: 'Viridia: Les racines du pouvoir',
@@ -839,7 +839,7 @@ export const guillaumeBooks: UserBooks = [
     loaned: '',
     readPriority: 1,
     wantToReadAgain: false,
-    ratingComment: '',
+    ratingComment: "",
   },
   {
     title: 'Alchemised',
@@ -853,7 +853,7 @@ export const guillaumeBooks: UserBooks = [
     loaned: '',
     readPriority: 1,
     wantToReadAgain: true,
-    ratingComment: '',
+    ratingComment: "",
   },
   {
     title: 'Une seconde chance',
@@ -867,7 +867,7 @@ export const guillaumeBooks: UserBooks = [
     loaned: '',
     readPriority: 1,
     wantToReadAgain: false,
-    ratingComment: '',
+    ratingComment: "",
   },
   {
     title: "L'Iliade",
@@ -881,7 +881,7 @@ export const guillaumeBooks: UserBooks = [
     loaned: '',
     readPriority: 1,
     wantToReadAgain: false,
-    ratingComment: '',
+    ratingComment: "",
   },
   {
     title: "L'Odyssée",
@@ -895,7 +895,7 @@ export const guillaumeBooks: UserBooks = [
     loaned: '',
     readPriority: 1,
     wantToReadAgain: false,
-    ratingComment: '',
+    ratingComment: "",
   },
   {
     title: 'Adam',
@@ -909,7 +909,7 @@ export const guillaumeBooks: UserBooks = [
     loaned: '',
     readPriority: 1,
     wantToReadAgain: false,
-    ratingComment: '',
+    ratingComment: "",
   },
   {
     title: 'Là où chantent les écrevisses',
@@ -923,7 +923,7 @@ export const guillaumeBooks: UserBooks = [
     loaned: '',
     readPriority: 1,
     wantToReadAgain: false,
-    ratingComment: '',
+    ratingComment: "",
   },
   {
     title: 'Roméo et Juliette',
@@ -937,7 +937,7 @@ export const guillaumeBooks: UserBooks = [
     loaned: '',
     readPriority: 1,
     wantToReadAgain: false,
-    ratingComment: '',
+    ratingComment: "",
   },
   {
     title: 'La brute',
@@ -951,7 +951,7 @@ export const guillaumeBooks: UserBooks = [
     loaned: '',
     readPriority: 1,
     wantToReadAgain: false,
-    ratingComment: '',
+    ratingComment: "",
   },
   {
     title: 'The Dead zone',
@@ -965,7 +965,7 @@ export const guillaumeBooks: UserBooks = [
     loaned: '',
     readPriority: 1,
     wantToReadAgain: false,
-    ratingComment: '',
+    ratingComment: "",
   },
   {
     title: 'Le Parfum',
@@ -974,12 +974,12 @@ export const guillaumeBooks: UserBooks = [
     lastReadDate: '2026-01-20',
     rating: 5,
     readTimes: 1,
-    owned: false,
+    owned: true,
     borrowed: '',
     loaned: '',
     readPriority: 1,
     wantToReadAgain: false,
-    ratingComment: '',
+    ratingComment: "",
   },
   {
     title: 'Les piliers de la terre',
@@ -993,7 +993,7 @@ export const guillaumeBooks: UserBooks = [
     loaned: '',
     readPriority: 1,
     wantToReadAgain: false,
-    ratingComment: '',
+    ratingComment: "",
   },
   {
     title: 'La fille du train',
@@ -1002,12 +1002,12 @@ export const guillaumeBooks: UserBooks = [
     lastReadDate: '2026-02-06',
     rating: 3.75,
     readTimes: 1,
-    owned: false,
+    owned: true,
     borrowed: '',
     loaned: '',
     readPriority: 1,
     wantToReadAgain: false,
-    ratingComment: '',
+    ratingComment: "",
   },
   {
     title: 'Faust',
@@ -1021,7 +1021,7 @@ export const guillaumeBooks: UserBooks = [
     loaned: '',
     readPriority: 1,
     wantToReadAgain: false,
-    ratingComment: '',
+    ratingComment: "",
   },
   {
     title: "Les Fiancés de l'Hiver",
@@ -1030,12 +1030,12 @@ export const guillaumeBooks: UserBooks = [
     lastReadDate: '2026-02-13',
     rating: 4.25,
     readTimes: 1,
-    owned: false,
+    owned: true,
     borrowed: '',
     loaned: '',
     readPriority: 1,
     wantToReadAgain: false,
-    ratingComment: '',
+    ratingComment: "",
   },
   {
     title: 'Les Disparus du Clairdelune',
@@ -1044,12 +1044,12 @@ export const guillaumeBooks: UserBooks = [
     lastReadDate: '2026-02-15',
     rating: 5,
     readTimes: 1,
-    owned: false,
+    owned: true,
     borrowed: '',
     loaned: '',
     readPriority: 3,
     wantToReadAgain: false,
-    ratingComment: '',
+    ratingComment: "",
   },
   {
     title: 'La Mémoire de Babel',
@@ -1058,12 +1058,12 @@ export const guillaumeBooks: UserBooks = [
     lastReadDate: '2026-02-17',
     rating: 3.75,
     readTimes: 1,
-    owned: false,
+    owned: true,
     borrowed: '',
     loaned: '',
     readPriority: 3,
     wantToReadAgain: false,
-    ratingComment: '',
+    ratingComment: "",
   },
   {
     title: 'La Tempête des Echos',
@@ -1072,12 +1072,12 @@ export const guillaumeBooks: UserBooks = [
     lastReadDate: '2026-02-21',
     rating: 4.25,
     readTimes: 1,
-    owned: false,
+    owned: true,
     borrowed: '',
     loaned: '',
     readPriority: 3,
     wantToReadAgain: false,
-    ratingComment: '',
+    ratingComment: "",
   },
   {
     title: 'Il était une fois: Tome 1 : Mon premier baiser',
@@ -1086,12 +1086,12 @@ export const guillaumeBooks: UserBooks = [
     lastReadDate: '2026-02-22',
     rating: 4,
     readTimes: 1,
-    owned: false,
+    owned: true,
     borrowed: '',
     loaned: '',
     readPriority: 3,
     wantToReadAgain: false,
-    ratingComment: '',
+    ratingComment: "",
   },
   {
     title: 'Il était une fois: Tome 2 : Mon dernier amour',
@@ -1105,7 +1105,7 @@ export const guillaumeBooks: UserBooks = [
     loaned: '',
     readPriority: 1,
     wantToReadAgain: false,
-    ratingComment: '',
+    ratingComment: "",
   },
   {
     title: 'Numéro quatre',
@@ -1114,12 +1114,12 @@ export const guillaumeBooks: UserBooks = [
     lastReadDate: '2026-02-27',
     rating: 3.75,
     readTimes: 1,
-    owned: false,
+    owned: true,
     borrowed: '',
     loaned: '',
     readPriority: 3,
     wantToReadAgain: false,
-    ratingComment: '',
+    ratingComment: "",
   },
   {
     title: 'Tartuffe',
@@ -1133,7 +1133,7 @@ export const guillaumeBooks: UserBooks = [
     loaned: '',
     readPriority: 1,
     wantToReadAgain: false,
-    ratingComment: '',
+    ratingComment: "",
   },
   {
     title: 'Le Cid',
@@ -1147,7 +1147,7 @@ export const guillaumeBooks: UserBooks = [
     loaned: '',
     readPriority: 1,
     wantToReadAgain: false,
-    ratingComment: '',
+    ratingComment: "",
   },
   {
     title: "L'Aiguille creuse",
@@ -1156,12 +1156,12 @@ export const guillaumeBooks: UserBooks = [
     lastReadDate: '2024-10-30',
     rating: 2.5,
     readTimes: 1,
-    owned: false,
+    owned: true,
     borrowed: '',
     loaned: '',
     readPriority: 1,
     wantToReadAgain: false,
-    ratingComment: '',
+    ratingComment: "",
   },
   {
     title: 'Le pouvoir des six',
@@ -1170,12 +1170,12 @@ export const guillaumeBooks: UserBooks = [
     lastReadDate: '2026-03-12',
     rating: 3.25,
     readTimes: 1,
-    owned: false,
+    owned: true,
     borrowed: '',
     loaned: '',
     readPriority: 3,
     wantToReadAgain: false,
-    ratingComment: '',
+    ratingComment: "",
   },
   {
     title: "Un palais d'épines et de roses",
@@ -1203,7 +1203,7 @@ export const guillaumeBooks: UserBooks = [
     loaned: '',
     readPriority: 1,
     wantToReadAgain: false,
-    ratingComment: '',
+    ratingComment: "",
   },
   {
     title: 'Un palais de colère et de brume',
@@ -1217,7 +1217,7 @@ export const guillaumeBooks: UserBooks = [
     loaned: '',
     readPriority: 3,
     wantToReadAgain: false,
-    ratingComment: '',
+    ratingComment: "",
   },
   {
     title: 'Un palais de cendres et de ruines',
@@ -1231,7 +1231,7 @@ export const guillaumeBooks: UserBooks = [
     loaned: '',
     readPriority: 3,
     wantToReadAgain: false,
-    ratingComment: '',
+    ratingComment: "",
   },
   {
     title: 'Un palais de glace et de lumière',
@@ -1246,7 +1246,7 @@ export const guillaumeBooks: UserBooks = [
     readPriority: 3,
     wantToReadAgain: false,
     ratingComment:
-      "C'est sympa mais c'est plutôt une petite pause de Noël dans la saga. Pourquoi pas, mais aucun enjeu particulier.",
+      "",
   },
 
   {
@@ -1261,6 +1261,6 @@ export const guillaumeBooks: UserBooks = [
     loaned: '',
     readPriority: 3,
     wantToReadAgain: false,
-    ratingComment: '',
+    ratingComment: "",
   },
 ];
