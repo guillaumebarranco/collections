@@ -3269,4 +3269,18 @@ export const baseGames: BaseGame[] = [
     platineTime: 0,
     description: '',
   },
+  {
+    title: 'I Wanna Be The Guy',
+    editor: 'Kayin',
+    hero: 'The Kid',
+    coverUrl:
+      '/games_pictures/a2f2f80e2b0d.jpg',
+    releaseDate: '2007-10-07',
+    averageTimeToFinish: 6,
+    averageTimeToHundredPercent: 6,
+    platform: 'PC',
+    saga: '',
+    platineTime: 0,
+    description: '',
+  },
 ];

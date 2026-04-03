@@ -139,8 +139,7 @@ export const baseManwhas: BaseManwha[] = [
   {
     title: 'The Beginning After the End',
     author: 'TurtleMe, Fuyuki23',
-    coverUrl:
-      '/manwhas_pictures/eb6da97dc5c8.webp',
+    coverUrl: '/manwhas_pictures/eb6da97dc5c8.webp',
     genre: 'Fantasy',
     nbChapters: 220,
     isFinished: false,
@@ -149,8 +148,7 @@ export const baseManwhas: BaseManwha[] = [
   {
     title: 'The Greatest Estate Developer',
     author: 'Lee Hyunmin, Kim Hyunsoo',
-    coverUrl:
-      'https://cdn1.booknode.com/book_cover/5108/full/the-greatest-estate-developer-5108194.jpg',
+    coverUrl: '/manwhas_pictures/the-greatest-estate-developer-5108194.jpg',
     genre: 'Fantasy',
     nbChapters: 150,
     isFinished: false,
@@ -168,8 +166,7 @@ export const baseManwhas: BaseManwha[] = [
   {
     title: 'Eleceed',
     author: 'Son Je-Ho, ZHENA',
-    coverUrl:
-      'https://cdn1.booknode.com/book_cover/4933/eleceed-4933207-264-432.webp',
+    coverUrl: '/manwhas_pictures/d7e71746d36d.webp',
     genre: 'Action',
     nbChapters: 350,
     isFinished: false,
@@ -187,8 +184,7 @@ export const baseManwhas: BaseManwha[] = [
   {
     title: "Siren's Lament",
     author: 'instantmiso',
-    coverUrl:
-      'https://cdn1.booknode.com/book_cover/1446/sirens_lament-1446436-264-432.webp',
+    coverUrl: '/manwhas_pictures/sirens_lament-1446436-264-432.jpg',
     genre: 'Romance',
     nbChapters: 200,
     isFinished: true,
@@ -197,8 +193,7 @@ export const baseManwhas: BaseManwha[] = [
   {
     title: 'The Boxer',
     author: 'Jeong Ji-hun',
-    coverUrl:
-      '/manwhas_pictures/47cb607b137c.jpg',
+    coverUrl: '/manwhas_pictures/47cb607b137c.jpg',
     genre: 'Drama',
     nbChapters: 132,
     isFinished: true,
@@ -207,8 +202,7 @@ export const baseManwhas: BaseManwha[] = [
   {
     title: 'Adonis',
     author: 'Seol I, Dodam',
-    coverUrl:
-      '/manwhas_pictures/839831f50056.jpg',
+    coverUrl: '/manwhas_pictures/839831f50056.jpg',
     genre: 'Romance',
     nbChapters: 180,
     isFinished: false,
@@ -217,8 +211,7 @@ export const baseManwhas: BaseManwha[] = [
   {
     title: 'Lumine',
     author: 'Emma Krogell',
-    coverUrl:
-      '/manwhas_pictures/ed5a5189ee0e.jpg',
+    coverUrl: '/manwhas_pictures/ed5a5189ee0e.jpg',
     genre: 'Fantasy',
     nbChapters: 300,
     isFinished: true,
@@ -227,8 +220,7 @@ export const baseManwhas: BaseManwha[] = [
   {
     title: 'Selfish Romance',
     author: 'Gang Ha-neul',
-    coverUrl:
-      '/manwhas_pictures/cf35c87e7b20.jpg',
+    coverUrl: '/manwhas_pictures/cf35c87e7b20.jpg',
     genre: 'Romance',
     nbChapters: 80,
     isFinished: false,
@@ -237,8 +229,7 @@ export const baseManwhas: BaseManwha[] = [
   {
     title: 'Hand Jumper',
     author: 'Sipjeung',
-    coverUrl:
-      '/manwhas_pictures/dbecd94ac5c4.webp',
+    coverUrl: '/manwhas_pictures/dbecd94ac5c4.webp',
     genre: 'Thriller',
     nbChapters: 120,
     isFinished: false,
@@ -247,8 +238,7 @@ export const baseManwhas: BaseManwha[] = [
   {
     title: 'Tales of Demons and Gods',
     author: 'Mad Snail, Jiang Ruotai',
-    coverUrl:
-      '/manwhas_pictures/a8d7df4dd7ab.webp',
+    coverUrl: '/manwhas_pictures/a8d7df4dd7ab.webp',
     genre: 'Fantasy',
     nbChapters: 450,
     isFinished: false,
@@ -257,8 +247,7 @@ export const baseManwhas: BaseManwha[] = [
   {
     title: 'True Beauty',
     author: 'Yaongyi',
-    coverUrl:
-      '/manwhas_pictures/191c6c22e16e.webp',
+    coverUrl: '/manwhas_pictures/191c6c22e16e.webp',
     genre: 'Romance',
     nbChapters: 240,
     isFinished: true,

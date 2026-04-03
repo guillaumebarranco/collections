@@ -1066,8 +1066,7 @@ export const baseMoviesFromMarina: BaseMovie[] = [
       { name: 'Kathleen Barr' },
       { name: 'Tabitha St. Germain' },
     ],
-    coverUrl:
-      'https://fusion.molotov.tv/arts/i/446x588/Ch8SHQoUVwdcIC_YMspTDReRMzQlLrZstpASA2pwZxgB/jpg',
+    coverUrl: '/movies_pictures/fdsfsdfsdfdsfdfdf.jpg',
     releaseDate: '2013-01-01',
     length: 83,
     genre: ['Animation'],

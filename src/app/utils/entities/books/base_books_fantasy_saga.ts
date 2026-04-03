@@ -595,7 +595,7 @@ export const baseBooksFantasySaga: BaseBook[] = [
     title: 'Le Monde de Narnia (Tome 7) La Dernière Bataille',
     author: 'C. S. Lewis',
     coverUrl:
-      'https://cdn.shopify.com/s/files/1/0398/4202/1535/files/vhi8dhORFOkew3x_B68sh6B-m_fSccAEBFQEneSkvB0.png?v=1772704984',
+      '/books_pictures/d38aa685ed3b.png',
     pages: 224,
     genre: ['Fantasy'],
     saga: 'Le Monde de Narnia',

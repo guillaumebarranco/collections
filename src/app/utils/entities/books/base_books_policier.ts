@@ -188,7 +188,7 @@ export const baseBooksPolicier: BaseBook[] = [
     title: 'Le Talentueux M. Ripley',
     author: 'Patricia Highsmith',
     coverUrl:
-      'https://m.media-amazon.com/images/I/71b2nuVlrwL._UF1000,1000_QL80_.jpg',
+      '/books_pictures/ecf6be6cafe2.jpg',
     pages: 272,
     genre: ['Policier'],
     saga: '',

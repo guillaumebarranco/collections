@@ -958,7 +958,7 @@ export const baseMoviesApi: BaseMovie[] = [
       },
     ],
     coverUrl:
-      'https://fr.web.img3.acsta.net/c_310_420/pictures/19/01/08/16/11/5107965.jpg',
+      '/movies_pictures/31d8318928a1.jpg',
     releaseDate: '2019-03-06',
     length: 100,
     genre: ['Comédie', 'Drame'],
@@ -984,7 +984,7 @@ export const baseMoviesApi: BaseMovie[] = [
       },
     ],
     coverUrl:
-      'https://optimale.fr/wp-content/uploads/2021/01/l-epreuve-d-amour-cover.jpg',
+      '/movies_pictures/d83b9b27bffa.jpg',
     releaseDate: '2017-11-22',
     length: 89,
     genre: ['Drame'],
@@ -1018,7 +1018,7 @@ export const baseMoviesApi: BaseMovie[] = [
       },
     ],
     coverUrl:
-      'https://fr.web.img4.acsta.net/r_1920_1080/img/92/3c/923c580e3fb2488d308865d6b6a2e381.jpg',
+      '/movies_pictures/7b178034b345.jpg',
     releaseDate: '2026-04-01',
     length: 99,
     genre: ['Comédie', 'Aventure', 'Jeunesse', 'Animation'],
@@ -1046,7 +1046,7 @@ export const baseMoviesApi: BaseMovie[] = [
       },
     ],
     coverUrl:
-      'https://fr.web.img2.acsta.net/medias/nmedia/18/95/14/16/20455360.jpg',
+      '/movies_pictures/1afcb4b4221c.jpg',
     releaseDate: '2013-04-17',
     length: 88,
     genre: ['Comédie'],
@@ -1077,7 +1077,7 @@ export const baseMoviesApi: BaseMovie[] = [
       },
     ],
     coverUrl:
-      'https://fr.web.img3.acsta.net/c_310_420/pictures/15/11/30/15/05/193488.jpg',
+      '/movies_pictures/3c34373f0323.jpg',
     releaseDate: '2016-02-03',
     length: 94,
     genre: ['Comédie'],
@@ -1105,7 +1105,7 @@ export const baseMoviesApi: BaseMovie[] = [
       },
     ],
     coverUrl:
-      'https://fr.web.img6.acsta.net/medias/nmedia/18/79/86/48/19736959.jpg',
+      '/movies_pictures/692062283952.jpg',
     releaseDate: '2011-06-22',
     length: 96,
     genre: ['Comédie'],
@@ -1133,7 +1133,7 @@ export const baseMoviesApi: BaseMovie[] = [
       },
     ],
     coverUrl:
-      'https://fr.web.img6.acsta.net/medias/nmedia/18/86/68/24/20034402.jpg',
+      '/movies_pictures/f1607f7a9159.jpg',
     releaseDate: '2012-04-25',
     length: 94,
     genre: ['Comédie'],
@@ -1163,7 +1163,7 @@ export const baseMoviesApi: BaseMovie[] = [
         name: "Sandrine Kiberlain",
       },
     ],
-    coverUrl: "https://dvdtoile.com/FILMS/43/43715.jpg",
+    coverUrl: "/movies_pictures/5ee3c6ce4eda.jpg",
     releaseDate: "2009-09-30",
     length: 91,
     genre: ['Comédie'],

@@ -876,8 +876,7 @@ export const baseBooksApi: BaseBook[] = [
   {
     title: 'Un jeudi saveur chocolat',
     author: 'Michiko Aoyama',
-    coverUrl:
-      'https://m.media-amazon.com/images/I/71vy02KWGSL._AC_UF1000,1000_QL80_.jpg',
+    coverUrl: '/books_pictures/0631c8f5f728.jpg',
     pages: 224,
     genre: [],
     saga: '',
@@ -961,7 +960,7 @@ export const baseBooksApi: BaseBook[] = [
   {
     title: 'Loin',
     author: 'Alexis Michalik',
-    coverUrl: 'https://m.media-amazon.com/images/I/71jSt8rH0aL.jpg',
+    coverUrl: '/books_pictures/11881ee4f629.jpg',
     pages: 288,
     genre: [],
     saga: '',
@@ -989,7 +988,7 @@ export const baseBooksApi: BaseBook[] = [
   {
     title: 'Le papillon des étoiles',
     author: 'Bernard Werber',
-    coverUrl: 'https://m.media-amazon.com/images/I/81yhIBBvgLL.jpg',
+    coverUrl: '/books_pictures/c21a21b1eef4.jpg',
     pages: 448,
     genre: [],
     saga: '',
@@ -1045,8 +1044,7 @@ export const baseBooksApi: BaseBook[] = [
   {
     title: 'Ciao Bella',
     author: 'Serena Giuliano',
-    coverUrl:
-      'https://images-na.ssl-images-amazon.com/images/I/71389HTqA4L.jpg',
+    coverUrl: '/books_pictures/5817e6e2f79d.jpg',
     pages: 320,
     genre: [],
     saga: '',
@@ -1060,8 +1058,7 @@ export const baseBooksApi: BaseBook[] = [
   {
     title: '59 secondes',
     author: 'Richard Wiseman',
-    coverUrl:
-      'https://media.hachette.fr/fit-in/780x1280/imgArticle/LATTES/2010/9782709634281-T.jpg?source=web',
+    coverUrl: '/books_pictures/9782709634281-T.webp',
     pages: 352,
     genre: [],
     saga: '',
@@ -1103,7 +1100,7 @@ export const baseBooksApi: BaseBook[] = [
   {
     title: "Un parfum d'encre et de liberté",
     author: 'Sarah McCoy',
-    coverUrl: 'https://m.media-amazon.com/images/I/71GLjpOy6XL.jpg',
+    coverUrl: '/books_pictures/3d78652ac99a.jpg',
     pages: 448,
     genre: [],
     saga: '',
@@ -1145,8 +1142,7 @@ export const baseBooksApi: BaseBook[] = [
   {
     title: 'Le jour où les lions mangeront de la salade',
     author: 'Raphaëlle Giordano',
-    coverUrl:
-      'https://m.media-amazon.com/images/I/71pmdIR+npL._AC_UF1000,1000_QL80_.jpg',
+    coverUrl: '/books_pictures/610d788d6341.jpg',
     pages: 384,
     genre: [],
     saga: '',
@@ -1413,7 +1409,7 @@ export const baseBooksApi: BaseBook[] = [
     title: 'Le royaume de Tobin, tome 1',
     author: 'Lynn Flewelling',
     coverUrl:
-      'https://cdn1.booknode.com/book_cover/265/full/le-royaume-de-tobin-tome-1-les-jumeaux-264751.jpg',
+      '/books_pictures/le-royaume-de-tobin-tome-1-les-jumeaux-264751.jpg',
     pages: 336,
     genre: [],
     saga: 'Le royaume de Tobin',
@@ -1483,8 +1479,7 @@ export const baseBooksApi: BaseBook[] = [
   {
     title: 'Le royaume de Tobin, tome 6',
     author: 'Lynn Flewelling',
-    coverUrl:
-      'https://fr.shopping.rakuten.com/pictures/01996604-8de6-7ce3-906c-5835bb310fb7.jpg',
+    coverUrl: '/books_pictures/01996604-8de6-7ce3-906c-5835bb310fb7.jpg',
     pages: 416,
     genre: [],
     saga: 'Le royaume de Tobin',
