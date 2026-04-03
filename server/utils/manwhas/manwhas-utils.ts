@@ -28,6 +28,24 @@ const BASE_MANWHAS_API_FILE = path.join(
   'base_manwhas_api.ts'
 );
 
+import type {
+  BaseManwha,
+  MandatoryManwhaData,
+  UserManwha,
+} from '../../../src/app/models/manwha-model';
+
+type ManwhaUpdatePayload = Partial<UserManwha> &
+  Pick<UserManwha, 'title' | 'author'>;
+type ManwhaIdentityPayload = {
+  matchTitle?: string;
+  matchAuthor?: string;
+} & Partial<Pick<UserManwha, 'title' | 'author'>>;
+type BaseManwhaFileUpdatePayload = Partial<BaseManwha> & {
+  matchTitle?: string;
+  matchAuthor?: string;
+};
+type ManwhaRemovePayload = Pick<MandatoryManwhaData, 'title' | 'author'>;
+
 function getArrayBounds(content: string, exportIndex: number) {
   const assignIndex = content.indexOf('=', exportIndex);
   if (assignIndex === -1) return null;
@@ -37,7 +55,7 @@ function getArrayBounds(content: string, exportIndex: number) {
   return { arrayStart, arrayEnd };
 }
 
-function normalizeNumber(value: any, field: string) {
+function normalizeNumber(value: unknown, field: string) {
   if (value === undefined || value === null) return undefined;
   const parsed = Number(value);
   if (Number.isNaN(parsed)) {
@@ -46,7 +64,7 @@ function normalizeNumber(value: any, field: string) {
   return parsed;
 }
 
-function normalizeBoolean(value: any, field: string) {
+function normalizeBoolean(value: unknown, field: string) {
   if (value === undefined || value === null) return undefined;
   if (typeof value === 'boolean') return value;
   if (value === 'true') return true;
@@ -54,7 +72,7 @@ function normalizeBoolean(value: any, field: string) {
   throw new Error(`Invalid boolean for ${field}`);
 }
 
-function normalizeString(value: any, field: string) {
+function normalizeString(value: unknown, field: string) {
   if (value === undefined || value === null) return undefined;
   if (typeof value !== 'string') {
     throw new Error(`Invalid string for ${field}`);
@@ -91,7 +109,7 @@ function parseBooleanField(objectText: string, key: string) {
   return match[1] === 'true';
 }
 
-function parseManwhasFromFile(content: string): any[] {
+function parseManwhasFromFile(content: string): UserManwha[] {
   const exportIndex = content.indexOf('export const');
   if (exportIndex === -1) {
     return [];
@@ -103,7 +121,7 @@ function parseManwhasFromFile(content: string): any[] {
   }
   const { arrayStart, arrayEnd } = bounds;
 
-  const manwhas: any[] = [];
+  const manwhas: UserManwha[] = [];
   let i = arrayStart;
   let depth = 0;
   let objectStart = -1;
@@ -130,7 +148,8 @@ function parseManwhasFromFile(content: string): any[] {
             readTimes: parseNumberField(objectText, 'readTimes') ?? 0,
             readDate: parseStringField(objectText, 'readDate') ?? '',
             owned: parseBooleanField(objectText, 'owned') ?? false,
-            readPriority: parseNumberField(objectText, 'readPriority') ?? 1,
+            readPriority: (parseNumberField(objectText, 'readPriority') ??
+              1) as UserManwha['readPriority'],
             wantToReadAgain:
               parseBooleanField(objectText, 'wantToReadAgain') ?? false,
             ratingComment: parseStringField(objectText, 'ratingComment') ?? '',
@@ -144,7 +163,7 @@ function parseManwhasFromFile(content: string): any[] {
               ((parseBooleanField(objectText, 'loaned') ?? false)
                 ? 'Inconnu'
                 : ''),
-          });
+          } as UserManwha);
         }
       }
     }
@@ -154,7 +173,7 @@ function parseManwhasFromFile(content: string): any[] {
   return manwhas;
 }
 
-function parseBaseManwhasFullFromFile(content: string): any[] {
+function parseBaseManwhasFullFromFile(content: string): BaseManwha[] {
   const exportIndex = content.indexOf('export const');
   if (exportIndex === -1) {
     return [];
@@ -166,7 +185,7 @@ function parseBaseManwhasFullFromFile(content: string): any[] {
   }
   const { arrayStart, arrayEnd } = bounds;
 
-  const manwhas: any[] = [];
+  const manwhas: BaseManwha[] = [];
   let i = arrayStart;
   let depth = 0;
   let objectStart = -1;
@@ -198,7 +217,7 @@ function parseBaseManwhasFullFromFile(content: string): any[] {
           nbChapters: parseNumberField(objectText, 'nbChapters') ?? 0,
           isFinished: parseBooleanField(objectText, 'isFinished') ?? false,
           description: parseStringField(objectText, 'description') || '',
-        });
+        } as BaseManwha);
       }
     }
     i += 1;
@@ -246,14 +265,17 @@ function baseManwhaExists(title: string, author: string): boolean {
   for (const filePath of files) {
     const content = fs.readFileSync(filePath, 'utf8');
     const manwhas = parseBaseManwhasFullFromFile(content);
-    if (manwhas.some((m: any) => m.title === title && m.author === author)) {
+    if (manwhas.some((m) => m.title === title && m.author === author)) {
       return true;
     }
   }
   return false;
 }
 
-function updateManwhaInFile(filePath: string, manwhaData: any): boolean {
+function updateManwhaInFile(
+  filePath: string,
+  manwhaData: ManwhaUpdatePayload
+): boolean {
   const content = fs.readFileSync(filePath, 'utf8');
   const manwhas = parseManwhasFromFile(content);
   const index = manwhas.findIndex(
@@ -268,7 +290,7 @@ function updateManwhaInFile(filePath: string, manwhaData: any): boolean {
   manwhas[index] = {
     ...manwhas[index],
     ...manwhaData,
-  };
+  } as UserManwha;
 
   const newArrayContent = manwhas
     .map(
@@ -308,7 +330,7 @@ function updateManwhaInFile(filePath: string, manwhaData: any): boolean {
 
 function updateManwhaIdentityInFile(
   filePath: string,
-  manwhaData: any
+  manwhaData: ManwhaIdentityPayload
 ): boolean {
   const content = fs.readFileSync(filePath, 'utf8');
   const manwhas = parseManwhasFromFile(content);
@@ -326,7 +348,7 @@ function updateManwhaIdentityInFile(
     ...manwhas[index],
     title: manwhaData.title ?? manwhas[index].title,
     author: manwhaData.author ?? manwhas[index].author,
-  };
+  } as UserManwha;
 
   const newArrayContent = manwhas
     .map(
@@ -364,7 +386,10 @@ function updateManwhaIdentityInFile(
   return true;
 }
 
-function updateBaseManwhaInFile(filePath: string, manwhaData: any): boolean {
+function updateBaseManwhaInFile(
+  filePath: string,
+  manwhaData: BaseManwhaFileUpdatePayload
+): boolean {
   const content = fs.readFileSync(filePath, 'utf8');
   const manwhas = parseBaseManwhasFullFromFile(content);
   const matchTitle = manwhaData.matchTitle ?? manwhaData.title;
@@ -377,12 +402,19 @@ function updateBaseManwhaInFile(filePath: string, manwhaData: any): boolean {
     return false;
   }
 
-  manwhas[index] = {
-    ...manwhas[index],
-    ...manwhaData,
-    title: manwhaData.title ?? manwhas[index].title,
-    author: manwhaData.author ?? manwhas[index].author,
-  };
+  const existing = manwhas[index];
+  const merged: BaseManwha = { ...existing };
+  const patch = manwhaData as Record<string, unknown>;
+  for (const key of Object.keys(patch)) {
+    if (key === 'matchTitle' || key === 'matchAuthor') continue;
+    const value = patch[key];
+    if (value !== undefined) {
+      (merged as unknown as Record<string, unknown>)[key] = value;
+    }
+  }
+  merged.title = manwhaData.title ?? existing.title;
+  merged.author = manwhaData.author ?? existing.author;
+  manwhas[index] = merged;
 
   const newArrayContent = manwhas
     .map(
@@ -416,7 +448,7 @@ function updateBaseManwhaInFile(filePath: string, manwhaData: any): boolean {
   return true;
 }
 
-function updateBaseManwhaInFiles(payload: any) {
+function updateBaseManwhaInFiles(payload: BaseManwhaFileUpdatePayload) {
   const baseFiles = getBaseManwhasFiles();
   for (const filePath of baseFiles) {
     if (updateBaseManwhaInFile(filePath, payload)) {
@@ -426,7 +458,10 @@ function updateBaseManwhaInFiles(payload: any) {
   return null;
 }
 
-function removeManwhaFromFile(content: string, payload: any): string {
+function removeManwhaFromFile(
+  content: string,
+  payload: ManwhaRemovePayload
+): string {
   const exportIndex = content.indexOf('export const');
   if (exportIndex === -1) {
     throw new Error('Array not found');

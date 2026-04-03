@@ -48,4 +48,7 @@ export interface UserSerie extends MandatorySerieData {
 
 export type UserSeries = UserSerie[];
 
+/** Fichiers utilisateur sérialisés : certains contiennent encore une note globale `rating`. */
+export type UserSerieFileRow = UserSerie & { rating?: number };
+
 export interface Serie extends BaseSerie, UserSerie {}

@@ -8,9 +8,9 @@ const {
 } = require('../../utils/manwhas/manwhas-utils');
 const { normalizeUsername } = require('../../utils/users/users-utils');
 
-import type { Manwha } from '../../../src/app/models/manwha-model';
+import type { UserManwha } from '../../../src/app/models/manwha-model';
 
-type OthersRatedManwhaEntry = Pick<Manwha, 'title' | 'author'> & {
+type OthersRatedManwhaEntry = Pick<UserManwha, 'title' | 'author'> & {
   rating: number;
   userId: string;
 };
@@ -42,7 +42,7 @@ router.get('/others-users-manwhas-rated', (req: any, res: any) => {
     for (const userId of otherUsers) {
       try {
         const manwhaFiles = getUserManwhasFiles(userId);
-        const manwhas: Manwha[] = manwhaFiles.flatMap((manwhaFile: string) => {
+        const manwhas: UserManwha[] = manwhaFiles.flatMap((manwhaFile: string) => {
           const fileContent = fs.readFileSync(manwhaFile, 'utf8');
           return parseManwhasFromFile(fileContent);
         });

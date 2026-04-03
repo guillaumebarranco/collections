@@ -1,6 +1,28 @@
 const fs = require('fs');
 const path = require('path');
-const { escapeStringForTsDoubleQuote: escapeString } = require('../escape-ts-string');
+const {
+  escapeStringForTsDoubleQuote: escapeString,
+} = require('../escape-ts-string');
+
+import type {
+  BaseMovie,
+  MandatoryMovieData,
+  UserMovie,
+} from '../../../src/app/models/movie-model';
+
+type MovieUpdatePayload = Partial<UserMovie> & Pick<UserMovie, 'title' | 'director'>;
+
+type MovieIdentityPayload = {
+  matchTitle?: string;
+  matchDirector?: string;
+} & Partial<Pick<UserMovie, 'title' | 'director'>>;
+
+type BaseMovieFileUpdatePayload = Partial<BaseMovie> & {
+  matchTitle?: string;
+  matchDirector?: string;
+};
+
+type MovieRemovePayload = Pick<MandatoryMovieData, 'title' | 'director'>;
 
 const USERS_MOVIES_DIR = path.join(
   __dirname,
@@ -25,7 +47,7 @@ const BASE_MOVIES_DIR = path.join(
 );
 const BASE_MOVIES_API_FILE = path.join(BASE_MOVIES_DIR, 'base_movies_api.ts');
 
-function normalizeNumber(value: any, field: string) {
+function normalizeNumber(value: unknown, field: string) {
   if (value === undefined || value === null) return undefined;
   const parsed = Number(value);
   if (Number.isNaN(parsed)) {
@@ -34,7 +56,7 @@ function normalizeNumber(value: any, field: string) {
   return parsed;
 }
 
-function normalizeBoolean(value: any, field: string) {
+function normalizeBoolean(value: unknown, field: string) {
   if (value === undefined || value === null) return undefined;
   if (typeof value === 'boolean') return value;
   if (value === 'true') return true;
@@ -42,7 +64,7 @@ function normalizeBoolean(value: any, field: string) {
   throw new Error(`Invalid boolean for ${field}`);
 }
 
-function normalizeString(value: any, field: string) {
+function normalizeString(value: unknown, field: string) {
   if (value === undefined || value === null) return undefined;
   if (typeof value !== 'string') {
     throw new Error(`Invalid string for ${field}`);
@@ -178,13 +200,11 @@ function formatMovieGenreArrayTs(arr: string[]) {
     return '[]';
   }
   return (
-    '[' +
-    trimmed.map((s) => `'${escapeForSingleQuotedTs(s)}'`).join(', ') +
-    ']'
+    '[' + trimmed.map((s) => `'${escapeForSingleQuotedTs(s)}'`).join(', ') + ']'
   );
 }
 
-function normalizeMovieGenreInput(value: any): string[] {
+function normalizeMovieGenreInput(value: unknown): string[] {
   if (value === undefined || value === null) {
     return [];
   }
@@ -203,7 +223,7 @@ function normalizeMovieGenreInput(value: any): string[] {
   return [];
 }
 
-function normalizeMovieCountryOriginInput(value: any): string[] {
+function normalizeMovieCountryOriginInput(value: unknown): string[] {
   return normalizeMovieGenreInput(value);
 }
 
@@ -288,7 +308,7 @@ function parsefromEntityField(objectText: string) {
   return null;
 }
 
-function parseMoviesFromFile(content: string): any[] {
+function parseMoviesFromFile(content: string): UserMovie[] {
   const exportIndex = content.indexOf('export const');
   if (exportIndex === -1) {
     return [];
@@ -300,7 +320,7 @@ function parseMoviesFromFile(content: string): any[] {
     return [];
   }
 
-  const movies: any[] = [];
+  const movies: UserMovie[] = [];
   let i = arrayStart;
   let depth = 0;
   let objectStart = -1;
@@ -339,15 +359,15 @@ function parseMoviesFromFile(content: string): any[] {
             inList: parseStringArrayField(objectText, 'inList') ?? [],
             borrowed:
               parseStringField(objectText, 'borrowed') ??
-              ((parseBooleanField(objectText, 'borrowed') ?? false)
+              (parseBooleanField(objectText, 'borrowed') ?? false
                 ? 'Inconnu'
                 : ''),
             loaned:
               parseStringField(objectText, 'loaned') ??
-              ((parseBooleanField(objectText, 'loaned') ?? false)
+              (parseBooleanField(objectText, 'loaned') ?? false
                 ? 'Inconnu'
                 : ''),
-          });
+          } as UserMovie);
         }
       }
     }
@@ -357,7 +377,7 @@ function parseMoviesFromFile(content: string): any[] {
   return movies;
 }
 
-function parseBaseMoviesFromFile(content: string): any[] {
+function parseBaseMoviesFromFile(content: string): MandatoryMovieData[] {
   const exportIndex = content.indexOf('export const');
   if (exportIndex === -1) {
     return [];
@@ -369,7 +389,7 @@ function parseBaseMoviesFromFile(content: string): any[] {
     return [];
   }
 
-  const movies: any[] = [];
+  const movies: MandatoryMovieData[] = [];
   let i = arrayStart;
   let depth = 0;
   let objectStart = -1;
@@ -391,7 +411,7 @@ function parseBaseMoviesFromFile(content: string): any[] {
         if (title) {
           movies.push({
             title,
-            director,
+            director: director || '',
           });
         }
       }
@@ -414,7 +434,7 @@ function parseActors(objectText: string): string[] {
   return actors;
 }
 
-function parseBaseMoviesFullFromFile(content: string): any[] {
+function parseBaseMoviesFullFromFile(content: string): BaseMovie[] {
   const exportIndex = content.indexOf('export const');
   if (exportIndex === -1) {
     return [];
@@ -426,7 +446,7 @@ function parseBaseMoviesFullFromFile(content: string): any[] {
     return [];
   }
 
-  const movies: any[] = [];
+  const movies: BaseMovie[] = [];
   let i = arrayStart;
   let depth = 0;
   let objectStart = -1;
@@ -456,12 +476,12 @@ function parseBaseMoviesFullFromFile(content: string): any[] {
           coverUrl: parseStringField(objectText, 'coverUrl') || '',
           releaseDate: parseStringField(objectText, 'releaseDate') || '',
           length: parseNumberField(objectText, 'length') ?? 0,
-          genre: parseMovieGenreField(objectText),
+          genre: parseMovieGenreField(objectText) as BaseMovie['genre'],
           saga: parseStringField(objectText, 'saga') || '',
           description: parseStringField(objectText, 'description') || '',
           countryOrigin: parseMovieCountryOriginField(objectText),
           fromEntity: parsefromEntityField(objectText) ?? null,
-        });
+        } as BaseMovie);
       }
     }
     i += 1;
@@ -513,7 +533,11 @@ function baseMovieExists(title: string) {
   });
 }
 
-function replaceField(objectText: string, key: string, value: any) {
+function replaceField(
+  objectText: string,
+  key: string,
+  value: string | number | boolean | undefined
+) {
   if (value === undefined) return objectText;
   let next = objectText;
   if (typeof value === 'string') {
@@ -549,21 +573,20 @@ function replaceField(objectText: string, key: string, value: any) {
   return next;
 }
 
-function upsertGenreField(objectText: string, value: any) {
+function upsertGenreField(objectText: string, value: unknown) {
   if (value === undefined) {
     return objectText;
   }
   const arr = normalizeMovieGenreInput(value);
   const serialized = formatMovieGenreArrayTs(arr);
-  const regex =
-    /\bgenre\s*:\s*(\[[\s\S]*?\]|(['"])((?:\\.|(?!\2).)*)\2)/;
+  const regex = /\bgenre\s*:\s*(\[[\s\S]*?\]|(['"])((?:\\.|(?!\2).)*)\2)/;
   if (regex.test(objectText)) {
     return objectText.replace(regex, `genre: ${serialized}`);
   }
   return objectText.replace(/\}\s*$/, `    genre: ${serialized},\n  }`);
 }
 
-function upsertCountryOriginField(objectText: string, value: any) {
+function upsertCountryOriginField(objectText: string, value: unknown) {
   if (value === undefined) {
     return objectText;
   }
@@ -574,10 +597,7 @@ function upsertCountryOriginField(objectText: string, value: any) {
   if (regex.test(objectText)) {
     return objectText.replace(regex, `countryOrigin: ${serialized}`);
   }
-  return objectText.replace(
-    /\}\s*$/,
-    `    countryOrigin: ${serialized},\n  }`
-  );
+  return objectText.replace(/\}\s*$/, `    countryOrigin: ${serialized},\n  }`);
 }
 
 function upsertInListField(objectText: string, arr: string[]) {
@@ -592,7 +612,11 @@ function upsertInListField(objectText: string, arr: string[]) {
   return objectText.replace(/\}\s*$/, `    inList: ${serialized},\n  }`);
 }
 
-function upsertField(objectText: string, key: string, value: any) {
+function upsertField(
+  objectText: string,
+  key: string,
+  value: string | number | boolean | undefined
+) {
   if (value === undefined) return objectText;
   let next = objectText;
   if (typeof value === 'string') {
@@ -660,7 +684,7 @@ function upsertfromEntityField(
   return objectText.replace(/\}\s*$/, `    ${fromEntityBlock},\n  }`);
 }
 
-function updateMovieInFile(content: string, payload: any) {
+function updateMovieInFile(content: string, payload: MovieUpdatePayload) {
   const exportIndex = content.indexOf('export const');
   if (exportIndex === -1) {
     throw new Error('Array not found');
@@ -753,7 +777,7 @@ function updateMovieInFile(content: string, payload: any) {
   throw new Error('Movie not found');
 }
 
-function updateMovieIdentityInFile(content: string, payload: any) {
+function updateMovieIdentityInFile(content: string, payload: MovieIdentityPayload) {
   const matchTitle = payload.matchTitle ?? payload.title;
   const matchDirector = payload.matchDirector ?? payload.director;
   if (!matchTitle || !matchDirector) {
@@ -813,7 +837,7 @@ function updateMovieIdentityInFile(content: string, payload: any) {
   throw new Error('Movie not found');
 }
 
-function updateBaseMovieInFile(content: string, payload: any) {
+function updateBaseMovieInFile(content: string, payload: BaseMovieFileUpdatePayload) {
   const matchTitle = payload.matchTitle ?? payload.title;
   const matchDirector = payload.matchDirector ?? payload.director;
   if (!matchTitle || !matchDirector) {
@@ -857,7 +881,14 @@ function updateBaseMovieInFile(content: string, payload: any) {
           if (payload.director && payload.director !== director) {
             updated = replaceField(updated, 'director', payload.director);
           }
-          updated = upsertActorsField(updated, payload.actors);
+          updated = upsertActorsField(
+            updated,
+            payload.actors === undefined
+              ? undefined
+              : payload.actors.map((a) =>
+                  typeof a === 'string' ? a : a.name
+                )
+          );
           updated = upsertField(updated, 'coverUrl', payload.coverUrl);
           updated = upsertField(updated, 'releaseDate', payload.releaseDate);
           updated = upsertField(updated, 'length', payload.length);
@@ -885,7 +916,7 @@ function updateBaseMovieInFile(content: string, payload: any) {
   throw new Error('Movie not found');
 }
 
-function updateBaseMovieInFiles(payload: any) {
+function updateBaseMovieInFiles(payload: BaseMovieFileUpdatePayload) {
   const baseFiles = getBaseMoviesFiles();
   for (const movieFile of baseFiles) {
     const content = fs.readFileSync(movieFile, 'utf8');
@@ -893,8 +924,9 @@ function updateBaseMovieInFiles(payload: any) {
       const updated = updateBaseMovieInFile(content, payload);
       fs.writeFileSync(movieFile, updated, 'utf8');
       return movieFile;
-    } catch (error: any) {
-      if (error.message !== 'Movie not found') {
+    } catch (error: unknown) {
+      const message = error instanceof Error ? error.message : '';
+      if (message !== 'Movie not found') {
         throw error;
       }
     }
@@ -911,7 +943,7 @@ function getArrayLiteralStartIndex(content: string, exportIndex: number) {
   return content.indexOf('[', exportIndex);
 }
 
-function removeMovieFromFile(content: string, payload: any) {
+function removeMovieFromFile(content: string, payload: MovieRemovePayload) {
   const exportIndex = content.indexOf('export const');
   if (exportIndex === -1) {
     throw new Error('Array not found');
@@ -934,12 +966,12 @@ function removeMovieFromFile(content: string, payload: any) {
   }
 
   const newArrayContent = filtered
-    .map((movie: any) => {
+    .map((movie: UserMovie) => {
       const inList =
         Array.isArray(movie.inList) && movie.inList.length > 0
           ? '[' +
             movie.inList
-              .map((s: any) => '"' + escapeString(s) + '"')
+              .map((s: string) => '"' + escapeString(s) + '"')
               .join(', ') +
             ']'
           : '[]';

@@ -33,6 +33,26 @@ const BASE_BOOKS_DIR = path.join(
 );
 const BASE_BOOKS_API_FILE = path.join(BASE_BOOKS_DIR, 'base_books_api.ts');
 
+import type {
+  BaseBook,
+  MandatoryBookData,
+  UserBook,
+} from '../../../src/app/models/book-model';
+
+type BookUpdatePayload = Partial<UserBook> & Pick<UserBook, 'title' | 'author'>;
+
+type BookIdentityPayload = {
+  matchTitle?: string;
+  matchAuthor?: string;
+} & Partial<Pick<UserBook, 'title' | 'author'>>;
+
+type BaseBookFileUpdatePayload = Partial<BaseBook> & {
+  matchTitle?: string;
+  matchAuthor?: string;
+};
+
+type BookRemovePayload = Pick<MandatoryBookData, 'title' | 'author'>;
+
 function escapeSingleQuotedTsString(s: string) {
   return String(s).replace(/\\/g, '\\\\').replace(/'/g, "\\'");
 }
@@ -65,7 +85,7 @@ function parseGenreField(objectText: string): string[] {
     .filter(Boolean);
 }
 
-function normalizeGenre(value: any): string[] {
+function normalizeGenre(value: unknown): string[] {
   if (value === undefined || value === null) return [];
   if (Array.isArray(value)) {
     return value
@@ -81,7 +101,7 @@ function normalizeGenre(value: any): string[] {
   throw new Error('Invalid genre');
 }
 
-function parseBooksFromFile(content: string): any[] {
+function parseBooksFromFile(content: string): UserBook[] {
   content = repairArrayDeclaration(content);
   const exportIndex = content.indexOf('export const');
   if (exportIndex === -1) {
@@ -94,7 +114,7 @@ function parseBooksFromFile(content: string): any[] {
     return [];
   }
 
-  const books: any[] = [];
+  const books: UserBook[] = [];
   let i = arrayStart;
   let depth = 0;
   let objectStart = -1;
@@ -136,7 +156,7 @@ function parseBooksFromFile(content: string): any[] {
             wantToReadAgain:
               parseBooleanField(objectText, 'wantToReadAgain') ?? false,
             ratingComment: parseStringField(objectText, 'ratingComment') ?? '',
-          });
+          } as UserBook);
         }
       }
     }
@@ -146,7 +166,7 @@ function parseBooksFromFile(content: string): any[] {
   return books;
 }
 
-function parseBaseBooksFromFile(content: string): any[] {
+function parseBaseBooksFromFile(content: string): MandatoryBookData[] {
   content = repairArrayDeclaration(content);
   const exportIndex = content.indexOf('export const');
   if (exportIndex === -1) {
@@ -159,7 +179,7 @@ function parseBaseBooksFromFile(content: string): any[] {
     return [];
   }
 
-  const books: any[] = [];
+  const books: MandatoryBookData[] = [];
   let i = arrayStart;
   let depth = 0;
   let objectStart = -1;
@@ -192,7 +212,7 @@ function parseBaseBooksFromFile(content: string): any[] {
   return books;
 }
 
-function parseBaseBooksFullFromFile(content: string): any[] {
+function parseBaseBooksFullFromFile(content: string): BaseBook[] {
   content = repairArrayDeclaration(content);
   const exportIndex = content.indexOf('export const');
   if (exportIndex === -1) {
@@ -205,7 +225,7 @@ function parseBaseBooksFullFromFile(content: string): any[] {
     return [];
   }
 
-  const books: any[] = [];
+  const books: BaseBook[] = [];
   let i = arrayStart;
   let depth = 0;
   let objectStart = -1;
@@ -234,14 +254,14 @@ function parseBaseBooksFullFromFile(content: string): any[] {
           author,
           coverUrl: parseStringField(objectText, 'coverUrl') || '',
           pages: parseNumberField(objectText, 'pages') ?? 0,
-          genre: parseGenreField(objectText),
+          genre: parseGenreField(objectText) as BaseBook['genre'],
           saga: parseStringField(objectText, 'saga') || '',
           sagaOrder: parseNumberField(objectText, 'sagaOrder') ?? 0,
           sagaFinished: parseBooleanField(objectText, 'sagaFinished') ?? false,
           releaseDate: parseStringField(objectText, 'releaseDate') || '',
           description: parseStringField(objectText, 'description') || '',
-          countryOrigin: parseStringField(objectText, 'countryOrigin') || '',
-        });
+          countryOrigin: parseStringField(objectText, 'countryOrigin') as BaseBook['countryOrigin'],
+        } as BaseBook);
       }
     }
     i += 1;
@@ -321,7 +341,11 @@ function baseBookExists(title: string, author: string) {
   });
 }
 
-function replaceField(objectText: string, key: string, value: any) {
+function replaceField(
+  objectText: string,
+  key: string,
+  value: string | number | boolean | undefined
+) {
   if (value === undefined) return objectText;
   let next = objectText;
   if (typeof value === 'string') {
@@ -357,7 +381,11 @@ function replaceField(objectText: string, key: string, value: any) {
   return next;
 }
 
-function upsertField(objectText: string, key: string, value: any) {
+function upsertField(
+  objectText: string,
+  key: string,
+  value: string | number | boolean | string[] | undefined
+) {
   if (value === undefined) return objectText;
   let next = objectText;
   if (key === 'genre' && Array.isArray(value)) {
@@ -392,7 +420,7 @@ function upsertField(objectText: string, key: string, value: any) {
   return next;
 }
 
-function updateBookInFile(content: string, payload: any) {
+function updateBookInFile(content: string, payload: BookUpdatePayload) {
   content = repairArrayDeclaration(content);
   const exportIndex = content.indexOf('export const');
   if (exportIndex === -1) {
@@ -466,7 +494,7 @@ function updateBookInFile(content: string, payload: any) {
   throw new Error('Book not found');
 }
 
-function updateBookIdentityInFile(content: string, payload: any) {
+function updateBookIdentityInFile(content: string, payload: BookIdentityPayload) {
   content = repairArrayDeclaration(content);
   const matchTitle = payload.matchTitle ?? payload.title;
   const matchAuthor = payload.matchAuthor ?? payload.author;
@@ -527,7 +555,7 @@ function updateBookIdentityInFile(content: string, payload: any) {
   throw new Error('Book not found');
 }
 
-function updateBaseBookInFile(content: string, payload: any) {
+function updateBaseBookInFile(content: string, payload: BaseBookFileUpdatePayload) {
   content = repairArrayDeclaration(content);
   const matchTitle = payload.matchTitle ?? payload.title;
   const matchAuthor = payload.matchAuthor ?? payload.author;
@@ -604,7 +632,7 @@ function updateBaseBookInFile(content: string, payload: any) {
   throw new Error('Book not found');
 }
 
-function updateBaseBookInFiles(payload: any) {
+function updateBaseBookInFiles(payload: BaseBookFileUpdatePayload) {
   const baseFiles = getBaseBooksFiles();
   for (const bookFile of baseFiles) {
     const content = fs.readFileSync(bookFile, 'utf8');
@@ -612,8 +640,9 @@ function updateBaseBookInFiles(payload: any) {
       const updated = updateBaseBookInFile(content, payload);
       fs.writeFileSync(bookFile, updated, 'utf8');
       return bookFile;
-    } catch (error: any) {
-      if (error.message !== 'Book not found') {
+    } catch (error: unknown) {
+      const message = error instanceof Error ? error.message : '';
+      if (message !== 'Book not found') {
         throw error;
       }
     }
@@ -621,7 +650,7 @@ function updateBaseBookInFiles(payload: any) {
   return null;
 }
 
-function removeBookFromFile(content: string, payload: any) {
+function removeBookFromFile(content: string, payload: BookRemovePayload) {
   content = repairArrayDeclaration(content);
   const exportIndex = content.indexOf('export const');
   if (exportIndex === -1) {

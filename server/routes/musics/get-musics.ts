@@ -6,7 +6,7 @@ const {
   parseUserMusicsFromFile,
 } = require('../../utils/musics/musics-utils');
 
-import type { Music } from '../../../src/app/models/music-model';
+import type { UserMusic } from '../../../src/app/models/music-model';
 
 const router = express.Router();
 
@@ -19,7 +19,7 @@ router.get('/:userId', (req: any, res: any) => {
     }
 
     const musicFiles = getUserMusicsFiles(userId);
-    const musics: Music[] = musicFiles.flatMap((musicFile: string) => {
+    const musics: UserMusic[] = musicFiles.flatMap((musicFile: string) => {
       const fileContent = fs.readFileSync(musicFile, 'utf8');
       return parseUserMusicsFromFile(fileContent);
     });

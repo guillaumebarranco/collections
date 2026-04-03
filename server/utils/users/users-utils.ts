@@ -2,6 +2,13 @@ const fs = require('fs');
 const path = require('path');
 const { escapeStringForTsDoubleQuote: escapeString } = require('../escape-ts-string');
 
+type StoredUser = {
+  username: string;
+  passwordHash: string;
+  passwordSalt: string;
+  admin: boolean;
+};
+
 const USERS_FILE = path.join(
   __dirname,
   '..',
@@ -29,14 +36,14 @@ function parseBooleanField(objectText: string, key: string) {
   return match[1] === 'true';
 }
 
-function parseUsersFromFile(content: string): any[] {
+function parseUsersFromFile(content: string): StoredUser[] {
   const exportIndex = content.indexOf('export const users');
   if (exportIndex === -1) return [];
   const arrayStart = content.indexOf('[', exportIndex);
   const arrayEnd = content.indexOf('];', arrayStart);
   if (arrayStart === -1 || arrayEnd === -1) return [];
 
-  const users: any[] = [];
+  const users: StoredUser[] = [];
   let i = arrayStart;
   let depth = 0;
   let objectStart = -1;
@@ -70,13 +77,13 @@ function parseUsersFromFile(content: string): any[] {
   return users;
 }
 
-function loadUsers(): any[] {
+function loadUsers(): StoredUser[] {
   if (!fs.existsSync(USERS_FILE)) return [];
   const content = fs.readFileSync(USERS_FILE, 'utf8');
   return parseUsersFromFile(content);
 }
 
-function saveUsers(users: any[]) {
+function saveUsers(users: StoredUser[]) {
   const body = users
     .map(
       (user) => `  {

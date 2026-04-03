@@ -8,9 +8,9 @@ const {
 } = require('../../utils/series/series-utils');
 const { normalizeUsername } = require('../../utils/users/users-utils');
 
-import type { Serie } from '../../../src/app/models/serie-model';
+import type { UserSerieFileRow } from '../../../src/app/models/serie-model';
 
-type OthersRatedSerieEntry = Pick<Serie, 'title' | 'director'> & {
+type OthersRatedSerieEntry = Pick<UserSerieFileRow, 'title' | 'director'> & {
   /** Moyenne des notes par saison (calculée côté API). */
   rating: number;
   userId: string;
@@ -43,7 +43,7 @@ router.get('/others-users-series-rated', (req: any, res: any) => {
     for (const userId of otherUsers) {
       try {
         const serieFiles = getUserSeriesFiles(userId);
-        const series: Serie[] = serieFiles.flatMap((serieFile: string) => {
+        const series: UserSerieFileRow[] = serieFiles.flatMap((serieFile: string) => {
           const fileContent = fs.readFileSync(serieFile, 'utf8');
           return parseSeriesFromFile(fileContent);
         });

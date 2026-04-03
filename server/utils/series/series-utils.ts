@@ -25,7 +25,28 @@ const BASE_SERIES_DIR = path.join(
 );
 const BASE_SERIES_API_FILE = path.join(BASE_SERIES_DIR, 'base_series_api.ts');
 
-function normalizeNumber(value: any, field: string) {
+import type {
+  BaseSerie,
+  BaseSerieSeasonData,
+  MandatorySerieData,
+  UserSerie,
+  UserSerieFileRow,
+  UserSerieSeason,
+} from '../../../src/app/models/serie-model';
+
+type SerieUpdatePayload = Partial<UserSerieFileRow> &
+  Pick<UserSerie, 'title' | 'director'>;
+type SerieIdentityPayload = {
+  matchTitle?: string;
+  matchDirector?: string;
+} & Partial<Pick<UserSerie, 'title' | 'director'>>;
+type BaseSerieFileUpdatePayload = Partial<BaseSerie> & {
+  matchTitle?: string;
+  matchDirector?: string;
+};
+type SerieRemovePayload = Pick<MandatorySerieData, 'title' | 'director'>;
+
+function normalizeNumber(value: unknown, field: string) {
   if (value === undefined || value === null) return undefined;
   const parsed = Number(value);
   if (Number.isNaN(parsed)) {
@@ -34,7 +55,7 @@ function normalizeNumber(value: any, field: string) {
   return parsed;
 }
 
-function normalizeBoolean(value: any, field: string) {
+function normalizeBoolean(value: unknown, field: string) {
   if (value === undefined || value === null) return undefined;
   if (typeof value === 'boolean') return value;
   if (value === 'true') return true;
@@ -42,7 +63,7 @@ function normalizeBoolean(value: any, field: string) {
   throw new Error(`Invalid boolean for ${field}`);
 }
 
-function normalizeString(value: any, field: string) {
+function normalizeString(value: unknown, field: string) {
   if (value === undefined || value === null) return undefined;
   if (typeof value !== 'string') {
     throw new Error(`Invalid string for ${field}`);
@@ -80,7 +101,7 @@ function parseSeasonsField(objectText: string) {
   );
   if (!seasonsMatch) return null;
   const body = seasonsMatch[1];
-  const seasons: any[] = [];
+  const seasons: UserSerieSeason[] = [];
   const entries = body.match(/\{[\s\S]*?\}/g) || [];
   for (const entry of entries) {
     const seasonNumber = parseNumberField(entry, 'seasonNumber') ?? 0;
@@ -123,7 +144,7 @@ function parseSeasonsDataField(objectText: string) {
   );
   if (!seasonsDataMatch) return null;
   const body = seasonsDataMatch[1];
-  const seasonsData: any[] = [];
+  const seasonsData: BaseSerieSeasonData[] = [];
   const entries = body.match(/\{[\s\S]*?\}/g) || [];
   for (const entry of entries) {
     const seasonNumber = parseNumberField(entry, 'seasonNumber') ?? 0;
@@ -168,7 +189,7 @@ function findSeriesArrayBounds(content: string) {
   return null;
 }
 
-function parseSeriesFromFile(content: string): any[] {
+function parseSeriesFromFile(content: string): UserSerieFileRow[] {
   const bounds = findSeriesArrayBounds(content);
   if (!bounds) {
     return [];
@@ -176,7 +197,7 @@ function parseSeriesFromFile(content: string): any[] {
 
   const { arrayStart, arrayEnd } = bounds;
 
-  const series: any[] = [];
+  const series: UserSerieFileRow[] = [];
   let i = arrayStart;
   let depth = 0;
   let objectStart = -1;
@@ -201,7 +222,8 @@ function parseSeriesFromFile(content: string): any[] {
             director,
             seasons: parseSeasonsField(objectText) ?? [],
             owned: parseBooleanField(objectText, 'owned') ?? false,
-            watchPriority: parseNumberField(objectText, 'watchPriority') ?? 1,
+            watchPriority: (parseNumberField(objectText, 'watchPriority') ??
+              1) as UserSerie['watchPriority'],
             wantToWatchAgain:
               parseBooleanField(objectText, 'wantToWatchAgain') ?? false,
             rating: parseNumberField(objectText, 'rating') ?? 0,
@@ -226,7 +248,7 @@ function parseSeriesFromFile(content: string): any[] {
   return series;
 }
 
-function parseBaseSeriesFromFile(content: string): any[] {
+function parseBaseSeriesFromFile(content: string): MandatorySerieData[] {
   const exportIndex = content.indexOf('export const');
   if (exportIndex === -1) {
     return [];
@@ -238,7 +260,7 @@ function parseBaseSeriesFromFile(content: string): any[] {
     return [];
   }
 
-  const series: any[] = [];
+  const series: MandatorySerieData[] = [];
   let i = arrayStart;
   let depth = 0;
   let objectStart = -1;
@@ -268,7 +290,7 @@ function parseBaseSeriesFromFile(content: string): any[] {
   return series;
 }
 
-function parseBaseSeriesFullFromFile(content: string): any[] {
+function parseBaseSeriesFullFromFile(content: string): BaseSerie[] {
   const exportIndex = content.indexOf('export const');
   if (exportIndex === -1) {
     return [];
@@ -280,7 +302,7 @@ function parseBaseSeriesFullFromFile(content: string): any[] {
     return [];
   }
 
-  const series: any[] = [];
+  const series: BaseSerie[] = [];
   let i = arrayStart;
   let depth = 0;
   let objectStart = -1;
@@ -314,9 +336,9 @@ function parseBaseSeriesFullFromFile(content: string): any[] {
           genre: parseStringField(objectText, 'genre') || '',
           seasonsData: parseSeasonsDataField(objectText) ?? [],
           description: parseStringField(objectText, 'description') || '',
-          countryOrigin: parseStringField(objectText, 'countryOrigin') || '',
+          countryOrigin: parseStringField(objectText, 'countryOrigin') as BaseSerie['countryOrigin'],
           saga: parseStringField(objectText, 'saga') || '',
-        });
+        } as BaseSerie);
       }
     }
     i += 1;
@@ -387,7 +409,11 @@ function findBaseSerie(title: string, director: string) {
   return null;
 }
 
-function replaceField(objectText: string, key: string, value: any) {
+function replaceField(
+  objectText: string,
+  key: string,
+  value: string | number | boolean | undefined
+) {
   if (value === undefined) return objectText;
   let next = objectText;
   if (typeof value === 'string') {
@@ -423,7 +449,11 @@ function replaceField(objectText: string, key: string, value: any) {
   return next;
 }
 
-function upsertField(objectText: string, key: string, value: any) {
+function upsertField(
+  objectText: string,
+  key: string,
+  value: string | number | boolean | undefined
+) {
   if (value === undefined) return objectText;
   let next = objectText;
   if (typeof value === 'string') {
@@ -462,8 +492,8 @@ function upsertActorsField(objectText: string, actors: string[] | undefined) {
   return objectText.replace(/\}\s*$/, `    ${block},\n  }`);
 }
 
-function formatSeasonsData(seasons: any[]) {
-  const lines = seasons.map((season: any) => {
+function formatSeasonsData(seasons: BaseSerieSeasonData[]) {
+  const lines = seasons.map((season) => {
     const seasonNumber = Number(season?.seasonNumber ?? 0);
     const nbEpisodes = Number(season?.nbEpisodes ?? 0);
     const totalLength = Number(season?.totalLength ?? 0);
@@ -480,7 +510,7 @@ function formatSeasonsData(seasons: any[]) {
 
 function upsertSeasonsDataField(
   objectText: string,
-  seasonsData: any[] | undefined
+  seasonsData: BaseSerieSeasonData[] | undefined
 ) {
   if (!Array.isArray(seasonsData)) return objectText;
   const block = formatSeasonsData(seasonsData);
@@ -491,8 +521,8 @@ function upsertSeasonsDataField(
   return objectText.replace(/\}\s*$/, `    ${block},\n  }`);
 }
 
-function formatSeasons(seasons: any[]) {
-  const lines = seasons.map((season: any) => {
+function formatSeasons(seasons: UserSerieSeason[]) {
+  const lines = seasons.map((season) => {
     const seasonNumber = Number(season?.seasonNumber ?? 0);
     const seasonRating = Number(season?.seasonRating ?? 0);
     const seasonTimesWatched = Number(season?.seasonTimesWatched ?? 0);
@@ -509,7 +539,7 @@ function formatSeasons(seasons: any[]) {
   return `seasons: [\n${lines.join(',\n')}\n  ]`;
 }
 
-function replaceSeasonsField(objectText: string, seasons: any[]) {
+function replaceSeasonsField(objectText: string, seasons: UserSerieSeason[]) {
   if (!Array.isArray(seasons)) return objectText;
   // Capture seasons: [...] suivi d'une virgule optionnelle
   const regex = /seasons\s*:\s*\[[\s\S]*?\]\s*,?/;
@@ -520,7 +550,7 @@ function replaceSeasonsField(objectText: string, seasons: any[]) {
   return objectText.replace(/\{\s*/, (match) => `${match}${replacement}\n  `);
 }
 
-function updateSerieInFile(content: string, payload: any) {
+function updateSerieInFile(content: string, payload: SerieUpdatePayload) {
   const exportIndex = content.indexOf('export const');
   if (exportIndex === -1) {
     throw new Error('Array not found');
@@ -589,7 +619,7 @@ function updateSerieInFile(content: string, payload: any) {
   throw new Error('Serie not found');
 }
 
-function updateSerieIdentityInFile(content: string, payload: any) {
+function updateSerieIdentityInFile(content: string, payload: SerieIdentityPayload) {
   const matchTitle = payload.matchTitle ?? payload.title;
   const matchDirector = payload.matchDirector ?? payload.director;
   if (!matchTitle || !matchDirector) {
@@ -649,7 +679,7 @@ function updateSerieIdentityInFile(content: string, payload: any) {
   throw new Error('Serie not found');
 }
 
-function updateBaseSerieInFile(content: string, payload: any) {
+function updateBaseSerieInFile(content: string, payload: BaseSerieFileUpdatePayload) {
   const matchTitle = payload.matchTitle ?? payload.title;
   const matchDirector = payload.matchDirector ?? payload.director;
   if (!matchTitle || !matchDirector) {
@@ -693,7 +723,14 @@ function updateBaseSerieInFile(content: string, payload: any) {
           if (payload.director && payload.director !== director) {
             updated = replaceField(updated, 'director', payload.director);
           }
-          updated = upsertActorsField(updated, payload.actors);
+          updated = upsertActorsField(
+            updated,
+            payload.actors === undefined
+              ? undefined
+              : payload.actors.map((a) =>
+                  typeof a === 'string' ? a : a.name
+                )
+          );
           updated = upsertField(updated, 'coverUrl', payload.coverUrl);
           updated = upsertField(updated, 'releaseDate', payload.releaseDate);
           updated = upsertField(updated, 'endDate', payload.endDate);
@@ -717,7 +754,7 @@ function updateBaseSerieInFile(content: string, payload: any) {
   throw new Error('Serie not found');
 }
 
-function updateBaseSerieInFiles(payload: any) {
+function updateBaseSerieInFiles(payload: BaseSerieFileUpdatePayload) {
   const baseFiles = getBaseSeriesFiles();
   for (const serieFile of baseFiles) {
     const content = fs.readFileSync(serieFile, 'utf8');
@@ -725,8 +762,9 @@ function updateBaseSerieInFiles(payload: any) {
       const updated = updateBaseSerieInFile(content, payload);
       fs.writeFileSync(serieFile, updated, 'utf8');
       return serieFile;
-    } catch (error: any) {
-      if (error.message !== 'Serie not found') {
+    } catch (error: unknown) {
+      const message = error instanceof Error ? error.message : '';
+      if (message !== 'Serie not found') {
         throw error;
       }
     }
@@ -734,14 +772,14 @@ function updateBaseSerieInFiles(payload: any) {
   return null;
 }
 
-function formatSeasonsIndented(seasons: any[], indent: string) {
+function formatSeasonsIndented(seasons: UserSerieSeason[], indent: string) {
   return formatSeasons(seasons)
     .split('\n')
     .map((line) => `${indent}${line}`)
     .join('\n');
 }
 
-function removeSerieFromFile(content: string, payload: any) {
+function removeSerieFromFile(content: string, payload: SerieRemovePayload) {
   const bounds = findSeriesArrayBounds(content);
   if (!bounds) {
     throw new Error('Array bounds not found');

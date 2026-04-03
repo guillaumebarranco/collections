@@ -1,8 +1,12 @@
+import { Movie } from '../../../src/app/models/movie-model';
+
 const express = require('express');
 const fs = require('fs');
 const path = require('path');
 const { execFileSync } = require('child_process');
-const { escapeStringForTsDoubleQuote: escapeString } = require('../../utils/escape-ts-string');
+const {
+  escapeStringForTsDoubleQuote: escapeString,
+} = require('../../utils/escape-ts-string');
 const {
   normalizeString,
   normalizeBoolean,
@@ -47,7 +51,7 @@ function ensureUserExists(userId: string) {
   execFileSync('node', args, { stdio: 'ignore' });
 }
 
-function formatUserMovie(movie: any) {
+function formatUserMovie(movie: Movie) {
   return `  {\n    title: "${escapeString(
     movie.title
   )}",\n    director: "${escapeString(
@@ -55,7 +59,7 @@ function formatUserMovie(movie: any) {
   )}",\n    rating: 0,\n    timesWatched: 1,\n    firstViewedDate: '',\n    lastViewedDate: '',\n    seenAtCinema: false,\n    owned: false,\n    wantToSeeAgain: false,\n    watchPriority: 1,\n    ratingComment: '',\n    inList: [],\n    borrowed: '',\n    loaned: '',\n  },`;
 }
 
-function formatWatchlistMovie(movie: any) {
+function formatWatchlistMovie(movie: Movie) {
   return `  {\n    title: "${escapeString(
     movie.title
   )}",\n    director: "${escapeString(
@@ -114,11 +118,11 @@ router.post('/add-existing', (req: any, res: any) => {
     const movies = Array.isArray(input.movies) ? input.movies : [];
     const isWatchlist = normalizeBoolean(input.watchlist, 'watchlist') ?? false;
     const normalizedMovies = movies
-      .map((movie: any) => ({
+      .map((movie: Movie) => ({
         title: normalizeString(movie.title, 'title'),
         director: normalizeString(movie.director, 'director'),
       }))
-      .filter((movie: any) => movie.title && movie.director);
+      .filter((movie: Movie) => movie.title && movie.director);
 
     if (normalizedMovies.length === 0) {
       res.status(400).json({ error: 'Missing movies' });
@@ -128,18 +132,18 @@ router.post('/add-existing', (req: any, res: any) => {
     const userFiles = getUserMoviesFiles(userId);
     const existing = userFiles.flatMap((movieFile: string) => {
       const fileContent = fs.readFileSync(movieFile, 'utf8');
-      return parseMoviesFromFile(fileContent).map((movie: any) => ({
+      return parseMoviesFromFile(fileContent).map((movie: Movie) => ({
         title: movie.title,
         director: movie.director,
       }));
     });
 
     const existingSet = new Set(
-      existing.map((movie: any) => `${movie.title}|${movie.director}`)
+      existing.map((movie: Movie) => `${movie.title}|${movie.director}`)
     );
 
     const toAdd = normalizedMovies.filter(
-      (movie: any) => !existingSet.has(`${movie.title}|${movie.director}`)
+      (movie: Movie) => !existingSet.has(`${movie.title}|${movie.director}`)
     );
 
     if (toAdd.length === 0) {

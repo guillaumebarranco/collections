@@ -25,6 +25,23 @@ const BASE_MANGAS_DIR = path.join(
 );
 const BASE_MANGAS_API_FILE = path.join(BASE_MANGAS_DIR, 'base_mangas_api.ts');
 
+import type {
+  BaseManga,
+  MandatoryMangaData,
+  UserManga,
+} from '../../../src/app/models/manga-model';
+
+type MangaUpdatePayload = Partial<UserManga> & Pick<UserManga, 'title' | 'author'>;
+type MangaIdentityPayload = {
+  matchTitle?: string;
+  matchAuthor?: string;
+} & Partial<Pick<UserManga, 'title' | 'author'>>;
+type BaseMangaFileUpdatePayload = Partial<BaseManga> & {
+  matchTitle?: string;
+  matchAuthor?: string;
+};
+type MangaRemovePayload = Pick<MandatoryMangaData, 'title' | 'author'>;
+
 function getArrayBounds(content: string, exportIndex: number) {
   const assignIndex = content.indexOf('=', exportIndex);
   if (assignIndex === -1) return null;
@@ -34,7 +51,7 @@ function getArrayBounds(content: string, exportIndex: number) {
   return { arrayStart, arrayEnd };
 }
 
-function normalizeNumber(value: any, field: string) {
+function normalizeNumber(value: unknown, field: string) {
   if (value === undefined || value === null) return undefined;
   const parsed = Number(value);
   if (Number.isNaN(parsed)) {
@@ -43,7 +60,7 @@ function normalizeNumber(value: any, field: string) {
   return parsed;
 }
 
-function normalizeBoolean(value: any, field: string) {
+function normalizeBoolean(value: unknown, field: string) {
   if (value === undefined || value === null) return undefined;
   if (typeof value === 'boolean') return value;
   if (value === 'true') return true;
@@ -51,7 +68,7 @@ function normalizeBoolean(value: any, field: string) {
   throw new Error(`Invalid boolean for ${field}`);
 }
 
-function normalizeString(value: any, field: string) {
+function normalizeString(value: unknown, field: string) {
   if (value === undefined || value === null) return undefined;
   if (typeof value !== 'string') {
     throw new Error(`Invalid string for ${field}`);
@@ -88,7 +105,7 @@ function parseBooleanField(objectText: string, key: string) {
   return match[1] === 'true';
 }
 
-function parseMangasFromFile(content: string): any[] {
+function parseMangasFromFile(content: string): UserManga[] {
   const exportIndex = content.indexOf('export const');
   if (exportIndex === -1) {
     return [];
@@ -100,7 +117,7 @@ function parseMangasFromFile(content: string): any[] {
   }
   const { arrayStart, arrayEnd } = bounds;
 
-  const mangas: any[] = [];
+  const mangas: UserManga[] = [];
   let i = arrayStart;
   let depth = 0;
   let objectStart = -1;
@@ -127,7 +144,8 @@ function parseMangasFromFile(content: string): any[] {
             readTimes: parseNumberField(objectText, 'readTimes') ?? 0,
             readDate: parseStringField(objectText, 'readDate') ?? '',
             owned: parseBooleanField(objectText, 'owned') ?? false,
-            readPriority: parseNumberField(objectText, 'readPriority') ?? 1,
+            readPriority: (parseNumberField(objectText, 'readPriority') ??
+              1) as UserManga['readPriority'],
             wantToReadAgain:
               parseBooleanField(objectText, 'wantToReadAgain') ?? false,
             ratingComment: parseStringField(objectText, 'ratingComment') ?? '',
@@ -141,7 +159,7 @@ function parseMangasFromFile(content: string): any[] {
               ((parseBooleanField(objectText, 'loaned') ?? false)
                 ? 'Inconnu'
                 : ''),
-          });
+          } as UserManga);
         }
       }
     }
@@ -151,7 +169,7 @@ function parseMangasFromFile(content: string): any[] {
   return mangas;
 }
 
-function parseBaseMangasFullFromFile(content: string): any[] {
+function parseBaseMangasFullFromFile(content: string): BaseManga[] {
   const exportIndex = content.indexOf('export const');
   if (exportIndex === -1) {
     return [];
@@ -163,7 +181,7 @@ function parseBaseMangasFullFromFile(content: string): any[] {
   }
   const { arrayStart, arrayEnd } = bounds;
 
-  const mangas: any[] = [];
+  const mangas: BaseManga[] = [];
   let i = arrayStart;
   let depth = 0;
   let objectStart = -1;
@@ -191,11 +209,11 @@ function parseBaseMangasFullFromFile(content: string): any[] {
           title,
           author,
           coverUrl: parseStringField(objectText, 'coverUrl') || '',
-          genre: parseStringField(objectText, 'genre') || '',
+          genre: parseStringField(objectText, 'genre') as BaseManga['genre'],
           nbTomes: parseNumberField(objectText, 'nbTomes') ?? 0,
           isFinished: parseBooleanField(objectText, 'isFinished') ?? false,
           description: parseStringField(objectText, 'description') || '',
-        });
+        } as BaseManga);
       }
     }
     i += 1;
@@ -243,14 +261,14 @@ function baseMangaExists(title: string, author: string): boolean {
   for (const filePath of files) {
     const content = fs.readFileSync(filePath, 'utf8');
     const mangas = parseBaseMangasFullFromFile(content);
-    if (mangas.some((m: any) => m.title === title && m.author === author)) {
+    if (mangas.some((m) => m.title === title && m.author === author)) {
       return true;
     }
   }
   return false;
 }
 
-function updateMangaInFile(filePath: string, mangaData: any): boolean {
+function updateMangaInFile(filePath: string, mangaData: MangaUpdatePayload): boolean {
   const content = fs.readFileSync(filePath, 'utf8');
   const mangas = parseMangasFromFile(content);
   const index = mangas.findIndex(
@@ -265,7 +283,7 @@ function updateMangaInFile(filePath: string, mangaData: any): boolean {
   mangas[index] = {
     ...mangas[index],
     ...mangaData,
-  };
+  } as UserManga;
 
   const newArrayContent = mangas
     .map(
@@ -303,7 +321,7 @@ function updateMangaInFile(filePath: string, mangaData: any): boolean {
   return true;
 }
 
-function updateMangaIdentityInFile(filePath: string, mangaData: any): boolean {
+function updateMangaIdentityInFile(filePath: string, mangaData: MangaIdentityPayload): boolean {
   const content = fs.readFileSync(filePath, 'utf8');
   const mangas = parseMangasFromFile(content);
   const matchTitle = mangaData.matchTitle ?? mangaData.title;
@@ -320,7 +338,7 @@ function updateMangaIdentityInFile(filePath: string, mangaData: any): boolean {
     ...mangas[index],
     title: mangaData.title ?? mangas[index].title,
     author: mangaData.author ?? mangas[index].author,
-  };
+  } as UserManga;
 
   const newArrayContent = mangas
     .map(
@@ -358,7 +376,7 @@ function updateMangaIdentityInFile(filePath: string, mangaData: any): boolean {
   return true;
 }
 
-function updateBaseMangaInFile(filePath: string, mangaData: any): boolean {
+function updateBaseMangaInFile(filePath: string, mangaData: BaseMangaFileUpdatePayload): boolean {
   const content = fs.readFileSync(filePath, 'utf8');
   const mangas = parseBaseMangasFullFromFile(content);
   const matchTitle = mangaData.matchTitle ?? mangaData.title;
@@ -371,12 +389,19 @@ function updateBaseMangaInFile(filePath: string, mangaData: any): boolean {
     return false;
   }
 
-  mangas[index] = {
-    ...mangas[index],
-    ...mangaData,
-    title: mangaData.title ?? mangas[index].title,
-    author: mangaData.author ?? mangas[index].author,
-  };
+  const existing = mangas[index];
+  const merged: BaseManga = { ...existing };
+  const patch = mangaData as Record<string, unknown>;
+  for (const key of Object.keys(patch)) {
+    if (key === 'matchTitle' || key === 'matchAuthor') continue;
+    const value = patch[key];
+    if (value !== undefined) {
+      (merged as unknown as Record<string, unknown>)[key] = value;
+    }
+  }
+  merged.title = mangaData.title ?? existing.title;
+  merged.author = mangaData.author ?? existing.author;
+  mangas[index] = merged;
 
   const newArrayContent = mangas
     .map(
@@ -410,7 +435,7 @@ function updateBaseMangaInFile(filePath: string, mangaData: any): boolean {
   return true;
 }
 
-function updateBaseMangaInFiles(payload: any) {
+function updateBaseMangaInFiles(payload: BaseMangaFileUpdatePayload) {
   const baseFiles = getBaseMangasFiles();
   for (const filePath of baseFiles) {
     if (updateBaseMangaInFile(filePath, payload)) {
@@ -420,7 +445,7 @@ function updateBaseMangaInFiles(payload: any) {
   return null;
 }
 
-function removeMangaFromFile(content: string, payload: any): string {
+function removeMangaFromFile(content: string, payload: MangaRemovePayload): string {
   const exportIndex = content.indexOf('export const');
   if (exportIndex === -1) {
     throw new Error('Array not found');

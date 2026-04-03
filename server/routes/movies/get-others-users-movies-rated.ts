@@ -8,9 +8,9 @@ const {
 } = require('../../utils/movies/movies-utils');
 const { normalizeUsername } = require('../../utils/users/users-utils');
 
-import type { Movie } from '../../../src/app/models/movie-model';
+import type { UserMovie } from '../../../src/app/models/movie-model';
 
-type OthersRatedMovieEntry = Pick<Movie, 'title' | 'director'> & {
+type OthersRatedMovieEntry = Pick<UserMovie, 'title' | 'director'> & {
   rating: number;
   userId: string;
 };
@@ -42,7 +42,7 @@ router.get('/others-users-movies-rated', (req: any, res: any) => {
     for (const userId of otherUsers) {
       try {
         const movieFiles = getUserMoviesFiles(userId);
-        const movies: Movie[] = movieFiles.flatMap((movieFile: string) => {
+        const movies: UserMovie[] = movieFiles.flatMap((movieFile: string) => {
           const fileContent = fs.readFileSync(movieFile, 'utf8');
           return parseMoviesFromFile(fileContent);
         });

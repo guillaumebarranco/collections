@@ -25,6 +25,24 @@ const BASE_GAMES_DIR = path.join(
 );
 const BASE_GAMES_API_FILE = path.join(BASE_GAMES_DIR, 'base_games_api.ts');
 
+import type {
+  BaseGame,
+  MandatoryGameData,
+  UserGame,
+  UserGameSession,
+} from '../../../src/app/models/game-model';
+
+type GameUpdatePayload = Partial<UserGame> & Pick<UserGame, 'title' | 'editor'>;
+type GameIdentityPayload = {
+  matchTitle?: string;
+  matchEditor?: string;
+} & Partial<Pick<UserGame, 'title' | 'editor'>>;
+type BaseGameFileUpdatePayload = Partial<BaseGame> & {
+  matchTitle?: string;
+  matchEditor?: string;
+};
+type GameRemovePayload = Pick<MandatoryGameData, 'title' | 'editor'>;
+
 function getArrayBounds(content: string, exportIndex: number) {
   const assignIndex = content.indexOf('=', exportIndex);
   if (assignIndex === -1) return null;
@@ -34,7 +52,7 @@ function getArrayBounds(content: string, exportIndex: number) {
   return { arrayStart, arrayEnd };
 }
 
-function normalizeNumber(value: any, field: string) {
+function normalizeNumber(value: unknown, field: string) {
   if (value === undefined || value === null) return undefined;
   const parsed = Number(value);
   if (Number.isNaN(parsed)) {
@@ -43,7 +61,7 @@ function normalizeNumber(value: any, field: string) {
   return parsed;
 }
 
-function normalizeBoolean(value: any, field: string) {
+function normalizeBoolean(value: unknown, field: string) {
   if (value === undefined || value === null) return undefined;
   if (typeof value === 'boolean') return value;
   if (value === 'true') return true;
@@ -51,7 +69,7 @@ function normalizeBoolean(value: any, field: string) {
   throw new Error(`Invalid boolean for ${field}`);
 }
 
-function normalizeString(value: any, field: string) {
+function normalizeString(value: unknown, field: string) {
   if (value === undefined || value === null) return undefined;
   if (typeof value !== 'string') {
     throw new Error(`Invalid string for ${field}`);
@@ -95,7 +113,7 @@ function parseSessionsField(objectText: string) {
   if (bracketStart === -1) return undefined;
   let depth = 0;
   let i = bracketStart;
-  const sessions = [];
+  const sessions: UserGameSession[] = [];
   while (i < objectText.length) {
     const char = objectText[i];
     if (char === '[') {
@@ -143,7 +161,7 @@ function parseSessionsField(objectText: string) {
   return sessions;
 }
 
-function formatSession(session: any) {
+function formatSession(session: UserGameSession) {
   return `{
       finishedGame: ${session.finishedGame ?? false},
       finishedGameWithHundredPercent: ${session.finishedGameWithHundredPercent ?? false},
@@ -152,12 +170,12 @@ function formatSession(session: any) {
     }`;
 }
 
-function formatSessions(sessions: any[]) {
+function formatSessions(sessions: UserGameSession[]) {
   if (!Array.isArray(sessions) || sessions.length === 0) return 'sessions: [],';
   return 'sessions: [\n' + sessions.map(formatSession).join(',\n') + '\n    ],';
 }
 
-function formatGameObject(game: any) {
+function formatGameObject(game: UserGame) {
   const sessions = Array.isArray(game.sessions) ? game.sessions : [];
   const sessionsPart = formatSessions(sessions);
   return `  {
@@ -174,7 +192,7 @@ function formatGameObject(game: any) {
   }`;
 }
 
-function parseGamesFromFile(content: string): any[] {
+function parseGamesFromFile(content: string): UserGame[] {
   const exportIndex = content.indexOf('export const');
   if (exportIndex === -1) {
     return [];
@@ -186,7 +204,7 @@ function parseGamesFromFile(content: string): any[] {
   }
   const { arrayStart, arrayEnd } = bounds;
 
-  const games: any[] = [];
+  const games: UserGame[] = [];
   let i = arrayStart;
   let depth = 0;
   let objectStart = -1;
@@ -228,7 +246,7 @@ function parseGamesFromFile(content: string): any[] {
                 ? 'Inconnu'
                 : ''),
             sessions: Array.isArray(sessions) ? sessions : [],
-          });
+          } as UserGame);
         }
       }
     }
@@ -238,7 +256,7 @@ function parseGamesFromFile(content: string): any[] {
   return games;
 }
 
-function parseBaseGamesFullFromFile(content: string): any[] {
+function parseBaseGamesFullFromFile(content: string): BaseGame[] {
   const exportIndex = content.indexOf('export const');
   if (exportIndex === -1) {
     return [];
@@ -250,7 +268,7 @@ function parseBaseGamesFullFromFile(content: string): any[] {
   }
   const { arrayStart, arrayEnd } = bounds;
 
-  const games: any[] = [];
+  const games: BaseGame[] = [];
   let i = arrayStart;
   let depth = 0;
   let objectStart = -1;
@@ -288,7 +306,7 @@ function parseBaseGamesFullFromFile(content: string): any[] {
           saga: parseStringField(objectText, 'saga') || '',
           platineTime: parseNumberField(objectText, 'platineTime') ?? 0,
           description: parseStringField(objectText, 'description') || '',
-        });
+        } as BaseGame);
       }
     }
     i += 1;
@@ -336,14 +354,14 @@ function baseGameExists(title: string, editor: string): boolean {
   for (const filePath of files) {
     const content = fs.readFileSync(filePath, 'utf8');
     const games = parseBaseGamesFullFromFile(content);
-    if (games.some((g: any) => g.title === title && g.editor === editor)) {
+    if (games.some((g) => g.title === title && g.editor === editor)) {
       return true;
     }
   }
   return false;
 }
 
-function updateGameInFile(filePath: string, gameData: any): boolean {
+function updateGameInFile(filePath: string, gameData: GameUpdatePayload): boolean {
   const content = fs.readFileSync(filePath, 'utf8');
   const games = parseGamesFromFile(content);
   const index = games.findIndex(
@@ -357,7 +375,7 @@ function updateGameInFile(filePath: string, gameData: any): boolean {
   games[index] = {
     ...games[index],
     ...gameData,
-  };
+  } as UserGame;
 
   const newArrayContent = games.map((game) => formatGameObject(game)).join(',\n');
 
@@ -379,7 +397,7 @@ function updateGameInFile(filePath: string, gameData: any): boolean {
   return true;
 }
 
-function updateGameIdentityInFile(filePath: string, gameData: any): boolean {
+function updateGameIdentityInFile(filePath: string, gameData: GameIdentityPayload): boolean {
   const content = fs.readFileSync(filePath, 'utf8');
   const games = parseGamesFromFile(content);
   const matchTitle = gameData.matchTitle ?? gameData.title;
@@ -396,7 +414,7 @@ function updateGameIdentityInFile(filePath: string, gameData: any): boolean {
     ...games[index],
     title: gameData.title ?? games[index].title,
     editor: gameData.editor ?? games[index].editor,
-  };
+  } as UserGame;
 
   const newArrayContent = games.map((game) => formatGameObject(game)).join(',\n');
 
@@ -418,7 +436,7 @@ function updateGameIdentityInFile(filePath: string, gameData: any): boolean {
   return true;
 }
 
-function updateBaseGameInFile(filePath: string, gameData: any): boolean {
+function updateBaseGameInFile(filePath: string, gameData: BaseGameFileUpdatePayload): boolean {
   const content = fs.readFileSync(filePath, 'utf8');
   const games = parseBaseGamesFullFromFile(content);
   const matchTitle = gameData.matchTitle ?? gameData.title;
@@ -432,12 +450,13 @@ function updateBaseGameInFile(filePath: string, gameData: any): boolean {
   }
 
   const existing = games[index];
-  const merged = { ...existing };
-  for (const key of Object.keys(gameData)) {
+  const merged: BaseGame = { ...existing };
+  const patch = gameData as Record<string, unknown>;
+  for (const key of Object.keys(patch)) {
     if (key === 'matchTitle' || key === 'matchEditor') continue;
-    const value = gameData[key];
+    const value = patch[key];
     if (value !== undefined) {
-      merged[key] = value;
+      (merged as unknown as Record<string, unknown>)[key] = value;
     }
   }
   merged.title = gameData.title ?? existing.title;
@@ -480,7 +499,7 @@ function updateBaseGameInFile(filePath: string, gameData: any): boolean {
   return true;
 }
 
-function updateBaseGameInFiles(payload: any) {
+function updateBaseGameInFiles(payload: BaseGameFileUpdatePayload) {
   const baseFiles = getBaseGamesFiles();
   for (const filePath of baseFiles) {
     if (updateBaseGameInFile(filePath, payload)) {
@@ -490,7 +509,7 @@ function updateBaseGameInFiles(payload: any) {
   return null;
 }
 
-function removeGameFromFile(content: string, payload: any): string {
+function removeGameFromFile(content: string, payload: GameRemovePayload): string {
   const exportIndex = content.indexOf('export const');
   if (exportIndex === -1) {
     throw new Error('Array not found');

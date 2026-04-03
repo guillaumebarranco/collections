@@ -1,4 +1,4 @@
-export function normalizeNumber(value: any, field: string) {
+export function normalizeNumber(value: unknown, field: string) {
   if (value === undefined || value === null) return undefined;
   const parsed = Number(value);
   if (Number.isNaN(parsed)) {
@@ -7,7 +7,7 @@ export function normalizeNumber(value: any, field: string) {
   return parsed;
 }
 
-export function normalizeBoolean(value: any, field: string) {
+export function normalizeBoolean(value: unknown, field: string) {
   if (value === undefined || value === null) return undefined;
   if (typeof value === 'boolean') return value;
   if (value === 'true') return true;
@@ -15,7 +15,7 @@ export function normalizeBoolean(value: any, field: string) {
   throw new Error(`Invalid boolean for ${field}`);
 }
 
-export function normalizeString(value: any, field: string) {
+export function normalizeString(value: unknown, field: string) {
   if (value === undefined || value === null) return undefined;
   if (typeof value !== 'string') {
     throw new Error(`Invalid string for ${field}`);

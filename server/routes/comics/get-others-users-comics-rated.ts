@@ -8,9 +8,9 @@ const {
 } = require('../../utils/comics/comics-utils');
 const { normalizeUsername } = require('../../utils/users/users-utils');
 
-import type { Comic } from '../../../src/app/models/comic-model';
+import type { UserComic } from '../../../src/app/models/comic-model';
 
-type OthersRatedComicEntry = Pick<Comic, 'title' | 'writer'> & {
+type OthersRatedComicEntry = Pick<UserComic, 'title' | 'writer'> & {
   rating: number;
   userId: string;
 };
@@ -42,7 +42,7 @@ router.get('/others-users-comics-rated', (req: any, res: any) => {
     for (const userId of otherUsers) {
       try {
         const comicFiles = getUserComicsFiles(userId);
-        const comics: Comic[] = comicFiles.flatMap((comicFile: string) => {
+        const comics: UserComic[] = comicFiles.flatMap((comicFile: string) => {
           const fileContent = fs.readFileSync(comicFile, 'utf8');
           return parseComicsFromFile(fileContent);
         });

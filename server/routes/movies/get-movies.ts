@@ -6,7 +6,7 @@ const {
   parseMoviesFromFile,
 } = require('../../utils/movies/movies-utils');
 
-import type { Movie } from '../../../src/app/models/movie-model';
+import type { UserMovie } from '../../../src/app/models/movie-model';
 
 const router = express.Router();
 
@@ -19,7 +19,7 @@ router.get('/:userId', (req: any, res: any) => {
     }
 
     const movieFiles = getUserMoviesFiles(userId);
-    const movies: Movie[] = movieFiles.flatMap((movieFile: string) => {
+    const movies: UserMovie[] = movieFiles.flatMap((movieFile: string) => {
       const fileContent = fs.readFileSync(movieFile, 'utf8');
       return parseMoviesFromFile(fileContent);
     });

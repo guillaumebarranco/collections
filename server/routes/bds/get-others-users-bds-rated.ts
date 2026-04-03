@@ -8,9 +8,9 @@ const {
 } = require('../../utils/bds/bds-utils');
 const { normalizeUsername } = require('../../utils/users/users-utils');
 
-import type { Bd } from '../../../src/app/models/bd-model';
+import type { UserBd } from '../../../src/app/models/bd-model';
 
-type OthersRatedBdEntry = Pick<Bd, 'title' | 'writer'> & {
+type OthersRatedBdEntry = Pick<UserBd, 'title' | 'writer'> & {
   rating: number;
   userId: string;
 };
@@ -42,7 +42,7 @@ router.get('/others-users-bds-rated', (req: any, res: any) => {
     for (const userId of otherUsers) {
       try {
         const bdFiles = getUserBdsFiles(userId);
-        const bds: Bd[] = bdFiles.flatMap((bdFile: string) => {
+        const bds: UserBd[] = bdFiles.flatMap((bdFile: string) => {
           const fileContent = fs.readFileSync(bdFile, 'utf8');
           return parseBdsFromFile(fileContent);
         });

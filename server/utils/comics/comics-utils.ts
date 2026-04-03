@@ -25,6 +25,24 @@ const BASE_COMICS_DIR = path.join(
 );
 const BASE_COMICS_API_FILE = path.join(BASE_COMICS_DIR, 'base_comics_api.ts');
 
+import type {
+  BaseComic,
+  MandatoryComicData,
+  UserComic,
+} from '../../../src/app/models/comic-model';
+
+type ComicUpdatePayload = Partial<UserComic> &
+  Pick<UserComic, 'title' | 'writer'>;
+type ComicIdentityPayload = {
+  matchTitle?: string;
+  matchWriter?: string;
+} & Partial<Pick<UserComic, 'title' | 'writer'>>;
+type BaseComicFileUpdatePayload = Partial<BaseComic> & {
+  matchTitle?: string;
+  matchWriter?: string;
+};
+type ComicRemovePayload = Pick<MandatoryComicData, 'title' | 'writer'>;
+
 function getArrayBounds(content: string, exportIndex: number) {
   const assignIndex = content.indexOf('=', exportIndex);
   if (assignIndex === -1) return null;
@@ -34,7 +52,7 @@ function getArrayBounds(content: string, exportIndex: number) {
   return { arrayStart, arrayEnd };
 }
 
-function normalizeNumber(value: any, field: string) {
+function normalizeNumber(value: unknown, field: string) {
   if (value === undefined || value === null) return undefined;
   const parsed = Number(value);
   if (Number.isNaN(parsed)) {
@@ -43,7 +61,7 @@ function normalizeNumber(value: any, field: string) {
   return parsed;
 }
 
-function normalizeBoolean(value: any, field: string) {
+function normalizeBoolean(value: unknown, field: string) {
   if (value === undefined || value === null) return undefined;
   if (typeof value === 'boolean') return value;
   if (value === 'true') return true;
@@ -51,7 +69,7 @@ function normalizeBoolean(value: any, field: string) {
   throw new Error(`Invalid boolean for ${field}`);
 }
 
-function normalizeString(value: any, field: string) {
+function normalizeString(value: unknown, field: string) {
   if (value === undefined || value === null) return undefined;
   if (typeof value !== 'string') {
     throw new Error(`Invalid string for ${field}`);
@@ -88,7 +106,7 @@ function parseBooleanField(objectText: string, key: string) {
   return match[1] === 'true';
 }
 
-function parseComicsFromFile(content: string): any[] {
+function parseComicsFromFile(content: string): UserComic[] {
   const exportIndex = content.indexOf('export const');
   if (exportIndex === -1) {
     return [];
@@ -100,7 +118,7 @@ function parseComicsFromFile(content: string): any[] {
   }
   const { arrayStart, arrayEnd } = bounds;
 
-  const comics: any[] = [];
+  const comics: UserComic[] = [];
   let i = arrayStart;
   let depth = 0;
   let objectStart = -1;
@@ -127,7 +145,8 @@ function parseComicsFromFile(content: string): any[] {
             readTimes: parseNumberField(objectText, 'readTimes') ?? 0,
             readDate: parseStringField(objectText, 'readDate') ?? '',
             owned: parseBooleanField(objectText, 'owned') ?? false,
-            readPriority: parseNumberField(objectText, 'readPriority') ?? 1,
+            readPriority: (parseNumberField(objectText, 'readPriority') ??
+              1) as UserComic['readPriority'],
             wantToReadAgain:
               parseBooleanField(objectText, 'wantToReadAgain') ?? false,
             ratingComment: parseStringField(objectText, 'ratingComment') ?? '',
@@ -141,7 +160,7 @@ function parseComicsFromFile(content: string): any[] {
               ((parseBooleanField(objectText, 'loaned') ?? false)
                 ? 'Inconnu'
                 : ''),
-          });
+          } as UserComic);
         }
       }
     }
@@ -151,7 +170,7 @@ function parseComicsFromFile(content: string): any[] {
   return comics;
 }
 
-function parseBaseComicsFullFromFile(content: string): any[] {
+function parseBaseComicsFullFromFile(content: string): BaseComic[] {
   const exportIndex = content.indexOf('export const');
   if (exportIndex === -1) {
     return [];
@@ -163,7 +182,7 @@ function parseBaseComicsFullFromFile(content: string): any[] {
   }
   const { arrayStart, arrayEnd } = bounds;
 
-  const comics: any[] = [];
+  const comics: BaseComic[] = [];
   let i = arrayStart;
   let depth = 0;
   let objectStart = -1;
@@ -197,7 +216,7 @@ function parseBaseComicsFullFromFile(content: string): any[] {
           saga: parseStringField(objectText, 'saga') || '',
           sagaOrder: parseNumberField(objectText, 'sagaOrder') ?? 0,
           description: parseStringField(objectText, 'description') || '',
-        });
+        } as BaseComic);
       }
     }
     i += 1;
@@ -245,14 +264,17 @@ function baseComicExists(title: string, writer: string): boolean {
   for (const filePath of files) {
     const content = fs.readFileSync(filePath, 'utf8');
     const comics = parseBaseComicsFullFromFile(content);
-    if (comics.some((m: any) => m.title === title && m.writer === writer)) {
+    if (comics.some((m) => m.title === title && m.writer === writer)) {
       return true;
     }
   }
   return false;
 }
 
-function updateComicInFile(filePath: string, comicData: any): boolean {
+function updateComicInFile(
+  filePath: string,
+  comicData: ComicUpdatePayload
+): boolean {
   const content = fs.readFileSync(filePath, 'utf8');
   const comics = parseComicsFromFile(content);
   const index = comics.findIndex(
@@ -267,11 +289,7 @@ function updateComicInFile(filePath: string, comicData: any): boolean {
   comics[index] = {
     ...comics[index],
     ...comicData,
-    title: comicData.title ?? comics[index].title,
-    writer: comicData.writer ?? comics[index].writer,
-    readPriority: comicData.readPriority ?? comics[index].readPriority,
-    wantToReadAgain: comicData.wantToReadAgain ?? comics[index].wantToReadAgain,
-  };
+  } as UserComic;
 
   const newArrayContent = comics
     .map(
@@ -309,7 +327,10 @@ function updateComicInFile(filePath: string, comicData: any): boolean {
   return true;
 }
 
-function updateComicIdentityInFile(filePath: string, comicData: any): boolean {
+function updateComicIdentityInFile(
+  filePath: string,
+  comicData: ComicIdentityPayload
+): boolean {
   const content = fs.readFileSync(filePath, 'utf8');
   const comics = parseComicsFromFile(content);
   const matchTitle = comicData.matchTitle ?? comicData.title;
@@ -326,7 +347,7 @@ function updateComicIdentityInFile(filePath: string, comicData: any): boolean {
     ...comics[index],
     title: comicData.title ?? comics[index].title,
     writer: comicData.writer ?? comics[index].writer,
-  };
+  } as UserComic;
 
   const newArrayContent = comics
     .map(
@@ -364,7 +385,10 @@ function updateComicIdentityInFile(filePath: string, comicData: any): boolean {
   return true;
 }
 
-function updateBaseComicInFile(filePath: string, comicData: any): boolean {
+function updateBaseComicInFile(
+  filePath: string,
+  comicData: BaseComicFileUpdatePayload
+): boolean {
   const content = fs.readFileSync(filePath, 'utf8');
   const comics = parseBaseComicsFullFromFile(content);
   const matchTitle = comicData.matchTitle ?? comicData.title;
@@ -377,12 +401,19 @@ function updateBaseComicInFile(filePath: string, comicData: any): boolean {
     return false;
   }
 
-  comics[index] = {
-    ...comics[index],
-    ...comicData,
-    title: comicData.title ?? comics[index].title,
-    writer: comicData.writer ?? comics[index].writer,
-  };
+  const existing = comics[index];
+  const merged: BaseComic = { ...existing };
+  const patch = comicData as Record<string, unknown>;
+  for (const key of Object.keys(patch)) {
+    if (key === 'matchTitle' || key === 'matchWriter') continue;
+    const value = patch[key];
+    if (value !== undefined) {
+      (merged as unknown as Record<string, unknown>)[key] = value;
+    }
+  }
+  merged.title = comicData.title ?? existing.title;
+  merged.writer = comicData.writer ?? existing.writer;
+  comics[index] = merged;
 
   const newArrayContent = comics
     .map(
@@ -418,7 +449,7 @@ function updateBaseComicInFile(filePath: string, comicData: any): boolean {
   return true;
 }
 
-function updateBaseComicInFiles(payload: any) {
+function updateBaseComicInFiles(payload: BaseComicFileUpdatePayload) {
   const baseFiles = getBaseComicsFiles();
   for (const filePath of baseFiles) {
     if (updateBaseComicInFile(filePath, payload)) {
@@ -428,7 +459,10 @@ function updateBaseComicInFiles(payload: any) {
   return null;
 }
 
-function removeComicFromFile(content: string, payload: any): string {
+function removeComicFromFile(
+  content: string,
+  payload: ComicRemovePayload
+): string {
   const exportIndex = content.indexOf('export const');
   if (exportIndex === -1) {
     throw new Error('Array not found');

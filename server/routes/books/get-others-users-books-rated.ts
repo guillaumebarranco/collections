@@ -8,9 +8,9 @@ const {
 } = require('../../utils/books/books-utils');
 const { normalizeUsername } = require('../../utils/users/users-utils');
 
-import type { Book } from '../../../src/app/models/book-model';
+import type { UserBook } from '../../../src/app/models/book-model';
 
-type OthersRatedBookEntry = Pick<Book, 'title' | 'author'> & {
+type OthersRatedBookEntry = Pick<UserBook, 'title' | 'author'> & {
   rating: number;
   userId: string;
 };
@@ -42,7 +42,7 @@ router.get('/others-users-books-rated', (req: any, res: any) => {
     for (const userId of otherUsers) {
       try {
         const bookFiles = getUserBooksFiles(userId);
-        const books: Book[] = bookFiles.flatMap((bookFile: string) => {
+        const books: UserBook[] = bookFiles.flatMap((bookFile: string) => {
           const fileContent = fs.readFileSync(bookFile, 'utf8');
           return parseBooksFromFile(fileContent);
         });

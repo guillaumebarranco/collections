@@ -33,6 +33,8 @@ const ENTITY_TYPE_REVERSE_MAP: Record<string, string> = Object.entries(
 
 const QUIZZS_INDEX_FILE = path.join(QUIZZS_DIR, 'index.ts');
 
+import type { Quizz, QuizzQuestion } from '../../../src/app/models/quizz-model';
+
 function unescapeString(value: string, quote: string) {
   return value
     .replace(new RegExp(`\\\\${quote}`, 'g'), quote)
@@ -109,7 +111,7 @@ function parseQuestions(objectText: string) {
   const arrayBlock = extractArrayBlock(objectText, questionsIndex);
   if (!arrayBlock) return [];
 
-  const questions: any[] = [];
+  const questions: QuizzQuestion[] = [];
   let depth = 0;
   let objectStart = -1;
   for (let i = 0; i < arrayBlock.length; i += 1) {
@@ -138,7 +140,7 @@ function parseQuestions(objectText: string) {
   return questions;
 }
 
-function parseQuizzsFromFile(content: string): any[] {
+function parseQuizzsFromFile(content: string): Quizz[] {
   const exportIndex = content.indexOf('export const');
   if (exportIndex === -1) {
     return [];
@@ -151,7 +153,7 @@ function parseQuizzsFromFile(content: string): any[] {
   const arrayBlock = extractArrayBlock(content, equalsIndex);
   if (!arrayBlock) return [];
 
-  const quizzs: any[] = [];
+  const quizzs: Quizz[] = [];
   let depth = 0;
   let objectStart = -1;
   for (let i = 0; i < arrayBlock.length; i += 1) {
@@ -171,7 +173,7 @@ function parseQuizzsFromFile(content: string): any[] {
         if (creator && entityTitle && entityType) {
           quizzs.push({
             creator,
-            entityType,
+            entityType: entityType as Quizz['entityType'],
             entityTitle,
             level: parseNumberField(objectText, 'level') ?? 1,
             questions: parseQuestions(objectText),
@@ -192,12 +194,12 @@ function getQuizzFiles(): string[] {
     .map((file: string) => path.join(QUIZZS_DIR, file));
 }
 
-function formatQuizzFile(quizzs: any[], exportName: string) {
+function formatQuizzFile(quizzs: Quizz[], exportName: string) {
   const items = quizzs
     .map((quizz) => {
       const entityEnum = ENTITY_TYPE_REVERSE_MAP[quizz.entityType] || 'MANGA';
       const questions = (quizz.questions || [])
-        .map((question: any) => {
+        .map((question: QuizzQuestion) => {
           const proposed = (question.proposedAnswers || [])
             .map((answer: string) => `"${escapeTsStr(String(answer))}"`)
             .join(', ');
@@ -270,13 +272,13 @@ function updateQuizzsIndex(exportName: string, fileName: string) {
   fs.writeFileSync(QUIZZS_INDEX_FILE, next, 'utf8');
 }
 
-function saveQuizz(quizz: any) {
+function saveQuizz(quizz: Quizz) {
   ensureQuizzsDir();
   const fileName = getFileNameFromCreator(quizz.creator || 'unknown');
   const exportName = getExportNameFromCreator(quizz.creator || 'unknown');
   const filePath = path.join(QUIZZS_DIR, fileName);
 
-  let existing: any[] = [];
+  let existing: Quizz[] = [];
   if (fs.existsSync(filePath)) {
     const content = fs.readFileSync(filePath, 'utf8');
     existing = parseQuizzsFromFile(content);

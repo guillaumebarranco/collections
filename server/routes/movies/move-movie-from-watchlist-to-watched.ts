@@ -2,7 +2,9 @@ const express = require('express');
 const fs = require('fs');
 const path = require('path');
 const { execFileSync } = require('child_process');
-const { escapeStringForTsDoubleQuote: escapeString } = require('../../utils/escape-ts-string');
+const {
+  escapeStringForTsDoubleQuote: escapeString,
+} = require('../../utils/escape-ts-string');
 const {
   normalizeString,
   normalizeBoolean,
@@ -12,6 +14,8 @@ const {
   removeMovieFromFile,
   getUserWatchlistMoviesFiles,
 } = require('../../utils/movies/movies-utils');
+
+import type { UserMovie } from '../../../src/app/models/movie-model';
 
 const router = express.Router();
 
@@ -57,23 +61,37 @@ function getTodayISO(): string {
   return `${year}-${month}-${day}`;
 }
 
-function formatUserMovie(movie: any, options?: { rating?: number; ratingComment?: string }) {
+function formatUserMovie(
+  movie: UserMovie,
+  options?: { rating?: number; ratingComment?: string }
+) {
   const viewedDate = getTodayISO();
   const rating = options?.rating != null ? Number(options.rating) : 0;
-  const ratingComment = typeof options?.ratingComment === 'string' ? options.ratingComment : '';
+  const ratingComment =
+    typeof options?.ratingComment === 'string' ? options.ratingComment : '';
   return `  {\n    title: "${escapeString(
     movie.title
   )}",\n    director: "${escapeString(
     movie.director
-  )}",\n    rating: ${rating},\n    timesWatched: 1,\n    firstViewedDate: "${viewedDate}",\n    lastViewedDate: "${viewedDate}",\n    seenAtCinema: false,\n    owned: false,\n    wantToSeeAgain: false,\n    watchPriority: 1,\n    ratingComment: "${escapeString(ratingComment)}",\n    inList: [],\n    borrowed: "${escapeString(typeof movie.borrowed === 'string' ? movie.borrowed : '')}",\n    loaned: "${escapeString(typeof movie.loaned === 'string' ? movie.loaned : '')}",\n  },`;
+  )}",\n    rating: ${rating},\n    timesWatched: 1,\n    firstViewedDate: "${viewedDate}",\n    lastViewedDate: "${viewedDate}",\n    seenAtCinema: false,\n    owned: false,\n    wantToSeeAgain: false,\n    watchPriority: 1,\n    ratingComment: "${escapeString(
+    ratingComment
+  )}",\n    inList: [],\n    borrowed: "${escapeString(
+    typeof movie.borrowed === 'string' ? movie.borrowed : ''
+  )}",\n    loaned: "${escapeString(
+    typeof movie.loaned === 'string' ? movie.loaned : ''
+  )}",\n  },`;
 }
 
-function formatWatchlistMovie(movie: any) {
+function formatWatchlistMovie(movie: UserMovie) {
   return `  {\n    title: "${escapeString(
     movie.title
   )}",\n    director: "${escapeString(
     movie.director
-  )}",\n    rating: 0,\n    timesWatched: 0,\n    firstViewedDate: '',\n    lastViewedDate: '',\n    seenAtCinema: false,\n    owned: false,\n    wantToSeeAgain: false,\n    watchPriority: 1,\n    ratingComment: '',\n    inList: [],\n    borrowed: "${escapeString(typeof movie.borrowed === 'string' ? movie.borrowed : '')}",\n    loaned: "${escapeString(typeof movie.loaned === 'string' ? movie.loaned : '')}",\n  },`;
+  )}",\n    rating: 0,\n    timesWatched: 0,\n    firstViewedDate: '',\n    lastViewedDate: '',\n    seenAtCinema: false,\n    owned: false,\n    wantToSeeAgain: false,\n    watchPriority: 1,\n    ratingComment: '',\n    inList: [],\n    borrowed: "${escapeString(
+    typeof movie.borrowed === 'string' ? movie.borrowed : ''
+  )}",\n    loaned: "${escapeString(
+    typeof movie.loaned === 'string' ? movie.loaned : ''
+  )}",\n  },`;
 }
 
 function getUserMoviesTargetFile(userId: string, isWatchlist: boolean) {
@@ -127,13 +145,14 @@ router.post('/move-movie-from-watchlist-to-watched', (req: any, res: any) => {
     const movies = Array.isArray(input.movies) ? input.movies : [];
     const isWatchlist = normalizeBoolean(input.watchlist, 'watchlist') ?? false;
     const rating = input.rating != null ? Number(input.rating) : undefined;
-    const ratingComment = typeof input.ratingComment === 'string' ? input.ratingComment : undefined;
+    const ratingComment =
+      typeof input.ratingComment === 'string' ? input.ratingComment : undefined;
     const normalizedMovies = movies
-      .map((movie: any) => ({
+      .map((movie: UserMovie) => ({
         title: normalizeString(movie.title, 'title'),
         director: normalizeString(movie.director, 'director'),
       }))
-      .filter((movie: any) => movie.title && movie.director);
+      .filter((movie: UserMovie) => movie.title && movie.director);
 
     if (normalizedMovies.length === 0) {
       res.status(400).json({ error: 'Missing movies' });
@@ -143,18 +162,18 @@ router.post('/move-movie-from-watchlist-to-watched', (req: any, res: any) => {
     const userFiles = getUserMoviesFiles(userId);
     const existing = userFiles.flatMap((movieFile: string) => {
       const fileContent = fs.readFileSync(movieFile, 'utf8');
-      return parseMoviesFromFile(fileContent).map((movie: any) => ({
+      return parseMoviesFromFile(fileContent).map((movie: UserMovie) => ({
         title: movie.title,
         director: movie.director,
       }));
     });
 
     const existingSet = new Set(
-      existing.map((movie: any) => `${movie.title}|${movie.director}`)
+      existing.map((movie: UserMovie) => `${movie.title}|${movie.director}`)
     );
 
     const toAdd = normalizedMovies.filter(
-      (movie: any) => !existingSet.has(`${movie.title}|${movie.director}`)
+      (movie: UserMovie) => !existingSet.has(`${movie.title}|${movie.director}`)
     );
 
     if (toAdd.length === 0) {
@@ -165,7 +184,10 @@ router.post('/move-movie-from-watchlist-to-watched', (req: any, res: any) => {
     const userFile = getUserMoviesTargetFile(userId, isWatchlist);
     let nextContent = fs.readFileSync(userFile, 'utf8');
     const formatMovie = isWatchlist ? formatWatchlistMovie : formatUserMovie;
-    const reviewOptions = (rating != null || ratingComment != null) ? { rating, ratingComment } : undefined;
+    const reviewOptions =
+      rating != null || ratingComment != null
+        ? { rating, ratingComment }
+        : undefined;
     for (const movie of toAdd) {
       nextContent = appendObjectToArrayFile(
         userFile,

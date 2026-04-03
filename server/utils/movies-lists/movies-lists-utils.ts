@@ -7,6 +7,8 @@ const {
   getUserWatchlistMoviesFiles,
 } = require('../movies/movies-utils');
 
+import type { UserMovieListItem } from '../../../src/app/models/movie-list.model';
+
 const USERS_MOVIES_LISTS_FILE = path.join(
   __dirname,
   '..',
@@ -22,7 +24,7 @@ const USERS_MOVIES_LISTS_FILE = path.join(
 const DEFAULT_ICON = '📋';
 const DEFAULT_COLOR = '#6b7280';
 
-function getUsersMoviesLists(): Record<string, Array<{ name: string; icon: string; color: string }>> {
+function getUsersMoviesLists(): Record<string, UserMovieListItem[]> {
   if (!fs.existsSync(USERS_MOVIES_LISTS_FILE)) {
     return {};
   }
@@ -33,26 +35,36 @@ function getUsersMoviesLists(): Record<string, Array<{ name: string; icon: strin
     const jsonStart = eq + 3;
     const semi = content.lastIndexOf(';');
     const jsonStr = (
-      semi > jsonStart ? content.slice(jsonStart, semi) : content.slice(jsonStart)
+      semi > jsonStart
+        ? content.slice(jsonStart, semi)
+        : content.slice(jsonStart)
     ).trim();
     const data = JSON.parse(jsonStr);
     if (typeof data !== 'object' || data === null) return {};
-    const out: Record<string, Array<{ name: string; icon: string; color: string }>> = {};
+    const out: Record<string, UserMovieListItem[]> = {};
     for (const [uid, lists] of Object.entries(data)) {
       const arr = Array.isArray(lists) ? lists : [];
-      out[uid] = arr.map((item: unknown) => {
-        if (item && typeof item === 'object' && 'name' in item && typeof (item as any).name === 'string') {
-          return {
-            name: (item as any).name,
-            icon: typeof (item as any).icon === 'string' ? (item as any).icon : DEFAULT_ICON,
-            color: typeof (item as any).color === 'string' ? (item as any).color : DEFAULT_COLOR,
-          };
-        }
-        if (typeof item === 'string') {
-          return { name: item, icon: DEFAULT_ICON, color: DEFAULT_COLOR };
-        }
-        return { name: '', icon: DEFAULT_ICON, color: DEFAULT_COLOR };
-      }).filter((x: { name: string }) => x.name.length > 0);
+      out[uid] = arr
+        .map((item: any) => {
+          if (
+            item &&
+            typeof item === 'object' &&
+            'name' in item &&
+            typeof (item as Record<string, any>)['name'] === 'string'
+          ) {
+            const rec: any = item as Record<string, any>;
+            return {
+              name: rec.name as string,
+              icon: typeof rec.icon === 'string' ? rec.icon : DEFAULT_ICON,
+              color: typeof rec.color === 'string' ? rec.color : DEFAULT_COLOR,
+            };
+          }
+          if (typeof item === 'string') {
+            return { name: item, icon: DEFAULT_ICON, color: DEFAULT_COLOR };
+          }
+          return { name: '', icon: DEFAULT_ICON, color: DEFAULT_COLOR };
+        })
+        .filter((x: { name: string }) => x.name.length > 0);
     }
     return out;
   } catch {
@@ -61,7 +73,7 @@ function getUsersMoviesLists(): Record<string, Array<{ name: string; icon: strin
 }
 
 function writeUsersMoviesLists(
-  data: Record<string, Array<{ name: string; icon: string; color: string }>>
+  data: Record<string, UserMovieListItem[]>
 ): void {
   const json = JSON.stringify(data, null, 2);
   const content = `/**
@@ -77,9 +89,7 @@ export const usersMoviesLists: Record<string, UserMovieListItem[]> = ${json};
   fs.writeFileSync(USERS_MOVIES_LISTS_FILE, content, 'utf8');
 }
 
-function getListsForUser(
-  userId: string
-): Array<{ name: string; icon: string; color: string }> {
+function getListsForUser(userId: string): UserMovieListItem[] {
   const all = getUsersMoviesLists();
   const lists = all[userId];
   return Array.isArray(lists) ? lists : [];
@@ -90,7 +100,7 @@ function createList(
   listName: string,
   icon?: string,
   color?: string
-): Array<{ name: string; icon: string; color: string }> {
+): UserMovieListItem[] {
   const trimmed = listName.trim();
   if (!trimmed) {
     throw new Error('Nom de liste vide');
@@ -132,10 +142,7 @@ function deleteList(userId: string, listName: string): void {
     let content = fs.readFileSync(filePath, 'utf8');
     const movies = parseMoviesFromFile(content);
     for (const movie of movies) {
-      if (
-        Array.isArray(movie.inList) &&
-        movie.inList.includes(listName)
-      ) {
+      if (Array.isArray(movie.inList) && movie.inList.includes(listName)) {
         const newInList = movie.inList.filter((l: string) => l !== listName);
         content = updateMovieInFile(content, {
           title: movie.title,

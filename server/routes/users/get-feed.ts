@@ -17,15 +17,15 @@ const {
   parseSeriesFromFile,
 } = require('../../utils/series/series-utils');
 
-import type { Book } from '../../../src/app/models/book-model';
+import type { UserBook } from '../../../src/app/models/book-model';
 import type {
   FeedItemBook,
   FeedItemMovie,
   FeedItemSerie,
   FeedUserEntry,
 } from '../../../src/app/models/feed-model';
-import type { Movie } from '../../../src/app/models/movie-model';
-import type { Serie } from '../../../src/app/models/serie-model';
+import type { UserMovie } from '../../../src/app/models/movie-model';
+import type { UserSerieFileRow } from '../../../src/app/models/serie-model';
 
 const router = express.Router();
 
@@ -43,7 +43,7 @@ function isDateWithinLastMonth(dateStr: string, oneMonthAgo: string): boolean {
   return dateStr >= oneMonthAgo;
 }
 
-function loadUserMovies(userId: string): Movie[] {
+function loadUserMovies(userId: string): UserMovie[] {
   try {
     const movieFiles = getUserMoviesFiles(userId);
     return movieFiles.flatMap((movieFile: string) => {
@@ -55,7 +55,7 @@ function loadUserMovies(userId: string): Movie[] {
   }
 }
 
-function loadUserBooks(userId: string): Book[] {
+function loadUserBooks(userId: string): UserBook[] {
   try {
     const bookFiles = getUserBooksFiles(userId);
     return bookFiles.flatMap((bookFile: string) => {
@@ -67,7 +67,7 @@ function loadUserBooks(userId: string): Book[] {
   }
 }
 
-function loadUserSeries(userId: string): Serie[] {
+function loadUserSeries(userId: string): UserSerieFileRow[] {
   try {
     const serieFiles = getUserSeriesFiles(userId);
     return serieFiles.flatMap((serieFile: string) => {
@@ -125,7 +125,9 @@ router.get('/:userId/feed', (req: any, res: any) => {
         const maxDate = dates.length ? dates.sort().reverse()[0] : '';
         return { ...s, _maxViewedDate: maxDate };
       });
-      type SerieWithFeedMeta = Serie & { _maxViewedDate: string; rating?: number };
+      type SerieWithFeedMeta = UserSerieFileRow & {
+        _maxViewedDate: string;
+      };
       const series: FeedItemSerie[] = seriesWithMaxDate
         .filter((s) => isDateWithinLastMonth(s._maxViewedDate || '', oneMonthAgo))
         .sort((a, b) => (b._maxViewedDate || '').localeCompare(a._maxViewedDate || ''))

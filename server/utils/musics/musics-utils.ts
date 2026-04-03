@@ -24,6 +24,11 @@ const BASE_MUSICS_DIR = path.join(
   'musics'
 );
 
+import type { BaseMusic, UserMusic } from '../../../src/app/models/music-model';
+
+type MusicUpdatePayload = Partial<Pick<UserMusic, 'rating' | 'timesListened'>> &
+  Pick<UserMusic, 'title' | 'artist'>;
+
 function getArrayBounds(content: string, exportIndex: number) {
   const assignIndex = content.indexOf('=', exportIndex);
   if (assignIndex === -1) return null;
@@ -34,7 +39,7 @@ function getArrayBounds(content: string, exportIndex: number) {
 }
 
 
-function normalizeNumber(value: any, field: string) {
+function normalizeNumber(value: unknown, field: string) {
   if (value === undefined || value === null) return undefined;
   const parsed = Number(value);
   if (Number.isNaN(parsed)) {
@@ -43,7 +48,7 @@ function normalizeNumber(value: any, field: string) {
   return parsed;
 }
 
-function normalizeString(value: any, field: string) {
+function normalizeString(value: unknown, field: string) {
   if (value === undefined || value === null) return undefined;
   if (typeof value !== 'string') {
     throw new Error(`Invalid string for ${field}`);
@@ -75,7 +80,11 @@ function parseNumberField(objectText: string, key: string) {
   return Number.isNaN(parsed) ? null : parsed;
 }
 
-function replaceField(objectText: string, key: string, value: any) {
+function replaceField(
+  objectText: string,
+  key: string,
+  value: string | number | null | undefined
+) {
   if (value === undefined || value === null) return objectText;
 
   let next = objectText;
@@ -105,7 +114,7 @@ function replaceField(objectText: string, key: string, value: any) {
   return next;
 }
 
-function parseUserMusicsFromFile(content: string): any[] {
+function parseUserMusicsFromFile(content: string): UserMusic[] {
   const exportIndex = content.indexOf('export const');
   if (exportIndex === -1) {
     return [];
@@ -117,7 +126,7 @@ function parseUserMusicsFromFile(content: string): any[] {
   }
   const { arrayStart, arrayEnd } = bounds;
 
-  const musics: any[] = [];
+  const musics: UserMusic[] = [];
   let i = arrayStart;
   let depth = 0;
   let objectStart = -1;
@@ -142,7 +151,7 @@ function parseUserMusicsFromFile(content: string): any[] {
             artist,
             rating: parseNumberField(objectText, 'rating') ?? 0,
             timesListened: parseNumberField(objectText, 'timesListened') ?? 0,
-          });
+          } as UserMusic);
         }
       }
     }
@@ -153,7 +162,7 @@ function parseUserMusicsFromFile(content: string): any[] {
 }
 
 
-function parseBaseMusicsFullFromFile(content: string): any[] {
+function parseBaseMusicsFullFromFile(content: string): BaseMusic[] {
   const exportIndex = content.indexOf('export const');
   if (exportIndex === -1) {
     return [];
@@ -165,7 +174,7 @@ function parseBaseMusicsFullFromFile(content: string): any[] {
   }
   const { arrayStart, arrayEnd } = bounds;
 
-  const musics: any[] = [];
+  const musics: BaseMusic[] = [];
   let i = arrayStart;
   let depth = 0;
   let objectStart = -1;
@@ -197,7 +206,7 @@ function parseBaseMusicsFullFromFile(content: string): any[] {
           releaseDate: parseStringField(objectText, 'releaseDate') || '',
           duration: parseNumberField(objectText, 'duration') ?? 0,
           genre: parseStringField(objectText, 'genre') || '',
-        });
+        } as BaseMusic);
       }
     }
     i += 1;
@@ -259,7 +268,7 @@ function appendObjectToArrayFile(filePath: string, objectText: string) {
   );
 }
 
-function updateMusicInFile(content: string, payload: any) {
+function updateMusicInFile(content: string, payload: MusicUpdatePayload) {
   const exportIndex = content.indexOf('export const');
   if (exportIndex === -1) {
     throw new Error('Array not found');

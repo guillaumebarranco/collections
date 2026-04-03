@@ -25,6 +25,23 @@ const BASE_BDS_DIR = path.join(
 );
 const BASE_BDS_API_FILE = path.join(BASE_BDS_DIR, 'base_bds_api.ts');
 
+import type {
+  BaseBd,
+  MandatoryBdData,
+  UserBd,
+} from '../../../src/app/models/bd-model';
+
+type BdUpdatePayload = Partial<UserBd> & Pick<UserBd, 'title' | 'writer'>;
+type BdIdentityPayload = {
+  matchTitle?: string;
+  matchWriter?: string;
+} & Partial<Pick<UserBd, 'title' | 'writer'>>;
+type BaseBdFileUpdatePayload = Partial<BaseBd> & {
+  matchTitle?: string;
+  matchWriter?: string;
+};
+type BdRemovePayload = Pick<MandatoryBdData, 'title' | 'writer'>;
+
 function getArrayBounds(content: string, exportIndex: number) {
   const assignIndex = content.indexOf('=', exportIndex);
   if (assignIndex === -1) return null;
@@ -34,7 +51,7 @@ function getArrayBounds(content: string, exportIndex: number) {
   return { arrayStart, arrayEnd };
 }
 
-function normalizeNumber(value: any, field: string) {
+function normalizeNumber(value: unknown, field: string) {
   if (value === undefined || value === null) return undefined;
   const parsed = Number(value);
   if (Number.isNaN(parsed)) {
@@ -43,7 +60,7 @@ function normalizeNumber(value: any, field: string) {
   return parsed;
 }
 
-function normalizeBoolean(value: any, field: string) {
+function normalizeBoolean(value: unknown, field: string) {
   if (value === undefined || value === null) return undefined;
   if (typeof value === 'boolean') return value;
   if (value === 'true') return true;
@@ -51,7 +68,7 @@ function normalizeBoolean(value: any, field: string) {
   throw new Error(`Invalid boolean for ${field}`);
 }
 
-function normalizeString(value: any, field: string) {
+function normalizeString(value: unknown, field: string) {
   if (value === undefined || value === null) return undefined;
   if (typeof value !== 'string') {
     throw new Error(`Invalid string for ${field}`);
@@ -88,7 +105,7 @@ function parseBooleanField(objectText: string, key: string) {
   return match[1] === 'true';
 }
 
-function parseBdsFromFile(content: string): any[] {
+function parseBdsFromFile(content: string): UserBd[] {
   const exportIndex = content.indexOf('export const');
   if (exportIndex === -1) {
     return [];
@@ -100,7 +117,7 @@ function parseBdsFromFile(content: string): any[] {
   }
   const { arrayStart, arrayEnd } = bounds;
 
-  const bds: any[] = [];
+  const bds: UserBd[] = [];
   let i = arrayStart;
   let depth = 0;
   let objectStart = -1;
@@ -127,7 +144,8 @@ function parseBdsFromFile(content: string): any[] {
             readTimes: parseNumberField(objectText, 'readTimes') ?? 0,
             readDate: parseStringField(objectText, 'readDate') ?? '',
             owned: parseBooleanField(objectText, 'owned') ?? false,
-            readPriority: parseNumberField(objectText, 'readPriority') ?? 1,
+            readPriority: (parseNumberField(objectText, 'readPriority') ??
+              1) as UserBd['readPriority'],
             wantToReadAgain:
               parseBooleanField(objectText, 'wantToReadAgain') ?? false,
             ratingComment: parseStringField(objectText, 'ratingComment') ?? '',
@@ -141,7 +159,7 @@ function parseBdsFromFile(content: string): any[] {
               ((parseBooleanField(objectText, 'loaned') ?? false)
                 ? 'Inconnu'
                 : ''),
-          });
+          } as UserBd);
         }
       }
     }
@@ -151,7 +169,7 @@ function parseBdsFromFile(content: string): any[] {
   return bds;
 }
 
-function parseBaseBdsFullFromFile(content: string): any[] {
+function parseBaseBdsFullFromFile(content: string): BaseBd[] {
   const exportIndex = content.indexOf('export const');
   if (exportIndex === -1) {
     return [];
@@ -163,7 +181,7 @@ function parseBaseBdsFullFromFile(content: string): any[] {
   }
   const { arrayStart, arrayEnd } = bounds;
 
-  const bds: any[] = [];
+  const bds: BaseBd[] = [];
   let i = arrayStart;
   let depth = 0;
   let objectStart = -1;
@@ -197,7 +215,7 @@ function parseBaseBdsFullFromFile(content: string): any[] {
           saga: parseStringField(objectText, 'saga') || '',
           sagaOrder: parseNumberField(objectText, 'sagaOrder') ?? 0,
           description: parseStringField(objectText, 'description') || '',
-        });
+        } as BaseBd);
       }
     }
     i += 1;
@@ -245,14 +263,14 @@ function baseBdExists(title: string, writer: string): boolean {
   for (const filePath of files) {
     const content = fs.readFileSync(filePath, 'utf8');
     const bds = parseBaseBdsFullFromFile(content);
-    if (bds.some((m: any) => m.title === title && m.writer === writer)) {
+    if (bds.some((m) => m.title === title && m.writer === writer)) {
       return true;
     }
   }
   return false;
 }
 
-function updateBdInFile(filePath: string, bdData: any): boolean {
+function updateBdInFile(filePath: string, bdData: BdUpdatePayload): boolean {
   const content = fs.readFileSync(filePath, 'utf8');
   const bds = parseBdsFromFile(content);
   const index = bds.findIndex(
@@ -266,7 +284,7 @@ function updateBdInFile(filePath: string, bdData: any): boolean {
   bds[index] = {
     ...bds[index],
     ...bdData,
-  };
+  } as UserBd;
 
   const newArrayContent = bds
     .map(
@@ -304,7 +322,10 @@ function updateBdInFile(filePath: string, bdData: any): boolean {
   return true;
 }
 
-function updateBdIdentityInFile(filePath: string, bdData: any): boolean {
+function updateBdIdentityInFile(
+  filePath: string,
+  bdData: BdIdentityPayload
+): boolean {
   const content = fs.readFileSync(filePath, 'utf8');
   const bds = parseBdsFromFile(content);
   const matchTitle = bdData.matchTitle ?? bdData.title;
@@ -321,7 +342,7 @@ function updateBdIdentityInFile(filePath: string, bdData: any): boolean {
     ...bds[index],
     title: bdData.title ?? bds[index].title,
     writer: bdData.writer ?? bds[index].writer,
-  };
+  } as UserBd;
 
   const newArrayContent = bds
     .map(
@@ -359,7 +380,10 @@ function updateBdIdentityInFile(filePath: string, bdData: any): boolean {
   return true;
 }
 
-function updateBaseBdInFile(filePath: string, bdData: any): boolean {
+function updateBaseBdInFile(
+  filePath: string,
+  bdData: BaseBdFileUpdatePayload
+): boolean {
   const content = fs.readFileSync(filePath, 'utf8');
   const bds = parseBaseBdsFullFromFile(content);
   const matchTitle = bdData.matchTitle ?? bdData.title;
@@ -372,12 +396,19 @@ function updateBaseBdInFile(filePath: string, bdData: any): boolean {
     return false;
   }
 
-  bds[index] = {
-    ...bds[index],
-    ...bdData,
-    title: bdData.title ?? bds[index].title,
-    writer: bdData.writer ?? bds[index].writer,
-  };
+  const existing = bds[index];
+  const merged: BaseBd = { ...existing };
+  const patch = bdData as Record<string, unknown>;
+  for (const key of Object.keys(patch)) {
+    if (key === 'matchTitle' || key === 'matchWriter') continue;
+    const value = patch[key];
+    if (value !== undefined) {
+      (merged as unknown as Record<string, unknown>)[key] = value;
+    }
+  }
+  merged.title = bdData.title ?? existing.title;
+  merged.writer = bdData.writer ?? existing.writer;
+  bds[index] = merged;
 
   const newArrayContent = bds
     .map(
@@ -413,7 +444,7 @@ function updateBaseBdInFile(filePath: string, bdData: any): boolean {
   return true;
 }
 
-function updateBaseBdInFiles(payload: any) {
+function updateBaseBdInFiles(payload: BaseBdFileUpdatePayload) {
   const baseFiles = getBaseBdsFiles();
   for (const filePath of baseFiles) {
     if (updateBaseBdInFile(filePath, payload)) {
@@ -423,7 +454,7 @@ function updateBaseBdInFiles(payload: any) {
   return null;
 }
 
-function removeBdFromFile(content: string, payload: any): string {
+function removeBdFromFile(content: string, payload: BdRemovePayload): string {
   const exportIndex = content.indexOf('export const');
   if (exportIndex === -1) {
     throw new Error('Array not found');

@@ -8,9 +8,9 @@ const {
 } = require('../../utils/mangas/mangas-utils');
 const { normalizeUsername } = require('../../utils/users/users-utils');
 
-import type { Manga } from '../../../src/app/models/manga-model';
+import type { UserManga } from '../../../src/app/models/manga-model';
 
-type OthersRatedMangaEntry = Pick<Manga, 'title' | 'author'> & {
+type OthersRatedMangaEntry = Pick<UserManga, 'title' | 'author'> & {
   rating: number;
   userId: string;
 };
@@ -42,7 +42,7 @@ router.get('/others-users-mangas-rated', (req: any, res: any) => {
     for (const userId of otherUsers) {
       try {
         const mangaFiles = getUserMangasFiles(userId);
-        const mangas: Manga[] = mangaFiles.flatMap((mangaFile: string) => {
+        const mangas: UserManga[] = mangaFiles.flatMap((mangaFile: string) => {
           const fileContent = fs.readFileSync(mangaFile, 'utf8');
           return parseMangasFromFile(fileContent);
         });
