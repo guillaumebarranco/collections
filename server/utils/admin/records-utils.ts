@@ -59,25 +59,34 @@ const {
 import type { UserBook } from '../../../src/app/models/book-model';
 import type { UserComic } from '../../../src/app/models/comic-model';
 import type { UserBd } from '../../../src/app/models/bd-model';
-import type { UserGame, UserGameSession } from '../../../src/app/models/game-model';
+import type { UserGame } from '../../../src/app/models/game-model';
 import type { UserManga } from '../../../src/app/models/manga-model';
 import type { UserManwha } from '../../../src/app/models/manwha-model';
 import type { UserMovie } from '../../../src/app/models/movie-model';
 import type { UserMusic } from '../../../src/app/models/music-model';
 import type {
   BaseSerieSeasonData,
-  UserSerie,
+  Serie,
   UserSerieFileRow,
-  UserSerieSeason,
 } from '../../../src/app/models/serie-model';
+const {
+  getSerieWatchedLengthMinutes,
+} = require('../../../src/app/utils/series.utils');
+const {
+  getGamePlayedHoursFromSessions,
+} = require('../../../src/app/utils/games.utils');
+const {
+  getTotalBdReadingMinutes,
+  getTotalBookReadingMinutes,
+  getTotalComicsReadingMinutes,
+  getTotalMangaReadingMinutes,
+  getTotalManwhaReadingMinutes,
+  getTotalMusicListeningMinutes,
+  getTotalWatchingMinutes,
+} = require('../../../src/app/utils/stats.utils');
 
 type UserListItem = { username: string };
 
-// Constantes alignées avec src/app/utils/stats.utils.ts et series.utils.ts
-const MINUTES_PER_PAGE = 1.5;
-const SECONDS_PER_COMIC_PAGE = 20;
-const MINUTES_PER_MANGA_TOME = 30;
-const MINUTES_PER_MANWHA_CHAPTER = 5;
 const MINUTES_PER_DAY = 24 * 60;
 
 function minutesToDays(minutes: number): number {
@@ -153,7 +162,9 @@ function loadBaseBooksPagesMap(): Map<string, number> {
       const content = fs.readFileSync(file, 'utf8');
       const books = parseBaseBooksFullFromFile(content);
       for (const b of books) {
-        const key = `${normalizeKey(b.title || '')}|${normalizeKey(b.author || '')}`;
+        const key = `${normalizeKey(b.title || '')}|${normalizeKey(
+          b.author || ''
+        )}`;
         map.set(key, Number(b.pages) || 0);
       }
     }
@@ -171,7 +182,9 @@ function loadBaseMoviesLengthMap(): Map<string, number> {
       const content = fs.readFileSync(file, 'utf8');
       const movies = parseBaseMoviesFullFromFile(content);
       for (const m of movies) {
-        const key = `${normalizeKey(m.title || '')}|${normalizeKey(m.director || '')}`;
+        const key = `${normalizeKey(m.title || '')}|${normalizeKey(
+          m.director || ''
+        )}`;
         map.set(key, Number(m.length) || 0);
       }
     }
@@ -181,15 +194,23 @@ function loadBaseMoviesLengthMap(): Map<string, number> {
   return map;
 }
 
-function loadBaseSeriesSeasonsDataMap(): Map<string, { seasonNumber: number; totalLength: number }[]> {
-  const map = new Map<string, { seasonNumber: number; totalLength: number }[]>();
+function loadBaseSeriesSeasonsDataMap(): Map<
+  string,
+  { seasonNumber: number; totalLength: number }[]
+> {
+  const map = new Map<
+    string,
+    { seasonNumber: number; totalLength: number }[]
+  >();
   try {
     const files = getBaseSeriesFiles();
     for (const file of files) {
       const content = fs.readFileSync(file, 'utf8');
       const series = parseBaseSeriesFullFromFile(content);
       for (const s of series) {
-        const key = `${normalizeKey(s.title || '')}|${normalizeKey(s.director || '')}`;
+        const key = `${normalizeKey(s.title || '')}|${normalizeKey(
+          s.director || ''
+        )}`;
         const seasonsData = Array.isArray(s.seasonsData)
           ? (s.seasonsData as BaseSerieSeasonData[]).map((se) => ({
               seasonNumber: Number(se.seasonNumber) || 0,
@@ -205,7 +226,14 @@ function loadBaseSeriesSeasonsDataMap(): Map<string, { seasonNumber: number; tot
   return map;
 }
 
-function loadBaseGamesEntityMap(): Map<string, { averageTimeToFinish: number; platineTime: number; averageTimeToHundredPercent: number }> {
+function loadBaseGamesEntityMap(): Map<
+  string,
+  {
+    averageTimeToFinish: number;
+    platineTime: number;
+    averageTimeToHundredPercent: number;
+  }
+> {
   const map = new Map();
   try {
     const files = getBaseGamesFiles();
@@ -213,12 +241,17 @@ function loadBaseGamesEntityMap(): Map<string, { averageTimeToFinish: number; pl
       const content = fs.readFileSync(file, 'utf8');
       const games = parseBaseGamesFullFromFile(content);
       for (const g of games) {
-        const key = `${normalizeKey(g.title || '')}|${normalizeKey(g.editor || '')}`;
+        const key = `${normalizeKey(g.title || '')}|${normalizeKey(
+          g.editor || ''
+        )}`;
         map.set(key, {
           averageTimeToFinish: finiteOr0(Number(g.averageTimeToFinish)),
           platineTime: finiteOr0(Number(g.platineTime)),
           averageTimeToHundredPercent: finiteOr0(
-            Number((g as { averageTimeToHundredPercent?: number }).averageTimeToHundredPercent)
+            Number(
+              (g as { averageTimeToHundredPercent?: number })
+                .averageTimeToHundredPercent
+            )
           ),
         });
       }
@@ -237,7 +270,9 @@ function loadBaseMangasNbTomesMap(): Map<string, number> {
       const content = fs.readFileSync(file, 'utf8');
       const list = parseBaseMangasFullFromFile(content);
       for (const m of list) {
-        const key = `${normalizeKey(m.title || '')}|${normalizeKey(m.author || '')}`;
+        const key = `${normalizeKey(m.title || '')}|${normalizeKey(
+          m.author || ''
+        )}`;
         map.set(key, Number(m.nbTomes) ?? 0);
       }
     }
@@ -255,7 +290,9 @@ function loadBaseManwhasNbChaptersMap(): Map<string, number> {
       const content = fs.readFileSync(file, 'utf8');
       const list = parseBaseManwhasFullFromFile(content);
       for (const m of list) {
-        const key = `${normalizeKey(m.title || '')}|${normalizeKey(m.author || '')}`;
+        const key = `${normalizeKey(m.title || '')}|${normalizeKey(
+          m.author || ''
+        )}`;
         map.set(key, Number(m.nbChapters) ?? 0);
       }
     }
@@ -273,7 +310,9 @@ function loadBaseComicsPagesMap(): Map<string, number> {
       const content = fs.readFileSync(file, 'utf8');
       const list = parseBaseComicsFullFromFile(content);
       for (const c of list) {
-        const key = `${normalizeKey(c.title || '')}|${normalizeKey(c.writer || '')}`;
+        const key = `${normalizeKey(c.title || '')}|${normalizeKey(
+          c.writer || ''
+        )}`;
         const pages = Number(c.pages) ?? 0;
         if (pages > 0) map.set(key, pages);
       }
@@ -292,7 +331,9 @@ function loadBaseBdsPagesMap(): Map<string, number> {
       const content = fs.readFileSync(file, 'utf8');
       const list = parseBaseBdsFullFromFile(content);
       for (const b of list) {
-        const key = `${normalizeKey(b.title || '')}|${normalizeKey(b.writer || '')}`;
+        const key = `${normalizeKey(b.title || '')}|${normalizeKey(
+          b.writer || ''
+        )}`;
         const pages = Number(b.pages) ?? 0;
         if (pages > 0) map.set(key, pages);
       }
@@ -311,7 +352,9 @@ function loadBaseMusicsDurationMap(): Map<string, number> {
       const content = fs.readFileSync(file, 'utf8');
       const list = parseBaseMusicsFullFromFile(content);
       for (const m of list) {
-        const key = `${normalizeKey(m.title || '')}|${normalizeKey(m.artist || '')}`;
+        const key = `${normalizeKey(m.title || '')}|${normalizeKey(
+          m.artist || ''
+        )}`;
         map.set(key, Number(m.duration) ?? 0);
       }
     }
@@ -319,137 +362,6 @@ function loadBaseMusicsDurationMap(): Map<string, number> {
     // ignore
   }
   return map;
-}
-
-function getBookReadingMinutes(userBooks: UserBook[], basePagesMap: Map<string, number>): number {
-  let total = 0;
-  for (const b of userBooks) {
-    const key = `${normalizeKey(b.title || '')}|${normalizeKey(b.author || '')}`;
-    const pages = basePagesMap.get(key) ?? 0;
-    const readTimes = Number(b.readTimes) || 1;
-    total += pages * readTimes * MINUTES_PER_PAGE;
-  }
-  return total;
-}
-
-function getMovieWatchingMinutes(
-  userMovies: UserMovie[],
-  baseLengthMap: Map<string, number>
-): number {
-  let total = 0;
-  for (const m of userMovies) {
-    const key = `${normalizeKey(m.title || '')}|${normalizeKey(m.director || '')}`;
-    const length = baseLengthMap.get(key) ?? 0;
-    const timesWatched = Number(m.timesWatched) || 0;
-    total += length * timesWatched;
-  }
-  return total;
-}
-
-function getSerieWatchedMinutes(
-  userSerie: Pick<UserSerie, 'seasons'>,
-  seasonsData: { seasonNumber: number; totalLength: number }[]
-): number {
-  const seasons: UserSerieSeason[] = userSerie.seasons || [];
-  if (seasonsData.length === 0 || seasons.length === 0) return 0;
-  const byNumber = new Map<number, number>();
-  for (const se of seasons) {
-    const num = Number(se.seasonNumber) ?? 0;
-    const times = Number(se.seasonTimesWatched) ?? 0;
-    byNumber.set(num, times);
-  }
-  let total = 0;
-  for (const sd of seasonsData) {
-    const timesWatched = byNumber.get(sd.seasonNumber) ?? 0;
-    total += (sd.totalLength || 0) * timesWatched;
-  }
-  return total;
-}
-
-function getGamePlayedHours(
-  userGame: Pick<UserGame, 'sessions'>,
-  entity: { averageTimeToFinish: number; platineTime: number; averageTimeToHundredPercent: number }
-): number {
-  const sessions: UserGameSession[] = userGame.sessions || [];
-  if (sessions.length === 0) return 0;
-  let total = 0;
-  const platineTime = entity.platineTime > 0 ? entity.platineTime : entity.averageTimeToHundredPercent;
-  for (const s of sessions) {
-    if (s.platinedGame) {
-      total += platineTime;
-    } else if (s.finishedGameWithHundredPercent) {
-      total += entity.averageTimeToHundredPercent;
-    } else if (s.finishedGame) {
-      total += entity.averageTimeToFinish;
-    }
-    total += Number(s.additionnalEstimatedTime) || 0;
-  }
-  return total;
-}
-
-function getMangaReadingMinutes(items: UserManga[], baseNbTomesMap: Map<string, number>): number {
-  let total = 0;
-  for (const item of items) {
-    const key = `${normalizeKey(item.title || '')}|${normalizeKey(item.author || '')}`;
-    const nbTomes =
-      baseNbTomesMap.get(key) ??
-      Number((item as UserManga & { nbTomes?: number }).nbTomes) ??
-      0;
-    const readTimes = Number(item.readTimes) || 1;
-    total += nbTomes * MINUTES_PER_MANGA_TOME * readTimes;
-  }
-  return total;
-}
-
-function getManwhaReadingMinutes(
-  items: UserManwha[],
-  baseNbChaptersMap: Map<string, number>
-): number {
-  let total = 0;
-  for (const item of items) {
-    const key = `${normalizeKey(item.title || '')}|${normalizeKey(item.author || '')}`;
-    const nbChapters =
-      baseNbChaptersMap.get(key) ??
-      Number((item as UserManwha & { nbChapters?: number }).nbChapters) ??
-      0;
-    const readTimes = Number(item.readTimes) || 1;
-    total += nbChapters * MINUTES_PER_MANWHA_CHAPTER * readTimes;
-  }
-  return total;
-}
-
-function getComicsOrBdReadingMinutes(
-  items: (UserComic | UserBd)[],
-  basePagesMap: Map<string, number>
-): number {
-  let total = 0;
-  for (const item of items) {
-    const key = `${normalizeKey(item.title || '')}|${normalizeKey(item.writer || '')}`;
-    const pages =
-      basePagesMap.get(key) ??
-      Number((item as (UserComic | UserBd) & { pages?: number }).pages) ??
-      0;
-    const readTimes = Number(item.readTimes) || 1;
-    total += (pages * SECONDS_PER_COMIC_PAGE) / 60 * readTimes;
-  }
-  return total;
-}
-
-function getMusicListeningHours(
-  items: UserMusic[],
-  baseDurationMap: Map<string, number>
-): number {
-  let total = 0;
-  for (const m of items) {
-    const key = `${normalizeKey(m.title || '')}|${normalizeKey(m.artist || '')}`;
-    const durationSec =
-      baseDurationMap.get(key) ??
-      Number((m as UserMusic & { duration?: number }).duration) ??
-      0;
-    const times = Number(m.timesListened) || 0;
-    total += (durationSec / 3600) * times;
-  }
-  return total;
 }
 
 function safeGetUserItems<T>(
@@ -553,10 +465,13 @@ function buildAdminRecords(): ReturnType<typeof emptyRecords> {
       .slice(0, 3);
 
     let mostTimeReadWatched: { username: string; value: number }[] = [];
-    const uidList = users.map((u: { username: string }) => u.username.toLowerCase());
+    const uidList = users.map((u: { username: string }) =>
+      u.username.toLowerCase()
+    );
 
     type DurationEntry = { username: string; value: number };
-    const byDuration = (a: DurationEntry, b: DurationEntry) => b.value - a.value;
+    const byDuration = (a: DurationEntry, b: DurationEntry) =>
+      b.value - a.value;
 
     if (key === 'books') {
       mostTimeReadWatched = uidList
@@ -566,8 +481,21 @@ function buildAdminRecords(): ReturnType<typeof emptyRecords> {
             getUserBooksFiles,
             parseBooksFromFile
           );
-          const minutes = getBookReadingMinutes(userBooks, baseBooksPages);
-          return { username: users.find((u: UserListItem) => u.username.toLowerCase() === uid)?.username ?? uid, value: Math.round(minutesToDays(minutes) * 10) / 10 };
+          const bookStatsItems = userBooks.map((b) => ({
+            title: b.title,
+            pages:
+              baseBooksPages.get(
+                `${normalizeKey(b.title || '')}|${normalizeKey(b.author || '')}`
+              ) ?? 0,
+            readTimes: Number(b.readTimes) || 1,
+          }));
+          const minutes = getTotalBookReadingMinutes(bookStatsItems);
+          return {
+            username:
+              users.find((u: UserListItem) => u.username.toLowerCase() === uid)
+                ?.username ?? uid,
+            value: Math.round(minutesToDays(minutes) * 10) / 10,
+          };
         })
         .filter((x: DurationEntry) => x.value > 0)
         .sort(byDuration)
@@ -580,8 +508,23 @@ function buildAdminRecords(): ReturnType<typeof emptyRecords> {
             getUserMoviesFiles,
             parseMoviesFromFile
           );
-          const minutes = getMovieWatchingMinutes(userMovies, baseMoviesLength);
-          return { username: users.find((u: UserListItem) => u.username.toLowerCase() === uid)?.username ?? uid, value: Math.round(minutesToDays(minutes) * 10) / 10 };
+          const movieStatsItems = userMovies.map((m) => ({
+            title: m.title,
+            length:
+              baseMoviesLength.get(
+                `${normalizeKey(m.title || '')}|${normalizeKey(
+                  m.director || ''
+                )}`
+              ) ?? 0,
+            timesWatched: Number(m.timesWatched) || 0,
+          }));
+          const minutes = getTotalWatchingMinutes(movieStatsItems);
+          return {
+            username:
+              users.find((u: UserListItem) => u.username.toLowerCase() === uid)
+                ?.username ?? uid,
+            value: Math.round(minutesToDays(minutes) * 10) / 10,
+          };
         })
         .filter((x: DurationEntry) => x.value > 0)
         .sort(byDuration)
@@ -595,12 +538,20 @@ function buildAdminRecords(): ReturnType<typeof emptyRecords> {
             parseSeriesFromFile
           );
           let totalMinutes = 0;
-          for (const s of userSeries) {
-            const keySerie = `${normalizeKey(s.title || '')}|${normalizeKey(s.director || '')}`;
+          for (const row of userSeries) {
+            const keySerie = `${normalizeKey(row.title || '')}|${normalizeKey(
+              row.director || ''
+            )}`;
             const seasonsData = baseSeriesSeasonsData.get(keySerie) ?? [];
-            totalMinutes += getSerieWatchedMinutes(s, seasonsData);
+            const serie = { ...row, seasonsData } as Serie;
+            totalMinutes += getSerieWatchedLengthMinutes(serie);
           }
-          return { username: users.find((u: UserListItem) => u.username.toLowerCase() === uid)?.username ?? uid, value: Math.round(minutesToDays(totalMinutes) * 10) / 10 };
+          return {
+            username:
+              users.find((u: UserListItem) => u.username.toLowerCase() === uid)
+                ?.username ?? uid,
+            value: Math.round(minutesToDays(totalMinutes) * 10) / 10,
+          };
         })
         .filter((x: DurationEntry) => x.value > 0)
         .sort(byDuration)
@@ -608,15 +559,30 @@ function buildAdminRecords(): ReturnType<typeof emptyRecords> {
     } else if (key === 'games') {
       mostTimeReadWatched = uidList
         .map((uid: string) => {
-          const userGames = safeGetUserItems<UserGame>(uid, getUserAllGamesFiles, parseGamesFromFile);
+          const userGames = safeGetUserItems<UserGame>(
+            uid,
+            getUserAllGamesFiles,
+            parseGamesFromFile
+          );
           let totalHours = 0;
           for (const g of userGames) {
-            const keyGame = `${normalizeKey(g.title || '')}|${normalizeKey(g.editor || '')}`;
-            const entity = baseGamesEntity.get(keyGame) ?? { averageTimeToFinish: 0, platineTime: 0, averageTimeToHundredPercent: 0 };
-            totalHours += getGamePlayedHours(g, entity);
+            const keyGame = `${normalizeKey(g.title || '')}|${normalizeKey(
+              g.editor || ''
+            )}`;
+            const entity = baseGamesEntity.get(keyGame) ?? {
+              averageTimeToFinish: 0,
+              platineTime: 0,
+              averageTimeToHundredPercent: 0,
+            };
+            totalHours += getGamePlayedHoursFromSessions(g.sessions, entity);
           }
           const days = totalHours / 24;
-          return { username: users.find((u: UserListItem) => u.username.toLowerCase() === uid)?.username ?? uid, value: Math.round(days * 10) / 10 };
+          return {
+            username:
+              users.find((u: UserListItem) => u.username.toLowerCase() === uid)
+                ?.username ?? uid,
+            value: Math.round(days * 10) / 10,
+          };
         })
         .filter((x: DurationEntry) => x.value > 0)
         .sort(byDuration)
@@ -629,8 +595,27 @@ function buildAdminRecords(): ReturnType<typeof emptyRecords> {
             getUserMangasFiles,
             parseMangasFromFile
           );
-          const minutes = getMangaReadingMinutes(items, baseMangasNbTomes);
-          return { username: users.find((u: UserListItem) => u.username.toLowerCase() === uid)?.username ?? uid, value: Math.round(minutesToDays(minutes) * 10) / 10 };
+          const mangaStatsItems = items.map((item) => {
+            const k = `${normalizeKey(item.title || '')}|${normalizeKey(
+              item.author || ''
+            )}`;
+            const nbTomes =
+              baseMangasNbTomes.get(k) ??
+              Number((item as UserManga & { nbTomes?: number }).nbTomes) ??
+              0;
+            return {
+              title: item.title,
+              nbTomes,
+              readTimes: Number(item.readTimes) || 1,
+            };
+          });
+          const minutes = getTotalMangaReadingMinutes(mangaStatsItems);
+          return {
+            username:
+              users.find((u: UserListItem) => u.username.toLowerCase() === uid)
+                ?.username ?? uid,
+            value: Math.round(minutesToDays(minutes) * 10) / 10,
+          };
         })
         .filter((x: DurationEntry) => x.value > 0)
         .sort(byDuration)
@@ -643,8 +628,29 @@ function buildAdminRecords(): ReturnType<typeof emptyRecords> {
             getUserManwhasFiles,
             parseManwhasFromFile
           );
-          const minutes = getManwhaReadingMinutes(items, baseManwhasNbChapters);
-          return { username: users.find((u: UserListItem) => u.username.toLowerCase() === uid)?.username ?? uid, value: Math.round(minutesToDays(minutes) * 10) / 10 };
+          const manwhaStatsItems = items.map((item) => {
+            const k = `${normalizeKey(item.title || '')}|${normalizeKey(
+              item.author || ''
+            )}`;
+            const nbChapters =
+              baseManwhasNbChapters.get(k) ??
+              Number(
+                (item as UserManwha & { nbChapters?: number }).nbChapters
+              ) ??
+              0;
+            return {
+              title: item.title,
+              nbChapters,
+              readTimes: Number(item.readTimes) || 1,
+            };
+          });
+          const minutes = getTotalManwhaReadingMinutes(manwhaStatsItems);
+          return {
+            username:
+              users.find((u: UserListItem) => u.username.toLowerCase() === uid)
+                ?.username ?? uid,
+            value: Math.round(minutesToDays(minutes) * 10) / 10,
+          };
         })
         .filter((x: DurationEntry) => x.value > 0)
         .sort(byDuration)
@@ -657,8 +663,27 @@ function buildAdminRecords(): ReturnType<typeof emptyRecords> {
             getUserComicsFiles,
             parseComicsFromFile
           );
-          const minutes = getComicsOrBdReadingMinutes(items, baseComicsPages);
-          return { username: users.find((u: UserListItem) => u.username.toLowerCase() === uid)?.username ?? uid, value: Math.round(minutesToDays(minutes) * 10) / 10 };
+          const comicStatsItems = items.map((item) => {
+            const k = `${normalizeKey(item.title || '')}|${normalizeKey(
+              item.writer || ''
+            )}`;
+            const pages =
+              baseComicsPages.get(k) ??
+              Number((item as UserComic & { pages?: number }).pages) ??
+              0;
+            return {
+              title: item.title,
+              pages,
+              readTimes: Number(item.readTimes) || 1,
+            };
+          });
+          const minutes = getTotalComicsReadingMinutes(comicStatsItems);
+          return {
+            username:
+              users.find((u: UserListItem) => u.username.toLowerCase() === uid)
+                ?.username ?? uid,
+            value: Math.round(minutesToDays(minutes) * 10) / 10,
+          };
         })
         .filter((x: DurationEntry) => x.value > 0)
         .sort(byDuration)
@@ -666,9 +691,32 @@ function buildAdminRecords(): ReturnType<typeof emptyRecords> {
     } else if (key === 'bds') {
       mostTimeReadWatched = uidList
         .map((uid: string) => {
-          const items = safeGetUserItems<UserBd>(uid, getUserBdsFiles, parseBdsFromFile);
-          const minutes = getComicsOrBdReadingMinutes(items, baseBdsPages);
-          return { username: users.find((u: UserListItem) => u.username.toLowerCase() === uid)?.username ?? uid, value: Math.round(minutesToDays(minutes) * 10) / 10 };
+          const items = safeGetUserItems<UserBd>(
+            uid,
+            getUserBdsFiles,
+            parseBdsFromFile
+          );
+          const bdStatsItems = items.map((item) => {
+            const k = `${normalizeKey(item.title || '')}|${normalizeKey(
+              item.writer || ''
+            )}`;
+            const pages =
+              baseBdsPages.get(k) ??
+              Number((item as UserBd & { pages?: number }).pages) ??
+              0;
+            return {
+              title: item.title,
+              pages,
+              readTimes: Number(item.readTimes) || 1,
+            };
+          });
+          const minutes = getTotalBdReadingMinutes(bdStatsItems);
+          return {
+            username:
+              users.find((u: UserListItem) => u.username.toLowerCase() === uid)
+                ?.username ?? uid,
+            value: Math.round(minutesToDays(minutes) * 10) / 10,
+          };
         })
         .filter((x: DurationEntry) => x.value > 0)
         .sort(byDuration)
@@ -681,9 +729,27 @@ function buildAdminRecords(): ReturnType<typeof emptyRecords> {
             getUserMusicsFiles,
             parseUserMusicsFromFile
           );
-          const hours = getMusicListeningHours(items, baseMusicsDuration);
-          const days = hours / 24;
-          return { username: users.find((u: UserListItem) => u.username.toLowerCase() === uid)?.username ?? uid, value: Math.round(days * 10) / 10 };
+          const musicStatsItems = items.map((m) => {
+            const k = `${normalizeKey(m.title || '')}|${normalizeKey(
+              m.artist || ''
+            )}`;
+            const durationSec =
+              baseMusicsDuration.get(k) ??
+              Number((m as UserMusic & { duration?: number }).duration) ??
+              0;
+            return {
+              durationSec,
+              timesListened: Number(m.timesListened) || 0,
+            };
+          });
+          const minutes = getTotalMusicListeningMinutes(musicStatsItems);
+          const days = minutes / MINUTES_PER_DAY;
+          return {
+            username:
+              users.find((u: UserListItem) => u.username.toLowerCase() === uid)
+                ?.username ?? uid,
+            value: Math.round(days * 10) / 10,
+          };
         })
         .filter((x: DurationEntry) => x.value > 0)
         .sort(byDuration)

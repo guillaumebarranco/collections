@@ -10,9 +10,9 @@
     "build": "ng build",
     "watch": "ng build --watch --configuration development",
     "test": "ng test",
-    "server": "ts-node server/server.ts",
-    "server:dev": "nodemon --watch server --ext ts --exec \"ts-node server/server.ts\"",
-    "server:prod": "export NODE_ENV=production && ts-node server/server.ts"
+    "server": "ts-node --project tsconfig.server.json server/server.ts",
+    "server:dev": "nodemon --watch server --watch src/app/utils --watch src/app/models --ext ts --exec \"ts-node --project tsconfig.server.json server/server.ts\"",
+    "server:prod": "export NODE_ENV=production && ts-node --project tsconfig.server.json server/server.ts"
   },
   "prettier": {
     "overrides": [

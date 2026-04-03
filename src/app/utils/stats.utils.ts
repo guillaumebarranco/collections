@@ -36,6 +36,11 @@ export interface ItemWithGameLength {
   averageTimeToHundredPercent: number;
 }
 
+export interface ItemWithMusicListen {
+  durationSec: number;
+  timesListened: number;
+}
+
 export function capitalizeFirstLetter(val: string): string {
   return String(val).charAt(0).toUpperCase() + String(val).slice(1);
 }
@@ -65,7 +70,7 @@ export function formatTimeStats(totalMinutes: number): TimeStats {
   return { days, hours, minutes, formatted };
 }
 
-export function getTotalWatchingTime(items: ItemWithLength[]): TimeStats {
+export function getTotalWatchingMinutes(items: ItemWithLength[]): number {
   let totalMinutes = 0;
   for (const item of items) {
     const length = item.length || item.totalLength;
@@ -73,7 +78,11 @@ export function getTotalWatchingTime(items: ItemWithLength[]): TimeStats {
       totalMinutes += length * item.timesWatched;
     }
   }
-  return formatTimeStats(totalMinutes);
+  return totalMinutes;
+}
+
+export function getTotalWatchingTime(items: ItemWithLength[]): TimeStats {
+  return formatTimeStats(getTotalWatchingMinutes(items));
 }
 
 export function getTotalDuration(items: ItemWithLength[]): TimeStats {
@@ -182,15 +191,15 @@ export function getTotalManwhasChaptersRead(items: ItemWithPages[]): number {
   return totalChapters;
 }
 
-export function getEstimatedReadingTime(items: ItemWithPages[]): TimeStats {
-  const totalPagesRead = getTotalPagesRead(items);
-  const totalMinutes = totalPagesRead * MINUTES_PER_PAGE;
-  return formatTimeStats(totalMinutes);
+export function getTotalBookReadingMinutes(items: ItemWithPages[]): number {
+  return getTotalPagesRead(items) * MINUTES_PER_PAGE;
 }
 
-export function getEstimatedMangaReadingTime(
-  items: ItemWithTomes[]
-): TimeStats {
+export function getEstimatedReadingTime(items: ItemWithPages[]): TimeStats {
+  return formatTimeStats(getTotalBookReadingMinutes(items));
+}
+
+export function getTotalMangaReadingMinutes(items: ItemWithTomes[]): number {
   let totalMinutes = 0;
   for (const item of items) {
     if (item.nbTomes) {
@@ -199,12 +208,18 @@ export function getEstimatedMangaReadingTime(
       totalMinutes += minutesPerRead * readTimes;
     }
   }
-  return formatTimeStats(totalMinutes);
+  return totalMinutes;
 }
 
-export function getEstimatedManwhaReadingTime(
-  items: ItemWithPages[]
+export function getEstimatedMangaReadingTime(
+  items: ItemWithTomes[]
 ): TimeStats {
+  return formatTimeStats(getTotalMangaReadingMinutes(items));
+}
+
+export function getTotalManwhaReadingMinutes(
+  items: ItemWithPages[]
+): number {
   let totalMinutes = 0;
   for (const item of items) {
     if (item.nbChapters) {
@@ -213,12 +228,34 @@ export function getEstimatedManwhaReadingTime(
       totalMinutes += minutesPerChapter * readTimes;
     }
   }
-  return formatTimeStats(totalMinutes);
+  return totalMinutes;
+}
+
+export function getEstimatedManwhaReadingTime(
+  items: ItemWithPages[]
+): TimeStats {
+  return formatTimeStats(getTotalManwhaReadingMinutes(items));
+}
+
+export function getTotalComicsReadingMinutes(items: ItemWithPages[]): number {
+  let totalMinutes = 0;
+  for (const item of items) {
+    if (item.pages) {
+      const minutesPerRead = (item.pages * SECONDS_PER_COMIC_PAGE) / 60;
+      const readTimes = item.readTimes || 1;
+      totalMinutes += minutesPerRead * readTimes;
+    }
+  }
+  return totalMinutes;
 }
 
 export function getEstimatedComicsReadingTime(
   items: ItemWithPages[]
 ): TimeStats {
+  return formatTimeStats(getTotalComicsReadingMinutes(items));
+}
+
+export function getTotalBdReadingMinutes(items: ItemWithPages[]): number {
   let totalMinutes = 0;
   for (const item of items) {
     if (item.pages) {
@@ -227,17 +264,21 @@ export function getEstimatedComicsReadingTime(
       totalMinutes += minutesPerRead * readTimes;
     }
   }
-  return formatTimeStats(totalMinutes);
+  return totalMinutes;
 }
 
 export function getEstimatedBdReadingTime(items: ItemWithPages[]): TimeStats {
-  let totalMinutes = 0;
+  return formatTimeStats(getTotalBdReadingMinutes(items));
+}
+
+export function getTotalMusicListeningMinutes(
+  items: ItemWithMusicListen[]
+): number {
+  let total = 0;
   for (const item of items) {
-    if (item.pages) {
-      const minutesPerRead = (item.pages * SECONDS_PER_COMIC_PAGE) / 60;
-      const readTimes = item.readTimes || 1;
-      totalMinutes += minutesPerRead * readTimes;
-    }
+    const times = Number(item.timesListened) || 0;
+    const sec = Number(item.durationSec) || 0;
+    total += (sec / 60) * times;
   }
-  return formatTimeStats(totalMinutes);
+  return total;
 }

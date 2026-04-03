@@ -46,26 +46,31 @@ export function getTotalTimeToFinishGamesAtHundredPercent(
 }
 
 /**
- * Calcule le temps joué (en heures) à partir des sessions d'un jeu.
+ * Heures de jeu estimées à partir des sessions et des durées de référence (base).
+ * Partagé par l’admin serveur et les stats front.
  */
-function getGameTimePlayedFromSessions(
-  sessions: UserGameSession[],
-  game: GameForFinishStats
+export function getGamePlayedHoursFromSessions(
+  sessions: UserGameSession[] | undefined,
+  entity: GameForFinishStats
 ): number {
+  const list = sessions ?? [];
+  if (list.length === 0) {
+    return 0;
+  }
   let total = 0;
-  for (const s of sessions) {
+  const platineTime =
+    entity.platineTime > 0
+      ? entity.platineTime
+      : entity.averageTimeToHundredPercent;
+  for (const s of list) {
     if (s.platinedGame) {
-      total +=
-        game.platineTime > 0
-          ? game.platineTime
-          : game.averageTimeToHundredPercent;
+      total += platineTime;
     } else if (s.finishedGameWithHundredPercent) {
-      total += game.averageTimeToHundredPercent;
+      total += entity.averageTimeToHundredPercent;
     } else if (s.finishedGame) {
-      total += game.averageTimeToFinish;
+      total += entity.averageTimeToFinish;
     }
-
-    total += s.additionnalEstimatedTime ?? 0;
+    total += Number(s.additionnalEstimatedTime) || 0;
   }
   return total;
 }
@@ -75,9 +80,7 @@ function getGameTimePlayedFromSessions(
  * Utilisé pour la stat "Temps total passé à jouer" et l'affichage par jeu.
  */
 export function getGameTimePlayed(game: GameForPlayedTimeStats): number {
-  const sessions = game.sessions ?? [];
-  if (sessions.length === 0) return 0;
-  return getGameTimePlayedFromSessions(sessions, game);
+  return getGamePlayedHoursFromSessions(game.sessions, game);
 }
 
 /**
