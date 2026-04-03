@@ -5,12 +5,14 @@ const {
   parseBaseBooksFullFromFile,
 } = require('../../utils/books/books-utils');
 
+import type { BaseBook } from '../../../src/app/models/book-model';
+
 const router = express.Router();
 
 router.get('/entities', (_req: any, res: any) => {
   try {
     const baseFiles = getBaseBooksFiles();
-    const books = baseFiles.flatMap((filePath: string) => {
+    const books: BaseBook[] = baseFiles.flatMap((filePath: string) => {
       const content = fs.readFileSync(filePath, 'utf8');
       return parseBaseBooksFullFromFile(content);
     });

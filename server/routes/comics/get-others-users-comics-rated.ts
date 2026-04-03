@@ -8,6 +8,13 @@ const {
 } = require('../../utils/comics/comics-utils');
 const { normalizeUsername } = require('../../utils/users/users-utils');
 
+import type { Comic } from '../../../src/app/models/comic-model';
+
+type OthersRatedComicEntry = Pick<Comic, 'title' | 'writer'> & {
+  rating: number;
+  userId: string;
+};
+
 const router = express.Router();
 
 function getFollowedUserIdsFromQuery(req: any): string[] {
@@ -31,18 +38,18 @@ router.get('/others-users-comics-rated', (req: any, res: any) => {
         ? followedUserIds.filter((id: string) => id !== normalizedUserId)
         : [];
 
-    const results: any[] = [];
+    const results: OthersRatedComicEntry[] = [];
     for (const userId of otherUsers) {
       try {
         const comicFiles = getUserComicsFiles(userId);
-        const comics = comicFiles.flatMap((comicFile: string) => {
+        const comics: Comic[] = comicFiles.flatMap((comicFile: string) => {
           const fileContent = fs.readFileSync(comicFile, 'utf8');
           return parseComicsFromFile(fileContent);
         });
 
         comics
-          .filter((comic: any) => (comic.rating ?? 0) >= minRating)
-          .forEach((comic: any) => {
+          .filter((comic) => (comic.rating ?? 0) >= minRating)
+          .forEach((comic) => {
             results.push({
               title: comic.title,
               writer: comic.writer,

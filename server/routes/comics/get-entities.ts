@@ -5,12 +5,14 @@ const {
   parseBaseComicsFullFromFile,
 } = require('../../utils/comics/comics-utils');
 
+import type { BaseComic } from '../../../src/app/models/comic-model';
+
 const router = express.Router();
 
 router.get('/entities', (_req: any, res: any) => {
   try {
     const baseFiles = getBaseComicsFiles();
-    const comics = baseFiles.flatMap((filePath: string) => {
+    const comics: BaseComic[] = baseFiles.flatMap((filePath: string) => {
       const content = fs.readFileSync(filePath, 'utf8');
       return parseBaseComicsFullFromFile(content);
     });

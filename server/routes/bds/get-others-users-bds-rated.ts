@@ -8,6 +8,13 @@ const {
 } = require('../../utils/bds/bds-utils');
 const { normalizeUsername } = require('../../utils/users/users-utils');
 
+import type { Bd } from '../../../src/app/models/bd-model';
+
+type OthersRatedBdEntry = Pick<Bd, 'title' | 'writer'> & {
+  rating: number;
+  userId: string;
+};
+
 const router = express.Router();
 
 function getFollowedUserIdsFromQuery(req: any): string[] {
@@ -31,18 +38,18 @@ router.get('/others-users-bds-rated', (req: any, res: any) => {
         ? followedUserIds.filter((id: string) => id !== normalizedUserId)
         : [];
 
-    const results: any[] = [];
+    const results: OthersRatedBdEntry[] = [];
     for (const userId of otherUsers) {
       try {
         const bdFiles = getUserBdsFiles(userId);
-        const bds = bdFiles.flatMap((bdFile: string) => {
+        const bds: Bd[] = bdFiles.flatMap((bdFile: string) => {
           const fileContent = fs.readFileSync(bdFile, 'utf8');
           return parseBdsFromFile(fileContent);
         });
 
         bds
-          .filter((bd: any) => (bd.rating ?? 0) >= minRating)
-          .forEach((bd: any) => {
+          .filter((bd) => (bd.rating ?? 0) >= minRating)
+          .forEach((bd) => {
             results.push({
               title: bd.title,
               writer: bd.writer,

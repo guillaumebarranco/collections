@@ -6,6 +6,8 @@ const {
   parseBdsFromFile,
 } = require('../../utils/bds/bds-utils');
 
+import type { Bd } from '../../../src/app/models/bd-model';
+
 const router = express.Router();
 
 router.get('/:userId', (req: any, res: any) => {
@@ -17,7 +19,7 @@ router.get('/:userId', (req: any, res: any) => {
     }
 
     const bdFiles = getUserBdsFiles(userId);
-    const bds = bdFiles.flatMap((bdFile: string) => {
+    const bds: Bd[] = bdFiles.flatMap((bdFile: string) => {
       const fileContent = fs.readFileSync(bdFile, 'utf8');
       return parseBdsFromFile(fileContent);
     });

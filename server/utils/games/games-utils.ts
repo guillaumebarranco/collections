@@ -282,6 +282,8 @@ function parseBaseGamesFullFromFile(content: string): any[] {
           releaseDate: parseStringField(objectText, 'releaseDate') || '',
           averageTimeToFinish:
             parseNumberField(objectText, 'averageTimeToFinish') ?? 0,
+          averageTimeToHundredPercent:
+            parseNumberField(objectText, 'averageTimeToHundredPercent') ?? 0,
           platform: parseStringField(objectText, 'platform') || '',
           saga: parseStringField(objectText, 'saga') || '',
           platineTime: parseNumberField(objectText, 'platineTime') ?? 0,

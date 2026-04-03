@@ -6,6 +6,8 @@ const {
   parseMangasFromFile,
 } = require('../../utils/mangas/mangas-utils');
 
+import type { Manga } from '../../../src/app/models/manga-model';
+
 const router = express.Router();
 
 router.get('/:userId', (req: any, res: any) => {
@@ -17,7 +19,7 @@ router.get('/:userId', (req: any, res: any) => {
     }
 
     const mangaFiles = getUserMangasFiles(userId);
-    const mangas = mangaFiles.flatMap((mangaFile: string) => {
+    const mangas: Manga[] = mangaFiles.flatMap((mangaFile: string) => {
       const fileContent = fs.readFileSync(mangaFile, 'utf8');
       return parseMangasFromFile(fileContent);
     });

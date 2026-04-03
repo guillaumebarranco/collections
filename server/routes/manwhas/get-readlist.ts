@@ -6,6 +6,8 @@ const {
   parseManwhasFromFile,
 } = require('../../utils/manwhas/manwhas-utils');
 
+import type { Manwha } from '../../../src/app/models/manwha-model';
+
 const router = express.Router();
 
 router.get('/readlist/:userId', (req: any, res: any) => {
@@ -17,7 +19,7 @@ router.get('/readlist/:userId', (req: any, res: any) => {
     }
 
     const manwhaFiles = getUserReadlistManwhasFiles(userId);
-    const manwhas = manwhaFiles.flatMap((manwhaFile: string) => {
+    const manwhas: Manwha[] = manwhaFiles.flatMap((manwhaFile: string) => {
       const fileContent = fs.readFileSync(manwhaFile, 'utf8');
       return parseManwhasFromFile(fileContent);
     });

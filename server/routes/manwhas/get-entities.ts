@@ -5,12 +5,14 @@ const {
   parseBaseManwhasFullFromFile,
 } = require('../../utils/manwhas/manwhas-utils');
 
+import type { BaseManwha } from '../../../src/app/models/manwha-model';
+
 const router = express.Router();
 
 router.get('/entities', (_req: any, res: any) => {
   try {
     const baseFiles = getBaseManwhasFiles();
-    const manwhas = baseFiles.flatMap((filePath: string) => {
+    const manwhas: BaseManwha[] = baseFiles.flatMap((filePath: string) => {
       const content = fs.readFileSync(filePath, 'utf8');
       return parseBaseManwhasFullFromFile(content);
     });

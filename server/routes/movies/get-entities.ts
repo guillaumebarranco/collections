@@ -5,12 +5,14 @@ const {
   parseBaseMoviesFullFromFile,
 } = require('../../utils/movies/movies-utils');
 
+import type { BaseMovie } from '../../../src/app/models/movie-model';
+
 const router = express.Router();
 
 router.get('/entities', (_req: any, res: any) => {
   try {
     const baseFiles = getBaseMoviesFiles();
-    const movies = baseFiles.flatMap((filePath: string) => {
+    const movies: BaseMovie[] = baseFiles.flatMap((filePath: string) => {
       const content = fs.readFileSync(filePath, 'utf8');
       return parseBaseMoviesFullFromFile(content);
     });

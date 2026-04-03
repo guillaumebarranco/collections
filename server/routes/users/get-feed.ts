@@ -17,6 +17,16 @@ const {
   parseSeriesFromFile,
 } = require('../../utils/series/series-utils');
 
+import type { Book } from '../../../src/app/models/book-model';
+import type {
+  FeedItemBook,
+  FeedItemMovie,
+  FeedItemSerie,
+  FeedUserEntry,
+} from '../../../src/app/models/feed-model';
+import type { Movie } from '../../../src/app/models/movie-model';
+import type { Serie } from '../../../src/app/models/serie-model';
+
 const router = express.Router();
 
 const FEED_MAX_ITEMS = 5;
@@ -33,7 +43,7 @@ function isDateWithinLastMonth(dateStr: string, oneMonthAgo: string): boolean {
   return dateStr >= oneMonthAgo;
 }
 
-function loadUserMovies(userId: string): any[] {
+function loadUserMovies(userId: string): Movie[] {
   try {
     const movieFiles = getUserMoviesFiles(userId);
     return movieFiles.flatMap((movieFile: string) => {
@@ -45,7 +55,7 @@ function loadUserMovies(userId: string): any[] {
   }
 }
 
-function loadUserBooks(userId: string): any[] {
+function loadUserBooks(userId: string): Book[] {
   try {
     const bookFiles = getUserBooksFiles(userId);
     return bookFiles.flatMap((bookFile: string) => {
@@ -57,7 +67,7 @@ function loadUserBooks(userId: string): any[] {
   }
 }
 
-function loadUserSeries(userId: string): any[] {
+function loadUserSeries(userId: string): Serie[] {
   try {
     const serieFiles = getUserSeriesFiles(userId);
     return serieFiles.flatMap((serieFile: string) => {
@@ -80,23 +90,27 @@ router.get('/:userId/feed', (req: any, res: any) => {
     const followedIds = getFollowedUserIds(userId);
     const oneMonthAgo = getOneMonthAgoDateString();
 
-    const feed = followedIds.map((followedUserId: string) => {
-      const movies = loadUserMovies(followedUserId)
-        .filter((m: any) => isDateWithinLastMonth(m.lastViewedDate ?? '', oneMonthAgo))
-        .sort((a: any, b: any) => (b.lastViewedDate || '').localeCompare(a.lastViewedDate || ''))
+    const feed: FeedUserEntry[] = followedIds.map((followedUserId: string) => {
+      const movies: FeedItemMovie[] = loadUserMovies(followedUserId)
+        .filter((m) => isDateWithinLastMonth(m.lastViewedDate ?? '', oneMonthAgo))
+        .sort((a, b) => (b.lastViewedDate || '').localeCompare(a.lastViewedDate || ''))
         .slice(0, FEED_MAX_ITEMS)
-        .map((m: any) => ({
+        .map((m) => ({
           title: m.title,
           director: m.director,
           date: m.lastViewedDate,
           rating: m.rating,
         }));
 
-      const books = loadUserBooks(followedUserId)
-        .filter((b: any) => isDateWithinLastMonth(b.lastReadDate || b.firstReadDate || '', oneMonthAgo))
-        .sort((a: any, b: any) => ((b.lastReadDate || b.firstReadDate) || '').localeCompare((a.lastReadDate || a.firstReadDate) || ''))
+      const books: FeedItemBook[] = loadUserBooks(followedUserId)
+        .filter((b) => isDateWithinLastMonth(b.lastReadDate || b.firstReadDate || '', oneMonthAgo))
+        .sort((a, b) =>
+          ((b.lastReadDate || b.firstReadDate) || '').localeCompare(
+            (a.lastReadDate || a.firstReadDate) || ''
+          )
+        )
         .slice(0, FEED_MAX_ITEMS)
-        .map((b: any) => ({
+        .map((b) => ({
           title: b.title,
           author: b.author,
           date: b.lastReadDate || b.firstReadDate,
@@ -104,25 +118,27 @@ router.get('/:userId/feed', (req: any, res: any) => {
         }));
 
       const allSeries = loadUserSeries(followedUserId);
-      const seriesWithMaxDate = allSeries.map((s: any) => {
+      const seriesWithMaxDate = allSeries.map((s) => {
         const dates = (s.seasons || [])
-          .map((se: any) => se.lastViewedDate)
+          .map((se) => se.lastViewedDate)
           .filter(Boolean);
         const maxDate = dates.length ? dates.sort().reverse()[0] : '';
         return { ...s, _maxViewedDate: maxDate };
       });
-      const series = seriesWithMaxDate
-        .filter((s: any) => isDateWithinLastMonth(s._maxViewedDate || '', oneMonthAgo))
-        .sort((a: any, b: any) =>
-          (b._maxViewedDate || '').localeCompare(a._maxViewedDate || '')
-        )
+      type SerieWithFeedMeta = Serie & { _maxViewedDate: string; rating?: number };
+      const series: FeedItemSerie[] = seriesWithMaxDate
+        .filter((s) => isDateWithinLastMonth(s._maxViewedDate || '', oneMonthAgo))
+        .sort((a, b) => (b._maxViewedDate || '').localeCompare(a._maxViewedDate || ''))
         .slice(0, FEED_MAX_ITEMS)
-        .map((s: any) => ({
-          title: s.title,
-          director: s.director,
-          date: s._maxViewedDate,
-          rating: s.rating,
-        }));
+        .map((s) => {
+          const row = s as SerieWithFeedMeta;
+          return {
+            title: row.title,
+            director: row.director,
+            date: row._maxViewedDate,
+            rating: row.rating,
+          };
+        });
 
       return {
         userId: followedUserId,
@@ -132,7 +148,7 @@ router.get('/:userId/feed', (req: any, res: any) => {
       };
     });
 
-    feed.sort((a: any, b: any) => {
+    feed.sort((a, b) => {
       const aHas = a.movies.length + a.books.length + a.series.length > 0;
       const bHas = b.movies.length + b.books.length + b.series.length > 0;
       if (aHas && !bHas) return -1;

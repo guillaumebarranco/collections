@@ -5,12 +5,14 @@ const {
   parseBaseBdsFullFromFile,
 } = require('../../utils/bds/bds-utils');
 
+import type { BaseBd } from '../../../src/app/models/bd-model';
+
 const router = express.Router();
 
 router.get('/entities', (_req: any, res: any) => {
   try {
     const baseFiles = getBaseBdsFiles();
-    const bds = baseFiles.flatMap((filePath: string) => {
+    const bds: BaseBd[] = baseFiles.flatMap((filePath: string) => {
       const content = fs.readFileSync(filePath, 'utf8');
       return parseBaseBdsFullFromFile(content);
     });

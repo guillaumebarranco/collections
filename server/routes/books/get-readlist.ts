@@ -6,6 +6,8 @@ const {
   parseBooksFromFile,
 } = require('../../utils/books/books-utils');
 
+import type { Book } from '../../../src/app/models/book-model';
+
 const router = express.Router();
 
 router.get('/readlist/:userId', (req: any, res: any) => {
@@ -17,7 +19,7 @@ router.get('/readlist/:userId', (req: any, res: any) => {
     }
 
     const bookFiles = getUserReadlistBooksFiles(userId);
-    const books = bookFiles.flatMap((bookFile: string) => {
+    const books: Book[] = bookFiles.flatMap((bookFile: string) => {
       const fileContent = fs.readFileSync(bookFile, 'utf8');
       return parseBooksFromFile(fileContent);
     });

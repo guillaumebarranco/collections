@@ -5,13 +5,15 @@ const {
   getUserGamesFiles,
 } = require('../../utils/games/games-utils');
 
+import type { UserGame } from '../../../src/app/models/game-model';
+
 const router = express.Router();
 
 router.get('/:userId', (req: any, res: any) => {
   try {
     const userId = req.params.userId;
     const files = getUserGamesFiles(userId);
-    const games = files
+    const games: UserGame[] = files
       .map((file: string) => {
         const content = fs.readFileSync(file, 'utf8');
         return parseGamesFromFile(content);

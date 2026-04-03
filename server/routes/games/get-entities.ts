@@ -3,6 +3,8 @@ const fs = require('fs');
 const path = require('path');
 const { parseBaseGamesFullFromFile } = require('../../utils/games/games-utils');
 
+import type { BaseGame } from '../../../src/app/models/game-model';
+
 const router = express.Router();
 
 router.get('/entities', (_req: any, res: any) => {
@@ -23,7 +25,7 @@ router.get('/entities', (_req: any, res: any) => {
       .readdirSync(baseGamesDir)
       .filter((file: string) => file.endsWith('.ts') && file !== 'index.ts');
 
-    const games = files
+    const games: BaseGame[] = files
       .map((file: string) => {
         const content = fs.readFileSync(path.join(baseGamesDir, file), 'utf8');
         return parseBaseGamesFullFromFile(content);

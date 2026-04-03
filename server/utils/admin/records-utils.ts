@@ -67,6 +67,11 @@ function minutesToDays(minutes: number): number {
   return minutes / MINUTES_PER_DAY;
 }
 
+/** Nombre fini ou 0 (évite NaN : `Number(undefined) ?? 0` reste NaN en JS). */
+function finiteOr0(n: number): number {
+  return Number.isFinite(n) ? n : 0;
+}
+
 /** Normalise une clé (trim, lowercase, espaces multiples → 1) pour le matching base/user. */
 function normalizeKey(s: string): string {
   return (s || '').trim().toLowerCase().replace(/\s+/g, ' ');
@@ -193,9 +198,11 @@ function loadBaseGamesEntityMap(): Map<string, { averageTimeToFinish: number; pl
       for (const g of games) {
         const key = `${normalizeKey(g.title || '')}|${normalizeKey(g.editor || '')}`;
         map.set(key, {
-          averageTimeToFinish: Number(g.averageTimeToFinish) ?? 0,
-          platineTime: Number(g.platineTime) ?? 0,
-          averageTimeToHundredPercent: Number((g as any).averageTimeToHundredPercent) ?? 0,
+          averageTimeToFinish: finiteOr0(Number(g.averageTimeToFinish)),
+          platineTime: finiteOr0(Number(g.platineTime)),
+          averageTimeToHundredPercent: finiteOr0(
+            Number((g as { averageTimeToHundredPercent?: number }).averageTimeToHundredPercent)
+          ),
         });
       }
     }

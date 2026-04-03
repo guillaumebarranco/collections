@@ -8,6 +8,13 @@ const {
 } = require('../../utils/manwhas/manwhas-utils');
 const { normalizeUsername } = require('../../utils/users/users-utils');
 
+import type { Manwha } from '../../../src/app/models/manwha-model';
+
+type OthersRatedManwhaEntry = Pick<Manwha, 'title' | 'author'> & {
+  rating: number;
+  userId: string;
+};
+
 const router = express.Router();
 
 function getFollowedUserIdsFromQuery(req: any): string[] {
@@ -31,18 +38,18 @@ router.get('/others-users-manwhas-rated', (req: any, res: any) => {
         ? followedUserIds.filter((id: string) => id !== normalizedUserId)
         : [];
 
-    const results: any[] = [];
+    const results: OthersRatedManwhaEntry[] = [];
     for (const userId of otherUsers) {
       try {
         const manwhaFiles = getUserManwhasFiles(userId);
-        const manwhas = manwhaFiles.flatMap((manwhaFile: string) => {
+        const manwhas: Manwha[] = manwhaFiles.flatMap((manwhaFile: string) => {
           const fileContent = fs.readFileSync(manwhaFile, 'utf8');
           return parseManwhasFromFile(fileContent);
         });
 
         manwhas
-          .filter((manwha: any) => (manwha.rating ?? 0) >= minRating)
-          .forEach((manwha: any) => {
+          .filter((manwha) => (manwha.rating ?? 0) >= minRating)
+          .forEach((manwha) => {
             results.push({
               title: manwha.title,
               author: manwha.author,

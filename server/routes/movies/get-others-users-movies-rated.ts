@@ -8,6 +8,13 @@ const {
 } = require('../../utils/movies/movies-utils');
 const { normalizeUsername } = require('../../utils/users/users-utils');
 
+import type { Movie } from '../../../src/app/models/movie-model';
+
+type OthersRatedMovieEntry = Pick<Movie, 'title' | 'director'> & {
+  rating: number;
+  userId: string;
+};
+
 const router = express.Router();
 
 function getFollowedUserIdsFromQuery(req: any): string[] {
@@ -31,18 +38,18 @@ router.get('/others-users-movies-rated', (req: any, res: any) => {
         ? followedUserIds.filter((id: string) => id !== normalizedUserId)
         : [];
 
-    const results: any[] = [];
+    const results: OthersRatedMovieEntry[] = [];
     for (const userId of otherUsers) {
       try {
         const movieFiles = getUserMoviesFiles(userId);
-        const movies = movieFiles.flatMap((movieFile: string) => {
+        const movies: Movie[] = movieFiles.flatMap((movieFile: string) => {
           const fileContent = fs.readFileSync(movieFile, 'utf8');
           return parseMoviesFromFile(fileContent);
         });
 
         movies
-          .filter((movie: any) => (movie.rating ?? 0) >= minRating)
-          .forEach((movie: any) => {
+          .filter((movie) => (movie.rating ?? 0) >= minRating)
+          .forEach((movie) => {
             results.push({
               title: movie.title,
               director: movie.director,

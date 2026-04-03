@@ -8,6 +8,13 @@ const {
 } = require('../../utils/books/books-utils');
 const { normalizeUsername } = require('../../utils/users/users-utils');
 
+import type { Book } from '../../../src/app/models/book-model';
+
+type OthersRatedBookEntry = Pick<Book, 'title' | 'author'> & {
+  rating: number;
+  userId: string;
+};
+
 const router = express.Router();
 
 function getFollowedUserIdsFromQuery(req: any): string[] {
@@ -31,18 +38,18 @@ router.get('/others-users-books-rated', (req: any, res: any) => {
         ? followedUserIds.filter((id: string) => id !== normalizedUserId)
         : [];
 
-    const results: any[] = [];
+    const results: OthersRatedBookEntry[] = [];
     for (const userId of otherUsers) {
       try {
         const bookFiles = getUserBooksFiles(userId);
-        const books = bookFiles.flatMap((bookFile: string) => {
+        const books: Book[] = bookFiles.flatMap((bookFile: string) => {
           const fileContent = fs.readFileSync(bookFile, 'utf8');
           return parseBooksFromFile(fileContent);
         });
 
         books
-          .filter((book: any) => (book.rating ?? 0) >= minRating)
-          .forEach((book: any) => {
+          .filter((book) => (book.rating ?? 0) >= minRating)
+          .forEach((book) => {
             results.push({
               title: book.title,
               author: book.author,

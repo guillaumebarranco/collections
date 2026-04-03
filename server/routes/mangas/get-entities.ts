@@ -5,12 +5,14 @@ const {
   parseBaseMangasFullFromFile,
 } = require('../../utils/mangas/mangas-utils');
 
+import type { BaseManga } from '../../../src/app/models/manga-model';
+
 const router = express.Router();
 
 router.get('/entities', (_req: any, res: any) => {
   try {
     const baseFiles = getBaseMangasFiles();
-    const mangas = baseFiles.flatMap((filePath: string) => {
+    const mangas: BaseManga[] = baseFiles.flatMap((filePath: string) => {
       const content = fs.readFileSync(filePath, 'utf8');
       return parseBaseMangasFullFromFile(content);
     });

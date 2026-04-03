@@ -8,6 +8,13 @@ const {
 } = require('../../utils/mangas/mangas-utils');
 const { normalizeUsername } = require('../../utils/users/users-utils');
 
+import type { Manga } from '../../../src/app/models/manga-model';
+
+type OthersRatedMangaEntry = Pick<Manga, 'title' | 'author'> & {
+  rating: number;
+  userId: string;
+};
+
 const router = express.Router();
 
 function getFollowedUserIdsFromQuery(req: any): string[] {
@@ -31,18 +38,18 @@ router.get('/others-users-mangas-rated', (req: any, res: any) => {
         ? followedUserIds.filter((id: string) => id !== normalizedUserId)
         : [];
 
-    const results: any[] = [];
+    const results: OthersRatedMangaEntry[] = [];
     for (const userId of otherUsers) {
       try {
         const mangaFiles = getUserMangasFiles(userId);
-        const mangas = mangaFiles.flatMap((mangaFile: string) => {
+        const mangas: Manga[] = mangaFiles.flatMap((mangaFile: string) => {
           const fileContent = fs.readFileSync(mangaFile, 'utf8');
           return parseMangasFromFile(fileContent);
         });
 
         mangas
-          .filter((manga: any) => (manga.rating ?? 0) >= minRating)
-          .forEach((manga: any) => {
+          .filter((manga) => (manga.rating ?? 0) >= minRating)
+          .forEach((manga) => {
             results.push({
               title: manga.title,
               author: manga.author,

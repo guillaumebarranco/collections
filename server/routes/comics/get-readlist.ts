@@ -6,6 +6,8 @@ const {
   parseComicsFromFile,
 } = require('../../utils/comics/comics-utils');
 
+import type { Comic } from '../../../src/app/models/comic-model';
+
 const router = express.Router();
 
 router.get('/readlist/:userId', (req: any, res: any) => {
@@ -17,7 +19,7 @@ router.get('/readlist/:userId', (req: any, res: any) => {
     }
 
     const comicFiles = getUserReadlistComicsFiles(userId);
-    const comics = comicFiles.flatMap((comicFile: string) => {
+    const comics: Comic[] = comicFiles.flatMap((comicFile: string) => {
       const fileContent = fs.readFileSync(comicFile, 'utf8');
       return parseComicsFromFile(fileContent);
     });

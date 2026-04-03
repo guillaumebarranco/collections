@@ -8,6 +8,13 @@ const {
 } = require('../../utils/games/games-utils');
 const { normalizeUsername } = require('../../utils/users/users-utils');
 
+import type { UserGame } from '../../../src/app/models/game-model';
+
+type OthersRatedGameEntry = Pick<UserGame, 'title' | 'editor'> & {
+  rating: number;
+  userId: string;
+};
+
 const router = express.Router();
 
 function getFollowedUserIdsFromQuery(req: any): string[] {
@@ -31,18 +38,18 @@ router.get('/others-users-games-rated', (req: any, res: any) => {
         ? followedUserIds.filter((id: string) => id !== normalizedUserId)
         : [];
 
-    const results: any[] = [];
+    const results: OthersRatedGameEntry[] = [];
     for (const userId of otherUsers) {
       try {
         const gameFiles = getUserGamesFiles(userId);
-        const games = gameFiles.flatMap((gameFile: string) => {
+        const games: UserGame[] = gameFiles.flatMap((gameFile: string) => {
           const fileContent = fs.readFileSync(gameFile, 'utf8');
           return parseGamesFromFile(fileContent);
         });
 
         games
-          .filter((game: any) => (game.rating ?? 0) >= minRating)
-          .forEach((game: any) => {
+          .filter((game) => (game.rating ?? 0) >= minRating)
+          .forEach((game) => {
             results.push({
               title: game.title,
               editor: game.editor,

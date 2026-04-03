@@ -5,12 +5,14 @@ const {
   parseBaseMusicsFullFromFile,
 } = require('../../utils/musics/musics-utils');
 
+import type { BaseMusic } from '../../../src/app/models/music-model';
+
 const router = express.Router();
 
 router.get('/entities', (_req: any, res: any) => {
   try {
     const baseFiles = getBaseMusicsFiles();
-    const musics = baseFiles.flatMap((filePath: string) => {
+    const musics: BaseMusic[] = baseFiles.flatMap((filePath: string) => {
       const content = fs.readFileSync(filePath, 'utf8');
       return parseBaseMusicsFullFromFile(content);
     });

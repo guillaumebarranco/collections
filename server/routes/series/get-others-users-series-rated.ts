@@ -8,6 +8,14 @@ const {
 } = require('../../utils/series/series-utils');
 const { normalizeUsername } = require('../../utils/users/users-utils');
 
+import type { Serie } from '../../../src/app/models/serie-model';
+
+type OthersRatedSerieEntry = Pick<Serie, 'title' | 'director'> & {
+  /** Moyenne des notes par saison (calculée côté API). */
+  rating: number;
+  userId: string;
+};
+
 const router = express.Router();
 
 function getFollowedUserIdsFromQuery(req: any): string[] {
@@ -31,35 +39,31 @@ router.get('/others-users-series-rated', (req: any, res: any) => {
         ? followedUserIds.filter((id: string) => id !== normalizedUserId)
         : [];
 
-    const results: any[] = [];
+    const results: OthersRatedSerieEntry[] = [];
     for (const userId of otherUsers) {
       try {
         const serieFiles = getUserSeriesFiles(userId);
-        const series = serieFiles.flatMap((serieFile: string) => {
+        const series: Serie[] = serieFiles.flatMap((serieFile: string) => {
           const fileContent = fs.readFileSync(serieFile, 'utf8');
           return parseSeriesFromFile(fileContent);
         });
 
         series
-          .filter((serie: any) => {
+          .filter((serie) => {
             // Pour les séries, on prend la note moyenne des saisons
             const seasons = serie.seasons || [];
             if (seasons.length === 0) return false;
             const avgRating =
-              seasons.reduce(
-                (sum: number, s: any) => sum + (s.seasonRating || 0),
-                0
-              ) / seasons.length;
+              seasons.reduce((sum, s) => sum + (s.seasonRating || 0), 0) /
+              seasons.length;
             return avgRating >= minRating;
           })
-          .forEach((serie: any) => {
+          .forEach((serie) => {
             const seasons = serie.seasons || [];
             const avgRating =
               seasons.length > 0
-                ? seasons.reduce(
-                    (sum: number, s: any) => sum + (s.seasonRating || 0),
-                    0
-                  ) / seasons.length
+                ? seasons.reduce((sum, s) => sum + (s.seasonRating || 0), 0) /
+                  seasons.length
                 : 0;
             results.push({
               title: serie.title,

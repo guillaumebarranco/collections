@@ -6,6 +6,8 @@ const {
   parseSeriesFromFile,
 } = require('../../utils/series/series-utils');
 
+import type { Serie } from '../../../src/app/models/serie-model';
+
 const router = express.Router();
 
 router.get('/watchlist/:userId', (req: any, res: any) => {
@@ -17,7 +19,7 @@ router.get('/watchlist/:userId', (req: any, res: any) => {
     }
 
     const serieFiles = getUserWatchlistSeriesFiles(userId);
-    const series = serieFiles.flatMap((serieFile: string) => {
+    const series: Serie[] = serieFiles.flatMap((serieFile: string) => {
       const fileContent = fs.readFileSync(serieFile, 'utf8');
       return parseSeriesFromFile(fileContent);
     });
