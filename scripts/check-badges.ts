@@ -3,14 +3,18 @@
  * qui remplissent les conditions. Met à jour src/app/utils/users/users-badges.ts.
  *
  * À lancer manuellement : npm run check-badges
- * Les conditions doivent rester alignées avec les descriptions dans badges.ts.
- * Pour les livres : les IDs doivent correspondre à `BOOKS_BADGE_DEFINITIONS` dans
- * `src/app/utils/badges/books-badges.ts`.
- * Pour les films : les IDs doivent correspondre à `MOVIES_BADGE_DEFINITIONS` dans
- * `src/app/utils/badges/movies-badges.ts`.
- * Mangas / manwhas / comics / BDs / séries : fichiers `*-badges.ts` dans
- * `src/app/utils/badges/` (paliers volume ou séries vues, sans genre).
+ *
+ * Catalogue canonique : `BADGE_DEFINITIONS` dans `src/app/utils/users/badges.ts`
+ * (agrège `src/app/utils/badges/*-badges.ts`). Chaque id du catalogue doit avoir
+ * une condition dérivée de `BadgeDefinition.threshold` + `badge-threshold-stat.ts`,
+ * sauf les sagas (conditions booléennes dédiées).
  */
+
+import {
+  BADGE_DEFINITIONS,
+  getBadgeThresholdStatKey,
+} from '../src/app/utils/users/badges';
+import { countSeriesSeenForBadges } from '../src/app/utils/series.utils';
 
 const path = require('path');
 const fs = require('fs');
@@ -55,147 +59,68 @@ type BadgeStats = {
   manwhasRead: number;
   comicsRead: number;
   bdsRead: number;
-  /** Séries dans la liste « vues » (hors watchlist). */
+  /**
+   * Séries distinctes hors watchlist avec au moins une saison entièrement visionnée (≥1).
+   */
   seriesWatched: number;
 };
 
-/** Conditions des badges (alignées avec books-badges.ts, movies-badges.ts, games-badges). */
-const BADGE_CONDITIONS: Record<string, (stats: BadgeStats) => boolean> = {
-  // ——— Livres (général) — books-badges.ts
-  'petit-lecteur': (s) => s.booksRead >= 50,
-  'graine-lecteur': (s) => s.booksRead >= 100,
-  'lecteur-assidu': (s) => s.booksRead >= 150,
-  'lecteur-chevronne': (s) => s.booksRead >= 200,
-  'lecteur-passionne': (s) => s.booksRead >= 250,
-  'lecteur-veteran': (s) => s.booksRead >= 300,
-  'rat-bibliotheque': (s) => s.booksRead >= 350,
-  'amoureux-lecture': (s) => s.booksRead >= 400,
-  'maitre-lecteur': (s) => s.booksRead >= 450,
-  'doyen-lecteurs': (s) => s.booksRead >= 500,
-  // ——— Fantasy (livres)
-  sorcelier: (s) => s.booksFantasyRead >= 15,
-  'demi-dieu': (s) => s.booksFantasyRead >= 30,
-  'reine-dragons': (s) => s.booksFantasyRead >= 50,
-  'elu-prophetie': (s) => s.booksFantasyRead >= 80,
-  'seigneur-fantasy': (s) => s.booksFantasyRead >= 100,
-  // ——— Romance (livres)
-  'petit-beguin-books': (s) => s.booksRomanceRead >= 15,
-  'lover-books': (s) => s.booksRomanceRead >= 30,
-  'ames-soeurs': (s) => s.booksRomanceRead >= 50,
-  'amour-a-travers-la-mort': (s) => s.booksRomanceRead >= 80,
-  'icone-romance': (s) => s.booksRomanceRead >= 100,
-  // ——— Science-fiction (livres)
-  'marche-vers-l-inconnu': (s) => s.booksScienceFictionRead >= 15,
-  'guerrier-omniscient': (s) => s.booksScienceFictionRead >= 30,
-  'explorateur-profondeurs': (s) => s.booksScienceFictionRead >= 50,
-  'survivant-invasion': (s) => s.booksScienceFictionRead >= 80,
-  'architecte-psychohistoire': (s) => s.booksScienceFictionRead >= 100,
-  // ——— Policier (livres)
-  'amateur-polars': (s) => s.booksPolicierRead >= 15,
-  'enqueteur-verite': (s) => s.booksPolicierRead >= 30,
-  'artiste-evasion': (s) => s.booksPolicierRead >= 50,
-  'maitre-mystere': (s) => s.booksPolicierRead >= 80,
-  'genie-deduction': (s) => s.booksPolicierRead >= 100,
-  // ——— Nonfiction (livres)
-  'lecteur-curieux-nonfiction': (s) => s.booksNonfictionRead >= 15,
-  'chercheur-savoir': (s) => s.booksNonfictionRead >= 30,
-  'precurseur-progres': (s) => s.booksNonfictionRead >= 50,
-  'icone-changement': (s) => s.booksNonfictionRead >= 80,
-  'sage-humanite': (s) => s.booksNonfictionRead >= 100,
-  // ——— Aventure (livres)
-  explorateur: (s) => s.booksAventureRead >= 15,
-  'moussaillon-flots': (s) => s.booksAventureRead >= 30,
-  'grand-voyageur-livres': (s) => s.booksAventureRead >= 50,
-  'ubiquiste-monde': (s) => s.booksAventureRead >= 80,
-  'aventurier-legendaire': (s) => s.booksAventureRead >= 100,
-  // ——— Films
-  'cinephile-herbe': (s) => s.moviesWatched >= 100,
-  'cinephile-amateur': (s) => s.moviesWatched >= 300,
-  'cinephile-passionne': (s) => s.moviesWatched >= 500,
-  'cinephile-devoué': (s) => s.moviesWatched >= 800,
-  'cinephile-inconditionnel': (s) => s.moviesWatched >= 1000,
-  // ——— Romance (films) — movies-badges.ts
-  'amour-jeunesse': (s) => s.moviesRomanceWatched >= 50,
-  'un-amour-de-cinema': (s) => s.moviesRomanceWatched >= 100,
-  'passion-vacances': (s) => s.moviesRomanceWatched >= 150,
-  'grand-amour-movies': (s) => s.moviesRomanceWatched >= 200,
-  'amour-eternel-movies': (s) => s.moviesRomanceWatched >= 300,
-  // ——— Science-fiction (films) — movies-badges.ts
-  extraterrestre: (s) => s.moviesScienceFictionWatched >= 50,
-  'machine-du-futur': (s) => s.moviesScienceFictionWatched >= 100,
-  'elu-de-la-matrice': (s) => s.moviesScienceFictionWatched >= 150,
-  'voyageur-temporel': (s) => s.moviesScienceFictionWatched >= 200,
-  'maitre-galaxie': (s) => s.moviesScienceFictionWatched >= 300,
-  // ——— Thriller (films) — movies-badges.ts
-  'obsession-psychologique': (s) => s.moviesThrillerWatched >= 50,
-  'expert-tension': (s) => s.moviesThrillerWatched >= 100,
-  'fondateur-thriller': (s) => s.moviesThrillerWatched >= 150,
-  'maitre-suspense': (s) => s.moviesThrillerWatched >= 200,
-  'genie-manipulation': (s) => s.moviesThrillerWatched >= 300,
-  // ——— Horreur (films) — movies-badges.ts
-  'tout-ce-sang': (s) => s.moviesHorreurWatched >= 50,
-  'derriere-le-masque': (s) => s.moviesHorreurWatched >= 100,
-  'gardien-horreur': (s) => s.moviesHorreurWatched >= 150,
-  'terreur-autre-monde': (s) => s.moviesHorreurWatched >= 200,
-  'maitre-horreur-movies': (s) => s.moviesHorreurWatched >= 300,
-  // ——— Comédie (films) — movies-badges.ts
-  'drole-de-gendarme': (s) => s.moviesComedieWatched >= 50,
-  'espion-blanquette': (s) => s.moviesComedieWatched >= 100,
-  'oh-le-con': (s) => s.moviesComedieWatched >= 150,
-  'sancho-de-cuba': (s) => s.moviesComedieWatched >= 200,
-  'architecte-humour': (s) => s.moviesComedieWatched >= 300,
-  // ——— Action (films) — movies-badges.ts
-  transporteur: (s) => s.moviesActionWatched >= 50,
-  'baba-yaga': (s) => s.moviesActionWatched >= 100,
-  'flic-new-york': (s) => s.moviesActionWatched >= 150,
-  veteran: (s) => s.moviesActionWatched >= 200,
-  'icone-action': (s) => s.moviesActionWatched >= 300,
-  // ——— Films (sagas) — avoir vu tous les films de la saga
-  'vengeurs-de-la-terre': (s) => s.sagasFullyWatched.has('Marvel Cinematic Universe'),
-  'badges-des-trois-sorciers': (s) => s.sagasFullyWatched.has('Wizarding World'),
-  'guerrier-de-la-terre-du-milieu': (s) => s.sagasFullyWatched.has('Tolkien'),
+function buildThresholdBadgeConditions(): Record<
+  string,
+  (stats: BadgeStats) => boolean
+> {
+  const out: Record<string, (stats: BadgeStats) => boolean> = {};
+  for (const def of BADGE_DEFINITIONS) {
+    if (def.threshold === undefined) {
+      continue;
+    }
+    const key = getBadgeThresholdStatKey(def.id);
+    if (key === null) {
+      throw new Error(
+        `[check-badges] Badge ${def.id}: threshold défini mais métrique inconnue (badge-threshold-stat.ts)`
+      );
+    }
+    const t = def.threshold;
+    out[def.id] = (s) => (s[key] as number) >= t;
+  }
+  return out;
+}
+
+/** Badges saga : pas de `threshold`, condition sur l’ensemble des films. */
+const SAGA_BADGE_CONDITIONS: Record<string, (stats: BadgeStats) => boolean> = {
+  'vengeurs-de-la-terre': (s) =>
+    s.sagasFullyWatched.has('Marvel Cinematic Universe'),
+  'badges-des-trois-sorciers': (s) =>
+    s.sagasFullyWatched.has('Wizarding World'),
+  'guerrier-de-la-terre-du-milieu': (s) =>
+    s.sagasFullyWatched.has('Tolkien'),
   'membre-de-l-ordre': (s) => s.sagasFullyWatched.has('Star Wars'),
-  // ——— Jeux vidéo (joués)
-  'joueur-du-dimanche': (s) => s.gamesPlayed >= 20,
-  'petit-joueur': (s) => s.gamesPlayed >= 50,
-  'gamer': (s) => s.gamesPlayed >= 100,
-  'nerd': (s) => s.gamesPlayed >= 150,
-  'no-life': (s) => s.gamesPlayed >= 200,
-  // ——— Jeux vidéo (terminés)
-  'joueur-capable': (s) => s.gamesFinished >= 50,
-  'champion-du-joystick': (s) => s.gamesFinished >= 100,
-  'virtuose-de-la-manette': (s) => s.gamesFinished >= 200,
-  // ——— Mangas lus — mangas-badges.ts
-  'mangas-quinze-lus': (s) => s.mangasRead >= 15,
-  'mangas-trente-lus': (s) => s.mangasRead >= 30,
-  'mangas-cinquante-lus': (s) => s.mangasRead >= 50,
-  'mangas-quatre-vingt-lus': (s) => s.mangasRead >= 80,
-  'mangas-cent-lus': (s) => s.mangasRead >= 100,
-  // ——— Manwhas lus — manwhas-badges.ts
-  'manwhas-quinze-lus': (s) => s.manwhasRead >= 15,
-  'manwhas-trente-lus': (s) => s.manwhasRead >= 30,
-  'manwhas-cinquante-lus': (s) => s.manwhasRead >= 50,
-  'manwhas-quatre-vingt-lus': (s) => s.manwhasRead >= 80,
-  'manwhas-cent-lus': (s) => s.manwhasRead >= 100,
-  // ——— Comics lus — comics-badges.ts
-  'comics-quinze-lus': (s) => s.comicsRead >= 15,
-  'comics-trente-lus': (s) => s.comicsRead >= 30,
-  'comics-cinquante-lus': (s) => s.comicsRead >= 50,
-  'comics-quatre-vingt-lus': (s) => s.comicsRead >= 80,
-  'comics-cent-lus': (s) => s.comicsRead >= 100,
-  // ——— Bandes dessinées lues — bds-badges.ts
-  'bds-quinze-lus': (s) => s.bdsRead >= 15,
-  'bds-trente-lus': (s) => s.bdsRead >= 30,
-  'bds-cinquante-lus': (s) => s.bdsRead >= 50,
-  'bds-quatre-vingt-lus': (s) => s.bdsRead >= 80,
-  'bds-cent-lus': (s) => s.bdsRead >= 100,
-  // ——— Séries vues — series-badges.ts
-  'series-cinq-vues': (s) => s.seriesWatched >= 5,
-  'series-dix-vues': (s) => s.seriesWatched >= 10,
-  'series-vingt-cinq-vues': (s) => s.seriesWatched >= 25,
-  'series-quarante-vues': (s) => s.seriesWatched >= 40,
-  'series-soixante-vues': (s) => s.seriesWatched >= 60,
 };
+
+const BADGE_CONDITIONS: Record<string, (stats: BadgeStats) => boolean> = {
+  ...buildThresholdBadgeConditions(),
+  ...SAGA_BADGE_CONDITIONS,
+};
+
+function assertBadgeConditionsMatchCatalog(): void {
+  const catalogIds = BADGE_DEFINITIONS.map((b) => b.id);
+  const missing = catalogIds.filter((id) => !BADGE_CONDITIONS[id]);
+  if (missing.length > 0) {
+    console.error(
+      '[check-badges] Badges dans BADGE_DEFINITIONS sans condition dans BADGE_CONDITIONS :',
+      missing.join(', ')
+    );
+    process.exit(1);
+  }
+  const catalogSet = new Set(catalogIds);
+  const orphan = Object.keys(BADGE_CONDITIONS).filter((id) => !catalogSet.has(id));
+  if (orphan.length > 0) {
+    console.warn(
+      '[check-badges] Clés dans BADGE_CONDITIONS absentes du catalogue (ignorées) :',
+      orphan.join(', ')
+    );
+  }
+}
 
 function isRated(rating: unknown): boolean {
   return rating != null && typeof rating === 'number';
@@ -243,6 +168,8 @@ function countBooksByGenre(
 }
 
 function main(): void {
+  assertBadgeConditionsMatchCatalog();
+
   // Import côté app (résolution au runtime)
   const { users } = require('../src/app/utils/users/users');
   const {
@@ -261,7 +188,8 @@ function main(): void {
   const { getLocalSeriesByUser } = require('../src/app/facades/series/local-series.facade');
 
   const userIds = (users as { username: string }[]).map((u) => u.username);
-  const badgeIds = Object.keys(BADGE_CONDITIONS);
+  const badgeIds = BADGE_DEFINITIONS.map((b) => b.id);
+  const validBadgeIds = new Set(badgeIds);
 
   const genreByBookKey: Record<string, string> = {};
   for (const b of allBaseBooks) {
@@ -370,34 +298,13 @@ function main(): void {
       manwhasRead: manwhas.length,
       comicsRead: comics.length,
       bdsRead: bds.length,
-      seriesWatched: seriesWatchedList.length,
+      seriesWatched: countSeriesSeenForBadges(seriesWatchedList),
     };
 
-    const earned = badgeIds.filter((id) =>
-      BADGE_CONDITIONS[id] ? BADGE_CONDITIONS[id](stats) : false
-    );
+    const earned = badgeIds.filter((id) => BADGE_CONDITIONS[id]!(stats));
 
-    let existing: string[] = [];
-    if (fs.existsSync(USERS_BADGES_PATH)) {
-      try {
-        const content = fs.readFileSync(USERS_BADGES_PATH, 'utf8');
-        const eq = content.indexOf(' = ');
-        if (eq !== -1) {
-          const jsonStart = eq + 3;
-          const jsonEnd = content.lastIndexOf(';');
-          const jsonStr = (jsonEnd > jsonStart ? content.slice(jsonStart, jsonEnd) : content.slice(jsonStart)).trim();
-          const data = JSON.parse(jsonStr) as Record<string, string[]>;
-          existing = Array.isArray(data[userId]) ? data[userId] : [];
-        }
-      } catch {
-        existing = [];
-      }
-    }
-
-    const validIds = new Set(badgeIds);
-    const merged = [...new Set([...existing, ...earned])]
-      .filter((id) => validIds.has(id))
-      .sort();
+    // Liste autoritaire : uniquement les badges encore mérités (retire les erreurs d’historique).
+    const merged = earned.filter((id) => validBadgeIds.has(id)).sort();
     next[userId] = merged;
   }
 

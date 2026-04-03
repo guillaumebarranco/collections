@@ -1,5 +1,47 @@
 import { Serie } from '../models/serie-model';
 
+/**
+ * Nombre de séries distinctes en bibliothèque (titre + réalisateur), sans tenir compte du visionnage.
+ */
+export function countDistinctSeriesForBadges(
+  rows: Array<{ title?: string; director?: string }>
+): number {
+  const keys = new Set<string>();
+  for (const r of rows) {
+    const t = (r.title ?? '').trim();
+    const d = (r.director ?? '').trim();
+    if (!t || !d) continue;
+    keys.add(`${t}|${d}`);
+  }
+  return keys.size;
+}
+
+/**
+ * Nombre de séries distinctes « vues » pour les badges : au moins une saison avec
+ * `seasonTimesWatched >= 1` (visionnage complet d’au moins une saison).
+ * Les saisons à 0 ou 0.5 seules ne comptent pas ; une entrée = une série (pas une saison).
+ */
+export function countSeriesSeenForBadges(
+  rows: Array<{
+    title?: string;
+    director?: string;
+    seasons?: Array<{ seasonTimesWatched?: number }>;
+  }>
+): number {
+  const keys = new Set<string>();
+  for (const r of rows) {
+    const t = (r.title ?? '').trim();
+    const d = (r.director ?? '').trim();
+    if (!t || !d) continue;
+    const seen = (r.seasons ?? []).some(
+      (s) => Number(s.seasonTimesWatched ?? 0) >= 1
+    );
+    if (!seen) continue;
+    keys.add(`${t}|${d}`);
+  }
+  return keys.size;
+}
+
 export function getSerieSeasonsCount(serie: Serie): number {
   return serie.seasonsData?.length ?? 0;
 }

@@ -173,7 +173,7 @@ export class SeriesHeaderComponent {
       ? 'Recommandations'
       : this.selectedView() === 'countries'
       ? 'Séries par pays'
-      : 'Séries finies'
+      : 'Séries vues'
   );
 
   getSelectSeriesRoute(): string {

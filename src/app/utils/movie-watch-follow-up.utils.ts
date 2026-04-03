@@ -1,26 +1,34 @@
-import { BADGE_DEFINITIONS } from './users/badges';
+import type { BadgeDefinition } from '../models/badge-model';
+import {
+  BADGE_DEFINITIONS,
+  getBadgeThresholdStatKey,
+} from './users/badges';
 import type { Movie } from '../models/movie-model';
 import type { EntityBadgeProgressRow } from './entity-badge-progress.types';
 
 export type MovieBadgeProgressRow = EntityBadgeProgressRow;
 
-/** Paliers badges « nombre de films vus » (ordre croissant). */
-export const CINEPHILE_MOVIE_TIERS: { id: string; threshold: number }[] = [
-  { id: 'cinephile-herbe', threshold: 100 },
-  { id: 'cinephile-amateur', threshold: 300 },
-  { id: 'cinephile-passionne', threshold: 500 },
-  { id: 'cinephile-devoué', threshold: 800 },
-  { id: 'cinephile-inconditionnel', threshold: 1000 },
-];
+function tiersFromDefinitions(
+  predicate: (def: BadgeDefinition) => boolean
+): { id: string; threshold: number }[] {
+  return BADGE_DEFINITIONS.filter(predicate)
+    .map((b) => ({ id: b.id, threshold: b.threshold! }))
+    .sort((a, b) => a.threshold - b.threshold);
+}
 
-/** Paliers badges « films de romance vus » — aligné avec movies-badges.ts. */
-export const ROMANCE_MOVIE_TIERS: { id: string; threshold: number }[] = [
-  { id: 'amour-jeunesse', threshold: 50 },
-  { id: 'un-amour-de-cinema', threshold: 100 },
-  { id: 'passion-vacances', threshold: 150 },
-  { id: 'grand-amour-movies', threshold: 200 },
-  { id: 'amour-eternel-movies', threshold: 300 },
-];
+/** Paliers badges « nombre de films vus » (ordre croissant), depuis `BadgeDefinition.threshold`. */
+export const CINEPHILE_MOVIE_TIERS: { id: string; threshold: number }[] =
+  tiersFromDefinitions(
+    (b) => b.id.startsWith('cinephile-') && b.threshold !== undefined
+  );
+
+/** Paliers badges « films de romance vus ». */
+export const ROMANCE_MOVIE_TIERS: { id: string; threshold: number }[] =
+  tiersFromDefinitions(
+    (b) =>
+      getBadgeThresholdStatKey(b.id) === 'moviesRomanceWatched' &&
+      b.threshold !== undefined
+  );
 
 function badgeMeta(id: string): { name: string; image: string } {
   const def = BADGE_DEFINITIONS.find((b) => b.id === id);

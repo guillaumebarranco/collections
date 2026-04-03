@@ -38,12 +38,9 @@ export const usersBadges: Record<string, string[]> = {
     "reine-dragons",
     "series-cinq-vues",
     "series-dix-vues",
-    "series-quarante-vues",
-    "series-soixante-vues",
     "series-vingt-cinq-vues",
     "sorcelier",
     "transporteur",
-    "vengeurs-de-la-terre",
     "veteran"
   ],
   "ronan": [
@@ -86,7 +83,6 @@ export const usersBadges: Record<string, string[]> = {
     "series-cinq-vues",
     "series-dix-vues",
     "series-quarante-vues",
-    "series-soixante-vues",
     "series-vingt-cinq-vues",
     "sorcelier",
     "tout-ce-sang",
@@ -95,17 +91,12 @@ export const usersBadges: Record<string, string[]> = {
     "veteran"
   ],
   "cassandre": [
-    "series-cinq-vues",
-    "series-dix-vues",
-    "series-quarante-vues",
-    "series-soixante-vues",
-    "series-vingt-cinq-vues"
+    "series-cinq-vues"
   ],
   "kevin": [
     "demi-dieu",
     "elu-prophetie",
     "graine-lecteur",
-    "lecteur-assidu",
     "petit-lecteur",
     "reine-dragons",
     "seigneur-fantasy",
@@ -185,11 +176,6 @@ export const usersBadges: Record<string, string[]> = {
     "graine-lecteur",
     "obsession-psychologique",
     "petit-lecteur",
-    "series-cinq-vues",
-    "series-dix-vues",
-    "series-quarante-vues",
-    "series-soixante-vues",
-    "series-vingt-cinq-vues",
     "sorcelier",
     "tout-ce-sang",
     "transporteur"
@@ -199,10 +185,6 @@ export const usersBadges: Record<string, string[]> = {
     "lecteur-assidu",
     "lecteur-chevronne",
     "petit-lecteur",
-    "series-cinq-vues",
-    "series-dix-vues",
-    "series-quarante-vues",
-    "series-vingt-cinq-vues",
     "sorcelier"
   ],
   "gigi": [],

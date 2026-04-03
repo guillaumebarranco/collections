@@ -42,7 +42,7 @@ export const seriesSortOptions: { value: string; label: string }[] = [
 ];
 
 export const serieViewOptions: { value: SerieView; label: string }[] = [
-  { value: 'finished', label: 'Séries finies' },
+  { value: 'finished', label: 'Séries vues' },
   { value: 'watchlist', label: 'Séries à voir' },
   { value: 'watchingInProgress', label: 'En cours' },
   { value: 'owned', label: 'Séries possédées' },
@@ -141,7 +141,9 @@ export const getSeriesByCountry = ({
     countryMap.set(countryName, list);
   }
 
-  const seenKeys = new Set(allSeries.map((serie) => getSerieIdentityKey(serie)));
+  const seenKeys = new Set(
+    allSeries.map((serie) => getSerieIdentityKey(serie))
+  );
   const baseByCountry = new Map<string, Serie[]>();
   for (const serie of baseSeries) {
     const countryName = (serie.countryOrigin ?? '').toString().trim();
@@ -176,8 +178,7 @@ export const getSeriesByCountry = ({
           return ratedSeries.length >= 5;
         })
       : countryGroups.filter(
-          (group) =>
-            group.seenSeries.length + group.missingSeries.length > 3
+          (group) => group.seenSeries.length + group.missingSeries.length > 3
         );
 
   filteredCountryGroups.sort((a, b) => {
@@ -190,12 +191,8 @@ export const getSeriesByCountry = ({
       }
       case 'country-user-rating':
       case 'country-global-rating': {
-        const ratedA = a.seenSeries.filter(
-          (s) => getSerieAverageRating(s) > 0
-        );
-        const ratedB = b.seenSeries.filter(
-          (s) => getSerieAverageRating(s) > 0
-        );
+        const ratedA = a.seenSeries.filter((s) => getSerieAverageRating(s) > 0);
+        const ratedB = b.seenSeries.filter((s) => getSerieAverageRating(s) > 0);
         const avgA =
           ratedA.reduce((sum, s) => sum + getSerieAverageRating(s), 0) /
           (ratedA.length || 1);
@@ -292,12 +289,8 @@ export const getSeriesBySaga = ({
       }
       case 'saga-user-rating':
       case 'saga-global-rating': {
-        const ratedA = a.seenSeries.filter(
-          (s) => getSerieAverageRating(s) > 0
-        );
-        const ratedB = b.seenSeries.filter(
-          (s) => getSerieAverageRating(s) > 0
-        );
+        const ratedA = a.seenSeries.filter((s) => getSerieAverageRating(s) > 0);
+        const ratedB = b.seenSeries.filter((s) => getSerieAverageRating(s) > 0);
         const avgA =
           ratedA.reduce((sum, s) => sum + getSerieAverageRating(s), 0) /
           (ratedA.length || 1);
@@ -347,14 +340,12 @@ export const getSortedSeries = (
     case 'releaseDate':
       return series.sort(
         (a, b) =>
-          new Date(b.releaseDate).getTime() -
-          new Date(a.releaseDate).getTime()
+          new Date(b.releaseDate).getTime() - new Date(a.releaseDate).getTime()
       );
     case 'releaseDate-asc':
       return series.sort(
         (a, b) =>
-          new Date(a.releaseDate).getTime() -
-          new Date(b.releaseDate).getTime()
+          new Date(a.releaseDate).getTime() - new Date(b.releaseDate).getTime()
       );
     case 'rating':
       return series.sort((a, b) => {
@@ -384,13 +375,11 @@ export const getSortedSeries = (
       );
     case 'totalLength':
       return series.sort(
-        (a, b) =>
-          getSerieTotalLengthMinutes(b) - getSerieTotalLengthMinutes(a)
+        (a, b) => getSerieTotalLengthMinutes(b) - getSerieTotalLengthMinutes(a)
       );
     case 'totalLength-asc':
       return series.sort(
-        (a, b) =>
-          getSerieTotalLengthMinutes(a) - getSerieTotalLengthMinutes(b)
+        (a, b) => getSerieTotalLengthMinutes(a) - getSerieTotalLengthMinutes(b)
       );
     case 'nbSeasons':
       return series.sort(

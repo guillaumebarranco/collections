@@ -408,12 +408,18 @@ function buildAdminRecords(): ReturnType<typeof emptyRecords> {
     series: (uid: string) => {
       try {
         const files = [...getUserSeriesFiles(uid)];
-        let total = 0;
+        const keys = new Set<string>();
         for (const file of files) {
           const content = fs.readFileSync(file, 'utf8');
-          total += parseSeriesFromFile(content).length;
+          for (const row of parseSeriesFromFile(content)) {
+            const t = (row.title || '').trim();
+            const d = (row.director || '').trim();
+            if (t && d) {
+              keys.add(`${t}|${d}`);
+            }
+          }
         }
-        return total;
+        return keys.size;
       } catch {
         return 0;
       }

@@ -19,6 +19,11 @@ export interface BadgeDefinition {
   description: string;
   /** Chemin de l'image du badge (fichier dans public/badges). */
   image: string;
+  /**
+   * Objectif numérique pour l’attribution et la progression (check-badges, dashboard).
+   * Absent pour les badges « saga » (condition booléenne sur l’ensemble des films).
+   */
+  threshold?: number;
 }
 
 /** Réponse API GET /users/:userId/profile-badge */

@@ -48,6 +48,7 @@ import {
   getEstimatedComicsReadingTime,
 } from '../../utils/stats.utils';
 import {
+  countSeriesSeenForBadges,
   getSerieTotalTimesWatched,
   getSerieWatchedLengthMinutes,
 } from '../../utils/series.utils';
@@ -103,7 +104,14 @@ import {
   getEntityDisplayLabel,
   type Entity,
 } from '../../utils/top-five.utils';
-import { getBadgesDisplay, type BadgeDisplay } from '../../utils/users/badges';
+import {
+  fillBadgeProgressFromDefinitions,
+  getBadgesDisplay,
+  getBadgeDashboardTabKey,
+  type BadgeDisplay,
+  type BadgeDashboardTabKey,
+  type BadgeThresholdStats,
+} from '../../utils/users/badges';
 import { BadgesService } from '../../services/badges.service';
 import { ProfileBadgeService } from '../../services/profile-badge.service';
 
@@ -132,8 +140,11 @@ interface TopManga extends Manga {
   formattedReadingTime: string;
 }
 
-type BadgeEntityKey = 'books' | 'movies' | 'games' | 'other';
-type BadgeGroup = { key: BadgeEntityKey; label: string; badges: BadgeDisplay[] };
+type BadgeGroup = {
+  key: BadgeDashboardTabKey;
+  label: string;
+  badges: BadgeDisplay[];
+};
 
 @Component({
   selector: 'app-daloard',
@@ -176,7 +187,7 @@ export class DashboardComponent implements OnInit {
     | 'badges'
     | 'records'
   >('overview');
-  selectedBadgeEntity = signal<BadgeEntityKey>('books');
+  selectedBadgeEntity = signal<BadgeDashboardTabKey>('books');
   isAuthenticated = computed<boolean>(() => this.authService.isAuthenticated());
   isAdmin = computed<boolean>(() => this.authService.isAdmin());
 
@@ -431,29 +442,31 @@ export class DashboardComponent implements OnInit {
   });
 
   groupedUserBadges = computed<BadgeGroup[]>(() => {
-    const groups: Record<BadgeEntityKey, BadgeDisplay[]> = {
+    const groups: Record<BadgeDashboardTabKey, BadgeDisplay[]> = {
       books: [],
+      mangas: [],
+      manwhas: [],
+      comics: [],
+      bds: [],
       movies: [],
+      series: [],
       games: [],
       other: [],
     };
     for (const badge of this.userBadges()) {
-      const image = (badge.image || '').toLowerCase();
-      if (image.includes('/books/')) {
-        groups.books.push(badge);
-      } else if (image.includes('/movies/')) {
-        groups.movies.push(badge);
-      } else if (image.includes('/games/')) {
-        groups.games.push(badge);
-      } else {
-        groups.other.push(badge);
-      }
+      const tab = getBadgeDashboardTabKey(badge.id, badge.image);
+      groups[tab].push(badge);
     }
 
     const orderedGroups: BadgeGroup[] = [
       { key: 'books', label: '📖 Livres', badges: groups.books },
       { key: 'movies', label: '🎬 Films', badges: groups.movies },
+      { key: 'series', label: '📺 Séries', badges: groups.series },
       { key: 'games', label: '🎮 Jeux', badges: groups.games },
+      { key: 'mangas', label: '📗 Mangas', badges: groups.mangas },
+      { key: 'bds', label: '🎨 BDs', badges: groups.bds },
+      { key: 'comics', label: '💬 Comics', badges: groups.comics },
+      { key: 'manwhas', label: '📘 Manwhas', badges: groups.manwhas },
       { key: 'other', label: '✨ Autres', badges: groups.other },
     ];
     return orderedGroups.filter((g) => g.badges.length > 0);
@@ -467,14 +480,12 @@ export class DashboardComponent implements OnInit {
     );
   });
 
-  selectBadgeEntity(entity: BadgeEntityKey): void {
+  selectBadgeEntity(entity: BadgeDashboardTabKey): void {
     this.selectedBadgeEntity.set(entity);
   }
 
   private normalizeGenreValue(genre: unknown): string {
-    const raw = Array.isArray(genre)
-      ? genre.join(' ')
-      : String(genre ?? '');
+    const raw = Array.isArray(genre) ? genre.join(' ') : String(genre ?? '');
     return raw
       .normalize('NFD')
       .replace(/[\u0300-\u036f]/g, '')
@@ -485,15 +496,23 @@ export class DashboardComponent implements OnInit {
 
   private countBooksByGenre(tokens: string[]): number {
     return this.allBooks().filter((b) => {
-      const g = this.normalizeGenreValue((b as unknown as { genre?: unknown }).genre);
-      return tokens.some((token) => g.includes(this.normalizeGenreValue(token)));
+      const g = this.normalizeGenreValue(
+        (b as unknown as { genre?: unknown }).genre
+      );
+      return tokens.some((token) =>
+        g.includes(this.normalizeGenreValue(token))
+      );
     }).length;
   }
 
   private countMoviesByGenre(tokens: string[]): number {
     return this.allMovies().filter((m) => {
-      const g = this.normalizeGenreValue((m as unknown as { genre?: unknown }).genre);
-      return tokens.some((token) => g.includes(this.normalizeGenreValue(token)));
+      const g = this.normalizeGenreValue(
+        (m as unknown as { genre?: unknown }).genre
+      );
+      return tokens.some((token) =>
+        g.includes(this.normalizeGenreValue(token))
+      );
     }).length;
   }
 
@@ -507,7 +526,8 @@ export class DashboardComponent implements OnInit {
     if (sagaMovies.length === 0) {
       return 0;
     }
-    return sagaMovies.filter((m) => watched.has(`${m.title}|${m.director}`)).length;
+    return sagaMovies.filter((m) => watched.has(`${m.title}|${m.director}`))
+      .length;
   }
 
   badgeProgressById = computed<Record<string, string>>(() => {
@@ -518,116 +538,70 @@ export class DashboardComponent implements OnInit {
       (g.sessions || []).some((s) => s.finishedGame === true)
     ).length;
 
-    const progress: Record<string, string> = {
-      // Livres (global) — books-badges.ts
-      'petit-lecteur': `${books}/50`,
-      'graine-lecteur': `${books}/100`,
-      'lecteur-assidu': `${books}/150`,
-      'lecteur-chevronne': `${books}/200`,
-      'lecteur-passionne': `${books}/250`,
-      'lecteur-veteran': `${books}/300`,
-      'rat-bibliotheque': `${books}/350`,
-      'amoureux-lecture': `${books}/400`,
-      'maitre-lecteur': `${books}/450`,
-      'doyen-lecteurs': `${books}/500`,
+    const seriesForBadges = countSeriesSeenForBadges(this.allSeries());
 
-      // Livres par genre
-      sorcelier: `${this.countBooksByGenre(['fantasy'])}/15`,
-      'demi-dieu': `${this.countBooksByGenre(['fantasy'])}/30`,
-      'reine-dragons': `${this.countBooksByGenre(['fantasy'])}/50`,
-      'elu-prophetie': `${this.countBooksByGenre(['fantasy'])}/80`,
-      'seigneur-fantasy': `${this.countBooksByGenre(['fantasy'])}/100`,
+    const mangasRead = this.allMangas().length;
+    const manwhasRead = this.allManwhas().length;
+    const comicsRead = this.allComics().length;
+    const bdsRead = this.allBds().length;
 
-      'petit-beguin-books': `${this.countBooksByGenre(['romance'])}/15`,
-      'lover-books': `${this.countBooksByGenre(['romance'])}/30`,
-      'ames-soeurs': `${this.countBooksByGenre(['romance'])}/50`,
-      'amour-a-travers-la-mort': `${this.countBooksByGenre(['romance'])}/80`,
-      'icone-romance': `${this.countBooksByGenre(['romance'])}/100`,
-
-      'marche-vers-l-inconnu': `${this.countBooksByGenre(['science fiction', 'science-fiction', 'scifi'])}/15`,
-      'guerrier-omniscient': `${this.countBooksByGenre(['science fiction', 'science-fiction', 'scifi'])}/30`,
-      'explorateur-profondeurs': `${this.countBooksByGenre(['science fiction', 'science-fiction', 'scifi'])}/50`,
-      'survivant-invasion': `${this.countBooksByGenre(['science fiction', 'science-fiction', 'scifi'])}/80`,
-      'architecte-psychohistoire': `${this.countBooksByGenre(['science fiction', 'science-fiction', 'scifi'])}/100`,
-
-      'amateur-polars': `${this.countBooksByGenre(['policier', 'polar'])}/15`,
-      'enqueteur-verite': `${this.countBooksByGenre(['policier', 'polar'])}/30`,
-      'artiste-evasion': `${this.countBooksByGenre(['policier', 'polar'])}/50`,
-      'maitre-mystere': `${this.countBooksByGenre(['policier', 'polar'])}/80`,
-      'genie-deduction': `${this.countBooksByGenre(['policier', 'polar'])}/100`,
-
-      'lecteur-curieux-nonfiction': `${this.countBooksByGenre(['nonfiction', 'non fiction'])}/15`,
-      'chercheur-savoir': `${this.countBooksByGenre(['nonfiction', 'non fiction'])}/30`,
-      'precurseur-progres': `${this.countBooksByGenre(['nonfiction', 'non fiction'])}/50`,
-      'icone-changement': `${this.countBooksByGenre(['nonfiction', 'non fiction'])}/80`,
-      'sage-humanite': `${this.countBooksByGenre(['nonfiction', 'non fiction'])}/100`,
-
-      explorateur: `${this.countBooksByGenre(['aventure'])}/15`,
-      'moussaillon-flots': `${this.countBooksByGenre(['aventure'])}/30`,
-      'grand-voyageur-livres': `${this.countBooksByGenre(['aventure'])}/50`,
-      'ubiquiste-monde': `${this.countBooksByGenre(['aventure'])}/80`,
-      'aventurier-legendaire': `${this.countBooksByGenre(['aventure'])}/100`,
-
-      // Films (global)
-      'cinephile-herbe': `${movies}/100`,
-      'cinephile-amateur': `${movies}/300`,
-      'cinephile-passionne': `${movies}/500`,
-      'cinephile-devoué': `${movies}/800`,
-      'cinephile-inconditionnel': `${movies}/1000`,
-
-      // Films par genre — movies-badges.ts
-      'amour-jeunesse': `${this.countMoviesByGenre(['romance'])}/50`,
-      'un-amour-de-cinema': `${this.countMoviesByGenre(['romance'])}/100`,
-      'passion-vacances': `${this.countMoviesByGenre(['romance'])}/150`,
-      'grand-amour-movies': `${this.countMoviesByGenre(['romance'])}/200`,
-      'amour-eternel-movies': `${this.countMoviesByGenre(['romance'])}/300`,
-
-      extraterrestre: `${this.countMoviesByGenre(['science fiction', 'science-fiction', 'scifi'])}/50`,
-      'machine-du-futur': `${this.countMoviesByGenre(['science fiction', 'science-fiction', 'scifi'])}/100`,
-      'elu-de-la-matrice': `${this.countMoviesByGenre(['science fiction', 'science-fiction', 'scifi'])}/150`,
-      'voyageur-temporel': `${this.countMoviesByGenre(['science fiction', 'science-fiction', 'scifi'])}/200`,
-      'maitre-galaxie': `${this.countMoviesByGenre(['science fiction', 'science-fiction', 'scifi'])}/300`,
-
-      'obsession-psychologique': `${this.countMoviesByGenre(['thriller'])}/50`,
-      'expert-tension': `${this.countMoviesByGenre(['thriller'])}/100`,
-      'fondateur-thriller': `${this.countMoviesByGenre(['thriller'])}/150`,
-      'maitre-suspense': `${this.countMoviesByGenre(['thriller'])}/200`,
-      'genie-manipulation': `${this.countMoviesByGenre(['thriller'])}/300`,
-
-      'tout-ce-sang': `${this.countMoviesByGenre(['horreur', 'horror'])}/50`,
-      'derriere-le-masque': `${this.countMoviesByGenre(['horreur', 'horror'])}/100`,
-      'gardien-horreur': `${this.countMoviesByGenre(['horreur', 'horror'])}/150`,
-      'terreur-autre-monde': `${this.countMoviesByGenre(['horreur', 'horror'])}/200`,
-      'maitre-horreur-movies': `${this.countMoviesByGenre(['horreur', 'horror'])}/300`,
-
-      'drole-de-gendarme': `${this.countMoviesByGenre(['comedie', 'comédie'])}/50`,
-      'espion-blanquette': `${this.countMoviesByGenre(['comedie', 'comédie'])}/100`,
-      'oh-le-con': `${this.countMoviesByGenre(['comedie', 'comédie'])}/150`,
-      'sancho-de-cuba': `${this.countMoviesByGenre(['comedie', 'comédie'])}/200`,
-      'architecte-humour': `${this.countMoviesByGenre(['comedie', 'comédie'])}/300`,
-
-      transporteur: `${this.countMoviesByGenre(['action'])}/50`,
-      'baba-yaga': `${this.countMoviesByGenre(['action'])}/100`,
-      'flic-new-york': `${this.countMoviesByGenre(['action'])}/150`,
-      veteran: `${this.countMoviesByGenre(['action'])}/200`,
-      'icone-action': `${this.countMoviesByGenre(['action'])}/300`,
-
-      // Sagas
-      'vengeurs-de-la-terre': `${this.getWatchedSagaCount('Marvel Cinematic Universe')}/${allBaseMovies.filter((m) => (m.saga || '').trim() === 'Marvel Cinematic Universe').length}`,
-      'badges-des-trois-sorciers': `${this.getWatchedSagaCount('Wizarding World')}/${allBaseMovies.filter((m) => (m.saga || '').trim() === 'Wizarding World').length}`,
-      'guerrier-de-la-terre-du-milieu': `${this.getWatchedSagaCount('Tolkien')}/${allBaseMovies.filter((m) => (m.saga || '').trim() === 'Tolkien').length}`,
-      'membre-de-l-ordre': `${this.getWatchedSagaCount('Star Wars')}/${allBaseMovies.filter((m) => (m.saga || '').trim() === 'Star Wars').length}`,
-
-      // Jeux
-      'joueur-du-dimanche': `${games}/20`,
-      'petit-joueur': `${games}/50`,
-      gamer: `${games}/100`,
-      nerd: `${games}/150`,
-      'no-life': `${games}/200`,
-      'joueur-capable': `${gamesFinished}/50`,
-      'champion-du-joystick': `${gamesFinished}/100`,
-      'virtuose-de-la-manette': `${gamesFinished}/200`,
+    const sfTokens = ['science fiction', 'science-fiction', 'scifi'] as const;
+    const stats: BadgeThresholdStats = {
+      booksRead: books,
+      booksFantasyRead: this.countBooksByGenre(['fantasy']),
+      booksRomanceRead: this.countBooksByGenre(['romance']),
+      booksScienceFictionRead: this.countBooksByGenre([...sfTokens]),
+      booksPolicierRead: this.countBooksByGenre(['policier', 'polar']),
+      booksNonfictionRead: this.countBooksByGenre([
+        'nonfiction',
+        'non fiction',
+      ]),
+      booksAventureRead: this.countBooksByGenre(['aventure']),
+      moviesWatched: movies,
+      moviesRomanceWatched: this.countMoviesByGenre(['romance']),
+      moviesScienceFictionWatched: this.countMoviesByGenre([...sfTokens]),
+      moviesThrillerWatched: this.countMoviesByGenre(['thriller']),
+      moviesHorreurWatched: this.countMoviesByGenre(['horreur', 'horror']),
+      moviesComedieWatched: this.countMoviesByGenre([
+        'comedie',
+        'comédie',
+      ]),
+      moviesActionWatched: this.countMoviesByGenre(['action']),
+      gamesPlayed: games,
+      gamesFinished,
+      mangasRead,
+      manwhasRead,
+      comicsRead,
+      bdsRead,
+      seriesWatched: seriesForBadges,
     };
+
+    const progress: Record<string, string> = {
+      'vengeurs-de-la-terre': `${this.getWatchedSagaCount(
+        'Marvel Cinematic Universe'
+      )}/${
+        allBaseMovies.filter(
+          (m) => (m.saga || '').trim() === 'Marvel Cinematic Universe'
+        ).length
+      }`,
+      'badges-des-trois-sorciers': `${this.getWatchedSagaCount(
+        'Wizarding World'
+      )}/${
+        allBaseMovies.filter((m) => (m.saga || '').trim() === 'Wizarding World')
+          .length
+      }`,
+      'guerrier-de-la-terre-du-milieu': `${this.getWatchedSagaCount(
+        'Tolkien'
+      )}/${
+        allBaseMovies.filter((m) => (m.saga || '').trim() === 'Tolkien').length
+      }`,
+      'membre-de-l-ordre': `${this.getWatchedSagaCount('Star Wars')}/${
+        allBaseMovies.filter((m) => (m.saga || '').trim() === 'Star Wars')
+          .length
+      }`,
+    };
+
+    fillBadgeProgressFromDefinitions(progress, stats);
 
     return progress;
   });
@@ -655,7 +629,10 @@ export class DashboardComponent implements OnInit {
   getBadgeProgressPercent(badgeId: string): number {
     const parsed = this.parseBadgeProgress(badgeId);
     if (!parsed) return 0;
-    return Math.max(0, Math.min(100, Math.round((parsed.current / parsed.target) * 100)));
+    return Math.max(
+      0,
+      Math.min(100, Math.round((parsed.current / parsed.target) * 100))
+    );
   }
 
   topBooks = computed<TopBook[]>(() => {

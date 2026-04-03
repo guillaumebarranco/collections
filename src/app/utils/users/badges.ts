@@ -7,6 +7,11 @@ import { MANGAS_BADGE_DEFINITIONS } from '../badges/mangas-badges';
 import { MANWHAS_BADGE_DEFINITIONS } from '../badges/manwhas-badges';
 import { MOVIES_BADGE_DEFINITIONS } from '../badges/movies-badges';
 import { SERIES_BADGE_DEFINITIONS } from '../badges/series-badges';
+import {
+  assertBadgeDefinitionsMatchThresholdMapping,
+  type BadgeThresholdStats,
+  getBadgeThresholdStatKey,
+} from './badge-threshold-stat';
 
 /**
  * Système de badges (gamification) pour les utilisateurs Makya.
@@ -27,11 +32,39 @@ export const BADGE_DEFINITIONS: BadgeDefinition[] = [
   ...SERIES_BADGE_DEFINITIONS,
 ];
 
+assertBadgeDefinitionsMatchThresholdMapping(BADGE_DEFINITIONS);
+
 export function getBadgeDefinitionById(
   id: string
 ): BadgeDefinition | undefined {
   return BADGE_DEFINITIONS.find((b) => b.id === id);
 }
+
+/**
+ * Remplit `current/target` pour tous les badges ayant un {@link BadgeDefinition.threshold}.
+ * Les sagas et autres cas spéciaux restent gérés à part.
+ */
+export function fillBadgeProgressFromDefinitions(
+  progress: Record<string, string>,
+  stats: BadgeThresholdStats
+): void {
+  for (const def of BADGE_DEFINITIONS) {
+    if (def.threshold === undefined) {
+      continue;
+    }
+    const key = getBadgeThresholdStatKey(def.id);
+    if (key === null) {
+      continue;
+    }
+    progress[def.id] = `${stats[key]}/${def.threshold}`;
+  }
+}
+
+export type { BadgeThresholdStatKey, BadgeThresholdStats } from './badge-threshold-stat';
+export {
+  BADGE_SAGA_IDS,
+  getBadgeThresholdStatKey,
+} from './badge-threshold-stat';
 
 export interface EarnedBadge {
   id: string;
@@ -64,4 +97,52 @@ export function getBadgesDisplay(earnedBadgeIds: string[]): BadgeDisplay[] {
     image: def.image,
     earned: earnedSet.has(def.id),
   })) as BadgeDisplay[];
+}
+
+/** Onglet du dashboard « Badges » (une entité = un sous-onglet). */
+export type BadgeDashboardTabKey =
+  | 'books'
+  | 'mangas'
+  | 'manwhas'
+  | 'comics'
+  | 'bds'
+  | 'movies'
+  | 'series'
+  | 'games'
+  | 'other';
+
+const BADGE_ID_PREFIX_TO_TAB: { prefix: string; key: BadgeDashboardTabKey }[] =
+  [
+    { prefix: 'mangas-', key: 'mangas' },
+    { prefix: 'manwhas-', key: 'manwhas' },
+    { prefix: 'comics-', key: 'comics' },
+    { prefix: 'bds-', key: 'bds' },
+    { prefix: 'series-', key: 'series' },
+  ];
+
+/**
+ * Détermine l'onglet dashboard pour un badge.
+ * Les badges mangas / manwhas / comics / BDs / séries réutilisent des images
+ * sous /books/, /movies/ ou /games/ : on ne peut pas se fier au chemin seul.
+ */
+export function getBadgeDashboardTabKey(
+  badgeId: string,
+  imagePath: string
+): BadgeDashboardTabKey {
+  for (const { prefix, key } of BADGE_ID_PREFIX_TO_TAB) {
+    if (badgeId.startsWith(prefix)) {
+      return key;
+    }
+  }
+  const image = (imagePath || '').toLowerCase();
+  if (image.includes('/books/')) {
+    return 'books';
+  }
+  if (image.includes('/movies/')) {
+    return 'movies';
+  }
+  if (image.includes('/games/')) {
+    return 'games';
+  }
+  return 'other';
 }
