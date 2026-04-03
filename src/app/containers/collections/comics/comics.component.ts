@@ -230,11 +230,12 @@ export class ComicsComponent implements OnInit {
     return comics.filter((comic) => this.matchesSearch(comic, term));
   });
 
-  sortedComics = computed<Comic[]>(() =>
-    this.selectedView() === 'readlist'
-      ? getSortedComics([...this.filteredComics()], 'readPriority')
-      : getSortedComics([...this.filteredComics()], this.selectedSort())
-  );
+  sortedComics = computed<Comic[]>(() => {
+    const list = [...this.filteredComics()];
+    const sort =
+      this.selectedView() === 'readlist' ? 'readPriority' : this.selectedSort();
+    return getSortedComics(list, sort);
+  });
 
   comicsBySaga = computed(() => {
     if (this.selectedView() !== 'sagas') return [];

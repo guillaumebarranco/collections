@@ -8,6 +8,8 @@
  * `src/app/utils/badges/books-badges.ts`.
  * Pour les films : les IDs doivent correspondre à `MOVIES_BADGE_DEFINITIONS` dans
  * `src/app/utils/badges/movies-badges.ts`.
+ * Mangas / manwhas / comics / BDs / séries : fichiers `*-badges.ts` dans
+ * `src/app/utils/badges/` (paliers volume ou séries vues, sans genre).
  */
 
 const path = require('path');
@@ -48,6 +50,13 @@ type BadgeStats = {
   gamesFinished: number;
   /** Sagas pour lesquelles l'utilisateur a vu tous les films (saga name -> true). */
   sagasFullyWatched: Set<string>;
+  /** Mangas lus (liste principale utilisateur). */
+  mangasRead: number;
+  manwhasRead: number;
+  comicsRead: number;
+  bdsRead: number;
+  /** Séries dans la liste « vues » (hors watchlist). */
+  seriesWatched: number;
 };
 
 /** Conditions des badges (alignées avec books-badges.ts, movies-badges.ts, games-badges). */
@@ -156,6 +165,36 @@ const BADGE_CONDITIONS: Record<string, (stats: BadgeStats) => boolean> = {
   'joueur-capable': (s) => s.gamesFinished >= 50,
   'champion-du-joystick': (s) => s.gamesFinished >= 100,
   'virtuose-de-la-manette': (s) => s.gamesFinished >= 200,
+  // ——— Mangas lus — mangas-badges.ts
+  'mangas-quinze-lus': (s) => s.mangasRead >= 15,
+  'mangas-trente-lus': (s) => s.mangasRead >= 30,
+  'mangas-cinquante-lus': (s) => s.mangasRead >= 50,
+  'mangas-quatre-vingt-lus': (s) => s.mangasRead >= 80,
+  'mangas-cent-lus': (s) => s.mangasRead >= 100,
+  // ——— Manwhas lus — manwhas-badges.ts
+  'manwhas-quinze-lus': (s) => s.manwhasRead >= 15,
+  'manwhas-trente-lus': (s) => s.manwhasRead >= 30,
+  'manwhas-cinquante-lus': (s) => s.manwhasRead >= 50,
+  'manwhas-quatre-vingt-lus': (s) => s.manwhasRead >= 80,
+  'manwhas-cent-lus': (s) => s.manwhasRead >= 100,
+  // ——— Comics lus — comics-badges.ts
+  'comics-quinze-lus': (s) => s.comicsRead >= 15,
+  'comics-trente-lus': (s) => s.comicsRead >= 30,
+  'comics-cinquante-lus': (s) => s.comicsRead >= 50,
+  'comics-quatre-vingt-lus': (s) => s.comicsRead >= 80,
+  'comics-cent-lus': (s) => s.comicsRead >= 100,
+  // ——— Bandes dessinées lues — bds-badges.ts
+  'bds-quinze-lus': (s) => s.bdsRead >= 15,
+  'bds-trente-lus': (s) => s.bdsRead >= 30,
+  'bds-cinquante-lus': (s) => s.bdsRead >= 50,
+  'bds-quatre-vingt-lus': (s) => s.bdsRead >= 80,
+  'bds-cent-lus': (s) => s.bdsRead >= 100,
+  // ——— Séries vues — series-badges.ts
+  'series-cinq-vues': (s) => s.seriesWatched >= 5,
+  'series-dix-vues': (s) => s.seriesWatched >= 10,
+  'series-vingt-cinq-vues': (s) => s.seriesWatched >= 25,
+  'series-quarante-vues': (s) => s.seriesWatched >= 40,
+  'series-soixante-vues': (s) => s.seriesWatched >= 60,
 };
 
 function isRated(rating: unknown): boolean {
@@ -215,6 +254,11 @@ function main(): void {
     allBaseMovies,
   } = require('../src/app/facades/movies/local-movies.facade');
   const { getLocalGamesByUser } = require('../src/app/facades/games/local-games.facade');
+  const { getLocalMangasByUser } = require('../src/app/facades/mangas/local-mangas.facade');
+  const { getLocalManwhasByUser } = require('../src/app/facades/manwhas/local-manwhas.facade');
+  const { getLocalComicsByUser } = require('../src/app/facades/comics/local-comics.facade');
+  const { getLocalBdsByUser } = require('../src/app/facades/bds/local-bds.facade');
+  const { getLocalSeriesByUser } = require('../src/app/facades/series/local-series.facade');
 
   const userIds = (users as { username: string }[]).map((u) => u.username);
   const badgeIds = Object.keys(BADGE_CONDITIONS);
@@ -245,6 +289,11 @@ function main(): void {
     const books = getLocalBooksByUser(userId);
     const movies = getLocalMoviesByUser(userId);
     const games = getLocalGamesByUser(userId);
+    const mangas = getLocalMangasByUser(userId);
+    const manwhas = getLocalManwhasByUser(userId);
+    const comics = getLocalComicsByUser(userId);
+    const bds = getLocalBdsByUser(userId);
+    const seriesWatchedList = getLocalSeriesByUser(userId);
 
     const booksFantasyRead = countBooksByGenre(books, genreByBookKey, ['fantasy']);
     const booksRomanceRead = countBooksByGenre(books, genreByBookKey, ['romance']);
@@ -317,6 +366,11 @@ function main(): void {
       gamesPlayed: games.length,
       gamesFinished,
       sagasFullyWatched,
+      mangasRead: mangas.length,
+      manwhasRead: manwhas.length,
+      comicsRead: comics.length,
+      bdsRead: bds.length,
+      seriesWatched: seriesWatchedList.length,
     };
 
     const earned = badgeIds.filter((id) =>

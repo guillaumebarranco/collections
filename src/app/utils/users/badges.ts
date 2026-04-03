@@ -1,7 +1,12 @@
 import { BadgeDefinition } from '../../models/badge-model';
+import { BDS_BADGE_DEFINITIONS } from '../badges/bds-badges';
 import { BOOKS_BADGE_DEFINITIONS } from '../badges/books-badges';
+import { COMICS_BADGE_DEFINITIONS } from '../badges/comics-badges';
 import { GAMES_BADGE_DEFINITIONS } from '../badges/games-badges';
+import { MANGAS_BADGE_DEFINITIONS } from '../badges/mangas-badges';
+import { MANWHAS_BADGE_DEFINITIONS } from '../badges/manwhas-badges';
 import { MOVIES_BADGE_DEFINITIONS } from '../badges/movies-badges';
+import { SERIES_BADGE_DEFINITIONS } from '../badges/series-badges';
 
 /**
  * Système de badges (gamification) pour les utilisateurs Makya.
@@ -15,6 +20,11 @@ export const BADGE_DEFINITIONS: BadgeDefinition[] = [
   ...BOOKS_BADGE_DEFINITIONS,
   ...MOVIES_BADGE_DEFINITIONS,
   ...GAMES_BADGE_DEFINITIONS,
+  ...MANGAS_BADGE_DEFINITIONS,
+  ...MANWHAS_BADGE_DEFINITIONS,
+  ...COMICS_BADGE_DEFINITIONS,
+  ...BDS_BADGE_DEFINITIONS,
+  ...SERIES_BADGE_DEFINITIONS,
 ];
 
 export function getBadgeDefinitionById(

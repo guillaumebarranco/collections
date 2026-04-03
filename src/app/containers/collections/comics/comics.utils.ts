@@ -44,6 +44,14 @@ export const comicViewOptions: { value: ComicView; label: string }[] = [
   { value: 'recommendations', label: 'Recommandations' },
 ];
 
+/** ms depuis readDate (ex. YYYY-MM-DD), ou null si absent / invalide — évite NaN dans le tri */
+function comicReadDateTime(value: string): number | null {
+  const s = value?.trim();
+  if (!s) return null;
+  const t = new Date(s).getTime();
+  return Number.isFinite(t) ? t : null;
+}
+
 export const getSortedComics = (
   comics: Comic[],
   selectedSort: string
@@ -64,13 +72,25 @@ export const getSortedComics = (
     case 'designer-desc':
       return comics.sort((a, b) => b.designer.localeCompare(a.designer));
     case 'readDate':
-      return comics.sort(
-        (a, b) => new Date(b.readDate).getTime() - new Date(a.readDate).getTime()
-      );
+      return comics.sort((a, b) => {
+        const ta = comicReadDateTime(a.readDate);
+        const tb = comicReadDateTime(b.readDate);
+        if (ta === null && tb === null) return a.title.localeCompare(b.title);
+        if (ta === null) return 1;
+        if (tb === null) return -1;
+        if (tb !== ta) return tb - ta;
+        return a.title.localeCompare(b.title);
+      });
     case 'readDate-asc':
-      return comics.sort(
-        (a, b) => new Date(a.readDate).getTime() - new Date(b.readDate).getTime()
-      );
+      return comics.sort((a, b) => {
+        const ta = comicReadDateTime(a.readDate);
+        const tb = comicReadDateTime(b.readDate);
+        if (ta === null && tb === null) return a.title.localeCompare(b.title);
+        if (ta === null) return 1;
+        if (tb === null) return -1;
+        if (ta !== tb) return ta - tb;
+        return a.title.localeCompare(b.title);
+      });
     case 'rating':
       return comics.sort((a, b) => {
         const ratingA = a.rating || 0;
