@@ -94,5 +94,11 @@ export const users = [
     passwordHash: "65da6d999c085e2f11c4ccda37d38ae04d93630856f553736f63f4991d84e303c9eca1f2fab5cb077c0e3d427b57103d1a882102d9e8d9676ab97518e1b5c5b4",
     passwordSalt: "75b781bbf3ccd20e6920e2fd1fc193ac",
     admin: false,
+  },
+  {
+    username: "zetsu",
+    passwordHash: "1682b90fb60cf5c24e87b307d7530a14f698de2bcd7e71ad662514af25b74af68cec970372e56e36cb130ec9be0d46dc7b7a1a0197aafdac314bc851b55da36a",
+    passwordSalt: "4ae3497ec885de94e2c8f9da51c51720",
+    admin: false,
   }
 ];

@@ -1263,4 +1263,19 @@ export const guillaumeBooks: UserBooks = [
     wantToReadAgain: false,
     ratingComment: "",
   },
+
+  {
+    title: "Da Vinci Code",
+    author: "Dan Brown",
+    firstReadDate: "2026-04-03",
+    lastReadDate: "2026-04-03",
+    rating: 3.75,
+    readTimes: 1,
+    owned: false,
+    borrowed: '',
+    loaned: '',
+    readPriority: 2,
+    wantToReadAgain: false,
+    ratingComment: "",
+  },
 ];
