@@ -35,27 +35,33 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     director: 'Jon M. Chu',
     actors: [
       {
-        name: 'Josh Hutcherson',
+        name: "Ariana Grande",
       },
       {
-        name: 'Elizabeth Lail',
+        name: "Cynthia Erivo",
       },
       {
-        name: 'Piper Rubio',
+        name: "Jonathan Bailey",
       },
       {
-        name: 'Matthew Lillard',
+        name: "Ethan Slater",
       },
       {
-        name: 'Mckenna Grace',
+        name: "Bowen Yang",
       },
+      {
+        name: "Michelle Yeoh",
+      },
+      {
+        name: "Jeff Goldblum",
+      }
     ],
-    coverUrl: '/movies_pictures/wicked_for_good.jpg',
-    releaseDate: '2025-11-19',
+    coverUrl: "/movies_pictures/wicked_for_good.jpg",
+    releaseDate: "2025-11-19",
     length: 138,
     genre: ['Comédie musicale'],
-    saga: '',
-    description: '',
+    saga: "",
+    description: "",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
   },

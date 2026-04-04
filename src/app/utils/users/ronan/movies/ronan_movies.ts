@@ -17151,4 +17151,21 @@ export const ronanMovies: UserMovies = [
     borrowed: "",
     loaned: "",
   },
+
+  {
+    title: "The Drama",
+    director: "Kristoffer Borgli",
+    rating: 3.5,
+    timesWatched: 1,
+    firstViewedDate: "2026-04-03",
+    lastViewedDate: "2026-04-03",
+    seenAtCinema: true,
+    owned: false,
+    wantToSeeAgain: false,
+    watchPriority: 1,
+    ratingComment: "",
+    inList: [],
+    borrowed: "",
+    loaned: "",
+  },
 ];
