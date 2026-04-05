@@ -22,10 +22,16 @@
     (optionSelected)="onOptionSelected($event)"
   >
     @if (showEmptyOption() && !disabled()) {
-      <mat-option [value]="clearSentinel">{{ emptyOptionLabel() }}</mat-option>
+      <mat-option
+        [value]="clearSentinel"
+        (mousedown)="$event.preventDefault()"
+        >{{ emptyOptionLabel() }}</mat-option
+      >
     }
     @for (opt of filteredOptions(); track opt.value) {
-      <mat-option [value]="opt.value">{{ opt.label }}</mat-option>
+      <mat-option [value]="opt.value" (mousedown)="$event.preventDefault()">{{
+        opt.label
+      }}</mat-option>
     }
   </mat-autocomplete>
 </mat-form-field>

@@ -8,7 +8,9 @@ import {
   output,
   signal,
   untracked,
+  viewChild,
 } from '@angular/core';
+import { MatAutocompleteTrigger } from '@angular/material/autocomplete';
 import { FormsModule } from '@angular/forms';
 import {
   MatAutocompleteModule,
@@ -46,6 +48,8 @@ export interface SearchableSelectOption {
 export class SearchableSelectboxComponent {
   /** Valeur sentinelle pour l’option « effacer » (évite les soucis avec ''). */
   protected readonly clearSentinel = '__makya_searchable_clear__';
+
+  private readonly autoTrigger = viewChild(MatAutocompleteTrigger);
 
   readonly options = input<SearchableSelectOption[]>([]);
   /** Valeur de l’option (ex. titre|auteur), chaîne vide = aucune sélection. */
@@ -112,10 +116,17 @@ export class SearchableSelectboxComponent {
   }
 
   protected onBlur(): void {
-    // Laisser le temps à mat-option de recevoir le clic avant la synchro.
-    setTimeout(() => {
+    // Le blur part souvent avant le clic sur l’overlay : ne pas resynchroniser tant que le panneau est ouvert.
+    const tryExit = () => {
+      const trigger = this.autoTrigger();
+      if (trigger?.panelOpen) {
+        return;
+      }
       this.searchMode.set(false);
-    }, 150);
+    };
+    queueMicrotask(tryExit);
+    setTimeout(tryExit, 0);
+    setTimeout(tryExit, 100);
   }
 
   protected onDraftChange(text: string): void {

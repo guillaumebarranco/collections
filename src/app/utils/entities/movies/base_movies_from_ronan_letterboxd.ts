@@ -35,33 +35,33 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     director: 'Jon M. Chu',
     actors: [
       {
-        name: "Ariana Grande",
+        name: 'Ariana Grande',
       },
       {
-        name: "Cynthia Erivo",
+        name: 'Cynthia Erivo',
       },
       {
-        name: "Jonathan Bailey",
+        name: 'Jonathan Bailey',
       },
       {
-        name: "Ethan Slater",
+        name: 'Ethan Slater',
       },
       {
-        name: "Bowen Yang",
+        name: 'Bowen Yang',
       },
       {
-        name: "Michelle Yeoh",
+        name: 'Michelle Yeoh',
       },
       {
-        name: "Jeff Goldblum",
-      }
+        name: 'Jeff Goldblum',
+      },
     ],
-    coverUrl: "/movies_pictures/wicked_for_good.jpg",
-    releaseDate: "2025-11-19",
+    coverUrl: '/movies_pictures/wicked_for_good.jpg',
+    releaseDate: '2025-11-19',
     length: 138,
     genre: ['Comédie musicale'],
-    saga: "",
-    description: "",
+    saga: '',
+    description: '',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
   },
@@ -1164,18 +1164,18 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
         name: "Lupita Nyong'o",
       },
       {
-        name: "Pedro Pascal",
+        name: 'Pedro Pascal',
       },
       {
-        name: "Bill Nighy",
-      }
+        name: 'Bill Nighy',
+      },
     ],
-    coverUrl: "/movies_pictures/anora.jpg",
-    releaseDate: "2024-01-01",
+    coverUrl: '/movies_pictures/anora.jpg',
+    releaseDate: '2024-01-01',
     length: 139,
     genre: ['Drame'],
-    saga: "",
-    description: "",
+    saga: '',
+    description: '',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
   },
@@ -1519,27 +1519,27 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     director: 'Matthew Vaughn',
     actors: [
       {
-        name: "Henry Cavill",
+        name: 'Henry Cavill',
       },
       {
-        name: "Bryce Dallas Howard",
+        name: 'Bryce Dallas Howard',
       },
       {
-        name: "Sam Rockwell",
+        name: 'Sam Rockwell',
       },
       {
-        name: "Bryan Cranston",
+        name: 'Bryan Cranston',
       },
       {
         name: "Catherine O'Hara",
-      }
+      },
     ],
-    coverUrl: "/movies_pictures/argylle.jpg",
-    releaseDate: "2024-01-31",
+    coverUrl: '/movies_pictures/argylle.jpg',
+    releaseDate: '2024-01-31',
     length: 139,
     genre: ['Action', 'Comédie'],
-    saga: "Kingsman",
-    description: "",
+    saga: 'Kingsman',
+    description: '',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
   },
@@ -2114,21 +2114,21 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     director: 'Ben Affleck',
     actors: [
       {
-        name: "Matt Damon",
+        name: 'Matt Damon',
       },
       {
-        name: "Ben Affleck",
+        name: 'Ben Affleck',
       },
       {
-        name: "Viola Davis",
-      }
+        name: 'Viola Davis',
+      },
     ],
-    coverUrl: "/movies_pictures/air.jpg",
-    releaseDate: "2023-04-05",
+    coverUrl: '/movies_pictures/air.jpg',
+    releaseDate: '2023-04-05',
     length: 112,
     genre: ['Biographie'],
-    saga: "",
-    description: "",
+    saga: '',
+    description: '',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
   },
@@ -2206,21 +2206,21 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     director: 'Philippe Lacheau',
     actors: [
       {
-        name: "Philippe Lacheau",
+        name: 'Philippe Lacheau',
       },
       {
-        name: "Élodie Fontan",
+        name: 'Élodie Fontan',
       },
       {
-        name: "Julien Arruti",
-      }
+        name: 'Julien Arruti',
+      },
     ],
-    coverUrl: "/movies_pictures/alibicom_2.jpg",
-    releaseDate: "2023-01-01",
+    coverUrl: '/movies_pictures/alibicom_2.jpg',
+    releaseDate: '2023-01-01',
     length: 88,
     genre: ['Comédie'],
-    saga: "",
-    description: "",
+    saga: '',
+    description: '',
     fromEntity: null,
     countryOrigin: ['France'],
   },
@@ -2922,7 +2922,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     countryOrigin: ['États-Unis'],
   },
   {
-    title: 'Lost Bullet',
+    title: 'Balle Perdue',
     director: 'Guillaume Pierret',
     actors: [
       {
@@ -4641,21 +4641,21 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     director: 'Guy Ritchie',
     actors: [
       {
-        name: "Henry Cavill",
+        name: 'Henry Cavill',
       },
       {
-        name: "Armie Hammer",
+        name: 'Armie Hammer',
       },
       {
-        name: "Alicia Vikander",
-      }
+        name: 'Alicia Vikander',
+      },
     ],
-    coverUrl: "/movies_pictures/the_man_from_u_n_c_l_e.jpg",
-    releaseDate: "2015-09-16",
+    coverUrl: '/movies_pictures/the_man_from_u_n_c_l_e.jpg',
+    releaseDate: '2015-09-16',
     length: 116,
     genre: ['Action', 'Comédie'],
-    saga: "",
-    description: "",
+    saga: '',
+    description: '',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
   },
@@ -5135,21 +5135,21 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     director: 'Noam Murro',
     actors: [
       {
-        name: "Sullivan Stapleton",
+        name: 'Sullivan Stapleton',
       },
       {
-        name: "Eva Green",
+        name: 'Eva Green',
       },
       {
-        name: "Lena Headey",
-      }
+        name: 'Lena Headey',
+      },
     ],
-    coverUrl: "/movies_pictures/300_rise_of_an_empire.jpg",
-    releaseDate: "2014-03-05",
+    coverUrl: '/movies_pictures/300_rise_of_an_empire.jpg',
+    releaseDate: '2014-03-05',
     length: 102,
     genre: ['Action', 'Historique', 'Peplum'],
-    saga: "",
-    description: "",
+    saga: '',
+    description: '',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
   },
@@ -6499,22 +6499,26 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     director: 'Chris Weitz',
     actors: [
       {
-        name: "Dakota Blue Richards",
+        name: 'Dakota Blue Richards',
       },
       {
-        name: "Nicole Kidman",
+        name: 'Nicole Kidman',
       },
       {
-        name: "Daniel Craig",
-      }
+        name: 'Daniel Craig',
+      },
     ],
-    coverUrl: "/movies_pictures/the_golden_compass.jpg",
-    releaseDate: "2007-12-05",
+    coverUrl: '/movies_pictures/the_golden_compass.jpg',
+    releaseDate: '2007-12-05',
     length: 113,
     genre: ['Fantastique', 'Aventure'],
-    saga: "",
-    description: "",
-    fromEntity: { entityType: "book", title: "Les Royaumes du Nord (À la croisée des mondes, #1)", secondEntityKey: "Philip Pullman" },
+    saga: '',
+    description: '',
+    fromEntity: {
+      entityType: 'book',
+      title: 'Les Royaumes du Nord (À la croisée des mondes, #1)',
+      secondEntityKey: 'Philip Pullman',
+    },
     countryOrigin: ['États-Unis'],
   },
   {
@@ -6886,23 +6890,6 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     releaseDate: '2006-01-18',
     length: 134,
     genre: ['Drame'],
-    saga: '',
-    description: '',
-    fromEntity: null,
-    countryOrigin: ['États-Unis'],
-  },
-  {
-    title: '40 ans, toujours puceau',
-    director: 'Judd Apatow',
-    actors: [
-      {
-        name: 'Steve Carell',
-      },
-    ],
-    coverUrl: '/movies_pictures/the_40_year_old_virgin.jpg',
-    releaseDate: '2005-11-09',
-    length: 117,
-    genre: ['Comédie'],
     saga: '',
     description: '',
     fromEntity: null,
@@ -8350,21 +8337,21 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     director: 'Miloš Forman',
     actors: [
       {
-        name: "F. Murray Abraham",
+        name: 'F. Murray Abraham',
       },
       {
-        name: "Tom Hulce",
+        name: 'Tom Hulce',
       },
       {
-        name: "Elizabeth Berridge",
-      }
+        name: 'Elizabeth Berridge',
+      },
     ],
-    coverUrl: "/movies_pictures/amadeus.jpg",
-    releaseDate: "1984-10-31",
+    coverUrl: '/movies_pictures/amadeus.jpg',
+    releaseDate: '1984-10-31',
     length: 160,
     genre: ['Drame', 'Historique', 'Biographie'],
-    saga: "",
-    description: "",
+    saga: '',
+    description: '',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
   },
