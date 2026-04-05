@@ -512,14 +512,18 @@ export const baseMoviesAnimated: BaseMovie[] = [
   {
     title: 'Les Simpson, le Film',
     director: 'David Silverman',
-    actors: [{ name: 'Dan Castellaneta' }],
-    coverUrl: '/movies_pictures/2684-the-simpsons-movie-0-150-0-225-crop.jpg',
-    releaseDate: '2007-07-27',
+    actors: [
+      {
+        name: "Dan Castellaneta",
+      }
+    ],
+    coverUrl: "/movies_pictures/2684-the-simpsons-movie-0-150-0-225-crop.jpg",
+    releaseDate: "2007-07-27",
     length: 87,
     genre: ['Animation'],
-    saga: '',
-    description: '',
-    fromEntity: null,
+    saga: "",
+    description: "",
+    fromEntity: { entityType: "serie", title: "Les Simpsons", secondEntityKey: "Matt Groening" },
     countryOrigin: ['États-Unis'],
   },
   {

@@ -539,18 +539,21 @@ export const baseMoviesFromAmandine: BaseMovie[] = [
   {
     title: "Le Crime de l'Orient-Express",
     director: 'Kenneth Branagh',
-    actors: [{ name: 'Kenneth Branagh' }, { name: 'Penélope Cruz' }],
-    coverUrl: '/movies_pictures/0988536.webp',
-    releaseDate: '2017-11-10',
+    actors: [
+      {
+        name: "Kenneth Branagh",
+      },
+      {
+        name: "Penélope Cruz",
+      }
+    ],
+    coverUrl: "/movies_pictures/0988536.webp",
+    releaseDate: "2017-11-10",
     length: 114,
     genre: ['Mystère', 'Policier'],
-    saga: 'Hercule Poirot',
-    description: '',
-    fromEntity: {
-      entityType: 'book',
-      title: "Le Crime de l'Orient-Express",
-      secondEntityKey: 'Agatha Christie',
-    },
+    saga: "Hercule Poirot",
+    description: "",
+    fromEntity: { entityType: "book", title: "Le crime de l'Orient Express", secondEntityKey: "Agatha Christie" },
     countryOrigin: ['États-Unis'],
   },
   {

@@ -202,31 +202,31 @@ export const baseMoviesApi: BaseMovie[] = [
     director: 'Philippe Lacheau',
     actors: [
       {
-        name: 'Philippe Lacheau',
+        name: "Philippe Lacheau",
       },
       {
-        name: 'Elodie Fontan',
+        name: "Elodie Fontan",
       },
       {
-        name: 'Jamel Debbouze',
+        name: "Jamel Debbouze",
       },
       {
-        name: 'Tarek Boudali',
+        name: "Tarek Boudali",
       },
       {
-        name: 'Julien Arruti',
+        name: "Julien Arruti",
       },
       {
-        name: 'Jean Reno',
-      },
+        name: "Jean Reno",
+      }
     ],
-    coverUrl: '/movies_pictures/813c13b26a5c.jpg',
-    releaseDate: '2026-02-04',
+    coverUrl: "/movies_pictures/813c13b26a5c.jpg",
+    releaseDate: "2026-02-04",
     length: 109,
     genre: ['Comédie'],
-    saga: 'Marsupilami',
-    description: '',
-    fromEntity: null,
+    saga: "Marsupilami",
+    description: "",
+    fromEntity: { entityType: "serie", title: "Le marsupilami", secondEntityKey: "André Franquin" },
     countryOrigin: ['France'],
   },
 

@@ -160,15 +160,19 @@ export const baseMoviesSagaPage2: BaseMovie[] = [
   {
     title: 'Les Animaux Fantastiques',
     director: 'David Yates',
-    actors: [{ name: 'Eddie Redmayne' }],
+    actors: [
+      {
+        name: "Eddie Redmayne",
+      }
+    ],
     coverUrl:
-      '/movies_pictures/182910-fantastic-beasts-and-where-to-find-them-0-150-0-225-crop.jpg',
-    releaseDate: '2016-11-18',
+      "/movies_pictures/182910-fantastic-beasts-and-where-to-find-them-0-150-0-225-crop.jpg",
+    releaseDate: "2016-11-18",
     length: 133,
     genre: ['Fantastique'],
-    saga: 'Wizarding World',
-    description: '',
-    fromEntity: null,
+    saga: "Wizarding World",
+    description: "",
+    fromEntity: { entityType: "book", title: "Harry Potter à l'école des sorciers", secondEntityKey: "J.K. Rowling" },
     countryOrigin: ['États-Unis'],
   },
   {
@@ -176,17 +180,17 @@ export const baseMoviesSagaPage2: BaseMovie[] = [
     director: 'David Yates',
     actors: [
       {
-        name: 'Eddie Redmayne',
-      },
+        name: "Eddie Redmayne",
+      }
     ],
     coverUrl:
-      '/movies_pictures/268365-fantastic-beasts-the-crimes-of-grindelwald-0-150-0-225-crop.jpg',
-    releaseDate: '2018-11-16',
+      "/movies_pictures/268365-fantastic-beasts-the-crimes-of-grindelwald-0-150-0-225-crop.jpg",
+    releaseDate: "2018-11-16",
     length: 134,
     genre: ['Fantastique'],
-    saga: 'Wizarding World',
-    description: '',
-    fromEntity: null,
+    saga: "Wizarding World",
+    description: "",
+    fromEntity: { entityType: "book", title: "Harry Potter à l'école des sorciers", secondEntityKey: "J.K. Rowling" },
     countryOrigin: ['États-Unis'],
   },
   {
@@ -194,17 +198,17 @@ export const baseMoviesSagaPage2: BaseMovie[] = [
     director: 'David Yates',
     actors: [
       {
-        name: 'Eddie Redmayne',
-      },
+        name: "Eddie Redmayne",
+      }
     ],
     coverUrl:
-      '/movies_pictures/268366-fantastic-beasts-the-secrets-of-dumbledore-0-150-0-225-crop.jpg',
-    releaseDate: '2022-04-15',
+      "/movies_pictures/268366-fantastic-beasts-the-secrets-of-dumbledore-0-150-0-225-crop.jpg",
+    releaseDate: "2022-04-15",
     length: 142,
     genre: ['Fantastique'],
-    saga: 'Wizarding World',
-    description: '',
-    fromEntity: null,
+    saga: "Wizarding World",
+    description: "",
+    fromEntity: { entityType: "book", title: "Harry Potter à l'école des sorciers", secondEntityKey: "J.K. Rowling" },
     countryOrigin: ['États-Unis'],
   },
   {
@@ -705,40 +709,52 @@ export const baseMoviesSagaPage2: BaseMovie[] = [
   {
     title: 'Divergente',
     director: 'Neil Burger',
-    actors: [{ name: 'Shailene Woodley' }],
-    coverUrl: '/movies_pictures/117583-divergent-0-150-0-225-crop.jpg',
-    releaseDate: '2014-03-21',
+    actors: [
+      {
+        name: "Shailene Woodley",
+      }
+    ],
+    coverUrl: "/movies_pictures/117583-divergent-0-150-0-225-crop.jpg",
+    releaseDate: "2014-03-21",
     length: 139,
     genre: ['Action'],
-    saga: 'Divergente',
-    description: '',
-    fromEntity: null,
+    saga: "Divergente",
+    description: "",
+    fromEntity: { entityType: "book", title: "Divergente", secondEntityKey: "Veronica Roth" },
     countryOrigin: ['États-Unis'],
   },
   {
     title: "Divergente 2 : L'Insurrection",
     director: 'Robert Schwentke',
-    actors: [{ name: 'Shailene Woodley' }],
-    coverUrl: '/movies_pictures/185970-insurgent-0-150-0-225-crop.jpg',
-    releaseDate: '2015-03-20',
+    actors: [
+      {
+        name: "Shailene Woodley",
+      }
+    ],
+    coverUrl: "/movies_pictures/185970-insurgent-0-150-0-225-crop.jpg",
+    releaseDate: "2015-03-20",
     length: 119,
     genre: ['Action'],
-    saga: 'Divergente',
-    description: '',
-    fromEntity: null,
+    saga: "Divergente",
+    description: "",
+    fromEntity: { entityType: "book", title: "Divergente Tome 2 : L'Insurrection", secondEntityKey: "Veronica Roth" },
     countryOrigin: ['États-Unis'],
   },
   {
     title: 'Divergente 3 : Au-delà du Mur',
     director: 'Robert Schwentke',
-    actors: [{ name: 'Shailene Woodley' }],
-    coverUrl: '/movies_pictures/divergente.jpg',
-    releaseDate: '2016-03-18',
+    actors: [
+      {
+        name: "Shailene Woodley",
+      }
+    ],
+    coverUrl: "/movies_pictures/divergente.jpg",
+    releaseDate: "2016-03-18",
     length: 121,
     genre: ['Action'],
-    saga: 'Divergente',
-    description: '',
-    fromEntity: null,
+    saga: "Divergente",
+    description: "",
+    fromEntity: { entityType: "book", title: "Divergente Tome 3 : Allégeance", secondEntityKey: "Veronica Roth" },
     countryOrigin: ['États-Unis'],
   },
   {

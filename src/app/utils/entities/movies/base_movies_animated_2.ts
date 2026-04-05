@@ -547,14 +547,21 @@ export const baseMoviesAnimated2: BaseMovie[] = [
   {
     title: 'La Planète au trésor',
     director: 'Ron Clements, John Musker',
-    actors: [{ name: 'Joseph Gordon-Levitt' }, { name: 'Brian Murray' }],
-    coverUrl: '/movies_pictures/affiche2.jpg',
-    releaseDate: '2002-11-27',
+    actors: [
+      {
+        name: "Joseph Gordon-Levitt",
+      },
+      {
+        name: "Brian Murray",
+      }
+    ],
+    coverUrl: "/movies_pictures/affiche2.jpg",
+    releaseDate: "2002-11-27",
     length: 95,
     genre: ['Animation', 'Aventure'],
-    saga: 'Disney Classique',
-    description: '',
-    fromEntity: null,
+    saga: "Disney Classique",
+    description: "",
+    fromEntity: { entityType: "book", title: "L'Île au trésor", secondEntityKey: "Robert Louis Stevenson" },
     countryOrigin: ['États-Unis'],
   },
   {

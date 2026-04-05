@@ -1168,14 +1168,18 @@ export const baseMoviesPage2: BaseMovie[] = [
   {
     title: 'La Ligne Verte',
     director: 'Frank Darabont',
-    actors: [{ name: 'Tom Hanks' }],
-    coverUrl: '/movies_pictures/51613-the-green-mile-0-150-0-225-crop.jpg',
-    releaseDate: '1999-12-10',
+    actors: [
+      {
+        name: "Tom Hanks",
+      }
+    ],
+    coverUrl: "/movies_pictures/51613-the-green-mile-0-150-0-225-crop.jpg",
+    releaseDate: "1999-12-10",
     length: 189,
     genre: ['Drame'],
-    saga: '',
-    description: '',
-    fromEntity: null,
+    saga: "",
+    description: "",
+    fromEntity: { entityType: "book", title: "La Ligne verte", secondEntityKey: "Stephen King" },
     countryOrigin: ['États-Unis'],
   },
   {

@@ -1232,16 +1232,16 @@ export const baseMoviesPage5: BaseMovie[] = [
     director: 'Anthony Minghella',
     actors: [
       {
-        name: 'Matt Damon',
-      },
+        name: "Matt Damon",
+      }
     ],
-    coverUrl: '/movies_pictures/046692_af.webp',
-    releaseDate: '1999-12-25',
+    coverUrl: "/movies_pictures/046692_af.webp",
+    releaseDate: "1999-12-25",
     length: 139,
     genre: ['Thriller'],
-    saga: '',
-    description: '',
-    fromEntity: null,
+    saga: "",
+    description: "",
+    fromEntity: { entityType: "book", title: "Le Talentueux M. Ripley", secondEntityKey: "Patricia Highsmith" },
     countryOrigin: ['États-Unis'],
   },
   {
@@ -2210,16 +2210,16 @@ export const baseMoviesPage5: BaseMovie[] = [
     director: 'Ron Howard',
     actors: [
       {
-        name: 'Tom Hanks',
-      },
+        name: "Tom Hanks",
+      }
     ],
-    coverUrl: '/movies_pictures/138979.webp',
-    releaseDate: '2016-10-28',
+    coverUrl: "/movies_pictures/138979.webp",
+    releaseDate: "2016-10-28",
     length: 121,
     genre: ['Thriller'],
-    saga: 'Robert Langdon',
-    description: '',
-    fromEntity: null,
+    saga: "Robert Langdon",
+    description: "",
+    fromEntity: { entityType: "book", title: "Inferno", secondEntityKey: "Dan Brown" },
     countryOrigin: ['États-Unis'],
   },
   {

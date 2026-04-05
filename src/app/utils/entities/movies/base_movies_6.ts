@@ -771,15 +771,19 @@ export const baseMoviesPage6: BaseMovie[] = [
   {
     title: "L'Île au trésor",
     director: 'Fraser Clarke Heston',
-    actors: [{ name: 'Christian Bale' }],
+    actors: [
+      {
+        name: "Christian Bale",
+      }
+    ],
     coverUrl:
-      '/movies_pictures/MV5BNWVjMmYwNjAtZTYyMy00MmZmLTlkMDktYzI5OTg0MWZhZDY5XkEyXkFqcGc@._V1_.jpg',
-    releaseDate: '1990-01-19',
+      "/movies_pictures/MV5BNWVjMmYwNjAtZTYyMy00MmZmLTlkMDktYzI5OTg0MWZhZDY5XkEyXkFqcGc@._V1_.jpg",
+    releaseDate: "1990-01-19",
     length: 128,
     genre: ['Aventure'],
-    saga: '',
-    description: '',
-    fromEntity: null,
+    saga: "",
+    description: "",
+    fromEntity: { entityType: "book", title: "L'Île au trésor", secondEntityKey: "Robert Louis Stevenson" },
     countryOrigin: ['États-Unis'],
   },
   {
@@ -799,17 +803,23 @@ export const baseMoviesPage6: BaseMovie[] = [
     title: 'Les Quatre Filles du docteur March',
     director: 'Gillian Armstrong',
     actors: [
-      { name: 'Christian Bale' },
-      { name: 'Winona Ryder' },
-      { name: 'Kirsten Dunst' },
+      {
+        name: "Christian Bale",
+      },
+      {
+        name: "Winona Ryder",
+      },
+      {
+        name: "Kirsten Dunst",
+      }
     ],
-    coverUrl: '/movies_pictures/81nt92tIlUL._AC_UF350,350_QL80_.jpg',
-    releaseDate: '1994-12-25',
+    coverUrl: "/movies_pictures/81nt92tIlUL._AC_UF350,350_QL80_.jpg",
+    releaseDate: "1994-12-25",
     length: 115,
     genre: ['Drame'],
-    saga: '',
-    description: '',
-    fromEntity: null,
+    saga: "",
+    description: "",
+    fromEntity: { entityType: "book", title: "Les filles du Docteur March", secondEntityKey: "Louisa May Alcott" },
     countryOrigin: ['États-Unis'],
   },
   {
@@ -888,14 +898,18 @@ export const baseMoviesPage6: BaseMovie[] = [
   {
     title: "Le Songe d'une nuit d'été",
     director: 'Michael Hoffman',
-    actors: [{ name: 'Christian Bale' }],
-    coverUrl: '/movies_pictures/s-l400.jpg',
-    releaseDate: '1999-05-14',
+    actors: [
+      {
+        name: "Christian Bale",
+      }
+    ],
+    coverUrl: "/movies_pictures/s-l400.jpg",
+    releaseDate: "1999-05-14",
     length: 116,
     genre: ['Comédie'],
-    saga: '',
-    description: '',
-    fromEntity: null,
+    saga: "",
+    description: "",
+    fromEntity: { entityType: "book", title: "Songe d'une nuit d'été", secondEntityKey: "William Shakespeare" },
     countryOrigin: ['États-Unis'],
   },
   {
@@ -1283,17 +1297,23 @@ export const baseMoviesPage6: BaseMovie[] = [
     title: 'Le Dahlia noir',
     director: 'Brian De Palma',
     actors: [
-      { name: 'Scarlett Johansson' },
-      { name: 'Aaron Eckhart' },
-      { name: 'Josh Hartnett' },
+      {
+        name: "Scarlett Johansson",
+      },
+      {
+        name: "Aaron Eckhart",
+      },
+      {
+        name: "Josh Hartnett",
+      }
     ],
-    coverUrl: '/movies_pictures/LE-DAHLIA-NOIR-480x640.webp',
-    releaseDate: '2006-09-15',
+    coverUrl: "/movies_pictures/LE-DAHLIA-NOIR-480x640.webp",
+    releaseDate: "2006-09-15",
     length: 121,
     genre: ['Thriller'],
-    saga: '',
-    description: '',
-    fromEntity: null,
+    saga: "",
+    description: "",
+    fromEntity: { entityType: "book", title: "Le Dahlia noir", secondEntityKey: "James Ellroy" },
     countryOrigin: ['États-Unis'],
   },
   {
@@ -1486,14 +1506,21 @@ export const baseMoviesPage6: BaseMovie[] = [
   {
     title: 'Hurlevent',
     director: "Frances O'Connor",
-    actors: [{ name: 'Margot Robbie' }, { name: 'Jacob Elordi' }],
-    coverUrl: '/movies_pictures/0bf52c69f64606b7325be670294cb767.jpg',
-    releaseDate: '2022-10-14',
+    actors: [
+      {
+        name: "Margot Robbie",
+      },
+      {
+        name: "Jacob Elordi",
+      }
+    ],
+    coverUrl: "/movies_pictures/0bf52c69f64606b7325be670294cb767.jpg",
+    releaseDate: "2022-10-14",
     length: 128,
     genre: ['Drame'],
-    saga: '',
-    description: '',
-    fromEntity: null,
+    saga: "",
+    description: "",
+    fromEntity: { entityType: "book", title: "Les Hauts de Hurlevent", secondEntityKey: "Emily Brontë" },
     countryOrigin: ['États-Unis'],
   },
   // Films avec Robin Williams
@@ -2728,14 +2755,18 @@ export const baseMoviesPage6: BaseMovie[] = [
   {
     title: 'Les Filles du docteur March',
     director: 'Greta Gerwig',
-    actors: [{ name: 'Emma Watson' }],
-    coverUrl: '/movies_pictures/5505683.jpg',
-    releaseDate: '2019-01-01',
+    actors: [
+      {
+        name: "Emma Watson",
+      }
+    ],
+    coverUrl: "/movies_pictures/5505683.jpg",
+    releaseDate: "2019-01-01",
     length: 135,
     genre: ['Drame'],
-    saga: '',
-    description: '',
-    fromEntity: null,
+    saga: "",
+    description: "",
+    fromEntity: { entityType: "book", title: "Les filles du Docteur March", secondEntityKey: "Louisa May Alcott" },
     countryOrigin: ['États-Unis'],
   },
   // Amy Adams

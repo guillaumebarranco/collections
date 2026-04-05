@@ -2128,17 +2128,23 @@ export const baseMoviesPage8: BaseMovie[] = [
     title: 'Orgueil et Préjugés et Zombies',
     director: 'Burr Steers',
     actors: [
-      { name: 'Lily James' },
-      { name: 'Sam Riley' },
-      { name: 'Jack Huston' },
+      {
+        name: "Lily James",
+      },
+      {
+        name: "Sam Riley",
+      },
+      {
+        name: "Jack Huston",
+      }
     ],
-    coverUrl: '/movies_pictures/503ec36b8b74.jpg',
-    releaseDate: '2016-02-05',
+    coverUrl: "/movies_pictures/503ec36b8b74.jpg",
+    releaseDate: "2016-02-05",
     length: 108,
     genre: ['Action', 'Comédie', 'Fantastique'],
-    saga: '',
-    description: '',
-    fromEntity: null,
+    saga: "",
+    description: "",
+    fromEntity: { entityType: "book", title: "Orgueil et Préjugés", secondEntityKey: "Jane Austen" },
     countryOrigin: ['États-Unis'],
   },
   {

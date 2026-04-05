@@ -609,14 +609,18 @@ export const baseMoviesLove: BaseMovie[] = [
   {
     title: 'Orgueil et Préjugés',
     director: 'Joe Wright',
-    actors: [{ name: 'Keira Knightley' }],
-    coverUrl: '/movies_pictures/orgueil_et_prejuges.jpg',
-    releaseDate: '2005-09-16',
+    actors: [
+      {
+        name: "Keira Knightley",
+      }
+    ],
+    coverUrl: "/movies_pictures/orgueil_et_prejuges.jpg",
+    releaseDate: "2005-09-16",
     length: 129,
     genre: ['Romance'],
-    saga: '',
-    description: '',
-    fromEntity: null,
+    saga: "",
+    description: "",
+    fromEntity: { entityType: "book", title: "Orgueil et Préjugés", secondEntityKey: "Jane Austen" },
     countryOrigin: ['États-Unis'],
   },
   {
@@ -739,14 +743,18 @@ export const baseMoviesLove: BaseMovie[] = [
   {
     title: "Le temps d'un automne",
     director: 'Adam Shankman',
-    actors: [{ name: 'Mandy Moore' }],
-    coverUrl: '/movies_pictures/46422-a-walk-to-remember-0-150-0-225-crop.jpg',
-    releaseDate: '2002-01-25',
+    actors: [
+      {
+        name: "Mandy Moore",
+      }
+    ],
+    coverUrl: "/movies_pictures/46422-a-walk-to-remember-0-150-0-225-crop.jpg",
+    releaseDate: "2002-01-25",
     length: 101,
     genre: ['Romance'],
-    saga: '',
-    description: '',
-    fromEntity: null,
+    saga: "",
+    description: "",
+    fromEntity: { entityType: "book", title: "À tout jamais", secondEntityKey: "Nicholas Sparks" },
     countryOrigin: ['États-Unis'],
   },
   {

@@ -68,18 +68,18 @@ export const baseMoviesPage3: BaseMovie[] = [
   {
     title: 'Death Note',
     director: 'Adam Wingard',
-    actors: [{ name: 'Nat Wolff' }],
-    coverUrl: '/movies_pictures/281716-death-note-0-150-0-225-crop.jpg',
-    releaseDate: '2017-08-25',
+    actors: [
+      {
+        name: "Nat Wolff",
+      }
+    ],
+    coverUrl: "/movies_pictures/281716-death-note-0-150-0-225-crop.jpg",
+    releaseDate: "2017-08-25",
     length: 101,
     genre: ['Thriller'],
-    saga: '',
-    description: '',
-    fromEntity: {
-      entityType: 'manga',
-      title: 'Death Note',
-      secondEntityKey: 'Tsugumi Ohba',
-    },
+    saga: "",
+    description: "",
+    fromEntity: { entityType: "manga", title: "Death Note", secondEntityKey: "Takeshi Obata" },
     countryOrigin: ['États-Unis'],
   },
   {
@@ -1426,14 +1426,18 @@ export const baseMoviesPage3: BaseMovie[] = [
   {
     title: 'Lucky Luke',
     director: 'James Huth',
-    actors: [{ name: 'Jean Dujardin' }],
-    coverUrl: '/movies_pictures/28805-lucky-luke-0-150-0-225-crop.jpg',
-    releaseDate: '2009-10-21',
+    actors: [
+      {
+        name: "Jean Dujardin",
+      }
+    ],
+    coverUrl: "/movies_pictures/28805-lucky-luke-0-150-0-225-crop.jpg",
+    releaseDate: "2009-10-21",
     length: 103,
     genre: ['Comédie'],
-    saga: '',
-    description: '',
-    fromEntity: null,
+    saga: "",
+    description: "",
+    fromEntity: { entityType: "bd", title: "Wanted Lucky Luke", secondEntityKey: "Morris" },
     countryOrigin: ['France'],
   },
   {
