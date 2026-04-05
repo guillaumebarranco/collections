@@ -273,7 +273,15 @@ function parseStringArrayField(objectText: string, key: string) {
   return result;
 }
 
-const FROM_ENTITY_TYPES = ['book', 'game', 'comic', 'manga', 'manwha', 'serie'];
+const FROM_ENTITY_TYPES = [
+  'book',
+  'bd',
+  'game',
+  'comic',
+  'manga',
+  'manwha',
+  'serie',
+];
 
 function parsefromEntityField(objectText: string) {
   const nullMatch = objectText.match(/fromEntity\s*:\s*null/);

@@ -164,6 +164,7 @@ export const getGameDataFromUserGameAndBaseGame = (
     wantToPlayAgain: userGame.wantToPlayAgain,
     sessions: userGame.sessions ?? [],
     description: baseGame?.description ?? '',
+    fromEntity: baseGame?.fromEntity ?? null,
     ratingComment: userGame.ratingComment ?? '',
     borrowed: userGame.borrowed ?? '',
     loaned: userGame.loaned ?? '',
@@ -268,4 +269,5 @@ export const getSerieDataFromUserSerieAndBaseSerie = (
   saga: baseSerie?.saga ?? '',
   borrowed: userSerie.borrowed ?? '',
   loaned: userSerie.loaned ?? '',
+  fromEntity: baseSerie?.fromEntity ?? null,
 });

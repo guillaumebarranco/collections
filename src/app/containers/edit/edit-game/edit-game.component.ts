@@ -7,8 +7,29 @@ import {
   Router,
   RouterModule,
 } from '@angular/router';
-import { Game, UserGameSession } from '../../../models/game-model';
-import { getGamesByUser } from '../../../facades/games/games.facade';
+import { BaseGame, Game, UserGameSession } from '../../../models/game-model';
+import type {
+  GameFromEntityAdaptation,
+  GameFromEntityType,
+} from '../../../models/from-entity.model';
+import {
+  getAllBaseGames,
+  getGamesByUser,
+} from '../../../facades/games/games.facade';
+import { getAllBaseBooks } from '../../../facades/books/books.facade';
+import { getAllBaseBds } from '../../../facades/bds/bds.facade';
+import { getAllBaseComics } from '../../../facades/comics/comics.facade';
+import { getAllBaseMangas } from '../../../facades/mangas/mangas.facade';
+import { getAllBaseManwhas } from '../../../facades/manwhas/manwhas.facade';
+import { getAllBaseSeries } from '../../../facades/series/series.facade';
+import { getAllBaseMovies } from '../../../facades/movies/movies.facade';
+import { BaseBook } from '../../../models/book-model';
+import { BaseMovie } from '../../../models/movie-model';
+import { BaseBd } from '../../../models/bd-model';
+import { BaseComic } from '../../../models/comic-model';
+import { BaseManga } from '../../../models/manga-model';
+import { BaseManwha } from '../../../models/manwha-model';
+import { BaseSerie } from '../../../models/serie-model';
 import {
   MAT_DIALOG_DATA,
   MatDialog,
@@ -21,6 +42,12 @@ import { AuthService } from '../../../core/auth.service';
 import { QuizzCreateModalComponent } from '../../../components/modals/quizz-create-modal/quizz-create-modal.component';
 import { EntityType } from '../../../models/quizz-model';
 import { DEFAULT_USER_ID } from '../../../utils/constants';
+import { MatFormFieldModule } from '@angular/material/form-field';
+import { MatSelectModule } from '@angular/material/select';
+import {
+  SearchableSelectboxComponent,
+  SearchableSelectOption,
+} from '../../../components/shared/searchable-selectbox/searchable-selectbox.component';
 
 /** Type de complétion pour une session (une seule option par session). */
 export type SessionCompletionType =
@@ -55,6 +82,7 @@ type EditGameEntityForm = {
   saga: string;
   description: string;
   platineTime: number;
+  fromEntity: GameFromEntityAdaptation | null;
 };
 
 type EditGameDialogData = {
@@ -73,6 +101,9 @@ type EditGameDialogData = {
     RouterModule,
     EditEntityComponent,
     EditEntityHeaderComponent,
+    MatFormFieldModule,
+    MatSelectModule,
+    SearchableSelectboxComponent,
   ],
   templateUrl: './edit-game.component.html',
   styleUrls: ['./edit-game.component.scss'],
@@ -143,14 +174,199 @@ export class EditGameComponent {
     return this.activatedRoute.snapshot.paramMap.get('slug') || '';
   });
 
+  readonly baseBooks = signal<BaseBook[]>([]);
+  readonly baseBds = signal<BaseBd[]>([]);
+  readonly baseComics = signal<BaseComic[]>([]);
+  readonly baseGames = signal<BaseGame[]>([]);
+  readonly baseMangas = signal<BaseManga[]>([]);
+  readonly baseManwhas = signal<BaseManwha[]>([]);
+  readonly baseSeries = signal<BaseSerie[]>([]);
+  readonly baseMovies = signal<BaseMovie[]>([]);
+  readonly fromEntitySourceType = signal<GameFromEntityType | ''>('');
+
+  readonly fromEntityTypeSelectOptions: {
+    value: GameFromEntityType | '';
+    label: string;
+  }[] = [
+    { value: '', label: 'Aucune adaptation' },
+    { value: 'book', label: 'Livre' },
+    { value: 'bd', label: 'Bande dessinée' },
+    { value: 'comic', label: 'Comic' },
+    { value: 'manga', label: 'Manga' },
+    { value: 'manwha', label: 'Manhwa' },
+    { value: 'movie', label: 'Film' },
+    { value: 'game', label: 'Jeu vidéo' },
+    { value: 'serie', label: 'Série' },
+  ];
+
+  readonly fromEntityWorkOptions = computed<SearchableSelectOption[]>(() => {
+    const type = this.fromEntitySourceType();
+    if (!type) return [];
+    const sortByTitle = <T extends { title: string }>(a: T, b: T) =>
+      a.title.localeCompare(b.title, 'fr', { sensitivity: 'base' });
+    switch (type) {
+      case 'book':
+        return [...this.baseBooks()]
+          .sort(sortByTitle)
+          .map((b) => ({
+            value: `${b.title}|${b.author}`,
+            label: `${b.title} — ${b.author}`,
+          }));
+      case 'bd':
+        return [...this.baseBds()]
+          .sort(sortByTitle)
+          .map((b) => ({
+            value: `${b.title}|${b.writer}`,
+            label: `${b.title} — ${b.writer}`,
+          }));
+      case 'comic':
+        return [...this.baseComics()]
+          .sort(sortByTitle)
+          .map((c) => ({
+            value: `${c.title}|${c.writer}`,
+            label: `${c.title} — ${c.writer}`,
+          }));
+      case 'manga':
+        return [...this.baseMangas()]
+          .sort(sortByTitle)
+          .map((m) => ({
+            value: `${m.title}|${m.author}`,
+            label: `${m.title} — ${m.author}`,
+          }));
+      case 'manwha':
+        return [...this.baseManwhas()]
+          .sort(sortByTitle)
+          .map((m) => ({
+            value: `${m.title}|${m.author}`,
+            label: `${m.title} — ${m.author}`,
+          }));
+      case 'movie':
+        return [...this.baseMovies()]
+          .sort(sortByTitle)
+          .map((m) => ({
+            value: `${m.title}|${m.director}`,
+            label: `${m.title} — ${m.director}`,
+          }));
+      case 'game':
+        return [...this.baseGames()]
+          .sort(sortByTitle)
+          .map((g) => ({
+            value: `${g.title}|${g.editor}`,
+            label: `${g.title} — ${g.editor}`,
+          }));
+      case 'serie':
+        return [...this.baseSeries()]
+          .sort(sortByTitle)
+          .map((s) => ({
+            value: `${s.title}|${s.director}`,
+            label: `${s.title} — ${s.director}`,
+          }));
+      default:
+        return [];
+    }
+  });
+
+  readonly fromEntityWorkSelectValue = computed(() => {
+    const form = this.gameEntityForm();
+    const type = this.fromEntitySourceType();
+    const fe = form?.fromEntity;
+    if (!fe || fe.entityType !== type) return '';
+    return `${fe.title}|${fe.secondEntityKey}`;
+  });
+
   constructor() {
     if (this.dialogData?.game) {
       this.setupDialogNavigation(this.dialogData);
+      void this.loadBaseFromEntitySourcesIfAdmin();
       return;
     }
 
     this.activatedRoute.paramMap.subscribe((params) => {
       void this.loadGameFromSlug(params);
+    });
+    void this.loadBaseFromEntitySourcesIfAdmin();
+  }
+
+  private async loadBaseFromEntitySourcesIfAdmin() {
+    if (!this.isAdminView()) return;
+    const [
+      books,
+      bds,
+      comics,
+      games,
+      mangas,
+      manwhas,
+      series,
+      movies,
+    ] = await Promise.all([
+      getAllBaseBooks(),
+      getAllBaseBds(),
+      getAllBaseComics(),
+      getAllBaseGames(),
+      getAllBaseMangas(),
+      getAllBaseManwhas(),
+      getAllBaseSeries(),
+      getAllBaseMovies(),
+    ]);
+    this.baseBooks.set(books);
+    this.baseBds.set(bds);
+    this.baseComics.set(comics);
+    this.baseGames.set(games);
+    this.baseMangas.set(mangas);
+    this.baseManwhas.set(manwhas);
+    this.baseSeries.set(series);
+    this.baseMovies.set(movies);
+  }
+
+  getFromEntityTypeDisplayLabel(type: GameFromEntityType | undefined): string {
+    if (!type) return '';
+    const opt = this.fromEntityTypeSelectOptions.find((o) => o.value === type);
+    return opt?.label ?? String(type);
+  }
+
+  private syncFromEntitySourceTypeFromForm(): void {
+    const fe = this.gameEntityForm()?.fromEntity;
+    this.fromEntitySourceType.set((fe?.entityType ?? '') as GameFromEntityType | '');
+  }
+
+  onFromEntityTypeSelect(value: string) {
+    const current = this.gameEntityForm();
+    if (!current) return;
+    const t = (value ?? '') as GameFromEntityType | '';
+    this.fromEntitySourceType.set(t);
+    if (!t) {
+      this.gameEntityForm.set({ ...current, fromEntity: null });
+      return;
+    }
+    if (current.fromEntity?.entityType === t) {
+      return;
+    }
+    this.gameEntityForm.set({ ...current, fromEntity: null });
+  }
+
+  onFromEntityWorkSelect(value: string) {
+    const current = this.gameEntityForm();
+    if (!current) return;
+    const type = this.fromEntitySourceType();
+    if (!type) {
+      return;
+    }
+    if (!value?.trim()) {
+      this.gameEntityForm.set({ ...current, fromEntity: null });
+      return;
+    }
+    const pipe = value.indexOf('|');
+    if (pipe < 0) return;
+    const title = value.slice(0, pipe).trim();
+    const secondEntityKey = value.slice(pipe + 1).trim();
+    if (!title) return;
+    this.gameEntityForm.set({
+      ...current,
+      fromEntity: {
+        entityType: type,
+        title,
+        secondEntityKey,
+      },
     });
   }
 
@@ -473,6 +689,8 @@ export class EditGameComponent {
     if (!matched) {
       this.game.set(null);
       this.gameForm.set(null);
+      this.gameEntityForm.set(null);
+      this.fromEntitySourceType.set('');
       this.gameNotFound.set(true);
       return;
     }
@@ -480,6 +698,7 @@ export class EditGameComponent {
     this.game.set(matched);
     this.gameForm.set(this.toForm(matched));
     this.gameEntityForm.set(this.toEntityForm(matched));
+    this.syncFromEntitySourceTypeFromForm();
     this.gameNotFound.set(false);
   }
 
@@ -552,6 +771,7 @@ export class EditGameComponent {
       saga: game.saga || '',
       platineTime: game.platineTime || 0,
       description: game.description ?? '',
+      fromEntity: game.fromEntity ?? null,
     };
   }
 
@@ -567,6 +787,7 @@ export class EditGameComponent {
       saga: form.saga,
       platineTime: form.platineTime,
       description: form.description ?? '',
+      fromEntity: form.fromEntity,
     };
   }
 
@@ -620,6 +841,7 @@ export class EditGameComponent {
     this.originalTitle.set(game.title);
     this.originalSecondary.set(game.editor);
     this.gameNotFound.set(false);
+    this.syncFromEntitySourceTypeFromForm();
   }
 
   private toSlug(value: string): string {

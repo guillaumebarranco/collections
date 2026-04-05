@@ -2,23 +2,29 @@ import {
   Component,
   OnInit,
   computed,
-  inject,
   signal,
   ChangeDetectionStrategy,
 } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { MenuComponent } from '../../components/menu/menu.component';
-import { ViewToggleComponent } from '../../components/shared/view-toggle/view-toggle.component';
+import {
+  ViewToggleComponent,
+  type ViewToggleOption,
+} from '../../components/shared/view-toggle/view-toggle.component';
 import { BdComponent } from '../../components/collections/bd/bd.component';
 import { BookComponent } from '../../components/collections/book/book.component';
 import { ComicComponent } from '../../components/collections/comic/comic.component';
 import { GameComponent } from '../../components/collections/game/game.component';
+import { MangaComponent } from '../../components/collections/manga/manga.component';
+import { ManwhaComponent } from '../../components/collections/manwha/manwha.component';
 import { MovieComponent } from '../../components/collections/movie/movie.component';
 import { SerieComponent } from '../../components/collections/serie/serie.component';
 import { getAllBaseBds } from '../../facades/bds/bds.facade';
 import { getAllBaseBooks } from '../../facades/books/books.facade';
 import { getAllBaseComics } from '../../facades/comics/comics.facade';
 import { getAllBaseGames } from '../../facades/games/games.facade';
+import { getAllBaseManwhas } from '../../facades/manwhas/manwhas.facade';
+import { getAllBaseMangas } from '../../facades/mangas/mangas.facade';
 import { getAllBaseMovies } from '../../facades/movies/movies.facade';
 import { getAllBaseSeries } from '../../facades/series/series.facade';
 import {
@@ -26,6 +32,8 @@ import {
   getFullBook,
   getFullComic,
   getFullGame,
+  getFullManwha,
+  getFullManga,
   getFullMovie,
   getFullSerie,
 } from '../../helpers/full-entities-helper';
@@ -33,36 +41,52 @@ import { BaseBd } from '../../models/bd-model';
 import { BaseBook } from '../../models/book-model';
 import { BaseComic } from '../../models/comic-model';
 import { BaseGame } from '../../models/game-model';
+import { BaseManwha } from '../../models/manwha-model';
+import { BaseManga } from '../../models/manga-model';
 import { BaseMovie } from '../../models/movie-model';
 import { BaseSerie } from '../../models/serie-model';
+import type { MovieFromEntityType } from '../../models/from-entity.model';
 import { Bd } from '../../models/bd-model';
 import { Book } from '../../models/book-model';
 import { Comic } from '../../models/comic-model';
 import { Game } from '../../models/game-model';
+import { Manwha } from '../../models/manwha-model';
+import { Manga } from '../../models/manga-model';
 import { Movie } from '../../models/movie-model';
 import { Serie } from '../../models/serie-model';
 
-export type MixView =
+/** Premier niveau de navigation (peu d’onglets). */
+export type MixPrimary =
   | 'sagasFilmsSeries'
-  | 'booksAdapted'
-  | 'moviesFromBooks'
-  | 'moviesFromGames'
-  | 'gamesAdapted'
-  | 'moviesFromComics'
-  | 'comicsAdapted'
-  | 'moviesFromComicBooks'
-  | 'comicBooksAdapted';
+  | 'worksWithMovieAdaptations'
+  | 'moviesGroupedBySource'
+  | 'gamesFromFilms';
 
-export const mixViewOptions: { value: MixView; label: string }[] = [
+/** Type d’œuvre source pour les vues « adaptations film » (second niveau). */
+export type MixAdaptationSource =
+  | 'book'
+  | 'bd'
+  | 'comic'
+  | 'manga'
+  | 'manwha'
+  | 'game'
+  | 'serie';
+
+export const mixPrimaryOptions: ViewToggleOption[] = [
   { value: 'sagasFilmsSeries', label: 'Sagas films / séries' },
-  { value: 'booksAdapted', label: 'Livres adaptés en films' },
-  { value: 'moviesFromBooks', label: 'Films provenant de livres' },
-  { value: 'moviesFromGames', label: 'Films adaptés de jeux' },
-  { value: 'gamesAdapted', label: 'Jeux adaptés en films' },
-  { value: 'moviesFromComics', label: 'Films adaptés de BD' },
-  { value: 'comicsAdapted', label: 'BD adaptées en films' },
-  { value: 'moviesFromComicBooks', label: 'Films adaptés de comics' },
-  { value: 'comicBooksAdapted', label: 'Comics adaptés en films' },
+  { value: 'worksWithMovieAdaptations', label: 'Œuvres → leurs films' },
+  { value: 'moviesGroupedBySource', label: 'Films par origine' },
+  { value: 'gamesFromFilms', label: 'Jeux d’après un film' },
+];
+
+export const mixAdaptationSourceOptions: ViewToggleOption[] = [
+  { value: 'book', label: 'Livre' },
+  { value: 'bd', label: 'BD franco' },
+  { value: 'comic', label: 'Comic US' },
+  { value: 'manga', label: 'Manga' },
+  { value: 'manwha', label: 'Manhwa' },
+  { value: 'game', label: 'Jeu vidéo' },
+  { value: 'serie', label: 'Série TV' },
 ];
 
 export type BookWithAdaptations = {
@@ -85,6 +109,21 @@ export type ComicWithAdaptations = {
   movies: Movie[];
 };
 
+export type MangaWithAdaptations = {
+  manga: Manga;
+  movies: Movie[];
+};
+
+export type ManwhaWithAdaptations = {
+  manwha: Manwha;
+  movies: Movie[];
+};
+
+export type SerieWithFilmAdaptations = {
+  serie: Serie;
+  movies: Movie[];
+};
+
 export type MoviesBySource = {
   sourceKey: string;
   sourceLabel: string;
@@ -98,6 +137,11 @@ export type SagaFilmsSeries = {
   series: Serie[];
 };
 
+export type GameFromFilmRow = {
+  game: Game;
+  sourceMovie: Movie | null;
+};
+
 @Component({
   selector: 'app-mix',
   standalone: true,
@@ -108,8 +152,10 @@ export type SagaFilmsSeries = {
     BdComponent,
     BookComponent,
     ComicComponent,
-    MovieComponent,
     GameComponent,
+    MangaComponent,
+    ManwhaComponent,
+    MovieComponent,
     SerieComponent,
   ],
   templateUrl: './mix.component.html',
@@ -121,14 +167,25 @@ export class MixComponent implements OnInit {
   readonly baseBds = signal<BaseBd[]>([]);
   readonly baseComics = signal<BaseComic[]>([]);
   readonly baseGames = signal<BaseGame[]>([]);
+  readonly baseMangas = signal<BaseManga[]>([]);
+  readonly baseManwhas = signal<BaseManwha[]>([]);
   readonly baseMovies = signal<BaseMovie[]>([]);
   readonly baseSeries = signal<BaseSerie[]>([]);
-  readonly selectedView = signal<MixView>('booksAdapted');
+
+  readonly selectedPrimary = signal<MixPrimary>('worksWithMovieAdaptations');
+  readonly selectedAdaptationSource = signal<MixAdaptationSource>('book');
   readonly isLoading = signal<boolean>(true);
 
-  readonly viewOptions = mixViewOptions;
+  readonly primaryViewOptions = mixPrimaryOptions;
+  readonly adaptationSourceOptions = mixAdaptationSourceOptions;
 
-  /** Sagas présentes à la fois dans les films et les séries (ex. Marvel Cinematic Universe). */
+  readonly showAdaptationSourceTabs = computed(
+    () =>
+      this.selectedPrimary() === 'worksWithMovieAdaptations' ||
+      this.selectedPrimary() === 'moviesGroupedBySource'
+  );
+
+  /** Sagas présentes à la fois dans les films et les séries. */
   readonly sagasFilmsSeries = computed<SagaFilmsSeries[]>(() => {
     const movies = this.baseMovies().map((m) => getFullMovie(m));
     const series = this.baseSeries().map((s) => getFullSerie(s));
@@ -167,15 +224,67 @@ export class MixComponent implements OnInit {
     return result.sort((a, b) => {
       const totalA = a.movies.length + a.series.length;
       const totalB = b.movies.length + b.series.length;
-      return totalB - totalA; // ordre décroissant : plus d'éléments en premier
+      return totalB - totalA;
     });
   });
 
-  /** Livres ayant au moins une adaptation film : livre + liste de films. */
+  private moviesFullByEntityType(t: MovieFromEntityType): Movie[] {
+    return this.baseMovies()
+      .filter((m) => m.fromEntity?.entityType === t)
+      .map((m) => getFullMovie(m));
+  }
+
+  /** Films dont la source est une BD du catalogue (entityType bd ou comic assorti au catalogue BD). */
+  private moviesFromBdCatalogFull(): Movie[] {
+    const bdKeys = new Set(
+      this.baseBds().map((b) => `${b.title}|${b.writer}`)
+    );
+    return this.baseMovies()
+      .filter((m) => {
+        const fe = m.fromEntity;
+        if (!fe) return false;
+        if (fe.entityType !== 'comic' && fe.entityType !== 'bd') return false;
+        return bdKeys.has(`${fe.title}|${fe.secondEntityKey}`);
+      })
+      .map((m) => getFullMovie(m));
+  }
+
+  /** Films dont la source est un comic US (catalogue comics). */
+  private moviesFromComicBooksFull(): Movie[] {
+    const comicKeys = new Set(
+      this.baseComics().map((c) => `${c.title}|${c.writer}`)
+    );
+    return this.baseMovies()
+      .filter((m) => {
+        const fe = m.fromEntity;
+        if (!fe || fe.entityType !== 'comic') return false;
+        return comicKeys.has(`${fe.title}|${fe.secondEntityKey}`);
+      })
+      .map((m) => getFullMovie(m));
+  }
+
+  private groupMoviesBySourceFromMovies(list: Movie[]): MoviesBySource[] {
+    const map = new Map<string, Movie[]>();
+    for (const m of list) {
+      if (!m.fromEntity) continue;
+      const key = `${m.fromEntity.title}|${m.fromEntity.secondEntityKey}`;
+      const arr = map.get(key) ?? [];
+      arr.push(m);
+      map.set(key, arr);
+    }
+    return Array.from(map.entries()).map(([sourceKey, movies]) => ({
+      sourceKey,
+      sourceLabel:
+        (movies[0]?.fromEntity?.title ?? '') +
+        ' — ' +
+        (movies[0]?.fromEntity?.secondEntityKey ?? ''),
+      movies,
+    }));
+  }
+
   readonly booksAdapted = computed<BookWithAdaptations[]>(() => {
     const books = this.baseBooks();
-    const movies = this.baseMovies();
-    const withFromEntityBook = movies.filter(
+    const withFromEntityBook = this.baseMovies().filter(
       (m) => m.fromEntity != null && m.fromEntity.entityType === 'book'
     );
     const result: BookWithAdaptations[] = [];
@@ -195,65 +304,34 @@ export class MixComponent implements OnInit {
     return result;
   });
 
-  /** Films ayant un livre source. */
-  readonly moviesFromBooks = computed<Movie[]>(() => {
-    const movies = this.baseMovies();
-    return movies
-      .filter((m) => m.fromEntity != null && m.fromEntity.entityType === 'book')
-      .map((m) => getFullMovie(m));
-  });
+  readonly moviesFromBooksBySource = computed(() =>
+    this.groupMoviesBySourceFromMovies(this.moviesFullByEntityType('book'))
+  );
 
-  /** Films provenant de livres, groupés par œuvre source (titre — auteur). */
-  readonly moviesFromBooksBySource = computed<MoviesBySource[]>(() => {
-    const list = this.moviesFromBooks();
-    const map = new Map<string, Movie[]>();
-    for (const m of list) {
-      if (!m.fromEntity) continue;
-      const key = m.fromEntity.title + '|' + m.fromEntity.secondEntityKey;
-      const arr = map.get(key) ?? [];
-      arr.push(m);
-      map.set(key, arr);
-    }
-    return Array.from(map.entries()).map(([sourceKey, movies]) => ({
-      sourceKey,
-      sourceLabel:
-        (movies[0]?.fromEntity?.title ?? '') +
-        ' — ' +
-        (movies[0]?.fromEntity?.secondEntityKey ?? ''),
-      movies,
-    }));
-  });
+  readonly moviesFromGamesBySource = computed(() =>
+    this.groupMoviesBySourceFromMovies(this.moviesFullByEntityType('game'))
+  );
 
-  /** Films ayant un jeu source. */
-  readonly moviesFromGames = computed<Movie[]>(() => {
-    const movies = this.baseMovies();
-    return movies
-      .filter((m) => m.fromEntity != null && m.fromEntity.entityType === 'game')
-      .map((m) => getFullMovie(m));
-  });
+  readonly moviesFromMangaBySource = computed(() =>
+    this.groupMoviesBySourceFromMovies(this.moviesFullByEntityType('manga'))
+  );
 
-  /** Films adaptés de jeux, groupés par jeu source (titre — éditeur). */
-  readonly moviesFromGamesBySource = computed<MoviesBySource[]>(() => {
-    const list = this.moviesFromGames();
-    const map = new Map<string, Movie[]>();
-    for (const m of list) {
-      if (!m.fromEntity) continue;
-      const key = m.fromEntity.title + '|' + m.fromEntity.secondEntityKey;
-      const arr = map.get(key) ?? [];
-      arr.push(m);
-      map.set(key, arr);
-    }
-    return Array.from(map.entries()).map(([sourceKey, movies]) => ({
-      sourceKey,
-      sourceLabel:
-        (movies[0]?.fromEntity?.title ?? '') +
-        ' — ' +
-        (movies[0]?.fromEntity?.secondEntityKey ?? ''),
-      movies,
-    }));
-  });
+  readonly moviesFromManwhaBySource = computed(() =>
+    this.groupMoviesBySourceFromMovies(this.moviesFullByEntityType('manwha'))
+  );
 
-  /** Jeux ayant au moins une adaptation film : jeu + liste de films. */
+  readonly moviesFromSeriesBySource = computed(() =>
+    this.groupMoviesBySourceFromMovies(this.moviesFullByEntityType('serie'))
+  );
+
+  readonly moviesFromBdsBySource = computed(() =>
+    this.groupMoviesBySourceFromMovies(this.moviesFromBdCatalogFull())
+  );
+
+  readonly moviesFromComicBooksBySource = computed(() =>
+    this.groupMoviesBySourceFromMovies(this.moviesFromComicBooksFull())
+  );
+
   readonly gamesAdapted = computed<GameWithAdaptations[]>(() => {
     const games = this.baseGames();
     const movies = this.baseMovies();
@@ -277,51 +355,19 @@ export class MixComponent implements OnInit {
     return result;
   });
 
-  /** Films ayant une BD source. */
-  readonly moviesFromComics = computed<Movie[]>(() => {
-    const movies = this.baseMovies();
-    return movies
-      .filter(
-        (m) => m.fromEntity != null && m.fromEntity.entityType === 'comic'
-      )
-      .map((m) => getFullMovie(m));
-  });
-
-  /** Films adaptés de BD, groupés par BD source (titre — scénariste). */
-  readonly moviesFromComicsBySource = computed<MoviesBySource[]>(() => {
-    const list = this.moviesFromComics();
-    const map = new Map<string, Movie[]>();
-    for (const m of list) {
-      if (!m.fromEntity) continue;
-      const key = m.fromEntity.title + '|' + m.fromEntity.secondEntityKey;
-      const arr = map.get(key) ?? [];
-      arr.push(m);
-      map.set(key, arr);
-    }
-    return Array.from(map.entries()).map(([sourceKey, movies]) => ({
-      sourceKey,
-      sourceLabel:
-        (movies[0]?.fromEntity?.title ?? '') +
-        ' — ' +
-        (movies[0]?.fromEntity?.secondEntityKey ?? ''),
-      movies,
-    }));
-  });
-
-  /** BD ayant au moins une adaptation film : BD + liste de films. */
   readonly bdsAdapted = computed<BdWithAdaptations[]>(() => {
     const bds = this.baseBds();
     const movies = this.baseMovies();
-    const withFromEntityComic = movies.filter(
-      (m) => m.fromEntity != null && m.fromEntity.entityType === 'comic'
-    );
     const result: BdWithAdaptations[] = [];
     for (const baseBd of bds) {
-      const adaptations = withFromEntityComic.filter(
-        (m) =>
-          m.fromEntity!.title === baseBd.title &&
-          m.fromEntity!.secondEntityKey === baseBd.writer
-      );
+      const adaptations = movies.filter((m) => {
+        const fe = m.fromEntity;
+        if (!fe) return false;
+        if (fe.entityType !== 'comic' && fe.entityType !== 'bd') return false;
+        return (
+          fe.title === baseBd.title && fe.secondEntityKey === baseBd.writer
+        );
+      });
       if (adaptations.length > 0) {
         result.push({
           bd: getFullBd(baseBd),
@@ -332,16 +378,6 @@ export class MixComponent implements OnInit {
     return result;
   });
 
-  /** Films adaptés de comics (base_comics), groupés par source. */
-  readonly moviesFromComicBooksBySource = computed<MoviesBySource[]>(() => {
-    const groups = this.moviesFromComicsBySource();
-    const comicKeys = new Set(
-      this.baseComics().map((c) => c.title + '|' + c.writer)
-    );
-    return groups.filter((g) => comicKeys.has(g.sourceKey));
-  });
-
-  /** Comics (base_comics) ayant au moins une adaptation film. */
   readonly comicBooksAdapted = computed<ComicWithAdaptations[]>(() => {
     const comics = this.baseComics();
     const movies = this.baseMovies();
@@ -365,6 +401,92 @@ export class MixComponent implements OnInit {
     return result;
   });
 
+  readonly mangasAdapted = computed<MangaWithAdaptations[]>(() => {
+    const mangas = this.baseMangas();
+    const movies = this.baseMovies().filter(
+      (m) => m.fromEntity?.entityType === 'manga'
+    );
+    const result: MangaWithAdaptations[] = [];
+    for (const base of mangas) {
+      const adaptations = movies.filter(
+        (m) =>
+          m.fromEntity!.title === base.title &&
+          m.fromEntity!.secondEntityKey === base.author
+      );
+      if (adaptations.length > 0) {
+        result.push({
+          manga: getFullManga(base),
+          movies: adaptations.map((m) => getFullMovie(m)),
+        });
+      }
+    }
+    return result;
+  });
+
+  readonly manwhasAdapted = computed<ManwhaWithAdaptations[]>(() => {
+    const manwhas = this.baseManwhas();
+    const movies = this.baseMovies().filter(
+      (m) => m.fromEntity?.entityType === 'manwha'
+    );
+    const result: ManwhaWithAdaptations[] = [];
+    for (const base of manwhas) {
+      const adaptations = movies.filter(
+        (m) =>
+          m.fromEntity!.title === base.title &&
+          m.fromEntity!.secondEntityKey === base.author
+      );
+      if (adaptations.length > 0) {
+        result.push({
+          manwha: getFullManwha(base),
+          movies: adaptations.map((m) => getFullMovie(m)),
+        });
+      }
+    }
+    return result;
+  });
+
+  readonly seriesWithFilmAdaptations = computed<SerieWithFilmAdaptations[]>(
+    () => {
+      const series = this.baseSeries();
+      const movies = this.baseMovies().filter(
+        (m) => m.fromEntity?.entityType === 'serie'
+      );
+      const result: SerieWithFilmAdaptations[] = [];
+      for (const base of series) {
+        const adaptations = movies.filter(
+          (m) =>
+            m.fromEntity!.title === base.title &&
+            m.fromEntity!.secondEntityKey === base.director
+        );
+        if (adaptations.length > 0) {
+          result.push({
+            serie: getFullSerie(base),
+            movies: adaptations.map((m) => getFullMovie(m)),
+          });
+        }
+      }
+      return result;
+    }
+  );
+
+  /** Jeux dont l’œuvre source déclarée est un film (catalogue). */
+  readonly gamesFromFilmsDetail = computed<GameFromFilmRow[]>(() => {
+    const games = this.baseGames()
+      .map((g) => getFullGame(g))
+      .filter((g) => g.fromEntity?.entityType === 'movie');
+    const movies = this.baseMovies().map((m) => getFullMovie(m));
+    return games.map((game) => {
+      const fe = game.fromEntity!;
+      const sourceMovie =
+        movies.find(
+          (m) =>
+            m.title === fe.title &&
+            m.director === fe.secondEntityKey
+        ) ?? null;
+      return { game, sourceMovie };
+    });
+  });
+
   readonly collapsedSections = signal<Record<string, boolean>>({});
 
   toggleSection(key: string): void {
@@ -382,29 +504,38 @@ export class MixComponent implements OnInit {
     void this.loadData();
   }
 
+  onPrimaryChange(value: string): void {
+    this.selectedPrimary.set(value as MixPrimary);
+  }
+
+  onAdaptationSourceChange(value: string): void {
+    this.selectedAdaptationSource.set(value as MixAdaptationSource);
+  }
+
   private async loadData(): Promise<void> {
     this.isLoading.set(true);
     try {
-      const [books, bds, comics, games, movies, series] = await Promise.all([
-        getAllBaseBooks(),
-        getAllBaseBds(),
-        getAllBaseComics(),
-        getAllBaseGames(),
-        getAllBaseMovies(),
-        getAllBaseSeries(),
-      ]);
+      const [books, bds, comics, games, mangas, manwhas, movies, series] =
+        await Promise.all([
+          getAllBaseBooks(),
+          getAllBaseBds(),
+          getAllBaseComics(),
+          getAllBaseGames(),
+          getAllBaseMangas(),
+          getAllBaseManwhas(),
+          getAllBaseMovies(),
+          getAllBaseSeries(),
+        ]);
       this.baseBooks.set(books);
       this.baseBds.set(bds);
       this.baseComics.set(comics);
       this.baseGames.set(games);
+      this.baseMangas.set(mangas);
+      this.baseManwhas.set(manwhas);
       this.baseMovies.set(movies);
       this.baseSeries.set(series);
     } finally {
       this.isLoading.set(false);
     }
-  }
-
-  onViewChange(view: MixView): void {
-    this.selectedView.set(view);
   }
 }

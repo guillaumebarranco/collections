@@ -20,6 +20,39 @@
   gap: 1rem;
 }
 
+.mix-header-secondary {
+  margin-top: 0.75rem;
+  padding-top: 0.75rem;
+  border-top: 1px solid var(--stroke-medium, #e5e7eb);
+}
+
+.mix-secondary-label {
+  margin: 0 0 0.5rem 0;
+  font-size: 0.8rem;
+  font-weight: 600;
+  color: var(--text-secondary, #64748b);
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+}
+
+/* Second rang d’onglets : plus compact, retour à la ligne possible */
+:host ::ng-deep .mix-secondary-toggle.view-toggle-desktop {
+  flex-wrap: wrap;
+  max-width: 100%;
+  width: 100%;
+
+  .toggle-option {
+    padding: 8px 14px;
+    font-size: 0.875rem;
+    flex: 0 1 auto;
+  }
+}
+
+:host ::ng-deep .mix-secondary-toggle.view-toggle-mobile .toggle-option-mobile {
+  font-size: 0.9rem;
+  padding: 10px 12px;
+}
+
 .mix-loading,
 .mix-empty {
   padding: 2rem;
@@ -86,7 +119,10 @@
 .mix-section-book,
 .mix-section-game,
 .mix-section-bd,
-.mix-section-comic {
+.mix-section-comic,
+.mix-section-manga,
+.mix-section-manwha,
+.mix-section-serie {
   margin-bottom: 1rem;
   max-width: 320px;
 }

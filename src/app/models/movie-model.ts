@@ -1,4 +1,8 @@
 import { Country, COUNTRY_SELECT_OPTIONS } from './countries.enum';
+import type {
+  MovieFromEntityAdaptation,
+  MovieFromEntityType,
+} from './from-entity.model';
 
 const MOVIE_COUNTRY_LABEL_SET = new Set(
   COUNTRY_SELECT_OPTIONS.filter((c): c is Exclude<Country, ''> => c !== '')
@@ -87,12 +91,14 @@ export interface BaseMovie extends MandatoryMovieData {
   description: string;
   /** Pays de production (plusieurs possibles). */
   countryOrigin: string[];
-  fromEntity: {
-    entityType: 'book' | 'game' | 'comic' | 'manga' | 'manwha' | 'serie';
-    title: string;
-    secondEntityKey: string;
-  } | null;
+  fromEntity: MovieFromEntityAdaptation | null;
 }
+
+export type { MovieFromEntityAdaptation, MovieFromEntityType };
+
+/** Œuvre source d’une adaptation (films et séries) — alias de {@link MovieFromEntityAdaptation}. */
+export type FromEntityAdaptation = MovieFromEntityAdaptation;
+export type FromEntityType = MovieFromEntityType;
 
 /**
  * Libellés pays pour affichage / recherche (supporte encore une chaîne unique en runtime).

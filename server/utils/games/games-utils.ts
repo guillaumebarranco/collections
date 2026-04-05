@@ -91,6 +91,68 @@ function unescapeString(value: string, quote: string) {
     .replace(/\\\\/g, '\\');
 }
 
+const FROM_ENTITY_TYPES = [
+  'book',
+  'bd',
+  'game',
+  'comic',
+  'manga',
+  'manwha',
+  'serie',
+  'movie',
+];
+
+function parseFromEntityField(objectText: string) {
+  const nullMatch = objectText.match(/fromEntity\s*:\s*null/);
+  if (nullMatch) return null;
+  const objStart = objectText.indexOf('fromEntity');
+  if (objStart === -1) return null;
+  const braceStart = objectText.indexOf('{', objStart);
+  if (braceStart === -1) return null;
+  let depth = 1;
+  let i = braceStart + 1;
+  while (i < objectText.length && depth > 0) {
+    const c = objectText[i];
+    if (c === '{') depth += 1;
+    else if (c === '}') depth -= 1;
+    i += 1;
+  }
+  const inner = objectText.slice(braceStart, i);
+  const entityTypeRaw = parseStringField(inner, 'entityType');
+  const entityType = FROM_ENTITY_TYPES.includes(entityTypeRaw || '')
+    ? entityTypeRaw
+    : 'book';
+  const title = parseStringField(inner, 'title');
+  const secondEntityKey =
+    parseStringField(inner, 'secondEntityKey') ??
+    parseStringField(inner, 'author');
+  if (title != null && secondEntityKey != null)
+    return {
+      entityType: entityType || 'book',
+      title,
+      secondEntityKey,
+    };
+  return null;
+}
+
+function formatFromEntityTs(
+  fe: { entityType: string; title: string; secondEntityKey: string } | null | undefined
+) {
+  if (fe == null || typeof fe !== 'object') {
+    return 'fromEntity: null';
+  }
+  const t =
+    fe.entityType && FROM_ENTITY_TYPES.includes(fe.entityType)
+      ? fe.entityType
+      : 'book';
+  if (!fe.title || !fe.secondEntityKey) {
+    return 'fromEntity: null';
+  }
+  return `fromEntity: { entityType: "${escapeString(t)}", title: "${escapeString(
+    String(fe.title)
+  )}", secondEntityKey: "${escapeString(String(fe.secondEntityKey))}" }`;
+}
+
 function parseNumberField(objectText: string, key: string) {
   const regex = new RegExp(`${key}\\s*:\\s*([^,\\n]+)`);
   const match = objectText.match(regex);
@@ -306,6 +368,7 @@ function parseBaseGamesFullFromFile(content: string): BaseGame[] {
           saga: parseStringField(objectText, 'saga') || '',
           platineTime: parseNumberField(objectText, 'platineTime') ?? 0,
           description: parseStringField(objectText, 'description') || '',
+          fromEntity: parseFromEntityField(objectText) ?? null,
         } as BaseGame);
       }
     }
@@ -477,6 +540,7 @@ function updateBaseGameInFile(filePath: string, gameData: BaseGameFileUpdatePayl
     saga: "${escapeString(game.saga || '')}",
     platineTime: ${game.platineTime ?? 0},
     description: "${escapeString(game.description || '')}",
+    ${formatFromEntityTs(game.fromEntity)},
   }`
     )
     .join(',\n');

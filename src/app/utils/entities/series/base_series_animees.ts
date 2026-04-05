@@ -2666,18 +2666,18 @@ export const baseSeriesAnimees: BaseSerie[] = [
     director: 'Seiji Kishi',
     actors: [
       {
-        name: 'Jun Fukuyama',
+        name: "Jun Fukuyama",
       },
       {
-        name: 'Mai Fuchigami',
+        name: "Mai Fuchigami",
       },
       {
-        name: 'Bryce Papenbrook',
-      },
+        name: "Bryce Papenbrook",
+      }
     ],
-    coverUrl: '/series_pictures/assassination-classroom.jpg',
-    releaseDate: '2015-01-09',
-    endDate: '2016-06-30',
+    coverUrl: "/series_pictures/assassination-classroom.jpg",
+    releaseDate: "2015-01-09",
+    endDate: "2016-06-30",
     genre: ['Anime'],
     seasonsData: [
       {
@@ -2689,11 +2689,12 @@ export const baseSeriesAnimees: BaseSerie[] = [
         seasonNumber: 2,
         nbEpisodes: 25,
         totalLength: 571,
-      },
+      }
     ],
-    description: '',
-    saga: '',
-    countryOrigin: 'Japon',
+    description: "",
+    saga: "",
+    countryOrigin: "Japon",
+      fromEntity: { entityType: "manga", title: "Assassination Classroom", secondEntityKey: "Matsui Yuusei" },
   },
   {
     title: 'Soul Eater',

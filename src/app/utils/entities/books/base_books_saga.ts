@@ -1110,4 +1110,17 @@ export const baseBooksSaga: BaseBook[] = [
     description: '',
     countryOrigin: 'États-Unis',
   },
+  {
+    title: 'Sublimes: La Chimère',
+    author: 'Emma Schütz',
+    coverUrl: '/books_pictures/sublimes_la_chimere_emma_schutz.jpg',
+    pages: 784,
+    genre: ['Fantasy', 'Jeunesse'],
+    saga: 'Sublimes',
+    sagaOrder: 1,
+    sagaFinished: false,
+    releaseDate: '2023-11-15',
+    description: '',
+    countryOrigin: 'France',
+  },
 ];

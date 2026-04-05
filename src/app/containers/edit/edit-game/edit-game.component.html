@@ -37,6 +37,14 @@
       <p><strong>Saga :</strong> {{ game()?.saga }}</p>
       } @if (game()?.description) {
       <p><strong>Description :</strong> {{ game()?.description }}</p>
+      } @if (game()?.fromEntity) {
+      <p>
+        <strong>Adapté de :</strong>
+        {{ getFromEntityTypeDisplayLabel(game()?.fromEntity?.entityType) }} —
+        {{ game()?.fromEntity?.title }} ({{
+          game()?.fromEntity?.secondEntityKey
+        }})
+      </p>
       }
     </div>
     <br />
@@ -370,6 +378,37 @@
         name="entityDescription"
         placeholder="Optionnel"
       ></textarea>
+    </div>
+
+    <div class="form-row genre-row">
+      <mat-form-field appearance="outline" class="genre-field">
+        <mat-label>Type de source (adaptation)</mat-label>
+        <mat-select
+          id="entityFromEntityType"
+          [ngModel]="fromEntitySourceType()"
+          (ngModelChange)="onFromEntityTypeSelect($event)"
+          name="entityFromEntityType"
+          placeholder="Aucune adaptation"
+        >
+          @for (t of fromEntityTypeSelectOptions; track t.value) {
+            <mat-option [value]="t.value">{{ t.label }}</mat-option>
+          }
+        </mat-select>
+      </mat-form-field>
+    </div>
+
+    <div class="form-row genre-row">
+      <app-searchable-selectbox
+        inputId="entityFromEntityWork"
+        label="Œuvre source"
+        [disabled]="!fromEntitySourceType()"
+        [options]="fromEntityWorkOptions()"
+        [selectedValue]="fromEntityWorkSelectValue()"
+        placeholder="Rechercher par titre, auteur, éditeur…"
+        emptyOptionLabel="Aucune œuvre"
+        [maxResults]="200"
+        (selectedValueChange)="onFromEntityWorkSelect($event)"
+      />
     </div>
     }
 

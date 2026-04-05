@@ -83,7 +83,6 @@
           <mat-select
             id="genre"
             multiple
-            panelClass="makya-mat-select-panel-dark"
             [ngModel]="entityForm().genre"
             (ngModelChange)="setGenres($event)"
             name="genre"
@@ -113,7 +112,6 @@
           <mat-select
             id="countryOrigin"
             multiple
-            panelClass="makya-mat-select-panel-dark"
             [ngModel]="entityForm().countryOrigin"
             (ngModelChange)="setCountries($event)"
             name="countryOrigin"

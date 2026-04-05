@@ -1,0 +1,31 @@
+<mat-form-field appearance="outline" class="makya-searchable-select">
+  <mat-label>{{ label() }}</mat-label>
+  <input
+    type="text"
+    matInput
+    [id]="inputId()"
+    [name]="inputId()"
+    [disabled]="disabled()"
+    [placeholder]="placeholder()"
+    [matAutocomplete]="auto"
+    [ngModel]="draft()"
+    (ngModelChange)="onDraftChange($event)"
+    (focus)="onFocus($event)"
+    (blur)="onBlur()"
+    autocomplete="off"
+    autocapitalize="off"
+    spellcheck="false"
+  />
+  <mat-autocomplete
+    #auto="matAutocomplete"
+    [autoActiveFirstOption]="true"
+    (optionSelected)="onOptionSelected($event)"
+  >
+    @if (showEmptyOption() && !disabled()) {
+      <mat-option [value]="clearSentinel">{{ emptyOptionLabel() }}</mat-option>
+    }
+    @for (opt of filteredOptions(); track opt.value) {
+      <mat-option [value]="opt.value">{{ opt.label }}</mat-option>
+    }
+  </mat-autocomplete>
+</mat-form-field>

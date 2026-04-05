@@ -40,7 +40,9 @@
       <p><strong>Description :</strong> {{ movie()?.description }}</p>
       } @if (movie()?.fromEntity) {
       <p>
-        <strong>Adapté de :</strong> {{ movie()?.fromEntity?.title }} ({{
+        <strong>Adapté de :</strong>
+        {{ getFromEntityTypeDisplayLabel(movie()?.fromEntity?.entityType) }} —
+        {{ movie()?.fromEntity?.title }} ({{
           movie()?.fromEntity?.secondEntityKey
         }})
       </p>
@@ -272,18 +274,11 @@
     </div>
 
     <div class="form-row genre-row">
-      <mat-form-field
-        appearance="outline"
-        class="genre-field"
-        [class.genre-field--dark-popin]="isDialogMode()"
-      >
+      <mat-form-field appearance="outline" class="genre-field">
         <mat-label>Genres</mat-label>
         <mat-select
           id="entityGenre"
           multiple
-          [panelClass]="
-            isDialogMode() ? 'makya-mat-select-panel-dark' : ''
-          "
           [ngModel]="movieEntityForm()?.genre"
           (ngModelChange)="setEntityGenres($event)"
           name="entityGenre"
@@ -308,18 +303,11 @@
     </div>
 
     <div class="form-row genre-row">
-      <mat-form-field
-        appearance="outline"
-        class="genre-field"
-        [class.genre-field--dark-popin]="isDialogMode()"
-      >
+      <mat-form-field appearance="outline" class="genre-field">
         <mat-label>Nationalités</mat-label>
         <mat-select
           id="entityCountryOrigin"
           multiple
-          [panelClass]="
-            isDialogMode() ? 'makya-mat-select-panel-dark' : ''
-          "
           [ngModel]="movieEntityForm()?.countryOrigin"
           (ngModelChange)="setEntityCountries($event)"
           name="entityCountryOrigin"
@@ -355,21 +343,35 @@
       ></textarea>
     </div>
 
-    <div class="form-row">
-      <label for="entityFromEntity">Livre source (adaptation)</label>
-      <select
-        id="entityFromEntity"
-        name="entityFromEntity"
-        [ngModel]="fromEntitySelectValue()"
-        (ngModelChange)="onFromEntitySelect($event)"
-      >
-        <option value="">Aucun</option>
-        @for (book of baseBooks(); track book.title + '|' + book.author) {
-        <option [value]="book.title + '|' + book.author">
-          {{ book.title }} — {{ book.author }}
-        </option>
-        }
-      </select>
+    <div class="form-row genre-row">
+      <mat-form-field appearance="outline" class="genre-field">
+        <mat-label>Type de source (adaptation)</mat-label>
+        <mat-select
+          id="entityFromEntityType"
+          [ngModel]="fromEntitySourceType()"
+          (ngModelChange)="onFromEntityTypeSelect($event)"
+          name="entityFromEntityType"
+          placeholder="Aucune adaptation"
+        >
+          @for (t of fromEntityTypeSelectOptions; track t.value) {
+            <mat-option [value]="t.value">{{ t.label }}</mat-option>
+          }
+        </mat-select>
+      </mat-form-field>
+    </div>
+
+    <div class="form-row genre-row">
+      <app-searchable-selectbox
+        inputId="entityFromEntityWork"
+        label="Œuvre source"
+        [disabled]="!fromEntitySourceType()"
+        [options]="fromEntityWorkOptions()"
+        [selectedValue]="fromEntityWorkSelectValue()"
+        placeholder="Rechercher par titre, auteur, réalisateur…"
+        emptyOptionLabel="Aucune œuvre"
+        [maxResults]="200"
+        (selectedValueChange)="onFromEntityWorkSelect($event)"
+      />
     </div>
     }
 

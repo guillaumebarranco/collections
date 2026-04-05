@@ -1,3 +1,5 @@
+import type { GameFromEntityAdaptation } from './from-entity.model';
+
 export interface MandatoryGameData {
   title: string;
   editor: string;
@@ -13,6 +15,8 @@ export interface BaseGame extends MandatoryGameData {
   saga: string;
   platineTime: number;
   description: string;
+  /** Œuvre source (livre, film, série, autre jeu, etc.) si adaptation. */
+  fromEntity?: GameFromEntityAdaptation | null;
 }
 
 export interface UserGame extends MandatoryGameData {

@@ -188,29 +188,30 @@ export const baseSeriesApi: BaseSerie[] = [
     director: 'Ira Parker,George R. R. Martin',
     actors: [
       {
-        name: 'Peter Claffey',
+        name: "Peter Claffey",
       },
       {
-        name: 'Dexter Sol Ansell',
+        name: "Dexter Sol Ansell",
       },
       {
-        name: 'Daniel Ings',
-      },
+        name: "Daniel Ings",
+      }
     ],
-    coverUrl: '/series_pictures/aa879c773348.jpg',
-    releaseDate: '2026-01-18',
-    endDate: '',
+    coverUrl: "/series_pictures/aa879c773348.jpg",
+    releaseDate: "2026-01-18",
+    endDate: "",
     genre: ['Fantasy'],
     seasonsData: [
       {
         seasonNumber: 1,
         nbEpisodes: 6,
         totalLength: 208,
-      },
+      }
     ],
-    description: '',
-    countryOrigin: 'États-Unis',
-    saga: 'Game of Thrones',
+    description: "",
+    countryOrigin: "États-Unis",
+    saga: "Game of Thrones",
+      fromEntity: { entityType: "book", title: "Le Trône de fer, L'Intégrale Tome 1", secondEntityKey: "George R.R. Martin" },
   },
 
   {

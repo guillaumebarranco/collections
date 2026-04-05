@@ -706,4 +706,17 @@ export const baseBooksPolicier: BaseBook[] = [
     description: '',
     countryOrigin: 'Belgique',
   },
+  {
+    title: 'Le Dahlia noir',
+    author: 'James Ellroy',
+    coverUrl: '/books_pictures/le_dahlia_noir_james_ellroy.jpg',
+    pages: 352,
+    genre: ['Policier'],
+    saga: 'Quatuor de Los Angeles',
+    sagaOrder: 1,
+    sagaFinished: true,
+    releaseDate: '1987-09-01',
+    description: '',
+    countryOrigin: 'États-Unis',
+  },
 ];

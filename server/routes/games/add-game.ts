@@ -26,6 +26,7 @@ function formatBaseGame(entity: any): string {
     saga: "${escapeString(entity.saga || '')}",
     platineTime: ${entity.platineTime ?? 0},
     description: "${escapeString(entity.description ?? '')}",
+    fromEntity: null,
   },`;
 }
 

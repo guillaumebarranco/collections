@@ -120,6 +120,80 @@ function normalizeSerieGenreInput(value: unknown): string[] {
   return [];
 }
 
+const FROM_ENTITY_TYPES = [
+  'book',
+  'bd',
+  'game',
+  'comic',
+  'manga',
+  'manwha',
+  'serie',
+];
+
+function parseFromEntityField(objectText: string) {
+  const nullMatch = objectText.match(/fromEntity\s*:\s*null/);
+  if (nullMatch) return null;
+  const objStart = objectText.indexOf('fromEntity');
+  if (objStart === -1) return null;
+  const braceStart = objectText.indexOf('{', objStart);
+  if (braceStart === -1) return null;
+  let depth = 1;
+  let i = braceStart + 1;
+  while (i < objectText.length && depth > 0) {
+    const c = objectText[i];
+    if (c === '{') depth += 1;
+    else if (c === '}') depth -= 1;
+    i += 1;
+  }
+  const inner = objectText.slice(braceStart, i);
+  const entityTypeRaw = parseStringField(inner, 'entityType');
+  const entityType = FROM_ENTITY_TYPES.includes(entityTypeRaw || '')
+    ? entityTypeRaw
+    : 'book';
+  const title = parseStringField(inner, 'title');
+  const secondEntityKey =
+    parseStringField(inner, 'secondEntityKey') ??
+    parseStringField(inner, 'author');
+  if (title != null && secondEntityKey != null)
+    return {
+      entityType: entityType || 'book',
+      title,
+      secondEntityKey,
+    };
+  return null;
+}
+
+function upsertFromEntityField(
+  objectText: string,
+  value:
+    | { entityType: string; title: string; secondEntityKey: string }
+    | null
+    | undefined
+) {
+  if (value === undefined) return objectText;
+  const entityType =
+    value !== null && FROM_ENTITY_TYPES.includes(value.entityType)
+      ? value.entityType
+      : 'book';
+  const fromEntityBlock =
+    value === null
+      ? 'fromEntity: null'
+      : `fromEntity: { entityType: "${escapeString(
+          entityType
+        )}", title: "${escapeString(value.title)}", secondEntityKey: "${escapeString(
+          value.secondEntityKey
+        )}" }`;
+  const existingNull = /fromEntity\s*:\s*null/;
+  const existingObj = /fromEntity\s*:\s*\{[\s\S]*?\}/;
+  if (existingNull.test(objectText)) {
+    return objectText.replace(existingNull, fromEntityBlock);
+  }
+  if (existingObj.test(objectText)) {
+    return objectText.replace(existingObj, fromEntityBlock);
+  }
+  return objectText.replace(/\}\s*$/, `    ${fromEntityBlock},\n  }`);
+}
+
 /** Lit genre: [...] ou ancien genre: 'A, B' dans un littéral d'objet série. */
 function parseSerieGenresField(objectText: string): string[] {
   const keyMatch = objectText.match(/\bgenre\s*:\s*/);
@@ -436,6 +510,7 @@ function parseBaseSeriesFullFromFile(content: string): BaseSerie[] {
           description: parseStringField(objectText, 'description') || '',
           countryOrigin: parseStringField(objectText, 'countryOrigin') as BaseSerie['countryOrigin'],
           saga: parseStringField(objectText, 'saga') || '',
+          fromEntity: parseFromEntityField(objectText) ?? null,
         } as BaseSerie);
       }
     }
@@ -837,6 +912,9 @@ function updateBaseSerieInFile(content: string, payload: BaseSerieFileUpdatePayl
           updated = upsertField(updated, 'description', payload.description ?? '');
           updated = upsertField(updated, 'countryOrigin', payload.countryOrigin ?? '');
           updated = upsertField(updated, 'saga', payload.saga ?? '');
+          if (Object.prototype.hasOwnProperty.call(payload, 'fromEntity')) {
+            updated = upsertFromEntityField(updated, payload.fromEntity);
+          }
 
           return (
             content.slice(0, objectStart) +

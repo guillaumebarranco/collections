@@ -53,6 +53,7 @@ ${seasonsLines}
     description: "${escapeString(entity.description ?? '')}",
     countryOrigin: "${escapeString(entity.countryOrigin ?? '')}",
     saga: "${escapeString(entity.saga ?? '')}",
+    fromEntity: null,
   },`;
 }
 

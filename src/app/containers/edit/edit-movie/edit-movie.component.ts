@@ -36,7 +36,23 @@ import { QuizzCreateModalComponent } from '../../../components/modals/quizz-crea
 import { EntityType } from '../../../models/quizz-model';
 import { DEFAULT_USER_ID } from '../../../utils/constants';
 import { getAllBaseBooks } from '../../../facades/books/books.facade';
+import { getAllBaseBds } from '../../../facades/bds/bds.facade';
+import { getAllBaseComics } from '../../../facades/comics/comics.facade';
+import { getAllBaseGames } from '../../../facades/games/games.facade';
+import { getAllBaseMangas } from '../../../facades/mangas/mangas.facade';
+import { getAllBaseManwhas } from '../../../facades/manwhas/manwhas.facade';
+import { getAllBaseSeries } from '../../../facades/series/series.facade';
 import { BaseBook } from '../../../models/book-model';
+import { BaseBd } from '../../../models/bd-model';
+import { BaseComic } from '../../../models/comic-model';
+import { BaseGame } from '../../../models/game-model';
+import { BaseManga } from '../../../models/manga-model';
+import { BaseManwha } from '../../../models/manwha-model';
+import { BaseSerie } from '../../../models/serie-model';
+import {
+  SearchableSelectboxComponent,
+  SearchableSelectOption,
+} from '../../../components/shared/searchable-selectbox/searchable-selectbox.component';
 
 type EditMovieForm = {
   rating: number;
@@ -72,6 +88,10 @@ type EditMovieDialogData = {
   index?: number;
 };
 
+export type MovieFromEntityType = NonNullable<
+  BaseMovie['fromEntity']
+>['entityType'];
+
 @Component({
   selector: 'app-edit-movie',
   standalone: true,
@@ -83,6 +103,7 @@ type EditMovieDialogData = {
     EditEntityHeaderComponent,
     MatFormFieldModule,
     MatSelectModule,
+    SearchableSelectboxComponent,
   ],
   templateUrl: './edit-movie.component.html',
   styleUrls: ['./edit-movie.component.scss'],
@@ -150,11 +171,97 @@ export class EditMovieComponent {
   });
 
   readonly baseBooks = signal<BaseBook[]>([]);
+  readonly baseBds = signal<BaseBd[]>([]);
+  readonly baseComics = signal<BaseComic[]>([]);
+  readonly baseGames = signal<BaseGame[]>([]);
+  readonly baseMangas = signal<BaseManga[]>([]);
+  readonly baseManwhas = signal<BaseManwha[]>([]);
+  readonly baseSeries = signal<BaseSerie[]>([]);
+  /** Type de source sélectionné (peut être renseigné sans œuvre encore choisie). */
+  readonly fromEntitySourceType = signal<MovieFromEntityType | ''>('');
+
   readonly movieGenreOptions = MOVIE_GENRE_OPTIONS;
-  readonly fromEntitySelectValue = computed(() => {
+
+  readonly fromEntityTypeSelectOptions: {
+    value: MovieFromEntityType | '';
+    label: string;
+  }[] = [
+    { value: '', label: 'Aucune adaptation' },
+    { value: 'book', label: 'Livre' },
+    { value: 'bd', label: 'Bande dessinée' },
+    { value: 'comic', label: 'Comic' },
+    { value: 'manga', label: 'Manga' },
+    { value: 'manwha', label: 'Manhwa' },
+    { value: 'game', label: 'Jeu vidéo' },
+    { value: 'serie', label: 'Série' },
+  ];
+
+  readonly fromEntityWorkOptions = computed<SearchableSelectOption[]>(() => {
+    const type = this.fromEntitySourceType();
+    if (!type) return [];
+    const sortByTitle = <T extends { title: string }>(a: T, b: T) =>
+      a.title.localeCompare(b.title, 'fr', { sensitivity: 'base' });
+    switch (type) {
+      case 'book':
+        return [...this.baseBooks()]
+          .sort(sortByTitle)
+          .map((b) => ({
+            value: `${b.title}|${b.author}`,
+            label: `${b.title} — ${b.author}`,
+          }));
+      case 'bd':
+        return [...this.baseBds()]
+          .sort(sortByTitle)
+          .map((b) => ({
+            value: `${b.title}|${b.writer}`,
+            label: `${b.title} — ${b.writer}`,
+          }));
+      case 'comic':
+        return [...this.baseComics()]
+          .sort(sortByTitle)
+          .map((c) => ({
+            value: `${c.title}|${c.writer}`,
+            label: `${c.title} — ${c.writer}`,
+          }));
+      case 'manga':
+        return [...this.baseMangas()]
+          .sort(sortByTitle)
+          .map((m) => ({
+            value: `${m.title}|${m.author}`,
+            label: `${m.title} — ${m.author}`,
+          }));
+      case 'manwha':
+        return [...this.baseManwhas()]
+          .sort(sortByTitle)
+          .map((m) => ({
+            value: `${m.title}|${m.author}`,
+            label: `${m.title} — ${m.author}`,
+          }));
+      case 'game':
+        return [...this.baseGames()]
+          .sort(sortByTitle)
+          .map((g) => ({
+            value: `${g.title}|${g.editor}`,
+            label: `${g.title} — ${g.editor}`,
+          }));
+      case 'serie':
+        return [...this.baseSeries()]
+          .sort(sortByTitle)
+          .map((s) => ({
+            value: `${s.title}|${s.director}`,
+            label: `${s.title} — ${s.director}`,
+          }));
+      default:
+        return [];
+    }
+  });
+
+  readonly fromEntityWorkSelectValue = computed(() => {
     const form = this.movieEntityForm();
-    if (!form?.fromEntity) return '';
-    return `${form.fromEntity.title}|${form.fromEntity.secondEntityKey}`;
+    const type = this.fromEntitySourceType();
+    const fe = form?.fromEntity;
+    if (!fe || fe.entityType !== type) return '';
+    return `${fe.title}|${fe.secondEntityKey}`;
   });
 
   readonly movieSlug = computed(() => {
@@ -164,21 +271,55 @@ export class EditMovieComponent {
   constructor() {
     if (this.dialogData?.movie) {
       this.setupDialogNavigation(this.dialogData);
-      void this.loadBaseBooksIfAdmin();
+      void this.loadBaseFromEntitySourcesIfAdmin();
       return;
     }
 
     this.activatedRoute.paramMap.subscribe((params) => {
       void this.loadMovieFromSlug(params);
     });
-    void this.loadBaseBooksIfAdmin();
+    void this.loadBaseFromEntitySourcesIfAdmin();
   }
 
-  private async loadBaseBooksIfAdmin() {
-    if (this.isAdminView()) {
-      const books = await getAllBaseBooks();
-      this.baseBooks.set(books);
-    }
+  private async loadBaseFromEntitySourcesIfAdmin() {
+    if (!this.isAdminView()) return;
+    const [
+      books,
+      bds,
+      comics,
+      games,
+      mangas,
+      manwhas,
+      series,
+    ] = await Promise.all([
+      getAllBaseBooks(),
+      getAllBaseBds(),
+      getAllBaseComics(),
+      getAllBaseGames(),
+      getAllBaseMangas(),
+      getAllBaseManwhas(),
+      getAllBaseSeries(),
+    ]);
+    this.baseBooks.set(books);
+    this.baseBds.set(bds);
+    this.baseComics.set(comics);
+    this.baseGames.set(games);
+    this.baseMangas.set(mangas);
+    this.baseManwhas.set(manwhas);
+    this.baseSeries.set(series);
+  }
+
+  getFromEntityTypeDisplayLabel(
+    type: MovieFromEntityType | undefined
+  ): string {
+    if (!type) return '';
+    const opt = this.fromEntityTypeSelectOptions.find((o) => o.value === type);
+    return opt?.label ?? String(type);
+  }
+
+  private syncFromEntitySourceTypeFromForm(): void {
+    const fe = this.movieEntityForm()?.fromEntity;
+    this.fromEntitySourceType.set((fe?.entityType ?? '') as MovieFromEntityType | '');
   }
 
   updateField<K extends keyof EditMovieForm>(field: K, value: string | number) {
@@ -469,6 +610,8 @@ export class EditMovieComponent {
     if (!matched) {
       this.movie.set(null);
       this.movieForm.set(null);
+      this.movieEntityForm.set(null);
+      this.fromEntitySourceType.set('');
       this.movieNotFound.set(true);
       return;
     }
@@ -476,6 +619,7 @@ export class EditMovieComponent {
     this.movie.set(matched);
     this.movieForm.set(this.toForm(matched));
     this.movieEntityForm.set(this.toEntityForm(matched));
+    this.syncFromEntitySourceTypeFromForm();
     this.movieNotFound.set(false);
   }
 
@@ -553,24 +697,45 @@ export class EditMovieComponent {
     };
   }
 
-  onFromEntitySelect(value: string) {
+  onFromEntityTypeSelect(value: string) {
     const current = this.movieEntityForm();
     if (!current) return;
-    if (!value.trim()) {
+    const t = (value ?? '') as MovieFromEntityType | '';
+    this.fromEntitySourceType.set(t);
+    if (!t) {
       this.movieEntityForm.set({ ...current, fromEntity: null });
       return;
     }
-    const [title, secondEntityKey] = value.split('|');
-    if (title && secondEntityKey) {
-      this.movieEntityForm.set({
-        ...current,
-        fromEntity: {
-          entityType: 'book',
-          title: title.trim(),
-          secondEntityKey: secondEntityKey.trim(),
-        },
-      });
+    if (current.fromEntity?.entityType === t) {
+      return;
     }
+    this.movieEntityForm.set({ ...current, fromEntity: null });
+  }
+
+  onFromEntityWorkSelect(value: string) {
+    const current = this.movieEntityForm();
+    if (!current) return;
+    const type = this.fromEntitySourceType();
+    if (!type) {
+      return;
+    }
+    if (!value?.trim()) {
+      this.movieEntityForm.set({ ...current, fromEntity: null });
+      return;
+    }
+    const pipe = value.indexOf('|');
+    if (pipe < 0) return;
+    const title = value.slice(0, pipe).trim();
+    const secondEntityKey = value.slice(pipe + 1).trim();
+    if (!title) return;
+    this.movieEntityForm.set({
+      ...current,
+      fromEntity: {
+        entityType: type,
+        title,
+        secondEntityKey,
+      },
+    });
   }
 
   private canEditCurrentUser(): boolean {
@@ -623,6 +788,7 @@ export class EditMovieComponent {
     this.originalTitle.set(movie.title);
     this.originalSecondary.set(movie.director);
     this.movieNotFound.set(false);
+    this.syncFromEntitySourceTypeFromForm();
   }
 
   private toSlug(value: string): string {

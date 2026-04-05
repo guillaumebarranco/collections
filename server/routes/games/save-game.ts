@@ -13,6 +13,40 @@ const { isAdminUser, loadUsers } = require('../../utils/users/users-utils');
 
 const router = express.Router();
 
+const FROM_ENTITY_TYPES = new Set([
+  'book',
+  'bd',
+  'game',
+  'comic',
+  'manga',
+  'manwha',
+  'serie',
+  'movie',
+]);
+
+function normalizeFromEntity(raw: unknown) {
+  if (raw === undefined) {
+    return undefined;
+  }
+  if (raw === null) {
+    return null;
+  }
+  if (typeof raw !== 'object' || raw === null) {
+    return undefined;
+  }
+  const o = raw as Record<string, unknown>;
+  const entityType = String(o['entityType'] ?? '').trim();
+  const title = String(o['title'] ?? '').trim();
+  const secondEntityKey = String(o['secondEntityKey'] ?? '').trim();
+  if (!title || !secondEntityKey) {
+    return null;
+  }
+  if (!FROM_ENTITY_TYPES.has(entityType)) {
+    return null;
+  }
+  return { entityType, title, secondEntityKey };
+}
+
 router.post('/', (req: any, res: any) => {
   try {
     const input = req.body || {};
@@ -134,6 +168,9 @@ router.post('/', (req: any, res: any) => {
       if (platineTime !== undefined) baseUpdate['platineTime'] = platineTime;
       const description = normalizeString(entityPayload.description, 'description');
       if (description !== undefined) baseUpdate['description'] = description ?? '';
+      if (Object.prototype.hasOwnProperty.call(entityPayload, 'fromEntity')) {
+        baseUpdate['fromEntity'] = normalizeFromEntity(entityPayload.fromEntity);
+      }
       baseUpdatedFile = updateBaseGameInFiles(baseUpdate);
 
       if (originalTitle || originalEditor) {
