@@ -5,6 +5,8 @@ const {
   normalizeNumber,
   normalizeBoolean,
   normalizeString,
+  normalizeSerieGenreInput,
+  formatSerieGenreArrayTs,
   escapeString,
   appendObjectToArrayFile,
   baseSerieExists,
@@ -44,7 +46,7 @@ ${actorsLines || "      { name: 'Inconnu' },"}
     coverUrl: "${escapeString(entity.coverUrl || '')}",
     releaseDate: "${escapeString(entity.releaseDate || '')}",
     endDate: "${escapeString(entity.endDate || '')}",
-    genre: "${escapeString(entity.genre || '')}",
+    genre: ${formatSerieGenreArrayTs(normalizeSerieGenreInput(entity.genre))},
     seasonsData: [
 ${seasonsLines}
     ],
@@ -170,7 +172,7 @@ router.post('/add', (req: any, res: any) => {
       coverUrl: normalizeString(entity.coverUrl, 'coverUrl') || '',
       releaseDate: normalizeString(entity.releaseDate, 'releaseDate') || '',
       endDate: normalizeString(entity.endDate, 'endDate') || '',
-      genre: normalizeString(entity.genre, 'genre') || '',
+      genre: normalizeSerieGenreInput(entity.genre),
       seasonsData,
       description: normalizeString(entity.description, 'description') ?? '',
       countryOrigin: normalizeString(entity.countryOrigin, 'countryOrigin') ?? '',

@@ -17,7 +17,7 @@ import {
 } from '../../../components/shared/stats-display/stats-display.component';
 import { SeriesHeaderComponent } from './series-header/series-header.component';
 
-import { Serie } from '../../../models/serie-model';
+import { normalizeSerieGenres, Serie } from '../../../models/serie-model';
 import { DEFAULT_USER_ID } from '../../../utils/constants';
 
 import {
@@ -555,7 +555,7 @@ export class SeriesComponent implements OnInit {
       serie.title,
       serie.director,
       actors,
-      serie.genre,
+      normalizeSerieGenres(serie.genre).join(' '),
       serie.saga,
     ]
       .filter(Boolean)

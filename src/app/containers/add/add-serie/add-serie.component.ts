@@ -5,6 +5,7 @@ import { MAT_DIALOG_DATA, MatDialogRef } from '@angular/material/dialog';
 import { getApiBaseUrl } from '../../../core/config';
 import { DEFAULT_USER_ID } from '../../../utils/constants';
 import { CountrySelectComponent } from '../../../components/shared/country-select/country-select.component';
+import { normalizeSerieGenres } from '../../../models/serie-model';
 
 type AddSerieEntityForm = {
   title: string;
@@ -244,6 +245,7 @@ export class AddSerieComponent {
           entity: {
             ...entity,
             actors: this.getActorsList(),
+            genre: normalizeSerieGenres(entity.genre),
           },
           user: {
             owned: this.userForm().owned,

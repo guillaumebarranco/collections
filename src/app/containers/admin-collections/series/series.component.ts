@@ -4,7 +4,7 @@ import { FormsModule } from '@angular/forms';
 import { SerieComponent } from '../../../components/collections/serie/serie.component';
 import { AdminSeriesHeaderComponent } from './series-header/series-header.component';
 
-import { Serie } from '../../../models/serie-model';
+import { normalizeSerieGenres, Serie } from '../../../models/serie-model';
 import {
   SerieView,
   getSeriesByCountry,
@@ -128,7 +128,7 @@ export class AdminSeriesComponent implements OnInit {
       serie.title,
       serie.director,
       actors,
-      serie.genre,
+      normalizeSerieGenres(serie.genre).join(' '),
       serie.saga,
     ]
       .filter(Boolean)

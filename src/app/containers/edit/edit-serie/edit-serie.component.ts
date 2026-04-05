@@ -9,6 +9,7 @@ import {
 } from '@angular/router';
 import {
   BaseSerieSeasonData,
+  normalizeSerieGenres,
   Serie,
   UserSerieSeason,
 } from '../../../models/serie-model';
@@ -382,7 +383,7 @@ export class EditSerieComponent {
       coverUrl: serie.coverUrl,
       releaseDate: serie.releaseDate,
       endDate: serie.endDate,
-      genre: serie.genre,
+      genre: normalizeSerieGenres(serie.genre).join(', '),
       seasonsData: serie.seasonsData || [],
       description: serie.description ?? '',
       countryOrigin: serie.countryOrigin ?? '',
@@ -400,7 +401,7 @@ export class EditSerieComponent {
       coverUrl: form.coverUrl,
       releaseDate: form.releaseDate,
       endDate: form.endDate,
-      genre: form.genre,
+      genre: normalizeSerieGenres(form.genre),
       seasonsData: form.seasonsData,
       description: form.description ?? '',
       countryOrigin: form.countryOrigin ?? '',

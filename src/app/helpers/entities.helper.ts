@@ -12,6 +12,7 @@ import { BaseManwha, UserManwha } from '../models/manwha-model';
 import { BaseMovie, Movie, UserMovie } from '../models/movie-model';
 import {
   BaseSerie,
+  normalizeSerieGenres,
   Serie,
   UserSerie,
   UserSerieSeason,
@@ -256,7 +257,7 @@ export const getSerieDataFromUserSerieAndBaseSerie = (
   coverUrl: baseSerie?.coverUrl || '',
   releaseDate: baseSerie?.releaseDate || '',
   endDate: baseSerie?.endDate || '',
-  genre: baseSerie?.genre || '',
+  genre: normalizeSerieGenres(baseSerie?.genre),
   seasonsData: baseSerie?.seasonsData || [],
   countryOrigin: (baseSerie?.countryOrigin ?? '') as Serie['countryOrigin'],
   owned: userSerie.owned,

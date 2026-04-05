@@ -19,7 +19,7 @@ export const baseSeries: BaseSerie[] = [
       '/series_pictures/MV5BNThjYzQ3ZjYtM2I0ZC00OGNjLTlmNGItYjE3ZWI5MWIyMWYyXkEyXkFqcGc@._V1_.jpg',
     releaseDate: '2017-03-31',
     endDate: '2020-06-05',
-    genre: 'Drama, Mystery',
+    genre: ['Drama', 'Mystery'],
     seasonsData: [
       {
         seasonNumber: 1,
@@ -63,7 +63,7 @@ export const baseSeries: BaseSerie[] = [
     coverUrl: '/series_pictures/182414.jpg',
     releaseDate: '2015-01-06',
     endDate: '2016-03-01',
-    genre: 'Action, Adventure, Drama',
+    genre: ['Action', 'Adventure', 'Drama'],
     seasonsData: [
       {
         seasonNumber: 1,
@@ -97,7 +97,7 @@ export const baseSeries: BaseSerie[] = [
     coverUrl: '/series_pictures/1113000.webp',
     releaseDate: '2013-09-24',
     endDate: '2020-08-12',
-    genre: 'Action, Adventure, Drama',
+    genre: ['Action', 'Adventure', 'Drama'],
     seasonsData: [
       {
         seasonNumber: 1,
@@ -159,7 +159,7 @@ export const baseSeries: BaseSerie[] = [
     coverUrl: '/series_pictures/0096637.webp',
     releaseDate: '2023-08-22',
     endDate: '',
-    genre: 'Action, Adventure, Drama',
+    genre: ['Action', 'Adventure', 'Drama'],
     seasonsData: [
       {
         seasonNumber: 1,
@@ -188,7 +188,7 @@ export const baseSeries: BaseSerie[] = [
     coverUrl: '/series_pictures/3863418.jpg',
     releaseDate: '2018-02-02',
     endDate: '2020-02-27',
-    genre: 'Action, Drama, Sci-Fi',
+    genre: ['Action', 'Drama', 'Sci-Fi'],
     seasonsData: [
       {
         seasonNumber: 1,
@@ -222,7 +222,7 @@ export const baseSeries: BaseSerie[] = [
     coverUrl: '/series_pictures/arrow-affiche_hd.jpg',
     releaseDate: '2012-10-10',
     endDate: '2020-01-28',
-    genre: 'Action, Adventure, Crime',
+    genre: ['Action', 'Adventure', 'Crime'],
     seasonsData: [
       {
         seasonNumber: 1,
@@ -287,7 +287,7 @@ export const baseSeries: BaseSerie[] = [
     coverUrl: '/series_pictures/5816a1d84280e5701c399f81c968ca3e.webp',
     releaseDate: '2025-05-15',
     endDate: '2025-05-15',
-    genre: 'Thriller, Drama, Mystery',
+    genre: ['Thriller', 'Drama', 'Mystery'],
     seasonsData: [
       {
         seasonNumber: 1,
@@ -316,7 +316,7 @@ export const baseSeries: BaseSerie[] = [
     coverUrl: '/series_pictures/bloques.jpg',
     releaseDate: '2015-09-07',
     endDate: '2016-08-05',
-    genre: 'Comedy',
+    genre: ['Comedy'],
     seasonsData: [
       {
         seasonNumber: 1,
@@ -345,7 +345,7 @@ export const baseSeries: BaseSerie[] = [
     coverUrl: '/series_pictures/5304096.webp',
     releaseDate: '2018-08-26',
     endDate: '2018-09-23',
-    genre: 'Crime, Drama, Thriller',
+    genre: ['Crime', 'Drama', 'Thriller'],
     seasonsData: [
       {
         seasonNumber: 1,
@@ -368,7 +368,7 @@ export const baseSeries: BaseSerie[] = [
     coverUrl: '/series_pictures/5745341.jpg',
     releaseDate: '2011-12-04',
     endDate: '',
-    genre: 'Science Fiction, Thriller',
+    genre: ['Science Fiction', 'Thriller'],
     seasonsData: [
       {
         seasonNumber: 1,
@@ -427,7 +427,7 @@ export const baseSeries: BaseSerie[] = [
     coverUrl: '/series_pictures/3135444.jpg',
     releaseDate: '2023-10-19',
     endDate: '2023-10-19',
-    genre: 'Crime, Drama, Mystery',
+    genre: ['Crime', 'Drama', 'Mystery'],
     seasonsData: [
       {
         seasonNumber: 1,
@@ -457,7 +457,7 @@ export const baseSeries: BaseSerie[] = [
       '/series_pictures/MV5BMzU5ZGYzNmQtMTdhYy00OGRiLTg0NmQtYjVjNzliZTg1ZGE4XkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg',
     releaseDate: '2008-01-20',
     endDate: '2013-09-29',
-    genre: 'Crime, Drama, Thriller',
+    genre: ['Crime', 'Drama', 'Thriller'],
     seasonsData: [
       {
         seasonNumber: 1,
@@ -506,7 +506,7 @@ export const baseSeries: BaseSerie[] = [
     coverUrl: '/series_pictures/0734068.jpg',
     releaseDate: '2013-09-17',
     endDate: '2021-09-16',
-    genre: 'Comedy, Crime',
+    genre: ['Comedy', 'Crime'],
     seasonsData: [
       {
         seasonNumber: 1,
@@ -570,7 +570,7 @@ export const baseSeries: BaseSerie[] = [
     coverUrl: '/series_pictures/61H6Z0tsRUL._UF894,1000_QL80_.jpg',
     releaseDate: '2009-03-09',
     endDate: '2016-05-16',
-    genre: 'Comedy, Crime, Drama',
+    genre: ['Comedy', 'Crime', 'Drama'],
     seasonsData: [
       {
         seasonNumber: 1,
@@ -634,7 +634,7 @@ export const baseSeries: BaseSerie[] = [
     coverUrl: '/series_pictures/5543759.webp',
     releaseDate: '2018-06-07',
     endDate: '2019-05-30',
-    genre: 'Action, Drama, Fantasy',
+    genre: ['Action', 'Drama', 'Fantasy'],
     seasonsData: [
       {
         seasonNumber: 1,
@@ -668,7 +668,7 @@ export const baseSeries: BaseSerie[] = [
     coverUrl: '/series_pictures/81Sh1743JeL._AC_UF894,1000_QL80_.jpg',
     releaseDate: '2009-09-17',
     endDate: '2015-06-02',
-    genre: 'Comedy',
+    genre: ['Comedy'],
     seasonsData: [
       {
         seasonNumber: 1,
@@ -722,7 +722,7 @@ export const baseSeries: BaseSerie[] = [
     coverUrl: '/series_pictures/498691.webp',
     releaseDate: '2014-10-24',
     endDate: '2015-02-13',
-    genre: 'Drama, Fantasy, Horror',
+    genre: ['Drama', 'Fantasy', 'Horror'],
     seasonsData: [
       {
         seasonNumber: 1,
@@ -752,7 +752,7 @@ export const baseSeries: BaseSerie[] = [
       '/series_pictures/MV5BYjA3NDkwNzktNjJkYi00ODNhLWFhYzQtYzk5NjU4MDM0OWZmXkEyXkFqcGc@._V1_.jpg',
     releaseDate: '2018-05-02',
     endDate: '',
-    genre: 'Action, Comedy, Drama',
+    genre: ['Action', 'Comedy', 'Drama'],
     seasonsData: [
       {
         seasonNumber: 1,
@@ -806,7 +806,7 @@ export const baseSeries: BaseSerie[] = [
     coverUrl: '/series_pictures/Dd_vertical-bloodyknuckles_us-main.webp',
     releaseDate: '2015-04-10',
     endDate: '2018-10-19',
-    genre: 'Action, Crime, Drama',
+    genre: ['Action', 'Crime', 'Drama'],
     seasonsData: [
       {
         seasonNumber: 1,
@@ -845,7 +845,7 @@ export const baseSeries: BaseSerie[] = [
     coverUrl: '/series_pictures/Desperatehousewives.webp',
     releaseDate: '2004-10-03',
     endDate: '2012-05-13',
-    genre: 'Comedy, Drama, Mystery',
+    genre: ['Comedy', 'Drama', 'Mystery'],
     seasonsData: [
       {
         seasonNumber: 1,
@@ -909,7 +909,7 @@ export const baseSeries: BaseSerie[] = [
     coverUrl: '/series_pictures/81JKXT1j0OL._AC_UF894,1000_QL80_.jpg',
     releaseDate: '2006-10-01',
     endDate: '2013-09-22',
-    genre: 'Crime, Drama, Mystery',
+    genre: ['Crime', 'Drama', 'Mystery'],
     seasonsData: [
       {
         seasonNumber: 1,
@@ -973,7 +973,7 @@ export const baseSeries: BaseSerie[] = [
     coverUrl: '/series_pictures/8c6c4659ab0bc0764f06e2bf7c487d05.jpg',
     releaseDate: '2024-03-10',
     endDate: '',
-    genre: 'Action, Crime, Drama',
+    genre: ['Action', 'Crime', 'Drama'],
     seasonsData: [
       {
         seasonNumber: 1,
@@ -1005,7 +1005,7 @@ export const baseSeries: BaseSerie[] = [
     coverUrl: '/series_pictures/1010526.webp',
     releaseDate: '2020-10-02',
     endDate: '',
-    genre: 'Comedy, Romance',
+    genre: ['Comedy', 'Romance'],
     seasonsData: [
       {
         seasonNumber: 1,
@@ -1048,7 +1048,7 @@ export const baseSeries: BaseSerie[] = [
     coverUrl: '/series_pictures/5823241.webp',
     releaseDate: '2022-04-20',
     endDate: '2023-04-19',
-    genre: 'Drama, Thriller',
+    genre: ['Drama', 'Thriller'],
     seasonsData: [
       {
         seasonNumber: 1,
@@ -1082,7 +1082,7 @@ export const baseSeries: BaseSerie[] = [
     coverUrl: '/series_pictures/5831875.jpg',
     releaseDate: '2019-06-28',
     endDate: '2021-06-18',
-    genre: 'Comedy',
+    genre: ['Comedy'],
     seasonsData: [
       {
         seasonNumber: 1,
@@ -1121,7 +1121,7 @@ export const baseSeries: BaseSerie[] = [
     coverUrl: '/series_pictures/3440788.jpg',
     releaseDate: '2023-05-25',
     endDate: '2025-06-12',
-    genre: 'Action, Comedy',
+    genre: ['Action', 'Comedy'],
     seasonsData: [
       {
         seasonNumber: 1,
@@ -1155,7 +1155,7 @@ export const baseSeries: BaseSerie[] = [
     coverUrl: '/series_pictures/Poster_Saison_1.webp',
     releaseDate: '2011-04-17',
     endDate: '2019-05-19',
-    genre: 'Action, Adventure, Drama',
+    genre: ['Action', 'Adventure', 'Drama'],
     seasonsData: [
       {
         seasonNumber: 1,
@@ -1220,7 +1220,7 @@ export const baseSeries: BaseSerie[] = [
       '/series_pictures/MV5BMTg0ZmM3N2QtYmFiMy00YzUzLWE1M2QtZWVhMzBiNGZjMmVjXkEyXkFqcGc@._V1_.jpg',
     releaseDate: '2014-09-22',
     endDate: '2019-04-25',
-    genre: 'Action, Crime, Drama',
+    genre: ['Action', 'Crime', 'Drama'],
     seasonsData: [
       {
         seasonNumber: 1,
@@ -1269,7 +1269,7 @@ export const baseSeries: BaseSerie[] = [
     coverUrl: '/series_pictures/5145026.jpg',
     releaseDate: '2021-04-14',
     endDate: '',
-    genre: 'Comedy, Crime, Drama',
+    genre: ['Comedy', 'Crime', 'Drama'],
     seasonsData: [
       {
         seasonNumber: 1,
@@ -1318,7 +1318,7 @@ export const baseSeries: BaseSerie[] = [
     coverUrl: '/series_pictures/5735882.webp',
     releaseDate: '2021-11-24',
     endDate: '2021-12-22',
-    genre: 'Action, Adventure, Crime',
+    genre: ['Action', 'Adventure', 'Crime'],
     seasonsData: [
       {
         seasonNumber: 1,
@@ -1348,7 +1348,7 @@ export const baseSeries: BaseSerie[] = [
       '/series_pictures/MV5BMjI3ODU0OTQ1MV5BMl5BanBnXkFtZTgwNzI0MTQ2MzE@._V1_.jpg',
     releaseDate: '2006-09-25',
     endDate: '2010-02-08',
-    genre: 'Drama, Fantasy, Sci-Fi',
+    genre: ['Drama', 'Fantasy', 'Sci-Fi'],
     seasonsData: [
       {
         seasonNumber: 1,
@@ -1392,7 +1392,7 @@ export const baseSeries: BaseSerie[] = [
     coverUrl: '/series_pictures/11246648-2194500920679885.avif',
     releaseDate: '2015-09-24',
     endDate: '2016-01-21',
-    genre: 'Drama, Fantasy, Sci-Fi',
+    genre: ['Drama', 'Fantasy', 'Sci-Fi'],
     seasonsData: [
       {
         seasonNumber: 1,
@@ -1427,7 +1427,7 @@ export const baseSeries: BaseSerie[] = [
     coverUrl: '/series_pictures/himym.jpg',
     releaseDate: '2005-09-19',
     endDate: '2014-03-31',
-    genre: 'Comedy, Romance',
+    genre: ['Comedy', 'Romance'],
     seasonsData: [
       {
         seasonNumber: 1,
@@ -1496,7 +1496,7 @@ export const baseSeries: BaseSerie[] = [
     coverUrl: '/series_pictures/046195.webp',
     releaseDate: '2017-03-17',
     endDate: '2018-09-07',
-    genre: 'Action, Adventure, Crime',
+    genre: ['Action', 'Adventure', 'Crime'],
     seasonsData: [
       {
         seasonNumber: 1,
@@ -1530,7 +1530,7 @@ export const baseSeries: BaseSerie[] = [
     coverUrl: '/series_pictures/marvel_s_inhumans.webp',
     releaseDate: '2017-09-29',
     endDate: '2017-11-10',
-    genre: 'Action, Adventure, Drama',
+    genre: ['Action', 'Adventure', 'Drama'],
     seasonsData: [
       {
         seasonNumber: 1,
@@ -1559,7 +1559,7 @@ export const baseSeries: BaseSerie[] = [
     coverUrl: '/series_pictures/61SFGl90eIL._UF894,1000_QL80_.jpg',
     releaseDate: '2015-03-17',
     endDate: '2019-08-01',
-    genre: 'Comedy, Crime, Drama',
+    genre: ['Comedy', 'Crime', 'Drama'],
     seasonsData: [
       {
         seasonNumber: 1,
@@ -1608,7 +1608,7 @@ export const baseSeries: BaseSerie[] = [
     coverUrl: '/series_pictures/2217403.webp',
     releaseDate: '2015-11-20',
     endDate: '2019-06-14',
-    genre: 'Action, Crime, Drama',
+    genre: ['Action', 'Crime', 'Drama'],
     seasonsData: [
       {
         seasonNumber: 1,
@@ -1647,7 +1647,7 @@ export const baseSeries: BaseSerie[] = [
     coverUrl: '/series_pictures/2688584.jpg',
     releaseDate: '2021-05-07',
     endDate: '2021-05-07',
-    genre: 'Action, Adventure, Drama',
+    genre: ['Action', 'Adventure', 'Drama'],
     seasonsData: [
       {
         seasonNumber: 1,
@@ -1676,7 +1676,7 @@ export const baseSeries: BaseSerie[] = [
     coverUrl: '/series_pictures/1706767.jpg',
     releaseDate: '2017-05-02',
     endDate: '2021-12-03',
-    genre: 'Action, Crime, Drama',
+    genre: ['Action', 'Crime', 'Drama'],
     seasonsData: [
       {
         seasonNumber: 1,
@@ -1720,7 +1720,7 @@ export const baseSeries: BaseSerie[] = [
     coverUrl: '/series_pictures/1544395.jpg',
     releaseDate: '2021-01-08',
     endDate: '',
-    genre: 'Drama',
+    genre: ['Drama'],
     seasonsData: [
       {
         seasonNumber: 1,
@@ -1759,7 +1759,7 @@ export const baseSeries: BaseSerie[] = [
     coverUrl: '/series_pictures/F98890-DVD134867.jpg',
     releaseDate: '2017-04-26',
     endDate: '',
-    genre: 'Drama, Sci-Fi, Thriller',
+    genre: ['Drama', 'Sci-Fi', 'Thriller'],
     seasonsData: [
       {
         seasonNumber: 1,
@@ -1808,7 +1808,7 @@ export const baseSeries: BaseSerie[] = [
     coverUrl: '/series_pictures/jYptmMaOCUBC71whlqJFxwe2K1k.webp',
     releaseDate: '2008-07-01',
     endDate: '2013-06-03',
-    genre: 'Drama, Romance',
+    genre: ['Drama', 'Romance'],
     seasonsData: [
       {
         seasonNumber: 1,
@@ -1851,7 +1851,7 @@ export const baseSeries: BaseSerie[] = [
     coverUrl: '/series_pictures/jeudame.jpg',
     releaseDate: '2020-10-23',
     endDate: '2020-12-25',
-    genre: 'Drama',
+    genre: ['Drama'],
     seasonsData: [
       {
         seasonNumber: 1,
@@ -1883,7 +1883,7 @@ export const baseSeries: BaseSerie[] = [
     coverUrl: '/series_pictures/4129507.webp',
     releaseDate: '2020-02-07',
     endDate: '2022-08-10',
-    genre: 'Drama, Fantasy, Horror',
+    genre: ['Drama', 'Fantasy', 'Horror'],
     seasonsData: [
       {
         seasonNumber: 1,
@@ -1922,7 +1922,7 @@ export const baseSeries: BaseSerie[] = [
     coverUrl: '/series_pictures/loki.jpg',
     releaseDate: '2021-06-09',
     endDate: '',
-    genre: 'Action, Adventure, Fantasy',
+    genre: ['Action', 'Adventure', 'Fantasy'],
     seasonsData: [
       {
         seasonNumber: 1,
@@ -1957,7 +1957,7 @@ export const baseSeries: BaseSerie[] = [
       '/series_pictures/MV5BYzMwNzI3MWItZTIzYi00YjkxLThhOWQtYmUwYjg4NWM0ZWI1XkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg',
     releaseDate: '2016-01-25',
     endDate: '2021-09-10',
-    genre: 'Crime, Drama, Fantasy',
+    genre: ['Crime', 'Drama', 'Fantasy'],
     seasonsData: [
       {
         seasonNumber: 1,
@@ -2012,7 +2012,7 @@ export const baseSeries: BaseSerie[] = [
       '/series_pictures/MV5BMTcyMzc1MjI5MF5BMl5BanBnXkFtZTgwMzE4ODY2OTE@._V1_.jpg',
     releaseDate: '2016-09-30',
     endDate: '2018-06-22',
-    genre: 'Action, Crime, Drama',
+    genre: ['Action', 'Crime', 'Drama'],
     seasonsData: [
       {
         seasonNumber: 1,
@@ -2046,7 +2046,7 @@ export const baseSeries: BaseSerie[] = [
     coverUrl: '/series_pictures/1257289.entity.jpg',
     releaseDate: '2021-01-08',
     endDate: '',
-    genre: 'Action, Crime, Drama',
+    genre: ['Action', 'Crime', 'Drama'],
     seasonsData: [
       {
         seasonNumber: 1,
@@ -2085,7 +2085,7 @@ export const baseSeries: BaseSerie[] = [
     coverUrl: '/series_pictures/81uKDJ5NA8L._AC_UF894,1000_QL80_.jpg',
     releaseDate: '2000-01-09',
     endDate: '2006-05-14',
-    genre: 'Comedy, Family',
+    genre: ['Comedy', 'Family'],
     seasonsData: [
       {
         seasonNumber: 1,
@@ -2145,7 +2145,7 @@ export const baseSeries: BaseSerie[] = [
       '/series_pictures/MV5BMTQ5OTgzOTczM15BMl5BanBnXkFtZTcwMDM2OTY4MQ@@._V1_FMjpg_UX1000_.jpg',
     releaseDate: '2008-09-23',
     endDate: '2015-02-18',
-    genre: 'Crime, Drama, Mystery',
+    genre: ['Crime', 'Drama', 'Mystery'],
     seasonsData: [
       {
         seasonNumber: 1,
@@ -2204,7 +2204,7 @@ export const baseSeries: BaseSerie[] = [
     coverUrl: '/series_pictures/2286697.webp',
     releaseDate: '2017-10-13',
     endDate: '2019-08-16',
-    genre: 'Crime, Drama, Thriller',
+    genre: ['Crime', 'Drama', 'Thriller'],
     seasonsData: [
       {
         seasonNumber: 1,
@@ -2238,7 +2238,7 @@ export const baseSeries: BaseSerie[] = [
     coverUrl: '/series_pictures/abdd102a2dcc155da8fd914ee4af8a38.webp',
     releaseDate: '2009-11-12',
     endDate: '2013-12-11',
-    genre: 'Comedy, Drama, Sci-Fi',
+    genre: ['Comedy', 'Drama', 'Sci-Fi'],
     seasonsData: [
       {
         seasonNumber: 1,
@@ -2287,7 +2287,7 @@ export const baseSeries: BaseSerie[] = [
     coverUrl: '/series_pictures/5044823.webp',
     releaseDate: '2019-11-21',
     endDate: '2021-09-17',
-    genre: 'Drama, Fantasy, Horror',
+    genre: ['Drama', 'Fantasy', 'Horror'],
     seasonsData: [
       {
         seasonNumber: 1,
@@ -2321,7 +2321,7 @@ export const baseSeries: BaseSerie[] = [
     coverUrl: '/series_pictures/2942764.webp',
     releaseDate: '2022-11-23',
     endDate: '',
-    genre: 'Comedy, Crime, Fantasy',
+    genre: ['Comedy', 'Crime', 'Fantasy'],
     seasonsData: [
       {
         seasonNumber: 1,
@@ -2355,7 +2355,7 @@ export const baseSeries: BaseSerie[] = [
     coverUrl: '/series_pictures/5666647.webp',
     releaseDate: '2021-06-15',
     endDate: '2021-06-15',
-    genre: 'Drama, Thriller',
+    genre: ['Drama', 'Thriller'],
     seasonsData: [
       {
         seasonNumber: 1,
@@ -2384,7 +2384,7 @@ export const baseSeries: BaseSerie[] = [
     coverUrl: '/series_pictures/2490457.webp',
     releaseDate: '2023-01-06',
     endDate: '',
-    genre: 'Comedy, Drama',
+    genre: ['Comedy', 'Drama'],
     seasonsData: [
       {
         seasonNumber: 1,
@@ -2418,7 +2418,7 @@ export const baseSeries: BaseSerie[] = [
     coverUrl: '/series_pictures/1390919.jpg',
     releaseDate: '2022-05-27',
     endDate: '2022-06-22',
-    genre: 'Action, Adventure, Fantasy',
+    genre: ['Action', 'Adventure', 'Fantasy'],
     seasonsData: [
       {
         seasonNumber: 1,
@@ -2448,7 +2448,7 @@ export const baseSeries: BaseSerie[] = [
       '/series_pictures/MV5BZjA4YjFkMTAtOWJkZi00MDI0LWFkZTAtMDM1YzgyOTE5YTc3XkEyXkFqcGc@._V1_.jpg',
     releaseDate: '2023-04-13',
     endDate: '2023-04-13',
-    genre: 'Drama, Romance, Thriller',
+    genre: ['Drama', 'Romance', 'Thriller'],
     seasonsData: [
       {
         seasonNumber: 1,
@@ -2478,7 +2478,7 @@ export const baseSeries: BaseSerie[] = [
       '/series_pictures/EN-US_OPS1_Main_Illustrated_Vertical_27x40_RGB.jpg',
     releaseDate: '2023-08-31',
     endDate: '',
-    genre: 'Action, Adventure, Comedy',
+    genre: ['Action', 'Adventure', 'Comedy'],
     seasonsData: [
       {
         seasonNumber: 1,
@@ -2512,7 +2512,7 @@ export const baseSeries: BaseSerie[] = [
     coverUrl: '/series_pictures/penny-dreadful-1-1200x1630.jpg',
     releaseDate: '2014-05-11',
     endDate: '2016-06-19',
-    genre: 'Drama, Fantasy, Horror',
+    genre: ['Drama', 'Fantasy', 'Horror'],
     seasonsData: [
       {
         seasonNumber: 1,
@@ -2551,7 +2551,7 @@ export const baseSeries: BaseSerie[] = [
     coverUrl: '/series_pictures/5056453204200.webp',
     releaseDate: '2022-02-04',
     endDate: '',
-    genre: 'Action, Crime, Drama',
+    genre: ['Action', 'Crime', 'Drama'],
     seasonsData: [
       {
         seasonNumber: 1,
@@ -2590,7 +2590,7 @@ export const baseSeries: BaseSerie[] = [
     coverUrl: '/series_pictures/0941475.webp',
     releaseDate: '2017-11-21',
     endDate: '2019-12-13',
-    genre: 'Action, Drama, Sci-Fi',
+    genre: ['Action', 'Drama', 'Sci-Fi'],
     seasonsData: [
       {
         seasonNumber: 1,
@@ -2620,7 +2620,7 @@ export const baseSeries: BaseSerie[] = [
       '/series_pictures/AAAABX05v5MVbTLkzvDTsRJ1tmoZ7J4vwgiJL0YYkPP6wPjY_mxA4p6Igs-Yd6-B3OZzD_wtFWhipXfIjL2lSON0tkn9VmNysxo8CiAyqCXmIVgz0y-AV4Ak6Uy5MSErRfMwOVExRA.jpg',
     releaseDate: '2015-06-05',
     endDate: '2018-06-08',
-    genre: 'Action, Drama, Sci-Fi',
+    genre: ['Action', 'Drama', 'Sci-Fi'],
     seasonsData: [
       {
         seasonNumber: 1,
@@ -2655,7 +2655,7 @@ export const baseSeries: BaseSerie[] = [
       '/series_pictures/MV5BMWUwZjJmYjctYTY3MC00ZTVlLWI1ZGEtNWQzMTFlMTcwMTY2XkEyXkFqcGc@._V1_.jpg',
     releaseDate: '2011-01-09',
     endDate: '2021-04-11',
-    genre: 'Comedy, Drama',
+    genre: ['Comedy', 'Drama'],
     seasonsData: [
       {
         seasonNumber: 1,
@@ -2734,7 +2734,7 @@ export const baseSeries: BaseSerie[] = [
     coverUrl: '/series_pictures/1008746.jpg',
     releaseDate: '2018-03-29',
     endDate: '2020-05-28',
-    genre: 'Drama, Fantasy, Thriller',
+    genre: ['Drama', 'Fantasy', 'Thriller'],
     seasonsData: [
       {
         seasonNumber: 1,
@@ -2774,7 +2774,7 @@ export const baseSeries: BaseSerie[] = [
       '/series_pictures/MV5BZDU0ZDVjOTItMDNkMy00YTI0LWFjYzItY2M1NjU5NjAzZGViXkEyXkFqcGc@._V1_.jpg',
     releaseDate: '2001-10-16',
     endDate: '2011-05-13',
-    genre: 'Action, Adventure, Drama',
+    genre: ['Action', 'Adventure', 'Drama'],
     seasonsData: [
       {
         seasonNumber: 1,
@@ -2849,7 +2849,7 @@ export const baseSeries: BaseSerie[] = [
       '/series_pictures/MV5BZWNiZjFiNGEtNGZmMS00YTBlLWJlNmQtZTA2NzEzZWE4ZGQyXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg',
     releaseDate: '2008-09-03',
     endDate: '2014-12-09',
-    genre: 'Crime, Drama, Thriller',
+    genre: ['Crime', 'Drama', 'Thriller'],
     seasonsData: [
       {
         seasonNumber: 1,
@@ -2908,7 +2908,7 @@ export const baseSeries: BaseSerie[] = [
     coverUrl: '/series_pictures/5311898.jpg',
     releaseDate: '2010-01-22',
     endDate: '2013-04-12',
-    genre: 'Action, Adventure, Drama',
+    genre: ['Action', 'Adventure', 'Drama'],
     seasonsData: [
       {
         seasonNumber: 1,
@@ -2947,7 +2947,7 @@ export const baseSeries: BaseSerie[] = [
     coverUrl: '/series_pictures/787181-squid-game-0-150-0-225-crop.jpg',
     releaseDate: '2021-09-17',
     endDate: '',
-    genre: 'Action, Drama, Thriller',
+    genre: ['Action', 'Drama', 'Thriller'],
     seasonsData: [
       {
         seasonNumber: 1,
@@ -2987,7 +2987,7 @@ export const baseSeries: BaseSerie[] = [
       '/series_pictures/MV5BMjg2NmM0MTEtYWY2Yy00NmFlLTllNTMtMjVkZjEwMGVlNzdjXkEyXkFqcGc@._V1_.jpg',
     releaseDate: '2016-07-15',
     endDate: '',
-    genre: 'Drama, Fantasy, Horror',
+    genre: ['Drama', 'Fantasy', 'Horror'],
     seasonsData: [
       {
         seasonNumber: 1,
@@ -3036,7 +3036,7 @@ export const baseSeries: BaseSerie[] = [
     coverUrl: '/series_pictures/2209565.webp',
     releaseDate: '2005-09-13',
     endDate: '2020-11-19',
-    genre: 'Drama, Fantasy, Horror',
+    genre: ['Drama', 'Fantasy', 'Horror'],
     seasonsData: [
       {
         seasonNumber: 1,
@@ -3135,7 +3135,7 @@ export const baseSeries: BaseSerie[] = [
     coverUrl: '/series_pictures/aaa_512.jpg',
     releaseDate: '2011-06-23',
     endDate: '2019-09-25',
-    genre: 'Comedy, Drama',
+    genre: ['Comedy', 'Drama'],
     seasonsData: [
       {
         seasonNumber: 1,
@@ -3204,7 +3204,7 @@ export const baseSeries: BaseSerie[] = [
     coverUrl: '/series_pictures/3782519.webp',
     releaseDate: '2021-02-23',
     endDate: '2023-06-27',
-    genre: 'Action, Adventure, Drama',
+    genre: ['Action', 'Adventure', 'Drama'],
     seasonsData: [
       {
         seasonNumber: 1,
@@ -3248,7 +3248,7 @@ export const baseSeries: BaseSerie[] = [
     coverUrl: '/series_pictures/5484085.webp',
     releaseDate: '2011-06-05',
     endDate: '2017-09-24',
-    genre: 'Action, Comedy, Drama',
+    genre: ['Action', 'Comedy', 'Drama'],
     seasonsData: [
       {
         seasonNumber: 1,
@@ -3302,7 +3302,7 @@ export const baseSeries: BaseSerie[] = [
     coverUrl: '/series_pictures/The_Big_Bang_Theory_TV_Series.webp',
     releaseDate: '2007-09-24',
     endDate: '2019-05-16',
-    genre: 'Comedy, Romance',
+    genre: ['Comedy', 'Romance'],
     seasonsData: [
       {
         seasonNumber: 1,
@@ -3386,7 +3386,7 @@ export const baseSeries: BaseSerie[] = [
     coverUrl: '/series_pictures/2kzjj8l0om391.jpg',
     releaseDate: '2019-07-26',
     endDate: '',
-    genre: 'Action, Comedy, Crime',
+    genre: ['Action', 'Comedy', 'Crime'],
     seasonsData: [
       {
         seasonNumber: 1,
@@ -3435,7 +3435,7 @@ export const baseSeries: BaseSerie[] = [
     coverUrl: '/series_pictures/488673.jpg',
     releaseDate: '2017-08-18',
     endDate: '2017-08-18',
-    genre: 'Action, Adventure, Crime',
+    genre: ['Action', 'Adventure', 'Crime'],
     seasonsData: [
       {
         seasonNumber: 1,
@@ -3464,7 +3464,7 @@ export const baseSeries: BaseSerie[] = [
     coverUrl: '/series_pictures/4714705.jpg',
     releaseDate: '2021-03-19',
     endDate: '2021-04-23',
-    genre: 'Action, Adventure, Drama',
+    genre: ['Action', 'Adventure', 'Drama'],
     seasonsData: [
       {
         seasonNumber: 1,
@@ -3494,7 +3494,7 @@ export const baseSeries: BaseSerie[] = [
       '/series_pictures/MV5BMjE5Mzg0NzU3OF5BMl5BanBnXkFtZTgwNDg1ODg2MTI@._V1_FMjpg_UX1000_.jpg',
     releaseDate: '2016-08-12',
     endDate: '2017-04-07',
-    genre: 'Drama, Music',
+    genre: ['Drama', 'Music'],
     seasonsData: [
       {
         seasonNumber: 1,
@@ -3528,7 +3528,7 @@ export const baseSeries: BaseSerie[] = [
     coverUrl: '/series_pictures/thendofthe.jpg',
     releaseDate: '2017-10-24',
     endDate: '2019-11-04',
-    genre: 'Comedy, Crime, Drama',
+    genre: ['Comedy', 'Crime', 'Drama'],
     seasonsData: [
       {
         seasonNumber: 1,
@@ -3562,7 +3562,7 @@ export const baseSeries: BaseSerie[] = [
     coverUrl: '/series_pictures/81lGgNZx70L._UF894,1000_QL80_.jpg',
     releaseDate: '2014-10-07',
     endDate: '2023-05-24',
-    genre: 'Action, Adventure, Drama',
+    genre: ['Action', 'Adventure', 'Drama'],
     seasonsData: [
       {
         seasonNumber: 1,
@@ -3632,7 +3632,7 @@ export const baseSeries: BaseSerie[] = [
       '/series_pictures/MV5BZjQwYzBlYzUtZjhhOS00ZDQ0LWE0NzAtYTk4MjgzZTNkZWEzXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg',
     releaseDate: '2005-03-24',
     endDate: '2013-05-16',
-    genre: 'Comedy',
+    genre: ['Comedy'],
     seasonsData: [
       {
         seasonNumber: 1,
@@ -3702,7 +3702,7 @@ export const baseSeries: BaseSerie[] = [
       '/series_pictures/do-you-think-the-originals-is-worth-watching-especially-v0-ywu6f4w796ke1.webp',
     releaseDate: '2013-10-03',
     endDate: '2018-08-01',
-    genre: 'Drama, Fantasy, Horror',
+    genre: ['Drama', 'Fantasy', 'Horror'],
     seasonsData: [
       {
         seasonNumber: 1,
@@ -3752,7 +3752,7 @@ export const baseSeries: BaseSerie[] = [
       '/series_pictures/MV5BMjEwOTExNDY5MV5BMl5BanBnXkFtZTgwMzMzOTU5MTE@._V1_.jpg',
     releaseDate: '2012-11-26',
     endDate: '2015-10-28',
-    genre: 'Drama, Fantasy, Horror',
+    genre: ['Drama', 'Fantasy', 'Horror'],
     seasonsData: [
       {
         seasonNumber: 1,
@@ -3782,7 +3782,7 @@ export const baseSeries: BaseSerie[] = [
       '/series_pictures/MV5BMTkxNjEwOTY4M15BMl5BanBnXkFtZTgwNTA2ODk0NzE@._V1_FMjpg_UX1000_.jpg',
     releaseDate: '2016-01-05',
     endDate: '2017-11-22',
-    genre: 'Adventure, Drama, Fantasy',
+    genre: ['Adventure', 'Drama', 'Fantasy'],
     seasonsData: [
       {
         seasonNumber: 1,
@@ -3816,7 +3816,7 @@ export const baseSeries: BaseSerie[] = [
     coverUrl: '/series_pictures/095225.webp',
     releaseDate: '2013-10-09',
     endDate: '2014-05-19',
-    genre: 'Action, Drama, Sci-Fi',
+    genre: ['Action', 'Drama', 'Sci-Fi'],
     seasonsData: [
       {
         seasonNumber: 1,
@@ -3846,7 +3846,7 @@ export const baseSeries: BaseSerie[] = [
       '/series_pictures/MV5BMmNjOWQzYmYtNGYxOS00MjVkLTg1MWUtMTkzMGE0MDgwNzQ5XkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg',
     releaseDate: '2009-09-10',
     endDate: '2017-03-10',
-    genre: 'Drama, Fantasy, Horror',
+    genre: ['Drama', 'Fantasy', 'Horror'],
     seasonsData: [
       {
         seasonNumber: 1,
@@ -3910,7 +3910,7 @@ export const baseSeries: BaseSerie[] = [
     coverUrl: '/series_pictures/The-Glory-affiche.jpg',
     releaseDate: '2022-12-30',
     endDate: '2023-03-10',
-    genre: 'Drama, Thriller',
+    genre: ['Drama', 'Thriller'],
     seasonsData: [
       {
         seasonNumber: 1,
@@ -3940,7 +3940,7 @@ export const baseSeries: BaseSerie[] = [
       '/series_pictures/MV5BYWI3ODJlMzktY2U5NC00ZjdlLWE1MGItNWQxZDk3NWNjN2RhXkEyXkFqcGc@._V1_.jpg',
     releaseDate: '2023-01-15',
     endDate: '',
-    genre: 'Action, Adventure, Drama',
+    genre: ['Action', 'Adventure', 'Drama'],
     seasonsData: [
       {
         seasonNumber: 1,
@@ -3974,7 +3974,7 @@ export const baseSeries: BaseSerie[] = [
     coverUrl: '/series_pictures/313669.jpg',
     releaseDate: '2017-11-17',
     endDate: '2019-01-18',
-    genre: 'Action, Crime, Drama',
+    genre: ['Action', 'Crime', 'Drama'],
     seasonsData: [
       {
         seasonNumber: 1,
@@ -4008,7 +4008,7 @@ export const baseSeries: BaseSerie[] = [
     coverUrl: '/series_pictures/5457570.webp',
     releaseDate: '2019-02-15',
     endDate: '',
-    genre: 'Action, Adventure, Comedy',
+    genre: ['Action', 'Adventure', 'Comedy'],
     seasonsData: [
       {
         seasonNumber: 1,
@@ -4052,7 +4052,7 @@ export const baseSeries: BaseSerie[] = [
     coverUrl: '/series_pictures/51oOnLQb0iL._UF894,1000_QL80_.jpg',
     releaseDate: '2013-06-24',
     endDate: '2015-09-10',
-    genre: 'Drama, Mystery, Sci-Fi',
+    genre: ['Drama', 'Mystery', 'Sci-Fi'],
     seasonsData: [
       {
         seasonNumber: 1,
@@ -4091,7 +4091,7 @@ export const baseSeries: BaseSerie[] = [
     coverUrl: '/series_pictures/5408619.webp',
     releaseDate: '2020-03-26',
     endDate: '2020-03-26',
-    genre: 'Drama',
+    genre: ['Drama'],
     seasonsData: [
       {
         seasonNumber: 1,
@@ -4120,7 +4120,7 @@ export const baseSeries: BaseSerie[] = [
     coverUrl: '/series_pictures/4859166.jpg',
     releaseDate: '2013-03-03',
     endDate: '2020-12-30',
-    genre: 'Action, Adventure, Drama',
+    genre: ['Action', 'Adventure', 'Drama'],
     seasonsData: [
       {
         seasonNumber: 1,
@@ -4174,7 +4174,7 @@ export const baseSeries: BaseSerie[] = [
     coverUrl: '/series_pictures/wandavision.jpg',
     releaseDate: '2021-01-15',
     endDate: '2021-03-05',
-    genre: 'Action, Adventure, Comedy',
+    genre: ['Action', 'Adventure', 'Comedy'],
     seasonsData: [
       {
         seasonNumber: 1,
@@ -4203,7 +4203,7 @@ export const baseSeries: BaseSerie[] = [
     coverUrl: '/series_pictures/4498944.webp',
     releaseDate: '2019-10-20',
     endDate: '2019-12-15',
-    genre: 'Action, Drama, Mystery',
+    genre: ['Action', 'Drama', 'Mystery'],
     seasonsData: [
       {
         seasonNumber: 1,
@@ -4232,7 +4232,7 @@ export const baseSeries: BaseSerie[] = [
     coverUrl: '/series_pictures/81Qw5nY7vKL.jpg',
     releaseDate: '2018-09-09',
     endDate: '',
-    genre: 'Crime, Drama, Romance',
+    genre: ['Crime', 'Drama', 'Romance'],
     seasonsData: [
       {
         seasonNumber: 1,
@@ -4281,7 +4281,7 @@ export const baseSeries: BaseSerie[] = [
     coverUrl: '/series_pictures/7cb3392cdf69.jpg',
     releaseDate: '2019-08-15',
     endDate: '2022-10-27',
-    genre: 'Comedy, Crime, Drama',
+    genre: ['Comedy', 'Crime', 'Drama'],
     seasonsData: [
       {
         seasonNumber: 1,
@@ -4318,7 +4318,7 @@ export const baseSeries: BaseSerie[] = [
     coverUrl: '/series_pictures/2684246.webp',
     releaseDate: '2023-12-14',
     endDate: '2023-12-14',
-    genre: 'Action, Adventure, Fantasy',
+    genre: ['Action', 'Adventure', 'Fantasy'],
     seasonsData: [
       {
         seasonNumber: 1,

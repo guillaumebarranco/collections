@@ -87,6 +87,104 @@ function unescapeString(value: string, quote: string) {
     .replace(/\\\\/g, '\\');
 }
 
+function escapeForSingleQuotedTs(s: string) {
+  return String(s).replace(/\\/g, '\\\\').replace(/'/g, "\\'");
+}
+
+function formatSerieGenreArrayTs(arr: string[]) {
+  const trimmed = arr.map((s) => String(s).trim()).filter(Boolean);
+  if (trimmed.length === 0) {
+    return '[]';
+  }
+  return (
+    '[' + trimmed.map((s) => `'${escapeForSingleQuotedTs(s)}'`).join(', ') + ']'
+  );
+}
+
+function normalizeSerieGenreInput(value: unknown): string[] {
+  if (value === undefined || value === null) {
+    return [];
+  }
+  if (Array.isArray(value)) {
+    return value.map((s) => String(s).trim()).filter(Boolean);
+  }
+  if (typeof value === 'string') {
+    if (!value.trim()) {
+      return [];
+    }
+    return value
+      .split(',')
+      .map((g) => g.trim())
+      .filter(Boolean);
+  }
+  return [];
+}
+
+/** Lit genre: [...] ou ancien genre: 'A, B' dans un littéral d'objet série. */
+function parseSerieGenresField(objectText: string): string[] {
+  const keyMatch = objectText.match(/\bgenre\s*:\s*/);
+  if (!keyMatch || keyMatch.index === undefined) {
+    return [];
+  }
+  let pos = keyMatch.index + keyMatch[0].length;
+  while (pos < objectText.length && /\s/.test(objectText[pos])) {
+    pos += 1;
+  }
+  if (pos >= objectText.length) {
+    return [];
+  }
+  if (objectText[pos] === '[') {
+    let depth = 0;
+    let i = pos;
+    while (i < objectText.length) {
+      const c = objectText[i];
+      if (c === '[') {
+        depth += 1;
+      } else if (c === ']') {
+        depth -= 1;
+        if (depth === 0) {
+          i += 1;
+          break;
+        }
+      }
+      i += 1;
+    }
+    const inner = objectText.slice(pos + 1, i - 1);
+    if (!inner.trim()) {
+      return [];
+    }
+    const regex = /(['"])((?:\\.|(?!\1).)*)\1/g;
+    const result: string[] = [];
+    let match = regex.exec(inner);
+    while (match) {
+      result.push(unescapeString(match[2], match[1]));
+      match = regex.exec(inner);
+    }
+    return result;
+  }
+  const legacy = parseStringField(objectText, 'genre');
+  if (!legacy?.trim()) {
+    return [];
+  }
+  return legacy
+    .split(',')
+    .map((g) => g.trim())
+    .filter(Boolean);
+}
+
+function upsertSerieGenreField(objectText: string, value: unknown) {
+  if (value === undefined) {
+    return objectText;
+  }
+  const arr = normalizeSerieGenreInput(value);
+  const serialized = formatSerieGenreArrayTs(arr);
+  const regex = /\bgenre\s*:\s*(\[[\s\S]*?\]|(['"])((?:\\.|(?!\2).)*)\2)/;
+  if (regex.test(objectText)) {
+    return objectText.replace(regex, `genre: ${serialized}`);
+  }
+  return objectText.replace(/\}\s*$/, `    genre: ${serialized},\n  }`);
+}
+
 function parseNumberField(objectText: string, key: string) {
   const regex = new RegExp(`["']?${key}["']?\\s*:\\s*([^,\\n]+)`);
   const match = objectText.match(regex);
@@ -333,7 +431,7 @@ function parseBaseSeriesFullFromFile(content: string): BaseSerie[] {
           coverUrl: parseStringField(objectText, 'coverUrl') || '',
           releaseDate: parseStringField(objectText, 'releaseDate') || '',
           endDate: parseStringField(objectText, 'endDate') || '',
-          genre: parseStringField(objectText, 'genre') || '',
+          genre: parseSerieGenresField(objectText),
           seasonsData: parseSeasonsDataField(objectText) ?? [],
           description: parseStringField(objectText, 'description') || '',
           countryOrigin: parseStringField(objectText, 'countryOrigin') as BaseSerie['countryOrigin'],
@@ -734,7 +832,7 @@ function updateBaseSerieInFile(content: string, payload: BaseSerieFileUpdatePayl
           updated = upsertField(updated, 'coverUrl', payload.coverUrl);
           updated = upsertField(updated, 'releaseDate', payload.releaseDate);
           updated = upsertField(updated, 'endDate', payload.endDate);
-          updated = upsertField(updated, 'genre', payload.genre);
+          updated = upsertSerieGenreField(updated, payload.genre);
           updated = upsertSeasonsDataField(updated, payload.seasonsData);
           updated = upsertField(updated, 'description', payload.description ?? '');
           updated = upsertField(updated, 'countryOrigin', payload.countryOrigin ?? '');
@@ -875,6 +973,8 @@ module.exports = {
   normalizeNumber,
   normalizeBoolean,
   normalizeString,
+  normalizeSerieGenreInput,
+  formatSerieGenreArrayTs,
   parseSeriesFromFile,
   parseBaseSeriesFromFile,
   parseBaseSeriesFullFromFile,

@@ -2,7 +2,7 @@ import { Component, computed, inject, signal, OnInit } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { ActivatedRoute, Params } from '@angular/router';
 import { Movie } from '../../../models/movie-model';
-import { Serie } from '../../../models/serie-model';
+import { normalizeSerieGenres, Serie } from '../../../models/serie-model';
 import { Book } from '../../../models/book-model';
 import { Game } from '../../../models/game-model';
 import { Music } from '../../../models/music-model';
@@ -235,9 +235,10 @@ export class DashboardEntitiesStatsComponent implements OnInit {
     // Genres les plus représentés
     const genresCount: { [key: string]: number } = {};
     uniqueSeries.forEach((serie) => {
-      if (serie.genre) {
-        genresCount[serie.genre] = (genresCount[serie.genre] || 0) + 1;
-      }
+      const genresList = normalizeSerieGenres(serie.genre);
+      genresList.forEach((genre) => {
+        genresCount[genre] = (genresCount[genre] || 0) + 1;
+      });
     });
 
     return {

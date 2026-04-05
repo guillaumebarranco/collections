@@ -5,6 +5,26 @@ export interface MandatorySerieData {
   director: string;
 }
 
+/** Normalise les genres (tableau, chaîne « a, b » ou données héritées). */
+export function normalizeSerieGenres(raw: unknown): string[] {
+  if (raw === undefined || raw === null) {
+    return [];
+  }
+  if (Array.isArray(raw)) {
+    return raw.map((s) => String(s).trim()).filter(Boolean);
+  }
+  if (typeof raw === 'string') {
+    if (!raw.trim()) {
+      return [];
+    }
+    return raw
+      .split(',')
+      .map((g) => g.trim())
+      .filter(Boolean);
+  }
+  return [];
+}
+
 export interface BaseSerie extends MandatorySerieData {
   actors: {
     name: string;
@@ -12,7 +32,7 @@ export interface BaseSerie extends MandatorySerieData {
   coverUrl: string;
   releaseDate: string;
   endDate: string;
-  genre: string;
+  genre: string[];
   seasonsData: BaseSerieSeasonData[];
   description: string;
   countryOrigin: Country;

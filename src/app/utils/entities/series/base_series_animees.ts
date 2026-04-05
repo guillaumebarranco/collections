@@ -18,7 +18,7 @@ export const baseSeriesAnimees: BaseSerie[] = [
     coverUrl: '/series_pictures/1033002.jpg',
     releaseDate: '1992-10-10',
     endDate: '1995-01-07',
-    genre: 'Animation, Action, Adventure',
+    genre: ['Animation', 'Action', 'Adventure'],
     seasonsData: [
       {
         seasonNumber: 1,
@@ -57,7 +57,7 @@ export const baseSeriesAnimees: BaseSerie[] = [
     coverUrl: '/series_pictures/71AiVceG98L._AC_UF894,1000_QL80_.jpg',
     releaseDate: '2001-10-07',
     endDate: '2002-10-06',
-    genre: 'Animation, Sport',
+    genre: ['Animation', 'Sport'],
     seasonsData: [
       {
         seasonNumber: 1,
@@ -96,7 +96,7 @@ export const baseSeriesAnimees: BaseSerie[] = [
     coverUrl: '/series_pictures/naruto-anime-320x471.jpg',
     releaseDate: '2002-10-03',
     endDate: '2007-02-08',
-    genre: 'Animation, Action, Adventure',
+    genre: ['Animation', 'Action', 'Adventure'],
     seasonsData: [
       {
         seasonNumber: 1,
@@ -145,7 +145,7 @@ export const baseSeriesAnimees: BaseSerie[] = [
       '/series_pictures/MV5BNTk3MDA1ZjAtNTRhYS00YzNiLTgwOGEtYWRmYTQ3NjA0NTAwXkEyXkFqcGc@._V1_.jpg',
     releaseDate: '2007-02-15',
     endDate: '2017-03-23',
-    genre: 'Animation, Action, Adventure',
+    genre: ['Animation', 'Action', 'Adventure'],
     seasonsData: [
       {
         seasonNumber: 1,
@@ -273,7 +273,7 @@ export const baseSeriesAnimees: BaseSerie[] = [
     coverUrl: '/series_pictures/81lob744SgL._AC_UF894,1000_QL80_.jpg',
     releaseDate: '1999-10-20',
     endDate: '',
-    genre: 'Animation, Action, Adventure',
+    genre: ['Animation', 'Action', 'Adventure'],
     seasonsData: [
       {
         seasonNumber: 1,
@@ -401,7 +401,7 @@ export const baseSeriesAnimees: BaseSerie[] = [
     coverUrl: '/series_pictures/my_hero_academia.jpg',
     releaseDate: '2016-04-03',
     endDate: '',
-    genre: 'Animation, Action, Adventure',
+    genre: ['Animation', 'Action', 'Adventure'],
     seasonsData: [
       {
         seasonNumber: 1,
@@ -469,7 +469,7 @@ export const baseSeriesAnimees: BaseSerie[] = [
     coverUrl: '/series_pictures/5393471.jpg',
     releaseDate: '2017-04-05',
     endDate: '',
-    genre: 'Animation, Action, Adventure',
+    genre: ['Animation', 'Action', 'Adventure'],
     seasonsData: [
       {
         seasonNumber: 1,
@@ -517,7 +517,7 @@ export const baseSeriesAnimees: BaseSerie[] = [
     coverUrl: '/series_pictures/34d559cbab6cd1245e84d812d9056ef2.jpg',
     releaseDate: '2024-10-03',
     endDate: '',
-    genre: 'Animation, Action, Comedy',
+    genre: ['Animation', 'Action', 'Comedy'],
     seasonsData: [
       {
         seasonNumber: 1,
@@ -545,7 +545,7 @@ export const baseSeriesAnimees: BaseSerie[] = [
     coverUrl: '/series_pictures/3642167.jpg',
     releaseDate: '1986-02-26',
     endDate: '1989-04-19',
-    genre: 'Animation, Action, Adventure',
+    genre: ['Animation', 'Action', 'Adventure'],
     seasonsData: [
       {
         seasonNumber: 1,
@@ -609,7 +609,7 @@ export const baseSeriesAnimees: BaseSerie[] = [
       '/series_pictures/334f00b53cf3ef848ea7048b25711bc98e8236ce1685a096990c80d0965835ea.png',
     releaseDate: '1989-04-26',
     endDate: '1996-01-31',
-    genre: 'Animation, Action, Adventure',
+    genre: ['Animation', 'Action', 'Adventure'],
     seasonsData: [
       {
         seasonNumber: 1,
@@ -682,7 +682,7 @@ export const baseSeriesAnimees: BaseSerie[] = [
     coverUrl: '/series_pictures/dragon_ball_gt.webp',
     releaseDate: '1996-02-07',
     endDate: '1997-11-19',
-    genre: 'Animation, Action, Adventure',
+    genre: ['Animation', 'Action', 'Adventure'],
     seasonsData: [
       {
         seasonNumber: 1,
@@ -725,7 +725,7 @@ export const baseSeriesAnimees: BaseSerie[] = [
     coverUrl: '/series_pictures/anime-dragon-ball-super-visuel-4.webp',
     releaseDate: '',
     endDate: '',
-    genre: 'Animation, Action, Adventure',
+    genre: ['Animation', 'Action', 'Adventure'],
     seasonsData: [
       {
         seasonNumber: 1,
@@ -768,7 +768,7 @@ export const baseSeriesAnimees: BaseSerie[] = [
     coverUrl: '/series_pictures/Dragon-Ball-Daima-Anime-Tv-Series-Dvd.webp',
     releaseDate: '2024-10-11',
     endDate: '',
-    genre: 'Animation, Action, Adventure',
+    genre: ['Animation', 'Action', 'Adventure'],
     seasonsData: [
       {
         seasonNumber: 1,
@@ -791,7 +791,7 @@ export const baseSeriesAnimees: BaseSerie[] = [
     coverUrl: '/series_pictures/poster-olive-et-tom.webp',
     releaseDate: '1983-10-13',
     endDate: '1986-03-27',
-    genre: 'Animation, Sport',
+    genre: ['Animation', 'Sport'],
     seasonsData: [
       {
         seasonNumber: 1,
@@ -869,7 +869,7 @@ export const baseSeriesAnimees: BaseSerie[] = [
     coverUrl: '/series_pictures/puella_magi_madoka_magica.webp',
     releaseDate: '2011-01-07',
     endDate: '2011-04-22',
-    genre: 'Animation, Drama, Fantasy',
+    genre: ['Animation', 'Drama', 'Fantasy'],
     seasonsData: [
       {
         seasonNumber: 1,
@@ -892,7 +892,7 @@ export const baseSeriesAnimees: BaseSerie[] = [
     coverUrl: '/series_pictures/nanatsu_no_taizai_3605.webp',
     releaseDate: '2014-10-05',
     endDate: '2021-06-23',
-    genre: 'Animation, Action, Adventure',
+    genre: ['Animation', 'Action', 'Adventure'],
     seasonsData: [
       {
         seasonNumber: 1,
@@ -940,7 +940,7 @@ export const baseSeriesAnimees: BaseSerie[] = [
     coverUrl: '/series_pictures/5380787.jpg',
     releaseDate: '2001-07-04',
     endDate: '2002-09-25',
-    genre: 'Animation, Action, Adventure',
+    genre: ['Animation', 'Action', 'Adventure'],
     seasonsData: [
       {
         seasonNumber: 1,
@@ -963,7 +963,7 @@ export const baseSeriesAnimees: BaseSerie[] = [
     coverUrl: '/series_pictures/2275280.webp',
     releaseDate: '2015-04-04',
     endDate: '2020-09-26',
-    genre: 'Animation, Comedy, Drama',
+    genre: ['Animation', 'Comedy', 'Drama'],
     seasonsData: [
       {
         seasonNumber: 1,
@@ -1011,7 +1011,7 @@ export const baseSeriesAnimees: BaseSerie[] = [
     coverUrl: '/series_pictures/4420222.webp',
     releaseDate: '2014-07-06',
     endDate: '2014-12-14',
-    genre: 'Animation, Action, Drama',
+    genre: ['Animation', 'Action', 'Drama'],
     seasonsData: [
       {
         seasonNumber: 1,
@@ -1034,7 +1034,7 @@ export const baseSeriesAnimees: BaseSerie[] = [
     coverUrl: '/series_pictures/4803203.jpg',
     releaseDate: '2011-10-02',
     endDate: '2014-09-24',
-    genre: 'Animation, Action, Adventure',
+    genre: ['Animation', 'Action', 'Adventure'],
     seasonsData: [
       {
         seasonNumber: 1,
@@ -1067,7 +1067,7 @@ export const baseSeriesAnimees: BaseSerie[] = [
     coverUrl: '/series_pictures/beelzebub.jpg',
     releaseDate: '2011-01-09',
     endDate: '2012-03-25',
-    genre: 'Animation, Action, Comedy',
+    genre: ['Animation', 'Action', 'Comedy'],
     seasonsData: [
       {
         seasonNumber: 1,
@@ -1096,7 +1096,7 @@ export const baseSeriesAnimees: BaseSerie[] = [
       '/series_pictures/MV5BOWQwOWY5NTUtMjAyZi00YjQzLTkwODgtNmQwZjU1MGIzZDhjXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg',
     releaseDate: '2004-10-05',
     endDate: '2012-03-27',
-    genre: 'Animation, Action, Adventure',
+    genre: ['Animation', 'Action', 'Adventure'],
     seasonsData: [
       {
         seasonNumber: 1,
@@ -1200,7 +1200,7 @@ export const baseSeriesAnimees: BaseSerie[] = [
       '/series_pictures/MV5BNGNjMjVmODYtMGMzZi00MWUyLTk1ZDQtYzI2ZTk2MmYzYTZiXkEyXkFqcGc@._V1_.jpg',
     releaseDate: '1996-01-08',
     endDate: '',
-    genre: 'Animation, Crime, Mystery',
+    genre: ['Animation', 'Crime', 'Mystery'],
     seasonsData: [
       {
         seasonNumber: 1,
@@ -1328,7 +1328,7 @@ export const baseSeriesAnimees: BaseSerie[] = [
     coverUrl: '/series_pictures/4875617.jpg',
     releaseDate: '2020-10-03',
     endDate: '',
-    genre: 'Animation, Action, Fantasy',
+    genre: ['Animation', 'Action', 'Fantasy'],
     seasonsData: [
       {
         seasonNumber: 1,
@@ -1362,7 +1362,7 @@ export const baseSeriesAnimees: BaseSerie[] = [
       "/series_pictures/800px-JoJo's_Bizarre_Adventure_The_Animation_International_Poster.png",
     releaseDate: '2012-10-06',
     endDate: '',
-    genre: 'Animation, Action, Adventure',
+    genre: ['Animation', 'Action', 'Adventure'],
     seasonsData: [
       {
         seasonNumber: 1,
@@ -1395,7 +1395,7 @@ export const baseSeriesAnimees: BaseSerie[] = [
     coverUrl: '/series_pictures/0198270.jpg',
     releaseDate: '2019-04-06',
     endDate: '',
-    genre: 'Animation, Action, Adventure',
+    genre: ['Animation', 'Action', 'Adventure'],
     seasonsData: [
       {
         seasonNumber: 1,
@@ -1433,7 +1433,7 @@ export const baseSeriesAnimees: BaseSerie[] = [
     coverUrl: '/series_pictures/0321052.webp',
     releaseDate: '2022-04-09',
     endDate: '',
-    genre: 'Animation, Action, Comedy',
+    genre: ['Animation', 'Action', 'Comedy'],
     seasonsData: [
       {
         seasonNumber: 1,
@@ -1456,7 +1456,7 @@ export const baseSeriesAnimees: BaseSerie[] = [
     coverUrl: '/series_pictures/1492791.webp',
     releaseDate: '2022-10-12',
     endDate: '',
-    genre: 'Animation, Action, Horror',
+    genre: ['Animation', 'Action', 'Horror'],
     seasonsData: [
       {
         seasonNumber: 1,
@@ -1479,7 +1479,7 @@ export const baseSeriesAnimees: BaseSerie[] = [
     coverUrl: '/series_pictures/ken_le_survivant.jpg',
     releaseDate: '1984-10-11',
     endDate: '1988-03-18',
-    genre: 'Animation, Action, Adventure',
+    genre: ['Animation', 'Action', 'Adventure'],
     seasonsData: [
       {
         seasonNumber: 1,
@@ -1533,7 +1533,7 @@ export const baseSeriesAnimees: BaseSerie[] = [
       '/series_pictures/Saint-Seiya-Chevalier-du-Zodiaque-anime-visuel_large.webp',
     releaseDate: '1986-10-11',
     endDate: '1989-04-01',
-    genre: 'Animation, Action, Adventure',
+    genre: ['Animation', 'Action', 'Adventure'],
     seasonsData: [
       {
         seasonNumber: 1,
@@ -1566,7 +1566,7 @@ export const baseSeriesAnimees: BaseSerie[] = [
     coverUrl: '/series_pictures/mysterieuses-cites-dor-S1-affiche.webp',
     releaseDate: '1982-06-28',
     endDate: '1983-06-08',
-    genre: 'Animation, Adventure',
+    genre: ['Animation', 'Adventure'],
     seasonsData: [
       {
         seasonNumber: 1,
@@ -1589,7 +1589,7 @@ export const baseSeriesAnimees: BaseSerie[] = [
     coverUrl: '/series_pictures/magical_doremi.jpg',
     releaseDate: '1999-02-07',
     endDate: '2003-01-26',
-    genre: 'Animation, Comedy, Fantasy',
+    genre: ['Animation', 'Comedy', 'Fantasy'],
     seasonsData: [
       {
         seasonNumber: 1,
@@ -1632,7 +1632,7 @@ export const baseSeriesAnimees: BaseSerie[] = [
     coverUrl: '/series_pictures/Carnets_de_Apothicaire_anime.webp',
     releaseDate: '2023-10-22',
     endDate: '',
-    genre: 'Animation, Drama, Mystery',
+    genre: ['Animation', 'Drama', 'Mystery'],
     seasonsData: [
       {
         seasonNumber: 1,
@@ -1655,7 +1655,7 @@ export const baseSeriesAnimees: BaseSerie[] = [
     coverUrl: '/series_pictures/5533232.webp',
     releaseDate: '2003-09-03',
     endDate: '2007-11-10',
-    genre: 'Animation, Action, Adventure',
+    genre: ['Animation', 'Action', 'Adventure'],
     seasonsData: [
       {
         seasonNumber: 1,
@@ -1693,7 +1693,7 @@ export const baseSeriesAnimees: BaseSerie[] = [
     coverUrl: '/series_pictures/albator_78.jpg',
     releaseDate: '1978-03-14',
     endDate: '1979-02-13',
-    genre: 'Animation, Adventure, Sci-Fi',
+    genre: ['Animation', 'Adventure', 'Sci-Fi'],
     seasonsData: [
       {
         seasonNumber: 1,
@@ -1716,7 +1716,7 @@ export const baseSeriesAnimees: BaseSerie[] = [
     coverUrl: '/series_pictures/Goldorak-anime.webp',
     releaseDate: '1975-10-05',
     endDate: '1977-02-27',
-    genre: 'Animation, Action, Sci-Fi',
+    genre: ['Animation', 'Action', 'Sci-Fi'],
     seasonsData: [
       {
         seasonNumber: 1,
@@ -1744,7 +1744,7 @@ export const baseSeriesAnimees: BaseSerie[] = [
     coverUrl: '/series_pictures/Totally-Spies-vega-dupuis-t1.webp',
     releaseDate: '2001-04-03',
     endDate: '',
-    genre: 'Animation, Action, Comedy',
+    genre: ['Animation', 'Action', 'Comedy'],
     seasonsData: [
       {
         seasonNumber: 1,
@@ -1797,7 +1797,7 @@ export const baseSeriesAnimees: BaseSerie[] = [
     coverUrl: '/series_pictures/WBD_SDJG_FR_JAQCANAL_fr-FR.webp',
     releaseDate: '1998-11-18',
     endDate: '2005-03-25',
-    genre: 'Animation, Action, Comedy',
+    genre: ['Animation', 'Action', 'Comedy'],
     seasonsData: [
       {
         seasonNumber: 1,
@@ -1870,7 +1870,7 @@ export const baseSeriesAnimees: BaseSerie[] = [
     coverUrl: '/series_pictures/4220932.webp',
     releaseDate: '1997-06-02',
     endDate: '2006-01-13',
-    genre: 'Animation, Comedy, Sci-Fi',
+    genre: ['Animation', 'Comedy', 'Sci-Fi'],
     seasonsData: [
       {
         seasonNumber: 1,
@@ -1944,7 +1944,7 @@ export const baseSeriesAnimees: BaseSerie[] = [
       '/series_pictures/MV5BOTg3NzY2MDQtMjUxNS00N2Q3LTkxODktMmU1NzdjZTNkMzQ0XkEyXkFqcGc@._V1_.jpg',
     releaseDate: '2003-07-19',
     endDate: '2006-01-16',
-    genre: 'Animation, Action, Adventure',
+    genre: ['Animation', 'Action', 'Adventure'],
     seasonsData: [
       {
         seasonNumber: 1,
@@ -2002,7 +2002,7 @@ export const baseSeriesAnimees: BaseSerie[] = [
     coverUrl: '/series_pictures/mon_ami_marsupilami.jpg',
     releaseDate: '1993-09-26',
     endDate: '1997-06-29',
-    genre: 'Animation, Adventure, Comedy',
+    genre: ['Animation', 'Adventure', 'Comedy'],
     seasonsData: [
       {
         seasonNumber: 1,
@@ -2036,7 +2036,7 @@ export const baseSeriesAnimees: BaseSerie[] = [
       '/series_pictures/oggy-et-les-cafards-tome-1-plouf-prouf-vrooo-1.jpg',
     releaseDate: '1998-09-06',
     endDate: '',
-    genre: 'Animation, Comedy',
+    genre: ['Animation', 'Comedy'],
     seasonsData: [
       {
         seasonNumber: 1,
@@ -2089,7 +2089,7 @@ export const baseSeriesAnimees: BaseSerie[] = [
     coverUrl: '/series_pictures/bob_l_eponge.jpg',
     releaseDate: '1999-05-01',
     endDate: '',
-    genre: 'Animation, Comedy',
+    genre: ['Animation', 'Comedy'],
     seasonsData: [
       {
         seasonNumber: 1,
@@ -2142,7 +2142,7 @@ export const baseSeriesAnimees: BaseSerie[] = [
     coverUrl: '/series_pictures/Tortues_Ninja_Les_Chevaliers_d_ecaille.webp',
     releaseDate: '1987-12-14',
     endDate: '1996-11-02',
-    genre: 'Animation, Action, Adventure',
+    genre: ['Animation', 'Action', 'Adventure'],
     seasonsData: [
       {
         seasonNumber: 1,
@@ -2215,7 +2215,7 @@ export const baseSeriesAnimees: BaseSerie[] = [
     coverUrl: '/series_pictures/Princesse_Sarah_anime.webp',
     releaseDate: '1985-01-06',
     endDate: '1985-12-29',
-    genre: 'Animation, Drama, Family',
+    genre: ['Animation', 'Drama', 'Family'],
     seasonsData: [
       {
         seasonNumber: 1,
@@ -2238,7 +2238,7 @@ export const baseSeriesAnimees: BaseSerie[] = [
     coverUrl: '/series_pictures/pokemon.jpg',
     releaseDate: '1997-04-01',
     endDate: '',
-    genre: 'Animation, Adventure, Fantasy',
+    genre: ['Animation', 'Adventure', 'Fantasy'],
     seasonsData: [
       {
         seasonNumber: 1,
@@ -2376,7 +2376,7 @@ export const baseSeriesAnimees: BaseSerie[] = [
     coverUrl: '/series_pictures/ecole.webp',
     releaseDate: '1981-10-07',
     endDate: '1982-10-06',
-    genre: 'Animation, Sport, Comedy',
+    genre: ['Animation', 'Sport', 'Comedy'],
     seasonsData: [
       {
         seasonNumber: 1,
@@ -2405,7 +2405,7 @@ export const baseSeriesAnimees: BaseSerie[] = [
       '/series_pictures/aHR0cHM6Ly9pbWFnZS50bWRiLm9yZy90L3AvL29yaWdpbmFsLy9ieTJHVEZwZDJCUTV1SnhXUGxmY21mck5yZkIuanBn.webp',
     releaseDate: '2000-09-09',
     endDate: '2005-07-08',
-    genre: 'Animation, Action, Adventure',
+    genre: ['Animation', 'Action', 'Adventure'],
     seasonsData: [
       {
         seasonNumber: 1,
@@ -2433,7 +2433,7 @@ export const baseSeriesAnimees: BaseSerie[] = [
     coverUrl: '/series_pictures/51E+amE6YML._AC_UF894,1000_QL80_.jpg',
     releaseDate: '2001-01-09',
     endDate: '2002-06-25',
-    genre: 'Animation, Family',
+    genre: ['Animation', 'Family'],
     seasonsData: [
       {
         seasonNumber: 1,
@@ -2456,7 +2456,7 @@ export const baseSeriesAnimees: BaseSerie[] = [
     coverUrl: '/series_pictures/cobra-the-animation-5379660ab84a8.jpg',
     releaseDate: '1982-10-07',
     endDate: '1983-05-19',
-    genre: 'Animation, Action, Adventure',
+    genre: ['Animation', 'Action', 'Adventure'],
     seasonsData: [
       {
         seasonNumber: 1,
@@ -2479,7 +2479,7 @@ export const baseSeriesAnimees: BaseSerie[] = [
     coverUrl: '/series_pictures/nicky_larson.webp',
     releaseDate: '1987-04-06',
     endDate: '1991-10-10',
-    genre: 'Animation, Action, Comedy',
+    genre: ['Animation', 'Action', 'Comedy'],
     seasonsData: [
       {
         seasonNumber: 1,
@@ -2517,7 +2517,7 @@ export const baseSeriesAnimees: BaseSerie[] = [
     coverUrl: '/series_pictures/4503509.jpg',
     releaseDate: '2006-04-04',
     endDate: '2018-10-08',
-    genre: 'Animation, Action, Comedy',
+    genre: ['Animation', 'Action', 'Comedy'],
     seasonsData: [
       {
         seasonNumber: 1,
@@ -2585,7 +2585,7 @@ export const baseSeriesAnimees: BaseSerie[] = [
     coverUrl: '/series_pictures/2512267.webp',
     releaseDate: '2000-04-18',
     endDate: '2004-09-29',
-    genre: 'Animation, Action, Adventure',
+    genre: ['Animation', 'Action', 'Adventure'],
     seasonsData: [
       {
         seasonNumber: 1,
@@ -2649,7 +2649,7 @@ export const baseSeriesAnimees: BaseSerie[] = [
     coverUrl: '/series_pictures/1-M480x680.png',
     releaseDate: '2006-10-04',
     endDate: '2007-06-26',
-    genre: 'Animation, Crime, Drama',
+    genre: ['Animation', 'Crime', 'Drama'],
     seasonsData: [
       {
         seasonNumber: 1,
@@ -2678,7 +2678,7 @@ export const baseSeriesAnimees: BaseSerie[] = [
     coverUrl: '/series_pictures/assassination-classroom.jpg',
     releaseDate: '2015-01-09',
     endDate: '2016-06-30',
-    genre: 'Anime',
+    genre: ['Anime'],
     seasonsData: [
       {
         seasonNumber: 1,
@@ -2712,7 +2712,7 @@ export const baseSeriesAnimees: BaseSerie[] = [
     coverUrl: '/series_pictures/soul-eater.jpg',
     releaseDate: '2008-04-07',
     endDate: '2009-03-30',
-    genre: 'Anime',
+    genre: ['Anime'],
     seasonsData: [
       {
         seasonNumber: 1,
@@ -2742,7 +2742,7 @@ export const baseSeriesAnimees: BaseSerie[] = [
     coverUrl: '/series_pictures/full-metal-alchemist.jpg',
     releaseDate: '2003-10-04',
     endDate: '2004-10-02',
-    genre: 'Anime',
+    genre: ['Anime'],
     seasonsData: [
       {
         seasonNumber: 1,
@@ -2777,7 +2777,7 @@ export const baseSeriesAnimees: BaseSerie[] = [
     coverUrl: '/series_pictures/2364027.webp',
     releaseDate: '2009-04-05',
     endDate: '2010-07-04',
-    genre: 'Anime',
+    genre: ['Anime'],
     seasonsData: [
       {
         seasonNumber: 1,
@@ -2812,7 +2812,7 @@ export const baseSeriesAnimees: BaseSerie[] = [
     coverUrl: '/series_pictures/eyeshield-21.jpg',
     releaseDate: '2005-04-06',
     endDate: '2008-03-19',
-    genre: 'Anime',
+    genre: ['Anime'],
     seasonsData: [
       {
         seasonNumber: 1,
@@ -2851,7 +2851,7 @@ export const baseSeriesAnimees: BaseSerie[] = [
     coverUrl: '/series_pictures/attaque-des-titans.jpg',
     releaseDate: '2013-04-07',
     endDate: '2023-11-04',
-    genre: 'Anime',
+    genre: ['Anime'],
     seasonsData: [
       {
         seasonNumber: 1,
@@ -2895,7 +2895,7 @@ export const baseSeriesAnimees: BaseSerie[] = [
     coverUrl: '/series_pictures/one-punch-man.jpg',
     releaseDate: '2015-10-05',
     endDate: '2025-12-28',
-    genre: 'Anime',
+    genre: ['Anime'],
     seasonsData: [
       {
         seasonNumber: 1,
@@ -2935,7 +2935,7 @@ export const baseSeriesAnimees: BaseSerie[] = [
       '/series_pictures/MV5BZGQyZjk2MzMtMTcyNC00NGU3LTlmNjItNDExMWM4ZDFhYmQ2XkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg',
     releaseDate: '2013-12-02',
     endDate: '',
-    genre: 'Animation, Adventure, Comedy',
+    genre: ['Animation', 'Adventure', 'Comedy'],
     seasonsData: [
       {
         seasonNumber: 1,
@@ -2999,7 +2999,7 @@ export const baseSeriesAnimees: BaseSerie[] = [
     coverUrl: '/series_pictures/0152267.webp',
     releaseDate: '2004-05-20',
     endDate: '2005-03-19',
-    genre: 'Animation, Action, Adventure',
+    genre: ['Animation', 'Action', 'Adventure'],
     seasonsData: [
       {
         seasonNumber: 1,
@@ -3028,7 +3028,7 @@ export const baseSeriesAnimees: BaseSerie[] = [
     coverUrl: '/series_pictures/les-simpson-affiche-1022674.jpg',
     releaseDate: '1989-12-17',
     endDate: '',
-    genre: 'Animation, Comedy',
+    genre: ['Animation', 'Comedy'],
     seasonsData: [
       {
         seasonNumber: 1,
@@ -3227,7 +3227,7 @@ export const baseSeriesAnimees: BaseSerie[] = [
     coverUrl: '/series_pictures/33e1cd818fa66a13f979511d517eea48.webp',
     releaseDate: '2025-04-30',
     endDate: '2025-04-30',
-    genre: 'Animation, Comedy, Adventure',
+    genre: ['Animation', 'Comedy', 'Adventure'],
     seasonsData: [
       {
         seasonNumber: 1,
@@ -3257,7 +3257,7 @@ export const baseSeriesAnimees: BaseSerie[] = [
       '/series_pictures/MV5BNDAyZmNlNTUtM2VlMC00ZTkyLWIyNzMtY2RiM2E2ZjA5NTIzXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg',
     releaseDate: '2021-11-06',
     endDate: '2024-11-23',
-    genre: 'Animation, Action, Adventure',
+    genre: ['Animation', 'Action', 'Adventure'],
     seasonsData: [
       {
         seasonNumber: 1,
@@ -3291,7 +3291,7 @@ export const baseSeriesAnimees: BaseSerie[] = [
     coverUrl: '/series_pictures/marvel.webp',
     releaseDate: '2013-05-26',
     endDate: '2019-05-19',
-    genre: 'Animation, Action, Adventure',
+    genre: ['Animation', 'Action', 'Adventure'],
     seasonsData: [
       {
         seasonNumber: 1,
@@ -3330,7 +3330,7 @@ export const baseSeriesAnimees: BaseSerie[] = [
     coverUrl: '/series_pictures/81ebGZWsmpL._AC_UF1000,1000_QL80_.jpg',
     releaseDate: '2005-02-21',
     endDate: '2008-07-19',
-    genre: 'Animation, Action, Adventure',
+    genre: ['Animation', 'Action', 'Adventure'],
     seasonsData: [
       {
         seasonNumber: 1,
@@ -3369,7 +3369,7 @@ export const baseSeriesAnimees: BaseSerie[] = [
     coverUrl: '/series_pictures/257044.webp',
     releaseDate: '1997-08-13',
     endDate: '',
-    genre: 'Animation, Comedy',
+    genre: ['Animation', 'Comedy'],
     seasonsData: [
       {
         seasonNumber: 1,
@@ -3528,7 +3528,7 @@ export const baseSeriesAnimees: BaseSerie[] = [
     coverUrl: '/series_pictures/Poster_de_The_Clone_Wars_le_film.webp',
     releaseDate: '2008-10-03',
     endDate: '2020-05-04',
-    genre: 'Animation, Action, Adventure',
+    genre: ['Animation', 'Action', 'Adventure'],
     seasonsData: [
       {
         seasonNumber: 1,
@@ -3587,7 +3587,7 @@ export const baseSeriesAnimees: BaseSerie[] = [
     coverUrl: '/series_pictures/Rebels_saison_4.webp',
     releaseDate: '2014-10-03',
     endDate: '2018-03-05',
-    genre: 'Animation, Action, Adventure',
+    genre: ['Animation', 'Action', 'Adventure'],
     seasonsData: [
       {
         seasonNumber: 1,
@@ -3631,7 +3631,7 @@ export const baseSeriesAnimees: BaseSerie[] = [
     coverUrl: '/series_pictures/galactik-football.jpg',
     releaseDate: '2006-05-27',
     endDate: '2011-03-01',
-    genre: 'Anime',
+    genre: ['Anime'],
     seasonsData: [
       {
         seasonNumber: 1,
@@ -3670,7 +3670,7 @@ export const baseSeriesAnimees: BaseSerie[] = [
     coverUrl: '/series_pictures/legende-de-korra.jpg',
     releaseDate: '2012-04-14',
     endDate: '2014-12-19',
-    genre: 'Anime',
+    genre: ['Anime'],
     seasonsData: [
       {
         seasonNumber: 1,
@@ -3708,7 +3708,7 @@ export const baseSeriesAnimees: BaseSerie[] = [
     coverUrl: '/series_pictures/3177609.webp',
     releaseDate: '',
     endDate: '',
-    genre: 'Anime',
+    genre: ['Anime'],
     seasonsData: [
       {
         seasonNumber: 1,
@@ -3736,7 +3736,7 @@ export const baseSeriesAnimees: BaseSerie[] = [
     coverUrl: '/series_pictures/1139915.webp',
     releaseDate: '1999-01-01',
     endDate: '',
-    genre: 'Anime',
+    genre: ['Anime'],
     seasonsData: [
       {
         seasonNumber: 1,
@@ -3759,7 +3759,7 @@ export const baseSeriesAnimees: BaseSerie[] = [
     coverUrl: '/series_pictures/psycho-pass_2293.webp',
     releaseDate: '2012-01-01',
     endDate: '',
-    genre: 'Anime',
+    genre: ['Anime'],
     seasonsData: [
       {
         seasonNumber: 1,
@@ -3792,7 +3792,7 @@ export const baseSeriesAnimees: BaseSerie[] = [
     coverUrl: '/series_pictures/1342802.jpg',
     releaseDate: '2014-01-01',
     endDate: '',
-    genre: 'Anime',
+    genre: ['Anime'],
     seasonsData: [
       {
         seasonNumber: 1,
@@ -3815,7 +3815,7 @@ export const baseSeriesAnimees: BaseSerie[] = [
     coverUrl: '/series_pictures/5921608.webp',
     releaseDate: '2012-01-01',
     endDate: '',
-    genre: 'Anime',
+    genre: ['Anime'],
     seasonsData: [
       {
         seasonNumber: 1,
@@ -3853,7 +3853,7 @@ export const baseSeriesAnimees: BaseSerie[] = [
     coverUrl: '/series_pictures/314681.webp',
     releaseDate: '2014-01-01',
     endDate: '',
-    genre: 'Anime',
+    genre: ['Anime'],
     seasonsData: [
       {
         seasonNumber: 1,
@@ -3891,7 +3891,7 @@ export const baseSeriesAnimees: BaseSerie[] = [
     coverUrl: '/series_pictures/fairy-tail.jpg',
     releaseDate: '2009-01-01',
     endDate: '',
-    genre: 'Anime',
+    genre: ['Anime'],
     seasonsData: [
       {
         seasonNumber: 1,
@@ -3955,7 +3955,7 @@ export const baseSeriesAnimees: BaseSerie[] = [
       '/series_pictures/MV5BMTEyMjRiYjUtMzJkOC00NDBmLWI4Y2YtNDk5ZTQyMDNhMjgxXkEyXkFqcGc@._V1_.jpg',
     releaseDate: '2011-01-01',
     endDate: '',
-    genre: 'Anime',
+    genre: ['Anime'],
     seasonsData: [
       {
         seasonNumber: 1,
@@ -3983,7 +3983,7 @@ export const baseSeriesAnimees: BaseSerie[] = [
     coverUrl: '/series_pictures/fate_stay_night_237.webp',
     releaseDate: '',
     endDate: '',
-    genre: 'Anime',
+    genre: ['Anime'],
     seasonsData: [
       {
         seasonNumber: 1,
@@ -4006,7 +4006,7 @@ export const baseSeriesAnimees: BaseSerie[] = [
     coverUrl: '/series_pictures/Fateapocrypha_vol.01_cover.jpg',
     releaseDate: '',
     endDate: '',
-    genre: 'Anime',
+    genre: ['Anime'],
     seasonsData: [
       {
         seasonNumber: 1,
@@ -4029,7 +4029,7 @@ export const baseSeriesAnimees: BaseSerie[] = [
     coverUrl: '/series_pictures/fate-grand-order-first-order-dvdimport.webp',
     releaseDate: '',
     endDate: '',
-    genre: 'Anime',
+    genre: ['Anime'],
     seasonsData: [
       {
         seasonNumber: 1,
@@ -4052,7 +4052,7 @@ export const baseSeriesAnimees: BaseSerie[] = [
     coverUrl: '/series_pictures/1033002.jpg',
     releaseDate: '',
     endDate: '',
-    genre: 'Anime',
+    genre: ['Anime'],
     seasonsData: [
       {
         seasonNumber: 1,
@@ -4080,7 +4080,7 @@ export const baseSeriesAnimees: BaseSerie[] = [
     coverUrl: '/series_pictures/81eezfnsUtL._AC_UF894,1000_QL80_.jpg',
     releaseDate: '',
     endDate: '',
-    genre: 'Anime',
+    genre: ['Anime'],
     seasonsData: [
       {
         seasonNumber: 1,
@@ -4143,7 +4143,7 @@ export const baseSeriesAnimees: BaseSerie[] = [
     coverUrl: '/series_pictures/81dpKMg4+OL._AC_UF894,1000_QL80_.jpg',
     releaseDate: '2004-01-01',
     endDate: '',
-    genre: 'Anime',
+    genre: ['Anime'],
     seasonsData: [
       {
         seasonNumber: 1,
@@ -4166,7 +4166,7 @@ export const baseSeriesAnimees: BaseSerie[] = [
     coverUrl: '/series_pictures/angel_beats_1562.webp',
     releaseDate: '2010-01-01',
     endDate: '',
-    genre: 'Anime',
+    genre: ['Anime'],
     seasonsData: [
       {
         seasonNumber: 1,
@@ -4189,7 +4189,7 @@ export const baseSeriesAnimees: BaseSerie[] = [
     coverUrl: '/series_pictures/Charlotte_Affiche_Promotionelle.webp',
     releaseDate: '',
     endDate: '',
-    genre: 'Anime',
+    genre: ['Anime'],
     seasonsData: [
       {
         seasonNumber: 1,
@@ -4212,7 +4212,7 @@ export const baseSeriesAnimees: BaseSerie[] = [
     coverUrl: '/series_pictures/0799147.webp',
     releaseDate: '',
     endDate: '',
-    genre: 'Anime',
+    genre: ['Anime'],
     seasonsData: [
       {
         seasonNumber: 1,
@@ -4240,7 +4240,7 @@ export const baseSeriesAnimees: BaseSerie[] = [
     coverUrl: '/series_pictures/1280346.webp',
     releaseDate: '',
     endDate: '',
-    genre: 'Anime',
+    genre: ['Anime'],
     seasonsData: [
       {
         seasonNumber: 1,
@@ -4264,7 +4264,7 @@ export const baseSeriesAnimees: BaseSerie[] = [
       '/series_pictures/MV5BYjE1NGIwOGEtZWFiYS00MGMxLTk2ZjMtNDQ5YzQ1YmZiNmY1XkEyXkFqcGc@._V1_.jpg',
     releaseDate: '2010-01-01',
     endDate: '',
-    genre: 'Anime',
+    genre: ['Anime'],
     seasonsData: [
       {
         seasonNumber: 1,
@@ -4302,7 +4302,7 @@ export const baseSeriesAnimees: BaseSerie[] = [
     coverUrl: '/series_pictures/nana_103.webp',
     releaseDate: '2006-01-01',
     endDate: '',
-    genre: 'Anime',
+    genre: ['Anime'],
     seasonsData: [
       {
         seasonNumber: 1,
@@ -4325,7 +4325,7 @@ export const baseSeriesAnimees: BaseSerie[] = [
     coverUrl: '/series_pictures/black_butler.webp',
     releaseDate: '2008-01-01',
     endDate: '',
-    genre: 'Anime',
+    genre: ['Anime'],
     seasonsData: [
       {
         seasonNumber: 1,
@@ -4363,7 +4363,7 @@ export const baseSeriesAnimees: BaseSerie[] = [
     coverUrl: '/series_pictures/2218608.webp',
     releaseDate: '2018-01-01',
     endDate: '',
-    genre: 'Anime',
+    genre: ['Anime'],
     seasonsData: [
       {
         seasonNumber: 1,
@@ -4386,7 +4386,7 @@ export const baseSeriesAnimees: BaseSerie[] = [
     coverUrl: '/series_pictures/3483516.webp',
     releaseDate: '2019-01-01',
     endDate: '',
-    genre: 'Anime',
+    genre: ['Anime'],
     seasonsData: [
       {
         seasonNumber: 1,
@@ -4414,7 +4414,7 @@ export const baseSeriesAnimees: BaseSerie[] = [
     coverUrl: '/series_pictures/Deathparadevisual.jpg',
     releaseDate: '2015-01-01',
     endDate: '',
-    genre: 'Anime',
+    genre: ['Anime'],
     seasonsData: [
       {
         seasonNumber: 1,
@@ -4437,7 +4437,7 @@ export const baseSeriesAnimees: BaseSerie[] = [
     coverUrl: '/series_pictures/0625074.webp',
     releaseDate: '',
     endDate: '',
-    genre: 'Anime',
+    genre: ['Anime'],
     seasonsData: [
       {
         seasonNumber: 1,
@@ -4470,7 +4470,7 @@ export const baseSeriesAnimees: BaseSerie[] = [
     coverUrl: '/series_pictures/4017193.webp',
     releaseDate: '',
     endDate: '',
-    genre: 'Anime',
+    genre: ['Anime'],
     seasonsData: [
       {
         seasonNumber: 1,
@@ -4498,7 +4498,7 @@ export const baseSeriesAnimees: BaseSerie[] = [
     coverUrl: '/series_pictures/3692966.webp',
     releaseDate: '',
     endDate: '',
-    genre: 'Anime',
+    genre: ['Anime'],
     seasonsData: [
       {
         seasonNumber: 1,
@@ -4526,7 +4526,7 @@ export const baseSeriesAnimees: BaseSerie[] = [
     coverUrl: '/series_pictures/5354652.webp',
     releaseDate: '',
     endDate: '',
-    genre: 'Anime',
+    genre: ['Anime'],
     seasonsData: [
       {
         seasonNumber: 1,
@@ -4549,7 +4549,7 @@ export const baseSeriesAnimees: BaseSerie[] = [
     coverUrl: '/series_pictures/unnamed_3ham.jpg',
     releaseDate: '',
     endDate: '',
-    genre: 'Anime',
+    genre: ['Anime'],
     seasonsData: [
       {
         seasonNumber: 1,
@@ -4577,7 +4577,7 @@ export const baseSeriesAnimees: BaseSerie[] = [
     coverUrl: '/series_pictures/Tower-of-God-Saison-3.webp',
     releaseDate: '',
     endDate: '',
-    genre: 'Anime',
+    genre: ['Anime'],
     seasonsData: [
       {
         seasonNumber: 1,
@@ -4605,7 +4605,7 @@ export const baseSeriesAnimees: BaseSerie[] = [
     coverUrl: '/series_pictures/4014380.webp',
     releaseDate: '',
     endDate: '',
-    genre: 'Anime',
+    genre: ['Anime'],
     seasonsData: [
       {
         seasonNumber: 1,
@@ -4629,7 +4629,7 @@ export const baseSeriesAnimees: BaseSerie[] = [
       '/series_pictures/MV5BZDY4YzZkYzEtNTAzNS00NTE0LWIxMDktNmM4MTFmNDQ0NmIzXkEyXkFqcGc@._V1_.jpg',
     releaseDate: '',
     endDate: '',
-    genre: 'Anime',
+    genre: ['Anime'],
     seasonsData: [
       {
         seasonNumber: 1,
@@ -4662,7 +4662,7 @@ export const baseSeriesAnimees: BaseSerie[] = [
     coverUrl: '/series_pictures/5567074.webp',
     releaseDate: '',
     endDate: '',
-    genre: 'Anime',
+    genre: ['Anime'],
     seasonsData: [
       {
         seasonNumber: 1,
@@ -4685,7 +4685,7 @@ export const baseSeriesAnimees: BaseSerie[] = [
     coverUrl: '/series_pictures/51SlQOUfGiL._AC_UF894,1000_QL80_.jpg',
     releaseDate: '',
     endDate: '',
-    genre: 'Anime',
+    genre: ['Anime'],
     seasonsData: [
       {
         seasonNumber: 1,
@@ -4708,7 +4708,7 @@ export const baseSeriesAnimees: BaseSerie[] = [
     coverUrl: '/series_pictures/Danganronpa_the_Animation_Poster.webp',
     releaseDate: '',
     endDate: '',
-    genre: 'Anime',
+    genre: ['Anime'],
     seasonsData: [
       {
         seasonNumber: 1,
@@ -4731,7 +4731,7 @@ export const baseSeriesAnimees: BaseSerie[] = [
     coverUrl: '/series_pictures/0267204.webp',
     releaseDate: '2020-01-01',
     endDate: '',
-    genre: 'Anime',
+    genre: ['Anime'],
     seasonsData: [
       {
         seasonNumber: 1,
@@ -4754,7 +4754,7 @@ export const baseSeriesAnimees: BaseSerie[] = [
     coverUrl: '/series_pictures/toriko-anime-fiche.webp',
     releaseDate: '',
     endDate: '',
-    genre: 'Anime',
+    genre: ['Anime'],
     seasonsData: [
       {
         seasonNumber: 1,
@@ -4777,7 +4777,7 @@ export const baseSeriesAnimees: BaseSerie[] = [
     coverUrl: '/series_pictures/4147224.webp',
     releaseDate: '2018-01-01',
     endDate: '',
-    genre: 'Anime',
+    genre: ['Anime'],
     seasonsData: [
       {
         seasonNumber: 1,
@@ -4820,7 +4820,7 @@ export const baseSeriesAnimees: BaseSerie[] = [
     coverUrl: '/series_pictures/55eb0313cd9ed9dbef65999281a399a8.webp',
     releaseDate: '',
     endDate: '',
-    genre: 'Anime',
+    genre: ['Anime'],
     seasonsData: [
       {
         seasonNumber: 1,
@@ -4863,7 +4863,7 @@ export const baseSeriesAnimees: BaseSerie[] = [
     coverUrl: '/series_pictures/3865147.jpg',
     releaseDate: '',
     endDate: '',
-    genre: 'Anime',
+    genre: ['Anime'],
     seasonsData: [
       {
         seasonNumber: 1,
@@ -4896,7 +4896,7 @@ export const baseSeriesAnimees: BaseSerie[] = [
     coverUrl: '/series_pictures/81fYCZ9QY4L._AC_UF894,1000_QL80_.jpg',
     releaseDate: '',
     endDate: '',
-    genre: 'Anime',
+    genre: ['Anime'],
     seasonsData: [
       {
         seasonNumber: 1,
@@ -4919,7 +4919,7 @@ export const baseSeriesAnimees: BaseSerie[] = [
     coverUrl: '/series_pictures/card-captor-sakura-anime-clam.webp',
     releaseDate: '',
     endDate: '',
-    genre: 'Anime',
+    genre: ['Anime'],
     seasonsData: [
       {
         seasonNumber: 1,
@@ -4943,7 +4943,7 @@ export const baseSeriesAnimees: BaseSerie[] = [
       '/series_pictures/MV5BNjI1MGNjZTUtMzVjMi00OTk0LTk0MGItNDUyZjZlYmQ4MzFjXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg',
     releaseDate: '',
     endDate: '',
-    genre: 'Anime',
+    genre: ['Anime'],
     seasonsData: [
       {
         seasonNumber: 1,
@@ -4966,7 +4966,7 @@ export const baseSeriesAnimees: BaseSerie[] = [
     coverUrl: '/series_pictures/higurashi_no_naku_koro_ni_241.webp',
     releaseDate: '',
     endDate: '',
-    genre: 'Anime',
+    genre: ['Anime'],
     seasonsData: [
       {
         seasonNumber: 1,
@@ -4990,7 +4990,7 @@ export const baseSeriesAnimees: BaseSerie[] = [
       '/series_pictures/MV5BNGEzNmI1NGQtZjBiNC00NDkxLWI0YTEtZWJlOWE5Njg3YjE0XkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg',
     releaseDate: '',
     endDate: '',
-    genre: 'Anime',
+    genre: ['Anime'],
     seasonsData: [
       {
         seasonNumber: 1,
@@ -5013,7 +5013,7 @@ export const baseSeriesAnimees: BaseSerie[] = [
     coverUrl: '/series_pictures/71gZdsOJYKL._AC_UF894,1000_QL80_.jpg',
     releaseDate: '',
     endDate: '',
-    genre: 'Anime',
+    genre: ['Anime'],
     seasonsData: [
       {
         seasonNumber: 1,
@@ -5036,7 +5036,7 @@ export const baseSeriesAnimees: BaseSerie[] = [
     coverUrl: '/series_pictures/Jeanne-et-Serge-coffret-collector.webp',
     releaseDate: '',
     endDate: '',
-    genre: 'Anime',
+    genre: ['Anime'],
     seasonsData: [
       {
         seasonNumber: 1,
@@ -5059,7 +5059,7 @@ export const baseSeriesAnimees: BaseSerie[] = [
     coverUrl: '/series_pictures/Toradora-anime.webp',
     releaseDate: '',
     endDate: '',
-    genre: 'Anime',
+    genre: ['Anime'],
     seasonsData: [
       {
         seasonNumber: 1,
@@ -5083,7 +5083,7 @@ export const baseSeriesAnimees: BaseSerie[] = [
       '/series_pictures/MV5BYzg1MTU3MWMtYjJlNi00YzQ2LTg3YTUtMTM1NzY4Y2Y5MDdiXkEyXkFqcGc@._V1_.jpg',
     releaseDate: '',
     endDate: '',
-    genre: 'Anime',
+    genre: ['Anime'],
     seasonsData: [
       {
         seasonNumber: 1,
@@ -5106,7 +5106,7 @@ export const baseSeriesAnimees: BaseSerie[] = [
     coverUrl: '/series_pictures/81DR9Bo8qqL._AC_UF894,1000_QL80_.jpg',
     releaseDate: '',
     endDate: '',
-    genre: 'Anime',
+    genre: ['Anime'],
     seasonsData: [
       {
         seasonNumber: 1,
@@ -5129,7 +5129,7 @@ export const baseSeriesAnimees: BaseSerie[] = [
     coverUrl: '/series_pictures/5135695.webp',
     releaseDate: '',
     endDate: '',
-    genre: 'Anime',
+    genre: ['Anime'],
     seasonsData: [
       {
         seasonNumber: 1,
@@ -5152,7 +5152,7 @@ export const baseSeriesAnimees: BaseSerie[] = [
     coverUrl: '/series_pictures/zfzfzfz.webp',
     releaseDate: '',
     endDate: '',
-    genre: 'Anime',
+    genre: ['Anime'],
     seasonsData: [
       {
         seasonNumber: 1,
@@ -5175,7 +5175,7 @@ export const baseSeriesAnimees: BaseSerie[] = [
     coverUrl: '/series_pictures/1279298.webp',
     releaseDate: '',
     endDate: '',
-    genre: 'Anime',
+    genre: ['Anime'],
     seasonsData: [
       {
         seasonNumber: 1,
@@ -5198,7 +5198,7 @@ export const baseSeriesAnimees: BaseSerie[] = [
     coverUrl: '/series_pictures/2538673.jpg',
     releaseDate: '',
     endDate: '',
-    genre: 'Anime',
+    genre: ['Anime'],
     seasonsData: [
       {
         seasonNumber: 1,
@@ -5222,7 +5222,7 @@ export const baseSeriesAnimees: BaseSerie[] = [
       '/series_pictures/MV5BMGYyNDc0NjAtMjJiOS00ODA4LWJmYWItNjgzNGE3NjRlNmRmXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg',
     releaseDate: '',
     endDate: '',
-    genre: 'Anime',
+    genre: ['Anime'],
     seasonsData: [
       {
         seasonNumber: 1,
@@ -5246,7 +5246,7 @@ export const baseSeriesAnimees: BaseSerie[] = [
       '/series_pictures/MV5BMmM0ODhlYTctYWFjMS00YjJlLWEyOTMtZDVlMzkwNTM3N2EzXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg',
     releaseDate: '',
     endDate: '',
-    genre: 'Anime',
+    genre: ['Anime'],
     seasonsData: [
       {
         seasonNumber: 1,
@@ -5269,7 +5269,7 @@ export const baseSeriesAnimees: BaseSerie[] = [
     coverUrl: '/series_pictures/anohana-anime.webp',
     releaseDate: '2011-01-01',
     endDate: '',
-    genre: 'Anime',
+    genre: ['Anime'],
     seasonsData: [
       {
         seasonNumber: 1,
@@ -5292,7 +5292,7 @@ export const baseSeriesAnimees: BaseSerie[] = [
     coverUrl: '/series_pictures/531f2ca500f38f3281643cce8e8f427b.jpg',
     releaseDate: '',
     endDate: '',
-    genre: 'Anime',
+    genre: ['Anime'],
     seasonsData: [
       {
         seasonNumber: 1,
@@ -5315,7 +5315,7 @@ export const baseSeriesAnimees: BaseSerie[] = [
     coverUrl: '/series_pictures/81wK+66xwLL._AC_UF894,1000_QL80_.jpg',
     releaseDate: '2014-01-01',
     endDate: '',
-    genre: 'Anime',
+    genre: ['Anime'],
     seasonsData: [
       {
         seasonNumber: 1,

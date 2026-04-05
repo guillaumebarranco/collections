@@ -16,7 +16,7 @@ export const baseSeriesFromMarina: BaseSerie[] = [
       '/series_pictures/ec2c89e944ed.jpeg',
     releaseDate: '2005-10-28',
     endDate: '2007-02-02',
-    genre: 'Horreur',
+    genre: ['Horreur'],
     seasonsData: [
       { seasonNumber: 1, nbEpisodes: 13, totalLength: 780 },
       { seasonNumber: 2, nbEpisodes: 13, totalLength: 780 },
@@ -34,7 +34,7 @@ export const baseSeriesFromMarina: BaseSerie[] = [
       '/series_pictures/def2cec141d1.jpg',
     releaseDate: '2008-06-05',
     endDate: '2008-07-31',
-    genre: 'Horreur',
+    genre: ['Horreur'],
     seasonsData: [{ seasonNumber: 1, nbEpisodes: 13, totalLength: 572 }],
     description: 'Anthologie horreur-suspense sur NBC.',
     saga: '',
@@ -54,7 +54,7 @@ export const baseSeriesFromMarina: BaseSerie[] = [
       '/series_pictures/f027bb2dfda0.jpg',
     releaseDate: '2007-09-19',
     endDate: '2012-12-17',
-    genre: 'Drame',
+    genre: ['Drame'],
     seasonsData: [
       { seasonNumber: 1, nbEpisodes: 18, totalLength: 756 },
       { seasonNumber: 2, nbEpisodes: 25, totalLength: 1050 },
@@ -81,7 +81,7 @@ export const baseSeriesFromMarina: BaseSerie[] = [
       '/series_pictures/d1c61031a650.jpg',
     releaseDate: '2017-02-03',
     endDate: '2019-03-29',
-    genre: 'Comédie, Horreur',
+    genre: ['Comédie', 'Horreur'],
     seasonsData: [
       { seasonNumber: 1, nbEpisodes: 10, totalLength: 300 },
       { seasonNumber: 2, nbEpisodes: 10, totalLength: 300 },
@@ -100,7 +100,7 @@ export const baseSeriesFromMarina: BaseSerie[] = [
       '/series_pictures/3e7b4f85ca04.jpg',
     releaseDate: '',
     endDate: '',
-    genre: 'Drame',
+    genre: ['Drame'],
     seasonsData: [{ seasonNumber: 1, nbEpisodes: 1, totalLength: 0 }],
     description: '',
     saga: '',
@@ -120,7 +120,7 @@ export const baseSeriesFromMarina: BaseSerie[] = [
       '/series_pictures/3c79fdc660b5.jpg',
     releaseDate: '2017-09-25',
     endDate: '2024-05-21',
-    genre: 'Drame médical',
+    genre: ['Drame médical'],
     seasonsData: [
       { seasonNumber: 1, nbEpisodes: 18, totalLength: 756 },
       { seasonNumber: 2, nbEpisodes: 18, totalLength: 756 },
@@ -143,7 +143,7 @@ export const baseSeriesFromMarina: BaseSerie[] = [
       '/series_pictures/68e91f5b85b9.jpg',
     releaseDate: '',
     endDate: '',
-    genre: '',
+    genre: [],
     seasonsData: [{ seasonNumber: 1, nbEpisodes: 1, totalLength: 0 }],
     description: '',
     saga: '',
@@ -163,7 +163,7 @@ export const baseSeriesFromMarina: BaseSerie[] = [
       '/series_pictures/c1811beec52a.jpg',
     releaseDate: '2023-10-12',
     endDate: '2023-10-12',
-    genre: 'Horreur',
+    genre: ['Horreur'],
     seasonsData: [{ seasonNumber: 1, nbEpisodes: 8, totalLength: 456 }],
     description:
       "Minisérie inspirée d'Edgar Allan Poe : la chute de la dynastie Usher et de Fortunato Pharmaceuticals.",
@@ -184,7 +184,7 @@ export const baseSeriesFromMarina: BaseSerie[] = [
       '/series_pictures/3146c59dbe6f.jpg',
     releaseDate: '2010-06-08',
     endDate: '2017-06-27',
-    genre: 'Drame, Thriller',
+    genre: ['Drame', 'Thriller'],
     seasonsData: [
       { seasonNumber: 1, nbEpisodes: 22, totalLength: 924 },
       { seasonNumber: 2, nbEpisodes: 25, totalLength: 1050 },
@@ -213,7 +213,7 @@ export const baseSeriesFromMarina: BaseSerie[] = [
       '/series_pictures/3dd749475800.jpg',
     releaseDate: '2013-07-11',
     endDate: '2019-07-26',
-    genre: 'Drame, Comédie',
+    genre: ['Drame', 'Comédie'],
     seasonsData: [
       { seasonNumber: 1, nbEpisodes: 13, totalLength: 585 },
       { seasonNumber: 2, nbEpisodes: 13, totalLength: 585 },
@@ -243,7 +243,7 @@ export const baseSeriesFromMarina: BaseSerie[] = [
       '/series_pictures/63e1d0670f05.jpg',
     releaseDate: '2016-09-19',
     endDate: '2020-01-30',
-    genre: 'Comédie, Fantastique',
+    genre: ['Comédie', 'Fantastique'],
     seasonsData: [
       { seasonNumber: 1, nbEpisodes: 13, totalLength: 286 },
       { seasonNumber: 2, nbEpisodes: 12, totalLength: 264 },
@@ -266,7 +266,7 @@ export const baseSeriesFromMarina: BaseSerie[] = [
       '/series_pictures/ef4cb2c479c5.jpg',
     releaseDate: '2019-05-03',
     endDate: '2022-11-17',
-    genre: 'Drame, Comédie noire',
+    genre: ['Drame', 'Comédie noire'],
     seasonsData: [
       { seasonNumber: 1, nbEpisodes: 10, totalLength: 300 },
       { seasonNumber: 2, nbEpisodes: 10, totalLength: 300 },
@@ -290,7 +290,7 @@ export const baseSeriesFromMarina: BaseSerie[] = [
       '/series_pictures/afd778e48865.jpg',
     releaseDate: '2018-08-10',
     endDate: '2019-10-11',
-    genre: 'Comédie, Drame',
+    genre: ['Comédie', 'Drame'],
     seasonsData: [
       { seasonNumber: 1, nbEpisodes: 12, totalLength: 528 },
       { seasonNumber: 2, nbEpisodes: 10, totalLength: 440 },
@@ -315,7 +315,7 @@ export const baseSeriesFromMarina: BaseSerie[] = [
       '/series_pictures/aede6042b033.jpg',
     releaseDate: '2018-10-12',
     endDate: '2018-10-12',
-    genre: 'Horreur',
+    genre: ['Horreur'],
     seasonsData: [{ seasonNumber: 1, nbEpisodes: 10, totalLength: 600 }],
     description:
       'Minisérie : la famille Crain confrontée aux fantômes de Hill House.',
@@ -336,7 +336,7 @@ export const baseSeriesFromMarina: BaseSerie[] = [
       '/series_pictures/9a2aa6c56b98.jpg',
     releaseDate: '2020-10-09',
     endDate: '2020-10-09',
-    genre: 'Horreur',
+    genre: ['Horreur'],
     seasonsData: [{ seasonNumber: 1, nbEpisodes: 9, totalLength: 540 }],
     description: "Adaptation du Tour d'écrou : une gouvernante à Bly Manor.",
     saga: '',
@@ -355,7 +355,7 @@ export const baseSeriesFromMarina: BaseSerie[] = [
       '/series_pictures/bbaf60960d36.jpg',
     releaseDate: '2020-12-18',
     endDate: '',
-    genre: 'Horreur, Thriller',
+    genre: ['Horreur', 'Thriller'],
     seasonsData: [
       { seasonNumber: 1, nbEpisodes: 10, totalLength: 480 },
       { seasonNumber: 2, nbEpisodes: 8, totalLength: 384 },
@@ -373,7 +373,7 @@ export const baseSeriesFromMarina: BaseSerie[] = [
       '/series_pictures/973a97744402.jpg',
     releaseDate: '2018-08-03',
     endDate: '',
-    genre: 'Documentaire',
+    genre: ['Documentaire'],
     seasonsData: [
       { seasonNumber: 1, nbEpisodes: 10, totalLength: 500 },
       { seasonNumber: 2, nbEpisodes: 10, totalLength: 500 },
@@ -391,7 +391,7 @@ export const baseSeriesFromMarina: BaseSerie[] = [
       '/series_pictures/b62c3d77f092.jpg',
     releaseDate: '2019-01-01',
     endDate: '',
-    genre: 'Horreur',
+    genre: ['Horreur'],
     seasonsData: [{ seasonNumber: 1, nbEpisodes: 1, totalLength: 0 }],
     description: 'Anthologie horreur inspirée des comics E.C.',
     saga: '',
@@ -410,7 +410,7 @@ export const baseSeriesFromMarina: BaseSerie[] = [
       '/series_pictures/3d5dcf071eb2.jpg',
     releaseDate: '2019-02-01',
     endDate: '2022-04-20',
-    genre: 'Comédie, Drame',
+    genre: ['Comédie', 'Drame'],
     seasonsData: [
       { seasonNumber: 1, nbEpisodes: 8, totalLength: 240 },
       { seasonNumber: 2, nbEpisodes: 7, totalLength: 210 },
@@ -428,7 +428,7 @@ export const baseSeriesFromMarina: BaseSerie[] = [
       '/series_pictures/05a407875113.webp',
     releaseDate: '2024-11-28',
     endDate: '',
-    genre: 'Drame, Fantastique',
+    genre: ['Drame', 'Fantastique'],
     seasonsData: [{ seasonNumber: 1, nbEpisodes: 8, totalLength: 384 }],
     description: 'Série sur le folklore du renne du Père Noël (Netflix).',
     saga: '',
@@ -442,7 +442,7 @@ export const baseSeriesFromMarina: BaseSerie[] = [
       '/series_pictures/92081b90c7fd.jpg',
     releaseDate: '2016-03-04',
     endDate: '',
-    genre: 'Horreur',
+    genre: ['Horreur'],
     seasonsData: [
       { seasonNumber: 1, nbEpisodes: 8, totalLength: 360 },
       { seasonNumber: 2, nbEpisodes: 8, totalLength: 360 },
@@ -468,7 +468,7 @@ export const baseSeriesFromMarina: BaseSerie[] = [
     coverUrl: '/series_pictures/0ccaf3102967.jpg',
     releaseDate: '2015-09-22',
     endDate: '2016-12-20',
-    genre: 'Comédie, Horreur',
+    genre: ['Comédie', 'Horreur'],
     seasonsData: [
       { seasonNumber: 1, nbEpisodes: 13, totalLength: 572 },
       { seasonNumber: 2, nbEpisodes: 10, totalLength: 440 },
@@ -492,7 +492,7 @@ export const baseSeriesFromMarina: BaseSerie[] = [
       '/series_pictures/2bcc7fac32b2.jpg',
     releaseDate: '2006-03-24',
     endDate: '2011-01-16',
-    genre: 'Comédie, Famille',
+    genre: ['Comédie', 'Famille'],
     seasonsData: [
       { seasonNumber: 1, nbEpisodes: 26, totalLength: 572 },
       { seasonNumber: 2, nbEpisodes: 30, totalLength: 660 },
@@ -517,7 +517,7 @@ export const baseSeriesFromMarina: BaseSerie[] = [
       '/series_pictures/21458539646a.jpg',
     releaseDate: '2003-01-17',
     endDate: '2007-11-10',
-    genre: 'Comédie, Famille',
+    genre: ['Comédie', 'Famille'],
     seasonsData: [
       { seasonNumber: 1, nbEpisodes: 21, totalLength: 462 },
       { seasonNumber: 2, nbEpisodes: 22, totalLength: 484 },
@@ -542,7 +542,7 @@ export const baseSeriesFromMarina: BaseSerie[] = [
       '/series_pictures/cb071f8fa21e.jpg',
     releaseDate: '2007-10-12',
     endDate: '2012-01-06',
-    genre: 'Comédie, Fantastique',
+    genre: ['Comédie', 'Fantastique'],
     seasonsData: [
       { seasonNumber: 1, nbEpisodes: 21, totalLength: 462 },
       { seasonNumber: 2, nbEpisodes: 30, totalLength: 660 },
@@ -568,7 +568,7 @@ export const baseSeriesFromMarina: BaseSerie[] = [
       '/series_pictures/39ea59c896c4.jpg',
     releaseDate: '2005-03-18',
     endDate: '2008-09-01',
-    genre: 'Comédie, Famille',
+    genre: ['Comédie', 'Famille'],
     seasonsData: [
       { seasonNumber: 1, nbEpisodes: 26, totalLength: 572 },
       { seasonNumber: 2, nbEpisodes: 39, totalLength: 858 },
@@ -593,7 +593,7 @@ export const baseSeriesFromMarina: BaseSerie[] = [
       '/series_pictures/319e26ca4576.jpg',
     releaseDate: '2008-09-26',
     endDate: '2011-05-06',
-    genre: 'Comédie, Famille',
+    genre: ['Comédie', 'Famille'],
     seasonsData: [
       { seasonNumber: 1, nbEpisodes: 21, totalLength: 462 },
       { seasonNumber: 2, nbEpisodes: 24, totalLength: 528 },
@@ -616,7 +616,7 @@ export const baseSeriesFromMarina: BaseSerie[] = [
       '/series_pictures/56d64e9aeafa.jpg',
     releaseDate: '2007-08-17',
     endDate: '2015-06-12',
-    genre: 'Animation, Comédie',
+    genre: ['Animation', 'Comédie'],
     seasonsData: [
       { seasonNumber: 1, nbEpisodes: 26, totalLength: 572 },
       { seasonNumber: 2, nbEpisodes: 39, totalLength: 858 },
@@ -642,7 +642,7 @@ export const baseSeriesFromMarina: BaseSerie[] = [
       '/series_pictures/68a4e9851908.jpg',
     releaseDate: '2011-09-30',
     endDate: '2015-10-16',
-    genre: 'Comédie, Famille',
+    genre: ['Comédie', 'Famille'],
     seasonsData: [
       { seasonNumber: 1, nbEpisodes: 26, totalLength: 572 },
       { seasonNumber: 2, nbEpisodes: 28, totalLength: 616 },
@@ -667,7 +667,7 @@ export const baseSeriesFromMarina: BaseSerie[] = [
       '/series_pictures/17308fdd452f.jpg',
     releaseDate: '2000-06-17',
     endDate: '2003-06-02',
-    genre: 'Comédie, Famille',
+    genre: ['Comédie', 'Famille'],
     seasonsData: [
       { seasonNumber: 1, nbEpisodes: 21, totalLength: 462 },
       { seasonNumber: 2, nbEpisodes: 22, totalLength: 484 },
@@ -691,7 +691,7 @@ export const baseSeriesFromMarina: BaseSerie[] = [
       '/series_pictures/3a0eef530765.jpg',
     releaseDate: '2001-01-12',
     endDate: '2004-02-14',
-    genre: 'Comédie, Famille',
+    genre: ['Comédie', 'Famille'],
     seasonsData: [
       { seasonNumber: 1, nbEpisodes: 31, totalLength: 682 },
       { seasonNumber: 2, nbEpisodes: 34, totalLength: 748 },
@@ -714,7 +714,7 @@ export const baseSeriesFromMarina: BaseSerie[] = [
       '/series_pictures/0dd96c6db670.jpg',
     releaseDate: '2010-11-07',
     endDate: '2013-11-10',
-    genre: 'Comédie, Musique',
+    genre: ['Comédie', 'Musique'],
     seasonsData: [
       { seasonNumber: 1, nbEpisodes: 21, totalLength: 462 },
       { seasonNumber: 2, nbEpisodes: 28, totalLength: 616 },
@@ -738,7 +738,7 @@ export const baseSeriesFromMarina: BaseSerie[] = [
       '/series_pictures/8944c3a677e5.jpg',
     releaseDate: '2011-12-02',
     endDate: '2016-01-10',
-    genre: 'Comédie, Musique',
+    genre: ['Comédie', 'Musique'],
     seasonsData: [
       { seasonNumber: 1, nbEpisodes: 26, totalLength: 572 },
       { seasonNumber: 2, nbEpisodes: 28, totalLength: 616 },
@@ -763,7 +763,7 @@ export const baseSeriesFromMarina: BaseSerie[] = [
       '/series_pictures/605ad7fcaa2a.jpg',
     releaseDate: '2004-06-18',
     endDate: '2006-08-19',
-    genre: 'Comédie, Science-fiction',
+    genre: ['Comédie', 'Science-fiction'],
     seasonsData: [
       { seasonNumber: 1, nbEpisodes: 21, totalLength: 462 },
       { seasonNumber: 2, nbEpisodes: 21, totalLength: 462 },
@@ -786,7 +786,7 @@ export const baseSeriesFromMarina: BaseSerie[] = [
       '/series_pictures/f8778410d178.jpg',
     releaseDate: '2007-01-12',
     endDate: '2008-09-12',
-    genre: 'Comédie, Famille',
+    genre: ['Comédie', 'Famille'],
     seasonsData: [
       { seasonNumber: 1, nbEpisodes: 21, totalLength: 462 },
       { seasonNumber: 2, nbEpisodes: 21, totalLength: 462 },
@@ -810,7 +810,7 @@ export const baseSeriesFromMarina: BaseSerie[] = [
       '/series_pictures/50d658d50b5e.jpg',
     releaseDate: '2009-02-08',
     endDate: '2011-01-02',
-    genre: 'Comédie, Famille',
+    genre: ['Comédie', 'Famille'],
     seasonsData: [
       { seasonNumber: 1, nbEpisodes: 21, totalLength: 462 },
       { seasonNumber: 2, nbEpisodes: 26, totalLength: 572 },
@@ -833,7 +833,7 @@ export const baseSeriesFromMarina: BaseSerie[] = [
       '/series_pictures/d4471eb02fc7.jpg',
     releaseDate: '2009-05-02',
     endDate: '2010-10-03',
-    genre: 'Comédie, Musique',
+    genre: ['Comédie', 'Musique'],
     seasonsData: [
       { seasonNumber: 1, nbEpisodes: 21, totalLength: 462 },
       { seasonNumber: 2, nbEpisodes: 13, totalLength: 286 },
@@ -856,7 +856,7 @@ export const baseSeriesFromMarina: BaseSerie[] = [
       '/series_pictures/e1439b673ed6.jpg',
     releaseDate: '2010-04-04',
     endDate: '2014-02-16',
-    genre: 'Comédie, Famille',
+    genre: ['Comédie', 'Famille'],
     seasonsData: [
       { seasonNumber: 1, nbEpisodes: 26, totalLength: 572 },
       { seasonNumber: 2, nbEpisodes: 30, totalLength: 660 },
@@ -876,7 +876,7 @@ export const baseSeriesFromMarina: BaseSerie[] = [
       '/series_pictures/f99a95434f17.jpg',
     releaseDate: '',
     endDate: '',
-    genre: 'Comédie, Famille',
+    genre: ['Comédie', 'Famille'],
     seasonsData: [{ seasonNumber: 1, nbEpisodes: 1, totalLength: 0 }],
     description: '',
     saga: '',
@@ -895,7 +895,7 @@ export const baseSeriesFromMarina: BaseSerie[] = [
       '/series_pictures/e91918fc9fcf.jpg',
     releaseDate: '2012-05-14',
     endDate: '2015-02-06',
-    genre: 'Comédie musicale, Drame',
+    genre: ['Comédie musicale', 'Drame'],
     seasonsData: [
       { seasonNumber: 1, nbEpisodes: 80, totalLength: 2400 },
       { seasonNumber: 2, nbEpisodes: 80, totalLength: 2400 },
@@ -914,7 +914,7 @@ export const baseSeriesFromMarina: BaseSerie[] = [
       '/series_pictures/dc3e0498dea7.jpg',
     releaseDate: '1992-09-11',
     endDate: '1994-11-26',
-    genre: 'Animation',
+    genre: ['Animation'],
     seasonsData: [
       { seasonNumber: 1, nbEpisodes: 13, totalLength: 286 },
       { seasonNumber: 2, nbEpisodes: 13, totalLength: 286 },
@@ -932,7 +932,7 @@ export const baseSeriesFromMarina: BaseSerie[] = [
       '/series_pictures/b5a0a1e3eacf.jpg',
     releaseDate: '1989-03-04',
     endDate: '1990-11-19',
-    genre: 'Animation',
+    genre: ['Animation'],
     seasonsData: [
       { seasonNumber: 1, nbEpisodes: 13, totalLength: 286 },
       { seasonNumber: 2, nbEpisodes: 52, totalLength: 1144 },
@@ -950,7 +950,7 @@ export const baseSeriesFromMarina: BaseSerie[] = [
     coverUrl: '/series_pictures/12d36030cc85.jpg',
     releaseDate: '1994-09-05',
     endDate: '1995-11-25',
-    genre: 'Animation',
+    genre: ['Animation'],
     seasonsData: [
       { seasonNumber: 1, nbEpisodes: 13, totalLength: 286 },
       { seasonNumber: 2, nbEpisodes: 13, totalLength: 286 },
@@ -968,7 +968,7 @@ export const baseSeriesFromMarina: BaseSerie[] = [
       '/series_pictures/6c61deb6104e.jpg',
     releaseDate: '1995-09-16',
     endDate: '1999-09-24',
-    genre: 'Animation',
+    genre: ['Animation'],
     seasonsData: [
       { seasonNumber: 1, nbEpisodes: 13, totalLength: 286 },
       { seasonNumber: 2, nbEpisodes: 13, totalLength: 286 },
@@ -987,7 +987,7 @@ export const baseSeriesFromMarina: BaseSerie[] = [
       '/series_pictures/50b30de2ec29.jpg',
     releaseDate: '1997-08-31',
     endDate: '2001-11-22',
-    genre: 'Animation',
+    genre: ['Animation'],
     seasonsData: [
       { seasonNumber: 1, nbEpisodes: 13, totalLength: 286 },
       { seasonNumber: 2, nbEpisodes: 13, totalLength: 286 },
@@ -1008,7 +1008,7 @@ export const baseSeriesFromMarina: BaseSerie[] = [
       '/series_pictures/fa786df7d521.jpg',
     releaseDate: '1998-08-31',
     endDate: '1999-03-01',
-    genre: 'Animation',
+    genre: ['Animation'],
     seasonsData: [
       { seasonNumber: 1, nbEpisodes: 13, totalLength: 286 },
       { seasonNumber: 2, nbEpisodes: 13, totalLength: 286 },
@@ -1026,7 +1026,7 @@ export const baseSeriesFromMarina: BaseSerie[] = [
       '/series_pictures/4ca85a6feec1.jpg',
     releaseDate: '2000-10-14',
     endDate: '2001-01-13',
-    genre: 'Animation',
+    genre: ['Animation'],
     seasonsData: [{ seasonNumber: 1, nbEpisodes: 65, totalLength: 1430 }],
     description: "Buzz Lightyear et l'équipe Star Command (Disney).",
     saga: 'Toy Story',
@@ -1040,7 +1040,7 @@ export const baseSeriesFromMarina: BaseSerie[] = [
       '/series_pictures/359e187a2f81.jpg',
     releaseDate: '2001-07-03',
     endDate: '2003-02-03',
-    genre: 'Animation',
+    genre: ['Animation'],
     seasonsData: [
       { seasonNumber: 1, nbEpisodes: 13, totalLength: 286 },
       { seasonNumber: 2, nbEpisodes: 13, totalLength: 286 },
@@ -1057,7 +1057,7 @@ export const baseSeriesFromMarina: BaseSerie[] = [
       '/series_pictures/d072fa140e03.jpg',
     releaseDate: '2002-06-07',
     endDate: '2007-09-07',
-    genre: 'Animation, Action',
+    genre: ['Animation', 'Action'],
     seasonsData: [
       { seasonNumber: 1, nbEpisodes: 21, totalLength: 462 },
       { seasonNumber: 2, nbEpisodes: 30, totalLength: 660 },
@@ -1076,7 +1076,7 @@ export const baseSeriesFromMarina: BaseSerie[] = [
     coverUrl: '/series_pictures/2db07988cfcc.jpg',
     releaseDate: '2003-09-20',
     endDate: '2006-07-29',
-    genre: 'Animation',
+    genre: ['Animation'],
     seasonsData: [
       { seasonNumber: 1, nbEpisodes: 20, totalLength: 440 },
       { seasonNumber: 2, nbEpisodes: 39, totalLength: 858 },
@@ -1095,7 +1095,7 @@ export const baseSeriesFromMarina: BaseSerie[] = [
       '/series_pictures/e46b6bb23194.jpg',
     releaseDate: '2005-01-21',
     endDate: '2007-09-01',
-    genre: 'Animation, Fantastique',
+    genre: ['Animation', 'Fantastique'],
     seasonsData: [
       { seasonNumber: 1, nbEpisodes: 21, totalLength: 462 },
       { seasonNumber: 2, nbEpisodes: 31, totalLength: 682 },
@@ -1113,7 +1113,7 @@ export const baseSeriesFromMarina: BaseSerie[] = [
       '/series_pictures/0f2d0ef18fbf.jpg',
     releaseDate: '2004-12-12',
     endDate: '2006-12-24',
-    genre: 'Animation, Fantastique',
+    genre: ['Animation', 'Fantastique'],
     seasonsData: [
       { seasonNumber: 1, nbEpisodes: 26, totalLength: 572 },
       { seasonNumber: 2, nbEpisodes: 26, totalLength: 572 },
@@ -1131,7 +1131,7 @@ export const baseSeriesFromMarina: BaseSerie[] = [
       '/series_pictures/b495e79e2e4f.jpg',
     releaseDate: '2006-01-27',
     endDate: '2008-11-20',
-    genre: 'Animation, Comédie',
+    genre: ['Animation', 'Comédie'],
     seasonsData: [
       { seasonNumber: 1, nbEpisodes: 21, totalLength: 462 },
       { seasonNumber: 2, nbEpisodes: 21, totalLength: 462 },

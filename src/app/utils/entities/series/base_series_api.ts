@@ -15,7 +15,7 @@ export const baseSeriesApi: BaseSerie[] = [
     coverUrl: '/series_pictures/his-hers.jpg',
     releaseDate: '2026-01-08',
     endDate: '2026-01-08',
-    genre: 'Thriller',
+    genre: ['Thriller'],
     seasonsData: [
       {
         seasonNumber: 1,
@@ -44,7 +44,7 @@ export const baseSeriesApi: BaseSerie[] = [
     coverUrl: '/series_pictures/fallout.jpg',
     releaseDate: '2024-04-10',
     endDate: '',
-    genre: 'Post-apocalyptique',
+    genre: ['Post-apocalyptique'],
     seasonsData: [
       {
         seasonNumber: 1,
@@ -78,7 +78,7 @@ export const baseSeriesApi: BaseSerie[] = [
     coverUrl: '/series_pictures/dexter-new-blood.jpg',
     releaseDate: '2021-11-07',
     endDate: '2022-01-09',
-    genre: '',
+    genre: [''],
     seasonsData: [
       {
         seasonNumber: 1,
@@ -110,7 +110,7 @@ export const baseSeriesApi: BaseSerie[] = [
     coverUrl: '/series_pictures/dexter-resurrection.jpg',
     releaseDate: '2025-07-11',
     endDate: '2025-09-05',
-    genre: 'Thriller',
+    genre: ['Thriller'],
     seasonsData: [
       {
         seasonNumber: 1,
@@ -141,7 +141,7 @@ export const baseSeriesApi: BaseSerie[] = [
     coverUrl: '/series_pictures/wonder-man.jpg',
     releaseDate: '2026-01-28',
     endDate: '',
-    genre: 'Super-héro',
+    genre: ['Super-héro'],
     seasonsData: [
       {
         seasonNumber: 1,
@@ -170,7 +170,7 @@ export const baseSeriesApi: BaseSerie[] = [
     coverUrl: '/series_pictures/dune-prophecy.jpg',
     releaseDate: '2024-11-17',
     endDate: '2024-12-23',
-    genre: 'Science Fiction',
+    genre: ['Science Fiction'],
     seasonsData: [
       {
         seasonNumber: 1,
@@ -200,7 +200,7 @@ export const baseSeriesApi: BaseSerie[] = [
     coverUrl: '/series_pictures/aa879c773348.jpg',
     releaseDate: '2026-01-18',
     endDate: '',
-    genre: 'Fantasy',
+    genre: ['Fantasy'],
     seasonsData: [
       {
         seasonNumber: 1,
@@ -233,7 +233,7 @@ export const baseSeriesApi: BaseSerie[] = [
     coverUrl: '/series_pictures/2348ce2f74ce.jpg',
     releaseDate: '2011-08-29',
     endDate: '2012-07-12',
-    genre: 'Comédie',
+    genre: ['Comédie'],
     seasonsData: [
       {
         seasonNumber: 1,
@@ -269,7 +269,7 @@ export const baseSeriesApi: BaseSerie[] = [
     coverUrl: '/series_pictures/7039f237b2fb.png',
     releaseDate: '2025-02-14',
     endDate: '2025-02-14',
-    genre: 'Comédie',
+    genre: ['Comédie'],
     seasonsData: [
       {
         seasonNumber: 1,
@@ -299,7 +299,7 @@ export const baseSeriesApi: BaseSerie[] = [
     coverUrl: '/series_pictures/94ee62679472.jpg',
     releaseDate: '2016-10-07',
     endDate: '2017-06-28',
-    genre: 'Comédie',
+    genre: ['Comédie'],
     seasonsData: [
       {
         seasonNumber: 1,
@@ -329,7 +329,7 @@ export const baseSeriesApi: BaseSerie[] = [
     coverUrl: '/series_pictures/4a4a05942f4e.jpg',
     releaseDate: '2020-04-07',
     endDate: '',
-    genre: 'Science Fiction',
+    genre: ['Science Fiction'],
     seasonsData: [
       {
         seasonNumber: 1,
@@ -366,7 +366,7 @@ export const baseSeriesApi: BaseSerie[] = [
     coverUrl: '/series_pictures/0e96afd1c0c5.jpg',
     releaseDate: '2021-12-29',
     endDate: '2022-02-09',
-    genre: 'Science Fiction',
+    genre: ['Science Fiction'],
     seasonsData: [
       {
         seasonNumber: 1,
@@ -405,7 +405,7 @@ export const baseSeriesApi: BaseSerie[] = [
     coverUrl: '/series_pictures/fd6245f48daf.jpg',
     releaseDate: '2022-09-21',
     endDate: '2025-05-14',
-    genre: 'Science Fiction',
+    genre: ['Science Fiction'],
     seasonsData: [
       {
         seasonNumber: 1,
@@ -446,7 +446,7 @@ export const baseSeriesApi: BaseSerie[] = [
     coverUrl: '/series_pictures/08789709d713.jpg',
     releaseDate: '2024-06-05',
     endDate: '2024-07-17',
-    genre: 'Science Fiction',
+    genre: ['Science Fiction'],
     seasonsData: [
       {
         seasonNumber: 1,
@@ -479,7 +479,7 @@ export const baseSeriesApi: BaseSerie[] = [
     coverUrl: '/series_pictures/6ea7944ddfac.jpg',
     releaseDate: '2024-12-03',
     endDate: '2025-01-15',
-    genre: 'Science Fiction',
+    genre: ['Science Fiction'],
     seasonsData: [
       {
         seasonNumber: 1,
@@ -509,7 +509,7 @@ export const baseSeriesApi: BaseSerie[] = [
     coverUrl: '/series_pictures/4204abe8e2c3.jpg',
     releaseDate: '2022-08-22',
     endDate: '',
-    genre: 'Fantasy',
+    genre: ['Fantasy'],
     seasonsData: [
       {
         seasonNumber: 1,
@@ -552,7 +552,7 @@ export const baseSeriesApi: BaseSerie[] = [
     coverUrl: '/series_pictures/c018872a5ca6.jpg',
     releaseDate: '2015-10-26',
     endDate: '2021-11-09',
-    genre: 'Super-héro',
+    genre: ['Super-héro'],
     seasonsData: [
       {
         seasonNumber: 1,
@@ -610,7 +610,7 @@ export const baseSeriesApi: BaseSerie[] = [
     coverUrl: '/series_pictures/3363a5d92a66.jpg',
     releaseDate: '2016-09-17',
     endDate: '2022-03-02',
-    genre: 'Super-héro',
+    genre: ['Super-héro'],
     seasonsData: [
       {
         seasonNumber: 1,
@@ -679,7 +679,7 @@ export const baseSeriesApi: BaseSerie[] = [
     coverUrl: '/series_pictures/6751c3ccfbcf.jpg',
     releaseDate: '2018-01-23',
     endDate: '2021-05-24',
-    genre: 'Super-héro',
+    genre: ['Super-héro'],
     seasonsData: [
       {
         seasonNumber: 1,
@@ -727,7 +727,7 @@ export const baseSeriesApi: BaseSerie[] = [
     coverUrl: '/series_pictures/a4454dca92f6.jpg',
     releaseDate: '2020-11-05',
     endDate: '2022-03-02',
-    genre: 'Super-héro',
+    genre: ['Super-héro'],
     seasonsData: [
       {
         seasonNumber: 1,
@@ -767,7 +767,7 @@ export const baseSeriesApi: BaseSerie[] = [
     coverUrl: '/series_pictures/c4c90ce91341.jpg',
     releaseDate: '2015-08-25',
     endDate: '2016-11-18',
-    genre: 'Science Fiction',
+    genre: ['Science Fiction'],
     seasonsData: [
       {
         seasonNumber: 1,
@@ -802,7 +802,7 @@ export const baseSeriesApi: BaseSerie[] = [
     coverUrl: '/series_pictures/8b8a69990a65.jpg',
     releaseDate: '2017-12-08',
     endDate: '2018-07-18',
-    genre: 'Super-héro',
+    genre: ['Super-héro'],
     seasonsData: [
       {
         seasonNumber: 1,
@@ -843,7 +843,7 @@ export const baseSeriesApi: BaseSerie[] = [
     coverUrl: '/series_pictures/1b5747fc3f46.jpg',
     releaseDate: '2009-06-05',
     endDate: '2015-06-28',
-    genre: 'Anime',
+    genre: ['Anime'],
     seasonsData: [
       {
         seasonNumber: 1,
@@ -881,7 +881,7 @@ export const baseSeriesApi: BaseSerie[] = [
     coverUrl: '/series_pictures/2e1bec5c30eb.jpg',
     releaseDate: '2023-12-20',
     endDate: '',
-    genre: 'Fantasy',
+    genre: ['Fantasy'],
     seasonsData: [
       {
         seasonNumber: 1,
@@ -922,7 +922,7 @@ export const baseSeriesApi: BaseSerie[] = [
     coverUrl: '/series_pictures/64ff1ce4e54f.jpg',
     releaseDate: '2024-12-15',
     endDate: '2025-02-16',
-    genre: 'Thriller',
+    genre: ['Thriller'],
     seasonsData: [
       {
         seasonNumber: 1,
@@ -955,7 +955,7 @@ export const baseSeriesApi: BaseSerie[] = [
     coverUrl: '/series_pictures/f0c30ee33d1e.jpg',
     releaseDate: '2022-06-08',
     endDate: '2022-07-13',
-    genre: 'Super-héro',
+    genre: ['Super-héro'],
     seasonsData: [
       {
         seasonNumber: 1,
@@ -994,7 +994,7 @@ export const baseSeriesApi: BaseSerie[] = [
     coverUrl: '/series_pictures/sggdgf.jpg',
     releaseDate: '2025-01-28',
     endDate: '',
-    genre: 'Super-héro',
+    genre: ['Super-héro'],
     seasonsData: [
       {
         seasonNumber: 1,
@@ -1024,7 +1024,7 @@ export const baseSeriesApi: BaseSerie[] = [
     coverUrl: '/series_pictures/6210e65ef16b.jpg',
     releaseDate: '2021-08-11',
     endDate: '2024-12-28',
-    genre: 'Super-héro',
+    genre: ['Super-héro'],
     seasonsData: [
       {
         seasonNumber: 1,
@@ -1060,7 +1060,7 @@ export const baseSeriesApi: BaseSerie[] = [
     coverUrl: '/series_pictures/9a488008ad3f58fe87d17f9874c44fee.jpg',
     releaseDate: '2024-09-18',
     endDate: '2024-11-13',
-    genre: 'Super-héro, Comédie noire',
+    genre: ['Super-héro, Comédie noire'],
     seasonsData: [{ seasonNumber: 1, nbEpisodes: 9, totalLength: 405 }],
     description: '',
     countryOrigin: 'États-Unis',
@@ -1074,7 +1074,7 @@ export const baseSeriesApi: BaseSerie[] = [
     coverUrl: '/series_pictures/Wakanda-Marvel-1.jpg',
     releaseDate: '2026-01-01',
     endDate: '',
-    genre: 'Super-héro, Action',
+    genre: ['Super-héro, Action'],
     seasonsData: [{ seasonNumber: 1, nbEpisodes: 0, totalLength: 0 }],
     description:
       'Série live-action se déroulant au royaume de Wakanda, en développement.',
@@ -1094,7 +1094,7 @@ export const baseSeriesApi: BaseSerie[] = [
     coverUrl: '/series_pictures/76878CA2-F591-4025-AC3D-B37858B12B76.webp',
     releaseDate: '2022-03-30',
     endDate: '2022-05-04',
-    genre: 'Super-héro, Action, Fantastique',
+    genre: ['Super-héro, Action, Fantastique'],
     seasonsData: [{ seasonNumber: 1, nbEpisodes: 6, totalLength: 270 }],
     description: '',
     countryOrigin: 'États-Unis',
@@ -1108,7 +1108,7 @@ export const baseSeriesApi: BaseSerie[] = [
     coverUrl: '/series_pictures/F0664142-9116-4107-ABDD-E4DA70A72796.webp',
     releaseDate: '2022-08-10',
     endDate: '2023-09-06',
-    genre: 'Super-héro, Animation, Comédie',
+    genre: ['Super-héro, Animation, Comédie'],
     seasonsData: [
       { seasonNumber: 1, nbEpisodes: 5, totalLength: 22 },
       { seasonNumber: 2, nbEpisodes: 5, totalLength: 22 },
@@ -1131,7 +1131,7 @@ export const baseSeriesApi: BaseSerie[] = [
     coverUrl: '/series_pictures/5375583.jpg',
     releaseDate: '2022-08-18',
     endDate: '2022-10-13',
-    genre: 'Super-héro, Comédie',
+    genre: ['Super-héro, Comédie'],
     seasonsData: [{ seasonNumber: 1, nbEpisodes: 9, totalLength: 270 }],
     description: '',
     countryOrigin: 'États-Unis',
@@ -1152,7 +1152,7 @@ export const baseSeriesApi: BaseSerie[] = [
     coverUrl: '/series_pictures/2191412.jpg',
     releaseDate: '2023-06-21',
     endDate: '2023-07-26',
-    genre: 'Super-héro, Espionnage, Thriller',
+    genre: ['Super-héro, Espionnage, Thriller'],
     seasonsData: [{ seasonNumber: 1, nbEpisodes: 6, totalLength: 300 }],
     description: '',
     countryOrigin: 'États-Unis',
@@ -1173,7 +1173,7 @@ export const baseSeriesApi: BaseSerie[] = [
     coverUrl: '/series_pictures/4992840.jpg',
     releaseDate: '2024-01-09',
     endDate: '2024-01-09',
-    genre: 'Super-héro, Action, Drame',
+    genre: ['Super-héro, Action, Drame'],
     seasonsData: [{ seasonNumber: 1, nbEpisodes: 5, totalLength: 250 }],
     description: '',
     countryOrigin: 'États-Unis',
@@ -1192,7 +1192,7 @@ export const baseSeriesApi: BaseSerie[] = [
     coverUrl: '/series_pictures/245af9e9f4e7684f57cb5312d9f58045.jpg',
     releaseDate: '2025-06-24',
     endDate: '2025-07-01',
-    genre: 'Super-héro, Action, Science-fiction',
+    genre: ['Super-héro, Action, Science-fiction'],
     seasonsData: [{ seasonNumber: 1, nbEpisodes: 6, totalLength: 270 }],
     description: '',
     countryOrigin: 'États-Unis',
@@ -1211,7 +1211,7 @@ export const baseSeriesApi: BaseSerie[] = [
     coverUrl: '/series_pictures/404feaa27463cc5ec8b471f74e8c225b.jpg',
     releaseDate: '2025-08-01',
     endDate: '2025-08-01',
-    genre: 'Super-héro, Animation',
+    genre: ['Super-héro, Animation'],
     seasonsData: [{ seasonNumber: 1, nbEpisodes: 4, totalLength: 128 }],
     description:
       "Série animée suivant les guerriers Hatut Zaraze à travers l'histoire du Wakanda.",
@@ -1233,7 +1233,7 @@ export const baseSeriesApi: BaseSerie[] = [
     coverUrl: '/series_pictures/7257bbee93e9b6f529950d1017cdb723.webp',
     releaseDate: '2025-09-24',
     endDate: '2025-09-24',
-    genre: 'Super-héro, Animation, Horreur',
+    genre: ['Super-héro, Animation, Horreur'],
     seasonsData: [{ seasonNumber: 1, nbEpisodes: 4, totalLength: 128 }],
     description:
       'Les Avengers sont contaminés par une épidémie zombie ; des survivants tentent de sauver le monde.',
@@ -1248,7 +1248,7 @@ export const baseSeriesApi: BaseSerie[] = [
     coverUrl: '/series_pictures/doc_sw_visions_1.webp',
     releaseDate: '2021-09-22',
     endDate: '2025-10-29',
-    genre: 'Science-fiction, Animation, Anthologie',
+    genre: ['Science-fiction, Animation, Anthologie'],
     seasonsData: [
       { seasonNumber: 1, nbEpisodes: 9, totalLength: 162 },
       { seasonNumber: 2, nbEpisodes: 9, totalLength: 162 },
@@ -1267,7 +1267,7 @@ export const baseSeriesApi: BaseSerie[] = [
     coverUrl: '/series_pictures/3274407.webp',
     releaseDate: '2019-03-15',
     endDate: '2025-05-15',
-    genre: 'Animation, Science-fiction, Anthologie',
+    genre: ['Animation, Science-fiction, Anthologie'],
     seasonsData: [
       { seasonNumber: 1, nbEpisodes: 18, totalLength: 270 },
       { seasonNumber: 2, nbEpisodes: 8, totalLength: 120 },
@@ -1281,32 +1281,32 @@ export const baseSeriesApi: BaseSerie[] = [
   },
 
   {
-    title: "Furies",
-    director: "Jean-Yves Arnaud",
+    title: 'Furies',
+    director: 'Jean-Yves Arnaud',
     actors: [
       {
-        name: "Marina Foïs",
+        name: 'Marina Foïs',
       },
       {
-        name: "Lina El Arabi",
+        name: 'Lina El Arabi',
       },
       {
-        name: "Steve Tientcheu",
+        name: 'Steve Tientcheu',
       },
       {
-        name: "Jeremy Nadeau",
+        name: 'Jeremy Nadeau',
       },
       {
-        name: "Quentin Faure",
+        name: 'Quentin Faure',
       },
       {
-        name: "Sandor Funtek",
+        name: 'Sandor Funtek',
       },
     ],
-    coverUrl: "https://media.senscritique.com/media/000021948209/0/furies.jpg",
-    releaseDate: "2024-03-01",
-    endDate: "",
-    genre: "Action",
+    coverUrl: 'https://media.senscritique.com/media/000021948209/0/furies.jpg',
+    releaseDate: '2024-03-01',
+    endDate: '',
+    genre: ['Action'],
     seasonsData: [
       {
         seasonNumber: 1,
@@ -1319,8 +1319,8 @@ export const baseSeriesApi: BaseSerie[] = [
         totalLength: 273,
       },
     ],
-    description: "",
-    countryOrigin: "France",
-    saga: "",
+    description: '',
+    countryOrigin: 'France',
+    saga: '',
   },
 ];

@@ -4,6 +4,7 @@ const {
   normalizeNumber,
   normalizeBoolean,
   normalizeString,
+  normalizeSerieGenreInput,
   updateSerieInFile,
   updateSerieIdentityInFile,
   updateBaseSerieInFiles,
@@ -106,7 +107,9 @@ router.post('/', (req: any, res: any) => {
         coverUrl: normalizeString(entityPayload.coverUrl, 'coverUrl'),
         releaseDate: normalizeString(entityPayload.releaseDate, 'releaseDate'),
         endDate: normalizeString(entityPayload.endDate, 'endDate'),
-        genre: normalizeString(entityPayload.genre, 'genre'),
+        genre: Object.prototype.hasOwnProperty.call(entityPayload, 'genre')
+          ? normalizeSerieGenreInput(entityPayload.genre)
+          : undefined,
         seasonsData: Array.isArray(entityPayload.seasonsData)
           ? entityPayload.seasonsData
           : undefined,
