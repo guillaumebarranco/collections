@@ -1212,13 +1212,17 @@ export const baseMoviesSagaPage1: BaseMovie[] = [
   {
     title: 'Alien',
     director: 'Ridley Scott',
-    actors: [{ name: 'Sigourney Weaver' }],
-    coverUrl: '/movies_pictures/alien.jpg',
-    releaseDate: '1979-05-25',
+    actors: [
+      {
+        name: "Sigourney Weaver",
+      }
+    ],
+    coverUrl: "/movies_pictures/alien.jpg",
+    releaseDate: "1979-05-25",
     length: 117,
-    genre: ['Science Fiction'],
-    saga: 'Alien',
-    description: '',
+    genre: ['Science Fiction', 'Horreur'],
+    saga: "Alien",
+    description: "",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
   },
@@ -1238,13 +1242,17 @@ export const baseMoviesSagaPage1: BaseMovie[] = [
   {
     title: 'Alien 3',
     director: 'David Fincher',
-    actors: [{ name: 'Sigourney Weaver' }],
-    coverUrl: '/movies_pictures/47888-alien-0-150-0-225-crop.jpg',
-    releaseDate: '1992-05-22',
+    actors: [
+      {
+        name: "Sigourney Weaver",
+      }
+    ],
+    coverUrl: "/movies_pictures/47888-alien-0-150-0-225-crop.jpg",
+    releaseDate: "1992-05-22",
     length: 114,
-    genre: ['Science Fiction'],
-    saga: 'Alien',
-    description: '',
+    genre: ['Science Fiction', 'Horreur'],
+    saga: "Alien",
+    description: "",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
   },

@@ -322,13 +322,17 @@ export const baseMoviesPage4: BaseMovie[] = [
   {
     title: '21 Jump Street',
     director: 'Phil Lord, Christopher Miller',
-    actors: [{ name: 'Jonah Hill' }],
-    coverUrl: '/movies_pictures/279-21-jump-street-0-150-0-225-crop.jpg',
-    releaseDate: '2012-03-16',
+    actors: [
+      {
+        name: "Jonah Hill",
+      }
+    ],
+    coverUrl: "/movies_pictures/279-21-jump-street-0-150-0-225-crop.jpg",
+    releaseDate: "2012-03-16",
     length: 109,
-    genre: ['Comédie'],
-    saga: '',
-    description: '',
+    genre: ['Comédie', 'Policier'],
+    saga: "",
+    description: "",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
   },
@@ -1078,24 +1082,24 @@ export const baseMoviesPage4: BaseMovie[] = [
     director: 'Shawn Levy',
     actors: [
       {
-        name: 'Ryan Reynolds',
+        name: "Ryan Reynolds",
       },
       {
-        name: 'Zoe Saldana',
+        name: "Zoe Saldana",
       },
       {
-        name: 'Mark Ruffalo',
+        name: "Mark Ruffalo",
       },
       {
-        name: 'Jennifer Gardner',
-      },
+        name: "Jennifer Gardner",
+      }
     ],
-    coverUrl: '/movies_pictures/4623310.jpg',
-    releaseDate: '2022-03-11',
+    coverUrl: "/movies_pictures/4623310.jpg",
+    releaseDate: "2022-03-11",
     length: 106,
-    genre: ['Science Fiction'],
-    saga: '',
-    description: '',
+    genre: ['Action', 'Comédie', 'Science Fiction', 'Fantastique', 'Aventure'],
+    saga: "",
+    description: "",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
   },

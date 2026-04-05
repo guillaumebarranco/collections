@@ -548,26 +548,34 @@ export const baseMoviesLove: BaseMovie[] = [
   {
     title: '17 ans encore',
     director: 'Burr Steers',
-    actors: [{ name: 'Zac Efron' }],
-    coverUrl: '/movies_pictures/41276-17-again-0-150-0-225-crop.jpg',
-    releaseDate: '2009-04-17',
+    actors: [
+      {
+        name: "Zac Efron",
+      }
+    ],
+    coverUrl: "/movies_pictures/41276-17-again-0-150-0-225-crop.jpg",
+    releaseDate: "2009-04-17",
     length: 102,
-    genre: ['Comédie', 'Romance'],
-    saga: '',
-    description: '',
+    genre: ['Comédie', 'Romance', 'Jeunesse'],
+    saga: "",
+    description: "",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
   },
   {
     title: '(500) Jours Ensemble',
     director: 'Marc Webb',
-    actors: [{ name: 'Joseph Gordon-Levitt' }],
-    coverUrl: '/movies_pictures/39350--500-days-of-summer-0-150-0-225-crop.jpg',
-    releaseDate: '2009-07-17',
+    actors: [
+      {
+        name: "Joseph Gordon-Levitt",
+      }
+    ],
+    coverUrl: "/movies_pictures/39350--500-days-of-summer-0-150-0-225-crop.jpg",
+    releaseDate: "2009-07-17",
     length: 95,
-    genre: ['Romance'],
-    saga: '',
-    description: '',
+    genre: ['Comédie', 'Romance'],
+    saga: "",
+    description: "",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
   },
@@ -963,13 +971,20 @@ export const baseMoviesLove: BaseMovie[] = [
   {
     title: '40 jours et 40 nuits',
     director: 'Michael Lehmann',
-    actors: [{ name: 'Josh Hartnett' }],
-    coverUrl: '/movies_pictures/40_jours_et_40_nuits.webp',
-    releaseDate: '2002-03-01',
+    actors: [
+      {
+        name: "Josh Hartnett",
+      },
+      {
+        name: "Shannyn Sossamon",
+      }
+    ],
+    coverUrl: "/movies_pictures/40_jours_et_40_nuits.webp",
+    releaseDate: "2002-03-01",
     length: 96,
     genre: ['Comédie', 'Romance'],
-    saga: '',
-    description: '',
+    saga: "",
+    description: "",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
   },

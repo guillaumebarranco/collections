@@ -1152,13 +1152,20 @@ export const baseMoviesFromAmandine: BaseMovie[] = [
   {
     title: '30 ans sinon rien',
     director: 'Gary Winick',
-    actors: [{ name: 'Jennifer Garner' }, { name: 'Mark Ruffalo' }],
-    coverUrl: '/movies_pictures/18380155.jpg',
-    releaseDate: '2004-04-23',
+    actors: [
+      {
+        name: "Jennifer Garner",
+      },
+      {
+        name: "Mark Ruffalo",
+      }
+    ],
+    coverUrl: "/movies_pictures/18380155.jpg",
+    releaseDate: "2004-04-23",
     length: 98,
     genre: ['Comédie', 'Fantastique'],
-    saga: '',
-    description: '',
+    saga: "",
+    description: "",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
   },
@@ -1300,13 +1307,20 @@ export const baseMoviesFromAmandine: BaseMovie[] = [
   {
     title: '8 Mile',
     director: 'Curtis Hanson',
-    actors: [{ name: 'Eminem' }, { name: 'Brittany Murphy' }],
-    coverUrl: '/movies_pictures/affiche (1).webp',
-    releaseDate: '2002-11-08',
+    actors: [
+      {
+        name: "Eminem",
+      },
+      {
+        name: "Brittany Murphy",
+      }
+    ],
+    coverUrl: "/movies_pictures/affiche (1).webp",
+    releaseDate: "2002-11-08",
     length: 110,
-    genre: ['Drame', 'Comédie musicale'],
-    saga: '',
-    description: '',
+    genre: ['Drame', 'Biographie', 'Comédie musicale'],
+    saga: "",
+    description: "",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
   },

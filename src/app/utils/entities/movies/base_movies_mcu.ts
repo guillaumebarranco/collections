@@ -692,22 +692,22 @@ export const baseMoviesMcu: BaseMovie[] = [
     director: 'Peyton Reed',
     actors: [
       {
-        name: 'Paul Rudd',
+        name: "Paul Rudd",
       },
       {
-        name: 'Evangeline Lilly',
+        name: "Evangeline Lilly",
       },
       {
-        name: 'Michael Douglas',
-      },
+        name: "Michael Douglas",
+      }
     ],
     coverUrl:
-      '/movies_pictures/566237-ant-man-and-the-wasp-quantumania-0-150-0-225-crop.jpg',
-    releaseDate: '2023-02-17',
+      "/movies_pictures/566237-ant-man-and-the-wasp-quantumania-0-150-0-225-crop.jpg",
+    releaseDate: "2023-02-17",
     length: 125,
-    genre: ['Action'],
-    saga: 'Marvel Cinematic Universe',
-    description: '',
+    genre: ['Action', 'Aventure'],
+    saga: "Marvel Cinematic Universe",
+    description: "",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
   },

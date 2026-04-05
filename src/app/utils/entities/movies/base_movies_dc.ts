@@ -293,16 +293,18 @@ export const baseMoviesDc: BaseMovie[] = [
     director: 'James Wan',
     actors: [
       {
-        name: 'Jason Momoa',
+        name: "Jason Momoa",
       },
-      { name: 'Djimon Hounsou' },
+      {
+        name: "Djimon Hounsou",
+      }
     ],
-    coverUrl: '/movies_pictures/225060-aquaman-0-150-0-225-crop.jpg',
-    releaseDate: '2018-12-21',
+    coverUrl: "/movies_pictures/225060-aquaman-0-150-0-225-crop.jpg",
+    releaseDate: "2018-12-21",
     length: 143,
-    genre: ['Action'],
-    saga: 'DCEU',
-    description: '',
+    genre: ['Action', 'Aventure'],
+    saga: "DCEU",
+    description: "",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
   },

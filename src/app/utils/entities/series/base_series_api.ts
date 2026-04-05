@@ -1279,4 +1279,48 @@ export const baseSeriesApi: BaseSerie[] = [
     countryOrigin: 'États-Unis',
     saga: '',
   },
+
+  {
+    title: "Furies",
+    director: "Jean-Yves Arnaud",
+    actors: [
+      {
+        name: "Marina Foïs",
+      },
+      {
+        name: "Lina El Arabi",
+      },
+      {
+        name: "Steve Tientcheu",
+      },
+      {
+        name: "Jeremy Nadeau",
+      },
+      {
+        name: "Quentin Faure",
+      },
+      {
+        name: "Sandor Funtek",
+      },
+    ],
+    coverUrl: "https://media.senscritique.com/media/000021948209/0/furies.jpg",
+    releaseDate: "2024-03-01",
+    endDate: "",
+    genre: "Action",
+    seasonsData: [
+      {
+        seasonNumber: 1,
+        nbEpisodes: 8,
+        totalLength: 358,
+      },
+      {
+        seasonNumber: 2,
+        nbEpisodes: 6,
+        totalLength: 273,
+      },
+    ],
+    description: "",
+    countryOrigin: "France",
+    saga: "",
+  },
 ];

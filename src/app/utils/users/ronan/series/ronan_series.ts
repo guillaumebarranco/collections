@@ -5710,4 +5710,29 @@ export const ronanSeries: UserSeries = [
     borrowed: '',
     loaned: '',
   },
+
+  {
+    title: "Furies",
+    director: "Jean-Yves Arnaud",
+    seasons: [
+      {
+        seasonNumber: 1,
+        seasonRating: 3.5,
+        seasonTimesWatched: 1,
+        lastViewedDate: "",
+      },
+      {
+        seasonNumber: 2,
+        seasonRating: 3.5,
+        seasonTimesWatched: 1,
+        lastViewedDate: "2026-03-20",
+      }
+    ],
+    owned: false,
+    watchPriority: 1,
+    wantToWatchAgain: false,
+    ratingComment: "",
+    borrowed: "",
+    loaned: "",
+  },
 ];

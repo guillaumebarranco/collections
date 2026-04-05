@@ -1066,17 +1066,25 @@ export const baseMoviesPage6: BaseMovie[] = [
     title: 'American Bluff',
     director: 'David O. Russell',
     actors: [
-      { name: 'Christian Bale' },
-      { name: 'Bradley Cooper' },
-      { name: 'Jennifer Lawrence' },
-      { name: 'Amy Adams' },
+      {
+        name: "Christian Bale",
+      },
+      {
+        name: "Bradley Cooper",
+      },
+      {
+        name: "Jennifer Lawrence",
+      },
+      {
+        name: "Amy Adams",
+      }
     ],
-    coverUrl: '/movies_pictures/199998.webp',
-    releaseDate: '2013-12-20',
+    coverUrl: "/movies_pictures/199998.webp",
+    releaseDate: "2013-12-20",
     length: 138,
-    genre: ['Comédie'],
-    saga: '',
-    description: '',
+    genre: ['Comédie', 'Drame'],
+    saga: "",
+    description: "",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
   },

@@ -272,24 +272,24 @@ export const baseMoviesSagaPage2: BaseMovie[] = [
     director: 'Rian Johnson',
     actors: [
       {
-        name: 'Daniel Craig',
+        name: "Daniel Craig",
       },
       {
-        name: 'Ana de Armas',
+        name: "Ana de Armas",
       },
       {
-        name: 'Chris Evans',
+        name: "Chris Evans",
       },
       {
-        name: 'Jamie Lee Curtis',
-      },
+        name: "Jamie Lee Curtis",
+      }
     ],
-    coverUrl: '/movies_pictures/475370-knives-out-0-150-0-225-crop.jpg',
-    releaseDate: '2019-11-27',
+    coverUrl: "/movies_pictures/475370-knives-out-0-150-0-225-crop.jpg",
+    releaseDate: "2019-11-27",
     length: 130,
-    genre: ['Policier'],
-    saga: 'Benoit Blanc',
-    description: '',
+    genre: ['Policier', 'Mystère'],
+    saga: "Benoit Blanc",
+    description: "",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
   },

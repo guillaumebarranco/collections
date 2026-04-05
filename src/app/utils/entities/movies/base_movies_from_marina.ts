@@ -450,17 +450,25 @@ export const baseMoviesFromMarina: BaseMovie[] = [
     title: 'Action ou vérité',
     director: 'Jeff Wadlow',
     actors: [
-      { name: 'Lucy Hale' },
-      { name: 'Tyler Posey' },
-      { name: 'Violett Beane' },
-      { name: 'Nolan Gerard Funk' },
+      {
+        name: "Lucy Hale",
+      },
+      {
+        name: "Tyler Posey",
+      },
+      {
+        name: "Violett Beane",
+      },
+      {
+        name: "Nolan Gerard Funk",
+      }
     ],
-    coverUrl: '/movies_pictures/43bdb09e65ab.jpg',
-    releaseDate: '2018-01-01',
+    coverUrl: "/movies_pictures/43bdb09e65ab.jpg",
+    releaseDate: "2018-01-01",
     length: 100,
-    genre: ['Thriller'],
-    saga: '',
-    description: '',
+    genre: ['Thriller', 'Horreur'],
+    saga: "",
+    description: "",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
   },

@@ -182,23 +182,19 @@ export const baseMoviesPage2: BaseMovie[] = [
     director: 'Robert Rodriguez',
     actors: [
       {
-        name: 'Rosa Salazar',
+        name: "Rosa Salazar",
       },
       {
-        name: 'Christoph Waltz',
-      },
+        name: "Christoph Waltz",
+      }
     ],
-    coverUrl: '/movies_pictures/333832-alita-battle-angel-0-150-0-225-crop.jpg',
-    releaseDate: '2019-02-14',
+    coverUrl: "/movies_pictures/333832-alita-battle-angel-0-150-0-225-crop.jpg",
+    releaseDate: "2019-02-14",
     length: 122,
-    genre: ['Science Fiction'],
-    saga: '',
-    description: '',
-    fromEntity: {
-      entityType: 'manga',
-      title: 'Gunnm',
-      secondEntityKey: 'Yukito Kishiro',
-    },
+    genre: ['Action', 'Science Fiction'],
+    saga: "",
+    description: "",
+    fromEntity: { entityType: "manga", title: "Gunnm", secondEntityKey: "Yukito Kishiro" },
     countryOrigin: ['États-Unis'],
   },
   {
@@ -240,15 +236,18 @@ export const baseMoviesPage2: BaseMovie[] = [
     director: 'Bradley Cooper',
     actors: [
       {
-        name: 'Lady Gaga',
+        name: "Lady Gaga",
       },
+      {
+        name: "Bradley Cooper",
+      }
     ],
-    coverUrl: '/movies_pictures/261108-a-star-is-born-0-150-0-225-crop.jpg',
-    releaseDate: '2018-10-05',
+    coverUrl: "/movies_pictures/261108-a-star-is-born-0-150-0-225-crop.jpg",
+    releaseDate: "2018-10-05",
     length: 136,
     genre: ['Drame'],
-    saga: '',
-    description: '',
+    saga: "",
+    description: "",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
   },
@@ -438,13 +437,17 @@ export const baseMoviesPage2: BaseMovie[] = [
   {
     title: '12 hommes en colère',
     director: 'Sidney Lumet',
-    actors: [{ name: 'Henry Fonda' }],
-    coverUrl: '/movies_pictures/51700-12-angry-men-0-150-0-225-crop.jpg',
-    releaseDate: '1957-04-10',
+    actors: [
+      {
+        name: "Henry Fonda",
+      }
+    ],
+    coverUrl: "/movies_pictures/51700-12-angry-men-0-150-0-225-crop.jpg",
+    releaseDate: "1957-04-10",
     length: 96,
-    genre: ['Drame'],
-    saga: '',
-    description: '',
+    genre: ['Drame', 'Mystère'],
+    saga: "",
+    description: "",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
   },
@@ -638,17 +641,25 @@ export const baseMoviesPage2: BaseMovie[] = [
     title: 'Amistad',
     director: 'Steven Spielberg',
     actors: [
-      { name: 'Morgan Freeman' },
-      { name: 'Anthony Hopkins' },
-      { name: 'Djimon Hounsou' },
-      { name: 'Matthew McConaughey' },
+      {
+        name: "Morgan Freeman",
+      },
+      {
+        name: "Anthony Hopkins",
+      },
+      {
+        name: "Djimon Hounsou",
+      },
+      {
+        name: "Matthew McConaughey",
+      }
     ],
-    coverUrl: '/movies_pictures/51VKJJGV2NL._AC_UF1000,1000_QL80_.jpg',
-    releaseDate: '1997-12-10',
+    coverUrl: "/movies_pictures/51VKJJGV2NL._AC_UF1000,1000_QL80_.jpg",
+    releaseDate: "1997-12-10",
     length: 155,
-    genre: ['Drame'],
-    saga: '',
-    description: '',
+    genre: ['Drame', 'Historique'],
+    saga: "",
+    description: "",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
   },
@@ -1170,14 +1181,21 @@ export const baseMoviesPage2: BaseMovie[] = [
   {
     title: 'À la Recherche du Bonheur',
     director: 'Gabriele Muccino',
-    actors: [{ name: 'Will Smith' }],
+    actors: [
+      {
+        name: "Will Smith",
+      },
+      {
+        name: "Jaden Smith",
+      }
+    ],
     coverUrl:
-      '/movies_pictures/51061-the-pursuit-of-happyness-0-150-0-225-crop.jpg',
-    releaseDate: '2006-12-15',
+      "/movies_pictures/51061-the-pursuit-of-happyness-0-150-0-225-crop.jpg",
+    releaseDate: "2006-12-15",
     length: 117,
-    genre: ['Drame'],
-    saga: '',
-    description: '',
+    genre: ['Drame', 'Biographie'],
+    saga: "",
+    description: "",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
   },
@@ -1489,14 +1507,27 @@ export const baseMoviesPage2: BaseMovie[] = [
   {
     title: '40 Ans, Toujours Puceau',
     director: 'Judd Apatow',
-    actors: [{ name: 'Steve Carell' }],
+    actors: [
+      {
+        name: "Steve Carell",
+      },
+      {
+        name: "Seth Rogen",
+      },
+      {
+        name: "Paull Rudd",
+      },
+      {
+        name: "Catherine Keener",
+      }
+    ],
     coverUrl:
-      '/movies_pictures/48160-the-40-year-old-virgin-0-150-0-225-crop.jpg',
-    releaseDate: '2005-08-19',
+      "/movies_pictures/48160-the-40-year-old-virgin-0-150-0-225-crop.jpg",
+    releaseDate: "2005-08-19",
     length: 116,
     genre: ['Comédie'],
-    saga: '',
-    description: '',
+    saga: "",
+    description: "",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
   },

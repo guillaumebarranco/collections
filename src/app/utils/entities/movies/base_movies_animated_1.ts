@@ -1477,21 +1477,21 @@ export const baseMoviesAnimated: BaseMovie[] = [
     director: 'Louis Clichy, Alexandre Astier',
     actors: [
       {
-        name: 'Roger Carel',
+        name: "Roger Carel",
       },
       {
-        name: 'Lorànt Deutsch',
+        name: "Lorànt Deutsch",
       },
       {
-        name: 'Laurent Lafitte',
-      },
+        name: "Laurent Lafitte",
+      }
     ],
-    coverUrl: '/movies_pictures/asterix_the_mansions_of_the_gods.jpg',
-    releaseDate: '2014-11-26',
+    coverUrl: "/movies_pictures/asterix_the_mansions_of_the_gods.jpg",
+    releaseDate: "2014-11-26",
     length: 85,
-    genre: ['Animation'],
-    saga: 'Astérix',
-    description: '',
+    genre: ['Comédie', 'Fantastique', 'Aventure', 'Animation'],
+    saga: "Astérix",
+    description: "",
     fromEntity: null,
     countryOrigin: ['France'],
   },
