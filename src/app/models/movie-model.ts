@@ -39,7 +39,8 @@ export type MovieGenre =
   | 'Comédie musicale'
   | 'Western'
   | 'Animation'
-  | 'Peplum';
+  | 'Peplum'
+  | 'Catastrophe';
 
 /** Liste ordonnée des genres (alignée sur {@link MovieGenre}) pour les formulaires. */
 export const MOVIE_GENRE_OPTIONS: readonly MovieGenre[] = [
@@ -64,6 +65,7 @@ export const MOVIE_GENRE_OPTIONS: readonly MovieGenre[] = [
   'Western',
   'Animation',
   'Peplum',
+  'Catastrophe',
 ];
 
 const MOVIE_GENRE_OPTION_SET = new Set<string>(MOVIE_GENRE_OPTIONS);
@@ -109,10 +111,9 @@ export function getMovieCountryOriginLabels(movie: {
 }
 
 /** Normalise les données héritées (chaîne ou tableau) pour les formulaires. */
-export function normalizeMovieCountryOriginsForForm(raw: unknown): Exclude<
-  Country,
-  ''
->[] {
+export function normalizeMovieCountryOriginsForForm(
+  raw: unknown
+): Exclude<Country, ''>[] {
   if (Array.isArray(raw)) {
     return filterToMovieCountries(raw as string[]);
   }
