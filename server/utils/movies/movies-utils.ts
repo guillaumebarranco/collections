@@ -581,15 +581,99 @@ function replaceField(
   return next;
 }
 
+/**
+ * Remplace `genre: [...]` ou `genre: '...'` en parcourant crochets / chaînes (pas de [\s\S]*?
+ * qui peut fermer sur le mauvais `]` — corruption du fichier ou comportements extrêmes).
+ */
+function replaceMovieStringArrayFieldLiteral(
+  objectText: string,
+  field: 'genre' | 'countryOrigin',
+  serialized: string
+): string {
+  const re = new RegExp(`\\b${field}\\s*:\\s*`);
+  const keyMatch = objectText.match(re);
+  if (!keyMatch || keyMatch.index === undefined) {
+    return objectText;
+  }
+  const start = keyMatch.index;
+  let pos = start + keyMatch[0].length;
+  while (pos < objectText.length && /\s/.test(objectText[pos])) {
+    pos += 1;
+  }
+  if (pos >= objectText.length) {
+    return objectText;
+  }
+  if (objectText[pos] === '[') {
+    let i = pos;
+    let depth = 0;
+    while (i < objectText.length) {
+      const ch = objectText[i];
+      if (ch === "'" || ch === '"') {
+        const q = ch;
+        i += 1;
+        while (i < objectText.length) {
+          if (objectText[i] === '\\') {
+            i += 2;
+            continue;
+          }
+          if (objectText[i] === q) {
+            i += 1;
+            break;
+          }
+          i += 1;
+        }
+        continue;
+      }
+      if (ch === '[') {
+        depth += 1;
+      } else if (ch === ']') {
+        depth -= 1;
+        if (depth === 0) {
+          return (
+            objectText.slice(0, start) +
+            `${field}: ${serialized}` +
+            objectText.slice(i + 1)
+          );
+        }
+      }
+      i += 1;
+    }
+    throw new Error(`Unclosed ${field} array in movie object`);
+  }
+  const q = objectText[pos];
+  if (q === "'" || q === '"') {
+    let i = pos + 1;
+    while (i < objectText.length) {
+      if (objectText[i] === '\\') {
+        i += 2;
+        continue;
+      }
+      if (objectText[i] === q) {
+        return (
+          objectText.slice(0, start) +
+          `${field}: ${serialized}` +
+          objectText.slice(i + 1)
+        );
+      }
+      i += 1;
+    }
+    throw new Error(`Unclosed ${field} string in movie object`);
+  }
+  return objectText;
+}
+
 function upsertGenreField(objectText: string, value: unknown) {
   if (value === undefined) {
     return objectText;
   }
   const arr = normalizeMovieGenreInput(value);
   const serialized = formatMovieGenreArrayTs(arr);
-  const regex = /\bgenre\s*:\s*(\[[\s\S]*?\]|(['"])((?:\\.|(?!\2).)*)\2)/;
-  if (regex.test(objectText)) {
-    return objectText.replace(regex, `genre: ${serialized}`);
+  if (/\bgenre\s*:\s*/.test(objectText)) {
+    return replaceMovieStringArrayFieldLiteral(
+      objectText,
+      'genre',
+      serialized
+    );
   }
   return objectText.replace(/\}\s*$/, `    genre: ${serialized},\n  }`);
 }
@@ -600,10 +684,12 @@ function upsertCountryOriginField(objectText: string, value: unknown) {
   }
   const arr = normalizeMovieCountryOriginInput(value);
   const serialized = formatMovieCountryOriginArrayTs(arr);
-  const regex =
-    /\bcountryOrigin\s*:\s*(\[[\s\S]*?\]|(['"])((?:\\.|(?!\2).)*)\2)/;
-  if (regex.test(objectText)) {
-    return objectText.replace(regex, `countryOrigin: ${serialized}`);
+  if (/\bcountryOrigin\s*:\s*/.test(objectText)) {
+    return replaceMovieStringArrayFieldLiteral(
+      objectText,
+      'countryOrigin',
+      serialized
+    );
   }
   return objectText.replace(/\}\s*$/, `    countryOrigin: ${serialized},\n  }`);
 }
