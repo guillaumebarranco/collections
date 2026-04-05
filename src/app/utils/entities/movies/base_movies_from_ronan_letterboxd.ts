@@ -6514,7 +6514,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     genre: ['Fantastique', 'Aventure'],
     saga: "",
     description: "",
-    fromEntity: null,
+    fromEntity: { entityType: "book", title: "Les Royaumes du Nord (À la croisée des mondes, #1)", secondEntityKey: "Philip Pullman" },
     countryOrigin: ['États-Unis'],
   },
   {

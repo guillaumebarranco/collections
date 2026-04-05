@@ -1604,22 +1604,22 @@ export const baseMoviesAnimated2: BaseMovie[] = [
     director: 'Katsuhiro Ōtomo',
     actors: [
       {
-        name: 'Mitsuo Iwata',
+        name: "Mitsuo Iwata",
       },
       {
-        name: 'Nozomu Sasaki',
+        name: "Nozomu Sasaki",
       },
       {
-        name: 'Mami Koyama',
-      },
+        name: "Mami Koyama",
+      }
     ],
-    coverUrl: '/movies_pictures/akira.jpg',
-    releaseDate: '1991-05-08',
+    coverUrl: "/movies_pictures/akira.jpg",
+    releaseDate: "1991-05-08",
     length: 124,
     genre: ['Science Fiction', 'Animation'],
-    saga: '',
-    description: '',
-    fromEntity: null,
+    saga: "",
+    description: "",
+    fromEntity: { entityType: "manga", title: "AKIRA", secondEntityKey: "Katsuhiro Otomo" },
     countryOrigin: ['Japon'],
   },
   {
@@ -1690,22 +1690,22 @@ export const baseMoviesAnimated2: BaseMovie[] = [
     director: 'René Goscinny, Albert Uderzo',
     actors: [
       {
-        name: 'Roger Carel',
+        name: "Roger Carel",
       },
       {
-        name: 'Jacques Morel',
+        name: "Jacques Morel",
       },
       {
-        name: 'Micheline Dax',
-      },
+        name: "Micheline Dax",
+      }
     ],
-    coverUrl: '/movies_pictures/asterix_and_cleopatra.jpg',
-    releaseDate: '1968-12-19',
+    coverUrl: "/movies_pictures/asterix_and_cleopatra.jpg",
+    releaseDate: "1968-12-19",
     length: 72,
     genre: ['Animation'],
-    saga: 'Astérix',
-    description: '',
-    fromEntity: null,
+    saga: "Astérix",
+    description: "",
+    fromEntity: { entityType: "bd", title: "Astérix et Cléopâtre", secondEntityKey: "René Goscinny" },
     countryOrigin: ['France'],
   },
   {

@@ -2007,17 +2007,23 @@ export const baseMoviesFromMarina: BaseMovie[] = [
     title: 'Astérix le Gaulois',
     director: 'Ray Goossens',
     actors: [
-      { name: 'Roger Carel' },
-      { name: 'Jacques Morel' },
-      { name: 'Pierre Tornade' },
+      {
+        name: "Roger Carel",
+      },
+      {
+        name: "Jacques Morel",
+      },
+      {
+        name: "Pierre Tornade",
+      }
     ],
-    coverUrl: '/movies_pictures/8567e3ff6108.jpg',
-    releaseDate: '1967-01-01',
+    coverUrl: "/movies_pictures/8567e3ff6108.jpg",
+    releaseDate: "1967-01-01",
     length: 68,
     genre: ['Animation'],
-    saga: '',
-    description: '',
-    fromEntity: null,
+    saga: "",
+    description: "",
+    fromEntity: { entityType: "bd", title: "Astérix le Gaulois", secondEntityKey: "René Goscinny" },
     countryOrigin: ['France'],
   },
   {

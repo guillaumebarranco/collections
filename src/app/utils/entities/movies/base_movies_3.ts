@@ -1452,13 +1452,17 @@ export const baseMoviesPage3: BaseMovie[] = [
   {
     title: '2012',
     director: 'Roland Emmerich',
-    actors: [{ name: 'John Cusack' }],
-    coverUrl: '/movies_pictures/43301-2012-0-150-0-225-crop.jpg',
-    releaseDate: '2009-11-13',
+    actors: [
+      {
+        name: "John Cusack",
+      }
+    ],
+    coverUrl: "/movies_pictures/43301-2012-0-150-0-225-crop.jpg",
+    releaseDate: "2009-11-13",
     length: 158,
-    genre: ['Action'],
-    saga: '',
-    description: '',
+    genre: ['Action', 'Drame'],
+    saga: "",
+    description: "",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
   },

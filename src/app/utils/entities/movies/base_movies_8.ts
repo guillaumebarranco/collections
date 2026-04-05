@@ -2145,17 +2145,26 @@ export const baseMoviesPage8: BaseMovie[] = [
     title: 'Autant en emporte le vent',
     director: 'Victor Fleming',
     actors: [
-      { name: 'Clark Gable' },
-      { name: 'Vivien Leigh' },
-      { name: 'Thomas Mitchell' },
+      {
+        name: "Vivien Leigh",
+      },
+      {
+        name: "Clark Gable",
+      },
+      {
+        name: "Olivia de Havilland",
+      },
+      {
+        name: "Leslie Howard",
+      }
     ],
-    coverUrl: '/movies_pictures/9a1be988f866.jpg',
-    releaseDate: '1940-01-17',
+    coverUrl: "/movies_pictures/a9b1f1afbc30.jpg",
+    releaseDate: "1939-01-01",
     length: 238,
-    genre: ['Drame', 'Romance', 'Guerre'],
-    saga: '',
-    description: '',
-    fromEntity: null,
+    genre: ['Drame'],
+    saga: "",
+    description: "",
+    fromEntity: { entityType: "book", title: "Autant en emporte le vent", secondEntityKey: "Margaret Mitchell" },
     countryOrigin: ['États-Unis'],
   },
   {

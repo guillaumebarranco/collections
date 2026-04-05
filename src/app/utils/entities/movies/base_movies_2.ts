@@ -956,19 +956,19 @@ export const baseMoviesPage2: BaseMovie[] = [
   {
     title: 'Astérix & Obélix : Mission Cléopâtre',
     director: 'Alain Chabat',
-    actors: [{ name: 'Gérard Depardieu' }],
+    actors: [
+      {
+        name: "Gérard Depardieu",
+      }
+    ],
     coverUrl:
-      '/movies_pictures/50024-asterix-obelix-mission-cleopatra-0-150-0-225-crop.jpg',
-    releaseDate: '2002-01-30',
+      "/movies_pictures/50024-asterix-obelix-mission-cleopatra-0-150-0-225-crop.jpg",
+    releaseDate: "2002-01-30",
     length: 107,
     genre: ['Comédie'],
-    saga: 'Astérix',
-    description: '',
-    fromEntity: {
-      entityType: 'comic',
-      title: 'Astérix le Gaulois',
-      secondEntityKey: 'René Goscinny',
-    },
+    saga: "Astérix",
+    description: "",
+    fromEntity: { entityType: "bd", title: "Astérix et Cléopâtre", secondEntityKey: "René Goscinny" },
     countryOrigin: ['France'],
   },
   {

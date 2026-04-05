@@ -2118,16 +2118,16 @@ export const baseMoviesPage5: BaseMovie[] = [
     director: 'Ron Howard',
     actors: [
       {
-        name: 'Tom Hanks',
-      },
+        name: "Tom Hanks",
+      }
     ],
-    coverUrl: '/movies_pictures/20524432.webp',
-    releaseDate: '2009-05-15',
+    coverUrl: "/movies_pictures/20524432.webp",
+    releaseDate: "2009-05-15",
     length: 138,
     genre: ['Thriller'],
-    saga: 'Robert Langdon',
-    description: '',
-    fromEntity: null,
+    saga: "Robert Langdon",
+    description: "",
+    fromEntity: { entityType: "book", title: "Anges et démons", secondEntityKey: "Dan Brown" },
     countryOrigin: ['États-Unis'],
   },
   {
