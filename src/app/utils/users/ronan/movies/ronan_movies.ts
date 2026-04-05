@@ -17168,4 +17168,21 @@ export const ronanMovies: UserMovies = [
     borrowed: "",
     loaned: "",
   },
+
+  {
+    title: "Lord of War",
+    director: "Andrew Niccol",
+    rating: 3.5,
+    timesWatched: 1,
+    firstViewedDate: "2026-04-05",
+    lastViewedDate: "2026-04-05",
+    seenAtCinema: false,
+    owned: false,
+    wantToSeeAgain: false,
+    watchPriority: 1,
+    ratingComment: "",
+    inList: [],
+    borrowed: "",
+    loaned: "",
+  },
 ];
