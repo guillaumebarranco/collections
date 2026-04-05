@@ -6295,23 +6295,6 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     countryOrigin: ['États-Unis'],
   },
   {
-    title: "L'Arnacœur",
-    director: 'Pascal Chaumeil',
-    actors: [
-      {
-        name: 'Romain Duris',
-      },
-    ],
-    coverUrl: '/movies_pictures/heartbreaker.jpg',
-    releaseDate: '2010-03-17',
-    length: 105,
-    genre: ['Comédie'],
-    saga: '',
-    description: '',
-    fromEntity: null,
-    countryOrigin: ['États-Unis'],
-  },
-  {
     title: 'La Rafle',
     director: 'Roselyne Bosch',
     actors: [
@@ -7319,29 +7302,6 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     countryOrigin: ['États-Unis'],
   },
   {
-    title: 'Identity',
-    director: 'James Mangold',
-    actors: [
-      {
-        name: 'John Cusack',
-      },
-      {
-        name: 'Ray Liotta',
-      },
-      {
-        name: 'Amanda Peet',
-      },
-    ],
-    coverUrl: '/movies_pictures/identity.jpg',
-    releaseDate: '2003-09-24',
-    length: 87,
-    genre: ['Thriller'],
-    saga: '',
-    description: '',
-    fromEntity: null,
-    countryOrigin: ['États-Unis'],
-  },
-  {
     title: 'Comment se faire larguer en dix leçons',
     director: 'Donald Petrie',
     actors: [
@@ -7792,23 +7752,6 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     releaseDate: '1997-08-20',
     length: 110,
     genre: ['Action'],
-    saga: '',
-    description: '',
-    fromEntity: null,
-    countryOrigin: ['États-Unis'],
-  },
-  {
-    title: 'Le Cinquième Élément',
-    director: 'Luc Besson',
-    actors: [
-      {
-        name: 'Bruce Willis',
-      },
-    ],
-    coverUrl: '/movies_pictures/the_fifth_element.jpg',
-    releaseDate: '1997-05-07',
-    length: 126,
-    genre: ['Science Fiction'],
     saga: '',
     description: '',
     fromEntity: null,

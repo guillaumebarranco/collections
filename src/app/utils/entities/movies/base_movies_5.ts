@@ -1853,15 +1853,15 @@ export const baseMoviesPage5: BaseMovie[] = [
     director: 'Steve McQueen',
     actors: [
       {
-        name: "Brad Pitt",
-      }
+        name: 'Brad Pitt',
+      },
     ],
-    coverUrl: "/movies_pictures/21041568_2013091910085449.webp",
-    releaseDate: "2013-10-18",
+    coverUrl: '/movies_pictures/21041568_2013091910085449.webp',
+    releaseDate: '2013-10-18',
     length: 134,
     genre: ['Drame', 'Historique', 'Biographie'],
-    saga: "",
-    description: "",
+    saga: '',
+    description: '',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
   },
@@ -1919,15 +1919,15 @@ export const baseMoviesPage5: BaseMovie[] = [
     director: 'Robert Zemeckis',
     actors: [
       {
-        name: "Brad Pitt",
-      }
+        name: 'Brad Pitt',
+      },
     ],
-    coverUrl: "/movies_pictures/203752.webp",
-    releaseDate: "2016-11-23",
+    coverUrl: '/movies_pictures/203752.webp',
+    releaseDate: '2016-11-23',
     length: 124,
     genre: ['Thriller', 'Drame', 'Historique'],
-    saga: "",
-    description: "",
+    saga: '',
+    description: '',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
   },
@@ -2118,16 +2118,20 @@ export const baseMoviesPage5: BaseMovie[] = [
     director: 'Ron Howard',
     actors: [
       {
-        name: "Tom Hanks",
-      }
+        name: 'Tom Hanks',
+      },
     ],
-    coverUrl: "/movies_pictures/20524432.webp",
-    releaseDate: "2009-05-15",
+    coverUrl: '/movies_pictures/20524432.webp',
+    releaseDate: '2009-05-15',
     length: 138,
     genre: ['Thriller'],
-    saga: "Robert Langdon",
-    description: "",
-    fromEntity: { entityType: "book", title: "Anges et démons", secondEntityKey: "Dan Brown" },
+    saga: 'Robert Langdon',
+    description: '',
+    fromEntity: {
+      entityType: 'book',
+      title: 'Anges et démons',
+      secondEntityKey: 'Dan Brown',
+    },
     countryOrigin: ['États-Unis'],
   },
   {
@@ -2419,26 +2423,6 @@ export const baseMoviesPage5: BaseMovie[] = [
     coverUrl: '/movies_pictures/la_couleur_de_l_argent.jpg',
     releaseDate: '1986-10-17',
     length: 119,
-    genre: ['Drame'],
-    saga: '',
-    description: '',
-    fromEntity: null,
-    countryOrigin: ['États-Unis'],
-  },
-  {
-    title: 'Rain Man',
-    director: 'Barry Levinson',
-    actors: [
-      {
-        name: 'Tom Cruise',
-      },
-      {
-        name: 'Dustin Hoffman',
-      },
-    ],
-    coverUrl: '/movies_pictures/19254800.webp',
-    releaseDate: '1988-12-16',
-    length: 133,
     genre: ['Drame'],
     saga: '',
     description: '',

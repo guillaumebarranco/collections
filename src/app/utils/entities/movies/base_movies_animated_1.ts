@@ -1244,22 +1244,22 @@ export const baseMoviesAnimated: BaseMovie[] = [
     director: 'Brandon Vietti',
     actors: [
       {
-        name: 'Bruce Greenwood',
+        name: "Bruce Greenwood",
       },
       {
-        name: 'Jensen Ackles',
+        name: "Jensen Ackles",
       },
       {
-        name: 'Neil Patrick Harris',
-      },
+        name: "Neil Patrick Harris",
+      }
     ],
-    coverUrl: '/movies_pictures/batman_under_the_red_hood.jpg',
-    releaseDate: '2010-09-01',
+    coverUrl: "/movies_pictures/batman_under_the_red_hood.jpg",
+    releaseDate: "2010-09-01",
     length: 75,
     genre: ['Animation'],
-    saga: 'DC Animated Universe',
-    description: '',
-    fromEntity: null,
+    saga: "DC Animated Universe",
+    description: "",
+    fromEntity: { entityType: "comic", title: "Batman", secondEntityKey: "DC Comics" },
     countryOrigin: ['États-Unis'],
   },
   {
@@ -1405,22 +1405,22 @@ export const baseMoviesAnimated: BaseMovie[] = [
     director: 'Curt Geda',
     actors: [
       {
-        name: 'Kevin Conroy',
+        name: "Kevin Conroy",
       },
       {
-        name: 'Kyra Sedgwick',
+        name: "Kyra Sedgwick",
       },
       {
-        name: 'Kimberly Brooks',
-      },
+        name: "Kimberly Brooks",
+      }
     ],
-    coverUrl: '/movies_pictures/batman_mystery_of_the_batwoman.jpg',
-    releaseDate: '2003-10-21',
+    coverUrl: "/movies_pictures/batman_mystery_of_the_batwoman.jpg",
+    releaseDate: "2003-10-21",
     length: 75,
     genre: ['Animation'],
-    saga: 'DC Animated Universe',
-    description: '',
-    fromEntity: null,
+    saga: "DC Animated Universe",
+    description: "",
+    fromEntity: { entityType: "comic", title: "Batman", secondEntityKey: "DC Comics" },
     countryOrigin: ['États-Unis'],
   },
 
@@ -1461,19 +1461,19 @@ export const baseMoviesAnimated: BaseMovie[] = [
         name: "Jason O'Mara",
       },
       {
-        name: 'Stuart Allan',
+        name: "Stuart Allan",
       },
       {
-        name: 'Jeremy Sisto',
-      },
+        name: "Jeremy Sisto",
+      }
     ],
-    coverUrl: '/movies_pictures/batman_vs_robin.jpg',
-    releaseDate: '2015-04-22',
+    coverUrl: "/movies_pictures/batman_vs_robin.jpg",
+    releaseDate: "2015-04-22",
     length: 76,
     genre: ['Animation'],
-    saga: 'DC Animated Universe',
-    description: '',
-    fromEntity: null,
+    saga: "DC Animated Universe",
+    description: "",
+    fromEntity: { entityType: "comic", title: "Batman", secondEntityKey: "DC Comics" },
     countryOrigin: ['États-Unis'],
   },
   {
@@ -1504,22 +1504,22 @@ export const baseMoviesAnimated: BaseMovie[] = [
     director: 'Jay Oliva',
     actors: [
       {
-        name: 'Peter Weller',
+        name: "Peter Weller",
       },
       {
-        name: 'Ariel Winter',
+        name: "Ariel Winter",
       },
       {
-        name: 'Michael Emerson',
-      },
+        name: "Michael Emerson",
+      }
     ],
-    coverUrl: '/movies_pictures/batman_the_dark_knight_returns_part_2.jpg',
-    releaseDate: '2013-05-02',
+    coverUrl: "/movies_pictures/batman_the_dark_knight_returns_part_2.jpg",
+    releaseDate: "2013-05-02",
     length: 78,
     genre: ['Animation'],
-    saga: 'DC Animated Universe',
-    description: '',
-    fromEntity: null,
+    saga: "DC Animated Universe",
+    description: "",
+    fromEntity: { entityType: "comic", title: "Batman", secondEntityKey: "DC Comics" },
     countryOrigin: ['États-Unis'],
   },
   {
@@ -1527,22 +1527,22 @@ export const baseMoviesAnimated: BaseMovie[] = [
     director: 'Jay Oliva',
     actors: [
       {
-        name: 'Peter Weller',
+        name: "Peter Weller",
       },
       {
-        name: 'Ariel Winter',
+        name: "Ariel Winter",
       },
       {
-        name: 'David Selby',
-      },
+        name: "David Selby",
+      }
     ],
-    coverUrl: '/movies_pictures/batman_the_dark_knight_returns_part_1.jpg',
-    releaseDate: '2013-05-02',
+    coverUrl: "/movies_pictures/batman_the_dark_knight_returns_part_1.jpg",
+    releaseDate: "2013-05-02",
     length: 76,
     genre: ['Animation'],
-    saga: 'DC Animated Universe',
-    description: '',
-    fromEntity: null,
+    saga: "DC Animated Universe",
+    description: "",
+    fromEntity: { entityType: "comic", title: "Batman", secondEntityKey: "DC Comics" },
     countryOrigin: ['États-Unis'],
   },
   {
@@ -1596,22 +1596,22 @@ export const baseMoviesAnimated: BaseMovie[] = [
     director: 'Sam Liu, Lauren Montgomery',
     actors: [
       {
-        name: 'Ben McKenzie',
+        name: "Ben McKenzie",
       },
       {
-        name: 'Bryan Cranston',
+        name: "Bryan Cranston",
       },
       {
-        name: 'Eliza Dushku',
-      },
+        name: "Eliza Dushku",
+      }
     ],
-    coverUrl: '/movies_pictures/batman_year_one.jpg',
-    releaseDate: '2012-07-04',
+    coverUrl: "/movies_pictures/batman_year_one.jpg",
+    releaseDate: "2012-07-04",
     length: 64,
     genre: ['Animation'],
-    saga: 'DC Animated Universe',
-    description: '',
-    fromEntity: null,
+    saga: "DC Animated Universe",
+    description: "",
+    fromEntity: { entityType: "comic", title: "Batman", secondEntityKey: "DC Comics" },
     countryOrigin: ['États-Unis'],
   },
   {

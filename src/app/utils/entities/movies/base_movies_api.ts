@@ -859,29 +859,6 @@ export const baseMoviesApi: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
   },
-  {
-    title: 'Life of Chuck',
-    director: 'Mike Flanagan',
-    actors: [
-      {
-        name: 'Tom Hiddleston',
-      },
-      {
-        name: 'Chiwetel Ejiofor',
-      },
-      {
-        name: 'Karen Gillan',
-      },
-    ],
-    coverUrl: '/movies_pictures/5cc3ec3ae765.jpg',
-    releaseDate: '2024-09-06',
-    length: 111,
-    genre: ['Drame', 'Fantastique'],
-    saga: '',
-    description: '',
-    fromEntity: null,
-    countryOrigin: ['États-Unis'],
-  },
 
   {
     title: 'Kong: Skull Island',
@@ -957,8 +934,7 @@ export const baseMoviesApi: BaseMovie[] = [
         name: 'Bastien Bouillon',
       },
     ],
-    coverUrl:
-      '/movies_pictures/31d8318928a1.jpg',
+    coverUrl: '/movies_pictures/31d8318928a1.jpg',
     releaseDate: '2019-03-06',
     length: 100,
     genre: ['Comédie', 'Drame'],
@@ -983,8 +959,7 @@ export const baseMoviesApi: BaseMovie[] = [
         name: 'Marie-Josée Croze',
       },
     ],
-    coverUrl:
-      '/movies_pictures/d83b9b27bffa.jpg',
+    coverUrl: '/movies_pictures/d83b9b27bffa.jpg',
     releaseDate: '2017-11-22',
     length: 89,
     genre: ['Drame'],
@@ -1017,8 +992,7 @@ export const baseMoviesApi: BaseMovie[] = [
         name: 'Anya Taylor-Joy',
       },
     ],
-    coverUrl:
-      '/movies_pictures/7b178034b345.jpg',
+    coverUrl: '/movies_pictures/7b178034b345.jpg',
     releaseDate: '2026-04-01',
     length: 99,
     genre: ['Comédie', 'Aventure', 'Jeunesse', 'Animation'],
@@ -1045,8 +1019,7 @@ export const baseMoviesApi: BaseMovie[] = [
         name: 'Arnaud Ducret',
       },
     ],
-    coverUrl:
-      '/movies_pictures/1afcb4b4221c.jpg',
+    coverUrl: '/movies_pictures/1afcb4b4221c.jpg',
     releaseDate: '2013-04-17',
     length: 88,
     genre: ['Comédie'],
@@ -1076,8 +1049,7 @@ export const baseMoviesApi: BaseMovie[] = [
         name: 'Sarah Stern',
       },
     ],
-    coverUrl:
-      '/movies_pictures/3c34373f0323.jpg',
+    coverUrl: '/movies_pictures/3c34373f0323.jpg',
     releaseDate: '2016-02-03',
     length: 94,
     genre: ['Comédie'],
@@ -1104,8 +1076,7 @@ export const baseMoviesApi: BaseMovie[] = [
         name: 'Elie Semoun',
       },
     ],
-    coverUrl:
-      '/movies_pictures/692062283952.jpg',
+    coverUrl: '/movies_pictures/692062283952.jpg',
     releaseDate: '2011-06-22',
     length: 96,
     genre: ['Comédie'],
@@ -1132,8 +1103,7 @@ export const baseMoviesApi: BaseMovie[] = [
         name: 'Elie Semoun',
       },
     ],
-    coverUrl:
-      '/movies_pictures/f1607f7a9159.jpg',
+    coverUrl: '/movies_pictures/f1607f7a9159.jpg',
     releaseDate: '2012-04-25',
     length: 94,
     genre: ['Comédie'],
@@ -1144,58 +1114,59 @@ export const baseMoviesApi: BaseMovie[] = [
   },
 
   {
-    title: "Le Petit Nicolas",
-    director: "Laurent Tirard",
+    title: 'Le Petit Nicolas',
+    director: 'Laurent Tirard',
     actors: [
       {
-        name: "Maxime Godart",
+        name: 'Maxime Godart',
       },
       {
-        name: "Kad Merad",
+        name: 'Kad Merad',
       },
       {
-        name: "Valérie Lemercier",
+        name: 'Valérie Lemercier',
       },
       {
-        name: "François-Xavier Demaison",
+        name: 'François-Xavier Demaison',
       },
       {
-        name: "Sandrine Kiberlain",
+        name: 'Sandrine Kiberlain',
       },
     ],
-    coverUrl: "/movies_pictures/5ee3c6ce4eda.jpg",
-    releaseDate: "2009-09-30",
+    coverUrl: '/movies_pictures/5ee3c6ce4eda.jpg',
+    releaseDate: '2009-09-30',
     length: 91,
     genre: ['Comédie'],
-    saga: "",
-    description: "",
+    saga: '',
+    description: '',
     fromEntity: null,
     countryOrigin: ['France'],
   },
 
   {
-    title: "The Drama",
-    director: "Kristoffer Borgli",
+    title: 'The Drama',
+    director: 'Kristoffer Borgli',
     actors: [
       {
-        name: "Zendaya",
+        name: 'Zendaya',
       },
       {
-        name: "Robert Pattinson",
+        name: 'Robert Pattinson',
       },
       {
-        name: "Mamoudou Athie",
+        name: 'Mamoudou Athie',
       },
       {
-        name: "Alana Haim",
+        name: 'Alana Haim',
       },
     ],
-    coverUrl: "https://www.american-cosmograph.fr/images/stories/flexicontent/item_3448_field_25/l_c3bc6cf442233c90f939016ec0230394.jpg",
-    releaseDate: "2026-04-01",
+    coverUrl:
+      'https://www.american-cosmograph.fr/images/stories/flexicontent/item_3448_field_25/l_c3bc6cf442233c90f939016ec0230394.jpg',
+    releaseDate: '2026-04-01',
     length: 106,
     genre: ['Drame'],
-    saga: "",
-    description: "",
+    saga: '',
+    description: '',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
   },

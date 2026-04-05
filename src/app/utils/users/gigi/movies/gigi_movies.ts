@@ -2,8 +2,8 @@ import { UserMovie } from '../../../../models/movie-model';
 
 export const gigiMovies: UserMovie[] = [
   {
-    title: "I, Robot",
-    director: "Alex Proyas",
+    title: 'I, Robot',
+    director: 'Alex Proyas',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -19,8 +19,8 @@ export const gigiMovies: UserMovie[] = [
   },
 
   {
-    title: "Mickey 17",
-    director: "Bong Joon-ho",
+    title: 'Mickey 17',
+    director: 'Bong Joon-ho',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -36,8 +36,8 @@ export const gigiMovies: UserMovie[] = [
   },
 
   {
-    title: "Le Comte de Monte-Cristo",
-    director: "Alexandre de La Patellière, Matthieu Delaporte",
+    title: 'Le Comte de Monte-Cristo',
+    director: 'Alexandre de La Patellière, Matthieu Delaporte',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -53,8 +53,8 @@ export const gigiMovies: UserMovie[] = [
   },
 
   {
-    title: "Gran Turismo",
-    director: "Neill Blomkamp",
+    title: 'Gran Turismo',
+    director: 'Neill Blomkamp',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -70,8 +70,8 @@ export const gigiMovies: UserMovie[] = [
   },
 
   {
-    title: "Oppenheimer",
-    director: "Christopher Nolan",
+    title: 'Oppenheimer',
+    director: 'Christopher Nolan',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -87,8 +87,8 @@ export const gigiMovies: UserMovie[] = [
   },
 
   {
-    title: "Barbie",
-    director: "Greta Gerwig",
+    title: 'Barbie',
+    director: 'Greta Gerwig',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -104,8 +104,8 @@ export const gigiMovies: UserMovie[] = [
   },
 
   {
-    title: "Babylon",
-    director: "Damien Chazelle",
+    title: 'Babylon',
+    director: 'Damien Chazelle',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -121,8 +121,8 @@ export const gigiMovies: UserMovie[] = [
   },
 
   {
-    title: "Bullet Train",
-    director: "David Leitch",
+    title: 'Bullet Train',
+    director: 'David Leitch',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -138,8 +138,8 @@ export const gigiMovies: UserMovie[] = [
   },
 
   {
-    title: "Top Gun",
-    director: "Tony Scott",
+    title: 'Top Gun',
+    director: 'Tony Scott',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -155,8 +155,8 @@ export const gigiMovies: UserMovie[] = [
   },
 
   {
-    title: "Top Gun : Maverick",
-    director: "Joseph Kosinski",
+    title: 'Top Gun : Maverick',
+    director: 'Joseph Kosinski',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -172,8 +172,8 @@ export const gigiMovies: UserMovie[] = [
   },
 
   {
-    title: "Everything Everywhere All at Once",
-    director: "Daniel Kwan, Daniel Scheinert",
+    title: 'Everything Everywhere All at Once',
+    director: 'Daniel Kwan, Daniel Scheinert',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -190,7 +190,7 @@ export const gigiMovies: UserMovie[] = [
 
   {
     title: "Don't look up, déni cosmique",
-    director: "Adam McKay",
+    director: 'Adam McKay',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -206,8 +206,8 @@ export const gigiMovies: UserMovie[] = [
   },
 
   {
-    title: "Red Notice",
-    director: "Rawson Marshall Thurber",
+    title: 'Red Notice',
+    director: 'Rawson Marshall Thurber',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -223,8 +223,8 @@ export const gigiMovies: UserMovie[] = [
   },
 
   {
-    title: "Free Guy",
-    director: "Shawn Levy",
+    title: 'Free Guy',
+    director: 'Shawn Levy',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -240,8 +240,8 @@ export const gigiMovies: UserMovie[] = [
   },
 
   {
-    title: "The One",
-    director: "James Wong",
+    title: 'The One',
+    director: 'James Wong',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -257,8 +257,8 @@ export const gigiMovies: UserMovie[] = [
   },
 
   {
-    title: "Wasabi",
-    director: "Gérard Krawczyk",
+    title: 'Wasabi',
+    director: 'Gérard Krawczyk',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -274,8 +274,8 @@ export const gigiMovies: UserMovie[] = [
   },
 
   {
-    title: "Training Day",
-    director: "Antoine Fuqua",
+    title: 'Training Day',
+    director: 'Antoine Fuqua',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -291,8 +291,8 @@ export const gigiMovies: UserMovie[] = [
   },
 
   {
-    title: "Shaolin Soccer",
-    director: "Stephen Chow",
+    title: 'Shaolin Soccer',
+    director: 'Stephen Chow',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -308,8 +308,8 @@ export const gigiMovies: UserMovie[] = [
   },
 
   {
-    title: "Battle Royale",
-    director: "Kinji Fukasaku",
+    title: 'Battle Royale',
+    director: 'Kinji Fukasaku',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -325,8 +325,8 @@ export const gigiMovies: UserMovie[] = [
   },
 
   {
-    title: "Memento",
-    director: "Christopher Nolan",
+    title: 'Memento',
+    director: 'Christopher Nolan',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -342,8 +342,8 @@ export const gigiMovies: UserMovie[] = [
   },
 
   {
-    title: "Snatch",
-    director: "Guy Ritchie",
+    title: 'Snatch',
+    director: 'Guy Ritchie',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -359,8 +359,8 @@ export const gigiMovies: UserMovie[] = [
   },
 
   {
-    title: "Requiem for a Dream",
-    director: "Darren Aronofsky",
+    title: 'Requiem for a Dream',
+    director: 'Darren Aronofsky',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -376,8 +376,8 @@ export const gigiMovies: UserMovie[] = [
   },
 
   {
-    title: "Gladiator",
-    director: "Ridley Scott",
+    title: 'Gladiator',
+    director: 'Ridley Scott',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -393,8 +393,8 @@ export const gigiMovies: UserMovie[] = [
   },
 
   {
-    title: "Premier contact",
-    director: "Denis Villeneuve",
+    title: 'Premier contact',
+    director: 'Denis Villeneuve',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -410,8 +410,8 @@ export const gigiMovies: UserMovie[] = [
   },
 
   {
-    title: "DodgeBall: Même pas mal",
-    director: "Rawson Marshall Thurber",
+    title: 'DodgeBall: Même pas mal',
+    director: 'Rawson Marshall Thurber',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -427,8 +427,8 @@ export const gigiMovies: UserMovie[] = [
   },
 
   {
-    title: "The Day After Tomorrow",
-    director: "Roland Emmerich",
+    title: 'The Day After Tomorrow',
+    director: 'Roland Emmerich',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -444,8 +444,8 @@ export const gigiMovies: UserMovie[] = [
   },
 
   {
-    title: "Van Helsing",
-    director: "Stephen Sommers",
+    title: 'Van Helsing',
+    director: 'Stephen Sommers',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -461,8 +461,8 @@ export const gigiMovies: UserMovie[] = [
   },
 
   {
-    title: "Man on Fire",
-    director: "Tony Scott",
+    title: 'Man on Fire',
+    director: 'Tony Scott',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -478,8 +478,8 @@ export const gigiMovies: UserMovie[] = [
   },
 
   {
-    title: "EuroTrip",
-    director: "Jeff Schaffer",
+    title: 'EuroTrip',
+    director: 'Jeff Schaffer',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -495,8 +495,8 @@ export const gigiMovies: UserMovie[] = [
   },
 
   {
-    title: "Les 11 commandements",
-    director: "François Desagnat, Thomas Sorriaux",
+    title: 'Les 11 commandements',
+    director: 'François Desagnat, Thomas Sorriaux',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -512,8 +512,8 @@ export const gigiMovies: UserMovie[] = [
   },
 
   {
-    title: "RRRrrrr!!!",
-    director: "Alain Chabat",
+    title: 'RRRrrrr!!!',
+    director: 'Alain Chabat',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -529,8 +529,8 @@ export const gigiMovies: UserMovie[] = [
   },
 
   {
-    title: "Bruce tout-puissant",
-    director: "Tom Shadyac",
+    title: 'Bruce tout-puissant',
+    director: 'Tom Shadyac',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -546,8 +546,8 @@ export const gigiMovies: UserMovie[] = [
   },
 
   {
-    title: "En sursis",
-    director: "Andrzej Bartkowiak",
+    title: 'En sursis',
+    director: 'Andrzej Bartkowiak',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -563,8 +563,8 @@ export const gigiMovies: UserMovie[] = [
   },
 
   {
-    title: "La Beuze",
-    director: "Éric Rochant",
+    title: 'La Beuze',
+    director: 'Éric Rochant',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -580,8 +580,8 @@ export const gigiMovies: UserMovie[] = [
   },
 
   {
-    title: "Ong Bak",
-    director: "Prachya Pinkaew",
+    title: 'Ong Bak',
+    director: 'Prachya Pinkaew',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -597,8 +597,8 @@ export const gigiMovies: UserMovie[] = [
   },
 
   {
-    title: "Equilibrium",
-    director: "Kurt Wimmer",
+    title: 'Equilibrium',
+    director: 'Kurt Wimmer',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -614,8 +614,8 @@ export const gigiMovies: UserMovie[] = [
   },
 
   {
-    title: "Opération antisèche",
-    director: "Andrew Gurland",
+    title: 'Opération antisèche',
+    director: 'Andrew Gurland',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -631,8 +631,8 @@ export const gigiMovies: UserMovie[] = [
   },
 
   {
-    title: "Le cercle : The ring",
-    director: "Gore Verbinski",
+    title: 'Le cercle : The ring',
+    director: 'Gore Verbinski',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -648,8 +648,8 @@ export const gigiMovies: UserMovie[] = [
   },
 
   {
-    title: "Phone Game",
-    director: "Joel Schumacher",
+    title: 'Phone Game',
+    director: 'Joel Schumacher',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -665,8 +665,8 @@ export const gigiMovies: UserMovie[] = [
   },
 
   {
-    title: "Eaux profondes",
-    director: "Adrian Lyne",
+    title: 'Eaux profondes',
+    director: 'Adrian Lyne',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -682,8 +682,8 @@ export const gigiMovies: UserMovie[] = [
   },
 
   {
-    title: "Le Jeu",
-    director: "Fred Cavayé",
+    title: 'Le Jeu',
+    director: 'Fred Cavayé',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -699,8 +699,8 @@ export const gigiMovies: UserMovie[] = [
   },
 
   {
-    title: "Love and Monsters",
-    director: "Michael Matthews",
+    title: 'Love and Monsters',
+    director: 'Michael Matthews',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -716,8 +716,8 @@ export const gigiMovies: UserMovie[] = [
   },
 
   {
-    title: "Tenet",
-    director: "Christopher Nolan",
+    title: 'Tenet',
+    director: 'Christopher Nolan',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -733,8 +733,8 @@ export const gigiMovies: UserMovie[] = [
   },
 
   {
-    title: "Ava",
-    director: "Tate Taylor",
+    title: 'Ava',
+    director: 'Tate Taylor',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -750,8 +750,8 @@ export const gigiMovies: UserMovie[] = [
   },
 
   {
-    title: "La soupe aux choux",
-    director: "Jean-Charles Tacchella",
+    title: 'La soupe aux choux',
+    director: 'Jean-Charles Tacchella',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -768,7 +768,7 @@ export const gigiMovies: UserMovie[] = [
 
   {
     title: "L'aile ou la cuisse",
-    director: "Claude Zidi",
+    director: 'Claude Zidi',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -784,8 +784,8 @@ export const gigiMovies: UserMovie[] = [
   },
 
   {
-    title: "La Folie des grandeurs",
-    director: "Gérard Oury",
+    title: 'La Folie des grandeurs',
+    director: 'Gérard Oury',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -801,8 +801,8 @@ export const gigiMovies: UserMovie[] = [
   },
 
   {
-    title: "Oscar",
-    director: "Édouard Molinaro",
+    title: 'Oscar',
+    director: 'Édouard Molinaro',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -818,8 +818,8 @@ export const gigiMovies: UserMovie[] = [
   },
 
   {
-    title: "Le Gendarme de Saint-Tropez",
-    director: "Jean Girault",
+    title: 'Le Gendarme de Saint-Tropez',
+    director: 'Jean Girault',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -835,8 +835,8 @@ export const gigiMovies: UserMovie[] = [
   },
 
   {
-    title: "Les temps modernes",
-    director: "Charles Chaplin",
+    title: 'Les temps modernes',
+    director: 'Charles Chaplin',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -852,8 +852,8 @@ export const gigiMovies: UserMovie[] = [
   },
 
   {
-    title: "Babylon A.D",
-    director: "Mathieu Kassovitz",
+    title: 'Babylon A.D',
+    director: 'Mathieu Kassovitz',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -869,8 +869,8 @@ export const gigiMovies: UserMovie[] = [
   },
 
   {
-    title: "Yamakasi",
-    director: "Julien Seri",
+    title: 'Yamakasi',
+    director: 'Julien Seri',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -886,8 +886,8 @@ export const gigiMovies: UserMovie[] = [
   },
 
   {
-    title: "Jackie chan dans le bronx",
-    director: "Stanley Tong Gwai-Lai",
+    title: 'Jackie chan dans le bronx',
+    director: 'Stanley Tong Gwai-Lai',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -903,8 +903,8 @@ export const gigiMovies: UserMovie[] = [
   },
 
   {
-    title: "Minority Report",
-    director: "Steven Spielberg",
+    title: 'Minority Report',
+    director: 'Steven Spielberg',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -920,8 +920,8 @@ export const gigiMovies: UserMovie[] = [
   },
 
   {
-    title: "La guerre des mondes",
-    director: "Steven Spielberg",
+    title: 'La guerre des mondes',
+    director: 'Steven Spielberg',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -937,8 +937,8 @@ export const gigiMovies: UserMovie[] = [
   },
 
   {
-    title: "Il faut sauver le soldat Ryan",
-    director: "Steven Spielberg",
+    title: 'Il faut sauver le soldat Ryan',
+    director: 'Steven Spielberg',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -954,8 +954,8 @@ export const gigiMovies: UserMovie[] = [
   },
 
   {
-    title: "Le Pont des espions",
-    director: "Steven Spielberg",
+    title: 'Le Pont des espions',
+    director: 'Steven Spielberg',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -971,8 +971,8 @@ export const gigiMovies: UserMovie[] = [
   },
 
   {
-    title: "Hook ou la Revanche du capitaine Crochet",
-    director: "Steven Spielberg",
+    title: 'Hook ou la Revanche du capitaine Crochet',
+    director: 'Steven Spielberg',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -988,8 +988,8 @@ export const gigiMovies: UserMovie[] = [
   },
 
   {
-    title: "Les Dents de la mer",
-    director: "Steven Spielberg",
+    title: 'Les Dents de la mer',
+    director: 'Steven Spielberg',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -1005,8 +1005,8 @@ export const gigiMovies: UserMovie[] = [
   },
 
   {
-    title: "E.T. the Extra-Terrestrial",
-    director: "Steven Spielberg",
+    title: 'E.T. the Extra-Terrestrial',
+    director: 'Steven Spielberg',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -1022,8 +1022,8 @@ export const gigiMovies: UserMovie[] = [
   },
 
   {
-    title: "Arrête-moi si tu peux",
-    director: "Steven Spielberg",
+    title: 'Arrête-moi si tu peux',
+    director: 'Steven Spielberg',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -1039,8 +1039,8 @@ export const gigiMovies: UserMovie[] = [
   },
 
   {
-    title: "The Terminal",
-    director: "Steven Spielberg",
+    title: 'The Terminal',
+    director: 'Steven Spielberg',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -1056,8 +1056,8 @@ export const gigiMovies: UserMovie[] = [
   },
 
   {
-    title: "Ready Player One",
-    director: "Steven Spielberg",
+    title: 'Ready Player One',
+    director: 'Steven Spielberg',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -1073,8 +1073,8 @@ export const gigiMovies: UserMovie[] = [
   },
 
   {
-    title: "Panic Room",
-    director: "David Fincher",
+    title: 'Panic Room',
+    director: 'David Fincher',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -1090,8 +1090,8 @@ export const gigiMovies: UserMovie[] = [
   },
 
   {
-    title: "Rollerball",
-    director: "John McTiernan",
+    title: 'Rollerball',
+    director: 'John McTiernan',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -1107,8 +1107,8 @@ export const gigiMovies: UserMovie[] = [
   },
 
   {
-    title: "Astérix et Obélix contre César",
-    director: "Claude Zidi",
+    title: 'Astérix et Obélix contre César',
+    director: 'Claude Zidi',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -1124,8 +1124,8 @@ export const gigiMovies: UserMovie[] = [
   },
 
   {
-    title: "Astérix & Obélix : Mission Cléopâtre",
-    director: "Alain Chabat",
+    title: 'Astérix & Obélix : Mission Cléopâtre',
+    director: 'Alain Chabat',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -1141,8 +1141,8 @@ export const gigiMovies: UserMovie[] = [
   },
 
   {
-    title: "Astérix aux Jeux Olympiques",
-    director: "Frédéric Forestier, Thomas Langmann",
+    title: 'Astérix aux Jeux Olympiques',
+    director: 'Frédéric Forestier, Thomas Langmann',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -1159,7 +1159,7 @@ export const gigiMovies: UserMovie[] = [
 
   {
     title: "L'Associé du diable",
-    director: "Taylor Hackford",
+    director: 'Taylor Hackford',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -1175,8 +1175,8 @@ export const gigiMovies: UserMovie[] = [
   },
 
   {
-    title: "Le Cinquième Élément",
-    director: "Luc Besson",
+    title: 'Sixième Sens',
+    director: 'M. Night Shyamalan',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -1192,8 +1192,8 @@ export const gigiMovies: UserMovie[] = [
   },
 
   {
-    title: "Sixième Sens",
-    director: "M. Night Shyamalan",
+    title: 'Wild Wild West',
+    director: 'Barry Sonnenfeld',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -1209,8 +1209,8 @@ export const gigiMovies: UserMovie[] = [
   },
 
   {
-    title: "Wild Wild West",
-    director: "Barry Sonnenfeld",
+    title: 'Armageddon',
+    director: 'Michael Bay',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -1226,8 +1226,8 @@ export const gigiMovies: UserMovie[] = [
   },
 
   {
-    title: "Armageddon",
-    director: "Michael Bay",
+    title: 'Godzilla',
+    director: 'Roland Emmerich',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -1243,8 +1243,8 @@ export const gigiMovies: UserMovie[] = [
   },
 
   {
-    title: "Godzilla",
-    director: "Roland Emmerich",
+    title: 'Mon voisin le tueur',
+    director: 'Jonathan Lynn',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -1260,8 +1260,8 @@ export const gigiMovies: UserMovie[] = [
   },
 
   {
-    title: "Mon voisin le tueur",
-    director: "Jonathan Lynn",
+    title: 'La Ligne Verte',
+    director: 'Frank Darabont',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -1277,8 +1277,8 @@ export const gigiMovies: UserMovie[] = [
   },
 
   {
-    title: "La Ligne Verte",
-    director: "Frank Darabont",
+    title: 'À la Recherche du Bonheur',
+    director: 'Gabriele Muccino',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -1294,8 +1294,8 @@ export const gigiMovies: UserMovie[] = [
   },
 
   {
-    title: "À la Recherche du Bonheur",
-    director: "Gabriele Muccino",
+    title: '300',
+    director: 'Zack Snyder',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -1311,8 +1311,8 @@ export const gigiMovies: UserMovie[] = [
   },
 
   {
-    title: "300",
-    director: "Zack Snyder",
+    title: 'Le Prestige',
+    director: 'Christopher Nolan',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -1328,25 +1328,8 @@ export const gigiMovies: UserMovie[] = [
   },
 
   {
-    title: "Le Prestige",
-    director: "Christopher Nolan",
-    rating: 0,
-    timesWatched: 1,
-    firstViewedDate: '',
-    lastViewedDate: '',
-    seenAtCinema: false,
-    owned: false,
-    wantToSeeAgain: false,
-    watchPriority: 1,
-    ratingComment: '',
-    inList: [],
-    borrowed: '',
-    loaned: '',
-  },
-
-  {
-    title: "Les Infiltrés",
-    director: "Martin Scorsese",
+    title: 'Les Infiltrés',
+    director: 'Martin Scorsese',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -1363,7 +1346,7 @@ export const gigiMovies: UserMovie[] = [
 
   {
     title: "Le Diable s'Habille en Prada",
-    director: "David Frankel",
+    director: 'David Frankel',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -1379,8 +1362,8 @@ export const gigiMovies: UserMovie[] = [
   },
 
   {
-    title: "Babel",
-    director: "Alejandro González Iñárritu",
+    title: 'Babel',
+    director: 'Alejandro González Iñárritu',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -1396,8 +1379,8 @@ export const gigiMovies: UserMovie[] = [
   },
 
   {
-    title: "Da Vinci Code",
-    director: "Ron Howard",
+    title: 'Da Vinci Code',
+    director: 'Ron Howard',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -1413,8 +1396,8 @@ export const gigiMovies: UserMovie[] = [
   },
 
   {
-    title: "V pour Vendetta",
-    director: "James McTeigue",
+    title: 'V pour Vendetta',
+    director: 'James McTeigue',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -1430,8 +1413,8 @@ export const gigiMovies: UserMovie[] = [
   },
 
   {
-    title: "King Kong",
-    director: "Peter Jackson",
+    title: 'King Kong',
+    director: 'Peter Jackson',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -1447,8 +1430,8 @@ export const gigiMovies: UserMovie[] = [
   },
 
   {
-    title: "Lord of War",
-    director: "Andrew Niccol",
+    title: 'Lord of War',
+    director: 'Andrew Niccol',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -1464,8 +1447,8 @@ export const gigiMovies: UserMovie[] = [
   },
 
   {
-    title: "Serenity",
-    director: "Joss Whedon",
+    title: 'Serenity',
+    director: 'Joss Whedon',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -1482,7 +1465,7 @@ export const gigiMovies: UserMovie[] = [
 
   {
     title: "L'honneur du dragon",
-    director: "Prachya Pinkaew",
+    director: 'Prachya Pinkaew',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -1498,8 +1481,8 @@ export const gigiMovies: UserMovie[] = [
   },
 
   {
-    title: "40 Ans, Toujours Puceau",
-    director: "Judd Apatow",
+    title: '40 Ans, Toujours Puceau',
+    director: 'Judd Apatow',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -1515,8 +1498,8 @@ export const gigiMovies: UserMovie[] = [
   },
 
   {
-    title: "Sous haute pression",
-    director: "Wes Craven",
+    title: 'Sous haute pression',
+    director: 'Wes Craven',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -1532,8 +1515,8 @@ export const gigiMovies: UserMovie[] = [
   },
 
   {
-    title: "Charlie et la Chocolaterie",
-    director: "Tim Burton",
+    title: 'Charlie et la Chocolaterie',
+    director: 'Tim Burton',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -1549,8 +1532,8 @@ export const gigiMovies: UserMovie[] = [
   },
 
   {
-    title: "Mr. & Mrs. Smith",
-    director: "Doug Liman",
+    title: 'Mr. & Mrs. Smith',
+    director: 'Doug Liman',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -1566,8 +1549,8 @@ export const gigiMovies: UserMovie[] = [
   },
 
   {
-    title: "The Descent",
-    director: "Neil Marshall",
+    title: 'The Descent',
+    director: 'Neil Marshall',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -1583,8 +1566,8 @@ export const gigiMovies: UserMovie[] = [
   },
 
   {
-    title: "Baby Sittor",
-    director: "Adam Shankman",
+    title: 'Baby Sittor',
+    director: 'Adam Shankman',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -1600,8 +1583,8 @@ export const gigiMovies: UserMovie[] = [
   },
 
   {
-    title: "Million Dollar Baby",
-    director: "Clint Eastwood",
+    title: 'Million Dollar Baby',
+    director: 'Clint Eastwood',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -1617,8 +1600,8 @@ export const gigiMovies: UserMovie[] = [
   },
 
   {
-    title: "Leon",
-    director: "Luc Besson",
+    title: 'Leon',
+    director: 'Luc Besson',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -1634,8 +1617,8 @@ export const gigiMovies: UserMovie[] = [
   },
 
   {
-    title: "The Mask",
-    director: "Chuck Russell",
+    title: 'The Mask',
+    director: 'Chuck Russell',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -1651,8 +1634,8 @@ export const gigiMovies: UserMovie[] = [
   },
 
   {
-    title: "Forrest Gump",
-    director: "Robert Zemeckis",
+    title: 'Forrest Gump',
+    director: 'Robert Zemeckis',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -1668,8 +1651,8 @@ export const gigiMovies: UserMovie[] = [
   },
 
   {
-    title: "Speed",
-    director: "Jan de Bont",
+    title: 'Speed',
+    director: 'Jan de Bont',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -1685,8 +1668,8 @@ export const gigiMovies: UserMovie[] = [
   },
 
   {
-    title: "Pulp Fiction",
-    director: "Quentin Tarantino",
+    title: 'Pulp Fiction',
+    director: 'Quentin Tarantino',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -1702,8 +1685,8 @@ export const gigiMovies: UserMovie[] = [
   },
 
   {
-    title: "La cité de la peur",
-    director: "Alain Berbérian",
+    title: 'La cité de la peur',
+    director: 'Alain Berbérian',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -1719,8 +1702,8 @@ export const gigiMovies: UserMovie[] = [
   },
 
   {
-    title: "Mrs. Doubtfire",
-    director: "Chris Columbus",
+    title: 'Mrs. Doubtfire',
+    director: 'Chris Columbus',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -1736,8 +1719,8 @@ export const gigiMovies: UserMovie[] = [
   },
 
   {
-    title: "Le Dîner de Cons",
-    director: "Francis Veber",
+    title: 'Le Dîner de Cons',
+    director: 'Francis Veber',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -1753,8 +1736,8 @@ export const gigiMovies: UserMovie[] = [
   },
 
   {
-    title: "Will Hunting",
-    director: "Gus Van Sant",
+    title: 'Will Hunting',
+    director: 'Gus Van Sant',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -1770,8 +1753,8 @@ export const gigiMovies: UserMovie[] = [
   },
 
   {
-    title: "Kingsman : Services Secrets",
-    director: "Matthew Vaughn",
+    title: 'Kingsman : Services Secrets',
+    director: 'Matthew Vaughn',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -1787,8 +1770,8 @@ export const gigiMovies: UserMovie[] = [
   },
 
   {
-    title: "Kingsman: The Golden Circle",
-    director: "Matthew Vaughn",
+    title: 'Kingsman: The Golden Circle',
+    director: 'Matthew Vaughn',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -1804,8 +1787,8 @@ export const gigiMovies: UserMovie[] = [
   },
 
   {
-    title: "Death Note",
-    director: "Adam Wingard",
+    title: 'Death Note',
+    director: 'Adam Wingard',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -1822,7 +1805,7 @@ export const gigiMovies: UserMovie[] = [
 
   {
     title: "The Hitman's Bodyguard",
-    director: "Patrick Hughes",
+    director: 'Patrick Hughes',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -1838,8 +1821,8 @@ export const gigiMovies: UserMovie[] = [
   },
 
   {
-    title: "Valerian and the City of a Thousand Planets",
-    director: "Luc Besson",
+    title: 'Valerian and the City of a Thousand Planets',
+    director: 'Luc Besson',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -1855,8 +1838,8 @@ export const gigiMovies: UserMovie[] = [
   },
 
   {
-    title: "Le Labyrinthe : La Terre Brûlée",
-    director: "Wes Ball",
+    title: 'Le Labyrinthe : La Terre Brûlée',
+    director: 'Wes Ball',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -1872,8 +1855,8 @@ export const gigiMovies: UserMovie[] = [
   },
 
   {
-    title: "Pixels",
-    director: "Chris Columbus",
+    title: 'Pixels',
+    director: 'Chris Columbus',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -1889,8 +1872,8 @@ export const gigiMovies: UserMovie[] = [
   },
 
   {
-    title: "Diversion",
-    director: "Glenn Ficarra, John Requa",
+    title: 'Diversion',
+    director: 'Glenn Ficarra, John Requa',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -1906,8 +1889,8 @@ export const gigiMovies: UserMovie[] = [
   },
 
   {
-    title: "Interstellar",
-    director: "Christopher Nolan",
+    title: 'Interstellar',
+    director: 'Christopher Nolan',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -1923,8 +1906,8 @@ export const gigiMovies: UserMovie[] = [
   },
 
   {
-    title: "Lucy",
-    director: "Luc Besson",
+    title: 'Lucy',
+    director: 'Luc Besson',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -1940,8 +1923,8 @@ export const gigiMovies: UserMovie[] = [
   },
 
   {
-    title: "Le médaillon",
-    director: "Gordon Chan",
+    title: 'Le médaillon',
+    director: 'Gordon Chan',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -1957,8 +1940,8 @@ export const gigiMovies: UserMovie[] = [
   },
 
   {
-    title: "Smoking",
-    director: "Kevin Donovan",
+    title: 'Smoking',
+    director: 'Kevin Donovan',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -1974,8 +1957,8 @@ export const gigiMovies: UserMovie[] = [
   },
 
   {
-    title: "Brice de Nice",
-    director: "James Huth",
+    title: 'Brice de Nice',
+    director: 'James Huth',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -1991,8 +1974,8 @@ export const gigiMovies: UserMovie[] = [
   },
 
   {
-    title: "La ligue des gentlemen extraordinaires",
-    director: "Stephen Norrington",
+    title: 'La ligue des gentlemen extraordinaires',
+    director: 'Stephen Norrington',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -2008,8 +1991,8 @@ export const gigiMovies: UserMovie[] = [
   },
 
   {
-    title: "La tour Montparnasse infernale",
-    director: "Charles Nemes",
+    title: 'La tour Montparnasse infernale',
+    director: 'Charles Nemes',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -2025,8 +2008,8 @@ export const gigiMovies: UserMovie[] = [
   },
 
   {
-    title: "Les Incorruptibles",
-    director: "Brian De Palma",
+    title: 'Les Incorruptibles',
+    director: 'Brian De Palma',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -2042,8 +2025,8 @@ export const gigiMovies: UserMovie[] = [
   },
 
   {
-    title: "Le flic de Beverly Hills",
-    director: "Martin Brest",
+    title: 'Le flic de Beverly Hills',
+    director: 'Martin Brest',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -2059,8 +2042,8 @@ export const gigiMovies: UserMovie[] = [
   },
 
   {
-    title: "Karate Kid",
-    director: "John G. Avildsen",
+    title: 'Karate Kid',
+    director: 'John G. Avildsen',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -2076,8 +2059,8 @@ export const gigiMovies: UserMovie[] = [
   },
 
   {
-    title: "Prédictions",
-    director: "Alex Proyas",
+    title: 'Prédictions',
+    director: 'Alex Proyas',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -2093,8 +2076,8 @@ export const gigiMovies: UserMovie[] = [
   },
 
   {
-    title: "Sept Vies",
-    director: "Gabriele Muccino",
+    title: 'Sept Vies',
+    director: 'Gabriele Muccino',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -2110,8 +2093,8 @@ export const gigiMovies: UserMovie[] = [
   },
 
   {
-    title: "Gran Torino",
-    director: "Clint Eastwood",
+    title: 'Gran Torino',
+    director: 'Clint Eastwood',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -2127,8 +2110,8 @@ export const gigiMovies: UserMovie[] = [
   },
 
   {
-    title: "Ong Bak 2",
-    director: "Tony Jaa",
+    title: 'Ong Bak 2',
+    director: 'Tony Jaa',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -2144,8 +2127,8 @@ export const gigiMovies: UserMovie[] = [
   },
 
   {
-    title: "Wanted : Choisis ton Destin",
-    director: "Timur Bekmambetov",
+    title: 'Wanted : Choisis ton Destin',
+    director: 'Timur Bekmambetov',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -2161,8 +2144,8 @@ export const gigiMovies: UserMovie[] = [
   },
 
   {
-    title: "Never Back Down",
-    director: "Jeff Wadlow",
+    title: 'Never Back Down',
+    director: 'Jeff Wadlow',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -2178,8 +2161,8 @@ export const gigiMovies: UserMovie[] = [
   },
 
   {
-    title: "Jumper",
-    director: "Doug Liman",
+    title: 'Jumper',
+    director: 'Doug Liman',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -2195,8 +2178,8 @@ export const gigiMovies: UserMovie[] = [
   },
 
   {
-    title: "Je Suis une Légende",
-    director: "Francis Lawrence",
+    title: 'Je Suis une Légende',
+    director: 'Francis Lawrence',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -2212,8 +2195,8 @@ export const gigiMovies: UserMovie[] = [
   },
 
   {
-    title: "Evan tout-puissant",
-    director: "Tom Shadyac",
+    title: 'Evan tout-puissant',
+    director: 'Tom Shadyac',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -2229,8 +2212,8 @@ export const gigiMovies: UserMovie[] = [
   },
 
   {
-    title: "Premonition",
-    director: "Mennan Yapo",
+    title: 'Premonition',
+    director: 'Mennan Yapo',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -2247,7 +2230,7 @@ export const gigiMovies: UserMovie[] = [
 
   {
     title: "L'effaceur",
-    director: "Chuck Russell",
+    director: 'Chuck Russell',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -2263,8 +2246,8 @@ export const gigiMovies: UserMovie[] = [
   },
 
   {
-    title: "Jumanji",
-    director: "Joe Johnston",
+    title: 'Jumanji',
+    director: 'Joe Johnston',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -2280,8 +2263,8 @@ export const gigiMovies: UserMovie[] = [
   },
 
   {
-    title: "Seven",
-    director: "David Fincher",
+    title: 'Seven',
+    director: 'David Fincher',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -2297,8 +2280,8 @@ export const gigiMovies: UserMovie[] = [
   },
 
   {
-    title: "Judge Dredd",
-    director: "Danny Cannon",
+    title: 'Judge Dredd',
+    director: 'Danny Cannon',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -2314,8 +2297,8 @@ export const gigiMovies: UserMovie[] = [
   },
 
   {
-    title: "Un indien dans la ville",
-    director: "Hervé Palud",
+    title: 'Un indien dans la ville',
+    director: 'Hervé Palud',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -2331,8 +2314,8 @@ export const gigiMovies: UserMovie[] = [
   },
 
   {
-    title: "Super 8",
-    director: "J.J. Abrams",
+    title: 'Super 8',
+    director: 'J.J. Abrams',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -2348,8 +2331,8 @@ export const gigiMovies: UserMovie[] = [
   },
 
   {
-    title: "The Social Network",
-    director: "David Fincher",
+    title: 'The Social Network',
+    director: 'David Fincher',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -2365,8 +2348,8 @@ export const gigiMovies: UserMovie[] = [
   },
 
   {
-    title: "Inception",
-    director: "Christopher Nolan",
+    title: 'Inception',
+    director: 'Christopher Nolan',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -2382,8 +2365,8 @@ export const gigiMovies: UserMovie[] = [
   },
 
   {
-    title: "Fatal",
-    director: "Michaël Youn",
+    title: 'Fatal',
+    director: 'Michaël Youn',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -2399,8 +2382,8 @@ export const gigiMovies: UserMovie[] = [
   },
 
   {
-    title: "The Karate Kid",
-    director: "Harald Zwart",
+    title: 'The Karate Kid',
+    director: 'Harald Zwart',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -2416,8 +2399,8 @@ export const gigiMovies: UserMovie[] = [
   },
 
   {
-    title: "Le Choc des Titans",
-    director: "Louis Leterrier",
+    title: 'Le Choc des Titans',
+    director: 'Louis Leterrier',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -2433,8 +2416,8 @@ export const gigiMovies: UserMovie[] = [
   },
 
   {
-    title: "Alice au Pays des Merveilles",
-    director: "Tim Burton",
+    title: 'Alice au Pays des Merveilles',
+    director: 'Tim Burton',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -2450,8 +2433,8 @@ export const gigiMovies: UserMovie[] = [
   },
 
   {
-    title: "Shutter Island",
-    director: "Martin Scorsese",
+    title: 'Shutter Island',
+    director: 'Martin Scorsese',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -2467,8 +2450,8 @@ export const gigiMovies: UserMovie[] = [
   },
 
   {
-    title: "Percy Jackson : Le Voleur de Foudre",
-    director: "Chris Columbus",
+    title: 'Percy Jackson : Le Voleur de Foudre',
+    director: 'Chris Columbus',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -2484,8 +2467,8 @@ export const gigiMovies: UserMovie[] = [
   },
 
   {
-    title: "Brothers",
-    director: "Jim Sheridan",
+    title: 'Brothers',
+    director: 'Jim Sheridan',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -2501,8 +2484,8 @@ export const gigiMovies: UserMovie[] = [
   },
 
   {
-    title: "2012",
-    director: "Roland Emmerich",
+    title: '2012',
+    director: 'Roland Emmerich',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -2518,8 +2501,8 @@ export const gigiMovies: UserMovie[] = [
   },
 
   {
-    title: "Zombieland",
-    director: "Ruben Fleischer",
+    title: 'Zombieland',
+    director: 'Ruben Fleischer',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -2535,8 +2518,8 @@ export const gigiMovies: UserMovie[] = [
   },
 
   {
-    title: "Maléfique",
-    director: "Robert Stromberg",
+    title: 'Maléfique',
+    director: 'Robert Stromberg',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -2552,8 +2535,8 @@ export const gigiMovies: UserMovie[] = [
   },
 
   {
-    title: "Edge of Tomorrow",
-    director: "Doug Liman",
+    title: 'Edge of Tomorrow',
+    director: 'Doug Liman',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -2569,8 +2552,8 @@ export const gigiMovies: UserMovie[] = [
   },
 
   {
-    title: "Robocop",
-    director: "José Padilha",
+    title: 'Robocop',
+    director: 'José Padilha',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -2586,8 +2569,8 @@ export const gigiMovies: UserMovie[] = [
   },
 
   {
-    title: "Le Loup de Wall Street",
-    director: "Martin Scorsese",
+    title: 'Le Loup de Wall Street',
+    director: 'Martin Scorsese',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -2603,8 +2586,8 @@ export const gigiMovies: UserMovie[] = [
   },
 
   {
-    title: "Gravity",
-    director: "Alfonso Cuarón",
+    title: 'Gravity',
+    director: 'Alfonso Cuarón',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -2620,8 +2603,8 @@ export const gigiMovies: UserMovie[] = [
   },
 
   {
-    title: "Gods of Egypt",
-    director: "Alex Proyas",
+    title: 'Gods of Egypt',
+    director: 'Alex Proyas',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -2637,8 +2620,8 @@ export const gigiMovies: UserMovie[] = [
   },
 
   {
-    title: "Elysium",
-    director: "Neill Blomkamp",
+    title: 'Elysium',
+    director: 'Neill Blomkamp',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -2654,8 +2637,8 @@ export const gigiMovies: UserMovie[] = [
   },
 
   {
-    title: "Pacific Rim",
-    director: "Guillermo del Toro",
+    title: 'Pacific Rim',
+    director: 'Guillermo del Toro',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -2671,8 +2654,8 @@ export const gigiMovies: UserMovie[] = [
   },
 
   {
-    title: "World War Z",
-    director: "Marc Forster",
+    title: 'World War Z',
+    director: 'Marc Forster',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -2688,8 +2671,8 @@ export const gigiMovies: UserMovie[] = [
   },
 
   {
-    title: "After Earth",
-    director: "M. Night Shyamalan",
+    title: 'After Earth',
+    director: 'M. Night Shyamalan',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -2705,8 +2688,8 @@ export const gigiMovies: UserMovie[] = [
   },
 
   {
-    title: "No pain no gain",
-    director: "Michael Bay",
+    title: 'No pain no gain',
+    director: 'Michael Bay',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -2722,8 +2705,8 @@ export const gigiMovies: UserMovie[] = [
   },
 
   {
-    title: "Oblivion",
-    director: "Joseph Kosinski",
+    title: 'Oblivion',
+    director: 'Joseph Kosinski',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -2739,8 +2722,8 @@ export const gigiMovies: UserMovie[] = [
   },
 
   {
-    title: "Django Unchained",
-    director: "Quentin Tarantino",
+    title: 'Django Unchained',
+    director: 'Quentin Tarantino',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -2756,8 +2739,8 @@ export const gigiMovies: UserMovie[] = [
   },
 
   {
-    title: "The Dictator",
-    director: "Larry Charles",
+    title: 'The Dictator',
+    director: 'Larry Charles',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -2773,8 +2756,8 @@ export const gigiMovies: UserMovie[] = [
   },
 
   {
-    title: "Prometheus",
-    director: "Ridley Scott",
+    title: 'Prometheus',
+    director: 'Ridley Scott',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -2790,8 +2773,8 @@ export const gigiMovies: UserMovie[] = [
   },
 
   {
-    title: "21 Jump Street",
-    director: "Phil Lord, Christopher Miller",
+    title: '21 Jump Street',
+    director: 'Phil Lord, Christopher Miller',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -2807,8 +2790,8 @@ export const gigiMovies: UserMovie[] = [
   },
 
   {
-    title: "Chronicle",
-    director: "Josh Trank",
+    title: 'Chronicle',
+    director: 'Josh Trank',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -2824,8 +2807,8 @@ export const gigiMovies: UserMovie[] = [
   },
 
   {
-    title: "Time Out",
-    director: "Andrew Niccol",
+    title: 'Time Out',
+    director: 'Andrew Niccol',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -2841,8 +2824,8 @@ export const gigiMovies: UserMovie[] = [
   },
 
   {
-    title: "Real Steel",
-    director: "Shawn Levy",
+    title: 'Real Steel',
+    director: 'Shawn Levy',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -2858,8 +2841,8 @@ export const gigiMovies: UserMovie[] = [
   },
 
   {
-    title: "Intouchables",
-    director: "Olivier Nakache, Éric Toledano",
+    title: 'Intouchables',
+    director: 'Olivier Nakache, Éric Toledano',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -2875,8 +2858,8 @@ export const gigiMovies: UserMovie[] = [
   },
 
   {
-    title: "Never Back Down 2: The Beatdown",
-    director: "Michael Jai White",
+    title: 'Never Back Down 2: The Beatdown',
+    director: 'Michael Jai White',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -2892,8 +2875,8 @@ export const gigiMovies: UserMovie[] = [
   },
 
   {
-    title: "Cowboys & Aliens",
-    director: "Jon Favreau",
+    title: 'Cowboys & Aliens',
+    director: 'Jon Favreau',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -2909,8 +2892,8 @@ export const gigiMovies: UserMovie[] = [
   },
 
   {
-    title: "Kickboxer",
-    director: "Mark DiSalle, David Worth",
+    title: 'Kickboxer',
+    director: 'Mark DiSalle, David Worth',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -2926,8 +2909,8 @@ export const gigiMovies: UserMovie[] = [
   },
 
   {
-    title: "Inglourious Basterds",
-    director: "Quentin Tarantino",
+    title: 'Inglourious Basterds',
+    director: 'Quentin Tarantino',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -2943,8 +2926,8 @@ export const gigiMovies: UserMovie[] = [
   },
 
   {
-    title: "Hypertension",
-    director: "Neveldine/Taylor",
+    title: 'Hypertension',
+    director: 'Neveldine/Taylor',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -2960,8 +2943,8 @@ export const gigiMovies: UserMovie[] = [
   },
 
   {
-    title: "Piège en haute mer",
-    director: "Andrew Davis",
+    title: 'Piège en haute mer',
+    director: 'Andrew Davis',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -2977,8 +2960,8 @@ export const gigiMovies: UserMovie[] = [
   },
 
   {
-    title: "Reservoir Dogs",
-    director: "Quentin Tarantino",
+    title: 'Reservoir Dogs',
+    director: 'Quentin Tarantino',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -2994,8 +2977,8 @@ export const gigiMovies: UserMovie[] = [
   },
 
   {
-    title: "Point Break",
-    director: "Kathryn Bigelow",
+    title: 'Point Break',
+    director: 'Kathryn Bigelow',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -3011,8 +2994,8 @@ export const gigiMovies: UserMovie[] = [
   },
 
   {
-    title: "Total Recall",
-    director: "Paul Verhoeven",
+    title: 'Total Recall',
+    director: 'Paul Verhoeven',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -3028,8 +3011,8 @@ export const gigiMovies: UserMovie[] = [
   },
 
   {
-    title: "Nikita",
-    director: "Luc Besson",
+    title: 'Nikita',
+    director: 'Luc Besson',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -3045,8 +3028,8 @@ export const gigiMovies: UserMovie[] = [
   },
 
   {
-    title: "Last Action Hero",
-    director: "John McTiernan",
+    title: 'Last Action Hero',
+    director: 'John McTiernan',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -3062,8 +3045,8 @@ export const gigiMovies: UserMovie[] = [
   },
 
   {
-    title: "Les visiteurs",
-    director: "Jean-Marie Poiré",
+    title: 'Les visiteurs',
+    director: 'Jean-Marie Poiré',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -3079,8 +3062,8 @@ export const gigiMovies: UserMovie[] = [
   },
 
   {
-    title: "Le fugitif",
-    director: "Andrew Davis",
+    title: 'Le fugitif',
+    director: 'Andrew Davis',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -3096,8 +3079,8 @@ export const gigiMovies: UserMovie[] = [
   },
 
   {
-    title: "From Paris with Love",
-    director: "Pierre Morel",
+    title: 'From Paris with Love',
+    director: 'Pierre Morel',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -3113,8 +3096,8 @@ export const gigiMovies: UserMovie[] = [
   },
 
   {
-    title: "Ali G",
-    director: "Mark Mylod",
+    title: 'Ali G',
+    director: 'Mark Mylod',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -3130,8 +3113,8 @@ export const gigiMovies: UserMovie[] = [
   },
 
   {
-    title: "Les Evadés",
-    director: "Frank Darabont",
+    title: 'Les Evadés',
+    director: 'Frank Darabont',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -3147,8 +3130,8 @@ export const gigiMovies: UserMovie[] = [
   },
 
   {
-    title: "Adam à travers le temps",
-    director: "Shawn Levy",
+    title: 'Adam à travers le temps',
+    director: 'Shawn Levy',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -3164,8 +3147,8 @@ export const gigiMovies: UserMovie[] = [
   },
 
   {
-    title: "Renaissances",
-    director: "Tarsem Singh",
+    title: 'Renaissances',
+    director: 'Tarsem Singh',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -3181,8 +3164,8 @@ export const gigiMovies: UserMovie[] = [
   },
 
   {
-    title: "Looper",
-    director: "Rian Johnson",
+    title: 'Looper',
+    director: 'Rian Johnson',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -3198,8 +3181,8 @@ export const gigiMovies: UserMovie[] = [
   },
 
   {
-    title: "Seul sur Mars",
-    director: "Ridley Scott",
+    title: 'Seul sur Mars',
+    director: 'Ridley Scott',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -3216,7 +3199,7 @@ export const gigiMovies: UserMovie[] = [
 
   {
     title: "Ennemi d'Etat",
-    director: "Tony Scott",
+    director: 'Tony Scott',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -3232,8 +3215,8 @@ export const gigiMovies: UserMovie[] = [
   },
 
   {
-    title: "Ali",
-    director: "Michael Mann",
+    title: 'Ali',
+    director: 'Michael Mann',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -3249,8 +3232,8 @@ export const gigiMovies: UserMovie[] = [
   },
 
   {
-    title: "Seul contre tous",
-    director: "Peter Landesman",
+    title: 'Seul contre tous',
+    director: 'Peter Landesman',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -3266,8 +3249,8 @@ export const gigiMovies: UserMovie[] = [
   },
 
   {
-    title: "Bright",
-    director: "David Ayer",
+    title: 'Bright',
+    director: 'David Ayer',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -3283,8 +3266,8 @@ export const gigiMovies: UserMovie[] = [
   },
 
   {
-    title: "Le Cinquième Élément",
-    director: "Luc Besson",
+    title: 'Le Cinquième Élément',
+    director: 'Luc Besson',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',

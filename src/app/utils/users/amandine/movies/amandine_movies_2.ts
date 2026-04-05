@@ -2290,7 +2290,7 @@ export const amandineMovies2: UserMovies = [
     inList: [],
   },
   {
-    title: "Comment se débarrasser d'un mec en 10 jours",
+    title: 'Comment se faire larguer en dix leçons',
     director: 'Donald Petrie',
     rating: 0,
     timesWatched: 15,

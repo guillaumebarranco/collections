@@ -624,19 +624,6 @@ export const baseMoviesPage6: BaseMovie[] = [
     countryOrigin: ['États-Unis'],
   },
   {
-    title: 'Copains pour toujours',
-    director: 'Dennis Dugan',
-    actors: [{ name: 'Adam Sandler' }, { name: 'Kevin James' }],
-    coverUrl: '/movies_pictures/19458195.jpg',
-    releaseDate: '2010-06-25',
-    length: 102,
-    genre: ['Comédie'],
-    saga: '',
-    description: '',
-    fromEntity: null,
-    countryOrigin: ['États-Unis'],
-  },
-  {
     title: 'Zookeeper',
     director: 'Frank Coraci',
     actors: [{ name: 'Adam Sandler' }, { name: 'Kevin James' }],
@@ -1081,24 +1068,24 @@ export const baseMoviesPage6: BaseMovie[] = [
     director: 'David O. Russell',
     actors: [
       {
-        name: "Christian Bale",
+        name: 'Christian Bale',
       },
       {
-        name: "Bradley Cooper",
+        name: 'Bradley Cooper',
       },
       {
-        name: "Jennifer Lawrence",
+        name: 'Jennifer Lawrence',
       },
       {
-        name: "Amy Adams",
-      }
+        name: 'Amy Adams',
+      },
     ],
-    coverUrl: "/movies_pictures/199998.webp",
-    releaseDate: "2013-12-20",
+    coverUrl: '/movies_pictures/199998.webp',
+    releaseDate: '2013-12-20',
     length: 138,
     genre: ['Comédie', 'Drame'],
-    saga: "",
-    description: "",
+    saga: '',
+    description: '',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
   },

@@ -4151,23 +4151,6 @@ export const dantesMovies: UserMovie[] = [
   },
 
   {
-    title: "L'Arnacœur",
-    director: 'Pascal Chaumeil',
-    rating: 0,
-    timesWatched: 1,
-    firstViewedDate: '',
-    lastViewedDate: '',
-    seenAtCinema: false,
-    owned: false,
-    wantToSeeAgain: false,
-    watchPriority: 1,
-    ratingComment: '',
-    borrowed: '',
-    loaned: '',
-    inList: [],
-  },
-
-  {
     title: 'Coco',
     director: 'Lee Unkrich',
     rating: 0,

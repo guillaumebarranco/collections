@@ -36,6 +36,7 @@ import { BaseBook, UserBook } from '../../models/book-model';
 import { dantesBooks } from '../../utils/users/dantes/books/dantes_books';
 import { masterofmadnessBooks } from '../../utils/users/masterofmadness/books/masterofmadness_books';
 import { marinaBooks } from '../../utils/users/marina/books/marina_books';
+import { cassandreBooks } from '../../utils/users/cassandre/books/cassandre_books';
 
 export const allBaseBooks: BaseBook[] = [
   ...baseBooks,
@@ -79,6 +80,8 @@ export function getLocalBooksByUser(userId: string): UserBook[] {
       return [...masterofmadnessBooks];
     case 'marina':
       return [...marinaBooks];
+    case 'cassandre':
+      return [...cassandreBooks];
     default:
       return [];
   }

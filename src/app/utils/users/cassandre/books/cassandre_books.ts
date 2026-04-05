@@ -1,3 +1,46 @@
 import { UserBooks } from '../../../../models/book-model';
 
-export const cassandreBooks: UserBooks = [];
+export const cassandreBooks: UserBooks = [
+  {
+    title: 'Cinquante nuances de Grey',
+    author: 'E. L. James',
+    firstReadDate: '2024-02-10',
+    lastReadDate: '2024-02-18',
+    rating: 4,
+    readTimes: 1,
+    owned: true,
+    borrowed: '',
+    loaned: '',
+    readPriority: 1,
+    wantToReadAgain: false,
+    ratingComment: '',
+  },
+  {
+    title: 'Cinquante nuances plus sombres',
+    author: 'E. L. James',
+    firstReadDate: '2024-02-19',
+    lastReadDate: '2024-03-02',
+    rating: 4,
+    readTimes: 1,
+    owned: true,
+    borrowed: '',
+    loaned: '',
+    readPriority: 1,
+    wantToReadAgain: false,
+    ratingComment: '',
+  },
+  {
+    title: 'Cinquante nuances plus claires',
+    author: 'E. L. James',
+    firstReadDate: '2024-03-03',
+    lastReadDate: '2024-03-15',
+    rating: 3.5,
+    readTimes: 1,
+    owned: true,
+    borrowed: '',
+    loaned: '',
+    readPriority: 1,
+    wantToReadAgain: false,
+    ratingComment: '',
+  },
+];

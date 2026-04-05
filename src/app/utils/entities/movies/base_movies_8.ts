@@ -189,7 +189,7 @@ export const baseMoviesPage8: BaseMovie[] = [
     countryOrigin: ['États-Unis'],
   },
   {
-    title: "L'Imaginarium du Docte...",
+    title: "L'Imaginarium du Docteur Parnassus",
     director: 'Terry Gilliam',
     actors: [
       { name: 'Christopher Plummer' },
@@ -962,7 +962,7 @@ export const baseMoviesPage8: BaseMovie[] = [
       { name: 'Anya Taylor-Joy' },
       { name: 'Matt Smith' },
     ],
-    coverUrl: '/movies_pictures/9999ab020440.jpg',
+    coverUrl: '/movies_pictures/1064328.jpg',
     releaseDate: '2021-10-29',
     length: 116,
     genre: ['Drame', 'Horreur', 'Mystère'],
@@ -974,20 +974,18 @@ export const baseMoviesPage8: BaseMovie[] = [
   {
     title: "2001 : L'Odyssée de l'espace",
     director: 'Yannick Rolandeau',
-    actors: [
-
-    ],
-    coverUrl: "/movies_pictures/2001-lodyssee-de-lespace.jpg",
-    releaseDate: "2018-07-30",
+    actors: [],
+    coverUrl: '/movies_pictures/2001-lodyssee-de-lespace.jpg',
+    releaseDate: '2018-07-30',
     length: 0,
     genre: ['Science Fiction'],
-    saga: "",
-    description: "",
+    saga: '',
+    description: '',
     fromEntity: null,
     countryOrigin: ['France'],
   },
   {
-    title: 'First Man - Le Premier Homme s...',
+    title: 'First Man - Le Premier Homme sur la Lune',
     director: 'Damien Chazelle',
     actors: [
       { name: 'Ryan Gosling' },
@@ -2152,29 +2150,33 @@ export const baseMoviesPage8: BaseMovie[] = [
     director: 'Victor Fleming',
     actors: [
       {
-        name: "Vivien Leigh",
+        name: 'Vivien Leigh',
       },
       {
-        name: "Clark Gable",
+        name: 'Clark Gable',
       },
       {
-        name: "Olivia de Havilland",
+        name: 'Olivia de Havilland',
       },
       {
-        name: "Leslie Howard",
-      }
+        name: 'Leslie Howard',
+      },
     ],
-    coverUrl: "/movies_pictures/a9b1f1afbc30.jpg",
-    releaseDate: "1939-01-01",
+    coverUrl: '/movies_pictures/a9b1f1afbc30.jpg',
+    releaseDate: '1939-01-01',
     length: 238,
     genre: ['Drame'],
-    saga: "",
-    description: "",
-    fromEntity: { entityType: "book", title: "Autant en emporte le vent", secondEntityKey: "Margaret Mitchell" },
+    saga: '',
+    description: '',
+    fromEntity: {
+      entityType: 'book',
+      title: 'Autant en emporte le vent',
+      secondEntityKey: 'Margaret Mitchell',
+    },
     countryOrigin: ['États-Unis'],
   },
   {
-    title: 'Casse-Noisette et les quatr...',
+    title: 'Casse-Noisette et les Quatre Royaumes',
     director: 'Lasse Hallström, Joe Johnston',
     actors: [
       { name: 'Mackenzie Foy' },
@@ -2249,7 +2251,7 @@ export const baseMoviesPage8: BaseMovie[] = [
       { name: 'Colm Feore' },
       { name: 'Amy Ryan' },
     ],
-    coverUrl: '/movies_pictures/eeaad4fc4c3c.jpg',
+    coverUrl: '/movies_pictures/18998101.webp',
     releaseDate: '2008-10-31',
     length: 141,
     genre: ['Biographie', 'Policier', 'Drame'],
