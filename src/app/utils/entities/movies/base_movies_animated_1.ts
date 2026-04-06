@@ -51,17 +51,21 @@ export const baseMoviesAnimated: BaseMovie[] = [
     director: 'Bob Persichetti, Peter Ramsey, Rodney Rothman',
     actors: [
       {
-        name: "Shameik Moore",
-      }
+        name: 'Shameik Moore',
+      },
     ],
     coverUrl:
-      "/movies_pictures/251943-spider-man-into-the-spider-verse-0-150-0-225-crop.jpg",
-    releaseDate: "2018-12-14",
+      '/movies_pictures/251943-spider-man-into-the-spider-verse-0-150-0-225-crop.jpg',
+    releaseDate: '2018-12-14',
     length: 117,
     genre: ['Animation'],
-    saga: "Spider-Verse",
-    description: "",
-    fromEntity: { entityType: "comic", title: "Spider-Man", secondEntityKey: "J. Michael Straczynski" },
+    saga: 'Spider-Verse',
+    description: '',
+    fromEntity: {
+      entityType: 'comic',
+      title: 'Spider-Man',
+      secondEntityKey: 'J. Michael Straczynski',
+    },
     countryOrigin: ['États-Unis'],
   },
   {
@@ -69,17 +73,21 @@ export const baseMoviesAnimated: BaseMovie[] = [
     director: 'Joaquim Dos Santos, Kemp Powers, Justin K. Thompson',
     actors: [
       {
-        name: "Shameik Moore",
-      }
+        name: 'Shameik Moore',
+      },
     ],
     coverUrl:
-      "/movies_pictures/497631-spider-man-across-the-spider-verse-0-150-0-225-crop.jpg",
-    releaseDate: "2023-06-02",
+      '/movies_pictures/497631-spider-man-across-the-spider-verse-0-150-0-225-crop.jpg',
+    releaseDate: '2023-06-02',
     length: 140,
     genre: ['Animation'],
-    saga: "Spider-Verse",
-    description: "",
-    fromEntity: { entityType: "comic", title: "Spider-Man", secondEntityKey: "J. Michael Straczynski" },
+    saga: 'Spider-Verse',
+    description: '',
+    fromEntity: {
+      entityType: 'comic',
+      title: 'Spider-Man',
+      secondEntityKey: 'J. Michael Straczynski',
+    },
     countryOrigin: ['États-Unis'],
   },
   {
@@ -118,17 +126,21 @@ export const baseMoviesAnimated: BaseMovie[] = [
     director: 'Aaron Horvath, Michael Jelenic',
     actors: [
       {
-        name: "Chris Pratt",
-      }
+        name: 'Chris Pratt',
+      },
     ],
     coverUrl:
-      "/movies_pictures/432302-the-super-mario-bros-movie-0-150-0-225-crop.jpg",
-    releaseDate: "2023-04-05",
+      '/movies_pictures/432302-the-super-mario-bros-movie-0-150-0-225-crop.jpg',
+    releaseDate: '2023-04-05',
     length: 92,
     genre: ['Animation'],
-    saga: "",
-    description: "",
-    fromEntity: { entityType: "game", title: "Super Mario 2", secondEntityKey: "Nintendo" },
+    saga: '',
+    description: '',
+    fromEntity: {
+      entityType: 'game',
+      title: 'Super Mario 2',
+      secondEntityKey: 'Nintendo',
+    },
     countryOrigin: ['États-Unis'],
   },
   {
@@ -514,16 +526,20 @@ export const baseMoviesAnimated: BaseMovie[] = [
     director: 'David Silverman',
     actors: [
       {
-        name: "Dan Castellaneta",
-      }
+        name: 'Dan Castellaneta',
+      },
     ],
-    coverUrl: "/movies_pictures/2684-the-simpsons-movie-0-150-0-225-crop.jpg",
-    releaseDate: "2007-07-27",
+    coverUrl: '/movies_pictures/2684-the-simpsons-movie-0-150-0-225-crop.jpg',
+    releaseDate: '2007-07-27',
     length: 87,
     genre: ['Animation'],
-    saga: "",
-    description: "",
-    fromEntity: { entityType: "serie", title: "Les Simpsons", secondEntityKey: "Matt Groening" },
+    saga: '',
+    description: '',
+    fromEntity: {
+      entityType: 'serie',
+      title: 'Les Simpsons',
+      secondEntityKey: 'Matt Groening',
+    },
     countryOrigin: ['États-Unis'],
   },
   {
@@ -753,17 +769,21 @@ export const baseMoviesAnimated: BaseMovie[] = [
     director: 'Trey Parker',
     actors: [
       {
-        name: "Trey Parker",
-      }
+        name: 'Trey Parker',
+      },
     ],
     coverUrl:
-      "/movies_pictures/47125-south-park-bigger-longer-uncut-0-150-0-225-crop.jpg",
-    releaseDate: "1999-06-30",
+      '/movies_pictures/47125-south-park-bigger-longer-uncut-0-150-0-225-crop.jpg',
+    releaseDate: '1999-06-30',
     length: 81,
     genre: ['Animation'],
-    saga: "",
-    description: "",
-    fromEntity: { entityType: "serie", title: "South Park", secondEntityKey: "Trey Parker, Matt Stone" },
+    saga: '',
+    description: '',
+    fromEntity: {
+      entityType: 'serie',
+      title: 'South Park',
+      secondEntityKey: 'Trey Parker, Matt Stone',
+    },
     countryOrigin: ['États-Unis'],
   },
   {
@@ -1005,7 +1025,11 @@ export const baseMoviesAnimated: BaseMovie[] = [
     genre: ['Animation'],
     saga: 'One Piece OAV',
     description: '',
-    fromEntity: null,
+    fromEntity: {
+      entityType: 'manga',
+      title: 'One Piece',
+      secondEntityKey: 'Eiichirō Oda',
+    },
     countryOrigin: ['Japon'],
   },
   {
@@ -1019,7 +1043,11 @@ export const baseMoviesAnimated: BaseMovie[] = [
     genre: ['Animation'],
     saga: 'One Piece OAV',
     description: '',
-    fromEntity: null,
+    fromEntity: {
+      entityType: 'manga',
+      title: 'One Piece',
+      secondEntityKey: 'Eiichirō Oda',
+    },
     countryOrigin: ['Japon'],
   },
   {
@@ -1032,7 +1060,11 @@ export const baseMoviesAnimated: BaseMovie[] = [
     genre: ['Animation'],
     saga: 'One Piece OAV',
     description: '',
-    fromEntity: null,
+    fromEntity: {
+      entityType: 'manga',
+      title: 'One Piece',
+      secondEntityKey: 'Eiichirō Oda',
+    },
     countryOrigin: ['Japon'],
   },
   {
@@ -1046,7 +1078,11 @@ export const baseMoviesAnimated: BaseMovie[] = [
     genre: ['Animation'],
     saga: 'One Piece OAV',
     description: '',
-    fromEntity: null,
+    fromEntity: {
+      entityType: 'manga',
+      title: 'One Piece',
+      secondEntityKey: 'Eiichirō Oda',
+    },
     countryOrigin: ['Japon'],
   },
   {
@@ -1059,7 +1095,11 @@ export const baseMoviesAnimated: BaseMovie[] = [
     genre: ['Animation'],
     saga: 'One Piece OAV',
     description: '',
-    fromEntity: null,
+    fromEntity: {
+      entityType: 'manga',
+      title: 'One Piece',
+      secondEntityKey: 'Eiichirō Oda',
+    },
     countryOrigin: ['Japon'],
   },
   {
@@ -1072,7 +1112,11 @@ export const baseMoviesAnimated: BaseMovie[] = [
     genre: ['Animation'],
     saga: '',
     description: '',
-    fromEntity: null,
+    fromEntity: {
+      entityType: 'manga',
+      title: 'One Piece',
+      secondEntityKey: 'Eiichirō Oda',
+    },
     countryOrigin: ['Japon'],
   },
   {
@@ -1085,7 +1129,11 @@ export const baseMoviesAnimated: BaseMovie[] = [
     genre: ['Animation'],
     saga: '',
     description: '',
-    fromEntity: null,
+    fromEntity: {
+      entityType: 'manga',
+      title: 'One Piece',
+      secondEntityKey: 'Eiichirō Oda',
+    },
     countryOrigin: ['Japon'],
   },
   {
@@ -1108,7 +1156,11 @@ export const baseMoviesAnimated: BaseMovie[] = [
     genre: ['Animation'],
     saga: 'One Piece OAV',
     description: '',
-    fromEntity: null,
+    fromEntity: {
+      entityType: 'manga',
+      title: 'One Piece',
+      secondEntityKey: 'Eiichirō Oda',
+    },
     countryOrigin: ['Japon'],
   },
   {
@@ -1131,7 +1183,11 @@ export const baseMoviesAnimated: BaseMovie[] = [
     genre: ['Animation'],
     saga: 'One Piece OAV',
     description: '',
-    fromEntity: null,
+    fromEntity: {
+      entityType: 'manga',
+      title: 'One Piece',
+      secondEntityKey: 'Eiichirō Oda',
+    },
     countryOrigin: ['Japon'],
   },
   {
@@ -1144,7 +1200,11 @@ export const baseMoviesAnimated: BaseMovie[] = [
     genre: ['Animation'],
     saga: 'One Piece OAV',
     description: '',
-    fromEntity: null,
+    fromEntity: {
+      entityType: 'manga',
+      title: 'One Piece',
+      secondEntityKey: 'Eiichirō Oda',
+    },
     countryOrigin: ['Japon'],
   },
   {
@@ -1157,7 +1217,11 @@ export const baseMoviesAnimated: BaseMovie[] = [
     genre: ['Animation'],
     saga: 'One Piece OAV',
     description: '',
-    fromEntity: null,
+    fromEntity: {
+      entityType: 'manga',
+      title: 'One Piece',
+      secondEntityKey: 'Eiichirō Oda',
+    },
     countryOrigin: ['Japon'],
   },
   {
@@ -1180,7 +1244,11 @@ export const baseMoviesAnimated: BaseMovie[] = [
     genre: ['Animation'],
     saga: 'One Piece OAV',
     description: '',
-    fromEntity: null,
+    fromEntity: {
+      entityType: 'manga',
+      title: 'One Piece',
+      secondEntityKey: 'Eiichirō Oda',
+    },
     countryOrigin: ['Japon'],
   },
 
@@ -1248,22 +1316,26 @@ export const baseMoviesAnimated: BaseMovie[] = [
     director: 'Brandon Vietti',
     actors: [
       {
-        name: "Bruce Greenwood",
+        name: 'Bruce Greenwood',
       },
       {
-        name: "Jensen Ackles",
+        name: 'Jensen Ackles',
       },
       {
-        name: "Neil Patrick Harris",
-      }
+        name: 'Neil Patrick Harris',
+      },
     ],
-    coverUrl: "/movies_pictures/batman_under_the_red_hood.jpg",
-    releaseDate: "2010-09-01",
+    coverUrl: '/movies_pictures/batman_under_the_red_hood.jpg',
+    releaseDate: '2010-09-01',
     length: 75,
     genre: ['Animation'],
-    saga: "DC Animated Universe",
-    description: "",
-    fromEntity: { entityType: "comic", title: "Batman", secondEntityKey: "DC Comics" },
+    saga: 'DC Animated Universe',
+    description: '',
+    fromEntity: {
+      entityType: 'comic',
+      title: 'Batman',
+      secondEntityKey: 'DC Comics',
+    },
     countryOrigin: ['États-Unis'],
   },
   {
@@ -1409,22 +1481,26 @@ export const baseMoviesAnimated: BaseMovie[] = [
     director: 'Curt Geda',
     actors: [
       {
-        name: "Kevin Conroy",
+        name: 'Kevin Conroy',
       },
       {
-        name: "Kyra Sedgwick",
+        name: 'Kyra Sedgwick',
       },
       {
-        name: "Kimberly Brooks",
-      }
+        name: 'Kimberly Brooks',
+      },
     ],
-    coverUrl: "/movies_pictures/batman_mystery_of_the_batwoman.jpg",
-    releaseDate: "2003-10-21",
+    coverUrl: '/movies_pictures/batman_mystery_of_the_batwoman.jpg',
+    releaseDate: '2003-10-21',
     length: 75,
     genre: ['Animation'],
-    saga: "DC Animated Universe",
-    description: "",
-    fromEntity: { entityType: "comic", title: "Batman", secondEntityKey: "DC Comics" },
+    saga: 'DC Animated Universe',
+    description: '',
+    fromEntity: {
+      entityType: 'comic',
+      title: 'Batman',
+      secondEntityKey: 'DC Comics',
+    },
     countryOrigin: ['États-Unis'],
   },
 
@@ -1465,19 +1541,23 @@ export const baseMoviesAnimated: BaseMovie[] = [
         name: "Jason O'Mara",
       },
       {
-        name: "Stuart Allan",
+        name: 'Stuart Allan',
       },
       {
-        name: "Jeremy Sisto",
-      }
+        name: 'Jeremy Sisto',
+      },
     ],
-    coverUrl: "/movies_pictures/batman_vs_robin.jpg",
-    releaseDate: "2015-04-22",
+    coverUrl: '/movies_pictures/batman_vs_robin.jpg',
+    releaseDate: '2015-04-22',
     length: 76,
     genre: ['Animation'],
-    saga: "DC Animated Universe",
-    description: "",
-    fromEntity: { entityType: "comic", title: "Batman", secondEntityKey: "DC Comics" },
+    saga: 'DC Animated Universe',
+    description: '',
+    fromEntity: {
+      entityType: 'comic',
+      title: 'Batman',
+      secondEntityKey: 'DC Comics',
+    },
     countryOrigin: ['États-Unis'],
   },
   {
@@ -1485,22 +1565,26 @@ export const baseMoviesAnimated: BaseMovie[] = [
     director: 'Louis Clichy, Alexandre Astier',
     actors: [
       {
-        name: "Roger Carel",
+        name: 'Roger Carel',
       },
       {
-        name: "Lorànt Deutsch",
+        name: 'Lorànt Deutsch',
       },
       {
-        name: "Laurent Lafitte",
-      }
+        name: 'Laurent Lafitte',
+      },
     ],
-    coverUrl: "/movies_pictures/asterix_the_mansions_of_the_gods.jpg",
-    releaseDate: "2014-11-26",
+    coverUrl: '/movies_pictures/asterix_the_mansions_of_the_gods.jpg',
+    releaseDate: '2014-11-26',
     length: 85,
     genre: ['Comédie', 'Fantastique', 'Aventure', 'Animation'],
-    saga: "Astérix",
-    description: "",
-    fromEntity: { entityType: "bd", title: "Astérix le Gaulois", secondEntityKey: "René Goscinny" },
+    saga: 'Astérix',
+    description: '',
+    fromEntity: {
+      entityType: 'bd',
+      title: 'Astérix le Gaulois',
+      secondEntityKey: 'René Goscinny',
+    },
     countryOrigin: ['France'],
   },
   {
@@ -1508,22 +1592,26 @@ export const baseMoviesAnimated: BaseMovie[] = [
     director: 'Jay Oliva',
     actors: [
       {
-        name: "Peter Weller",
+        name: 'Peter Weller',
       },
       {
-        name: "Ariel Winter",
+        name: 'Ariel Winter',
       },
       {
-        name: "Michael Emerson",
-      }
+        name: 'Michael Emerson',
+      },
     ],
-    coverUrl: "/movies_pictures/batman_the_dark_knight_returns_part_2.jpg",
-    releaseDate: "2013-05-02",
+    coverUrl: '/movies_pictures/batman_the_dark_knight_returns_part_2.jpg',
+    releaseDate: '2013-05-02',
     length: 78,
     genre: ['Animation'],
-    saga: "DC Animated Universe",
-    description: "",
-    fromEntity: { entityType: "comic", title: "Batman", secondEntityKey: "DC Comics" },
+    saga: 'DC Animated Universe',
+    description: '',
+    fromEntity: {
+      entityType: 'comic',
+      title: 'Batman',
+      secondEntityKey: 'DC Comics',
+    },
     countryOrigin: ['États-Unis'],
   },
   {
@@ -1531,22 +1619,26 @@ export const baseMoviesAnimated: BaseMovie[] = [
     director: 'Jay Oliva',
     actors: [
       {
-        name: "Peter Weller",
+        name: 'Peter Weller',
       },
       {
-        name: "Ariel Winter",
+        name: 'Ariel Winter',
       },
       {
-        name: "David Selby",
-      }
+        name: 'David Selby',
+      },
     ],
-    coverUrl: "/movies_pictures/batman_the_dark_knight_returns_part_1.jpg",
-    releaseDate: "2013-05-02",
+    coverUrl: '/movies_pictures/batman_the_dark_knight_returns_part_1.jpg',
+    releaseDate: '2013-05-02',
     length: 76,
     genre: ['Animation'],
-    saga: "DC Animated Universe",
-    description: "",
-    fromEntity: { entityType: "comic", title: "Batman", secondEntityKey: "DC Comics" },
+    saga: 'DC Animated Universe',
+    description: '',
+    fromEntity: {
+      entityType: 'comic',
+      title: 'Batman',
+      secondEntityKey: 'DC Comics',
+    },
     countryOrigin: ['États-Unis'],
   },
   {
@@ -1600,22 +1692,26 @@ export const baseMoviesAnimated: BaseMovie[] = [
     director: 'Sam Liu, Lauren Montgomery',
     actors: [
       {
-        name: "Ben McKenzie",
+        name: 'Ben McKenzie',
       },
       {
-        name: "Bryan Cranston",
+        name: 'Bryan Cranston',
       },
       {
-        name: "Eliza Dushku",
-      }
+        name: 'Eliza Dushku',
+      },
     ],
-    coverUrl: "/movies_pictures/batman_year_one.jpg",
-    releaseDate: "2012-07-04",
+    coverUrl: '/movies_pictures/batman_year_one.jpg',
+    releaseDate: '2012-07-04',
     length: 64,
     genre: ['Animation'],
-    saga: "DC Animated Universe",
-    description: "",
-    fromEntity: { entityType: "comic", title: "Batman", secondEntityKey: "DC Comics" },
+    saga: 'DC Animated Universe',
+    description: '',
+    fromEntity: {
+      entityType: 'comic',
+      title: 'Batman',
+      secondEntityKey: 'DC Comics',
+    },
     countryOrigin: ['États-Unis'],
   },
   {

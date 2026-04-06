@@ -22,6 +22,7 @@ const FROM_ENTITY_TYPES = new Set([
   'comic',
   'manga',
   'manwha',
+  'movie',
   'serie',
 ]);
 

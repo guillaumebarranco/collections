@@ -44,6 +44,7 @@ export const baseSeriesAnimees: BaseSerie[] = [
     ],
     description: '',
     saga: '',
+    fromEntity: null,
     countryOrigin: 'Japon',
   },
   {
@@ -77,6 +78,7 @@ export const baseSeriesAnimees: BaseSerie[] = [
     ],
     description: '',
     saga: '',
+    fromEntity: null,
     countryOrigin: 'Japon',
   },
   {
@@ -131,6 +133,7 @@ export const baseSeriesAnimees: BaseSerie[] = [
     ],
     description: '',
     saga: '',
+    fromEntity: null,
     countryOrigin: 'Japon',
   },
   {
@@ -260,6 +263,7 @@ export const baseSeriesAnimees: BaseSerie[] = [
     ],
     description: '',
     saga: '',
+    fromEntity: null,
     countryOrigin: 'Japon',
   },
   {
@@ -388,6 +392,11 @@ export const baseSeriesAnimees: BaseSerie[] = [
     ],
     description: '',
     saga: '',
+    fromEntity: {
+      entityType: 'manga',
+      title: 'One Piece',
+      secondEntityKey: 'Eiichirō Oda',
+    },
     countryOrigin: 'Japon',
   },
   {
@@ -456,6 +465,7 @@ export const baseSeriesAnimees: BaseSerie[] = [
     ],
     description: '',
     saga: '',
+    fromEntity: null,
     countryOrigin: 'Japon',
   },
   {
@@ -504,6 +514,7 @@ export const baseSeriesAnimees: BaseSerie[] = [
     ],
     description: '',
     saga: '',
+    fromEntity: null,
     countryOrigin: 'Japon',
   },
   {
@@ -532,6 +543,7 @@ export const baseSeriesAnimees: BaseSerie[] = [
     ],
     description: '',
     saga: '',
+    fromEntity: null,
     countryOrigin: 'Japon',
   },
   {
@@ -540,7 +552,7 @@ export const baseSeriesAnimees: BaseSerie[] = [
     actors: [
       {
         name: 'Inconnu',
-      }
+      },
     ],
     coverUrl: '/series_pictures/3642167.jpg',
     releaseDate: '1986-02-26',
@@ -591,11 +603,16 @@ export const baseSeriesAnimees: BaseSerie[] = [
         seasonNumber: 9,
         nbEpisodes: 93,
         totalLength: 1860,
-      }
+      },
     ],
     description: '',
     saga: 'Dragon Ball',
     countryOrigin: 'Japon',
+    fromEntity: {
+      entityType: 'manga',
+      title: 'Dragon Ball',
+      secondEntityKey: 'Akira Toriyama',
+    },
   },
   {
     title: 'Dragon Ball Z',
@@ -603,7 +620,7 @@ export const baseSeriesAnimees: BaseSerie[] = [
     actors: [
       {
         name: 'Inconnu',
-      }
+      },
     ],
     coverUrl:
       '/series_pictures/334f00b53cf3ef848ea7048b25711bc98e8236ce1685a096990c80d0965835ea.png',
@@ -665,10 +682,15 @@ export const baseSeriesAnimees: BaseSerie[] = [
         seasonNumber: 11,
         nbEpisodes: 5,
         totalLength: 100,
-      }
+      },
     ],
     description: '',
     saga: 'Dragon Ball',
+    fromEntity: {
+      entityType: 'manga',
+      title: 'Dragon Ball',
+      secondEntityKey: 'Akira Toriyama',
+    },
     countryOrigin: 'Japon',
   },
   {
@@ -677,7 +699,7 @@ export const baseSeriesAnimees: BaseSerie[] = [
     actors: [
       {
         name: 'Inconnu',
-      }
+      },
     ],
     coverUrl: '/series_pictures/dragon_ball_gt.webp',
     releaseDate: '1996-02-07',
@@ -708,10 +730,15 @@ export const baseSeriesAnimees: BaseSerie[] = [
         seasonNumber: 5,
         nbEpisodes: 1,
         totalLength: 20,
-      }
+      },
     ],
     description: '',
     saga: 'Dragon Ball',
+    fromEntity: {
+      entityType: 'manga',
+      title: 'Dragon Ball',
+      secondEntityKey: 'Akira Toriyama',
+    },
     countryOrigin: 'Japon',
   },
   {
@@ -720,7 +747,7 @@ export const baseSeriesAnimees: BaseSerie[] = [
     actors: [
       {
         name: 'Inconnu',
-      }
+      },
     ],
     coverUrl: '/series_pictures/anime-dragon-ball-super-visuel-4.webp',
     releaseDate: '',
@@ -751,10 +778,15 @@ export const baseSeriesAnimees: BaseSerie[] = [
         seasonNumber: 5,
         nbEpisodes: 55,
         totalLength: 1100,
-      }
+      },
     ],
     description: '',
     saga: 'Dragon Ball',
+    fromEntity: {
+      entityType: 'manga',
+      title: 'Dragon Ball',
+      secondEntityKey: 'Akira Toriyama',
+    },
     countryOrigin: 'Japon',
   },
   {
@@ -763,7 +795,7 @@ export const baseSeriesAnimees: BaseSerie[] = [
     actors: [
       {
         name: 'Inconnu',
-      }
+      },
     ],
     coverUrl: '/series_pictures/Dragon-Ball-Daima-Anime-Tv-Series-Dvd.webp',
     releaseDate: '2024-10-11',
@@ -774,10 +806,15 @@ export const baseSeriesAnimees: BaseSerie[] = [
         seasonNumber: 1,
         nbEpisodes: 20,
         totalLength: 400,
-      }
+      },
     ],
     description: '',
     saga: 'Dragon Ball',
+    fromEntity: {
+      entityType: 'manga',
+      title: 'Dragon Ball',
+      secondEntityKey: 'Akira Toriyama',
+    },
     countryOrigin: 'Japon',
   },
   {
@@ -856,6 +893,7 @@ export const baseSeriesAnimees: BaseSerie[] = [
     ],
     description: '',
     saga: '',
+    fromEntity: null,
     countryOrigin: 'Japon',
   },
   {
@@ -879,6 +917,7 @@ export const baseSeriesAnimees: BaseSerie[] = [
     ],
     description: '',
     saga: '',
+    fromEntity: null,
     countryOrigin: 'Japon',
   },
   {
@@ -927,6 +966,7 @@ export const baseSeriesAnimees: BaseSerie[] = [
     ],
     description: '',
     saga: '',
+    fromEntity: null,
     countryOrigin: 'Japon',
   },
   {
@@ -950,6 +990,7 @@ export const baseSeriesAnimees: BaseSerie[] = [
     ],
     description: '',
     saga: '',
+    fromEntity: null,
     countryOrigin: 'Japon',
   },
   {
@@ -998,6 +1039,7 @@ export const baseSeriesAnimees: BaseSerie[] = [
     ],
     description: '',
     saga: '',
+    fromEntity: null,
     countryOrigin: 'Japon',
   },
   {
@@ -1021,6 +1063,7 @@ export const baseSeriesAnimees: BaseSerie[] = [
     ],
     description: '',
     saga: '',
+    fromEntity: null,
     countryOrigin: 'Japon',
   },
   {
@@ -1054,6 +1097,7 @@ export const baseSeriesAnimees: BaseSerie[] = [
     ],
     description: '',
     saga: '',
+    fromEntity: null,
     countryOrigin: 'Japon',
   },
   {
@@ -1082,6 +1126,7 @@ export const baseSeriesAnimees: BaseSerie[] = [
     ],
     description: '',
     saga: '',
+    fromEntity: null,
     countryOrigin: 'Japon',
   },
   {
@@ -1186,6 +1231,7 @@ export const baseSeriesAnimees: BaseSerie[] = [
     ],
     description: '',
     saga: '',
+    fromEntity: null,
     countryOrigin: 'Japon',
   },
   {
@@ -1315,6 +1361,7 @@ export const baseSeriesAnimees: BaseSerie[] = [
     ],
     description: '',
     saga: '',
+    fromEntity: null,
     countryOrigin: 'Japon',
   },
   {
@@ -1348,6 +1395,7 @@ export const baseSeriesAnimees: BaseSerie[] = [
     ],
     description: '',
     saga: '',
+    fromEntity: null,
     countryOrigin: 'Japon',
   },
   {
@@ -1382,6 +1430,7 @@ export const baseSeriesAnimees: BaseSerie[] = [
     ],
     description: '',
     saga: '',
+    fromEntity: null,
     countryOrigin: 'Japon',
   },
   {
@@ -1420,6 +1469,7 @@ export const baseSeriesAnimees: BaseSerie[] = [
     ],
     description: '',
     saga: '',
+    fromEntity: null,
     countryOrigin: 'Japon',
   },
   {
@@ -1443,6 +1493,7 @@ export const baseSeriesAnimees: BaseSerie[] = [
     ],
     description: '',
     saga: '',
+    fromEntity: null,
     countryOrigin: 'Japon',
   },
   {
@@ -1466,6 +1517,7 @@ export const baseSeriesAnimees: BaseSerie[] = [
     ],
     description: '',
     saga: '',
+    fromEntity: null,
     countryOrigin: 'Japon',
   },
   {
@@ -1519,6 +1571,7 @@ export const baseSeriesAnimees: BaseSerie[] = [
     ],
     description: '',
     saga: '',
+    fromEntity: null,
     countryOrigin: 'Japon',
   },
   {
@@ -1553,6 +1606,7 @@ export const baseSeriesAnimees: BaseSerie[] = [
     ],
     description: '',
     saga: '',
+    fromEntity: null,
     countryOrigin: 'Japon',
   },
   {
@@ -1576,6 +1630,7 @@ export const baseSeriesAnimees: BaseSerie[] = [
     ],
     description: '',
     saga: '',
+    fromEntity: null,
     countryOrigin: 'Japon',
   },
   {
@@ -1619,6 +1674,7 @@ export const baseSeriesAnimees: BaseSerie[] = [
     ],
     description: '',
     saga: '',
+    fromEntity: null,
     countryOrigin: 'Japon',
   },
   {
@@ -1642,6 +1698,7 @@ export const baseSeriesAnimees: BaseSerie[] = [
     ],
     description: '',
     saga: '',
+    fromEntity: null,
     countryOrigin: 'Japon',
   },
   {
@@ -1680,6 +1737,7 @@ export const baseSeriesAnimees: BaseSerie[] = [
     ],
     description: '',
     saga: '',
+    fromEntity: null,
     countryOrigin: 'France',
   },
   {
@@ -1703,6 +1761,7 @@ export const baseSeriesAnimees: BaseSerie[] = [
     ],
     description: '',
     saga: '',
+    fromEntity: null,
     countryOrigin: 'Japon',
   },
   {
@@ -1731,6 +1790,7 @@ export const baseSeriesAnimees: BaseSerie[] = [
     ],
     description: '',
     saga: '',
+    fromEntity: null,
     countryOrigin: 'Japon',
   },
   {
@@ -1784,6 +1844,7 @@ export const baseSeriesAnimees: BaseSerie[] = [
     ],
     description: '',
     saga: '',
+    fromEntity: null,
     countryOrigin: 'France',
   },
   {
@@ -1857,6 +1918,7 @@ export const baseSeriesAnimees: BaseSerie[] = [
     ],
     description: '',
     saga: '',
+    fromEntity: null,
     countryOrigin: 'États-Unis',
   },
   {
@@ -1930,6 +1992,7 @@ export const baseSeriesAnimees: BaseSerie[] = [
     ],
     description: '',
     saga: '',
+    fromEntity: null,
     countryOrigin: 'France',
   },
   {
@@ -1989,6 +2052,7 @@ export const baseSeriesAnimees: BaseSerie[] = [
     ],
     description: '',
     saga: '',
+    fromEntity: null,
     countryOrigin: 'États-Unis',
   },
   {
@@ -2022,6 +2086,7 @@ export const baseSeriesAnimees: BaseSerie[] = [
     ],
     description: '',
     saga: '',
+    fromEntity: null,
     countryOrigin: 'France',
   },
   {
@@ -2076,6 +2141,7 @@ export const baseSeriesAnimees: BaseSerie[] = [
     ],
     description: '',
     saga: '',
+    fromEntity: null,
     countryOrigin: 'France',
   },
   {
@@ -2129,6 +2195,7 @@ export const baseSeriesAnimees: BaseSerie[] = [
     ],
     description: '',
     saga: '',
+    fromEntity: null,
     countryOrigin: 'États-Unis',
   },
   {
@@ -2202,6 +2269,7 @@ export const baseSeriesAnimees: BaseSerie[] = [
     ],
     description: '',
     saga: '',
+    fromEntity: null,
     countryOrigin: 'États-Unis',
   },
   {
@@ -2225,6 +2293,7 @@ export const baseSeriesAnimees: BaseSerie[] = [
     ],
     description: '',
     saga: '',
+    fromEntity: null,
     countryOrigin: 'Japon',
   },
   {
@@ -2363,6 +2432,7 @@ export const baseSeriesAnimees: BaseSerie[] = [
     ],
     description: '',
     saga: '',
+    fromEntity: null,
     countryOrigin: 'Japon',
   },
   {
@@ -2391,6 +2461,7 @@ export const baseSeriesAnimees: BaseSerie[] = [
     ],
     description: '',
     saga: '',
+    fromEntity: null,
     countryOrigin: 'Japon',
   },
   {
@@ -2420,6 +2491,7 @@ export const baseSeriesAnimees: BaseSerie[] = [
     ],
     description: '',
     saga: '',
+    fromEntity: null,
     countryOrigin: 'Japon',
   },
   {
@@ -2443,6 +2515,7 @@ export const baseSeriesAnimees: BaseSerie[] = [
     ],
     description: '',
     saga: '',
+    fromEntity: null,
     countryOrigin: 'France',
   },
   {
@@ -2466,6 +2539,7 @@ export const baseSeriesAnimees: BaseSerie[] = [
     ],
     description: '',
     saga: '',
+    fromEntity: null,
     countryOrigin: 'Japon',
   },
   {
@@ -2504,6 +2578,7 @@ export const baseSeriesAnimees: BaseSerie[] = [
     ],
     description: '',
     saga: '',
+    fromEntity: null,
     countryOrigin: 'Japon',
   },
   {
@@ -2572,6 +2647,7 @@ export const baseSeriesAnimees: BaseSerie[] = [
     ],
     description: '',
     saga: '',
+    fromEntity: null,
     countryOrigin: 'Japon',
   },
   {
@@ -2630,6 +2706,7 @@ export const baseSeriesAnimees: BaseSerie[] = [
     ],
     description: '',
     saga: '',
+    fromEntity: null,
     countryOrigin: 'Japon',
   },
   {
@@ -2659,6 +2736,7 @@ export const baseSeriesAnimees: BaseSerie[] = [
     ],
     description: '',
     saga: '',
+    fromEntity: null,
     countryOrigin: 'Japon',
   },
   {
@@ -2666,18 +2744,18 @@ export const baseSeriesAnimees: BaseSerie[] = [
     director: 'Seiji Kishi',
     actors: [
       {
-        name: "Jun Fukuyama",
+        name: 'Jun Fukuyama',
       },
       {
-        name: "Mai Fuchigami",
+        name: 'Mai Fuchigami',
       },
       {
-        name: "Bryce Papenbrook",
-      }
+        name: 'Bryce Papenbrook',
+      },
     ],
-    coverUrl: "/series_pictures/assassination-classroom.jpg",
-    releaseDate: "2015-01-09",
-    endDate: "2016-06-30",
+    coverUrl: '/series_pictures/assassination-classroom.jpg',
+    releaseDate: '2015-01-09',
+    endDate: '2016-06-30',
     genre: ['Anime'],
     seasonsData: [
       {
@@ -2689,12 +2767,16 @@ export const baseSeriesAnimees: BaseSerie[] = [
         seasonNumber: 2,
         nbEpisodes: 25,
         totalLength: 571,
-      }
+      },
     ],
-    description: "",
-    saga: "",
-    countryOrigin: "Japon",
-      fromEntity: { entityType: "manga", title: "Assassination Classroom", secondEntityKey: "Matsui Yuusei" },
+    description: '',
+    saga: '',
+    countryOrigin: 'Japon',
+    fromEntity: {
+      entityType: 'manga',
+      title: 'Assassination Classroom',
+      secondEntityKey: 'Matsui Yuusei',
+    },
   },
   {
     title: 'Soul Eater',
@@ -2723,6 +2805,7 @@ export const baseSeriesAnimees: BaseSerie[] = [
     ],
     description: '',
     saga: '',
+    fromEntity: null,
     countryOrigin: 'Japon',
   },
 
@@ -2758,6 +2841,7 @@ export const baseSeriesAnimees: BaseSerie[] = [
     ],
     description: '',
     saga: '',
+    fromEntity: null,
     countryOrigin: 'Japon',
   },
 
@@ -2793,6 +2877,7 @@ export const baseSeriesAnimees: BaseSerie[] = [
     ],
     description: '',
     saga: '',
+    fromEntity: null,
     countryOrigin: 'Japon',
   },
 
@@ -2833,6 +2918,7 @@ export const baseSeriesAnimees: BaseSerie[] = [
     ],
     description: '',
     saga: '',
+    fromEntity: null,
     countryOrigin: 'Japon',
   },
   {
@@ -2877,6 +2963,7 @@ export const baseSeriesAnimees: BaseSerie[] = [
     ],
     description: '',
     saga: '',
+    fromEntity: null,
     countryOrigin: 'Japon',
   },
   {
@@ -2916,6 +3003,7 @@ export const baseSeriesAnimees: BaseSerie[] = [
     ],
     description: '',
     saga: '',
+    fromEntity: null,
     countryOrigin: 'Japon',
   },
   {
@@ -2981,6 +3069,7 @@ export const baseSeriesAnimees: BaseSerie[] = [
     ],
     description: '',
     saga: '',
+    fromEntity: null,
     countryOrigin: 'États-Unis',
   },
   {
@@ -3010,6 +3099,7 @@ export const baseSeriesAnimees: BaseSerie[] = [
     ],
     description: '',
     saga: '',
+    fromEntity: null,
     countryOrigin: 'Japon',
   },
   {
@@ -3209,6 +3299,7 @@ export const baseSeriesAnimees: BaseSerie[] = [
     ],
     description: '',
     saga: '',
+    fromEntity: null,
     countryOrigin: 'États-Unis',
   },
   {
@@ -3238,6 +3329,7 @@ export const baseSeriesAnimees: BaseSerie[] = [
     ],
     description: '',
     saga: '',
+    fromEntity: null,
     countryOrigin: 'France',
   },
   {
@@ -3273,6 +3365,7 @@ export const baseSeriesAnimees: BaseSerie[] = [
     ],
     description: '',
     saga: '',
+    fromEntity: null,
     countryOrigin: 'États-Unis',
   },
   {
@@ -3312,6 +3405,7 @@ export const baseSeriesAnimees: BaseSerie[] = [
     ],
     description: '',
     saga: '',
+    fromEntity: null,
     countryOrigin: 'États-Unis',
   },
   {
@@ -3351,6 +3445,7 @@ export const baseSeriesAnimees: BaseSerie[] = [
     ],
     description: '',
     saga: '',
+    fromEntity: null,
     countryOrigin: 'Japon',
   },
   {
@@ -3510,6 +3605,7 @@ export const baseSeriesAnimees: BaseSerie[] = [
     ],
     description: '',
     saga: '',
+    fromEntity: null,
     countryOrigin: 'États-Unis',
   },
   {
@@ -3524,7 +3620,7 @@ export const baseSeriesAnimees: BaseSerie[] = [
       },
       {
         name: 'James Arnold Taylor',
-      }
+      },
     ],
     coverUrl: '/series_pictures/Poster_de_The_Clone_Wars_le_film.webp',
     releaseDate: '2008-10-03',
@@ -3565,10 +3661,15 @@ export const baseSeriesAnimees: BaseSerie[] = [
         seasonNumber: 7,
         nbEpisodes: 12,
         totalLength: 360,
-      }
+      },
     ],
     description: '',
     saga: 'Star Wars',
+    fromEntity: {
+      entityType: 'movie',
+      title: 'Star Wars : Episode 4 - Un nouvel espoir',
+      secondEntityKey: 'George Lucas',
+    },
     countryOrigin: 'États-Unis',
   },
   {
@@ -3583,7 +3684,7 @@ export const baseSeriesAnimees: BaseSerie[] = [
       },
       {
         name: 'Freddie Prinze Jr.',
-      }
+      },
     ],
     coverUrl: '/series_pictures/Rebels_saison_4.webp',
     releaseDate: '2014-10-03',
@@ -3609,10 +3710,15 @@ export const baseSeriesAnimees: BaseSerie[] = [
         seasonNumber: 4,
         nbEpisodes: 15,
         totalLength: 480,
-      }
+      },
     ],
     description: '',
     saga: 'Star Wars',
+    fromEntity: {
+      entityType: 'movie',
+      title: 'Star Wars : Episode 4 - Un nouvel espoir',
+      secondEntityKey: 'George Lucas',
+    },
     countryOrigin: 'États-Unis',
   },
   {
@@ -3652,6 +3758,7 @@ export const baseSeriesAnimees: BaseSerie[] = [
     ],
     description: '',
     saga: '',
+    fromEntity: null,
     countryOrigin: 'France',
   },
   {
@@ -3696,6 +3803,7 @@ export const baseSeriesAnimees: BaseSerie[] = [
     ],
     description: '',
     saga: '',
+    fromEntity: null,
     countryOrigin: 'Japon',
   },
   {
@@ -3724,6 +3832,7 @@ export const baseSeriesAnimees: BaseSerie[] = [
     ],
     description: '',
     saga: '',
+    fromEntity: null,
     countryOrigin: 'Japon',
   },
   {
@@ -3747,6 +3856,7 @@ export const baseSeriesAnimees: BaseSerie[] = [
     ],
     description: '',
     saga: '',
+    fromEntity: null,
     countryOrigin: 'Japon',
   },
   {
@@ -3780,6 +3890,7 @@ export const baseSeriesAnimees: BaseSerie[] = [
     ],
     description: '',
     saga: '',
+    fromEntity: null,
     countryOrigin: 'Japon',
   },
   {
@@ -3803,6 +3914,7 @@ export const baseSeriesAnimees: BaseSerie[] = [
     ],
     description: '',
     saga: '',
+    fromEntity: null,
     countryOrigin: 'Japon',
   },
   {
@@ -3841,6 +3953,7 @@ export const baseSeriesAnimees: BaseSerie[] = [
     ],
     description: '',
     saga: '',
+    fromEntity: null,
     countryOrigin: 'Japon',
   },
   {
@@ -3879,6 +3992,7 @@ export const baseSeriesAnimees: BaseSerie[] = [
     ],
     description: '',
     saga: '',
+    fromEntity: null,
     countryOrigin: 'Japon',
   },
   {
@@ -3942,6 +4056,7 @@ export const baseSeriesAnimees: BaseSerie[] = [
     ],
     description: '',
     saga: '',
+    fromEntity: null,
     countryOrigin: 'Japon',
   },
   {
@@ -3971,6 +4086,7 @@ export const baseSeriesAnimees: BaseSerie[] = [
     ],
     description: '',
     saga: '',
+    fromEntity: null,
     countryOrigin: 'Japon',
   },
   {
@@ -3994,6 +4110,7 @@ export const baseSeriesAnimees: BaseSerie[] = [
     ],
     description: '',
     saga: '',
+    fromEntity: null,
     countryOrigin: 'Japon',
   },
   {
@@ -4017,6 +4134,7 @@ export const baseSeriesAnimees: BaseSerie[] = [
     ],
     description: '',
     saga: '',
+    fromEntity: null,
     countryOrigin: 'Japon',
   },
   {
@@ -4040,6 +4158,7 @@ export const baseSeriesAnimees: BaseSerie[] = [
     ],
     description: '',
     saga: '',
+    fromEntity: null,
     countryOrigin: 'Japon',
   },
   {
@@ -4068,6 +4187,7 @@ export const baseSeriesAnimees: BaseSerie[] = [
     ],
     description: '',
     saga: '',
+    fromEntity: null,
     countryOrigin: 'Japon',
   },
   {
@@ -4131,6 +4251,7 @@ export const baseSeriesAnimees: BaseSerie[] = [
     ],
     description: '',
     saga: '',
+    fromEntity: null,
     countryOrigin: 'États-Unis',
   },
   {
@@ -4154,6 +4275,7 @@ export const baseSeriesAnimees: BaseSerie[] = [
     ],
     description: '',
     saga: '',
+    fromEntity: null,
     countryOrigin: 'Japon',
   },
   {
@@ -4177,6 +4299,7 @@ export const baseSeriesAnimees: BaseSerie[] = [
     ],
     description: '',
     saga: '',
+    fromEntity: null,
     countryOrigin: 'Japon',
   },
   {
@@ -4200,6 +4323,7 @@ export const baseSeriesAnimees: BaseSerie[] = [
     ],
     description: '',
     saga: '',
+    fromEntity: null,
     countryOrigin: 'Japon',
   },
   {
@@ -4228,6 +4352,7 @@ export const baseSeriesAnimees: BaseSerie[] = [
     ],
     description: '',
     saga: '',
+    fromEntity: null,
     countryOrigin: 'Japon',
   },
   {
@@ -4251,6 +4376,7 @@ export const baseSeriesAnimees: BaseSerie[] = [
     ],
     description: '',
     saga: '',
+    fromEntity: null,
     countryOrigin: 'Japon',
   },
   {
@@ -4290,6 +4416,7 @@ export const baseSeriesAnimees: BaseSerie[] = [
     ],
     description: '',
     saga: '',
+    fromEntity: null,
     countryOrigin: 'Japon',
   },
   {
@@ -4313,6 +4440,7 @@ export const baseSeriesAnimees: BaseSerie[] = [
     ],
     description: '',
     saga: '',
+    fromEntity: null,
     countryOrigin: 'Japon',
   },
   {
@@ -4351,6 +4479,7 @@ export const baseSeriesAnimees: BaseSerie[] = [
     ],
     description: '',
     saga: '',
+    fromEntity: null,
     countryOrigin: 'Japon',
   },
   {
@@ -4374,6 +4503,7 @@ export const baseSeriesAnimees: BaseSerie[] = [
     ],
     description: '',
     saga: '',
+    fromEntity: null,
     countryOrigin: 'Japon',
   },
   {
@@ -4402,6 +4532,7 @@ export const baseSeriesAnimees: BaseSerie[] = [
     ],
     description: '',
     saga: '',
+    fromEntity: null,
     countryOrigin: 'Japon',
   },
   {
@@ -4425,6 +4556,7 @@ export const baseSeriesAnimees: BaseSerie[] = [
     ],
     description: '',
     saga: '',
+    fromEntity: null,
     countryOrigin: 'Japon',
   },
   {
@@ -4458,6 +4590,7 @@ export const baseSeriesAnimees: BaseSerie[] = [
     ],
     description: '',
     saga: '',
+    fromEntity: null,
     countryOrigin: 'Japon',
   },
   {
@@ -4486,6 +4619,7 @@ export const baseSeriesAnimees: BaseSerie[] = [
     ],
     description: '',
     saga: '',
+    fromEntity: null,
     countryOrigin: 'Japon',
   },
   {
@@ -4514,6 +4648,7 @@ export const baseSeriesAnimees: BaseSerie[] = [
     ],
     description: '',
     saga: '',
+    fromEntity: null,
     countryOrigin: 'Japon',
   },
   {
@@ -4537,6 +4672,7 @@ export const baseSeriesAnimees: BaseSerie[] = [
     ],
     description: '',
     saga: '',
+    fromEntity: null,
     countryOrigin: 'Japon',
   },
   {
@@ -4565,6 +4701,7 @@ export const baseSeriesAnimees: BaseSerie[] = [
     ],
     description: '',
     saga: '',
+    fromEntity: null,
     countryOrigin: 'Japon',
   },
   {
@@ -4593,6 +4730,7 @@ export const baseSeriesAnimees: BaseSerie[] = [
     ],
     description: '',
     saga: '',
+    fromEntity: null,
     countryOrigin: 'Japon',
   },
   {
@@ -4616,6 +4754,7 @@ export const baseSeriesAnimees: BaseSerie[] = [
     ],
     description: '',
     saga: '',
+    fromEntity: null,
     countryOrigin: 'Japon',
   },
   {
@@ -4650,6 +4789,7 @@ export const baseSeriesAnimees: BaseSerie[] = [
     ],
     description: '',
     saga: '',
+    fromEntity: null,
     countryOrigin: 'Japon',
   },
   {
@@ -4673,6 +4813,7 @@ export const baseSeriesAnimees: BaseSerie[] = [
     ],
     description: '',
     saga: '',
+    fromEntity: null,
     countryOrigin: 'Japon',
   },
   {
@@ -4696,6 +4837,7 @@ export const baseSeriesAnimees: BaseSerie[] = [
     ],
     description: '',
     saga: '',
+    fromEntity: null,
     countryOrigin: 'Japon',
   },
   {
@@ -4719,6 +4861,7 @@ export const baseSeriesAnimees: BaseSerie[] = [
     ],
     description: '',
     saga: '',
+    fromEntity: null,
     countryOrigin: 'Japon',
   },
   {
@@ -4742,6 +4885,7 @@ export const baseSeriesAnimees: BaseSerie[] = [
     ],
     description: '',
     saga: '',
+    fromEntity: null,
     countryOrigin: 'Japon',
   },
   {
@@ -4765,6 +4909,7 @@ export const baseSeriesAnimees: BaseSerie[] = [
     ],
     description: '',
     saga: '',
+    fromEntity: null,
     countryOrigin: 'Japon',
   },
   {
@@ -4808,6 +4953,7 @@ export const baseSeriesAnimees: BaseSerie[] = [
     ],
     description: '',
     saga: '',
+    fromEntity: null,
     countryOrigin: 'Japon',
   },
   {
@@ -4851,6 +4997,7 @@ export const baseSeriesAnimees: BaseSerie[] = [
     ],
     description: '',
     saga: '',
+    fromEntity: null,
     countryOrigin: 'Japon',
   },
   {
@@ -4884,6 +5031,7 @@ export const baseSeriesAnimees: BaseSerie[] = [
     ],
     description: '',
     saga: '',
+    fromEntity: null,
     countryOrigin: 'Japon',
   },
   {
@@ -4907,6 +5055,7 @@ export const baseSeriesAnimees: BaseSerie[] = [
     ],
     description: '',
     saga: '',
+    fromEntity: null,
     countryOrigin: 'Japon',
   },
   {
@@ -4930,6 +5079,7 @@ export const baseSeriesAnimees: BaseSerie[] = [
     ],
     description: '',
     saga: '',
+    fromEntity: null,
     countryOrigin: 'Japon',
   },
   {
@@ -4954,6 +5104,7 @@ export const baseSeriesAnimees: BaseSerie[] = [
     ],
     description: '',
     saga: '',
+    fromEntity: null,
     countryOrigin: 'Japon',
   },
   {
@@ -4977,6 +5128,7 @@ export const baseSeriesAnimees: BaseSerie[] = [
     ],
     description: '',
     saga: '',
+    fromEntity: null,
     countryOrigin: 'Japon',
   },
   {
@@ -5001,6 +5153,7 @@ export const baseSeriesAnimees: BaseSerie[] = [
     ],
     description: '',
     saga: '',
+    fromEntity: null,
     countryOrigin: 'Japon',
   },
   {
@@ -5024,6 +5177,7 @@ export const baseSeriesAnimees: BaseSerie[] = [
     ],
     description: '',
     saga: '',
+    fromEntity: null,
     countryOrigin: 'Japon',
   },
   {
@@ -5047,6 +5201,7 @@ export const baseSeriesAnimees: BaseSerie[] = [
     ],
     description: '',
     saga: '',
+    fromEntity: null,
     countryOrigin: 'Japon',
   },
   {
@@ -5070,6 +5225,7 @@ export const baseSeriesAnimees: BaseSerie[] = [
     ],
     description: '',
     saga: '',
+    fromEntity: null,
     countryOrigin: 'Japon',
   },
   {
@@ -5094,6 +5250,7 @@ export const baseSeriesAnimees: BaseSerie[] = [
     ],
     description: '',
     saga: '',
+    fromEntity: null,
     countryOrigin: 'Japon',
   },
   {
@@ -5117,6 +5274,7 @@ export const baseSeriesAnimees: BaseSerie[] = [
     ],
     description: '',
     saga: '',
+    fromEntity: null,
     countryOrigin: 'Japon',
   },
   {
@@ -5140,6 +5298,7 @@ export const baseSeriesAnimees: BaseSerie[] = [
     ],
     description: '',
     saga: '',
+    fromEntity: null,
     countryOrigin: 'Japon',
   },
   {
@@ -5163,6 +5322,7 @@ export const baseSeriesAnimees: BaseSerie[] = [
     ],
     description: '',
     saga: '',
+    fromEntity: null,
     countryOrigin: 'Japon',
   },
   {
@@ -5186,6 +5346,7 @@ export const baseSeriesAnimees: BaseSerie[] = [
     ],
     description: '',
     saga: '',
+    fromEntity: null,
     countryOrigin: 'Japon',
   },
   {
@@ -5209,6 +5370,7 @@ export const baseSeriesAnimees: BaseSerie[] = [
     ],
     description: '',
     saga: '',
+    fromEntity: null,
     countryOrigin: 'Japon',
   },
   {
@@ -5233,6 +5395,7 @@ export const baseSeriesAnimees: BaseSerie[] = [
     ],
     description: '',
     saga: '',
+    fromEntity: null,
     countryOrigin: 'Japon',
   },
   {
@@ -5257,6 +5420,7 @@ export const baseSeriesAnimees: BaseSerie[] = [
     ],
     description: '',
     saga: '',
+    fromEntity: null,
     countryOrigin: 'Japon',
   },
   {
@@ -5280,6 +5444,7 @@ export const baseSeriesAnimees: BaseSerie[] = [
     ],
     description: '',
     saga: '',
+    fromEntity: null,
     countryOrigin: 'Japon',
   },
   {
@@ -5303,6 +5468,7 @@ export const baseSeriesAnimees: BaseSerie[] = [
     ],
     description: '',
     saga: '',
+    fromEntity: null,
     countryOrigin: 'Japon',
   },
   {
@@ -5326,6 +5492,7 @@ export const baseSeriesAnimees: BaseSerie[] = [
     ],
     description: '',
     saga: '',
+    fromEntity: null,
     countryOrigin: 'Japon',
   },
 ];

@@ -27,6 +27,16 @@ export interface MovieFromEntityAdaptation extends FromEntitySourceBase {
 }
 
 /**
+ * Types d’œuvre dont une série TV catalogue peut être adaptée (inclut un film source).
+ * `secondEntityKey` : comme pour les films — réalisateur lorsque `entityType` est `movie`.
+ */
+export type SerieFromEntityType = MovieFromEntityType | 'movie';
+
+export interface SerieFromEntityAdaptation extends FromEntitySourceBase {
+  entityType: SerieFromEntityType;
+}
+
+/**
  * Types d’œuvre dont un jeu peut être adapté (inclut les films).
  * `secondEntityKey` : auteur / scénariste / éditeur / réalisateur selon le type.
  */

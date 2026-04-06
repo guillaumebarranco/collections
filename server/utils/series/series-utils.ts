@@ -127,6 +127,7 @@ const FROM_ENTITY_TYPES = [
   'comic',
   'manga',
   'manwha',
+  'movie',
   'serie',
 ];
 

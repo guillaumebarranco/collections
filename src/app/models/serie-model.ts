@@ -1,5 +1,5 @@
 import { Country } from './countries.enum';
-import type { MovieFromEntityAdaptation } from './from-entity.model';
+import type { SerieFromEntityAdaptation } from './from-entity.model';
 
 export interface MandatorySerieData {
   title: string;
@@ -38,8 +38,8 @@ export interface BaseSerie extends MandatorySerieData {
   description: string;
   countryOrigin: Country;
   saga: string;
-  /** Œuvre source (livre, BD, autre série, etc.) si adaptation. */
-  fromEntity?: MovieFromEntityAdaptation | null;
+  /** Œuvre source (livre, BD, film, autre série, etc.) si adaptation. */
+  fromEntity?: SerieFromEntityAdaptation | null;
 }
 
 export interface BaseSerieSeasonData {

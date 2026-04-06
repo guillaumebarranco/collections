@@ -14,7 +14,10 @@ import {
   Serie,
   UserSerieSeason,
 } from '../../../models/serie-model';
-import type { FromEntityAdaptation, FromEntityType } from '../../../models/movie-model';
+import type {
+  SerieFromEntityAdaptation,
+  SerieFromEntityType,
+} from '../../../models/from-entity.model';
 import {
   getAllBaseSeries,
   getSeriesByUser,
@@ -25,12 +28,14 @@ import { getAllBaseComics } from '../../../facades/comics/comics.facade';
 import { getAllBaseGames } from '../../../facades/games/games.facade';
 import { getAllBaseMangas } from '../../../facades/mangas/mangas.facade';
 import { getAllBaseManwhas } from '../../../facades/manwhas/manwhas.facade';
+import { getAllBaseMovies } from '../../../facades/movies/movies.facade';
 import { BaseBook } from '../../../models/book-model';
 import { BaseBd } from '../../../models/bd-model';
 import { BaseComic } from '../../../models/comic-model';
 import { BaseGame } from '../../../models/game-model';
 import { BaseManga } from '../../../models/manga-model';
 import { BaseManwha } from '../../../models/manwha-model';
+import { BaseMovie } from '../../../models/movie-model';
 import {
   MAT_DIALOG_DATA,
   MatDialog,
@@ -71,7 +76,7 @@ type EditSerieEntityForm = {
   description: string;
   countryOrigin: string;
   saga: string;
-  fromEntity: FromEntityAdaptation | null;
+  fromEntity: SerieFromEntityAdaptation | null;
 };
 
 type EditSerieDialogData = {
@@ -166,11 +171,12 @@ export class EditSerieComponent {
   readonly baseGames = signal<BaseGame[]>([]);
   readonly baseMangas = signal<BaseManga[]>([]);
   readonly baseManwhas = signal<BaseManwha[]>([]);
+  readonly baseMovies = signal<BaseMovie[]>([]);
   readonly baseSeries = signal<BaseSerie[]>([]);
-  readonly fromEntitySourceType = signal<FromEntityType | ''>('');
+  readonly fromEntitySourceType = signal<SerieFromEntityType | ''>('');
 
   readonly fromEntityTypeSelectOptions: {
-    value: FromEntityType | '';
+    value: SerieFromEntityType | '';
     label: string;
   }[] = [
     { value: '', label: 'Aucune adaptation' },
@@ -180,6 +186,7 @@ export class EditSerieComponent {
     { value: 'manga', label: 'Manga' },
     { value: 'manwha', label: 'Manhwa' },
     { value: 'game', label: 'Jeu vidéo' },
+    { value: 'movie', label: 'Film' },
     { value: 'serie', label: 'Série' },
   ];
 
@@ -231,6 +238,13 @@ export class EditSerieComponent {
             value: `${g.title}|${g.editor}`,
             label: `${g.title} — ${g.editor}`,
           }));
+      case 'movie':
+        return [...this.baseMovies()]
+          .sort(sortByTitle)
+          .map((m) => ({
+            value: `${m.title}|${m.director}`,
+            label: `${m.title} — ${m.director}`,
+          }));
       case 'serie':
         return [...this.baseSeries()]
           .sort(sortByTitle)
@@ -277,6 +291,7 @@ export class EditSerieComponent {
       games,
       mangas,
       manwhas,
+      movies,
       series,
     ] = await Promise.all([
       getAllBaseBooks(),
@@ -285,6 +300,7 @@ export class EditSerieComponent {
       getAllBaseGames(),
       getAllBaseMangas(),
       getAllBaseManwhas(),
+      getAllBaseMovies(),
       getAllBaseSeries(),
     ]);
     this.baseBooks.set(books);
@@ -293,10 +309,11 @@ export class EditSerieComponent {
     this.baseGames.set(games);
     this.baseMangas.set(mangas);
     this.baseManwhas.set(manwhas);
+    this.baseMovies.set(movies);
     this.baseSeries.set(series);
   }
 
-  getFromEntityTypeDisplayLabel(type: FromEntityType | undefined): string {
+  getFromEntityTypeDisplayLabel(type: SerieFromEntityType | undefined): string {
     if (!type) return '';
     const opt = this.fromEntityTypeSelectOptions.find((o) => o.value === type);
     return opt?.label ?? String(type);
@@ -304,13 +321,13 @@ export class EditSerieComponent {
 
   private syncFromEntitySourceTypeFromForm(): void {
     const fe = this.serieEntityForm()?.fromEntity;
-    this.fromEntitySourceType.set((fe?.entityType ?? '') as FromEntityType | '');
+    this.fromEntitySourceType.set((fe?.entityType ?? '') as SerieFromEntityType | '');
   }
 
   onFromEntityTypeSelect(value: string) {
     const current = this.serieEntityForm();
     if (!current) return;
-    const t = (value ?? '') as FromEntityType | '';
+    const t = (value ?? '') as SerieFromEntityType | '';
     this.fromEntitySourceType.set(t);
     if (!t) {
       this.serieEntityForm.set({ ...current, fromEntity: null });

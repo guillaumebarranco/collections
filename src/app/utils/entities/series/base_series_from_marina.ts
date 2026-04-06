@@ -12,8 +12,7 @@ export const baseSeriesFromMarina: BaseSerie[] = [
       { name: 'Joe Dante' },
       { name: 'Guillermo del Toro' },
     ],
-    coverUrl:
-      '/series_pictures/ec2c89e944ed.jpeg',
+    coverUrl: '/series_pictures/ec2c89e944ed.jpeg',
     releaseDate: '2005-10-28',
     endDate: '2007-02-02',
     genre: ['Horreur'],
@@ -24,20 +23,21 @@ export const baseSeriesFromMarina: BaseSerie[] = [
     description:
       "Anthologie horreur : chaque épisode est réalisé par un grand nom du cinéma d'horreur.",
     saga: '',
+    fromEntity: null,
     countryOrigin: 'États-Unis',
   },
   {
     title: 'Les maîtres de la peur (Fear Itself)',
     director: 'Mick Garris',
     actors: [],
-    coverUrl:
-      '/series_pictures/def2cec141d1.jpg',
+    coverUrl: '/series_pictures/def2cec141d1.jpg',
     releaseDate: '2008-06-05',
     endDate: '2008-07-31',
     genre: ['Horreur'],
     seasonsData: [{ seasonNumber: 1, nbEpisodes: 13, totalLength: 572 }],
     description: 'Anthologie horreur-suspense sur NBC.',
     saga: '',
+    fromEntity: null,
     countryOrigin: 'États-Unis',
   },
   {
@@ -50,8 +50,7 @@ export const baseSeriesFromMarina: BaseSerie[] = [
       { name: 'Chace Crawford' },
       { name: 'Ed Westwick' },
     ],
-    coverUrl:
-      '/series_pictures/f027bb2dfda0.jpg',
+    coverUrl: '/series_pictures/f027bb2dfda0.jpg',
     releaseDate: '2007-09-19',
     endDate: '2012-12-17',
     genre: ['Drame'],
@@ -66,6 +65,7 @@ export const baseSeriesFromMarina: BaseSerie[] = [
     description:
       "Adolescents de l'Upper East Side à Manhattan sous l'œil de Gossip Girl.",
     saga: '',
+    fromEntity: null,
     countryOrigin: 'États-Unis',
   },
   {
@@ -77,8 +77,7 @@ export const baseSeriesFromMarina: BaseSerie[] = [
       { name: 'Liv Hewson' },
       { name: 'Skyler Gisondo' },
     ],
-    coverUrl:
-      '/series_pictures/d1c61031a650.jpg',
+    coverUrl: '/series_pictures/d1c61031a650.jpg',
     releaseDate: '2017-02-03',
     endDate: '2019-03-29',
     genre: ['Comédie', 'Horreur'],
@@ -90,20 +89,21 @@ export const baseSeriesFromMarina: BaseSerie[] = [
     description:
       "Une agente immobilière devient zombie ; sa famille l'aide à gérer sa nouvelle condition.",
     saga: '',
+    fromEntity: null,
     countryOrigin: 'États-Unis',
   },
   {
     title: 'Cassandra',
     director: 'Benjamin Gutsche',
     actors: [],
-    coverUrl:
-      '/series_pictures/3e7b4f85ca04.jpg',
+    coverUrl: '/series_pictures/3e7b4f85ca04.jpg',
     releaseDate: '',
     endDate: '',
     genre: ['Drame'],
     seasonsData: [{ seasonNumber: 1, nbEpisodes: 1, totalLength: 0 }],
     description: '',
     saga: '',
+    fromEntity: null,
     countryOrigin: '',
   },
   {
@@ -116,8 +116,7 @@ export const baseSeriesFromMarina: BaseSerie[] = [
       { name: 'Chuku Modu' },
       { name: 'Hill Harper' },
     ],
-    coverUrl:
-      '/series_pictures/3c79fdc660b5.jpg',
+    coverUrl: '/series_pictures/3c79fdc660b5.jpg',
     releaseDate: '2017-09-25',
     endDate: '2024-05-21',
     genre: ['Drame médical'],
@@ -133,20 +132,21 @@ export const baseSeriesFromMarina: BaseSerie[] = [
     description:
       'Un jeune chirurgien autiste et syndrome du savant intègre un hôpital.',
     saga: '',
+    fromEntity: null,
     countryOrigin: 'États-Unis',
   },
   {
     title: 'Apple cider vinegar',
     director: 'Samantha Strauss',
     actors: [],
-    coverUrl:
-      '/series_pictures/68e91f5b85b9.jpg',
+    coverUrl: '/series_pictures/68e91f5b85b9.jpg',
     releaseDate: '',
     endDate: '',
     genre: [],
     seasonsData: [{ seasonNumber: 1, nbEpisodes: 1, totalLength: 0 }],
     description: '',
     saga: '',
+    fromEntity: null,
     countryOrigin: '',
   },
   {
@@ -159,8 +159,7 @@ export const baseSeriesFromMarina: BaseSerie[] = [
       { name: 'Mary McDonnell' },
       { name: 'Henry Thomas' },
     ],
-    coverUrl:
-      '/series_pictures/c1811beec52a.jpg',
+    coverUrl: '/series_pictures/c1811beec52a.jpg',
     releaseDate: '2023-10-12',
     endDate: '2023-10-12',
     genre: ['Horreur'],
@@ -168,6 +167,7 @@ export const baseSeriesFromMarina: BaseSerie[] = [
     description:
       "Minisérie inspirée d'Edgar Allan Poe : la chute de la dynastie Usher et de Fortunato Pharmaceuticals.",
     saga: '',
+    fromEntity: null,
     countryOrigin: 'États-Unis',
   },
   {
@@ -180,8 +180,7 @@ export const baseSeriesFromMarina: BaseSerie[] = [
       { name: 'Shay Mitchell' },
       { name: 'Sasha Pieterse' },
     ],
-    coverUrl:
-      '/series_pictures/3146c59dbe6f.jpg',
+    coverUrl: '/series_pictures/3146c59dbe6f.jpg',
     releaseDate: '2010-06-08',
     endDate: '2017-06-27',
     genre: ['Drame', 'Thriller'],
@@ -197,6 +196,7 @@ export const baseSeriesFromMarina: BaseSerie[] = [
     description:
       'Quatre amies harcelées par "A" après la disparition de leur leader.',
     saga: '',
+    fromEntity: null,
     countryOrigin: 'États-Unis',
   },
   {
@@ -209,8 +209,7 @@ export const baseSeriesFromMarina: BaseSerie[] = [
       { name: 'Danielle Brooks' },
       { name: 'Natasha Lyonne' },
     ],
-    coverUrl:
-      '/series_pictures/3dd749475800.jpg',
+    coverUrl: '/series_pictures/3dd749475800.jpg',
     releaseDate: '2013-07-11',
     endDate: '2019-07-26',
     genre: ['Drame', 'Comédie'],
@@ -226,6 +225,7 @@ export const baseSeriesFromMarina: BaseSerie[] = [
     description:
       'Vie en prison dans une prison pour femmes, adapté du livre de Piper Kerman.',
     saga: '',
+    fromEntity: null,
     countryOrigin: 'États-Unis',
   },
   {
@@ -239,8 +239,7 @@ export const baseSeriesFromMarina: BaseSerie[] = [
       { name: 'Manny Jacinto' },
       { name: "D'Arcy Carden" },
     ],
-    coverUrl:
-      '/series_pictures/63e1d0670f05.jpg',
+    coverUrl: '/series_pictures/63e1d0670f05.jpg',
     releaseDate: '2016-09-19',
     endDate: '2020-01-30',
     genre: ['Comédie', 'Fantastique'],
@@ -252,6 +251,7 @@ export const baseSeriesFromMarina: BaseSerie[] = [
     ],
     description: 'Une femme envoyée par erreur au "Bon Endroit" après sa mort.',
     saga: '',
+    fromEntity: null,
     countryOrigin: 'États-Unis',
   },
   {
@@ -262,8 +262,7 @@ export const baseSeriesFromMarina: BaseSerie[] = [
       { name: 'Linda Cardellini' },
       { name: 'James Marsden' },
     ],
-    coverUrl:
-      '/series_pictures/ef4cb2c479c5.jpg',
+    coverUrl: '/series_pictures/ef4cb2c479c5.jpg',
     releaseDate: '2019-05-03',
     endDate: '2022-11-17',
     genre: ['Drame', 'Comédie noire'],
@@ -275,6 +274,7 @@ export const baseSeriesFromMarina: BaseSerie[] = [
     description:
       'Deux amies liées par le deuil et des secrets dans une comédie noire.',
     saga: '',
+    fromEntity: null,
     countryOrigin: 'États-Unis',
   },
   {
@@ -286,8 +286,7 @@ export const baseSeriesFromMarina: BaseSerie[] = [
       { name: 'Christopher Gorham' },
       { name: 'Sarah Colonna' },
     ],
-    coverUrl:
-      '/series_pictures/afd778e48865.jpg',
+    coverUrl: '/series_pictures/afd778e48865.jpg',
     releaseDate: '2018-08-10',
     endDate: '2019-10-11',
     genre: ['Comédie', 'Drame'],
@@ -298,6 +297,7 @@ export const baseSeriesFromMarina: BaseSerie[] = [
     description:
       'Une lycéenne victime de moqueries perd du poids et se lance dans des concours de beauté.',
     saga: '',
+    fromEntity: null,
     countryOrigin: 'États-Unis',
   },
   {
@@ -311,8 +311,7 @@ export const baseSeriesFromMarina: BaseSerie[] = [
       { name: 'Elizabeth Reaser' },
       { name: 'Victoria Pedretti' },
     ],
-    coverUrl:
-      '/series_pictures/aede6042b033.jpg',
+    coverUrl: '/series_pictures/aede6042b033.jpg',
     releaseDate: '2018-10-12',
     endDate: '2018-10-12',
     genre: ['Horreur'],
@@ -320,6 +319,7 @@ export const baseSeriesFromMarina: BaseSerie[] = [
     description:
       'Minisérie : la famille Crain confrontée aux fantômes de Hill House.',
     saga: '',
+    fromEntity: null,
     countryOrigin: 'États-Unis',
   },
   {
@@ -332,14 +332,14 @@ export const baseSeriesFromMarina: BaseSerie[] = [
       { name: "T'Nia Miller" },
       { name: 'Rahul Kohli' },
     ],
-    coverUrl:
-      '/series_pictures/9a2aa6c56b98.jpg',
+    coverUrl: '/series_pictures/9a2aa6c56b98.jpg',
     releaseDate: '2020-10-09',
     endDate: '2020-10-09',
     genre: ['Horreur'],
     seasonsData: [{ seasonNumber: 1, nbEpisodes: 9, totalLength: 540 }],
     description: "Adaptation du Tour d'écrou : une gouvernante à Bly Manor.",
     saga: '',
+    fromEntity: null,
     countryOrigin: 'États-Unis',
   },
   {
@@ -351,8 +351,7 @@ export const baseSeriesFromMarina: BaseSerie[] = [
       { name: 'Lee Si-young' },
       { name: 'Go Min-si' },
     ],
-    coverUrl:
-      '/series_pictures/bbaf60960d36.jpg',
+    coverUrl: '/series_pictures/bbaf60960d36.jpg',
     releaseDate: '2020-12-18',
     endDate: '',
     genre: ['Horreur', 'Thriller'],
@@ -363,14 +362,14 @@ export const baseSeriesFromMarina: BaseSerie[] = [
     description:
       'Des humains se transforment en monstres ; des survivants se barricadent dans un immeuble.',
     saga: '',
+    fromEntity: null,
     countryOrigin: 'Corée du Sud',
   },
   {
     title: 'I Am a Killer',
     director: 'Ross Young',
     actors: [],
-    coverUrl:
-      '/series_pictures/973a97744402.jpg',
+    coverUrl: '/series_pictures/973a97744402.jpg',
     releaseDate: '2018-08-03',
     endDate: '',
     genre: ['Documentaire'],
@@ -381,20 +380,21 @@ export const baseSeriesFromMarina: BaseSerie[] = [
     ],
     description: 'Documentaire : des condamnés à mort racontent leur crime.',
     saga: '',
+    fromEntity: null,
     countryOrigin: 'États-Unis',
   },
   {
     title: 'Les chroniques de la peur',
     director: 'Bede Blake',
     actors: [],
-    coverUrl:
-      '/series_pictures/b62c3d77f092.jpg',
+    coverUrl: '/series_pictures/b62c3d77f092.jpg',
     releaseDate: '2019-01-01',
     endDate: '',
     genre: ['Horreur'],
     seasonsData: [{ seasonNumber: 1, nbEpisodes: 1, totalLength: 0 }],
     description: 'Anthologie horreur inspirée des comics E.C.',
     saga: '',
+    fromEntity: null,
     countryOrigin: 'États-Unis',
   },
   {
@@ -406,8 +406,7 @@ export const baseSeriesFromMarina: BaseSerie[] = [
       { name: 'Greta Lee' },
       { name: 'Elizabeth Ashley' },
     ],
-    coverUrl:
-      '/series_pictures/3d5dcf071eb2.jpg',
+    coverUrl: '/series_pictures/3d5dcf071eb2.jpg',
     releaseDate: '2019-02-01',
     endDate: '2022-04-20',
     genre: ['Comédie', 'Drame'],
@@ -418,28 +417,28 @@ export const baseSeriesFromMarina: BaseSerie[] = [
     description:
       'Nadia prise dans une boucle temporelle le soir de ses 36 ans.',
     saga: '',
+    fromEntity: null,
     countryOrigin: 'États-Unis',
   },
   {
     title: 'Mon petit renne',
     director: 'Richard Gadd',
     actors: [],
-    coverUrl:
-      '/series_pictures/05a407875113.webp',
+    coverUrl: '/series_pictures/05a407875113.webp',
     releaseDate: '2024-11-28',
     endDate: '',
     genre: ['Drame', 'Fantastique'],
     seasonsData: [{ seasonNumber: 1, nbEpisodes: 8, totalLength: 384 }],
     description: 'Série sur le folklore du renne du Père Noël (Netflix).',
     saga: '',
+    fromEntity: null,
     countryOrigin: 'Royaume-Uni',
   },
   {
     title: 'Slasher',
     director: 'Aaron Martin',
     actors: [],
-    coverUrl:
-      '/series_pictures/92081b90c7fd.jpg',
+    coverUrl: '/series_pictures/92081b90c7fd.jpg',
     releaseDate: '2016-03-04',
     endDate: '',
     genre: ['Horreur'],
@@ -453,6 +452,7 @@ export const baseSeriesFromMarina: BaseSerie[] = [
     description:
       'Anthologie slasher : chaque saison une nouvelle histoire avec un tueur.',
     saga: '',
+    fromEntity: null,
     countryOrigin: 'Canada',
   },
   {
@@ -476,6 +476,7 @@ export const baseSeriesFromMarina: BaseSerie[] = [
     description:
       'Comédie horreur : une sororité et un hôpital ciblés par un tueur.',
     saga: '',
+    fromEntity: null,
     countryOrigin: 'États-Unis',
   },
   {
@@ -488,8 +489,7 @@ export const baseSeriesFromMarina: BaseSerie[] = [
       { name: 'Jason Earles' },
       { name: 'Billy Ray Cyrus' },
     ],
-    coverUrl:
-      '/series_pictures/2bcc7fac32b2.jpg',
+    coverUrl: '/series_pictures/2bcc7fac32b2.jpg',
     releaseDate: '2006-03-24',
     endDate: '2011-01-16',
     genre: ['Comédie', 'Famille'],
@@ -502,6 +502,7 @@ export const baseSeriesFromMarina: BaseSerie[] = [
     description:
       'Une ado mène une double vie : lycéenne et star de la pop Hannah Montana.',
     saga: '',
+    fromEntity: null,
     countryOrigin: 'États-Unis',
   },
   {
@@ -513,8 +514,7 @@ export const baseSeriesFromMarina: BaseSerie[] = [
       { name: 'Anneliese van der Pol' },
       { name: 'Kyle Massey' },
     ],
-    coverUrl:
-      '/series_pictures/21458539646a.jpg',
+    coverUrl: '/series_pictures/21458539646a.jpg',
     releaseDate: '2003-01-17',
     endDate: '2007-11-10',
     genre: ['Comédie', 'Famille'],
@@ -527,6 +527,7 @@ export const baseSeriesFromMarina: BaseSerie[] = [
     description:
       'Raven Baxter, ado avec des visions du futur, vit des situations comiques.',
     saga: '',
+    fromEntity: null,
     countryOrigin: 'États-Unis',
   },
   {
@@ -538,8 +539,7 @@ export const baseSeriesFromMarina: BaseSerie[] = [
       { name: 'Jake T. Austin' },
       { name: 'Jennifer Stone' },
     ],
-    coverUrl:
-      '/series_pictures/cb071f8fa21e.jpg',
+    coverUrl: '/series_pictures/cb071f8fa21e.jpg',
     releaseDate: '2007-10-12',
     endDate: '2012-01-06',
     genre: ['Comédie', 'Fantastique'],
@@ -552,6 +552,7 @@ export const baseSeriesFromMarina: BaseSerie[] = [
     description:
       'Trois frères et sœurs sorciers en formation dans un snack-bar new-yorkais.',
     saga: '',
+    fromEntity: null,
     countryOrigin: 'États-Unis',
   },
   {
@@ -564,8 +565,7 @@ export const baseSeriesFromMarina: BaseSerie[] = [
       { name: 'Ashley Tisdale' },
       { name: 'Phil Lewis' },
     ],
-    coverUrl:
-      '/series_pictures/39ea59c896c4.jpg',
+    coverUrl: '/series_pictures/39ea59c896c4.jpg',
     releaseDate: '2005-03-18',
     endDate: '2008-09-01',
     genre: ['Comédie', 'Famille'],
@@ -577,6 +577,7 @@ export const baseSeriesFromMarina: BaseSerie[] = [
     description:
       'Les jumeaux Zack et Cody vivent dans un palace avec leur mère chanteuse.',
     saga: '',
+    fromEntity: null,
     countryOrigin: 'États-Unis',
   },
   {
@@ -589,8 +590,7 @@ export const baseSeriesFromMarina: BaseSerie[] = [
       { name: 'Debby Ryan' },
       { name: 'Phil Lewis' },
     ],
-    coverUrl:
-      '/series_pictures/319e26ca4576.jpg',
+    coverUrl: '/series_pictures/319e26ca4576.jpg',
     releaseDate: '2008-09-26',
     endDate: '2011-05-06',
     genre: ['Comédie', 'Famille'],
@@ -601,6 +601,7 @@ export const baseSeriesFromMarina: BaseSerie[] = [
     ],
     description: 'Suite : Zack et Cody en semestre en mer sur le SS Tipton.',
     saga: '',
+    fromEntity: null,
     countryOrigin: 'États-Unis',
   },
   {
@@ -612,8 +613,7 @@ export const baseSeriesFromMarina: BaseSerie[] = [
       { name: 'Ashley Tisdale' },
       { name: 'Dee Bradley Baker' },
     ],
-    coverUrl:
-      '/series_pictures/56d64e9aeafa.jpg',
+    coverUrl: '/series_pictures/56d64e9aeafa.jpg',
     releaseDate: '2007-08-17',
     endDate: '2015-06-12',
     genre: ['Animation', 'Comédie'],
@@ -626,6 +626,7 @@ export const baseSeriesFromMarina: BaseSerie[] = [
     description:
       'Deux frères inventent chaque jour pendant les vacances ; leur sœur tente de les dénoncer.',
     saga: '',
+    fromEntity: null,
     countryOrigin: 'États-Unis',
   },
   {
@@ -638,8 +639,7 @@ export const baseSeriesFromMarina: BaseSerie[] = [
       { name: 'Karan Brar' },
       { name: 'Skai Jackson' },
     ],
-    coverUrl:
-      '/series_pictures/68a4e9851908.jpg',
+    coverUrl: '/series_pictures/68a4e9851908.jpg',
     releaseDate: '2011-09-30',
     endDate: '2015-10-16',
     genre: ['Comédie', 'Famille'],
@@ -652,6 +652,7 @@ export const baseSeriesFromMarina: BaseSerie[] = [
     description:
       "Une jeune fille au pair s'occupe de quatre enfants à Manhattan.",
     saga: '',
+    fromEntity: null,
     countryOrigin: 'États-Unis',
   },
   {
@@ -663,8 +664,7 @@ export const baseSeriesFromMarina: BaseSerie[] = [
       { name: 'Nick Spano' },
       { name: 'Tom Virtue' },
     ],
-    coverUrl:
-      '/series_pictures/17308fdd452f.jpg',
+    coverUrl: '/series_pictures/17308fdd452f.jpg',
     releaseDate: '2000-06-17',
     endDate: '2003-06-02',
     genre: ['Comédie', 'Famille'],
@@ -676,6 +676,7 @@ export const baseSeriesFromMarina: BaseSerie[] = [
     description:
       'La rivalité entre Louis et Ren Stevens, frère et sœur, au lycée.',
     saga: '',
+    fromEntity: null,
     countryOrigin: 'États-Unis',
   },
   {
@@ -687,8 +688,7 @@ export const baseSeriesFromMarina: BaseSerie[] = [
       { name: 'Adam Lamberg' },
       { name: 'Jake Thomas' },
     ],
-    coverUrl:
-      '/series_pictures/3a0eef530765.jpg',
+    coverUrl: '/series_pictures/3a0eef530765.jpg',
     releaseDate: '2001-01-12',
     endDate: '2004-02-14',
     genre: ['Comédie', 'Famille'],
@@ -699,6 +699,7 @@ export const baseSeriesFromMarina: BaseSerie[] = [
     description:
       'Lizzie McGuire traverse le collège avec ses amis Miranda et Gordo.',
     saga: '',
+    fromEntity: null,
     countryOrigin: 'États-Unis',
   },
   {
@@ -710,8 +711,7 @@ export const baseSeriesFromMarina: BaseSerie[] = [
       { name: 'Davis Cleveland' },
       { name: 'Roshon Fegan' },
     ],
-    coverUrl:
-      '/series_pictures/0dd96c6db670.jpg',
+    coverUrl: '/series_pictures/0dd96c6db670.jpg',
     releaseDate: '2010-11-07',
     endDate: '2013-11-10',
     genre: ['Comédie', 'Musique'],
@@ -723,6 +723,7 @@ export const baseSeriesFromMarina: BaseSerie[] = [
     description:
       'Deux amies danseuses dans l\'émission de télé "Shake It Up, Chicago!".',
     saga: '',
+    fromEntity: null,
     countryOrigin: 'États-Unis',
   },
   {
@@ -734,8 +735,7 @@ export const baseSeriesFromMarina: BaseSerie[] = [
       { name: 'Raini Rodriguez' },
       { name: 'Calum Worthy' },
     ],
-    coverUrl:
-      '/series_pictures/8944c3a677e5.jpg',
+    coverUrl: '/series_pictures/8944c3a677e5.jpg',
     releaseDate: '2011-12-02',
     endDate: '2016-01-10',
     genre: ['Comédie', 'Musique'],
@@ -748,6 +748,7 @@ export const baseSeriesFromMarina: BaseSerie[] = [
     description:
       'Un chanteur et une auteure-compositrice forment un duo musical.',
     saga: '',
+    fromEntity: null,
     countryOrigin: 'États-Unis',
   },
   {
@@ -759,8 +760,7 @@ export const baseSeriesFromMarina: BaseSerie[] = [
       { name: 'Amy Bruckner' },
       { name: 'Craig Anton' },
     ],
-    coverUrl:
-      '/series_pictures/605ad7fcaa2a.jpg',
+    coverUrl: '/series_pictures/605ad7fcaa2a.jpg',
     releaseDate: '2004-06-18',
     endDate: '2006-08-19',
     genre: ['Comédie', 'Science-fiction'],
@@ -771,6 +771,7 @@ export const baseSeriesFromMarina: BaseSerie[] = [
     description:
       'La famille Diffy du XXIIe siècle est bloquée en 2004 après un accident de machine à voyager.',
     saga: '',
+    fromEntity: null,
     countryOrigin: 'États-Unis',
   },
   {
@@ -782,8 +783,7 @@ export const baseSeriesFromMarina: BaseSerie[] = [
       { name: 'Jason Dolley' },
       { name: 'Madison Pettis' },
     ],
-    coverUrl:
-      '/series_pictures/f8778410d178.jpg',
+    coverUrl: '/series_pictures/f8778410d178.jpg',
     releaseDate: '2007-01-12',
     endDate: '2008-09-12',
     genre: ['Comédie', 'Famille'],
@@ -794,6 +794,7 @@ export const baseSeriesFromMarina: BaseSerie[] = [
     description:
       'Cory Baxter déménage à Washington quand son père devient chef cuisinier du Président.',
     saga: '',
+    fromEntity: null,
     countryOrigin: 'États-Unis',
   },
   /* Liste 2 */
@@ -806,8 +807,7 @@ export const baseSeriesFromMarina: BaseSerie[] = [
       { name: 'Sterling Knight' },
       { name: 'Brandon Mychal Smith' },
     ],
-    coverUrl:
-      '/series_pictures/50d658d50b5e.jpg',
+    coverUrl: '/series_pictures/50d658d50b5e.jpg',
     releaseDate: '2009-02-08',
     endDate: '2011-01-02',
     genre: ['Comédie', 'Famille'],
@@ -818,6 +818,7 @@ export const baseSeriesFromMarina: BaseSerie[] = [
     description:
       "Sonny Monroe devient star d'une sitcom à Hollywood (Sonny With a Chance).",
     saga: '',
+    fromEntity: null,
     countryOrigin: 'États-Unis',
   },
   {
@@ -829,8 +830,7 @@ export const baseSeriesFromMarina: BaseSerie[] = [
       { name: 'Nick Jonas' },
       { name: 'Chelsea Staub' },
     ],
-    coverUrl:
-      '/series_pictures/d4471eb02fc7.jpg',
+    coverUrl: '/series_pictures/d4471eb02fc7.jpg',
     releaseDate: '2009-05-02',
     endDate: '2010-10-03',
     genre: ['Comédie', 'Musique'],
@@ -841,6 +841,7 @@ export const baseSeriesFromMarina: BaseSerie[] = [
     description:
       "Les Jonas Brothers jouent une version fictive d'eux-mêmes à Los Angeles.",
     saga: '',
+    fromEntity: null,
     countryOrigin: 'États-Unis',
   },
   {
@@ -852,8 +853,7 @@ export const baseSeriesFromMarina: BaseSerie[] = [
       { name: 'Bradley Steven Perry' },
       { name: 'Mia Talerico' },
     ],
-    coverUrl:
-      '/series_pictures/e1439b673ed6.jpg',
+    coverUrl: '/series_pictures/e1439b673ed6.jpg',
     releaseDate: '2010-04-04',
     endDate: '2014-02-16',
     genre: ['Comédie', 'Famille'],
@@ -866,20 +866,21 @@ export const baseSeriesFromMarina: BaseSerie[] = [
     description:
       'Teddy Duncan enregistre des vidéos de conseils pour sa petite sœur Charlie.',
     saga: '',
+    fromEntity: null,
     countryOrigin: 'États-Unis',
   },
   {
     title: 'Section Genius',
     director: 'Dan Signer',
     actors: [],
-    coverUrl:
-      '/series_pictures/f99a95434f17.jpg',
+    coverUrl: '/series_pictures/f99a95434f17.jpg',
     releaseDate: '',
     endDate: '',
     genre: ['Comédie', 'Famille'],
     seasonsData: [{ seasonNumber: 1, nbEpisodes: 1, totalLength: 0 }],
     description: '',
     saga: '',
+    fromEntity: null,
     countryOrigin: '',
   },
   {
@@ -891,8 +892,7 @@ export const baseSeriesFromMarina: BaseSerie[] = [
       { name: 'Diego Domínguez' },
       { name: 'Mercedes Lambre' },
     ],
-    coverUrl:
-      '/series_pictures/e91918fc9fcf.jpg',
+    coverUrl: '/series_pictures/e91918fc9fcf.jpg',
     releaseDate: '2012-05-14',
     endDate: '2015-02-06',
     genre: ['Comédie musicale', 'Drame'],
@@ -904,14 +904,14 @@ export const baseSeriesFromMarina: BaseSerie[] = [
     description:
       "Violetta revient à Buenos Aires et découvre la musique et l'amour.",
     saga: '',
+    fromEntity: null,
     countryOrigin: 'Argentine',
   },
   {
     title: 'La petite sirène',
     director: 'Jamie Mitchell, Bob Hathcock',
     actors: [],
-    coverUrl:
-      '/series_pictures/dc3e0498dea7.jpg',
+    coverUrl: '/series_pictures/dc3e0498dea7.jpg',
     releaseDate: '1992-09-11',
     endDate: '1994-11-26',
     genre: ['Animation'],
@@ -923,13 +923,13 @@ export const baseSeriesFromMarina: BaseSerie[] = [
     description: 'Suite du film : Ariel et ses amis sous la mer (Disney).',
     saga: 'La Petite Sirène',
     countryOrigin: 'États-Unis',
+    fromEntity: null,
   },
   {
     title: 'Tic et Tac, les rangers du risque',
     director: 'Tad Stones, Alan Zaslove',
     actors: [],
-    coverUrl:
-      '/series_pictures/b5a0a1e3eacf.jpg',
+    coverUrl: '/series_pictures/b5a0a1e3eacf.jpg',
     releaseDate: '1989-03-04',
     endDate: '1990-11-19',
     genre: ['Animation'],
@@ -941,6 +941,7 @@ export const baseSeriesFromMarina: BaseSerie[] = [
     description:
       "Tic et Tac (Chip et Dale) mènent une agence de détectives (Chip 'n Dale Rescue Rangers).",
     saga: '',
+    fromEntity: null,
     countryOrigin: 'États-Unis',
   },
   {
@@ -959,13 +960,13 @@ export const baseSeriesFromMarina: BaseSerie[] = [
     description: 'Suite du film : Aladdin, Jasmine et le Génie (Disney).',
     saga: 'Aladdin',
     countryOrigin: 'États-Unis',
+    fromEntity: null,
   },
   {
     title: 'Timon et Pumbaa',
     director: 'Tony Craig, Roberts Gannaway',
     actors: [],
-    coverUrl:
-      '/series_pictures/6c61deb6104e.jpg',
+    coverUrl: '/series_pictures/6c61deb6104e.jpg',
     releaseDate: '1995-09-16',
     endDate: '1999-09-24',
     genre: ['Animation'],
@@ -978,13 +979,13 @@ export const baseSeriesFromMarina: BaseSerie[] = [
       "Les aventures du suricate et du phacochère (The Lion King's Timon & Pumbaa).",
     saga: 'Le Roi lion',
     countryOrigin: 'États-Unis',
+    fromEntity: null,
   },
   {
     title: 'La cour de récré',
     director: 'Paul Germain, Joe Ansolabehere',
     actors: [],
-    coverUrl:
-      '/series_pictures/50b30de2ec29.jpg',
+    coverUrl: '/series_pictures/50b30de2ec29.jpg',
     releaseDate: '1997-08-31',
     endDate: '2001-11-22',
     genre: ['Animation'],
@@ -998,14 +999,14 @@ export const baseSeriesFromMarina: BaseSerie[] = [
     ],
     description: 'La vie des élèves pendant la récré (Recess, Disney).',
     saga: '',
+    fromEntity: null,
     countryOrigin: 'États-Unis',
   },
   {
     title: 'Hercule',
     director: 'Phil Weinstein, Bob Kline',
     actors: [],
-    coverUrl:
-      '/series_pictures/fa786df7d521.jpg',
+    coverUrl: '/series_pictures/fa786df7d521.jpg',
     releaseDate: '1998-08-31',
     endDate: '1999-03-01',
     genre: ['Animation'],
@@ -1017,13 +1018,13 @@ export const baseSeriesFromMarina: BaseSerie[] = [
       "Hercule adolescent s'entraîne pour devenir un héros (Disney).",
     saga: 'Hercule',
     countryOrigin: 'États-Unis',
+    fromEntity: null,
   },
   {
     title: "Les aventures de Buzz l'Éclair",
     director: 'Mark McCorkle, Bob Schooley',
     actors: [],
-    coverUrl:
-      '/series_pictures/4ca85a6feec1.jpg',
+    coverUrl: '/series_pictures/4ca85a6feec1.jpg',
     releaseDate: '2000-10-14',
     endDate: '2001-01-13',
     genre: ['Animation'],
@@ -1031,13 +1032,13 @@ export const baseSeriesFromMarina: BaseSerie[] = [
     description: "Buzz Lightyear et l'équipe Star Command (Disney).",
     saga: 'Toy Story',
     countryOrigin: 'États-Unis',
+    fromEntity: null,
   },
   {
     title: 'La légende de Tarzan',
     director: 'Victor Cook, Steve Loter',
     actors: [],
-    coverUrl:
-      '/series_pictures/359e187a2f81.jpg',
+    coverUrl: '/series_pictures/359e187a2f81.jpg',
     releaseDate: '2001-07-03',
     endDate: '2003-02-03',
     genre: ['Animation'],
@@ -1048,26 +1049,7 @@ export const baseSeriesFromMarina: BaseSerie[] = [
     description: 'Suite du film : Tarzan et Jane en Afrique (Disney).',
     saga: 'Tarzan',
     countryOrigin: 'États-Unis',
-  },
-  {
-    title: 'Kim Possible',
-    director: 'Mark McCorkle, Bob Schooley',
-    actors: [],
-    coverUrl:
-      '/series_pictures/d072fa140e03.jpg',
-    releaseDate: '2002-06-07',
-    endDate: '2007-09-07',
-    genre: ['Animation', 'Action'],
-    seasonsData: [
-      { seasonNumber: 1, nbEpisodes: 21, totalLength: 462 },
-      { seasonNumber: 2, nbEpisodes: 30, totalLength: 660 },
-      { seasonNumber: 3, nbEpisodes: 14, totalLength: 308 },
-      { seasonNumber: 4, nbEpisodes: 22, totalLength: 484 },
-    ],
-    description:
-      'Kim Possible, lycéenne et espionne, combat le mal avec Ron Stoppable.',
-    saga: '',
-    countryOrigin: 'États-Unis',
+    fromEntity: null,
   },
   {
     title: 'Lilo et Stitch la série',
@@ -1086,13 +1068,13 @@ export const baseSeriesFromMarina: BaseSerie[] = [
       'Stitch et Lilo retrouvent les 625 autres expériences (Disney).',
     saga: 'Lilo et Stitch',
     countryOrigin: 'États-Unis',
+    fromEntity: null,
   },
   {
     title: 'American Dragon Jake Long',
     director: 'Jeff Goode',
     actors: [],
-    coverUrl:
-      '/series_pictures/e46b6bb23194.jpg',
+    coverUrl: '/series_pictures/e46b6bb23194.jpg',
     releaseDate: '2005-01-21',
     endDate: '2007-09-01',
     genre: ['Animation', 'Fantastique'],
@@ -1103,14 +1085,14 @@ export const baseSeriesFromMarina: BaseSerie[] = [
     description:
       'Jake Long, ado, est le Dragon américain chargé de protéger les créatures magiques.',
     saga: '',
+    fromEntity: null,
     countryOrigin: 'États-Unis',
   },
   {
     title: 'W.I.T.C.H.',
     director: 'Greg Weisman',
     actors: [],
-    coverUrl:
-      '/series_pictures/0f2d0ef18fbf.jpg',
+    coverUrl: '/series_pictures/0f2d0ef18fbf.jpg',
     releaseDate: '2004-12-12',
     endDate: '2006-12-24',
     genre: ['Animation', 'Fantastique'],
@@ -1121,14 +1103,14 @@ export const baseSeriesFromMarina: BaseSerie[] = [
     description:
       "Cinq adolescentes découvrent qu'elles sont les gardiennes du mur entre les mondes.",
     saga: '',
+    fromEntity: null,
     countryOrigin: 'États-Unis',
   },
   {
     title: "Kuzco, un empereur à l'école",
     director: 'Mark Dindal',
     actors: [],
-    coverUrl:
-      '/series_pictures/b495e79e2e4f.jpg',
+    coverUrl: '/series_pictures/b495e79e2e4f.jpg',
     releaseDate: '2006-01-27',
     endDate: '2008-11-20',
     genre: ['Animation', 'Comédie'],
@@ -1140,5 +1122,6 @@ export const baseSeriesFromMarina: BaseSerie[] = [
       "Kuzco doit repasser par l'école pour retrouver son trône (The Emperor's New School).",
     saga: 'Kuzco',
     countryOrigin: 'États-Unis',
+    fromEntity: null,
   },
 ];

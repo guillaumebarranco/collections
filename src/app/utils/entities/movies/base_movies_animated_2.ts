@@ -549,19 +549,23 @@ export const baseMoviesAnimated2: BaseMovie[] = [
     director: 'Ron Clements, John Musker',
     actors: [
       {
-        name: "Joseph Gordon-Levitt",
+        name: 'Joseph Gordon-Levitt',
       },
       {
-        name: "Brian Murray",
-      }
+        name: 'Brian Murray',
+      },
     ],
-    coverUrl: "/movies_pictures/affiche2.jpg",
-    releaseDate: "2002-11-27",
+    coverUrl: '/movies_pictures/affiche2.jpg',
+    releaseDate: '2002-11-27',
     length: 95,
     genre: ['Animation', 'Aventure'],
-    saga: "Disney Classique",
-    description: "",
-    fromEntity: { entityType: "book", title: "L'Île au trésor", secondEntityKey: "Robert Louis Stevenson" },
+    saga: 'Disney Classique',
+    description: '',
+    fromEntity: {
+      entityType: 'book',
+      title: "L'Île au trésor",
+      secondEntityKey: 'Robert Louis Stevenson',
+    },
     countryOrigin: ['États-Unis'],
   },
   {
@@ -931,19 +935,23 @@ export const baseMoviesAnimated2: BaseMovie[] = [
     director: 'Phil Lord, Christopher Miller',
     actors: [
       {
-        name: "Chris Pratt",
+        name: 'Chris Pratt',
       },
       {
-        name: "Elizabeth Banks",
-      }
+        name: 'Elizabeth Banks',
+      },
     ],
-    coverUrl: "/movies_pictures/The_Lego_Movie_poster.jpg",
-    releaseDate: "2014-02-07",
+    coverUrl: '/movies_pictures/The_Lego_Movie_poster.jpg',
+    releaseDate: '2014-02-07',
     length: 100,
     genre: ['Animation', 'Aventure'],
-    saga: "Lego",
-    description: "",
-    fromEntity: { entityType: "game", title: "Lego Batman", secondEntityKey: "Warner" },
+    saga: 'Lego',
+    description: '',
+    fromEntity: {
+      entityType: 'game',
+      title: 'Lego Batman',
+      secondEntityKey: 'Warner',
+    },
     countryOrigin: ['États-Unis'],
   },
   {
@@ -1228,7 +1236,11 @@ export const baseMoviesAnimated2: BaseMovie[] = [
     genre: ['Animation'],
     saga: 'Dragon Ball',
     description: '',
-    fromEntity: null,
+    fromEntity: {
+      entityType: 'manga',
+      title: 'Dragon Ball',
+      secondEntityKey: 'Akira Toriyama',
+    },
     countryOrigin: ['Japon'],
   },
   {
@@ -1251,7 +1263,11 @@ export const baseMoviesAnimated2: BaseMovie[] = [
     genre: ['Animation'],
     saga: 'Dragon Ball',
     description: '',
-    fromEntity: null,
+    fromEntity: {
+      entityType: 'manga',
+      title: 'Dragon Ball',
+      secondEntityKey: 'Akira Toriyama',
+    },
     countryOrigin: ['Japon'],
   },
   {
@@ -1274,7 +1290,11 @@ export const baseMoviesAnimated2: BaseMovie[] = [
     genre: ['Animation'],
     saga: 'Dragon Ball',
     description: '',
-    fromEntity: null,
+    fromEntity: {
+      entityType: 'manga',
+      title: 'Dragon Ball',
+      secondEntityKey: 'Akira Toriyama',
+    },
     countryOrigin: ['Japon'],
   },
   {
@@ -1297,7 +1317,11 @@ export const baseMoviesAnimated2: BaseMovie[] = [
     genre: ['Animation'],
     saga: 'Dragon Ball',
     description: '',
-    fromEntity: null,
+    fromEntity: {
+      entityType: 'manga',
+      title: 'Dragon Ball',
+      secondEntityKey: 'Akira Toriyama',
+    },
     countryOrigin: ['Japon'],
   },
   {
@@ -1320,7 +1344,11 @@ export const baseMoviesAnimated2: BaseMovie[] = [
     genre: ['Animation'],
     saga: 'Dragon Ball',
     description: '',
-    fromEntity: null,
+    fromEntity: {
+      entityType: 'manga',
+      title: 'Dragon Ball',
+      secondEntityKey: 'Akira Toriyama',
+    },
     countryOrigin: ['Japon'],
   },
   {
@@ -1343,7 +1371,11 @@ export const baseMoviesAnimated2: BaseMovie[] = [
     genre: ['Animation'],
     saga: 'Dragon Ball',
     description: '',
-    fromEntity: null,
+    fromEntity: {
+      entityType: 'manga',
+      title: 'Dragon Ball',
+      secondEntityKey: 'Akira Toriyama',
+    },
     countryOrigin: ['Japon'],
   },
   {
@@ -1366,7 +1398,11 @@ export const baseMoviesAnimated2: BaseMovie[] = [
     genre: ['Animation'],
     saga: 'Dragon Ball',
     description: '',
-    fromEntity: null,
+    fromEntity: {
+      entityType: 'manga',
+      title: 'Dragon Ball',
+      secondEntityKey: 'Akira Toriyama',
+    },
     countryOrigin: ['Japon'],
   },
   {
@@ -1389,7 +1425,11 @@ export const baseMoviesAnimated2: BaseMovie[] = [
     genre: ['Animation'],
     saga: 'Dragon Ball',
     description: '',
-    fromEntity: null,
+    fromEntity: {
+      entityType: 'manga',
+      title: 'Dragon Ball',
+      secondEntityKey: 'Akira Toriyama',
+    },
     countryOrigin: ['Japon'],
   },
   {
@@ -1412,7 +1452,11 @@ export const baseMoviesAnimated2: BaseMovie[] = [
     genre: ['Animation'],
     saga: 'Dragon Ball',
     description: '',
-    fromEntity: null,
+    fromEntity: {
+      entityType: 'manga',
+      title: 'Dragon Ball',
+      secondEntityKey: 'Akira Toriyama',
+    },
     countryOrigin: ['Japon'],
   },
   {
@@ -1436,7 +1480,11 @@ export const baseMoviesAnimated2: BaseMovie[] = [
     genre: ['Animation'],
     saga: 'Dragon Ball',
     description: '',
-    fromEntity: null,
+    fromEntity: {
+      entityType: 'manga',
+      title: 'Dragon Ball',
+      secondEntityKey: 'Akira Toriyama',
+    },
     countryOrigin: ['Japon'],
   },
   {
@@ -1459,7 +1507,11 @@ export const baseMoviesAnimated2: BaseMovie[] = [
     genre: ['Animation'],
     saga: 'Dragon Ball',
     description: '',
-    fromEntity: null,
+    fromEntity: {
+      entityType: 'manga',
+      title: 'Dragon Ball',
+      secondEntityKey: 'Akira Toriyama',
+    },
     countryOrigin: ['Japon'],
   },
   {
@@ -1482,7 +1534,11 @@ export const baseMoviesAnimated2: BaseMovie[] = [
     genre: ['Animation'],
     saga: 'Dragon Ball',
     description: '',
-    fromEntity: null,
+    fromEntity: {
+      entityType: 'manga',
+      title: 'Dragon Ball',
+      secondEntityKey: 'Akira Toriyama',
+    },
     countryOrigin: ['Japon'],
   },
   {
@@ -1505,7 +1561,11 @@ export const baseMoviesAnimated2: BaseMovie[] = [
     genre: ['Animation'],
     saga: 'Dragon Ball',
     description: '',
-    fromEntity: null,
+    fromEntity: {
+      entityType: 'manga',
+      title: 'Dragon Ball',
+      secondEntityKey: 'Akira Toriyama',
+    },
     countryOrigin: ['Japon'],
   },
   {
@@ -1528,7 +1588,11 @@ export const baseMoviesAnimated2: BaseMovie[] = [
     genre: ['Animation'],
     saga: 'Dragon Ball',
     description: '',
-    fromEntity: null,
+    fromEntity: {
+      entityType: 'manga',
+      title: 'Dragon Ball',
+      secondEntityKey: 'Akira Toriyama',
+    },
     countryOrigin: ['Japon'],
   },
   {
@@ -1551,7 +1615,11 @@ export const baseMoviesAnimated2: BaseMovie[] = [
     genre: ['Animation'],
     saga: 'Dragon Ball',
     description: '',
-    fromEntity: null,
+    fromEntity: {
+      entityType: 'manga',
+      title: 'Dragon Ball',
+      secondEntityKey: 'Akira Toriyama',
+    },
     countryOrigin: ['Japon'],
   },
   {
@@ -1574,7 +1642,11 @@ export const baseMoviesAnimated2: BaseMovie[] = [
     genre: ['Animation'],
     saga: 'Dragon Ball',
     description: '',
-    fromEntity: null,
+    fromEntity: {
+      entityType: 'manga',
+      title: 'Dragon Ball',
+      secondEntityKey: 'Akira Toriyama',
+    },
     countryOrigin: ['Japon'],
   },
   {
@@ -1587,7 +1659,11 @@ export const baseMoviesAnimated2: BaseMovie[] = [
     genre: ['Animation'],
     saga: 'Dragon Ball',
     description: '',
-    fromEntity: null,
+    fromEntity: {
+      entityType: 'manga',
+      title: 'Dragon Ball',
+      secondEntityKey: 'Akira Toriyama',
+    },
     countryOrigin: ['Japon'],
   },
   {
@@ -1610,7 +1686,11 @@ export const baseMoviesAnimated2: BaseMovie[] = [
     genre: ['Animation'],
     saga: 'Dragon Ball',
     description: '',
-    fromEntity: null,
+    fromEntity: {
+      entityType: 'manga',
+      title: 'Dragon Ball',
+      secondEntityKey: 'Akira Toriyama',
+    },
     countryOrigin: ['Japon'],
   },
   {
@@ -1618,22 +1698,26 @@ export const baseMoviesAnimated2: BaseMovie[] = [
     director: 'Katsuhiro Ōtomo',
     actors: [
       {
-        name: "Mitsuo Iwata",
+        name: 'Mitsuo Iwata',
       },
       {
-        name: "Nozomu Sasaki",
+        name: 'Nozomu Sasaki',
       },
       {
-        name: "Mami Koyama",
-      }
+        name: 'Mami Koyama',
+      },
     ],
-    coverUrl: "/movies_pictures/akira.jpg",
-    releaseDate: "1991-05-08",
+    coverUrl: '/movies_pictures/akira.jpg',
+    releaseDate: '1991-05-08',
     length: 124,
     genre: ['Science Fiction', 'Animation'],
-    saga: "",
-    description: "",
-    fromEntity: { entityType: "manga", title: "AKIRA", secondEntityKey: "Katsuhiro Otomo" },
+    saga: '',
+    description: '',
+    fromEntity: {
+      entityType: 'manga',
+      title: 'AKIRA',
+      secondEntityKey: 'Katsuhiro Otomo',
+    },
     countryOrigin: ['Japon'],
   },
   {
@@ -1704,22 +1788,26 @@ export const baseMoviesAnimated2: BaseMovie[] = [
     director: 'René Goscinny, Albert Uderzo',
     actors: [
       {
-        name: "Roger Carel",
+        name: 'Roger Carel',
       },
       {
-        name: "Jacques Morel",
+        name: 'Jacques Morel',
       },
       {
-        name: "Micheline Dax",
-      }
+        name: 'Micheline Dax',
+      },
     ],
-    coverUrl: "/movies_pictures/asterix_and_cleopatra.jpg",
-    releaseDate: "1968-12-19",
+    coverUrl: '/movies_pictures/asterix_and_cleopatra.jpg',
+    releaseDate: '1968-12-19',
     length: 72,
     genre: ['Animation'],
-    saga: "Astérix",
-    description: "",
-    fromEntity: { entityType: "bd", title: "Astérix et Cléopâtre", secondEntityKey: "René Goscinny" },
+    saga: 'Astérix',
+    description: '',
+    fromEntity: {
+      entityType: 'bd',
+      title: 'Astérix et Cléopâtre',
+      secondEntityKey: 'René Goscinny',
+    },
     countryOrigin: ['France'],
   },
   {
