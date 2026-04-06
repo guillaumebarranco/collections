@@ -6,6 +6,7 @@ import {
   ChangeDetectionStrategy,
 } from '@angular/core';
 import { CommonModule } from '@angular/common';
+import { MatTooltipModule } from '@angular/material/tooltip';
 import { MenuComponent } from '../../components/menu/menu.component';
 import {
   ViewToggleComponent,
@@ -176,11 +177,254 @@ export type MixBaseWorksViewBlock =
     }
   | { blockKind: 'standalone'; galaxies: BaseWorkGalaxy[] };
 
+/** Satellite autour de l’œuvre centrale (autres tomes, films, séries, jeux…). */
+export type BaseWorkOrbitSatellite =
+  | { kind: 'book'; data: Book }
+  | { kind: 'movie'; data: Movie }
+  | { kind: 'serie'; data: Serie }
+  | { kind: 'game'; data: Game }
+  | { kind: 'bd'; data: Bd }
+  | { kind: 'comic'; data: Comic }
+  | { kind: 'manga'; data: Manga }
+  | { kind: 'manwha'; data: Manwha };
+
+/** Une carte « galaxie » : un seul centre + anneau fusionné. */
+export type MixBaseWorkOrbitPanel = {
+  orbitKey: string;
+  blockKind: 'bookSaga' | 'standalone';
+  sagaDisplayName?: string;
+  headerPrimaryLabel: string;
+  /** Pour les blocs isolés : type fromEntity (libellé dans l’en-tête). */
+  standaloneFromEntityType?: string;
+  /** Nombre d’éléments sur l’anneau (hors centre). */
+  satelliteCount: number;
+  central: {
+    book?: Book | null;
+    bd?: Bd | null;
+    comic?: Comic | null;
+    manga?: Manga | null;
+    manwha?: Manwha | null;
+    game?: Game | null;
+    serie?: Serie | null;
+    movie?: Movie | null;
+    placeholderTitle?: string;
+    placeholderSecond?: string;
+    placeholderEntityType?: string;
+  };
+  satellites: BaseWorkOrbitSatellite[];
+};
+
+/** Couverture + texte d’infobulle pour les vignettes orbite. */
+export type MixOrbitCoverInfo = {
+  coverUrl: string | null;
+  tooltip: string;
+};
+
+function mixOrbitTrimCoverUrl(url: string | undefined | null): string | null {
+  const t = url?.trim();
+  return t ? t : null;
+}
+
+function mixOrbitCover(
+  coverUrl: string | undefined | null,
+  title: string,
+  secondLine?: string
+): MixOrbitCoverInfo {
+  const tooltip = secondLine?.trim()
+    ? `${title.trim()} — ${secondLine.trim()}`
+    : title.trim();
+  return {
+    coverUrl: mixOrbitTrimCoverUrl(coverUrl),
+    tooltip: tooltip || 'Sans titre',
+  };
+}
+
+function movieEntityKey(m: Movie): string {
+  return `${m.title}|${m.director}`;
+}
+
+function serieEntityKey(s: Serie): string {
+  return `${s.title}|${s.director}`;
+}
+
+function gameEntityKey(g: Game): string {
+  return `${g.title}|${g.editor}`;
+}
+
+function bookEntityKey(b: Book): string {
+  return `${b.title}|${b.author}`;
+}
+
+function mergeDedupeMovies(lists: Movie[][]): Movie[] {
+  const map = new Map<string, Movie>();
+  for (const arr of lists) {
+    for (const m of arr) {
+      map.set(movieEntityKey(m), m);
+    }
+  }
+  return [...map.values()].sort((a, b) => a.title.localeCompare(b.title, 'fr'));
+}
+
+function mergeDedupeSeries(lists: Serie[][]): Serie[] {
+  const map = new Map<string, Serie>();
+  for (const arr of lists) {
+    for (const s of arr) {
+      map.set(serieEntityKey(s), s);
+    }
+  }
+  return [...map.values()].sort((a, b) => a.title.localeCompare(b.title, 'fr'));
+}
+
+function mergeDedupeGames(lists: Game[][]): Game[] {
+  const map = new Map<string, Game>();
+  for (const arr of lists) {
+    for (const g of arr) {
+      map.set(gameEntityKey(g), g);
+    }
+  }
+  return [...map.values()].sort((a, b) => a.title.localeCompare(b.title, 'fr'));
+}
+
+/** Tome 1 de la saga : sagaOrder === 1, sinon plus petit sagaOrder, sinon premier livre. */
+function pickCentralGalaxyForBookSaga(
+  galaxies: BaseWorkGalaxy[]
+): BaseWorkGalaxy {
+  const withBook = galaxies.filter((g) => g.book);
+  if (withBook.length === 0) {
+    return galaxies[0];
+  }
+  const order1 = withBook.find((g) => (g.book!.sagaOrder ?? 0) === 1);
+  if (order1) {
+    return order1;
+  }
+  return [...withBook].sort(
+    (a, b) =>
+      (a.book!.sagaOrder ?? 9999) - (b.book!.sagaOrder ?? 9999)
+  )[0];
+}
+
+function centralFromGalaxy(g: BaseWorkGalaxy): MixBaseWorkOrbitPanel['central'] {
+  return {
+    book: g.book,
+    bd: g.bd,
+    comic: g.comic,
+    manga: g.manga,
+    manwha: g.manwha,
+    game: g.game,
+    serie: g.serie,
+    movie: g.movie,
+    placeholderTitle:
+      !g.book &&
+      !g.bd &&
+      !g.comic &&
+      !g.manga &&
+      !g.manwha &&
+      !g.game &&
+      !g.serie &&
+      !g.movie
+        ? g.sourceTitle
+        : undefined,
+    placeholderSecond:
+      !g.book &&
+      !g.bd &&
+      !g.comic &&
+      !g.manga &&
+      !g.manwha &&
+      !g.game &&
+      !g.serie &&
+      !g.movie
+        ? g.sourceSecondKey
+        : undefined,
+    placeholderEntityType:
+      !g.book &&
+      !g.bd &&
+      !g.comic &&
+      !g.manga &&
+      !g.manwha &&
+      !g.game &&
+      !g.serie &&
+      !g.movie
+        ? g.fromEntityType
+        : undefined,
+  };
+}
+
+function baseWorksBlockToOrbitPanel(
+  block: MixBaseWorksViewBlock
+): MixBaseWorkOrbitPanel {
+  if (block.blockKind === 'standalone') {
+    const g = block.galaxies[0];
+    const movies = mergeDedupeMovies([g.derivedMovies]);
+    const series = mergeDedupeSeries([g.derivedSeries]);
+    const games = mergeDedupeGames([g.derivedGames]);
+    const satellites: BaseWorkOrbitSatellite[] = [
+      ...movies.map((data) => ({ kind: 'movie' as const, data })),
+      ...series.map((data) => ({ kind: 'serie' as const, data })),
+      ...games.map((data) => ({ kind: 'game' as const, data })),
+    ];
+    return {
+      orbitKey: `bbwg-st:${g.uniqueKey}`,
+      blockKind: 'standalone',
+      headerPrimaryLabel: `${g.sourceTitle} — ${g.sourceSecondKey}`,
+      standaloneFromEntityType: g.fromEntityType,
+      satelliteCount: satellites.length,
+      central: centralFromGalaxy(g),
+      satellites,
+    };
+  }
+
+  const galaxies = block.galaxies;
+  const centralGalaxy = pickCentralGalaxyForBookSaga(galaxies);
+  const centralBook = centralGalaxy.book;
+  const centralKey = centralBook ? bookEntityKey(centralBook) : '';
+
+  const otherBooks: Book[] = [];
+  const bookSeen = new Set<string>();
+  for (const gal of galaxies) {
+    if (!gal.book) continue;
+    const k = bookEntityKey(gal.book);
+    if (centralKey && k === centralKey) continue;
+    if (bookSeen.has(k)) continue;
+    bookSeen.add(k);
+    otherBooks.push(gal.book);
+  }
+  otherBooks.sort((a, b) => {
+    const d = (a.sagaOrder ?? 9999) - (b.sagaOrder ?? 9999);
+    if (d !== 0) return d;
+    return a.title.localeCompare(b.title, 'fr');
+  });
+
+  const movieLists = galaxies.map((g) => g.derivedMovies);
+  const serieLists = galaxies.map((g) => g.derivedSeries);
+  const gameLists = galaxies.map((g) => g.derivedGames);
+  const movies = mergeDedupeMovies(movieLists);
+  const series = mergeDedupeSeries(serieLists);
+  const games = mergeDedupeGames(gameLists);
+
+  const satellites: BaseWorkOrbitSatellite[] = [
+    ...otherBooks.map((data) => ({ kind: 'book' as const, data })),
+    ...movies.map((data) => ({ kind: 'movie' as const, data })),
+    ...series.map((data) => ({ kind: 'serie' as const, data })),
+    ...games.map((data) => ({ kind: 'game' as const, data })),
+  ];
+
+  return {
+    orbitKey: `bbwg-saga:${block.sagaKey}`,
+    blockKind: 'bookSaga',
+    sagaDisplayName: block.sagaDisplayName,
+    headerPrimaryLabel: `Saga livres — ${block.sagaDisplayName}`,
+    satelliteCount: satellites.length,
+    central: centralFromGalaxy(centralGalaxy),
+    satellites,
+  };
+}
+
 @Component({
   selector: 'app-mix',
   standalone: true,
   imports: [
     CommonModule,
+    MatTooltipModule,
     MenuComponent,
     ViewToggleComponent,
     BdComponent,
@@ -676,8 +920,8 @@ export class MixComponent implements OnInit {
       }
     }
 
-    const sagaBlocks: MixBaseWorksViewBlock[] = Array.from(sagaBookMap.entries())
-      .map(([, entry]) => {
+    const sagaBlocks: MixBaseWorksViewBlock[] = Array.from(sagaBookMap.entries()).map(
+      ([, entry]) => {
         entry.galaxies.sort((a, b) => {
           const ao = a.book?.sagaOrder ?? 0;
           const bo = b.book?.sagaOrder ?? 0;
@@ -690,10 +934,8 @@ export class MixComponent implements OnInit {
           sagaDisplayName: entry.sagaDisplayName,
           galaxies: entry.galaxies,
         };
-      })
-      .sort((a, b) =>
-        a.sagaDisplayName.localeCompare(b.sagaDisplayName, 'fr')
-      );
+      }
+    );
 
     standaloneGalaxies.sort((a, b) =>
       a.uniqueKey.localeCompare(b.uniqueKey, 'fr')
@@ -702,7 +944,36 @@ export class MixComponent implements OnInit {
       (galaxy) => ({ blockKind: 'standalone' as const, galaxies: [galaxy] })
     );
 
-    return [...sagaBlocks, ...standaloneBlocks];
+    const blockAdaptationTotal = (block: MixBaseWorksViewBlock): number =>
+      block.galaxies.reduce(
+        (sum, gal) =>
+          sum +
+          gal.derivedMovies.length +
+          gal.derivedSeries.length +
+          gal.derivedGames.length,
+        0
+      );
+
+    const blockSortLabel = (block: MixBaseWorksViewBlock): string =>
+      block.blockKind === 'bookSaga'
+        ? block.sagaDisplayName
+        : (block.galaxies[0]?.sourceTitle ?? '');
+
+    return [...sagaBlocks, ...standaloneBlocks].sort((a, b) => {
+      const diff = blockAdaptationTotal(b) - blockAdaptationTotal(a);
+      if (diff !== 0) return diff;
+      return blockSortLabel(a).localeCompare(blockSortLabel(b), 'fr');
+    });
+  });
+
+  /** Panneaux « orbite » dérivés des blocs (centre = tome 1 ou œuvre isolée). */
+  readonly mixBaseWorkOrbitPanels = computed<MixBaseWorkOrbitPanel[]>(() => {
+    const panels = this.mixBaseWorksBlocks().map(baseWorksBlockToOrbitPanel);
+    return panels.sort((a, b) => {
+      const diff = b.satelliteCount - a.satelliteCount;
+      if (diff !== 0) return diff;
+      return a.headerPrimaryLabel.localeCompare(b.headerPrimaryLabel, 'fr');
+    });
   });
 
   readonly collapsedSections = signal<Record<string, boolean>>({});
@@ -718,23 +989,147 @@ export class MixComponent implements OnInit {
     return Boolean(this.collapsedSections()[key]);
   }
 
-  trackBaseWorksBlock(block: MixBaseWorksViewBlock): string {
-    return block.blockKind === 'bookSaga'
-      ? `saga:${block.sagaKey}`
-      : `one:${block.galaxies[0]?.uniqueKey ?? ''}`;
+  trackBaseWorkOrbitPanel(panel: MixBaseWorkOrbitPanel): string {
+    return panel.orbitKey;
   }
 
-  baseGalaxyCollapseKey(
-    block: MixBaseWorksViewBlock,
-    galaxy: BaseWorkGalaxy
-  ): string {
-    return block.blockKind === 'bookSaga'
-      ? `bs:${block.sagaKey}:${galaxy.uniqueKey}`
-      : `st:${galaxy.uniqueKey}`;
+  /** Clé de repli pour tout le panneau orbite. */
+  baseWorkOrbitCollapseKey(panel: MixBaseWorkOrbitPanel): string {
+    return panel.orbitKey;
+  }
+
+  trackOrbitSatellite(sat: BaseWorkOrbitSatellite, index: number): string {
+    switch (sat.kind) {
+      case 'book':
+        return `b-${bookEntityKey(sat.data)}-${index}`;
+      case 'movie':
+        return `m-${movieEntityKey(sat.data)}-${index}`;
+      case 'serie':
+        return `s-${serieEntityKey(sat.data)}-${index}`;
+      case 'game':
+        return `g-${gameEntityKey(sat.data)}-${index}`;
+      case 'bd':
+        return `bd-${sat.data.title}|${sat.data.writer}-${index}`;
+      case 'comic':
+        return `c-${sat.data.title}|${sat.data.writer}-${index}`;
+      case 'manga':
+        return `mg-${sat.data.title}|${sat.data.author}-${index}`;
+      case 'manwha':
+        return `mw-${sat.data.title}|${sat.data.author}-${index}`;
+    }
+  }
+
+  orbitSatelliteCover(sat: BaseWorkOrbitSatellite): MixOrbitCoverInfo {
+    switch (sat.kind) {
+      case 'book':
+        return mixOrbitCover(sat.data.coverUrl, sat.data.title, sat.data.author);
+      case 'movie':
+        return mixOrbitCover(sat.data.coverUrl, sat.data.title, sat.data.director);
+      case 'serie':
+        return mixOrbitCover(sat.data.coverUrl, sat.data.title, sat.data.director);
+      case 'game':
+        return mixOrbitCover(sat.data.coverUrl, sat.data.title, sat.data.editor);
+      case 'bd':
+        return mixOrbitCover(sat.data.coverUrl, sat.data.title, sat.data.writer);
+      case 'comic':
+        return mixOrbitCover(sat.data.coverUrl, sat.data.title, sat.data.writer);
+      case 'manga':
+        return mixOrbitCover(sat.data.coverUrl, sat.data.title, sat.data.author);
+      case 'manwha':
+        return mixOrbitCover(sat.data.coverUrl, sat.data.title, sat.data.author);
+    }
+  }
+
+  orbitCentralCover(central: MixBaseWorkOrbitPanel['central']): MixOrbitCoverInfo {
+    if (central.book) {
+      return mixOrbitCover(
+        central.book.coverUrl,
+        central.book.title,
+        central.book.author
+      );
+    }
+    if (central.bd) {
+      return mixOrbitCover(central.bd.coverUrl, central.bd.title, central.bd.writer);
+    }
+    if (central.comic) {
+      return mixOrbitCover(
+        central.comic.coverUrl,
+        central.comic.title,
+        central.comic.writer
+      );
+    }
+    if (central.manga) {
+      return mixOrbitCover(
+        central.manga.coverUrl,
+        central.manga.title,
+        central.manga.author
+      );
+    }
+    if (central.manwha) {
+      return mixOrbitCover(
+        central.manwha.coverUrl,
+        central.manwha.title,
+        central.manwha.author
+      );
+    }
+    if (central.game) {
+      return mixOrbitCover(
+        central.game.coverUrl,
+        central.game.title,
+        central.game.editor
+      );
+    }
+    if (central.serie) {
+      return mixOrbitCover(
+        central.serie.coverUrl,
+        central.serie.title,
+        central.serie.director
+      );
+    }
+    if (central.movie) {
+      return mixOrbitCover(
+        central.movie.coverUrl,
+        central.movie.title,
+        central.movie.director
+      );
+    }
+    const base = [central.placeholderTitle, central.placeholderSecond]
+      .filter((s): s is string => Boolean(s?.trim()))
+      .join(' — ');
+    const kind = central.placeholderEntityType
+      ? ` (${this.baseWorkEntityLabel(central.placeholderEntityType)}, absent du catalogue local)`
+      : '';
+    return {
+      coverUrl: null,
+      tooltip: (base + kind).trim() || 'Œuvre de base',
+    };
+  }
+
+  orbitCoverFallbackLetter(tooltip: string): string {
+    const t = tooltip.trim();
+    if (!t) {
+      return '?';
+    }
+    return t.charAt(0).toLocaleUpperCase('fr');
+  }
+
+  /** Rayon de l’anneau (px) selon le nombre de satellites. */
+  orbitRadiusPx(satelliteCount: number): number {
+    if (satelliteCount <= 0) return 0;
+    return Math.min(300, Math.max(130, 95 + satelliteCount * 26));
+  }
+
+  /** Taille du carré contenant le schéma circulaire. */
+  orbitContainerSizePx(satelliteCount: number): number {
+    const r = this.orbitRadiusPx(satelliteCount);
+    return Math.max(280, Math.min(920, 2 * r + 240));
   }
 
   /** Libellé FR pour le type d’œuvre source (fromEntity.entityType). */
   baseWorkEntityLabel(entityType: string): string {
+    if (!entityType) {
+      return 'œuvre';
+    }
     const labels: Record<string, string> = {
       book: 'Livre',
       bd: 'BD franco',
