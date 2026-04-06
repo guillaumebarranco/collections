@@ -281,67 +281,87 @@ export const baseMoviesOtherSuperheroes: BaseMovie[] = [
   {
     title: 'Spider-Man',
     director: 'Sam Raimi',
-    actors: [{ name: 'Tobey Maguire' }],
-    coverUrl: '/movies_pictures/51561-spider-man-0-150-0-225-crop.jpg',
-    releaseDate: '2002-05-03',
+    actors: [
+      {
+        name: "Tobey Maguire",
+      }
+    ],
+    coverUrl: "/movies_pictures/51561-spider-man-0-150-0-225-crop.jpg",
+    releaseDate: "2002-05-03",
     length: 121,
     genre: ['Action'],
-    saga: 'Spider-Man',
-    description: '',
-    fromEntity: null,
+    saga: "Spider-Man",
+    description: "",
+    fromEntity: { entityType: "comic", title: "Spider-Man", secondEntityKey: "J. Michael Straczynski" },
     countryOrigin: ['États-Unis'],
   },
   {
     title: 'Spider-Man 2',
     director: 'Sam Raimi',
-    actors: [{ name: 'Tobey Maguire' }],
-    coverUrl: '/movies_pictures/18380826.jpg',
-    releaseDate: '2004-06-30',
+    actors: [
+      {
+        name: "Tobey Maguire",
+      }
+    ],
+    coverUrl: "/movies_pictures/18380826.jpg",
+    releaseDate: "2004-06-30",
     length: 127,
     genre: ['Action'],
-    saga: '',
-    description: '',
-    fromEntity: null,
+    saga: "",
+    description: "",
+    fromEntity: { entityType: "comic", title: "Spider-Man", secondEntityKey: "J. Michael Straczynski" },
     countryOrigin: ['États-Unis'],
   },
   {
     title: 'Spider-Man 3',
     director: 'Sam Raimi',
-    actors: [{ name: 'Tobey Maguire' }],
-    coverUrl: '/movies_pictures/spiderman_3.jpg',
-    releaseDate: '2007-05-04',
+    actors: [
+      {
+        name: "Tobey Maguire",
+      }
+    ],
+    coverUrl: "/movies_pictures/spiderman_3.jpg",
+    releaseDate: "2007-05-04",
     length: 139,
     genre: ['Action'],
-    saga: '',
-    description: '',
-    fromEntity: null,
+    saga: "",
+    description: "",
+    fromEntity: { entityType: "comic", title: "Spider-Man", secondEntityKey: "J. Michael Straczynski" },
     countryOrigin: ['États-Unis'],
   },
   {
     title: 'The Amazing Spider-Man',
     director: 'Marc Webb',
-    actors: [{ name: 'Andrew Garfield' }],
+    actors: [
+      {
+        name: "Andrew Garfield",
+      }
+    ],
     coverUrl:
-      '/movies_pictures/50677-the-amazing-spider-man-0-150-0-225-crop.jpg',
-    releaseDate: '2012-07-03',
+      "/movies_pictures/50677-the-amazing-spider-man-0-150-0-225-crop.jpg",
+    releaseDate: "2012-07-03",
     length: 136,
     genre: ['Action'],
-    saga: '',
-    description: '',
-    fromEntity: null,
+    saga: "",
+    description: "",
+    fromEntity: { entityType: "comic", title: "Spider-Man", secondEntityKey: "J. Michael Straczynski" },
     countryOrigin: ['États-Unis'],
   },
   {
     title: "The Amazing Spider-Man : Le Destin d'un Héros",
     director: 'Marc Webb',
-    actors: [{ name: 'Andrew Garfield' }],
-    coverUrl: '/movies_pictures/amazin_spiderman_2.jpg',
-    releaseDate: '2014-05-02',
+    actors: [
+      {
+        name: "Andrew Garfield",
+      }
+    ],
+    coverUrl: "/movies_pictures/amazin_spiderman_2.jpg",
+    releaseDate: "2014-05-02",
     length: 142,
     genre: ['Action'],
-    saga: '',
-    description: '',
-    fromEntity: null,
+    saga: "",
+    description: "",
+    fromEntity: { entityType: "comic", title: "Spider-Man", secondEntityKey: "J. Michael Straczynski" },
     countryOrigin: ['États-Unis'],
   },
   {

@@ -51,17 +51,17 @@ export const baseMoviesAnimated: BaseMovie[] = [
     director: 'Bob Persichetti, Peter Ramsey, Rodney Rothman',
     actors: [
       {
-        name: 'Shameik Moore',
-      },
+        name: "Shameik Moore",
+      }
     ],
     coverUrl:
-      '/movies_pictures/251943-spider-man-into-the-spider-verse-0-150-0-225-crop.jpg',
-    releaseDate: '2018-12-14',
+      "/movies_pictures/251943-spider-man-into-the-spider-verse-0-150-0-225-crop.jpg",
+    releaseDate: "2018-12-14",
     length: 117,
     genre: ['Animation'],
-    saga: 'Spider-Verse',
-    description: '',
-    fromEntity: null,
+    saga: "Spider-Verse",
+    description: "",
+    fromEntity: { entityType: "comic", title: "Spider-Man", secondEntityKey: "J. Michael Straczynski" },
     countryOrigin: ['États-Unis'],
   },
   {
@@ -69,17 +69,17 @@ export const baseMoviesAnimated: BaseMovie[] = [
     director: 'Joaquim Dos Santos, Kemp Powers, Justin K. Thompson',
     actors: [
       {
-        name: 'Shameik Moore',
-      },
+        name: "Shameik Moore",
+      }
     ],
     coverUrl:
-      '/movies_pictures/497631-spider-man-across-the-spider-verse-0-150-0-225-crop.jpg',
-    releaseDate: '2023-06-02',
+      "/movies_pictures/497631-spider-man-across-the-spider-verse-0-150-0-225-crop.jpg",
+    releaseDate: "2023-06-02",
     length: 140,
     genre: ['Animation'],
-    saga: 'Spider-Verse',
-    description: '',
-    fromEntity: null,
+    saga: "Spider-Verse",
+    description: "",
+    fromEntity: { entityType: "comic", title: "Spider-Man", secondEntityKey: "J. Michael Straczynski" },
     countryOrigin: ['États-Unis'],
   },
   {
@@ -118,17 +118,17 @@ export const baseMoviesAnimated: BaseMovie[] = [
     director: 'Aaron Horvath, Michael Jelenic',
     actors: [
       {
-        name: 'Chris Pratt',
-      },
+        name: "Chris Pratt",
+      }
     ],
     coverUrl:
-      '/movies_pictures/432302-the-super-mario-bros-movie-0-150-0-225-crop.jpg',
-    releaseDate: '2023-04-05',
+      "/movies_pictures/432302-the-super-mario-bros-movie-0-150-0-225-crop.jpg",
+    releaseDate: "2023-04-05",
     length: 92,
     genre: ['Animation'],
-    saga: '',
-    description: '',
-    fromEntity: null,
+    saga: "",
+    description: "",
+    fromEntity: { entityType: "game", title: "Super Mario 2", secondEntityKey: "Nintendo" },
     countryOrigin: ['États-Unis'],
   },
   {
@@ -751,15 +751,19 @@ export const baseMoviesAnimated: BaseMovie[] = [
   {
     title: 'South Park, le Film',
     director: 'Trey Parker',
-    actors: [{ name: 'Trey Parker' }],
+    actors: [
+      {
+        name: "Trey Parker",
+      }
+    ],
     coverUrl:
-      '/movies_pictures/47125-south-park-bigger-longer-uncut-0-150-0-225-crop.jpg',
-    releaseDate: '1999-06-30',
+      "/movies_pictures/47125-south-park-bigger-longer-uncut-0-150-0-225-crop.jpg",
+    releaseDate: "1999-06-30",
     length: 81,
     genre: ['Animation'],
-    saga: '',
-    description: '',
-    fromEntity: null,
+    saga: "",
+    description: "",
+    fromEntity: { entityType: "serie", title: "South Park", secondEntityKey: "Trey Parker, Matt Stone" },
     countryOrigin: ['États-Unis'],
   },
   {

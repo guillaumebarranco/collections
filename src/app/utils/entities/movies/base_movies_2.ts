@@ -1098,14 +1098,18 @@ export const baseMoviesPage2: BaseMovie[] = [
   {
     title: 'Sex intentions',
     director: 'Roger Kumble',
-    actors: [{ name: 'Sarah Michelle Gellar' }],
-    coverUrl: '/movies_pictures/51356-cruel-intentions-0-150-0-225-crop.jpg',
-    releaseDate: '1999-03-05',
+    actors: [
+      {
+        name: "Sarah Michelle Gellar",
+      }
+    ],
+    coverUrl: "/movies_pictures/51356-cruel-intentions-0-150-0-225-crop.jpg",
+    releaseDate: "1999-03-05",
     length: 97,
     genre: ['Drame'],
-    saga: '',
-    description: '',
-    fromEntity: null,
+    saga: "",
+    description: "",
+    fromEntity: { entityType: "book", title: "Les liaisons dangereuses", secondEntityKey: "Pierre Choderlos de Laclos" },
     countryOrigin: ['États-Unis'],
   },
   {

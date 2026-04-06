@@ -856,68 +856,88 @@ export const baseMoviesSagaPage2: BaseMovie[] = [
   {
     title: 'Resident Evil',
     director: 'Paul W.S. Anderson',
-    actors: [{ name: 'Milla Jovovich' }],
-    coverUrl: '/movies_pictures/resident_evil.jpg',
-    releaseDate: '2002-03-15',
+    actors: [
+      {
+        name: "Milla Jovovich",
+      }
+    ],
+    coverUrl: "/movies_pictures/resident_evil.jpg",
+    releaseDate: "2002-03-15",
     length: 100,
     genre: ['Action'],
-    saga: 'Resident Evil',
-    description: '',
-    fromEntity: null,
+    saga: "Resident Evil",
+    description: "",
+    fromEntity: { entityType: "game", title: "Resident Evil 7 : Biohazard", secondEntityKey: "Capcom" },
     countryOrigin: ['États-Unis'],
   },
   {
     title: 'Resident Evil : Apocalypse',
     director: 'Alexander Witt',
-    actors: [{ name: 'Milla Jovovich' }],
+    actors: [
+      {
+        name: "Milla Jovovich",
+      }
+    ],
     coverUrl:
-      '/movies_pictures/50957-resident-evil-apocalypse-0-150-0-225-crop.jpg',
-    releaseDate: '2004-09-10',
+      "/movies_pictures/50957-resident-evil-apocalypse-0-150-0-225-crop.jpg",
+    releaseDate: "2004-09-10",
     length: 94,
     genre: ['Action'],
-    saga: 'Resident Evil',
-    description: '',
-    fromEntity: null,
+    saga: "Resident Evil",
+    description: "",
+    fromEntity: { entityType: "game", title: "Resident Evil 7 : Biohazard", secondEntityKey: "Capcom" },
     countryOrigin: ['États-Unis'],
   },
   {
     title: 'Resident Evil : Extinction',
     director: 'Russell Mulcahy',
-    actors: [{ name: 'Milla Jovovich' }],
+    actors: [
+      {
+        name: "Milla Jovovich",
+      }
+    ],
     coverUrl:
-      '/movies_pictures/47979-resident-evil-extinction-0-150-0-225-crop.jpg',
-    releaseDate: '2007-09-21',
+      "/movies_pictures/47979-resident-evil-extinction-0-150-0-225-crop.jpg",
+    releaseDate: "2007-09-21",
     length: 94,
     genre: ['Action'],
-    saga: 'Resident Evil',
-    description: '',
-    fromEntity: null,
+    saga: "Resident Evil",
+    description: "",
+    fromEntity: { entityType: "game", title: "Resident Evil 7 : Biohazard", secondEntityKey: "Capcom" },
     countryOrigin: ['États-Unis'],
   },
   {
     title: 'Resident Evil : Afterlife',
     director: 'Paul W.S. Anderson',
-    actors: [{ name: 'Milla Jovovich' }],
-    coverUrl: '/movies_pictures/19486570.jpg',
-    releaseDate: '2010-09-10',
+    actors: [
+      {
+        name: "Milla Jovovich",
+      }
+    ],
+    coverUrl: "/movies_pictures/19486570.jpg",
+    releaseDate: "2010-09-10",
     length: 97,
     genre: ['Action'],
-    saga: 'Resident Evil',
-    description: '',
-    fromEntity: null,
+    saga: "Resident Evil",
+    description: "",
+    fromEntity: { entityType: "game", title: "Resident Evil 7 : Biohazard", secondEntityKey: "Capcom" },
     countryOrigin: ['États-Unis'],
   },
   {
     title: 'Resident Evil : Retribution',
     director: 'Paul W.S. Anderson',
-    actors: [{ name: 'Milla Jovovich' }],
-    coverUrl: '/movies_pictures/20204615.jpg',
-    releaseDate: '2012-09-14',
+    actors: [
+      {
+        name: "Milla Jovovich",
+      }
+    ],
+    coverUrl: "/movies_pictures/20204615.jpg",
+    releaseDate: "2012-09-14",
     length: 95,
     genre: ['Action'],
-    saga: 'Resident Evil',
-    description: '',
-    fromEntity: null,
+    saga: "Resident Evil",
+    description: "",
+    fromEntity: { entityType: "game", title: "Resident Evil 7 : Biohazard", secondEntityKey: "Capcom" },
     countryOrigin: ['États-Unis'],
   },
   {

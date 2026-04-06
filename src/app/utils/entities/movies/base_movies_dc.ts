@@ -575,16 +575,16 @@ export const baseMoviesDc: BaseMovie[] = [
     director: 'Andy Muschietti',
     actors: [
       {
-        name: 'Ezra Miller',
-      },
+        name: "Ezra Miller",
+      }
     ],
-    coverUrl: '/movies_pictures/225845-the-flash-0-150-0-225-crop.jpg',
-    releaseDate: '2023-06-16',
+    coverUrl: "/movies_pictures/225845-the-flash-0-150-0-225-crop.jpg",
+    releaseDate: "2023-06-16",
     length: 144,
     genre: ['Action'],
-    saga: 'DCEU',
-    description: '',
-    fromEntity: null,
+    saga: "DCEU",
+    description: "",
+    fromEntity: { entityType: "comic", title: "Flashpoint : Édition 10 ans", secondEntityKey: "Geoff Johns" },
     countryOrigin: ['États-Unis'],
   },
   {

@@ -716,23 +716,23 @@ export const baseMoviesMcu: BaseMovie[] = [
     director: 'Jon Watts',
     actors: [
       {
-        name: 'Tom Holland',
+        name: "Tom Holland",
       },
       {
-        name: 'Robert Downey Jr.',
+        name: "Robert Downey Jr.",
       },
       {
-        name: 'Zendaya',
-      },
+        name: "Zendaya",
+      }
     ],
     coverUrl:
-      '/movies_pictures/242710-spider-man-homecoming-0-150-0-225-crop.jpg',
-    releaseDate: '2017-07-07',
+      "/movies_pictures/242710-spider-man-homecoming-0-150-0-225-crop.jpg",
+    releaseDate: "2017-07-07",
     length: 133,
     genre: ['Action'],
-    saga: 'Marvel Cinematic Universe',
-    description: '',
-    fromEntity: null,
+    saga: "Marvel Cinematic Universe",
+    description: "",
+    fromEntity: { entityType: "comic", title: "Spider-Man", secondEntityKey: "J. Michael Straczynski" },
     countryOrigin: ['États-Unis'],
   },
   {
@@ -740,26 +740,26 @@ export const baseMoviesMcu: BaseMovie[] = [
     director: 'Jon Watts',
     actors: [
       {
-        name: 'Tom Holland',
+        name: "Tom Holland",
       },
       {
-        name: 'Jake Gyllenhaal',
+        name: "Jake Gyllenhaal",
       },
       {
-        name: 'Samuel L. Jackson',
+        name: "Samuel L. Jackson",
       },
       {
-        name: 'Zendaya',
-      },
+        name: "Zendaya",
+      }
     ],
     coverUrl:
-      '/movies_pictures/362977-spider-man-far-from-home-0-150-0-225-crop.jpg',
-    releaseDate: '2019-07-02',
+      "/movies_pictures/362977-spider-man-far-from-home-0-150-0-225-crop.jpg",
+    releaseDate: "2019-07-02",
     length: 129,
     genre: ['Action'],
-    saga: 'Marvel Cinematic Universe',
-    description: '',
-    fromEntity: null,
+    saga: "Marvel Cinematic Universe",
+    description: "",
+    fromEntity: { entityType: "comic", title: "Spider-Man", secondEntityKey: "J. Michael Straczynski" },
     countryOrigin: ['États-Unis'],
   },
   {
@@ -767,23 +767,23 @@ export const baseMoviesMcu: BaseMovie[] = [
     director: 'Jon Watts',
     actors: [
       {
-        name: 'Tom Holland',
+        name: "Tom Holland",
       },
       {
-        name: 'Willem Dafoe',
+        name: "Willem Dafoe",
       },
       {
-        name: 'Zendaya',
-      },
+        name: "Zendaya",
+      }
     ],
     coverUrl:
-      '/movies_pictures/560787-spider-man-no-way-home-0-150-0-225-crop.jpg',
-    releaseDate: '2021-12-17',
+      "/movies_pictures/560787-spider-man-no-way-home-0-150-0-225-crop.jpg",
+    releaseDate: "2021-12-17",
     length: 148,
     genre: ['Action'],
-    saga: 'Marvel Cinematic Universe',
-    description: '',
-    fromEntity: null,
+    saga: "Marvel Cinematic Universe",
+    description: "",
+    fromEntity: { entityType: "comic", title: "Spider-Man", secondEntityKey: "J. Michael Straczynski" },
     countryOrigin: ['États-Unis'],
   },
   {

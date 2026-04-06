@@ -568,18 +568,18 @@ export const baseMoviesPage3: BaseMovie[] = [
   {
     title: 'The Dead Zone',
     director: 'David Cronenberg',
-    actors: [{ name: 'Christopher Walken' }],
-    coverUrl: '/movies_pictures/45398-the-dead-zone-0-150-0-225-crop.jpg',
-    releaseDate: '1983-10-21',
+    actors: [
+      {
+        name: "Christopher Walken",
+      }
+    ],
+    coverUrl: "/movies_pictures/45398-the-dead-zone-0-150-0-225-crop.jpg",
+    releaseDate: "1983-10-21",
     length: 103,
     genre: ['Thriller'],
-    saga: '',
-    description: '',
-    fromEntity: {
-      entityType: 'book',
-      title: 'The Dead Zone',
-      secondEntityKey: 'Stephen King',
-    },
+    saga: "",
+    description: "",
+    fromEntity: { entityType: "book", title: "The Dead zone", secondEntityKey: "Stephen King" },
     countryOrigin: ['États-Unis'],
   },
   {

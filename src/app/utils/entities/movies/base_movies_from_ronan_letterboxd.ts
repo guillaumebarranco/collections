@@ -70,28 +70,28 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     director: 'Edgar Wright',
     actors: [
       {
-        name: 'Sam Worthington',
+        name: "Sam Worthington",
       },
       {
-        name: 'Zoe Saldana',
+        name: "Zoe Saldana",
       },
       {
-        name: 'Sigourney Weaver',
+        name: "Sigourney Weaver",
       },
       {
-        name: 'Stephen Lang',
+        name: "Stephen Lang",
       },
       {
-        name: 'Kate Winslet',
-      },
+        name: "Kate Winslet",
+      }
     ],
-    coverUrl: '/movies_pictures/running_man.jpg',
-    releaseDate: '2025-11-19',
+    coverUrl: "/movies_pictures/running_man.jpg",
+    releaseDate: "2025-11-19",
     length: 134,
     genre: ['Science Fiction'],
-    saga: '',
-    description: '',
-    fromEntity: null,
+    saga: "",
+    description: "",
+    fromEntity: { entityType: "book", title: "Running man", secondEntityKey: "Stephen King" },
     countryOrigin: ['États-Unis'],
   },
   {

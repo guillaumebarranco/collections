@@ -929,14 +929,21 @@ export const baseMoviesAnimated2: BaseMovie[] = [
   {
     title: 'The Lego Movie',
     director: 'Phil Lord, Christopher Miller',
-    actors: [{ name: 'Chris Pratt' }, { name: 'Elizabeth Banks' }],
-    coverUrl: '/movies_pictures/The_Lego_Movie_poster.jpg',
-    releaseDate: '2014-02-07',
+    actors: [
+      {
+        name: "Chris Pratt",
+      },
+      {
+        name: "Elizabeth Banks",
+      }
+    ],
+    coverUrl: "/movies_pictures/The_Lego_Movie_poster.jpg",
+    releaseDate: "2014-02-07",
     length: 100,
     genre: ['Animation', 'Aventure'],
-    saga: 'Lego',
-    description: '',
-    fromEntity: null,
+    saga: "Lego",
+    description: "",
+    fromEntity: { entityType: "game", title: "Lego Batman", secondEntityKey: "Warner" },
     countryOrigin: ['États-Unis'],
   },
   {

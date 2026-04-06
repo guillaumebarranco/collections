@@ -974,31 +974,31 @@ export const baseMoviesApi: BaseMovie[] = [
     director: 'Michael Jelenic, Aaron Horvath',
     actors: [
       {
-        name: 'Chris Pratt',
+        name: "Chris Pratt",
       },
       {
-        name: 'Charlie Day',
+        name: "Charlie Day",
       },
       {
-        name: 'Jack Black',
+        name: "Jack Black",
       },
       {
-        name: 'Brie Larson',
+        name: "Brie Larson",
       },
       {
-        name: 'Ben Safdie',
+        name: "Ben Safdie",
       },
       {
-        name: 'Anya Taylor-Joy',
-      },
+        name: "Anya Taylor-Joy",
+      }
     ],
-    coverUrl: '/movies_pictures/7b178034b345.jpg',
-    releaseDate: '2026-04-01',
+    coverUrl: "/movies_pictures/7b178034b345.jpg",
+    releaseDate: "2026-04-01",
     length: 99,
     genre: ['Comédie', 'Aventure', 'Jeunesse', 'Animation'],
-    saga: '',
-    description: '',
-    fromEntity: null,
+    saga: "",
+    description: "",
+    fromEntity: { entityType: "game", title: "Super Mario Galaxy", secondEntityKey: "Nintendo" },
     countryOrigin: ['États-Unis'],
   },
 
