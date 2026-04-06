@@ -163,30 +163,30 @@ export const baseSeriesApi: BaseSerie[] = [
     director: 'Diane Ademu-John, Alison Schapker',
     actors: [
       {
-        name: 'Travis Fimmel',
+        name: "Travis Fimmel",
       },
       {
-        name: 'Emily Watson',
+        name: "Emily Watson",
       },
       {
-        name: 'Mark Strong',
-      },
+        name: "Mark Strong",
+      }
     ],
-    coverUrl: '/series_pictures/dune-prophecy.jpg',
-    releaseDate: '2024-11-17',
-    endDate: '2024-12-23',
+    coverUrl: "/series_pictures/dune-prophecy.jpg",
+    releaseDate: "2024-11-17",
+    endDate: "2024-12-23",
     genre: ['Science Fiction'],
     seasonsData: [
       {
         seasonNumber: 1,
         nbEpisodes: 6,
         totalLength: 391,
-      },
+      }
     ],
-    description: '',
-    fromEntity: null,
-    saga: 'Dune',
-    countryOrigin: 'États-Unis',
+    description: "",
+    fromEntity: { entityType: "book", title: "Dune", secondEntityKey: "Frank Herbert" },
+    saga: "Dune",
+    countryOrigin: "États-Unis",
   },
 
   {
@@ -194,34 +194,30 @@ export const baseSeriesApi: BaseSerie[] = [
     director: 'Ira Parker,George R. R. Martin',
     actors: [
       {
-        name: 'Peter Claffey',
+        name: "Peter Claffey",
       },
       {
-        name: 'Dexter Sol Ansell',
+        name: "Dexter Sol Ansell",
       },
       {
-        name: 'Daniel Ings',
-      },
+        name: "Daniel Ings",
+      }
     ],
-    coverUrl: '/series_pictures/aa879c773348.jpg',
-    releaseDate: '2026-01-18',
-    endDate: '',
+    coverUrl: "/series_pictures/aa879c773348.jpg",
+    releaseDate: "2026-01-18",
+    endDate: "",
     genre: ['Fantasy'],
     seasonsData: [
       {
         seasonNumber: 1,
         nbEpisodes: 6,
         totalLength: 208,
-      },
+      }
     ],
-    description: '',
-    countryOrigin: 'États-Unis',
-    saga: 'Game of Thrones',
-    fromEntity: {
-      entityType: 'book',
-      title: "Le Trône de fer, L'Intégrale Tome 1",
-      secondEntityKey: 'George R.R. Martin',
-    },
+    description: "",
+    countryOrigin: "États-Unis",
+    saga: "Game of Thrones",
+    fromEntity: { entityType: "book", title: "Le Trône de fer, L'Intégrale Tome 1", secondEntityKey: "George R.R. Martin" },
   },
 
   {
@@ -331,18 +327,18 @@ export const baseSeriesApi: BaseSerie[] = [
     director: 'Jon Favreau',
     actors: [
       {
-        name: 'Pedro Pascal',
+        name: "Pedro Pascal",
       },
       {
-        name: 'Gina Carano',
+        name: "Gina Carano",
       },
       {
-        name: 'Carl Weathers',
-      },
+        name: "Carl Weathers",
+      }
     ],
-    coverUrl: '/series_pictures/4a4a05942f4e.jpg',
-    releaseDate: '2020-04-07',
-    endDate: '',
+    coverUrl: "/series_pictures/4a4a05942f4e.jpg",
+    releaseDate: "2020-04-07",
+    endDate: "",
     genre: ['Science Fiction'],
     seasonsData: [
       {
@@ -359,12 +355,12 @@ export const baseSeriesApi: BaseSerie[] = [
         seasonNumber: 3,
         nbEpisodes: 8,
         totalLength: 340,
-      },
+      }
     ],
-    description: '',
-    fromEntity: null,
-    countryOrigin: 'États-Unis',
-    saga: 'Star Wars',
+    description: "",
+    fromEntity: { entityType: "movie", title: "Star Wars : Episode 4 - Un nouvel espoir", secondEntityKey: "George Lucas" },
+    countryOrigin: "États-Unis",
+    saga: "Star Wars",
   },
 
   {
@@ -372,27 +368,27 @@ export const baseSeriesApi: BaseSerie[] = [
     director: 'Jon Favreau',
     actors: [
       {
-        name: 'Temuera Morrison',
+        name: "Temuera Morrison",
       },
       {
-        name: 'Ming-Na Wen',
-      },
+        name: "Ming-Na Wen",
+      }
     ],
-    coverUrl: '/series_pictures/0e96afd1c0c5.jpg',
-    releaseDate: '2021-12-29',
-    endDate: '2022-02-09',
+    coverUrl: "/series_pictures/0e96afd1c0c5.jpg",
+    releaseDate: "2021-12-29",
+    endDate: "2022-02-09",
     genre: ['Science Fiction'],
     seasonsData: [
       {
         seasonNumber: 1,
         nbEpisodes: 7,
         totalLength: 330,
-      },
+      }
     ],
-    description: '',
-    fromEntity: null,
-    countryOrigin: 'États-Unis',
-    saga: 'Star Wars',
+    description: "",
+    fromEntity: { entityType: "movie", title: "Star Wars : Episode 4 - Un nouvel espoir", secondEntityKey: "George Lucas" },
+    countryOrigin: "États-Unis",
+    saga: "Star Wars",
   },
 
   {
@@ -400,27 +396,27 @@ export const baseSeriesApi: BaseSerie[] = [
     director: 'Tony Gilroy',
     actors: [
       {
-        name: 'Diego Luna',
+        name: "Diego Luna",
       },
       {
-        name: 'Stellan Skarsgård',
+        name: "Stellan Skarsgård",
       },
       {
-        name: 'Adria Arjona',
+        name: "Adria Arjona",
       },
       {
         name: "Genevieve O'Reilly",
       },
       {
-        name: 'Kyle Soller',
+        name: "Kyle Soller",
       },
       {
-        name: 'Denise Gough',
-      },
+        name: "Denise Gough",
+      }
     ],
-    coverUrl: '/series_pictures/fd6245f48daf.jpg',
-    releaseDate: '2022-09-21',
-    endDate: '2025-05-14',
+    coverUrl: "/series_pictures/fd6245f48daf.jpg",
+    releaseDate: "2022-09-21",
+    endDate: "2025-05-14",
     genre: ['Science Fiction'],
     seasonsData: [
       {
@@ -432,12 +428,12 @@ export const baseSeriesApi: BaseSerie[] = [
         seasonNumber: 2,
         nbEpisodes: 12,
         totalLength: 595,
-      },
+      }
     ],
-    description: '',
-    fromEntity: null,
-    countryOrigin: 'États-Unis',
-    saga: 'Star Wars',
+    description: "",
+    fromEntity: { entityType: "movie", title: "Star Wars : Episode 4 - Un nouvel espoir", secondEntityKey: "George Lucas" },
+    countryOrigin: "États-Unis",
+    saga: "Star Wars",
   },
 
   {
@@ -445,36 +441,36 @@ export const baseSeriesApi: BaseSerie[] = [
     director: 'Leslye Headland',
     actors: [
       {
-        name: 'Lee Jung-jae',
+        name: "Lee Jung-jae",
       },
       {
-        name: 'Amandla Stenberg',
+        name: "Amandla Stenberg",
       },
       {
-        name: 'Manny Jacinto',
+        name: "Manny Jacinto",
       },
       {
-        name: 'Dafne Keen',
+        name: "Dafne Keen",
       },
       {
-        name: 'Charlie Barnett',
-      },
+        name: "Charlie Barnett",
+      }
     ],
-    coverUrl: '/series_pictures/08789709d713.jpg',
-    releaseDate: '2024-06-05',
-    endDate: '2024-07-17',
+    coverUrl: "/series_pictures/08789709d713.jpg",
+    releaseDate: "2024-06-05",
+    endDate: "2024-07-17",
     genre: ['Science Fiction'],
     seasonsData: [
       {
         seasonNumber: 1,
         nbEpisodes: 8,
         totalLength: 304,
-      },
+      }
     ],
-    description: '',
-    fromEntity: null,
-    countryOrigin: '',
-    saga: 'Star Wars',
+    description: "",
+    fromEntity: { entityType: "movie", title: "Star Wars : Episode 4 - Un nouvel espoir", secondEntityKey: "George Lucas" },
+    countryOrigin: "",
+    saga: "Star Wars",
   },
 
   {
@@ -516,18 +512,18 @@ export const baseSeriesApi: BaseSerie[] = [
     director: 'Ryan Condal, George R.R. Martin',
     actors: [
       {
-        name: 'Matt Smith',
+        name: "Matt Smith",
       },
       {
         name: "Emma D'Arcy",
       },
       {
-        name: 'Olivia Cooke',
-      },
+        name: "Olivia Cooke",
+      }
     ],
-    coverUrl: '/series_pictures/4204abe8e2c3.jpg',
-    releaseDate: '2022-08-22',
-    endDate: '',
+    coverUrl: "/series_pictures/4204abe8e2c3.jpg",
+    releaseDate: "2022-08-22",
+    endDate: "",
     genre: ['Fantasy'],
     seasonsData: [
       {
@@ -544,12 +540,12 @@ export const baseSeriesApi: BaseSerie[] = [
         seasonNumber: 3,
         nbEpisodes: 0,
         totalLength: 0,
-      },
+      }
     ],
-    description: '',
-    fromEntity: null,
-    countryOrigin: 'États-Unis',
-    saga: 'Game of Thrones',
+    description: "",
+    fromEntity: { entityType: "book", title: "Le Trône de fer, L'Intégrale Tome 1", secondEntityKey: "George R.R. Martin" },
+    countryOrigin: "États-Unis",
+    saga: "Game of Thrones",
   },
 
   {
@@ -735,21 +731,21 @@ export const baseSeriesApi: BaseSerie[] = [
     director: 'Caroline Dries',
     actors: [
       {
-        name: 'Ruby Rose',
+        name: "Ruby Rose",
       },
       {
-        name: 'Camrus Johnson',
+        name: "Camrus Johnson",
       },
       {
-        name: 'Rachel Skarsten',
+        name: "Rachel Skarsten",
       },
       {
-        name: 'Javicia Leslie',
-      },
+        name: "Javicia Leslie",
+      }
     ],
-    coverUrl: '/series_pictures/a4454dca92f6.jpg',
-    releaseDate: '2020-11-05',
-    endDate: '2022-03-02',
+    coverUrl: "/series_pictures/a4454dca92f6.jpg",
+    releaseDate: "2020-11-05",
+    endDate: "2022-03-02",
     genre: ['Super-héro'],
     seasonsData: [
       {
@@ -766,12 +762,12 @@ export const baseSeriesApi: BaseSerie[] = [
         seasonNumber: 3,
         nbEpisodes: 13,
         totalLength: 559,
-      },
+      }
     ],
-    description: '',
-    fromEntity: null,
-    countryOrigin: 'États-Unis',
-    saga: 'ArrowVerse',
+    description: "",
+    fromEntity: { entityType: "comic", title: "Batman", secondEntityKey: "DC Comics" },
+    countryOrigin: "États-Unis",
+    saga: "ArrowVerse",
   },
 
   {
@@ -893,21 +889,21 @@ export const baseSeriesApi: BaseSerie[] = [
     director: 'Jonathan E. Steinberg, Rick Riordan',
     actors: [
       {
-        name: 'Walker Scobell',
+        name: "Walker Scobell",
       },
       {
-        name: 'Leah Sava Jeffries',
+        name: "Leah Sava Jeffries",
       },
       {
-        name: 'Aryan Simhadri',
+        name: "Aryan Simhadri",
       },
       {
-        name: 'Charlie Bushnell',
-      },
+        name: "Charlie Bushnell",
+      }
     ],
-    coverUrl: '/series_pictures/2e1bec5c30eb.jpg',
-    releaseDate: '2023-12-20',
-    endDate: '',
+    coverUrl: "/series_pictures/2e1bec5c30eb.jpg",
+    releaseDate: "2023-12-20",
+    endDate: "",
     genre: ['Fantasy'],
     seasonsData: [
       {
@@ -919,12 +915,12 @@ export const baseSeriesApi: BaseSerie[] = [
         seasonNumber: 2,
         nbEpisodes: 8,
         totalLength: 325,
-      },
+      }
     ],
-    description: '',
-    fromEntity: null,
-    countryOrigin: 'États-Unis',
-    saga: 'Percy Jackson',
+    description: "",
+    fromEntity: { entityType: "book", title: "Le Voleur de foudre", secondEntityKey: "Rick Riordan" },
+    countryOrigin: "États-Unis",
+    saga: "Percy Jackson",
   },
 
   {
@@ -1003,39 +999,39 @@ export const baseSeriesApi: BaseSerie[] = [
     director: 'Melchior Zwyer',
     actors: [
       {
-        name: 'Hudson Thames',
+        name: "Hudson Thames",
       },
       {
-        name: 'Kari Wahlgren',
+        name: "Kari Wahlgren",
       },
       {
-        name: 'Eugene Byrd',
+        name: "Eugene Byrd",
       },
       {
-        name: 'Colman Domingo',
+        name: "Colman Domingo",
       },
       {
-        name: 'Grace Song',
+        name: "Grace Song",
       },
       {
-        name: 'Zeno Robinson',
-      },
+        name: "Zeno Robinson",
+      }
     ],
-    coverUrl: '/series_pictures/sggdgf.jpg',
-    releaseDate: '2025-01-28',
-    endDate: '',
+    coverUrl: "/series_pictures/sggdgf.jpg",
+    releaseDate: "2025-01-28",
+    endDate: "",
     genre: ['Super-héro'],
     seasonsData: [
       {
         seasonNumber: 1,
         nbEpisodes: 10,
         totalLength: 308,
-      },
+      }
     ],
-    description: '',
-    fromEntity: null,
-    countryOrigin: 'États-Unis',
-    saga: 'Marvel Cinematic Universe',
+    description: "",
+    fromEntity: { entityType: "comic", title: "Spider-Man", secondEntityKey: "J. Michael Straczynski" },
+    countryOrigin: "États-Unis",
+    saga: "Marvel Cinematic Universe",
   },
 
   {
@@ -1286,21 +1282,35 @@ export const baseSeriesApi: BaseSerie[] = [
   {
     title: 'Star Wars: Visions',
     director: 'James Waugh',
-    actors: [],
-    coverUrl: '/series_pictures/doc_sw_visions_1.webp',
-    releaseDate: '2021-09-22',
-    endDate: '2025-10-29',
-    genre: ['Science-fiction, Animation, Anthologie'],
+    actors: [
+
+    ],
+    coverUrl: "/series_pictures/doc_sw_visions_1.webp",
+    releaseDate: "2021-09-22",
+    endDate: "2025-10-29",
+    genre: ['Science-fiction', 'Animation', 'Anthologie'],
     seasonsData: [
-      { seasonNumber: 1, nbEpisodes: 9, totalLength: 162 },
-      { seasonNumber: 2, nbEpisodes: 9, totalLength: 162 },
-      { seasonNumber: 3, nbEpisodes: 9, totalLength: 162 },
+      {
+        seasonNumber: 1,
+        nbEpisodes: 9,
+        totalLength: 0,
+      },
+      {
+        seasonNumber: 2,
+        nbEpisodes: 9,
+        totalLength: 0,
+      },
+      {
+        seasonNumber: 3,
+        nbEpisodes: 9,
+        totalLength: 0,
+      }
     ],
     description:
       "Anthologie animée de courts métrages dans l'univers Star Wars, par des studios japonais et internationaux.",
-    countryOrigin: 'États-Unis',
-    saga: 'Star Wars',
-    fromEntity: null,
+    countryOrigin: "États-Unis",
+    saga: "Star Wars",
+    fromEntity: { entityType: "movie", title: "Star Wars : Episode 4 - Un nouvel espoir", secondEntityKey: "George Lucas" },
   },
 
   {

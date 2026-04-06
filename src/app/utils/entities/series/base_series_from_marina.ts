@@ -346,24 +346,40 @@ export const baseSeriesFromMarina: BaseSerie[] = [
     title: 'Sweet Home',
     director: 'Lee Eung-bok',
     actors: [
-      { name: 'Song Kang' },
-      { name: 'Lee Jin-wook' },
-      { name: 'Lee Si-young' },
-      { name: 'Go Min-si' },
+      {
+        name: "Song Kang",
+      },
+      {
+        name: "Lee Jin-wook",
+      },
+      {
+        name: "Lee Si-young",
+      },
+      {
+        name: "Go Min-si",
+      }
     ],
-    coverUrl: '/series_pictures/bbaf60960d36.jpg',
-    releaseDate: '2020-12-18',
-    endDate: '',
+    coverUrl: "/series_pictures/bbaf60960d36.jpg",
+    releaseDate: "2020-12-18",
+    endDate: "",
     genre: ['Horreur', 'Thriller'],
     seasonsData: [
-      { seasonNumber: 1, nbEpisodes: 10, totalLength: 480 },
-      { seasonNumber: 2, nbEpisodes: 8, totalLength: 384 },
+      {
+        seasonNumber: 1,
+        nbEpisodes: 10,
+        totalLength: 0,
+      },
+      {
+        seasonNumber: 2,
+        nbEpisodes: 8,
+        totalLength: 0,
+      }
     ],
     description:
-      'Des humains se transforment en monstres ; des survivants se barricadent dans un immeuble.',
-    saga: '',
-    fromEntity: null,
-    countryOrigin: 'Corée du Sud',
+      "Des humains se transforment en monstres ; des survivants se barricadent dans un immeuble.",
+    saga: "",
+    fromEntity: { entityType: "manwha", title: "Sweet Home", secondEntityKey: "Young-Chan Hwang" },
+    countryOrigin: "Corée du Sud",
   },
   {
     title: 'I Am a Killer',
@@ -910,20 +926,34 @@ export const baseSeriesFromMarina: BaseSerie[] = [
   {
     title: 'La petite sirène',
     director: 'Jamie Mitchell, Bob Hathcock',
-    actors: [],
-    coverUrl: '/series_pictures/dc3e0498dea7.jpg',
-    releaseDate: '1992-09-11',
-    endDate: '1994-11-26',
+    actors: [
+
+    ],
+    coverUrl: "/series_pictures/dc3e0498dea7.jpg",
+    releaseDate: "1992-09-11",
+    endDate: "1994-11-26",
     genre: ['Animation'],
     seasonsData: [
-      { seasonNumber: 1, nbEpisodes: 13, totalLength: 286 },
-      { seasonNumber: 2, nbEpisodes: 13, totalLength: 286 },
-      { seasonNumber: 3, nbEpisodes: 8, totalLength: 176 },
+      {
+        seasonNumber: 1,
+        nbEpisodes: 13,
+        totalLength: 0,
+      },
+      {
+        seasonNumber: 2,
+        nbEpisodes: 13,
+        totalLength: 0,
+      },
+      {
+        seasonNumber: 3,
+        nbEpisodes: 8,
+        totalLength: 0,
+      }
     ],
-    description: 'Suite du film : Ariel et ses amis sous la mer (Disney).',
-    saga: 'La Petite Sirène',
-    countryOrigin: 'États-Unis',
-    fromEntity: null,
+    description: "Suite du film : Ariel et ses amis sous la mer (Disney).",
+    saga: "La Petite Sirène",
+    countryOrigin: "États-Unis",
+    fromEntity: { entityType: "movie", title: "La petite sirène", secondEntityKey: "Ron Clements, John Musker" },
   },
   {
     title: 'Tic et Tac, les rangers du risque',
@@ -947,39 +977,67 @@ export const baseSeriesFromMarina: BaseSerie[] = [
   {
     title: 'Aladdin',
     director: 'Alan Zaslove, Tad Stones',
-    actors: [],
-    coverUrl: '/series_pictures/12d36030cc85.jpg',
-    releaseDate: '1994-09-05',
-    endDate: '1995-11-25',
+    actors: [
+
+    ],
+    coverUrl: "/series_pictures/12d36030cc85.jpg",
+    releaseDate: "1994-09-05",
+    endDate: "1995-11-25",
     genre: ['Animation'],
     seasonsData: [
-      { seasonNumber: 1, nbEpisodes: 13, totalLength: 286 },
-      { seasonNumber: 2, nbEpisodes: 13, totalLength: 286 },
-      { seasonNumber: 3, nbEpisodes: 13, totalLength: 286 },
+      {
+        seasonNumber: 1,
+        nbEpisodes: 13,
+        totalLength: 0,
+      },
+      {
+        seasonNumber: 2,
+        nbEpisodes: 13,
+        totalLength: 0,
+      },
+      {
+        seasonNumber: 3,
+        nbEpisodes: 13,
+        totalLength: 0,
+      }
     ],
-    description: 'Suite du film : Aladdin, Jasmine et le Génie (Disney).',
-    saga: 'Aladdin',
-    countryOrigin: 'États-Unis',
-    fromEntity: null,
+    description: "Suite du film : Aladdin, Jasmine et le Génie (Disney).",
+    saga: "Aladdin",
+    countryOrigin: "États-Unis",
+    fromEntity: { entityType: "movie", title: "Aladdin", secondEntityKey: "Ron Clements, John Musker" },
   },
   {
     title: 'Timon et Pumbaa',
     director: 'Tony Craig, Roberts Gannaway',
-    actors: [],
-    coverUrl: '/series_pictures/6c61deb6104e.jpg',
-    releaseDate: '1995-09-16',
-    endDate: '1999-09-24',
+    actors: [
+
+    ],
+    coverUrl: "/series_pictures/6c61deb6104e.jpg",
+    releaseDate: "1995-09-16",
+    endDate: "1999-09-24",
     genre: ['Animation'],
     seasonsData: [
-      { seasonNumber: 1, nbEpisodes: 13, totalLength: 286 },
-      { seasonNumber: 2, nbEpisodes: 13, totalLength: 286 },
-      { seasonNumber: 3, nbEpisodes: 13, totalLength: 286 },
+      {
+        seasonNumber: 1,
+        nbEpisodes: 13,
+        totalLength: 0,
+      },
+      {
+        seasonNumber: 2,
+        nbEpisodes: 13,
+        totalLength: 0,
+      },
+      {
+        seasonNumber: 3,
+        nbEpisodes: 13,
+        totalLength: 0,
+      }
     ],
     description:
       "Les aventures du suricate et du phacochère (The Lion King's Timon & Pumbaa).",
-    saga: 'Le Roi lion',
-    countryOrigin: 'États-Unis',
-    fromEntity: null,
+    saga: "Le Roi lion",
+    countryOrigin: "États-Unis",
+    fromEntity: { entityType: "movie", title: "Le Roi Lion", secondEntityKey: "Roger Allers, Rob Minkoff" },
   },
   {
     title: 'La cour de récré',
@@ -1037,19 +1095,29 @@ export const baseSeriesFromMarina: BaseSerie[] = [
   {
     title: 'La légende de Tarzan',
     director: 'Victor Cook, Steve Loter',
-    actors: [],
-    coverUrl: '/series_pictures/359e187a2f81.jpg',
-    releaseDate: '2001-07-03',
-    endDate: '2003-02-03',
+    actors: [
+
+    ],
+    coverUrl: "/series_pictures/359e187a2f81.jpg",
+    releaseDate: "2001-07-03",
+    endDate: "2003-02-03",
     genre: ['Animation'],
     seasonsData: [
-      { seasonNumber: 1, nbEpisodes: 13, totalLength: 286 },
-      { seasonNumber: 2, nbEpisodes: 13, totalLength: 286 },
+      {
+        seasonNumber: 1,
+        nbEpisodes: 13,
+        totalLength: 0,
+      },
+      {
+        seasonNumber: 2,
+        nbEpisodes: 13,
+        totalLength: 0,
+      }
     ],
-    description: 'Suite du film : Tarzan et Jane en Afrique (Disney).',
-    saga: 'Tarzan',
-    countryOrigin: 'États-Unis',
-    fromEntity: null,
+    description: "Suite du film : Tarzan et Jane en Afrique (Disney).",
+    saga: "Tarzan",
+    countryOrigin: "États-Unis",
+    fromEntity: { entityType: "movie", title: "Tarzan", secondEntityKey: "Chris Buck, Kevin Lima" },
   },
   {
     title: 'Lilo et Stitch la série',

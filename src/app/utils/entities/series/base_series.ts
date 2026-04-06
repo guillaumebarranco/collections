@@ -147,33 +147,33 @@ export const baseSeries: BaseSerie[] = [
     director: 'Dave Filoni',
     actors: [
       {
-        name: 'Rosario Dawson',
+        name: "Rosario Dawson",
       },
       {
-        name: 'Natasha Liu Bordizzo',
+        name: "Natasha Liu Bordizzo",
       },
       {
-        name: 'Mary Elizabeth Winstead',
+        name: "Mary Elizabeth Winstead",
       },
       {
-        name: 'Ray Stevenson',
-      },
+        name: "Ray Stevenson",
+      }
     ],
-    coverUrl: '/series_pictures/0096637.webp',
-    releaseDate: '2023-08-22',
-    endDate: '',
+    coverUrl: "/series_pictures/0096637.webp",
+    releaseDate: "2023-08-22",
+    endDate: "",
     genre: ['Action', 'Adventure', 'Drama'],
     seasonsData: [
       {
         seasonNumber: 1,
         nbEpisodes: 8,
         totalLength: 359,
-      },
+      }
     ],
-    description: '',
-    fromEntity: null,
-    saga: 'Star Wars',
-    countryOrigin: 'États-Unis',
+    description: "",
+    fromEntity: { entityType: "movie", title: "Star Wars : Episode 4 - Un nouvel espoir", secondEntityKey: "George Lucas" },
+    saga: "Star Wars",
+    countryOrigin: "États-Unis",
   },
   {
     title: 'Altered Carbon',
@@ -1169,18 +1169,18 @@ export const baseSeries: BaseSerie[] = [
     director: 'David Benioff, D.B. Weiss',
     actors: [
       {
-        name: 'Peter Dinklage',
+        name: "Peter Dinklage",
       },
       {
-        name: 'Lena Headey',
+        name: "Lena Headey",
       },
       {
-        name: 'Emilia Clarke',
-      },
+        name: "Emilia Clarke",
+      }
     ],
-    coverUrl: '/series_pictures/Poster_Saison_1.webp',
-    releaseDate: '2011-04-17',
-    endDate: '2019-05-19',
+    coverUrl: "/series_pictures/Poster_Saison_1.webp",
+    releaseDate: "2011-04-17",
+    endDate: "2019-05-19",
     genre: ['Action', 'Adventure', 'Drama'],
     seasonsData: [
       {
@@ -1222,31 +1222,31 @@ export const baseSeries: BaseSerie[] = [
         seasonNumber: 8,
         nbEpisodes: 6,
         totalLength: 447,
-      },
+      }
     ],
-    description: '',
-    fromEntity: null,
-    saga: 'Game of Thrones',
-    countryOrigin: 'États-Unis',
+    description: "",
+    fromEntity: { entityType: "book", title: "Le Trône de fer, L'Intégrale Tome 1", secondEntityKey: "George R.R. Martin" },
+    saga: "Game of Thrones",
+    countryOrigin: "États-Unis",
   },
   {
     title: 'Gotham',
     director: 'Bruno Heller',
     actors: [
       {
-        name: 'Ben McKenzie',
+        name: "Ben McKenzie",
       },
       {
-        name: 'Donal Logue',
+        name: "Donal Logue",
       },
       {
-        name: 'David Mazouz',
-      },
+        name: "David Mazouz",
+      }
     ],
     coverUrl:
-      '/series_pictures/MV5BMTg0ZmM3N2QtYmFiMy00YzUzLWE1M2QtZWVhMzBiNGZjMmVjXkEyXkFqcGc@._V1_.jpg',
-    releaseDate: '2014-09-22',
-    endDate: '2019-04-25',
+      "/series_pictures/MV5BMTg0ZmM3N2QtYmFiMy00YzUzLWE1M2QtZWVhMzBiNGZjMmVjXkEyXkFqcGc@._V1_.jpg",
+    releaseDate: "2014-09-22",
+    endDate: "2019-04-25",
     genre: ['Action', 'Crime', 'Drama'],
     seasonsData: [
       {
@@ -1273,12 +1273,12 @@ export const baseSeries: BaseSerie[] = [
         seasonNumber: 5,
         nbEpisodes: 12,
         totalLength: 720,
-      },
+      }
     ],
-    description: '',
-    fromEntity: null,
-    saga: 'DC Comics',
-    countryOrigin: 'États-Unis',
+    description: "",
+    fromEntity: { entityType: "comic", title: "Batman", secondEntityKey: "DC Comics" },
+    saga: "DC Comics",
+    countryOrigin: "États-Unis",
   },
   {
     title: 'HPI',
@@ -2462,30 +2462,30 @@ export const baseSeries: BaseSerie[] = [
     director: 'Deborah Chow',
     actors: [
       {
-        name: 'Ewan McGregor',
+        name: "Ewan McGregor",
       },
       {
-        name: 'Hayden Christensen',
+        name: "Hayden Christensen",
       },
       {
-        name: 'Moses Ingram',
-      },
+        name: "Moses Ingram",
+      }
     ],
-    coverUrl: '/series_pictures/1390919.jpg',
-    releaseDate: '2022-05-27',
-    endDate: '2022-06-22',
+    coverUrl: "/series_pictures/1390919.jpg",
+    releaseDate: "2022-05-27",
+    endDate: "2022-06-22",
     genre: ['Action', 'Adventure', 'Fantasy'],
     seasonsData: [
       {
         seasonNumber: 1,
         nbEpisodes: 6,
         totalLength: 271,
-      },
+      }
     ],
-    description: '',
-    fromEntity: null,
-    saga: 'Star Wars',
-    countryOrigin: 'États-Unis',
+    description: "",
+    fromEntity: { entityType: "movie", title: "Star Wars : Episode 4 - Un nouvel espoir", secondEntityKey: "George Lucas" },
+    saga: "Star Wars",
+    countryOrigin: "États-Unis",
   },
   {
     title: 'Obsession',
@@ -2830,19 +2830,19 @@ export const baseSeries: BaseSerie[] = [
     director: 'Alfred Gough, Miles Millar',
     actors: [
       {
-        name: 'Tom Welling',
+        name: "Tom Welling",
       },
       {
-        name: 'Michael Rosenbaum',
+        name: "Michael Rosenbaum",
       },
       {
-        name: 'Kristin Kreuk',
-      },
+        name: "Kristin Kreuk",
+      }
     ],
     coverUrl:
-      '/series_pictures/MV5BZDU0ZDVjOTItMDNkMy00YTI0LWFjYzItY2M1NjU5NjAzZGViXkEyXkFqcGc@._V1_.jpg',
-    releaseDate: '2001-10-16',
-    endDate: '2011-05-13',
+      "/series_pictures/MV5BZDU0ZDVjOTItMDNkMy00YTI0LWFjYzItY2M1NjU5NjAzZGViXkEyXkFqcGc@._V1_.jpg",
+    releaseDate: "2001-10-16",
+    endDate: "2011-05-13",
     genre: ['Action', 'Adventure', 'Drama'],
     seasonsData: [
       {
@@ -2894,12 +2894,12 @@ export const baseSeries: BaseSerie[] = [
         seasonNumber: 10,
         nbEpisodes: 22,
         totalLength: 1320,
-      },
+      }
     ],
-    description: '',
-    fromEntity: null,
-    saga: 'DC Comics',
-    countryOrigin: 'États-Unis',
+    description: "",
+    fromEntity: { entityType: "comic", title: "Superman", secondEntityKey: "DC Comics" },
+    saga: "DC Comics",
+    countryOrigin: "États-Unis",
   },
   {
     title: 'Sons of Anarchy',
@@ -3268,18 +3268,18 @@ export const baseSeries: BaseSerie[] = [
     director: 'Greg Berlanti, Todd Helbing',
     actors: [
       {
-        name: 'Tyler Hoechlin',
+        name: "Tyler Hoechlin",
       },
       {
-        name: 'Bitsie Tulloch',
+        name: "Bitsie Tulloch",
       },
       {
-        name: 'Jordan Elsass',
-      },
+        name: "Jordan Elsass",
+      }
     ],
-    coverUrl: '/series_pictures/3782519.webp',
-    releaseDate: '2021-02-23',
-    endDate: '2023-06-27',
+    coverUrl: "/series_pictures/3782519.webp",
+    releaseDate: "2021-02-23",
+    endDate: "2023-06-27",
     genre: ['Action', 'Adventure', 'Drama'],
     seasonsData: [
       {
@@ -3301,12 +3301,12 @@ export const baseSeries: BaseSerie[] = [
         seasonNumber: 4,
         nbEpisodes: 10,
         totalLength: 600,
-      },
+      }
     ],
-    description: '',
-    fromEntity: null,
-    saga: 'ArrowVerse',
-    countryOrigin: 'États-Unis',
+    description: "",
+    fromEntity: { entityType: "comic", title: "Superman", secondEntityKey: "DC Comics" },
+    saga: "ArrowVerse",
+    countryOrigin: "États-Unis",
   },
   {
     title: 'Teen Wolf',
@@ -4019,19 +4019,19 @@ export const baseSeries: BaseSerie[] = [
     director: 'Craig Mazin, Neil Druckmann',
     actors: [
       {
-        name: 'Pedro Pascal',
+        name: "Pedro Pascal",
       },
       {
-        name: 'Bella Ramsey',
+        name: "Bella Ramsey",
       },
       {
-        name: 'Gabriel Luna',
-      },
+        name: "Gabriel Luna",
+      }
     ],
     coverUrl:
-      '/series_pictures/MV5BYWI3ODJlMzktY2U5NC00ZjdlLWE1MGItNWQxZDk3NWNjN2RhXkEyXkFqcGc@._V1_.jpg',
-    releaseDate: '2023-01-15',
-    endDate: '',
+      "/series_pictures/MV5BYWI3ODJlMzktY2U5NC00ZjdlLWE1MGItNWQxZDk3NWNjN2RhXkEyXkFqcGc@._V1_.jpg",
+    releaseDate: "2023-01-15",
+    endDate: "",
     genre: ['Action', 'Adventure', 'Drama'],
     seasonsData: [
       {
@@ -4043,12 +4043,12 @@ export const baseSeries: BaseSerie[] = [
         seasonNumber: 2,
         nbEpisodes: 7,
         totalLength: 407,
-      },
+      }
     ],
-    description: '',
-    fromEntity: null,
-    saga: '',
-    countryOrigin: 'États-Unis',
+    description: "",
+    fromEntity: { entityType: "game", title: "The Last of Us", secondEntityKey: "Naughty Dog" },
+    saga: "",
+    countryOrigin: "États-Unis",
   },
   {
     title: 'The Punisher',
@@ -4290,30 +4290,30 @@ export const baseSeries: BaseSerie[] = [
     director: 'Damon Lindelof',
     actors: [
       {
-        name: 'Regina King',
+        name: "Regina King",
       },
       {
-        name: 'Jeremy Irons',
+        name: "Jeremy Irons",
       },
       {
-        name: 'Don Johnson',
-      },
+        name: "Don Johnson",
+      }
     ],
-    coverUrl: '/series_pictures/4498944.webp',
-    releaseDate: '2019-10-20',
-    endDate: '2019-12-15',
+    coverUrl: "/series_pictures/4498944.webp",
+    releaseDate: "2019-10-20",
+    endDate: "2019-12-15",
     genre: ['Action', 'Drama', 'Mystery'],
     seasonsData: [
       {
         seasonNumber: 1,
         nbEpisodes: 9,
         totalLength: 530,
-      },
+      }
     ],
-    description: '',
-    fromEntity: null,
-    saga: 'DC Comics',
-    countryOrigin: 'États-Unis',
+    description: "",
+    fromEntity: { entityType: "comic", title: "Watchmen", secondEntityKey: "Alan Moore" },
+    saga: "DC Comics",
+    countryOrigin: "États-Unis",
   },
   {
     title: 'You',
@@ -4405,32 +4405,32 @@ export const baseSeries: BaseSerie[] = [
     director: 'Shô Tsukikawa',
     actors: [
       {
-        name: 'Takumi Kitamura',
+        name: "Takumi Kitamura",
       },
       {
-        name: 'Jun Shison',
+        name: "Jun Shison",
       },
       {
-        name: 'Kanata Hongô',
+        name: "Kanata Hongô",
       },
       {
-        name: 'Shûhei Uesugi',
-      },
+        name: "Shûhei Uesugi",
+      }
     ],
-    coverUrl: '/series_pictures/2684246.webp',
-    releaseDate: '2023-12-14',
-    endDate: '2023-12-14',
+    coverUrl: "/series_pictures/2684246.webp",
+    releaseDate: "2023-12-14",
+    endDate: "2023-12-14",
     genre: ['Action', 'Adventure', 'Fantasy'],
     seasonsData: [
       {
         seasonNumber: 1,
         nbEpisodes: 5,
         totalLength: 300,
-      },
+      }
     ],
-    description: '',
-    fromEntity: null,
-    saga: '',
-    countryOrigin: 'États-Unis',
+    description: "",
+    fromEntity: { entityType: "manga", title: "Yu Yu Hakusho", secondEntityKey: "Yoshihiro Togashi" },
+    saga: "",
+    countryOrigin: "États-Unis",
   },
 ];
