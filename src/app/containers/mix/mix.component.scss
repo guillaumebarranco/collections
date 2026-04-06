@@ -144,3 +144,108 @@
 .mix-serie-card {
   min-width: 0;
 }
+
+/* Vue « Œuvres de base » */
+.mix-base-works-intro {
+  margin: 0 0 1.25rem;
+  padding: 0.75rem 1rem;
+  font-size: 0.9rem;
+  line-height: 1.45;
+  color: var(--text-secondary, #64748b);
+  background: var(--surface-hover-standard, #f1f5f9);
+  border-radius: 10px;
+
+  code {
+    font-size: 0.85em;
+    padding: 0.1em 0.35em;
+    border-radius: 4px;
+    background: rgba(0, 0, 0, 0.06);
+  }
+}
+
+.mix-base-saga-wrap {
+  border-left: 3px solid var(--stroke-brand, #6366f1);
+}
+
+.mix-base-saga-heading {
+  margin: 0 0 1rem;
+  font-size: 1.2rem;
+  font-weight: 700;
+  color: var(--text-primary, #1e293b);
+}
+
+.mix-base-saga-count {
+  font-weight: 500;
+  font-size: 0.9rem;
+  color: var(--text-secondary, #64748b);
+}
+
+.mix-base-galaxy {
+  margin-bottom: 1rem;
+  padding-bottom: 0.5rem;
+  border-bottom: 1px solid var(--stroke-medium, #e2e8f0);
+
+  &:last-child {
+    margin-bottom: 0;
+    padding-bottom: 0;
+    border-bottom: none;
+  }
+}
+
+.mix-base-galaxy-title {
+  margin: 0 0 0.5rem;
+  font-size: 1rem;
+}
+
+.mix-base-galaxy-toggle {
+  flex-wrap: wrap;
+  text-align: left;
+  white-space: normal;
+}
+
+.mix-base-galaxy-kind,
+.mix-base-galaxy-counts {
+  font-weight: 500;
+  color: var(--text-secondary, #64748b);
+  font-size: 0.88rem;
+}
+
+.mix-base-source-label {
+  margin: 0 0 0.35rem;
+  font-size: 0.75rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  color: var(--text-secondary, #64748b);
+}
+
+.mix-base-galaxy-body {
+  padding-left: 0.25rem;
+}
+
+.mix-base-placeholder {
+  padding: 0.75rem 1rem;
+  margin-bottom: 1rem;
+  border-radius: 8px;
+  border: 1px dashed var(--stroke-medium, #cbd5e1);
+  font-size: 0.95rem;
+  color: var(--text-primary, #334155);
+}
+
+.mix-base-placeholder-kind {
+  display: block;
+  margin-top: 0.35rem;
+  font-size: 0.85rem;
+  color: var(--text-secondary, #64748b);
+}
+
+.mix-base-games-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+
+  .mix-section-game {
+    flex: 0 1 280px;
+    max-width: 320px;
+  }
+}

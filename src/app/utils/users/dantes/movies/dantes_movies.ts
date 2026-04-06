@@ -6855,23 +6855,6 @@ export const dantesMovies: UserMovie[] = [
   },
 
   {
-    title: 'The Northman',
-    director: 'Robert Eggers',
-    rating: 0,
-    timesWatched: 1,
-    firstViewedDate: '',
-    lastViewedDate: '',
-    seenAtCinema: false,
-    owned: false,
-    wantToSeeAgain: false,
-    watchPriority: 1,
-    ratingComment: '',
-    borrowed: '',
-    loaned: '',
-    inList: [],
-  },
-
-  {
     title: 'Jouer avec le feu',
     director: 'Florian Desmoulins',
     rating: 0,

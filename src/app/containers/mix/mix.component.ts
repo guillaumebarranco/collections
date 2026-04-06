@@ -45,7 +45,10 @@ import { BaseManwha } from '../../models/manwha-model';
 import { BaseManga } from '../../models/manga-model';
 import { BaseMovie } from '../../models/movie-model';
 import { BaseSerie } from '../../models/serie-model';
-import type { MovieFromEntityType } from '../../models/from-entity.model';
+import type {
+  GameFromEntityType,
+  MovieFromEntityType,
+} from '../../models/from-entity.model';
 import { Bd } from '../../models/bd-model';
 import { Book } from '../../models/book-model';
 import { Comic } from '../../models/comic-model';
@@ -60,7 +63,8 @@ export type MixPrimary =
   | 'sagasFilmsSeries'
   | 'worksWithMovieAdaptations'
   | 'moviesGroupedBySource'
-  | 'gamesFromFilms';
+  | 'gamesFromFilms'
+  | 'baseWorksGalaxy';
 
 /** Type d’œuvre source pour les vues « adaptations film » (second niveau). */
 export type MixAdaptationSource =
@@ -77,6 +81,7 @@ export const mixPrimaryOptions: ViewToggleOption[] = [
   { value: 'worksWithMovieAdaptations', label: 'Œuvres → leurs films' },
   { value: 'moviesGroupedBySource', label: 'Films par origine' },
   { value: 'gamesFromFilms', label: 'Jeux d’après un film' },
+  { value: 'baseWorksGalaxy', label: 'Œuvres de base' },
 ];
 
 export const mixAdaptationSourceOptions: ViewToggleOption[] = [
@@ -141,6 +146,35 @@ export type GameFromFilmRow = {
   game: Game;
   sourceMovie: Movie | null;
 };
+
+/** Œuvre source (cible des fromEntity) + dérivés (films, séries, jeux). */
+export type BaseWorkGalaxy = {
+  fromEntityType: MovieFromEntityType | GameFromEntityType;
+  sourceTitle: string;
+  sourceSecondKey: string;
+  uniqueKey: string;
+  book: Book | null;
+  bd: Bd | null;
+  comic: Comic | null;
+  manga: Manga | null;
+  manwha: Manwha | null;
+  game: Game | null;
+  serie: Serie | null;
+  movie: Movie | null;
+  derivedMovies: Movie[];
+  derivedSeries: Serie[];
+  derivedGames: Game[];
+};
+
+/** Bloc affiché : saga de livres regroupée (plusieurs galaxies) ou œuvre isolée (un seul élément). */
+export type MixBaseWorksViewBlock =
+  | {
+      blockKind: 'bookSaga';
+      sagaKey: string;
+      sagaDisplayName: string;
+      galaxies: BaseWorkGalaxy[];
+    }
+  | { blockKind: 'standalone'; galaxies: BaseWorkGalaxy[] };
 
 @Component({
   selector: 'app-mix',
@@ -487,6 +521,190 @@ export class MixComponent implements OnInit {
     });
   });
 
+  /**
+   * Vue « Œuvres de base » : chaque cible de fromEntity (film/série/jeu) avec ses dérivés.
+   * Les livres partageant une saga non vide sont regroupés sous le nom de la saga.
+   */
+  readonly mixBaseWorksBlocks = computed<MixBaseWorksViewBlock[]>(() => {
+    type MutableGalaxy = {
+      fromEntityType: string;
+      sourceTitle: string;
+      sourceSecondKey: string;
+      uniqueKey: string;
+      book: Book | null;
+      bd: Bd | null;
+      comic: Comic | null;
+      manga: Manga | null;
+      manwha: Manwha | null;
+      game: Game | null;
+      serie: Serie | null;
+      movie: Movie | null;
+      derivedMovies: Movie[];
+      derivedSeries: Serie[];
+      derivedGames: Game[];
+    };
+
+    const map = new Map<string, MutableGalaxy>();
+
+    const touchGalaxy = (
+      fe: {
+        entityType: string;
+        title: string;
+        secondEntityKey: string;
+      },
+      fn: (g: MutableGalaxy) => void
+    ): void => {
+      const uniqueKey = `${fe.entityType}|${fe.title}|${fe.secondEntityKey}`;
+      let g = map.get(uniqueKey);
+      if (!g) {
+        g = {
+          fromEntityType: fe.entityType,
+          sourceTitle: fe.title,
+          sourceSecondKey: fe.secondEntityKey,
+          uniqueKey,
+          book: null,
+          bd: null,
+          comic: null,
+          manga: null,
+          manwha: null,
+          game: null,
+          serie: null,
+          movie: null,
+          derivedMovies: [],
+          derivedSeries: [],
+          derivedGames: [],
+        };
+        map.set(uniqueKey, g);
+      }
+      fn(g);
+    };
+
+    for (const bm of this.baseMovies()) {
+      const fe = bm.fromEntity;
+      if (!fe) continue;
+      touchGalaxy(fe, (g) => g.derivedMovies.push(getFullMovie(bm)));
+    }
+
+    for (const bs of this.baseSeries()) {
+      const fe = bs.fromEntity;
+      if (!fe) continue;
+      touchGalaxy(fe, (g) => g.derivedSeries.push(getFullSerie(bs)));
+    }
+
+    for (const bg of this.baseGames()) {
+      const fe = bg.fromEntity;
+      if (!fe) continue;
+      touchGalaxy(fe, (g) => g.derivedGames.push(getFullGame(bg)));
+    }
+
+    const books = this.baseBooks();
+    const bds = this.baseBds();
+    const comics = this.baseComics();
+    const mangas = this.baseMangas();
+    const manwhas = this.baseManwhas();
+    const games = this.baseGames();
+    const series = this.baseSeries();
+    const movies = this.baseMovies();
+
+    for (const g of map.values()) {
+      const t = g.fromEntityType;
+      const title = g.sourceTitle;
+      const key2 = g.sourceSecondKey;
+      if (t === 'book') {
+        const b = books.find((bb) => bb.title === title && bb.author === key2);
+        if (b) g.book = getFullBook(b);
+      } else if (t === 'bd') {
+        const b = bds.find((bb) => bb.title === title && bb.writer === key2);
+        if (b) g.bd = getFullBd(b);
+      } else if (t === 'comic') {
+        const c = comics.find((bc) => bc.title === title && bc.writer === key2);
+        if (c) g.comic = getFullComic(c);
+      } else if (t === 'manga') {
+        const m = mangas.find((bm) => bm.title === title && bm.author === key2);
+        if (m) g.manga = getFullManga(m);
+      } else if (t === 'manwha') {
+        const m = manwhas.find((bm) => bm.title === title && bm.author === key2);
+        if (m) g.manwha = getFullManwha(m);
+      } else if (t === 'game') {
+        const game = games.find((bg) => bg.title === title && bg.editor === key2);
+        if (game) g.game = getFullGame(game);
+      } else if (t === 'serie') {
+        const s = series.find((bs) => bs.title === title && bs.director === key2);
+        if (s) g.serie = getFullSerie(s);
+      } else if (t === 'movie') {
+        const m = movies.find((bm) => bm.title === title && bm.director === key2);
+        if (m) g.movie = getFullMovie(m);
+      }
+    }
+
+    const sagaBookMap = new Map<
+      string,
+      { sagaDisplayName: string; galaxies: BaseWorkGalaxy[] }
+    >();
+    const standaloneGalaxies: BaseWorkGalaxy[] = [];
+
+    for (const g of map.values()) {
+      const galaxy: BaseWorkGalaxy = {
+        fromEntityType: g.fromEntityType as BaseWorkGalaxy['fromEntityType'],
+        sourceTitle: g.sourceTitle,
+        sourceSecondKey: g.sourceSecondKey,
+        uniqueKey: g.uniqueKey,
+        book: g.book,
+        bd: g.bd,
+        comic: g.comic,
+        manga: g.manga,
+        manwha: g.manwha,
+        game: g.game,
+        serie: g.serie,
+        movie: g.movie,
+        derivedMovies: g.derivedMovies,
+        derivedSeries: g.derivedSeries,
+        derivedGames: g.derivedGames,
+      };
+
+      const sagaTrim = galaxy.book?.saga?.trim();
+      if (galaxy.fromEntityType === 'book' && sagaTrim) {
+        const sk = sagaTrim.toLowerCase();
+        let entry = sagaBookMap.get(sk);
+        if (!entry) {
+          entry = { sagaDisplayName: sagaTrim, galaxies: [] };
+          sagaBookMap.set(sk, entry);
+        }
+        entry.galaxies.push(galaxy);
+      } else {
+        standaloneGalaxies.push(galaxy);
+      }
+    }
+
+    const sagaBlocks: MixBaseWorksViewBlock[] = Array.from(sagaBookMap.entries())
+      .map(([, entry]) => {
+        entry.galaxies.sort((a, b) => {
+          const ao = a.book?.sagaOrder ?? 0;
+          const bo = b.book?.sagaOrder ?? 0;
+          if (ao !== bo) return ao - bo;
+          return a.sourceTitle.localeCompare(b.sourceTitle, 'fr');
+        });
+        return {
+          blockKind: 'bookSaga' as const,
+          sagaKey: entry.sagaDisplayName.toLowerCase(),
+          sagaDisplayName: entry.sagaDisplayName,
+          galaxies: entry.galaxies,
+        };
+      })
+      .sort((a, b) =>
+        a.sagaDisplayName.localeCompare(b.sagaDisplayName, 'fr')
+      );
+
+    standaloneGalaxies.sort((a, b) =>
+      a.uniqueKey.localeCompare(b.uniqueKey, 'fr')
+    );
+    const standaloneBlocks: MixBaseWorksViewBlock[] = standaloneGalaxies.map(
+      (galaxy) => ({ blockKind: 'standalone' as const, galaxies: [galaxy] })
+    );
+
+    return [...sagaBlocks, ...standaloneBlocks];
+  });
+
   readonly collapsedSections = signal<Record<string, boolean>>({});
 
   toggleSection(key: string): void {
@@ -498,6 +716,36 @@ export class MixComponent implements OnInit {
 
   isSectionCollapsed(key: string): boolean {
     return Boolean(this.collapsedSections()[key]);
+  }
+
+  trackBaseWorksBlock(block: MixBaseWorksViewBlock): string {
+    return block.blockKind === 'bookSaga'
+      ? `saga:${block.sagaKey}`
+      : `one:${block.galaxies[0]?.uniqueKey ?? ''}`;
+  }
+
+  baseGalaxyCollapseKey(
+    block: MixBaseWorksViewBlock,
+    galaxy: BaseWorkGalaxy
+  ): string {
+    return block.blockKind === 'bookSaga'
+      ? `bs:${block.sagaKey}:${galaxy.uniqueKey}`
+      : `st:${galaxy.uniqueKey}`;
+  }
+
+  /** Libellé FR pour le type d’œuvre source (fromEntity.entityType). */
+  baseWorkEntityLabel(entityType: string): string {
+    const labels: Record<string, string> = {
+      book: 'Livre',
+      bd: 'BD franco',
+      comic: 'Comic US',
+      manga: 'Manga',
+      manwha: 'Manhwa',
+      game: 'Jeu vidéo',
+      serie: 'Série TV',
+      movie: 'Film',
+    };
+    return labels[entityType] ?? entityType;
   }
 
   ngOnInit(): void {

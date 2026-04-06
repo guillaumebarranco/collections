@@ -2281,23 +2281,6 @@ export const unhoMovies: UserMovie[] = [
   },
 
   {
-    title: 'Les Intrus',
-    director: 'Alejandro Amenábar',
-    rating: 0,
-    timesWatched: 1,
-    firstViewedDate: '',
-    lastViewedDate: '',
-    seenAtCinema: false,
-    owned: false,
-    wantToSeeAgain: false,
-    watchPriority: 1,
-    ratingComment: '',
-    borrowed: '',
-    loaned: '',
-    inList: [],
-  },
-
-  {
     title: 'La Nuit des masques',
     director: 'John Carpenter',
     rating: 0,

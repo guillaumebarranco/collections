@@ -704,5 +704,153 @@
     }
     }
   </div>
+  } @else if (selectedPrimary() === 'baseWorksGalaxy') {
+  <div class="mix-content mix-by-entity mix-base-works-root">
+    @if (mixBaseWorksBlocks().length === 0) {
+    <p class="mix-empty">Aucune œuvre de base référencée pour le moment.</p>
+    } @else {
+    <p class="mix-base-works-intro">
+      Chaque section centre une œuvre source (cible d’un <code>fromEntity</code>) et liste les films, séries ou jeux qui y font référence.
+      Les livres d’une même saga sont regroupés sous le nom de la saga.
+    </p>
+    @for (block of mixBaseWorksBlocks(); track trackBaseWorksBlock(block)) {
+    <section
+      class="mix-section"
+      [class.mix-base-saga-wrap]="block.blockKind === 'bookSaga'"
+    >
+      @if (block.blockKind === 'bookSaga') {
+      <h2 class="mix-base-saga-heading">
+        Saga livres — {{ block.sagaDisplayName }}
+        <span class="mix-base-saga-count"
+          >({{ block.galaxies.length }} titre(s) comme source)</span
+        >
+      </h2>
+      }
+      @for (g of block.galaxies; track g.uniqueKey) {
+      <div class="mix-base-galaxy">
+        <h3 class="mix-base-galaxy-title">
+          <button
+            type="button"
+            class="mix-section-toggle mix-base-galaxy-toggle"
+            [attr.aria-expanded]="!isSectionCollapsed(baseGalaxyCollapseKey(block, g))"
+            (click)="toggleSection(baseGalaxyCollapseKey(block, g))"
+          >
+            <span class="mix-section-toggle-icon">
+              {{ isSectionCollapsed(baseGalaxyCollapseKey(block, g)) ? "▶" : "▼" }}
+            </span>
+            {{ g.sourceTitle }} — {{ g.sourceSecondKey }}
+            <span class="mix-base-galaxy-kind"
+              >({{ baseWorkEntityLabel(g.fromEntityType) }})</span
+            >
+            <span class="mix-base-galaxy-counts">
+              — {{ g.derivedMovies.length }} film(s),
+              {{ g.derivedSeries.length }} série(s), {{ g.derivedGames.length }}
+              jeu(x)
+            </span>
+          </button>
+        </h3>
+        @if (!isSectionCollapsed(baseGalaxyCollapseKey(block, g))) {
+        <div class="mix-base-galaxy-body">
+          <p class="mix-base-source-label">Œuvre de base</p>
+          @if (g.book) {
+          <div class="mix-section-book">
+            <app-book [book]="g.book" [readOnly]="true"></app-book>
+          </div>
+          } @else if (g.bd) {
+          <div class="mix-section-bd">
+            <app-bd [bd]="g.bd" [readOnly]="true"></app-bd>
+          </div>
+          } @else if (g.comic) {
+          <div class="mix-section-comic">
+            <app-comic [comic]="g.comic" [readOnly]="true"></app-comic>
+          </div>
+          } @else if (g.manga) {
+          <div class="mix-section-manga">
+            <app-manga [manga]="g.manga" [readOnly]="true"></app-manga>
+          </div>
+          } @else if (g.manwha) {
+          <div class="mix-section-manwha">
+            <app-manwha [manwha]="g.manwha" [readOnly]="true"></app-manwha>
+          </div>
+          } @else if (g.game) {
+          <div class="mix-section-game">
+            <app-game [game]="g.game" [readOnly]="true"></app-game>
+          </div>
+          } @else if (g.serie) {
+          <div class="mix-section-serie">
+            <app-serie
+              [serie]="g.serie"
+              [readOnly]="true"
+              [list]="[g.serie]"
+              [index]="0"
+            ></app-serie>
+          </div>
+          } @else if (g.movie) {
+          <div class="mix-movie-card">
+            <app-movie
+              [movie]="g.movie"
+              [readOnly]="true"
+              [list]="[g.movie]"
+              [index]="0"
+            ></app-movie>
+          </div>
+          } @else {
+          <div class="mix-base-placeholder">
+            <strong>{{ g.sourceTitle }}</strong> — {{ g.sourceSecondKey }}
+            <span class="mix-base-placeholder-kind"
+              >({{ baseWorkEntityLabel(g.fromEntityType) }}, absent du catalogue
+              local)</span
+            >
+          </div>
+          }
+
+          @if (g.derivedMovies.length > 0) {
+          <p class="mix-adaptations-label">Films / œuvres pointant vers cette source :</p>
+          <div class="mix-movies">
+            @for (movie of g.derivedMovies; track movie.title + '|' + movie.director) {
+            <div class="mix-movie-card">
+              <app-movie
+                [movie]="movie"
+                [readOnly]="true"
+                [list]="g.derivedMovies"
+                [index]="$index"
+              ></app-movie>
+            </div>
+            }
+          </div>
+          }
+          @if (g.derivedSeries.length > 0) {
+          <p class="mix-adaptations-label">Séries :</p>
+          <div class="mix-series">
+            @for (serie of g.derivedSeries; track serie.title + '|' + serie.director) {
+            <div class="mix-serie-card">
+              <app-serie
+                [serie]="serie"
+                [readOnly]="true"
+                [list]="g.derivedSeries"
+                [index]="$index"
+              ></app-serie>
+            </div>
+            }
+          </div>
+          }
+          @if (g.derivedGames.length > 0) {
+          <p class="mix-adaptations-label">Jeux :</p>
+          <div class="mix-base-games-row">
+            @for (game of g.derivedGames; track game.title + '|' + game.editor) {
+            <div class="mix-section-game">
+              <app-game [game]="game" [readOnly]="true"></app-game>
+            </div>
+            }
+          </div>
+          }
+        </div>
+        }
+      </div>
+      }
+    </section>
+    }
+    }
+  </div>
   }
 </div>

@@ -410,23 +410,6 @@ export const baseMoviesPage8: BaseMovie[] = [
     countryOrigin: ['États-Unis'],
   },
   {
-    title: 'Les Intrus',
-    director: 'Alejandro Amenábar',
-    actors: [
-      { name: 'Nicole Kidman' },
-      { name: 'Christopher Eccleston' },
-      { name: 'Fionnula Flanagan' },
-    ],
-    coverUrl: '/movies_pictures/875a10b63c6a.jpg',
-    releaseDate: '2001-08-10',
-    length: 104,
-    genre: ['Horreur', 'Mystère', 'Thriller'],
-    saga: '',
-    description: '',
-    fromEntity: null,
-    countryOrigin: ['Espagne'],
-  },
-  {
     title: 'La Fracture',
     director: 'Paul Haggis',
     actors: [
@@ -1418,6 +1401,7 @@ export const baseMoviesPage8: BaseMovie[] = [
     title: 'The Northman',
     director: 'Robert Eggers',
     actors: [
+      { name: 'Anya Taylor-Joy' },
       { name: 'Alexander Skarsgård' },
       { name: 'Nicole Kidman' },
       { name: 'Claes Bang' },
@@ -2127,22 +2111,26 @@ export const baseMoviesPage8: BaseMovie[] = [
     director: 'Burr Steers',
     actors: [
       {
-        name: "Lily James",
+        name: 'Lily James',
       },
       {
-        name: "Sam Riley",
+        name: 'Sam Riley',
       },
       {
-        name: "Jack Huston",
-      }
+        name: 'Jack Huston',
+      },
     ],
-    coverUrl: "/movies_pictures/503ec36b8b74.jpg",
-    releaseDate: "2016-02-05",
+    coverUrl: '/movies_pictures/503ec36b8b74.jpg',
+    releaseDate: '2016-02-05',
     length: 108,
     genre: ['Action', 'Comédie', 'Fantastique'],
-    saga: "",
-    description: "",
-    fromEntity: { entityType: "book", title: "Orgueil et Préjugés", secondEntityKey: "Jane Austen" },
+    saga: '',
+    description: '',
+    fromEntity: {
+      entityType: 'book',
+      title: 'Orgueil et Préjugés',
+      secondEntityKey: 'Jane Austen',
+    },
     countryOrigin: ['États-Unis'],
   },
   {
