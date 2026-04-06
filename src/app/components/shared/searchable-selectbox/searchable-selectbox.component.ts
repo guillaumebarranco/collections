@@ -46,6 +46,19 @@ export interface SearchableSelectOption {
   changeDetection: ChangeDetectionStrategy.OnPush,
 })
 export class SearchableSelectboxComponent {
+  /** Libellé de secours si la valeur (ex. titre|clé) n’est pas dans `options` (liste pas chargée ou légère dérive). */
+  private static fallbackLabelFromValue(v: string): string {
+    const pipe = v.indexOf('|');
+    if (pipe >= 0) {
+      const a = v.slice(0, pipe).trim();
+      const b = v.slice(pipe + 1).trim();
+      if (a && b) {
+        return `${a} — ${b}`;
+      }
+    }
+    return v.trim();
+  }
+
   /** Valeur sentinelle pour l’option « effacer » (évite les soucis avec ''). */
   protected readonly clearSentinel = '__makya_searchable_clear__';
 
@@ -100,7 +113,9 @@ export class SearchableSelectboxComponent {
           return;
         }
         const found = opts.find((o) => o.value === v);
-        this.draft.set(found?.label ?? '');
+        this.draft.set(
+          found?.label ?? SearchableSelectboxComponent.fallbackLabelFromValue(v)
+        );
       });
     });
   }

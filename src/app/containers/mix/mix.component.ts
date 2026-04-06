@@ -78,11 +78,11 @@ export type MixAdaptationSource =
   | 'serie';
 
 export const mixPrimaryOptions: ViewToggleOption[] = [
+  { value: 'baseWorksGalaxy', label: 'Œuvres de base' },
   { value: 'sagasFilmsSeries', label: 'Sagas films / séries' },
   { value: 'worksWithMovieAdaptations', label: 'Œuvres → leurs films' },
   { value: 'moviesGroupedBySource', label: 'Films par origine' },
   { value: 'gamesFromFilms', label: 'Jeux d’après un film' },
-  { value: 'baseWorksGalaxy', label: 'Œuvres de base' },
 ];
 
 export const mixAdaptationSourceOptions: ViewToggleOption[] = [
@@ -465,7 +465,7 @@ export class MixComponent implements OnInit {
   readonly baseMovies = signal<BaseMovie[]>([]);
   readonly baseSeries = signal<BaseSerie[]>([]);
 
-  readonly selectedPrimary = signal<MixPrimary>('worksWithMovieAdaptations');
+  readonly selectedPrimary = signal<MixPrimary>('baseWorksGalaxy');
   readonly selectedAdaptationSource = signal<MixAdaptationSource>('book');
   readonly isLoading = signal<boolean>(true);
 

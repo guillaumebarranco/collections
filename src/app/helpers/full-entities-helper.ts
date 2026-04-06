@@ -170,6 +170,7 @@ export const getFullSerie = (serie: BaseSerie): Serie => ({
   description: serie.description ?? '',
   ratingComment: '',
   saga: serie.saga ?? '',
+  fromEntity: serie.fromEntity ?? null,
   borrowed: '',
   loaned: '',
 });
