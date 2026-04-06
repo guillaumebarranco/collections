@@ -220,6 +220,22 @@ export type MixOrbitCoverInfo = {
   tooltip: string;
 };
 
+/** Libellés FR des types d’entité (orbite + Mix). */
+const MIX_ORBIT_ENTITY_LABELS: Record<string, string> = {
+  book: 'Livre',
+  bd: 'BD franco',
+  comic: 'Comic US',
+  manga: 'Manga',
+  manwha: 'Manhwa',
+  game: 'Jeu vidéo',
+  serie: 'Série TV',
+  movie: 'Film',
+};
+
+function mixOrbitEntityKindLabel(kind: string): string {
+  return MIX_ORBIT_ENTITY_LABELS[kind] ?? kind;
+}
+
 function mixOrbitTrimCoverUrl(url: string | undefined | null): string | null {
   const t = url?.trim();
   return t ? t : null;
@@ -228,14 +244,21 @@ function mixOrbitTrimCoverUrl(url: string | undefined | null): string | null {
 function mixOrbitCover(
   coverUrl: string | undefined | null,
   title: string,
-  secondLine?: string
+  secondLine?: string,
+  entityKindKey?: string
 ): MixOrbitCoverInfo {
-  const tooltip = secondLine?.trim()
+  const main = secondLine?.trim()
     ? `${title.trim()} — ${secondLine.trim()}`
     : title.trim();
+  const base = main || 'Sans titre';
+  const kindLabel =
+    entityKindKey && entityKindKey.trim()
+      ? mixOrbitEntityKindLabel(entityKindKey.trim())
+      : '';
+  const tooltip = kindLabel ? `${base} · ${kindLabel}` : base;
   return {
     coverUrl: mixOrbitTrimCoverUrl(coverUrl),
-    tooltip: tooltip || 'Sans titre',
+    tooltip,
   };
 }
 
@@ -1040,21 +1063,61 @@ export class MixComponent implements OnInit {
   orbitSatelliteCover(sat: BaseWorkOrbitSatellite): MixOrbitCoverInfo {
     switch (sat.kind) {
       case 'book':
-        return mixOrbitCover(sat.data.coverUrl, sat.data.title, sat.data.author);
+        return mixOrbitCover(
+          sat.data.coverUrl,
+          sat.data.title,
+          sat.data.author,
+          'book'
+        );
       case 'movie':
-        return mixOrbitCover(sat.data.coverUrl, sat.data.title, sat.data.director);
+        return mixOrbitCover(
+          sat.data.coverUrl,
+          sat.data.title,
+          sat.data.director,
+          'movie'
+        );
       case 'serie':
-        return mixOrbitCover(sat.data.coverUrl, sat.data.title, sat.data.director);
+        return mixOrbitCover(
+          sat.data.coverUrl,
+          sat.data.title,
+          sat.data.director,
+          'serie'
+        );
       case 'game':
-        return mixOrbitCover(sat.data.coverUrl, sat.data.title, sat.data.editor);
+        return mixOrbitCover(
+          sat.data.coverUrl,
+          sat.data.title,
+          sat.data.editor,
+          'game'
+        );
       case 'bd':
-        return mixOrbitCover(sat.data.coverUrl, sat.data.title, sat.data.writer);
+        return mixOrbitCover(
+          sat.data.coverUrl,
+          sat.data.title,
+          sat.data.writer,
+          'bd'
+        );
       case 'comic':
-        return mixOrbitCover(sat.data.coverUrl, sat.data.title, sat.data.writer);
+        return mixOrbitCover(
+          sat.data.coverUrl,
+          sat.data.title,
+          sat.data.writer,
+          'comic'
+        );
       case 'manga':
-        return mixOrbitCover(sat.data.coverUrl, sat.data.title, sat.data.author);
+        return mixOrbitCover(
+          sat.data.coverUrl,
+          sat.data.title,
+          sat.data.author,
+          'manga'
+        );
       case 'manwha':
-        return mixOrbitCover(sat.data.coverUrl, sat.data.title, sat.data.author);
+        return mixOrbitCover(
+          sat.data.coverUrl,
+          sat.data.title,
+          sat.data.author,
+          'manwha'
+        );
     }
   }
 
@@ -1063,63 +1126,78 @@ export class MixComponent implements OnInit {
       return mixOrbitCover(
         central.book.coverUrl,
         central.book.title,
-        central.book.author
+        central.book.author,
+        'book'
       );
     }
     if (central.bd) {
-      return mixOrbitCover(central.bd.coverUrl, central.bd.title, central.bd.writer);
+      return mixOrbitCover(
+        central.bd.coverUrl,
+        central.bd.title,
+        central.bd.writer,
+        'bd'
+      );
     }
     if (central.comic) {
       return mixOrbitCover(
         central.comic.coverUrl,
         central.comic.title,
-        central.comic.writer
+        central.comic.writer,
+        'comic'
       );
     }
     if (central.manga) {
       return mixOrbitCover(
         central.manga.coverUrl,
         central.manga.title,
-        central.manga.author
+        central.manga.author,
+        'manga'
       );
     }
     if (central.manwha) {
       return mixOrbitCover(
         central.manwha.coverUrl,
         central.manwha.title,
-        central.manwha.author
+        central.manwha.author,
+        'manwha'
       );
     }
     if (central.game) {
       return mixOrbitCover(
         central.game.coverUrl,
         central.game.title,
-        central.game.editor
+        central.game.editor,
+        'game'
       );
     }
     if (central.serie) {
       return mixOrbitCover(
         central.serie.coverUrl,
         central.serie.title,
-        central.serie.director
+        central.serie.director,
+        'serie'
       );
     }
     if (central.movie) {
       return mixOrbitCover(
         central.movie.coverUrl,
         central.movie.title,
-        central.movie.director
+        central.movie.director,
+        'movie'
       );
     }
     const base = [central.placeholderTitle, central.placeholderSecond]
       .filter((s): s is string => Boolean(s?.trim()))
       .join(' — ');
-    const kind = central.placeholderEntityType
-      ? ` (${this.baseWorkEntityLabel(central.placeholderEntityType)}, absent du catalogue local)`
+    const kindLabel = central.placeholderEntityType
+      ? mixOrbitEntityKindLabel(central.placeholderEntityType)
+      : '';
+    const suffix = kindLabel
+      ? ` (${kindLabel}, absent du catalogue local)`
       : '';
     return {
       coverUrl: null,
-      tooltip: (base + kind).trim() || 'Œuvre de base',
+      tooltip: (base + suffix).trim() || 'Œuvre de base',
     };
   }
 
@@ -1148,17 +1226,7 @@ export class MixComponent implements OnInit {
     if (!entityType) {
       return 'œuvre';
     }
-    const labels: Record<string, string> = {
-      book: 'Livre',
-      bd: 'BD franco',
-      comic: 'Comic US',
-      manga: 'Manga',
-      manwha: 'Manhwa',
-      game: 'Jeu vidéo',
-      serie: 'Série TV',
-      movie: 'Film',
-    };
-    return labels[entityType] ?? entityType;
+    return mixOrbitEntityKindLabel(entityType);
   }
 
   ngOnInit(): void {

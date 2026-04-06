@@ -4168,7 +4168,8 @@ export const baseSeriesAnimees: BaseSerie[] = [
         name: 'Inconnu',
       },
     ],
-    coverUrl: '/series_pictures/1033002.jpg',
+    coverUrl:
+      'https://m.media-amazon.com/images/I/71eq50NPJ9L._AC_UF894,1000_QL80_.jpg',
     releaseDate: '',
     endDate: '',
     genre: ['Anime'],

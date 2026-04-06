@@ -205,6 +205,69 @@
   font-weight: 500;
 }
 
+/* Entrée : centre puis satellites qui rejoignent l’anneau */
+@keyframes mix-orbit-center-enter {
+  from {
+    opacity: 0;
+    transform: translate(-50%, -50%) scale(0.58);
+  }
+
+  to {
+    opacity: 1;
+    transform: translate(-50%, -50%) scale(1);
+  }
+}
+
+@keyframes mix-orbit-center-enter-mobile {
+  from {
+    opacity: 0;
+    transform: scale(0.88);
+  }
+
+  to {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+@keyframes mix-orbit-slot-to-ring {
+  from {
+    opacity: 0;
+    transform: rotate(var(--orbit-angle)) translateY(0)
+      rotate(calc(-1 * var(--orbit-angle)));
+  }
+
+  to {
+    opacity: 1;
+    transform: rotate(var(--orbit-angle)) translateY(calc(-1 * var(--orbit-radius)))
+      rotate(calc(-1 * var(--orbit-angle)));
+  }
+}
+
+@keyframes mix-orbit-ring-reveal {
+  from {
+    opacity: 0;
+    transform: translate(-50%, -50%) scale(0.88);
+  }
+
+  to {
+    opacity: 1;
+    transform: translate(-50%, -50%) scale(1);
+  }
+}
+
+@keyframes mix-orbit-satellite-card-fade-mobile {
+  from {
+    opacity: 0;
+    transform: translateY(10px) scale(0.88);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0) scale(1);
+  }
+}
+
 /* Schéma circulaire : œuvre de base au centre, satellites sur l’anneau */
 .mix-base-orbit-layout {
   margin-top: 0.5rem;
@@ -235,6 +298,9 @@
   border: 1px dashed rgba(100, 116, 139, 0.28);
   border-radius: 50%;
   pointer-events: none;
+  opacity: 0;
+  animation: mix-orbit-ring-reveal 0.55s cubic-bezier(0.33, 0.86, 0.4, 1) 0.12s
+    forwards;
 }
 
 .mix-base-orbit-layout--empty-ring .mix-base-orbit-inner {
@@ -254,6 +320,12 @@
   width: min(200px, 38vw);
   transform: translate(-50%, -50%);
   text-align: center;
+  transition: z-index 0s step-end;
+  animation: mix-orbit-center-enter 0.55s cubic-bezier(0.33, 1.15, 0.52, 1) both;
+}
+
+.mix-base-orbit-center:hover {
+  z-index: 18;
 }
 
 .mix-base-orbit-center-card {
@@ -286,6 +358,15 @@
   cursor: default;
   background: var(--surface-muted, #e2e8f0);
   box-sizing: border-box;
+  transition:
+    transform 0.22s ease,
+    box-shadow 0.22s ease;
+  box-shadow: 0 2px 8px rgba(15, 23, 42, 0.08);
+}
+
+.mix-base-orbit-center:hover .mix-orbit-cover__btn {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 24px rgba(15, 23, 42, 0.18);
 }
 
 .mix-orbit-cover__btn:focus-visible {
@@ -332,9 +413,30 @@
   margin-top: -56px;
   margin-left: -56px;
   pointer-events: auto;
+  z-index: 1;
   --orbit-angle: calc(360deg / var(--orbit-n) * var(--orbit-i, 0));
   transform: rotate(var(--orbit-angle)) translateY(calc(-1 * var(--orbit-radius)))
     rotate(calc(-1 * var(--orbit-angle)));
+  transition:
+    transform 0.22s ease,
+    z-index 0s step-end;
+  animation: mix-orbit-slot-to-ring 0.78s cubic-bezier(0.28, 0.9, 0.36, 1) both;
+  animation-delay: calc(0.1s + var(--orbit-i, 0) * 52ms);
+}
+
+.mix-base-orbit-slot:hover {
+  z-index: 14;
+  transform: rotate(var(--orbit-angle))
+    translateY(calc(-1 * var(--orbit-radius) - 5px))
+    rotate(calc(-1 * var(--orbit-angle)));
+}
+
+.mix-base-orbit-slot:hover .mix-base-orbit-satellite-card {
+  box-shadow: 0 10px 26px rgba(15, 23, 42, 0.22);
+}
+
+.mix-base-orbit-slot:hover .mix-orbit-cover__btn {
+  box-shadow: 0 6px 18px rgba(15, 23, 42, 0.15);
 }
 
 .mix-base-orbit-satellite-card {
@@ -348,6 +450,7 @@
   border-radius: 50%;
   background: rgba(255, 255, 255, 0.95);
   box-shadow: 0 2px 12px rgba(15, 23, 42, 0.1);
+  transition: box-shadow 0.22s ease;
 }
 
 @media (max-width: 720px) {
@@ -369,6 +472,8 @@
     max-width: 280px;
     margin: 0 auto 1.25rem;
     transform: none;
+    animation: mix-orbit-center-enter-mobile 0.45s cubic-bezier(0.33, 1.1, 0.52, 1)
+      both;
   }
 
   .mix-base-orbit-ring {
@@ -387,6 +492,15 @@
     min-height: 0;
     margin: 0;
     transform: none !important;
+    transition:
+      transform 0.22s ease,
+      z-index 0s step-end;
+    animation: none;
+  }
+
+  .mix-base-orbit-slot:hover {
+    z-index: 4;
+    transform: translateY(-5px) !important;
   }
 
   .mix-base-orbit-satellite-card {
@@ -395,6 +509,29 @@
     max-width: 148px;
     margin-left: auto;
     margin-right: auto;
+    animation: mix-orbit-satellite-card-fade-mobile 0.5s cubic-bezier(0.33, 1, 0.52, 1)
+      both;
+    animation-delay: calc(0.06s + var(--orbit-i, 0) * 42ms);
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .mix-base-orbit-inner::before {
+    animation: none !important;
+    opacity: 1 !important;
+    transform: translate(-50%, -50%) !important;
+  }
+
+  .mix-base-orbit-center {
+    animation: none !important;
+  }
+
+  .mix-base-orbit-slot {
+    animation: none !important;
+  }
+
+  .mix-base-orbit-satellite-card {
+    animation: none !important;
   }
 }
 
