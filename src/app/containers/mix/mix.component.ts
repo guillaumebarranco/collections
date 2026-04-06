@@ -350,7 +350,8 @@ function centralFromGalaxy(g: BaseWorkGalaxy): MixBaseWorkOrbitPanel['central'] 
 }
 
 function baseWorksBlockToOrbitPanel(
-  block: MixBaseWorksViewBlock
+  block: MixBaseWorksViewBlock,
+  allBaseBooks: BaseBook[]
 ): MixBaseWorkOrbitPanel {
   if (block.blockKind === 'standalone') {
     const g = block.galaxies[0];
@@ -378,15 +379,29 @@ function baseWorksBlockToOrbitPanel(
   const centralBook = centralGalaxy.book;
   const centralKey = centralBook ? bookEntityKey(centralBook) : '';
 
+  /** Tous les tomes du catalogue dans cette saga (y compris sans adaptation). */
+  const sagaKeyNorm = block.sagaKey;
+  const booksInSagaCatalog = allBaseBooks.filter(
+    (bb) => bb.saga?.trim().toLowerCase() === sagaKeyNorm
+  );
+
   const otherBooks: Book[] = [];
   const bookSeen = new Set<string>();
-  for (const gal of galaxies) {
-    if (!gal.book) continue;
-    const k = bookEntityKey(gal.book);
-    if (centralKey && k === centralKey) continue;
-    if (bookSeen.has(k)) continue;
+  const pushBookIfNew = (b: Book): void => {
+    const k = bookEntityKey(b);
+    if (centralKey && k === centralKey) return;
+    if (bookSeen.has(k)) return;
     bookSeen.add(k);
-    otherBooks.push(gal.book);
+    otherBooks.push(b);
+  };
+
+  for (const bb of booksInSagaCatalog) {
+    pushBookIfNew(getFullBook(bb));
+  }
+  for (const gal of galaxies) {
+    if (gal.book) {
+      pushBookIfNew(gal.book);
+    }
   }
   otherBooks.sort((a, b) => {
     const d = (a.sagaOrder ?? 9999) - (b.sagaOrder ?? 9999);
@@ -968,7 +983,10 @@ export class MixComponent implements OnInit {
 
   /** Panneaux « orbite » dérivés des blocs (centre = tome 1 ou œuvre isolée). */
   readonly mixBaseWorkOrbitPanels = computed<MixBaseWorkOrbitPanel[]>(() => {
-    const panels = this.mixBaseWorksBlocks().map(baseWorksBlockToOrbitPanel);
+    const books = this.baseBooks();
+    const panels = this.mixBaseWorksBlocks().map((b) =>
+      baseWorksBlockToOrbitPanel(b, books)
+    );
     return panels.sort((a, b) => {
       const diff = b.satelliteCount - a.satelliteCount;
       if (diff !== 0) return diff;
