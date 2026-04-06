@@ -1096,14 +1096,18 @@ export const baseMoviesPage3: BaseMovie[] = [
   {
     title: 'Street Fighter',
     director: 'Steven E. de Souza',
-    actors: [{ name: 'Jean-Claude Van Damme' }],
-    coverUrl: '/movies_pictures/45086-street-fighter-0-150-0-225-crop.jpg',
-    releaseDate: '1994-12-23',
+    actors: [
+      {
+        name: "Jean-Claude Van Damme",
+      }
+    ],
+    coverUrl: "/movies_pictures/45086-street-fighter-0-150-0-225-crop.jpg",
+    releaseDate: "1994-12-23",
     length: 102,
     genre: ['Action'],
-    saga: '',
-    description: '',
-    fromEntity: null,
+    saga: "",
+    description: "",
+    fromEntity: { entityType: "game", title: "Street Fighter / Fighting Street", secondEntityKey: "Capcom" },
     countryOrigin: ['États-Unis'],
   },
   {

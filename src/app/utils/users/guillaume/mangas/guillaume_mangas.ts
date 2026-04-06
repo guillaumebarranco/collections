@@ -451,7 +451,7 @@ export const guillaumeMangas: UserMangas = [
     readTimes: 20,
     owned: true,
     readPriority: 1,
-    wantToReadAgain: false,
+    wantToReadAgain: true,
     ratingComment: "",
     borrowed: "",
     loaned: "",

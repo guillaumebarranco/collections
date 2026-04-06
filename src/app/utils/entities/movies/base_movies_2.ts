@@ -1655,14 +1655,18 @@ export const baseMoviesPage2: BaseMovie[] = [
   {
     title: 'The Mask',
     director: 'Chuck Russell',
-    actors: [{ name: 'Jim Carrey' }],
-    coverUrl: '/movies_pictures/51298-the-mask-0-150-0-225-crop.jpg',
-    releaseDate: '1994-07-29',
+    actors: [
+      {
+        name: "Jim Carrey",
+      }
+    ],
+    coverUrl: "/movies_pictures/51298-the-mask-0-150-0-225-crop.jpg",
+    releaseDate: "1994-07-29",
     length: 101,
     genre: ['Comédie'],
-    saga: '',
-    description: '',
-    fromEntity: null,
+    saga: "",
+    description: "",
+    fromEntity: { entityType: "comic", title: "The Mask", secondEntityKey: "John Arcudi" },
     countryOrigin: ['États-Unis'],
   },
   {

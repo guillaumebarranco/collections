@@ -2620,4 +2620,16 @@ export const baseComics: BaseComic[] = [
     sagaOrder: 0,
     description: '',
   },
+  {
+    title: 'The Mask',
+    writer: 'John Arcudi',
+    designer: 'Doug Mahnke',
+    coverUrl:
+      'https://static.fnac-static.com/multimedia/PE/Images/FR/NR/42/19/ad/11344194/1507-1/tsp20250405083906/THE-MASK-Integrale-Vol-1.jpg',
+    pages: 144,
+    genre: 'Comédie',
+    saga: '',
+    sagaOrder: 0,
+    description: '',
+  },
 ];

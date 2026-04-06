@@ -39,7 +39,7 @@ export interface BaseSerie extends MandatorySerieData {
   countryOrigin: Country;
   saga: string;
   /** Œuvre source (livre, BD, film, autre série, etc.) si adaptation. */
-  fromEntity?: SerieFromEntityAdaptation | null;
+  fromEntity: SerieFromEntityAdaptation | null;
 }
 
 export interface BaseSerieSeasonData {

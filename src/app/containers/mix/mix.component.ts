@@ -167,10 +167,16 @@ export type BaseWorkGalaxy = {
   derivedGames: Game[];
 };
 
-/** Bloc affiché : saga de livres regroupée (plusieurs galaxies) ou œuvre isolée (un seul élément). */
+/** Bloc affiché : saga de livres / saga de jeux regroupée ou œuvre isolée. */
 export type MixBaseWorksViewBlock =
   | {
       blockKind: 'bookSaga';
+      sagaKey: string;
+      sagaDisplayName: string;
+      galaxies: BaseWorkGalaxy[];
+    }
+  | {
+      blockKind: 'gameSaga';
       sagaKey: string;
       sagaDisplayName: string;
       galaxies: BaseWorkGalaxy[];
@@ -191,7 +197,7 @@ export type BaseWorkOrbitSatellite =
 /** Une carte « galaxie » : un seul centre + anneau fusionné. */
 export type MixBaseWorkOrbitPanel = {
   orbitKey: string;
-  blockKind: 'bookSaga' | 'standalone';
+  blockKind: 'bookSaga' | 'gameSaga' | 'standalone';
   sagaDisplayName?: string;
   headerPrimaryLabel: string;
   /** Pour les blocs isolés : type fromEntity (libellé dans l’en-tête). */
@@ -326,6 +332,78 @@ function pickCentralGalaxyForBookSaga(
   )[0];
 }
 
+/** Clé de regroupement saga jeu (tolère chaînes mal copiées du type `saga: "Nom",`). */
+function normalizedGameSagaKey(raw: string | undefined | null): string | null {
+  let t = raw?.trim();
+  if (!t) return null;
+  const m = t.match(/"([^"]+)"/);
+  if (m) t = m[1];
+  t = t.trim();
+  return t ? t.toLowerCase() : null;
+}
+
+function displayGameSagaName(raw: string | undefined | null): string {
+  let t = raw?.trim() ?? '';
+  const m = t.match(/"([^"]+)"/);
+  if (m) t = m[1];
+  return t.trim();
+}
+
+function gameReleaseDateMs(game: Game): number {
+  const d = game.releaseDate?.trim();
+  if (!d) return Number.MAX_SAFE_INTEGER;
+  const ms = Date.parse(d);
+  return Number.isNaN(ms) ? Number.MAX_SAFE_INTEGER : ms;
+}
+
+/** Jeu le plus ancien de la franchise au centre (même éditeur / catalogue). */
+function pickCentralGalaxyForGameSaga(
+  galaxies: BaseWorkGalaxy[]
+): BaseWorkGalaxy {
+  const withGame = galaxies.filter((g) => g.game);
+  if (withGame.length === 0) {
+    return galaxies[0];
+  }
+  return [...withGame].sort((a, b) => {
+    const da = gameReleaseDateMs(a.game!);
+    const db = gameReleaseDateMs(b.game!);
+    if (da !== db) return da - db;
+    return a.game!.title.localeCompare(b.game!.title, 'fr');
+  })[0];
+}
+
+/**
+ * Saga de l’œuvre affichée au centre (même priorité que la vignette centrale).
+ * Manga / manwha : pas de champ saga dans le modèle.
+ */
+function baseWorkSagaFromGalaxy(g: BaseWorkGalaxy): string | null {
+  const raw =
+    g.book?.saga ??
+    g.bd?.saga ??
+    g.comic?.saga ??
+    g.game?.saga ??
+    g.serie?.saga ??
+    g.movie?.saga;
+  const t = raw?.trim();
+  return t ? t : null;
+}
+
+/** Titre de carte « Œuvres de base » : saga si renseignée, sinon titre + second identifiant. */
+function baseWorkOrbitHeaderPrimaryLabel(g: BaseWorkGalaxy): string {
+  const saga = baseWorkSagaFromGalaxy(g);
+  if (saga) {
+    return saga;
+  }
+  if (
+    g.fromEntityType === 'manga' ||
+    g.fromEntityType === 'manwha' ||
+    g.fromEntityType === 'comic'
+  ) {
+    return g.sourceTitle?.trim() || `${g.sourceTitle} — ${g.sourceSecondKey}`;
+  }
+  return `${g.sourceTitle} — ${g.sourceSecondKey}`;
+}
+
 function centralFromGalaxy(g: BaseWorkGalaxy): MixBaseWorkOrbitPanel['central'] {
   return {
     book: g.book,
@@ -374,13 +452,31 @@ function centralFromGalaxy(g: BaseWorkGalaxy): MixBaseWorkOrbitPanel['central'] 
 
 function baseWorksBlockToOrbitPanel(
   block: MixBaseWorksViewBlock,
-  allBaseBooks: BaseBook[]
+  allBaseBooks: BaseBook[],
+  allBaseGames: BaseGame[]
 ): MixBaseWorkOrbitPanel {
   if (block.blockKind === 'standalone') {
     const g = block.galaxies[0];
     const movies = mergeDedupeMovies([g.derivedMovies]);
     const series = mergeDedupeSeries([g.derivedSeries]);
-    const games = mergeDedupeGames([g.derivedGames]);
+    let games = mergeDedupeGames([g.derivedGames]);
+
+    const centralGame = g.game;
+    const sagaNorm = normalizedGameSagaKey(centralGame?.saga);
+    if (sagaNorm) {
+      const centralGk = centralGame ? gameEntityKey(centralGame) : '';
+      const sagaSiblings = allBaseGames
+        .filter((bg) => {
+          const sk = normalizedGameSagaKey(bg.saga);
+          return (
+            sk === sagaNorm &&
+            (!centralGk || gameEntityKey(getFullGame(bg)) !== centralGk)
+          );
+        })
+        .map((bg) => getFullGame(bg));
+      games = mergeDedupeGames([games, sagaSiblings]);
+    }
+
     const satellites: BaseWorkOrbitSatellite[] = [
       ...movies.map((data) => ({ kind: 'movie' as const, data })),
       ...series.map((data) => ({ kind: 'serie' as const, data })),
@@ -389,10 +485,49 @@ function baseWorksBlockToOrbitPanel(
     return {
       orbitKey: `bbwg-st:${g.uniqueKey}`,
       blockKind: 'standalone',
-      headerPrimaryLabel: `${g.sourceTitle} — ${g.sourceSecondKey}`,
+      headerPrimaryLabel: baseWorkOrbitHeaderPrimaryLabel(g),
       standaloneFromEntityType: g.fromEntityType,
       satelliteCount: satellites.length,
       central: centralFromGalaxy(g),
+      satellites,
+    };
+  }
+
+  if (block.blockKind === 'gameSaga') {
+    const galaxies = block.galaxies;
+    const centralGalaxy = pickCentralGalaxyForGameSaga(galaxies);
+    const centralGame = centralGalaxy.game;
+    const centralKey = centralGame ? gameEntityKey(centralGame) : '';
+
+    const sagaKeyNorm = block.sagaKey;
+    const movieLists = galaxies.map((gal) => gal.derivedMovies);
+    const serieLists = galaxies.map((gal) => gal.derivedSeries);
+    const gameLists = galaxies.map((gal) => gal.derivedGames);
+    const movies = mergeDedupeMovies(movieLists);
+    const series = mergeDedupeSeries(serieLists);
+    let games = mergeDedupeGames(gameLists);
+
+    const sagaGamesFromCatalog = allBaseGames
+      .filter((bg) => normalizedGameSagaKey(bg.saga) === sagaKeyNorm)
+      .map((bg) => getFullGame(bg));
+    games = mergeDedupeGames([games, sagaGamesFromCatalog]);
+    if (centralKey) {
+      games = games.filter((gm) => gameEntityKey(gm) !== centralKey);
+    }
+
+    const satellites: BaseWorkOrbitSatellite[] = [
+      ...movies.map((data) => ({ kind: 'movie' as const, data })),
+      ...series.map((data) => ({ kind: 'serie' as const, data })),
+      ...games.map((data) => ({ kind: 'game' as const, data })),
+    ];
+
+    return {
+      orbitKey: `bbwg-game-saga:${block.sagaKey}`,
+      blockKind: 'gameSaga',
+      sagaDisplayName: block.sagaDisplayName,
+      headerPrimaryLabel: block.sagaDisplayName,
+      satelliteCount: satellites.length,
+      central: centralFromGalaxy(centralGalaxy),
       satellites,
     };
   }
@@ -437,7 +572,12 @@ function baseWorksBlockToOrbitPanel(
   const gameLists = galaxies.map((g) => g.derivedGames);
   const movies = mergeDedupeMovies(movieLists);
   const series = mergeDedupeSeries(serieLists);
-  const games = mergeDedupeGames(gameLists);
+  let games = mergeDedupeGames(gameLists);
+
+  const sagaGamesFromCatalog = allBaseGames
+    .filter((bg) => normalizedGameSagaKey(bg.saga) === sagaKeyNorm)
+    .map((bg) => getFullGame(bg));
+  games = mergeDedupeGames([games, sagaGamesFromCatalog]);
 
   const satellites: BaseWorkOrbitSatellite[] = [
     ...otherBooks.map((data) => ({ kind: 'book' as const, data })),
@@ -450,7 +590,7 @@ function baseWorksBlockToOrbitPanel(
     orbitKey: `bbwg-saga:${block.sagaKey}`,
     blockKind: 'bookSaga',
     sagaDisplayName: block.sagaDisplayName,
-    headerPrimaryLabel: `Saga livres — ${block.sagaDisplayName}`,
+    headerPrimaryLabel: block.sagaDisplayName,
     satelliteCount: satellites.length,
     central: centralFromGalaxy(centralGalaxy),
     satellites,
@@ -579,7 +719,11 @@ export class MixComponent implements OnInit {
       .map((m) => getFullMovie(m));
   }
 
-  private groupMoviesBySourceFromMovies(list: Movie[]): MoviesBySource[] {
+  private groupMoviesBySourceFromMovies(
+    list: Movie[],
+    options?: { titleOnlyLabel?: boolean }
+  ): MoviesBySource[] {
+    const titleOnly = options?.titleOnlyLabel === true;
     const map = new Map<string, Movie[]>();
     for (const m of list) {
       if (!m.fromEntity) continue;
@@ -588,14 +732,14 @@ export class MixComponent implements OnInit {
       arr.push(m);
       map.set(key, arr);
     }
-    return Array.from(map.entries()).map(([sourceKey, movies]) => ({
-      sourceKey,
-      sourceLabel:
-        (movies[0]?.fromEntity?.title ?? '') +
-        ' — ' +
-        (movies[0]?.fromEntity?.secondEntityKey ?? ''),
-      movies,
-    }));
+    return Array.from(map.entries()).map(([sourceKey, movies]) => {
+      const fe = movies[0]?.fromEntity;
+      const title = fe?.title?.trim() ?? '';
+      const second = fe?.secondEntityKey?.trim() ?? '';
+      const sourceLabel =
+        titleOnly || !second ? title : `${title} — ${second}`;
+      return { sourceKey, sourceLabel, movies };
+    });
   }
 
   readonly booksAdapted = computed<BookWithAdaptations[]>(() => {
@@ -629,11 +773,15 @@ export class MixComponent implements OnInit {
   );
 
   readonly moviesFromMangaBySource = computed(() =>
-    this.groupMoviesBySourceFromMovies(this.moviesFullByEntityType('manga'))
+    this.groupMoviesBySourceFromMovies(this.moviesFullByEntityType('manga'), {
+      titleOnlyLabel: true,
+    })
   );
 
   readonly moviesFromManwhaBySource = computed(() =>
-    this.groupMoviesBySourceFromMovies(this.moviesFullByEntityType('manwha'))
+    this.groupMoviesBySourceFromMovies(this.moviesFullByEntityType('manwha'), {
+      titleOnlyLabel: true,
+    })
   );
 
   readonly moviesFromSeriesBySource = computed(() =>
@@ -645,7 +793,9 @@ export class MixComponent implements OnInit {
   );
 
   readonly moviesFromComicBooksBySource = computed(() =>
-    this.groupMoviesBySourceFromMovies(this.moviesFromComicBooksFull())
+    this.groupMoviesBySourceFromMovies(this.moviesFromComicBooksFull(), {
+      titleOnlyLabel: true,
+    })
   );
 
   readonly gamesAdapted = computed<GameWithAdaptations[]>(() => {
@@ -923,6 +1073,10 @@ export class MixComponent implements OnInit {
       string,
       { sagaDisplayName: string; galaxies: BaseWorkGalaxy[] }
     >();
+    const sagaGameMap = new Map<
+      string,
+      { sagaDisplayName: string; galaxies: BaseWorkGalaxy[] }
+    >();
     const standaloneGalaxies: BaseWorkGalaxy[] = [];
 
     for (const g of map.values()) {
@@ -945,12 +1099,27 @@ export class MixComponent implements OnInit {
       };
 
       const sagaTrim = galaxy.book?.saga?.trim();
+      const gameSagaKey = normalizedGameSagaKey(galaxy.game?.saga);
       if (galaxy.fromEntityType === 'book' && sagaTrim) {
         const sk = sagaTrim.toLowerCase();
         let entry = sagaBookMap.get(sk);
         if (!entry) {
           entry = { sagaDisplayName: sagaTrim, galaxies: [] };
           sagaBookMap.set(sk, entry);
+        }
+        entry.galaxies.push(galaxy);
+      } else if (
+        galaxy.fromEntityType === 'game' &&
+        galaxy.game &&
+        gameSagaKey
+      ) {
+        let entry = sagaGameMap.get(gameSagaKey);
+        if (!entry) {
+          entry = {
+            sagaDisplayName: displayGameSagaName(galaxy.game.saga),
+            galaxies: [],
+          };
+          sagaGameMap.set(gameSagaKey, entry);
         }
         entry.galaxies.push(galaxy);
       } else {
@@ -975,6 +1144,26 @@ export class MixComponent implements OnInit {
       }
     );
 
+    const gameSagaBlocks: MixBaseWorksViewBlock[] = Array.from(
+      sagaGameMap.entries()
+    ).map(([sagaKey, entry]) => {
+      entry.galaxies.sort((a, b) => {
+        const ga = a.game;
+        const gb = b.game;
+        if (ga && gb) {
+          const d = gameReleaseDateMs(ga) - gameReleaseDateMs(gb);
+          if (d !== 0) return d;
+        }
+        return a.sourceTitle.localeCompare(b.sourceTitle, 'fr');
+      });
+      return {
+        blockKind: 'gameSaga' as const,
+        sagaKey,
+        sagaDisplayName: entry.sagaDisplayName,
+        galaxies: entry.galaxies,
+      };
+    });
+
     standaloneGalaxies.sort((a, b) =>
       a.uniqueKey.localeCompare(b.uniqueKey, 'fr')
     );
@@ -993,11 +1182,11 @@ export class MixComponent implements OnInit {
       );
 
     const blockSortLabel = (block: MixBaseWorksViewBlock): string =>
-      block.blockKind === 'bookSaga'
+      block.blockKind === 'bookSaga' || block.blockKind === 'gameSaga'
         ? block.sagaDisplayName
         : (block.galaxies[0]?.sourceTitle ?? '');
 
-    return [...sagaBlocks, ...standaloneBlocks].sort((a, b) => {
+    return [...sagaBlocks, ...gameSagaBlocks, ...standaloneBlocks].sort((a, b) => {
       const diff = blockAdaptationTotal(b) - blockAdaptationTotal(a);
       if (diff !== 0) return diff;
       return blockSortLabel(a).localeCompare(blockSortLabel(b), 'fr');
@@ -1007,8 +1196,9 @@ export class MixComponent implements OnInit {
   /** Panneaux « orbite » dérivés des blocs (centre = tome 1 ou œuvre isolée). */
   readonly mixBaseWorkOrbitPanels = computed<MixBaseWorkOrbitPanel[]>(() => {
     const books = this.baseBooks();
+    const games = this.baseGames();
     const panels = this.mixBaseWorksBlocks().map((b) =>
-      baseWorksBlockToOrbitPanel(b, books)
+      baseWorksBlockToOrbitPanel(b, books, games)
     );
     return panels.sort((a, b) => {
       const diff = b.satelliteCount - a.satelliteCount;

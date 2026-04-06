@@ -162,17 +162,21 @@ export const baseMoviesSagaPage2: BaseMovie[] = [
     director: 'David Yates',
     actors: [
       {
-        name: "Eddie Redmayne",
-      }
+        name: 'Eddie Redmayne',
+      },
     ],
     coverUrl:
-      "/movies_pictures/182910-fantastic-beasts-and-where-to-find-them-0-150-0-225-crop.jpg",
-    releaseDate: "2016-11-18",
+      '/movies_pictures/182910-fantastic-beasts-and-where-to-find-them-0-150-0-225-crop.jpg',
+    releaseDate: '2016-11-18',
     length: 133,
     genre: ['Fantastique'],
-    saga: "Wizarding World",
-    description: "",
-    fromEntity: { entityType: "book", title: "Harry Potter à l'école des sorciers", secondEntityKey: "J.K. Rowling" },
+    saga: 'Wizarding World',
+    description: '',
+    fromEntity: {
+      entityType: 'book',
+      title: "Harry Potter à l'école des sorciers",
+      secondEntityKey: 'J.K. Rowling',
+    },
     countryOrigin: ['États-Unis'],
   },
   {
@@ -180,17 +184,21 @@ export const baseMoviesSagaPage2: BaseMovie[] = [
     director: 'David Yates',
     actors: [
       {
-        name: "Eddie Redmayne",
-      }
+        name: 'Eddie Redmayne',
+      },
     ],
     coverUrl:
-      "/movies_pictures/268365-fantastic-beasts-the-crimes-of-grindelwald-0-150-0-225-crop.jpg",
-    releaseDate: "2018-11-16",
+      '/movies_pictures/268365-fantastic-beasts-the-crimes-of-grindelwald-0-150-0-225-crop.jpg',
+    releaseDate: '2018-11-16',
     length: 134,
     genre: ['Fantastique'],
-    saga: "Wizarding World",
-    description: "",
-    fromEntity: { entityType: "book", title: "Harry Potter à l'école des sorciers", secondEntityKey: "J.K. Rowling" },
+    saga: 'Wizarding World',
+    description: '',
+    fromEntity: {
+      entityType: 'book',
+      title: "Harry Potter à l'école des sorciers",
+      secondEntityKey: 'J.K. Rowling',
+    },
     countryOrigin: ['États-Unis'],
   },
   {
@@ -198,17 +206,21 @@ export const baseMoviesSagaPage2: BaseMovie[] = [
     director: 'David Yates',
     actors: [
       {
-        name: "Eddie Redmayne",
-      }
+        name: 'Eddie Redmayne',
+      },
     ],
     coverUrl:
-      "/movies_pictures/268366-fantastic-beasts-the-secrets-of-dumbledore-0-150-0-225-crop.jpg",
-    releaseDate: "2022-04-15",
+      '/movies_pictures/268366-fantastic-beasts-the-secrets-of-dumbledore-0-150-0-225-crop.jpg',
+    releaseDate: '2022-04-15',
     length: 142,
     genre: ['Fantastique'],
-    saga: "Wizarding World",
-    description: "",
-    fromEntity: { entityType: "book", title: "Harry Potter à l'école des sorciers", secondEntityKey: "J.K. Rowling" },
+    saga: 'Wizarding World',
+    description: '',
+    fromEntity: {
+      entityType: 'book',
+      title: "Harry Potter à l'école des sorciers",
+      secondEntityKey: 'J.K. Rowling',
+    },
     countryOrigin: ['États-Unis'],
   },
   {
@@ -276,24 +288,24 @@ export const baseMoviesSagaPage2: BaseMovie[] = [
     director: 'Rian Johnson',
     actors: [
       {
-        name: "Daniel Craig",
+        name: 'Daniel Craig',
       },
       {
-        name: "Ana de Armas",
+        name: 'Ana de Armas',
       },
       {
-        name: "Chris Evans",
+        name: 'Chris Evans',
       },
       {
-        name: "Jamie Lee Curtis",
-      }
+        name: 'Jamie Lee Curtis',
+      },
     ],
-    coverUrl: "/movies_pictures/475370-knives-out-0-150-0-225-crop.jpg",
-    releaseDate: "2019-11-27",
+    coverUrl: '/movies_pictures/475370-knives-out-0-150-0-225-crop.jpg',
+    releaseDate: '2019-11-27',
     length: 130,
     genre: ['Policier', 'Mystère'],
-    saga: "Benoit Blanc",
-    description: "",
+    saga: 'Benoit Blanc',
+    description: '',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
   },
@@ -711,16 +723,20 @@ export const baseMoviesSagaPage2: BaseMovie[] = [
     director: 'Neil Burger',
     actors: [
       {
-        name: "Shailene Woodley",
-      }
+        name: 'Shailene Woodley',
+      },
     ],
-    coverUrl: "/movies_pictures/117583-divergent-0-150-0-225-crop.jpg",
-    releaseDate: "2014-03-21",
+    coverUrl: '/movies_pictures/117583-divergent-0-150-0-225-crop.jpg',
+    releaseDate: '2014-03-21',
     length: 139,
     genre: ['Action'],
-    saga: "Divergente",
-    description: "",
-    fromEntity: { entityType: "book", title: "Divergente", secondEntityKey: "Veronica Roth" },
+    saga: 'Divergente',
+    description: '',
+    fromEntity: {
+      entityType: 'book',
+      title: 'Divergente',
+      secondEntityKey: 'Veronica Roth',
+    },
     countryOrigin: ['États-Unis'],
   },
   {
@@ -728,16 +744,20 @@ export const baseMoviesSagaPage2: BaseMovie[] = [
     director: 'Robert Schwentke',
     actors: [
       {
-        name: "Shailene Woodley",
-      }
+        name: 'Shailene Woodley',
+      },
     ],
-    coverUrl: "/movies_pictures/185970-insurgent-0-150-0-225-crop.jpg",
-    releaseDate: "2015-03-20",
+    coverUrl: '/movies_pictures/185970-insurgent-0-150-0-225-crop.jpg',
+    releaseDate: '2015-03-20',
     length: 119,
     genre: ['Action'],
-    saga: "Divergente",
-    description: "",
-    fromEntity: { entityType: "book", title: "Divergente Tome 2 : L'Insurrection", secondEntityKey: "Veronica Roth" },
+    saga: 'Divergente',
+    description: '',
+    fromEntity: {
+      entityType: 'book',
+      title: "Divergente Tome 2 : L'Insurrection",
+      secondEntityKey: 'Veronica Roth',
+    },
     countryOrigin: ['États-Unis'],
   },
   {
@@ -745,16 +765,20 @@ export const baseMoviesSagaPage2: BaseMovie[] = [
     director: 'Robert Schwentke',
     actors: [
       {
-        name: "Shailene Woodley",
-      }
+        name: 'Shailene Woodley',
+      },
     ],
-    coverUrl: "/movies_pictures/divergente.jpg",
-    releaseDate: "2016-03-18",
+    coverUrl: '/movies_pictures/divergente.jpg',
+    releaseDate: '2016-03-18',
     length: 121,
     genre: ['Action'],
-    saga: "Divergente",
-    description: "",
-    fromEntity: { entityType: "book", title: "Divergente Tome 3 : Allégeance", secondEntityKey: "Veronica Roth" },
+    saga: 'Divergente',
+    description: '',
+    fromEntity: {
+      entityType: 'book',
+      title: 'Divergente Tome 3 : Allégeance',
+      secondEntityKey: 'Veronica Roth',
+    },
     countryOrigin: ['États-Unis'],
   },
   {
@@ -858,16 +882,20 @@ export const baseMoviesSagaPage2: BaseMovie[] = [
     director: 'Paul W.S. Anderson',
     actors: [
       {
-        name: "Milla Jovovich",
-      }
+        name: 'Milla Jovovich',
+      },
     ],
-    coverUrl: "/movies_pictures/resident_evil.jpg",
-    releaseDate: "2002-03-15",
+    coverUrl: '/movies_pictures/resident_evil.jpg',
+    releaseDate: '2002-03-15',
     length: 100,
     genre: ['Action'],
-    saga: "Resident Evil",
-    description: "",
-    fromEntity: { entityType: "game", title: "Resident Evil 7 : Biohazard", secondEntityKey: "Capcom" },
+    saga: 'Resident Evil',
+    description: '',
+    fromEntity: {
+      entityType: 'game',
+      title: 'Resident Evil',
+      secondEntityKey: 'Capcom',
+    },
     countryOrigin: ['États-Unis'],
   },
   {
@@ -875,17 +903,21 @@ export const baseMoviesSagaPage2: BaseMovie[] = [
     director: 'Alexander Witt',
     actors: [
       {
-        name: "Milla Jovovich",
-      }
+        name: 'Milla Jovovich',
+      },
     ],
     coverUrl:
-      "/movies_pictures/50957-resident-evil-apocalypse-0-150-0-225-crop.jpg",
-    releaseDate: "2004-09-10",
+      '/movies_pictures/50957-resident-evil-apocalypse-0-150-0-225-crop.jpg',
+    releaseDate: '2004-09-10',
     length: 94,
     genre: ['Action'],
-    saga: "Resident Evil",
-    description: "",
-    fromEntity: { entityType: "game", title: "Resident Evil 7 : Biohazard", secondEntityKey: "Capcom" },
+    saga: 'Resident Evil',
+    description: '',
+    fromEntity: {
+      entityType: 'game',
+      title: 'Resident Evil',
+      secondEntityKey: 'Capcom',
+    },
     countryOrigin: ['États-Unis'],
   },
   {
@@ -893,17 +925,21 @@ export const baseMoviesSagaPage2: BaseMovie[] = [
     director: 'Russell Mulcahy',
     actors: [
       {
-        name: "Milla Jovovich",
-      }
+        name: 'Milla Jovovich',
+      },
     ],
     coverUrl:
-      "/movies_pictures/47979-resident-evil-extinction-0-150-0-225-crop.jpg",
-    releaseDate: "2007-09-21",
+      '/movies_pictures/47979-resident-evil-extinction-0-150-0-225-crop.jpg',
+    releaseDate: '2007-09-21',
     length: 94,
     genre: ['Action'],
-    saga: "Resident Evil",
-    description: "",
-    fromEntity: { entityType: "game", title: "Resident Evil 7 : Biohazard", secondEntityKey: "Capcom" },
+    saga: 'Resident Evil',
+    description: '',
+    fromEntity: {
+      entityType: 'game',
+      title: 'Resident Evil',
+      secondEntityKey: 'Capcom',
+    },
     countryOrigin: ['États-Unis'],
   },
   {
@@ -911,16 +947,20 @@ export const baseMoviesSagaPage2: BaseMovie[] = [
     director: 'Paul W.S. Anderson',
     actors: [
       {
-        name: "Milla Jovovich",
-      }
+        name: 'Milla Jovovich',
+      },
     ],
-    coverUrl: "/movies_pictures/19486570.jpg",
-    releaseDate: "2010-09-10",
+    coverUrl: '/movies_pictures/19486570.jpg',
+    releaseDate: '2010-09-10',
     length: 97,
     genre: ['Action'],
-    saga: "Resident Evil",
-    description: "",
-    fromEntity: { entityType: "game", title: "Resident Evil 7 : Biohazard", secondEntityKey: "Capcom" },
+    saga: 'Resident Evil',
+    description: '',
+    fromEntity: {
+      entityType: 'game',
+      title: 'Resident Evil',
+      secondEntityKey: 'Capcom',
+    },
     countryOrigin: ['États-Unis'],
   },
   {
@@ -928,16 +968,20 @@ export const baseMoviesSagaPage2: BaseMovie[] = [
     director: 'Paul W.S. Anderson',
     actors: [
       {
-        name: "Milla Jovovich",
-      }
+        name: 'Milla Jovovich',
+      },
     ],
-    coverUrl: "/movies_pictures/20204615.jpg",
-    releaseDate: "2012-09-14",
+    coverUrl: '/movies_pictures/20204615.jpg',
+    releaseDate: '2012-09-14',
     length: 95,
     genre: ['Action'],
-    saga: "Resident Evil",
-    description: "",
-    fromEntity: { entityType: "game", title: "Resident Evil 7 : Biohazard", secondEntityKey: "Capcom" },
+    saga: 'Resident Evil',
+    description: '',
+    fromEntity: {
+      entityType: 'game',
+      title: 'Resident Evil',
+      secondEntityKey: 'Capcom',
+    },
     countryOrigin: ['États-Unis'],
   },
   {

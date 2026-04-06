@@ -70,28 +70,32 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     director: 'Edgar Wright',
     actors: [
       {
-        name: "Sam Worthington",
+        name: 'Sam Worthington',
       },
       {
-        name: "Zoe Saldana",
+        name: 'Zoe Saldana',
       },
       {
-        name: "Sigourney Weaver",
+        name: 'Sigourney Weaver',
       },
       {
-        name: "Stephen Lang",
+        name: 'Stephen Lang',
       },
       {
-        name: "Kate Winslet",
-      }
+        name: 'Kate Winslet',
+      },
     ],
-    coverUrl: "/movies_pictures/running_man.jpg",
-    releaseDate: "2025-11-19",
+    coverUrl: '/movies_pictures/running_man.jpg',
+    releaseDate: '2025-11-19',
     length: 134,
     genre: ['Science Fiction'],
-    saga: "",
-    description: "",
-    fromEntity: { entityType: "book", title: "Running man", secondEntityKey: "Stephen King" },
+    saga: '',
+    description: '',
+    fromEntity: {
+      entityType: 'book',
+      title: 'Running man',
+      secondEntityKey: 'Stephen King',
+    },
     countryOrigin: ['États-Unis'],
   },
   {
@@ -4220,7 +4224,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     description: '',
     fromEntity: {
       entityType: 'game',
-      title: "Assassin's Creed II",
+      title: "Assassin's Creed",
       secondEntityKey: 'Ubisoft',
     },
     countryOrigin: ['États-Unis'],
@@ -4714,22 +4718,26 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     director: 'Aleksander Bach',
     actors: [
       {
-        name: "Rupert Friend",
+        name: 'Rupert Friend',
       },
       {
-        name: "Hannah Ware",
+        name: 'Hannah Ware',
       },
       {
-        name: "Zachary Quinto",
-      }
+        name: 'Zachary Quinto',
+      },
     ],
-    coverUrl: "/movies_pictures/hitman_agent_47.jpg",
-    releaseDate: "2015-08-26",
+    coverUrl: '/movies_pictures/hitman_agent_47.jpg',
+    releaseDate: '2015-08-26',
     length: 97,
     genre: ['Action'],
-    saga: "",
-    description: "",
-    fromEntity: { entityType: "game", title: "Hitman", secondEntityKey: "IO Interactive" },
+    saga: '',
+    description: '',
+    fromEntity: {
+      entityType: 'game',
+      title: 'Hitman',
+      secondEntityKey: 'IO Interactive',
+    },
     countryOrigin: ['États-Unis'],
   },
   {
@@ -5466,22 +5474,26 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     director: 'Thor Freudenthal',
     actors: [
       {
-        name: "Logan Lerman",
+        name: 'Logan Lerman',
       },
       {
-        name: "Alexandra Daddario",
+        name: 'Alexandra Daddario',
       },
       {
-        name: "Brandon T. Jackson",
-      }
+        name: 'Brandon T. Jackson',
+      },
     ],
-    coverUrl: "/movies_pictures/percy_jackson_sea_of_monsters.jpg",
-    releaseDate: "2013-08-14",
+    coverUrl: '/movies_pictures/percy_jackson_sea_of_monsters.jpg',
+    releaseDate: '2013-08-14',
     length: 106,
     genre: ['Aventure'],
-    saga: "Percy Jackson",
-    description: "",
-    fromEntity: { entityType: "book", title: "La Mer des monstres", secondEntityKey: "Rick Riordan" },
+    saga: 'Percy Jackson',
+    description: '',
+    fromEntity: {
+      entityType: 'book',
+      title: 'La Mer des monstres',
+      secondEntityKey: 'Rick Riordan',
+    },
     countryOrigin: ['États-Unis'],
   },
   {
@@ -6505,22 +6517,26 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     director: 'Xavier Gens',
     actors: [
       {
-        name: "Timothy Olyphant",
+        name: 'Timothy Olyphant',
       },
       {
-        name: "Dougray Scott",
+        name: 'Dougray Scott',
       },
       {
-        name: "Olga Kurylenko",
-      }
+        name: 'Olga Kurylenko',
+      },
     ],
-    coverUrl: "/movies_pictures/hitman.jpg",
-    releaseDate: "2007-12-26",
+    coverUrl: '/movies_pictures/hitman.jpg',
+    releaseDate: '2007-12-26',
     length: 92,
     genre: ['Action'],
-    saga: "",
-    description: "",
-    fromEntity: { entityType: "game", title: "Hitman", secondEntityKey: "IO Interactive" },
+    saga: '',
+    description: '',
+    fromEntity: {
+      entityType: 'game',
+      title: 'Hitman',
+      secondEntityKey: 'IO Interactive',
+    },
     countryOrigin: ['États-Unis'],
   },
   {
@@ -6690,25 +6706,29 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     director: 'Stefen Fangmeier',
     actors: [
       {
-        name: "Ed Speleers",
+        name: 'Ed Speleers',
       },
       {
-        name: "Jeremy Irons",
+        name: 'Jeremy Irons',
       },
       {
-        name: "Sienna Guillory",
+        name: 'Sienna Guillory',
       },
       {
-        name: "Djimon Hounsou",
-      }
+        name: 'Djimon Hounsou',
+      },
     ],
-    coverUrl: "/movies_pictures/eragon.jpg",
-    releaseDate: "2006-12-20",
+    coverUrl: '/movies_pictures/eragon.jpg',
+    releaseDate: '2006-12-20',
     length: 103,
     genre: ['Fantastique'],
-    saga: "",
-    description: "",
-    fromEntity: { entityType: "book", title: "Eragon (Eragon, #1)", secondEntityKey: "Christopher Paolini" },
+    saga: '',
+    description: '',
+    fromEntity: {
+      entityType: 'book',
+      title: 'Eragon (Eragon, #1)',
+      secondEntityKey: 'Christopher Paolini',
+    },
     countryOrigin: ['États-Unis'],
   },
   {
@@ -6942,7 +6962,11 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     genre: ['Comédie'],
     saga: '',
     description: '',
-    fromEntity: null,
+    fromEntity: {
+      entityType: 'comic',
+      title: 'The Mask',
+      secondEntityKey: 'John Arcudi',
+    },
     countryOrigin: ['États-Unis'],
   },
   {
@@ -6993,22 +7017,26 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     director: 'Philippe Haïm',
     actors: [
       {
-        name: "Nicolas Cage",
+        name: 'Nicolas Cage',
       },
       {
-        name: "Diane Kruger",
+        name: 'Diane Kruger',
       },
       {
-        name: "Justin Bartha",
-      }
+        name: 'Justin Bartha',
+      },
     ],
-    coverUrl: "/movies_pictures/lucky_luke_and_the_daltons.jpg",
-    releaseDate: "2004-12-08",
+    coverUrl: '/movies_pictures/lucky_luke_and_the_daltons.jpg',
+    releaseDate: '2004-12-08',
     length: 86,
     genre: ['Comédie'],
-    saga: "",
-    description: "",
-    fromEntity: { entityType: "bd", title: "Les Cousins Dalton", secondEntityKey: "Morris" },
+    saga: '',
+    description: '',
+    fromEntity: {
+      entityType: 'bd',
+      title: 'Les Cousins Dalton',
+      secondEntityKey: 'Morris',
+    },
     countryOrigin: ['France'],
   },
 
