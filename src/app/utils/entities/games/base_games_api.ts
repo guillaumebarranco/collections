@@ -97,7 +97,7 @@ export const baseGamesApi: BaseGame[] = [
     saga: "Harry Potter",
     platineTime: 0,
     description: "",
-    fromEntity: null,
+    fromEntity: { entityType: "book", title: "Harry Potter et la Chambre des secrets", secondEntityKey: "J.K. Rowling" },
   },
   {
     title: "Harry Potter à l'école des sorciers",
@@ -111,7 +111,7 @@ export const baseGamesApi: BaseGame[] = [
     saga: "Harry Potter",
     platineTime: 0,
     description: "",
-    fromEntity: null,
+    fromEntity: { entityType: "book", title: "Harry Potter à l'école des sorciers", secondEntityKey: "J.K. Rowling" },
   },
   {
     title: "Harry Potter et La Coupe de Feu",
@@ -125,7 +125,7 @@ export const baseGamesApi: BaseGame[] = [
     saga: "Harry Potter",
     platineTime: 0,
     description: "",
-    fromEntity: null,
+    fromEntity: { entityType: "book", title: "Harry Potter et la Coupe de feu", secondEntityKey: "J.K. Rowling" },
   },
   {
     title: "Pokemon version Ruby",
@@ -167,7 +167,7 @@ export const baseGamesApi: BaseGame[] = [
     saga: "Star Wars",
     platineTime: 0,
     description: "",
-    fromEntity: null,
+    fromEntity: { entityType: "movie", title: "Star Wars : Épisode 3 - La revanche des Sith", secondEntityKey: "George Lucas" },
   },
   {
     title: "Spider-Man 3",
@@ -181,7 +181,7 @@ export const baseGamesApi: BaseGame[] = [
     saga: "Spider-Man",
     platineTime: 0,
     description: "",
-    fromEntity: null,
+    fromEntity: { entityType: "comic", title: "Spider-Man", secondEntityKey: "J. Michael Straczynski" },
   },
   {
     title: "Les Urbz - Les Sims in the City",
@@ -209,7 +209,7 @@ export const baseGamesApi: BaseGame[] = [
     saga: "Star Wars",
     platineTime: 0,
     description: "",
-    fromEntity: null,
+    fromEntity: { entityType: "movie", title: "Star Wars : Episode 4 - Un nouvel espoir", secondEntityKey: "George Lucas" },
   },
   {
     title: "Custom Robo Arena",
@@ -321,7 +321,7 @@ export const baseGamesApi: BaseGame[] = [
     saga: "Dragon Ball",
     platineTime: 0,
     description: "",
-    fromEntity: null,
+    fromEntity: { entityType: "manga", title: "Dragon Ball", secondEntityKey: "Akira Toriyama" },
   },
   {
     title: "Dragon Ball Z: Supersonic Warriors 2",
@@ -335,7 +335,7 @@ export const baseGamesApi: BaseGame[] = [
     saga: "Dragon Ball",
     platineTime: 0,
     description: "",
-    fromEntity: null,
+    fromEntity: { entityType: "manga", title: "Dragon Ball", secondEntityKey: "Akira Toriyama" },
   },
   {
     title: "Eragon",
@@ -349,7 +349,7 @@ export const baseGamesApi: BaseGame[] = [
     saga: "",
     platineTime: 0,
     description: "",
-    fromEntity: null,
+    fromEntity: { entityType: "book", title: "Eragon (Eragon, #1)", secondEntityKey: "Christopher Paolini" },
   },
   {
     title: "FIFA 10",
@@ -391,7 +391,7 @@ export const baseGamesApi: BaseGame[] = [
     saga: "",
     platineTime: 0,
     description: "",
-    fromEntity: null,
+    fromEntity: { entityType: "serie", title: "Galactik Football", secondEntityKey: "Charles Barrez, Vincent Vandelli" },
   },
   {
     title: "Grand Theft Auto: Chinatown Wars",
@@ -433,7 +433,7 @@ export const baseGamesApi: BaseGame[] = [
     saga: "Harry Potter",
     platineTime: 0,
     description: "",
-    fromEntity: null,
+    fromEntity: { entityType: "book", title: "Harry Potter et la Coupe de feu", secondEntityKey: "J.K. Rowling" },
   },
   {
     title: "Harry Potter et l'Ordre du Phénix",
@@ -447,7 +447,7 @@ export const baseGamesApi: BaseGame[] = [
     saga: "Harry Potter",
     platineTime: 0,
     description: "",
-    fromEntity: null,
+    fromEntity: { entityType: "book", title: "Harry Potter et l'Ordre du Phénix", secondEntityKey: "J.K. Rowling" },
   },
   {
     title: "Harry Potter et le Prince de Sang Mêlé",
@@ -461,7 +461,7 @@ export const baseGamesApi: BaseGame[] = [
     saga: "Harry Potter",
     platineTime: 0,
     description: "",
-    fromEntity: null,
+    fromEntity: { entityType: "book", title: "Harry Potter et le Prince de sang-mêlé", secondEntityKey: "J.K. Rowling" },
   },
   {
     title: "Iron Man",
@@ -531,7 +531,7 @@ export const baseGamesApi: BaseGame[] = [
     saga: "LEGO",
     platineTime: 0,
     description: "",
-    fromEntity: null,
+    fromEntity: { entityType: "movie", title: "Indiana Jones et le Temple maudit", secondEntityKey: "Steven Spielberg" },
   },
   {
     title: "LEGO Star Wars : The Complete Saga",
@@ -545,7 +545,7 @@ export const baseGamesApi: BaseGame[] = [
     saga: "Star Wars",
     platineTime: 0,
     description: "",
-    fromEntity: null,
+    fromEntity: { entityType: "movie", title: "Star Wars : Episode 4 - Un nouvel espoir", secondEntityKey: "George Lucas" },
   },
   {
     title: "Mario & Sonic aux Jeux Olympiques",
@@ -629,7 +629,7 @@ export const baseGamesApi: BaseGame[] = [
     saga: "Naruto",
     platineTime: 0,
     description: "",
-    fromEntity: null,
+    fromEntity: { entityType: "manga", title: "Naruto", secondEntityKey: "Masashi Kishimoto" },
   },
   {
     title: "Naruto: Ninja Destiny 2",
@@ -643,7 +643,7 @@ export const baseGamesApi: BaseGame[] = [
     saga: "Naruto",
     platineTime: 0,
     description: "",
-    fromEntity: null,
+    fromEntity: { entityType: "manga", title: "Naruto", secondEntityKey: "Masashi Kishimoto" },
   },
   {
     title: "Naruto: Ninja Council 3",
@@ -657,7 +657,7 @@ export const baseGamesApi: BaseGame[] = [
     saga: "Naruto",
     platineTime: 0,
     description: "",
-    fromEntity: null,
+    fromEntity: { entityType: "manga", title: "Naruto", secondEntityKey: "Masashi Kishimoto" },
   },
   {
     title: "Naruto : Ninja Destiny",
@@ -671,7 +671,7 @@ export const baseGamesApi: BaseGame[] = [
     saga: "Naruto",
     platineTime: 0,
     description: "",
-    fromEntity: null,
+    fromEntity: { entityType: "manga", title: "Naruto", secondEntityKey: "Masashi Kishimoto" },
   },
   {
     title: "Need for Speed : Most Wanted (DS)",
@@ -741,7 +741,7 @@ export const baseGamesApi: BaseGame[] = [
     saga: "",
     platineTime: 0,
     description: "",
-    fromEntity: null,
+    fromEntity: { entityType: "movie", title: "Pirates des Caraïbes 3 : Jusqu'au Bout du Monde", secondEntityKey: "Gore Verbinski" },
   },
   {
     title: "Star Wars : Le Pouvoir de la Force",
@@ -755,7 +755,7 @@ export const baseGamesApi: BaseGame[] = [
     saga: "Star Wars",
     platineTime: 0,
     description: "",
-    fromEntity: null,
+    fromEntity: { entityType: "movie", title: "Star Wars : Episode 4 - Un nouvel espoir", secondEntityKey: "George Lucas" },
   },
   {
     title: "Trackmania DS",
