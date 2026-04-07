@@ -1420,4 +1420,19 @@ export const ronanBooks: UserBooks = [
     wantToReadAgain: false,
     ratingComment: '',
   },
+
+  {
+    title: "Songe d'une nuit d'été",
+    author: "William Shakespeare",
+    firstReadDate: '',
+    lastReadDate: '',
+    rating: 0,
+    readTimes: 1,
+    owned: false,
+    borrowed: '',
+    loaned: '',
+    readPriority: 1,
+    wantToReadAgain: false,
+    ratingComment: '',
+  },
 ];

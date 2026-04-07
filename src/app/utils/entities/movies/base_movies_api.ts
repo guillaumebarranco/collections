@@ -1170,4 +1170,31 @@ export const baseMoviesApi: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
   },
+
+  {
+    title: "Le Monde de Narnia : L'Odyssée du Passeur d'Aurore",
+    director: "Michael Apted",
+    actors: [
+      {
+        name: "Georgie Henley",
+      },
+      {
+        name: "Skandar Keynes",
+      },
+      {
+        name: "Ben Barnes",
+      },
+      {
+        name: "Will Poulter",
+      }
+    ],
+    coverUrl: "https://fr.web.img2.acsta.net/medias/nmedia/18/78/19/25/19539619.jpg",
+    releaseDate: "2010-12-08",
+    length: 117,
+    genre: ['Fantastique', 'Aventure'],
+    saga: "Le Monde de Narnia",
+    description: "",
+    fromEntity: { entityType: "book", title: "Le Monde de Narnia (Tome 5) L'Odyssée du Passeur d'Aurore", secondEntityKey: "C. S. Lewis" },
+    countryOrigin: ['États-Unis'],
+  },
 ];

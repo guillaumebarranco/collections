@@ -17152,4 +17152,21 @@ export const ronanMovies: UserMovies = [
     borrowed: '',
     loaned: '',
   },
+
+  {
+    title: "Le Monde de Narnia : L'Odyssée du Passeur d'Aurore",
+    director: "Michael Apted",
+    rating: 3,
+    timesWatched: 3,
+    firstViewedDate: "",
+    lastViewedDate: "",
+    seenAtCinema: false,
+    owned: false,
+    wantToSeeAgain: false,
+    watchPriority: 1,
+    ratingComment: "",
+    inList: [],
+    borrowed: "",
+    loaned: "",
+  },
 ];

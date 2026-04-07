@@ -6,16 +6,16 @@ export const baseMoviesSagaPage2: BaseMovie[] = [
     director: 'Denis Villeneuve',
     actors: [
       {
-        name: 'Timothée Chalamet',
-      },
+        name: "Timothée Chalamet",
+      }
     ],
-    coverUrl: '/movies_pictures/4633954.jpg',
-    releaseDate: '2021-10-22',
+    coverUrl: "/movies_pictures/4633954.jpg",
+    releaseDate: "2021-10-22",
     length: 155,
     genre: ['Science Fiction'],
-    saga: 'Dune',
-    description: '',
-    fromEntity: null,
+    saga: "Dune",
+    description: "",
+    fromEntity: { entityType: "book", title: "Dune", secondEntityKey: "Frank Herbert" },
     countryOrigin: ['États-Unis'],
   },
   {
@@ -23,16 +23,16 @@ export const baseMoviesSagaPage2: BaseMovie[] = [
     director: 'Denis Villeneuve',
     actors: [
       {
-        name: 'Timothée Chalamet',
-      },
+        name: "Timothée Chalamet",
+      }
     ],
-    coverUrl: '/movies_pictures/5392835.jpg',
-    releaseDate: '2024-03-01',
+    coverUrl: "/movies_pictures/5392835.jpg",
+    releaseDate: "2024-03-01",
     length: 166,
     genre: ['Science Fiction'],
-    saga: 'Dune',
-    description: '',
-    fromEntity: null,
+    saga: "Dune",
+    description: "",
+    fromEntity: { entityType: "book", title: "Dune", secondEntityKey: "Frank Herbert" },
     countryOrigin: ['États-Unis'],
   },
   {
