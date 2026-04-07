@@ -6,28 +6,32 @@ export const baseMoviesSagaPage1: BaseMovie[] = [
     director: 'Chris Columbus',
     actors: [
       {
-        name: "Daniel Radcliffe",
+        name: 'Daniel Radcliffe',
       },
       {
-        name: "Emma Watson",
+        name: 'Emma Watson',
       },
       {
-        name: "Rupert Grint",
+        name: 'Rupert Grint',
       },
       {
-        name: "Alan Rickman",
+        name: 'Alan Rickman',
       },
       {
-        name: "Richard Harris",
-      }
+        name: 'Richard Harris',
+      },
     ],
-    coverUrl: "/movies_pictures/harry_potter_ecole_des_sorciers.jpg",
-    releaseDate: "2001-11-16",
+    coverUrl: '/movies_pictures/harry_potter_ecole_des_sorciers.jpg',
+    releaseDate: '2001-11-16',
     length: 152,
     genre: ['Fantastique'],
-    saga: "Wizarding World",
-    description: "",
-    fromEntity: { entityType: "book", title: "Harry Potter à l'école des sorciers", secondEntityKey: "J.K. Rowling" },
+    saga: 'Wizarding World',
+    description: '',
+    fromEntity: {
+      entityType: 'book',
+      title: "Harry Potter à l'école des sorciers",
+      secondEntityKey: 'J.K. Rowling',
+    },
     countryOrigin: ['États-Unis'],
   },
   {
@@ -35,28 +39,32 @@ export const baseMoviesSagaPage1: BaseMovie[] = [
     director: 'Chris Columbus',
     actors: [
       {
-        name: "Daniel Radcliffe",
+        name: 'Daniel Radcliffe',
       },
       {
-        name: "Emma Watson",
+        name: 'Emma Watson',
       },
       {
-        name: "Rupert Grint",
+        name: 'Rupert Grint',
       },
       {
-        name: "Alan Rickman",
+        name: 'Alan Rickman',
       },
       {
-        name: "Richard Harris",
-      }
+        name: 'Richard Harris',
+      },
     ],
-    coverUrl: "/movies_pictures/harry_potter_chambre_des_secrets.jpg",
-    releaseDate: "2002-11-15",
+    coverUrl: '/movies_pictures/harry_potter_chambre_des_secrets.jpg',
+    releaseDate: '2002-11-15',
     length: 161,
     genre: ['Fantastique'],
-    saga: "Wizarding World",
-    description: "",
-    fromEntity: { entityType: "book", title: "Harry Potter et la Chambre des secrets", secondEntityKey: "J.K. Rowling" },
+    saga: 'Wizarding World',
+    description: '',
+    fromEntity: {
+      entityType: 'book',
+      title: 'Harry Potter et la Chambre des secrets',
+      secondEntityKey: 'J.K. Rowling',
+    },
     countryOrigin: ['États-Unis'],
   },
   {
@@ -64,16 +72,20 @@ export const baseMoviesSagaPage1: BaseMovie[] = [
     director: 'Alfonso Cuarón',
     actors: [
       {
-        name: "Daniel Radcliffe",
-      }
+        name: 'Daniel Radcliffe',
+      },
     ],
-    coverUrl: "/movies_pictures/harry_potter_prisonnier_askaban.jpg",
-    releaseDate: "2004-06-04",
+    coverUrl: '/movies_pictures/harry_potter_prisonnier_askaban.jpg',
+    releaseDate: '2004-06-04',
     length: 142,
     genre: ['Fantastique'],
-    saga: "Wizarding World",
-    description: "",
-    fromEntity: { entityType: "book", title: "Harry Potter et le Prisonnier d'Azkaban", secondEntityKey: "J.K. Rowling" },
+    saga: 'Wizarding World',
+    description: '',
+    fromEntity: {
+      entityType: 'book',
+      title: "Harry Potter et le Prisonnier d'Azkaban",
+      secondEntityKey: 'J.K. Rowling',
+    },
     countryOrigin: ['États-Unis'],
   },
   {
@@ -81,35 +93,39 @@ export const baseMoviesSagaPage1: BaseMovie[] = [
     director: 'Mike Newell',
     actors: [
       {
-        name: "Daniel Radcliffe",
+        name: 'Daniel Radcliffe',
       },
       {
-        name: "Emma Watson",
+        name: 'Emma Watson',
       },
       {
-        name: "Rupert Grint",
+        name: 'Rupert Grint',
       },
       {
-        name: "Alan Rickman",
+        name: 'Alan Rickman',
       },
       {
-        name: "Michael Gambon",
+        name: 'Michael Gambon',
       },
       {
-        name: "Robert Pattinson",
+        name: 'Robert Pattinson',
       },
       {
-        name: "Ralph Fiennes",
-      }
+        name: 'Ralph Fiennes',
+      },
     ],
     coverUrl:
-      "/movies_pictures/51450-harry-potter-and-the-goblet-of-fire-0-150-0-225-crop.jpg",
-    releaseDate: "2005-11-18",
+      '/movies_pictures/51450-harry-potter-and-the-goblet-of-fire-0-150-0-225-crop.jpg',
+    releaseDate: '2005-11-18',
     length: 157,
     genre: ['Fantastique'],
-    saga: "Wizarding World",
-    description: "",
-    fromEntity: { entityType: "book", title: "Harry Potter et la Coupe de feu", secondEntityKey: "J.K. Rowling" },
+    saga: 'Wizarding World',
+    description: '',
+    fromEntity: {
+      entityType: 'book',
+      title: 'Harry Potter et la Coupe de feu',
+      secondEntityKey: 'J.K. Rowling',
+    },
     countryOrigin: ['États-Unis'],
   },
   {
@@ -117,40 +133,44 @@ export const baseMoviesSagaPage1: BaseMovie[] = [
     director: 'David Yates',
     actors: [
       {
-        name: "Daniel Radcliffe",
+        name: 'Daniel Radcliffe',
       },
       {
-        name: "Emma Watson",
+        name: 'Emma Watson',
       },
       {
-        name: "Rupert Grint",
+        name: 'Rupert Grint',
       },
       {
-        name: "Alan Rickman",
+        name: 'Alan Rickman',
       },
       {
-        name: "Michael Gambon",
+        name: 'Michael Gambon',
       },
       {
-        name: "Ralph Fiennes",
+        name: 'Ralph Fiennes',
       },
       {
-        name: "Helena Bonham Carter",
+        name: 'Helena Bonham Carter',
       },
       {
-        name: "Gary Oldman",
+        name: 'Gary Oldman',
       },
       {
-        name: "Imelda Staunton",
-      }
+        name: 'Imelda Staunton',
+      },
     ],
-    coverUrl: "/movies_pictures/harry_potter_ordre_du_phenix.jpg",
-    releaseDate: "2007-07-11",
+    coverUrl: '/movies_pictures/harry_potter_ordre_du_phenix.jpg',
+    releaseDate: '2007-07-11',
     length: 138,
     genre: ['Fantastique'],
-    saga: "Wizarding World",
-    description: "",
-    fromEntity: { entityType: "book", title: "Harry Potter et l'Ordre du Phénix", secondEntityKey: "J.K. Rowling" },
+    saga: 'Wizarding World',
+    description: '',
+    fromEntity: {
+      entityType: 'book',
+      title: "Harry Potter et l'Ordre du Phénix",
+      secondEntityKey: 'J.K. Rowling',
+    },
     countryOrigin: ['États-Unis'],
   },
   {
@@ -158,32 +178,36 @@ export const baseMoviesSagaPage1: BaseMovie[] = [
     director: 'David Yates',
     actors: [
       {
-        name: "Daniel Radcliffe",
+        name: 'Daniel Radcliffe',
       },
       {
-        name: "Emma Watson",
+        name: 'Emma Watson',
       },
       {
-        name: "Rupert Grint",
+        name: 'Rupert Grint',
       },
       {
-        name: "Alan Rickman",
+        name: 'Alan Rickman',
       },
       {
-        name: "Michael Gambon",
+        name: 'Michael Gambon',
       },
       {
-        name: "Helena Bonham Carter",
-      }
+        name: 'Helena Bonham Carter',
+      },
     ],
     coverUrl:
-      "/movies_pictures/51385-harry-potter-and-the-half-blood-prince-0-150-0-225-crop.jpg",
-    releaseDate: "2009-07-15",
+      '/movies_pictures/51385-harry-potter-and-the-half-blood-prince-0-150-0-225-crop.jpg',
+    releaseDate: '2009-07-15',
     length: 153,
     genre: ['Fantastique'],
-    saga: "Wizarding World",
-    description: "",
-    fromEntity: { entityType: "book", title: "Harry Potter et le Prince de sang-mêlé", secondEntityKey: "J.K. Rowling" },
+    saga: 'Wizarding World',
+    description: '',
+    fromEntity: {
+      entityType: 'book',
+      title: 'Harry Potter et le Prince de sang-mêlé',
+      secondEntityKey: 'J.K. Rowling',
+    },
     countryOrigin: ['États-Unis'],
   },
   {
@@ -191,35 +215,39 @@ export const baseMoviesSagaPage1: BaseMovie[] = [
     director: 'David Yates',
     actors: [
       {
-        name: "Daniel Radcliffe",
+        name: 'Daniel Radcliffe',
       },
       {
-        name: "Emma Watson",
+        name: 'Emma Watson',
       },
       {
-        name: "Rupert Grint",
+        name: 'Rupert Grint',
       },
       {
-        name: "Helena Bonham Carter",
+        name: 'Helena Bonham Carter',
       },
       {
-        name: "Bill Nighy",
+        name: 'Bill Nighy',
       },
       {
-        name: "Imelda Staunton",
+        name: 'Imelda Staunton',
       },
       {
-        name: "Ralph Fiennes",
-      }
+        name: 'Ralph Fiennes',
+      },
     ],
     coverUrl:
-      "/movies_pictures/harry-potter-and-the-deathly-hallows-part-i-original-0-150-0-225-crop.jpg",
-    releaseDate: "2010-11-19",
+      '/movies_pictures/harry-potter-and-the-deathly-hallows-part-i-original-0-150-0-225-crop.jpg',
+    releaseDate: '2010-11-19',
     length: 146,
     genre: ['Fantastique'],
-    saga: "Wizarding World",
-    description: "",
-    fromEntity: { entityType: "book", title: "Harry Potter et les Reliques de la Mort", secondEntityKey: "J.K. Rowling" },
+    saga: 'Wizarding World',
+    description: '',
+    fromEntity: {
+      entityType: 'book',
+      title: 'Harry Potter et les Reliques de la Mort',
+      secondEntityKey: 'J.K. Rowling',
+    },
     countryOrigin: ['États-Unis'],
   },
   {
@@ -227,35 +255,39 @@ export const baseMoviesSagaPage1: BaseMovie[] = [
     director: 'David Yates',
     actors: [
       {
-        name: "Daniel Radcliffe",
+        name: 'Daniel Radcliffe',
       },
       {
-        name: "Emma Watson",
+        name: 'Emma Watson',
       },
       {
-        name: "Rupert Grint",
+        name: 'Rupert Grint',
       },
       {
-        name: "Alan Rickman",
+        name: 'Alan Rickman',
       },
       {
-        name: "Michael Gambon",
+        name: 'Michael Gambon',
       },
       {
-        name: "Ralph Fiennes",
+        name: 'Ralph Fiennes',
       },
       {
-        name: "Helena Bonham Carter",
-      }
+        name: 'Helena Bonham Carter',
+      },
     ],
     coverUrl:
-      "/movies_pictures/44580-harry-potter-and-the-deathly-hallows-part-2-0-150-0-225-crop.jpg",
-    releaseDate: "2011-07-15",
+      '/movies_pictures/44580-harry-potter-and-the-deathly-hallows-part-2-0-150-0-225-crop.jpg',
+    releaseDate: '2011-07-15',
     length: 130,
     genre: ['Fantastique'],
-    saga: "Wizarding World",
-    description: "",
-    fromEntity: { entityType: "book", title: "Harry Potter et les Reliques de la Mort", secondEntityKey: "J.K. Rowling" },
+    saga: 'Wizarding World',
+    description: '',
+    fromEntity: {
+      entityType: 'book',
+      title: 'Harry Potter et les Reliques de la Mort',
+      secondEntityKey: 'J.K. Rowling',
+    },
     countryOrigin: ['États-Unis'],
   },
   {
@@ -1035,17 +1067,21 @@ export const baseMoviesSagaPage1: BaseMovie[] = [
     director: 'Simon West',
     actors: [
       {
-        name: "Angelina Jolie",
-      }
+        name: 'Angelina Jolie',
+      },
     ],
     coverUrl:
-      "/movies_pictures/50617-lara-croft-tomb-raider-0-150-0-225-crop.jpg",
-    releaseDate: "2001-06-15",
+      '/movies_pictures/50617-lara-croft-tomb-raider-0-150-0-225-crop.jpg',
+    releaseDate: '2001-06-15',
     length: 100,
     genre: ['Action'],
-    saga: "Tomb Raider",
-    description: "",
-    fromEntity: { entityType: "game", title: "Tomb Raider : Definitive Edition", secondEntityKey: "Crystal Dynamics" },
+    saga: 'Tomb Raider',
+    description: '',
+    fromEntity: {
+      entityType: 'game',
+      title: 'Tomb Raider : Definitive Edition',
+      secondEntityKey: 'Crystal Dynamics',
+    },
     countryOrigin: ['États-Unis'],
   },
   {
@@ -1058,7 +1094,11 @@ export const baseMoviesSagaPage1: BaseMovie[] = [
     genre: ['Action'],
     saga: 'Tomb Raider',
     description: '',
-    fromEntity: null,
+    fromEntity: {
+      entityType: 'game',
+      title: 'Tomb Raider : Definitive Edition',
+      secondEntityKey: 'Crystal Dynamics',
+    },
     countryOrigin: ['États-Unis'],
   },
   {
@@ -1218,15 +1258,15 @@ export const baseMoviesSagaPage1: BaseMovie[] = [
     director: 'Ridley Scott',
     actors: [
       {
-        name: "Sigourney Weaver",
-      }
+        name: 'Sigourney Weaver',
+      },
     ],
-    coverUrl: "/movies_pictures/alien.jpg",
-    releaseDate: "1979-05-25",
+    coverUrl: '/movies_pictures/alien.jpg',
+    releaseDate: '1979-05-25',
     length: 117,
     genre: ['Science Fiction', 'Horreur'],
-    saga: "Alien",
-    description: "",
+    saga: 'Alien',
+    description: '',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
   },
@@ -1248,15 +1288,15 @@ export const baseMoviesSagaPage1: BaseMovie[] = [
     director: 'David Fincher',
     actors: [
       {
-        name: "Sigourney Weaver",
-      }
+        name: 'Sigourney Weaver',
+      },
     ],
-    coverUrl: "/movies_pictures/47888-alien-0-150-0-225-crop.jpg",
-    releaseDate: "1992-05-22",
+    coverUrl: '/movies_pictures/47888-alien-0-150-0-225-crop.jpg',
+    releaseDate: '1992-05-22',
     length: 114,
     genre: ['Science Fiction', 'Horreur'],
-    saga: "Alien",
-    description: "",
+    saga: 'Alien',
+    description: '',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
   },
@@ -1533,22 +1573,26 @@ export const baseMoviesSagaPage1: BaseMovie[] = [
     director: 'Francis Lawrence',
     actors: [
       {
-        name: "Jennifer Lawrence",
+        name: 'Jennifer Lawrence',
       },
       {
-        name: "Josh Hutcherson",
+        name: 'Josh Hutcherson',
       },
       {
-        name: "Liam Hemsworth",
-      }
+        name: 'Liam Hemsworth',
+      },
     ],
-    coverUrl: "/movies_pictures/the_hunger_games_catching_fire.jpg",
-    releaseDate: "2013-11-27",
+    coverUrl: '/movies_pictures/the_hunger_games_catching_fire.jpg',
+    releaseDate: '2013-11-27',
     length: 146,
     genre: ['Science Fiction'],
-    saga: "Hunger Games",
-    description: "",
-    fromEntity: { entityType: "book", title: "L'Embrasement", secondEntityKey: "Suzanne Collins" },
+    saga: 'Hunger Games',
+    description: '',
+    fromEntity: {
+      entityType: 'book',
+      title: "L'Embrasement",
+      secondEntityKey: 'Suzanne Collins',
+    },
     countryOrigin: ['États-Unis'],
   },
   {
@@ -1556,17 +1600,21 @@ export const baseMoviesSagaPage1: BaseMovie[] = [
     director: 'Francis Lawrence',
     actors: [
       {
-        name: "Jennifer Lawrence",
-      }
+        name: 'Jennifer Lawrence',
+      },
     ],
     coverUrl:
-      "/movies_pictures/101991-the-hunger-games-mockingjay-part-1-0-150-0-225-crop.jpg",
-    releaseDate: "2014-11-21",
+      '/movies_pictures/101991-the-hunger-games-mockingjay-part-1-0-150-0-225-crop.jpg',
+    releaseDate: '2014-11-21',
     length: 123,
     genre: ['Action'],
-    saga: "Hunger Games",
-    description: "",
-    fromEntity: { entityType: "book", title: "La Révolte", secondEntityKey: "Suzanne Collins" },
+    saga: 'Hunger Games',
+    description: '',
+    fromEntity: {
+      entityType: 'book',
+      title: 'La Révolte',
+      secondEntityKey: 'Suzanne Collins',
+    },
     countryOrigin: ['États-Unis'],
   },
   {
@@ -1574,22 +1622,26 @@ export const baseMoviesSagaPage1: BaseMovie[] = [
     director: 'Francis Lawrence',
     actors: [
       {
-        name: "Jennifer Lawrence",
+        name: 'Jennifer Lawrence',
       },
       {
-        name: "Josh Hutcherson",
+        name: 'Josh Hutcherson',
       },
       {
-        name: "Liam Hemsworth",
-      }
+        name: 'Liam Hemsworth',
+      },
     ],
-    coverUrl: "/movies_pictures/the_hunger_games_mockingjay_part_2.jpg",
-    releaseDate: "2015-11-18",
+    coverUrl: '/movies_pictures/the_hunger_games_mockingjay_part_2.jpg',
+    releaseDate: '2015-11-18',
     length: 137,
     genre: ['Science Fiction'],
-    saga: "Hunger Games",
-    description: "",
-    fromEntity: { entityType: "book", title: "La Révolte", secondEntityKey: "Suzanne Collins" },
+    saga: 'Hunger Games',
+    description: '',
+    fromEntity: {
+      entityType: 'book',
+      title: 'La Révolte',
+      secondEntityKey: 'Suzanne Collins',
+    },
     countryOrigin: ['États-Unis'],
   },
   {
@@ -1597,29 +1649,33 @@ export const baseMoviesSagaPage1: BaseMovie[] = [
     director: 'Francis Lawrence',
     actors: [
       {
-        name: "Tom Blyth",
+        name: 'Tom Blyth',
       },
       {
-        name: "Rachel Zegler",
+        name: 'Rachel Zegler',
       },
       {
-        name: "Peter Dinklage",
+        name: 'Peter Dinklage',
       },
       {
-        name: "Hunter Schafer",
+        name: 'Hunter Schafer',
       },
       {
-        name: "Jason Schwartzman",
-      }
+        name: 'Jason Schwartzman',
+      },
     ],
     coverUrl:
-      "/movies_pictures/hunger_games_la_ballade_du_serpent_et_de_loiseau_chanteur.jpg",
-    releaseDate: "2023-11-15",
+      '/movies_pictures/hunger_games_la_ballade_du_serpent_et_de_loiseau_chanteur.jpg',
+    releaseDate: '2023-11-15',
     length: 157,
     genre: ['Science Fiction'],
-    saga: "Hunger Games",
-    description: "",
-    fromEntity: { entityType: "book", title: "La Ballade du serpent et de l'oiseau chanteur", secondEntityKey: "Suzanne Collins" },
+    saga: 'Hunger Games',
+    description: '',
+    fromEntity: {
+      entityType: 'book',
+      title: "La Ballade du serpent et de l'oiseau chanteur",
+      secondEntityKey: 'Suzanne Collins',
+    },
     countryOrigin: ['États-Unis'],
   },
   {

@@ -4,8 +4,13 @@ import {
   computed,
   signal,
   ChangeDetectionStrategy,
+  inject,
+  DestroyRef,
 } from '@angular/core';
 import { CommonModule } from '@angular/common';
+import { Router, NavigationEnd } from '@angular/router';
+import { takeUntilDestroyed } from '@angular/core/rxjs-interop';
+import { filter } from 'rxjs/operators';
 import { MatTooltipModule } from '@angular/material/tooltip';
 import { MenuComponent } from '../../components/menu/menu.component';
 import {
@@ -28,6 +33,35 @@ import { getAllBaseManwhas } from '../../facades/manwhas/manwhas.facade';
 import { getAllBaseMangas } from '../../facades/mangas/mangas.facade';
 import { getAllBaseMovies } from '../../facades/movies/movies.facade';
 import { getAllBaseSeries } from '../../facades/series/series.facade';
+import { getLocalMoviesByUser } from '../../facades/movies/local-movies.facade';
+import {
+  getLocalBooksByUser,
+  getLocalReadlistByUser as getLocalBooksReadlistByUser,
+} from '../../facades/books/local-books.facade';
+import {
+  getLocalBdsByUser,
+  getLocalReadlistByUser as getLocalBdsReadlistByUser,
+} from '../../facades/bds/local-bds.facade';
+import {
+  getLocalComicsByUser,
+  getLocalReadlistByUser as getLocalComicsReadlistByUser,
+} from '../../facades/comics/local-comics.facade';
+import {
+  getLocalMangasByUser,
+  getLocalReadlistByUser as getLocalMangasReadlistByUser,
+} from '../../facades/mangas/local-mangas.facade';
+import {
+  getLocalManwhasByUser,
+  getLocalReadlistByUser as getLocalManwhasReadlistByUser,
+} from '../../facades/manwhas/local-manwhas.facade';
+import {
+  getLocalGamesByUser,
+  getLocalGamelistByUser,
+} from '../../facades/games/local-games.facade';
+import { getLocalSeriesByUser } from '../../facades/series/local-series.facade';
+import { AuthService } from '../../core/auth.service';
+import { ImpersonateService } from '../../services/impersonate.service';
+import { DEFAULT_USER_ID } from '../../utils/constants';
 import {
   getFullBd,
   getFullBook,
@@ -41,7 +75,7 @@ import {
 import { BaseBd } from '../../models/bd-model';
 import { BaseBook } from '../../models/book-model';
 import { BaseComic } from '../../models/comic-model';
-import { BaseGame } from '../../models/game-model';
+import { BaseGame, UserGame } from '../../models/game-model';
 import { BaseManwha } from '../../models/manwha-model';
 import { BaseManga } from '../../models/manga-model';
 import { BaseMovie } from '../../models/movie-model';
