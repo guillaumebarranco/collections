@@ -262,7 +262,7 @@ export const ronanComics: UserComics = [
     loaned: "",
   },
   {
-    title: "L'odyssée du mal",
+    title: "Justice League : L'odyssée du mal",
     writer: "Inconnu",
     readDate: "",
     rating: 3.5,
@@ -288,7 +288,7 @@ export const ronanComics: UserComics = [
     loaned: "",
   },
   {
-    title: "Aux origines",
+    title: "Justice League : Aux Origines",
     writer: "Inconnu",
     readDate: "",
     rating: 3.5,
@@ -431,7 +431,7 @@ export const ronanComics: UserComics = [
     loaned: "",
   },
   {
-    title: "Le trône d'Atlantide",
+    title: "Justice League : Le trône d'Atlantide",
     writer: "Inconnu",
     readDate: "",
     rating: 0,
@@ -600,7 +600,7 @@ export const ronanComics: UserComics = [
     loaned: "",
   },
   {
-    title: "Année un - 1re partie",
+    title: "Injustice : Année Un - 1ère partie",
     writer: "Inconnu",
     readDate: "",
     rating: 0,
@@ -1328,7 +1328,7 @@ export const ronanComics: UserComics = [
     loaned: "",
   },
   {
-    title: "Absolute Superman",
+    title: "Absolute Superman T.1",
     writer: "Jason Aaron",
     readDate: "",
     rating: 3.5,
@@ -1341,7 +1341,7 @@ export const ronanComics: UserComics = [
     loaned: "",
   },
   {
-    title: "Absolute Batman",
+    title: "Absolute Batman T.1",
     writer: "Scott Snyder",
     readDate: "",
     rating: 4,
@@ -1354,7 +1354,7 @@ export const ronanComics: UserComics = [
     loaned: "",
   },
   {
-    title: "Absolute Justice League Unlimited",
+    title: "Justice League Unlimited",
     writer: "Mark Waid",
     readDate: "",
     rating: 0,
@@ -3035,6 +3035,19 @@ export const ronanComics: UserComics = [
     writer: "Collectif",
     readDate: "",
     rating: 0,
+    readTimes: 1,
+    owned: true,
+    readPriority: 1,
+    wantToReadAgain: false,
+    ratingComment: "",
+    borrowed: "",
+    loaned: "",
+  },
+  {
+    title: "Absolute Wonder Woman T.1",
+    writer: "Kelly Thompson",
+    readDate: "2026-04-07",
+    rating: 3,
     readTimes: 1,
     owned: true,
     readPriority: 1,

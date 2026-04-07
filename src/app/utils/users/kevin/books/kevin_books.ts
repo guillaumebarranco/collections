@@ -1605,4 +1605,34 @@ export const kevinBooks: UserBooks = [
     ratingComment:
       'Très bon livre, très agréable à lire, il lui manque juste ces petits événements marquants et exceptionnels qui provoquent tant de sentiment, qui en aurait fait une pépite.',
   },
+
+  {
+    title: "La Peur du Sage (1/2)",
+    author: "Patrick Rothfuss",
+    firstReadDate: "2026-04-02",
+    lastReadDate: "2026-04-02",
+    rating: 5,
+    readTimes: 1,
+    owned: false,
+    borrowed: "",
+    loaned: "",
+    readPriority: 1,
+    wantToReadAgain: false,
+    ratingComment: "",
+  },
+
+  {
+    title: "La Peur du Sage (2/2)",
+    author: "Patrick Rothfuss",
+    firstReadDate: "2026-04-07",
+    lastReadDate: "2026-04-07",
+    rating: 5,
+    readTimes: 1,
+    owned: false,
+    borrowed: '',
+    loaned: '',
+    readPriority: 3,
+    wantToReadAgain: false,
+    ratingComment: "Tout ce qui manquait au premier tome se retrouve dans celui-là.",
+  },
 ];
