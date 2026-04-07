@@ -8,7 +8,7 @@ import {
   DestroyRef,
 } from '@angular/core';
 import { CommonModule } from '@angular/common';
-import { Router, NavigationEnd } from '@angular/router';
+import { Router, NavigationEnd, ActivatedRoute } from '@angular/router';
 import { takeUntilDestroyed } from '@angular/core/rxjs-interop';
 import { filter } from 'rxjs/operators';
 import { MatTooltipModule } from '@angular/material/tooltip';
@@ -201,7 +201,7 @@ export type BaseWorkGalaxy = {
   derivedGames: Game[];
 };
 
-/** Bloc affiché : saga de livres / saga de jeux regroupée ou œuvre isolée. */
+/** Bloc affiché : saga livres + BD + films catalogue / saga de jeux / œuvre isolée. */
 export type MixBaseWorksViewBlock =
   | {
       blockKind: 'bookSaga';
@@ -253,6 +253,82 @@ export type MixBaseWorkOrbitPanel = {
   };
   satellites: BaseWorkOrbitSatellite[];
 };
+
+/** Normalise pour recherche insensible aux accents et à la casse. */
+function normalizeForMixBaseSearch(raw: string): string {
+  return raw
+    .normalize('NFD')
+    .replace(/[\u0300-\u036f]/g, '')
+    .toLowerCase()
+    .trim();
+}
+
+function buildMixBaseWorkPanelSearchHaystack(panel: MixBaseWorkOrbitPanel): string {
+  const parts: string[] = [
+    panel.headerPrimaryLabel,
+    panel.orbitKey,
+    panel.sagaDisplayName ?? '',
+    panel.standaloneFromEntityType ?? '',
+    panel.blockKind,
+  ];
+  const c = panel.central;
+  if (c.placeholderTitle) parts.push(c.placeholderTitle);
+  if (c.placeholderSecond) parts.push(c.placeholderSecond);
+  if (c.placeholderEntityType) parts.push(c.placeholderEntityType);
+  if (c.book) {
+    parts.push(c.book.title, c.book.author, c.book.saga ?? '');
+  }
+  if (c.bd) {
+    parts.push(c.bd.title, c.bd.writer, c.bd.saga ?? '');
+  }
+  if (c.comic) {
+    parts.push(c.comic.title, c.comic.writer, c.comic.saga ?? '');
+  }
+  if (c.manga) {
+    parts.push(c.manga.title, c.manga.author);
+  }
+  if (c.manwha) {
+    parts.push(c.manwha.title, c.manwha.author);
+  }
+  if (c.game) {
+    parts.push(c.game.title, c.game.editor, c.game.saga ?? '');
+  }
+  if (c.serie) {
+    parts.push(c.serie.title, c.serie.director, c.serie.saga ?? '');
+  }
+  if (c.movie) {
+    parts.push(c.movie.title, c.movie.director, c.movie.saga ?? '');
+  }
+  for (const sat of panel.satellites) {
+    switch (sat.kind) {
+      case 'book':
+        parts.push(sat.data.title, sat.data.author, sat.data.saga ?? '');
+        break;
+      case 'movie':
+        parts.push(sat.data.title, sat.data.director, sat.data.saga ?? '');
+        break;
+      case 'serie':
+        parts.push(sat.data.title, sat.data.director, sat.data.saga ?? '');
+        break;
+      case 'game':
+        parts.push(sat.data.title, sat.data.editor, sat.data.saga ?? '');
+        break;
+      case 'bd':
+        parts.push(sat.data.title, sat.data.writer, sat.data.saga ?? '');
+        break;
+      case 'comic':
+        parts.push(sat.data.title, sat.data.writer, sat.data.saga ?? '');
+        break;
+      case 'manga':
+        parts.push(sat.data.title, sat.data.author);
+        break;
+      case 'manwha':
+        parts.push(sat.data.title, sat.data.author);
+        break;
+    }
+  }
+  return normalizeForMixBaseSearch(parts.filter(Boolean).join(' '));
+}
 
 /** Couverture + texte d’infobulle pour les vignettes orbite. */
 export type MixOrbitCoverInfo = {
@@ -318,6 +394,126 @@ function bookEntityKey(b: Book): string {
   return `${b.title}|${b.author}`;
 }
 
+function bdEntityKey(b: Bd): string {
+  return `${b.title}|${b.writer}`;
+}
+
+function comicEntityKey(c: Comic): string {
+  return `${c.title}|${c.writer}`;
+}
+
+function mangaEntityKey(m: Manga): string {
+  return `${m.title}|${m.author}`;
+}
+
+function manwhaEntityKey(m: Manwha): string {
+  return `${m.title}|${m.author}`;
+}
+
+/** Clés des œuvres effectivement vues / lues / jouées (hors wishlists seules). */
+type UserBaseGalaxyConsumption = {
+  movies: Set<string>;
+  series: Set<string>;
+  games: Set<string>;
+  books: Set<string>;
+  bds: Set<string>;
+  comics: Set<string>;
+  mangas: Set<string>;
+  manwhas: Set<string>;
+};
+
+type WithReadTimes = { readTimes?: number };
+
+function mergeConsumedKeysByReadTimes<T extends WithReadTimes>(
+  primary: T[],
+  readlist: T[],
+  keyFn: (row: T) => string
+): Set<string> {
+  const map = new Map<string, T>();
+  const ingest = (arr: T[]) => {
+    for (const row of arr) {
+      const k = keyFn(row);
+      const prev = map.get(k);
+      const rt = row.readTimes ?? 0;
+      const pr = prev?.readTimes ?? 0;
+      if (!prev || rt > pr) {
+        map.set(k, row);
+      }
+    }
+  };
+  ingest(primary);
+  ingest(readlist);
+  const out = new Set<string>();
+  for (const [k, row] of map) {
+    if ((row.readTimes ?? 0) > 0) {
+      out.add(k);
+    }
+  }
+  return out;
+}
+
+function buildUserBaseGalaxyConsumption(uid: string): UserBaseGalaxyConsumption {
+  const movies = new Set(
+    getLocalMoviesByUser(uid).map((m) => `${m.title}|${m.director}`)
+  );
+  const series = new Set<string>();
+  for (const s of getLocalSeriesByUser(uid)) {
+    if (s.seasons?.some((se) => (se.seasonTimesWatched ?? 0) > 0)) {
+      series.add(`${s.title}|${s.director}`);
+    }
+  }
+  const gameMap = new Map<string, UserGame>();
+  const ingestGames = (arr: UserGame[]) => {
+    for (const g of arr) {
+      const k = `${g.title}|${g.editor}`;
+      const prev = gameMap.get(k);
+      const sc = g.sessions?.length ?? 0;
+      const psc = prev?.sessions?.length ?? 0;
+      if (!prev || sc > psc) {
+        gameMap.set(k, g);
+      }
+    }
+  };
+  ingestGames(getLocalGamesByUser(uid));
+  ingestGames(getLocalGamelistByUser(uid));
+  const games = new Set<string>();
+  for (const [k, g] of gameMap) {
+    if (g.sessions && g.sessions.length > 0) {
+      games.add(k);
+    }
+  }
+  return {
+    movies,
+    series,
+    games,
+    books: mergeConsumedKeysByReadTimes(
+      getLocalBooksByUser(uid),
+      getLocalBooksReadlistByUser(uid),
+      (b) => `${b.title}|${b.author}`
+    ),
+    bds: mergeConsumedKeysByReadTimes(
+      getLocalBdsByUser(uid),
+      getLocalBdsReadlistByUser(uid),
+      (b) => `${b.title}|${b.writer}`
+    ),
+    comics: mergeConsumedKeysByReadTimes(
+      getLocalComicsByUser(uid),
+      getLocalComicsReadlistByUser(uid),
+      (c) => `${c.title}|${c.writer}`
+    ),
+    mangas: mergeConsumedKeysByReadTimes(
+      getLocalMangasByUser(uid),
+      getLocalMangasReadlistByUser(uid),
+      (m) => `${m.title}|${m.author}`
+    ),
+    manwhas: mergeConsumedKeysByReadTimes(
+      getLocalManwhasByUser(uid),
+      getLocalManwhasReadlistByUser(uid),
+      (m) => `${m.title}|${m.author}`
+    ),
+  };
+}
+
 function mergeDedupeMovies(lists: Movie[][]): Movie[] {
   const map = new Map<string, Movie>();
   for (const arr of lists) {
@@ -348,22 +544,79 @@ function mergeDedupeGames(lists: Game[][]): Game[] {
   return [...map.values()].sort((a, b) => a.title.localeCompare(b.title, 'fr'));
 }
 
-/** Tome 1 de la saga : sagaOrder === 1, sinon plus petit sagaOrder, sinon premier livre. */
-function pickCentralGalaxyForBookSaga(
+/**
+ * Tome 1 de la franchise : sagaOrder === 1 (livre ou BD), sinon plus petit sagaOrder.
+ * Sans livre ni BD : film le plus ancien (saga ciné partagée).
+ */
+function pickCentralGalaxyForFranchiseSaga(
   galaxies: BaseWorkGalaxy[]
 ): BaseWorkGalaxy {
-  const withBook = galaxies.filter((g) => g.book);
-  if (withBook.length === 0) {
-    return galaxies[0];
+  type Scored = { g: BaseWorkGalaxy; order: number };
+  const scored: Scored[] = [];
+  for (const g of galaxies) {
+    if (g.book) {
+      scored.push({ g, order: g.book.sagaOrder ?? 9999 });
+    } else if (g.bd) {
+      scored.push({ g, order: g.bd.sagaOrder ?? 9999 });
+    }
   }
-  const order1 = withBook.find((g) => (g.book!.sagaOrder ?? 0) === 1);
-  if (order1) {
-    return order1;
+  if (scored.length > 0) {
+    const order1 = scored.find((s) => s.order === 1);
+    if (order1) {
+      return order1.g;
+    }
+    return [...scored].sort((a, b) => {
+      if (a.order !== b.order) {
+        return a.order - b.order;
+      }
+      return a.g.sourceTitle.localeCompare(b.g.sourceTitle, 'fr');
+    })[0].g;
   }
-  return [...withBook].sort(
-    (a, b) =>
-      (a.book!.sagaOrder ?? 9999) - (b.book!.sagaOrder ?? 9999)
-  )[0];
+  const withMovie = galaxies.filter((g) => g.movie);
+  if (withMovie.length > 0) {
+    return [...withMovie].sort((a, b) => {
+      const da = movieReleaseDateMs(a.movie!);
+      const db = movieReleaseDateMs(b.movie!);
+      if (da !== db) return da - db;
+      return a.sourceTitle.localeCompare(b.sourceTitle, 'fr');
+    })[0];
+  }
+  return galaxies[0];
+}
+
+/** Livres + BD d’une même saga, triés par sagaOrder puis titre. */
+function mergeVolumeSatellitesSorted(
+  otherBooks: Book[],
+  otherBds: Bd[]
+): BaseWorkOrbitSatellite[] {
+  type Tagged =
+    | { kind: 'book'; data: Book; order: number; title: string }
+    | { kind: 'bd'; data: Bd; order: number; title: string };
+  const tagged: Tagged[] = [
+    ...otherBooks.map((data) => ({
+      kind: 'book' as const,
+      data,
+      order: data.sagaOrder ?? 9999,
+      title: data.title,
+    })),
+    ...otherBds.map((data) => ({
+      kind: 'bd' as const,
+      data,
+      order: data.sagaOrder ?? 9999,
+      title: data.title,
+    })),
+  ];
+  tagged.sort((a, b) => {
+    if (a.order !== b.order) {
+      return a.order - b.order;
+    }
+    return a.title.localeCompare(b.title, 'fr');
+  });
+  return tagged.map((t) =>
+    t.kind === 'book'
+      ? { kind: 'book' as const, data: t.data }
+      : { kind: 'bd' as const, data: t.data }
+  );
 }
 
 /** Clé de regroupement saga jeu (tolère chaînes mal copiées du type `saga: "Nom",`). */
@@ -385,6 +638,13 @@ function displayGameSagaName(raw: string | undefined | null): string {
 
 function gameReleaseDateMs(game: Game): number {
   const d = game.releaseDate?.trim();
+  if (!d) return Number.MAX_SAFE_INTEGER;
+  const ms = Date.parse(d);
+  return Number.isNaN(ms) ? Number.MAX_SAFE_INTEGER : ms;
+}
+
+function movieReleaseDateMs(movie: Movie): number {
+  const d = movie.releaseDate?.trim();
   if (!d) return Number.MAX_SAFE_INTEGER;
   const ms = Date.parse(d);
   return Number.isNaN(ms) ? Number.MAX_SAFE_INTEGER : ms;
@@ -567,11 +827,11 @@ function baseWorksBlockToOrbitPanel(
   }
 
   const galaxies = block.galaxies;
-  const centralGalaxy = pickCentralGalaxyForBookSaga(galaxies);
+  const centralGalaxy = pickCentralGalaxyForFranchiseSaga(galaxies);
   const centralBook = centralGalaxy.book;
-  const centralKey = centralBook ? bookEntityKey(centralBook) : '';
+  const centralKeyBook = centralBook ? bookEntityKey(centralBook) : '';
 
-  /** Tous les tomes du catalogue dans cette saga (y compris sans adaptation). */
+  /** Tous les tomes livre du catalogue dans cette saga (y compris sans adaptation). */
   const sagaKeyNorm = block.sagaKey;
   const booksInSagaCatalog = allBaseBooks.filter(
     (bb) => bb.saga?.trim().toLowerCase() === sagaKeyNorm
@@ -581,7 +841,7 @@ function baseWorksBlockToOrbitPanel(
   const bookSeen = new Set<string>();
   const pushBookIfNew = (b: Book): void => {
     const k = bookEntityKey(b);
-    if (centralKey && k === centralKey) return;
+    if (centralKeyBook && k === centralKeyBook) return;
     if (bookSeen.has(k)) return;
     bookSeen.add(k);
     otherBooks.push(b);
@@ -613,8 +873,11 @@ function baseWorksBlockToOrbitPanel(
     .map((bg) => getFullGame(bg));
   games = mergeDedupeGames([games, sagaGamesFromCatalog]);
 
+  /** Pas d’autres tomes BD sur l’anneau (évite des sagas énormes type Lucky Luke) : seul le tome 1 reste au centre. */
+  const volumeSatellites = mergeVolumeSatellitesSorted(otherBooks, []);
+
   const satellites: BaseWorkOrbitSatellite[] = [
-    ...otherBooks.map((data) => ({ kind: 'book' as const, data })),
+    ...volumeSatellites,
     ...movies.map((data) => ({ kind: 'movie' as const, data })),
     ...series.map((data) => ({ kind: 'serie' as const, data })),
     ...games.map((data) => ({ kind: 'game' as const, data })),
@@ -653,6 +916,14 @@ function baseWorksBlockToOrbitPanel(
   changeDetection: ChangeDetectionStrategy.OnPush,
 })
 export class MixComponent implements OnInit {
+  private readonly router = inject(Router);
+  private readonly destroyRef = inject(DestroyRef);
+  private readonly authService = inject(AuthService);
+  private readonly impersonateService = inject(ImpersonateService);
+
+  /** Incrémenté à chaque navigation pour recalculer l’utilisateur depuis l’URL (`/:id/...`). */
+  private readonly routeUserRefreshNonce = signal(0);
+
   readonly baseBooks = signal<BaseBook[]>([]);
   readonly baseBds = signal<BaseBd[]>([]);
   readonly baseComics = signal<BaseComic[]>([]);
@@ -666,8 +937,44 @@ export class MixComponent implements OnInit {
   readonly selectedAdaptationSource = signal<MixAdaptationSource>('book');
   readonly isLoading = signal<boolean>(true);
 
+  /**
+   * Désactivé par défaut. Activé : atténue les vignettes que l’utilisateur effectif
+   * n’a pas vue / lue / jouée (collections locales, mêmes règles que les fiches).
+   */
+  readonly emphasizeMyConsumedWorks = signal(false);
+
   readonly primaryViewOptions = mixPrimaryOptions;
   readonly adaptationSourceOptions = mixAdaptationSourceOptions;
+
+  constructor() {
+    this.router.events
+      .pipe(
+        filter((e): e is NavigationEnd => e instanceof NavigationEnd),
+        takeUntilDestroyed(this.destroyRef)
+      )
+      .subscribe(() => this.routeUserRefreshNonce.update((n) => n + 1));
+  }
+
+  /** Utilisateur dont on applique les collections (impersonation, route, auth, défaut). */
+  readonly effectiveUserIdLower = computed(() => {
+    this.routeUserRefreshNonce();
+    this.impersonateService.impersonatedUserId();
+    this.authService.userId();
+    const imp = this.impersonateService.impersonatedUserId();
+    if (imp) {
+      return imp;
+    }
+    const routeId = this.getRouteUserIdFromRouter();
+    if (routeId) {
+      return routeId.toLowerCase();
+    }
+    const auth = this.authService.getAuthenticatedUserId();
+    return auth ? auth.toLowerCase() : DEFAULT_USER_ID;
+  });
+
+  readonly userBaseGalaxyConsumption = computed(() =>
+    buildUserBaseGalaxyConsumption(this.effectiveUserIdLower())
+  );
 
   readonly showAdaptationSourceTabs = computed(
     () =>
@@ -989,7 +1296,9 @@ export class MixComponent implements OnInit {
 
   /**
    * Vue « Œuvres de base » : chaque cible de fromEntity (film/série/jeu) avec ses dérivés.
-   * Les livres partageant une saga non vide sont regroupés sous le nom de la saga.
+   * Les livres, les BD et les films catalogue partageant une même saga non vide sont regroupés ;
+   * les hubs « jeu → film » dont le film catalogue a la même saga (ex. Star Wars) fusionnent
+   * dans ce bloc au lieu de rester isolés.
    */
   readonly mixBaseWorksBlocks = computed<MixBaseWorksViewBlock[]>(() => {
     type MutableGalaxy = {
@@ -1103,7 +1412,8 @@ export class MixComponent implements OnInit {
       }
     }
 
-    const sagaBookMap = new Map<
+    /** Franchise partagée : livres (saga) + films catalogue (movie.saga), même clé normalisée. */
+    const franchiseSagaMap = new Map<
       string,
       { sagaDisplayName: string; galaxies: BaseWorkGalaxy[] }
     >();
@@ -1132,16 +1442,33 @@ export class MixComponent implements OnInit {
         derivedGames: g.derivedGames,
       };
 
-      const sagaTrim = galaxy.book?.saga?.trim();
+      const bookSagaTrim = galaxy.book?.saga?.trim();
+      const bdSagaTrim = galaxy.bd?.saga?.trim();
+      const movieSagaTrim = galaxy.movie?.saga?.trim();
       const gameSagaKey = normalizedGameSagaKey(galaxy.game?.saga);
-      if (galaxy.fromEntityType === 'book' && sagaTrim) {
-        const sk = sagaTrim.toLowerCase();
-        let entry = sagaBookMap.get(sk);
+
+      const addToFranchiseSaga = (
+        sagaDisplay: string,
+        gal: BaseWorkGalaxy
+      ): void => {
+        const sk = sagaDisplay.trim().toLowerCase();
+        let entry = franchiseSagaMap.get(sk);
         if (!entry) {
-          entry = { sagaDisplayName: sagaTrim, galaxies: [] };
-          sagaBookMap.set(sk, entry);
+          entry = { sagaDisplayName: sagaDisplay.trim(), galaxies: [] };
+          franchiseSagaMap.set(sk, entry);
         }
-        entry.galaxies.push(galaxy);
+        entry.galaxies.push(gal);
+      };
+
+      if (galaxy.fromEntityType === 'book' && bookSagaTrim) {
+        addToFranchiseSaga(bookSagaTrim, galaxy);
+      } else if (
+        galaxy.fromEntityType === 'movie' &&
+        movieSagaTrim
+      ) {
+        addToFranchiseSaga(movieSagaTrim, galaxy);
+      } else if (galaxy.fromEntityType === 'bd' && bdSagaTrim) {
+        addToFranchiseSaga(bdSagaTrim, galaxy);
       } else if (
         galaxy.fromEntityType === 'game' &&
         galaxy.game &&
@@ -1161,22 +1488,42 @@ export class MixComponent implements OnInit {
       }
     }
 
-    const sagaBlocks: MixBaseWorksViewBlock[] = Array.from(sagaBookMap.entries()).map(
-      ([, entry]) => {
-        entry.galaxies.sort((a, b) => {
-          const ao = a.book?.sagaOrder ?? 0;
-          const bo = b.book?.sagaOrder ?? 0;
+    const sagaBlocks: MixBaseWorksViewBlock[] = Array.from(
+      franchiseSagaMap.entries()
+    ).map(([sagaKey, entry]) => {
+      entry.galaxies.sort((a, b) => {
+        const aBook = a.book != null ? 1 : 0;
+        const bBook = b.book != null ? 1 : 0;
+        if (aBook !== bBook) {
+          return bBook - aBook;
+        }
+        if (a.book && b.book) {
+          const ao = a.book.sagaOrder ?? 9999;
+          const bo = b.book.sagaOrder ?? 9999;
           if (ao !== bo) return ao - bo;
-          return a.sourceTitle.localeCompare(b.sourceTitle, 'fr');
-        });
-        return {
-          blockKind: 'bookSaga' as const,
-          sagaKey: entry.sagaDisplayName.toLowerCase(),
-          sagaDisplayName: entry.sagaDisplayName,
-          galaxies: entry.galaxies,
-        };
-      }
-    );
+        }
+        const aBd = a.bd != null ? 1 : 0;
+        const bBd = b.bd != null ? 1 : 0;
+        if (aBd !== bBd) {
+          return bBd - aBd;
+        }
+        if (a.bd && b.bd) {
+          const ao = a.bd.sagaOrder ?? 9999;
+          const bo = b.bd.sagaOrder ?? 9999;
+          if (ao !== bo) return ao - bo;
+        }
+        const ar = a.movie ? movieReleaseDateMs(a.movie) : Number.MAX_SAFE_INTEGER;
+        const br = b.movie ? movieReleaseDateMs(b.movie) : Number.MAX_SAFE_INTEGER;
+        if (ar !== br) return ar - br;
+        return a.sourceTitle.localeCompare(b.sourceTitle, 'fr');
+      });
+      return {
+        blockKind: 'bookSaga' as const,
+        sagaKey,
+        sagaDisplayName: entry.sagaDisplayName,
+        galaxies: entry.galaxies,
+      };
+    });
 
     const gameSagaBlocks: MixBaseWorksViewBlock[] = Array.from(
       sagaGameMap.entries()
@@ -1240,6 +1587,22 @@ export class MixComponent implements OnInit {
       return a.headerPrimaryLabel.localeCompare(b.headerPrimaryLabel, 'fr');
     });
   });
+
+  /** Texte de recherche sur les blocs Œuvres de base (titres, sagas, orbite). */
+  readonly baseWorksSearchQuery = signal('');
+
+  readonly mixBaseWorkOrbitPanelsFiltered = computed<MixBaseWorkOrbitPanel[]>(
+    () => {
+      const panels = this.mixBaseWorkOrbitPanels();
+      const needle = normalizeForMixBaseSearch(this.baseWorksSearchQuery());
+      if (!needle) {
+        return panels;
+      }
+      return panels.filter((p) =>
+        buildMixBaseWorkPanelSearchHaystack(p).includes(needle)
+      );
+    }
+  );
 
   readonly collapsedSections = signal<Record<string, boolean>>({});
 
@@ -1451,6 +1814,104 @@ export class MixComponent implements OnInit {
       return 'œuvre';
     }
     return mixOrbitEntityKindLabel(entityType);
+  }
+
+  onEmphasizeConsumedToggle(event: Event): void {
+    const input = event.target as HTMLInputElement | null;
+    if (!input) {
+      return;
+    }
+    this.emphasizeMyConsumedWorks.set(input.checked);
+  }
+
+  onBaseWorksSearchInput(event: Event): void {
+    const el = event.target as HTMLInputElement | null;
+    this.baseWorksSearchQuery.set(el?.value ?? '');
+  }
+
+  /** Vignette centrale atténuée (toggle actif + œuvre absente des collections « consommées »). */
+  orbitCentralIsDimmed(central: MixBaseWorkOrbitPanel['central']): boolean {
+    if (!this.emphasizeMyConsumedWorks()) {
+      return false;
+    }
+    return !this.isCentralConsumed(
+      central,
+      this.userBaseGalaxyConsumption()
+    );
+  }
+
+  orbitSatelliteIsDimmed(sat: BaseWorkOrbitSatellite): boolean {
+    if (!this.emphasizeMyConsumedWorks()) {
+      return false;
+    }
+    return !this.isSatelliteConsumed(sat, this.userBaseGalaxyConsumption());
+  }
+
+  private getRouteUserIdFromRouter(): string | null {
+    let route: ActivatedRoute | null = this.router.routerState.root;
+    while (route) {
+      const id = route.snapshot.params['id'];
+      if (id) {
+        return String(id);
+      }
+      route = route.firstChild;
+    }
+    return null;
+  }
+
+  private isCentralConsumed(
+    central: MixBaseWorkOrbitPanel['central'],
+    c: UserBaseGalaxyConsumption
+  ): boolean {
+    if (central.book) {
+      return c.books.has(bookEntityKey(central.book));
+    }
+    if (central.bd) {
+      return c.bds.has(bdEntityKey(central.bd));
+    }
+    if (central.comic) {
+      return c.comics.has(comicEntityKey(central.comic));
+    }
+    if (central.manga) {
+      return c.mangas.has(mangaEntityKey(central.manga));
+    }
+    if (central.manwha) {
+      return c.manwhas.has(manwhaEntityKey(central.manwha));
+    }
+    if (central.game) {
+      return c.games.has(gameEntityKey(central.game));
+    }
+    if (central.serie) {
+      return c.series.has(serieEntityKey(central.serie));
+    }
+    if (central.movie) {
+      return c.movies.has(movieEntityKey(central.movie));
+    }
+    return false;
+  }
+
+  private isSatelliteConsumed(
+    sat: BaseWorkOrbitSatellite,
+    c: UserBaseGalaxyConsumption
+  ): boolean {
+    switch (sat.kind) {
+      case 'book':
+        return c.books.has(bookEntityKey(sat.data));
+      case 'bd':
+        return c.bds.has(bdEntityKey(sat.data));
+      case 'comic':
+        return c.comics.has(comicEntityKey(sat.data));
+      case 'manga':
+        return c.mangas.has(mangaEntityKey(sat.data));
+      case 'manwha':
+        return c.manwhas.has(manwhaEntityKey(sat.data));
+      case 'game':
+        return c.games.has(gameEntityKey(sat.data));
+      case 'serie':
+        return c.series.has(serieEntityKey(sat.data));
+      case 'movie':
+        return c.movies.has(movieEntityKey(sat.data));
+    }
   }
 
   ngOnInit(): void {

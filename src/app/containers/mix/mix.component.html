@@ -736,7 +736,40 @@
       vers un tome précis. Classement des blocs par volume total de dérivés. Sur
       petit écran, l’orbite s’affiche en liste.
     </p>
-    @for (panel of mixBaseWorkOrbitPanels(); track
+    <div class="mix-base-works-toolbar">
+      <div class="mix-base-works-search">
+        <label
+          class="mix-base-works-search__label"
+          for="mix-base-works-search-input"
+          >Rechercher</label
+        >
+        <input
+          id="mix-base-works-search-input"
+          type="search"
+          class="mix-base-works-search__input"
+          placeholder="Saga, titre, auteur, réalisateur…"
+          [value]="baseWorksSearchQuery()"
+          (input)="onBaseWorksSearchInput($event)"
+          autocomplete="off"
+          spellcheck="false"
+        />
+      </div>
+      <div>
+        <label class="mix-base-works-consumed-toggle">
+          <input
+            type="checkbox"
+            [checked]="emphasizeMyConsumedWorks()"
+            (change)="onEmphasizeConsumedToggle($event)"
+          />
+          <span>Montrer mes œuvres vues/lues/jouées</span>
+        </label>
+      </div>
+    </div>
+    @if (mixBaseWorkOrbitPanelsFiltered().length === 0) {
+    <p class="mix-empty mix-base-works-no-results">
+      Aucun bloc ne correspond à « {{ baseWorksSearchQuery() }} ».
+    </p>
+    } @else { @for (panel of mixBaseWorkOrbitPanelsFiltered(); track
     trackBaseWorkOrbitPanel(panel)) {
     <section
       class="mix-section"
@@ -794,6 +827,9 @@
             @let centralCov = orbitCentralCover(panel.central);
             <div
               class="mix-base-orbit-center-card mix-orbit-cover mix-orbit-cover--center"
+              [class.mix-orbit-cover--dimmed]="
+                orbitCentralIsDimmed(panel.central)
+              "
             >
               <button
                 type="button"
@@ -825,7 +861,10 @@
             @for (sat of panel.satellites; track trackOrbitSatellite(sat,
             $index)) { @let satCov = orbitSatelliteCover(sat);
             <li class="mix-base-orbit-slot" [style.--orbit-i]="$index">
-              <div class="mix-base-orbit-satellite-card mix-orbit-cover">
+              <div
+                class="mix-base-orbit-satellite-card mix-orbit-cover"
+                [class.mix-orbit-cover--dimmed]="orbitSatelliteIsDimmed(sat)"
+              >
                 <button
                   type="button"
                   class="mix-orbit-cover__btn"
@@ -854,7 +893,7 @@
       </div>
       }
     </section>
-    } }
+    } } }
   </div>
   }
 </div>

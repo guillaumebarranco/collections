@@ -451,24 +451,24 @@ export const baseMoviesFromMarina: BaseMovie[] = [
     director: 'Jeff Wadlow',
     actors: [
       {
-        name: "Lucy Hale",
+        name: 'Lucy Hale',
       },
       {
-        name: "Tyler Posey",
+        name: 'Tyler Posey',
       },
       {
-        name: "Violett Beane",
+        name: 'Violett Beane',
       },
       {
-        name: "Nolan Gerard Funk",
-      }
+        name: 'Nolan Gerard Funk',
+      },
     ],
-    coverUrl: "/movies_pictures/43bdb09e65ab.jpg",
-    releaseDate: "2018-01-01",
+    coverUrl: '/movies_pictures/43bdb09e65ab.jpg',
+    releaseDate: '2018-01-01',
     length: 100,
     genre: ['Thriller', 'Horreur'],
-    saga: "",
-    description: "",
+    saga: '',
+    description: '',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
   },
@@ -1949,7 +1949,11 @@ export const baseMoviesFromMarina: BaseMovie[] = [
     genre: ['Animation'],
     saga: '',
     description: '',
-    fromEntity: null,
+    fromEntity: {
+      entityType: 'comic',
+      title: 'Astérix le Gaulois',
+      secondEntityKey: 'René Goscinny',
+    },
     countryOrigin: ['France'],
   },
   {
@@ -1966,7 +1970,11 @@ export const baseMoviesFromMarina: BaseMovie[] = [
     genre: ['Animation'],
     saga: '',
     description: '',
-    fromEntity: null,
+    fromEntity: {
+      entityType: 'comic',
+      title: 'Astérix le Gaulois',
+      secondEntityKey: 'René Goscinny',
+    },
     countryOrigin: ['France'],
   },
   {
@@ -1983,7 +1991,11 @@ export const baseMoviesFromMarina: BaseMovie[] = [
     genre: ['Animation'],
     saga: '',
     description: '',
-    fromEntity: null,
+    fromEntity: {
+      entityType: 'comic',
+      title: 'Astérix le Gaulois',
+      secondEntityKey: 'René Goscinny',
+    },
     countryOrigin: ['France'],
   },
   {
@@ -2000,7 +2012,11 @@ export const baseMoviesFromMarina: BaseMovie[] = [
     genre: ['Animation'],
     saga: '',
     description: '',
-    fromEntity: null,
+    fromEntity: {
+      entityType: 'comic',
+      title: 'Astérix le Gaulois',
+      secondEntityKey: 'René Goscinny',
+    },
     countryOrigin: ['France'],
   },
   {
@@ -2008,22 +2024,26 @@ export const baseMoviesFromMarina: BaseMovie[] = [
     director: 'Ray Goossens',
     actors: [
       {
-        name: "Roger Carel",
+        name: 'Roger Carel',
       },
       {
-        name: "Jacques Morel",
+        name: 'Jacques Morel',
       },
       {
-        name: "Pierre Tornade",
-      }
+        name: 'Pierre Tornade',
+      },
     ],
-    coverUrl: "/movies_pictures/8567e3ff6108.jpg",
-    releaseDate: "1967-01-01",
+    coverUrl: '/movies_pictures/8567e3ff6108.jpg',
+    releaseDate: '1967-01-01',
     length: 68,
     genre: ['Animation'],
-    saga: "",
-    description: "",
-    fromEntity: { entityType: "bd", title: "Astérix le Gaulois", secondEntityKey: "René Goscinny" },
+    saga: '',
+    description: '',
+    fromEntity: {
+      entityType: 'bd',
+      title: 'Astérix le Gaulois',
+      secondEntityKey: 'René Goscinny',
+    },
     countryOrigin: ['France'],
   },
   {

@@ -163,6 +163,86 @@
   }
 }
 
+.mix-base-works-toolbar {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.mix-base-works-search {
+  min-width: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 0.35rem;
+}
+
+.mix-base-works-search__label {
+  font-size: 0.75rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  color: var(--text-secondary, #64748b);
+}
+
+.mix-base-works-search__input {
+  width: 100%;
+  box-sizing: border-box;
+  padding: 0.5rem 0.75rem;
+  font-size: 0.95rem;
+  line-height: 1.35;
+  color: var(--text-primary, #1e293b);
+  background: var(--surface-background-empty, #fff);
+  border: 1px solid var(--stroke-medium, #cbd5e1);
+  border-radius: 8px;
+  outline: none;
+  transition: border-color 0.15s ease, box-shadow 0.15s ease;
+
+  &::placeholder {
+    color: var(--text-secondary, #94a3b8);
+  }
+
+  &:hover {
+    border-color: var(--stroke-strong, #94a3b8);
+  }
+
+  &:focus {
+    border-color: var(--stroke-brand, #6366f1);
+    box-shadow: 0 0 0 3px rgba(99, 102, 241, 0.2);
+  }
+}
+
+.mix-base-works-no-results {
+  margin-top: 0;
+}
+
+.mix-base-works-toolbar .mix-base-works-consumed-toggle {
+  margin: 0;
+  flex: 0 1 auto;
+  align-self: center;
+}
+
+.mix-base-works-consumed-toggle {
+  display: flex;
+  align-items: flex-start;
+  gap: 0.5rem;
+  margin: 0 0 1.25rem;
+  font-size: 0.9rem;
+  line-height: 1.35;
+  color: var(--text-primary, #1e293b);
+  cursor: pointer;
+  user-select: none;
+
+  span {
+    color: white;
+  }
+
+  input {
+    margin-top: 0.2rem;
+    flex-shrink: 0;
+    cursor: pointer;
+  }
+}
+
 .mix-base-saga-wrap {
   border-left: 3px solid var(--stroke-brand, #6366f1);
 }
@@ -239,7 +319,8 @@
 
   to {
     opacity: 1;
-    transform: rotate(var(--orbit-angle)) translateY(calc(-1 * var(--orbit-radius)))
+    transform: rotate(var(--orbit-angle))
+      translateY(calc(-1 * var(--orbit-radius)))
       rotate(calc(-1 * var(--orbit-angle)));
   }
 }
@@ -340,6 +421,12 @@
   justify-content: center;
 }
 
+.mix-orbit-cover--dimmed {
+  // opacity: 0.38;
+  filter: grayscale(1);
+  transition: opacity 0.2s ease, filter 0.2s ease;
+}
+
 .mix-orbit-cover--center .mix-orbit-cover__btn {
   max-width: min(200px, 38vw);
 }
@@ -358,9 +445,7 @@
   cursor: default;
   background: var(--surface-muted, #e2e8f0);
   box-sizing: border-box;
-  transition:
-    transform 0.22s ease,
-    box-shadow 0.22s ease;
+  transition: transform 0.22s ease, box-shadow 0.22s ease;
   box-shadow: 0 2px 8px rgba(15, 23, 42, 0.08);
 }
 
@@ -415,11 +500,10 @@
   pointer-events: auto;
   z-index: 1;
   --orbit-angle: calc(360deg / var(--orbit-n) * var(--orbit-i, 0));
-  transform: rotate(var(--orbit-angle)) translateY(calc(-1 * var(--orbit-radius)))
+  transform: rotate(var(--orbit-angle))
+    translateY(calc(-1 * var(--orbit-radius)))
     rotate(calc(-1 * var(--orbit-angle)));
-  transition:
-    transform 0.22s ease,
-    z-index 0s step-end;
+  transition: transform 0.22s ease, z-index 0s step-end;
   animation: mix-orbit-slot-to-ring 0.78s cubic-bezier(0.28, 0.9, 0.36, 1) both;
   animation-delay: calc(0.1s + var(--orbit-i, 0) * 52ms);
 }
@@ -472,8 +556,8 @@
     max-width: 280px;
     margin: 0 auto 1.25rem;
     transform: none;
-    animation: mix-orbit-center-enter-mobile 0.45s cubic-bezier(0.33, 1.1, 0.52, 1)
-      both;
+    animation: mix-orbit-center-enter-mobile 0.45s
+      cubic-bezier(0.33, 1.1, 0.52, 1) both;
   }
 
   .mix-base-orbit-ring {
@@ -492,9 +576,7 @@
     min-height: 0;
     margin: 0;
     transform: none !important;
-    transition:
-      transform 0.22s ease,
-      z-index 0s step-end;
+    transition: transform 0.22s ease, z-index 0s step-end;
     animation: none;
   }
 
@@ -509,8 +591,8 @@
     max-width: 148px;
     margin-left: auto;
     margin-right: auto;
-    animation: mix-orbit-satellite-card-fade-mobile 0.5s cubic-bezier(0.33, 1, 0.52, 1)
-      both;
+    animation: mix-orbit-satellite-card-fade-mobile 0.5s
+      cubic-bezier(0.33, 1, 0.52, 1) both;
     animation-delay: calc(0.06s + var(--orbit-i, 0) * 42ms);
   }
 }
@@ -559,7 +641,6 @@
     border-bottom: none;
   }
 }
-
 
 .mix-base-galaxy-kind,
 .mix-base-galaxy-counts {

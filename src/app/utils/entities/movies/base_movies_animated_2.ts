@@ -1740,7 +1740,11 @@ export const baseMoviesAnimated2: BaseMovie[] = [
     genre: ['Animation'],
     saga: 'Astérix',
     description: '',
-    fromEntity: null,
+    fromEntity: {
+      entityType: 'comic',
+      title: 'Astérix le Gaulois',
+      secondEntityKey: 'René Goscinny',
+    },
     countryOrigin: ['France'],
   },
   {

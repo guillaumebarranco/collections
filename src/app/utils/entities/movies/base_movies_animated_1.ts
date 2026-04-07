@@ -1404,7 +1404,11 @@ export const baseMoviesAnimated: BaseMovie[] = [
     genre: ['Animation'],
     saga: 'Astérix',
     description: '',
-    fromEntity: null,
+    fromEntity: {
+      entityType: 'comic',
+      title: 'Astérix le Gaulois',
+      secondEntityKey: 'René Goscinny',
+    },
     countryOrigin: ['France'],
   },
   {
@@ -1582,7 +1586,7 @@ export const baseMoviesAnimated: BaseMovie[] = [
     description: '',
     fromEntity: {
       entityType: 'bd',
-      title: 'Astérix le Gaulois',
+      title: 'Le Domaine des dieux',
       secondEntityKey: 'René Goscinny',
     },
     countryOrigin: ['France'],

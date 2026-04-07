@@ -5790,7 +5790,11 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     genre: ['Comédie'],
     saga: 'Astérix',
     description: '',
-    fromEntity: null,
+    fromEntity: {
+      entityType: 'comic',
+      title: 'Astérix le Gaulois',
+      secondEntityKey: 'René Goscinny',
+    },
     countryOrigin: ['France'],
   },
   {
