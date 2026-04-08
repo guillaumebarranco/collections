@@ -37,4 +37,43 @@ export const guillaumeGameListGames: UserGames = [
     borrowed: '',
     loaned: '',
   },
+
+  {
+    title: "The Legend of Zelda: Majora's Mask",
+    editor: "Nintendo",
+    rating: 0,
+    owned: false,
+    gamelistPriority: 1,
+    wantToPlayAgain: false,
+    ratingComment: '',
+    borrowed: '',
+    loaned: '',
+    sessions: [],
+  },
+
+  {
+    title: "The Legend of Zelda: A Link Between Worlds",
+    editor: "Nintendo",
+    rating: 0,
+    owned: false,
+    gamelistPriority: 1,
+    wantToPlayAgain: false,
+    ratingComment: '',
+    borrowed: '',
+    loaned: '',
+    sessions: [],
+  },
+
+  {
+    title: "Cadence of Hyrule: Crypt of the NecroDancer Featuring The Legend of Zelda",
+    editor: "Brace Yourself Games",
+    rating: 0,
+    owned: false,
+    gamelistPriority: 1,
+    wantToPlayAgain: false,
+    ratingComment: '',
+    borrowed: '',
+    loaned: '',
+    sessions: [],
+  },
 ];

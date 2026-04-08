@@ -1620,23 +1620,6 @@ export const baseMoviesPage8: BaseMovie[] = [
     countryOrigin: ['États-Unis'],
   },
   {
-    title: 'Mort sur le Nil',
-    director: 'Kenneth Branagh',
-    actors: [
-      { name: 'Tom Bateman' },
-      { name: 'Annette Bening' },
-      { name: 'Kenneth Branagh' },
-    ],
-    coverUrl: '/movies_pictures/6a82e3617b8b.jpg',
-    releaseDate: '2022-02-11',
-    length: 127,
-    genre: ['Policier', 'Drame', 'Mystère'],
-    saga: '',
-    description: '',
-    fromEntity: null,
-    countryOrigin: ['États-Unis'],
-  },
-  {
     title: 'Palmer',
     director: 'Fisher Stevens',
     actors: [

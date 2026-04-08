@@ -15,7 +15,7 @@
       {{
         isWatchOrReadlistMode()
           ? "Ajouter à ma gamelist"
-          : "Ajouter à mes jeux terminés"
+          : "Ajouter à mes jeux joués"
       }}
       ({{ selectedCount() }})
     </button>
@@ -40,7 +40,7 @@
         affiche uniquement les jeux que tu n'as pas encore dans ta collection.
         <br /><br />
         Sélectionne les jeux que tu as terminés, puis clique sur "Ajouter à mes
-        jeux terminés".
+        jeux joués".
       </p>
       @if (hasPlayedGamesFromExistingCatalog()) {
       <p>

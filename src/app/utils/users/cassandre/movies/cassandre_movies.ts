@@ -2,8 +2,8 @@ import { UserMovies } from '../../../../models/movie-model';
 
 export const cassandreMovies: UserMovies = [
   {
-    title: "Barbie",
-    director: "Greta Gerwig",
+    title: 'Barbie',
+    director: 'Greta Gerwig',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -19,8 +19,8 @@ export const cassandreMovies: UserMovies = [
   },
 
   {
-    title: "84 m²",
-    director: "Kim Tae-joon",
+    title: '84 m²',
+    director: 'Kim Tae-joon',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -36,8 +36,8 @@ export const cassandreMovies: UserMovies = [
   },
 
   {
-    title: "La femme de ménage",
-    director: "Paul Feig",
+    title: 'La femme de ménage',
+    director: 'Paul Feig',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -53,8 +53,8 @@ export const cassandreMovies: UserMovies = [
   },
 
   {
-    title: "Le Jeu",
-    director: "Fred Cavayé",
+    title: 'Le Jeu',
+    director: 'Fred Cavayé',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -70,8 +70,8 @@ export const cassandreMovies: UserMovies = [
   },
 
   {
-    title: "Bienvenue à Marly-Gomont",
-    director: "Julien Rambaldi",
+    title: 'Bienvenue à Marly-Gomont',
+    director: 'Julien Rambaldi',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -87,8 +87,8 @@ export const cassandreMovies: UserMovies = [
   },
 
   {
-    title: "Mulan",
-    director: "Niki Caro",
+    title: 'Mulan',
+    director: 'Niki Caro',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -104,8 +104,8 @@ export const cassandreMovies: UserMovies = [
   },
 
   {
-    title: "Yamakasi",
-    director: "Julien Seri",
+    title: 'Yamakasi',
+    director: 'Julien Seri',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -121,8 +121,8 @@ export const cassandreMovies: UserMovies = [
   },
 
   {
-    title: "Astérix & Obélix : Mission Cléopâtre",
-    director: "Alain Chabat",
+    title: 'Astérix & Obélix : Mission Cléopâtre',
+    director: 'Alain Chabat',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -138,8 +138,8 @@ export const cassandreMovies: UserMovies = [
   },
 
   {
-    title: "V pour Vendetta",
-    director: "James McTeigue",
+    title: 'V pour Vendetta',
+    director: 'James McTeigue',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -155,8 +155,8 @@ export const cassandreMovies: UserMovies = [
   },
 
   {
-    title: "Death Note",
-    director: "Adam Wingard",
+    title: 'Death Note',
+    director: 'Adam Wingard',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -172,8 +172,8 @@ export const cassandreMovies: UserMovies = [
   },
 
   {
-    title: "Il a Déjà Tes Yeux",
-    director: "Lucien Jean-Baptiste",
+    title: 'Il a Déjà Tes Yeux',
+    director: 'Lucien Jean-Baptiste',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -189,8 +189,8 @@ export const cassandreMovies: UserMovies = [
   },
 
   {
-    title: "Interstellar",
-    director: "Christopher Nolan",
+    title: 'Interstellar',
+    director: 'Christopher Nolan',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -206,8 +206,8 @@ export const cassandreMovies: UserMovies = [
   },
 
   {
-    title: "La tour Montparnasse infernale",
-    director: "Charles Nemes",
+    title: 'La tour Montparnasse infernale',
+    director: 'Charles Nemes',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -223,8 +223,8 @@ export const cassandreMovies: UserMovies = [
   },
 
   {
-    title: "Dirty Dancing",
-    director: "Emile Ardolino",
+    title: 'Je Suis une Légende',
+    director: 'Francis Lawrence',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -240,8 +240,8 @@ export const cassandreMovies: UserMovies = [
   },
 
   {
-    title: "Je Suis une Légende",
-    director: "Francis Lawrence",
+    title: 'Les Tuche',
+    director: 'Olivier Baroux',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -257,8 +257,8 @@ export const cassandreMovies: UserMovies = [
   },
 
   {
-    title: "Les Tuche",
-    director: "Olivier Baroux",
+    title: 'Black Swan',
+    director: 'Darren Aronofsky',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -274,8 +274,8 @@ export const cassandreMovies: UserMovies = [
   },
 
   {
-    title: "The Artist",
-    director: "Michel Hazanavicius",
+    title: 'Fatal',
+    director: 'Michaël Youn',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -291,8 +291,8 @@ export const cassandreMovies: UserMovies = [
   },
 
   {
-    title: "Black Swan",
-    director: "Darren Aronofsky",
+    title: 'The Blind Side',
+    director: 'John Lee Hancock',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -308,8 +308,8 @@ export const cassandreMovies: UserMovies = [
   },
 
   {
-    title: "Fatal",
-    director: "Michaël Youn",
+    title: 'Time Out',
+    director: 'Andrew Niccol',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -325,8 +325,8 @@ export const cassandreMovies: UserMovies = [
   },
 
   {
-    title: "The Blind Side",
-    director: "John Lee Hancock",
+    title: 'Intouchables',
+    director: 'Olivier Nakache, Éric Toledano',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -342,8 +342,8 @@ export const cassandreMovies: UserMovies = [
   },
 
   {
-    title: "Time Out",
-    director: "Andrew Niccol",
+    title: 'Les visiteurs',
+    director: 'Jean-Marie Poiré',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -359,8 +359,8 @@ export const cassandreMovies: UserMovies = [
   },
 
   {
-    title: "Intouchables",
-    director: "Olivier Nakache, Éric Toledano",
+    title: 'Ali G',
+    director: 'Mark Mylod',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -376,8 +376,8 @@ export const cassandreMovies: UserMovies = [
   },
 
   {
-    title: "Les visiteurs",
-    director: "Jean-Marie Poiré",
+    title: 'Kill Bok-soon',
+    director: 'Byun Sung-hyun',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -393,8 +393,8 @@ export const cassandreMovies: UserMovies = [
   },
 
   {
-    title: "Ali G",
-    director: "Mark Mylod",
+    title: 'Walter',
+    director: 'Varante Soudjian',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -410,8 +410,8 @@ export const cassandreMovies: UserMovies = [
   },
 
   {
-    title: "Kill Bok-soon",
-    director: "Byun Sung-hyun",
+    title: 'Le Prénom',
+    director: 'Alexandre de La Patellière, Matthieu Delaporte',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -427,8 +427,8 @@ export const cassandreMovies: UserMovies = [
   },
 
   {
-    title: "Walter",
-    director: "Varante Soudjian",
+    title: 'Sous la Seine',
+    director: 'Xavier Gens',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -444,76 +444,8 @@ export const cassandreMovies: UserMovies = [
   },
 
   {
-    title: "Le Prénom",
-    director: "Alexandre de La Patellière, Matthieu Delaporte",
-    rating: 0,
-    timesWatched: 1,
-    firstViewedDate: '',
-    lastViewedDate: '',
-    seenAtCinema: false,
-    owned: false,
-    wantToSeeAgain: false,
-    watchPriority: 1,
-    ratingComment: '',
-    inList: [],
-    borrowed: '',
-    loaned: '',
-  },
-
-  {
-    title: "Sous la Seine",
-    director: "Xavier Gens",
-    rating: 0,
-    timesWatched: 1,
-    firstViewedDate: '',
-    lastViewedDate: '',
-    seenAtCinema: false,
-    owned: false,
-    wantToSeeAgain: false,
-    watchPriority: 1,
-    ratingComment: '',
-    inList: [],
-    borrowed: '',
-    loaned: '',
-  },
-
-  {
-    title: "Seuls Two",
-    director: "David Charhon",
-    rating: 0,
-    timesWatched: 1,
-    firstViewedDate: '',
-    lastViewedDate: '',
-    seenAtCinema: false,
-    owned: false,
-    wantToSeeAgain: false,
-    watchPriority: 1,
-    ratingComment: '',
-    inList: [],
-    borrowed: '',
-    loaned: '',
-  },
-
-  {
-    title: "Polisse",
-    director: "Maïwenn",
-    rating: 0,
-    timesWatched: 1,
-    firstViewedDate: '',
-    lastViewedDate: '',
-    seenAtCinema: false,
-    owned: false,
-    wantToSeeAgain: false,
-    watchPriority: 1,
-    ratingComment: '',
-    inList: [],
-    borrowed: '',
-    loaned: '',
-  },
-
-  {
-    title: "Les trois frères",
-    director: "Didier Bourdon",
+    title: 'Polisse',
+    director: 'Maïwenn',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -530,7 +462,7 @@ export const cassandreMovies: UserMovies = [
 
   {
     title: "Qu'est-ce qu'on a fait au bon dieu ?",
-    director: "Philippe de Chauveron",
+    director: 'Philippe de Chauveron',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -546,8 +478,8 @@ export const cassandreMovies: UserMovies = [
   },
 
   {
-    title: "Patients",
-    director: "Grand Corps Malade",
+    title: 'Patients',
+    director: 'Grand Corps Malade',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -563,8 +495,8 @@ export const cassandreMovies: UserMovies = [
   },
 
   {
-    title: "Babysitting",
-    director: "Philippe Lacheau",
+    title: 'Babysitting',
+    director: 'Philippe Lacheau',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -580,8 +512,8 @@ export const cassandreMovies: UserMovies = [
   },
 
   {
-    title: "Babysitting 2",
-    director: "Philippe Lacheau",
+    title: 'Babysitting 2',
+    director: 'Philippe Lacheau',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -597,8 +529,8 @@ export const cassandreMovies: UserMovies = [
   },
 
   {
-    title: "Black/White",
-    director: "Kevin Rodney Sullivan",
+    title: 'Black/White',
+    director: 'Kevin Rodney Sullivan',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -614,8 +546,8 @@ export const cassandreMovies: UserMovies = [
   },
 
   {
-    title: "Dragons",
-    director: "Dean DeBlois, Chris Sanders",
+    title: 'Dragons',
+    director: 'Dean DeBlois, Chris Sanders',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -631,8 +563,8 @@ export const cassandreMovies: UserMovies = [
   },
 
   {
-    title: "Super Mario Bros. le Film",
-    director: "Aaron Horvath, Michael Jelenic",
+    title: 'Super Mario Bros. le Film',
+    director: 'Aaron Horvath, Michael Jelenic',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -648,8 +580,8 @@ export const cassandreMovies: UserMovies = [
   },
 
   {
-    title: "Cars",
-    director: "John Lasseter",
+    title: 'Cars',
+    director: 'John Lasseter',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -665,8 +597,8 @@ export const cassandreMovies: UserMovies = [
   },
 
   {
-    title: "Cars 2",
-    director: "John Lasseter, Brad Lewis",
+    title: 'Cars 2',
+    director: 'John Lasseter, Brad Lewis',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -682,8 +614,8 @@ export const cassandreMovies: UserMovies = [
   },
 
   {
-    title: "Cars 3",
-    director: "Brian Fee",
+    title: 'Cars 3',
+    director: 'Brian Fee',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -699,8 +631,8 @@ export const cassandreMovies: UserMovies = [
   },
 
   {
-    title: "Vaiana",
-    director: "Ron Clements, John Musker",
+    title: 'La Princesse et la Grenouille',
+    director: 'Ron Clements, John Musker',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -716,8 +648,8 @@ export const cassandreMovies: UserMovies = [
   },
 
   {
-    title: "Les Nouveaux Héros",
-    director: "Don Hall, Chris Williams",
+    title: 'Ratatouille',
+    director: 'Brad Bird',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -733,8 +665,8 @@ export const cassandreMovies: UserMovies = [
   },
 
   {
-    title: "La Princesse et la Grenouille",
-    director: "Ron Clements, John Musker",
+    title: 'Mulan',
+    director: 'Tony Bancroft, Barry Cook',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -750,8 +682,8 @@ export const cassandreMovies: UserMovies = [
   },
 
   {
-    title: "Ratatouille",
-    director: "Brad Bird",
+    title: 'Princesse Mononoké',
+    director: 'Hayao Miyazaki',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -767,8 +699,8 @@ export const cassandreMovies: UserMovies = [
   },
 
   {
-    title: "Mulan",
-    director: "Tony Bancroft, Barry Cook",
+    title: 'Le Roi Lion',
+    director: 'Roger Allers, Rob Minkoff',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -784,8 +716,8 @@ export const cassandreMovies: UserMovies = [
   },
 
   {
-    title: "Princesse Mononoké",
-    director: "Hayao Miyazaki",
+    title: 'Raya et le Dernier Dragon',
+    director: 'Don Hall, Carlos López Estrada',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -801,8 +733,8 @@ export const cassandreMovies: UserMovies = [
   },
 
   {
-    title: "Le Roi Lion",
-    director: "Roger Allers, Rob Minkoff",
+    title: 'One Piece Film: Strong World',
+    director: 'Munehisa Sakai',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -818,8 +750,8 @@ export const cassandreMovies: UserMovies = [
   },
 
   {
-    title: "Raya et le Dernier Dragon",
-    director: "Don Hall, Carlos López Estrada",
+    title: 'One Piece Film Z',
+    director: 'Tatsuya Nagamine',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -835,8 +767,8 @@ export const cassandreMovies: UserMovies = [
   },
 
   {
-    title: "One Piece Film: Strong World",
-    director: "Munehisa Sakai",
+    title: 'One Piece : Gold',
+    director: 'Hiroaki Miyamoto',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -852,8 +784,8 @@ export const cassandreMovies: UserMovies = [
   },
 
   {
-    title: "One Piece Film Z",
-    director: "Tatsuya Nagamine",
+    title: 'One Piece: Stampede',
+    director: 'Takashi Otsuka',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -869,8 +801,8 @@ export const cassandreMovies: UserMovies = [
   },
 
   {
-    title: "One Piece : Gold",
-    director: "Hiroaki Miyamoto",
+    title: 'One Piece Film: Red',
+    director: 'Gorō Taniguchi',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -886,8 +818,8 @@ export const cassandreMovies: UserMovies = [
   },
 
   {
-    title: "One Piece: Stampede",
-    director: "Takashi Otsuka",
+    title: 'La Planète au trésor',
+    director: 'Ron Clements, John Musker',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -903,8 +835,8 @@ export const cassandreMovies: UserMovies = [
   },
 
   {
-    title: "One Piece Film: Red",
-    director: "Gorō Taniguchi",
+    title: 'Mulan 2',
+    director: 'Darrell Rooney, Lynne Southerland',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -920,8 +852,8 @@ export const cassandreMovies: UserMovies = [
   },
 
   {
-    title: "Le Monde magique de la Belle et la Bête",
-    director: "Bob Kline",
+    title: 'À la Recherche du Bonheur',
+    director: 'Gabriele Muccino',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -937,8 +869,8 @@ export const cassandreMovies: UserMovies = [
   },
 
   {
-    title: "La Planète au trésor",
-    director: "Ron Clements, John Musker",
+    title: 'Zootopie',
+    director: 'Byron Howard, Rich Moore',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -954,8 +886,8 @@ export const cassandreMovies: UserMovies = [
   },
 
   {
-    title: "Mulan 2",
-    director: "Darrell Rooney, Lynne Southerland",
+    title: 'Cruella',
+    director: 'Craig Gillespie',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -971,8 +903,8 @@ export const cassandreMovies: UserMovies = [
   },
 
   {
-    title: "À la Recherche du Bonheur",
-    director: "Gabriele Muccino",
+    title: 'Parasite',
+    director: 'Bong Joon-ho',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -988,8 +920,8 @@ export const cassandreMovies: UserMovies = [
   },
 
   {
-    title: "Zootopie",
-    director: "Byron Howard, Rich Moore",
+    title: 'Drôles de dames',
+    director: 'McG',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -1005,8 +937,8 @@ export const cassandreMovies: UserMovies = [
   },
 
   {
-    title: "Cruella",
-    director: "Craig Gillespie",
+    title: 'Kirikou et la Sorcière',
+    director: 'Michel Ocelot',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -1022,8 +954,8 @@ export const cassandreMovies: UserMovies = [
   },
 
   {
-    title: "Parasite",
-    director: "Bong Joon-ho",
+    title: 'Athena',
+    director: 'Romain Gavras',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -1039,8 +971,8 @@ export const cassandreMovies: UserMovies = [
   },
 
   {
-    title: "Drôles de dames",
-    director: "McG",
+    title: 'Les Choristes',
+    director: 'Christophe Barratier',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -1056,8 +988,8 @@ export const cassandreMovies: UserMovies = [
   },
 
   {
-    title: "Entretien avec un vampire",
-    director: "Neil Jordan",
+    title: 'Charlie et ses drôles de dames',
+    director: 'McG',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -1073,8 +1005,8 @@ export const cassandreMovies: UserMovies = [
   },
 
   {
-    title: "Kirikou et la Sorcière",
-    director: "Michel Ocelot",
+    title: 'Mon inconnue',
+    director: 'Hugo Gélin',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -1090,8 +1022,8 @@ export const cassandreMovies: UserMovies = [
   },
 
   {
-    title: "Athena",
-    director: "Romain Gavras",
+    title: 'Nos coeurs meurtris',
+    director: 'Elizabeth Allen Rosenbaum',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -1107,8 +1039,8 @@ export const cassandreMovies: UserMovies = [
   },
 
   {
-    title: "Les Choristes",
-    director: "Christophe Barratier",
+    title: 'La Belle et la Bête',
+    director: 'Bill Condon',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -1124,93 +1056,8 @@ export const cassandreMovies: UserMovies = [
   },
 
   {
-    title: "Charlie et ses drôles de dames",
-    director: "McG",
-    rating: 0,
-    timesWatched: 1,
-    firstViewedDate: '',
-    lastViewedDate: '',
-    seenAtCinema: false,
-    owned: false,
-    wantToSeeAgain: false,
-    watchPriority: 1,
-    ratingComment: '',
-    inList: [],
-    borrowed: '',
-    loaned: '',
-  },
-
-  {
-    title: "Sister Act",
-    director: "Emile Ardolino",
-    rating: 0,
-    timesWatched: 1,
-    firstViewedDate: '',
-    lastViewedDate: '',
-    seenAtCinema: false,
-    owned: false,
-    wantToSeeAgain: false,
-    watchPriority: 1,
-    ratingComment: '',
-    inList: [],
-    borrowed: '',
-    loaned: '',
-  },
-
-  {
-    title: "Mon inconnue",
-    director: "Hugo Gélin",
-    rating: 0,
-    timesWatched: 1,
-    firstViewedDate: '',
-    lastViewedDate: '',
-    seenAtCinema: false,
-    owned: false,
-    wantToSeeAgain: false,
-    watchPriority: 1,
-    ratingComment: '',
-    inList: [],
-    borrowed: '',
-    loaned: '',
-  },
-
-  {
-    title: "Nos coeurs meurtris",
-    director: "Elizabeth Allen Rosenbaum",
-    rating: 0,
-    timesWatched: 1,
-    firstViewedDate: '',
-    lastViewedDate: '',
-    seenAtCinema: false,
-    owned: false,
-    wantToSeeAgain: false,
-    watchPriority: 1,
-    ratingComment: '',
-    inList: [],
-    borrowed: '',
-    loaned: '',
-  },
-
-  {
-    title: "La Belle et la Bête",
-    director: "Bill Condon",
-    rating: 0,
-    timesWatched: 1,
-    firstViewedDate: '',
-    lastViewedDate: '',
-    seenAtCinema: false,
-    owned: false,
-    wantToSeeAgain: false,
-    watchPriority: 1,
-    ratingComment: '',
-    inList: [],
-    borrowed: '',
-    loaned: '',
-  },
-
-  {
-    title: "Love & autres drogues",
-    director: "Edward Zwick",
+    title: 'Love & autres drogues',
+    director: 'Edward Zwick',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -1227,7 +1074,7 @@ export const cassandreMovies: UserMovies = [
 
   {
     title: "L'Arnacœur",
-    director: "Pascal Chaumeil",
+    director: 'Pascal Chaumeil',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -1243,8 +1090,8 @@ export const cassandreMovies: UserMovies = [
   },
 
   {
-    title: "Hitch : Expert en Séduction",
-    director: "Andy Tennant",
+    title: 'Hitch : Expert en Séduction',
+    director: 'Andy Tennant',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -1260,8 +1107,8 @@ export const cassandreMovies: UserMovies = [
   },
 
   {
-    title: "The Girl Next Door",
-    director: "Luke Greenfield",
+    title: 'Amour & Amnésie',
+    director: 'Peter Segal',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -1277,8 +1124,8 @@ export const cassandreMovies: UserMovies = [
   },
 
   {
-    title: "Amour & Amnésie",
-    director: "Peter Segal",
+    title: 'Pretty Woman',
+    director: 'Garry Marshall',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -1294,8 +1141,8 @@ export const cassandreMovies: UserMovies = [
   },
 
   {
-    title: "Pretty Woman",
-    director: "Garry Marshall",
+    title: 'La La Land',
+    director: 'Damien Chazelle',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -1311,8 +1158,8 @@ export const cassandreMovies: UserMovies = [
   },
 
   {
-    title: "La La Land",
-    director: "Damien Chazelle",
+    title: 'LOL (Laughing Out Loud)',
+    director: 'Lisa Azuelos',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -1328,8 +1175,8 @@ export const cassandreMovies: UserMovies = [
   },
 
   {
-    title: "LOL (Laughing Out Loud)",
-    director: "Lisa Azuelos",
+    title: 'Spider-Man',
+    director: 'Sam Raimi',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -1345,42 +1192,8 @@ export const cassandreMovies: UserMovies = [
   },
 
   {
-    title: "Spider-Man",
-    director: "Sam Raimi",
-    rating: 0,
-    timesWatched: 1,
-    firstViewedDate: '',
-    lastViewedDate: '',
-    seenAtCinema: false,
-    owned: false,
-    wantToSeeAgain: false,
-    watchPriority: 1,
-    ratingComment: '',
-    inList: [],
-    borrowed: '',
-    loaned: '',
-  },
-
-  {
-    title: "Spider-Man 2",
-    director: "Sam Raimi",
-    rating: 0,
-    timesWatched: 1,
-    firstViewedDate: '',
-    lastViewedDate: '',
-    seenAtCinema: false,
-    owned: false,
-    wantToSeeAgain: false,
-    watchPriority: 1,
-    ratingComment: '',
-    inList: [],
-    borrowed: '',
-    loaned: '',
-  },
-
-  {
-    title: "Spider-Man 3",
-    director: "Sam Raimi",
+    title: 'Spider-Man 2',
+    director: 'Sam Raimi',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -1397,7 +1210,7 @@ export const cassandreMovies: UserMovies = [
 
   {
     title: "Harry Potter à l'école des sorciers",
-    director: "Chris Columbus",
+    director: 'Chris Columbus',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -1413,8 +1226,8 @@ export const cassandreMovies: UserMovies = [
   },
 
   {
-    title: "Harry Potter et la chambre des secrets",
-    director: "Chris Columbus",
+    title: 'Harry Potter et la chambre des secrets',
+    director: 'Chris Columbus',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -1431,7 +1244,7 @@ export const cassandreMovies: UserMovies = [
 
   {
     title: "Harry Potter et le prisonnier d'Azkaban",
-    director: "Alfonso Cuarón",
+    director: 'Alfonso Cuarón',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -1447,8 +1260,8 @@ export const cassandreMovies: UserMovies = [
   },
 
   {
-    title: "Harry Potter et la coupe de feu",
-    director: "Mike Newell",
+    title: 'Harry Potter et la coupe de feu',
+    director: 'Mike Newell',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -1465,7 +1278,7 @@ export const cassandreMovies: UserMovies = [
 
   {
     title: "Harry Potter et l'ordre du phénix",
-    director: "David Yates",
+    director: 'David Yates',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -1481,8 +1294,8 @@ export const cassandreMovies: UserMovies = [
   },
 
   {
-    title: "Harry Potter et le prince de sang-mêlé",
-    director: "David Yates",
+    title: 'Harry Potter et le prince de sang-mêlé',
+    director: 'David Yates',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -1498,8 +1311,8 @@ export const cassandreMovies: UserMovies = [
   },
 
   {
-    title: "Harry Potter et les reliques de la mort - partie 1",
-    director: "David Yates",
+    title: 'Harry Potter et les reliques de la mort - partie 1',
+    director: 'David Yates',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -1515,8 +1328,8 @@ export const cassandreMovies: UserMovies = [
   },
 
   {
-    title: "Harry Potter et les reliques de la mort - partie 2",
-    director: "David Yates",
+    title: 'Harry Potter et les reliques de la mort - partie 2',
+    director: 'David Yates',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -1532,8 +1345,8 @@ export const cassandreMovies: UserMovies = [
   },
 
   {
-    title: "Hunger Games",
-    director: "Gary Ross",
+    title: 'Hunger Games',
+    director: 'Gary Ross',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -1549,8 +1362,8 @@ export const cassandreMovies: UserMovies = [
   },
 
   {
-    title: "Very Bad Trip",
-    director: "Todd Phillips",
+    title: 'Very Bad Trip',
+    director: 'Todd Phillips',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -1566,8 +1379,8 @@ export const cassandreMovies: UserMovies = [
   },
 
   {
-    title: "Les Animaux Fantastiques",
-    director: "David Yates",
+    title: 'Les Animaux Fantastiques',
+    director: 'David Yates',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -1583,8 +1396,8 @@ export const cassandreMovies: UserMovies = [
   },
 
   {
-    title: "Enola Holmes",
-    director: "Harry Bradbeer",
+    title: 'A couteaux tirés',
+    director: 'Rian Johnson',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -1600,8 +1413,8 @@ export const cassandreMovies: UserMovies = [
   },
 
   {
-    title: "A couteaux tirés",
-    director: "Rian Johnson",
+    title: 'A couteaux tirés 2 : Glass Onion',
+    director: 'Rian Johnson',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -1617,8 +1430,8 @@ export const cassandreMovies: UserMovies = [
   },
 
   {
-    title: "A couteaux tirés 2 : Glass Onion",
-    director: "Rian Johnson",
+    title: 'Wake up dead man : une histoire à couteaux tirés',
+    director: 'Rian Johnson',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -1634,8 +1447,8 @@ export const cassandreMovies: UserMovies = [
   },
 
   {
-    title: "Wake up dead man : une histoire à couteaux tirés",
-    director: "Rian Johnson",
+    title: 'Split',
+    director: 'M. Night Shyamalan',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -1651,8 +1464,8 @@ export const cassandreMovies: UserMovies = [
   },
 
   {
-    title: "Split",
-    director: "M. Night Shyamalan",
+    title: 'Creed',
+    director: 'Ryan Coogler',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -1668,8 +1481,8 @@ export const cassandreMovies: UserMovies = [
   },
 
   {
-    title: "Creed",
-    director: "Ryan Coogler",
+    title: 'Creed II',
+    director: 'Steven Caple Jr.',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -1685,42 +1498,8 @@ export const cassandreMovies: UserMovies = [
   },
 
   {
-    title: "Creed II",
-    director: "Steven Caple Jr.",
-    rating: 0,
-    timesWatched: 1,
-    firstViewedDate: '',
-    lastViewedDate: '',
-    seenAtCinema: false,
-    owned: false,
-    wantToSeeAgain: false,
-    watchPriority: 1,
-    ratingComment: '',
-    inList: [],
-    borrowed: '',
-    loaned: '',
-  },
-
-  {
-    title: "Creed III",
-    director: "Michael B. Jordan",
-    rating: 0,
-    timesWatched: 1,
-    firstViewedDate: '',
-    lastViewedDate: '',
-    seenAtCinema: false,
-    owned: false,
-    wantToSeeAgain: false,
-    watchPriority: 1,
-    ratingComment: '',
-    inList: [],
-    borrowed: '',
-    loaned: '',
-  },
-
-  {
-    title: "Divergente",
-    director: "Neil Burger",
+    title: 'Divergente',
+    director: 'Neil Burger',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -1737,7 +1516,7 @@ export const cassandreMovies: UserMovies = [
 
   {
     title: "Divergente 2 : L'Insurrection",
-    director: "Robert Schwentke",
+    director: 'Robert Schwentke',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -1753,8 +1532,8 @@ export const cassandreMovies: UserMovies = [
   },
 
   {
-    title: "Banlieue 13",
-    director: "Pierre Morel",
+    title: 'Banlieue 13',
+    director: 'Pierre Morel',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -1770,8 +1549,8 @@ export const cassandreMovies: UserMovies = [
   },
 
   {
-    title: "Pirates des Caraïbes : La malédiction du Black Pearl",
-    director: "Gore Verbinski",
+    title: 'Pirates des Caraïbes : La malédiction du Black Pearl',
+    director: 'Gore Verbinski',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -1787,8 +1566,8 @@ export const cassandreMovies: UserMovies = [
   },
 
   {
-    title: "Taxi",
-    director: "Gérard Pirès",
+    title: 'Taxi',
+    director: 'Gérard Pirès',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -1804,8 +1583,8 @@ export const cassandreMovies: UserMovies = [
   },
 
   {
-    title: "Scary Movie",
-    director: "Keenen Ivory Wayans",
+    title: 'Twilight : Chapitre 1 - Fascination',
+    director: 'Catherine Hardwicke',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -1821,8 +1600,8 @@ export const cassandreMovies: UserMovies = [
   },
 
   {
-    title: "Twilight : Chapitre 1 - Fascination",
-    director: "Catherine Hardwicke",
+    title: 'Avatar',
+    director: 'James Cameron',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -1838,8 +1617,8 @@ export const cassandreMovies: UserMovies = [
   },
 
   {
-    title: "Avatar",
-    director: "James Cameron",
+    title: 'La Reine des Neiges',
+    director: 'Chris Buck, Jennifer Lee',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -1855,8 +1634,8 @@ export const cassandreMovies: UserMovies = [
   },
 
   {
-    title: "Le Monde de Narnia : Le Lion, la Sorcière Blanche et l'Armoire Magique",
-    director: "Andrew Adamson",
+    title: 'Moi, Moche et Méchant',
+    director: 'Pierre Coffin, Chris Renaud',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -1872,8 +1651,8 @@ export const cassandreMovies: UserMovies = [
   },
 
   {
-    title: "La Reine des Neiges",
-    director: "Chris Buck, Jennifer Lee",
+    title: 'Moi, Moche et Méchant 2',
+    director: 'Pierre Coffin, Chris Renaud',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -1889,8 +1668,8 @@ export const cassandreMovies: UserMovies = [
   },
 
   {
-    title: "Moi, Moche et Méchant",
-    director: "Pierre Coffin, Chris Renaud",
+    title: 'Arthur et les Minimoys',
+    director: 'Luc Besson',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -1906,8 +1685,8 @@ export const cassandreMovies: UserMovies = [
   },
 
   {
-    title: "Moi, Moche et Méchant 2",
-    director: "Pierre Coffin, Chris Renaud",
+    title: 'Arthur et la Vengeance de Maltazard',
+    director: 'Luc Besson',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -1923,8 +1702,8 @@ export const cassandreMovies: UserMovies = [
   },
 
   {
-    title: "Arthur et les Minimoys",
-    director: "Luc Besson",
+    title: 'Arthur 3 : La Guerre des Deux Mondes',
+    director: 'Luc Besson',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -1940,8 +1719,8 @@ export const cassandreMovies: UserMovies = [
   },
 
   {
-    title: "Arthur et la Vengeance de Maltazard",
-    director: "Luc Besson",
+    title: 'Les Simpson, le Film',
+    director: 'David Silverman',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -1957,8 +1736,8 @@ export const cassandreMovies: UserMovies = [
   },
 
   {
-    title: "Arthur 3 : La Guerre des Deux Mondes",
-    director: "Luc Besson",
+    title: 'Shrek',
+    director: 'Andrew Adamson, Vicky Jenson',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -1974,8 +1753,8 @@ export const cassandreMovies: UserMovies = [
   },
 
   {
-    title: "Les Simpson, le Film",
-    director: "David Silverman",
+    title: 'Shrek 2',
+    director: 'Andrew Adamson, Kelly Asbury, Conrad Vernon',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -1991,8 +1770,8 @@ export const cassandreMovies: UserMovies = [
   },
 
   {
-    title: "Shrek",
-    director: "Andrew Adamson, Vicky Jenson",
+    title: 'Les Indestructibles',
+    director: 'Brad Bird',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -2008,8 +1787,8 @@ export const cassandreMovies: UserMovies = [
   },
 
   {
-    title: "Shrek 2",
-    director: "Andrew Adamson, Kelly Asbury, Conrad Vernon",
+    title: 'Les Indestructibles 2',
+    director: 'Brad Bird',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -2025,8 +1804,8 @@ export const cassandreMovies: UserMovies = [
   },
 
   {
-    title: "Les Indestructibles",
-    director: "Brad Bird",
+    title: 'Le monde de Nemo',
+    director: 'Andrew Stanton',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -2042,8 +1821,8 @@ export const cassandreMovies: UserMovies = [
   },
 
   {
-    title: "Les Indestructibles 2",
-    director: "Brad Bird",
+    title: 'Le monde de Dory',
+    director: 'Andrew Stanton, Angus MacLane',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -2059,8 +1838,8 @@ export const cassandreMovies: UserMovies = [
   },
 
   {
-    title: "Le monde de Nemo",
-    director: "Andrew Stanton",
+    title: 'Planes',
+    director: 'Klay Hall',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -2076,8 +1855,8 @@ export const cassandreMovies: UserMovies = [
   },
 
   {
-    title: "Le monde de Dory",
-    director: "Andrew Stanton, Angus MacLane",
+    title: 'Planes 2',
+    director: 'Roberts Gannaway',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -2093,8 +1872,8 @@ export const cassandreMovies: UserMovies = [
   },
 
   {
-    title: "Planes",
-    director: "Klay Hall",
+    title: 'Tarzan',
+    director: 'Chris Buck, Kevin Lima',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -2110,8 +1889,8 @@ export const cassandreMovies: UserMovies = [
   },
 
   {
-    title: "Planes 2",
-    director: "Roberts Gannaway",
+    title: 'La Légende de Tarzan et Jane',
+    director: 'Steve Loter, Victor Cook',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -2127,8 +1906,8 @@ export const cassandreMovies: UserMovies = [
   },
 
   {
-    title: "Tarzan",
-    director: "Chris Buck, Kevin Lima",
+    title: 'Hercule',
+    director: 'Ron Clements, John Musker',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -2144,8 +1923,8 @@ export const cassandreMovies: UserMovies = [
   },
 
   {
-    title: "La Légende de Tarzan et Jane",
-    director: "Steve Loter, Victor Cook",
+    title: 'Pocahontas',
+    director: 'Mike Gabriel, Eric Goldberg',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -2161,8 +1940,8 @@ export const cassandreMovies: UserMovies = [
   },
 
   {
-    title: "Hercule",
-    director: "Ron Clements, John Musker",
+    title: 'Aladdin',
+    director: 'Ron Clements, John Musker',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -2178,8 +1957,8 @@ export const cassandreMovies: UserMovies = [
   },
 
   {
-    title: "Pocahontas",
-    director: "Mike Gabriel, Eric Goldberg",
+    title: 'La petite sirène',
+    director: 'Ron Clements, John Musker',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -2195,8 +1974,8 @@ export const cassandreMovies: UserMovies = [
   },
 
   {
-    title: "Aladdin",
-    director: "Ron Clements, John Musker",
+    title: 'Peter Pan',
+    director: 'Clyde Geronimi, Wilfred Jackson, Hamilton Luske',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -2212,8 +1991,9 @@ export const cassandreMovies: UserMovies = [
   },
 
   {
-    title: "La petite sirène",
-    director: "Ron Clements, John Musker",
+    title: 'Pinocchio',
+    director:
+      'Norman Ferguson, T. Hee, Wilfred Jackson, Jack Kinney, Hamilton Luske, Bill Roberts, Ben Sharpsteen',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -2229,42 +2009,8 @@ export const cassandreMovies: UserMovies = [
   },
 
   {
-    title: "Peter Pan",
-    director: "Clyde Geronimi, Wilfred Jackson, Hamilton Luske",
-    rating: 0,
-    timesWatched: 1,
-    firstViewedDate: '',
-    lastViewedDate: '',
-    seenAtCinema: false,
-    owned: false,
-    wantToSeeAgain: false,
-    watchPriority: 1,
-    ratingComment: '',
-    inList: [],
-    borrowed: '',
-    loaned: '',
-  },
-
-  {
-    title: "Pinocchio",
-    director: "Norman Ferguson, T. Hee, Wilfred Jackson, Jack Kinney, Hamilton Luske, Bill Roberts, Ben Sharpsteen",
-    rating: 0,
-    timesWatched: 1,
-    firstViewedDate: '',
-    lastViewedDate: '',
-    seenAtCinema: false,
-    owned: false,
-    wantToSeeAgain: false,
-    watchPriority: 1,
-    ratingComment: '',
-    inList: [],
-    borrowed: '',
-    loaned: '',
-  },
-
-  {
-    title: "One Piece : Le film",
-    director: "Junji Shimizu",
+    title: 'One Piece : Le film',
+    director: 'Junji Shimizu',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -2281,7 +2027,7 @@ export const cassandreMovies: UserMovies = [
 
   {
     title: "One Piece : L'Aventure de l'île de l'horloge",
-    director: "Atsuji Shimizu",
+    director: 'Atsuji Shimizu',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -2298,7 +2044,7 @@ export const cassandreMovies: UserMovies = [
 
   {
     title: "One Piece : Le Royaume de Chopper, l'île des bêtes étranges",
-    director: "Atsuji Shimizu",
+    director: 'Atsuji Shimizu',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -2315,7 +2061,7 @@ export const cassandreMovies: UserMovies = [
 
   {
     title: "One Piece : La Malédiction de l'épée sacrée",
-    director: "Kazuhisa Takenouchi",
+    director: 'Kazuhisa Takenouchi',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -2332,7 +2078,7 @@ export const cassandreMovies: UserMovies = [
 
   {
     title: "One Piece : Le baron Omatsuri et l'île secrète",
-    director: "Mamoru Hosoda",
+    director: 'Mamoru Hosoda',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -2348,8 +2094,8 @@ export const cassandreMovies: UserMovies = [
   },
 
   {
-    title: "One Piece : Le Mecha géant du château Karakuri",
-    director: "Kōnosuke Uda",
+    title: 'One Piece : Le Mecha géant du château Karakuri',
+    director: 'Kōnosuke Uda',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -2365,8 +2111,8 @@ export const cassandreMovies: UserMovies = [
   },
 
   {
-    title: "Le Château ambulant",
-    director: "Hayao Miyazaki",
+    title: 'Le Château ambulant',
+    director: 'Hayao Miyazaki',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -2382,8 +2128,8 @@ export const cassandreMovies: UserMovies = [
   },
 
   {
-    title: "Blanche-Neige et les Sept Nains",
-    director: "David Hand",
+    title: 'Blanche-Neige et les Sept Nains',
+    director: 'David Hand',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -2399,8 +2145,8 @@ export const cassandreMovies: UserMovies = [
   },
 
   {
-    title: "Bambi",
-    director: "David Hand",
+    title: 'Bambi',
+    director: 'David Hand',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -2416,8 +2162,8 @@ export const cassandreMovies: UserMovies = [
   },
 
   {
-    title: "Dumbo",
-    director: "Ben Sharpsteen",
+    title: 'Dumbo',
+    director: 'Ben Sharpsteen',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -2433,8 +2179,8 @@ export const cassandreMovies: UserMovies = [
   },
 
   {
-    title: "Alice au pays des merveilles",
-    director: "Clyde Geronimi, Wilfred Jackson",
+    title: 'Alice au pays des merveilles',
+    director: 'Clyde Geronimi, Wilfred Jackson',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -2450,8 +2196,8 @@ export const cassandreMovies: UserMovies = [
   },
 
   {
-    title: "La Belle au bois dormant",
-    director: "Clyde Geronimi",
+    title: 'La Belle au bois dormant',
+    director: 'Clyde Geronimi',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -2467,8 +2213,8 @@ export const cassandreMovies: UserMovies = [
   },
 
   {
-    title: "La Belle et le Clochard",
-    director: "Clyde Geronimi, Wilfred Jackson",
+    title: 'La Belle et le Clochard',
+    director: 'Clyde Geronimi, Wilfred Jackson',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -2484,8 +2230,8 @@ export const cassandreMovies: UserMovies = [
   },
 
   {
-    title: "Le Livre de la jungle",
-    director: "Wolfgang Reitherman",
+    title: 'Le Livre de la jungle',
+    director: 'Wolfgang Reitherman',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -2501,8 +2247,8 @@ export const cassandreMovies: UserMovies = [
   },
 
   {
-    title: "Le Bossu de Notre-Dame",
-    director: "Gary Trousdale, Kirk Wise",
+    title: 'Le Bossu de Notre-Dame',
+    director: 'Gary Trousdale, Kirk Wise',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -2518,8 +2264,8 @@ export const cassandreMovies: UserMovies = [
   },
 
   {
-    title: "Les 101 Dalmatiens",
-    director: "Stephen Herek",
+    title: 'Les 101 Dalmatiens',
+    director: 'Stephen Herek',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -2535,8 +2281,8 @@ export const cassandreMovies: UserMovies = [
   },
 
   {
-    title: "Anastasia",
-    director: "Don Bluth, Gary Goldman",
+    title: 'Anastasia',
+    director: 'Don Bluth, Gary Goldman',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -2553,7 +2299,7 @@ export const cassandreMovies: UserMovies = [
 
   {
     title: "Le Prince d'Égypte",
-    director: "Brenda Chapman, Steve Hickner",
+    director: 'Brenda Chapman, Steve Hickner',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -2569,8 +2315,8 @@ export const cassandreMovies: UserMovies = [
   },
 
   {
-    title: "1001 Pattes",
-    director: "John Lasseter, Andrew Stanton",
+    title: '1001 Pattes',
+    director: 'John Lasseter, Andrew Stanton',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -2586,8 +2332,8 @@ export const cassandreMovies: UserMovies = [
   },
 
   {
-    title: "Chicken Run",
-    director: "Peter Lord, Nick Park",
+    title: 'Chicken Run',
+    director: 'Peter Lord, Nick Park',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -2604,7 +2350,7 @@ export const cassandreMovies: UserMovies = [
 
   {
     title: "Atlantis : L'Empire perdu",
-    director: "Gary Trousdale, Kirk Wise",
+    director: 'Gary Trousdale, Kirk Wise',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -2620,8 +2366,8 @@ export const cassandreMovies: UserMovies = [
   },
 
   {
-    title: "Le Voyage de Chihiro",
-    director: "Hayao Miyazaki",
+    title: 'Le Voyage de Chihiro',
+    director: 'Hayao Miyazaki',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -2637,8 +2383,8 @@ export const cassandreMovies: UserMovies = [
   },
 
   {
-    title: "Lilo et Stitch",
-    director: "Dean DeBlois, Chris Sanders",
+    title: 'Lilo et Stitch',
+    director: 'Dean DeBlois, Chris Sanders',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -2654,8 +2400,8 @@ export const cassandreMovies: UserMovies = [
   },
 
   {
-    title: "Frère des ours",
-    director: "Aaron Blaise, Robert Walker",
+    title: 'Frère des ours',
+    director: 'Aaron Blaise, Robert Walker',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -2671,8 +2417,8 @@ export const cassandreMovies: UserMovies = [
   },
 
   {
-    title: "Madagascar",
-    director: "Eric Darnell, Tom McGrath",
+    title: 'Madagascar',
+    director: 'Eric Darnell, Tom McGrath',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -2688,8 +2434,8 @@ export const cassandreMovies: UserMovies = [
   },
 
   {
-    title: "Madagascar 2",
-    director: "Eric Darnell, Tom McGrath",
+    title: 'Madagascar 2',
+    director: 'Eric Darnell, Tom McGrath',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -2705,8 +2451,8 @@ export const cassandreMovies: UserMovies = [
   },
 
   {
-    title: "Raiponce",
-    director: "Byron Howard, Nathan Greno",
+    title: 'Raiponce',
+    director: 'Byron Howard, Nathan Greno',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -2722,8 +2468,8 @@ export const cassandreMovies: UserMovies = [
   },
 
   {
-    title: "Kung Fu Panda",
-    director: "Mark Osborne, John Stevenson",
+    title: 'Kung Fu Panda',
+    director: 'Mark Osborne, John Stevenson',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -2739,8 +2485,8 @@ export const cassandreMovies: UserMovies = [
   },
 
   {
-    title: "Kung Fu Panda 2",
-    director: "Jennifer Yuh Nelson",
+    title: 'Kung Fu Panda 2',
+    director: 'Jennifer Yuh Nelson',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -2756,8 +2502,8 @@ export const cassandreMovies: UserMovies = [
   },
 
   {
-    title: "Le Chat Potté",
-    director: "Chris Miller",
+    title: 'Le Chat Potté',
+    director: 'Chris Miller',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -2773,8 +2519,8 @@ export const cassandreMovies: UserMovies = [
   },
 
   {
-    title: "Bubble",
-    director: "Tetsurō Araki",
+    title: 'Bubble',
+    director: 'Tetsurō Araki',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -2790,8 +2536,8 @@ export const cassandreMovies: UserMovies = [
   },
 
   {
-    title: "Dragon Ball Z : Broly le super guerrier",
-    director: "Shigeyasu Yamauchi",
+    title: 'Dragon Ball Z : Broly le super guerrier',
+    director: 'Shigeyasu Yamauchi',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -2807,8 +2553,8 @@ export const cassandreMovies: UserMovies = [
   },
 
   {
-    title: "Iznogoud",
-    director: "Patrick Braoudé",
+    title: 'Iznogoud',
+    director: 'Patrick Braoudé',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -2824,8 +2570,8 @@ export const cassandreMovies: UserMovies = [
   },
 
   {
-    title: "The Dark Knight : Le Chevalier Noir",
-    director: "Christopher Nolan",
+    title: 'The Dark Knight : Le Chevalier Noir',
+    director: 'Christopher Nolan',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -2842,7 +2588,7 @@ export const cassandreMovies: UserMovies = [
 
   {
     title: "Batman v Superman : L'Aube de la Justice",
-    director: "Zack Snyder",
+    director: 'Zack Snyder',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -2858,8 +2604,8 @@ export const cassandreMovies: UserMovies = [
   },
 
   {
-    title: "Love Actually",
-    director: "Richard Curtis",
+    title: 'Love Actually',
+    director: 'Richard Curtis',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -2875,8 +2621,8 @@ export const cassandreMovies: UserMovies = [
   },
 
   {
-    title: "Iron Man",
-    director: "Jon Favreau",
+    title: 'Iron Man',
+    director: 'Jon Favreau',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -2892,8 +2638,8 @@ export const cassandreMovies: UserMovies = [
   },
 
   {
-    title: "Black Widow",
-    director: "Cate Shortland",
+    title: 'Black Widow',
+    director: 'Cate Shortland',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -2909,8 +2655,8 @@ export const cassandreMovies: UserMovies = [
   },
 
   {
-    title: "X-Men",
-    director: "Bryan Singer",
+    title: 'X-Men',
+    director: 'Bryan Singer',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -2926,8 +2672,8 @@ export const cassandreMovies: UserMovies = [
   },
 
   {
-    title: "X-men 2",
-    director: "Bryan Singer",
+    title: 'X-men 2',
+    director: 'Bryan Singer',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -2944,7 +2690,7 @@ export const cassandreMovies: UserMovies = [
 
   {
     title: "X-Men : L'Affrontement Final",
-    director: "Brett Ratner",
+    director: 'Brett Ratner',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -2960,8 +2706,8 @@ export const cassandreMovies: UserMovies = [
   },
 
   {
-    title: "Kick-Ass",
-    director: "Matthew Vaughn",
+    title: 'Kick-Ass',
+    director: 'Matthew Vaughn',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -2977,8 +2723,8 @@ export const cassandreMovies: UserMovies = [
   },
 
   {
-    title: "Les 4 Fantastiques",
-    director: "Tim Story",
+    title: 'Les 4 Fantastiques',
+    director: 'Tim Story',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -2994,8 +2740,8 @@ export const cassandreMovies: UserMovies = [
   },
 
   {
-    title: "Fast and Furious",
-    director: "Rob Cohen",
+    title: 'Fast and Furious',
+    director: 'Rob Cohen',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -3011,8 +2757,8 @@ export const cassandreMovies: UserMovies = [
   },
 
   {
-    title: "2 Fast 2 Furious",
-    director: "John Singleton",
+    title: '2 Fast 2 Furious',
+    director: 'John Singleton',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -3028,8 +2774,8 @@ export const cassandreMovies: UserMovies = [
   },
 
   {
-    title: "Fast and Furious : Tokyo Drift",
-    director: "Justin Lin",
+    title: 'Fast and Furious : Tokyo Drift',
+    director: 'Justin Lin',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -3045,8 +2791,8 @@ export const cassandreMovies: UserMovies = [
   },
 
   {
-    title: "Fast & Furious 4",
-    director: "Justin Lin",
+    title: 'Fast & Furious 4',
+    director: 'Justin Lin',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -3062,8 +2808,8 @@ export const cassandreMovies: UserMovies = [
   },
 
   {
-    title: "Fast & Furious 7",
-    director: "James Wan",
+    title: 'Fast & Furious 7',
+    director: 'James Wan',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -3079,8 +2825,8 @@ export const cassandreMovies: UserMovies = [
   },
 
   {
-    title: "Matrix",
-    director: "Lana Wachowski, Lilly Wachowski",
+    title: 'Matrix',
+    director: 'Lana Wachowski, Lilly Wachowski',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -3096,8 +2842,8 @@ export const cassandreMovies: UserMovies = [
   },
 
   {
-    title: "Men in Black",
-    director: "Barry Sonnenfeld",
+    title: 'Men in Black',
+    director: 'Barry Sonnenfeld',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -3113,8 +2859,8 @@ export const cassandreMovies: UserMovies = [
   },
 
   {
-    title: "Men in Black II",
-    director: "Barry Sonnenfeld",
+    title: 'Men in Black II',
+    director: 'Barry Sonnenfeld',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -3130,8 +2876,8 @@ export const cassandreMovies: UserMovies = [
   },
 
   {
-    title: "Retour vers le futur",
-    director: "Robert Zemeckis",
+    title: 'Retour vers le futur',
+    director: 'Robert Zemeckis',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -3148,7 +2894,7 @@ export const cassandreMovies: UserMovies = [
 
   {
     title: "Hunger Games : L'Embrasement",
-    director: "Francis Lawrence",
+    director: 'Francis Lawrence',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -3164,8 +2910,8 @@ export const cassandreMovies: UserMovies = [
   },
 
   {
-    title: "Hunger Games : La Révolte - Partie 1",
-    director: "Francis Lawrence",
+    title: 'Hunger Games : La Révolte - Partie 1',
+    director: 'Francis Lawrence',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -3181,8 +2927,8 @@ export const cassandreMovies: UserMovies = [
   },
 
   {
-    title: "Hunger Games : La Révolte, partie 2",
-    director: "Francis Lawrence",
+    title: 'Hunger Games : La Révolte, partie 2',
+    director: 'Francis Lawrence',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -3198,8 +2944,8 @@ export const cassandreMovies: UserMovies = [
   },
 
   {
-    title: "Transformers",
-    director: "Michael Bay",
+    title: 'Transformers',
+    director: 'Michael Bay',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -3215,8 +2961,8 @@ export const cassandreMovies: UserMovies = [
   },
 
   {
-    title: "Transformers 2 : La Revanche",
-    director: "Michael Bay",
+    title: 'Transformers 2 : La Revanche',
+    director: 'Michael Bay',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -3232,8 +2978,8 @@ export const cassandreMovies: UserMovies = [
   },
 
   {
-    title: "Transformers 3 : La Face Cachée de la Lune",
-    director: "Michael Bay",
+    title: 'Transformers 3 : La Face Cachée de la Lune',
+    director: 'Michael Bay',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -3250,7 +2996,7 @@ export const cassandreMovies: UserMovies = [
 
   {
     title: "Transformers 4 : L'Âge de l'Extinction",
-    director: "Michael Bay",
+    director: 'Michael Bay',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -3266,8 +3012,8 @@ export const cassandreMovies: UserMovies = [
   },
 
   {
-    title: "Murder Mystery",
-    director: "Kyle Newacheck",
+    title: 'Murder Mystery',
+    director: 'Kyle Newacheck',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -3283,8 +3029,8 @@ export const cassandreMovies: UserMovies = [
   },
 
   {
-    title: "Murder Mystery 2",
-    director: "Jeremy Garelick",
+    title: 'Murder Mystery 2',
+    director: 'Jeremy Garelick',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -3300,8 +3046,8 @@ export const cassandreMovies: UserMovies = [
   },
 
   {
-    title: "Les Animaux Fantastiques 2 : Les crimes de Grindelwald",
-    director: "David Yates",
+    title: 'Les Animaux Fantastiques 2 : Les crimes de Grindelwald',
+    director: 'David Yates',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -3317,8 +3063,8 @@ export const cassandreMovies: UserMovies = [
   },
 
   {
-    title: "James Bond : Casino Royale",
-    director: "Martin Campbell",
+    title: 'James Bond : Casino Royale',
+    director: 'Martin Campbell',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -3334,8 +3080,8 @@ export const cassandreMovies: UserMovies = [
   },
 
   {
-    title: "Pirates des Caraïbes 2 : Le Secret du Coffre Maudit",
-    director: "Gore Verbinski",
+    title: 'Pirates des Caraïbes 2 : Le Secret du Coffre Maudit',
+    director: 'Gore Verbinski',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -3351,8 +3097,8 @@ export const cassandreMovies: UserMovies = [
   },
 
   {
-    title: "Taxi 2",
-    director: "Gérard Krawczyk",
+    title: 'Taxi 2',
+    director: 'Gérard Krawczyk',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -3368,8 +3114,8 @@ export const cassandreMovies: UserMovies = [
   },
 
   {
-    title: "Taxi 3",
-    director: "Gérard Krawczyk",
+    title: 'Taxi 3',
+    director: 'Gérard Krawczyk',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -3385,8 +3131,8 @@ export const cassandreMovies: UserMovies = [
   },
 
   {
-    title: "Kill Bill: Vol. 1",
-    director: "Quentin Tarantino",
+    title: 'Kill Bill: Vol. 1',
+    director: 'Quentin Tarantino',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -3402,8 +3148,8 @@ export const cassandreMovies: UserMovies = [
   },
 
   {
-    title: "Hellboy",
-    director: "Guillermo del Toro",
+    title: 'Hellboy',
+    director: 'Guillermo del Toro',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -3419,8 +3165,8 @@ export const cassandreMovies: UserMovies = [
   },
 
   {
-    title: "Underworld",
-    director: "Len Wiseman",
+    title: 'Underworld',
+    director: 'Len Wiseman',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -3436,8 +3182,8 @@ export const cassandreMovies: UserMovies = [
   },
 
   {
-    title: "Destination Finale 5",
-    director: "Steven Quale",
+    title: 'Destination Finale 5',
+    director: 'Steven Quale',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',

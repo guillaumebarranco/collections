@@ -355,7 +355,7 @@ export const baseBooksRomance: BaseBook[] = [
   {
     title: 'Cinquante nuances de Grey',
     author: 'E. L. James',
-    coverUrl: '/books_pictures/cinquante-nuances-de-grey.jpg',
+    coverUrl: 'https://m.media-amazon.com/images/I/710r2qqd7zL.jpg',
     pages: 528,
     genre: ['Romance', 'Dark Romance'],
     saga: 'Cinquante nuances',
@@ -368,7 +368,8 @@ export const baseBooksRomance: BaseBook[] = [
   {
     title: 'Cinquante nuances plus sombres',
     author: 'E. L. James',
-    coverUrl: '/books_pictures/cinquante-nuances-plus-sombres.jpg',
+    coverUrl:
+      'https://media.hachette.fr/fit-in/780x1280/imgArticle/LATTES/2012/9782709642538-X.jpg?source=web',
     pages: 544,
     genre: ['Romance', 'Dark Romance'],
     saga: 'Cinquante nuances',
@@ -381,7 +382,7 @@ export const baseBooksRomance: BaseBook[] = [
   {
     title: 'Cinquante nuances plus claires',
     author: 'E. L. James',
-    coverUrl: '/books_pictures/cinquante-nuances-plus-claires.jpg',
+    coverUrl: 'https://m.media-amazon.com/images/I/71rQoXZf1nL.jpg',
     pages: 544,
     genre: ['Romance', 'Dark Romance'],
     saga: 'Cinquante nuances',

@@ -2610,7 +2610,7 @@ export const amandineMovies2: UserMovies = [
     inList: [],
   },
   {
-    title: 'Drôles de dames',
+    title: 'Charlie et ses drôles de dames',
     director: 'McG',
     rating: 0,
     timesWatched: 1,

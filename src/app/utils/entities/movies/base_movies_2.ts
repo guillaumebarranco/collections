@@ -78,7 +78,8 @@ export const baseMoviesPage2: BaseMovie[] = [
         name: 'Yifei Liu',
       },
     ],
-    coverUrl: '/movies_pictures/mulan.jpg',
+    coverUrl:
+      'https://fr.web.img3.acsta.net/pictures/19/12/05/17/24/2034927.jpg',
     releaseDate: '2020-09-04',
     length: 115,
     genre: ['Action'],
@@ -182,19 +183,23 @@ export const baseMoviesPage2: BaseMovie[] = [
     director: 'Robert Rodriguez',
     actors: [
       {
-        name: "Rosa Salazar",
+        name: 'Rosa Salazar',
       },
       {
-        name: "Christoph Waltz",
-      }
+        name: 'Christoph Waltz',
+      },
     ],
-    coverUrl: "/movies_pictures/333832-alita-battle-angel-0-150-0-225-crop.jpg",
-    releaseDate: "2019-02-14",
+    coverUrl: '/movies_pictures/333832-alita-battle-angel-0-150-0-225-crop.jpg',
+    releaseDate: '2019-02-14',
     length: 122,
     genre: ['Action', 'Science Fiction'],
-    saga: "",
-    description: "",
-    fromEntity: { entityType: "manga", title: "Gunnm", secondEntityKey: "Yukito Kishiro" },
+    saga: '',
+    description: '',
+    fromEntity: {
+      entityType: 'manga',
+      title: 'Gunnm',
+      secondEntityKey: 'Yukito Kishiro',
+    },
     countryOrigin: ['États-Unis'],
   },
   {
@@ -236,18 +241,18 @@ export const baseMoviesPage2: BaseMovie[] = [
     director: 'Bradley Cooper',
     actors: [
       {
-        name: "Lady Gaga",
+        name: 'Lady Gaga',
       },
       {
-        name: "Bradley Cooper",
-      }
+        name: 'Bradley Cooper',
+      },
     ],
-    coverUrl: "/movies_pictures/261108-a-star-is-born-0-150-0-225-crop.jpg",
-    releaseDate: "2018-10-05",
+    coverUrl: '/movies_pictures/261108-a-star-is-born-0-150-0-225-crop.jpg',
+    releaseDate: '2018-10-05',
     length: 136,
     genre: ['Drame'],
-    saga: "",
-    description: "",
+    saga: '',
+    description: '',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
   },
@@ -439,15 +444,15 @@ export const baseMoviesPage2: BaseMovie[] = [
     director: 'Sidney Lumet',
     actors: [
       {
-        name: "Henry Fonda",
-      }
+        name: 'Henry Fonda',
+      },
     ],
-    coverUrl: "/movies_pictures/51700-12-angry-men-0-150-0-225-crop.jpg",
-    releaseDate: "1957-04-10",
+    coverUrl: '/movies_pictures/51700-12-angry-men-0-150-0-225-crop.jpg',
+    releaseDate: '1957-04-10',
     length: 96,
     genre: ['Drame', 'Mystère'],
-    saga: "",
-    description: "",
+    saga: '',
+    description: '',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
   },
@@ -642,24 +647,24 @@ export const baseMoviesPage2: BaseMovie[] = [
     director: 'Steven Spielberg',
     actors: [
       {
-        name: "Morgan Freeman",
+        name: 'Morgan Freeman',
       },
       {
-        name: "Anthony Hopkins",
+        name: 'Anthony Hopkins',
       },
       {
-        name: "Djimon Hounsou",
+        name: 'Djimon Hounsou',
       },
       {
-        name: "Matthew McConaughey",
-      }
+        name: 'Matthew McConaughey',
+      },
     ],
-    coverUrl: "/movies_pictures/51VKJJGV2NL._AC_UF1000,1000_QL80_.jpg",
-    releaseDate: "1997-12-10",
+    coverUrl: '/movies_pictures/51VKJJGV2NL._AC_UF1000,1000_QL80_.jpg',
+    releaseDate: '1997-12-10',
     length: 155,
     genre: ['Drame', 'Historique'],
-    saga: "",
-    description: "",
+    saga: '',
+    description: '',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
   },
@@ -958,17 +963,21 @@ export const baseMoviesPage2: BaseMovie[] = [
     director: 'Alain Chabat',
     actors: [
       {
-        name: "Gérard Depardieu",
-      }
+        name: 'Gérard Depardieu',
+      },
     ],
     coverUrl:
-      "/movies_pictures/50024-asterix-obelix-mission-cleopatra-0-150-0-225-crop.jpg",
-    releaseDate: "2002-01-30",
+      '/movies_pictures/50024-asterix-obelix-mission-cleopatra-0-150-0-225-crop.jpg',
+    releaseDate: '2002-01-30',
     length: 107,
     genre: ['Comédie'],
-    saga: "Astérix",
-    description: "",
-    fromEntity: { entityType: "bd", title: "Astérix et Cléopâtre", secondEntityKey: "René Goscinny" },
+    saga: 'Astérix',
+    description: '',
+    fromEntity: {
+      entityType: 'bd',
+      title: 'Astérix et Cléopâtre',
+      secondEntityKey: 'René Goscinny',
+    },
     countryOrigin: ['France'],
   },
   {
@@ -1100,16 +1109,20 @@ export const baseMoviesPage2: BaseMovie[] = [
     director: 'Roger Kumble',
     actors: [
       {
-        name: "Sarah Michelle Gellar",
-      }
+        name: 'Sarah Michelle Gellar',
+      },
     ],
-    coverUrl: "/movies_pictures/51356-cruel-intentions-0-150-0-225-crop.jpg",
-    releaseDate: "1999-03-05",
+    coverUrl: '/movies_pictures/51356-cruel-intentions-0-150-0-225-crop.jpg',
+    releaseDate: '1999-03-05',
     length: 97,
     genre: ['Drame'],
-    saga: "",
-    description: "",
-    fromEntity: { entityType: "book", title: "Les liaisons dangereuses", secondEntityKey: "Pierre Choderlos de Laclos" },
+    saga: '',
+    description: '',
+    fromEntity: {
+      entityType: 'book',
+      title: 'Les liaisons dangereuses',
+      secondEntityKey: 'Pierre Choderlos de Laclos',
+    },
     countryOrigin: ['États-Unis'],
   },
   {
@@ -1174,16 +1187,20 @@ export const baseMoviesPage2: BaseMovie[] = [
     director: 'Frank Darabont',
     actors: [
       {
-        name: "Tom Hanks",
-      }
+        name: 'Tom Hanks',
+      },
     ],
-    coverUrl: "/movies_pictures/51613-the-green-mile-0-150-0-225-crop.jpg",
-    releaseDate: "1999-12-10",
+    coverUrl: '/movies_pictures/51613-the-green-mile-0-150-0-225-crop.jpg',
+    releaseDate: '1999-12-10',
     length: 189,
     genre: ['Drame'],
-    saga: "",
-    description: "",
-    fromEntity: { entityType: "book", title: "La Ligne verte", secondEntityKey: "Stephen King" },
+    saga: '',
+    description: '',
+    fromEntity: {
+      entityType: 'book',
+      title: 'La Ligne verte',
+      secondEntityKey: 'Stephen King',
+    },
     countryOrigin: ['États-Unis'],
   },
   {
@@ -1191,19 +1208,19 @@ export const baseMoviesPage2: BaseMovie[] = [
     director: 'Gabriele Muccino',
     actors: [
       {
-        name: "Will Smith",
+        name: 'Will Smith',
       },
       {
-        name: "Jaden Smith",
-      }
+        name: 'Jaden Smith',
+      },
     ],
     coverUrl:
-      "/movies_pictures/51061-the-pursuit-of-happyness-0-150-0-225-crop.jpg",
-    releaseDate: "2006-12-15",
+      '/movies_pictures/51061-the-pursuit-of-happyness-0-150-0-225-crop.jpg',
+    releaseDate: '2006-12-15',
     length: 117,
     genre: ['Drame', 'Biographie'],
-    saga: "",
-    description: "",
+    saga: '',
+    description: '',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
   },
@@ -1517,25 +1534,25 @@ export const baseMoviesPage2: BaseMovie[] = [
     director: 'Judd Apatow',
     actors: [
       {
-        name: "Steve Carell",
+        name: 'Steve Carell',
       },
       {
-        name: "Seth Rogen",
+        name: 'Seth Rogen',
       },
       {
-        name: "Paull Rudd",
+        name: 'Paull Rudd',
       },
       {
-        name: "Catherine Keener",
-      }
+        name: 'Catherine Keener',
+      },
     ],
     coverUrl:
-      "/movies_pictures/48160-the-40-year-old-virgin-0-150-0-225-crop.jpg",
-    releaseDate: "2005-08-19",
+      '/movies_pictures/48160-the-40-year-old-virgin-0-150-0-225-crop.jpg',
+    releaseDate: '2005-08-19',
     length: 116,
     genre: ['Comédie'],
-    saga: "",
-    description: "",
+    saga: '',
+    description: '',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
   },
@@ -1657,16 +1674,20 @@ export const baseMoviesPage2: BaseMovie[] = [
     director: 'Chuck Russell',
     actors: [
       {
-        name: "Jim Carrey",
-      }
+        name: 'Jim Carrey',
+      },
     ],
-    coverUrl: "/movies_pictures/51298-the-mask-0-150-0-225-crop.jpg",
-    releaseDate: "1994-07-29",
+    coverUrl: '/movies_pictures/51298-the-mask-0-150-0-225-crop.jpg',
+    releaseDate: '1994-07-29',
     length: 101,
     genre: ['Comédie'],
-    saga: "",
-    description: "",
-    fromEntity: { entityType: "comic", title: "The Mask", secondEntityKey: "John Arcudi" },
+    saga: '',
+    description: '',
+    fromEntity: {
+      entityType: 'comic',
+      title: 'The Mask',
+      secondEntityKey: 'John Arcudi',
+    },
     countryOrigin: ['États-Unis'],
   },
   {

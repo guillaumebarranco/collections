@@ -32,7 +32,7 @@ export const gamesSortOptions: { value: string; label: string }[] = [
 ];
 
 export const gameViewOptions: { value: GameView; label: string }[] = [
-  { value: 'played', label: 'Jeux terminés' },
+  { value: 'played', label: 'Jeux joués' },
   { value: 'platined', label: 'Jeux platinés' },
   { value: 'gamelist', label: 'Jeux à jouer' },
   { value: 'owned', label: 'Jeux possédés' },

@@ -2,6 +2,7 @@ import { baseGames } from '../../utils/entities/games/base_games';
 import { baseGamesApi } from '../../utils/entities/games/base_games_api';
 import { baseGamesMario } from '../../utils/entities/games/base_games_mario';
 import { baseGamesAdaptations } from '../../utils/entities/games/base_games_adaptations';
+import { baseGamesAdaptations2 } from '../../utils/entities/games/base_games_adaptations_2';
 
 import { guillaumeGames } from '../../utils/users/guillaume/games';
 import { guillaumeGameListGames } from '../../utils/users/guillaume/games/guillaume_gamelist_games';
@@ -21,6 +22,7 @@ export const allBaseGames: BaseGame[] = [
   ...baseGamesApi,
   ...baseGamesMario,
   ...baseGamesAdaptations,
+  ...baseGamesAdaptations2,
 ];
 
 export function getLocalGamesByUser(userId: string): UserGame[] {

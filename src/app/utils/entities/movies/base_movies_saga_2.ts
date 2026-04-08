@@ -6,16 +6,20 @@ export const baseMoviesSagaPage2: BaseMovie[] = [
     director: 'Denis Villeneuve',
     actors: [
       {
-        name: "Timothée Chalamet",
-      }
+        name: 'Timothée Chalamet',
+      },
     ],
-    coverUrl: "/movies_pictures/4633954.jpg",
-    releaseDate: "2021-10-22",
+    coverUrl: '/movies_pictures/4633954.jpg',
+    releaseDate: '2021-10-22',
     length: 155,
     genre: ['Science Fiction'],
-    saga: "Dune",
-    description: "",
-    fromEntity: { entityType: "book", title: "Dune", secondEntityKey: "Frank Herbert" },
+    saga: 'Dune',
+    description: '',
+    fromEntity: {
+      entityType: 'book',
+      title: 'Dune',
+      secondEntityKey: 'Frank Herbert',
+    },
     countryOrigin: ['États-Unis'],
   },
   {
@@ -23,16 +27,20 @@ export const baseMoviesSagaPage2: BaseMovie[] = [
     director: 'Denis Villeneuve',
     actors: [
       {
-        name: "Timothée Chalamet",
-      }
+        name: 'Timothée Chalamet',
+      },
     ],
-    coverUrl: "/movies_pictures/5392835.jpg",
-    releaseDate: "2024-03-01",
+    coverUrl: '/movies_pictures/5392835.jpg',
+    releaseDate: '2024-03-01',
     length: 166,
     genre: ['Science Fiction'],
-    saga: "Dune",
-    description: "",
-    fromEntity: { entityType: "book", title: "Dune", secondEntityKey: "Frank Herbert" },
+    saga: 'Dune',
+    description: '',
+    fromEntity: {
+      entityType: 'book',
+      title: 'Dune',
+      secondEntityKey: 'Frank Herbert',
+    },
     countryOrigin: ['États-Unis'],
   },
   {
@@ -1545,7 +1553,8 @@ export const baseMoviesSagaPage2: BaseMovie[] = [
     title: 'Twilight : Chapitre 3 - Hésitation',
     director: 'David Slade',
     actors: [{ name: 'Kristen Stewart' }, { name: 'Robert Pattinson' }],
-    coverUrl: '/movies_pictures/hesitation.jpg',
+    coverUrl:
+      'https://fr.web.img6.acsta.net/medias/nmedia/18/73/05/75/19415045.jpg',
     releaseDate: '2010-06-30',
     length: 124,
     genre: ['Fantastique'],
