@@ -11,17 +11,21 @@ export const baseComicsApi: BaseComic[] = [
     saga: "Absolute Wonder Woman",
     sagaOrder: 1,
     description: "",
-  }
-,
+  },
   {
     title: "Absolute Martian Manhunter T.1",
     writer: "Deniz Camp",
     designer: "Javier Rodriguez",
+<<<<<<< Updated upstream
     coverUrl: "/comics_pictures/10ae5b76041f.jpg",
     pages: 0,
+=======
+    coverUrl: "https://m.media-amazon.com/images/I/81U5SBvhrjL._AC_UF1000,1000_QL80_.jpg",
+    pages: 152,
+>>>>>>> Stashed changes
     genre: "Super-héro",
     saga: "Absolute Martian Manhunter",
     sagaOrder: 1,
     description: "",
-  },
+  }
 ];
