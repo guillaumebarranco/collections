@@ -138,7 +138,7 @@ export const baseMoviesAnimated: BaseMovie[] = [
     description: '',
     fromEntity: {
       entityType: 'game',
-      title: 'Super Mario 2',
+      title: 'Super Mario Bros.',
       secondEntityKey: 'Nintendo',
     },
     countryOrigin: ['États-Unis'],

@@ -139,6 +139,66 @@ export type MixOrbitCoverInfo = {
   tooltip: string;
 };
 
+/** Films, séries et jeux : adaptations « transmedia » (hors lectures seules). */
+export function isAdaptationOrbitSatellite(
+  sat: BaseWorkOrbitSatellite
+): boolean {
+  return (
+    sat.kind === 'movie' ||
+    sat.kind === 'serie' ||
+    sat.kind === 'game'
+  );
+}
+
+/**
+ * Orbite double : ~⅓ des satellites sur l’anneau intérieur, ~⅔ sur l’extérieur
+ * (arrondi au satellite près).
+ */
+export function dualRingInnerSlotCount(total: number): number {
+  return Math.max(1, Math.min(total - 1, Math.round(total / 3)));
+}
+
+/**
+ * Répartit les satellites sur deux anneaux (~1/3 intérieur, ~2/3 extérieur) en
+ * gardant la proportion d’adaptations (film / série / jeu) sur chaque anneau.
+ */
+export function partitionOrbitSatellitesForDualRing(
+  sats: BaseWorkOrbitSatellite[]
+): { inner: BaseWorkOrbitSatellite[]; outer: BaseWorkOrbitSatellite[] } {
+  const total = sats.length;
+  const innerCount = dualRingInnerSlotCount(total);
+  const adaptPositions: number[] = [];
+  const staticPositions: number[] = [];
+  for (let i = 0; i < sats.length; i++) {
+    if (isAdaptationOrbitSatellite(sats[i])) {
+      adaptPositions.push(i);
+    } else {
+      staticPositions.push(i);
+    }
+  }
+  const adaptCount = adaptPositions.length;
+  const targetAdaptInner = Math.min(
+    adaptCount,
+    Math.round((adaptCount * innerCount) / total)
+  );
+  const staticInnerCount = innerCount - targetAdaptInner;
+  const innerAdaptSet = new Set(
+    adaptPositions.slice(0, targetAdaptInner)
+  );
+  const innerStaticSet = new Set(
+    staticPositions.slice(0, staticInnerCount)
+  );
+  const inner: BaseWorkOrbitSatellite[] = [];
+  for (let i = 0; i < sats.length; i++) {
+    if (innerAdaptSet.has(i) || innerStaticSet.has(i)) {
+      inner.push(sats[i]);
+    }
+  }
+  const innerIndexSet = new Set([...innerAdaptSet, ...innerStaticSet]);
+  const outer = sats.filter((_, i) => !innerIndexSet.has(i));
+  return { inner, outer };
+}
+
 /** Normalise pour recherche insensible aux accents et à la casse. */
 export function normalizeForMixBaseSearch(raw: string): string {
   return raw

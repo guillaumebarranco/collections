@@ -4169,7 +4169,7 @@ export const baseSeriesAnimees: BaseSerie[] = [
       },
     ],
     coverUrl:
-      'https://m.media-amazon.com/images/I/71eq50NPJ9L._AC_UF894,1000_QL80_.jpg',
+      '/series_pictures/3db9861d64f4.jpg',
     releaseDate: '',
     endDate: '',
     genre: ['Anime'],

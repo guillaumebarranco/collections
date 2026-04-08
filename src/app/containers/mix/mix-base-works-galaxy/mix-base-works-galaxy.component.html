@@ -172,6 +172,7 @@
           }
         </ul>
         } @else {
+        @let orbitDual = orbitDualRingPartition(panel.satellites);
         <ul
           class="mix-base-orbit-ring mix-base-orbit-ring--inner"
           role="list"
@@ -179,9 +180,9 @@
           [style.--orbit-radius.px]="
             orbitInnerRadiusPx(panel.satellites.length)
           "
-          [style.--orbit-n]="orbitDualRingThreshold"
+          [style.--orbit-n]="orbitDual.inner.length"
         >
-          @for (sat of orbitInnerSatellites(panel.satellites); track
+          @for (sat of orbitDual.inner; track
           trackOrbitSatellite(sat, $index)) { @let satCov = orbitSatelliteCover(sat);
           <li class="mix-base-orbit-slot" [style.--orbit-i]="$index">
             <div
@@ -218,9 +219,9 @@
           [style.--orbit-radius.px]="
             orbitOuterRadiusPx(panel.satellites.length)
           "
-          [style.--orbit-n]="orbitOuterCount(panel.satellites.length)"
+          [style.--orbit-n]="orbitDual.outer.length"
         >
-          @for (sat of orbitOuterSatellites(panel.satellites); track
+          @for (sat of orbitDual.outer; track
           trackOrbitSatellite(sat, $index)) { @let satCov = orbitSatelliteCover(sat);
           <li class="mix-base-orbit-slot" [style.--orbit-i]="$index">
             <div

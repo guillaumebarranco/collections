@@ -18,7 +18,7 @@ export const baseBooksThriller: BaseBook[] = [
     title: 'Anges et démons',
     author: 'Dan Brown',
     coverUrl:
-      'https://m.media-amazon.com/images/I/71cp7TUBpuL._AC_UF1000,1000_QL80_.jpg',
+      '/books_pictures/085e376a90d4.jpg',
     pages: 560,
     genre: ['Thriller'],
     saga: 'Robert Langdon',

@@ -35,6 +35,8 @@ import {
   normalizeForMixBaseSearch,
   serieEntityKey,
   mixBaseWorksCrossMediaScoreTooltip,
+  dualRingInnerSlotCount,
+  partitionOrbitSatellitesForDualRing,
 } from './mix-base-works-galaxy.helpers';
 
 /**
@@ -305,34 +307,27 @@ export class MixBaseWorksGalaxyComponent {
     return t.charAt(0).toLocaleUpperCase('fr');
   }
 
-  /** Au-delà : deux anneaux (50 + reste) pour éviter la cohue sur un seul cercle. */
+  /** Au-delà de ce seuil : deux anneaux (~⅓ intérieur, ~⅔ extérieur). */
   readonly orbitDualRingThreshold = 50;
 
   orbitUsesDualRing(satelliteCount: number): boolean {
     return satelliteCount > this.orbitDualRingThreshold;
   }
 
-  orbitInnerSatellites(
-    sats: BaseWorkOrbitSatellite[]
-  ): BaseWorkOrbitSatellite[] {
+  /** Anneaux intérieur / extérieur (~1/3 – 2/3) avec répartition équilibrée des adaptations. */
+  orbitDualRingPartition(sats: BaseWorkOrbitSatellite[]): {
+    inner: BaseWorkOrbitSatellite[];
+    outer: BaseWorkOrbitSatellite[];
+  } {
     if (sats.length <= this.orbitDualRingThreshold) {
-      return sats;
+      return { inner: sats, outer: [] };
     }
-    return sats.slice(0, this.orbitDualRingThreshold);
-  }
-
-  orbitOuterSatellites(
-    sats: BaseWorkOrbitSatellite[]
-  ): BaseWorkOrbitSatellite[] {
-    if (sats.length <= this.orbitDualRingThreshold) {
-      return [];
-    }
-    return sats.slice(this.orbitDualRingThreshold);
+    return partitionOrbitSatellitesForDualRing(sats);
   }
 
   orbitOuterCount(total: number): number {
     return total > this.orbitDualRingThreshold
-      ? total - this.orbitDualRingThreshold
+      ? total - dualRingInnerSlotCount(total)
       : 0;
   }
 
@@ -345,7 +340,7 @@ export class MixBaseWorksGalaxyComponent {
   orbitInnerRadiusPx(totalCount: number): number {
     const innerN =
       totalCount > this.orbitDualRingThreshold
-        ? this.orbitDualRingThreshold
+        ? dualRingInnerSlotCount(totalCount)
         : totalCount;
     return this.orbitRadiusPx(innerN);
   }
@@ -355,7 +350,7 @@ export class MixBaseWorksGalaxyComponent {
     if (outerN <= 0) {
       return 0;
     }
-    const innerR = this.orbitRadiusPx(this.orbitDualRingThreshold);
+    const innerR = this.orbitRadiusPx(dualRingInnerSlotCount(totalCount));
     return Math.min(560, innerR + 150 + Math.min(200, outerN * 4));
   }
 

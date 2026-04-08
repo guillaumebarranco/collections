@@ -1161,7 +1161,7 @@ export const baseMoviesApi: BaseMovie[] = [
       },
     ],
     coverUrl:
-      'https://www.american-cosmograph.fr/images/stories/flexicontent/item_3448_field_25/l_c3bc6cf442233c90f939016ec0230394.jpg',
+      '/movies_pictures/c039c5c0fa79.jpg',
     releaseDate: '2026-04-01',
     length: 106,
     genre: ['Drame'],
@@ -1188,7 +1188,7 @@ export const baseMoviesApi: BaseMovie[] = [
         name: "Will Poulter",
       }
     ],
-    coverUrl: "https://fr.web.img2.acsta.net/medias/nmedia/18/78/19/25/19539619.jpg",
+    coverUrl: "/movies_pictures/8641aa40a943.jpg",
     releaseDate: "2010-12-08",
     length: 117,
     genre: ['Fantastique', 'Aventure'],
