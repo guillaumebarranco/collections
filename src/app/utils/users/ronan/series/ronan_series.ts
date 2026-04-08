@@ -5735,4 +5735,35 @@ export const ronanSeries: UserSeries = [
     borrowed: "",
     loaned: "",
   },
+
+  {
+    title: "Shrinking",
+    director: "Brett Goldstein, Bill Lawrence, Jason Segel",
+    seasons: [
+      {
+        seasonNumber: 1,
+        seasonRating: 3.75,
+        seasonTimesWatched: 1,
+        lastViewedDate: "",
+      },
+      {
+        seasonNumber: 2,
+        seasonRating: 4,
+        seasonTimesWatched: 0,
+        lastViewedDate: "",
+      },
+      {
+        seasonNumber: 3,
+        seasonRating: 4,
+        seasonTimesWatched: 1,
+        lastViewedDate: "2026-04-08",
+      }
+    ],
+    owned: false,
+    watchPriority: 1,
+    wantToWatchAgain: false,
+    ratingComment: "",
+    borrowed: "",
+    loaned: "",
+  },
 ];

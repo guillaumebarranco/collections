@@ -12,4 +12,16 @@ export const baseComicsApi: BaseComic[] = [
     sagaOrder: 1,
     description: "",
   }
+,
+  {
+    title: "Absolute Martian Manhunter T.1",
+    writer: "Deniz Camp",
+    designer: "Javier Rodriguez",
+    coverUrl: "https://m.media-amazon.com/images/I/81U5SBvhrjL._AC_UF1000,1000_QL80_.jpg",
+    pages: 0,
+    genre: "Super-héro",
+    saga: "Absolute Martian Manhunter",
+    sagaOrder: 1,
+    description: "",
+  },
 ];

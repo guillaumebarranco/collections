@@ -128,7 +128,7 @@ export const kevinBooks: UserBooks = [
     loaned: '',
   },
   {
-    title: 'The Lost Hero (The Heroes of Olympus, #1)',
+    title: "Héros de l'Olympe, Tome 1 : Le Héros perdu",
     author: 'Rick Riordan',
     firstReadDate: '',
     lastReadDate: '',

@@ -3056,4 +3056,18 @@ export const ronanComics: UserComics = [
     borrowed: "",
     loaned: "",
   }
+,
+  {
+    title: "Absolute Martian Manhunter T.1",
+    writer: "Deniz Camp",
+    readDate: "2026-04-08",
+    rating: 4,
+    readTimes: 1,
+    owned: true,
+    readPriority: 1,
+    wantToReadAgain: false,
+    ratingComment: "",
+    borrowed: "",
+    loaned: "",
+  },
 ];

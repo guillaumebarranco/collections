@@ -1378,4 +1378,60 @@ export const baseSeriesApi: BaseSerie[] = [
     countryOrigin: 'France',
     saga: '',
   },
+
+  {
+    title: "Shrinking",
+    director: "Brett Goldstein, Bill Lawrence, Jason Segel",
+    actors: [
+      {
+        name: "Jason Segel",
+      },
+      {
+        name: "Harrison Ford",
+      },
+      {
+        name: "Jessica Williams",
+      },
+      {
+        name: "Christa Miller",
+      },
+      {
+        name: "Lukita Maxwell",
+      },
+      {
+        name: "Luke Tennie",
+      },
+      {
+        name: "Michael Urie",
+      },
+      {
+        name: "Ted McGinley",
+      },
+    ],
+    coverUrl: "https://m.media-amazon.com/images/M/MV5BYmU3Yjg0Y2UtN2E5Yy00NzYyLThlNzQtOTI2YWE2OWJhYTUyXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg",
+    releaseDate: "2023-01-27",
+    endDate: "",
+    genre: ['Comédie', 'Drame'],
+    seasonsData: [
+      {
+        seasonNumber: 1,
+        nbEpisodes: 10,
+        totalLength: 314,
+      },
+      {
+        seasonNumber: 2,
+        nbEpisodes: 12,
+        totalLength: 421,
+      },
+      {
+        seasonNumber: 3,
+        nbEpisodes: 11,
+        totalLength: 409,
+      },
+    ],
+    description: "",
+    countryOrigin: "États-Unis",
+    saga: "",
+    fromEntity: null,
+  },
 ];
