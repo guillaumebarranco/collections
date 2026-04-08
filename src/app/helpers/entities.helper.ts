@@ -182,6 +182,7 @@ export const getMangaDataFromUserMangaAndBaseManga = (
   readTimes: userManga.readTimes,
   coverUrl: baseManga?.coverUrl || '',
   genre: baseManga?.genre || '',
+  fromEntity: baseManga?.fromEntity ?? null,
   nbTomes: baseManga?.nbTomes || 0,
   isFinished: baseManga?.isFinished || false,
   owned: userManga.owned,

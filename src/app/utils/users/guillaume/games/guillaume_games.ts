@@ -157,6 +157,25 @@ export const guillaumeGames: UserGames = [
     ],
   },
   {
+    title: 'The Legend of Zelda: Tears of the Kingdom',
+    editor: 'Nintendo',
+    rating: 3.25,
+    owned: true,
+    gamelistPriority: 1,
+    wantToPlayAgain: false,
+    ratingComment: '',
+    borrowed: '',
+    loaned: '',
+    sessions: [
+      {
+        finishedGame: false,
+        finishedGameWithHundredPercent: false,
+        platinedGame: false,
+        additionnalEstimatedTime: 15,
+      },
+    ],
+  },
+  {
     title: 'The Legend of Zelda: A Link to the Past',
     editor: 'Nintendo',
     rating: 3.75,

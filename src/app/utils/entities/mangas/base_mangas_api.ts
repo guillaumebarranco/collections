@@ -9,5 +9,6 @@ export const baseMangasApi: BaseManga[] = [
     nbTomes: 61,
     isFinished: true,
     description: '',
+    fromEntity: null,
   },
 ];

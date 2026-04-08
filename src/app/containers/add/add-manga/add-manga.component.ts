@@ -166,7 +166,7 @@ export class AddMangaComponent {
         },
         body: JSON.stringify({
           userId: this.getUserId(),
-          entity,
+          entity: { ...entity, fromEntity: null },
           user,
         }),
       });

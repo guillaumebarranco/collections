@@ -96,6 +96,7 @@ export const getFullManga = (manga: BaseManga): Manga => ({
   genre: manga.genre,
   nbTomes: manga.nbTomes,
   isFinished: manga.isFinished,
+  fromEntity: manga.fromEntity,
   rating: 0,
   readDate: '',
   readTimes: 0,

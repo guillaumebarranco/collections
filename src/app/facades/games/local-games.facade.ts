@@ -1,5 +1,7 @@
 import { baseGames } from '../../utils/entities/games/base_games';
 import { baseGamesApi } from '../../utils/entities/games/base_games_api';
+import { baseGamesMario } from '../../utils/entities/games/base_games_mario';
+import { baseGamesAdaptations } from '../../utils/entities/games/base_games_adaptations';
 
 import { guillaumeGames } from '../../utils/users/guillaume/games';
 import { guillaumeGameListGames } from '../../utils/users/guillaume/games/guillaume_gamelist_games';
@@ -14,7 +16,12 @@ import { williamGames } from '../../utils/users/william/games/william_games';
 import { williamGameListGames } from '../../utils/users/william/games/william_gamelist_games';
 import { dantesGames } from '../../utils/users/dantes/games/dantes_games';
 
-export const allBaseGames: BaseGame[] = [...baseGames, ...baseGamesApi];
+export const allBaseGames: BaseGame[] = [
+  ...baseGames,
+  ...baseGamesApi,
+  ...baseGamesMario,
+  ...baseGamesAdaptations,
+];
 
 export function getLocalGamesByUser(userId: string): UserGame[] {
   switch (userId) {

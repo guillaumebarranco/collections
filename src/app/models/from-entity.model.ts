@@ -45,3 +45,13 @@ export type GameFromEntityType = MovieFromEntityType | 'movie';
 export interface GameFromEntityAdaptation extends FromEntitySourceBase {
   entityType: GameFromEntityType;
 }
+
+/**
+ * Types d’œuvre dont un manga catalogue peut être une adaptation
+ * (light novel, film, jeu, autre série, etc.).
+ */
+export type MangaFromEntityType = MovieFromEntityType | 'movie';
+
+export interface MangaFromEntityAdaptation extends FromEntitySourceBase {
+  entityType: MangaFromEntityType;
+}

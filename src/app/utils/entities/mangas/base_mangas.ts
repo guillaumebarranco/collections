@@ -9,6 +9,7 @@ export const baseMangas: BaseManga[] = [
     nbTomes: 35,
     isFinished: true,
     description: '',
+    fromEntity: null,
   },
   {
     title: 'Naruto',
@@ -18,6 +19,7 @@ export const baseMangas: BaseManga[] = [
     nbTomes: 72,
     isFinished: true,
     description: '',
+    fromEntity: null,
   },
   {
     title: 'Kingdom',
@@ -27,6 +29,7 @@ export const baseMangas: BaseManga[] = [
     nbTomes: 75,
     isFinished: false,
     description: '',
+    fromEntity: null,
   },
   {
     title: 'Eyeshield 21',
@@ -36,6 +39,7 @@ export const baseMangas: BaseManga[] = [
     nbTomes: 37,
     isFinished: true,
     description: '',
+    fromEntity: null,
   },
   {
     title: 'My Hero Academia',
@@ -45,6 +49,7 @@ export const baseMangas: BaseManga[] = [
     nbTomes: 15,
     isFinished: false,
     description: '',
+    fromEntity: null,
   },
   {
     title: 'Black Clover',
@@ -54,6 +59,7 @@ export const baseMangas: BaseManga[] = [
     nbTomes: 11,
     isFinished: true,
     description: '',
+    fromEntity: null,
   },
   {
     title: 'Boruto',
@@ -63,6 +69,7 @@ export const baseMangas: BaseManga[] = [
     nbTomes: 20,
     isFinished: false,
     description: '',
+    fromEntity: null,
   },
   {
     title: 'Dandadan',
@@ -72,6 +79,7 @@ export const baseMangas: BaseManga[] = [
     nbTomes: 12,
     isFinished: false,
     description: '',
+    fromEntity: null,
   },
   {
     title: 'Nisekoi',
@@ -81,6 +89,7 @@ export const baseMangas: BaseManga[] = [
     nbTomes: 25,
     isFinished: true,
     description: '',
+    fromEntity: null,
   },
   {
     title: 'Dreamland',
@@ -90,6 +99,7 @@ export const baseMangas: BaseManga[] = [
     nbTomes: 16,
     isFinished: true,
     description: '',
+    fromEntity: null,
   },
   {
     title: 'Saru Lock',
@@ -99,6 +109,7 @@ export const baseMangas: BaseManga[] = [
     nbTomes: 22,
     isFinished: true,
     description: '',
+    fromEntity: null,
   },
   {
     title: 'Hi No Tori',
@@ -108,6 +119,7 @@ export const baseMangas: BaseManga[] = [
     nbTomes: 21,
     isFinished: true,
     description: '',
+    fromEntity: null,
   },
   {
     title: 'Pretty Face',
@@ -117,6 +129,7 @@ export const baseMangas: BaseManga[] = [
     nbTomes: 6,
     isFinished: true,
     description: '',
+    fromEntity: null,
   },
   {
     title: 'Dragon Ball',
@@ -126,6 +139,7 @@ export const baseMangas: BaseManga[] = [
     nbTomes: 42,
     isFinished: true,
     description: '',
+    fromEntity: null,
   },
   {
     title: 'Dragon Ball Super',
@@ -135,6 +149,7 @@ export const baseMangas: BaseManga[] = [
     nbTomes: 22,
     isFinished: false,
     description: '',
+    fromEntity: null,
   },
   {
     title: 'OnePunch-Man',
@@ -144,6 +159,7 @@ export const baseMangas: BaseManga[] = [
     nbTomes: 14,
     isFinished: false,
     description: '',
+    fromEntity: null,
   },
   {
     title: 'GTO',
@@ -153,6 +169,7 @@ export const baseMangas: BaseManga[] = [
     nbTomes: 25,
     isFinished: true,
     description: '',
+    fromEntity: null,
   },
   {
     title: 'Captain Tsubasa',
@@ -162,6 +179,7 @@ export const baseMangas: BaseManga[] = [
     nbTomes: 37,
     isFinished: true,
     description: '',
+    fromEntity: null,
   },
   {
     title: 'Slam Dunk',
@@ -171,6 +189,7 @@ export const baseMangas: BaseManga[] = [
     nbTomes: 31,
     isFinished: true,
     description: '',
+    fromEntity: null,
   },
   {
     title: "Darwin's Game",
@@ -180,6 +199,7 @@ export const baseMangas: BaseManga[] = [
     nbTomes: 8,
     isFinished: false,
     description: '',
+    fromEntity: null,
   },
   {
     title: 'Hikaru No Go',
@@ -189,6 +209,7 @@ export const baseMangas: BaseManga[] = [
     nbTomes: 23,
     isFinished: true,
     description: '',
+    fromEntity: null,
   },
   {
     title: 'Rave',
@@ -198,6 +219,7 @@ export const baseMangas: BaseManga[] = [
     nbTomes: 35,
     isFinished: true,
     description: '',
+    fromEntity: null,
   },
   {
     title: 'Kuroko No Basket',
@@ -207,6 +229,7 @@ export const baseMangas: BaseManga[] = [
     nbTomes: 30,
     isFinished: true,
     description: '',
+    fromEntity: null,
   },
   {
     title: 'Code:breaker',
@@ -216,6 +239,7 @@ export const baseMangas: BaseManga[] = [
     nbTomes: 26,
     isFinished: true,
     description: '',
+    fromEntity: null,
   },
   {
     title: 'Reborn',
@@ -225,6 +249,7 @@ export const baseMangas: BaseManga[] = [
     nbTomes: 42,
     isFinished: true,
     description: '',
+    fromEntity: null,
   },
   {
     title: 'Bakuman',
@@ -234,6 +259,7 @@ export const baseMangas: BaseManga[] = [
     nbTomes: 20,
     isFinished: true,
     description: '',
+    fromEntity: null,
   },
   {
     title: 'Jackals',
@@ -243,6 +269,7 @@ export const baseMangas: BaseManga[] = [
     nbTomes: 6,
     isFinished: true,
     description: '',
+    fromEntity: null,
   },
   {
     title: 'Magi The Labyrinth of Magic',
@@ -252,6 +279,7 @@ export const baseMangas: BaseManga[] = [
     nbTomes: 37,
     isFinished: false,
     description: '',
+    fromEntity: null,
   },
   {
     title: 'Yu Yu Hakusho',
@@ -261,6 +289,7 @@ export const baseMangas: BaseManga[] = [
     nbTomes: 19,
     isFinished: true,
     description: '',
+    fromEntity: null,
   },
   {
     title: 'Fullmetal Alchemist',
@@ -270,6 +299,7 @@ export const baseMangas: BaseManga[] = [
     nbTomes: 27,
     isFinished: true,
     description: '',
+    fromEntity: null,
   },
   {
     title: 'Ginga Patrol Jako',
@@ -279,6 +309,7 @@ export const baseMangas: BaseManga[] = [
     nbTomes: 1,
     isFinished: true,
     description: '',
+    fromEntity: null,
   },
   {
     title: 'Gamble fish',
@@ -288,6 +319,7 @@ export const baseMangas: BaseManga[] = [
     nbTomes: 19,
     isFinished: true,
     description: '',
+    fromEntity: null,
   },
   {
     title: 'Tonari no Seki-kun',
@@ -297,6 +329,7 @@ export const baseMangas: BaseManga[] = [
     nbTomes: 12,
     isFinished: false,
     description: '',
+    fromEntity: null,
   },
   {
     title: 'Puella Magi Madoka Magica',
@@ -306,6 +339,7 @@ export const baseMangas: BaseManga[] = [
     nbTomes: 3,
     isFinished: true,
     description: '',
+    fromEntity: null,
   },
   {
     title: 'Nanatsu No Taizai',
@@ -315,6 +349,7 @@ export const baseMangas: BaseManga[] = [
     nbTomes: 41,
     isFinished: true,
     description: '',
+    fromEntity: null,
   },
   {
     title: 'Black Cat',
@@ -324,6 +359,7 @@ export const baseMangas: BaseManga[] = [
     nbTomes: 20,
     isFinished: true,
     description: '',
+    fromEntity: null,
   },
   {
     title: 'Shaman king',
@@ -333,6 +369,7 @@ export const baseMangas: BaseManga[] = [
     nbTomes: 32,
     isFinished: true,
     description: '',
+    fromEntity: null,
   },
   {
     title: 'Doubt',
@@ -342,6 +379,7 @@ export const baseMangas: BaseManga[] = [
     nbTomes: 6,
     isFinished: true,
     description: '',
+    fromEntity: null,
   },
   {
     title: 'Shokugeki no Soma',
@@ -351,6 +389,7 @@ export const baseMangas: BaseManga[] = [
     nbTomes: 36,
     isFinished: false,
     description: '',
+    fromEntity: null,
   },
   {
     title: 'Blue Dragon : Ral Ω Grad',
@@ -360,6 +399,7 @@ export const baseMangas: BaseManga[] = [
     nbTomes: 4,
     isFinished: true,
     description: '',
+    fromEntity: null,
   },
   {
     title: 'One Piece',
@@ -369,6 +409,7 @@ export const baseMangas: BaseManga[] = [
     nbTomes: 111,
     isFinished: false,
     description: '',
+    fromEntity: null,
   },
   {
     title: 'Kenshin le Vagabond',
@@ -378,6 +419,7 @@ export const baseMangas: BaseManga[] = [
     nbTomes: 28,
     isFinished: true,
     description: '',
+    fromEntity: null,
   },
   {
     title: 'Feng Shen Ji',
@@ -387,6 +429,7 @@ export const baseMangas: BaseManga[] = [
     nbTomes: 20,
     isFinished: true,
     description: '',
+    fromEntity: null,
   },
   {
     title: 'Toriko',
@@ -396,6 +439,7 @@ export const baseMangas: BaseManga[] = [
     nbTomes: 43,
     isFinished: true,
     description: '',
+    fromEntity: null,
   },
   {
     title: 'Satan 666',
@@ -405,6 +449,7 @@ export const baseMangas: BaseManga[] = [
     nbTomes: 19,
     isFinished: true,
     description: '',
+    fromEntity: null,
   },
   {
     title: 'Worst',
@@ -414,6 +459,7 @@ export const baseMangas: BaseManga[] = [
     nbTomes: 33,
     isFinished: true,
     description: '',
+    fromEntity: null,
   },
   {
     title: 'Akame Ga Kill',
@@ -423,6 +469,7 @@ export const baseMangas: BaseManga[] = [
     nbTomes: 15,
     isFinished: false,
     description: '',
+    fromEntity: null,
   },
   {
     title: 'Death Note',
@@ -432,6 +479,7 @@ export const baseMangas: BaseManga[] = [
     nbTomes: 13,
     isFinished: true,
     description: '',
+    fromEntity: null,
   },
   {
     title: 'Assassination Classroom',
@@ -441,6 +489,7 @@ export const baseMangas: BaseManga[] = [
     nbTomes: 22,
     isFinished: true,
     description: '',
+    fromEntity: null,
   },
   {
     title: 'Karate Shoukoushi Kohinata Minoru',
@@ -450,6 +499,7 @@ export const baseMangas: BaseManga[] = [
     nbTomes: 25,
     isFinished: false,
     description: '',
+    fromEntity: null,
   },
   {
     title: 'Hunter X Hunter',
@@ -459,6 +509,7 @@ export const baseMangas: BaseManga[] = [
     nbTomes: 38,
     isFinished: false,
     description: '',
+    fromEntity: null,
   },
   {
     title: 'Beelzebub',
@@ -468,6 +519,7 @@ export const baseMangas: BaseManga[] = [
     nbTomes: 28,
     isFinished: true,
     description: '',
+    fromEntity: null,
   },
   {
     title: "L'attaque des titans",
@@ -477,6 +529,7 @@ export const baseMangas: BaseManga[] = [
     nbTomes: 34,
     isFinished: false,
     description: '',
+    fromEntity: null,
   },
   {
     title: 'Claymore',
@@ -486,6 +539,7 @@ export const baseMangas: BaseManga[] = [
     nbTomes: 27,
     isFinished: true,
     description: '',
+    fromEntity: null,
   },
   {
     title: 'Ashita No Joe',
@@ -495,6 +549,7 @@ export const baseMangas: BaseManga[] = [
     nbTomes: 12,
     isFinished: true,
     description: '',
+    fromEntity: null,
   },
   {
     title: 'Gamaran',
@@ -504,6 +559,7 @@ export const baseMangas: BaseManga[] = [
     nbTomes: 20,
     isFinished: true,
     description: '',
+    fromEntity: null,
   },
   {
     title: 'Terra Formars',
@@ -513,6 +569,7 @@ export const baseMangas: BaseManga[] = [
     nbTomes: 22,
     isFinished: true,
     description: '',
+    fromEntity: null,
   },
   {
     title: 'World Trigger',
@@ -522,6 +579,7 @@ export const baseMangas: BaseManga[] = [
     nbTomes: 23,
     isFinished: true,
     description: '',
+    fromEntity: null,
   },
   {
     title: 'The Breaker',
@@ -531,6 +589,7 @@ export const baseMangas: BaseManga[] = [
     nbTomes: 10,
     isFinished: true,
     description: '',
+    fromEntity: null,
   },
   {
     title: 'Asu No Yoichi',
@@ -540,6 +599,7 @@ export const baseMangas: BaseManga[] = [
     nbTomes: 4,
     isFinished: true,
     description: '',
+    fromEntity: null,
   },
   {
     title: 'Ken-ichi, le disciple ultime',
@@ -549,6 +609,7 @@ export const baseMangas: BaseManga[] = [
     nbTomes: 61,
     isFinished: true,
     description: '',
+    fromEntity: null,
   },
   {
     title: 'Yu-Gi-Oh!',
@@ -558,6 +619,7 @@ export const baseMangas: BaseManga[] = [
     nbTomes: 37,
     isFinished: true,
     description: '',
+    fromEntity: null,
   },
   {
     title: 'Bleach',
@@ -567,6 +629,7 @@ export const baseMangas: BaseManga[] = [
     nbTomes: 74,
     isFinished: true,
     description: '',
+    fromEntity: null,
   },
   {
     title: 'Lui Ou Rien !',
@@ -576,6 +639,7 @@ export const baseMangas: BaseManga[] = [
     nbTomes: 6,
     isFinished: true,
     description: '',
+    fromEntity: null,
   },
   {
     title: 'All You Need Is Kill',
@@ -585,6 +649,7 @@ export const baseMangas: BaseManga[] = [
     nbTomes: 2,
     isFinished: true,
     description: '',
+    fromEntity: null,
   },
   {
     title: 'Crows',
@@ -594,6 +659,7 @@ export const baseMangas: BaseManga[] = [
     nbTomes: 26,
     isFinished: true,
     description: '',
+    fromEntity: null,
   },
   {
     title: 'Détective Conan',
@@ -603,6 +669,7 @@ export const baseMangas: BaseManga[] = [
     nbTomes: 103,
     isFinished: true,
     description: '',
+    fromEntity: null,
   },
   {
     title: 'Hinomaru Zumou',
@@ -612,6 +679,7 @@ export const baseMangas: BaseManga[] = [
     nbTomes: 28,
     isFinished: false,
     description: '',
+    fromEntity: null,
   },
   {
     title: 'Haikyū!!',
@@ -621,6 +689,7 @@ export const baseMangas: BaseManga[] = [
     nbTomes: 45,
     isFinished: false,
     description: '',
+    fromEntity: null,
   },
   {
     title: 'The Promised Neverland',
@@ -630,6 +699,7 @@ export const baseMangas: BaseManga[] = [
     nbTomes: 20,
     isFinished: false,
     description: '',
+    fromEntity: null,
   },
   {
     title: 'Gunnm',
@@ -639,6 +709,7 @@ export const baseMangas: BaseManga[] = [
     nbTomes: 9,
     isFinished: true,
     description: '',
+    fromEntity: null,
   },
   {
     title: 'Hajime no Ippo',
@@ -648,6 +719,7 @@ export const baseMangas: BaseManga[] = [
     nbTomes: 143,
     isFinished: false,
     description: '',
+    fromEntity: null,
   },
   {
     title: 'Jujutsu Kaisen',
@@ -657,6 +729,7 @@ export const baseMangas: BaseManga[] = [
     nbTomes: 30,
     isFinished: true,
     description: '',
+    fromEntity: null,
   },
   {
     title: 'Demon Slayer',
@@ -666,6 +739,7 @@ export const baseMangas: BaseManga[] = [
     nbTomes: 23,
     isFinished: true,
     description: '',
+    fromEntity: null,
   },
   {
     title: "JoJo's Bizarre Adventure",
@@ -675,6 +749,7 @@ export const baseMangas: BaseManga[] = [
     nbTomes: 136,
     isFinished: false,
     description: '',
+    fromEntity: null,
   },
   {
     title: 'Captain Tsubasa : World Youth',
@@ -684,6 +759,7 @@ export const baseMangas: BaseManga[] = [
     nbTomes: 18,
     isFinished: true,
     description: '',
+    fromEntity: null,
   },
   {
     title: 'Captain Tsubasa: Road to 2002',
@@ -694,6 +770,7 @@ export const baseMangas: BaseManga[] = [
     nbTomes: 15,
     isFinished: true,
     description: '',
+    fromEntity: null,
   },
   {
     title: 'Captain Tsubasa: Golden 23',
@@ -703,6 +780,7 @@ export const baseMangas: BaseManga[] = [
     nbTomes: 12,
     isFinished: true,
     description: '',
+    fromEntity: null,
   },
   {
     title: 'Captain Tsubasa: Rising Sun',
@@ -712,6 +790,7 @@ export const baseMangas: BaseManga[] = [
     nbTomes: 20,
     isFinished: false,
     description: '',
+    fromEntity: null,
   },
   {
     title: 'Spy x Family',
@@ -721,6 +800,7 @@ export const baseMangas: BaseManga[] = [
     nbTomes: 13,
     isFinished: false,
     description: '',
+    fromEntity: null,
   },
   {
     title: 'Chainsaw Man',
@@ -730,6 +810,7 @@ export const baseMangas: BaseManga[] = [
     nbTomes: 16,
     isFinished: false,
     description: '',
+    fromEntity: null,
   },
   {
     title: 'Platinum End',
@@ -739,6 +820,7 @@ export const baseMangas: BaseManga[] = [
     nbTomes: 14,
     isFinished: true,
     description: '',
+    fromEntity: null,
   },
   {
     title: 'The Legend Of Zelda',
@@ -748,6 +830,11 @@ export const baseMangas: BaseManga[] = [
     nbTomes: 10,
     isFinished: false,
     description: '',
+    fromEntity: {
+      entityType: 'game',
+      title: 'The Legend of Zelda',
+      secondEntityKey: 'Nintendo',
+    },
   },
   {
     title: 'Vagabond',
@@ -757,6 +844,7 @@ export const baseMangas: BaseManga[] = [
     nbTomes: 37,
     isFinished: false,
     description: '',
+    fromEntity: null,
   },
   {
     title: 'Ken le Survivant',
@@ -766,6 +854,7 @@ export const baseMangas: BaseManga[] = [
     nbTomes: 27,
     isFinished: true,
     description: '',
+    fromEntity: null,
   },
   {
     title: "Gen d'Hiroshima",
@@ -775,6 +864,7 @@ export const baseMangas: BaseManga[] = [
     nbTomes: 10,
     isFinished: true,
     description: '',
+    fromEntity: null,
   },
   {
     title: 'Baki',
@@ -784,6 +874,7 @@ export const baseMangas: BaseManga[] = [
     nbTomes: 42,
     isFinished: false,
     description: '',
+    fromEntity: null,
   },
   {
     title: 'Berserk',
@@ -793,36 +884,37 @@ export const baseMangas: BaseManga[] = [
     nbTomes: 41,
     isFinished: false,
     description: '',
+    fromEntity: null,
   },
   {
     title: 'Gintama',
     author: 'Hideaki Sorachi',
-    coverUrl:
-      '/mangas_pictures/3d4265e85036.jpg',
+    coverUrl: '/mangas_pictures/3d4265e85036.jpg',
     genre: 'Shonen',
     nbTomes: 77,
     isFinished: true,
     description: '',
+    fromEntity: null,
   },
   {
     title: 'Blue Lock',
     author: 'Muneyuki Kaneshiro, Yusuke Nomura',
-    coverUrl:
-      '/mangas_pictures/ae5c62313291.jpg',
+    coverUrl: '/mangas_pictures/ae5c62313291.jpg',
     genre: 'Shonen',
     nbTomes: 30,
     isFinished: false,
     description: '',
+    fromEntity: null,
   },
   {
     title: 'Nana',
     author: 'Ai Yazawa',
-    coverUrl:
-      '/mangas_pictures/65615fd351ef.jpg',
+    coverUrl: '/mangas_pictures/65615fd351ef.jpg',
     genre: 'Shojo',
     nbTomes: 21,
     isFinished: false,
     description: '',
+    fromEntity: null,
   },
   {
     title: 'Tokyo Ghoul',
@@ -832,46 +924,47 @@ export const baseMangas: BaseManga[] = [
     nbTomes: 14,
     isFinished: true,
     description: '',
+    fromEntity: null,
   },
   {
     title: 'Bastard!!',
     author: 'Kazushi Hagiwara',
-    coverUrl:
-      '/mangas_pictures/c0af62f00564.jpg',
+    coverUrl: '/mangas_pictures/c0af62f00564.jpg',
     genre: 'Shonen',
     nbTomes: 27,
     isFinished: false,
     description: '',
+    fromEntity: null,
   },
   {
     title: 'Frieren',
     author: 'Kanehito Yamada, Tsukasa Abe',
-    coverUrl:
-      '/mangas_pictures/e0d7a913566f.webp',
+    coverUrl: '/mangas_pictures/e0d7a913566f.webp',
     genre: 'Shonen',
     nbTomes: 14,
     isFinished: false,
     description: '',
+    fromEntity: null,
   },
   {
     title: 'Black Butler',
     author: 'Yana Toboso',
-    coverUrl:
-      '/mangas_pictures/130940232ac0.webp',
+    coverUrl: '/mangas_pictures/130940232ac0.webp',
     genre: 'Shonen',
     nbTomes: 34,
     isFinished: false,
     description: '',
+    fromEntity: null,
   },
   {
     title: 'Oshi no Ko',
     author: 'Aka Akasaka, Mengo Yokoyari',
-    coverUrl:
-      '/mangas_pictures/49456fd3b08f.jpg',
+    coverUrl: '/mangas_pictures/49456fd3b08f.jpg',
     genre: 'Seinen',
     nbTomes: 16,
     isFinished: true,
     description: '',
+    fromEntity: null,
   },
   {
     title: 'Blue Exorcist',
@@ -881,76 +974,77 @@ export const baseMangas: BaseManga[] = [
     nbTomes: 28,
     isFinished: false,
     description: '',
+    fromEntity: null,
   },
   {
     title: 'D.Gray-man',
     author: 'Katsura Hoshino',
-    coverUrl:
-      '/mangas_pictures/06930915190a.jpg',
+    coverUrl: '/mangas_pictures/06930915190a.jpg',
     genre: 'Shonen',
     nbTomes: 27,
     isFinished: false,
     description: '',
+    fromEntity: null,
   },
   {
     title: 'Gantz',
     author: 'Hiroya Oku',
-    coverUrl:
-      '/mangas_pictures/f3cf757052c0.jpeg',
+    coverUrl: '/mangas_pictures/f3cf757052c0.jpeg',
     genre: 'Seinen',
     nbTomes: 37,
     isFinished: true,
     description: '',
+    fromEntity: null,
   },
   {
     title: 'Soul Eater',
     author: 'Atsushi Ōkubo',
-    coverUrl:
-      '/mangas_pictures/8823f53552e8.webp',
+    coverUrl: '/mangas_pictures/8823f53552e8.webp',
     genre: 'Shonen',
     nbTomes: 25,
     isFinished: true,
     description: '',
+    fromEntity: null,
   },
   {
     title: 'Monster',
     author: 'Naoki Urasawa',
-    coverUrl:
-      '/mangas_pictures/64749eb0f0e4.jpg',
+    coverUrl: '/mangas_pictures/64749eb0f0e4.jpg',
     genre: 'Seinen',
     nbTomes: 18,
     isFinished: true,
     description: '',
+    fromEntity: null,
   },
   {
     title: 'Beck',
     author: 'Harold Sakuishi',
-    coverUrl:
-      '/mangas_pictures/361aa6cc0bd7.webp',
+    coverUrl: '/mangas_pictures/361aa6cc0bd7.webp',
     genre: 'Seinen',
     nbTomes: 34,
     isFinished: true,
     description: '',
+    fromEntity: null,
   },
   {
     title: 'Sakamoto Days',
     author: 'Yuto Suzuki',
-    coverUrl:
-      '/mangas_pictures/05dd818d6823.webp',
+    coverUrl: '/mangas_pictures/05dd818d6823.webp',
     genre: 'Shonen',
     nbTomes: 20,
     isFinished: false,
     description: '',
+    fromEntity: null,
   },
   {
     title: 'Vinland Saga',
     author: 'Makoto Yukimura',
-    coverUrl:
-      '/mangas_pictures/6a375cb6ad44.jpeg',
+    coverUrl: '/mangas_pictures/6a375cb6ad44.jpeg',
     genre: 'Seinen',
     nbTomes: 28,
     isFinished: false,
     description: '',
+    fromEntity: null,
   },
   {
     title: 'Doraemon',
@@ -960,76 +1054,77 @@ export const baseMangas: BaseManga[] = [
     nbTomes: 45,
     isFinished: true,
     description: '',
+    fromEntity: null,
   },
   {
     title: 'Tokyo Revengers',
     author: 'Ken Wakui',
-    coverUrl:
-      '/mangas_pictures/2bbdd82c9dac.webp',
+    coverUrl: '/mangas_pictures/2bbdd82c9dac.webp',
     genre: 'Shonen',
     nbTomes: 31,
     isFinished: true,
     description: '',
+    fromEntity: null,
   },
   {
     title: 'Young GTO',
     author: 'Tōru Fujisawa',
-    coverUrl:
-      '/mangas_pictures/34ae4e3f0d1e.webp',
+    coverUrl: '/mangas_pictures/34ae4e3f0d1e.webp',
     genre: 'Shonen',
     nbTomes: 31,
     isFinished: true,
     description: '',
+    fromEntity: null,
   },
   {
     title: "Les Carnets de l'Apothicaire",
     author: 'Natsu Hyūga, Nekokurage',
-    coverUrl:
-      '/mangas_pictures/ce3970529fc6.jpg',
+    coverUrl: '/mangas_pictures/ce3970529fc6.jpg',
     genre: 'Seinen',
     nbTomes: 14,
     isFinished: false,
     description: '',
+    fromEntity: null,
   },
   {
     title: 'Pandora Hearts',
     author: 'Jun Mochizuki',
-    coverUrl:
-      '/mangas_pictures/d15850243315.jpg',
+    coverUrl: '/mangas_pictures/d15850243315.jpg',
     genre: 'Shonen',
     nbTomes: 24,
     isFinished: true,
     description: '',
+    fromEntity: null,
   },
   {
     title: 'Blue Spring Ride',
     author: 'Io Sakisaka',
-    coverUrl:
-      '/mangas_pictures/3625ac54c666.jpg',
+    coverUrl: '/mangas_pictures/3625ac54c666.jpg',
     genre: 'Shojo',
     nbTomes: 13,
     isFinished: true,
     description: '',
+    fromEntity: null,
   },
   {
     title: 'Horimiya',
     author: 'HERO, Daisuke Hagiwara',
-    coverUrl:
-      '/mangas_pictures/61f1ea6d56f1.webp',
+    coverUrl: '/mangas_pictures/61f1ea6d56f1.webp',
     genre: 'Shojo',
     nbTomes: 16,
     isFinished: true,
     description: '',
+    fromEntity: null,
   },
   {
     title: 'Moriarty',
     author: 'Ryosuke Takeuchi, Hikaru Miyoshi',
-    coverUrl:
-      '/mangas_pictures/3cb31494bdbe.webp',
+    coverUrl: '/mangas_pictures/3cb31494bdbe.webp',
     genre: 'Shonen',
     nbTomes: 17,
     isFinished: true,
     description: '',
+    fromEntity: null,
   },
   {
     title: '20th Century Boys',
@@ -1039,6 +1134,7 @@ export const baseMangas: BaseManga[] = [
     nbTomes: 22,
     isFinished: true,
     description: '',
+    fromEntity: null,
   },
   {
     title: 'Radiant',
@@ -1048,26 +1144,27 @@ export const baseMangas: BaseManga[] = [
     nbTomes: 20,
     isFinished: false,
     description: '',
+    fromEntity: null,
   },
   {
     title: 'Sun-Ken Rock',
     author: 'Boichi',
-    coverUrl:
-      '/mangas_pictures/8bcb1386c45e.webp',
+    coverUrl: '/mangas_pictures/8bcb1386c45e.webp',
     genre: 'Seinen',
     nbTomes: 25,
     isFinished: true,
     description: '',
+    fromEntity: null,
   },
   {
     title: 'Love Hina',
     author: 'Ken Akamatsu',
-    coverUrl:
-      '/mangas_pictures/48ff061b5925.jpg',
+    coverUrl: '/mangas_pictures/48ff061b5925.jpg',
     genre: 'Shonen',
     nbTomes: 14,
     isFinished: true,
     description: '',
+    fromEntity: null,
   },
   {
     title: 'AKIRA',
@@ -1077,6 +1174,7 @@ export const baseMangas: BaseManga[] = [
     nbTomes: 6,
     isFinished: true,
     description: '',
+    fromEntity: null,
   },
   {
     title: 'Another',
@@ -1086,76 +1184,77 @@ export const baseMangas: BaseManga[] = [
     nbTomes: 4,
     isFinished: true,
     description: '',
+    fromEntity: null,
   },
   {
     title: 'Alice in Borderland',
     author: 'Haro Aso',
-    coverUrl:
-      '/mangas_pictures/fa68ee385bb8.webp',
+    coverUrl: '/mangas_pictures/fa68ee385bb8.webp',
     genre: 'Seinen',
     nbTomes: 18,
     isFinished: true,
     description: '',
+    fromEntity: null,
   },
   {
     title: 'Air Gear',
     author: 'Oh! great',
-    coverUrl:
-      '/mangas_pictures/6331f65f39ff.webp',
+    coverUrl: '/mangas_pictures/6331f65f39ff.webp',
     genre: 'Shonen',
     nbTomes: 37,
     isFinished: true,
     description: '',
+    fromEntity: null,
   },
   {
     title: 'Pluto',
     author: 'Naoki Urasawa',
-    coverUrl:
-      '/mangas_pictures/2f7ec34bcf63.webp',
+    coverUrl: '/mangas_pictures/2f7ec34bcf63.webp',
     genre: 'Seinen',
     nbTomes: 8,
     isFinished: true,
     description: '',
+    fromEntity: null,
   },
   {
     title: 'Nausicaä de la vallée du vent',
     author: 'Hayao Miyazaki',
-    coverUrl:
-      '/mangas_pictures/531b1f822df1.jpg',
+    coverUrl: '/mangas_pictures/531b1f822df1.jpg',
     genre: 'Shonen',
     nbTomes: 7,
     isFinished: true,
     description: '',
+    fromEntity: null,
   },
   {
     title: 'Parasite',
     author: 'Hitoshi Iwaaki',
-    coverUrl:
-      '/mangas_pictures/7fe25a202033.jpg',
+    coverUrl: '/mangas_pictures/7fe25a202033.jpg',
     genre: 'Seinen',
     nbTomes: 10,
     isFinished: true,
     description: '',
+    fromEntity: null,
   },
   {
     title: 'Saint Seiya',
     author: 'Masami Kurumada',
-    coverUrl:
-      '/mangas_pictures/78c26cbf0935.webp',
+    coverUrl: '/mangas_pictures/78c26cbf0935.webp',
     genre: 'Shonen',
     nbTomes: 28,
     isFinished: true,
     description: '',
+    fromEntity: null,
   },
   {
     title: 'Samurai Deeper Kyo',
     author: 'Akimine Kamijō',
-    coverUrl:
-      '/mangas_pictures/4c2424bfcd43.webp',
+    coverUrl: '/mangas_pictures/4c2424bfcd43.webp',
     genre: 'Shonen',
     nbTomes: 38,
     isFinished: true,
     description: '',
+    fromEntity: null,
   },
   {
     title: 'La Vie de Bouddha',
@@ -1165,6 +1264,7 @@ export const baseMangas: BaseManga[] = [
     nbTomes: 14,
     isFinished: true,
     description: '',
+    fromEntity: null,
   },
   {
     title: 'Coq de combat',
@@ -1174,6 +1274,7 @@ export const baseMangas: BaseManga[] = [
     nbTomes: 34,
     isFinished: true,
     description: '',
+    fromEntity: null,
   },
   {
     title: 'Übel Blatt',
@@ -1183,5 +1284,6 @@ export const baseMangas: BaseManga[] = [
     nbTomes: 23,
     isFinished: true,
     description: '',
+    fromEntity: null,
   },
 ];

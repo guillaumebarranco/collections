@@ -1,3 +1,8 @@
+import type {
+  MangaFromEntityAdaptation,
+  MangaFromEntityType,
+} from './from-entity.model';
+
 export interface MandatoryMangaData {
   title: string;
   author: string;
@@ -9,7 +14,11 @@ export interface BaseManga extends MandatoryMangaData {
   nbTomes: number;
   isFinished: boolean;
   description: string;
+  /** Œuvre source (livre, film, jeu, autre manga, etc.) si adaptation. */
+  fromEntity: MangaFromEntityAdaptation | null;
 }
+
+export type { MangaFromEntityAdaptation, MangaFromEntityType };
 
 export interface UserManga extends MandatoryMangaData {
   readDate: string;

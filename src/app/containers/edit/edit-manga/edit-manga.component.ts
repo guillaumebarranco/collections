@@ -455,6 +455,7 @@ export class EditMangaComponent {
       isFinished: form.isFinished,
       coverUrl: form.coverUrl,
       description: form.description ?? '',
+      fromEntity: this.manga()?.fromEntity ?? null,
     };
   }
 

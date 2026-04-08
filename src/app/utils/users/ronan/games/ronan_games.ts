@@ -3697,7 +3697,7 @@ export const ronanGames: UserGames = [
     ],
   },
   {
-    title: "Zelda Phantom Hourglass",
+    title: "The Legend of Zelda: Phantom Hourglass",
     editor: "Nintendo",
     rating: 3,
     owned: false,

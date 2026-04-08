@@ -91,6 +91,7 @@ export const getEmptyManga = (manga: BaseManga): Manga => ({
   author: manga.author,
   coverUrl: manga.coverUrl,
   genre: manga.genre,
+  fromEntity: manga.fromEntity,
   owned: false,
   readDate: '',
   rating: 0,
