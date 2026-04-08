@@ -448,4 +448,32 @@ export const dantesMangas: UserManga[] = [
     borrowed: '',
     loaned: '',
   },
+
+  {
+    title: "Death Note",
+    author: "Takeshi Obata",
+    readDate: '',
+    rating: 0,
+    readTimes: 1,
+    owned: false,
+    readPriority: 1,
+    wantToReadAgain: false,
+    ratingComment: '',
+    borrowed: '',
+    loaned: '',
+  },
+
+  {
+    title: "Kenshin le Vagabond",
+    author: "Nobuhiro Watsuki",
+    readDate: '',
+    rating: 0,
+    readTimes: 1,
+    owned: false,
+    readPriority: 1,
+    wantToReadAgain: false,
+    ratingComment: '',
+    borrowed: '',
+    loaned: '',
+  },
 ];

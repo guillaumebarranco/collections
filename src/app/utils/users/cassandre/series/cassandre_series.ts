@@ -2994,4 +2994,1127 @@ export const cassandreSeries: UserSeries = [
     borrowed: '',
     loaned: '',
   },
+
+  {
+    title: "13 Reasons Why",
+    director: "Brian Yorkey",
+    seasons: [
+      {
+        seasonNumber: 1,
+        seasonRating: 0,
+        seasonTimesWatched: 0,
+        lastViewedDate: "",
+      },
+      {
+        seasonNumber: 2,
+        seasonRating: 0,
+        seasonTimesWatched: 0,
+        lastViewedDate: "",
+      },
+      {
+        seasonNumber: 3,
+        seasonRating: 0,
+        seasonTimesWatched: 0,
+        lastViewedDate: "",
+      },
+      {
+        seasonNumber: 4,
+        seasonRating: 0,
+        seasonTimesWatched: 0,
+        lastViewedDate: "",
+      }
+    ],
+    owned: false,
+    watchPriority: 1,
+    wantToWatchAgain: false,
+    ratingComment: '',
+    borrowed: '',
+    loaned: '',
+  },
+
+  {
+    title: "Bet",
+    director: "Simon Barry",
+    seasons: [
+      {
+        seasonNumber: 1,
+        seasonRating: 0,
+        seasonTimesWatched: 0,
+        lastViewedDate: "",
+      }
+    ],
+    owned: false,
+    watchPriority: 1,
+    wantToWatchAgain: false,
+    ratingComment: '',
+    borrowed: '',
+    loaned: '',
+  },
+
+  {
+    title: "Black Mirror",
+    director: "Charlie Brooker",
+    seasons: [
+      {
+        seasonNumber: 1,
+        seasonRating: 0,
+        seasonTimesWatched: 0,
+        lastViewedDate: "",
+      },
+      {
+        seasonNumber: 2,
+        seasonRating: 0,
+        seasonTimesWatched: 0,
+        lastViewedDate: "",
+      },
+      {
+        seasonNumber: 3,
+        seasonRating: 0,
+        seasonTimesWatched: 0,
+        lastViewedDate: "",
+      },
+      {
+        seasonNumber: 4,
+        seasonRating: 0,
+        seasonTimesWatched: 0,
+        lastViewedDate: "",
+      },
+      {
+        seasonNumber: 5,
+        seasonRating: 0,
+        seasonTimesWatched: 0,
+        lastViewedDate: "",
+      },
+      {
+        seasonNumber: 6,
+        seasonRating: 0,
+        seasonTimesWatched: 0,
+        lastViewedDate: "",
+      },
+      {
+        seasonNumber: 7,
+        seasonRating: 0,
+        seasonTimesWatched: 0,
+        lastViewedDate: "",
+      }
+    ],
+    owned: false,
+    watchPriority: 1,
+    wantToWatchAgain: false,
+    ratingComment: '',
+    borrowed: '',
+    loaned: '',
+  },
+
+  {
+    title: "Emily in Paris",
+    director: "Darren Star",
+    seasons: [
+      {
+        seasonNumber: 1,
+        seasonRating: 0,
+        seasonTimesWatched: 0,
+        lastViewedDate: "",
+      },
+      {
+        seasonNumber: 2,
+        seasonRating: 0,
+        seasonTimesWatched: 0,
+        lastViewedDate: "",
+      },
+      {
+        seasonNumber: 3,
+        seasonRating: 0,
+        seasonTimesWatched: 0,
+        lastViewedDate: "",
+      },
+      {
+        seasonNumber: 4,
+        seasonRating: 0,
+        seasonTimesWatched: 0,
+        lastViewedDate: "",
+      },
+      {
+        seasonNumber: 5,
+        seasonRating: 0,
+        seasonTimesWatched: 0,
+        lastViewedDate: "",
+      }
+    ],
+    owned: false,
+    watchPriority: 1,
+    wantToWatchAgain: false,
+    ratingComment: '',
+    borrowed: '',
+    loaned: '',
+  },
+
+  {
+    title: "HPI",
+    director: "Julien Zidi",
+    seasons: [
+      {
+        seasonNumber: 1,
+        seasonRating: 0,
+        seasonTimesWatched: 0,
+        lastViewedDate: "",
+      },
+      {
+        seasonNumber: 2,
+        seasonRating: 0,
+        seasonTimesWatched: 0,
+        lastViewedDate: "",
+      },
+      {
+        seasonNumber: 3,
+        seasonRating: 0,
+        seasonTimesWatched: 0,
+        lastViewedDate: "",
+      },
+      {
+        seasonNumber: 4,
+        seasonRating: 0,
+        seasonTimesWatched: 0,
+        lastViewedDate: "",
+      },
+      {
+        seasonNumber: 5,
+        seasonRating: 0,
+        seasonTimesWatched: 0,
+        lastViewedDate: "",
+      }
+    ],
+    owned: false,
+    watchPriority: 1,
+    wantToWatchAgain: false,
+    ratingComment: '',
+    borrowed: '',
+    loaned: '',
+  },
+
+  {
+    title: "La Casa de Papel",
+    director: "Álex Pina",
+    seasons: [
+      {
+        seasonNumber: 1,
+        seasonRating: 0,
+        seasonTimesWatched: 0,
+        lastViewedDate: "",
+      },
+      {
+        seasonNumber: 2,
+        seasonRating: 0,
+        seasonTimesWatched: 0,
+        lastViewedDate: "",
+      },
+      {
+        seasonNumber: 3,
+        seasonRating: 0,
+        seasonTimesWatched: 0,
+        lastViewedDate: "",
+      },
+      {
+        seasonNumber: 4,
+        seasonRating: 0,
+        seasonTimesWatched: 0,
+        lastViewedDate: "",
+      }
+    ],
+    owned: false,
+    watchPriority: 1,
+    wantToWatchAgain: false,
+    ratingComment: '',
+    borrowed: '',
+    loaned: '',
+  },
+
+  {
+    title: "Locke & Key",
+    director: "Carlton Cuse",
+    seasons: [
+      {
+        seasonNumber: 1,
+        seasonRating: 0,
+        seasonTimesWatched: 0,
+        lastViewedDate: "",
+      },
+      {
+        seasonNumber: 2,
+        seasonRating: 0,
+        seasonTimesWatched: 0,
+        lastViewedDate: "",
+      },
+      {
+        seasonNumber: 3,
+        seasonRating: 0,
+        seasonTimesWatched: 0,
+        lastViewedDate: "",
+      }
+    ],
+    owned: false,
+    watchPriority: 1,
+    wantToWatchAgain: false,
+    ratingComment: '',
+    borrowed: '',
+    loaned: '',
+  },
+
+  {
+    title: "Lupin",
+    director: "Louis Leterrier",
+    seasons: [
+      {
+        seasonNumber: 1,
+        seasonRating: 0,
+        seasonTimesWatched: 0,
+        lastViewedDate: "",
+      },
+      {
+        seasonNumber: 2,
+        seasonRating: 0,
+        seasonTimesWatched: 0,
+        lastViewedDate: "",
+      },
+      {
+        seasonNumber: 3,
+        seasonRating: 0,
+        seasonTimesWatched: 0,
+        lastViewedDate: "",
+      }
+    ],
+    owned: false,
+    watchPriority: 1,
+    wantToWatchAgain: false,
+    ratingComment: '',
+    borrowed: '',
+    loaned: '',
+  },
+
+  {
+    title: "Mortel",
+    director: "Frédéric Garcia",
+    seasons: [
+      {
+        seasonNumber: 1,
+        seasonRating: 0,
+        seasonTimesWatched: 0,
+        lastViewedDate: "",
+      },
+      {
+        seasonNumber: 2,
+        seasonRating: 0,
+        seasonTimesWatched: 0,
+        lastViewedDate: "",
+      }
+    ],
+    owned: false,
+    watchPriority: 1,
+    wantToWatchAgain: false,
+    ratingComment: '',
+    borrowed: '',
+    loaned: '',
+  },
+
+  {
+    title: "Mercredi",
+    director: "Tim Burton",
+    seasons: [
+      {
+        seasonNumber: 1,
+        seasonRating: 0,
+        seasonTimesWatched: 0,
+        lastViewedDate: "",
+      },
+      {
+        seasonNumber: 2,
+        seasonRating: 0,
+        seasonTimesWatched: 0,
+        lastViewedDate: "",
+      }
+    ],
+    owned: false,
+    watchPriority: 1,
+    wantToWatchAgain: false,
+    ratingComment: '',
+    borrowed: '',
+    loaned: '',
+  },
+
+  {
+    title: "Mon amie Adèle",
+    director: "Erik Richter Strand",
+    seasons: [
+      {
+        seasonNumber: 1,
+        seasonRating: 0,
+        seasonTimesWatched: 0,
+        lastViewedDate: "",
+      }
+    ],
+    owned: false,
+    watchPriority: 1,
+    wantToWatchAgain: false,
+    ratingComment: '',
+    borrowed: '',
+    loaned: '',
+  },
+
+  {
+    title: "One Piece (live-action)",
+    director: "Matt Owens, Steven Maeda",
+    seasons: [
+      {
+        seasonNumber: 1,
+        seasonRating: 0,
+        seasonTimesWatched: 0,
+        lastViewedDate: "",
+      },
+      {
+        seasonNumber: 2,
+        seasonRating: 0,
+        seasonTimesWatched: 0,
+        lastViewedDate: "",
+      }
+    ],
+    owned: false,
+    watchPriority: 1,
+    wantToWatchAgain: false,
+    ratingComment: '',
+    borrowed: '',
+    loaned: '',
+  },
+
+  {
+    title: "Sense8",
+    director: "Lana Wachowski, Lilly Wachowski",
+    seasons: [
+      {
+        seasonNumber: 1,
+        seasonRating: 0,
+        seasonTimesWatched: 0,
+        lastViewedDate: "",
+      },
+      {
+        seasonNumber: 2,
+        seasonRating: 0,
+        seasonTimesWatched: 0,
+        lastViewedDate: "",
+      }
+    ],
+    owned: false,
+    watchPriority: 1,
+    wantToWatchAgain: false,
+    ratingComment: '',
+    borrowed: '',
+    loaned: '',
+  },
+
+  {
+    title: "Squid Game",
+    director: "Hwang Dong-hyuk",
+    seasons: [
+      {
+        seasonNumber: 1,
+        seasonRating: 0,
+        seasonTimesWatched: 0,
+        lastViewedDate: "",
+      },
+      {
+        seasonNumber: 2,
+        seasonRating: 0,
+        seasonTimesWatched: 0,
+        lastViewedDate: "",
+      },
+      {
+        seasonNumber: 3,
+        seasonRating: 0,
+        seasonTimesWatched: 0,
+        lastViewedDate: "",
+      }
+    ],
+    owned: false,
+    watchPriority: 1,
+    wantToWatchAgain: false,
+    ratingComment: '',
+    borrowed: '',
+    loaned: '',
+  },
+
+  {
+    title: "Stranger Things",
+    director: "The Duffer Brothers",
+    seasons: [
+      {
+        seasonNumber: 1,
+        seasonRating: 0,
+        seasonTimesWatched: 0,
+        lastViewedDate: "",
+      },
+      {
+        seasonNumber: 2,
+        seasonRating: 0,
+        seasonTimesWatched: 0,
+        lastViewedDate: "",
+      },
+      {
+        seasonNumber: 3,
+        seasonRating: 0,
+        seasonTimesWatched: 0,
+        lastViewedDate: "",
+      },
+      {
+        seasonNumber: 4,
+        seasonRating: 0,
+        seasonTimesWatched: 0,
+        lastViewedDate: "",
+      },
+      {
+        seasonNumber: 5,
+        seasonRating: 0,
+        seasonTimesWatched: 0,
+        lastViewedDate: "",
+      }
+    ],
+    owned: false,
+    watchPriority: 1,
+    wantToWatchAgain: false,
+    ratingComment: '',
+    borrowed: '',
+    loaned: '',
+  },
+
+  {
+    title: "The End of the F***ing World",
+    director: "Jonathan Entwistle",
+    seasons: [
+      {
+        seasonNumber: 1,
+        seasonRating: 0,
+        seasonTimesWatched: 0,
+        lastViewedDate: "",
+      },
+      {
+        seasonNumber: 2,
+        seasonRating: 0,
+        seasonTimesWatched: 0,
+        lastViewedDate: "",
+      }
+    ],
+    owned: false,
+    watchPriority: 1,
+    wantToWatchAgain: false,
+    ratingComment: '',
+    borrowed: '',
+    loaned: '',
+  },
+
+  {
+    title: "The Glory",
+    director: "Ahn Gil-ho",
+    seasons: [
+      {
+        seasonNumber: 1,
+        seasonRating: 0,
+        seasonTimesWatched: 0,
+        lastViewedDate: "",
+      }
+    ],
+    owned: false,
+    watchPriority: 1,
+    wantToWatchAgain: false,
+    ratingComment: '',
+    borrowed: '',
+    loaned: '',
+  },
+
+  {
+    title: "Umbrella Academy",
+    director: "Steve Blackman",
+    seasons: [
+      {
+        seasonNumber: 1,
+        seasonRating: 0,
+        seasonTimesWatched: 0,
+        lastViewedDate: "",
+      },
+      {
+        seasonNumber: 2,
+        seasonRating: 0,
+        seasonTimesWatched: 0,
+        lastViewedDate: "",
+      },
+      {
+        seasonNumber: 3,
+        seasonRating: 0,
+        seasonTimesWatched: 0,
+        lastViewedDate: "",
+      },
+      {
+        seasonNumber: 4,
+        seasonRating: 0,
+        seasonTimesWatched: 0,
+        lastViewedDate: "",
+      }
+    ],
+    owned: false,
+    watchPriority: 1,
+    wantToWatchAgain: false,
+    ratingComment: '',
+    borrowed: '',
+    loaned: '',
+  },
+
+  {
+    title: "Unorthodox",
+    director: "Maria Schrader",
+    seasons: [
+      {
+        seasonNumber: 1,
+        seasonRating: 0,
+        seasonTimesWatched: 0,
+        lastViewedDate: "",
+      }
+    ],
+    owned: false,
+    watchPriority: 1,
+    wantToWatchAgain: false,
+    ratingComment: '',
+    borrowed: '',
+    loaned: '',
+  },
+
+  {
+    title: "You",
+    director: "Greg Berlanti",
+    seasons: [
+      {
+        seasonNumber: 1,
+        seasonRating: 0,
+        seasonTimesWatched: 0,
+        lastViewedDate: "",
+      },
+      {
+        seasonNumber: 2,
+        seasonRating: 0,
+        seasonTimesWatched: 0,
+        lastViewedDate: "",
+      },
+      {
+        seasonNumber: 3,
+        seasonRating: 0,
+        seasonTimesWatched: 0,
+        lastViewedDate: "",
+      },
+      {
+        seasonNumber: 4,
+        seasonRating: 0,
+        seasonTimesWatched: 0,
+        lastViewedDate: "",
+      },
+      {
+        seasonNumber: 5,
+        seasonRating: 0,
+        seasonTimesWatched: 0,
+        lastViewedDate: "",
+      }
+    ],
+    owned: false,
+    watchPriority: 1,
+    wantToWatchAgain: false,
+    ratingComment: '',
+    borrowed: '',
+    loaned: '',
+  },
+
+  {
+    title: "Why Women Kill",
+    director: "Marc Cherry",
+    seasons: [
+      {
+        seasonNumber: 1,
+        seasonRating: 0,
+        seasonTimesWatched: 0,
+        lastViewedDate: "",
+      },
+      {
+        seasonNumber: 2,
+        seasonRating: 0,
+        seasonTimesWatched: 0,
+        lastViewedDate: "",
+      }
+    ],
+    owned: false,
+    watchPriority: 1,
+    wantToWatchAgain: false,
+    ratingComment: '',
+    borrowed: '',
+    loaned: '',
+  },
+
+  {
+    title: "Yu Yu Hakusho (live-action)",
+    director: "Shô Tsukikawa",
+    seasons: [
+      {
+        seasonNumber: 1,
+        seasonRating: 0,
+        seasonTimesWatched: 0,
+        lastViewedDate: "",
+      }
+    ],
+    owned: false,
+    watchPriority: 1,
+    wantToWatchAgain: false,
+    ratingComment: '',
+    borrowed: '',
+    loaned: '',
+  },
+
+  {
+    title: "Pretty Little Liars",
+    director: "I. Marlene King",
+    seasons: [
+      {
+        seasonNumber: 1,
+        seasonRating: 0,
+        seasonTimesWatched: 0,
+        lastViewedDate: "",
+      },
+      {
+        seasonNumber: 2,
+        seasonRating: 0,
+        seasonTimesWatched: 0,
+        lastViewedDate: "",
+      },
+      {
+        seasonNumber: 3,
+        seasonRating: 0,
+        seasonTimesWatched: 0,
+        lastViewedDate: "",
+      },
+      {
+        seasonNumber: 4,
+        seasonRating: 0,
+        seasonTimesWatched: 0,
+        lastViewedDate: "",
+      },
+      {
+        seasonNumber: 5,
+        seasonRating: 0,
+        seasonTimesWatched: 0,
+        lastViewedDate: "",
+      },
+      {
+        seasonNumber: 6,
+        seasonRating: 0,
+        seasonTimesWatched: 0,
+        lastViewedDate: "",
+      },
+      {
+        seasonNumber: 7,
+        seasonRating: 0,
+        seasonTimesWatched: 0,
+        lastViewedDate: "",
+      }
+    ],
+    owned: false,
+    watchPriority: 1,
+    wantToWatchAgain: false,
+    ratingComment: '',
+    borrowed: '',
+    loaned: '',
+  },
+
+  {
+    title: "Orange is the New Black",
+    director: "Jenji Kohan",
+    seasons: [
+      {
+        seasonNumber: 1,
+        seasonRating: 0,
+        seasonTimesWatched: 0,
+        lastViewedDate: "",
+      },
+      {
+        seasonNumber: 2,
+        seasonRating: 0,
+        seasonTimesWatched: 0,
+        lastViewedDate: "",
+      },
+      {
+        seasonNumber: 3,
+        seasonRating: 0,
+        seasonTimesWatched: 0,
+        lastViewedDate: "",
+      },
+      {
+        seasonNumber: 4,
+        seasonRating: 0,
+        seasonTimesWatched: 0,
+        lastViewedDate: "",
+      },
+      {
+        seasonNumber: 5,
+        seasonRating: 0,
+        seasonTimesWatched: 0,
+        lastViewedDate: "",
+      },
+      {
+        seasonNumber: 6,
+        seasonRating: 0,
+        seasonTimesWatched: 0,
+        lastViewedDate: "",
+      },
+      {
+        seasonNumber: 7,
+        seasonRating: 0,
+        seasonTimesWatched: 0,
+        lastViewedDate: "",
+      }
+    ],
+    owned: false,
+    watchPriority: 1,
+    wantToWatchAgain: false,
+    ratingComment: '',
+    borrowed: '',
+    loaned: '',
+  },
+
+  {
+    title: "The Vampire Diaries",
+    director: "Julie Plec, Kevin Williamson",
+    seasons: [
+      {
+        seasonNumber: 1,
+        seasonRating: 0,
+        seasonTimesWatched: 0,
+        lastViewedDate: "",
+      },
+      {
+        seasonNumber: 2,
+        seasonRating: 0,
+        seasonTimesWatched: 0,
+        lastViewedDate: "",
+      },
+      {
+        seasonNumber: 3,
+        seasonRating: 0,
+        seasonTimesWatched: 0,
+        lastViewedDate: "",
+      },
+      {
+        seasonNumber: 4,
+        seasonRating: 0,
+        seasonTimesWatched: 0,
+        lastViewedDate: "",
+      },
+      {
+        seasonNumber: 5,
+        seasonRating: 0,
+        seasonTimesWatched: 0,
+        lastViewedDate: "",
+      },
+      {
+        seasonNumber: 6,
+        seasonRating: 0,
+        seasonTimesWatched: 0,
+        lastViewedDate: "",
+      },
+      {
+        seasonNumber: 7,
+        seasonRating: 0,
+        seasonTimesWatched: 0,
+        lastViewedDate: "",
+      },
+      {
+        seasonNumber: 8,
+        seasonRating: 0,
+        seasonTimesWatched: 0,
+        lastViewedDate: "",
+      }
+    ],
+    owned: false,
+    watchPriority: 1,
+    wantToWatchAgain: false,
+    ratingComment: '',
+    borrowed: '',
+    loaned: '',
+  },
+
+  {
+    title: "Akame Ga Kill",
+    director: "Takahiro",
+    seasons: [
+      {
+        seasonNumber: 1,
+        seasonRating: 0,
+        seasonTimesWatched: 0,
+        lastViewedDate: "",
+      }
+    ],
+    owned: false,
+    watchPriority: 1,
+    wantToWatchAgain: false,
+    ratingComment: '',
+    borrowed: '',
+    loaned: '',
+  },
+
+  {
+    title: "Détective Conan",
+    director: "Gōshō Aoyama",
+    seasons: [
+      {
+        seasonNumber: 1,
+        seasonRating: 0,
+        seasonTimesWatched: 0,
+        lastViewedDate: "",
+      },
+      {
+        seasonNumber: 2,
+        seasonRating: 0,
+        seasonTimesWatched: 0,
+        lastViewedDate: "",
+      },
+      {
+        seasonNumber: 3,
+        seasonRating: 0,
+        seasonTimesWatched: 0,
+        lastViewedDate: "",
+      },
+      {
+        seasonNumber: 4,
+        seasonRating: 0,
+        seasonTimesWatched: 0,
+        lastViewedDate: "",
+      },
+      {
+        seasonNumber: 5,
+        seasonRating: 0,
+        seasonTimesWatched: 0,
+        lastViewedDate: "",
+      },
+      {
+        seasonNumber: 6,
+        seasonRating: 0,
+        seasonTimesWatched: 0,
+        lastViewedDate: "",
+      },
+      {
+        seasonNumber: 7,
+        seasonRating: 0,
+        seasonTimesWatched: 0,
+        lastViewedDate: "",
+      },
+      {
+        seasonNumber: 8,
+        seasonRating: 0,
+        seasonTimesWatched: 0,
+        lastViewedDate: "",
+      },
+      {
+        seasonNumber: 9,
+        seasonRating: 0,
+        seasonTimesWatched: 0,
+        lastViewedDate: "",
+      },
+      {
+        seasonNumber: 10,
+        seasonRating: 0,
+        seasonTimesWatched: 0,
+        lastViewedDate: "",
+      },
+      {
+        seasonNumber: 11,
+        seasonRating: 0,
+        seasonTimesWatched: 0,
+        lastViewedDate: "",
+      },
+      {
+        seasonNumber: 12,
+        seasonRating: 0,
+        seasonTimesWatched: 0,
+        lastViewedDate: "",
+      },
+      {
+        seasonNumber: 13,
+        seasonRating: 0,
+        seasonTimesWatched: 0,
+        lastViewedDate: "",
+      },
+      {
+        seasonNumber: 14,
+        seasonRating: 0,
+        seasonTimesWatched: 0,
+        lastViewedDate: "",
+      },
+      {
+        seasonNumber: 15,
+        seasonRating: 0,
+        seasonTimesWatched: 0,
+        lastViewedDate: "",
+      },
+      {
+        seasonNumber: 16,
+        seasonRating: 0,
+        seasonTimesWatched: 0,
+        lastViewedDate: "",
+      },
+      {
+        seasonNumber: 17,
+        seasonRating: 0,
+        seasonTimesWatched: 0,
+        lastViewedDate: "",
+      },
+      {
+        seasonNumber: 18,
+        seasonRating: 0,
+        seasonTimesWatched: 0,
+        lastViewedDate: "",
+      },
+      {
+        seasonNumber: 19,
+        seasonRating: 0,
+        seasonTimesWatched: 0,
+        lastViewedDate: "",
+      },
+      {
+        seasonNumber: 20,
+        seasonRating: 0,
+        seasonTimesWatched: 0,
+        lastViewedDate: "",
+      },
+      {
+        seasonNumber: 21,
+        seasonRating: 0,
+        seasonTimesWatched: 0,
+        lastViewedDate: "",
+      },
+      {
+        seasonNumber: 22,
+        seasonRating: 0,
+        seasonTimesWatched: 0,
+        lastViewedDate: "",
+      }
+    ],
+    owned: false,
+    watchPriority: 1,
+    wantToWatchAgain: false,
+    ratingComment: '',
+    borrowed: '',
+    loaned: '',
+  },
+
+  {
+    title: "No Game No Life",
+    director: "Inconnu",
+    seasons: [
+      {
+        seasonNumber: 1,
+        seasonRating: 0,
+        seasonTimesWatched: 0,
+        lastViewedDate: "",
+      }
+    ],
+    owned: false,
+    watchPriority: 1,
+    wantToWatchAgain: false,
+    ratingComment: '',
+    borrowed: '',
+    loaned: '',
+  },
+
+  {
+    title: "La cour de récré",
+    director: "Paul Germain, Joe Ansolabehere",
+    seasons: [
+      {
+        seasonNumber: 1,
+        seasonRating: 0,
+        seasonTimesWatched: 0,
+        lastViewedDate: "",
+      },
+      {
+        seasonNumber: 2,
+        seasonRating: 0,
+        seasonTimesWatched: 0,
+        lastViewedDate: "",
+      },
+      {
+        seasonNumber: 3,
+        seasonRating: 0,
+        seasonTimesWatched: 0,
+        lastViewedDate: "",
+      },
+      {
+        seasonNumber: 4,
+        seasonRating: 0,
+        seasonTimesWatched: 0,
+        lastViewedDate: "",
+      },
+      {
+        seasonNumber: 5,
+        seasonRating: 0,
+        seasonTimesWatched: 0,
+        lastViewedDate: "",
+      },
+      {
+        seasonNumber: 6,
+        seasonRating: 0,
+        seasonTimesWatched: 0,
+        lastViewedDate: "",
+      }
+    ],
+    owned: false,
+    watchPriority: 1,
+    wantToWatchAgain: false,
+    ratingComment: '',
+    borrowed: '',
+    loaned: '',
+  },
+
+  {
+    title: "W.I.T.C.H.",
+    director: "Greg Weisman",
+    seasons: [
+      {
+        seasonNumber: 1,
+        seasonRating: 0,
+        seasonTimesWatched: 0,
+        lastViewedDate: "",
+      },
+      {
+        seasonNumber: 2,
+        seasonRating: 0,
+        seasonTimesWatched: 0,
+        lastViewedDate: "",
+      }
+    ],
+    owned: false,
+    watchPriority: 1,
+    wantToWatchAgain: false,
+    ratingComment: '',
+    borrowed: '',
+    loaned: '',
+  },
+
+  {
+    title: "Bodies",
+    director: "Marco Kreuzpaintner",
+    seasons: [
+      {
+        seasonNumber: 1,
+        seasonRating: 0,
+        seasonTimesWatched: 0,
+        lastViewedDate: "",
+      }
+    ],
+    owned: false,
+    watchPriority: 1,
+    wantToWatchAgain: false,
+    ratingComment: '',
+    borrowed: '',
+    loaned: '',
+  },
 ];
