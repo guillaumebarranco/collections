@@ -348,6 +348,14 @@ const MIX_ORBIT_ENTITY_LABELS: Record<string, string> = {
   movie: 'Film',
 };
 
+/**
+ * Sagas « franchise » exclues du regroupement « Œuvres de base » (hub orbite).
+ * Clés : saga trim + lower case — ex. regroupements catalogue trop larges.
+ */
+const BASE_WORKS_EXCLUDED_FRANCHISE_SAGA_KEYS = new Set<string>([
+  'disney classique',
+]);
+
 function mixOrbitEntityKindLabel(kind: string): string {
   return MIX_ORBIT_ENTITY_LABELS[kind] ?? kind;
 }
@@ -650,6 +658,13 @@ function movieReleaseDateMs(movie: Movie): number {
   return Number.isNaN(ms) ? Number.MAX_SAFE_INTEGER : ms;
 }
 
+function serieReleaseDateMs(serie: Serie): number {
+  const d = serie.releaseDate?.trim();
+  if (!d) return Number.MAX_SAFE_INTEGER;
+  const ms = Date.parse(d);
+  return Number.isNaN(ms) ? Number.MAX_SAFE_INTEGER : ms;
+}
+
 /** Jeu le plus ancien de la franchise au centre (même éditeur / catalogue). */
 function pickCentralGalaxyForGameSaga(
   galaxies: BaseWorkGalaxy[]
@@ -747,6 +762,8 @@ function centralFromGalaxy(g: BaseWorkGalaxy): MixBaseWorkOrbitPanel['central'] 
 function baseWorksBlockToOrbitPanel(
   block: MixBaseWorksViewBlock,
   allBaseBooks: BaseBook[],
+  allBaseMovies: BaseMovie[],
+  allBaseSeries: BaseSerie[],
   allBaseGames: BaseGame[]
 ): MixBaseWorkOrbitPanel {
   if (block.blockKind === 'standalone') {
@@ -829,7 +846,11 @@ function baseWorksBlockToOrbitPanel(
   const galaxies = block.galaxies;
   const centralGalaxy = pickCentralGalaxyForFranchiseSaga(galaxies);
   const centralBook = centralGalaxy.book;
+  const centralMovie = centralGalaxy.movie;
+  const centralSerie = centralGalaxy.serie;
   const centralKeyBook = centralBook ? bookEntityKey(centralBook) : '';
+  const centralKeyMovie = centralMovie ? movieEntityKey(centralMovie) : '';
+  const centralKeySerie = centralSerie ? serieEntityKey(centralSerie) : '';
 
   /** Tous les tomes livre du catalogue dans cette saga (y compris sans adaptation). */
   const sagaKeyNorm = block.sagaKey;
@@ -864,8 +885,44 @@ function baseWorksBlockToOrbitPanel(
   const movieLists = galaxies.map((g) => g.derivedMovies);
   const serieLists = galaxies.map((g) => g.derivedSeries);
   const gameLists = galaxies.map((g) => g.derivedGames);
-  const movies = mergeDedupeMovies(movieLists);
-  const series = mergeDedupeSeries(serieLists);
+  const moviesFromGalaxies = mergeDedupeMovies(movieLists);
+  const moviesInSagaCatalog = allBaseMovies
+    .filter((bm) => bm.saga?.trim().toLowerCase() === sagaKeyNorm)
+    .map((bm) => getFullMovie(bm));
+  let orbitMovies = mergeDedupeMovies([
+    moviesFromGalaxies,
+    moviesInSagaCatalog,
+  ]);
+  if (centralKeyMovie) {
+    orbitMovies = orbitMovies.filter(
+      (m) => movieEntityKey(m) !== centralKeyMovie
+    );
+  }
+  orbitMovies.sort((a, b) => {
+    const d = movieReleaseDateMs(a) - movieReleaseDateMs(b);
+    if (d !== 0) return d;
+    return a.title.localeCompare(b.title, 'fr');
+  });
+
+  const seriesFromGalaxies = mergeDedupeSeries(serieLists);
+  const seriesInSagaCatalog = allBaseSeries
+    .filter((bs) => bs.saga?.trim().toLowerCase() === sagaKeyNorm)
+    .map((bs) => getFullSerie(bs));
+  let orbitSeries = mergeDedupeSeries([
+    seriesFromGalaxies,
+    seriesInSagaCatalog,
+  ]);
+  if (centralKeySerie) {
+    orbitSeries = orbitSeries.filter(
+      (s) => serieEntityKey(s) !== centralKeySerie
+    );
+  }
+  orbitSeries.sort((a, b) => {
+    const d = serieReleaseDateMs(a) - serieReleaseDateMs(b);
+    if (d !== 0) return d;
+    return a.title.localeCompare(b.title, 'fr');
+  });
+
   let games = mergeDedupeGames(gameLists);
 
   const sagaGamesFromCatalog = allBaseGames
@@ -878,8 +935,8 @@ function baseWorksBlockToOrbitPanel(
 
   const satellites: BaseWorkOrbitSatellite[] = [
     ...volumeSatellites,
-    ...movies.map((data) => ({ kind: 'movie' as const, data })),
-    ...series.map((data) => ({ kind: 'serie' as const, data })),
+    ...orbitMovies.map((data) => ({ kind: 'movie' as const, data })),
+    ...orbitSeries.map((data) => ({ kind: 'serie' as const, data })),
     ...games.map((data) => ({ kind: 'game' as const, data })),
   ];
 
@@ -1452,6 +1509,10 @@ export class MixComponent implements OnInit {
         gal: BaseWorkGalaxy
       ): void => {
         const sk = sagaDisplay.trim().toLowerCase();
+        if (BASE_WORKS_EXCLUDED_FRANCHISE_SAGA_KEYS.has(sk)) {
+          standaloneGalaxies.push(gal);
+          return;
+        }
         let entry = franchiseSagaMap.get(sk);
         if (!entry) {
           entry = { sagaDisplayName: sagaDisplay.trim(), galaxies: [] };
@@ -1577,9 +1638,11 @@ export class MixComponent implements OnInit {
   /** Panneaux « orbite » dérivés des blocs (centre = tome 1 ou œuvre isolée). */
   readonly mixBaseWorkOrbitPanels = computed<MixBaseWorkOrbitPanel[]>(() => {
     const books = this.baseBooks();
+    const movies = this.baseMovies();
+    const series = this.baseSeries();
     const games = this.baseGames();
     const panels = this.mixBaseWorksBlocks().map((b) =>
-      baseWorksBlockToOrbitPanel(b, books, games)
+      baseWorksBlockToOrbitPanel(b, books, movies, series, games)
     );
     return panels.sort((a, b) => {
       const diff = b.satelliteCount - a.satelliteCount;
