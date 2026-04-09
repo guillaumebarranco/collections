@@ -5,7 +5,7 @@ export const baseGamesAdaptations2: BaseGame[] = [
     title: 'Spider-Man 3',
     editor: 'Activision',
     hero: 'Spider-Man',
-    coverUrl: '',
+    coverUrl: '/games_pictures/5eaaf06a1666.jpg',
     releaseDate: '2007-05-04',
     averageTimeToFinish: 7,
     averageTimeToHundredPercent: 0,
@@ -98,8 +98,7 @@ export const baseGamesAdaptations2: BaseGame[] = [
     title: 'Spider-Man',
     editor: 'Neversoft',
     hero: 'Spider-Man',
-    coverUrl:
-      '/games_pictures/84a695d4c0d5.jpg',
+    coverUrl: '/games_pictures/84a695d4c0d5.jpg',
     releaseDate: '2000-09-21',
     averageTimeToFinish: 10,
     averageTimeToHundredPercent: 0,
@@ -117,8 +116,7 @@ export const baseGamesAdaptations2: BaseGame[] = [
     title: 'Spider-Man 2: Enter Electro',
     editor: 'Vicarious Visions',
     hero: 'Spider-Man',
-    coverUrl:
-      '/games_pictures/cc95ea44ee32.jpg',
+    coverUrl: '/games_pictures/cc95ea44ee32.jpg',
     releaseDate: '2001-10-19',
     averageTimeToFinish: 8,
     averageTimeToHundredPercent: 0,
@@ -136,8 +134,7 @@ export const baseGamesAdaptations2: BaseGame[] = [
     title: 'Spider-Man (film)',
     editor: 'Treyarch',
     hero: 'Spider-Man',
-    coverUrl:
-      '/games_pictures/739d47a1d7ec.jpg',
+    coverUrl: '/games_pictures/739d47a1d7ec.jpg',
     releaseDate: '2002-06-07',
     averageTimeToFinish: 8,
     averageTimeToHundredPercent: 0,
@@ -155,8 +152,7 @@ export const baseGamesAdaptations2: BaseGame[] = [
     title: 'Spider-Man 2 (film)',
     editor: 'Treyarch',
     hero: 'Spider-Man',
-    coverUrl:
-      '/games_pictures/cbcb89c12c72.jpg',
+    coverUrl: '/games_pictures/cbcb89c12c72.jpg',
     releaseDate: '2004-06-30',
     averageTimeToFinish: 10,
     averageTimeToHundredPercent: 0,
@@ -174,8 +170,7 @@ export const baseGamesAdaptations2: BaseGame[] = [
     title: 'Ultimate Spider-Man',
     editor: 'Treyarch',
     hero: 'Spider-Man',
-    coverUrl:
-      '/games_pictures/9af3ec45eff0.jpg',
+    coverUrl: '/games_pictures/9af3ec45eff0.jpg',
     releaseDate: '2005-09-22',
     averageTimeToFinish: 8,
     averageTimeToHundredPercent: 0,
@@ -193,8 +188,7 @@ export const baseGamesAdaptations2: BaseGame[] = [
     title: 'Spider-Man 3',
     editor: 'Vicarious Visions',
     hero: 'Spider-Man',
-    coverUrl:
-      '/games_pictures/7981a93a44f4.jpg',
+    coverUrl: '/games_pictures/7981a93a44f4.jpg',
     releaseDate: '2007-05-04',
     averageTimeToFinish: 10,
     averageTimeToHundredPercent: 0,
@@ -212,8 +206,7 @@ export const baseGamesAdaptations2: BaseGame[] = [
     title: 'Spider-Man: Friend or Foe',
     editor: 'Beenox',
     hero: 'Spider-Man',
-    coverUrl:
-      '/games_pictures/7dc98925ddfe.jpg',
+    coverUrl: '/games_pictures/7dc98925ddfe.jpg',
     releaseDate: '2007-10-02',
     averageTimeToFinish: 6,
     averageTimeToHundredPercent: 0,
@@ -231,8 +224,7 @@ export const baseGamesAdaptations2: BaseGame[] = [
     title: 'Spider-Man: Web of Shadows',
     editor: 'Shaba Games',
     hero: 'Spider-Man',
-    coverUrl:
-      '/games_pictures/7b94fe5b76ab.jpg',
+    coverUrl: '/games_pictures/7b94fe5b76ab.jpg',
     releaseDate: '2008-10-21',
     averageTimeToFinish: 10,
     averageTimeToHundredPercent: 0,
@@ -287,8 +279,7 @@ export const baseGamesAdaptations2: BaseGame[] = [
     title: 'The Amazing Spider-Man 2',
     editor: 'Beenox',
     hero: 'Spider-Man',
-    coverUrl:
-      '/games_pictures/04b5a4745b17.jpg',
+    coverUrl: '/games_pictures/04b5a4745b17.jpg',
     releaseDate: '2014-05-02',
     averageTimeToFinish: 10,
     averageTimeToHundredPercent: 0,
@@ -308,8 +299,7 @@ export const baseGamesAdaptations2: BaseGame[] = [
     title: 'Naruto: Ultimate Ninja Storm',
     editor: 'CyberConnect2',
     hero: 'Naruto Uzumaki',
-    coverUrl:
-      '/games_pictures/4997222a5dc2.jpg',
+    coverUrl: '/games_pictures/4997222a5dc2.jpg',
     releaseDate: '2008-11-04',
     averageTimeToFinish: 12,
     averageTimeToHundredPercent: 20,
@@ -327,8 +317,7 @@ export const baseGamesAdaptations2: BaseGame[] = [
     title: 'Naruto Shippuden: Ultimate Ninja Storm 2',
     editor: 'CyberConnect2',
     hero: 'Naruto Uzumaki',
-    coverUrl:
-      '/games_pictures/31619c8ca15f.jpg',
+    coverUrl: '/games_pictures/31619c8ca15f.jpg',
     releaseDate: '2010-10-19',
     averageTimeToFinish: 15,
     averageTimeToHundredPercent: 35,
@@ -493,8 +482,7 @@ export const baseGamesAdaptations2: BaseGame[] = [
     title: 'Naruto: Ultimate Ninja',
     editor: 'CyberConnect2',
     hero: 'Naruto Uzumaki',
-    coverUrl:
-      '/games_pictures/af541396e3e4.jpg',
+    coverUrl: '/games_pictures/af541396e3e4.jpg',
     releaseDate: '2003-10-23',
     averageTimeToFinish: 8,
     averageTimeToHundredPercent: 0,
@@ -512,8 +500,7 @@ export const baseGamesAdaptations2: BaseGame[] = [
     title: 'Naruto: Ultimate Ninja 2',
     editor: 'CyberConnect2',
     hero: 'Naruto Uzumaki',
-    coverUrl:
-      '/games_pictures/8f5cd6726b66.jpg',
+    coverUrl: '/games_pictures/8f5cd6726b66.jpg',
     releaseDate: '2004-09-30',
     averageTimeToFinish: 8,
     averageTimeToHundredPercent: 0,
@@ -531,8 +518,7 @@ export const baseGamesAdaptations2: BaseGame[] = [
     title: 'Naruto: Ultimate Ninja 3',
     editor: 'CyberConnect2',
     hero: 'Naruto Uzumaki',
-    coverUrl:
-      '/games_pictures/8b1736cd2389.jpg',
+    coverUrl: '/games_pictures/8b1736cd2389.jpg',
     releaseDate: '2005-03-22',
     averageTimeToFinish: 10,
     averageTimeToHundredPercent: 0,
@@ -568,8 +554,7 @@ export const baseGamesAdaptations2: BaseGame[] = [
     title: 'Naruto Shippuden: Ultimate Ninja 5',
     editor: 'CyberConnect2',
     hero: 'Naruto Uzumaki',
-    coverUrl:
-      '/games_pictures/110322441639.jpg',
+    coverUrl: '/games_pictures/110322441639.jpg',
     releaseDate: '2009-12-10',
     averageTimeToFinish: 10,
     averageTimeToHundredPercent: 0,
@@ -624,8 +609,7 @@ export const baseGamesAdaptations2: BaseGame[] = [
     title: 'Naruto: Rise of a Ninja',
     editor: 'Ubisoft',
     hero: 'Naruto Uzumaki',
-    coverUrl:
-      '/games_pictures/4be48bb86eb4.jpg',
+    coverUrl: '/games_pictures/4be48bb86eb4.jpg',
     releaseDate: '2007-10-30',
     averageTimeToFinish: 12,
     averageTimeToHundredPercent: 0,
@@ -643,8 +627,7 @@ export const baseGamesAdaptations2: BaseGame[] = [
     title: 'Naruto: The Broken Bond',
     editor: 'Ubisoft',
     hero: 'Naruto Uzumaki',
-    coverUrl:
-      '/games_pictures/c129afe85f2d.jpg',
+    coverUrl: '/games_pictures/c129afe85f2d.jpg',
     releaseDate: '2008-11-18',
     averageTimeToFinish: 12,
     averageTimeToHundredPercent: 0,
@@ -680,8 +663,7 @@ export const baseGamesAdaptations2: BaseGame[] = [
     title: 'Naruto: Clash of Ninja 2',
     editor: 'Eighting',
     hero: 'Naruto Uzumaki',
-    coverUrl:
-      '/games_pictures/26728c372386.jpg',
+    coverUrl: '/games_pictures/26728c372386.jpg',
     releaseDate: '2003-12-04',
     averageTimeToFinish: 6,
     averageTimeToHundredPercent: 0,
@@ -699,8 +681,7 @@ export const baseGamesAdaptations2: BaseGame[] = [
     title: 'Naruto: Path of the Ninja',
     editor: 'Bandai Namco Entertainment',
     hero: 'Naruto Uzumaki',
-    coverUrl:
-      '/games_pictures/a0a020261059.jpg',
+    coverUrl: '/games_pictures/a0a020261059.jpg',
     releaseDate: '2007-10-23',
     averageTimeToFinish: 15,
     averageTimeToHundredPercent: 0,
@@ -736,8 +717,7 @@ export const baseGamesAdaptations2: BaseGame[] = [
     title: 'Naruto: Ninja Council',
     editor: 'Takara Tomy',
     hero: 'Naruto Uzumaki',
-    coverUrl:
-      '/games_pictures/2a2ca161becc.jpg',
+    coverUrl: '/games_pictures/2a2ca161becc.jpg',
     releaseDate: '2003-03-21',
     averageTimeToFinish: 5,
     averageTimeToHundredPercent: 0,
@@ -755,8 +735,7 @@ export const baseGamesAdaptations2: BaseGame[] = [
     title: 'Naruto: Ninja Council 2',
     editor: 'Takara Tomy',
     hero: 'Naruto Uzumaki',
-    coverUrl:
-      '/games_pictures/ae0e4e042f8f.jpg',
+    coverUrl: '/games_pictures/ae0e4e042f8f.jpg',
     releaseDate: '2004-09-30',
     averageTimeToFinish: 5,
     averageTimeToHundredPercent: 0,
@@ -774,8 +753,7 @@ export const baseGamesAdaptations2: BaseGame[] = [
     title: 'Naruto: Ultimate Ninja Heroes 2 — The Phantom Fortress',
     editor: 'Bandai Namco Entertainment',
     hero: 'Naruto Uzumaki',
-    coverUrl:
-      '/games_pictures/67880490f7ff.jpg',
+    coverUrl: '/games_pictures/67880490f7ff.jpg',
     releaseDate: '2008-03-24',
     averageTimeToFinish: 8,
     averageTimeToHundredPercent: 0,
@@ -811,8 +789,7 @@ export const baseGamesAdaptations2: BaseGame[] = [
     title: 'Naruto Shippuden: Ultimate Ninja Storm Revolution',
     editor: 'CyberConnect2',
     hero: 'Naruto Uzumaki',
-    coverUrl:
-      '/games_pictures/d041a5005265.jpg',
+    coverUrl: '/games_pictures/d041a5005265.jpg',
     releaseDate: '2014-09-11',
     averageTimeToFinish: 10,
     averageTimeToHundredPercent: 0,
@@ -830,8 +807,7 @@ export const baseGamesAdaptations2: BaseGame[] = [
     title: 'Naruto Powerful Shippuden',
     editor: 'Bandai Namco Entertainment',
     hero: 'Naruto Uzumaki',
-    coverUrl:
-      '/games_pictures/648d9e711bf1.jpg',
+    coverUrl: '/games_pictures/648d9e711bf1.jpg',
     releaseDate: '2013-03-05',
     averageTimeToFinish: 8,
     averageTimeToHundredPercent: 0,
@@ -849,8 +825,7 @@ export const baseGamesAdaptations2: BaseGame[] = [
     title: 'Naruto to Boruto: Shinobi Striker',
     editor: 'Soleil Ltd',
     hero: 'Naruto Uzumaki',
-    coverUrl:
-      '/games_pictures/b3085416b977.jpg',
+    coverUrl: '/games_pictures/b3085416b977.jpg',
     releaseDate: '2018-08-31',
     averageTimeToFinish: 15,
     averageTimeToHundredPercent: 0,
@@ -868,8 +843,7 @@ export const baseGamesAdaptations2: BaseGame[] = [
     title: 'Naruto x Boruto: Ultimate Ninja Storm Connections',
     editor: 'CyberConnect2',
     hero: 'Naruto Uzumaki',
-    coverUrl:
-      '/games_pictures/b6c803dbfe99.png',
+    coverUrl: '/games_pictures/b6c803dbfe99.png',
     releaseDate: '2023-11-17',
     averageTimeToFinish: 12,
     averageTimeToHundredPercent: 0,
@@ -897,11 +871,7 @@ export const baseGamesAdaptations2: BaseGame[] = [
     saga: 'Pokémon',
     platineTime: 0,
     description: '',
-    fromEntity: {
-      entityType: 'serie',
-      title: 'Pokémon',
-      secondEntityKey: 'Satoshi Tajiri',
-    },
+    fromEntity: null,
   },
   {
     title: 'Pokemon Jaune',
@@ -915,17 +885,13 @@ export const baseGamesAdaptations2: BaseGame[] = [
     saga: 'Pokémon',
     platineTime: 0,
     description: '',
-    fromEntity: {
-      entityType: 'serie',
-      title: 'Pokémon',
-      secondEntityKey: 'Satoshi Tajiri',
-    },
+    fromEntity: null,
   },
   {
     title: 'Pokémon Rouge',
     editor: 'Game Freak',
     hero: 'Dresseur',
-    coverUrl: '/games_pictures/pokemon-rouge-gb.jpg',
+    coverUrl: 'https://www.gamecash.fr/thumbnail-600/pokemon-rouge-e57519.jpg',
     releaseDate: '1996-10-15',
     averageTimeToFinish: 30,
     averageTimeToHundredPercent: 100,
@@ -933,11 +899,7 @@ export const baseGamesAdaptations2: BaseGame[] = [
     saga: 'Pokémon',
     platineTime: 0,
     description: '',
-    fromEntity: {
-      entityType: 'serie',
-      title: 'Pokémon',
-      secondEntityKey: 'Satoshi Tajiri',
-    },
+    fromEntity: null,
   },
   {
     title: 'Pokémon Or',
@@ -951,17 +913,14 @@ export const baseGamesAdaptations2: BaseGame[] = [
     saga: 'Pokémon',
     platineTime: 0,
     description: '',
-    fromEntity: {
-      entityType: 'serie',
-      title: 'Pokémon',
-      secondEntityKey: 'Satoshi Tajiri',
-    },
+    fromEntity: null,
   },
   {
     title: 'Pokémon Argent',
     editor: 'Game Freak',
     hero: 'Dresseur',
-    coverUrl: '/games_pictures/pokemon-argent-gbc.jpg',
+    coverUrl:
+      'https://www.gamecash.fr/thumbnail-600/pokemon-argent-gb-e57835.jpg',
     releaseDate: '2000-04-06',
     averageTimeToFinish: 40,
     averageTimeToHundredPercent: 150,
@@ -969,11 +928,7 @@ export const baseGamesAdaptations2: BaseGame[] = [
     saga: 'Pokémon',
     platineTime: 0,
     description: '',
-    fromEntity: {
-      entityType: 'serie',
-      title: 'Pokémon',
-      secondEntityKey: 'Satoshi Tajiri',
-    },
+    fromEntity: null,
   },
   {
     title: 'Pokémon Cristal',
@@ -987,11 +942,7 @@ export const baseGamesAdaptations2: BaseGame[] = [
     saga: 'Pokémon',
     platineTime: 0,
     description: '',
-    fromEntity: {
-      entityType: 'serie',
-      title: 'Pokémon',
-      secondEntityKey: 'Satoshi Tajiri',
-    },
+    fromEntity: null,
   },
   {
     title: 'Pokemon Rubis',
@@ -1005,11 +956,7 @@ export const baseGamesAdaptations2: BaseGame[] = [
     saga: 'Pokémon',
     platineTime: 0,
     description: '',
-    fromEntity: {
-      entityType: 'serie',
-      title: 'Pokémon',
-      secondEntityKey: 'Satoshi Tajiri',
-    },
+    fromEntity: null,
   },
   {
     title: 'Pokémon Saphir',
@@ -1023,11 +970,7 @@ export const baseGamesAdaptations2: BaseGame[] = [
     saga: 'Pokémon',
     platineTime: 0,
     description: '',
-    fromEntity: {
-      entityType: 'serie',
-      title: 'Pokémon',
-      secondEntityKey: 'Satoshi Tajiri',
-    },
+    fromEntity: null,
   },
   {
     title: 'Pokémon Émeraude',
@@ -1041,11 +984,7 @@ export const baseGamesAdaptations2: BaseGame[] = [
     saga: 'Pokémon',
     platineTime: 0,
     description: '',
-    fromEntity: {
-      entityType: 'serie',
-      title: 'Pokémon',
-      secondEntityKey: 'Satoshi Tajiri',
-    },
+    fromEntity: null,
   },
   {
     title: 'Pokémon Rouge Feu',
@@ -1059,18 +998,13 @@ export const baseGamesAdaptations2: BaseGame[] = [
     saga: 'Pokémon',
     platineTime: 0,
     description: '',
-    fromEntity: {
-      entityType: 'serie',
-      title: 'Pokémon',
-      secondEntityKey: 'Satoshi Tajiri',
-    },
+    fromEntity: null,
   },
   {
     title: 'Pokémon Vert Feuille',
     editor: 'Game Freak',
     hero: 'Dresseur',
-    coverUrl:
-      '/games_pictures/c48868f0ca50.jpg',
+    coverUrl: '/games_pictures/c48868f0ca50.jpg',
     releaseDate: '2004-01-29',
     averageTimeToFinish: 45,
     averageTimeToHundredPercent: 150,
@@ -1078,18 +1012,13 @@ export const baseGamesAdaptations2: BaseGame[] = [
     saga: 'Pokémon',
     platineTime: 0,
     description: '',
-    fromEntity: {
-      entityType: 'serie',
-      title: 'Pokémon',
-      secondEntityKey: 'Satoshi Tajiri',
-    },
+    fromEntity: null,
   },
   {
     title: 'Pokémon Stadium',
     editor: 'Nintendo',
     hero: 'Dresseur',
-    coverUrl:
-      '/games_pictures/b83c26d75cb8.jpg',
+    coverUrl: '/games_pictures/b83c26d75cb8.jpg',
     releaseDate: '2000-04-14',
     averageTimeToFinish: 12,
     averageTimeToHundredPercent: 35,
@@ -1097,11 +1026,7 @@ export const baseGamesAdaptations2: BaseGame[] = [
     saga: 'Pokémon',
     platineTime: 0,
     description: '',
-    fromEntity: {
-      entityType: 'serie',
-      title: 'Pokémon',
-      secondEntityKey: 'Satoshi Tajiri',
-    },
+    fromEntity: null,
   },
   {
     title: 'Pokémon Stadium 2',
@@ -1115,11 +1040,7 @@ export const baseGamesAdaptations2: BaseGame[] = [
     saga: 'Pokémon',
     platineTime: 0,
     description: '',
-    fromEntity: {
-      entityType: 'serie',
-      title: 'Pokémon',
-      secondEntityKey: 'Satoshi Tajiri',
-    },
+    fromEntity: null,
   },
   {
     title: 'Pokémon Colosseum',
@@ -1133,18 +1054,13 @@ export const baseGamesAdaptations2: BaseGame[] = [
     saga: 'Pokémon',
     platineTime: 0,
     description: '',
-    fromEntity: {
-      entityType: 'serie',
-      title: 'Pokémon',
-      secondEntityKey: 'Satoshi Tajiri',
-    },
+    fromEntity: null,
   },
   {
     title: 'Pokémon XD : Le Souffle des ténèbres',
     editor: 'Genius Sonority',
     hero: 'Dresseur',
-    coverUrl:
-      '/games_pictures/f6439b04b92d.jpg',
+    coverUrl: '/games_pictures/f6439b04b92d.jpg',
     releaseDate: '2005-08-04',
     averageTimeToFinish: 25,
     averageTimeToHundredPercent: 50,
@@ -1152,11 +1068,7 @@ export const baseGamesAdaptations2: BaseGame[] = [
     saga: 'Pokémon',
     platineTime: 0,
     description: '',
-    fromEntity: {
-      entityType: 'serie',
-      title: 'Pokémon',
-      secondEntityKey: 'Satoshi Tajiri',
-    },
+    fromEntity: null,
   },
   {
     title: 'Pokémon Donjon Mystère : Équipe de secours bleue',
@@ -1171,18 +1083,13 @@ export const baseGamesAdaptations2: BaseGame[] = [
     saga: 'Pokémon Donjon Mystère',
     platineTime: 0,
     description: '',
-    fromEntity: {
-      entityType: 'serie',
-      title: 'Pokémon',
-      secondEntityKey: 'Satoshi Tajiri',
-    },
+    fromEntity: null,
   },
   {
     title: 'Pokémon Ranger',
     editor: 'HAL Laboratory',
     hero: 'Ranger',
-    coverUrl:
-      '/games_pictures/1fb818229075.png',
+    coverUrl: '/games_pictures/1fb818229075.png',
     releaseDate: '2006-03-23',
     averageTimeToFinish: 12,
     averageTimeToHundredPercent: 25,
@@ -1190,11 +1097,7 @@ export const baseGamesAdaptations2: BaseGame[] = [
     saga: 'Pokémon Ranger',
     platineTime: 0,
     description: '',
-    fromEntity: {
-      entityType: 'serie',
-      title: 'Pokémon',
-      secondEntityKey: 'Satoshi Tajiri',
-    },
+    fromEntity: null,
   },
   {
     title: 'Pokémon Diamant',
@@ -1208,18 +1111,13 @@ export const baseGamesAdaptations2: BaseGame[] = [
     saga: 'Pokémon',
     platineTime: 0,
     description: '',
-    fromEntity: {
-      entityType: 'serie',
-      title: 'Pokémon',
-      secondEntityKey: 'Satoshi Tajiri',
-    },
+    fromEntity: null,
   },
   {
     title: 'Pokémon Perle',
     editor: 'Game Freak',
     hero: 'Dresseur',
-    coverUrl:
-      '/games_pictures/b806688f6ab3.jpg',
+    coverUrl: '/games_pictures/b806688f6ab3.jpg',
     releaseDate: '2007-07-27',
     averageTimeToFinish: 40,
     averageTimeToHundredPercent: 200,
@@ -1227,11 +1125,7 @@ export const baseGamesAdaptations2: BaseGame[] = [
     saga: 'Pokémon',
     platineTime: 0,
     description: '',
-    fromEntity: {
-      entityType: 'serie',
-      title: 'Pokémon',
-      secondEntityKey: 'Satoshi Tajiri',
-    },
+    fromEntity: null,
   },
   {
     title: 'Pokémon Platine',
@@ -1245,11 +1139,7 @@ export const baseGamesAdaptations2: BaseGame[] = [
     saga: 'Pokémon',
     platineTime: 0,
     description: '',
-    fromEntity: {
-      entityType: 'serie',
-      title: 'Pokémon',
-      secondEntityKey: 'Satoshi Tajiri',
-    },
+    fromEntity: null,
   },
   {
     title: 'Pokémon Or HeartGold',
@@ -1263,18 +1153,13 @@ export const baseGamesAdaptations2: BaseGame[] = [
     saga: 'Pokémon',
     platineTime: 0,
     description: '',
-    fromEntity: {
-      entityType: 'serie',
-      title: 'Pokémon',
-      secondEntityKey: 'Satoshi Tajiri',
-    },
+    fromEntity: null,
   },
   {
     title: 'Pokémon Argent SoulSilver',
     editor: 'Game Freak',
     hero: 'Dresseur',
-    coverUrl:
-      '/games_pictures/36771b3985b9.jpg',
+    coverUrl: '/games_pictures/36771b3985b9.jpg',
     releaseDate: '2009-10-01',
     averageTimeToFinish: 40,
     averageTimeToHundredPercent: 200,
@@ -1282,11 +1167,7 @@ export const baseGamesAdaptations2: BaseGame[] = [
     saga: 'Pokémon',
     platineTime: 0,
     description: '',
-    fromEntity: {
-      entityType: 'serie',
-      title: 'Pokémon',
-      secondEntityKey: 'Satoshi Tajiri',
-    },
+    fromEntity: null,
   },
   {
     title: 'Pokémon Noir',
@@ -1301,18 +1182,13 @@ export const baseGamesAdaptations2: BaseGame[] = [
     saga: 'Pokémon',
     platineTime: 0,
     description: '',
-    fromEntity: {
-      entityType: 'serie',
-      title: 'Pokémon',
-      secondEntityKey: 'Satoshi Tajiri',
-    },
+    fromEntity: null,
   },
   {
     title: 'Pokémon Blanc',
     editor: 'Game Freak',
     hero: 'Dresseur',
-    coverUrl:
-      '/games_pictures/fdfeff12ad9f.jpg',
+    coverUrl: '/games_pictures/fdfeff12ad9f.jpg',
     releaseDate: '2011-03-04',
     averageTimeToFinish: 40,
     averageTimeToHundredPercent: 200,
@@ -1320,11 +1196,7 @@ export const baseGamesAdaptations2: BaseGame[] = [
     saga: 'Pokémon',
     platineTime: 0,
     description: '',
-    fromEntity: {
-      entityType: 'serie',
-      title: 'Pokémon',
-      secondEntityKey: 'Satoshi Tajiri',
-    },
+    fromEntity: null,
   },
   {
     title: 'Pokémon Noir 2',
@@ -1338,11 +1210,7 @@ export const baseGamesAdaptations2: BaseGame[] = [
     saga: 'Pokémon',
     platineTime: 0,
     description: '',
-    fromEntity: {
-      entityType: 'serie',
-      title: 'Pokémon',
-      secondEntityKey: 'Satoshi Tajiri',
-    },
+    fromEntity: null,
   },
   {
     title: 'Pokémon Blanc 2',
@@ -1356,18 +1224,13 @@ export const baseGamesAdaptations2: BaseGame[] = [
     saga: 'Pokémon',
     platineTime: 0,
     description: '',
-    fromEntity: {
-      entityType: 'serie',
-      title: 'Pokémon',
-      secondEntityKey: 'Satoshi Tajiri',
-    },
+    fromEntity: null,
   },
   {
     title: 'Pokémon X',
     editor: 'Game Freak',
     hero: 'Dresseur',
-    coverUrl:
-      '/games_pictures/624391902505.jpg',
+    coverUrl: '/games_pictures/624391902505.jpg',
     releaseDate: '2013-10-12',
     averageTimeToFinish: 35,
     averageTimeToHundredPercent: 180,
@@ -1375,11 +1238,7 @@ export const baseGamesAdaptations2: BaseGame[] = [
     saga: 'Pokémon',
     platineTime: 0,
     description: '',
-    fromEntity: {
-      entityType: 'serie',
-      title: 'Pokémon',
-      secondEntityKey: 'Satoshi Tajiri',
-    },
+    fromEntity: null,
   },
   {
     title: 'Pokémon Y',
@@ -1393,11 +1252,7 @@ export const baseGamesAdaptations2: BaseGame[] = [
     saga: 'Pokémon',
     platineTime: 0,
     description: '',
-    fromEntity: {
-      entityType: 'serie',
-      title: 'Pokémon',
-      secondEntityKey: 'Satoshi Tajiri',
-    },
+    fromEntity: null,
   },
   {
     title: 'Pokémon Rubis Oméga',
@@ -1411,18 +1266,13 @@ export const baseGamesAdaptations2: BaseGame[] = [
     saga: 'Pokémon',
     platineTime: 0,
     description: '',
-    fromEntity: {
-      entityType: 'serie',
-      title: 'Pokémon',
-      secondEntityKey: 'Satoshi Tajiri',
-    },
+    fromEntity: null,
   },
   {
     title: 'Pokémon Saphir Alpha',
     editor: 'Game Freak',
     hero: 'Dresseur',
-    coverUrl:
-      '/games_pictures/22e10f3d5f53.jpg',
+    coverUrl: '/games_pictures/22e10f3d5f53.jpg',
     releaseDate: '2014-11-28',
     averageTimeToFinish: 35,
     averageTimeToHundredPercent: 180,
@@ -1430,11 +1280,7 @@ export const baseGamesAdaptations2: BaseGame[] = [
     saga: 'Pokémon',
     platineTime: 0,
     description: '',
-    fromEntity: {
-      entityType: 'serie',
-      title: 'Pokémon',
-      secondEntityKey: 'Satoshi Tajiri',
-    },
+    fromEntity: null,
   },
   {
     title: 'Pokkén Tournament',
@@ -1448,11 +1294,7 @@ export const baseGamesAdaptations2: BaseGame[] = [
     saga: 'Pokémon',
     platineTime: 0,
     description: '',
-    fromEntity: {
-      entityType: 'serie',
-      title: 'Pokémon',
-      secondEntityKey: 'Satoshi Tajiri',
-    },
+    fromEntity: null,
   },
   {
     title: 'Pokémon GO',
@@ -1466,11 +1308,7 @@ export const baseGamesAdaptations2: BaseGame[] = [
     saga: 'Pokémon',
     platineTime: 0,
     description: '',
-    fromEntity: {
-      entityType: 'serie',
-      title: 'Pokémon',
-      secondEntityKey: 'Satoshi Tajiri',
-    },
+    fromEntity: null,
   },
   {
     title: 'Pokémon Soleil',
@@ -1484,11 +1322,7 @@ export const baseGamesAdaptations2: BaseGame[] = [
     saga: 'Pokémon',
     platineTime: 0,
     description: '',
-    fromEntity: {
-      entityType: 'serie',
-      title: 'Pokémon',
-      secondEntityKey: 'Satoshi Tajiri',
-    },
+    fromEntity: null,
   },
   {
     title: 'Pokémon Lune',
@@ -1502,18 +1336,13 @@ export const baseGamesAdaptations2: BaseGame[] = [
     saga: 'Pokémon',
     platineTime: 0,
     description: '',
-    fromEntity: {
-      entityType: 'serie',
-      title: 'Pokémon',
-      secondEntityKey: 'Satoshi Tajiri',
-    },
+    fromEntity: null,
   },
   {
     title: 'Pokémon Ultra-Soleil',
     editor: 'Game Freak',
     hero: 'Dresseur',
-    coverUrl:
-      '/games_pictures/6a54d839a31f.jpg',
+    coverUrl: '/games_pictures/6a54d839a31f.jpg',
     releaseDate: '2017-11-17',
     averageTimeToFinish: 35,
     averageTimeToHundredPercent: 180,
@@ -1521,11 +1350,7 @@ export const baseGamesAdaptations2: BaseGame[] = [
     saga: 'Pokémon',
     platineTime: 0,
     description: '',
-    fromEntity: {
-      entityType: 'serie',
-      title: 'Pokémon',
-      secondEntityKey: 'Satoshi Tajiri',
-    },
+    fromEntity: null,
   },
   {
     title: 'Pokémon Ultra-Lune',
@@ -1539,18 +1364,13 @@ export const baseGamesAdaptations2: BaseGame[] = [
     saga: 'Pokémon',
     platineTime: 0,
     description: '',
-    fromEntity: {
-      entityType: 'serie',
-      title: 'Pokémon',
-      secondEntityKey: 'Satoshi Tajiri',
-    },
+    fromEntity: null,
   },
   {
     title: "Pokémon : Let's Go, Pikachu",
     editor: 'Game Freak',
     hero: 'Dresseur',
-    coverUrl:
-      '/games_pictures/793edef979fa.jpg',
+    coverUrl: '/games_pictures/793edef979fa.jpg',
     releaseDate: '2018-11-16',
     averageTimeToFinish: 25,
     averageTimeToHundredPercent: 100,
@@ -1558,11 +1378,7 @@ export const baseGamesAdaptations2: BaseGame[] = [
     saga: 'Pokémon',
     platineTime: 0,
     description: '',
-    fromEntity: {
-      entityType: 'serie',
-      title: 'Pokémon',
-      secondEntityKey: 'Satoshi Tajiri',
-    },
+    fromEntity: null,
   },
   {
     title: "Pokémon : Let's Go, Évoli",
@@ -1576,18 +1392,13 @@ export const baseGamesAdaptations2: BaseGame[] = [
     saga: 'Pokémon',
     platineTime: 0,
     description: '',
-    fromEntity: {
-      entityType: 'serie',
-      title: 'Pokémon',
-      secondEntityKey: 'Satoshi Tajiri',
-    },
+    fromEntity: null,
   },
   {
     title: 'Pokémon Masters EX',
     editor: 'DeNA',
     hero: 'Dresseur',
-    coverUrl:
-      '/games_pictures/713c8a3a441a.png',
+    coverUrl: '/games_pictures/713c8a3a441a.png',
     releaseDate: '2019-08-29',
     averageTimeToFinish: 30,
     averageTimeToHundredPercent: 100,
@@ -1595,18 +1406,13 @@ export const baseGamesAdaptations2: BaseGame[] = [
     saga: 'Pokémon',
     platineTime: 0,
     description: '',
-    fromEntity: {
-      entityType: 'serie',
-      title: 'Pokémon',
-      secondEntityKey: 'Satoshi Tajiri',
-    },
+    fromEntity: null,
   },
   {
     title: 'Pokémon Épée',
     editor: 'Game Freak',
     hero: 'Dresseur',
-    coverUrl:
-      '/games_pictures/19c61108c58e.png',
+    coverUrl: '/games_pictures/19c61108c58e.png',
     releaseDate: '2019-11-15',
     averageTimeToFinish: 30,
     averageTimeToHundredPercent: 110,
@@ -1614,18 +1420,13 @@ export const baseGamesAdaptations2: BaseGame[] = [
     saga: 'Pokémon',
     platineTime: 0,
     description: '',
-    fromEntity: {
-      entityType: 'serie',
-      title: 'Pokémon',
-      secondEntityKey: 'Satoshi Tajiri',
-    },
+    fromEntity: null,
   },
   {
     title: 'Pokémon Bouclier',
     editor: 'Game Freak',
     hero: 'Dresseur',
-    coverUrl:
-      '/games_pictures/4d8637b7ca66.jpg',
+    coverUrl: '/games_pictures/4d8637b7ca66.jpg',
     releaseDate: '2019-11-15',
     averageTimeToFinish: 30,
     averageTimeToHundredPercent: 110,
@@ -1633,18 +1434,13 @@ export const baseGamesAdaptations2: BaseGame[] = [
     saga: 'Pokémon',
     platineTime: 0,
     description: '',
-    fromEntity: {
-      entityType: 'serie',
-      title: 'Pokémon',
-      secondEntityKey: 'Satoshi Tajiri',
-    },
+    fromEntity: null,
   },
   {
     title: 'Pokémon Café ReMix',
     editor: 'Genius Sonority',
     hero: 'Pokémon',
-    coverUrl:
-      '/games_pictures/10386967a476.jpg',
+    coverUrl: '/games_pictures/10386967a476.jpg',
     releaseDate: '2020-06-24',
     averageTimeToFinish: 15,
     averageTimeToHundredPercent: 40,
@@ -1652,18 +1448,13 @@ export const baseGamesAdaptations2: BaseGame[] = [
     saga: 'Pokémon',
     platineTime: 0,
     description: '',
-    fromEntity: {
-      entityType: 'serie',
-      title: 'Pokémon',
-      secondEntityKey: 'Satoshi Tajiri',
-    },
+    fromEntity: null,
   },
   {
     title: 'Pokémon Diamant Étincelant',
     editor: 'ILCA',
     hero: 'Dresseur',
-    coverUrl:
-      '/games_pictures/bc3bca65f2ea.jpg',
+    coverUrl: '/games_pictures/bc3bca65f2ea.jpg',
     releaseDate: '2021-11-19',
     averageTimeToFinish: 30,
     averageTimeToHundredPercent: 120,
@@ -1671,18 +1462,13 @@ export const baseGamesAdaptations2: BaseGame[] = [
     saga: 'Pokémon',
     platineTime: 0,
     description: '',
-    fromEntity: {
-      entityType: 'serie',
-      title: 'Pokémon',
-      secondEntityKey: 'Satoshi Tajiri',
-    },
+    fromEntity: null,
   },
   {
     title: 'Pokémon Perle Scintillante',
     editor: 'ILCA',
     hero: 'Dresseur',
-    coverUrl:
-      '/games_pictures/a83b1743c834.jpg',
+    coverUrl: '/games_pictures/a83b1743c834.jpg',
     releaseDate: '2021-11-19',
     averageTimeToFinish: 30,
     averageTimeToHundredPercent: 120,
@@ -1690,11 +1476,7 @@ export const baseGamesAdaptations2: BaseGame[] = [
     saga: 'Pokémon',
     platineTime: 0,
     description: '',
-    fromEntity: {
-      entityType: 'serie',
-      title: 'Pokémon',
-      secondEntityKey: 'Satoshi Tajiri',
-    },
+    fromEntity: null,
   },
   {
     title: 'New Pokémon Snap',
@@ -1708,18 +1490,13 @@ export const baseGamesAdaptations2: BaseGame[] = [
     saga: 'Pokémon Snap',
     platineTime: 0,
     description: '',
-    fromEntity: {
-      entityType: 'serie',
-      title: 'Pokémon',
-      secondEntityKey: 'Satoshi Tajiri',
-    },
+    fromEntity: null,
   },
   {
     title: 'Pokémon Unite',
     editor: 'TiMi Studio Group',
     hero: 'Dresseur',
-    coverUrl:
-      '/games_pictures/6b18471e7947.jpg',
+    coverUrl: '/games_pictures/6b18471e7947.jpg',
     releaseDate: '2021-07-21',
     averageTimeToFinish: 20,
     averageTimeToHundredPercent: 60,
@@ -1727,18 +1504,13 @@ export const baseGamesAdaptations2: BaseGame[] = [
     saga: 'Pokémon',
     platineTime: 0,
     description: '',
-    fromEntity: {
-      entityType: 'serie',
-      title: 'Pokémon',
-      secondEntityKey: 'Satoshi Tajiri',
-    },
+    fromEntity: null,
   },
   {
     title: 'Pokémon Violet',
     editor: 'Game Freak',
     hero: 'Dresseur',
-    coverUrl:
-      '/games_pictures/a2f558fd1046.jpg',
+    coverUrl: '/games_pictures/a2f558fd1046.jpg',
     releaseDate: '2022-11-18',
     averageTimeToFinish: 30,
     averageTimeToHundredPercent: 90,
@@ -1746,18 +1518,13 @@ export const baseGamesAdaptations2: BaseGame[] = [
     saga: 'Pokémon',
     platineTime: 0,
     description: '',
-    fromEntity: {
-      entityType: 'serie',
-      title: 'Pokémon',
-      secondEntityKey: 'Satoshi Tajiri',
-    },
+    fromEntity: null,
   },
   {
     title: 'Pokémon Écarlate',
     editor: 'Game Freak',
     hero: 'Dresseur',
-    coverUrl:
-      '/games_pictures/5848b02daa56.jpg',
+    coverUrl: '/games_pictures/5848b02daa56.jpg',
     releaseDate: '2022-11-18',
     averageTimeToFinish: 30,
     averageTimeToHundredPercent: 90,
@@ -1765,11 +1532,7 @@ export const baseGamesAdaptations2: BaseGame[] = [
     saga: 'Pokémon',
     platineTime: 0,
     description: '',
-    fromEntity: {
-      entityType: 'serie',
-      title: 'Pokémon',
-      secondEntityKey: 'Satoshi Tajiri',
-    },
+    fromEntity: null,
   },
   {
     title: 'Pokémon Légendes : Arceus',
@@ -1783,11 +1546,7 @@ export const baseGamesAdaptations2: BaseGame[] = [
     saga: 'Pokémon',
     platineTime: 0,
     description: '',
-    fromEntity: {
-      entityType: 'serie',
-      title: 'Pokémon',
-      secondEntityKey: 'Satoshi Tajiri',
-    },
+    fromEntity: null,
   },
   {
     title: 'Pokkén Tournament DX',
@@ -1801,11 +1560,7 @@ export const baseGamesAdaptations2: BaseGame[] = [
     saga: 'Pokémon',
     platineTime: 0,
     description: '',
-    fromEntity: {
-      entityType: 'serie',
-      title: 'Pokémon',
-      secondEntityKey: 'Satoshi Tajiri',
-    },
+    fromEntity: null,
   },
   {
     title: 'Pokémon Snap',
@@ -1820,18 +1575,13 @@ export const baseGamesAdaptations2: BaseGame[] = [
     saga: 'Pokémon Snap',
     platineTime: 0,
     description: '',
-    fromEntity: {
-      entityType: 'serie',
-      title: 'Pokémon',
-      secondEntityKey: 'Satoshi Tajiri',
-    },
+    fromEntity: null,
   },
   {
     title: 'Pokemon Flora Sky',
     editor: 'Fangame (12345 SKY)',
     hero: 'Dresseur',
-    coverUrl:
-      '/games_pictures/01206088ae0b.png',
+    coverUrl: '/games_pictures/01206088ae0b.png',
     releaseDate: '2011-01-01',
     averageTimeToFinish: 37,
     averageTimeToHundredPercent: 60,
@@ -1839,11 +1589,7 @@ export const baseGamesAdaptations2: BaseGame[] = [
     saga: 'Pokémon',
     platineTime: 0,
     description: '',
-    fromEntity: {
-      entityType: 'serie',
-      title: 'Pokémon',
-      secondEntityKey: 'Satoshi Tajiri',
-    },
+    fromEntity: null,
   },
   {
     title: 'Pokémon Légendes : Z-A',
@@ -1857,10 +1603,6 @@ export const baseGamesAdaptations2: BaseGame[] = [
     saga: 'Pokémon',
     platineTime: 0,
     description: '',
-    fromEntity: {
-      entityType: 'serie',
-      title: 'Pokémon',
-      secondEntityKey: 'Satoshi Tajiri',
-    },
+    fromEntity: null,
   },
 ];

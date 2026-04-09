@@ -10,6 +10,7 @@ type AddComicEntityForm = {
   designer: string;
   writer: string;
   coverUrl: string;
+  releaseDate: string;
   genre: string;
   saga: string;
   sagaOrder: number;
@@ -52,6 +53,7 @@ export class AddComicComponent {
     designer: '',
     writer: '',
     coverUrl: '',
+    releaseDate: '',
     genre: '',
     saga: '',
     sagaOrder: 0,

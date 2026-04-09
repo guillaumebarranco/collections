@@ -56,6 +56,17 @@
       </div>
 
       <div class="form-row">
+        <label for="releaseDate">Date de sortie</label>
+        <input
+          id="releaseDate"
+          type="date"
+          [ngModel]="entityForm().releaseDate"
+          (ngModelChange)="updateEntityField('releaseDate', $event)"
+          name="releaseDate"
+        />
+      </div>
+
+      <div class="form-row">
         <label for="genre">Genre</label>
         <input
           id="genre"

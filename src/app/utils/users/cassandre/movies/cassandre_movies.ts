@@ -3199,8 +3199,8 @@ export const cassandreMovies: UserMovies = [
   },
 
   {
-    title: "Taken",
-    director: "Pierre Morel",
+    title: 'Taken',
+    director: 'Pierre Morel',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -3216,8 +3216,8 @@ export const cassandreMovies: UserMovies = [
   },
 
   {
-    title: "Taken 2",
-    director: "Olivier Megaton",
+    title: 'Taken 2',
+    director: 'Olivier Megaton',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -3230,5 +3230,21 @@ export const cassandreMovies: UserMovies = [
     inList: [],
     borrowed: '',
     loaned: '',
+  },
+  {
+    title: 'Pokémon, le film : Mewtwo contre-attaque',
+    director: 'Kunihiko Yuyama',
+    rating: 0,
+    timesWatched: 1,
+    firstViewedDate: '',
+    lastViewedDate: '',
+    seenAtCinema: false,
+    owned: false,
+    wantToSeeAgain: false,
+    watchPriority: 1,
+    ratingComment: '',
+    borrowed: '',
+    loaned: '',
+    inList: [],
   },
 ];

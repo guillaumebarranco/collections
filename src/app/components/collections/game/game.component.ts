@@ -155,8 +155,6 @@ export class GameComponent {
       averageTimeToHundredPercent: game.averageTimeToHundredPercent,
     });
 
-    console.log(game.title, data);
-
     return data;
   }
 

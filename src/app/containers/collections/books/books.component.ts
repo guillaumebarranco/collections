@@ -430,21 +430,17 @@ export class BooksComponent implements OnInit {
   filteredBooks = computed<Book[]>(() => {
     let books: Book[] = this.allBooks();
     if (this.selectedView() === 'readlist') {
-      books = this.allReadlistBooks().filter(
-        (b) => (b.readTimes ?? 0) !== 0.5
-      );
+      books = this.allReadlistBooks().filter((b) => (b.readTimes ?? 0) !== 0.5);
     } else if (this.selectedView() === 'readingInProgress') {
-      books = this.allReadlistBooks().filter(
-        (b) => (b.readTimes ?? 0) === 0.5
-      );
+      books = this.allReadlistBooks().filter((b) => (b.readTimes ?? 0) === 0.5);
     } else if (this.selectedView() === 'owned') {
       books = this.allBooks().filter((book) => book.owned);
     } else if (this.selectedView() === 'borrowed') {
-      const readBorrowed = this.allBooks().filter(
-        (book) => Boolean(book.borrowed && book.borrowed.trim().length > 0)
+      const readBorrowed = this.allBooks().filter((book) =>
+        Boolean(book.borrowed && book.borrowed.trim().length > 0)
       );
-      const readlistBorrowed = this.allReadlistBooks().filter(
-        (book) => Boolean(book.borrowed && book.borrowed.trim().length > 0)
+      const readlistBorrowed = this.allReadlistBooks().filter((book) =>
+        Boolean(book.borrowed && book.borrowed.trim().length > 0)
       );
       const seen = new Set<string>();
       books = [...readBorrowed, ...readlistBorrowed].filter((book) => {
@@ -454,11 +450,11 @@ export class BooksComponent implements OnInit {
         return true;
       });
     } else if (this.selectedView() === 'loaned') {
-      const readLoaned = this.allBooks().filter(
-        (book) => Boolean(book.loaned && book.loaned.trim().length > 0)
+      const readLoaned = this.allBooks().filter((book) =>
+        Boolean(book.loaned && book.loaned.trim().length > 0)
       );
-      const readlistLoaned = this.allReadlistBooks().filter(
-        (book) => Boolean(book.loaned && book.loaned.trim().length > 0)
+      const readlistLoaned = this.allReadlistBooks().filter((book) =>
+        Boolean(book.loaned && book.loaned.trim().length > 0)
       );
       const seen = new Set<string>();
       books = [...readLoaned, ...readlistLoaned].filter((book) => {
@@ -534,8 +530,8 @@ export class BooksComponent implements OnInit {
         this.selectedView() === 'borrowed' &&
         this.selectedYearFilter() !== 'all'
       ) {
-        const readlistBorrowed = this.allReadlistBooks().filter(
-          (b) => Boolean(b.borrowed && b.borrowed.trim().length > 0)
+        const readlistBorrowed = this.allReadlistBooks().filter((b) =>
+          Boolean(b.borrowed && b.borrowed.trim().length > 0)
         );
         const seen = new Set(
           filteredBooks.map((b) => `${b.title}|${b.author}`)
@@ -554,8 +550,8 @@ export class BooksComponent implements OnInit {
         this.selectedView() === 'loaned' &&
         this.selectedYearFilter() !== 'all'
       ) {
-        const readlistLoaned = this.allReadlistBooks().filter(
-          (b) => Boolean(b.loaned && b.loaned.trim().length > 0)
+        const readlistLoaned = this.allReadlistBooks().filter((b) =>
+          Boolean(b.loaned && b.loaned.trim().length > 0)
         );
         const seen = new Set(
           filteredBooks.map((b) => `${b.title}|${b.author}`)
@@ -818,12 +814,6 @@ export class BooksComponent implements OnInit {
 
       const othersRated = await getOtherUsersBooksRated(userId, 4, followedIds);
 
-      console.log('books:recommendations:othersRated', othersRated.length);
-      console.log(
-        'books:recommendations:baseBooksList',
-        this.baseBooksList().length
-      );
-
       const detailsMap = new Map<string, Map<string, number>>();
       for (const book of othersRated) {
         const key = `${book.title}|${book.author}`;
@@ -840,20 +830,13 @@ export class BooksComponent implements OnInit {
       );
 
       const baseBooks = this.baseBooksList();
-      console.log('books:recommendations:detailsMap size', detailsMap.size);
-      console.log('books:recommendations:seenKeys size', seenKeys.size);
 
       const recommended = baseBooks
         .filter((book) => {
           const key = this.getBookIdentityKey(book);
           const isNotSeen = !seenKeys.has(key);
           const isInDetailsMap = detailsMap.has(key);
-          if (isInDetailsMap && !isNotSeen) {
-            console.log('books:recommendations:book already seen', key);
-          }
-          if (isNotSeen && !isInDetailsMap) {
-            console.log('books:recommendations:book not in detailsMap', key);
-          }
+
           return isNotSeen && isInDetailsMap;
         })
         .map((book) => {
@@ -881,10 +864,6 @@ export class BooksComponent implements OnInit {
           return a.title.localeCompare(b.title);
         });
 
-      console.log(
-        'books:recommendations:recommended count',
-        recommended.length
-      );
       this.recommendations.set(recommended);
       this.recommendationsUserId.set(userId);
     } catch (error) {
@@ -975,9 +954,7 @@ export class BooksComponent implements OnInit {
       (b) => this.getBookIdentityKey(b) === key
     );
     const alreadyRead = this.connectedUserBooks().some(
-      (b) =>
-        this.getBookIdentityKey(b) === key &&
-        (b.readTimes ?? 0) >= 1
+      (b) => this.getBookIdentityKey(b) === key && (b.readTimes ?? 0) >= 1
     );
     return !inReadlist && !alreadyRead;
   }
@@ -986,9 +963,7 @@ export class BooksComponent implements OnInit {
   canAddBookToMyRead(book: Book): boolean {
     const key = this.getBookIdentityKey(book);
     const alreadyRead = this.connectedUserBooks().some(
-      (b) =>
-        this.getBookIdentityKey(b) === key &&
-        (b.readTimes ?? 0) >= 1
+      (b) => this.getBookIdentityKey(b) === key && (b.readTimes ?? 0) >= 1
     );
     return !alreadyRead;
   }

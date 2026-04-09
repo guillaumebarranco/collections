@@ -40,6 +40,7 @@ type EditBdEntityForm = {
   sagaOrder: number;
   writer: string;
   coverUrl: string;
+  releaseDate: string;
   description: string;
 };
 
@@ -176,6 +177,7 @@ export class EditBdComponent {
       field !== 'genre' &&
       field !== 'writer' &&
       field !== 'coverUrl' &&
+      field !== 'releaseDate' &&
       field !== 'description' &&
       field !== 'saga'
     ) {
@@ -448,6 +450,7 @@ export class EditBdComponent {
       sagaOrder: bd.sagaOrder || 0,
       writer: bd.writer || '',
       coverUrl: bd.coverUrl || '',
+      releaseDate: bd.releaseDate || '',
       description: bd.description ?? '',
     };
   }
@@ -461,6 +464,7 @@ export class EditBdComponent {
       sagaOrder: form.sagaOrder,
       writer: form.writer,
       coverUrl: form.coverUrl,
+      releaseDate: form.releaseDate,
       description: form.description ?? '',
     };
   }

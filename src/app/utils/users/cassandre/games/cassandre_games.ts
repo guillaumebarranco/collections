@@ -2,8 +2,8 @@ import { UserGames } from '../../../../models/game-model';
 
 export const cassandreGames: UserGames = [
   {
-    title: "Pokémon Bouclier",
-    editor: "Game Freak",
+    title: 'Pokémon Bouclier',
+    editor: 'Game Freak',
     rating: 0,
     owned: false,
     gamelistPriority: 1,
@@ -15,8 +15,8 @@ export const cassandreGames: UserGames = [
   },
 
   {
-    title: "Pokémon Violet",
-    editor: "Game Freak",
+    title: 'Pokémon Violet',
+    editor: 'Game Freak',
     rating: 0,
     owned: false,
     gamelistPriority: 1,
@@ -28,8 +28,8 @@ export const cassandreGames: UserGames = [
   },
 
   {
-    title: "Sonic Adventure 2 Battle",
-    editor: "Sega",
+    title: 'Sonic Adventure 2 Battle',
+    editor: 'Sega',
     rating: 0,
     owned: false,
     gamelistPriority: 1,
@@ -41,8 +41,8 @@ export const cassandreGames: UserGames = [
   },
 
   {
-    title: "Pokemon Jaune",
-    editor: "Nintendo",
+    title: 'Pokemon Jaune',
+    editor: 'Nintendo',
     rating: 0,
     owned: false,
     gamelistPriority: 1,
@@ -54,8 +54,8 @@ export const cassandreGames: UserGames = [
   },
 
   {
-    title: "Mario Kart Wii",
-    editor: "Nintendo",
+    title: 'Mario Kart Wii',
+    editor: 'Nintendo',
     rating: 0,
     owned: false,
     gamelistPriority: 1,
@@ -67,8 +67,8 @@ export const cassandreGames: UserGames = [
   },
 
   {
-    title: "Mario Kart 8 Deluxe",
-    editor: "Nintendo",
+    title: 'Mario Kart 8 Deluxe',
+    editor: 'Nintendo',
     rating: 0,
     owned: false,
     gamelistPriority: 1,
@@ -80,8 +80,8 @@ export const cassandreGames: UserGames = [
   },
 
   {
-    title: "Super Mario Party",
-    editor: "Nintendo",
+    title: 'Super Mario Party',
+    editor: 'Nintendo',
     rating: 0,
     owned: false,
     gamelistPriority: 1,
@@ -93,8 +93,8 @@ export const cassandreGames: UserGames = [
   },
 
   {
-    title: "One Piece: Treasure Cruise",
-    editor: "Ganbarion",
+    title: 'One Piece: Treasure Cruise',
+    editor: 'Ganbarion',
     rating: 0,
     owned: false,
     gamelistPriority: 1,
@@ -106,8 +106,8 @@ export const cassandreGames: UserGames = [
   },
 
   {
-    title: "One Piece Odyssey",
-    editor: "ILCA",
+    title: 'One Piece Odyssey',
+    editor: 'ILCA',
     rating: 0,
     owned: false,
     gamelistPriority: 1,
@@ -119,8 +119,8 @@ export const cassandreGames: UserGames = [
   },
 
   {
-    title: "Animal Crossing : Wild World",
-    editor: "Nintendo",
+    title: 'Animal Crossing : Wild World',
+    editor: 'Nintendo',
     rating: 0,
     owned: false,
     gamelistPriority: 1,
@@ -132,8 +132,8 @@ export const cassandreGames: UserGames = [
   },
 
   {
-    title: "Pokémon Or",
-    editor: "Game Freak",
+    title: 'Pokémon Or',
+    editor: 'Game Freak',
     rating: 0,
     owned: false,
     gamelistPriority: 1,
@@ -145,8 +145,8 @@ export const cassandreGames: UserGames = [
   },
 
   {
-    title: "Pokémon Émeraude",
-    editor: "Game Freak",
+    title: 'Pokémon Émeraude',
+    editor: 'Game Freak',
     rating: 0,
     owned: false,
     gamelistPriority: 1,
@@ -158,8 +158,8 @@ export const cassandreGames: UserGames = [
   },
 
   {
-    title: "Yu-Gi-Oh! Duel des ténèbres",
-    editor: "Konami",
+    title: 'Yu-Gi-Oh! Duel des ténèbres',
+    editor: 'Konami',
     rating: 0,
     owned: false,
     gamelistPriority: 1,
@@ -171,8 +171,8 @@ export const cassandreGames: UserGames = [
   },
 
   {
-    title: "Yu-Gi-Oh! Reshef of Destruction",
-    editor: "Konami",
+    title: 'Yu-Gi-Oh! Reshef of Destruction',
+    editor: 'Konami',
     rating: 0,
     owned: false,
     gamelistPriority: 1,
@@ -184,8 +184,8 @@ export const cassandreGames: UserGames = [
   },
 
   {
-    title: "Sonic Advance",
-    editor: "Sega",
+    title: 'Sonic Advance',
+    editor: 'Sega',
     rating: 0,
     owned: false,
     gamelistPriority: 1,
@@ -197,8 +197,8 @@ export const cassandreGames: UserGames = [
   },
 
   {
-    title: "Mario Party 8",
-    editor: "Nintendo",
+    title: 'Mario Party 8',
+    editor: 'Nintendo',
     rating: 0,
     owned: false,
     gamelistPriority: 1,
@@ -210,8 +210,8 @@ export const cassandreGames: UserGames = [
   },
 
   {
-    title: "Dragon Ball Z: Budokai 2",
-    editor: "Dimps",
+    title: 'Dragon Ball Z: Budokai 2',
+    editor: 'Dimps',
     rating: 0,
     owned: false,
     gamelistPriority: 1,
@@ -224,7 +224,7 @@ export const cassandreGames: UserGames = [
 
   {
     title: "Professeur Layton et l'Étrange village",
-    editor: "Nintendo",
+    editor: 'Nintendo',
     rating: 0,
     owned: false,
     gamelistPriority: 1,
@@ -236,8 +236,8 @@ export const cassandreGames: UserGames = [
   },
 
   {
-    title: "Professeur Layton et le Destin perdu",
-    editor: "Nintendo",
+    title: 'Professeur Layton et le Destin perdu',
+    editor: 'Nintendo',
     rating: 0,
     owned: false,
     gamelistPriority: 1,
@@ -250,7 +250,7 @@ export const cassandreGames: UserGames = [
 
   {
     title: "Professeur Layton et l'Appel du spectre",
-    editor: "Nintendo",
+    editor: 'Nintendo',
     rating: 0,
     owned: false,
     gamelistPriority: 1,
@@ -262,8 +262,8 @@ export const cassandreGames: UserGames = [
   },
 
   {
-    title: "Professeur Layton et le Masque des miracles",
-    editor: "Nintendo",
+    title: 'Professeur Layton et le Masque des miracles',
+    editor: 'Nintendo',
     rating: 0,
     owned: false,
     gamelistPriority: 1,
@@ -275,8 +275,8 @@ export const cassandreGames: UserGames = [
   },
 
   {
-    title: "Professeur Layton et l'Héritage d'Aslantes",
-    editor: "Nintendo",
+    title: "Professeur Layton et l'Héritage des Aslantes",
+    editor: 'Nintendo',
     rating: 0,
     owned: false,
     gamelistPriority: 1,
@@ -288,8 +288,8 @@ export const cassandreGames: UserGames = [
   },
 
   {
-    title: "Professeur Layton vs Phoenix Wright: Ace Attorney",
-    editor: "Nintendo",
+    title: 'Professeur Layton vs Phoenix Wright: Ace Attorney',
+    editor: 'Nintendo',
     rating: 0,
     owned: false,
     gamelistPriority: 1,
@@ -301,8 +301,8 @@ export const cassandreGames: UserGames = [
   },
 
   {
-    title: "The Sims",
-    editor: "Electronic Arts",
+    title: 'Les Sims',
+    editor: 'Electronic Arts',
     rating: 0,
     owned: false,
     gamelistPriority: 1,
@@ -314,8 +314,8 @@ export const cassandreGames: UserGames = [
   },
 
   {
-    title: "The Sims 2",
-    editor: "Electronic Arts",
+    title: 'Les Sims 2',
+    editor: 'Electronic Arts',
     rating: 0,
     owned: false,
     gamelistPriority: 1,
@@ -327,8 +327,8 @@ export const cassandreGames: UserGames = [
   },
 
   {
-    title: "The Sims 3",
-    editor: "Electronic Arts",
+    title: 'Les Sims 3',
+    editor: 'Electronic Arts',
     rating: 0,
     owned: false,
     gamelistPriority: 1,
@@ -340,8 +340,8 @@ export const cassandreGames: UserGames = [
   },
 
   {
-    title: "Animal Crossing: New Horizons",
-    editor: "Nintendo",
+    title: 'Animal Crossing: New Horizons',
+    editor: 'Nintendo',
     rating: 0,
     owned: false,
     gamelistPriority: 1,
@@ -353,8 +353,8 @@ export const cassandreGames: UserGames = [
   },
 
   {
-    title: "Professeur Layton et la Boite de Pandore",
-    editor: "Nintendo",
+    title: 'Professeur Layton et la Boite de Pandore',
+    editor: 'Nintendo',
     rating: 0,
     owned: false,
     gamelistPriority: 1,
@@ -366,8 +366,8 @@ export const cassandreGames: UserGames = [
   },
 
   {
-    title: "Pokémon Bleu",
-    editor: "Game Freak",
+    title: 'Pokémon Bleu',
+    editor: 'Game Freak',
     rating: 0,
     owned: false,
     gamelistPriority: 1,
@@ -379,8 +379,8 @@ export const cassandreGames: UserGames = [
   },
 
   {
-    title: "Pokémon Colosseum",
-    editor: "Genius Sonority",
+    title: 'Pokémon Colosseum',
+    editor: 'Genius Sonority',
     rating: 0,
     owned: false,
     gamelistPriority: 1,
@@ -392,8 +392,8 @@ export const cassandreGames: UserGames = [
   },
 
   {
-    title: "Pokémon XD : Le Souffle des ténèbres",
-    editor: "Genius Sonority",
+    title: 'Pokémon XD : Le Souffle des ténèbres',
+    editor: 'Genius Sonority',
     rating: 0,
     owned: false,
     gamelistPriority: 1,
@@ -405,8 +405,8 @@ export const cassandreGames: UserGames = [
   },
 
   {
-    title: "Pokémon Perle",
-    editor: "Game Freak",
+    title: 'Pokémon Perle',
+    editor: 'Game Freak',
     rating: 0,
     owned: false,
     gamelistPriority: 1,
@@ -418,8 +418,8 @@ export const cassandreGames: UserGames = [
   },
 
   {
-    title: "Pokémon Noir",
-    editor: "Game Freak",
+    title: 'Pokémon Noir',
+    editor: 'Game Freak',
     rating: 0,
     owned: false,
     gamelistPriority: 1,
@@ -431,8 +431,8 @@ export const cassandreGames: UserGames = [
   },
 
   {
-    title: "Pokémon Blanc 2",
-    editor: "Game Freak",
+    title: 'Pokémon Blanc 2',
+    editor: 'Game Freak',
     rating: 0,
     owned: false,
     gamelistPriority: 1,
@@ -444,8 +444,8 @@ export const cassandreGames: UserGames = [
   },
 
   {
-    title: "Pokémon Y",
-    editor: "Game Freak",
+    title: 'Pokémon Y',
+    editor: 'Game Freak',
     rating: 0,
     owned: false,
     gamelistPriority: 1,
@@ -457,8 +457,8 @@ export const cassandreGames: UserGames = [
   },
 
   {
-    title: "Pokémon GO",
-    editor: "Niantic",
+    title: 'Pokémon GO',
+    editor: 'Niantic',
     rating: 0,
     owned: false,
     gamelistPriority: 1,
@@ -470,8 +470,8 @@ export const cassandreGames: UserGames = [
   },
 
   {
-    title: "Pokémon Lune",
-    editor: "Game Freak",
+    title: 'Pokémon Lune',
+    editor: 'Game Freak',
     rating: 0,
     owned: false,
     gamelistPriority: 1,
@@ -483,8 +483,8 @@ export const cassandreGames: UserGames = [
   },
 
   {
-    title: "Pokémon Ultra-Soleil",
-    editor: "Game Freak",
+    title: 'Pokémon Ultra-Soleil',
+    editor: 'Game Freak',
     rating: 0,
     owned: false,
     gamelistPriority: 1,
@@ -496,8 +496,8 @@ export const cassandreGames: UserGames = [
   },
 
   {
-    title: "Pokémon Légendes : Arceus",
-    editor: "Game Freak",
+    title: 'Pokémon Légendes : Arceus',
+    editor: 'Game Freak',
     rating: 0,
     owned: false,
     gamelistPriority: 1,

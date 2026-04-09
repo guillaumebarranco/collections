@@ -5,6 +5,7 @@ export interface MandatoryComicData {
 
 export interface BaseComic extends MandatoryComicData {
   coverUrl: string;
+  releaseDate: string;
   pages: number;
   genre: string;
   designer: string;

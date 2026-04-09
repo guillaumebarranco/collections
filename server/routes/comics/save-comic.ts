@@ -96,6 +96,7 @@ router.post('/', (req: any, res: any) => {
         matchTitle: originalTitle || title,
         matchWriter: originalWriter || writer,
         coverUrl: normalizeString(entityPayload.coverUrl, 'coverUrl'),
+        releaseDate: normalizeString(entityPayload.releaseDate, 'releaseDate') ?? '',
         pages: normalizeNumber(entityPayload.pages, 'pages'),
         genre: normalizeString(entityPayload.genre, 'genre'),
         saga: normalizeString(entityPayload.saga, 'saga') ?? '',

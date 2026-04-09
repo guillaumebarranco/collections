@@ -5,6 +5,7 @@ export interface MandatoryBdData {
 
 export interface BaseBd extends MandatoryBdData {
   coverUrl: string;
+  releaseDate: string;
   pages: number;
   genre: string;
   designer: string;

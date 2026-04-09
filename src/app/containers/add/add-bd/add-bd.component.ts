@@ -10,6 +10,7 @@ type AddBdEntityForm = {
   designer: string;
   writer: string;
   coverUrl: string;
+  releaseDate: string;
   genre: string;
   saga: string;
   sagaOrder: number;
@@ -52,6 +53,7 @@ export class AddBdComponent {
     designer: '',
     writer: '',
     coverUrl: '',
+    releaseDate: '',
     genre: '',
     saga: '',
     sagaOrder: 0,

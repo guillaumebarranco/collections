@@ -84,8 +84,6 @@ export class QuizzCreateModalComponent {
   }
 
   async saveQuizz() {
-    console.log('this.isValid()', this.isValid());
-
     if (!this.isValid()) {
       this.errorMessage.set('Merci de compléter toutes les questions.');
       return;

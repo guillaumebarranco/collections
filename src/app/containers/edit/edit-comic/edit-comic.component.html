@@ -27,6 +27,8 @@
       <p><strong>Writer :</strong> {{ comic()?.writer }}</p>
       } @if (comic()?.genre) {
       <p><strong>Genre :</strong> {{ comic()?.genre }}</p>
+      } @if (comic()?.releaseDate) {
+      <p><strong>Date de sortie :</strong> {{ comic()?.releaseDate }}</p>
       } @if (comic()?.saga) {
       <p>
         <strong>Saga :</strong> {{ comic()?.saga }} @if (comic()?.sagaOrder) {
@@ -259,6 +261,17 @@
         [ngModel]="comicEntityForm()?.coverUrl"
         (ngModelChange)="updateEntityField('coverUrl', $event)"
         name="entityCoverUrl"
+      />
+    </div>
+
+    <div class="form-row">
+      <label for="entityReleaseDate">Date de sortie</label>
+      <input
+        id="entityReleaseDate"
+        type="date"
+        [ngModel]="comicEntityForm()?.releaseDate"
+        (ngModelChange)="updateEntityField('releaseDate', $event)"
+        name="entityReleaseDate"
       />
     </div>
 

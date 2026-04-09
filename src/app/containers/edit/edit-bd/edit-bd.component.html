@@ -27,6 +27,8 @@
       <p><strong>Writer :</strong> {{ bd()?.writer }}</p>
       } @if (bd()?.genre) {
       <p><strong>Genre :</strong> {{ bd()?.genre }}</p>
+      } @if (bd()?.releaseDate) {
+      <p><strong>Date de sortie :</strong> {{ bd()?.releaseDate }}</p>
       } @if (bd()?.saga) {
       <p>
         <strong>Saga :</strong> {{ bd()?.saga }} @if (bd()?.sagaOrder) {
@@ -254,6 +256,17 @@
         [ngModel]="bdEntityForm()?.coverUrl"
         (ngModelChange)="updateEntityField('coverUrl', $event)"
         name="entityCoverUrl"
+      />
+    </div>
+
+    <div class="form-row">
+      <label for="entityReleaseDate">Date de sortie</label>
+      <input
+        id="entityReleaseDate"
+        type="date"
+        [ngModel]="bdEntityForm()?.releaseDate"
+        (ngModelChange)="updateEntityField('releaseDate', $event)"
+        name="entityReleaseDate"
       />
     </div>
 

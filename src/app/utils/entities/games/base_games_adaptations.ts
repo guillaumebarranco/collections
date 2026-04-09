@@ -2966,7 +2966,7 @@ export const baseGamesAdaptations: BaseGame[] = [
     editor: 'Ubisoft',
     hero: 'Batman',
     coverUrl:
-      'https://upload.wikimedia.org/wikipedia/en/a/a8/Batman_-_Rise_of_Sin_Tzu_Coverart.png',
+      '/games_pictures/d62d6518d188.png',
     releaseDate: '2003-10-16',
     averageTimeToFinish: 6,
     averageTimeToHundredPercent: 12,

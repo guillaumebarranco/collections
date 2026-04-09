@@ -40,6 +40,7 @@ type EditComicEntityForm = {
   sagaOrder: number;
   writer: string;
   coverUrl: string;
+  releaseDate: string;
   description: string;
 };
 
@@ -176,6 +177,7 @@ export class EditComicComponent {
       field !== 'genre' &&
       field !== 'writer' &&
       field !== 'coverUrl' &&
+      field !== 'releaseDate' &&
       field !== 'description' &&
       field !== 'saga'
     ) {
@@ -444,6 +446,7 @@ export class EditComicComponent {
       sagaOrder: comic.sagaOrder || 0,
       writer: comic.writer || '',
       coverUrl: comic.coverUrl || '',
+      releaseDate: comic.releaseDate || '',
       description: comic.description ?? '',
     };
   }
@@ -457,6 +460,7 @@ export class EditComicComponent {
       sagaOrder: form.sagaOrder,
       writer: form.writer,
       coverUrl: form.coverUrl,
+      releaseDate: form.releaseDate,
       description: form.description ?? '',
     };
   }
