@@ -840,7 +840,7 @@ export const baseMoviesAnimated: BaseMovie[] = [
     director: 'Tony Bancroft, Barry Cook',
     actors: [{ name: 'Ming-Na Wen' }],
     coverUrl:
-      'https://static.wikia.nocookie.net/wikidoublage/images/b/b7/Mulan_-_Affiche_VOD.jpg/revision/latest?cb=20221205022221&path-prefix=fr',
+      '/movies_pictures/225c87f4348a.jpg',
     releaseDate: '1998-06-19',
     length: 87,
     genre: ['Animation'],

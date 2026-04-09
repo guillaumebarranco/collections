@@ -3291,7 +3291,7 @@ export const baseGames: BaseGame[] = [
     editor: 'Team Salvato',
     hero: 'Protagoniste',
     coverUrl:
-      'https://cdn.akamai.steamstatic.com/steam/apps/698780/library_600x900.jpg',
+      '/games_pictures/a7e6f0b70da7.jpg',
     releaseDate: '2017-09-22',
     averageTimeToFinish: 6,
     averageTimeToHundredPercent: 12,

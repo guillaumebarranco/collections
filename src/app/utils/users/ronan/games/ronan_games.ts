@@ -3113,7 +3113,7 @@ export const ronanGames: UserGames = [
     ],
   },
   {
-    title: 'Pokemon version Ruby',
+    title: 'Pokemon Rubis',
     editor: 'Nintendo',
     rating: 4,
     owned: false,

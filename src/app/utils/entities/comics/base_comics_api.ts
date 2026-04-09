@@ -17,7 +17,7 @@ export const baseComicsApi: BaseComic[] = [
     writer: 'Deniz Camp',
     designer: 'Javier Rodriguez',
     coverUrl:
-      'https://m.media-amazon.com/images/I/81U5SBvhrjL._AC_UF1000,1000_QL80_.jpg',
+      '/comics_pictures/10ae5b76041f.jpg',
     pages: 152,
     genre: 'Super-héro',
     saga: 'Absolute Martian Manhunter',

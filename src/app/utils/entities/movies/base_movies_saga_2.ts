@@ -1554,7 +1554,7 @@ export const baseMoviesSagaPage2: BaseMovie[] = [
     director: 'David Slade',
     actors: [{ name: 'Kristen Stewart' }, { name: 'Robert Pattinson' }],
     coverUrl:
-      'https://fr.web.img6.acsta.net/medias/nmedia/18/73/05/75/19415045.jpg',
+      '/movies_pictures/b88b01d859c5.jpg',
     releaseDate: '2010-06-30',
     length: 124,
     genre: ['Fantastique'],

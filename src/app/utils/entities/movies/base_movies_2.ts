@@ -79,7 +79,7 @@ export const baseMoviesPage2: BaseMovie[] = [
       },
     ],
     coverUrl:
-      'https://fr.web.img3.acsta.net/pictures/19/12/05/17/24/2034927.jpg',
+      '/movies_pictures/d298a5e1cf03.jpg',
     releaseDate: '2020-09-04',
     length: 115,
     genre: ['Action'],
