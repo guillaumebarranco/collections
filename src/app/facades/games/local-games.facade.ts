@@ -16,6 +16,7 @@ import { kevinGameListGames } from '../../utils/users/kevin/games/kevin_gamelist
 import { williamGames } from '../../utils/users/william/games/william_games';
 import { williamGameListGames } from '../../utils/users/william/games/william_gamelist_games';
 import { dantesGames } from '../../utils/users/dantes/games/dantes_games';
+import { cassandreGames } from '../../utils/users/cassandre/games/cassandre_games';
 
 export const allBaseGames: BaseGame[] = [
   ...baseGames,
@@ -39,6 +40,8 @@ export function getLocalGamesByUser(userId: string): UserGame[] {
       return [...williamGames];
     case 'dantes':
       return [...dantesGames];
+    case 'cassandre':
+      return [...cassandreGames];
     default:
       return [];
   }

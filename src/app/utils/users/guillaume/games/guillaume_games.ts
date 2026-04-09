@@ -3554,4 +3554,43 @@ export const guillaumeGames: UserGames = [
     loaned: '',
     sessions: [],
   },
+
+  {
+    title: "Pokémon Colosseum",
+    editor: "Genius Sonority",
+    rating: 0,
+    owned: false,
+    gamelistPriority: 1,
+    wantToPlayAgain: false,
+    ratingComment: '',
+    borrowed: '',
+    loaned: '',
+    sessions: [],
+  },
+
+  {
+    title: "Pokémon XD : Le Souffle des ténèbres",
+    editor: "Genius Sonority",
+    rating: 0,
+    owned: false,
+    gamelistPriority: 1,
+    wantToPlayAgain: false,
+    ratingComment: '',
+    borrowed: '',
+    loaned: '',
+    sessions: [],
+  },
+
+  {
+    title: "Pokémon GO",
+    editor: "Niantic",
+    rating: 0,
+    owned: false,
+    gamelistPriority: 1,
+    wantToPlayAgain: false,
+    ratingComment: '',
+    borrowed: '',
+    loaned: '',
+    sessions: [],
+  },
 ];

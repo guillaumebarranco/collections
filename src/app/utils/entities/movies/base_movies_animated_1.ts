@@ -929,6 +929,20 @@ export const baseMoviesAnimated: BaseMovie[] = [
     countryOrigin: ['États-Unis'],
   },
   {
+    title: 'La Belle et la Bête',
+    director: 'Gary Trousdale, Kirk Wise',
+    actors: [{ name: 'Paige O\'Hara' }],
+    coverUrl:
+      '/movies_pictures/10020-beauty-and-the-beast-1991-animated-0-150-0-225-crop.jpg',
+    releaseDate: '1991-11-22',
+    length: 84,
+    genre: ['Animation', 'Comédie musicale'],
+    saga: 'Disney Classique',
+    description: '',
+    fromEntity: null,
+    countryOrigin: ['États-Unis'],
+  },
+  {
     title: 'La petite sirène',
     director: 'Ron Clements, John Musker',
     actors: [{ name: 'Jodi Benson' }],
