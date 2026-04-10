@@ -2542,4 +2542,21 @@ export const guillaumeMoviesPage1: UserMovies = [
     borrowed: "",
     loaned: "",
   },
+
+  {
+    title: "Heat",
+    director: "Michael Mann",
+    rating: 3.5,
+    timesWatched: 1,
+    firstViewedDate: "2026-04-10",
+    lastViewedDate: "2026-04-10",
+    seenAtCinema: false,
+    owned: false,
+    wantToSeeAgain: false,
+    watchPriority: 1,
+    ratingComment: "",
+    inList: [],
+    borrowed: "",
+    loaned: "",
+  },
 ];
