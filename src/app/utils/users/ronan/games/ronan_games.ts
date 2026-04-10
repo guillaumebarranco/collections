@@ -3082,7 +3082,7 @@ export const ronanGames: UserGames = [
     ],
   },
   {
-    title: 'Harry Potter et La Coupe de Feu',
+    title: 'Harry Potter et La Coupe de Feu (GBA)',
     editor: 'Electronic Arts',
     rating: 3.5,
     owned: false,
@@ -3602,7 +3602,7 @@ export const ronanGames: UserGames = [
     ],
   },
   {
-    title: 'Harry Potter et la Coupe de Feu',
+    title: 'Harry Potter et la Coupe de feu (PS2)',
     editor: 'Electronic Arts',
     rating: 3.5,
     owned: true,

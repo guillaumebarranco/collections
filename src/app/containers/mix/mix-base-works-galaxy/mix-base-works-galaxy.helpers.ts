@@ -822,10 +822,22 @@ function pickCentralGalaxyForFranchiseSaga(
       return a.g.sourceTitle.localeCompare(b.g.sourceTitle, 'fr');
     })[0].g;
   }
+  const withComic = galaxies.filter((g) => g.comic);
+  if (withComic.length > 0) {
+    return [...withComic].sort((a, b) =>
+      a.comic!.title.localeCompare(b.comic!.title, 'fr')
+    )[0];
+  }
   const withManga = galaxies.filter((g) => g.manga);
   if (withManga.length > 0) {
     return [...withManga].sort((a, b) =>
       a.manga!.title.localeCompare(b.manga!.title, 'fr')
+    )[0];
+  }
+  const withManwha = galaxies.filter((g) => g.manwha);
+  if (withManwha.length > 0) {
+    return [...withManwha].sort((a, b) =>
+      a.manwha!.title.localeCompare(b.manwha!.title, 'fr')
     )[0];
   }
   const withMovie = galaxies.filter((g) => g.movie);
@@ -1299,6 +1311,75 @@ function baseWorksBlockToOrbitPanel(
   };
 }
 
+/** Référence hub « fromEntity » (clé unique galaxie). */
+type MixBaseFromEntityHub = {
+  entityType: string;
+  title: string;
+  secondEntityKey: string;
+};
+
+const MIX_BASE_FROM_ENTITY_MAX_DEPTH = 12;
+
+/**
+ * Remonte la chaîne film → … → jeu → … jusqu’à l’œuvre « terminale » (livre, comic,
+ * manga, etc.) pour rattacher adaptations et dérivés au même hub que l’UI le ferait
+ * « à la main » (ex. jeu du film *Superman Returns* sur l’orbite du comic *Superman*).
+ */
+function resolveMixBaseTransmediaHub(
+  fe: MixBaseFromEntityHub,
+  baseMovies: BaseMovie[],
+  baseSeries: BaseSerie[],
+  baseGames: BaseGame[]
+): MixBaseFromEntityHub {
+  let cur = fe;
+  for (let depth = 0; depth < MIX_BASE_FROM_ENTITY_MAX_DEPTH; depth++) {
+    if (cur.entityType === 'movie') {
+      const row = baseMovies.find(
+        (m) => m.title === cur.title && m.director === cur.secondEntityKey
+      );
+      if (!row?.fromEntity) {
+        return cur;
+      }
+      cur = {
+        entityType: row.fromEntity.entityType,
+        title: row.fromEntity.title,
+        secondEntityKey: row.fromEntity.secondEntityKey,
+      };
+      continue;
+    }
+    if (cur.entityType === 'serie') {
+      const row = baseSeries.find(
+        (s) => s.title === cur.title && s.director === cur.secondEntityKey
+      );
+      if (!row?.fromEntity) {
+        return cur;
+      }
+      cur = {
+        entityType: row.fromEntity.entityType,
+        title: row.fromEntity.title,
+        secondEntityKey: row.fromEntity.secondEntityKey,
+      };
+      continue;
+    }
+    if (cur.entityType === 'game') {
+      const row = baseGames.find(
+        (g) => g.title === cur.title && g.editor === cur.secondEntityKey
+      );
+      if (!row?.fromEntity) {
+        return cur;
+      }
+      cur = {
+        entityType: row.fromEntity.entityType,
+        title: row.fromEntity.title,
+        secondEntityKey: row.fromEntity.secondEntityKey,
+      };
+      continue;
+    }
+    return cur;
+  }
+  return cur;
+}
+
 export function buildMixBaseWorksBlocks(
   baseBooks: BaseBook[],
   baseBds: BaseBd[],
@@ -1335,11 +1416,7 @@ export function buildMixBaseWorksBlocks(
   const map = new Map<string, MutableGalaxy>();
 
   const touchGalaxy = (
-    fe: {
-      entityType: string;
-      title: string;
-      secondEntityKey: string;
-    },
+    fe: MixBaseFromEntityHub,
     fn: (g: MutableGalaxy) => void
   ): void => {
     const uniqueKey = `${fe.entityType}|${fe.title}|${fe.secondEntityKey}`;
@@ -1375,19 +1452,49 @@ export function buildMixBaseWorksBlocks(
   for (const bm of baseMovies) {
     const fe = bm.fromEntity;
     if (!fe) continue;
-    touchGalaxy(fe, (g) => g.derivedMovies.push(getFullMovie(bm)));
+    const hub = resolveMixBaseTransmediaHub(
+      {
+        entityType: fe.entityType,
+        title: fe.title,
+        secondEntityKey: fe.secondEntityKey,
+      },
+      baseMovies,
+      baseSeries,
+      baseGames
+    );
+    touchGalaxy(hub, (g) => g.derivedMovies.push(getFullMovie(bm)));
   }
 
   for (const bs of baseSeries) {
     const fe = bs.fromEntity;
     if (!fe) continue;
-    touchGalaxy(fe, (g) => g.derivedSeries.push(getFullSerie(bs)));
+    const hub = resolveMixBaseTransmediaHub(
+      {
+        entityType: fe.entityType,
+        title: fe.title,
+        secondEntityKey: fe.secondEntityKey,
+      },
+      baseMovies,
+      baseSeries,
+      baseGames
+    );
+    touchGalaxy(hub, (g) => g.derivedSeries.push(getFullSerie(bs)));
   }
 
   for (const bg of baseGames) {
     const fe = bg.fromEntity;
     if (!fe) continue;
-    touchGalaxy(fe, (g) => g.derivedGames.push(getFullGame(bg)));
+    const hub = resolveMixBaseTransmediaHub(
+      {
+        entityType: fe.entityType,
+        title: fe.title,
+        secondEntityKey: fe.secondEntityKey,
+      },
+      baseMovies,
+      baseSeries,
+      baseGames
+    );
+    touchGalaxy(hub, (g) => g.derivedGames.push(getFullGame(bg)));
   }
 
   // Livres / BD / comics / manhwas : pas de `fromEntity` sur les types catalogue pour l’instant.
@@ -1396,7 +1503,17 @@ export function buildMixBaseWorksBlocks(
   for (const bm of baseMangas) {
     const fe = bm.fromEntity;
     if (!fe) continue;
-    touchGalaxy(fe, (g) => g.derivedMangas.push(getFullManga(bm)));
+    const hub = resolveMixBaseTransmediaHub(
+      {
+        entityType: fe.entityType,
+        title: fe.title,
+        secondEntityKey: fe.secondEntityKey,
+      },
+      baseMovies,
+      baseSeries,
+      baseGames
+    );
+    touchGalaxy(hub, (g) => g.derivedMangas.push(getFullManga(bm)));
   }
 
   const books = baseBooks;

@@ -147,33 +147,37 @@ export const baseSeries: BaseSerie[] = [
     director: 'Dave Filoni',
     actors: [
       {
-        name: "Rosario Dawson",
+        name: 'Rosario Dawson',
       },
       {
-        name: "Natasha Liu Bordizzo",
+        name: 'Natasha Liu Bordizzo',
       },
       {
-        name: "Mary Elizabeth Winstead",
+        name: 'Mary Elizabeth Winstead',
       },
       {
-        name: "Ray Stevenson",
-      }
+        name: 'Ray Stevenson',
+      },
     ],
-    coverUrl: "/series_pictures/0096637.webp",
-    releaseDate: "2023-08-22",
-    endDate: "",
+    coverUrl: '/series_pictures/0096637.webp',
+    releaseDate: '2023-08-22',
+    endDate: '',
     genre: ['Action', 'Adventure', 'Drama'],
     seasonsData: [
       {
         seasonNumber: 1,
         nbEpisodes: 8,
         totalLength: 359,
-      }
+      },
     ],
-    description: "",
-    fromEntity: { entityType: "movie", title: "Star Wars : Episode 4 - Un nouvel espoir", secondEntityKey: "George Lucas" },
-    saga: "Star Wars",
-    countryOrigin: "États-Unis",
+    description: '',
+    fromEntity: {
+      entityType: 'movie',
+      title: 'Star Wars : Episode 4 - Un nouvel espoir',
+      secondEntityKey: 'George Lucas',
+    },
+    saga: 'Star Wars',
+    countryOrigin: 'États-Unis',
   },
   {
     title: 'Altered Carbon',
@@ -1169,18 +1173,18 @@ export const baseSeries: BaseSerie[] = [
     director: 'David Benioff, D.B. Weiss',
     actors: [
       {
-        name: "Peter Dinklage",
+        name: 'Peter Dinklage',
       },
       {
-        name: "Lena Headey",
+        name: 'Lena Headey',
       },
       {
-        name: "Emilia Clarke",
-      }
+        name: 'Emilia Clarke',
+      },
     ],
-    coverUrl: "/series_pictures/Poster_Saison_1.webp",
-    releaseDate: "2011-04-17",
-    endDate: "2019-05-19",
+    coverUrl: '/series_pictures/Poster_Saison_1.webp',
+    releaseDate: '2011-04-17',
+    endDate: '2019-05-19',
     genre: ['Action', 'Adventure', 'Drama'],
     seasonsData: [
       {
@@ -1222,31 +1226,35 @@ export const baseSeries: BaseSerie[] = [
         seasonNumber: 8,
         nbEpisodes: 6,
         totalLength: 447,
-      }
+      },
     ],
-    description: "",
-    fromEntity: { entityType: "book", title: "Le Trône de fer, L'Intégrale Tome 1", secondEntityKey: "George R.R. Martin" },
-    saga: "Game of Thrones",
-    countryOrigin: "États-Unis",
+    description: '',
+    fromEntity: {
+      entityType: 'book',
+      title: "Le Trône de fer, L'Intégrale Tome 1",
+      secondEntityKey: 'George R.R. Martin',
+    },
+    saga: 'Game of Thrones',
+    countryOrigin: 'États-Unis',
   },
   {
     title: 'Gotham',
     director: 'Bruno Heller',
     actors: [
       {
-        name: "Ben McKenzie",
+        name: 'Ben McKenzie',
       },
       {
-        name: "Donal Logue",
+        name: 'Donal Logue',
       },
       {
-        name: "David Mazouz",
-      }
+        name: 'David Mazouz',
+      },
     ],
     coverUrl:
-      "/series_pictures/MV5BMTg0ZmM3N2QtYmFiMy00YzUzLWE1M2QtZWVhMzBiNGZjMmVjXkEyXkFqcGc@._V1_.jpg",
-    releaseDate: "2014-09-22",
-    endDate: "2019-04-25",
+      '/series_pictures/MV5BMTg0ZmM3N2QtYmFiMy00YzUzLWE1M2QtZWVhMzBiNGZjMmVjXkEyXkFqcGc@._V1_.jpg',
+    releaseDate: '2014-09-22',
+    endDate: '2019-04-25',
     genre: ['Action', 'Crime', 'Drama'],
     seasonsData: [
       {
@@ -1273,12 +1281,208 @@ export const baseSeries: BaseSerie[] = [
         seasonNumber: 5,
         nbEpisodes: 12,
         totalLength: 720,
-      }
+      },
     ],
-    description: "",
-    fromEntity: { entityType: "comic", title: "Batman", secondEntityKey: "DC Comics" },
-    saga: "DC Comics",
-    countryOrigin: "États-Unis",
+    description: '',
+    fromEntity: {
+      entityType: 'comic',
+      title: 'Batman',
+      secondEntityKey: 'DC Comics',
+    },
+    saga: 'DC Comics',
+    countryOrigin: 'États-Unis',
+  },
+  {
+    title: 'Batman (1966)',
+    director: 'William Dozier',
+    actors: [
+      { name: 'Adam West' },
+      { name: 'Burt Ward' },
+      { name: 'Alan Napier' },
+    ],
+    coverUrl:
+      'https://static.wikia.nocookie.net/batman/images/7/76/Batman-serie-1966.jpg/revision/latest?cb=20150607075014&path-prefix=fr',
+    releaseDate: '1966-01-12',
+    endDate: '1968-03-14',
+    genre: ['Action', 'Comédie'],
+    seasonsData: [
+      { seasonNumber: 1, nbEpisodes: 34, totalLength: 1020 },
+      { seasonNumber: 2, nbEpisodes: 60, totalLength: 1800 },
+      { seasonNumber: 3, nbEpisodes: 26, totalLength: 780 },
+    ],
+    description: '',
+    fromEntity: {
+      entityType: 'comic',
+      title: 'Batman',
+      secondEntityKey: 'DC Comics',
+    },
+    saga: 'Batman',
+    countryOrigin: 'États-Unis',
+  },
+  {
+    title: 'Batman : La série animée',
+    director: 'Bruce Timm, Eric Radomski',
+    actors: [
+      { name: 'Kevin Conroy' },
+      { name: 'Loren Lester' },
+      { name: 'Mark Hamill' },
+    ],
+    coverUrl: 'https://media.senscritique.com/media/000006473751/0/batman.jpg',
+    releaseDate: '1992-09-05',
+    endDate: '1995-09-15',
+    genre: ['Action', 'Animation'],
+    seasonsData: [
+      { seasonNumber: 1, nbEpisodes: 60, totalLength: 1320 },
+      { seasonNumber: 2, nbEpisodes: 25, totalLength: 550 },
+    ],
+    description: '',
+    fromEntity: {
+      entityType: 'comic',
+      title: 'Batman',
+      secondEntityKey: 'DC Comics',
+    },
+    saga: 'DC Animated Universe',
+    countryOrigin: 'États-Unis',
+  },
+  {
+    title: 'Batman Beyond',
+    director: 'Bruce Timm, Paul Dini',
+    actors: [{ name: 'Will Friedle' }, { name: 'Kevin Conroy' }],
+    coverUrl:
+      'https://m.media-amazon.com/images/M/MV5BMDExYjNiYTYtZDkwZC00NDcxLTk3YWYtMmIyN2ZlZGYyY2E0XkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg',
+    releaseDate: '1999-01-10',
+    endDate: '2001-12-18',
+    genre: ['Action', 'Animation'],
+    seasonsData: [
+      { seasonNumber: 1, nbEpisodes: 13, totalLength: 286 },
+      { seasonNumber: 2, nbEpisodes: 26, totalLength: 572 },
+      { seasonNumber: 3, nbEpisodes: 13, totalLength: 286 },
+    ],
+    description: '',
+    fromEntity: {
+      entityType: 'comic',
+      title: 'Batman',
+      secondEntityKey: 'DC Comics',
+    },
+    saga: 'DC Animated Universe',
+    countryOrigin: 'États-Unis',
+  },
+  {
+    title: 'The Batman (2004)',
+    director: 'Michael Goguen',
+    actors: [{ name: 'Rino Romano' }, { name: 'Alastair Duncan' }],
+    coverUrl:
+      'https://preview.redd.it/why-do-some-of-you-really-hate-the-batman-2004-v0-5yj3j7mtf8xe1.jpeg?width=640&crop=smart&auto=webp&s=07c839fbaf3bd97c3a9ddcb4922abed924b2e774',
+    releaseDate: '2004-09-11',
+    endDate: '2008-03-08',
+    genre: ['Action', 'Animation'],
+    seasonsData: [
+      { seasonNumber: 1, nbEpisodes: 13, totalLength: 286 },
+      { seasonNumber: 2, nbEpisodes: 13, totalLength: 286 },
+      { seasonNumber: 3, nbEpisodes: 13, totalLength: 286 },
+      { seasonNumber: 4, nbEpisodes: 13, totalLength: 286 },
+      { seasonNumber: 5, nbEpisodes: 13, totalLength: 286 },
+    ],
+    description: '',
+    fromEntity: {
+      entityType: 'comic',
+      title: 'Batman',
+      secondEntityKey: 'DC Comics',
+    },
+    saga: 'Batman',
+    countryOrigin: 'États-Unis',
+  },
+  {
+    title: "Batman : L'Alliance des héros",
+    director: 'Ben Jones, Michael Chang',
+    actors: [{ name: 'Diedrich Bader' }, { name: 'James Arnold Taylor' }],
+    coverUrl:
+      'https://www.dvdfr.com/images/dvd/covers/200x280/dd88612ac47c87543170de80f55ff7f5/49368/old-batman_l_alliance_des_heros_4.0.jpg',
+    releaseDate: '2008-11-14',
+    endDate: '2011-11-18',
+    genre: ['Action', 'Animation'],
+    seasonsData: [
+      { seasonNumber: 1, nbEpisodes: 26, totalLength: 572 },
+      { seasonNumber: 2, nbEpisodes: 26, totalLength: 572 },
+      { seasonNumber: 3, nbEpisodes: 13, totalLength: 286 },
+    ],
+    description: '',
+    fromEntity: {
+      entityType: 'comic',
+      title: 'Batman',
+      secondEntityKey: 'DC Comics',
+    },
+    saga: 'Batman',
+    countryOrigin: 'États-Unis',
+  },
+  {
+    title: 'Beware the Batman',
+    director: 'Glen Murakami, Sam Register',
+    actors: [{ name: 'Anthony Ruivivar' }, { name: 'Sumalee Montano' }],
+    coverUrl:
+      'https://m.media-amazon.com/images/M/MV5BMzVhYWVkYmEtNDcxMS00ZWVmLWEwNDMtMzUyMTdkN2Y5ZmFhXkEyXkFqcGc@._V1_.jpg',
+    releaseDate: '2013-07-13',
+    endDate: '2014-09-28',
+    genre: ['Action', 'Animation'],
+    seasonsData: [{ seasonNumber: 1, nbEpisodes: 26, totalLength: 572 }],
+    description: '',
+    fromEntity: {
+      entityType: 'comic',
+      title: 'Batman',
+      secondEntityKey: 'DC Comics',
+    },
+    saga: 'Batman',
+    countryOrigin: 'États-Unis',
+  },
+  {
+    title: 'Pennyworth',
+    director: 'Bruno Heller',
+    actors: [
+      { name: 'Jack Bannon' },
+      { name: 'Ben Aldridge' },
+      { name: 'Paloma Faith' },
+    ],
+    coverUrl:
+      'https://media.senscritique.com/media/000019911595/0/pennyworth.jpg',
+    releaseDate: '2019-07-28',
+    endDate: '2022-11-24',
+    genre: ['Action', 'Drame'],
+    seasonsData: [
+      { seasonNumber: 1, nbEpisodes: 10, totalLength: 530 },
+      { seasonNumber: 2, nbEpisodes: 10, totalLength: 530 },
+      { seasonNumber: 3, nbEpisodes: 10, totalLength: 530 },
+    ],
+    description: '',
+    fromEntity: {
+      entityType: 'comic',
+      title: 'Batman',
+      secondEntityKey: 'DC Comics',
+    },
+    saga: 'Batman',
+    countryOrigin: 'États-Unis',
+  },
+  {
+    title: 'The Penguin',
+    director: 'Craig Zobel',
+    actors: [
+      { name: 'Colin Farrell' },
+      { name: 'Cristin Milioti' },
+      { name: 'Michael Kelly' },
+    ],
+    coverUrl:
+      'https://media.senscritique.com/media/000022369090/0/the_penguin.jpg',
+    releaseDate: '2024-09-19',
+    endDate: '',
+    genre: ['Action', 'Crime', 'Drame'],
+    seasonsData: [{ seasonNumber: 1, nbEpisodes: 8, totalLength: 480 }],
+    description: '',
+    fromEntity: {
+      entityType: 'comic',
+      title: 'Batman',
+      secondEntityKey: 'DC Comics',
+    },
+    saga: 'Batman',
+    countryOrigin: 'États-Unis',
   },
   {
     title: 'HPI',
@@ -2462,30 +2666,34 @@ export const baseSeries: BaseSerie[] = [
     director: 'Deborah Chow',
     actors: [
       {
-        name: "Ewan McGregor",
+        name: 'Ewan McGregor',
       },
       {
-        name: "Hayden Christensen",
+        name: 'Hayden Christensen',
       },
       {
-        name: "Moses Ingram",
-      }
+        name: 'Moses Ingram',
+      },
     ],
-    coverUrl: "/series_pictures/1390919.jpg",
-    releaseDate: "2022-05-27",
-    endDate: "2022-06-22",
+    coverUrl: '/series_pictures/1390919.jpg',
+    releaseDate: '2022-05-27',
+    endDate: '2022-06-22',
     genre: ['Action', 'Adventure', 'Fantasy'],
     seasonsData: [
       {
         seasonNumber: 1,
         nbEpisodes: 6,
         totalLength: 271,
-      }
+      },
     ],
-    description: "",
-    fromEntity: { entityType: "movie", title: "Star Wars : Episode 4 - Un nouvel espoir", secondEntityKey: "George Lucas" },
-    saga: "Star Wars",
-    countryOrigin: "États-Unis",
+    description: '',
+    fromEntity: {
+      entityType: 'movie',
+      title: 'Star Wars : Episode 4 - Un nouvel espoir',
+      secondEntityKey: 'George Lucas',
+    },
+    saga: 'Star Wars',
+    countryOrigin: 'États-Unis',
   },
   {
     title: 'Obsession',
@@ -2830,19 +3038,19 @@ export const baseSeries: BaseSerie[] = [
     director: 'Alfred Gough, Miles Millar',
     actors: [
       {
-        name: "Tom Welling",
+        name: 'Tom Welling',
       },
       {
-        name: "Michael Rosenbaum",
+        name: 'Michael Rosenbaum',
       },
       {
-        name: "Kristin Kreuk",
-      }
+        name: 'Kristin Kreuk',
+      },
     ],
     coverUrl:
-      "/series_pictures/MV5BZDU0ZDVjOTItMDNkMy00YTI0LWFjYzItY2M1NjU5NjAzZGViXkEyXkFqcGc@._V1_.jpg",
-    releaseDate: "2001-10-16",
-    endDate: "2011-05-13",
+      '/series_pictures/MV5BZDU0ZDVjOTItMDNkMy00YTI0LWFjYzItY2M1NjU5NjAzZGViXkEyXkFqcGc@._V1_.jpg',
+    releaseDate: '2001-10-16',
+    endDate: '2011-05-13',
     genre: ['Action', 'Adventure', 'Drama'],
     seasonsData: [
       {
@@ -2894,12 +3102,16 @@ export const baseSeries: BaseSerie[] = [
         seasonNumber: 10,
         nbEpisodes: 22,
         totalLength: 1320,
-      }
+      },
     ],
-    description: "",
-    fromEntity: { entityType: "comic", title: "Superman", secondEntityKey: "DC Comics" },
-    saga: "DC Comics",
-    countryOrigin: "États-Unis",
+    description: '',
+    fromEntity: {
+      entityType: 'comic',
+      title: 'Superman',
+      secondEntityKey: 'DC Comics',
+    },
+    saga: 'DC Comics',
+    countryOrigin: 'États-Unis',
   },
   {
     title: 'Sons of Anarchy',
@@ -3268,18 +3480,18 @@ export const baseSeries: BaseSerie[] = [
     director: 'Greg Berlanti, Todd Helbing',
     actors: [
       {
-        name: "Tyler Hoechlin",
+        name: 'Tyler Hoechlin',
       },
       {
-        name: "Bitsie Tulloch",
+        name: 'Bitsie Tulloch',
       },
       {
-        name: "Jordan Elsass",
-      }
+        name: 'Jordan Elsass',
+      },
     ],
-    coverUrl: "/series_pictures/3782519.webp",
-    releaseDate: "2021-02-23",
-    endDate: "2023-06-27",
+    coverUrl: '/series_pictures/3782519.webp',
+    releaseDate: '2021-02-23',
+    endDate: '2023-06-27',
     genre: ['Action', 'Adventure', 'Drama'],
     seasonsData: [
       {
@@ -3301,12 +3513,16 @@ export const baseSeries: BaseSerie[] = [
         seasonNumber: 4,
         nbEpisodes: 10,
         totalLength: 600,
-      }
+      },
     ],
-    description: "",
-    fromEntity: { entityType: "comic", title: "Superman", secondEntityKey: "DC Comics" },
-    saga: "ArrowVerse",
-    countryOrigin: "États-Unis",
+    description: '',
+    fromEntity: {
+      entityType: 'comic',
+      title: 'Superman',
+      secondEntityKey: 'DC Comics',
+    },
+    saga: 'ArrowVerse',
+    countryOrigin: 'États-Unis',
   },
   {
     title: 'Teen Wolf',
@@ -4019,19 +4235,19 @@ export const baseSeries: BaseSerie[] = [
     director: 'Craig Mazin, Neil Druckmann',
     actors: [
       {
-        name: "Pedro Pascal",
+        name: 'Pedro Pascal',
       },
       {
-        name: "Bella Ramsey",
+        name: 'Bella Ramsey',
       },
       {
-        name: "Gabriel Luna",
-      }
+        name: 'Gabriel Luna',
+      },
     ],
     coverUrl:
-      "/series_pictures/MV5BYWI3ODJlMzktY2U5NC00ZjdlLWE1MGItNWQxZDk3NWNjN2RhXkEyXkFqcGc@._V1_.jpg",
-    releaseDate: "2023-01-15",
-    endDate: "",
+      '/series_pictures/MV5BYWI3ODJlMzktY2U5NC00ZjdlLWE1MGItNWQxZDk3NWNjN2RhXkEyXkFqcGc@._V1_.jpg',
+    releaseDate: '2023-01-15',
+    endDate: '',
     genre: ['Action', 'Adventure', 'Drama'],
     seasonsData: [
       {
@@ -4043,12 +4259,16 @@ export const baseSeries: BaseSerie[] = [
         seasonNumber: 2,
         nbEpisodes: 7,
         totalLength: 407,
-      }
+      },
     ],
-    description: "",
-    fromEntity: { entityType: "game", title: "The Last of Us", secondEntityKey: "Naughty Dog" },
-    saga: "",
-    countryOrigin: "États-Unis",
+    description: '',
+    fromEntity: {
+      entityType: 'game',
+      title: 'The Last of Us',
+      secondEntityKey: 'Naughty Dog',
+    },
+    saga: '',
+    countryOrigin: 'États-Unis',
   },
   {
     title: 'The Punisher',
@@ -4290,30 +4510,34 @@ export const baseSeries: BaseSerie[] = [
     director: 'Damon Lindelof',
     actors: [
       {
-        name: "Regina King",
+        name: 'Regina King',
       },
       {
-        name: "Jeremy Irons",
+        name: 'Jeremy Irons',
       },
       {
-        name: "Don Johnson",
-      }
+        name: 'Don Johnson',
+      },
     ],
-    coverUrl: "/series_pictures/4498944.webp",
-    releaseDate: "2019-10-20",
-    endDate: "2019-12-15",
+    coverUrl: '/series_pictures/4498944.webp',
+    releaseDate: '2019-10-20',
+    endDate: '2019-12-15',
     genre: ['Action', 'Drama', 'Mystery'],
     seasonsData: [
       {
         seasonNumber: 1,
         nbEpisodes: 9,
         totalLength: 530,
-      }
+      },
     ],
-    description: "",
-    fromEntity: { entityType: "comic", title: "Watchmen", secondEntityKey: "Alan Moore" },
-    saga: "DC Comics",
-    countryOrigin: "États-Unis",
+    description: '',
+    fromEntity: {
+      entityType: 'comic',
+      title: 'Watchmen',
+      secondEntityKey: 'Alan Moore',
+    },
+    saga: 'DC Comics',
+    countryOrigin: 'États-Unis',
   },
   {
     title: 'You',
@@ -4405,32 +4629,36 @@ export const baseSeries: BaseSerie[] = [
     director: 'Shô Tsukikawa',
     actors: [
       {
-        name: "Takumi Kitamura",
+        name: 'Takumi Kitamura',
       },
       {
-        name: "Jun Shison",
+        name: 'Jun Shison',
       },
       {
-        name: "Kanata Hongô",
+        name: 'Kanata Hongô',
       },
       {
-        name: "Shûhei Uesugi",
-      }
+        name: 'Shûhei Uesugi',
+      },
     ],
-    coverUrl: "/series_pictures/2684246.webp",
-    releaseDate: "2023-12-14",
-    endDate: "2023-12-14",
+    coverUrl: '/series_pictures/2684246.webp',
+    releaseDate: '2023-12-14',
+    endDate: '2023-12-14',
     genre: ['Action', 'Adventure', 'Fantasy'],
     seasonsData: [
       {
         seasonNumber: 1,
         nbEpisodes: 5,
         totalLength: 300,
-      }
+      },
     ],
-    description: "",
-    fromEntity: { entityType: "manga", title: "Yu Yu Hakusho", secondEntityKey: "Yoshihiro Togashi" },
-    saga: "",
-    countryOrigin: "États-Unis",
+    description: '',
+    fromEntity: {
+      entityType: 'manga',
+      title: 'Yu Yu Hakusho',
+      secondEntityKey: 'Yoshihiro Togashi',
+    },
+    saga: '',
+    countryOrigin: 'États-Unis',
   },
 ];

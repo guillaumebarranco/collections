@@ -1465,7 +1465,8 @@ export const baseGamesAdaptations: BaseGame[] = [
     title: 'Star Wars: Battlefront',
     editor: 'EA DICE',
     hero: 'Soldat',
-    coverUrl: '/games_pictures/d8f1ed098031.jpg',
+    coverUrl:
+      'https://newzoo.com/wp-content/uploads/api/games/artworks/game--star-wars-battlefront-2015.jpg',
     releaseDate: '2015-11-17',
     averageTimeToFinish: 0,
     averageTimeToHundredPercent: 0,
@@ -1844,7 +1845,8 @@ export const baseGamesAdaptations: BaseGame[] = [
     title: 'Star Wars: Battlefront',
     editor: 'Pandemic Studios',
     hero: 'Soldat',
-    coverUrl: '/games_pictures/15ad4a8b3824.png',
+    coverUrl:
+      'https://static.wikia.nocookie.net/frstarwars/images/9/9c/Jaquette_battlefront.jpg/revision/latest?cb=20141118164126',
     releaseDate: '2004-09-21',
     averageTimeToFinish: 0,
     averageTimeToHundredPercent: 0,
@@ -3029,7 +3031,7 @@ export const baseGamesAdaptations: BaseGame[] = [
     },
   },
   {
-    title: 'Harry Potter et La Coupe de Feu',
+    title: 'Harry Potter et La Coupe de Feu (GBA)',
     editor: 'Electronic Arts',
     hero: 'Harry Potter',
     coverUrl: '/games_pictures/harry-potter-gba.jpg',
@@ -3037,24 +3039,6 @@ export const baseGamesAdaptations: BaseGame[] = [
     averageTimeToFinish: 8,
     averageTimeToHundredPercent: 0,
     platform: 'Game Boy Advance',
-    saga: 'Harry Potter',
-    platineTime: 0,
-    description: '',
-    fromEntity: {
-      entityType: 'book',
-      title: 'Harry Potter et la Coupe de feu',
-      secondEntityKey: 'J.K. Rowling',
-    },
-  },
-  {
-    title: 'Harry Potter et la Coupe de Feu',
-    editor: 'Electronic Arts',
-    hero: 'Harry Potter',
-    coverUrl: '/games_pictures/harry-potter-coupe-feu.jpg',
-    releaseDate: '2005-11-11',
-    averageTimeToFinish: 5,
-    averageTimeToHundredPercent: 0,
-    platform: 'Nintendo DS',
     saga: 'Harry Potter',
     platineTime: 0,
     description: '',
@@ -3156,7 +3140,7 @@ export const baseGamesAdaptations: BaseGame[] = [
     },
   },
   {
-    title: 'Harry Potter et la Coupe de feu',
+    title: 'Harry Potter et la Coupe de feu (PS2)',
     editor: 'Electronic Arts',
     hero: 'Harry Potter',
     coverUrl:

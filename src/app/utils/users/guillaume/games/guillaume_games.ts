@@ -2675,10 +2675,10 @@ export const guillaumeGames: UserGames = [
     loaned: '',
     sessions: [
       {
-        finishedGame: true,
+        finishedGame: false,
         finishedGameWithHundredPercent: false,
         platinedGame: false,
-        additionnalEstimatedTime: 0,
+        additionnalEstimatedTime: 8,
       },
     ],
   },

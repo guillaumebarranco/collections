@@ -947,7 +947,30 @@ export const baseSeriesAnimees: BaseSerie[] = [
       },
     ],
     description: '',
-    saga: '',
+    saga: 'Puella Magi Madoka Magica',
+    fromEntity: {
+      entityType: 'manga',
+      title: 'Puella Magi Madoka Magica',
+      secondEntityKey: 'Hanokage',
+    },
+    countryOrigin: 'Japon',
+  },
+  {
+    title: 'Magia Record : Puella Magi Madoka Magica Side Story',
+    director: 'Gekidan Inu Curry, Yukihiro Miyamoto',
+    actors: [{ name: 'Inconnu' }],
+    coverUrl:
+      'https://m.media-amazon.com/images/M/MV5BYjVjNDI3ZDQtYWJkZi00MTFkLTljYmMtYmY1MDg2MTNhMTI2XkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg',
+    releaseDate: '2020-01-04',
+    endDate: '2022-04-03',
+    genre: ['Animation', 'Drama', 'Fantasy'],
+    seasonsData: [
+      { seasonNumber: 1, nbEpisodes: 13, totalLength: 312 },
+      { seasonNumber: 2, nbEpisodes: 8, totalLength: 192 },
+      { seasonNumber: 3, nbEpisodes: 4, totalLength: 96 },
+    ],
+    description: '',
+    saga: 'Puella Magi Madoka Magica',
     fromEntity: {
       entityType: 'manga',
       title: 'Puella Magi Madoka Magica',

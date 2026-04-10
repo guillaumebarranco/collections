@@ -2,6 +2,28 @@ import { BaseMovie } from '../../../models/movie-model';
 
 export const baseMoviesDc: BaseMovie[] = [
   {
+    title: 'Batman : Le Film',
+    director: 'Leslie H. Martinson',
+    actors: [
+      { name: 'Adam West' },
+      { name: 'Burt Ward' },
+      { name: 'Cesar Romero' },
+    ],
+    coverUrl:
+      'https://static.wikia.nocookie.net/arrow-france/images/3/38/Affiche_Batman_66_film.jpg/revision/latest?cb=20251104231644&path-prefix=fr',
+    releaseDate: '1966-07-30',
+    length: 105,
+    genre: ['Action', 'Comédie'],
+    saga: 'Batman',
+    description: '',
+    fromEntity: {
+      entityType: 'comic',
+      title: 'Batman',
+      secondEntityKey: 'DC Comics',
+    },
+    countryOrigin: ['États-Unis'],
+  },
+  {
     title: 'Green Lantern',
     director: 'Martin Campbell',
     actors: [{ name: 'Ryan Reynolds' }],
@@ -293,18 +315,18 @@ export const baseMoviesDc: BaseMovie[] = [
     director: 'James Wan',
     actors: [
       {
-        name: "Jason Momoa",
+        name: 'Jason Momoa',
       },
       {
-        name: "Djimon Hounsou",
-      }
+        name: 'Djimon Hounsou',
+      },
     ],
-    coverUrl: "/movies_pictures/225060-aquaman-0-150-0-225-crop.jpg",
-    releaseDate: "2018-12-21",
+    coverUrl: '/movies_pictures/225060-aquaman-0-150-0-225-crop.jpg',
+    releaseDate: '2018-12-21',
     length: 143,
     genre: ['Action', 'Aventure'],
-    saga: "DCEU",
-    description: "",
+    saga: 'DCEU',
+    description: '',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
   },
@@ -575,16 +597,20 @@ export const baseMoviesDc: BaseMovie[] = [
     director: 'Andy Muschietti',
     actors: [
       {
-        name: "Ezra Miller",
-      }
+        name: 'Ezra Miller',
+      },
     ],
-    coverUrl: "/movies_pictures/225845-the-flash-0-150-0-225-crop.jpg",
-    releaseDate: "2023-06-16",
+    coverUrl: '/movies_pictures/225845-the-flash-0-150-0-225-crop.jpg',
+    releaseDate: '2023-06-16',
     length: 144,
     genre: ['Action'],
-    saga: "DCEU",
-    description: "",
-    fromEntity: { entityType: "comic", title: "Flashpoint : Édition 10 ans", secondEntityKey: "Geoff Johns" },
+    saga: 'DCEU',
+    description: '',
+    fromEntity: {
+      entityType: 'comic',
+      title: 'Flashpoint : Édition 10 ans',
+      secondEntityKey: 'Geoff Johns',
+    },
     countryOrigin: ['États-Unis'],
   },
   {
