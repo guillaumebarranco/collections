@@ -78,8 +78,7 @@ export const baseMoviesPage2: BaseMovie[] = [
         name: 'Yifei Liu',
       },
     ],
-    coverUrl:
-      '/movies_pictures/d298a5e1cf03.jpg',
+    coverUrl: '/movies_pictures/d298a5e1cf03.jpg',
     releaseDate: '2020-09-04',
     length: 115,
     genre: ['Action'],
@@ -952,7 +951,7 @@ export const baseMoviesPage2: BaseMovie[] = [
     saga: 'Astérix',
     description: '',
     fromEntity: {
-      entityType: 'comic',
+      entityType: 'bd',
       title: 'Astérix le Gaulois',
       secondEntityKey: 'René Goscinny',
     },
@@ -1001,7 +1000,7 @@ export const baseMoviesPage2: BaseMovie[] = [
     saga: 'Astérix',
     description: '',
     fromEntity: {
-      entityType: 'comic',
+      entityType: 'bd',
       title: 'Astérix le Gaulois',
       secondEntityKey: 'René Goscinny',
     },
@@ -1028,7 +1027,7 @@ export const baseMoviesPage2: BaseMovie[] = [
     saga: 'Astérix',
     description: '',
     fromEntity: {
-      entityType: 'comic',
+      entityType: 'bd',
       title: 'Astérix le Gaulois',
       secondEntityKey: 'René Goscinny',
     },

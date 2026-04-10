@@ -3796,4 +3796,24 @@ export const guillaumeGames: UserGames = [
       },
     ],
   },
+
+  {
+    title: 'Jet Set Radio Future',
+    editor: 'Sega',
+    rating: 0,
+    owned: false,
+    gamelistPriority: 1,
+    wantToPlayAgain: false,
+    ratingComment: '',
+    borrowed: '',
+    loaned: '',
+    sessions: [
+      {
+        finishedGame: false,
+        finishedGameWithHundredPercent: false,
+        platinedGame: false,
+        additionnalEstimatedTime: 0,
+      },
+    ],
+  },
 ];

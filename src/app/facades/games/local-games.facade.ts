@@ -1,4 +1,5 @@
 import { baseGames } from '../../utils/entities/games/base_games';
+import { baseGames2 } from '../../utils/entities/games/base_games_2';
 import { baseGamesApi } from '../../utils/entities/games/base_games_api';
 import { baseGamesMario } from '../../utils/entities/games/base_games_mario';
 import { baseGamesAdaptations } from '../../utils/entities/games/base_games_adaptations';
@@ -24,6 +25,7 @@ export const allBaseGames: BaseGame[] = [
   ...baseGamesMario,
   ...baseGamesAdaptations,
   ...baseGamesAdaptations2,
+  ...baseGames2,
 ];
 
 export function getLocalGamesByUser(userId: string): UserGame[] {

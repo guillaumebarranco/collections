@@ -839,8 +839,7 @@ export const baseMoviesAnimated: BaseMovie[] = [
     title: 'Mulan',
     director: 'Tony Bancroft, Barry Cook',
     actors: [{ name: 'Ming-Na Wen' }],
-    coverUrl:
-      '/movies_pictures/225c87f4348a.jpg',
+    coverUrl: '/movies_pictures/225c87f4348a.jpg',
     releaseDate: '1998-06-19',
     length: 87,
     genre: ['Animation'],
@@ -931,7 +930,7 @@ export const baseMoviesAnimated: BaseMovie[] = [
   {
     title: 'La Belle et la Bête',
     director: 'Gary Trousdale, Kirk Wise',
-    actors: [{ name: 'Paige O\'Hara' }],
+    actors: [{ name: "Paige O'Hara" }],
     coverUrl:
       '/movies_pictures/10020-beauty-and-the-beast-1991-animated-0-150-0-225-crop.jpg',
     releaseDate: '1991-11-22',
@@ -1420,7 +1419,7 @@ export const baseMoviesAnimated: BaseMovie[] = [
     saga: 'Astérix',
     description: '',
     fromEntity: {
-      entityType: 'comic',
+      entityType: 'bd',
       title: 'Astérix le Gaulois',
       secondEntityKey: 'René Goscinny',
     },

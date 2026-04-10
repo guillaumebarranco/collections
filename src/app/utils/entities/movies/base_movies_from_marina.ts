@@ -1950,7 +1950,7 @@ export const baseMoviesFromMarina: BaseMovie[] = [
     saga: '',
     description: '',
     fromEntity: {
-      entityType: 'comic',
+      entityType: 'bd',
       title: 'Astérix le Gaulois',
       secondEntityKey: 'René Goscinny',
     },
@@ -1971,7 +1971,7 @@ export const baseMoviesFromMarina: BaseMovie[] = [
     saga: '',
     description: '',
     fromEntity: {
-      entityType: 'comic',
+      entityType: 'bd',
       title: 'Astérix le Gaulois',
       secondEntityKey: 'René Goscinny',
     },
@@ -1992,7 +1992,7 @@ export const baseMoviesFromMarina: BaseMovie[] = [
     saga: '',
     description: '',
     fromEntity: {
-      entityType: 'comic',
+      entityType: 'bd',
       title: 'Astérix le Gaulois',
       secondEntityKey: 'René Goscinny',
     },
@@ -2013,7 +2013,7 @@ export const baseMoviesFromMarina: BaseMovie[] = [
     saga: '',
     description: '',
     fromEntity: {
-      entityType: 'comic',
+      entityType: 'bd',
       title: 'Astérix le Gaulois',
       secondEntityKey: 'René Goscinny',
     },

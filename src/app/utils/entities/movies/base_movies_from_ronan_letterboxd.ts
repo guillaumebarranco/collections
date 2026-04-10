@@ -5791,7 +5791,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     saga: 'Astérix',
     description: '',
     fromEntity: {
-      entityType: 'comic',
+      entityType: 'bd',
       title: 'Astérix le Gaulois',
       secondEntityKey: 'René Goscinny',
     },

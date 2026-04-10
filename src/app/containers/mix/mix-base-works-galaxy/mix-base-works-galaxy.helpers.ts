@@ -358,8 +358,19 @@ export function manwhaEntityKey(m: Manwha): string {
   return `${m.title}|${m.author}`;
 }
 
-/** Famille de média pour la pondération livre/BD/comic/manga/manhwa vs jeu vs film/série. */
-type MixBaseMediaFamily = 'reading' | 'game' | 'av';
+/**
+ * Type de média catalogue pour la pondération transmédia : même type que l’œuvre
+ * d’origine du bloc = 1 pt, tout autre type = 5 pts.
+ */
+type MixBaseScoreKind =
+  | 'book'
+  | 'bd'
+  | 'comic'
+  | 'manga'
+  | 'manwha'
+  | 'game'
+  | 'movie'
+  | 'serie';
 
 const MIX_BASE_WORK_SAME_MEDIUM_WEIGHT = 1;
 const MIX_BASE_WORK_CROSS_MEDIUM_WEIGHT = 5;
@@ -372,37 +383,57 @@ export type MixBaseWorksScoreCatalog = {
   baseGames: BaseGame[];
 };
 
-function mixBaseMediaFamilyForKind(
-  kind: 'book' | 'bd' | 'comic' | 'manga' | 'manwha' | 'game' | 'movie' | 'serie'
-): MixBaseMediaFamily {
-  if (kind === 'game') return 'game';
-  if (kind === 'movie' || kind === 'serie') return 'av';
-  return 'reading';
+/**
+ * Type pivot déduit de la galaxie centrale (entité résolue, sinon fromEntityType).
+ */
+function mixBasePrimaryScoreKindFromGalaxy(
+  g: BaseWorkGalaxy | undefined | null
+): MixBaseScoreKind {
+  if (!g) {
+    return 'book';
+  }
+  if (g.game) return 'game';
+  if (g.movie) return 'movie';
+  if (g.serie) return 'serie';
+  if (g.book) return 'book';
+  if (g.bd) return 'bd';
+  if (g.comic) return 'comic';
+  if (g.manga) return 'manga';
+  if (g.manwha) return 'manwha';
+
+  const t = g.fromEntityType;
+  if (t === 'game') return 'game';
+  if (t === 'movie') return 'movie';
+  if (t === 'serie') return 'serie';
+  if (t === 'book') return 'book';
+  if (t === 'bd') return 'bd';
+  if (t === 'comic') return 'comic';
+  if (t === 'manga') return 'manga';
+  if (t === 'manwha') return 'manwha';
+
+  return 'book';
 }
 
-function mixBaseBlockPrimaryMediaFamily(
-  block: MixBaseWorksViewBlock
-): MixBaseMediaFamily {
-  if (block.blockKind === 'bookSaga') {
-    return 'reading';
-  }
+/**
+ * Type de l’œuvre d’origine du bloc : même logique de pivot que l’orbite
+ * (saga franchise : {@link pickCentralGalaxyForFranchiseSaga} ; saga jeux : jeu).
+ */
+function mixBaseBlockPrimaryScoreKind(block: MixBaseWorksViewBlock): MixBaseScoreKind {
   if (block.blockKind === 'gameSaga') {
     return 'game';
   }
-  const g = block.galaxies[0];
-  if (!g) {
-    return 'reading';
+  if (block.blockKind === 'bookSaga') {
+    const central = pickCentralGalaxyForFranchiseSaga(block.galaxies);
+    return mixBasePrimaryScoreKindFromGalaxy(central);
   }
-  if (g.game) return 'game';
-  if (g.movie || g.serie) return 'av';
-  return 'reading';
+  return mixBasePrimaryScoreKindFromGalaxy(block.galaxies[0]);
 }
 
-function mixBaseWeightForFamilies(
-  workFamily: MixBaseMediaFamily,
-  primary: MixBaseMediaFamily
+function mixBaseWeightForKinds(
+  workKind: MixBaseScoreKind,
+  primary: MixBaseScoreKind
 ): number {
-  return workFamily === primary
+  return workKind === primary
     ? MIX_BASE_WORK_SAME_MEDIUM_WEIGHT
     : MIX_BASE_WORK_CROSS_MEDIUM_WEIGHT;
 }
@@ -411,7 +442,7 @@ function mixBaseWeightForFamilies(
  * Texte d’infobulle pour le score affiché sur le titre de bloc (pondération 1 / 5).
  */
 export function mixBaseWorksCrossMediaScoreTooltip(score: number): string {
-  return `Score d'export transmédia : ${score} points (même famille ×${MIX_BASE_WORK_SAME_MEDIUM_WEIGHT}, autre ×${MIX_BASE_WORK_CROSS_MEDIUM_WEIGHT})`;
+  return `Score d'export transmédia : ${score} points (même type que l'œuvre d'origine ×${MIX_BASE_WORK_SAME_MEDIUM_WEIGHT}, adaptation autre type ×${MIX_BASE_WORK_CROSS_MEDIUM_WEIGHT})`;
 }
 
 /**
@@ -489,9 +520,9 @@ function addCatalogWorksToBlockCrossMediaScore(
  * exportées sur plusieurs supports (film, jeu, etc.), pas seulement le volume
  * d’œuvres dans un seul média.
  *
- * - **1 point** : œuvre dans la même famille que le pivot du bloc (lecture pour
- *   saga livres/BD ; jeu pour saga jeux ; pivot du hub pour standalone).
- * - **5 points** : œuvre dans une autre famille (ex. film ou jeu dérivé d’une saga livre).
+ * - **1 point** : œuvre du **même type** que l’œuvre d’origine du bloc (film, jeu,
+ *   livre, BD, manga, etc.), déduite du pivot de saga / hub standalone.
+ * - **5 points** : œuvre d’un **autre type** (adaptation transmédia).
  *
  * Déduplication par clé catalogue (type + identité) sur tout le bloc.
  * Les œuvres catalogue rattachées à la même saga que l’orbite (jeux, livres, films…)
@@ -501,21 +532,18 @@ export function blockCrossMediaExportScore(
   block: MixBaseWorksViewBlock,
   catalog: MixBaseWorksScoreCatalog
 ): number {
-  const primary = mixBaseBlockPrimaryMediaFamily(block);
+  const primary = mixBaseBlockPrimaryScoreKind(block);
   const seen = new Set<string>();
   let total = 0;
 
   const add = (
-    kind: 'book' | 'bd' | 'comic' | 'manga' | 'manwha' | 'game' | 'movie' | 'serie',
+    kind: MixBaseScoreKind,
     entityKey: string
   ): void => {
     const id = `${kind}:${entityKey}`;
     if (seen.has(id)) return;
     seen.add(id);
-    total += mixBaseWeightForFamilies(
-      mixBaseMediaFamilyForKind(kind),
-      primary
-    );
+    total += mixBaseWeightForKinds(kind, primary);
   };
 
   for (const gal of block.galaxies) {
