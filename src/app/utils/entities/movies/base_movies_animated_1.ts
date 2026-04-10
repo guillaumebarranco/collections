@@ -122,6 +122,24 @@ export const baseMoviesAnimated: BaseMovie[] = [
     countryOrigin: ['États-Unis'],
   },
   {
+    title: 'Super Mario Bros.',
+    director: 'Rocky Morton, Annabel Jankel',
+    actors: [{ name: 'Bob Hoskins' }, { name: 'John Leguizamo' }],
+    coverUrl:
+      'https://fr.web.img2.acsta.net/c_310_420/pictures/22/11/17/11/41/4139046.jpg',
+    releaseDate: '1993-05-28',
+    length: 104,
+    genre: ['Aventure', 'Science Fiction', 'Comédie'],
+    saga: 'Mario',
+    description: '',
+    fromEntity: {
+      entityType: 'game',
+      title: 'Super Mario Bros.',
+      secondEntityKey: 'Nintendo',
+    },
+    countryOrigin: ['États-Unis'],
+  },
+  {
     title: 'Super Mario Bros. le Film',
     director: 'Aaron Horvath, Michael Jelenic',
     actors: [
@@ -134,7 +152,7 @@ export const baseMoviesAnimated: BaseMovie[] = [
     releaseDate: '2023-04-05',
     length: 92,
     genre: ['Animation'],
-    saga: '',
+    saga: 'Mario',
     description: '',
     fromEntity: {
       entityType: 'game',

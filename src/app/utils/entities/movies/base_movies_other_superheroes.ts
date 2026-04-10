@@ -279,20 +279,42 @@ export const baseMoviesOtherSuperheroes: BaseMovie[] = [
     countryOrigin: ['États-Unis'],
   },
   {
+    title: 'Venom : The Last Dance',
+    director: 'Kelly Marcel',
+    actors: [
+      { name: 'Tom Hardy' },
+      { name: 'Chiwetel Ejiofor' },
+      { name: 'Juno Temple' },
+    ],
+    coverUrl:
+      'https://fr.web.img5.acsta.net/img/57/b3/57b356018fe053ff81efa47e79cfb780.jpg',
+    releaseDate: '2024-10-23',
+    length: 109,
+    genre: ['Action', 'Science Fiction'],
+    saga: '',
+    description: '',
+    fromEntity: null,
+    countryOrigin: ['États-Unis'],
+  },
+  {
     title: 'Spider-Man',
     director: 'Sam Raimi',
     actors: [
       {
-        name: "Tobey Maguire",
-      }
+        name: 'Tobey Maguire',
+      },
     ],
-    coverUrl: "/movies_pictures/51561-spider-man-0-150-0-225-crop.jpg",
-    releaseDate: "2002-05-03",
+    coverUrl: '/movies_pictures/51561-spider-man-0-150-0-225-crop.jpg',
+    releaseDate: '2002-05-03',
     length: 121,
     genre: ['Action'],
-    saga: "Spider-Man",
-    description: "",
-    fromEntity: { entityType: "comic", title: "Spider-Man", secondEntityKey: "J. Michael Straczynski" },
+    saga: 'Spider-Man',
+    description: '',
+    fromEntity: {
+      entityType: 'comic',
+      title: 'Spider-Man',
+      secondEntityKey: 'J. Michael Straczynski',
+    },
     countryOrigin: ['États-Unis'],
   },
   {
@@ -300,16 +322,20 @@ export const baseMoviesOtherSuperheroes: BaseMovie[] = [
     director: 'Sam Raimi',
     actors: [
       {
-        name: "Tobey Maguire",
-      }
+        name: 'Tobey Maguire',
+      },
     ],
-    coverUrl: "/movies_pictures/18380826.jpg",
-    releaseDate: "2004-06-30",
+    coverUrl: '/movies_pictures/18380826.jpg',
+    releaseDate: '2004-06-30',
     length: 127,
     genre: ['Action'],
-    saga: "",
-    description: "",
-    fromEntity: { entityType: "comic", title: "Spider-Man", secondEntityKey: "J. Michael Straczynski" },
+    saga: '',
+    description: '',
+    fromEntity: {
+      entityType: 'comic',
+      title: 'Spider-Man',
+      secondEntityKey: 'J. Michael Straczynski',
+    },
     countryOrigin: ['États-Unis'],
   },
   {
@@ -317,16 +343,20 @@ export const baseMoviesOtherSuperheroes: BaseMovie[] = [
     director: 'Sam Raimi',
     actors: [
       {
-        name: "Tobey Maguire",
-      }
+        name: 'Tobey Maguire',
+      },
     ],
-    coverUrl: "/movies_pictures/spiderman_3.jpg",
-    releaseDate: "2007-05-04",
+    coverUrl: '/movies_pictures/spiderman_3.jpg',
+    releaseDate: '2007-05-04',
     length: 139,
     genre: ['Action'],
-    saga: "",
-    description: "",
-    fromEntity: { entityType: "comic", title: "Spider-Man", secondEntityKey: "J. Michael Straczynski" },
+    saga: '',
+    description: '',
+    fromEntity: {
+      entityType: 'comic',
+      title: 'Spider-Man',
+      secondEntityKey: 'J. Michael Straczynski',
+    },
     countryOrigin: ['États-Unis'],
   },
   {
@@ -334,17 +364,21 @@ export const baseMoviesOtherSuperheroes: BaseMovie[] = [
     director: 'Marc Webb',
     actors: [
       {
-        name: "Andrew Garfield",
-      }
+        name: 'Andrew Garfield',
+      },
     ],
     coverUrl:
-      "/movies_pictures/50677-the-amazing-spider-man-0-150-0-225-crop.jpg",
-    releaseDate: "2012-07-03",
+      '/movies_pictures/50677-the-amazing-spider-man-0-150-0-225-crop.jpg',
+    releaseDate: '2012-07-03',
     length: 136,
     genre: ['Action'],
-    saga: "",
-    description: "",
-    fromEntity: { entityType: "comic", title: "Spider-Man", secondEntityKey: "J. Michael Straczynski" },
+    saga: '',
+    description: '',
+    fromEntity: {
+      entityType: 'comic',
+      title: 'Spider-Man',
+      secondEntityKey: 'J. Michael Straczynski',
+    },
     countryOrigin: ['États-Unis'],
   },
   {
@@ -352,16 +386,74 @@ export const baseMoviesOtherSuperheroes: BaseMovie[] = [
     director: 'Marc Webb',
     actors: [
       {
-        name: "Andrew Garfield",
-      }
+        name: 'Andrew Garfield',
+      },
     ],
-    coverUrl: "/movies_pictures/amazin_spiderman_2.jpg",
-    releaseDate: "2014-05-02",
+    coverUrl: '/movies_pictures/amazin_spiderman_2.jpg',
+    releaseDate: '2014-05-02',
     length: 142,
     genre: ['Action'],
-    saga: "",
-    description: "",
-    fromEntity: { entityType: "comic", title: "Spider-Man", secondEntityKey: "J. Michael Straczynski" },
+    saga: '',
+    description: '',
+    fromEntity: {
+      entityType: 'comic',
+      title: 'Spider-Man',
+      secondEntityKey: 'J. Michael Straczynski',
+    },
+    countryOrigin: ['États-Unis'],
+  },
+  {
+    title: 'Spider-Man',
+    director: 'E.W. Swackhamer',
+    actors: [{ name: 'Nicholas Hammond' }, { name: 'David White' }],
+    coverUrl:
+      'https://www.nanarland.com/media/cache/resolve/front_meta_image/uploads/films/5e8b55b8b058c-spiderman-1977-jaquette.jpg',
+    releaseDate: '1977-09-14',
+    length: 92,
+    genre: ['Action', 'Science Fiction'],
+    saga: 'Spider-Man',
+    description: '',
+    fromEntity: {
+      entityType: 'comic',
+      title: 'Spider-Man',
+      secondEntityKey: 'J. Michael Straczynski',
+    },
+    countryOrigin: ['États-Unis'],
+  },
+  {
+    title: "Spider-Man : La Riposte de l'Homme Araignée",
+    director: 'Ron Satlof',
+    actors: [{ name: 'Nicholas Hammond' }],
+    coverUrl:
+      'https://www.filmsfantastiques.com/wp-content/uploads/2015/05/Riposte-de-lhomme-arraigne%CC%81e-poster-ok.jpg',
+    releaseDate: '1978-10-21',
+    length: 90,
+    genre: ['Action', 'Science Fiction'],
+    saga: 'Spider-Man',
+    description: '',
+    fromEntity: {
+      entityType: 'comic',
+      title: 'Spider-Man',
+      secondEntityKey: 'J. Michael Straczynski',
+    },
+    countryOrigin: ['États-Unis'],
+  },
+  {
+    title: 'Spider-Man : Le Défi du dragon',
+    director: 'Ron Satlof',
+    actors: [{ name: 'Nicholas Hammond' }],
+    coverUrl:
+      'https://static.wikia.nocookie.net/spiderman/images/e/e4/%281981%29_Spider-Man_The_Dragon%27s_Challenge.png/revision/latest?cb=20190827131647',
+    releaseDate: '1981-07-03',
+    length: 92,
+    genre: ['Action', 'Aventure'],
+    saga: 'Spider-Man',
+    description: '',
+    fromEntity: {
+      entityType: 'comic',
+      title: 'Spider-Man',
+      secondEntityKey: 'J. Michael Straczynski',
+    },
     countryOrigin: ['États-Unis'],
   },
   {

@@ -352,7 +352,7 @@ export function manwhaEntityKey(m: Manwha): string {
 
 /**
  * Type de média catalogue pour la pondération transmédia : même type que l’œuvre
- * d’origine du bloc = 1 pt, tout autre type = 5 pts.
+ * d’origine du bloc = 2 pt, tout autre type = 5 pts.
  */
 type MixBaseScoreKind =
   | 'book'
@@ -364,7 +364,7 @@ type MixBaseScoreKind =
   | 'movie'
   | 'serie';
 
-const MIX_BASE_WORK_SAME_MEDIUM_WEIGHT = 1;
+const MIX_BASE_WORK_SAME_MEDIUM_WEIGHT = 2;
 const MIX_BASE_WORK_CROSS_MEDIUM_WEIGHT = 5;
 
 /** Tranches catalogue alignées sur le merge de l’orbite (sagas jeux / livres). */
@@ -830,9 +830,12 @@ function pickCentralGalaxyForFranchiseSaga(
   }
   const withManga = galaxies.filter((g) => g.manga);
   if (withManga.length > 0) {
-    return [...withManga].sort((a, b) =>
-      a.manga!.title.localeCompare(b.manga!.title, 'fr')
-    )[0];
+    return [...withManga].sort((a, b) => {
+      const da = mangaStartDateMs(a.manga!);
+      const db = mangaStartDateMs(b.manga!);
+      if (da !== db) return da - db;
+      return a.manga!.title.localeCompare(b.manga!.title, 'fr');
+    })[0];
   }
   const withManwha = galaxies.filter((g) => g.manwha);
   if (withManwha.length > 0) {
@@ -920,6 +923,13 @@ function gameReleaseDateMs(game: Game): number {
 
 function movieReleaseDateMs(movie: Movie): number {
   const d = movie.releaseDate?.trim();
+  if (!d) return Number.MAX_SAFE_INTEGER;
+  const ms = Date.parse(d);
+  return Number.isNaN(ms) ? Number.MAX_SAFE_INTEGER : ms;
+}
+
+function mangaStartDateMs(manga: Manga): number {
+  const d = manga.startDate?.trim();
   if (!d) return Number.MAX_SAFE_INTEGER;
   const ms = Date.parse(d);
   return Number.isNaN(ms) ? Number.MAX_SAFE_INTEGER : ms;
@@ -1068,9 +1078,7 @@ function baseWorksBlockToOrbitPanel(
     if (mangaSagaNorm) {
       const ck = g.manga ? mangaEntityKey(g.manga) : '';
       catalogMangasStandalone = allBaseMangas
-        .filter(
-          (bm) => bm.saga?.trim().toLowerCase() === mangaSagaNorm
-        )
+        .filter((bm) => bm.saga?.trim().toLowerCase() === mangaSagaNorm)
         .map((bm) => getFullManga(bm))
         .filter((m) => !ck || mangaEntityKey(m) !== ck);
     }
@@ -1078,9 +1086,7 @@ function baseWorksBlockToOrbitPanel(
       staticMangas,
       catalogMangasStandalone,
     ]);
-    orbitMangasStandalone.sort((a, b) =>
-      a.title.localeCompare(b.title, 'fr')
-    );
+    orbitMangasStandalone.sort((a, b) => a.title.localeCompare(b.title, 'fr'));
 
     const satellites: BaseWorkOrbitSatellite[] = [
       ...staticNonManga,
@@ -1284,9 +1290,7 @@ function baseWorksBlockToOrbitPanel(
       (m) => mangaEntityKey(m) !== centralKeyManga
     );
   }
-  orbitMangasFranchise.sort((a, b) =>
-    a.title.localeCompare(b.title, 'fr')
-  );
+  orbitMangasFranchise.sort((a, b) => a.title.localeCompare(b.title, 'fr'));
 
   const satellites: BaseWorkOrbitSatellite[] = [
     ...volumeSatellites,

@@ -70,16 +70,20 @@ export const baseMoviesPage3: BaseMovie[] = [
     director: 'Adam Wingard',
     actors: [
       {
-        name: "Nat Wolff",
-      }
+        name: 'Nat Wolff',
+      },
     ],
-    coverUrl: "/movies_pictures/281716-death-note-0-150-0-225-crop.jpg",
-    releaseDate: "2017-08-25",
+    coverUrl: '/movies_pictures/281716-death-note-0-150-0-225-crop.jpg',
+    releaseDate: '2017-08-25',
     length: 101,
     genre: ['Thriller'],
-    saga: "",
-    description: "",
-    fromEntity: { entityType: "manga", title: "Death Note", secondEntityKey: "Takeshi Obata" },
+    saga: '',
+    description: '',
+    fromEntity: {
+      entityType: 'manga',
+      title: 'Death Note',
+      secondEntityKey: 'Takeshi Obata',
+    },
     countryOrigin: ['États-Unis'],
   },
   {
@@ -570,16 +574,20 @@ export const baseMoviesPage3: BaseMovie[] = [
     director: 'David Cronenberg',
     actors: [
       {
-        name: "Christopher Walken",
-      }
+        name: 'Christopher Walken',
+      },
     ],
-    coverUrl: "/movies_pictures/45398-the-dead-zone-0-150-0-225-crop.jpg",
-    releaseDate: "1983-10-21",
+    coverUrl: '/movies_pictures/45398-the-dead-zone-0-150-0-225-crop.jpg',
+    releaseDate: '1983-10-21',
     length: 103,
     genre: ['Thriller'],
-    saga: "",
-    description: "",
-    fromEntity: { entityType: "book", title: "The Dead zone", secondEntityKey: "Stephen King" },
+    saga: '',
+    description: '',
+    fromEntity: {
+      entityType: 'book',
+      title: 'The Dead zone',
+      secondEntityKey: 'Stephen King',
+    },
     countryOrigin: ['États-Unis'],
   },
   {
@@ -1098,16 +1106,56 @@ export const baseMoviesPage3: BaseMovie[] = [
     director: 'Steven E. de Souza',
     actors: [
       {
-        name: "Jean-Claude Van Damme",
-      }
+        name: 'Jean-Claude Van Damme',
+      },
     ],
-    coverUrl: "/movies_pictures/45086-street-fighter-0-150-0-225-crop.jpg",
-    releaseDate: "1994-12-23",
+    coverUrl: '/movies_pictures/45086-street-fighter-0-150-0-225-crop.jpg',
+    releaseDate: '1994-12-23',
     length: 102,
     genre: ['Action'],
-    saga: "",
-    description: "",
-    fromEntity: { entityType: "game", title: "Street Fighter / Fighting Street", secondEntityKey: "Capcom" },
+    saga: '',
+    description: '',
+    fromEntity: {
+      entityType: 'game',
+      title: 'Street Fighter / Fighting Street',
+      secondEntityKey: 'Capcom',
+    },
+    countryOrigin: ['États-Unis'],
+  },
+  {
+    title: 'Street Fighter : La Légende de Chun-Li',
+    director: 'Andrzej Bartkowiak',
+    actors: [{ name: 'Kristin Kreuk' }, { name: 'Chris Klein' }],
+    coverUrl:
+      'https://m.media-amazon.com/images/S/pv-target-images/430adf86dcca96f97576543a648157539e2828ae6c134cbae82bea3b8b37f8c0._UR2000,3000_.png',
+    releaseDate: '2009-02-27',
+    length: 96,
+    genre: ['Action'],
+    saga: 'Street Fighter',
+    description: '',
+    fromEntity: {
+      entityType: 'game',
+      title: 'Street Fighter / Fighting Street',
+      secondEntityKey: 'Capcom',
+    },
+    countryOrigin: ['États-Unis'],
+  },
+  {
+    title: 'Tekken',
+    director: 'Dwight H. Little',
+    actors: [{ name: 'Jon Foo' }, { name: 'Kelly Overton' }],
+    coverUrl:
+      'https://fr.web.img3.acsta.net/medias/nmedia/18/65/36/32/19462962.jpg',
+    releaseDate: '2010-07-30',
+    length: 92,
+    genre: ['Action', 'Science Fiction'],
+    saga: 'Tekken',
+    description: '',
+    fromEntity: {
+      entityType: 'game',
+      title: 'Tekken',
+      secondEntityKey: 'Bandai Namco',
+    },
     countryOrigin: ['États-Unis'],
   },
   {
@@ -1432,16 +1480,20 @@ export const baseMoviesPage3: BaseMovie[] = [
     director: 'James Huth',
     actors: [
       {
-        name: "Jean Dujardin",
-      }
+        name: 'Jean Dujardin',
+      },
     ],
-    coverUrl: "/movies_pictures/28805-lucky-luke-0-150-0-225-crop.jpg",
-    releaseDate: "2009-10-21",
+    coverUrl: '/movies_pictures/28805-lucky-luke-0-150-0-225-crop.jpg',
+    releaseDate: '2009-10-21',
     length: 103,
     genre: ['Comédie'],
-    saga: "",
-    description: "",
-    fromEntity: { entityType: "bd", title: "Wanted Lucky Luke", secondEntityKey: "Morris" },
+    saga: '',
+    description: '',
+    fromEntity: {
+      entityType: 'bd',
+      title: 'Wanted Lucky Luke',
+      secondEntityKey: 'Morris',
+    },
     countryOrigin: ['France'],
   },
   {
@@ -1462,15 +1514,15 @@ export const baseMoviesPage3: BaseMovie[] = [
     director: 'Roland Emmerich',
     actors: [
       {
-        name: "John Cusack",
-      }
+        name: 'John Cusack',
+      },
     ],
-    coverUrl: "/movies_pictures/43301-2012-0-150-0-225-crop.jpg",
-    releaseDate: "2009-11-13",
+    coverUrl: '/movies_pictures/43301-2012-0-150-0-225-crop.jpg',
+    releaseDate: '2009-11-13',
     length: 158,
     genre: ['Action', 'Drame'],
-    saga: "",
-    description: "",
+    saga: '',
+    description: '',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
   },

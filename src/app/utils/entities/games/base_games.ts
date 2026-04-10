@@ -1379,7 +1379,11 @@ export const baseGames: BaseGame[] = [
     saga: 'Les Simpsons',
     platineTime: 0,
     description: '',
-    fromEntity: null,
+    fromEntity: {
+      entityType: 'serie',
+      title: 'Les Simpsons',
+      secondEntityKey: 'Matt Groening',
+    },
   },
   {
     title: 'Streets of Rage',
@@ -3252,8 +3256,7 @@ export const baseGames: BaseGame[] = [
     title: 'Sonic Adventure',
     editor: 'Sonic Team',
     hero: 'Sonic',
-    coverUrl:
-      '/games_pictures/4c93a9dfe716.png',
+    coverUrl: '/games_pictures/4c93a9dfe716.png',
     releaseDate: '1998-12-23',
     averageTimeToFinish: 12,
     averageTimeToHundredPercent: 40,
@@ -3267,8 +3270,7 @@ export const baseGames: BaseGame[] = [
     title: 'Sonic Adventure 2',
     editor: 'Sonic Team',
     hero: 'Sonic',
-    coverUrl:
-      '/games_pictures/e322da56ecae.png',
+    coverUrl: '/games_pictures/e322da56ecae.png',
     releaseDate: '2001-06-23',
     averageTimeToFinish: 18,
     averageTimeToHundredPercent: 50,

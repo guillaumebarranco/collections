@@ -260,27 +260,67 @@ export const baseMoviesSagaPage3: BaseMovie[] = [
     countryOrigin: ['États-Unis'],
   },
   {
+    title: 'Sonic the Hedgehog: The Movie',
+    director: 'Kazunori Ikegami',
+    actors: [{ name: 'Junichi Kanemaru' }, { name: 'Kōji Tsujitani' }],
+    coverUrl:
+      'https://upload.wikimedia.org/wikipedia/en/3/3f/SonicanimeVHS.jpg',
+    releaseDate: '1999-05-07',
+    length: 57,
+    genre: ['Animation', 'Science Fiction'],
+    saga: 'Sonic',
+    description: '',
+    fromEntity: {
+      entityType: 'game',
+      title: 'Sonic the Hedgehog',
+      secondEntityKey: 'Sega',
+    },
+    countryOrigin: ['Japon', 'États-Unis'],
+  },
+  {
+    title: 'Sonic : Le Film de Noël',
+    director: 'Blair Peters',
+    actors: [{ name: 'Jaleel White' }],
+    coverUrl:
+      'https://m.media-amazon.com/images/M/MV5BNTQwNGQ0NzYtZDIxNi00Yzg3LWFhN2UtZTE1MGIxYzk5ZmJhXkEyXkFqcGc@._V1_.jpg',
+    releaseDate: '1996-11-24',
+    length: 22,
+    genre: ['Animation', 'Jeunesse'],
+    saga: 'Sonic',
+    description: '',
+    fromEntity: {
+      entityType: 'game',
+      title: 'Sonic the Hedgehog',
+      secondEntityKey: 'Sega',
+    },
+    countryOrigin: ['États-Unis'],
+  },
+  {
     title: "Le Seigneur des anneaux : La Communauté de l'anneau",
     director: 'Peter Jackson',
     actors: [
       {
-        name: "Elijah Wood",
+        name: 'Elijah Wood',
       },
       {
-        name: "Ian McKellen",
+        name: 'Ian McKellen',
       },
       {
-        name: "Viggo Mortensen",
-      }
+        name: 'Viggo Mortensen',
+      },
     ],
     coverUrl:
-      "/movies_pictures/the_lord_of_the_rings_the_fellowship_of_the_ring.jpg",
-    releaseDate: "2001-12-19",
+      '/movies_pictures/the_lord_of_the_rings_the_fellowship_of_the_ring.jpg',
+    releaseDate: '2001-12-19',
     length: 178,
     genre: ['Fantastique'],
-    saga: "Tolkien",
-    description: "",
-    fromEntity: { entityType: "book", title: "La Communauté de l'Anneau", secondEntityKey: "J.R.R. Tolkien" },
+    saga: 'Tolkien',
+    description: '',
+    fromEntity: {
+      entityType: 'book',
+      title: "La Communauté de l'Anneau",
+      secondEntityKey: 'J.R.R. Tolkien',
+    },
     countryOrigin: ['États-Unis'],
   },
   {
@@ -288,22 +328,26 @@ export const baseMoviesSagaPage3: BaseMovie[] = [
     director: 'Peter Jackson',
     actors: [
       {
-        name: "Elijah Wood",
+        name: 'Elijah Wood',
       },
       {
-        name: "Ian McKellen",
+        name: 'Ian McKellen',
       },
       {
-        name: "Viggo Mortensen",
-      }
+        name: 'Viggo Mortensen',
+      },
     ],
-    coverUrl: "/movies_pictures/the_lord_of_the_rings_the_two_towers.jpg",
-    releaseDate: "2002-12-18",
+    coverUrl: '/movies_pictures/the_lord_of_the_rings_the_two_towers.jpg',
+    releaseDate: '2002-12-18',
     length: 179,
     genre: ['Fantastique'],
-    saga: "Tolkien",
-    description: "",
-    fromEntity: { entityType: "book", title: "Les deux tours", secondEntityKey: "J.R.R. Tolkien" },
+    saga: 'Tolkien',
+    description: '',
+    fromEntity: {
+      entityType: 'book',
+      title: 'Les deux tours',
+      secondEntityKey: 'J.R.R. Tolkien',
+    },
     countryOrigin: ['États-Unis'],
   },
   {
@@ -311,23 +355,27 @@ export const baseMoviesSagaPage3: BaseMovie[] = [
     director: 'Peter Jackson',
     actors: [
       {
-        name: "Elijah Wood",
+        name: 'Elijah Wood',
       },
       {
-        name: "Ian McKellen",
+        name: 'Ian McKellen',
       },
       {
-        name: "Viggo Mortensen",
-      }
+        name: 'Viggo Mortensen',
+      },
     ],
     coverUrl:
-      "/movies_pictures/the_lord_of_the_rings_the_return_of_the_king.jpg",
-    releaseDate: "2003-12-17",
+      '/movies_pictures/the_lord_of_the_rings_the_return_of_the_king.jpg',
+    releaseDate: '2003-12-17',
     length: 201,
     genre: ['Fantastique'],
-    saga: "Tolkien",
-    description: "",
-    fromEntity: { entityType: "book", title: "Le retour du roi", secondEntityKey: "J.R.R. Tolkien" },
+    saga: 'Tolkien',
+    description: '',
+    fromEntity: {
+      entityType: 'book',
+      title: 'Le retour du roi',
+      secondEntityKey: 'J.R.R. Tolkien',
+    },
     countryOrigin: ['États-Unis'],
   },
   {
@@ -363,22 +411,26 @@ export const baseMoviesSagaPage3: BaseMovie[] = [
     director: 'Peter Jackson',
     actors: [
       {
-        name: "Elijah Wood",
+        name: 'Elijah Wood',
       },
       {
-        name: "Sean Astin",
+        name: 'Sean Astin',
       },
       {
-        name: "Ian McKellen",
-      }
+        name: 'Ian McKellen',
+      },
     ],
-    coverUrl: "/movies_pictures/seigneur-anneaux-2.jpg",
-    releaseDate: "2003-08-26",
+    coverUrl: '/movies_pictures/seigneur-anneaux-2.jpg',
+    releaseDate: '2003-08-26',
     length: 235,
     genre: ['Fantastique'],
-    saga: "Tolkien",
-    description: "",
-    fromEntity: { entityType: "book", title: "Les deux tours", secondEntityKey: "J.R.R. Tolkien" },
+    saga: 'Tolkien',
+    description: '',
+    fromEntity: {
+      entityType: 'book',
+      title: 'Les deux tours',
+      secondEntityKey: 'J.R.R. Tolkien',
+    },
     countryOrigin: ['Nouvelle-Zélande'],
   },
   {
@@ -386,22 +438,26 @@ export const baseMoviesSagaPage3: BaseMovie[] = [
     director: 'Peter Jackson',
     actors: [
       {
-        name: "Elijah Wood",
+        name: 'Elijah Wood',
       },
       {
-        name: "Sean Astin",
+        name: 'Sean Astin',
       },
       {
-        name: "Ian McKellen",
-      }
+        name: 'Ian McKellen',
+      },
     ],
-    coverUrl: "/movies_pictures/seigneur-anneaux-3.jpg",
-    releaseDate: "2004-12-14",
+    coverUrl: '/movies_pictures/seigneur-anneaux-3.jpg',
+    releaseDate: '2004-12-14',
     length: 264,
     genre: ['Fantastique'],
-    saga: "Tolkien",
-    description: "",
-    fromEntity: { entityType: "book", title: "Le retour du roi", secondEntityKey: "J.R.R. Tolkien" },
+    saga: 'Tolkien',
+    description: '',
+    fromEntity: {
+      entityType: 'book',
+      title: 'Le retour du roi',
+      secondEntityKey: 'J.R.R. Tolkien',
+    },
     countryOrigin: ['Nouvelle-Zélande'],
   },
   {
@@ -443,19 +499,23 @@ export const baseMoviesSagaPage3: BaseMovie[] = [
     director: 'Peter Jackson',
     actors: [
       {
-        name: "Martin Freeman",
+        name: 'Martin Freeman',
       },
       {
-        name: "Ian McKellen",
-      }
+        name: 'Ian McKellen',
+      },
     ],
-    coverUrl: "/movies_pictures/20273834.webp",
-    releaseDate: "2012-12-14",
+    coverUrl: '/movies_pictures/20273834.webp',
+    releaseDate: '2012-12-14',
     length: 169,
     genre: ['Fantastique', 'Aventure'],
-    saga: "Tolkien",
-    description: "",
-    fromEntity: { entityType: "book", title: "Bilbo le Hobbit", secondEntityKey: "J.R.R. Tolkien" },
+    saga: 'Tolkien',
+    description: '',
+    fromEntity: {
+      entityType: 'book',
+      title: 'Bilbo le Hobbit',
+      secondEntityKey: 'J.R.R. Tolkien',
+    },
     countryOrigin: ['États-Unis'],
   },
   {
@@ -463,22 +523,26 @@ export const baseMoviesSagaPage3: BaseMovie[] = [
     director: 'Peter Jackson',
     actors: [
       {
-        name: "Martin Freeman",
+        name: 'Martin Freeman',
       },
       {
-        name: "Ian McKellen",
+        name: 'Ian McKellen',
       },
       {
-        name: "Richard Armitage",
-      }
+        name: 'Richard Armitage',
+      },
     ],
-    coverUrl: "/movies_pictures/the_hobbit_the_desolation_of_smaug.jpg",
-    releaseDate: "2013-12-11",
+    coverUrl: '/movies_pictures/the_hobbit_the_desolation_of_smaug.jpg',
+    releaseDate: '2013-12-11',
     length: 161,
     genre: ['Fantastique'],
-    saga: "Tolkien",
-    description: "",
-    fromEntity: { entityType: "book", title: "Bilbo le Hobbit", secondEntityKey: "J.R.R. Tolkien" },
+    saga: 'Tolkien',
+    description: '',
+    fromEntity: {
+      entityType: 'book',
+      title: 'Bilbo le Hobbit',
+      secondEntityKey: 'J.R.R. Tolkien',
+    },
     countryOrigin: ['États-Unis'],
   },
   {
@@ -486,22 +550,26 @@ export const baseMoviesSagaPage3: BaseMovie[] = [
     director: 'Peter Jackson',
     actors: [
       {
-        name: "Martin Freeman",
+        name: 'Martin Freeman',
       },
       {
-        name: "Ian McKellen",
+        name: 'Ian McKellen',
       },
       {
-        name: "Richard Armitage",
-      }
+        name: 'Richard Armitage',
+      },
     ],
-    coverUrl: "/movies_pictures/the_hobbit_the_battle_of_the_five_armies.jpg",
-    releaseDate: "2014-12-10",
+    coverUrl: '/movies_pictures/the_hobbit_the_battle_of_the_five_armies.jpg',
+    releaseDate: '2014-12-10',
     length: 144,
     genre: ['Fantastique'],
-    saga: "Tolkien",
-    description: "",
-    fromEntity: { entityType: "book", title: "Bilbo le Hobbit", secondEntityKey: "J.R.R. Tolkien" },
+    saga: 'Tolkien',
+    description: '',
+    fromEntity: {
+      entityType: 'book',
+      title: 'Bilbo le Hobbit',
+      secondEntityKey: 'J.R.R. Tolkien',
+    },
     countryOrigin: ['États-Unis'],
   },
   {
@@ -569,23 +637,28 @@ export const baseMoviesSagaPage3: BaseMovie[] = [
     director: 'Andrew Adamson',
     actors: [
       {
-        name: "Georgie Henley",
+        name: 'Georgie Henley',
       },
       {
-        name: "Skandar Keynes",
+        name: 'Skandar Keynes',
       },
       {
-        name: "Tilda Swinton",
-      }
+        name: 'Tilda Swinton',
+      },
     ],
     coverUrl:
-      "/movies_pictures/the_chronicles_of_narnia_the_lion_the_witch_and_th.jpg",
-    releaseDate: "2005-12-21",
+      '/movies_pictures/the_chronicles_of_narnia_the_lion_the_witch_and_th.jpg',
+    releaseDate: '2005-12-21',
     length: 140,
     genre: ['Fantastique'],
-    saga: "",
-    description: "",
-    fromEntity: { entityType: "book", title: "Le Monde de Narnia (Tome 2) Le Lion, la Sorcière blanche et l'Armoire magique", secondEntityKey: "C.S. Lewis" },
+    saga: '',
+    description: '',
+    fromEntity: {
+      entityType: 'book',
+      title:
+        "Le Monde de Narnia (Tome 2) Le Lion, la Sorcière blanche et l'Armoire magique",
+      secondEntityKey: 'C.S. Lewis',
+    },
     countryOrigin: ['États-Unis'],
   },
   {
@@ -593,19 +666,23 @@ export const baseMoviesSagaPage3: BaseMovie[] = [
     director: 'Andrew Adamson',
     actors: [
       {
-        name: "Ben Barnes",
+        name: 'Ben Barnes',
       },
       {
-        name: "Georgie Henley",
-      }
+        name: 'Georgie Henley',
+      },
     ],
-    coverUrl: "/movies_pictures/18943276.jpg",
-    releaseDate: "2008-05-16",
+    coverUrl: '/movies_pictures/18943276.jpg',
+    releaseDate: '2008-05-16',
     length: 150,
     genre: ['Fantastique', 'Aventure'],
-    saga: "Narnia",
-    description: "",
-    fromEntity: { entityType: "book", title: "Le Monde de Narnia (Tome 4) Le Prince Caspian", secondEntityKey: "C. S. Lewis" },
+    saga: 'Narnia',
+    description: '',
+    fromEntity: {
+      entityType: 'book',
+      title: 'Le Monde de Narnia (Tome 4) Le Prince Caspian',
+      secondEntityKey: 'C. S. Lewis',
+    },
     countryOrigin: ['États-Unis'],
   },
   {

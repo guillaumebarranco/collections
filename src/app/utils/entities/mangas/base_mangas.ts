@@ -1229,7 +1229,7 @@ export const baseMangas: BaseManga[] = [
     isFinished: false,
     startDate: '1997-09-27',
     endDate: '',
-    saga: '',
+    saga: 'Zelda',
     description: '',
     fromEntity: {
       entityType: 'game',

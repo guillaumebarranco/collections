@@ -394,23 +394,6 @@ export const baseMoviesFromAmandine: BaseMovie[] = [
     countryOrigin: ['États-Unis'],
   },
   {
-    title: 'Pokémon : Détective Pikachu',
-    director: 'Rob Letterman',
-    actors: [{ name: 'Ryan Reynolds' }, { name: 'Justice Smith' }],
-    coverUrl: '/movies_pictures/2748213.webp',
-    releaseDate: '2019-05-10',
-    length: 104,
-    genre: ['Mystère', 'Aventure'],
-    saga: '',
-    description: '',
-    fromEntity: {
-      entityType: 'game',
-      title: 'Pokémon Bleu',
-      secondEntityKey: 'Game Freak',
-    },
-    countryOrigin: ['États-Unis'],
-  },
-  {
     title: 'Dumbo',
     director: 'Tim Burton',
     actors: [{ name: 'Colin Farrell' }, { name: 'Eva Green' }],
