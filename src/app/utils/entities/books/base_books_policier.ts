@@ -265,7 +265,7 @@ export const baseBooksPolicier: BaseBook[] = [
   {
     title: 'Les Aventures de Sherlock Holmes',
     author: 'Arthur Conan Doyle',
-    coverUrl: '/books_pictures/71ZApq0lxyL.jpg',
+    coverUrl: 'https://images.epagine.fr/654/9782377352654_1_75.jpg',
     pages: 320,
     genre: ['Policier'],
     saga: 'Sherlock Holmes',
@@ -278,7 +278,8 @@ export const baseBooksPolicier: BaseBook[] = [
   {
     title: 'Les Mémoires de Sherlock Holmes',
     author: 'Arthur Conan Doyle',
-    coverUrl: '/books_pictures/06aa76b76bcf.jpg',
+    coverUrl:
+      'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS946fspMFfONVOzzNXQ7x_WAxOhRm9mP5ABA&s',
     pages: 320,
     genre: ['Policier'],
     saga: 'Sherlock Holmes',
@@ -291,7 +292,8 @@ export const baseBooksPolicier: BaseBook[] = [
   {
     title: 'Le Retour de Sherlock Holmes',
     author: 'Arthur Conan Doyle',
-    coverUrl: '/books_pictures/61dP6OImMtL._AC_UF1000,1000_QL80_.jpg',
+    coverUrl:
+      'https://static.fnac-static.com/multimedia/PE/Images/FR/NR/86/cc/a4/10800262/1507-1/tsp20251025080610/Le-retour-de-Sherlock-Holmes.jpg',
     pages: 320,
     genre: ['Policier'],
     saga: 'Sherlock Holmes',
@@ -304,7 +306,8 @@ export const baseBooksPolicier: BaseBook[] = [
   {
     title: "Son dernier coup d'archet",
     author: 'Arthur Conan Doyle',
-    coverUrl: '/books_pictures/9791039200370-475x500-1.webp',
+    coverUrl:
+      'https://static.fnac-static.com/multimedia/PE/Images/FR/NR/d8/a9/cf/13609432/1507-1/tsp20260306084916/Son-dernier-coup-d-archet.jpg',
     pages: 320,
     genre: ['Policier'],
     saga: 'Sherlock Holmes',
@@ -317,7 +320,8 @@ export const baseBooksPolicier: BaseBook[] = [
   {
     title: 'Les Archives de Sherlock Holmes',
     author: 'Arthur Conan Doyle',
-    coverUrl: '/books_pictures/67d5a11b9ef9.jpg',
+    coverUrl:
+      'https://m.media-amazon.com/images/I/619l81PzlcL._AC_UF1000,1000_QL80_.jpg',
     pages: 320,
     genre: ['Policier'],
     saga: 'Sherlock Holmes',

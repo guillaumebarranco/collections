@@ -212,6 +212,9 @@ function parseBaseMangasFullFromFile(content: string): BaseManga[] {
           genre: parseStringField(objectText, 'genre') as BaseManga['genre'],
           nbTomes: parseNumberField(objectText, 'nbTomes') ?? 0,
           isFinished: parseBooleanField(objectText, 'isFinished') ?? false,
+          startDate: parseStringField(objectText, 'startDate') || '',
+          endDate: parseStringField(objectText, 'endDate') || '',
+          saga: parseStringField(objectText, 'saga') || '',
           description: parseStringField(objectText, 'description') || '',
         } as BaseManga);
       }
@@ -412,6 +415,9 @@ function updateBaseMangaInFile(filePath: string, mangaData: BaseMangaFileUpdateP
     genre: "${escapeString(manga.genre || '')}",
     nbTomes: ${manga.nbTomes ?? 0},
     isFinished: ${manga.isFinished ?? false},
+    startDate: "${escapeString(manga.startDate || '')}",
+    endDate: "${escapeString(manga.endDate || '')}",
+    saga: "${escapeString(manga.saga || '')}",
     description: "${escapeString(manga.description || '')}",
   }`
     )

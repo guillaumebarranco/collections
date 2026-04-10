@@ -30,6 +30,15 @@
         <option value="5">#5</option>
       </select>
     </span>
+    } @if (serializationBadge) {
+    <span
+      class="missing-badge"
+      [style.background-color]="
+        serializationBadge === 'Manga fini' ? '#4caf50' : '#ff9800'
+      "
+      [style.color]="'white'"
+      >{{ serializationBadge }}</span
+    >
     } @if (manga.borrowed.trim() && !isBaseEntityView) {
     <span class="missing-badge" style="background-color: #9c27b0; color: white"
       >Emprunté à {{ manga.borrowed }}</span

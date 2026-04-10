@@ -592,6 +592,10 @@ export class MangasComponent implements OnInit {
     return `${manga.title}|${manga.author}`;
   }
 
+  getMangaSerializationBadge(manga: Manga): 'Manga fini' | 'Manga en cours' {
+    return manga.endDate?.trim() ? 'Manga fini' : 'Manga en cours';
+  }
+
   getMangaRecommendationText(manga: Manga): string {
     const recommendationDetails =
       (manga as RecommendedManga).recommendationDetails || [];

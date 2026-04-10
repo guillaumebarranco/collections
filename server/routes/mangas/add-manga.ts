@@ -21,6 +21,9 @@ function formatBaseManga(entity: any): string {
     genre: "${escapeString(entity.genre || '')}",
     nbTomes: ${entity.nbTomes || 0},
     isFinished: ${entity.isFinished ?? true},
+    startDate: "${escapeString(entity.startDate ?? '')}",
+    endDate: "${escapeString(entity.endDate ?? '')}",
+    saga: "${escapeString(entity.saga ?? '')}",
     description: "${escapeString(entity.description ?? '')}",
   },`;
 }
@@ -109,6 +112,8 @@ router.post('/add', (req: any, res: any) => {
       genre: normalizeString(entity.genre, 'genre') || '',
       nbTomes: normalizeNumber(entity.nbTomes, 'nbTomes') || 0,
       isFinished: normalizeBoolean(entity.isFinished, 'isFinished') ?? true,
+      startDate: normalizeString(entity.startDate, 'startDate') || '',
+      endDate: normalizeString(entity.endDate, 'endDate') || '',
       description: normalizeString(entity.description, 'description') ?? '',
     };
 

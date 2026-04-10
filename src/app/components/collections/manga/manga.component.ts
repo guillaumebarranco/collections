@@ -52,6 +52,8 @@ export class MangaComponent {
   @Input() recommendationText = '';
   @Input() isInReadlist = false;
   @Input() recommendationBadge = '';
+  /** Badge parution (recommandations) : même logique visuelle que sagaBadge côté livres. */
+  @Input() serializationBadge: 'Manga fini' | 'Manga en cours' | null = null;
   @Input() isReadlistView = false;
   @Input() selectedView: MangaView = 'read';
   @Input() showAddToMyReadlist = false;

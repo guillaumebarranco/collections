@@ -249,7 +249,8 @@ export const baseBooksSaga: BaseBook[] = [
   {
     title: 'Divergente',
     author: 'Veronica Roth',
-    coverUrl: '/books_pictures/divergente.jpg',
+    coverUrl:
+      'https://m.media-amazon.com/images/I/71T9hdZ9j2L._AC_UF1000,1000_QL80_.jpg',
     pages: 487,
     genre: ['Dystopie'],
     saga: 'Divergente',
@@ -262,7 +263,8 @@ export const baseBooksSaga: BaseBook[] = [
   {
     title: "Divergente Tome 2 : L'Insurrection",
     author: 'Veronica Roth',
-    coverUrl: '/books_pictures/71pWcb3MnyL.jpg',
+    coverUrl:
+      'https://cdn1.booknode.com/book_cover/665/full/divergente-tome-2-linsurrection-664646.jpg',
     pages: 525,
     genre: ['Science Fiction'],
     saga: 'Divergente',
@@ -275,13 +277,27 @@ export const baseBooksSaga: BaseBook[] = [
   {
     title: 'Divergente Tome 3 : Allégeance',
     author: 'Veronica Roth',
-    coverUrl: '/books_pictures/91khiyPF5aL._UF1000,1000_QL80_.jpg',
+    coverUrl:
+      'https://sglivresusages.ca/wp-content/uploads/2022/09/1-674-686x1024.jpg',
     pages: 526,
     genre: ['Science Fiction'],
     saga: 'Divergente',
     sagaOrder: 3,
     sagaFinished: true,
     releaseDate: '2013-10-22',
+    description: '',
+    countryOrigin: 'États-Unis',
+  },
+  {
+    title: 'Divergente : Raconté par Quatre',
+    author: 'Veronica Roth',
+    coverUrl: 'https://m.media-amazon.com/images/I/71LigchKZtL.jpg',
+    pages: 304,
+    genre: ['Dystopie'],
+    saga: 'Divergente',
+    sagaOrder: 4,
+    sagaFinished: true,
+    releaseDate: '2014-07-08',
     description: '',
     countryOrigin: 'États-Unis',
   },

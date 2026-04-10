@@ -46,6 +46,7 @@
             ? 'Déjà dans votre readlist'
             : 'Recommandé'
         "
+        [serializationBadge]="getMangaSerializationBadge(manga)"
         [isInReadlist]="mangaAlreadyInUserReadlist(manga)"
         [showAddToMyReadlist]="canShowAddToMyReadlist()"
         [canAddToMyReadlist]="canAddMangaToMyReadlist(manga)"

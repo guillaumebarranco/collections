@@ -83,7 +83,7 @@ export type MixAdaptationSource =
   | 'serie';
 
 export const mixPrimaryOptions: ViewToggleOption[] = [
-  { value: 'baseWorksGalaxy', label: 'Œuvres de base' },
+  { value: 'baseWorksGalaxy', label: 'Galaxie des œuvres' },
   { value: 'sagasFilmsSeries', label: 'Sagas films / séries' },
   { value: 'worksWithMovieAdaptations', label: 'Œuvres → leurs films' },
   { value: 'moviesGroupedBySource', label: 'Films par origine' },
@@ -282,9 +282,7 @@ export class MixComponent implements OnInit {
 
   /** Films dont la source est une BD du catalogue (entityType bd ou comic assorti au catalogue BD). */
   private moviesFromBdCatalogFull(): Movie[] {
-    const bdKeys = new Set(
-      this.baseBds().map((b) => `${b.title}|${b.writer}`)
-    );
+    const bdKeys = new Set(this.baseBds().map((b) => `${b.title}|${b.writer}`));
     return this.baseMovies()
       .filter((m) => {
         const fe = m.fromEntity;
@@ -326,8 +324,7 @@ export class MixComponent implements OnInit {
       const fe = movies[0]?.fromEntity;
       const title = fe?.title?.trim() ?? '';
       const second = fe?.secondEntityKey?.trim() ?? '';
-      const sourceLabel =
-        titleOnly || !second ? title : `${title} — ${second}`;
+      const sourceLabel = titleOnly || !second ? title : `${title} — ${second}`;
       return { sourceKey, sourceLabel, movies };
     });
   }
@@ -535,9 +532,7 @@ export class MixComponent implements OnInit {
       const fe = game.fromEntity!;
       const sourceMovie =
         movies.find(
-          (m) =>
-            m.title === fe.title &&
-            m.director === fe.secondEntityKey
+          (m) => m.title === fe.title && m.director === fe.secondEntityKey
         ) ?? null;
       return { game, sourceMovie };
     });

@@ -6,18 +6,18 @@ export const baseSeriesAnimees: BaseSerie[] = [
     director: 'Yoshihiro Togashi',
     actors: [
       {
-        name: "Nozomu Sasaki",
+        name: 'Nozomu Sasaki',
       },
       {
-        name: "Justin Cook",
+        name: 'Justin Cook',
       },
       {
-        name: "Chuck Huber",
-      }
+        name: 'Chuck Huber',
+      },
     ],
-    coverUrl: "/series_pictures/1033002.jpg",
-    releaseDate: "1992-10-10",
-    endDate: "1995-01-07",
+    coverUrl: '/series_pictures/1033002.jpg',
+    releaseDate: '1992-10-10',
+    endDate: '1995-01-07',
     genre: ['Animation', 'Action', 'Adventure'],
     seasonsData: [
       {
@@ -39,24 +39,28 @@ export const baseSeriesAnimees: BaseSerie[] = [
         seasonNumber: 4,
         nbEpisodes: 17,
         totalLength: 340,
-      }
+      },
     ],
-    description: "",
-    saga: "",
-    fromEntity: { entityType: "manga", title: "Yu Yu Hakusho", secondEntityKey: "Yoshihiro Togashi" },
-    countryOrigin: "Japon",
+    description: '',
+    saga: '',
+    fromEntity: {
+      entityType: 'manga',
+      title: 'Yu Yu Hakusho',
+      secondEntityKey: 'Yoshihiro Togashi',
+    },
+    countryOrigin: 'Japon',
   },
   {
     title: 'Olive et Tom : Le retour',
     director: 'Gisaburo Sugii',
     actors: [
       {
-        name: "Inconnu",
-      }
+        name: 'Inconnu',
+      },
     ],
-    coverUrl: "/series_pictures/71AiVceG98L._AC_UF894,1000_QL80_.jpg",
-    releaseDate: "2001-10-07",
-    endDate: "2002-10-06",
+    coverUrl: '/series_pictures/71AiVceG98L._AC_UF894,1000_QL80_.jpg',
+    releaseDate: '2001-10-07',
+    endDate: '2002-10-06',
     genre: ['Animation', 'Sport'],
     seasonsData: [
       {
@@ -73,30 +77,34 @@ export const baseSeriesAnimees: BaseSerie[] = [
         seasonNumber: 3,
         nbEpisodes: 18,
         totalLength: 540,
-      }
+      },
     ],
-    description: "",
-    saga: "",
-    fromEntity: { entityType: "manga", title: "Captain Tsubasa", secondEntityKey: "Yōichi Takahashi" },
-    countryOrigin: "Japon",
+    description: '',
+    saga: '',
+    fromEntity: {
+      entityType: 'manga',
+      title: 'Captain Tsubasa',
+      secondEntityKey: 'Yōichi Takahashi',
+    },
+    countryOrigin: 'Japon',
   },
   {
     title: 'Naruto',
     director: 'Masashi Kishimoto',
     actors: [
       {
-        name: "Junko Takeuchi",
+        name: 'Junko Takeuchi',
       },
       {
-        name: "Maile Flanagan",
+        name: 'Maile Flanagan',
       },
       {
-        name: "Chie Nakamura",
-      }
+        name: 'Chie Nakamura',
+      },
     ],
-    coverUrl: "/series_pictures/naruto-anime-320x471.jpg",
-    releaseDate: "2002-10-03",
-    endDate: "2007-02-08",
+    coverUrl: '/series_pictures/naruto-anime-320x471.jpg',
+    releaseDate: '2002-10-03',
+    endDate: '2007-02-08',
     genre: ['Animation', 'Action', 'Adventure'],
     seasonsData: [
       {
@@ -128,25 +136,29 @@ export const baseSeriesAnimees: BaseSerie[] = [
         seasonNumber: 6,
         nbEpisodes: 5,
         totalLength: 150,
-      }
+      },
     ],
-    description: "",
-    saga: "",
-    fromEntity: { entityType: "manga", title: "Naruto", secondEntityKey: "Masashi Kishimoto" },
-    countryOrigin: "Japon",
+    description: '',
+    saga: '',
+    fromEntity: {
+      entityType: 'manga',
+      title: 'Naruto',
+      secondEntityKey: 'Masashi Kishimoto',
+    },
+    countryOrigin: 'Japon',
   },
   {
     title: 'Naruto Shippuden',
     director: 'Masashi Kishimoto',
     actors: [
       {
-        name: "Inconnu",
-      }
+        name: 'Inconnu',
+      },
     ],
     coverUrl:
-      "/series_pictures/MV5BNTk3MDA1ZjAtNTRhYS00YzNiLTgwOGEtYWRmYTQ3NjA0NTAwXkEyXkFqcGc@._V1_.jpg",
-    releaseDate: "2007-02-15",
-    endDate: "2017-03-23",
+      '/series_pictures/MV5BNTk3MDA1ZjAtNTRhYS00YzNiLTgwOGEtYWRmYTQ3NjA0NTAwXkEyXkFqcGc@._V1_.jpg',
+    releaseDate: '2007-02-15',
+    endDate: '2017-03-23',
     genre: ['Animation', 'Action', 'Adventure'],
     seasonsData: [
       {
@@ -258,12 +270,16 @@ export const baseSeriesAnimees: BaseSerie[] = [
         seasonNumber: 22,
         nbEpisodes: 21,
         totalLength: 420,
-      }
+      },
     ],
-    description: "",
-    saga: "",
-    fromEntity: { entityType: "manga", title: "Naruto", secondEntityKey: "Masashi Kishimoto" },
-    countryOrigin: "Japon",
+    description: '',
+    saga: '',
+    fromEntity: {
+      entityType: 'manga',
+      title: 'Naruto',
+      secondEntityKey: 'Masashi Kishimoto',
+    },
+    countryOrigin: 'Japon',
   },
   {
     title: 'One Piece',
@@ -403,12 +419,12 @@ export const baseSeriesAnimees: BaseSerie[] = [
     director: 'Kōhei Horikoshi',
     actors: [
       {
-        name: "Inconnu",
-      }
+        name: 'Inconnu',
+      },
     ],
-    coverUrl: "/series_pictures/my_hero_academia.jpg",
-    releaseDate: "2016-04-03",
-    endDate: "",
+    coverUrl: '/series_pictures/my_hero_academia.jpg',
+    releaseDate: '2016-04-03',
+    endDate: '',
     genre: ['Animation', 'Action', 'Adventure'],
     seasonsData: [
       {
@@ -460,24 +476,28 @@ export const baseSeriesAnimees: BaseSerie[] = [
         seasonNumber: 10,
         nbEpisodes: 10,
         totalLength: 300,
-      }
+      },
     ],
-    description: "",
-    saga: "",
-    fromEntity: { entityType: "manga", title: "My Hero Academia", secondEntityKey: "Horikoshi Kouhei" },
-    countryOrigin: "Japon",
+    description: '',
+    saga: '',
+    fromEntity: {
+      entityType: 'manga',
+      title: 'My Hero Academia',
+      secondEntityKey: 'Horikoshi Kouhei',
+    },
+    countryOrigin: 'Japon',
   },
   {
     title: 'Boruto',
     director: 'Masashi Kishimoto',
     actors: [
       {
-        name: "Inconnu",
-      }
+        name: 'Inconnu',
+      },
     ],
-    coverUrl: "/series_pictures/5393471.jpg",
-    releaseDate: "2017-04-05",
-    endDate: "",
+    coverUrl: '/series_pictures/5393471.jpg',
+    releaseDate: '2017-04-05',
+    endDate: '',
     genre: ['Animation', 'Action', 'Adventure'],
     seasonsData: [
       {
@@ -509,24 +529,28 @@ export const baseSeriesAnimees: BaseSerie[] = [
         seasonNumber: 6,
         nbEpisodes: 33,
         totalLength: 660,
-      }
+      },
     ],
-    description: "",
-    saga: "",
-    fromEntity: { entityType: "manga", title: "Boruto", secondEntityKey: "Ukyo Kodachi, Masashi Kishimoto" },
-    countryOrigin: "Japon",
+    description: '',
+    saga: '',
+    fromEntity: {
+      entityType: 'manga',
+      title: 'Boruto',
+      secondEntityKey: 'Ukyo Kodachi, Masashi Kishimoto',
+    },
+    countryOrigin: 'Japon',
   },
   {
     title: 'Dandadan',
     director: 'Yukinobu Tatsu',
     actors: [
       {
-        name: "Inconnu",
-      }
+        name: 'Inconnu',
+      },
     ],
-    coverUrl: "/series_pictures/34d559cbab6cd1245e84d812d9056ef2.jpg",
-    releaseDate: "2024-10-03",
-    endDate: "",
+    coverUrl: '/series_pictures/34d559cbab6cd1245e84d812d9056ef2.jpg',
+    releaseDate: '2024-10-03',
+    endDate: '',
     genre: ['Animation', 'Action', 'Comedy'],
     seasonsData: [
       {
@@ -538,12 +562,16 @@ export const baseSeriesAnimees: BaseSerie[] = [
         seasonNumber: 2,
         nbEpisodes: 12,
         totalLength: 240,
-      }
+      },
     ],
-    description: "",
-    saga: "",
-    fromEntity: { entityType: "manga", title: "Dandadan", secondEntityKey: "Yukinobu Tatsu" },
-    countryOrigin: "Japon",
+    description: '',
+    saga: '',
+    fromEntity: {
+      entityType: 'manga',
+      title: 'Dandadan',
+      secondEntityKey: 'Yukinobu Tatsu',
+    },
+    countryOrigin: 'Japon',
   },
   {
     title: 'Dragon Ball',
@@ -821,12 +849,12 @@ export const baseSeriesAnimees: BaseSerie[] = [
     director: 'Isamu Imakake',
     actors: [
       {
-        name: "Inconnu",
-      }
+        name: 'Inconnu',
+      },
     ],
-    coverUrl: "/series_pictures/poster-olive-et-tom.webp",
-    releaseDate: "1983-10-13",
-    endDate: "1986-03-27",
+    coverUrl: '/series_pictures/poster-olive-et-tom.webp',
+    releaseDate: '1983-10-13',
+    endDate: '1986-03-27',
     genre: ['Animation', 'Sport'],
     seasonsData: [
       {
@@ -888,48 +916,56 @@ export const baseSeriesAnimees: BaseSerie[] = [
         seasonNumber: 12,
         nbEpisodes: 39,
         totalLength: 780,
-      }
+      },
     ],
-    description: "",
-    saga: "",
-    fromEntity: { entityType: "manga", title: "Captain Tsubasa", secondEntityKey: "Yōichi Takahashi" },
-    countryOrigin: "Japon",
+    description: '',
+    saga: '',
+    fromEntity: {
+      entityType: 'manga',
+      title: 'Captain Tsubasa',
+      secondEntityKey: 'Yōichi Takahashi',
+    },
+    countryOrigin: 'Japon',
   },
   {
     title: 'Puella Magi Madoka Magica',
     director: 'Akiyuki Shinbo',
     actors: [
       {
-        name: "Inconnu",
-      }
+        name: 'Inconnu',
+      },
     ],
-    coverUrl: "/series_pictures/puella_magi_madoka_magica.webp",
-    releaseDate: "2011-01-07",
-    endDate: "2011-04-22",
+    coverUrl: '/series_pictures/puella_magi_madoka_magica.webp',
+    releaseDate: '2011-01-07',
+    endDate: '2011-04-22',
     genre: ['Animation', 'Drama', 'Fantasy'],
     seasonsData: [
       {
         seasonNumber: 1,
         nbEpisodes: 12,
         totalLength: 240,
-      }
+      },
     ],
-    description: "",
-    saga: "",
-    fromEntity: { entityType: "manga", title: "Puella Magi Madoka Magica", secondEntityKey: "Hanokage" },
-    countryOrigin: "Japon",
+    description: '',
+    saga: '',
+    fromEntity: {
+      entityType: 'manga',
+      title: 'Puella Magi Madoka Magica',
+      secondEntityKey: 'Hanokage',
+    },
+    countryOrigin: 'Japon',
   },
   {
     title: 'Nanatsu No Taizai (Seven Deadly Sins)',
     director: 'Nakaba Suzuki',
     actors: [
       {
-        name: "Inconnu",
-      }
+        name: 'Inconnu',
+      },
     ],
-    coverUrl: "/series_pictures/nanatsu_no_taizai_3605.webp",
-    releaseDate: "2014-10-05",
-    endDate: "2021-06-23",
+    coverUrl: '/series_pictures/nanatsu_no_taizai_3605.webp',
+    releaseDate: '2014-10-05',
+    endDate: '2021-06-23',
     genre: ['Animation', 'Action', 'Adventure'],
     seasonsData: [
       {
@@ -961,48 +997,56 @@ export const baseSeriesAnimees: BaseSerie[] = [
         seasonNumber: 6,
         nbEpisodes: 3,
         totalLength: 60,
-      }
+      },
     ],
-    description: "",
-    saga: "",
-    fromEntity: { entityType: "manga", title: "Nanatsu No Taizai", secondEntityKey: "Suzuki Nakaba" },
-    countryOrigin: "Japon",
+    description: '',
+    saga: '',
+    fromEntity: {
+      entityType: 'manga',
+      title: 'Nanatsu No Taizai',
+      secondEntityKey: 'Suzuki Nakaba',
+    },
+    countryOrigin: 'Japon',
   },
   {
     title: 'Shaman king',
     director: 'Hiroyuki Takei',
     actors: [
       {
-        name: "Inconnu",
-      }
+        name: 'Inconnu',
+      },
     ],
-    coverUrl: "/series_pictures/5380787.jpg",
-    releaseDate: "2001-07-04",
-    endDate: "2002-09-25",
+    coverUrl: '/series_pictures/5380787.jpg',
+    releaseDate: '2001-07-04',
+    endDate: '2002-09-25',
     genre: ['Animation', 'Action', 'Adventure'],
     seasonsData: [
       {
         seasonNumber: 1,
         nbEpisodes: 64,
         totalLength: 1280,
-      }
+      },
     ],
-    description: "",
-    saga: "",
-    fromEntity: { entityType: "manga", title: "Shaman king", secondEntityKey: "Hiroyuki Takei" },
-    countryOrigin: "Japon",
+    description: '',
+    saga: '',
+    fromEntity: {
+      entityType: 'manga',
+      title: 'Shaman king',
+      secondEntityKey: 'Hiroyuki Takei',
+    },
+    countryOrigin: 'Japon',
   },
   {
     title: 'Shokugeki no Soma (Food Wars)',
     director: 'Yūto Tsukuda',
     actors: [
       {
-        name: "Inconnu",
-      }
+        name: 'Inconnu',
+      },
     ],
-    coverUrl: "/series_pictures/2275280.webp",
-    releaseDate: "2015-04-04",
-    endDate: "2020-09-26",
+    coverUrl: '/series_pictures/2275280.webp',
+    releaseDate: '2015-04-04',
+    endDate: '2020-09-26',
     genre: ['Animation', 'Comedy', 'Drama'],
     seasonsData: [
       {
@@ -1034,48 +1078,56 @@ export const baseSeriesAnimees: BaseSerie[] = [
         seasonNumber: 6,
         nbEpisodes: 5,
         totalLength: 100,
-      }
+      },
     ],
-    description: "",
-    saga: "",
-    fromEntity: { entityType: "manga", title: "Shokugeki no Soma", secondEntityKey: "Tsukuda Yuuto" },
-    countryOrigin: "Japon",
+    description: '',
+    saga: '',
+    fromEntity: {
+      entityType: 'manga',
+      title: 'Shokugeki no Soma',
+      secondEntityKey: 'Tsukuda Yuuto',
+    },
+    countryOrigin: 'Japon',
   },
   {
     title: 'Akame Ga Kill',
     director: 'Takahiro',
     actors: [
       {
-        name: "Inconnu",
-      }
+        name: 'Inconnu',
+      },
     ],
-    coverUrl: "/series_pictures/4420222.webp",
-    releaseDate: "2014-07-06",
-    endDate: "2014-12-14",
+    coverUrl: '/series_pictures/4420222.webp',
+    releaseDate: '2014-07-06',
+    endDate: '2014-12-14',
     genre: ['Animation', 'Action', 'Drama'],
     seasonsData: [
       {
         seasonNumber: 1,
         nbEpisodes: 24,
         totalLength: 480,
-      }
+      },
     ],
-    description: "",
-    saga: "",
-    fromEntity: { entityType: "manga", title: "Akame Ga Kill", secondEntityKey: "Takahiro" },
-    countryOrigin: "Japon",
+    description: '',
+    saga: '',
+    fromEntity: {
+      entityType: 'manga',
+      title: 'Akame Ga Kill',
+      secondEntityKey: 'Takahiro',
+    },
+    countryOrigin: 'Japon',
   },
   {
     title: 'Hunter X Hunter',
     director: 'Yoshihiro Togashi',
     actors: [
       {
-        name: "Inconnu",
-      }
+        name: 'Inconnu',
+      },
     ],
-    coverUrl: "/series_pictures/4803203.jpg",
-    releaseDate: "2011-10-02",
-    endDate: "2014-09-24",
+    coverUrl: '/series_pictures/4803203.jpg',
+    releaseDate: '2011-10-02',
+    endDate: '2014-09-24',
     genre: ['Animation', 'Action', 'Adventure'],
     seasonsData: [
       {
@@ -1092,24 +1144,28 @@ export const baseSeriesAnimees: BaseSerie[] = [
         seasonNumber: 3,
         nbEpisodes: 49,
         totalLength: 980,
-      }
+      },
     ],
-    description: "",
-    saga: "",
-    fromEntity: { entityType: "manga", title: "Hunter X Hunter", secondEntityKey: "Yoshihiro Togashi" },
-    countryOrigin: "Japon",
+    description: '',
+    saga: '',
+    fromEntity: {
+      entityType: 'manga',
+      title: 'Hunter X Hunter',
+      secondEntityKey: 'Yoshihiro Togashi',
+    },
+    countryOrigin: 'Japon',
   },
   {
     title: 'Beelzebub',
     director: 'Ryūhei Tamura',
     actors: [
       {
-        name: "Inconnu",
-      }
+        name: 'Inconnu',
+      },
     ],
-    coverUrl: "/series_pictures/beelzebub.jpg",
-    releaseDate: "2011-01-09",
-    endDate: "2012-03-25",
+    coverUrl: '/series_pictures/beelzebub.jpg',
+    releaseDate: '2011-01-09',
+    endDate: '2012-03-25',
     genre: ['Animation', 'Action', 'Comedy'],
     seasonsData: [
       {
@@ -1121,25 +1177,29 @@ export const baseSeriesAnimees: BaseSerie[] = [
         seasonNumber: 2,
         nbEpisodes: 60,
         totalLength: 1200,
-      }
+      },
     ],
-    description: "",
-    saga: "",
-    fromEntity: { entityType: "manga", title: "Beelzebub", secondEntityKey: "Ryūhei Tamura" },
-    countryOrigin: "Japon",
+    description: '',
+    saga: '',
+    fromEntity: {
+      entityType: 'manga',
+      title: 'Beelzebub',
+      secondEntityKey: 'Ryūhei Tamura',
+    },
+    countryOrigin: 'Japon',
   },
   {
     title: 'Bleach',
     director: 'Tite Kubo',
     actors: [
       {
-        name: "Inconnu",
-      }
+        name: 'Inconnu',
+      },
     ],
     coverUrl:
-      "/series_pictures/MV5BOWQwOWY5NTUtMjAyZi00YjQzLTkwODgtNmQwZjU1MGIzZDhjXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg",
-    releaseDate: "2004-10-05",
-    endDate: "2012-03-27",
+      '/series_pictures/MV5BOWQwOWY5NTUtMjAyZi00YjQzLTkwODgtNmQwZjU1MGIzZDhjXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg',
+    releaseDate: '2004-10-05',
+    endDate: '2012-03-27',
     genre: ['Animation', 'Action', 'Adventure'],
     seasonsData: [
       {
@@ -1226,25 +1286,29 @@ export const baseSeriesAnimees: BaseSerie[] = [
         seasonNumber: 17,
         nbEpisodes: 40,
         totalLength: 800,
-      }
+      },
     ],
-    description: "",
-    saga: "",
-    fromEntity: { entityType: "manga", title: "Bleach", secondEntityKey: "Tite Kubo" },
-    countryOrigin: "Japon",
+    description: '',
+    saga: '',
+    fromEntity: {
+      entityType: 'manga',
+      title: 'Bleach',
+      secondEntityKey: 'Tite Kubo',
+    },
+    countryOrigin: 'Japon',
   },
   {
     title: 'Détective Conan',
     director: 'Gōshō Aoyama',
     actors: [
       {
-        name: "Inconnu",
-      }
+        name: 'Inconnu',
+      },
     ],
     coverUrl:
-      "/series_pictures/MV5BNGNjMjVmODYtMGMzZi00MWUyLTk1ZDQtYzI2ZTk2MmYzYTZiXkEyXkFqcGc@._V1_.jpg",
-    releaseDate: "1996-01-08",
-    endDate: "",
+      '/series_pictures/MV5BNGNjMjVmODYtMGMzZi00MWUyLTk1ZDQtYzI2ZTk2MmYzYTZiXkEyXkFqcGc@._V1_.jpg',
+    releaseDate: '1996-01-08',
+    endDate: '',
     genre: ['Animation', 'Crime', 'Mystery'],
     seasonsData: [
       {
@@ -1356,24 +1420,28 @@ export const baseSeriesAnimees: BaseSerie[] = [
         seasonNumber: 22,
         nbEpisodes: 50,
         totalLength: 1000,
-      }
+      },
     ],
-    description: "",
-    saga: "",
-    fromEntity: { entityType: "manga", title: "Détective Conan", secondEntityKey: "Gōshō Aoyama" },
-    countryOrigin: "Japon",
+    description: '',
+    saga: '',
+    fromEntity: {
+      entityType: 'manga',
+      title: 'Détective Conan',
+      secondEntityKey: 'Gōshō Aoyama',
+    },
+    countryOrigin: 'Japon',
   },
   {
     title: 'Jujutsu Kaisen',
     director: 'Gege Akutami',
     actors: [
       {
-        name: "Inconnu",
-      }
+        name: 'Inconnu',
+      },
     ],
-    coverUrl: "/series_pictures/4875617.jpg",
-    releaseDate: "2020-10-03",
-    endDate: "",
+    coverUrl: '/series_pictures/4875617.jpg',
+    releaseDate: '2020-10-03',
+    endDate: '',
     genre: ['Animation', 'Action', 'Fantasy'],
     seasonsData: [
       {
@@ -1390,25 +1458,29 @@ export const baseSeriesAnimees: BaseSerie[] = [
         seasonNumber: 3,
         nbEpisodes: 5,
         totalLength: 100,
-      }
+      },
     ],
-    description: "",
-    saga: "",
-    fromEntity: { entityType: "manga", title: "Jujutsu Kaisen", secondEntityKey: "Gege Akutami" },
-    countryOrigin: "Japon",
+    description: '',
+    saga: '',
+    fromEntity: {
+      entityType: 'manga',
+      title: 'Jujutsu Kaisen',
+      secondEntityKey: 'Gege Akutami',
+    },
+    countryOrigin: 'Japon',
   },
   {
     title: "JoJo's Bizarre Adventure",
     director: 'Hirohiko Araki',
     actors: [
       {
-        name: "Inconnu",
-      }
+        name: 'Inconnu',
+      },
     ],
     coverUrl:
       "/series_pictures/800px-JoJo's_Bizarre_Adventure_The_Animation_International_Poster.png",
-    releaseDate: "2012-10-06",
-    endDate: "",
+    releaseDate: '2012-10-06',
+    endDate: '',
     genre: ['Animation', 'Action', 'Adventure'],
     seasonsData: [
       {
@@ -1425,24 +1497,28 @@ export const baseSeriesAnimees: BaseSerie[] = [
         seasonNumber: 3,
         nbEpisodes: 5,
         totalLength: 100,
-      }
+      },
     ],
-    description: "",
-    saga: "",
-    fromEntity: { entityType: "manga", title: "JoJo's Bizarre Adventure", secondEntityKey: "Hirohiko Araki" },
-    countryOrigin: "Japon",
+    description: '',
+    saga: '',
+    fromEntity: {
+      entityType: 'manga',
+      title: "JoJo's Bizarre Adventure",
+      secondEntityKey: 'Hirohiko Araki',
+    },
+    countryOrigin: 'Japon',
   },
   {
     title: 'Demon Slayer',
     director: 'Koyoharu Gotouge',
     actors: [
       {
-        name: "Inconnu",
-      }
+        name: 'Inconnu',
+      },
     ],
-    coverUrl: "/series_pictures/0198270.jpg",
-    releaseDate: "2019-04-06",
-    endDate: "",
+    coverUrl: '/series_pictures/0198270.jpg',
+    releaseDate: '2019-04-06',
+    endDate: '',
     genre: ['Animation', 'Action', 'Adventure'],
     seasonsData: [
       {
@@ -1464,72 +1540,84 @@ export const baseSeriesAnimees: BaseSerie[] = [
         seasonNumber: 4,
         nbEpisodes: 8,
         totalLength: 160,
-      }
+      },
     ],
-    description: "",
-    saga: "",
-    fromEntity: { entityType: "manga", title: "Demon Slayer", secondEntityKey: "Koyoharu Gotouge" },
-    countryOrigin: "Japon",
+    description: '',
+    saga: '',
+    fromEntity: {
+      entityType: 'manga',
+      title: 'Demon Slayer',
+      secondEntityKey: 'Koyoharu Gotouge',
+    },
+    countryOrigin: 'Japon',
   },
   {
     title: 'Spy x Family',
     director: 'Tatsuya Endo',
     actors: [
       {
-        name: "Inconnu",
-      }
+        name: 'Inconnu',
+      },
     ],
-    coverUrl: "/series_pictures/0321052.webp",
-    releaseDate: "2022-04-09",
-    endDate: "",
+    coverUrl: '/series_pictures/0321052.webp',
+    releaseDate: '2022-04-09',
+    endDate: '',
     genre: ['Animation', 'Action', 'Comedy'],
     seasonsData: [
       {
         seasonNumber: 1,
         nbEpisodes: 37,
         totalLength: 740,
-      }
+      },
     ],
-    description: "",
-    saga: "",
-    fromEntity: { entityType: "manga", title: "Spy x Family", secondEntityKey: "Tatsuya Endo" },
-    countryOrigin: "Japon",
+    description: '',
+    saga: '',
+    fromEntity: {
+      entityType: 'manga',
+      title: 'Spy x Family',
+      secondEntityKey: 'Tatsuya Endo',
+    },
+    countryOrigin: 'Japon',
   },
   {
     title: 'Chainsaw Man',
     director: 'Tatsuki Fujimoto',
     actors: [
       {
-        name: "Inconnu",
-      }
+        name: 'Inconnu',
+      },
     ],
-    coverUrl: "/series_pictures/1492791.webp",
-    releaseDate: "2022-10-12",
-    endDate: "",
+    coverUrl: '/series_pictures/1492791.webp',
+    releaseDate: '2022-10-12',
+    endDate: '',
     genre: ['Animation', 'Action', 'Horror'],
     seasonsData: [
       {
         seasonNumber: 1,
         nbEpisodes: 12,
         totalLength: 240,
-      }
+      },
     ],
-    description: "",
-    saga: "",
-    fromEntity: { entityType: "manga", title: "Chainsaw Man", secondEntityKey: "Tatsuki Fujimoto" },
-    countryOrigin: "Japon",
+    description: '',
+    saga: '',
+    fromEntity: {
+      entityType: 'manga',
+      title: 'Chainsaw Man',
+      secondEntityKey: 'Tatsuki Fujimoto',
+    },
+    countryOrigin: 'Japon',
   },
   {
     title: 'Ken le Survivant',
     director: 'Buronson',
     actors: [
       {
-        name: "Inconnu",
-      }
+        name: 'Inconnu',
+      },
     ],
-    coverUrl: "/series_pictures/ken_le_survivant.jpg",
-    releaseDate: "1984-10-11",
-    endDate: "1988-03-18",
+    coverUrl: '/series_pictures/ken_le_survivant.jpg',
+    releaseDate: '1984-10-11',
+    endDate: '1988-03-18',
     genre: ['Animation', 'Action', 'Adventure'],
     seasonsData: [
       {
@@ -1566,25 +1654,29 @@ export const baseSeriesAnimees: BaseSerie[] = [
         seasonNumber: 7,
         nbEpisodes: 4,
         totalLength: 80,
-      }
+      },
     ],
-    description: "",
-    saga: "",
-    fromEntity: { entityType: "manga", title: "Ken le Survivant", secondEntityKey: "Yoshihiro Togashi" },
-    countryOrigin: "Japon",
+    description: '',
+    saga: '',
+    fromEntity: {
+      entityType: 'manga',
+      title: 'Ken le Survivant',
+      secondEntityKey: 'Yoshihiro Togashi',
+    },
+    countryOrigin: 'Japon',
   },
   {
     title: 'Les Chevaliers du Zodiaque',
     director: 'Masami Kurumada',
     actors: [
       {
-        name: "Inconnu",
-      }
+        name: 'Inconnu',
+      },
     ],
     coverUrl:
-      "/series_pictures/Saint-Seiya-Chevalier-du-Zodiaque-anime-visuel_large.webp",
-    releaseDate: "1986-10-11",
-    endDate: "1989-04-01",
+      '/series_pictures/Saint-Seiya-Chevalier-du-Zodiaque-anime-visuel_large.webp',
+    releaseDate: '1986-10-11',
+    endDate: '1989-04-01',
     genre: ['Animation', 'Action', 'Adventure'],
     seasonsData: [
       {
@@ -1601,12 +1693,16 @@ export const baseSeriesAnimees: BaseSerie[] = [
         seasonNumber: 3,
         nbEpisodes: 38,
         totalLength: 760,
-      }
+      },
     ],
-    description: "",
-    saga: "",
-    fromEntity: { entityType: "manga", title: "Saint Seiya", secondEntityKey: "Masami Kurumada" },
-    countryOrigin: "Japon",
+    description: '',
+    saga: '',
+    fromEntity: {
+      entityType: 'manga',
+      title: 'Saint Seiya',
+      secondEntityKey: 'Masami Kurumada',
+    },
+    countryOrigin: 'Japon',
   },
   {
     title: "Les Mystérieuses Cités d'Or",
@@ -1681,24 +1777,28 @@ export const baseSeriesAnimees: BaseSerie[] = [
     director: 'Natsu Hyuuga',
     actors: [
       {
-        name: "Inconnu",
-      }
+        name: 'Inconnu',
+      },
     ],
-    coverUrl: "/series_pictures/Carnets_de_Apothicaire_anime.webp",
-    releaseDate: "2023-10-22",
-    endDate: "",
+    coverUrl: '/series_pictures/Carnets_de_Apothicaire_anime.webp',
+    releaseDate: '2023-10-22',
+    endDate: '',
     genre: ['Animation', 'Drama', 'Mystery'],
     seasonsData: [
       {
         seasonNumber: 1,
         nbEpisodes: 24,
         totalLength: 480,
-      }
+      },
     ],
-    description: "",
-    saga: "",
-    fromEntity: { entityType: "manga", title: "Les Carnets de l'Apothicaire", secondEntityKey: "Natsu Hyūga, Nekokurage" },
-    countryOrigin: "Japon",
+    description: '',
+    saga: '',
+    fromEntity: {
+      entityType: 'manga',
+      title: "Les Carnets de l'Apothicaire",
+      secondEntityKey: 'Natsu Hyūga, Nekokurage',
+    },
+    countryOrigin: 'Japon',
   },
   {
     title: 'Code Lyoko',
@@ -2300,12 +2400,12 @@ export const baseSeriesAnimees: BaseSerie[] = [
     director: 'Satoshi Tajiri',
     actors: [
       {
-        name: "Inconnu",
-      }
+        name: 'Inconnu',
+      },
     ],
-    coverUrl: "/series_pictures/pokemon.jpg",
-    releaseDate: "1997-04-01",
-    endDate: "",
+    coverUrl: '/series_pictures/pokemon.jpg',
+    releaseDate: '1997-04-01',
+    endDate: '',
     genre: ['Animation', 'Adventure', 'Fantasy'],
     seasonsData: [
       {
@@ -2427,12 +2527,16 @@ export const baseSeriesAnimees: BaseSerie[] = [
         seasonNumber: 24,
         nbEpisodes: 50,
         totalLength: 1000,
-      }
+      },
     ],
-    description: "",
-    saga: "",
-    fromEntity: { entityType: "game", title: "Pokémon Bleu", secondEntityKey: "Game Freak" },
-    countryOrigin: "Japon",
+    description: '',
+    saga: '',
+    fromEntity: {
+      entityType: 'game',
+      title: 'Pokémon Bleu',
+      secondEntityKey: 'Game Freak',
+    },
+    countryOrigin: 'Japon',
   },
   {
     title: "L'école des champions",
@@ -2546,12 +2650,12 @@ export const baseSeriesAnimees: BaseSerie[] = [
     director: 'Kenji Kodama',
     actors: [
       {
-        name: "Inconnu",
-      }
+        name: 'Inconnu',
+      },
     ],
-    coverUrl: "/series_pictures/nicky_larson.webp",
-    releaseDate: "1987-04-06",
-    endDate: "1991-10-10",
+    coverUrl: '/series_pictures/nicky_larson.webp',
+    releaseDate: '1987-04-06',
+    endDate: '1991-10-10',
     genre: ['Animation', 'Action', 'Comedy'],
     seasonsData: [
       {
@@ -2573,24 +2677,28 @@ export const baseSeriesAnimees: BaseSerie[] = [
         seasonNumber: 4,
         nbEpisodes: 13,
         totalLength: 260,
-      }
+      },
     ],
-    description: "",
-    saga: "",
-    fromEntity: { entityType: "manga", title: "City Hunter", secondEntityKey: "Tsukasa Hōjō" },
-    countryOrigin: "Japon",
+    description: '',
+    saga: '',
+    fromEntity: {
+      entityType: 'manga',
+      title: 'City Hunter',
+      secondEntityKey: 'Tsukasa Hōjō',
+    },
+    countryOrigin: 'Japon',
   },
   {
     title: 'Gintama',
     director: 'Shinji Takamatsu',
     actors: [
       {
-        name: "Inconnu",
-      }
+        name: 'Inconnu',
+      },
     ],
-    coverUrl: "/series_pictures/4503509.jpg",
-    releaseDate: "2006-04-04",
-    endDate: "2018-10-08",
+    coverUrl: '/series_pictures/4503509.jpg',
+    releaseDate: '2006-04-04',
+    endDate: '2018-10-08',
     genre: ['Animation', 'Action', 'Comedy'],
     seasonsData: [
       {
@@ -2642,24 +2750,28 @@ export const baseSeriesAnimees: BaseSerie[] = [
         seasonNumber: 10,
         nbEpisodes: 28,
         totalLength: 560,
-      }
+      },
     ],
-    description: "",
-    saga: "",
-    fromEntity: { entityType: "manga", title: "Gintama", secondEntityKey: "Hideaki Sorachi" },
-    countryOrigin: "Japon",
+    description: '',
+    saga: '',
+    fromEntity: {
+      entityType: 'manga',
+      title: 'Gintama',
+      secondEntityKey: 'Hideaki Sorachi',
+    },
+    countryOrigin: 'Japon',
   },
   {
     title: 'Yu-Gi-Oh!',
     director: 'Kunihisa Sugishima',
     actors: [
       {
-        name: "Inconnu",
-      }
+        name: 'Inconnu',
+      },
     ],
-    coverUrl: "/series_pictures/2512267.webp",
-    releaseDate: "2000-04-18",
-    endDate: "2004-09-29",
+    coverUrl: '/series_pictures/2512267.webp',
+    releaseDate: '2000-04-18',
+    endDate: '2004-09-29',
     genre: ['Animation', 'Action', 'Adventure'],
     seasonsData: [
       {
@@ -2701,42 +2813,228 @@ export const baseSeriesAnimees: BaseSerie[] = [
         seasonNumber: 8,
         nbEpisodes: 4,
         totalLength: 80,
-      }
+      },
     ],
-    description: "",
-    saga: "",
-    fromEntity: { entityType: "manga", title: "Yu-Gi-Oh!", secondEntityKey: "Kazuki Takahashi" },
-    countryOrigin: "Japon",
+    description: '',
+    saga: 'Yu-Gi-Oh!',
+    fromEntity: {
+      entityType: 'manga',
+      title: 'Yu-Gi-Oh!',
+      secondEntityKey: 'Kazuki Takahashi',
+    },
+    countryOrigin: 'Japon',
+  },
+  {
+    title: 'Yu-Gi-Oh! Capsule Monsters',
+    director: 'Kunihisa Sugishima',
+    actors: [{ name: 'Inconnu' }],
+    coverUrl:
+      'https://media.senscritique.com/media/000018904331/0/yu_gi_oh_capsule_monsters.jpg',
+    releaseDate: '2006-09-13',
+    endDate: '2006-11-01',
+    genre: ['Animation', 'Action', 'Adventure'],
+    seasonsData: [{ seasonNumber: 1, nbEpisodes: 12, totalLength: 288 }],
+    description: '',
+    saga: 'Yu-Gi-Oh!',
+    fromEntity: {
+      entityType: 'manga',
+      title: 'Yu-Gi-Oh!',
+      secondEntityKey: 'Kazuki Takahashi',
+    },
+    countryOrigin: 'Japon',
+  },
+  {
+    title: 'Yu-Gi-Oh! GX',
+    director: 'Hatsuki Tsuji',
+    actors: [{ name: 'Inconnu' }],
+    coverUrl:
+      'https://m.media-amazon.com/images/M/MV5BNzc1Y2JhY2EtMWZjZS00MmNhLWFlYTktMGM5NGYwNmIyYmUzXkEyXkFqcGc@._V1_.jpg',
+    releaseDate: '2004-10-06',
+    endDate: '2008-03-26',
+    genre: ['Animation', 'Action', 'Adventure'],
+    seasonsData: [
+      { seasonNumber: 1, nbEpisodes: 52, totalLength: 1248 },
+      { seasonNumber: 2, nbEpisodes: 52, totalLength: 1248 },
+      { seasonNumber: 3, nbEpisodes: 52, totalLength: 1248 },
+      { seasonNumber: 4, nbEpisodes: 24, totalLength: 576 },
+    ],
+    description: '',
+    saga: 'Yu-Gi-Oh!',
+    fromEntity: {
+      entityType: 'manga',
+      title: 'Yu-Gi-Oh!',
+      secondEntityKey: 'Kazuki Takahashi',
+    },
+    countryOrigin: 'Japon',
+  },
+  {
+    title: "Yu-Gi-Oh! 5D's",
+    director: 'Katsumi Ono',
+    actors: [{ name: 'Inconnu' }],
+    coverUrl:
+      'https://m.media-amazon.com/images/M/MV5BNDk2NTU1YzctZDBmMy00MDMzLTlmOTctOWY1ZGVjMzg2N2JiXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg',
+    releaseDate: '2008-04-02',
+    endDate: '2011-03-30',
+    genre: ['Animation', 'Action', 'Adventure'],
+    seasonsData: [
+      { seasonNumber: 1, nbEpisodes: 26, totalLength: 624 },
+      { seasonNumber: 2, nbEpisodes: 34, totalLength: 816 },
+      { seasonNumber: 3, nbEpisodes: 24, totalLength: 576 },
+      { seasonNumber: 4, nbEpisodes: 24, totalLength: 576 },
+      { seasonNumber: 5, nbEpisodes: 46, totalLength: 1104 },
+    ],
+    description: '',
+    saga: 'Yu-Gi-Oh!',
+    fromEntity: {
+      entityType: 'manga',
+      title: 'Yu-Gi-Oh!',
+      secondEntityKey: 'Kazuki Takahashi',
+    },
+    countryOrigin: 'Japon',
+  },
+  {
+    title: 'Yu-Gi-Oh! Zexal',
+    director: 'Satoshi Kuwabara',
+    actors: [{ name: 'Inconnu' }],
+    coverUrl:
+      'https://www.nautiljon.com/images/anime/00/88/yu-gi-oh_zexal_2088.webp',
+    releaseDate: '2011-04-11',
+    endDate: '2014-03-23',
+    genre: ['Animation', 'Action', 'Adventure'],
+    seasonsData: [
+      { seasonNumber: 1, nbEpisodes: 73, totalLength: 1752 },
+      { seasonNumber: 2, nbEpisodes: 73, totalLength: 1752 },
+    ],
+    description: '',
+    saga: 'Yu-Gi-Oh!',
+    fromEntity: {
+      entityType: 'manga',
+      title: 'Yu-Gi-Oh!',
+      secondEntityKey: 'Kazuki Takahashi',
+    },
+    countryOrigin: 'Japon',
+  },
+  {
+    title: 'Yu-Gi-Oh! Arc-V',
+    director: 'Katsumi Ono',
+    actors: [{ name: 'Inconnu' }],
+    coverUrl:
+      'https://m.media-amazon.com/images/M/MV5BZjEwZWVhOTAtN2NmMy00YjUxLTgwMDMtNWQ5ZWY3MDFjM2YxXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg',
+    releaseDate: '2014-04-06',
+    endDate: '2017-03-26',
+    genre: ['Animation', 'Action', 'Adventure'],
+    seasonsData: [
+      { seasonNumber: 1, nbEpisodes: 52, totalLength: 1248 },
+      { seasonNumber: 2, nbEpisodes: 49, totalLength: 1176 },
+      { seasonNumber: 3, nbEpisodes: 47, totalLength: 1128 },
+    ],
+    description: '',
+    saga: 'Yu-Gi-Oh!',
+    fromEntity: {
+      entityType: 'manga',
+      title: 'Yu-Gi-Oh!',
+      secondEntityKey: 'Kazuki Takahashi',
+    },
+    countryOrigin: 'Japon',
+  },
+  {
+    title: 'Yu-Gi-Oh! VRAINS',
+    director: 'Masahiro Hosoda',
+    actors: [{ name: 'Inconnu' }],
+    coverUrl: 'https://www.myutaku.com/media/anime/poster/327245.jpg',
+    releaseDate: '2017-05-10',
+    endDate: '2019-09-25',
+    genre: ['Animation', 'Action', 'Adventure'],
+    seasonsData: [
+      { seasonNumber: 1, nbEpisodes: 46, totalLength: 1104 },
+      { seasonNumber: 2, nbEpisodes: 43, totalLength: 1032 },
+      { seasonNumber: 3, nbEpisodes: 31, totalLength: 744 },
+    ],
+    description: '',
+    saga: 'Yu-Gi-Oh!',
+    fromEntity: {
+      entityType: 'manga',
+      title: 'Yu-Gi-Oh!',
+      secondEntityKey: 'Kazuki Takahashi',
+    },
+    countryOrigin: 'Japon',
+  },
+  {
+    title: 'Yu-Gi-Oh! Sevens',
+    director: 'Nobuhiro Kondō',
+    actors: [{ name: 'Inconnu' }],
+    coverUrl: 'https://i.ebayimg.com/images/g/VZcAAOSwm8Fi5P6X/s-l1200.jpg',
+    releaseDate: '2020-04-04',
+    endDate: '2022-03-27',
+    genre: ['Animation', 'Action', 'Adventure'],
+    seasonsData: [
+      { seasonNumber: 1, nbEpisodes: 69, totalLength: 1656 },
+      { seasonNumber: 2, nbEpisodes: 23, totalLength: 552 },
+    ],
+    description: '',
+    saga: 'Yu-Gi-Oh!',
+    fromEntity: {
+      entityType: 'manga',
+      title: 'Yu-Gi-Oh!',
+      secondEntityKey: 'Kazuki Takahashi',
+    },
+    countryOrigin: 'Japon',
+  },
+  {
+    title: 'Yu-Gi-Oh! Go Rush!!',
+    director: 'Naoto Hashimoto',
+    actors: [{ name: 'Inconnu' }],
+    coverUrl:
+      'https://www.manga-news.com/public/images/dvd/Yu-Gi-Oh-Go-Rush-anime-visual-2.webp',
+    releaseDate: '2022-04-03',
+    endDate: '2025-03-28',
+    genre: ['Animation', 'Action', 'Adventure'],
+    seasonsData: [
+      { seasonNumber: 1, nbEpisodes: 51, totalLength: 1224 },
+      { seasonNumber: 2, nbEpisodes: 51, totalLength: 1224 },
+    ],
+    description: '',
+    saga: 'Yu-Gi-Oh!',
+    fromEntity: {
+      entityType: 'manga',
+      title: 'Yu-Gi-Oh!',
+      secondEntityKey: 'Kazuki Takahashi',
+    },
+    countryOrigin: 'Japon',
   },
   {
     title: 'Death Note',
     director: 'Tetsurō Araki',
     actors: [
       {
-        name: "Mamoru Miyano",
+        name: 'Mamoru Miyano',
       },
       {
-        name: "Brad Swaile",
+        name: 'Brad Swaile',
       },
       {
-        name: "Vincent Tong",
-      }
+        name: 'Vincent Tong',
+      },
     ],
-    coverUrl: "/series_pictures/1-M480x680.png",
-    releaseDate: "2006-10-04",
-    endDate: "2007-06-26",
+    coverUrl: '/series_pictures/1-M480x680.png',
+    releaseDate: '2006-10-04',
+    endDate: '2007-06-26',
     genre: ['Animation', 'Crime', 'Drama'],
     seasonsData: [
       {
         seasonNumber: 1,
         nbEpisodes: 37,
         totalLength: 1110,
-      }
+      },
     ],
-    description: "",
-    saga: "",
-    fromEntity: { entityType: "manga", title: "Death Note", secondEntityKey: "Takeshi Obata" },
-    countryOrigin: "Japon",
+    description: '',
+    saga: '',
+    fromEntity: {
+      entityType: 'manga',
+      title: 'Death Note',
+      secondEntityKey: 'Takeshi Obata',
+    },
+    countryOrigin: 'Japon',
   },
   {
     title: 'Assassination Classroom',
@@ -2782,30 +3080,34 @@ export const baseSeriesAnimees: BaseSerie[] = [
     director: 'Takuya Igarashi',
     actors: [
       {
-        name: "Chiaki Omigawa",
+        name: 'Chiaki Omigawa',
       },
       {
-        name: "Kôki Uchiyama",
+        name: 'Kôki Uchiyama',
       },
       {
-        name: "Yumiko Kobayashi",
-      }
+        name: 'Yumiko Kobayashi',
+      },
     ],
-    coverUrl: "/series_pictures/soul-eater.jpg",
-    releaseDate: "2008-04-07",
-    endDate: "2009-03-30",
+    coverUrl: '/series_pictures/soul-eater.jpg',
+    releaseDate: '2008-04-07',
+    endDate: '2009-03-30',
     genre: ['Anime'],
     seasonsData: [
       {
         seasonNumber: 1,
         nbEpisodes: 51,
         totalLength: 1020,
-      }
+      },
     ],
-    description: "",
-    saga: "",
-    fromEntity: { entityType: "manga", title: "Soul Eater", secondEntityKey: "Atsushi Ōkubo" },
-    countryOrigin: "Japon",
+    description: '',
+    saga: '',
+    fromEntity: {
+      entityType: 'manga',
+      title: 'Soul Eater',
+      secondEntityKey: 'Atsushi Ōkubo',
+    },
+    countryOrigin: 'Japon',
   },
 
   {
@@ -2813,18 +3115,18 @@ export const baseSeriesAnimees: BaseSerie[] = [
     director: 'Seiji Mizushima',
     actors: [
       {
-        name: "Romi Park",
+        name: 'Romi Park',
       },
       {
-        name: "Rie Kugimiya",
+        name: 'Rie Kugimiya',
       },
       {
-        name: "Megumi Toyoguchi",
-      }
+        name: 'Megumi Toyoguchi',
+      },
     ],
-    coverUrl: "/series_pictures/full-metal-alchemist.jpg",
-    releaseDate: "2003-10-04",
-    endDate: "2004-10-02",
+    coverUrl: '/series_pictures/full-metal-alchemist.jpg',
+    releaseDate: '2003-10-04',
+    endDate: '2004-10-02',
     genre: ['Anime'],
     seasonsData: [
       {
@@ -2836,12 +3138,16 @@ export const baseSeriesAnimees: BaseSerie[] = [
         seasonNumber: 2,
         nbEpisodes: 5,
         totalLength: 100,
-      }
+      },
     ],
-    description: "",
-    saga: "",
-    fromEntity: { entityType: "manga", title: "Fullmetal Alchemist", secondEntityKey: "Hiromu Arakawa" },
-    countryOrigin: "Japon",
+    description: '',
+    saga: '',
+    fromEntity: {
+      entityType: 'manga',
+      title: 'Fullmetal Alchemist',
+      secondEntityKey: 'Hiromu Arakawa',
+    },
+    countryOrigin: 'Japon',
   },
 
   {
@@ -2849,18 +3155,18 @@ export const baseSeriesAnimees: BaseSerie[] = [
     director: 'Yasuhiro Irie',
     actors: [
       {
-        name: "Romi Park",
+        name: 'Romi Park',
       },
       {
-        name: "Rie Kugimiya",
+        name: 'Rie Kugimiya',
       },
       {
         name: "Shin'ichirô Miki",
-      }
+      },
     ],
-    coverUrl: "/series_pictures/2364027.webp",
-    releaseDate: "2009-04-05",
-    endDate: "2010-07-04",
+    coverUrl: '/series_pictures/2364027.webp',
+    releaseDate: '2009-04-05',
+    endDate: '2010-07-04',
     genre: ['Anime'],
     seasonsData: [
       {
@@ -2872,12 +3178,16 @@ export const baseSeriesAnimees: BaseSerie[] = [
         seasonNumber: 2,
         nbEpisodes: 4,
         totalLength: 80,
-      }
+      },
     ],
-    description: "",
-    saga: "",
-    fromEntity: { entityType: "manga", title: "Fullmetal Alchemist", secondEntityKey: "Hiromu Arakawa" },
-    countryOrigin: "Japon",
+    description: '',
+    saga: '',
+    fromEntity: {
+      entityType: 'manga',
+      title: 'Fullmetal Alchemist',
+      secondEntityKey: 'Hiromu Arakawa',
+    },
+    countryOrigin: 'Japon',
   },
 
   {
@@ -2885,18 +3195,18 @@ export const baseSeriesAnimees: BaseSerie[] = [
     director: 'Masayoshi Nishida',
     actors: [
       {
-        name: "Miyu Irino",
+        name: 'Miyu Irino',
       },
       {
-        name: "Aya Hirano",
+        name: 'Aya Hirano',
       },
       {
-        name: "Atsushi Tamura",
-      }
+        name: 'Atsushi Tamura',
+      },
     ],
-    coverUrl: "/series_pictures/eyeshield-21.jpg",
-    releaseDate: "2005-04-06",
-    endDate: "2008-03-19",
+    coverUrl: '/series_pictures/eyeshield-21.jpg',
+    releaseDate: '2005-04-06',
+    endDate: '2008-03-19',
     genre: ['Anime'],
     seasonsData: [
       {
@@ -2913,30 +3223,34 @@ export const baseSeriesAnimees: BaseSerie[] = [
         seasonNumber: 3,
         nbEpisodes: 46,
         totalLength: 1095,
-      }
+      },
     ],
-    description: "",
-    saga: "",
-    fromEntity: { entityType: "manga", title: "Eyeshield 21", secondEntityKey: "Riichirō Inagaki" },
-    countryOrigin: "Japon",
+    description: '',
+    saga: '',
+    fromEntity: {
+      entityType: 'manga',
+      title: 'Eyeshield 21',
+      secondEntityKey: 'Riichirō Inagaki',
+    },
+    countryOrigin: 'Japon',
   },
   {
     title: "L'Attaque des Titans",
     director: 'Tetsurô Araki',
     actors: [
       {
-        name: "Yûki Kaji",
+        name: 'Yûki Kaji',
       },
       {
-        name: "Yui Ishikawa",
+        name: 'Yui Ishikawa',
       },
       {
-        name: "Marina Inoue",
-      }
+        name: 'Marina Inoue',
+      },
     ],
-    coverUrl: "/series_pictures/attaque-des-titans.jpg",
-    releaseDate: "2013-04-07",
-    endDate: "2023-11-04",
+    coverUrl: '/series_pictures/attaque-des-titans.jpg',
+    releaseDate: '2013-04-07',
+    endDate: '2023-11-04',
     genre: ['Anime'],
     seasonsData: [
       {
@@ -2958,30 +3272,34 @@ export const baseSeriesAnimees: BaseSerie[] = [
         seasonNumber: 4,
         nbEpisodes: 30,
         totalLength: 817,
-      }
+      },
     ],
-    description: "",
-    saga: "",
-    fromEntity: { entityType: "manga", title: "L'attaque des titans", secondEntityKey: "Isayama Hajime" },
-    countryOrigin: "Japon",
+    description: '',
+    saga: '',
+    fromEntity: {
+      entityType: 'manga',
+      title: "L'attaque des titans",
+      secondEntityKey: 'Isayama Hajime',
+    },
+    countryOrigin: 'Japon',
   },
   {
     title: 'One Punch Man',
     director: 'Shingo Natsume, Chikara Sakurai',
     actors: [
       {
-        name: "Makoto Furukawa",
+        name: 'Makoto Furukawa',
       },
       {
-        name: "Kaito Ishikawa",
+        name: 'Kaito Ishikawa',
       },
       {
-        name: "Hikaru Midorikawa",
-      }
+        name: 'Hikaru Midorikawa',
+      },
     ],
-    coverUrl: "/series_pictures/one-punch-man.jpg",
-    releaseDate: "2015-10-05",
-    endDate: "2025-12-28",
+    coverUrl: '/series_pictures/one-punch-man.jpg',
+    releaseDate: '2015-10-05',
+    endDate: '2025-12-28',
     genre: ['Anime'],
     seasonsData: [
       {
@@ -2998,12 +3316,16 @@ export const baseSeriesAnimees: BaseSerie[] = [
         seasonNumber: 3,
         nbEpisodes: 12,
         totalLength: 288,
-      }
+      },
     ],
-    description: "",
-    saga: "",
-    fromEntity: { entityType: "manga", title: "OnePunch-Man", secondEntityKey: "Yûsuke Murata" },
-    countryOrigin: "Japon",
+    description: '',
+    saga: '',
+    fromEntity: {
+      entityType: 'manga',
+      title: 'OnePunch-Man',
+      secondEntityKey: 'Yûsuke Murata',
+    },
+    countryOrigin: 'Japon',
   },
   {
     title: 'Rick and Morty',
@@ -3306,30 +3628,34 @@ export const baseSeriesAnimees: BaseSerie[] = [
     director: 'Alain Chabat',
     actors: [
       {
-        name: "Alain Chabat",
+        name: 'Alain Chabat',
       },
       {
-        name: "Gilles Lellouche",
+        name: 'Gilles Lellouche',
       },
       {
-        name: "Laurent Lafitte",
-      }
+        name: 'Laurent Lafitte',
+      },
     ],
-    coverUrl: "/series_pictures/33e1cd818fa66a13f979511d517eea48.webp",
-    releaseDate: "2025-04-30",
-    endDate: "2025-04-30",
+    coverUrl: '/series_pictures/33e1cd818fa66a13f979511d517eea48.webp',
+    releaseDate: '2025-04-30',
+    endDate: '2025-04-30',
     genre: ['Animation', 'Comedy', 'Adventure'],
     seasonsData: [
       {
         seasonNumber: 1,
         nbEpisodes: 5,
         totalLength: 150,
-      }
+      },
     ],
-    description: "",
-    saga: "",
-    fromEntity: { entityType: "bd", title: "Le Combat des chefs", secondEntityKey: "René Goscinny" },
-    countryOrigin: "France",
+    description: '',
+    saga: '',
+    fromEntity: {
+      entityType: 'bd',
+      title: 'Le Combat des chefs',
+      secondEntityKey: 'René Goscinny',
+    },
+    countryOrigin: 'France',
   },
   {
     title: 'Arcane',
@@ -3839,24 +4165,28 @@ export const baseSeriesAnimees: BaseSerie[] = [
     director: 'Inconnu',
     actors: [
       {
-        name: "Inconnu",
-      }
+        name: 'Inconnu',
+      },
     ],
-    coverUrl: "/series_pictures/1139915.webp",
-    releaseDate: "1999-01-01",
-    endDate: "",
+    coverUrl: '/series_pictures/1139915.webp',
+    releaseDate: '1999-01-01',
+    endDate: '',
     genre: ['Anime'],
     seasonsData: [
       {
         seasonNumber: 1,
         nbEpisodes: 43,
         totalLength: 1032,
-      }
+      },
     ],
-    description: "",
-    saga: "",
-    fromEntity: { entityType: "manga", title: "GTO", secondEntityKey: "Tōru Fujisawa" },
-    countryOrigin: "Japon",
+    description: '',
+    saga: '',
+    fromEntity: {
+      entityType: 'manga',
+      title: 'GTO',
+      secondEntityKey: 'Tōru Fujisawa',
+    },
+    countryOrigin: 'Japon',
   },
   {
     title: 'Psycho-Pass',
@@ -3960,12 +4290,12 @@ export const baseSeriesAnimees: BaseSerie[] = [
     director: 'Inconnu',
     actors: [
       {
-        name: "Inconnu",
-      }
+        name: 'Inconnu',
+      },
     ],
-    coverUrl: "/series_pictures/314681.webp",
-    releaseDate: "2014-01-01",
-    endDate: "",
+    coverUrl: '/series_pictures/314681.webp',
+    releaseDate: '2014-01-01',
+    endDate: '',
     genre: ['Anime'],
     seasonsData: [
       {
@@ -3987,24 +4317,28 @@ export const baseSeriesAnimees: BaseSerie[] = [
         seasonNumber: 4,
         nbEpisodes: 12,
         totalLength: 288,
-      }
+      },
     ],
-    description: "",
-    saga: "",
-    fromEntity: { entityType: "manga", title: "Tokyo Ghoul", secondEntityKey: "Sui Ishida" },
-    countryOrigin: "Japon",
+    description: '',
+    saga: '',
+    fromEntity: {
+      entityType: 'manga',
+      title: 'Tokyo Ghoul',
+      secondEntityKey: 'Sui Ishida',
+    },
+    countryOrigin: 'Japon',
   },
   {
     title: 'Fairy Tail',
     director: 'Inconnu',
     actors: [
       {
-        name: "Inconnu",
-      }
+        name: 'Inconnu',
+      },
     ],
-    coverUrl: "/series_pictures/fairy-tail.jpg",
-    releaseDate: "2009-01-01",
-    endDate: "",
+    coverUrl: '/series_pictures/fairy-tail.jpg',
+    releaseDate: '2009-01-01',
+    endDate: '',
     genre: ['Anime'],
     seasonsData: [
       {
@@ -4051,12 +4385,16 @@ export const baseSeriesAnimees: BaseSerie[] = [
         seasonNumber: 9,
         nbEpisodes: 51,
         totalLength: 1224,
-      }
+      },
     ],
-    description: "",
-    saga: "",
-    fromEntity: { entityType: "manga", title: "Fairy Tail", secondEntityKey: "Hiro Mashima" },
-    countryOrigin: "Japon",
+    description: '',
+    saga: '',
+    fromEntity: {
+      entityType: 'manga',
+      title: 'Fairy Tail',
+      secondEntityKey: 'Hiro Mashima',
+    },
+    countryOrigin: 'Japon',
   },
   {
     title: 'Fate/zero',
@@ -4168,8 +4506,7 @@ export const baseSeriesAnimees: BaseSerie[] = [
         name: 'Inconnu',
       },
     ],
-    coverUrl:
-      '/series_pictures/3db9861d64f4.jpg',
+    coverUrl: '/series_pictures/3db9861d64f4.jpg',
     releaseDate: '',
     endDate: '',
     genre: ['Anime'],
@@ -4448,12 +4785,12 @@ export const baseSeriesAnimees: BaseSerie[] = [
     director: 'Inconnu',
     actors: [
       {
-        name: "Inconnu",
-      }
+        name: 'Inconnu',
+      },
     ],
-    coverUrl: "/series_pictures/black_butler.webp",
-    releaseDate: "2008-01-01",
-    endDate: "",
+    coverUrl: '/series_pictures/black_butler.webp',
+    releaseDate: '2008-01-01',
+    endDate: '',
     genre: ['Anime'],
     seasonsData: [
       {
@@ -4475,12 +4812,16 @@ export const baseSeriesAnimees: BaseSerie[] = [
         seasonNumber: 4,
         nbEpisodes: 11,
         totalLength: 264,
-      }
+      },
     ],
-    description: "",
-    saga: "",
-    fromEntity: { entityType: "manga", title: "Black Butler", secondEntityKey: "Yana Toboso" },
-    countryOrigin: "Japon",
+    description: '',
+    saga: '',
+    fromEntity: {
+      entityType: 'manga',
+      title: 'Black Butler',
+      secondEntityKey: 'Yana Toboso',
+    },
+    countryOrigin: 'Japon',
   },
   {
     title: 'Violet Evergarden',
@@ -4564,12 +4905,12 @@ export const baseSeriesAnimees: BaseSerie[] = [
     director: 'Inconnu',
     actors: [
       {
-        name: "Inconnu",
-      }
+        name: 'Inconnu',
+      },
     ],
-    coverUrl: "/series_pictures/0625074.webp",
-    releaseDate: "",
-    endDate: "",
+    coverUrl: '/series_pictures/0625074.webp',
+    releaseDate: '',
+    endDate: '',
     genre: ['Anime'],
     seasonsData: [
       {
@@ -4586,12 +4927,16 @@ export const baseSeriesAnimees: BaseSerie[] = [
         seasonNumber: 3,
         nbEpisodes: 4,
         totalLength: 96,
-      }
+      },
     ],
-    description: "",
-    saga: "",
-    fromEntity: { entityType: "manga", title: "Puella Magi Madoka Magica", secondEntityKey: "Hanokage" },
-    countryOrigin: "Japon",
+    description: '',
+    saga: '',
+    fromEntity: {
+      entityType: 'manga',
+      title: 'Puella Magi Madoka Magica',
+      secondEntityKey: 'Hanokage',
+    },
+    countryOrigin: 'Japon',
   },
   {
     title: 'Gambling School',
@@ -4627,12 +4972,12 @@ export const baseSeriesAnimees: BaseSerie[] = [
     director: 'Inconnu',
     actors: [
       {
-        name: "Inconnu",
-      }
+        name: 'Inconnu',
+      },
     ],
-    coverUrl: "/series_pictures/3692966.webp",
-    releaseDate: "",
-    endDate: "",
+    coverUrl: '/series_pictures/3692966.webp',
+    releaseDate: '',
+    endDate: '',
     genre: ['Anime'],
     seasonsData: [
       {
@@ -4644,48 +4989,56 @@ export const baseSeriesAnimees: BaseSerie[] = [
         seasonNumber: 2,
         nbEpisodes: 13,
         totalLength: 312,
-      }
+      },
     ],
-    description: "",
-    saga: "",
-    fromEntity: { entityType: "manga", title: "Oshi no Ko", secondEntityKey: "Aka Akasaka, Mengo Yokoyari" },
-    countryOrigin: "Japon",
+    description: '',
+    saga: '',
+    fromEntity: {
+      entityType: 'manga',
+      title: 'Oshi no Ko',
+      secondEntityKey: 'Aka Akasaka, Mengo Yokoyari',
+    },
+    countryOrigin: 'Japon',
   },
   {
     title: 'Another',
     director: 'Inconnu',
     actors: [
       {
-        name: "Inconnu",
-      }
+        name: 'Inconnu',
+      },
     ],
-    coverUrl: "/series_pictures/5354652.webp",
-    releaseDate: "",
-    endDate: "",
+    coverUrl: '/series_pictures/5354652.webp',
+    releaseDate: '',
+    endDate: '',
     genre: ['Anime'],
     seasonsData: [
       {
         seasonNumber: 1,
         nbEpisodes: 12,
         totalLength: 288,
-      }
+      },
     ],
-    description: "",
-    saga: "",
-    fromEntity: { entityType: "manga", title: "Another", secondEntityKey: "Yukito Ayatsuji, Hiro Kiyohara" },
-    countryOrigin: "Japon",
+    description: '',
+    saga: '',
+    fromEntity: {
+      entityType: 'manga',
+      title: 'Another',
+      secondEntityKey: 'Yukito Ayatsuji, Hiro Kiyohara',
+    },
+    countryOrigin: 'Japon',
   },
   {
     title: 'Solo Leveling',
     director: 'Inconnu',
     actors: [
       {
-        name: "Inconnu",
-      }
+        name: 'Inconnu',
+      },
     ],
-    coverUrl: "/series_pictures/unnamed_3ham.jpg",
-    releaseDate: "",
-    endDate: "",
+    coverUrl: '/series_pictures/unnamed_3ham.jpg',
+    releaseDate: '',
+    endDate: '',
     genre: ['Anime'],
     seasonsData: [
       {
@@ -4697,24 +5050,28 @@ export const baseSeriesAnimees: BaseSerie[] = [
         seasonNumber: 2,
         nbEpisodes: 13,
         totalLength: 312,
-      }
+      },
     ],
-    description: "",
-    saga: "",
-    fromEntity: { entityType: "manwha", title: "Solo Leveling", secondEntityKey: "Jang Sung-Lak" },
-    countryOrigin: "Japon",
+    description: '',
+    saga: '',
+    fromEntity: {
+      entityType: 'manwha',
+      title: 'Solo Leveling',
+      secondEntityKey: 'Jang Sung-Lak',
+    },
+    countryOrigin: 'Japon',
   },
   {
     title: 'Tower of god',
     director: 'Inconnu',
     actors: [
       {
-        name: "Inconnu",
-      }
+        name: 'Inconnu',
+      },
     ],
-    coverUrl: "/series_pictures/Tower-of-God-Saison-3.webp",
-    releaseDate: "",
-    endDate: "",
+    coverUrl: '/series_pictures/Tower-of-God-Saison-3.webp',
+    releaseDate: '',
+    endDate: '',
     genre: ['Anime'],
     seasonsData: [
       {
@@ -4726,36 +5083,44 @@ export const baseSeriesAnimees: BaseSerie[] = [
         seasonNumber: 2,
         nbEpisodes: 26,
         totalLength: 624,
-      }
+      },
     ],
-    description: "",
-    saga: "",
-    fromEntity: { entityType: "manwha", title: "Tower Of God", secondEntityKey: "Slave In Utero" },
-    countryOrigin: "Japon",
+    description: '',
+    saga: '',
+    fromEntity: {
+      entityType: 'manwha',
+      title: 'Tower Of God',
+      secondEntityKey: 'Slave In Utero',
+    },
+    countryOrigin: 'Japon',
   },
   {
     title: 'Noblesse',
     director: 'Inconnu',
     actors: [
       {
-        name: "Inconnu",
-      }
+        name: 'Inconnu',
+      },
     ],
-    coverUrl: "/series_pictures/4014380.webp",
-    releaseDate: "",
-    endDate: "",
+    coverUrl: '/series_pictures/4014380.webp',
+    releaseDate: '',
+    endDate: '',
     genre: ['Anime'],
     seasonsData: [
       {
         seasonNumber: 1,
         nbEpisodes: 13,
         totalLength: 312,
-      }
+      },
     ],
-    description: "",
-    saga: "",
-    fromEntity: { entityType: "manwha", title: "Noblesse", secondEntityKey: "Son Jae-Ho" },
-    countryOrigin: "Japon",
+    description: '',
+    saga: '',
+    fromEntity: {
+      entityType: 'manwha',
+      title: 'Noblesse',
+      secondEntityKey: 'Son Jae-Ho',
+    },
+    countryOrigin: 'Japon',
   },
   {
     title: 'Beyblade',
@@ -4869,48 +5234,56 @@ export const baseSeriesAnimees: BaseSerie[] = [
     director: 'Inconnu',
     actors: [
       {
-        name: "Inconnu",
-      }
+        name: 'Inconnu',
+      },
     ],
-    coverUrl: "/series_pictures/0267204.webp",
-    releaseDate: "2020-01-01",
-    endDate: "",
+    coverUrl: '/series_pictures/0267204.webp',
+    releaseDate: '2020-01-01',
+    endDate: '',
     genre: ['Anime'],
     seasonsData: [
       {
         seasonNumber: 1,
         nbEpisodes: 11,
         totalLength: 264,
-      }
+      },
     ],
-    description: "",
-    saga: "",
-    fromEntity: { entityType: "manga", title: "Darwin's Game", secondEntityKey: "Flipf lops" },
-    countryOrigin: "Japon",
+    description: '',
+    saga: '',
+    fromEntity: {
+      entityType: 'manga',
+      title: "Darwin's Game",
+      secondEntityKey: 'Flipf lops',
+    },
+    countryOrigin: 'Japon',
   },
   {
     title: 'Toriko',
     director: 'Inconnu',
     actors: [
       {
-        name: "Inconnu",
-      }
+        name: 'Inconnu',
+      },
     ],
-    coverUrl: "/series_pictures/toriko-anime-fiche.webp",
-    releaseDate: "",
-    endDate: "",
+    coverUrl: '/series_pictures/toriko-anime-fiche.webp',
+    releaseDate: '',
+    endDate: '',
     genre: ['Anime'],
     seasonsData: [
       {
         seasonNumber: 1,
         nbEpisodes: 147,
         totalLength: 3528,
-      }
+      },
     ],
-    description: "",
-    saga: "",
-    fromEntity: { entityType: "manga", title: "Toriko", secondEntityKey: "Shimabukuro Mitsutoshi" },
-    countryOrigin: "Japon",
+    description: '',
+    saga: '',
+    fromEntity: {
+      entityType: 'manga',
+      title: 'Toriko',
+      secondEntityKey: 'Shimabukuro Mitsutoshi',
+    },
+    countryOrigin: 'Japon',
   },
   {
     title: 'Aggretsuko',
@@ -5161,24 +5534,28 @@ export const baseSeriesAnimees: BaseSerie[] = [
     director: 'Inconnu',
     actors: [
       {
-        name: "Inconnu",
-      }
+        name: 'Inconnu',
+      },
     ],
-    coverUrl: "/series_pictures/71gZdsOJYKL._AC_UF894,1000_QL80_.jpg",
-    releaseDate: "",
-    endDate: "",
+    coverUrl: '/series_pictures/71gZdsOJYKL._AC_UF894,1000_QL80_.jpg',
+    releaseDate: '',
+    endDate: '',
     genre: ['Anime'],
     seasonsData: [
       {
         seasonNumber: 1,
         nbEpisodes: 12,
         totalLength: 288,
-      }
+      },
     ],
-    description: "",
-    saga: "",
-    fromEntity: { entityType: "book", title: "Roméo et Juliette", secondEntityKey: "William Shakespeare" },
-    countryOrigin: "Japon",
+    description: '',
+    saga: '',
+    fromEntity: {
+      entityType: 'book',
+      title: 'Roméo et Juliette',
+      secondEntityKey: 'William Shakespeare',
+    },
+    countryOrigin: 'Japon',
   },
   {
     title: 'Jeanne et Serge',

@@ -2,7 +2,7 @@ import { BaseGame } from '../../../models/game-model';
 
 /**
  * Jeux issus d'adaptations (Dragon Ball, Star Wars, Batman, One Piece, Harry Potter, etc.) —
- * alimentent le Mix « œuvres de base » et les fromEntity.
+ * alimentent le Mix « Galaxie des Œuvres » et les fromEntity.
  * Données entièrement inlined (pas de helpers).
  */
 export const baseGamesAdaptations: BaseGame[] = [
@@ -356,8 +356,7 @@ export const baseGamesAdaptations: BaseGame[] = [
     title: 'Dragon Ball Z: Super Butōden 2',
     editor: 'Bandai',
     hero: 'Goku',
-    coverUrl:
-      '/games_pictures/e6fd335ad743.jpg',
+    coverUrl: '/games_pictures/e6fd335ad743.jpg',
     releaseDate: '1993-12-17',
     averageTimeToFinish: 0,
     averageTimeToHundredPercent: 0,
@@ -375,8 +374,7 @@ export const baseGamesAdaptations: BaseGame[] = [
     title: 'Dragon Ball Z: Super Butōden 3',
     editor: 'Bandai',
     hero: 'Goku',
-    coverUrl:
-      '/games_pictures/c2319ddfc7b8.jpg',
+    coverUrl: '/games_pictures/c2319ddfc7b8.jpg',
     releaseDate: '1994-06-29',
     averageTimeToFinish: 0,
     averageTimeToHundredPercent: 0,
@@ -484,8 +482,7 @@ export const baseGamesAdaptations: BaseGame[] = [
     title: 'Dragon Ball Z: Ultimate Battle 22',
     editor: 'Bandai',
     hero: 'Goku',
-    coverUrl:
-      '/games_pictures/0d2c50b706f9.jpg',
+    coverUrl: '/games_pictures/0d2c50b706f9.jpg',
     releaseDate: '1995-07-28',
     averageTimeToFinish: 0,
     averageTimeToHundredPercent: 0,
@@ -1468,8 +1465,7 @@ export const baseGamesAdaptations: BaseGame[] = [
     title: 'Star Wars: Battlefront',
     editor: 'EA DICE',
     hero: 'Soldat',
-    coverUrl:
-      '/games_pictures/d8f1ed098031.jpg',
+    coverUrl: '/games_pictures/d8f1ed098031.jpg',
     releaseDate: '2015-11-17',
     averageTimeToFinish: 0,
     averageTimeToHundredPercent: 0,
@@ -1487,8 +1483,7 @@ export const baseGamesAdaptations: BaseGame[] = [
     title: 'Star Wars: Squadrons',
     editor: 'Motive Studio',
     hero: 'Pilote',
-    coverUrl:
-      '/games_pictures/82b0b8b8d9e9.jpg',
+    coverUrl: '/games_pictures/82b0b8b8d9e9.jpg',
     releaseDate: '2020-10-02',
     averageTimeToFinish: 0,
     averageTimeToHundredPercent: 0,
@@ -1524,8 +1519,7 @@ export const baseGamesAdaptations: BaseGame[] = [
     title: 'LEGO Star Wars III: The Clone Wars',
     editor: 'LucasArts',
     hero: 'Anakin Skywalker',
-    coverUrl:
-      '/games_pictures/bef0f6b27438.jpg',
+    coverUrl: '/games_pictures/bef0f6b27438.jpg',
     releaseDate: '2011-03-22',
     averageTimeToFinish: 0,
     averageTimeToHundredPercent: 0,
@@ -1543,8 +1537,7 @@ export const baseGamesAdaptations: BaseGame[] = [
     title: 'LEGO Star Wars: The Skywalker Saga',
     editor: 'TT Games',
     hero: 'Luke Skywalker',
-    coverUrl:
-      '/games_pictures/8f95e5b28574.jpg',
+    coverUrl: '/games_pictures/8f95e5b28574.jpg',
     releaseDate: '2022-04-05',
     averageTimeToFinish: 0,
     averageTimeToHundredPercent: 0,
@@ -1562,8 +1555,7 @@ export const baseGamesAdaptations: BaseGame[] = [
     title: 'Star Wars: Republic Commando',
     editor: 'LucasArts',
     hero: 'RC-1138',
-    coverUrl:
-      '/games_pictures/75ed663b8ee4.jpg',
+    coverUrl: '/games_pictures/75ed663b8ee4.jpg',
     releaseDate: '2005-02-17',
     averageTimeToFinish: 0,
     averageTimeToHundredPercent: 0,
@@ -1581,8 +1573,7 @@ export const baseGamesAdaptations: BaseGame[] = [
     title: 'Star Wars: Knights of the Old Republic',
     editor: 'BioWare',
     hero: 'Revan',
-    coverUrl:
-      '/games_pictures/a448fa7ab36d.jpg',
+    coverUrl: '/games_pictures/a448fa7ab36d.jpg',
     releaseDate: '2003-07-15',
     averageTimeToFinish: 0,
     averageTimeToHundredPercent: 0,
@@ -1618,8 +1609,7 @@ export const baseGamesAdaptations: BaseGame[] = [
     title: 'Star Wars: The Old Republic',
     editor: 'BioWare',
     hero: 'Jedi',
-    coverUrl:
-      '/games_pictures/def4f4729c60.jpg',
+    coverUrl: '/games_pictures/def4f4729c60.jpg',
     releaseDate: '2011-12-20',
     averageTimeToFinish: 0,
     averageTimeToHundredPercent: 0,
@@ -1637,8 +1627,7 @@ export const baseGamesAdaptations: BaseGame[] = [
     title: 'Star Wars: Empire at War',
     editor: 'Petroglyph Games',
     hero: 'Commandant',
-    coverUrl:
-      '/games_pictures/1e6fac71a7d9.jpg',
+    coverUrl: '/games_pictures/1e6fac71a7d9.jpg',
     releaseDate: '2006-02-16',
     averageTimeToFinish: 0,
     averageTimeToHundredPercent: 0,
@@ -1674,8 +1663,7 @@ export const baseGamesAdaptations: BaseGame[] = [
     title: 'Star Wars: Dark Forces',
     editor: 'LucasArts',
     hero: 'Kyle Katarn',
-    coverUrl:
-      '/games_pictures/3336c26b8af1.jpg',
+    coverUrl: '/games_pictures/3336c26b8af1.jpg',
     releaseDate: '1995-02-28',
     averageTimeToFinish: 0,
     averageTimeToHundredPercent: 0,
@@ -1711,8 +1699,7 @@ export const baseGamesAdaptations: BaseGame[] = [
     title: 'Star Wars Jedi Knight II: Jedi Outcast',
     editor: 'Raven Software',
     hero: 'Kyle Katarn',
-    coverUrl:
-      '/games_pictures/312a9461ad7e.png',
+    coverUrl: '/games_pictures/312a9461ad7e.png',
     releaseDate: '2002-03-26',
     averageTimeToFinish: 0,
     averageTimeToHundredPercent: 0,
@@ -1730,8 +1717,7 @@ export const baseGamesAdaptations: BaseGame[] = [
     title: 'Star Wars Jedi Knight: Jedi Academy',
     editor: 'Raven Software',
     hero: 'Jaden Korr',
-    coverUrl:
-      '/games_pictures/37466a32c876.jpg',
+    coverUrl: '/games_pictures/37466a32c876.jpg',
     releaseDate: '2003-09-16',
     averageTimeToFinish: 0,
     averageTimeToHundredPercent: 0,
@@ -1749,8 +1735,7 @@ export const baseGamesAdaptations: BaseGame[] = [
     title: 'Star Wars Episode I: Racer',
     editor: 'LucasArts',
     hero: 'Anakin Skywalker',
-    coverUrl:
-      '/games_pictures/7fe9f5691426.jpg',
+    coverUrl: '/games_pictures/7fe9f5691426.jpg',
     releaseDate: '1999-05-18',
     averageTimeToFinish: 0,
     averageTimeToHundredPercent: 0,
@@ -1768,8 +1753,7 @@ export const baseGamesAdaptations: BaseGame[] = [
     title: 'Star Wars: Starfighter',
     editor: 'LucasArts',
     hero: 'Pilote',
-    coverUrl:
-      '/games_pictures/15c61b900a73.jpg',
+    coverUrl: '/games_pictures/15c61b900a73.jpg',
     releaseDate: '2001-02-19',
     averageTimeToFinish: 0,
     averageTimeToHundredPercent: 0,
@@ -1787,8 +1771,7 @@ export const baseGamesAdaptations: BaseGame[] = [
     title: 'Star Wars: Rogue Squadron',
     editor: 'Factor 5',
     hero: 'Luke Skywalker',
-    coverUrl:
-      '/games_pictures/512a2a255023.jpg',
+    coverUrl: '/games_pictures/512a2a255023.jpg',
     releaseDate: '1998-12-07',
     averageTimeToFinish: 0,
     averageTimeToHundredPercent: 0,
@@ -1806,8 +1789,7 @@ export const baseGamesAdaptations: BaseGame[] = [
     title: 'Star Wars Rogue Squadron II: Rogue Leader',
     editor: 'Factor 5',
     hero: 'Luke Skywalker',
-    coverUrl:
-      '/games_pictures/fff790781d48.jpg',
+    coverUrl: '/games_pictures/fff790781d48.jpg',
     releaseDate: '2001-11-09',
     averageTimeToFinish: 0,
     averageTimeToHundredPercent: 0,
@@ -1844,8 +1826,7 @@ export const baseGamesAdaptations: BaseGame[] = [
     title: 'Star Wars: Battlefront II',
     editor: 'Pandemic Studios',
     hero: 'Soldat',
-    coverUrl:
-      '/games_pictures/ccff132fae97.jpg',
+    coverUrl: '/games_pictures/ccff132fae97.jpg',
     releaseDate: '2005-10-31',
     averageTimeToFinish: 0,
     averageTimeToHundredPercent: 0,
@@ -1863,8 +1844,7 @@ export const baseGamesAdaptations: BaseGame[] = [
     title: 'Star Wars: Battlefront',
     editor: 'Pandemic Studios',
     hero: 'Soldat',
-    coverUrl:
-      '/games_pictures/15ad4a8b3824.png',
+    coverUrl: '/games_pictures/15ad4a8b3824.png',
     releaseDate: '2004-09-21',
     averageTimeToFinish: 0,
     averageTimeToHundredPercent: 0,
@@ -1937,8 +1917,7 @@ export const baseGamesAdaptations: BaseGame[] = [
     title: 'Star Wars Battlefront: Renegade Squadron',
     editor: 'Rebellion Developments',
     hero: 'Soldat',
-    coverUrl:
-      '/games_pictures/80df1cf1b404.jpg',
+    coverUrl: '/games_pictures/80df1cf1b404.jpg',
     releaseDate: '2007-10-09',
     averageTimeToFinish: 0,
     averageTimeToHundredPercent: 0,
@@ -1956,8 +1935,7 @@ export const baseGamesAdaptations: BaseGame[] = [
     title: 'Star Wars Battlefront: Elite Squadron',
     editor: 'Rebellion Developments',
     hero: 'Soldat',
-    coverUrl:
-      '/games_pictures/dd27eadd31ca.jpg',
+    coverUrl: '/games_pictures/dd27eadd31ca.jpg',
     releaseDate: '2009-11-03',
     averageTimeToFinish: 0,
     averageTimeToHundredPercent: 0,
@@ -1975,8 +1953,7 @@ export const baseGamesAdaptations: BaseGame[] = [
     title: 'Star Wars: Galaxy of Heroes',
     editor: 'Electronic Arts',
     hero: '',
-    coverUrl:
-      '/games_pictures/2b4e78668b5c.jpg',
+    coverUrl: '/games_pictures/2b4e78668b5c.jpg',
     releaseDate: '2015-11-24',
     averageTimeToFinish: 0,
     averageTimeToHundredPercent: 0,
@@ -1994,8 +1971,7 @@ export const baseGamesAdaptations: BaseGame[] = [
     title: 'Star Wars: Commander',
     editor: 'Disney Interactive',
     hero: 'Commandant',
-    coverUrl:
-      '/games_pictures/fa29d9965af3.jpg',
+    coverUrl: '/games_pictures/fa29d9965af3.jpg',
     releaseDate: '2014-08-21',
     averageTimeToFinish: 0,
     averageTimeToHundredPercent: 0,
@@ -2013,8 +1989,7 @@ export const baseGamesAdaptations: BaseGame[] = [
     title: 'Star Wars: Hunters',
     editor: 'Zynga',
     hero: 'Chasseur',
-    coverUrl:
-      '/games_pictures/e9e0e57e880b.jpg',
+    coverUrl: '/games_pictures/e9e0e57e880b.jpg',
     releaseDate: '2024-06-04',
     averageTimeToFinish: 0,
     averageTimeToHundredPercent: 0,
@@ -2032,8 +2007,7 @@ export const baseGamesAdaptations: BaseGame[] = [
     title: 'Star Wars Outlaws',
     editor: 'Ubisoft',
     hero: 'Kay Vess',
-    coverUrl:
-      '/games_pictures/314188cfb1eb.jpg',
+    coverUrl: '/games_pictures/314188cfb1eb.jpg',
     releaseDate: '2024-08-30',
     averageTimeToFinish: 0,
     averageTimeToHundredPercent: 0,
@@ -2051,8 +2025,7 @@ export const baseGamesAdaptations: BaseGame[] = [
     title: 'Star Wars: Tales from the Galaxy’s Edge',
     editor: 'ILMxLAB',
     hero: 'Contrebandier',
-    coverUrl:
-      '/games_pictures/e29f93fe147b.png',
+    coverUrl: '/games_pictures/e29f93fe147b.png',
     releaseDate: '2020-11-19',
     averageTimeToFinish: 0,
     averageTimeToHundredPercent: 0,
@@ -2070,8 +2043,7 @@ export const baseGamesAdaptations: BaseGame[] = [
     title: 'Star Wars: Shadows of the Empire',
     editor: 'LucasArts',
     hero: 'Dash Rendar',
-    coverUrl:
-      '/games_pictures/1a069ac63dda.jpg',
+    coverUrl: '/games_pictures/1a069ac63dda.jpg',
     releaseDate: '1996-12-03',
     averageTimeToFinish: 0,
     averageTimeToHundredPercent: 0,
@@ -2145,8 +2117,7 @@ export const baseGamesAdaptations: BaseGame[] = [
     title: 'Star Wars: Racer Revenge',
     editor: 'LucasArts',
     hero: 'Anakin Skywalker',
-    coverUrl:
-      '/games_pictures/40b1e3729171.png',
+    coverUrl: '/games_pictures/40b1e3729171.png',
     releaseDate: '2002-02-12',
     averageTimeToFinish: 0,
     averageTimeToHundredPercent: 0,
@@ -2164,8 +2135,7 @@ export const baseGamesAdaptations: BaseGame[] = [
     title: 'Star Wars Pinball',
     editor: 'Zen Studios',
     hero: 'Divers',
-    coverUrl:
-      '/games_pictures/3f1974f5fd61.jpg',
+    coverUrl: '/games_pictures/3f1974f5fd61.jpg',
     releaseDate: '2013-02-26',
     averageTimeToFinish: 0,
     averageTimeToHundredPercent: 0,
@@ -2183,8 +2153,7 @@ export const baseGamesAdaptations: BaseGame[] = [
     title: 'Angry Birds Star Wars',
     editor: 'Rovio Entertainment',
     hero: 'Oiseau',
-    coverUrl:
-      '/games_pictures/0ec833b3dff9.jpg',
+    coverUrl: '/games_pictures/0ec833b3dff9.jpg',
     releaseDate: '2012-11-08',
     averageTimeToFinish: 0,
     averageTimeToHundredPercent: 0,
@@ -2202,8 +2171,7 @@ export const baseGamesAdaptations: BaseGame[] = [
     title: 'Star Wars: Uprising',
     editor: 'Kabam',
     hero: 'Mercenaire',
-    coverUrl:
-      '/games_pictures/78ec822ac108.jpg',
+    coverUrl: '/games_pictures/78ec822ac108.jpg',
     releaseDate: '2015-09-10',
     averageTimeToFinish: 0,
     averageTimeToHundredPercent: 0,
@@ -2239,8 +2207,7 @@ export const baseGamesAdaptations: BaseGame[] = [
     title: 'Kinect Star Wars',
     editor: 'LucasArts',
     hero: 'Jedi',
-    coverUrl:
-      '/games_pictures/9995d983a20d.jpg',
+    coverUrl: '/games_pictures/9995d983a20d.jpg',
     releaseDate: '2012-04-03',
     averageTimeToFinish: 0,
     averageTimeToHundredPercent: 0,
@@ -2258,8 +2225,7 @@ export const baseGamesAdaptations: BaseGame[] = [
     title: 'Star Wars: Empire at War — Forces of Corruption',
     editor: 'Petroglyph Games',
     hero: 'Tyber Zann',
-    coverUrl:
-      '/games_pictures/6d3b222faed3.jpg',
+    coverUrl: '/games_pictures/6d3b222faed3.jpg',
     releaseDate: '2006-10-24',
     averageTimeToFinish: 0,
     averageTimeToHundredPercent: 0,
@@ -2447,8 +2413,7 @@ export const baseGamesAdaptations: BaseGame[] = [
     title: 'One Piece: Pirate Warriors 4',
     editor: 'Omega Force',
     hero: 'Monkey D. Luffy',
-    coverUrl:
-      '/games_pictures/ab5327a01692.jpg',
+    coverUrl: '/games_pictures/ab5327a01692.jpg',
     releaseDate: '2020-03-27',
     averageTimeToFinish: 25,
     averageTimeToHundredPercent: 80,
@@ -2466,8 +2431,7 @@ export const baseGamesAdaptations: BaseGame[] = [
     title: 'One Piece Odyssey',
     editor: 'ILCA',
     hero: 'Monkey D. Luffy',
-    coverUrl:
-      '/games_pictures/3d0a4e57f20b.jpg',
+    coverUrl: '/games_pictures/3d0a4e57f20b.jpg',
     releaseDate: '2023-01-13',
     averageTimeToFinish: 35,
     averageTimeToHundredPercent: 60,
@@ -2485,8 +2449,7 @@ export const baseGamesAdaptations: BaseGame[] = [
     title: 'One Piece: World Seeker',
     editor: 'Ganbarion',
     hero: 'Monkey D. Luffy',
-    coverUrl:
-      '/games_pictures/db315b662505.jpg',
+    coverUrl: '/games_pictures/db315b662505.jpg',
     releaseDate: '2019-03-15',
     averageTimeToFinish: 20,
     averageTimeToHundredPercent: 50,
@@ -2522,8 +2485,7 @@ export const baseGamesAdaptations: BaseGame[] = [
     title: 'One Piece: Romance Dawn',
     editor: 'Three Rings',
     hero: 'Monkey D. Luffy',
-    coverUrl:
-      '/games_pictures/9b9f40f892c0.jpg',
+    coverUrl: '/games_pictures/9b9f40f892c0.jpg',
     releaseDate: '2012-12-20',
     averageTimeToFinish: 15,
     averageTimeToHundredPercent: 30,
@@ -2541,8 +2503,7 @@ export const baseGamesAdaptations: BaseGame[] = [
     title: 'One Piece Bounty Rush',
     editor: 'Bandai Namco',
     hero: 'Monkey D. Luffy',
-    coverUrl:
-      '/games_pictures/60f35627c7c9.png',
+    coverUrl: '/games_pictures/60f35627c7c9.png',
     releaseDate: '2018-03-29',
     averageTimeToFinish: 0,
     averageTimeToHundredPercent: 0,
@@ -2560,8 +2521,7 @@ export const baseGamesAdaptations: BaseGame[] = [
     title: 'One Piece: Gigant Battle',
     editor: 'Ganbarion',
     hero: 'Monkey D. Luffy',
-    coverUrl:
-      '/games_pictures/4687841fce24.jpg',
+    coverUrl: '/games_pictures/4687841fce24.jpg',
     releaseDate: '2010-09-09',
     averageTimeToFinish: 8,
     averageTimeToHundredPercent: 20,
@@ -2579,8 +2539,7 @@ export const baseGamesAdaptations: BaseGame[] = [
     title: 'One Piece: Gigant Battle! 2 New World',
     editor: 'Ganbarion',
     hero: 'Monkey D. Luffy',
-    coverUrl:
-      '/games_pictures/84d333927f0a.jpg',
+    coverUrl: '/games_pictures/84d333927f0a.jpg',
     releaseDate: '2011-11-17',
     averageTimeToFinish: 10,
     averageTimeToHundredPercent: 25,
@@ -2598,8 +2557,7 @@ export const baseGamesAdaptations: BaseGame[] = [
     title: 'One Piece: Super Grand Battle! X',
     editor: 'Bandai Namco',
     hero: 'Monkey D. Luffy',
-    coverUrl:
-      '/games_pictures/caff17b9705d.jpg',
+    coverUrl: '/games_pictures/caff17b9705d.jpg',
     releaseDate: '2014-11-13',
     averageTimeToFinish: 12,
     averageTimeToHundredPercent: 30,
@@ -2835,8 +2793,7 @@ export const baseGamesAdaptations: BaseGame[] = [
     title: 'LEGO Batman 2: DC Super Heroes',
     editor: "Traveller's Tales",
     hero: 'Batman',
-    coverUrl:
-      '/games_pictures/b018018a4ed7.jpg',
+    coverUrl: '/games_pictures/b018018a4ed7.jpg',
     releaseDate: '2012-06-19',
     averageTimeToFinish: 12,
     averageTimeToHundredPercent: 35,
@@ -2890,8 +2847,7 @@ export const baseGamesAdaptations: BaseGame[] = [
     title: 'Batman: The Enemy Within',
     editor: 'Telltale Games',
     hero: 'Batman',
-    coverUrl:
-      '/games_pictures/af7c0ab79862.jpg',
+    coverUrl: '/games_pictures/af7c0ab79862.jpg',
     releaseDate: '2017-08-08',
     averageTimeToFinish: 10,
     averageTimeToHundredPercent: 25,
@@ -2909,8 +2865,7 @@ export const baseGamesAdaptations: BaseGame[] = [
     title: 'Suicide Squad: Kill the Justice League',
     editor: 'Rocksteady Studios',
     hero: 'Task Force X',
-    coverUrl:
-      '/games_pictures/560332ffb2d6.jpg',
+    coverUrl: '/games_pictures/560332ffb2d6.jpg',
     releaseDate: '2024-02-02',
     averageTimeToFinish: 15,
     averageTimeToHundredPercent: 40,
@@ -2928,8 +2883,7 @@ export const baseGamesAdaptations: BaseGame[] = [
     title: 'Gotham City Impostors',
     editor: 'Monolith Productions',
     hero: 'Imposteur',
-    coverUrl:
-      '/games_pictures/bf5416c69a2a.jpg',
+    coverUrl: '/games_pictures/bf5416c69a2a.jpg',
     releaseDate: '2012-02-07',
     averageTimeToFinish: 8,
     averageTimeToHundredPercent: 20,
@@ -2965,8 +2919,7 @@ export const baseGamesAdaptations: BaseGame[] = [
     title: 'Batman: Rise of Sin Tzu',
     editor: 'Ubisoft',
     hero: 'Batman',
-    coverUrl:
-      '/games_pictures/d62d6518d188.png',
+    coverUrl: '/games_pictures/d62d6518d188.png',
     releaseDate: '2003-10-16',
     averageTimeToFinish: 6,
     averageTimeToHundredPercent: 12,
@@ -3281,8 +3234,7 @@ export const baseGamesAdaptations: BaseGame[] = [
     title: 'Harry Potter et les Reliques de la Mort : Partie 2',
     editor: 'Electronic Arts',
     hero: 'Harry Potter',
-    coverUrl:
-      '/games_pictures/7eab09cf29af.jpg',
+    coverUrl: '/games_pictures/7eab09cf29af.jpg',
     releaseDate: '2011-07-12',
     averageTimeToFinish: 8,
     averageTimeToHundredPercent: 0,
@@ -3300,8 +3252,7 @@ export const baseGamesAdaptations: BaseGame[] = [
     title: 'LEGO Harry Potter : Années 1 à 4',
     editor: "Traveller's Tales",
     hero: 'Harry Potter',
-    coverUrl:
-      '/games_pictures/0a6b9f7ec041.jpg',
+    coverUrl: '/games_pictures/0a6b9f7ec041.jpg',
     releaseDate: '2010-06-25',
     averageTimeToFinish: 15,
     averageTimeToHundredPercent: 25,
@@ -3355,8 +3306,7 @@ export const baseGamesAdaptations: BaseGame[] = [
     title: 'Wonderbook: Book of Spells',
     editor: 'London Studio',
     hero: 'Sorcier',
-    coverUrl:
-      '/games_pictures/db21cef75566.jpg',
+    coverUrl: '/games_pictures/db21cef75566.jpg',
     releaseDate: '2012-11-13',
     averageTimeToFinish: 4,
     averageTimeToHundredPercent: 0,
@@ -3393,8 +3343,7 @@ export const baseGamesAdaptations: BaseGame[] = [
     title: 'Harry Potter : Wizards Unite',
     editor: 'Niantic',
     hero: 'Auror',
-    coverUrl:
-      '/games_pictures/86d8790b91c8.jpg',
+    coverUrl: '/games_pictures/86d8790b91c8.jpg',
     releaseDate: '2019-06-21',
     averageTimeToFinish: 0,
     averageTimeToHundredPercent: 0,
@@ -3412,8 +3361,7 @@ export const baseGamesAdaptations: BaseGame[] = [
     title: 'Harry Potter : Quidditch Champions',
     editor: 'Unbroken Studios',
     hero: 'Joueur',
-    coverUrl:
-      '/games_pictures/73ca278812ac.jpg',
+    coverUrl: '/games_pictures/73ca278812ac.jpg',
     releaseDate: '2024-09-03',
     averageTimeToFinish: 8,
     averageTimeToHundredPercent: 0,
@@ -3431,8 +3379,7 @@ export const baseGamesAdaptations: BaseGame[] = [
     title: 'Harry Potter : Magic Awakened',
     editor: 'NetEase',
     hero: 'Élève de Poudlard',
-    coverUrl:
-      '/games_pictures/8a12de4239a7.jpg',
+    coverUrl: '/games_pictures/8a12de4239a7.jpg',
     releaseDate: '2022-09-27',
     averageTimeToFinish: 0,
     averageTimeToHundredPercent: 0,

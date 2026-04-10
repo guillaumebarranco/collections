@@ -444,8 +444,7 @@ export const baseGamesAdaptations2: BaseGame[] = [
     title: 'Naruto: Ninja Council 3',
     editor: 'Takara Tomy',
     hero: 'Naruto',
-    coverUrl:
-      '/games_pictures/a7f93ae608b9.jpg',
+    coverUrl: '/games_pictures/a7f93ae608b9.jpg',
     releaseDate: '2007-07-25',
     averageTimeToFinish: 7,
     averageTimeToHundredPercent: 0,
@@ -946,8 +945,8 @@ export const baseGamesAdaptations2: BaseGame[] = [
     fromEntity: null,
   },
   {
-    title: 'Pokemon Rubis',
-    editor: 'Nintendo',
+    title: 'Pokémon Rubis',
+    editor: 'Game Freak',
     hero: 'Dresseur',
     coverUrl: '/games_pictures/pokemon-ruby.jpg',
     releaseDate: '2003-07-25',
@@ -1665,8 +1664,7 @@ export const baseGamesAdaptations2: BaseGame[] = [
     title: 'Yu-Gi-Oh! Monster Capsule: Breed and Battle',
     editor: 'Konami',
     hero: 'Yugi Muto',
-    coverUrl:
-      '/games_pictures/d86e78dec6d4.jpg',
+    coverUrl: '/games_pictures/d86e78dec6d4.jpg',
     releaseDate: '1998-07-23',
     averageTimeToFinish: 10,
     averageTimeToHundredPercent: 0,
@@ -1684,8 +1682,7 @@ export const baseGamesAdaptations2: BaseGame[] = [
     title: 'Yu-Gi-Oh! Duel Monsters',
     editor: 'Konami',
     hero: 'Yugi Muto',
-    coverUrl:
-      '/games_pictures/adaa1e6956bc.jpg',
+    coverUrl: '/games_pictures/adaa1e6956bc.jpg',
     releaseDate: '1998-12-16',
     averageTimeToFinish: 8,
     averageTimeToHundredPercent: 0,
@@ -1703,8 +1700,7 @@ export const baseGamesAdaptations2: BaseGame[] = [
     title: 'Yu-Gi-Oh! Duel Monsters II: Dark duel Stories',
     editor: 'Konami',
     hero: 'Yugi Muto',
-    coverUrl:
-      '/games_pictures/b01d88f55003.png',
+    coverUrl: '/games_pictures/b01d88f55003.png',
     releaseDate: '1999-07-08',
     averageTimeToFinish: 8,
     averageTimeToHundredPercent: 0,
@@ -1740,8 +1736,7 @@ export const baseGamesAdaptations2: BaseGame[] = [
     title: 'Yu-Gi-Oh! Monster Capsule GB',
     editor: 'Konami',
     hero: 'Yugi Muto',
-    coverUrl:
-      '/games_pictures/2ba891e5ddfd.jpg',
+    coverUrl: '/games_pictures/2ba891e5ddfd.jpg',
     releaseDate: '2000-04-13',
     averageTimeToFinish: 8,
     averageTimeToHundredPercent: 0,
@@ -1759,8 +1754,7 @@ export const baseGamesAdaptations2: BaseGame[] = [
     title: 'Yu-Gi-Oh! Duel Monsters 4: Battle of Great Duelists',
     editor: 'Konami',
     hero: 'Yugi Muto',
-    coverUrl:
-      '/games_pictures/ded041ff3874.jpg',
+    coverUrl: '/games_pictures/ded041ff3874.jpg',
     releaseDate: '2000-12-07',
     averageTimeToFinish: 12,
     averageTimeToHundredPercent: 20,
@@ -1778,8 +1772,7 @@ export const baseGamesAdaptations2: BaseGame[] = [
     title: 'Yu-Gi-Oh! Dungeon Dice Monsters',
     editor: 'Konami',
     hero: 'Yugi Muto',
-    coverUrl:
-      '/games_pictures/c5fa5fc97e80.jpg',
+    coverUrl: '/games_pictures/c5fa5fc97e80.jpg',
     releaseDate: '2001-03-21',
     averageTimeToFinish: 10,
     averageTimeToHundredPercent: 0,
@@ -1833,8 +1826,7 @@ export const baseGamesAdaptations2: BaseGame[] = [
     title: 'Yu-Gi-Oh! The Falsebound Kingdom',
     editor: 'Konami',
     hero: 'Yugi Muto',
-    coverUrl:
-      '/games_pictures/afc3469384a4.jpg',
+    coverUrl: '/games_pictures/afc3469384a4.jpg',
     releaseDate: '2002-12-05',
     averageTimeToFinish: 20,
     averageTimeToHundredPercent: 35,
@@ -1871,8 +1863,7 @@ export const baseGamesAdaptations2: BaseGame[] = [
     title: 'Yu-Gi-Oh! Power of Chaos: Yugi the Destiny',
     editor: 'Konami',
     hero: 'Yugi Muto',
-    coverUrl:
-      '/games_pictures/930834ec415f.jpg',
+    coverUrl: '/games_pictures/930834ec415f.jpg',
     releaseDate: '2003-11-28',
     averageTimeToFinish: 6,
     averageTimeToHundredPercent: 0,
@@ -1908,8 +1899,7 @@ export const baseGamesAdaptations2: BaseGame[] = [
     title: 'Yu-Gi-Oh! Destiny Board Traveler',
     editor: 'Konami',
     hero: 'Yugi Muto',
-    coverUrl:
-      '/games_pictures/e281d467a653.jpg',
+    coverUrl: '/games_pictures/e281d467a653.jpg',
     releaseDate: '2004-03-18',
     averageTimeToFinish: 6,
     averageTimeToHundredPercent: 0,
@@ -1927,8 +1917,7 @@ export const baseGamesAdaptations2: BaseGame[] = [
     title: 'Yu-Gi-Oh! The Dawn of Destiny',
     editor: 'Konami',
     hero: 'Yugi Muto',
-    coverUrl:
-      '/games_pictures/43180c3fa3ea.jpg',
+    coverUrl: '/games_pictures/43180c3fa3ea.jpg',
     releaseDate: '2004-03-23',
     averageTimeToFinish: 10,
     averageTimeToHundredPercent: 15,
@@ -1946,8 +1935,7 @@ export const baseGamesAdaptations2: BaseGame[] = [
     title: 'Yu-Gi-Oh! Power of Chaos: Kaiba the Revenge',
     editor: 'Konami',
     hero: 'Seto Kaiba',
-    coverUrl:
-      '/games_pictures/099b1296231d.jpg',
+    coverUrl: '/games_pictures/099b1296231d.jpg',
     releaseDate: '2004-04-07',
     averageTimeToFinish: 6,
     averageTimeToHundredPercent: 0,
@@ -1965,8 +1953,7 @@ export const baseGamesAdaptations2: BaseGame[] = [
     title: 'Yu-Gi-Oh! Power of Chaos: Joey the Passion',
     editor: 'Konami',
     hero: 'Joey Wheeler',
-    coverUrl:
-      '/games_pictures/87acf53474b4.jpg',
+    coverUrl: '/games_pictures/87acf53474b4.jpg',
     releaseDate: '2004-06-29',
     averageTimeToFinish: 6,
     averageTimeToHundredPercent: 0,
@@ -1984,8 +1971,7 @@ export const baseGamesAdaptations2: BaseGame[] = [
     title: 'Yu-Gi-Oh! Capsule Monster Coliseum',
     editor: 'WinkySoft',
     hero: 'Yugi Muto',
-    coverUrl:
-      '/games_pictures/ee29b8e80fa3.jpg',
+    coverUrl: '/games_pictures/ee29b8e80fa3.jpg',
     releaseDate: '2004-07-29',
     averageTimeToFinish: 12,
     averageTimeToHundredPercent: 20,
@@ -2003,8 +1989,7 @@ export const baseGamesAdaptations2: BaseGame[] = [
     title: 'Yu-Gi-Oh! 7 Trials to Glory: World Championship Tournament 2005',
     editor: 'Konami',
     hero: 'Yugi Muto',
-    coverUrl:
-      '/games_pictures/43f96c72b0e0.jpg',
+    coverUrl: '/games_pictures/43f96c72b0e0.jpg',
     releaseDate: '2004-12-30',
     averageTimeToFinish: 14,
     averageTimeToHundredPercent: 22,
@@ -2022,8 +2007,7 @@ export const baseGamesAdaptations2: BaseGame[] = [
     title: 'Yu-Gi-Oh! Nightmare Troubadour',
     editor: 'Konami',
     hero: 'Yugi Muto',
-    coverUrl:
-      '/games_pictures/b659c40c715d.jpg',
+    coverUrl: '/games_pictures/b659c40c715d.jpg',
     releaseDate: '2005-07-21',
     averageTimeToFinish: 14,
     averageTimeToHundredPercent: 25,
@@ -2095,8 +2079,7 @@ export const baseGamesAdaptations2: BaseGame[] = [
     title: 'Yu-Gi-Oh! GX: Spirit Caller',
     editor: 'Konami',
     hero: 'Jaden Yuki',
-    coverUrl:
-      '/games_pictures/b0ad7590ed41.jpg',
+    coverUrl: '/games_pictures/b0ad7590ed41.jpg',
     releaseDate: '2006-11-30',
     averageTimeToFinish: 16,
     averageTimeToHundredPercent: 28,
@@ -2114,8 +2097,7 @@ export const baseGamesAdaptations2: BaseGame[] = [
     title: 'Yu-Gi-Oh! World Championship 2007',
     editor: 'Konami',
     hero: 'Yugi Muto',
-    coverUrl:
-      '/games_pictures/a53c50490f6a.jpg',
+    coverUrl: '/games_pictures/a53c50490f6a.jpg',
     releaseDate: '2007-03-15',
     averageTimeToFinish: 14,
     averageTimeToHundredPercent: 22,
@@ -2133,8 +2115,7 @@ export const baseGamesAdaptations2: BaseGame[] = [
     title: 'Yu-Gi-Oh! GX: Tag Force 2',
     editor: 'Konami',
     hero: 'Jaden Yuki',
-    coverUrl:
-      '/games_pictures/462bbca06928.jpg',
+    coverUrl: '/games_pictures/462bbca06928.jpg',
     releaseDate: '2007-09-27',
     averageTimeToFinish: 16,
     averageTimeToHundredPercent: 28,
@@ -2152,8 +2133,7 @@ export const baseGamesAdaptations2: BaseGame[] = [
     title: 'Yu-Gi-Oh! GX: World Championship 2008',
     editor: 'Konami',
     hero: 'Jaden Yuki',
-    coverUrl:
-      '/games_pictures/22295e85d032.jpg',
+    coverUrl: '/games_pictures/22295e85d032.jpg',
     releaseDate: '2007-11-29',
     averageTimeToFinish: 14,
     averageTimeToHundredPercent: 22,
@@ -2171,8 +2151,7 @@ export const baseGamesAdaptations2: BaseGame[] = [
     title: 'Yu-Gi-Oh! GX: The Beginning of Destiny',
     editor: 'Konami',
     hero: 'Jaden Yuki',
-    coverUrl:
-      '/games_pictures/0a7d0eba86ea.jpg',
+    coverUrl: '/games_pictures/0a7d0eba86ea.jpg',
     releaseDate: '2007-12-06',
     averageTimeToFinish: 14,
     averageTimeToHundredPercent: 22,
@@ -2190,8 +2169,7 @@ export const baseGamesAdaptations2: BaseGame[] = [
     title: 'Yu-Gi-Oh! GX: Tag Force 3',
     editor: 'Konami',
     hero: 'Jaden Yuki',
-    coverUrl:
-      '/games_pictures/a082cbd060fa.jpg',
+    coverUrl: '/games_pictures/a082cbd060fa.jpg',
     releaseDate: '2008-11-27',
     averageTimeToFinish: 18,
     averageTimeToHundredPercent: 30,
@@ -2245,8 +2223,7 @@ export const baseGamesAdaptations2: BaseGame[] = [
     title: "Yu-Gi-Oh! 5D's: Tag Force 4",
     editor: 'Konami',
     hero: 'Yusei Fudo',
-    coverUrl:
-      '/games_pictures/8c05829ba64c.jpg',
+    coverUrl: '/games_pictures/8c05829ba64c.jpg',
     releaseDate: '2009-09-17',
     averageTimeToFinish: 16,
     averageTimeToHundredPercent: 28,
@@ -2264,8 +2241,7 @@ export const baseGamesAdaptations2: BaseGame[] = [
     title: "Yu-Gi-Oh! 5D's Mobile",
     editor: 'Konami',
     hero: 'Yusei Fudo',
-    coverUrl:
-      '/games_pictures/12f26f49c47b.jpg',
+    coverUrl: '/games_pictures/12f26f49c47b.jpg',
     releaseDate: '2009-12-08',
     averageTimeToFinish: 5,
     averageTimeToHundredPercent: 0,
@@ -2302,8 +2278,7 @@ export const baseGamesAdaptations2: BaseGame[] = [
     title: "Yu-Gi-Oh! 5D's: Tag Force 5",
     editor: 'Konami',
     hero: 'Yusei Fudo',
-    coverUrl:
-      '/games_pictures/cd8e06f4a45e.jpg',
+    coverUrl: '/games_pictures/cd8e06f4a45e.jpg',
     releaseDate: '2010-09-16',
     averageTimeToFinish: 18,
     averageTimeToHundredPercent: 30,
@@ -2340,8 +2315,7 @@ export const baseGamesAdaptations2: BaseGame[] = [
     title: "Yu-Gi-Oh! 5D's World Championship 2011: Over the Nexus",
     editor: 'Konami',
     hero: 'Yusei Fudo',
-    coverUrl:
-      '/games_pictures/ab7ce67b493d.jpg',
+    coverUrl: '/games_pictures/ab7ce67b493d.jpg',
     releaseDate: '2011-02-24',
     averageTimeToFinish: 16,
     averageTimeToHundredPercent: 28,
@@ -2377,8 +2351,7 @@ export const baseGamesAdaptations2: BaseGame[] = [
     title: 'Yu-Gi-Oh! Zexal World Duel Carnival',
     editor: 'Konami',
     hero: 'Yuma Tsukumo',
-    coverUrl:
-      '/games_pictures/177efe35fe43.jpg',
+    coverUrl: '/games_pictures/177efe35fe43.jpg',
     releaseDate: '2013-12-05',
     averageTimeToFinish: 12,
     averageTimeToHundredPercent: 20,
@@ -2396,8 +2369,7 @@ export const baseGamesAdaptations2: BaseGame[] = [
     title: 'Yu-Gi-Oh! Millennium Duels',
     editor: 'Other Ocean Interactive',
     hero: 'Yugi Muto',
-    coverUrl:
-      '/games_pictures/16b5dd4cb2d2.jpg',
+    coverUrl: '/games_pictures/16b5dd4cb2d2.jpg',
     releaseDate: '2014-03-26',
     averageTimeToFinish: 10,
     averageTimeToHundredPercent: 15,
@@ -2415,8 +2387,7 @@ export const baseGamesAdaptations2: BaseGame[] = [
     title: 'Yu-Gi-Oh! Duel Generation',
     editor: 'Konami',
     hero: 'Yugi Muto',
-    coverUrl:
-      '/games_pictures/bcbec9532dd9.png',
+    coverUrl: '/games_pictures/bcbec9532dd9.png',
     releaseDate: '2014-10-30',
     averageTimeToFinish: 8,
     averageTimeToHundredPercent: 0,
@@ -2434,8 +2405,7 @@ export const baseGamesAdaptations2: BaseGame[] = [
     title: 'Yu-Gi-Oh! Arc-V Tag Force Special',
     editor: 'Konami',
     hero: 'Yuya Sakaki',
-    coverUrl:
-      '/games_pictures/87439224d3cf.jpg',
+    coverUrl: '/games_pictures/87439224d3cf.jpg',
     releaseDate: '2015-01-22',
     averageTimeToFinish: 18,
     averageTimeToHundredPercent: 30,
@@ -2453,8 +2423,7 @@ export const baseGamesAdaptations2: BaseGame[] = [
     title: 'Yu-Gi-Oh! Saikyo Card Battle',
     editor: 'Konami',
     hero: 'Yugi Muto',
-    coverUrl:
-      '/games_pictures/f3839c0d00a5.jpg',
+    coverUrl: '/games_pictures/f3839c0d00a5.jpg',
     releaseDate: '2016-07-06',
     averageTimeToFinish: 10,
     averageTimeToHundredPercent: 15,
@@ -2472,8 +2441,7 @@ export const baseGamesAdaptations2: BaseGame[] = [
     title: 'Yu-Gi-Oh! Duel Links',
     editor: 'Konami',
     hero: 'Yugi Muto',
-    coverUrl:
-      '/games_pictures/a63f8b1d964e.webp',
+    coverUrl: '/games_pictures/a63f8b1d964e.webp',
     releaseDate: '2017-01-11',
     averageTimeToFinish: 12,
     averageTimeToHundredPercent: 0,
@@ -2491,8 +2459,7 @@ export const baseGamesAdaptations2: BaseGame[] = [
     title: 'Yu-Gi-Oh! Legacy of the Duelist: Link Evolution',
     editor: 'Other Ocean Interactive',
     hero: 'Yugi Muto',
-    coverUrl:
-      '/games_pictures/80f82357f66a.jpg',
+    coverUrl: '/games_pictures/80f82357f66a.jpg',
     releaseDate: '2019-04-25',
     averageTimeToFinish: 25,
     averageTimeToHundredPercent: 50,
@@ -2528,8 +2495,7 @@ export const baseGamesAdaptations2: BaseGame[] = [
     title: "Yu-Gi-Oh! RUSH DUEL: Saikyo Battle Royale Let's Go! Go Rush!!",
     editor: 'Matrix Software',
     hero: 'Yuga Ohdo',
-    coverUrl:
-      '/games_pictures/f2c5af72cd17.png',
+    coverUrl: '/games_pictures/f2c5af72cd17.png',
     releaseDate: '2022-12-01',
     averageTimeToFinish: 15,
     averageTimeToHundredPercent: 25,
@@ -2547,8 +2513,7 @@ export const baseGamesAdaptations2: BaseGame[] = [
     title: 'Yu-Gi-Oh! Early Days Collection',
     editor: 'Digital Eclipse',
     hero: 'Yugi Muto',
-    coverUrl:
-      '/games_pictures/bb2672559bda.png',
+    coverUrl: '/games_pictures/bb2672559bda.png',
     releaseDate: '2025-02-27',
     averageTimeToFinish: 20,
     averageTimeToHundredPercent: 40,

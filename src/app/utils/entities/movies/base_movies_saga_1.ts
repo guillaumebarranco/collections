@@ -1079,8 +1079,8 @@ export const baseMoviesSagaPage1: BaseMovie[] = [
     description: '',
     fromEntity: {
       entityType: 'game',
-      title: 'Tomb Raider : Definitive Edition',
-      secondEntityKey: 'Crystal Dynamics',
+      title: 'Tomb Raider',
+      secondEntityKey: 'Core Design',
     },
     countryOrigin: ['États-Unis'],
   },
@@ -1096,8 +1096,8 @@ export const baseMoviesSagaPage1: BaseMovie[] = [
     description: '',
     fromEntity: {
       entityType: 'game',
-      title: 'Tomb Raider : Definitive Edition',
-      secondEntityKey: 'Crystal Dynamics',
+      title: 'Tomb Raider',
+      secondEntityKey: 'Core Design',
     },
     countryOrigin: ['États-Unis'],
   },

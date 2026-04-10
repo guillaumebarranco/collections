@@ -40,7 +40,7 @@ import {
 } from './mix-base-works-galaxy.helpers';
 
 /**
- * Vue « Œuvres de base » du Mix : galaxie orbite (hub par saga / œuvre isolée).
+ * Vue « Galaxie des Œuvres » du Mix : galaxie orbite (hub par saga / œuvre isolée).
  */
 @Component({
   selector: 'app-mix-base-works-galaxy',
@@ -91,7 +91,8 @@ export class MixBaseWorksGalaxyComponent {
       this.baseBooks(),
       this.baseMovies(),
       this.baseSeries(),
-      this.baseGames()
+      this.baseGames(),
+      this.baseMangas()
     )
   );
 

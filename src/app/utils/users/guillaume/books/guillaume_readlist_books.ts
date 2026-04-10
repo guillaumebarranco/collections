@@ -1098,4 +1098,19 @@ export const guillaumeReadlistBooks: UserBooks = [
     wantToReadAgain: false,
     ratingComment: '',
   },
+
+  {
+    title: 'Divergente : Raconté par Quatre',
+    author: 'Veronica Roth',
+    firstReadDate: '',
+    lastReadDate: '',
+    rating: 0,
+    readTimes: 0,
+    owned: true,
+    borrowed: '',
+    loaned: '',
+    readPriority: 1,
+    wantToReadAgain: false,
+    ratingComment: '',
+  },
 ];

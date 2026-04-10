@@ -13,6 +13,11 @@ export interface BaseManga extends MandatoryMangaData {
   genre: string;
   nbTomes: number;
   isFinished: boolean;
+  /** Début de parution (magazine / web / équivalent), format YYYY-MM-DD. */
+  startDate: string;
+  /** Fin de parution si le manga est terminé (`isFinished`), sinon chaîne vide. */
+  endDate: string;
+  saga: string;
   description: string;
   /** Œuvre source (livre, film, jeu, autre manga, etc.) si adaptation. */
   fromEntity: MangaFromEntityAdaptation | null;

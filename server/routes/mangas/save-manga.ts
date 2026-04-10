@@ -100,6 +100,12 @@ router.post('/', (req: any, res: any) => {
         nbTomes: normalizeNumber(entityPayload.nbTomes, 'nbTomes'),
         isFinished: normalizeBoolean(entityPayload.isFinished, 'isFinished'),
         description: normalizeString(entityPayload.description, 'description') ?? '',
+        ...(entityPayload.startDate !== undefined && {
+          startDate: normalizeString(entityPayload.startDate, 'startDate') || '',
+        }),
+        ...(entityPayload.endDate !== undefined && {
+          endDate: normalizeString(entityPayload.endDate, 'endDate') || '',
+        }),
       });
 
       if (originalTitle || originalAuthor) {
