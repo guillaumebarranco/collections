@@ -264,7 +264,7 @@ export const baseMoviesSagaPage3: BaseMovie[] = [
     director: 'Kazunori Ikegami',
     actors: [{ name: 'Junichi Kanemaru' }, { name: 'Kōji Tsujitani' }],
     coverUrl:
-      'https://upload.wikimedia.org/wikipedia/en/3/3f/SonicanimeVHS.jpg',
+      '/movies_pictures/85b2aa73393f.jpg',
     releaseDate: '1999-05-07',
     length: 57,
     genre: ['Animation', 'Science Fiction'],
@@ -282,7 +282,7 @@ export const baseMoviesSagaPage3: BaseMovie[] = [
     director: 'Blair Peters',
     actors: [{ name: 'Jaleel White' }],
     coverUrl:
-      'https://m.media-amazon.com/images/M/MV5BNTQwNGQ0NzYtZDIxNi00Yzg3LWFhN2UtZTE1MGIxYzk5ZmJhXkEyXkFqcGc@._V1_.jpg',
+      '/movies_pictures/cec07c7bd441.jpg',
     releaseDate: '1996-11-24',
     length: 22,
     genre: ['Animation', 'Jeunesse'],

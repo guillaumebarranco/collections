@@ -10,7 +10,7 @@ export const baseMoviesDc: BaseMovie[] = [
       { name: 'Cesar Romero' },
     ],
     coverUrl:
-      'https://static.wikia.nocookie.net/arrow-france/images/3/38/Affiche_Batman_66_film.jpg/revision/latest?cb=20251104231644&path-prefix=fr',
+      '/movies_pictures/0f33ed902452.jpg',
     releaseDate: '1966-07-30',
     length: 105,
     genre: ['Action', 'Comédie'],

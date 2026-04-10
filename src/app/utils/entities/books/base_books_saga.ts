@@ -250,7 +250,7 @@ export const baseBooksSaga: BaseBook[] = [
     title: 'Divergente',
     author: 'Veronica Roth',
     coverUrl:
-      'https://m.media-amazon.com/images/I/71T9hdZ9j2L._AC_UF1000,1000_QL80_.jpg',
+      '/books_pictures/2dd25d82e759.jpg',
     pages: 487,
     genre: ['Dystopie'],
     saga: 'Divergente',
@@ -278,7 +278,7 @@ export const baseBooksSaga: BaseBook[] = [
     title: 'Divergente Tome 3 : Allégeance',
     author: 'Veronica Roth',
     coverUrl:
-      'https://sglivresusages.ca/wp-content/uploads/2022/09/1-674-686x1024.jpg',
+      '/books_pictures/f1c6609bb8e1.jpg',
     pages: 526,
     genre: ['Science Fiction'],
     saga: 'Divergente',
@@ -291,7 +291,7 @@ export const baseBooksSaga: BaseBook[] = [
   {
     title: 'Divergente : Raconté par Quatre',
     author: 'Veronica Roth',
-    coverUrl: 'https://m.media-amazon.com/images/I/71LigchKZtL.jpg',
+    coverUrl: '/books_pictures/5eaea445e62a.jpg',
     pages: 304,
     genre: ['Dystopie'],
     saga: 'Divergente',

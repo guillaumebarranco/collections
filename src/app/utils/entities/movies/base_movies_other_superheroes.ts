@@ -287,7 +287,7 @@ export const baseMoviesOtherSuperheroes: BaseMovie[] = [
       { name: 'Juno Temple' },
     ],
     coverUrl:
-      'https://fr.web.img5.acsta.net/img/57/b3/57b356018fe053ff81efa47e79cfb780.jpg',
+      '/movies_pictures/223a62b4e2c3.jpg',
     releaseDate: '2024-10-23',
     length: 109,
     genre: ['Action', 'Science Fiction'],
@@ -407,7 +407,7 @@ export const baseMoviesOtherSuperheroes: BaseMovie[] = [
     director: 'E.W. Swackhamer',
     actors: [{ name: 'Nicholas Hammond' }, { name: 'David White' }],
     coverUrl:
-      'https://www.nanarland.com/media/cache/resolve/front_meta_image/uploads/films/5e8b55b8b058c-spiderman-1977-jaquette.jpg',
+      '/movies_pictures/736f220492fd.jpg',
     releaseDate: '1977-09-14',
     length: 92,
     genre: ['Action', 'Science Fiction'],
@@ -425,7 +425,7 @@ export const baseMoviesOtherSuperheroes: BaseMovie[] = [
     director: 'Ron Satlof',
     actors: [{ name: 'Nicholas Hammond' }],
     coverUrl:
-      'https://www.filmsfantastiques.com/wp-content/uploads/2015/05/Riposte-de-lhomme-arraigne%CC%81e-poster-ok.jpg',
+      '/movies_pictures/5596876ae88d.jpg',
     releaseDate: '1978-10-21',
     length: 90,
     genre: ['Action', 'Science Fiction'],
@@ -443,7 +443,7 @@ export const baseMoviesOtherSuperheroes: BaseMovie[] = [
     director: 'Ron Satlof',
     actors: [{ name: 'Nicholas Hammond' }],
     coverUrl:
-      'https://static.wikia.nocookie.net/spiderman/images/e/e4/%281981%29_Spider-Man_The_Dragon%27s_Challenge.png/revision/latest?cb=20190827131647',
+      '/movies_pictures/09cfa8696e3d.jpg',
     releaseDate: '1981-07-03',
     length: 92,
     genre: ['Action', 'Aventure'],

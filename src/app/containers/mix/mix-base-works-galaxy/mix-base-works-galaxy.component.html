@@ -3,12 +3,11 @@
   <p class="mix-empty">Aucune œuvre de base référencée pour le moment.</p>
   } @else {
   <p class="mix-base-works-intro">
-    Une seule <strong>œuvre de base</strong> au centre (pour une saga de livres :
-    le <strong>tome 1</strong>). Toutes les autres entrées — autres tomes, films,
-    séries, jeux — sont regroupées en orbite sans lien affiché vers un tome précis.
-    Classement des blocs par score d’export transmédia (même famille ×1, autre
-    ×5). Sur petit écran, l’orbite
-    s’affiche en liste.
+    Une seule <strong>œuvre de base</strong> au centre (pour une saga de livres
+    : le <strong>tome 1</strong>). Toutes les autres entrées — autres tomes,
+    films, séries, jeux — sont regroupées en orbite sans lien affiché vers un
+    tome précis. Classement des blocs par score d’export transmédia (même
+    famille ×2, autre ×5). Sur petit écran, l’orbite s’affiche en liste.
   </p>
   <div class="mix-base-works-toolbar">
     <div class="mix-base-works-search">
@@ -44,8 +43,8 @@
     Aucun bloc ne correspond à « {{ baseWorksSearchQuery() }} ».
   </p>
   } @else { @for (panel of mixBaseWorkOrbitPanelsFiltered(); track
-  trackBaseWorkOrbitPanel(panel)) {
-  @let scoreTip = baseWorkBlockScoreTooltip(panel);
+  trackBaseWorkOrbitPanel(panel)) { @let scoreTip =
+  baseWorkBlockScoreTooltip(panel);
   <section
     class="mix-section"
     [class.mix-base-saga-wrap]="
@@ -65,9 +64,7 @@
         (click)="toggleSection(baseWorkOrbitCollapseKey(panel))"
       >
         <span class="mix-section-toggle-icon">
-          {{
-            isSectionCollapsed(baseWorkOrbitCollapseKey(panel)) ? "▶" : "▼"
-          }}
+          {{ isSectionCollapsed(baseWorkOrbitCollapseKey(panel)) ? "▶" : "▼" }}
         </span>
         <span class="mix-base-block-heading-inner">
           <span class="mix-base-block-primary-label">
@@ -87,9 +84,7 @@
     @if (!isSectionCollapsed(baseWorkOrbitCollapseKey(panel))) {
     <div
       class="mix-base-orbit-layout"
-      [class.mix-base-orbit-layout--empty-ring]="
-        panel.satellites.length === 0
-      "
+      [class.mix-base-orbit-layout--empty-ring]="panel.satellites.length === 0"
     >
       <div
         class="mix-base-orbit-inner"
@@ -99,9 +94,7 @@
         [style.--orbit-display-radius.px]="
           orbitGuideCircleRadiusPx(panel.satellites.length)
         "
-        [style.--orbit-size.px]="
-          orbitContainerSizePx(panel.satellites.length)
-        "
+        [style.--orbit-size.px]="orbitContainerSizePx(panel.satellites.length)"
       >
         <div class="mix-base-orbit-center">
           @let centralCov = orbitCentralCover(panel.central);
@@ -132,8 +125,8 @@
             </button>
           </div>
         </div>
-        @if (panel.satellites.length > 0) {
-        @if (!orbitUsesDualRing(panel.satellites.length)) {
+        @if (panel.satellites.length > 0) { @if
+        (!orbitUsesDualRing(panel.satellites.length)) {
         <ul
           class="mix-base-orbit-ring"
           role="list"
@@ -141,8 +134,8 @@
           [style.--orbit-radius.px]="orbitRadiusPx(panel.satellites.length)"
           [style.--orbit-n]="panel.satellites.length"
         >
-          @for (sat of panel.satellites; track trackOrbitSatellite(sat,
-          $index)) { @let satCov = orbitSatelliteCover(sat);
+          @for (sat of panel.satellites; track trackOrbitSatellite(sat, $index))
+          { @let satCov = orbitSatelliteCover(sat);
           <li class="mix-base-orbit-slot" [style.--orbit-i]="$index">
             <div
               class="mix-base-orbit-satellite-card mix-orbit-cover"
@@ -171,8 +164,7 @@
           </li>
           }
         </ul>
-        } @else {
-        @let orbitDual = orbitDualRingPartition(panel.satellites);
+        } @else { @let orbitDual = orbitDualRingPartition(panel.satellites);
         <ul
           class="mix-base-orbit-ring mix-base-orbit-ring--inner"
           role="list"
@@ -182,8 +174,8 @@
           "
           [style.--orbit-n]="orbitDual.inner.length"
         >
-          @for (sat of orbitDual.inner; track
-          trackOrbitSatellite(sat, $index)) { @let satCov = orbitSatelliteCover(sat);
+          @for (sat of orbitDual.inner; track trackOrbitSatellite(sat, $index))
+          { @let satCov = orbitSatelliteCover(sat);
           <li class="mix-base-orbit-slot" [style.--orbit-i]="$index">
             <div
               class="mix-base-orbit-satellite-card mix-orbit-cover"
@@ -221,8 +213,8 @@
           "
           [style.--orbit-n]="orbitDual.outer.length"
         >
-          @for (sat of orbitDual.outer; track
-          trackOrbitSatellite(sat, $index)) { @let satCov = orbitSatelliteCover(sat);
+          @for (sat of orbitDual.outer; track trackOrbitSatellite(sat, $index))
+          { @let satCov = orbitSatelliteCover(sat);
           <li class="mix-base-orbit-slot" [style.--orbit-i]="$index">
             <div
               class="mix-base-orbit-satellite-card mix-orbit-cover"

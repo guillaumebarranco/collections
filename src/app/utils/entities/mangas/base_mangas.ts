@@ -225,7 +225,8 @@ export const baseMangas: BaseManga[] = [
   {
     title: 'Captain Tsubasa',
     author: 'Yōichi Takahashi',
-    coverUrl: '/mangas_pictures/captain_tsubasa.webp',
+    coverUrl:
+      '/mangas_pictures/0356a39b00eb.jpg',
     genre: 'Shonen',
     nbTomes: 37,
     isFinished: true,
@@ -447,7 +448,7 @@ export const baseMangas: BaseManga[] = [
     title: 'Puella Magi Kazumi Magica',
     author: 'Takashi Tensugi',
     coverUrl:
-      'https://m.media-amazon.com/images/I/71OE7QSyWxL._UF1000,1000_QL80_.jpg',
+      '/mangas_pictures/092fb8e00239.jpg',
     genre: 'Seinen',
     nbTomes: 5,
     isFinished: true,
@@ -461,7 +462,7 @@ export const baseMangas: BaseManga[] = [
     title: 'Puella Magi Madoka Magica : The Different Story',
     author: 'U35',
     coverUrl:
-      'https://m.media-amazon.com/images/I/81Jdd6O4jcL._AC_UF894,1000_QL80_.jpg',
+      '/mangas_pictures/ef43067e752a.jpg',
     genre: 'Seinen',
     nbTomes: 2,
     isFinished: true,
@@ -475,7 +476,7 @@ export const baseMangas: BaseManga[] = [
     title: 'Magia Record : Puella Magi Madoka Magica Side Story',
     author: 'U35',
     coverUrl:
-      'https://www.manga-news.com/public/images/series/magia_record_1_meian.webp',
+      '/mangas_pictures/c8edeee68bed.webp',
     genre: 'Seinen',
     nbTomes: 6,
     isFinished: true,
@@ -811,6 +812,20 @@ export const baseMangas: BaseManga[] = [
     fromEntity: null,
   },
   {
+    title: 'The Breaker : New Waves',
+    author: 'Jeon Geuk-Jin',
+    coverUrl:
+      '/mangas_pictures/f664e84cd31c.jpg',
+    genre: 'Shonen',
+    nbTomes: 20,
+    isFinished: true,
+    startDate: '2010-06-01',
+    endDate: '2017-05-23',
+    saga: 'The Breaker',
+    description: '',
+    fromEntity: null,
+  },
+  {
     title: 'Asu No Yoichi',
     author: 'Yū Minamoto',
     coverUrl: '/mangas_pictures/asu_no_yoichi.webp',
@@ -853,7 +868,7 @@ export const baseMangas: BaseManga[] = [
     title: 'Yu-Gi-Oh! R',
     author: 'Akira Itō',
     coverUrl:
-      'https://m.media-amazon.com/images/I/81DYKmHrQaL._AC_UF1000,1000_QL80_.jpg',
+      '/mangas_pictures/9e35d7a59ea1.jpg',
     genre: 'Shonen',
     nbTomes: 5,
     isFinished: true,
@@ -867,7 +882,7 @@ export const baseMangas: BaseManga[] = [
     title: 'Yu-Gi-Oh! GX',
     author: 'Naoyuki Kageyama',
     coverUrl:
-      'https://m.media-amazon.com/images/I/816BjlaG5uL._AC_UF1000,1000_QL80_.jpg',
+      '/mangas_pictures/683736c7fda2.jpg',
     genre: 'Shonen',
     nbTomes: 9,
     isFinished: true,
@@ -881,7 +896,7 @@ export const baseMangas: BaseManga[] = [
     title: "Yu-Gi-Oh! 5D's",
     author: 'Masahiro Hikokubo, Masashi Satō',
     coverUrl:
-      'https://m.media-amazon.com/images/I/71kBS2j1-RL._AC_UF1000,1000_QL80_.jpg',
+      '/mangas_pictures/6a3b8c7749cc.jpg',
     genre: 'Shonen',
     nbTomes: 9,
     isFinished: true,
@@ -895,7 +910,7 @@ export const baseMangas: BaseManga[] = [
     title: 'Yu-Gi-Oh! Zexal',
     author: 'Shin Yoshida, Naohito Miyoshi',
     coverUrl:
-      'https://m.media-amazon.com/images/I/71qOmYWJT1L._AC_UF1000,1000_QL80_.jpg',
+      '/mangas_pictures/c6c6a8a8951f.jpg',
     genre: 'Shonen',
     nbTomes: 9,
     isFinished: true,
@@ -908,7 +923,7 @@ export const baseMangas: BaseManga[] = [
   {
     title: 'Yu-Gi-Oh! Arc-V',
     author: 'Shin Yoshida, Naohito Miyoshi',
-    coverUrl: 'https://m.media-amazon.com/images/I/81sb1vXREML.jpg',
+    coverUrl: '/mangas_pictures/e154d23f051e.jpg',
     genre: 'Shonen',
     nbTomes: 7,
     isFinished: true,
@@ -922,7 +937,7 @@ export const baseMangas: BaseManga[] = [
     title: 'Yu-Gi-Oh! VRAINS',
     author: 'Shin Yoshida, Masashi Satō',
     coverUrl:
-      'https://m.media-amazon.com/images/I/81JmDBQXzpL._AC_UF894,1000_QL80_.jpg',
+      '/mangas_pictures/318be52eda76.jpg',
     genre: 'Shonen',
     nbTomes: 2,
     isFinished: true,
@@ -936,7 +951,7 @@ export const baseMangas: BaseManga[] = [
     title: 'Yu-Gi-Oh! Sevens',
     author: 'Naohito Miyoshi',
     coverUrl:
-      'https://www.manga-news.com/public/images/series/Yu_Gi_Oh_Luke_Bakuretsu_Hado_Den-1-jp.webp',
+      '/mangas_pictures/016873225e33.webp',
     genre: 'Shonen',
     nbTomes: 3,
     isFinished: true,
@@ -949,7 +964,7 @@ export const baseMangas: BaseManga[] = [
   {
     title: 'Yu-Gi-Oh! Go Rush!!',
     author: 'Naohito Miyoshi',
-    coverUrl: 'https://i.ebayimg.com/images/g/yXoAAOSwWP9keDsI/s-l400.jpg',
+    coverUrl: '/mangas_pictures/6b507dbd505a.jpg',
     genre: 'Shonen',
     nbTomes: 8,
     isFinished: false,
@@ -1111,7 +1126,7 @@ export const baseMangas: BaseManga[] = [
     isFinished: true,
     startDate: '2016-02-15',
     endDate: '2020-05-18',
-    saga: '',
+    saga: 'Demon Slayer',
     description: '',
     fromEntity: null,
   },
@@ -1174,9 +1189,37 @@ export const baseMangas: BaseManga[] = [
     coverUrl: '/mangas_pictures/Captain-Tsubasa-Rising-Sun-19-jp.jpg',
     genre: 'Shonen',
     nbTomes: 20,
-    isFinished: false,
+    isFinished: true,
     startDate: '2013-12-28',
-    endDate: '',
+    endDate: '2024-04-04',
+    saga: 'Captain Tsubasa',
+    description: '',
+    fromEntity: null,
+  },
+  {
+    title: 'Captain Tsubasa : Memories',
+    author: 'Yōichi Takahashi',
+    coverUrl:
+      '/mangas_pictures/f59d0e3db5a0.jpg',
+    genre: 'Shonen',
+    nbTomes: 2,
+    isFinished: true,
+    startDate: '1999-09-03',
+    endDate: '1999-12-22',
+    saga: 'Captain Tsubasa',
+    description: '',
+    fromEntity: null,
+  },
+  {
+    title: 'Captain Tsubasa : Kaigai Gekitō-hen',
+    author: 'Yōichi Takahashi',
+    coverUrl:
+      '/mangas_pictures/93186ea23a79.jpg',
+    genre: 'Shonen',
+    nbTomes: 8,
+    isFinished: true,
+    startDate: '2009-05-07',
+    endDate: '2012-04-05',
     saga: 'Captain Tsubasa',
     description: '',
     fromEntity: null,

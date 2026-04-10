@@ -1466,7 +1466,7 @@ export const baseGamesAdaptations: BaseGame[] = [
     editor: 'EA DICE',
     hero: 'Soldat',
     coverUrl:
-      'https://newzoo.com/wp-content/uploads/api/games/artworks/game--star-wars-battlefront-2015.jpg',
+      '/games_pictures/6aeaac07e809.jpg',
     releaseDate: '2015-11-17',
     averageTimeToFinish: 0,
     averageTimeToHundredPercent: 0,
@@ -1809,7 +1809,7 @@ export const baseGamesAdaptations: BaseGame[] = [
     editor: 'Factor 5',
     hero: 'Luke Skywalker',
     coverUrl:
-      'https://upload.wikimedia.org/wikipedia/en/thumb/2/29/Star_Wars_Rogue_Squadron_III_-_Rebel_Strike_Coverart.png/250px-Star_Wars_Rogue_Squadron_III_-_Rebel_Strike_Coverart.png',
+      '/games_pictures/571eb4fee931.png',
     releaseDate: '2003-10-15',
     averageTimeToFinish: 10,
     averageTimeToHundredPercent: 15,
@@ -1846,7 +1846,7 @@ export const baseGamesAdaptations: BaseGame[] = [
     editor: 'Pandemic Studios',
     hero: 'Soldat',
     coverUrl:
-      'https://static.wikia.nocookie.net/frstarwars/images/9/9c/Jaquette_battlefront.jpg/revision/latest?cb=20141118164126',
+      '/games_pictures/49125a83af4c.jpg',
     releaseDate: '2004-09-21',
     averageTimeToFinish: 0,
     averageTimeToHundredPercent: 0,
@@ -1865,7 +1865,7 @@ export const baseGamesAdaptations: BaseGame[] = [
     editor: 'LucasArts',
     hero: 'Jango Fett',
     coverUrl:
-      'https://upload.wikimedia.org/wikipedia/en/c/cc/Star_Wars_Bounty_Hunter_PS2.JPG',
+      '/games_pictures/2ff1317f036b.jpg',
     releaseDate: '2002-11-19',
     averageTimeToFinish: 0,
     averageTimeToHundredPercent: 0,
@@ -3309,7 +3309,7 @@ export const baseGamesAdaptations: BaseGame[] = [
     editor: 'London Studio',
     hero: 'Sorcier',
     coverUrl:
-      'https://upload.wikimedia.org/wikipedia/en/a/a3/Book_of_Potions.png',
+      '/games_pictures/35977688661d.png',
     releaseDate: '2013-11-15',
     averageTimeToFinish: 4,
     averageTimeToHundredPercent: 0,

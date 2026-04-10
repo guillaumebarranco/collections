@@ -1698,7 +1698,7 @@ export const baseMoviesAnimated2: BaseMovie[] = [
     director: 'Tatsuya Nagamine',
     actors: [{ name: 'Masako Nozawa' }, { name: 'Bin Shimada' }],
     coverUrl:
-      'https://fr.web.img3.acsta.net/pictures/19/02/22/16/14/0019120.jpg',
+      '/movies_pictures/d040d049d297.jpg',
     releaseDate: '2018-12-14',
     length: 100,
     genre: ['Animation'],
@@ -1715,7 +1715,7 @@ export const baseMoviesAnimated2: BaseMovie[] = [
     title: 'Dragon Ball Super: Super Hero',
     director: 'Tetsuro Kodama',
     actors: [{ name: 'Masako Nozawa' }, { name: 'Toshio Furukawa' }],
-    coverUrl: 'https://m.media-amazon.com/images/I/81ebvC1a7zL.jpg',
+    coverUrl: '/movies_pictures/909f22973c8a.jpg',
     releaseDate: '2022-06-11',
     length: 100,
     genre: ['Animation'],
@@ -2287,7 +2287,8 @@ export const baseMoviesAnimated2: BaseMovie[] = [
     title: 'Pokémon : Détective Pikachu',
     director: 'Rob Letterman',
     actors: [{ name: 'Justice Smith' }, { name: 'Ryan Reynolds' }],
-    coverUrl: '/movies_pictures/pokemon-detective-pikachu.jpg',
+    coverUrl:
+      '/movies_pictures/38e2acd94658.jpg',
     releaseDate: '2019-05-03',
     length: 104,
     genre: ['Action', 'Fantastique', 'Jeunesse'],
@@ -2306,7 +2307,7 @@ export const baseMoviesAnimated2: BaseMovie[] = [
     director: 'Junji Shimizu',
     actors: [{ name: 'Inconnu' }],
     coverUrl:
-      'https://www.manga-news.com/public/images/dvd/Yu_Gi_Oh_season_0-film-visual.webp',
+      '/movies_pictures/69c15cfca883.webp',
     releaseDate: '1999-03-06',
     length: 30,
     genre: ['Animation', 'Action', 'Aventure'],
@@ -2324,7 +2325,7 @@ export const baseMoviesAnimated2: BaseMovie[] = [
     director: 'Hatsuki Tsuji',
     actors: [{ name: 'Inconnu' }],
     coverUrl:
-      'https://m.media-amazon.com/images/I/81Y0-hMw5oL._AC_UF894,1000_QL80_.jpg',
+      '/movies_pictures/33a69d09f5bd.jpg',
     releaseDate: '2004-11-03',
     length: 90,
     genre: ['Animation', 'Action', 'Aventure'],
@@ -2342,7 +2343,7 @@ export const baseMoviesAnimated2: BaseMovie[] = [
     director: 'Satoshi Kuwabara',
     actors: [{ name: 'Inconnu' }],
     coverUrl:
-      'https://m.media-amazon.com/images/I/81kDYmr+v4L._AC_UF894,1000_QL80_.jpg',
+      '/movies_pictures/5acb3ce87c6a.jpg',
     releaseDate: '2010-01-23',
     length: 50,
     genre: ['Animation', 'Action', 'Aventure'],
@@ -2360,7 +2361,7 @@ export const baseMoviesAnimated2: BaseMovie[] = [
     director: 'Satoshi Kuwabara',
     actors: [{ name: 'Inconnu' }],
     coverUrl:
-      'https://fr.web.img6.acsta.net/pictures/16/09/01/14/44/192513.jpg',
+      '/movies_pictures/94db5ace3c3e.jpg',
     releaseDate: '2016-04-23',
     length: 130,
     genre: ['Animation', 'Action', 'Aventure'],
@@ -2378,7 +2379,7 @@ export const baseMoviesAnimated2: BaseMovie[] = [
     director: 'Gisaburo Sugii',
     actors: [{ name: 'Kōji Tsujitani' }, { name: 'Tesshō Genda' }],
     coverUrl:
-      'https://m.media-amazon.com/images/M/MV5BMTVmY2I1YjctMDMwMS00OWFmLWFiNDktMTk2ZDljZDIzYTg4XkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg',
+      '/movies_pictures/876330af9cbb.jpg',
     releaseDate: '1994-08-08',
     length: 94,
     genre: ['Animation', 'Action'],
@@ -2395,7 +2396,7 @@ export const baseMoviesAnimated2: BaseMovie[] = [
     title: 'Tekken: Blood Vengeance',
     director: 'Yoichi Mouri',
     actors: [{ name: 'Mamoru Miyano' }, { name: 'Yuki Matsuoka' }],
-    coverUrl: 'https://i.ebayimg.com/images/g/hMsAAOxyzGlQ8~pL/s-l640.jpg',
+    coverUrl: '/movies_pictures/d431debdb14e.jpg',
     releaseDate: '2011-07-26',
     length: 100,
     genre: ['Animation', 'Action'],

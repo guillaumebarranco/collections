@@ -2534,7 +2534,7 @@ export const baseGamesAdaptations2: BaseGame[] = [
     editor: 'Bandai Namco Games',
     hero: 'Madoka Kaname',
     coverUrl:
-      'https://thumbs.coleka.com/media/item/201704/24/playstation-portable-psp-puella-magi-madoka-magica-portable.webp',
+      '/games_pictures/20a0557e8c1e.webp',
     releaseDate: '2012-03-15',
     averageTimeToFinish: 12,
     averageTimeToHundredPercent: 35,
@@ -2572,7 +2572,7 @@ export const baseGamesAdaptations2: BaseGame[] = [
     editor: 'Aniplex',
     hero: 'Madoka Kaname',
     coverUrl:
-      'https://m.media-amazon.com/images/M/MV5BM2UzNjNjZmEtYTYwZC00ZjBmLTgzN2MtYjU2M2NkOTUxZWE3XkEyXkFqcGc@._V1_.jpg',
+      '/games_pictures/c96c81d8aa9b.jpg',
     releaseDate: '2025-03-27',
     averageTimeToFinish: 0,
     averageTimeToHundredPercent: 0,
@@ -2592,7 +2592,7 @@ export const baseGamesAdaptations2: BaseGame[] = [
     title: 'Superman',
     editor: 'Kemco',
     hero: 'Superman',
-    coverUrl: 'https://image.jeuxvideo.com/images-sm/ns/s/u/supens0f.jpg',
+    coverUrl: '/games_pictures/ff6dac253d3a.jpg',
     releaseDate: '1988-12-13',
     averageTimeToFinish: 3,
     averageTimeToHundredPercent: 0,
@@ -2611,7 +2611,7 @@ export const baseGamesAdaptations2: BaseGame[] = [
     editor: 'Sega',
     hero: 'Superman',
     coverUrl:
-      'https://retrogaming.me/wp-content/uploads/jeux/megadrive/superman-the-man-of-steel-europe.png',
+      '/games_pictures/65b8559960bf.png',
     releaseDate: '1992-06-19',
     averageTimeToFinish: 5,
     averageTimeToHundredPercent: 0,
@@ -2649,7 +2649,7 @@ export const baseGamesAdaptations2: BaseGame[] = [
     editor: 'Titus Software',
     hero: 'Superman',
     coverUrl:
-      'https://assets-prd.ignimgs.com/2022/04/07/superman64-1649369538183.jpg',
+      '/games_pictures/7954203f9b07.jpg',
     releaseDate: '1999-05-31',
     averageTimeToFinish: 6,
     averageTimeToHundredPercent: 0,
@@ -2668,7 +2668,7 @@ export const baseGamesAdaptations2: BaseGame[] = [
     editor: 'Tiertex',
     hero: 'Superman',
     coverUrl:
-      'https://comicbookvideogames.com/wp-content/uploads/2014/06/superman-gameboy-cover.jpg',
+      '/games_pictures/58663f242153.jpg',
     releaseDate: '2000-12-05',
     averageTimeToFinish: 4,
     averageTimeToHundredPercent: 0,
@@ -2705,7 +2705,7 @@ export const baseGamesAdaptations2: BaseGame[] = [
     title: 'Superman: The Man of Steel',
     editor: 'Circus Freak',
     hero: 'Superman',
-    coverUrl: 'https://image.jeuxvideo.com/images-sm/xb/s/u/supmxb0f.jpg',
+    coverUrl: '/games_pictures/9c43df369ccc.jpg',
     releaseDate: '2002-11-19',
     averageTimeToFinish: 8,
     averageTimeToHundredPercent: 0,
@@ -2762,7 +2762,7 @@ export const baseGamesAdaptations2: BaseGame[] = [
     editor: 'Gameloft',
     hero: 'Superman',
     coverUrl:
-      'https://assets-prd.ignimgs.com/2023/09/26/manofsteel-1695688469668.jpg',
+      '/games_pictures/777b39896d2c.jpg',
     releaseDate: '2013-06-14',
     averageTimeToFinish: 3,
     averageTimeToHundredPercent: 0,

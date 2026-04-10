@@ -1297,7 +1297,7 @@ export const baseSeries: BaseSerie[] = [
     director: 'Ray Patterson, Grant Simmons',
     actors: [{ name: 'Paul Soles' }],
     coverUrl:
-      'https://fr.web.img5.acsta.net/medias/nmedia/18/69/61/53/19069380.jpg',
+      '/series_pictures/0b9c1d3be1db.jpg',
     releaseDate: '1967-09-09',
     endDate: '1970-06-14',
     genre: ['Super-héro', 'Animation'],
@@ -1324,7 +1324,7 @@ export const baseSeries: BaseSerie[] = [
       { name: 'Frank Welker' },
     ],
     coverUrl:
-      'https://image.tmdb.org/t/p/original/wp60Ctc3jajZ9FH7rV96ECSab0o.jpg',
+      '/series_pictures/890c1ce264e7.jpg',
     releaseDate: '1981-09-12',
     endDate: '1983-11-05',
     genre: ['Super-héro', 'Animation'],
@@ -1347,7 +1347,7 @@ export const baseSeries: BaseSerie[] = [
       { name: 'Sara Ballantine' },
     ],
     coverUrl:
-      'https://www.comicsblog.fr/images/editeur/Admin-0-Corentin/News/ZZZ-996/spider-man-94-1.jpg',
+      '/series_pictures/25912aea093d.jpg',
     releaseDate: '1994-11-19',
     endDate: '1998-01-31',
     genre: ['Super-héro', 'Animation'],
@@ -1372,7 +1372,7 @@ export const baseSeries: BaseSerie[] = [
     director: 'Will Meugniot',
     actors: [{ name: 'Rino Romano' }, { name: 'Jennifer Hale' }],
     coverUrl:
-      'https://m.media-amazon.com/images/M/MV5BYjhlOWUzYWMtNWUwZS00NjAwLWFhYmEtOTM4MjVkYjc2MDZmXkEyXkFqcGc@._V1_.jpg',
+      '/series_pictures/9b61dc0ee0ee.jpg',
     releaseDate: '1999-10-02',
     endDate: '2001-03-23',
     genre: ['Super-héro', 'Animation'],
@@ -1391,7 +1391,7 @@ export const baseSeries: BaseSerie[] = [
     director: 'Audu Paden, John Fang',
     actors: [{ name: 'Neil Patrick Harris' }, { name: 'Lisa Loeb' }],
     coverUrl:
-      'https://m.media-amazon.com/images/M/MV5BMWQ0OGI4ZjYtOTc0NC00MDQ5LTk2YTYtYzYyZGRmZjdhY2UyXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg',
+      '/series_pictures/3405748c0d0d.jpg',
     releaseDate: '2003-07-11',
     endDate: '2003-09-12',
     genre: ['Super-héro', 'Animation'],
@@ -1410,7 +1410,7 @@ export const baseSeries: BaseSerie[] = [
     director: 'Victor Cook, Greg Weisman',
     actors: [{ name: 'Josh Keaton' }, { name: 'Lacey Chabert' }],
     coverUrl:
-      'https://m.media-amazon.com/images/M/MV5BMjFkMGZmZDUtOTg0My00NGY4LTkxZDYtOGFhODMxNzQ5OWUwXkEyXkFqcGc@._V1_.jpg',
+      '/series_pictures/7c7dce406020.jpg',
     releaseDate: '2008-03-08',
     endDate: '2009-11-18',
     genre: ['Super-héro', 'Animation'],
@@ -1432,7 +1432,7 @@ export const baseSeries: BaseSerie[] = [
     director: 'Paul Dini, Man of Action',
     actors: [{ name: 'Drake Bell' }, { name: 'Chi McBride' }],
     coverUrl:
-      'https://media.senscritique.com/media/000006518053/0/ultimate_spider_man.jpg',
+      '/series_pictures/bc9080cb4ead.jpg',
     releaseDate: '2012-04-01',
     endDate: '2017-01-07',
     genre: ['Super-héro', 'Animation'],
@@ -1456,7 +1456,7 @@ export const baseSeries: BaseSerie[] = [
     director: 'Philip Pignotti',
     actors: [{ name: 'Robbie Daymond' }, { name: 'Fred Tatasciore' }],
     coverUrl:
-      'https://images.justwatch.com/poster/67863254/s718/marvels-spider-man.jpg',
+      '/series_pictures/6efa9d76b626.jpg',
     releaseDate: '2017-08-19',
     endDate: '2020-10-25',
     genre: ['Super-héro', 'Animation'],
@@ -1479,7 +1479,7 @@ export const baseSeries: BaseSerie[] = [
     director: 'Sol Choi',
     actors: [{ name: 'Benjamin Valic' }, { name: 'Jakari Fraser' }],
     coverUrl:
-      'https://fr.web.img5.acsta.net/pictures/21/07/16/18/10/2058577.jpg',
+      '/series_pictures/5a9d484f4e10.jpg',
     releaseDate: '2021-08-06',
     endDate: '',
     genre: ['Super-héro', 'Animation', 'Jeunesse'],
@@ -1502,7 +1502,7 @@ export const baseSeries: BaseSerie[] = [
     director: 'Kōichi Takemoto',
     actors: [{ name: 'Shinji Tōdō' }],
     coverUrl:
-      'https://m.media-amazon.com/images/M/MV5BZDNkNDc5OTgtY2YzMS00MTM1LTgwNDktYWEwYzlmZmE5MGQ1XkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg',
+      '/series_pictures/196292e53acd.jpg',
     releaseDate: '1978-05-17',
     endDate: '1979-03-14',
     genre: ['Super-héro', 'Science Fiction'],
@@ -1521,7 +1521,7 @@ export const baseSeries: BaseSerie[] = [
     director: 'Kent Butterworth',
     actors: [{ name: 'Jaleel White' }, { name: 'Long John Baldry' }],
     coverUrl:
-      'https://fr.web.img2.acsta.net/c_310_420/pictures/15/02/17/10/16/381615.jpg',
+      '/series_pictures/0e91086ce924.jpg',
     releaseDate: '1993-09-06',
     endDate: '1996-11-01',
     genre: ['Animation', 'Aventure', 'Jeunesse'],
@@ -1540,7 +1540,7 @@ export const baseSeries: BaseSerie[] = [
     director: 'John Grusd, Dick Sebast',
     actors: [{ name: 'Jaleel White' }, { name: 'Kath Soucie' }],
     coverUrl:
-      'https://m.media-amazon.com/images/M/MV5BYzRiMGYyYTItMmRlMC00ZmE2LTk4OTEtOTJiOWM2OTBkNGYyXkEyXkFqcGc@._V1_.jpg',
+      '/series_pictures/f0346cd011d4.jpg',
     releaseDate: '1993-09-18',
     endDate: '1994-12-03',
     genre: ['Animation', 'Science Fiction', 'Jeunesse'],
@@ -1562,7 +1562,7 @@ export const baseSeries: BaseSerie[] = [
     director: 'Patrice Saunier, Marc Stoclet',
     actors: [{ name: 'Jaleel White' }, { name: 'Maurice LaMarche' }],
     coverUrl:
-      'https://m.media-amazon.com/images/M/MV5BMzFjNmZjNzgtMDgzZS00ZDllLTg1YTItZmQxZTEzZDFmY2NhXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg',
+      '/series_pictures/46dfdc5e243b.jpg',
     releaseDate: '1999-01-06',
     endDate: '1999-05-23',
     genre: ['Animation', 'Aventure', 'Jeunesse'],
@@ -1581,7 +1581,7 @@ export const baseSeries: BaseSerie[] = [
     director: 'Natalys Raut Sieuzac',
     actors: [{ name: 'Roger Craig Smith' }, { name: 'Travis Willingham' }],
     coverUrl:
-      'https://m.media-amazon.com/images/M/MV5BNjIxZDgxMTMtOGM1Ny00NjYyLWJkZDQtYWYwODQyMzgwYTIwXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg',
+      '/series_pictures/d4c29106afbe.jpg',
     releaseDate: '2014-11-08',
     endDate: '2017-11-18',
     genre: ['Animation', 'Comédie', 'Jeunesse'],
@@ -1603,7 +1603,7 @@ export const baseSeries: BaseSerie[] = [
     director: 'Erik Wiese, Duncan Rouleau',
     actors: [{ name: 'Deven Mack' }, { name: 'Brian Drummond' }],
     coverUrl:
-      'https://m.media-amazon.com/images/M/MV5BMGEwNTQyOGMtYjc0ZS00MjM1LWE2NzMtNTM1Y2UxYTZhNzAxXkEyXkFqcGc@._V1_.jpg',
+      '/series_pictures/fc2998578641.jpg',
     releaseDate: '2022-12-15',
     endDate: '2024-01-11',
     genre: ['Animation', 'Aventure', 'Jeunesse'],
@@ -1626,7 +1626,7 @@ export const baseSeries: BaseSerie[] = [
     director: 'Jeff Fowler, Ged Wright',
     actors: [{ name: 'Idris Elba' }, { name: 'Adam Pally' }],
     coverUrl:
-      'https://fr.web.img4.acsta.net/c_310_420/pictures/24/02/19/15/29/2590782.jpg',
+      '/series_pictures/406799d9682d.jpg',
     releaseDate: '2024-04-26',
     endDate: '2024-05-03',
     genre: ['Action', 'Comédie', 'Jeunesse'],
@@ -1645,7 +1645,7 @@ export const baseSeries: BaseSerie[] = [
     director: 'Andrew Dabb',
     actors: [{ name: 'Lance Reddick' }, { name: 'Ella Balinska' }],
     coverUrl:
-      'https://www.ecranlarge.com/content/uploads/2022/07/resident-evil-photo-1440928.jpg',
+      '/series_pictures/cc9d1b7978f9.jpg',
     releaseDate: '2022-07-14',
     endDate: '2022-07-14',
     genre: ['Action', 'Horreur', 'Science Fiction'],
@@ -1664,7 +1664,7 @@ export const baseSeries: BaseSerie[] = [
     director: 'Mark Gatiss, Steven Moffat',
     actors: [{ name: 'Benedict Cumberbatch' }, { name: 'Martin Freeman' }],
     coverUrl:
-      'https://fr.web.img5.acsta.net/pictures/18/11/05/18/04/4981046.jpg',
+      '/series_pictures/3d237616a23b.jpg',
     releaseDate: '2010-07-25',
     endDate: '2017-01-15',
     genre: ['Policier', 'Drame'],
@@ -1688,7 +1688,7 @@ export const baseSeries: BaseSerie[] = [
     director: 'Robert Doherty',
     actors: [{ name: 'Jonny Lee Miller' }, { name: 'Lucy Liu' }],
     coverUrl:
-      'https://m.media-amazon.com/images/M/MV5BNTdmOTQ5YjUtYTBkMS00YzhmLTg4ZGEtZTc5MzYxNzI5MThhXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg',
+      '/series_pictures/6322855a15b2.jpg',
     releaseDate: '2012-09-27',
     endDate: '2019-08-15',
     genre: ['Policier', 'Drame'],
@@ -1719,7 +1719,7 @@ export const baseSeries: BaseSerie[] = [
       { name: 'Alan Napier' },
     ],
     coverUrl:
-      'https://static.wikia.nocookie.net/batman/images/7/76/Batman-serie-1966.jpg/revision/latest?cb=20150607075014&path-prefix=fr',
+      '/series_pictures/6f3cc2fe88e6.jpg',
     releaseDate: '1966-01-12',
     endDate: '1968-03-14',
     genre: ['Action', 'Comédie'],
@@ -1745,7 +1745,7 @@ export const baseSeries: BaseSerie[] = [
       { name: 'Loren Lester' },
       { name: 'Mark Hamill' },
     ],
-    coverUrl: 'https://media.senscritique.com/media/000006473751/0/batman.jpg',
+    coverUrl: '/series_pictures/fb1365c589c5.jpg',
     releaseDate: '1992-09-05',
     endDate: '1995-09-15',
     genre: ['Action', 'Animation'],
@@ -1767,7 +1767,7 @@ export const baseSeries: BaseSerie[] = [
     director: 'Bruce Timm, Paul Dini',
     actors: [{ name: 'Will Friedle' }, { name: 'Kevin Conroy' }],
     coverUrl:
-      'https://m.media-amazon.com/images/M/MV5BMDExYjNiYTYtZDkwZC00NDcxLTk3YWYtMmIyN2ZlZGYyY2E0XkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg',
+      '/series_pictures/bd574b3fe872.jpg',
     releaseDate: '1999-01-10',
     endDate: '2001-12-18',
     genre: ['Action', 'Animation'],
@@ -1790,7 +1790,7 @@ export const baseSeries: BaseSerie[] = [
     director: 'Michael Goguen',
     actors: [{ name: 'Rino Romano' }, { name: 'Alastair Duncan' }],
     coverUrl:
-      'https://preview.redd.it/why-do-some-of-you-really-hate-the-batman-2004-v0-5yj3j7mtf8xe1.jpeg?width=640&crop=smart&auto=webp&s=07c839fbaf3bd97c3a9ddcb4922abed924b2e774',
+      '/series_pictures/3f377ad07946.jpeg',
     releaseDate: '2004-09-11',
     endDate: '2008-03-08',
     genre: ['Action', 'Animation'],
@@ -1815,7 +1815,7 @@ export const baseSeries: BaseSerie[] = [
     director: 'Ben Jones, Michael Chang',
     actors: [{ name: 'Diedrich Bader' }, { name: 'James Arnold Taylor' }],
     coverUrl:
-      'https://www.dvdfr.com/images/dvd/covers/200x280/dd88612ac47c87543170de80f55ff7f5/49368/old-batman_l_alliance_des_heros_4.0.jpg',
+      '/series_pictures/43993cb741bb.jpg',
     releaseDate: '2008-11-14',
     endDate: '2011-11-18',
     genre: ['Action', 'Animation'],
@@ -1838,7 +1838,7 @@ export const baseSeries: BaseSerie[] = [
     director: 'Glen Murakami, Sam Register',
     actors: [{ name: 'Anthony Ruivivar' }, { name: 'Sumalee Montano' }],
     coverUrl:
-      'https://m.media-amazon.com/images/M/MV5BMzVhYWVkYmEtNDcxMS00ZWVmLWEwNDMtMzUyMTdkN2Y5ZmFhXkEyXkFqcGc@._V1_.jpg',
+      '/series_pictures/c5c1e2ce3194.jpg',
     releaseDate: '2013-07-13',
     endDate: '2014-09-28',
     genre: ['Action', 'Animation'],
@@ -1861,7 +1861,7 @@ export const baseSeries: BaseSerie[] = [
       { name: 'Paloma Faith' },
     ],
     coverUrl:
-      'https://media.senscritique.com/media/000019911595/0/pennyworth.jpg',
+      '/series_pictures/b2509108f201.jpg',
     releaseDate: '2019-07-28',
     endDate: '2022-11-24',
     genre: ['Action', 'Drame'],
@@ -1888,7 +1888,7 @@ export const baseSeries: BaseSerie[] = [
       { name: 'Michael Kelly' },
     ],
     coverUrl:
-      'https://media.senscritique.com/media/000022369090/0/the_penguin.jpg',
+      '/series_pictures/b92423cddf87.jpg',
     releaseDate: '2024-09-19',
     endDate: '',
     genre: ['Action', 'Crime', 'Drame'],

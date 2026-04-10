@@ -1127,7 +1127,7 @@ export const baseMoviesPage3: BaseMovie[] = [
     director: 'Andrzej Bartkowiak',
     actors: [{ name: 'Kristin Kreuk' }, { name: 'Chris Klein' }],
     coverUrl:
-      'https://m.media-amazon.com/images/S/pv-target-images/430adf86dcca96f97576543a648157539e2828ae6c134cbae82bea3b8b37f8c0._UR2000,3000_.png',
+      '/movies_pictures/a2dbe4d4b877.png',
     releaseDate: '2009-02-27',
     length: 96,
     genre: ['Action'],
@@ -1145,9 +1145,27 @@ export const baseMoviesPage3: BaseMovie[] = [
     director: 'Dwight H. Little',
     actors: [{ name: 'Jon Foo' }, { name: 'Kelly Overton' }],
     coverUrl:
-      'https://fr.web.img3.acsta.net/medias/nmedia/18/65/36/32/19462962.jpg',
+      '/movies_pictures/1a92b1859452.jpg',
     releaseDate: '2010-07-30',
     length: 92,
+    genre: ['Action', 'Science Fiction'],
+    saga: 'Tekken',
+    description: '',
+    fromEntity: {
+      entityType: 'game',
+      title: 'Tekken',
+      secondEntityKey: 'Bandai Namco',
+    },
+    countryOrigin: ['États-Unis'],
+  },
+  {
+    title: "Tekken 2: Kazuya's Revenge",
+    director: 'Wych Kaosayananda',
+    actors: [{ name: 'Kane Kosugi' }, { name: 'Rade Šerbedžija' }],
+    coverUrl:
+      '/movies_pictures/a38231956acd.jpg',
+    releaseDate: '2014-08-06',
+    length: 90,
     genre: ['Action', 'Science Fiction'],
     saga: 'Tekken',
     description: '',
