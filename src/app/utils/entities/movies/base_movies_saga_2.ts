@@ -370,7 +370,11 @@ export const baseMoviesSagaPage2: BaseMovie[] = [
     genre: ['Action'],
     saga: 'James Bond',
     description: '',
-    fromEntity: null,
+    fromEntity: {
+      entityType: 'book',
+      title: 'Casino Royale',
+      secondEntityKey: 'Ian Fleming',
+    },
     countryOrigin: ['États-Unis'],
   },
   {
@@ -383,7 +387,11 @@ export const baseMoviesSagaPage2: BaseMovie[] = [
     genre: ['Action'],
     saga: 'James Bond',
     description: '',
-    fromEntity: null,
+    fromEntity: {
+      entityType: 'book',
+      title: 'Casino Royale',
+      secondEntityKey: 'Ian Fleming',
+    },
     countryOrigin: ['États-Unis'],
   },
   {
@@ -396,7 +404,11 @@ export const baseMoviesSagaPage2: BaseMovie[] = [
     genre: ['Action'],
     saga: 'James Bond',
     description: '',
-    fromEntity: null,
+    fromEntity: {
+      entityType: 'book',
+      title: 'Casino Royale',
+      secondEntityKey: 'Ian Fleming',
+    },
     countryOrigin: ['États-Unis'],
   },
   {
@@ -409,7 +421,11 @@ export const baseMoviesSagaPage2: BaseMovie[] = [
     genre: ['Action'],
     saga: 'James Bond',
     description: '',
-    fromEntity: null,
+    fromEntity: {
+      entityType: 'book',
+      title: 'Casino Royale',
+      secondEntityKey: 'Ian Fleming',
+    },
     countryOrigin: ['États-Unis'],
   },
   {
@@ -426,7 +442,11 @@ export const baseMoviesSagaPage2: BaseMovie[] = [
     genre: ['Action'],
     saga: 'James Bond',
     description: '',
-    fromEntity: null,
+    fromEntity: {
+      entityType: 'book',
+      title: 'Casino Royale',
+      secondEntityKey: 'Ian Fleming',
+    },
     countryOrigin: ['États-Unis'],
   },
   {
@@ -452,7 +472,11 @@ export const baseMoviesSagaPage2: BaseMovie[] = [
     genre: ['Action'],
     saga: 'James Bond',
     description: '',
-    fromEntity: null,
+    fromEntity: {
+      entityType: 'book',
+      title: 'Casino Royale',
+      secondEntityKey: 'Ian Fleming',
+    },
     countryOrigin: ['États-Unis'],
   },
   {
@@ -996,8 +1020,7 @@ export const baseMoviesSagaPage2: BaseMovie[] = [
     title: 'Resident Evil : Chapitre final',
     director: 'Paul W.S. Anderson',
     actors: [{ name: 'Milla Jovovich' }, { name: 'Iain Glen' }],
-    coverUrl:
-      '/movies_pictures/2814ac811b45.jpg',
+    coverUrl: '/movies_pictures/2814ac811b45.jpg',
     releaseDate: '2017-01-25',
     length: 106,
     genre: ['Action', 'Horreur'],
@@ -1014,8 +1037,7 @@ export const baseMoviesSagaPage2: BaseMovie[] = [
     title: 'Resident Evil : Bienvenue à Raccoon City',
     director: 'Johannes Roberts',
     actors: [{ name: 'Kaya Scodelario' }, { name: 'Robbie Amell' }],
-    coverUrl:
-      '/movies_pictures/96e6d30993bc.jpg',
+    coverUrl: '/movies_pictures/96e6d30993bc.jpg',
     releaseDate: '2021-11-24',
     length: 107,
     genre: ['Action', 'Horreur'],
@@ -1032,8 +1054,7 @@ export const baseMoviesSagaPage2: BaseMovie[] = [
     title: 'Resident Evil : Death Island',
     director: 'Eiichiro Hasumi',
     actors: [{ name: 'Matthew Mercer' }, { name: 'Kevin Dorman' }],
-    coverUrl:
-      '/movies_pictures/6a88f3d8af33.jpg',
+    coverUrl: '/movies_pictures/6a88f3d8af33.jpg',
     releaseDate: '2023-07-25',
     length: 91,
     genre: ['Animation', 'Action', 'Horreur'],
@@ -1050,8 +1071,7 @@ export const baseMoviesSagaPage2: BaseMovie[] = [
     title: 'Resident Evil: Degeneration',
     director: 'Makoto Kamiya',
     actors: [{ name: 'Paul Mercier' }, { name: 'Alyson Court' }],
-    coverUrl:
-      '/movies_pictures/b3517353a297.jpg',
+    coverUrl: '/movies_pictures/b3517353a297.jpg',
     releaseDate: '2008-10-17',
     length: 96,
     genre: ['Animation', 'Action', 'Horreur'],
@@ -1068,8 +1088,7 @@ export const baseMoviesSagaPage2: BaseMovie[] = [
     title: 'Resident Evil: Damnation',
     director: 'Makoto Kamiya',
     actors: [{ name: 'Matthew Mercer' }, { name: 'Dave Wittenberg' }],
-    coverUrl:
-      '/movies_pictures/f6f46dc13446.jpg',
+    coverUrl: '/movies_pictures/f6f46dc13446.jpg',
     releaseDate: '2012-10-27',
     length: 96,
     genre: ['Animation', 'Action', 'Horreur'],
@@ -1086,8 +1105,7 @@ export const baseMoviesSagaPage2: BaseMovie[] = [
     title: 'Resident Evil: Vendetta',
     director: 'Takanori Tsujimoto',
     actors: [{ name: 'Matthew Mercer' }, { name: 'Kevin Dorman' }],
-    coverUrl:
-      '/movies_pictures/4c97c026cd88.jpg',
+    coverUrl: '/movies_pictures/4c97c026cd88.jpg',
     releaseDate: '2017-05-27',
     length: 97,
     genre: ['Animation', 'Action', 'Horreur'],

@@ -65,7 +65,7 @@ export const baseMoviesPage1: BaseMovie[] = [
     releaseDate: '2024-06-28',
     length: 178,
     genre: ['Aventure'],
-    saga: '',
+    saga: 'Le Comte de Monte-Cristo',
     description: '',
     fromEntity: {
       entityType: 'book',

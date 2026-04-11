@@ -16,6 +16,7 @@ import {
   baseBooksDystopie,
   baseBooksNonfiction,
   baseBooksJeunesse,
+  baseBooksBond,
 } from '../../utils/entities/books';
 
 import {
@@ -56,6 +57,7 @@ export const allBaseBooks: BaseBook[] = [
   ...baseBooksNonfiction,
   ...baseBooksDystopie,
   ...baseBooksJeunesse,
+  ...baseBooksBond,
 ];
 
 export function getLocalBooksByUser(userId: string): UserBook[] {

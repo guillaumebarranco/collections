@@ -551,7 +551,7 @@ export const baseMoviesAnimated: BaseMovie[] = [
     releaseDate: '2007-07-27',
     length: 87,
     genre: ['Animation'],
-    saga: '',
+    saga: 'Les Simpsons',
     description: '',
     fromEntity: {
       entityType: 'serie',
@@ -795,7 +795,7 @@ export const baseMoviesAnimated: BaseMovie[] = [
     releaseDate: '1999-06-30',
     length: 81,
     genre: ['Animation'],
-    saga: '',
+    saga: 'South Park',
     description: '',
     fromEntity: {
       entityType: 'serie',

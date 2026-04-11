@@ -59,7 +59,7 @@ export const baseBooksAventure: BaseBook[] = [
     coverUrl: '/books_pictures/le_comte_de_monte_cristo.jpg',
     pages: 1056,
     genre: ['Aventure', 'Classiques', 'Fiction historique'],
-    saga: '',
+    saga: 'Le Comte de Monte-Cristo',
     sagaOrder: 0,
     sagaFinished: false,
     releaseDate: '1844-08-28',

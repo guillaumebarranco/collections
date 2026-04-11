@@ -261,7 +261,7 @@ export const baseGamesAdaptations2: BaseGame[] = [
     editor: 'Beenox',
     hero: 'Spider-Man',
     coverUrl:
-      'https://fr.shopping.rakuten.com/pictures/019a7dce-baaf-7d27-accb-56c00c388bef.jpg',
+      '/games_pictures/77a9c18fc6c4.jpg',
     releaseDate: '2011-10-04',
     averageTimeToFinish: 8,
     averageTimeToHundredPercent: 0,

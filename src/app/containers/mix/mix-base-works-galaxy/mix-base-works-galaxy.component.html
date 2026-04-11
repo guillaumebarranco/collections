@@ -1,14 +1,4 @@
 <div class="mix-content mix-by-entity mix-base-works-root">
-  @if (mixBaseWorkOrbitPanels().length === 0) {
-  <p class="mix-empty">Aucune œuvre de base référencée pour le moment.</p>
-  } @else {
-  <p class="mix-base-works-intro">
-    Une seule <strong>œuvre de base</strong> au centre (pour une saga de livres
-    : le <strong>tome 1</strong>). Toutes les autres entrées — autres tomes,
-    films, séries, jeux — sont regroupées en orbite sans lien affiché vers un
-    tome précis. Classement des blocs par score d’export transmédia (même
-    famille ×2, autre ×5). Sur petit écran, l’orbite s’affiche en liste.
-  </p>
   <div class="mix-base-works-toolbar">
     <div class="mix-base-works-search">
       <label
@@ -107,8 +97,11 @@
             <button
               type="button"
               class="mix-orbit-cover__btn"
+              #centralCoverTip="matTooltip"
               [matTooltip]="centralCov.tooltip"
-              matTooltipShowDelay="200"
+              [matTooltipShowDelay]="orbitCoverTooltipShowDelay()"
+              [matTooltipTouchGestures]="orbitCoverTooltipTouchGestures()"
+              (click)="onOrbitCoverTap($event, centralCoverTip)"
               [attr.aria-label]="centralCov.tooltip"
             >
               @if (centralCov.coverUrl) {
@@ -144,8 +137,11 @@
               <button
                 type="button"
                 class="mix-orbit-cover__btn"
+                #satCoverTip="matTooltip"
                 [matTooltip]="satCov.tooltip"
-                matTooltipShowDelay="200"
+                [matTooltipShowDelay]="orbitCoverTooltipShowDelay()"
+                [matTooltipTouchGestures]="orbitCoverTooltipTouchGestures()"
+                (click)="onOrbitCoverTap($event, satCoverTip)"
                 [attr.aria-label]="satCov.tooltip"
               >
                 @if (satCov.coverUrl) {
@@ -184,8 +180,11 @@
               <button
                 type="button"
                 class="mix-orbit-cover__btn"
+                #satInnerCoverTip="matTooltip"
                 [matTooltip]="satCov.tooltip"
-                matTooltipShowDelay="200"
+                [matTooltipShowDelay]="orbitCoverTooltipShowDelay()"
+                [matTooltipTouchGestures]="orbitCoverTooltipTouchGestures()"
+                (click)="onOrbitCoverTap($event, satInnerCoverTip)"
                 [attr.aria-label]="satCov.tooltip"
               >
                 @if (satCov.coverUrl) {
@@ -223,8 +222,11 @@
               <button
                 type="button"
                 class="mix-orbit-cover__btn"
+                #satOuterCoverTip="matTooltip"
                 [matTooltip]="satCov.tooltip"
-                matTooltipShowDelay="200"
+                [matTooltipShowDelay]="orbitCoverTooltipShowDelay()"
+                [matTooltipTouchGestures]="orbitCoverTooltipTouchGestures()"
+                (click)="onOrbitCoverTap($event, satOuterCoverTip)"
                 [attr.aria-label]="satCov.tooltip"
               >
                 @if (satCov.coverUrl) {
@@ -248,5 +250,5 @@
     </div>
     }
   </section>
-  } } }
+  } }
 </div>

@@ -15,3 +15,4 @@ export { baseBooksClassiques } from './base_books_classiques';
 export { baseBooksNonfiction } from './base_books_nonfiction';
 export { baseBooksDystopie } from './base_books_dystopie';
 export { baseBooksJeunesse } from './base_books_jeunesse';
+export { baseBooksBond } from './base_books_bond';

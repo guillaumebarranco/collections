@@ -446,10 +446,35 @@
 }
 
 @media (max-width: 720px) {
+  /* Bloc section plus étroit : marges latérales pour faire défiler la page au doigt */
+  .mix-base-works-root .mix-section {
+    box-sizing: border-box;
+    max-width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .mix-base-orbit-layout {
+    -webkit-overflow-scrolling: touch;
+    scroll-padding-inline: 12px;
+    overscroll-behavior-x: contain;
+    scroll-snap-type: x proximity;
+  }
+
   .mix-base-orbit-inner {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: center;
+    gap: 10px;
+    width: max-content;
+    max-width: none;
     height: auto !important;
-    width: 100% !important;
-    max-width: 100%;
+    min-height: 0;
+    margin-left: 0;
+    margin-right: 0;
+    padding: 4px 12px 20px;
+    box-sizing: border-box;
   }
 
   .mix-base-orbit-inner::before {
@@ -460,48 +485,94 @@
     position: relative;
     top: auto;
     left: auto;
-    width: 100%;
-    max-width: 280px;
-    margin: 0 auto 1.25rem;
+    flex: 0 0 auto;
+    width: auto;
+    max-width: min(104px, 80vw);
+    margin: 0;
     transform: none;
+    scroll-snap-align: center;
     animation: mix-orbit-center-enter-mobile 0.45s
       cubic-bezier(0.33, 1.1, 0.52, 1) both;
+  }
+
+  .mix-base-orbit-center-card {
+    max-width: min(104px, 80vw);
+  }
+
+  .mix-orbit-cover--center .mix-orbit-cover__btn {
+    max-width: min(104px, 80vw);
   }
 
   .mix-base-orbit-ring {
     position: static;
     display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    gap: 12px;
+    flex-flow: row nowrap;
+    flex: 0 0 auto;
+    align-items: center;
+    gap: 10px;
+    justify-content: flex-start;
     pointer-events: auto;
   }
 
   .mix-base-orbit-slot {
     position: static;
-    width: 148px;
+    flex: 0 0 auto;
+    width: min(96px, 80vw);
     height: auto;
     min-height: 0;
     margin: 0;
     transform: none !important;
     transition: transform 0.22s ease, z-index 0s step-end;
     animation: none;
+    scroll-snap-align: center;
   }
 
-  .mix-base-orbit-slot:hover {
-    z-index: 4;
-    transform: translateY(-5px) !important;
+  @media (hover: hover) {
+    .mix-base-orbit-slot:hover {
+      z-index: 4;
+      transform: translateY(-4px) !important;
+    }
   }
 
   .mix-base-orbit-satellite-card {
     height: auto;
     aspect-ratio: 1;
-    max-width: 148px;
+    width: 100%;
+    max-width: min(96px, 80vw);
     margin-left: auto;
     margin-right: auto;
     animation: mix-orbit-satellite-card-fade-mobile 0.5s
       cubic-bezier(0.33, 1, 0.52, 1) both;
     animation-delay: calc(0.06s + var(--orbit-i, 0) * 42ms);
+  }
+
+  .mix-orbit-cover__fallback {
+    font-size: clamp(0.95rem, 5vw, 1.35rem);
+  }
+}
+
+/* Mobile tactile : pas d’effet « hover » (sticky / inexistant au doigt) sur les pochettes */
+@media (max-width: 720px) and (hover: none) {
+  .mix-base-orbit-center:hover {
+    z-index: auto;
+  }
+
+  .mix-base-orbit-center:hover .mix-orbit-cover__btn {
+    transform: none !important;
+    box-shadow: 0 2px 8px rgba(15, 23, 42, 0.08);
+  }
+
+  .mix-base-orbit-slot:hover {
+    z-index: auto;
+    transform: none !important;
+  }
+
+  .mix-base-orbit-slot:hover .mix-base-orbit-satellite-card {
+    box-shadow: 0 2px 12px rgba(15, 23, 42, 0.1);
+  }
+
+  .mix-base-orbit-slot:hover .mix-orbit-cover__btn {
+    box-shadow: 0 2px 8px rgba(15, 23, 42, 0.08);
   }
 }
 

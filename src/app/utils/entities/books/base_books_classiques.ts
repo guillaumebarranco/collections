@@ -345,7 +345,7 @@ export const baseBooksClassiques: BaseBook[] = [
     coverUrl: '/books_pictures/9782075128063_1_75.jpg',
     pages: 1900,
     genre: ['Classiques'],
-    saga: '',
+    saga: 'Les Misérables',
     sagaOrder: 0,
     sagaFinished: false,
     releaseDate: '1862-01-01',

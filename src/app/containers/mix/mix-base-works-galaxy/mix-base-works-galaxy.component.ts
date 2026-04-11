@@ -1,12 +1,20 @@
 import {
-  Component,
+  afterNextRender,
   ChangeDetectionStrategy,
+  Component,
   computed,
+  DestroyRef,
+  inject,
+  Injector,
   input,
   signal,
 } from '@angular/core';
 import { CommonModule } from '@angular/common';
-import { MatTooltipModule } from '@angular/material/tooltip';
+import {
+  MatTooltip,
+  MatTooltipModule,
+  TooltipTouchGestures,
+} from '@angular/material/tooltip';
 import { BaseBd } from '../../../models/bd-model';
 import { BaseBook } from '../../../models/book-model';
 import { BaseComic } from '../../../models/comic-model';
@@ -51,6 +59,19 @@ import {
   changeDetection: ChangeDetectionStrategy.OnPush,
 })
 export class MixBaseWorksGalaxyComponent {
+  private readonly _destroyRef = inject(DestroyRef);
+  private readonly _injector = inject(Injector);
+
+  /**
+   * Sur mobile tactile : désactive l’appui long Material ; l’infobulle s’ouvre au clic
+   * (voir `onOrbitCoverTap`). Au pointeur fin (souris), comportement hover inchangé.
+   */
+  readonly orbitCoverTooltipTouchGestures = signal<TooltipTouchGestures>('auto');
+
+  readonly orbitCoverTooltipShowDelay = computed(() =>
+    this.orbitCoverTooltipTouchGestures() === 'off' ? 0 : 200
+  );
+
   readonly baseBooks = input.required<BaseBook[]>();
   readonly baseBds = input.required<BaseBd[]>();
   readonly baseComics = input.required<BaseComic[]>();
@@ -67,6 +88,23 @@ export class MixBaseWorksGalaxyComponent {
    * (mêmes règles que les fiches).
    */
   readonly emphasizeMyConsumedWorks = signal(false);
+
+  constructor() {
+    afterNextRender(
+      () => {
+        const mq = window.matchMedia('(max-width: 720px) and (hover: none)');
+        const sync = (): void => {
+          this.orbitCoverTooltipTouchGestures.set(mq.matches ? 'off' : 'auto');
+        };
+        sync();
+        mq.addEventListener('change', sync);
+        this._destroyRef.onDestroy(() =>
+          mq.removeEventListener('change', sync)
+        );
+      },
+      { injector: this._injector }
+    );
+  }
 
   readonly userBaseGalaxyConsumption = computed(() =>
     buildUserBaseGalaxyConsumption(this.effectiveUserIdLower())
@@ -389,6 +427,18 @@ export class MixBaseWorksGalaxyComponent {
   onBaseWorksSearchInput(event: Event): void {
     const el = event.target as HTMLInputElement | null;
     this.baseWorksSearchQuery.set(el?.value ?? '');
+  }
+
+  /**
+   * Mobile tactile : pas de hover ; un tap affiche ou masque l’infobulle (même contenu qu’au survol desktop).
+   */
+  onOrbitCoverTap(event: Event, tooltip: MatTooltip): void {
+    if (this.orbitCoverTooltipTouchGestures() !== 'off') {
+      return;
+    }
+    event.preventDefault();
+    event.stopPropagation();
+    tooltip.toggle();
   }
 
   orbitCentralIsDimmed(central: MixBaseWorkOrbitPanel['central']): boolean {

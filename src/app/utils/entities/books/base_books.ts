@@ -1905,4 +1905,18 @@ export const baseBooks: BaseBook[] = [
     description: '',
     countryOrigin: 'Belgique',
   },
+  {
+    title: 'Casino Royale',
+    author: 'Ian Fleming',
+    coverUrl:
+      '/books_pictures/c96b8b7a8e31.jpg',
+    pages: 240,
+    genre: ['Fiction'],
+    saga: 'James Bond',
+    sagaOrder: 1,
+    sagaFinished: false,
+    releaseDate: '1953-04-13',
+    description: '',
+    countryOrigin: 'Royaume-Uni',
+  },
 ];

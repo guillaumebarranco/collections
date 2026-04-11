@@ -321,7 +321,7 @@ export const baseBooksPolicier: BaseBook[] = [
     title: 'Les Archives de Sherlock Holmes',
     author: 'Arthur Conan Doyle',
     coverUrl:
-      'https://m.media-amazon.com/images/I/619l81PzlcL._AC_UF1000,1000_QL80_.jpg',
+      '/books_pictures/412a6a13f67d.jpg',
     pages: 320,
     genre: ['Policier'],
     saga: 'Sherlock Holmes',

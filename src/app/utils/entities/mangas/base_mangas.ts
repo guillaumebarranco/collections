@@ -1809,7 +1809,7 @@ export const baseMangas: BaseManga[] = [
     isFinished: true,
     startDate: '1985-12-03',
     endDate: '1990-04-03',
-    saga: '',
+    saga: 'Saint Seiya',
     description: '',
     fromEntity: null,
   },

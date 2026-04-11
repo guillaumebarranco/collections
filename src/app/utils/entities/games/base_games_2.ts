@@ -2123,7 +2123,7 @@ export const baseGames2: BaseGame[] = [
     editor: '343 Industries',
     hero: 'Spartan',
     coverUrl:
-      'https://upload.wikimedia.org/wikipedia/en/6/6d/Halo-spartan-assault-boxart.png',
+      '/games_pictures/c0bf433a13a7.png',
     releaseDate: '2013-07-18',
     averageTimeToFinish: 4,
     averageTimeToHundredPercent: 10,
@@ -2194,7 +2194,7 @@ export const baseGames2: BaseGame[] = [
     editor: 'Blizzard Entertainment',
     hero: 'Aventurier',
     coverUrl:
-      'https://upload.wikimedia.org/wikipedia/en/6/65/World_of_Warcraft.png',
+      '/games_pictures/7235d31f7c7a.png',
     releaseDate: '2004-11-23',
     averageTimeToFinish: 120,
     averageTimeToHundredPercent: 400,
@@ -2392,7 +2392,7 @@ export const baseGames2: BaseGame[] = [
     editor: 'Blizzard Entertainment',
     hero: 'Aventurier',
     coverUrl:
-      'https://upload.wikimedia.org/wikipedia/en/8/80/Diablo_III_cover.png',
+      '/games_pictures/6d9b74e3cf9d.png',
     releaseDate: '2012-05-15',
     averageTimeToFinish: 15,
     averageTimeToHundredPercent: 80,
@@ -2435,7 +2435,7 @@ export const baseGames2: BaseGame[] = [
     editor: 'Blizzard Entertainment',
     hero: 'Jim Raynor',
     coverUrl:
-      'https://upload.wikimedia.org/wikipedia/en/9/93/StarCraft_box_art.jpg',
+      '/games_pictures/61980b2d4a08.jpg',
     releaseDate: '1998-03-31',
     averageTimeToFinish: 20,
     averageTimeToHundredPercent: 45,
@@ -2534,7 +2534,7 @@ export const baseGames2: BaseGame[] = [
     editor: 'Nintendo',
     hero: 'Samus Aran',
     coverUrl:
-      'https://upload.wikimedia.org/wikipedia/en/5/5d/Metroid_boxart.jpg',
+      '/games_pictures/df296c6296f4.jpg',
     releaseDate: '1986-08-06',
     averageTimeToFinish: 6,
     averageTimeToHundredPercent: 10,
@@ -2863,7 +2863,7 @@ export const baseGames2: BaseGame[] = [
     editor: 'Valve',
     hero: 'Terroriste / CT',
     coverUrl:
-      'https://upload.wikimedia.org/wikipedia/en/4/43/Counter-Strike_Source_%28box_art%29.jpg',
+      '/games_pictures/0a912822b5d6.jpg',
     releaseDate: '2004-11-01',
     averageTimeToFinish: 0,
     averageTimeToHundredPercent: 0,

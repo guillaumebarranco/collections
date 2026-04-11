@@ -2082,7 +2082,7 @@ export const baseGamesAdaptations: BaseGame[] = [
     editor: 'Lucas Learning',
     hero: 'Anakin Skywalker',
     coverUrl:
-      'https://upload.wikimedia.org/wikipedia/en/f/f5/Star_Wars_Super_Bombad_Racing_boxart.jpg',
+      '/games_pictures/9cd7f6921bb8.jpg',
     releaseDate: '2001-04-23',
     averageTimeToFinish: 0,
     averageTimeToHundredPercent: 0,
@@ -2191,7 +2191,7 @@ export const baseGamesAdaptations: BaseGame[] = [
     title: 'Star Wars: Masters of Teräs Käsi',
     editor: 'LucasArts',
     hero: 'Luke Skywalker',
-    coverUrl: 'https://upload.wikimedia.org/wikipedia/en/8/81/Mastersbox.jpg',
+    coverUrl: '/games_pictures/3312d2a68b1d.jpg',
     releaseDate: '1997-10-31',
     averageTimeToFinish: 0,
     averageTimeToHundredPercent: 0,

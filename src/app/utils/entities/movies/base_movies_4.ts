@@ -324,15 +324,15 @@ export const baseMoviesPage4: BaseMovie[] = [
     director: 'Phil Lord, Christopher Miller',
     actors: [
       {
-        name: "Jonah Hill",
-      }
+        name: 'Jonah Hill',
+      },
     ],
-    coverUrl: "/movies_pictures/279-21-jump-street-0-150-0-225-crop.jpg",
-    releaseDate: "2012-03-16",
+    coverUrl: '/movies_pictures/279-21-jump-street-0-150-0-225-crop.jpg',
+    releaseDate: '2012-03-16',
     length: 109,
     genre: ['Comédie', 'Policier'],
-    saga: "",
-    description: "",
+    saga: '',
+    description: '',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
   },
@@ -556,7 +556,11 @@ export const baseMoviesPage4: BaseMovie[] = [
     genre: ['Science Fiction'],
     saga: '',
     description: '',
-    fromEntity: null,
+    fromEntity: {
+      entityType: 'book',
+      title: 'Running man',
+      secondEntityKey: 'Stephen King',
+    },
     countryOrigin: ['États-Unis'],
   },
   {
@@ -1082,24 +1086,24 @@ export const baseMoviesPage4: BaseMovie[] = [
     director: 'Shawn Levy',
     actors: [
       {
-        name: "Ryan Reynolds",
+        name: 'Ryan Reynolds',
       },
       {
-        name: "Zoe Saldana",
+        name: 'Zoe Saldana',
       },
       {
-        name: "Mark Ruffalo",
+        name: 'Mark Ruffalo',
       },
       {
-        name: "Jennifer Gardner",
-      }
+        name: 'Jennifer Gardner',
+      },
     ],
-    coverUrl: "/movies_pictures/4623310.jpg",
-    releaseDate: "2022-03-11",
+    coverUrl: '/movies_pictures/4623310.jpg',
+    releaseDate: '2022-03-11',
     length: 106,
     genre: ['Action', 'Comédie', 'Science Fiction', 'Fantastique', 'Aventure'],
-    saga: "",
-    description: "",
+    saga: '',
+    description: '',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
   },

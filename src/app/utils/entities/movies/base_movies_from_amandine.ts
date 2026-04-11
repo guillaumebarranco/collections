@@ -692,7 +692,7 @@ export const baseMoviesFromAmandine: BaseMovie[] = [
     releaseDate: '2012-12-25',
     length: 158,
     genre: ['Comédie musicale', 'Drame'],
-    saga: '',
+    saga: 'Les Misérables',
     description: '',
     fromEntity: {
       entityType: 'book',
@@ -795,7 +795,7 @@ export const baseMoviesFromAmandine: BaseMovie[] = [
     releaseDate: '2009-12-25',
     length: 128,
     genre: ['Action', 'Mystère'],
-    saga: '',
+    saga: 'Sherlock Holmes',
     description: '',
     fromEntity: {
       entityType: 'book',
@@ -822,7 +822,7 @@ export const baseMoviesFromAmandine: BaseMovie[] = [
     releaseDate: '2012-01-25',
     length: 129,
     genre: ['Action'],
-    saga: '',
+    saga: 'Sherlock Holmes',
     description: '',
     fromEntity: {
       entityType: 'book',
@@ -1555,9 +1555,13 @@ export const baseMoviesFromAmandine: BaseMovie[] = [
     releaseDate: '1995-11-17',
     length: 130,
     genre: ['Action'],
-    saga: '',
+    saga: 'James Bond',
     description: '',
-    fromEntity: null,
+    fromEntity: {
+      entityType: 'book',
+      title: 'Casino Royale',
+      secondEntityKey: 'Ian Fleming',
+    },
     countryOrigin: ['États-Unis'],
   },
   {

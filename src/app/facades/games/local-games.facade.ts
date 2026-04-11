@@ -1,6 +1,20 @@
 import { baseGames } from '../../utils/entities/games/base_games';
 import { baseGames2 } from '../../utils/entities/games/base_games_2';
 import { baseGamesApi } from '../../utils/entities/games/base_games_api';
+import { baseGamesAsterix } from '../../utils/entities/games/base_games_asterix';
+import { baseGamesTolkien } from '../../utils/entities/games/base_games_tolkien';
+import { baseGamesBond } from '../../utils/entities/games/base_games_bond';
+import { baseGamesSherlockHolmes } from '../../utils/entities/games/base_games_sherlock_holmes';
+import { baseGamesYuYuHakusho } from '../../utils/entities/games/base_games_yu_yu_hakusho';
+import { baseGamesSimpsons } from '../../utils/entities/games/base_games_simpsons';
+import { baseGamesBleach } from '../../utils/entities/games/base_games_bleach';
+import { baseGamesDetectiveConan } from '../../utils/entities/games/base_games_detective_conan';
+import { baseGamesSouthPark } from '../../utils/entities/games/base_games_south_park';
+import { baseGamesWarOfTheWorlds } from '../../utils/entities/games/base_games_war_of_the_worlds';
+import { baseGamesMonteCristo } from '../../utils/entities/games/base_games_monte_cristo';
+import { baseGamesLesMiserables } from '../../utils/entities/games/base_games_les_miserables';
+import { baseGamesSaintSeiya } from '../../utils/entities/games/base_games_saint_seiya';
+import { baseGamesFastAndFurious } from '../../utils/entities/games/base_games_fast_and_furious';
 import { baseGamesMario } from '../../utils/entities/games/base_games_mario';
 import { baseGamesAdaptations } from '../../utils/entities/games/base_games_adaptations';
 import { baseGamesAdaptations2 } from '../../utils/entities/games/base_games_adaptations_2';
@@ -22,6 +36,20 @@ import { cassandreGames } from '../../utils/users/cassandre/games/cassandre_game
 export const allBaseGames: BaseGame[] = [
   ...baseGames,
   ...baseGamesApi,
+  ...baseGamesAsterix,
+  ...baseGamesTolkien,
+  ...baseGamesBond,
+  ...baseGamesSherlockHolmes,
+  ...baseGamesYuYuHakusho,
+  ...baseGamesSimpsons,
+  ...baseGamesBleach,
+  ...baseGamesDetectiveConan,
+  ...baseGamesSouthPark,
+  ...baseGamesWarOfTheWorlds,
+  ...baseGamesMonteCristo,
+  ...baseGamesLesMiserables,
+  ...baseGamesSaintSeiya,
+  ...baseGamesFastAndFurious,
   ...baseGamesMario,
   ...baseGamesAdaptations,
   ...baseGamesAdaptations2,
