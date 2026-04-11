@@ -1435,4 +1435,19 @@ export const ronanBooks: UserBooks = [
     wantToReadAgain: false,
     ratingComment: '',
   },
+
+  {
+    title: "Oscar et la dame en rose",
+    author: "Éric-Emmanuel Schmitt",
+    firstReadDate: '',
+    lastReadDate: '',
+    rating: 0,
+    readTimes: 1,
+    owned: false,
+    borrowed: '',
+    loaned: '',
+    readPriority: 1,
+    wantToReadAgain: false,
+    ratingComment: '',
+  },
 ];
