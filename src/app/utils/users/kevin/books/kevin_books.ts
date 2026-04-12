@@ -1635,4 +1635,19 @@ export const kevinBooks: UserBooks = [
     wantToReadAgain: false,
     ratingComment: "Tout ce qui manquait au premier tome se retrouve dans celui-là.",
   },
+
+  {
+    title: "La Guilde des Magiciens",
+    author: "Trudi Canavan",
+    firstReadDate: "2026-04-12",
+    lastReadDate: "2026-04-12",
+    rating: 3.5,
+    readTimes: 1,
+    owned: true,
+    borrowed: "",
+    loaned: "",
+    readPriority: 1,
+    wantToReadAgain: false,
+    ratingComment: "Livre assez simple et classique. Quelques lenteurs, beaucoup de passages inutiles mais un potentiel intéressant.",
+  },
 ];

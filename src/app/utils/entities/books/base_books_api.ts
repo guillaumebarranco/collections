@@ -1769,4 +1769,18 @@ export const baseBooksApi: BaseBook[] = [
     description: '',
     countryOrigin: '',
   },
+
+  {
+    title: "La Guilde des Magiciens",
+    author: "Trudi Canavan",
+    coverUrl: "https://images.noosfere.org/couv/f/floisirs03892-2010.jpg",
+    pages: 392,
+    genre: [],
+    saga: "La Trilogie du Magicien Noir",
+    sagaOrder: 1,
+    sagaFinished: true,
+    releaseDate: "2001-10-24",
+    description: "",
+    countryOrigin: "Australie",
+  },
 ];
