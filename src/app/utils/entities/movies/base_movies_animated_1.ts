@@ -64,7 +64,7 @@ export const baseMoviesAnimated: BaseMovie[] = [
     fromEntity: {
       entityType: 'comic',
       title: 'Spider-Man',
-      secondEntityKey: 'J. Michael Straczynski',
+      secondEntityKey: 'Stan Lee',
     },
     countryOrigin: ['États-Unis'],
   },
@@ -86,7 +86,7 @@ export const baseMoviesAnimated: BaseMovie[] = [
     fromEntity: {
       entityType: 'comic',
       title: 'Spider-Man',
-      secondEntityKey: 'J. Michael Straczynski',
+      secondEntityKey: 'Stan Lee',
     },
     countryOrigin: ['États-Unis'],
   },
@@ -125,8 +125,7 @@ export const baseMoviesAnimated: BaseMovie[] = [
     title: 'Super Mario Bros.',
     director: 'Rocky Morton, Annabel Jankel',
     actors: [{ name: 'Bob Hoskins' }, { name: 'John Leguizamo' }],
-    coverUrl:
-      '/movies_pictures/b248918b4ebc.jpg',
+    coverUrl: '/movies_pictures/b248918b4ebc.jpg',
     releaseDate: '1993-05-28',
     length: 104,
     genre: ['Aventure', 'Science Fiction', 'Comédie'],
@@ -1287,8 +1286,7 @@ export const baseMoviesAnimated: BaseMovie[] = [
     title: 'Naruto Shippuden : Le Film',
     director: 'Hajime Kamegaki',
     actors: [{ name: 'Junko Takeuchi' }, { name: 'Chie Nakamura' }],
-    coverUrl:
-      '/movies_pictures/d6c225196859.jpg',
+    coverUrl: '/movies_pictures/d6c225196859.jpg',
     releaseDate: '2007-08-04',
     length: 95,
     genre: ['Animation', 'Action'],
@@ -1305,8 +1303,7 @@ export const baseMoviesAnimated: BaseMovie[] = [
     title: 'Naruto Shippuden : Les Liens',
     director: 'Hajime Kamegaki',
     actors: [{ name: 'Junko Takeuchi' }, { name: 'Motoko Kumai' }],
-    coverUrl:
-      '/movies_pictures/652306dbfb22.jpg',
+    coverUrl: '/movies_pictures/652306dbfb22.jpg',
     releaseDate: '2008-08-02',
     length: 93,
     genre: ['Animation', 'Action'],
@@ -1323,8 +1320,7 @@ export const baseMoviesAnimated: BaseMovie[] = [
     title: 'Naruto Shippuden : La Flamme de la volonté',
     director: 'Masahiko Murata',
     actors: [{ name: 'Junko Takeuchi' }, { name: 'Nana Mizuki' }],
-    coverUrl:
-      '/movies_pictures/0f04b59eb091.jpg',
+    coverUrl: '/movies_pictures/0f04b59eb091.jpg',
     releaseDate: '2009-08-01',
     length: 96,
     genre: ['Animation', 'Action'],
@@ -1341,8 +1337,7 @@ export const baseMoviesAnimated: BaseMovie[] = [
     title: 'Naruto Shippuden : La Tour perdue',
     director: 'Naoyoshi Kusama',
     actors: [{ name: 'Junko Takeuchi' }, { name: 'Chie Nakamura' }],
-    coverUrl:
-      '/movies_pictures/129874fd6f63.jpg',
+    coverUrl: '/movies_pictures/129874fd6f63.jpg',
     releaseDate: '2010-07-31',
     length: 85,
     genre: ['Animation', 'Action'],
@@ -1359,8 +1354,7 @@ export const baseMoviesAnimated: BaseMovie[] = [
     title: 'Naruto Shippuden : Blood Prison',
     director: 'Masahiko Murata',
     actors: [{ name: 'Junko Takeuchi' }, { name: 'Mie Sonozaki' }],
-    coverUrl:
-      '/movies_pictures/c29b79839822.jpg',
+    coverUrl: '/movies_pictures/c29b79839822.jpg',
     releaseDate: '2011-07-30',
     length: 108,
     genre: ['Animation', 'Action'],
@@ -1377,8 +1371,7 @@ export const baseMoviesAnimated: BaseMovie[] = [
     title: 'Road to Ninja : Naruto le film',
     director: 'Hayato Date',
     actors: [{ name: 'Junko Takeuchi' }, { name: 'Chie Nakamura' }],
-    coverUrl:
-      '/movies_pictures/0aefffeb6fb3.jpg',
+    coverUrl: '/movies_pictures/0aefffeb6fb3.jpg',
     releaseDate: '2012-07-28',
     length: 109,
     genre: ['Animation', 'Action'],
@@ -1412,8 +1405,7 @@ export const baseMoviesAnimated: BaseMovie[] = [
     title: 'Boruto : Naruto, le film',
     director: 'Hiroyuki Yamashita',
     actors: [{ name: 'Yūko Sanpei' }, { name: 'Junko Takeuchi' }],
-    coverUrl:
-      '/movies_pictures/f787dca3a6d2.jpg',
+    coverUrl: '/movies_pictures/f787dca3a6d2.jpg',
     releaseDate: '2015-08-07',
     length: 95,
     genre: ['Animation', 'Action'],
@@ -1447,8 +1439,7 @@ export const baseMoviesAnimated: BaseMovie[] = [
     title: 'Demon Slayer : Vers le village des forgerons',
     director: 'Haruo Sotozaki',
     actors: [{ name: 'Natsuki Hanae' }, { name: 'Akari Kitō' }],
-    coverUrl:
-      '/movies_pictures/d492c78ad15a.webp',
+    coverUrl: '/movies_pictures/d492c78ad15a.webp',
     releaseDate: '2023-03-03',
     length: 110,
     genre: ['Animation', 'Action', 'Fantastique'],
@@ -1465,8 +1456,7 @@ export const baseMoviesAnimated: BaseMovie[] = [
     title: "Demon Slayer : Vers l'entraînement des Piliers",
     director: 'Haruo Sotozaki',
     actors: [{ name: 'Natsuki Hanae' }, { name: 'Akari Kitō' }],
-    coverUrl:
-      '/movies_pictures/b1998b1f058c.jpg',
+    coverUrl: '/movies_pictures/b1998b1f058c.jpg',
     releaseDate: '2024-02-23',
     length: 104,
     genre: ['Animation', 'Action', 'Fantastique'],
@@ -1562,7 +1552,7 @@ export const baseMoviesAnimated: BaseMovie[] = [
     fromEntity: {
       entityType: 'comic',
       title: 'Batman',
-      secondEntityKey: 'DC Comics',
+      secondEntityKey: 'Bill Finger',
     },
     countryOrigin: ['États-Unis'],
   },
@@ -1731,7 +1721,7 @@ export const baseMoviesAnimated: BaseMovie[] = [
     fromEntity: {
       entityType: 'comic',
       title: 'Batman',
-      secondEntityKey: 'DC Comics',
+      secondEntityKey: 'Bill Finger',
     },
     countryOrigin: ['États-Unis'],
   },
@@ -1788,7 +1778,7 @@ export const baseMoviesAnimated: BaseMovie[] = [
     fromEntity: {
       entityType: 'comic',
       title: 'Batman',
-      secondEntityKey: 'DC Comics',
+      secondEntityKey: 'Bill Finger',
     },
     countryOrigin: ['États-Unis'],
   },
@@ -1842,7 +1832,7 @@ export const baseMoviesAnimated: BaseMovie[] = [
     fromEntity: {
       entityType: 'comic',
       title: 'Batman',
-      secondEntityKey: 'DC Comics',
+      secondEntityKey: 'Bill Finger',
     },
     countryOrigin: ['États-Unis'],
   },
@@ -1869,7 +1859,7 @@ export const baseMoviesAnimated: BaseMovie[] = [
     fromEntity: {
       entityType: 'comic',
       title: 'Batman',
-      secondEntityKey: 'DC Comics',
+      secondEntityKey: 'Bill Finger',
     },
     countryOrigin: ['États-Unis'],
   },
@@ -1942,7 +1932,7 @@ export const baseMoviesAnimated: BaseMovie[] = [
     fromEntity: {
       entityType: 'comic',
       title: 'Batman',
-      secondEntityKey: 'DC Comics',
+      secondEntityKey: 'Bill Finger',
     },
     countryOrigin: ['États-Unis'],
   },
@@ -2100,7 +2090,7 @@ export const baseMoviesAnimated: BaseMovie[] = [
     fromEntity: {
       entityType: 'comic',
       title: 'Batman',
-      secondEntityKey: 'DC Comics',
+      secondEntityKey: 'Bill Finger',
     },
     countryOrigin: ['États-Unis'],
   },
@@ -2112,8 +2102,7 @@ export const baseMoviesAnimated: BaseMovie[] = [
       { name: 'Dana Delany' },
       { name: 'Mark Hamill' },
     ],
-    coverUrl:
-      '/movies_pictures/6035bd8aee9e.jpg',
+    coverUrl: '/movies_pictures/6035bd8aee9e.jpg',
     releaseDate: '1993-12-25',
     length: 76,
     genre: ['Animation'],
@@ -2122,7 +2111,7 @@ export const baseMoviesAnimated: BaseMovie[] = [
     fromEntity: {
       entityType: 'comic',
       title: 'Batman',
-      secondEntityKey: 'DC Comics',
+      secondEntityKey: 'Bill Finger',
     },
     countryOrigin: ['États-Unis'],
   },
@@ -2130,8 +2119,7 @@ export const baseMoviesAnimated: BaseMovie[] = [
     title: 'Batman & Mr. Freeze : SubZero',
     director: 'Boyd Kirkland',
     actors: [{ name: 'Kevin Conroy' }, { name: 'Michael Ansara' }],
-    coverUrl:
-      '/movies_pictures/1f40bc7d056d.jpg',
+    coverUrl: '/movies_pictures/1f40bc7d056d.jpg',
     releaseDate: '1998-03-17',
     length: 70,
     genre: ['Animation'],
@@ -2140,7 +2128,7 @@ export const baseMoviesAnimated: BaseMovie[] = [
     fromEntity: {
       entityType: 'comic',
       title: 'Batman',
-      secondEntityKey: 'DC Comics',
+      secondEntityKey: 'Bill Finger',
     },
     countryOrigin: ['États-Unis'],
   },
@@ -2152,8 +2140,7 @@ export const baseMoviesAnimated: BaseMovie[] = [
       { name: 'Kevin Conroy' },
       { name: 'Mark Hamill' },
     ],
-    coverUrl:
-      '/movies_pictures/1c65a2724746.jpg',
+    coverUrl: '/movies_pictures/1c65a2724746.jpg',
     releaseDate: '2000-12-12',
     length: 76,
     genre: ['Animation'],
@@ -2162,7 +2149,7 @@ export const baseMoviesAnimated: BaseMovie[] = [
     fromEntity: {
       entityType: 'comic',
       title: 'Batman',
-      secondEntityKey: 'DC Comics',
+      secondEntityKey: 'Bill Finger',
     },
     countryOrigin: ['États-Unis'],
   },
@@ -2180,7 +2167,7 @@ export const baseMoviesAnimated: BaseMovie[] = [
     fromEntity: {
       entityType: 'comic',
       title: 'Batman',
-      secondEntityKey: 'DC Comics',
+      secondEntityKey: 'Bill Finger',
     },
     countryOrigin: ['États-Unis'],
   },
@@ -2189,8 +2176,7 @@ export const baseMoviesAnimated: BaseMovie[] = [
     director:
       'Shōjirō Nishimi, Futoshi Higashide, Hiroshi Morioka, Jong-Sik Nam, Yasuhiro Aoki, Toshiyuki Kubooka',
     actors: [{ name: 'Kevin Conroy' }],
-    coverUrl:
-      '/movies_pictures/4a58b0d451ba.jpg',
+    coverUrl: '/movies_pictures/4a58b0d451ba.jpg',
     releaseDate: '2008-07-08',
     length: 76,
     genre: ['Animation'],
@@ -2199,7 +2185,7 @@ export const baseMoviesAnimated: BaseMovie[] = [
     fromEntity: {
       entityType: 'comic',
       title: 'Batman',
-      secondEntityKey: 'DC Comics',
+      secondEntityKey: 'Bill Finger',
     },
     countryOrigin: ['États-Unis', 'Japon'],
   },
@@ -2211,8 +2197,7 @@ export const baseMoviesAnimated: BaseMovie[] = [
       { name: 'Stuart Allan' },
       { name: 'Morena Baccarin' },
     ],
-    coverUrl:
-      '/movies_pictures/e1509a559d9c.jpg',
+    coverUrl: '/movies_pictures/e1509a559d9c.jpg',
     releaseDate: '2014-05-06',
     length: 74,
     genre: ['Animation'],
@@ -2221,7 +2206,7 @@ export const baseMoviesAnimated: BaseMovie[] = [
     fromEntity: {
       entityType: 'comic',
       title: 'Batman',
-      secondEntityKey: 'DC Comics',
+      secondEntityKey: 'Bill Finger',
     },
     countryOrigin: ['États-Unis'],
   },
@@ -2229,8 +2214,7 @@ export const baseMoviesAnimated: BaseMovie[] = [
     title: 'Batman: Assault on Arkham',
     director: 'Jay Oliva, Ethan Spaulding',
     actors: [{ name: 'Kevin Conroy' }, { name: 'Troy Baker' }],
-    coverUrl:
-      '/movies_pictures/5c6cba667268.jpeg',
+    coverUrl: '/movies_pictures/5c6cba667268.jpeg',
     releaseDate: '2014-08-12',
     length: 76,
     genre: ['Animation'],
@@ -2239,7 +2223,7 @@ export const baseMoviesAnimated: BaseMovie[] = [
     fromEntity: {
       entityType: 'comic',
       title: 'Batman',
-      secondEntityKey: 'DC Comics',
+      secondEntityKey: 'Bill Finger',
     },
     countryOrigin: ['États-Unis'],
   },
@@ -2251,8 +2235,7 @@ export const baseMoviesAnimated: BaseMovie[] = [
       { name: 'Yvonne Strahovski' },
       { name: 'Stuart Allan' },
     ],
-    coverUrl:
-      '/movies_pictures/25bf4467ff9f.jpg',
+    coverUrl: '/movies_pictures/25bf4467ff9f.jpg',
     releaseDate: '2016-02-02',
     length: 72,
     genre: ['Animation'],
@@ -2261,7 +2244,7 @@ export const baseMoviesAnimated: BaseMovie[] = [
     fromEntity: {
       entityType: 'comic',
       title: 'Batman',
-      secondEntityKey: 'DC Comics',
+      secondEntityKey: 'Bill Finger',
     },
     countryOrigin: ['États-Unis'],
   },
@@ -2273,8 +2256,7 @@ export const baseMoviesAnimated: BaseMovie[] = [
       { name: 'Mark Hamill' },
       { name: 'Tara Strong' },
     ],
-    coverUrl:
-      '/movies_pictures/e8a2ed09465c.jpg',
+    coverUrl: '/movies_pictures/e8a2ed09465c.jpg',
     releaseDate: '2016-07-25',
     length: 76,
     genre: ['Animation'],
@@ -2283,7 +2265,7 @@ export const baseMoviesAnimated: BaseMovie[] = [
     fromEntity: {
       entityType: 'comic',
       title: 'Batman',
-      secondEntityKey: 'DC Comics',
+      secondEntityKey: 'Bill Finger',
     },
     countryOrigin: ['États-Unis'],
   },
@@ -2295,8 +2277,7 @@ export const baseMoviesAnimated: BaseMovie[] = [
       { name: 'Melissa Rauch' },
       { name: 'Paget Brewster' },
     ],
-    coverUrl:
-      '/movies_pictures/9054ce623254.jpg',
+    coverUrl: '/movies_pictures/9054ce623254.jpg',
     releaseDate: '2017-08-15',
     length: 74,
     genre: ['Animation'],
@@ -2305,7 +2286,7 @@ export const baseMoviesAnimated: BaseMovie[] = [
     fromEntity: {
       entityType: 'comic',
       title: 'Batman',
-      secondEntityKey: 'DC Comics',
+      secondEntityKey: 'Bill Finger',
     },
     countryOrigin: ['États-Unis'],
   },
@@ -2317,8 +2298,7 @@ export const baseMoviesAnimated: BaseMovie[] = [
       { name: 'Burt Ward' },
       { name: 'William Shatner' },
     ],
-    coverUrl:
-      '/movies_pictures/751330df7041.jpg',
+    coverUrl: '/movies_pictures/751330df7041.jpg',
     releaseDate: '2017-10-10',
     length: 72,
     genre: ['Animation'],
@@ -2327,7 +2307,7 @@ export const baseMoviesAnimated: BaseMovie[] = [
     fromEntity: {
       entityType: 'comic',
       title: 'Batman',
-      secondEntityKey: 'DC Comics',
+      secondEntityKey: 'Bill Finger',
     },
     countryOrigin: ['États-Unis'],
   },
@@ -2335,8 +2315,7 @@ export const baseMoviesAnimated: BaseMovie[] = [
     title: 'Batman: Gotham by Gaslight',
     director: 'Sam Liu',
     actors: [{ name: 'Bruce Greenwood' }, { name: 'Jennifer Carpenter' }],
-    coverUrl:
-      '/movies_pictures/e87988c75bc0.jpg',
+    coverUrl: '/movies_pictures/e87988c75bc0.jpg',
     releaseDate: '2018-01-23',
     length: 78,
     genre: ['Animation'],
@@ -2345,7 +2324,7 @@ export const baseMoviesAnimated: BaseMovie[] = [
     fromEntity: {
       entityType: 'comic',
       title: 'Batman',
-      secondEntityKey: 'DC Comics',
+      secondEntityKey: 'Bill Finger',
     },
     countryOrigin: ['États-Unis'],
   },
@@ -2353,8 +2332,7 @@ export const baseMoviesAnimated: BaseMovie[] = [
     title: 'Batman Ninja',
     director: 'Junpei Mizusaki',
     actors: [{ name: 'Kōichi Yamadera' }, { name: 'Wataru Takagi' }],
-    coverUrl:
-      '/movies_pictures/c77e80fc8035.jpg',
+    coverUrl: '/movies_pictures/c77e80fc8035.jpg',
     releaseDate: '2018-04-24',
     length: 85,
     genre: ['Animation'],
@@ -2363,7 +2341,7 @@ export const baseMoviesAnimated: BaseMovie[] = [
     fromEntity: {
       entityType: 'comic',
       title: 'Batman',
-      secondEntityKey: 'DC Comics',
+      secondEntityKey: 'Bill Finger',
     },
     countryOrigin: ['Japon'],
   },
@@ -2375,8 +2353,7 @@ export const baseMoviesAnimated: BaseMovie[] = [
       { name: 'Jennifer Morrison' },
       { name: 'Geoffrey Arend' },
     ],
-    coverUrl:
-      '/movies_pictures/41c9f6482904.jpg',
+    coverUrl: '/movies_pictures/41c9f6482904.jpg',
     releaseDate: '2019-07-20',
     length: 82,
     genre: ['Animation'],
@@ -2385,7 +2362,7 @@ export const baseMoviesAnimated: BaseMovie[] = [
     fromEntity: {
       entityType: 'comic',
       title: 'Batman',
-      secondEntityKey: 'DC Comics',
+      secondEntityKey: 'Bill Finger',
     },
     countryOrigin: ['États-Unis'],
   },
@@ -2397,8 +2374,7 @@ export const baseMoviesAnimated: BaseMovie[] = [
       { name: 'Darren Criss' },
       { name: 'Kyle Mooney' },
     ],
-    coverUrl:
-      '/movies_pictures/b7dfd97b9843.jpg',
+    coverUrl: '/movies_pictures/b7dfd97b9843.jpg',
     releaseDate: '2019-05-14',
     length: 84,
     genre: ['Animation'],
@@ -2407,7 +2383,7 @@ export const baseMoviesAnimated: BaseMovie[] = [
     fromEntity: {
       entityType: 'comic',
       title: 'Batman',
-      secondEntityKey: 'DC Comics',
+      secondEntityKey: 'Bill Finger',
     },
     countryOrigin: ['États-Unis'],
   },
@@ -2419,8 +2395,7 @@ export const baseMoviesAnimated: BaseMovie[] = [
       { name: 'Mark Dacascos' },
       { name: 'Michael Jai White' },
     ],
-    coverUrl:
-      '/movies_pictures/58cd9f157d34.jpg',
+    coverUrl: '/movies_pictures/58cd9f157d34.jpg',
     releaseDate: '2021-01-12',
     length: 83,
     genre: ['Animation'],
@@ -2429,7 +2404,7 @@ export const baseMoviesAnimated: BaseMovie[] = [
     fromEntity: {
       entityType: 'comic',
       title: 'Batman',
-      secondEntityKey: 'DC Comics',
+      secondEntityKey: 'Bill Finger',
     },
     countryOrigin: ['États-Unis'],
   },
@@ -2441,8 +2416,7 @@ export const baseMoviesAnimated: BaseMovie[] = [
       { name: 'Josh Duhamel' },
       { name: 'Titus Welliver' },
     ],
-    coverUrl:
-      '/movies_pictures/5c8d4043ac65.jpg',
+    coverUrl: '/movies_pictures/5c8d4043ac65.jpg',
     releaseDate: '2021-06-22',
     length: 85,
     genre: ['Animation'],
@@ -2451,7 +2425,7 @@ export const baseMoviesAnimated: BaseMovie[] = [
     fromEntity: {
       entityType: 'comic',
       title: 'Batman',
-      secondEntityKey: 'DC Comics',
+      secondEntityKey: 'Bill Finger',
     },
     countryOrigin: ['États-Unis'],
   },
@@ -2463,8 +2437,7 @@ export const baseMoviesAnimated: BaseMovie[] = [
       { name: 'Josh Duhamel' },
       { name: 'Troy Baker' },
     ],
-    coverUrl:
-      '/movies_pictures/8fe39798b0e3.jpg',
+    coverUrl: '/movies_pictures/8fe39798b0e3.jpg',
     releaseDate: '2021-07-27',
     length: 87,
     genre: ['Animation'],
@@ -2473,7 +2446,7 @@ export const baseMoviesAnimated: BaseMovie[] = [
     fromEntity: {
       entityType: 'comic',
       title: 'Batman',
-      secondEntityKey: 'DC Comics',
+      secondEntityKey: 'Bill Finger',
     },
     countryOrigin: ['États-Unis'],
   },
@@ -2485,8 +2458,7 @@ export const baseMoviesAnimated: BaseMovie[] = [
       { name: 'Patrick Fabian' },
       { name: 'John DiMaggio' },
     ],
-    coverUrl:
-      '/movies_pictures/49efe1002601.jpg',
+    coverUrl: '/movies_pictures/49efe1002601.jpg',
     releaseDate: '2023-03-28',
     length: 90,
     genre: ['Animation'],
@@ -2495,7 +2467,7 @@ export const baseMoviesAnimated: BaseMovie[] = [
     fromEntity: {
       entityType: 'comic',
       title: 'Batman',
-      secondEntityKey: 'DC Comics',
+      secondEntityKey: 'Bill Finger',
     },
     countryOrigin: ['États-Unis'],
   },
@@ -2530,8 +2502,7 @@ export const baseMoviesAnimated: BaseMovie[] = [
       { name: 'Chiwa Saitō' },
       { name: 'Emiri Katō' },
     ],
-    coverUrl:
-      '/movies_pictures/732a7258eda9.jpg',
+    coverUrl: '/movies_pictures/732a7258eda9.jpg',
     releaseDate: '2012-10-06',
     length: 130,
     genre: ['Animation'],
@@ -2552,8 +2523,7 @@ export const baseMoviesAnimated: BaseMovie[] = [
       { name: 'Chiwa Saitō' },
       { name: 'Emiri Katō' },
     ],
-    coverUrl:
-      '/movies_pictures/088e2722bec0.jpg',
+    coverUrl: '/movies_pictures/088e2722bec0.jpg',
     releaseDate: '2012-10-13',
     length: 120,
     genre: ['Animation'],
@@ -2574,8 +2544,7 @@ export const baseMoviesAnimated: BaseMovie[] = [
       { name: 'Chiwa Saitō' },
       { name: 'Emiri Katō' },
     ],
-    coverUrl:
-      '/movies_pictures/19c4475a90f9.jpg',
+    coverUrl: '/movies_pictures/19c4475a90f9.jpg',
     releaseDate: '2013-10-26',
     length: 116,
     genre: ['Animation'],
@@ -2592,8 +2561,7 @@ export const baseMoviesAnimated: BaseMovie[] = [
     title: 'Olive et Tom : La grande bataille européenne',
     director: 'Hiroyoshi Mitsunobu',
     actors: [{ name: 'Akira Ishida' }],
-    coverUrl:
-      '/movies_pictures/6aa4363394ac.png',
+    coverUrl: '/movies_pictures/6aa4363394ac.png',
     releaseDate: '1985-07-13',
     length: 41,
     genre: ['Animation', 'Jeunesse'],
@@ -2610,8 +2578,7 @@ export const baseMoviesAnimated: BaseMovie[] = [
     title: 'Olive et Tom : Attention ! Toute la sélection junior du Japon',
     director: 'Hiroyoshi Mitsunobu',
     actors: [{ name: 'Akira Ishida' }],
-    coverUrl:
-      '/movies_pictures/dd2f6737f22d.png',
+    coverUrl: '/movies_pictures/dd2f6737f22d.png',
     releaseDate: '1985-12-21',
     length: 60,
     genre: ['Animation', 'Jeunesse'],
@@ -2628,8 +2595,7 @@ export const baseMoviesAnimated: BaseMovie[] = [
     title: 'Olive et Tom : Courons vers demain !',
     director: 'Noriyoshi Nakamura',
     actors: [{ name: 'Akira Ishida' }],
-    coverUrl:
-      '/movies_pictures/03554ed25d97.jpg',
+    coverUrl: '/movies_pictures/03554ed25d97.jpg',
     releaseDate: '1986-03-15',
     length: 35,
     genre: ['Animation', 'Jeunesse'],
@@ -2646,8 +2612,7 @@ export const baseMoviesAnimated: BaseMovie[] = [
     title: 'Olive et Tom : La coupe du monde des juniors',
     director: 'Tatsuya Okamoto',
     actors: [{ name: 'Akira Ishida' }],
-    coverUrl:
-      '/movies_pictures/9370db5511ba.png',
+    coverUrl: '/movies_pictures/9370db5511ba.png',
     releaseDate: '1986-07-12',
     length: 57,
     genre: ['Animation', 'Jeunesse'],
@@ -2664,8 +2629,7 @@ export const baseMoviesAnimated: BaseMovie[] = [
     title: 'Olive et Tom : Le plus fort des adversaires - Les Pays-Bas juniors',
     director: 'Yoriyasu Kogawa',
     actors: [{ name: 'Akira Ishida' }],
-    coverUrl:
-      '/movies_pictures/ea47446a3ff6.jpg',
+    coverUrl: '/movies_pictures/ea47446a3ff6.jpg',
     releaseDate: '1994-11-06',
     length: 48,
     genre: ['Animation', 'Jeunesse'],

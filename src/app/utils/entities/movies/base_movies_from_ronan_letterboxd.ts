@@ -1040,7 +1040,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     fromEntity: {
       entityType: 'comic',
       title: 'Batman',
-      secondEntityKey: 'DC Comics',
+      secondEntityKey: 'Bill Finger',
     },
     countryOrigin: ['États-Unis'],
   },

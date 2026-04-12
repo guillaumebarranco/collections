@@ -1287,7 +1287,7 @@ export const baseSeries: BaseSerie[] = [
     fromEntity: {
       entityType: 'comic',
       title: 'Batman',
-      secondEntityKey: 'DC Comics',
+      secondEntityKey: 'Bill Finger',
     },
     saga: 'DC Comics',
     countryOrigin: 'États-Unis',
@@ -1309,7 +1309,7 @@ export const baseSeries: BaseSerie[] = [
     fromEntity: {
       entityType: 'comic',
       title: 'Spider-Man',
-      secondEntityKey: 'J. Michael Straczynski',
+      secondEntityKey: 'Stan Lee',
     },
     saga: 'Spider-Man',
     countryOrigin: 'États-Unis',
@@ -1331,7 +1331,7 @@ export const baseSeries: BaseSerie[] = [
     fromEntity: {
       entityType: 'comic',
       title: 'Spider-Man',
-      secondEntityKey: 'J. Michael Straczynski',
+      secondEntityKey: 'Stan Lee',
     },
     saga: 'Spider-Man',
     countryOrigin: 'États-Unis',
@@ -1359,7 +1359,7 @@ export const baseSeries: BaseSerie[] = [
     fromEntity: {
       entityType: 'comic',
       title: 'Spider-Man',
-      secondEntityKey: 'J. Michael Straczynski',
+      secondEntityKey: 'Stan Lee',
     },
     saga: 'Spider-Man',
     countryOrigin: 'États-Unis',
@@ -1377,7 +1377,7 @@ export const baseSeries: BaseSerie[] = [
     fromEntity: {
       entityType: 'comic',
       title: 'Spider-Man',
-      secondEntityKey: 'J. Michael Straczynski',
+      secondEntityKey: 'Stan Lee',
     },
     saga: 'Spider-Man',
     countryOrigin: 'États-Unis',
@@ -1395,7 +1395,7 @@ export const baseSeries: BaseSerie[] = [
     fromEntity: {
       entityType: 'comic',
       title: 'Spider-Man',
-      secondEntityKey: 'J. Michael Straczynski',
+      secondEntityKey: 'Stan Lee',
     },
     saga: 'Spider-Man',
     countryOrigin: 'États-Unis',
@@ -1416,7 +1416,7 @@ export const baseSeries: BaseSerie[] = [
     fromEntity: {
       entityType: 'comic',
       title: 'Spider-Man',
-      secondEntityKey: 'J. Michael Straczynski',
+      secondEntityKey: 'Stan Lee',
     },
     saga: 'Spider-Man',
     countryOrigin: 'États-Unis',
@@ -1439,7 +1439,7 @@ export const baseSeries: BaseSerie[] = [
     fromEntity: {
       entityType: 'comic',
       title: 'Spider-Man',
-      secondEntityKey: 'J. Michael Straczynski',
+      secondEntityKey: 'Stan Lee',
     },
     saga: 'Spider-Man',
     countryOrigin: 'États-Unis',
@@ -1461,7 +1461,7 @@ export const baseSeries: BaseSerie[] = [
     fromEntity: {
       entityType: 'comic',
       title: 'Spider-Man',
-      secondEntityKey: 'J. Michael Straczynski',
+      secondEntityKey: 'Stan Lee',
     },
     saga: 'Spider-Man',
     countryOrigin: 'États-Unis',
@@ -1483,7 +1483,7 @@ export const baseSeries: BaseSerie[] = [
     fromEntity: {
       entityType: 'comic',
       title: 'Spider-Man',
-      secondEntityKey: 'J. Michael Straczynski',
+      secondEntityKey: 'Stan Lee',
     },
     saga: 'Spider-Man',
     countryOrigin: 'États-Unis',
@@ -1501,7 +1501,7 @@ export const baseSeries: BaseSerie[] = [
     fromEntity: {
       entityType: 'comic',
       title: 'Spider-Man',
-      secondEntityKey: 'J. Michael Straczynski',
+      secondEntityKey: 'Stan Lee',
     },
     saga: 'Spider-Man',
     countryOrigin: 'Japon',
@@ -1712,7 +1712,7 @@ export const baseSeries: BaseSerie[] = [
     fromEntity: {
       entityType: 'comic',
       title: 'Batman',
-      secondEntityKey: 'DC Comics',
+      secondEntityKey: 'Bill Finger',
     },
     saga: 'Batman',
     countryOrigin: 'États-Unis',
@@ -1737,7 +1737,7 @@ export const baseSeries: BaseSerie[] = [
     fromEntity: {
       entityType: 'comic',
       title: 'Batman',
-      secondEntityKey: 'DC Comics',
+      secondEntityKey: 'Bill Finger',
     },
     saga: 'DC Animated Universe',
     countryOrigin: 'États-Unis',
@@ -1759,7 +1759,7 @@ export const baseSeries: BaseSerie[] = [
     fromEntity: {
       entityType: 'comic',
       title: 'Batman',
-      secondEntityKey: 'DC Comics',
+      secondEntityKey: 'Bill Finger',
     },
     saga: 'DC Animated Universe',
     countryOrigin: 'États-Unis',
@@ -1783,7 +1783,7 @@ export const baseSeries: BaseSerie[] = [
     fromEntity: {
       entityType: 'comic',
       title: 'Batman',
-      secondEntityKey: 'DC Comics',
+      secondEntityKey: 'Bill Finger',
     },
     saga: 'Batman',
     countryOrigin: 'États-Unis',
@@ -1805,7 +1805,7 @@ export const baseSeries: BaseSerie[] = [
     fromEntity: {
       entityType: 'comic',
       title: 'Batman',
-      secondEntityKey: 'DC Comics',
+      secondEntityKey: 'Bill Finger',
     },
     saga: 'Batman',
     countryOrigin: 'États-Unis',
@@ -1823,7 +1823,7 @@ export const baseSeries: BaseSerie[] = [
     fromEntity: {
       entityType: 'comic',
       title: 'Batman',
-      secondEntityKey: 'DC Comics',
+      secondEntityKey: 'Bill Finger',
     },
     saga: 'Batman',
     countryOrigin: 'États-Unis',
@@ -1849,7 +1849,7 @@ export const baseSeries: BaseSerie[] = [
     fromEntity: {
       entityType: 'comic',
       title: 'Batman',
-      secondEntityKey: 'DC Comics',
+      secondEntityKey: 'Bill Finger',
     },
     saga: 'Batman',
     countryOrigin: 'États-Unis',
@@ -1871,7 +1871,7 @@ export const baseSeries: BaseSerie[] = [
     fromEntity: {
       entityType: 'comic',
       title: 'Batman',
-      secondEntityKey: 'DC Comics',
+      secondEntityKey: 'Bill Finger',
     },
     saga: 'Batman',
     countryOrigin: 'États-Unis',
@@ -3500,7 +3500,7 @@ export const baseSeries: BaseSerie[] = [
     fromEntity: {
       entityType: 'comic',
       title: 'Superman',
-      secondEntityKey: 'DC Comics',
+      secondEntityKey: 'Jerry Siegel',
     },
     saga: 'DC Comics',
     countryOrigin: 'États-Unis',
@@ -3911,7 +3911,7 @@ export const baseSeries: BaseSerie[] = [
     fromEntity: {
       entityType: 'comic',
       title: 'Superman',
-      secondEntityKey: 'DC Comics',
+      secondEntityKey: 'Jerry Siegel',
     },
     saga: 'ArrowVerse',
     countryOrigin: 'États-Unis',
@@ -5057,8 +5057,7 @@ export const baseSeries: BaseSerie[] = [
     title: 'Les Misérables (2000)',
     director: 'Josée Dayan',
     actors: [{ name: 'Gérard Depardieu' }, { name: 'John Malkovich' }],
-    coverUrl:
-      '/series_pictures/e9040b1dd9f6.jpg',
+    coverUrl: '/series_pictures/e9040b1dd9f6.jpg',
     releaseDate: '2000-09-04',
     endDate: '2000-10-02',
     genre: ['Drame', 'Historique'],
@@ -5076,8 +5075,7 @@ export const baseSeries: BaseSerie[] = [
     title: 'Les Misérables (2018)',
     director: 'Tom Shankland',
     actors: [{ name: 'Dominic West' }, { name: 'David Oyelowo' }],
-    coverUrl:
-      '/series_pictures/1a8593dd1302.jpg',
+    coverUrl: '/series_pictures/1a8593dd1302.jpg',
     releaseDate: '2018-12-30',
     endDate: '2019-02-03',
     genre: ['Drame', 'Historique'],
@@ -5095,8 +5093,7 @@ export const baseSeries: BaseSerie[] = [
     title: 'Le Comte de Monte-Cristo (1998)',
     director: 'Josée Dayan',
     actors: [{ name: 'Gérard Depardieu' }, { name: 'Ornella Muti' }],
-    coverUrl:
-      '/series_pictures/2a58eb9b162a.jpg',
+    coverUrl: '/series_pictures/2a58eb9b162a.jpg',
     releaseDate: '1998-09-07',
     endDate: '1998-09-28',
     genre: ['Aventure', 'Drame', 'Fiction historique'],
@@ -5114,8 +5111,7 @@ export const baseSeries: BaseSerie[] = [
     title: 'Hobitit',
     director: 'Timo Torikka',
     actors: [{ name: 'Martti Suosalo' }, { name: 'Vesa Vierikko' }],
-    coverUrl:
-      '/series_pictures/ab9ee9d2fb35.jpg',
+    coverUrl: '/series_pictures/ab9ee9d2fb35.jpg',
     releaseDate: '1993-01-01',
     endDate: '1993-03-31',
     genre: ['Fantasy', 'Adventure'],
@@ -5133,8 +5129,7 @@ export const baseSeries: BaseSerie[] = [
     title: 'Khraniteli',
     director: 'Natalya Bondarchuk',
     actors: [{ name: 'Viktor Smirnov' }, { name: 'Georgiy Shtil' }],
-    coverUrl:
-      '/series_pictures/0ae3b0ad5d8a.jpg',
+    coverUrl: '/series_pictures/0ae3b0ad5d8a.jpg',
     releaseDate: '1991-01-01',
     endDate: '1991-12-31',
     genre: ['Fantasy', 'Adventure'],
@@ -5152,8 +5147,7 @@ export const baseSeries: BaseSerie[] = [
     title: 'La guerre des mondes (1988)',
     director: 'Greg Strangis',
     actors: [{ name: 'Jared Martin' }, { name: 'Lynda Mason Green' }],
-    coverUrl:
-      '/series_pictures/622daf8e8d2a.jpg',
+    coverUrl: '/series_pictures/622daf8e8d2a.jpg',
     releaseDate: '1988-10-07',
     endDate: '1990-05-14',
     genre: ['Science Fiction', 'Thriller'],
@@ -5174,8 +5168,7 @@ export const baseSeries: BaseSerie[] = [
     title: 'La guerre des mondes (2019)',
     director: 'Howard Overman',
     actors: [{ name: 'Gabriel Byrne' }, { name: 'Léa Drucker' }],
-    coverUrl:
-      '/series_pictures/74dfefc097ca.jpg',
+    coverUrl: '/series_pictures/74dfefc097ca.jpg',
     releaseDate: '2019-10-28',
     endDate: '2022-10-17',
     genre: ['Science Fiction', 'Drame'],
@@ -5198,8 +5191,7 @@ export const baseSeries: BaseSerie[] = [
     title: 'The Irregulars',
     director: 'Tom Bidwell',
     actors: [{ name: 'Thaddea Graham' }, { name: 'McKell David' }],
-    coverUrl:
-      '/series_pictures/d342042b6452.jpg',
+    coverUrl: '/series_pictures/d342042b6452.jpg',
     releaseDate: '2021-03-26',
     endDate: '2021-03-26',
     genre: ['Fantastique', 'Mystère', 'Drame'],
@@ -5217,8 +5209,7 @@ export const baseSeries: BaseSerie[] = [
     title: 'Miss Sherlock',
     director: 'Yûichi Satô, Takashi Matsuo',
     actors: [{ name: 'Yûko Takeuchi' }, { name: 'Shihori Kanjiya' }],
-    coverUrl:
-      '/series_pictures/637bc4f15cb5.jpg',
+    coverUrl: '/series_pictures/637bc4f15cb5.jpg',
     releaseDate: '2018-04-27',
     endDate: '2018-06-15',
     genre: ['Policier', 'Mystère', 'Drame'],
@@ -5236,8 +5227,7 @@ export const baseSeries: BaseSerie[] = [
     title: 'Watson',
     director: 'Craig Sweeny',
     actors: [{ name: 'Morris Chestnut' }],
-    coverUrl:
-      '/series_pictures/7fac0faa0628.jpg',
+    coverUrl: '/series_pictures/7fac0faa0628.jpg',
     releaseDate: '2025-01-26',
     endDate: '2025-01-26',
     genre: ['Policier', 'Drame', 'Mystère'],
@@ -5259,8 +5249,7 @@ export const baseSeries: BaseSerie[] = [
       { name: 'David Burke' },
       { name: 'Edward Hardwicke' },
     ],
-    coverUrl:
-      '/series_pictures/1195a1702aec.jpg',
+    coverUrl: '/series_pictures/1195a1702aec.jpg',
     releaseDate: '1984-04-24',
     endDate: '1994-04-11',
     genre: ['Policier', 'Mystère', 'Drame'],
@@ -5283,8 +5272,7 @@ export const baseSeries: BaseSerie[] = [
     title: 'Sherlock Holmes (1954)',
     director: 'Sheldon Reynolds',
     actors: [{ name: 'Ronald Howard' }, { name: 'Howard Marion-Crawford' }],
-    coverUrl:
-      '/series_pictures/162b9ddbf2fd.jpg',
+    coverUrl: '/series_pictures/162b9ddbf2fd.jpg',
     releaseDate: '1954-10-18',
     endDate: '1955-10-17',
     genre: ['Policier', 'Mystère'],

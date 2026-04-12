@@ -9,8 +9,7 @@ export const baseMoviesDc: BaseMovie[] = [
       { name: 'Burt Ward' },
       { name: 'Cesar Romero' },
     ],
-    coverUrl:
-      '/movies_pictures/0f33ed902452.jpg',
+    coverUrl: '/movies_pictures/0f33ed902452.jpg',
     releaseDate: '1966-07-30',
     length: 105,
     genre: ['Action', 'Comédie'],
@@ -19,7 +18,7 @@ export const baseMoviesDc: BaseMovie[] = [
     fromEntity: {
       entityType: 'comic',
       title: 'Batman',
-      secondEntityKey: 'DC Comics',
+      secondEntityKey: 'Bill Finger',
     },
     countryOrigin: ['États-Unis'],
   },
@@ -49,7 +48,7 @@ export const baseMoviesDc: BaseMovie[] = [
     fromEntity: {
       entityType: 'comic',
       title: 'Batman',
-      secondEntityKey: 'DC Comics',
+      secondEntityKey: 'Bill Finger',
     },
     countryOrigin: ['États-Unis'],
   },
@@ -71,7 +70,7 @@ export const baseMoviesDc: BaseMovie[] = [
     fromEntity: {
       entityType: 'comic',
       title: 'Batman',
-      secondEntityKey: 'DC Comics',
+      secondEntityKey: 'Bill Finger',
     },
     countryOrigin: ['États-Unis'],
   },
@@ -98,7 +97,7 @@ export const baseMoviesDc: BaseMovie[] = [
     fromEntity: {
       entityType: 'comic',
       title: 'Batman',
-      secondEntityKey: 'DC Comics',
+      secondEntityKey: 'Bill Finger',
     },
     countryOrigin: ['États-Unis'],
   },
@@ -122,7 +121,7 @@ export const baseMoviesDc: BaseMovie[] = [
     fromEntity: {
       entityType: 'comic',
       title: 'Batman',
-      secondEntityKey: 'DC Comics',
+      secondEntityKey: 'Bill Finger',
     },
     countryOrigin: ['États-Unis'],
   },
@@ -158,7 +157,7 @@ export const baseMoviesDc: BaseMovie[] = [
     fromEntity: {
       entityType: 'comic',
       title: 'Batman',
-      secondEntityKey: 'DC Comics',
+      secondEntityKey: 'Bill Finger',
     },
     countryOrigin: ['États-Unis'],
   },
@@ -191,7 +190,7 @@ export const baseMoviesDc: BaseMovie[] = [
     fromEntity: {
       entityType: 'comic',
       title: 'Batman',
-      secondEntityKey: 'DC Comics',
+      secondEntityKey: 'Bill Finger',
     },
     countryOrigin: ['États-Unis'],
   },
@@ -228,7 +227,7 @@ export const baseMoviesDc: BaseMovie[] = [
     fromEntity: {
       entityType: 'comic',
       title: 'Batman',
-      secondEntityKey: 'DC Comics',
+      secondEntityKey: 'Bill Finger',
     },
     countryOrigin: ['États-Unis'],
   },
@@ -252,7 +251,7 @@ export const baseMoviesDc: BaseMovie[] = [
     fromEntity: {
       entityType: 'comic',
       title: 'Batman',
-      secondEntityKey: 'DC Comics',
+      secondEntityKey: 'Bill Finger',
     },
     countryOrigin: ['États-Unis'],
   },
@@ -288,7 +287,7 @@ export const baseMoviesDc: BaseMovie[] = [
     fromEntity: {
       entityType: 'comic',
       title: 'Batman',
-      secondEntityKey: 'DC Comics',
+      secondEntityKey: 'Bill Finger',
     },
     countryOrigin: ['États-Unis'],
   },
@@ -413,7 +412,7 @@ export const baseMoviesDc: BaseMovie[] = [
     fromEntity: {
       entityType: 'comic',
       title: 'Superman',
-      secondEntityKey: 'DC Comics',
+      secondEntityKey: 'Jerry Siegel',
     },
     countryOrigin: ['États-Unis'],
   },
@@ -430,7 +429,7 @@ export const baseMoviesDc: BaseMovie[] = [
     fromEntity: {
       entityType: 'comic',
       title: 'Superman',
-      secondEntityKey: 'DC Comics',
+      secondEntityKey: 'Jerry Siegel',
     },
     countryOrigin: ['États-Unis'],
   },
@@ -464,7 +463,7 @@ export const baseMoviesDc: BaseMovie[] = [
     fromEntity: {
       entityType: 'comic',
       title: 'Superman',
-      secondEntityKey: 'DC Comics',
+      secondEntityKey: 'Jerry Siegel',
     },
     countryOrigin: ['États-Unis'],
   },
@@ -497,7 +496,7 @@ export const baseMoviesDc: BaseMovie[] = [
     fromEntity: {
       entityType: 'comic',
       title: 'Superman',
-      secondEntityKey: 'DC Comics',
+      secondEntityKey: 'Jerry Siegel',
     },
     countryOrigin: ['États-Unis'],
   },
@@ -524,7 +523,7 @@ export const baseMoviesDc: BaseMovie[] = [
     fromEntity: {
       entityType: 'comic',
       title: 'Superman',
-      secondEntityKey: 'DC Comics',
+      secondEntityKey: 'Jerry Siegel',
     },
     countryOrigin: ['États-Unis'],
   },

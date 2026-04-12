@@ -735,7 +735,7 @@ export const baseMoviesMcu: BaseMovie[] = [
     fromEntity: {
       entityType: 'comic',
       title: 'Spider-Man',
-      secondEntityKey: 'J. Michael Straczynski',
+      secondEntityKey: 'Stan Lee',
     },
     countryOrigin: ['États-Unis'],
   },
@@ -766,7 +766,7 @@ export const baseMoviesMcu: BaseMovie[] = [
     fromEntity: {
       entityType: 'comic',
       title: 'Spider-Man',
-      secondEntityKey: 'J. Michael Straczynski',
+      secondEntityKey: 'Stan Lee',
     },
     countryOrigin: ['États-Unis'],
   },
@@ -794,7 +794,7 @@ export const baseMoviesMcu: BaseMovie[] = [
     fromEntity: {
       entityType: 'comic',
       title: 'Spider-Man',
-      secondEntityKey: 'J. Michael Straczynski',
+      secondEntityKey: 'Stan Lee',
     },
     countryOrigin: ['États-Unis'],
   },

@@ -2580,7 +2580,7 @@ export const baseGamesAdaptations: BaseGame[] = [
     fromEntity: {
       entityType: 'comic',
       title: 'Batman',
-      secondEntityKey: 'DC Comics',
+      secondEntityKey: 'Bill Finger',
     },
   },
   {
@@ -2598,7 +2598,7 @@ export const baseGamesAdaptations: BaseGame[] = [
     fromEntity: {
       entityType: 'comic',
       title: 'Batman',
-      secondEntityKey: 'DC Comics',
+      secondEntityKey: 'Bill Finger',
     },
   },
   {
@@ -2616,7 +2616,7 @@ export const baseGamesAdaptations: BaseGame[] = [
     fromEntity: {
       entityType: 'comic',
       title: 'Batman',
-      secondEntityKey: 'DC Comics',
+      secondEntityKey: 'Bill Finger',
     },
   },
   {
@@ -2634,7 +2634,7 @@ export const baseGamesAdaptations: BaseGame[] = [
     fromEntity: {
       entityType: 'comic',
       title: 'Batman',
-      secondEntityKey: 'DC Comics',
+      secondEntityKey: 'Bill Finger',
     },
   },
   {
@@ -2652,7 +2652,7 @@ export const baseGamesAdaptations: BaseGame[] = [
     fromEntity: {
       entityType: 'comic',
       title: 'Batman',
-      secondEntityKey: 'DC Comics',
+      secondEntityKey: 'Bill Finger',
     },
   },
   {
@@ -2670,7 +2670,7 @@ export const baseGamesAdaptations: BaseGame[] = [
     fromEntity: {
       entityType: 'comic',
       title: 'Batman',
-      secondEntityKey: 'DC Comics',
+      secondEntityKey: 'Bill Finger',
     },
   },
   {
@@ -2688,7 +2688,7 @@ export const baseGamesAdaptations: BaseGame[] = [
     fromEntity: {
       entityType: 'comic',
       title: 'Batman',
-      secondEntityKey: 'DC Comics',
+      secondEntityKey: 'Bill Finger',
     },
   },
   {
@@ -2706,7 +2706,7 @@ export const baseGamesAdaptations: BaseGame[] = [
     fromEntity: {
       entityType: 'comic',
       title: 'Batman',
-      secondEntityKey: 'DC Comics',
+      secondEntityKey: 'Bill Finger',
     },
   },
   {
@@ -2724,7 +2724,7 @@ export const baseGamesAdaptations: BaseGame[] = [
     fromEntity: {
       entityType: 'comic',
       title: 'Batman',
-      secondEntityKey: 'DC Comics',
+      secondEntityKey: 'Bill Finger',
     },
   },
   {
@@ -2742,7 +2742,7 @@ export const baseGamesAdaptations: BaseGame[] = [
     fromEntity: {
       entityType: 'comic',
       title: 'Batman',
-      secondEntityKey: 'DC Comics',
+      secondEntityKey: 'Bill Finger',
     },
   },
   {
@@ -2760,7 +2760,7 @@ export const baseGamesAdaptations: BaseGame[] = [
     fromEntity: {
       entityType: 'comic',
       title: 'Batman',
-      secondEntityKey: 'DC Comics',
+      secondEntityKey: 'Bill Finger',
     },
   },
   {
@@ -2778,7 +2778,7 @@ export const baseGamesAdaptations: BaseGame[] = [
     fromEntity: {
       entityType: 'comic',
       title: 'Batman',
-      secondEntityKey: 'DC Comics',
+      secondEntityKey: 'Bill Finger',
     },
   },
   {
@@ -2796,7 +2796,7 @@ export const baseGamesAdaptations: BaseGame[] = [
     fromEntity: {
       entityType: 'comic',
       title: 'Batman',
-      secondEntityKey: 'DC Comics',
+      secondEntityKey: 'Bill Finger',
     },
   },
   {
@@ -2814,7 +2814,7 @@ export const baseGamesAdaptations: BaseGame[] = [
     fromEntity: {
       entityType: 'comic',
       title: 'Batman',
-      secondEntityKey: 'DC Comics',
+      secondEntityKey: 'Bill Finger',
     },
   },
   {
@@ -2832,7 +2832,7 @@ export const baseGamesAdaptations: BaseGame[] = [
     fromEntity: {
       entityType: 'comic',
       title: 'Batman',
-      secondEntityKey: 'DC Comics',
+      secondEntityKey: 'Bill Finger',
     },
   },
   {
@@ -2850,7 +2850,7 @@ export const baseGamesAdaptations: BaseGame[] = [
     fromEntity: {
       entityType: 'comic',
       title: 'Batman',
-      secondEntityKey: 'DC Comics',
+      secondEntityKey: 'Bill Finger',
     },
   },
   {
@@ -2868,7 +2868,7 @@ export const baseGamesAdaptations: BaseGame[] = [
     fromEntity: {
       entityType: 'comic',
       title: 'Batman',
-      secondEntityKey: 'DC Comics',
+      secondEntityKey: 'Bill Finger',
     },
   },
   {
@@ -2886,7 +2886,7 @@ export const baseGamesAdaptations: BaseGame[] = [
     fromEntity: {
       entityType: 'comic',
       title: 'Batman',
-      secondEntityKey: 'DC Comics',
+      secondEntityKey: 'Bill Finger',
     },
   },
   {
@@ -2904,7 +2904,7 @@ export const baseGamesAdaptations: BaseGame[] = [
     fromEntity: {
       entityType: 'comic',
       title: 'Batman',
-      secondEntityKey: 'DC Comics',
+      secondEntityKey: 'Bill Finger',
     },
   },
   {
@@ -2922,15 +2922,14 @@ export const baseGamesAdaptations: BaseGame[] = [
     fromEntity: {
       entityType: 'comic',
       title: 'Batman',
-      secondEntityKey: 'DC Comics',
+      secondEntityKey: 'Bill Finger',
     },
   },
   {
     title: 'Batman: Vengeance',
     editor: 'Ubisoft',
     hero: 'Batman',
-    coverUrl:
-      '/games_pictures/b224fcfddf8e.jpg',
+    coverUrl: '/games_pictures/b224fcfddf8e.jpg',
     releaseDate: '2001-10-15',
     averageTimeToFinish: 8,
     averageTimeToHundredPercent: 15,
@@ -2941,7 +2940,7 @@ export const baseGamesAdaptations: BaseGame[] = [
     fromEntity: {
       entityType: 'comic',
       title: 'Batman',
-      secondEntityKey: 'DC Comics',
+      secondEntityKey: 'Bill Finger',
     },
   },
 

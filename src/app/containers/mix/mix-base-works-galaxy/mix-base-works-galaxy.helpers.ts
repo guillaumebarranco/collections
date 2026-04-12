@@ -107,6 +107,9 @@ export type BaseWorkOrbitSatellite =
   | { kind: 'manga'; data: Manga }
   | { kind: 'manwha'; data: Manwha };
 
+/** Nombre minimum d’œuvres (centre + satellites) pour afficher un bloc « licence ». */
+export const MIX_BASE_LICENSE_GALAXY_MIN_WORKS = 3;
+
 /** Une carte « galaxie » : un seul centre + anneau fusionné. */
 export type MixBaseWorkOrbitPanel = {
   orbitKey: string;
@@ -115,6 +118,10 @@ export type MixBaseWorkOrbitPanel = {
   headerPrimaryLabel: string;
   standaloneFromEntityType?: string;
   satelliteCount: number;
+  /** Année de l’œuvre de base (centre), si une date catalogue est connue. */
+  baseWorkYear: number | null;
+  /** Nombre d’années depuis l’année de base jusqu’à l’année en cours (min. 1). */
+  licenseExistenceYears: number | null;
   /** Score d’export transmédia (pondération 1 / 5), pour le tri des cartes. */
   crossMediaExportScore?: number;
   central: {
@@ -914,6 +921,44 @@ function displayGameSagaName(raw: string | undefined | null): string {
   return t.trim();
 }
 
+function isoDateStringToYear(raw: string | undefined | null): number | null {
+  const d = raw?.trim();
+  if (!d) return null;
+  const ms = Date.parse(d);
+  if (Number.isNaN(ms)) return null;
+  return new Date(ms).getFullYear();
+}
+
+/** Année de l’œuvre centrale et « âge » de la licence (année courante − année de base, min. 1). */
+export function mixBaseCentralLicenseYearMeta(
+  central: MixBaseWorkOrbitPanel['central']
+): { baseYear: number; existenceYears: number } | null {
+  let baseYear: number | null = null;
+  if (central.book) {
+    baseYear = isoDateStringToYear(central.book.releaseDate);
+  } else if (central.bd) {
+    baseYear = isoDateStringToYear(central.bd.releaseDate);
+  } else if (central.comic) {
+    baseYear = isoDateStringToYear(central.comic.releaseDate);
+  } else if (central.manga) {
+    baseYear = isoDateStringToYear(central.manga.startDate);
+  } else if (central.manwha) {
+    baseYear = null;
+  } else if (central.game) {
+    baseYear = isoDateStringToYear(central.game.releaseDate);
+  } else if (central.serie) {
+    baseYear = isoDateStringToYear(central.serie.releaseDate);
+  } else if (central.movie) {
+    baseYear = isoDateStringToYear(central.movie.releaseDate);
+  }
+  if (baseYear == null) {
+    return null;
+  }
+  const currentYear = new Date().getFullYear();
+  const existenceYears = Math.max(1, currentYear - baseYear);
+  return { baseYear, existenceYears };
+}
+
 function gameReleaseDateMs(game: Game): number {
   const d = game.releaseDate?.trim();
   if (!d) return Number.MAX_SAFE_INTEGER;
@@ -1098,13 +1143,17 @@ function baseWorksBlockToOrbitPanel(
       ...series.map((data) => ({ kind: 'serie' as const, data })),
       ...games.map((data) => ({ kind: 'game' as const, data })),
     ];
+    const centralStandalone = centralFromGalaxy(g);
+    const licSt = mixBaseCentralLicenseYearMeta(centralStandalone);
     return {
       orbitKey: `bbwg-st:${g.uniqueKey}`,
       blockKind: 'standalone',
       headerPrimaryLabel: baseWorkOrbitHeaderPrimaryLabel(g),
       standaloneFromEntityType: g.fromEntityType,
       satelliteCount: satellites.length,
-      central: centralFromGalaxy(g),
+      baseWorkYear: licSt?.baseYear ?? null,
+      licenseExistenceYears: licSt?.existenceYears ?? null,
+      central: centralStandalone,
       satellites,
     };
   }
@@ -1142,13 +1191,17 @@ function baseWorksBlockToOrbitPanel(
       ...games.map((data) => ({ kind: 'game' as const, data })),
     ];
 
+    const centralGameSaga = centralFromGalaxy(centralGalaxy);
+    const licGs = mixBaseCentralLicenseYearMeta(centralGameSaga);
     return {
       orbitKey: `bbwg-game-saga:${block.sagaKey}`,
       blockKind: 'gameSaga',
       sagaDisplayName: block.sagaDisplayName,
       headerPrimaryLabel: block.sagaDisplayName,
       satelliteCount: satellites.length,
-      central: centralFromGalaxy(centralGalaxy),
+      baseWorkYear: licGs?.baseYear ?? null,
+      licenseExistenceYears: licGs?.existenceYears ?? null,
+      central: centralGameSaga,
       satellites,
     };
   }
@@ -1304,13 +1357,17 @@ function baseWorksBlockToOrbitPanel(
     ...games.map((data) => ({ kind: 'game' as const, data })),
   ];
 
+  const centralBookSaga = centralFromGalaxy(centralGalaxy);
+  const licBs = mixBaseCentralLicenseYearMeta(centralBookSaga);
   return {
     orbitKey: `bbwg-saga:${block.sagaKey}`,
     blockKind: 'bookSaga',
     sagaDisplayName: block.sagaDisplayName,
     headerPrimaryLabel: block.sagaDisplayName,
     satelliteCount: satellites.length,
-    central: centralFromGalaxy(centralGalaxy),
+    baseWorkYear: licBs?.baseYear ?? null,
+    licenseExistenceYears: licBs?.existenceYears ?? null,
+    central: centralBookSaga,
     satellites,
   };
 }
@@ -1771,20 +1828,24 @@ export function buildMixBaseWorkOrbitPanelsSorted(
     baseGames,
     baseMangas,
   };
-  const panels = blocks.map((b) => {
-    const panel = baseWorksBlockToOrbitPanel(
-      b,
-      baseBooks,
-      baseMovies,
-      baseSeries,
-      baseGames,
-      baseMangas
+  const panels = blocks
+    .map((b) => {
+      const panel = baseWorksBlockToOrbitPanel(
+        b,
+        baseBooks,
+        baseMovies,
+        baseSeries,
+        baseGames,
+        baseMangas
+      );
+      return {
+        ...panel,
+        crossMediaExportScore: blockCrossMediaExportScore(b, scoreCatalog),
+      };
+    })
+    .filter(
+      (p) => p.satelliteCount + 1 >= MIX_BASE_LICENSE_GALAXY_MIN_WORKS
     );
-    return {
-      ...panel,
-      crossMediaExportScore: blockCrossMediaExportScore(b, scoreCatalog),
-    };
-  });
   return panels.sort((a, b) => {
     const scoreA = a.crossMediaExportScore ?? 0;
     const scoreB = b.crossMediaExportScore ?? 0;

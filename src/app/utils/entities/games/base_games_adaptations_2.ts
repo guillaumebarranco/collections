@@ -16,7 +16,7 @@ export const baseGamesAdaptations2: BaseGame[] = [
     fromEntity: {
       entityType: 'comic',
       title: 'Spider-Man',
-      secondEntityKey: 'J. Michael Straczynski',
+      secondEntityKey: 'Stan Lee',
     },
   },
   {
@@ -34,7 +34,7 @@ export const baseGamesAdaptations2: BaseGame[] = [
     fromEntity: {
       entityType: 'comic',
       title: 'Spider-Man',
-      secondEntityKey: 'J. Michael Straczynski',
+      secondEntityKey: 'Stan Lee',
     },
   },
   {
@@ -52,7 +52,7 @@ export const baseGamesAdaptations2: BaseGame[] = [
     fromEntity: {
       entityType: 'comic',
       title: 'Spider-Man',
-      secondEntityKey: 'J. Michael Straczynski',
+      secondEntityKey: 'Stan Lee',
     },
   },
   {
@@ -70,7 +70,7 @@ export const baseGamesAdaptations2: BaseGame[] = [
     fromEntity: {
       entityType: 'comic',
       title: 'Spider-Man',
-      secondEntityKey: 'J. Michael Straczynski',
+      secondEntityKey: 'Stan Lee',
     },
   },
   {
@@ -89,7 +89,7 @@ export const baseGamesAdaptations2: BaseGame[] = [
     fromEntity: {
       entityType: 'comic',
       title: 'Spider-Man',
-      secondEntityKey: 'J. Michael Straczynski',
+      secondEntityKey: 'Stan Lee',
     },
   },
 
@@ -109,7 +109,7 @@ export const baseGamesAdaptations2: BaseGame[] = [
     fromEntity: {
       entityType: 'comic',
       title: 'Spider-Man',
-      secondEntityKey: 'J. Michael Straczynski',
+      secondEntityKey: 'Stan Lee',
     },
   },
   {
@@ -127,7 +127,7 @@ export const baseGamesAdaptations2: BaseGame[] = [
     fromEntity: {
       entityType: 'comic',
       title: 'Spider-Man',
-      secondEntityKey: 'J. Michael Straczynski',
+      secondEntityKey: 'Stan Lee',
     },
   },
   {
@@ -145,7 +145,7 @@ export const baseGamesAdaptations2: BaseGame[] = [
     fromEntity: {
       entityType: 'comic',
       title: 'Spider-Man',
-      secondEntityKey: 'J. Michael Straczynski',
+      secondEntityKey: 'Stan Lee',
     },
   },
   {
@@ -163,7 +163,7 @@ export const baseGamesAdaptations2: BaseGame[] = [
     fromEntity: {
       entityType: 'comic',
       title: 'Spider-Man',
-      secondEntityKey: 'J. Michael Straczynski',
+      secondEntityKey: 'Stan Lee',
     },
   },
   {
@@ -181,7 +181,7 @@ export const baseGamesAdaptations2: BaseGame[] = [
     fromEntity: {
       entityType: 'comic',
       title: 'Spider-Man',
-      secondEntityKey: 'J. Michael Straczynski',
+      secondEntityKey: 'Stan Lee',
     },
   },
   {
@@ -199,7 +199,7 @@ export const baseGamesAdaptations2: BaseGame[] = [
     fromEntity: {
       entityType: 'comic',
       title: 'Spider-Man',
-      secondEntityKey: 'J. Michael Straczynski',
+      secondEntityKey: 'Stan Lee',
     },
   },
   {
@@ -217,7 +217,7 @@ export const baseGamesAdaptations2: BaseGame[] = [
     fromEntity: {
       entityType: 'comic',
       title: 'Spider-Man',
-      secondEntityKey: 'J. Michael Straczynski',
+      secondEntityKey: 'Stan Lee',
     },
   },
   {
@@ -235,7 +235,7 @@ export const baseGamesAdaptations2: BaseGame[] = [
     fromEntity: {
       entityType: 'comic',
       title: 'Spider-Man',
-      secondEntityKey: 'J. Michael Straczynski',
+      secondEntityKey: 'Stan Lee',
     },
   },
   {
@@ -253,15 +253,14 @@ export const baseGamesAdaptations2: BaseGame[] = [
     fromEntity: {
       entityType: 'comic',
       title: 'Spider-Man',
-      secondEntityKey: 'J. Michael Straczynski',
+      secondEntityKey: 'Stan Lee',
     },
   },
   {
     title: 'Spider-Man: Edge of Time',
     editor: 'Beenox',
     hero: 'Spider-Man',
-    coverUrl:
-      '/games_pictures/77a9c18fc6c4.jpg',
+    coverUrl: '/games_pictures/77a9c18fc6c4.jpg',
     releaseDate: '2011-10-04',
     averageTimeToFinish: 8,
     averageTimeToHundredPercent: 0,
@@ -272,7 +271,7 @@ export const baseGamesAdaptations2: BaseGame[] = [
     fromEntity: {
       entityType: 'comic',
       title: 'Spider-Man',
-      secondEntityKey: 'J. Michael Straczynski',
+      secondEntityKey: 'Stan Lee',
     },
   },
   {
@@ -290,7 +289,7 @@ export const baseGamesAdaptations2: BaseGame[] = [
     fromEntity: {
       entityType: 'comic',
       title: 'Spider-Man',
-      secondEntityKey: 'J. Michael Straczynski',
+      secondEntityKey: 'Stan Lee',
     },
   },
 
@@ -2533,8 +2532,7 @@ export const baseGamesAdaptations2: BaseGame[] = [
     title: 'Puella Magi Madoka Magica Portable',
     editor: 'Bandai Namco Games',
     hero: 'Madoka Kaname',
-    coverUrl:
-      '/games_pictures/20a0557e8c1e.webp',
+    coverUrl: '/games_pictures/20a0557e8c1e.webp',
     releaseDate: '2012-03-15',
     averageTimeToFinish: 12,
     averageTimeToHundredPercent: 35,
@@ -2571,8 +2569,7 @@ export const baseGamesAdaptations2: BaseGame[] = [
     title: 'Puella Magi Madoka Magica Magia Exedra',
     editor: 'Aniplex',
     hero: 'Madoka Kaname',
-    coverUrl:
-      '/games_pictures/c96c81d8aa9b.jpg',
+    coverUrl: '/games_pictures/c96c81d8aa9b.jpg',
     releaseDate: '2025-03-27',
     averageTimeToFinish: 0,
     averageTimeToHundredPercent: 0,
@@ -2603,15 +2600,14 @@ export const baseGamesAdaptations2: BaseGame[] = [
     fromEntity: {
       entityType: 'comic',
       title: 'Superman',
-      secondEntityKey: 'DC Comics',
+      secondEntityKey: 'Jerry Siegel',
     },
   },
   {
     title: 'Superman: The Man of Steel',
     editor: 'Sega',
     hero: 'Superman',
-    coverUrl:
-      '/games_pictures/65b8559960bf.png',
+    coverUrl: '/games_pictures/65b8559960bf.png',
     releaseDate: '1992-06-19',
     averageTimeToFinish: 5,
     averageTimeToHundredPercent: 0,
@@ -2622,15 +2618,14 @@ export const baseGamesAdaptations2: BaseGame[] = [
     fromEntity: {
       entityType: 'comic',
       title: 'Superman',
-      secondEntityKey: 'DC Comics',
+      secondEntityKey: 'Jerry Siegel',
     },
   },
   {
     title: 'The Death and Return of Superman',
     editor: 'Blizzard Entertainment',
     hero: 'Superman',
-    coverUrl:
-      '/games_pictures/06d65dc09936.png',
+    coverUrl: '/games_pictures/06d65dc09936.png',
     releaseDate: '1994-08-02',
     averageTimeToFinish: 5,
     averageTimeToHundredPercent: 0,
@@ -2641,15 +2636,14 @@ export const baseGamesAdaptations2: BaseGame[] = [
     fromEntity: {
       entityType: 'comic',
       title: 'Superman',
-      secondEntityKey: 'DC Comics',
+      secondEntityKey: 'Jerry Siegel',
     },
   },
   {
     title: 'Superman',
     editor: 'Titus Software',
     hero: 'Superman',
-    coverUrl:
-      '/games_pictures/7954203f9b07.jpg',
+    coverUrl: '/games_pictures/7954203f9b07.jpg',
     releaseDate: '1999-05-31',
     averageTimeToFinish: 6,
     averageTimeToHundredPercent: 0,
@@ -2660,15 +2654,14 @@ export const baseGamesAdaptations2: BaseGame[] = [
     fromEntity: {
       entityType: 'comic',
       title: 'Superman',
-      secondEntityKey: 'DC Comics',
+      secondEntityKey: 'Jerry Siegel',
     },
   },
   {
     title: 'Superman',
     editor: 'Tiertex',
     hero: 'Superman',
-    coverUrl:
-      '/games_pictures/58663f242153.jpg',
+    coverUrl: '/games_pictures/58663f242153.jpg',
     releaseDate: '2000-12-05',
     averageTimeToFinish: 4,
     averageTimeToHundredPercent: 0,
@@ -2679,7 +2672,7 @@ export const baseGamesAdaptations2: BaseGame[] = [
     fromEntity: {
       entityType: 'comic',
       title: 'Superman',
-      secondEntityKey: 'DC Comics',
+      secondEntityKey: 'Jerry Siegel',
     },
   },
   {
@@ -2698,7 +2691,7 @@ export const baseGamesAdaptations2: BaseGame[] = [
     fromEntity: {
       entityType: 'comic',
       title: 'Superman',
-      secondEntityKey: 'DC Comics',
+      secondEntityKey: 'Jerry Siegel',
     },
   },
   {
@@ -2716,7 +2709,7 @@ export const baseGamesAdaptations2: BaseGame[] = [
     fromEntity: {
       entityType: 'comic',
       title: 'Superman',
-      secondEntityKey: 'DC Comics',
+      secondEntityKey: 'Jerry Siegel',
     },
   },
   {
@@ -2735,7 +2728,7 @@ export const baseGamesAdaptations2: BaseGame[] = [
     fromEntity: {
       entityType: 'comic',
       title: 'Superman',
-      secondEntityKey: 'DC Comics',
+      secondEntityKey: 'Jerry Siegel',
     },
   },
   {
@@ -2761,8 +2754,7 @@ export const baseGamesAdaptations2: BaseGame[] = [
     title: 'Man of Steel',
     editor: 'Gameloft',
     hero: 'Superman',
-    coverUrl:
-      '/games_pictures/777b39896d2c.jpg',
+    coverUrl: '/games_pictures/777b39896d2c.jpg',
     releaseDate: '2013-06-14',
     averageTimeToFinish: 3,
     averageTimeToHundredPercent: 0,

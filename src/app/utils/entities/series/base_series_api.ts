@@ -59,7 +59,11 @@ export const baseSeriesApi: BaseSerie[] = [
       },
     ],
     description: '',
-    fromEntity: null,
+    fromEntity: {
+      entityType: 'game',
+      title: 'Fallout',
+      secondEntityKey: 'Interplay Productions',
+    },
     saga: '',
     countryOrigin: 'États-Unis',
   },
@@ -460,8 +464,7 @@ export const baseSeriesApi: BaseSerie[] = [
     title: 'Star Wars: The Bad Batch',
     director: 'Brad Rau, Jennifer Corbett',
     actors: [{ name: 'Dee Bradley Baker' }, { name: 'Michelle Ang' }],
-    coverUrl:
-      '/series_pictures/d050cd3398be.jpg',
+    coverUrl: '/series_pictures/d050cd3398be.jpg',
     releaseDate: '2021-05-04',
     endDate: '2024-05-01',
     genre: ['Science Fiction', 'Animation'],
@@ -484,8 +487,7 @@ export const baseSeriesApi: BaseSerie[] = [
     title: 'Star Wars: Tales of the Jedi',
     director: 'Dave Filoni',
     actors: [{ name: 'Ashley Eckstein' }, { name: 'Liam Neeson' }],
-    coverUrl:
-      '/series_pictures/9c006019db4c.jpg',
+    coverUrl: '/series_pictures/9c006019db4c.jpg',
     releaseDate: '2022-10-26',
     endDate: '2022-10-26',
     genre: ['Science Fiction', 'Animation'],
@@ -840,7 +842,7 @@ export const baseSeriesApi: BaseSerie[] = [
     fromEntity: {
       entityType: 'comic',
       title: 'Batman',
-      secondEntityKey: 'DC Comics',
+      secondEntityKey: 'Bill Finger',
     },
     countryOrigin: 'États-Unis',
     saga: 'ArrowVerse',
@@ -1112,7 +1114,7 @@ export const baseSeriesApi: BaseSerie[] = [
     fromEntity: {
       entityType: 'comic',
       title: 'Spider-Man',
-      secondEntityKey: 'J. Michael Straczynski',
+      secondEntityKey: 'Stan Lee',
     },
     countryOrigin: 'États-Unis',
     saga: 'Marvel Cinematic Universe',
@@ -1528,8 +1530,7 @@ export const baseSeriesApi: BaseSerie[] = [
       { name: 'Robert Aramayo' },
       { name: 'Charlie Vickers' },
     ],
-    coverUrl:
-      '/series_pictures/2d589d66950e.jpg',
+    coverUrl: '/series_pictures/2d589d66950e.jpg',
     releaseDate: '2022-09-01',
     endDate: '2024-10-24',
     genre: ['Fantastique', 'Aventure', 'Drame'],
@@ -1550,8 +1551,7 @@ export const baseSeriesApi: BaseSerie[] = [
     title: 'Halo',
     director: 'Steven Kane, Kyle Killen',
     actors: [{ name: 'Pablo Schreiber' }, { name: 'Jen Taylor' }],
-    coverUrl:
-      '/series_pictures/ba8661c72d66.jpg',
+    coverUrl: '/series_pictures/ba8661c72d66.jpg',
     releaseDate: '2022-03-24',
     endDate: '2024-03-21',
     genre: ['Science Fiction', 'Action'],
@@ -1577,8 +1577,7 @@ export const baseSeriesApi: BaseSerie[] = [
       { name: 'Anya Chalotra' },
       { name: 'Liam Hemsworth' },
     ],
-    coverUrl:
-      '/series_pictures/e3fd4bfda1b2.jpg',
+    coverUrl: '/series_pictures/e3fd4bfda1b2.jpg',
     releaseDate: '2019-12-20',
     endDate: '2025-03-31',
     genre: ['Fantastique', 'Action', 'Aventure'],

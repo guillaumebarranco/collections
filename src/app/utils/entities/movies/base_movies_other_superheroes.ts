@@ -286,8 +286,7 @@ export const baseMoviesOtherSuperheroes: BaseMovie[] = [
       { name: 'Chiwetel Ejiofor' },
       { name: 'Juno Temple' },
     ],
-    coverUrl:
-      '/movies_pictures/223a62b4e2c3.jpg',
+    coverUrl: '/movies_pictures/223a62b4e2c3.jpg',
     releaseDate: '2024-10-23',
     length: 109,
     genre: ['Action', 'Science Fiction'],
@@ -313,7 +312,7 @@ export const baseMoviesOtherSuperheroes: BaseMovie[] = [
     fromEntity: {
       entityType: 'comic',
       title: 'Spider-Man',
-      secondEntityKey: 'J. Michael Straczynski',
+      secondEntityKey: 'Stan Lee',
     },
     countryOrigin: ['États-Unis'],
   },
@@ -334,7 +333,7 @@ export const baseMoviesOtherSuperheroes: BaseMovie[] = [
     fromEntity: {
       entityType: 'comic',
       title: 'Spider-Man',
-      secondEntityKey: 'J. Michael Straczynski',
+      secondEntityKey: 'Stan Lee',
     },
     countryOrigin: ['États-Unis'],
   },
@@ -355,7 +354,7 @@ export const baseMoviesOtherSuperheroes: BaseMovie[] = [
     fromEntity: {
       entityType: 'comic',
       title: 'Spider-Man',
-      secondEntityKey: 'J. Michael Straczynski',
+      secondEntityKey: 'Stan Lee',
     },
     countryOrigin: ['États-Unis'],
   },
@@ -377,7 +376,7 @@ export const baseMoviesOtherSuperheroes: BaseMovie[] = [
     fromEntity: {
       entityType: 'comic',
       title: 'Spider-Man',
-      secondEntityKey: 'J. Michael Straczynski',
+      secondEntityKey: 'Stan Lee',
     },
     countryOrigin: ['États-Unis'],
   },
@@ -398,7 +397,7 @@ export const baseMoviesOtherSuperheroes: BaseMovie[] = [
     fromEntity: {
       entityType: 'comic',
       title: 'Spider-Man',
-      secondEntityKey: 'J. Michael Straczynski',
+      secondEntityKey: 'Stan Lee',
     },
     countryOrigin: ['États-Unis'],
   },
@@ -406,8 +405,7 @@ export const baseMoviesOtherSuperheroes: BaseMovie[] = [
     title: 'Spider-Man',
     director: 'E.W. Swackhamer',
     actors: [{ name: 'Nicholas Hammond' }, { name: 'David White' }],
-    coverUrl:
-      '/movies_pictures/736f220492fd.jpg',
+    coverUrl: '/movies_pictures/736f220492fd.jpg',
     releaseDate: '1977-09-14',
     length: 92,
     genre: ['Action', 'Science Fiction'],
@@ -416,7 +414,7 @@ export const baseMoviesOtherSuperheroes: BaseMovie[] = [
     fromEntity: {
       entityType: 'comic',
       title: 'Spider-Man',
-      secondEntityKey: 'J. Michael Straczynski',
+      secondEntityKey: 'Stan Lee',
     },
     countryOrigin: ['États-Unis'],
   },
@@ -424,8 +422,7 @@ export const baseMoviesOtherSuperheroes: BaseMovie[] = [
     title: "Spider-Man : La Riposte de l'Homme Araignée",
     director: 'Ron Satlof',
     actors: [{ name: 'Nicholas Hammond' }],
-    coverUrl:
-      '/movies_pictures/5596876ae88d.jpg',
+    coverUrl: '/movies_pictures/5596876ae88d.jpg',
     releaseDate: '1978-10-21',
     length: 90,
     genre: ['Action', 'Science Fiction'],
@@ -434,7 +431,7 @@ export const baseMoviesOtherSuperheroes: BaseMovie[] = [
     fromEntity: {
       entityType: 'comic',
       title: 'Spider-Man',
-      secondEntityKey: 'J. Michael Straczynski',
+      secondEntityKey: 'Stan Lee',
     },
     countryOrigin: ['États-Unis'],
   },
@@ -442,8 +439,7 @@ export const baseMoviesOtherSuperheroes: BaseMovie[] = [
     title: 'Spider-Man : Le Défi du dragon',
     director: 'Ron Satlof',
     actors: [{ name: 'Nicholas Hammond' }],
-    coverUrl:
-      '/movies_pictures/09cfa8696e3d.jpg',
+    coverUrl: '/movies_pictures/09cfa8696e3d.jpg',
     releaseDate: '1981-07-03',
     length: 92,
     genre: ['Action', 'Aventure'],
@@ -452,7 +448,7 @@ export const baseMoviesOtherSuperheroes: BaseMovie[] = [
     fromEntity: {
       entityType: 'comic',
       title: 'Spider-Man',
-      secondEntityKey: 'J. Michael Straczynski',
+      secondEntityKey: 'Stan Lee',
     },
     countryOrigin: ['États-Unis'],
   },
