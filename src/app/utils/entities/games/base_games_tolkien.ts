@@ -62,8 +62,7 @@ export const baseGamesTolkien: BaseGame[] = [
     title: 'La Guerre dans la Terre du Milieu',
     editor: 'Melbourne House',
     hero: '',
-    coverUrl:
-      '/games_pictures/9c051235f948.jpg',
+    coverUrl: '/games_pictures/9c051235f948.jpg',
     releaseDate: '1988-01-01',
     averageTimeToFinish: 12,
     averageTimeToHundredPercent: 0,
@@ -81,8 +80,7 @@ export const baseGamesTolkien: BaseGame[] = [
     title: 'Les Cavaliers du Rohan',
     editor: 'Melbourne House',
     hero: '',
-    coverUrl:
-      '/games_pictures/3bf76a1c43fa.jpg',
+    coverUrl: '/games_pictures/3bf76a1c43fa.jpg',
     releaseDate: '1988-06-01',
     averageTimeToFinish: 6,
     averageTimeToHundredPercent: 0,
@@ -157,8 +155,7 @@ export const baseGamesTolkien: BaseGame[] = [
     title: 'Le Seigneur des anneaux (1994)',
     editor: 'Beam Software',
     hero: 'Frodon',
-    coverUrl:
-      '/games_pictures/92f2817f5e78.jpg',
+    coverUrl: '/games_pictures/92f2817f5e78.jpg',
     releaseDate: '1994-01-01',
     averageTimeToFinish: 6,
     averageTimeToHundredPercent: 0,
@@ -287,8 +284,8 @@ export const baseGamesTolkien: BaseGame[] = [
   {
     title: 'Le Seigneur des anneaux : Tactics',
     editor: 'Electronic Arts',
-    hero: '/games_pictures/71kS4+-7u-S._AC_UF894,1000_QL80_.jpg',
-    coverUrl: '',
+    hero: '',
+    coverUrl: '/games_pictures/sgdfgfgfgf.jpg',
     releaseDate: '2005-03-22',
     averageTimeToFinish: 15,
     averageTimeToHundredPercent: 0,
@@ -325,8 +322,7 @@ export const baseGamesTolkien: BaseGame[] = [
       'Le Seigneur des anneaux : La Bataille pour la Terre du Milieu II — L’Avènement du roi-sorcier',
     editor: 'Electronic Arts',
     hero: '',
-    coverUrl:
-      '/games_pictures/87cd70dc9b05.jpg',
+    coverUrl: '/games_pictures/87cd70dc9b05.jpg',
     releaseDate: '2006-11-28',
     averageTimeToFinish: 18,
     averageTimeToHundredPercent: 0,
@@ -344,8 +340,7 @@ export const baseGamesTolkien: BaseGame[] = [
     title: 'Le Seigneur des anneaux en ligne',
     editor: 'Turbine',
     hero: '',
-    coverUrl:
-      '/games_pictures/dbe21c38c003.jpg',
+    coverUrl: '/games_pictures/dbe21c38c003.jpg',
     releaseDate: '2007-04-24',
     averageTimeToFinish: 80,
     averageTimeToHundredPercent: 0,
@@ -363,8 +358,7 @@ export const baseGamesTolkien: BaseGame[] = [
     title: 'Le Seigneur des anneaux : Conquête',
     editor: 'Electronic Arts',
     hero: '',
-    coverUrl:
-      '/games_pictures/0893f20fdcf6.jpg',
+    coverUrl: '/games_pictures/0893f20fdcf6.jpg',
     releaseDate: '2009-01-13',
     averageTimeToFinish: 8,
     averageTimeToHundredPercent: 0,
@@ -382,8 +376,7 @@ export const baseGamesTolkien: BaseGame[] = [
     title: 'Le Seigneur des anneaux : La Guerre du Nord',
     editor: 'Warner Bros. Interactive Entertainment',
     hero: '',
-    coverUrl:
-      '/games_pictures/70bcfa470812.jpg',
+    coverUrl: '/games_pictures/70bcfa470812.jpg',
     releaseDate: '2011-11-01',
     averageTimeToFinish: 15,
     averageTimeToHundredPercent: 0,
@@ -401,8 +394,7 @@ export const baseGamesTolkien: BaseGame[] = [
     title: 'Les Gardiens de la Terre du Milieu',
     editor: 'Warner Bros. Interactive Entertainment',
     hero: '',
-    coverUrl:
-      '/games_pictures/b69e5ebbd30f.jpg',
+    coverUrl: '/games_pictures/b69e5ebbd30f.jpg',
     releaseDate: '2012-12-04',
     averageTimeToFinish: 6,
     averageTimeToHundredPercent: 0,
@@ -439,8 +431,7 @@ export const baseGamesTolkien: BaseGame[] = [
     title: 'LEGO Le Hobbit',
     editor: 'Warner Bros. Interactive Entertainment',
     hero: 'Bilbon Sacquet',
-    coverUrl:
-      '/games_pictures/8fec8b73b3ff.jpg',
+    coverUrl: '/games_pictures/8fec8b73b3ff.jpg',
     releaseDate: '2014-04-08',
     averageTimeToFinish: 12,
     averageTimeToHundredPercent: 0,
@@ -459,8 +450,7 @@ export const baseGamesTolkien: BaseGame[] = [
     title: 'The Lord of the Rings: Adventure Card Game',
     editor: 'Fantasy Flight Interactive',
     hero: '',
-    coverUrl:
-      '/games_pictures/c92edda79c5f.jpg',
+    coverUrl: '/games_pictures/c92edda79c5f.jpg',
     releaseDate: '2018-08-28',
     averageTimeToFinish: 20,
     averageTimeToHundredPercent: 0,
@@ -478,8 +468,7 @@ export const baseGamesTolkien: BaseGame[] = [
     title: 'Le Seigneur des anneaux : Heroes of Middle-earth',
     editor: 'Electronic Arts',
     hero: '',
-    coverUrl:
-      '/games_pictures/45cc53a0d9e5.webp',
+    coverUrl: '/games_pictures/45cc53a0d9e5.webp',
     releaseDate: '2022-05-10',
     averageTimeToFinish: 30,
     averageTimeToHundredPercent: 0,
@@ -497,8 +486,7 @@ export const baseGamesTolkien: BaseGame[] = [
     title: 'Le Seigneur des anneaux : Gollum',
     editor: 'Daedalic Entertainment',
     hero: 'Gollum',
-    coverUrl:
-      '/games_pictures/3cfa794be2ff.jpg',
+    coverUrl: '/games_pictures/3cfa794be2ff.jpg',
     releaseDate: '2023-05-25',
     averageTimeToFinish: 12,
     averageTimeToHundredPercent: 0,

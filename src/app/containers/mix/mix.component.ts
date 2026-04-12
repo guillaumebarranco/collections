@@ -83,7 +83,7 @@ export type MixAdaptationSource =
   | 'serie';
 
 export const mixPrimaryOptions: ViewToggleOption[] = [
-  { value: 'baseWorksGalaxy', label: 'Galaxie des œuvres' },
+  { value: 'baseWorksGalaxy', label: 'Galaxie des licences' },
   { value: 'sagasFilmsSeries', label: 'Sagas films / séries' },
   { value: 'worksWithMovieAdaptations', label: 'Œuvres → leurs films' },
   { value: 'moviesGroupedBySource', label: 'Films par origine' },

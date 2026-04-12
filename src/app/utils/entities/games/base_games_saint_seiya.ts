@@ -14,7 +14,8 @@ export const baseGamesSaintSeiya: BaseGame[] = [
     title: 'Saint Seiya : Le Sanctuaire',
     editor: 'Bandai',
     hero: 'Pégase',
-    coverUrl: '/games_pictures/saint-seiya-sanctuary-ps2.jpg',
+    coverUrl:
+      'https://www.gamecash.fr/thumbnail-600/saint-seiya-sanctuaire-ps2-e10468.jpg',
     releaseDate: '2005-10-27',
     averageTimeToFinish: 12,
     averageTimeToHundredPercent: 25,
@@ -22,13 +23,17 @@ export const baseGamesSaintSeiya: BaseGame[] = [
     saga: 'Saint Seiya',
     platineTime: 0,
     description: '',
-    fromEntity: fromManga,
+    fromEntity: {
+      entityType: 'manga' as const,
+      title: 'Saint Seiya',
+      secondEntityKey: 'Masami Kurumada',
+    },
   },
   {
     title: 'Saint Seiya : Brave Soldiers',
     editor: 'Bandai Namco',
     hero: 'Pégase',
-    coverUrl: '/games_pictures/saint-seiya-brave-soldiers.jpg',
+    coverUrl: '/games_pictures/867cf64c51b5.jpg',
     releaseDate: '2013-10-17',
     averageTimeToFinish: 10,
     averageTimeToHundredPercent: 35,
@@ -36,13 +41,18 @@ export const baseGamesSaintSeiya: BaseGame[] = [
     saga: 'Saint Seiya',
     platineTime: 25,
     description: '',
-    fromEntity: fromManga,
+    fromEntity: {
+      entityType: 'manga' as const,
+      title: 'Saint Seiya',
+      secondEntityKey: 'Masami Kurumada',
+    },
   },
   {
     title: "Saint Seiya : Soldiers' Soul",
     editor: 'Bandai Namco',
     hero: 'Pégase',
-    coverUrl: '/games_pictures/saint-seiya-soldiers-soul.jpg',
+    coverUrl:
+      '/games_pictures/bd1451856cc2.jpg',
     releaseDate: '2015-09-25',
     averageTimeToFinish: 12,
     averageTimeToHundredPercent: 40,
@@ -50,13 +60,18 @@ export const baseGamesSaintSeiya: BaseGame[] = [
     saga: 'Saint Seiya',
     platineTime: 40,
     description: '',
-    fromEntity: fromManga,
+    fromEntity: {
+      entityType: 'manga' as const,
+      title: 'Saint Seiya',
+      secondEntityKey: 'Masami Kurumada',
+    },
   },
   {
     title: 'Saint Seiya Awakening : Knights of the Zodiac',
     editor: 'YOOZOO Games',
     hero: 'Pégase',
-    coverUrl: '/games_pictures/saint-seiya-awakening.jpg',
+    coverUrl:
+      '/games_pictures/ab8217f45425.png',
     releaseDate: '2019-06-27',
     averageTimeToFinish: 40,
     averageTimeToHundredPercent: 120,
@@ -64,6 +79,10 @@ export const baseGamesSaintSeiya: BaseGame[] = [
     saga: 'Saint Seiya',
     platineTime: 0,
     description: '',
-    fromEntity: fromManga,
+    fromEntity: {
+      entityType: 'manga' as const,
+      title: 'Saint Seiya',
+      secondEntityKey: 'Masami Kurumada',
+    },
   },
 ];

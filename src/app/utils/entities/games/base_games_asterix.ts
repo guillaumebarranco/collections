@@ -627,7 +627,7 @@ export const baseGamesAsterix: BaseGame[] = [
     title: 'Astérix & Obélix XXXL : Le Bélier d’Hibernie',
     editor: 'Microids',
     hero: 'Astérix',
-    coverUrl: 'https://m.media-amazon.com/images/I/81Afu8xnAyL.jpg',
+    coverUrl: '/games_pictures/159e1953e812.jpg',
     releaseDate: '2025-10-17',
     averageTimeToFinish: 12,
     averageTimeToHundredPercent: 0,

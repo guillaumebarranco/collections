@@ -1,22 +1,12 @@
 import { BaseGame } from '../../../models/game-model';
 
-const COVER = '/games_pictures/lsljwi0f.webp';
-
-const fromSerie = {
-  entityType: 'serie' as const,
-  title: 'Les Simpsons',
-  secondEntityKey: 'Matt Groening',
-};
-
-/**
- * Jeux *Les Simpsons* hors {@link base_games} (*Les Simpsons: Le Jeu* / The Simpsons Game, 2007).
- */
 export const baseGamesSimpsons: BaseGame[] = [
   {
     title: 'The Simpsons (arcade)',
     editor: 'Konami',
     hero: 'Homer Simpson',
-    coverUrl: COVER,
+    coverUrl:
+      '/games_pictures/2b1f0cbad776.jpg',
     releaseDate: '1991-03-01',
     averageTimeToFinish: 2,
     averageTimeToHundredPercent: 0,
@@ -24,13 +14,17 @@ export const baseGamesSimpsons: BaseGame[] = [
     saga: 'Les Simpsons',
     platineTime: 0,
     description: '',
-    fromEntity: fromSerie,
+    fromEntity: {
+      entityType: 'serie' as const,
+      title: 'Les Simpsons',
+      secondEntityKey: 'Matt Groening',
+    },
   },
   {
     title: 'Bart vs. the Space Mutants',
     editor: 'Acclaim Entertainment',
     hero: 'Bart Simpson',
-    coverUrl: COVER,
+    coverUrl: '/games_pictures/477e53cc01b7.jpg',
     releaseDate: '1991-02-01',
     averageTimeToFinish: 6,
     averageTimeToHundredPercent: 12,
@@ -38,13 +32,18 @@ export const baseGamesSimpsons: BaseGame[] = [
     saga: 'Les Simpsons',
     platineTime: 0,
     description: '',
-    fromEntity: fromSerie,
+    fromEntity: {
+      entityType: 'serie' as const,
+      title: 'Les Simpsons',
+      secondEntityKey: 'Matt Groening',
+    },
   },
   {
     title: 'Bart vs. the World',
     editor: 'Acclaim Entertainment',
     hero: 'Bart Simpson',
-    coverUrl: COVER,
+    coverUrl:
+      '/games_pictures/ecb6215805e5.jpg',
     releaseDate: '1991-12-01',
     averageTimeToFinish: 5,
     averageTimeToHundredPercent: 10,
@@ -52,13 +51,18 @@ export const baseGamesSimpsons: BaseGame[] = [
     saga: 'Les Simpsons',
     platineTime: 0,
     description: '',
-    fromEntity: fromSerie,
+    fromEntity: {
+      entityType: 'serie' as const,
+      title: 'Les Simpsons',
+      secondEntityKey: 'Matt Groening',
+    },
   },
   {
     title: "Krusty's Super Fun House",
     editor: 'Acclaim Entertainment',
     hero: 'Krusty le clown',
-    coverUrl: COVER,
+    coverUrl:
+      '/games_pictures/423c8ef70661.jpg',
     releaseDate: '1992-01-01',
     averageTimeToFinish: 8,
     averageTimeToHundredPercent: 15,
@@ -66,13 +70,18 @@ export const baseGamesSimpsons: BaseGame[] = [
     saga: 'Les Simpsons',
     platineTime: 0,
     description: '',
-    fromEntity: fromSerie,
+    fromEntity: {
+      entityType: 'serie' as const,
+      title: 'Les Simpsons',
+      secondEntityKey: 'Matt Groening',
+    },
   },
   {
     title: 'Bartman Meets Radioactive Man',
     editor: 'Acclaim Entertainment',
     hero: 'Bart Simpson',
-    coverUrl: COVER,
+    coverUrl:
+      '/games_pictures/6728f89400d9.webp',
     releaseDate: '1992-12-01',
     averageTimeToFinish: 5,
     averageTimeToHundredPercent: 10,
@@ -80,13 +89,18 @@ export const baseGamesSimpsons: BaseGame[] = [
     saga: 'Les Simpsons',
     platineTime: 0,
     description: '',
-    fromEntity: fromSerie,
+    fromEntity: {
+      entityType: 'serie' as const,
+      title: 'Les Simpsons',
+      secondEntityKey: 'Matt Groening',
+    },
   },
   {
     title: 'Bart vs. the Juggernauts',
     editor: 'Acclaim Entertainment',
     hero: 'Bart Simpson',
-    coverUrl: COVER,
+    coverUrl:
+      'https://www.gamecash.fr/thumbnail-600/bart-vs-the-juggernauts-e33700.jpg',
     releaseDate: '1992-11-01',
     averageTimeToFinish: 5,
     averageTimeToHundredPercent: 0,
@@ -94,13 +108,18 @@ export const baseGamesSimpsons: BaseGame[] = [
     saga: 'Les Simpsons',
     platineTime: 0,
     description: '',
-    fromEntity: fromSerie,
+    fromEntity: {
+      entityType: 'serie' as const,
+      title: 'Les Simpsons',
+      secondEntityKey: 'Matt Groening',
+    },
   },
   {
     title: "Bart's Nightmare",
     editor: 'Acclaim Entertainment',
     hero: 'Bart Simpson',
-    coverUrl: COVER,
+    coverUrl:
+      '/games_pictures/68afa4ff2ee3.jpg',
     releaseDate: '1992-10-01',
     averageTimeToFinish: 8,
     averageTimeToHundredPercent: 15,
@@ -108,13 +127,18 @@ export const baseGamesSimpsons: BaseGame[] = [
     saga: 'Les Simpsons',
     platineTime: 0,
     description: '',
-    fromEntity: fromSerie,
+    fromEntity: {
+      entityType: 'serie' as const,
+      title: 'Les Simpsons',
+      secondEntityKey: 'Matt Groening',
+    },
   },
   {
     title: 'Virtual Bart',
     editor: 'Acclaim Entertainment',
     hero: 'Bart Simpson',
-    coverUrl: COVER,
+    coverUrl:
+      '/games_pictures/199c2d2ecdf3.jpg',
     releaseDate: '1994-09-01',
     averageTimeToFinish: 8,
     averageTimeToHundredPercent: 15,
@@ -122,13 +146,18 @@ export const baseGamesSimpsons: BaseGame[] = [
     saga: 'Les Simpsons',
     platineTime: 0,
     description: '',
-    fromEntity: fromSerie,
+    fromEntity: {
+      entityType: 'serie' as const,
+      title: 'Les Simpsons',
+      secondEntityKey: 'Matt Groening',
+    },
   },
   {
     title: 'Bart & the Beanstalk',
     editor: 'Acclaim Entertainment',
     hero: 'Bart Simpson',
-    coverUrl: COVER,
+    coverUrl:
+      '/games_pictures/a059107191d0.jpg',
     releaseDate: '1994-06-01',
     averageTimeToFinish: 4,
     averageTimeToHundredPercent: 0,
@@ -136,13 +165,18 @@ export const baseGamesSimpsons: BaseGame[] = [
     saga: 'Les Simpsons',
     platineTime: 0,
     description: '',
-    fromEntity: fromSerie,
+    fromEntity: {
+      entityType: 'serie' as const,
+      title: 'Les Simpsons',
+      secondEntityKey: 'Matt Groening',
+    },
   },
   {
     title: 'Itchy & Scratchy in Miniature Golf Madness',
     editor: 'Acclaim Entertainment',
     hero: 'Itchy',
-    coverUrl: COVER,
+    coverUrl:
+      '/games_pictures/934a26194e0d.png',
     releaseDate: '1994-11-01',
     averageTimeToFinish: 4,
     averageTimeToHundredPercent: 0,
@@ -150,13 +184,18 @@ export const baseGamesSimpsons: BaseGame[] = [
     saga: 'Les Simpsons',
     platineTime: 0,
     description: '',
-    fromEntity: fromSerie,
+    fromEntity: {
+      entityType: 'serie' as const,
+      title: 'Les Simpsons',
+      secondEntityKey: 'Matt Groening',
+    },
   },
   {
     title: 'The Simpsons Wrestling',
     editor: 'Activision',
     hero: 'Homer Simpson',
-    coverUrl: COVER,
+    coverUrl:
+      '/games_pictures/99bdc93089d5.jpg',
     releaseDate: '2001-04-12',
     averageTimeToFinish: 6,
     averageTimeToHundredPercent: 12,
@@ -164,13 +203,18 @@ export const baseGamesSimpsons: BaseGame[] = [
     saga: 'Les Simpsons',
     platineTime: 0,
     description: '',
-    fromEntity: fromSerie,
+    fromEntity: {
+      entityType: 'serie' as const,
+      title: 'Les Simpsons',
+      secondEntityKey: 'Matt Groening',
+    },
   },
   {
     title: 'The Simpsons: Road Rage',
     editor: 'Electronic Arts',
     hero: 'Homer Simpson',
-    coverUrl: COVER,
+    coverUrl:
+      '/games_pictures/f209b10556f1.jpg',
     releaseDate: '2001-11-24',
     averageTimeToFinish: 10,
     averageTimeToHundredPercent: 20,
@@ -178,13 +222,18 @@ export const baseGamesSimpsons: BaseGame[] = [
     saga: 'Les Simpsons',
     platineTime: 0,
     description: '',
-    fromEntity: fromSerie,
+    fromEntity: {
+      entityType: 'serie' as const,
+      title: 'Les Simpsons',
+      secondEntityKey: 'Matt Groening',
+    },
   },
   {
     title: 'The Simpsons: Hit & Run',
     editor: 'Vivendi Universal Games',
     hero: 'Homer Simpson',
-    coverUrl: COVER,
+    coverUrl:
+      '/games_pictures/e2a81ba2d277.jpg',
     releaseDate: '2003-09-16',
     averageTimeToFinish: 20,
     averageTimeToHundredPercent: 35,
@@ -192,13 +241,18 @@ export const baseGamesSimpsons: BaseGame[] = [
     saga: 'Les Simpsons',
     platineTime: 0,
     description: '',
-    fromEntity: fromSerie,
+    fromEntity: {
+      entityType: 'serie' as const,
+      title: 'Les Simpsons',
+      secondEntityKey: 'Matt Groening',
+    },
   },
   {
     title: 'The Simpsons: Minutes to Meltdown',
     editor: 'Electronic Arts',
     hero: 'Homer Simpson',
-    coverUrl: COVER,
+    coverUrl:
+      '/games_pictures/91351be72ec3.jpg',
     releaseDate: '2007-07-16',
     averageTimeToFinish: 2,
     averageTimeToHundredPercent: 0,
@@ -206,13 +260,18 @@ export const baseGamesSimpsons: BaseGame[] = [
     saga: 'Les Simpsons',
     platineTime: 0,
     description: '',
-    fromEntity: fromSerie,
+    fromEntity: {
+      entityType: 'serie' as const,
+      title: 'Les Simpsons',
+      secondEntityKey: 'Matt Groening',
+    },
   },
   {
     title: 'The Simpsons: Tapped Out',
     editor: 'Electronic Arts',
     hero: 'Homer Simpson',
-    coverUrl: COVER,
+    coverUrl:
+      '/games_pictures/461021f406b3.jpg',
     releaseDate: '2012-02-29',
     averageTimeToFinish: 0,
     averageTimeToHundredPercent: 0,
@@ -220,6 +279,10 @@ export const baseGamesSimpsons: BaseGame[] = [
     saga: 'Les Simpsons',
     platineTime: 0,
     description: '',
-    fromEntity: fromSerie,
+    fromEntity: {
+      entityType: 'serie' as const,
+      title: 'Les Simpsons',
+      secondEntityKey: 'Matt Groening',
+    },
   },
 ];

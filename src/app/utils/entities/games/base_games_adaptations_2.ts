@@ -2630,7 +2630,7 @@ export const baseGamesAdaptations2: BaseGame[] = [
     editor: 'Blizzard Entertainment',
     hero: 'Superman',
     coverUrl:
-      'https://upload.wikimedia.org/wikipedia/en/0/08/The_Death_and_Return_of_Superman.png',
+      '/games_pictures/06d65dc09936.png',
     releaseDate: '1994-08-02',
     averageTimeToFinish: 5,
     averageTimeToHundredPercent: 0,

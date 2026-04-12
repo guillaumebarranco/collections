@@ -35,8 +35,6 @@ import {
   gameEntityKey,
   isCentralConsumed,
   isSatelliteConsumed,
-  manwhaEntityKey,
-  mangaEntityKey,
   mixOrbitCover,
   mixOrbitEntityKindLabel,
   movieEntityKey,
@@ -48,7 +46,7 @@ import {
 } from './mix-base-works-galaxy.helpers';
 
 /**
- * Vue « Galaxie des Œuvres » du Mix : galaxie orbite (hub par saga / œuvre isolée).
+ * Vue « Galaxie des licences » du Mix : galaxie orbite (hub par saga / œuvre isolée).
  */
 @Component({
   selector: 'app-mix-base-works-galaxy',
@@ -66,7 +64,8 @@ export class MixBaseWorksGalaxyComponent {
    * Sur mobile tactile : désactive l’appui long Material ; l’infobulle s’ouvre au clic
    * (voir `onOrbitCoverTap`). Au pointeur fin (souris), comportement hover inchangé.
    */
-  readonly orbitCoverTooltipTouchGestures = signal<TooltipTouchGestures>('auto');
+  readonly orbitCoverTooltipTouchGestures =
+    signal<TooltipTouchGestures>('auto');
 
   readonly orbitCoverTooltipShowDelay = computed(() =>
     this.orbitCoverTooltipTouchGestures() === 'off' ? 0 : 200
@@ -347,7 +346,7 @@ export class MixBaseWorksGalaxyComponent {
   }
 
   /** Au-delà de ce seuil : deux anneaux (~⅓ intérieur, ~⅔ extérieur). */
-  readonly orbitDualRingThreshold = 50;
+  readonly orbitDualRingThreshold = 40;
 
   orbitUsesDualRing(satelliteCount: number): boolean {
     return satelliteCount > this.orbitDualRingThreshold;

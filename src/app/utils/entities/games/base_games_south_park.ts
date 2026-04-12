@@ -1,20 +1,12 @@
 import { BaseGame } from '../../../models/game-model';
 
-const fromSerie = {
-  entityType: 'serie' as const,
-  title: 'South Park',
-  secondEntityKey: 'Trey Parker, Matt Stone',
-};
-
-/**
- * Jeux *South Park* hors {@link baseGames} (*Le Bâton de la Vérité*, *L’Annale du destin*).
- */
 export const baseGamesSouthPark: BaseGame[] = [
   {
     title: 'South Park',
     editor: 'Acclaim Entertainment',
     hero: 'Cartman',
-    coverUrl: '/games_pictures/south-park-1998.jpg',
+    coverUrl:
+      '/games_pictures/f7d2b92bd75c.jpg',
     releaseDate: '1998-12-12',
     averageTimeToFinish: 8,
     averageTimeToHundredPercent: 12,
@@ -22,13 +14,18 @@ export const baseGamesSouthPark: BaseGame[] = [
     saga: 'South Park',
     platineTime: 0,
     description: '',
-    fromEntity: fromSerie,
+    fromEntity: {
+      entityType: 'serie' as const,
+      title: 'South Park',
+      secondEntityKey: 'Trey Parker, Matt Stone',
+    },
   },
   {
     title: "South Park : Chef's Luv Shack",
     editor: 'Acclaim Entertainment',
     hero: 'Chef',
-    coverUrl: '/games_pictures/south-park-chefs-luv-shack.jpg',
+    coverUrl:
+      '/games_pictures/3cf5fdcf4d6d.jpg',
     releaseDate: '1999-10-31',
     averageTimeToFinish: 4,
     averageTimeToHundredPercent: 8,
@@ -36,27 +33,37 @@ export const baseGamesSouthPark: BaseGame[] = [
     saga: 'South Park',
     platineTime: 0,
     description: '',
-    fromEntity: fromSerie,
+    fromEntity: {
+      entityType: 'serie' as const,
+      title: 'South Park',
+      secondEntityKey: 'Trey Parker, Matt Stone',
+    },
   },
   {
     title: 'South Park Rally',
     editor: 'Acclaim Entertainment',
     hero: 'Cartman',
-    coverUrl: '/games_pictures/south-park-rally.jpg',
+    coverUrl:
+      'https://upload.wikimedia.org/wikipedia/en/thumb/f/f6/South_Park_Rally_PS.jpg/250px-South_Park_Rally_PS.jpg',
     releaseDate: '2000-11-21',
     averageTimeToFinish: 6,
     averageTimeToHundredPercent: 15,
-    platform: 'Nintendo 64',
+    platform: 'Nintendo 64, PlayStation',
     saga: 'South Park',
     platineTime: 0,
     description: '',
-    fromEntity: fromSerie,
+    fromEntity: {
+      entityType: 'serie' as const,
+      title: 'South Park',
+      secondEntityKey: 'Trey Parker, Matt Stone',
+    },
   },
   {
     title: "South Park : Let's Go Tower Defense Play!",
     editor: 'Microsoft Game Studios',
     hero: 'Le Nouveau',
-    coverUrl: '/games_pictures/south-park-tower-defense.jpg',
+    coverUrl:
+      'https://upload.wikimedia.org/wikipedia/en/c/cb/South_Park_Tower_Defense.jpg',
     releaseDate: '2009-10-07',
     averageTimeToFinish: 8,
     averageTimeToHundredPercent: 20,
@@ -64,13 +71,18 @@ export const baseGamesSouthPark: BaseGame[] = [
     saga: 'South Park',
     platineTime: 0,
     description: '',
-    fromEntity: fromSerie,
+    fromEntity: {
+      entityType: 'serie' as const,
+      title: 'South Park',
+      secondEntityKey: 'Trey Parker, Matt Stone',
+    },
   },
   {
     title: 'South Park : Phone Destroyer',
     editor: 'Ubisoft',
     hero: 'Le Nouveau',
-    coverUrl: '/games_pictures/south-park-phone-destroyer.jpg',
+    coverUrl:
+      'https://upload.wikimedia.org/wikipedia/en/5/5a/South-Park-Phone-Destroyer.jpg',
     releaseDate: '2017-11-09',
     averageTimeToFinish: 25,
     averageTimeToHundredPercent: 80,
@@ -78,20 +90,28 @@ export const baseGamesSouthPark: BaseGame[] = [
     saga: 'South Park',
     platineTime: 0,
     description: '',
-    fromEntity: fromSerie,
+    fromEntity: {
+      entityType: 'serie' as const,
+      title: 'South Park',
+      secondEntityKey: 'Trey Parker, Matt Stone',
+    },
   },
   {
     title: 'South Park : Snow Day!',
     editor: 'THQ Nordic',
     hero: 'Le Nouveau',
-    coverUrl: '/games_pictures/south-park-snow-day.jpg',
+    coverUrl: '/games_pictures/9be7ce9dd0ca.jpg',
     releaseDate: '2024-03-26',
     averageTimeToFinish: 6,
     averageTimeToHundredPercent: 12,
-    platform: 'PlayStation 5',
+    platform: 'PlayStation 5, Nintendo Switch',
     saga: 'South Park',
     platineTime: 15,
     description: '',
-    fromEntity: fromSerie,
+    fromEntity: {
+      entityType: 'serie' as const,
+      title: 'South Park',
+      secondEntityKey: 'Trey Parker, Matt Stone',
+    },
   },
 ];

@@ -282,7 +282,7 @@ const MIX_ORBIT_ENTITY_LABELS: Record<string, string> = {
 };
 
 /**
- * Sagas « franchise » exclues du regroupement « Galaxie des Œuvres » (hub orbite).
+ * Sagas « franchise » exclues du regroupement « Galaxie des licences » (hub orbite).
  */
 const BASE_WORKS_EXCLUDED_FRANCHISE_SAGA_KEYS = new Set<string>([
   'disney classique',
@@ -516,7 +516,7 @@ function addCatalogWorksToBlockCrossMediaScore(
 }
 
 /**
- * Score pour classer les blocs « Galaxie des Œuvres » : favorise les franchises
+ * Score pour classer les blocs « Galaxie des licences » : favorise les franchises
  * exportées sur plusieurs supports (film, jeu, etc.), pas seulement le volume
  * d’œuvres dans un seul média.
  *

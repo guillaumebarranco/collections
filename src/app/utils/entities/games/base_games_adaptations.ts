@@ -1,10 +1,5 @@
 import { BaseGame } from '../../../models/game-model';
 
-/**
- * Jeux issus d'adaptations (Dragon Ball, Star Wars, Batman, One Piece, Harry Potter, etc.) —
- * alimentent le Mix « Galaxie des Œuvres » et les fromEntity.
- * Données entièrement inlined (pas de helpers).
- */
 export const baseGamesAdaptations: BaseGame[] = [
   // --- Déjà présents historiquement dans Makya (déplacés depuis base_games / api)
   {
@@ -1465,8 +1460,7 @@ export const baseGamesAdaptations: BaseGame[] = [
     title: 'Star Wars: Battlefront',
     editor: 'EA DICE',
     hero: 'Soldat',
-    coverUrl:
-      '/games_pictures/6aeaac07e809.jpg',
+    coverUrl: '/games_pictures/6aeaac07e809.jpg',
     releaseDate: '2015-11-17',
     averageTimeToFinish: 0,
     averageTimeToHundredPercent: 0,
@@ -1808,8 +1802,7 @@ export const baseGamesAdaptations: BaseGame[] = [
     title: 'Star Wars Rogue Squadron III: Rebel Strike',
     editor: 'Factor 5',
     hero: 'Luke Skywalker',
-    coverUrl:
-      '/games_pictures/571eb4fee931.png',
+    coverUrl: '/games_pictures/571eb4fee931.png',
     releaseDate: '2003-10-15',
     averageTimeToFinish: 10,
     averageTimeToHundredPercent: 15,
@@ -1845,8 +1838,7 @@ export const baseGamesAdaptations: BaseGame[] = [
     title: 'Star Wars: Battlefront',
     editor: 'Pandemic Studios',
     hero: 'Soldat',
-    coverUrl:
-      '/games_pictures/49125a83af4c.jpg',
+    coverUrl: '/games_pictures/49125a83af4c.jpg',
     releaseDate: '2004-09-21',
     averageTimeToFinish: 0,
     averageTimeToHundredPercent: 0,
@@ -1864,8 +1856,7 @@ export const baseGamesAdaptations: BaseGame[] = [
     title: 'Star Wars: Bounty Hunter',
     editor: 'LucasArts',
     hero: 'Jango Fett',
-    coverUrl:
-      '/games_pictures/2ff1317f036b.jpg',
+    coverUrl: '/games_pictures/2ff1317f036b.jpg',
     releaseDate: '2002-11-19',
     averageTimeToFinish: 0,
     averageTimeToHundredPercent: 0,
@@ -2081,8 +2072,7 @@ export const baseGamesAdaptations: BaseGame[] = [
     title: 'Star Wars: Super Bombad Racing',
     editor: 'Lucas Learning',
     hero: 'Anakin Skywalker',
-    coverUrl:
-      '/games_pictures/9cd7f6921bb8.jpg',
+    coverUrl: '/games_pictures/9cd7f6921bb8.jpg',
     releaseDate: '2001-04-23',
     averageTimeToFinish: 0,
     averageTimeToHundredPercent: 0,
@@ -2940,7 +2930,7 @@ export const baseGamesAdaptations: BaseGame[] = [
     editor: 'Ubisoft',
     hero: 'Batman',
     coverUrl:
-      'https://upload.wikimedia.org/wikipedia/en/c/ca/Batman_Vengeance.jpg',
+      '/games_pictures/b224fcfddf8e.jpg',
     releaseDate: '2001-10-15',
     averageTimeToFinish: 8,
     averageTimeToHundredPercent: 15,
@@ -3308,8 +3298,7 @@ export const baseGamesAdaptations: BaseGame[] = [
     title: 'Wonderbook: Book of Potions',
     editor: 'London Studio',
     hero: 'Sorcier',
-    coverUrl:
-      '/games_pictures/35977688661d.png',
+    coverUrl: '/games_pictures/35977688661d.png',
     releaseDate: '2013-11-15',
     averageTimeToFinish: 4,
     averageTimeToHundredPercent: 0,

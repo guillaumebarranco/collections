@@ -885,7 +885,8 @@ export const baseMoviesPage2: BaseMovie[] = [
     title: 'La guerre des mondes (1953)',
     director: 'Byron Haskin',
     actors: [{ name: 'Gene Barry' }, { name: 'Ann Robinson' }],
-    coverUrl: '/movies_pictures/war-of-the-worlds-1953.jpg',
+    coverUrl:
+      '/movies_pictures/120db49684c4.jpg',
     releaseDate: '1953-08-26',
     length: 85,
     genre: ['Science Fiction', 'Thriller'],
@@ -903,7 +904,8 @@ export const baseMoviesPage2: BaseMovie[] = [
     title: 'La grande guerre martienne (1913-1917)',
     director: 'Christopher Spencer',
     actors: [{ name: 'Inconnu' }],
-    coverUrl: '/movies_pictures/great-martian-war-1913.jpg',
+    coverUrl:
+      '/movies_pictures/dbff0b0b2567.jpg',
     releaseDate: '2013-12-07',
     length: 47,
     genre: ['Science Fiction', 'Documentaire'],

@@ -2577,7 +2577,7 @@ export const baseGames2: BaseGame[] = [
     editor: 'Team Ninja',
     hero: 'Samus Aran',
     coverUrl:
-      'https://upload.wikimedia.org/wikipedia/en/6/6f/Metroid_Other_M_Cover.jpg',
+      '/games_pictures/e20bf30df0eb.jpg',
     releaseDate: '2010-08-31',
     averageTimeToFinish: 10,
     averageTimeToHundredPercent: 18,
@@ -3131,7 +3131,7 @@ export const baseGames2: BaseGame[] = [
     editor: 'Atlus',
     hero: 'Protagoniste',
     coverUrl:
-      'https://upload.wikimedia.org/wikipedia/en/thumb/6/65/Persona_3_Reload_box_art.jpg/250px-Persona_3_Reload_box_art.jpg',
+      '/games_pictures/e15f11964f50.jpg',
     releaseDate: '2024-02-02',
     averageTimeToFinish: 55,
     averageTimeToHundredPercent: 100,
@@ -3146,7 +3146,7 @@ export const baseGames2: BaseGame[] = [
     editor: 'Atlus',
     hero: 'Yu Narukami',
     coverUrl:
-      'https://upload.wikimedia.org/wikipedia/en/1/10/Shin_Megami_Tensei_Persona_4.jpg',
+      '/games_pictures/7c50e61bfcae.jpg',
     releaseDate: '2008-07-10',
     averageTimeToFinish: 55,
     averageTimeToHundredPercent: 100,
@@ -3175,7 +3175,7 @@ export const baseGames2: BaseGame[] = [
     editor: 'Arc System Works',
     hero: 'Yu Narukami',
     coverUrl:
-      'https://upload.wikimedia.org/wikipedia/en/9/91/Persona4Arena.png',
+      '/games_pictures/e8bac12befb8.png',
     releaseDate: '2012-07-26',
     averageTimeToFinish: 3,
     averageTimeToHundredPercent: 15,
@@ -3204,7 +3204,7 @@ export const baseGames2: BaseGame[] = [
     editor: 'Atlus',
     hero: 'Yu Narukami',
     coverUrl:
-      'https://upload.wikimedia.org/wikipedia/en/thumb/5/5d/Persona_4_Dancing_All_Night_North_American_cover.jpg/250px-Persona_4_Dancing_All_Night_North_American_cover.jpg',
+      '/games_pictures/3d1c373b5323.jpg',
     releaseDate: '2015-06-25',
     averageTimeToFinish: 8,
     averageTimeToHundredPercent: 20,
@@ -3561,7 +3561,7 @@ export const baseGames2: BaseGame[] = [
     editor: 'Valve',
     hero: 'Alyx Vance',
     coverUrl:
-      'https://upload.wikimedia.org/wikipedia/en/thumb/4/49/Half-Life_Alyx_Cover_Art.jpg/250px-Half-Life_Alyx_Cover_Art.jpg',
+      '/games_pictures/d5b371059c01.jpg',
     releaseDate: '2020-03-23',
     averageTimeToFinish: 12,
     averageTimeToHundredPercent: 18,
@@ -5181,7 +5181,7 @@ export const baseGames2: BaseGame[] = [
     editor: 'KLab',
     hero: 'Tsubasa Ozora',
     coverUrl:
-      'https://www.tsubasa-dreamteam.com/assets/images/common/sp/top/main_video_cover-4-en@2x.jpg',
+      '/games_pictures/629c275f11d6.jpg',
     releaseDate: '2017-06-13',
     averageTimeToFinish: 40,
     averageTimeToHundredPercent: 120,
@@ -5218,7 +5218,7 @@ export const baseGames2: BaseGame[] = [
     title: 'Captain Tsubasa: Rise of New Champions',
     editor: 'Tamsoft',
     hero: 'Tsubasa Ozora',
-    coverUrl: 'https://m.media-amazon.com/images/I/71OulmDYqbL.jpg',
+    coverUrl: '/games_pictures/1a6c1dffd589.jpg',
     releaseDate: '2020-08-27',
     averageTimeToFinish: 15,
     averageTimeToHundredPercent: 35,

@@ -1,20 +1,12 @@
 import { BaseGame } from '../../../models/game-model';
 
-const fromFilm = {
-  entityType: 'movie' as const,
-  title: 'Fast and Furious',
-  secondEntityKey: 'Rob Cohen',
-};
-
-/**
- * Jeux vidéo tirés de la saga cinéma *Fast & Furious*.
- */
 export const baseGamesFastAndFurious: BaseGame[] = [
   {
     title: 'The Fast and the Furious (arcade)',
     editor: 'Raw Thrills',
     hero: 'Dom Toretto',
-    coverUrl: '/games_pictures/fast-furious-arcade-2004.jpg',
+    coverUrl:
+      '/games_pictures/5961a2165760.jpg',
     releaseDate: '2004-01-01',
     averageTimeToFinish: 2,
     averageTimeToHundredPercent: 0,
@@ -22,13 +14,17 @@ export const baseGamesFastAndFurious: BaseGame[] = [
     saga: 'Fast & Furious',
     platineTime: 0,
     description: '',
-    fromEntity: fromFilm,
+    fromEntity: {
+      entityType: 'movie' as const,
+      title: 'Fast and Furious',
+      secondEntityKey: 'Rob Cohen',
+    },
   },
   {
     title: 'The Fast and the Furious',
     editor: 'Eidos Interactive',
     hero: "Brian O'Conner",
-    coverUrl: '/games_pictures/fast-furious-2006-ps2.jpg',
+    coverUrl: '/games_pictures/9f93c2ec5a26.jpg',
     releaseDate: '2006-06-02',
     averageTimeToFinish: 15,
     averageTimeToHundredPercent: 35,
@@ -36,13 +32,18 @@ export const baseGamesFastAndFurious: BaseGame[] = [
     saga: 'Fast & Furious',
     platineTime: 0,
     description: '',
-    fromEntity: fromFilm,
+    fromEntity: {
+      entityType: 'movie' as const,
+      title: 'Fast and Furious',
+      secondEntityKey: 'Rob Cohen',
+    },
   },
   {
     title: 'Fast & Furious',
     editor: 'Gameloft',
     hero: "Brian O'Conner",
-    coverUrl: '/games_pictures/fast-furious-2009-ios.jpg',
+    coverUrl:
+      '/games_pictures/bbb1f0619a0e.jpg',
     releaseDate: '2009-04-03',
     averageTimeToFinish: 8,
     averageTimeToHundredPercent: 20,
@@ -50,13 +51,17 @@ export const baseGamesFastAndFurious: BaseGame[] = [
     saga: 'Fast & Furious',
     platineTime: 0,
     description: '',
-    fromEntity: fromFilm,
+    fromEntity: {
+      entityType: 'movie' as const,
+      title: 'Fast and Furious',
+      secondEntityKey: 'Rob Cohen',
+    },
   },
   {
     title: 'Fast & Furious : Showdown',
     editor: 'Activision',
     hero: 'Dom Toretto',
-    coverUrl: '/games_pictures/fast-furious-showdown.jpg',
+    coverUrl: '/games_pictures/c8a96ba570fc.jpg',
     releaseDate: '2013-05-21',
     averageTimeToFinish: 8,
     averageTimeToHundredPercent: 15,
@@ -64,13 +69,18 @@ export const baseGamesFastAndFurious: BaseGame[] = [
     saga: 'Fast & Furious',
     platineTime: 20,
     description: '',
-    fromEntity: fromFilm,
+    fromEntity: {
+      entityType: 'movie' as const,
+      title: 'Fast and Furious',
+      secondEntityKey: 'Rob Cohen',
+    },
   },
   {
     title: 'Fast & Furious 6 : Le jeu',
     editor: 'Gameloft',
     hero: 'Dom Toretto',
-    coverUrl: '/games_pictures/fast-furious-6-game-ios.jpg',
+    coverUrl:
+      '/games_pictures/a75dd3a73c1f.jpg',
     releaseDate: '2013-05-17',
     averageTimeToFinish: 15,
     averageTimeToHundredPercent: 40,
@@ -88,7 +98,8 @@ export const baseGamesFastAndFurious: BaseGame[] = [
     title: 'Forza Horizon 2 présente Fast & Furious',
     editor: 'Microsoft Studios',
     hero: 'Dom Toretto',
-    coverUrl: '/games_pictures/forza-horizon-2-fast-furious.jpg',
+    coverUrl:
+      '/games_pictures/a7b11dc4aca1.jpg',
     releaseDate: '2015-03-27',
     averageTimeToFinish: 12,
     averageTimeToHundredPercent: 25,
@@ -96,13 +107,18 @@ export const baseGamesFastAndFurious: BaseGame[] = [
     saga: 'Fast & Furious',
     platineTime: 30,
     description: '',
-    fromEntity: fromFilm,
+    fromEntity: {
+      entityType: 'movie' as const,
+      title: 'Fast and Furious',
+      secondEntityKey: 'Rob Cohen',
+    },
   },
   {
     title: 'Fast & Furious : Legacy',
     editor: 'Gameloft',
     hero: 'Dom Toretto',
-    coverUrl: '/games_pictures/fast-furious-legacy.jpg',
+    coverUrl:
+      '/games_pictures/48ff1fcc19a3.jpg',
     releaseDate: '2015-03-25',
     averageTimeToFinish: 25,
     averageTimeToHundredPercent: 80,
@@ -110,13 +126,18 @@ export const baseGamesFastAndFurious: BaseGame[] = [
     saga: 'Fast & Furious',
     platineTime: 0,
     description: '',
-    fromEntity: fromFilm,
+    fromEntity: {
+      entityType: 'movie' as const,
+      title: 'Fast and Furious',
+      secondEntityKey: 'Rob Cohen',
+    },
   },
   {
     title: 'Fast & Furious Crossroads',
     editor: 'Bandai Namco',
     hero: 'Dom Toretto',
-    coverUrl: '/games_pictures/fast-furious-crossroads.jpg',
+    coverUrl:
+      '/games_pictures/dded376d4b28.jpg',
     releaseDate: '2020-08-07',
     averageTimeToFinish: 8,
     averageTimeToHundredPercent: 20,
@@ -124,13 +145,18 @@ export const baseGamesFastAndFurious: BaseGame[] = [
     saga: 'Fast & Furious',
     platineTime: 35,
     description: '',
-    fromEntity: fromFilm,
+    fromEntity: {
+      entityType: 'movie' as const,
+      title: 'Fast and Furious',
+      secondEntityKey: 'Rob Cohen',
+    },
   },
   {
     title: 'Fast & Furious : Spy Racers — Rise of SH1FT3R',
     editor: 'Outright Games',
     hero: 'Tony Toretto',
-    coverUrl: '/games_pictures/fast-furious-spy-racers-rise-shift3r.jpg',
+    coverUrl:
+      '/games_pictures/adcfec859083.jpg',
     releaseDate: '2021-11-05',
     averageTimeToFinish: 6,
     averageTimeToHundredPercent: 12,
@@ -138,6 +164,10 @@ export const baseGamesFastAndFurious: BaseGame[] = [
     saga: 'Fast & Furious',
     platineTime: 15,
     description: '',
-    fromEntity: fromFilm,
+    fromEntity: {
+      entityType: 'movie' as const,
+      title: 'Fast and Furious',
+      secondEntityKey: 'Rob Cohen',
+    },
   },
 ];
