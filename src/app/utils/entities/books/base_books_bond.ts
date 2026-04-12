@@ -19,6 +19,7 @@ export const baseBooksBond: BaseBook[] = [
     releaseDate: '1954-04-11',
     description: '',
     countryOrigin: 'Royaume-Uni',
+    selectDisplayOrder: 0,
   },
   {
     title: 'Moonraker',
@@ -33,6 +34,7 @@ export const baseBooksBond: BaseBook[] = [
     releaseDate: '1955-04-04',
     description: '',
     countryOrigin: 'Royaume-Uni',
+    selectDisplayOrder: 0,
   },
   {
     title: 'Les diamants sont éternels',
@@ -47,6 +49,7 @@ export const baseBooksBond: BaseBook[] = [
     releaseDate: '1956-03-26',
     description: '',
     countryOrigin: 'Royaume-Uni',
+    selectDisplayOrder: 0,
   },
   {
     title: 'Bons baisers de Russie',
@@ -61,6 +64,7 @@ export const baseBooksBond: BaseBook[] = [
     releaseDate: '1957-04-08',
     description: '',
     countryOrigin: 'Royaume-Uni',
+    selectDisplayOrder: 0,
   },
   {
     title: 'James Bond 007 contre Dr. No',
@@ -75,6 +79,7 @@ export const baseBooksBond: BaseBook[] = [
     releaseDate: '1958-03-31',
     description: '',
     countryOrigin: 'Royaume-Uni',
+    selectDisplayOrder: 0,
   },
   {
     title: 'Goldfinger',
@@ -89,6 +94,7 @@ export const baseBooksBond: BaseBook[] = [
     releaseDate: '1959-03-23',
     description: '',
     countryOrigin: 'Royaume-Uni',
+    selectDisplayOrder: 0,
   },
   {
     title: 'Bons baisers de Paris',
@@ -103,6 +109,7 @@ export const baseBooksBond: BaseBook[] = [
     releaseDate: '1960-04-11',
     description: '',
     countryOrigin: 'Royaume-Uni',
+    selectDisplayOrder: 0,
   },
   {
     title: 'Opération tonnerre',
@@ -117,6 +124,7 @@ export const baseBooksBond: BaseBook[] = [
     releaseDate: '1961-03-27',
     description: '',
     countryOrigin: 'Royaume-Uni',
+    selectDisplayOrder: 0,
   },
   {
     title: "L'espion qui m'aimait",
@@ -130,6 +138,7 @@ export const baseBooksBond: BaseBook[] = [
     releaseDate: '1962-04-16',
     description: '',
     countryOrigin: 'Royaume-Uni',
+    selectDisplayOrder: 0,
   },
   {
     title: 'Au service secret de Sa Majesté',
@@ -144,6 +153,7 @@ export const baseBooksBond: BaseBook[] = [
     releaseDate: '1963-04-01',
     description: '',
     countryOrigin: 'Royaume-Uni',
+    selectDisplayOrder: 0,
   },
   {
     title: 'On ne vit que deux fois',
@@ -158,6 +168,7 @@ export const baseBooksBond: BaseBook[] = [
     releaseDate: '1964-03-16',
     description: '',
     countryOrigin: 'Royaume-Uni',
+    selectDisplayOrder: 0,
   },
   {
     title: "L'homme au pistolet d'or",
@@ -171,6 +182,7 @@ export const baseBooksBond: BaseBook[] = [
     releaseDate: '1965-04-01',
     description: '',
     countryOrigin: 'Royaume-Uni',
+    selectDisplayOrder: 0,
   },
   {
     title: 'Octopussy et autres histoires',
@@ -185,5 +197,6 @@ export const baseBooksBond: BaseBook[] = [
     releaseDate: '1966-06-23',
     description: '',
     countryOrigin: 'Royaume-Uni',
+    selectDisplayOrder: 0,
   },
 ];

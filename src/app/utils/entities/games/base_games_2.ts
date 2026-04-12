@@ -3304,7 +3304,7 @@ export const baseGames2: BaseGame[] = [
     editor: 'Square Enix',
     hero: 'Sora',
     coverUrl:
-      'https://upload.wikimedia.org/wikipedia/en/8/85/Kingdom_Hearts.jpg',
+      '/games_pictures/f2b87e139364.jpg',
     releaseDate: '2002-03-28',
     averageTimeToFinish: 28,
     averageTimeToHundredPercent: 55,
@@ -3517,7 +3517,7 @@ export const baseGames2: BaseGame[] = [
     editor: 'Valve',
     hero: 'Gordon Freeman',
     coverUrl:
-      'https://upload.wikimedia.org/wikipedia/en/2/25/Half-Life_2_cover.jpg',
+      '/games_pictures/00c0232e7f16.jpg',
     releaseDate: '2004-11-16',
     averageTimeToFinish: 14,
     averageTimeToHundredPercent: 22,
@@ -3546,7 +3546,7 @@ export const baseGames2: BaseGame[] = [
     editor: 'Valve',
     hero: 'Gordon Freeman',
     coverUrl:
-      'https://upload.wikimedia.org/wikipedia/en/2/2d/Half-Life_2_Episode_Two_title.jpg',
+      '/games_pictures/9bfd392b0c54.jpg',
     releaseDate: '2007-10-10',
     averageTimeToFinish: 5,
     averageTimeToHundredPercent: 10,
@@ -3635,7 +3635,7 @@ export const baseGames2: BaseGame[] = [
     editor: 'ClockStone',
     hero: 'Aperture',
     coverUrl:
-      'https://upload.wikimedia.org/wikipedia/en/1/1d/Bridge_constructor_portal_art.jpg',
+      '/games_pictures/eaf27ad68452.jpg',
     releaseDate: '2017-12-20',
     averageTimeToFinish: 8,
     averageTimeToHundredPercent: 15,
@@ -3664,7 +3664,7 @@ export const baseGames2: BaseGame[] = [
     editor: 'Radical Entertainment',
     hero: 'James Heller',
     coverUrl:
-      'https://upload.wikimedia.org/wikipedia/en/thumb/f/fb/Prototype_2_game.jpg/250px-Prototype_2_game.jpg',
+      '/games_pictures/e80c76262619.jpg',
     releaseDate: '2012-04-24',
     averageTimeToFinish: 12,
     averageTimeToHundredPercent: 30,
@@ -4691,7 +4691,7 @@ export const baseGames2: BaseGame[] = [
     editor: 'Naughty Dog',
     hero: 'Crash Bandicoot',
     coverUrl:
-      'https://upload.wikimedia.org/wikipedia/en/4/44/Crash_Bandicoot_Cover.png',
+      '/games_pictures/4b77f728ca98.png',
     releaseDate: '1996-09-09',
     averageTimeToFinish: 8,
     averageTimeToHundredPercent: 15,
@@ -4706,7 +4706,7 @@ export const baseGames2: BaseGame[] = [
     editor: 'Naughty Dog',
     hero: 'Crash Bandicoot',
     coverUrl:
-      'https://upload.wikimedia.org/wikipedia/en/thumb/e/e6/Crash_Bandicoot_2_Cortex_Strikes_Back_Game_Cover.jpg/250px-Crash_Bandicoot_2_Cortex_Strikes_Back_Game_Cover.jpg',
+      '/games_pictures/59e73d304ab5.jpg',
     releaseDate: '1997-10-31',
     averageTimeToFinish: 8,
     averageTimeToHundredPercent: 16,
@@ -4736,7 +4736,7 @@ export const baseGames2: BaseGame[] = [
     editor: 'Naughty Dog',
     hero: 'Crash Bandicoot',
     coverUrl:
-      'https://upload.wikimedia.org/wikipedia/en/thumb/4/4f/CrashTeamRacingNACover.png/250px-CrashTeamRacingNACover.png',
+      '/games_pictures/1c5a52f61c51.png',
     releaseDate: '1999-09-30',
     averageTimeToFinish: 6,
     averageTimeToHundredPercent: 18,

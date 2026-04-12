@@ -225,8 +225,7 @@ export const baseMangas: BaseManga[] = [
   {
     title: 'Captain Tsubasa',
     author: 'Yōichi Takahashi',
-    coverUrl:
-      '/mangas_pictures/0356a39b00eb.jpg',
+    coverUrl: '/mangas_pictures/0356a39b00eb.jpg',
     genre: 'Shonen',
     nbTomes: 37,
     isFinished: true,
@@ -447,8 +446,7 @@ export const baseMangas: BaseManga[] = [
   {
     title: 'Puella Magi Kazumi Magica',
     author: 'Takashi Tensugi',
-    coverUrl:
-      '/mangas_pictures/092fb8e00239.jpg',
+    coverUrl: '/mangas_pictures/092fb8e00239.jpg',
     genre: 'Seinen',
     nbTomes: 5,
     isFinished: true,
@@ -461,8 +459,7 @@ export const baseMangas: BaseManga[] = [
   {
     title: 'Puella Magi Madoka Magica : The Different Story',
     author: 'U35',
-    coverUrl:
-      '/mangas_pictures/ef43067e752a.jpg',
+    coverUrl: '/mangas_pictures/ef43067e752a.jpg',
     genre: 'Seinen',
     nbTomes: 2,
     isFinished: true,
@@ -475,8 +472,7 @@ export const baseMangas: BaseManga[] = [
   {
     title: 'Magia Record : Puella Magi Madoka Magica Side Story',
     author: 'U35',
-    coverUrl:
-      '/mangas_pictures/c8edeee68bed.webp',
+    coverUrl: '/mangas_pictures/c8edeee68bed.webp',
     genre: 'Seinen',
     nbTomes: 6,
     isFinished: true,
@@ -814,8 +810,7 @@ export const baseMangas: BaseManga[] = [
   {
     title: 'The Breaker : New Waves',
     author: 'Jeon Geuk-Jin',
-    coverUrl:
-      '/mangas_pictures/f664e84cd31c.jpg',
+    coverUrl: '/mangas_pictures/f664e84cd31c.jpg',
     genre: 'Shonen',
     nbTomes: 20,
     isFinished: true,
@@ -867,8 +862,7 @@ export const baseMangas: BaseManga[] = [
   {
     title: 'Yu-Gi-Oh! R',
     author: 'Akira Itō',
-    coverUrl:
-      '/mangas_pictures/9e35d7a59ea1.jpg',
+    coverUrl: '/mangas_pictures/9e35d7a59ea1.jpg',
     genre: 'Shonen',
     nbTomes: 5,
     isFinished: true,
@@ -881,8 +875,7 @@ export const baseMangas: BaseManga[] = [
   {
     title: 'Yu-Gi-Oh! GX',
     author: 'Naoyuki Kageyama',
-    coverUrl:
-      '/mangas_pictures/683736c7fda2.jpg',
+    coverUrl: '/mangas_pictures/683736c7fda2.jpg',
     genre: 'Shonen',
     nbTomes: 9,
     isFinished: true,
@@ -895,8 +888,7 @@ export const baseMangas: BaseManga[] = [
   {
     title: "Yu-Gi-Oh! 5D's",
     author: 'Masahiro Hikokubo, Masashi Satō',
-    coverUrl:
-      '/mangas_pictures/6a3b8c7749cc.jpg',
+    coverUrl: '/mangas_pictures/6a3b8c7749cc.jpg',
     genre: 'Shonen',
     nbTomes: 9,
     isFinished: true,
@@ -909,8 +901,7 @@ export const baseMangas: BaseManga[] = [
   {
     title: 'Yu-Gi-Oh! Zexal',
     author: 'Shin Yoshida, Naohito Miyoshi',
-    coverUrl:
-      '/mangas_pictures/c6c6a8a8951f.jpg',
+    coverUrl: '/mangas_pictures/c6c6a8a8951f.jpg',
     genre: 'Shonen',
     nbTomes: 9,
     isFinished: true,
@@ -936,8 +927,7 @@ export const baseMangas: BaseManga[] = [
   {
     title: 'Yu-Gi-Oh! VRAINS',
     author: 'Shin Yoshida, Masashi Satō',
-    coverUrl:
-      '/mangas_pictures/318be52eda76.jpg',
+    coverUrl: '/mangas_pictures/318be52eda76.jpg',
     genre: 'Shonen',
     nbTomes: 2,
     isFinished: true,
@@ -950,8 +940,7 @@ export const baseMangas: BaseManga[] = [
   {
     title: 'Yu-Gi-Oh! Sevens',
     author: 'Naohito Miyoshi',
-    coverUrl:
-      '/mangas_pictures/016873225e33.webp',
+    coverUrl: '/mangas_pictures/016873225e33.webp',
     genre: 'Shonen',
     nbTomes: 3,
     isFinished: true,
@@ -986,6 +975,23 @@ export const baseMangas: BaseManga[] = [
     saga: '',
     description: '',
     fromEntity: null,
+  },
+  {
+    title: 'Lupin III',
+    author: 'Monkey Punch',
+    coverUrl: '/mangas_pictures/069fac8245f3.jpg',
+    genre: 'Shonen',
+    nbTomes: 14,
+    isFinished: true,
+    startDate: '1967-08-10',
+    endDate: '1972-05-22',
+    saga: 'Lupin III',
+    description: '',
+    fromEntity: {
+      entityType: 'book',
+      title: 'Arsène Lupin, gentleman cambrioleur',
+      secondEntityKey: 'Maurice Leblanc',
+    },
   },
   {
     title: 'Lui Ou Rien !',
@@ -1199,8 +1205,7 @@ export const baseMangas: BaseManga[] = [
   {
     title: 'Captain Tsubasa : Memories',
     author: 'Yōichi Takahashi',
-    coverUrl:
-      '/mangas_pictures/f59d0e3db5a0.jpg',
+    coverUrl: '/mangas_pictures/f59d0e3db5a0.jpg',
     genre: 'Shonen',
     nbTomes: 2,
     isFinished: true,
@@ -1213,8 +1218,7 @@ export const baseMangas: BaseManga[] = [
   {
     title: 'Captain Tsubasa : Kaigai Gekitō-hen',
     author: 'Yōichi Takahashi',
-    coverUrl:
-      '/mangas_pictures/93186ea23a79.jpg',
+    coverUrl: '/mangas_pictures/93186ea23a79.jpg',
     genre: 'Shonen',
     nbTomes: 8,
     isFinished: true,

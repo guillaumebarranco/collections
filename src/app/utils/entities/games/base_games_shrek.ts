@@ -1,0 +1,143 @@
+import { BaseGame } from '../../../models/game-model';
+
+/** Jeux vidéo licenciés majeurs de la franchise Shrek (catalogue Makya). */
+export const baseGamesShrek: BaseGame[] = [
+  {
+    title: 'Shrek',
+    editor: 'TDK Mediactive',
+    hero: 'Shrek',
+    coverUrl:
+      '/games_pictures/9518a501a580.jpg',
+    releaseDate: '2001-10-28',
+    averageTimeToFinish: 6,
+    averageTimeToHundredPercent: 0,
+    platform: 'Xbox, GameCube, Windows',
+    saga: 'Shrek',
+    platineTime: 0,
+    description:
+      'Action / plates-formes (Digital Illusions) calqué sur le premier film.',
+    fromEntity: {
+      entityType: 'movie',
+      title: 'Shrek',
+      secondEntityKey: 'Andrew Adamson, Vicky Jenson',
+    },
+  },
+  {
+    title: 'Shrek 2',
+    editor: 'Activision',
+    hero: 'Shrek',
+    coverUrl:
+      '/games_pictures/5ed5acdca45b.jpg',
+    releaseDate: '2004-04-28',
+    averageTimeToFinish: 8,
+    averageTimeToHundredPercent: 12,
+    platform: 'PlayStation 2, Xbox, GameCube, Windows, Game Boy Advance',
+    saga: 'Shrek',
+    platineTime: 0,
+    description:
+      'Aventure en vue à la troisième personne (Luxoflux), parallèle au film.',
+    fromEntity: {
+      entityType: 'movie',
+      title: 'Shrek 2',
+      secondEntityKey: 'Andrew Adamson, Kelly Asbury, Conrad Vernon',
+    },
+  },
+  {
+    title: 'Shrek SuperSlam',
+    editor: 'Activision',
+    hero: 'Shrek',
+    coverUrl:
+      '/games_pictures/7289fb4904a4.jpg',
+    releaseDate: '2005-10-25',
+    averageTimeToFinish: 4,
+    averageTimeToHundredPercent: 8,
+    platform: 'PlayStation 2, Xbox, GameCube, Windows, Nintendo DS',
+    saga: 'Shrek',
+    platineTime: 0,
+    description:
+      'Jeu de combat type party game avec les personnages de la licence.',
+    fromEntity: {
+      entityType: 'movie',
+      title: 'Shrek 2',
+      secondEntityKey: 'Andrew Adamson, Kelly Asbury, Conrad Vernon',
+    },
+  },
+  {
+    title: "Shrek : Smash n' Crash Racing",
+    editor: 'Activision',
+    hero: 'Shrek',
+    coverUrl: '/games_pictures/112435a5e9a2.jpg',
+    releaseDate: '2006-11-14',
+    averageTimeToFinish: 3,
+    averageTimeToHundredPercent: 0,
+    platform: 'PlayStation 2, GameCube, Game Boy Advance, Nintendo DS, PSP',
+    saga: 'Shrek',
+    platineTime: 0,
+    description: 'Karting avec les héros de Shrek (Torus Games).',
+    fromEntity: {
+      entityType: 'movie',
+      title: 'Shrek 2',
+      secondEntityKey: 'Andrew Adamson, Kelly Asbury, Conrad Vernon',
+    },
+  },
+  {
+    title: 'Shrek le Troisième',
+    editor: 'Activision',
+    hero: 'Shrek',
+    coverUrl: '/games_pictures/43a9fb093189.jpg',
+    releaseDate: '2007-06-05',
+    averageTimeToFinish: 6,
+    averageTimeToHundredPercent: 0,
+    platform:
+      'PlayStation 2, Wii, Xbox 360, Windows, Nintendo DS, PSP, Game Boy Advance',
+    saga: 'Shrek',
+    platineTime: 0,
+    description:
+      'Action-aventure (Amaze Entertainment / Vicarious Visions selon versions).',
+    fromEntity: {
+      entityType: 'movie',
+      title: 'Shrek le Troisième',
+      secondEntityKey: 'Chris Miller',
+    },
+  },
+  {
+    title: 'Shrek 4 : Il était une fois',
+    editor: 'Activision',
+    hero: 'Shrek',
+    coverUrl:
+      '/games_pictures/0630277cadfe.jpg',
+    releaseDate: '2010-05-18',
+    averageTimeToFinish: 5,
+    averageTimeToHundredPercent: 0,
+    platform: 'PlayStation 3, Wii, Xbox 360, Windows, Nintendo DS',
+    saga: 'Shrek',
+    platineTime: 0,
+    description:
+      'Jeu d’action-aventure aligné sur le quatrième long métrage (XPEC Entertainment).',
+    fromEntity: {
+      entityType: 'movie',
+      title: 'Shrek 4 : Il Était une Fois',
+      secondEntityKey: 'Mike Mitchell',
+    },
+  },
+  {
+    title: 'Le Chat Potté (jeu vidéo, 2011)',
+    editor: 'THQ',
+    hero: 'Le Chat Potté',
+    coverUrl:
+      '/games_pictures/a9b691c146f2.jpg',
+    releaseDate: '2011-10-25',
+    averageTimeToFinish: 6,
+    averageTimeToHundredPercent: 0,
+    platform: 'PlayStation 3, Wii, Xbox 360, Nintendo DS',
+    saga: 'Shrek',
+    platineTime: 0,
+    description:
+      'Jeu d’action-aventure (Blitz Games) tie-in du film Le Chat Potté.',
+    fromEntity: {
+      entityType: 'movie',
+      title: 'Le Chat Potté',
+      secondEntityKey: 'Chris Miller',
+    },
+  },
+];

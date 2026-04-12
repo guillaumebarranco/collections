@@ -871,4 +871,30 @@ export const baseBds: BaseBd[] = [
     saga: 'Titeuf',
     sagaOrder: 9,
   },
+  {
+    title: 'Tara Duncan - Tome 1 - La sirène muette',
+    writer: 'Véronique Grisseaux',
+    designer: 'Chloé Citrine, Emma Vieceli',
+    coverUrl:
+      '/bds_pictures/689596a5b19e.jpg',
+    releaseDate: '2010-09-01',
+    pages: 48,
+    genre: 'Fantasy',
+    description: '',
+    saga: 'Tara Duncan',
+    sagaOrder: 1,
+  },
+  {
+    title: 'Tara Duncan - Tome 2 - La licorne décornée',
+    writer: 'Véronique Grisseaux',
+    designer: 'Chloé Citrine, Emma Vieceli',
+    coverUrl:
+      '/bds_pictures/3b2a706221c3.jpg',
+    releaseDate: '2011-06-01',
+    pages: 48,
+    genre: 'Fantasy',
+    description: '',
+    saga: 'Tara Duncan',
+    sagaOrder: 2,
+  },
 ];

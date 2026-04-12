@@ -29,6 +29,7 @@ function formatBaseBook(entity: any): string {
     releaseDate: "${escapeString(entity.releaseDate || '')}",
     description: "${escapeString(entity.description ?? '')}",
     countryOrigin: "${escapeString(entity.countryOrigin ?? '')}",
+    selectDisplayOrder: ${entity.selectDisplayOrder != null ? Number(entity.selectDisplayOrder) : 0},
   },`;
 }
 

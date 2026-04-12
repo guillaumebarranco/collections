@@ -1,4 +1,10 @@
-import { baseComics, baseComicsApi } from '../../utils/entities/comics';
+import {
+  baseComics,
+  baseComicsApi,
+  baseComicsUnderworld,
+  baseComicsMatrix,
+  baseComicsTerminator,
+} from '../../utils/entities/comics';
 import { BaseComic, UserComic } from '../../models/comic-model';
 import { guillaumeComics } from '../../utils/users/guillaume/comics/guillaume_comics';
 import { guillaumeReadListComics } from '../../utils/users/guillaume/comics/guillaume_readlist_comics';
@@ -13,7 +19,13 @@ import { williamReadListComics } from '../../utils/users/william/comics/william_
 import { xerythComics } from '../../utils/users/xeryth/comics/xeryth_comics';
 import { xerythReadListComics } from '../../utils/users/xeryth/comics/xeryth_readlist_comics';
 
-export const allBaseComics: BaseComic[] = [...baseComics, ...baseComicsApi];
+export const allBaseComics: BaseComic[] = [
+  ...baseComics,
+  ...baseComicsApi,
+  ...baseComicsUnderworld,
+  ...baseComicsMatrix,
+  ...baseComicsTerminator,
+];
 
 export function getLocalComicsByUser(userId: string): UserComic[] {
   switch (userId) {

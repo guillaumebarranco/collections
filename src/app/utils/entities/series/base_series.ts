@@ -2708,8 +2708,107 @@ export const baseSeries: BaseSerie[] = [
       },
     ],
     description: '',
-    fromEntity: null,
-    saga: '',
+    fromEntity: {
+      entityType: 'book',
+      title: 'Arsène Lupin, gentleman cambrioleur',
+      secondEntityKey: 'Maurice Leblanc',
+    },
+    saga: 'Arsène Lupin',
+    countryOrigin: 'France',
+  },
+  {
+    title: "Les Aventures d'Arsène Lupin",
+    director: 'Jean-Pierre Desagnat',
+    actors: [
+      {
+        name: 'Georges Descrières',
+      },
+      {
+        name: 'Yvon Bouchard',
+      },
+    ],
+    coverUrl:
+      '/series_pictures/4f6960aa3a53.jpg',
+    releaseDate: '1971-04-12',
+    endDate: '1974-12-28',
+    genre: ['Policier', 'Aventure'],
+    seasonsData: [
+      {
+        seasonNumber: 1,
+        nbEpisodes: 13,
+        totalLength: 676,
+      },
+      {
+        seasonNumber: 2,
+        nbEpisodes: 13,
+        totalLength: 676,
+      },
+    ],
+    description: '',
+    fromEntity: {
+      entityType: 'book',
+      title: 'Arsène Lupin, gentleman cambrioleur',
+      secondEntityKey: 'Maurice Leblanc',
+    },
+    saga: 'Arsène Lupin',
+    countryOrigin: 'France',
+  },
+  {
+    title: 'Night Hood',
+    director: 'Pascal Morelli',
+    actors: [
+      {
+        name: 'Tedd Dillon',
+      },
+    ],
+    coverUrl:
+      '/series_pictures/197500659743.jpg',
+    releaseDate: '1996-01-01',
+    endDate: '1996-12-31',
+    genre: ['Jeunesse', 'Policier'],
+    seasonsData: [
+      {
+        seasonNumber: 1,
+        nbEpisodes: 26,
+        totalLength: 572,
+      },
+    ],
+    description: '',
+    fromEntity: {
+      entityType: 'book',
+      title: 'Arsène Lupin, gentleman cambrioleur',
+      secondEntityKey: 'Maurice Leblanc',
+    },
+    saga: 'Arsène Lupin',
+    countryOrigin: 'Canada',
+  },
+  {
+    title: 'Arsène Lupin joue et perd',
+    director: 'Alexandre Astruc',
+    actors: [
+      { name: 'Jean-Claude Brialy' },
+      { name: 'Christiane Krüger' },
+      { name: 'Maurice Biraud' },
+    ],
+    coverUrl:
+      '/series_pictures/105a4c485a8c.jpg',
+    releaseDate: '1980-12-12',
+    endDate: '1980-12-27',
+    genre: ['Policier', 'Aventure'],
+    seasonsData: [
+      {
+        seasonNumber: 1,
+        nbEpisodes: 6,
+        totalLength: 312,
+      },
+    ],
+    description: '',
+    fromEntity: {
+      entityType: 'book',
+      title: '813',
+      secondEntityKey: 'Maurice Leblanc',
+    },
+    saga: 'Arsène Lupin',
     countryOrigin: 'France',
   },
   {

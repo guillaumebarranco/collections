@@ -13,6 +13,7 @@ export const baseBooksScienceFiction: BaseBook[] = [
     releaseDate: '1865-09-14',
     description: '',
     countryOrigin: 'France',
+    selectDisplayOrder: 0,
   },
   {
     title: 'Autour de la Lune',
@@ -26,6 +27,7 @@ export const baseBooksScienceFiction: BaseBook[] = [
     releaseDate: '1870-01-01',
     description: '',
     countryOrigin: 'France',
+    selectDisplayOrder: 0,
   },
   {
     title: 'Fondation',
@@ -39,6 +41,7 @@ export const baseBooksScienceFiction: BaseBook[] = [
     releaseDate: '1951-05-01',
     description: '',
     countryOrigin: 'États-Unis',
+    selectDisplayOrder: 30,
   },
   {
     title: 'La Nuit des temps',
@@ -52,6 +55,7 @@ export const baseBooksScienceFiction: BaseBook[] = [
     releaseDate: '1968-01-01',
     description: '',
     countryOrigin: 'France',
+    selectDisplayOrder: 30,
   },
   {
     title: 'Ravage',
@@ -65,6 +69,7 @@ export const baseBooksScienceFiction: BaseBook[] = [
     releaseDate: '1943-01-01',
     description: '',
     countryOrigin: 'France',
+    selectDisplayOrder: 0,
   },
   {
     title: 'La Horde du Contrevent',
@@ -78,6 +83,7 @@ export const baseBooksScienceFiction: BaseBook[] = [
     releaseDate: '2004-01-01',
     description: '',
     countryOrigin: 'France',
+    selectDisplayOrder: 0,
   },
   {
     title: 'La guerre des mondes',
@@ -91,6 +97,7 @@ export const baseBooksScienceFiction: BaseBook[] = [
     releaseDate: '1898-01-01',
     description: '',
     countryOrigin: 'Royaume-Uni',
+    selectDisplayOrder: 30,
   },
   {
     title: 'La machine à explorer le temps',
@@ -104,6 +111,7 @@ export const baseBooksScienceFiction: BaseBook[] = [
     releaseDate: '1895-01-01',
     description: '',
     countryOrigin: 'Royaume-Uni',
+    selectDisplayOrder: 30,
   },
   {
     title: "L'homme invisible",
@@ -117,6 +125,7 @@ export const baseBooksScienceFiction: BaseBook[] = [
     releaseDate: '1897-01-01',
     description: '',
     countryOrigin: 'Royaume-Uni',
+    selectDisplayOrder: 30,
   },
   {
     title: "L'espace d'un an",
@@ -130,6 +139,7 @@ export const baseBooksScienceFiction: BaseBook[] = [
     releaseDate: '2014-07-29',
     description: '',
     countryOrigin: 'États-Unis',
+    selectDisplayOrder: 0,
   },
   {
     title: 'Un raccourci dans le temps',
@@ -143,6 +153,7 @@ export const baseBooksScienceFiction: BaseBook[] = [
     releaseDate: '1962-01-01',
     description: '',
     countryOrigin: 'États-Unis',
+    selectDisplayOrder: 0,
   },
   {
     title: 'Les voyages de Gulliver',
@@ -156,6 +167,7 @@ export const baseBooksScienceFiction: BaseBook[] = [
     releaseDate: '1726-10-28',
     description: '',
     countryOrigin: 'États-Unis',
+    selectDisplayOrder: 30,
   },
   {
     title: "Rien qu'un surhomme",
@@ -169,6 +181,7 @@ export const baseBooksScienceFiction: BaseBook[] = [
     releaseDate: '1930-01-01',
     description: '',
     countryOrigin: 'États-Unis',
+    selectDisplayOrder: 0,
   },
   {
     title: 'Des fleurs pour Algernon',
@@ -182,6 +195,7 @@ export const baseBooksScienceFiction: BaseBook[] = [
     releaseDate: '1966-01-01',
     description: '',
     countryOrigin: 'États-Unis',
+    selectDisplayOrder: 30,
   },
   {
     title: 'Le prestige',
@@ -195,6 +209,7 @@ export const baseBooksScienceFiction: BaseBook[] = [
     releaseDate: '1995-01-01',
     description: '',
     countryOrigin: 'Royaume-Uni',
+    selectDisplayOrder: 0,
   },
   {
     title: "Éclats d'étoiles",
@@ -208,6 +223,7 @@ export const baseBooksScienceFiction: BaseBook[] = [
     releaseDate: '2007-11-06',
     description: '',
     countryOrigin: 'États-Unis',
+    selectDisplayOrder: 0,
   },
   {
     title: 'Uglies',
@@ -221,6 +237,7 @@ export const baseBooksScienceFiction: BaseBook[] = [
     releaseDate: '2005-02-08',
     description: '',
     countryOrigin: 'États-Unis',
+    selectDisplayOrder: 0,
   },
   {
     title: 'La Planète des singes',
@@ -234,6 +251,7 @@ export const baseBooksScienceFiction: BaseBook[] = [
     releaseDate: '1963-01-01',
     description: '',
     countryOrigin: 'États-Unis',
+    selectDisplayOrder: 0,
   },
   {
     title: 'Cycle de Tschai - Intégrale',
@@ -247,5 +265,6 @@ export const baseBooksScienceFiction: BaseBook[] = [
     releaseDate: '',
     description: '',
     countryOrigin: 'États-Unis',
+    selectDisplayOrder: 0,
   },
 ];

@@ -13,6 +13,7 @@ export const baseBooksLitterature: BaseBook[] = [
     releaseDate: '1888-01-09',
     description: '',
     countryOrigin: 'France',
+    selectDisplayOrder: 0,
   },
 
   {
@@ -27,6 +28,7 @@ export const baseBooksLitterature: BaseBook[] = [
     releaseDate: '1887-01-01',
     description: '',
     countryOrigin: 'France',
+    selectDisplayOrder: 0,
   },
 
   {
@@ -41,6 +43,7 @@ export const baseBooksLitterature: BaseBook[] = [
     releaseDate: '1889-01-01',
     description: '',
     countryOrigin: 'France',
+    selectDisplayOrder: 0,
   },
   {
     title: 'Notre Cœur',
@@ -54,6 +57,7 @@ export const baseBooksLitterature: BaseBook[] = [
     releaseDate: '1890-01-01',
     description: '',
     countryOrigin: 'France',
+    selectDisplayOrder: 0,
   },
   {
     title: 'La Maison Tellier',
@@ -67,6 +71,7 @@ export const baseBooksLitterature: BaseBook[] = [
     releaseDate: '1881-01-01',
     description: '',
     countryOrigin: 'France',
+    selectDisplayOrder: 0,
   },
   {
     title: "L'Inutile Beauté",
@@ -80,6 +85,7 @@ export const baseBooksLitterature: BaseBook[] = [
     releaseDate: '1890-01-01',
     description: '',
     countryOrigin: 'France',
+    selectDisplayOrder: 0,
   },
   {
     title: 'Au soleil',
@@ -93,6 +99,7 @@ export const baseBooksLitterature: BaseBook[] = [
     releaseDate: '1884-01-01',
     description: '',
     countryOrigin: 'France',
+    selectDisplayOrder: 0,
   },
   {
     title: "Sur l'eau",
@@ -106,6 +113,7 @@ export const baseBooksLitterature: BaseBook[] = [
     releaseDate: '1888-01-01',
     description: '',
     countryOrigin: 'France',
+    selectDisplayOrder: 0,
   },
   {
     title: 'La Vie errante',
@@ -119,6 +127,7 @@ export const baseBooksLitterature: BaseBook[] = [
     releaseDate: '1890-01-01',
     description: '',
     countryOrigin: 'France',
+    selectDisplayOrder: 0,
   },
   {
     title: 'Contes de la bécasse',
@@ -132,6 +141,7 @@ export const baseBooksLitterature: BaseBook[] = [
     releaseDate: '1883-01-01',
     description: '',
     countryOrigin: 'France',
+    selectDisplayOrder: 0,
   },
 
   {
@@ -146,6 +156,7 @@ export const baseBooksLitterature: BaseBook[] = [
     releaseDate: '1877-04-01',
     description: '',
     countryOrigin: 'France',
+    selectDisplayOrder: 0,
   },
   {
     title: 'Bouvard et Pécuchet',
@@ -159,6 +170,7 @@ export const baseBooksLitterature: BaseBook[] = [
     releaseDate: '1881-01-01',
     description: '',
     countryOrigin: 'France',
+    selectDisplayOrder: 0,
   },
   {
     title: 'Dictionnaire des idées reçues',
@@ -172,6 +184,7 @@ export const baseBooksLitterature: BaseBook[] = [
     releaseDate: '1913-01-01',
     description: '',
     countryOrigin: 'France',
+    selectDisplayOrder: 0,
   },
   {
     title: 'Thérèse Raquin',
@@ -185,6 +198,7 @@ export const baseBooksLitterature: BaseBook[] = [
     releaseDate: '1868-01-01',
     description: '',
     countryOrigin: 'France',
+    selectDisplayOrder: 0,
   },
   {
     title: 'La Fortune des Rougon',
@@ -198,6 +212,7 @@ export const baseBooksLitterature: BaseBook[] = [
     releaseDate: '1871-01-01',
     description: '',
     countryOrigin: 'France',
+    selectDisplayOrder: 30,
   },
   {
     title: 'La Curée',
@@ -211,6 +226,7 @@ export const baseBooksLitterature: BaseBook[] = [
     releaseDate: '1872-01-01',
     description: '',
     countryOrigin: 'France',
+    selectDisplayOrder: 0,
   },
   {
     title: 'Le Ventre de Paris',
@@ -224,6 +240,7 @@ export const baseBooksLitterature: BaseBook[] = [
     releaseDate: '1873-01-01',
     description: '',
     countryOrigin: 'France',
+    selectDisplayOrder: 0,
   },
 
   {
@@ -238,6 +255,7 @@ export const baseBooksLitterature: BaseBook[] = [
     releaseDate: '1835-01-01',
     description: '',
     countryOrigin: 'France',
+    selectDisplayOrder: 0,
   },
   {
     title: 'À rebours',
@@ -251,6 +269,7 @@ export const baseBooksLitterature: BaseBook[] = [
     releaseDate: '1884-05-01',
     description: '',
     countryOrigin: 'France',
+    selectDisplayOrder: 0,
   },
   {
     title: 'Le Drageoir aux épices',
@@ -264,6 +283,7 @@ export const baseBooksLitterature: BaseBook[] = [
     releaseDate: '1874-01-01',
     description: '',
     countryOrigin: 'France',
+    selectDisplayOrder: 0,
   },
   {
     title: 'Les Soirées de Médan',
@@ -277,6 +297,7 @@ export const baseBooksLitterature: BaseBook[] = [
     releaseDate: '1880-04-01',
     description: '',
     countryOrigin: 'France',
+    selectDisplayOrder: 0,
   },
   {
     title: 'Les Travailleurs de la mer',
@@ -290,6 +311,7 @@ export const baseBooksLitterature: BaseBook[] = [
     releaseDate: '1866-04-12',
     description: '',
     countryOrigin: 'France',
+    selectDisplayOrder: 0,
   },
   {
     title: 'Ruy Blas',
@@ -303,6 +325,7 @@ export const baseBooksLitterature: BaseBook[] = [
     releaseDate: '1838-08-01',
     description: '',
     countryOrigin: 'France',
+    selectDisplayOrder: 0,
   },
   {
     title: 'Petits Poèmes en prose',
@@ -316,6 +339,7 @@ export const baseBooksLitterature: BaseBook[] = [
     releaseDate: '1869-01-01',
     description: '',
     countryOrigin: 'France',
+    selectDisplayOrder: 0,
   },
 
   {
@@ -330,6 +354,7 @@ export const baseBooksLitterature: BaseBook[] = [
     releaseDate: '1869-01-01',
     description: '',
     countryOrigin: 'France',
+    selectDisplayOrder: 0,
   },
   {
     title: 'Poèmes saturniens',
@@ -343,6 +368,7 @@ export const baseBooksLitterature: BaseBook[] = [
     releaseDate: '1866-11-01',
     description: '',
     countryOrigin: 'France',
+    selectDisplayOrder: 0,
   },
   {
     title: 'Romances sans paroles',
@@ -356,6 +382,7 @@ export const baseBooksLitterature: BaseBook[] = [
     releaseDate: '1874-01-01',
     description: '',
     countryOrigin: 'France',
+    selectDisplayOrder: 0,
   },
   {
     title: 'Une saison en enfer',
@@ -369,6 +396,7 @@ export const baseBooksLitterature: BaseBook[] = [
     releaseDate: '1873-10-01',
     description: '',
     countryOrigin: 'France',
+    selectDisplayOrder: 0,
   },
   {
     title: 'Les Illuminations',
@@ -382,6 +410,7 @@ export const baseBooksLitterature: BaseBook[] = [
     releaseDate: '1886-01-01',
     description: '',
     countryOrigin: 'France',
+    selectDisplayOrder: 0,
   },
   {
     title: 'Méditations poétiques',
@@ -395,6 +424,7 @@ export const baseBooksLitterature: BaseBook[] = [
     releaseDate: '1820-01-01',
     description: '',
     countryOrigin: 'France',
+    selectDisplayOrder: 0,
   },
   {
     title: 'Les Diaboliques',
@@ -408,6 +438,7 @@ export const baseBooksLitterature: BaseBook[] = [
     releaseDate: '1874-01-01',
     description: '',
     countryOrigin: 'France',
+    selectDisplayOrder: 0,
   },
   {
     title: 'Les Amours jaunes',
@@ -421,6 +452,7 @@ export const baseBooksLitterature: BaseBook[] = [
     releaseDate: '1873-01-01',
     description: '',
     countryOrigin: 'France',
+    selectDisplayOrder: 0,
   },
   {
     title: 'La Naissance de la tragédie',
@@ -434,6 +466,7 @@ export const baseBooksLitterature: BaseBook[] = [
     releaseDate: '1872-01-01',
     description: '',
     countryOrigin: 'Allemagne',
+    selectDisplayOrder: 0,
   },
   {
     title: "La Vénus d'Ille",
@@ -447,6 +480,7 @@ export const baseBooksLitterature: BaseBook[] = [
     releaseDate: '1837-01-01',
     description: '',
     countryOrigin: 'France',
+    selectDisplayOrder: 0,
   },
   {
     title: "Les Crimes de l'amour",
@@ -460,6 +494,7 @@ export const baseBooksLitterature: BaseBook[] = [
     releaseDate: '1800-01-01',
     description: '',
     countryOrigin: 'France',
+    selectDisplayOrder: 0,
   },
   {
     title: 'La Philosophie dans le boudoir',
@@ -473,6 +508,7 @@ export const baseBooksLitterature: BaseBook[] = [
     releaseDate: '1795-01-01',
     description: '',
     countryOrigin: 'France',
+    selectDisplayOrder: 0,
   },
   {
     title: 'Les Rêveries du promeneur solitaire',
@@ -486,6 +522,7 @@ export const baseBooksLitterature: BaseBook[] = [
     releaseDate: '1782-01-01',
     description: '',
     countryOrigin: 'France',
+    selectDisplayOrder: 0,
   },
   {
     title: 'La Religieuse',
@@ -499,6 +536,7 @@ export const baseBooksLitterature: BaseBook[] = [
     releaseDate: '1796-01-01',
     description: '',
     countryOrigin: 'France',
+    selectDisplayOrder: 0,
   },
   {
     title: 'Les Salons',
@@ -512,6 +550,7 @@ export const baseBooksLitterature: BaseBook[] = [
     releaseDate: '1765-01-01',
     description: '',
     countryOrigin: 'France',
+    selectDisplayOrder: 0,
   },
   {
     title: "Les Egarements du cœur et de l'esprit",
@@ -525,6 +564,7 @@ export const baseBooksLitterature: BaseBook[] = [
     releaseDate: '1736-01-01',
     description: '',
     countryOrigin: 'France',
+    selectDisplayOrder: 0,
   },
   {
     title: 'Atala',
@@ -538,6 +578,7 @@ export const baseBooksLitterature: BaseBook[] = [
     releaseDate: '1801-04-01',
     description: '',
     countryOrigin: 'France',
+    selectDisplayOrder: 0,
   },
   {
     title: 'Les Souffrances du jeune Werther',
@@ -551,6 +592,7 @@ export const baseBooksLitterature: BaseBook[] = [
     releaseDate: '1774-01-01',
     description: '',
     countryOrigin: 'Allemagne',
+    selectDisplayOrder: 0,
   },
   {
     title: 'Manon Lescaut',
@@ -564,6 +606,7 @@ export const baseBooksLitterature: BaseBook[] = [
     releaseDate: '1731-01-01',
     description: '',
     countryOrigin: 'France',
+    selectDisplayOrder: 0,
   },
   {
     title: "Après m'avoir fait tant mourir",
@@ -577,6 +620,7 @@ export const baseBooksLitterature: BaseBook[] = [
     releaseDate: '1625-01-01',
     description: '',
     countryOrigin: 'France',
+    selectDisplayOrder: 0,
   },
 
   {
@@ -591,6 +635,7 @@ export const baseBooksLitterature: BaseBook[] = [
     releaseDate: '1669-01-01',
     description: '',
     countryOrigin: 'France',
+    selectDisplayOrder: 0,
   },
   {
     title: 'Contes',
@@ -604,6 +649,7 @@ export const baseBooksLitterature: BaseBook[] = [
     releaseDate: '1697-01-01',
     description: '',
     countryOrigin: 'France',
+    selectDisplayOrder: 0,
   },
   {
     title: "L'Autre monde",
@@ -617,6 +663,7 @@ export const baseBooksLitterature: BaseBook[] = [
     releaseDate: '1657-01-01',
     description: '',
     countryOrigin: 'France',
+    selectDisplayOrder: 0,
   },
   {
     title: 'Le Médecin volant',
@@ -630,6 +677,7 @@ export const baseBooksLitterature: BaseBook[] = [
     releaseDate: '1659-01-01',
     description: '',
     countryOrigin: 'France',
+    selectDisplayOrder: 0,
   },
   {
     title: 'Le Médecin malgré lui',
@@ -643,6 +691,7 @@ export const baseBooksLitterature: BaseBook[] = [
     releaseDate: '1666-08-01',
     description: '',
     countryOrigin: 'France',
+    selectDisplayOrder: 0,
   },
   {
     title: 'George Dandin',
@@ -656,6 +705,7 @@ export const baseBooksLitterature: BaseBook[] = [
     releaseDate: '1668-07-01',
     description: '',
     countryOrigin: 'France',
+    selectDisplayOrder: 0,
   },
 
   {
@@ -670,6 +720,7 @@ export const baseBooksLitterature: BaseBook[] = [
     releaseDate: '1635-01-01',
     description: '',
     countryOrigin: 'France',
+    selectDisplayOrder: 0,
   },
   {
     title: 'Le Menteur',
@@ -683,6 +734,7 @@ export const baseBooksLitterature: BaseBook[] = [
     releaseDate: '1644-01-01',
     description: '',
     countryOrigin: 'France',
+    selectDisplayOrder: 0,
   },
   {
     title: "L'Illusion comique",
@@ -696,6 +748,7 @@ export const baseBooksLitterature: BaseBook[] = [
     releaseDate: '1636-01-01',
     description: '',
     countryOrigin: 'France',
+    selectDisplayOrder: 0,
   },
   {
     title: 'Phèdre',
@@ -709,6 +762,7 @@ export const baseBooksLitterature: BaseBook[] = [
     releaseDate: '1677-01-01',
     description: '',
     countryOrigin: 'France',
+    selectDisplayOrder: 0,
   },
   {
     title: 'Iphigénie',
@@ -722,6 +776,7 @@ export const baseBooksLitterature: BaseBook[] = [
     releaseDate: '1674-08-01',
     description: '',
     countryOrigin: 'France',
+    selectDisplayOrder: 0,
   },
   {
     title: 'Britannicus',
@@ -735,6 +790,7 @@ export const baseBooksLitterature: BaseBook[] = [
     releaseDate: '1669-12-01',
     description: '',
     countryOrigin: 'France',
+    selectDisplayOrder: 0,
   },
   {
     title: 'Bérénice',
@@ -748,6 +804,7 @@ export const baseBooksLitterature: BaseBook[] = [
     releaseDate: '1670-11-01',
     description: '',
     countryOrigin: 'France',
+    selectDisplayOrder: 0,
   },
   {
     title: 'Pour un nouveau roman',
@@ -761,6 +818,7 @@ export const baseBooksLitterature: BaseBook[] = [
     releaseDate: '1963-01-01',
     description: '',
     countryOrigin: 'France',
+    selectDisplayOrder: 0,
   },
   {
     title: 'Les Gommes',
@@ -774,6 +832,7 @@ export const baseBooksLitterature: BaseBook[] = [
     releaseDate: '1953-01-01',
     description: '',
     countryOrigin: 'France',
+    selectDisplayOrder: 0,
   },
   {
     title: 'Djinn',
@@ -787,6 +846,7 @@ export const baseBooksLitterature: BaseBook[] = [
     releaseDate: '1981-01-01',
     description: '',
     countryOrigin: 'France',
+    selectDisplayOrder: 0,
   },
   {
     title: 'La Jalousie',
@@ -800,6 +860,7 @@ export const baseBooksLitterature: BaseBook[] = [
     releaseDate: '1957-01-01',
     description: '',
     countryOrigin: 'France',
+    selectDisplayOrder: 0,
   },
   {
     title: 'La Modification',
@@ -813,6 +874,7 @@ export const baseBooksLitterature: BaseBook[] = [
     releaseDate: '1957-11-01',
     description: '',
     countryOrigin: 'France',
+    selectDisplayOrder: 0,
   },
   {
     title: "L'Emploi du temps",
@@ -826,6 +888,7 @@ export const baseBooksLitterature: BaseBook[] = [
     releaseDate: '1956-01-01',
     description: '',
     countryOrigin: 'France',
+    selectDisplayOrder: 0,
   },
   {
     title: 'Petite histoire de la littérature française',
@@ -839,6 +902,7 @@ export const baseBooksLitterature: BaseBook[] = [
     releaseDate: '1969-01-01',
     description: '',
     countryOrigin: 'France',
+    selectDisplayOrder: 0,
   },
   {
     title: 'Les Choses',
@@ -852,6 +916,7 @@ export const baseBooksLitterature: BaseBook[] = [
     releaseDate: '1965-01-01',
     description: '',
     countryOrigin: 'France',
+    selectDisplayOrder: 0,
   },
   {
     title: 'Passacaille',
@@ -865,6 +930,7 @@ export const baseBooksLitterature: BaseBook[] = [
     releaseDate: '1969-01-01',
     description: '',
     countryOrigin: 'France',
+    selectDisplayOrder: 0,
   },
   {
     title: 'Aurélien',
@@ -878,6 +944,7 @@ export const baseBooksLitterature: BaseBook[] = [
     releaseDate: '1944-01-01',
     description: '',
     countryOrigin: 'France',
+    selectDisplayOrder: 0,
   },
   {
     title: 'Le Bestiaire',
@@ -891,6 +958,7 @@ export const baseBooksLitterature: BaseBook[] = [
     releaseDate: '1911-01-01',
     description: '',
     countryOrigin: 'France',
+    selectDisplayOrder: 0,
   },
   {
     title: 'Alcools',
@@ -904,6 +972,7 @@ export const baseBooksLitterature: BaseBook[] = [
     releaseDate: '1913-04-01',
     description: '',
     countryOrigin: 'France',
+    selectDisplayOrder: 0,
   },
   {
     title: 'Poèmes à Lou',
@@ -917,6 +986,7 @@ export const baseBooksLitterature: BaseBook[] = [
     releaseDate: '1955-01-01',
     description: '',
     countryOrigin: 'France',
+    selectDisplayOrder: 0,
   },
   {
     title: 'Calligrammes',
@@ -930,6 +1000,7 @@ export const baseBooksLitterature: BaseBook[] = [
     releaseDate: '1918-04-01',
     description: '',
     countryOrigin: 'France',
+    selectDisplayOrder: 0,
   },
   {
     title: "L'Eau et les Rêves",
@@ -943,6 +1014,7 @@ export const baseBooksLitterature: BaseBook[] = [
     releaseDate: '1942-01-01',
     description: '',
     countryOrigin: 'France',
+    selectDisplayOrder: 0,
   },
   {
     title: "Le degré zéro de l'écriture",
@@ -956,6 +1028,7 @@ export const baseBooksLitterature: BaseBook[] = [
     releaseDate: '1953-01-01',
     description: '',
     countryOrigin: 'France',
+    selectDisplayOrder: 0,
   },
   {
     title: "Fragments d'un discours amoureux",
@@ -969,6 +1042,7 @@ export const baseBooksLitterature: BaseBook[] = [
     releaseDate: '1977-01-01',
     description: '',
     countryOrigin: 'France',
+    selectDisplayOrder: 0,
   },
   {
     title: 'Autobiographie des objets',
@@ -982,6 +1056,7 @@ export const baseBooksLitterature: BaseBook[] = [
     releaseDate: '2012-01-01',
     description: '',
     countryOrigin: 'France',
+    selectDisplayOrder: 0,
   },
   {
     title: "Sortie d'usine",
@@ -995,6 +1070,7 @@ export const baseBooksLitterature: BaseBook[] = [
     releaseDate: '1982-01-01',
     description: '',
     countryOrigin: 'France',
+    selectDisplayOrder: 0,
   },
   {
     title: 'Tous les matins du monde',
@@ -1008,6 +1084,7 @@ export const baseBooksLitterature: BaseBook[] = [
     releaseDate: '1991-01-01',
     description: '',
     countryOrigin: 'France',
+    selectDisplayOrder: 0,
   },
   {
     title: 'Les Soleils des indépendances',
@@ -1021,6 +1098,7 @@ export const baseBooksLitterature: BaseBook[] = [
     releaseDate: '1968-01-01',
     description: '',
     countryOrigin: "Côte d'Ivoire",
+    selectDisplayOrder: 0,
   },
   {
     title: "Allah n'est pas obligé",
@@ -1034,6 +1112,7 @@ export const baseBooksLitterature: BaseBook[] = [
     releaseDate: '2000-01-01',
     description: '',
     countryOrigin: "Côte d'Ivoire",
+    selectDisplayOrder: 0,
   },
   {
     title: "Cahier d'un retour au pays natal",
@@ -1047,6 +1126,7 @@ export const baseBooksLitterature: BaseBook[] = [
     releaseDate: '1939-01-01',
     description: '',
     countryOrigin: 'France',
+    selectDisplayOrder: 0,
   },
   {
     title: 'Texaco',
@@ -1060,6 +1140,7 @@ export const baseBooksLitterature: BaseBook[] = [
     releaseDate: '1992-01-01',
     description: '',
     countryOrigin: 'France',
+    selectDisplayOrder: 0,
   },
   {
     title: 'Solibo magnifique',
@@ -1073,6 +1154,7 @@ export const baseBooksLitterature: BaseBook[] = [
     releaseDate: '1988-01-01',
     description: '',
     countryOrigin: 'France',
+    selectDisplayOrder: 0,
   },
   {
     title: 'Pays rêvé, Pays réel',
@@ -1086,6 +1168,7 @@ export const baseBooksLitterature: BaseBook[] = [
     releaseDate: '1985-01-01',
     description: '',
     countryOrigin: 'France',
+    selectDisplayOrder: 0,
   },
   {
     title: 'Lettre à la femme aimée au sujet de la mort',
@@ -1099,6 +1182,7 @@ export const baseBooksLitterature: BaseBook[] = [
     releaseDate: '2007-01-01',
     description: '',
     countryOrigin: 'France',
+    selectDisplayOrder: 0,
   },
   {
     title: 'Petite éloge de la poésie',
@@ -1112,6 +1196,7 @@ export const baseBooksLitterature: BaseBook[] = [
     releaseDate: '2009-01-01',
     description: '',
     countryOrigin: 'France',
+    selectDisplayOrder: 0,
   },
 
   {
@@ -1126,6 +1211,7 @@ export const baseBooksLitterature: BaseBook[] = [
     releaseDate: '2002-01-01',
     description: '',
     countryOrigin: 'Algérie',
+    selectDisplayOrder: 0,
   },
   {
     title: 'Nedjma',
@@ -1139,6 +1225,7 @@ export const baseBooksLitterature: BaseBook[] = [
     releaseDate: '1956-01-01',
     description: '',
     countryOrigin: 'Algérie',
+    selectDisplayOrder: 0,
   },
   {
     title: 'Le cercle des représailles',
@@ -1152,6 +1239,7 @@ export const baseBooksLitterature: BaseBook[] = [
     releaseDate: '1959-01-01',
     description: '',
     countryOrigin: 'Algérie',
+    selectDisplayOrder: 0,
   },
   {
     title: 'Pour un oui ou pour un non',
@@ -1165,6 +1253,7 @@ export const baseBooksLitterature: BaseBook[] = [
     releaseDate: '1982-01-01',
     description: '',
     countryOrigin: 'France',
+    selectDisplayOrder: 0,
   },
   {
     title: 'Juste la fin du monde',
@@ -1178,6 +1267,7 @@ export const baseBooksLitterature: BaseBook[] = [
     releaseDate: '1990-01-01',
     description: '',
     countryOrigin: 'France',
+    selectDisplayOrder: 0,
   },
   {
     title: 'Roberto Zucco',
@@ -1191,6 +1281,7 @@ export const baseBooksLitterature: BaseBook[] = [
     releaseDate: '1990-01-01',
     description: '',
     countryOrigin: 'France',
+    selectDisplayOrder: 0,
   },
   {
     title: 'Ronce-Rose',
@@ -1204,6 +1295,7 @@ export const baseBooksLitterature: BaseBook[] = [
     releaseDate: '2017-01-01',
     description: '',
     countryOrigin: 'France',
+    selectDisplayOrder: 0,
   },
   {
     title: 'Oreille rouge',
@@ -1217,6 +1309,7 @@ export const baseBooksLitterature: BaseBook[] = [
     releaseDate: '2005-01-01',
     description: '',
     countryOrigin: 'France',
+    selectDisplayOrder: 0,
   },
   {
     title: 'Aurais-je été résistant ou bourreau ?',
@@ -1230,6 +1323,7 @@ export const baseBooksLitterature: BaseBook[] = [
     releaseDate: '2013-01-01',
     description: '',
     countryOrigin: 'France',
+    selectDisplayOrder: 0,
   },
   {
     title: 'Huis clos',
@@ -1243,6 +1337,7 @@ export const baseBooksLitterature: BaseBook[] = [
     releaseDate: '1944-05-01',
     description: '',
     countryOrigin: 'France',
+    selectDisplayOrder: 0,
   },
   {
     title: 'Les Mots',
@@ -1256,6 +1351,7 @@ export const baseBooksLitterature: BaseBook[] = [
     releaseDate: '1964-01-01',
     description: '',
     countryOrigin: 'France',
+    selectDisplayOrder: 0,
   },
   {
     title: 'Je suis un écrivain japonais',
@@ -1269,6 +1365,7 @@ export const baseBooksLitterature: BaseBook[] = [
     releaseDate: '2008-01-01',
     description: '',
     countryOrigin: 'Haïti',
+    selectDisplayOrder: 0,
   },
   {
     title: "Nous, l'Europe banquet des peuples",
@@ -1282,6 +1379,7 @@ export const baseBooksLitterature: BaseBook[] = [
     releaseDate: '2019-01-01',
     description: '',
     countryOrigin: 'France',
+    selectDisplayOrder: 0,
   },
   {
     title: 'Chien 51',
@@ -1295,6 +1393,7 @@ export const baseBooksLitterature: BaseBook[] = [
     releaseDate: '2015-01-01',
     description: '',
     countryOrigin: 'France',
+    selectDisplayOrder: 0,
   },
   {
     title: 'Zem',
@@ -1308,6 +1407,7 @@ export const baseBooksLitterature: BaseBook[] = [
     releaseDate: '2017-01-01',
     description: '',
     countryOrigin: 'France',
+    selectDisplayOrder: 0,
   },
   {
     title: 'Cahier de verdure',
@@ -1321,6 +1421,7 @@ export const baseBooksLitterature: BaseBook[] = [
     releaseDate: '1990-01-01',
     description: '',
     countryOrigin: 'Suisse',
+    selectDisplayOrder: 0,
   },
   {
     title: 'Eupalinos',
@@ -1334,6 +1435,7 @@ export const baseBooksLitterature: BaseBook[] = [
     releaseDate: '1923-01-01',
     description: '',
     countryOrigin: 'France',
+    selectDisplayOrder: 0,
   },
   {
     title: "Connaissance de l'Est",
@@ -1347,6 +1449,7 @@ export const baseBooksLitterature: BaseBook[] = [
     releaseDate: '1900-01-01',
     description: '',
     countryOrigin: 'France',
+    selectDisplayOrder: 0,
   },
   {
     title: 'Clair-obscur',
@@ -1360,6 +1463,7 @@ export const baseBooksLitterature: BaseBook[] = [
     releaseDate: '1954-01-01',
     description: '',
     countryOrigin: 'France',
+    selectDisplayOrder: 0,
   },
   {
     title: 'Le parti pris des choses',
@@ -1373,6 +1477,7 @@ export const baseBooksLitterature: BaseBook[] = [
     releaseDate: '1942-01-01',
     description: '',
     countryOrigin: 'France',
+    selectDisplayOrder: 0,
   },
   {
     title: 'La Terre et le sang',
@@ -1386,6 +1491,7 @@ export const baseBooksLitterature: BaseBook[] = [
     releaseDate: '1953-01-01',
     description: '',
     countryOrigin: 'Algérie',
+    selectDisplayOrder: 0,
   },
   {
     title: 'Le Fils du pauvre',
@@ -1399,6 +1505,7 @@ export const baseBooksLitterature: BaseBook[] = [
     releaseDate: '1950-01-01',
     description: '',
     countryOrigin: 'Algérie',
+    selectDisplayOrder: 0,
   },
   {
     title: 'Les Hirondelles de Kaboul',
@@ -1412,6 +1519,7 @@ export const baseBooksLitterature: BaseBook[] = [
     releaseDate: '2002-01-01',
     description: '',
     countryOrigin: 'Algérie',
+    selectDisplayOrder: 0,
   },
   {
     title: 'Ce que le jour doit à la nuit',
@@ -1425,6 +1533,7 @@ export const baseBooksLitterature: BaseBook[] = [
     releaseDate: '2008-01-01',
     description: '',
     countryOrigin: 'Algérie',
+    selectDisplayOrder: 0,
   },
   {
     title: "L'Attentat",
@@ -1438,6 +1547,7 @@ export const baseBooksLitterature: BaseBook[] = [
     releaseDate: '2005-01-01',
     description: '',
     countryOrigin: 'Algérie',
+    selectDisplayOrder: 0,
   },
   {
     title: 'Comme un roman',
@@ -1451,6 +1561,7 @@ export const baseBooksLitterature: BaseBook[] = [
     releaseDate: '1992-01-01',
     description: '',
     countryOrigin: 'France',
+    selectDisplayOrder: 0,
   },
   {
     title: 'La Fée Carabine',
@@ -1464,6 +1575,7 @@ export const baseBooksLitterature: BaseBook[] = [
     releaseDate: '1985-01-01',
     description: '',
     countryOrigin: 'France',
+    selectDisplayOrder: 0,
   },
 
   {
@@ -1478,6 +1590,7 @@ export const baseBooksLitterature: BaseBook[] = [
     releaseDate: '2013-01-01',
     description: '',
     countryOrigin: 'France',
+    selectDisplayOrder: 0,
   },
   {
     title: 'Noire – la vie méconnue de Claudette Colvin',
@@ -1491,6 +1604,7 @@ export const baseBooksLitterature: BaseBook[] = [
     releaseDate: '2015-01-01',
     description: '',
     countryOrigin: 'France',
+    selectDisplayOrder: 0,
   },
 
   {
@@ -1505,6 +1619,7 @@ export const baseBooksLitterature: BaseBook[] = [
     releaseDate: '2011-01-01',
     description: '',
     countryOrigin: 'Algérie',
+    selectDisplayOrder: 0,
   },
   {
     title: 'Arthur Rimbaud le voleur de feu',
@@ -1518,6 +1633,7 @@ export const baseBooksLitterature: BaseBook[] = [
     releaseDate: '2011-01-01',
     description: '',
     countryOrigin: 'France',
+    selectDisplayOrder: 0,
   },
   {
     title: "Ça t'apprendra à vivre",
@@ -1531,6 +1647,7 @@ export const baseBooksLitterature: BaseBook[] = [
     releaseDate: '2006-01-01',
     description: '',
     countryOrigin: 'France',
+    selectDisplayOrder: 0,
   },
   {
     title: 'Le Terrier',
@@ -1544,6 +1661,7 @@ export const baseBooksLitterature: BaseBook[] = [
     releaseDate: '1931-01-01',
     description: '',
     countryOrigin: 'Autriche',
+    selectDisplayOrder: 0,
   },
   {
     title: 'Peau noire masques blancs',
@@ -1557,6 +1675,7 @@ export const baseBooksLitterature: BaseBook[] = [
     releaseDate: '1952-01-01',
     description: '',
     countryOrigin: 'France',
+    selectDisplayOrder: 0,
   },
   {
     title: "Je m'en vais",
@@ -1570,6 +1689,7 @@ export const baseBooksLitterature: BaseBook[] = [
     releaseDate: '1999-01-01',
     description: '',
     countryOrigin: 'France',
+    selectDisplayOrder: 0,
   },
   {
     title: 'En salle',
@@ -1583,6 +1703,7 @@ export const baseBooksLitterature: BaseBook[] = [
     releaseDate: '2016-01-01',
     description: '',
     countryOrigin: 'France',
+    selectDisplayOrder: 0,
   },
   {
     title: 'Et la terre se transmet comme la langue',
@@ -1596,6 +1717,7 @@ export const baseBooksLitterature: BaseBook[] = [
     releaseDate: '1999-01-01',
     description: '',
     countryOrigin: 'Palestine',
+    selectDisplayOrder: 0,
   },
   {
     title: 'Gravitations',
@@ -1609,6 +1731,7 @@ export const baseBooksLitterature: BaseBook[] = [
     releaseDate: '1925-01-01',
     description: '',
     countryOrigin: 'France',
+    selectDisplayOrder: 0,
   },
   {
     title: 'Les Chevaliers du subjonctif',
@@ -1622,6 +1745,7 @@ export const baseBooksLitterature: BaseBook[] = [
     releaseDate: '2004-01-01',
     description: '',
     countryOrigin: 'France',
+    selectDisplayOrder: 0,
   },
   {
     title: 'La Grammaire est une chanson douce',
@@ -1635,6 +1759,7 @@ export const baseBooksLitterature: BaseBook[] = [
     releaseDate: '2001-01-01',
     description: '',
     countryOrigin: 'France',
+    selectDisplayOrder: 0,
   },
 
   {
@@ -1649,6 +1774,7 @@ export const baseBooksLitterature: BaseBook[] = [
     releaseDate: '1578-01-01',
     description: '',
     countryOrigin: 'France',
+    selectDisplayOrder: 0,
   },
   {
     title: 'Les Regrets',
@@ -1662,6 +1788,7 @@ export const baseBooksLitterature: BaseBook[] = [
     releaseDate: '1558-01-01',
     description: '',
     countryOrigin: 'France',
+    selectDisplayOrder: 0,
   },
   {
     title: "L'Adolescence clémentine",
@@ -1675,5 +1802,6 @@ export const baseBooksLitterature: BaseBook[] = [
     releaseDate: '1532-01-01',
     description: '',
     countryOrigin: 'France',
+    selectDisplayOrder: 0,
   },
 ];

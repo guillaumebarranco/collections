@@ -5,6 +5,14 @@ import { baseGamesAdaptations3 } from '../../utils/entities/games/base_games_ada
 import { baseGamesMario } from '../../utils/entities/games/base_games_mario';
 import { baseGamesAdaptations } from '../../utils/entities/games/base_games_adaptations';
 import { baseGamesAdaptations2 } from '../../utils/entities/games/base_games_adaptations_2';
+import { baseGamesLupin } from '../../utils/entities/games/base_games_lupin';
+import { baseGamesTaraDuncan } from '../../utils/entities/games/base_games_tara_duncan';
+import { baseGamesTintin } from '../../utils/entities/games/base_games_tintin';
+import { baseGamesUnderworld } from '../../utils/entities/games/base_games_underworld';
+import { baseGamesMatrix } from '../../utils/entities/games/base_games_matrix';
+import { baseGamesTerminator } from '../../utils/entities/games/base_games_terminator';
+import { baseGamesGenshin } from '../../utils/entities/games/base_games_genshin';
+import { baseGamesShrek } from '../../utils/entities/games/base_games_shrek';
 
 import { guillaumeGames } from '../../utils/users/guillaume/games';
 import { guillaumeGameListGames } from '../../utils/users/guillaume/games/guillaume_gamelist_games';
@@ -27,6 +35,14 @@ export const allBaseGames: BaseGame[] = [
   ...baseGamesMario,
   ...baseGamesAdaptations,
   ...baseGamesAdaptations2,
+  ...baseGamesLupin,
+  ...baseGamesTaraDuncan,
+  ...baseGamesTintin,
+  ...baseGamesUnderworld,
+  ...baseGamesMatrix,
+  ...baseGamesTerminator,
+  ...baseGamesGenshin,
+  ...baseGamesShrek,
   ...baseGames2,
 ];
 

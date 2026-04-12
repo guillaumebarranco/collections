@@ -13,6 +13,7 @@ export const baseBooksHorreur: BaseBook[] = [
     releaseDate: '1977-01-28',
     description: '',
     countryOrigin: 'États-Unis',
+    selectDisplayOrder: 0,
   },
   {
     title: 'Frankenstein',
@@ -26,6 +27,7 @@ export const baseBooksHorreur: BaseBook[] = [
     releaseDate: '1818-01-01',
     description: '',
     countryOrigin: 'Royaume-Uni',
+    selectDisplayOrder: 30,
   },
   {
     title: 'Dracula',
@@ -39,6 +41,7 @@ export const baseBooksHorreur: BaseBook[] = [
     releaseDate: '1897-05-26',
     description: '',
     countryOrigin: 'Royaume-Uni',
+    selectDisplayOrder: 30,
   },
   {
     title: 'Carrie',
@@ -52,6 +55,7 @@ export const baseBooksHorreur: BaseBook[] = [
     releaseDate: '1974-04-05',
     description: '',
     countryOrigin: 'États-Unis',
+    selectDisplayOrder: 0,
   },
   {
     title: 'Désolation',
@@ -65,6 +69,7 @@ export const baseBooksHorreur: BaseBook[] = [
     releaseDate: '2016-09-06',
     description: '',
     countryOrigin: 'États-Unis',
+    selectDisplayOrder: 0,
   },
   {
     title: "L'étrange cas du docteur Jekyll et de Mr. Hyde",
@@ -78,6 +83,7 @@ export const baseBooksHorreur: BaseBook[] = [
     releaseDate: '1886-01-05',
     description: '',
     countryOrigin: 'Royaume-Uni',
+    selectDisplayOrder: 30,
   },
   {
     title: 'La Maison des feuilles',
@@ -91,6 +97,7 @@ export const baseBooksHorreur: BaseBook[] = [
     releaseDate: '2000-03-07',
     description: '',
     countryOrigin: 'États-Unis',
+    selectDisplayOrder: 0,
   },
   {
     title: 'Katie',
@@ -104,6 +111,7 @@ export const baseBooksHorreur: BaseBook[] = [
     releaseDate: '1982-01-01',
     description: '',
     countryOrigin: 'États-Unis',
+    selectDisplayOrder: 0,
   },
   {
     title: 'Lune froide sur babylone',
@@ -117,6 +125,7 @@ export const baseBooksHorreur: BaseBook[] = [
     releaseDate: '1978-01-01',
     description: '',
     countryOrigin: 'États-Unis',
+    selectDisplayOrder: 0,
   },
   {
     title: "Les aiguilles d'or",
@@ -130,6 +139,7 @@ export const baseBooksHorreur: BaseBook[] = [
     releaseDate: '1981-01-01',
     description: '',
     countryOrigin: 'États-Unis',
+    selectDisplayOrder: 0,
   },
   {
     title: "L'amulette",
@@ -143,6 +153,7 @@ export const baseBooksHorreur: BaseBook[] = [
     releaseDate: '1979-01-01',
     description: '',
     countryOrigin: 'États-Unis',
+    selectDisplayOrder: 0,
   },
   {
     title: 'Les contes interdits : Peter Pan',
@@ -156,6 +167,7 @@ export const baseBooksHorreur: BaseBook[] = [
     releaseDate: '2018-01-01',
     description: '',
     countryOrigin: 'France',
+    selectDisplayOrder: 0,
   },
   {
     title: 'Le Horla',
@@ -169,6 +181,7 @@ export const baseBooksHorreur: BaseBook[] = [
     releaseDate: '1887-01-01',
     description: '',
     countryOrigin: 'France',
+    selectDisplayOrder: 30,
   },
   {
     title: 'Le Parfum',
@@ -182,6 +195,7 @@ export const baseBooksHorreur: BaseBook[] = [
     releaseDate: '1985-01-01',
     description: '',
     countryOrigin: 'Allemagne',
+    selectDisplayOrder: 0,
   },
   {
     title: "Le Fantôme d'à côté (Chair de poule #16)",
@@ -195,6 +209,7 @@ export const baseBooksHorreur: BaseBook[] = [
     releaseDate: '1994-01-01',
     description: '',
     countryOrigin: 'États-Unis',
+    selectDisplayOrder: 0,
   },
   {
     title: 'Joyland',
@@ -208,6 +223,7 @@ export const baseBooksHorreur: BaseBook[] = [
     releaseDate: '2013-06-04',
     description: '',
     countryOrigin: 'États-Unis',
+    selectDisplayOrder: 0,
   },
   {
     title: 'Salem',
@@ -221,6 +237,7 @@ export const baseBooksHorreur: BaseBook[] = [
     releaseDate: '1975-10-17',
     description: '',
     countryOrigin: 'États-Unis',
+    selectDisplayOrder: 0,
   },
   {
     title: 'Simetierre',
@@ -234,6 +251,7 @@ export const baseBooksHorreur: BaseBook[] = [
     releaseDate: '1983-11-14',
     description: '',
     countryOrigin: 'États-Unis',
+    selectDisplayOrder: 0,
   },
   {
     title: 'Misery',
@@ -247,6 +265,7 @@ export const baseBooksHorreur: BaseBook[] = [
     releaseDate: '1987-06-08',
     description: '',
     countryOrigin: 'États-Unis',
+    selectDisplayOrder: 0,
   },
   {
     title: 'La Ligne verte',
@@ -260,6 +279,7 @@ export const baseBooksHorreur: BaseBook[] = [
     releaseDate: '1996-08-01',
     description: '',
     countryOrigin: 'États-Unis',
+    selectDisplayOrder: 0,
   },
   {
     title: 'La peau sur les os',
@@ -273,6 +293,7 @@ export const baseBooksHorreur: BaseBook[] = [
     releaseDate: '1998-09-22',
     description: '',
     countryOrigin: 'États-Unis',
+    selectDisplayOrder: 0,
   },
   {
     title: '22/11/63',
@@ -286,6 +307,7 @@ export const baseBooksHorreur: BaseBook[] = [
     releaseDate: '2011-11-08',
     description: '',
     countryOrigin: 'États-Unis',
+    selectDisplayOrder: 0,
   },
   {
     title: 'Docteur Sleep',
@@ -299,6 +321,7 @@ export const baseBooksHorreur: BaseBook[] = [
     releaseDate: '2013-09-24',
     description: '',
     countryOrigin: 'États-Unis',
+    selectDisplayOrder: 0,
   },
   {
     title: 'Marche ou crève',
@@ -312,6 +335,7 @@ export const baseBooksHorreur: BaseBook[] = [
     releaseDate: '1979-07-01',
     description: '',
     countryOrigin: 'États-Unis',
+    selectDisplayOrder: 0,
   },
   {
     title: 'Running man',
@@ -325,6 +349,7 @@ export const baseBooksHorreur: BaseBook[] = [
     releaseDate: '1982-05-01',
     description: '',
     countryOrigin: 'États-Unis',
+    selectDisplayOrder: 0,
   },
   {
     title: 'Mr. Mercedes',
@@ -338,6 +363,7 @@ export const baseBooksHorreur: BaseBook[] = [
     releaseDate: '2014-06-03',
     description: '',
     countryOrigin: 'États-Unis',
+    selectDisplayOrder: 0,
   },
   {
     title: 'Carnets noirs',
@@ -351,6 +377,7 @@ export const baseBooksHorreur: BaseBook[] = [
     releaseDate: '2015-06-02',
     description: '',
     countryOrigin: 'États-Unis',
+    selectDisplayOrder: 0,
   },
   {
     title: 'Fin de ronde',
@@ -364,5 +391,6 @@ export const baseBooksHorreur: BaseBook[] = [
     releaseDate: '2016-06-07',
     description: '',
     countryOrigin: 'États-Unis',
+    selectDisplayOrder: 0,
   },
 ];

@@ -1,6 +1,8 @@
 const fs = require('fs');
 const path = require('path');
-const { escapeStringForTsDoubleQuote: escapeString } = require('../escape-ts-string');
+const {
+  escapeStringForTsDoubleQuote: escapeString,
+} = require('../escape-ts-string');
 const {
   normalizeString,
   normalizeBoolean,
@@ -71,9 +73,7 @@ function parseGenreField(objectText: string): string[] {
     const re = /'((?:[^'\\]|\\.)*)'/g;
     let x: RegExpExecArray | null;
     while ((x = re.exec(inner)) !== null) {
-      out.push(
-        x[1].replace(/\\'/g, "'").replace(/\\\\/g, '\\')
-      );
+      out.push(x[1].replace(/\\'/g, "'").replace(/\\\\/g, '\\'));
     }
     return out;
   }
@@ -144,12 +144,12 @@ function parseBooksFromFile(content: string): UserBook[] {
             owned: parseBooleanField(objectText, 'owned') ?? false,
             borrowed:
               parseStringField(objectText, 'borrowed') ??
-              ((parseBooleanField(objectText, 'borrowed') ?? false)
+              (parseBooleanField(objectText, 'borrowed') ?? false
                 ? 'Inconnu'
                 : ''),
             loaned:
               parseStringField(objectText, 'loaned') ??
-              ((parseBooleanField(objectText, 'loaned') ?? false)
+              (parseBooleanField(objectText, 'loaned') ?? false
                 ? 'Inconnu'
                 : ''),
             readPriority: parseNumberField(objectText, 'readPriority') ?? 1,
@@ -260,7 +260,12 @@ function parseBaseBooksFullFromFile(content: string): BaseBook[] {
           sagaFinished: parseBooleanField(objectText, 'sagaFinished') ?? false,
           releaseDate: parseStringField(objectText, 'releaseDate') || '',
           description: parseStringField(objectText, 'description') || '',
-          countryOrigin: parseStringField(objectText, 'countryOrigin') as BaseBook['countryOrigin'],
+          countryOrigin: parseStringField(
+            objectText,
+            'countryOrigin'
+          ) as BaseBook['countryOrigin'],
+          selectDisplayOrder:
+            parseNumberField(objectText, 'selectDisplayOrder') ?? 0,
         } as BaseBook);
       }
     }
@@ -321,10 +326,14 @@ function getBaseBooksFiles() {
   if (!fs.existsSync(BASE_BOOKS_DIR)) {
     throw new Error('Base books directory not found');
   }
-  return fs
+  const booksFiles = fs
     .readdirSync(BASE_BOOKS_DIR)
     .filter((file: string) => file.endsWith('.ts'))
+    .sort((a: string, b: string) =>
+      a.localeCompare(b, 'fr', { sensitivity: 'base', numeric: true })
+    )
     .map((file: string) => path.join(BASE_BOOKS_DIR, file));
+  return booksFiles;
 }
 
 function baseBookExists(title: string, author: string) {
@@ -494,7 +503,10 @@ function updateBookInFile(content: string, payload: BookUpdatePayload) {
   throw new Error('Book not found');
 }
 
-function updateBookIdentityInFile(content: string, payload: BookIdentityPayload) {
+function updateBookIdentityInFile(
+  content: string,
+  payload: BookIdentityPayload
+) {
   content = repairArrayDeclaration(content);
   const matchTitle = payload.matchTitle ?? payload.title;
   const matchAuthor = payload.matchAuthor ?? payload.author;
@@ -555,7 +567,10 @@ function updateBookIdentityInFile(content: string, payload: BookIdentityPayload)
   throw new Error('Book not found');
 }
 
-function updateBaseBookInFile(content: string, payload: BaseBookFileUpdatePayload) {
+function updateBaseBookInFile(
+  content: string,
+  payload: BaseBookFileUpdatePayload
+) {
   content = repairArrayDeclaration(content);
   const matchTitle = payload.matchTitle ?? payload.title;
   const matchAuthor = payload.matchAuthor ?? payload.author;
@@ -617,6 +632,13 @@ function updateBaseBookInFile(content: string, payload: BaseBookFileUpdatePayloa
             'countryOrigin',
             payload.countryOrigin ?? ''
           );
+          if (payload.selectDisplayOrder !== undefined) {
+            updated = upsertField(
+              updated,
+              'selectDisplayOrder',
+              payload.selectDisplayOrder
+            );
+          }
 
           return (
             content.slice(0, objectStart) +

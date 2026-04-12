@@ -126,6 +126,8 @@ export class MixBaseWorksGalaxyComponent {
     buildMixBaseWorkOrbitPanelsSorted(
       this.mixBaseWorksBlocks(),
       this.baseBooks(),
+      this.baseBds(),
+      this.baseComics(),
       this.baseMovies(),
       this.baseSeries(),
       this.baseGames(),

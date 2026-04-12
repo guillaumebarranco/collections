@@ -13,6 +13,7 @@ export const baseBooksFantastique: BaseBook[] = [
     releaseDate: '1887-02-23',
     description: '',
     countryOrigin: 'Irlande',
+    selectDisplayOrder: 0,
   },
   {
     title: "L'Alliance des Trois (Autre-Monde, #1)",
@@ -26,6 +27,7 @@ export const baseBooksFantastique: BaseBook[] = [
     releaseDate: '2007-01-01',
     description: '',
     countryOrigin: 'États-Unis',
+    selectDisplayOrder: 0,
   },
   {
     title: 'Malronce (Autre-Monde, #2)',
@@ -39,6 +41,7 @@ export const baseBooksFantastique: BaseBook[] = [
     releaseDate: '2008-01-01',
     description: '',
     countryOrigin: 'États-Unis',
+    selectDisplayOrder: 0,
   },
   {
     title: 'Le Cœur de la Terre (Autre-Monde, #3)',
@@ -52,6 +55,7 @@ export const baseBooksFantastique: BaseBook[] = [
     releaseDate: '2009-01-01',
     description: '',
     countryOrigin: 'États-Unis',
+    selectDisplayOrder: 0,
   },
   {
     title: 'Entropia (Autre Monde, #4)',
@@ -65,6 +69,7 @@ export const baseBooksFantastique: BaseBook[] = [
     releaseDate: '2010-01-01',
     description: '',
     countryOrigin: 'États-Unis',
+    selectDisplayOrder: 0,
   },
   {
     title: 'Oz (Autre-Monde, #5)',
@@ -78,6 +83,7 @@ export const baseBooksFantastique: BaseBook[] = [
     releaseDate: '2011-01-01',
     description: '',
     countryOrigin: 'États-Unis',
+    selectDisplayOrder: 0,
   },
   {
     title: 'Neverland (Autre-Monde, #6)',
@@ -91,6 +97,7 @@ export const baseBooksFantastique: BaseBook[] = [
     releaseDate: '2012-01-01',
     description: '',
     countryOrigin: 'États-Unis',
+    selectDisplayOrder: 0,
   },
   {
     title: 'Genèse (Autre-Monde, #7)',
@@ -104,6 +111,7 @@ export const baseBooksFantastique: BaseBook[] = [
     releaseDate: '2013-01-01',
     description: '',
     countryOrigin: 'États-Unis',
+    selectDisplayOrder: 0,
   },
   {
     title: "Le réveil (Journal d'un vampire, #1)",
@@ -117,6 +125,7 @@ export const baseBooksFantastique: BaseBook[] = [
     releaseDate: '1991-01-01',
     description: '',
     countryOrigin: 'États-Unis',
+    selectDisplayOrder: 0,
   },
   {
     title: "Les ténèbres (Journal d'un vampire, #2)",
@@ -130,6 +139,7 @@ export const baseBooksFantastique: BaseBook[] = [
     releaseDate: '1991-01-01',
     description: '',
     countryOrigin: 'États-Unis',
+    selectDisplayOrder: 0,
   },
   {
     title: "Le Retour (Journal d'un vampire, #3)",
@@ -143,6 +153,7 @@ export const baseBooksFantastique: BaseBook[] = [
     releaseDate: '2010-02-03',
     description: '',
     countryOrigin: 'États-Unis',
+    selectDisplayOrder: 0,
   },
   {
     title: "Le Royaume des ombres (Journal d'un vampire, #4)",
@@ -157,6 +168,7 @@ export const baseBooksFantastique: BaseBook[] = [
     releaseDate: '2010-09-01',
     description: '',
     countryOrigin: 'États-Unis',
+    selectDisplayOrder: 0,
   },
   {
     title: "L'Ultime Crépuscule (Journal d'un vampire, #5)",
@@ -170,6 +182,7 @@ export const baseBooksFantastique: BaseBook[] = [
     releaseDate: '2011-06-22',
     description: '',
     countryOrigin: 'États-Unis',
+    selectDisplayOrder: 0,
   },
   {
     title: "Dévoreur (Journal d'un vampire, #6)",
@@ -183,6 +196,7 @@ export const baseBooksFantastique: BaseBook[] = [
     releaseDate: '2012-02-08',
     description: '',
     countryOrigin: 'États-Unis',
+    selectDisplayOrder: 0,
   },
   {
     title: "Le Chant de la lune (Journal d'un vampire, #7)",
@@ -196,6 +210,7 @@ export const baseBooksFantastique: BaseBook[] = [
     releaseDate: '2012-07-16',
     description: '',
     countryOrigin: 'États-Unis',
+    selectDisplayOrder: 0,
   },
   {
     title: "Cruelle Destinée (Journal d'un vampire, #8)",
@@ -210,6 +225,7 @@ export const baseBooksFantastique: BaseBook[] = [
     releaseDate: '2013-01-01',
     description: '',
     countryOrigin: 'États-Unis',
+    selectDisplayOrder: 0,
   },
   {
     title: "Le Cauchemar (Journal d'un vampire, #9)",
@@ -223,6 +239,7 @@ export const baseBooksFantastique: BaseBook[] = [
     releaseDate: '2013-01-01',
     description: '',
     countryOrigin: 'États-Unis',
+    selectDisplayOrder: 0,
   },
   {
     title: "La Traque (Journal d'un vampire, #10)",
@@ -236,6 +253,7 @@ export const baseBooksFantastique: BaseBook[] = [
     releaseDate: '2014-01-01',
     description: '',
     countryOrigin: 'États-Unis',
+    selectDisplayOrder: 0,
   },
   {
     title: "Rédemption (Journal d'un vampire, #11)",
@@ -249,6 +267,7 @@ export const baseBooksFantastique: BaseBook[] = [
     releaseDate: '2014-01-01',
     description: '',
     countryOrigin: 'États-Unis',
+    selectDisplayOrder: 0,
   },
   {
     title: 'La Révélation des Médicus',
@@ -262,6 +281,7 @@ export const baseBooksFantastique: BaseBook[] = [
     releaseDate: '2009-11-04',
     description: '',
     countryOrigin: 'France',
+    selectDisplayOrder: 0,
   },
   {
     title: 'Les Deux Royaumes',
@@ -275,6 +295,7 @@ export const baseBooksFantastique: BaseBook[] = [
     releaseDate: '2010-06-01',
     description: '',
     countryOrigin: 'France',
+    selectDisplayOrder: 0,
   },
   {
     title: 'Le Secret des Éternels',
@@ -288,6 +309,7 @@ export const baseBooksFantastique: BaseBook[] = [
     releaseDate: '2010-10-27',
     description: '',
     countryOrigin: 'France',
+    selectDisplayOrder: 0,
   },
   {
     title: "L'allié des ténèbres",
@@ -301,6 +323,7 @@ export const baseBooksFantastique: BaseBook[] = [
     releaseDate: '2011-01-01',
     description: '',
     countryOrigin: 'France',
+    selectDisplayOrder: 0,
   },
   {
     title: "Cérébra, l'Ultime Voyage",
@@ -314,6 +337,7 @@ export const baseBooksFantastique: BaseBook[] = [
     releaseDate: '2012-01-01',
     description: '',
     countryOrigin: 'France',
+    selectDisplayOrder: 0,
   },
   {
     title: "La Morsure de l'Araignée",
@@ -327,6 +351,7 @@ export const baseBooksFantastique: BaseBook[] = [
     releaseDate: '2009-08-19',
     description: '',
     countryOrigin: 'Irlande',
+    selectDisplayOrder: 0,
   },
   {
     title: 'Le Cauchemar Continue',
@@ -340,6 +365,7 @@ export const baseBooksFantastique: BaseBook[] = [
     releaseDate: '2012-04-17',
     description: '',
     countryOrigin: 'Irlande',
+    selectDisplayOrder: 0,
   },
   {
     title: 'Jeux de Sang',
@@ -353,6 +379,7 @@ export const baseBooksFantastique: BaseBook[] = [
     releaseDate: '2013-01-30',
     description: '',
     countryOrigin: 'Irlande',
+    selectDisplayOrder: 0,
   },
   {
     title: 'La Montagne des Vampires',
@@ -366,5 +393,6 @@ export const baseBooksFantastique: BaseBook[] = [
     releaseDate: '2010-06-30',
     description: '',
     countryOrigin: 'Irlande',
+    selectDisplayOrder: 0,
   },
 ];

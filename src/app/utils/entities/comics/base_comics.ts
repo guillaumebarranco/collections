@@ -126,7 +126,7 @@ export const baseComics: BaseComic[] = [
     writer: 'Jerry Siegel',
     designer: 'Joe Shuster',
     coverUrl:
-      'https://www.supermanhomepage.com/clickandbuilds/SupermanHomepage/wp-content/uploads/2018/01/Superman01.jpg',
+      '/comics_pictures/29f79f5b27cd.jpg',
     releaseDate: '1939-05-18',
     pages: 200,
     genre: 'Super-héros',
@@ -1813,7 +1813,7 @@ export const baseComics: BaseComic[] = [
     writer: 'Stan Lee',
     designer: 'Steve Ditko',
     coverUrl:
-      'https://cdn.cultura.com/cdn-cgi/image/width=830/media/pim/TITELIVE/40_9782809463194_1_75.jpg',
+      '/comics_pictures/6dbca07ffe0d.jpg',
     releaseDate: '1963-01-01',
     pages: 218,
     genre: 'Super-héros',

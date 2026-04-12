@@ -13,6 +13,7 @@ export const baseBooksClassiques: BaseBook[] = [
     releaseDate: '1960-07-11',
     description: '',
     countryOrigin: 'États-Unis',
+    selectDisplayOrder: 30,
   },
   {
     title: 'Les Hauts de Hurlevent',
@@ -26,6 +27,7 @@ export const baseBooksClassiques: BaseBook[] = [
     releaseDate: '1847-12-01',
     description: '',
     countryOrigin: 'Royaume-Uni',
+    selectDisplayOrder: 30,
   },
   {
     title: 'Madame Bovary',
@@ -39,6 +41,7 @@ export const baseBooksClassiques: BaseBook[] = [
     releaseDate: '1856-12-15',
     description: '',
     countryOrigin: 'France',
+    selectDisplayOrder: 30,
   },
   {
     title: 'Bel-Ami',
@@ -52,6 +55,7 @@ export const baseBooksClassiques: BaseBook[] = [
     releaseDate: '1885-04-27',
     description: '',
     countryOrigin: 'France',
+    selectDisplayOrder: 30,
   },
   {
     title: 'Candide',
@@ -65,6 +69,7 @@ export const baseBooksClassiques: BaseBook[] = [
     releaseDate: '1759-01-01',
     description: '',
     countryOrigin: 'France',
+    selectDisplayOrder: 30,
   },
   {
     title: "L'Iliade",
@@ -78,6 +83,7 @@ export const baseBooksClassiques: BaseBook[] = [
     releaseDate: '0001-01-01',
     description: '',
     countryOrigin: 'États-Unis',
+    selectDisplayOrder: 30,
   },
   {
     title: 'Faust',
@@ -91,6 +97,7 @@ export const baseBooksClassiques: BaseBook[] = [
     releaseDate: '1808-01-01',
     description: '',
     countryOrigin: 'États-Unis',
+    selectDisplayOrder: 30,
   },
   {
     title: 'Les Mille et Une Nuits',
@@ -104,6 +111,7 @@ export const baseBooksClassiques: BaseBook[] = [
     releaseDate: '1706-01-01',
     description: '',
     countryOrigin: 'États-Unis',
+    selectDisplayOrder: 30,
   },
   {
     title: 'Le Procès',
@@ -117,6 +125,7 @@ export const baseBooksClassiques: BaseBook[] = [
     releaseDate: '1925-01-01',
     description: '',
     countryOrigin: 'États-Unis',
+    selectDisplayOrder: 30,
   },
   {
     title: 'La Métamorphose',
@@ -130,6 +139,7 @@ export const baseBooksClassiques: BaseBook[] = [
     releaseDate: '1915-01-01',
     description: '',
     countryOrigin: 'Autriche',
+    selectDisplayOrder: 30,
   },
   {
     title: 'Guerre et Paix',
@@ -143,6 +153,7 @@ export const baseBooksClassiques: BaseBook[] = [
     releaseDate: '1869-01-01',
     description: '',
     countryOrigin: 'Russie',
+    selectDisplayOrder: 30,
   },
   {
     title: 'Martin Eden',
@@ -156,6 +167,7 @@ export const baseBooksClassiques: BaseBook[] = [
     releaseDate: '1909-01-01',
     description: '',
     countryOrigin: 'États-Unis',
+    selectDisplayOrder: 30,
   },
   {
     title: 'Sa majesté des mouches',
@@ -169,6 +181,7 @@ export const baseBooksClassiques: BaseBook[] = [
     releaseDate: '1954-01-01',
     description: '',
     countryOrigin: 'Royaume-Uni',
+    selectDisplayOrder: 30,
   },
   {
     title: 'Les raisins de la colère',
@@ -182,6 +195,7 @@ export const baseBooksClassiques: BaseBook[] = [
     releaseDate: '1939-01-01',
     description: '',
     countryOrigin: 'États-Unis',
+    selectDisplayOrder: 30,
   },
   {
     title: 'Les Frères Karamazov',
@@ -195,6 +209,7 @@ export const baseBooksClassiques: BaseBook[] = [
     releaseDate: '1880-01-01',
     description: '',
     countryOrigin: 'Russie',
+    selectDisplayOrder: 30,
   },
   {
     title: 'Le Vieil Homme et la Mer',
@@ -208,6 +223,7 @@ export const baseBooksClassiques: BaseBook[] = [
     releaseDate: '1952-01-01',
     description: '',
     countryOrigin: 'États-Unis',
+    selectDisplayOrder: 30,
   },
   {
     title: 'Belle du seigneur',
@@ -221,6 +237,7 @@ export const baseBooksClassiques: BaseBook[] = [
     releaseDate: '1968-01-01',
     description: '',
     countryOrigin: 'France',
+    selectDisplayOrder: 30,
   },
   {
     title: "Lettre d'une inconnue",
@@ -234,6 +251,7 @@ export const baseBooksClassiques: BaseBook[] = [
     releaseDate: '1922-01-01',
     description: '',
     countryOrigin: 'Autriche',
+    selectDisplayOrder: 30,
   },
   {
     title: 'La Dame aux camélias',
@@ -247,6 +265,7 @@ export const baseBooksClassiques: BaseBook[] = [
     releaseDate: '1848-01-01',
     description: '',
     countryOrigin: 'France',
+    selectDisplayOrder: 30,
   },
   {
     title: 'Tristan et Iseult',
@@ -260,6 +279,7 @@ export const baseBooksClassiques: BaseBook[] = [
     releaseDate: '1972-01-01',
     description: '',
     countryOrigin: 'France',
+    selectDisplayOrder: 30,
   },
   {
     title: 'Moby Dick',
@@ -273,6 +293,7 @@ export const baseBooksClassiques: BaseBook[] = [
     releaseDate: '1851-01-01',
     description: '',
     countryOrigin: 'États-Unis',
+    selectDisplayOrder: 30,
   },
   {
     title: 'À la recherche du temps perdu',
@@ -286,6 +307,7 @@ export const baseBooksClassiques: BaseBook[] = [
     releaseDate: '1913-01-01',
     description: '',
     countryOrigin: 'France',
+    selectDisplayOrder: 30,
   },
   {
     title: "L'attrape-cœurs",
@@ -299,6 +321,7 @@ export const baseBooksClassiques: BaseBook[] = [
     releaseDate: '1951-01-01',
     description: '',
     countryOrigin: 'États-Unis',
+    selectDisplayOrder: 30,
   },
   {
     title: 'La voleuse de livres',
@@ -312,6 +335,7 @@ export const baseBooksClassiques: BaseBook[] = [
     releaseDate: '2005-01-01',
     description: '',
     countryOrigin: 'Australie',
+    selectDisplayOrder: 30,
   },
   {
     title: 'Voyage au bout de la nuit',
@@ -325,6 +349,7 @@ export const baseBooksClassiques: BaseBook[] = [
     releaseDate: '1932-01-01',
     description: '',
     countryOrigin: 'France',
+    selectDisplayOrder: 30,
   },
   {
     title: 'Cent ans de solitude',
@@ -338,6 +363,7 @@ export const baseBooksClassiques: BaseBook[] = [
     releaseDate: '1967-01-01',
     description: '',
     countryOrigin: 'Colombie',
+    selectDisplayOrder: 30,
   },
   {
     title: 'Les Misérables',
@@ -351,6 +377,7 @@ export const baseBooksClassiques: BaseBook[] = [
     releaseDate: '1862-01-01',
     description: '',
     countryOrigin: 'France',
+    selectDisplayOrder: 30,
   },
   {
     title: 'Les liaisons dangereuses',
@@ -364,6 +391,7 @@ export const baseBooksClassiques: BaseBook[] = [
     releaseDate: '1782-03-23',
     description: '',
     countryOrigin: 'France',
+    selectDisplayOrder: 30,
   },
   {
     title: 'Notre-Dame de Paris',
@@ -377,6 +405,7 @@ export const baseBooksClassiques: BaseBook[] = [
     releaseDate: '1831-01-16',
     description: '',
     countryOrigin: 'France',
+    selectDisplayOrder: 30,
   },
   {
     title: 'La Divine Comédie',
@@ -390,6 +419,7 @@ export const baseBooksClassiques: BaseBook[] = [
     releaseDate: '1321-01-01',
     description: '',
     countryOrigin: 'Italie',
+    selectDisplayOrder: 30,
   },
   {
     title: "L'enfer",
@@ -403,6 +433,7 @@ export const baseBooksClassiques: BaseBook[] = [
     releaseDate: '1320-01-01',
     description: '',
     countryOrigin: 'Italie',
+    selectDisplayOrder: 30,
   },
   {
     title: "L'epopée de Gilgamesh",
@@ -416,6 +447,7 @@ export const baseBooksClassiques: BaseBook[] = [
     releaseDate: '0001-01-01',
     description: '',
     countryOrigin: 'États-Unis',
+    selectDisplayOrder: 30,
   },
   {
     title: 'Hamlet',
@@ -429,6 +461,7 @@ export const baseBooksClassiques: BaseBook[] = [
     releaseDate: '1603-01-01',
     description: '',
     countryOrigin: 'Royaume-Uni',
+    selectDisplayOrder: 30,
   },
   {
     title: 'Macbeth',
@@ -442,6 +475,7 @@ export const baseBooksClassiques: BaseBook[] = [
     releaseDate: '1623-01-01',
     description: '',
     countryOrigin: 'Royaume-Uni',
+    selectDisplayOrder: 30,
   },
   {
     title: "L'étranger",
@@ -455,6 +489,7 @@ export const baseBooksClassiques: BaseBook[] = [
     releaseDate: '',
     description: '',
     countryOrigin: 'États-Unis',
+    selectDisplayOrder: 30,
   },
   {
     title: 'Le Père Goriot',
@@ -468,6 +503,7 @@ export const baseBooksClassiques: BaseBook[] = [
     releaseDate: '1835-01-01',
     description: '',
     countryOrigin: 'France',
+    selectDisplayOrder: 30,
   },
   {
     title: 'La Bête humaine',
@@ -481,6 +517,7 @@ export const baseBooksClassiques: BaseBook[] = [
     releaseDate: '1890-01-01',
     description: '',
     countryOrigin: 'France',
+    selectDisplayOrder: 30,
   },
   {
     title: "L'Education sentimentale",
@@ -494,6 +531,7 @@ export const baseBooksClassiques: BaseBook[] = [
     releaseDate: '1869-11-17',
     description: '',
     countryOrigin: 'France',
+    selectDisplayOrder: 30,
   },
   {
     title: 'Salammbô',
@@ -507,6 +545,7 @@ export const baseBooksClassiques: BaseBook[] = [
     releaseDate: '1862-01-01',
     description: '',
     countryOrigin: 'France',
+    selectDisplayOrder: 30,
   },
   {
     title: 'Les Fleurs du Mal',
@@ -520,6 +559,7 @@ export const baseBooksClassiques: BaseBook[] = [
     releaseDate: '1857-06-25',
     description: '',
     countryOrigin: 'France',
+    selectDisplayOrder: 30,
   },
   {
     title: 'Fables',
@@ -533,6 +573,7 @@ export const baseBooksClassiques: BaseBook[] = [
     releaseDate: '1668-01-01',
     description: '',
     countryOrigin: 'France',
+    selectDisplayOrder: 30,
   },
   {
     title: 'Dom Juan',
@@ -546,6 +587,7 @@ export const baseBooksClassiques: BaseBook[] = [
     releaseDate: '1665-02-15',
     description: '',
     countryOrigin: 'France',
+    selectDisplayOrder: 30,
   },
   {
     title: 'Du côté de chez Swan',
@@ -559,6 +601,7 @@ export const baseBooksClassiques: BaseBook[] = [
     releaseDate: '1913-11-14',
     description: '',
     countryOrigin: 'France',
+    selectDisplayOrder: 30,
   },
   {
     title: 'Des souris et des hommes',
@@ -572,6 +615,7 @@ export const baseBooksClassiques: BaseBook[] = [
     releaseDate: '1937-01-01',
     description: '',
     countryOrigin: 'États-Unis',
+    selectDisplayOrder: 30,
   },
   {
     title: 'Vipère au poing',
@@ -585,6 +629,7 @@ export const baseBooksClassiques: BaseBook[] = [
     releaseDate: '1948-01-01',
     description: '',
     countryOrigin: 'France',
+    selectDisplayOrder: 30,
   },
   {
     title: 'Œdipe roi',
@@ -598,6 +643,7 @@ export const baseBooksClassiques: BaseBook[] = [
     releaseDate: '0425-01-01',
     description: '',
     countryOrigin: 'Grèce',
+    selectDisplayOrder: 30,
   },
   {
     title: 'Métamorphoses',
@@ -611,6 +657,7 @@ export const baseBooksClassiques: BaseBook[] = [
     releaseDate: '0008-01-01',
     description: '',
     countryOrigin: '',
+    selectDisplayOrder: 30,
   },
   {
     title: "Le dernier jour d'un condamné",
@@ -624,6 +671,7 @@ export const baseBooksClassiques: BaseBook[] = [
     releaseDate: '1829-01-01',
     description: '',
     countryOrigin: 'France',
+    selectDisplayOrder: 30,
   },
   {
     title: 'Le bourgeois Gentilshommes',
@@ -637,6 +685,7 @@ export const baseBooksClassiques: BaseBook[] = [
     releaseDate: '1670-01-01',
     description: '',
     countryOrigin: 'France',
+    selectDisplayOrder: 30,
   },
   {
     title: 'Tartuffe',
@@ -650,6 +699,7 @@ export const baseBooksClassiques: BaseBook[] = [
     releaseDate: '1664-01-01',
     description: '',
     countryOrigin: 'France',
+    selectDisplayOrder: 30,
   },
   {
     title: 'Le Cid',
@@ -663,6 +713,7 @@ export const baseBooksClassiques: BaseBook[] = [
     releaseDate: '1637-01-01',
     description: '',
     countryOrigin: 'France',
+    selectDisplayOrder: 30,
   },
   {
     title: 'Pantagruel',
@@ -676,6 +727,7 @@ export const baseBooksClassiques: BaseBook[] = [
     releaseDate: '1532-01-01',
     description: '',
     countryOrigin: 'France',
+    selectDisplayOrder: 30,
   },
   {
     title: 'Gargantua',
@@ -689,6 +741,7 @@ export const baseBooksClassiques: BaseBook[] = [
     releaseDate: '1534-01-01',
     description: '',
     countryOrigin: 'France',
+    selectDisplayOrder: 30,
   },
   {
     title: 'Le rouge et le noir',
@@ -702,6 +755,7 @@ export const baseBooksClassiques: BaseBook[] = [
     releaseDate: '1830-01-01',
     description: '',
     countryOrigin: 'France',
+    selectDisplayOrder: 30,
   },
   {
     title: 'Oliver Twist',
@@ -715,6 +769,7 @@ export const baseBooksClassiques: BaseBook[] = [
     releaseDate: '1838-01-01',
     description: '',
     countryOrigin: 'France',
+    selectDisplayOrder: 30,
   },
   {
     title: 'Le nom de la rose',
@@ -728,6 +783,7 @@ export const baseBooksClassiques: BaseBook[] = [
     releaseDate: '1980-01-01',
     description: '',
     countryOrigin: 'France',
+    selectDisplayOrder: 30,
   },
   {
     title: "La promesse de l'aube",
@@ -741,5 +797,6 @@ export const baseBooksClassiques: BaseBook[] = [
     releaseDate: '1960-01-01',
     description: '',
     countryOrigin: 'France',
+    selectDisplayOrder: 30,
   },
 ];

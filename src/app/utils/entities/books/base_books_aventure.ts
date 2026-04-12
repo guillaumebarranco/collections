@@ -13,6 +13,7 @@ export const baseBooksAventure: BaseBook[] = [
     releaseDate: '1864-11-25',
     description: '',
     countryOrigin: 'France',
+    selectDisplayOrder: 30,
   },
   {
     title: 'Le tour du monde en 80 jours',
@@ -26,6 +27,7 @@ export const baseBooksAventure: BaseBook[] = [
     releaseDate: '1872-12-22',
     description: '',
     countryOrigin: 'France',
+    selectDisplayOrder: 30,
   },
   {
     title: 'Vingt Mille Lieues sous les mers',
@@ -39,6 +41,7 @@ export const baseBooksAventure: BaseBook[] = [
     releaseDate: '1870-03-20',
     description: '',
     countryOrigin: 'France',
+    selectDisplayOrder: 30,
   },
   {
     title: "L'Île mystérieuse",
@@ -52,6 +55,7 @@ export const baseBooksAventure: BaseBook[] = [
     releaseDate: '1874-09-22',
     description: '',
     countryOrigin: 'France',
+    selectDisplayOrder: 0,
   },
   {
     title: 'Le Comte de Monte-Cristo',
@@ -65,6 +69,7 @@ export const baseBooksAventure: BaseBook[] = [
     releaseDate: '1844-08-28',
     description: '',
     countryOrigin: 'France',
+    selectDisplayOrder: 30,
   },
   {
     title: "L'Île au trésor",
@@ -78,6 +83,7 @@ export const baseBooksAventure: BaseBook[] = [
     releaseDate: '1883-05-23',
     description: '',
     countryOrigin: 'Royaume-Uni',
+    selectDisplayOrder: 30,
   },
   {
     title: "L'Odyssée",
@@ -91,6 +97,7 @@ export const baseBooksAventure: BaseBook[] = [
     releaseDate: '0001-01-01',
     description: '',
     countryOrigin: 'États-Unis',
+    selectDisplayOrder: 30,
   },
   {
     title: 'Don Quichotte',
@@ -105,6 +112,7 @@ export const baseBooksAventure: BaseBook[] = [
     releaseDate: '1605-01-16',
     description: '',
     countryOrigin: 'États-Unis',
+    selectDisplayOrder: 30,
   },
   {
     title: 'Robinson Crusoe',
@@ -118,6 +126,7 @@ export const baseBooksAventure: BaseBook[] = [
     releaseDate: '1719-04-25',
     description: '',
     countryOrigin: 'Royaume-Uni',
+    selectDisplayOrder: 30,
   },
   {
     title: 'Cinq semaines en ballon',
@@ -131,6 +140,7 @@ export const baseBooksAventure: BaseBook[] = [
     releaseDate: '1863-01-31',
     description: '',
     countryOrigin: 'France',
+    selectDisplayOrder: 0,
   },
   {
     title: "L'Alchimiste",
@@ -144,6 +154,7 @@ export const baseBooksAventure: BaseBook[] = [
     releaseDate: '1998-01-01',
     description: '',
     countryOrigin: 'États-Unis',
+    selectDisplayOrder: 0,
   },
   {
     title: 'Croc-Blanc',
@@ -157,5 +168,6 @@ export const baseBooksAventure: BaseBook[] = [
     releaseDate: '1906-10-01',
     description: '',
     countryOrigin: 'États-Unis',
+    selectDisplayOrder: 0,
   },
 ];

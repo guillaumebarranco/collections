@@ -13,6 +13,7 @@ export const baseBooksThriller: BaseBook[] = [
     releaseDate: '2015-01-13',
     description: '',
     countryOrigin: 'États-Unis',
+    selectDisplayOrder: 0,
   },
   {
     title: 'Anges et démons',
@@ -27,6 +28,7 @@ export const baseBooksThriller: BaseBook[] = [
     releaseDate: '2000-01-01',
     description: '',
     countryOrigin: 'France',
+    selectDisplayOrder: 0,
   },
   {
     title: 'Da Vinci Code',
@@ -40,6 +42,7 @@ export const baseBooksThriller: BaseBook[] = [
     releaseDate: '2003-03-18',
     description: '',
     countryOrigin: 'États-Unis',
+    selectDisplayOrder: 0,
   },
 
   {
@@ -54,6 +57,7 @@ export const baseBooksThriller: BaseBook[] = [
     releaseDate: '2009-01-01',
     description: '',
     countryOrigin: 'France',
+    selectDisplayOrder: 0,
   },
   {
     title: 'Inferno',
@@ -67,6 +71,7 @@ export const baseBooksThriller: BaseBook[] = [
     releaseDate: '2013-01-01',
     description: '',
     countryOrigin: 'France',
+    selectDisplayOrder: 0,
   },
   {
     title: 'Origine',
@@ -80,6 +85,7 @@ export const baseBooksThriller: BaseBook[] = [
     releaseDate: '2017-01-01',
     description: '',
     countryOrigin: 'France',
+    selectDisplayOrder: 0,
   },
   {
     title: 'Le Secret des secrets',
@@ -93,6 +99,7 @@ export const baseBooksThriller: BaseBook[] = [
     releaseDate: '2024-01-01',
     description: '',
     countryOrigin: 'France',
+    selectDisplayOrder: 0,
   },
   {
     title: 'Forteresse Digitale',
@@ -106,6 +113,7 @@ export const baseBooksThriller: BaseBook[] = [
     releaseDate: '1998-01-01',
     description: '',
     countryOrigin: 'France',
+    selectDisplayOrder: 0,
   },
   {
     title: 'Deception Point',
@@ -119,6 +127,7 @@ export const baseBooksThriller: BaseBook[] = [
     releaseDate: '2001-01-01',
     description: '',
     countryOrigin: 'France',
+    selectDisplayOrder: 0,
   },
   {
     title: 'Sa majesté des ombres',
@@ -132,6 +141,7 @@ export const baseBooksThriller: BaseBook[] = [
     releaseDate: '2018-01-01',
     description: '',
     countryOrigin: 'France',
+    selectDisplayOrder: 0,
   },
   {
     title: 'Puzzle',
@@ -145,6 +155,7 @@ export const baseBooksThriller: BaseBook[] = [
     releaseDate: '2013-10-03',
     description: '',
     countryOrigin: 'France',
+    selectDisplayOrder: 0,
   },
   {
     title: 'Dans son silence',
@@ -158,6 +169,7 @@ export const baseBooksThriller: BaseBook[] = [
     releaseDate: '2019-02-05',
     description: '',
     countryOrigin: 'Royaume-Uni',
+    selectDisplayOrder: 0,
   },
   {
     title: 'La psy',
@@ -171,6 +183,7 @@ export const baseBooksThriller: BaseBook[] = [
     releaseDate: '2021-04-13',
     description: '',
     countryOrigin: 'États-Unis',
+    selectDisplayOrder: 0,
   },
   {
     title: 'La locataire',
@@ -184,6 +197,7 @@ export const baseBooksThriller: BaseBook[] = [
     releaseDate: '2022-08-23',
     description: '',
     countryOrigin: 'États-Unis',
+    selectDisplayOrder: 0,
   },
   {
     title: 'La maison des mensonges',
@@ -197,6 +211,7 @@ export const baseBooksThriller: BaseBook[] = [
     releaseDate: '2020-05-15',
     description: '',
     countryOrigin: 'Royaume-Uni',
+    selectDisplayOrder: 0,
   },
   {
     title: "King's Game",
@@ -210,6 +225,7 @@ export const baseBooksThriller: BaseBook[] = [
     releaseDate: '2012-01-01',
     description: '',
     countryOrigin: 'Japon',
+    selectDisplayOrder: 0,
   },
   {
     title: "King's Game Spiral",
@@ -223,6 +239,7 @@ export const baseBooksThriller: BaseBook[] = [
     releaseDate: '2013-01-01',
     description: '',
     countryOrigin: 'Japon',
+    selectDisplayOrder: 0,
   },
   {
     title: "King's Game Origin",
@@ -236,6 +253,7 @@ export const baseBooksThriller: BaseBook[] = [
     releaseDate: '2014-01-01',
     description: '',
     countryOrigin: 'Japon',
+    selectDisplayOrder: 0,
   },
   {
     title: "King's Game Extreme",
@@ -249,6 +267,7 @@ export const baseBooksThriller: BaseBook[] = [
     releaseDate: '2015-01-01',
     description: '',
     countryOrigin: 'Japon',
+    selectDisplayOrder: 0,
   },
   {
     title: "King's Game Apocalypse",
@@ -262,6 +281,7 @@ export const baseBooksThriller: BaseBook[] = [
     releaseDate: '2016-01-01',
     description: '',
     countryOrigin: 'Japon',
+    selectDisplayOrder: 0,
   },
   {
     title: 'The Dead zone',
@@ -275,6 +295,7 @@ export const baseBooksThriller: BaseBook[] = [
     releaseDate: '1979-08-01',
     description: '',
     countryOrigin: 'États-Unis',
+    selectDisplayOrder: 0,
   },
   {
     title: 'Les disparus du phare de Tévennec',
@@ -288,6 +309,7 @@ export const baseBooksThriller: BaseBook[] = [
     releaseDate: '2021-01-01',
     description: '',
     countryOrigin: 'France',
+    selectDisplayOrder: 0,
   },
   {
     title: 'Délivrez-nous du mal',
@@ -301,6 +323,7 @@ export const baseBooksThriller: BaseBook[] = [
     releaseDate: '2002-01-01',
     description: '',
     countryOrigin: 'France',
+    selectDisplayOrder: 0,
   },
   {
     title: 'Pardonnez nos offenses',
@@ -314,6 +337,7 @@ export const baseBooksThriller: BaseBook[] = [
     releaseDate: '2002-01-01',
     description: '',
     countryOrigin: 'France',
+    selectDisplayOrder: 0,
   },
   {
     title: "L'éclat de dieu ou le roman du temps",
@@ -327,6 +351,7 @@ export const baseBooksThriller: BaseBook[] = [
     releaseDate: '2004-01-01',
     description: '',
     countryOrigin: 'France',
+    selectDisplayOrder: 0,
   },
   {
     title: 'Un homme averti ne vaut rien',
@@ -340,6 +365,7 @@ export const baseBooksThriller: BaseBook[] = [
     releaseDate: '2007-01-01',
     description: '',
     countryOrigin: 'France',
+    selectDisplayOrder: 0,
   },
   {
     title: 'Quitte Rome ou meurs',
@@ -353,6 +379,7 @@ export const baseBooksThriller: BaseBook[] = [
     releaseDate: '2009-01-01',
     description: '',
     countryOrigin: 'France',
+    selectDisplayOrder: 0,
   },
   {
     title: 'America I : La treizième colonie',
@@ -366,6 +393,7 @@ export const baseBooksThriller: BaseBook[] = [
     releaseDate: '2013-01-01',
     description: '',
     countryOrigin: 'France',
+    selectDisplayOrder: 0,
   },
   {
     title: 'America II : La main rouge',
@@ -379,6 +407,7 @@ export const baseBooksThriller: BaseBook[] = [
     releaseDate: '2015-01-01',
     description: '',
     countryOrigin: 'France',
+    selectDisplayOrder: 0,
   },
   {
     title: "La Vérité sur l'Affaire Harry Quebert",
@@ -392,6 +421,7 @@ export const baseBooksThriller: BaseBook[] = [
     releaseDate: '2012-01-01',
     description: '',
     countryOrigin: 'France',
+    selectDisplayOrder: 0,
   },
   {
     title: 'Le Livre des Baltimore',
@@ -405,6 +435,7 @@ export const baseBooksThriller: BaseBook[] = [
     releaseDate: '2015-01-01',
     description: '',
     countryOrigin: 'France',
+    selectDisplayOrder: 0,
   },
   {
     title: "L'Affaire Alaska Sanders",
@@ -418,6 +449,7 @@ export const baseBooksThriller: BaseBook[] = [
     releaseDate: '2022-01-01',
     description: '',
     countryOrigin: 'France',
+    selectDisplayOrder: 0,
   },
   {
     title: 'La chambre 622',
@@ -431,6 +463,7 @@ export const baseBooksThriller: BaseBook[] = [
     releaseDate: '2018-01-01',
     description: '',
     countryOrigin: 'France',
+    selectDisplayOrder: 0,
   },
   {
     title: 'Les derniers de nos pères',
@@ -444,5 +477,6 @@ export const baseBooksThriller: BaseBook[] = [
     releaseDate: '2010-01-01',
     description: '',
     countryOrigin: 'France',
+    selectDisplayOrder: 0,
   },
 ];

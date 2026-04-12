@@ -1,0 +1,119 @@
+import { BaseGame } from '../../../models/game-model';
+
+/** Jeux dérivés des albums de Tintin (Hergé). */
+export const baseGamesTintin: BaseGame[] = [
+  {
+    title: 'Tintin sur la Lune',
+    editor: 'Infogrames',
+    hero: 'Tintin',
+    coverUrl:
+      '/games_pictures/54d499adb71f.jpg',
+    releaseDate: '1989-01-01',
+    averageTimeToFinish: 3,
+    averageTimeToHundredPercent: 0,
+    platform: 'Amiga, Amstrad CPC, Atari ST, Commodore 64, MS-DOS, ZX Spectrum',
+    saga: 'Tintin',
+    platineTime: 0,
+    description: '',
+    fromEntity: {
+      entityType: 'bd' as const,
+      title: 'Objectif Lune',
+      secondEntityKey: 'Hergé',
+    },
+  },
+  {
+    title: 'Tintin au Tibet',
+    editor: 'Infogrames',
+    hero: 'Tintin',
+    coverUrl: '/games_pictures/0138f7f7c869.jpg',
+    releaseDate: '1995-12-01',
+    averageTimeToFinish: 6,
+    averageTimeToHundredPercent: 0,
+    platform: 'PC, Super Nintendo, Mega Drive, Game Boy, Game Gear',
+    saga: 'Tintin',
+    platineTime: 0,
+    description: '',
+    fromEntity: {
+      entityType: 'bd' as const,
+      title: 'Tintin au Tibet',
+      secondEntityKey: 'Hergé',
+    },
+  },
+  {
+    title: 'Tintin : Le Temple du Soleil',
+    editor: 'Infogrames',
+    hero: 'Tintin',
+    coverUrl:
+      '/games_pictures/d68bfb0a5835.jpg',
+    releaseDate: '1997-02-09',
+    averageTimeToFinish: 8,
+    averageTimeToHundredPercent: 0,
+    platform: 'PC, Super Nintendo, Game Boy Color',
+    saga: 'Tintin',
+    platineTime: 0,
+    description: '',
+    fromEntity: {
+      entityType: 'bd' as const,
+      title: 'Le Temple du Soleil',
+      secondEntityKey: 'Hergé',
+    },
+  },
+  {
+    title: 'Tintin : Objectif Aventure',
+    editor: 'Infogrames',
+    hero: 'Tintin',
+    coverUrl:
+      'https://www.gamecash.fr/thumbnail-600/tintin-objectif-aventure-e29580.jpg',
+    releaseDate: '2001-09-21',
+    averageTimeToFinish: 10,
+    averageTimeToHundredPercent: 0,
+    platform: 'PC, PlayStation',
+    saga: 'Tintin',
+    platineTime: 0,
+    description: '',
+    fromEntity: {
+      entityType: 'bd' as const,
+      title: 'Les Cigares du pharaon',
+      secondEntityKey: 'Hergé',
+    },
+  },
+  {
+    title: 'Les Aventures de Tintin : Le Secret de La Licorne',
+    editor: 'Ubisoft',
+    hero: 'Tintin',
+    coverUrl:
+      '/games_pictures/5c1a469a9f82.jpg',
+    releaseDate: '2011-10-21',
+    averageTimeToFinish: 10,
+    averageTimeToHundredPercent: 15,
+    platform: 'PC, PlayStation 3, Xbox 360, Wii, Nintendo 3DS',
+    saga: 'Tintin',
+    platineTime: 0,
+    description: '',
+    fromEntity: {
+      entityType: 'bd' as const,
+      title: 'Le Secret de La Licorne',
+      secondEntityKey: 'Hergé',
+    },
+  },
+  {
+    title: 'Tintin Reporter : Les Cigares du Pharaon',
+    editor: 'Microids',
+    hero: 'Tintin',
+    coverUrl:
+      '/games_pictures/1bfa8e276611.jpg',
+    releaseDate: '2023-11-07',
+    averageTimeToFinish: 12,
+    averageTimeToHundredPercent: 20,
+    platform:
+      'PC, PlayStation 4, PlayStation 5, Xbox One, Xbox Series X|S, Nintendo Switch',
+    saga: 'Tintin',
+    platineTime: 0,
+    description: '',
+    fromEntity: {
+      entityType: 'bd' as const,
+      title: 'Les Cigares du pharaon',
+      secondEntityKey: 'Hergé',
+    },
+  },
+];

@@ -2717,7 +2717,7 @@ export const baseGamesAdaptations2: BaseGame[] = [
     editor: 'Mistic Software',
     hero: 'Superman',
     coverUrl:
-      'https://upload.wikimedia.org/wikipedia/en/thumb/b/ba/Superman_CDtA_cover.jpg/250px-Superman_CDtA_cover.jpg',
+      '/games_pictures/2e0a161ad6c4.jpg',
     releaseDate: '2003-11-11',
     averageTimeToFinish: 5,
     averageTimeToHundredPercent: 0,

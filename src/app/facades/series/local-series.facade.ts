@@ -2,6 +2,10 @@ import { baseSeries } from '../../utils/entities/series/base_series';
 import { baseSeriesAnimees } from '../../utils/entities/series/base_series_animees';
 import { baseSeriesApi } from '../../utils/entities/series/base_series_api';
 import { baseSeriesFromMarina } from '../../utils/entities/series/base_series_from_marina';
+import { baseSeriesUnderworld } from '../../utils/entities/series/base_series_underworld';
+import { baseSeriesMatrix } from '../../utils/entities/series/base_series_matrix';
+import { baseSeriesTerminator } from '../../utils/entities/series/base_series_terminator';
+import { baseSeriesShrek } from '../../utils/entities/series/base_series_shrek';
 
 import { guillaumeSeries } from '../../utils/users/guillaume/series';
 import { guillaumeWatchListSeries } from '../../utils/users/guillaume/series/guillaume_watchlist_series';
@@ -25,6 +29,10 @@ export const allBaseSeries: BaseSerie[] = [
   ...baseSeriesApi,
   ...baseSeriesAnimees,
   ...baseSeriesFromMarina,
+  ...baseSeriesUnderworld,
+  ...baseSeriesMatrix,
+  ...baseSeriesTerminator,
+  ...baseSeriesShrek,
 ];
 
 export function getLocalSeriesByUser(userId: string): UserSerie[] {

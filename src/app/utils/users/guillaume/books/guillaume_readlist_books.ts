@@ -816,16 +816,16 @@ export const guillaumeReadlistBooks: UserBooks = [
   {
     title: 'Puzzle',
     author: 'Franck Thilliez',
-    firstReadDate: "",
-    lastReadDate: "",
+    firstReadDate: '',
+    lastReadDate: '',
     rating: 0,
     readTimes: 0.5,
     owned: false,
-    borrowed: "Amandine",
-    loaned: "",
+    borrowed: 'Amandine',
+    loaned: '',
     readPriority: 1,
     wantToReadAgain: false,
-    ratingComment: "",
+    ratingComment: '',
   },
   {
     title: 'La vague',
@@ -1019,14 +1019,14 @@ export const guillaumeReadlistBooks: UserBooks = [
     owned: true,
     borrowed: '',
     loaned: '',
-    readPriority: 1,
+    readPriority: 3,
     wantToReadAgain: false,
     ratingComment: '',
   },
 
   {
-    title: "La faucheuse tome 1",
-    author: "Neal Shusterman",
+    title: 'La faucheuse tome 1',
+    author: 'Neal Shusterman',
     firstReadDate: '',
     lastReadDate: '',
     rating: 0,
@@ -1041,7 +1041,7 @@ export const guillaumeReadlistBooks: UserBooks = [
 
   {
     title: "King's Game",
-    author: "Nobuaki Kanazawa",
+    author: 'Nobuaki Kanazawa',
     firstReadDate: '',
     lastReadDate: '',
     rating: 0,
@@ -1056,7 +1056,7 @@ export const guillaumeReadlistBooks: UserBooks = [
 
   {
     title: "La Vérité sur l'Affaire Harry Quebert",
-    author: "Joël Dicker",
+    author: 'Joël Dicker',
     firstReadDate: '',
     lastReadDate: '',
     rating: 0,
@@ -1070,8 +1070,8 @@ export const guillaumeReadlistBooks: UserBooks = [
   },
 
   {
-    title: "Le Procès",
-    author: "Franz Kafka",
+    title: 'Le Procès',
+    author: 'Franz Kafka',
     firstReadDate: '',
     lastReadDate: '',
     rating: 0,
@@ -1085,8 +1085,8 @@ export const guillaumeReadlistBooks: UserBooks = [
   },
 
   {
-    title: "Demain est un autre jour",
-    author: "May Angeli",
+    title: 'Demain est un autre jour',
+    author: 'May Angeli',
     firstReadDate: '',
     lastReadDate: '',
     rating: 0,

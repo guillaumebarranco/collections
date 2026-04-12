@@ -13,6 +13,7 @@ export const baseBooksNonfiction: BaseBook[] = [
     releaseDate: '2023-01-01',
     description: '',
     countryOrigin: 'France',
+    selectDisplayOrder: 0,
   },
   {
     title: 'En bons pères de famille',
@@ -26,6 +27,7 @@ export const baseBooksNonfiction: BaseBook[] = [
     releaseDate: '2021-09-01',
     description: '',
     countryOrigin: 'France',
+    selectDisplayOrder: 0,
   },
   {
     title: "Où va l'argent des pauvres",
@@ -39,6 +41,7 @@ export const baseBooksNonfiction: BaseBook[] = [
     releaseDate: '2019-01-01',
     description: '',
     countryOrigin: 'France',
+    selectDisplayOrder: 0,
   },
   {
     title: 'Les tout-petits face aux écrans',
@@ -52,6 +55,7 @@ export const baseBooksNonfiction: BaseBook[] = [
     releaseDate: '2017-01-01',
     description: '',
     countryOrigin: 'France',
+    selectDisplayOrder: 0,
   },
   {
     title: 'Résister',
@@ -65,6 +69,7 @@ export const baseBooksNonfiction: BaseBook[] = [
     releaseDate: '2021-01-01',
     description: '',
     countryOrigin: 'France',
+    selectDisplayOrder: 0,
   },
   {
     title: 'Le coût de la virilité',
@@ -78,6 +83,7 @@ export const baseBooksNonfiction: BaseBook[] = [
     releaseDate: '2021-01-01',
     description: '',
     countryOrigin: 'France',
+    selectDisplayOrder: 0,
   },
   {
     title: 'Sois jeune et tais-toi',
@@ -91,6 +97,7 @@ export const baseBooksNonfiction: BaseBook[] = [
     releaseDate: '2020-01-01',
     description: '',
     countryOrigin: 'France',
+    selectDisplayOrder: 0,
   },
   {
     title: 'Faites-les lire !',
@@ -104,6 +111,7 @@ export const baseBooksNonfiction: BaseBook[] = [
     releaseDate: '2019-01-01',
     description: '',
     countryOrigin: 'France',
+    selectDisplayOrder: 0,
   },
   {
     title: "Le Gaslighting ou l'art de faire taire les femmes",
@@ -117,6 +125,7 @@ export const baseBooksNonfiction: BaseBook[] = [
     releaseDate: '2023-01-01',
     description: '',
     countryOrigin: 'États-Unis',
+    selectDisplayOrder: 0,
   },
   {
     title: "Le Journal d'Anne Frank",
@@ -130,6 +139,7 @@ export const baseBooksNonfiction: BaseBook[] = [
     releaseDate: '1947-06-25',
     description: '',
     countryOrigin: 'États-Unis',
+    selectDisplayOrder: 0,
   },
   {
     title: 'Le Capital',
@@ -143,6 +153,7 @@ export const baseBooksNonfiction: BaseBook[] = [
     releaseDate: '1867-01-01',
     description: '',
     countryOrigin: 'Allemagne',
+    selectDisplayOrder: 0,
   },
   {
     title: 'Le Manifeste du parti communiste',
@@ -156,6 +167,7 @@ export const baseBooksNonfiction: BaseBook[] = [
     releaseDate: '1848-01-01',
     description: '',
     countryOrigin: 'Allemagne',
+    selectDisplayOrder: 0,
   },
   {
     title: 'Eichmann à Jérusalem',
@@ -169,6 +181,7 @@ export const baseBooksNonfiction: BaseBook[] = [
     releaseDate: '1963-01-01',
     description: '',
     countryOrigin: 'États-Unis',
+    selectDisplayOrder: 0,
   },
   {
     title: "L'Origine des espèces",
@@ -182,5 +195,6 @@ export const baseBooksNonfiction: BaseBook[] = [
     releaseDate: '1859-01-01',
     description: '',
     countryOrigin: 'Royaume-Uni',
+    selectDisplayOrder: 0,
   },
 ];

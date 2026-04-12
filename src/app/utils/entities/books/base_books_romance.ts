@@ -13,6 +13,7 @@ export const baseBooksRomance: BaseBook[] = [
     releaseDate: '2020-08-01',
     description: '',
     countryOrigin: 'France',
+    selectDisplayOrder: 0,
   },
   {
     title: 'Les liaisons dangereuses',
@@ -26,6 +27,7 @@ export const baseBooksRomance: BaseBook[] = [
     releaseDate: '2022-01-01',
     description: '',
     countryOrigin: 'France',
+    selectDisplayOrder: 0,
   },
   {
     title: 'Castel Boy',
@@ -39,6 +41,7 @@ export const baseBooksRomance: BaseBook[] = [
     releaseDate: '2021-01-01',
     description: '',
     countryOrigin: 'France',
+    selectDisplayOrder: 0,
   },
   {
     title: 'Orgueil et Préjugés',
@@ -52,6 +55,7 @@ export const baseBooksRomance: BaseBook[] = [
     releaseDate: '1813-01-28',
     description: '',
     countryOrigin: 'Royaume-Uni',
+    selectDisplayOrder: 30,
   },
   {
     title: 'Emma',
@@ -65,6 +69,7 @@ export const baseBooksRomance: BaseBook[] = [
     releaseDate: '1815-12-23',
     description: '',
     countryOrigin: 'Royaume-Uni',
+    selectDisplayOrder: 0,
   },
   {
     title: 'Jane Eyre',
@@ -78,6 +83,7 @@ export const baseBooksRomance: BaseBook[] = [
     releaseDate: '1847-10-16',
     description: '',
     countryOrigin: 'Royaume-Uni',
+    selectDisplayOrder: 30,
   },
   {
     title: 'Gatsby le magnifique',
@@ -91,6 +97,7 @@ export const baseBooksRomance: BaseBook[] = [
     releaseDate: '1925-04-10',
     description: '',
     countryOrigin: 'États-Unis',
+    selectDisplayOrder: 30,
   },
   {
     title: 'Les pages de notre amour',
@@ -104,6 +111,7 @@ export const baseBooksRomance: BaseBook[] = [
     releaseDate: '1996-01-01',
     description: '',
     countryOrigin: 'États-Unis',
+    selectDisplayOrder: 0,
   },
   {
     title: 'À tout jamais',
@@ -117,6 +125,7 @@ export const baseBooksRomance: BaseBook[] = [
     releaseDate: '2004-01-01',
     description: '',
     countryOrigin: 'États-Unis',
+    selectDisplayOrder: 0,
   },
   {
     title: 'Le porte bonheur',
@@ -130,6 +139,7 @@ export const baseBooksRomance: BaseBook[] = [
     releaseDate: '2003-01-01',
     description: '',
     countryOrigin: 'États-Unis',
+    selectDisplayOrder: 0,
   },
   {
     title: 'Memento mori',
@@ -143,6 +153,7 @@ export const baseBooksRomance: BaseBook[] = [
     releaseDate: '2023-01-01',
     description: '',
     countryOrigin: 'France',
+    selectDisplayOrder: 0,
   },
   {
     title: 'Un choix',
@@ -156,6 +167,7 @@ export const baseBooksRomance: BaseBook[] = [
     releaseDate: '2007-01-01',
     description: '',
     countryOrigin: 'États-Unis',
+    selectDisplayOrder: 0,
   },
   {
     title: 'Une seconde chance',
@@ -169,6 +181,7 @@ export const baseBooksRomance: BaseBook[] = [
     releaseDate: '2013-01-01',
     description: '',
     countryOrigin: 'États-Unis',
+    selectDisplayOrder: 0,
   },
   {
     title: 'Adam',
@@ -182,6 +195,7 @@ export const baseBooksRomance: BaseBook[] = [
     releaseDate: '2022-01-01',
     description: '',
     countryOrigin: 'France',
+    selectDisplayOrder: 0,
   },
   {
     title: 'Roméo et Juliette',
@@ -195,6 +209,7 @@ export const baseBooksRomance: BaseBook[] = [
     releaseDate: '1597-01-01',
     description: '',
     countryOrigin: 'Royaume-Uni',
+    selectDisplayOrder: 30,
   },
   {
     title: "L'amour aux temps du choléra",
@@ -208,6 +223,7 @@ export const baseBooksRomance: BaseBook[] = [
     releaseDate: '1985-03-27',
     description: '',
     countryOrigin: 'États-Unis',
+    selectDisplayOrder: 0,
   },
   {
     title: 'Tout le bleu du ciel',
@@ -221,6 +237,7 @@ export const baseBooksRomance: BaseBook[] = [
     releaseDate: '2021-01-01',
     description: '',
     countryOrigin: 'États-Unis',
+    selectDisplayOrder: 0,
   },
   {
     title: 'Autant en emporte le vent',
@@ -234,6 +251,7 @@ export const baseBooksRomance: BaseBook[] = [
     releaseDate: '1936-06-30',
     description: '',
     countryOrigin: 'États-Unis',
+    selectDisplayOrder: 0,
   },
   {
     title: 'Il était une fois: Tome 1 : Mon premier baiser',
@@ -247,6 +265,7 @@ export const baseBooksRomance: BaseBook[] = [
     releaseDate: '2023-01-01',
     description: '',
     countryOrigin: 'États-Unis',
+    selectDisplayOrder: 0,
   },
   {
     title: 'Il était une fois: Tome 2 : Mon dernier amour',
@@ -260,6 +279,7 @@ export const baseBooksRomance: BaseBook[] = [
     releaseDate: '2023-11-23',
     description: '',
     countryOrigin: 'États-Unis',
+    selectDisplayOrder: 0,
   },
   {
     title: 'Les filles du Docteur March',
@@ -273,6 +293,7 @@ export const baseBooksRomance: BaseBook[] = [
     releaseDate: '1868-01-01',
     description: '',
     countryOrigin: 'États-Unis',
+    selectDisplayOrder: 30,
   },
   {
     title: "L'écume des jours",
@@ -286,6 +307,7 @@ export const baseBooksRomance: BaseBook[] = [
     releaseDate: '1947-01-01',
     description: '',
     countryOrigin: 'France',
+    selectDisplayOrder: 30,
   },
   {
     title: 'Cyrano de Bergerac',
@@ -299,6 +321,7 @@ export const baseBooksRomance: BaseBook[] = [
     releaseDate: '1897-12-28',
     description: '',
     countryOrigin: 'France',
+    selectDisplayOrder: 30,
   },
   {
     title: 'La dernière chanson',
@@ -312,6 +335,7 @@ export const baseBooksRomance: BaseBook[] = [
     releaseDate: '2009-09-08',
     description: '',
     countryOrigin: 'États-Unis',
+    selectDisplayOrder: 0,
   },
   {
     title: 'Fais un voeu',
@@ -325,6 +349,7 @@ export const baseBooksRomance: BaseBook[] = [
     releaseDate: '2020-09-29',
     description: '',
     countryOrigin: 'États-Unis',
+    selectDisplayOrder: 0,
   },
   {
     title: 'Au rythme de ton souffle',
@@ -338,6 +363,7 @@ export const baseBooksRomance: BaseBook[] = [
     releaseDate: '2021-09-28',
     description: '',
     countryOrigin: 'États-Unis',
+    selectDisplayOrder: 0,
   },
   {
     title: 'Un havre de paix',
@@ -351,6 +377,7 @@ export const baseBooksRomance: BaseBook[] = [
     releaseDate: '2022-09-20',
     description: '',
     countryOrigin: 'États-Unis',
+    selectDisplayOrder: 0,
   },
   {
     title: 'Cinquante nuances de Grey',
@@ -364,6 +391,7 @@ export const baseBooksRomance: BaseBook[] = [
     releaseDate: '2012-05-02',
     description: '',
     countryOrigin: 'Royaume-Uni',
+    selectDisplayOrder: 0,
   },
   {
     title: 'Cinquante nuances plus sombres',
@@ -378,6 +406,7 @@ export const baseBooksRomance: BaseBook[] = [
     releaseDate: '2012-09-12',
     description: '',
     countryOrigin: 'Royaume-Uni',
+    selectDisplayOrder: 0,
   },
   {
     title: 'Cinquante nuances plus claires',
@@ -391,5 +420,6 @@ export const baseBooksRomance: BaseBook[] = [
     releaseDate: '2012-11-14',
     description: '',
     countryOrigin: 'Royaume-Uni',
+    selectDisplayOrder: 0,
   },
 ];

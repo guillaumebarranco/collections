@@ -13,6 +13,7 @@ export const baseBooksSaga: BaseBook[] = [
     releaseDate: '2008-09-14',
     description: '',
     countryOrigin: 'États-Unis',
+    selectDisplayOrder: 20,
   },
   {
     title: "L'Embrasement",
@@ -27,6 +28,7 @@ export const baseBooksSaga: BaseBook[] = [
     releaseDate: '2009-09-01',
     description: '',
     countryOrigin: 'États-Unis',
+    selectDisplayOrder: 20,
   },
   {
     title: 'La Révolte',
@@ -41,6 +43,7 @@ export const baseBooksSaga: BaseBook[] = [
     releaseDate: '2010-08-24',
     description: '',
     countryOrigin: 'États-Unis',
+    selectDisplayOrder: 20,
   },
   {
     title: "La Ballade du serpent et de l'oiseau chanteur",
@@ -55,6 +58,7 @@ export const baseBooksSaga: BaseBook[] = [
     releaseDate: '2020-05-19',
     description: '',
     countryOrigin: 'États-Unis',
+    selectDisplayOrder: 20,
   },
   {
     title: 'Lever de soleil sur la moisson',
@@ -68,6 +72,7 @@ export const baseBooksSaga: BaseBook[] = [
     releaseDate: '2023-03-07',
     description: '',
     countryOrigin: 'États-Unis',
+    selectDisplayOrder: 20,
   },
   {
     title: "Harry Potter à l'école des sorciers",
@@ -82,6 +87,7 @@ export const baseBooksSaga: BaseBook[] = [
     releaseDate: '1997-06-26',
     description: '',
     countryOrigin: 'Royaume-Uni',
+    selectDisplayOrder: 25,
   },
   {
     title: 'Harry Potter et la Chambre des secrets',
@@ -96,6 +102,7 @@ export const baseBooksSaga: BaseBook[] = [
     releaseDate: '1998-07-02',
     description: '',
     countryOrigin: 'Royaume-Uni',
+    selectDisplayOrder: 25,
   },
   {
     title: "Harry Potter et le Prisonnier d'Azkaban",
@@ -110,6 +117,7 @@ export const baseBooksSaga: BaseBook[] = [
     releaseDate: '1999-07-08',
     description: '',
     countryOrigin: 'Royaume-Uni',
+    selectDisplayOrder: 25,
   },
   {
     title: 'Harry Potter et la Coupe de feu',
@@ -124,6 +132,7 @@ export const baseBooksSaga: BaseBook[] = [
     releaseDate: '2000-07-08',
     description: '',
     countryOrigin: 'Royaume-Uni',
+    selectDisplayOrder: 25,
   },
   {
     title: "Harry Potter et l'Ordre du Phénix",
@@ -138,6 +147,7 @@ export const baseBooksSaga: BaseBook[] = [
     releaseDate: '2003-06-21',
     description: '',
     countryOrigin: 'Royaume-Uni',
+    selectDisplayOrder: 25,
   },
   {
     title: 'Harry Potter et le Prince de sang-mêlé',
@@ -152,6 +162,7 @@ export const baseBooksSaga: BaseBook[] = [
     releaseDate: '2005-07-16',
     description: '',
     countryOrigin: 'Royaume-Uni',
+    selectDisplayOrder: 25,
   },
   {
     title: 'Harry Potter et les Reliques de la Mort',
@@ -166,6 +177,7 @@ export const baseBooksSaga: BaseBook[] = [
     releaseDate: '2007-07-21',
     description: '',
     countryOrigin: 'Royaume-Uni',
+    selectDisplayOrder: 25,
   },
   {
     title: "Harry Potter et l'Enfant maudit",
@@ -179,6 +191,7 @@ export const baseBooksSaga: BaseBook[] = [
     releaseDate: '2016-07-31',
     description: '',
     countryOrigin: 'Royaume-Uni',
+    selectDisplayOrder: 25,
   },
   {
     title: 'Fascination',
@@ -192,6 +205,7 @@ export const baseBooksSaga: BaseBook[] = [
     releaseDate: '2005-10-05',
     description: '',
     countryOrigin: 'États-Unis',
+    selectDisplayOrder: 20,
   },
   {
     title: 'Tentation',
@@ -205,6 +219,7 @@ export const baseBooksSaga: BaseBook[] = [
     releaseDate: '2006-09-06',
     description: '',
     countryOrigin: 'États-Unis',
+    selectDisplayOrder: 20,
   },
   {
     title: 'Hésitation',
@@ -218,6 +233,7 @@ export const baseBooksSaga: BaseBook[] = [
     releaseDate: '2007-08-07',
     description: '',
     countryOrigin: 'États-Unis',
+    selectDisplayOrder: 20,
   },
   {
     title: 'Révélation',
@@ -231,6 +247,7 @@ export const baseBooksSaga: BaseBook[] = [
     releaseDate: '2008-08-02',
     description: '',
     countryOrigin: 'États-Unis',
+    selectDisplayOrder: 20,
   },
   {
     title: 'Midnight Sun',
@@ -244,13 +261,13 @@ export const baseBooksSaga: BaseBook[] = [
     releaseDate: '2020-08-04',
     description: '',
     countryOrigin: 'États-Unis',
+    selectDisplayOrder: 20,
   },
 
   {
     title: 'Divergente',
     author: 'Veronica Roth',
-    coverUrl:
-      '/books_pictures/2dd25d82e759.jpg',
+    coverUrl: '/books_pictures/2dd25d82e759.jpg',
     pages: 487,
     genre: ['Dystopie'],
     saga: 'Divergente',
@@ -259,6 +276,7 @@ export const baseBooksSaga: BaseBook[] = [
     releaseDate: '2011-04-26',
     description: '',
     countryOrigin: 'États-Unis',
+    selectDisplayOrder: 15,
   },
   {
     title: "Divergente Tome 2 : L'Insurrection",
@@ -273,12 +291,12 @@ export const baseBooksSaga: BaseBook[] = [
     releaseDate: '2012-05-01',
     description: '',
     countryOrigin: 'États-Unis',
+    selectDisplayOrder: 15,
   },
   {
     title: 'Divergente Tome 3 : Allégeance',
     author: 'Veronica Roth',
-    coverUrl:
-      '/books_pictures/f1c6609bb8e1.jpg',
+    coverUrl: '/books_pictures/f1c6609bb8e1.jpg',
     pages: 526,
     genre: ['Science Fiction'],
     saga: 'Divergente',
@@ -287,6 +305,7 @@ export const baseBooksSaga: BaseBook[] = [
     releaseDate: '2013-10-22',
     description: '',
     countryOrigin: 'États-Unis',
+    selectDisplayOrder: 15,
   },
   {
     title: 'Divergente : Raconté par Quatre',
@@ -300,6 +319,7 @@ export const baseBooksSaga: BaseBook[] = [
     releaseDate: '2014-07-08',
     description: '',
     countryOrigin: 'États-Unis',
+    selectDisplayOrder: 15,
   },
   {
     title: 'Le Labyrinthe',
@@ -313,6 +333,7 @@ export const baseBooksSaga: BaseBook[] = [
     releaseDate: '2009-10-06',
     description: '',
     countryOrigin: 'États-Unis',
+    selectDisplayOrder: 15,
   },
 
   {
@@ -327,6 +348,7 @@ export const baseBooksSaga: BaseBook[] = [
     releaseDate: '2022-01-01',
     description: '',
     countryOrigin: 'France',
+    selectDisplayOrder: 10,
   },
   {
     title: 'Absolu - Les Effacés',
@@ -340,6 +362,7 @@ export const baseBooksSaga: BaseBook[] = [
     releaseDate: '2023-01-01',
     description: '',
     countryOrigin: 'France',
+    selectDisplayOrder: 10,
   },
   {
     title: 'Absolu - Les Éveillés',
@@ -353,6 +376,7 @@ export const baseBooksSaga: BaseBook[] = [
     releaseDate: '2024-01-01',
     description: '',
     countryOrigin: 'France',
+    selectDisplayOrder: 10,
   },
   {
     title: 'Inside Mac: Tome 1',
@@ -366,6 +390,7 @@ export const baseBooksSaga: BaseBook[] = [
     releaseDate: '2022-01-01',
     description: '',
     countryOrigin: 'France',
+    selectDisplayOrder: 5,
   },
   {
     title: 'Inside Mac: Tome 2',
@@ -379,6 +404,7 @@ export const baseBooksSaga: BaseBook[] = [
     releaseDate: '2023-01-01',
     description: '',
     countryOrigin: 'France',
+    selectDisplayOrder: 5,
   },
   {
     title: 'Player One',
@@ -392,6 +418,7 @@ export const baseBooksSaga: BaseBook[] = [
     releaseDate: '2011-08-16',
     description: '',
     countryOrigin: 'États-Unis',
+    selectDisplayOrder: 15,
   },
   {
     title: 'Ready Player Two',
@@ -406,6 +433,7 @@ export const baseBooksSaga: BaseBook[] = [
     releaseDate: '2020-11-24',
     description: '',
     countryOrigin: 'États-Unis',
+    selectDisplayOrder: 15,
   },
   {
     title: 'La femme de ménage',
@@ -419,6 +447,7 @@ export const baseBooksSaga: BaseBook[] = [
     releaseDate: '2022-04-05',
     description: '',
     countryOrigin: 'États-Unis',
+    selectDisplayOrder: 25,
   },
   {
     title: 'Les secrets de la femme de ménage',
@@ -432,6 +461,7 @@ export const baseBooksSaga: BaseBook[] = [
     releaseDate: '2023-01-01',
     description: '',
     countryOrigin: 'États-Unis',
+    selectDisplayOrder: 25,
   },
   {
     title: 'La femme de ménage se marie',
@@ -445,6 +475,7 @@ export const baseBooksSaga: BaseBook[] = [
     releaseDate: '2023-01-01',
     description: '',
     countryOrigin: 'États-Unis',
+    selectDisplayOrder: 25,
   },
   {
     title: 'La femme de ménage voit tout',
@@ -458,6 +489,7 @@ export const baseBooksSaga: BaseBook[] = [
     releaseDate: '2024-01-01',
     description: '',
     countryOrigin: 'États-Unis',
+    selectDisplayOrder: 25,
   },
   {
     title: 'Les Trois Mousquetaires',
@@ -471,6 +503,7 @@ export const baseBooksSaga: BaseBook[] = [
     releaseDate: '1844-03-14',
     description: '',
     countryOrigin: 'France',
+    selectDisplayOrder: 30,
   },
   {
     title: 'Le Faucon malté',
@@ -485,6 +518,7 @@ export const baseBooksSaga: BaseBook[] = [
     releaseDate: '2005-01-01',
     description: '',
     countryOrigin: 'Royaume-Uni',
+    selectDisplayOrder: 5,
   },
   {
     title: "L'ennemi public n°2",
@@ -498,6 +532,7 @@ export const baseBooksSaga: BaseBook[] = [
     releaseDate: '2006-01-01',
     description: '',
     countryOrigin: 'Royaume-Uni',
+    selectDisplayOrder: 5,
   },
   {
     title: 'Devine qui vient tuer',
@@ -511,6 +546,7 @@ export const baseBooksSaga: BaseBook[] = [
     releaseDate: '2007-01-01',
     description: '',
     countryOrigin: 'Royaume-Uni',
+    selectDisplayOrder: 5,
   },
   // Saga des sept sœurs
   {
@@ -525,6 +561,7 @@ export const baseBooksSaga: BaseBook[] = [
     releaseDate: '2015-01-01',
     description: '',
     countryOrigin: 'Royaume-Uni',
+    selectDisplayOrder: 20,
   },
   {
     title: 'La Sœur de la tempête',
@@ -538,6 +575,7 @@ export const baseBooksSaga: BaseBook[] = [
     releaseDate: '2016-01-01',
     description: '',
     countryOrigin: 'Royaume-Uni',
+    selectDisplayOrder: 20,
   },
   {
     title: "La Sœur de l'ombre",
@@ -551,6 +589,7 @@ export const baseBooksSaga: BaseBook[] = [
     releaseDate: '2017-01-01',
     description: '',
     countryOrigin: 'Royaume-Uni',
+    selectDisplayOrder: 20,
   },
   {
     title: 'La Sœur à la perle',
@@ -564,6 +603,7 @@ export const baseBooksSaga: BaseBook[] = [
     releaseDate: '2018-01-01',
     description: '',
     countryOrigin: 'Royaume-Uni',
+    selectDisplayOrder: 20,
   },
   {
     title: 'La Sœur de la lune',
@@ -577,6 +617,7 @@ export const baseBooksSaga: BaseBook[] = [
     releaseDate: '2019-01-01',
     description: '',
     countryOrigin: 'Royaume-Uni',
+    selectDisplayOrder: 20,
   },
   {
     title: 'La Sœur du soleil',
@@ -590,6 +631,7 @@ export const baseBooksSaga: BaseBook[] = [
     releaseDate: '2020-01-01',
     description: '',
     countryOrigin: 'Royaume-Uni',
+    selectDisplayOrder: 20,
   },
   {
     title: 'La Sœur disparue',
@@ -603,6 +645,7 @@ export const baseBooksSaga: BaseBook[] = [
     releaseDate: '2021-01-01',
     description: '',
     countryOrigin: 'Royaume-Uni',
+    selectDisplayOrder: 20,
   },
   {
     title: "Atlas : L'histoire de Pa Salt",
@@ -616,6 +659,7 @@ export const baseBooksSaga: BaseBook[] = [
     releaseDate: '2023-01-01',
     description: '',
     countryOrigin: 'Royaume-Uni',
+    selectDisplayOrder: 20,
   },
   // Saga Blackwater
   {
@@ -630,6 +674,7 @@ export const baseBooksSaga: BaseBook[] = [
     releaseDate: '1983-01-01',
     description: '',
     countryOrigin: 'États-Unis',
+    selectDisplayOrder: 15,
   },
   {
     title: 'Blackwater II : La digue',
@@ -643,6 +688,7 @@ export const baseBooksSaga: BaseBook[] = [
     releaseDate: '1983-01-01',
     description: '',
     countryOrigin: 'États-Unis',
+    selectDisplayOrder: 15,
   },
   {
     title: 'Blackwater III : La maison',
@@ -656,6 +702,7 @@ export const baseBooksSaga: BaseBook[] = [
     releaseDate: '1983-01-01',
     description: '',
     countryOrigin: 'États-Unis',
+    selectDisplayOrder: 15,
   },
   {
     title: 'Blackwater IV : La guerre',
@@ -669,6 +716,7 @@ export const baseBooksSaga: BaseBook[] = [
     releaseDate: '1983-01-01',
     description: '',
     countryOrigin: 'États-Unis',
+    selectDisplayOrder: 15,
   },
   {
     title: 'Blackwater V : La fortune',
@@ -682,6 +730,7 @@ export const baseBooksSaga: BaseBook[] = [
     releaseDate: '1983-01-01',
     description: '',
     countryOrigin: 'États-Unis',
+    selectDisplayOrder: 15,
   },
   {
     title: 'Blackwater VI : Pluie',
@@ -695,6 +744,7 @@ export const baseBooksSaga: BaseBook[] = [
     releaseDate: '1983-01-01',
     description: '',
     countryOrigin: 'États-Unis',
+    selectDisplayOrder: 15,
   },
   // Saga La chronique des Bridgerton
   {
@@ -710,6 +760,7 @@ export const baseBooksSaga: BaseBook[] = [
     releaseDate: '2000-01-01',
     description: '',
     countryOrigin: 'États-Unis',
+    selectDisplayOrder: 15,
   },
   {
     title: 'La chronique des Bridgerton, tome 2 : Anthony',
@@ -724,6 +775,7 @@ export const baseBooksSaga: BaseBook[] = [
     releaseDate: '2000-01-01',
     description: '',
     countryOrigin: 'États-Unis',
+    selectDisplayOrder: 15,
   },
   {
     title: 'La chronique des Bridgerton, tome 3 : Benedict',
@@ -737,6 +789,7 @@ export const baseBooksSaga: BaseBook[] = [
     releaseDate: '2001-01-01',
     description: '',
     countryOrigin: 'États-Unis',
+    selectDisplayOrder: 15,
   },
   {
     title: 'La chronique des Bridgerton, tome 4 : Colin',
@@ -750,6 +803,7 @@ export const baseBooksSaga: BaseBook[] = [
     releaseDate: '2002-01-01',
     description: '',
     countryOrigin: 'États-Unis',
+    selectDisplayOrder: 15,
   },
   {
     title: 'La chronique des Bridgerton, tome 5 : Eloïse',
@@ -764,6 +818,7 @@ export const baseBooksSaga: BaseBook[] = [
     releaseDate: '2003-01-01',
     description: '',
     countryOrigin: 'États-Unis',
+    selectDisplayOrder: 15,
   },
   {
     title: 'La chronique des Bridgerton, tome 6 : Francesca',
@@ -778,6 +833,7 @@ export const baseBooksSaga: BaseBook[] = [
     releaseDate: '2004-01-01',
     description: '',
     countryOrigin: 'États-Unis',
+    selectDisplayOrder: 15,
   },
   {
     title: 'La chronique des Bridgerton, tome 7 : Hyacinthe',
@@ -792,6 +848,7 @@ export const baseBooksSaga: BaseBook[] = [
     releaseDate: '2005-01-01',
     description: '',
     countryOrigin: 'États-Unis',
+    selectDisplayOrder: 15,
   },
   {
     title: 'La chronique des Bridgerton, tome 8 : Gregory',
@@ -806,6 +863,7 @@ export const baseBooksSaga: BaseBook[] = [
     releaseDate: '2006-01-01',
     description: '',
     countryOrigin: 'États-Unis',
+    selectDisplayOrder: 15,
   },
   {
     title: 'La chronique des Bridgerton, tome 9 : Des années plus tard',
@@ -820,6 +878,7 @@ export const baseBooksSaga: BaseBook[] = [
     releaseDate: '2013-01-01',
     description: '',
     countryOrigin: 'États-Unis',
+    selectDisplayOrder: 15,
   },
   {
     title: 'La chronique des Bridgerton : La reine Charlotte',
@@ -834,6 +893,7 @@ export const baseBooksSaga: BaseBook[] = [
     releaseDate: '2023-01-01',
     description: '',
     countryOrigin: 'États-Unis',
+    selectDisplayOrder: 15,
   },
   // Saga Millénium
   {
@@ -849,6 +909,7 @@ export const baseBooksSaga: BaseBook[] = [
     releaseDate: '2005-01-01',
     description: '',
     countryOrigin: 'Suède',
+    selectDisplayOrder: 20,
   },
   {
     title:
@@ -863,6 +924,7 @@ export const baseBooksSaga: BaseBook[] = [
     releaseDate: '2006-01-01',
     description: '',
     countryOrigin: 'Suède',
+    selectDisplayOrder: 20,
   },
   {
     title: "Millénium, Tome 3 : La reine dans le palais des courants d'air",
@@ -876,6 +938,7 @@ export const baseBooksSaga: BaseBook[] = [
     releaseDate: '2007-01-01',
     description: '',
     countryOrigin: 'Suède',
+    selectDisplayOrder: 20,
   },
   // Saga Les Rois maudits
   {
@@ -890,6 +953,7 @@ export const baseBooksSaga: BaseBook[] = [
     releaseDate: '1959-01-01',
     description: '',
     countryOrigin: 'France',
+    selectDisplayOrder: 15,
   },
   {
     title: 'Le Lis et le Lion',
@@ -903,6 +967,7 @@ export const baseBooksSaga: BaseBook[] = [
     releaseDate: '1960-01-01',
     description: '',
     countryOrigin: 'France',
+    selectDisplayOrder: 15,
   },
   {
     title: 'La Loi des mâles',
@@ -916,6 +981,7 @@ export const baseBooksSaga: BaseBook[] = [
     releaseDate: '1961-01-01',
     description: '',
     countryOrigin: 'France',
+    selectDisplayOrder: 15,
   },
   {
     title: 'La Reine étranglée',
@@ -929,6 +995,7 @@ export const baseBooksSaga: BaseBook[] = [
     releaseDate: '1962-01-01',
     description: '',
     countryOrigin: 'France',
+    selectDisplayOrder: 15,
   },
   {
     title: 'Les Poisons de la Couronne',
@@ -942,6 +1009,7 @@ export const baseBooksSaga: BaseBook[] = [
     releaseDate: '1963-01-01',
     description: '',
     countryOrigin: 'France',
+    selectDisplayOrder: 15,
   },
   {
     title: 'Quand un roi perd la France',
@@ -955,6 +1023,7 @@ export const baseBooksSaga: BaseBook[] = [
     releaseDate: '1977-01-01',
     description: '',
     countryOrigin: 'France',
+    selectDisplayOrder: 15,
   },
   // Saga Dune
   {
@@ -969,6 +1038,7 @@ export const baseBooksSaga: BaseBook[] = [
     releaseDate: '1965-01-01',
     description: '',
     countryOrigin: 'États-Unis',
+    selectDisplayOrder: 20,
   },
   {
     title: 'Le Messie de Dune',
@@ -982,6 +1052,7 @@ export const baseBooksSaga: BaseBook[] = [
     releaseDate: '1969-01-01',
     description: '',
     countryOrigin: 'États-Unis',
+    selectDisplayOrder: 20,
   },
   {
     title: 'Les Enfants de Dune',
@@ -995,6 +1066,7 @@ export const baseBooksSaga: BaseBook[] = [
     releaseDate: '1976-01-01',
     description: '',
     countryOrigin: 'États-Unis',
+    selectDisplayOrder: 20,
   },
   {
     title: "L'Empereur-Dieu de Dune",
@@ -1008,6 +1080,7 @@ export const baseBooksSaga: BaseBook[] = [
     releaseDate: '1981-01-01',
     description: '',
     countryOrigin: 'États-Unis',
+    selectDisplayOrder: 20,
   },
   {
     title: 'Les Hérétiques de Dune',
@@ -1021,6 +1094,7 @@ export const baseBooksSaga: BaseBook[] = [
     releaseDate: '1984-01-01',
     description: '',
     countryOrigin: 'États-Unis',
+    selectDisplayOrder: 20,
   },
   {
     title: 'La Maison des mères',
@@ -1034,6 +1108,7 @@ export const baseBooksSaga: BaseBook[] = [
     releaseDate: '1985-01-01',
     description: '',
     countryOrigin: 'États-Unis',
+    selectDisplayOrder: 20,
   },
   {
     title: 'Numéro quatre',
@@ -1047,6 +1122,7 @@ export const baseBooksSaga: BaseBook[] = [
     releaseDate: '2010-08-01',
     description: '',
     countryOrigin: 'États-Unis',
+    selectDisplayOrder: 5,
   },
   {
     title: 'Le pouvoir des six',
@@ -1060,6 +1136,7 @@ export const baseBooksSaga: BaseBook[] = [
     releaseDate: '2011-08-01',
     description: '',
     countryOrigin: 'États-Unis',
+    selectDisplayOrder: 5,
   },
   {
     title: "Un palais d'épines et de roses",
@@ -1073,6 +1150,7 @@ export const baseBooksSaga: BaseBook[] = [
     releaseDate: '2015-08-01',
     description: '',
     countryOrigin: 'États-Unis',
+    selectDisplayOrder: 20,
   },
   {
     title: 'Un palais de colère et de brume',
@@ -1086,6 +1164,7 @@ export const baseBooksSaga: BaseBook[] = [
     releaseDate: '2016-09-02',
     description: '',
     countryOrigin: 'États-Unis',
+    selectDisplayOrder: 20,
   },
   {
     title: 'Un palais de cendres et de ruines',
@@ -1099,6 +1178,7 @@ export const baseBooksSaga: BaseBook[] = [
     releaseDate: '2017-09-05',
     description: '',
     countryOrigin: 'États-Unis',
+    selectDisplayOrder: 20,
   },
   {
     title: 'Un palais de glace et de lumière',
@@ -1112,6 +1192,7 @@ export const baseBooksSaga: BaseBook[] = [
     releaseDate: '2018-05-01',
     description: '',
     countryOrigin: 'États-Unis',
+    selectDisplayOrder: 20,
   },
   {
     title: "Un palais de flammes d'argent",
@@ -1125,11 +1206,13 @@ export const baseBooksSaga: BaseBook[] = [
     releaseDate: '2021-02-16',
     description: '',
     countryOrigin: 'États-Unis',
+    selectDisplayOrder: 20,
   },
   {
     title: 'Sublimes: La Chimère',
     author: 'Emma Schütz',
-    coverUrl: '/books_pictures/sublimes_la_chimere_emma_schutz.jpg',
+    coverUrl:
+      'https://servimg.eyrolles.com/static/media/8239/9782491938239_internet_h1400.jpg',
     pages: 784,
     genre: ['Fantasy', 'Jeunesse'],
     saga: 'Sublimes',
@@ -1138,5 +1221,6 @@ export const baseBooksSaga: BaseBook[] = [
     releaseDate: '2023-11-15',
     description: '',
     countryOrigin: 'France',
+    selectDisplayOrder: 1,
   },
 ];

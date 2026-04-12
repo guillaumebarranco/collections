@@ -1658,7 +1658,11 @@ export const baseMoviesSagaPage2: BaseMovie[] = [
     genre: ['Fantastique'],
     saga: 'Twilight',
     description: '',
-    fromEntity: null,
+    fromEntity: {
+      entityType: 'book',
+      title: 'Fascination',
+      secondEntityKey: 'Stephenie Meyer',
+    },
     countryOrigin: ['États-Unis'],
   },
   {
@@ -1672,7 +1676,11 @@ export const baseMoviesSagaPage2: BaseMovie[] = [
     genre: ['Fantastique'],
     saga: 'Twilight',
     description: '',
-    fromEntity: null,
+    fromEntity: {
+      entityType: 'book',
+      title: 'Tentation',
+      secondEntityKey: 'Stephenie Meyer',
+    },
     countryOrigin: ['États-Unis'],
   },
   {
@@ -1685,7 +1693,11 @@ export const baseMoviesSagaPage2: BaseMovie[] = [
     genre: ['Fantastique'],
     saga: 'Twilight',
     description: '',
-    fromEntity: null,
+    fromEntity: {
+      entityType: 'book',
+      title: 'Hésitation',
+      secondEntityKey: 'Stephenie Meyer',
+    },
     countryOrigin: ['États-Unis'],
   },
   {
@@ -1699,7 +1711,11 @@ export const baseMoviesSagaPage2: BaseMovie[] = [
     genre: ['Fantastique'],
     saga: 'Twilight',
     description: '',
-    fromEntity: null,
+    fromEntity: {
+      entityType: 'book',
+      title: 'Révélation',
+      secondEntityKey: 'Stephenie Meyer',
+    },
     countryOrigin: ['États-Unis'],
   },
   {
@@ -1713,7 +1729,11 @@ export const baseMoviesSagaPage2: BaseMovie[] = [
     genre: ['Fantastique'],
     saga: 'Twilight',
     description: '',
-    fromEntity: null,
+    fromEntity: {
+      entityType: 'book',
+      title: 'Révélation',
+      secondEntityKey: 'Stephenie Meyer',
+    },
     countryOrigin: ['États-Unis'],
   },
   {
@@ -1766,6 +1786,20 @@ export const baseMoviesSagaPage2: BaseMovie[] = [
     releaseDate: '2012-01-20',
     length: 88,
     genre: ['Action'],
+    saga: 'Underworld',
+    description: '',
+    fromEntity: null,
+    countryOrigin: ['États-Unis'],
+  },
+  {
+    title: 'Underworld : Blood Wars',
+    director: 'Anna Foerster',
+    actors: [{ name: 'Kate Beckinsale' }, { name: 'Theo James' }],
+    coverUrl:
+      '/movies_pictures/8bb81d79d354.jpg',
+    releaseDate: '2016-11-24',
+    length: 91,
+    genre: ['Action', 'Fantastique'],
     saga: 'Underworld',
     description: '',
     fromEntity: null,

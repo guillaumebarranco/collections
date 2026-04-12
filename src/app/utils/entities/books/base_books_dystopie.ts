@@ -13,6 +13,7 @@ export const baseBooksDystopie: BaseBook[] = [
     releaseDate: '1945-08-17',
     description: '',
     countryOrigin: 'Royaume-Uni',
+    selectDisplayOrder: 30,
   },
   {
     title: '1984',
@@ -26,6 +27,7 @@ export const baseBooksDystopie: BaseBook[] = [
     releaseDate: '1949-06-08',
     description: '',
     countryOrigin: 'Royaume-Uni',
+    selectDisplayOrder: 30,
   },
   {
     title: 'Fahrenheit 451',
@@ -39,6 +41,7 @@ export const baseBooksDystopie: BaseBook[] = [
     releaseDate: '1953-10-19',
     description: '',
     countryOrigin: 'États-Unis',
+    selectDisplayOrder: 30,
   },
   {
     title: 'Viridia: Les racines du pouvoir',
@@ -52,6 +55,7 @@ export const baseBooksDystopie: BaseBook[] = [
     releaseDate: '2023-01-01',
     description: '',
     countryOrigin: 'France',
+    selectDisplayOrder: 0,
   },
   {
     title: 'Le meilleur des mondes',
@@ -65,5 +69,6 @@ export const baseBooksDystopie: BaseBook[] = [
     releaseDate: '1932-01-01',
     description: '',
     countryOrigin: 'Royaume-Uni',
+    selectDisplayOrder: 30,
   },
 ];

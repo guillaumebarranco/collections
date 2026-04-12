@@ -73,6 +73,7 @@ export const getFullBook = (book: BaseBook): Book => ({
   description: book.description ?? '',
   ratingComment: '',
   countryOrigin: book.countryOrigin ?? '',
+  selectDisplayOrder: book.selectDisplayOrder ?? 0,
 });
 
 export const getFullGame = (game: BaseGame): Game => ({

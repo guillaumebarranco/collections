@@ -61,13 +61,18 @@ export class SelectBooksComponent
     return new Set(readlistBooks.map((book) => this.getBookKey(book)));
   });
 
-  // Tous les livres proposés : ni déjà lus, ni déjà en readlist
+  // Tous les livres proposés : ni déjà lus, ni déjà en readlist.
+  // Tri par selectDisplayOrder décroissant ; à égalité, ordre inchangé (sort stable).
   allBooks = computed<Book[]>(() => {
     const allBooksList = this.baseBooks().map(getEmptyBook);
-    return allBooksList.filter(
+    const filtered = allBooksList.filter(
       (book) =>
         !this.readBooks().has(this.getBookKey(book)) &&
         !this.alreadyInReadlistBooks().has(this.getBookKey(book))
+    );
+    return [...filtered].sort(
+      (a, b) =>
+        (b.selectDisplayOrder ?? 0) - (a.selectDisplayOrder ?? 0)
     );
   });
 

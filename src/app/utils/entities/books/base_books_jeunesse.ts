@@ -13,6 +13,7 @@ export const baseBooksJeunesse: BaseBook[] = [
     releaseDate: '1981-01-01',
     description: '',
     countryOrigin: 'États-Unis',
+    selectDisplayOrder: 0,
   },
   {
     title: 'Charlie et la Chocolaterie',
@@ -26,6 +27,7 @@ export const baseBooksJeunesse: BaseBook[] = [
     releaseDate: '1964-01-01',
     description: '',
     countryOrigin: 'Royaume-Uni',
+    selectDisplayOrder: 0,
   },
   {
     title: "L'ordinatueur",
@@ -39,6 +41,7 @@ export const baseBooksJeunesse: BaseBook[] = [
     releaseDate: '1984-01-01',
     description: '',
     countryOrigin: 'France',
+    selectDisplayOrder: 0,
   },
   {
     title: 'La Potion magique de Georges Bouillon',
@@ -52,6 +55,7 @@ export const baseBooksJeunesse: BaseBook[] = [
     releaseDate: '1981-01-01',
     description: '',
     countryOrigin: 'Royaume-Uni',
+    selectDisplayOrder: 0,
   },
   {
     title: 'La photo qui tue',
@@ -65,6 +69,7 @@ export const baseBooksJeunesse: BaseBook[] = [
     releaseDate: '2000-01-01',
     description: '',
     countryOrigin: 'Royaume-Uni',
+    selectDisplayOrder: 0,
   },
   {
     title: 'Le Petit Prince',
@@ -78,5 +83,6 @@ export const baseBooksJeunesse: BaseBook[] = [
     releaseDate: '1943-01-01',
     description: '',
     countryOrigin: 'France',
+    selectDisplayOrder: 30,
   },
 ];

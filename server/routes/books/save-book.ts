@@ -121,6 +121,10 @@ router.post('/', (req: any, res: any) => {
           entityPayload.countryOrigin != null
             ? normalizeString(entityPayload.countryOrigin, 'countryOrigin')
             : '',
+        selectDisplayOrder: normalizeNumber(
+          entityPayload.selectDisplayOrder,
+          'selectDisplayOrder'
+        ),
       });
 
       if (originalTitle || originalAuthor) {

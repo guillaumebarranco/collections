@@ -66,6 +66,8 @@ export interface BaseBook extends MandatoryBookData {
   releaseDate: string;
   description: string;
   countryOrigin: Country;
+  /** Ordre d’affichage dans les sélecteurs (0 = ordre par défaut). */
+  selectDisplayOrder: number;
 }
 
 export interface UserBook extends MandatoryBookData {

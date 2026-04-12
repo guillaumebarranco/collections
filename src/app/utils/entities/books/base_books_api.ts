@@ -13,6 +13,7 @@ export const baseBooksApi: BaseBook[] = [
     releaseDate: '1906-10-01',
     description: '',
     countryOrigin: 'États-Unis',
+    selectDisplayOrder: 30,
   },
 
   {
@@ -27,6 +28,7 @@ export const baseBooksApi: BaseBook[] = [
     releaseDate: '',
     description: '',
     countryOrigin: 'Canada',
+    selectDisplayOrder: 0,
   },
 
   {
@@ -41,6 +43,7 @@ export const baseBooksApi: BaseBook[] = [
     releaseDate: '2023-02-28',
     description: '',
     countryOrigin: 'Royaume-Uni',
+    selectDisplayOrder: 0,
   },
 
   {
@@ -55,6 +58,7 @@ export const baseBooksApi: BaseBook[] = [
     releaseDate: '',
     description: '',
     countryOrigin: 'Royaume-Uni',
+    selectDisplayOrder: 0,
   },
 
   {
@@ -69,6 +73,7 @@ export const baseBooksApi: BaseBook[] = [
     releaseDate: '',
     description: '',
     countryOrigin: 'France',
+    selectDisplayOrder: 0,
   },
 
   {
@@ -83,6 +88,7 @@ export const baseBooksApi: BaseBook[] = [
     releaseDate: '',
     description: '',
     countryOrigin: 'France',
+    selectDisplayOrder: 0,
   },
 
   {
@@ -97,6 +103,7 @@ export const baseBooksApi: BaseBook[] = [
     releaseDate: '',
     description: '',
     countryOrigin: 'France',
+    selectDisplayOrder: 0,
   },
 
   {
@@ -111,6 +118,7 @@ export const baseBooksApi: BaseBook[] = [
     releaseDate: '',
     description: '',
     countryOrigin: 'France',
+    selectDisplayOrder: 0,
   },
 
   {
@@ -125,6 +133,7 @@ export const baseBooksApi: BaseBook[] = [
     releaseDate: '',
     description: '',
     countryOrigin: 'États-Unis',
+    selectDisplayOrder: 0,
   },
 
   {
@@ -139,6 +148,7 @@ export const baseBooksApi: BaseBook[] = [
     releaseDate: '',
     description: '',
     countryOrigin: 'États-Unis',
+    selectDisplayOrder: 0,
   },
 
   {
@@ -154,6 +164,7 @@ export const baseBooksApi: BaseBook[] = [
     releaseDate: '',
     description: '',
     countryOrigin: 'États-Unis',
+    selectDisplayOrder: 0,
   },
 
   {
@@ -169,6 +180,7 @@ export const baseBooksApi: BaseBook[] = [
     releaseDate: '',
     description: '',
     countryOrigin: 'États-Unis',
+    selectDisplayOrder: 0,
   },
 
   {
@@ -183,6 +195,7 @@ export const baseBooksApi: BaseBook[] = [
     releaseDate: '',
     description: '',
     countryOrigin: 'États-Unis',
+    selectDisplayOrder: 0,
   },
 
   {
@@ -197,6 +210,7 @@ export const baseBooksApi: BaseBook[] = [
     releaseDate: '',
     description: '',
     countryOrigin: 'États-Unis',
+    selectDisplayOrder: 0,
   },
 
   {
@@ -212,6 +226,7 @@ export const baseBooksApi: BaseBook[] = [
     releaseDate: '',
     description: '',
     countryOrigin: 'États-Unis',
+    selectDisplayOrder: 0,
   },
 
   {
@@ -226,6 +241,7 @@ export const baseBooksApi: BaseBook[] = [
     releaseDate: '',
     description: '',
     countryOrigin: 'États-Unis',
+    selectDisplayOrder: 0,
   },
 
   {
@@ -240,6 +256,7 @@ export const baseBooksApi: BaseBook[] = [
     releaseDate: '',
     description: '',
     countryOrigin: 'États-Unis',
+    selectDisplayOrder: 0,
   },
 
   {
@@ -254,6 +271,7 @@ export const baseBooksApi: BaseBook[] = [
     releaseDate: '',
     description: '',
     countryOrigin: 'États-Unis',
+    selectDisplayOrder: 0,
   },
 
   {
@@ -268,6 +286,7 @@ export const baseBooksApi: BaseBook[] = [
     releaseDate: '',
     description: '',
     countryOrigin: 'États-Unis',
+    selectDisplayOrder: 0,
   },
 
   {
@@ -282,6 +301,7 @@ export const baseBooksApi: BaseBook[] = [
     releaseDate: '',
     description: '',
     countryOrigin: 'États-Unis',
+    selectDisplayOrder: 0,
   },
 
   {
@@ -296,6 +316,7 @@ export const baseBooksApi: BaseBook[] = [
     releaseDate: '',
     description: '',
     countryOrigin: 'États-Unis',
+    selectDisplayOrder: 0,
   },
 
   {
@@ -310,6 +331,7 @@ export const baseBooksApi: BaseBook[] = [
     releaseDate: '',
     description: '',
     countryOrigin: 'États-Unis',
+    selectDisplayOrder: 0,
   },
 
   {
@@ -324,6 +346,7 @@ export const baseBooksApi: BaseBook[] = [
     releaseDate: '',
     description: '',
     countryOrigin: 'Canada',
+    selectDisplayOrder: 0,
   },
 
   {
@@ -338,6 +361,7 @@ export const baseBooksApi: BaseBook[] = [
     releaseDate: '',
     description: '',
     countryOrigin: 'Canada',
+    selectDisplayOrder: 0,
   },
 
   {
@@ -352,6 +376,7 @@ export const baseBooksApi: BaseBook[] = [
     releaseDate: '',
     description: '',
     countryOrigin: 'États-Unis',
+    selectDisplayOrder: 0,
   },
 
   {
@@ -366,6 +391,7 @@ export const baseBooksApi: BaseBook[] = [
     releaseDate: '',
     description: '',
     countryOrigin: 'États-Unis',
+    selectDisplayOrder: 0,
   },
 
   {
@@ -380,6 +406,7 @@ export const baseBooksApi: BaseBook[] = [
     releaseDate: '',
     description: '',
     countryOrigin: 'États-Unis',
+    selectDisplayOrder: 0,
   },
 
   {
@@ -395,6 +422,7 @@ export const baseBooksApi: BaseBook[] = [
     releaseDate: '',
     description: '',
     countryOrigin: 'Royaume-Uni',
+    selectDisplayOrder: 0,
   },
 
   {
@@ -409,6 +437,7 @@ export const baseBooksApi: BaseBook[] = [
     releaseDate: '',
     description: '',
     countryOrigin: 'Royaume-Uni',
+    selectDisplayOrder: 0,
   },
 
   {
@@ -423,6 +452,7 @@ export const baseBooksApi: BaseBook[] = [
     releaseDate: '',
     description: '',
     countryOrigin: 'Royaume-Uni',
+    selectDisplayOrder: 0,
   },
 
   {
@@ -437,6 +467,7 @@ export const baseBooksApi: BaseBook[] = [
     releaseDate: '',
     description: '',
     countryOrigin: 'États-Unis',
+    selectDisplayOrder: 0,
   },
 
   {
@@ -451,6 +482,7 @@ export const baseBooksApi: BaseBook[] = [
     releaseDate: '',
     description: '',
     countryOrigin: 'États-Unis',
+    selectDisplayOrder: 0,
   },
 
   {
@@ -465,6 +497,7 @@ export const baseBooksApi: BaseBook[] = [
     releaseDate: '',
     description: '',
     countryOrigin: 'États-Unis',
+    selectDisplayOrder: 0,
   },
 
   {
@@ -479,6 +512,7 @@ export const baseBooksApi: BaseBook[] = [
     releaseDate: '',
     description: '',
     countryOrigin: 'États-Unis',
+    selectDisplayOrder: 0,
   },
 
   {
@@ -493,6 +527,7 @@ export const baseBooksApi: BaseBook[] = [
     releaseDate: '',
     description: '',
     countryOrigin: 'États-Unis',
+    selectDisplayOrder: 0,
   },
 
   {
@@ -507,6 +542,7 @@ export const baseBooksApi: BaseBook[] = [
     releaseDate: '',
     description: '',
     countryOrigin: 'États-Unis',
+    selectDisplayOrder: 0,
   },
 
   {
@@ -521,6 +557,7 @@ export const baseBooksApi: BaseBook[] = [
     releaseDate: '',
     description: '',
     countryOrigin: '',
+    selectDisplayOrder: 0,
   },
 
   {
@@ -535,6 +572,7 @@ export const baseBooksApi: BaseBook[] = [
     releaseDate: '',
     description: '',
     countryOrigin: '',
+    selectDisplayOrder: 0,
   },
 
   {
@@ -549,6 +587,7 @@ export const baseBooksApi: BaseBook[] = [
     releaseDate: '2006-08-23',
     description: '',
     countryOrigin: 'Japon',
+    selectDisplayOrder: 0,
   },
 
   {
@@ -563,6 +602,7 @@ export const baseBooksApi: BaseBook[] = [
     releaseDate: '',
     description: '',
     countryOrigin: '',
+    selectDisplayOrder: 0,
   },
 
   {
@@ -577,6 +617,7 @@ export const baseBooksApi: BaseBook[] = [
     releaseDate: '',
     description: '',
     countryOrigin: '',
+    selectDisplayOrder: 0,
   },
 
   {
@@ -591,6 +632,7 @@ export const baseBooksApi: BaseBook[] = [
     releaseDate: '',
     description: '',
     countryOrigin: '',
+    selectDisplayOrder: 0,
   },
 
   {
@@ -605,6 +647,7 @@ export const baseBooksApi: BaseBook[] = [
     releaseDate: '',
     description: '',
     countryOrigin: '',
+    selectDisplayOrder: 0,
   },
 
   {
@@ -619,6 +662,7 @@ export const baseBooksApi: BaseBook[] = [
     releaseDate: '',
     description: '',
     countryOrigin: '',
+    selectDisplayOrder: 0,
   },
 
   {
@@ -633,6 +677,7 @@ export const baseBooksApi: BaseBook[] = [
     releaseDate: '2021-08-18',
     description: '',
     countryOrigin: '',
+    selectDisplayOrder: 0,
   },
 
   {
@@ -647,6 +692,7 @@ export const baseBooksApi: BaseBook[] = [
     releaseDate: '',
     description: '',
     countryOrigin: '',
+    selectDisplayOrder: 0,
   },
 
   {
@@ -661,6 +707,7 @@ export const baseBooksApi: BaseBook[] = [
     releaseDate: '',
     description: '',
     countryOrigin: '',
+    selectDisplayOrder: 0,
   },
 
   {
@@ -675,6 +722,7 @@ export const baseBooksApi: BaseBook[] = [
     releaseDate: '',
     description: '',
     countryOrigin: '',
+    selectDisplayOrder: 0,
   },
 
   {
@@ -689,6 +737,7 @@ export const baseBooksApi: BaseBook[] = [
     releaseDate: '',
     description: '',
     countryOrigin: '',
+    selectDisplayOrder: 0,
   },
 
   {
@@ -703,6 +752,7 @@ export const baseBooksApi: BaseBook[] = [
     releaseDate: '',
     description: '',
     countryOrigin: '',
+    selectDisplayOrder: 0,
   },
 
   {
@@ -717,6 +767,7 @@ export const baseBooksApi: BaseBook[] = [
     releaseDate: '',
     description: '',
     countryOrigin: '',
+    selectDisplayOrder: 0,
   },
 
   {
@@ -731,6 +782,7 @@ export const baseBooksApi: BaseBook[] = [
     releaseDate: '',
     description: '',
     countryOrigin: '',
+    selectDisplayOrder: 0,
   },
 
   {
@@ -745,6 +797,7 @@ export const baseBooksApi: BaseBook[] = [
     releaseDate: '',
     description: '',
     countryOrigin: '',
+    selectDisplayOrder: 0,
   },
 
   {
@@ -759,6 +812,7 @@ export const baseBooksApi: BaseBook[] = [
     releaseDate: '',
     description: '',
     countryOrigin: '',
+    selectDisplayOrder: 0,
   },
 
   {
@@ -773,6 +827,7 @@ export const baseBooksApi: BaseBook[] = [
     releaseDate: '',
     description: '',
     countryOrigin: '',
+    selectDisplayOrder: 0,
   },
 
   {
@@ -787,6 +842,7 @@ export const baseBooksApi: BaseBook[] = [
     releaseDate: '',
     description: '',
     countryOrigin: '',
+    selectDisplayOrder: 0,
   },
 
   {
@@ -801,6 +857,7 @@ export const baseBooksApi: BaseBook[] = [
     releaseDate: '',
     description: '',
     countryOrigin: '',
+    selectDisplayOrder: 0,
   },
 
   {
@@ -815,6 +872,7 @@ export const baseBooksApi: BaseBook[] = [
     releaseDate: '',
     description: '',
     countryOrigin: '',
+    selectDisplayOrder: 0,
   },
 
   {
@@ -829,6 +887,7 @@ export const baseBooksApi: BaseBook[] = [
     releaseDate: '',
     description: '',
     countryOrigin: '',
+    selectDisplayOrder: 0,
   },
 
   {
@@ -843,6 +902,7 @@ export const baseBooksApi: BaseBook[] = [
     releaseDate: '',
     description: '',
     countryOrigin: '',
+    selectDisplayOrder: 0,
   },
 
   {
@@ -857,6 +917,7 @@ export const baseBooksApi: BaseBook[] = [
     releaseDate: '',
     description: '',
     countryOrigin: '',
+    selectDisplayOrder: 0,
   },
 
   {
@@ -871,6 +932,7 @@ export const baseBooksApi: BaseBook[] = [
     releaseDate: '',
     description: '',
     countryOrigin: '',
+    selectDisplayOrder: 0,
   },
 
   {
@@ -885,6 +947,7 @@ export const baseBooksApi: BaseBook[] = [
     releaseDate: '',
     description: '',
     countryOrigin: '',
+    selectDisplayOrder: 0,
   },
 
   {
@@ -899,6 +962,7 @@ export const baseBooksApi: BaseBook[] = [
     releaseDate: '',
     description: '',
     countryOrigin: '',
+    selectDisplayOrder: 0,
   },
 
   {
@@ -913,6 +977,7 @@ export const baseBooksApi: BaseBook[] = [
     releaseDate: '',
     description: '',
     countryOrigin: '',
+    selectDisplayOrder: 0,
   },
 
   {
@@ -927,6 +992,7 @@ export const baseBooksApi: BaseBook[] = [
     releaseDate: '',
     description: '',
     countryOrigin: '',
+    selectDisplayOrder: 0,
   },
 
   {
@@ -941,6 +1007,7 @@ export const baseBooksApi: BaseBook[] = [
     releaseDate: '',
     description: '',
     countryOrigin: '',
+    selectDisplayOrder: 0,
   },
 
   {
@@ -955,6 +1022,7 @@ export const baseBooksApi: BaseBook[] = [
     releaseDate: '',
     description: '',
     countryOrigin: '',
+    selectDisplayOrder: 0,
   },
 
   {
@@ -969,6 +1037,7 @@ export const baseBooksApi: BaseBook[] = [
     releaseDate: '',
     description: '',
     countryOrigin: '',
+    selectDisplayOrder: 0,
   },
 
   {
@@ -983,6 +1052,7 @@ export const baseBooksApi: BaseBook[] = [
     releaseDate: '',
     description: '',
     countryOrigin: '',
+    selectDisplayOrder: 0,
   },
 
   {
@@ -997,6 +1067,7 @@ export const baseBooksApi: BaseBook[] = [
     releaseDate: '',
     description: '',
     countryOrigin: '',
+    selectDisplayOrder: 0,
   },
 
   {
@@ -1011,6 +1082,7 @@ export const baseBooksApi: BaseBook[] = [
     releaseDate: '',
     description: '',
     countryOrigin: '',
+    selectDisplayOrder: 0,
   },
 
   {
@@ -1025,6 +1097,7 @@ export const baseBooksApi: BaseBook[] = [
     releaseDate: '',
     description: '',
     countryOrigin: '',
+    selectDisplayOrder: 0,
   },
 
   {
@@ -1039,6 +1112,7 @@ export const baseBooksApi: BaseBook[] = [
     releaseDate: '',
     description: '',
     countryOrigin: '',
+    selectDisplayOrder: 0,
   },
 
   {
@@ -1053,6 +1127,7 @@ export const baseBooksApi: BaseBook[] = [
     releaseDate: '',
     description: '',
     countryOrigin: '',
+    selectDisplayOrder: 0,
   },
 
   {
@@ -1067,6 +1142,7 @@ export const baseBooksApi: BaseBook[] = [
     releaseDate: '',
     description: '',
     countryOrigin: '',
+    selectDisplayOrder: 0,
   },
 
   {
@@ -1081,6 +1157,7 @@ export const baseBooksApi: BaseBook[] = [
     releaseDate: '',
     description: '',
     countryOrigin: '',
+    selectDisplayOrder: 0,
   },
 
   {
@@ -1095,6 +1172,7 @@ export const baseBooksApi: BaseBook[] = [
     releaseDate: '',
     description: '',
     countryOrigin: '',
+    selectDisplayOrder: 0,
   },
 
   {
@@ -1109,6 +1187,7 @@ export const baseBooksApi: BaseBook[] = [
     releaseDate: '',
     description: '',
     countryOrigin: '',
+    selectDisplayOrder: 0,
   },
 
   {
@@ -1123,6 +1202,7 @@ export const baseBooksApi: BaseBook[] = [
     releaseDate: '',
     description: '',
     countryOrigin: '',
+    selectDisplayOrder: 0,
   },
 
   {
@@ -1137,6 +1217,7 @@ export const baseBooksApi: BaseBook[] = [
     releaseDate: '',
     description: '',
     countryOrigin: '',
+    selectDisplayOrder: 0,
   },
 
   {
@@ -1151,6 +1232,7 @@ export const baseBooksApi: BaseBook[] = [
     releaseDate: '',
     description: '',
     countryOrigin: '',
+    selectDisplayOrder: 0,
   },
 
   {
@@ -1165,6 +1247,7 @@ export const baseBooksApi: BaseBook[] = [
     releaseDate: '',
     description: '',
     countryOrigin: '',
+    selectDisplayOrder: 0,
   },
 
   {
@@ -1179,6 +1262,7 @@ export const baseBooksApi: BaseBook[] = [
     releaseDate: '',
     description: '',
     countryOrigin: '',
+    selectDisplayOrder: 0,
   },
 
   {
@@ -1193,6 +1277,7 @@ export const baseBooksApi: BaseBook[] = [
     releaseDate: '',
     description: '',
     countryOrigin: '',
+    selectDisplayOrder: 0,
   },
 
   {
@@ -1207,6 +1292,7 @@ export const baseBooksApi: BaseBook[] = [
     releaseDate: '',
     description: '',
     countryOrigin: '',
+    selectDisplayOrder: 0,
   },
 
   {
@@ -1221,6 +1307,7 @@ export const baseBooksApi: BaseBook[] = [
     releaseDate: '',
     description: '',
     countryOrigin: '',
+    selectDisplayOrder: 0,
   },
 
   {
@@ -1235,6 +1322,7 @@ export const baseBooksApi: BaseBook[] = [
     releaseDate: '',
     description: '',
     countryOrigin: '',
+    selectDisplayOrder: 0,
   },
 
   {
@@ -1249,6 +1337,7 @@ export const baseBooksApi: BaseBook[] = [
     releaseDate: '',
     description: '',
     countryOrigin: '',
+    selectDisplayOrder: 0,
   },
 
   {
@@ -1263,6 +1352,7 @@ export const baseBooksApi: BaseBook[] = [
     releaseDate: '',
     description: '',
     countryOrigin: '',
+    selectDisplayOrder: 0,
   },
 
   {
@@ -1277,6 +1367,7 @@ export const baseBooksApi: BaseBook[] = [
     releaseDate: '',
     description: '',
     countryOrigin: '',
+    selectDisplayOrder: 0,
   },
 
   {
@@ -1291,6 +1382,7 @@ export const baseBooksApi: BaseBook[] = [
     releaseDate: '',
     description: '',
     countryOrigin: '',
+    selectDisplayOrder: 0,
   },
 
   {
@@ -1305,6 +1397,7 @@ export const baseBooksApi: BaseBook[] = [
     releaseDate: '',
     description: '',
     countryOrigin: '',
+    selectDisplayOrder: 0,
   },
 
   {
@@ -1319,6 +1412,7 @@ export const baseBooksApi: BaseBook[] = [
     releaseDate: '',
     description: '',
     countryOrigin: '',
+    selectDisplayOrder: 0,
   },
 
   {
@@ -1333,6 +1427,7 @@ export const baseBooksApi: BaseBook[] = [
     releaseDate: '',
     description: '',
     countryOrigin: '',
+    selectDisplayOrder: 0,
   },
 
   {
@@ -1347,6 +1442,7 @@ export const baseBooksApi: BaseBook[] = [
     releaseDate: '',
     description: '',
     countryOrigin: '',
+    selectDisplayOrder: 0,
   },
 
   {
@@ -1361,6 +1457,7 @@ export const baseBooksApi: BaseBook[] = [
     releaseDate: '',
     description: '',
     countryOrigin: '',
+    selectDisplayOrder: 0,
   },
 
   {
@@ -1375,6 +1472,7 @@ export const baseBooksApi: BaseBook[] = [
     releaseDate: '',
     description: '',
     countryOrigin: '',
+    selectDisplayOrder: 0,
   },
 
   {
@@ -1389,6 +1487,7 @@ export const baseBooksApi: BaseBook[] = [
     releaseDate: '',
     description: '',
     countryOrigin: '',
+    selectDisplayOrder: 0,
   },
 
   {
@@ -1403,6 +1502,7 @@ export const baseBooksApi: BaseBook[] = [
     releaseDate: '',
     description: '',
     countryOrigin: '',
+    selectDisplayOrder: 0,
   },
 
   {
@@ -1418,6 +1518,7 @@ export const baseBooksApi: BaseBook[] = [
     releaseDate: '',
     description: '',
     countryOrigin: '',
+    selectDisplayOrder: 0,
   },
 
   {
@@ -1432,6 +1533,7 @@ export const baseBooksApi: BaseBook[] = [
     releaseDate: '',
     description: '',
     countryOrigin: '',
+    selectDisplayOrder: 0,
   },
 
   {
@@ -1446,6 +1548,7 @@ export const baseBooksApi: BaseBook[] = [
     releaseDate: '',
     description: '',
     countryOrigin: '',
+    selectDisplayOrder: 0,
   },
 
   {
@@ -1460,6 +1563,7 @@ export const baseBooksApi: BaseBook[] = [
     releaseDate: '',
     description: '',
     countryOrigin: '',
+    selectDisplayOrder: 0,
   },
 
   {
@@ -1474,6 +1578,7 @@ export const baseBooksApi: BaseBook[] = [
     releaseDate: '',
     description: '',
     countryOrigin: '',
+    selectDisplayOrder: 0,
   },
 
   {
@@ -1488,6 +1593,7 @@ export const baseBooksApi: BaseBook[] = [
     releaseDate: '',
     description: '',
     countryOrigin: '',
+    selectDisplayOrder: 0,
   },
 
   {
@@ -1502,6 +1608,7 @@ export const baseBooksApi: BaseBook[] = [
     releaseDate: '',
     description: '',
     countryOrigin: '',
+    selectDisplayOrder: 0,
   },
 
   {
@@ -1516,6 +1623,7 @@ export const baseBooksApi: BaseBook[] = [
     releaseDate: '',
     description: '',
     countryOrigin: '',
+    selectDisplayOrder: 0,
   },
 
   {
@@ -1530,6 +1638,7 @@ export const baseBooksApi: BaseBook[] = [
     releaseDate: '',
     description: '',
     countryOrigin: '',
+    selectDisplayOrder: 0,
   },
 
   {
@@ -1544,6 +1653,7 @@ export const baseBooksApi: BaseBook[] = [
     releaseDate: '',
     description: '',
     countryOrigin: '',
+    selectDisplayOrder: 0,
   },
 
   {
@@ -1558,6 +1668,7 @@ export const baseBooksApi: BaseBook[] = [
     releaseDate: '',
     description: '',
     countryOrigin: '',
+    selectDisplayOrder: 0,
   },
 
   {
@@ -1572,6 +1683,7 @@ export const baseBooksApi: BaseBook[] = [
     releaseDate: '',
     description: '',
     countryOrigin: '',
+    selectDisplayOrder: 0,
   },
 
   {
@@ -1586,6 +1698,7 @@ export const baseBooksApi: BaseBook[] = [
     releaseDate: '',
     description: '',
     countryOrigin: '',
+    selectDisplayOrder: 0,
   },
 
   {
@@ -1600,6 +1713,7 @@ export const baseBooksApi: BaseBook[] = [
     releaseDate: '',
     description: '',
     countryOrigin: '',
+    selectDisplayOrder: 0,
   },
 
   {
@@ -1614,6 +1728,7 @@ export const baseBooksApi: BaseBook[] = [
     releaseDate: '',
     description: '',
     countryOrigin: '',
+    selectDisplayOrder: 0,
   },
 
   {
@@ -1628,6 +1743,7 @@ export const baseBooksApi: BaseBook[] = [
     releaseDate: '',
     description: '',
     countryOrigin: '',
+    selectDisplayOrder: 0,
   },
 
   {
@@ -1642,6 +1758,7 @@ export const baseBooksApi: BaseBook[] = [
     releaseDate: '',
     description: '',
     countryOrigin: '',
+    selectDisplayOrder: 0,
   },
 
   {
@@ -1656,6 +1773,7 @@ export const baseBooksApi: BaseBook[] = [
     releaseDate: '',
     description: '',
     countryOrigin: '',
+    selectDisplayOrder: 0,
   },
 
   {
@@ -1670,6 +1788,7 @@ export const baseBooksApi: BaseBook[] = [
     releaseDate: '',
     description: '',
     countryOrigin: '',
+    selectDisplayOrder: 0,
   },
 
   {
@@ -1684,6 +1803,7 @@ export const baseBooksApi: BaseBook[] = [
     releaseDate: '',
     description: '',
     countryOrigin: '',
+    selectDisplayOrder: 0,
   },
 
   {
@@ -1698,6 +1818,7 @@ export const baseBooksApi: BaseBook[] = [
     releaseDate: '',
     description: '',
     countryOrigin: '',
+    selectDisplayOrder: 0,
   },
 
   {
@@ -1712,6 +1833,7 @@ export const baseBooksApi: BaseBook[] = [
     releaseDate: '',
     description: '',
     countryOrigin: '',
+    selectDisplayOrder: 0,
   },
 
   {
@@ -1726,6 +1848,7 @@ export const baseBooksApi: BaseBook[] = [
     releaseDate: '',
     description: '',
     countryOrigin: '',
+    selectDisplayOrder: 0,
   },
 
   {
@@ -1740,6 +1863,7 @@ export const baseBooksApi: BaseBook[] = [
     releaseDate: '',
     description: '',
     countryOrigin: '',
+    selectDisplayOrder: 0,
   },
 
   {
@@ -1754,6 +1878,7 @@ export const baseBooksApi: BaseBook[] = [
     releaseDate: '',
     description: '',
     countryOrigin: '',
+    selectDisplayOrder: 0,
   },
 
   {
@@ -1768,12 +1893,13 @@ export const baseBooksApi: BaseBook[] = [
     releaseDate: '',
     description: '',
     countryOrigin: '',
+    selectDisplayOrder: 0,
   },
 
   {
     title: "La Guilde des Magiciens",
     author: "Trudi Canavan",
-    coverUrl: "https://images.noosfere.org/couv/f/floisirs03892-2010.jpg",
+    coverUrl: "/books_pictures/4245b1e53e50.jpg",
     pages: 392,
     genre: [],
     saga: "La Trilogie du Magicien Noir",
@@ -1782,5 +1908,6 @@ export const baseBooksApi: BaseBook[] = [
     releaseDate: "2001-10-24",
     description: "",
     countryOrigin: "Australie",
+    selectDisplayOrder: 0,
   },
 ];

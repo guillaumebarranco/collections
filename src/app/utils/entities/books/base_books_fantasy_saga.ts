@@ -14,6 +14,7 @@ export const baseBooksFantasySaga: BaseBook[] = [
     releaseDate: '2019-01-01',
     description: '',
     countryOrigin: 'France',
+    selectDisplayOrder: 10,
   },
   {
     title: "Les Enfants d'Aliel - Le cheval de feu",
@@ -28,6 +29,7 @@ export const baseBooksFantasySaga: BaseBook[] = [
     releaseDate: '2020-01-01',
     description: '',
     countryOrigin: 'France',
+    selectDisplayOrder: 10,
   },
   {
     title: "Les Enfants d'Aliel - Mâchoires d'écume",
@@ -42,6 +44,7 @@ export const baseBooksFantasySaga: BaseBook[] = [
     releaseDate: '2021-01-01',
     description: '',
     countryOrigin: 'France',
+    selectDisplayOrder: 10,
   },
   {
     title: "Les Enfants d'Aliel - Le porteur d'espoir",
@@ -56,6 +59,7 @@ export const baseBooksFantasySaga: BaseBook[] = [
     releaseDate: '2022-01-01',
     description: '',
     countryOrigin: 'France',
+    selectDisplayOrder: 10,
   },
   {
     title: "Les Enfants d'Aliel - Ciel de cendres",
@@ -70,6 +74,7 @@ export const baseBooksFantasySaga: BaseBook[] = [
     releaseDate: '2023-01-01',
     description: '',
     countryOrigin: 'France',
+    selectDisplayOrder: 10,
   },
   {
     title: "D'un monde à l'autre",
@@ -84,6 +89,7 @@ export const baseBooksFantasySaga: BaseBook[] = [
     releaseDate: '2003-01-01',
     description: '',
     countryOrigin: 'France',
+    selectDisplayOrder: 20,
   },
   {
     title: 'Les frontières de glace',
@@ -98,6 +104,7 @@ export const baseBooksFantasySaga: BaseBook[] = [
     releaseDate: '2004-01-01',
     description: '',
     countryOrigin: 'France',
+    selectDisplayOrder: 20,
   },
   {
     title: "L'île du destin",
@@ -112,6 +119,7 @@ export const baseBooksFantasySaga: BaseBook[] = [
     releaseDate: '2005-01-01',
     description: '',
     countryOrigin: 'France',
+    selectDisplayOrder: 20,
   },
   {
     title: 'La Forêt des captifs',
@@ -126,6 +134,7 @@ export const baseBooksFantasySaga: BaseBook[] = [
     releaseDate: '2006-01-01',
     description: '',
     countryOrigin: 'France',
+    selectDisplayOrder: 20,
   },
   {
     title: "L'Œil d'Otolep",
@@ -140,6 +149,7 @@ export const baseBooksFantasySaga: BaseBook[] = [
     releaseDate: '2007-01-01',
     description: '',
     countryOrigin: 'France',
+    selectDisplayOrder: 20,
   },
   {
     title: 'Les Tentacules du mal',
@@ -154,6 +164,7 @@ export const baseBooksFantasySaga: BaseBook[] = [
     releaseDate: '2008-01-01',
     description: '',
     countryOrigin: 'France',
+    selectDisplayOrder: 20,
   },
   {
     title: 'Ellana',
@@ -168,6 +179,7 @@ export const baseBooksFantasySaga: BaseBook[] = [
     releaseDate: '2006-01-01',
     description: '',
     countryOrigin: 'France',
+    selectDisplayOrder: 20,
   },
   {
     title: "Ellana, l'Envol",
@@ -182,6 +194,7 @@ export const baseBooksFantasySaga: BaseBook[] = [
     releaseDate: '2007-01-01',
     description: '',
     countryOrigin: 'France',
+    selectDisplayOrder: 20,
   },
   {
     title: 'Ellana, la Prophétie',
@@ -196,6 +209,7 @@ export const baseBooksFantasySaga: BaseBook[] = [
     releaseDate: '2008-01-01',
     description: '',
     countryOrigin: 'France',
+    selectDisplayOrder: 20,
   },
   {
     title: 'Les sortceliers',
@@ -210,6 +224,7 @@ export const baseBooksFantasySaga: BaseBook[] = [
     releaseDate: '2003-01-01',
     description: '',
     countryOrigin: 'France',
+    selectDisplayOrder: 15,
   },
   {
     title: 'Le livre interdit',
@@ -224,6 +239,7 @@ export const baseBooksFantasySaga: BaseBook[] = [
     releaseDate: '2004-01-01',
     description: '',
     countryOrigin: 'France',
+    selectDisplayOrder: 15,
   },
   {
     title: 'Le sceptre maudit',
@@ -238,6 +254,7 @@ export const baseBooksFantasySaga: BaseBook[] = [
     releaseDate: '2005-01-01',
     description: '',
     countryOrigin: 'France',
+    selectDisplayOrder: 15,
   },
   {
     title: 'Le dragon renégat',
@@ -252,6 +269,7 @@ export const baseBooksFantasySaga: BaseBook[] = [
     releaseDate: '2006-01-01',
     description: '',
     countryOrigin: 'France',
+    selectDisplayOrder: 15,
   },
   {
     title: 'Le continent interdit',
@@ -266,6 +284,7 @@ export const baseBooksFantasySaga: BaseBook[] = [
     releaseDate: '2007-01-01',
     description: '',
     countryOrigin: 'France',
+    selectDisplayOrder: 15,
   },
   {
     title: 'Dans le piège de Magister',
@@ -280,6 +299,7 @@ export const baseBooksFantasySaga: BaseBook[] = [
     releaseDate: '2008-01-01',
     description: '',
     countryOrigin: 'France',
+    selectDisplayOrder: 15,
   },
   {
     title: "Tara Duncan et l'invasion fantôme",
@@ -294,6 +314,7 @@ export const baseBooksFantasySaga: BaseBook[] = [
     releaseDate: '2009-01-01',
     description: '',
     countryOrigin: 'France',
+    selectDisplayOrder: 15,
   },
   {
     title: "L'impératrice maléfique",
@@ -308,6 +329,7 @@ export const baseBooksFantasySaga: BaseBook[] = [
     releaseDate: '2010-01-01',
     description: '',
     countryOrigin: 'France',
+    selectDisplayOrder: 15,
   },
   {
     title: 'Tara Duncan contre la reine noire',
@@ -322,6 +344,7 @@ export const baseBooksFantasySaga: BaseBook[] = [
     releaseDate: '2011-01-01',
     description: '',
     countryOrigin: 'France',
+    selectDisplayOrder: 15,
   },
   {
     title: 'Dragons contre Démons',
@@ -336,6 +359,7 @@ export const baseBooksFantasySaga: BaseBook[] = [
     releaseDate: '2012-01-01',
     description: '',
     countryOrigin: 'France',
+    selectDisplayOrder: 15,
   },
   {
     title: 'La Guerre des planètes',
@@ -350,6 +374,7 @@ export const baseBooksFantasySaga: BaseBook[] = [
     releaseDate: '2013-01-01',
     description: '',
     countryOrigin: 'France',
+    selectDisplayOrder: 15,
   },
   {
     title: "L'Ultime Combat",
@@ -364,6 +389,7 @@ export const baseBooksFantasySaga: BaseBook[] = [
     releaseDate: '2014-01-01',
     description: '',
     countryOrigin: 'France',
+    selectDisplayOrder: 15,
   },
   {
     title: 'Tara et Cal',
@@ -378,6 +404,7 @@ export const baseBooksFantasySaga: BaseBook[] = [
     releaseDate: '2015-01-01',
     description: '',
     countryOrigin: 'France',
+    selectDisplayOrder: 15,
   },
   {
     title: "Le Trône de fer, L'Intégrale Tome 1",
@@ -392,6 +419,7 @@ export const baseBooksFantasySaga: BaseBook[] = [
     releaseDate: '1996-08-01',
     description: '',
     countryOrigin: 'États-Unis',
+    selectDisplayOrder: 20,
   },
   {
     title: "Le Trône de fer, L'Intégrale Tome 2",
@@ -406,6 +434,7 @@ export const baseBooksFantasySaga: BaseBook[] = [
     releaseDate: '1998-11-16',
     description: '',
     countryOrigin: 'États-Unis',
+    selectDisplayOrder: 20,
   },
   {
     title: "Le Trône de fer, L'Intégrale Tome 3",
@@ -420,6 +449,7 @@ export const baseBooksFantasySaga: BaseBook[] = [
     releaseDate: '2000-08-08',
     description: '',
     countryOrigin: 'États-Unis',
+    selectDisplayOrder: 20,
   },
   {
     title: "Le Trône de fer, L'Intégrale Tome 4",
@@ -433,6 +463,7 @@ export const baseBooksFantasySaga: BaseBook[] = [
     releaseDate: '2005-11-08',
     description: '',
     countryOrigin: 'États-Unis',
+    selectDisplayOrder: 20,
   },
   {
     title: "Le Trône de fer, L'Intégrale Tome 5",
@@ -446,6 +477,7 @@ export const baseBooksFantasySaga: BaseBook[] = [
     releaseDate: '2011-07-12',
     description: '',
     countryOrigin: 'États-Unis',
+    selectDisplayOrder: 20,
   },
   {
     title: "La Communauté de l'Anneau",
@@ -459,6 +491,7 @@ export const baseBooksFantasySaga: BaseBook[] = [
     releaseDate: '1954-07-29',
     description: '',
     countryOrigin: 'Royaume-Uni',
+    selectDisplayOrder: 25,
   },
   {
     title: 'Les deux tours',
@@ -472,6 +505,7 @@ export const baseBooksFantasySaga: BaseBook[] = [
     releaseDate: '1954-11-11',
     description: '',
     countryOrigin: 'Royaume-Uni',
+    selectDisplayOrder: 25,
   },
   {
     title: 'Le retour du roi',
@@ -485,6 +519,7 @@ export const baseBooksFantasySaga: BaseBook[] = [
     releaseDate: '1955-10-20',
     description: '',
     countryOrigin: 'Royaume-Uni',
+    selectDisplayOrder: 25,
   },
   {
     title: 'Le Silmarillon',
@@ -498,6 +533,7 @@ export const baseBooksFantasySaga: BaseBook[] = [
     releaseDate: '1977-09-15',
     description: '',
     countryOrigin: 'Royaume-Uni',
+    selectDisplayOrder: 25,
   },
   {
     title: 'Bilbo le Hobbit',
@@ -511,6 +547,7 @@ export const baseBooksFantasySaga: BaseBook[] = [
     releaseDate: '1937-09-21',
     description: '',
     countryOrigin: 'Royaume-Uni',
+    selectDisplayOrder: 25,
   },
   {
     title: 'Le Monde de Narnia (Tome 1) Le Neveu du Magicien',
@@ -524,6 +561,7 @@ export const baseBooksFantasySaga: BaseBook[] = [
     releaseDate: '1955-05-02',
     description: '',
     countryOrigin: 'États-Unis',
+    selectDisplayOrder: 15,
   },
   {
     title:
@@ -538,6 +576,7 @@ export const baseBooksFantasySaga: BaseBook[] = [
     releaseDate: '1950-10-16',
     description: '',
     countryOrigin: 'États-Unis',
+    selectDisplayOrder: 15,
   },
   {
     title: 'Le Monde de Narnia (Tome 3) Le Cheval et son Ecuyer',
@@ -551,6 +590,7 @@ export const baseBooksFantasySaga: BaseBook[] = [
     releaseDate: '1954-09-06',
     description: '',
     countryOrigin: 'Royaume-Uni',
+    selectDisplayOrder: 15,
   },
   {
     title: 'Le Monde de Narnia (Tome 4) Le Prince Caspian',
@@ -564,6 +604,7 @@ export const baseBooksFantasySaga: BaseBook[] = [
     releaseDate: '1951-10-15',
     description: '',
     countryOrigin: 'Royaume-Uni',
+    selectDisplayOrder: 15,
   },
   {
     title: "Le Monde de Narnia (Tome 5) L'Odyssée du Passeur d'Aurore",
@@ -577,6 +618,7 @@ export const baseBooksFantasySaga: BaseBook[] = [
     releaseDate: '1952-09-15',
     description: '',
     countryOrigin: 'Royaume-Uni',
+    selectDisplayOrder: 15,
   },
   {
     title: "Le Monde de Narnia (Tome 6) Le Fauteuil d'Argent",
@@ -590,12 +632,12 @@ export const baseBooksFantasySaga: BaseBook[] = [
     releaseDate: '1953-09-07',
     description: '',
     countryOrigin: 'Royaume-Uni',
+    selectDisplayOrder: 15,
   },
   {
     title: 'Le Monde de Narnia (Tome 7) La Dernière Bataille',
     author: 'C. S. Lewis',
-    coverUrl:
-      '/books_pictures/d38aa685ed3b.png',
+    coverUrl: '/books_pictures/d38aa685ed3b.png',
     pages: 224,
     genre: ['Fantasy'],
     saga: 'Le Monde de Narnia',
@@ -604,6 +646,7 @@ export const baseBooksFantasySaga: BaseBook[] = [
     releaseDate: '1956-09-04',
     description: '',
     countryOrigin: 'Royaume-Uni',
+    selectDisplayOrder: 15,
   },
   {
     title: 'Le Voleur de foudre',
@@ -618,6 +661,7 @@ export const baseBooksFantasySaga: BaseBook[] = [
     releaseDate: '2005-06-28',
     description: '',
     countryOrigin: 'États-Unis',
+    selectDisplayOrder: 20,
   },
   {
     title: 'La Mer des monstres',
@@ -632,6 +676,7 @@ export const baseBooksFantasySaga: BaseBook[] = [
     releaseDate: '2006-04-01',
     description: '',
     countryOrigin: 'États-Unis',
+    selectDisplayOrder: 20,
   },
   {
     title: 'Le Sort du titan',
@@ -646,6 +691,7 @@ export const baseBooksFantasySaga: BaseBook[] = [
     releaseDate: '2007-05-01',
     description: '',
     countryOrigin: 'États-Unis',
+    selectDisplayOrder: 20,
   },
   {
     title: 'La Bataille du labyrinthe',
@@ -660,6 +706,7 @@ export const baseBooksFantasySaga: BaseBook[] = [
     releaseDate: '2008-05-06',
     description: '',
     countryOrigin: 'États-Unis',
+    selectDisplayOrder: 20,
   },
   {
     title: 'Le Dernier Olympien',
@@ -674,6 +721,7 @@ export const baseBooksFantasySaga: BaseBook[] = [
     releaseDate: '2009-05-05',
     description: '',
     countryOrigin: 'États-Unis',
+    selectDisplayOrder: 20,
   },
   {
     title: 'Le Calice des dieux',
@@ -688,71 +736,77 @@ export const baseBooksFantasySaga: BaseBook[] = [
     releaseDate: '2023-09-26',
     description: '',
     countryOrigin: 'États-Unis',
+    selectDisplayOrder: 20,
   },
   {
     title: "Héros de l'Olympe, Tome 1 : Le Héros perdu",
     author: 'Rick Riordan',
-    coverUrl: "/books_pictures/81pjV-scHpL._AC_UF1000,1000_QL80_.jpg",
+    coverUrl: '/books_pictures/81pjV-scHpL._AC_UF1000,1000_QL80_.jpg',
     pages: 580,
     genre: ['Fantasy'],
     saga: "Héros de l'Olympe",
     sagaOrder: 1,
     sagaFinished: false,
-    releaseDate: "2010-10-12",
-    description: "",
-    countryOrigin: "États-Unis",
+    releaseDate: '2010-10-12',
+    description: '',
+    countryOrigin: 'États-Unis',
+    selectDisplayOrder: 10,
   },
   {
     title: "Héros de l'Olympe, Tome 2 : Le Fils de Neptune",
     author: 'Rick Riordan',
-    coverUrl: "/books_pictures/91PxmWrS7yL._AC_UF1000,1000_QL80_.jpg",
+    coverUrl: '/books_pictures/91PxmWrS7yL._AC_UF1000,1000_QL80_.jpg',
     pages: 540,
     genre: ['Fantasy'],
     saga: "Héros de l'Olympe",
     sagaOrder: 2,
     sagaFinished: false,
-    releaseDate: "2011-10-04",
-    description: "",
-    countryOrigin: "États-Unis",
+    releaseDate: '2011-10-04',
+    description: '',
+    countryOrigin: 'États-Unis',
+    selectDisplayOrder: 10,
   },
   {
     title: "Héros de l'Olympe, Tome 3 : La Marque d'Athena",
     author: 'Rick Riordan',
-    coverUrl: "/books_pictures/91TfZ+Y1CyL._AC_UF1000,1000_QL80_.jpg",
+    coverUrl: '/books_pictures/91TfZ+Y1CyL._AC_UF1000,1000_QL80_.jpg',
     pages: 600,
     genre: ['Fantasy'],
     saga: "Héros de l'Olympe",
     sagaOrder: 3,
     sagaFinished: false,
-    releaseDate: "2012-10-02",
-    description: "",
-    countryOrigin: "États-Unis",
+    releaseDate: '2012-10-02',
+    description: '',
+    countryOrigin: 'États-Unis',
+    selectDisplayOrder: 10,
   },
   {
     title: "Héros de l'Olympe, Tome 4 : La Maison d'Hadès",
     author: 'Rick Riordan',
-    coverUrl: "/books_pictures/81rq9zjC08L.jpg",
+    coverUrl: '/books_pictures/81rq9zjC08L.jpg',
     pages: 588,
     genre: ['Fantasy'],
     saga: "Héros de l'Olympe",
     sagaOrder: 4,
     sagaFinished: true,
-    releaseDate: "2013-10-08",
-    description: "",
-    countryOrigin: "États-Unis",
+    releaseDate: '2013-10-08',
+    description: '',
+    countryOrigin: 'États-Unis',
+    selectDisplayOrder: 10,
   },
   {
     title: "Héros de l'Olympe, Tome 5 : Le Sang de l'Olympe",
     author: 'Rick Riordan',
-    coverUrl: "/books_pictures/91QfZrtBilL._AC_UF1000,1000_QL80_.jpg",
+    coverUrl: '/books_pictures/91QfZrtBilL._AC_UF1000,1000_QL80_.jpg',
     pages: 576,
     genre: ['Fantasy'],
     saga: "Héros de l'Olympe",
     sagaOrder: 5,
     sagaFinished: true,
-    releaseDate: "2014-10-07",
-    description: "",
-    countryOrigin: "États-Unis",
+    releaseDate: '2014-10-07',
+    description: '',
+    countryOrigin: 'États-Unis',
+    selectDisplayOrder: 10,
   },
   {
     title: 'Arthur et la cité interdite (Arthur et les Minimoys, #2)',
@@ -766,6 +820,7 @@ export const baseBooksFantasySaga: BaseBook[] = [
     releaseDate: '2003-01-01',
     description: '',
     countryOrigin: 'États-Unis',
+    selectDisplayOrder: 5,
   },
   {
     title: 'Arthur et la vengeance de Maltazard (Arthur et les Minimoys, #3)',
@@ -780,6 +835,7 @@ export const baseBooksFantasySaga: BaseBook[] = [
     releaseDate: '2004-01-01',
     description: '',
     countryOrigin: 'États-Unis',
+    selectDisplayOrder: 5,
   },
   {
     title: 'Arthur et la guerre des deux mondes (Arthur et les Minimoys, #4)',
@@ -793,6 +849,7 @@ export const baseBooksFantasySaga: BaseBook[] = [
     releaseDate: '2005-01-01',
     description: '',
     countryOrigin: 'États-Unis',
+    selectDisplayOrder: 5,
   },
   {
     title: 'La Cour des ténèbres (Vampyria : le cycle de Jeanne, #1)',
@@ -806,6 +863,7 @@ export const baseBooksFantasySaga: BaseBook[] = [
     releaseDate: '2017-01-01',
     description: '',
     countryOrigin: 'États-Unis',
+    selectDisplayOrder: 5,
   },
   {
     title: 'La Cour des Miracles (Vampyria : le cycle de Jeanne, #2)',
@@ -820,6 +878,7 @@ export const baseBooksFantasySaga: BaseBook[] = [
     releaseDate: '2018-01-01',
     description: '',
     countryOrigin: 'États-Unis',
+    selectDisplayOrder: 5,
   },
   {
     title: 'La Cour des Ouragans (Vampyria : le cycle de Jeanne, #3)',
@@ -834,6 +893,7 @@ export const baseBooksFantasySaga: BaseBook[] = [
     releaseDate: '2019-01-01',
     description: '',
     countryOrigin: 'États-Unis',
+    selectDisplayOrder: 5,
   },
   {
     title: 'Les Royaumes du Nord (À la croisée des mondes, #1)',
@@ -847,6 +907,7 @@ export const baseBooksFantasySaga: BaseBook[] = [
     releaseDate: '1995-01-01',
     description: '',
     countryOrigin: 'États-Unis',
+    selectDisplayOrder: 5,
   },
   {
     title: 'La Tour des anges (A la croisée des mondes, #2)',
@@ -860,6 +921,7 @@ export const baseBooksFantasySaga: BaseBook[] = [
     releaseDate: '1997-01-01',
     description: '',
     countryOrigin: 'États-Unis',
+    selectDisplayOrder: 5,
   },
   {
     title: "Le Miroir d'ambre (À la croisée des mondes, #3)",
@@ -873,6 +935,7 @@ export const baseBooksFantasySaga: BaseBook[] = [
     releaseDate: '2000-01-01',
     description: '',
     countryOrigin: 'États-Unis',
+    selectDisplayOrder: 5,
   },
   {
     title: 'The Last Wish (The Witcher, #0.5)',
@@ -886,6 +949,7 @@ export const baseBooksFantasySaga: BaseBook[] = [
     releaseDate: '1993-01-01',
     description: '',
     countryOrigin: 'États-Unis',
+    selectDisplayOrder: 15,
   },
   {
     title: 'Sword of Destiny (The Witcher, #0.7)',
@@ -899,6 +963,7 @@ export const baseBooksFantasySaga: BaseBook[] = [
     releaseDate: '1992-01-01',
     description: '',
     countryOrigin: 'États-Unis',
+    selectDisplayOrder: 15,
   },
   {
     title: 'Le dernier voeu (The Witcher, #1)',
@@ -912,6 +977,7 @@ export const baseBooksFantasySaga: BaseBook[] = [
     releaseDate: '1993-01-01',
     description: '',
     countryOrigin: 'États-Unis',
+    selectDisplayOrder: 15,
   },
   {
     title: "L'épée de la providence (The Witcher, #2)",
@@ -925,6 +991,7 @@ export const baseBooksFantasySaga: BaseBook[] = [
     releaseDate: '1992-01-01',
     description: '',
     countryOrigin: 'États-Unis',
+    selectDisplayOrder: 15,
   },
   {
     title: 'Le sang des elfes (The Witcher, #3)',
@@ -938,6 +1005,7 @@ export const baseBooksFantasySaga: BaseBook[] = [
     releaseDate: '1994-01-01',
     description: '',
     countryOrigin: 'États-Unis',
+    selectDisplayOrder: 15,
   },
   {
     title: 'Le temps du mépris (The Witcher, #4)',
@@ -951,6 +1019,7 @@ export const baseBooksFantasySaga: BaseBook[] = [
     releaseDate: '1995-01-01',
     description: '',
     countryOrigin: 'États-Unis',
+    selectDisplayOrder: 15,
   },
   {
     title: 'La Dame du lac (The Witcher, #7)',
@@ -964,6 +1033,7 @@ export const baseBooksFantasySaga: BaseBook[] = [
     releaseDate: '1999-01-01',
     description: '',
     countryOrigin: 'États-Unis',
+    selectDisplayOrder: 15,
   },
   {
     title: 'Eragon (Eragon, #1)',
@@ -977,6 +1047,7 @@ export const baseBooksFantasySaga: BaseBook[] = [
     releaseDate: '2003-08-26',
     description: '',
     countryOrigin: 'États-Unis',
+    selectDisplayOrder: 20,
   },
   {
     title: "L'aîné (Eragon, #2)",
@@ -990,6 +1061,7 @@ export const baseBooksFantasySaga: BaseBook[] = [
     releaseDate: '2005-08-23',
     description: '',
     countryOrigin: 'États-Unis',
+    selectDisplayOrder: 20,
   },
   {
     title: 'Brisingr (Eragon, #3)',
@@ -1003,6 +1075,7 @@ export const baseBooksFantasySaga: BaseBook[] = [
     releaseDate: '2008-09-20',
     description: '',
     countryOrigin: 'États-Unis',
+    selectDisplayOrder: 20,
   },
   {
     title: "L'héritage (Eragon, #4)",
@@ -1016,6 +1089,7 @@ export const baseBooksFantasySaga: BaseBook[] = [
     releaseDate: '2011-11-08',
     description: '',
     countryOrigin: 'États-Unis',
+    selectDisplayOrder: 20,
   },
   {
     title: "L'Apprenti Assassin",
@@ -1029,6 +1103,7 @@ export const baseBooksFantasySaga: BaseBook[] = [
     releaseDate: '',
     description: '',
     countryOrigin: 'États-Unis',
+    selectDisplayOrder: 15,
   },
   {
     title: "L'Assassin du Roi",
@@ -1042,6 +1117,7 @@ export const baseBooksFantasySaga: BaseBook[] = [
     releaseDate: '',
     description: '',
     countryOrigin: 'États-Unis',
+    selectDisplayOrder: 15,
   },
   {
     title: 'La Nef du Crépuscule',
@@ -1055,6 +1131,7 @@ export const baseBooksFantasySaga: BaseBook[] = [
     releaseDate: '',
     description: '',
     countryOrigin: 'États-Unis',
+    selectDisplayOrder: 15,
   },
   {
     title: 'Le Poison de la Vengeance',
@@ -1068,6 +1145,7 @@ export const baseBooksFantasySaga: BaseBook[] = [
     releaseDate: '',
     description: '',
     countryOrigin: 'États-Unis',
+    selectDisplayOrder: 15,
   },
   {
     title: 'La Voie Magique',
@@ -1081,6 +1159,7 @@ export const baseBooksFantasySaga: BaseBook[] = [
     releaseDate: '',
     description: '',
     countryOrigin: 'États-Unis',
+    selectDisplayOrder: 15,
   },
   {
     title: 'La Reine Solitaire',
@@ -1094,6 +1173,7 @@ export const baseBooksFantasySaga: BaseBook[] = [
     releaseDate: '',
     description: '',
     countryOrigin: 'États-Unis',
+    selectDisplayOrder: 15,
   },
   {
     title: 'Le Prophète Blanc',
@@ -1107,6 +1187,7 @@ export const baseBooksFantasySaga: BaseBook[] = [
     releaseDate: '',
     description: '',
     countryOrigin: 'États-Unis',
+    selectDisplayOrder: 15,
   },
   {
     title: 'La Secte Maudite',
@@ -1120,6 +1201,7 @@ export const baseBooksFantasySaga: BaseBook[] = [
     releaseDate: '',
     description: '',
     countryOrigin: 'États-Unis',
+    selectDisplayOrder: 15,
   },
   {
     title: 'Les Secrets de Castelcerf',
@@ -1133,6 +1215,7 @@ export const baseBooksFantasySaga: BaseBook[] = [
     releaseDate: '',
     description: '',
     countryOrigin: 'États-Unis',
+    selectDisplayOrder: 15,
   },
   {
     title: 'Serments et Deuils',
@@ -1146,6 +1229,7 @@ export const baseBooksFantasySaga: BaseBook[] = [
     releaseDate: '',
     description: '',
     countryOrigin: 'États-Unis',
+    selectDisplayOrder: 15,
   },
   {
     title: 'Le Dragon des Glaces',
@@ -1159,6 +1243,7 @@ export const baseBooksFantasySaga: BaseBook[] = [
     releaseDate: '',
     description: '',
     countryOrigin: 'États-Unis',
+    selectDisplayOrder: 15,
   },
   {
     title: "L'Homme Noir",
@@ -1172,6 +1257,7 @@ export const baseBooksFantasySaga: BaseBook[] = [
     releaseDate: '',
     description: '',
     countryOrigin: 'États-Unis',
+    selectDisplayOrder: 15,
   },
   {
     title: 'Adieux et Retrouvailles',
@@ -1185,6 +1271,7 @@ export const baseBooksFantasySaga: BaseBook[] = [
     releaseDate: '',
     description: '',
     countryOrigin: 'États-Unis',
+    selectDisplayOrder: 15,
   },
   {
     title: "Le Fou et l'Assassin",
@@ -1198,6 +1285,7 @@ export const baseBooksFantasySaga: BaseBook[] = [
     releaseDate: '',
     description: '',
     countryOrigin: 'États-Unis',
+    selectDisplayOrder: 15,
   },
   {
     title: "La Fille de l'Assassin",
@@ -1211,6 +1299,7 @@ export const baseBooksFantasySaga: BaseBook[] = [
     releaseDate: '',
     description: '',
     countryOrigin: 'États-Unis',
+    selectDisplayOrder: 15,
   },
   {
     title: 'En Quête de Vengeance',
@@ -1224,6 +1313,7 @@ export const baseBooksFantasySaga: BaseBook[] = [
     releaseDate: '',
     description: '',
     countryOrigin: 'États-Unis',
+    selectDisplayOrder: 15,
   },
   {
     title: "Le Retour de l'Assassin",
@@ -1237,6 +1327,7 @@ export const baseBooksFantasySaga: BaseBook[] = [
     releaseDate: '',
     description: '',
     countryOrigin: 'États-Unis',
+    selectDisplayOrder: 15,
   },
   {
     title: "Sur les Rives de l'Art",
@@ -1250,6 +1341,7 @@ export const baseBooksFantasySaga: BaseBook[] = [
     releaseDate: '',
     description: '',
     countryOrigin: 'États-Unis',
+    selectDisplayOrder: 15,
   },
   {
     title: "Le Destin de l'Assassin",
@@ -1263,6 +1355,7 @@ export const baseBooksFantasySaga: BaseBook[] = [
     releaseDate: '',
     description: '',
     countryOrigin: 'États-Unis',
+    selectDisplayOrder: 15,
   },
   {
     title: 'Le prisme noir',
@@ -1276,6 +1369,7 @@ export const baseBooksFantasySaga: BaseBook[] = [
     releaseDate: '2008-10-01',
     description: '',
     countryOrigin: 'États-Unis',
+    selectDisplayOrder: 0,
   },
   {
     title: 'Le Couteau Aveuglant',
@@ -1290,6 +1384,7 @@ export const baseBooksFantasySaga: BaseBook[] = [
     releaseDate: '',
     description: '',
     countryOrigin: 'États-Unis',
+    selectDisplayOrder: 0,
   },
   {
     title: "L'Oeil Brisé",
@@ -1304,6 +1399,7 @@ export const baseBooksFantasySaga: BaseBook[] = [
     releaseDate: '',
     description: '',
     countryOrigin: 'États-Unis',
+    selectDisplayOrder: 0,
   },
   {
     title: 'Le Miroir de Sang',
@@ -1318,6 +1414,7 @@ export const baseBooksFantasySaga: BaseBook[] = [
     releaseDate: '',
     description: '',
     countryOrigin: 'États-Unis',
+    selectDisplayOrder: 0,
   },
   {
     title: 'Le Blanc Incandescent (1/2)',
@@ -1332,6 +1429,7 @@ export const baseBooksFantasySaga: BaseBook[] = [
     releaseDate: '',
     description: '',
     countryOrigin: 'États-Unis',
+    selectDisplayOrder: 0,
   },
   {
     title: 'Le Blanc Incandescent (2/2)',
@@ -1346,6 +1444,7 @@ export const baseBooksFantasySaga: BaseBook[] = [
     releaseDate: '',
     description: '',
     countryOrigin: 'États-Unis',
+    selectDisplayOrder: 0,
   },
   {
     title: "N'oublie Jamais",
@@ -1359,6 +1458,7 @@ export const baseBooksFantasySaga: BaseBook[] = [
     releaseDate: '',
     description: '',
     countryOrigin: 'États-Unis',
+    selectDisplayOrder: 0,
   },
   {
     title: 'Les Grands Jeux',
@@ -1372,6 +1472,7 @@ export const baseBooksFantasySaga: BaseBook[] = [
     releaseDate: '',
     description: '',
     countryOrigin: 'États-Unis',
+    selectDisplayOrder: 0,
   },
   {
     title: "L'Aube Obscure",
@@ -1385,6 +1486,7 @@ export const baseBooksFantasySaga: BaseBook[] = [
     releaseDate: '',
     description: '',
     countryOrigin: 'États-Unis',
+    selectDisplayOrder: 0,
   },
   {
     title: "L'Empire Ultime",
@@ -1398,6 +1500,7 @@ export const baseBooksFantasySaga: BaseBook[] = [
     releaseDate: '',
     description: '',
     countryOrigin: 'États-Unis',
+    selectDisplayOrder: 0,
   },
   {
     title: "Le puits de l'Ascension",
@@ -1412,6 +1515,7 @@ export const baseBooksFantasySaga: BaseBook[] = [
     releaseDate: '',
     description: '',
     countryOrigin: 'États-Unis',
+    selectDisplayOrder: 0,
   },
   {
     title: 'Le Héros des Siècles',
@@ -1425,6 +1529,7 @@ export const baseBooksFantasySaga: BaseBook[] = [
     releaseDate: '',
     description: '',
     countryOrigin: 'États-Unis',
+    selectDisplayOrder: 0,
   },
   {
     title: "L'Enfant de Poussière",
@@ -1438,6 +1543,7 @@ export const baseBooksFantasySaga: BaseBook[] = [
     releaseDate: '',
     description: '',
     countryOrigin: 'États-Unis',
+    selectDisplayOrder: 0,
   },
   {
     title: 'La Peste et la Vigne',
@@ -1451,6 +1557,7 @@ export const baseBooksFantasySaga: BaseBook[] = [
     releaseDate: '',
     description: '',
     countryOrigin: 'États-Unis',
+    selectDisplayOrder: 0,
   },
   {
     title: 'Les Chiens et la Charrue',
@@ -1464,6 +1571,7 @@ export const baseBooksFantasySaga: BaseBook[] = [
     releaseDate: '',
     description: '',
     countryOrigin: 'États-Unis',
+    selectDisplayOrder: 0,
   },
   {
     title: 'La Maison des Veilleurs',
@@ -1477,6 +1585,7 @@ export const baseBooksFantasySaga: BaseBook[] = [
     releaseDate: '',
     description: '',
     countryOrigin: 'États-Unis',
+    selectDisplayOrder: 0,
   },
   {
     title: 'La Sorcière Captive',
@@ -1490,6 +1599,7 @@ export const baseBooksFantasySaga: BaseBook[] = [
     releaseDate: '',
     description: '',
     countryOrigin: 'États-Unis',
+    selectDisplayOrder: 0,
   },
   {
     title: "L'Héritière Rebelle",
@@ -1503,6 +1613,7 @@ export const baseBooksFantasySaga: BaseBook[] = [
     releaseDate: '',
     description: '',
     countryOrigin: 'États-Unis',
+    selectDisplayOrder: 0,
   },
   {
     title: "L'Empire Libéré",
@@ -1516,6 +1627,7 @@ export const baseBooksFantasySaga: BaseBook[] = [
     releaseDate: '',
     description: '',
     countryOrigin: 'États-Unis',
+    selectDisplayOrder: 0,
   },
   {
     title: 'La Voie des Rois (1/2)',
@@ -1529,6 +1641,7 @@ export const baseBooksFantasySaga: BaseBook[] = [
     releaseDate: '',
     description: '',
     countryOrigin: 'États-Unis',
+    selectDisplayOrder: 0,
   },
   {
     title: 'La Voie des Rois (2/2)',
@@ -1542,6 +1655,7 @@ export const baseBooksFantasySaga: BaseBook[] = [
     releaseDate: '',
     description: '',
     countryOrigin: 'États-Unis',
+    selectDisplayOrder: 0,
   },
   {
     title: 'Le livre des Radieux (1/2)',
@@ -1555,6 +1669,7 @@ export const baseBooksFantasySaga: BaseBook[] = [
     releaseDate: '',
     description: '',
     countryOrigin: 'États-Unis',
+    selectDisplayOrder: 0,
   },
   {
     title: 'Le Livre des Radieux (2/2)',
@@ -1568,6 +1683,7 @@ export const baseBooksFantasySaga: BaseBook[] = [
     releaseDate: '',
     description: '',
     countryOrigin: 'États-Unis',
+    selectDisplayOrder: 0,
   },
   {
     title: 'Justicière (1/2)',
@@ -1581,6 +1697,7 @@ export const baseBooksFantasySaga: BaseBook[] = [
     releaseDate: '',
     description: '',
     countryOrigin: 'États-Unis',
+    selectDisplayOrder: 0,
   },
   {
     title: 'Justicière (2/2)',
@@ -1595,6 +1712,7 @@ export const baseBooksFantasySaga: BaseBook[] = [
     releaseDate: '',
     description: '',
     countryOrigin: 'États-Unis',
+    selectDisplayOrder: 0,
   },
   {
     title: 'Rythme de Guerre (1/2)',
@@ -1608,6 +1726,7 @@ export const baseBooksFantasySaga: BaseBook[] = [
     releaseDate: '',
     description: '',
     countryOrigin: 'États-Unis',
+    selectDisplayOrder: 0,
   },
   {
     title: 'Rythme de Guerre (2/2)',
@@ -1621,6 +1740,7 @@ export const baseBooksFantasySaga: BaseBook[] = [
     releaseDate: '',
     description: '',
     countryOrigin: 'États-Unis',
+    selectDisplayOrder: 0,
   },
   {
     title: 'Le Don de Mort',
@@ -1634,6 +1754,7 @@ export const baseBooksFantasySaga: BaseBook[] = [
     releaseDate: '',
     description: '',
     countryOrigin: 'États-Unis',
+    selectDisplayOrder: 0,
   },
   {
     title: 'La Grande Traque',
@@ -1647,6 +1768,7 @@ export const baseBooksFantasySaga: BaseBook[] = [
     releaseDate: '',
     description: '',
     countryOrigin: 'États-Unis',
+    selectDisplayOrder: 0,
   },
   {
     title: 'Le Don de Vie',
@@ -1660,6 +1782,7 @@ export const baseBooksFantasySaga: BaseBook[] = [
     releaseDate: '',
     description: '',
     countryOrigin: 'États-Unis',
+    selectDisplayOrder: 0,
   },
   {
     title: "L'Etoile de Feu",
@@ -1673,6 +1796,7 @@ export const baseBooksFantasySaga: BaseBook[] = [
     releaseDate: '',
     description: '',
     countryOrigin: 'États-Unis',
+    selectDisplayOrder: 0,
   },
   {
     title: 'La Guerre Céleste',
@@ -1686,6 +1810,7 @@ export const baseBooksFantasySaga: BaseBook[] = [
     releaseDate: '',
     description: '',
     countryOrigin: 'États-Unis',
+    selectDisplayOrder: 0,
   },
   {
     title: 'La Dixième Prophétie',
@@ -1699,6 +1824,7 @@ export const baseBooksFantasySaga: BaseBook[] = [
     releaseDate: '',
     description: '',
     countryOrigin: 'États-Unis',
+    selectDisplayOrder: 0,
   },
   {
     title: 'Les Jardins de la Lune',
@@ -1712,6 +1838,7 @@ export const baseBooksFantasySaga: BaseBook[] = [
     releaseDate: '',
     description: '',
     countryOrigin: 'États-Unis',
+    selectDisplayOrder: 0,
   },
   {
     title: 'Les Portes de la Maison des Morts',
@@ -1725,6 +1852,7 @@ export const baseBooksFantasySaga: BaseBook[] = [
     releaseDate: '',
     description: '',
     countryOrigin: 'États-Unis',
+    selectDisplayOrder: 0,
   },
   {
     title: 'Les Souvenirs de la Glace',
@@ -1738,6 +1866,7 @@ export const baseBooksFantasySaga: BaseBook[] = [
     releaseDate: '',
     description: '',
     countryOrigin: 'États-Unis',
+    selectDisplayOrder: 0,
   },
   {
     title: 'La Maison des Chaînes',
@@ -1751,6 +1880,7 @@ export const baseBooksFantasySaga: BaseBook[] = [
     releaseDate: '',
     description: '',
     countryOrigin: 'États-Unis',
+    selectDisplayOrder: 0,
   },
   {
     title: 'Les Marées de Minuit',
@@ -1764,6 +1894,7 @@ export const baseBooksFantasySaga: BaseBook[] = [
     releaseDate: '',
     description: '',
     countryOrigin: 'États-Unis',
+    selectDisplayOrder: 0,
   },
   {
     title: "L'Alliage de la Justice",
@@ -1777,6 +1908,7 @@ export const baseBooksFantasySaga: BaseBook[] = [
     releaseDate: '',
     description: '',
     countryOrigin: 'États-Unis',
+    selectDisplayOrder: 0,
   },
   {
     title: 'Jeux de Masques',
@@ -1790,6 +1922,7 @@ export const baseBooksFantasySaga: BaseBook[] = [
     releaseDate: '',
     description: '',
     countryOrigin: 'États-Unis',
+    selectDisplayOrder: 0,
   },
   {
     title: 'Les Bracelets des Larmes',
@@ -1803,6 +1936,7 @@ export const baseBooksFantasySaga: BaseBook[] = [
     releaseDate: '',
     description: '',
     countryOrigin: 'États-Unis',
+    selectDisplayOrder: 0,
   },
   {
     title: "Les Princes d'Ambre - Cycle 1",
@@ -1816,6 +1950,7 @@ export const baseBooksFantasySaga: BaseBook[] = [
     releaseDate: '',
     description: '',
     countryOrigin: 'États-Unis',
+    selectDisplayOrder: 0,
   },
   {
     title: 'Le Trône du Dragon',
@@ -1830,6 +1965,7 @@ export const baseBooksFantasySaga: BaseBook[] = [
     releaseDate: '',
     description: '',
     countryOrigin: 'États-Unis',
+    selectDisplayOrder: 0,
   },
   {
     title: "Le Roi de l'Orage",
@@ -1843,6 +1979,7 @@ export const baseBooksFantasySaga: BaseBook[] = [
     releaseDate: '',
     description: '',
     countryOrigin: 'États-Unis',
+    selectDisplayOrder: 0,
   },
   {
     title: "La Maison de l'Ancêtre",
@@ -1856,6 +1993,7 @@ export const baseBooksFantasySaga: BaseBook[] = [
     releaseDate: '',
     description: '',
     countryOrigin: 'États-Unis',
+    selectDisplayOrder: 0,
   },
   {
     title: "La Pierre de l'Adieu",
@@ -1869,6 +2007,7 @@ export const baseBooksFantasySaga: BaseBook[] = [
     releaseDate: '',
     description: '',
     countryOrigin: 'États-Unis',
+    selectDisplayOrder: 0,
   },
   {
     title: 'Le Livre du Nécromant',
@@ -1883,6 +2022,7 @@ export const baseBooksFantasySaga: BaseBook[] = [
     releaseDate: '',
     description: '',
     countryOrigin: 'États-Unis',
+    selectDisplayOrder: 0,
   },
   {
     title: 'Le Cri de Camaris',
@@ -1896,6 +2036,7 @@ export const baseBooksFantasySaga: BaseBook[] = [
     releaseDate: '',
     description: '',
     countryOrigin: 'États-Unis',
+    selectDisplayOrder: 0,
   },
   {
     title: "L'Ombre de la Roue",
@@ -1909,6 +2050,7 @@ export const baseBooksFantasySaga: BaseBook[] = [
     releaseDate: '',
     description: '',
     countryOrigin: 'États-Unis',
+    selectDisplayOrder: 0,
   },
   {
     title: "La Tour de l'Ange Vert",
@@ -1923,6 +2065,7 @@ export const baseBooksFantasySaga: BaseBook[] = [
     releaseDate: '',
     description: '',
     countryOrigin: 'États-Unis',
+    selectDisplayOrder: 0,
   },
   {
     title: 'Tuer la Reine',
@@ -1936,6 +2079,7 @@ export const baseBooksFantasySaga: BaseBook[] = [
     releaseDate: '',
     description: '',
     countryOrigin: 'États-Unis',
+    selectDisplayOrder: 0,
   },
   {
     title: 'Défendre le Prince',
@@ -1949,6 +2093,7 @@ export const baseBooksFantasySaga: BaseBook[] = [
     releaseDate: '',
     description: '',
     countryOrigin: 'États-Unis',
+    selectDisplayOrder: 0,
   },
   {
     title: 'Écraser le roi',
@@ -1962,6 +2107,7 @@ export const baseBooksFantasySaga: BaseBook[] = [
     releaseDate: '',
     description: '',
     countryOrigin: 'États-Unis',
+    selectDisplayOrder: 0,
   },
   {
     title: 'Les annales du Disque-Monde, tome 1 : La huitième couleur',
@@ -1975,6 +2121,7 @@ export const baseBooksFantasySaga: BaseBook[] = [
     releaseDate: '',
     description: '',
     countryOrigin: 'États-Unis',
+    selectDisplayOrder: 0,
   },
   {
     title: 'Les Maîtres Enlumineurs',
@@ -1989,6 +2136,7 @@ export const baseBooksFantasySaga: BaseBook[] = [
     releaseDate: '',
     description: '',
     countryOrigin: 'États-Unis',
+    selectDisplayOrder: 0,
   },
   {
     title: 'La Voie des Ombres',
@@ -2002,6 +2150,7 @@ export const baseBooksFantasySaga: BaseBook[] = [
     releaseDate: '',
     description: '',
     countryOrigin: 'États-Unis',
+    selectDisplayOrder: 0,
   },
   {
     title: 'Le Choix des Ombres',
@@ -2016,6 +2165,7 @@ export const baseBooksFantasySaga: BaseBook[] = [
     releaseDate: '',
     description: '',
     countryOrigin: 'États-Unis',
+    selectDisplayOrder: 0,
   },
   {
     title: 'Au-delà des Ombres',
@@ -2030,6 +2180,7 @@ export const baseBooksFantasySaga: BaseBook[] = [
     releaseDate: '',
     description: '',
     countryOrigin: 'États-Unis',
+    selectDisplayOrder: 0,
   },
   {
     title: 'Les Mensonges de Locke Lamora',
@@ -2043,6 +2194,7 @@ export const baseBooksFantasySaga: BaseBook[] = [
     releaseDate: '',
     description: '',
     countryOrigin: 'États-Unis',
+    selectDisplayOrder: 0,
   },
   {
     title: 'Des Horizons Rouge Sang',
@@ -2056,6 +2208,7 @@ export const baseBooksFantasySaga: BaseBook[] = [
     releaseDate: '',
     description: '',
     countryOrigin: 'États-Unis',
+    selectDisplayOrder: 0,
   },
   {
     title: 'La République des Voleurs',
@@ -2069,6 +2222,7 @@ export const baseBooksFantasySaga: BaseBook[] = [
     releaseDate: '',
     description: '',
     countryOrigin: 'États-Unis',
+    selectDisplayOrder: 0,
   },
   {
     title: 'La Compagnie Noire',
@@ -2083,6 +2237,7 @@ export const baseBooksFantasySaga: BaseBook[] = [
     releaseDate: '',
     description: '',
     countryOrigin: 'États-Unis',
+    selectDisplayOrder: 0,
   },
   {
     title: 'Le Château Noir',
@@ -2096,6 +2251,7 @@ export const baseBooksFantasySaga: BaseBook[] = [
     releaseDate: '',
     description: '',
     countryOrigin: 'États-Unis',
+    selectDisplayOrder: 0,
   },
   {
     title: 'La Rose Blanche',
@@ -2109,6 +2265,7 @@ export const baseBooksFantasySaga: BaseBook[] = [
     releaseDate: '',
     description: '',
     countryOrigin: 'États-Unis',
+    selectDisplayOrder: 0,
   },
   {
     title: "Le royaume de Pierre d'Angle, tome 1 : L'art du naufrage",
@@ -2122,5 +2279,6 @@ export const baseBooksFantasySaga: BaseBook[] = [
     releaseDate: '',
     description: '',
     countryOrigin: 'États-Unis',
+    selectDisplayOrder: 0,
   },
 ];

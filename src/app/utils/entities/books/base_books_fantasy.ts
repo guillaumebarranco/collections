@@ -13,6 +13,7 @@ export const baseBooksFantasy: BaseBook[] = [
     releaseDate: '2018-04-10',
     description: '',
     countryOrigin: 'États-Unis',
+    selectDisplayOrder: 20,
   },
   {
     title: "Le chant d'Achille",
@@ -26,6 +27,7 @@ export const baseBooksFantasy: BaseBook[] = [
     releaseDate: '2011-09-20',
     description: '',
     countryOrigin: 'États-Unis',
+    selectDisplayOrder: 20,
   },
   {
     title: 'Dark Shores',
@@ -39,6 +41,7 @@ export const baseBooksFantasy: BaseBook[] = [
     releaseDate: '2019-05-07',
     description: '',
     countryOrigin: 'Canada',
+    selectDisplayOrder: 5,
   },
   {
     title: 'Gagner la guerre',
@@ -52,6 +55,7 @@ export const baseBooksFantasy: BaseBook[] = [
     releaseDate: '2009-01-01',
     description: '',
     countryOrigin: 'France',
+    selectDisplayOrder: 15,
   },
   {
     title: 'The Invisible Life of Addie LaRue',
@@ -65,6 +69,7 @@ export const baseBooksFantasy: BaseBook[] = [
     releaseDate: '2020-10-06',
     description: '',
     countryOrigin: 'États-Unis',
+    selectDisplayOrder: 15,
   },
   {
     title: 'La Maison au milieu de la Mer Céruléenne',
@@ -79,6 +84,7 @@ export const baseBooksFantasy: BaseBook[] = [
     releaseDate: '2020-03-17',
     description: '',
     countryOrigin: 'États-Unis',
+    selectDisplayOrder: 15,
   },
   {
     title: 'Quand Vient la Horde',
@@ -92,6 +98,7 @@ export const baseBooksFantasy: BaseBook[] = [
     releaseDate: '',
     description: '',
     countryOrigin: 'États-Unis',
+    selectDisplayOrder: 10,
   },
   {
     title: 'Les Voleurs de fumée, tome 1',
@@ -105,5 +112,6 @@ export const baseBooksFantasy: BaseBook[] = [
     releaseDate: '',
     description: '',
     countryOrigin: 'États-Unis',
+    selectDisplayOrder: 5,
   },
 ];
