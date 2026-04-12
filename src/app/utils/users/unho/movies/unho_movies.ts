@@ -7584,4 +7584,21 @@ export const unhoMovies: UserMovie[] = [
     loaned: '',
     inList: [],
   },
+
+  {
+    title: "Mrs. Doubtfire",
+    director: "Chris Columbus",
+    rating: 3.5,
+    timesWatched: 1,
+    firstViewedDate: "2026-04-12",
+    lastViewedDate: "2026-04-12",
+    seenAtCinema: false,
+    owned: false,
+    wantToSeeAgain: false,
+    watchPriority: 1,
+    ratingComment: "",
+    inList: [],
+    borrowed: "",
+    loaned: "",
+  },
 ];
