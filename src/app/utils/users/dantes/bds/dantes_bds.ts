@@ -7333,8 +7333,8 @@ export const dantesBds: UserBd[] = [
   },
 
   {
-    title: "Titeuf - Tome 1 - C'est po juste !",
-    writer: "Zep",
+    title: 'Titeuf - Tome 1 - Dieux, le sexe, et les bretelles',
+    writer: 'Zep',
     readDate: '',
     rating: 0,
     readTimes: 1,
@@ -7348,7 +7348,7 @@ export const dantesBds: UserBd[] = [
 
   {
     title: "Titeuf - Tome 2 - L'amour, c'est po propre !",
-    writer: "Zep",
+    writer: 'Zep',
     readDate: '',
     rating: 0,
     readTimes: 1,
@@ -7361,8 +7361,8 @@ export const dantesBds: UserBd[] = [
   },
 
   {
-    title: "Titeuf - Tome 3 - Ça bulle !",
-    writer: "Zep",
+    title: 'Titeuf - Tome 3 - Ça épate les filles !',
+    writer: 'Zep',
     readDate: '',
     rating: 0,
     readTimes: 1,
@@ -7376,7 +7376,7 @@ export const dantesBds: UserBd[] = [
 
   {
     title: "L'Arnaque des nouveaux pères",
-    writer: "Stephane Jourdain",
+    writer: 'Stephane Jourdain',
     readDate: '',
     rating: 0,
     readTimes: 1,
@@ -7390,7 +7390,7 @@ export const dantesBds: UserBd[] = [
 
   {
     title: "L'Élève Ducobu - Tome 1 - Un copieur sachant copier !",
-    writer: "Godi",
+    writer: 'Godi',
     readDate: '',
     rating: 0,
     readTimes: 1,
@@ -7404,7 +7404,7 @@ export const dantesBds: UserBd[] = [
 
   {
     title: "L'Élève Ducobu - Tome 3 - Les réponses ou la vie ?",
-    writer: "Godi",
+    writer: 'Godi',
     readDate: '',
     rating: 0,
     readTimes: 1,
@@ -7418,7 +7418,7 @@ export const dantesBds: UserBd[] = [
 
   {
     title: "L'Élève Ducobu - Tome 6 - Un amour de potache",
-    writer: "Godi",
+    writer: 'Godi',
     readDate: '',
     rating: 0,
     readTimes: 1,
@@ -7432,7 +7432,7 @@ export const dantesBds: UserBd[] = [
 
   {
     title: "Titeuf - Tome 4 - C'est pô juste...",
-    writer: "Zep",
+    writer: 'Zep',
     readDate: '',
     rating: 0,
     readTimes: 1,
@@ -7445,8 +7445,8 @@ export const dantesBds: UserBd[] = [
   },
 
   {
-    title: "Titeuf - Tome 5 - À fond la caisse",
-    writer: "Zep",
+    title: 'Titeuf - Tome 5 - Le derrière des choses',
+    writer: 'Zep',
     readDate: '',
     rating: 0,
     readTimes: 1,
@@ -7459,8 +7459,8 @@ export const dantesBds: UserBd[] = [
   },
 
   {
-    title: "Titeuf - Tome 6 - Tchô, monde cruel !",
-    writer: "Zep",
+    title: 'Titeuf - Tome 6 - Tchô, monde cruel !',
+    writer: 'Zep',
     readDate: '',
     rating: 0,
     readTimes: 1,
@@ -7473,8 +7473,8 @@ export const dantesBds: UserBd[] = [
   },
 
   {
-    title: "Titeuf - Tome 7 - Mission super-trans",
-    writer: "Zep",
+    title: 'Titeuf - Tome 7 - Le miracle de la vie',
+    writer: 'Zep',
     readDate: '',
     rating: 0,
     readTimes: 1,
@@ -7487,8 +7487,8 @@ export const dantesBds: UserBd[] = [
   },
 
   {
-    title: "Titeuf - Tome 8 - Lâchez-moi la grappe !",
-    writer: "Zep",
+    title: 'Titeuf - Tome 8 - Lâchez-moi le slip !',
+    writer: 'Zep',
     readDate: '',
     rating: 0,
     readTimes: 1,
@@ -7501,8 +7501,8 @@ export const dantesBds: UserBd[] = [
   },
 
   {
-    title: "Titeuf - Tome 9 - La loi du préau",
-    writer: "Zep",
+    title: 'Titeuf - Tome 9 - La loi du préau',
+    writer: 'Zep',
     readDate: '',
     rating: 0,
     readTimes: 1,

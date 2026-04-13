@@ -1292,338 +1292,7 @@ export const baseSeries: BaseSerie[] = [
     saga: 'DC Comics',
     countryOrigin: 'États-Unis',
   },
-  {
-    title: 'Spider-Man (1967)',
-    director: 'Ray Patterson, Grant Simmons',
-    actors: [{ name: 'Paul Soles' }],
-    coverUrl: '/series_pictures/0b9c1d3be1db.jpg',
-    releaseDate: '1967-09-09',
-    endDate: '1970-06-14',
-    genre: ['Super-héro', 'Animation'],
-    seasonsData: [
-      { seasonNumber: 1, nbEpisodes: 20, totalLength: 440 },
-      { seasonNumber: 2, nbEpisodes: 19, totalLength: 418 },
-      { seasonNumber: 3, nbEpisodes: 13, totalLength: 286 },
-    ],
-    description: '',
-    fromEntity: {
-      entityType: 'comic',
-      title: 'Spider-Man',
-      secondEntityKey: 'Stan Lee',
-    },
-    saga: 'Spider-Man',
-    countryOrigin: 'États-Unis',
-  },
-  {
-    title: 'Spider-Man et ses amis extraordinaires',
-    director: 'Don Jurwich, Bob Richardson',
-    actors: [
-      { name: 'Dan Gilvezan' },
-      { name: 'Kathy Garver' },
-      { name: 'Frank Welker' },
-    ],
-    coverUrl: '/series_pictures/890c1ce264e7.jpg',
-    releaseDate: '1981-09-12',
-    endDate: '1983-11-05',
-    genre: ['Super-héro', 'Animation'],
-    seasonsData: [{ seasonNumber: 1, nbEpisodes: 24, totalLength: 528 }],
-    description: '',
-    fromEntity: {
-      entityType: 'comic',
-      title: 'Spider-Man',
-      secondEntityKey: 'Stan Lee',
-    },
-    saga: 'Spider-Man',
-    countryOrigin: 'États-Unis',
-  },
-  {
-    title: 'Spider-Man : La série animée',
-    director: 'John Semper Jr.',
-    actors: [
-      { name: 'Christopher Daniel Barnes' },
-      { name: 'Ed Asner' },
-      { name: 'Sara Ballantine' },
-    ],
-    coverUrl: '/series_pictures/25912aea093d.jpg',
-    releaseDate: '1994-11-19',
-    endDate: '1998-01-31',
-    genre: ['Super-héro', 'Animation'],
-    seasonsData: [
-      { seasonNumber: 1, nbEpisodes: 13, totalLength: 286 },
-      { seasonNumber: 2, nbEpisodes: 14, totalLength: 308 },
-      { seasonNumber: 3, nbEpisodes: 14, totalLength: 308 },
-      { seasonNumber: 4, nbEpisodes: 11, totalLength: 242 },
-      { seasonNumber: 5, nbEpisodes: 13, totalLength: 286 },
-    ],
-    description: '',
-    fromEntity: {
-      entityType: 'comic',
-      title: 'Spider-Man',
-      secondEntityKey: 'Stan Lee',
-    },
-    saga: 'Spider-Man',
-    countryOrigin: 'États-Unis',
-  },
-  {
-    title: 'Spider-Man Unlimited',
-    director: 'Will Meugniot',
-    actors: [{ name: 'Rino Romano' }, { name: 'Jennifer Hale' }],
-    coverUrl: '/series_pictures/9b61dc0ee0ee.jpg',
-    releaseDate: '1999-10-02',
-    endDate: '2001-03-23',
-    genre: ['Super-héro', 'Animation'],
-    seasonsData: [{ seasonNumber: 1, nbEpisodes: 13, totalLength: 286 }],
-    description: '',
-    fromEntity: {
-      entityType: 'comic',
-      title: 'Spider-Man',
-      secondEntityKey: 'Stan Lee',
-    },
-    saga: 'Spider-Man',
-    countryOrigin: 'États-Unis',
-  },
-  {
-    title: 'Spider-Man : New Animated Series',
-    director: 'Audu Paden, John Fang',
-    actors: [{ name: 'Neil Patrick Harris' }, { name: 'Lisa Loeb' }],
-    coverUrl: '/series_pictures/3405748c0d0d.jpg',
-    releaseDate: '2003-07-11',
-    endDate: '2003-09-12',
-    genre: ['Super-héro', 'Animation'],
-    seasonsData: [{ seasonNumber: 1, nbEpisodes: 13, totalLength: 286 }],
-    description: '',
-    fromEntity: {
-      entityType: 'comic',
-      title: 'Spider-Man',
-      secondEntityKey: 'Stan Lee',
-    },
-    saga: 'Spider-Man',
-    countryOrigin: 'États-Unis',
-  },
-  {
-    title: 'The Spectacular Spider-Man',
-    director: 'Victor Cook, Greg Weisman',
-    actors: [{ name: 'Josh Keaton' }, { name: 'Lacey Chabert' }],
-    coverUrl: '/series_pictures/7c7dce406020.jpg',
-    releaseDate: '2008-03-08',
-    endDate: '2009-11-18',
-    genre: ['Super-héro', 'Animation'],
-    seasonsData: [
-      { seasonNumber: 1, nbEpisodes: 13, totalLength: 286 },
-      { seasonNumber: 2, nbEpisodes: 13, totalLength: 286 },
-    ],
-    description: '',
-    fromEntity: {
-      entityType: 'comic',
-      title: 'Spider-Man',
-      secondEntityKey: 'Stan Lee',
-    },
-    saga: 'Spider-Man',
-    countryOrigin: 'États-Unis',
-  },
-  {
-    title: 'Ultimate Spider-Man',
-    director: 'Paul Dini, Man of Action',
-    actors: [{ name: 'Drake Bell' }, { name: 'Chi McBride' }],
-    coverUrl: '/series_pictures/bc9080cb4ead.jpg',
-    releaseDate: '2012-04-01',
-    endDate: '2017-01-07',
-    genre: ['Super-héro', 'Animation'],
-    seasonsData: [
-      { seasonNumber: 1, nbEpisodes: 26, totalLength: 572 },
-      { seasonNumber: 2, nbEpisodes: 26, totalLength: 572 },
-      { seasonNumber: 3, nbEpisodes: 26, totalLength: 572 },
-      { seasonNumber: 4, nbEpisodes: 26, totalLength: 572 },
-    ],
-    description: '',
-    fromEntity: {
-      entityType: 'comic',
-      title: 'Spider-Man',
-      secondEntityKey: 'Stan Lee',
-    },
-    saga: 'Spider-Man',
-    countryOrigin: 'États-Unis',
-  },
-  {
-    title: "Marvel's Spider-Man",
-    director: 'Philip Pignotti',
-    actors: [{ name: 'Robbie Daymond' }, { name: 'Fred Tatasciore' }],
-    coverUrl: '/series_pictures/6efa9d76b626.jpg',
-    releaseDate: '2017-08-19',
-    endDate: '2020-10-25',
-    genre: ['Super-héro', 'Animation'],
-    seasonsData: [
-      { seasonNumber: 1, nbEpisodes: 26, totalLength: 572 },
-      { seasonNumber: 2, nbEpisodes: 26, totalLength: 572 },
-      { seasonNumber: 3, nbEpisodes: 26, totalLength: 572 },
-    ],
-    description: '',
-    fromEntity: {
-      entityType: 'comic',
-      title: 'Spider-Man',
-      secondEntityKey: 'Stan Lee',
-    },
-    saga: 'Spider-Man',
-    countryOrigin: 'États-Unis',
-  },
-  {
-    title: 'Spidey et ses extraordinaires amis',
-    director: 'Sol Choi',
-    actors: [{ name: 'Benjamin Valic' }, { name: 'Jakari Fraser' }],
-    coverUrl: '/series_pictures/5a9d484f4e10.jpg',
-    releaseDate: '2021-08-06',
-    endDate: '',
-    genre: ['Super-héro', 'Animation', 'Jeunesse'],
-    seasonsData: [
-      { seasonNumber: 1, nbEpisodes: 25, totalLength: 275 },
-      { seasonNumber: 2, nbEpisodes: 26, totalLength: 286 },
-      { seasonNumber: 3, nbEpisodes: 26, totalLength: 286 },
-    ],
-    description: '',
-    fromEntity: {
-      entityType: 'comic',
-      title: 'Spider-Man',
-      secondEntityKey: 'Stan Lee',
-    },
-    saga: 'Spider-Man',
-    countryOrigin: 'États-Unis',
-  },
-  {
-    title: 'Spider-Man (Toei)',
-    director: 'Kōichi Takemoto',
-    actors: [{ name: 'Shinji Tōdō' }],
-    coverUrl: '/series_pictures/196292e53acd.jpg',
-    releaseDate: '1978-05-17',
-    endDate: '1979-03-14',
-    genre: ['Super-héro', 'Science Fiction'],
-    seasonsData: [{ seasonNumber: 1, nbEpisodes: 41, totalLength: 984 }],
-    description: '',
-    fromEntity: {
-      entityType: 'comic',
-      title: 'Spider-Man',
-      secondEntityKey: 'Stan Lee',
-    },
-    saga: 'Spider-Man',
-    countryOrigin: 'Japon',
-  },
-  {
-    title: 'Les Aventures de Sonic le Hérisson',
-    director: 'Kent Butterworth',
-    actors: [{ name: 'Jaleel White' }, { name: 'Long John Baldry' }],
-    coverUrl: '/series_pictures/0e91086ce924.jpg',
-    releaseDate: '1993-09-06',
-    endDate: '1996-11-01',
-    genre: ['Animation', 'Aventure', 'Jeunesse'],
-    seasonsData: [{ seasonNumber: 1, nbEpisodes: 65, totalLength: 1430 }],
-    description: '',
-    fromEntity: {
-      entityType: 'game',
-      title: 'Sonic the Hedgehog',
-      secondEntityKey: 'Sega',
-    },
-    saga: 'Sonic',
-    countryOrigin: 'États-Unis',
-  },
-  {
-    title: 'Sonic the Hedgehog (SatAM)',
-    director: 'John Grusd, Dick Sebast',
-    actors: [{ name: 'Jaleel White' }, { name: 'Kath Soucie' }],
-    coverUrl: '/series_pictures/f0346cd011d4.jpg',
-    releaseDate: '1993-09-18',
-    endDate: '1994-12-03',
-    genre: ['Animation', 'Science Fiction', 'Jeunesse'],
-    seasonsData: [
-      { seasonNumber: 1, nbEpisodes: 13, totalLength: 286 },
-      { seasonNumber: 2, nbEpisodes: 13, totalLength: 286 },
-    ],
-    description: '',
-    fromEntity: {
-      entityType: 'game',
-      title: 'Sonic the Hedgehog',
-      secondEntityKey: 'Sega',
-    },
-    saga: 'Sonic',
-    countryOrigin: 'États-Unis',
-  },
-  {
-    title: 'Sonic Underground',
-    director: 'Patrice Saunier, Marc Stoclet',
-    actors: [{ name: 'Jaleel White' }, { name: 'Maurice LaMarche' }],
-    coverUrl: '/series_pictures/46dfdc5e243b.jpg',
-    releaseDate: '1999-01-06',
-    endDate: '1999-05-23',
-    genre: ['Animation', 'Aventure', 'Jeunesse'],
-    seasonsData: [{ seasonNumber: 1, nbEpisodes: 40, totalLength: 880 }],
-    description: '',
-    fromEntity: {
-      entityType: 'game',
-      title: 'Sonic the Hedgehog',
-      secondEntityKey: 'Sega',
-    },
-    saga: 'Sonic',
-    countryOrigin: 'États-Unis',
-  },
-  {
-    title: 'Sonic Boom',
-    director: 'Natalys Raut Sieuzac',
-    actors: [{ name: 'Roger Craig Smith' }, { name: 'Travis Willingham' }],
-    coverUrl: '/series_pictures/d4c29106afbe.jpg',
-    releaseDate: '2014-11-08',
-    endDate: '2017-11-18',
-    genre: ['Animation', 'Comédie', 'Jeunesse'],
-    seasonsData: [
-      { seasonNumber: 1, nbEpisodes: 52, totalLength: 572 },
-      { seasonNumber: 2, nbEpisodes: 52, totalLength: 572 },
-    ],
-    description: '',
-    fromEntity: {
-      entityType: 'game',
-      title: 'Sonic the Hedgehog',
-      secondEntityKey: 'Sega',
-    },
-    saga: 'Sonic',
-    countryOrigin: 'États-Unis',
-  },
-  {
-    title: 'Sonic Prime',
-    director: 'Erik Wiese, Duncan Rouleau',
-    actors: [{ name: 'Deven Mack' }, { name: 'Brian Drummond' }],
-    coverUrl: '/series_pictures/fc2998578641.jpg',
-    releaseDate: '2022-12-15',
-    endDate: '2024-01-11',
-    genre: ['Animation', 'Aventure', 'Jeunesse'],
-    seasonsData: [
-      { seasonNumber: 1, nbEpisodes: 8, totalLength: 192 },
-      { seasonNumber: 2, nbEpisodes: 8, totalLength: 192 },
-      { seasonNumber: 3, nbEpisodes: 8, totalLength: 192 },
-    ],
-    description: '',
-    fromEntity: {
-      entityType: 'game',
-      title: 'Sonic the Hedgehog',
-      secondEntityKey: 'Sega',
-    },
-    saga: 'Sonic',
-    countryOrigin: 'États-Unis',
-  },
-  {
-    title: 'Knuckles',
-    director: 'Jeff Fowler, Ged Wright',
-    actors: [{ name: 'Idris Elba' }, { name: 'Adam Pally' }],
-    coverUrl: '/series_pictures/406799d9682d.jpg',
-    releaseDate: '2024-04-26',
-    endDate: '2024-05-03',
-    genre: ['Action', 'Comédie', 'Jeunesse'],
-    seasonsData: [{ seasonNumber: 1, nbEpisodes: 6, totalLength: 240 }],
-    description: '',
-    fromEntity: {
-      entityType: 'game',
-      title: 'Sonic the Hedgehog',
-      secondEntityKey: 'Sega',
-    },
-    saga: 'Sonic',
-    countryOrigin: 'États-Unis',
-  },
+
   {
     title: 'Resident Evil',
     director: 'Andrew Dabb',
@@ -1717,117 +1386,7 @@ export const baseSeries: BaseSerie[] = [
     saga: 'Batman',
     countryOrigin: 'États-Unis',
   },
-  {
-    title: 'Batman : La série animée',
-    director: 'Bruce Timm, Eric Radomski',
-    actors: [
-      { name: 'Kevin Conroy' },
-      { name: 'Loren Lester' },
-      { name: 'Mark Hamill' },
-    ],
-    coverUrl: '/series_pictures/fb1365c589c5.jpg',
-    releaseDate: '1992-09-05',
-    endDate: '1995-09-15',
-    genre: ['Action', 'Animation'],
-    seasonsData: [
-      { seasonNumber: 1, nbEpisodes: 60, totalLength: 1320 },
-      { seasonNumber: 2, nbEpisodes: 25, totalLength: 550 },
-    ],
-    description: '',
-    fromEntity: {
-      entityType: 'comic',
-      title: 'Batman',
-      secondEntityKey: 'Bill Finger',
-    },
-    saga: 'DC Animated Universe',
-    countryOrigin: 'États-Unis',
-  },
-  {
-    title: 'Batman Beyond',
-    director: 'Bruce Timm, Paul Dini',
-    actors: [{ name: 'Will Friedle' }, { name: 'Kevin Conroy' }],
-    coverUrl: '/series_pictures/bd574b3fe872.jpg',
-    releaseDate: '1999-01-10',
-    endDate: '2001-12-18',
-    genre: ['Action', 'Animation'],
-    seasonsData: [
-      { seasonNumber: 1, nbEpisodes: 13, totalLength: 286 },
-      { seasonNumber: 2, nbEpisodes: 26, totalLength: 572 },
-      { seasonNumber: 3, nbEpisodes: 13, totalLength: 286 },
-    ],
-    description: '',
-    fromEntity: {
-      entityType: 'comic',
-      title: 'Batman',
-      secondEntityKey: 'Bill Finger',
-    },
-    saga: 'DC Animated Universe',
-    countryOrigin: 'États-Unis',
-  },
-  {
-    title: 'The Batman (2004)',
-    director: 'Michael Goguen',
-    actors: [{ name: 'Rino Romano' }, { name: 'Alastair Duncan' }],
-    coverUrl: '/series_pictures/3f377ad07946.jpeg',
-    releaseDate: '2004-09-11',
-    endDate: '2008-03-08',
-    genre: ['Action', 'Animation'],
-    seasonsData: [
-      { seasonNumber: 1, nbEpisodes: 13, totalLength: 286 },
-      { seasonNumber: 2, nbEpisodes: 13, totalLength: 286 },
-      { seasonNumber: 3, nbEpisodes: 13, totalLength: 286 },
-      { seasonNumber: 4, nbEpisodes: 13, totalLength: 286 },
-      { seasonNumber: 5, nbEpisodes: 13, totalLength: 286 },
-    ],
-    description: '',
-    fromEntity: {
-      entityType: 'comic',
-      title: 'Batman',
-      secondEntityKey: 'Bill Finger',
-    },
-    saga: 'Batman',
-    countryOrigin: 'États-Unis',
-  },
-  {
-    title: "Batman : L'Alliance des héros",
-    director: 'Ben Jones, Michael Chang',
-    actors: [{ name: 'Diedrich Bader' }, { name: 'James Arnold Taylor' }],
-    coverUrl: '/series_pictures/43993cb741bb.jpg',
-    releaseDate: '2008-11-14',
-    endDate: '2011-11-18',
-    genre: ['Action', 'Animation'],
-    seasonsData: [
-      { seasonNumber: 1, nbEpisodes: 26, totalLength: 572 },
-      { seasonNumber: 2, nbEpisodes: 26, totalLength: 572 },
-      { seasonNumber: 3, nbEpisodes: 13, totalLength: 286 },
-    ],
-    description: '',
-    fromEntity: {
-      entityType: 'comic',
-      title: 'Batman',
-      secondEntityKey: 'Bill Finger',
-    },
-    saga: 'Batman',
-    countryOrigin: 'États-Unis',
-  },
-  {
-    title: 'Beware the Batman',
-    director: 'Glen Murakami, Sam Register',
-    actors: [{ name: 'Anthony Ruivivar' }, { name: 'Sumalee Montano' }],
-    coverUrl: '/series_pictures/c5c1e2ce3194.jpg',
-    releaseDate: '2013-07-13',
-    endDate: '2014-09-28',
-    genre: ['Action', 'Animation'],
-    seasonsData: [{ seasonNumber: 1, nbEpisodes: 26, totalLength: 572 }],
-    description: '',
-    fromEntity: {
-      entityType: 'comic',
-      title: 'Batman',
-      secondEntityKey: 'Bill Finger',
-    },
-    saga: 'Batman',
-    countryOrigin: 'États-Unis',
-  },
+
   {
     title: 'Pennyworth',
     director: 'Bruno Heller',
@@ -2727,8 +2286,7 @@ export const baseSeries: BaseSerie[] = [
         name: 'Yvon Bouchard',
       },
     ],
-    coverUrl:
-      '/series_pictures/4f6960aa3a53.jpg',
+    coverUrl: '/series_pictures/4f6960aa3a53.jpg',
     releaseDate: '1971-04-12',
     endDate: '1974-12-28',
     genre: ['Policier', 'Aventure'],
@@ -2753,35 +2311,7 @@ export const baseSeries: BaseSerie[] = [
     saga: 'Arsène Lupin',
     countryOrigin: 'France',
   },
-  {
-    title: 'Night Hood',
-    director: 'Pascal Morelli',
-    actors: [
-      {
-        name: 'Tedd Dillon',
-      },
-    ],
-    coverUrl:
-      '/series_pictures/197500659743.jpg',
-    releaseDate: '1996-01-01',
-    endDate: '1996-12-31',
-    genre: ['Jeunesse', 'Policier'],
-    seasonsData: [
-      {
-        seasonNumber: 1,
-        nbEpisodes: 26,
-        totalLength: 572,
-      },
-    ],
-    description: '',
-    fromEntity: {
-      entityType: 'book',
-      title: 'Arsène Lupin, gentleman cambrioleur',
-      secondEntityKey: 'Maurice Leblanc',
-    },
-    saga: 'Arsène Lupin',
-    countryOrigin: 'Canada',
-  },
+
   {
     title: 'Arsène Lupin joue et perd',
     director: 'Alexandre Astruc',
@@ -2790,8 +2320,7 @@ export const baseSeries: BaseSerie[] = [
       { name: 'Christiane Krüger' },
       { name: 'Maurice Biraud' },
     ],
-    coverUrl:
-      '/series_pictures/105a4c485a8c.jpg',
+    coverUrl: '/series_pictures/105a4c485a8c.jpg',
     releaseDate: '1980-12-12',
     endDate: '1980-12-27',
     genre: ['Policier', 'Aventure'],
@@ -5384,5 +4913,2320 @@ export const baseSeries: BaseSerie[] = [
     },
     saga: 'Sherlock Holmes',
     countryOrigin: 'États-Unis',
+  },
+  {
+    title: 'Terminator : Les Chroniques de Sarah Connor',
+    director: 'Josh Friedman',
+    actors: [
+      { name: 'Lena Headey' },
+      { name: 'Thomas Dekker' },
+      { name: 'Summer Glau' },
+    ],
+    coverUrl: '/series_pictures/c8f790792ede.jpg',
+    releaseDate: '2008-01-13',
+    endDate: '2009-04-10',
+    genre: ['Science-fiction', 'Action', 'Drame'],
+    seasonsData: [
+      {
+        seasonNumber: 1,
+        nbEpisodes: 9,
+        totalLength: 396,
+      },
+      {
+        seasonNumber: 2,
+        nbEpisodes: 22,
+        totalLength: 968,
+      },
+    ],
+    description:
+      'Sarah et John traquent Skynet ; ignore les événements de Terminator 3. Titre VO : Terminator: The Sarah Connor Chronicles.',
+    fromEntity: {
+      entityType: 'movie',
+      title: 'Terminator 2: Judgment Day',
+      secondEntityKey: 'James Cameron',
+    },
+    saga: 'Terminator',
+    countryOrigin: 'États-Unis',
+  },
+
+  {
+    title: 'His & Hers',
+    director: 'William Oldroyd',
+    actors: [
+      {
+        name: 'Tessa Thompson',
+      },
+      {
+        name: 'Jon Bernthal',
+      },
+    ],
+    coverUrl: '/series_pictures/his-hers.jpg',
+    releaseDate: '2026-01-08',
+    endDate: '2026-01-08',
+    genre: ['Thriller'],
+    seasonsData: [
+      {
+        seasonNumber: 1,
+        nbEpisodes: 6,
+        totalLength: 259,
+      },
+    ],
+    description: '',
+    fromEntity: null,
+    saga: '',
+    countryOrigin: 'Royaume-Uni',
+  },
+
+  {
+    title: 'Fallout',
+    director: 'Geneva Robertson-Dworet, Graham Wagner',
+    actors: [
+      {
+        name: 'Ella Purnell',
+      },
+      {
+        name: 'Aaron Moten',
+      },
+      {
+        name: 'Walton Goggins',
+      },
+    ],
+    coverUrl: '/series_pictures/fallout.jpg',
+    releaseDate: '2024-04-10',
+    endDate: '',
+    genre: ['Post-apocalyptique'],
+    seasonsData: [
+      {
+        seasonNumber: 1,
+        nbEpisodes: 8,
+        totalLength: 446,
+      },
+      {
+        seasonNumber: 2,
+        nbEpisodes: 8,
+        totalLength: 440,
+      },
+    ],
+    description: '',
+    fromEntity: {
+      entityType: 'game',
+      title: 'Fallout',
+      secondEntityKey: 'Interplay Productions',
+    },
+    saga: '',
+    countryOrigin: 'États-Unis',
+  },
+
+  {
+    title: 'Dexter: New Blood',
+    director: 'Clyde Phillips',
+    actors: [
+      {
+        name: 'Michael C. Hall',
+      },
+      {
+        name: 'Jack Alcott',
+      },
+      {
+        name: 'Julia Jones',
+      },
+    ],
+    coverUrl: '/series_pictures/dexter-new-blood.jpg',
+    releaseDate: '2021-11-07',
+    endDate: '2022-01-09',
+    genre: [''],
+    seasonsData: [
+      {
+        seasonNumber: 1,
+        nbEpisodes: 10,
+        totalLength: 527,
+      },
+    ],
+    description: '',
+    fromEntity: null,
+    saga: 'Dexter',
+    countryOrigin: 'États-Unis',
+  },
+
+  {
+    title: 'Dexter: Resurrection',
+    director: 'Clyde Phillips',
+    actors: [
+      {
+        name: 'Michael C. Hall',
+      },
+      {
+        name: 'Uma Thurman',
+      },
+      {
+        name: 'Jack Alcott',
+      },
+      {
+        name: 'David Zayas',
+      },
+    ],
+    coverUrl: '/series_pictures/dexter-resurrection.jpg',
+    releaseDate: '2025-07-11',
+    endDate: '2025-09-05',
+    genre: ['Thriller'],
+    seasonsData: [
+      {
+        seasonNumber: 1,
+        nbEpisodes: 10,
+        totalLength: 514,
+      },
+      {
+        seasonNumber: 2,
+        nbEpisodes: 0,
+        totalLength: 550,
+      },
+    ],
+    description: '',
+    fromEntity: null,
+    saga: 'Dexter',
+    countryOrigin: 'États-Unis',
+  },
+
+  {
+    title: 'Wonder Man',
+    director: 'Destin Daniel Cretton, Andrew Guest',
+    actors: [
+      {
+        name: 'Yahya Abdul-Mateen II',
+      },
+      {
+        name: 'Ben Kingsley',
+      },
+    ],
+    coverUrl: '/series_pictures/wonder-man.jpg',
+    releaseDate: '2026-01-28',
+    endDate: '',
+    genre: ['Super-héro'],
+    seasonsData: [
+      {
+        seasonNumber: 1,
+        nbEpisodes: 8,
+        totalLength: 267,
+      },
+    ],
+    description: '',
+    fromEntity: null,
+    saga: 'Marvel Cinematic Universe',
+    countryOrigin: 'États-Unis',
+  },
+
+  {
+    title: 'Dune : Prophecy',
+    director: 'Diane Ademu-John, Alison Schapker',
+    actors: [
+      {
+        name: 'Travis Fimmel',
+      },
+      {
+        name: 'Emily Watson',
+      },
+      {
+        name: 'Mark Strong',
+      },
+    ],
+    coverUrl: '/series_pictures/dune-prophecy.jpg',
+    releaseDate: '2024-11-17',
+    endDate: '2024-12-23',
+    genre: ['Science Fiction'],
+    seasonsData: [
+      {
+        seasonNumber: 1,
+        nbEpisodes: 6,
+        totalLength: 391,
+      },
+    ],
+    description: '',
+    fromEntity: {
+      entityType: 'book',
+      title: 'Dune',
+      secondEntityKey: 'Frank Herbert',
+    },
+    saga: 'Dune',
+    countryOrigin: 'États-Unis',
+  },
+
+  {
+    title: 'A Knight of the Seven Kingdoms',
+    director: 'Ira Parker,George R. R. Martin',
+    actors: [
+      {
+        name: 'Peter Claffey',
+      },
+      {
+        name: 'Dexter Sol Ansell',
+      },
+      {
+        name: 'Daniel Ings',
+      },
+    ],
+    coverUrl: '/series_pictures/aa879c773348.jpg',
+    releaseDate: '2026-01-18',
+    endDate: '',
+    genre: ['Fantasy'],
+    seasonsData: [
+      {
+        seasonNumber: 1,
+        nbEpisodes: 6,
+        totalLength: 208,
+      },
+    ],
+    description: '',
+    countryOrigin: 'États-Unis',
+    saga: 'Game of Thrones',
+    fromEntity: {
+      entityType: 'book',
+      title: "Le Trône de fer, L'Intégrale Tome 1",
+      secondEntityKey: 'George R.R. Martin',
+    },
+  },
+
+  {
+    title: 'Bref',
+    director: 'Kyan Khojandi, Bruno Muschio',
+    actors: [
+      {
+        name: 'Kyan Khojandi',
+      },
+      {
+        name: 'Alice David',
+      },
+      {
+        name: 'Baptiste Lecaplain',
+      },
+      {
+        name: 'Bérengère Krief',
+      },
+    ],
+    coverUrl: '/series_pictures/2348ce2f74ce.jpg',
+    releaseDate: '2011-08-29',
+    endDate: '2012-07-12',
+    genre: ['Comédie'],
+    seasonsData: [
+      {
+        seasonNumber: 1,
+        nbEpisodes: 82,
+        totalLength: 143.5,
+      },
+    ],
+    description: '',
+    fromEntity: null,
+    countryOrigin: 'France',
+    saga: 'Bref',
+  },
+
+  {
+    title: 'Bref.2',
+    director: 'Kyan Khojandi, Bruno Muschio',
+    actors: [
+      {
+        name: 'Kyan Khojandi',
+      },
+      {
+        name: 'Alice David',
+      },
+      {
+        name: 'Baptiste Lecaplain',
+      },
+      {
+        name: 'Bérengère Krief',
+      },
+      {
+        name: 'Laura Felpin',
+      },
+    ],
+    coverUrl: '/series_pictures/7039f237b2fb.png',
+    releaseDate: '2025-02-14',
+    endDate: '2025-02-14',
+    genre: ['Comédie'],
+    seasonsData: [
+      {
+        seasonNumber: 1,
+        nbEpisodes: 6,
+        totalLength: 216,
+      },
+    ],
+    description: '',
+    fromEntity: null,
+    countryOrigin: 'France',
+    saga: 'Bref',
+  },
+
+  {
+    title: 'Serge le Mytho',
+    director: 'Kyan Khojandi, Bruno Muschio',
+    actors: [
+      {
+        name: 'Jonathan Cohen',
+      },
+      {
+        name: 'Izïa Higelin',
+      },
+      {
+        name: 'Jérémie Galan',
+      },
+    ],
+    coverUrl: '/series_pictures/94ee62679472.jpg',
+    releaseDate: '2016-10-07',
+    endDate: '2017-06-28',
+    genre: ['Comédie'],
+    seasonsData: [
+      {
+        seasonNumber: 1,
+        nbEpisodes: 30,
+        totalLength: 159,
+      },
+    ],
+    description: '',
+    fromEntity: null,
+    countryOrigin: 'France',
+    saga: 'Bref',
+  },
+
+  {
+    title: 'The Mandalorian',
+    director: 'Jon Favreau',
+    actors: [
+      {
+        name: 'Pedro Pascal',
+      },
+      {
+        name: 'Gina Carano',
+      },
+      {
+        name: 'Carl Weathers',
+      },
+    ],
+    coverUrl: '/series_pictures/4a4a05942f4e.jpg',
+    releaseDate: '2020-04-07',
+    endDate: '',
+    genre: ['Science Fiction'],
+    seasonsData: [
+      {
+        seasonNumber: 1,
+        nbEpisodes: 8,
+        totalLength: 315,
+      },
+      {
+        seasonNumber: 2,
+        nbEpisodes: 8,
+        totalLength: 323,
+      },
+      {
+        seasonNumber: 3,
+        nbEpisodes: 8,
+        totalLength: 340,
+      },
+    ],
+    description: '',
+    fromEntity: {
+      entityType: 'movie',
+      title: 'Star Wars : Episode 4 - Un nouvel espoir',
+      secondEntityKey: 'George Lucas',
+    },
+    countryOrigin: 'États-Unis',
+    saga: 'Star Wars',
+  },
+
+  {
+    title: 'Le Livre de Boba Fett',
+    director: 'Jon Favreau',
+    actors: [
+      {
+        name: 'Temuera Morrison',
+      },
+      {
+        name: 'Ming-Na Wen',
+      },
+    ],
+    coverUrl: '/series_pictures/0e96afd1c0c5.jpg',
+    releaseDate: '2021-12-29',
+    endDate: '2022-02-09',
+    genre: ['Science Fiction'],
+    seasonsData: [
+      {
+        seasonNumber: 1,
+        nbEpisodes: 7,
+        totalLength: 330,
+      },
+    ],
+    description: '',
+    fromEntity: {
+      entityType: 'movie',
+      title: 'Star Wars : Episode 4 - Un nouvel espoir',
+      secondEntityKey: 'George Lucas',
+    },
+    countryOrigin: 'États-Unis',
+    saga: 'Star Wars',
+  },
+
+  {
+    title: 'Andor',
+    director: 'Tony Gilroy',
+    actors: [
+      {
+        name: 'Diego Luna',
+      },
+      {
+        name: 'Stellan Skarsgård',
+      },
+      {
+        name: 'Adria Arjona',
+      },
+      {
+        name: "Genevieve O'Reilly",
+      },
+      {
+        name: 'Kyle Soller',
+      },
+      {
+        name: 'Denise Gough',
+      },
+    ],
+    coverUrl: '/series_pictures/fd6245f48daf.jpg',
+    releaseDate: '2022-09-21',
+    endDate: '2025-05-14',
+    genre: ['Science Fiction'],
+    seasonsData: [
+      {
+        seasonNumber: 1,
+        nbEpisodes: 12,
+        totalLength: 555,
+      },
+      {
+        seasonNumber: 2,
+        nbEpisodes: 12,
+        totalLength: 595,
+      },
+    ],
+    description: '',
+    fromEntity: {
+      entityType: 'movie',
+      title: 'Star Wars : Episode 4 - Un nouvel espoir',
+      secondEntityKey: 'George Lucas',
+    },
+    countryOrigin: 'États-Unis',
+    saga: 'Star Wars',
+  },
+
+  {
+    title: 'The Acolyte',
+    director: 'Leslye Headland',
+    actors: [
+      {
+        name: 'Lee Jung-jae',
+      },
+      {
+        name: 'Amandla Stenberg',
+      },
+      {
+        name: 'Manny Jacinto',
+      },
+      {
+        name: 'Dafne Keen',
+      },
+      {
+        name: 'Charlie Barnett',
+      },
+    ],
+    coverUrl: '/series_pictures/08789709d713.jpg',
+    releaseDate: '2024-06-05',
+    endDate: '2024-07-17',
+    genre: ['Science Fiction'],
+    seasonsData: [
+      {
+        seasonNumber: 1,
+        nbEpisodes: 8,
+        totalLength: 304,
+      },
+    ],
+    description: '',
+    fromEntity: {
+      entityType: 'movie',
+      title: 'Star Wars : Episode 4 - Un nouvel espoir',
+      secondEntityKey: 'George Lucas',
+    },
+    countryOrigin: '',
+    saga: 'Star Wars',
+  },
+
+  {
+    title: 'Skeleton Crew',
+    director: 'Christopher Ford, Jon Watts',
+    actors: [
+      {
+        name: 'Jude Law',
+      },
+      {
+        name: 'Ravi Cabot-Conyers',
+      },
+      {
+        name: 'Ryan Kiera Armstrong',
+      },
+      {
+        name: 'Nick Frost',
+      },
+    ],
+    coverUrl: '/series_pictures/6ea7944ddfac.jpg',
+    releaseDate: '2024-12-03',
+    endDate: '2025-01-15',
+    genre: ['Science Fiction'],
+    seasonsData: [
+      {
+        seasonNumber: 1,
+        nbEpisodes: 8,
+        totalLength: 295,
+      },
+    ],
+    description: '',
+    fromEntity: null,
+    countryOrigin: 'États-Unis',
+    saga: 'Star Wars',
+  },
+
+  {
+    title: 'House of the Dragon',
+    director: 'Ryan Condal, George R.R. Martin',
+    actors: [
+      {
+        name: 'Matt Smith',
+      },
+      {
+        name: "Emma D'Arcy",
+      },
+      {
+        name: 'Olivia Cooke',
+      },
+    ],
+    coverUrl: '/series_pictures/4204abe8e2c3.jpg',
+    releaseDate: '2022-08-22',
+    endDate: '',
+    genre: ['Fantasy'],
+    seasonsData: [
+      {
+        seasonNumber: 1,
+        nbEpisodes: 10,
+        totalLength: 615,
+      },
+      {
+        seasonNumber: 2,
+        nbEpisodes: 8,
+        totalLength: 511,
+      },
+      {
+        seasonNumber: 3,
+        nbEpisodes: 0,
+        totalLength: 0,
+      },
+    ],
+    description: '',
+    fromEntity: {
+      entityType: 'book',
+      title: "Le Trône de fer, L'Intégrale Tome 1",
+      secondEntityKey: 'George R.R. Martin',
+    },
+    countryOrigin: 'États-Unis',
+    saga: 'Game of Thrones',
+  },
+
+  {
+    title: 'Supergirl',
+    director: 'Greg Berlanti, Ali Adler',
+    actors: [
+      {
+        name: 'Melissa Benoist',
+      },
+      {
+        name: 'Chyler Leigh',
+      },
+      {
+        name: 'David Harewood',
+      },
+      {
+        name: 'Katie McGrath',
+      },
+    ],
+    coverUrl: '/series_pictures/c018872a5ca6.jpg',
+    releaseDate: '2015-10-26',
+    endDate: '2021-11-09',
+    genre: ['Super-héro'],
+    seasonsData: [
+      {
+        seasonNumber: 1,
+        nbEpisodes: 20,
+        totalLength: 858,
+      },
+      {
+        seasonNumber: 2,
+        nbEpisodes: 22,
+        totalLength: 954,
+      },
+      {
+        seasonNumber: 3,
+        nbEpisodes: 23,
+        totalLength: 957,
+      },
+      {
+        seasonNumber: 4,
+        nbEpisodes: 22,
+        totalLength: 903,
+      },
+      {
+        seasonNumber: 5,
+        nbEpisodes: 19,
+        totalLength: 789,
+      },
+      {
+        seasonNumber: 6,
+        nbEpisodes: 20,
+        totalLength: 866,
+      },
+    ],
+    description: '',
+    fromEntity: null,
+    countryOrigin: 'États-Unis',
+    saga: 'ArrowVerse',
+  },
+
+  {
+    title: "DC's Legends of Tomorrow",
+    director: 'Greg Berlanti, Marc Guggenheim',
+    actors: [
+      {
+        name: 'Caity Lotz',
+      },
+      {
+        name: 'Dominic Purcell',
+      },
+      {
+        name: 'Nick Zano',
+      },
+      {
+        name: 'Brandon Routh',
+      },
+    ],
+    coverUrl: '/series_pictures/3363a5d92a66.jpg',
+    releaseDate: '2016-09-17',
+    endDate: '2022-03-02',
+    genre: ['Super-héro'],
+    seasonsData: [
+      {
+        seasonNumber: 1,
+        nbEpisodes: 14,
+        totalLength: 702,
+      },
+      {
+        seasonNumber: 2,
+        nbEpisodes: 17,
+        totalLength: 751,
+      },
+      {
+        seasonNumber: 3,
+        nbEpisodes: 18,
+        totalLength: 756,
+      },
+      {
+        seasonNumber: 4,
+        nbEpisodes: 16,
+        totalLength: 685,
+      },
+      {
+        seasonNumber: 5,
+        nbEpisodes: 15,
+        totalLength: 644,
+      },
+      {
+        seasonNumber: 6,
+        nbEpisodes: 15,
+        totalLength: 651,
+      },
+      {
+        seasonNumber: 7,
+        nbEpisodes: 13,
+        totalLength: 561,
+      },
+    ],
+    description: '',
+    fromEntity: null,
+    countryOrigin: 'États-Unis',
+    saga: 'ArrowVerse',
+  },
+
+  {
+    title: 'Black Lightning',
+    director: ' Salim Akil',
+    actors: [
+      {
+        name: 'Cress Williams',
+      },
+      {
+        name: 'Nafessa Williams',
+      },
+      {
+        name: 'Christine Adams',
+      },
+      {
+        name: 'China Anne McClain',
+      },
+      {
+        name: 'James Remar',
+      },
+      {
+        name: 'Marvin Jones III',
+      },
+    ],
+    coverUrl: '/series_pictures/6751c3ccfbcf.jpg',
+    releaseDate: '2018-01-23',
+    endDate: '2021-05-24',
+    genre: ['Super-héro'],
+    seasonsData: [
+      {
+        seasonNumber: 1,
+        nbEpisodes: 13,
+        totalLength: 561,
+      },
+      {
+        seasonNumber: 2,
+        nbEpisodes: 16,
+        totalLength: 691,
+      },
+      {
+        seasonNumber: 3,
+        nbEpisodes: 16,
+        totalLength: 688,
+      },
+      {
+        seasonNumber: 4,
+        nbEpisodes: 13,
+        totalLength: 558,
+      },
+    ],
+    description: '',
+    fromEntity: null,
+    countryOrigin: 'États-Unis',
+    saga: 'ArrowVerse',
+  },
+
+  {
+    title: 'Batwoman',
+    director: 'Caroline Dries',
+    actors: [
+      {
+        name: 'Ruby Rose',
+      },
+      {
+        name: 'Camrus Johnson',
+      },
+      {
+        name: 'Rachel Skarsten',
+      },
+      {
+        name: 'Javicia Leslie',
+      },
+    ],
+    coverUrl: '/series_pictures/a4454dca92f6.jpg',
+    releaseDate: '2020-11-05',
+    endDate: '2022-03-02',
+    genre: ['Super-héro'],
+    seasonsData: [
+      {
+        seasonNumber: 1,
+        nbEpisodes: 20,
+        totalLength: 861,
+      },
+      {
+        seasonNumber: 2,
+        nbEpisodes: 18,
+        totalLength: 774,
+      },
+      {
+        seasonNumber: 3,
+        nbEpisodes: 13,
+        totalLength: 559,
+      },
+    ],
+    description: '',
+    fromEntity: {
+      entityType: 'comic',
+      title: 'Batman',
+      secondEntityKey: 'Bill Finger',
+    },
+    countryOrigin: 'États-Unis',
+    saga: 'ArrowVerse',
+  },
+
+  {
+    title: 'Vixen',
+    director: 'Greg Berlanti, Marc Guggenheim, Andrew Kreisberg',
+    actors: [
+      {
+        name: 'Megalyn Echikunwoke',
+      },
+      {
+        name: 'Stephen Amell',
+      },
+      {
+        name: 'Grant Gustin',
+      },
+    ],
+    coverUrl: '/series_pictures/c4c90ce91341.jpg',
+    releaseDate: '2015-08-25',
+    endDate: '2016-11-18',
+    genre: ['Science Fiction'],
+    seasonsData: [
+      {
+        seasonNumber: 1,
+        nbEpisodes: 6,
+        totalLength: 36,
+      },
+      {
+        seasonNumber: 2,
+        nbEpisodes: 6,
+        totalLength: 38,
+      },
+    ],
+    description: '',
+    fromEntity: null,
+    countryOrigin: 'États-Unis',
+    saga: 'ArrowVerse',
+  },
+
+  {
+    title: 'Freedom Fighters: The Ray',
+    director: 'Greg Berlanti, Marc Guggenheim',
+    actors: [
+      {
+        name: 'Russell Tovey',
+      },
+      {
+        name: 'Jason Mitchell',
+      },
+      {
+        name: 'Melissa Benoist',
+      },
+    ],
+    coverUrl: '/series_pictures/8b8a69990a65.jpg',
+    releaseDate: '2017-12-08',
+    endDate: '2018-07-18',
+    genre: ['Super-héro'],
+    seasonsData: [
+      {
+        seasonNumber: 1,
+        nbEpisodes: 6,
+        totalLength: 42,
+      },
+      {
+        seasonNumber: 2,
+        nbEpisodes: 6,
+        totalLength: 37,
+      },
+    ],
+    description: '',
+    fromEntity: null,
+    countryOrigin: 'États-Unis',
+    saga: 'ArrowVerse',
+  },
+
+  {
+    title: 'Dragon Ball Z Kai',
+    director: 'Yashuhiro Nowata',
+    actors: [
+      {
+        name: 'Masako Nozawa',
+      },
+      {
+        name: 'Ryo Horikawa',
+      },
+      {
+        name: 'Toshio Furukawa',
+      },
+      {
+        name: 'Mayumi Tanaka',
+      },
+      {
+        name: 'Hiromi Tsuru',
+      },
+    ],
+    coverUrl: '/series_pictures/1b5747fc3f46.jpg',
+    releaseDate: '2009-06-05',
+    endDate: '2015-06-28',
+    genre: ['Anime'],
+    seasonsData: [
+      {
+        seasonNumber: 1,
+        nbEpisodes: 98,
+        totalLength: 2269,
+      },
+      {
+        seasonNumber: 2,
+        nbEpisodes: 69,
+        totalLength: 1594,
+      },
+    ],
+    description: '',
+    fromEntity: null,
+    countryOrigin: 'Japon',
+    saga: 'Dragon Ball',
+  },
+
+  {
+    title: 'Percy Jackson & les Olympiens',
+    director: 'Jonathan E. Steinberg, Rick Riordan',
+    actors: [
+      {
+        name: 'Walker Scobell',
+      },
+      {
+        name: 'Leah Sava Jeffries',
+      },
+      {
+        name: 'Aryan Simhadri',
+      },
+      {
+        name: 'Charlie Bushnell',
+      },
+    ],
+    coverUrl: '/series_pictures/2e1bec5c30eb.jpg',
+    releaseDate: '2023-12-20',
+    endDate: '',
+    genre: ['Fantasy'],
+    seasonsData: [
+      {
+        seasonNumber: 1,
+        nbEpisodes: 8,
+        totalLength: 313,
+      },
+      {
+        seasonNumber: 2,
+        nbEpisodes: 8,
+        totalLength: 325,
+      },
+    ],
+    description: '',
+    fromEntity: {
+      entityType: 'book',
+      title: 'Le Voleur de foudre',
+      secondEntityKey: 'Rick Riordan',
+    },
+    countryOrigin: 'États-Unis',
+    saga: 'Percy Jackson',
+  },
+
+  {
+    title: 'Dexter : Les Origines',
+    director: 'Clyde Philips, Scott Reynolds',
+    actors: [
+      {
+        name: 'Patrick Gibson',
+      },
+      {
+        name: 'Michael C. Hall',
+      },
+      {
+        name: 'Christian Slater',
+      },
+      {
+        name: 'Sarah Michelle Gellar',
+      },
+      {
+        name: 'Patrick Dempsey',
+      },
+    ],
+    coverUrl: '/series_pictures/64ff1ce4e54f.jpg',
+    releaseDate: '2024-12-15',
+    endDate: '2025-02-16',
+    genre: ['Thriller'],
+    seasonsData: [
+      {
+        seasonNumber: 1,
+        nbEpisodes: 10,
+        totalLength: 508,
+      },
+    ],
+    description: '',
+    fromEntity: null,
+    countryOrigin: 'États-Unis',
+    saga: 'Dexter',
+  },
+
+  {
+    title: 'Ms. Marvel',
+    director: 'Bisha K. Ali',
+    actors: [
+      {
+        name: 'Iman Vellani',
+      },
+      {
+        name: 'Matt Lintz',
+      },
+      {
+        name: 'Zenobia Shroff',
+      },
+      {
+        name: 'Mohan Kapur',
+      },
+    ],
+    coverUrl: '/series_pictures/f0c30ee33d1e.jpg',
+    releaseDate: '2022-06-08',
+    endDate: '2022-07-13',
+    genre: ['Super-héro'],
+    seasonsData: [
+      {
+        seasonNumber: 1,
+        nbEpisodes: 6,
+        totalLength: 271,
+      },
+    ],
+    description: '',
+    fromEntity: null,
+    countryOrigin: 'États-Unis',
+    saga: 'Marvel Cinematic Universe',
+  },
+
+  {
+    title: 'Agatha All Along',
+    director: 'Jac Schaeffer',
+    actors: [
+      { name: 'Kathryn Hahn' },
+      { name: 'Joe Locke' },
+      { name: 'Aubrey Plaza' },
+      { name: 'Patti LuPone' },
+      { name: 'Sasheer Zamata' },
+    ],
+    coverUrl: '/series_pictures/9a488008ad3f58fe87d17f9874c44fee.jpg',
+    releaseDate: '2024-09-18',
+    endDate: '2024-11-13',
+    genre: ['Super-héro, Comédie noire'],
+    seasonsData: [{ seasonNumber: 1, nbEpisodes: 9, totalLength: 405 }],
+    description: '',
+    fromEntity: null,
+    countryOrigin: 'États-Unis',
+    saga: 'Marvel Cinematic Universe',
+  },
+
+  {
+    title: 'Moon Knight',
+    director: 'Mohamed Diab',
+    actors: [
+      { name: 'Oscar Isaac' },
+      { name: 'May Calamawy' },
+      { name: 'Ethan Hawke' },
+      { name: 'F. Murray Abraham' },
+    ],
+    coverUrl: '/series_pictures/76878CA2-F591-4025-AC3D-B37858B12B76.webp',
+    releaseDate: '2022-03-30',
+    endDate: '2022-05-04',
+    genre: ['Super-héro, Action, Fantastique'],
+    seasonsData: [{ seasonNumber: 1, nbEpisodes: 6, totalLength: 270 }],
+    description: '',
+    fromEntity: null,
+    countryOrigin: 'États-Unis',
+    saga: 'Marvel Cinematic Universe',
+  },
+
+  {
+    title: 'She-Hulk : Attorney at Law',
+    director: 'Jessica Gao',
+    actors: [
+      { name: 'Tatiana Maslany' },
+      { name: 'Mark Ruffalo' },
+      { name: 'Tim Roth' },
+      { name: 'Jameela Jamil' },
+      { name: 'Charlie Cox' },
+    ],
+    coverUrl: '/series_pictures/5375583.jpg',
+    releaseDate: '2022-08-18',
+    endDate: '2022-10-13',
+    genre: ['Super-héro, Comédie'],
+    seasonsData: [{ seasonNumber: 1, nbEpisodes: 9, totalLength: 270 }],
+    description: '',
+    fromEntity: null,
+    countryOrigin: 'États-Unis',
+    saga: 'Marvel Cinematic Universe',
+  },
+
+  {
+    title: 'Secret Invasion',
+    director: 'Kyle Bradstreet',
+    actors: [
+      { name: 'Samuel L. Jackson' },
+      { name: 'Ben Mendelsohn' },
+      { name: 'Cobie Smulders' },
+      { name: 'Emilia Clarke' },
+      { name: 'Olivia Colman' },
+      { name: 'Don Cheadle' },
+    ],
+    coverUrl: '/series_pictures/2191412.jpg',
+    releaseDate: '2023-06-21',
+    endDate: '2023-07-26',
+    genre: ['Super-héro, Espionnage, Thriller'],
+    seasonsData: [{ seasonNumber: 1, nbEpisodes: 6, totalLength: 300 }],
+    description: '',
+    fromEntity: null,
+    countryOrigin: 'États-Unis',
+    saga: 'Marvel Cinematic Universe',
+  },
+
+  {
+    title: 'Echo',
+    director: 'Sydney Freeland',
+    actors: [
+      { name: 'Alaqua Cox' },
+      { name: 'Chaske Spencer' },
+      { name: 'Tantoo Cardinal' },
+      { name: 'Charlie Cox' },
+      { name: "Vincent D'Onofrio" },
+      { name: 'Devery Jacobs' },
+    ],
+    coverUrl: '/series_pictures/4992840.jpg',
+    releaseDate: '2024-01-09',
+    endDate: '2024-01-09',
+    genre: ['Super-héro, Action, Drame'],
+    seasonsData: [{ seasonNumber: 1, nbEpisodes: 5, totalLength: 250 }],
+    description: '',
+    fromEntity: null,
+    countryOrigin: 'États-Unis',
+    saga: 'Marvel Cinematic Universe',
+  },
+
+  {
+    title: 'Ironheart',
+    director: 'Chinaka Hodge',
+    actors: [
+      { name: 'Dominique Thorne' },
+      { name: 'Anthony Ramos' },
+      { name: 'Lyric Ross' },
+      { name: 'Alden Ehrenreich' },
+    ],
+    coverUrl: '/series_pictures/245af9e9f4e7684f57cb5312d9f58045.jpg',
+    releaseDate: '2025-06-24',
+    endDate: '2025-07-01',
+    genre: ['Super-héro, Action, Science-fiction'],
+    seasonsData: [{ seasonNumber: 1, nbEpisodes: 6, totalLength: 270 }],
+    description: '',
+    fromEntity: null,
+    countryOrigin: 'États-Unis',
+    saga: 'Marvel Cinematic Universe',
+  },
+
+  {
+    title: 'Furies',
+    director: 'Jean-Yves Arnaud',
+    actors: [
+      {
+        name: 'Marina Foïs',
+      },
+      {
+        name: 'Lina El Arabi',
+      },
+      {
+        name: 'Steve Tientcheu',
+      },
+      {
+        name: 'Jeremy Nadeau',
+      },
+      {
+        name: 'Quentin Faure',
+      },
+      {
+        name: 'Sandor Funtek',
+      },
+    ],
+    coverUrl: '/series_pictures/b22f1fdae29b.jpg',
+    releaseDate: '2024-03-01',
+    endDate: '',
+    genre: ['Action'],
+    seasonsData: [
+      {
+        seasonNumber: 1,
+        nbEpisodes: 8,
+        totalLength: 358,
+      },
+      {
+        seasonNumber: 2,
+        nbEpisodes: 6,
+        totalLength: 273,
+      },
+    ],
+    description: '',
+    fromEntity: null,
+    countryOrigin: 'France',
+    saga: '',
+  },
+
+  {
+    title: 'Shrinking',
+    director: 'Brett Goldstein, Bill Lawrence, Jason Segel',
+    actors: [
+      {
+        name: 'Jason Segel',
+      },
+      {
+        name: 'Harrison Ford',
+      },
+      {
+        name: 'Jessica Williams',
+      },
+      {
+        name: 'Christa Miller',
+      },
+      {
+        name: 'Lukita Maxwell',
+      },
+      {
+        name: 'Luke Tennie',
+      },
+      {
+        name: 'Michael Urie',
+      },
+      {
+        name: 'Ted McGinley',
+      },
+    ],
+    coverUrl: '/series_pictures/1f6b8cfcdcd6.jpg',
+    releaseDate: '2023-01-27',
+    endDate: '',
+    genre: ['Comédie', 'Drame'],
+    seasonsData: [
+      {
+        seasonNumber: 1,
+        nbEpisodes: 10,
+        totalLength: 314,
+      },
+      {
+        seasonNumber: 2,
+        nbEpisodes: 12,
+        totalLength: 421,
+      },
+      {
+        seasonNumber: 3,
+        nbEpisodes: 11,
+        totalLength: 409,
+      },
+    ],
+    description: '',
+    countryOrigin: 'États-Unis',
+    saga: '',
+    fromEntity: null,
+  },
+
+  {
+    title: 'Le Seigneur des Anneaux : Les Anneaux de pouvoir',
+    director: 'J.D. Payne, Patrick McKay',
+    actors: [
+      { name: 'Morfydd Clark' },
+      { name: 'Robert Aramayo' },
+      { name: 'Charlie Vickers' },
+    ],
+    coverUrl: '/series_pictures/2d589d66950e.jpg',
+    releaseDate: '2022-09-01',
+    endDate: '2024-10-24',
+    genre: ['Fantastique', 'Aventure', 'Drame'],
+    seasonsData: [
+      { seasonNumber: 1, nbEpisodes: 8, totalLength: 480 },
+      { seasonNumber: 2, nbEpisodes: 8, totalLength: 480 },
+    ],
+    description: '',
+    fromEntity: {
+      entityType: 'book',
+      title: "La Communauté de l'Anneau",
+      secondEntityKey: 'J.R.R. Tolkien',
+    },
+    saga: 'Tolkien',
+    countryOrigin: 'États-Unis',
+  },
+
+  {
+    title: 'Halo',
+    director: 'Steven Kane, Kyle Killen',
+    actors: [{ name: 'Pablo Schreiber' }, { name: 'Jen Taylor' }],
+    coverUrl: '/series_pictures/ba8661c72d66.jpg',
+    releaseDate: '2022-03-24',
+    endDate: '2024-03-21',
+    genre: ['Science Fiction', 'Action'],
+    seasonsData: [
+      { seasonNumber: 1, nbEpisodes: 9, totalLength: 405 },
+      { seasonNumber: 2, nbEpisodes: 8, totalLength: 360 },
+    ],
+    description: '',
+    fromEntity: {
+      entityType: 'game',
+      title: 'Halo: Combat Evolved',
+      secondEntityKey: 'Bungie',
+    },
+    saga: 'Halo',
+    countryOrigin: 'États-Unis',
+  },
+
+  {
+    title: 'The Witcher',
+    director: 'Lauren Schmidt Hissrich',
+    actors: [
+      { name: 'Henry Cavill' },
+      { name: 'Freya Allan' },
+      { name: 'Anya Chalotra' },
+      { name: 'Liam Hemsworth' },
+    ],
+    coverUrl: '/series_pictures/e3fd4bfda1b2.jpg',
+    releaseDate: '2019-12-20',
+    endDate: '2025-03-31',
+    genre: ['Fantastique', 'Action', 'Aventure'],
+    seasonsData: [
+      { seasonNumber: 1, nbEpisodes: 8, totalLength: 470 },
+      { seasonNumber: 2, nbEpisodes: 8, totalLength: 470 },
+      { seasonNumber: 3, nbEpisodes: 8, totalLength: 470 },
+      { seasonNumber: 4, nbEpisodes: 8, totalLength: 470 },
+    ],
+    description: '',
+    fromEntity: {
+      entityType: 'book',
+      title: 'Le dernier voeu (The Witcher, #1)',
+      secondEntityKey: 'Andrzej Sapkowski',
+    },
+    saga: 'The Witcher',
+    countryOrigin: 'États-Unis',
+  },
+
+  /* Liste 1 */
+  {
+    title: "Les maîtres de l'horreur",
+    director: 'Mick Garris',
+    actors: [
+      { name: 'John Carpenter' },
+      { name: 'Don Coscarelli' },
+      { name: 'Joe Dante' },
+      { name: 'Guillermo del Toro' },
+    ],
+    coverUrl: '/series_pictures/ec2c89e944ed.jpeg',
+    releaseDate: '2005-10-28',
+    endDate: '2007-02-02',
+    genre: ['Horreur'],
+    seasonsData: [
+      { seasonNumber: 1, nbEpisodes: 13, totalLength: 780 },
+      { seasonNumber: 2, nbEpisodes: 13, totalLength: 780 },
+    ],
+    description:
+      "Anthologie horreur : chaque épisode est réalisé par un grand nom du cinéma d'horreur.",
+    saga: '',
+    fromEntity: null,
+    countryOrigin: 'États-Unis',
+  },
+
+  {
+    title: 'Les maîtres de la peur (Fear Itself)',
+    director: 'Mick Garris',
+    actors: [],
+    coverUrl: '/series_pictures/def2cec141d1.jpg',
+    releaseDate: '2008-06-05',
+    endDate: '2008-07-31',
+    genre: ['Horreur'],
+    seasonsData: [{ seasonNumber: 1, nbEpisodes: 13, totalLength: 572 }],
+    description: 'Anthologie horreur-suspense sur NBC.',
+    saga: '',
+    fromEntity: null,
+    countryOrigin: 'États-Unis',
+  },
+
+  {
+    title: 'Gossip Girl',
+    director: 'Josh Schwartz, Stephanie Savage',
+    actors: [
+      { name: 'Blake Lively' },
+      { name: 'Leighton Meester' },
+      { name: 'Penn Badgley' },
+      { name: 'Chace Crawford' },
+      { name: 'Ed Westwick' },
+    ],
+    coverUrl: '/series_pictures/f027bb2dfda0.jpg',
+    releaseDate: '2007-09-19',
+    endDate: '2012-12-17',
+    genre: ['Drame'],
+    seasonsData: [
+      { seasonNumber: 1, nbEpisodes: 18, totalLength: 756 },
+      { seasonNumber: 2, nbEpisodes: 25, totalLength: 1050 },
+      { seasonNumber: 3, nbEpisodes: 25, totalLength: 1050 },
+      { seasonNumber: 4, nbEpisodes: 22, totalLength: 924 },
+      { seasonNumber: 5, nbEpisodes: 24, totalLength: 1008 },
+      { seasonNumber: 6, nbEpisodes: 10, totalLength: 420 },
+    ],
+    description:
+      "Adolescents de l'Upper East Side à Manhattan sous l'œil de Gossip Girl.",
+    saga: '',
+    fromEntity: null,
+    countryOrigin: 'États-Unis',
+  },
+
+  {
+    title: 'Santa Clarita Diet',
+    director: 'Victor Fresco',
+    actors: [
+      { name: 'Drew Barrymore' },
+      { name: 'Timothy Olyphant' },
+      { name: 'Liv Hewson' },
+      { name: 'Skyler Gisondo' },
+    ],
+    coverUrl: '/series_pictures/d1c61031a650.jpg',
+    releaseDate: '2017-02-03',
+    endDate: '2019-03-29',
+    genre: ['Comédie', 'Horreur'],
+    seasonsData: [
+      { seasonNumber: 1, nbEpisodes: 10, totalLength: 300 },
+      { seasonNumber: 2, nbEpisodes: 10, totalLength: 300 },
+      { seasonNumber: 3, nbEpisodes: 10, totalLength: 300 },
+    ],
+    description:
+      "Une agente immobilière devient zombie ; sa famille l'aide à gérer sa nouvelle condition.",
+    saga: '',
+    fromEntity: null,
+    countryOrigin: 'États-Unis',
+  },
+
+  {
+    title: 'Cassandra',
+    director: 'Benjamin Gutsche',
+    actors: [],
+    coverUrl: '/series_pictures/3e7b4f85ca04.jpg',
+    releaseDate: '',
+    endDate: '',
+    genre: ['Drame'],
+    seasonsData: [{ seasonNumber: 1, nbEpisodes: 1, totalLength: 0 }],
+    description: '',
+    saga: '',
+    fromEntity: null,
+    countryOrigin: '',
+  },
+
+  {
+    title: 'Good Doctor',
+    director: 'David Shore',
+    actors: [
+      { name: 'Freddie Highmore' },
+      { name: 'Antonia Thomas' },
+      { name: 'Nicholas Gonzalez' },
+      { name: 'Chuku Modu' },
+      { name: 'Hill Harper' },
+    ],
+    coverUrl: '/series_pictures/3c79fdc660b5.jpg',
+    releaseDate: '2017-09-25',
+    endDate: '2024-05-21',
+    genre: ['Drame médical'],
+    seasonsData: [
+      { seasonNumber: 1, nbEpisodes: 18, totalLength: 756 },
+      { seasonNumber: 2, nbEpisodes: 18, totalLength: 756 },
+      { seasonNumber: 3, nbEpisodes: 20, totalLength: 840 },
+      { seasonNumber: 4, nbEpisodes: 20, totalLength: 840 },
+      { seasonNumber: 5, nbEpisodes: 18, totalLength: 756 },
+      { seasonNumber: 6, nbEpisodes: 22, totalLength: 924 },
+      { seasonNumber: 7, nbEpisodes: 10, totalLength: 420 },
+    ],
+    description:
+      'Un jeune chirurgien autiste et syndrome du savant intègre un hôpital.',
+    saga: '',
+    fromEntity: null,
+    countryOrigin: 'États-Unis',
+  },
+
+  {
+    title: 'Apple cider vinegar',
+    director: 'Samantha Strauss',
+    actors: [],
+    coverUrl: '/series_pictures/68e91f5b85b9.jpg',
+    releaseDate: '',
+    endDate: '',
+    genre: [],
+    seasonsData: [{ seasonNumber: 1, nbEpisodes: 1, totalLength: 0 }],
+    description: '',
+    saga: '',
+    fromEntity: null,
+    countryOrigin: '',
+  },
+
+  {
+    title: 'La chute de la maison Usher',
+    director: 'Mike Flanagan',
+    actors: [
+      { name: 'Carla Gugino' },
+      { name: 'Bruce Greenwood' },
+      { name: 'Mark Hamill' },
+      { name: 'Mary McDonnell' },
+      { name: 'Henry Thomas' },
+    ],
+    coverUrl: '/series_pictures/c1811beec52a.jpg',
+    releaseDate: '2023-10-12',
+    endDate: '2023-10-12',
+    genre: ['Horreur'],
+    seasonsData: [{ seasonNumber: 1, nbEpisodes: 8, totalLength: 456 }],
+    description:
+      "Minisérie inspirée d'Edgar Allan Poe : la chute de la dynastie Usher et de Fortunato Pharmaceuticals.",
+    saga: '',
+    fromEntity: null,
+    countryOrigin: 'États-Unis',
+  },
+
+  {
+    title: 'Pretty Little Liars',
+    director: 'I. Marlene King',
+    actors: [
+      { name: 'Troian Bellisario' },
+      { name: 'Ashley Benson' },
+      { name: 'Lucy Hale' },
+      { name: 'Shay Mitchell' },
+      { name: 'Sasha Pieterse' },
+    ],
+    coverUrl: '/series_pictures/3146c59dbe6f.jpg',
+    releaseDate: '2010-06-08',
+    endDate: '2017-06-27',
+    genre: ['Drame', 'Thriller'],
+    seasonsData: [
+      { seasonNumber: 1, nbEpisodes: 22, totalLength: 924 },
+      { seasonNumber: 2, nbEpisodes: 25, totalLength: 1050 },
+      { seasonNumber: 3, nbEpisodes: 24, totalLength: 1008 },
+      { seasonNumber: 4, nbEpisodes: 24, totalLength: 1008 },
+      { seasonNumber: 5, nbEpisodes: 25, totalLength: 1050 },
+      { seasonNumber: 6, nbEpisodes: 20, totalLength: 840 },
+      { seasonNumber: 7, nbEpisodes: 20, totalLength: 840 },
+    ],
+    description:
+      'Quatre amies harcelées par "A" après la disparition de leur leader.',
+    saga: '',
+    fromEntity: null,
+    countryOrigin: 'États-Unis',
+  },
+
+  {
+    title: 'Orange is the New Black',
+    director: 'Jenji Kohan',
+    actors: [
+      { name: 'Taylor Schilling' },
+      { name: 'Laura Prepon' },
+      { name: 'Uzo Aduba' },
+      { name: 'Danielle Brooks' },
+      { name: 'Natasha Lyonne' },
+    ],
+    coverUrl: '/series_pictures/3dd749475800.jpg',
+    releaseDate: '2013-07-11',
+    endDate: '2019-07-26',
+    genre: ['Drame', 'Comédie'],
+    seasonsData: [
+      { seasonNumber: 1, nbEpisodes: 13, totalLength: 585 },
+      { seasonNumber: 2, nbEpisodes: 13, totalLength: 585 },
+      { seasonNumber: 3, nbEpisodes: 13, totalLength: 585 },
+      { seasonNumber: 4, nbEpisodes: 13, totalLength: 585 },
+      { seasonNumber: 5, nbEpisodes: 13, totalLength: 585 },
+      { seasonNumber: 6, nbEpisodes: 13, totalLength: 585 },
+      { seasonNumber: 7, nbEpisodes: 13, totalLength: 585 },
+    ],
+    description:
+      'Vie en prison dans une prison pour femmes, adapté du livre de Piper Kerman.',
+    saga: '',
+    fromEntity: null,
+    countryOrigin: 'États-Unis',
+  },
+
+  {
+    title: 'The Good Place',
+    director: 'Michael Schur',
+    actors: [
+      { name: 'Kristen Bell' },
+      { name: 'Ted Danson' },
+      { name: 'William Jackson Harper' },
+      { name: 'Jameela Jamil' },
+      { name: 'Manny Jacinto' },
+      { name: "D'Arcy Carden" },
+    ],
+    coverUrl: '/series_pictures/63e1d0670f05.jpg',
+    releaseDate: '2016-09-19',
+    endDate: '2020-01-30',
+    genre: ['Comédie', 'Fantastique'],
+    seasonsData: [
+      { seasonNumber: 1, nbEpisodes: 13, totalLength: 286 },
+      { seasonNumber: 2, nbEpisodes: 12, totalLength: 264 },
+      { seasonNumber: 3, nbEpisodes: 12, totalLength: 264 },
+      { seasonNumber: 4, nbEpisodes: 14, totalLength: 308 },
+    ],
+    description: 'Une femme envoyée par erreur au "Bon Endroit" après sa mort.',
+    saga: '',
+    fromEntity: null,
+    countryOrigin: 'États-Unis',
+  },
+
+  {
+    title: 'Dead to Me',
+    director: 'Liz Feldman',
+    actors: [
+      { name: 'Christina Applegate' },
+      { name: 'Linda Cardellini' },
+      { name: 'James Marsden' },
+    ],
+    coverUrl: '/series_pictures/ef4cb2c479c5.jpg',
+    releaseDate: '2019-05-03',
+    endDate: '2022-11-17',
+    genre: ['Drame', 'Comédie noire'],
+    seasonsData: [
+      { seasonNumber: 1, nbEpisodes: 10, totalLength: 300 },
+      { seasonNumber: 2, nbEpisodes: 10, totalLength: 300 },
+      { seasonNumber: 3, nbEpisodes: 10, totalLength: 300 },
+    ],
+    description:
+      'Deux amies liées par le deuil et des secrets dans une comédie noire.',
+    saga: '',
+    fromEntity: null,
+    countryOrigin: 'États-Unis',
+  },
+
+  {
+    title: 'Insatiable',
+    director: 'Lauren Gussis',
+    actors: [
+      { name: 'Debby Ryan' },
+      { name: 'Dallas Roberts' },
+      { name: 'Christopher Gorham' },
+      { name: 'Sarah Colonna' },
+    ],
+    coverUrl: '/series_pictures/afd778e48865.jpg',
+    releaseDate: '2018-08-10',
+    endDate: '2019-10-11',
+    genre: ['Comédie', 'Drame'],
+    seasonsData: [
+      { seasonNumber: 1, nbEpisodes: 12, totalLength: 528 },
+      { seasonNumber: 2, nbEpisodes: 10, totalLength: 440 },
+    ],
+    description:
+      'Une lycéenne victime de moqueries perd du poids et se lance dans des concours de beauté.',
+    saga: '',
+    fromEntity: null,
+    countryOrigin: 'États-Unis',
+  },
+
+  {
+    title: 'The Haunting of Hill House',
+    director: 'Mike Flanagan',
+    actors: [
+      { name: 'Michiel Huisman' },
+      { name: 'Carla Gugino' },
+      { name: 'Timothy Hutton' },
+      { name: 'Henry Thomas' },
+      { name: 'Elizabeth Reaser' },
+      { name: 'Victoria Pedretti' },
+    ],
+    coverUrl: '/series_pictures/aede6042b033.jpg',
+    releaseDate: '2018-10-12',
+    endDate: '2018-10-12',
+    genre: ['Horreur'],
+    seasonsData: [{ seasonNumber: 1, nbEpisodes: 10, totalLength: 600 }],
+    description:
+      'Minisérie : la famille Crain confrontée aux fantômes de Hill House.',
+    saga: '',
+    fromEntity: null,
+    countryOrigin: 'États-Unis',
+  },
+
+  {
+    title: 'The Haunting of Bly Manor',
+    director: 'Mike Flanagan',
+    actors: [
+      { name: 'Victoria Pedretti' },
+      { name: 'Oliver Jackson-Cohen' },
+      { name: 'Amelia Eve' },
+      { name: "T'Nia Miller" },
+      { name: 'Rahul Kohli' },
+    ],
+    coverUrl: '/series_pictures/9a2aa6c56b98.jpg',
+    releaseDate: '2020-10-09',
+    endDate: '2020-10-09',
+    genre: ['Horreur'],
+    seasonsData: [{ seasonNumber: 1, nbEpisodes: 9, totalLength: 540 }],
+    description: "Adaptation du Tour d'écrou : une gouvernante à Bly Manor.",
+    saga: '',
+    fromEntity: null,
+    countryOrigin: 'États-Unis',
+  },
+
+  {
+    title: 'Sweet Home',
+    director: 'Lee Eung-bok',
+    actors: [
+      {
+        name: 'Song Kang',
+      },
+      {
+        name: 'Lee Jin-wook',
+      },
+      {
+        name: 'Lee Si-young',
+      },
+      {
+        name: 'Go Min-si',
+      },
+    ],
+    coverUrl: '/series_pictures/bbaf60960d36.jpg',
+    releaseDate: '2020-12-18',
+    endDate: '',
+    genre: ['Horreur', 'Thriller'],
+    seasonsData: [
+      {
+        seasonNumber: 1,
+        nbEpisodes: 10,
+        totalLength: 0,
+      },
+      {
+        seasonNumber: 2,
+        nbEpisodes: 8,
+        totalLength: 0,
+      },
+    ],
+    description:
+      'Des humains se transforment en monstres ; des survivants se barricadent dans un immeuble.',
+    saga: '',
+    fromEntity: {
+      entityType: 'manwha',
+      title: 'Sweet Home',
+      secondEntityKey: 'Young-Chan Hwang',
+    },
+    countryOrigin: 'Corée du Sud',
+  },
+
+  {
+    title: 'I Am a Killer',
+    director: 'Ross Young',
+    actors: [],
+    coverUrl: '/series_pictures/973a97744402.jpg',
+    releaseDate: '2018-08-03',
+    endDate: '',
+    genre: ['Documentaire'],
+    seasonsData: [
+      { seasonNumber: 1, nbEpisodes: 10, totalLength: 500 },
+      { seasonNumber: 2, nbEpisodes: 10, totalLength: 500 },
+      { seasonNumber: 3, nbEpisodes: 10, totalLength: 500 },
+    ],
+    description: 'Documentaire : des condamnés à mort racontent leur crime.',
+    saga: '',
+    fromEntity: null,
+    countryOrigin: 'États-Unis',
+  },
+
+  {
+    title: 'Les chroniques de la peur',
+    director: 'Bede Blake',
+    actors: [],
+    coverUrl: '/series_pictures/b62c3d77f092.jpg',
+    releaseDate: '2019-01-01',
+    endDate: '',
+    genre: ['Horreur'],
+    seasonsData: [{ seasonNumber: 1, nbEpisodes: 1, totalLength: 0 }],
+    description: 'Anthologie horreur inspirée des comics E.C.',
+    saga: '',
+    fromEntity: null,
+    countryOrigin: 'États-Unis',
+  },
+
+  {
+    title: 'Poupée russe',
+    director: 'Natasha Lyonne, Leslye Headland, Amy Poehler',
+    actors: [
+      { name: 'Natasha Lyonne' },
+      { name: 'Charlie Barnett' },
+      { name: 'Greta Lee' },
+      { name: 'Elizabeth Ashley' },
+    ],
+    coverUrl: '/series_pictures/3d5dcf071eb2.jpg',
+    releaseDate: '2019-02-01',
+    endDate: '2022-04-20',
+    genre: ['Comédie', 'Drame'],
+    seasonsData: [
+      { seasonNumber: 1, nbEpisodes: 8, totalLength: 240 },
+      { seasonNumber: 2, nbEpisodes: 7, totalLength: 210 },
+    ],
+    description:
+      'Nadia prise dans une boucle temporelle le soir de ses 36 ans.',
+    saga: '',
+    fromEntity: null,
+    countryOrigin: 'États-Unis',
+  },
+
+  {
+    title: 'Mon petit renne',
+    director: 'Richard Gadd',
+    actors: [],
+    coverUrl: '/series_pictures/05a407875113.webp',
+    releaseDate: '2024-11-28',
+    endDate: '',
+    genre: ['Drame', 'Fantastique'],
+    seasonsData: [{ seasonNumber: 1, nbEpisodes: 8, totalLength: 384 }],
+    description: 'Série sur le folklore du renne du Père Noël (Netflix).',
+    saga: '',
+    fromEntity: null,
+    countryOrigin: 'Royaume-Uni',
+  },
+
+  {
+    title: 'Slasher',
+    director: 'Aaron Martin',
+    actors: [],
+    coverUrl: '/series_pictures/92081b90c7fd.jpg',
+    releaseDate: '2016-03-04',
+    endDate: '',
+    genre: ['Horreur'],
+    seasonsData: [
+      { seasonNumber: 1, nbEpisodes: 8, totalLength: 360 },
+      { seasonNumber: 2, nbEpisodes: 8, totalLength: 360 },
+      { seasonNumber: 3, nbEpisodes: 8, totalLength: 360 },
+      { seasonNumber: 4, nbEpisodes: 8, totalLength: 360 },
+      { seasonNumber: 5, nbEpisodes: 8, totalLength: 360 },
+    ],
+    description:
+      'Anthologie slasher : chaque saison une nouvelle histoire avec un tueur.',
+    saga: '',
+    fromEntity: null,
+    countryOrigin: 'Canada',
+  },
+
+  {
+    title: 'Scream Queens',
+    director: 'Ryan Murphy, Brad Falchuk, Ian Brennan',
+    actors: [
+      { name: 'Emma Roberts' },
+      { name: 'Lea Michele' },
+      { name: 'Jamie Lee Curtis' },
+      { name: 'Abigail Breslin' },
+      { name: 'Billie Lourd' },
+    ],
+    coverUrl: '/series_pictures/0ccaf3102967.jpg',
+    releaseDate: '2015-09-22',
+    endDate: '2016-12-20',
+    genre: ['Comédie', 'Horreur'],
+    seasonsData: [
+      { seasonNumber: 1, nbEpisodes: 13, totalLength: 572 },
+      { seasonNumber: 2, nbEpisodes: 10, totalLength: 440 },
+    ],
+    description:
+      'Comédie horreur : une sororité et un hôpital ciblés par un tueur.',
+    saga: '',
+    fromEntity: null,
+    countryOrigin: 'États-Unis',
+  },
+
+  {
+    title: 'Hannah Montana',
+    director: "Michael Poryes, Rich Correll, Barry O'Brien",
+    actors: [
+      { name: 'Miley Cyrus' },
+      { name: 'Emily Osment' },
+      { name: 'Mitchell Musso' },
+      { name: 'Jason Earles' },
+      { name: 'Billy Ray Cyrus' },
+    ],
+    coverUrl: '/series_pictures/2bcc7fac32b2.jpg',
+    releaseDate: '2006-03-24',
+    endDate: '2011-01-16',
+    genre: ['Comédie', 'Famille'],
+    seasonsData: [
+      { seasonNumber: 1, nbEpisodes: 26, totalLength: 572 },
+      { seasonNumber: 2, nbEpisodes: 30, totalLength: 660 },
+      { seasonNumber: 3, nbEpisodes: 30, totalLength: 660 },
+      { seasonNumber: 4, nbEpisodes: 13, totalLength: 286 },
+    ],
+    description:
+      'Une ado mène une double vie : lycéenne et star de la pop Hannah Montana.',
+    saga: '',
+    fromEntity: null,
+    countryOrigin: 'États-Unis',
+  },
+
+  {
+    title: 'Phénomène Raven',
+    director: 'Michael Poryes, Susan Sherman',
+    actors: [
+      { name: 'Raven-Symoné' },
+      { name: 'Orlando Brown' },
+      { name: 'Anneliese van der Pol' },
+      { name: 'Kyle Massey' },
+    ],
+    coverUrl: '/series_pictures/21458539646a.jpg',
+    releaseDate: '2003-01-17',
+    endDate: '2007-11-10',
+    genre: ['Comédie', 'Famille'],
+    seasonsData: [
+      { seasonNumber: 1, nbEpisodes: 21, totalLength: 462 },
+      { seasonNumber: 2, nbEpisodes: 22, totalLength: 484 },
+      { seasonNumber: 3, nbEpisodes: 35, totalLength: 770 },
+      { seasonNumber: 4, nbEpisodes: 22, totalLength: 484 },
+    ],
+    description:
+      'Raven Baxter, ado avec des visions du futur, vit des situations comiques.',
+    saga: '',
+    fromEntity: null,
+    countryOrigin: 'États-Unis',
+  },
+
+  {
+    title: 'Les sorciers de Waverly Place',
+    director: 'Todd J. Greenwald',
+    actors: [
+      { name: 'Selena Gomez' },
+      { name: 'David Henrie' },
+      { name: 'Jake T. Austin' },
+      { name: 'Jennifer Stone' },
+    ],
+    coverUrl: '/series_pictures/cb071f8fa21e.jpg',
+    releaseDate: '2007-10-12',
+    endDate: '2012-01-06',
+    genre: ['Comédie', 'Fantastique'],
+    seasonsData: [
+      { seasonNumber: 1, nbEpisodes: 21, totalLength: 462 },
+      { seasonNumber: 2, nbEpisodes: 30, totalLength: 660 },
+      { seasonNumber: 3, nbEpisodes: 28, totalLength: 616 },
+      { seasonNumber: 4, nbEpisodes: 27, totalLength: 594 },
+    ],
+    description:
+      'Trois frères et sœurs sorciers en formation dans un snack-bar new-yorkais.',
+    saga: '',
+    fromEntity: null,
+    countryOrigin: 'États-Unis',
+  },
+
+  {
+    title: 'La vie de palace de Zack et Cody',
+    director: 'Danny Kallis, Jim Geoghan',
+    actors: [
+      { name: 'Dylan Sprouse' },
+      { name: 'Cole Sprouse' },
+      { name: 'Brenda Song' },
+      { name: 'Ashley Tisdale' },
+      { name: 'Phil Lewis' },
+    ],
+    coverUrl: '/series_pictures/39ea59c896c4.jpg',
+    releaseDate: '2005-03-18',
+    endDate: '2008-09-01',
+    genre: ['Comédie', 'Famille'],
+    seasonsData: [
+      { seasonNumber: 1, nbEpisodes: 26, totalLength: 572 },
+      { seasonNumber: 2, nbEpisodes: 39, totalLength: 858 },
+      { seasonNumber: 3, nbEpisodes: 22, totalLength: 484 },
+    ],
+    description:
+      'Les jumeaux Zack et Cody vivent dans un palace avec leur mère chanteuse.',
+    saga: '',
+    fromEntity: null,
+    countryOrigin: 'États-Unis',
+  },
+
+  {
+    title: 'La vie de croisière de Zack et Cody',
+    director: 'Danny Kallis, Jim Geoghan',
+    actors: [
+      { name: 'Dylan Sprouse' },
+      { name: 'Cole Sprouse' },
+      { name: 'Brenda Song' },
+      { name: 'Debby Ryan' },
+      { name: 'Phil Lewis' },
+    ],
+    coverUrl: '/series_pictures/319e26ca4576.jpg',
+    releaseDate: '2008-09-26',
+    endDate: '2011-05-06',
+    genre: ['Comédie', 'Famille'],
+    seasonsData: [
+      { seasonNumber: 1, nbEpisodes: 21, totalLength: 462 },
+      { seasonNumber: 2, nbEpisodes: 24, totalLength: 528 },
+      { seasonNumber: 3, nbEpisodes: 28, totalLength: 616 },
+    ],
+    description: 'Suite : Zack et Cody en semestre en mer sur le SS Tipton.',
+    saga: '',
+    fromEntity: null,
+    countryOrigin: 'États-Unis',
+  },
+
+  {
+    title: 'Jessie',
+    director: "Pamela Eells O'Connell",
+    actors: [
+      { name: 'Debby Ryan' },
+      { name: 'Peyton List' },
+      { name: 'Cameron Boyce' },
+      { name: 'Karan Brar' },
+      { name: 'Skai Jackson' },
+    ],
+    coverUrl: '/series_pictures/68a4e9851908.jpg',
+    releaseDate: '2011-09-30',
+    endDate: '2015-10-16',
+    genre: ['Comédie', 'Famille'],
+    seasonsData: [
+      { seasonNumber: 1, nbEpisodes: 26, totalLength: 572 },
+      { seasonNumber: 2, nbEpisodes: 28, totalLength: 616 },
+      { seasonNumber: 3, nbEpisodes: 28, totalLength: 616 },
+      { seasonNumber: 4, nbEpisodes: 27, totalLength: 594 },
+    ],
+    description:
+      "Une jeune fille au pair s'occupe de quatre enfants à Manhattan.",
+    saga: '',
+    fromEntity: null,
+    countryOrigin: 'États-Unis',
+  },
+
+  {
+    title: 'Drôle de frère - La guerre des Stevens',
+    director: 'Matt Dearborn',
+    actors: [
+      { name: 'Shia LaBeouf' },
+      { name: 'Christy Carlson Romano' },
+      { name: 'Nick Spano' },
+      { name: 'Tom Virtue' },
+    ],
+    coverUrl: '/series_pictures/17308fdd452f.jpg',
+    releaseDate: '2000-06-17',
+    endDate: '2003-06-02',
+    genre: ['Comédie', 'Famille'],
+    seasonsData: [
+      { seasonNumber: 1, nbEpisodes: 21, totalLength: 462 },
+      { seasonNumber: 2, nbEpisodes: 22, totalLength: 484 },
+      { seasonNumber: 3, nbEpisodes: 21, totalLength: 462 },
+    ],
+    description:
+      'La rivalité entre Louis et Ren Stevens, frère et sœur, au lycée.',
+    saga: '',
+    fromEntity: null,
+    countryOrigin: 'États-Unis',
+  },
+
+  {
+    title: 'Lizzie McGuire',
+    director: 'Terri Minsky',
+    actors: [
+      { name: 'Hilary Duff' },
+      { name: 'Lalaine' },
+      { name: 'Adam Lamberg' },
+      { name: 'Jake Thomas' },
+    ],
+    coverUrl: '/series_pictures/3a0eef530765.jpg',
+    releaseDate: '2001-01-12',
+    endDate: '2004-02-14',
+    genre: ['Comédie', 'Famille'],
+    seasonsData: [
+      { seasonNumber: 1, nbEpisodes: 31, totalLength: 682 },
+      { seasonNumber: 2, nbEpisodes: 34, totalLength: 748 },
+    ],
+    description:
+      'Lizzie McGuire traverse le collège avec ses amis Miranda et Gordo.',
+    saga: '',
+    fromEntity: null,
+    countryOrigin: 'États-Unis',
+  },
+
+  {
+    title: 'Shake It Up',
+    director: 'Chris Thompson',
+    actors: [
+      { name: 'Bella Thorne' },
+      { name: 'Zendaya' },
+      { name: 'Davis Cleveland' },
+      { name: 'Roshon Fegan' },
+    ],
+    coverUrl: '/series_pictures/0dd96c6db670.jpg',
+    releaseDate: '2010-11-07',
+    endDate: '2013-11-10',
+    genre: ['Comédie', 'Musique'],
+    seasonsData: [
+      { seasonNumber: 1, nbEpisodes: 21, totalLength: 462 },
+      { seasonNumber: 2, nbEpisodes: 28, totalLength: 616 },
+      { seasonNumber: 3, nbEpisodes: 29, totalLength: 638 },
+    ],
+    description:
+      'Deux amies danseuses dans l\'émission de télé "Shake It Up, Chicago!".',
+    saga: '',
+    fromEntity: null,
+    countryOrigin: 'États-Unis',
+  },
+
+  {
+    title: 'Austin et Ally',
+    director: 'Kevin Kopelow, Heath Seifert',
+    actors: [
+      { name: 'Ross Lynch' },
+      { name: 'Laura Marano' },
+      { name: 'Raini Rodriguez' },
+      { name: 'Calum Worthy' },
+    ],
+    coverUrl: '/series_pictures/8944c3a677e5.jpg',
+    releaseDate: '2011-12-02',
+    endDate: '2016-01-10',
+    genre: ['Comédie', 'Musique'],
+    seasonsData: [
+      { seasonNumber: 1, nbEpisodes: 26, totalLength: 572 },
+      { seasonNumber: 2, nbEpisodes: 28, totalLength: 616 },
+      { seasonNumber: 3, nbEpisodes: 24, totalLength: 528 },
+      { seasonNumber: 4, nbEpisodes: 24, totalLength: 528 },
+    ],
+    description:
+      'Un chanteur et une auteure-compositrice forment un duo musical.',
+    saga: '',
+    fromEntity: null,
+    countryOrigin: 'États-Unis',
+  },
+
+  {
+    title: 'Phil du futur',
+    director: 'Tim Maile, Douglas Tuber',
+    actors: [
+      { name: 'Ricky Ullman' },
+      { name: 'Alyson Michalka' },
+      { name: 'Amy Bruckner' },
+      { name: 'Craig Anton' },
+    ],
+    coverUrl: '/series_pictures/605ad7fcaa2a.jpg',
+    releaseDate: '2004-06-18',
+    endDate: '2006-08-19',
+    genre: ['Comédie', 'Science-fiction'],
+    seasonsData: [
+      { seasonNumber: 1, nbEpisodes: 21, totalLength: 462 },
+      { seasonNumber: 2, nbEpisodes: 21, totalLength: 462 },
+    ],
+    description:
+      'La famille Diffy du XXIIe siècle est bloquée en 2004 après un accident de machine à voyager.',
+    saga: '',
+    fromEntity: null,
+    countryOrigin: 'États-Unis',
+  },
+
+  {
+    title: 'Cory est dans la place',
+    director: 'Dennis Rinsler, Marc Warren',
+    actors: [
+      { name: 'Kyle Massey' },
+      { name: 'Maiara Walsh' },
+      { name: 'Jason Dolley' },
+      { name: 'Madison Pettis' },
+    ],
+    coverUrl: '/series_pictures/f8778410d178.jpg',
+    releaseDate: '2007-01-12',
+    endDate: '2008-09-12',
+    genre: ['Comédie', 'Famille'],
+    seasonsData: [
+      { seasonNumber: 1, nbEpisodes: 21, totalLength: 462 },
+      { seasonNumber: 2, nbEpisodes: 21, totalLength: 462 },
+    ],
+    description:
+      'Cory Baxter déménage à Washington quand son père devient chef cuisinier du Président.',
+    saga: '',
+    fromEntity: null,
+    countryOrigin: 'États-Unis',
+  },
+
+  /* Liste 2 */
+  {
+    title: 'Sonny',
+    director: 'Steve Marmel',
+    actors: [
+      { name: 'Demi Lovato' },
+      { name: 'Tiffany Thornton' },
+      { name: 'Sterling Knight' },
+      { name: 'Brandon Mychal Smith' },
+    ],
+    coverUrl: '/series_pictures/50d658d50b5e.jpg',
+    releaseDate: '2009-02-08',
+    endDate: '2011-01-02',
+    genre: ['Comédie', 'Famille'],
+    seasonsData: [
+      { seasonNumber: 1, nbEpisodes: 21, totalLength: 462 },
+      { seasonNumber: 2, nbEpisodes: 26, totalLength: 572 },
+    ],
+    description:
+      "Sonny Monroe devient star d'une sitcom à Hollywood (Sonny With a Chance).",
+    saga: '',
+    fromEntity: null,
+    countryOrigin: 'États-Unis',
+  },
+
+  {
+    title: 'Jonas L.A',
+    director: 'Michael Curtis, Roger S. H. Schulman',
+    actors: [
+      { name: 'Kevin Jonas' },
+      { name: 'Joe Jonas' },
+      { name: 'Nick Jonas' },
+      { name: 'Chelsea Staub' },
+    ],
+    coverUrl: '/series_pictures/d4471eb02fc7.jpg',
+    releaseDate: '2009-05-02',
+    endDate: '2010-10-03',
+    genre: ['Comédie', 'Musique'],
+    seasonsData: [
+      { seasonNumber: 1, nbEpisodes: 21, totalLength: 462 },
+      { seasonNumber: 2, nbEpisodes: 13, totalLength: 286 },
+    ],
+    description:
+      "Les Jonas Brothers jouent une version fictive d'eux-mêmes à Los Angeles.",
+    saga: '',
+    fromEntity: null,
+    countryOrigin: 'États-Unis',
+  },
+
+  {
+    title: 'Bonne chance Charlie',
+    director: 'Phil Baker, Drew Vaupen',
+    actors: [
+      { name: 'Bridgit Mendler' },
+      { name: 'Leigh-Allyn Baker' },
+      { name: 'Bradley Steven Perry' },
+      { name: 'Mia Talerico' },
+    ],
+    coverUrl: '/series_pictures/e1439b673ed6.jpg',
+    releaseDate: '2010-04-04',
+    endDate: '2014-02-16',
+    genre: ['Comédie', 'Famille'],
+    seasonsData: [
+      { seasonNumber: 1, nbEpisodes: 26, totalLength: 572 },
+      { seasonNumber: 2, nbEpisodes: 30, totalLength: 660 },
+      { seasonNumber: 3, nbEpisodes: 23, totalLength: 506 },
+      { seasonNumber: 4, nbEpisodes: 21, totalLength: 462 },
+    ],
+    description:
+      'Teddy Duncan enregistre des vidéos de conseils pour sa petite sœur Charlie.',
+    saga: '',
+    fromEntity: null,
+    countryOrigin: 'États-Unis',
+  },
+
+  {
+    title: 'Section Genius',
+    director: 'Dan Signer',
+    actors: [],
+    coverUrl: '/series_pictures/f99a95434f17.jpg',
+    releaseDate: '',
+    endDate: '',
+    genre: ['Comédie', 'Famille'],
+    seasonsData: [{ seasonNumber: 1, nbEpisodes: 1, totalLength: 0 }],
+    description: '',
+    saga: '',
+    fromEntity: null,
+    countryOrigin: '',
+  },
+
+  {
+    title: 'Violetta',
+    director: 'Jorge Nisco, Martín Saban',
+    actors: [
+      { name: 'Martina Stoessel' },
+      { name: 'Jorge Blanco' },
+      { name: 'Diego Domínguez' },
+      { name: 'Mercedes Lambre' },
+    ],
+    coverUrl: '/series_pictures/e91918fc9fcf.jpg',
+    releaseDate: '2012-05-14',
+    endDate: '2015-02-06',
+    genre: ['Comédie musicale', 'Drame'],
+    seasonsData: [
+      { seasonNumber: 1, nbEpisodes: 80, totalLength: 2400 },
+      { seasonNumber: 2, nbEpisodes: 80, totalLength: 2400 },
+      { seasonNumber: 3, nbEpisodes: 80, totalLength: 2400 },
+    ],
+    description:
+      "Violetta revient à Buenos Aires et découvre la musique et l'amour.",
+    saga: '',
+    fromEntity: null,
+    countryOrigin: 'Argentine',
   },
 ];

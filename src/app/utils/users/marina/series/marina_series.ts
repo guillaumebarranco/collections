@@ -1846,7 +1846,7 @@ export const marinaSeries: UserSerie[] = [
     loaned: '',
   },
 
-  /* Séries ajoutées depuis base_series_from_marina */
+  /* Séries issues des listes Marina (catalogue base_series / base_series_animees) */
   {
     title: "Les maîtres de l'horreur",
     director: 'Mick Garris',

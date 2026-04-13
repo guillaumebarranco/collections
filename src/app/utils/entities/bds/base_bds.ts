@@ -706,7 +706,8 @@ export const baseBds: BaseBd[] = [
     title: "L'Élève Ducobu - Tome 1 - Un copieur sachant copier !",
     writer: 'Godi',
     designer: 'Godi',
-    coverUrl: '/bds_pictures/ducobu-tome-1-un-copieur-sachant-copier.jpg',
+    coverUrl:
+      'https://bdi.dlpdomain.com/album/9782803619146/couv/M655x918/ducobu-un-copieur-sachant-copier.jpg',
     releaseDate: '1997-01-01',
     pages: 48,
     genre: 'Humour',
@@ -718,7 +719,8 @@ export const baseBds: BaseBd[] = [
     title: "L'Élève Ducobu - Tome 3 - Les réponses ou la vie ?",
     writer: 'Godi',
     designer: 'Godi',
-    coverUrl: '/bds_pictures/ducobu-tome-3-les-reponses-ou-la-vie.jpg',
+    coverUrl:
+      'https://bdi.dlpdomain.com/album/9782803619498/couv/M655x918/ducobu-les-reponses-ou-la-vie.jpg',
     releaseDate: '1998-01-01',
     pages: 48,
     genre: 'Humour',
@@ -730,7 +732,8 @@ export const baseBds: BaseBd[] = [
     title: "L'Élève Ducobu - Tome 6 - Un amour de potache",
     writer: 'Godi',
     designer: 'Godi',
-    coverUrl: '/bds_pictures/ducobu-tome-6-un-amour-de-potache.jpg',
+    coverUrl:
+      'https://bdi.dlpdomain.com/album/9782803616251/couv/M655x918/ducobu-un-amour-de-potache.jpg',
     releaseDate: '2001-01-01',
     pages: 48,
     genre: 'Humour',
@@ -742,7 +745,8 @@ export const baseBds: BaseBd[] = [
     title: "L'Élève Ducobu - Tome 10 - Miss Dix sur Dix",
     writer: 'Godi',
     designer: 'Godi',
-    coverUrl: '/bds_pictures/ducobu-tome-10-miss-dix-sur-dix.jpg',
+    coverUrl:
+      'https://bdi.dlpdomain.com/album/9782803619672/couv/M655x918/ducobu-miss-dix-sur-dix.jpg',
     releaseDate: '2004-01-01',
     pages: 48,
     genre: 'Humour',
@@ -754,7 +758,8 @@ export const baseBds: BaseBd[] = [
     title: "L'Élève Ducobu - Tome 12 - 280 de Q.I. !",
     writer: 'Godi',
     designer: 'Godi',
-    coverUrl: '/bds_pictures/ducobu-tome-12-280-de-qi.jpg',
+    coverUrl:
+      'https://bdi.dlpdomain.com/album/9782803621804/couv/M655x918/ducobu-280-de-qi.jpg',
     releaseDate: '2006-01-01',
     pages: 48,
     genre: 'Humour',
@@ -764,10 +769,11 @@ export const baseBds: BaseBd[] = [
   },
   /* Titeuf – Zep */
   {
-    title: "Titeuf - Tome 1 - C'est po juste !",
+    title: 'Titeuf - Tome 1 - Dieux, le sexe, et les bretelles',
     writer: 'Zep',
     designer: 'Zep',
-    coverUrl: '/bds_pictures/titeuf-tome-1-cest-po-juste.jpg',
+    coverUrl:
+      'https://cdn.cultura.com/cdn-cgi/image/width=830/media/pim/TITELIVE/61_9782723477055_1_75.jpg',
     releaseDate: '1993-01-01',
     pages: 48,
     genre: 'Jeunesse',
@@ -779,7 +785,7 @@ export const baseBds: BaseBd[] = [
     title: "Titeuf - Tome 2 - L'amour, c'est po propre !",
     writer: 'Zep',
     designer: 'Zep',
-    coverUrl: '/bds_pictures/titeuf-tome-2-lamour-cest-po-propre.jpg',
+    coverUrl: 'https://m.media-amazon.com/images/I/91Zw8Z-WpFL.jpg',
     releaseDate: '1994-01-01',
     pages: 48,
     genre: 'Jeunesse',
@@ -788,10 +794,11 @@ export const baseBds: BaseBd[] = [
     sagaOrder: 2,
   },
   {
-    title: 'Titeuf - Tome 3 - Ça bulle !',
+    title: 'Titeuf - Tome 3 - Ça épate les filles !',
     writer: 'Zep',
     designer: 'Zep',
-    coverUrl: '/bds_pictures/titeuf-tome-3-ca-bulle.jpg',
+    coverUrl:
+      'https://media.hachette.fr/imgArticle/GLENAT/2021/9782723417433-001-X.jpeg?source=web&v=93d93c9f1676c5544f36fd43cd2dc7c7',
     releaseDate: '1995-01-01',
     pages: 48,
     genre: 'Jeunesse',
@@ -803,7 +810,8 @@ export const baseBds: BaseBd[] = [
     title: "Titeuf - Tome 4 - C'est pô juste...",
     writer: 'Zep',
     designer: 'Zep',
-    coverUrl: '/bds_pictures/titeuf-tome-4-cest-po-juste.jpg',
+    coverUrl:
+      'https://m.media-amazon.com/images/I/810XtLnQL5L._AC_UF1000,1000_QL80_.jpg',
     releaseDate: '1996-01-01',
     pages: 48,
     genre: 'Jeunesse',
@@ -812,10 +820,11 @@ export const baseBds: BaseBd[] = [
     sagaOrder: 4,
   },
   {
-    title: 'Titeuf - Tome 5 - À fond la caisse',
+    title: 'Titeuf - Tome 5 - Le derrière des choses',
     writer: 'Zep',
     designer: 'Zep',
-    coverUrl: '/bds_pictures/titeuf-tome-5-a-fond-la-caisse.jpg',
+    coverUrl:
+      'https://cdn.cultura.com/cdn-cgi/image/width=830/media/pim/TITELIVE/13_9782723421362_1_75.jpg',
     releaseDate: '1998-01-01',
     pages: 48,
     genre: 'Jeunesse',
@@ -827,7 +836,7 @@ export const baseBds: BaseBd[] = [
     title: 'Titeuf - Tome 6 - Tchô, monde cruel !',
     writer: 'Zep',
     designer: 'Zep',
-    coverUrl: '/bds_pictures/titeuf-tome-6-tcho-monde-cruel.jpg',
+    coverUrl: 'https://m.media-amazon.com/images/I/915Ia-pGyWL.jpg',
     releaseDate: '1999-01-01',
     pages: 48,
     genre: 'Jeunesse',
@@ -836,10 +845,11 @@ export const baseBds: BaseBd[] = [
     sagaOrder: 6,
   },
   {
-    title: 'Titeuf - Tome 7 - Mission super-trans',
+    title: 'Titeuf - Tome 7 - Le miracle de la vie',
     writer: 'Zep',
     designer: 'Zep',
-    coverUrl: '/bds_pictures/titeuf-tome-7-mission-super-trans.jpg',
+    coverUrl:
+      'https://m.media-amazon.com/images/I/81eneBWs4EL._UF1000,1000_QL80_.jpg',
     releaseDate: '2000-01-01',
     pages: 48,
     genre: 'Jeunesse',
@@ -848,10 +858,11 @@ export const baseBds: BaseBd[] = [
     sagaOrder: 7,
   },
   {
-    title: 'Titeuf - Tome 8 - Lâchez-moi la grappe !',
+    title: 'Titeuf - Tome 8 - Lâchez-moi le slip !',
     writer: 'Zep',
     designer: 'Zep',
-    coverUrl: '/bds_pictures/titeuf-tome-8-lachez-moi-la-grappe.jpg',
+    coverUrl:
+      'https://cdn.cultura.com/cdn-cgi/image/width=830/media/pim/TITELIVE/10_9782723432696_1_75.jpg',
     releaseDate: '2002-01-01',
     pages: 48,
     genre: 'Jeunesse',
@@ -863,7 +874,8 @@ export const baseBds: BaseBd[] = [
     title: 'Titeuf - Tome 9 - La loi du préau',
     writer: 'Zep',
     designer: 'Zep',
-    coverUrl: '/bds_pictures/titeuf-tome-9-la-loi-du-preau.jpg',
+    coverUrl:
+      'https://media.hachette.fr/fit-in/500x500/imgArticle/GLENAT/2013/9782723434249-X.jpg?source=web&v=98ba8bb62866bc0578e0bf86c0b40930',
     releaseDate: '2004-01-01',
     pages: 48,
     genre: 'Jeunesse',
@@ -875,8 +887,7 @@ export const baseBds: BaseBd[] = [
     title: 'Tara Duncan - Tome 1 - La sirène muette',
     writer: 'Véronique Grisseaux',
     designer: 'Chloé Citrine, Emma Vieceli',
-    coverUrl:
-      '/bds_pictures/689596a5b19e.jpg',
+    coverUrl: '/bds_pictures/689596a5b19e.jpg',
     releaseDate: '2010-09-01',
     pages: 48,
     genre: 'Fantasy',
@@ -888,8 +899,7 @@ export const baseBds: BaseBd[] = [
     title: 'Tara Duncan - Tome 2 - La licorne décornée',
     writer: 'Véronique Grisseaux',
     designer: 'Chloé Citrine, Emma Vieceli',
-    coverUrl:
-      '/bds_pictures/3b2a706221c3.jpg',
+    coverUrl: '/bds_pictures/3b2a706221c3.jpg',
     releaseDate: '2011-06-01',
     pages: 48,
     genre: 'Fantasy',

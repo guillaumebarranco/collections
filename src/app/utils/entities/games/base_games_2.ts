@@ -6,8 +6,7 @@ export const baseGames2: BaseGame[] = [
     title: 'Final Fantasy',
     editor: 'Square Enix',
     hero: 'Guerriers de la lumière',
-    coverUrl:
-      '/games_pictures/b738633f6683.jpg',
+    coverUrl: '/games_pictures/b738633f6683.jpg',
     releaseDate: '1987-12-18',
     averageTimeToFinish: 15,
     averageTimeToHundredPercent: 25,
@@ -77,8 +76,7 @@ export const baseGames2: BaseGame[] = [
     title: 'Final Fantasy VI',
     editor: 'Square Enix',
     hero: 'Terra Branford',
-    coverUrl:
-      'https://pics.filmaffinity.com/Final_Fantasy_VI-545552566-mmed.jpg',
+    coverUrl: '/games_pictures/Final_Fantasy_VI-545552566-mmed.jpg',
     releaseDate: '1994-04-02',
     averageTimeToFinish: 25,
     averageTimeToHundredPercent: 45,
@@ -582,8 +580,7 @@ export const baseGames2: BaseGame[] = [
     title: 'Final Fantasy Crystal Chronicles',
     editor: 'Square Enix',
     hero: 'Caravaniers',
-    coverUrl:
-      '/games_pictures/89471ec407af.jpg',
+    coverUrl: '/games_pictures/89471ec407af.jpg',
     releaseDate: '2003-08-08',
     averageTimeToFinish: 18,
     averageTimeToHundredPercent: 35,
@@ -1258,8 +1255,7 @@ export const baseGames2: BaseGame[] = [
     title: 'Ratchet & Clank Future: Quest for Booty',
     editor: 'Insomniac Games',
     hero: 'Ratchet',
-    coverUrl:
-      '/games_pictures/ebf87513eab1.png',
+    coverUrl: '/games_pictures/ebf87513eab1.png',
     releaseDate: '2008-08-21',
     averageTimeToFinish: 4,
     averageTimeToHundredPercent: 8,
@@ -1718,8 +1714,7 @@ export const baseGames2: BaseGame[] = [
     title: 'Super Street Fighter II',
     editor: 'Capcom',
     hero: 'Ryu',
-    coverUrl:
-      '/games_pictures/f2bff4029baa.png',
+    coverUrl: '/games_pictures/f2bff4029baa.png',
     releaseDate: '1993-09-10',
     averageTimeToFinish: 2,
     averageTimeToHundredPercent: 10,
@@ -1733,8 +1728,7 @@ export const baseGames2: BaseGame[] = [
     title: 'Street Fighter Alpha',
     editor: 'Capcom',
     hero: 'Ryu',
-    coverUrl:
-      '/games_pictures/3d8b503cafe8.png',
+    coverUrl: '/games_pictures/3d8b503cafe8.png',
     releaseDate: '1995-05-25',
     averageTimeToFinish: 2,
     averageTimeToHundredPercent: 10,
@@ -2036,8 +2030,7 @@ export const baseGames2: BaseGame[] = [
     title: 'Halo Reach',
     editor: 'Bungie',
     hero: 'Noble Six',
-    coverUrl:
-      '/games_pictures/407a1b1cd80a.png',
+    coverUrl: '/games_pictures/407a1b1cd80a.png',
     releaseDate: '2010-09-14',
     averageTimeToFinish: 9,
     averageTimeToHundredPercent: 22,
@@ -2079,8 +2072,7 @@ export const baseGames2: BaseGame[] = [
     title: 'Halo Infinite',
     editor: '343 Industries',
     hero: 'Master Chief',
-    coverUrl:
-      '/games_pictures/1d59972f93f3.png',
+    coverUrl: '/games_pictures/1d59972f93f3.png',
     releaseDate: '2021-12-08',
     averageTimeToFinish: 12,
     averageTimeToHundredPercent: 40,
@@ -2122,8 +2114,7 @@ export const baseGames2: BaseGame[] = [
     title: 'Halo: Spartan Assault',
     editor: '343 Industries',
     hero: 'Spartan',
-    coverUrl:
-      '/games_pictures/c0bf433a13a7.png',
+    coverUrl: '/games_pictures/c0bf433a13a7.png',
     releaseDate: '2013-07-18',
     averageTimeToFinish: 4,
     averageTimeToHundredPercent: 10,
@@ -2193,8 +2184,7 @@ export const baseGames2: BaseGame[] = [
     title: 'World of Warcraft',
     editor: 'Blizzard Entertainment',
     hero: 'Aventurier',
-    coverUrl:
-      '/games_pictures/7235d31f7c7a.png',
+    coverUrl: '/games_pictures/7235d31f7c7a.png',
     releaseDate: '2004-11-23',
     averageTimeToFinish: 120,
     averageTimeToHundredPercent: 400,
@@ -2391,8 +2381,7 @@ export const baseGames2: BaseGame[] = [
     title: 'Diablo III',
     editor: 'Blizzard Entertainment',
     hero: 'Aventurier',
-    coverUrl:
-      '/games_pictures/6d9b74e3cf9d.png',
+    coverUrl: '/games_pictures/6d9b74e3cf9d.png',
     releaseDate: '2012-05-15',
     averageTimeToFinish: 15,
     averageTimeToHundredPercent: 80,
@@ -2434,8 +2423,7 @@ export const baseGames2: BaseGame[] = [
     title: 'StarCraft',
     editor: 'Blizzard Entertainment',
     hero: 'Jim Raynor',
-    coverUrl:
-      '/games_pictures/61980b2d4a08.jpg',
+    coverUrl: '/games_pictures/61980b2d4a08.jpg',
     releaseDate: '1998-03-31',
     averageTimeToFinish: 20,
     averageTimeToHundredPercent: 45,
@@ -2533,8 +2521,7 @@ export const baseGames2: BaseGame[] = [
     title: 'Metroid',
     editor: 'Nintendo',
     hero: 'Samus Aran',
-    coverUrl:
-      '/games_pictures/df296c6296f4.jpg',
+    coverUrl: '/games_pictures/df296c6296f4.jpg',
     releaseDate: '1986-08-06',
     averageTimeToFinish: 6,
     averageTimeToHundredPercent: 10,
@@ -2576,8 +2563,7 @@ export const baseGames2: BaseGame[] = [
     title: 'Metroid: Other M',
     editor: 'Team Ninja',
     hero: 'Samus Aran',
-    coverUrl:
-      '/games_pictures/e20bf30df0eb.jpg',
+    coverUrl: '/games_pictures/e20bf30df0eb.jpg',
     releaseDate: '2010-08-31',
     averageTimeToFinish: 10,
     averageTimeToHundredPercent: 18,
@@ -2862,8 +2848,7 @@ export const baseGames2: BaseGame[] = [
     title: 'Counter-Strike: Source',
     editor: 'Valve',
     hero: 'Terroriste / CT',
-    coverUrl:
-      '/games_pictures/0a912822b5d6.jpg',
+    coverUrl: '/games_pictures/0a912822b5d6.jpg',
     releaseDate: '2004-11-01',
     averageTimeToFinish: 0,
     averageTimeToHundredPercent: 0,
@@ -3130,8 +3115,7 @@ export const baseGames2: BaseGame[] = [
     title: 'Persona 3 Reload',
     editor: 'Atlus',
     hero: 'Protagoniste',
-    coverUrl:
-      '/games_pictures/e15f11964f50.jpg',
+    coverUrl: '/games_pictures/e15f11964f50.jpg',
     releaseDate: '2024-02-02',
     averageTimeToFinish: 55,
     averageTimeToHundredPercent: 100,
@@ -3145,8 +3129,7 @@ export const baseGames2: BaseGame[] = [
     title: 'Persona 4',
     editor: 'Atlus',
     hero: 'Yu Narukami',
-    coverUrl:
-      '/games_pictures/7c50e61bfcae.jpg',
+    coverUrl: '/games_pictures/7c50e61bfcae.jpg',
     releaseDate: '2008-07-10',
     averageTimeToFinish: 55,
     averageTimeToHundredPercent: 100,
@@ -3174,8 +3157,7 @@ export const baseGames2: BaseGame[] = [
     title: 'Persona 4 Arena',
     editor: 'Arc System Works',
     hero: 'Yu Narukami',
-    coverUrl:
-      '/games_pictures/e8bac12befb8.png',
+    coverUrl: '/games_pictures/e8bac12befb8.png',
     releaseDate: '2012-07-26',
     averageTimeToFinish: 3,
     averageTimeToHundredPercent: 15,
@@ -3203,8 +3185,7 @@ export const baseGames2: BaseGame[] = [
     title: 'Persona 4: Dancing All Night',
     editor: 'Atlus',
     hero: 'Yu Narukami',
-    coverUrl:
-      '/games_pictures/3d1c373b5323.jpg',
+    coverUrl: '/games_pictures/3d1c373b5323.jpg',
     releaseDate: '2015-06-25',
     averageTimeToFinish: 8,
     averageTimeToHundredPercent: 20,
@@ -3303,8 +3284,7 @@ export const baseGames2: BaseGame[] = [
     title: 'Kingdom Hearts',
     editor: 'Square Enix',
     hero: 'Sora',
-    coverUrl:
-      '/games_pictures/f2b87e139364.jpg',
+    coverUrl: '/games_pictures/f2b87e139364.jpg',
     releaseDate: '2002-03-28',
     averageTimeToFinish: 28,
     averageTimeToHundredPercent: 55,
@@ -3516,8 +3496,7 @@ export const baseGames2: BaseGame[] = [
     title: 'Half-Life 2',
     editor: 'Valve',
     hero: 'Gordon Freeman',
-    coverUrl:
-      '/games_pictures/00c0232e7f16.jpg',
+    coverUrl: '/games_pictures/00c0232e7f16.jpg',
     releaseDate: '2004-11-16',
     averageTimeToFinish: 14,
     averageTimeToHundredPercent: 22,
@@ -3545,8 +3524,7 @@ export const baseGames2: BaseGame[] = [
     title: 'Half-Life 2: Episode Two',
     editor: 'Valve',
     hero: 'Gordon Freeman',
-    coverUrl:
-      '/games_pictures/9bfd392b0c54.jpg',
+    coverUrl: '/games_pictures/9bfd392b0c54.jpg',
     releaseDate: '2007-10-10',
     averageTimeToFinish: 5,
     averageTimeToHundredPercent: 10,
@@ -3560,8 +3538,7 @@ export const baseGames2: BaseGame[] = [
     title: 'Half-Life: Alyx',
     editor: 'Valve',
     hero: 'Alyx Vance',
-    coverUrl:
-      '/games_pictures/d5b371059c01.jpg',
+    coverUrl: '/games_pictures/d5b371059c01.jpg',
     releaseDate: '2020-03-23',
     averageTimeToFinish: 12,
     averageTimeToHundredPercent: 18,
@@ -3634,8 +3611,7 @@ export const baseGames2: BaseGame[] = [
     title: 'Bridge Constructor Portal',
     editor: 'ClockStone',
     hero: 'Aperture',
-    coverUrl:
-      '/games_pictures/eaf27ad68452.jpg',
+    coverUrl: '/games_pictures/eaf27ad68452.jpg',
     releaseDate: '2017-12-20',
     averageTimeToFinish: 8,
     averageTimeToHundredPercent: 15,
@@ -3663,8 +3639,7 @@ export const baseGames2: BaseGame[] = [
     title: 'Prototype 2',
     editor: 'Radical Entertainment',
     hero: 'James Heller',
-    coverUrl:
-      '/games_pictures/e80c76262619.jpg',
+    coverUrl: '/games_pictures/e80c76262619.jpg',
     releaseDate: '2012-04-24',
     averageTimeToFinish: 12,
     averageTimeToHundredPercent: 30,
@@ -4690,8 +4665,7 @@ export const baseGames2: BaseGame[] = [
     title: 'Crash Bandicoot',
     editor: 'Naughty Dog',
     hero: 'Crash Bandicoot',
-    coverUrl:
-      '/games_pictures/4b77f728ca98.png',
+    coverUrl: '/games_pictures/4b77f728ca98.png',
     releaseDate: '1996-09-09',
     averageTimeToFinish: 8,
     averageTimeToHundredPercent: 15,
@@ -4705,8 +4679,7 @@ export const baseGames2: BaseGame[] = [
     title: 'Crash Bandicoot 2: Cortex Strikes Back',
     editor: 'Naughty Dog',
     hero: 'Crash Bandicoot',
-    coverUrl:
-      '/games_pictures/59e73d304ab5.jpg',
+    coverUrl: '/games_pictures/59e73d304ab5.jpg',
     releaseDate: '1997-10-31',
     averageTimeToFinish: 8,
     averageTimeToHundredPercent: 16,
@@ -4735,8 +4708,7 @@ export const baseGames2: BaseGame[] = [
     title: 'Crash Team Racing',
     editor: 'Naughty Dog',
     hero: 'Crash Bandicoot',
-    coverUrl:
-      '/games_pictures/1c5a52f61c51.png',
+    coverUrl: '/games_pictures/1c5a52f61c51.png',
     releaseDate: '1999-09-30',
     averageTimeToFinish: 6,
     averageTimeToHundredPercent: 18,
@@ -4896,8 +4868,7 @@ export const baseGames2: BaseGame[] = [
     title: 'Captain Tsubasa',
     editor: 'Tecmo',
     hero: 'Tsubasa Ozora',
-    coverUrl:
-      '/games_pictures/149636b90ae2.jpg',
+    coverUrl: '/games_pictures/149636b90ae2.jpg',
     releaseDate: '1988-04-28',
     averageTimeToFinish: 12,
     averageTimeToHundredPercent: 25,
@@ -4915,8 +4886,7 @@ export const baseGames2: BaseGame[] = [
     title: 'Captain Tsubasa II: Super Striker',
     editor: 'Tecmo',
     hero: 'Tsubasa Ozora',
-    coverUrl:
-      '/games_pictures/1732bdbb8f11.jpg',
+    coverUrl: '/games_pictures/1732bdbb8f11.jpg',
     releaseDate: '1990-07-20',
     averageTimeToFinish: 15,
     averageTimeToHundredPercent: 30,
@@ -4934,8 +4904,7 @@ export const baseGames2: BaseGame[] = [
     title: 'Captain Tsubasa III: Koutei no Chousen',
     editor: 'Tecmo',
     hero: 'Tsubasa Ozora',
-    coverUrl:
-      '/games_pictures/425126082959.jpg',
+    coverUrl: '/games_pictures/425126082959.jpg',
     releaseDate: '1992-07-17',
     averageTimeToFinish: 18,
     averageTimeToHundredPercent: 35,
@@ -4972,8 +4941,7 @@ export const baseGames2: BaseGame[] = [
     title: 'Captain Tsubasa VS',
     editor: 'Tecmo',
     hero: 'Tsubasa Ozora',
-    coverUrl:
-      '/games_pictures/2ddbdd9955d0.jpg',
+    coverUrl: '/games_pictures/2ddbdd9955d0.jpg',
     releaseDate: '1992-03-20',
     averageTimeToFinish: 8,
     averageTimeToHundredPercent: 18,
@@ -4991,8 +4959,7 @@ export const baseGames2: BaseGame[] = [
     title: 'Captain Tsubasa V: Hasha no Shogo Campione',
     editor: 'Tecmo',
     hero: 'Tsubasa Ozora',
-    coverUrl:
-      '/games_pictures/6e79afd55990.jpg',
+    coverUrl: '/games_pictures/6e79afd55990.jpg',
     releaseDate: '1994-12-09',
     averageTimeToFinish: 20,
     averageTimeToHundredPercent: 40,
@@ -5010,8 +4977,7 @@ export const baseGames2: BaseGame[] = [
     title: 'Tecmo Cup Football Game',
     editor: 'Tecmo',
     hero: 'Tsubasa Ozora',
-    coverUrl:
-      '/games_pictures/a8bc7eaebb1e.jpg',
+    coverUrl: '/games_pictures/a8bc7eaebb1e.jpg',
     releaseDate: '1993-06-11',
     averageTimeToFinish: 10,
     averageTimeToHundredPercent: 22,
@@ -5067,8 +5033,7 @@ export const baseGames2: BaseGame[] = [
     title: 'Captain Tsubasa J: Get in the Tomorrow',
     editor: 'Bandai',
     hero: 'Tsubasa Ozora',
-    coverUrl:
-      '/games_pictures/a2d92e2bdd90.jpg',
+    coverUrl: '/games_pictures/a2d92e2bdd90.jpg',
     releaseDate: '1996-05-03',
     averageTimeToFinish: 14,
     averageTimeToHundredPercent: 28,
@@ -5123,8 +5088,7 @@ export const baseGames2: BaseGame[] = [
     title: 'Captain Tsubasa: Eikou no Kiseki',
     editor: 'Konami',
     hero: 'Tsubasa Ozora',
-    coverUrl:
-      '/games_pictures/8934aaa99acf.jpg',
+    coverUrl: '/games_pictures/8934aaa99acf.jpg',
     releaseDate: '2002-02-21',
     averageTimeToFinish: 10,
     averageTimeToHundredPercent: 22,
@@ -5142,8 +5106,7 @@ export const baseGames2: BaseGame[] = [
     title: 'Captain Tsubasa: Ogon Sedai no Chosen',
     editor: 'Konami',
     hero: 'Tsubasa Ozora',
-    coverUrl:
-      '/games_pictures/34f88d47689f.jpg',
+    coverUrl: '/games_pictures/34f88d47689f.jpg',
     releaseDate: '2002-09-12',
     averageTimeToFinish: 12,
     averageTimeToHundredPercent: 28,
@@ -5161,8 +5124,7 @@ export const baseGames2: BaseGame[] = [
     title: 'Captain Tsubasa: Gekito no Kiseki',
     editor: 'Konami',
     hero: 'Tsubasa Ozora',
-    coverUrl:
-      '/games_pictures/93f7365cc4f0.jpg',
+    coverUrl: '/games_pictures/93f7365cc4f0.jpg',
     releaseDate: '2010-05-20',
     averageTimeToFinish: 10,
     averageTimeToHundredPercent: 24,
@@ -5180,8 +5142,7 @@ export const baseGames2: BaseGame[] = [
     title: 'Captain Tsubasa: Dream Team',
     editor: 'KLab',
     hero: 'Tsubasa Ozora',
-    coverUrl:
-      '/games_pictures/629c275f11d6.jpg',
+    coverUrl: '/games_pictures/629c275f11d6.jpg',
     releaseDate: '2017-06-13',
     averageTimeToFinish: 40,
     averageTimeToHundredPercent: 120,
@@ -5199,8 +5160,7 @@ export const baseGames2: BaseGame[] = [
     title: 'Captain Tsubasa ZERO: Kimero! Miracle Shot',
     editor: 'Bushiroad',
     hero: 'Tsubasa Ozora',
-    coverUrl:
-      '/games_pictures/ec4f5bf4cf27.jpg',
+    coverUrl: '/games_pictures/ec4f5bf4cf27.jpg',
     releaseDate: '2018-09-17',
     averageTimeToFinish: 25,
     averageTimeToHundredPercent: 80,
@@ -5236,8 +5196,7 @@ export const baseGames2: BaseGame[] = [
     title: 'Captain Tsubasa: Ace',
     editor: 'Program Twenty Three',
     hero: 'Tsubasa Ozora',
-    coverUrl:
-      '/games_pictures/52d98a35099a.jpg',
+    coverUrl: '/games_pictures/52d98a35099a.jpg',
     releaseDate: '2023-12-05',
     averageTimeToFinish: 20,
     averageTimeToHundredPercent: 60,
