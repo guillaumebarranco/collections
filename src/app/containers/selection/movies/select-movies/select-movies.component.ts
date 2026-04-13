@@ -1,7 +1,7 @@
 import { Component, signal, computed, inject, OnInit } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { MenuComponent } from '../../../../components/menu/menu.component';
-import { BaseMovie, Movie } from '../../../../models/movie-model';
+import { Movie } from '../../../../models/movie-model';
 import {
   getAllBaseMovies,
   getCurrentWatchlistMoviesByUser,
@@ -60,16 +60,21 @@ export class SelectMoviesComponent
     return new Set(watchlistMovies.map((movie) => this.getMovieKey(movie)));
   });
 
-  // Tous les films proposés : ni déjà vus, ni déjà en watchlist
+  // Tous les films proposés : ni déjà vus, ni déjà en watchlist.
+  // Tri par selectDisplayOrder décroissant ; à égalité, ordre inchangé (sort stable).
   allMovies = computed<Movie[]>(() => {
     if (this.isCinemaMode()) {
       return this.userMovies();
     }
     const allMoviesList = this.allMoviesMergedList();
-    return allMoviesList.filter(
+    const filtered = allMoviesList.filter(
       (movie) =>
         !this.watchedMovies().has(this.getMovieKey(movie)) &&
         !this.alreadyInWatchlistMovies().has(this.getMovieKey(movie))
+    );
+    return [...filtered].sort(
+      (a, b) =>
+        (b.selectDisplayOrder ?? 0) - (a.selectDisplayOrder ?? 0)
     );
   });
 

@@ -13,6 +13,7 @@ export const baseMoviesAnimated2: BaseMovie[] = [
     description: '',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
+    selectDisplayOrder: 25,
   },
   {
     title: 'Blanche-Neige et les Sept Nains',
@@ -26,6 +27,7 @@ export const baseMoviesAnimated2: BaseMovie[] = [
     description: '',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
+    selectDisplayOrder: 25,
   },
   {
     title: 'Cendrillon',
@@ -39,6 +41,7 @@ export const baseMoviesAnimated2: BaseMovie[] = [
     description: '',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
+    selectDisplayOrder: 25,
   },
   {
     title: 'Pierre et le Loup',
@@ -52,6 +55,7 @@ export const baseMoviesAnimated2: BaseMovie[] = [
     description: '',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
+    selectDisplayOrder: 25,
   },
   {
     title: 'Les Trois Caballeros',
@@ -66,6 +70,7 @@ export const baseMoviesAnimated2: BaseMovie[] = [
     description: '',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
+    selectDisplayOrder: 25,
   },
   {
     title: 'Saludos Amigos',
@@ -80,6 +85,7 @@ export const baseMoviesAnimated2: BaseMovie[] = [
     description: '',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
+    selectDisplayOrder: 25,
   },
   {
     title: 'Bambi',
@@ -93,6 +99,7 @@ export const baseMoviesAnimated2: BaseMovie[] = [
     description: '',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
+    selectDisplayOrder: 25,
   },
   {
     title: 'Dumbo',
@@ -106,6 +113,7 @@ export const baseMoviesAnimated2: BaseMovie[] = [
     description: '',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
+    selectDisplayOrder: 25,
   },
   {
     title: 'Fantasia',
@@ -126,6 +134,7 @@ export const baseMoviesAnimated2: BaseMovie[] = [
     description: '',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
+    selectDisplayOrder: 25,
   },
   {
     title: 'Alice au pays des merveilles',
@@ -139,6 +148,7 @@ export const baseMoviesAnimated2: BaseMovie[] = [
     description: '',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
+    selectDisplayOrder: 25,
   },
   {
     title: 'La Belle au bois dormant',
@@ -152,6 +162,7 @@ export const baseMoviesAnimated2: BaseMovie[] = [
     description: '',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
+    selectDisplayOrder: 25,
   },
   {
     title: 'La Belle et le Clochard',
@@ -165,6 +176,7 @@ export const baseMoviesAnimated2: BaseMovie[] = [
     description: '',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
+    selectDisplayOrder: 25,
   },
   {
     title: 'Le Livre de la jungle',
@@ -178,6 +190,7 @@ export const baseMoviesAnimated2: BaseMovie[] = [
     description: '',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
+    selectDisplayOrder: 25,
   },
   {
     title: 'Nausicaä de la Vallée du Vent',
@@ -191,6 +204,7 @@ export const baseMoviesAnimated2: BaseMovie[] = [
     description: '',
     fromEntity: null,
     countryOrigin: ['Japon'],
+    selectDisplayOrder: 25,
   },
   {
     title: 'Le Château dans le ciel',
@@ -204,6 +218,7 @@ export const baseMoviesAnimated2: BaseMovie[] = [
     description: '',
     fromEntity: null,
     countryOrigin: ['Japon'],
+    selectDisplayOrder: 25,
   },
   {
     title: 'Oliver et Compagnie',
@@ -217,6 +232,7 @@ export const baseMoviesAnimated2: BaseMovie[] = [
     description: '',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
+    selectDisplayOrder: 25,
   },
   {
     title: 'Le Tombeau des lucioles',
@@ -237,6 +253,7 @@ export const baseMoviesAnimated2: BaseMovie[] = [
     description: '',
     fromEntity: null,
     countryOrigin: ['Japon'],
+    selectDisplayOrder: 25,
   },
   {
     title: 'Mon voisin Totoro',
@@ -257,6 +274,7 @@ export const baseMoviesAnimated2: BaseMovie[] = [
     description: '',
     fromEntity: null,
     countryOrigin: ['Japon'],
+    selectDisplayOrder: 25,
   },
   {
     title: 'Kiki la petite sorcière',
@@ -270,6 +288,7 @@ export const baseMoviesAnimated2: BaseMovie[] = [
     description: '',
     fromEntity: null,
     countryOrigin: ['Japon'],
+    selectDisplayOrder: 25,
   },
   {
     title: "L'Étrange Noël de monsieur Jack",
@@ -283,6 +302,7 @@ export const baseMoviesAnimated2: BaseMovie[] = [
     description: '',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
+    selectDisplayOrder: 25,
   },
   {
     title: 'Le retour de Jafar',
@@ -296,6 +316,7 @@ export const baseMoviesAnimated2: BaseMovie[] = [
     description: '',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
+    selectDisplayOrder: 25,
   },
   {
     title: 'Le Bossu de Notre-Dame',
@@ -309,6 +330,7 @@ export const baseMoviesAnimated2: BaseMovie[] = [
     description: '',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
+    selectDisplayOrder: 25,
   },
   {
     title: 'James et la Pêche géante',
@@ -322,6 +344,7 @@ export const baseMoviesAnimated2: BaseMovie[] = [
     description: '',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
+    selectDisplayOrder: 25,
   },
   {
     title: 'Les 101 Dalmatiens',
@@ -335,6 +358,7 @@ export const baseMoviesAnimated2: BaseMovie[] = [
     description: '',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
+    selectDisplayOrder: 25,
   },
   {
     title: 'Anastasia',
@@ -348,6 +372,7 @@ export const baseMoviesAnimated2: BaseMovie[] = [
     description: '',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
+    selectDisplayOrder: 25,
   },
   {
     title: 'Le Monde magique de la Belle et la Bête',
@@ -361,6 +386,7 @@ export const baseMoviesAnimated2: BaseMovie[] = [
     description: '',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
+    selectDisplayOrder: 25,
   },
   {
     title: "Le Prince d'Égypte",
@@ -374,6 +400,7 @@ export const baseMoviesAnimated2: BaseMovie[] = [
     description: '',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
+    selectDisplayOrder: 25,
   },
   {
     title: '1001 Pattes',
@@ -387,6 +414,7 @@ export const baseMoviesAnimated2: BaseMovie[] = [
     description: '',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
+    selectDisplayOrder: 25,
   },
   {
     title: "Le Roi Lion 2 : L'Honneur de la tribu",
@@ -400,6 +428,7 @@ export const baseMoviesAnimated2: BaseMovie[] = [
     description: '',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
+    selectDisplayOrder: 25,
   },
   {
     title: 'Pocahontas 2 : Un monde nouveau',
@@ -413,6 +442,7 @@ export const baseMoviesAnimated2: BaseMovie[] = [
     description: '',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
+    selectDisplayOrder: 25,
   },
   {
     title: 'Dinosaure',
@@ -426,6 +456,7 @@ export const baseMoviesAnimated2: BaseMovie[] = [
     description: '',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
+    selectDisplayOrder: 25,
   },
   {
     title: "La Route d'Eldorado",
@@ -439,6 +470,7 @@ export const baseMoviesAnimated2: BaseMovie[] = [
     description: '',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
+    selectDisplayOrder: 25,
   },
   {
     title: "La Petite Sirène 2 : Retour à l'océan",
@@ -452,6 +484,7 @@ export const baseMoviesAnimated2: BaseMovie[] = [
     description: '',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
+    selectDisplayOrder: 25,
   },
   {
     title: 'Fantasia 2000',
@@ -465,6 +498,7 @@ export const baseMoviesAnimated2: BaseMovie[] = [
     description: '',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
+    selectDisplayOrder: 25,
   },
   {
     title: 'Chicken Run',
@@ -478,6 +512,7 @@ export const baseMoviesAnimated2: BaseMovie[] = [
     description: '',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
+    selectDisplayOrder: 25,
   },
   {
     title: "Kuzco, l'Empereur mégalo",
@@ -491,6 +526,7 @@ export const baseMoviesAnimated2: BaseMovie[] = [
     description: '',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
+    selectDisplayOrder: 25,
   },
   {
     title: "Atlantis : L'Empire perdu",
@@ -504,6 +540,7 @@ export const baseMoviesAnimated2: BaseMovie[] = [
     description: '',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
+    selectDisplayOrder: 25,
   },
   {
     title: 'Le Voyage de Chihiro',
@@ -517,6 +554,7 @@ export const baseMoviesAnimated2: BaseMovie[] = [
     description: '',
     fromEntity: null,
     countryOrigin: ['Japon'],
+    selectDisplayOrder: 25,
   },
   {
     title: 'Le Royaume des chats',
@@ -530,6 +568,7 @@ export const baseMoviesAnimated2: BaseMovie[] = [
     description: '',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
+    selectDisplayOrder: 25,
   },
   {
     title: 'Lilo et Stitch',
@@ -543,6 +582,7 @@ export const baseMoviesAnimated2: BaseMovie[] = [
     description: '',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
+    selectDisplayOrder: 25,
   },
   {
     title: 'La Planète au trésor',
@@ -567,6 +607,7 @@ export const baseMoviesAnimated2: BaseMovie[] = [
       secondEntityKey: 'Robert Louis Stevenson',
     },
     countryOrigin: ['États-Unis'],
+    selectDisplayOrder: 25,
   },
   {
     title: 'Frère des ours',
@@ -580,6 +621,7 @@ export const baseMoviesAnimated2: BaseMovie[] = [
     description: '',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
+    selectDisplayOrder: 25,
   },
   {
     title: 'Mickey, Donald, Dingo : Les Trois Mousquetaires',
@@ -594,6 +636,7 @@ export const baseMoviesAnimated2: BaseMovie[] = [
     description: '',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
+    selectDisplayOrder: 25,
   },
   {
     title: 'Mulan 2',
@@ -607,6 +650,7 @@ export const baseMoviesAnimated2: BaseMovie[] = [
     description: '',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
+    selectDisplayOrder: 25,
   },
   {
     title: 'Les Noces funèbres',
@@ -627,6 +671,7 @@ export const baseMoviesAnimated2: BaseMovie[] = [
     description: '',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
+    selectDisplayOrder: 25,
   },
   {
     title: 'Madagascar',
@@ -640,6 +685,7 @@ export const baseMoviesAnimated2: BaseMovie[] = [
     description: '',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
+    selectDisplayOrder: 25,
   },
   {
     title: 'Happy Feet',
@@ -654,6 +700,7 @@ export const baseMoviesAnimated2: BaseMovie[] = [
     description: '',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
+    selectDisplayOrder: 25,
   },
   {
     title: 'Bolt',
@@ -667,6 +714,7 @@ export const baseMoviesAnimated2: BaseMovie[] = [
     description: '',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
+    selectDisplayOrder: 25,
   },
   {
     title: 'Madagascar 2',
@@ -680,6 +728,7 @@ export const baseMoviesAnimated2: BaseMovie[] = [
     description: '',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
+    selectDisplayOrder: 25,
   },
   {
     title: "Madagascar 3 : Bons Baisers d'Europe",
@@ -703,6 +752,7 @@ export const baseMoviesAnimated2: BaseMovie[] = [
     description: '',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
+    selectDisplayOrder: 25,
   },
   {
     title: 'Ponyo',
@@ -716,6 +766,7 @@ export const baseMoviesAnimated2: BaseMovie[] = [
     description: '',
     fromEntity: null,
     countryOrigin: ['Japon'],
+    selectDisplayOrder: 25,
   },
   {
     title: 'Là-haut',
@@ -729,6 +780,7 @@ export const baseMoviesAnimated2: BaseMovie[] = [
     description: '',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
+    selectDisplayOrder: 25,
   },
   {
     title: 'Coraline',
@@ -742,6 +794,7 @@ export const baseMoviesAnimated2: BaseMovie[] = [
     description: '',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
+    selectDisplayOrder: 25,
   },
   {
     title: 'Arrietty, le petit monde des chapardeurs',
@@ -762,6 +815,7 @@ export const baseMoviesAnimated2: BaseMovie[] = [
     description: '',
     fromEntity: null,
     countryOrigin: ['Japon'],
+    selectDisplayOrder: 25,
   },
   {
     title: 'Rio',
@@ -775,6 +829,7 @@ export const baseMoviesAnimated2: BaseMovie[] = [
     description: '',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
+    selectDisplayOrder: 25,
   },
   {
     title: 'Rango',
@@ -788,6 +843,7 @@ export const baseMoviesAnimated2: BaseMovie[] = [
     description: '',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
+    selectDisplayOrder: 25,
   },
   {
     title: 'Raiponce',
@@ -811,6 +867,7 @@ export const baseMoviesAnimated2: BaseMovie[] = [
     description: '',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
+    selectDisplayOrder: 25,
   },
   {
     title: 'Kung Fu Panda',
@@ -825,6 +882,7 @@ export const baseMoviesAnimated2: BaseMovie[] = [
     description: '',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
+    selectDisplayOrder: 25,
   },
   {
     title: 'Kung Fu Panda 2',
@@ -838,6 +896,7 @@ export const baseMoviesAnimated2: BaseMovie[] = [
     description: '',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
+    selectDisplayOrder: 25,
   },
   {
     title: 'Kung Fu Panda 3',
@@ -861,6 +920,7 @@ export const baseMoviesAnimated2: BaseMovie[] = [
     description: '',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
+    selectDisplayOrder: 25,
   },
   {
     title: 'Kung Fu Panda 4',
@@ -890,6 +950,7 @@ export const baseMoviesAnimated2: BaseMovie[] = [
     description: '',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
+    selectDisplayOrder: 25,
   },
   {
     title: 'Le Chat Potté',
@@ -903,6 +964,7 @@ export const baseMoviesAnimated2: BaseMovie[] = [
     description: '',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
+    selectDisplayOrder: 25,
   },
   {
     title: 'Hôtel Transylvanie',
@@ -916,6 +978,7 @@ export const baseMoviesAnimated2: BaseMovie[] = [
     description: '',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
+    selectDisplayOrder: 25,
   },
   {
     title: 'Monsters University',
@@ -929,6 +992,7 @@ export const baseMoviesAnimated2: BaseMovie[] = [
     description: '',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
+    selectDisplayOrder: 25,
   },
   {
     title: 'The Lego Movie',
@@ -953,6 +1017,7 @@ export const baseMoviesAnimated2: BaseMovie[] = [
       secondEntityKey: 'Warner',
     },
     countryOrigin: ['États-Unis'],
+    selectDisplayOrder: 25,
   },
   {
     title: 'Zootopie',
@@ -966,6 +1031,7 @@ export const baseMoviesAnimated2: BaseMovie[] = [
     description: '',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
+    selectDisplayOrder: 25,
   },
   {
     title: 'Zootopie 2',
@@ -995,6 +1061,7 @@ export const baseMoviesAnimated2: BaseMovie[] = [
     description: '',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
+    selectDisplayOrder: 25,
   },
   {
     title: 'Piper',
@@ -1008,6 +1075,7 @@ export const baseMoviesAnimated2: BaseMovie[] = [
     description: '',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
+    selectDisplayOrder: 25,
   },
   {
     title: 'La Reine des neiges 2',
@@ -1021,6 +1089,7 @@ export const baseMoviesAnimated2: BaseMovie[] = [
     description: '',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
+    selectDisplayOrder: 25,
   },
   {
     title: 'Klaus',
@@ -1034,6 +1103,7 @@ export const baseMoviesAnimated2: BaseMovie[] = [
     description: '',
     fromEntity: null,
     countryOrigin: ['Espagne'],
+    selectDisplayOrder: 25,
   },
   {
     title: 'Le Chat Potté 2 : La Dernière Quête',
@@ -1052,6 +1122,7 @@ export const baseMoviesAnimated2: BaseMovie[] = [
     description: '',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
+    selectDisplayOrder: 25,
   },
   {
     title: 'Coco',
@@ -1065,6 +1136,7 @@ export const baseMoviesAnimated2: BaseMovie[] = [
     description: '',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
+    selectDisplayOrder: 25,
   },
   {
     title: 'Bubble',
@@ -1078,6 +1150,7 @@ export const baseMoviesAnimated2: BaseMovie[] = [
     description: '',
     fromEntity: null,
     countryOrigin: ['Japon'],
+    selectDisplayOrder: 25,
   },
   {
     title: 'Vice-Versa 2',
@@ -1091,6 +1164,7 @@ export const baseMoviesAnimated2: BaseMovie[] = [
     description: '',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
+    selectDisplayOrder: 25,
   },
   {
     title: 'Arco',
@@ -1111,6 +1185,7 @@ export const baseMoviesAnimated2: BaseMovie[] = [
     description: '',
     fromEntity: null,
     countryOrigin: ['France'],
+    selectDisplayOrder: 25,
   },
   {
     title: 'KPop Demon Hunters',
@@ -1137,6 +1212,7 @@ export const baseMoviesAnimated2: BaseMovie[] = [
     description: '',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
+    selectDisplayOrder: 25,
   },
   {
     title: 'Soul',
@@ -1160,6 +1236,7 @@ export const baseMoviesAnimated2: BaseMovie[] = [
     description: '',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
+    selectDisplayOrder: 25,
   },
   {
     title: 'Nimona',
@@ -1189,6 +1266,7 @@ export const baseMoviesAnimated2: BaseMovie[] = [
     description: '',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
+    selectDisplayOrder: 0,
   },
   {
     title: 'Les Trolls',
@@ -1212,6 +1290,7 @@ export const baseMoviesAnimated2: BaseMovie[] = [
     description: '',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
+    selectDisplayOrder: 0,
   },
   {
     title: 'Dragon Ball : Salut ! Son Goku et ses amis sont de retour !!',
@@ -1242,6 +1321,7 @@ export const baseMoviesAnimated2: BaseMovie[] = [
       secondEntityKey: 'Akira Toriyama',
     },
     countryOrigin: ['Japon'],
+    selectDisplayOrder: 0,
   },
   {
     title: 'Dragon Ball Z : La Menace de Namek',
@@ -1269,6 +1349,7 @@ export const baseMoviesAnimated2: BaseMovie[] = [
       secondEntityKey: 'Akira Toriyama',
     },
     countryOrigin: ['Japon'],
+    selectDisplayOrder: 0,
   },
   {
     title: 'Dragon Ball Z : Le Père de Sangoku',
@@ -1296,6 +1377,7 @@ export const baseMoviesAnimated2: BaseMovie[] = [
       secondEntityKey: 'Akira Toriyama',
     },
     countryOrigin: ['Japon'],
+    selectDisplayOrder: 0,
   },
   {
     title: 'Dragon Ball Z: The Tree of Might',
@@ -1323,6 +1405,7 @@ export const baseMoviesAnimated2: BaseMovie[] = [
       secondEntityKey: 'Akira Toriyama',
     },
     countryOrigin: ['Japon'],
+    selectDisplayOrder: 0,
   },
   {
     title: "Dragon Ball Z : L'Attaque du dragon",
@@ -1350,6 +1433,7 @@ export const baseMoviesAnimated2: BaseMovie[] = [
       secondEntityKey: 'Akira Toriyama',
     },
     countryOrigin: ['Japon'],
+    selectDisplayOrder: 0,
   },
   {
     title: 'Dragon Ball Z : Fusions',
@@ -1377,6 +1461,7 @@ export const baseMoviesAnimated2: BaseMovie[] = [
       secondEntityKey: 'Akira Toriyama',
     },
     countryOrigin: ['Japon'],
+    selectDisplayOrder: 0,
   },
   {
     title: 'Dragon Ball Z : Bio-Broly',
@@ -1404,6 +1489,7 @@ export const baseMoviesAnimated2: BaseMovie[] = [
       secondEntityKey: 'Akira Toriyama',
     },
     countryOrigin: ['Japon'],
+    selectDisplayOrder: 0,
   },
   {
     title: 'Dragon Ball Z : Rivaux dangereux',
@@ -1431,6 +1517,7 @@ export const baseMoviesAnimated2: BaseMovie[] = [
       secondEntityKey: 'Akira Toriyama',
     },
     countryOrigin: ['Japon'],
+    selectDisplayOrder: 0,
   },
   {
     title: 'Dragon Ball Z: Bojack Unbound',
@@ -1458,6 +1545,7 @@ export const baseMoviesAnimated2: BaseMovie[] = [
       secondEntityKey: 'Akira Toriyama',
     },
     countryOrigin: ['Japon'],
+    selectDisplayOrder: 0,
   },
   {
     title: 'Dragon Ball Z : Broly le super guerrier',
@@ -1486,6 +1574,7 @@ export const baseMoviesAnimated2: BaseMovie[] = [
       secondEntityKey: 'Akira Toriyama',
     },
     countryOrigin: ['Japon'],
+    selectDisplayOrder: 0,
   },
   {
     title: "Dragon Ball Z : L'Histoire de Trunks",
@@ -1513,6 +1602,7 @@ export const baseMoviesAnimated2: BaseMovie[] = [
       secondEntityKey: 'Akira Toriyama',
     },
     countryOrigin: ['Japon'],
+    selectDisplayOrder: 0,
   },
   {
     title: "Dragon Ball Z : L'Offensive des cyborgs",
@@ -1540,6 +1630,7 @@ export const baseMoviesAnimated2: BaseMovie[] = [
       secondEntityKey: 'Akira Toriyama',
     },
     countryOrigin: ['Japon'],
+    selectDisplayOrder: 0,
   },
   {
     title: 'Dragon Ball Z : Cent Mille Guerriers de métal',
@@ -1567,6 +1658,7 @@ export const baseMoviesAnimated2: BaseMovie[] = [
       secondEntityKey: 'Akira Toriyama',
     },
     countryOrigin: ['Japon'],
+    selectDisplayOrder: 0,
   },
   {
     title: 'Dragon Ball Z : La Revanche de Cooler',
@@ -1594,6 +1686,7 @@ export const baseMoviesAnimated2: BaseMovie[] = [
       secondEntityKey: 'Akira Toriyama',
     },
     countryOrigin: ['Japon'],
+    selectDisplayOrder: 0,
   },
   {
     title: 'Dragon Ball Z : Le Robot des glaces',
@@ -1621,6 +1714,7 @@ export const baseMoviesAnimated2: BaseMovie[] = [
       secondEntityKey: 'Akira Toriyama',
     },
     countryOrigin: ['Japon'],
+    selectDisplayOrder: 0,
   },
   {
     title: 'Dragon Ball Z : À la poursuite de Garlic',
@@ -1648,6 +1742,7 @@ export const baseMoviesAnimated2: BaseMovie[] = [
       secondEntityKey: 'Akira Toriyama',
     },
     countryOrigin: ['Japon'],
+    selectDisplayOrder: 0,
   },
   {
     title: 'Dragon Ball Z: Battle of Gods',
@@ -1665,6 +1760,7 @@ export const baseMoviesAnimated2: BaseMovie[] = [
       secondEntityKey: 'Akira Toriyama',
     },
     countryOrigin: ['Japon'],
+    selectDisplayOrder: 0,
   },
   {
     title: "Dragon Ball Z : La Résurrection de 'F'",
@@ -1692,6 +1788,7 @@ export const baseMoviesAnimated2: BaseMovie[] = [
       secondEntityKey: 'Akira Toriyama',
     },
     countryOrigin: ['Japon'],
+    selectDisplayOrder: 0,
   },
   {
     title: 'Dragon Ball Super: Broly',
@@ -1709,6 +1806,7 @@ export const baseMoviesAnimated2: BaseMovie[] = [
       secondEntityKey: 'Akira Toriyama',
     },
     countryOrigin: ['Japon'],
+    selectDisplayOrder: 0,
   },
   {
     title: 'Dragon Ball Super: Super Hero',
@@ -1726,6 +1824,7 @@ export const baseMoviesAnimated2: BaseMovie[] = [
       secondEntityKey: 'Akira Toriyama',
     },
     countryOrigin: ['Japon'],
+    selectDisplayOrder: 0,
   },
   {
     title: 'Akira',
@@ -1753,6 +1852,7 @@ export const baseMoviesAnimated2: BaseMovie[] = [
       secondEntityKey: 'Katsuhiro Otomo',
     },
     countryOrigin: ['Japon'],
+    selectDisplayOrder: 25,
   },
   {
     title: 'Astérix et les Indiens',
@@ -1780,6 +1880,7 @@ export const baseMoviesAnimated2: BaseMovie[] = [
       secondEntityKey: 'René Goscinny',
     },
     countryOrigin: ['France'],
+    selectDisplayOrder: 25,
   },
   {
     title: 'Le Livre de la jungle',
@@ -1800,6 +1901,7 @@ export const baseMoviesAnimated2: BaseMovie[] = [
     description: '',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
+    selectDisplayOrder: 25,
   },
   {
     title: 'La Belle au bois dormant',
@@ -1820,6 +1922,7 @@ export const baseMoviesAnimated2: BaseMovie[] = [
     description: '',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
+    selectDisplayOrder: 25,
   },
   {
     title: 'Astérix et Cléopâtre',
@@ -1847,6 +1950,7 @@ export const baseMoviesAnimated2: BaseMovie[] = [
       secondEntityKey: 'René Goscinny',
     },
     countryOrigin: ['France'],
+    selectDisplayOrder: 25,
   },
   {
     title: 'Un monstre à Paris',
@@ -1870,6 +1974,7 @@ export const baseMoviesAnimated2: BaseMovie[] = [
     description: '',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
+    selectDisplayOrder: 25,
   },
 
   // --- Films Pokémon (saga cinéma, liés au catalogue jeux)
@@ -1889,6 +1994,7 @@ export const baseMoviesAnimated2: BaseMovie[] = [
       secondEntityKey: 'Game Freak',
     },
     countryOrigin: ['Japon'],
+    selectDisplayOrder: 0,
   },
   {
     title: 'Pokémon 2 : Le Pouvoir est en toi',
@@ -1906,6 +2012,7 @@ export const baseMoviesAnimated2: BaseMovie[] = [
       secondEntityKey: 'Game Freak',
     },
     countryOrigin: ['Japon'],
+    selectDisplayOrder: 0,
   },
   {
     title: 'Pokémon 3 : Le Sort des Zarbi',
@@ -1923,6 +2030,7 @@ export const baseMoviesAnimated2: BaseMovie[] = [
       secondEntityKey: 'Game Freak',
     },
     countryOrigin: ['Japon'],
+    selectDisplayOrder: 0,
   },
   {
     title: 'Pokémon 4 : Pokémon 4Ever',
@@ -1940,6 +2048,7 @@ export const baseMoviesAnimated2: BaseMovie[] = [
       secondEntityKey: 'Game Freak',
     },
     countryOrigin: ['Japon'],
+    selectDisplayOrder: 0,
   },
   {
     title: 'Pokémon Heroes',
@@ -1957,6 +2066,7 @@ export const baseMoviesAnimated2: BaseMovie[] = [
       secondEntityKey: 'Game Freak',
     },
     countryOrigin: ['Japon'],
+    selectDisplayOrder: 0,
   },
   {
     title: 'Pokémon : Jirachi, le génie des vœux',
@@ -1974,6 +2084,7 @@ export const baseMoviesAnimated2: BaseMovie[] = [
       secondEntityKey: 'Game Freak',
     },
     countryOrigin: ['Japon'],
+    selectDisplayOrder: 0,
   },
   {
     title: 'Pokémon : La destinée de Deoxys',
@@ -1991,6 +2102,7 @@ export const baseMoviesAnimated2: BaseMovie[] = [
       secondEntityKey: 'Game Freak',
     },
     countryOrigin: ['Japon'],
+    selectDisplayOrder: 0,
   },
   {
     title: 'Pokémon : Lucario et le mystère de Mew',
@@ -2008,6 +2120,7 @@ export const baseMoviesAnimated2: BaseMovie[] = [
       secondEntityKey: 'Game Freak',
     },
     countryOrigin: ['Japon'],
+    selectDisplayOrder: 0,
   },
   {
     title: 'Pokémon Ranger et le temple des mers',
@@ -2025,6 +2138,7 @@ export const baseMoviesAnimated2: BaseMovie[] = [
       secondEntityKey: 'Game Freak',
     },
     countryOrigin: ['Japon'],
+    selectDisplayOrder: 0,
   },
   {
     title: "Pokémon : L'ascension de Darkrai",
@@ -2042,6 +2156,7 @@ export const baseMoviesAnimated2: BaseMovie[] = [
       secondEntityKey: 'Game Freak',
     },
     countryOrigin: ['Japon'],
+    selectDisplayOrder: 0,
   },
   {
     title: 'Pokémon : Giratina et le gardien du ciel',
@@ -2059,6 +2174,7 @@ export const baseMoviesAnimated2: BaseMovie[] = [
       secondEntityKey: 'Game Freak',
     },
     countryOrigin: ['Japon'],
+    selectDisplayOrder: 0,
   },
   {
     title: 'Pokémon : Arceus et le joyau de vie',
@@ -2076,6 +2192,7 @@ export const baseMoviesAnimated2: BaseMovie[] = [
       secondEntityKey: 'Game Freak',
     },
     countryOrigin: ['Japon'],
+    selectDisplayOrder: 0,
   },
   {
     title: 'Pokémon : Zoroark, le maître des illusions',
@@ -2093,6 +2210,7 @@ export const baseMoviesAnimated2: BaseMovie[] = [
       secondEntityKey: 'Game Freak',
     },
     countryOrigin: ['Japon'],
+    selectDisplayOrder: 0,
   },
   {
     title: 'Pokémon, le film : Noir — Victini et Reshiram',
@@ -2110,6 +2228,7 @@ export const baseMoviesAnimated2: BaseMovie[] = [
       secondEntityKey: 'Game Freak',
     },
     countryOrigin: ['Japon'],
+    selectDisplayOrder: 0,
   },
   {
     title: 'Pokémon, le film : Blanc — Victini et Zekrom',
@@ -2128,6 +2247,7 @@ export const baseMoviesAnimated2: BaseMovie[] = [
       secondEntityKey: 'Game Freak',
     },
     countryOrigin: ['Japon'],
+    selectDisplayOrder: 0,
   },
   {
     title: 'Pokémon : Kyurem contre la lame de la justice',
@@ -2145,6 +2265,7 @@ export const baseMoviesAnimated2: BaseMovie[] = [
       secondEntityKey: 'Game Freak',
     },
     countryOrigin: ['Japon'],
+    selectDisplayOrder: 0,
   },
   {
     title: "Pokémon : Genesect et l'éveil de la légende",
@@ -2162,6 +2283,7 @@ export const baseMoviesAnimated2: BaseMovie[] = [
       secondEntityKey: 'Game Freak',
     },
     countryOrigin: ['Japon'],
+    selectDisplayOrder: 0,
   },
   {
     title: 'Pokémon : Diancie et le cocon destructeur',
@@ -2179,6 +2301,7 @@ export const baseMoviesAnimated2: BaseMovie[] = [
       secondEntityKey: 'Game Freak',
     },
     countryOrigin: ['Japon'],
+    selectDisplayOrder: 0,
   },
   {
     title: 'Pokémon : Hoopa et le choc des légendes',
@@ -2196,6 +2319,7 @@ export const baseMoviesAnimated2: BaseMovie[] = [
       secondEntityKey: 'Game Freak',
     },
     countryOrigin: ['Japon'],
+    selectDisplayOrder: 0,
   },
   {
     title: 'Pokémon : Volcanion et la merveille mécanique',
@@ -2213,6 +2337,7 @@ export const baseMoviesAnimated2: BaseMovie[] = [
       secondEntityKey: 'Game Freak',
     },
     countryOrigin: ['Japon'],
+    selectDisplayOrder: 0,
   },
   {
     title: 'Pokémon, le film : Je te choisis !',
@@ -2230,6 +2355,7 @@ export const baseMoviesAnimated2: BaseMovie[] = [
       secondEntityKey: 'Game Freak',
     },
     countryOrigin: ['Japon'],
+    selectDisplayOrder: 0,
   },
   {
     title: 'Pokémon, le film : Le pouvoir est en nous',
@@ -2247,6 +2373,7 @@ export const baseMoviesAnimated2: BaseMovie[] = [
       secondEntityKey: 'Game Freak',
     },
     countryOrigin: ['Japon'],
+    selectDisplayOrder: 0,
   },
   {
     title: 'Mewtwo contre-attaque : Évolution',
@@ -2264,6 +2391,7 @@ export const baseMoviesAnimated2: BaseMovie[] = [
       secondEntityKey: 'Game Freak',
     },
     countryOrigin: ['Japon'],
+    selectDisplayOrder: 0,
   },
   {
     title: 'Pokémon, le film : Les secrets de la jungle',
@@ -2281,6 +2409,7 @@ export const baseMoviesAnimated2: BaseMovie[] = [
       secondEntityKey: 'Game Freak',
     },
     countryOrigin: ['Japon'],
+    selectDisplayOrder: 0,
   },
   {
     title: 'Pokémon : Détective Pikachu',
@@ -2298,6 +2427,7 @@ export const baseMoviesAnimated2: BaseMovie[] = [
       secondEntityKey: 'Game Freak',
     },
     countryOrigin: ['États-Unis'],
+    selectDisplayOrder: 0,
   },
   // --- Films Yu-Gi-Oh! (animation)
   {
@@ -2316,6 +2446,7 @@ export const baseMoviesAnimated2: BaseMovie[] = [
       secondEntityKey: 'Kazuki Takahashi',
     },
     countryOrigin: ['Japon'],
+    selectDisplayOrder: 0,
   },
   {
     title: 'Yu-Gi-Oh! : La pyramide de lumière',
@@ -2333,6 +2464,7 @@ export const baseMoviesAnimated2: BaseMovie[] = [
       secondEntityKey: 'Kazuki Takahashi',
     },
     countryOrigin: ['Japon'],
+    selectDisplayOrder: 0,
   },
   {
     title: 'Yu-Gi-Oh! 3D : Bonds Beyond Time',
@@ -2350,6 +2482,7 @@ export const baseMoviesAnimated2: BaseMovie[] = [
       secondEntityKey: 'Kazuki Takahashi',
     },
     countryOrigin: ['Japon'],
+    selectDisplayOrder: 0,
   },
   {
     title: 'Yu-Gi-Oh! : The Dark Side of Dimensions',
@@ -2367,6 +2500,7 @@ export const baseMoviesAnimated2: BaseMovie[] = [
       secondEntityKey: 'Kazuki Takahashi',
     },
     countryOrigin: ['Japon'],
+    selectDisplayOrder: 0,
   },
   {
     title: 'Street Fighter II : The Animated Movie',
@@ -2384,6 +2518,7 @@ export const baseMoviesAnimated2: BaseMovie[] = [
       secondEntityKey: 'Capcom',
     },
     countryOrigin: ['Japon'],
+    selectDisplayOrder: 0,
   },
   {
     title: 'Tekken: Blood Vengeance',
@@ -2401,6 +2536,7 @@ export const baseMoviesAnimated2: BaseMovie[] = [
       secondEntityKey: 'Bandai Namco',
     },
     countryOrigin: ['Japon'],
+    selectDisplayOrder: 0,
   },
   {
     title: 'Deux Romains en Gaule',
@@ -2418,6 +2554,7 @@ export const baseMoviesAnimated2: BaseMovie[] = [
       secondEntityKey: 'René Goscinny',
     },
     countryOrigin: ['France'],
+    selectDisplayOrder: 0,
   },
   {
     title:
@@ -2436,6 +2573,7 @@ export const baseMoviesAnimated2: BaseMovie[] = [
       secondEntityKey: 'René Goscinny',
     },
     countryOrigin: ['France'],
+    selectDisplayOrder: 0,
   },
   {
     title: 'Attention Menhir !',
@@ -2453,6 +2591,7 @@ export const baseMoviesAnimated2: BaseMovie[] = [
       secondEntityKey: 'René Goscinny',
     },
     countryOrigin: ['France'],
+    selectDisplayOrder: 0,
   },
   {
     title: 'Astérix et le Royaume de Nubie',
@@ -2470,6 +2609,7 @@ export const baseMoviesAnimated2: BaseMovie[] = [
       secondEntityKey: 'René Goscinny',
     },
     countryOrigin: ['France'],
+    selectDisplayOrder: 0,
   },
   {
     title: 'Bleach : Memories of Nobody',
@@ -2487,6 +2627,7 @@ export const baseMoviesAnimated2: BaseMovie[] = [
       secondEntityKey: 'Tite Kubo',
     },
     countryOrigin: ['Japon'],
+    selectDisplayOrder: 0,
   },
   {
     title: 'Bleach : The DiamondDust Rebellion',
@@ -2504,6 +2645,7 @@ export const baseMoviesAnimated2: BaseMovie[] = [
       secondEntityKey: 'Tite Kubo',
     },
     countryOrigin: ['Japon'],
+    selectDisplayOrder: 0,
   },
   {
     title: 'Bleach : Fade to Black',
@@ -2521,6 +2663,7 @@ export const baseMoviesAnimated2: BaseMovie[] = [
       secondEntityKey: 'Tite Kubo',
     },
     countryOrigin: ['Japon'],
+    selectDisplayOrder: 0,
   },
   {
     title: 'Bleach : Hell Verse',
@@ -2538,6 +2681,7 @@ export const baseMoviesAnimated2: BaseMovie[] = [
       secondEntityKey: 'Tite Kubo',
     },
     countryOrigin: ['Japon'],
+    selectDisplayOrder: 0,
   },
   {
     title: "Les Chevaliers du Zodiaque : La Légende de la pomme d'or",
@@ -2555,6 +2699,7 @@ export const baseMoviesAnimated2: BaseMovie[] = [
       secondEntityKey: 'Masami Kurumada',
     },
     countryOrigin: ['Japon'],
+    selectDisplayOrder: 0,
   },
   {
     title: 'Les Chevaliers du Zodiaque : La Grande Bataille des dieux',
@@ -2572,6 +2717,7 @@ export const baseMoviesAnimated2: BaseMovie[] = [
       secondEntityKey: 'Masami Kurumada',
     },
     countryOrigin: ['Japon'],
+    selectDisplayOrder: 0,
   },
   {
     title: 'Les Chevaliers du Zodiaque : La Légende des jeunes guerriers',
@@ -2589,6 +2735,7 @@ export const baseMoviesAnimated2: BaseMovie[] = [
       secondEntityKey: 'Masami Kurumada',
     },
     countryOrigin: ['Japon'],
+    selectDisplayOrder: 0,
   },
   {
     title: 'Les Chevaliers du Zodiaque : Tenkai-hen Joso — Le Chapitre du ciel',
@@ -2606,6 +2753,7 @@ export const baseMoviesAnimated2: BaseMovie[] = [
       secondEntityKey: 'Masami Kurumada',
     },
     countryOrigin: ['Japon'],
+    selectDisplayOrder: 0,
   },
   {
     title: 'Saint Seiya : La Légende du sanctuaire',
@@ -2623,6 +2771,7 @@ export const baseMoviesAnimated2: BaseMovie[] = [
       secondEntityKey: 'Masami Kurumada',
     },
     countryOrigin: ['Japon'],
+    selectDisplayOrder: 0,
   },
   {
     title: 'La guerre des mondes : Goliath',
@@ -2640,6 +2789,7 @@ export const baseMoviesAnimated2: BaseMovie[] = [
       secondEntityKey: 'H.G. Wells',
     },
     countryOrigin: ['Malaisie', 'États-Unis'],
+    selectDisplayOrder: 0,
   },
   {
     title: 'Yu Yu Hakusho : Le secret du sceau d’or',
@@ -2657,6 +2807,7 @@ export const baseMoviesAnimated2: BaseMovie[] = [
       secondEntityKey: 'Yoshihiro Togashi',
     },
     countryOrigin: ['Japon'],
+    selectDisplayOrder: 0,
   },
   {
     title: 'Yu Yu Hakusho : La légende du royaume des ombres',
@@ -2674,6 +2825,7 @@ export const baseMoviesAnimated2: BaseMovie[] = [
       secondEntityKey: 'Yoshihiro Togashi',
     },
     countryOrigin: ['Japon'],
+    selectDisplayOrder: 0,
   },
   {
     title: 'Yu Yu Hakusho : Two Shots & All or Nothing',
@@ -2691,6 +2843,7 @@ export const baseMoviesAnimated2: BaseMovie[] = [
       secondEntityKey: 'Yoshihiro Togashi',
     },
     countryOrigin: ['Japon'],
+    selectDisplayOrder: 0,
   },
   {
     title: 'Basil, détective privé',
@@ -2708,6 +2861,7 @@ export const baseMoviesAnimated2: BaseMovie[] = [
       secondEntityKey: 'Arthur Conan Doyle',
     },
     countryOrigin: ['États-Unis'],
+    selectDisplayOrder: 0,
   },
   {
     title: 'Détective Conan : Le Gratte-Ciel à retardement',
@@ -2725,6 +2879,7 @@ export const baseMoviesAnimated2: BaseMovie[] = [
       secondEntityKey: 'Gōshō Aoyama',
     },
     countryOrigin: ['Japon'],
+    selectDisplayOrder: 0,
   },
   {
     title: 'Détective Conan : La Quatorzième cible',
@@ -2742,6 +2897,7 @@ export const baseMoviesAnimated2: BaseMovie[] = [
       secondEntityKey: 'Gōshō Aoyama',
     },
     countryOrigin: ['Japon'],
+    selectDisplayOrder: 0,
   },
   {
     title: 'Détective Conan : Le Dernier magicien du siècle',
@@ -2759,6 +2915,7 @@ export const baseMoviesAnimated2: BaseMovie[] = [
       secondEntityKey: 'Gōshō Aoyama',
     },
     countryOrigin: ['Japon'],
+    selectDisplayOrder: 0,
   },
   {
     title: 'Détective Conan : Capturée par ses yeux',
@@ -2776,6 +2933,7 @@ export const baseMoviesAnimated2: BaseMovie[] = [
       secondEntityKey: 'Gōshō Aoyama',
     },
     countryOrigin: ['Japon'],
+    selectDisplayOrder: 0,
   },
   {
     title: 'Détective Conan : Compte à rebours pour le paradis',
@@ -2794,6 +2952,7 @@ export const baseMoviesAnimated2: BaseMovie[] = [
       secondEntityKey: 'Gōshō Aoyama',
     },
     countryOrigin: ['Japon'],
+    selectDisplayOrder: 0,
   },
   {
     title: 'Détective Conan : Le Fantôme de Baker Street',
@@ -2811,6 +2970,7 @@ export const baseMoviesAnimated2: BaseMovie[] = [
       secondEntityKey: 'Gōshō Aoyama',
     },
     countryOrigin: ['Japon'],
+    selectDisplayOrder: 0,
   },
   {
     title: "Détective Conan : Croisement dans l'ancienne capitale",
@@ -2828,6 +2988,7 @@ export const baseMoviesAnimated2: BaseMovie[] = [
       secondEntityKey: 'Gōshō Aoyama',
     },
     countryOrigin: ['Japon'],
+    selectDisplayOrder: 0,
   },
   {
     title: 'Détective Conan : Magicien du ciel argenté',
@@ -2845,6 +3006,7 @@ export const baseMoviesAnimated2: BaseMovie[] = [
       secondEntityKey: 'Gōshō Aoyama',
     },
     countryOrigin: ['Japon'],
+    selectDisplayOrder: 0,
   },
   {
     title: 'Détective Conan : Stratégie au-dessus des abysses',
@@ -2862,6 +3024,7 @@ export const baseMoviesAnimated2: BaseMovie[] = [
       secondEntityKey: 'Gōshō Aoyama',
     },
     countryOrigin: ['Japon'],
+    selectDisplayOrder: 0,
   },
   {
     title: 'Détective Conan : Le Requiem des détectives',
@@ -2879,6 +3042,7 @@ export const baseMoviesAnimated2: BaseMovie[] = [
       secondEntityKey: 'Gōshō Aoyama',
     },
     countryOrigin: ['Japon'],
+    selectDisplayOrder: 0,
   },
   {
     title: "Détective Conan : Jolly Roger et le cercueil d'azur profond",
@@ -2896,6 +3060,7 @@ export const baseMoviesAnimated2: BaseMovie[] = [
       secondEntityKey: 'Gōshō Aoyama',
     },
     countryOrigin: ['Japon'],
+    selectDisplayOrder: 0,
   },
   {
     title: 'Détective Conan : Le gratte-ciel infernal',
@@ -2913,6 +3078,7 @@ export const baseMoviesAnimated2: BaseMovie[] = [
       secondEntityKey: 'Gōshō Aoyama',
     },
     countryOrigin: ['Japon'],
+    selectDisplayOrder: 0,
   },
   {
     title: 'Détective Conan : Le chasseur noir de jais',
@@ -2930,6 +3096,7 @@ export const baseMoviesAnimated2: BaseMovie[] = [
       secondEntityKey: 'Gōshō Aoyama',
     },
     countryOrigin: ['Japon'],
+    selectDisplayOrder: 0,
   },
   {
     title: 'Détective Conan : Le Navire perdu dans le ciel',
@@ -2947,6 +3114,7 @@ export const baseMoviesAnimated2: BaseMovie[] = [
       secondEntityKey: 'Gōshō Aoyama',
     },
     countryOrigin: ['Japon'],
+    selectDisplayOrder: 0,
   },
   {
     title: 'Détective Conan : Quinze minutes de silence',
@@ -2964,6 +3132,7 @@ export const baseMoviesAnimated2: BaseMovie[] = [
       secondEntityKey: 'Gōshō Aoyama',
     },
     countryOrigin: ['Japon'],
+    selectDisplayOrder: 0,
   },
   {
     title: 'Détective Conan : Le Onzième avant-centre',
@@ -2981,6 +3150,7 @@ export const baseMoviesAnimated2: BaseMovie[] = [
       secondEntityKey: 'Gōshō Aoyama',
     },
     countryOrigin: ['Japon'],
+    selectDisplayOrder: 0,
   },
   {
     title: 'Détective Conan : Détective privé en mer lointaine',
@@ -2998,6 +3168,7 @@ export const baseMoviesAnimated2: BaseMovie[] = [
       secondEntityKey: 'Gōshō Aoyama',
     },
     countryOrigin: ['Japon'],
+    selectDisplayOrder: 0,
   },
   {
     title: "Détective Conan : Tireur d'élite dimensionnel",
@@ -3015,6 +3186,7 @@ export const baseMoviesAnimated2: BaseMovie[] = [
       secondEntityKey: 'Gōshō Aoyama',
     },
     countryOrigin: ['Japon'],
+    selectDisplayOrder: 0,
   },
   {
     title: 'Détective Conan : Les Tournesols des flammes infernales',
@@ -3032,6 +3204,7 @@ export const baseMoviesAnimated2: BaseMovie[] = [
       secondEntityKey: 'Gōshō Aoyama',
     },
     countryOrigin: ['Japon'],
+    selectDisplayOrder: 0,
   },
   {
     title: 'Détective Conan : Le Cauchemar le plus noir',
@@ -3050,6 +3223,7 @@ export const baseMoviesAnimated2: BaseMovie[] = [
       secondEntityKey: 'Gōshō Aoyama',
     },
     countryOrigin: ['Japon'],
+    selectDisplayOrder: 0,
   },
   {
     title: "Détective Conan : La Lettre d'amour écarlate",
@@ -3067,6 +3241,7 @@ export const baseMoviesAnimated2: BaseMovie[] = [
       secondEntityKey: 'Gōshō Aoyama',
     },
     countryOrigin: ['Japon'],
+    selectDisplayOrder: 0,
   },
   {
     title: "Détective Conan : Zero l'exécuteur",
@@ -3084,6 +3259,7 @@ export const baseMoviesAnimated2: BaseMovie[] = [
       secondEntityKey: 'Gōshō Aoyama',
     },
     countryOrigin: ['Japon'],
+    selectDisplayOrder: 0,
   },
   {
     title: 'Détective Conan : Le Poing de saphir bleu',
@@ -3101,6 +3277,7 @@ export const baseMoviesAnimated2: BaseMovie[] = [
       secondEntityKey: 'Gōshō Aoyama',
     },
     countryOrigin: ['Japon'],
+    selectDisplayOrder: 0,
   },
   {
     title: 'Détective Conan : La Balle écarlate',
@@ -3118,6 +3295,7 @@ export const baseMoviesAnimated2: BaseMovie[] = [
       secondEntityKey: 'Gōshō Aoyama',
     },
     countryOrigin: ['Japon'],
+    selectDisplayOrder: 0,
   },
   {
     title: 'Détective Conan : La Fiancée de Halloween',
@@ -3135,6 +3313,7 @@ export const baseMoviesAnimated2: BaseMovie[] = [
       secondEntityKey: 'Gōshō Aoyama',
     },
     countryOrigin: ['Japon'],
+    selectDisplayOrder: 0,
   },
   {
     title: "Détective Conan : Le Sous-marin d'acier noir",
@@ -3152,6 +3331,7 @@ export const baseMoviesAnimated2: BaseMovie[] = [
       secondEntityKey: 'Gōshō Aoyama',
     },
     countryOrigin: ['Japon'],
+    selectDisplayOrder: 0,
   },
   {
     title: 'Détective Conan : Le Pentagramme aux millions de dollars',
@@ -3169,6 +3349,7 @@ export const baseMoviesAnimated2: BaseMovie[] = [
       secondEntityKey: 'Gōshō Aoyama',
     },
     countryOrigin: ['Japon'],
+    selectDisplayOrder: 0,
   },
   {
     title: 'Détective Conan : Flashback du regard unique',
@@ -3186,6 +3367,7 @@ export const baseMoviesAnimated2: BaseMovie[] = [
       secondEntityKey: 'Gōshō Aoyama',
     },
     countryOrigin: ['Japon'],
+    selectDisplayOrder: 0,
   },
   {
     title: 'Lupin III : Le Château de Cagliostro',
@@ -3195,8 +3377,7 @@ export const baseMoviesAnimated2: BaseMovie[] = [
       { name: 'Kiyoshi Kobayashi' },
       { name: 'Eiko Masuyama' },
     ],
-    coverUrl:
-      '/movies_pictures/1ecd852ca2f3.jpg',
+    coverUrl: '/movies_pictures/1ecd852ca2f3.jpg',
     releaseDate: '1979-12-15',
     length: 100,
     genre: ['Animation', 'Action', 'Aventure'],
@@ -3208,13 +3389,13 @@ export const baseMoviesAnimated2: BaseMovie[] = [
       secondEntityKey: 'Monkey Punch',
     },
     countryOrigin: ['Japon'],
+    selectDisplayOrder: 0,
   },
   {
     title: "Lupin III : La Légende de l'or de Babylone",
     director: 'Seijun Suzuki, Shigetsugu Yoshida',
     actors: [{ name: 'Yasuo Yamada' }, { name: 'Kiyoshi Kobayashi' }],
-    coverUrl:
-      '/movies_pictures/e9aef1ee1c99.jpg',
+    coverUrl: '/movies_pictures/e9aef1ee1c99.jpg',
     releaseDate: '1985-07-13',
     length: 100,
     genre: ['Animation', 'Action', 'Aventure'],
@@ -3226,13 +3407,13 @@ export const baseMoviesAnimated2: BaseMovie[] = [
       secondEntityKey: 'Monkey Punch',
     },
     countryOrigin: ['Japon'],
+    selectDisplayOrder: 0,
   },
   {
     title: 'Lupin III : Adieu à Nostradamus',
     director: 'Shunya Itō, Takeshi Shirato',
     actors: [{ name: 'Yasuo Yamada' }, { name: 'Kiyoshi Kobayashi' }],
-    coverUrl:
-      '/movies_pictures/184107180772.jpg',
+    coverUrl: '/movies_pictures/184107180772.jpg',
     releaseDate: '1995-04-22',
     length: 100,
     genre: ['Animation', 'Action', 'Policier'],
@@ -3244,13 +3425,13 @@ export const baseMoviesAnimated2: BaseMovie[] = [
       secondEntityKey: 'Monkey Punch',
     },
     countryOrigin: ['Japon'],
+    selectDisplayOrder: 0,
   },
   {
     title: 'Lupin III : Mort ou vif',
     director: 'Monkey Punch, Soji Yoshikawa',
     actors: [{ name: 'Yasuo Yamada' }, { name: 'Kiyoshi Kobayashi' }],
-    coverUrl:
-      '/movies_pictures/b3a2989bd912.jpg',
+    coverUrl: '/movies_pictures/b3a2989bd912.jpg',
     releaseDate: '1996-04-20',
     length: 97,
     genre: ['Animation', 'Action'],
@@ -3262,13 +3443,13 @@ export const baseMoviesAnimated2: BaseMovie[] = [
       secondEntityKey: 'Monkey Punch',
     },
     countryOrigin: ['Japon'],
+    selectDisplayOrder: 0,
   },
   {
     title: 'Lupin III : Episode 0 – First Contact',
     director: 'Minoru Ohara',
     actors: [{ name: 'Yasuo Yamada' }, { name: 'Kiyoshi Kobayashi' }],
-    coverUrl:
-      '/movies_pictures/c731a97e2b36.jpg',
+    coverUrl: '/movies_pictures/c731a97e2b36.jpg',
     releaseDate: '2002-07-26',
     length: 91,
     genre: ['Animation', 'Action', 'Aventure'],
@@ -3280,13 +3461,13 @@ export const baseMoviesAnimated2: BaseMovie[] = [
       secondEntityKey: 'Monkey Punch',
     },
     countryOrigin: ['Japon'],
+    selectDisplayOrder: 0,
   },
   {
     title: 'Lupin III : The First',
     director: 'Takashi Yamazaki',
     actors: [{ name: 'Kanichi Kurita' }, { name: 'Kiyoshi Kobayashi' }],
-    coverUrl:
-      '/movies_pictures/09d3dd7fb672.jpg',
+    coverUrl: '/movies_pictures/09d3dd7fb672.jpg',
     releaseDate: '2019-12-06',
     length: 106,
     genre: ['Animation', 'Action', 'Aventure'],
@@ -3298,6 +3479,7 @@ export const baseMoviesAnimated2: BaseMovie[] = [
       secondEntityKey: 'Monkey Punch',
     },
     countryOrigin: ['Japon'],
+    selectDisplayOrder: 0,
   },
   {
     title: 'Lupin III vs Détective Conan (téléfilm)',
@@ -3315,6 +3497,7 @@ export const baseMoviesAnimated2: BaseMovie[] = [
       secondEntityKey: 'Gōshō Aoyama',
     },
     countryOrigin: ['Japon'],
+    selectDisplayOrder: 0,
   },
   {
     title: "Détective Conan : L'Ange déchu de l'autoroute",
@@ -3332,13 +3515,13 @@ export const baseMoviesAnimated2: BaseMovie[] = [
       secondEntityKey: 'Gōshō Aoyama',
     },
     countryOrigin: ['Japon'],
+    selectDisplayOrder: 0,
   },
   {
     title: 'Tintin et le Temple du Soleil',
     director: 'Eddie Lateste',
     actors: [{ name: 'Philippe Ogouz' }, { name: 'Claude Bertrand' }],
-    coverUrl:
-      '/movies_pictures/7b007548ecc1.jpg',
+    coverUrl: '/movies_pictures/7b007548ecc1.jpg',
     releaseDate: '1969-12-13',
     length: 71,
     genre: ['Animation', 'Aventure'],
@@ -3350,13 +3533,13 @@ export const baseMoviesAnimated2: BaseMovie[] = [
       secondEntityKey: 'Hergé',
     },
     countryOrigin: ['France', 'Belgique'],
+    selectDisplayOrder: 0,
   },
   {
     title: 'Tintin et le lac aux requins',
     director: 'Raymond Leblanc',
     actors: [{ name: 'Philippe Ogouz' }, { name: 'Georges Atlas' }],
-    coverUrl:
-      '/movies_pictures/d78bd9df83b8.jpg',
+    coverUrl: '/movies_pictures/d78bd9df83b8.jpg',
     releaseDate: '1972-12-13',
     length: 60,
     genre: ['Animation', 'Aventure'],
@@ -3368,5 +3551,6 @@ export const baseMoviesAnimated2: BaseMovie[] = [
       secondEntityKey: 'Hergé',
     },
     countryOrigin: ['France', 'Belgique'],
+    selectDisplayOrder: 0,
   },
 ];

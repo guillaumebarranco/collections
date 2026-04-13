@@ -18,6 +18,7 @@ export const baseMoviesSouthPark: BaseMovie[] = [
       secondEntityKey: 'Trey Parker, Matt Stone',
     },
     countryOrigin: ['États-Unis'],
+    selectDisplayOrder: 0,
   },
   {
     title: 'South Park : Post Covid',
@@ -36,6 +37,7 @@ export const baseMoviesSouthPark: BaseMovie[] = [
       secondEntityKey: 'Trey Parker, Matt Stone',
     },
     countryOrigin: ['États-Unis'],
+    selectDisplayOrder: 0,
   },
   {
     title: 'South Park : Post Covid : Le retour du Covid',
@@ -54,6 +56,7 @@ export const baseMoviesSouthPark: BaseMovie[] = [
       secondEntityKey: 'Trey Parker, Matt Stone',
     },
     countryOrigin: ['États-Unis'],
+    selectDisplayOrder: 0,
   },
   {
     title: 'South Park : Les Guerres du streaming',
@@ -71,6 +74,7 @@ export const baseMoviesSouthPark: BaseMovie[] = [
       secondEntityKey: 'Trey Parker, Matt Stone',
     },
     countryOrigin: ['États-Unis'],
+    selectDisplayOrder: 0,
   },
   {
     title: 'South Park : Les Guerres du streaming, partie 2',
@@ -89,6 +93,7 @@ export const baseMoviesSouthPark: BaseMovie[] = [
       secondEntityKey: 'Trey Parker, Matt Stone',
     },
     countryOrigin: ['États-Unis'],
+    selectDisplayOrder: 0,
   },
   {
     title: 'South Park : Bienvenue dans le Panderverse',
@@ -106,6 +111,7 @@ export const baseMoviesSouthPark: BaseMovie[] = [
       secondEntityKey: 'Trey Parker, Matt Stone',
     },
     countryOrigin: ['États-Unis'],
+    selectDisplayOrder: 0,
   },
   {
     title: 'South Park : Déconseillé aux enfants',
@@ -124,6 +130,7 @@ export const baseMoviesSouthPark: BaseMovie[] = [
       secondEntityKey: 'Trey Parker, Matt Stone',
     },
     countryOrigin: ['États-Unis'],
+    selectDisplayOrder: 0,
   },
   {
     title: "South Park : La fin de l'obésité",
@@ -142,5 +149,6 @@ export const baseMoviesSouthPark: BaseMovie[] = [
       secondEntityKey: 'Trey Parker, Matt Stone',
     },
     countryOrigin: ['États-Unis'],
+    selectDisplayOrder: 0,
   },
 ];

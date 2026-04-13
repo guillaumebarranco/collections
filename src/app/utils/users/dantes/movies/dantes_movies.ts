@@ -3879,7 +3879,7 @@ export const dantesMovies: UserMovie[] = [
   },
 
   {
-    title: "The Three Musketeers: D'Artagnan",
+    title: "Les trois mousquetaires: D'Artagnan",
     director: 'Martin Bourboulon',
     rating: 0,
     timesWatched: 1,

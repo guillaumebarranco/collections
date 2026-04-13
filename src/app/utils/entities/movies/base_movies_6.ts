@@ -14,6 +14,7 @@ export const baseMoviesPage6: BaseMovie[] = [
     description: '',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
+    selectDisplayOrder: 0,
   },
   {
     title: 'Rachel se marie',
@@ -27,6 +28,7 @@ export const baseMoviesPage6: BaseMovie[] = [
     description: '',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
+    selectDisplayOrder: 0,
   },
   {
     title: 'Max la Menace',
@@ -40,6 +42,7 @@ export const baseMoviesPage6: BaseMovie[] = [
     description: '',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
+    selectDisplayOrder: 0,
   },
   {
     title: 'Dark Waters',
@@ -53,6 +56,7 @@ export const baseMoviesPage6: BaseMovie[] = [
     description: '',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
+    selectDisplayOrder: 0,
   },
   {
     title: 'Serenity',
@@ -66,6 +70,7 @@ export const baseMoviesPage6: BaseMovie[] = [
     description: '',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
+    selectDisplayOrder: 0,
   },
   {
     title: "Mothers' Instinct",
@@ -79,6 +84,7 @@ export const baseMoviesPage6: BaseMovie[] = [
     description: '',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
+    selectDisplayOrder: 0,
   },
   // Films avec Ryan Reynolds
   {
@@ -93,6 +99,7 @@ export const baseMoviesPage6: BaseMovie[] = [
     description: '',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
+    selectDisplayOrder: 0,
   },
   {
     title: 'La Théorie du Chaos',
@@ -107,6 +114,7 @@ export const baseMoviesPage6: BaseMovie[] = [
     description: '',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
+    selectDisplayOrder: 0,
   },
   {
     title: 'The Nines',
@@ -120,6 +128,7 @@ export const baseMoviesPage6: BaseMovie[] = [
     description: '',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
+    selectDisplayOrder: 0,
   },
   {
     title: 'Leçons de vie',
@@ -134,6 +143,7 @@ export const baseMoviesPage6: BaseMovie[] = [
     description: '',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
+    selectDisplayOrder: 0,
   },
   {
     title: 'Mise à prix',
@@ -147,6 +157,7 @@ export const baseMoviesPage6: BaseMovie[] = [
     description: '',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
+    selectDisplayOrder: 0,
   },
   {
     title: 'Fireflies in the Garden',
@@ -170,6 +181,7 @@ export const baseMoviesPage6: BaseMovie[] = [
     description: '',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
+    selectDisplayOrder: 0,
   },
   {
     title: 'Un jour, peut-être',
@@ -183,6 +195,7 @@ export const baseMoviesPage6: BaseMovie[] = [
     description: '',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
+    selectDisplayOrder: 0,
   },
   {
     title: "Adventureland : Un job d'été à éviter",
@@ -200,6 +213,7 @@ export const baseMoviesPage6: BaseMovie[] = [
     description: '',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
+    selectDisplayOrder: 0,
   },
   {
     title: 'Paper Man',
@@ -213,6 +227,7 @@ export const baseMoviesPage6: BaseMovie[] = [
     description: '',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
+    selectDisplayOrder: 0,
   },
   {
     title: 'Buried',
@@ -226,6 +241,7 @@ export const baseMoviesPage6: BaseMovie[] = [
     description: '',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
+    selectDisplayOrder: 0,
   },
   {
     title: 'Sécurité rapprochée',
@@ -239,6 +255,7 @@ export const baseMoviesPage6: BaseMovie[] = [
     description: '',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
+    selectDisplayOrder: 0,
   },
   {
     title: 'Captives',
@@ -252,6 +269,7 @@ export const baseMoviesPage6: BaseMovie[] = [
     description: '',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
+    selectDisplayOrder: 0,
   },
   {
     title: 'La Femme au tableau',
@@ -265,6 +283,7 @@ export const baseMoviesPage6: BaseMovie[] = [
     description: '',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
+    selectDisplayOrder: 0,
   },
   {
     title: 'Criminal',
@@ -289,6 +308,7 @@ export const baseMoviesPage6: BaseMovie[] = [
     description: '',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
+    selectDisplayOrder: 0,
   },
   {
     title: '6 Underground',
@@ -302,6 +322,7 @@ export const baseMoviesPage6: BaseMovie[] = [
     description: '',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
+    selectDisplayOrder: 0,
   },
   // Films avec Sandra Bullock
   {
@@ -316,6 +337,7 @@ export const baseMoviesPage6: BaseMovie[] = [
     description: '',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
+    selectDisplayOrder: 0,
   },
   {
     title: "Deux drôles d'oiseaux",
@@ -329,6 +351,7 @@ export const baseMoviesPage6: BaseMovie[] = [
     description: '',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
+    selectDisplayOrder: 0,
   },
   {
     title: 'Nashville Blues',
@@ -342,6 +365,7 @@ export const baseMoviesPage6: BaseMovie[] = [
     description: '',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
+    selectDisplayOrder: 0,
   },
   {
     title: "Pour l'amour de l'art",
@@ -355,6 +379,7 @@ export const baseMoviesPage6: BaseMovie[] = [
     description: '',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
+    selectDisplayOrder: 0,
   },
   {
     title: 'Le Droit de tuer ?',
@@ -373,6 +398,7 @@ export const baseMoviesPage6: BaseMovie[] = [
     description: '',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
+    selectDisplayOrder: 0,
   },
   {
     title: 'Ainsi va la vie',
@@ -386,6 +412,7 @@ export const baseMoviesPage6: BaseMovie[] = [
     description: '',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
+    selectDisplayOrder: 0,
   },
   {
     title: 'Les Ensorceleuses',
@@ -399,6 +426,7 @@ export const baseMoviesPage6: BaseMovie[] = [
     description: '',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
+    selectDisplayOrder: 0,
   },
   {
     title: '28 Jours en sursis',
@@ -412,6 +440,7 @@ export const baseMoviesPage6: BaseMovie[] = [
     description: '',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
+    selectDisplayOrder: 0,
   },
   {
     title: 'Un Vent de folie',
@@ -425,6 +454,7 @@ export const baseMoviesPage6: BaseMovie[] = [
     description: '',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
+    selectDisplayOrder: 0,
   },
   {
     title: "L'Amour sans préavis",
@@ -438,6 +468,7 @@ export const baseMoviesPage6: BaseMovie[] = [
     description: '',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
+    selectDisplayOrder: 0,
   },
   {
     title: 'Les Divins Secrets',
@@ -451,6 +482,7 @@ export const baseMoviesPage6: BaseMovie[] = [
     description: '',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
+    selectDisplayOrder: 0,
   },
   {
     title: 'Collision',
@@ -464,6 +496,7 @@ export const baseMoviesPage6: BaseMovie[] = [
     description: '',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
+    selectDisplayOrder: 0,
   },
   {
     title: 'Scandaleusement célèbre',
@@ -477,6 +510,7 @@ export const baseMoviesPage6: BaseMovie[] = [
     description: '',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
+    selectDisplayOrder: 0,
   },
   {
     title: 'Extrêmement fort et incroyablement près',
@@ -490,6 +524,7 @@ export const baseMoviesPage6: BaseMovie[] = [
     description: '',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
+    selectDisplayOrder: 0,
   },
   {
     title: 'Les Flingueuses',
@@ -503,6 +538,7 @@ export const baseMoviesPage6: BaseMovie[] = [
     description: '',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
+    selectDisplayOrder: 0,
   },
   {
     title: 'Our Brand Is Crisis',
@@ -516,6 +552,7 @@ export const baseMoviesPage6: BaseMovie[] = [
     description: '',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
+    selectDisplayOrder: 0,
   },
   {
     title: 'Impardonnable',
@@ -529,6 +566,7 @@ export const baseMoviesPage6: BaseMovie[] = [
     description: '',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
+    selectDisplayOrder: 0,
   },
   // Films avec Adam Sandler
   {
@@ -543,6 +581,7 @@ export const baseMoviesPage6: BaseMovie[] = [
     description: '',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
+    selectDisplayOrder: 0,
   },
   {
     title: 'Dirty Work',
@@ -556,6 +595,7 @@ export const baseMoviesPage6: BaseMovie[] = [
     description: '',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
+    selectDisplayOrder: 0,
   },
   {
     title: 'Big Daddy',
@@ -569,6 +609,7 @@ export const baseMoviesPage6: BaseMovie[] = [
     description: '',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
+    selectDisplayOrder: 0,
   },
   {
     title: 'Punch-Drunk Love',
@@ -583,6 +624,7 @@ export const baseMoviesPage6: BaseMovie[] = [
     description: '',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
+    selectDisplayOrder: 0,
   },
   {
     title: 'Self control',
@@ -596,6 +638,7 @@ export const baseMoviesPage6: BaseMovie[] = [
     description: '',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
+    selectDisplayOrder: 0,
   },
   {
     title: 'À cœur ouvert',
@@ -609,6 +652,7 @@ export const baseMoviesPage6: BaseMovie[] = [
     description: '',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
+    selectDisplayOrder: 0,
   },
   {
     title: 'Histoires enchantées',
@@ -622,6 +666,7 @@ export const baseMoviesPage6: BaseMovie[] = [
     description: '',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
+    selectDisplayOrder: 0,
   },
   {
     title: 'Zookeeper',
@@ -635,6 +680,7 @@ export const baseMoviesPage6: BaseMovie[] = [
     description: '',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
+    selectDisplayOrder: 0,
   },
   {
     title: 'Le Mytho',
@@ -648,6 +694,7 @@ export const baseMoviesPage6: BaseMovie[] = [
     description: '',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
+    selectDisplayOrder: 0,
   },
   {
     title: 'Crazy Dad',
@@ -661,6 +708,7 @@ export const baseMoviesPage6: BaseMovie[] = [
     description: '',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
+    selectDisplayOrder: 0,
   },
   {
     title: 'Famille recomposée',
@@ -674,6 +722,7 @@ export const baseMoviesPage6: BaseMovie[] = [
     description: '',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
+    selectDisplayOrder: 0,
   },
   {
     title: 'The Cobbler',
@@ -687,6 +736,7 @@ export const baseMoviesPage6: BaseMovie[] = [
     description: '',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
+    selectDisplayOrder: 0,
   },
   {
     title: 'Men, Women and Children',
@@ -700,6 +750,7 @@ export const baseMoviesPage6: BaseMovie[] = [
     description: '',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
+    selectDisplayOrder: 0,
   },
   {
     title: 'The Ridiculous 6',
@@ -713,6 +764,7 @@ export const baseMoviesPage6: BaseMovie[] = [
     description: '',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
+    selectDisplayOrder: 0,
   },
   {
     title: 'Sandy Wexler',
@@ -726,6 +778,7 @@ export const baseMoviesPage6: BaseMovie[] = [
     description: '',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
+    selectDisplayOrder: 0,
   },
   {
     title: 'Spaceman',
@@ -739,6 +792,7 @@ export const baseMoviesPage6: BaseMovie[] = [
     description: '',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
+    selectDisplayOrder: 0,
   },
   {
     title: 'Happy Gilmore',
@@ -752,6 +806,7 @@ export const baseMoviesPage6: BaseMovie[] = [
     description: '',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
+    selectDisplayOrder: 0,
   },
   // Films avec Christian Bale
 
@@ -760,18 +815,23 @@ export const baseMoviesPage6: BaseMovie[] = [
     director: 'Fraser Clarke Heston',
     actors: [
       {
-        name: "Christian Bale",
-      }
+        name: 'Christian Bale',
+      },
     ],
     coverUrl:
-      "/movies_pictures/MV5BNWVjMmYwNjAtZTYyMy00MmZmLTlkMDktYzI5OTg0MWZhZDY5XkEyXkFqcGc@._V1_.jpg",
-    releaseDate: "1990-01-19",
+      '/movies_pictures/MV5BNWVjMmYwNjAtZTYyMy00MmZmLTlkMDktYzI5OTg0MWZhZDY5XkEyXkFqcGc@._V1_.jpg',
+    releaseDate: '1990-01-19',
     length: 128,
     genre: ['Aventure'],
-    saga: "",
-    description: "",
-    fromEntity: { entityType: "book", title: "L'Île au trésor", secondEntityKey: "Robert Louis Stevenson" },
+    saga: '',
+    description: '',
+    fromEntity: {
+      entityType: 'book',
+      title: "L'Île au trésor",
+      secondEntityKey: 'Robert Louis Stevenson',
+    },
     countryOrigin: ['États-Unis'],
+    selectDisplayOrder: 0,
   },
   {
     title: 'Swing Kids',
@@ -785,29 +845,35 @@ export const baseMoviesPage6: BaseMovie[] = [
     description: '',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
+    selectDisplayOrder: 0,
   },
   {
     title: 'Les Quatre Filles du docteur March',
     director: 'Gillian Armstrong',
     actors: [
       {
-        name: "Christian Bale",
+        name: 'Christian Bale',
       },
       {
-        name: "Winona Ryder",
+        name: 'Winona Ryder',
       },
       {
-        name: "Kirsten Dunst",
-      }
+        name: 'Kirsten Dunst',
+      },
     ],
-    coverUrl: "/movies_pictures/81nt92tIlUL._AC_UF350,350_QL80_.jpg",
-    releaseDate: "1994-12-25",
+    coverUrl: '/movies_pictures/81nt92tIlUL._AC_UF350,350_QL80_.jpg',
+    releaseDate: '1994-12-25',
     length: 115,
     genre: ['Drame'],
-    saga: "",
-    description: "",
-    fromEntity: { entityType: "book", title: "Les filles du Docteur March", secondEntityKey: "Louisa May Alcott" },
+    saga: '',
+    description: '',
+    fromEntity: {
+      entityType: 'book',
+      title: 'Les filles du Docteur March',
+      secondEntityKey: 'Louisa May Alcott',
+    },
     countryOrigin: ['États-Unis'],
+    selectDisplayOrder: 0,
   },
   {
     title: 'Portrait de femme',
@@ -825,6 +891,7 @@ export const baseMoviesPage6: BaseMovie[] = [
     description: '',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
+    selectDisplayOrder: 0,
   },
   {
     title: 'Metroland',
@@ -838,6 +905,7 @@ export const baseMoviesPage6: BaseMovie[] = [
     description: '',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
+    selectDisplayOrder: 0,
   },
   {
     title: 'Velvet Goldmine',
@@ -855,6 +923,7 @@ export const baseMoviesPage6: BaseMovie[] = [
     description: '',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
+    selectDisplayOrder: 0,
   },
   {
     title: 'All the Little Animals',
@@ -868,6 +937,7 @@ export const baseMoviesPage6: BaseMovie[] = [
     description: '',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
+    selectDisplayOrder: 0,
   },
   {
     title: 'Mary, Mother of Jesus',
@@ -881,23 +951,29 @@ export const baseMoviesPage6: BaseMovie[] = [
     description: '',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
+    selectDisplayOrder: 0,
   },
   {
     title: "Le Songe d'une nuit d'été",
     director: 'Michael Hoffman',
     actors: [
       {
-        name: "Christian Bale",
-      }
+        name: 'Christian Bale',
+      },
     ],
-    coverUrl: "/movies_pictures/s-l400.jpg",
-    releaseDate: "1999-05-14",
+    coverUrl: '/movies_pictures/s-l400.jpg',
+    releaseDate: '1999-05-14',
     length: 116,
     genre: ['Comédie'],
-    saga: "",
-    description: "",
-    fromEntity: { entityType: "book", title: "Songe d'une nuit d'été", secondEntityKey: "William Shakespeare" },
+    saga: '',
+    description: '',
+    fromEntity: {
+      entityType: 'book',
+      title: "Songe d'une nuit d'été",
+      secondEntityKey: 'William Shakespeare',
+    },
     countryOrigin: ['États-Unis'],
+    selectDisplayOrder: 0,
   },
   {
     title: 'Shaft',
@@ -911,6 +987,7 @@ export const baseMoviesPage6: BaseMovie[] = [
     description: '',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
+    selectDisplayOrder: 0,
   },
   {
     title: 'Capitaine Corelli',
@@ -928,6 +1005,7 @@ export const baseMoviesPage6: BaseMovie[] = [
     description: '',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
+    selectDisplayOrder: 0,
   },
   {
     title: 'Laurel Canyon',
@@ -941,6 +1019,7 @@ export const baseMoviesPage6: BaseMovie[] = [
     description: '',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
+    selectDisplayOrder: 0,
   },
   {
     title: 'Le Règne du feu',
@@ -954,6 +1033,7 @@ export const baseMoviesPage6: BaseMovie[] = [
     description: '',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
+    selectDisplayOrder: 0,
   },
   {
     title: 'The Machinist',
@@ -967,6 +1047,7 @@ export const baseMoviesPage6: BaseMovie[] = [
     description: '',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
+    selectDisplayOrder: 0,
   },
   {
     title: 'Bad Times',
@@ -980,6 +1061,7 @@ export const baseMoviesPage6: BaseMovie[] = [
     description: '',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
+    selectDisplayOrder: 0,
   },
   {
     title: 'Le Nouveau Monde',
@@ -993,6 +1075,7 @@ export const baseMoviesPage6: BaseMovie[] = [
     description: '',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
+    selectDisplayOrder: 0,
   },
   {
     title: 'Rescue Dawn',
@@ -1006,6 +1089,7 @@ export const baseMoviesPage6: BaseMovie[] = [
     description: '',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
+    selectDisplayOrder: 0,
   },
   {
     title: "I'm Not There",
@@ -1019,6 +1103,7 @@ export const baseMoviesPage6: BaseMovie[] = [
     description: '',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
+    selectDisplayOrder: 0,
   },
   {
     title: '3 h 10 pour Yuma',
@@ -1032,6 +1117,7 @@ export const baseMoviesPage6: BaseMovie[] = [
     description: '',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
+    selectDisplayOrder: 0,
   },
   {
     title: 'Fighter',
@@ -1049,6 +1135,7 @@ export const baseMoviesPage6: BaseMovie[] = [
     description: '',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
+    selectDisplayOrder: 0,
   },
   {
     title: 'Sacrifices of War',
@@ -1062,6 +1149,7 @@ export const baseMoviesPage6: BaseMovie[] = [
     description: '',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
+    selectDisplayOrder: 0,
   },
   {
     title: 'American Bluff',
@@ -1088,6 +1176,7 @@ export const baseMoviesPage6: BaseMovie[] = [
     description: '',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
+    selectDisplayOrder: 0,
   },
   {
     title: 'Exodus: Gods and Kings',
@@ -1105,6 +1194,7 @@ export const baseMoviesPage6: BaseMovie[] = [
     description: '',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
+    selectDisplayOrder: 0,
   },
   {
     title: 'Hostiles',
@@ -1118,6 +1208,7 @@ export const baseMoviesPage6: BaseMovie[] = [
     description: '',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
+    selectDisplayOrder: 0,
   },
   {
     title: 'La Promesse',
@@ -1131,6 +1222,7 @@ export const baseMoviesPage6: BaseMovie[] = [
     description: '',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
+    selectDisplayOrder: 0,
   },
   {
     title: 'Vice',
@@ -1144,6 +1236,7 @@ export const baseMoviesPage6: BaseMovie[] = [
     description: '',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
+    selectDisplayOrder: 0,
   },
   {
     title: 'The Pale Blue Eye',
@@ -1157,6 +1250,7 @@ export const baseMoviesPage6: BaseMovie[] = [
     description: '',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
+    selectDisplayOrder: 0,
   },
   // Films avec Scarlett Johansson
   {
@@ -1171,6 +1265,7 @@ export const baseMoviesPage6: BaseMovie[] = [
     description: '',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
+    selectDisplayOrder: 0,
   },
   {
     title: 'Ghost World',
@@ -1184,6 +1279,7 @@ export const baseMoviesPage6: BaseMovie[] = [
     description: '',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
+    selectDisplayOrder: 0,
   },
   {
     title: 'American Rhapsody',
@@ -1197,6 +1293,7 @@ export const baseMoviesPage6: BaseMovie[] = [
     description: '',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
+    selectDisplayOrder: 0,
   },
   {
     title: 'The Barber',
@@ -1210,6 +1307,7 @@ export const baseMoviesPage6: BaseMovie[] = [
     description: '',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
+    selectDisplayOrder: 0,
   },
   {
     title: 'La Séductrice',
@@ -1223,6 +1321,7 @@ export const baseMoviesPage6: BaseMovie[] = [
     description: '',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
+    selectDisplayOrder: 0,
   },
   {
     title: 'La Jeune Fille à la perle',
@@ -1236,6 +1335,7 @@ export const baseMoviesPage6: BaseMovie[] = [
     description: '',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
+    selectDisplayOrder: 0,
   },
   {
     title: 'The Island',
@@ -1253,6 +1353,7 @@ export const baseMoviesPage6: BaseMovie[] = [
     description: '',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
+    selectDisplayOrder: 0,
   },
   {
     title: 'Love Song',
@@ -1266,6 +1367,7 @@ export const baseMoviesPage6: BaseMovie[] = [
     description: '',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
+    selectDisplayOrder: 0,
   },
   {
     title: 'The Perfect Score',
@@ -1279,29 +1381,35 @@ export const baseMoviesPage6: BaseMovie[] = [
     description: '',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
+    selectDisplayOrder: 0,
   },
   {
     title: 'Le Dahlia noir',
     director: 'Brian De Palma',
     actors: [
       {
-        name: "Scarlett Johansson",
+        name: 'Scarlett Johansson',
       },
       {
-        name: "Aaron Eckhart",
+        name: 'Aaron Eckhart',
       },
       {
-        name: "Josh Hartnett",
-      }
+        name: 'Josh Hartnett',
+      },
     ],
-    coverUrl: "/movies_pictures/LE-DAHLIA-NOIR-480x640.webp",
-    releaseDate: "2006-09-15",
+    coverUrl: '/movies_pictures/LE-DAHLIA-NOIR-480x640.webp',
+    releaseDate: '2006-09-15',
     length: 121,
     genre: ['Thriller'],
-    saga: "",
-    description: "",
-    fromEntity: { entityType: "book", title: "Le Dahlia noir", secondEntityKey: "James Ellroy" },
+    saga: '',
+    description: '',
+    fromEntity: {
+      entityType: 'book',
+      title: 'Le Dahlia noir',
+      secondEntityKey: 'James Ellroy',
+    },
     countryOrigin: ['États-Unis'],
+    selectDisplayOrder: 0,
   },
   {
     title: 'Vicky Cristina Barcelona',
@@ -1319,6 +1427,7 @@ export const baseMoviesPage6: BaseMovie[] = [
     description: '',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
+    selectDisplayOrder: 0,
   },
   {
     title: 'Deux Sœurs pour un roi',
@@ -1332,6 +1441,7 @@ export const baseMoviesPage6: BaseMovie[] = [
     description: '',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
+    selectDisplayOrder: 0,
   },
   {
     title: 'Hitchcock',
@@ -1345,6 +1455,7 @@ export const baseMoviesPage6: BaseMovie[] = [
     description: '',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
+    selectDisplayOrder: 0,
   },
   {
     title: 'Chef',
@@ -1358,6 +1469,7 @@ export const baseMoviesPage6: BaseMovie[] = [
     description: '',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
+    selectDisplayOrder: 0,
   },
   {
     title: 'Ghost in the Shell',
@@ -1371,6 +1483,7 @@ export const baseMoviesPage6: BaseMovie[] = [
     description: '',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
+    selectDisplayOrder: 0,
   },
   {
     title: 'Jojo Rabbit',
@@ -1384,6 +1497,7 @@ export const baseMoviesPage6: BaseMovie[] = [
     description: '',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
+    selectDisplayOrder: 0,
   },
   {
     title: 'Catching Fire: The Story of Anita Pallenberg',
@@ -1397,6 +1511,7 @@ export const baseMoviesPage6: BaseMovie[] = [
     description: '',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
+    selectDisplayOrder: 0,
   },
   // Films avec Margot Robbie
   {
@@ -1411,6 +1526,7 @@ export const baseMoviesPage6: BaseMovie[] = [
     description: '',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
+    selectDisplayOrder: 0,
   },
   {
     title: 'Whiskey Tango Foxtrot',
@@ -1424,6 +1540,7 @@ export const baseMoviesPage6: BaseMovie[] = [
     description: '',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
+    selectDisplayOrder: 0,
   },
   {
     title: 'Goodbye Christopher Robin',
@@ -1437,6 +1554,7 @@ export const baseMoviesPage6: BaseMovie[] = [
     description: '',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
+    selectDisplayOrder: 0,
   },
   {
     title: 'Moi, Tonya',
@@ -1450,6 +1568,7 @@ export const baseMoviesPage6: BaseMovie[] = [
     description: '',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
+    selectDisplayOrder: 0,
   },
   {
     title: "Marie Stuart, reine d'Écosse",
@@ -1463,6 +1582,7 @@ export const baseMoviesPage6: BaseMovie[] = [
     description: '',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
+    selectDisplayOrder: 0,
   },
   {
     title: 'Scandale',
@@ -1476,6 +1596,7 @@ export const baseMoviesPage6: BaseMovie[] = [
     description: '',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
+    selectDisplayOrder: 0,
   },
   {
     title: 'Dreamland',
@@ -1489,26 +1610,32 @@ export const baseMoviesPage6: BaseMovie[] = [
     description: '',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
+    selectDisplayOrder: 0,
   },
   {
     title: 'Hurlevent',
     director: "Frances O'Connor",
     actors: [
       {
-        name: "Margot Robbie",
+        name: 'Margot Robbie',
       },
       {
-        name: "Jacob Elordi",
-      }
+        name: 'Jacob Elordi',
+      },
     ],
-    coverUrl: "/movies_pictures/0bf52c69f64606b7325be670294cb767.jpg",
-    releaseDate: "2022-10-14",
+    coverUrl: '/movies_pictures/0bf52c69f64606b7325be670294cb767.jpg',
+    releaseDate: '2022-10-14',
     length: 128,
     genre: ['Drame'],
-    saga: "",
-    description: "",
-    fromEntity: { entityType: "book", title: "Les Hauts de Hurlevent", secondEntityKey: "Emily Brontë" },
+    saga: '',
+    description: '',
+    fromEntity: {
+      entityType: 'book',
+      title: 'Les Hauts de Hurlevent',
+      secondEntityKey: 'Emily Brontë',
+    },
     countryOrigin: ['États-Unis'],
+    selectDisplayOrder: 0,
   },
   // Films avec Robin Williams
   {
@@ -1523,6 +1650,7 @@ export const baseMoviesPage6: BaseMovie[] = [
     description: '',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
+    selectDisplayOrder: 0,
   },
   {
     title: "L'Eveil",
@@ -1536,6 +1664,7 @@ export const baseMoviesPage6: BaseMovie[] = [
     description: '',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
+    selectDisplayOrder: 0,
   },
   {
     title: 'The Fisher King : Le Roi pêcheur',
@@ -1549,6 +1678,7 @@ export const baseMoviesPage6: BaseMovie[] = [
     description: '',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
+    selectDisplayOrder: 0,
   },
   {
     title: 'Dead Again',
@@ -1562,6 +1692,7 @@ export const baseMoviesPage6: BaseMovie[] = [
     description: '',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
+    selectDisplayOrder: 0,
   },
   {
     title: 'Hamlet',
@@ -1575,6 +1706,7 @@ export const baseMoviesPage6: BaseMovie[] = [
     description: '',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
+    selectDisplayOrder: 0,
   },
   {
     title: 'Jack',
@@ -1588,6 +1720,7 @@ export const baseMoviesPage6: BaseMovie[] = [
     description: '',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
+    selectDisplayOrder: 0,
   },
   {
     title: 'Harry dans tous ses états',
@@ -1601,6 +1734,7 @@ export const baseMoviesPage6: BaseMovie[] = [
     description: '',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
+    selectDisplayOrder: 0,
   },
   {
     title: 'Jakob le menteur',
@@ -1614,6 +1748,7 @@ export const baseMoviesPage6: BaseMovie[] = [
     description: '',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
+    selectDisplayOrder: 0,
   },
   {
     title: 'Au-delà de nos rêves',
@@ -1627,6 +1762,7 @@ export const baseMoviesPage6: BaseMovie[] = [
     description: '',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
+    selectDisplayOrder: 0,
   },
   {
     title: 'Docteur Patch',
@@ -1640,6 +1776,7 @@ export const baseMoviesPage6: BaseMovie[] = [
     description: '',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
+    selectDisplayOrder: 0,
   },
   {
     title: 'Photo Obsession',
@@ -1653,6 +1790,7 @@ export const baseMoviesPage6: BaseMovie[] = [
     description: '',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
+    selectDisplayOrder: 0,
   },
   {
     title: 'Final cut',
@@ -1666,6 +1804,7 @@ export const baseMoviesPage6: BaseMovie[] = [
     description: '',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
+    selectDisplayOrder: 0,
   },
   {
     title: 'Le Prince de Greenwich Village',
@@ -1679,6 +1818,7 @@ export const baseMoviesPage6: BaseMovie[] = [
     description: '',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
+    selectDisplayOrder: 0,
   },
   // Films ajoutés depuis Untitled-1
   {
@@ -1693,6 +1833,7 @@ export const baseMoviesPage6: BaseMovie[] = [
     description: '',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
+    selectDisplayOrder: 0,
   },
   {
     title: 'La Rue',
@@ -1706,6 +1847,7 @@ export const baseMoviesPage6: BaseMovie[] = [
     description: '',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
+    selectDisplayOrder: 0,
   },
   {
     title: 'Glory',
@@ -1719,6 +1861,7 @@ export const baseMoviesPage6: BaseMovie[] = [
     description: '',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
+    selectDisplayOrder: 0,
   },
   {
     title: 'Le Bûcher des vanités',
@@ -1736,6 +1879,7 @@ export const baseMoviesPage6: BaseMovie[] = [
     description: '',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
+    selectDisplayOrder: 0,
   },
   {
     title: "La Puissance de l'ange",
@@ -1749,6 +1893,7 @@ export const baseMoviesPage6: BaseMovie[] = [
     description: '',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
+    selectDisplayOrder: 0,
   },
   {
     title: 'Impitoyable',
@@ -1762,6 +1907,7 @@ export const baseMoviesPage6: BaseMovie[] = [
     description: '',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
+    selectDisplayOrder: 0,
   },
   {
     title: 'Le Collectionneur',
@@ -1775,6 +1921,7 @@ export const baseMoviesPage6: BaseMovie[] = [
     description: '',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
+    selectDisplayOrder: 0,
   },
 
   {
@@ -1790,6 +1937,7 @@ export const baseMoviesPage6: BaseMovie[] = [
     description: '',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
+    selectDisplayOrder: 0,
   },
   {
     title: "Le Masque de l'araignée",
@@ -1803,6 +1951,7 @@ export const baseMoviesPage6: BaseMovie[] = [
     description: '',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
+    selectDisplayOrder: 0,
   },
   {
     title: 'La Somme de toutes les peurs',
@@ -1816,6 +1965,7 @@ export const baseMoviesPage6: BaseMovie[] = [
     description: '',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
+    selectDisplayOrder: 0,
   },
   {
     title: 'Crimes et Pouvoir',
@@ -1829,6 +1979,7 @@ export const baseMoviesPage6: BaseMovie[] = [
     description: '',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
+    selectDisplayOrder: 0,
   },
   {
     title: 'Levity',
@@ -1842,6 +1993,7 @@ export const baseMoviesPage6: BaseMovie[] = [
     description: '',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
+    selectDisplayOrder: 0,
   },
   {
     title: 'Une vie inachevée',
@@ -1859,6 +2011,7 @@ export const baseMoviesPage6: BaseMovie[] = [
     description: '',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
+    selectDisplayOrder: 0,
   },
   {
     title: 'Sans plus attendre',
@@ -1873,6 +2026,7 @@ export const baseMoviesPage6: BaseMovie[] = [
     description: '',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
+    selectDisplayOrder: 0,
   },
   {
     title: "L'Incroyable Histoire de Winter le dauphin",
@@ -1886,6 +2040,7 @@ export const baseMoviesPage6: BaseMovie[] = [
     description: '',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
+    selectDisplayOrder: 0,
   },
   {
     title: 'La Chute de la Maison-Blanche',
@@ -1899,6 +2054,7 @@ export const baseMoviesPage6: BaseMovie[] = [
     description: '',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
+    selectDisplayOrder: 0,
   },
   {
     title: 'Last Vegas',
@@ -1912,6 +2068,7 @@ export const baseMoviesPage6: BaseMovie[] = [
     description: '',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
+    selectDisplayOrder: 0,
   },
   {
     title: 'Transcendance',
@@ -1929,6 +2086,7 @@ export const baseMoviesPage6: BaseMovie[] = [
     description: '',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
+    selectDisplayOrder: 0,
   },
   {
     title: 'Last Knights',
@@ -1942,6 +2100,7 @@ export const baseMoviesPage6: BaseMovie[] = [
     description: '',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
+    selectDisplayOrder: 0,
   },
   {
     title: "Braquage à l'ancienne",
@@ -1959,6 +2118,7 @@ export const baseMoviesPage6: BaseMovie[] = [
     description: '',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
+    selectDisplayOrder: 0,
   },
   {
     title: 'La Chute du Président Nixon',
@@ -1972,6 +2132,7 @@ export const baseMoviesPage6: BaseMovie[] = [
     description: '',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
+    selectDisplayOrder: 0,
   },
   {
     title: "L'impasse",
@@ -1985,6 +2146,7 @@ export const baseMoviesPage6: BaseMovie[] = [
     description: '',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
+    selectDisplayOrder: 0,
   },
   {
     title: "Vol au-dessus d'un nid de coucou",
@@ -1998,6 +2160,7 @@ export const baseMoviesPage6: BaseMovie[] = [
     description: '',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
+    selectDisplayOrder: 0,
   },
   {
     title: 'Il était une fois en Amérique',
@@ -2011,6 +2174,7 @@ export const baseMoviesPage6: BaseMovie[] = [
     description: '',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
+    selectDisplayOrder: 0,
   },
   {
     title: 'Le Bon, la brute et le truand',
@@ -2024,6 +2188,7 @@ export const baseMoviesPage6: BaseMovie[] = [
     description: '',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
+    selectDisplayOrder: 0,
   },
   {
     title: 'Le Dictateur',
@@ -2037,6 +2202,7 @@ export const baseMoviesPage6: BaseMovie[] = [
     description: '',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
+    selectDisplayOrder: 0,
   },
   {
     title: 'Your Name',
@@ -2050,6 +2216,7 @@ export const baseMoviesPage6: BaseMovie[] = [
     description: '',
     fromEntity: null,
     countryOrigin: ['Japon'],
+    selectDisplayOrder: 0,
   },
   {
     title: 'La Vie est belle',
@@ -2067,6 +2234,7 @@ export const baseMoviesPage6: BaseMovie[] = [
     description: '',
     fromEntity: null,
     countryOrigin: ['Italie'],
+    selectDisplayOrder: 0,
   },
   {
     title: 'Apocalypse Now',
@@ -2080,6 +2248,7 @@ export const baseMoviesPage6: BaseMovie[] = [
     description: '',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
+    selectDisplayOrder: 0,
   },
   {
     title: 'Harakiri',
@@ -2093,6 +2262,7 @@ export const baseMoviesPage6: BaseMovie[] = [
     description: '',
     fromEntity: null,
     countryOrigin: ['Japon'],
+    selectDisplayOrder: 0,
   },
   {
     title: "Voyage au bout de l'enfer",
@@ -2106,6 +2276,7 @@ export const baseMoviesPage6: BaseMovie[] = [
     description: '',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
+    selectDisplayOrder: 0,
   },
   {
     title: 'Les Lumières de la ville',
@@ -2119,6 +2290,7 @@ export const baseMoviesPage6: BaseMovie[] = [
     description: '',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
+    selectDisplayOrder: 0,
   },
   {
     title: 'Le Pianiste',
@@ -2132,6 +2304,7 @@ export const baseMoviesPage6: BaseMovie[] = [
     description: '',
     fromEntity: null,
     countryOrigin: ['France'],
+    selectDisplayOrder: 0,
   },
   {
     title: 'Je verrai toujours vos visages',
@@ -2145,6 +2318,7 @@ export const baseMoviesPage6: BaseMovie[] = [
     description: '',
     fromEntity: null,
     countryOrigin: ['France'],
+    selectDisplayOrder: 0,
   },
   {
     title: "L'Intendant Sansho",
@@ -2158,6 +2332,7 @@ export const baseMoviesPage6: BaseMovie[] = [
     description: '',
     fromEntity: null,
     countryOrigin: ['Japon'],
+    selectDisplayOrder: 0,
   },
   {
     title: 'Le Trou',
@@ -2171,6 +2346,7 @@ export const baseMoviesPage6: BaseMovie[] = [
     description: '',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
+    selectDisplayOrder: 0,
   },
   {
     title: 'Les Sentiers de la gloire',
@@ -2184,6 +2360,7 @@ export const baseMoviesPage6: BaseMovie[] = [
     description: '',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
+    selectDisplayOrder: 0,
   },
   {
     title: 'Elephant Man',
@@ -2197,6 +2374,7 @@ export const baseMoviesPage6: BaseMovie[] = [
     description: '',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
+    selectDisplayOrder: 0,
   },
   {
     title: 'Fenêtre sur cour',
@@ -2210,6 +2388,7 @@ export const baseMoviesPage6: BaseMovie[] = [
     description: '',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
+    selectDisplayOrder: 0,
   },
   {
     title: 'Barry Lyndon',
@@ -2223,6 +2402,7 @@ export const baseMoviesPage6: BaseMovie[] = [
     description: '',
     fromEntity: null,
     countryOrigin: ['Royaume-Uni'],
+    selectDisplayOrder: 0,
   },
   {
     title: 'Vivre',
@@ -2236,6 +2416,7 @@ export const baseMoviesPage6: BaseMovie[] = [
     description: '',
     fromEntity: null,
     countryOrigin: ['Japon'],
+    selectDisplayOrder: 0,
   },
   {
     title: 'Une journée particulière',
@@ -2249,6 +2430,7 @@ export const baseMoviesPage6: BaseMovie[] = [
     description: '',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
+    selectDisplayOrder: 0,
   },
   {
     title: "La Ruée vers l'or",
@@ -2262,6 +2444,7 @@ export const baseMoviesPage6: BaseMovie[] = [
     description: '',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
+    selectDisplayOrder: 0,
   },
   {
     title: "Entre le ciel et l'enfer",
@@ -2275,6 +2458,7 @@ export const baseMoviesPage6: BaseMovie[] = [
     description: '',
     fromEntity: null,
     countryOrigin: ['Japon'],
+    selectDisplayOrder: 0,
   },
   {
     title: 'La Vérité',
@@ -2292,6 +2476,7 @@ export const baseMoviesPage6: BaseMovie[] = [
     description: '',
     fromEntity: null,
     countryOrigin: ['France'],
+    selectDisplayOrder: 0,
   },
   {
     title: 'Le Conte de la princesse Kaguya',
@@ -2305,6 +2490,7 @@ export const baseMoviesPage6: BaseMovie[] = [
     description: '',
     fromEntity: null,
     countryOrigin: ['Japon'],
+    selectDisplayOrder: 0,
   },
   {
     title: 'Muganga - Celui qui soigne',
@@ -2318,6 +2504,7 @@ export const baseMoviesPage6: BaseMovie[] = [
     description: '',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
+    selectDisplayOrder: 0,
   },
   {
     title: 'La Grande Vadrouille',
@@ -2331,6 +2518,7 @@ export const baseMoviesPage6: BaseMovie[] = [
     description: '',
     fromEntity: null,
     countryOrigin: ['France'],
+    selectDisplayOrder: 30,
   },
   {
     title: 'Sueurs froides',
@@ -2344,6 +2532,7 @@ export const baseMoviesPage6: BaseMovie[] = [
     description: '',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
+    selectDisplayOrder: 0,
   },
   {
     title: 'Barberousse',
@@ -2357,6 +2546,7 @@ export const baseMoviesPage6: BaseMovie[] = [
     description: '',
     fromEntity: null,
     countryOrigin: ['Japon'],
+    selectDisplayOrder: 0,
   },
   {
     title: 'La Mort aux trousses',
@@ -2370,6 +2560,7 @@ export const baseMoviesPage6: BaseMovie[] = [
     description: '',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
+    selectDisplayOrder: 0,
   },
   {
     title: 'La Vie est belle',
@@ -2383,6 +2574,7 @@ export const baseMoviesPage6: BaseMovie[] = [
     description: '',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
+    selectDisplayOrder: 0,
   },
   {
     title: 'Danse avec les loups',
@@ -2396,6 +2588,7 @@ export const baseMoviesPage6: BaseMovie[] = [
     description: '',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
+    selectDisplayOrder: 0,
   },
   {
     title: 'Les Tontons flingueurs',
@@ -2409,6 +2602,7 @@ export const baseMoviesPage6: BaseMovie[] = [
     description: '',
     fromEntity: null,
     countryOrigin: ['France'],
+    selectDisplayOrder: 30,
   },
   {
     title: "L'Armée des Ombres",
@@ -2422,6 +2616,7 @@ export const baseMoviesPage6: BaseMovie[] = [
     description: '',
     fromEntity: null,
     countryOrigin: ['France'],
+    selectDisplayOrder: 0,
   },
   {
     title: 'Casino',
@@ -2435,6 +2630,7 @@ export const baseMoviesPage6: BaseMovie[] = [
     description: '',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
+    selectDisplayOrder: 30,
   },
   {
     title: 'La Nuit du chasseur',
@@ -2448,6 +2644,7 @@ export const baseMoviesPage6: BaseMovie[] = [
     description: '',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
+    selectDisplayOrder: 30,
   },
   {
     title: 'Et pour quelques dollars de plus',
@@ -2461,6 +2658,7 @@ export const baseMoviesPage6: BaseMovie[] = [
     description: '',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
+    selectDisplayOrder: 0,
   },
   {
     title: "Le Discours d'un roi",
@@ -2474,6 +2672,7 @@ export const baseMoviesPage6: BaseMovie[] = [
     description: '',
     fromEntity: null,
     countryOrigin: ['Royaume-Uni'],
+    selectDisplayOrder: 30,
   },
   {
     title: 'Imitation Game',
@@ -2488,6 +2687,7 @@ export const baseMoviesPage6: BaseMovie[] = [
     description: '',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
+    selectDisplayOrder: 0,
   },
   {
     title: "Lawrence d'Arabie",
@@ -2501,6 +2701,7 @@ export const baseMoviesPage6: BaseMovie[] = [
     description: '',
     fromEntity: null,
     countryOrigin: ['Royaume-Uni'],
+    selectDisplayOrder: 0,
   },
   {
     title: 'M le Maudit',
@@ -2514,6 +2715,7 @@ export const baseMoviesPage6: BaseMovie[] = [
     description: '',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
+    selectDisplayOrder: 0,
   },
   {
     title: 'Je veux manger ton pancréas',
@@ -2527,6 +2729,7 @@ export const baseMoviesPage6: BaseMovie[] = [
     description: '',
     fromEntity: null,
     countryOrigin: ['Japon'],
+    selectDisplayOrder: 0,
   },
   {
     title: 'Le Nom de la Rose',
@@ -2540,6 +2743,7 @@ export const baseMoviesPage6: BaseMovie[] = [
     description: '',
     fromEntity: null,
     countryOrigin: ['France'],
+    selectDisplayOrder: 30,
   },
   // Mel Gibson
 
@@ -2555,6 +2759,7 @@ export const baseMoviesPage6: BaseMovie[] = [
     description: '',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
+    selectDisplayOrder: 0,
   },
   {
     title: 'Signes',
@@ -2568,6 +2773,7 @@ export const baseMoviesPage6: BaseMovie[] = [
     description: '',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
+    selectDisplayOrder: 30,
   },
   {
     title: 'La Passion du Christ',
@@ -2581,6 +2787,7 @@ export const baseMoviesPage6: BaseMovie[] = [
     description: '',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
+    selectDisplayOrder: 30,
   },
   // Liam Neeson, Natalie Portman, Emma Watson
   {
@@ -2595,6 +2802,7 @@ export const baseMoviesPage6: BaseMovie[] = [
     description: '',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
+    selectDisplayOrder: 0,
   },
   {
     title: 'La Colère des Titans',
@@ -2608,6 +2816,7 @@ export const baseMoviesPage6: BaseMovie[] = [
     description: '',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
+    selectDisplayOrder: 0,
   },
   {
     title: 'Jane Got a Gun',
@@ -2621,6 +2830,7 @@ export const baseMoviesPage6: BaseMovie[] = [
     description: '',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
+    selectDisplayOrder: 0,
   },
   {
     title: 'Knight of Cups',
@@ -2634,6 +2844,7 @@ export const baseMoviesPage6: BaseMovie[] = [
     description: '',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
+    selectDisplayOrder: 0,
   },
   {
     title: 'Jackie',
@@ -2647,6 +2858,7 @@ export const baseMoviesPage6: BaseMovie[] = [
     description: '',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
+    selectDisplayOrder: 0,
   },
   {
     title: 'Annihilation',
@@ -2660,6 +2872,7 @@ export const baseMoviesPage6: BaseMovie[] = [
     description: '',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
+    selectDisplayOrder: 0,
   },
   {
     title: "L'École de tous les talents",
@@ -2673,6 +2886,7 @@ export const baseMoviesPage6: BaseMovie[] = [
     description: '',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
+    selectDisplayOrder: 0,
   },
   {
     title: 'My Week With Marilyn',
@@ -2686,6 +2900,7 @@ export const baseMoviesPage6: BaseMovie[] = [
     description: '',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
+    selectDisplayOrder: 0,
   },
   {
     title: 'Le Monde de Charlie',
@@ -2699,6 +2914,7 @@ export const baseMoviesPage6: BaseMovie[] = [
     description: '',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
+    selectDisplayOrder: 0,
   },
   {
     title: 'The Bling Ring',
@@ -2712,6 +2928,7 @@ export const baseMoviesPage6: BaseMovie[] = [
     description: '',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
+    selectDisplayOrder: 0,
   },
   {
     title: 'Colonia',
@@ -2725,6 +2942,7 @@ export const baseMoviesPage6: BaseMovie[] = [
     description: '',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
+    selectDisplayOrder: 0,
   },
   {
     title: 'Régression',
@@ -2738,23 +2956,29 @@ export const baseMoviesPage6: BaseMovie[] = [
     description: '',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
+    selectDisplayOrder: 0,
   },
   {
     title: 'Les Filles du docteur March',
     director: 'Greta Gerwig',
     actors: [
       {
-        name: "Emma Watson",
-      }
+        name: 'Emma Watson',
+      },
     ],
-    coverUrl: "/movies_pictures/5505683.jpg",
-    releaseDate: "2019-01-01",
+    coverUrl: '/movies_pictures/5505683.jpg',
+    releaseDate: '2019-01-01',
     length: 135,
     genre: ['Drame'],
-    saga: "",
-    description: "",
-    fromEntity: { entityType: "book", title: "Les filles du Docteur March", secondEntityKey: "Louisa May Alcott" },
+    saga: '',
+    description: '',
+    fromEntity: {
+      entityType: 'book',
+      title: 'Les filles du Docteur March',
+      secondEntityKey: 'Louisa May Alcott',
+    },
     countryOrigin: ['États-Unis'],
+    selectDisplayOrder: 0,
   },
   // Amy Adams
   {
@@ -2769,6 +2993,7 @@ export const baseMoviesPage6: BaseMovie[] = [
     description: '',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
+    selectDisplayOrder: 0,
   },
   // Joséphine Japy
   {
@@ -2783,6 +3008,7 @@ export const baseMoviesPage6: BaseMovie[] = [
     description: '',
     fromEntity: null,
     countryOrigin: ['France'],
+    selectDisplayOrder: 0,
   },
   {
     title: 'Neuilly, sa mère sa mère',
@@ -2796,6 +3022,7 @@ export const baseMoviesPage6: BaseMovie[] = [
     description: '',
     fromEntity: null,
     countryOrigin: ['France'],
+    selectDisplayOrder: 0,
   },
   {
     title: 'Respire',
@@ -2809,6 +3036,7 @@ export const baseMoviesPage6: BaseMovie[] = [
     description: '',
     fromEntity: null,
     countryOrigin: ['France'],
+    selectDisplayOrder: 0,
   },
   {
     title: 'Irréprochable',
@@ -2822,6 +3050,7 @@ export const baseMoviesPage6: BaseMovie[] = [
     description: '',
     fromEntity: null,
     countryOrigin: ['France'],
+    selectDisplayOrder: 0,
   },
   {
     title: 'Eugénie Grandet',
@@ -2835,6 +3064,7 @@ export const baseMoviesPage6: BaseMovie[] = [
     description: '',
     fromEntity: null,
     countryOrigin: ['France'],
+    selectDisplayOrder: 0,
   },
   {
     title: 'Jack Mimoun et les Secrets de Val Verde',
@@ -2848,6 +3078,7 @@ export const baseMoviesPage6: BaseMovie[] = [
     description: '',
     fromEntity: null,
     countryOrigin: ['France'],
+    selectDisplayOrder: 0,
   },
   {
     title: 'Sur les chemins noirs',
@@ -2861,6 +3092,7 @@ export const baseMoviesPage6: BaseMovie[] = [
     description: '',
     fromEntity: null,
     countryOrigin: ['France'],
+    selectDisplayOrder: 0,
   },
   {
     title: 'Ma mère, Dieu et Sylvie Vartan',
@@ -2874,6 +3106,7 @@ export const baseMoviesPage6: BaseMovie[] = [
     description: '',
     fromEntity: null,
     countryOrigin: ['France'],
+    selectDisplayOrder: 0,
   },
   // Jean Dujardin
   {
@@ -2888,6 +3121,7 @@ export const baseMoviesPage6: BaseMovie[] = [
     description: '',
     fromEntity: null,
     countryOrigin: ['France'],
+    selectDisplayOrder: 0,
   },
   {
     title: 'Möbius',
@@ -2901,6 +3135,7 @@ export const baseMoviesPage6: BaseMovie[] = [
     description: '',
     fromEntity: null,
     countryOrigin: ['France'],
+    selectDisplayOrder: 0,
   },
   {
     title: 'La French',
@@ -2914,6 +3149,7 @@ export const baseMoviesPage6: BaseMovie[] = [
     description: '',
     fromEntity: null,
     countryOrigin: ['France'],
+    selectDisplayOrder: 0,
   },
   {
     title: 'Un plus une',
@@ -2927,6 +3163,7 @@ export const baseMoviesPage6: BaseMovie[] = [
     description: '',
     fromEntity: null,
     countryOrigin: ['France'],
+    selectDisplayOrder: 0,
   },
   {
     title: 'Un homme à la hauteur',
@@ -2940,6 +3177,7 @@ export const baseMoviesPage6: BaseMovie[] = [
     description: '',
     fromEntity: null,
     countryOrigin: ['France'],
+    selectDisplayOrder: 0,
   },
   // Films français divers
   {
@@ -2964,6 +3202,7 @@ export const baseMoviesPage6: BaseMovie[] = [
     description: '',
     fromEntity: null,
     countryOrigin: ['France'],
+    selectDisplayOrder: 0,
   },
   {
     title: 'Seuls Two',
@@ -2977,6 +3216,7 @@ export const baseMoviesPage6: BaseMovie[] = [
     description: '',
     fromEntity: null,
     countryOrigin: ['France'],
+    selectDisplayOrder: 0,
   },
   {
     title: 'La Haine',
@@ -2990,6 +3230,7 @@ export const baseMoviesPage6: BaseMovie[] = [
     description: '',
     fromEntity: null,
     countryOrigin: ['France'],
+    selectDisplayOrder: 0,
   },
   {
     title: "Le Fabuleux Destin d'Amélie Poulain",
@@ -3003,6 +3244,7 @@ export const baseMoviesPage6: BaseMovie[] = [
     description: '',
     fromEntity: null,
     countryOrigin: ['France'],
+    selectDisplayOrder: 0,
   },
   {
     title: 'Polisse',
@@ -3016,6 +3258,7 @@ export const baseMoviesPage6: BaseMovie[] = [
     description: '',
     fromEntity: null,
     countryOrigin: ['France'],
+    selectDisplayOrder: 0,
   },
   {
     title: "La vie d'Adèle",
@@ -3029,6 +3272,7 @@ export const baseMoviesPage6: BaseMovie[] = [
     description: '',
     fromEntity: null,
     countryOrigin: ['France'],
+    selectDisplayOrder: 0,
   },
   {
     title: 'Le Grand bleu',
@@ -3046,6 +3290,7 @@ export const baseMoviesPage6: BaseMovie[] = [
     description: '',
     fromEntity: null,
     countryOrigin: ['France'],
+    selectDisplayOrder: 0,
   },
   {
     title: "Jeux d'enfants",
@@ -3059,6 +3304,7 @@ export const baseMoviesPage6: BaseMovie[] = [
     description: '',
     fromEntity: null,
     countryOrigin: ['France'],
+    selectDisplayOrder: 0,
   },
   {
     title: 'Les trois frères',
@@ -3072,6 +3318,7 @@ export const baseMoviesPage6: BaseMovie[] = [
     description: '',
     fromEntity: null,
     countryOrigin: ['France'],
+    selectDisplayOrder: 0,
   },
   {
     title: 'Tchao Pantin',
@@ -3085,6 +3332,7 @@ export const baseMoviesPage6: BaseMovie[] = [
     description: '',
     fromEntity: null,
     countryOrigin: ['France'],
+    selectDisplayOrder: 0,
   },
   {
     title: 'Quai des Brumes',
@@ -3102,6 +3350,7 @@ export const baseMoviesPage6: BaseMovie[] = [
     description: '',
     fromEntity: null,
     countryOrigin: ['France'],
+    selectDisplayOrder: 30,
   },
   {
     title: "Qu'est-ce qu'on a fait au bon dieu ?",
@@ -3115,6 +3364,7 @@ export const baseMoviesPage6: BaseMovie[] = [
     description: '',
     fromEntity: null,
     countryOrigin: ['France'],
+    selectDisplayOrder: 30,
   },
   {
     title: 'Patients',
@@ -3128,6 +3378,7 @@ export const baseMoviesPage6: BaseMovie[] = [
     description: '',
     fromEntity: null,
     countryOrigin: ['France'],
+    selectDisplayOrder: 0,
   },
   {
     title: 'Babysitting',
@@ -3141,6 +3392,7 @@ export const baseMoviesPage6: BaseMovie[] = [
     description: '',
     fromEntity: null,
     countryOrigin: ['France'],
+    selectDisplayOrder: 30,
   },
   {
     title: 'Babysitting 2',
@@ -3154,6 +3406,7 @@ export const baseMoviesPage6: BaseMovie[] = [
     description: '',
     fromEntity: null,
     countryOrigin: ['France'],
+    selectDisplayOrder: 0,
   },
   {
     title: "Bienvenue chez les Ch'tis",
@@ -3167,6 +3420,7 @@ export const baseMoviesPage6: BaseMovie[] = [
     description: '',
     fromEntity: null,
     countryOrigin: ['France'],
+    selectDisplayOrder: 30,
   },
   {
     title: 'Les Beaux Gosses',
@@ -3180,6 +3434,7 @@ export const baseMoviesPage6: BaseMovie[] = [
     description: '',
     fromEntity: null,
     countryOrigin: ['France'],
+    selectDisplayOrder: 0,
   },
   {
     title: 'Un singe en hiver',
@@ -3193,6 +3448,7 @@ export const baseMoviesPage6: BaseMovie[] = [
     description: '',
     fromEntity: null,
     countryOrigin: ['France'],
+    selectDisplayOrder: 0,
   },
   {
     title: 'Tais-toi',
@@ -3206,6 +3462,7 @@ export const baseMoviesPage6: BaseMovie[] = [
     description: '',
     fromEntity: null,
     countryOrigin: ['France'],
+    selectDisplayOrder: 0,
   },
   {
     title: 'La vérité si je mens !',
@@ -3219,6 +3476,7 @@ export const baseMoviesPage6: BaseMovie[] = [
     description: '',
     fromEntity: null,
     countryOrigin: ['France'],
+    selectDisplayOrder: 0,
   },
   {
     title: 'Steak',
@@ -3232,5 +3490,6 @@ export const baseMoviesPage6: BaseMovie[] = [
     description: '',
     fromEntity: null,
     countryOrigin: ['France'],
+    selectDisplayOrder: 0,
   },
 ];

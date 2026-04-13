@@ -8,6 +8,7 @@ import { BaseMovie, Movie } from '../models/movie-model';
 
 export const getEmptyMovie = (movie: BaseMovie): Movie => ({
   ...movie,
+  selectDisplayOrder: movie.selectDisplayOrder ?? 0,
   rating: 0,
   timesWatched: 0,
   firstViewedDate: '',

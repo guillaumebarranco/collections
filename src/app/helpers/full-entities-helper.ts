@@ -144,6 +144,7 @@ export const getFullMovie = (movie: BaseMovie): Movie => ({
   saga: movie.saga,
   actors: movie.actors,
   countryOrigin: movie.countryOrigin ?? [],
+  selectDisplayOrder: movie.selectDisplayOrder ?? 0,
   fromEntity: movie.fromEntity ?? null,
   rating: 0,
   timesWatched: 0,

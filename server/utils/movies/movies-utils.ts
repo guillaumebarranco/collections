@@ -488,6 +488,8 @@ function parseBaseMoviesFullFromFile(content: string): BaseMovie[] {
           saga: parseStringField(objectText, 'saga') || '',
           description: parseStringField(objectText, 'description') || '',
           countryOrigin: parseMovieCountryOriginField(objectText),
+          selectDisplayOrder:
+            parseNumberField(objectText, 'selectDisplayOrder') ?? 0,
           fromEntity: parsefromEntityField(objectText) ?? null,
         } as BaseMovie);
       }
@@ -995,6 +997,11 @@ function updateBaseMovieInFile(content: string, payload: BaseMovieFileUpdatePayl
           );
           updated = upsertCountryOriginField(updated, payload.countryOrigin);
           updated = upsertfromEntityField(updated, payload.fromEntity);
+          updated = upsertField(
+            updated,
+            'selectDisplayOrder',
+            payload.selectDisplayOrder
+          );
 
           return (
             content.slice(0, objectStart) +

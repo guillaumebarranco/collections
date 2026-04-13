@@ -21,6 +21,7 @@ export const baseMoviesLove: BaseMovie[] = [
     description: '',
     fromEntity: null,
     countryOrigin: ['France'],
+    selectDisplayOrder: 30,
   },
   {
     title: 'The Princess Switch',
@@ -39,6 +40,7 @@ export const baseMoviesLove: BaseMovie[] = [
     description: '',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
+    selectDisplayOrder: 0,
   },
   {
     title: 'Petits coups montés',
@@ -56,6 +58,7 @@ export const baseMoviesLove: BaseMovie[] = [
     description: '',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
+    selectDisplayOrder: 0,
   },
   {
     title: 'The life list',
@@ -73,6 +76,7 @@ export const baseMoviesLove: BaseMovie[] = [
     description: '',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
+    selectDisplayOrder: 0,
   },
   {
     title: 'Champagne Problems',
@@ -93,6 +97,7 @@ export const baseMoviesLove: BaseMovie[] = [
     description: '',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
+    selectDisplayOrder: 0,
   },
   {
     title: 'Charlie, les filles lui disent merci',
@@ -117,6 +122,7 @@ export const baseMoviesLove: BaseMovie[] = [
     description: '',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
+    selectDisplayOrder: 0,
   },
   {
     title: 'Le Chasseur de primes',
@@ -140,6 +146,7 @@ export const baseMoviesLove: BaseMovie[] = [
     description: '',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
+    selectDisplayOrder: 0,
   },
   {
     title: 'People We Meet on Vacation',
@@ -160,6 +167,7 @@ export const baseMoviesLove: BaseMovie[] = [
     description: '',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
+    selectDisplayOrder: 0,
   },
   {
     title: 'Tout le Bleu du Ciel',
@@ -178,6 +186,7 @@ export const baseMoviesLove: BaseMovie[] = [
     description: '',
     fromEntity: null,
     countryOrigin: ['France'],
+    selectDisplayOrder: 0,
   },
   {
     title: 'Nos coeurs meurtris',
@@ -195,6 +204,7 @@ export const baseMoviesLove: BaseMovie[] = [
     description: '',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
+    selectDisplayOrder: 0,
   },
   {
     title: 'Au plaisir de se faire trahir',
@@ -212,6 +222,7 @@ export const baseMoviesLove: BaseMovie[] = [
     description: '',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
+    selectDisplayOrder: 0,
   },
   {
     title: "La Probabilité statistique de l'amour au premier regard",
@@ -229,6 +240,7 @@ export const baseMoviesLove: BaseMovie[] = [
     description: '',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
+    selectDisplayOrder: 0,
   },
   {
     title: 'Ce sera toi',
@@ -246,6 +258,7 @@ export const baseMoviesLove: BaseMovie[] = [
     description: '',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
+    selectDisplayOrder: 0,
   },
   {
     title: 'Hello, goodbye and everything in between',
@@ -264,6 +277,7 @@ export const baseMoviesLove: BaseMovie[] = [
     description: '',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
+    selectDisplayOrder: 0,
   },
   {
     title: 'Un Accord Parfait',
@@ -281,6 +295,7 @@ export const baseMoviesLove: BaseMovie[] = [
     description: '',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
+    selectDisplayOrder: 0,
   },
   {
     title: 'The In-between',
@@ -298,6 +313,7 @@ export const baseMoviesLove: BaseMovie[] = [
     description: '',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
+    selectDisplayOrder: 0,
   },
   {
     title: 'À Travers Ma Fenêtre',
@@ -315,6 +331,7 @@ export const baseMoviesLove: BaseMovie[] = [
     description: '',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
+    selectDisplayOrder: 0,
   },
   {
     title: 'Love Hard',
@@ -332,6 +349,7 @@ export const baseMoviesLove: BaseMovie[] = [
     description: '',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
+    selectDisplayOrder: 0,
   },
   {
     title: "L'Amour complexe",
@@ -349,6 +367,7 @@ export const baseMoviesLove: BaseMovie[] = [
     description: '',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
+    selectDisplayOrder: 0,
   },
   {
     title: 'La Belle et la Bête',
@@ -363,6 +382,7 @@ export const baseMoviesLove: BaseMovie[] = [
     description: '',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
+    selectDisplayOrder: 30,
   },
   {
     title: 'Un choix',
@@ -376,6 +396,7 @@ export const baseMoviesLove: BaseMovie[] = [
     description: '',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
+    selectDisplayOrder: 0,
   },
   {
     title: "L'agence",
@@ -390,6 +411,7 @@ export const baseMoviesLove: BaseMovie[] = [
     description: '',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
+    selectDisplayOrder: 0,
   },
   {
     title: 'Un jour',
@@ -403,6 +425,7 @@ export const baseMoviesLove: BaseMovie[] = [
     description: '',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
+    selectDisplayOrder: 0,
   },
   {
     title: 'Sex Friends',
@@ -417,6 +440,7 @@ export const baseMoviesLove: BaseMovie[] = [
     description: '',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
+    selectDisplayOrder: 30,
   },
   {
     title: 'Love & autres drogues',
@@ -430,6 +454,7 @@ export const baseMoviesLove: BaseMovie[] = [
     description: '',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
+    selectDisplayOrder: 0,
   },
   {
     title: 'Sexy Dance',
@@ -443,6 +468,7 @@ export const baseMoviesLove: BaseMovie[] = [
     description: '',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
+    selectDisplayOrder: 0,
   },
   {
     title: 'Sexy Dance 2',
@@ -456,6 +482,7 @@ export const baseMoviesLove: BaseMovie[] = [
     description: '',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
+    selectDisplayOrder: 0,
   },
   {
     title: 'Sexy Dance 3D',
@@ -469,6 +496,7 @@ export const baseMoviesLove: BaseMovie[] = [
     description: '',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
+    selectDisplayOrder: 0,
   },
   {
     title: 'Sexy Dance 4 : Miami Heat',
@@ -492,6 +520,7 @@ export const baseMoviesLove: BaseMovie[] = [
     description: '',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
+    selectDisplayOrder: 0,
   },
   {
     title: "L'Arnacœur",
@@ -505,6 +534,7 @@ export const baseMoviesLove: BaseMovie[] = [
     description: '',
     fromEntity: null,
     countryOrigin: ['France'],
+    selectDisplayOrder: 30,
   },
   {
     title: 'Remember Me',
@@ -518,6 +548,7 @@ export const baseMoviesLove: BaseMovie[] = [
     description: '',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
+    selectDisplayOrder: 0,
   },
   {
     title: "Valentine's Day",
@@ -531,6 +562,7 @@ export const baseMoviesLove: BaseMovie[] = [
     description: '',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
+    selectDisplayOrder: 30,
   },
   {
     title: 'La proposition',
@@ -544,6 +576,7 @@ export const baseMoviesLove: BaseMovie[] = [
     description: '',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
+    selectDisplayOrder: 30,
   },
   {
     title: '17 ans encore',
@@ -561,6 +594,7 @@ export const baseMoviesLove: BaseMovie[] = [
     description: '',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
+    selectDisplayOrder: 0,
   },
   {
     title: '(500) Jours Ensemble',
@@ -578,6 +612,7 @@ export const baseMoviesLove: BaseMovie[] = [
     description: '',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
+    selectDisplayOrder: 0,
   },
   {
     title: 'Jackpot',
@@ -592,6 +627,7 @@ export const baseMoviesLove: BaseMovie[] = [
     description: '',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
+    selectDisplayOrder: 0,
   },
   {
     title: 'Juno',
@@ -605,23 +641,29 @@ export const baseMoviesLove: BaseMovie[] = [
     description: '',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
+    selectDisplayOrder: 0,
   },
   {
     title: 'Orgueil et Préjugés',
     director: 'Joe Wright',
     actors: [
       {
-        name: "Keira Knightley",
-      }
+        name: 'Keira Knightley',
+      },
     ],
-    coverUrl: "/movies_pictures/orgueil_et_prejuges.jpg",
-    releaseDate: "2005-09-16",
+    coverUrl: '/movies_pictures/orgueil_et_prejuges.jpg',
+    releaseDate: '2005-09-16',
     length: 129,
     genre: ['Romance'],
-    saga: "",
-    description: "",
-    fromEntity: { entityType: "book", title: "Orgueil et Préjugés", secondEntityKey: "Jane Austen" },
+    saga: '',
+    description: '',
+    fromEntity: {
+      entityType: 'book',
+      title: 'Orgueil et Préjugés',
+      secondEntityKey: 'Jane Austen',
+    },
     countryOrigin: ['États-Unis'],
+    selectDisplayOrder: 30,
   },
   {
     title: 'Match Point',
@@ -635,6 +677,7 @@ export const baseMoviesLove: BaseMovie[] = [
     description: '',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
+    selectDisplayOrder: 30,
   },
   {
     title: 'Hitch : Expert en Séduction',
@@ -652,6 +695,7 @@ export const baseMoviesLove: BaseMovie[] = [
     description: '',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
+    selectDisplayOrder: 30,
   },
   {
     title: 'La fille du président',
@@ -665,6 +709,7 @@ export const baseMoviesLove: BaseMovie[] = [
     description: '',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
+    selectDisplayOrder: 0,
   },
   {
     title: 'Eternal Sunshine of the Spotless Mind',
@@ -694,6 +739,7 @@ export const baseMoviesLove: BaseMovie[] = [
     description: '',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
+    selectDisplayOrder: 30,
   },
   {
     title: 'The Girl Next Door',
@@ -708,6 +754,7 @@ export const baseMoviesLove: BaseMovie[] = [
     description: '',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
+    selectDisplayOrder: 0,
   },
   {
     title: 'Amour & Amnésie',
@@ -721,6 +768,7 @@ export const baseMoviesLove: BaseMovie[] = [
     description: '',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
+    selectDisplayOrder: 30,
   },
   {
     title: 'Love Actually',
@@ -739,23 +787,29 @@ export const baseMoviesLove: BaseMovie[] = [
     description: '',
     fromEntity: null,
     countryOrigin: ['Royaume-Uni'],
+    selectDisplayOrder: 30,
   },
   {
     title: "Le temps d'un automne",
     director: 'Adam Shankman',
     actors: [
       {
-        name: "Mandy Moore",
-      }
+        name: 'Mandy Moore',
+      },
     ],
-    coverUrl: "/movies_pictures/46422-a-walk-to-remember-0-150-0-225-crop.jpg",
-    releaseDate: "2002-01-25",
+    coverUrl: '/movies_pictures/46422-a-walk-to-remember-0-150-0-225-crop.jpg',
+    releaseDate: '2002-01-25',
     length: 101,
     genre: ['Romance'],
-    saga: "",
-    description: "",
-    fromEntity: { entityType: "book", title: "À tout jamais", secondEntityKey: "Nicholas Sparks" },
+    saga: '',
+    description: '',
+    fromEntity: {
+      entityType: 'book',
+      title: 'À tout jamais',
+      secondEntityKey: 'Nicholas Sparks',
+    },
     countryOrigin: ['États-Unis'],
+    selectDisplayOrder: 0,
   },
   {
     title: 'Pearl Harbor',
@@ -773,6 +827,7 @@ export const baseMoviesLove: BaseMovie[] = [
     description: '',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
+    selectDisplayOrder: 30,
   },
   {
     title: 'Ce que Veulent les Femmes',
@@ -786,6 +841,7 @@ export const baseMoviesLove: BaseMovie[] = [
     description: '',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
+    selectDisplayOrder: 0,
   },
   {
     title: 'Coup de foudre à Notting Hill',
@@ -799,6 +855,7 @@ export const baseMoviesLove: BaseMovie[] = [
     description: '',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
+    selectDisplayOrder: 30,
   },
   {
     title: 'Rencontre avec Joe Black',
@@ -812,6 +869,7 @@ export const baseMoviesLove: BaseMovie[] = [
     description: '',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
+    selectDisplayOrder: 0,
   },
   {
     title: 'Pretty Woman',
@@ -825,6 +883,7 @@ export const baseMoviesLove: BaseMovie[] = [
     description: '',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
+    selectDisplayOrder: 30,
   },
   {
     title: "L'Amour puissance mille",
@@ -842,6 +901,7 @@ export const baseMoviesLove: BaseMovie[] = [
     description: '',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
+    selectDisplayOrder: 0,
   },
   {
     title: 'La La Land',
@@ -855,6 +915,7 @@ export const baseMoviesLove: BaseMovie[] = [
     description: '',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
+    selectDisplayOrder: 30,
   },
   {
     title: "L'amour ouf",
@@ -876,6 +937,7 @@ export const baseMoviesLove: BaseMovie[] = [
     description: '',
     fromEntity: null,
     countryOrigin: ['France'],
+    selectDisplayOrder: 30,
   },
   {
     title: 'The Princess Switch : Switched Again',
@@ -894,6 +956,7 @@ export const baseMoviesLove: BaseMovie[] = [
     description: '',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
+    selectDisplayOrder: 0,
   },
   {
     title: 'The Princess Switch 3: Romancing the Star',
@@ -907,6 +970,7 @@ export const baseMoviesLove: BaseMovie[] = [
     description: '',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
+    selectDisplayOrder: 0,
   },
   {
     title: 'Holidate',
@@ -924,6 +988,7 @@ export const baseMoviesLove: BaseMovie[] = [
     description: '',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
+    selectDisplayOrder: 0,
   },
   {
     title: 'Rich in Love',
@@ -941,6 +1006,7 @@ export const baseMoviesLove: BaseMovie[] = [
     description: '',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
+    selectDisplayOrder: 0,
   },
   {
     title: 'Isi & Ossi',
@@ -958,6 +1024,7 @@ export const baseMoviesLove: BaseMovie[] = [
     description: '',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
+    selectDisplayOrder: 0,
   },
   {
     title: 'Last Christmas',
@@ -975,6 +1042,7 @@ export const baseMoviesLove: BaseMovie[] = [
     description: '',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
+    selectDisplayOrder: 0,
   },
   {
     title: '40 jours et 40 nuits',
@@ -995,6 +1063,7 @@ export const baseMoviesLove: BaseMovie[] = [
     description: '',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
+    selectDisplayOrder: 0,
   },
   {
     title: 'Coup de foudre à Manhattan',
@@ -1015,6 +1084,7 @@ export const baseMoviesLove: BaseMovie[] = [
     description: '',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
+    selectDisplayOrder: 0,
   },
   {
     title: 'Love again: un peu, beaucoup, passionnément',
@@ -1038,6 +1108,7 @@ export const baseMoviesLove: BaseMovie[] = [
     description: '',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
+    selectDisplayOrder: 0,
   },
   {
     title: 'LOL (Laughing Out Loud)',
@@ -1051,6 +1122,7 @@ export const baseMoviesLove: BaseMovie[] = [
     description: '',
     fromEntity: null,
     countryOrigin: ['France'],
+    selectDisplayOrder: 30,
   },
   {
     title: 'Marty Supreme',
@@ -1064,6 +1136,7 @@ export const baseMoviesLove: BaseMovie[] = [
     description: '',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
+    selectDisplayOrder: 30,
   },
   {
     title: 'Valeur sentimentale (2025)',
@@ -1081,6 +1154,7 @@ export const baseMoviesLove: BaseMovie[] = [
     description: '',
     fromEntity: null,
     countryOrigin: ['Suède'],
+    selectDisplayOrder: 0,
   },
   {
     title: 'Forever My Girl',
@@ -1094,6 +1168,7 @@ export const baseMoviesLove: BaseMovie[] = [
     description: '',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
+    selectDisplayOrder: 0,
   },
   {
     title: 'Maintenance Required',
@@ -1108,6 +1183,7 @@ export const baseMoviesLove: BaseMovie[] = [
     description: '',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
+    selectDisplayOrder: 0,
   },
   {
     title: 'French Lover',
@@ -1122,6 +1198,7 @@ export const baseMoviesLove: BaseMovie[] = [
     description: '',
     fromEntity: null,
     countryOrigin: ['France'],
+    selectDisplayOrder: 0,
   },
   {
     title: 'Lettres à Juliette',
@@ -1135,6 +1212,7 @@ export const baseMoviesLove: BaseMovie[] = [
     description: '',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
+    selectDisplayOrder: 0,
   },
   {
     title: 'My Oxford Year',
@@ -1148,6 +1226,7 @@ export const baseMoviesLove: BaseMovie[] = [
     description: '',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
+    selectDisplayOrder: 0,
   },
   {
     title: 'Le témoin amoureux',
@@ -1165,6 +1244,7 @@ export const baseMoviesLove: BaseMovie[] = [
     description: '',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
+    selectDisplayOrder: 0,
   },
   {
     title: 'Sexe entre amis',
@@ -1182,6 +1262,7 @@ export const baseMoviesLove: BaseMovie[] = [
     description: '',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
+    selectDisplayOrder: 0,
   },
   {
     title: 'La carte qui mène à toi',
@@ -1199,6 +1280,7 @@ export const baseMoviesLove: BaseMovie[] = [
       secondEntityKey: 'Joseph Monninger',
     },
     countryOrigin: ['États-Unis'],
+    selectDisplayOrder: 0,
   },
   {
     title: "N'oublie Jamais",
@@ -1226,6 +1308,7 @@ export const baseMoviesLove: BaseMovie[] = [
       secondEntityKey: 'Nicholas Sparks',
     },
     countryOrigin: ['États-Unis'],
+    selectDisplayOrder: 0,
   },
   {
     title: "L'Amour, c'est surcoté ",
@@ -1246,6 +1329,7 @@ export const baseMoviesLove: BaseMovie[] = [
     description: '',
     fromEntity: null,
     countryOrigin: ['France'],
+    selectDisplayOrder: 0,
   },
   {
     title: "He's All That",
@@ -1259,6 +1343,7 @@ export const baseMoviesLove: BaseMovie[] = [
     description: '',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
+    selectDisplayOrder: 0,
   },
   {
     title: 'À tous les garçons : Pour toujours et à jamais',
@@ -1272,6 +1357,7 @@ export const baseMoviesLove: BaseMovie[] = [
     description: '',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
+    selectDisplayOrder: 0,
   },
   {
     title: 'The Kissing Booth 2',
@@ -1285,6 +1371,7 @@ export const baseMoviesLove: BaseMovie[] = [
     description: '',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
+    selectDisplayOrder: 0,
   },
   {
     title: 'Love Wedding Repeat',
@@ -1298,6 +1385,7 @@ export const baseMoviesLove: BaseMovie[] = [
     description: '',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
+    selectDisplayOrder: 0,
   },
   {
     title: 'Emma.',
@@ -1315,6 +1403,7 @@ export const baseMoviesLove: BaseMovie[] = [
       secondEntityKey: 'Jane Austen',
     },
     countryOrigin: ['États-Unis'],
+    selectDisplayOrder: 0,
   },
   {
     title: "À tous les garçons : P.S. Je t'aime toujours",
@@ -1328,6 +1417,7 @@ export const baseMoviesLove: BaseMovie[] = [
     description: '',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
+    selectDisplayOrder: 0,
   },
   {
     title: 'About Time',
@@ -1345,6 +1435,7 @@ export const baseMoviesLove: BaseMovie[] = [
     description: '',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
+    selectDisplayOrder: 0,
   },
   {
     title: 'Warm Bodies',
@@ -1358,6 +1449,7 @@ export const baseMoviesLove: BaseMovie[] = [
     description: '',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
+    selectDisplayOrder: 0,
   },
   {
     title: 'Minuit à Paris',
@@ -1371,6 +1463,7 @@ export const baseMoviesLove: BaseMovie[] = [
     description: '',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
+    selectDisplayOrder: 0,
   },
   {
     title: 'Bride Wars',
@@ -1384,6 +1477,7 @@ export const baseMoviesLove: BaseMovie[] = [
     description: '',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
+    selectDisplayOrder: 0,
   },
   {
     title: 'Sex and the City',
@@ -1397,6 +1491,7 @@ export const baseMoviesLove: BaseMovie[] = [
     description: '',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
+    selectDisplayOrder: 30,
   },
   {
     title: '27 Robes',
@@ -1410,6 +1505,7 @@ export const baseMoviesLove: BaseMovie[] = [
     description: '',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
+    selectDisplayOrder: 30,
   },
   {
     title: 'P.S. I Love You',
@@ -1423,6 +1519,7 @@ export const baseMoviesLove: BaseMovie[] = [
     description: '',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
+    selectDisplayOrder: 0,
   },
   {
     title: 'The Princess Diaries 2: Royal Engagement',
@@ -1436,6 +1533,7 @@ export const baseMoviesLove: BaseMovie[] = [
     description: '',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
+    selectDisplayOrder: 0,
   },
   {
     title: 'Princesse malgré elle',
@@ -1449,6 +1547,7 @@ export const baseMoviesLove: BaseMovie[] = [
     description: '',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
+    selectDisplayOrder: 0,
   },
   {
     title: 'Moulin Rouge !',
@@ -1462,6 +1561,7 @@ export const baseMoviesLove: BaseMovie[] = [
     description: '',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
+    selectDisplayOrder: 30,
   },
   {
     title: 'Le Journal de Bridget Jones',
@@ -1475,6 +1575,7 @@ export const baseMoviesLove: BaseMovie[] = [
     description: '',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
+    selectDisplayOrder: 30,
   },
   {
     title: 'Mon beau-père et moi',
@@ -1488,6 +1589,7 @@ export const baseMoviesLove: BaseMovie[] = [
     description: '',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
+    selectDisplayOrder: 0,
   },
   {
     title: '10 bonnes raisons de te larguer',
@@ -1501,6 +1603,7 @@ export const baseMoviesLove: BaseMovie[] = [
     description: '',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
+    selectDisplayOrder: 0,
   },
   {
     title: 'Elle est trop bien',
@@ -1514,6 +1617,7 @@ export const baseMoviesLove: BaseMovie[] = [
     description: '',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
+    selectDisplayOrder: 0,
   },
   {
     title: 'Mary à tout prix',
@@ -1527,6 +1631,7 @@ export const baseMoviesLove: BaseMovie[] = [
     description: '',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
+    selectDisplayOrder: 0,
   },
   {
     title: 'Titanic',
@@ -1540,6 +1645,7 @@ export const baseMoviesLove: BaseMovie[] = [
     description: '',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
+    selectDisplayOrder: 30,
   },
   {
     title: 'Roméo + Juliette',
@@ -1557,6 +1663,7 @@ export const baseMoviesLove: BaseMovie[] = [
       secondEntityKey: 'William Shakespeare',
     },
     countryOrigin: ['États-Unis'],
+    selectDisplayOrder: 0,
   },
   {
     title: 'Strictly Ballroom',
@@ -1570,6 +1677,7 @@ export const baseMoviesLove: BaseMovie[] = [
     description: '',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
+    selectDisplayOrder: 0,
   },
   {
     title: 'Grease',
@@ -1583,6 +1691,7 @@ export const baseMoviesLove: BaseMovie[] = [
     description: '',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
+    selectDisplayOrder: 30,
   },
   {
     title: 'Grease 2',
@@ -1596,6 +1705,7 @@ export const baseMoviesLove: BaseMovie[] = [
     description: '',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
+    selectDisplayOrder: 0,
   },
   {
     title: 'Vacances romaines',
@@ -1609,6 +1719,7 @@ export const baseMoviesLove: BaseMovie[] = [
     description: '',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
+    selectDisplayOrder: 0,
   },
   {
     title: 'Jane Austen a gâché ma vie',
@@ -1632,6 +1743,7 @@ export const baseMoviesLove: BaseMovie[] = [
     description: '',
     fromEntity: null,
     countryOrigin: ['France'],
+    selectDisplayOrder: 0,
   },
   {
     title: 'Friendzone',
@@ -1652,5 +1764,6 @@ export const baseMoviesLove: BaseMovie[] = [
     description: '',
     fromEntity: null,
     countryOrigin: ['France'],
+    selectDisplayOrder: 0,
   },
 ];

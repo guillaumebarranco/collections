@@ -23,6 +23,7 @@ export const baseMoviesApi: BaseMovie[] = [
     description: '',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
+    selectDisplayOrder: 30,
   },
   {
     title: 'The Rip',
@@ -46,6 +47,7 @@ export const baseMoviesApi: BaseMovie[] = [
     description: '',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
+    selectDisplayOrder: 0,
   },
   {
     title: 'Greenland - Le Dernier Refuge',
@@ -69,6 +71,7 @@ export const baseMoviesApi: BaseMovie[] = [
     description: '',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
+    selectDisplayOrder: 0,
   },
   {
     title: 'La Cité de Dieu',
@@ -95,6 +98,7 @@ export const baseMoviesApi: BaseMovie[] = [
     description: '',
     fromEntity: null,
     countryOrigin: ['Brésil'],
+    selectDisplayOrder: 0,
   },
   {
     title: 'Gourou',
@@ -115,6 +119,7 @@ export const baseMoviesApi: BaseMovie[] = [
     description: '',
     fromEntity: null,
     countryOrigin: ['France'],
+    selectDisplayOrder: 0,
   },
 
   {
@@ -139,6 +144,7 @@ export const baseMoviesApi: BaseMovie[] = [
     description: '',
     fromEntity: null,
     countryOrigin: ['France'],
+    selectDisplayOrder: 0,
   },
 
   {
@@ -153,6 +159,7 @@ export const baseMoviesApi: BaseMovie[] = [
     description: '',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
+    selectDisplayOrder: 0,
   },
   {
     title: "O'Brother",
@@ -176,6 +183,7 @@ export const baseMoviesApi: BaseMovie[] = [
     description: '',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
+    selectDisplayOrder: 0,
   },
   {
     title: 'Bugonia',
@@ -196,38 +204,44 @@ export const baseMoviesApi: BaseMovie[] = [
     description: '',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
+    selectDisplayOrder: 0,
   },
   {
     title: 'Marsupilami',
     director: 'Philippe Lacheau',
     actors: [
       {
-        name: "Philippe Lacheau",
+        name: 'Philippe Lacheau',
       },
       {
-        name: "Elodie Fontan",
+        name: 'Elodie Fontan',
       },
       {
-        name: "Jamel Debbouze",
+        name: 'Jamel Debbouze',
       },
       {
-        name: "Tarek Boudali",
+        name: 'Tarek Boudali',
       },
       {
-        name: "Julien Arruti",
+        name: 'Julien Arruti',
       },
       {
-        name: "Jean Reno",
-      }
+        name: 'Jean Reno',
+      },
     ],
-    coverUrl: "/movies_pictures/813c13b26a5c.jpg",
-    releaseDate: "2026-02-04",
+    coverUrl: '/movies_pictures/813c13b26a5c.jpg',
+    releaseDate: '2026-02-04',
     length: 109,
     genre: ['Comédie'],
-    saga: "Marsupilami",
-    description: "",
-    fromEntity: { entityType: "serie", title: "Le marsupilami", secondEntityKey: "André Franquin" },
+    saga: 'Marsupilami',
+    description: '',
+    fromEntity: {
+      entityType: 'serie',
+      title: 'Le marsupilami',
+      secondEntityKey: 'André Franquin',
+    },
     countryOrigin: ['France'],
+    selectDisplayOrder: 0,
   },
 
   {
@@ -252,6 +266,7 @@ export const baseMoviesApi: BaseMovie[] = [
     description: '',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
+    selectDisplayOrder: 0,
   },
   {
     title: "L'Auberge Espagnol",
@@ -275,6 +290,7 @@ export const baseMoviesApi: BaseMovie[] = [
     description: '',
     fromEntity: null,
     countryOrigin: ['France'],
+    selectDisplayOrder: 0,
   },
   {
     title: 'Hamnet',
@@ -299,6 +315,7 @@ export const baseMoviesApi: BaseMovie[] = [
       secondEntityKey: 'William Shakespeare',
     },
     countryOrigin: ['Royaume-Uni'],
+    selectDisplayOrder: 0,
   },
   {
     title: 'Hannah Montana - Le Film',
@@ -322,6 +339,7 @@ export const baseMoviesApi: BaseMovie[] = [
     description: '',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
+    selectDisplayOrder: 0,
   },
   {
     title: 'Les Poupées Russes',
@@ -348,6 +366,7 @@ export const baseMoviesApi: BaseMovie[] = [
     description: '',
     fromEntity: null,
     countryOrigin: ['France'],
+    selectDisplayOrder: 0,
   },
   {
     title: 'Le Coursier',
@@ -377,6 +396,7 @@ export const baseMoviesApi: BaseMovie[] = [
     description: '',
     fromEntity: null,
     countryOrigin: ['France'],
+    selectDisplayOrder: 0,
   },
   {
     title: 'Un prophète',
@@ -394,6 +414,7 @@ export const baseMoviesApi: BaseMovie[] = [
     description: '',
     fromEntity: null,
     countryOrigin: ['France'],
+    selectDisplayOrder: 0,
   },
   {
     title: 'Grave',
@@ -411,6 +432,7 @@ export const baseMoviesApi: BaseMovie[] = [
     description: '',
     fromEntity: null,
     countryOrigin: ['France'],
+    selectDisplayOrder: 0,
   },
   {
     title: 'Les Sous-doués',
@@ -429,6 +451,7 @@ export const baseMoviesApi: BaseMovie[] = [
     description: '',
     fromEntity: null,
     countryOrigin: ['France'],
+    selectDisplayOrder: 0,
   },
   {
     title: 'Case départ',
@@ -447,6 +470,7 @@ export const baseMoviesApi: BaseMovie[] = [
     description: '',
     fromEntity: null,
     countryOrigin: ['France'],
+    selectDisplayOrder: 0,
   },
   {
     title: 'Monty Python - Sacré Graal !',
@@ -467,6 +491,7 @@ export const baseMoviesApi: BaseMovie[] = [
     description: '',
     fromEntity: null,
     countryOrigin: ['Royaume-Uni'],
+    selectDisplayOrder: 30,
   },
   {
     title: 'Orange mécanique',
@@ -486,6 +511,7 @@ export const baseMoviesApi: BaseMovie[] = [
     description: '',
     fromEntity: null,
     countryOrigin: ['Royaume-Uni'],
+    selectDisplayOrder: 30,
   },
   {
     title: 'Arnaques, crimes & botanique',
@@ -505,6 +531,7 @@ export const baseMoviesApi: BaseMovie[] = [
     description: '',
     fromEntity: null,
     countryOrigin: ['Royaume-Uni'],
+    selectDisplayOrder: 30,
   },
   {
     title: 'Le Dernier Pub avant la fin du monde',
@@ -525,6 +552,7 @@ export const baseMoviesApi: BaseMovie[] = [
     description: '',
     fromEntity: null,
     countryOrigin: ['Royaume-Uni'],
+    selectDisplayOrder: 0,
   },
 
   {
@@ -546,6 +574,7 @@ export const baseMoviesApi: BaseMovie[] = [
     description: '',
     fromEntity: null,
     countryOrigin: ['France'],
+    selectDisplayOrder: 0,
   },
 
   {
@@ -580,6 +609,7 @@ export const baseMoviesApi: BaseMovie[] = [
       secondEntityKey: 'Akira Toriyama',
     },
     countryOrigin: ['États-Unis'],
+    selectDisplayOrder: 30,
   },
   {
     title: 'The Ghost Writer',
@@ -598,6 +628,7 @@ export const baseMoviesApi: BaseMovie[] = [
     description: '',
     fromEntity: null,
     countryOrigin: ['Royaume-Uni'],
+    selectDisplayOrder: 0,
   },
   {
     title: "Chérie, j'ai rétréci les gosses",
@@ -616,6 +647,7 @@ export const baseMoviesApi: BaseMovie[] = [
     description: '',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
+    selectDisplayOrder: 30,
   },
 
   {
@@ -655,6 +687,7 @@ export const baseMoviesApi: BaseMovie[] = [
     description: '',
     fromEntity: null,
     countryOrigin: ['France'],
+    selectDisplayOrder: 0,
   },
 
   {
@@ -676,6 +709,7 @@ export const baseMoviesApi: BaseMovie[] = [
     description: '',
     fromEntity: null,
     countryOrigin: ['Japon'],
+    selectDisplayOrder: 0,
   },
 
   {
@@ -700,6 +734,7 @@ export const baseMoviesApi: BaseMovie[] = [
     description: '',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
+    selectDisplayOrder: 0,
   },
 
   {
@@ -724,6 +759,7 @@ export const baseMoviesApi: BaseMovie[] = [
     description: '',
     fromEntity: null,
     countryOrigin: ['France'],
+    selectDisplayOrder: 0,
   },
 
   {
@@ -757,6 +793,7 @@ export const baseMoviesApi: BaseMovie[] = [
     description: '',
     fromEntity: null,
     countryOrigin: ['Royaume-Uni'],
+    selectDisplayOrder: 0,
   },
 
   {
@@ -781,6 +818,7 @@ export const baseMoviesApi: BaseMovie[] = [
     description: '',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
+    selectDisplayOrder: 0,
   },
 
   {
@@ -811,6 +849,7 @@ export const baseMoviesApi: BaseMovie[] = [
     description: '',
     fromEntity: null,
     countryOrigin: ['France'],
+    selectDisplayOrder: 0,
   },
 
   {
@@ -835,6 +874,7 @@ export const baseMoviesApi: BaseMovie[] = [
     description: '',
     fromEntity: null,
     countryOrigin: ['France'],
+    selectDisplayOrder: 0,
   },
   {
     title: 'Trouble Jeu',
@@ -858,6 +898,7 @@ export const baseMoviesApi: BaseMovie[] = [
     description: '',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
+    selectDisplayOrder: 0,
   },
 
   {
@@ -891,6 +932,7 @@ export const baseMoviesApi: BaseMovie[] = [
     description: '',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
+    selectDisplayOrder: 0,
   },
 
   {
@@ -915,6 +957,7 @@ export const baseMoviesApi: BaseMovie[] = [
     description: '',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
+    selectDisplayOrder: 30,
   },
 
   {
@@ -946,6 +989,7 @@ export const baseMoviesApi: BaseMovie[] = [
       secondEntityKey: 'David Foenkinos',
     },
     countryOrigin: ['France'],
+    selectDisplayOrder: 0,
   },
 
   {
@@ -967,6 +1011,7 @@ export const baseMoviesApi: BaseMovie[] = [
     description: '',
     fromEntity: null,
     countryOrigin: ['France'],
+    selectDisplayOrder: 0,
   },
 
   {
@@ -974,32 +1019,37 @@ export const baseMoviesApi: BaseMovie[] = [
     director: 'Michael Jelenic, Aaron Horvath',
     actors: [
       {
-        name: "Chris Pratt",
+        name: 'Chris Pratt',
       },
       {
-        name: "Charlie Day",
+        name: 'Charlie Day',
       },
       {
-        name: "Jack Black",
+        name: 'Jack Black',
       },
       {
-        name: "Brie Larson",
+        name: 'Brie Larson',
       },
       {
-        name: "Ben Safdie",
+        name: 'Ben Safdie',
       },
       {
-        name: "Anya Taylor-Joy",
-      }
+        name: 'Anya Taylor-Joy',
+      },
     ],
-    coverUrl: "/movies_pictures/7b178034b345.jpg",
-    releaseDate: "2026-04-01",
+    coverUrl: '/movies_pictures/7b178034b345.jpg',
+    releaseDate: '2026-04-01',
     length: 99,
     genre: ['Comédie', 'Aventure', 'Jeunesse', 'Animation'],
-    saga: "",
-    description: "",
-    fromEntity: { entityType: "game", title: "Super Mario Galaxy", secondEntityKey: "Nintendo" },
+    saga: '',
+    description: '',
+    fromEntity: {
+      entityType: 'game',
+      title: 'Super Mario Galaxy',
+      secondEntityKey: 'Nintendo',
+    },
     countryOrigin: ['États-Unis'],
+    selectDisplayOrder: 30,
   },
 
   {
@@ -1027,6 +1077,7 @@ export const baseMoviesApi: BaseMovie[] = [
     description: '',
     fromEntity: null,
     countryOrigin: ['France'],
+    selectDisplayOrder: 0,
   },
 
   {
@@ -1057,6 +1108,7 @@ export const baseMoviesApi: BaseMovie[] = [
     description: '',
     fromEntity: null,
     countryOrigin: ['France'],
+    selectDisplayOrder: 0,
   },
 
   {
@@ -1084,6 +1136,7 @@ export const baseMoviesApi: BaseMovie[] = [
     description: '',
     fromEntity: null,
     countryOrigin: ['France'],
+    selectDisplayOrder: 0,
   },
 
   {
@@ -1111,6 +1164,7 @@ export const baseMoviesApi: BaseMovie[] = [
     description: '',
     fromEntity: null,
     countryOrigin: ['France'],
+    selectDisplayOrder: 0,
   },
 
   {
@@ -1141,6 +1195,7 @@ export const baseMoviesApi: BaseMovie[] = [
     description: '',
     fromEntity: null,
     countryOrigin: ['France'],
+    selectDisplayOrder: 0,
   },
 
   {
@@ -1160,8 +1215,7 @@ export const baseMoviesApi: BaseMovie[] = [
         name: 'Alana Haim',
       },
     ],
-    coverUrl:
-      '/movies_pictures/c039c5c0fa79.jpg',
+    coverUrl: '/movies_pictures/c039c5c0fa79.jpg',
     releaseDate: '2026-04-01',
     length: 106,
     genre: ['Drame'],
@@ -1169,32 +1223,38 @@ export const baseMoviesApi: BaseMovie[] = [
     description: '',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
+    selectDisplayOrder: 0,
   },
 
   {
     title: "Le Monde de Narnia : L'Odyssée du Passeur d'Aurore",
-    director: "Michael Apted",
+    director: 'Michael Apted',
     actors: [
       {
-        name: "Georgie Henley",
+        name: 'Georgie Henley',
       },
       {
-        name: "Skandar Keynes",
+        name: 'Skandar Keynes',
       },
       {
-        name: "Ben Barnes",
+        name: 'Ben Barnes',
       },
       {
-        name: "Will Poulter",
-      }
+        name: 'Will Poulter',
+      },
     ],
-    coverUrl: "/movies_pictures/8641aa40a943.jpg",
-    releaseDate: "2010-12-08",
+    coverUrl: '/movies_pictures/8641aa40a943.jpg',
+    releaseDate: '2010-12-08',
     length: 117,
     genre: ['Fantastique', 'Aventure'],
-    saga: "Le Monde de Narnia",
-    description: "",
-    fromEntity: { entityType: "book", title: "Le Monde de Narnia (Tome 5) L'Odyssée du Passeur d'Aurore", secondEntityKey: "C. S. Lewis" },
+    saga: 'Le Monde de Narnia',
+    description: '',
+    fromEntity: {
+      entityType: 'book',
+      title: "Le Monde de Narnia (Tome 5) L'Odyssée du Passeur d'Aurore",
+      secondEntityKey: 'C. S. Lewis',
+    },
     countryOrigin: ['États-Unis'],
+    selectDisplayOrder: 0,
   },
 ];

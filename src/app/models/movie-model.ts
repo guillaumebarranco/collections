@@ -91,6 +91,8 @@ export interface BaseMovie extends MandatoryMovieData {
   description: string;
   /** Pays de production (plusieurs possibles). */
   countryOrigin: string[];
+  /** Ordre d'affichage dans les sélecteurs (0 = ordre par défaut). */
+  selectDisplayOrder: number;
   fromEntity: MovieFromEntityAdaptation | null;
 }
 

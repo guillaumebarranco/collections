@@ -21,6 +21,7 @@ export const baseMoviesDc: BaseMovie[] = [
       secondEntityKey: 'Bill Finger',
     },
     countryOrigin: ['États-Unis'],
+    selectDisplayOrder: 0,
   },
   {
     title: 'Green Lantern',
@@ -34,6 +35,7 @@ export const baseMoviesDc: BaseMovie[] = [
     description: '',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
+    selectDisplayOrder: 0,
   },
   {
     title: 'Batman',
@@ -51,6 +53,7 @@ export const baseMoviesDc: BaseMovie[] = [
       secondEntityKey: 'Bill Finger',
     },
     countryOrigin: ['États-Unis'],
+    selectDisplayOrder: 0,
   },
   {
     title: 'Batman Returns',
@@ -73,6 +76,7 @@ export const baseMoviesDc: BaseMovie[] = [
       secondEntityKey: 'Bill Finger',
     },
     countryOrigin: ['États-Unis'],
+    selectDisplayOrder: 0,
   },
   {
     title: 'Batman Forever',
@@ -100,6 +104,7 @@ export const baseMoviesDc: BaseMovie[] = [
       secondEntityKey: 'Bill Finger',
     },
     countryOrigin: ['États-Unis'],
+    selectDisplayOrder: 0,
   },
   {
     title: 'Batman & Robin',
@@ -124,6 +129,7 @@ export const baseMoviesDc: BaseMovie[] = [
       secondEntityKey: 'Bill Finger',
     },
     countryOrigin: ['États-Unis'],
+    selectDisplayOrder: 0,
   },
   {
     title: 'Batman Begins',
@@ -160,6 +166,7 @@ export const baseMoviesDc: BaseMovie[] = [
       secondEntityKey: 'Bill Finger',
     },
     countryOrigin: ['États-Unis'],
+    selectDisplayOrder: 30,
   },
   {
     title: 'The Dark Knight : Le Chevalier Noir',
@@ -193,6 +200,7 @@ export const baseMoviesDc: BaseMovie[] = [
       secondEntityKey: 'Bill Finger',
     },
     countryOrigin: ['États-Unis'],
+    selectDisplayOrder: 30,
   },
   {
     title: 'The Dark Knight Rises',
@@ -230,6 +238,7 @@ export const baseMoviesDc: BaseMovie[] = [
       secondEntityKey: 'Bill Finger',
     },
     countryOrigin: ['États-Unis'],
+    selectDisplayOrder: 30,
   },
   {
     title: 'The Batman',
@@ -254,6 +263,7 @@ export const baseMoviesDc: BaseMovie[] = [
       secondEntityKey: 'Bill Finger',
     },
     countryOrigin: ['États-Unis'],
+    selectDisplayOrder: 30,
   },
   {
     title: "Batman v Superman : L'Aube de la Justice",
@@ -290,6 +300,7 @@ export const baseMoviesDc: BaseMovie[] = [
       secondEntityKey: 'Bill Finger',
     },
     countryOrigin: ['États-Unis'],
+    selectDisplayOrder: 30,
   },
   {
     title: 'Shazam!',
@@ -308,6 +319,7 @@ export const baseMoviesDc: BaseMovie[] = [
     description: '',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
+    selectDisplayOrder: 0,
   },
   {
     title: 'Aquaman',
@@ -328,6 +340,31 @@ export const baseMoviesDc: BaseMovie[] = [
     description: '',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
+    selectDisplayOrder: 0,
+  },
+  {
+    title: 'Aquaman et le Royaume perdu',
+    director: 'James Wan',
+    actors: [
+      {
+        name: 'Kirsten Dunst',
+      },
+      {
+        name: 'Wagner Moura',
+      },
+      {
+        name: 'Cailee Spaeny',
+      },
+    ],
+    coverUrl: '/movies_pictures/aquaman_et_le_royaume_perdu.jpg',
+    releaseDate: '2023-12-20',
+    length: 124,
+    genre: ['Action'],
+    saga: 'DCEU',
+    description: '',
+    fromEntity: null,
+    countryOrigin: ['États-Unis'],
+    selectDisplayOrder: 0,
   },
   {
     title: 'Black Adam',
@@ -348,6 +385,7 @@ export const baseMoviesDc: BaseMovie[] = [
     description: '',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
+    selectDisplayOrder: 0,
   },
   {
     title: "Zack Snyder's Justice League",
@@ -378,6 +416,7 @@ export const baseMoviesDc: BaseMovie[] = [
     description: '',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
+    selectDisplayOrder: 0,
   },
   {
     title: 'Suicide Squad',
@@ -398,6 +437,7 @@ export const baseMoviesDc: BaseMovie[] = [
     description: '',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
+    selectDisplayOrder: 0,
   },
   {
     title: 'Superman',
@@ -415,6 +455,7 @@ export const baseMoviesDc: BaseMovie[] = [
       secondEntityKey: 'Jerry Siegel',
     },
     countryOrigin: ['États-Unis'],
+    selectDisplayOrder: 0,
   },
   {
     title: 'Superman II',
@@ -432,6 +473,7 @@ export const baseMoviesDc: BaseMovie[] = [
       secondEntityKey: 'Jerry Siegel',
     },
     countryOrigin: ['États-Unis'],
+    selectDisplayOrder: 0,
   },
   {
     title: 'Superman IV : Le Face-à-face',
@@ -449,6 +491,7 @@ export const baseMoviesDc: BaseMovie[] = [
     description: '',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
+    selectDisplayOrder: 0,
   },
   {
     title: 'Superman Returns',
@@ -466,6 +509,7 @@ export const baseMoviesDc: BaseMovie[] = [
       secondEntityKey: 'Jerry Siegel',
     },
     countryOrigin: ['États-Unis'],
+    selectDisplayOrder: 30,
   },
   {
     title: 'Man of Steel',
@@ -499,6 +543,7 @@ export const baseMoviesDc: BaseMovie[] = [
       secondEntityKey: 'Jerry Siegel',
     },
     countryOrigin: ['États-Unis'],
+    selectDisplayOrder: 30,
   },
   {
     title: 'Superman',
@@ -526,6 +571,7 @@ export const baseMoviesDc: BaseMovie[] = [
       secondEntityKey: 'Jerry Siegel',
     },
     countryOrigin: ['États-Unis'],
+    selectDisplayOrder: 30,
   },
   {
     title: 'Watchmen : Les Gardiens',
@@ -543,6 +589,7 @@ export const baseMoviesDc: BaseMovie[] = [
       secondEntityKey: 'Alan Moore',
     },
     countryOrigin: ['États-Unis'],
+    selectDisplayOrder: 0,
   },
   {
     title: 'Catwoman',
@@ -556,6 +603,7 @@ export const baseMoviesDc: BaseMovie[] = [
     description: '',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
+    selectDisplayOrder: 30,
   },
   {
     title: 'Wonder Woman',
@@ -573,6 +621,7 @@ export const baseMoviesDc: BaseMovie[] = [
     description: '',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
+    selectDisplayOrder: 0,
   },
   {
     title: 'Wonder Woman 1984',
@@ -590,6 +639,7 @@ export const baseMoviesDc: BaseMovie[] = [
     description: '',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
+    selectDisplayOrder: 0,
   },
   {
     title: 'The Flash',
@@ -611,6 +661,7 @@ export const baseMoviesDc: BaseMovie[] = [
       secondEntityKey: 'Geoff Johns',
     },
     countryOrigin: ['États-Unis'],
+    selectDisplayOrder: 0,
   },
   {
     title: 'Birds of Prey',
@@ -629,6 +680,7 @@ export const baseMoviesDc: BaseMovie[] = [
     description: '',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
+    selectDisplayOrder: 0,
   },
   {
     title: 'Blue Beetle',
@@ -658,5 +710,6 @@ export const baseMoviesDc: BaseMovie[] = [
     description: '',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
+    selectDisplayOrder: 0,
   },
 ];
