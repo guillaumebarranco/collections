@@ -1278,4 +1278,19 @@ export const guillaumeBooks: UserBooks = [
     wantToReadAgain: false,
     ratingComment: "",
   },
+
+  {
+    title: "Puzzle",
+    author: "Franck Thilliez",
+    firstReadDate: "2026-04-13",
+    lastReadDate: "2026-04-13",
+    rating: 3.25,
+    readTimes: 1,
+    owned: false,
+    borrowed: '',
+    loaned: '',
+    readPriority: 1,
+    wantToReadAgain: false,
+    ratingComment: "",
+  },
 ];

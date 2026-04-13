@@ -215,6 +215,36 @@ export const baseSeries: BaseSerie[] = [
     countryOrigin: 'États-Unis',
   },
   {
+    title: 'Amicalement vôtre',
+    director: 'Robert S. Baker, Monty Berman',
+    actors: [
+      {
+        name: 'Roger Moore',
+      },
+      {
+        name: 'Tony Curtis',
+      },
+      {
+        name: 'Laurence Naismith',
+      },
+    ],
+    coverUrl: '/series_pictures/71y0UuMKM9L._AC_UF1000,1000_QL80_.jpg',
+    releaseDate: '1971-09-17',
+    endDate: '1972-04-14',
+    genre: ['Action', 'Adventure', 'Comedy'],
+    seasonsData: [
+      {
+        seasonNumber: 1,
+        nbEpisodes: 24,
+        totalLength: 1176,
+      },
+    ],
+    description: '',
+    fromEntity: null,
+    saga: '',
+    countryOrigin: 'Royaume-Uni',
+  },
+  {
     title: 'Arrow',
     director: 'Greg Berlanti, Marc Guggenheim',
     actors: [
@@ -363,6 +393,37 @@ export const baseSeries: BaseSerie[] = [
         seasonNumber: 1,
         nbEpisodes: 6,
         totalLength: 375,
+      },
+    ],
+    description: '',
+    fromEntity: null,
+    saga: '',
+    countryOrigin: 'Royaume-Uni',
+  },
+  {
+    title: 'Black Doves',
+    director: 'Joe Barton',
+    actors: [
+      {
+        name: 'Keira Knightley',
+      },
+      {
+        name: 'Ben Whishaw',
+      },
+      {
+        name: 'Sarah Lancashire',
+      },
+    ],
+    coverUrl:
+      'https://m.media-amazon.com/images/M/MV5BMDQyNzE2NmYtMzExMy00NTBjLWE4ODItNjI1OTNkZWVjNDUyXkEyXkFqcGc@._V1_.jpg',
+    releaseDate: '2024-12-05',
+    endDate: '2024-12-05',
+    genre: ['Thriller', 'Drama', 'Mystery'],
+    seasonsData: [
+      {
+        seasonNumber: 1,
+        nbEpisodes: 6,
+        totalLength: 330,
       },
     ],
     description: '',
@@ -980,6 +1041,41 @@ export const baseSeries: BaseSerie[] = [
     fromEntity: null,
     saga: 'Dexter',
     countryOrigin: 'États-Unis',
+  },
+  {
+    title: 'Double Piège',
+    director: 'Danny Brocklehurst',
+    actors: [
+      {
+        name: 'Michelle Keegan',
+      },
+      {
+        name: 'Richard Armitage',
+      },
+      {
+        name: 'Adeel Akhtar',
+      },
+    ],
+    coverUrl:
+      'https://media.themoviedb.org/t/p/w500/gyhJZVYHd6cEsMQuDiAPvJMb7UW.jpg',
+    releaseDate: '2024-01-01',
+    endDate: '2024-01-01',
+    genre: ['Thriller', 'Crime', 'Drama'],
+    seasonsData: [
+      {
+        seasonNumber: 1,
+        nbEpisodes: 8,
+        totalLength: 400,
+      },
+    ],
+    description: '',
+    fromEntity: {
+      entityType: 'book',
+      title: 'Fool Me Once',
+      secondEntityKey: 'Harlan Coben',
+    },
+    saga: '',
+    countryOrigin: 'Royaume-Uni',
   },
   {
     title: 'Daredevil : Born Again',
@@ -2401,6 +2497,37 @@ export const baseSeries: BaseSerie[] = [
     countryOrigin: 'États-Unis',
   },
   {
+    title: "Malcolm, rien n'a changé",
+    director: 'Linwood Boomer',
+    actors: [
+      {
+        name: 'Frankie Muniz',
+      },
+      {
+        name: 'Bryan Cranston',
+      },
+      {
+        name: 'Jane Kaczmarek',
+      },
+    ],
+    coverUrl:
+      'https://fr.web.img5.acsta.net/r_1280_720/img/aa/78/aa78c47c7019e46c450681ffbe018c5a.jpg',
+    releaseDate: '2026-04-10',
+    endDate: '2026-04-10',
+    genre: ['Comedy', 'Family'],
+    seasonsData: [
+      {
+        seasonNumber: 1,
+        nbEpisodes: 4,
+        totalLength: 120,
+      },
+    ],
+    description: '',
+    fromEntity: null,
+    saga: '',
+    countryOrigin: 'États-Unis',
+  },
+  {
     title: 'Mentalist',
     director: 'Bruno Heller',
     actors: [
@@ -2547,6 +2674,87 @@ export const baseSeries: BaseSerie[] = [
     countryOrigin: 'Royaume-Uni',
   },
   {
+    title: 'Modern Family',
+    director: 'Christopher Lloyd, Steven Levitan',
+    actors: [
+      {
+        name: "Ed O'Neill",
+      },
+      {
+        name: 'Sofía Vergara',
+      },
+      {
+        name: 'Julie Bowen',
+      },
+    ],
+    coverUrl:
+      'https://fr.web.img4.acsta.net/pictures/18/07/04/17/01/2453977.jpg',
+    releaseDate: '2009-09-23',
+    endDate: '2020-04-08',
+    genre: ['Comedy', 'Family'],
+    seasonsData: [
+      {
+        seasonNumber: 1,
+        nbEpisodes: 24,
+        totalLength: 528,
+      },
+      {
+        seasonNumber: 2,
+        nbEpisodes: 24,
+        totalLength: 528,
+      },
+      {
+        seasonNumber: 3,
+        nbEpisodes: 24,
+        totalLength: 528,
+      },
+      {
+        seasonNumber: 4,
+        nbEpisodes: 24,
+        totalLength: 528,
+      },
+      {
+        seasonNumber: 5,
+        nbEpisodes: 24,
+        totalLength: 528,
+      },
+      {
+        seasonNumber: 6,
+        nbEpisodes: 24,
+        totalLength: 528,
+      },
+      {
+        seasonNumber: 7,
+        nbEpisodes: 22,
+        totalLength: 484,
+      },
+      {
+        seasonNumber: 8,
+        nbEpisodes: 21,
+        totalLength: 462,
+      },
+      {
+        seasonNumber: 9,
+        nbEpisodes: 22,
+        totalLength: 484,
+      },
+      {
+        seasonNumber: 10,
+        nbEpisodes: 22,
+        totalLength: 484,
+      },
+      {
+        seasonNumber: 11,
+        nbEpisodes: 18,
+        totalLength: 396,
+      },
+    ],
+    description: '',
+    fromEntity: null,
+    saga: '',
+    countryOrigin: 'États-Unis',
+  },
+  {
     title: 'Mortel',
     director: 'Frédéric Garcia',
     actors: [
@@ -2680,6 +2888,67 @@ export const baseSeries: BaseSerie[] = [
     fromEntity: null,
     saga: '',
     countryOrigin: 'France',
+  },
+  {
+    title: 'New Girl',
+    director: 'Elizabeth Meriwether',
+    actors: [
+      {
+        name: 'Zooey Deschanel',
+      },
+      {
+        name: 'Jake Johnson',
+      },
+      {
+        name: 'Max Greenfield',
+      },
+    ],
+    coverUrl:
+      '/series_pictures/MV5BMTQ5MzM1NzMwMl5BMl5BanBnXkFtZTgwNjQ2MzI2NzE@._V1_.jpg',
+    releaseDate: '2011-09-20',
+    endDate: '2018-05-15',
+    genre: ['Comedy'],
+    seasonsData: [
+      {
+        seasonNumber: 1,
+        nbEpisodes: 24,
+        totalLength: 528,
+      },
+      {
+        seasonNumber: 2,
+        nbEpisodes: 25,
+        totalLength: 550,
+      },
+      {
+        seasonNumber: 3,
+        nbEpisodes: 23,
+        totalLength: 506,
+      },
+      {
+        seasonNumber: 4,
+        nbEpisodes: 22,
+        totalLength: 484,
+      },
+      {
+        seasonNumber: 5,
+        nbEpisodes: 22,
+        totalLength: 484,
+      },
+      {
+        seasonNumber: 6,
+        nbEpisodes: 22,
+        totalLength: 484,
+      },
+      {
+        seasonNumber: 7,
+        nbEpisodes: 8,
+        totalLength: 176,
+      },
+    ],
+    description: '',
+    fromEntity: null,
+    saga: '',
+    countryOrigin: 'États-Unis',
   },
   {
     title: 'Obi-Wan Kenobi',
