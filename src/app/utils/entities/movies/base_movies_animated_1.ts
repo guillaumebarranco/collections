@@ -2278,8 +2278,7 @@ export const baseMoviesAnimated: BaseMovie[] = [
     title: 'Batman contre Dracula',
     director: 'Michael Goguen',
     actors: [{ name: 'Rino Romano' }, { name: 'Peter Stormare' }],
-    coverUrl:
-      'https://play-lh.googleusercontent.com/iDZTtdJhK3qUjCS8aqWhCOG7qlYUvo8XsJf6qKiNZUmhqffkX5dM_Ie5Xfgoy2ta-Oem=w240-h480-rw',
+    coverUrl: '/movies_pictures/sfsfdgfdgfdgfgdgfd.webp',
     releaseDate: '2005-10-18',
     length: 83,
     genre: ['Animation'],

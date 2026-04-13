@@ -2234,8 +2234,7 @@ export const baseMoviesAnimated2: BaseMovie[] = [
     title: 'Pokémon, le film : Blanc — Victini et Zekrom',
     director: 'Kunihiko Yuyama',
     actors: [{ name: 'Rica Matsumoto' }, { name: 'Ikue Ôtani' }],
-    coverUrl:
-      'https://play-lh.googleusercontent.com/nO-AHDmgaPRvdL-ApuvpgjuCbrFT1Zbafm4B-s7SCb2lvZCJkZaOdj77d2HfYACqCIc',
+    coverUrl: '/movies_pictures/dgdhdhrhdrvseg.jpg',
     releaseDate: '2011-07-16',
     length: 96,
     genre: ['Animation', 'Aventure', 'Jeunesse'],
@@ -2939,8 +2938,7 @@ export const baseMoviesAnimated2: BaseMovie[] = [
     title: 'Détective Conan : Compte à rebours pour le paradis',
     director: 'Kenji Kodama',
     actors: [{ name: 'Minami Takayama' }, { name: 'Wakana Yamazaki' }],
-    coverUrl:
-      'https://www.animationmagazine.net/wordpress/wp-content/uploads/Detective-Conan_Countdown-to-Heaven.png',
+    coverUrl: '/movies_pictures/Detective-Conan_Countdown-to-Heaven.png',
     releaseDate: '2001-04-21',
     length: 100,
     genre: ['Animation', 'Policier', 'Mystère'],
@@ -3211,7 +3209,7 @@ export const baseMoviesAnimated2: BaseMovie[] = [
     director: 'Chika Nagaoka',
     actors: [{ name: 'Minami Takayama' }, { name: 'Wakana Yamazaki' }],
     coverUrl:
-      'https://gbaike-image.cdn.bcebos.com/5fdf8db1cb1349540923f1570d178558d109b3dedcf5/5fdf8db1cb1349540923f1570d178558d109b3dedcf5_3_4?x-bce-process=image/format,f_auto',
+      '/movies_pictures/5fdf8db1cb1349540923f1570d178558d109b3dedcf5_3_4.webp',
     releaseDate: '2016-04-16',
     length: 112,
     genre: ['Animation', 'Policier', 'Mystère'],

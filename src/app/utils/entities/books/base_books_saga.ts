@@ -281,8 +281,7 @@ export const baseBooksSaga: BaseBook[] = [
   {
     title: "Divergente Tome 2 : L'Insurrection",
     author: 'Veronica Roth',
-    coverUrl:
-      'https://cdn1.booknode.com/book_cover/665/full/divergente-tome-2-linsurrection-664646.jpg',
+    coverUrl: '/books_pictures/divergente-tome-2-linsurrection-664646.jpg',
     pages: 525,
     genre: ['Science Fiction'],
     saga: 'Divergente',
@@ -1308,8 +1307,7 @@ export const baseBooksSaga: BaseBook[] = [
   {
     title: 'Sublimes: La Chimère',
     author: 'Emma Schütz',
-    coverUrl:
-      '/books_pictures/916578722a00.jpg',
+    coverUrl: '/books_pictures/916578722a00.jpg',
     pages: 784,
     genre: ['Fantasy', 'Jeunesse'],
     saga: 'Sublimes',

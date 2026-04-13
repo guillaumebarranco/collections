@@ -1354,8 +1354,7 @@ export const baseMoviesPage2: BaseMovie[] = [
       { name: 'Ralph Lewis' },
       { name: 'Wallace Beery' },
     ],
-    coverUrl:
-      'https://upload.wikimedia.org/wikipedia/commons/e/e0/813_%281920_film%29_-_2.jpg',
+    coverUrl: '/movies_pictures/sfsdfddwfxdfdxgfdgxgf.jpg',
     releaseDate: '1920-11-14',
     length: 60,
     genre: ['Policier', 'Mystère'],

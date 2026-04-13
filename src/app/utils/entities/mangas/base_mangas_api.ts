@@ -32,8 +32,7 @@ export const baseMangasApi: BaseManga[] = [
   {
     title: 'Gachiakuta',
     author: 'Kei Urana',
-    coverUrl:
-      '/mangas_pictures/10d0d3cd3297.webp',
+    coverUrl: '/mangas_pictures/10d0d3cd3297.webp',
     genre: 'Shônen nekketsu',
     nbTomes: 18,
     isFinished: true,
@@ -47,8 +46,7 @@ export const baseMangasApi: BaseManga[] = [
   {
     title: 'Fire Force',
     author: 'Atsushi Ōkubo',
-    coverUrl:
-      '/mangas_pictures/17dbc4c9b355.jpg',
+    coverUrl: '/mangas_pictures/17dbc4c9b355.jpg',
     genre: 'Shonen',
     nbTomes: 20,
     isFinished: true,
@@ -62,7 +60,8 @@ export const baseMangasApi: BaseManga[] = [
   {
     title: 'Billy Bat',
     author: 'Naoki Urasawa, Takashi Nagasaki',
-    coverUrl: '',
+    coverUrl:
+      '/mangas_pictures/c27c0edc53dd.jpg',
     genre: 'Seinen',
     nbTomes: 20,
     isFinished: true,
@@ -76,7 +75,8 @@ export const baseMangasApi: BaseManga[] = [
   {
     title: 'Deadman Wonderland',
     author: 'Jinsei Kataoka, Kazuma Kondou',
-    coverUrl: '',
+    coverUrl:
+      '/mangas_pictures/b1aa9e3155a1.jpg',
     genre: 'Shonen',
     nbTomes: 13,
     isFinished: true,
@@ -90,7 +90,8 @@ export const baseMangasApi: BaseManga[] = [
   {
     title: 'Defense Devil',
     author: 'Youn In-Wan, Yang Kyung-il',
-    coverUrl: '',
+    coverUrl:
+      '/mangas_pictures/ae37961fd689.jpg',
     genre: 'Shonen',
     nbTomes: 10,
     isFinished: true,
@@ -104,7 +105,7 @@ export const baseMangasApi: BaseManga[] = [
   {
     title: "La loi d'Ueki",
     author: 'Tsubasa Fukuchi',
-    coverUrl: '',
+    coverUrl: '/mangas_pictures/1aa32d7ce133.webp',
     genre: 'Shonen',
     nbTomes: 16,
     isFinished: true,
@@ -118,7 +119,8 @@ export const baseMangasApi: BaseManga[] = [
   {
     title: 'Mirai Nikki',
     author: 'Sakae Esuno',
-    coverUrl: '',
+    coverUrl:
+      '/mangas_pictures/96d3badfa623.jpg',
     genre: 'Shonen',
     nbTomes: 12,
     isFinished: true,
@@ -132,7 +134,8 @@ export const baseMangasApi: BaseManga[] = [
   {
     title: 'Negima',
     author: 'Ken Akamatsu',
-    coverUrl: '',
+    coverUrl:
+      '/mangas_pictures/b655cecef769.jpg',
     genre: 'Shonen',
     nbTomes: 38,
     isFinished: true,
@@ -146,7 +149,8 @@ export const baseMangasApi: BaseManga[] = [
   {
     title: 'Shangri-La Frontier',
     author: 'Katarina, Ryosuke Fuji',
-    coverUrl: '',
+    coverUrl:
+      '/mangas_pictures/ca9d6f7bc76c.webp',
     genre: 'Shonen',
     nbTomes: 22,
     isFinished: false,
