@@ -35,7 +35,7 @@ export class AdminMangasHeaderComponent {
 
   openAddMangaAdminDialog(): void {
     const dialogRef = this.dialog.open(AddMangaComponent, {
-      data: { userId: 'admin' },
+      data: { baseMangaOnly: true },
       width: '760px',
       maxWidth: '95vw',
     });

@@ -1,5 +1,5 @@
 import { CommonModule } from '@angular/common';
-import { Component, inject, signal } from '@angular/core';
+import { Component, computed, inject, signal } from '@angular/core';
 import { FormsModule } from '@angular/forms';
 import { MAT_DIALOG_DATA, MatDialogRef } from '@angular/material/dialog';
 import { getApiBaseUrl } from '../../../core/config';
@@ -26,7 +26,9 @@ type AddMangaUserForm = {
 };
 
 type AddMangaDialogData = {
-  userId: string;
+  userId?: string;
+  /** Catalogue uniquement : pas d’entrée dans la liste d’un utilisateur */
+  baseMangaOnly?: boolean;
 };
 
 @Component({
@@ -41,6 +43,11 @@ export class AddMangaComponent {
   private readonly dialogData = inject<AddMangaDialogData | null>(
     MAT_DIALOG_DATA,
     { optional: true }
+  );
+
+  /** Catalogue admin : masquer les champs « ma liste » et n’écrire que base_mangas_api */
+  readonly isBaseMangaOnly = computed(
+    () => this.dialogData?.baseMangaOnly === true
   );
 
   readonly isSaving = signal<boolean>(false);
@@ -165,9 +172,10 @@ export class AddMangaComponent {
           'Content-Type': 'application/json',
         },
         body: JSON.stringify({
-          userId: this.getUserId(),
+          ...(this.isBaseMangaOnly()
+            ? { baseMangaOnly: true }
+            : { userId: this.getUserId(), user }),
           entity: { ...entity, fromEntity: null },
-          user,
         }),
       });
 

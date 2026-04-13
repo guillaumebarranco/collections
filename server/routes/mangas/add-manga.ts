@@ -84,8 +84,10 @@ function getUserMangasTargetFile(userId: string) {
 router.post('/add', (req: any, res: any) => {
   try {
     const input = req.body || {};
+    const baseMangaOnly =
+      normalizeBoolean(input.baseMangaOnly, 'baseMangaOnly') ?? false;
     const userId = normalizeString(input.userId, 'userId');
-    if (!userId) {
+    if (!baseMangaOnly && !userId) {
       res.status(400).json({ error: 'Missing userId' });
       return;
     }
@@ -138,17 +140,26 @@ router.post('/add', (req: any, res: any) => {
     );
     fs.writeFileSync(BASE_MANGAS_API_FILE, baseMangaContent, 'utf8');
 
-    const userMangasFile = getUserMangasTargetFile(userId);
-    const userMangaContent = appendObjectToArrayFile(
-      userMangasFile,
-      formatUserManga(userPayload)
-    );
-    fs.writeFileSync(userMangasFile, userMangaContent, 'utf8');
+    if (!baseMangaOnly) {
+      const userMangasFile = getUserMangasTargetFile(userId);
+      const userMangaContent = appendObjectToArrayFile(
+        userMangasFile,
+        formatUserManga(userPayload)
+      );
+      fs.writeFileSync(userMangasFile, userMangaContent, 'utf8');
+
+      res.json({
+        ok: true,
+        entityFile: BASE_MANGAS_API_FILE,
+        userFile: userMangasFile,
+      });
+      return;
+    }
 
     res.json({
       ok: true,
       entityFile: BASE_MANGAS_API_FILE,
-      userFile: userMangasFile,
+      baseMangaOnly: true,
     });
   } catch (error: any) {
     res.status(500).json({ error: error.message || 'Unknown error' });

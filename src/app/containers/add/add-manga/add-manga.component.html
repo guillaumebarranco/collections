@@ -1,6 +1,8 @@
 <div class="add-manga">
   <div class="header">
-    <h1>Ajouter un manga</h1>
+    <h1>
+      {{ isBaseMangaOnly() ? 'Ajouter un manga au catalogue' : 'Ajouter un manga' }}
+    </h1>
     <button type="button" class="close-btn" (click)="close()">✕</button>
   </div>
 
@@ -78,6 +80,7 @@
       </div>
     </section>
 
+    @if (!isBaseMangaOnly()) {
     <section class="form-section">
       <h2>Informations utilisateur</h2>
 
@@ -180,6 +183,7 @@
         />
       </div>
     </section>
+    }
 
     @if(errorMessage()) {
     <p class="error-message">{{ errorMessage() }}</p>
