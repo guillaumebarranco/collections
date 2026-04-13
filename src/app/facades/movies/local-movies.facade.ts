@@ -20,7 +20,6 @@ import {
   baseMoviesFromRonanLetterboxd,
   baseMoviesApi,
   baseMoviesPage8,
-  baseMoviesSouthPark,
 } from '../../utils/entities/movies';
 
 import {
@@ -76,7 +75,6 @@ export const allBaseMovies: BaseMovie[] = [
   ...baseMoviesFromMarina,
   ...baseMoviesFromRonanLetterboxd,
   ...baseMoviesApi,
-  ...baseMoviesSouthPark,
 ];
 import { emmanuelleMovies } from '../../utils/users/emmanuelle/movies/emmanuelle_movies';
 import { dantesMovies } from '../../utils/users/dantes/movies/dantes_movies';

@@ -340,40 +340,40 @@
         <h3 class="badges-group__title">{{ activeGroup.label }}</h3>
         <div class="badges-grid">
           @for (badge of activeGroup.badges; track badge.id) {
+          <div
+            class="badge-card"
+            [class.badge-card--earned]="badge.earned"
+            [class.badge-card--locked]="!badge.earned"
+          >
+            <img
+              [src]="badge.image"
+              [alt]="badge.name"
+              class="badge-card-image"
+              [class.badge-card-image-locked]="!badge.earned"
+            />
+            <h3 class="badge-card__name">{{ badge.name }}</h3>
+            <p class="badge-card__description">{{ badge.description }}</p>
+            @if (badge.earned) {
+            <span class="badge-card__status">Débloqué</span>
+            } @else {
+            <span class="badge-card__status badge-card__status--locked">{{
+              getBadgeProgressText(badge.id)
+            }}</span>
             <div
-              class="badge-card"
-              [class.badge-card--earned]="badge.earned"
-              [class.badge-card--locked]="!badge.earned"
+              class="badge-card__progress"
+              role="progressbar"
+              [attr.aria-valuenow]="getBadgeProgressPercent(badge.id)"
+              aria-valuemin="0"
+              aria-valuemax="100"
+              [attr.aria-label]="'Progression vers ' + badge.name"
             >
-              <img
-                [src]="badge.image"
-                [alt]="badge.name"
-                class="badge-card-image"
-                [class.badge-card-image-locked]="!badge.earned"
-              />
-              <h3 class="badge-card__name">{{ badge.name }}</h3>
-              <p class="badge-card__description">{{ badge.description }}</p>
-              @if (badge.earned) {
-              <span class="badge-card__status">Débloqué</span>
-              } @else {
-              <span class="badge-card__status badge-card__status--locked"
-                >{{ getBadgeProgressText(badge.id) }}</span
-              >
               <div
-                class="badge-card__progress"
-                role="progressbar"
-                [attr.aria-valuenow]="getBadgeProgressPercent(badge.id)"
-                aria-valuemin="0"
-                aria-valuemax="100"
-                [attr.aria-label]="'Progression vers ' + badge.name"
-              >
-                <div
-                  class="badge-card__progress-fill"
-                  [style.width.%]="getBadgeProgressPercent(badge.id)"
-                ></div>
-              </div>
-              }
+                class="badge-card__progress-fill"
+                [style.width.%]="getBadgeProgressPercent(badge.id)"
+              ></div>
             </div>
+            }
+          </div>
           }
         </div>
       </section>
@@ -409,16 +409,30 @@
     <img src="/logo.png" alt="Makya" class="character-image" />
   </div>
   <p>
-    Bonjour {{ userId() }} ! Vous n'avez pas encore de données dans votre
-    tableau de bord. <br /><br />
+    Bonjour {{ userId() }} ! Bienvenue sur Makya, l'application qui vous permet
+    de lister tout ce que vous avez vu, lu, joué... Et qui vous permet de faire
+    un suivi régulier de vos lectures, visionnages etc... <br />
+    <br />
+
+    Vous n'avez pas encore de données dans votre tableau de bord. <br /><br />
     Vous pouvez commencer par ajouter ce que vous voulez : livres, films,
-    séries, jeux, musiques, etc. via les boutons du menu ! <br /><br />
+    séries, jeux, musiques, etc. via les boutons du menu ou via un des boutons
+    suivants <br /><br />
 
     Cela vous permettra par la suite d'avoir accès à un maximum de statistiques
     une fois vos données remplies ! Vous pourrez utiliser cette application pour
     mettre à jour vos lectures, visionnages... Vous pouvez noter vos oeuvres
     selon vos goûts et critères, et bien plus encore !
   </p>
+
+  <div style="display: flex; gap: 1rem">
+    <div class="makya-btn" (click)="goToMoviesPage()">Ajouter des films</div>
+    <div class="makya-btn" (click)="goToSeriesPage()">Ajouter des séries</div>
+    <div class="makya-btn" (click)="goToBooksPage()">Ajouter des livres</div>
+    <div class="makya-btn" (click)="goToGamesPage()">
+      Ajouter des jeux vidéos
+    </div>
+  </div>
 </div>
 } @if (!userId()) {
 <div class="dashboard-container dashboard-unlogged-user">

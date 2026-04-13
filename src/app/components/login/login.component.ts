@@ -39,6 +39,11 @@ export class LoginComponent {
   /** Message d'erreur sur le champ username en mode inscription (espaces/caractères spéciaux/majuscules interdits). */
   getUsernameValidationError(): string | null {
     if (this.mode() !== 'register') return null;
+    return this.getRegistrationUsernameValidationError();
+  }
+
+  /** Règles du nom d'utilisateur à la création de compte ou première définition du mot de passe. */
+  private getRegistrationUsernameValidationError(): string | null {
     const raw = this.username().trim();
     if (!raw) return null;
     if (/\s/.test(this.username())) return 'Le nom d\'utilisateur ne doit pas contenir d\'espace.';
@@ -56,7 +61,7 @@ export class LoginComponent {
       return;
     }
     if (this.mode() === 'register') {
-      const usernameError = this.getUsernameValidationError();
+      const usernameError = this.getRegistrationUsernameValidationError();
       if (usernameError) {
         this.errorMessage.set(usernameError);
         return;
@@ -66,26 +71,28 @@ export class LoginComponent {
     this.isLoading.set(true);
     try {
       const status = await this.authService.getUserStatus(username);
-      if (!status.exists || !status.hasPassword) {
-        if (this.mode() !== 'register') {
-          this.mode.set('register');
-          this.errorMessage.set(
-            "Ce compte n'a pas encore de mot de passe. Crée-en un."
-          );
-          return;
-        }
-        const ok = await this.authService.register(username, password);
+
+      if (status.exists && status.hasPassword) {
+        const ok = await this.authService.login(username, password);
         if (!ok) {
-          this.errorMessage.set('Impossible de créer le mot de passe.');
+          this.errorMessage.set('Identifiants invalides.');
           return;
         }
         this.router.navigate([username]);
         return;
       }
 
-      const ok = await this.authService.login(username, password);
+      // Compte inexistant ou existant sans mot de passe : inscription au premier clic
+      const regError = this.getRegistrationUsernameValidationError();
+      if (regError) {
+        this.errorMessage.set(regError);
+        this.mode.set('register');
+        return;
+      }
+
+      const ok = await this.authService.register(username, password);
       if (!ok) {
-        this.errorMessage.set('Identifiants invalides.');
+        this.errorMessage.set('Impossible de créer le mot de passe.');
         return;
       }
       this.router.navigate([username]);

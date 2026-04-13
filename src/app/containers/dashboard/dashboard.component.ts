@@ -48,10 +48,10 @@ import {
   getEstimatedComicsReadingTime,
 } from '../../utils/stats.utils';
 import {
-  countSeriesSeenForBadges,
   getSerieTotalTimesWatched,
   getSerieWatchedLengthMinutes,
 } from '../../utils/series.utils';
+import { buildBadgeThresholdStatsFromCollections } from '../../utils/badge-threshold-stats.collections';
 import {
   getAllMovies,
   getAllWatchlistMovies,
@@ -484,38 +484,6 @@ export class DashboardComponent implements OnInit {
     this.selectedBadgeEntity.set(entity);
   }
 
-  private normalizeGenreValue(genre: unknown): string {
-    const raw = Array.isArray(genre) ? genre.join(' ') : String(genre ?? '');
-    return raw
-      .normalize('NFD')
-      .replace(/[\u0300-\u036f]/g, '')
-      .toLowerCase()
-      .replace(/[^a-z0-9]+/g, ' ')
-      .trim();
-  }
-
-  private countBooksByGenre(tokens: string[]): number {
-    return this.allBooks().filter((b) => {
-      const g = this.normalizeGenreValue(
-        (b as unknown as { genre?: unknown }).genre
-      );
-      return tokens.some((token) =>
-        g.includes(this.normalizeGenreValue(token))
-      );
-    }).length;
-  }
-
-  private countMoviesByGenre(tokens: string[]): number {
-    return this.allMovies().filter((m) => {
-      const g = this.normalizeGenreValue(
-        (m as unknown as { genre?: unknown }).genre
-      );
-      return tokens.some((token) =>
-        g.includes(this.normalizeGenreValue(token))
-      );
-    }).length;
-  }
-
   private getWatchedSagaCount(sagaName: string): number {
     const watched = new Set(
       this.allMovies().map((m) => `${m.title}|${m.director}`)
@@ -531,50 +499,16 @@ export class DashboardComponent implements OnInit {
   }
 
   badgeProgressById = computed<Record<string, string>>(() => {
-    const books = this.allBooks().length;
-    const movies = this.allMovies().length;
-    const games = this.allGames().length;
-    const gamesFinished = this.allGames().filter((g) =>
-      (g.sessions || []).some((s) => s.finishedGame === true)
-    ).length;
-
-    const seriesForBadges = countSeriesSeenForBadges(this.allSeries());
-
-    const mangasRead = this.allMangas().length;
-    const manwhasRead = this.allManwhas().length;
-    const comicsRead = this.allComics().length;
-    const bdsRead = this.allBds().length;
-
-    const sfTokens = ['science fiction', 'science-fiction', 'scifi'] as const;
-    const stats: BadgeThresholdStats = {
-      booksRead: books,
-      booksFantasyRead: this.countBooksByGenre(['fantasy']),
-      booksRomanceRead: this.countBooksByGenre(['romance']),
-      booksScienceFictionRead: this.countBooksByGenre([...sfTokens]),
-      booksPolicierRead: this.countBooksByGenre(['policier', 'polar']),
-      booksNonfictionRead: this.countBooksByGenre([
-        'nonfiction',
-        'non fiction',
-      ]),
-      booksAventureRead: this.countBooksByGenre(['aventure']),
-      moviesWatched: movies,
-      moviesRomanceWatched: this.countMoviesByGenre(['romance']),
-      moviesScienceFictionWatched: this.countMoviesByGenre([...sfTokens]),
-      moviesThrillerWatched: this.countMoviesByGenre(['thriller']),
-      moviesHorreurWatched: this.countMoviesByGenre(['horreur', 'horror']),
-      moviesComedieWatched: this.countMoviesByGenre([
-        'comedie',
-        'comédie',
-      ]),
-      moviesActionWatched: this.countMoviesByGenre(['action']),
-      gamesPlayed: games,
-      gamesFinished,
-      mangasRead,
-      manwhasRead,
-      comicsRead,
-      bdsRead,
-      seriesWatched: seriesForBadges,
-    };
+    const stats: BadgeThresholdStats = buildBadgeThresholdStatsFromCollections({
+      books: this.allBooks(),
+      movies: this.allMovies(),
+      games: this.allGames(),
+      series: this.allSeries(),
+      mangas: this.allMangas(),
+      manwhas: this.allManwhas(),
+      comics: this.allComics(),
+      bds: this.allBds(),
+    });
 
     const progress: Record<string, string> = {
       'vengeurs-de-la-terre': `${this.getWatchedSagaCount(
@@ -1173,5 +1107,21 @@ export class DashboardComponent implements OnInit {
     const userId = this.userId() || DEFAULT_USER_ID;
     const musics = await getAllMusics(userId);
     this.musicsList.set(musics);
+  }
+
+  goToMoviesPage(): void {
+    this.router.navigate([`/${this.userId()}/movies`]);
+  }
+
+  goToSeriesPage(): void {
+    this.router.navigate([`/${this.userId()}/series`]);
+  }
+
+  goToBooksPage(): void {
+    this.router.navigate([`/${this.userId()}/books`]);
+  }
+
+  goToGamesPage(): void {
+    this.router.navigate([`/${this.userId()}/games`]);
   }
 }

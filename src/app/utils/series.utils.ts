@@ -22,10 +22,10 @@ export function countDistinctSeriesForBadges(
  * Les saisons à 0 ou 0.5 seules ne comptent pas ; une entrée = une série (pas une saison).
  */
 export function countSeriesSeenForBadges(
-  rows: Array<{
+  rows: ReadonlyArray<{
     title?: string;
     director?: string;
-    seasons?: Array<{ seasonTimesWatched?: number }>;
+    seasons?: ReadonlyArray<{ seasonTimesWatched?: number }>;
   }>
 ): number {
   const keys = new Set<string>();

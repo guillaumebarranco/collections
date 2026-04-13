@@ -60,6 +60,7 @@ import { getEntityKey } from '../../../utils/top-five.utils';
 import { isLocalhost } from '../../../core/config';
 import { BadgesService } from '../../../services/badges.service';
 import { openCollectionEntityFollowUpModal } from '../../../utils/collection-entity-follow-up-dialog';
+import { buildBdReadlistFollowUpProgress } from '../../../utils/collection-read-badge-follow-up.utils';
 
 type RecommendationDetail = { userId: string; rating: number };
 type RecommendedBd = Bd & {
@@ -476,7 +477,7 @@ export class BdsComponent implements OnInit {
       coverAltPrefix: 'Couverture de',
       messageLead: 'Vous avez lu',
       progressUnitLabel: 'BD lues',
-      progressRows: [],
+      progressRows: buildBdReadlistFollowUpProgress(this.allBds()),
     });
   }
 

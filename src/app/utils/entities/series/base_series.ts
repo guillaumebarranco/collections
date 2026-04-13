@@ -7229,4 +7229,29 @@ export const baseSeries: BaseSerie[] = [
     fromEntity: null,
     countryOrigin: 'Argentine',
   },
+
+  {
+    title: 'Largo Winch',
+    director: 'David Wu, Paolo Barzman, Joseph L. Scanlan',
+    actors: [
+      { name: 'Paolo Seganti' },
+      { name: 'Sydney Penny' },
+      { name: 'Diego Wallraff' },
+      { name: 'Serge Houde' },
+      { name: 'Geordie Johnson' },
+    ],
+    coverUrl: '/series_pictures/m6GKOk3aIM89G8uQNZUt4K3OXK2.webp',
+    releaseDate: '2001-01-26',
+    endDate: '2002-11-24',
+    genre: ['Action', 'Aventure', 'Thriller'],
+    seasonsData: [
+      { seasonNumber: 1, nbEpisodes: 20, totalLength: 880 },
+      { seasonNumber: 2, nbEpisodes: 19, totalLength: 836 },
+    ],
+    description:
+      'Adaptation de la BD de Jean Van Hamme et Philippe Francq : Largo Winch hérite du groupe W et déjoue intrigues et corruption. Coproduction France / Canada / Belgique / Allemagne / États-Unis, ~44 min par épisode.',
+    saga: '',
+    fromEntity: null,
+    countryOrigin: 'France',
+  },
 ];

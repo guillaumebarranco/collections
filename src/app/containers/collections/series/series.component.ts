@@ -65,6 +65,7 @@ import { MatDialog, MatDialogModule } from '@angular/material/dialog';
 import { isLocalhost } from '../../../core/config';
 import { BadgesService } from '../../../services/badges.service';
 import { openCollectionEntityFollowUpModal } from '../../../utils/collection-entity-follow-up-dialog';
+import { buildSeriesWatchFollowUpProgress } from '../../../utils/collection-read-badge-follow-up.utils';
 
 type RecommendationDetail = { userId: string; rating: number };
 type RecommendedSerie = Serie & {
@@ -456,7 +457,7 @@ export class SeriesComponent implements OnInit {
       coverAltPrefix: 'Jaquette de',
       messageLead: 'Vous avez vu',
       progressUnitLabel: 'séries',
-      progressRows: [],
+      progressRows: buildSeriesWatchFollowUpProgress(this.allSeries()),
     });
   }
 

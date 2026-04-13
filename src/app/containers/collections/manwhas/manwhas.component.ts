@@ -60,6 +60,7 @@ import { getEntityKey } from '../../../utils/top-five.utils';
 import { isLocalhost } from '../../../core/config';
 import { BadgesService } from '../../../services/badges.service';
 import { openCollectionEntityFollowUpModal } from '../../../utils/collection-entity-follow-up-dialog';
+import { buildManwhaReadlistFollowUpProgress } from '../../../utils/collection-read-badge-follow-up.utils';
 
 type RecommendationDetail = { userId: string; rating: number };
 type RecommendedManwha = Manwha & {
@@ -433,7 +434,7 @@ export class ManwhasComponent implements OnInit {
       coverAltPrefix: 'Couverture de',
       messageLead: 'Vous avez lu',
       progressUnitLabel: 'manhwas lus',
-      progressRows: [],
+      progressRows: buildManwhaReadlistFollowUpProgress(this.allManwhas()),
     });
   }
 

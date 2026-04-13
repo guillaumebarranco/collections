@@ -19,4 +19,3 @@ export * from './base_movies_from_marina';
 export * from './base_movies_from_ronan_letterboxd';
 export * from './base_movies_api';
 export * from './base_movies_animated_2';
-export * from './base_movies_south_park';

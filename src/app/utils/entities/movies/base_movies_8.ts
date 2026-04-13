@@ -633,6 +633,25 @@ export const baseMoviesPage8: BaseMovie[] = [
     selectDisplayOrder: 0,
   },
   {
+    title: 'Largo Winch',
+    director: 'Jérôme Salle',
+    actors: [
+      { name: 'Tomer Sisley' },
+      { name: 'Kristin Scott Thomas' },
+      { name: 'Miki Manojlović' },
+      { name: 'Mélanie Thierry' },
+    ],
+    coverUrl: '/movies_pictures/largo_winch.jpg',
+    releaseDate: '2008-12-17',
+    length: 108,
+    genre: ['Action', 'Thriller', 'Aventure'],
+    saga: '',
+    description: '',
+    fromEntity: null,
+    countryOrigin: ['France'],
+    selectDisplayOrder: 0,
+  },
+  {
     title: "Largo Winch : Le Prix de l'argent",
     director: 'Olivier Masset-Depasse',
     actors: [
@@ -650,24 +669,7 @@ export const baseMoviesPage8: BaseMovie[] = [
     countryOrigin: ['France'],
     selectDisplayOrder: 0,
   },
-  {
-    title: 'Largo Winch',
-    director: '',
-    actors: [
-      { name: 'Paolo Seganti' },
-      { name: 'Sydney Penny' },
-      { name: 'Diego Wallraff' },
-    ],
-    coverUrl: '/movies_pictures/8e5744f3aea5.jpg',
-    releaseDate: '2001-01-26',
-    length: 48,
-    genre: ['Action', 'Aventure', 'Policier'],
-    saga: '',
-    description: '',
-    fromEntity: null,
-    countryOrigin: ['France'],
-    selectDisplayOrder: 0,
-  },
+
   {
     title: 'Largo Winch II',
     director: 'Jérôme Salle',

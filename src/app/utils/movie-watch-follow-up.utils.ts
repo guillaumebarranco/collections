@@ -1,136 +1,82 @@
-import type { BadgeDefinition } from '../models/badge-model';
-import {
-  BADGE_DEFINITIONS,
-  getBadgeThresholdStatKey,
-} from './users/badges';
 import type { Movie } from '../models/movie-model';
+import type { BadgeThresholdStatKey } from './users/badges';
 import type { EntityBadgeProgressRow } from './entity-badge-progress.types';
+import { computeNextTierProgressRow } from './badge-follow-up-tier.utils';
+import {
+  buildBadgeThresholdStatsFromCollections,
+  itemMatchesGenreTokens,
+} from './badge-threshold-stats.collections';
 
-export type MovieBadgeProgressRow = EntityBadgeProgressRow;
+const SF_TOKENS = [
+  'science-fiction',
+  'science fiction',
+  'scifi',
+  'sci fi',
+] as const;
 
-function tiersFromDefinitions(
-  predicate: (def: BadgeDefinition) => boolean
-): { id: string; threshold: number }[] {
-  return BADGE_DEFINITIONS.filter(predicate)
-    .map((b) => ({ id: b.id, threshold: b.threshold! }))
-    .sort((a, b) => a.threshold - b.threshold);
-}
+const MOVIE_FOLLOW_UP_GENRE_RULES: {
+  statKey: BadgeThresholdStatKey;
+  tokens: readonly string[];
+  unitLabel: string;
+}[] = [
+  {
+    statKey: 'moviesRomanceWatched',
+    tokens: ['romance'],
+    unitLabel: 'films romance',
+  },
+  {
+    statKey: 'moviesScienceFictionWatched',
+    tokens: [...SF_TOKENS],
+    unitLabel: 'films de science-fiction',
+  },
+  {
+    statKey: 'moviesThrillerWatched',
+    tokens: ['thriller'],
+    unitLabel: 'films thriller',
+  },
+  {
+    statKey: 'moviesHorreurWatched',
+    tokens: ['horreur', 'horror'],
+    unitLabel: "films d'horreur",
+  },
+  {
+    statKey: 'moviesComedieWatched',
+    tokens: ['comedie', 'comedy'],
+    unitLabel: 'films comédie',
+  },
+  { statKey: 'moviesActionWatched', tokens: ['action'], unitLabel: 'films action' },
+];
 
-/** Paliers badges « nombre de films vus » (ordre croissant), depuis `BadgeDefinition.threshold`. */
-export const CINEPHILE_MOVIE_TIERS: { id: string; threshold: number }[] =
-  tiersFromDefinitions(
-    (b) => b.id.startsWith('cinephile-') && b.threshold !== undefined
-  );
-
-/** Paliers badges « films de romance vus ». */
-export const ROMANCE_MOVIE_TIERS: { id: string; threshold: number }[] =
-  tiersFromDefinitions(
-    (b) =>
-      getBadgeThresholdStatKey(b.id) === 'moviesRomanceWatched' &&
-      b.threshold !== undefined
-  );
-
-function badgeMeta(id: string): { name: string; image: string } {
-  const def = BADGE_DEFINITIONS.find((b) => b.id === id);
-  return {
-    name: def?.name ?? id,
-    image: def?.image ?? '/badges/movies/Kevin_McCallister.png',
-  };
-}
-
-/** Un film compte comme « vu » s'il a au moins un visionnage enregistré. */
-export function countWatchedMovies(movies: Movie[]): number {
-  return movies.filter((m) => (m.timesWatched ?? 0) > 0).length;
-}
-
-export function isRomanceMovieGenre(
-  genre: string | string[] | undefined
-): boolean {
-  const parts = Array.isArray(genre)
-    ? genre
-    : genre?.trim()
-      ? [genre]
-      : [];
-  return parts.some((p) => {
-    const g = p.trim().toLowerCase();
-    return g.includes('romance') || g.includes('romantique');
-  });
-}
-
-export function countRomanceWatchedMovies(movies: Movie[]): number {
-  return movies.filter(
-    (m) => (m.timesWatched ?? 0) > 0 && isRomanceMovieGenre(m.genre)
-  ).length;
-}
-
-/** Prochain palier cinéphile : ex. 456 / 500 pour « Cinéphile passionné ». */
-export function getNextCinephileProgress(
-  totalWatched: number
-): EntityBadgeProgressRow | null {
-  const tier = CINEPHILE_MOVIE_TIERS.find((t) => totalWatched < t.threshold);
-  if (!tier) {
-    const last = CINEPHILE_MOVIE_TIERS[CINEPHILE_MOVIE_TIERS.length - 1];
-    const meta = badgeMeta(last.id);
-    return {
-      badgeId: last.id,
-      badgeName: meta.name,
-      badgeImage: meta.image,
-      current: totalWatched,
-      target: last.threshold,
-      complete: totalWatched >= last.threshold,
-    };
-  }
-  const meta = badgeMeta(tier.id);
-  return {
-    badgeId: tier.id,
-    badgeName: meta.name,
-    badgeImage: meta.image,
-    current: totalWatched,
-    target: tier.threshold,
-    complete: false,
-  };
-}
-
-export function getNextRomanceMovieProgress(
-  romanceWatched: number
-): EntityBadgeProgressRow | null {
-  const tier = ROMANCE_MOVIE_TIERS.find((t) => romanceWatched < t.threshold);
-  if (!tier) {
-    const last = ROMANCE_MOVIE_TIERS[ROMANCE_MOVIE_TIERS.length - 1];
-    const meta = badgeMeta(last.id);
-    return {
-      badgeId: last.id,
-      badgeName: meta.name,
-      badgeImage: meta.image,
-      current: romanceWatched,
-      target: last.threshold,
-      complete: romanceWatched >= last.threshold,
-    };
-  }
-  const meta = badgeMeta(tier.id);
-  return {
-    badgeId: tier.id,
-    badgeName: meta.name,
-    badgeImage: meta.image,
-    current: romanceWatched,
-    target: tier.threshold,
-    complete: false,
-  };
-}
-
-/** Lignes à afficher dans le suivi post-visionnage (watchlist → vu). */
+/** Lignes à afficher après watchlist → vu (cinéphile + genres concernés). */
 export function buildMovieWatchFollowUpProgress(
   movie: Movie,
   allUserMovies: Movie[]
 ): EntityBadgeProgressRow[] {
-  const total = countWatchedMovies(allUserMovies);
+  const stats = buildBadgeThresholdStatsFromCollections({
+    books: [],
+    movies: allUserMovies,
+    games: [],
+    series: [],
+    mangas: [],
+    manwhas: [],
+    comics: [],
+    bds: [],
+  });
+
   const rows: EntityBadgeProgressRow[] = [];
-  const cine = getNextCinephileProgress(total);
-  if (cine) rows.push(cine);
-  if (isRomanceMovieGenre(movie.genre)) {
-    const romanceCount = countRomanceWatchedMovies(allUserMovies);
-    const rom = getNextRomanceMovieProgress(romanceCount);
-    if (rom) rows.push(rom);
+  const cine = computeNextTierProgressRow(stats.moviesWatched, 'moviesWatched');
+  if (cine) {
+    rows.push({ ...cine, unitLabel: 'films' });
+  }
+
+  for (const rule of MOVIE_FOLLOW_UP_GENRE_RULES) {
+    if (!itemMatchesGenreTokens(movie, rule.tokens)) {
+      continue;
+    }
+    const row = computeNextTierProgressRow(stats[rule.statKey], rule.statKey);
+    if (row) {
+      rows.push({ ...row, unitLabel: rule.unitLabel });
+    }
   }
   return rows;
 }

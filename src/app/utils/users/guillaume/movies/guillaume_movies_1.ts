@@ -2559,4 +2559,21 @@ export const guillaumeMoviesPage1: UserMovies = [
     borrowed: "",
     loaned: "",
   },
+
+  {
+    title: "Largo Winch",
+    director: "Jérôme Salle",
+    rating: 0,
+    timesWatched: 1,
+    firstViewedDate: '',
+    lastViewedDate: '',
+    seenAtCinema: false,
+    owned: false,
+    wantToSeeAgain: false,
+    watchPriority: 1,
+    ratingComment: '',
+    inList: [],
+    borrowed: '',
+    loaned: '',
+  },
 ];
