@@ -495,8 +495,7 @@ export const baseGamesAdaptations: BaseGame[] = [
     title: 'Dragon Ball Z: Shin Butōden',
     editor: 'Sega',
     hero: 'Goku',
-    coverUrl:
-      'https://e.snmc.io/lk/f/x/132d91ec37d6c4bd42e9961e592c63ea/7949998',
+    coverUrl: '/games_pictures/7949998.png',
     releaseDate: '1995-11-17',
     averageTimeToFinish: 0,
     averageTimeToHundredPercent: 0,
@@ -550,7 +549,7 @@ export const baseGamesAdaptations: BaseGame[] = [
     title: 'Dragon Ball Z: The Legacy of Goku II',
     editor: 'Webfoot Technologies',
     hero: 'Goku',
-    coverUrl: 'https://www.gamecash.fr/thumbnail-600/dgbz-goku-2-e17854.jpg',
+    coverUrl: '/games_pictures/dgbz-goku-2-e17854.jpg',
     releaseDate: '2003-06-17',
     averageTimeToFinish: 0,
     averageTimeToHundredPercent: 0,
@@ -605,7 +604,7 @@ export const baseGamesAdaptations: BaseGame[] = [
     editor: 'Atari',
     hero: 'Goku',
     coverUrl:
-      'https://www.gamecash.fr/thumbnail-600/dragon-ball-z-supersonic-warriors-gba-e16628.jpg',
+      '/games_pictures/dragon-ball-z-supersonic-warriors-gba-e16628.jpg',
     releaseDate: '2004-06-22',
     averageTimeToFinish: 0,
     averageTimeToHundredPercent: 0,
@@ -623,8 +622,7 @@ export const baseGamesAdaptations: BaseGame[] = [
     title: 'Dragon Ball Z: Budokai',
     editor: 'Dimps',
     hero: 'Goku',
-    coverUrl:
-      'https://www.gamecash.fr/thumbnail-600/dragon-ball-z-budokai-ps2-e8513.jpg',
+    coverUrl: '/games_pictures/dragon-ball-z-budokai-ps2-e8513.jpg',
     releaseDate: '2002-11-02',
     averageTimeToFinish: 0,
     averageTimeToHundredPercent: 0,
@@ -714,7 +712,7 @@ export const baseGamesAdaptations: BaseGame[] = [
     title: 'Super Dragon Ball Z',
     editor: 'Crafts & Meister',
     hero: 'Goku',
-    coverUrl: 'https://www.gamecash.fr/thumbnail-600/super-dbz-ps2-e14195.jpg',
+    coverUrl: '/games_pictures/super-dbz-ps2-e14195.jpg',
     releaseDate: '2006-06-29',
     averageTimeToFinish: 0,
     averageTimeToHundredPercent: 0,
@@ -732,8 +730,7 @@ export const baseGamesAdaptations: BaseGame[] = [
     title: 'Dragon Ball Z: Burst Limit',
     editor: 'Bandai Namco',
     hero: 'Goku',
-    coverUrl:
-      'https://www.gamecash.fr/thumbnail-600/dbz-burst-limit-ps3-e10873.jpg',
+    coverUrl: '/games_pictures/dbz-burst-limit-ps3-e10873.jpg',
     releaseDate: '2008-06-05',
     averageTimeToFinish: 0,
     averageTimeToHundredPercent: 0,
@@ -806,7 +803,7 @@ export const baseGamesAdaptations: BaseGame[] = [
     editor: 'Monolith Soft',
     hero: 'Goku',
     coverUrl:
-      'https://www.gamecash.fr/thumbnail-600/dragon-ball-z-attack-of-the-seiyans-ds-e4544.jpg',
+      '/games_pictures/dragon-ball-z-attack-of-the-seiyans-ds-e4544.jpg',
     releaseDate: '2009-04-29',
     averageTimeToFinish: 0,
     averageTimeToHundredPercent: 0,
@@ -824,8 +821,7 @@ export const baseGamesAdaptations: BaseGame[] = [
     title: 'Dragon Ball: Origins',
     editor: 'Game Republic',
     hero: 'Goku',
-    coverUrl:
-      'https://www.gamecash.fr/thumbnail-600/dragon-ball-origins-e17012.jpg',
+    coverUrl: '/games_pictures/dragon-ball-origins-e17012.jpg',
     releaseDate: '2008-12-04',
     averageTimeToFinish: 0,
     averageTimeToHundredPercent: 0,
@@ -2090,8 +2086,7 @@ export const baseGamesAdaptations: BaseGame[] = [
     title: 'Star Wars: Obi-Wan',
     editor: 'LucasArts',
     hero: 'Obi-Wan Kenobi',
-    coverUrl:
-      'https://www.gamecash.fr/thumbnail-600/xb-star-wars-obi-wan-e11427.jpg',
+    coverUrl: '/games_pictures/xb-star-wars-obi-wan-e11427.jpg',
     releaseDate: '2001-12-19',
     averageTimeToFinish: 0,
     averageTimeToHundredPercent: 0,
@@ -3005,7 +3000,7 @@ export const baseGamesAdaptations: BaseGame[] = [
     editor: 'Electronic Arts',
     hero: 'Harry Potter',
     coverUrl:
-      'https://www.gamecash.fr/thumbnail-600/harry-potter-a-l-ecole-des-sorciers-gba-e16172.jpg',
+      '/games_pictures/harry-potter-a-l-ecole-des-sorciers-gba-e16172.jpg',
     releaseDate: '2001-11-16',
     averageTimeToFinish: 11,
     averageTimeToHundredPercent: 0,
@@ -3114,7 +3109,7 @@ export const baseGamesAdaptations: BaseGame[] = [
     editor: 'Electronic Arts',
     hero: 'Harry Potter',
     coverUrl:
-      'https://www.gamecash.fr/thumbnail-600/harry-potter-et-le-prisonnier-d-azkaban-ps2-e9993.jpg',
+      '/games_pictures/harry-potter-et-le-prisonnier-d-azkaban-ps2-e9993.jpg',
     releaseDate: '2004-05-29',
     averageTimeToFinish: 10,
     averageTimeToHundredPercent: 0,
@@ -3132,8 +3127,7 @@ export const baseGamesAdaptations: BaseGame[] = [
     title: 'Harry Potter et la Coupe de feu (PS2)',
     editor: 'Electronic Arts',
     hero: 'Harry Potter',
-    coverUrl:
-      'https://www.gamecash.fr/thumbnail-400-450/harry-potter-et-la-coupe-de-feu-e810.jpg',
+    coverUrl: '/games_pictures/harry-potter-et-la-coupe-de-feu-e810.jpg',
     releaseDate: '2005-11-08',
     averageTimeToFinish: 10,
     averageTimeToHundredPercent: 0,
@@ -3152,7 +3146,7 @@ export const baseGamesAdaptations: BaseGame[] = [
     editor: 'Electronic Arts',
     hero: 'Harry Potter',
     coverUrl:
-      'https://www.gamecash.fr/thumbnail-600/harry-potter-et-l-ordre-du-phoenix-ps2-e9996.jpg',
+      '/games_pictures/harry-potter-et-l-ordre-du-phoenix-ps2-e9996.jpg',
     releaseDate: '2007-06-29',
     averageTimeToFinish: 10,
     averageTimeToHundredPercent: 0,
@@ -3170,8 +3164,7 @@ export const baseGamesAdaptations: BaseGame[] = [
     title: 'Harry Potter et le Prince de sang-mêlé',
     editor: 'Electronic Arts',
     hero: 'Harry Potter',
-    coverUrl:
-      'https://fr.shopping.rakuten.com/pictures/0199887d-f1e9-7fb4-880a-a992acda3d11.jpg',
+    coverUrl: '/games_pictures/0199887d-f1e9-7fb4-880a-a992acda3d11.avif',
     releaseDate: '2009-06-30',
     averageTimeToFinish: 10,
     averageTimeToHundredPercent: 0,

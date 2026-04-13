@@ -6,8 +6,7 @@ export const baseGamesTintin: BaseGame[] = [
     title: 'Tintin sur la Lune',
     editor: 'Infogrames',
     hero: 'Tintin',
-    coverUrl:
-      '/games_pictures/54d499adb71f.jpg',
+    coverUrl: '/games_pictures/54d499adb71f.jpg',
     releaseDate: '1989-01-01',
     averageTimeToFinish: 3,
     averageTimeToHundredPercent: 0,
@@ -43,8 +42,7 @@ export const baseGamesTintin: BaseGame[] = [
     title: 'Tintin : Le Temple du Soleil',
     editor: 'Infogrames',
     hero: 'Tintin',
-    coverUrl:
-      '/games_pictures/d68bfb0a5835.jpg',
+    coverUrl: '/games_pictures/d68bfb0a5835.jpg',
     releaseDate: '1997-02-09',
     averageTimeToFinish: 8,
     averageTimeToHundredPercent: 0,
@@ -62,8 +60,7 @@ export const baseGamesTintin: BaseGame[] = [
     title: 'Tintin : Objectif Aventure',
     editor: 'Infogrames',
     hero: 'Tintin',
-    coverUrl:
-      'https://www.gamecash.fr/thumbnail-600/tintin-objectif-aventure-e29580.jpg',
+    coverUrl: '/games_pictures/tintin-objectif-aventure-e29580.jpg',
     releaseDate: '2001-09-21',
     averageTimeToFinish: 10,
     averageTimeToHundredPercent: 0,
@@ -81,8 +78,7 @@ export const baseGamesTintin: BaseGame[] = [
     title: 'Les Aventures de Tintin : Le Secret de La Licorne',
     editor: 'Ubisoft',
     hero: 'Tintin',
-    coverUrl:
-      '/games_pictures/5c1a469a9f82.jpg',
+    coverUrl: '/games_pictures/5c1a469a9f82.jpg',
     releaseDate: '2011-10-21',
     averageTimeToFinish: 10,
     averageTimeToHundredPercent: 15,
@@ -100,8 +96,7 @@ export const baseGamesTintin: BaseGame[] = [
     title: 'Tintin Reporter : Les Cigares du Pharaon',
     editor: 'Microids',
     hero: 'Tintin',
-    coverUrl:
-      '/games_pictures/1bfa8e276611.jpg',
+    coverUrl: '/games_pictures/1bfa8e276611.jpg',
     releaseDate: '2023-11-07',
     averageTimeToFinish: 12,
     averageTimeToHundredPercent: 20,

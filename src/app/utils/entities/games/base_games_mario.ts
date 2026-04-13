@@ -315,8 +315,7 @@ export const baseGamesMario: BaseGame[] = ([] = [
     title: 'Super Mario Bros.: The Lost Levels',
     editor: 'Nintendo',
     hero: 'Mario',
-    coverUrl:
-      '/games_pictures/7993f98bc1a5.jpg',
+    coverUrl: '/games_pictures/7993f98bc1a5.jpg',
     releaseDate: '1986-06-03',
     averageTimeToFinish: 5,
     averageTimeToHundredPercent: 10,
@@ -344,8 +343,7 @@ export const baseGamesMario: BaseGame[] = ([] = [
     title: 'Super Mario Bros. 3',
     editor: 'Nintendo',
     hero: 'Mario',
-    coverUrl:
-      '/games_pictures/cfbdfdc8bb83.jpg',
+    coverUrl: '/games_pictures/cfbdfdc8bb83.jpg',
     releaseDate: '1988-10-23',
     averageTimeToFinish: 8,
     averageTimeToHundredPercent: 16,
@@ -359,8 +357,7 @@ export const baseGamesMario: BaseGame[] = ([] = [
     title: 'Super Mario Land',
     editor: 'Nintendo',
     hero: 'Mario',
-    coverUrl:
-      '/games_pictures/aac526169975.jpg',
+    coverUrl: '/games_pictures/aac526169975.jpg',
     releaseDate: '1989-04-21',
     averageTimeToFinish: 5,
     averageTimeToHundredPercent: 10,
@@ -388,8 +385,7 @@ export const baseGamesMario: BaseGame[] = ([] = [
     title: 'Super Mario Sunshine',
     editor: 'Nintendo',
     hero: 'Mario',
-    coverUrl:
-      '/games_pictures/5d1169e3e8c3.jpg',
+    coverUrl: '/games_pictures/5d1169e3e8c3.jpg',
     releaseDate: '2002-07-19',
     averageTimeToFinish: 15,
     averageTimeToHundredPercent: 40,
@@ -403,8 +399,7 @@ export const baseGamesMario: BaseGame[] = ([] = [
     title: 'New Super Mario Bros.',
     editor: 'Nintendo',
     hero: 'Mario',
-    coverUrl:
-      '/games_pictures/8c2688069fea.jpg',
+    coverUrl: '/games_pictures/8c2688069fea.jpg',
     releaseDate: '2006-05-15',
     averageTimeToFinish: 10,
     averageTimeToHundredPercent: 25,
@@ -432,8 +427,7 @@ export const baseGamesMario: BaseGame[] = ([] = [
     title: 'Super Mario Galaxy 2',
     editor: 'Nintendo',
     hero: 'Mario',
-    coverUrl:
-      '/games_pictures/4611bbac9a24.jpg',
+    coverUrl: '/games_pictures/4611bbac9a24.jpg',
     releaseDate: '2010-05-23',
     averageTimeToFinish: 18,
     averageTimeToHundredPercent: 45,
@@ -447,8 +441,7 @@ export const baseGamesMario: BaseGame[] = ([] = [
     title: 'Super Mario 3D Land',
     editor: 'Nintendo',
     hero: 'Mario',
-    coverUrl:
-      '/games_pictures/2cb5965bc25b.jpg',
+    coverUrl: '/games_pictures/2cb5965bc25b.jpg',
     releaseDate: '2011-11-03',
     averageTimeToFinish: 12,
     averageTimeToHundredPercent: 30,
@@ -518,8 +511,7 @@ export const baseGamesMario: BaseGame[] = ([] = [
     title: 'Super Mario Run',
     editor: 'Nintendo',
     hero: 'Mario',
-    coverUrl:
-      '/games_pictures/35052f078dfe.jpg',
+    coverUrl: '/games_pictures/35052f078dfe.jpg',
     releaseDate: '2016-12-15',
     averageTimeToFinish: 4,
     averageTimeToHundredPercent: 12,
@@ -533,8 +525,7 @@ export const baseGamesMario: BaseGame[] = ([] = [
     title: 'Super Mario Maker 2',
     editor: 'Nintendo',
     hero: 'Mario',
-    coverUrl:
-      '/games_pictures/0ddcbb484518.jpg',
+    coverUrl: '/games_pictures/0ddcbb484518.jpg',
     releaseDate: '2019-06-28',
     averageTimeToFinish: 25,
     averageTimeToHundredPercent: 90,
@@ -548,8 +539,7 @@ export const baseGamesMario: BaseGame[] = ([] = [
     title: 'Super Mario 3D All-Stars',
     editor: 'Nintendo',
     hero: 'Mario',
-    coverUrl:
-      '/games_pictures/4c9c13cbccf9.jpg',
+    coverUrl: '/games_pictures/4c9c13cbccf9.jpg',
     releaseDate: '2020-09-18',
     averageTimeToFinish: 40,
     averageTimeToHundredPercent: 120,
@@ -577,8 +567,7 @@ export const baseGamesMario: BaseGame[] = ([] = [
     title: 'Super Mario RPG',
     editor: 'Nintendo',
     hero: 'Mario',
-    coverUrl:
-      '/games_pictures/826ac0bd21fd.jpg',
+    coverUrl: '/games_pictures/826ac0bd21fd.jpg',
     releaseDate: '1996-03-09',
     averageTimeToFinish: 18,
     averageTimeToHundredPercent: 35,
@@ -592,8 +581,7 @@ export const baseGamesMario: BaseGame[] = ([] = [
     title: 'Super Mario Kart',
     editor: 'Nintendo',
     hero: 'Mario',
-    coverUrl:
-      '/games_pictures/87b823580280.jpg',
+    coverUrl: '/games_pictures/87b823580280.jpg',
     releaseDate: '1992-08-27',
     averageTimeToFinish: 6,
     averageTimeToHundredPercent: 15,
@@ -607,8 +595,7 @@ export const baseGamesMario: BaseGame[] = ([] = [
     title: 'Mario Kart 64',
     editor: 'Nintendo',
     hero: 'Mario',
-    coverUrl:
-      '/games_pictures/f72b358ef588.jpg',
+    coverUrl: '/games_pictures/f72b358ef588.jpg',
     releaseDate: '1996-12-14',
     averageTimeToFinish: 8,
     averageTimeToHundredPercent: 25,
@@ -636,8 +623,7 @@ export const baseGamesMario: BaseGame[] = ([] = [
     title: 'Mario Kart 7',
     editor: 'Nintendo',
     hero: 'Mario',
-    coverUrl:
-      '/games_pictures/2e2e6ef9bbea.jpg',
+    coverUrl: '/games_pictures/2e2e6ef9bbea.jpg',
     releaseDate: '2011-12-01',
     averageTimeToFinish: 10,
     averageTimeToHundredPercent: 30,
@@ -651,8 +637,7 @@ export const baseGamesMario: BaseGame[] = ([] = [
     title: 'Mario Kart 8',
     editor: 'Nintendo',
     hero: 'Mario',
-    coverUrl:
-      '/games_pictures/02b877d06615.jpg',
+    coverUrl: '/games_pictures/02b877d06615.jpg',
     releaseDate: '2014-05-29',
     averageTimeToFinish: 12,
     averageTimeToHundredPercent: 45,
@@ -666,8 +651,7 @@ export const baseGamesMario: BaseGame[] = ([] = [
     title: 'Mario Party',
     editor: 'Nintendo',
     hero: 'Mario',
-    coverUrl:
-      '/games_pictures/00d6f22b38bc.jpg',
+    coverUrl: '/games_pictures/00d6f22b38bc.jpg',
     releaseDate: '1998-12-18',
     averageTimeToFinish: 12,
     averageTimeToHundredPercent: 35,
@@ -681,8 +665,7 @@ export const baseGamesMario: BaseGame[] = ([] = [
     title: 'Mario Party 2',
     editor: 'Nintendo',
     hero: 'Mario',
-    coverUrl:
-      '/games_pictures/7adbe3bfdc8a.jpg',
+    coverUrl: '/games_pictures/7adbe3bfdc8a.jpg',
     releaseDate: '1999-12-17',
     averageTimeToFinish: 12,
     averageTimeToHundredPercent: 35,
@@ -696,8 +679,7 @@ export const baseGamesMario: BaseGame[] = ([] = [
     title: 'Mario Party 3',
     editor: 'Nintendo',
     hero: 'Mario',
-    coverUrl:
-      '/games_pictures/9d4e65943da7.jpg',
+    coverUrl: '/games_pictures/9d4e65943da7.jpg',
     releaseDate: '2000-12-07',
     averageTimeToFinish: 12,
     averageTimeToHundredPercent: 35,
@@ -711,8 +693,7 @@ export const baseGamesMario: BaseGame[] = ([] = [
     title: 'Mario Party 4',
     editor: 'Nintendo',
     hero: 'Mario',
-    coverUrl:
-      '/games_pictures/fad6a82c15ac.jpg',
+    coverUrl: '/games_pictures/fad6a82c15ac.jpg',
     releaseDate: '2002-10-21',
     averageTimeToFinish: 12,
     averageTimeToHundredPercent: 35,
@@ -810,8 +791,7 @@ export const baseGamesMario: BaseGame[] = ([] = [
     title: 'Super Mario Party Jamboree',
     editor: 'Nintendo',
     hero: 'Mario',
-    coverUrl:
-      '/games_pictures/3d89c7b9473f.jpg',
+    coverUrl: '/games_pictures/3d89c7b9473f.jpg',
     releaseDate: '2024-10-17',
     averageTimeToFinish: 14,
     averageTimeToHundredPercent: 32,
@@ -825,8 +805,7 @@ export const baseGamesMario: BaseGame[] = ([] = [
     title: 'Paper Mario',
     editor: 'Nintendo',
     hero: 'Mario',
-    coverUrl:
-      '/games_pictures/6e5c629aab13.jpg',
+    coverUrl: '/games_pictures/6e5c629aab13.jpg',
     releaseDate: '2000-08-11',
     averageTimeToFinish: 25,
     averageTimeToHundredPercent: 45,
@@ -840,8 +819,7 @@ export const baseGamesMario: BaseGame[] = ([] = [
     title: 'Paper Mario: La porte millénaire',
     editor: 'Nintendo',
     hero: 'Mario',
-    coverUrl:
-      'https://www.gamecash.fr/thumbnail-600/gc-paper-mario-la-porte-millenaire-e10068.jpg',
+    coverUrl: '/games_pictures/gc-paper-mario-la-porte-millenaire-e10068.jpg',
     releaseDate: '2004-07-22',
     averageTimeToFinish: 30,
     averageTimeToHundredPercent: 55,
@@ -911,8 +889,7 @@ export const baseGamesMario: BaseGame[] = ([] = [
     title: "Luigi's Mansion",
     editor: 'Nintendo',
     hero: 'Luigi',
-    coverUrl:
-      '/games_pictures/0c350e9900e4.jpg',
+    coverUrl: '/games_pictures/0c350e9900e4.jpg',
     releaseDate: '2001-09-14',
     averageTimeToFinish: 8,
     averageTimeToHundredPercent: 15,
@@ -1010,8 +987,7 @@ export const baseGamesMario: BaseGame[] = ([] = [
     title: 'Mario Golf',
     editor: 'Nintendo',
     hero: 'Mario',
-    coverUrl:
-      '/games_pictures/f850d6c14ed9.jpg',
+    coverUrl: '/games_pictures/f850d6c14ed9.jpg',
     releaseDate: '1999-06-11',
     averageTimeToFinish: 8,
     averageTimeToHundredPercent: 25,
@@ -1039,8 +1015,7 @@ export const baseGamesMario: BaseGame[] = ([] = [
     title: 'Mario Golf: Toadstool Tour',
     editor: 'Nintendo',
     hero: 'Mario',
-    coverUrl:
-      '/games_pictures/e8f2e6306374.jpg',
+    coverUrl: '/games_pictures/e8f2e6306374.jpg',
     releaseDate: '2003-07-28',
     averageTimeToFinish: 10,
     averageTimeToHundredPercent: 30,
@@ -1082,8 +1057,7 @@ export const baseGamesMario: BaseGame[] = ([] = [
     title: 'Mario Tennis',
     editor: 'Nintendo',
     hero: 'Mario',
-    coverUrl:
-      '/games_pictures/de7266a60b8f.jpg',
+    coverUrl: '/games_pictures/de7266a60b8f.jpg',
     releaseDate: '2000-07-21',
     averageTimeToFinish: 8,
     averageTimeToHundredPercent: 25,
@@ -1125,8 +1099,7 @@ export const baseGamesMario: BaseGame[] = ([] = [
     title: 'Super Mario Strikers',
     editor: 'Nintendo',
     hero: 'Mario',
-    coverUrl:
-      '/games_pictures/df93bd61dc80.jpg',
+    coverUrl: '/games_pictures/df93bd61dc80.jpg',
     releaseDate: '2005-07-21',
     averageTimeToFinish: 8,
     averageTimeToHundredPercent: 25,
@@ -1140,8 +1113,7 @@ export const baseGamesMario: BaseGame[] = ([] = [
     title: 'Mario Strikers: Battle League',
     editor: 'Nintendo',
     hero: 'Mario',
-    coverUrl:
-      '/games_pictures/a1f523ee3d35.jpg',
+    coverUrl: '/games_pictures/a1f523ee3d35.jpg',
     releaseDate: '2022-06-10',
     averageTimeToFinish: 10,
     averageTimeToHundredPercent: 30,
@@ -1155,8 +1127,7 @@ export const baseGamesMario: BaseGame[] = ([] = [
     title: 'Mario Superstar Baseball',
     editor: 'Nintendo',
     hero: 'Mario',
-    coverUrl:
-      '/games_pictures/e248288b9fc3.jpg',
+    coverUrl: '/games_pictures/e248288b9fc3.jpg',
     releaseDate: '2005-07-21',
     averageTimeToFinish: 10,
     averageTimeToHundredPercent: 30,
@@ -1184,8 +1155,7 @@ export const baseGamesMario: BaseGame[] = ([] = [
     title: 'Mario Hoops 3-on-3',
     editor: 'Square Enix',
     hero: 'Mario',
-    coverUrl:
-      '/games_pictures/836d06297fb6.png',
+    coverUrl: '/games_pictures/836d06297fb6.png',
     releaseDate: '2006-07-27',
     averageTimeToFinish: 8,
     averageTimeToHundredPercent: 22,
@@ -1199,8 +1169,7 @@ export const baseGamesMario: BaseGame[] = ([] = [
     title: 'Mario Sports Mix',
     editor: 'Nintendo',
     hero: 'Mario',
-    coverUrl:
-      '/games_pictures/38ead1fafdfe.jpg',
+    coverUrl: '/games_pictures/38ead1fafdfe.jpg',
     releaseDate: '2010-11-25',
     averageTimeToFinish: 10,
     averageTimeToHundredPercent: 28,
@@ -1256,8 +1225,7 @@ export const baseGamesMario: BaseGame[] = ([] = [
     title: "Super Mario World 2: Yoshi's Island (SNES)",
     editor: 'Nintendo',
     hero: 'Yoshi',
-    coverUrl:
-      '/games_pictures/27dce6a90a26.jpg',
+    coverUrl: '/games_pictures/27dce6a90a26.jpg',
     releaseDate: '1995-08-05',
     averageTimeToFinish: 10,
     averageTimeToHundredPercent: 22,
@@ -1271,8 +1239,7 @@ export const baseGamesMario: BaseGame[] = ([] = [
     title: "Yoshi's Story",
     editor: 'Nintendo',
     hero: 'Yoshi',
-    coverUrl:
-      '/games_pictures/08ede505ab2e.jpg',
+    coverUrl: '/games_pictures/08ede505ab2e.jpg',
     releaseDate: '1997-12-21',
     averageTimeToFinish: 6,
     averageTimeToHundredPercent: 15,
@@ -1342,8 +1309,7 @@ export const baseGamesMario: BaseGame[] = ([] = [
     title: 'Mario vs. Donkey Kong 2: March of the Minis',
     editor: 'Nintendo',
     hero: 'Mario',
-    coverUrl:
-      '/games_pictures/e8ee68140f6d.jpg',
+    coverUrl: '/games_pictures/e8ee68140f6d.jpg',
     releaseDate: '2006-09-25',
     averageTimeToFinish: 10,
     averageTimeToHundredPercent: 22,
@@ -1371,8 +1337,7 @@ export const baseGamesMario: BaseGame[] = ([] = [
     title: 'Mario vs. Donkey Kong: Tipping Stars',
     editor: 'Nintendo',
     hero: 'Mario',
-    coverUrl:
-      '/games_pictures/3c28a73e09f9.jpg',
+    coverUrl: '/games_pictures/3c28a73e09f9.jpg',
     releaseDate: '2015-03-05',
     averageTimeToFinish: 8,
     averageTimeToHundredPercent: 18,
@@ -1400,7 +1365,7 @@ export const baseGamesMario: BaseGame[] = ([] = [
     title: 'Dr. Mario',
     editor: 'Nintendo',
     hero: 'Mario',
-    coverUrl: 'https://www.gamecash.fr/thumbnail-400-450/dr-mario-e59466.jpg',
+    coverUrl: '/games_pictures/dr-mario-e59466.jpg',
     releaseDate: '1990-07-27',
     averageTimeToFinish: 3,
     averageTimeToHundredPercent: 10,
@@ -1414,8 +1379,7 @@ export const baseGamesMario: BaseGame[] = ([] = [
     title: 'Mario Pinball Land',
     editor: 'Nintendo',
     hero: 'Mario',
-    coverUrl:
-      '/games_pictures/4ba6e4aeb6e7.jpg',
+    coverUrl: '/games_pictures/4ba6e4aeb6e7.jpg',
     releaseDate: '2004-09-13',
     averageTimeToFinish: 6,
     averageTimeToHundredPercent: 15,
@@ -1429,8 +1393,7 @@ export const baseGamesMario: BaseGame[] = ([] = [
     title: 'Super Princess Peach',
     editor: 'Nintendo',
     hero: 'Peach',
-    coverUrl:
-      '/games_pictures/531e75269a93.jpg',
+    coverUrl: '/games_pictures/531e75269a93.jpg',
     releaseDate: '2005-10-20',
     averageTimeToFinish: 10,
     averageTimeToHundredPercent: 20,
@@ -1444,8 +1407,7 @@ export const baseGamesMario: BaseGame[] = ([] = [
     title: 'Princess Peach: Showtime!',
     editor: 'Nintendo',
     hero: 'Princess Peach',
-    coverUrl:
-      '/games_pictures/c85901dba3ee.jpg',
+    coverUrl: '/games_pictures/c85901dba3ee.jpg',
     releaseDate: '2024-03-22',
     averageTimeToFinish: 12,
     averageTimeToHundredPercent: 22,
@@ -1487,8 +1449,7 @@ export const baseGamesMario: BaseGame[] = ([] = [
     title: 'Mario & Sonic aux Jeux Olympiques : Tokyo 2020',
     editor: 'Sega',
     hero: 'Mario',
-    coverUrl:
-      '/games_pictures/211974fbaf74.jpg',
+    coverUrl: '/games_pictures/211974fbaf74.jpg',
     releaseDate: '2019-11-01',
     averageTimeToFinish: 12,
     averageTimeToHundredPercent: 35,
@@ -1502,8 +1463,7 @@ export const baseGamesMario: BaseGame[] = ([] = [
     title: "Mario & Sonic aux Jeux Olympiques d'hiver ",
     editor: 'Sega',
     hero: 'Mario',
-    coverUrl:
-      '/games_pictures/57e2b8eedbd2.jpg',
+    coverUrl: '/games_pictures/57e2b8eedbd2.jpg',
     releaseDate: '2009-10-13',
     averageTimeToFinish: 12,
     averageTimeToHundredPercent: 30,

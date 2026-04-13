@@ -41,8 +41,7 @@ export const baseGamesAdaptations3: BaseGame[] = [
     title: 'Asterix and the Magic Cauldron',
     editor: 'Coktel Vision',
     hero: 'Astérix',
-    coverUrl:
-      '/games_pictures/3fa7a30d22fc.png',
+    coverUrl: '/games_pictures/3fa7a30d22fc.png',
     releaseDate: '1986-01-01',
     averageTimeToFinish: 4,
     averageTimeToHundredPercent: 0,
@@ -60,8 +59,7 @@ export const baseGamesAdaptations3: BaseGame[] = [
     title: 'Astérix et le Tapis magique',
     editor: 'Coktel Vision',
     hero: 'Astérix',
-    coverUrl:
-      '/games_pictures/734f2cdde640.jpg',
+    coverUrl: '/games_pictures/734f2cdde640.jpg',
     releaseDate: '1986-06-01',
     averageTimeToFinish: 4,
     averageTimeToHundredPercent: 0,
@@ -115,7 +113,7 @@ export const baseGamesAdaptations3: BaseGame[] = [
     title: 'Astérix',
     editor: 'Sega',
     hero: 'Astérix',
-    coverUrl: 'https://www.gamecash.fr/thumbnail-600/asterix-e56768.jpg',
+    coverUrl: '/games_pictures/asterix-e56768.jpg',
     releaseDate: '1991-01-01',
     averageTimeToFinish: 4,
     averageTimeToHundredPercent: 0,
@@ -169,8 +167,7 @@ export const baseGamesAdaptations3: BaseGame[] = [
     title: 'Astérix and the Great Rescue',
     editor: 'Sega',
     hero: 'Astérix',
-    coverUrl:
-      'https://www.gamecash.fr/thumbnail-600/asterix-and-the-great-rescue-e55832.jpg',
+    coverUrl: '/games_pictures/asterix-and-the-great-rescue-e55832.jpg',
     releaseDate: '1994-01-01',
     averageTimeToFinish: 4,
     averageTimeToHundredPercent: 0,
@@ -188,8 +185,7 @@ export const baseGamesAdaptations3: BaseGame[] = [
     title: 'Astérix and the Power of the Gods',
     editor: 'Sega',
     hero: 'Astérix',
-    coverUrl:
-      '/games_pictures/e6c41e1a16b2.jpg',
+    coverUrl: '/games_pictures/e6c41e1a16b2.jpg',
     releaseDate: '1995-01-01',
     averageTimeToFinish: 5,
     averageTimeToHundredPercent: 0,
@@ -225,8 +221,7 @@ export const baseGamesAdaptations3: BaseGame[] = [
     title: 'Asterix and the Secret Mission',
     editor: 'Sega',
     hero: 'Astérix',
-    coverUrl:
-      'https://www.gamecash.be/thumbnail-400-450/asterix-and-the-secret-mission-e55021.jpg',
+    coverUrl: '/games_pictures/asterix-and-the-secret-mission-e55021.jpg',
     releaseDate: '1993-01-01',
     averageTimeToFinish: 4,
     averageTimeToHundredPercent: 0,
@@ -280,8 +275,7 @@ export const baseGamesAdaptations3: BaseGame[] = [
     title: 'Astérix : Sur la Trace d’Idéfix',
     editor: 'Rebellion Developments',
     hero: 'Astérix',
-    coverUrl:
-      'https://www.gamecash.fr/thumbnail-400-450/asteris-idefix-e21081-e69555.jpg',
+    coverUrl: '/games_pictures/asteris-idefix-e21081-e69555.jpg',
     releaseDate: '2000-01-01',
     averageTimeToFinish: 4,
     averageTimeToHundredPercent: 0,
@@ -299,8 +293,7 @@ export const baseGamesAdaptations3: BaseGame[] = [
     title: 'Astérix Maxi-Delirium',
     editor: 'Infogrames',
     hero: 'Astérix',
-    coverUrl:
-      'https://www.gamecash.fr/thumbnail-400-450/asterix-maxi-delirium-e19391.jpg',
+    coverUrl: '/games_pictures/asterix-maxi-delirium-e19391.jpg',
     releaseDate: '2000-01-01',
     averageTimeToFinish: 3,
     averageTimeToHundredPercent: 0,
@@ -372,8 +365,7 @@ export const baseGamesAdaptations3: BaseGame[] = [
     title: 'Astérix & Obélix : Paf ! Par Toutatis !',
     editor: 'Atari',
     hero: 'Astérix',
-    coverUrl:
-      'https://www.gamecash.fr/thumbnail-400-450/asterix-et-obelix-paf-par-toutatis-e16039.jpg',
+    coverUrl: '/games_pictures/asterix-et-obelix-paf-par-toutatis-e16039.jpg',
     releaseDate: '2002-01-01',
     averageTimeToFinish: 5,
     averageTimeToHundredPercent: 0,
@@ -391,8 +383,7 @@ export const baseGamesAdaptations3: BaseGame[] = [
     title: 'Astérix & Obélix XXL 2 : Mission Las Vegum',
     editor: 'Atari',
     hero: 'Astérix',
-    coverUrl:
-      'https://www.gamecash.fr/thumbnail-600/asterix-et-obelix-xxl-2-e1162.jpg',
+    coverUrl: '/games_pictures/asterix-et-obelix-xxl-2-e1162.jpg',
     releaseDate: '2005-11-17',
     averageTimeToFinish: 14,
     averageTimeToHundredPercent: 0,
@@ -464,8 +455,7 @@ export const baseGamesAdaptations3: BaseGame[] = [
     title: 'Astérix : Ils sont fous ces Romains !',
     editor: 'Ubisoft',
     hero: 'Astérix',
-    coverUrl:
-      'https://www.gamecash.fr/thumbnail-600/asterix-ils-sont-fous-ces-romains-ds-e4487.jpg',
+    coverUrl: '/games_pictures/asterix-ils-sont-fous-ces-romains-ds-e4487.jpg',
     releaseDate: '2009-01-01',
     averageTimeToFinish: 5,
     averageTimeToHundredPercent: 0,
@@ -737,8 +727,7 @@ export const baseGamesAdaptations3: BaseGame[] = [
     title: 'Bleach : Heat the Soul 2',
     editor: 'Sony Computer Entertainment',
     hero: 'Ichigo Kurosaki',
-    coverUrl:
-      'https://www.gamecash.fr/thumbnail-600/bleach-heat-the-soul-2-e51638.jpg',
+    coverUrl: '/games_pictures/bleach-heat-the-soul-2-e51638.jpg',
     releaseDate: '2005-09-01',
     averageTimeToFinish: 8,
     averageTimeToHundredPercent: 20,
@@ -756,8 +745,7 @@ export const baseGamesAdaptations3: BaseGame[] = [
     title: 'Bleach : Heat the Soul 3',
     editor: 'Sony Computer Entertainment',
     hero: 'Ichigo Kurosaki',
-    coverUrl:
-      'https://www.gamecash.fr/thumbnail-600/bleach-heat-the-soul-3-e51637.jpg',
+    coverUrl: '/games_pictures/bleach-heat-the-soul-3-e51637.jpg',
     releaseDate: '2006-07-20',
     averageTimeToFinish: 8,
     averageTimeToHundredPercent: 20,
@@ -775,8 +763,7 @@ export const baseGamesAdaptations3: BaseGame[] = [
     title: 'Bleach : Heat the Soul 4',
     editor: 'Sony Computer Entertainment',
     hero: 'Ichigo Kurosaki',
-    coverUrl:
-      'https://www.gamecash.fr/thumbnail-600/bleach-heat-the-soul-4-e51619.jpg',
+    coverUrl: '/games_pictures/bleach-heat-the-soul-4-e51619.jpg',
     releaseDate: '2007-05-24',
     averageTimeToFinish: 8,
     averageTimeToHundredPercent: 20,
@@ -794,8 +781,7 @@ export const baseGamesAdaptations3: BaseGame[] = [
     title: 'Bleach : Heat the Soul 5',
     editor: 'Sony Computer Entertainment',
     hero: 'Ichigo Kurosaki',
-    coverUrl:
-      'https://www.gamecash.fr/thumbnail-600/bleach-heat-the-soul-5-e51617.jpg',
+    coverUrl: '/games_pictures/bleach-heat-the-soul-5-e51617.jpg',
     releaseDate: '2008-05-29',
     averageTimeToFinish: 8,
     averageTimeToHundredPercent: 20,
@@ -921,8 +907,7 @@ export const baseGamesAdaptations3: BaseGame[] = [
     title: 'Bleach : Soul Resurrección',
     editor: 'Sony Computer Entertainment',
     hero: 'Ichigo Kurosaki',
-    coverUrl:
-      'https://www.gamecash.fr/thumbnail-600/bleach-soul-resurection-ps3-e45082.jpg',
+    coverUrl: '/games_pictures/bleach-soul-resurection-ps3-e45082.jpg',
     releaseDate: '2011-08-02',
     averageTimeToFinish: 12,
     averageTimeToHundredPercent: 30,
@@ -1084,8 +1069,7 @@ export const baseGamesAdaptations3: BaseGame[] = [
     title: 'James Bond Jr.',
     editor: 'THQ',
     hero: 'James Bond Jr.',
-    coverUrl:
-      'https://www.gamecash.fr/thumbnail-600/james-bond-jr-nes-e20783.jpg',
+    coverUrl: '/games_pictures/james-bond-jr-nes-e20783.jpg',
     releaseDate: '1992-01-01',
     averageTimeToFinish: 6,
     averageTimeToHundredPercent: 0,
@@ -1373,8 +1357,7 @@ export const baseGamesAdaptations3: BaseGame[] = [
     title: 'Demon Slayer : Kimetsu no Yaiba – The Hinokami Chronicles',
     editor: 'Sega',
     hero: 'Tanjiro Kamado',
-    coverUrl:
-      '/games_pictures/c8fcbc0b7318.jpg',
+    coverUrl: '/games_pictures/c8fcbc0b7318.jpg',
     releaseDate: '2021-10-15',
     averageTimeToFinish: 16,
     averageTimeToHundredPercent: 28,
@@ -1393,8 +1376,7 @@ export const baseGamesAdaptations3: BaseGame[] = [
     title: 'Demon Slayer : Kimetsu no Yaiba – The Hinokami Chronicles 2',
     editor: 'Sega',
     hero: 'Tanjiro Kamado',
-    coverUrl:
-      '/games_pictures/a93769462247.jpg',
+    coverUrl: '/games_pictures/a93769462247.jpg',
     releaseDate: '2025-08-05',
     averageTimeToFinish: 18,
     averageTimeToHundredPercent: 32,
@@ -1413,8 +1395,7 @@ export const baseGamesAdaptations3: BaseGame[] = [
     title: 'Demon Slayer : Kimetsu no Yaiba – Sweep the Board!',
     editor: 'Sega',
     hero: 'Tanjiro Kamado',
-    coverUrl:
-      '/games_pictures/bd8be82ab06f.jpg',
+    coverUrl: '/games_pictures/bd8be82ab06f.jpg',
     releaseDate: '2024-04-26',
     averageTimeToFinish: 6,
     averageTimeToHundredPercent: 12,
@@ -1848,8 +1829,7 @@ export const baseGamesAdaptations3: BaseGame[] = [
     title: 'Saint Seiya : Le Sanctuaire',
     editor: 'Bandai',
     hero: 'Pégase',
-    coverUrl:
-      'https://www.gamecash.fr/thumbnail-600/saint-seiya-sanctuaire-ps2-e10468.jpg',
+    coverUrl: '/games_pictures/saint-seiya-sanctuaire-ps2-e10468.jpg',
     releaseDate: '2005-10-27',
     averageTimeToFinish: 12,
     averageTimeToHundredPercent: 25,
@@ -2011,8 +1991,7 @@ export const baseGamesAdaptations3: BaseGame[] = [
     title: 'Sherlock Holmes : Némésis',
     editor: 'Frogwares',
     hero: 'Sherlock Holmes',
-    coverUrl:
-      'https://imgproxy.eneba.games/NGNSCAWWY50UAQWjXpglsAJUzBljvA2zWfjuq2uFT7o/rs:fit:300/ar:1/czM6Ly9wcm9kdWN0/cy5lbmViYS5nYW1l/cy9wcm9kdWN0cy85/M2FmcGlGTW9ZeWhO/d1B4dVFmWm9xa1FE/enI4Sk1LeTEzV1p5/REZvZVBVLmpwZWc',
+    coverUrl: '/games_pictures/93afpiFMoYyhNwPxuQfZoqkQDzr8JMKy13WZyDFoePU.jpg',
     releaseDate: '2007-11-16',
     averageTimeToFinish: 12,
     averageTimeToHundredPercent: 18,
@@ -2121,7 +2100,7 @@ export const baseGamesAdaptations3: BaseGame[] = [
     editor: 'Pretty Simple',
     hero: 'Sherlock Holmes',
     coverUrl:
-      'https://img.utdstc.com/icon/a69/01b/a6901b14ecda68b18c5ba81d6c5a97b2efc36ca87bfbbd860534530a133bb438:200',
+      '/games_pictures/a6901b14ecda68b18c5ba81d6c5a97b2efc36ca87bfbbd860534530a133bb438_200.webp',
     releaseDate: '2014-03-13',
     averageTimeToFinish: 15,
     averageTimeToHundredPercent: 0,
@@ -2445,8 +2424,7 @@ export const baseGamesAdaptations3: BaseGame[] = [
     title: 'South Park Rally',
     editor: 'Acclaim Entertainment',
     hero: 'Cartman',
-    coverUrl:
-      '/games_pictures/1569873026d1.jpg',
+    coverUrl: '/games_pictures/1569873026d1.jpg',
     releaseDate: '2000-11-21',
     averageTimeToFinish: 6,
     averageTimeToHundredPercent: 15,
@@ -2464,8 +2442,7 @@ export const baseGamesAdaptations3: BaseGame[] = [
     title: "South Park : Let's Go Tower Defense Play!",
     editor: 'Microsoft Game Studios',
     hero: 'Le Nouveau',
-    coverUrl:
-      '/games_pictures/8d7874117bdf.jpg',
+    coverUrl: '/games_pictures/8d7874117bdf.jpg',
     releaseDate: '2009-10-07',
     averageTimeToFinish: 8,
     averageTimeToHundredPercent: 20,
@@ -2483,8 +2460,7 @@ export const baseGamesAdaptations3: BaseGame[] = [
     title: 'South Park : Phone Destroyer',
     editor: 'Ubisoft',
     hero: 'Le Nouveau',
-    coverUrl:
-      '/games_pictures/9f987993f09f.jpg',
+    coverUrl: '/games_pictures/9f987993f09f.jpg',
     releaseDate: '2017-11-09',
     averageTimeToFinish: 25,
     averageTimeToHundredPercent: 80,
@@ -2520,8 +2496,7 @@ export const baseGamesAdaptations3: BaseGame[] = [
     title: 'Le Hobbit (1982)',
     editor: 'Melbourne House',
     hero: 'Bilbon Sacquet',
-    coverUrl:
-      '/games_pictures/02eada22849a.jpg',
+    coverUrl: '/games_pictures/02eada22849a.jpg',
     releaseDate: '1982-01-01',
     averageTimeToFinish: 8,
     averageTimeToHundredPercent: 0,
@@ -2539,8 +2514,7 @@ export const baseGamesAdaptations3: BaseGame[] = [
     title: 'Le Seigneur des Anneaux : Jeu 1 — La Dernière Alliance',
     editor: 'Melbourne House',
     hero: 'Frodon',
-    coverUrl:
-      '/games_pictures/87c7ff8b2a6f.jpg',
+    coverUrl: '/games_pictures/87c7ff8b2a6f.jpg',
     releaseDate: '1985-01-01',
     averageTimeToFinish: 10,
     averageTimeToHundredPercent: 0,
@@ -2558,8 +2532,7 @@ export const baseGamesAdaptations3: BaseGame[] = [
     title: 'Le Seigneur des Anneaux : Jeu 2 — Les Ombres du Mordor',
     editor: 'Melbourne House',
     hero: 'Frodon',
-    coverUrl:
-      '/games_pictures/2345f35e535a.jpg',
+    coverUrl: '/games_pictures/2345f35e535a.jpg',
     releaseDate: '1986-01-01',
     averageTimeToFinish: 10,
     averageTimeToHundredPercent: 0,
@@ -2613,8 +2586,7 @@ export const baseGamesAdaptations3: BaseGame[] = [
     title: 'Le Seigneur des Anneaux : Volume I',
     editor: 'Interplay Productions',
     hero: 'Frodon',
-    coverUrl:
-      '/games_pictures/101d3a8ac07a.jpg',
+    coverUrl: '/games_pictures/101d3a8ac07a.jpg',
     releaseDate: '1990-01-01',
     averageTimeToFinish: 15,
     averageTimeToHundredPercent: 0,
@@ -2632,8 +2604,7 @@ export const baseGamesAdaptations3: BaseGame[] = [
     title: 'Le Seigneur des Anneaux : Volume II — Les Deux Tours',
     editor: 'Interplay Productions',
     hero: 'Frodon',
-    coverUrl:
-      '/games_pictures/101d3a8ac07a.jpg',
+    coverUrl: '/games_pictures/101d3a8ac07a.jpg',
     releaseDate: '1992-01-01',
     averageTimeToFinish: 15,
     averageTimeToHundredPercent: 0,
@@ -2651,8 +2622,7 @@ export const baseGamesAdaptations3: BaseGame[] = [
     title: 'Le Seigneur des Anneaux : Volume III — Le Retour du roi',
     editor: 'Interplay Productions',
     hero: 'Frodon',
-    coverUrl:
-      '/games_pictures/101d3a8ac07a.jpg',
+    coverUrl: '/games_pictures/101d3a8ac07a.jpg',
     releaseDate: '1993-01-01',
     averageTimeToFinish: 15,
     averageTimeToHundredPercent: 0,
@@ -2688,8 +2658,7 @@ export const baseGamesAdaptations3: BaseGame[] = [
     title: 'Le Seigneur des anneaux : La Communauté de l’Anneau',
     editor: 'Vivendi Universal Games',
     hero: 'Frodon',
-    coverUrl:
-      'https://www.gamecash.fr/thumbnail-400-450/la-communaute-de-l-anneau-e133947.jpg',
+    coverUrl: '/games_pictures/la-communaute-de-l-anneau-e133947.jpg',
     releaseDate: '2002-10-22',
     averageTimeToFinish: 10,
     averageTimeToHundredPercent: 0,
@@ -2708,7 +2677,7 @@ export const baseGamesAdaptations3: BaseGame[] = [
     editor: 'Electronic Arts',
     hero: 'Aragorn',
     coverUrl:
-      'https://www.gamecash.fr/thumbnail-400-450/le-seigneur-des-anneaux-les-deux-tours-e5916.jpg',
+      '/games_pictures/le-seigneur-des-anneaux-les-deux-tours-e5916.jpg',
     releaseDate: '2002-11-08',
     averageTimeToFinish: 12,
     averageTimeToHundredPercent: 0,
@@ -2726,8 +2695,7 @@ export const baseGamesAdaptations3: BaseGame[] = [
     title: 'Le Seigneur des anneaux : Le Retour du roi',
     editor: 'Electronic Arts',
     hero: 'Aragorn',
-    coverUrl:
-      'https://www.gamecash.fr/thumbnail-600/le-seigneur-des-anneaux-retour-du-roi-e5915.jpg',
+    coverUrl: '/games_pictures/le-seigneur-des-anneaux-retour-du-roi-e5915.jpg',
     releaseDate: '2003-11-05',
     averageTimeToFinish: 12,
     averageTimeToHundredPercent: 0,
@@ -2745,8 +2713,7 @@ export const baseGamesAdaptations3: BaseGame[] = [
     title: 'Le Hobbit (2003)',
     editor: 'Vivendi Universal Games',
     hero: 'Bilbon Sacquet',
-    coverUrl:
-      '/games_pictures/07109bd867d9.jpg',
+    coverUrl: '/games_pictures/07109bd867d9.jpg',
     releaseDate: '2003-11-11',
     averageTimeToFinish: 10,
     averageTimeToHundredPercent: 0,
@@ -3200,8 +3167,7 @@ export const baseGamesAdaptations3: BaseGame[] = [
     title: 'Yu Yu Hakusho : Spirit Detective (GBA)',
     editor: 'Atari',
     hero: 'Yusuke Urameshi',
-    coverUrl:
-      'https://www.gamecash.fr/thumbnail-600/yu-yu-spirit-detective-us-e162114.jpg',
+    coverUrl: '/games_pictures/yu-yu-spirit-detective-us-e162114.jpg',
     releaseDate: '2003-12-02',
     averageTimeToFinish: 12,
     averageTimeToHundredPercent: 20,
@@ -3255,8 +3221,7 @@ export const baseGamesAdaptations3: BaseGame[] = [
     title: 'Rocky Super Action Boxing',
     editor: 'Coleco',
     hero: 'Rocky Balboa',
-    coverUrl:
-      '/games_pictures/bcf06d385678.jpg',
+    coverUrl: '/games_pictures/bcf06d385678.jpg',
     releaseDate: '1983-01-01',
     averageTimeToFinish: 2,
     averageTimeToHundredPercent: 0,
@@ -3292,8 +3257,7 @@ export const baseGamesAdaptations3: BaseGame[] = [
     title: 'Rocky',
     editor: 'Ubisoft',
     hero: 'Rocky Balboa',
-    coverUrl:
-      '/games_pictures/3e4dcdf258e3.jpg',
+    coverUrl: '/games_pictures/3e4dcdf258e3.jpg',
     releaseDate: '2002-11-15',
     averageTimeToFinish: 10,
     averageTimeToHundredPercent: 20,
@@ -3568,8 +3532,7 @@ export const baseGamesAdaptations3: BaseGame[] = [
     title: 'Transformers: Devastation',
     editor: 'Activision',
     hero: 'Optimus Prime',
-    coverUrl:
-      'https://www.gamecash.fr/thumbnail-400-450/81hcezvrk3l-sl1249-e89932.jpg',
+    coverUrl: '/games_pictures/81hcezvrk3l-sl1249-e89932.jpg',
     releaseDate: '2015-10-06',
     averageTimeToFinish: 8,
     averageTimeToHundredPercent: 15,
