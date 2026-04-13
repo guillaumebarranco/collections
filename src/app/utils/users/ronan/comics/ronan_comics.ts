@@ -3068,5 +3068,18 @@ export const ronanComics: UserComics = [
     ratingComment: "",
     borrowed: "",
     loaned: "",
+  },
+  {
+    title: "Absolute Batman T.2",
+    writer: "Scott Snyder, Daniel Warren Johnson, James Harren, Meredith McClaren",
+    readDate: "2026-04-13",
+    rating: 4.5,
+    readTimes: 1,
+    owned: true,
+    readPriority: 1,
+    wantToReadAgain: false,
+    ratingComment: "",
+    borrowed: "",
+    loaned: "",
   }
 ];

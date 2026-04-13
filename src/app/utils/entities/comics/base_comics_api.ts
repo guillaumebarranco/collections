@@ -25,4 +25,17 @@ export const baseComicsApi: BaseComic[] = [
     sagaOrder: 1,
     description: '',
   },
+
+  {
+    title: "Absolute Batman T.2",
+    writer: "Scott Snyder, Daniel Warren Johnson, James Harren, Meredith McClaren",
+    designer: "Nick Dragotta, Marcos Martin, Clay Mann, Daniel Warren Johnson, James Harren, Meredith McClaren",
+    coverUrl: "https://bdi.dlpdomain.com/album/9791026824084/couv/M385x862/absolute-batman-tome-2.jpg",
+    releaseDate: "2026-02-13",
+    pages: 0,
+    genre: "Super-héro",
+    saga: "Absolute Batman",
+    sagaOrder: 2,
+    description: "",
+  },
 ];
