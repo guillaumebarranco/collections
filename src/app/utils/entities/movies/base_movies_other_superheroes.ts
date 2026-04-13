@@ -13,7 +13,7 @@ export const baseMoviesOtherSuperheroes: BaseMovie[] = [
     description: '',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
-    selectDisplayOrder: 0,
+    selectDisplayOrder: 20,
   },
   {
     title: 'Deadpool 2',
@@ -40,7 +40,7 @@ export const baseMoviesOtherSuperheroes: BaseMovie[] = [
     description: '',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
-    selectDisplayOrder: 0,
+    selectDisplayOrder: 20,
   },
   {
     title: 'Daredevil',
@@ -67,7 +67,7 @@ export const baseMoviesOtherSuperheroes: BaseMovie[] = [
     description: '',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
-    selectDisplayOrder: 0,
+    selectDisplayOrder: 20,
   },
   {
     title: 'X-Men',
@@ -94,7 +94,7 @@ export const baseMoviesOtherSuperheroes: BaseMovie[] = [
     description: '',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
-    selectDisplayOrder: 0,
+    selectDisplayOrder: 20,
   },
   {
     title: 'X-men 2',
@@ -113,7 +113,7 @@ export const baseMoviesOtherSuperheroes: BaseMovie[] = [
     description: '',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
-    selectDisplayOrder: 0,
+    selectDisplayOrder: 20,
   },
   {
     title: "X-Men : L'Affrontement Final",
@@ -133,7 +133,7 @@ export const baseMoviesOtherSuperheroes: BaseMovie[] = [
     description: '',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
-    selectDisplayOrder: 0,
+    selectDisplayOrder: 20,
   },
   {
     title: 'X-Men Origins : Wolverine',
@@ -148,7 +148,7 @@ export const baseMoviesOtherSuperheroes: BaseMovie[] = [
     description: '',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
-    selectDisplayOrder: 0,
+    selectDisplayOrder: 20,
   },
   {
     title: 'The Wolverine',
@@ -162,7 +162,7 @@ export const baseMoviesOtherSuperheroes: BaseMovie[] = [
     description: '',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
-    selectDisplayOrder: 0,
+    selectDisplayOrder: 20,
   },
   {
     title: 'Logan',
@@ -176,7 +176,7 @@ export const baseMoviesOtherSuperheroes: BaseMovie[] = [
     description: '',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
-    selectDisplayOrder: 0,
+    selectDisplayOrder: 20,
   },
   {
     title: 'X-Men : Le Commencement',
@@ -194,7 +194,7 @@ export const baseMoviesOtherSuperheroes: BaseMovie[] = [
     description: '',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
-    selectDisplayOrder: 0,
+    selectDisplayOrder: 20,
   },
   {
     title: 'X-Men : Days of Future Past',
@@ -214,7 +214,7 @@ export const baseMoviesOtherSuperheroes: BaseMovie[] = [
     description: '',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
-    selectDisplayOrder: 0,
+    selectDisplayOrder: 20,
   },
   {
     title: 'X-Men : Apocalypse',
@@ -233,7 +233,7 @@ export const baseMoviesOtherSuperheroes: BaseMovie[] = [
     description: '',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
-    selectDisplayOrder: 0,
+    selectDisplayOrder: 20,
   },
   {
     title: 'X-Men :Dark Phoenix',
@@ -254,7 +254,7 @@ export const baseMoviesOtherSuperheroes: BaseMovie[] = [
     description: '',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
-    selectDisplayOrder: 0,
+    selectDisplayOrder: 20,
   },
   {
     title: 'Venom',
@@ -272,7 +272,7 @@ export const baseMoviesOtherSuperheroes: BaseMovie[] = [
     description: '',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
-    selectDisplayOrder: 0,
+    selectDisplayOrder: 20,
   },
   {
     title: 'Venom : Let There Be Carnage',
@@ -291,7 +291,7 @@ export const baseMoviesOtherSuperheroes: BaseMovie[] = [
     description: '',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
-    selectDisplayOrder: 0,
+    selectDisplayOrder: 20,
   },
   {
     title: 'Venom : The Last Dance',
@@ -309,7 +309,7 @@ export const baseMoviesOtherSuperheroes: BaseMovie[] = [
     description: '',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
-    selectDisplayOrder: 0,
+    selectDisplayOrder: 20,
   },
   {
     title: 'Spider-Man',
@@ -331,7 +331,7 @@ export const baseMoviesOtherSuperheroes: BaseMovie[] = [
       secondEntityKey: 'Stan Lee',
     },
     countryOrigin: ['États-Unis'],
-    selectDisplayOrder: 0,
+    selectDisplayOrder: 20,
   },
   {
     title: 'Spider-Man 2',
@@ -353,7 +353,7 @@ export const baseMoviesOtherSuperheroes: BaseMovie[] = [
       secondEntityKey: 'Stan Lee',
     },
     countryOrigin: ['États-Unis'],
-    selectDisplayOrder: 0,
+    selectDisplayOrder: 20,
   },
   {
     title: 'Spider-Man 3',
@@ -375,7 +375,7 @@ export const baseMoviesOtherSuperheroes: BaseMovie[] = [
       secondEntityKey: 'Stan Lee',
     },
     countryOrigin: ['États-Unis'],
-    selectDisplayOrder: 0,
+    selectDisplayOrder: 20,
   },
   {
     title: 'The Amazing Spider-Man',
@@ -398,7 +398,7 @@ export const baseMoviesOtherSuperheroes: BaseMovie[] = [
       secondEntityKey: 'Stan Lee',
     },
     countryOrigin: ['États-Unis'],
-    selectDisplayOrder: 0,
+    selectDisplayOrder: 20,
   },
   {
     title: "The Amazing Spider-Man : Le Destin d'un Héros",
@@ -420,7 +420,7 @@ export const baseMoviesOtherSuperheroes: BaseMovie[] = [
       secondEntityKey: 'Stan Lee',
     },
     countryOrigin: ['États-Unis'],
-    selectDisplayOrder: 0,
+    selectDisplayOrder: 20,
   },
   {
     title: 'Spider-Man',
@@ -438,7 +438,7 @@ export const baseMoviesOtherSuperheroes: BaseMovie[] = [
       secondEntityKey: 'Stan Lee',
     },
     countryOrigin: ['États-Unis'],
-    selectDisplayOrder: 0,
+    selectDisplayOrder: 20,
   },
   {
     title: "Spider-Man : La Riposte de l'Homme Araignée",
@@ -456,7 +456,7 @@ export const baseMoviesOtherSuperheroes: BaseMovie[] = [
       secondEntityKey: 'Stan Lee',
     },
     countryOrigin: ['États-Unis'],
-    selectDisplayOrder: 0,
+    selectDisplayOrder: 20,
   },
   {
     title: 'Spider-Man : Le Défi du dragon',
@@ -474,7 +474,7 @@ export const baseMoviesOtherSuperheroes: BaseMovie[] = [
       secondEntityKey: 'Stan Lee',
     },
     countryOrigin: ['États-Unis'],
-    selectDisplayOrder: 0,
+    selectDisplayOrder: 20,
   },
   {
     title: 'Kick-Ass',
@@ -488,7 +488,7 @@ export const baseMoviesOtherSuperheroes: BaseMovie[] = [
     description: '',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
-    selectDisplayOrder: 0,
+    selectDisplayOrder: 20,
   },
   {
     title: 'Kick-Ass 2',
@@ -502,7 +502,7 @@ export const baseMoviesOtherSuperheroes: BaseMovie[] = [
     description: '',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
-    selectDisplayOrder: 0,
+    selectDisplayOrder: 20,
   },
   {
     title: 'Hancock',
@@ -516,7 +516,7 @@ export const baseMoviesOtherSuperheroes: BaseMovie[] = [
     description: '',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
-    selectDisplayOrder: 0,
+    selectDisplayOrder: 20,
   },
   {
     title: 'Les 4 Fantastiques',
@@ -530,7 +530,7 @@ export const baseMoviesOtherSuperheroes: BaseMovie[] = [
     description: '',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
-    selectDisplayOrder: 0,
+    selectDisplayOrder: 20,
   },
   {
     title: "Les 4 Fantastiques et le Surfeur d'Argent",
@@ -545,7 +545,7 @@ export const baseMoviesOtherSuperheroes: BaseMovie[] = [
     description: '',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
-    selectDisplayOrder: 0,
+    selectDisplayOrder: 20,
   },
   {
     title: 'Ghost Rider',
@@ -559,7 +559,7 @@ export const baseMoviesOtherSuperheroes: BaseMovie[] = [
     description: '',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
-    selectDisplayOrder: 0,
+    selectDisplayOrder: 20,
   },
   {
     title: 'Sky High',
@@ -573,7 +573,7 @@ export const baseMoviesOtherSuperheroes: BaseMovie[] = [
     description: '',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
-    selectDisplayOrder: 0,
+    selectDisplayOrder: 20,
   },
   {
     title: 'Hulk',
@@ -587,7 +587,7 @@ export const baseMoviesOtherSuperheroes: BaseMovie[] = [
     description: '',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
-    selectDisplayOrder: 0,
+    selectDisplayOrder: 20,
   },
   {
     title: 'The Punisher',
@@ -601,7 +601,7 @@ export const baseMoviesOtherSuperheroes: BaseMovie[] = [
     description: '',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
-    selectDisplayOrder: 0,
+    selectDisplayOrder: 20,
   },
   {
     title: 'Les 4 Fantastiques',
@@ -615,7 +615,7 @@ export const baseMoviesOtherSuperheroes: BaseMovie[] = [
     description: '',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
-    selectDisplayOrder: 0,
+    selectDisplayOrder: 20,
   },
   {
     title: 'Kraven the Hunter',
@@ -645,7 +645,7 @@ export const baseMoviesOtherSuperheroes: BaseMovie[] = [
     description: '',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
-    selectDisplayOrder: 0,
+    selectDisplayOrder: 20,
   },
   {
     title: 'Madame Web',
@@ -675,7 +675,7 @@ export const baseMoviesOtherSuperheroes: BaseMovie[] = [
     description: '',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
-    selectDisplayOrder: 0,
+    selectDisplayOrder: 20,
   },
   {
     title: 'Morbius',
@@ -689,7 +689,7 @@ export const baseMoviesOtherSuperheroes: BaseMovie[] = [
     description: '',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
-    selectDisplayOrder: 0,
+    selectDisplayOrder: 20,
   },
   {
     title: 'Les Nouveaux Mutants',
@@ -713,6 +713,6 @@ export const baseMoviesOtherSuperheroes: BaseMovie[] = [
     description: '',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
-    selectDisplayOrder: 0,
+    selectDisplayOrder: 20,
   },
 ];
