@@ -805,7 +805,7 @@ export const baseBooksPolicier: BaseBook[] = [
     title: 'Le Dahlia noir',
     author: 'James Ellroy',
     coverUrl:
-      'https://cdn.cultura.com/cdn-cgi/image/width=830/media/pim/TITELIVE/69_9782743648930_1_75.jpg',
+      '/books_pictures/cbe8473478fd.jpg',
     pages: 352,
     genre: ['Policier'],
     saga: 'Quatuor de Los Angeles',

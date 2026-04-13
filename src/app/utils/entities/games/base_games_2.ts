@@ -4694,7 +4694,7 @@ export const baseGames2: BaseGame[] = [
     editor: 'Naughty Dog',
     hero: 'Crash Bandicoot',
     coverUrl:
-      'https://upload.wikimedia.org/wikipedia/en/3/3e/Crash_Bandicoot_3_Warped_Original_Box_Art.jpg',
+      '/games_pictures/9927b0c03294.jpg',
     releaseDate: '1998-10-31',
     averageTimeToFinish: 8,
     averageTimeToHundredPercent: 16,
@@ -4852,7 +4852,7 @@ export const baseGames2: BaseGame[] = [
     editor: 'Toys for Bob',
     hero: 'Crash Bandicoot',
     coverUrl:
-      'https://upload.wikimedia.org/wikipedia/en/7/7d/Crash_Team_Rumble_cover_art.jpg',
+      '/games_pictures/72fda716c843.jpg',
     releaseDate: '2023-06-20',
     averageTimeToFinish: 8,
     averageTimeToHundredPercent: 25,
@@ -4923,7 +4923,7 @@ export const baseGames2: BaseGame[] = [
     editor: 'Tecmo',
     hero: 'Tsubasa Ozora',
     coverUrl:
-      'https://www.retroplace.com/pics/sfc/packshots/41498--captain-tsubasa-iv-pro-no-rival-tachi.png',
+      '/games_pictures/41498--captain-tsubasa-iv-pro-no-rival-tachi.png',
     releaseDate: '1993-04-03',
     averageTimeToFinish: 18,
     averageTimeToHundredPercent: 35,

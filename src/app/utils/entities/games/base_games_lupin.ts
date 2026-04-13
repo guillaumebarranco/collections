@@ -140,7 +140,7 @@ export const baseGamesLupin: BaseGame[] = [
     editor: 'Banpresto',
     hero: 'Lupin III',
     coverUrl:
-      'https://m.media-amazon.com/images/M/MV5BMDEzNzU1MzMtZGIxMC00MzFiLWJkMjUtYWM3YzcwZWU2ODdkXkEyXkFqcGc@._V1_.jpg',
+      '/games_pictures/dd57ecf1cd87.jpg',
     releaseDate: '1996-06-28',
     averageTimeToFinish: 8,
     averageTimeToHundredPercent: 0,

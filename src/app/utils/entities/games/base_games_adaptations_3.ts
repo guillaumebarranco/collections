@@ -1374,7 +1374,7 @@ export const baseGamesAdaptations3: BaseGame[] = [
     editor: 'Sega',
     hero: 'Tanjiro Kamado',
     coverUrl:
-      'https://m.media-amazon.com/images/I/81zl9nbrFcL._AC_UF1000,1000_QL80_.jpg',
+      '/games_pictures/c8fcbc0b7318.jpg',
     releaseDate: '2021-10-15',
     averageTimeToFinish: 16,
     averageTimeToHundredPercent: 28,
@@ -1394,7 +1394,7 @@ export const baseGamesAdaptations3: BaseGame[] = [
     editor: 'Sega',
     hero: 'Tanjiro Kamado',
     coverUrl:
-      'https://m.media-amazon.com/images/I/81PhaRgwNXL._AC_UF1000,1000_QL80_.jpg',
+      '/games_pictures/a93769462247.jpg',
     releaseDate: '2025-08-05',
     averageTimeToFinish: 18,
     averageTimeToHundredPercent: 32,
@@ -2521,7 +2521,7 @@ export const baseGamesAdaptations3: BaseGame[] = [
     editor: 'Melbourne House',
     hero: 'Bilbon Sacquet',
     coverUrl:
-      'https://upload.wikimedia.org/wikipedia/en/d/da/Hobbit_adventure_packaging.jpg',
+      '/games_pictures/02eada22849a.jpg',
     releaseDate: '1982-01-01',
     averageTimeToFinish: 8,
     averageTimeToHundredPercent: 0,
@@ -2540,7 +2540,7 @@ export const baseGamesAdaptations3: BaseGame[] = [
     editor: 'Melbourne House',
     hero: 'Frodon',
     coverUrl:
-      'https://upload.wikimedia.org/wikipedia/en/6/61/Lord_of_the_Rings_Game_One.jpg',
+      '/games_pictures/87c7ff8b2a6f.jpg',
     releaseDate: '1985-01-01',
     averageTimeToFinish: 10,
     averageTimeToHundredPercent: 0,
@@ -2559,7 +2559,7 @@ export const baseGamesAdaptations3: BaseGame[] = [
     editor: 'Melbourne House',
     hero: 'Frodon',
     coverUrl:
-      'https://upload.wikimedia.org/wikipedia/en/thumb/e/e9/Shadows_of_Mordor_Amstrad_CPC_Cover_Art.jpg/250px-Shadows_of_Mordor_Amstrad_CPC_Cover_Art.jpg',
+      '/games_pictures/2345f35e535a.jpg',
     releaseDate: '1986-01-01',
     averageTimeToFinish: 10,
     averageTimeToHundredPercent: 0,
@@ -2614,7 +2614,7 @@ export const baseGamesAdaptations3: BaseGame[] = [
     editor: 'Interplay Productions',
     hero: 'Frodon',
     coverUrl:
-      'https://upload.wikimedia.org/wikipedia/en/e/ee/J.R.R._Tolkien%27s_The_Lord_of_the_Rings%2C_Vol._I_Amiga_cover_art.jpg',
+      '/games_pictures/101d3a8ac07a.jpg',
     releaseDate: '1990-01-01',
     averageTimeToFinish: 15,
     averageTimeToHundredPercent: 0,
@@ -2633,7 +2633,7 @@ export const baseGamesAdaptations3: BaseGame[] = [
     editor: 'Interplay Productions',
     hero: 'Frodon',
     coverUrl:
-      'https://upload.wikimedia.org/wikipedia/en/e/ee/J.R.R._Tolkien%27s_The_Lord_of_the_Rings%2C_Vol._I_Amiga_cover_art.jpg',
+      '/games_pictures/101d3a8ac07a.jpg',
     releaseDate: '1992-01-01',
     averageTimeToFinish: 15,
     averageTimeToHundredPercent: 0,
@@ -2652,7 +2652,7 @@ export const baseGamesAdaptations3: BaseGame[] = [
     editor: 'Interplay Productions',
     hero: 'Frodon',
     coverUrl:
-      'https://upload.wikimedia.org/wikipedia/en/e/ee/J.R.R._Tolkien%27s_The_Lord_of_the_Rings%2C_Vol._I_Amiga_cover_art.jpg',
+      '/games_pictures/101d3a8ac07a.jpg',
     releaseDate: '1993-01-01',
     averageTimeToFinish: 15,
     averageTimeToHundredPercent: 0,
@@ -2746,7 +2746,7 @@ export const baseGamesAdaptations3: BaseGame[] = [
     editor: 'Vivendi Universal Games',
     hero: 'Bilbon Sacquet',
     coverUrl:
-      'https://upload.wikimedia.org/wikipedia/en/thumb/c/c3/TheHobbit.jpg/250px-TheHobbit.jpg',
+      '/games_pictures/07109bd867d9.jpg',
     releaseDate: '2003-11-11',
     averageTimeToFinish: 10,
     averageTimeToHundredPercent: 0,
@@ -3256,7 +3256,7 @@ export const baseGamesAdaptations3: BaseGame[] = [
     editor: 'Coleco',
     hero: 'Rocky Balboa',
     coverUrl:
-      'https://upload.wikimedia.org/wikipedia/en/thumb/5/5e/Rocky_Super_Action_Boxing_Cover.jpg/250px-Rocky_Super_Action_Boxing_Cover.jpg',
+      '/games_pictures/bcf06d385678.jpg',
     releaseDate: '1983-01-01',
     averageTimeToFinish: 2,
     averageTimeToHundredPercent: 0,
@@ -3274,7 +3274,7 @@ export const baseGamesAdaptations3: BaseGame[] = [
     title: 'Rocky',
     editor: 'Sega',
     hero: 'Rocky Balboa',
-    coverUrl: 'https://upload.wikimedia.org/wikipedia/en/c/c3/Rocky_SMS.jpg',
+    coverUrl: '/games_pictures/2eb957c76855.jpg',
     releaseDate: '1987-09-01',
     averageTimeToFinish: 4,
     averageTimeToHundredPercent: 0,
@@ -3293,7 +3293,7 @@ export const baseGamesAdaptations3: BaseGame[] = [
     editor: 'Ubisoft',
     hero: 'Rocky Balboa',
     coverUrl:
-      'https://upload.wikimedia.org/wikipedia/en/thumb/0/00/Rocky_front.jpg/250px-Rocky_front.jpg',
+      '/games_pictures/3e4dcdf258e3.jpg',
     releaseDate: '2002-11-15',
     averageTimeToFinish: 10,
     averageTimeToHundredPercent: 20,

@@ -6276,7 +6276,7 @@ export const baseSeriesAnimees: BaseSerie[] = [
     director: 'Éric Bastier',
     actors: [{ name: 'Kelly Marot' }, { name: 'Benoît Allemane' }],
     coverUrl:
-      'https://www.filmspourenfants.net/wp-content/uploads/2018/07/tara-ducan-a.jpg',
+      '/series_pictures/0c546db85171.jpg',
     releaseDate: '2010-09-26',
     endDate: '2011-06-19',
     genre: ['Animation', 'Fantastique', 'Aventure'],

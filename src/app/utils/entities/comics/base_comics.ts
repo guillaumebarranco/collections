@@ -1125,7 +1125,7 @@ export const baseComics: BaseComic[] = [
     title: 'Batman',
     writer: 'DC Comics',
     designer: 'Sean Murphy',
-    coverUrl: 'https://m.media-amazon.com/images/I/81pmEILhWOL.jpg',
+    coverUrl: '/comics_pictures/bebdbb884261.jpg',
     releaseDate: '2020-01-01',
     pages: 240,
     genre: 'Super-héros',

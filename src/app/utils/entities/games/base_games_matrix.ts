@@ -26,7 +26,7 @@ export const baseGamesMatrix: BaseGame[] = [
     editor: 'Warner Bros. Interactive Entertainment',
     hero: 'Avatar joueur',
     coverUrl:
-      'https://m.media-amazon.com/images/M/MV5BNjYwMjVkZTItY2RkNC00MjAwLWExYWMtYzhhZGQ0ODUzOGYxXkEyXkFqcGc@._V1_.jpg',
+      '/games_pictures/929c083fb4d9.jpg',
     releaseDate: '2005-03-22',
     averageTimeToFinish: 80,
     averageTimeToHundredPercent: 0,

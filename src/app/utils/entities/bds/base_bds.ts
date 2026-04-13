@@ -707,7 +707,7 @@ export const baseBds: BaseBd[] = [
     writer: 'Godi',
     designer: 'Godi',
     coverUrl:
-      'https://bdi.dlpdomain.com/album/9782803619146/couv/M655x918/ducobu-un-copieur-sachant-copier.jpg',
+      '/bds_pictures/055c7704077e.jpg',
     releaseDate: '1997-01-01',
     pages: 48,
     genre: 'Humour',
@@ -720,7 +720,7 @@ export const baseBds: BaseBd[] = [
     writer: 'Godi',
     designer: 'Godi',
     coverUrl:
-      'https://bdi.dlpdomain.com/album/9782803619498/couv/M655x918/ducobu-les-reponses-ou-la-vie.jpg',
+      '/bds_pictures/d7f4c350f99d.jpg',
     releaseDate: '1998-01-01',
     pages: 48,
     genre: 'Humour',
@@ -733,7 +733,7 @@ export const baseBds: BaseBd[] = [
     writer: 'Godi',
     designer: 'Godi',
     coverUrl:
-      'https://bdi.dlpdomain.com/album/9782803616251/couv/M655x918/ducobu-un-amour-de-potache.jpg',
+      '/bds_pictures/35c0d05101b3.jpg',
     releaseDate: '2001-01-01',
     pages: 48,
     genre: 'Humour',
@@ -746,7 +746,7 @@ export const baseBds: BaseBd[] = [
     writer: 'Godi',
     designer: 'Godi',
     coverUrl:
-      'https://bdi.dlpdomain.com/album/9782803619672/couv/M655x918/ducobu-miss-dix-sur-dix.jpg',
+      '/bds_pictures/e306712e43d2.jpg',
     releaseDate: '2004-01-01',
     pages: 48,
     genre: 'Humour',
@@ -759,7 +759,7 @@ export const baseBds: BaseBd[] = [
     writer: 'Godi',
     designer: 'Godi',
     coverUrl:
-      'https://bdi.dlpdomain.com/album/9782803621804/couv/M655x918/ducobu-280-de-qi.jpg',
+      '/bds_pictures/80af9a87fc86.jpg',
     releaseDate: '2006-01-01',
     pages: 48,
     genre: 'Humour',
@@ -773,7 +773,7 @@ export const baseBds: BaseBd[] = [
     writer: 'Zep',
     designer: 'Zep',
     coverUrl:
-      'https://cdn.cultura.com/cdn-cgi/image/width=830/media/pim/TITELIVE/61_9782723477055_1_75.jpg',
+      '/bds_pictures/e0d1d1965620.jpg',
     releaseDate: '1993-01-01',
     pages: 48,
     genre: 'Jeunesse',
@@ -785,7 +785,7 @@ export const baseBds: BaseBd[] = [
     title: "Titeuf - Tome 2 - L'amour, c'est po propre !",
     writer: 'Zep',
     designer: 'Zep',
-    coverUrl: 'https://m.media-amazon.com/images/I/91Zw8Z-WpFL.jpg',
+    coverUrl: '/bds_pictures/484c39680dbd.jpg',
     releaseDate: '1994-01-01',
     pages: 48,
     genre: 'Jeunesse',
@@ -798,7 +798,7 @@ export const baseBds: BaseBd[] = [
     writer: 'Zep',
     designer: 'Zep',
     coverUrl:
-      'https://media.hachette.fr/imgArticle/GLENAT/2021/9782723417433-001-X.jpeg?source=web&v=93d93c9f1676c5544f36fd43cd2dc7c7',
+      '/bds_pictures/b5d24a7641a2.jpeg',
     releaseDate: '1995-01-01',
     pages: 48,
     genre: 'Jeunesse',
@@ -811,7 +811,7 @@ export const baseBds: BaseBd[] = [
     writer: 'Zep',
     designer: 'Zep',
     coverUrl:
-      'https://m.media-amazon.com/images/I/810XtLnQL5L._AC_UF1000,1000_QL80_.jpg',
+      '/bds_pictures/35b5f7e024b6.jpg',
     releaseDate: '1996-01-01',
     pages: 48,
     genre: 'Jeunesse',
@@ -824,7 +824,7 @@ export const baseBds: BaseBd[] = [
     writer: 'Zep',
     designer: 'Zep',
     coverUrl:
-      'https://cdn.cultura.com/cdn-cgi/image/width=830/media/pim/TITELIVE/13_9782723421362_1_75.jpg',
+      '/bds_pictures/45d880798f0f.jpg',
     releaseDate: '1998-01-01',
     pages: 48,
     genre: 'Jeunesse',
@@ -836,7 +836,7 @@ export const baseBds: BaseBd[] = [
     title: 'Titeuf - Tome 6 - Tchô, monde cruel !',
     writer: 'Zep',
     designer: 'Zep',
-    coverUrl: 'https://m.media-amazon.com/images/I/915Ia-pGyWL.jpg',
+    coverUrl: '/bds_pictures/7c8c952a3a27.jpg',
     releaseDate: '1999-01-01',
     pages: 48,
     genre: 'Jeunesse',
@@ -849,7 +849,7 @@ export const baseBds: BaseBd[] = [
     writer: 'Zep',
     designer: 'Zep',
     coverUrl:
-      'https://m.media-amazon.com/images/I/81eneBWs4EL._UF1000,1000_QL80_.jpg',
+      '/bds_pictures/41ae39f58ffc.jpg',
     releaseDate: '2000-01-01',
     pages: 48,
     genre: 'Jeunesse',
@@ -862,7 +862,7 @@ export const baseBds: BaseBd[] = [
     writer: 'Zep',
     designer: 'Zep',
     coverUrl:
-      'https://cdn.cultura.com/cdn-cgi/image/width=830/media/pim/TITELIVE/10_9782723432696_1_75.jpg',
+      '/bds_pictures/9f4efd7b863d.jpg',
     releaseDate: '2002-01-01',
     pages: 48,
     genre: 'Jeunesse',
@@ -875,7 +875,7 @@ export const baseBds: BaseBd[] = [
     writer: 'Zep',
     designer: 'Zep',
     coverUrl:
-      'https://media.hachette.fr/fit-in/500x500/imgArticle/GLENAT/2013/9782723434249-X.jpg?source=web&v=98ba8bb62866bc0578e0bf86c0b40930',
+      '/bds_pictures/e2db4fa9b297.jpg',
     releaseDate: '2004-01-01',
     pages: 48,
     genre: 'Jeunesse',

@@ -1309,7 +1309,7 @@ export const baseBooksSaga: BaseBook[] = [
     title: 'Sublimes: La Chimère',
     author: 'Emma Schütz',
     coverUrl:
-      'https://servimg.eyrolles.com/static/media/8239/9782491938239_internet_h1400.jpg',
+      '/books_pictures/916578722a00.jpg',
     pages: 784,
     genre: ['Fantasy', 'Jeunesse'],
     saga: 'Sublimes',
