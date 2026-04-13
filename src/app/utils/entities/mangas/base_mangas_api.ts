@@ -14,4 +14,30 @@ export const baseMangasApi: BaseManga[] = [
     description: '',
     fromEntity: null,
   },
+
+  {
+    title: "Zatchbell (Konjiki no Gash !!)",
+    author: "Makoto Raiku",
+    coverUrl: "https://www.manga-news.com/public/images/series/.Gash_Bell_perfect_1_large.webp",
+    genre: "Shonen",
+    nbTomes: 33,
+    isFinished: false,
+    startDate: "",
+    endDate: "",
+    saga: "",
+    description: "",
+  },
+
+  {
+    title: "Gachiakuta",
+    author: "Kei Urana",
+    coverUrl: "https://www.manga-news.com/public/images/series/Gachiakuta_1_pika.webp",
+    genre: "Shônen nekketsu",
+    nbTomes: 18,
+    isFinished: true,
+    startDate: "",
+    endDate: "",
+    saga: "",
+    description: "",
+  },
 ];
