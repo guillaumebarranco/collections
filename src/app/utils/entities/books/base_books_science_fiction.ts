@@ -83,7 +83,7 @@ export const baseBooksScienceFiction: BaseBook[] = [
     releaseDate: '2004-01-01',
     description: '',
     countryOrigin: 'France',
-    selectDisplayOrder: 0,
+    selectDisplayOrder: 20,
   },
   {
     title: 'La guerre des mondes',

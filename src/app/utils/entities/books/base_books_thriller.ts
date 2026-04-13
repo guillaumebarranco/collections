@@ -18,8 +18,7 @@ export const baseBooksThriller: BaseBook[] = [
   {
     title: 'Anges et démons',
     author: 'Dan Brown',
-    coverUrl:
-      '/books_pictures/085e376a90d4.jpg',
+    coverUrl: '/books_pictures/085e376a90d4.jpg',
     pages: 560,
     genre: ['Thriller'],
     saga: 'Robert Langdon',
@@ -35,14 +34,14 @@ export const baseBooksThriller: BaseBook[] = [
     author: 'Dan Brown',
     coverUrl: '/books_pictures/Da-Vinci-code.jpg',
     pages: 480,
-    genre: ['Thriller', 'Policier'],
+    genre: ['Thriller', 'Policier', 'Classiques'],
     saga: 'Robert Langdon',
     sagaOrder: 1,
     sagaFinished: false,
     releaseDate: '2003-03-18',
     description: '',
     countryOrigin: 'États-Unis',
-    selectDisplayOrder: 0,
+    selectDisplayOrder: 20,
   },
 
   {
@@ -57,7 +56,7 @@ export const baseBooksThriller: BaseBook[] = [
     releaseDate: '2009-01-01',
     description: '',
     countryOrigin: 'France',
-    selectDisplayOrder: 0,
+    selectDisplayOrder: 20,
   },
   {
     title: 'Inferno',
@@ -71,7 +70,7 @@ export const baseBooksThriller: BaseBook[] = [
     releaseDate: '2013-01-01',
     description: '',
     countryOrigin: 'France',
-    selectDisplayOrder: 0,
+    selectDisplayOrder: 20,
   },
   {
     title: 'Origine',
@@ -85,7 +84,7 @@ export const baseBooksThriller: BaseBook[] = [
     releaseDate: '2017-01-01',
     description: '',
     countryOrigin: 'France',
-    selectDisplayOrder: 0,
+    selectDisplayOrder: 20,
   },
   {
     title: 'Le Secret des secrets',
@@ -99,7 +98,7 @@ export const baseBooksThriller: BaseBook[] = [
     releaseDate: '2024-01-01',
     description: '',
     countryOrigin: 'France',
-    selectDisplayOrder: 0,
+    selectDisplayOrder: 20,
   },
   {
     title: 'Forteresse Digitale',

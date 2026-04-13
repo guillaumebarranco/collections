@@ -2,21 +2,6 @@ import { BaseBook } from '../../../models/book-model';
 
 export const baseBooksApi: BaseBook[] = [
   {
-    title: 'Croc-Blanc',
-    author: 'Jack London',
-    coverUrl: '/books_pictures/A65190.jpg',
-    pages: 288,
-    genre: ['Classiques'],
-    saga: '',
-    sagaOrder: 0,
-    sagaFinished: false,
-    releaseDate: '1906-10-01',
-    description: '',
-    countryOrigin: 'États-Unis',
-    selectDisplayOrder: 30,
-  },
-
-  {
     title: 'Iron Prince',
     author: "Bryce O'Connor et Luke Chmilenko",
     coverUrl: '/books_pictures/stormweaver-tome-1-iron-prince-5789471.jpg',
@@ -73,7 +58,7 @@ export const baseBooksApi: BaseBook[] = [
     releaseDate: '',
     description: '',
     countryOrigin: 'France',
-    selectDisplayOrder: 0,
+    selectDisplayOrder: 15,
   },
 
   {
@@ -88,7 +73,7 @@ export const baseBooksApi: BaseBook[] = [
     releaseDate: '',
     description: '',
     countryOrigin: 'France',
-    selectDisplayOrder: 0,
+    selectDisplayOrder: 15,
   },
 
   {
@@ -103,7 +88,7 @@ export const baseBooksApi: BaseBook[] = [
     releaseDate: '',
     description: '',
     countryOrigin: 'France',
-    selectDisplayOrder: 0,
+    selectDisplayOrder: 15,
   },
 
   {
@@ -118,7 +103,7 @@ export const baseBooksApi: BaseBook[] = [
     releaseDate: '',
     description: '',
     countryOrigin: 'France',
-    selectDisplayOrder: 0,
+    selectDisplayOrder: 15,
   },
 
   {
@@ -578,7 +563,7 @@ export const baseBooksApi: BaseBook[] = [
   {
     title: 'Battle Royale',
     author: 'Kōshun Takami',
-    coverUrl: ' /books_pictures/81QZU43MKJL._AC_UF1000,1000_QL80_.jpg',
+    coverUrl: ' /books_pictures/816pM3QYnhL.jpg',
     pages: 576,
     genre: ['Horreur', 'Dystopie'],
     saga: '',
@@ -910,21 +895,6 @@ export const baseBooksApi: BaseBook[] = [
     author: 'Camilla Läckberg et Henrik Fexeus',
     coverUrl: '/books_pictures/141309eef90f.jpg',
     pages: 448,
-    genre: [],
-    saga: '',
-    sagaOrder: 0,
-    sagaFinished: false,
-    releaseDate: '',
-    description: '',
-    countryOrigin: '',
-    selectDisplayOrder: 0,
-  },
-
-  {
-    title: 'Œdipe roi',
-    author: 'Sophocle',
-    coverUrl: '/books_pictures/97e263f391eb.jpg',
-    pages: 112,
     genre: [],
     saga: '',
     sagaOrder: 0,
@@ -1897,17 +1867,17 @@ export const baseBooksApi: BaseBook[] = [
   },
 
   {
-    title: "La Guilde des Magiciens",
-    author: "Trudi Canavan",
-    coverUrl: "/books_pictures/4245b1e53e50.jpg",
+    title: 'La Guilde des Magiciens',
+    author: 'Trudi Canavan',
+    coverUrl: '/books_pictures/4245b1e53e50.jpg',
     pages: 392,
     genre: [],
-    saga: "La Trilogie du Magicien Noir",
+    saga: 'La Trilogie du Magicien Noir',
     sagaOrder: 1,
     sagaFinished: true,
-    releaseDate: "2001-10-24",
-    description: "",
-    countryOrigin: "Australie",
+    releaseDate: '2001-10-24',
+    description: '',
+    countryOrigin: 'Australie',
     selectDisplayOrder: 0,
   },
 ];

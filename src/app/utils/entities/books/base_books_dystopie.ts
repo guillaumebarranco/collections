@@ -71,4 +71,18 @@ export const baseBooksDystopie: BaseBook[] = [
     countryOrigin: 'Royaume-Uni',
     selectDisplayOrder: 30,
   },
+  {
+    title: 'Le Passeur',
+    author: 'Lois Lowry',
+    coverUrl: '/books_pictures/61LZPuwK6pL._AC_UF1000,1000_QL80_.jpg',
+    pages: 240,
+    genre: ['Dystopie', 'Science Fiction'],
+    saga: '',
+    sagaOrder: 0,
+    sagaFinished: false,
+    releaseDate: '1993-01-01',
+    description: '',
+    countryOrigin: 'États-Unis',
+    selectDisplayOrder: 5,
+  },
 ];

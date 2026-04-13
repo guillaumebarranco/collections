@@ -71,20 +71,7 @@ export const baseBooksClassiques: BaseBook[] = [
     countryOrigin: 'France',
     selectDisplayOrder: 30,
   },
-  {
-    title: "L'Iliade",
-    author: 'Homère',
-    coverUrl: '/books_pictures/61VSjyBFnVL._SY522_.jpg',
-    pages: 528,
-    genre: ['Classiques'],
-    saga: '',
-    sagaOrder: 0,
-    sagaFinished: false,
-    releaseDate: '0001-01-01',
-    description: '',
-    countryOrigin: 'États-Unis',
-    selectDisplayOrder: 30,
-  },
+
   {
     title: 'Faust',
     author: 'Johann Wolfgang von Goethe',
