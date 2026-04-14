@@ -3,13 +3,17 @@ import { Manwha } from '../../../models/manwha-model';
 export type ManwhaView =
   | 'read'
   | 'readlist'
+  | 'readingInProgress'
   | 'owned'
   | 'borrowed'
   | 'loaned'
   | 'toReRead'
   | 'recommendations';
 
-export type OptionalManwhaView = Exclude<ManwhaView, 'read' | 'readlist'>;
+export type OptionalManwhaView = Exclude<
+  ManwhaView,
+  'read' | 'readlist' | 'readingInProgress'
+>;
 
 export const manwhasSortOptions: { value: string; label: string }[] = [
   { value: 'title', label: 'Titre (A-Z)' },
@@ -33,6 +37,7 @@ export const manwhasSortOptions: { value: string; label: string }[] = [
 export const manwhaViewOptions: { value: ManwhaView; label: string }[] = [
   { value: 'read', label: 'Manwhas lus' },
   { value: 'readlist', label: 'Manwhas à lire' },
+  { value: 'readingInProgress', label: 'En cours' },
   { value: 'owned', label: 'Manwhas possédés' },
   { value: 'borrowed', label: 'Manwhas empruntés' },
   { value: 'loaned', label: 'Manwhas prêtés' },

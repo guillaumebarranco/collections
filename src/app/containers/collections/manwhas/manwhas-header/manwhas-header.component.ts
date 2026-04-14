@@ -65,13 +65,17 @@ export class ManwhasHeaderComponent {
   searchTerm = signal<string>('');
 
   addManwhasButtonLabel = computed(() =>
-    this.selectedView() === 'readlist'
+    this.selectedView() === 'readlist' ||
+    this.selectedView() === 'readingInProgress'
       ? 'Ajouter des manwhas à lire'
       : 'Ajouter des manwhas'
   );
 
   canShowAddManwhasButton = computed(
-    () => this.selectedView() === 'read' || this.selectedView() === 'readlist'
+    () =>
+      this.selectedView() === 'read' ||
+      this.selectedView() === 'readlist' ||
+      this.selectedView() === 'readingInProgress'
   );
 
   canShowUpdateManwhasRatingButton = computed(
@@ -86,13 +90,17 @@ export class ManwhasHeaderComponent {
     () =>
       this.selectedView() === 'read' ||
       this.selectedView() === 'readlist' ||
+      this.selectedView() === 'readingInProgress' ||
       this.selectedView() === 'owned'
   );
 
   canShowTopFiveRankButton = computed(() => this.selectedView() === 'read');
 
   canShowSortDropdown = computed(
-    () => this.selectedView() === 'read' || this.selectedView() === 'readlist'
+    () =>
+      this.selectedView() === 'read' ||
+      this.selectedView() === 'readlist' ||
+      this.selectedView() === 'readingInProgress'
   );
 
   canShowFiltersAndSearch = computed(
@@ -101,6 +109,7 @@ export class ManwhasHeaderComponent {
       (this.searchTerm() !== '' &&
         (this.selectedView() === 'read' ||
           this.selectedView() === 'readlist' ||
+          this.selectedView() === 'readingInProgress' ||
           this.selectedView() === 'toReRead' ||
           this.selectedView() === 'owned' ||
           this.selectedView() === 'recommendations'))
@@ -116,6 +125,8 @@ export class ManwhasHeaderComponent {
         return "Vous n'avez renseigné aucun manwha lu";
       case 'readlist':
         return 'Vous n\'avez marqué aucun manwha comme "à lire". Vous pouvez le faire via le bouton au-dessus.';
+      case 'readingInProgress':
+        return "Vous n'avez aucun manwha en cours de lecture. Depuis « Manwhas à lire », utilisez « J'ai commencé ce manwha » sur un titre.";
       case 'toReRead':
         return 'Vous n\'avez marqué aucun manwha comme "à relire". Rendez-vous sur vos manwhas lus et éditez une fiche pour le marquer comme "à relire".';
       case 'owned':
@@ -143,6 +154,8 @@ export class ManwhasHeaderComponent {
   manwhasPageTitle = computed(() =>
     this.selectedView() === 'readlist'
       ? 'Manwhas à lire'
+      : this.selectedView() === 'readingInProgress'
+      ? 'Manwhas en cours de lecture'
       : this.selectedView() === 'owned'
       ? 'Manwhas possédés'
       : this.selectedView() === 'borrowed'

@@ -126,11 +126,11 @@ export class EntityCardRatingAndButtonsComponent {
     return this.getListViewNameForType(this.entityData?.entityType);
   }
 
-  /** Livres : readlist ou « En cours » ; séries : watchlist ou « En cours ». */
+  /** Livres / mangas / manwhas : readlist ou « En cours » ; séries : watchlist ou « En cours ». */
   isReadlistLikeView(): boolean {
     const t = this.entityData?.entityType;
     const v = this.selectedView;
-    if (t === 'book' || t === 'manga') {
+    if (t === 'book' || t === 'manga' || t === 'manwha') {
       return v === 'readlist' || v === 'readingInProgress';
     }
     if (t === 'serie') {
@@ -216,6 +216,7 @@ export class EntityCardRatingAndButtonsComponent {
           haveReRead: "J'ai relu ce manwha",
           addToMyWishlist: 'Je veux lire ce manwha',
           addToMyDone: "Tiens, j'ai déjà lu ce manwha !",
+          markStartedReading: "J'ai commencé ce manwha",
         };
       case 'movie':
         return {
@@ -391,7 +392,8 @@ export class EntityCardRatingAndButtonsComponent {
   get showMarkStartedReadingButton(): boolean {
     if (
       this.entityData?.entityType === 'book' ||
-      this.entityData?.entityType === 'manga'
+      this.entityData?.entityType === 'manga' ||
+      this.entityData?.entityType === 'manwha'
     ) {
       /* Readlist : l’API ajoute souvent readTimes: 1 par défaut ; seul 0.5 = « déjà commencé ». */
       return (

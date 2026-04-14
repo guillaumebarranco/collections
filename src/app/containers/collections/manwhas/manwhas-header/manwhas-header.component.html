@@ -29,7 +29,11 @@
       <button
         class="makya-btn-small"
         [routerLink]="getSelectManwhasRoute()"
-        [queryParams]="{ readlist: selectedView() === 'readlist' }"
+        [queryParams]="{
+          readlist:
+            selectedView() === 'readlist' ||
+            selectedView() === 'readingInProgress',
+        }"
         title="Ajouter des manwhas"
       >
         ➕

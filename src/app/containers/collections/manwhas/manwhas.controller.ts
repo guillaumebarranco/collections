@@ -113,6 +113,50 @@ export async function markManwhaAsReRead(
   }
 }
 
+/** Readlist : marque le manwha comme commencé (readTimes = 0.5), reste dans la readlist. */
+export async function markReadlistManwhaAsStarted(
+  manwha: Manwha,
+  userId: string
+): Promise<boolean> {
+  try {
+    const response = await fetch(`${getApiBaseUrl()}/manwhas`, {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({
+        userId,
+        title: manwha.title,
+        author: manwha.author,
+        rating: manwha.rating ?? 0,
+        readTimes: 0.5,
+        readDate: manwha.readDate ?? '',
+        owned: manwha.owned ?? false,
+        borrowed: manwha.borrowed ?? '',
+        loaned: manwha.loaned ?? '',
+        readPriority: manwha.readPriority ?? 1,
+        wantToReadAgain: manwha.wantToReadAgain ?? false,
+        ratingComment: manwha.ratingComment ?? '',
+      }),
+    });
+
+    if (!response.ok) {
+      const payload = await response.json().catch(() => ({}));
+      console.warn(
+        'Échec du marquage « en cours de lecture » :',
+        payload?.error || response.statusText
+      );
+      return false;
+    }
+
+    return true;
+  } catch (error) {
+    console.warn(
+      'Erreur réseau lors du marquage « en cours de lecture ».',
+      error
+    );
+    return false;
+  }
+}
+
 export async function addManwhaToReadlist(
   manwha: Manwha,
   userId: string

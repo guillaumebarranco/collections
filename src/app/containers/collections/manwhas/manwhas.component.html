@@ -63,8 +63,14 @@
     <div class="manwha-card">
       <app-manwha
         [manwha]="manwha"
-        [readOnly]="selectedView() === 'readlist'"
-        [isReadlistView]="selectedView() === 'readlist'"
+        [readOnly]="
+          selectedView() === 'readlist' ||
+          selectedView() === 'readingInProgress'
+        "
+        [isReadlistView]="
+          selectedView() === 'readlist' ||
+          selectedView() === 'readingInProgress'
+        "
         [selectedView]="selectedView()"
         [showTopFiveSelector]="showTopFiveRank()"
         [topFiveRank]="getTopFiveRank(manwha)"
@@ -76,6 +82,7 @@
         (readPriorityUpdated)="updateReadPriority($event)"
         (wantToReRead)="markManwhaAsWantToReRead($event)"
         (haveReRead)="markManwhaAsReRead($event)"
+        (readlistStartedReading)="onReadlistStartedReading($event)"
         (readlistMarkedAsRead)="onReadlistMarkedAsRead($event)"
         (addToMyReadlist)="addManwhaToConnectedUserReadlist($event)"
         (addToMyRead)="addManwhaToConnectedUserAsRead($event)"
@@ -150,7 +157,8 @@
         Recommandations
       </label>
       <p class="manwhas-config-hint">
-        "Manwhas lus" et "Manwhas à lire" restent affichés par défaut.
+        « Manwhas lus », « Manwhas à lire » et « En cours » restent affichés par
+        défaut.
       </p>
     </div>
   </div>

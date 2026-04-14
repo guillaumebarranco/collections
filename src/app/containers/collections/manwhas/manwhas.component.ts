@@ -1,4 +1,5 @@
 import {
+  ChangeDetectorRef,
   Component,
   computed,
   inject,
@@ -34,6 +35,8 @@ import {
   getTotalManwhasChaptersRead,
   getEstimatedManwhaReadingTime,
   PAGES_PER_MANWHA_CHAPTER,
+  formatTimeStats,
+  MINUTES_PER_PAGE,
 } from '../../../utils/stats.utils';
 import {
   StatItem,
@@ -52,6 +55,7 @@ import {
   markManwhaAsReRead as markManwhaAsReReadApi,
   addManwhaToReadlist as addManwhaToReadlistApi,
   addManwhaAsRead as addManwhaAsReadApi,
+  markReadlistManwhaAsStarted as markReadlistManwhaAsStartedApi,
 } from './manwhas.controller';
 import { TopFiveService } from '../../../services/top-five.service';
 import { FollowsService } from '../../../services/follows.service';
@@ -90,6 +94,8 @@ export class ManwhasComponent implements OnInit {
   private readonly followsService = inject(FollowsService);
   private readonly authService = inject(AuthService);
   private readonly badgesService = inject(BadgesService);
+  private readonly cdr = inject(ChangeDetectorRef);
+  private isInitializing = false;
   private isLoadingPreferences = false;
   private isLoadingViewConfig = false;
   private readonly viewConfigStorageKey = 'manwhas_view_config';
@@ -133,6 +139,32 @@ export class ManwhasComponent implements OnInit {
 
   constructor() {
     effect(() => {
+      if (this.isInitializing) return;
+
+      const queryParams: Record<string, string | null> = {};
+
+      if (this.selectedView() !== 'read') {
+        queryParams['view'] = this.selectedView();
+      } else {
+        queryParams['view'] = null;
+      }
+
+      if (this.selectedSort() !== 'rating') {
+        queryParams['sort'] = this.selectedSort();
+      } else {
+        queryParams['sort'] = null;
+      }
+
+      this.router.navigate([], {
+        relativeTo: this.activatedRoute,
+        queryParams:
+          Object.keys(queryParams).length > 0 ? queryParams : {},
+        queryParamsHandling: 'merge',
+        replaceUrl: true,
+      });
+    });
+
+    effect(() => {
       if (this.isLoadingPreferences) return;
       const preferences = {
         view: this.selectedView(),
@@ -158,6 +190,34 @@ export class ManwhasComponent implements OnInit {
     });
   }
 
+  private loadParamsFromUrl(queryParams: Params): void {
+    const v = queryParams['view'];
+    if (
+      v === 'readlist' ||
+      v === 'readingInProgress' ||
+      v === 'read' ||
+      v === 'owned' ||
+      v === 'borrowed' ||
+      v === 'loaned' ||
+      v === 'toReRead' ||
+      v === 'recommendations'
+    ) {
+      this.selectedView.set(v as ManwhaView);
+      if (v === 'recommendations') {
+        void this.loadRecommendations();
+      }
+    }
+
+    if (queryParams['sort']) {
+      const validSort = this.sortOptions().find(
+        (opt) => opt.value === queryParams['sort']
+      );
+      if (validSort) {
+        this.selectedSort.set(queryParams['sort']);
+      }
+    }
+  }
+
   allManwhas = computed<Manwha[]>(() => {
     const params: Params = this.activatedRoute.snapshot.params;
     const hasNameParam = params['id'] !== undefined;
@@ -174,17 +234,19 @@ export class ManwhasComponent implements OnInit {
       : this.readlistManwhasList()[DEFAULT_USER_ID];
   });
 
-  /** True si l'utilisateur a des items dans la vue courante (affiche stats, filtres, recherche). */
-  showFiltersAndSearch = computed(() =>
-    this.selectedView() === 'readlist'
-      ? this.allReadlistManwhas().length > 0
-      : this.allManwhas().length > 0
-  );
+  /** True si l'utilisateur a des manwhas lus (affiche stats, filtres, recherche). */
+  showFiltersAndSearch = computed(() => this.allManwhas().length > 0);
 
   filteredManwhas = computed<Manwha[]>(() => {
     let manwhas: Manwha[];
     if (this.selectedView() === 'readlist') {
-      manwhas = this.allReadlistManwhas();
+      manwhas = this.allReadlistManwhas().filter(
+        (m) => (m.readTimes ?? 0) !== 0.5
+      );
+    } else if (this.selectedView() === 'readingInProgress') {
+      manwhas = this.allReadlistManwhas().filter(
+        (m) => (m.readTimes ?? 0) === 0.5
+      );
     } else if (this.selectedView() === 'owned') {
       manwhas = this.allManwhas().filter((manwha) => manwha.owned);
     } else if (this.selectedView() === 'borrowed') {
@@ -230,21 +292,53 @@ export class ManwhasComponent implements OnInit {
   });
 
   sortedManwhas = computed<Manwha[]>(() =>
-    this.selectedView() === 'readlist'
+    this.selectedView() === 'readlist' ||
+    this.selectedView() === 'readingInProgress'
       ? getSortedManwhas([...this.filteredManwhas()], 'readPriority')
       : getSortedManwhas([...this.filteredManwhas()], this.selectedSort())
   );
 
   stats = computed<StatItem[]>(() => {
+    const list = this.filteredManwhas();
     const totalChapters = this.calculateTotalChapters();
+    const totalPagesEstimate = list.reduce(
+      (acc, m) => acc + (m.nbChapters ?? 0) * PAGES_PER_MANWHA_CHAPTER,
+      0
+    );
+
+    if (
+      this.selectedView() === 'readlist' ||
+      this.selectedView() === 'readingInProgress'
+    ) {
+      const estimatedFromPages = formatTimeStats(
+        totalPagesEstimate * MINUTES_PER_PAGE
+      );
+      return [
+        {
+          label: 'Total des chapitres',
+          value: `${totalChapters.toLocaleString()} chapitres`,
+          icon: '📚',
+          color: StatItemColor.SUCCESS,
+        },
+        {
+          label: 'Total des pages (estimation)',
+          value: `${totalPagesEstimate.toLocaleString()} pages`,
+          icon: '📖',
+          color: StatItemColor.INFO,
+        },
+        {
+          label: 'Temps estimé de lecture',
+          value: estimatedFromPages.formatted,
+          icon: '⏱️',
+          color: StatItemColor.PRIMARY,
+        },
+      ];
+    }
+
     const totalPages = this.calculateTotalManwhasPages();
-    const totalChaptersRead = getTotalManwhasChaptersRead(
-      this.filteredManwhas()
-    );
-    const totalPagesRead = getTotalManwhasPages(this.filteredManwhas());
-    const estimatedReadingTime = getEstimatedManwhaReadingTime(
-      this.filteredManwhas()
-    );
+    const totalChaptersRead = getTotalManwhasChaptersRead(list);
+    const totalPagesRead = getTotalManwhasPages(list);
+    const estimatedReadingTime = getEstimatedManwhaReadingTime(list);
 
     return [
       {
@@ -296,7 +390,7 @@ export class ManwhasComponent implements OnInit {
   }
 
   private isViewOptionVisible(view: ManwhaView): boolean {
-    if (view === 'read' || view === 'readlist') {
+    if (view === 'read' || view === 'readlist' || view === 'readingInProgress') {
       return true;
     }
     return this.optionalViewConfig()[view];
@@ -351,8 +445,16 @@ export class ManwhasComponent implements OnInit {
   }
 
   async ngOnInit() {
+    this.isInitializing = true;
     this.loadViewConfigFromStorage();
     this.loadViewPreferencesFromStorage();
+    this.loadParamsFromUrl(this.activatedRoute.snapshot.queryParams);
+    this.isInitializing = false;
+    this.activatedRoute.queryParams.subscribe((queryParams) => {
+      this.isInitializing = true;
+      this.loadParamsFromUrl(queryParams);
+      this.isInitializing = false;
+    });
     await this.refreshManwhas();
   }
 
@@ -422,6 +524,16 @@ export class ManwhasComponent implements OnInit {
     });
   }
 
+  async onReadlistStartedReading(manwha: Manwha): Promise<void> {
+    const ok = await markReadlistManwhaAsStartedApi(
+      manwha,
+      this.getActiveUserId()
+    );
+    if (ok) {
+      await this.refreshManwhas();
+    }
+  }
+
   async onReadlistMarkedAsRead(manwha: Manwha): Promise<void> {
     await this.refreshManwhas();
     if (this.isViewingOtherProfile()) return;
@@ -455,6 +567,8 @@ export class ManwhasComponent implements OnInit {
     this.manwhasList.set(manwhas);
     this.readlistManwhasList.set(readlist);
     this.baseManwhasList.set(baseManwhas.map(getFullManwha));
+
+    this.cdr.detectChanges();
 
     if (isViewingOther && connectedUserId) {
       const [connectedManwhas, connectedReadlist] = await Promise.all([
@@ -641,7 +755,7 @@ export class ManwhasComponent implements OnInit {
     const alreadyRead = this.connectedUserManwhas().some(
       (m) =>
         this.getManwhaIdentityKey(m) === key &&
-        Boolean(m.readTimes && m.readTimes > 0)
+        (m.readTimes ?? 0) >= 1
     );
     return !inReadlist && !alreadyRead;
   }
@@ -651,7 +765,7 @@ export class ManwhasComponent implements OnInit {
     const alreadyRead = this.connectedUserManwhas().some(
       (m) =>
         this.getManwhaIdentityKey(m) === key &&
-        Boolean(m.readTimes && m.readTimes > 0)
+        (m.readTimes ?? 0) >= 1
     );
     return !alreadyRead;
   }

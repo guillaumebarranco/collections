@@ -68,6 +68,7 @@ export class ManwhaComponent {
   }>();
   @Output() wantToReRead = new EventEmitter<Manwha>();
   @Output() haveReRead = new EventEmitter<Manwha>();
+  @Output() readlistStartedReading = new EventEmitter<Manwha>();
   @Output() readlistMarkedAsRead = new EventEmitter<Manwha>();
   @Input() showTopFiveSelector = false;
   @Input() topFiveRank: number | null = null;
@@ -77,6 +78,10 @@ export class ManwhaComponent {
 
   requestEdit(): void {
     this.editRequested.emit();
+  }
+
+  onStartedReadingClick(): void {
+    this.readlistStartedReading.emit(this.manwha);
   }
 
   onTopFiveSelect(event: Event): void {
@@ -93,7 +98,7 @@ export class ManwhaComponent {
 
   getEntityData(): EntityCardEntityData {
     return {
-      alreadySeenRead: !!(this.manwha.readTimes && this.manwha.readTimes > 0),
+      alreadySeenRead: (this.manwha.readTimes ?? 0) >= 1,
       alreadyInList: this.isInReadlist,
       rating: this.manwha.rating ?? 0,
       hasRatingComment: !!this.manwha.ratingComment,
