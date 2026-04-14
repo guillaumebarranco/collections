@@ -20,6 +20,7 @@ import {
   baseMoviesFromRonanLetterboxd,
   baseMoviesApi,
   baseMoviesPage8,
+  baseMoviesPage9,
 } from '../../utils/entities/movies';
 
 import {
@@ -62,6 +63,7 @@ export const allBaseMovies: BaseMovie[] = [
   ...baseMoviesPage6,
   ...baseMoviesPage7,
   ...baseMoviesPage8,
+  ...baseMoviesPage9,
   ...baseMoviesMcu,
   ...baseMoviesDc,
   ...baseMoviesOtherSuperheroes,

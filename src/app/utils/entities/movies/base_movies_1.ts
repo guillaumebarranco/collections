@@ -294,24 +294,7 @@ export const baseMoviesPage1: BaseMovie[] = [
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
   },
-  {
-    title: 'Prey',
-    director: 'Dan Trachtenberg',
-    actors: [
-      {
-        name: 'Amber Midthunder',
-      },
-    ],
-    coverUrl: '/movies_pictures/686389-prey-0-150-0-225-crop.jpg',
-    releaseDate: '2022-08-05',
-    length: 100,
-    genre: ['Action'],
-    saga: 'Predator',
-    description: '',
-    fromEntity: null,
-    countryOrigin: ['États-Unis'],
-    selectDisplayOrder: 0,
-  },
+
   {
     title: 'Bullet Train',
     director: 'David Leitch',

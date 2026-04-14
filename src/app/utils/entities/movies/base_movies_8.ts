@@ -688,24 +688,7 @@ export const baseMoviesPage8: BaseMovie[] = [
     countryOrigin: ['France'],
     selectDisplayOrder: 0,
   },
-  {
-    title: 'Alien : Romulus',
-    director: 'Fede Alvarez',
-    actors: [
-      { name: 'Cailee Spaeny' },
-      { name: 'David Jonsson' },
-      { name: 'Archie Renaux' },
-    ],
-    coverUrl: '/movies_pictures/5fe513cd7721.jpg',
-    releaseDate: '2024-08-16',
-    length: 119,
-    genre: ['Horreur', 'Science Fiction', 'Thriller'],
-    saga: '',
-    description: '',
-    fromEntity: null,
-    countryOrigin: ['Royaume-Uni'],
-    selectDisplayOrder: 0,
-  },
+
   {
     title: 'Sans un bruit : Jour 1',
     director: 'Michael Sarnoski',

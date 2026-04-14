@@ -26,7 +26,7 @@ const CONFIGURABLE_ITEMS: {
   { key: 'comics', label: 'Comics', icon: '🦸' },
   { key: 'bds', label: 'BD', icon: '📗' },
   { key: 'musics', label: 'Musiques', icon: '🎵' },
-  { key: 'mix', label: 'Livres & Films (Mix)', icon: '🔀' },
+  { key: 'adaptations', label: 'Adaptations', icon: '🔀' },
   { key: 'quizzs', label: 'Quizz', icon: '🎯' },
 ];
 

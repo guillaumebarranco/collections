@@ -13,7 +13,7 @@ export const CONFIGURABLE_MENU_KEYS = [
   'comics',
   'bds',
   'musics',
-  'mix',
+  'adaptations',
   'quizzs',
 ] as const;
 
@@ -28,12 +28,13 @@ function readStored(): Set<string> {
     if (!raw) return new Set(CONFIGURABLE_MENU_KEYS);
     const arr = JSON.parse(raw) as unknown;
     if (!Array.isArray(arr)) return new Set(CONFIGURABLE_MENU_KEYS);
-    const valid = arr.filter((k) =>
+    const normalized = arr.map((k) => (k === 'mix' ? 'adaptations' : k));
+    const valid = normalized.filter((k) =>
       CONFIGURABLE_MENU_KEYS.includes(k as MenuConfigKey)
     );
     const storedSet = new Set(valid);
-    // Clé "mix" ajoutée après coup : l’afficher par défaut si absente du storage
-    for (const key of ['mix', 'quizzs'] as const) {
+    // Clé "adaptations" (ex. "mix") : l’afficher par défaut si absente du storage
+    for (const key of ['adaptations', 'quizzs'] as const) {
       if (!storedSet.has(key)) {
         storedSet.add(key);
         try {

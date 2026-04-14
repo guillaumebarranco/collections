@@ -58,7 +58,7 @@ import { AdminMangasComponent } from './containers/admin-collections/mangas/mang
 import { AdminManwhasComponent } from './containers/admin-collections/manwhas/manwhas.component';
 import { AdminComicsComponent } from './containers/admin-collections/comics/comics.component';
 import { AdminBdsComponent } from './containers/admin-collections/bds/bds.component';
-import { MixComponent } from './containers/mix/mix.component';
+import { AdaptationsComponent } from './containers/adaptations/adaptations.component';
 import { QuizzsComponent } from './containers/collections/quizzs/quizzs.component';
 
 export const routes: Routes = [
@@ -144,7 +144,12 @@ export const routes: Routes = [
   },
   {
     path: 'mix',
-    component: MixComponent,
+    redirectTo: 'adaptations',
+    pathMatch: 'full',
+  },
+  {
+    path: 'adaptations',
+    component: AdaptationsComponent,
   },
   {
     path: 'quizzs',
@@ -376,7 +381,12 @@ export const routes: Routes = [
       },
       {
         path: 'mix',
-        component: MixComponent,
+        redirectTo: 'adaptations',
+        pathMatch: 'full',
+      },
+      {
+        path: 'adaptations',
+        component: AdaptationsComponent,
       },
       {
         path: 'quizzs',

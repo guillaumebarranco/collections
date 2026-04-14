@@ -3933,30 +3933,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
   },
-  {
-    title: 'Blade Runner 2049',
-    director: 'Denis Villeneuve',
-    actors: [
-      {
-        name: 'Ryan Gosling',
-      },
-      {
-        name: 'Harrison Ford',
-      },
-      {
-        name: 'Ana de Armas',
-      },
-    ],
-    coverUrl: '/movies_pictures/blade_runner_2049.jpg',
-    releaseDate: '2017-10-04',
-    length: 164,
-    genre: ['Science Fiction'],
-    saga: '',
-    description: '',
-    fromEntity: null,
-    countryOrigin: ['États-Unis'],
-    selectDisplayOrder: 0,
-  },
+
   {
     title: 'Ça',
     director: 'Andy Muschietti',

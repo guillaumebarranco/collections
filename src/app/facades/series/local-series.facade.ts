@@ -1,4 +1,5 @@
 import { baseSeries } from '../../utils/entities/series/base_series';
+import { baseSeries2 } from '../../utils/entities/series/base_series_2';
 import { baseSeriesAnimees } from '../../utils/entities/series/base_series_animees';
 
 import { guillaumeSeries } from '../../utils/users/guillaume/series';
@@ -18,9 +19,12 @@ import { marinaSeries } from '../../utils/users/marina/series/marina_series';
 import { marinaWatchListSeries } from '../../utils/users/marina/series/marina_watchlist_series';
 import { masterofmadnessSeries } from '../../utils/users/masterofmadness/series/masterofmadness_series';
 import { baseSeriesApi } from '../../utils/entities/series/base_series_api';
+import { baseSeries3 } from '../../utils/entities/series/base_series_3';
 
 export const allBaseSeries: BaseSerie[] = [
   ...baseSeries,
+  ...baseSeries2,
+  ...baseSeries3,
   ...baseSeriesAnimees,
   ...baseSeriesApi,
 ];

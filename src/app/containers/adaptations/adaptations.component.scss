@@ -1,10 +1,10 @@
 @use "../../styles/containers.scss" as containers;
 
-.mix-container {
+.adaptations-container {
   @include containers.container-base;
 }
 
-.mix-header {
+.adaptations-header {
   margin-bottom: 1.5rem;
 
   h1 {
@@ -13,20 +13,20 @@
   }
 }
 
-.mix-header-top {
+.adaptations-header-top {
   display: flex;
   flex-wrap: wrap;
   align-items: center;
   gap: 1rem;
 }
 
-.mix-header-secondary {
+.adaptations-header-secondary {
   margin-top: 0.75rem;
   padding-top: 0.75rem;
   border-top: 1px solid var(--stroke-medium, #e5e7eb);
 }
 
-.mix-secondary-label {
+.adaptations-secondary-label {
   margin: 0 0 0.5rem 0;
   font-size: 0.8rem;
   font-weight: 600;
@@ -36,7 +36,7 @@
 }
 
 /* Second rang d’onglets : plus compact, retour à la ligne possible */
-:host ::ng-deep .mix-secondary-toggle.view-toggle-desktop {
+:host ::ng-deep .adaptations-secondary-toggle.view-toggle-desktop {
   flex-wrap: wrap;
   max-width: 100%;
   width: 100%;
@@ -48,37 +48,37 @@
   }
 }
 
-:host ::ng-deep .mix-secondary-toggle.view-toggle-mobile .toggle-option-mobile {
+:host ::ng-deep .adaptations-secondary-toggle.view-toggle-mobile .toggle-option-mobile {
   font-size: 0.9rem;
   padding: 10px 12px;
 }
 
-.mix-loading,
-.mix-empty {
+.adaptations-loading,
+.adaptations-empty {
   padding: 2rem;
   text-align: center;
   color: var(--text-secondary, #666);
 }
 
-.mix-content {
+.adaptations-content {
   margin-top: 1rem;
 }
 
 /* Même structure que films par saga / livres par saga */
-.mix-by-entity {
+.adaptations-by-entity {
   display: flex;
   flex-direction: column;
   gap: 24px;
   margin-top: 20px;
 }
 
-.mix-section {
+.adaptations-section {
   padding: 12px 16px 4px;
   background: #f9fafb;
   border-radius: 14px;
 
-  .mix-movies,
-  .mix-series {
+  .adaptations-movies,
+  .adaptations-series {
     grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
     gap: 16px;
 
@@ -87,19 +87,19 @@
     }
   }
 
-  .mix-movie-card,
-  .mix-serie-card {
+  .adaptations-movie-card,
+  .adaptations-serie-card {
     padding: 0;
   }
 }
 
-.mix-section-title {
+.adaptations-section-title {
   margin: 0 0 12px;
   font-size: 1.35rem;
   color: #2c3e50;
 }
 
-.mix-section-toggle {
+.adaptations-section-toggle {
   background: transparent;
   border: none;
   padding: 0;
@@ -111,36 +111,36 @@
   gap: 8px;
 }
 
-.mix-section-toggle-icon {
+.adaptations-section-toggle-icon {
   font-size: 0.9rem;
   color: #7f8c8d;
 }
 
-.mix-section-book,
-.mix-section-game,
-.mix-section-bd,
-.mix-section-comic,
-.mix-section-manga,
-.mix-section-manwha,
-.mix-section-serie {
+.adaptations-section-book,
+.adaptations-section-game,
+.adaptations-section-bd,
+.adaptations-section-comic,
+.adaptations-section-manga,
+.adaptations-section-manwha,
+.adaptations-section-serie {
   margin-bottom: 1rem;
   max-width: 320px;
 }
 
-.mix-adaptations-label {
+.adaptations-entity-label {
   margin: 1rem 0 0.5rem 0;
   font-weight: 600;
   font-size: 0.95rem;
 }
 
-.mix-movies,
-.mix-series {
+.adaptations-movies,
+.adaptations-series {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(160px, 1fr));
   gap: 1rem;
 }
 
-.mix-movie-card,
-.mix-serie-card {
+.adaptations-movie-card,
+.adaptations-serie-card {
   min-width: 0;
 }

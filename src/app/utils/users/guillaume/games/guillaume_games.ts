@@ -2665,7 +2665,7 @@ export const guillaumeGames: UserGames = [
   },
   {
     title: "Sonic Unleashed",
-    editor: "Sega",
+    editor: "Sonic Team",
     rating: 3.25,
     owned: true,
     gamelistPriority: 1,

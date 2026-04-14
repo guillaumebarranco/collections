@@ -3341,4 +3341,41 @@ export const guillaumeSeries: UserSeries = [
     borrowed: '',
     loaned: '',
   },
+
+  {
+    title: "The Witcher",
+    director: "Lauren Schmidt Hissrich",
+    seasons: [
+    {
+      seasonNumber: 1,
+      seasonRating: 4,
+      seasonTimesWatched: 1,
+      lastViewedDate: "2019-12-29",
+    },
+    {
+      seasonNumber: 2,
+      seasonRating: 3.5,
+      seasonTimesWatched: 1,
+      lastViewedDate: "2021-12-21",
+    },
+    {
+      seasonNumber: 3,
+      seasonRating: 0,
+      seasonTimesWatched: 0,
+      lastViewedDate: "",
+    },
+    {
+      seasonNumber: 4,
+      seasonRating: 0,
+      seasonTimesWatched: 0,
+      lastViewedDate: "",
+    }
+  ],
+    owned: false,
+    watchPriority: 1,
+    wantToWatchAgain: false,
+    ratingComment: "",
+    borrowed: "",
+    loaned: "",
+  },
 ];

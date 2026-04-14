@@ -327,20 +327,7 @@ export const baseMoviesPage4: BaseMovie[] = [
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
   },
-  {
-    title: 'Prometheus',
-    director: 'Ridley Scott',
-    actors: [{ name: 'Noomi Rapace' }],
-    coverUrl: '/movies_pictures/prometheus.jpg',
-    releaseDate: '2012-06-08',
-    length: 124,
-    genre: ['Science Fiction'],
-    saga: 'Alien',
-    description: '',
-    fromEntity: null,
-    countryOrigin: ['États-Unis'],
-    selectDisplayOrder: 0,
-  },
+
   {
     title: '21 Jump Street',
     director: 'Phil Lord, Christopher Miller',

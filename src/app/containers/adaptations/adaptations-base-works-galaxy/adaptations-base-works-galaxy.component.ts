@@ -25,38 +25,38 @@ import { BaseMovie } from '../../../models/movie-model';
 import { BaseSerie } from '../../../models/serie-model';
 import {
   type BaseWorkOrbitSatellite,
-  type MixBaseWorkOrbitPanel,
-  type MixOrbitCoverInfo,
-  buildMixBaseWorkOrbitPanelsSorted,
-  buildMixBaseWorksBlocks,
-  buildMixBaseWorkPanelSearchHaystack,
+  type AdaptationsBaseWorkOrbitPanel,
+  type AdaptationsOrbitCoverInfo,
+  buildAdaptationsBaseWorkOrbitPanelsSorted,
+  buildAdaptationsBaseWorksBlocks,
+  buildAdaptationsBaseWorkPanelSearchHaystack,
   buildUserBaseGalaxyConsumption,
   bookEntityKey,
   gameEntityKey,
   isCentralConsumed,
   isSatelliteConsumed,
-  mixOrbitCover,
-  mixOrbitEntityKindLabel,
+  adaptationsOrbitCover,
+  adaptationsOrbitEntityKindLabel,
   movieEntityKey,
-  normalizeForMixBaseSearch,
+  normalizeForAdaptationsBaseSearch,
   serieEntityKey,
-  mixBaseWorksCrossMediaScoreTooltip,
+  adaptationsBaseWorksCrossMediaScoreTooltip,
   dualRingInnerSlotCount,
   partitionOrbitSatellitesForDualRing,
-} from './mix-base-works-galaxy.helpers';
+} from './adaptations-base-works-galaxy.helpers';
 
 /**
- * Vue « Galaxie des licences » du Mix : galaxie orbite (hub par saga / œuvre isolée).
+ * Vue « Galaxie des licences » des adaptations : galaxie orbite (hub par saga / œuvre isolée).
  */
 @Component({
-  selector: 'app-mix-base-works-galaxy',
+  selector: 'app-adaptations-base-works-galaxy',
   standalone: true,
   imports: [CommonModule, MatTooltipModule],
-  templateUrl: './mix-base-works-galaxy.component.html',
-  styleUrls: ['./mix-base-works-galaxy.component.scss'],
+  templateUrl: './adaptations-base-works-galaxy.component.html',
+  styleUrls: ['./adaptations-base-works-galaxy.component.scss'],
   changeDetection: ChangeDetectionStrategy.OnPush,
 })
-export class MixBaseWorksGalaxyComponent {
+export class AdaptationsBaseWorksGalaxyComponent {
   private readonly _destroyRef = inject(DestroyRef);
   private readonly _injector = inject(Injector);
 
@@ -109,8 +109,8 @@ export class MixBaseWorksGalaxyComponent {
     buildUserBaseGalaxyConsumption(this.effectiveUserIdLower())
   );
 
-  readonly mixBaseWorksBlocks = computed(() =>
-    buildMixBaseWorksBlocks(
+  readonly adaptationsBaseWorksBlocks = computed(() =>
+    buildAdaptationsBaseWorksBlocks(
       this.baseBooks(),
       this.baseBds(),
       this.baseComics(),
@@ -122,9 +122,9 @@ export class MixBaseWorksGalaxyComponent {
     )
   );
 
-  readonly mixBaseWorkOrbitPanels = computed(() =>
-    buildMixBaseWorkOrbitPanelsSorted(
-      this.mixBaseWorksBlocks(),
+  readonly adaptationsBaseWorkOrbitPanels = computed(() =>
+    buildAdaptationsBaseWorkOrbitPanelsSorted(
+      this.adaptationsBaseWorksBlocks(),
       this.baseBooks(),
       this.baseBds(),
       this.baseComics(),
@@ -137,14 +137,14 @@ export class MixBaseWorksGalaxyComponent {
 
   readonly baseWorksSearchQuery = signal('');
 
-  readonly mixBaseWorkOrbitPanelsFiltered = computed(() => {
-    const panels = this.mixBaseWorkOrbitPanels();
-    const needle = normalizeForMixBaseSearch(this.baseWorksSearchQuery());
+  readonly adaptationsBaseWorkOrbitPanelsFiltered = computed(() => {
+    const panels = this.adaptationsBaseWorkOrbitPanels();
+    const needle = normalizeForAdaptationsBaseSearch(this.baseWorksSearchQuery());
     if (!needle) {
       return panels;
     }
     return panels.filter((p) =>
-      buildMixBaseWorkPanelSearchHaystack(p).includes(needle)
+      buildAdaptationsBaseWorkPanelSearchHaystack(p).includes(needle)
     );
   });
 
@@ -162,16 +162,16 @@ export class MixBaseWorksGalaxyComponent {
   }
 
   /** Infobulle score (pondération transmédia) sur le titre de bloc ; vide si absent. */
-  baseWorkBlockScoreTooltip(panel: MixBaseWorkOrbitPanel): string {
+  baseWorkBlockScoreTooltip(panel: AdaptationsBaseWorkOrbitPanel): string {
     const s = panel.crossMediaExportScore;
-    return s != null ? mixBaseWorksCrossMediaScoreTooltip(s) : '';
+    return s != null ? adaptationsBaseWorksCrossMediaScoreTooltip(s) : '';
   }
 
-  trackBaseWorkOrbitPanel(panel: MixBaseWorkOrbitPanel): string {
+  trackBaseWorkOrbitPanel(panel: AdaptationsBaseWorkOrbitPanel): string {
     return panel.orbitKey;
   }
 
-  baseWorkOrbitCollapseKey(panel: MixBaseWorkOrbitPanel): string {
+  baseWorkOrbitCollapseKey(panel: AdaptationsBaseWorkOrbitPanel): string {
     return panel.orbitKey;
   }
 
@@ -196,59 +196,59 @@ export class MixBaseWorksGalaxyComponent {
     }
   }
 
-  orbitSatelliteCover(sat: BaseWorkOrbitSatellite): MixOrbitCoverInfo {
+  orbitSatelliteCover(sat: BaseWorkOrbitSatellite): AdaptationsOrbitCoverInfo {
     switch (sat.kind) {
       case 'book':
-        return mixOrbitCover(
+        return adaptationsOrbitCover(
           sat.data.coverUrl,
           sat.data.title,
           sat.data.author,
           'book'
         );
       case 'movie':
-        return mixOrbitCover(
+        return adaptationsOrbitCover(
           sat.data.coverUrl,
           sat.data.title,
           sat.data.director,
           'movie'
         );
       case 'serie':
-        return mixOrbitCover(
+        return adaptationsOrbitCover(
           sat.data.coverUrl,
           sat.data.title,
           sat.data.director,
           'serie'
         );
       case 'game':
-        return mixOrbitCover(
+        return adaptationsOrbitCover(
           sat.data.coverUrl,
           sat.data.title,
           sat.data.editor,
           'game'
         );
       case 'bd':
-        return mixOrbitCover(
+        return adaptationsOrbitCover(
           sat.data.coverUrl,
           sat.data.title,
           sat.data.writer,
           'bd'
         );
       case 'comic':
-        return mixOrbitCover(
+        return adaptationsOrbitCover(
           sat.data.coverUrl,
           sat.data.title,
           sat.data.writer,
           'comic'
         );
       case 'manga':
-        return mixOrbitCover(
+        return adaptationsOrbitCover(
           sat.data.coverUrl,
           sat.data.title,
           sat.data.author,
           'manga'
         );
       case 'manwha':
-        return mixOrbitCover(
+        return adaptationsOrbitCover(
           sat.data.coverUrl,
           sat.data.title,
           sat.data.author,
@@ -258,10 +258,10 @@ export class MixBaseWorksGalaxyComponent {
   }
 
   orbitCentralCover(
-    central: MixBaseWorkOrbitPanel['central']
-  ): MixOrbitCoverInfo {
+    central: AdaptationsBaseWorkOrbitPanel['central']
+  ): AdaptationsOrbitCoverInfo {
     if (central.book) {
-      return mixOrbitCover(
+      return adaptationsOrbitCover(
         central.book.coverUrl,
         central.book.title,
         central.book.author,
@@ -269,7 +269,7 @@ export class MixBaseWorksGalaxyComponent {
       );
     }
     if (central.bd) {
-      return mixOrbitCover(
+      return adaptationsOrbitCover(
         central.bd.coverUrl,
         central.bd.title,
         central.bd.writer,
@@ -277,7 +277,7 @@ export class MixBaseWorksGalaxyComponent {
       );
     }
     if (central.comic) {
-      return mixOrbitCover(
+      return adaptationsOrbitCover(
         central.comic.coverUrl,
         central.comic.title,
         central.comic.writer,
@@ -285,7 +285,7 @@ export class MixBaseWorksGalaxyComponent {
       );
     }
     if (central.manga) {
-      return mixOrbitCover(
+      return adaptationsOrbitCover(
         central.manga.coverUrl,
         central.manga.title,
         central.manga.author,
@@ -293,7 +293,7 @@ export class MixBaseWorksGalaxyComponent {
       );
     }
     if (central.manwha) {
-      return mixOrbitCover(
+      return adaptationsOrbitCover(
         central.manwha.coverUrl,
         central.manwha.title,
         central.manwha.author,
@@ -301,7 +301,7 @@ export class MixBaseWorksGalaxyComponent {
       );
     }
     if (central.game) {
-      return mixOrbitCover(
+      return adaptationsOrbitCover(
         central.game.coverUrl,
         central.game.title,
         central.game.editor,
@@ -309,7 +309,7 @@ export class MixBaseWorksGalaxyComponent {
       );
     }
     if (central.serie) {
-      return mixOrbitCover(
+      return adaptationsOrbitCover(
         central.serie.coverUrl,
         central.serie.title,
         central.serie.director,
@@ -317,7 +317,7 @@ export class MixBaseWorksGalaxyComponent {
       );
     }
     if (central.movie) {
-      return mixOrbitCover(
+      return adaptationsOrbitCover(
         central.movie.coverUrl,
         central.movie.title,
         central.movie.director,
@@ -328,7 +328,7 @@ export class MixBaseWorksGalaxyComponent {
       .filter((s): s is string => Boolean(s?.trim()))
       .join(' — ');
     const kindLabel = central.placeholderEntityType
-      ? mixOrbitEntityKindLabel(central.placeholderEntityType)
+      ? adaptationsOrbitEntityKindLabel(central.placeholderEntityType)
       : '';
     const suffix = kindLabel
       ? ` (${kindLabel}, absent du catalogue local)`
@@ -414,7 +414,7 @@ export class MixBaseWorksGalaxyComponent {
     if (!entityType) {
       return 'œuvre';
     }
-    return mixOrbitEntityKindLabel(entityType);
+    return adaptationsOrbitEntityKindLabel(entityType);
   }
 
   onEmphasizeConsumedToggle(event: Event): void {
@@ -442,7 +442,7 @@ export class MixBaseWorksGalaxyComponent {
     tooltip.toggle();
   }
 
-  orbitCentralIsDimmed(central: MixBaseWorkOrbitPanel['central']): boolean {
+  orbitCentralIsDimmed(central: AdaptationsBaseWorkOrbitPanel['central']): boolean {
     if (!this.emphasizeMyConsumedWorks()) {
       return false;
     }
@@ -454,5 +454,24 @@ export class MixBaseWorksGalaxyComponent {
       return false;
     }
     return !isSatelliteConsumed(sat, this.userBaseGalaxyConsumption());
+  }
+
+  /** Centre + satellites effectivement vus / lus / joués (mêmes clés que le grisage). */
+  orbitPanelConsumedWorksCount(panel: AdaptationsBaseWorkOrbitPanel): number {
+    const c = this.userBaseGalaxyConsumption();
+    let n = 0;
+    if (isCentralConsumed(panel.central, c)) {
+      n++;
+    }
+    for (const sat of panel.satellites) {
+      if (isSatelliteConsumed(sat, c)) {
+        n++;
+      }
+    }
+    return n;
+  }
+
+  orbitPanelTotalWorksCount(panel: AdaptationsBaseWorkOrbitPanel): number {
+    return panel.satelliteCount + 1;
   }
 }

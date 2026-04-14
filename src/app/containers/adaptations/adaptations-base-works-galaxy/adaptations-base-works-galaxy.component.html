@@ -1,15 +1,15 @@
-<div class="mix-content mix-by-entity mix-base-works-root">
-  <div class="mix-base-works-toolbar">
-    <div class="mix-base-works-search">
+<div class="adaptations-content adaptations-by-entity adaptations-base-works-root">
+  <div class="adaptations-base-works-toolbar">
+    <div class="adaptations-base-works-search">
       <label
-        class="mix-base-works-search__label"
-        for="mix-base-works-search-input"
+        class="adaptations-base-works-search__label"
+        for="adaptations-base-works-search-input"
         >Rechercher</label
       >
       <input
-        id="mix-base-works-search-input"
+        id="adaptations-base-works-search-input"
         type="search"
-        class="mix-base-works-search__input"
+        class="adaptations-base-works-search__input"
         placeholder="Saga, titre, auteur, réalisateur…"
         [value]="baseWorksSearchQuery()"
         (input)="onBaseWorksSearchInput($event)"
@@ -18,7 +18,7 @@
       />
     </div>
     <div>
-      <label class="mix-base-works-consumed-toggle">
+      <label class="adaptations-base-works-consumed-toggle">
         <input
           type="checkbox"
           [checked]="emphasizeMyConsumedWorks()"
@@ -28,23 +28,23 @@
       </label>
     </div>
   </div>
-  @if (mixBaseWorkOrbitPanelsFiltered().length === 0) {
-  <p class="mix-empty mix-base-works-no-results">
+  @if (adaptationsBaseWorkOrbitPanelsFiltered().length === 0) {
+  <p class="adaptations-empty adaptations-base-works-no-results">
     Aucun bloc ne correspond à « {{ baseWorksSearchQuery() }} ».
   </p>
-  } @else { @for (panel of mixBaseWorkOrbitPanelsFiltered(); track
+  } @else { @for (panel of adaptationsBaseWorkOrbitPanelsFiltered(); track
   trackBaseWorkOrbitPanel(panel)) { @let scoreTip =
   baseWorkBlockScoreTooltip(panel);
   <section
-    class="mix-section"
-    [class.mix-base-saga-wrap]="
+    class="adaptations-section"
+    [class.adaptations-base-saga-wrap]="
       panel.blockKind === 'bookSaga' || panel.blockKind === 'gameSaga'
     "
   >
-    <h2 class="mix-section-title mix-base-block-title">
+    <h2 class="adaptations-section-title adaptations-base-block-title">
       <button
         type="button"
-        class="mix-section-toggle mix-base-block-toggle"
+        class="adaptations-section-toggle adaptations-base-block-toggle"
         [matTooltip]="scoreTip"
         matTooltipShowDelay="200"
         [matTooltipDisabled]="scoreTip === ''"
@@ -53,24 +53,31 @@
         "
         (click)="toggleSection(baseWorkOrbitCollapseKey(panel))"
       >
-        <span class="mix-section-toggle-icon">
+        <span class="adaptations-section-toggle-icon">
           {{ isSectionCollapsed(baseWorkOrbitCollapseKey(panel)) ? "▶" : "▼" }}
         </span>
-        <span class="mix-base-block-heading-inner">
-          <span class="mix-base-block-primary-label">
+        <span class="adaptations-base-block-heading-inner">
+          <span class="adaptations-base-block-primary-label">
             {{ panel.headerPrimaryLabel }}
             @if (panel.standaloneFromEntityType) {
-            <span class="mix-base-galaxy-kind"
+            <span class="adaptations-base-galaxy-kind"
               >({{ baseWorkEntityLabel(panel.standaloneFromEntityType) }})</span
             >
             }
           </span>
-          <span class="mix-base-block-meta">
-            {{ panel.satelliteCount + 1 }} œuvres
+          <span class="adaptations-base-block-meta">
+            @if (emphasizeMyConsumedWorks()) {
+              {{ orbitPanelConsumedWorksCount(panel) }}/{{
+                orbitPanelTotalWorksCount(panel)
+              }}
+              œuvres
+            } @else {
+              {{ orbitPanelTotalWorksCount(panel) }} œuvres
+            }
             @if (
               panel.baseWorkYear != null && panel.licenseExistenceYears != null
             ) {
-              <span class="mix-base-block-meta__license-years">
+              <span class="adaptations-base-block-meta__license-years">
                 — {{ panel.baseWorkYear }} ({{ panel.licenseExistenceYears }} ans)
               </span>
             }
@@ -80,12 +87,12 @@
     </h2>
     @if (!isSectionCollapsed(baseWorkOrbitCollapseKey(panel))) {
     <div
-      class="mix-base-orbit-layout"
-      [class.mix-base-orbit-layout--empty-ring]="panel.satellites.length === 0"
+      class="adaptations-base-orbit-layout"
+      [class.adaptations-base-orbit-layout--empty-ring]="panel.satellites.length === 0"
     >
       <div
-        class="mix-base-orbit-inner"
-        [class.mix-base-orbit-inner--dual-ring]="
+        class="adaptations-base-orbit-inner"
+        [class.adaptations-base-orbit-inner--dual-ring]="
           orbitUsesDualRing(panel.satellites.length)
         "
         [style.--orbit-display-radius.px]="
@@ -93,17 +100,17 @@
         "
         [style.--orbit-size.px]="orbitContainerSizePx(panel.satellites.length)"
       >
-        <div class="mix-base-orbit-center">
+        <div class="adaptations-base-orbit-center">
           @let centralCov = orbitCentralCover(panel.central);
           <div
-            class="mix-base-orbit-center-card mix-orbit-cover mix-orbit-cover--center"
-            [class.mix-orbit-cover--dimmed]="
+            class="adaptations-base-orbit-center-card adaptations-orbit-cover adaptations-orbit-cover--center"
+            [class.adaptations-orbit-cover--dimmed]="
               orbitCentralIsDimmed(panel.central)
             "
           >
             <button
               type="button"
-              class="mix-orbit-cover__btn"
+              class="adaptations-orbit-cover__btn"
               #centralCoverTip="matTooltip"
               [matTooltip]="centralCov.tooltip"
               [matTooltipShowDelay]="orbitCoverTooltipShowDelay()"
@@ -115,10 +122,10 @@
               <img
                 [src]="centralCov.coverUrl"
                 alt=""
-                class="mix-orbit-cover__img"
+                class="adaptations-orbit-cover__img"
               />
               } @else {
-              <span class="mix-orbit-cover__fallback" aria-hidden="true">{{
+              <span class="adaptations-orbit-cover__fallback" aria-hidden="true">{{
                 orbitCoverFallbackLetter(centralCov.tooltip)
               }}</span>
               }
@@ -128,7 +135,7 @@
         @if (panel.satellites.length > 0) { @if
         (!orbitUsesDualRing(panel.satellites.length)) {
         <ul
-          class="mix-base-orbit-ring"
+          class="adaptations-base-orbit-ring"
           role="list"
           aria-label="Suites et adaptations"
           [style.--orbit-radius.px]="orbitRadiusPx(panel.satellites.length)"
@@ -136,14 +143,14 @@
         >
           @for (sat of panel.satellites; track trackOrbitSatellite(sat, $index))
           { @let satCov = orbitSatelliteCover(sat);
-          <li class="mix-base-orbit-slot" [style.--orbit-i]="$index">
+          <li class="adaptations-base-orbit-slot" [style.--orbit-i]="$index">
             <div
-              class="mix-base-orbit-satellite-card mix-orbit-cover"
-              [class.mix-orbit-cover--dimmed]="orbitSatelliteIsDimmed(sat)"
+              class="adaptations-base-orbit-satellite-card adaptations-orbit-cover"
+              [class.adaptations-orbit-cover--dimmed]="orbitSatelliteIsDimmed(sat)"
             >
               <button
                 type="button"
-                class="mix-orbit-cover__btn"
+                class="adaptations-orbit-cover__btn"
                 #satCoverTip="matTooltip"
                 [matTooltip]="satCov.tooltip"
                 [matTooltipShowDelay]="orbitCoverTooltipShowDelay()"
@@ -155,10 +162,10 @@
                 <img
                   [src]="satCov.coverUrl"
                   alt=""
-                  class="mix-orbit-cover__img"
+                  class="adaptations-orbit-cover__img"
                 />
                 } @else {
-                <span class="mix-orbit-cover__fallback" aria-hidden="true">{{
+                <span class="adaptations-orbit-cover__fallback" aria-hidden="true">{{
                   orbitCoverFallbackLetter(satCov.tooltip)
                 }}</span>
                 }
@@ -169,7 +176,7 @@
         </ul>
         } @else { @let orbitDual = orbitDualRingPartition(panel.satellites);
         <ul
-          class="mix-base-orbit-ring mix-base-orbit-ring--inner"
+          class="adaptations-base-orbit-ring adaptations-base-orbit-ring--inner"
           role="list"
           aria-label="Suites et adaptations, anneau intérieur"
           [style.--orbit-radius.px]="
@@ -179,14 +186,14 @@
         >
           @for (sat of orbitDual.inner; track trackOrbitSatellite(sat, $index))
           { @let satCov = orbitSatelliteCover(sat);
-          <li class="mix-base-orbit-slot" [style.--orbit-i]="$index">
+          <li class="adaptations-base-orbit-slot" [style.--orbit-i]="$index">
             <div
-              class="mix-base-orbit-satellite-card mix-orbit-cover"
-              [class.mix-orbit-cover--dimmed]="orbitSatelliteIsDimmed(sat)"
+              class="adaptations-base-orbit-satellite-card adaptations-orbit-cover"
+              [class.adaptations-orbit-cover--dimmed]="orbitSatelliteIsDimmed(sat)"
             >
               <button
                 type="button"
-                class="mix-orbit-cover__btn"
+                class="adaptations-orbit-cover__btn"
                 #satInnerCoverTip="matTooltip"
                 [matTooltip]="satCov.tooltip"
                 [matTooltipShowDelay]="orbitCoverTooltipShowDelay()"
@@ -198,10 +205,10 @@
                 <img
                   [src]="satCov.coverUrl"
                   alt=""
-                  class="mix-orbit-cover__img"
+                  class="adaptations-orbit-cover__img"
                 />
                 } @else {
-                <span class="mix-orbit-cover__fallback" aria-hidden="true">{{
+                <span class="adaptations-orbit-cover__fallback" aria-hidden="true">{{
                   orbitCoverFallbackLetter(satCov.tooltip)
                 }}</span>
                 }
@@ -211,7 +218,7 @@
           }
         </ul>
         <ul
-          class="mix-base-orbit-ring mix-base-orbit-ring--outer"
+          class="adaptations-base-orbit-ring adaptations-base-orbit-ring--outer"
           role="list"
           aria-label="Suites et adaptations, anneau extérieur"
           [style.--orbit-radius.px]="
@@ -221,14 +228,14 @@
         >
           @for (sat of orbitDual.outer; track trackOrbitSatellite(sat, $index))
           { @let satCov = orbitSatelliteCover(sat);
-          <li class="mix-base-orbit-slot" [style.--orbit-i]="$index">
+          <li class="adaptations-base-orbit-slot" [style.--orbit-i]="$index">
             <div
-              class="mix-base-orbit-satellite-card mix-orbit-cover"
-              [class.mix-orbit-cover--dimmed]="orbitSatelliteIsDimmed(sat)"
+              class="adaptations-base-orbit-satellite-card adaptations-orbit-cover"
+              [class.adaptations-orbit-cover--dimmed]="orbitSatelliteIsDimmed(sat)"
             >
               <button
                 type="button"
-                class="mix-orbit-cover__btn"
+                class="adaptations-orbit-cover__btn"
                 #satOuterCoverTip="matTooltip"
                 [matTooltip]="satCov.tooltip"
                 [matTooltipShowDelay]="orbitCoverTooltipShowDelay()"
@@ -240,10 +247,10 @@
                 <img
                   [src]="satCov.coverUrl"
                   alt=""
-                  class="mix-orbit-cover__img"
+                  class="adaptations-orbit-cover__img"
                 />
                 } @else {
-                <span class="mix-orbit-cover__fallback" aria-hidden="true">{{
+                <span class="adaptations-orbit-cover__fallback" aria-hidden="true">{{
                   orbitCoverFallbackLetter(satCov.tooltip)
                 }}</span>
                 }

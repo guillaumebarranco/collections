@@ -62,10 +62,10 @@ import { Manwha } from '../../models/manwha-model';
 import { Manga } from '../../models/manga-model';
 import { Movie } from '../../models/movie-model';
 import { Serie } from '../../models/serie-model';
-import { MixBaseWorksGalaxyComponent } from './mix-base-works-galaxy/mix-base-works-galaxy.component';
+import { AdaptationsBaseWorksGalaxyComponent } from './adaptations-base-works-galaxy/adaptations-base-works-galaxy.component';
 
 /** Premier niveau de navigation (peu d’onglets). */
-export type MixPrimary =
+export type AdaptationsPrimary =
   | 'sagasFilmsSeries'
   | 'worksWithMovieAdaptations'
   | 'moviesGroupedBySource'
@@ -73,7 +73,7 @@ export type MixPrimary =
   | 'baseWorksGalaxy';
 
 /** Type d’œuvre source pour les vues « adaptations film » (second niveau). */
-export type MixAdaptationSource =
+export type AdaptationsAdaptationSource =
   | 'book'
   | 'bd'
   | 'comic'
@@ -82,7 +82,7 @@ export type MixAdaptationSource =
   | 'game'
   | 'serie';
 
-export const mixPrimaryOptions: ViewToggleOption[] = [
+export const adaptationsPrimaryOptions: ViewToggleOption[] = [
   { value: 'baseWorksGalaxy', label: 'Galaxie des licences' },
   { value: 'sagasFilmsSeries', label: 'Sagas films / séries' },
   { value: 'worksWithMovieAdaptations', label: 'Œuvres → leurs films' },
@@ -90,7 +90,7 @@ export const mixPrimaryOptions: ViewToggleOption[] = [
   { value: 'gamesFromFilms', label: 'Jeux d’après un film' },
 ];
 
-export const mixAdaptationSourceOptions: ViewToggleOption[] = [
+export const adaptationsAdaptationSourceOptions: ViewToggleOption[] = [
   { value: 'book', label: 'Livre' },
   { value: 'bd', label: 'BD franco' },
   { value: 'comic', label: 'Comic US' },
@@ -154,13 +154,13 @@ export type GameFromFilmRow = {
 };
 
 @Component({
-  selector: 'app-mix',
+  selector: 'app-adaptations',
   standalone: true,
   imports: [
     CommonModule,
     MenuComponent,
     ViewToggleComponent,
-    MixBaseWorksGalaxyComponent,
+    AdaptationsBaseWorksGalaxyComponent,
     BdComponent,
     BookComponent,
     ComicComponent,
@@ -170,11 +170,11 @@ export type GameFromFilmRow = {
     MovieComponent,
     SerieComponent,
   ],
-  templateUrl: './mix.component.html',
-  styleUrls: ['./mix.component.scss'],
+  templateUrl: './adaptations.component.html',
+  styleUrls: ['./adaptations.component.scss'],
   changeDetection: ChangeDetectionStrategy.OnPush,
 })
-export class MixComponent implements OnInit {
+export class AdaptationsComponent implements OnInit {
   private readonly router = inject(Router);
   private readonly destroyRef = inject(DestroyRef);
   private readonly authService = inject(AuthService);
@@ -192,12 +192,12 @@ export class MixComponent implements OnInit {
   readonly baseMovies = signal<BaseMovie[]>([]);
   readonly baseSeries = signal<BaseSerie[]>([]);
 
-  readonly selectedPrimary = signal<MixPrimary>('baseWorksGalaxy');
-  readonly selectedAdaptationSource = signal<MixAdaptationSource>('book');
+  readonly selectedPrimary = signal<AdaptationsPrimary>('baseWorksGalaxy');
+  readonly selectedAdaptationSource = signal<AdaptationsAdaptationSource>('book');
   readonly isLoading = signal<boolean>(true);
 
-  readonly primaryViewOptions = mixPrimaryOptions;
-  readonly adaptationSourceOptions = mixAdaptationSourceOptions;
+  readonly primaryViewOptions = adaptationsPrimaryOptions;
+  readonly adaptationSourceOptions = adaptationsAdaptationSourceOptions;
 
   constructor() {
     this.router.events
@@ -568,11 +568,11 @@ export class MixComponent implements OnInit {
   }
 
   onPrimaryChange(value: string): void {
-    this.selectedPrimary.set(value as MixPrimary);
+    this.selectedPrimary.set(value as AdaptationsPrimary);
   }
 
   onAdaptationSourceChange(value: string): void {
-    this.selectedAdaptationSource.set(value as MixAdaptationSource);
+    this.selectedAdaptationSource.set(value as AdaptationsAdaptationSource);
   }
 
   private async loadData(): Promise<void> {

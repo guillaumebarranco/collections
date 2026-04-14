@@ -100,7 +100,13 @@ export class MenuComponent implements OnInit {
     { label: 'Comics', icon: '🦸', key: 'comics', hideOnMobile: false },
     { label: 'BD', icon: '📗', key: 'bds', hideOnMobile: false },
     { label: 'Musiques', icon: '🎵', key: 'musics', hideOnMobile: true },
-    { label: 'Mix', icon: '🔀', key: 'mix', hideOnMobile: false, group: 'extras' },
+    {
+      label: 'Adaptations',
+      icon: '🔀',
+      key: 'adaptations',
+      hideOnMobile: false,
+      group: 'extras',
+    },
     { label: 'Quizz', icon: '🎯', key: 'quizzs', hideOnMobile: false, group: 'extras' },
   ];
 
@@ -196,7 +202,7 @@ export class MenuComponent implements OnInit {
     return this.visibleMenuItems.filter((item) => screenKeys.has(item.key));
   }
 
-  /** Entrées du sous-menu Extras (Mix, Quizz). */
+  /** Entrées du sous-menu Extras (Adaptations, Quizz). */
   get extrasMenuItems() {
     return this.visibleMenuItems.filter(
       (item) => (item as { group?: string }).group === 'extras'

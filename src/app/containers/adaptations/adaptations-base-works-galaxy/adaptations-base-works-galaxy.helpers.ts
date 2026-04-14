@@ -81,7 +81,7 @@ export type BaseWorkGalaxy = {
 };
 
 /** Bloc affiché : saga livres + BD + films catalogue / saga de jeux / œuvre isolée. */
-export type MixBaseWorksViewBlock =
+export type AdaptationsBaseWorksViewBlock =
   | {
       blockKind: 'bookSaga';
       sagaKey: string;
@@ -108,10 +108,10 @@ export type BaseWorkOrbitSatellite =
   | { kind: 'manwha'; data: Manwha };
 
 /** Nombre minimum d’œuvres (centre + satellites) pour afficher un bloc « licence ». */
-export const MIX_BASE_LICENSE_GALAXY_MIN_WORKS = 3;
+export const ADAPTATIONS_BASE_LICENSE_GALAXY_MIN_WORKS = 3;
 
 /** Une carte « galaxie » : un seul centre + anneau fusionné. */
-export type MixBaseWorkOrbitPanel = {
+export type AdaptationsBaseWorkOrbitPanel = {
   orbitKey: string;
   blockKind: 'bookSaga' | 'gameSaga' | 'standalone';
   sagaDisplayName?: string;
@@ -141,7 +141,7 @@ export type MixBaseWorkOrbitPanel = {
 };
 
 /** Couverture + texte d’infobulle pour les vignettes orbite. */
-export type MixOrbitCoverInfo = {
+export type AdaptationsOrbitCoverInfo = {
   coverUrl: string | null;
   tooltip: string;
 };
@@ -199,7 +199,7 @@ export function partitionOrbitSatellitesForDualRing(
 }
 
 /** Normalise pour recherche insensible aux accents et à la casse. */
-export function normalizeForMixBaseSearch(raw: string): string {
+export function normalizeForAdaptationsBaseSearch(raw: string): string {
   return raw
     .normalize('NFD')
     .replace(/[\u0300-\u036f]/g, '')
@@ -207,8 +207,8 @@ export function normalizeForMixBaseSearch(raw: string): string {
     .trim();
 }
 
-export function buildMixBaseWorkPanelSearchHaystack(
-  panel: MixBaseWorkOrbitPanel
+export function buildAdaptationsBaseWorkPanelSearchHaystack(
+  panel: AdaptationsBaseWorkOrbitPanel
 ): string {
   const parts: string[] = [
     panel.headerPrimaryLabel,
@@ -273,11 +273,11 @@ export function buildMixBaseWorkPanelSearchHaystack(
         break;
     }
   }
-  return normalizeForMixBaseSearch(parts.filter(Boolean).join(' '));
+  return normalizeForAdaptationsBaseSearch(parts.filter(Boolean).join(' '));
 }
 
-/** Libellés FR des types d’entité (orbite + Mix). */
-const MIX_ORBIT_ENTITY_LABELS: Record<string, string> = {
+/** Libellés FR des types d’entité (orbite + adaptations). */
+const ADAPTATIONS_ORBIT_ENTITY_LABELS: Record<string, string> = {
   book: 'Livre',
   bd: 'BD franco',
   comic: 'Comic US',
@@ -336,32 +336,32 @@ function gameSagaMatchesBookSagaBlock(
   return canonicalFranchiseSagaKey(gk) === blockSagaKeyNorm;
 }
 
-export function mixOrbitEntityKindLabel(kind: string): string {
-  return MIX_ORBIT_ENTITY_LABELS[kind] ?? kind;
+export function adaptationsOrbitEntityKindLabel(kind: string): string {
+  return ADAPTATIONS_ORBIT_ENTITY_LABELS[kind] ?? kind;
 }
 
-function mixOrbitTrimCoverUrl(url: string | undefined | null): string | null {
+function adaptationsOrbitTrimCoverUrl(url: string | undefined | null): string | null {
   const t = url?.trim();
   return t ? t : null;
 }
 
-export function mixOrbitCover(
+export function adaptationsOrbitCover(
   coverUrl: string | undefined | null,
   title: string,
   secondLine?: string,
   entityKindKey?: string
-): MixOrbitCoverInfo {
+): AdaptationsOrbitCoverInfo {
   const main = secondLine?.trim()
     ? `${title.trim()} — ${secondLine.trim()}`
     : title.trim();
   const base = main || 'Sans titre';
   const kindLabel =
     entityKindKey && entityKindKey.trim()
-      ? mixOrbitEntityKindLabel(entityKindKey.trim())
+      ? adaptationsOrbitEntityKindLabel(entityKindKey.trim())
       : '';
   const tooltip = kindLabel ? `${base} · ${kindLabel}` : base;
   return {
-    coverUrl: mixOrbitTrimCoverUrl(coverUrl),
+    coverUrl: adaptationsOrbitTrimCoverUrl(coverUrl),
     tooltip,
   };
 }
@@ -400,9 +400,9 @@ export function manwhaEntityKey(m: Manwha): string {
 
 /**
  * Type de média catalogue pour la pondération transmédia (voir
- * {@link mixBaseWeightForKinds} et {@link blockCrossMediaExportScore}).
+ * {@link adaptationsBaseWeightForKinds} et {@link blockCrossMediaExportScore}).
  */
-type MixBaseScoreKind =
+type AdaptationsBaseScoreKind =
   | 'book'
   | 'bd'
   | 'comic'
@@ -412,22 +412,22 @@ type MixBaseScoreKind =
   | 'movie'
   | 'serie';
 
-const MIX_BASE_WORK_SAME_MEDIUM_WEIGHT = 2;
-const MIX_BASE_WORK_CROSS_MEDIUM_WEIGHT = 5;
+const ADAPTATIONS_BASE_WORK_SAME_MEDIUM_WEIGHT = 2;
+const ADAPTATIONS_BASE_WORK_CROSS_MEDIUM_WEIGHT = 5;
 
 /** Pivot BD ou comic : chaque album / série graphique de la saga compte 0,5 pt (pas 2). */
-const MIX_BASE_GRAPHIC_SERIAL_SAGA_WEIGHT = 0.5;
+const ADAPTATIONS_BASE_GRAPHIC_SERIAL_SAGA_WEIGHT = 0.5;
 
 /** Pivot manga : 0,5 pt par tome catalogue (= 0,5 × nbTomes par série). */
-const MIX_BASE_MANGA_TOME_SCORE_WEIGHT = 0.5;
+const ADAPTATIONS_BASE_MANGA_TOME_SCORE_WEIGHT = 0.5;
 
-function mixBaseMangaPrimaryScorePoints(nbTomes: number | undefined): number {
+function adaptationsBaseMangaPrimaryScorePoints(nbTomes: number | undefined): number {
   const n = nbTomes ?? 1;
-  return MIX_BASE_MANGA_TOME_SCORE_WEIGHT * Math.max(1, n);
+  return ADAPTATIONS_BASE_MANGA_TOME_SCORE_WEIGHT * Math.max(1, n);
 }
 
 /** Tranches catalogue alignées sur le merge de l’orbite (sagas jeux / livres). */
-export type MixBaseWorksScoreCatalog = {
+export type AdaptationsBaseWorksScoreCatalog = {
   baseBooks: BaseBook[];
   baseBds: BaseBd[];
   baseComics: BaseComic[];
@@ -440,9 +440,9 @@ export type MixBaseWorksScoreCatalog = {
 /**
  * Type pivot déduit de la galaxie centrale (entité résolue, sinon fromEntityType).
  */
-function mixBasePrimaryScoreKindFromGalaxy(
+function adaptationsBasePrimaryScoreKindFromGalaxy(
   g: BaseWorkGalaxy | undefined | null
-): MixBaseScoreKind {
+): AdaptationsBaseScoreKind {
   if (!g) {
     return 'book';
   }
@@ -472,39 +472,39 @@ function mixBasePrimaryScoreKindFromGalaxy(
  * Type de l’œuvre d’origine du bloc : même logique de pivot que l’orbite
  * (saga franchise : {@link pickCentralGalaxyForFranchiseSaga} ; saga jeux : jeu).
  */
-function mixBaseBlockPrimaryScoreKind(
-  block: MixBaseWorksViewBlock
-): MixBaseScoreKind {
+function adaptationsBaseBlockPrimaryScoreKind(
+  block: AdaptationsBaseWorksViewBlock
+): AdaptationsBaseScoreKind {
   if (block.blockKind === 'gameSaga') {
     return 'game';
   }
   if (block.blockKind === 'bookSaga') {
     const central = pickCentralGalaxyForFranchiseSaga(block.galaxies);
-    return mixBasePrimaryScoreKindFromGalaxy(central);
+    return adaptationsBasePrimaryScoreKindFromGalaxy(central);
   }
-  return mixBasePrimaryScoreKindFromGalaxy(block.galaxies[0]);
+  return adaptationsBasePrimaryScoreKindFromGalaxy(block.galaxies[0]);
 }
 
-function mixBaseWeightForKinds(
-  workKind: MixBaseScoreKind,
-  primary: MixBaseScoreKind
+function adaptationsBaseWeightForKinds(
+  workKind: AdaptationsBaseScoreKind,
+  primary: AdaptationsBaseScoreKind
 ): number {
   const primaryIsGraphicSerial = primary === 'bd' || primary === 'comic';
   const workIsGraphicSerial = workKind === 'bd' || workKind === 'comic';
   if (primaryIsGraphicSerial && workIsGraphicSerial) {
-    return MIX_BASE_GRAPHIC_SERIAL_SAGA_WEIGHT;
+    return ADAPTATIONS_BASE_GRAPHIC_SERIAL_SAGA_WEIGHT;
   }
   if (workKind === primary) {
-    return MIX_BASE_WORK_SAME_MEDIUM_WEIGHT;
+    return ADAPTATIONS_BASE_WORK_SAME_MEDIUM_WEIGHT;
   }
-  return MIX_BASE_WORK_CROSS_MEDIUM_WEIGHT;
+  return ADAPTATIONS_BASE_WORK_CROSS_MEDIUM_WEIGHT;
 }
 
 /**
  * Texte d’infobulle pour le score affiché sur le titre de bloc (pondération 1 / 5).
  */
-export function mixBaseWorksCrossMediaScoreTooltip(score: number): string {
-  return `Score d'export transmédia : ${score} points (règles : pivot BD/comic → 0,5 pt par BD ou comic de la saga ; pivot manga → 0,5 pt × nbTomes par série ; sinon même type ×${MIX_BASE_WORK_SAME_MEDIUM_WEIGHT}, autre type ×${MIX_BASE_WORK_CROSS_MEDIUM_WEIGHT})`;
+export function adaptationsBaseWorksCrossMediaScoreTooltip(score: number): string {
+  return `Score d'export transmédia : ${score} points (règles : pivot BD/comic → 0,5 pt par BD ou comic de la saga ; pivot manga → 0,5 pt × nbTomes par série ; sinon même type ×${ADAPTATIONS_BASE_WORK_SAME_MEDIUM_WEIGHT}, autre type ×${ADAPTATIONS_BASE_WORK_CROSS_MEDIUM_WEIGHT})`;
 }
 
 /**
@@ -512,9 +512,9 @@ export function mixBaseWorksCrossMediaScoreTooltip(score: number): string {
  * les jeux d’une saga jeu, pas seulement les hubs touchés par un fromEntity).
  */
 function addCatalogWorksToBlockCrossMediaScore(
-  block: MixBaseWorksViewBlock,
-  catalog: MixBaseWorksScoreCatalog,
-  primary: MixBaseScoreKind,
+  block: AdaptationsBaseWorksViewBlock,
+  catalog: AdaptationsBaseWorksScoreCatalog,
+  primary: AdaptationsBaseScoreKind,
   add: (
     kind:
       | 'book'
@@ -575,7 +575,7 @@ function addCatalogWorksToBlockCrossMediaScore(
       if (catalogFranchiseSagaMatchesBlock(bmg.saga, sagaKeyNorm)) {
         const w =
           primary === 'manga'
-            ? mixBaseMangaPrimaryScorePoints(bmg.nbTomes)
+            ? adaptationsBaseMangaPrimaryScorePoints(bmg.nbTomes)
             : undefined;
         add('manga', mangaEntityKey(getFullManga(bmg)), w);
       }
@@ -612,22 +612,22 @@ function addCatalogWorksToBlockCrossMediaScore(
  * sont incluses même si elles ne sont pas centre d’un hub « fromEntity ».
  */
 export function blockCrossMediaExportScore(
-  block: MixBaseWorksViewBlock,
-  catalog: MixBaseWorksScoreCatalog
+  block: AdaptationsBaseWorksViewBlock,
+  catalog: AdaptationsBaseWorksScoreCatalog
 ): number {
-  const primary = mixBaseBlockPrimaryScoreKind(block);
+  const primary = adaptationsBaseBlockPrimaryScoreKind(block);
   const seen = new Set<string>();
   let total = 0;
 
   const add = (
-    kind: MixBaseScoreKind,
+    kind: AdaptationsBaseScoreKind,
     entityKey: string,
     weightOverride?: number
   ): void => {
     const id = `${kind}:${entityKey}`;
     if (seen.has(id)) return;
     seen.add(id);
-    total += weightOverride ?? mixBaseWeightForKinds(kind, primary);
+    total += weightOverride ?? adaptationsBaseWeightForKinds(kind, primary);
   };
 
   for (const gal of block.galaxies) {
@@ -638,7 +638,7 @@ export function blockCrossMediaExportScore(
       const mk = mangaEntityKey(gal.manga);
       const w =
         primary === 'manga'
-          ? mixBaseMangaPrimaryScorePoints(gal.manga.nbTomes)
+          ? adaptationsBaseMangaPrimaryScorePoints(gal.manga.nbTomes)
           : undefined;
       add('manga', mk, w);
     }
@@ -657,7 +657,7 @@ export function blockCrossMediaExportScore(
       const mk = mangaEntityKey(m);
       const w =
         primary === 'manga'
-          ? mixBaseMangaPrimaryScorePoints(m.nbTomes)
+          ? adaptationsBaseMangaPrimaryScorePoints(m.nbTomes)
           : undefined;
       add('manga', mk, w);
     }
@@ -1052,8 +1052,8 @@ function isoDateStringToYear(raw: string | undefined | null): number | null {
 }
 
 /** Année de l’œuvre centrale et « âge » de la licence (année courante − année de base, min. 1). */
-export function mixBaseCentralLicenseYearMeta(
-  central: MixBaseWorkOrbitPanel['central']
+export function adaptationsBaseCentralLicenseYearMeta(
+  central: AdaptationsBaseWorkOrbitPanel['central']
 ): { baseYear: number; existenceYears: number } | null {
   let baseYear: number | null = null;
   if (central.book) {
@@ -1154,7 +1154,7 @@ function baseWorkOrbitHeaderPrimaryLabel(g: BaseWorkGalaxy): string {
 
 function centralFromGalaxy(
   g: BaseWorkGalaxy
-): MixBaseWorkOrbitPanel['central'] {
+): AdaptationsBaseWorkOrbitPanel['central'] {
   return {
     book: g.book,
     bd: g.bd,
@@ -1201,7 +1201,7 @@ function centralFromGalaxy(
 }
 
 function baseWorksBlockToOrbitPanel(
-  block: MixBaseWorksViewBlock,
+  block: AdaptationsBaseWorksViewBlock,
   allBaseBooks: BaseBook[],
   allBaseBds: BaseBd[],
   allBaseComics: BaseComic[],
@@ -1209,7 +1209,7 @@ function baseWorksBlockToOrbitPanel(
   allBaseSeries: BaseSerie[],
   allBaseGames: BaseGame[],
   allBaseMangas: BaseManga[]
-): MixBaseWorkOrbitPanel {
+): AdaptationsBaseWorkOrbitPanel {
   if (block.blockKind === 'standalone') {
     const g = block.galaxies[0];
     const movies = mergeDedupeMovies([g.derivedMovies]);
@@ -1268,9 +1268,9 @@ function baseWorksBlockToOrbitPanel(
       ...games.map((data) => ({ kind: 'game' as const, data })),
     ];
     const centralStandalone = centralFromGalaxy(g);
-    const licSt = mixBaseCentralLicenseYearMeta(centralStandalone);
+    const licSt = adaptationsBaseCentralLicenseYearMeta(centralStandalone);
     return {
-      orbitKey: `bbwg-st:${g.uniqueKey}`,
+      orbitKey: `abwg-st:${g.uniqueKey}`,
       blockKind: 'standalone',
       headerPrimaryLabel: baseWorkOrbitHeaderPrimaryLabel(g),
       standaloneFromEntityType: g.fromEntityType,
@@ -1316,9 +1316,9 @@ function baseWorksBlockToOrbitPanel(
     ];
 
     const centralGameSaga = centralFromGalaxy(centralGalaxy);
-    const licGs = mixBaseCentralLicenseYearMeta(centralGameSaga);
+    const licGs = adaptationsBaseCentralLicenseYearMeta(centralGameSaga);
     return {
-      orbitKey: `bbwg-game-saga:${block.sagaKey}`,
+      orbitKey: `abwg-game-saga:${block.sagaKey}`,
       blockKind: 'gameSaga',
       sagaDisplayName: block.sagaDisplayName,
       headerPrimaryLabel: block.sagaDisplayName,
@@ -1545,15 +1545,15 @@ function baseWorksBlockToOrbitPanel(
   ];
 
   const baseCentralSaga = centralFromGalaxy(centralGalaxy);
-  const centralBookSaga: MixBaseWorkOrbitPanel['central'] =
+  const centralBookSaga: AdaptationsBaseWorkOrbitPanel['central'] =
     catalogVol1.book
       ? { ...baseCentralSaga, book: catalogVol1.book, bd: null }
       : catalogVol1.bd
         ? { ...baseCentralSaga, bd: catalogVol1.bd, book: null }
         : baseCentralSaga;
-  const licBs = mixBaseCentralLicenseYearMeta(centralBookSaga);
+  const licBs = adaptationsBaseCentralLicenseYearMeta(centralBookSaga);
   return {
-    orbitKey: `bbwg-saga:${block.sagaKey}`,
+    orbitKey: `abwg-saga:${block.sagaKey}`,
     blockKind: 'bookSaga',
     sagaDisplayName: block.sagaDisplayName,
     headerPrimaryLabel: block.sagaDisplayName,
@@ -1566,27 +1566,27 @@ function baseWorksBlockToOrbitPanel(
 }
 
 /** Référence hub « fromEntity » (clé unique galaxie). */
-type MixBaseFromEntityHub = {
+type AdaptationsBaseFromEntityHub = {
   entityType: string;
   title: string;
   secondEntityKey: string;
 };
 
-const MIX_BASE_FROM_ENTITY_MAX_DEPTH = 12;
+const ADAPTATIONS_BASE_FROM_ENTITY_MAX_DEPTH = 12;
 
 /**
  * Remonte la chaîne film → … → jeu → … jusqu’à l’œuvre « terminale » (livre, comic,
  * manga, etc.) pour rattacher adaptations et dérivés au même hub que l’UI le ferait
  * « à la main » (ex. jeu du film *Superman Returns* sur l’orbite du comic *Superman*).
  */
-function resolveMixBaseTransmediaHub(
-  fe: MixBaseFromEntityHub,
+function resolveAdaptationsBaseTransmediaHub(
+  fe: AdaptationsBaseFromEntityHub,
   baseMovies: BaseMovie[],
   baseSeries: BaseSerie[],
   baseGames: BaseGame[]
-): MixBaseFromEntityHub {
+): AdaptationsBaseFromEntityHub {
   let cur = fe;
-  for (let depth = 0; depth < MIX_BASE_FROM_ENTITY_MAX_DEPTH; depth++) {
+  for (let depth = 0; depth < ADAPTATIONS_BASE_FROM_ENTITY_MAX_DEPTH; depth++) {
     if (cur.entityType === 'movie') {
       const row = baseMovies.find(
         (m) => m.title === cur.title && m.director === cur.secondEntityKey
@@ -1634,7 +1634,7 @@ function resolveMixBaseTransmediaHub(
   return cur;
 }
 
-export function buildMixBaseWorksBlocks(
+export function buildAdaptationsBaseWorksBlocks(
   baseBooks: BaseBook[],
   baseBds: BaseBd[],
   baseComics: BaseComic[],
@@ -1643,7 +1643,7 @@ export function buildMixBaseWorksBlocks(
   baseGames: BaseGame[],
   baseSeries: BaseSerie[],
   baseMovies: BaseMovie[]
-): MixBaseWorksViewBlock[] {
+): AdaptationsBaseWorksViewBlock[] {
   type MutableGalaxy = {
     fromEntityType: string;
     sourceTitle: string;
@@ -1670,7 +1670,7 @@ export function buildMixBaseWorksBlocks(
   const map = new Map<string, MutableGalaxy>();
 
   const touchGalaxy = (
-    fe: MixBaseFromEntityHub,
+    fe: AdaptationsBaseFromEntityHub,
     fn: (g: MutableGalaxy) => void
   ): void => {
     const uniqueKey = `${fe.entityType}|${fe.title}|${fe.secondEntityKey}`;
@@ -1706,7 +1706,7 @@ export function buildMixBaseWorksBlocks(
   for (const bm of baseMovies) {
     const fe = bm.fromEntity;
     if (!fe) continue;
-    const hub = resolveMixBaseTransmediaHub(
+    const hub = resolveAdaptationsBaseTransmediaHub(
       {
         entityType: fe.entityType,
         title: fe.title,
@@ -1722,7 +1722,7 @@ export function buildMixBaseWorksBlocks(
   for (const bs of baseSeries) {
     const fe = bs.fromEntity;
     if (!fe) continue;
-    const hub = resolveMixBaseTransmediaHub(
+    const hub = resolveAdaptationsBaseTransmediaHub(
       {
         entityType: fe.entityType,
         title: fe.title,
@@ -1738,7 +1738,7 @@ export function buildMixBaseWorksBlocks(
   for (const bg of baseGames) {
     const fe = bg.fromEntity;
     if (!fe) continue;
-    const hub = resolveMixBaseTransmediaHub(
+    const hub = resolveAdaptationsBaseTransmediaHub(
       {
         entityType: fe.entityType,
         title: fe.title,
@@ -1757,7 +1757,7 @@ export function buildMixBaseWorksBlocks(
   for (const bm of baseMangas) {
     const fe = bm.fromEntity;
     if (!fe) continue;
-    const hub = resolveMixBaseTransmediaHub(
+    const hub = resolveAdaptationsBaseTransmediaHub(
       {
         entityType: fe.entityType,
         title: fe.title,
@@ -1919,7 +1919,7 @@ export function buildMixBaseWorksBlocks(
     sagaGameMap.delete(gameKey);
   }
 
-  const sagaBlocks: MixBaseWorksViewBlock[] = Array.from(
+  const sagaBlocks: AdaptationsBaseWorksViewBlock[] = Array.from(
     franchiseSagaMap.entries()
   ).map(([sagaKey, entry]) => {
     entry.galaxies.sort((a, b) => {
@@ -1969,7 +1969,7 @@ export function buildMixBaseWorksBlocks(
     };
   });
 
-  const gameSagaBlocks: MixBaseWorksViewBlock[] = Array.from(
+  const gameSagaBlocks: AdaptationsBaseWorksViewBlock[] = Array.from(
     sagaGameMap.entries()
   ).map(([sagaKey, entry]) => {
     entry.galaxies.sort((a, b) => {
@@ -1992,16 +1992,16 @@ export function buildMixBaseWorksBlocks(
   standaloneGalaxies.sort((a, b) =>
     a.uniqueKey.localeCompare(b.uniqueKey, 'fr')
   );
-  const standaloneBlocks: MixBaseWorksViewBlock[] = standaloneGalaxies.map(
+  const standaloneBlocks: AdaptationsBaseWorksViewBlock[] = standaloneGalaxies.map(
     (galaxy) => ({ blockKind: 'standalone' as const, galaxies: [galaxy] })
   );
 
-  const blockSortLabel = (block: MixBaseWorksViewBlock): string =>
+  const blockSortLabel = (block: AdaptationsBaseWorksViewBlock): string =>
     block.blockKind === 'bookSaga' || block.blockKind === 'gameSaga'
       ? block.sagaDisplayName
       : block.galaxies[0]?.sourceTitle ?? '';
 
-  const scoreCatalog: MixBaseWorksScoreCatalog = {
+  const scoreCatalog: AdaptationsBaseWorksScoreCatalog = {
     baseBooks,
     baseBds,
     baseComics,
@@ -2022,8 +2022,8 @@ export function buildMixBaseWorksBlocks(
   );
 }
 
-export function buildMixBaseWorkOrbitPanelsSorted(
-  blocks: MixBaseWorksViewBlock[],
+export function buildAdaptationsBaseWorkOrbitPanelsSorted(
+  blocks: AdaptationsBaseWorksViewBlock[],
   baseBooks: BaseBook[],
   baseBds: BaseBd[],
   baseComics: BaseComic[],
@@ -2031,8 +2031,8 @@ export function buildMixBaseWorkOrbitPanelsSorted(
   baseSeries: BaseSerie[],
   baseGames: BaseGame[],
   baseMangas: BaseManga[]
-): MixBaseWorkOrbitPanel[] {
-  const scoreCatalog: MixBaseWorksScoreCatalog = {
+): AdaptationsBaseWorkOrbitPanel[] {
+  const scoreCatalog: AdaptationsBaseWorksScoreCatalog = {
     baseBooks,
     baseBds,
     baseComics,
@@ -2059,7 +2059,7 @@ export function buildMixBaseWorkOrbitPanelsSorted(
       };
     })
     .filter(
-      (p) => p.satelliteCount + 1 >= MIX_BASE_LICENSE_GALAXY_MIN_WORKS
+      (p) => p.satelliteCount + 1 >= ADAPTATIONS_BASE_LICENSE_GALAXY_MIN_WORKS
     );
   return panels.sort((a, b) => {
     const scoreA = a.crossMediaExportScore ?? 0;
@@ -2073,7 +2073,7 @@ export function buildMixBaseWorkOrbitPanelsSorted(
 }
 
 export function isCentralConsumed(
-  central: MixBaseWorkOrbitPanel['central'],
+  central: AdaptationsBaseWorkOrbitPanel['central'],
   c: UserBaseGalaxyConsumption
 ): boolean {
   if (central.book) {
