@@ -29,7 +29,11 @@
       <button
         class="makya-btn-small"
         [routerLink]="getSelectMangasRoute()"
-        [queryParams]="{ readlist: selectedView() === 'readlist' }"
+        [queryParams]="{
+          readlist:
+            selectedView() === 'readlist' ||
+            selectedView() === 'readingInProgress',
+        }"
         title="Ajouter des mangas"
       >
         ➕

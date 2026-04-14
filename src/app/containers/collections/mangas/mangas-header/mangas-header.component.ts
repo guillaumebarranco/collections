@@ -66,13 +66,17 @@ export class MangasHeaderComponent {
   searchTerm = signal<string>('');
 
   addMangasButtonLabel = computed(() =>
-    this.selectedView() === 'readlist'
+    this.selectedView() === 'readlist' ||
+    this.selectedView() === 'readingInProgress'
       ? 'Ajouter des mangas à lire'
       : 'Ajouter des mangas'
   );
 
   canShowAddMangasButton = computed(
-    () => this.selectedView() === 'read' || this.selectedView() === 'readlist'
+    () =>
+      this.selectedView() === 'read' ||
+      this.selectedView() === 'readlist' ||
+      this.selectedView() === 'readingInProgress'
   );
 
   canShowUpdateMangasRatingButton = computed(
@@ -87,13 +91,17 @@ export class MangasHeaderComponent {
     () =>
       this.selectedView() === 'read' ||
       this.selectedView() === 'readlist' ||
+      this.selectedView() === 'readingInProgress' ||
       this.selectedView() === 'owned'
   );
 
   canShowTopFiveRankButton = computed(() => this.selectedView() === 'read');
 
   canShowSortDropdown = computed(
-    () => this.selectedView() === 'read' || this.selectedView() === 'readlist'
+    () =>
+      this.selectedView() === 'read' ||
+      this.selectedView() === 'readlist' ||
+      this.selectedView() === 'readingInProgress'
   );
 
   canShowFiltersAndSearch = computed(
@@ -102,6 +110,7 @@ export class MangasHeaderComponent {
       (this.searchTerm() !== '' &&
         (this.selectedView() === 'read' ||
           this.selectedView() === 'readlist' ||
+          this.selectedView() === 'readingInProgress' ||
           this.selectedView() === 'toReRead' ||
           this.selectedView() === 'owned' ||
           this.selectedView() === 'recommendations'))
@@ -117,6 +126,8 @@ export class MangasHeaderComponent {
         return "Vous n'avez renseigné aucun manga lu";
       case 'readlist':
         return 'Vous n\'avez marqué aucun manga comme "à lire". Vous pouvez le faire via le bouton au-dessus.';
+      case 'readingInProgress':
+        return "Vous n'avez aucun manga en cours de lecture. Depuis « Mangas à lire », utilisez « J'ai commencé ce manga » sur un titre.";
       case 'toReRead':
         return 'Vous n\'avez marqué aucun manga comme "à relire". Rendez-vous sur vos mangas lus et éditez une fiche pour le marquer comme "à relire".';
       case 'owned':
@@ -144,6 +155,8 @@ export class MangasHeaderComponent {
   mangasPageTitle = computed(() =>
     this.selectedView() === 'readlist'
       ? 'Mangas à lire'
+      : this.selectedView() === 'readingInProgress'
+      ? 'Mangas en cours de lecture'
       : this.selectedView() === 'owned'
       ? 'Mangas possédés'
       : this.selectedView() === 'borrowed'

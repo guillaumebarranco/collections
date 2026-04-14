@@ -47,6 +47,11 @@
     <span class="missing-badge" style="background-color: #00695c; color: white"
       >Prêté à {{ manga.loaned }}</span
     >
+    } @if ((manga.readTimes ?? 0) === 0.5 && isReadlistView && !isBaseEntityView)
+    {
+    <span class="missing-badge" style="background-color: #3f51b5; color: white"
+      >Lecture en cours</span
+    >
     }
   </ng-container>
   <img
@@ -87,12 +92,14 @@
       [recommendationBadge]="recommendationBadge"
       [showRating]="!isBaseEntityView"
       [selectedView]="selectedView"
+      [listReadTimes]="manga.readTimes ?? 0"
       [showAddToMyListActions]="showAddToMyReadlist"
       [canAddToMyWishlist]="canAddToMyReadlist"
       [canAddToMyDone]="canAddAsRead"
       (openReview)="openReviewModal()"
       (priorityUpdated)="updateReadPriority($event)"
       (addFromList)="addMangaFromReadlist()"
+      (startedReadingClick)="onStartedReadingClick()"
       (addToList)="addToReadlist.emit(manga)"
       (wantToReReadClick)="wantToReRead.emit(manga)"
       (haveReReadClick)="haveReRead.emit(manga)"

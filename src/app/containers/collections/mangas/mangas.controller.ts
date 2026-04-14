@@ -113,6 +113,50 @@ export async function markMangaAsReRead(
   }
 }
 
+/** Readlist : marque le manga comme commencé (readTimes = 0.5), reste dans la readlist. */
+export async function markReadlistMangaAsStarted(
+  manga: Manga,
+  userId: string
+): Promise<boolean> {
+  try {
+    const response = await fetch(`${getApiBaseUrl()}/mangas`, {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({
+        userId,
+        title: manga.title,
+        author: manga.author,
+        rating: manga.rating ?? 0,
+        readTimes: 0.5,
+        readDate: manga.readDate ?? '',
+        owned: manga.owned ?? false,
+        borrowed: manga.borrowed ?? '',
+        loaned: manga.loaned ?? '',
+        readPriority: manga.readPriority ?? 1,
+        wantToReadAgain: manga.wantToReadAgain ?? false,
+        ratingComment: manga.ratingComment ?? '',
+      }),
+    });
+
+    if (!response.ok) {
+      const payload = await response.json().catch(() => ({}));
+      console.warn(
+        'Échec du marquage « en cours de lecture » :',
+        payload?.error || response.statusText
+      );
+      return false;
+    }
+
+    return true;
+  } catch (error) {
+    console.warn(
+      'Erreur réseau lors du marquage « en cours de lecture ».',
+      error
+    );
+    return false;
+  }
+}
+
 export async function addMangaToReadlist(
   manga: Manga,
   userId: string

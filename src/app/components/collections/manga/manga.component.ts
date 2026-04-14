@@ -70,6 +70,8 @@ export class MangaComponent {
   }>();
   @Output() wantToReRead = new EventEmitter<Manga>();
   @Output() haveReRead = new EventEmitter<Manga>();
+  /** Readlist : marqué « en cours » (readTimes 0.5), API OK. */
+  @Output() readlistStartedReading = new EventEmitter<Manga>();
   @Output() readlistMarkedAsRead = new EventEmitter<Manga>();
   @Input() showTopFiveSelector = false;
   @Input() topFiveRank: number | null = null;
@@ -79,6 +81,10 @@ export class MangaComponent {
 
   requestEdit(): void {
     this.editRequested.emit();
+  }
+
+  onStartedReadingClick(): void {
+    this.readlistStartedReading.emit(this.manga);
   }
 
   onTopFiveSelect(event: Event): void {
@@ -95,7 +101,7 @@ export class MangaComponent {
 
   getEntityData(): EntityCardEntityData {
     return {
-      alreadySeenRead: !!(this.manga.readTimes && this.manga.readTimes > 0),
+      alreadySeenRead: (this.manga.readTimes ?? 0) >= 1,
       alreadyInList: this.isInReadlist,
       rating: this.manga.rating ?? 0,
       hasRatingComment: !!this.manga.ratingComment,

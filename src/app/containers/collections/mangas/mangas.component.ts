@@ -1,4 +1,5 @@
 import {
+  ChangeDetectorRef,
   Component,
   inject,
   signal,
@@ -33,6 +34,8 @@ import {
   getTotalMangaTomesRead,
   getEstimatedMangaReadingTime,
   PAGES_PER_MANGA_TOME,
+  formatTimeStats,
+  MINUTES_PER_PAGE,
 } from '../../../utils/stats.utils';
 import { ActivatedRoute, Params, Router, RouterLink } from '@angular/router';
 import {
@@ -53,6 +56,7 @@ import {
   markMangaAsReRead as markMangaAsReReadApi,
   addMangaToReadlist as addMangaToReadlistApi,
   addMangaAsRead as addMangaAsReadApi,
+  markReadlistMangaAsStarted as markReadlistMangaAsStartedApi,
 } from './mangas.controller';
 import { TopFiveService } from '../../../services/top-five.service';
 import { FollowsService } from '../../../services/follows.service';
@@ -93,6 +97,8 @@ export class MangasComponent implements OnInit {
   private readonly followsService = inject(FollowsService);
   private readonly authService = inject(AuthService);
   private readonly badgesService = inject(BadgesService);
+  private readonly cdr = inject(ChangeDetectorRef);
+  private isInitializing = false;
   private isLoadingPreferences = false;
   private isLoadingViewConfig = false;
   private readonly viewConfigStorageKey = 'mangas_view_config';
@@ -138,6 +144,32 @@ export class MangasComponent implements OnInit {
 
   constructor() {
     effect(() => {
+      if (this.isInitializing) return;
+
+      const queryParams: Record<string, string | null> = {};
+
+      if (this.selectedView() !== 'read') {
+        queryParams['view'] = this.selectedView();
+      } else {
+        queryParams['view'] = null;
+      }
+
+      if (this.selectedSort() !== 'rating') {
+        queryParams['sort'] = this.selectedSort();
+      } else {
+        queryParams['sort'] = null;
+      }
+
+      this.router.navigate([], {
+        relativeTo: this.activatedRoute,
+        queryParams:
+          Object.keys(queryParams).length > 0 ? queryParams : {},
+        queryParamsHandling: 'merge',
+        replaceUrl: true,
+      });
+    });
+
+    effect(() => {
       if (this.isLoadingPreferences) return;
       const preferences = {
         view: this.selectedView(),
@@ -163,6 +195,34 @@ export class MangasComponent implements OnInit {
     });
   }
 
+  private loadParamsFromUrl(queryParams: Params): void {
+    const v = queryParams['view'];
+    if (
+      v === 'readlist' ||
+      v === 'readingInProgress' ||
+      v === 'read' ||
+      v === 'owned' ||
+      v === 'borrowed' ||
+      v === 'loaned' ||
+      v === 'toReRead' ||
+      v === 'recommendations'
+    ) {
+      this.selectedView.set(v as MangaView);
+      if (v === 'recommendations') {
+        void this.loadRecommendations();
+      }
+    }
+
+    if (queryParams['sort']) {
+      const validSort = this.sortOptions().find(
+        (opt) => opt.value === queryParams['sort']
+      );
+      if (validSort) {
+        this.selectedSort.set(queryParams['sort']);
+      }
+    }
+  }
+
   allMangas = computed<Manga[]>(() => {
     const params: Params = this.activatedRoute.snapshot.params;
     const hasNameParam = params['id'] !== undefined;
@@ -179,17 +239,19 @@ export class MangasComponent implements OnInit {
       : this.readlistMangasList()[DEFAULT_USER_ID];
   });
 
-  /** True si l'utilisateur a des items dans la vue courante (affiche stats, filtres, recherche). */
-  showFiltersAndSearch = computed(() =>
-    this.selectedView() === 'readlist'
-      ? this.allReadlistMangas().length > 0
-      : this.allMangas().length > 0
-  );
+  /** True si l'utilisateur a des mangas lus (affiche stats, filtres, recherche), comme les livres. */
+  showFiltersAndSearch = computed(() => this.allMangas().length > 0);
 
   filteredMangas = computed<Manga[]>(() => {
     let mangas: Manga[];
     if (this.selectedView() === 'readlist') {
-      mangas = this.allReadlistMangas();
+      mangas = this.allReadlistMangas().filter(
+        (m) => (m.readTimes ?? 0) !== 0.5
+      );
+    } else if (this.selectedView() === 'readingInProgress') {
+      mangas = this.allReadlistMangas().filter(
+        (m) => (m.readTimes ?? 0) === 0.5
+      );
     } else if (this.selectedView() === 'owned') {
       mangas = this.allMangas().filter((manga) => manga.owned);
     } else if (this.selectedView() === 'borrowed') {
@@ -235,19 +297,53 @@ export class MangasComponent implements OnInit {
   });
 
   sortedMangas = computed<Manga[]>(() =>
-    this.selectedView() === 'readlist'
+    this.selectedView() === 'readlist' ||
+    this.selectedView() === 'readingInProgress'
       ? getSortedMangas([...this.filteredMangas()], 'readPriority')
       : getSortedMangas([...this.filteredMangas()], this.selectedSort())
   );
 
   stats = computed<StatItem[]>(() => {
+    const list = this.filteredMangas();
     const totalTomes = this.calculateTotalTomes();
-    const totalPages = this.calculateTotalPages();
-    const totalTomesRead = getTotalMangaTomesRead(this.filteredMangas());
-    const totalPagesRead = getTotalMangaPages(this.filteredMangas());
-    const estimatedReadingTime = getEstimatedMangaReadingTime(
-      this.filteredMangas()
+    const totalPagesEstimate = list.reduce(
+      (acc, m) => acc + (m.nbTomes ?? 0) * PAGES_PER_MANGA_TOME,
+      0
     );
+
+    if (
+      this.selectedView() === 'readlist' ||
+      this.selectedView() === 'readingInProgress'
+    ) {
+      const estimatedFromPages = formatTimeStats(
+        totalPagesEstimate * MINUTES_PER_PAGE
+      );
+      return [
+        {
+          label: 'Total des tomes',
+          value: `${totalTomes.toLocaleString()} tomes`,
+          icon: '📚',
+          color: StatItemColor.SUCCESS,
+        },
+        {
+          label: 'Total des pages (estimation)',
+          value: `${totalPagesEstimate.toLocaleString()} pages`,
+          icon: '📖',
+          color: StatItemColor.INFO,
+        },
+        {
+          label: 'Temps estimé de lecture',
+          value: estimatedFromPages.formatted,
+          icon: '⏱️',
+          color: StatItemColor.PRIMARY,
+        },
+      ];
+    }
+
+    const totalPages = this.calculateTotalPages();
+    const totalTomesRead = getTotalMangaTomesRead(list);
+    const totalPagesRead = getTotalMangaPages(list);
+    const estimatedReadingTime = getEstimatedMangaReadingTime(list);
 
     return [
       {
@@ -299,7 +395,7 @@ export class MangasComponent implements OnInit {
   }
 
   private isViewOptionVisible(view: MangaView): boolean {
-    if (view === 'read' || view === 'readlist') {
+    if (view === 'read' || view === 'readlist' || view === 'readingInProgress') {
       return true;
     }
     return this.optionalViewConfig()[view];
@@ -354,8 +450,16 @@ export class MangasComponent implements OnInit {
   }
 
   async ngOnInit() {
+    this.isInitializing = true;
     this.loadViewConfigFromStorage();
     this.loadViewPreferencesFromStorage();
+    this.loadParamsFromUrl(this.activatedRoute.snapshot.queryParams);
+    this.isInitializing = false;
+    this.activatedRoute.queryParams.subscribe((queryParams) => {
+      this.isInitializing = true;
+      this.loadParamsFromUrl(queryParams);
+      this.isInitializing = false;
+    });
     await this.refreshMangas();
   }
 
@@ -415,6 +519,8 @@ export class MangasComponent implements OnInit {
     this.readlistMangasList.set(readlist);
     this.baseMangasList.set(baseMangas.map(getFullManga));
 
+    this.cdr.detectChanges();
+
     if (isViewingOther && connectedUserId) {
       const [connectedMangas, connectedReadlist] = await Promise.all([
         getAllMangas(connectedUserId),
@@ -449,6 +555,16 @@ export class MangasComponent implements OnInit {
         void this.refreshMangas();
       }
     });
+  }
+
+  async onReadlistStartedReading(manga: Manga): Promise<void> {
+    const ok = await markReadlistMangaAsStartedApi(
+      manga,
+      this.getActiveUserId()
+    );
+    if (ok) {
+      await this.refreshMangas();
+    }
   }
 
   async onReadlistMarkedAsRead(manga: Manga): Promise<void> {
@@ -643,7 +759,7 @@ export class MangasComponent implements OnInit {
     const alreadyRead = this.connectedUserMangas().some(
       (m) =>
         this.getMangaIdentityKey(m) === key &&
-        Boolean(m.readTimes && m.readTimes > 0)
+        (m.readTimes ?? 0) >= 1
     );
     return !inReadlist && !alreadyRead;
   }
@@ -653,7 +769,7 @@ export class MangasComponent implements OnInit {
     const alreadyRead = this.connectedUserMangas().some(
       (m) =>
         this.getMangaIdentityKey(m) === key &&
-        Boolean(m.readTimes && m.readTimes > 0)
+        (m.readTimes ?? 0) >= 1
     );
     return !alreadyRead;
   }

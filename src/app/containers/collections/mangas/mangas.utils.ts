@@ -3,13 +3,17 @@ import { Manga } from '../../../models/manga-model';
 export type MangaView =
   | 'read'
   | 'readlist'
+  | 'readingInProgress'
   | 'owned'
   | 'borrowed'
   | 'loaned'
   | 'toReRead'
   | 'recommendations';
 
-export type OptionalMangaView = Exclude<MangaView, 'read' | 'readlist'>;
+export type OptionalMangaView = Exclude<
+  MangaView,
+  'read' | 'readlist' | 'readingInProgress'
+>;
 
 export const mangasSortOptions: { value: string; label: string }[] = [
   { value: 'title', label: 'Titre (A-Z)' },
@@ -33,6 +37,7 @@ export const mangasSortOptions: { value: string; label: string }[] = [
 export const mangaViewOptions: { value: MangaView; label: string }[] = [
   { value: 'read', label: 'Mangas lus' },
   { value: 'readlist', label: 'Mangas à lire' },
+  { value: 'readingInProgress', label: 'En cours' },
   { value: 'owned', label: 'Mangas possédés' },
   { value: 'borrowed', label: 'Mangas empruntés' },
   { value: 'loaned', label: 'Mangas prêtés' },

@@ -64,8 +64,14 @@
     <div class="manga-card">
       <app-manga
         [manga]="manga"
-        [readOnly]="selectedView() === 'readlist'"
-        [isReadlistView]="selectedView() === 'readlist'"
+        [readOnly]="
+          selectedView() === 'readlist' ||
+          selectedView() === 'readingInProgress'
+        "
+        [isReadlistView]="
+          selectedView() === 'readlist' ||
+          selectedView() === 'readingInProgress'
+        "
         [selectedView]="selectedView()"
         [showTopFiveSelector]="showTopFiveRank()"
         [topFiveRank]="getTopFiveRank(manga)"
@@ -77,6 +83,7 @@
         (readPriorityUpdated)="updateReadPriority($event)"
         (wantToReRead)="markMangaAsWantToReRead($event)"
         (haveReRead)="markMangaAsReRead($event)"
+        (readlistStartedReading)="onReadlistStartedReading($event)"
         (readlistMarkedAsRead)="onReadlistMarkedAsRead($event)"
         (addToMyReadlist)="addMangaToConnectedUserReadlist($event)"
         (addToMyRead)="addMangaToConnectedUserAsRead($event)"
@@ -151,7 +158,8 @@
         Recommandations
       </label>
       <p class="mangas-config-hint">
-        "Mangas lus" et "Mangas à lire" restent affichés par défaut.
+        « Mangas lus », « Mangas à lire » et « En cours » restent affichés par
+        défaut.
       </p>
     </div>
   </div>

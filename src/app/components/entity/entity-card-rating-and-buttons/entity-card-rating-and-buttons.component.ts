@@ -61,7 +61,7 @@ export class EntityCardRatingAndButtonsComponent {
   /** Override optionnel des libellés par défaut (déduits de entityType). */
   @Input() labels: Partial<EntityCardRatingLabels> = {};
 
-  /** readTimes côté readlist (0 = pas commencé, 0.5 = en cours) — pour le bouton « J'ai commencé ». */
+  /** readTimes côté readlist (0.5 = en cours ; autre valeur = pas encore en cours, ex. 0 ou 1 selon les données) — pour le bouton « J'ai commencé ». */
   @Input() listReadTimes = 0;
 
   /** Watchlist série : toutes les saisons à seasonTimesWatched 0 — affiche « J'ai commencé cette série ». */
@@ -130,7 +130,7 @@ export class EntityCardRatingAndButtonsComponent {
   isReadlistLikeView(): boolean {
     const t = this.entityData?.entityType;
     const v = this.selectedView;
-    if (t === 'book') {
+    if (t === 'book' || t === 'manga') {
       return v === 'readlist' || v === 'readingInProgress';
     }
     if (t === 'serie') {
@@ -191,6 +191,7 @@ export class EntityCardRatingAndButtonsComponent {
           haveReRead: "J'ai relu ce manga",
           addToMyWishlist: 'Je veux lire ce manga',
           addToMyDone: "Tiens, j'ai déjà lu ce manga !",
+          markStartedReading: "J'ai commencé ce manga",
         };
       case 'comic':
         return {
@@ -388,8 +389,14 @@ export class EntityCardRatingAndButtonsComponent {
   }
 
   get showMarkStartedReadingButton(): boolean {
-    if (this.entityData?.entityType === 'book') {
-      return this.selectedView === 'readlist' && this.listReadTimes === 0;
+    if (
+      this.entityData?.entityType === 'book' ||
+      this.entityData?.entityType === 'manga'
+    ) {
+      /* Readlist : l’API ajoute souvent readTimes: 1 par défaut ; seul 0.5 = « déjà commencé ». */
+      return (
+        this.selectedView === 'readlist' && this.listReadTimes !== 0.5
+      );
     }
     if (this.entityData?.entityType === 'serie') {
       return (
