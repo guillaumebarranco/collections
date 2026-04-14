@@ -9332,7 +9332,7 @@ export const ronanMovies: UserMovies = [
   },
   {
     title: 'Nos Jours heureux',
-    director: 'Claude Zidi Jr.',
+    director: 'Éric Toledano, Olivier Nakache',
     rating: 3,
     timesWatched: 5,
     firstViewedDate: '',

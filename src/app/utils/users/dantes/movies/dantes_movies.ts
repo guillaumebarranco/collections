@@ -5462,7 +5462,7 @@ export const dantesMovies: UserMovie[] = [
 
   {
     title: 'Nos Jours heureux',
-    director: 'Claude Zidi Jr.',
+    director: 'Éric Toledano, Olivier Nakache',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -9932,8 +9932,8 @@ export const dantesMovies: UserMovie[] = [
   },
 
   {
-    title: "Bullet Train",
-    director: "David Leitch",
+    title: 'Bullet Train',
+    director: 'David Leitch',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -9949,8 +9949,8 @@ export const dantesMovies: UserMovie[] = [
   },
 
   {
-    title: "Shaolin Soccer",
-    director: "Stephen Chow",
+    title: 'Shaolin Soccer',
+    director: 'Stephen Chow',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -9966,8 +9966,8 @@ export const dantesMovies: UserMovie[] = [
   },
 
   {
-    title: "The Day After Tomorrow",
-    director: "Roland Emmerich",
+    title: 'The Day After Tomorrow',
+    director: 'Roland Emmerich',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -9983,8 +9983,8 @@ export const dantesMovies: UserMovie[] = [
   },
 
   {
-    title: "E.T. the Extra-Terrestrial",
-    director: "Steven Spielberg",
+    title: 'E.T. the Extra-Terrestrial',
+    director: 'Steven Spielberg',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -10000,8 +10000,8 @@ export const dantesMovies: UserMovie[] = [
   },
 
   {
-    title: "Yamakasi",
-    director: "Julien Seri",
+    title: 'Yamakasi',
+    director: 'Julien Seri',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -10017,8 +10017,8 @@ export const dantesMovies: UserMovie[] = [
   },
 
   {
-    title: "Sixième Sens",
-    director: "M. Night Shyamalan",
+    title: 'Sixième Sens',
+    director: 'M. Night Shyamalan',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -10034,8 +10034,8 @@ export const dantesMovies: UserMovie[] = [
   },
 
   {
-    title: "Armageddon",
-    director: "Michael Bay",
+    title: 'Armageddon',
+    director: 'Michael Bay',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -10051,8 +10051,8 @@ export const dantesMovies: UserMovie[] = [
   },
 
   {
-    title: "Da Vinci Code",
-    director: "Ron Howard",
+    title: 'Da Vinci Code',
+    director: 'Ron Howard',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -10068,8 +10068,8 @@ export const dantesMovies: UserMovie[] = [
   },
 
   {
-    title: "La Momie",
-    director: "Alex Kurtzman",
+    title: 'La Momie',
+    director: 'Alex Kurtzman',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -10085,8 +10085,8 @@ export const dantesMovies: UserMovie[] = [
   },
 
   {
-    title: "La Reine des Neiges",
-    director: "Chris Buck, Jennifer Lee",
+    title: 'La Reine des Neiges',
+    director: 'Chris Buck, Jennifer Lee',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -10102,8 +10102,8 @@ export const dantesMovies: UserMovie[] = [
   },
 
   {
-    title: "Vice-Versa",
-    director: "Pete Docter",
+    title: 'Vice-Versa',
+    director: 'Pete Docter',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -10119,8 +10119,9 @@ export const dantesMovies: UserMovie[] = [
   },
 
   {
-    title: "Pinocchio",
-    director: "Norman Ferguson, T. Hee, Wilfred Jackson, Jack Kinney, Hamilton Luske, Bill Roberts, Ben Sharpsteen",
+    title: 'Pinocchio',
+    director:
+      'Norman Ferguson, T. Hee, Wilfred Jackson, Jack Kinney, Hamilton Luske, Bill Roberts, Ben Sharpsteen',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -10136,8 +10137,8 @@ export const dantesMovies: UserMovie[] = [
   },
 
   {
-    title: "Zootopie",
-    director: "Byron Howard, Rich Moore",
+    title: 'Zootopie',
+    director: 'Byron Howard, Rich Moore',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',

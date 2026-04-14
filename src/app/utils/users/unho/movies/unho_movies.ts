@@ -615,7 +615,7 @@ export const unhoMovies: UserMovie[] = [
 
   {
     title: 'Nos Jours heureux',
-    director: 'Claude Zidi Jr.',
+    director: 'Éric Toledano, Olivier Nakache',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',

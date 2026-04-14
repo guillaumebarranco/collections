@@ -1914,7 +1914,7 @@ export const baseMoviesPage2: BaseMovie[] = [
   },
   {
     title: 'Nos Jours heureux',
-    director: 'Claude Zidi Jr.',
+    director: 'Éric Toledano, Olivier Nakache',
     actors: [
       {
         name: 'Jean-Paul Rouve',

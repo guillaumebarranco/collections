@@ -118,6 +118,21 @@ export const baseMoviesScienceFiction: BaseMovie[] = [
     selectDisplayOrder: 0,
   },
   {
+    title: 'Alien: Covenant',
+    director: 'Ridley Scott',
+    actors: [{ name: 'Michael Fassbender' }, { name: 'Katherine Waterston' }],
+    coverUrl:
+      '/movies_pictures/3544ac0afac8.jpg',
+    releaseDate: '2017-05-10',
+    length: 122,
+    genre: ['Science Fiction', 'Horreur', 'Thriller'],
+    saga: 'Alien',
+    description: '',
+    fromEntity: null,
+    countryOrigin: ['États-Unis'],
+    selectDisplayOrder: 0,
+  },
+  {
     title: 'Alien : Romulus',
     director: 'Fede Alvarez',
     actors: [
@@ -135,6 +150,7 @@ export const baseMoviesScienceFiction: BaseMovie[] = [
     countryOrigin: ['Royaume-Uni'],
     selectDisplayOrder: 0,
   },
+
   {
     title: 'Alien vs. Predator',
     director: 'Paul W.S. Anderson',

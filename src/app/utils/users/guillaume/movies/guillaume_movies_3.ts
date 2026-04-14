@@ -771,7 +771,7 @@ export const guillaumeMoviesPage3: UserMovies = [
   },
   {
     title: 'Nos Jours heureux',
-    director: 'Claude Zidi Jr.',
+    director: 'Éric Toledano, Olivier Nakache',
     rating: 4.75,
     timesWatched: 31,
     firstViewedDate: '',
