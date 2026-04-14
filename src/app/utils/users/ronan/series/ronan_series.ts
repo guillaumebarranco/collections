@@ -5766,4 +5766,23 @@ export const ronanSeries: UserSeries = [
     borrowed: "",
     loaned: "",
   },
+
+  {
+    title: "Malcolm, rien n'a changé",
+    director: "Linwood Boomer",
+    seasons: [
+    {
+      seasonNumber: 1,
+      seasonRating: 3,
+      seasonTimesWatched: 1,
+      lastViewedDate: "2026-04-10",
+    }
+  ],
+    owned: false,
+    watchPriority: 1,
+    wantToWatchAgain: false,
+    ratingComment: "",
+    borrowed: "",
+    loaned: "",
+  },
 ];
