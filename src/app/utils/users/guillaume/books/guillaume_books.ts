@@ -1293,4 +1293,19 @@ export const guillaumeBooks: UserBooks = [
     wantToReadAgain: false,
     ratingComment: "",
   },
+
+  {
+    title: "La Controverse de Valladolid",
+    author: "Jean-Claude Carrière",
+    firstReadDate: "2026-04-15",
+    lastReadDate: "2026-04-15",
+    rating: 4,
+    readTimes: 1,
+    owned: false,
+    borrowed: '',
+    loaned: '',
+    readPriority: 2,
+    wantToReadAgain: false,
+    ratingComment: "",
+  },
 ];
