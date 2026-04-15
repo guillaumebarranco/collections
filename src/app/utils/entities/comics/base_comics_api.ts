@@ -38,4 +38,17 @@ export const baseComicsApi: BaseComic[] = [
     sagaOrder: 2,
     description: "",
   },
+
+  {
+    title: "Superman Lois & Clark",
+    writer: "Dan Jurgens",
+    designer: "Lee Weeks",
+    coverUrl: "https://bdi.dlpdomain.com/album/9791026811084/couv/M385x862/superman-lois-amp-clark.jpg",
+    releaseDate: "2017-04-07",
+    pages: 0,
+    genre: "Super-héro",
+    saga: "Superman",
+    sagaOrder: 0,
+    description: "",
+  },
 ];
