@@ -1436,7 +1436,7 @@ export const baseSeries2: BaseSerie[] = [
       { name: 'Bruce McGill' },
     ],
     coverUrl:
-      'https://m.media-amazon.com/images/M/MV5BZjJiY2NkZTQtZWUwYy00YzA0LTg5NTgtZmFhN2JkMmMxNGVjXkEyXkFqcGc@._V1_.jpg',
+      '/series_pictures/7779fd16a5b2.jpg',
     releaseDate: '1985-09-29',
     endDate: '1992-04-25',
     genre: ['Action', 'Adventure'],
@@ -1463,7 +1463,7 @@ export const baseSeries2: BaseSerie[] = [
       { name: 'Jack Falahee' },
     ],
     coverUrl:
-      'https://fr.web.img6.acsta.net/pictures/18/09/17/10/16/5538373.jpg',
+      '/series_pictures/b84eb712a5d0.jpg',
     releaseDate: '2014-09-25',
     endDate: '2020-05-14',
     genre: ['Crime', 'Drama', 'Mystery'],
@@ -1489,7 +1489,7 @@ export const baseSeries2: BaseSerie[] = [
       { name: 'Mila Kunis' },
     ],
     coverUrl:
-      'https://fr.web.img6.acsta.net/c_310_420/pictures/21/01/13/15/01/5663750.jpg',
+      '/series_pictures/904738e4a8e5.jpg',
     releaseDate: '1999-01-31',
     endDate: '',
     genre: ['Animation', 'Comedy'],
@@ -1521,7 +1521,7 @@ export const baseSeries2: BaseSerie[] = [
       { name: 'Max Thieriot' },
     ],
     coverUrl:
-      'https://m.media-amazon.com/images/M/MV5BMzk4OTU5NTE2M15BMl5BanBnXkFtZTcwNTIxMDIyOQ@@._V1_.jpg',
+      '/series_pictures/fc69f638c59b.jpg',
     releaseDate: '2013-03-18',
     endDate: '2017-04-24',
     genre: ['Drama', 'Horror', 'Mystery'],
@@ -1546,7 +1546,7 @@ export const baseSeries2: BaseSerie[] = [
       { name: 'Iwan Rheon' },
     ],
     coverUrl:
-      'https://fr.web.img2.acsta.net/c_310_420/img/ab/dd/abdd102a2dcc155da8fd914ee4af8a38.jpg',
+      '/series_pictures/da3c199536a1.jpg',
     releaseDate: '2009-11-12',
     endDate: '2013-12-11',
     genre: ['Comedy', 'Drama', 'Fantasy'],
@@ -1571,7 +1571,7 @@ export const baseSeries2: BaseSerie[] = [
       { name: 'Michael Weatherly' },
     ],
     coverUrl:
-      'https://fr.web.img6.acsta.net/c_310_420/pictures/19/06/18/12/13/0214170.jpg',
+      '/series_pictures/5cc91aa9b418.jpg',
     releaseDate: '2003-09-23',
     endDate: '',
     genre: ['Crime', 'Drama', 'Action'],
@@ -1599,7 +1599,7 @@ export const baseSeries2: BaseSerie[] = [
       { name: 'Adeline Chetail' },
     ],
     coverUrl:
-      'https://m.media-amazon.com/images/M/MV5BOTU3OTI5NTMtNzllYy00Y2Q2LTkzMTAtMTI5OWVlZDgxMmNmXkEyXkFqcGc@._V1_.jpg',
+      '/series_pictures/8b763cc9467e.jpg',
     releaseDate: '2008-10-30',
     endDate: '',
     genre: ['Animation', 'Adventure', 'Fantasy'],
@@ -1623,7 +1623,7 @@ export const baseSeries2: BaseSerie[] = [
       { name: 'Ilfenesh Hadera' },
     ],
     coverUrl:
-      'https://m.media-amazon.com/images/M/MV5BMTg4MWVjMjYtZGZhYS00MzlmLWFiYmItNDc1OGNmMzczZTM4XkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg',
+      '/series_pictures/904945330521.jpg',
     releaseDate: '2019-09-29',
     endDate: '',
     genre: ['Crime', 'Drama'],
@@ -1646,7 +1646,7 @@ export const baseSeries2: BaseSerie[] = [
       { name: 'Park Sung-woong' },
     ],
     coverUrl:
-      'https://media.senscritique.com/media/000021398506/0/la_traque_dans_le_sang.jpg',
+      '/series_pictures/9548f6958cb1.jpg',
     releaseDate: '2023-06-09',
     endDate: '',
     genre: ['Action', 'Crime', 'Drama'],
@@ -1668,7 +1668,7 @@ export const baseSeries2: BaseSerie[] = [
       { name: 'Brendan Hines' },
     ],
     coverUrl:
-      'https://media.senscritique.com/media/000000167560/0/lie_to_me.jpg',
+      '/series_pictures/1812efd4dafd.jpg',
     releaseDate: '2009-01-21',
     endDate: '2011-01-31',
     genre: ['Crime', 'Drama', 'Mystery'],
@@ -1691,7 +1691,7 @@ export const baseSeries2: BaseSerie[] = [
       { name: 'Jeff Bergman' },
     ],
     coverUrl:
-      'https://images.justwatch.com/poster/306747075/s718/looney-tunes-cartoons.jpg',
+      '/series_pictures/680f6168b27b.jpg',
     releaseDate: '2020-05-27',
     endDate: '',
     genre: ['Animation', 'Comedy', 'Family'],
@@ -1715,7 +1715,7 @@ export const baseSeries2: BaseSerie[] = [
       { name: 'June Foray' },
     ],
     coverUrl:
-      'https://media.senscritique.com/media/000006478417/0/tom_et_jerry.jpg',
+      '/series_pictures/a1cc2045ca0a.jpg',
     releaseDate: '1940-02-10',
     endDate: '',
     genre: ['Animation', 'Comedy', 'Family'],
@@ -1737,7 +1737,7 @@ export const baseSeries2: BaseSerie[] = [
       { name: 'June Foray' },
     ],
     coverUrl:
-      'https://media.senscritique.com/media/000021520044/0/bip_bip_et_coyote.jpg',
+      '/series_pictures/11dbbebf9bf5.jpg',
     releaseDate: '1966-09-17',
     endDate: '1973-09-01',
     genre: ['Animation', 'Comedy', 'Family'],
@@ -1759,7 +1759,7 @@ export const baseSeries2: BaseSerie[] = [
       { name: 'Jackie Coogan' },
     ],
     coverUrl:
-      'https://upload.wikimedia.org/wikipedia/commons/9/95/Addams_Family_main_cast_1964.JPG',
+      '/series_pictures/7ba5f61e0af1.jpg',
     releaseDate: '1964-09-18',
     endDate: '1966-04-08',
     genre: ['Comedy', 'Family', 'Fantasy'],
@@ -1781,7 +1781,7 @@ export const baseSeries2: BaseSerie[] = [
       { name: 'Richard Schiff' },
     ],
     coverUrl:
-      'https://fr.web.img6.acsta.net/pictures/19/10/01/16/16/1486150.jpg',
+      '/series_pictures/3c79fdc660b5.jpg',
     releaseDate: '2017-09-25',
     endDate: '2024-05-21',
     genre: ['Drama'],
@@ -1808,7 +1808,7 @@ export const baseSeries2: BaseSerie[] = [
       { name: 'Frank Welker' },
     ],
     coverUrl:
-      'https://i0.wp.com/www.filmspourenfants.net/wp-content/uploads/2018/07/scooby-doo-where-are-you-a.jpg?fit=555%2C795&ssl=1',
+      '/series_pictures/e832ef89e817.jpg',
     releaseDate: '1969-09-13',
     endDate: '1978-10-28',
     genre: ['Animation', 'Comedy', 'Family'],
@@ -1830,7 +1830,7 @@ export const baseSeries2: BaseSerie[] = [
       { name: 'Megumi Hayashibara' },
       { name: 'Noriko Hidaka' },
     ],
-    coverUrl: 'https://i.ebayimg.com/images/g/rb4AAOSwFtVhsI2a/s-l1200.jpg',
+    coverUrl: '/series_pictures/7849c7837269.jpg',
     releaseDate: '1989-04-15',
     endDate: '1992-09-16',
     genre: ['Animation', 'Action', 'Comedy'],
@@ -1854,7 +1854,7 @@ export const baseSeries2: BaseSerie[] = [
       { name: 'Kath Soucie' },
     ],
     coverUrl:
-      'https://fr.web.img6.acsta.net/pictures/15/09/01/14/51/314868.jpg',
+      '/series_pictures/e2d53b52a8dc.jpg',
     releaseDate: '1996-04-28',
     endDate: '2003-11-20',
     genre: ['Animation', 'Comedy', 'Family'],
@@ -1878,7 +1878,7 @@ export const baseSeries2: BaseSerie[] = [
       { name: 'Joan Chen' },
     ],
     coverUrl:
-      'https://fr.web.img3.acsta.net/pictures/16/06/08/17/19/021632.jpg',
+      '/series_pictures/78d98be5d81f.jpg',
     releaseDate: '2014-12-12',
     endDate: '2016-07-01',
     genre: ['Adventure', 'Drama', 'History'],
@@ -1900,7 +1900,7 @@ export const baseSeries2: BaseSerie[] = [
       { name: 'Todd Haberkorn' },
     ],
     coverUrl:
-      'https://animotaku.fr/wp-content/uploads/2024/03/anime-kengan-ashura-saison-2-partie-2-visuel-2.jpg',
+      '/series_pictures/873a958f9c44.jpg',
     releaseDate: '2019-07-31',
     endDate: '',
     genre: ['Animation', 'Action', 'Drama'],
@@ -1922,7 +1922,7 @@ export const baseSeries2: BaseSerie[] = [
       { name: 'Jessica Lange' },
     ],
     coverUrl:
-      'https://m.media-amazon.com/images/I/81ofJXOBCtL._AC_UF894,1000_QL80_.jpg',
+      '/series_pictures/5b85b6fc1724.jpg',
     releaseDate: '2011-10-05',
     endDate: '',
     genre: ['Drama', 'Horror', 'Thriller'],
@@ -1950,7 +1950,7 @@ export const baseSeries2: BaseSerie[] = [
       { name: 'Liv Hewson' },
     ],
     coverUrl:
-      'https://fr.web.img6.acsta.net/c_310_420/pictures/18/03/09/11/38/0802678.jpg',
+      '/series_pictures/d1c61031a650.jpg',
     releaseDate: '2017-02-03',
     endDate: '2019-03-29',
     genre: ['Comedy', 'Horror'],
@@ -1973,7 +1973,7 @@ export const baseSeries2: BaseSerie[] = [
       { name: 'Hilarie Burton' },
     ],
     coverUrl:
-      'https://m.media-amazon.com/images/M/MV5BZDJjY2M2MjUtZjAzMi00YTQ0LTk3YTgtMDM5N2RjOGQ3NGYxXkEyXkFqcGc@._V1_.jpg',
+      '/series_pictures/eba3b892327d.jpg',
     releaseDate: '2003-09-23',
     endDate: '2012-04-04',
     genre: ['Drama', 'Romance', 'Sport'],
@@ -2002,7 +2002,7 @@ export const baseSeries2: BaseSerie[] = [
       { name: 'Michaela Conlin' },
     ],
     coverUrl:
-      'https://m.media-amazon.com/images/M/MV5BMjA3ODMxMzM5NF5BMl5BanBnXkFtZTgwMDM1NjU0OTE@._V1_.jpg',
+      '/series_pictures/e0f2b7ae88cf.jpg',
     releaseDate: '2005-09-13',
     endDate: '2017-03-28',
     genre: ['Crime', 'Drama', 'Comedy'],
@@ -2028,7 +2028,7 @@ export const baseSeries2: BaseSerie[] = [
       { name: 'Nijirô Murakami' },
     ],
     coverUrl:
-      'https://fr.web.img5.acsta.net/c_310_420/pictures/20/11/06/12/24/4584296.jpg',
+      '/series_pictures/3244cebe575f.jpg',
     releaseDate: '2020-12-10',
     endDate: '',
     genre: ['Action', 'Drama', 'Sci-Fi'],
@@ -2051,7 +2051,7 @@ export const baseSeries2: BaseSerie[] = [
       { name: 'Lana Parrilla' },
     ],
     coverUrl:
-      'https://m.media-amazon.com/images/M/MV5BZDgwNTcwYmMtNjVmNi00NDdkLTllY2MtYmQ4MTM3ZThjZTllXkEyXkFqcGc@._V1_.jpg',
+      '/series_pictures/271ad4a03d2b.jpg',
     releaseDate: '2011-10-23',
     endDate: '2018-05-18',
     genre: ['Adventure', 'Drama', 'Fantasy'],
@@ -2078,7 +2078,7 @@ export const baseSeries2: BaseSerie[] = [
       { name: 'Lance Barber' },
     ],
     coverUrl:
-      'https://fr.web.img3.acsta.net/c_310_420/pictures/17/05/17/17/21/513893.jpg',
+      '/series_pictures/bb37ff6d1aee.jpg',
     releaseDate: '2017-09-25',
     endDate: '2024-05-16',
     genre: ['Comedy'],
@@ -2105,7 +2105,7 @@ export const baseSeries2: BaseSerie[] = [
       { name: 'George Eads' },
     ],
     coverUrl:
-      'https://m.media-amazon.com/images/M/MV5BZTJkMWM3N2QtODdjNS00MTVmLWJlNjktOGVmN2Y3MjI3MTZiXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg',
+      '/series_pictures/e776ad28527f.jpg',
     releaseDate: '2000-10-06',
     endDate: '2015-09-27',
     genre: ['Crime', 'Drama', 'Mystery'],
@@ -2131,7 +2131,7 @@ export const baseSeries2: BaseSerie[] = [
       { name: 'Isolda Dychauk' },
     ],
     coverUrl:
-      'https://m.media-amazon.com/images/I/71nR3hZyZHL._AC_UF894,1000_QL80_.jpg',
+      '/series_pictures/413740a8e651.jpg',
     releaseDate: '2011-04-04',
     endDate: '2014-11-18',
     genre: ['Drama', 'History'],
@@ -2154,7 +2154,7 @@ export const baseSeries2: BaseSerie[] = [
       { name: 'Malina Weissman' },
     ],
     coverUrl:
-      'https://www.crew-united.com/Media/Images/1031/1031591/1031591.entity.jpg',
+      '/series_pictures/b3cdf300c701.jpg',
     releaseDate: '2017-01-13',
     endDate: '2019-01-01',
     genre: ['Adventure', 'Comedy', 'Drama'],
@@ -2177,7 +2177,7 @@ export const baseSeries2: BaseSerie[] = [
       { name: 'Katie Lowes' },
     ],
     coverUrl:
-      'https://fr.web.img3.acsta.net/c_310_420/pictures/21/02/12/16/29/5805401.jpg',
+      '/series_pictures/7b2d3781a0c6.jpg',
     releaseDate: '2012-04-05',
     endDate: '2018-04-19',
     genre: ['Drama', 'Thriller'],
@@ -2204,7 +2204,7 @@ export const baseSeries2: BaseSerie[] = [
       { name: 'Greta Lee' },
     ],
     coverUrl:
-      'https://fr.web.img5.acsta.net/c_310_420/pictures/19/01/10/10/57/4401137.jpg',
+      '/series_pictures/b7d27675461b.jpg',
     releaseDate: '2019-02-01',
     endDate: '2022-04-27',
     genre: ['Comedy', 'Drama', 'Mystery'],
@@ -2226,7 +2226,7 @@ export const baseSeries2: BaseSerie[] = [
       { name: 'Spencer Klein' },
     ],
     coverUrl:
-      'https://m.media-amazon.com/images/M/MV5BYzhiYTYwM2QtNTlmNy00MGM1LTllM2UtOGJmZTUxMmJmZjdiXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg',
+      '/series_pictures/3d475d155cb3.jpg',
     releaseDate: '1996-10-07',
     endDate: '2004-06-28',
     genre: ['Animation', 'Comedy', 'Drama'],
@@ -2251,7 +2251,7 @@ export const baseSeries2: BaseSerie[] = [
       { name: 'Victor Garber' },
     ],
     coverUrl:
-      'https://www.ecranlarge.com/content/uploads/2019/11/bmj6im7tbcceg44vpirea2axeab-636.jpg',
+      '/series_pictures/ba706c731a92.jpg',
     releaseDate: '2001-09-30',
     endDate: '2006-05-22',
     genre: ['Action', 'Drama', 'Mystery'],
@@ -2276,7 +2276,7 @@ export const baseSeries2: BaseSerie[] = [
       { name: 'Saundra Santiago' },
     ],
     coverUrl:
-      'https://media.senscritique.com/media/000017929892/0/deux_flics_a_miami.jpg',
+      '/series_pictures/ac7c0b7adfa2.jpg',
     releaseDate: '1984-09-16',
     endDate: '1989-05-21',
     genre: ['Crime', 'Drama', 'Thriller'],
@@ -2301,7 +2301,7 @@ export const baseSeries2: BaseSerie[] = [
       { name: 'Brian J. Smith' },
     ],
     coverUrl:
-      'https://fr.web.img5.acsta.net/img/89/d9/89d99ffefed335ac49af29c041c330f0.jpg',
+      '/series_pictures/dbff25252b53.jpg',
     releaseDate: '2009-10-02',
     endDate: '2011-05-09',
     genre: ['Drama', 'Sci-Fi'],
@@ -2323,7 +2323,7 @@ export const baseSeries2: BaseSerie[] = [
       { name: 'Liliane Rovère' },
     ],
     coverUrl:
-      'https://images.justwatch.com/poster/242371911/s718/fais-pas-ci-fais-pas-ca.jpg',
+      '/series_pictures/b90a75b929f0.jpg',
     releaseDate: '2006-10-09',
     endDate: '2017-02-06',
     genre: ['Comedy'],
@@ -2349,7 +2349,7 @@ export const baseSeries2: BaseSerie[] = [
       { name: 'Alice Isaaz' },
       { name: 'Laurent Capelluto' },
     ],
-    coverUrl: 'https://media.senscritique.com/media/000022076344/0/soda.jpg',
+    coverUrl: '/series_pictures/9b51c14eaaf2.jpg',
     releaseDate: '2011-07-05',
     endDate: '2014-11-04',
     genre: ['Comedy'],
@@ -2373,7 +2373,7 @@ export const baseSeries2: BaseSerie[] = [
       { name: 'Guillaume Pley' },
     ],
     coverUrl:
-      'https://m.media-amazon.com/images/M/MV5BZDA4MDA4MjMtNDg3Ny00MzNmLWJhZTMtZjRkMDFlNjIzNWY4XkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg',
+      '/series_pictures/581468ad1dc0.jpg',
     releaseDate: '2018-07-16',
     endDate: '',
     genre: ['Animation', 'Comedy'],

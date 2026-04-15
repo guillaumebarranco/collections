@@ -1040,7 +1040,7 @@ export const baseMoviesPage9: BaseMovie[] = [
     director: 'John Carpenter',
     actors: [{ name: 'Kurt Russell' }, { name: 'Lee Van Cleef' }],
     coverUrl:
-      'https://theofficialjohncarpenter.com/wp-content/uploads/2016/01/john-carpenter-escape-from-new-york-poster.jpg',
+      '/movies_pictures/caef486d271f.jpg',
     releaseDate: '1981-07-10',
     length: 99,
     genre: ['Action', 'Science Fiction', 'Thriller'],
@@ -1055,7 +1055,7 @@ export const baseMoviesPage9: BaseMovie[] = [
     director: 'John Carpenter',
     actors: [{ name: 'Roddy Piper' }, { name: 'Keith David' }],
     coverUrl:
-      'https://m.media-amazon.com/images/M/MV5BMTQ3MjM3ODU1NV5BMl5BanBnXkFtZTgwMjU3NDU2MTE@._V1_.jpg',
+      '/movies_pictures/c1817fae3f28.jpg',
     releaseDate: '1988-11-23',
     length: 94,
     genre: ['Science Fiction', 'Action', 'Thriller'],
@@ -1070,7 +1070,7 @@ export const baseMoviesPage9: BaseMovie[] = [
     director: 'John Carpenter',
     actors: [{ name: 'Kurt Russell' }, { name: 'Kim Cattrall' }],
     coverUrl:
-      'https://m.media-amazon.com/images/M/MV5BYWNjZDQyMjUtZDEzZC00OThhLTg1NWItOTQ1MWI3ODBlODcyXkEyXkFqcGc@._V1_.jpg',
+      '/movies_pictures/f3ba912a97dd.jpg',
     releaseDate: '1986-07-02',
     length: 99,
     genre: ['Action', 'Aventure', 'Comédie'],
@@ -1085,7 +1085,7 @@ export const baseMoviesPage9: BaseMovie[] = [
     director: 'John Carpenter',
     actors: [{ name: 'Adrienne Barbeau' }, { name: 'Jamie Lee Curtis' }],
     coverUrl:
-      'https://fr.web.img3.acsta.net/c_310_420/pictures/18/09/24/16/27/0018981.jpg',
+      '/movies_pictures/7a3606fe6754.jpg',
     releaseDate: '1980-02-08',
     length: 89,
     genre: ['Horreur', 'Mystère'],
@@ -1100,7 +1100,7 @@ export const baseMoviesPage9: BaseMovie[] = [
     director: 'John Carpenter',
     actors: [{ name: 'Austin Stoker' }, { name: 'Darwin Joston' }],
     coverUrl:
-      'https://m.media-amazon.com/images/I/81xAGmhGdtL._AC_UF894,1000_QL80_.jpg',
+      '/movies_pictures/681d4ef06f1e.jpg',
     releaseDate: '1976-11-03',
     length: 91,
     genre: ['Action', 'Thriller', 'Policier'],
@@ -1115,7 +1115,7 @@ export const baseMoviesPage9: BaseMovie[] = [
     director: 'John Carpenter',
     actors: [{ name: 'Jeff Bridges' }, { name: 'Karen Allen' }],
     coverUrl:
-      'https://www.filmsfantastiques.com/wp-content/uploads/2021/07/Starman-poster-OK.jpg',
+      '/movies_pictures/0e81aa55fdac.jpg',
     releaseDate: '1984-12-14',
     length: 115,
     genre: ['Romance', 'Science Fiction', 'Drame'],
@@ -1130,7 +1130,7 @@ export const baseMoviesPage9: BaseMovie[] = [
     director: 'John Carpenter',
     actors: [{ name: 'Keith Gordon' }, { name: 'John Stockwell' }],
     coverUrl:
-      'https://m.media-amazon.com/images/I/81k9KKFQ0hL._AC_UF894,1000_QL80_.jpg',
+      '/movies_pictures/70d0bc180b23.jpg',
     releaseDate: '1983-12-09',
     length: 110,
     genre: ['Horreur', 'Thriller'],
@@ -1145,7 +1145,7 @@ export const baseMoviesPage9: BaseMovie[] = [
     director: 'John Carpenter',
     actors: [{ name: 'Sam Neill' }, { name: 'Julie Carmen' }],
     coverUrl:
-      'https://m.media-amazon.com/images/I/61PSIaT5SuL._AC_UF894,1000_QL80_.jpg',
+      '/movies_pictures/48f834451d49.jpg',
     releaseDate: '1995-02-03',
     length: 95,
     genre: ['Horreur', 'Mystère', 'Thriller'],
@@ -1161,7 +1161,7 @@ export const baseMoviesPage9: BaseMovie[] = [
     director: 'George A. Romero',
     actors: [{ name: 'Duane Jones' }, { name: "Judith O'Dea" }],
     coverUrl:
-      'https://www.acaciasfilms.com/wp-content/uploads/2023/01/LA-NUIT-DES-MORTS-VIVANTS-800x1067.jpg',
+      '/movies_pictures/740034a0692e.jpg',
     releaseDate: '1968-10-01',
     length: 96,
     genre: ['Horreur', 'Thriller'],
@@ -1176,7 +1176,7 @@ export const baseMoviesPage9: BaseMovie[] = [
     director: 'George A. Romero',
     actors: [{ name: 'David Emge' }, { name: 'Ken Foree' }],
     coverUrl:
-      'https://m.media-amazon.com/images/I/71C+nkTj9dL._AC_UF894,1000_QL80_.jpg',
+      '/movies_pictures/2b4a7fa02199.jpg',
     releaseDate: '1978-09-10',
     length: 127,
     genre: ['Horreur', 'Action', 'Science Fiction'],
@@ -1191,7 +1191,7 @@ export const baseMoviesPage9: BaseMovie[] = [
     director: 'George A. Romero',
     actors: [{ name: 'Lori Cardille' }, { name: 'Terry Alexander' }],
     coverUrl:
-      'https://www.legrandaction.com/wp-content/uploads/affiche-le-jour-des-morts-vivants.jpg',
+      '/movies_pictures/36044366c39e.jpg',
     releaseDate: '1985-07-03',
     length: 101,
     genre: ['Horreur', 'Science Fiction', 'Drame'],
@@ -1206,7 +1206,7 @@ export const baseMoviesPage9: BaseMovie[] = [
     director: 'George A. Romero',
     actors: [{ name: 'Simon Baker' }, { name: 'John Leguizamo' }],
     coverUrl:
-      'https://www.critikat.com/wp-content/uploads/2005/08/artoff216.jpg',
+      '/movies_pictures/ee6b90421df2.jpg',
     releaseDate: '2005-06-24',
     length: 93,
     genre: ['Horreur', 'Science Fiction', 'Action'],
@@ -1221,7 +1221,7 @@ export const baseMoviesPage9: BaseMovie[] = [
     director: 'George A. Romero',
     actors: [{ name: 'John Amplas' }, { name: 'Lincoln Maazel' }],
     coverUrl:
-      'https://m.media-amazon.com/images/M/MV5BOTkyNGUxOWMtNmUyNy00ZDgxLTgyNjctNDVjNzBkMDQyZTUzXkEyXkFqcGc@._V1_.jpg',
+      '/movies_pictures/f508422d672c.jpg',
     releaseDate: '1978-07-21',
     length: 95,
     genre: ['Horreur', 'Drame'],
@@ -1236,7 +1236,7 @@ export const baseMoviesPage9: BaseMovie[] = [
     director: 'George A. Romero',
     actors: [{ name: 'Lane Carroll' }, { name: 'Will MacMillan' }],
     coverUrl:
-      'https://fr.web.img6.acsta.net/medias/nmedia/18/36/25/26/18465521.jpg',
+      '/movies_pictures/f0819065ef53.jpg',
     releaseDate: '1973-03-16',
     length: 103,
     genre: ['Horreur', 'Science Fiction', 'Action'],
@@ -1252,7 +1252,7 @@ export const baseMoviesPage9: BaseMovie[] = [
     director: 'Charlie Chaplin',
     actors: [{ name: 'Charlie Chaplin' }, { name: 'Jackie Coogan' }],
     coverUrl:
-      'https://upload.wikimedia.org/wikipedia/commons/5/59/CC_The_Kid_1921.jpg',
+      '/movies_pictures/7694fead40aa.jpg',
     releaseDate: '1921-02-06',
     length: 68,
     genre: ['Comédie', 'Drame', 'Jeunesse'],
@@ -1267,7 +1267,7 @@ export const baseMoviesPage9: BaseMovie[] = [
     director: 'Charlie Chaplin',
     actors: [{ name: 'Charlie Chaplin' }, { name: 'Georgia Hale' }],
     coverUrl:
-      'https://fr.web.img5.acsta.net/c_310_420/img/82/fa/82fae46a6d1a382c74dfe48b25205187.jpg',
+      '/movies_pictures/463e45a82b00.jpg',
     releaseDate: '1925-06-26',
     length: 95,
     genre: ['Comédie', 'Aventure', 'Romance'],
@@ -1282,7 +1282,7 @@ export const baseMoviesPage9: BaseMovie[] = [
     director: 'Charlie Chaplin',
     actors: [{ name: 'Charlie Chaplin' }, { name: 'Merna Kennedy' }],
     coverUrl:
-      'https://upload.wikimedia.org/wikipedia/commons/0/06/The-circus-charlie-chaplin-1928-everett.jpg',
+      '/movies_pictures/8daa41db4142.jpg',
     releaseDate: '1928-01-06',
     length: 72,
     genre: ['Comédie', 'Romance'],
@@ -1297,7 +1297,7 @@ export const baseMoviesPage9: BaseMovie[] = [
     director: 'Charlie Chaplin',
     actors: [{ name: 'Charlie Chaplin' }, { name: 'Claire Bloom' }],
     coverUrl:
-      'https://www.cinematheque.qc.ca/cdn-cgi/image/format=auto/workspace/uploads/films/mv5bzgrjntu5mtqtytbmzi00ngu3ltgznjktmze3owyymty5yty3xkeyxkfqcgdeqxvymzexodeznda-_v1_-fr-1654869219.jpg',
+      '/movies_pictures/16ce23aba0de.jpg',
     releaseDate: '1952-10-16',
     length: 137,
     genre: ['Drame', 'Romance', 'Comédie musicale'],
@@ -1312,7 +1312,7 @@ export const baseMoviesPage9: BaseMovie[] = [
     director: 'Charlie Chaplin',
     actors: [{ name: 'Charlie Chaplin' }, { name: 'Martha Raye' }],
     coverUrl:
-      'https://m.media-amazon.com/images/I/81B-LxUiIHL._AC_UF894,1000_QL80_.jpg',
+      '/movies_pictures/c0720db1aac9.jpg',
     releaseDate: '1947-04-11',
     length: 124,
     genre: ['Comédie', 'Policier', 'Drame'],
