@@ -29,8 +29,7 @@ export const baseMoviesPage9: BaseMovie[] = [
     title: 'Frankenweenie',
     director: 'Tim Burton',
     actors: [{ name: 'Charlie Tahan' }, { name: 'Winona Ryder' }],
-    coverUrl:
-      '/movies_pictures/2c1f536a507d.jpg',
+    coverUrl: '/movies_pictures/2c1f536a507d.jpg',
     releaseDate: '2012-10-05',
     length: 87,
     genre: ['Animation', 'Comédie', 'Fantastique'],
@@ -44,8 +43,7 @@ export const baseMoviesPage9: BaseMovie[] = [
     title: "Pee-wee's Big Adventure",
     director: 'Tim Burton',
     actors: [{ name: 'Paul Reubens' }, { name: 'Elizabeth Daily' }],
-    coverUrl:
-      '/movies_pictures/bc10d3ed518a.jpg',
+    coverUrl: '/movies_pictures/bc10d3ed518a.jpg',
     releaseDate: '1985-08-09',
     length: 91,
     genre: ['Aventure', 'Comédie', 'Jeunesse'],
@@ -60,8 +58,7 @@ export const baseMoviesPage9: BaseMovie[] = [
     title: 'Samba',
     director: 'Éric Toledano, Olivier Nakache',
     actors: [{ name: 'Omar Sy' }, { name: 'Charlotte Gainsbourg' }],
-    coverUrl:
-      '/movies_pictures/5549252be6fd.jpg',
+    coverUrl: '/movies_pictures/5549252be6fd.jpg',
     releaseDate: '2014-10-15',
     length: 118,
     genre: ['Comédie', 'Drame', 'Romance'],
@@ -75,8 +72,7 @@ export const baseMoviesPage9: BaseMovie[] = [
     title: 'Hors normes',
     director: 'Éric Toledano, Olivier Nakache',
     actors: [{ name: 'Vincent Cassel' }, { name: 'Reda Kateb' }],
-    coverUrl:
-      '/movies_pictures/b29734b8f2e0.jpg',
+    coverUrl: '/movies_pictures/b29734b8f2e0.jpg',
     releaseDate: '2019-03-25',
     length: 114,
     genre: ['Comédie', 'Drame'],
@@ -104,8 +100,7 @@ export const baseMoviesPage9: BaseMovie[] = [
     title: 'Émotifs anonymes',
     director: 'Éric Toledano, Olivier Nakache',
     actors: [{ name: 'Benoît Poelvoorde' }, { name: 'Isabelle Carré' }],
-    coverUrl:
-      '/movies_pictures/cc0469025f2b.jpg',
+    coverUrl: '/movies_pictures/cc0469025f2b.jpg',
     releaseDate: '2010-12-22',
     length: 80,
     genre: ['Comédie', 'Romance'],
@@ -119,8 +114,7 @@ export const baseMoviesPage9: BaseMovie[] = [
     title: 'Demain tout commence',
     director: 'Éric Toledano, Olivier Nakache',
     actors: [{ name: 'Omar Sy' }, { name: 'Clémence Poésy' }],
-    coverUrl:
-      '/movies_pictures/3b9b65058891.jpg',
+    coverUrl: '/movies_pictures/3b9b65058891.jpg',
     releaseDate: '2016-12-21',
     length: 118,
     genre: ['Comédie', 'Drame'],
@@ -134,8 +128,7 @@ export const baseMoviesPage9: BaseMovie[] = [
     title: 'Le Sens de la fête',
     director: 'Éric Toledano, Olivier Nakache',
     actors: [{ name: 'Jean-Pierre Bacri' }, { name: 'Jean-Paul Rouve' }],
-    coverUrl:
-      '/movies_pictures/dd349fc8a404.jpg',
+    coverUrl: '/movies_pictures/dd349fc8a404.jpg',
     releaseDate: '2017-10-04',
     length: 117,
     genre: ['Comédie', 'Drame'],
@@ -150,8 +143,7 @@ export const baseMoviesPage9: BaseMovie[] = [
     title: 'Chacun pour tous',
     director: 'Philippe Lacheau',
     actors: [{ name: 'Philippe Lacheau' }, { name: 'Élodie Fontan' }],
-    coverUrl:
-      '/movies_pictures/4242dd9f74ba.jpg',
+    coverUrl: '/movies_pictures/4242dd9f74ba.jpg',
     releaseDate: '2018-10-17',
     length: 122,
     genre: ['Comédie'],
@@ -165,8 +157,7 @@ export const baseMoviesPage9: BaseMovie[] = [
     title: '10 jours sans maman',
     director: 'Philippe Lacheau',
     actors: [{ name: 'Philippe Lacheau' }, { name: 'Vanessa Guide' }],
-    coverUrl:
-      '/movies_pictures/1503e35993cc.jpeg',
+    coverUrl: '/movies_pictures/1503e35993cc.jpeg',
     releaseDate: '2023-04-12',
     length: 98,
     genre: ['Comédie'],
@@ -180,8 +171,7 @@ export const baseMoviesPage9: BaseMovie[] = [
     title: '10 jours encore sans maman',
     director: 'Philippe Lacheau',
     actors: [{ name: 'Philippe Lacheau' }, { name: 'Tarek Boudali' }],
-    coverUrl:
-      '/movies_pictures/a5c44d589de5.jpg',
+    coverUrl: '/movies_pictures/a5c44d589de5.jpg',
     releaseDate: '2024-04-10',
     length: 91,
     genre: ['Comédie'],
@@ -226,8 +216,7 @@ export const baseMoviesPage9: BaseMovie[] = [
     title: 'Body of Lies',
     director: 'Ridley Scott',
     actors: [{ name: 'Leonardo DiCaprio' }, { name: 'Russell Crowe' }],
-    coverUrl:
-      '/movies_pictures/5103b7e78bda.jpg',
+    coverUrl: '/movies_pictures/5103b7e78bda.jpg',
     releaseDate: '2008-10-10',
     length: 128,
     genre: ['Action', 'Thriller', 'Drame'],
@@ -241,8 +230,7 @@ export const baseMoviesPage9: BaseMovie[] = [
     title: 'Robin des Bois',
     director: 'Ridley Scott',
     actors: [{ name: 'Russell Crowe' }, { name: 'Cate Blanchett' }],
-    coverUrl:
-      '/movies_pictures/e13e32068b45.jpg',
+    coverUrl: '/movies_pictures/e13e32068b45.jpg',
     releaseDate: '2010-05-12',
     length: 140,
     genre: ['Action', 'Aventure', 'Drame'],
@@ -256,8 +244,7 @@ export const baseMoviesPage9: BaseMovie[] = [
     title: 'American Gangster',
     director: 'Ridley Scott',
     actors: [{ name: 'Denzel Washington' }, { name: 'Russell Crowe' }],
-    coverUrl:
-      '/movies_pictures/00c907c6db99.jpg',
+    coverUrl: '/movies_pictures/00c907c6db99.jpg',
     releaseDate: '2007-11-02',
     length: 157,
     genre: ['Policier', 'Drame', 'Thriller'],
@@ -271,8 +258,7 @@ export const baseMoviesPage9: BaseMovie[] = [
     title: 'Napoléon',
     director: 'Ridley Scott',
     actors: [{ name: 'Joaquin Phoenix' }, { name: 'Vanessa Kirby' }],
-    coverUrl:
-      '/movies_pictures/d3fa58c6e97c.jpg',
+    coverUrl: '/movies_pictures/d3fa58c6e97c.jpg',
     releaseDate: '2023-11-22',
     length: 158,
     genre: ['Biographie', 'Historique', 'Guerre'],
@@ -286,8 +272,7 @@ export const baseMoviesPage9: BaseMovie[] = [
     title: 'House of Gucci',
     director: 'Ridley Scott',
     actors: [{ name: 'Lady Gaga' }, { name: 'Adam Driver' }],
-    coverUrl:
-      '/movies_pictures/2060788058cb.jpg',
+    coverUrl: '/movies_pictures/2060788058cb.jpg',
     releaseDate: '2021-11-24',
     length: 158,
     genre: ['Biographie', 'Drame', 'Thriller'],
@@ -301,8 +286,7 @@ export const baseMoviesPage9: BaseMovie[] = [
     title: 'Matchstick Men',
     director: 'Ridley Scott',
     actors: [{ name: 'Nicolas Cage' }, { name: 'Sam Rockwell' }],
-    coverUrl:
-      '/movies_pictures/f70865bf87a9.jpg',
+    coverUrl: '/movies_pictures/f70865bf87a9.jpg',
     releaseDate: '2003-09-12',
     length: 116,
     genre: ['Comédie', 'Drame', 'Policier'],
@@ -317,8 +301,7 @@ export const baseMoviesPage9: BaseMovie[] = [
     title: 'Raging Bull',
     director: 'Martin Scorsese',
     actors: [{ name: 'Robert De Niro' }, { name: 'Cathy Moriarty' }],
-    coverUrl:
-      '/movies_pictures/f3af073ebdb2.jpg',
+    coverUrl: '/movies_pictures/f3af073ebdb2.jpg',
     releaseDate: '1980-11-14',
     length: 129,
     genre: ['Biographie', 'Drame'],
@@ -332,8 +315,7 @@ export const baseMoviesPage9: BaseMovie[] = [
     title: 'Mean Streets',
     director: 'Martin Scorsese',
     actors: [{ name: 'Robert De Niro' }, { name: 'Harvey Keitel' }],
-    coverUrl:
-      '/movies_pictures/1d80c24a9cdb.jpg',
+    coverUrl: '/movies_pictures/1d80c24a9cdb.jpg',
     releaseDate: '1973-10-14',
     length: 112,
     genre: ['Policier', 'Drame'],
@@ -347,8 +329,7 @@ export const baseMoviesPage9: BaseMovie[] = [
     title: 'After Hours',
     director: 'Martin Scorsese',
     actors: [{ name: 'Griffin Dunne' }, { name: 'Rosanna Arquette' }],
-    coverUrl:
-      '/movies_pictures/47e9bc67b89a.jpg',
+    coverUrl: '/movies_pictures/47e9bc67b89a.jpg',
     releaseDate: '1985-09-13',
     length: 97,
     genre: ['Comédie', 'Thriller', 'Drame'],
@@ -376,8 +357,7 @@ export const baseMoviesPage9: BaseMovie[] = [
     title: 'Les Nerfs à vif',
     director: 'Martin Scorsese',
     actors: [{ name: 'Robert De Niro' }, { name: 'Nick Nolte' }],
-    coverUrl:
-      '/movies_pictures/0088e6f9bbd0.jpg',
+    coverUrl: '/movies_pictures/0088e6f9bbd0.jpg',
     releaseDate: '1991-11-15',
     length: 128,
     genre: ['Thriller', 'Policier'],
@@ -391,8 +371,7 @@ export const baseMoviesPage9: BaseMovie[] = [
     title: "Le temps de l'innocence",
     director: 'Martin Scorsese',
     actors: [{ name: 'Daniel Day-Lewis' }, { name: 'Michelle Pfeiffer' }],
-    coverUrl:
-      '/movies_pictures/1a5d11235e7a.jpg',
+    coverUrl: '/movies_pictures/1a5d11235e7a.jpg',
     releaseDate: '1993-10-01',
     length: 139,
     genre: ['Drame', 'Romance'],
@@ -406,8 +385,7 @@ export const baseMoviesPage9: BaseMovie[] = [
     title: 'The Irishman',
     director: 'Martin Scorsese',
     actors: [{ name: 'Robert De Niro' }, { name: 'Al Pacino' }],
-    coverUrl:
-      '/movies_pictures/5956e35e0cf6.jpg',
+    coverUrl: '/movies_pictures/5956e35e0cf6.jpg',
     releaseDate: '2019-11-27',
     length: 209,
     genre: ['Biographie', 'Policier', 'Drame'],
@@ -421,8 +399,7 @@ export const baseMoviesPage9: BaseMovie[] = [
     title: 'Bringing Out the Dead',
     director: 'Martin Scorsese',
     actors: [{ name: 'Nicolas Cage' }, { name: 'Patricia Arquette' }],
-    coverUrl:
-      '/movies_pictures/02cbeac7405c.jpg',
+    coverUrl: '/movies_pictures/02cbeac7405c.jpg',
     releaseDate: '1999-10-22',
     length: 121,
     genre: ['Drame', 'Thriller'],
@@ -436,8 +413,7 @@ export const baseMoviesPage9: BaseMovie[] = [
     title: 'Kundun',
     director: 'Martin Scorsese',
     actors: [{ name: 'Tenzin Thuthob Tsarong' }, { name: 'Gyurme Tethong' }],
-    coverUrl:
-      '/movies_pictures/188b471b8c6b.jpg',
+    coverUrl: '/movies_pictures/188b471b8c6b.jpg',
     releaseDate: '1997-12-25',
     length: 134,
     genre: ['Biographie', 'Historique', 'Drame'],
@@ -451,8 +427,7 @@ export const baseMoviesPage9: BaseMovie[] = [
     title: 'New York, New York',
     director: 'Martin Scorsese',
     actors: [{ name: 'Liza Minnelli' }, { name: 'Robert De Niro' }],
-    coverUrl:
-      '/movies_pictures/bdbc20206e84.jpg',
+    coverUrl: '/movies_pictures/bdbc20206e84.jpg',
     releaseDate: '1977-06-21',
     length: 136,
     genre: ['Drame', 'Romance', 'Comédie musicale'],
@@ -467,8 +442,7 @@ export const baseMoviesPage9: BaseMovie[] = [
     title: 'Eraserhead',
     director: 'David Lynch',
     actors: [{ name: 'Jack Nance' }, { name: 'Charlotte Stewart' }],
-    coverUrl:
-      '/movies_pictures/db7b30ff35df.jpg',
+    coverUrl: '/movies_pictures/db7b30ff35df.jpg',
     releaseDate: '1977-03-19',
     length: 89,
     genre: ['Horreur', 'Fantastique', 'Drame'],
@@ -482,8 +456,7 @@ export const baseMoviesPage9: BaseMovie[] = [
     title: 'Blue Velvet',
     director: 'David Lynch',
     actors: [{ name: 'Kyle MacLachlan' }, { name: 'Isabella Rossellini' }],
-    coverUrl:
-      '/movies_pictures/6953de9b417a.jpg',
+    coverUrl: '/movies_pictures/6953de9b417a.jpg',
     releaseDate: '1986-09-19',
     length: 120,
     genre: ['Thriller', 'Mystère', 'Drame'],
@@ -497,8 +470,7 @@ export const baseMoviesPage9: BaseMovie[] = [
     title: 'Wild at Heart',
     director: 'David Lynch',
     actors: [{ name: 'Nicolas Cage' }, { name: 'Laura Dern' }],
-    coverUrl:
-      '/movies_pictures/5c5c66a89897.jpg',
+    coverUrl: '/movies_pictures/5c5c66a89897.jpg',
     releaseDate: '1990-08-17',
     length: 124,
     genre: ['Romance', 'Thriller', 'Policier'],
@@ -512,8 +484,7 @@ export const baseMoviesPage9: BaseMovie[] = [
     title: 'Twin Peaks: Fire Walk with Me',
     director: 'David Lynch',
     actors: [{ name: 'Sheryl Lee' }, { name: 'Ray Wise' }],
-    coverUrl:
-      '/movies_pictures/148ef6e4f94d.jpg',
+    coverUrl: '/movies_pictures/148ef6e4f94d.jpg',
     releaseDate: '1992-08-28',
     length: 135,
     genre: ['Horreur', 'Drame', 'Mystère'],
@@ -527,8 +498,7 @@ export const baseMoviesPage9: BaseMovie[] = [
     title: 'Lost Highway',
     director: 'David Lynch',
     actors: [{ name: 'Bill Pullman' }, { name: 'Patricia Arquette' }],
-    coverUrl:
-      '/movies_pictures/f6189a1aea89.jpg',
+    coverUrl: '/movies_pictures/f6189a1aea89.jpg',
     releaseDate: '1997-02-21',
     length: 134,
     genre: ['Thriller', 'Mystère', 'Drame'],
@@ -542,8 +512,7 @@ export const baseMoviesPage9: BaseMovie[] = [
     title: 'The Straight Story',
     director: 'David Lynch',
     actors: [{ name: 'Richard Farnsworth' }, { name: 'Sissy Spacek' }],
-    coverUrl:
-      '/movies_pictures/7d50a3d03ec0.jpg',
+    coverUrl: '/movies_pictures/7d50a3d03ec0.jpg',
     releaseDate: '1999-10-15',
     length: 112,
     genre: ['Biographie', 'Drame', 'Aventure'],
@@ -557,8 +526,7 @@ export const baseMoviesPage9: BaseMovie[] = [
     title: 'Inland Empire',
     director: 'David Lynch',
     actors: [{ name: 'Laura Dern' }, { name: 'Jeremy Irons' }],
-    coverUrl:
-      '/movies_pictures/f879fef33690.jpg',
+    coverUrl: '/movies_pictures/f879fef33690.jpg',
     releaseDate: '2006-09-06',
     length: 180,
     genre: ['Mystère', 'Thriller', 'Drame'],
@@ -572,8 +540,7 @@ export const baseMoviesPage9: BaseMovie[] = [
     title: 'Dune',
     director: 'David Lynch',
     actors: [{ name: 'Kyle MacLachlan' }, { name: 'Francesca Annis' }],
-    coverUrl:
-      '/movies_pictures/d99e21e694eb.jpeg',
+    coverUrl: '/movies_pictures/d99e21e694eb.jpeg',
     releaseDate: '1984-12-14',
     length: 137,
     genre: ['Science Fiction', 'Aventure', 'Drame'],
@@ -588,8 +555,7 @@ export const baseMoviesPage9: BaseMovie[] = [
     title: 'Hard Eight',
     director: 'Paul Thomas Anderson',
     actors: [{ name: 'Philip Baker Hall' }, { name: 'John C. Reilly' }],
-    coverUrl:
-      '/movies_pictures/8ccbce96ec4c.jpg',
+    coverUrl: '/movies_pictures/8ccbce96ec4c.jpg',
     releaseDate: '1997-02-28',
     length: 102,
     genre: ['Drame', 'Thriller', 'Policier'],
@@ -617,8 +583,7 @@ export const baseMoviesPage9: BaseMovie[] = [
     title: 'The Master',
     director: 'Paul Thomas Anderson',
     actors: [{ name: 'Joaquin Phoenix' }, { name: 'Philip Seymour Hoffman' }],
-    coverUrl:
-      '/movies_pictures/d042bb9824d5.jpg',
+    coverUrl: '/movies_pictures/d042bb9824d5.jpg',
     releaseDate: '2012-09-14',
     length: 144,
     genre: ['Drame'],
@@ -632,8 +597,7 @@ export const baseMoviesPage9: BaseMovie[] = [
     title: 'Inherent Vice',
     director: 'Paul Thomas Anderson',
     actors: [{ name: 'Joaquin Phoenix' }, { name: 'Josh Brolin' }],
-    coverUrl:
-      '/movies_pictures/1f3a191b0c7f.jpg',
+    coverUrl: '/movies_pictures/1f3a191b0c7f.jpg',
     releaseDate: '2014-12-12',
     length: 148,
     genre: ['Comédie', 'Policier', 'Drame'],
@@ -647,8 +611,7 @@ export const baseMoviesPage9: BaseMovie[] = [
     title: 'Phantom Thread',
     director: 'Paul Thomas Anderson',
     actors: [{ name: 'Daniel Day-Lewis' }, { name: 'Vicky Krieps' }],
-    coverUrl:
-      '/movies_pictures/570ae7d06777.jpg',
+    coverUrl: '/movies_pictures/570ae7d06777.jpg',
     releaseDate: '2017-12-25',
     length: 130,
     genre: ['Drame', 'Romance'],
@@ -662,8 +625,7 @@ export const baseMoviesPage9: BaseMovie[] = [
     title: 'Licorice Pizza',
     director: 'Paul Thomas Anderson',
     actors: [{ name: 'Alana Haim' }, { name: 'Cooper Hoffman' }],
-    coverUrl:
-      '/movies_pictures/5633e846dd8d.jpg',
+    coverUrl: '/movies_pictures/5633e846dd8d.jpg',
     releaseDate: '2021-11-26',
     length: 133,
     genre: ['Comédie', 'Drame', 'Romance'],
@@ -678,8 +640,7 @@ export const baseMoviesPage9: BaseMovie[] = [
     title: 'Cronos',
     director: 'Guillermo del Toro',
     actors: [{ name: 'Federico Luppi' }, { name: 'Ron Perlman' }],
-    coverUrl:
-      '/movies_pictures/1779fb4a2a18.jpg',
+    coverUrl: '/movies_pictures/1779fb4a2a18.jpg',
     releaseDate: '1993-04-30',
     length: 92,
     genre: ['Horreur', 'Drame', 'Fantastique'],
@@ -707,8 +668,7 @@ export const baseMoviesPage9: BaseMovie[] = [
     title: "L'Échine du diable",
     director: 'Guillermo del Toro',
     actors: [{ name: 'Marisa Paredes' }, { name: 'Eduardo Noriega' }],
-    coverUrl:
-      '/movies_pictures/dd44d15d1514.jpg',
+    coverUrl: '/movies_pictures/dd44d15d1514.jpg',
     releaseDate: '2001-04-20',
     length: 106,
     genre: ['Horreur', 'Drame', 'Thriller'],
@@ -723,8 +683,7 @@ export const baseMoviesPage9: BaseMovie[] = [
     title: 'Army of Darkness',
     director: 'Sam Raimi',
     actors: [{ name: 'Bruce Campbell' }, { name: 'Embeth Davidtz' }],
-    coverUrl:
-      '/movies_pictures/c5ca3d9a8050.jpg',
+    coverUrl: '/movies_pictures/c5ca3d9a8050.jpg',
     releaseDate: '1993-02-19',
     length: 81,
     genre: ['Comédie', 'Fantastique', 'Horreur'],
@@ -738,8 +697,7 @@ export const baseMoviesPage9: BaseMovie[] = [
     title: "Jusqu'en enfer",
     director: 'Sam Raimi',
     actors: [{ name: 'Alison Lohman' }, { name: 'Justin Long' }],
-    coverUrl:
-      '/movies_pictures/b1c7bffc8136.jpg',
+    coverUrl: '/movies_pictures/b1c7bffc8136.jpg',
     releaseDate: '2009-05-29',
     length: 99,
     genre: ['Horreur', 'Thriller'],
@@ -753,8 +711,7 @@ export const baseMoviesPage9: BaseMovie[] = [
     title: 'Darkman',
     director: 'Sam Raimi',
     actors: [{ name: 'Liam Neeson' }, { name: 'Frances McDormand' }],
-    coverUrl:
-      '/movies_pictures/3c3a1f29efd6.jpg',
+    coverUrl: '/movies_pictures/3c3a1f29efd6.jpg',
     releaseDate: '1990-08-24',
     length: 96,
     genre: ['Action', 'Science Fiction', 'Thriller'],
@@ -768,8 +725,7 @@ export const baseMoviesPage9: BaseMovie[] = [
     title: 'Un plan simple',
     director: 'Sam Raimi',
     actors: [{ name: 'Bill Paxton' }, { name: 'Billy Bob Thornton' }],
-    coverUrl:
-      '/movies_pictures/ab3bbecfc8cd.jpg',
+    coverUrl: '/movies_pictures/ab3bbecfc8cd.jpg',
     releaseDate: '1998-12-11',
     length: 121,
     genre: ['Thriller', 'Drame', 'Policier'],
@@ -783,8 +739,7 @@ export const baseMoviesPage9: BaseMovie[] = [
     title: 'Oz the Great and Powerful',
     director: 'Sam Raimi',
     actors: [{ name: 'James Franco' }, { name: 'Mila Kunis' }],
-    coverUrl:
-      '/movies_pictures/f656998f7f21.jpeg',
+    coverUrl: '/movies_pictures/f656998f7f21.jpeg',
     releaseDate: '2013-03-08',
     length: 130,
     genre: ['Aventure', 'Fantastique', 'Jeunesse'],
@@ -798,8 +753,7 @@ export const baseMoviesPage9: BaseMovie[] = [
     title: 'The Gift',
     director: 'Sam Raimi',
     actors: [{ name: 'Cate Blanchett' }, { name: 'Keanu Reeves' }],
-    coverUrl:
-      '/movies_pictures/1fa8ead04e68.jpg',
+    coverUrl: '/movies_pictures/1fa8ead04e68.jpg',
     releaseDate: '2000-12-22',
     length: 111,
     genre: ['Thriller', 'Drame', 'Mystère'],
@@ -814,8 +768,7 @@ export const baseMoviesPage9: BaseMovie[] = [
     title: 'The Virgin Suicides',
     director: 'Sofia Coppola',
     actors: [{ name: 'Kirsten Dunst' }, { name: 'Josh Hartnett' }],
-    coverUrl:
-      '/movies_pictures/eb8d890a4c0e.jpeg',
+    coverUrl: '/movies_pictures/eb8d890a4c0e.jpeg',
     releaseDate: '2000-04-21',
     length: 97,
     genre: ['Drame', 'Romance', 'Mystère'],
@@ -829,8 +782,7 @@ export const baseMoviesPage9: BaseMovie[] = [
     title: 'Somewhere',
     director: 'Sofia Coppola',
     actors: [{ name: 'Stephen Dorff' }, { name: 'Elle Fanning' }],
-    coverUrl:
-      '/movies_pictures/70ba6ed1111c.jpg',
+    coverUrl: '/movies_pictures/70ba6ed1111c.jpg',
     releaseDate: '2010-12-22',
     length: 97,
     genre: ['Drame'],
@@ -859,8 +811,7 @@ export const baseMoviesPage9: BaseMovie[] = [
     title: 'On the Rocks',
     director: 'Sofia Coppola',
     actors: [{ name: 'Bill Murray' }, { name: 'Rashida Jones' }],
-    coverUrl:
-      '/movies_pictures/aaa4112420be.jpg',
+    coverUrl: '/movies_pictures/aaa4112420be.jpg',
     releaseDate: '2020-10-02',
     length: 96,
     genre: ['Comédie', 'Drame'],
@@ -874,8 +825,7 @@ export const baseMoviesPage9: BaseMovie[] = [
     title: 'Priscilla',
     director: 'Sofia Coppola',
     actors: [{ name: 'Cailee Spaeny' }, { name: 'Jacob Elordi' }],
-    coverUrl:
-      '/movies_pictures/2931b18d8a2d.jpg',
+    coverUrl: '/movies_pictures/2931b18d8a2d.jpg',
     releaseDate: '2023-11-03',
     length: 113,
     genre: ['Biographie', 'Drame', 'Romance'],
@@ -890,8 +840,7 @@ export const baseMoviesPage9: BaseMovie[] = [
     title: 'Conversation Secrète',
     director: 'Francis Ford Coppola',
     actors: [{ name: 'Gene Hackman' }, { name: 'John Cazale' }],
-    coverUrl:
-      '/movies_pictures/9c2691283f5b.jpg',
+    coverUrl: '/movies_pictures/9c2691283f5b.jpg',
     releaseDate: '1974-04-07',
     length: 113,
     genre: ['Thriller', 'Mystère', 'Drame'],
@@ -905,8 +854,7 @@ export const baseMoviesPage9: BaseMovie[] = [
     title: 'The Rainmaker',
     director: 'Francis Ford Coppola',
     actors: [{ name: 'Matt Damon' }, { name: 'Danny DeVito' }],
-    coverUrl:
-      '/movies_pictures/0b66d7231257.jpg',
+    coverUrl: '/movies_pictures/0b66d7231257.jpg',
     releaseDate: '1997-11-21',
     length: 135,
     genre: ['Drame', 'Policier'],
@@ -920,8 +868,7 @@ export const baseMoviesPage9: BaseMovie[] = [
     title: 'Tucker: The Man and His Dream',
     director: 'Francis Ford Coppola',
     actors: [{ name: 'Jeff Bridges' }, { name: 'Joan Allen' }],
-    coverUrl:
-      '/movies_pictures/dadd0c32545d.jpg',
+    coverUrl: '/movies_pictures/dadd0c32545d.jpg',
     releaseDate: '1988-08-12',
     length: 110,
     genre: ['Biographie', 'Comédie', 'Drame'],
@@ -935,8 +882,7 @@ export const baseMoviesPage9: BaseMovie[] = [
     title: 'Rumble Fish',
     director: 'Francis Ford Coppola',
     actors: [{ name: 'Matt Dillon' }, { name: 'Mickey Rourke' }],
-    coverUrl:
-      '/movies_pictures/a8e180e65b12.jpg',
+    coverUrl: '/movies_pictures/a8e180e65b12.jpg',
     releaseDate: '1983-10-21',
     length: 94,
     genre: ['Drame'],
@@ -950,8 +896,7 @@ export const baseMoviesPage9: BaseMovie[] = [
     title: 'The Cotton Club',
     director: 'Francis Ford Coppola',
     actors: [{ name: 'Richard Gere' }, { name: 'Gregory Hines' }],
-    coverUrl:
-      '/movies_pictures/4208c6138b60.jpg',
+    coverUrl: '/movies_pictures/4208c6138b60.jpg',
     releaseDate: '1984-12-14',
     length: 127,
     genre: ['Drame', 'Historique', 'Comédie musicale'],
@@ -966,8 +911,7 @@ export const baseMoviesPage9: BaseMovie[] = [
     title: 'THX 1138',
     director: 'George Lucas',
     actors: [{ name: 'Robert Duvall' }, { name: 'Donald Pleasence' }],
-    coverUrl:
-      '/movies_pictures/a2bb0eb07061.jpg',
+    coverUrl: '/movies_pictures/a2bb0eb07061.jpg',
     releaseDate: '1971-03-11',
     length: 88,
     genre: ['Science Fiction', 'Dystopie', 'Drame'],
@@ -981,8 +925,7 @@ export const baseMoviesPage9: BaseMovie[] = [
     title: 'American Graffiti',
     director: 'George Lucas',
     actors: [{ name: 'Richard Dreyfuss' }, { name: 'Ron Howard' }],
-    coverUrl:
-      '/movies_pictures/997f4d7dc7ab.jpg',
+    coverUrl: '/movies_pictures/997f4d7dc7ab.jpg',
     releaseDate: '1973-08-11',
     length: 110,
     genre: ['Comédie', 'Drame'],
@@ -997,8 +940,7 @@ export const baseMoviesPage9: BaseMovie[] = [
     title: 'Videodrome',
     director: 'David Cronenberg',
     actors: [{ name: 'James Woods' }, { name: 'Debbie Harry' }],
-    coverUrl:
-      '/movies_pictures/8c3008eafcbf.jpg',
+    coverUrl: '/movies_pictures/8c3008eafcbf.jpg',
     releaseDate: '1983-02-04',
     length: 87,
     genre: ['Science Fiction', 'Horreur', 'Thriller'],
@@ -1012,8 +954,7 @@ export const baseMoviesPage9: BaseMovie[] = [
     title: 'La Mouche',
     director: 'David Cronenberg',
     actors: [{ name: 'Jeff Goldblum' }, { name: 'Geena Davis' }],
-    coverUrl:
-      '/movies_pictures/11f541ce75b9.jpg',
+    coverUrl: '/movies_pictures/11f541ce75b9.jpg',
     releaseDate: '1986-08-15',
     length: 96,
     genre: ['Science Fiction', 'Horreur', 'Drame'],
@@ -1027,8 +968,7 @@ export const baseMoviesPage9: BaseMovie[] = [
     title: 'Dead Ringers',
     director: 'David Cronenberg',
     actors: [{ name: 'Jeremy Irons' }, { name: 'Geneviève Bujold' }],
-    coverUrl:
-      '/movies_pictures/76273bb4c026.jpg',
+    coverUrl: '/movies_pictures/76273bb4c026.jpg',
     releaseDate: '1988-09-23',
     length: 115,
     genre: ['Drame', 'Thriller', 'Horreur'],
@@ -1042,8 +982,7 @@ export const baseMoviesPage9: BaseMovie[] = [
     title: 'Crash',
     director: 'David Cronenberg',
     actors: [{ name: 'James Spader' }, { name: 'Holly Hunter' }],
-    coverUrl:
-      '/movies_pictures/d67467b38184.jpg',
+    coverUrl: '/movies_pictures/d67467b38184.jpg',
     releaseDate: '1996-10-04',
     length: 100,
     genre: ['Drame', 'Thriller'],
@@ -1071,8 +1010,7 @@ export const baseMoviesPage9: BaseMovie[] = [
     title: 'Eastern Promises',
     director: 'David Cronenberg',
     actors: [{ name: 'Viggo Mortensen' }, { name: 'Naomi Watts' }],
-    coverUrl:
-      '/movies_pictures/446e29536deb.jpg',
+    coverUrl: '/movies_pictures/446e29536deb.jpg',
     releaseDate: '2007-09-14',
     length: 100,
     genre: ['Thriller', 'Policier', 'Drame'],
@@ -1086,8 +1024,7 @@ export const baseMoviesPage9: BaseMovie[] = [
     title: 'Scanners',
     director: 'David Cronenberg',
     actors: [{ name: "Jennifer O'Neill" }, { name: 'Stephen Lack' }],
-    coverUrl:
-      '/movies_pictures/556b6a1eebb6.jpg',
+    coverUrl: '/movies_pictures/556b6a1eebb6.jpg',
     releaseDate: '1981-01-14',
     length: 103,
     genre: ['Science Fiction', 'Horreur', 'Thriller'],
@@ -1102,7 +1039,8 @@ export const baseMoviesPage9: BaseMovie[] = [
     title: 'Escape from New York',
     director: 'John Carpenter',
     actors: [{ name: 'Kurt Russell' }, { name: 'Lee Van Cleef' }],
-    coverUrl: '',
+    coverUrl:
+      'https://theofficialjohncarpenter.com/wp-content/uploads/2016/01/john-carpenter-escape-from-new-york-poster.jpg',
     releaseDate: '1981-07-10',
     length: 99,
     genre: ['Action', 'Science Fiction', 'Thriller'],
@@ -1116,7 +1054,8 @@ export const baseMoviesPage9: BaseMovie[] = [
     title: 'They Live',
     director: 'John Carpenter',
     actors: [{ name: 'Roddy Piper' }, { name: 'Keith David' }],
-    coverUrl: '',
+    coverUrl:
+      'https://m.media-amazon.com/images/M/MV5BMTQ3MjM3ODU1NV5BMl5BanBnXkFtZTgwMjU3NDU2MTE@._V1_.jpg',
     releaseDate: '1988-11-23',
     length: 94,
     genre: ['Science Fiction', 'Action', 'Thriller'],
@@ -1130,7 +1069,8 @@ export const baseMoviesPage9: BaseMovie[] = [
     title: 'Big Trouble in Little China',
     director: 'John Carpenter',
     actors: [{ name: 'Kurt Russell' }, { name: 'Kim Cattrall' }],
-    coverUrl: '',
+    coverUrl:
+      'https://m.media-amazon.com/images/M/MV5BYWNjZDQyMjUtZDEzZC00OThhLTg1NWItOTQ1MWI3ODBlODcyXkEyXkFqcGc@._V1_.jpg',
     releaseDate: '1986-07-02',
     length: 99,
     genre: ['Action', 'Aventure', 'Comédie'],
@@ -1144,7 +1084,8 @@ export const baseMoviesPage9: BaseMovie[] = [
     title: 'The Fog',
     director: 'John Carpenter',
     actors: [{ name: 'Adrienne Barbeau' }, { name: 'Jamie Lee Curtis' }],
-    coverUrl: '',
+    coverUrl:
+      'https://fr.web.img3.acsta.net/c_310_420/pictures/18/09/24/16/27/0018981.jpg',
     releaseDate: '1980-02-08',
     length: 89,
     genre: ['Horreur', 'Mystère'],
@@ -1158,7 +1099,8 @@ export const baseMoviesPage9: BaseMovie[] = [
     title: 'Assault on Precinct 13',
     director: 'John Carpenter',
     actors: [{ name: 'Austin Stoker' }, { name: 'Darwin Joston' }],
-    coverUrl: '',
+    coverUrl:
+      'https://m.media-amazon.com/images/I/81xAGmhGdtL._AC_UF894,1000_QL80_.jpg',
     releaseDate: '1976-11-03',
     length: 91,
     genre: ['Action', 'Thriller', 'Policier'],
@@ -1172,7 +1114,8 @@ export const baseMoviesPage9: BaseMovie[] = [
     title: 'Starman',
     director: 'John Carpenter',
     actors: [{ name: 'Jeff Bridges' }, { name: 'Karen Allen' }],
-    coverUrl: '',
+    coverUrl:
+      'https://www.filmsfantastiques.com/wp-content/uploads/2021/07/Starman-poster-OK.jpg',
     releaseDate: '1984-12-14',
     length: 115,
     genre: ['Romance', 'Science Fiction', 'Drame'],
@@ -1186,7 +1129,8 @@ export const baseMoviesPage9: BaseMovie[] = [
     title: 'Christine',
     director: 'John Carpenter',
     actors: [{ name: 'Keith Gordon' }, { name: 'John Stockwell' }],
-    coverUrl: '',
+    coverUrl:
+      'https://m.media-amazon.com/images/I/81k9KKFQ0hL._AC_UF894,1000_QL80_.jpg',
     releaseDate: '1983-12-09',
     length: 110,
     genre: ['Horreur', 'Thriller'],
@@ -1200,7 +1144,8 @@ export const baseMoviesPage9: BaseMovie[] = [
     title: 'In the Mouth of Madness',
     director: 'John Carpenter',
     actors: [{ name: 'Sam Neill' }, { name: 'Julie Carmen' }],
-    coverUrl: '',
+    coverUrl:
+      'https://m.media-amazon.com/images/I/61PSIaT5SuL._AC_UF894,1000_QL80_.jpg',
     releaseDate: '1995-02-03',
     length: 95,
     genre: ['Horreur', 'Mystère', 'Thriller'],
@@ -1215,7 +1160,8 @@ export const baseMoviesPage9: BaseMovie[] = [
     title: 'La Nuit des morts-vivants',
     director: 'George A. Romero',
     actors: [{ name: 'Duane Jones' }, { name: "Judith O'Dea" }],
-    coverUrl: '',
+    coverUrl:
+      'https://www.acaciasfilms.com/wp-content/uploads/2023/01/LA-NUIT-DES-MORTS-VIVANTS-800x1067.jpg',
     releaseDate: '1968-10-01',
     length: 96,
     genre: ['Horreur', 'Thriller'],
@@ -1229,7 +1175,8 @@ export const baseMoviesPage9: BaseMovie[] = [
     title: 'Zombie',
     director: 'George A. Romero',
     actors: [{ name: 'David Emge' }, { name: 'Ken Foree' }],
-    coverUrl: '',
+    coverUrl:
+      'https://m.media-amazon.com/images/I/71C+nkTj9dL._AC_UF894,1000_QL80_.jpg',
     releaseDate: '1978-09-10',
     length: 127,
     genre: ['Horreur', 'Action', 'Science Fiction'],
@@ -1243,7 +1190,8 @@ export const baseMoviesPage9: BaseMovie[] = [
     title: 'Le Jour des morts-vivants',
     director: 'George A. Romero',
     actors: [{ name: 'Lori Cardille' }, { name: 'Terry Alexander' }],
-    coverUrl: '',
+    coverUrl:
+      'https://www.legrandaction.com/wp-content/uploads/affiche-le-jour-des-morts-vivants.jpg',
     releaseDate: '1985-07-03',
     length: 101,
     genre: ['Horreur', 'Science Fiction', 'Drame'],
@@ -1257,7 +1205,8 @@ export const baseMoviesPage9: BaseMovie[] = [
     title: 'Le Territoire des Morts',
     director: 'George A. Romero',
     actors: [{ name: 'Simon Baker' }, { name: 'John Leguizamo' }],
-    coverUrl: '',
+    coverUrl:
+      'https://www.critikat.com/wp-content/uploads/2005/08/artoff216.jpg',
     releaseDate: '2005-06-24',
     length: 93,
     genre: ['Horreur', 'Science Fiction', 'Action'],
@@ -1271,7 +1220,8 @@ export const baseMoviesPage9: BaseMovie[] = [
     title: 'Martin',
     director: 'George A. Romero',
     actors: [{ name: 'John Amplas' }, { name: 'Lincoln Maazel' }],
-    coverUrl: '',
+    coverUrl:
+      'https://m.media-amazon.com/images/M/MV5BOTkyNGUxOWMtNmUyNy00ZDgxLTgyNjctNDVjNzBkMDQyZTUzXkEyXkFqcGc@._V1_.jpg',
     releaseDate: '1978-07-21',
     length: 95,
     genre: ['Horreur', 'Drame'],
@@ -1285,7 +1235,8 @@ export const baseMoviesPage9: BaseMovie[] = [
     title: 'The Crazies',
     director: 'George A. Romero',
     actors: [{ name: 'Lane Carroll' }, { name: 'Will MacMillan' }],
-    coverUrl: '',
+    coverUrl:
+      'https://fr.web.img6.acsta.net/medias/nmedia/18/36/25/26/18465521.jpg',
     releaseDate: '1973-03-16',
     length: 103,
     genre: ['Horreur', 'Science Fiction', 'Action'],
@@ -1300,7 +1251,8 @@ export const baseMoviesPage9: BaseMovie[] = [
     title: 'The Kid',
     director: 'Charlie Chaplin',
     actors: [{ name: 'Charlie Chaplin' }, { name: 'Jackie Coogan' }],
-    coverUrl: '',
+    coverUrl:
+      'https://upload.wikimedia.org/wikipedia/commons/5/59/CC_The_Kid_1921.jpg',
     releaseDate: '1921-02-06',
     length: 68,
     genre: ['Comédie', 'Drame', 'Jeunesse'],
@@ -1314,7 +1266,8 @@ export const baseMoviesPage9: BaseMovie[] = [
     title: "La ruée vers l'or",
     director: 'Charlie Chaplin',
     actors: [{ name: 'Charlie Chaplin' }, { name: 'Georgia Hale' }],
-    coverUrl: '',
+    coverUrl:
+      'https://fr.web.img5.acsta.net/c_310_420/img/82/fa/82fae46a6d1a382c74dfe48b25205187.jpg',
     releaseDate: '1925-06-26',
     length: 95,
     genre: ['Comédie', 'Aventure', 'Romance'],
@@ -1328,7 +1281,8 @@ export const baseMoviesPage9: BaseMovie[] = [
     title: 'The Circus',
     director: 'Charlie Chaplin',
     actors: [{ name: 'Charlie Chaplin' }, { name: 'Merna Kennedy' }],
-    coverUrl: '',
+    coverUrl:
+      'https://upload.wikimedia.org/wikipedia/commons/0/06/The-circus-charlie-chaplin-1928-everett.jpg',
     releaseDate: '1928-01-06',
     length: 72,
     genre: ['Comédie', 'Romance'],
@@ -1342,7 +1296,8 @@ export const baseMoviesPage9: BaseMovie[] = [
     title: 'Limelight',
     director: 'Charlie Chaplin',
     actors: [{ name: 'Charlie Chaplin' }, { name: 'Claire Bloom' }],
-    coverUrl: '',
+    coverUrl:
+      'https://www.cinematheque.qc.ca/cdn-cgi/image/format=auto/workspace/uploads/films/mv5bzgrjntu5mtqtytbmzi00ngu3ltgznjktmze3owyymty5yty3xkeyxkfqcgdeqxvymzexodeznda-_v1_-fr-1654869219.jpg',
     releaseDate: '1952-10-16',
     length: 137,
     genre: ['Drame', 'Romance', 'Comédie musicale'],
@@ -1356,7 +1311,8 @@ export const baseMoviesPage9: BaseMovie[] = [
     title: 'Monsieur Verdoux',
     director: 'Charlie Chaplin',
     actors: [{ name: 'Charlie Chaplin' }, { name: 'Martha Raye' }],
-    coverUrl: '',
+    coverUrl:
+      'https://m.media-amazon.com/images/I/81B-LxUiIHL._AC_UF894,1000_QL80_.jpg',
     releaseDate: '1947-04-11',
     length: 124,
     genre: ['Comédie', 'Policier', 'Drame'],
