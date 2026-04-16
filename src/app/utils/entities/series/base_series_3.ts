@@ -2352,16 +2352,19 @@ export const baseSeries3: BaseSerie[] = [
       {
         name: 'Ben Kingsley',
       },
+      {
+        name: 'Ed Harris',
+      },
     ],
     coverUrl: '/series_pictures/wonder-man.jpg',
     releaseDate: '2026-01-28',
     endDate: '',
-    genre: ['Super-héro'],
+    genre: ['Super-héro', 'Action', 'Comédie'],
     seasonsData: [
       {
         seasonNumber: 1,
         nbEpisodes: 8,
-        totalLength: 267,
+        totalLength: 320,
       },
     ],
     description: '',

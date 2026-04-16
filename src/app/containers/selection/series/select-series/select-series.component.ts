@@ -4,6 +4,7 @@ import { MenuComponent } from '../../../../components/menu/menu.component';
 import { Serie } from '../../../../models/serie-model';
 import {
   getAllBaseSeries,
+  getCurrentWatchlistSeriesByUser,
   getSeriesByUser,
 } from '../../../../facades/series/series.facade';
 import { SelectEntitiesComponent } from '../../select-base.component';
@@ -25,13 +26,21 @@ export class SelectSeriesComponent
   private readonly dialog = inject(MatDialog);
 
   userSeries = signal<Serie[]>([]);
+  watchlistSeries = signal<Serie[]>([]);
   allSeriesMergedList = signal<Serie[]>([]);
   searchTerm = signal('');
 
-  // Séries déjà vues par l'utilisateur (pour les exclure en mode ajout)
+  // Séries déjà dans la collection (vues / notées)
   watchedSeries = computed<Set<string>>(() => {
     const userSeries = this.userSeries();
     return new Set(userSeries.map((serie) => this.getSerieKey(serie)));
+  });
+
+  /** Déjà en watchlist — exclues pour éviter les doublons (comme select-movies). */
+  alreadyInWatchlistSeries = computed<Set<string>>(() => {
+    return new Set(
+      this.watchlistSeries().map((serie) => this.getSerieKey(serie))
+    );
   });
 
   /** Au moins une série vue issue du catalogue — pour afficher l’ajout manuel. */
@@ -44,18 +53,13 @@ export class SelectSeriesComponent
     );
   });
 
-  // Toutes les séries, filtrées en mode ajout
+  // Catalogue : ni déjà en collection, ni déjà en watchlist (même logique que select-movies).
   allSeries = computed<Serie[]>(() => {
     const allSeriesList = this.allSeriesMergedList();
-
-    if (!this.isWatchOrReadlistMode()) {
-      return allSeriesList.filter(
-        (serie) => !this.watchedSeries().has(this.getSerieKey(serie))
-      );
-    }
-
     return allSeriesList.filter(
-      (serie) => !this.watchedSeries().has(this.getSerieKey(serie))
+      (serie) =>
+        !this.watchedSeries().has(this.getSerieKey(serie)) &&
+        !this.alreadyInWatchlistSeries().has(this.getSerieKey(serie))
     );
   });
 
@@ -112,9 +116,13 @@ export class SelectSeriesComponent
 
   async ngOnInit() {
     const userId = this.userId();
-    const series = await getSeriesByUser(userId);
+    const [series, watchlist] = await Promise.all([
+      getSeriesByUser(userId),
+      getCurrentWatchlistSeriesByUser(userId),
+    ]);
     const allSeries = await this.getAllSeriesForSelection(userId);
     this.userSeries.set(series);
+    this.watchlistSeries.set(watchlist);
     this.allSeriesMergedList.set(allSeries);
   }
 

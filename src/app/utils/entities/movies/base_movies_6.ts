@@ -2391,6 +2391,25 @@ export const baseMoviesPage6: BaseMovie[] = [
     selectDisplayOrder: 0,
   },
   {
+    title: 'La Corde',
+    director: 'Alfred Hitchcock',
+    actors: [
+      { name: 'James Stewart' },
+      { name: 'John Dall' },
+      { name: 'Farley Granger' },
+    ],
+    coverUrl:
+      '/movies_pictures/8482f1d463bb.jpg',
+    releaseDate: '1948-08-28',
+    length: 80,
+    genre: ['Thriller'],
+    saga: '',
+    description: '',
+    fromEntity: null,
+    countryOrigin: ['États-Unis'],
+    selectDisplayOrder: 0,
+  },
+  {
     title: 'Barry Lyndon',
     director: 'Stanley Kubrick',
     actors: [{ name: "Ryan O'Neal" }],

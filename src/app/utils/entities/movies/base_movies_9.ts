@@ -187,8 +187,7 @@ export const baseMoviesPage9: BaseMovie[] = [
     title: 'La Chute Du Faucon Noir',
     director: 'Ridley Scott',
     actors: [{ name: 'Josh Hartnett' }, { name: 'Ewan McGregor' }],
-    coverUrl:
-      'https://mediatheques.boulognebillancourt.com/Ils/digitalCollection/DigitalCollectionThumbnailHandler.ashx?documentId=261004&size=LARGE&fallback=https%3A%2F%2Fmediatheques.boulognebillancourt.com%2Fui%2F240395650000%2Fskins%2Fdefault%2Fportal%2Ffront%2Fimages%2FGeneral%2FDocType%2FAUVI_LARGE.png',
+    coverUrl: '/movies_pictures/DigitalCollectionThumbnailHandler.jpg',
     releaseDate: '2002-01-18',
     length: 144,
     genre: ['Guerre', 'Drame', 'Historique'],
@@ -796,8 +795,7 @@ export const baseMoviesPage9: BaseMovie[] = [
     title: 'Les Proies',
     director: 'Sofia Coppola',
     actors: [{ name: 'Colin Farrell' }, { name: 'Nicole Kidman' }],
-    coverUrl:
-      'https://img.festival-cannes.com/eyJidWNrZXQiOiJtZWRpYSIsImtleSI6InVwbG9hZHNcLzIwMjNcLzAzXC81NDgxNS5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjE2MDAsImZpdCI6ImNvdmVyIn19fQ==',
+    coverUrl: '/movies_pictures/54815.webp',
     releaseDate: '2017-06-23',
     length: 93,
     genre: ['Drame', 'Thriller', 'Guerre'],
@@ -1039,8 +1037,7 @@ export const baseMoviesPage9: BaseMovie[] = [
     title: 'Escape from New York',
     director: 'John Carpenter',
     actors: [{ name: 'Kurt Russell' }, { name: 'Lee Van Cleef' }],
-    coverUrl:
-      '/movies_pictures/caef486d271f.jpg',
+    coverUrl: '/movies_pictures/caef486d271f.jpg',
     releaseDate: '1981-07-10',
     length: 99,
     genre: ['Action', 'Science Fiction', 'Thriller'],
@@ -1054,8 +1051,7 @@ export const baseMoviesPage9: BaseMovie[] = [
     title: 'They Live',
     director: 'John Carpenter',
     actors: [{ name: 'Roddy Piper' }, { name: 'Keith David' }],
-    coverUrl:
-      '/movies_pictures/c1817fae3f28.jpg',
+    coverUrl: '/movies_pictures/c1817fae3f28.jpg',
     releaseDate: '1988-11-23',
     length: 94,
     genre: ['Science Fiction', 'Action', 'Thriller'],
@@ -1069,8 +1065,7 @@ export const baseMoviesPage9: BaseMovie[] = [
     title: 'Big Trouble in Little China',
     director: 'John Carpenter',
     actors: [{ name: 'Kurt Russell' }, { name: 'Kim Cattrall' }],
-    coverUrl:
-      '/movies_pictures/f3ba912a97dd.jpg',
+    coverUrl: '/movies_pictures/f3ba912a97dd.jpg',
     releaseDate: '1986-07-02',
     length: 99,
     genre: ['Action', 'Aventure', 'Comédie'],
@@ -1084,8 +1079,7 @@ export const baseMoviesPage9: BaseMovie[] = [
     title: 'The Fog',
     director: 'John Carpenter',
     actors: [{ name: 'Adrienne Barbeau' }, { name: 'Jamie Lee Curtis' }],
-    coverUrl:
-      '/movies_pictures/7a3606fe6754.jpg',
+    coverUrl: '/movies_pictures/7a3606fe6754.jpg',
     releaseDate: '1980-02-08',
     length: 89,
     genre: ['Horreur', 'Mystère'],
@@ -1099,8 +1093,7 @@ export const baseMoviesPage9: BaseMovie[] = [
     title: 'Assault on Precinct 13',
     director: 'John Carpenter',
     actors: [{ name: 'Austin Stoker' }, { name: 'Darwin Joston' }],
-    coverUrl:
-      '/movies_pictures/681d4ef06f1e.jpg',
+    coverUrl: '/movies_pictures/681d4ef06f1e.jpg',
     releaseDate: '1976-11-03',
     length: 91,
     genre: ['Action', 'Thriller', 'Policier'],
@@ -1114,8 +1107,7 @@ export const baseMoviesPage9: BaseMovie[] = [
     title: 'Starman',
     director: 'John Carpenter',
     actors: [{ name: 'Jeff Bridges' }, { name: 'Karen Allen' }],
-    coverUrl:
-      '/movies_pictures/0e81aa55fdac.jpg',
+    coverUrl: '/movies_pictures/0e81aa55fdac.jpg',
     releaseDate: '1984-12-14',
     length: 115,
     genre: ['Romance', 'Science Fiction', 'Drame'],
@@ -1129,8 +1121,7 @@ export const baseMoviesPage9: BaseMovie[] = [
     title: 'Christine',
     director: 'John Carpenter',
     actors: [{ name: 'Keith Gordon' }, { name: 'John Stockwell' }],
-    coverUrl:
-      '/movies_pictures/70d0bc180b23.jpg',
+    coverUrl: '/movies_pictures/70d0bc180b23.jpg',
     releaseDate: '1983-12-09',
     length: 110,
     genre: ['Horreur', 'Thriller'],
@@ -1144,8 +1135,7 @@ export const baseMoviesPage9: BaseMovie[] = [
     title: 'In the Mouth of Madness',
     director: 'John Carpenter',
     actors: [{ name: 'Sam Neill' }, { name: 'Julie Carmen' }],
-    coverUrl:
-      '/movies_pictures/48f834451d49.jpg',
+    coverUrl: '/movies_pictures/48f834451d49.jpg',
     releaseDate: '1995-02-03',
     length: 95,
     genre: ['Horreur', 'Mystère', 'Thriller'],
@@ -1160,8 +1150,7 @@ export const baseMoviesPage9: BaseMovie[] = [
     title: 'La Nuit des morts-vivants',
     director: 'George A. Romero',
     actors: [{ name: 'Duane Jones' }, { name: "Judith O'Dea" }],
-    coverUrl:
-      '/movies_pictures/740034a0692e.jpg',
+    coverUrl: '/movies_pictures/740034a0692e.jpg',
     releaseDate: '1968-10-01',
     length: 96,
     genre: ['Horreur', 'Thriller'],
@@ -1175,8 +1164,7 @@ export const baseMoviesPage9: BaseMovie[] = [
     title: 'Zombie',
     director: 'George A. Romero',
     actors: [{ name: 'David Emge' }, { name: 'Ken Foree' }],
-    coverUrl:
-      '/movies_pictures/2b4a7fa02199.jpg',
+    coverUrl: '/movies_pictures/2b4a7fa02199.jpg',
     releaseDate: '1978-09-10',
     length: 127,
     genre: ['Horreur', 'Action', 'Science Fiction'],
@@ -1190,8 +1178,7 @@ export const baseMoviesPage9: BaseMovie[] = [
     title: 'Le Jour des morts-vivants',
     director: 'George A. Romero',
     actors: [{ name: 'Lori Cardille' }, { name: 'Terry Alexander' }],
-    coverUrl:
-      '/movies_pictures/36044366c39e.jpg',
+    coverUrl: '/movies_pictures/36044366c39e.jpg',
     releaseDate: '1985-07-03',
     length: 101,
     genre: ['Horreur', 'Science Fiction', 'Drame'],
@@ -1205,8 +1192,7 @@ export const baseMoviesPage9: BaseMovie[] = [
     title: 'Le Territoire des Morts',
     director: 'George A. Romero',
     actors: [{ name: 'Simon Baker' }, { name: 'John Leguizamo' }],
-    coverUrl:
-      '/movies_pictures/ee6b90421df2.jpg',
+    coverUrl: '/movies_pictures/ee6b90421df2.jpg',
     releaseDate: '2005-06-24',
     length: 93,
     genre: ['Horreur', 'Science Fiction', 'Action'],
@@ -1220,8 +1206,7 @@ export const baseMoviesPage9: BaseMovie[] = [
     title: 'Martin',
     director: 'George A. Romero',
     actors: [{ name: 'John Amplas' }, { name: 'Lincoln Maazel' }],
-    coverUrl:
-      '/movies_pictures/f508422d672c.jpg',
+    coverUrl: '/movies_pictures/f508422d672c.jpg',
     releaseDate: '1978-07-21',
     length: 95,
     genre: ['Horreur', 'Drame'],
@@ -1235,8 +1220,7 @@ export const baseMoviesPage9: BaseMovie[] = [
     title: 'The Crazies',
     director: 'George A. Romero',
     actors: [{ name: 'Lane Carroll' }, { name: 'Will MacMillan' }],
-    coverUrl:
-      '/movies_pictures/f0819065ef53.jpg',
+    coverUrl: '/movies_pictures/f0819065ef53.jpg',
     releaseDate: '1973-03-16',
     length: 103,
     genre: ['Horreur', 'Science Fiction', 'Action'],
@@ -1251,8 +1235,7 @@ export const baseMoviesPage9: BaseMovie[] = [
     title: 'The Kid',
     director: 'Charlie Chaplin',
     actors: [{ name: 'Charlie Chaplin' }, { name: 'Jackie Coogan' }],
-    coverUrl:
-      '/movies_pictures/7694fead40aa.jpg',
+    coverUrl: '/movies_pictures/7694fead40aa.jpg',
     releaseDate: '1921-02-06',
     length: 68,
     genre: ['Comédie', 'Drame', 'Jeunesse'],
@@ -1266,8 +1249,7 @@ export const baseMoviesPage9: BaseMovie[] = [
     title: "La ruée vers l'or",
     director: 'Charlie Chaplin',
     actors: [{ name: 'Charlie Chaplin' }, { name: 'Georgia Hale' }],
-    coverUrl:
-      '/movies_pictures/463e45a82b00.jpg',
+    coverUrl: '/movies_pictures/463e45a82b00.jpg',
     releaseDate: '1925-06-26',
     length: 95,
     genre: ['Comédie', 'Aventure', 'Romance'],
@@ -1281,8 +1263,7 @@ export const baseMoviesPage9: BaseMovie[] = [
     title: 'The Circus',
     director: 'Charlie Chaplin',
     actors: [{ name: 'Charlie Chaplin' }, { name: 'Merna Kennedy' }],
-    coverUrl:
-      '/movies_pictures/8daa41db4142.jpg',
+    coverUrl: '/movies_pictures/8daa41db4142.jpg',
     releaseDate: '1928-01-06',
     length: 72,
     genre: ['Comédie', 'Romance'],
@@ -1296,8 +1277,7 @@ export const baseMoviesPage9: BaseMovie[] = [
     title: 'Limelight',
     director: 'Charlie Chaplin',
     actors: [{ name: 'Charlie Chaplin' }, { name: 'Claire Bloom' }],
-    coverUrl:
-      '/movies_pictures/16ce23aba0de.jpg',
+    coverUrl: '/movies_pictures/16ce23aba0de.jpg',
     releaseDate: '1952-10-16',
     length: 137,
     genre: ['Drame', 'Romance', 'Comédie musicale'],
@@ -1311,8 +1291,7 @@ export const baseMoviesPage9: BaseMovie[] = [
     title: 'Monsieur Verdoux',
     director: 'Charlie Chaplin',
     actors: [{ name: 'Charlie Chaplin' }, { name: 'Martha Raye' }],
-    coverUrl:
-      '/movies_pictures/c0720db1aac9.jpg',
+    coverUrl: '/movies_pictures/c0720db1aac9.jpg',
     releaseDate: '1947-04-11',
     length: 124,
     genre: ['Comédie', 'Policier', 'Drame'],

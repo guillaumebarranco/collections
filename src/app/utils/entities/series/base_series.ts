@@ -414,8 +414,7 @@ export const baseSeries: BaseSerie[] = [
         name: 'Sarah Lancashire',
       },
     ],
-    coverUrl:
-      '/series_pictures/211d330c8e56.jpg',
+    coverUrl: '/series_pictures/211d330c8e56.jpg',
     releaseDate: '2024-12-05',
     endDate: '2024-12-05',
     genre: ['Thriller', 'Drama', 'Mystery'],
@@ -1056,8 +1055,7 @@ export const baseSeries: BaseSerie[] = [
         name: 'Adeel Akhtar',
       },
     ],
-    coverUrl:
-      '/series_pictures/a171cd6ae198.jpg',
+    coverUrl: '/series_pictures/a171cd6ae198.jpg',
     releaseDate: '2024-01-01',
     endDate: '2024-01-01',
     genre: ['Thriller', 'Crime', 'Drama'],
@@ -1098,8 +1096,13 @@ export const baseSeries: BaseSerie[] = [
     seasonsData: [
       {
         seasonNumber: 1,
-        nbEpisodes: 18,
+        nbEpisodes: 9,
         totalLength: 1080,
+      },
+      {
+        seasonNumber: 1,
+        nbEpisodes: 5,
+        totalLength: 500,
       },
     ],
     description: '',
@@ -2510,8 +2513,7 @@ export const baseSeries: BaseSerie[] = [
         name: 'Jane Kaczmarek',
       },
     ],
-    coverUrl:
-      '/series_pictures/9679ca72a0d8.jpg',
+    coverUrl: '/series_pictures/9679ca72a0d8.jpg',
     releaseDate: '2026-04-10',
     endDate: '2026-04-10',
     genre: ['Comedy', 'Family'],
@@ -2687,8 +2689,7 @@ export const baseSeries: BaseSerie[] = [
         name: 'Julie Bowen',
       },
     ],
-    coverUrl:
-      '/series_pictures/1c7646fe0fac.jpg',
+    coverUrl: '/series_pictures/1c7646fe0fac.jpg',
     releaseDate: '2009-09-23',
     endDate: '2020-04-08',
     genre: ['Comedy', 'Family'],
