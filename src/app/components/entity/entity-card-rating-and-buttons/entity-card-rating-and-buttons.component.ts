@@ -126,12 +126,18 @@ export class EntityCardRatingAndButtonsComponent {
     return this.getListViewNameForType(this.entityData?.entityType);
   }
 
-  /** Livres / mangas / manwhas : readlist ou « En cours » ; séries : watchlist ou « En cours ». */
+  /** Livres / mangas / manwhas : readlist ou « En cours » ; séries : watchlist ou « En cours ».
+   * Vue « Possédés » : mêmes contrôles pour les livres encore à lire (readlist, non comptés comme lus).
+   */
   isReadlistLikeView(): boolean {
     const t = this.entityData?.entityType;
     const v = this.selectedView;
     if (t === 'book' || t === 'manga' || t === 'manwha') {
-      return v === 'readlist' || v === 'readingInProgress';
+      return (
+        v === 'readlist' ||
+        v === 'readingInProgress' ||
+        (v === 'owned' && this.listReadTimes < 1)
+      );
     }
     if (t === 'serie') {
       return v === 'watchlist' || v === 'watchingInProgress';
@@ -395,9 +401,13 @@ export class EntityCardRatingAndButtonsComponent {
       this.entityData?.entityType === 'manga' ||
       this.entityData?.entityType === 'manwha'
     ) {
-      /* Readlist : l’API ajoute souvent readTimes: 1 par défaut ; seul 0.5 = « déjà commencé ». */
+      /* Readlist : l’API ajoute souvent readTimes: 1 par défaut ; seul 0.5 = « déjà commencé ».
+       * Possédés : même bouton pour un livre à lire encore uniquement en readlist (listReadTimes < 1).
+       */
       return (
-        this.selectedView === 'readlist' && this.listReadTimes !== 0.5
+        (this.selectedView === 'readlist' ||
+          (this.selectedView === 'owned' && this.listReadTimes < 1)) &&
+        this.listReadTimes !== 0.5
       );
     }
     if (this.entityData?.entityType === 'serie') {

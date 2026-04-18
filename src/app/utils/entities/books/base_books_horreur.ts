@@ -393,4 +393,18 @@ export const baseBooksHorreur: BaseBook[] = [
     countryOrigin: 'États-Unis',
     selectDisplayOrder: 0,
   },
+  {
+    title: 'Les Montagnes hallucinées',
+    author: 'H.P. Lovecraft',
+    coverUrl: '',
+    pages: 160,
+    genre: ['Horreur', 'Science Fiction', 'Classiques'],
+    saga: '',
+    sagaOrder: 0,
+    sagaFinished: false,
+    releaseDate: '1936-02-01',
+    description: '',
+    countryOrigin: 'États-Unis',
+    selectDisplayOrder: 30,
+  },
 ];

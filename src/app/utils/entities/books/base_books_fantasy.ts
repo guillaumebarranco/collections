@@ -114,4 +114,18 @@ export const baseBooksFantasy: BaseBook[] = [
     countryOrigin: 'États-Unis',
     selectDisplayOrder: 5,
   },
+  {
+    title: 'Les Griffes et les Crocs',
+    author: 'Jo Walton',
+    coverUrl: '',
+    pages: 496,
+    genre: ['Fantasy', 'Classiques'],
+    saga: '',
+    sagaOrder: 0,
+    sagaFinished: false,
+    releaseDate: '2003-11-01',
+    description: '',
+    countryOrigin: 'Royaume-Uni',
+    selectDisplayOrder: 15,
+  },
 ];

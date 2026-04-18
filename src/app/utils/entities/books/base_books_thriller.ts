@@ -478,4 +478,18 @@ export const baseBooksThriller: BaseBook[] = [
     countryOrigin: 'France',
     selectDisplayOrder: 0,
   },
+  {
+    title: 'Le manuscrit inachevé',
+    author: 'Franck Thilliez',
+    coverUrl: '',
+    pages: 528,
+    genre: ['Thriller', 'Policier'],
+    saga: '',
+    sagaOrder: 0,
+    sagaFinished: false,
+    releaseDate: '2018-05-03',
+    description: '',
+    countryOrigin: 'France',
+    selectDisplayOrder: 0,
+  },
 ];

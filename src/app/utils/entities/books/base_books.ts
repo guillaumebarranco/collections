@@ -1952,4 +1952,18 @@ export const baseBooks: BaseBook[] = [
     countryOrigin: 'Royaume-Uni',
     selectDisplayOrder: 0,
   },
+  {
+    title: 'Le Bro Code',
+    author: 'Barney Stinson',
+    coverUrl: '',
+    pages: 208,
+    genre: ['Fiction'],
+    saga: '',
+    sagaOrder: 0,
+    sagaFinished: false,
+    releaseDate: '2008-10-14',
+    description: '',
+    countryOrigin: 'États-Unis',
+    selectDisplayOrder: 0,
+  },
 ];

@@ -434,7 +434,15 @@ export class BooksComponent implements OnInit {
     } else if (this.selectedView() === 'readingInProgress') {
       books = this.allReadlistBooks().filter((b) => (b.readTimes ?? 0) === 0.5);
     } else if (this.selectedView() === 'owned') {
-      books = this.allBooks().filter((book) => book.owned);
+      const ownedRead = this.allBooks().filter((book) => book.owned);
+      const ownedReadlist = this.allReadlistBooks().filter((book) => book.owned);
+      const seen = new Set<string>();
+      books = [...ownedRead, ...ownedReadlist].filter((book) => {
+        const key = `${book.title}|${book.author}`;
+        if (seen.has(key)) return false;
+        seen.add(key);
+        return true;
+      });
     } else if (this.selectedView() === 'borrowed') {
       const readBorrowed = this.allBooks().filter((book) =>
         Boolean(book.borrowed && book.borrowed.trim().length > 0)
