@@ -1117,7 +1117,8 @@ export const baseMoviesPage8: BaseMovie[] = [
     title: 'Ne Zha 2',
     director: 'Yu Yang',
     actors: [{ name: 'Yanting Lü' }, { name: 'Joseph' }, { name: 'Mo Han' }],
-    coverUrl: '/movies_pictures/3991d2ea9b1f.jpg',
+    coverUrl:
+      'https://media.senscritique.com/media/000022536381/0/ne_zha_2.jpg',
     releaseDate: '2025-01-29',
     length: 144,
     genre: ['Animation', 'Action', 'Aventure'],

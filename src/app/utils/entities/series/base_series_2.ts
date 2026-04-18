@@ -2710,7 +2710,7 @@ export const baseSeries2: BaseSerie[] = [
     countryOrigin: 'Japon',
   },
   {
-    title: 'H (série française)',
+    title: 'H',
     director: 'Kader Aoun, Éric Judor, Xavier Matthieu',
     actors: [
       { name: 'Stéphane Freiss' },
@@ -3531,27 +3531,6 @@ export const baseSeries2: BaseSerie[] = [
       { seasonNumber: 1, nbEpisodes: 20, totalLength: 1000 },
       { seasonNumber: 2, nbEpisodes: 20, totalLength: 1000 },
       { seasonNumber: 3, nbEpisodes: 20, totalLength: 1000 },
-    ],
-    description: '',
-    fromEntity: null,
-    saga: '',
-    countryOrigin: 'États-Unis',
-  },
-  {
-    title: 'Insatiable',
-    director: 'Lauren Gussis',
-    actors: [
-      { name: 'Debby Ryan' },
-      { name: 'Dallas Roberts' },
-      { name: 'Christopher Gorham' },
-    ],
-    coverUrl: '/series_pictures/13a4e8a6e844.jpg',
-    releaseDate: '2018-08-10',
-    endDate: '2019-10-11',
-    genre: ['Comedy', 'Drama', 'Thriller'],
-    seasonsData: [
-      { seasonNumber: 1, nbEpisodes: 12, totalLength: 720 },
-      { seasonNumber: 2, nbEpisodes: 10, totalLength: 600 },
     ],
     description: '',
     fromEntity: null,

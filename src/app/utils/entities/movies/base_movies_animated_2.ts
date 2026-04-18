@@ -3695,4 +3695,19 @@ export const baseMoviesAnimated2: BaseMovie[] = [
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
   },
+  {
+    title: 'Nezha Reborn',
+    director: 'Zhao Ji',
+    actors: [{ name: 'Yang Tianxiang' }, { name: 'Zhang He' }],
+    coverUrl:
+      'https://fr.web.img6.acsta.net/pictures/21/03/26/14/50/5813763.jpg',
+    releaseDate: '2021-02-12',
+    length: 116,
+    genre: ['Animation', 'Action', 'Fantastique'],
+    saga: 'New Gods',
+    description: '',
+    fromEntity: null,
+    countryOrigin: ['Chine'],
+    selectDisplayOrder: 25,
+  },
 ];

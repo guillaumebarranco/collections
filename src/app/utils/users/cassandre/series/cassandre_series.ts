@@ -4117,4 +4117,238 @@ export const cassandreSeries: UserSeries = [
     borrowed: '',
     loaned: '',
   },
+
+  {
+    title: "Big Little Lies",
+    director: "David E. Kelley",
+    seasons: [
+      {
+        seasonNumber: 1,
+        seasonRating: 0,
+        seasonTimesWatched: 0,
+        lastViewedDate: "",
+      },
+      {
+        seasonNumber: 2,
+        seasonRating: 0,
+        seasonTimesWatched: 0,
+        lastViewedDate: "",
+      }
+    ],
+    owned: false,
+    watchPriority: 1,
+    wantToWatchAgain: false,
+    ratingComment: '',
+    borrowed: '',
+    loaned: '',
+  },
+
+  {
+    title: "La Chronique des Bridgerton",
+    director: "Chris Van Dusen",
+    seasons: [
+      {
+        seasonNumber: 1,
+        seasonRating: 0,
+        seasonTimesWatched: 0,
+        lastViewedDate: "",
+      },
+      {
+        seasonNumber: 2,
+        seasonRating: 0,
+        seasonTimesWatched: 0,
+        lastViewedDate: "",
+      },
+      {
+        seasonNumber: 3,
+        seasonRating: 0,
+        seasonTimesWatched: 0,
+        lastViewedDate: "",
+      },
+      {
+        seasonNumber: 4,
+        seasonRating: 0,
+        seasonTimesWatched: 0,
+        lastViewedDate: "",
+      }
+    ],
+    owned: false,
+    watchPriority: 1,
+    wantToWatchAgain: false,
+    ratingComment: '',
+    borrowed: '',
+    loaned: '',
+  },
+
+  {
+    title: "Charmed",
+    director: "Constance M. Burge",
+    seasons: [
+      {
+        seasonNumber: 1,
+        seasonRating: 0,
+        seasonTimesWatched: 0,
+        lastViewedDate: "",
+      },
+      {
+        seasonNumber: 2,
+        seasonRating: 0,
+        seasonTimesWatched: 0,
+        lastViewedDate: "",
+      },
+      {
+        seasonNumber: 3,
+        seasonRating: 0,
+        seasonTimesWatched: 0,
+        lastViewedDate: "",
+      },
+      {
+        seasonNumber: 4,
+        seasonRating: 0,
+        seasonTimesWatched: 0,
+        lastViewedDate: "",
+      },
+      {
+        seasonNumber: 5,
+        seasonRating: 0,
+        seasonTimesWatched: 0,
+        lastViewedDate: "",
+      },
+      {
+        seasonNumber: 6,
+        seasonRating: 0,
+        seasonTimesWatched: 0,
+        lastViewedDate: "",
+      },
+      {
+        seasonNumber: 7,
+        seasonRating: 0,
+        seasonTimesWatched: 0,
+        lastViewedDate: "",
+      },
+      {
+        seasonNumber: 8,
+        seasonRating: 0,
+        seasonTimesWatched: 0,
+        lastViewedDate: "",
+      }
+    ],
+    owned: false,
+    watchPriority: 1,
+    wantToWatchAgain: false,
+    ratingComment: '',
+    borrowed: '',
+    loaned: '',
+  },
+
+  {
+    title: "H",
+    director: "Kader Aoun, Éric Judor, Xavier Matthieu",
+    seasons: [
+      {
+        seasonNumber: 1,
+        seasonRating: 0,
+        seasonTimesWatched: 0,
+        lastViewedDate: "",
+      },
+      {
+        seasonNumber: 2,
+        seasonRating: 0,
+        seasonTimesWatched: 0,
+        lastViewedDate: "",
+      },
+      {
+        seasonNumber: 3,
+        seasonRating: 0,
+        seasonTimesWatched: 0,
+        lastViewedDate: "",
+      },
+      {
+        seasonNumber: 4,
+        seasonRating: 0,
+        seasonTimesWatched: 0,
+        lastViewedDate: "",
+      }
+    ],
+    owned: false,
+    watchPriority: 1,
+    wantToWatchAgain: false,
+    ratingComment: '',
+    borrowed: '',
+    loaned: '',
+  },
+
+  {
+    title: "Destin : La Saga Winx",
+    director: "Brian Young, Iginio Straffi",
+    seasons: [
+      {
+        seasonNumber: 1,
+        seasonRating: 0,
+        seasonTimesWatched: 0,
+        lastViewedDate: "",
+      },
+      {
+        seasonNumber: 2,
+        seasonRating: 0,
+        seasonTimesWatched: 0,
+        lastViewedDate: "",
+      }
+    ],
+    owned: false,
+    watchPriority: 1,
+    wantToWatchAgain: false,
+    ratingComment: '',
+    borrowed: '',
+    loaned: '',
+  },
+
+  {
+    title: "Gossip Girl",
+    director: "Josh Schwartz, Stephanie Savage",
+    seasons: [
+      {
+        seasonNumber: 1,
+        seasonRating: 0,
+        seasonTimesWatched: 0,
+        lastViewedDate: "",
+      },
+      {
+        seasonNumber: 2,
+        seasonRating: 0,
+        seasonTimesWatched: 0,
+        lastViewedDate: "",
+      },
+      {
+        seasonNumber: 3,
+        seasonRating: 0,
+        seasonTimesWatched: 0,
+        lastViewedDate: "",
+      },
+      {
+        seasonNumber: 4,
+        seasonRating: 0,
+        seasonTimesWatched: 0,
+        lastViewedDate: "",
+      },
+      {
+        seasonNumber: 5,
+        seasonRating: 0,
+        seasonTimesWatched: 0,
+        lastViewedDate: "",
+      },
+      {
+        seasonNumber: 6,
+        seasonRating: 0,
+        seasonTimesWatched: 0,
+        lastViewedDate: "",
+      }
+    ],
+    owned: false,
+    watchPriority: 1,
+    wantToWatchAgain: false,
+    ratingComment: '',
+    borrowed: '',
+    loaned: '',
+  },
 ];
