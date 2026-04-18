@@ -34,8 +34,6 @@ import {
   getTotalMangaTomesRead,
   getEstimatedMangaReadingTime,
   PAGES_PER_MANGA_TOME,
-  formatTimeStats,
-  MINUTES_PER_PAGE,
 } from '../../../utils/stats.utils';
 import { ActivatedRoute, Params, Router, RouterLink } from '@angular/router';
 import {
@@ -315,9 +313,8 @@ export class MangasComponent implements OnInit {
       this.selectedView() === 'readlist' ||
       this.selectedView() === 'readingInProgress'
     ) {
-      const estimatedFromPages = formatTimeStats(
-        totalPagesEstimate * MINUTES_PER_PAGE
-      );
+      // Cohérent avec getTotalMangaReadingMinutes (30 min/tome) — pas pages estimées × 1,5 min/page (grossit ~×10).
+      const estimatedReadingTimeReadlist = getEstimatedMangaReadingTime(list);
       return [
         {
           label: 'Total des tomes',
@@ -333,7 +330,7 @@ export class MangasComponent implements OnInit {
         },
         {
           label: 'Temps estimé de lecture',
-          value: estimatedFromPages.formatted,
+          value: estimatedReadingTimeReadlist.formatted,
           icon: '⏱️',
           color: StatItemColor.PRIMARY,
         },

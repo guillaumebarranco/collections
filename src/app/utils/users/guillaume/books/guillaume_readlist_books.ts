@@ -1283,7 +1283,7 @@ export const guillaumeReadlistBooks: UserBooks = [
     ratingComment: '',
   },
   {
-    title: 'Raisons et sentiments',
+    title: 'Raison et sentiments',
     author: 'Jane Austen',
     firstReadDate: '',
     lastReadDate: '',

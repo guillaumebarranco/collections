@@ -35,8 +35,6 @@ import {
   getTotalManwhasChaptersRead,
   getEstimatedManwhaReadingTime,
   PAGES_PER_MANWHA_CHAPTER,
-  formatTimeStats,
-  MINUTES_PER_PAGE,
 } from '../../../utils/stats.utils';
 import {
   StatItem,
@@ -310,9 +308,8 @@ export class ManwhasComponent implements OnInit {
       this.selectedView() === 'readlist' ||
       this.selectedView() === 'readingInProgress'
     ) {
-      const estimatedFromPages = formatTimeStats(
-        totalPagesEstimate * MINUTES_PER_PAGE
-      );
+      // Cohérent avec getTotalManwhaReadingMinutes (5 min/chapitre), pas pages × 1,5 min/page.
+      const estimatedReadingTimeReadlist = getEstimatedManwhaReadingTime(list);
       return [
         {
           label: 'Total des chapitres',
@@ -328,7 +325,7 @@ export class ManwhasComponent implements OnInit {
         },
         {
           label: 'Temps estimé de lecture',
-          value: estimatedFromPages.formatted,
+          value: estimatedReadingTimeReadlist.formatted,
           icon: '⏱️',
           color: StatItemColor.PRIMARY,
         },

@@ -396,7 +396,8 @@ export const baseBooksHorreur: BaseBook[] = [
   {
     title: 'Les Montagnes hallucinées',
     author: 'H.P. Lovecraft',
-    coverUrl: '',
+    coverUrl:
+      'https://m.media-amazon.com/images/I/71Sr+RXX2CL._AC_UF1000,1000_QL80_.jpg',
     pages: 160,
     genre: ['Horreur', 'Science Fiction', 'Classiques'],
     saga: '',
