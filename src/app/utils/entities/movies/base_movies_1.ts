@@ -60,21 +60,32 @@ export const baseMoviesPage1: BaseMovie[] = [
     director: 'Alexandre de La Patellière, Matthieu Delaporte',
     actors: [
       {
-        name: 'Pierre Niney',
+        name: "Pierre Niney",
       },
+      {
+        name: "Laurent Lafitte",
+      },
+      {
+        name: "Bastien Bouillon",
+      },
+      {
+        name: "Anaïs Demoustier",
+      },
+      {
+        name: "Anamaria Vartolomei",
+      },
+      {
+        name: "Vassili Schneider",
+      }
     ],
     coverUrl:
-      '/movies_pictures/977835-the-count-of-monte-cristo-2024-0-150-0-225-crop.jpg',
-    releaseDate: '2024-06-28',
+      "/movies_pictures/977835-the-count-of-monte-cristo-2024-0-150-0-225-crop.jpg",
+    releaseDate: "2024-06-28",
     length: 178,
     genre: ['Aventure'],
-    saga: 'Le Comte de Monte-Cristo',
-    description: '',
-    fromEntity: {
-      entityType: 'book',
-      title: 'Le Comte de Monte-Cristo',
-      secondEntityKey: 'Alexandre Dumas',
-    },
+    saga: "Le Comte de Monte-Cristo",
+    description: "",
+    fromEntity: { entityType: "book", title: "Le Comte de Monte-Cristo", secondEntityKey: "Alexandre Dumas" },
     countryOrigin: ['France'],
     selectDisplayOrder: 30,
   },

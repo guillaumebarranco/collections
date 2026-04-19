@@ -17157,7 +17157,7 @@ export const ronanMovies: UserMovies = [
   {
     title: 'Adèle Blanc-Sec',
     director: 'Luc Besson',
-    rating: 0,
+    rating: 3,
     timesWatched: 1,
     firstViewedDate: '',
     lastViewedDate: '',
@@ -17174,7 +17174,7 @@ export const ronanMovies: UserMovies = [
   {
     title: 'Le Jeu',
     director: 'Fred Cavayé',
-    rating: 0,
+    rating: 3,
     timesWatched: 1,
     firstViewedDate: '',
     lastViewedDate: '',
@@ -17191,7 +17191,7 @@ export const ronanMovies: UserMovies = [
   {
     title: 'Le Gendarme à New York',
     director: 'Jean Girault',
-    rating: 0,
+    rating: 3,
     timesWatched: 1,
     firstViewedDate: '',
     lastViewedDate: '',
@@ -17208,7 +17208,7 @@ export const ronanMovies: UserMovies = [
   {
     title: 'Street Fighter : La Légende de Chun-Li',
     director: 'Andrzej Bartkowiak',
-    rating: 0,
+    rating: 2.5,
     timesWatched: 1,
     firstViewedDate: '',
     lastViewedDate: '',
@@ -17225,7 +17225,7 @@ export const ronanMovies: UserMovies = [
   {
     title: 'Tekken',
     director: 'Dwight H. Little',
-    rating: 0,
+    rating: 3,
     timesWatched: 1,
     firstViewedDate: '',
     lastViewedDate: '',
@@ -17242,7 +17242,7 @@ export const ronanMovies: UserMovies = [
   {
     title: 'The Perfect Date',
     director: 'Chris Nelson',
-    rating: 0,
+    rating: 2.5,
     timesWatched: 1,
     firstViewedDate: '',
     lastViewedDate: '',
@@ -17259,7 +17259,7 @@ export const ronanMovies: UserMovies = [
   {
     title: 'Sans issue',
     director: 'Guy Ritchie',
-    rating: 0,
+    rating: 2.5,
     timesWatched: 1,
     firstViewedDate: '',
     lastViewedDate: '',
@@ -17276,7 +17276,7 @@ export const ronanMovies: UserMovies = [
   {
     title: 'Promised Land',
     director: 'Gus Van Sant',
-    rating: 0,
+    rating: 3,
     timesWatched: 1,
     firstViewedDate: '',
     lastViewedDate: '',
@@ -17293,7 +17293,7 @@ export const ronanMovies: UserMovies = [
   {
     title: 'Inferno',
     director: 'Ron Howard',
-    rating: 0,
+    rating: 3,
     timesWatched: 1,
     firstViewedDate: '',
     lastViewedDate: '',
@@ -17310,7 +17310,7 @@ export const ronanMovies: UserMovies = [
   {
     title: 'Mort ou vif',
     director: 'Sam Raimi',
-    rating: 0,
+    rating: 2.5,
     timesWatched: 1,
     firstViewedDate: '',
     lastViewedDate: '',
@@ -17327,7 +17327,7 @@ export const ronanMovies: UserMovies = [
   {
     title: 'Sécurité rapprochée',
     director: 'Daniel Espinosa',
-    rating: 0,
+    rating: 2.5,
     timesWatched: 1,
     firstViewedDate: '',
     lastViewedDate: '',
@@ -17344,7 +17344,7 @@ export const ronanMovies: UserMovies = [
   {
     title: 'Happiness Therapy',
     director: 'David O. Russell',
-    rating: 0,
+    rating: 3,
     timesWatched: 1,
     firstViewedDate: '',
     lastViewedDate: '',
@@ -17361,7 +17361,7 @@ export const ronanMovies: UserMovies = [
   {
     title: 'Red Sparrow',
     director: 'Francis Lawrence',
-    rating: 0,
+    rating: 2.5,
     timesWatched: 1,
     firstViewedDate: '',
     lastViewedDate: '',
@@ -17378,7 +17378,7 @@ export const ronanMovies: UserMovies = [
   {
     title: 'Le Royaume interdit',
     director: 'Rob Minkoff',
-    rating: 0,
+    rating: 3.5,
     timesWatched: 1,
     firstViewedDate: '',
     lastViewedDate: '',
@@ -17395,7 +17395,7 @@ export const ronanMovies: UserMovies = [
   {
     title: 'Sans aucun remords',
     director: 'Stefano Sollima',
-    rating: 0,
+    rating: 3,
     timesWatched: 1,
     firstViewedDate: '',
     lastViewedDate: '',
@@ -17412,7 +17412,7 @@ export const ronanMovies: UserMovies = [
   {
     title: 'Cher John',
     director: 'Lasse Hallström',
-    rating: 0,
+    rating: 3,
     timesWatched: 1,
     firstViewedDate: '',
     lastViewedDate: '',
@@ -17429,7 +17429,7 @@ export const ronanMovies: UserMovies = [
   {
     title: 'Epic : La Bataille du royaume secret',
     director: 'Chris Wedge',
-    rating: 0,
+    rating: 3,
     timesWatched: 1,
     firstViewedDate: '',
     lastViewedDate: '',
@@ -17446,7 +17446,7 @@ export const ronanMovies: UserMovies = [
   {
     title: 'Black/White',
     director: 'Kevin Rodney Sullivan',
-    rating: 0,
+    rating: 3,
     timesWatched: 1,
     firstViewedDate: '',
     lastViewedDate: '',
@@ -17463,7 +17463,7 @@ export const ronanMovies: UserMovies = [
   {
     title: 'Colombiana',
     director: 'Olivier Megaton',
-    rating: 0,
+    rating: 3,
     timesWatched: 1,
     firstViewedDate: '',
     lastViewedDate: '',
@@ -17480,7 +17480,7 @@ export const ronanMovies: UserMovies = [
   {
     title: 'Seven Sisters',
     director: 'Tommy Wirkola',
-    rating: 0,
+    rating: 3,
     timesWatched: 1,
     firstViewedDate: '',
     lastViewedDate: '',
@@ -17497,7 +17497,7 @@ export const ronanMovies: UserMovies = [
   {
     title: 'Yoroï',
     director: 'David Tomaszewski',
-    rating: 0,
+    rating: 3,
     timesWatched: 1,
     firstViewedDate: '',
     lastViewedDate: '',
@@ -17514,7 +17514,7 @@ export const ronanMovies: UserMovies = [
   {
     title: 'Mulan',
     director: 'Tony Bancroft, Barry Cook',
-    rating: 0,
+    rating: 3.5,
     timesWatched: 1,
     firstViewedDate: '',
     lastViewedDate: '',
@@ -17531,7 +17531,7 @@ export const ronanMovies: UserMovies = [
   {
     title: 'Naruto Shippuden : Le Film',
     director: 'Hajime Kamegaki',
-    rating: 0,
+    rating: 3,
     timesWatched: 1,
     firstViewedDate: '',
     lastViewedDate: '',
@@ -17548,7 +17548,7 @@ export const ronanMovies: UserMovies = [
   {
     title: 'Naruto Shippuden : Les Liens',
     director: 'Hajime Kamegaki',
-    rating: 0,
+    rating: 3,
     timesWatched: 1,
     firstViewedDate: '',
     lastViewedDate: '',
@@ -17565,7 +17565,7 @@ export const ronanMovies: UserMovies = [
   {
     title: 'Naruto Shippuden : La Tour perdue',
     director: 'Naoyoshi Kusama',
-    rating: 0,
+    rating: 2.5,
     timesWatched: 1,
     firstViewedDate: '',
     lastViewedDate: '',
@@ -17582,7 +17582,7 @@ export const ronanMovies: UserMovies = [
   {
     title: 'The Last: Naruto the Movie',
     director: 'Tsuneo Kobayashi',
-    rating: 0,
+    rating: 2.5,
     timesWatched: 1,
     firstViewedDate: '',
     lastViewedDate: '',
@@ -17599,7 +17599,7 @@ export const ronanMovies: UserMovies = [
   {
     title: 'Boruto : Naruto, le film',
     director: 'Hiroyuki Yamashita',
-    rating: 0,
+    rating: 2,
     timesWatched: 1,
     firstViewedDate: '',
     lastViewedDate: '',
@@ -17616,7 +17616,7 @@ export const ronanMovies: UserMovies = [
   {
     title: 'Son of Batman',
     director: 'Ethan Spaulding',
-    rating: 0,
+    rating: 2.5,
     timesWatched: 1,
     firstViewedDate: '',
     lastViewedDate: '',
@@ -17633,7 +17633,7 @@ export const ronanMovies: UserMovies = [
   {
     title: 'Batman: Assault on Arkham',
     director: 'Jay Oliva, Ethan Spaulding',
-    rating: 0,
+    rating: 2.5,
     timesWatched: 1,
     firstViewedDate: '',
     lastViewedDate: '',
@@ -17650,7 +17650,7 @@ export const ronanMovies: UserMovies = [
   {
     title: 'Pokémon, le film : Mewtwo contre-attaque',
     director: 'Kunihiko Yuyama',
-    rating: 0,
+    rating: 3.5,
     timesWatched: 1,
     firstViewedDate: '',
     lastViewedDate: '',
@@ -17667,7 +17667,7 @@ export const ronanMovies: UserMovies = [
   {
     title: 'Le Coursier',
     director: 'Hervé Renoh',
-    rating: 0,
+    rating: 2.5,
     timesWatched: 1,
     firstViewedDate: '',
     lastViewedDate: '',
@@ -17684,7 +17684,7 @@ export const ronanMovies: UserMovies = [
   {
     title: 'Case départ',
     director: "Lionel Steketee, Fabrice Éboué, Thomas N'Gijol",
-    rating: 0,
+    rating: 3,
     timesWatched: 1,
     firstViewedDate: '',
     lastViewedDate: '',
@@ -17701,7 +17701,7 @@ export const ronanMovies: UserMovies = [
   {
     title: 'Monty Python - Sacré Graal !',
     director: 'Terry Gilliam, Terry Jones',
-    rating: 0,
+    rating: 3.5,
     timesWatched: 1,
     firstViewedDate: '',
     lastViewedDate: '',
@@ -17718,7 +17718,7 @@ export const ronanMovies: UserMovies = [
   {
     title: 'Arnaques, crimes & botanique',
     director: 'Guy Ritchie',
-    rating: 0,
+    rating: 2.5,
     timesWatched: 1,
     firstViewedDate: '',
     lastViewedDate: '',
@@ -17735,7 +17735,7 @@ export const ronanMovies: UserMovies = [
   {
     title: 'Dragonball Evolution',
     director: 'James Wong',
-    rating: 0,
+    rating: 2.5,
     timesWatched: 1,
     firstViewedDate: '',
     lastViewedDate: '',
@@ -17752,7 +17752,7 @@ export const ronanMovies: UserMovies = [
   {
     title: "Chérie, j'ai rétréci les gosses",
     director: 'Joe Johnston',
-    rating: 0,
+    rating: 3,
     timesWatched: 1,
     firstViewedDate: '',
     lastViewedDate: '',
@@ -17769,7 +17769,7 @@ export const ronanMovies: UserMovies = [
   {
     title: 'Iznogoud',
     director: 'Patrick Braoudé',
-    rating: 0,
+    rating: 2,
     timesWatched: 1,
     firstViewedDate: '',
     lastViewedDate: '',
@@ -17786,7 +17786,7 @@ export const ronanMovies: UserMovies = [
   {
     title: 'George de la Jungle 2',
     director: 'David Grossman',
-    rating: 0,
+    rating: 2,
     timesWatched: 1,
     firstViewedDate: '',
     lastViewedDate: '',
@@ -17803,7 +17803,7 @@ export const ronanMovies: UserMovies = [
   {
     title: "Souviens-toi... l'été dernier",
     director: 'Jim Gillespie',
-    rating: 0,
+    rating: 2.5,
     timesWatched: 1,
     firstViewedDate: '',
     lastViewedDate: '',
@@ -17820,7 +17820,7 @@ export const ronanMovies: UserMovies = [
   {
     title: "Don't Breathe",
     director: 'Fede Álvarez',
-    rating: 0,
+    rating: 2.5,
     timesWatched: 1,
     firstViewedDate: '',
     lastViewedDate: '',
@@ -17837,7 +17837,7 @@ export const ronanMovies: UserMovies = [
   {
     title: 'La femme à la fenêtre',
     director: 'Joe Wright',
-    rating: 0,
+    rating: 2.5,
     timesWatched: 1,
     firstViewedDate: '',
     lastViewedDate: '',
@@ -17854,7 +17854,7 @@ export const ronanMovies: UserMovies = [
   {
     title: 'La maison de cire',
     director: 'Jaume Collet-Serra',
-    rating: 0,
+    rating: 3,
     timesWatched: 1,
     firstViewedDate: '',
     lastViewedDate: '',
@@ -17871,7 +17871,7 @@ export const ronanMovies: UserMovies = [
   {
     title: 'Happy Death Day',
     director: 'Christopher Landon',
-    rating: 0,
+    rating: 2.5,
     timesWatched: 1,
     firstViewedDate: '',
     lastViewedDate: '',
@@ -17888,7 +17888,7 @@ export const ronanMovies: UserMovies = [
   {
     title: 'Annabelle',
     director: 'John R. Leonetti',
-    rating: 0,
+    rating: 2.5,
     timesWatched: 1,
     firstViewedDate: '',
     lastViewedDate: '',
@@ -17905,7 +17905,7 @@ export const ronanMovies: UserMovies = [
   {
     title: 'Escape Room',
     director: 'Adam Robitel',
-    rating: 0,
+    rating: 2,
     timesWatched: 1,
     firstViewedDate: '',
     lastViewedDate: '',
@@ -17922,7 +17922,7 @@ export const ronanMovies: UserMovies = [
   {
     title: 'Escape Game 2',
     director: 'Adam Robitel',
-    rating: 0,
+    rating: 2,
     timesWatched: 1,
     firstViewedDate: '',
     lastViewedDate: '',
@@ -17939,7 +17939,7 @@ export const ronanMovies: UserMovies = [
   {
     title: 'Astérix et le Coup du menhir',
     director: 'Philippe Grimond',
-    rating: 0,
+    rating: 2.5,
     timesWatched: 1,
     firstViewedDate: '',
     lastViewedDate: '',
@@ -17973,7 +17973,7 @@ export const ronanMovies: UserMovies = [
   {
     title: 'Kirikou et la Sorcière',
     director: 'Michel Ocelot',
-    rating: 0,
+    rating: 2.5,
     timesWatched: 1,
     firstViewedDate: '',
     lastViewedDate: '',
@@ -17990,7 +17990,7 @@ export const ronanMovies: UserMovies = [
   {
     title: 'Camp Rock',
     director: 'Matthew Diamond',
-    rating: 0,
+    rating: 2.5,
     timesWatched: 1,
     firstViewedDate: '',
     lastViewedDate: '',
@@ -18007,7 +18007,7 @@ export const ronanMovies: UserMovies = [
   {
     title: 'Coco',
     director: 'Gad Elmaleh',
-    rating: 0,
+    rating: 2,
     timesWatched: 1,
     firstViewedDate: '',
     lastViewedDate: '',
@@ -18024,7 +18024,7 @@ export const ronanMovies: UserMovies = [
   {
     title: 'Charlie, les filles lui disent merci',
     director: 'Mark Helfrich',
-    rating: 0,
+    rating: 3,
     timesWatched: 1,
     firstViewedDate: '',
     lastViewedDate: '',
@@ -18041,7 +18041,7 @@ export const ronanMovies: UserMovies = [
   {
     title: 'LOL (Laughing Out Loud)',
     director: 'Lisa Azuelos',
-    rating: 0,
+    rating: 2.5,
     timesWatched: 1,
     firstViewedDate: '',
     lastViewedDate: '',
@@ -18058,7 +18058,7 @@ export const ronanMovies: UserMovies = [
   {
     title: 'Friendzone',
     director: 'Charles Van Tieghem',
-    rating: 0,
+    rating: 3.5,
     timesWatched: 1,
     firstViewedDate: '',
     lastViewedDate: '',
@@ -18075,7 +18075,7 @@ export const ronanMovies: UserMovies = [
   {
     title: 'Big Mamma',
     director: 'Raja Gosnell',
-    rating: 0,
+    rating: 3,
     timesWatched: 1,
     firstViewedDate: '',
     lastViewedDate: '',
@@ -18109,7 +18109,7 @@ export const ronanMovies: UserMovies = [
   {
     title: "Need for Speed",
     director: "Scott Waugh",
-    rating: 0,
+    rating: 3.5,
     timesWatched: 1,
     firstViewedDate: '',
     lastViewedDate: '',
@@ -18126,7 +18126,7 @@ export const ronanMovies: UserMovies = [
   {
     title: "Gods of Egypt",
     director: "Alex Proyas",
-    rating: 0,
+    rating: 2.5,
     timesWatched: 1,
     firstViewedDate: '',
     lastViewedDate: '',
@@ -18143,7 +18143,7 @@ export const ronanMovies: UserMovies = [
   {
     title: "Du Plomb dans la tête",
     director: "Walter Hill",
-    rating: 0,
+    rating: 2.5,
     timesWatched: 1,
     firstViewedDate: '',
     lastViewedDate: '',
@@ -18160,7 +18160,7 @@ export const ronanMovies: UserMovies = [
   {
     title: "Passengers",
     director: "Morten Tyldum",
-    rating: 0,
+    rating: 3.5,
     timesWatched: 1,
     firstViewedDate: '',
     lastViewedDate: '',
@@ -18177,7 +18177,7 @@ export const ronanMovies: UserMovies = [
   {
     title: "Largo Winch",
     director: "Jérôme Salle",
-    rating: 0,
+    rating: 2.5,
     timesWatched: 1,
     firstViewedDate: '',
     lastViewedDate: '',
@@ -18194,7 +18194,7 @@ export const ronanMovies: UserMovies = [
   {
     title: "Hors normes",
     director: "Éric Toledano, Olivier Nakache",
-    rating: 0,
+    rating: 4,
     timesWatched: 1,
     firstViewedDate: '',
     lastViewedDate: '',
@@ -18211,7 +18211,7 @@ export const ronanMovies: UserMovies = [
   {
     title: "Le Sens de la fête",
     director: "Éric Toledano, Olivier Nakache",
-    rating: 0,
+    rating: 3.5,
     timesWatched: 1,
     firstViewedDate: '',
     lastViewedDate: '',
@@ -18228,7 +18228,7 @@ export const ronanMovies: UserMovies = [
   {
     title: "Robin des Bois",
     director: "Ridley Scott",
-    rating: 0,
+    rating: 3,
     timesWatched: 1,
     firstViewedDate: '',
     lastViewedDate: '',
@@ -18245,7 +18245,7 @@ export const ronanMovies: UserMovies = [
   {
     title: "Raging Bull",
     director: "Martin Scorsese",
-    rating: 0,
+    rating: 3,
     timesWatched: 1,
     firstViewedDate: '',
     lastViewedDate: '',
@@ -18262,7 +18262,7 @@ export const ronanMovies: UserMovies = [
   {
     title: "Licorice Pizza",
     director: "Paul Thomas Anderson",
-    rating: 0,
+    rating: 2.5,
     timesWatched: 1,
     firstViewedDate: '',
     lastViewedDate: '',
@@ -18279,7 +18279,7 @@ export const ronanMovies: UserMovies = [
   {
     title: "Jusqu'en enfer",
     director: "Sam Raimi",
-    rating: 0,
+    rating: 2.5,
     timesWatched: 1,
     firstViewedDate: '',
     lastViewedDate: '',
@@ -18296,7 +18296,7 @@ export const ronanMovies: UserMovies = [
   {
     title: "Oz the Great and Powerful",
     director: "Sam Raimi",
-    rating: 0,
+    rating: 3.5,
     timesWatched: 1,
     firstViewedDate: '',
     lastViewedDate: '',
@@ -18313,7 +18313,7 @@ export const ronanMovies: UserMovies = [
   {
     title: "La Mouche",
     director: "David Cronenberg",
-    rating: 0,
+    rating: 2,
     timesWatched: 1,
     firstViewedDate: '',
     lastViewedDate: '',
@@ -18335,6 +18335,23 @@ export const ronanMovies: UserMovies = [
     firstViewedDate: "2026-04-17",
     lastViewedDate: "2026-04-17",
     seenAtCinema: true,
+    owned: false,
+    wantToSeeAgain: false,
+    watchPriority: 1,
+    ratingComment: "",
+    inList: [],
+    borrowed: "",
+    loaned: "",
+  },
+
+  {
+    title: "L'Épreuve du feu",
+    director: "Aurélien Peyre",
+    rating: 3,
+    timesWatched: 1,
+    firstViewedDate: "2026-04-19",
+    lastViewedDate: "2026-04-19",
+    seenAtCinema: false,
     owned: false,
     wantToSeeAgain: false,
     watchPriority: 1,

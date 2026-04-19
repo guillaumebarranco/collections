@@ -47,15 +47,18 @@ export const baseMoviesLove: BaseMovie[] = [
     director: 'Claire Scanlon',
     actors: [
       {
-        name: 'Zoey Deutch',
+        name: "Zoey Deutch",
       },
+      {
+        name: "Glenn Powell",
+      }
     ],
-    coverUrl: '/movies_pictures/319550-set-it-up-0-150-0-225-crop.jpg',
-    releaseDate: '2018-06-15',
+    coverUrl: "/movies_pictures/319550-set-it-up-0-150-0-225-crop.jpg",
+    releaseDate: "2018-06-15",
     length: 105,
     genre: ['Romance'],
-    saga: '',
-    description: '',
+    saga: "",
+    description: "",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,

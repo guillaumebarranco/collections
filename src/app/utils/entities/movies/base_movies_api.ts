@@ -1288,4 +1288,26 @@ export const baseMoviesApi: BaseMovie[] = [
     countryOrigin: ['France'],
     selectDisplayOrder: 0,
   },
+
+  {
+    title: "L'Épreuve du feu",
+    director: "Aurélien Peyre",
+    actors: [
+      {
+        name: "Anja Verderosa",
+      },
+      {
+        name: "Félix Lefebvre",
+      },
+    ],
+    coverUrl: "https://fr.web.img3.acsta.net/img/4e/91/4e91180c599e693ff226712377ba0a61.jpg",
+    releaseDate: "2025-08-13",
+    length: 105,
+    genre: ['Romance', 'Jeunesse', 'Drame'],
+    saga: "",
+    description: "",
+    fromEntity: null,
+    countryOrigin: ['France'],
+    selectDisplayOrder: 0,
+  },
 ];
