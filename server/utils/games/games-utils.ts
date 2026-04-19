@@ -209,6 +209,8 @@ function parseSessionsField(objectText: string) {
                 parseBooleanField(objText, 'platinedGame') ?? false,
               additionnalEstimatedTime:
                 parseNumberField(objText, 'additionnalEstimatedTime') ?? 0,
+              currentlyPlaying:
+                parseBooleanField(objText, 'currentlyPlaying') ?? false,
             });
             i = j + 1;
             break;
@@ -223,12 +225,24 @@ function parseSessionsField(objectText: string) {
   return sessions;
 }
 
+function normalizeSessionsCurrentlyPlaying(
+  sessions: UserGameSession[]
+): UserGameSession[] {
+  if (!Array.isArray(sessions) || sessions.length === 0) return sessions;
+  const last = sessions.length - 1;
+  return sessions.map((s, i) => ({
+    ...s,
+    currentlyPlaying: i === last && Boolean(s.currentlyPlaying),
+  }));
+}
+
 function formatSession(session: UserGameSession) {
   return `{
       finishedGame: ${session.finishedGame ?? false},
       finishedGameWithHundredPercent: ${session.finishedGameWithHundredPercent ?? false},
       platinedGame: ${session.platinedGame ?? false},
       additionnalEstimatedTime: ${session.additionnalEstimatedTime ?? 0},
+      currentlyPlaying: ${session.currentlyPlaying ?? false},
     }`;
 }
 
@@ -238,7 +252,9 @@ function formatSessions(sessions: UserGameSession[]) {
 }
 
 function formatGameObject(game: UserGame) {
-  const sessions = Array.isArray(game.sessions) ? game.sessions : [];
+  const sessions = normalizeSessionsCurrentlyPlaying(
+    Array.isArray(game.sessions) ? game.sessions : []
+  );
   const sessionsPart = formatSessions(sessions);
   return `  {
     title: "${escapeString(game.title)}",
@@ -662,6 +678,7 @@ module.exports = {
   getUserGamesFiles,
   getUserGamelistFiles,
   getUserAllGamesFiles,
+  normalizeSessionsCurrentlyPlaying,
 };
 
 export {};

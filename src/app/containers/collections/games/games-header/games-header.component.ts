@@ -75,24 +75,33 @@ export class GamesHeaderComponent {
   );
 
   canShowUpdateGamesRatingButton = computed(
-    () => this.selectedView() === 'played'
+    () =>
+      this.selectedView() === 'played' || this.selectedView() === 'inProgress'
   );
 
   canShowUpdateGamesTimesFinishedButton = computed(
-    () => this.selectedView() === 'played'
+    () =>
+      this.selectedView() === 'played' || this.selectedView() === 'inProgress'
   );
 
   canShowUpdateGamesOwnedButton = computed(
     () =>
       this.selectedView() === 'played' ||
       this.selectedView() === 'gamelist' ||
+      this.selectedView() === 'inProgress' ||
       this.selectedView() === 'owned'
   );
 
-  canShowTopFiveRankButton = computed(() => this.selectedView() === 'played');
+  canShowTopFiveRankButton = computed(
+    () =>
+      this.selectedView() === 'played' || this.selectedView() === 'inProgress'
+  );
 
   canShowSortDropdown = computed(
-    () => this.selectedView() === 'played' || this.selectedView() === 'gamelist'
+    () =>
+      this.selectedView() === 'played' ||
+      this.selectedView() === 'gamelist' ||
+      this.selectedView() === 'inProgress'
   );
 
   canShowFiltersAndSearch = computed(
@@ -101,6 +110,7 @@ export class GamesHeaderComponent {
       (this.searchTerm() !== '' &&
         (this.selectedView() === 'played' ||
           this.selectedView() === 'gamelist' ||
+          this.selectedView() === 'inProgress' ||
           this.selectedView() === 'owned' ||
           this.selectedView() === 'recommendations'))
   );
@@ -113,6 +123,8 @@ export class GamesHeaderComponent {
     switch (this.selectedView()) {
       case 'played':
         return "Vous n'avez renseigné aucun jeu dans votre ludothèque jouée";
+      case 'inProgress':
+        return 'Aucun jeu marqué comme « en cours ». Cochez « En cours » sur la dernière session dans la fiche du jeu.';
       case 'gamelist':
         return 'Vous n\'avez marqué aucun jeu comme "à jouer". Vous pouvez le faire via le bouton au-dessus.';
       case 'platined':
@@ -146,6 +158,8 @@ export class GamesHeaderComponent {
   gamesPageTitle = computed(() =>
     this.selectedView() === 'gamelist'
       ? '🎮 Jeux à jouer'
+      : this.selectedView() === 'inProgress'
+      ? '🎮 Jeux en cours'
       : this.selectedView() === 'owned'
       ? '🎮 Jeux possédés'
       : this.selectedView() === 'borrowed'

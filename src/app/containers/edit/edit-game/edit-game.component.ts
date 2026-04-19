@@ -8,6 +8,7 @@ import {
   RouterModule,
 } from '@angular/router';
 import { BaseGame, Game, UserGameSession } from '../../../models/game-model';
+import { normalizeUserGameSessions } from '../../../helpers/entities.helper';
 import type {
   GameFromEntityAdaptation,
   GameFromEntityType,
@@ -59,6 +60,7 @@ export type SessionCompletionType =
 export type EditGameSessionForm = {
   completion: SessionCompletionType;
   additionnalEstimatedTime: number;
+  currentlyPlaying: boolean;
 };
 
 type EditGameForm = {
@@ -394,7 +396,23 @@ export class EditGameComponent {
     if (!current || sessionIndex < 0 || sessionIndex >= current.sessions.length)
       return;
     const next = [...current.sessions];
-    next[sessionIndex] = { ...next[sessionIndex], completion };
+    next[sessionIndex] = {
+      ...next[sessionIndex],
+      completion,
+      currentlyPlaying:
+        completion === 'none' ? (next[sessionIndex]?.currentlyPlaying ?? false) : false,
+    };
+    this.gameForm.set({ ...current, sessions: next });
+  }
+
+  updateSessionCurrentlyPlaying(sessionIndex: number, checked: boolean) {
+    const current = this.gameForm();
+    if (!current || sessionIndex !== current.sessions.length - 1) return;
+    const next = current.sessions.map((s, i) =>
+      i === sessionIndex
+        ? { ...s, currentlyPlaying: checked }
+        : { ...s, currentlyPlaying: false }
+    );
     this.gameForm.set({ ...current, sessions: next });
   }
 
@@ -414,11 +432,19 @@ export class EditGameComponent {
   addSession() {
     const current = this.gameForm();
     if (!current) return;
+    const cleared = current.sessions.map((s) => ({
+      ...s,
+      currentlyPlaying: false,
+    }));
     this.gameForm.set({
       ...current,
       sessions: [
-        ...current.sessions,
-        { completion: 'none', additionnalEstimatedTime: 0 },
+        ...cleared,
+        {
+          completion: 'none',
+          additionnalEstimatedTime: 0,
+          currentlyPlaying: false,
+        },
       ],
     });
   }
@@ -719,7 +745,13 @@ export class EditGameComponent {
     const sessions =
       (game.sessions ?? []).length > 0
         ? this.gameSessionsToFormSessions(game.sessions)
-        : [{ completion: 'none' as const, additionnalEstimatedTime: 0 }];
+        : [
+            {
+              completion: 'none' as const,
+              additionnalEstimatedTime: 0,
+              currentlyPlaying: false,
+            },
+          ];
     return {
       rating: game.rating,
       sessions,
@@ -735,7 +767,8 @@ export class EditGameComponent {
   private gameSessionsToFormSessions(
     sessions: UserGameSession[]
   ): EditGameSessionForm[] {
-    return sessions.map((s) => {
+    const last = sessions.length - 1;
+    return sessions.map((s, index) => {
       let completion: SessionCompletionType = 'none';
       if (s.platinedGame) completion = 'platined';
       else if (s.finishedGameWithHundredPercent) completion = 'hundred';
@@ -743,6 +776,8 @@ export class EditGameComponent {
       return {
         completion,
         additionnalEstimatedTime: s.additionnalEstimatedTime ?? 0,
+        currentlyPlaying:
+          index === last && Boolean(s.currentlyPlaying),
       };
     });
   }
@@ -750,13 +785,16 @@ export class EditGameComponent {
   private formSessionsToPayload(formSessions: EditGameSessionForm[]): {
     sessions: UserGameSession[];
   } {
-    const sessions: UserGameSession[] = formSessions.map((f) => ({
-      finishedGame: f.completion === 'finished',
-      finishedGameWithHundredPercent: f.completion === 'hundred',
-      platinedGame: f.completion === 'platined',
-      additionnalEstimatedTime:
-        f.completion === 'none' ? f.additionnalEstimatedTime ?? 0 : 0,
-    }));
+    const sessions = normalizeUserGameSessions(
+      formSessions.map((f) => ({
+        finishedGame: f.completion === 'finished',
+        finishedGameWithHundredPercent: f.completion === 'hundred',
+        platinedGame: f.completion === 'platined',
+        additionnalEstimatedTime:
+          f.completion === 'none' ? f.additionnalEstimatedTime ?? 0 : 0,
+        currentlyPlaying: Boolean(f.currentlyPlaying),
+      }))
+    );
     return { sessions };
   }
 

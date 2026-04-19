@@ -8,6 +8,7 @@ const {
   updateBaseGameInFiles,
   getUserGamesFiles,
   getUserGamelistFiles,
+  normalizeSessionsCurrentlyPlaying,
 } = require('../../utils/games/games-utils');
 const { isAdminUser, loadUsers } = require('../../utils/users/users-utils');
 
@@ -72,14 +73,18 @@ router.post('/', (req: any, res: any) => {
 
     const payload = games.map((game: any) => {
       const sessions = Array.isArray(game.sessions)
-        ? game.sessions.map((s: any) => ({
-            finishedGame: normalizeBoolean(s.finishedGame, 'finishedGame') ?? false,
-            finishedGameWithHundredPercent:
-              normalizeBoolean(s.finishedGameWithHundredPercent, 'finishedGameWithHundredPercent') ?? false,
-            platinedGame: normalizeBoolean(s.platinedGame, 'platinedGame') ?? false,
-            additionnalEstimatedTime:
-              normalizeNumber(s.additionnalEstimatedTime, 'additionnalEstimatedTime') ?? 0,
-          }))
+        ? normalizeSessionsCurrentlyPlaying(
+            game.sessions.map((s: any) => ({
+              finishedGame: normalizeBoolean(s.finishedGame, 'finishedGame') ?? false,
+              finishedGameWithHundredPercent:
+                normalizeBoolean(s.finishedGameWithHundredPercent, 'finishedGameWithHundredPercent') ?? false,
+              platinedGame: normalizeBoolean(s.platinedGame, 'platinedGame') ?? false,
+              additionnalEstimatedTime:
+                normalizeNumber(s.additionnalEstimatedTime, 'additionnalEstimatedTime') ?? 0,
+              currentlyPlaying:
+                normalizeBoolean(s.currentlyPlaying, 'currentlyPlaying') ?? false,
+            }))
+          )
         : [];
       return {
         title: normalizeString(game.title, 'title'),

@@ -141,6 +141,26 @@ function getGameUserTotals(userGame: UserGame): {
   return getGameTotalsFromSessions(userGame.sessions ?? []);
 }
 
+/** True si la dernière session du jeu est marquée « en cours ». */
+export function isGameCurrentlyPlaying(game: Pick<UserGame, 'sessions'>): boolean {
+  const sessions = game.sessions ?? [];
+  if (sessions.length === 0) return false;
+  const last = sessions[sessions.length - 1];
+  return Boolean(last?.currentlyPlaying);
+}
+
+/** Une seule session « en cours » : uniquement la dernière peut être à true. */
+export function normalizeUserGameSessions(
+  sessions: UserGameSession[]
+): UserGameSession[] {
+  if (!sessions.length) return [];
+  const last = sessions.length - 1;
+  return sessions.map((s, i) => ({
+    ...s,
+    currentlyPlaying: i === last && Boolean(s.currentlyPlaying),
+  }));
+}
+
 export const getGameDataFromUserGameAndBaseGame = (
   userGame: UserGame,
   baseGame: BaseGame

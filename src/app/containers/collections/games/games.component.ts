@@ -28,6 +28,7 @@ import {
   gamesSortOptions,
   getSortedGames,
 } from './games.utils';
+import { isGameCurrentlyPlaying } from '../../../helpers/entities.helper';
 import { ActivatedRoute, Params, Router, RouterLink } from '@angular/router';
 import {
   getAllBaseGames,
@@ -115,11 +116,28 @@ export class GamesComponent implements OnInit {
 
   sortOptions = signal<SortOption[]>(gamesSortOptions);
 
+  /**
+   * Jeux marqués « en cours » côté ludothèque **ou** côté liste à jouer
+   * (même session `currentlyPlaying` sur la dernière session).
+   */
+  gamesInProgress = computed(() => {
+    const fromPlayed = this.allGames().filter((g) => isGameCurrentlyPlaying(g));
+    const fromGamelist = this.allGamelistGames().filter((g) =>
+      isGameCurrentlyPlaying(g)
+    );
+    const key = (g: Game) => `${g.title}|${g.editor}`;
+    const seen = new Set(fromPlayed.map(key));
+    return [
+      ...fromPlayed,
+      ...fromGamelist.filter((g) => !seen.has(key(g))),
+    ];
+  });
+
   viewOptions = computed<{ value: GameView; label: string }[]>(() => {
-    const options: { value: GameView; label: string }[] = gameViewOptions;
+    let options: { value: GameView; label: string }[] = gameViewOptions;
 
     if (this.platinedGames().length === 0) {
-      return options.filter((option) => option.value !== 'platined');
+      options = options.filter((option) => option.value !== 'platined');
     }
 
     return options;
@@ -189,16 +207,18 @@ export class GamesComponent implements OnInit {
   });
 
   /** True si l'utilisateur a des items dans la vue courante (affiche stats, filtres, recherche). */
-  showFiltersAndSearch = computed(() =>
-    this.selectedView() === 'gamelist'
-      ? this.allGamelistGames().length > 0
-      : this.allGames().length > 0
-  );
+  showFiltersAndSearch = computed(() => {
+    const view = this.selectedView();
+    if (view === 'gamelist') return this.allGamelistGames().length > 0;
+    return this.allGames().length > 0;
+  });
 
   filteredGames = computed<Game[]>(() => {
     let games: Game[];
     if (this.selectedView() === 'gamelist') {
       games = this.allGamelistGames();
+    } else if (this.selectedView() === 'inProgress') {
+      games = this.gamesInProgress();
     } else if (this.selectedView() === 'platined') {
       games = this.allGames().filter((game) => game.platined);
     } else if (this.selectedView() === 'owned') {
@@ -401,7 +421,7 @@ export class GamesComponent implements OnInit {
   }
 
   private isViewOptionVisible(view: GameView): boolean {
-    if (view === 'played' || view === 'gamelist') {
+    if (view === 'played' || view === 'gamelist' || view === 'inProgress') {
       return true;
     }
     return this.optionalViewConfig()[view];

@@ -38,10 +38,10 @@ export const mangaViewOptions: { value: MangaView; label: string }[] = [
   { value: 'read', label: 'Mangas lus' },
   { value: 'readlist', label: 'Mangas à lire' },
   { value: 'readingInProgress', label: 'En cours' },
+  { value: 'toReRead', label: 'À relire' },
   { value: 'owned', label: 'Mangas possédés' },
   { value: 'borrowed', label: 'Mangas empruntés' },
   { value: 'loaned', label: 'Mangas prêtés' },
-  { value: 'toReRead', label: 'À relire' },
   { value: 'recommendations', label: 'Recommandations' },
 ];
 
@@ -60,11 +60,13 @@ export const getSortedMangas = (
       return mangas.sort((a, b) => b.author.localeCompare(a.author));
     case 'readDate':
       return mangas.sort(
-        (a, b) => new Date(b.readDate).getTime() - new Date(a.readDate).getTime()
+        (a, b) =>
+          new Date(b.readDate).getTime() - new Date(a.readDate).getTime()
       );
     case 'readDate-asc':
       return mangas.sort(
-        (a, b) => new Date(a.readDate).getTime() - new Date(b.readDate).getTime()
+        (a, b) =>
+          new Date(a.readDate).getTime() - new Date(b.readDate).getTime()
       );
     case 'rating':
       return mangas.sort((a, b) => {
@@ -101,9 +103,13 @@ export const getSortedMangas = (
     case 'genre-desc':
       return mangas.sort((a, b) => b.genre.localeCompare(a.genre));
     case 'readPriority':
-      return mangas.sort((a, b) => (b.readPriority || 0) - (a.readPriority || 0));
+      return mangas.sort(
+        (a, b) => (b.readPriority || 0) - (a.readPriority || 0)
+      );
     case 'readPriority-asc':
-      return mangas.sort((a, b) => (a.readPriority || 0) - (b.readPriority || 0));
+      return mangas.sort(
+        (a, b) => (a.readPriority || 0) - (b.readPriority || 0)
+      );
     default:
       return mangas.sort((a, b) => (b.rating || 0) - (a.rating || 0));
   }

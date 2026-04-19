@@ -38,10 +38,10 @@ export const manwhaViewOptions: { value: ManwhaView; label: string }[] = [
   { value: 'read', label: 'Manwhas lus' },
   { value: 'readlist', label: 'Manwhas à lire' },
   { value: 'readingInProgress', label: 'En cours' },
+  { value: 'toReRead', label: 'À relire' },
   { value: 'owned', label: 'Manwhas possédés' },
   { value: 'borrowed', label: 'Manwhas empruntés' },
   { value: 'loaned', label: 'Manwhas prêtés' },
-  { value: 'toReRead', label: 'À relire' },
   { value: 'recommendations', label: 'Recommandations' },
 ];
 
@@ -60,11 +60,13 @@ export const getSortedManwhas = (
       return manwhas.sort((a, b) => b.author.localeCompare(a.author));
     case 'readDate':
       return manwhas.sort(
-        (a, b) => new Date(b.readDate).getTime() - new Date(a.readDate).getTime()
+        (a, b) =>
+          new Date(b.readDate).getTime() - new Date(a.readDate).getTime()
       );
     case 'readDate-asc':
       return manwhas.sort(
-        (a, b) => new Date(a.readDate).getTime() - new Date(b.readDate).getTime()
+        (a, b) =>
+          new Date(a.readDate).getTime() - new Date(b.readDate).getTime()
       );
     case 'rating':
       return manwhas.sort((a, b) => {
@@ -89,29 +91,25 @@ export const getSortedManwhas = (
         return readTimesB - readTimesA;
       });
     case 'readTimes':
-      return manwhas.sort(
-        (a, b) => (b.readTimes || 0) - (a.readTimes || 0)
-      );
+      return manwhas.sort((a, b) => (b.readTimes || 0) - (a.readTimes || 0));
     case 'readTimes-asc':
-      return manwhas.sort(
-        (a, b) => (a.readTimes || 0) - (b.readTimes || 0)
-      );
+      return manwhas.sort((a, b) => (a.readTimes || 0) - (b.readTimes || 0));
     case 'nbChapters':
-      return manwhas.sort(
-        (a, b) => (b.nbChapters || 0) - (a.nbChapters || 0)
-      );
+      return manwhas.sort((a, b) => (b.nbChapters || 0) - (a.nbChapters || 0));
     case 'nbChapters-asc':
-      return manwhas.sort(
-        (a, b) => (a.nbChapters || 0) - (b.nbChapters || 0)
-      );
+      return manwhas.sort((a, b) => (a.nbChapters || 0) - (b.nbChapters || 0));
     case 'genre':
       return manwhas.sort((a, b) => a.genre.localeCompare(b.genre));
     case 'genre-desc':
       return manwhas.sort((a, b) => b.genre.localeCompare(a.genre));
     case 'readPriority':
-      return manwhas.sort((a, b) => (b.readPriority || 0) - (a.readPriority || 0));
+      return manwhas.sort(
+        (a, b) => (b.readPriority || 0) - (a.readPriority || 0)
+      );
     case 'readPriority-asc':
-      return manwhas.sort((a, b) => (a.readPriority || 0) - (b.readPriority || 0));
+      return manwhas.sort(
+        (a, b) => (a.readPriority || 0) - (b.readPriority || 0)
+      );
     default:
       return manwhas.sort((a, b) => (b.rating || 0) - (a.rating || 0));
   }

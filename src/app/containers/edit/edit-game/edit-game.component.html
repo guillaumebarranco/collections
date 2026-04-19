@@ -187,6 +187,24 @@
           />
         </div>
 
+        @if (
+          $index === (gameForm()?.sessions?.length ?? 0) - 1 &&
+          gameForm()?.sessions?.[$index]?.completion === 'none'
+        ) {
+        <div class="form-row session-playing">
+          <label class="session-playing-label">
+            <input
+              type="checkbox"
+              [checked]="gameForm()?.sessions?.[$index]?.currentlyPlaying"
+              (change)="
+                updateSessionCurrentlyPlaying($index, $any($event.target).checked)
+              "
+            />
+            Partie en cours (affichée dans « En cours »)
+          </label>
+        </div>
+        }
+
         @if ((gameForm()?.sessions?.length ?? 0) > 1) {
         <button
           type="button"

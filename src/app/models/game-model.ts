@@ -36,6 +36,8 @@ export interface UserGameSession {
   finishedGameWithHundredPercent: boolean;
   platinedGame: boolean;
   additionnalEstimatedTime: number;
+  /** Partie en cours : uniquement sur la dernière session, une seule à true par jeu. */
+  currentlyPlaying?: boolean;
 }
 
 export type UserGames = UserGame[];

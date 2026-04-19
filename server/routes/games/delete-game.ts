@@ -3,7 +3,7 @@ const fs = require('fs');
 const {
   normalizeString,
   removeGameFromFile,
-  getUserGamesFiles,
+  getUserAllGamesFiles,
 } = require('../../utils/games/games-utils');
 
 const router = express.Router();
@@ -24,7 +24,7 @@ router.post('/delete', (req: any, res: any) => {
       return;
     }
 
-    const gameFiles = getUserGamesFiles(userId);
+    const gameFiles = getUserAllGamesFiles(userId);
     let updatedFile: string | null = null;
 
     for (const gameFile of gameFiles) {

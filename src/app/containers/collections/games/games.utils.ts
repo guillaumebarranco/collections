@@ -3,16 +3,20 @@ import { getGameTimePlayed } from '../../../utils/games.utils';
 
 export type GameView =
   | 'played'
-  | 'platined'
   | 'gamelist'
+  | 'inProgress'
+  | 'toRePlay'
   | 'owned'
   | 'borrowed'
   | 'loaned'
+  | 'platined'
   | 'finished'
-  | 'toRePlay'
   | 'recommendations';
 
-export type OptionalGameView = Exclude<GameView, 'played' | 'gamelist'>;
+export type OptionalGameView = Exclude<
+  GameView,
+  'played' | 'gamelist' | 'inProgress'
+>;
 
 export const gamesSortOptions: { value: string; label: string }[] = [
   { value: 'title', label: 'Titre (A-Z)' },
@@ -33,12 +37,13 @@ export const gamesSortOptions: { value: string; label: string }[] = [
 
 export const gameViewOptions: { value: GameView; label: string }[] = [
   { value: 'played', label: 'Jeux joués' },
-  { value: 'platined', label: 'Jeux platinés' },
   { value: 'gamelist', label: 'Jeux à jouer' },
+  { value: 'inProgress', label: 'En cours' },
+  { value: 'toRePlay', label: 'À rejouer' },
+  { value: 'platined', label: 'Jeux platinés' },
   { value: 'owned', label: 'Jeux possédés' },
   { value: 'borrowed', label: 'Jeux empruntés' },
   { value: 'loaned', label: 'Jeux prêtés' },
-  { value: 'toRePlay', label: 'À rejouer' },
   { value: 'recommendations', label: 'Recommandations' },
 ];
 
