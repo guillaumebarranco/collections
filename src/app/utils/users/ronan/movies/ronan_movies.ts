@@ -18326,4 +18326,21 @@ export const ronanMovies: UserMovies = [
     borrowed: '',
     loaned: '',
   },
+
+  {
+    title: "Juste une illusion",
+    director: "Olivier Nakache, Éric Toledano",
+    rating: 3.5,
+    timesWatched: 1,
+    firstViewedDate: "2026-04-17",
+    lastViewedDate: "2026-04-17",
+    seenAtCinema: true,
+    owned: false,
+    wantToSeeAgain: false,
+    watchPriority: 1,
+    ratingComment: "",
+    inList: [],
+    borrowed: "",
+    loaned: "",
+  },
 ];

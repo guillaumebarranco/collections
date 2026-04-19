@@ -1648,6 +1648,21 @@ export const kevinBooks: UserBooks = [
     loaned: "",
     readPriority: 1,
     wantToReadAgain: false,
-    ratingComment: "Livre assez simple et classique. Quelques lenteurs, beaucoup de passages inutiles mais un potentiel intéressant.",
+    ratingComment: "Livre assez simple et classique. Quelques lenteurs, beaucoup de passages inutiles mais un potentiel intéressant.\n\nLa note :\n- Écriture : 1\n- Le monde : 0,5\n- Les personnages : 0,5\n- L'histoire : 0,5\n- Le bonus coup de cœur : 0\nTotal :",
+  },
+
+  {
+    title: "La Novice",
+    author: "Trudi Canavan",
+    firstReadDate: "2026-04-18",
+    lastReadDate: "2026-04-18",
+    rating: 2.5,
+    readTimes: 1,
+    owned: true,
+    borrowed: "",
+    loaned: "",
+    readPriority: 1,
+    wantToReadAgain: false,
+    ratingComment: "Encore une fois beaucoup trop de passages inintéressant. Le monde et le système de magie sont très peu développés. Aucune surprise... Une lecture peu marquante, qui doit sa mauvaise note à un potentiel gâché.",
   },
 ];

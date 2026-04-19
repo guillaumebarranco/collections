@@ -2447,25 +2447,25 @@ export const guillaumeSeries: UserSeries = [
     title: 'Solo Leveling',
     director: 'Inconnu',
     seasons: [
-      {
-        seasonNumber: 1,
-        seasonRating: 4,
-        seasonTimesWatched: 0,
-        lastViewedDate: '2024-02-06',
-      },
-      {
-        seasonNumber: 2,
-        seasonRating: 3.75,
-        seasonTimesWatched: 0,
-        lastViewedDate: '2025-02-04',
-      },
-    ],
+    {
+      seasonNumber: 1,
+      seasonRating: 4,
+      seasonTimesWatched: 1,
+      lastViewedDate: "2024-02-06",
+    },
+    {
+      seasonNumber: 2,
+      seasonRating: 3.75,
+      seasonTimesWatched: 1,
+      lastViewedDate: "2025-02-04",
+    }
+  ],
     owned: false,
     watchPriority: 1,
     wantToWatchAgain: false,
-    ratingComment: '',
-    borrowed: '',
-    loaned: '',
+    ratingComment: "",
+    borrowed: "",
+    loaned: "",
   },
   {
     title: 'Walker, Texas Ranger',

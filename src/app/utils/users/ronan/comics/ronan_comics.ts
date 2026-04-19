@@ -2708,8 +2708,8 @@ export const ronanComics: UserComics = [
   {
     title: "Daredevil - Tome 0",
     writer: "McKenzie",
-    readDate: "",
-    rating: 0,
+    readDate: "2026-04-19",
+    rating: 3,
     readTimes: 1,
     owned: true,
     readPriority: 1,

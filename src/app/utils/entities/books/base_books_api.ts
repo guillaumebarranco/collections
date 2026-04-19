@@ -1880,4 +1880,19 @@ export const baseBooksApi: BaseBook[] = [
     countryOrigin: 'Australie',
     selectDisplayOrder: 0,
   },
+
+  {
+    title: "La Novice",
+    author: "Trudi Canavan",
+    coverUrl: "https://images.noosfere.org/couv/f/floisirs04004-2011.jpg",
+    pages: 507,
+    genre: [],
+    saga: "La Trilogie du Magicien Noir",
+    sagaOrder: 2,
+    sagaFinished: true,
+    releaseDate: "2008-06-11",
+    description: "",
+    countryOrigin: "Australie",
+    selectDisplayOrder: 0,
+  },
 ];

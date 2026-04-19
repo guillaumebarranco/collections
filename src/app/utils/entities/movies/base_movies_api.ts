@@ -1257,4 +1257,35 @@ export const baseMoviesApi: BaseMovie[] = [
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
   },
+
+  {
+    title: "Juste une illusion",
+    director: "Olivier Nakache, Éric Toledano",
+    actors: [
+      {
+        name: "Louis Garrel",
+      },
+      {
+        name: "Camille Cottin",
+      },
+      {
+        name: "Pierre Lottin",
+      },
+      {
+        name: "Alexis Rosenstiehl",
+      },
+      {
+        name: "Simon Boublil",
+      },
+    ],
+    coverUrl: "https://fr.web.img5.acsta.net/img/cf/9e/cf9effb40e5ae3747fdb68a68289e81a.jpg",
+    releaseDate: "2026-04-15",
+    length: 116,
+    genre: ['Comédie'],
+    saga: "",
+    description: "",
+    fromEntity: null,
+    countryOrigin: ['France'],
+    selectDisplayOrder: 0,
+  },
 ];
