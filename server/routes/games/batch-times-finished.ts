@@ -49,12 +49,14 @@ router.post('/batch-times-finished', (req: any, res: any) => {
         const sessions = Array.isArray(game.sessions) ? [...game.sessions] : [];
         const count =
           normalizeNumber(rawGame?.timesFinished, 'timesFinished') ?? 1;
+        const today = new Date().toISOString().slice(0, 10);
         for (let i = 0; i < count; i++) {
           sessions.push({
             finishedGame: true,
             finishedGameWithHundredPercent: false,
             platinedGame: false,
             additionnalEstimatedTime: 0,
+            finishedSessionDate: today,
           });
         }
         const payload = {

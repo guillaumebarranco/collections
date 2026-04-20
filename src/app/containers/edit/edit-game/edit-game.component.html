@@ -186,6 +186,18 @@
             name="sessionHours{{ $index }}"
           />
         </div>
+        @if (gameForm()?.sessions?.[$index]?.completion !== 'none') {
+        <div class="form-row session-finished-date">
+          <label for="sessionFinishedDate{{ $index }}">Date de fin de session</label>
+          <input
+            id="sessionFinishedDate{{ $index }}"
+            type="date"
+            [ngModel]="gameForm()?.sessions?.[$index]?.finishedSessionDate"
+            (ngModelChange)="updateSessionFinishedDate($index, $event)"
+            name="sessionFinishedDate{{ $index }}"
+          />
+        </div>
+        }
 
         @if (
           $index === (gameForm()?.sessions?.length ?? 0) - 1 &&

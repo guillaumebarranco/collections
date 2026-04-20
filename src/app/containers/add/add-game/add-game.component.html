@@ -219,6 +219,18 @@
               name="addSessionHours{{ $index }}"
             />
           </div>
+          @if (session.completion !== 'none') {
+          <div class="form-row session-finished-date">
+            <label for="addSessionFinishedDate{{ $index }}">Date de fin de session</label>
+            <input
+              id="addSessionFinishedDate{{ $index }}"
+              type="date"
+              [ngModel]="session.finishedSessionDate"
+              (ngModelChange)="updateSessionFinishedDate($index, $event)"
+              name="addSessionFinishedDate{{ $index }}"
+            />
+          </div>
+          }
 
           @if (userForm().sessions.length > 1) {
           <button

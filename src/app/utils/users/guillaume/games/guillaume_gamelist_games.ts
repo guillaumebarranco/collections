@@ -17,6 +17,7 @@ export const guillaumeGameListGames: UserGames = [
       finishedGameWithHundredPercent: false,
       platinedGame: false,
       additionnalEstimatedTime: 0,
+      finishedSessionDate: '',
       currentlyPlaying: true,
     }
     ],
@@ -49,6 +50,7 @@ export const guillaumeGameListGames: UserGames = [
       finishedGameWithHundredPercent: false,
       platinedGame: false,
       additionnalEstimatedTime: 0,
+      finishedSessionDate: '',
       currentlyPlaying: true,
     }
     ],
@@ -117,6 +119,7 @@ export const guillaumeGameListGames: UserGames = [
       finishedGameWithHundredPercent: false,
       platinedGame: false,
       additionnalEstimatedTime: 0,
+      finishedSessionDate: '',
       currentlyPlaying: true,
     }
     ],

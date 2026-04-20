@@ -36,6 +36,8 @@ export interface UserGameSession {
   finishedGameWithHundredPercent: boolean;
   platinedGame: boolean;
   additionnalEstimatedTime: number;
+  /** Date (YYYY-MM-DD) à laquelle la session a été terminée / enregistrée. */
+  finishedSessionDate: string;
   /** Partie en cours : uniquement sur la dernière session, une seule à true par jeu. */
   currentlyPlaying?: boolean;
 }

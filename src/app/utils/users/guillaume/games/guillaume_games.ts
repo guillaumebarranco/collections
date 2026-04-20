@@ -17,30 +17,35 @@ export const guillaumeGames: UserGames = [
       finishedGameWithHundredPercent: true,
       platinedGame: false,
       additionnalEstimatedTime: 0,
+      finishedSessionDate: '',
     },
 {
       finishedGame: false,
       finishedGameWithHundredPercent: true,
       platinedGame: false,
       additionnalEstimatedTime: 0,
+      finishedSessionDate: '',
     },
 {
       finishedGame: true,
       finishedGameWithHundredPercent: false,
       platinedGame: false,
       additionnalEstimatedTime: 0,
+      finishedSessionDate: '',
     },
 {
       finishedGame: true,
       finishedGameWithHundredPercent: false,
       platinedGame: false,
       additionnalEstimatedTime: 0,
+      finishedSessionDate: '',
     },
 {
       finishedGame: true,
       finishedGameWithHundredPercent: false,
       platinedGame: false,
       additionnalEstimatedTime: 0,
+      finishedSessionDate: '',
     }
     ],
   },
@@ -60,30 +65,35 @@ export const guillaumeGames: UserGames = [
       finishedGameWithHundredPercent: true,
       platinedGame: false,
       additionnalEstimatedTime: 0,
+      finishedSessionDate: '',
     },
 {
       finishedGame: true,
       finishedGameWithHundredPercent: false,
       platinedGame: false,
       additionnalEstimatedTime: 0,
+      finishedSessionDate: '',
     },
 {
       finishedGame: true,
       finishedGameWithHundredPercent: false,
       platinedGame: false,
       additionnalEstimatedTime: 0,
+      finishedSessionDate: '',
     },
 {
       finishedGame: true,
       finishedGameWithHundredPercent: false,
       platinedGame: false,
       additionnalEstimatedTime: 0,
+      finishedSessionDate: '',
     },
 {
       finishedGame: true,
       finishedGameWithHundredPercent: false,
       platinedGame: false,
       additionnalEstimatedTime: 0,
+      finishedSessionDate: '',
     }
     ],
   },
@@ -103,12 +113,14 @@ export const guillaumeGames: UserGames = [
       finishedGameWithHundredPercent: true,
       platinedGame: false,
       additionnalEstimatedTime: 0,
+      finishedSessionDate: '',
     },
 {
       finishedGame: true,
       finishedGameWithHundredPercent: false,
       platinedGame: false,
       additionnalEstimatedTime: 0,
+      finishedSessionDate: '',
     }
     ],
   },
@@ -128,12 +140,14 @@ export const guillaumeGames: UserGames = [
       finishedGameWithHundredPercent: true,
       platinedGame: false,
       additionnalEstimatedTime: 0,
+      finishedSessionDate: '',
     },
 {
       finishedGame: true,
       finishedGameWithHundredPercent: false,
       platinedGame: false,
       additionnalEstimatedTime: 0,
+      finishedSessionDate: '',
     }
     ],
   },
@@ -153,6 +167,7 @@ export const guillaumeGames: UserGames = [
       finishedGameWithHundredPercent: true,
       platinedGame: false,
       additionnalEstimatedTime: 0,
+      finishedSessionDate: '',
     }
     ],
   },
@@ -172,6 +187,7 @@ export const guillaumeGames: UserGames = [
       finishedGameWithHundredPercent: false,
       platinedGame: false,
       additionnalEstimatedTime: 15,
+      finishedSessionDate: '',
     }
     ],
   },
@@ -191,6 +207,7 @@ export const guillaumeGames: UserGames = [
       finishedGameWithHundredPercent: false,
       platinedGame: false,
       additionnalEstimatedTime: 0,
+      finishedSessionDate: '',
     }
     ],
   },
@@ -210,6 +227,7 @@ export const guillaumeGames: UserGames = [
       finishedGameWithHundredPercent: false,
       platinedGame: false,
       additionnalEstimatedTime: 0,
+      finishedSessionDate: '',
     }
     ],
   },
@@ -229,18 +247,21 @@ export const guillaumeGames: UserGames = [
       finishedGameWithHundredPercent: false,
       platinedGame: false,
       additionnalEstimatedTime: 0,
+      finishedSessionDate: '',
     },
 {
       finishedGame: true,
       finishedGameWithHundredPercent: false,
       platinedGame: false,
       additionnalEstimatedTime: 0,
+      finishedSessionDate: '',
     },
 {
       finishedGame: true,
       finishedGameWithHundredPercent: false,
       platinedGame: false,
       additionnalEstimatedTime: 0,
+      finishedSessionDate: '',
     }
     ],
   },
@@ -260,18 +281,21 @@ export const guillaumeGames: UserGames = [
       finishedGameWithHundredPercent: false,
       platinedGame: false,
       additionnalEstimatedTime: 0,
+      finishedSessionDate: '',
     },
 {
       finishedGame: true,
       finishedGameWithHundredPercent: false,
       platinedGame: false,
       additionnalEstimatedTime: 0,
+      finishedSessionDate: '',
     },
 {
       finishedGame: true,
       finishedGameWithHundredPercent: false,
       platinedGame: false,
       additionnalEstimatedTime: 0,
+      finishedSessionDate: '',
     }
     ],
   },
@@ -291,12 +315,14 @@ export const guillaumeGames: UserGames = [
       finishedGameWithHundredPercent: false,
       platinedGame: false,
       additionnalEstimatedTime: 0,
+      finishedSessionDate: '',
     },
 {
       finishedGame: true,
       finishedGameWithHundredPercent: false,
       platinedGame: false,
       additionnalEstimatedTime: 0,
+      finishedSessionDate: '',
     }
     ],
   },
@@ -316,6 +342,7 @@ export const guillaumeGames: UserGames = [
       finishedGameWithHundredPercent: false,
       platinedGame: false,
       additionnalEstimatedTime: 250,
+      finishedSessionDate: '',
     }
     ],
   },
@@ -335,6 +362,7 @@ export const guillaumeGames: UserGames = [
       finishedGameWithHundredPercent: false,
       platinedGame: false,
       additionnalEstimatedTime: 300,
+      finishedSessionDate: '',
     }
     ],
   },
@@ -354,6 +382,7 @@ export const guillaumeGames: UserGames = [
       finishedGameWithHundredPercent: false,
       platinedGame: true,
       additionnalEstimatedTime: 250,
+      finishedSessionDate: '',
     }
     ],
   },
@@ -373,6 +402,7 @@ export const guillaumeGames: UserGames = [
       finishedGameWithHundredPercent: false,
       platinedGame: true,
       additionnalEstimatedTime: 800,
+      finishedSessionDate: '',
     }
     ],
   },
@@ -392,6 +422,7 @@ export const guillaumeGames: UserGames = [
       finishedGameWithHundredPercent: false,
       platinedGame: true,
       additionnalEstimatedTime: 250,
+      finishedSessionDate: '',
     }
     ],
   },
@@ -411,6 +442,7 @@ export const guillaumeGames: UserGames = [
       finishedGameWithHundredPercent: false,
       platinedGame: false,
       additionnalEstimatedTime: 150,
+      finishedSessionDate: '',
     }
     ],
   },
@@ -430,6 +462,7 @@ export const guillaumeGames: UserGames = [
       finishedGameWithHundredPercent: false,
       platinedGame: false,
       additionnalEstimatedTime: 871,
+      finishedSessionDate: '',
     }
     ],
   },
@@ -449,6 +482,7 @@ export const guillaumeGames: UserGames = [
       finishedGameWithHundredPercent: false,
       platinedGame: false,
       additionnalEstimatedTime: 40,
+      finishedSessionDate: '',
     }
     ],
   },
@@ -468,6 +502,7 @@ export const guillaumeGames: UserGames = [
       finishedGameWithHundredPercent: false,
       platinedGame: false,
       additionnalEstimatedTime: 90,
+      finishedSessionDate: '',
     }
     ],
   },
@@ -487,6 +522,7 @@ export const guillaumeGames: UserGames = [
       finishedGameWithHundredPercent: false,
       platinedGame: false,
       additionnalEstimatedTime: 494,
+      finishedSessionDate: '',
     }
     ],
   },
@@ -506,6 +542,7 @@ export const guillaumeGames: UserGames = [
       finishedGameWithHundredPercent: false,
       platinedGame: false,
       additionnalEstimatedTime: 380,
+      finishedSessionDate: '',
     }
     ],
   },
@@ -525,6 +562,7 @@ export const guillaumeGames: UserGames = [
       finishedGameWithHundredPercent: false,
       platinedGame: false,
       additionnalEstimatedTime: 245,
+      finishedSessionDate: '',
     }
     ],
   },
@@ -544,6 +582,7 @@ export const guillaumeGames: UserGames = [
       finishedGameWithHundredPercent: false,
       platinedGame: false,
       additionnalEstimatedTime: 150,
+      finishedSessionDate: '',
     }
     ],
   },
@@ -563,66 +602,77 @@ export const guillaumeGames: UserGames = [
       finishedGameWithHundredPercent: true,
       platinedGame: false,
       additionnalEstimatedTime: 0,
+      finishedSessionDate: '',
     },
 {
       finishedGame: true,
       finishedGameWithHundredPercent: false,
       platinedGame: false,
       additionnalEstimatedTime: 0,
+      finishedSessionDate: '',
     },
 {
       finishedGame: true,
       finishedGameWithHundredPercent: false,
       platinedGame: false,
       additionnalEstimatedTime: 0,
+      finishedSessionDate: '',
     },
 {
       finishedGame: true,
       finishedGameWithHundredPercent: false,
       platinedGame: false,
       additionnalEstimatedTime: 0,
+      finishedSessionDate: '',
     },
 {
       finishedGame: true,
       finishedGameWithHundredPercent: false,
       platinedGame: false,
       additionnalEstimatedTime: 0,
+      finishedSessionDate: '',
     },
 {
       finishedGame: true,
       finishedGameWithHundredPercent: false,
       platinedGame: false,
       additionnalEstimatedTime: 0,
+      finishedSessionDate: '',
     },
 {
       finishedGame: true,
       finishedGameWithHundredPercent: false,
       platinedGame: false,
       additionnalEstimatedTime: 0,
+      finishedSessionDate: '',
     },
 {
       finishedGame: true,
       finishedGameWithHundredPercent: false,
       platinedGame: false,
       additionnalEstimatedTime: 0,
+      finishedSessionDate: '',
     },
 {
       finishedGame: true,
       finishedGameWithHundredPercent: false,
       platinedGame: false,
       additionnalEstimatedTime: 0,
+      finishedSessionDate: '',
     },
 {
       finishedGame: true,
       finishedGameWithHundredPercent: false,
       platinedGame: false,
       additionnalEstimatedTime: 0,
+      finishedSessionDate: '',
     },
 {
       finishedGame: true,
       finishedGameWithHundredPercent: false,
       platinedGame: false,
       additionnalEstimatedTime: 0,
+      finishedSessionDate: '',
     }
     ],
   },
@@ -642,30 +692,35 @@ export const guillaumeGames: UserGames = [
       finishedGameWithHundredPercent: false,
       platinedGame: false,
       additionnalEstimatedTime: 0,
+      finishedSessionDate: '',
     },
 {
       finishedGame: true,
       finishedGameWithHundredPercent: false,
       platinedGame: false,
       additionnalEstimatedTime: 0,
+      finishedSessionDate: '',
     },
 {
       finishedGame: true,
       finishedGameWithHundredPercent: false,
       platinedGame: false,
       additionnalEstimatedTime: 0,
+      finishedSessionDate: '',
     },
 {
       finishedGame: true,
       finishedGameWithHundredPercent: false,
       platinedGame: false,
       additionnalEstimatedTime: 0,
+      finishedSessionDate: '',
     },
 {
       finishedGame: true,
       finishedGameWithHundredPercent: false,
       platinedGame: false,
       additionnalEstimatedTime: 0,
+      finishedSessionDate: '',
     }
     ],
   },
@@ -685,30 +740,35 @@ export const guillaumeGames: UserGames = [
       finishedGameWithHundredPercent: false,
       platinedGame: false,
       additionnalEstimatedTime: 0,
+      finishedSessionDate: '',
     },
 {
       finishedGame: true,
       finishedGameWithHundredPercent: false,
       platinedGame: false,
       additionnalEstimatedTime: 0,
+      finishedSessionDate: '',
     },
 {
       finishedGame: true,
       finishedGameWithHundredPercent: false,
       platinedGame: false,
       additionnalEstimatedTime: 0,
+      finishedSessionDate: '',
     },
 {
       finishedGame: true,
       finishedGameWithHundredPercent: false,
       platinedGame: false,
       additionnalEstimatedTime: 0,
+      finishedSessionDate: '',
     },
 {
       finishedGame: true,
       finishedGameWithHundredPercent: false,
       platinedGame: false,
       additionnalEstimatedTime: 0,
+      finishedSessionDate: '',
     }
     ],
   },
@@ -728,30 +788,35 @@ export const guillaumeGames: UserGames = [
       finishedGameWithHundredPercent: false,
       platinedGame: false,
       additionnalEstimatedTime: 100,
+      finishedSessionDate: '',
     },
 {
       finishedGame: true,
       finishedGameWithHundredPercent: false,
       platinedGame: false,
       additionnalEstimatedTime: 0,
+      finishedSessionDate: '',
     },
 {
       finishedGame: true,
       finishedGameWithHundredPercent: false,
       platinedGame: false,
       additionnalEstimatedTime: 0,
+      finishedSessionDate: '',
     },
 {
       finishedGame: true,
       finishedGameWithHundredPercent: false,
       platinedGame: false,
       additionnalEstimatedTime: 0,
+      finishedSessionDate: '',
     },
 {
       finishedGame: true,
       finishedGameWithHundredPercent: false,
       platinedGame: false,
       additionnalEstimatedTime: 0,
+      finishedSessionDate: '',
     }
     ],
   },
@@ -771,30 +836,35 @@ export const guillaumeGames: UserGames = [
       finishedGameWithHundredPercent: false,
       platinedGame: false,
       additionnalEstimatedTime: 100,
+      finishedSessionDate: '',
     },
 {
       finishedGame: true,
       finishedGameWithHundredPercent: false,
       platinedGame: false,
       additionnalEstimatedTime: 0,
+      finishedSessionDate: '',
     },
 {
       finishedGame: true,
       finishedGameWithHundredPercent: false,
       platinedGame: false,
       additionnalEstimatedTime: 0,
+      finishedSessionDate: '',
     },
 {
       finishedGame: true,
       finishedGameWithHundredPercent: false,
       platinedGame: false,
       additionnalEstimatedTime: 0,
+      finishedSessionDate: '',
     },
 {
       finishedGame: true,
       finishedGameWithHundredPercent: false,
       platinedGame: false,
       additionnalEstimatedTime: 0,
+      finishedSessionDate: '',
     }
     ],
   },
@@ -814,12 +884,14 @@ export const guillaumeGames: UserGames = [
       finishedGameWithHundredPercent: false,
       platinedGame: false,
       additionnalEstimatedTime: 0,
+      finishedSessionDate: '',
     },
 {
       finishedGame: true,
       finishedGameWithHundredPercent: false,
       platinedGame: false,
       additionnalEstimatedTime: 0,
+      finishedSessionDate: '',
     }
     ],
   },
@@ -839,6 +911,7 @@ export const guillaumeGames: UserGames = [
       finishedGameWithHundredPercent: false,
       platinedGame: false,
       additionnalEstimatedTime: 150,
+      finishedSessionDate: '',
     }
     ],
   },
@@ -858,6 +931,7 @@ export const guillaumeGames: UserGames = [
       finishedGameWithHundredPercent: false,
       platinedGame: false,
       additionnalEstimatedTime: 150,
+      finishedSessionDate: '',
     }
     ],
   },
@@ -877,6 +951,7 @@ export const guillaumeGames: UserGames = [
       finishedGameWithHundredPercent: false,
       platinedGame: false,
       additionnalEstimatedTime: 0,
+      finishedSessionDate: '',
     }
     ],
   },
@@ -896,12 +971,14 @@ export const guillaumeGames: UserGames = [
       finishedGameWithHundredPercent: true,
       platinedGame: false,
       additionnalEstimatedTime: 0,
+      finishedSessionDate: '',
     },
 {
       finishedGame: true,
       finishedGameWithHundredPercent: false,
       platinedGame: false,
       additionnalEstimatedTime: 0,
+      finishedSessionDate: '',
     }
     ],
   },
@@ -921,6 +998,7 @@ export const guillaumeGames: UserGames = [
       finishedGameWithHundredPercent: false,
       platinedGame: true,
       additionnalEstimatedTime: 0,
+      finishedSessionDate: '',
     }
     ],
   },
@@ -940,6 +1018,7 @@ export const guillaumeGames: UserGames = [
       finishedGameWithHundredPercent: false,
       platinedGame: true,
       additionnalEstimatedTime: 0,
+      finishedSessionDate: '',
     }
     ],
   },
@@ -959,6 +1038,7 @@ export const guillaumeGames: UserGames = [
       finishedGameWithHundredPercent: false,
       platinedGame: true,
       additionnalEstimatedTime: 0,
+      finishedSessionDate: '',
     }
     ],
   },
@@ -978,6 +1058,7 @@ export const guillaumeGames: UserGames = [
       finishedGameWithHundredPercent: false,
       platinedGame: false,
       additionnalEstimatedTime: 0,
+      finishedSessionDate: '',
     }
     ],
   },
@@ -997,6 +1078,7 @@ export const guillaumeGames: UserGames = [
       finishedGameWithHundredPercent: false,
       platinedGame: true,
       additionnalEstimatedTime: 50,
+      finishedSessionDate: '',
     }
     ],
   },
@@ -1016,6 +1098,7 @@ export const guillaumeGames: UserGames = [
       finishedGameWithHundredPercent: false,
       platinedGame: true,
       additionnalEstimatedTime: 2550,
+      finishedSessionDate: '',
     }
     ],
   },
@@ -1035,6 +1118,7 @@ export const guillaumeGames: UserGames = [
       finishedGameWithHundredPercent: false,
       platinedGame: true,
       additionnalEstimatedTime: 30,
+      finishedSessionDate: '',
     }
     ],
   },
@@ -1054,6 +1138,7 @@ export const guillaumeGames: UserGames = [
       finishedGameWithHundredPercent: false,
       platinedGame: true,
       additionnalEstimatedTime: 30,
+      finishedSessionDate: '',
     }
     ],
   },
@@ -1073,6 +1158,7 @@ export const guillaumeGames: UserGames = [
       finishedGameWithHundredPercent: false,
       platinedGame: true,
       additionnalEstimatedTime: 30,
+      finishedSessionDate: '',
     }
     ],
   },
@@ -1092,6 +1178,7 @@ export const guillaumeGames: UserGames = [
       finishedGameWithHundredPercent: false,
       platinedGame: true,
       additionnalEstimatedTime: 15,
+      finishedSessionDate: '',
     }
     ],
   },
@@ -1111,6 +1198,7 @@ export const guillaumeGames: UserGames = [
       finishedGameWithHundredPercent: false,
       platinedGame: true,
       additionnalEstimatedTime: 0,
+      finishedSessionDate: '',
     }
     ],
   },
@@ -1130,6 +1218,7 @@ export const guillaumeGames: UserGames = [
       finishedGameWithHundredPercent: false,
       platinedGame: true,
       additionnalEstimatedTime: 0,
+      finishedSessionDate: '',
     }
     ],
   },
@@ -1149,6 +1238,7 @@ export const guillaumeGames: UserGames = [
       finishedGameWithHundredPercent: false,
       platinedGame: true,
       additionnalEstimatedTime: 0,
+      finishedSessionDate: '',
     }
     ],
   },
@@ -1168,6 +1258,7 @@ export const guillaumeGames: UserGames = [
       finishedGameWithHundredPercent: false,
       platinedGame: true,
       additionnalEstimatedTime: 0,
+      finishedSessionDate: '',
     }
     ],
   },
@@ -1187,6 +1278,7 @@ export const guillaumeGames: UserGames = [
       finishedGameWithHundredPercent: false,
       platinedGame: false,
       additionnalEstimatedTime: 300,
+      finishedSessionDate: '',
     }
     ],
   },
@@ -1206,6 +1298,7 @@ export const guillaumeGames: UserGames = [
       finishedGameWithHundredPercent: false,
       platinedGame: false,
       additionnalEstimatedTime: 400,
+      finishedSessionDate: '',
     }
     ],
   },
@@ -1225,6 +1318,7 @@ export const guillaumeGames: UserGames = [
       finishedGameWithHundredPercent: false,
       platinedGame: false,
       additionnalEstimatedTime: 0,
+      finishedSessionDate: '',
     }
     ],
   },
@@ -1244,6 +1338,7 @@ export const guillaumeGames: UserGames = [
       finishedGameWithHundredPercent: false,
       platinedGame: false,
       additionnalEstimatedTime: 10,
+      finishedSessionDate: '',
     }
     ],
   },
@@ -1263,6 +1358,7 @@ export const guillaumeGames: UserGames = [
       finishedGameWithHundredPercent: false,
       platinedGame: false,
       additionnalEstimatedTime: 0,
+      finishedSessionDate: '',
     }
     ],
   },
@@ -1282,6 +1378,7 @@ export const guillaumeGames: UserGames = [
       finishedGameWithHundredPercent: false,
       platinedGame: false,
       additionnalEstimatedTime: 0,
+      finishedSessionDate: '',
     }
     ],
   },
@@ -1301,6 +1398,7 @@ export const guillaumeGames: UserGames = [
       finishedGameWithHundredPercent: false,
       platinedGame: false,
       additionnalEstimatedTime: 0,
+      finishedSessionDate: '',
     }
     ],
   },
@@ -1320,6 +1418,7 @@ export const guillaumeGames: UserGames = [
       finishedGameWithHundredPercent: false,
       platinedGame: false,
       additionnalEstimatedTime: 0,
+      finishedSessionDate: '',
     }
     ],
   },
@@ -1339,6 +1438,7 @@ export const guillaumeGames: UserGames = [
       finishedGameWithHundredPercent: false,
       platinedGame: false,
       additionnalEstimatedTime: 0,
+      finishedSessionDate: '',
     }
     ],
   },
@@ -1358,6 +1458,7 @@ export const guillaumeGames: UserGames = [
       finishedGameWithHundredPercent: false,
       platinedGame: false,
       additionnalEstimatedTime: 0,
+      finishedSessionDate: '',
     }
     ],
   },
@@ -1377,6 +1478,7 @@ export const guillaumeGames: UserGames = [
       finishedGameWithHundredPercent: false,
       platinedGame: true,
       additionnalEstimatedTime: 0,
+      finishedSessionDate: '',
     }
     ],
   },
@@ -1396,6 +1498,7 @@ export const guillaumeGames: UserGames = [
       finishedGameWithHundredPercent: false,
       platinedGame: false,
       additionnalEstimatedTime: 0,
+      finishedSessionDate: '',
     }
     ],
   },
@@ -1415,6 +1518,7 @@ export const guillaumeGames: UserGames = [
       finishedGameWithHundredPercent: false,
       platinedGame: false,
       additionnalEstimatedTime: 0,
+      finishedSessionDate: '',
     }
     ],
   },
@@ -1434,6 +1538,7 @@ export const guillaumeGames: UserGames = [
       finishedGameWithHundredPercent: false,
       platinedGame: false,
       additionnalEstimatedTime: 0,
+      finishedSessionDate: '',
     }
     ],
   },
@@ -1453,6 +1558,7 @@ export const guillaumeGames: UserGames = [
       finishedGameWithHundredPercent: false,
       platinedGame: false,
       additionnalEstimatedTime: 0,
+      finishedSessionDate: '',
     }
     ],
   },
@@ -1472,6 +1578,7 @@ export const guillaumeGames: UserGames = [
       finishedGameWithHundredPercent: false,
       platinedGame: false,
       additionnalEstimatedTime: 0,
+      finishedSessionDate: '',
     }
     ],
   },
@@ -1491,6 +1598,7 @@ export const guillaumeGames: UserGames = [
       finishedGameWithHundredPercent: false,
       platinedGame: true,
       additionnalEstimatedTime: 0,
+      finishedSessionDate: '',
     }
     ],
   },
@@ -1510,24 +1618,28 @@ export const guillaumeGames: UserGames = [
       finishedGameWithHundredPercent: false,
       platinedGame: false,
       additionnalEstimatedTime: 250,
+      finishedSessionDate: '',
     },
 {
       finishedGame: true,
       finishedGameWithHundredPercent: false,
       platinedGame: false,
       additionnalEstimatedTime: 0,
+      finishedSessionDate: '',
     },
 {
       finishedGame: true,
       finishedGameWithHundredPercent: false,
       platinedGame: false,
       additionnalEstimatedTime: 0,
+      finishedSessionDate: '',
     },
 {
       finishedGame: true,
       finishedGameWithHundredPercent: false,
       platinedGame: false,
       additionnalEstimatedTime: 0,
+      finishedSessionDate: '',
     }
     ],
   },
@@ -1547,6 +1659,7 @@ export const guillaumeGames: UserGames = [
       finishedGameWithHundredPercent: false,
       platinedGame: true,
       additionnalEstimatedTime: 15,
+      finishedSessionDate: '',
     }
     ],
   },
@@ -1566,18 +1679,21 @@ export const guillaumeGames: UserGames = [
       finishedGameWithHundredPercent: false,
       platinedGame: false,
       additionnalEstimatedTime: 0,
+      finishedSessionDate: '',
     },
 {
       finishedGame: true,
       finishedGameWithHundredPercent: false,
       platinedGame: false,
       additionnalEstimatedTime: 0,
+      finishedSessionDate: '',
     },
 {
       finishedGame: true,
       finishedGameWithHundredPercent: false,
       platinedGame: false,
       additionnalEstimatedTime: 0,
+      finishedSessionDate: '',
     }
     ],
   },
@@ -1597,12 +1713,14 @@ export const guillaumeGames: UserGames = [
       finishedGameWithHundredPercent: false,
       platinedGame: false,
       additionnalEstimatedTime: 0,
+      finishedSessionDate: '',
     },
 {
       finishedGame: true,
       finishedGameWithHundredPercent: false,
       platinedGame: false,
       additionnalEstimatedTime: 0,
+      finishedSessionDate: '',
     }
     ],
   },
@@ -1622,6 +1740,7 @@ export const guillaumeGames: UserGames = [
       finishedGameWithHundredPercent: false,
       platinedGame: false,
       additionnalEstimatedTime: 50,
+      finishedSessionDate: '',
     }
     ],
   },
@@ -1641,6 +1760,7 @@ export const guillaumeGames: UserGames = [
       finishedGameWithHundredPercent: false,
       platinedGame: false,
       additionnalEstimatedTime: 1900,
+      finishedSessionDate: '',
     }
     ],
   },
@@ -1660,6 +1780,7 @@ export const guillaumeGames: UserGames = [
       finishedGameWithHundredPercent: false,
       platinedGame: false,
       additionnalEstimatedTime: 0,
+      finishedSessionDate: '',
     }
     ],
   },
@@ -1679,6 +1800,7 @@ export const guillaumeGames: UserGames = [
       finishedGameWithHundredPercent: false,
       platinedGame: false,
       additionnalEstimatedTime: 10,
+      finishedSessionDate: '',
     }
     ],
   },
@@ -1698,6 +1820,7 @@ export const guillaumeGames: UserGames = [
       finishedGameWithHundredPercent: false,
       platinedGame: true,
       additionnalEstimatedTime: 0,
+      finishedSessionDate: '',
     }
     ],
   },
@@ -1717,6 +1840,7 @@ export const guillaumeGames: UserGames = [
       finishedGameWithHundredPercent: false,
       platinedGame: true,
       additionnalEstimatedTime: 0,
+      finishedSessionDate: '',
     }
     ],
   },
@@ -1736,6 +1860,7 @@ export const guillaumeGames: UserGames = [
       finishedGameWithHundredPercent: false,
       platinedGame: false,
       additionnalEstimatedTime: 0,
+      finishedSessionDate: '',
     }
     ],
   },
@@ -1755,48 +1880,56 @@ export const guillaumeGames: UserGames = [
       finishedGameWithHundredPercent: true,
       platinedGame: false,
       additionnalEstimatedTime: 0,
+      finishedSessionDate: '',
     },
 {
       finishedGame: true,
       finishedGameWithHundredPercent: false,
       platinedGame: false,
       additionnalEstimatedTime: 0,
+      finishedSessionDate: '',
     },
 {
       finishedGame: true,
       finishedGameWithHundredPercent: false,
       platinedGame: false,
       additionnalEstimatedTime: 0,
+      finishedSessionDate: '',
     },
 {
       finishedGame: true,
       finishedGameWithHundredPercent: false,
       platinedGame: false,
       additionnalEstimatedTime: 0,
+      finishedSessionDate: '',
     },
 {
       finishedGame: true,
       finishedGameWithHundredPercent: false,
       platinedGame: false,
       additionnalEstimatedTime: 0,
+      finishedSessionDate: '',
     },
 {
       finishedGame: true,
       finishedGameWithHundredPercent: false,
       platinedGame: false,
       additionnalEstimatedTime: 0,
+      finishedSessionDate: '',
     },
 {
       finishedGame: true,
       finishedGameWithHundredPercent: false,
       platinedGame: false,
       additionnalEstimatedTime: 0,
+      finishedSessionDate: '',
     },
 {
       finishedGame: true,
       finishedGameWithHundredPercent: false,
       platinedGame: false,
       additionnalEstimatedTime: 0,
+      finishedSessionDate: '',
     }
     ],
   },
@@ -1816,6 +1949,7 @@ export const guillaumeGames: UserGames = [
       finishedGameWithHundredPercent: false,
       platinedGame: false,
       additionnalEstimatedTime: 0,
+      finishedSessionDate: '',
     }
     ],
   },
@@ -1835,6 +1969,7 @@ export const guillaumeGames: UserGames = [
       finishedGameWithHundredPercent: false,
       platinedGame: false,
       additionnalEstimatedTime: 0,
+      finishedSessionDate: '',
     }
     ],
   },
@@ -1854,6 +1989,7 @@ export const guillaumeGames: UserGames = [
       finishedGameWithHundredPercent: false,
       platinedGame: false,
       additionnalEstimatedTime: 5,
+      finishedSessionDate: '',
     }
     ],
   },
@@ -1873,6 +2009,7 @@ export const guillaumeGames: UserGames = [
       finishedGameWithHundredPercent: true,
       platinedGame: false,
       additionnalEstimatedTime: 20,
+      finishedSessionDate: '',
     }
     ],
   },
@@ -1892,6 +2029,7 @@ export const guillaumeGames: UserGames = [
       finishedGameWithHundredPercent: false,
       platinedGame: false,
       additionnalEstimatedTime: 0,
+      finishedSessionDate: '',
     }
     ],
   },
@@ -1911,6 +2049,7 @@ export const guillaumeGames: UserGames = [
       finishedGameWithHundredPercent: false,
       platinedGame: false,
       additionnalEstimatedTime: 15,
+      finishedSessionDate: '',
     }
     ],
   },
@@ -1930,6 +2069,7 @@ export const guillaumeGames: UserGames = [
       finishedGameWithHundredPercent: false,
       platinedGame: false,
       additionnalEstimatedTime: 0,
+      finishedSessionDate: '',
     }
     ],
   },
@@ -1949,6 +2089,7 @@ export const guillaumeGames: UserGames = [
       finishedGameWithHundredPercent: false,
       platinedGame: false,
       additionnalEstimatedTime: 10,
+      finishedSessionDate: '',
     }
     ],
   },
@@ -1968,6 +2109,7 @@ export const guillaumeGames: UserGames = [
       finishedGameWithHundredPercent: false,
       platinedGame: false,
       additionnalEstimatedTime: 200,
+      finishedSessionDate: '',
     }
     ],
   },
@@ -1987,6 +2129,7 @@ export const guillaumeGames: UserGames = [
       finishedGameWithHundredPercent: false,
       platinedGame: false,
       additionnalEstimatedTime: 200,
+      finishedSessionDate: '',
     }
     ],
   },
@@ -2006,6 +2149,7 @@ export const guillaumeGames: UserGames = [
       finishedGameWithHundredPercent: false,
       platinedGame: false,
       additionnalEstimatedTime: 80,
+      finishedSessionDate: '',
     }
     ],
   },
@@ -2025,6 +2169,7 @@ export const guillaumeGames: UserGames = [
       finishedGameWithHundredPercent: false,
       platinedGame: false,
       additionnalEstimatedTime: 100,
+      finishedSessionDate: '',
     }
     ],
   },
@@ -2044,6 +2189,7 @@ export const guillaumeGames: UserGames = [
       finishedGameWithHundredPercent: false,
       platinedGame: false,
       additionnalEstimatedTime: 100,
+      finishedSessionDate: '',
     }
     ],
   },
@@ -2063,6 +2209,7 @@ export const guillaumeGames: UserGames = [
       finishedGameWithHundredPercent: false,
       platinedGame: false,
       additionnalEstimatedTime: 100,
+      finishedSessionDate: '',
     }
     ],
   },
@@ -2082,6 +2229,7 @@ export const guillaumeGames: UserGames = [
       finishedGameWithHundredPercent: false,
       platinedGame: false,
       additionnalEstimatedTime: 50,
+      finishedSessionDate: '',
     }
     ],
   },
@@ -2101,6 +2249,7 @@ export const guillaumeGames: UserGames = [
       finishedGameWithHundredPercent: false,
       platinedGame: false,
       additionnalEstimatedTime: 30,
+      finishedSessionDate: '',
     }
     ],
   },
@@ -2120,6 +2269,7 @@ export const guillaumeGames: UserGames = [
       finishedGameWithHundredPercent: false,
       platinedGame: false,
       additionnalEstimatedTime: 0,
+      finishedSessionDate: '',
     }
     ],
   },
@@ -2139,6 +2289,7 @@ export const guillaumeGames: UserGames = [
       finishedGameWithHundredPercent: false,
       platinedGame: false,
       additionnalEstimatedTime: 5,
+      finishedSessionDate: '',
     }
     ],
   },
@@ -2158,24 +2309,28 @@ export const guillaumeGames: UserGames = [
       finishedGameWithHundredPercent: false,
       platinedGame: false,
       additionnalEstimatedTime: 0,
+      finishedSessionDate: '',
     },
 {
       finishedGame: true,
       finishedGameWithHundredPercent: false,
       platinedGame: false,
       additionnalEstimatedTime: 0,
+      finishedSessionDate: '',
     },
 {
       finishedGame: true,
       finishedGameWithHundredPercent: false,
       platinedGame: false,
       additionnalEstimatedTime: 0,
+      finishedSessionDate: '',
     },
 {
       finishedGame: true,
       finishedGameWithHundredPercent: false,
       platinedGame: false,
       additionnalEstimatedTime: 0,
+      finishedSessionDate: '',
     }
     ],
   },
@@ -2195,42 +2350,49 @@ export const guillaumeGames: UserGames = [
       finishedGameWithHundredPercent: false,
       platinedGame: false,
       additionnalEstimatedTime: 0,
+      finishedSessionDate: '',
     },
 {
       finishedGame: true,
       finishedGameWithHundredPercent: false,
       platinedGame: false,
       additionnalEstimatedTime: 0,
+      finishedSessionDate: '',
     },
 {
       finishedGame: true,
       finishedGameWithHundredPercent: false,
       platinedGame: false,
       additionnalEstimatedTime: 0,
+      finishedSessionDate: '',
     },
 {
       finishedGame: true,
       finishedGameWithHundredPercent: false,
       platinedGame: false,
       additionnalEstimatedTime: 0,
+      finishedSessionDate: '',
     },
 {
       finishedGame: true,
       finishedGameWithHundredPercent: false,
       platinedGame: false,
       additionnalEstimatedTime: 0,
+      finishedSessionDate: '',
     },
 {
       finishedGame: true,
       finishedGameWithHundredPercent: false,
       platinedGame: false,
       additionnalEstimatedTime: 0,
+      finishedSessionDate: '',
     },
 {
       finishedGame: true,
       finishedGameWithHundredPercent: false,
       platinedGame: false,
       additionnalEstimatedTime: 0,
+      finishedSessionDate: '',
     }
     ],
   },
@@ -2250,6 +2412,7 @@ export const guillaumeGames: UserGames = [
       finishedGameWithHundredPercent: false,
       platinedGame: false,
       additionnalEstimatedTime: 20,
+      finishedSessionDate: '',
     }
     ],
   },
@@ -2269,12 +2432,14 @@ export const guillaumeGames: UserGames = [
       finishedGameWithHundredPercent: false,
       platinedGame: false,
       additionnalEstimatedTime: 20,
+      finishedSessionDate: '',
     },
 {
       finishedGame: true,
       finishedGameWithHundredPercent: false,
       platinedGame: false,
       additionnalEstimatedTime: 0,
+      finishedSessionDate: '',
     }
     ],
   },
@@ -2294,6 +2459,7 @@ export const guillaumeGames: UserGames = [
       finishedGameWithHundredPercent: false,
       platinedGame: false,
       additionnalEstimatedTime: 0,
+      finishedSessionDate: '',
     }
     ],
   },
@@ -2313,6 +2479,7 @@ export const guillaumeGames: UserGames = [
       finishedGameWithHundredPercent: false,
       platinedGame: false,
       additionnalEstimatedTime: 0,
+      finishedSessionDate: '',
     }
     ],
   },
@@ -2332,6 +2499,7 @@ export const guillaumeGames: UserGames = [
       finishedGameWithHundredPercent: false,
       platinedGame: false,
       additionnalEstimatedTime: 200,
+      finishedSessionDate: '',
     }
     ],
   },
@@ -2351,12 +2519,14 @@ export const guillaumeGames: UserGames = [
       finishedGameWithHundredPercent: false,
       platinedGame: false,
       additionnalEstimatedTime: 0,
+      finishedSessionDate: '',
     },
 {
       finishedGame: true,
       finishedGameWithHundredPercent: false,
       platinedGame: false,
       additionnalEstimatedTime: 0,
+      finishedSessionDate: '',
     }
     ],
   },
@@ -2376,6 +2546,7 @@ export const guillaumeGames: UserGames = [
       finishedGameWithHundredPercent: false,
       platinedGame: false,
       additionnalEstimatedTime: 80,
+      finishedSessionDate: '',
     }
     ],
   },
@@ -2395,12 +2566,14 @@ export const guillaumeGames: UserGames = [
       finishedGameWithHundredPercent: false,
       platinedGame: false,
       additionnalEstimatedTime: 0,
+      finishedSessionDate: '',
     },
 {
       finishedGame: true,
       finishedGameWithHundredPercent: false,
       platinedGame: false,
       additionnalEstimatedTime: 0,
+      finishedSessionDate: '',
     }
     ],
   },
@@ -2420,6 +2593,7 @@ export const guillaumeGames: UserGames = [
       finishedGameWithHundredPercent: false,
       platinedGame: false,
       additionnalEstimatedTime: 0,
+      finishedSessionDate: '',
     }
     ],
   },
@@ -2439,12 +2613,14 @@ export const guillaumeGames: UserGames = [
       finishedGameWithHundredPercent: false,
       platinedGame: false,
       additionnalEstimatedTime: 80,
+      finishedSessionDate: '',
     },
 {
       finishedGame: true,
       finishedGameWithHundredPercent: false,
       platinedGame: false,
       additionnalEstimatedTime: 0,
+      finishedSessionDate: '',
     }
     ],
   },
@@ -2464,12 +2640,14 @@ export const guillaumeGames: UserGames = [
       finishedGameWithHundredPercent: false,
       platinedGame: false,
       additionnalEstimatedTime: 80,
+      finishedSessionDate: '',
     },
 {
       finishedGame: true,
       finishedGameWithHundredPercent: false,
       platinedGame: false,
       additionnalEstimatedTime: 0,
+      finishedSessionDate: '',
     }
     ],
   },
@@ -2489,6 +2667,7 @@ export const guillaumeGames: UserGames = [
       finishedGameWithHundredPercent: false,
       platinedGame: false,
       additionnalEstimatedTime: 0,
+      finishedSessionDate: '',
     }
     ],
   },
@@ -2508,6 +2687,7 @@ export const guillaumeGames: UserGames = [
       finishedGameWithHundredPercent: false,
       platinedGame: false,
       additionnalEstimatedTime: 0,
+      finishedSessionDate: '',
     }
     ],
   },
@@ -2527,6 +2707,7 @@ export const guillaumeGames: UserGames = [
       finishedGameWithHundredPercent: false,
       platinedGame: false,
       additionnalEstimatedTime: 50,
+      finishedSessionDate: '',
     }
     ],
   },
@@ -2546,6 +2727,7 @@ export const guillaumeGames: UserGames = [
       finishedGameWithHundredPercent: false,
       platinedGame: false,
       additionnalEstimatedTime: 80,
+      finishedSessionDate: '',
     }
     ],
   },
@@ -2565,6 +2747,7 @@ export const guillaumeGames: UserGames = [
       finishedGameWithHundredPercent: false,
       platinedGame: false,
       additionnalEstimatedTime: 300,
+      finishedSessionDate: '',
     }
     ],
   },
@@ -2584,6 +2767,7 @@ export const guillaumeGames: UserGames = [
       finishedGameWithHundredPercent: false,
       platinedGame: false,
       additionnalEstimatedTime: 20,
+      finishedSessionDate: '',
     }
     ],
   },
@@ -2603,6 +2787,7 @@ export const guillaumeGames: UserGames = [
       finishedGameWithHundredPercent: false,
       platinedGame: false,
       additionnalEstimatedTime: 150,
+      finishedSessionDate: '',
     }
     ],
   },
@@ -2622,6 +2807,7 @@ export const guillaumeGames: UserGames = [
       finishedGameWithHundredPercent: false,
       platinedGame: false,
       additionnalEstimatedTime: 20,
+      finishedSessionDate: '',
     }
     ],
   },
@@ -2641,6 +2827,7 @@ export const guillaumeGames: UserGames = [
       finishedGameWithHundredPercent: false,
       platinedGame: false,
       additionnalEstimatedTime: 0,
+      finishedSessionDate: '',
     }
     ],
   },
@@ -2660,6 +2847,7 @@ export const guillaumeGames: UserGames = [
       finishedGameWithHundredPercent: false,
       platinedGame: false,
       additionnalEstimatedTime: 15,
+      finishedSessionDate: '',
     }
     ],
   },
@@ -2679,6 +2867,7 @@ export const guillaumeGames: UserGames = [
       finishedGameWithHundredPercent: false,
       platinedGame: false,
       additionnalEstimatedTime: 8,
+      finishedSessionDate: '',
     }
     ],
   },
@@ -2698,6 +2887,7 @@ export const guillaumeGames: UserGames = [
       finishedGameWithHundredPercent: false,
       platinedGame: false,
       additionnalEstimatedTime: 20,
+      finishedSessionDate: '',
     }
     ],
   },
@@ -2717,6 +2907,7 @@ export const guillaumeGames: UserGames = [
       finishedGameWithHundredPercent: false,
       platinedGame: false,
       additionnalEstimatedTime: 100,
+      finishedSessionDate: '',
     }
     ],
   },
@@ -2736,6 +2927,7 @@ export const guillaumeGames: UserGames = [
       finishedGameWithHundredPercent: false,
       platinedGame: false,
       additionnalEstimatedTime: 20,
+      finishedSessionDate: '',
     }
     ],
   },
@@ -2755,6 +2947,7 @@ export const guillaumeGames: UserGames = [
       finishedGameWithHundredPercent: false,
       platinedGame: false,
       additionnalEstimatedTime: 20,
+      finishedSessionDate: '',
     }
     ],
   },
@@ -2774,6 +2967,7 @@ export const guillaumeGames: UserGames = [
       finishedGameWithHundredPercent: false,
       platinedGame: false,
       additionnalEstimatedTime: 25,
+      finishedSessionDate: '',
     }
     ],
   },
@@ -2793,6 +2987,7 @@ export const guillaumeGames: UserGames = [
       finishedGameWithHundredPercent: false,
       platinedGame: false,
       additionnalEstimatedTime: 20,
+      finishedSessionDate: '',
     }
     ],
   },
@@ -2812,6 +3007,7 @@ export const guillaumeGames: UserGames = [
       finishedGameWithHundredPercent: false,
       platinedGame: false,
       additionnalEstimatedTime: 10,
+      finishedSessionDate: '',
     }
     ],
   },
@@ -2831,30 +3027,35 @@ export const guillaumeGames: UserGames = [
       finishedGameWithHundredPercent: true,
       platinedGame: false,
       additionnalEstimatedTime: 0,
+      finishedSessionDate: '',
     },
 {
       finishedGame: false,
       finishedGameWithHundredPercent: true,
       platinedGame: false,
       additionnalEstimatedTime: 0,
+      finishedSessionDate: '',
     },
 {
       finishedGame: false,
       finishedGameWithHundredPercent: true,
       platinedGame: false,
       additionnalEstimatedTime: 0,
+      finishedSessionDate: '',
     },
 {
       finishedGame: false,
       finishedGameWithHundredPercent: true,
       platinedGame: false,
       additionnalEstimatedTime: 0,
+      finishedSessionDate: '',
     },
 {
       finishedGame: false,
       finishedGameWithHundredPercent: true,
       platinedGame: false,
       additionnalEstimatedTime: 0,
+      finishedSessionDate: '',
     }
     ],
   },
@@ -2874,6 +3075,7 @@ export const guillaumeGames: UserGames = [
       finishedGameWithHundredPercent: false,
       platinedGame: false,
       additionnalEstimatedTime: 12,
+      finishedSessionDate: '',
     }
     ],
   },
@@ -2893,6 +3095,7 @@ export const guillaumeGames: UserGames = [
       finishedGameWithHundredPercent: false,
       platinedGame: false,
       additionnalEstimatedTime: 6,
+      finishedSessionDate: '',
     }
     ],
   },
@@ -2912,6 +3115,7 @@ export const guillaumeGames: UserGames = [
       finishedGameWithHundredPercent: false,
       platinedGame: false,
       additionnalEstimatedTime: 7,
+      finishedSessionDate: '',
     }
     ],
   },
@@ -2931,6 +3135,7 @@ export const guillaumeGames: UserGames = [
       finishedGameWithHundredPercent: false,
       platinedGame: false,
       additionnalEstimatedTime: 10,
+      finishedSessionDate: '',
     }
     ],
   },
@@ -2950,6 +3155,7 @@ export const guillaumeGames: UserGames = [
       finishedGameWithHundredPercent: false,
       platinedGame: false,
       additionnalEstimatedTime: 10,
+      finishedSessionDate: '',
     }
     ],
   },
@@ -2969,6 +3175,7 @@ export const guillaumeGames: UserGames = [
       finishedGameWithHundredPercent: false,
       platinedGame: false,
       additionnalEstimatedTime: 10,
+      finishedSessionDate: '',
     }
     ],
   },
@@ -2988,6 +3195,7 @@ export const guillaumeGames: UserGames = [
       finishedGameWithHundredPercent: false,
       platinedGame: false,
       additionnalEstimatedTime: 10,
+      finishedSessionDate: '',
     }
     ],
   },
@@ -3007,6 +3215,7 @@ export const guillaumeGames: UserGames = [
       finishedGameWithHundredPercent: false,
       platinedGame: false,
       additionnalEstimatedTime: 20,
+      finishedSessionDate: '',
     }
     ],
   },
@@ -3026,6 +3235,7 @@ export const guillaumeGames: UserGames = [
       finishedGameWithHundredPercent: false,
       platinedGame: false,
       additionnalEstimatedTime: 8,
+      finishedSessionDate: '',
     }
     ],
   },
@@ -3045,6 +3255,7 @@ export const guillaumeGames: UserGames = [
       finishedGameWithHundredPercent: false,
       platinedGame: false,
       additionnalEstimatedTime: 10,
+      finishedSessionDate: '',
     }
     ],
   },
@@ -3064,6 +3275,7 @@ export const guillaumeGames: UserGames = [
       finishedGameWithHundredPercent: false,
       platinedGame: false,
       additionnalEstimatedTime: 10,
+      finishedSessionDate: '',
     }
     ],
   },
@@ -3083,6 +3295,7 @@ export const guillaumeGames: UserGames = [
       finishedGameWithHundredPercent: false,
       platinedGame: false,
       additionnalEstimatedTime: 30,
+      finishedSessionDate: '',
     }
     ],
   },
@@ -3102,6 +3315,7 @@ export const guillaumeGames: UserGames = [
       finishedGameWithHundredPercent: false,
       platinedGame: false,
       additionnalEstimatedTime: 8,
+      finishedSessionDate: '',
     }
     ],
   },
@@ -3121,6 +3335,7 @@ export const guillaumeGames: UserGames = [
       finishedGameWithHundredPercent: false,
       platinedGame: false,
       additionnalEstimatedTime: 10,
+      finishedSessionDate: '',
     }
     ],
   },
@@ -3140,6 +3355,7 @@ export const guillaumeGames: UserGames = [
       finishedGameWithHundredPercent: false,
       platinedGame: false,
       additionnalEstimatedTime: 15,
+      finishedSessionDate: '',
     }
     ],
   },
@@ -3159,6 +3375,7 @@ export const guillaumeGames: UserGames = [
       finishedGameWithHundredPercent: false,
       platinedGame: false,
       additionnalEstimatedTime: 5,
+      finishedSessionDate: '',
     }
     ],
   },
@@ -3178,12 +3395,14 @@ export const guillaumeGames: UserGames = [
       finishedGameWithHundredPercent: false,
       platinedGame: false,
       additionnalEstimatedTime: 0,
+      finishedSessionDate: '',
     },
 {
       finishedGame: false,
       finishedGameWithHundredPercent: false,
       platinedGame: false,
       additionnalEstimatedTime: 40,
+      finishedSessionDate: '',
     }
     ],
   },
@@ -3203,6 +3422,7 @@ export const guillaumeGames: UserGames = [
       finishedGameWithHundredPercent: false,
       platinedGame: false,
       additionnalEstimatedTime: 10,
+      finishedSessionDate: '',
     }
     ],
   },
@@ -3222,6 +3442,7 @@ export const guillaumeGames: UserGames = [
       finishedGameWithHundredPercent: false,
       platinedGame: false,
       additionnalEstimatedTime: 5,
+      finishedSessionDate: '',
     }
     ],
   },
@@ -3241,6 +3462,7 @@ export const guillaumeGames: UserGames = [
       finishedGameWithHundredPercent: false,
       platinedGame: false,
       additionnalEstimatedTime: 7,
+      finishedSessionDate: '',
     }
     ],
   },
@@ -3260,6 +3482,7 @@ export const guillaumeGames: UserGames = [
       finishedGameWithHundredPercent: false,
       platinedGame: false,
       additionnalEstimatedTime: 7,
+      finishedSessionDate: '',
     }
     ],
   },
@@ -3279,6 +3502,7 @@ export const guillaumeGames: UserGames = [
       finishedGameWithHundredPercent: false,
       platinedGame: false,
       additionnalEstimatedTime: 25,
+      finishedSessionDate: '',
     }
     ],
   },
@@ -3298,6 +3522,7 @@ export const guillaumeGames: UserGames = [
       finishedGameWithHundredPercent: false,
       platinedGame: false,
       additionnalEstimatedTime: 20,
+      finishedSessionDate: '',
     }
     ],
   },
@@ -3317,6 +3542,7 @@ export const guillaumeGames: UserGames = [
       finishedGameWithHundredPercent: false,
       platinedGame: false,
       additionnalEstimatedTime: 15,
+      finishedSessionDate: '',
     }
     ],
   },
@@ -3336,6 +3562,7 @@ export const guillaumeGames: UserGames = [
       finishedGameWithHundredPercent: false,
       platinedGame: false,
       additionnalEstimatedTime: 5,
+      finishedSessionDate: '',
     }
     ],
   },
@@ -3355,6 +3582,7 @@ export const guillaumeGames: UserGames = [
       finishedGameWithHundredPercent: false,
       platinedGame: false,
       additionnalEstimatedTime: 10,
+      finishedSessionDate: '',
     }
     ],
   },
@@ -3374,6 +3602,7 @@ export const guillaumeGames: UserGames = [
       finishedGameWithHundredPercent: false,
       platinedGame: false,
       additionnalEstimatedTime: 5,
+      finishedSessionDate: '',
     }
     ],
   },
@@ -3393,6 +3622,7 @@ export const guillaumeGames: UserGames = [
       finishedGameWithHundredPercent: false,
       platinedGame: false,
       additionnalEstimatedTime: 4,
+      finishedSessionDate: '',
     }
     ],
   },
@@ -3412,24 +3642,28 @@ export const guillaumeGames: UserGames = [
       finishedGameWithHundredPercent: false,
       platinedGame: false,
       additionnalEstimatedTime: 5,
+      finishedSessionDate: '',
     },
 {
       finishedGame: true,
       finishedGameWithHundredPercent: false,
       platinedGame: false,
       additionnalEstimatedTime: 5,
+      finishedSessionDate: '',
     },
 {
       finishedGame: true,
       finishedGameWithHundredPercent: false,
       platinedGame: false,
       additionnalEstimatedTime: 5,
+      finishedSessionDate: '',
     },
 {
       finishedGame: true,
       finishedGameWithHundredPercent: false,
       platinedGame: false,
       additionnalEstimatedTime: 5,
+      finishedSessionDate: '',
     }
     ],
   },
@@ -3449,12 +3683,14 @@ export const guillaumeGames: UserGames = [
       finishedGameWithHundredPercent: false,
       platinedGame: false,
       additionnalEstimatedTime: 10,
+      finishedSessionDate: '',
     },
 {
       finishedGame: true,
       finishedGameWithHundredPercent: false,
       platinedGame: false,
       additionnalEstimatedTime: 10,
+      finishedSessionDate: '',
     }
     ],
   },
@@ -3474,6 +3710,7 @@ export const guillaumeGames: UserGames = [
       finishedGameWithHundredPercent: false,
       platinedGame: false,
       additionnalEstimatedTime: 8,
+      finishedSessionDate: '',
     }
     ],
   },
@@ -3493,12 +3730,14 @@ export const guillaumeGames: UserGames = [
       finishedGameWithHundredPercent: false,
       platinedGame: false,
       additionnalEstimatedTime: 10,
+      finishedSessionDate: '',
     },
 {
       finishedGame: true,
       finishedGameWithHundredPercent: false,
       platinedGame: false,
       additionnalEstimatedTime: 10,
+      finishedSessionDate: '',
     }
     ],
   },
@@ -3518,6 +3757,7 @@ export const guillaumeGames: UserGames = [
       finishedGameWithHundredPercent: false,
       platinedGame: false,
       additionnalEstimatedTime: 5,
+      finishedSessionDate: '',
     }
     ],
   },
@@ -3537,12 +3777,14 @@ export const guillaumeGames: UserGames = [
       finishedGameWithHundredPercent: false,
       platinedGame: false,
       additionnalEstimatedTime: 0,
+      finishedSessionDate: '',
     },
 {
       finishedGame: false,
       finishedGameWithHundredPercent: false,
       platinedGame: false,
       additionnalEstimatedTime: 40,
+      finishedSessionDate: '',
     }
     ],
   },
@@ -3562,6 +3804,7 @@ export const guillaumeGames: UserGames = [
       finishedGameWithHundredPercent: false,
       platinedGame: false,
       additionnalEstimatedTime: 10,
+      finishedSessionDate: '',
     }
     ],
   },
@@ -3581,6 +3824,7 @@ export const guillaumeGames: UserGames = [
       finishedGameWithHundredPercent: false,
       platinedGame: false,
       additionnalEstimatedTime: 15,
+      finishedSessionDate: '',
     }
     ],
   },
@@ -3600,6 +3844,7 @@ export const guillaumeGames: UserGames = [
       finishedGameWithHundredPercent: false,
       platinedGame: false,
       additionnalEstimatedTime: 15,
+      finishedSessionDate: '',
     }
     ],
   },
@@ -3619,6 +3864,7 @@ export const guillaumeGames: UserGames = [
       finishedGameWithHundredPercent: false,
       platinedGame: false,
       additionnalEstimatedTime: 8,
+      finishedSessionDate: '',
     }
     ],
   },
@@ -3638,6 +3884,7 @@ export const guillaumeGames: UserGames = [
       finishedGameWithHundredPercent: false,
       platinedGame: false,
       additionnalEstimatedTime: 5,
+      finishedSessionDate: '',
     }
     ],
   },
@@ -3657,6 +3904,7 @@ export const guillaumeGames: UserGames = [
       finishedGameWithHundredPercent: false,
       platinedGame: false,
       additionnalEstimatedTime: 3,
+      finishedSessionDate: '',
     }
     ],
   },
@@ -3676,6 +3924,7 @@ export const guillaumeGames: UserGames = [
       finishedGameWithHundredPercent: false,
       platinedGame: false,
       additionnalEstimatedTime: 5,
+      finishedSessionDate: '',
     }
     ],
   },
@@ -3695,6 +3944,7 @@ export const guillaumeGames: UserGames = [
       finishedGameWithHundredPercent: false,
       platinedGame: false,
       additionnalEstimatedTime: 25,
+      finishedSessionDate: '',
     }
     ],
   },
@@ -3714,6 +3964,7 @@ export const guillaumeGames: UserGames = [
       finishedGameWithHundredPercent: false,
       platinedGame: false,
       additionnalEstimatedTime: 20,
+      finishedSessionDate: '',
     }
     ],
   },
@@ -3733,6 +3984,7 @@ export const guillaumeGames: UserGames = [
       finishedGameWithHundredPercent: false,
       platinedGame: false,
       additionnalEstimatedTime: 5,
+      finishedSessionDate: '',
     }
     ],
   },
@@ -3752,6 +4004,7 @@ export const guillaumeGames: UserGames = [
       finishedGameWithHundredPercent: false,
       platinedGame: false,
       additionnalEstimatedTime: 8,
+      finishedSessionDate: '',
     }
     ],
   },
@@ -3771,6 +4024,7 @@ export const guillaumeGames: UserGames = [
       finishedGameWithHundredPercent: false,
       platinedGame: false,
       additionnalEstimatedTime: 300,
+      finishedSessionDate: '',
     }
     ],
   },
@@ -3790,6 +4044,7 @@ export const guillaumeGames: UserGames = [
       finishedGameWithHundredPercent: false,
       platinedGame: false,
       additionnalEstimatedTime: 12,
+      finishedSessionDate: '',
     }
     ],
   }

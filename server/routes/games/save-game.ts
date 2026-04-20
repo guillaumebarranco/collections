@@ -81,6 +81,8 @@ router.post('/', (req: any, res: any) => {
               platinedGame: normalizeBoolean(s.platinedGame, 'platinedGame') ?? false,
               additionnalEstimatedTime:
                 normalizeNumber(s.additionnalEstimatedTime, 'additionnalEstimatedTime') ?? 0,
+              finishedSessionDate:
+                normalizeString(s.finishedSessionDate, 'finishedSessionDate') ?? '',
               currentlyPlaying:
                 normalizeBoolean(s.currentlyPlaying, 'currentlyPlaying') ?? false,
             }))

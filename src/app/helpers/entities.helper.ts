@@ -157,6 +157,8 @@ export function normalizeUserGameSessions(
   const last = sessions.length - 1;
   return sessions.map((s, i) => ({
     ...s,
+    finishedSessionDate:
+      typeof s.finishedSessionDate === 'string' ? s.finishedSessionDate : '',
     currentlyPlaying: i === last && Boolean(s.currentlyPlaying),
   }));
 }

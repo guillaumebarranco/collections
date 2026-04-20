@@ -5,6 +5,7 @@ import { MAT_DIALOG_DATA, MatDialogRef } from '@angular/material/dialog';
 import { getApiBaseUrl } from '../../../core/config';
 import { DEFAULT_USER_ID } from '../../../utils/constants';
 import type { UserGameSession } from '../../../models/game-model';
+import { normalizeUserGameSessions } from '../../../helpers/entities.helper';
 
 type AddGameEntityForm = {
   title: string;
@@ -24,6 +25,7 @@ type SessionCompletionType = 'platined' | 'hundred' | 'finished' | 'none';
 type AddGameSessionForm = {
   completion: SessionCompletionType;
   additionnalEstimatedTime: number;
+  finishedSessionDate: string;
 };
 
 type AddGameUserForm = {
@@ -73,7 +75,9 @@ export class AddGameComponent {
 
   userForm = signal<AddGameUserForm>({
     rating: 0,
-    sessions: [{ completion: 'none', additionnalEstimatedTime: 0 }],
+    sessions: [
+      { completion: 'none', additionnalEstimatedTime: 0, finishedSessionDate: '' },
+    ],
     owned: false,
     borrowed: '',
     loaned: '',
@@ -127,7 +131,26 @@ export class AddGameComponent {
     const current = this.userForm();
     if (sessionIndex < 0 || sessionIndex >= current.sessions.length) return;
     const next = [...current.sessions];
-    next[sessionIndex] = { ...next[sessionIndex], completion };
+    const prevDate = (next[sessionIndex]?.finishedSessionDate ?? '').trim();
+    next[sessionIndex] = {
+      ...next[sessionIndex],
+      completion,
+      finishedSessionDate:
+        completion === 'none'
+          ? ''
+          : prevDate || new Date().toISOString().slice(0, 10),
+    };
+    this.userForm.set({ ...current, sessions: next });
+  }
+
+  updateSessionFinishedDate(sessionIndex: number, value: string) {
+    const current = this.userForm();
+    if (sessionIndex < 0 || sessionIndex >= current.sessions.length) return;
+    const next = [...current.sessions];
+    next[sessionIndex] = {
+      ...next[sessionIndex],
+      finishedSessionDate: typeof value === 'string' ? value : '',
+    };
     this.userForm.set({ ...current, sessions: next });
   }
 
@@ -149,7 +172,7 @@ export class AddGameComponent {
       ...current,
       sessions: [
         ...current.sessions,
-        { completion: 'none', additionnalEstimatedTime: 0 },
+        { completion: 'none', additionnalEstimatedTime: 0, finishedSessionDate: '' },
       ],
     });
   }
@@ -215,13 +238,17 @@ export class AddGameComponent {
     this.errorMessage.set('');
 
     try {
-      const sessions: UserGameSession[] = user.sessions.map((f) => ({
-        finishedGame: f.completion === 'finished',
-        finishedGameWithHundredPercent: f.completion === 'hundred',
-        platinedGame: f.completion === 'platined',
-        additionnalEstimatedTime:
-          f.completion === 'none' ? f.additionnalEstimatedTime ?? 0 : 0,
-      }));
+      const sessions: UserGameSession[] = normalizeUserGameSessions(
+        user.sessions.map((f) => ({
+          finishedGame: f.completion === 'finished',
+          finishedGameWithHundredPercent: f.completion === 'hundred',
+          platinedGame: f.completion === 'platined',
+          additionnalEstimatedTime:
+            f.completion === 'none' ? f.additionnalEstimatedTime ?? 0 : 0,
+          finishedSessionDate: this.resolveFinishedSessionDateForPayload(f),
+          currentlyPlaying: false,
+        }))
+      );
       const userPayload = {
         rating: user.rating,
         owned: user.owned,
@@ -255,5 +282,12 @@ export class AddGameComponent {
     } finally {
       this.isSaving.set(false);
     }
+  }
+
+  private resolveFinishedSessionDateForPayload(f: AddGameSessionForm): string {
+    const trimmed = (f.finishedSessionDate ?? '').trim();
+    if (trimmed) return trimmed;
+    if (f.completion === 'none') return '';
+    return new Date().toISOString().slice(0, 10);
   }
 }
