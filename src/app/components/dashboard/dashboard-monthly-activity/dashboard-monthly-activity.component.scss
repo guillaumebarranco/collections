@@ -1,0 +1,109 @@
+.monthly-activity {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  min-width: 0;
+}
+
+.monthly-activity__intro,
+.monthly-activity__note,
+.monthly-activity__range {
+  margin: 0;
+  color: #6c757d;
+  font-size: 0.95rem;
+  line-height: 1.45;
+}
+
+.monthly-activity__note {
+  padding: 10px 12px;
+  background: #fff8e6;
+  border: 1px solid #ffe0a3;
+  border-radius: 8px;
+  color: #5c4a00;
+}
+
+.monthly-activity__samples-title {
+  margin: 8px 0 10px;
+  font-size: 1.05rem;
+  font-weight: 600;
+  color: #2c3e50;
+}
+
+.monthly-activity__samples {
+  margin-top: 8px;
+}
+
+.monthly-activity__empty {
+  margin: 0;
+  color: #6c757d;
+  font-size: 0.9rem;
+}
+
+.monthly-activity__empty--tight {
+  margin-top: 8px;
+}
+
+.monthly-activity__sample-list {
+  margin: 0;
+  padding-left: 1.1rem;
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  font-size: 0.9rem;
+  color: #34495e;
+
+  &--tight {
+    margin-top: 12px;
+  }
+}
+
+.monthly-activity__sample-list .tag {
+  display: inline-block;
+  min-width: 4.5rem;
+  font-size: 0.75rem;
+  font-weight: 600;
+  color: #495057;
+  text-transform: uppercase;
+  letter-spacing: 0.02em;
+}
+
+.monthly-activity__months {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.monthly-activity__month {
+  border: 1px solid #e9ecef;
+  border-radius: 10px;
+  padding: 8px 12px 12px;
+  background: #fafbfc;
+}
+
+.monthly-activity__month-summary {
+  cursor: pointer;
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  gap: 8px;
+  padding: 6px 4px;
+  font-weight: 600;
+  color: #2c3e50;
+
+  &::-webkit-details-marker {
+    display: none;
+  }
+}
+
+.monthly-activity__month-label {
+  flex: 1 1 auto;
+  min-width: 0;
+}
+
+.monthly-activity__month-total {
+  font-size: 0.85rem;
+  font-weight: 500;
+  color: #6c757d;
+}

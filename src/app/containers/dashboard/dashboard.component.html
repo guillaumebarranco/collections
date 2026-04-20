@@ -106,6 +106,24 @@
     <app-dashboard-entity-charts></app-dashboard-entity-charts>
     }
 
+    <!-- Activité mensuelle (30 j. / 12 mois) -->
+    @if (selectedTab() === 'monthlyActivity') {
+    <div class="dashboard-section">
+      <h2>📅 Mon activité mensuelle</h2>
+      <app-dashboard-monthly-activity
+        [books]="allBooks()"
+        [mangas]="allMangas()"
+        [comics]="allComics()"
+        [bds]="allBds()"
+        [manwhas]="allManwhas()"
+        [movies]="allMovies()"
+        [series]="allSeries()"
+        [games]="allGames()"
+        [musics]="allMusics()"
+      ></app-dashboard-monthly-activity>
+    </div>
+    }
+
     <!-- Top 5 -->
     @if (selectedTab() === 'top5stats') {
     <div class="dashboard-section">

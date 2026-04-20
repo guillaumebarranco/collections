@@ -22,6 +22,7 @@ import { DashboardEntitiesStatsComponent } from '../../components/dashboard/dash
 import { DashboardEntityChartsComponent } from '../../components/dashboard/dashboard-entity-charts/dashboard-entity-charts.component';
 import { DashboardUserTodosComponent } from '../../components/dashboard/dashboard-user-todos/dashboard-user-todos.component';
 import { DashboardFeedComponent } from '../../components/dashboard/dashboard-feed/dashboard-feed.component';
+import { DashboardMonthlyActivityComponent } from '../../components/dashboard/dashboard-monthly-activity/dashboard-monthly-activity.component';
 import {
   DashboardRecordsComponent,
   type RecordsData,
@@ -159,6 +160,7 @@ type BadgeGroup = {
     DashboardEntityChartsComponent,
     DashboardUserTodosComponent,
     DashboardFeedComponent,
+    DashboardMonthlyActivityComponent,
     DashboardRecordsComponent,
     LoginComponent,
   ],
@@ -182,6 +184,7 @@ export class DashboardComponent implements OnInit {
     | 'overview'
     | 'entities'
     | 'charts'
+    | 'monthlyActivity'
     | 'top5stats'
     | 'top5personal'
     | 'badges'
@@ -200,6 +203,7 @@ export class DashboardComponent implements OnInit {
 
   tabOptions: ViewToggleOption[] = [
     { value: 'overview', label: "Vue d'ensemble" },
+    { value: 'monthlyActivity', label: 'Mon activité mensuelle' },
     { value: 'entities', label: 'Statistiques par entité' },
     { value: 'charts', label: 'Graphiques par entité' },
     { value: 'top5stats', label: 'Top 5 (statistiques)' },
@@ -442,7 +446,7 @@ export class DashboardComponent implements OnInit {
   });
 
   badgeEntityTabOptions = computed<ViewToggleOption[]>(() =>
-    this.groupedUserBadges().map((g) => ({ value: g.key, label: g.label })),
+    this.groupedUserBadges().map((g) => ({ value: g.key, label: g.label }))
   );
 
   groupedUserBadges = computed<BadgeGroup[]>(() => {
@@ -909,6 +913,7 @@ export class DashboardComponent implements OnInit {
       | 'overview'
       | 'entities'
       | 'charts'
+      | 'monthlyActivity'
       | 'top5stats'
       | 'top5personal'
       | 'badges'
