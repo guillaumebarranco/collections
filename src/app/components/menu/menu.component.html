@@ -1,176 +1,181 @@
 <div class="menu-shell">
-<nav class="menu">
-  <div class="menu-container">
-    <a class="menu-logo" [routerLink]="getRoute('dashboard')">
-      <span class="logo-text">Makya</span>
-      <img src="/logo.png" alt="Makya" class="logo-image" />
-    </a>
+  <nav class="menu">
+    <div class="menu-container">
+      <a class="menu-logo" [routerLink]="getRoute('dashboard')">
+        <span class="logo-text">Makya</span>
+        <img src="/logo.png" alt="Makya" class="logo-image" />
+      </a>
 
-    <div class="menu-items">
-      @for (item of primaryMenuItems; let i = $index; track item.key) {
-      @if (item.key === 'extras') {
-      <div class="menu-item menu-item-group menu-extras-group" [class.open]="isExtrasMenuOpen">
+      <div class="menu-items">
+        @for (item of primaryMenuItems; let i = $index; track item.key) {
         <button
-          class="menu-group-toggle"
-          type="button"
-          (click)="toggleExtrasMenu()"
-          [class.active]="isExtrasMenuActive()"
+          class="menu-item"
+          [class.active]="isActive(getRoute(item.key))"
+          [class.hide-on-mobile]="i > 3"
+          (click)="navigateTo(getRoute(item.key))"
         >
           <span class="menu-icon">{{ item.icon }}</span>
           <span class="menu-label">{{ item.label }}</span>
-          <span class="menu-caret">▾</span>
         </button>
-        <div class="menu-submenu" [class.open]="isExtrasMenuOpen">
-          @for (sub of extrasMenuItems; track sub.label) {
-          <button
-            class="menu-subitem"
-            (click)="navigateTo(getRoute(sub.key)); closeExtrasMenu()"
-          >
-            <span class="menu-icon">{{ sub.icon }}</span>
-            <span class="menu-label">{{ sub.label }}</span>
-          </button>
-          }
-        </div>
-      </div>
-      } @else {
-      <button
-        class="menu-item"
-        [class.active]="isActive(getRoute(item.key))"
-        [class.hide-on-mobile]="i > 3"
-        (click)="navigateTo(getRoute(item.key))"
-      >
-        <span class="menu-icon">{{ item.icon }}</span>
-        <span class="menu-label">{{ item.label }}</span>
-      </button>
-      }
-      } @if (isCompactMenu && visibleMenuItems.length > 4 && screenMenuItems.length > 0) {
-      <div class="menu-item menu-item-group menu-screen-group" [class.open]="isScreenMenuOpen">
-        <button
-          class="menu-group-toggle"
-          type="button"
-          (click)="toggleScreenMenu()"
-          [class.active]="isScreenMenuActive()"
-        >
-          <span class="menu-icon">🖥️</span>
-          <span class="menu-label">Écran</span>
-          <span class="menu-caret">▾</span>
-        </button>
-        <div class="menu-submenu" [class.open]="isScreenMenuOpen">
-          @for (item of screenMenuItems; track item.label) {
-          <button
-            class="menu-subitem"
-            (click)="navigateTo(getRoute(item.key)); closeScreenMenu()"
-          >
-            <span class="menu-icon">{{ item.icon }}</span>
-            <span class="menu-label">{{ item.label }}</span>
-          </button>
-          }
-        </div>
-      </div>
-      } @if (isCompactMenu && visibleMenuItems.length > 4) {
-      <div class="menu-item menu-item-group" [class.open]="isReadingMenuOpen">
-        <button
-          class="menu-group-toggle"
-          type="button"
-          (click)="toggleReadingMenu()"
-          [class.active]="isReadingMenuActive()"
-        >
-          <span class="menu-icon">📚</span>
-          <span class="menu-label">Lecture</span>
-          <span class="menu-caret">▾</span>
-        </button>
-        <div class="menu-submenu" [class.open]="isReadingMenuOpen">
-          @for (item of readingMenuItems; track item.label) {
-          <button
-            class="menu-subitem"
-            (click)="navigateTo(getRoute(item.key)); closeReadingMenu()"
-          >
-            <span class="menu-icon">{{ item.icon }}</span>
-            <span class="menu-label">{{ item.label }}</span>
-          </button>
-          }
-        </div>
-      </div>
-      }
-    </div>
-    <div class="menu-auth">
-      @if (authenticatedUser()) {
-      <div class="menu-user-group" [class.open]="isUserMenuOpen">
-        <button
-          class="menu-user makya-btn-small"
-          type="button"
-          (click)="toggleUserMenu()"
-        >
-          @if (profileBadgeAvatarUrl(); as avatarUrl) {
-          <img
-            [src]="avatarUrl"
-            alt=""
-            class="menu-user-avatar"
-            width="28"
-            height="28"
-          />
-          } @else {
-          <span class="menu-user-mobile" aria-hidden="true">👤</span>
-          }
-          <span class="menu-user-username">{{ authenticatedUser() }}</span>
-          <span class="menu-caret">▾</span>
-        </button>
+        } @if (isCompactMenu && visibleMenuItems.length > 4 &&
+        screenMenuItems.length > 0) {
         <div
-          class="menu-submenu menu-user-submenu"
-          [class.open]="isUserMenuOpen"
+          class="menu-item menu-item-group menu-screen-group"
+          [class.open]="isScreenMenuOpen"
         >
-          <div class="menu-subitem menu-subitem-disabled">
-            <span class="menu-label"
-              >Connecté en tant que {{ authenticatedUser() }}</span
-            >
-          </div>
-          <button class="menu-subitem" type="button" (click)="goToDashboard()">
-            <span class="menu-label">Aller sur mon dashboard</span>
-          </button>
           <button
-            class="menu-subitem"
+            class="menu-group-toggle"
             type="button"
-            (click)="openMenuConfigModal()"
+            (click)="toggleScreenMenu()"
+            [class.active]="isScreenMenuActive()"
           >
-            <span class="menu-label">Configuration de mon menu</span>
+            <span class="menu-icon">🖥️</span>
+            <span class="menu-label">Écran</span>
+            <span class="menu-caret">▾</span>
           </button>
-          @if (isAdmin()) {
-          <button class="menu-subitem" type="button" [routerLink]="'/admin'">
-            Aller sur la vue Admin
-          </button>
-          }
-          <button class="menu-subitem" type="button" (click)="logout()">
-            <span class="menu-label">Se déconnecter</span>
-          </button>
+          <div class="menu-submenu" [class.open]="isScreenMenuOpen">
+            @for (item of screenMenuItems; track item.label) {
+            <button
+              class="menu-subitem"
+              (click)="navigateTo(getRoute(item.key)); closeScreenMenu()"
+            >
+              <span class="menu-icon">{{ item.icon }}</span>
+              <span class="menu-label">{{ item.label }}</span>
+            </button>
+            }
+          </div>
         </div>
+        } @if (isCompactMenu && visibleMenuItems.length > 4) {
+        <div class="menu-item menu-item-group" [class.open]="isReadingMenuOpen">
+          <button
+            class="menu-group-toggle"
+            type="button"
+            (click)="toggleReadingMenu()"
+            [class.active]="isReadingMenuActive()"
+          >
+            <span class="menu-icon">📚</span>
+            <span class="menu-label">Lecture</span>
+            <span class="menu-caret">▾</span>
+          </button>
+          <div class="menu-submenu" [class.open]="isReadingMenuOpen">
+            @for (item of readingMenuItems; track item.label) {
+            <button
+              class="menu-subitem"
+              (click)="navigateTo(getRoute(item.key)); closeReadingMenu()"
+            >
+              <span class="menu-icon">{{ item.icon }}</span>
+              <span class="menu-label">{{ item.label }}</span>
+            </button>
+            }
+          </div>
+        </div>
+        } @if (hasExtrasMenu) {
+        <div
+          class="menu-item menu-item-group menu-extras-group"
+          [class.open]="isExtrasMenuOpen"
+        >
+          <button
+            class="menu-group-toggle"
+            type="button"
+            (click)="toggleExtrasMenu()"
+            [class.active]="isExtrasMenuActive()"
+          >
+            <span class="menu-icon">✨</span>
+            <span class="menu-label">Extras</span>
+            <span class="menu-caret">▾</span>
+          </button>
+          <div class="menu-submenu" [class.open]="isExtrasMenuOpen">
+            @for (sub of extrasMenuItems; track sub.label) {
+            <button
+              class="menu-subitem"
+              (click)="navigateTo(getRoute(sub.key)); closeExtrasMenu()"
+            >
+              <span class="menu-icon">{{ sub.icon }}</span>
+              <span class="menu-label">{{ sub.label }}</span>
+            </button>
+            }
+          </div>
+        </div>
+        }
       </div>
-      <span class="menu-user-mobile"></span>
-      } @else {
-      <button class="makya-btn-small" (click)="goToLogin()">
-        Se connecter
-      </button>
+      <div class="menu-auth">
+        @if (authenticatedUser()) {
+        <div class="menu-user-group" [class.open]="isUserMenuOpen">
+          <button
+            class="menu-user makya-btn-small"
+            type="button"
+            (click)="toggleUserMenu()"
+          >
+            @if (profileBadgeAvatarUrl(); as avatarUrl) {
+            <img
+              [src]="avatarUrl"
+              alt=""
+              class="menu-user-avatar"
+              width="28"
+              height="28"
+            />
+            } @else {
+            <span class="menu-user-mobile" aria-hidden="true">👤</span>
+            }
+            <span class="menu-user-username">{{ authenticatedUser() }}</span>
+            <span class="menu-caret">▾</span>
+          </button>
+          <div
+            class="menu-submenu menu-user-submenu"
+            [class.open]="isUserMenuOpen"
+          >
+            <div class="menu-subitem menu-subitem-disabled">
+              <span class="menu-label"
+                >Connecté en tant que {{ authenticatedUser() }}</span
+              >
+            </div>
+            <button
+              class="menu-subitem"
+              type="button"
+              (click)="goToDashboard()"
+            >
+              <span class="menu-label">Aller sur mon dashboard</span>
+            </button>
+            <button
+              class="menu-subitem"
+              type="button"
+              (click)="openMenuConfigModal()"
+            >
+              <span class="menu-label">Configuration de mon menu</span>
+            </button>
+            @if (isAdmin()) {
+            <button class="menu-subitem" type="button" [routerLink]="'/admin'">
+              Aller sur la vue Admin
+            </button>
+            }
+            <button class="menu-subitem" type="button" (click)="logout()">
+              <span class="menu-label">Se déconnecter</span>
+            </button>
+          </div>
+        </div>
+        <span class="menu-user-mobile"></span>
+        } @else {
+        <button class="makya-btn-small" (click)="goToLogin()">
+          Se connecter
+        </button>
 
-      }
+        }
+      </div>
     </div>
+  </nav>
+  @if (impersonateService.impersonatedUserId()) {
+  <div class="impersonation-banner" role="status" aria-live="polite">
+    <p class="impersonation-banner__text">
+      Connecté en tant que <strong>{{ currentUser() }}</strong> — vous consultez
+      son tableau de bord et ses collections, pas les vôtres.
+    </p>
+    <button
+      type="button"
+      class="impersonation-banner__action"
+      (click)="goToDashboard()"
+    >
+      Revenir à mon espace
+    </button>
   </div>
-</nav>
-@if (impersonateService.impersonatedUserId()) {
-<div
-  class="impersonation-banner"
-  role="status"
-  aria-live="polite"
->
-  <p class="impersonation-banner__text">
-    Connecté en tant que <strong>{{ currentUser() }}</strong> — vous consultez
-    son tableau de bord et ses collections, pas les vôtres.
-  </p>
-  <button
-    type="button"
-    class="impersonation-banner__action"
-    (click)="goToDashboard()"
-  >
-    Revenir à mon espace
-  </button>
-</div>
-}
+  }
 </div>

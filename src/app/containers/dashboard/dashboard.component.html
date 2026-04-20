@@ -323,18 +323,14 @@
         </button>
       </div>
       }
-      <div class="tabs">
-        @for (group of groupedUserBadges(); track group.key) {
-        <button
-          type="button"
-          class="tab-button"
-          [class.active]="selectedBadgeEntity() === group.key"
-          (click)="selectBadgeEntity(group.key)"
-        >
-          {{ group.label }}
-        </button>
-        }
-      </div>
+      @if (badgeEntityTabOptions().length > 0) {
+      <app-view-toggle
+        toggleClass="badges-entity-tabs"
+        [options]="badgeEntityTabOptions()"
+        [selected]="selectedBadgeEntity()"
+        (selectedChange)="selectBadgeEntity($event)"
+      ></app-view-toggle>
+      }
       @if (activeBadgeGroup(); as activeGroup) {
       <section class="badges-group">
         <h3 class="badges-group__title">{{ activeGroup.label }}</h3>

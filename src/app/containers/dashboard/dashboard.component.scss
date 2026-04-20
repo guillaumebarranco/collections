@@ -183,39 +183,6 @@
   margin-bottom: 16px;
 }
 
-.tabs {
-  display: flex;
-  gap: 10px;
-  margin-bottom: 16px;
-  border-bottom: 2px solid #e9ecef;
-  flex-wrap: wrap;
-}
-
-.tab-button {
-  padding: 12px 20px;
-  border: none;
-  background: transparent;
-  color: #6c757d;
-  font-size: 1rem;
-  font-weight: 500;
-  cursor: pointer;
-  border-bottom: 3px solid transparent;
-  transition: all 0.2s ease;
-  position: relative;
-  top: 2px;
-
-  &:hover {
-    color: #007bff;
-    background: #f8f9fa;
-  }
-
-  &.active {
-    color: #007bff;
-    border-bottom-color: #007bff;
-    font-weight: 600;
-  }
-}
-
 .badges-group {
   background: #f8f9fa;
   border: 1px solid #e9ecef;
@@ -406,16 +373,6 @@
   .badges-group__title {
     font-size: 0.85rem;
     margin-bottom: 6px;
-  }
-
-  .tabs {
-    gap: 6px;
-    margin-bottom: 10px;
-  }
-
-  .tab-button {
-    padding: 8px 10px;
-    font-size: 0.78rem;
   }
 
   .badge-card {

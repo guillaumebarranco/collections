@@ -1,18 +1,12 @@
 <div class="entities-stats-container">
   <h2>📊 Statistiques par entité</h2>
 
-  <!-- Tabs -->
-  <div class="tabs">
-    @for (entity of entities; track entity) {
-    <button
-      class="tab-button"
-      [class.active]="selectedEntity() === entity"
-      (click)="selectEntity(entity)"
-    >
-      {{ getEntityLabel(entity) }}
-    </button>
-    }
-  </div>
+  <app-view-toggle
+    toggleClass="entities-stats-entity-tabs"
+    [options]="entityTabOptions()"
+    [selected]="selectedEntity()"
+    (selectedChange)="selectEntity($event)"
+  ></app-view-toggle>
 
   <!-- Stats Content -->
   <div class="stats-content">

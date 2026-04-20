@@ -15,39 +15,6 @@
     padding-bottom: 10px;
   }
 
-  .tabs {
-    display: flex;
-    gap: 10px;
-    margin-bottom: 30px;
-    border-bottom: 2px solid #e9ecef;
-    flex-wrap: wrap;
-  }
-
-  .tab-button {
-    padding: 12px 20px;
-    border: none;
-    background: transparent;
-    color: #6c757d;
-    font-size: 1rem;
-    font-weight: 500;
-    cursor: pointer;
-    border-bottom: 3px solid transparent;
-    transition: all 0.2s ease;
-    position: relative;
-    top: 2px;
-
-    &:hover {
-      color: #007bff;
-      background: #f8f9fa;
-    }
-
-    &.active {
-      color: #007bff;
-      border-bottom-color: #007bff;
-      font-weight: 600;
-    }
-  }
-
   .stats-content {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(min(100%, 300px), 1fr));
@@ -132,16 +99,6 @@
 
     h2 {
       font-size: 1.3rem;
-    }
-
-    .tabs {
-      gap: 8px;
-      margin-bottom: 20px;
-    }
-
-    .tab-button {
-      padding: 10px 15px;
-      font-size: 0.9rem;
     }
 
     .stats-content {

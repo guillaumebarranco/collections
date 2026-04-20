@@ -11,6 +11,10 @@ import {
 import { CommonModule } from '@angular/common';
 import { ActivatedRoute, Params } from '@angular/router';
 import {
+  ViewToggleComponent,
+  type ViewToggleOption,
+} from '../../shared/view-toggle/view-toggle.component';
+import {
   renderBooksReadChart,
   renderMoviesCinemaChart,
   renderMoviesWatchedChart,
@@ -40,7 +44,7 @@ const ENTITIES_WITH_CHARTS: EntityType[] = ['movies', 'books', 'series'];
 @Component({
   selector: 'app-dashboard-entity-charts',
   standalone: true,
-  imports: [CommonModule],
+  imports: [CommonModule, ViewToggleComponent],
   templateUrl: './dashboard-entity-charts.component.html',
   styleUrls: ['./dashboard-entity-charts.component.scss'],
 })
@@ -59,6 +63,10 @@ export class DashboardEntityChartsComponent implements OnInit, AfterViewInit {
     'mangas',
     'manwhas',
   ];
+
+  entityTabOptions = computed<ViewToggleOption[]>(() =>
+    this.entities.map((e) => ({ value: e, label: this.getEntityLabel(e) })),
+  );
 
   moviesList = signal<{ [key: string]: Movie[] }>({});
   booksList = signal<{ [key: string]: Book[] }>({});
@@ -241,8 +249,8 @@ export class DashboardEntityChartsComponent implements OnInit, AfterViewInit {
     return labels[entity];
   }
 
-  selectEntity(entity: EntityType): void {
-    this.selectedEntity.set(entity);
+  selectEntity(entity: EntityType | string): void {
+    this.selectedEntity.set(entity as EntityType);
     if (entity === 'movies') {
       requestAnimationFrame(() => {
         this.renderMoviesWatchedChart();

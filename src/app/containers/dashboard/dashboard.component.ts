@@ -441,6 +441,10 @@ export class DashboardComponent implements OnInit {
     );
   });
 
+  badgeEntityTabOptions = computed<ViewToggleOption[]>(() =>
+    this.groupedUserBadges().map((g) => ({ value: g.key, label: g.label })),
+  );
+
   groupedUserBadges = computed<BadgeGroup[]>(() => {
     const groups: Record<BadgeDashboardTabKey, BadgeDisplay[]> = {
       books: [],
@@ -480,8 +484,8 @@ export class DashboardComponent implements OnInit {
     );
   });
 
-  selectBadgeEntity(entity: BadgeDashboardTabKey): void {
-    this.selectedBadgeEntity.set(entity);
+  selectBadgeEntity(entity: BadgeDashboardTabKey | string): void {
+    this.selectedBadgeEntity.set(entity as BadgeDashboardTabKey);
   }
 
   private getWatchedSagaCount(sagaName: string): number {

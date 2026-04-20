@@ -1,5 +1,9 @@
 import { Component, computed, inject, signal, OnInit } from '@angular/core';
 import { CommonModule } from '@angular/common';
+import {
+  ViewToggleComponent,
+  type ViewToggleOption,
+} from '../../shared/view-toggle/view-toggle.component';
 import { ActivatedRoute, Params } from '@angular/router';
 import { Movie } from '../../../models/movie-model';
 import { normalizeSerieGenres, Serie } from '../../../models/serie-model';
@@ -51,7 +55,7 @@ interface EntityStats {
 @Component({
   selector: 'app-dashboard-entities-stats',
   standalone: true,
-  imports: [CommonModule],
+  imports: [CommonModule, ViewToggleComponent],
   templateUrl: './dashboard-entities-stats.component.html',
   styleUrls: ['./dashboard-entities-stats.component.scss'],
 })
@@ -70,6 +74,10 @@ export class DashboardEntitiesStatsComponent implements OnInit {
     'mangas',
     'manwhas',
   ];
+
+  entityTabOptions = computed<ViewToggleOption[]>(() =>
+    this.entities.map((e) => ({ value: e, label: this.getEntityLabel(e) })),
+  );
 
   moviesList = signal<{ [key: string]: Movie[] }>({});
   seriesList = signal<{ [key: string]: Serie[] }>({});
@@ -488,8 +496,8 @@ export class DashboardEntitiesStatsComponent implements OnInit {
       .map(([name, count]) => ({ name, count }));
   }
 
-  selectEntity(entity: EntityType): void {
-    this.selectedEntity.set(entity);
+  selectEntity(entity: EntityType | string): void {
+    this.selectedEntity.set(entity as EntityType);
   }
 
   getEntityLabel(entity: EntityType): string {

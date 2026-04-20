@@ -209,27 +209,14 @@ export class MenuComponent implements OnInit {
     );
   }
 
+  /** Entrées affichées dans la barre (sans le groupe Extras : rendu à part après Écran / Lecture). */
   get primaryMenuItems() {
     const visible = this.visibleMenuItems;
-    const extras = this.extrasMenuItems;
     const withoutExtras = visible.filter(
       (item) => (item as { group?: string }).group !== 'extras'
     );
-    const withExtrasEntry =
-      extras.length > 0
-        ? [
-            ...withoutExtras,
-            {
-              label: 'Extras',
-              icon: '✨',
-              key: 'extras',
-              hideOnMobile: false,
-              isGroup: true,
-            },
-          ]
-        : withoutExtras;
-    if (!this.isCompactMenu) return withExtrasEntry;
-    if (this.isCompactMenu && withExtrasEntry.length < 5) return withExtrasEntry;
+    if (!this.isCompactMenu) return withoutExtras;
+    if (this.isCompactMenu && withoutExtras.length < 5) return withoutExtras;
     const readingKeys = new Set([
       'books',
       'mangas',
@@ -238,9 +225,14 @@ export class MenuComponent implements OnInit {
       'comics',
     ]);
     const screenKeys = new Set(['movies', 'series', 'games']);
-    return withExtrasEntry.filter(
+    return withoutExtras.filter(
       (item) => !readingKeys.has(item.key) && !screenKeys.has(item.key)
     );
+  }
+
+  /** Afficher le bouton / sous-menu Extras (toujours après Écran et Lecture en compact). */
+  get hasExtrasMenu(): boolean {
+    return this.extrasMenuItems.length > 0;
   }
 
   isActive(route: string): boolean {

@@ -25,11 +25,12 @@
 
   .movies-filters-item {
     display: flex;
+    flex-wrap: wrap;
     gap: 10px;
     color: #34495e;
     font-size: 1rem;
     font-weight: 500;
-    white-space: nowrap;
+    min-width: 0;
   }
 }
 

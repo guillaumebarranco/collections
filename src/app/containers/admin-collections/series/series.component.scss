@@ -122,7 +122,7 @@
   border-radius: 14px;
 
   .series {
-    grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
+    grid-template-columns: repeat(auto-fill, minmax(min(100%, 180px), 1fr));
     gap: 16px;
   }
 
@@ -222,7 +222,7 @@
 
 
   .series {
-    grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+    grid-template-columns: repeat(auto-fill, minmax(min(100%, 150px), 1fr));
     gap: 20px;
   }
 }
