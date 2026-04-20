@@ -6,8 +6,6 @@
   max-width: 1200px;
   margin: 0 auto;
   padding: 20px;
-  min-width: 0;
-  box-sizing: border-box;
 
   &.container-saga-mode {
     max-width: 1400px;
@@ -15,6 +13,11 @@
 
   h1 {
     @include header-title-base;
+  }
+
+  @media (max-width: 768px) {
+    min-width: 0;
+    box-sizing: border-box;
   }
 }
 
@@ -28,7 +31,6 @@
 
 @mixin header-base {
   display: flex;
-  flex-wrap: wrap;
   justify-content: space-between;
   align-items: center;
   gap: 16px;
