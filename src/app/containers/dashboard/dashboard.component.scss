@@ -2,19 +2,30 @@
 
 .dashboard-container {
   @include containers.container-base;
+  min-width: 0;
+  box-sizing: border-box;
 }
 
 .dashboard-header {
   display: flex;
-  align-items: center;
+  align-items: flex-start;
   justify-content: space-between;
   gap: 16px;
+  flex-wrap: wrap;
+
+  h1 {
+    min-width: 0;
+    margin: 0;
+  }
 }
 
 .dashboard-header-actions {
   display: flex;
   align-items: center;
+  flex-wrap: wrap;
   gap: 10px;
+  justify-content: flex-end;
+  flex: 1 1 auto;
 }
 
 .dashboard-character {
@@ -43,6 +54,8 @@
   border-radius: 15px;
   padding: 25px;
   box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+  min-width: 0;
+  box-sizing: border-box;
 }
 
 .dashboard-section h2 {
@@ -62,10 +75,10 @@
   font-size: 0.95rem;
 }
 
-// Styles pour la section Top 5
+// Styles pour la section Top 5 (min() évite le scroll horizontal sur petits écrans)
 .top5-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(500px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(min(100%, 500px), 1fr));
   gap: 25px;
   margin-top: 20px;
 }
@@ -218,7 +231,7 @@
 
 .badges-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
+  grid-template-columns: repeat(auto-fill, minmax(min(100%, 180px), 1fr));
   gap: 12px;
 }
 
@@ -320,10 +333,21 @@
 @include containers.responsive-base {
   .dashboard-container {
     padding: 15px;
+    min-width: 0;
 
     h1 {
       font-size: 2rem;
     }
+  }
+
+  .dashboard-header {
+    flex-direction: column;
+    align-items: stretch;
+  }
+
+  .dashboard-header-actions {
+    justify-content: flex-start;
+    width: 100%;
   }
 
   .dashboard-sections {
@@ -339,8 +363,7 @@
   }
 
   .top5-grid {
-    grid-template-columns: 1fr;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(min(100%, 280px), 1fr));
     gap: 20px;
   }
 
@@ -363,13 +386,84 @@
       font-size: 0.8rem;
     }
   }
+
+  .dashboard-unlogged-user button {
+    width: 100%;
+    max-width: 100%;
+    box-sizing: border-box;
+  }
+
+  // Vue Badges : cartes beaucoup plus compactes sur mobile uniquement
+  .badges-grid {
+    grid-template-columns: repeat(auto-fill, minmax(min(100%, 88px), 1fr));
+    gap: 6px;
+  }
+
+  .badges-group {
+    padding: 8px;
+  }
+
+  .badges-group__title {
+    font-size: 0.85rem;
+    margin-bottom: 6px;
+  }
+
+  .tabs {
+    gap: 6px;
+    margin-bottom: 10px;
+  }
+
+  .tab-button {
+    padding: 8px 10px;
+    font-size: 0.78rem;
+  }
+
+  .badge-card {
+    padding: 6px 4px;
+    border-radius: 8px;
+
+    .badge-card-image {
+      width: 36px;
+      height: 36px;
+      margin-bottom: 3px;
+    }
+
+    .badge-card__name {
+      font-size: 0.65rem;
+      margin: 0 0 2px 0;
+      line-height: 1.15;
+    }
+
+    .badge-card__description {
+      font-size: 0.58rem;
+      margin: 0 0 3px 0;
+      line-height: 1.2;
+    }
+
+    .badge-card__status {
+      font-size: 0.5rem;
+      letter-spacing: 0.02em;
+    }
+
+    .badge-card__progress {
+      max-width: 100%;
+      height: 4px;
+      margin-top: 3px;
+    }
+  }
 }
 
 .stats-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(min(100%, 300px), 1fr));
   gap: 25px;
   margin-top: 20px;
+}
+
+.dashboard-quick-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
 }
 
 .stats-category {
