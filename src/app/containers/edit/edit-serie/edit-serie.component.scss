@@ -86,3 +86,46 @@
   font-size: 0.85rem;
   color: #666;
 }
+
+.season-admin-toolbar {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+  margin-bottom: 4px;
+}
+
+.season-admin-label {
+  margin: 0;
+  font-weight: 600;
+}
+
+.season-empty-hint {
+  margin: 8px 0 0;
+  font-size: 0.9rem;
+  color: #666;
+}
+
+.season-form-card-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 8px;
+}
+
+.season-remove-btn {
+  flex-shrink: 0;
+  font-size: 0.75rem;
+  padding: 4px 8px;
+  border-radius: 6px;
+  border: 1px solid #cfcfcf;
+  background: #fff;
+  cursor: pointer;
+  color: #555;
+
+  &:hover {
+    border-color: #999;
+    color: #222;
+  }
+}

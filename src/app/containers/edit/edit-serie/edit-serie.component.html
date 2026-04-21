@@ -357,14 +357,37 @@
       />
     </div>
 
-    @if (serieEntityForm()?.seasonsData?.length) {
     <div class="form-row">
-      <label>Données des saisons</label>
+      <div class="season-admin-toolbar">
+        <label class="season-admin-label">Données des saisons</label>
+        <button type="button" class="makya-btn" (click)="addEntitySeason()">
+          Ajouter une saison
+        </button>
+      </div>
+      @if (!serieEntityForm()?.seasonsData?.length) {
+      <p class="season-empty-hint">
+        Aucune saison en base pour cette série. Ajoutez-en une pour renseigner
+        épisodes et durée.
+      </p>
+      }
       <div class="season-form-grid">
-        @for (season of serieEntityForm()?.seasonsData; track
-        season.seasonNumber) {
+        @for (
+          season of serieEntityForm()?.seasonsData;
+          track season.seasonNumber;
+          let i = $index
+        ) {
         <div class="season-form-card">
-          <div class="season-form-title">Saison {{ season.seasonNumber }}</div>
+          <div class="season-form-card-header">
+            <div class="season-form-title">Saison {{ season.seasonNumber }}</div>
+            <button
+              type="button"
+              class="season-remove-btn"
+              (click)="removeEntitySeason(i)"
+              aria-label="Supprimer cette saison"
+            >
+              Supprimer
+            </button>
+          </div>
           <label>
             Épisodes
             <input
@@ -397,7 +420,7 @@
         }
       </div>
     </div>
-    } }
+    }
 
     <div class="form-actions">
       <button type="submit" class="makya-btn" [disabled]="isSaving()">

@@ -669,6 +669,41 @@ export class EditSerieComponent {
     });
   }
 
+  addEntitySeason(): void {
+    const current = this.serieEntityForm();
+    if (!current) return;
+    const nums = current.seasonsData.map((s) => s.seasonNumber);
+    /** Première saison = 1 ; sinon max + 1 (données héritées avec trous possibles). */
+    const resolvedNext =
+      nums.length === 0 ? 1 : Math.max(...nums) + 1;
+    this.serieEntityForm.set({
+      ...current,
+      seasonsData: [
+        ...current.seasonsData,
+        {
+          seasonNumber: resolvedNext,
+          nbEpisodes: 0,
+          totalLength: 0,
+        },
+      ],
+    });
+  }
+
+  removeEntitySeason(index: number): void {
+    const current = this.serieEntityForm();
+    if (!current) return;
+    const nextSeasons = current.seasonsData
+      .filter((_, i) => i !== index)
+      .map((season, i) => ({
+        ...season,
+        seasonNumber: i + 1,
+      }));
+    this.serieEntityForm.set({
+      ...current,
+      seasonsData: nextSeasons,
+    });
+  }
+
   updateSeasonDataField(
     seasonNumber: number,
     field: 'nbEpisodes' | 'totalLength',
