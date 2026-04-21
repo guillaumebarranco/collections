@@ -94,7 +94,17 @@
       </p>
       <app-dashboard-feed [feedData]="feedData()"></app-dashboard-feed>
     </div>
-    } }
+    }
+
+    <button
+      class="makya-btn-small"
+      style="width: fit-content"
+      (click)="resetPwa()"
+    >
+      Reset PWA
+    </button>
+
+    }
 
     <!-- Statistiques par entité -->
     @if (selectedTab() === 'entities') {
@@ -340,16 +350,14 @@
           Modifier mon badge de profil
         </button>
       </div>
-      }
-      @if (badgeEntityTabOptions().length > 0) {
+      } @if (badgeEntityTabOptions().length > 0) {
       <app-view-toggle
         toggleClass="badges-entity-tabs"
         [options]="badgeEntityTabOptions()"
         [selected]="selectedBadgeEntity()"
         (selectedChange)="selectBadgeEntity($event)"
       ></app-view-toggle>
-      }
-      @if (activeBadgeGroup(); as activeGroup) {
+      } @if (activeBadgeGroup(); as activeGroup) {
       <section class="badges-group">
         <h3 class="badges-group__title">{{ activeGroup.label }}</h3>
         <div class="badges-grid">

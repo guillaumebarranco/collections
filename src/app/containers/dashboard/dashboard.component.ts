@@ -1133,4 +1133,9 @@ export class DashboardComponent implements OnInit {
   goToGamesPage(): void {
     this.router.navigate([`/${this.userId()}/games`]);
   }
+
+  resetPwa(): void {
+    localStorage.removeItem('pwa-install-dismissed');
+    window.location.reload();
+  }
 }
