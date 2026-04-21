@@ -61,12 +61,15 @@
       <div class="feed-category">
         <h4>Séries vues récemment</h4>
         <ul class="feed-items">
-          @for (s of entry.series; track s.title + s.date) {
+          @for (s of entry.series; track s.title + s.date + (s.seasonNumber ?? '')) {
           <li>
             <span class="feed-item-title">{{ s.title }}</span>
             <span class="feed-item-meta">{{
               s.date | date : "dd/MM/yyyy"
             }}</span>
+            @if (s.seasonNumber != null) {
+            <span class="feed-item-season">Saison {{ s.seasonNumber }}</span>
+            }
             @if (s.rating != null && s.rating > 0) {
             <span class="feed-item-rating">
               <span class="stars">

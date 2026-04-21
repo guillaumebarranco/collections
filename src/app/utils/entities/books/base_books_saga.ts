@@ -1293,7 +1293,7 @@ export const baseBooksSaga: BaseBook[] = [
   {
     title: "Un palais de flammes d'argent",
     author: 'Sarah J. Maas',
-    coverUrl: '/books_pictures/81v8CPAPJTL.jpg',
+    coverUrl: '/books_pictures/plasazfefse.png',
     pages: 768,
     genre: ['Fantasy'],
     saga: "Un palais d'épines et de roses",

@@ -25,7 +25,7 @@ import type {
   FeedUserEntry,
 } from '../../../src/app/models/feed-model';
 import type { UserMovie } from '../../../src/app/models/movie-model';
-import type { UserSerieFileRow } from '../../../src/app/models/serie-model';
+import type { UserSerieFileRow, UserSerieSeason } from '../../../src/app/models/serie-model';
 
 const router = express.Router();
 
@@ -39,8 +39,35 @@ function getOneMonthAgoDateString(): string {
 }
 
 function isDateWithinLastMonth(dateStr: string, oneMonthAgo: string): boolean {
-  if (!dateStr || typeof dateStr !== 'string' || dateStr.length < 10) return false;
-  return dateStr >= oneMonthAgo;
+  const day = feedDateDayKey(dateStr);
+  if (!day || day.length < 10) return false;
+  return day >= oneMonthAgo;
+}
+
+/** Jour calendaire YYYY-MM-DD pour comparer des `lastViewedDate` hétérogènes (ISO, date seule, etc.). */
+function feedDateDayKey(dateStr: string): string {
+  const t = (dateStr || '').trim();
+  if (!t) return '';
+  if (/^\d{4}-\d{2}-\d{2}/.test(t)) {
+    return t.slice(0, 10);
+  }
+  const ms = Date.parse(t);
+  if (!Number.isNaN(ms)) {
+    return new Date(ms).toISOString().slice(0, 10);
+  }
+  return t;
+}
+
+function maxFeedSeasonDayKey(seasons: UserSerieSeason[]): string {
+  let best = '';
+  for (const se of seasons || []) {
+    const k = feedDateDayKey(se.lastViewedDate);
+    if (!k) continue;
+    if (!best || k > best) {
+      best = k;
+    }
+  }
+  return best;
 }
 
 function loadUserMovies(userId: string): UserMovie[] {
@@ -77,6 +104,58 @@ function loadUserSeries(userId: string): UserSerieFileRow[] {
   } catch {
     return [];
   }
+}
+
+/**
+ * Dernière saison vue pour le jour `_maxViewedDate` (clé YYYY-MM-DD), départage par numéro de saison.
+ */
+function pickFeedSerieSeasonForMaxDate(
+  row: UserSerieFileRow & { _maxViewedDate: string }
+): UserSerieSeason | undefined {
+  const maxDay = row._maxViewedDate;
+  const seasons: UserSerieSeason[] = row.seasons || [];
+  if (!maxDay) return undefined;
+  const matching = seasons.filter((se) => feedDateDayKey(se.lastViewedDate) === maxDay);
+  let pick: UserSerieSeason | undefined;
+  for (const se of matching) {
+    if (!pick || se.seasonNumber > pick.seasonNumber) {
+      pick = se;
+    }
+  }
+  return pick;
+}
+
+/**
+ * Note : `seasonRating` de la saison ci-dessus, sinon note globale legacy `rating`.
+ */
+function resolveFeedSerieDisplay(row: UserSerieFileRow & { _maxViewedDate: string }): {
+  rating?: number;
+  seasonNumber?: number;
+} {
+  const pick = pickFeedSerieSeasonForMaxDate(row);
+  let rating: number | undefined;
+  if (pick) {
+    const sr = pick.seasonRating;
+    if (sr != null && sr > 0) {
+      rating = sr;
+    }
+  }
+  if (rating === undefined) {
+    const legacy = row.rating;
+    if (legacy != null && legacy > 0) {
+      rating = legacy;
+    }
+  }
+  const rawSn = pick?.seasonNumber;
+  const seasonNumber =
+    rawSn != null && !Number.isNaN(Number(rawSn)) && Number(rawSn) >= 1
+      ? Number(rawSn)
+      : undefined;
+
+  return {
+    rating,
+    seasonNumber,
+  };
 }
 
 router.get('/:userId/feed', (req: any, res: any) => {
@@ -119,11 +198,8 @@ router.get('/:userId/feed', (req: any, res: any) => {
 
       const allSeries = loadUserSeries(followedUserId);
       const seriesWithMaxDate = allSeries.map((s) => {
-        const dates = (s.seasons || [])
-          .map((se) => se.lastViewedDate)
-          .filter(Boolean);
-        const maxDate = dates.length ? dates.sort().reverse()[0] : '';
-        return { ...s, _maxViewedDate: maxDate };
+        const maxDayKey = maxFeedSeasonDayKey(s.seasons || []);
+        return { ...s, _maxViewedDate: maxDayKey };
       });
       type SerieWithFeedMeta = UserSerieFileRow & {
         _maxViewedDate: string;
@@ -134,11 +210,13 @@ router.get('/:userId/feed', (req: any, res: any) => {
         .slice(0, FEED_MAX_ITEMS)
         .map((s) => {
           const row = s as SerieWithFeedMeta;
+          const { rating, seasonNumber } = resolveFeedSerieDisplay(row);
           return {
             title: row.title,
             director: row.director,
             date: row._maxViewedDate,
-            rating: row.rating,
+            rating,
+            seasonNumber,
           };
         });
 

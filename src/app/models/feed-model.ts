@@ -17,6 +17,8 @@ export interface FeedItemSerie {
   director: string;
   date: string;
   rating?: number;
+  /** Saison associée à la dernière date de visionnage affichée. */
+  seasonNumber?: number;
 }
 
 export interface FeedUserEntry {
