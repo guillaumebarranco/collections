@@ -6,7 +6,7 @@ export const baseBooksLucileReadlistImport: BaseBook[] = [
     title: 'First-Time Caller (Heartstrings, #1)',
     author: 'B. K. Borison',
     coverUrl:
-      'https://cdn1.booknode.com/book_cover/5700/full/heartstrings-tome-1-first-time-caller-5699907.jpg',
+      '/books_pictures/92fbb1935854.jpg',
     genre: ['Romance'],
     saga: '',
     sagaOrder: 0,
@@ -48,7 +48,7 @@ export const baseBooksLucileReadlistImport: BaseBook[] = [
     title: "A Witch's Guide to fake dating a demon",
     author: 'Sarah Hawley',
     coverUrl:
-      'https://media.hachette.fr/fit-in/500x500/imgArticle/RAGEOT/2025/9782700283877-001-X.jpeg?source=web&v=0e91d0ea57ad29ca93ec0a2f295db108',
+      '/books_pictures/c3043af6e0a4.jpeg',
     genre: ['Romance'],
     saga: '',
     sagaOrder: 0,
@@ -102,7 +102,7 @@ export const baseBooksLucileReadlistImport: BaseBook[] = [
     title: "L'ascension d'une légende (Atalante, #2)",
     author: 'Dana Roccia',
     coverUrl:
-      'https://cdn1.booknode.com/book_cover/5595/full/atalante-tome-2-lascension-dune-legende-5594886.jpg',
+      '/books_pictures/6949b7f3a476.jpg',
     genre: ['Fantasy'],
     saga: '',
     sagaOrder: 0,
@@ -143,7 +143,7 @@ export const baseBooksLucileReadlistImport: BaseBook[] = [
     title: 'The American Roommate Experiment (Spanish Love Deception, #2)',
     author: 'Elena Armas',
     coverUrl:
-      'https://cdn1.booknode.com/book_cover/5364/full/love-deception-tome-2-the-american-roommate-experiment-5364007.jpg',
+      '/books_pictures/508f4793486f.jpg',
     genre: ['Romance'],
     saga: '',
     sagaOrder: 0,
@@ -171,7 +171,7 @@ export const baseBooksLucileReadlistImport: BaseBook[] = [
     title: 'Les Azalées fleurissent en hiver',
     author: 'Dahlia Blake',
     coverUrl:
-      'https://cdn1.booknode.com/book_cover/5058/les_azalees_fleurissent_en_hiver-5057935-264-432.webp',
+      '/books_pictures/65d18b8d2d06.webp',
     genre: ['Romance'],
     saga: '',
     sagaOrder: 0,
@@ -199,7 +199,7 @@ export const baseBooksLucileReadlistImport: BaseBook[] = [
     title: "La légion d'Oria (Affronter la nuit, #1)",
     author: 'Angèle Guissicca',
     coverUrl:
-      'https://cdn1.booknode.com/book_cover/5619/full/affronter-la-nuit-tome-1-la-legion-doria-5618662.jpg',
+      '/books_pictures/ee10814d21e9.jpg',
     genre: ['Fantasy'],
     saga: '',
     sagaOrder: 0,
@@ -227,7 +227,7 @@ export const baseBooksLucileReadlistImport: BaseBook[] = [
     title: 'Heartless Hunter (The Crimson Moth, #1)',
     author: 'Kristen Ciccarelli',
     coverUrl:
-      'https://cdn1.booknode.com/book_cover/5509/the_crimson_moth_tome_1_heartless_hunter-5508505-264-432.webp',
+      '/books_pictures/955e37b5a232.webp',
     genre: ['Fantasy'],
     saga: '',
     sagaOrder: 0,
@@ -268,7 +268,7 @@ export const baseBooksLucileReadlistImport: BaseBook[] = [
     title: 'Les Derniers Retrouveurs (Agence Perdido, #1)',
     author: 'Victor Dixen',
     coverUrl:
-      'https://cdn1.booknode.com/book_cover/5444/full/agence-perdido-tome-1-les-derniers-retrouveurs-5443665.jpg',
+      '/books_pictures/1381acc238b2.jpg',
     genre: ['Fantasy'],
     saga: '',
     sagaOrder: 0,
@@ -295,7 +295,7 @@ export const baseBooksLucileReadlistImport: BaseBook[] = [
     title: 'La Théorie des couleurs',
     author: 'Antide Mangin',
     coverUrl:
-      'https://cdn1.booknode.com/book_cover/5443/full/la-theorie-des-couleurs-5443046.jpg',
+      '/books_pictures/994077925d80.jpg',
     genre: ['Fiction'],
     saga: '',
     sagaOrder: 0,
@@ -323,7 +323,7 @@ export const baseBooksLucileReadlistImport: BaseBook[] = [
     title: 'Songlight (La trilogie des Torches, #1)',
     author: 'Moira Buffini',
     coverUrl:
-      'https://cdn1.booknode.com/book_cover/5460/full/la-trilogie-des-torches-tome-1-songlight-5459979.jpg',
+      '/books_pictures/9c5fd1a4c9b0.jpg',
     genre: ['Fantasy'],
     saga: '',
     sagaOrder: 0,
@@ -351,7 +351,7 @@ export const baseBooksLucileReadlistImport: BaseBook[] = [
     title: 'Dark Skies (Dark Shores, #2)',
     author: 'Danielle L. Jensen',
     coverUrl:
-      'https://cdn1.booknode.com/book_cover/5357/full/dark-shores-tome-2-dark-skies-5357494.jpg',
+      '/books_pictures/272c749c698c.jpg',
     genre: ['Fantasy'],
     saga: '',
     sagaOrder: 0,
@@ -407,7 +407,7 @@ export const baseBooksLucileReadlistImport: BaseBook[] = [
     title: 'Recettes cubaines pour guérir un coeur brisé',
     author: 'Lynda Cohen Loigman',
     coverUrl:
-      'https://cdn1.booknode.com/book_cover/5443/full/girls-guide-tome-1-recettes-cubaines-pour-guerir-un-coeur-brise-5443455.jpg',
+      '/books_pictures/d9b10fb65136.jpg',
     genre: ['Romance'],
     saga: '',
     sagaOrder: 0,
@@ -435,7 +435,7 @@ export const baseBooksLucileReadlistImport: BaseBook[] = [
     title: "Les Coquillages ne s'ouvrent qu'en été",
     author: 'Camille Pagan',
     coverUrl:
-      'https://cdn1.booknode.com/book_cover/5388/les_coquillages_ne_souvrent_quen_ete-5388322-264-432.webp',
+      '/books_pictures/1acadcef17db.webp',
     genre: ['Romance'],
     saga: '',
     sagaOrder: 0,
@@ -491,7 +491,7 @@ export const baseBooksLucileReadlistImport: BaseBook[] = [
     title: 'Un printemps pour te succomber (Seasons #3)',
     author: 'Morgane Moncomble',
     coverUrl:
-      'https://cdn1.booknode.com/book_cover/5253/full/seasons-tome-3-un-printemps-pour-te-succomber-5252673.jpg',
+      '/books_pictures/3061100b0694.jpg',
     genre: ['Romance'],
     saga: '',
     sagaOrder: 0,
@@ -533,7 +533,7 @@ export const baseBooksLucileReadlistImport: BaseBook[] = [
     title: 'Ce Don Perfide (The Last Finestra, #1)',
     author: 'Emily Thiede',
     coverUrl:
-      'https://cdn1.booknode.com/book_cover/5277/full/ce-don-perfide-tome-1-5276744.jpg',
+      '/books_pictures/5a3da0bb3c70.jpg',
     genre: ['Fantasy'],
     saga: '',
     sagaOrder: 0,
@@ -561,7 +561,7 @@ export const baseBooksLucileReadlistImport: BaseBook[] = [
     title: 'Un hiver pour te résister (Seasons #2)',
     author: 'Morgane Moncomble',
     coverUrl:
-      'https://cdn1.booknode.com/book_cover/5248/full/seasons-tome-2-un-hiver-pour-te-resister-5248352.jpg',
+      '/books_pictures/4b0468f7dee2.jpg',
     genre: ['Romance'],
     saga: '',
     sagaOrder: 0,
@@ -659,7 +659,7 @@ export const baseBooksLucileReadlistImport: BaseBook[] = [
     title: "L'Effet Boule de Neige",
     author: 'Clara Héraut',
     coverUrl:
-      'https://cdn1.booknode.com/book_cover/5184/leffet_boule_de_neige-5184446-264-432.jpg',
+      '/books_pictures/cf8b7f117f66.jpg',
     genre: ['Romance'],
     saga: '',
     sagaOrder: 0,
@@ -687,7 +687,7 @@ export const baseBooksLucileReadlistImport: BaseBook[] = [
     title: 'La Société très secrète des Sorcières extraordinaires',
     author: 'Sangu Mandanna',
     coverUrl:
-      'https://cdn1.booknode.com/book_cover/5754/full/la-societe-tres-secrete-des-sorcieres-extraordinaires-5754493.jpg',
+      '/books_pictures/3434590a2822.jpg',
     genre: ['Romance'],
     saga: '',
     sagaOrder: 0,
@@ -714,7 +714,7 @@ export const baseBooksLucileReadlistImport: BaseBook[] = [
     title: 'La Cour de la Haute Montagne (The Five Crowns, #1)',
     author: 'Katharine Corr',
     coverUrl:
-      'https://cdn1.booknode.com/book_cover/5188/full/the-five-crowns-tome-1-la-cour-de-la-haute-montagne-5188462.jpg',
+      '/books_pictures/45a3d725ba8e.jpg',
     genre: ['Romance'],
     saga: '',
     sagaOrder: 0,
@@ -742,7 +742,7 @@ export const baseBooksLucileReadlistImport: BaseBook[] = [
     title: 'La Cartomancienne (Les Arcanes de Brume, #1)',
     author: 'Fanny Caldin',
     coverUrl:
-      'https://cdn1.booknode.com/book_cover/5134/full/les-arcanes-de-brume-tome-1-la-cartomancienne-5134249.jpg',
+      '/books_pictures/f9027a1653e1.jpg',
     genre: ['Fantasy'],
     saga: '',
     sagaOrder: 0,
@@ -770,7 +770,7 @@ export const baseBooksLucileReadlistImport: BaseBook[] = [
     title: 'Hotel Magnifique',
     author: 'Emily J. Taylor',
     coverUrl:
-      'https://cdn1.booknode.com/book_cover/5107/hotel_magnifique-5107292-264-432.webp',
+      '/books_pictures/43e69507d668.webp',
     genre: ['Romance'],
     saga: '',
     sagaOrder: 0,
@@ -851,7 +851,7 @@ export const baseBooksLucileReadlistImport: BaseBook[] = [
     title: 'Le Pont des Tempêtes (The Bridge Kingdom, #1)',
     author: 'Danielle L. Jensen',
     coverUrl:
-      'https://cdn1.booknode.com/book_cover/5484/full/le-pont-des-tempetes-tome-1-5483607.jpg',
+      '/books_pictures/448b7e04f191.jpg',
     genre: ['Fantasy'],
     saga: '',
     sagaOrder: 0,
@@ -879,7 +879,7 @@ export const baseBooksLucileReadlistImport: BaseBook[] = [
     title: "La Chasseuse et l'Alchimiste",
     author: 'Allison Saft',
     coverUrl:
-      'https://cdn1.booknode.com/book_cover/5072/full/la-chasseuse-et-lalchimiste-5072203.jpg',
+      '/books_pictures/f2d0945b1bbe.jpg',
     genre: ['Fantasy'],
     saga: '',
     sagaOrder: 0,
@@ -1112,7 +1112,7 @@ export const baseBooksLucileReadlistImport: BaseBook[] = [
     title: 'Les Nymphéas noirs',
     author: 'Michel Bussi',
     coverUrl:
-      'https://cdn1.booknode.com/book_cover/321/nympheas_noirs-321211-264-432.webp',
+      '/books_pictures/55a403f29058.webp',
     genre: ['Fiction'],
     saga: '',
     sagaOrder: 0,
@@ -1235,7 +1235,7 @@ export const baseBooksLucileReadlistImport: BaseBook[] = [
     title: "L'aventurière des mers (Fable, #1)",
     author: 'Adrienne Young',
     coverUrl:
-      'https://cdn1.booknode.com/book_cover/5013/full/fable-tome-1-laventuriere-des-mers-5013090.jpg',
+      '/books_pictures/37ac8b409377.jpg',
     genre: ['Fantasy'],
     saga: '',
     sagaOrder: 0,

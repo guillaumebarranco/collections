@@ -4,8 +4,9 @@ import { BaseBook } from '../../../models/book-model';
 export const baseBooksRonanReadlistImport: BaseBook[] = [
   {
     title: 'Les terribles aventures du futur Capitaine Crochet',
-    author: 'Dave Barry et Ridley Pearson',
-    coverUrl: '/books_pictures/0bd2337764fb.jpg',
+    author: 'James V. Hart',
+    coverUrl:
+      '/books_pictures/1ffbbdfdd3e4.jpg',
     pages: 320,
     genre: ['Jeunesse', 'Aventure'],
     saga: '',
@@ -18,8 +19,8 @@ export const baseBooksRonanReadlistImport: BaseBook[] = [
   },
   {
     title: 'Le chant des Géants',
-    author: 'Patrick Ness',
-    coverUrl: '/books_pictures/0bd2337764fb.jpg',
+    author: 'David BRY',
+    coverUrl: '/books_pictures/e8a7c7b8e52f.jpg',
     pages: 256,
     genre: ['Fantasy', 'Jeunesse'],
     saga: '',
@@ -32,8 +33,8 @@ export const baseBooksRonanReadlistImport: BaseBook[] = [
   },
   {
     title: "L'antidote mortel",
-    author: 'Robin Cook',
-    coverUrl: '/books_pictures/0bd2337764fb.jpg',
+    author: 'Cassandre Lambert',
+    coverUrl: '/books_pictures/635e2ba5bce4.jpg',
     pages: 400,
     genre: ['Thriller'],
     saga: '',
@@ -45,9 +46,9 @@ export const baseBooksRonanReadlistImport: BaseBook[] = [
     selectDisplayOrder: 0,
   },
   {
-    title: 'Terres braisées',
+    title: 'Terres brisées',
     author: 'Victoria Aveyard',
-    coverUrl: '/books_pictures/0bd2337764fb.jpg',
+    coverUrl: '/books_pictures/e7c3f97219ac.jpg',
     pages: 400,
     genre: ['Fantasy', 'Dystopie'],
     saga: 'Victoria Aveyard — tomes annexes',
@@ -61,7 +62,8 @@ export const baseBooksRonanReadlistImport: BaseBook[] = [
   {
     title: 'Lame brisée',
     author: 'Victoria Aveyard',
-    coverUrl: '/books_pictures/0bd2337764fb.jpg',
+    coverUrl:
+      '/books_pictures/2a01497a94cf.jpg',
     pages: 400,
     genre: ['Fantasy', 'Dystopie'],
     saga: 'Victoria Aveyard — tomes annexes',
@@ -75,7 +77,8 @@ export const baseBooksRonanReadlistImport: BaseBook[] = [
   {
     title: 'Destin brisé',
     author: 'Victoria Aveyard',
-    coverUrl: '/books_pictures/0bd2337764fb.jpg',
+    coverUrl:
+      '/books_pictures/382af20813c3.jpg',
     pages: 400,
     genre: ['Fantasy', 'Dystopie'],
     saga: 'Victoria Aveyard — tomes annexes',
@@ -89,7 +92,7 @@ export const baseBooksRonanReadlistImport: BaseBook[] = [
   {
     title: 'Murtagh',
     author: 'Christopher Paolini',
-    coverUrl: '/books_pictures/0bd2337764fb.jpg',
+    coverUrl: '/books_pictures/1b72e74a7018.jpg',
     pages: 680,
     genre: ['Fantasy', 'Aventure'],
     saga: 'Eragon',
@@ -103,7 +106,8 @@ export const baseBooksRonanReadlistImport: BaseBook[] = [
   {
     title: 'Eon et le douxième dragon',
     author: 'Alison Goodman',
-    coverUrl: '/books_pictures/0bd2337764fb.jpg',
+    coverUrl:
+      '/books_pictures/a00d52e7f783.jpg',
     pages: 640,
     genre: ['Fantasy'],
     saga: 'Eon',
@@ -117,7 +121,8 @@ export const baseBooksRonanReadlistImport: BaseBook[] = [
   {
     title: 'Celle qui devint le soleil',
     author: 'Shelley Parker-Chan',
-    coverUrl: '/books_pictures/0bd2337764fb.jpg',
+    coverUrl:
+      '/books_pictures/f9607970741d.jpg',
     pages: 416,
     genre: ['Fantasy', 'Fiction historique'],
     saga: '',
@@ -131,7 +136,8 @@ export const baseBooksRonanReadlistImport: BaseBook[] = [
   {
     title: 'Le livre qui refusait de brûler',
     author: 'Mark Lawrence',
-    coverUrl: '/books_pictures/0bd2337764fb.jpg',
+    coverUrl:
+      '/books_pictures/9e56df1e4732.jpg',
     pages: 480,
     genre: ['Science Fiction', 'Fantasy'],
     saga: 'Impossible Times',
@@ -145,7 +151,8 @@ export const baseBooksRonanReadlistImport: BaseBook[] = [
   {
     title: 'Le livre qui brisa le monde',
     author: 'Mark Lawrence',
-    coverUrl: '/books_pictures/0bd2337764fb.jpg',
+    coverUrl:
+      '/books_pictures/6b79130fce49.jpg',
     pages: 480,
     genre: ['Science Fiction', 'Fantasy'],
     saga: 'Impossible Times',
@@ -159,7 +166,8 @@ export const baseBooksRonanReadlistImport: BaseBook[] = [
   {
     title: 'Les enfants de la lampe magique',
     author: 'P. B. Kerr',
-    coverUrl: '/books_pictures/0bd2337764fb.jpg',
+    coverUrl:
+      '/books_pictures/1cae8153132e.jpg',
     pages: 320,
     genre: ['Jeunesse', 'Fantastique'],
     saga: 'Children of the Lamp',
@@ -173,7 +181,8 @@ export const baseBooksRonanReadlistImport: BaseBook[] = [
   {
     title: 'Le roman maudit',
     author: 'Franck Thilliez',
-    coverUrl: '/books_pictures/0bd2337764fb.jpg',
+    coverUrl:
+      '/books_pictures/5543a0a2879b.jpg',
     pages: 400,
     genre: ['Thriller', 'Policier'],
     saga: '',
@@ -187,7 +196,8 @@ export const baseBooksRonanReadlistImport: BaseBook[] = [
   {
     title: 'Après',
     author: 'Stephen King',
-    coverUrl: '/books_pictures/0bd2337764fb.jpg',
+    coverUrl:
+      '/books_pictures/c526c2eb2ea5.jpg',
     pages: 260,
     genre: ['Thriller', 'Horreur'],
     saga: '',
@@ -201,7 +211,8 @@ export const baseBooksRonanReadlistImport: BaseBook[] = [
   {
     title: "L'institut",
     author: 'Stephen King',
-    coverUrl: '/books_pictures/0bd2337764fb.jpg',
+    coverUrl:
+      '/books_pictures/2d2902642850.jpg',
     pages: 560,
     genre: ['Thriller', 'Science Fiction'],
     saga: '',
@@ -215,7 +226,8 @@ export const baseBooksRonanReadlistImport: BaseBook[] = [
   {
     title: 'Billy Summers',
     author: 'Stephen King',
-    coverUrl: '/books_pictures/0bd2337764fb.jpg',
+    coverUrl:
+      '/books_pictures/372eb50ef95b.jpg',
     pages: 520,
     genre: ['Thriller'],
     saga: '',
@@ -229,7 +241,7 @@ export const baseBooksRonanReadlistImport: BaseBook[] = [
   {
     title: 'Minuit 2',
     author: 'Stephen King',
-    coverUrl: '/books_pictures/0bd2337764fb.jpg',
+    coverUrl: '/books_pictures/b708654c0c4f.jpg',
     pages: 360,
     genre: ['Thriller', 'Horreur'],
     saga: 'Quatre minuits après minuit',
@@ -243,7 +255,8 @@ export const baseBooksRonanReadlistImport: BaseBook[] = [
   {
     title: 'Minuit 4',
     author: 'Stephen King',
-    coverUrl: '/books_pictures/0bd2337764fb.jpg',
+    coverUrl:
+      '/books_pictures/19b4f0c09a62.jpg',
     pages: 360,
     genre: ['Thriller', 'Horreur'],
     saga: 'Quatre minuits après minuit',
@@ -257,7 +270,8 @@ export const baseBooksRonanReadlistImport: BaseBook[] = [
   {
     title: 'Si ça saigne',
     author: 'Stephen King',
-    coverUrl: '/books_pictures/0bd2337764fb.jpg',
+    coverUrl:
+      '/books_pictures/5c85a65a151b.jpg',
     pages: 400,
     genre: ['Thriller', 'Horreur'],
     saga: '',
@@ -271,7 +285,8 @@ export const baseBooksRonanReadlistImport: BaseBook[] = [
   {
     title: 'La part des ténèbres',
     author: 'Stephen King',
-    coverUrl: '/books_pictures/0bd2337764fb.jpg',
+    coverUrl:
+      '/books_pictures/1cce7d0be6c6.jpg',
     pages: 560,
     genre: ['Thriller', 'Horreur'],
     saga: '',
@@ -285,7 +300,8 @@ export const baseBooksRonanReadlistImport: BaseBook[] = [
   {
     title: 'Revival',
     author: 'Stephen King',
-    coverUrl: '/books_pictures/0bd2337764fb.jpg',
+    coverUrl:
+      '/books_pictures/65eaf92a3537.jpg',
     pages: 400,
     genre: ['Thriller', 'Horreur'],
     saga: '',
@@ -299,7 +315,8 @@ export const baseBooksRonanReadlistImport: BaseBook[] = [
   {
     title: 'Robin des Bois',
     author: 'Alexandre Dumas',
-    coverUrl: '/books_pictures/0bd2337764fb.jpg',
+    coverUrl:
+      '/books_pictures/7a726fead355.jpg',
     pages: 400,
     genre: ['Classiques', 'Aventure'],
     saga: '',
@@ -313,7 +330,8 @@ export const baseBooksRonanReadlistImport: BaseBook[] = [
   {
     title: "L'île des esclaves",
     author: 'Marivaux',
-    coverUrl: '/books_pictures/0bd2337764fb.jpg',
+    coverUrl:
+      '/books_pictures/07be159b29bc.jpg',
     pages: 96,
     genre: ['Théâtre', 'Classiques'],
     saga: '',
@@ -327,7 +345,8 @@ export const baseBooksRonanReadlistImport: BaseBook[] = [
   {
     title: 'Les quatre accords toltèques',
     author: 'Don Miguel Ruiz',
-    coverUrl: '/books_pictures/0bd2337764fb.jpg',
+    coverUrl:
+      '/books_pictures/71245a90c7a2.jpg',
     pages: 160,
     genre: ['Nonfiction'],
     saga: '',
@@ -341,7 +360,8 @@ export const baseBooksRonanReadlistImport: BaseBook[] = [
   {
     title: 'Le signe',
     author: 'Raymond Khoury',
-    coverUrl: '/books_pictures/0bd2337764fb.jpg',
+    coverUrl:
+      '/books_pictures/7d7e1897ebd7.jpg',
     pages: 400,
     genre: ['Thriller', 'Aventure'],
     saga: '',
@@ -355,7 +375,8 @@ export const baseBooksRonanReadlistImport: BaseBook[] = [
   {
     title: 'Micro',
     author: 'Michael Crichton',
-    coverUrl: '/books_pictures/0bd2337764fb.jpg',
+    coverUrl:
+      '/books_pictures/1c9b2465b4fd.jpg',
     pages: 480,
     genre: ['Science Fiction', 'Thriller'],
     saga: '',
@@ -367,9 +388,10 @@ export const baseBooksRonanReadlistImport: BaseBook[] = [
     selectDisplayOrder: 0,
   },
   {
-    title: 'La coline au gibet',
+    title: 'La colline au gibet',
     author: 'Michel Bussi',
-    coverUrl: '/books_pictures/0bd2337764fb.jpg',
+    coverUrl:
+      '/books_pictures/08caeb01fb85.jpg',
     pages: 400,
     genre: ['Thriller', 'Policier'],
     saga: '',
@@ -383,7 +405,8 @@ export const baseBooksRonanReadlistImport: BaseBook[] = [
   {
     title: 'Le code du samouraï',
     author: 'Inazo Nitobe',
-    coverUrl: '/books_pictures/0bd2337764fb.jpg',
+    coverUrl:
+      '/books_pictures/7b16b3714bf9.jpg',
     pages: 200,
     genre: ['Nonfiction'],
     saga: '',
@@ -397,7 +420,8 @@ export const baseBooksRonanReadlistImport: BaseBook[] = [
   {
     title: 'Le temps des chimères',
     author: 'Bernard Werber',
-    coverUrl: '/books_pictures/0bd2337764fb.jpg',
+    coverUrl:
+      '/books_pictures/4985f75cd5c4.jpg',
     pages: 400,
     genre: ['Science Fiction', 'Fantastique'],
     saga: '',
@@ -411,7 +435,8 @@ export const baseBooksRonanReadlistImport: BaseBook[] = [
   {
     title: 'Identités croisées',
     author: 'Harlan Coben',
-    coverUrl: '/books_pictures/0bd2337764fb.jpg',
+    coverUrl:
+      '/books_pictures/8fc4474a7f01.jpg',
     pages: 400,
     genre: ['Thriller', 'Policier'],
     saga: '',
@@ -425,7 +450,8 @@ export const baseBooksRonanReadlistImport: BaseBook[] = [
   {
     title: 'Le frère de sang',
     author: 'Jacques Ravenne et Éric Giacometti',
-    coverUrl: '/books_pictures/0bd2337764fb.jpg',
+    coverUrl:
+      '/books_pictures/92ad266ac0f8.jpg',
     pages: 400,
     genre: ['Thriller', 'Policier'],
     saga: 'Antoine Marcas',
@@ -439,7 +465,8 @@ export const baseBooksRonanReadlistImport: BaseBook[] = [
   {
     title: 'Prime time',
     author: 'Maxime Chattam',
-    coverUrl: '/books_pictures/0bd2337764fb.jpg',
+    coverUrl:
+      '/books_pictures/b181d619a822.jpg',
     pages: 400,
     genre: ['Thriller', 'Policier'],
     saga: '',
@@ -453,7 +480,8 @@ export const baseBooksRonanReadlistImport: BaseBook[] = [
   {
     title: 'Six ans déjà',
     author: 'Harlan Coben',
-    coverUrl: '/books_pictures/0bd2337764fb.jpg',
+    coverUrl:
+      '/books_pictures/7e7bfff9cede.jpg',
     pages: 400,
     genre: ['Thriller', 'Policier'],
     saga: '',
@@ -467,7 +495,8 @@ export const baseBooksRonanReadlistImport: BaseBook[] = [
   {
     title: 'Le livre du voyage',
     author: 'Bernard Werber',
-    coverUrl: '/books_pictures/0bd2337764fb.jpg',
+    coverUrl:
+      '/books_pictures/17562e7c19ad.jpg',
     pages: 320,
     genre: ['Science Fiction', 'Fantastique'],
     saga: '',

@@ -1083,7 +1083,7 @@ export const ronanReadListBooks: UserBooks = [
 
   {
     title: 'Les terribles aventures du futur Capitaine Crochet',
-    author: 'Dave Barry et Ridley Pearson',
+    author: 'James V. Hart',
     firstReadDate: '',
     lastReadDate: '',
     rating: 0,
@@ -1097,7 +1097,7 @@ export const ronanReadListBooks: UserBooks = [
   },
   {
     title: 'Le chant des Géants',
-    author: 'Patrick Ness',
+    author: 'David BRY',
     firstReadDate: '',
     lastReadDate: '',
     rating: 0,
@@ -1111,7 +1111,7 @@ export const ronanReadListBooks: UserBooks = [
   },
   {
     title: "L'antidote mortel",
-    author: 'Robin Cook',
+    author: 'Cassandre Lambert',
     firstReadDate: '',
     lastReadDate: '',
     rating: 0,
@@ -1124,7 +1124,7 @@ export const ronanReadListBooks: UserBooks = [
     loaned: '',
   },
   {
-    title: 'Terres braisées',
+    title: 'Terres brisées',
     author: 'Victoria Aveyard',
     firstReadDate: '',
     lastReadDate: '',
@@ -1446,7 +1446,7 @@ export const ronanReadListBooks: UserBooks = [
     loaned: '',
   },
   {
-    title: 'La coline au gibet',
+    title: 'La colline au gibet',
     author: 'Michel Bussi',
     firstReadDate: '',
     lastReadDate: '',

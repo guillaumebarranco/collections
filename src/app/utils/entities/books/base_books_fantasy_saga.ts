@@ -1012,7 +1012,7 @@ export const baseBooksFantasySaga: BaseBook[] = [
     title: 'Le bapteme du feu (The Witcher, #5)',
     author: 'Andrzej Sapkowski',
     coverUrl:
-      'https://cdn1.booknode.com/book_cover/1228/sorceleur_tome_5_le_bapteme_du_feu-1228316-264-432.webp',
+      '/books_pictures/sorceleur_tome_5_le_bapteme_du_feu-1228316-264-432.jpg',
     pages: 480,
     genre: ['Fantasy'],
     saga: 'Sorceleur',
@@ -1026,8 +1026,7 @@ export const baseBooksFantasySaga: BaseBook[] = [
   {
     title: "La tour de l'hirondelle (The Witcher, #6)",
     author: 'Andrzej Sapkowski',
-    coverUrl:
-      '/books_pictures/ac9d6a8accc6.jpg',
+    coverUrl: '/books_pictures/ac9d6a8accc6.jpg',
     pages: 480,
     genre: ['Fantasy'],
     saga: 'Sorceleur',
@@ -1055,8 +1054,7 @@ export const baseBooksFantasySaga: BaseBook[] = [
   {
     title: 'La saison des orages (The Witcher, #8)',
     author: 'Andrzej Sapkowski',
-    coverUrl:
-      '/books_pictures/dd6fa17a7f69.jpg',
+    coverUrl: '/books_pictures/dd6fa17a7f69.jpg',
     pages: 531,
     genre: ['Fantasy'],
     saga: 'Sorceleur',
