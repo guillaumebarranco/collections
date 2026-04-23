@@ -1506,7 +1506,7 @@ export const lucileBooks: UserBook[] = [
   },
   {
     title: 'La Nouvelle(s) (s) (Elles, #1)',
-    author: 'Alice Zeniter',
+    author: 'Kid Toussaint',
     firstReadDate: '',
     lastReadDate: '',
     rating: 4,
@@ -1534,7 +1534,7 @@ export const lucileBooks: UserBook[] = [
   },
   {
     title: 'La remplaçante',
-    author: 'Darcey Bell',
+    author: 'Sophie Adriansen',
     firstReadDate: '',
     lastReadDate: '',
     rating: 4,
@@ -1646,7 +1646,7 @@ export const lucileBooks: UserBook[] = [
   },
   {
     title: 'Les Papillons',
-    author: 'À compléter',
+    author: 'Barcella',
     firstReadDate: '',
     lastReadDate: '',
     rating: 4,

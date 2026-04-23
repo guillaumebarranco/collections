@@ -20,6 +20,7 @@ import { marinaWatchListSeries } from '../../utils/users/marina/series/marina_wa
 import { masterofmadnessSeries } from '../../utils/users/masterofmadness/series/masterofmadness_series';
 import { baseSeriesApi } from '../../utils/entities/series/base_series_api';
 import { baseSeries3 } from '../../utils/entities/series/base_series_3';
+import { lucileSeries } from '../../utils/users/lucile/series/lucile_series';
 
 export const allBaseSeries: BaseSerie[] = [
   ...baseSeries,
@@ -47,6 +48,8 @@ export function getLocalSeriesByUser(userId: string): UserSerie[] {
       return [...marinaSeries];
     case 'masterofmadness':
       return [...masterofmadnessSeries];
+    case 'lucile':
+      return [...lucileSeries];
     default:
       return [];
   }

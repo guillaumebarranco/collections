@@ -1001,8 +1001,9 @@ export const baseBooksLucileReadlistImport: BaseBook[] = [
   },
   {
     title: 'La Nouvelle(s) (s) (Elles, #1)',
-    author: 'Alice Zeniter',
-    coverUrl: '',
+    author: 'Kid Toussaint',
+    coverUrl:
+      'https://m.media-amazon.com/images/I/71RFoAi80gL._UF1000,1000_QL80_.jpg',
     genre: ['Fiction'],
     saga: '',
     sagaOrder: 0,
@@ -1015,7 +1016,8 @@ export const baseBooksLucileReadlistImport: BaseBook[] = [
   {
     title: 'Madeleine, résistante - Tome 1 - La Rose dégoupillée',
     author: 'Nathalie Somers',
-    coverUrl: '',
+    coverUrl:
+      'https://bdi.dlpdomain.com/album/9791034742752-couv-M700x1200.jpg',
     genre: ['Fiction'],
     saga: '',
     sagaOrder: 0,
@@ -1027,8 +1029,8 @@ export const baseBooksLucileReadlistImport: BaseBook[] = [
   },
   {
     title: 'La remplaçante',
-    author: 'Darcey Bell',
-    coverUrl: '',
+    author: 'Sophie Adriansen',
+    coverUrl: 'https://m.media-amazon.com/images/I/613-y1j7JWL.jpg',
     genre: ['Fiction'],
     saga: '',
     sagaOrder: 0,
@@ -1041,7 +1043,7 @@ export const baseBooksLucileReadlistImport: BaseBook[] = [
   {
     title: 'Tu comprendras quand tu seras plus grande',
     author: 'Virginie Grimaldi',
-    coverUrl: '',
+    coverUrl: 'https://m.media-amazon.com/images/I/714CmHorYiL.jpg',
     genre: ['Romance'],
     saga: '',
     sagaOrder: 0,
@@ -1054,7 +1056,8 @@ export const baseBooksLucileReadlistImport: BaseBook[] = [
   {
     title: 'Un prince sans royaume (Vango, #2)',
     author: 'Timothée de Fombelle',
-    coverUrl: '',
+    coverUrl:
+      'https://m.media-amazon.com/images/I/71Lhp6bMqmL._AC_UF1000,1000_QL80_.jpg',
     genre: ['Fiction'],
     saga: '',
     sagaOrder: 0,
@@ -1067,7 +1070,8 @@ export const baseBooksLucileReadlistImport: BaseBook[] = [
   {
     title: 'Vango: Entre ciel et terre (Vango #1)',
     author: 'Timothée de Fombelle',
-    coverUrl: '',
+    coverUrl:
+      'https://m.media-amazon.com/images/I/811UAVI2WpL._UF1000,1000_QL80_.jpg',
     genre: ['Fiction'],
     saga: '',
     sagaOrder: 0,
@@ -1080,7 +1084,8 @@ export const baseBooksLucileReadlistImport: BaseBook[] = [
   {
     title: 'Tobie Lolness - Đôi mắt Elisha',
     author: 'Timothée de Fombelle',
-    coverUrl: '',
+    coverUrl:
+      'https://m.media-amazon.com/images/I/51oWH5dE0mL._AC_UF1000,1000_QL80_.jpg',
     genre: ['Fiction'],
     saga: '',
     sagaOrder: 0,
@@ -1093,7 +1098,7 @@ export const baseBooksLucileReadlistImport: BaseBook[] = [
   {
     title: 'Tobie Lolness',
     author: 'Timothée de Fombelle',
-    coverUrl: '',
+    coverUrl: 'https://media.groupe.gallimard.fr/couvHD/J04853.jpg',
     genre: ['Fiction'],
     saga: '',
     sagaOrder: 0,
@@ -1106,7 +1111,8 @@ export const baseBooksLucileReadlistImport: BaseBook[] = [
   {
     title: 'Les Nymphéas noirs',
     author: 'Michel Bussi',
-    coverUrl: '',
+    coverUrl:
+      'https://cdn1.booknode.com/book_cover/321/nympheas_noirs-321211-264-432.webp',
     genre: ['Fiction'],
     saga: '',
     sagaOrder: 0,
@@ -1119,7 +1125,7 @@ export const baseBooksLucileReadlistImport: BaseBook[] = [
   {
     title: 'On la trouvait plutôt jolie',
     author: 'Michel Bussi',
-    coverUrl: '',
+    coverUrl: 'https://m.media-amazon.com/images/I/714X1roL+-L.jpg',
     genre: ['Thriller'],
     saga: '',
     sagaOrder: 0,
@@ -1131,8 +1137,9 @@ export const baseBooksLucileReadlistImport: BaseBook[] = [
   },
   {
     title: 'Les Papillons',
-    author: 'À compléter',
-    coverUrl: '',
+    author: 'Barcella',
+    coverUrl:
+      'https://m.media-amazon.com/images/I/61-96HBiddL._AC_UF1000,1000_QL80_.jpg',
     genre: ['Thriller'],
     saga: '',
     sagaOrder: 0,
@@ -1145,7 +1152,7 @@ export const baseBooksLucileReadlistImport: BaseBook[] = [
   {
     title: 'Les Oubliés du dimanche',
     author: 'Valérie Perrin',
-    coverUrl: '',
+    coverUrl: 'https://m.media-amazon.com/images/I/81fmKtD9F2L.jpg',
     genre: ['Thriller'],
     saga: '',
     sagaOrder: 0,
@@ -1158,7 +1165,8 @@ export const baseBooksLucileReadlistImport: BaseBook[] = [
   {
     title: 'Le temps est assassin',
     author: 'Michel Bussi',
-    coverUrl: '',
+    coverUrl:
+      'https://m.media-amazon.com/images/I/41lDa+py44L._AC_UF1000,1000_QL80_.jpg',
     genre: ['Thriller'],
     saga: '',
     sagaOrder: 0,
@@ -1170,8 +1178,9 @@ export const baseBooksLucileReadlistImport: BaseBook[] = [
   },
   {
     title: 'Insectes',
-    author: 'Karel Čapek',
-    coverUrl: '',
+    author: 'Min-hye Zang',
+    coverUrl:
+      'https://m.media-amazon.com/images/I/719yd8iOGaL._AC_UF1000,1000_QL80_.jpg',
     genre: ['Fiction'],
     saga: '',
     sagaOrder: 0,
