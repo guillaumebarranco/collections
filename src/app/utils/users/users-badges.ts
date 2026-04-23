@@ -199,5 +199,25 @@ export const usersBadges: Record<string, string[]> = {
   "hiken": [
     "mangas-quinze-lus",
     "mangas-trente-lus"
+  ],
+  "amine": [],
+  "lucile": [
+    "baba-yaga",
+    "badges-des-trois-sorciers",
+    "cinephile-amateur",
+    "cinephile-herbe",
+    "cinephile-passionne",
+    "demi-dieu",
+    "drole-de-gendarme",
+    "espion-blanquette",
+    "extraterrestre",
+    "flic-new-york",
+    "graine-lecteur",
+    "membre-de-l-ordre",
+    "petit-beguin-books",
+    "petit-lecteur",
+    "reine-dragons",
+    "sorcelier",
+    "transporteur"
   ]
 };
