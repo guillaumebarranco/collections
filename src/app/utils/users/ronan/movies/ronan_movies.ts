@@ -18360,4 +18360,21 @@ export const ronanMovies: UserMovies = [
     borrowed: "",
     loaned: "",
   },
+
+  {
+    title: "Eyes Wide Shut",
+    director: "Stanley Kubrick",
+    rating: 2.5,
+    timesWatched: 1,
+    firstViewedDate: "2026-04-22",
+    lastViewedDate: "2026-04-22",
+    seenAtCinema: false,
+    owned: false,
+    wantToSeeAgain: false,
+    watchPriority: 1,
+    ratingComment: "",
+    inList: [],
+    borrowed: "",
+    loaned: "",
+  },
 ];

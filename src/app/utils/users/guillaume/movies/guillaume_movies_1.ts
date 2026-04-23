@@ -2610,4 +2610,21 @@ export const guillaumeMoviesPage1: UserMovies = [
     borrowed: "",
     loaned: "",
   },
+
+  {
+    title: "Eyes Wide Shut",
+    director: "Stanley Kubrick",
+    rating: 3.25,
+    timesWatched: 1,
+    firstViewedDate: "2026-04-22",
+    lastViewedDate: "2026-04-22",
+    seenAtCinema: false,
+    owned: false,
+    wantToSeeAgain: false,
+    watchPriority: 1,
+    ratingComment: "C'était. Long.",
+    inList: [],
+    borrowed: "",
+    loaned: "",
+  },
 ];

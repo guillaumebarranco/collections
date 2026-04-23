@@ -1895,4 +1895,19 @@ export const baseBooksApi: BaseBook[] = [
     countryOrigin: "Australie",
     selectDisplayOrder: 0,
   },
+
+  {
+    title: "Le Haut Seigneur",
+    author: "Trudi Canavan",
+    coverUrl: "https://m.media-amazon.com/images/I/81BktU10p0L._AC_UF1000,1000_QL80_.jpg",
+    pages: 591,
+    genre: [],
+    saga: "La Trilogie du Magicien Noir",
+    sagaOrder: 3,
+    sagaFinished: true,
+    releaseDate: "2008-05-22",
+    description: "",
+    countryOrigin: "Australie",
+    selectDisplayOrder: 0,
+  },
 ];

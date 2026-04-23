@@ -997,14 +997,16 @@ export const baseMoviesPage8: BaseMovie[] = [
   },
   {
     title: "2001 : L'Odyssée de l'espace",
-    director: 'Yannick Rolandeau',
-    actors: [],
-    coverUrl: '/movies_pictures/2001-lodyssee-de-lespace.jpg',
-    releaseDate: '2018-07-30',
+    director: "Stanley Kubrick",
+    actors: [
+
+    ],
+    coverUrl: "/movies_pictures/2001-lodyssee-de-lespace.jpg",
+    releaseDate: "2018-07-30",
     length: 0,
     genre: ['Science Fiction'],
-    saga: '',
-    description: '',
+    saga: "",
+    description: "",
     fromEntity: null,
     countryOrigin: ['France'],
     selectDisplayOrder: 0,

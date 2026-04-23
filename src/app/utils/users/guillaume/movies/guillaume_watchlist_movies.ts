@@ -1154,22 +1154,6 @@ export const guillaumeWatchlistMovies: UserMovies = [
     inList: [],
   },
   {
-    title: "Eyes Wide Shut",
-    director: "Stanley Kubrick",
-    rating: 0,
-    timesWatched: 0,
-    firstViewedDate: "",
-    lastViewedDate: "",
-    seenAtCinema: false,
-    owned: false,
-    wantToSeeAgain: false,
-    watchPriority: 2,
-    ratingComment: "",
-    borrowed: "",
-    loaned: "",
-    inList: [],
-  },
-  {
     title: "Tonnerre sous les Tropiques",
     director: "Ben Stiller",
     rating: 0,
@@ -3552,5 +3536,5 @@ export const guillaumeWatchlistMovies: UserMovies = [
     borrowed: "",
     loaned: "",
     inList: [],
-  },
+  }
 ];

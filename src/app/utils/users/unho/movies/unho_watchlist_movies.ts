@@ -179,7 +179,7 @@ export const unhoWatchListMovies: UserMovie[] = [
   },
   {
     title: "2001 : L'Odyssée de l'espace",
-    director: "Yannick Rolandeau",
+    director: "Stanley Kubrick",
     rating: 0,
     timesWatched: 0,
     firstViewedDate: "",

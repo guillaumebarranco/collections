@@ -1641,14 +1641,14 @@ export const kevinBooks: UserBooks = [
     author: "Trudi Canavan",
     firstReadDate: "2026-04-12",
     lastReadDate: "2026-04-12",
-    rating: 3.5,
+    rating: 2,
     readTimes: 1,
     owned: true,
     borrowed: "",
     loaned: "",
     readPriority: 1,
     wantToReadAgain: false,
-    ratingComment: "Livre assez simple et classique. Quelques lenteurs, beaucoup de passages inutiles mais un potentiel intéressant.\n\nLa note :\n- Écriture : 1\n- Le monde : 0,5\n- Les personnages : 0,5\n- L'histoire : 0,5\n- Le bonus coup de cœur : 0\nTotal :",
+    ratingComment: "Livre assez simple et classique. Quelques lenteurs, beaucoup de passages inutiles mais un potentiel intéressant.\\n\\nLa note :\\n- Écriture : 1\\n- Le monde : 0,5\\n- Les personnages : 0,5\\n- L'histoire : 0,5\\n- Le bonus coup de cœur : 0\\nTotal :",
   },
 
   {
@@ -1664,5 +1664,20 @@ export const kevinBooks: UserBooks = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: "Encore une fois beaucoup trop de passages inintéressant. Le monde et le système de magie sont très peu développés. Aucune surprise... Une lecture peu marquante, qui doit sa mauvaise note à un potentiel gâché.",
+  },
+
+  {
+    title: "Le Haut Seigneur",
+    author: "Trudi Canavan",
+    firstReadDate: "2026-04-23",
+    lastReadDate: "2026-04-23",
+    rating: 3,
+    readTimes: 1,
+    owned: true,
+    borrowed: "",
+    loaned: "",
+    readPriority: 1,
+    wantToReadAgain: false,
+    ratingComment: "Bien meilleur que les deux précédentes tomes, il se passe des choses mais malheureusement pas assez. \n\nLa note :\n- Écriture : 1/1\n- Le monde : 0,5/1\n- Les personnages : 0,5/1\n- L'histoire : 0,5\\1\n- Le bonus coup de cœur : 0,5/1\nTotal :",
   },
 ];
