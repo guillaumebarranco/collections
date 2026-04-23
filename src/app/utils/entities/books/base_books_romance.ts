@@ -75,7 +75,7 @@ export const baseBooksRomance: BaseBook[] = [
     title: 'Raison et sentiments',
     author: 'Jane Austen',
     coverUrl:
-      'https://editions-hauteville.fr/media/cache/book/86/9791093835686.jpg',
+      '/books_pictures/a33514c317d4.jpg',
     pages: 416,
     genre: ['Classiques', 'Romance'],
     saga: '',

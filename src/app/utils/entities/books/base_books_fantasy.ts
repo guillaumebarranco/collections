@@ -118,7 +118,7 @@ export const baseBooksFantasy: BaseBook[] = [
     title: 'Les Griffes et les Crocs',
     author: 'Jo Walton',
     coverUrl:
-      'https://m.media-amazon.com/images/I/910zenOgT8L._AC_UF1000,1000_QL80_.jpg',
+      '/books_pictures/0b2b7f834bec.jpg',
     pages: 496,
     genre: ['Fantasy', 'Classiques'],
     saga: '',

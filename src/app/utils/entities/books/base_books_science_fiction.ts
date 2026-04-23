@@ -270,7 +270,7 @@ export const baseBooksScienceFiction: BaseBook[] = [
   {
     title: 'Chroniques martiennes',
     author: 'Ray Bradbury',
-    coverUrl: 'https://m.media-amazon.com/images/I/71EVkmklhyL.jpg',
+    coverUrl: '/books_pictures/f1d3dbebb99e.jpg',
     pages: 272,
     genre: ['Science Fiction', 'Classiques'],
     saga: '',
@@ -285,7 +285,7 @@ export const baseBooksScienceFiction: BaseBook[] = [
     title: 'Le problème à trois corps',
     author: 'Liu Cixin',
     coverUrl:
-      'https://m.media-amazon.com/images/I/71iL2r3egLL._UF1000,1000_QL80_.jpg',
+      '/books_pictures/5c3c7095a5f8.jpg',
     pages: 448,
     genre: ['Science Fiction'],
     saga: 'Trilogie des Trois Corps',

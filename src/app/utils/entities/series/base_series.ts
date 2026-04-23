@@ -309,6 +309,51 @@ export const baseSeries: BaseSerie[] = [
     saga: 'ArrowVerse',
     countryOrigin: 'États-Unis',
   },
+  {
+    title: 'Atypical',
+    director: 'Robia Rashid',
+    actors: [
+      {
+        name: 'Keir Gilchrist',
+      },
+      {
+        name: 'Jennifer Jason Leigh',
+      },
+      {
+        name: 'Michael Rapaport',
+      },
+    ],
+    coverUrl: '/series_pictures/atypical_poster.jpg',
+    releaseDate: '2017-08-11',
+    endDate: '2021-07-09',
+    genre: ['Comedy', 'Drama'],
+    seasonsData: [
+      {
+        seasonNumber: 1,
+        nbEpisodes: 8,
+        totalLength: 240,
+      },
+      {
+        seasonNumber: 2,
+        nbEpisodes: 10,
+        totalLength: 300,
+      },
+      {
+        seasonNumber: 3,
+        nbEpisodes: 10,
+        totalLength: 300,
+      },
+      {
+        seasonNumber: 4,
+        nbEpisodes: 10,
+        totalLength: 300,
+      },
+    ],
+    description: '',
+    fromEntity: null,
+    saga: '',
+    countryOrigin: 'États-Unis',
+  },
 
   {
     title: 'Bet',

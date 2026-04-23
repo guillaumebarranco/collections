@@ -1701,8 +1701,8 @@ export const lucileBooks: UserBook[] = [
     ratingComment: '',
   },
   {
-    title: 'Gravé dans le Sable: Omaha Crimes',
-    author: 'Sylvain Forge',
+    title: 'Gravé dans le Sable',
+    author: 'Michel Bussi',
     firstReadDate: '',
     lastReadDate: '',
     rating: 3,
@@ -1716,7 +1716,7 @@ export const lucileBooks: UserBook[] = [
   },
   {
     title: 'Fais de beaux rêves...',
-    author: 'Pierre Lagier',
+    author: 'Philip Le Roy',
     firstReadDate: '',
     lastReadDate: '',
     rating: 2,
@@ -1758,7 +1758,7 @@ export const lucileBooks: UserBook[] = [
   },
   {
     title: 'Les Sœurs Hollow',
-    author: 'Holly Jackson',
+    author: 'Krystal Sutherland',
     firstReadDate: '2023-01-20',
     lastReadDate: '2023-01-20',
     rating: 5,
@@ -1772,7 +1772,7 @@ export const lucileBooks: UserBook[] = [
   },
   {
     title: 'Sous la porte qui chuchote',
-    author: 'Anna Hoghton',
+    author: 'T.J. Klune',
     firstReadDate: '2023-01-13',
     lastReadDate: '2023-01-13',
     rating: 5,
@@ -1786,7 +1786,7 @@ export const lucileBooks: UserBook[] = [
   },
   {
     title: 'Mon ami Pierrot',
-    author: 'Michel Braudeau',
+    author: 'Jim Bishop',
     firstReadDate: '',
     lastReadDate: '',
     rating: 2,
@@ -1800,7 +1800,7 @@ export const lucileBooks: UserBook[] = [
   },
   {
     title: "Ma Crohn de vie, histoire d'une rescapée à l'intestin malade",
-    author: 'Charlotte Goupil',
+    author: 'Juliette Mercier',
     firstReadDate: '',
     lastReadDate: '',
     rating: 5,
@@ -1814,7 +1814,7 @@ export const lucileBooks: UserBook[] = [
   },
   {
     title: 'Les Tourmentés',
-    author: 'À compléter',
+    author: 'Lucas Belvaux',
     firstReadDate: '',
     lastReadDate: '',
     rating: 3,
@@ -1828,7 +1828,7 @@ export const lucileBooks: UserBook[] = [
   },
   {
     title: 'La Princesse sans visage (Les Royaumes immobiles, #1)',
-    author: 'Sophie Audouin-Mamikonian',
+    author: 'Ariel Holzl',
     firstReadDate: '',
     lastReadDate: '',
     rating: 5,
@@ -1842,7 +1842,7 @@ export const lucileBooks: UserBook[] = [
   },
   {
     title: 'Le Temps des sorcières',
-    author: 'Rin Chupeco',
+    author: 'Alix E. Harrow',
     firstReadDate: '',
     lastReadDate: '',
     rating: 5,
@@ -1884,7 +1884,7 @@ export const lucileBooks: UserBook[] = [
   },
   {
     title: "L'Été où tout a fondu",
-    author: 'Elizabeth Lim',
+    author: 'Tiffany McDaniel',
     firstReadDate: '',
     lastReadDate: '',
     rating: 4,
@@ -1898,7 +1898,7 @@ export const lucileBooks: UserBook[] = [
   },
   {
     title: 'Le Craquant de la nougatine',
-    author: 'Agnès Desarthe',
+    author: 'Laure Manel',
     firstReadDate: '',
     lastReadDate: '',
     rating: 3,
@@ -1940,7 +1940,7 @@ export const lucileBooks: UserBook[] = [
   },
   {
     title: 'Désenchantées',
-    author: 'Florence Hinckel',
+    author: 'Marie Vareille',
     firstReadDate: '',
     lastReadDate: '',
     rating: 5,
@@ -1954,7 +1954,7 @@ export const lucileBooks: UserBook[] = [
   },
   {
     title: 'Ainsi gèlent les bulles de savon',
-    author: 'Virginie Grimaldi',
+    author: 'Marie Vareille',
     firstReadDate: '',
     lastReadDate: '',
     rating: 5,

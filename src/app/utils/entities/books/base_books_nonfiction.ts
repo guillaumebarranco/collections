@@ -200,7 +200,7 @@ export const baseBooksNonfiction: BaseBook[] = [
   {
     title: 'King Kong Théorie',
     author: 'Virginie Despentes',
-    coverUrl: 'https://m.media-amazon.com/images/I/81dD2KEoL3S.jpg',
+    coverUrl: '/books_pictures/a542b5d6ad02.jpg',
     pages: 154,
     genre: ['Nonfiction'],
     saga: '',
@@ -215,7 +215,7 @@ export const baseBooksNonfiction: BaseBook[] = [
     title: 'Becoming',
     author: 'Michelle Obama',
     coverUrl:
-      'https://m.media-amazon.com/images/I/81cJTmFpG-L._AC_UF1000,1000_QL80_.jpg',
+      '/books_pictures/faa547443915.jpg',
     pages: 448,
     genre: ['Nonfiction'],
     saga: '',
@@ -230,7 +230,7 @@ export const baseBooksNonfiction: BaseBook[] = [
     title: 'Une terre promise',
     author: 'Barack Obama',
     coverUrl:
-      'https://m.media-amazon.com/images/I/91jvLX0YdkL._AC_UF1000,1000_QL80_.jpg',
+      '/books_pictures/34a0a997e9ae.jpg',
     pages: 768,
     genre: ['Nonfiction'],
     saga: '',

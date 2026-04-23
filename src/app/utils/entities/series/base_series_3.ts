@@ -1191,6 +1191,36 @@ export const baseSeries3: BaseSerie[] = [
     countryOrigin: 'États-Unis',
   },
   {
+    title: 'The Offer',
+    director: 'Michael Tolkin, Nikki Toscano',
+    actors: [
+      {
+        name: 'Miles Teller',
+      },
+      {
+        name: 'Matthew Goode',
+      },
+      {
+        name: 'Juno Temple',
+      },
+    ],
+    coverUrl: '/series_pictures/the_offer_poster.jpg',
+    releaseDate: '2022-04-28',
+    endDate: '2022-06-16',
+    genre: ['Biography', 'Drama'],
+    seasonsData: [
+      {
+        seasonNumber: 1,
+        nbEpisodes: 10,
+        totalLength: 600,
+      },
+    ],
+    description: '',
+    fromEntity: null,
+    saga: '',
+    countryOrigin: 'États-Unis',
+  },
+  {
     title: 'The Office',
     director: 'Greg Daniels',
     actors: [

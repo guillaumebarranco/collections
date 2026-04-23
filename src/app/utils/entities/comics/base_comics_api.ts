@@ -56,7 +56,7 @@ export const baseComicsApi: BaseComic[] = [
     title: "Secret Invasion",
     writer: "Brian M. Bendis",
     designer: "Leinil Francis Yu",
-    coverUrl: "https://www.excalibur-comics.fr/28018-large_default/secret-invasion-marvel-poche.jpg",
+    coverUrl: "/comics_pictures/89791085bb23.jpg",
     releaseDate: "2009-01-07",
     pages: 0,
     genre: "Super-héro",

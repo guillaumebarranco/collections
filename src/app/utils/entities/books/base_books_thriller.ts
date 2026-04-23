@@ -481,7 +481,7 @@ export const baseBooksThriller: BaseBook[] = [
   {
     title: 'Le manuscrit inachevé',
     author: 'Franck Thilliez',
-    coverUrl: 'https://m.media-amazon.com/images/I/71dn17EdEfL.jpg',
+    coverUrl: '/books_pictures/676f104cb83b.jpg',
     pages: 528,
     genre: ['Thriller', 'Policier'],
     saga: '',

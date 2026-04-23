@@ -1027,7 +1027,7 @@ export const baseBooksFantasySaga: BaseBook[] = [
     title: "La tour de l'hirondelle (The Witcher, #6)",
     author: 'Andrzej Sapkowski',
     coverUrl:
-      'https://cdn.cultura.com/cdn-cgi/image/width=830/media/pim/TITELIVE/11_9791028106836_1_75.jpg',
+      '/books_pictures/ac9d6a8accc6.jpg',
     pages: 480,
     genre: ['Fantasy'],
     saga: 'Sorceleur',
@@ -1056,7 +1056,7 @@ export const baseBooksFantasySaga: BaseBook[] = [
     title: 'La saison des orages (The Witcher, #8)',
     author: 'Andrzej Sapkowski',
     coverUrl:
-      'https://www.bragelonne.fr/media/cache/cat_w272/98/9791028127398.jpg',
+      '/books_pictures/dd6fa17a7f69.jpg',
     pages: 531,
     genre: ['Fantasy'],
     saga: 'Sorceleur',

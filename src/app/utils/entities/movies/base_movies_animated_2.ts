@@ -3700,7 +3700,7 @@ export const baseMoviesAnimated2: BaseMovie[] = [
     director: 'Zhao Ji',
     actors: [{ name: 'Yang Tianxiang' }, { name: 'Zhang He' }],
     coverUrl:
-      'https://fr.web.img6.acsta.net/pictures/21/03/26/14/50/5813763.jpg',
+      '/movies_pictures/e888e11de453.jpg',
     releaseDate: '2021-02-12',
     length: 116,
     genre: ['Animation', 'Action', 'Fantastique'],

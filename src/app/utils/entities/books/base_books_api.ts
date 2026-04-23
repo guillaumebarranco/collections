@@ -1884,7 +1884,7 @@ export const baseBooksApi: BaseBook[] = [
   {
     title: "La Novice",
     author: "Trudi Canavan",
-    coverUrl: "https://images.noosfere.org/couv/f/floisirs04004-2011.jpg",
+    coverUrl: "/books_pictures/37d8b7bcc956.jpg",
     pages: 507,
     genre: [],
     saga: "La Trilogie du Magicien Noir",
@@ -1899,7 +1899,7 @@ export const baseBooksApi: BaseBook[] = [
   {
     title: "Le Haut Seigneur",
     author: "Trudi Canavan",
-    coverUrl: "https://m.media-amazon.com/images/I/81BktU10p0L._AC_UF1000,1000_QL80_.jpg",
+    coverUrl: "/books_pictures/c06306d5411d.jpg",
     pages: 591,
     genre: [],
     saga: "La Trilogie du Magicien Noir",
