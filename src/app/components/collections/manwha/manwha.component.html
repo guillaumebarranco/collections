@@ -40,8 +40,7 @@
     <span class="missing-badge" style="background-color: #00695c; color: white"
       >Prêté à {{ manwha.loaned }}</span
     >
-    } @if ((manwha.readTimes ?? 0) === 0.5 && isReadlistView && !isBaseEntityView)
-    {
+    } @if ((manwha.readTimes) === 0.5 && isReadlistView && !isBaseEntityView) {
     <span class="missing-badge" style="background-color: #3f51b5; color: white"
       >Lecture en cours</span
     >
@@ -85,7 +84,7 @@
       [recommendationBadge]="recommendationBadge"
       [showRating]="!isBaseEntityView"
       [selectedView]="selectedView"
-      [listReadTimes]="manwha.readTimes ?? 0"
+      [listReadTimes]="manwha.readTimes"
       [showAddToMyListActions]="showAddToMyReadlist"
       [canAddToMyWishlist]="canAddToMyReadlist"
       [canAddToMyDone]="canAddAsRead"

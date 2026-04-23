@@ -2398,8 +2398,7 @@ export const baseMoviesPage6: BaseMovie[] = [
       { name: 'John Dall' },
       { name: 'Farley Granger' },
     ],
-    coverUrl:
-      '/movies_pictures/8482f1d463bb.jpg',
+    coverUrl: '/movies_pictures/8482f1d463bb.jpg',
     releaseDate: '1948-08-28',
     length: 80,
     genre: ['Thriller'],
@@ -3499,7 +3498,7 @@ export const baseMoviesPage6: BaseMovie[] = [
   },
   {
     title: 'Steak',
-    director: 'Charles Nemes',
+    director: 'Quentin Dupieux',
     actors: [{ name: 'Eric' }, { name: 'Ramzy' }],
     coverUrl: '/movies_pictures/18772761.webp',
     releaseDate: '2007-01-01',

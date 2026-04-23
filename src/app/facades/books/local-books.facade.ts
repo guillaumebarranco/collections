@@ -17,6 +17,8 @@ import {
   baseBooksNonfiction,
   baseBooksJeunesse,
   baseBooksBond,
+  baseBooksRonanReadlistImport,
+  baseBooksLucileReadlistImport,
 } from '../../utils/entities/books';
 
 import {
@@ -38,7 +40,7 @@ import { dantesBooks } from '../../utils/users/dantes/books/dantes_books';
 import { masterofmadnessBooks } from '../../utils/users/masterofmadness/books/masterofmadness_books';
 import { marinaBooks } from '../../utils/users/marina/books/marina_books';
 import { cassandreBooks } from '../../utils/users/cassandre/books/cassandre_books';
-
+import { lucileBooks } from '../../utils/users/lucile/books/lucile_books';
 export const allBaseBooks: BaseBook[] = [
   ...baseBooks,
   ...baseBooksFantasySaga,
@@ -58,6 +60,8 @@ export const allBaseBooks: BaseBook[] = [
   ...baseBooksDystopie,
   ...baseBooksJeunesse,
   ...baseBooksBond,
+  ...baseBooksRonanReadlistImport,
+  ...baseBooksLucileReadlistImport,
 ];
 
 export function getLocalBooksByUser(userId: string): UserBook[] {
@@ -84,6 +88,8 @@ export function getLocalBooksByUser(userId: string): UserBook[] {
       return [...marinaBooks];
     case 'cassandre':
       return [...cassandreBooks];
+    case 'lucile':
+      return [...lucileBooks];
     default:
       return [];
   }

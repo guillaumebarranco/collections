@@ -16,3 +16,5 @@ export { baseBooksNonfiction } from './base_books_nonfiction';
 export { baseBooksDystopie } from './base_books_dystopie';
 export { baseBooksJeunesse } from './base_books_jeunesse';
 export { baseBooksBond } from './base_books_bond';
+export { baseBooksRonanReadlistImport } from './base_books_ronan_readlist_import';
+export { baseBooksLucileReadlistImport } from './base_books_lucile_readlist_import';
