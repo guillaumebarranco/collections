@@ -1321,4 +1321,19 @@ export const guillaumeBooks: UserBooks = [
     wantToReadAgain: false,
     ratingComment: '',
   },
+
+  {
+    title: "Le Dahlia noir",
+    author: "James Ellroy",
+    firstReadDate: "2026-04-24",
+    lastReadDate: "2026-04-24",
+    rating: 4,
+    readTimes: 1,
+    owned: false,
+    borrowed: "",
+    loaned: "",
+    readPriority: 2,
+    wantToReadAgain: false,
+    ratingComment: "C'est particulier quand même les romans noirs. Mais franchement c'est un bon bouquin, surtout la fin !\nJe trouve que ça a ses avantages d'avoir parfois un polar à la Agatha Christie, assez léger sur le ton, et parfois un roman noir comme ça.\n\nJe me suis déjà fait plusieurs fois la remarque sur certains Agatha Christie que la fin était toujours super, mais que parfois le reste du livre était un peu creux, heureusement qu'ils sont souvent courts donc ça se voit pas trop\nAvec Le Dahlia Noir clairement, c'est pas uniquement l'enquête qui fait le bouquin mais aussi les protagonistes et ce qui se passe à côté, y'a plus de tension constante je trouve. Mais forcément c'est très glauque etc\nContent de l'avoir lu en tout cas",
+  },
 ];
