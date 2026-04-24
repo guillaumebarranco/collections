@@ -1355,36 +1355,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 5,
   },
-  {
-    title: 'Godzilla × Kong: The New Empire',
-    director: 'Adam Wingard',
-    actors: [
-      {
-        name: 'Rebecca Hall',
-      },
-      {
-        name: 'Brian Tyree Henry',
-      },
-      {
-        name: 'Dan Stevens',
-      },
-      {
-        name: 'Kaylee Hottle',
-      },
-      {
-        name: 'Alex Ferns',
-      },
-    ],
-    coverUrl: '/movies_pictures/godzilla_kong_the_new_empire.jpg',
-    releaseDate: '2024-01-01',
-    length: 115,
-    genre: [],
-    saga: 'MonsterVerse',
-    description: '',
-    fromEntity: null,
-    countryOrigin: ['États-Unis'],
-    selectDisplayOrder: 5,
-  },
+
   {
     title: 'Ghostbusters: Frozen Empire',
     director: 'Gil Kenan',
@@ -1698,42 +1669,6 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     selectDisplayOrder: 5,
   },
 
-  {
-    title: 'Godzilla Minus One',
-    director: 'Takashi Yamazaki',
-    actors: [
-      {
-        name: 'Ryūnosuke Kamiki',
-      },
-      {
-        name: 'Minami Hamabe',
-      },
-      {
-        name: 'Yuki Yamada',
-      },
-      {
-        name: 'Munetaka Aoki',
-      },
-      {
-        name: 'Hidetaka Yoshioka',
-      },
-      {
-        name: 'Sakura Andō',
-      },
-      {
-        name: 'Kuranosuke Sasaki',
-      },
-    ],
-    coverUrl: '/movies_pictures/godzilla_minus_one.jpg',
-    releaseDate: '2023-01-01',
-    length: 125,
-    genre: ['Action'],
-    saga: '',
-    description: '',
-    fromEntity: null,
-    countryOrigin: ['Japon'],
-    selectDisplayOrder: 5,
-  },
   {
     title: 'Cinq nuits chez Freddy',
     director: 'Emma Tammi',
@@ -2879,30 +2814,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 5,
   },
-  {
-    title: 'Godzilla vs. Kong',
-    director: 'Adam Wingard',
-    actors: [
-      {
-        name: 'Alexander Skarsgård',
-      },
-      {
-        name: 'Millie Bobby Brown',
-      },
-      {
-        name: 'Rebecca Hall',
-      },
-    ],
-    coverUrl: '/movies_pictures/godzilla_vs_kong.jpg',
-    releaseDate: '2021-01-01',
-    length: 113,
-    genre: [],
-    saga: 'MonsterVerse',
-    description: '',
-    fromEntity: null,
-    countryOrigin: ['États-Unis'],
-    selectDisplayOrder: 5,
-  },
+
   {
     title: 'Boîte noire',
     director: 'Yann Gozlan',
@@ -3334,30 +3246,6 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     selectDisplayOrder: 5,
   },
 
-  {
-    title: 'Godzilla: King of the Monsters',
-    director: 'Michael Dougherty',
-    actors: [
-      {
-        name: 'Kyle Chandler',
-      },
-      {
-        name: 'Vera Farmiga',
-      },
-      {
-        name: 'Millie Bobby Brown',
-      },
-    ],
-    coverUrl: '/movies_pictures/godzilla_king_of_the_monsters.jpg',
-    releaseDate: '2019-01-01',
-    length: 132,
-    genre: [],
-    saga: 'MonsterVerse',
-    description: '',
-    fromEntity: null,
-    countryOrigin: ['États-Unis'],
-    selectDisplayOrder: 5,
-  },
   {
     title: 'The Specials',
     director: 'Éric Toledano, Olivier Nakache',
@@ -4909,30 +4797,6 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
   },
 
   {
-    title: 'Horrible Bosses 2',
-    director: 'Sean Anders',
-    actors: [
-      {
-        name: 'Jason Bateman',
-      },
-      {
-        name: 'Jason Sudeikis',
-      },
-      {
-        name: 'Charlie Day',
-      },
-    ],
-    coverUrl: '/movies_pictures/horrible_bosses_2.jpg',
-    releaseDate: '2014-12-24',
-    length: 108,
-    genre: ['Comédie'],
-    saga: '',
-    description: '',
-    fromEntity: null,
-    countryOrigin: ['États-Unis'],
-    selectDisplayOrder: 5,
-  },
-  {
     title: 'Fury',
     director: 'David Ayer',
     actors: [
@@ -5105,30 +4969,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 5,
   },
-  {
-    title: 'Godzilla',
-    director: 'Gareth Edwards',
-    actors: [
-      {
-        name: 'Aaron Taylor-Johnson',
-      },
-      {
-        name: 'Elizabeth Olsen',
-      },
-      {
-        name: 'Bryan Cranston',
-      },
-    ],
-    coverUrl: '/movies_pictures/godzilla.jpg',
-    releaseDate: '2014-05-14',
-    length: 123,
-    genre: ['Action'],
-    saga: 'MonsterVerse',
-    description: '',
-    fromEntity: null,
-    countryOrigin: ['États-Unis'],
-    selectDisplayOrder: 5,
-  },
+
   {
     title: 'Nos pires voisins',
     director: 'Nicholas Stoller',

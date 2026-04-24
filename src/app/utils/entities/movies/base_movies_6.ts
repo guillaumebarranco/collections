@@ -5111,7 +5111,7 @@ export const baseMoviesPage6: BaseMovie[] = [
     director: 'Jeanne Herry',
     actors: [
       {
-        name: 'Q2825427',
+        name: 'Adèle Exarchopoulos',
       },
       {
         name: 'Dali Benssalah',
@@ -7396,7 +7396,7 @@ export const baseMoviesPage6: BaseMovie[] = [
         name: 'Léa Seydoux',
       },
       {
-        name: 'Q2825427',
+        name: 'Adèle Exarchopoulos',
       },
       {
         name: 'Jérémie Laheurte',

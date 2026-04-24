@@ -976,4 +976,18 @@ export const guillaumeMangas: UserMangas = [
     borrowed: "",
     loaned: "",
   }
+,
+  {
+    title: "Lastman",
+    author: "Bastien Vivès, Balak, Michaël Sanlaville",
+    readDate: '',
+    rating: 0,
+    readTimes: 1,
+    owned: false,
+    readPriority: 1,
+    wantToReadAgain: false,
+    ratingComment: '',
+    borrowed: '',
+    loaned: '',
+  },
 ];

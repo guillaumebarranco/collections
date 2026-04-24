@@ -60,8 +60,7 @@ export const baseMangasApi: BaseManga[] = [
   {
     title: 'Billy Bat',
     author: 'Naoki Urasawa, Takashi Nagasaki',
-    coverUrl:
-      '/mangas_pictures/c27c0edc53dd.jpg',
+    coverUrl: '/mangas_pictures/c27c0edc53dd.jpg',
     genre: 'Seinen',
     nbTomes: 20,
     isFinished: true,
@@ -75,8 +74,7 @@ export const baseMangasApi: BaseManga[] = [
   {
     title: 'Deadman Wonderland',
     author: 'Jinsei Kataoka, Kazuma Kondou',
-    coverUrl:
-      '/mangas_pictures/b1aa9e3155a1.jpg',
+    coverUrl: '/mangas_pictures/b1aa9e3155a1.jpg',
     genre: 'Shonen',
     nbTomes: 13,
     isFinished: true,
@@ -90,8 +88,7 @@ export const baseMangasApi: BaseManga[] = [
   {
     title: 'Defense Devil',
     author: 'Youn In-Wan, Yang Kyung-il',
-    coverUrl:
-      '/mangas_pictures/ae37961fd689.jpg',
+    coverUrl: '/mangas_pictures/ae37961fd689.jpg',
     genre: 'Shonen',
     nbTomes: 10,
     isFinished: true,
@@ -119,8 +116,7 @@ export const baseMangasApi: BaseManga[] = [
   {
     title: 'Mirai Nikki',
     author: 'Sakae Esuno',
-    coverUrl:
-      '/mangas_pictures/96d3badfa623.jpg',
+    coverUrl: '/mangas_pictures/96d3badfa623.jpg',
     genre: 'Shonen',
     nbTomes: 12,
     isFinished: true,
@@ -134,8 +130,7 @@ export const baseMangasApi: BaseManga[] = [
   {
     title: 'Negima',
     author: 'Ken Akamatsu',
-    coverUrl:
-      '/mangas_pictures/b655cecef769.jpg',
+    coverUrl: '/mangas_pictures/b655cecef769.jpg',
     genre: 'Shonen',
     nbTomes: 38,
     isFinished: true,
@@ -149,13 +144,27 @@ export const baseMangasApi: BaseManga[] = [
   {
     title: 'Shangri-La Frontier',
     author: 'Katarina, Ryosuke Fuji',
-    coverUrl:
-      '/mangas_pictures/ca9d6f7bc76c.webp',
+    coverUrl: '/mangas_pictures/ca9d6f7bc76c.webp',
     genre: 'Shonen',
     nbTomes: 22,
     isFinished: false,
     startDate: '2020-07-10',
     endDate: '',
+    saga: '',
+    description: '',
+    fromEntity: null,
+  },
+
+  {
+    title: 'Monster Hunter Orage',
+    author: 'Hiro Mashima',
+    coverUrl:
+      'https://cdn.cultura.com/cdn-cgi/image/width=830/media/pim/TITELIVE/21_9782811618322_1_75.jpg',
+    genre: 'Shonen',
+    nbTomes: 4,
+    isFinished: true,
+    startDate: '2008-04-04',
+    endDate: '2009-08-04',
     saga: '',
     description: '',
     fromEntity: null,

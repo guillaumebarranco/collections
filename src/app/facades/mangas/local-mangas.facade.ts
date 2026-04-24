@@ -11,6 +11,7 @@ import { williamReadListMangas } from '../../utils/users/william/mangas/william_
 import { amandineReadListMangas } from '../../utils/users/amandine/mangas/amandine_readlist_mangas';
 import { kevinReadListMangas } from '../../utils/users/kevin/mangas/kevin_readlist_mangas';
 import { hikenMangas } from '../../utils/users/hiken/mangas/hiken_mangas';
+import { lucileMangas } from '../../utils/users/lucile/mangas/lucile_mangas';
 
 export const allBaseMangas: BaseManga[] = [...baseMangas, ...baseMangasApi];
 
@@ -28,6 +29,8 @@ export function getLocalMangasByUser(userId: string): UserManga[] {
       return [...kevinMangas];
     case 'hiken':
       return [...hikenMangas];
+    case 'lucile':
+      return [...lucileMangas];
     default:
       return [];
   }

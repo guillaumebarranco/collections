@@ -1839,7 +1839,7 @@ export const baseMoviesPage1: BaseMovie[] = [
     director: 'Stephen Sommers',
     actors: [
       {
-        name: 'Q129591',
+        name: 'Hugh Jackman',
       },
       {
         name: 'Kate Beckinsale',

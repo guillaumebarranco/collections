@@ -767,7 +767,7 @@ export const baseMoviesMcu: BaseMovie[] = [
         name: 'Danai Gurira',
       },
       {
-        name: 'Lupita Nyong\'o',
+        name: "Lupita Nyong'o",
       },
       {
         name: 'Florence Kasumba',
@@ -1100,7 +1100,7 @@ export const baseMoviesMcu: BaseMovie[] = [
         name: 'Ryan Reynolds',
       },
       {
-        name: 'Q129591',
+        name: 'Hugh Jackman',
       },
       {
         name: 'Morena Baccarin',

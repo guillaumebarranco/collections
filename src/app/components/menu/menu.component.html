@@ -144,7 +144,7 @@
               <span class="menu-label">Configuration de mon menu</span>
             </button>
             @if (isAdmin()) {
-            <button class="menu-subitem" type="button" [routerLink]="'/admin'">
+            <button class="menu-subitem" type="button" (click)="goToAdmin()">
               Aller sur la vue Admin
             </button>
             }
@@ -163,7 +163,7 @@
       </div>
     </div>
   </nav>
-  @if (impersonateService.impersonatedUserId()) {
+  @if (showImpersonationBanner()) {
   <div class="impersonation-banner" role="status" aria-live="polite">
     <p class="impersonation-banner__text">
       Connecté en tant que <strong>{{ currentUser() }}</strong> — vous consultez

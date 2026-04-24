@@ -180,7 +180,7 @@ export const baseMoviesOtherSuperheroes: BaseMovie[] = [
         name: 'Scott Adkins',
       },
       {
-        name: 'Q129591',
+        name: 'Hugh Jackman',
       },
     ],
     coverUrl:
@@ -199,7 +199,7 @@ export const baseMoviesOtherSuperheroes: BaseMovie[] = [
     director: 'James Mangold',
     actors: [
       {
-        name: 'Q129591',
+        name: 'Hugh Jackman',
       },
       {
         name: 'Tao Okamoto',
@@ -235,7 +235,7 @@ export const baseMoviesOtherSuperheroes: BaseMovie[] = [
     director: 'James Mangold',
     actors: [
       {
-        name: 'Q129591',
+        name: 'Hugh Jackman',
       },
       {
         name: 'Patrick Stewart',

@@ -56,4 +56,18 @@ export const lucileMangas: UserManga[] = [
     borrowed: '',
     loaned: '',
   },
+
+  {
+    title: "Monster Hunter Orage",
+    author: "Hiro Mashima",
+    readDate: '',
+    rating: 0,
+    readTimes: 1,
+    owned: false,
+    readPriority: 1,
+    wantToReadAgain: false,
+    ratingComment: '',
+    borrowed: '',
+    loaned: '',
+  },
 ];

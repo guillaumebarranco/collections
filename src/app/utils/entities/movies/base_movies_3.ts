@@ -3120,6 +3120,30 @@ export const baseMoviesPage3: BaseMovie[] = [
     selectDisplayOrder: 0,
   },
   {
+    title: 'Comment tuer son boss 2',
+    director: 'Sean Anders',
+    actors: [
+      {
+        name: 'Jason Bateman',
+      },
+      {
+        name: 'Jason Sudeikis',
+      },
+      {
+        name: 'Charlie Day',
+      },
+    ],
+    coverUrl: '/movies_pictures/horrible_bosses_2.jpg',
+    releaseDate: '2014-12-24',
+    length: 108,
+    genre: ['Comédie'],
+    saga: '',
+    description: '',
+    fromEntity: null,
+    countryOrigin: ['États-Unis'],
+    selectDisplayOrder: 5,
+  },
+  {
     title: 'Super 8',
     director: 'J.J. Abrams',
     actors: [
@@ -3437,7 +3461,7 @@ export const baseMoviesPage3: BaseMovie[] = [
         name: 'Ary Abittan',
       },
       {
-        name: 'Q2900809',
+        name: 'Bianca Gervais',
       },
       {
         name: 'Catherine Allégret',

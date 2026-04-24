@@ -2749,7 +2749,7 @@ export const baseMoviesSagaPage2: BaseMovie[] = [
     director: 'Patrice Leconte',
     actors: [
       {
-        name: 'Q1398256',
+        name: 'Michel Blanc',
       },
       {
         name: 'Marie-Anne Chazel',
@@ -2786,7 +2786,7 @@ export const baseMoviesSagaPage2: BaseMovie[] = [
     director: 'Patrice Leconte',
     actors: [
       {
-        name: 'Q1398256',
+        name: 'Michel Blanc',
       },
       {
         name: 'Marie-Anne Chazel',
@@ -2823,7 +2823,7 @@ export const baseMoviesSagaPage2: BaseMovie[] = [
     director: 'Patrice Leconte',
     actors: [
       {
-        name: 'Q1398256',
+        name: 'Michel Blanc',
       },
       {
         name: 'Marie-Anne Chazel',

@@ -373,8 +373,7 @@ export const baseMoviesPage2: BaseMovie[] = [
         name: 'James Earl Jones',
       },
     ],
-    coverUrl:
-      '/movies_pictures/78a71d7b6586.jpg',
+    coverUrl: '/movies_pictures/78a71d7b6586.jpg',
     releaseDate: '2019-07-17',
     length: 118,
     genre: ['Aventure', 'Jeunesse'],
@@ -410,8 +409,7 @@ export const baseMoviesPage2: BaseMovie[] = [
         name: 'Mads Mikkelsen',
       },
     ],
-    coverUrl:
-      '/movies_pictures/5f26c6da2f22.jpg',
+    coverUrl: '/movies_pictures/5f26c6da2f22.jpg',
     releaseDate: '2024-12-18',
     length: 118,
     genre: ['Aventure', 'Jeunesse'],
@@ -1002,14 +1000,14 @@ export const baseMoviesPage2: BaseMovie[] = [
     selectDisplayOrder: 0,
   },
   {
-    title: 'La Soupe aux choux',
+    title: 'La soupe aux choux',
     director: 'Jean Girault',
     actors: [
       { name: 'Louis de Funès' },
       { name: 'Jean Carmet' },
       { name: 'Jacques Villeret' },
     ],
-    coverUrl: '/movies_pictures/47276-the-cabbage-soup-0-150-0-225-crop.jpg',
+    coverUrl: '/movies_pictures/18478117.jpg',
     releaseDate: '1981-12-02',
     length: 98,
     genre: ['Comédie'],
@@ -3969,6 +3967,144 @@ export const baseMoviesPage2: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 30,
+  },
+  {
+    title: 'Godzilla',
+    director: 'Gareth Edwards',
+    actors: [
+      {
+        name: 'Aaron Taylor-Johnson',
+      },
+      {
+        name: 'Elizabeth Olsen',
+      },
+      {
+        name: 'Bryan Cranston',
+      },
+    ],
+    coverUrl: '/movies_pictures/godzilla.jpg',
+    releaseDate: '2014-05-14',
+    length: 123,
+    genre: ['Action'],
+    saga: 'MonsterVerse',
+    description: '',
+    fromEntity: null,
+    countryOrigin: ['États-Unis'],
+    selectDisplayOrder: 5,
+  },
+  {
+    title: 'Godzilla: King of the Monsters',
+    director: 'Michael Dougherty',
+    actors: [
+      {
+        name: 'Kyle Chandler',
+      },
+      {
+        name: 'Vera Farmiga',
+      },
+      {
+        name: 'Millie Bobby Brown',
+      },
+    ],
+    coverUrl: '/movies_pictures/godzilla_king_of_the_monsters.jpg',
+    releaseDate: '2019-01-01',
+    length: 132,
+    genre: [],
+    saga: 'MonsterVerse',
+    description: '',
+    fromEntity: null,
+    countryOrigin: ['États-Unis'],
+    selectDisplayOrder: 5,
+  },
+  {
+    title: 'Godzilla vs. Kong',
+    director: 'Adam Wingard',
+    actors: [
+      {
+        name: 'Alexander Skarsgård',
+      },
+      {
+        name: 'Millie Bobby Brown',
+      },
+      {
+        name: 'Rebecca Hall',
+      },
+    ],
+    coverUrl: '/movies_pictures/godzilla_vs_kong.jpg',
+    releaseDate: '2021-01-01',
+    length: 113,
+    genre: [],
+    saga: 'MonsterVerse',
+    description: '',
+    fromEntity: null,
+    countryOrigin: ['États-Unis'],
+    selectDisplayOrder: 5,
+  },
+  {
+    title: 'Godzilla Minus One',
+    director: 'Takashi Yamazaki',
+    actors: [
+      {
+        name: 'Ryūnosuke Kamiki',
+      },
+      {
+        name: 'Minami Hamabe',
+      },
+      {
+        name: 'Yuki Yamada',
+      },
+      {
+        name: 'Munetaka Aoki',
+      },
+      {
+        name: 'Hidetaka Yoshioka',
+      },
+      {
+        name: 'Sakura Andō',
+      },
+      {
+        name: 'Kuranosuke Sasaki',
+      },
+    ],
+    coverUrl: '/movies_pictures/godzilla_minus_one.jpg',
+    releaseDate: '2023-01-01',
+    length: 125,
+    genre: ['Action'],
+    saga: '',
+    description: '',
+    fromEntity: null,
+    countryOrigin: ['Japon'],
+    selectDisplayOrder: 5,
+  },
+  {
+    title: 'Godzilla × Kong: The New Empire',
+    director: 'Adam Wingard',
+    actors: [
+      {
+        name: 'Rebecca Hall',
+      },
+      {
+        name: 'Brian Tyree Henry',
+      },
+      {
+        name: 'Dan Stevens',
+      },
+      {
+        name: 'Kaylee Hottle',
+      },
+      {
+        name: 'Alex Ferns',
+      },
+    ],
+    coverUrl: '/movies_pictures/godzilla_kong_the_new_empire.jpg',
+    releaseDate: '2024-01-01',
+    length: 115,
+    genre: [],
+    saga: 'MonsterVerse',
+    description: '',
+    fromEntity: null,
+    countryOrigin: ['États-Unis'],
+    selectDisplayOrder: 5,
   },
   {
     title: 'Mon voisin le tueur',

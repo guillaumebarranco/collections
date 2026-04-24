@@ -5,8 +5,7 @@ export const baseBooksLucileReadlistImport: BaseBook[] = [
   {
     title: 'First-Time Caller (Heartstrings, #1)',
     author: 'B. K. Borison',
-    coverUrl:
-      '/books_pictures/92fbb1935854.jpg',
+    coverUrl: '/books_pictures/92fbb1935854.jpg',
     genre: ['Romance'],
     saga: '',
     sagaOrder: 0,
@@ -19,8 +18,7 @@ export const baseBooksLucileReadlistImport: BaseBook[] = [
   {
     title: 'Le tourbillon des possibles',
     author: 'Clara Héraut',
-    coverUrl:
-      '/books_pictures/653ab60d3e17.jpg',
+    coverUrl: '/books_pictures/653ab60d3e17.jpg',
     genre: ['Romance'],
     saga: '',
     sagaOrder: 0,
@@ -33,8 +31,7 @@ export const baseBooksLucileReadlistImport: BaseBook[] = [
   {
     title: 'Rebel Witch (Heartless Hunter, #2)',
     author: 'Kristen Ciccarelli',
-    coverUrl:
-      '/books_pictures/87cf59902b5f.jpg',
+    coverUrl: '/books_pictures/87cf59902b5f.jpg',
     genre: ['Romance'],
     saga: '',
     sagaOrder: 0,
@@ -47,8 +44,7 @@ export const baseBooksLucileReadlistImport: BaseBook[] = [
   {
     title: "A Witch's Guide to fake dating a demon",
     author: 'Sarah Hawley',
-    coverUrl:
-      '/books_pictures/c3043af6e0a4.jpeg',
+    coverUrl: '/books_pictures/c3043af6e0a4.jpeg',
     genre: ['Romance'],
     saga: '',
     sagaOrder: 0,
@@ -87,8 +83,7 @@ export const baseBooksLucileReadlistImport: BaseBook[] = [
   {
     title: 'The Break Up Artists',
     author: 'Philip Siegel',
-    coverUrl:
-      '/books_pictures/d07013d927aa.jpg',
+    coverUrl: '/books_pictures/d07013d927aa.jpg',
     genre: ['Romance'],
     saga: '',
     sagaOrder: 0,
@@ -101,8 +96,7 @@ export const baseBooksLucileReadlistImport: BaseBook[] = [
   {
     title: "L'ascension d'une légende (Atalante, #2)",
     author: 'Dana Roccia',
-    coverUrl:
-      '/books_pictures/6949b7f3a476.jpg',
+    coverUrl: '/books_pictures/6949b7f3a476.jpg',
     genre: ['Fantasy'],
     saga: '',
     sagaOrder: 0,
@@ -115,8 +109,7 @@ export const baseBooksLucileReadlistImport: BaseBook[] = [
   {
     title: 'Villa Gloria',
     author: 'Serena Giuliano',
-    coverUrl:
-      '/books_pictures/da946108a83d.jpg',
+    coverUrl: '/books_pictures/da946108a83d.jpg',
     genre: ['Fiction'],
     saga: '',
     sagaOrder: 0,
@@ -142,8 +135,7 @@ export const baseBooksLucileReadlistImport: BaseBook[] = [
   {
     title: 'The American Roommate Experiment (Spanish Love Deception, #2)',
     author: 'Elena Armas',
-    coverUrl:
-      '/books_pictures/508f4793486f.jpg',
+    coverUrl: '/books_pictures/508f4793486f.jpg',
     genre: ['Romance'],
     saga: '',
     sagaOrder: 0,
@@ -156,8 +148,7 @@ export const baseBooksLucileReadlistImport: BaseBook[] = [
   {
     title: 'The Forest Grimm',
     author: 'Kathryn Purdie',
-    coverUrl:
-      '/books_pictures/b893215ce7cb.jpg',
+    coverUrl: '/books_pictures/b893215ce7cb.jpg',
     genre: ['Fantasy'],
     saga: '',
     sagaOrder: 0,
@@ -170,8 +161,7 @@ export const baseBooksLucileReadlistImport: BaseBook[] = [
   {
     title: 'Les Azalées fleurissent en hiver',
     author: 'Dahlia Blake',
-    coverUrl:
-      '/books_pictures/65d18b8d2d06.webp',
+    coverUrl: '/books_pictures/65d18b8d2d06.webp',
     genre: ['Romance'],
     saga: '',
     sagaOrder: 0,
@@ -184,8 +174,7 @@ export const baseBooksLucileReadlistImport: BaseBook[] = [
   {
     title: "Défendre l'aube",
     author: '	Brigid Kemmerer',
-    coverUrl:
-      '/books_pictures/7d3f4ffec915.jpg',
+    coverUrl: '/books_pictures/7d3f4ffec915.jpg',
     genre: ['Fantasy'],
     saga: '',
     sagaOrder: 0,
@@ -198,8 +187,7 @@ export const baseBooksLucileReadlistImport: BaseBook[] = [
   {
     title: "La légion d'Oria (Affronter la nuit, #1)",
     author: 'Angèle Guissicca',
-    coverUrl:
-      '/books_pictures/ee10814d21e9.jpg',
+    coverUrl: '/books_pictures/ee10814d21e9.jpg',
     genre: ['Fantasy'],
     saga: '',
     sagaOrder: 0,
@@ -212,8 +200,7 @@ export const baseBooksLucileReadlistImport: BaseBook[] = [
   {
     title: "Impitoyables Serments (Lettres d'enchantement, #2)",
     author: 'Rebecca Ross',
-    coverUrl:
-      '/books_pictures/906ae43e1b02.jpg',
+    coverUrl: '/books_pictures/906ae43e1b02.jpg',
     genre: ['Fantasy'],
     saga: '',
     sagaOrder: 0,
@@ -226,8 +213,7 @@ export const baseBooksLucileReadlistImport: BaseBook[] = [
   {
     title: 'Heartless Hunter (The Crimson Moth, #1)',
     author: 'Kristen Ciccarelli',
-    coverUrl:
-      '/books_pictures/955e37b5a232.webp',
+    coverUrl: '/books_pictures/955e37b5a232.webp',
     genre: ['Fantasy'],
     saga: '',
     sagaOrder: 0,
@@ -240,8 +226,7 @@ export const baseBooksLucileReadlistImport: BaseBook[] = [
   {
     title: "La naissance d'une guerrière (Atalante, #1)",
     author: 'Manon Cadieux',
-    coverUrl:
-      '/books_pictures/a280326b72bb.webp',
+    coverUrl: '/books_pictures/a280326b72bb.webp',
     genre: ['Fantasy'],
     saga: '',
     sagaOrder: 0,
@@ -267,8 +252,7 @@ export const baseBooksLucileReadlistImport: BaseBook[] = [
   {
     title: 'Les Derniers Retrouveurs (Agence Perdido, #1)',
     author: 'Victor Dixen',
-    coverUrl:
-      '/books_pictures/1381acc238b2.jpg',
+    coverUrl: '/books_pictures/1381acc238b2.jpg',
     genre: ['Fantasy'],
     saga: '',
     sagaOrder: 0,
@@ -294,8 +278,7 @@ export const baseBooksLucileReadlistImport: BaseBook[] = [
   {
     title: 'La Théorie des couleurs',
     author: 'Antide Mangin',
-    coverUrl:
-      '/books_pictures/994077925d80.jpg',
+    coverUrl: '/books_pictures/994077925d80.jpg',
     genre: ['Fiction'],
     saga: '',
     sagaOrder: 0,
@@ -308,8 +291,7 @@ export const baseBooksLucileReadlistImport: BaseBook[] = [
   {
     title: 'Tenir debout',
     author: 'Mélissa Da Costa',
-    coverUrl:
-      '/books_pictures/ef3a6777ab4c.jpg',
+    coverUrl: '/books_pictures/ef3a6777ab4c.jpg',
     genre: ['Romance'],
     saga: '',
     sagaOrder: 0,
@@ -322,8 +304,7 @@ export const baseBooksLucileReadlistImport: BaseBook[] = [
   {
     title: 'Songlight (La trilogie des Torches, #1)',
     author: 'Moira Buffini',
-    coverUrl:
-      '/books_pictures/9c5fd1a4c9b0.jpg',
+    coverUrl: '/books_pictures/9c5fd1a4c9b0.jpg',
     genre: ['Fantasy'],
     saga: '',
     sagaOrder: 0,
@@ -336,8 +317,7 @@ export const baseBooksLucileReadlistImport: BaseBook[] = [
   {
     title: 'Un Été pour te retrouver (Seasons #4)',
     author: 'Morgane Moncomble',
-    coverUrl:
-      '/books_pictures/fd3d299aac71.jpg',
+    coverUrl: '/books_pictures/fd3d299aac71.jpg',
     genre: ['Romance'],
     saga: '',
     sagaOrder: 0,
@@ -350,8 +330,7 @@ export const baseBooksLucileReadlistImport: BaseBook[] = [
   {
     title: 'Dark Skies (Dark Shores, #2)',
     author: 'Danielle L. Jensen',
-    coverUrl:
-      '/books_pictures/272c749c698c.jpg',
+    coverUrl: '/books_pictures/272c749c698c.jpg',
     genre: ['Fantasy'],
     saga: '',
     sagaOrder: 0,
@@ -364,8 +343,7 @@ export const baseBooksLucileReadlistImport: BaseBook[] = [
   {
     title: 'Du chaos naissent les étoiles',
     author: 'Marilyse Trécourt',
-    coverUrl:
-      '/books_pictures/83f3ad4e28f3.jpg',
+    coverUrl: '/books_pictures/83f3ad4e28f3.jpg',
     genre: ['Fiction'],
     saga: '',
     sagaOrder: 0,
@@ -378,8 +356,7 @@ export const baseBooksLucileReadlistImport: BaseBook[] = [
   {
     title: 'Possession (Les Jumeaux Crochemort, #2)',
     author: "Cassandra O'Donnell",
-    coverUrl:
-      '/books_pictures/0869f4b51c25.jpg',
+    coverUrl: '/books_pictures/0869f4b51c25.jpg',
     genre: ['Fantasy'],
     saga: '',
     sagaOrder: 0,
@@ -392,8 +369,7 @@ export const baseBooksLucileReadlistImport: BaseBook[] = [
   {
     title: 'Divines Rivalités',
     author: 'Rebecca Ross',
-    coverUrl:
-      '/books_pictures/142dad6b7fac.jpg',
+    coverUrl: '/books_pictures/142dad6b7fac.jpg',
     genre: ['Fantasy'],
     saga: '',
     sagaOrder: 0,
@@ -406,8 +382,7 @@ export const baseBooksLucileReadlistImport: BaseBook[] = [
   {
     title: 'Recettes cubaines pour guérir un coeur brisé',
     author: 'Lynda Cohen Loigman',
-    coverUrl:
-      '/books_pictures/d9b10fb65136.jpg',
+    coverUrl: '/books_pictures/d9b10fb65136.jpg',
     genre: ['Romance'],
     saga: '',
     sagaOrder: 0,
@@ -420,8 +395,7 @@ export const baseBooksLucileReadlistImport: BaseBook[] = [
   {
     title: 'Bretzel Break',
     author: 'Cécile Chomin',
-    coverUrl:
-      '/books_pictures/9da0ae7b17b3.jpg',
+    coverUrl: '/books_pictures/9da0ae7b17b3.jpg',
     genre: ['Romance'],
     saga: '',
     sagaOrder: 0,
@@ -434,8 +408,7 @@ export const baseBooksLucileReadlistImport: BaseBook[] = [
   {
     title: "Les Coquillages ne s'ouvrent qu'en été",
     author: 'Camille Pagan',
-    coverUrl:
-      '/books_pictures/1acadcef17db.webp',
+    coverUrl: '/books_pictures/1acadcef17db.webp',
     genre: ['Romance'],
     saga: '',
     sagaOrder: 0,
@@ -448,8 +421,7 @@ export const baseBooksLucileReadlistImport: BaseBook[] = [
   {
     title: 'Défier la nuit',
     author: 'Angèle Guissicca',
-    coverUrl:
-      '/books_pictures/7504f1c4bb4a.jpg',
+    coverUrl: '/books_pictures/7504f1c4bb4a.jpg',
     genre: ['Fantasy'],
     saga: '',
     sagaOrder: 0,
@@ -462,8 +434,7 @@ export const baseBooksLucileReadlistImport: BaseBook[] = [
   {
     title: 'Le Labyrinthe sans fin (Les Whisperwicks, #1)',
     author: 'Alyssa Wishingrad',
-    coverUrl:
-      '/books_pictures/db98512afe18.jpg',
+    coverUrl: '/books_pictures/db98512afe18.jpg',
     genre: ['Fantasy'],
     saga: '',
     sagaOrder: 0,
@@ -476,8 +447,7 @@ export const baseBooksLucileReadlistImport: BaseBook[] = [
   {
     title: 'Nuit Noire: Fille des Déferlantes (1)',
     author: 'Philip Reeve',
-    coverUrl:
-      '/books_pictures/c5b7a756abe2.jpg',
+    coverUrl: '/books_pictures/c5b7a756abe2.jpg',
     genre: ['Fantasy'],
     saga: '',
     sagaOrder: 0,
@@ -490,8 +460,7 @@ export const baseBooksLucileReadlistImport: BaseBook[] = [
   {
     title: 'Un printemps pour te succomber (Seasons #3)',
     author: 'Morgane Moncomble',
-    coverUrl:
-      '/books_pictures/3061100b0694.jpg',
+    coverUrl: '/books_pictures/3061100b0694.jpg',
     genre: ['Romance'],
     saga: '',
     sagaOrder: 0,
@@ -503,9 +472,8 @@ export const baseBooksLucileReadlistImport: BaseBook[] = [
   },
   {
     title: 'La Dernière Allumette',
-    author: 'Aurélie Resch',
-    coverUrl:
-      '/books_pictures/53466ba80e5f.webp',
+    author: 'Marie Vareille',
+    coverUrl: '/books_pictures/53466ba80e5f.webp',
     genre: ['Fiction'],
     saga: '',
     sagaOrder: 0,
@@ -518,8 +486,7 @@ export const baseBooksLucileReadlistImport: BaseBook[] = [
   {
     title: 'Fourth Wing (The Empyrean, #1)',
     author: 'Rebecca Yarros',
-    coverUrl:
-      '/books_pictures/e50b742e97b4.jpg',
+    coverUrl: '/books_pictures/e50b742e97b4.jpg',
     genre: ['Romance'],
     saga: '',
     sagaOrder: 0,
@@ -532,8 +499,7 @@ export const baseBooksLucileReadlistImport: BaseBook[] = [
   {
     title: 'Ce Don Perfide (The Last Finestra, #1)',
     author: 'Emily Thiede',
-    coverUrl:
-      '/books_pictures/5a3da0bb3c70.jpg',
+    coverUrl: '/books_pictures/5a3da0bb3c70.jpg',
     genre: ['Fantasy'],
     saga: '',
     sagaOrder: 0,
@@ -546,8 +512,7 @@ export const baseBooksLucileReadlistImport: BaseBook[] = [
   {
     title: 'Plein-Ciel',
     author: 'Marie Pavlenko',
-    coverUrl:
-      '/books_pictures/d4657b598b8a.jpg',
+    coverUrl: '/books_pictures/d4657b598b8a.jpg',
     genre: ['Fantasy'],
     saga: '',
     sagaOrder: 0,
@@ -560,8 +525,7 @@ export const baseBooksLucileReadlistImport: BaseBook[] = [
   {
     title: 'Un hiver pour te résister (Seasons #2)',
     author: 'Morgane Moncomble',
-    coverUrl:
-      '/books_pictures/4b0468f7dee2.jpg',
+    coverUrl: '/books_pictures/4b0468f7dee2.jpg',
     genre: ['Romance'],
     saga: '',
     sagaOrder: 0,
@@ -574,8 +538,7 @@ export const baseBooksLucileReadlistImport: BaseBook[] = [
   {
     title: 'Les Sœurs Wickwood',
     author: 'Ludivine Irolla',
-    coverUrl:
-      '/books_pictures/d2f0a07b2390.jpg',
+    coverUrl: '/books_pictures/d2f0a07b2390.jpg',
     genre: ['Fiction'],
     saga: '',
     sagaOrder: 0,
@@ -588,8 +551,7 @@ export const baseBooksLucileReadlistImport: BaseBook[] = [
   {
     title: 'Un coeur pour Noël',
     author: 'Chloé Delaume',
-    coverUrl:
-      '/books_pictures/50522885df93.jpg',
+    coverUrl: '/books_pictures/50522885df93.jpg',
     genre: ['Romance'],
     saga: '',
     sagaOrder: 0,
@@ -602,8 +564,7 @@ export const baseBooksLucileReadlistImport: BaseBook[] = [
   {
     title: 'Cursed Crowns (Twin Crowns #2)',
     author: 'Catherine Doyle et Katherine Webber',
-    coverUrl:
-      '/books_pictures/4e4e6e46e7ab.jpeg',
+    coverUrl: '/books_pictures/4e4e6e46e7ab.jpeg',
     genre: ['Romance'],
     saga: '',
     sagaOrder: 0,
@@ -616,8 +577,7 @@ export const baseBooksLucileReadlistImport: BaseBook[] = [
   {
     title: 'Un automne pour te pardonner (Seasons, #1)',
     author: 'Morgane Moncomble',
-    coverUrl:
-      '/books_pictures/fdcbd37a001d.jpg',
+    coverUrl: '/books_pictures/fdcbd37a001d.jpg',
     genre: ['Romance'],
     saga: '',
     sagaOrder: 0,
@@ -630,8 +590,7 @@ export const baseBooksLucileReadlistImport: BaseBook[] = [
   {
     title: 'La Reine traîtresse',
     author: 'Victoria Aveyard',
-    coverUrl:
-      '/books_pictures/215c49613deb.jpg',
+    coverUrl: '/books_pictures/215c49613deb.jpg',
     genre: ['Fantasy'],
     saga: '',
     sagaOrder: 0,
@@ -644,8 +603,7 @@ export const baseBooksLucileReadlistImport: BaseBook[] = [
   {
     title: 'Paix à mon âme',
     author: 'Sweeney Boo',
-    coverUrl:
-      '/books_pictures/f856826b22a5.jpg',
+    coverUrl: '/books_pictures/f856826b22a5.jpg',
     genre: ['Fiction'],
     saga: '',
     sagaOrder: 0,
@@ -658,8 +616,7 @@ export const baseBooksLucileReadlistImport: BaseBook[] = [
   {
     title: "L'Effet Boule de Neige",
     author: 'Clara Héraut',
-    coverUrl:
-      '/books_pictures/cf8b7f117f66.jpg',
+    coverUrl: '/books_pictures/cf8b7f117f66.jpg',
     genre: ['Romance'],
     saga: '',
     sagaOrder: 0,
@@ -672,8 +629,7 @@ export const baseBooksLucileReadlistImport: BaseBook[] = [
   {
     title: 'La Maison sous la Maison',
     author: 'Émilie Chazerand',
-    coverUrl:
-      '/books_pictures/77c497b5e294.jpg',
+    coverUrl: '/books_pictures/77c497b5e294.jpg',
     genre: ['Thriller'],
     saga: '',
     sagaOrder: 0,
@@ -686,8 +642,7 @@ export const baseBooksLucileReadlistImport: BaseBook[] = [
   {
     title: 'La Société très secrète des Sorcières extraordinaires',
     author: 'Sangu Mandanna',
-    coverUrl:
-      '/books_pictures/3434590a2822.jpg',
+    coverUrl: '/books_pictures/3434590a2822.jpg',
     genre: ['Romance'],
     saga: '',
     sagaOrder: 0,
@@ -713,8 +668,7 @@ export const baseBooksLucileReadlistImport: BaseBook[] = [
   {
     title: 'La Cour de la Haute Montagne (The Five Crowns, #1)',
     author: 'Katharine Corr',
-    coverUrl:
-      '/books_pictures/45a3d725ba8e.jpg',
+    coverUrl: '/books_pictures/45a3d725ba8e.jpg',
     genre: ['Romance'],
     saga: '',
     sagaOrder: 0,
@@ -727,8 +681,7 @@ export const baseBooksLucileReadlistImport: BaseBook[] = [
   {
     title: 'La Malédiction (Les Jumeaux Crochemort, #1)',
     author: "Cassandra O'Donnell",
-    coverUrl:
-      '/books_pictures/ad64a3cb0531.webp',
+    coverUrl: '/books_pictures/ad64a3cb0531.webp',
     genre: ['Fantasy'],
     saga: '',
     sagaOrder: 0,
@@ -741,8 +694,7 @@ export const baseBooksLucileReadlistImport: BaseBook[] = [
   {
     title: 'La Cartomancienne (Les Arcanes de Brume, #1)',
     author: 'Fanny Caldin',
-    coverUrl:
-      '/books_pictures/f9027a1653e1.jpg',
+    coverUrl: '/books_pictures/f9027a1653e1.jpg',
     genre: ['Fantasy'],
     saga: '',
     sagaOrder: 0,
@@ -755,8 +707,7 @@ export const baseBooksLucileReadlistImport: BaseBook[] = [
   {
     title: 'Love on the Brain',
     author: 'Ali Hazelwood',
-    coverUrl:
-      '/books_pictures/9e8ba5aef34b.jpg',
+    coverUrl: '/books_pictures/9e8ba5aef34b.jpg',
     genre: ['Romance'],
     saga: '',
     sagaOrder: 0,
@@ -769,8 +720,7 @@ export const baseBooksLucileReadlistImport: BaseBook[] = [
   {
     title: 'Hotel Magnifique',
     author: 'Emily J. Taylor',
-    coverUrl:
-      '/books_pictures/43e69507d668.webp',
+    coverUrl: '/books_pictures/43e69507d668.webp',
     genre: ['Romance'],
     saga: '',
     sagaOrder: 0,
@@ -783,8 +733,7 @@ export const baseBooksLucileReadlistImport: BaseBook[] = [
   {
     title: 'Red Stone (Red Stone, #1)',
     author: 'Charlotte Ambrun',
-    coverUrl:
-      '/books_pictures/98acdb1c6eb4.jpg',
+    coverUrl: '/books_pictures/98acdb1c6eb4.jpg',
     genre: ['Fantasy'],
     saga: '',
     sagaOrder: 0,
@@ -823,8 +772,7 @@ export const baseBooksLucileReadlistImport: BaseBook[] = [
   {
     title: 'Fabricant de larmes - partie 1',
     author: 'Erin Doom',
-    coverUrl:
-      '/books_pictures/8bab91038508.jpg',
+    coverUrl: '/books_pictures/8bab91038508.jpg',
     genre: ['Fantasy'],
     saga: '',
     sagaOrder: 0,
@@ -850,8 +798,7 @@ export const baseBooksLucileReadlistImport: BaseBook[] = [
   {
     title: 'Le Pont des Tempêtes (The Bridge Kingdom, #1)',
     author: 'Danielle L. Jensen',
-    coverUrl:
-      '/books_pictures/448b7e04f191.jpg',
+    coverUrl: '/books_pictures/448b7e04f191.jpg',
     genre: ['Fantasy'],
     saga: '',
     sagaOrder: 0,
@@ -864,8 +811,7 @@ export const baseBooksLucileReadlistImport: BaseBook[] = [
   {
     title: 'L.a mer sans nom (Fable, #2)',
     author: 'Adrienne Young',
-    coverUrl:
-      '/books_pictures/1dcf9a543e91.jpg',
+    coverUrl: '/books_pictures/1dcf9a543e91.jpg',
     genre: ['Fantasy'],
     saga: '',
     sagaOrder: 0,
@@ -878,8 +824,7 @@ export const baseBooksLucileReadlistImport: BaseBook[] = [
   {
     title: "La Chasseuse et l'Alchimiste",
     author: 'Allison Saft',
-    coverUrl:
-      '/books_pictures/f2d0945b1bbe.jpg',
+    coverUrl: '/books_pictures/f2d0945b1bbe.jpg',
     genre: ['Fantasy'],
     saga: '',
     sagaOrder: 0,
@@ -892,8 +837,7 @@ export const baseBooksLucileReadlistImport: BaseBook[] = [
   {
     title: 'Les Souvenirs de Ferdinand Taupe (Mémoires de la forêt, #1)',
     author: 'Mickaël Brun-Arnaud',
-    coverUrl:
-      '/books_pictures/4cf8072b1582.jpg',
+    coverUrl: '/books_pictures/4cf8072b1582.jpg',
     genre: ['Fiction'],
     saga: '',
     sagaOrder: 0,
@@ -932,8 +876,7 @@ export const baseBooksLucileReadlistImport: BaseBook[] = [
   {
     title: "Quelqu'un à qui parler",
     author: 'Grégory Panaccione',
-    coverUrl:
-      '/books_pictures/541342611f4e.jpg',
+    coverUrl: '/books_pictures/541342611f4e.jpg',
     genre: ['Fiction'],
     saga: '',
     sagaOrder: 0,
@@ -946,8 +889,7 @@ export const baseBooksLucileReadlistImport: BaseBook[] = [
   {
     title: "Le Dit des cigales (Le Grimoire d'Elfie, #2)",
     author: 'Carole Tremblay',
-    coverUrl:
-      '/books_pictures/c65d42c57a2c.jpg',
+    coverUrl: '/books_pictures/c65d42c57a2c.jpg',
     genre: ['Fantasy'],
     saga: '',
     sagaOrder: 0,
@@ -960,8 +902,7 @@ export const baseBooksLucileReadlistImport: BaseBook[] = [
   {
     title: "L'île presque (Le Grimoire d'Elfie, #1)",
     author: 'Carole Tremblay',
-    coverUrl:
-      '/books_pictures/acbc78b747f5.jpg',
+    coverUrl: '/books_pictures/acbc78b747f5.jpg',
     genre: ['Fantasy'],
     saga: '',
     sagaOrder: 0,
@@ -974,8 +915,7 @@ export const baseBooksLucileReadlistImport: BaseBook[] = [
   {
     title: 'Le bruit de la pluie',
     author: 'Charlotte Link',
-    coverUrl:
-      '/books_pictures/71c2cf7db90f.webp',
+    coverUrl: '/books_pictures/71c2cf7db90f.webp',
     genre: ['Fiction'],
     saga: '',
     sagaOrder: 0,
@@ -988,8 +928,7 @@ export const baseBooksLucileReadlistImport: BaseBook[] = [
   {
     title: 'La voie de la sagesse',
     author: 'Anne Boudart',
-    coverUrl:
-      '/books_pictures/f53971dd5b8a.jpg',
+    coverUrl: '/books_pictures/f53971dd5b8a.jpg',
     genre: ['Fiction'],
     saga: '',
     sagaOrder: 0,
@@ -1002,8 +941,7 @@ export const baseBooksLucileReadlistImport: BaseBook[] = [
   {
     title: 'La Nouvelle(s) (s) (Elles, #1)',
     author: 'Kid Toussaint',
-    coverUrl:
-      '/books_pictures/f7d34f44f62e.jpg',
+    coverUrl: '/books_pictures/f7d34f44f62e.jpg',
     genre: ['Fiction'],
     saga: '',
     sagaOrder: 0,
@@ -1016,8 +954,7 @@ export const baseBooksLucileReadlistImport: BaseBook[] = [
   {
     title: 'Madeleine, résistante - Tome 1 - La Rose dégoupillée',
     author: 'Nathalie Somers',
-    coverUrl:
-      '/books_pictures/337889d72de3.jpg',
+    coverUrl: '/books_pictures/337889d72de3.jpg',
     genre: ['Fiction'],
     saga: '',
     sagaOrder: 0,
@@ -1056,8 +993,7 @@ export const baseBooksLucileReadlistImport: BaseBook[] = [
   {
     title: 'Un prince sans royaume (Vango, #2)',
     author: 'Timothée de Fombelle',
-    coverUrl:
-      '/books_pictures/6797f46bb027.jpg',
+    coverUrl: '/books_pictures/6797f46bb027.jpg',
     genre: ['Fiction'],
     saga: '',
     sagaOrder: 0,
@@ -1070,8 +1006,7 @@ export const baseBooksLucileReadlistImport: BaseBook[] = [
   {
     title: 'Vango: Entre ciel et terre (Vango #1)',
     author: 'Timothée de Fombelle',
-    coverUrl:
-      '/books_pictures/2791b3d20194.jpg',
+    coverUrl: '/books_pictures/2791b3d20194.jpg',
     genre: ['Fiction'],
     saga: '',
     sagaOrder: 0,
@@ -1084,8 +1019,7 @@ export const baseBooksLucileReadlistImport: BaseBook[] = [
   {
     title: 'Tobie Lolness - Đôi mắt Elisha',
     author: 'Timothée de Fombelle',
-    coverUrl:
-      '/books_pictures/b452ff203019.jpg',
+    coverUrl: '/books_pictures/b452ff203019.jpg',
     genre: ['Fiction'],
     saga: '',
     sagaOrder: 0,
@@ -1111,8 +1045,7 @@ export const baseBooksLucileReadlistImport: BaseBook[] = [
   {
     title: 'Les Nymphéas noirs',
     author: 'Michel Bussi',
-    coverUrl:
-      '/books_pictures/55a403f29058.webp',
+    coverUrl: '/books_pictures/55a403f29058.webp',
     genre: ['Fiction'],
     saga: '',
     sagaOrder: 0,
@@ -1138,8 +1071,7 @@ export const baseBooksLucileReadlistImport: BaseBook[] = [
   {
     title: 'Les Papillons',
     author: 'Barcella',
-    coverUrl:
-      '/books_pictures/1cdadf33e5d0.jpg',
+    coverUrl: '/books_pictures/1cdadf33e5d0.jpg',
     genre: ['Thriller'],
     saga: '',
     sagaOrder: 0,
@@ -1165,8 +1097,7 @@ export const baseBooksLucileReadlistImport: BaseBook[] = [
   {
     title: 'Le temps est assassin',
     author: 'Michel Bussi',
-    coverUrl:
-      '/books_pictures/f5437a714bdd.jpg',
+    coverUrl: '/books_pictures/f5437a714bdd.jpg',
     genre: ['Thriller'],
     saga: '',
     sagaOrder: 0,
@@ -1179,8 +1110,7 @@ export const baseBooksLucileReadlistImport: BaseBook[] = [
   {
     title: 'Insectes',
     author: 'Min-hye Zang',
-    coverUrl:
-      '/books_pictures/0176e8240c97.jpg',
+    coverUrl: '/books_pictures/0176e8240c97.jpg',
     genre: ['Fiction'],
     saga: '',
     sagaOrder: 0,
@@ -1193,8 +1123,7 @@ export const baseBooksLucileReadlistImport: BaseBook[] = [
   {
     title: 'Gravé dans le Sable',
     author: 'Michel Bussi',
-    coverUrl:
-      '/books_pictures/a447c20716d8.jpg',
+    coverUrl: '/books_pictures/a447c20716d8.jpg',
     genre: ['Thriller'],
     saga: '',
     sagaOrder: 0,
@@ -1207,8 +1136,7 @@ export const baseBooksLucileReadlistImport: BaseBook[] = [
   {
     title: 'Fais de beaux rêves...',
     author: 'Philip Le Roy',
-    coverUrl:
-      '/books_pictures/a1285c8dee1e.jpeg',
+    coverUrl: '/books_pictures/a1285c8dee1e.jpeg',
     genre: ['Fiction'],
     saga: '',
     sagaOrder: 0,
@@ -1234,8 +1162,7 @@ export const baseBooksLucileReadlistImport: BaseBook[] = [
   {
     title: "L'aventurière des mers (Fable, #1)",
     author: 'Adrienne Young',
-    coverUrl:
-      '/books_pictures/37ac8b409377.jpg',
+    coverUrl: '/books_pictures/37ac8b409377.jpg',
     genre: ['Fantasy'],
     saga: '',
     sagaOrder: 0,
@@ -1248,8 +1175,7 @@ export const baseBooksLucileReadlistImport: BaseBook[] = [
   {
     title: 'Les Sœurs Hollow',
     author: 'Krystal Sutherland',
-    coverUrl:
-      '/books_pictures/19dbbfc590f0.jpeg',
+    coverUrl: '/books_pictures/19dbbfc590f0.jpeg',
     genre: ['Fiction'],
     saga: '',
     sagaOrder: 0,
@@ -1262,8 +1188,7 @@ export const baseBooksLucileReadlistImport: BaseBook[] = [
   {
     title: 'Sous la porte qui chuchote',
     author: 'T.J. Klune',
-    coverUrl:
-      '/books_pictures/6ba4d407f01c.jpg',
+    coverUrl: '/books_pictures/6ba4d407f01c.jpg',
     genre: ['Fiction'],
     saga: '',
     sagaOrder: 0,
@@ -1276,8 +1201,7 @@ export const baseBooksLucileReadlistImport: BaseBook[] = [
   {
     title: 'Mon ami Pierrot',
     author: 'Jim Bishop',
-    coverUrl:
-      '/books_pictures/0fefa4a941eb.jpg',
+    coverUrl: '/books_pictures/0fefa4a941eb.jpg',
     genre: ['Thriller'],
     saga: '',
     sagaOrder: 0,
@@ -1290,8 +1214,7 @@ export const baseBooksLucileReadlistImport: BaseBook[] = [
   {
     title: "Ma Crohn de vie, histoire d'une rescapée à l'intestin malade",
     author: 'Juliette Mercier',
-    coverUrl:
-      '/books_pictures/808546fd7219.webp',
+    coverUrl: '/books_pictures/808546fd7219.webp',
     genre: ['Fiction'],
     saga: '',
     sagaOrder: 0,
@@ -1304,8 +1227,7 @@ export const baseBooksLucileReadlistImport: BaseBook[] = [
   {
     title: 'Les Tourmentés',
     author: 'Lucas Belvaux',
-    coverUrl:
-      '/books_pictures/fcdf8a7517a4.jpg',
+    coverUrl: '/books_pictures/fcdf8a7517a4.jpg',
     genre: ['Fiction'],
     saga: '',
     sagaOrder: 0,
@@ -1331,8 +1253,7 @@ export const baseBooksLucileReadlistImport: BaseBook[] = [
   {
     title: 'Le Temps des sorcières',
     author: 'Alix E. Harrow',
-    coverUrl:
-      '/books_pictures/0e0b7eb26be8.jpg',
+    coverUrl: '/books_pictures/0e0b7eb26be8.jpg',
     genre: ['Fantasy'],
     saga: '',
     sagaOrder: 0,
@@ -1345,8 +1266,7 @@ export const baseBooksLucileReadlistImport: BaseBook[] = [
   {
     title: 'Les Dix Mille Portes de January',
     author: 'Alix E. Harrow',
-    coverUrl:
-      '/books_pictures/db645c5edfeb.jpg',
+    coverUrl: '/books_pictures/db645c5edfeb.jpg',
     genre: ['Fiction'],
     saga: '',
     sagaOrder: 0,
@@ -1359,8 +1279,7 @@ export const baseBooksLucileReadlistImport: BaseBook[] = [
   {
     title: 'Le Monde après nous',
     author: 'Rumaan Alam',
-    coverUrl:
-      '/books_pictures/2fdd9cf4adb5.jpg',
+    coverUrl: '/books_pictures/2fdd9cf4adb5.jpg',
     genre: ['Fantasy'],
     saga: '',
     sagaOrder: 0,
@@ -1386,8 +1305,7 @@ export const baseBooksLucileReadlistImport: BaseBook[] = [
   {
     title: 'Le Craquant de la nougatine',
     author: 'Laure Manel',
-    coverUrl:
-      '/books_pictures/bddb6b6fd38e.jpg',
+    coverUrl: '/books_pictures/bddb6b6fd38e.jpg',
     genre: ['Fiction'],
     saga: '',
     sagaOrder: 0,
@@ -1400,8 +1318,7 @@ export const baseBooksLucileReadlistImport: BaseBook[] = [
   {
     title: 'Là où les arbres rencontrent les étoiles',
     author: 'Glendy Vanderah',
-    coverUrl:
-      '/books_pictures/8cdc740c0210.jpg',
+    coverUrl: '/books_pictures/8cdc740c0210.jpg',
     genre: ['Fiction'],
     saga: '',
     sagaOrder: 0,
@@ -1414,8 +1331,7 @@ export const baseBooksLucileReadlistImport: BaseBook[] = [
   {
     title: "L'Année de grâce",
     author: 'Kim Liggett',
-    coverUrl:
-      '/books_pictures/92cbe97c8cc8.jpg',
+    coverUrl: '/books_pictures/92cbe97c8cc8.jpg',
     genre: ['Fiction'],
     saga: '',
     sagaOrder: 0,
@@ -1428,8 +1344,7 @@ export const baseBooksLucileReadlistImport: BaseBook[] = [
   {
     title: 'Désenchantées',
     author: 'Marie Vareille',
-    coverUrl:
-      '/books_pictures/8fd7f7fd801e.jpg',
+    coverUrl: '/books_pictures/8fd7f7fd801e.jpg',
     genre: ['Fiction'],
     saga: '',
     sagaOrder: 0,
@@ -1442,8 +1357,7 @@ export const baseBooksLucileReadlistImport: BaseBook[] = [
   {
     title: 'Ainsi gèlent les bulles de savon',
     author: 'Marie Vareille',
-    coverUrl:
-      '/books_pictures/dd425a44ed99.jpg',
+    coverUrl: '/books_pictures/dd425a44ed99.jpg',
     genre: ['Romance'],
     saga: '',
     sagaOrder: 0,
@@ -1456,8 +1370,7 @@ export const baseBooksLucileReadlistImport: BaseBook[] = [
   {
     title: 'Gallant',
     author: 'V.E. Schwab',
-    coverUrl:
-      '/books_pictures/5351e2058c87.jpg',
+    coverUrl: '/books_pictures/5351e2058c87.jpg',
     genre: ['Fantasy'],
     saga: '',
     sagaOrder: 0,

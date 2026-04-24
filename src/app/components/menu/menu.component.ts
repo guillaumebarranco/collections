@@ -5,8 +5,11 @@ import {
   inject,
   computed,
   effect,
+  signal,
 } from '@angular/core';
-import { ActivatedRoute, Params, Router, RouterModule } from '@angular/router';
+import { NavigationEnd, Router, RouterModule } from '@angular/router';
+import { filter } from 'rxjs';
+import { takeUntilDestroyed } from '@angular/core/rxjs-interop';
 import { CommonModule } from '@angular/common';
 import { MatDialog } from '@angular/material/dialog';
 import { AuthService } from '../../core/auth.service';
@@ -25,6 +28,20 @@ import { getBadgeDefinitionById } from '../../utils/users/badges';
   styleUrls: ['./menu.component.scss'],
 })
 export class MenuComponent implements OnInit {
+  /** Premiers segments d’URL qui ne sont pas un profil `/:userId/...` (évite de confondre avec `:id` de routes internes). */
+  private static readonly URL_FIRST_SEGMENT_NOT_USER_PROFILE = new Set([
+    'admin',
+    'movies',
+    'series',
+    'games',
+    'comics',
+    'bds',
+    'manwhas',
+    'musics',
+    'adaptations',
+    'quizzs',
+  ]);
+
   isMobile = false;
   isCompactMenu = false;
   isReadingMenuOpen = false;
@@ -32,7 +49,6 @@ export class MenuComponent implements OnInit {
   isExtrasMenuOpen = false;
   isUserMenuOpen = false;
 
-  activatedRoute = inject(ActivatedRoute);
   router = inject(Router);
   authService = inject(AuthService);
   menuConfig = inject(MenuConfigService);
@@ -40,15 +56,33 @@ export class MenuComponent implements OnInit {
   profileBadgeService = inject(ProfileBadgeService);
   private readonly dialog = inject(MatDialog);
 
+  /**
+   * `:id` utilisateur dans l’URL, mis à jour à chaque fin de navigation (reload + navigation interne).
+   * Sans cela, les `computed` ne voient pas le changement d’URL (le Router n’est pas un signal).
+   */
+  private readonly routeUserId = signal<string | null>(
+    this.getUserProfileIdFromUrl(this.router.url)
+  );
+
   /** Utilisateur dont on affiche le contexte (impersonation ou route ou connecté). */
   effectiveUserId = computed(() => {
     const impersonated = this.impersonateService.impersonatedUserId();
     if (impersonated) return impersonated;
-    const routeId = this.getRouteIdFromRouter();
+    const routeId = this.routeUserId();
     if (routeId) return routeId;
     const auth =
       this.authService.getAuthenticatedUserId?.() ?? this.authService.userId();
     return auth ?? DEFAULT_USER_ID;
+  });
+
+  /** Bandeau : URL = profil Y alors que la session est X (y compris après F5 ; le signal d’impersonation seul est volatil). */
+  showImpersonationBanner = computed(() => {
+    const authRaw =
+      this.authService.getAuthenticatedUserId?.() ?? this.authService.userId();
+    const auth = authRaw?.trim().toLowerCase() ?? '';
+    const routeId = this.routeUserId()?.trim().toLowerCase() ?? '';
+    if (!auth || !routeId) return false;
+    return auth !== routeId;
   });
 
   currentUser = computed(() => {
@@ -89,6 +123,13 @@ export class MenuComponent implements OnInit {
     this.router.navigate([`/${uid}/dashboard`]);
   }
 
+  /** Vue admin : navigation explicite (fiable avec le menu utilisateur) + sortie d’impersonation. */
+  goToAdmin(): void {
+    this.closeUserMenu();
+    this.impersonateService.clearImpersonation();
+    void this.router.navigate(['/admin']);
+  }
+
   menuItems = [
     { label: 'Home', icon: '📊', key: 'dashboard', hideOnMobile: false },
     { label: 'Livres', icon: '📚', key: 'books', hideOnMobile: false },
@@ -111,6 +152,15 @@ export class MenuComponent implements OnInit {
   ];
 
   constructor() {
+    this.router.events
+      .pipe(
+        filter((e): e is NavigationEnd => e instanceof NavigationEnd),
+        takeUntilDestroyed()
+      )
+      .subscribe((e) => {
+        this.routeUserId.set(this.getUserProfileIdFromUrl(e.urlAfterRedirects));
+      });
+
     effect(() => {
       const uid = this.authService.userId();
       if (uid) {
@@ -133,15 +183,20 @@ export class MenuComponent implements OnInit {
     return `/${uid}/${route}`;
   }
 
-  /** Récupère l'id utilisateur depuis l'arbre des routes (ex. :id dans l'URL). */
-  private getRouteIdFromRouter(): string | null {
-    let route: ActivatedRoute | null = this.router.routerState.root;
-    while (route) {
-      const id = route.snapshot.params['id'];
-      if (id) return id;
-      route = route.firstChild;
-    }
-    return null;
+  /**
+   * Identifiant de profil dans une URL du type `/:userId/dashboard`, jamais sous `/admin` ni
+   * les routes catalogue / sélection (évite le premier `:id` ambigu de l’ActivatedRoute).
+   */
+  private getUserProfileIdFromUrl(routerUrl: string): string | null {
+    const path = routerUrl.split('?')[0].replace(/#.*$/, '');
+    const segments = path.split('/').filter(Boolean);
+    const first = segments[0];
+    if (!first) return null;
+    const lower = first.toLowerCase();
+    if (lower === 'admin') return null;
+    if (MenuComponent.URL_FIRST_SEGMENT_NOT_USER_PROFILE.has(lower)) return null;
+    if (lower.startsWith('select-')) return null;
+    return first;
   }
 
   @HostListener('window:resize')

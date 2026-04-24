@@ -1291,4 +1291,144 @@ export const baseMoviesApi: BaseMovie[] = [
     countryOrigin: ['France'],
     selectDisplayOrder: 5,
   },
+
+  {
+    title: 'Click : Télécommandez votre vie',
+    director: 'Frank Coraci',
+    actors: [
+      { name: 'Adam Sandler' },
+      { name: 'Kate Beckinsale' },
+      { name: 'Christopher Walken' },
+    ],
+    coverUrl:
+      'https://i.pathehome.com/product/fr/phf-norud2p1b0/7c6e7c-clicktelecommandezvotrevie_v_fr.png?auto=format,compress',
+    releaseDate: '2006-09-13',
+    length: 107,
+    genre: ['Comédie', 'Fantastique'],
+    saga: '',
+    description: '',
+    fromEntity: null,
+    countryOrigin: ['États-Unis'],
+    selectDisplayOrder: 5,
+  },
+
+  {
+    title: "L'arnaque",
+    director: 'George Roy Hill',
+    actors: [
+      { name: 'Paul Newman' },
+      { name: 'Robert Redford' },
+      { name: 'Robert Shaw' },
+    ],
+    coverUrl:
+      'https://media.senscritique.com/media/000019188970/300/l_arnaque.jpg',
+    releaseDate: '1974-03-22',
+    length: 129,
+    genre: ['Comédie', 'Policier'],
+    saga: '',
+    description: '',
+    fromEntity: null,
+    countryOrigin: ['États-Unis'],
+    selectDisplayOrder: 5,
+  },
+
+  {
+    title: 'Spartatouille',
+    director: 'Jason Friedberg, Aaron Seltzer',
+    actors: [
+      { name: 'Sean Maguire' },
+      { name: 'Carmen Electra' },
+      { name: 'Ken Davitian' },
+    ],
+    coverUrl:
+      'https://fr.web.img6.acsta.net/c_310_420/medias/nmedia/18/65/42/74/18951912.jpg',
+    releaseDate: '2008-07-16',
+    length: 84,
+    genre: ['Comédie', 'Peplum'],
+    saga: '',
+    description: '',
+    fromEntity: null,
+    countryOrigin: ['États-Unis'],
+    selectDisplayOrder: 5,
+  },
+
+  {
+    title: 'Big movie',
+    director: 'Jason Friedberg, Aaron Seltzer',
+    actors: [
+      { name: 'Kal Penn' },
+      { name: 'Adam Campbell' },
+      { name: 'Jennifer Coolidge' },
+    ],
+    coverUrl:
+      'https://fr.web.img6.acsta.net/medias/nmedia/18/63/76/92/18752477.jpg',
+    releaseDate: '2007-03-28',
+    length: 86,
+    genre: ['Comédie'],
+    saga: '',
+    description: '',
+    fromEntity: null,
+    countryOrigin: ['États-Unis', 'Allemagne'],
+    selectDisplayOrder: 5,
+  },
+
+  {
+    title: 'Lolita',
+    director: 'Stanley Kubrick',
+    actors: [
+      { name: 'James Mason' },
+      { name: 'Sue Lyon' },
+      { name: 'Shelley Winters' },
+    ],
+    coverUrl:
+      'https://fr.web.img3.acsta.net/medias/nmedia/18/35/90/91/19037281.jpg',
+    releaseDate: '1962-09-28',
+    length: 153,
+    genre: ['Drame', 'Romance'],
+    saga: '',
+    description: '',
+    fromEntity: null,
+    countryOrigin: ['États-Unis', 'Royaume-Uni'],
+    selectDisplayOrder: 5,
+  },
+
+  {
+    title: 'Spartacus',
+    director: 'Stanley Kubrick',
+    actors: [
+      { name: 'Kirk Douglas' },
+      { name: 'Laurence Olivier' },
+      { name: 'Jean Simmons' },
+    ],
+    coverUrl:
+      'https://upload.wikimedia.org/wikipedia/commons/c/ce/Spartacus_-_1960_-_poster.png',
+    releaseDate: '1960-10-19',
+    length: 197,
+    genre: ['Peplum', 'Historique', 'Action'],
+    saga: '',
+    description: '',
+    fromEntity: null,
+    countryOrigin: ['États-Unis'],
+    selectDisplayOrder: 5,
+  },
+
+  {
+    title: 'Docteur Folamour',
+    director: 'Stanley Kubrick',
+    actors: [
+      { name: 'Peter Sellers' },
+      { name: 'George C. Scott' },
+      { name: 'Sterling Hayden' },
+    ],
+    coverUrl:
+      'https://fr.web.img3.acsta.net/medias/nmedia/18/35/24/12/18376604.jpg',
+    releaseDate: '1964-03-11',
+    length: 94,
+    genre: ['Comédie', 'Guerre'],
+    saga: '',
+    description: '',
+    fromEntity: null,
+    countryOrigin: ['États-Unis', 'Royaume-Uni'],
+    selectDisplayOrder: 5,
+  },
 ];

@@ -1003,7 +1003,7 @@ export const baseMoviesFromAmandine: BaseMovie[] = [
         name: 'Zac Efron',
       },
       {
-        name: 'Q129591',
+        name: 'Hugh Jackman',
       },
       {
         name: 'Michelle Williams',
@@ -1420,7 +1420,7 @@ export const baseMoviesFromAmandine: BaseMovie[] = [
     director: 'Tom Hooper',
     actors: [
       {
-        name: 'Q129591',
+        name: 'Hugh Jackman',
       },
       {
         name: 'Russell Crowe',
@@ -3151,7 +3151,7 @@ export const baseMoviesFromAmandine: BaseMovie[] = [
     description: '',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
-    selectDisplayOrder: 5,
+    selectDisplayOrder: 20,
   },
 
   {

@@ -1002,7 +1002,7 @@ export const lucileBooks: UserBook[] = [
   },
   {
     title: 'La Dernière Allumette',
-    author: 'Aurélie Resch',
+    author: 'Marie Vareille',
     firstReadDate: '2024-03-25',
     lastReadDate: '2024-03-25',
     rating: 5,

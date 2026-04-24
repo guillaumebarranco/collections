@@ -1533,30 +1533,7 @@ export const baseSeries2: BaseSerie[] = [
     saga: '',
     countryOrigin: 'États-Unis',
   },
-  {
-    title: 'Misfits',
-    director: 'Howard Overman',
-    actors: [
-      { name: 'Nathan Stewart-Jarrett' },
-      { name: 'Joseph Gilgun' },
-      { name: 'Iwan Rheon' },
-    ],
-    coverUrl: '/series_pictures/da3c199536a1.jpg',
-    releaseDate: '2009-11-12',
-    endDate: '2013-12-11',
-    genre: ['Comedy', 'Drama', 'Fantasy'],
-    seasonsData: [
-      { seasonNumber: 1, nbEpisodes: 6, totalLength: 360 },
-      { seasonNumber: 2, nbEpisodes: 7, totalLength: 420 },
-      { seasonNumber: 3, nbEpisodes: 8, totalLength: 480 },
-      { seasonNumber: 4, nbEpisodes: 8, totalLength: 480 },
-      { seasonNumber: 5, nbEpisodes: 8, totalLength: 480 },
-    ],
-    description: '',
-    fromEntity: null,
-    saga: '',
-    countryOrigin: 'Royaume-Uni',
-  },
+
   {
     title: 'NCIS',
     director: 'Donald P. Bellisario',

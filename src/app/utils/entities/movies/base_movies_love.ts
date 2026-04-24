@@ -1172,7 +1172,7 @@ export const baseMoviesLove: BaseMovie[] = [
         name: 'Brenda Blethyn',
       },
       {
-        name: 'Q103784',
+        name: 'Donal Sutherland',
       },
       {
         name: 'Tom Hollander',
@@ -1652,7 +1652,7 @@ export const baseMoviesLove: BaseMovie[] = [
         name: 'François Civil',
       },
       {
-        name: 'Q2825427',
+        name: 'Adèle Exarchopoulos',
       },
       {
         name: 'Mallory Wanecque',

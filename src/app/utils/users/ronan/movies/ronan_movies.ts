@@ -7619,7 +7619,7 @@ export const ronanMovies: UserMovies = [
     inList: [],
   },
   {
-    title: 'Horrible Bosses 2',
+    title: 'Comment tuer son boss 2',
     director: 'Sean Anders',
     rating: 3.5,
     timesWatched: 1,
