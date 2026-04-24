@@ -1185,7 +1185,26 @@ export const baseMoviesPage3: BaseMovie[] = [
   {
     title: 'Over the Top : Le bras de fer',
     director: 'Menahem Golan',
-    actors: [{ name: 'Sylvester Stallone' }],
+    actors: [
+      {
+        name: 'Sylvester Stallone',
+      },
+      {
+        name: 'Robert Loggia',
+      },
+      {
+        name: 'Susan Blakely',
+      },
+      {
+        name: 'Rick Zumwalt',
+      },
+      {
+        name: 'David Mendenhall',
+      },
+      {
+        name: 'Terry Funk',
+      },
+    ],
     coverUrl: '/movies_pictures/50772-over-the-top-0-150-0-225-crop.jpg',
     releaseDate: '1987-02-13',
     length: 93,
@@ -1563,7 +1582,17 @@ export const baseMoviesPage3: BaseMovie[] = [
   {
     title: 'Ong Bak 2',
     director: 'Tony Jaa',
-    actors: [{ name: 'Tony Jaa' }],
+    actors: [
+      {
+        name: 'Tony Jaa',
+      },
+      {
+        name: 'Primrata Dej-Udom',
+      },
+      {
+        name: 'Patthama Panthong',
+      },
+    ],
     coverUrl: '/movies_pictures/41625-ong-bak-2-0-150-0-225-crop.jpg',
     releaseDate: '2008-12-05',
     length: 98,
@@ -1996,7 +2025,29 @@ export const baseMoviesPage3: BaseMovie[] = [
   {
     title: 'La chambre 1408',
     director: 'Mikael Håfström',
-    actors: [{ name: 'John Cusack' }],
+    actors: [
+      {
+        name: 'John Cusack',
+      },
+      {
+        name: 'Samuel L. Jackson',
+      },
+      {
+        name: 'Mary McCormack',
+      },
+      {
+        name: 'Tony Shalhoub',
+      },
+      {
+        name: 'Len Cariou',
+      },
+      {
+        name: 'Isiah Whitlock, Jr.',
+      },
+      {
+        name: 'Jasmine Jessica Anthony',
+      },
+    ],
     coverUrl: '/movies_pictures/49944-1408-0-150-0-225-crop.jpg',
     releaseDate: '2007-06-22',
     length: 104,
@@ -2287,7 +2338,29 @@ export const baseMoviesPage3: BaseMovie[] = [
   {
     title: 'La quête',
     director: 'Jean-Claude Van Damme',
-    actors: [{ name: 'Jean-Claude Van Damme' }],
+    actors: [
+      {
+        name: 'Antonio Banderas',
+      },
+      {
+        name: 'Salma Hayek Pinault',
+      },
+      {
+        name: 'Harvey Guillén',
+      },
+      {
+        name: 'Wagner Moura',
+      },
+      {
+        name: 'Florence Pugh',
+      },
+      {
+        name: 'Olivia Colman',
+      },
+      {
+        name: 'Ray Winstone',
+      },
+    ],
     coverUrl: '/movies_pictures/47342-the-quest-0-150-0-225-crop.jpg',
     releaseDate: '1996-04-26',
     length: 95,
@@ -2577,7 +2650,29 @@ export const baseMoviesPage3: BaseMovie[] = [
   {
     title: 'Street Fighter : La Légende de Chun-Li',
     director: 'Andrzej Bartkowiak',
-    actors: [{ name: 'Kristin Kreuk' }, { name: 'Chris Klein' }],
+    actors: [
+      {
+        name: 'Kristin Kreuk',
+      },
+      {
+        name: 'Chris Klein',
+      },
+      {
+        name: 'Neal McDonough',
+      },
+      {
+        name: 'Robin Shou',
+      },
+      {
+        name: 'Moon Bloodgood',
+      },
+      {
+        name: 'Josie Ho',
+      },
+      {
+        name: 'Taboo Nawasha',
+      },
+    ],
     coverUrl: '/movies_pictures/a2dbe4d4b877.png',
     releaseDate: '2009-02-27',
     length: 96,
@@ -2635,7 +2730,29 @@ export const baseMoviesPage3: BaseMovie[] = [
   {
     title: "Tekken 2: Kazuya's Revenge",
     director: 'Wych Kaosayananda',
-    actors: [{ name: 'Kane Kosugi' }, { name: 'Rade Šerbedžija' }],
+    actors: [
+      {
+        name: 'Cary-Hiroyuki Tagawa',
+      },
+      {
+        name: 'Gary Daniels',
+      },
+      {
+        name: 'Charlotte Kirk',
+      },
+      {
+        name: 'Rade Šerbedžija',
+      },
+      {
+        name: 'Ron Smoorenburg',
+      },
+      {
+        name: 'Russell Geoffrey Banks',
+      },
+      {
+        name: 'Kelly Wenham',
+      },
+    ],
     coverUrl: '/movies_pictures/a38231956acd.jpg',
     releaseDate: '2014-08-06',
     length: 90,
@@ -2923,7 +3040,29 @@ export const baseMoviesPage3: BaseMovie[] = [
   {
     title: 'Paul',
     director: 'Greg Mottola',
-    actors: [{ name: 'Simon Pegg' }],
+    actors: [
+      {
+        name: 'Simon Pegg',
+      },
+      {
+        name: 'Nick Frost',
+      },
+      {
+        name: 'Seth Rogen',
+      },
+      {
+        name: 'Jason Bateman',
+      },
+      {
+        name: 'Kristen Wiig',
+      },
+      {
+        name: 'Bill Hader',
+      },
+      {
+        name: 'Blythe Danner',
+      },
+    ],
     coverUrl: '/movies_pictures/paul.jpg',
     releaseDate: '2011-03-18',
     length: 104,

@@ -315,7 +315,29 @@ export const baseMoviesScienceFiction: BaseMovie[] = [
   {
     title: 'Alien vs. Predator : Requiem',
     director: 'Colin Strause, Greg Strause',
-    actors: [{ name: 'Steven Pasquale' }],
+    actors: [
+      {
+        name: 'Steven Pasquale',
+      },
+      {
+        name: 'Reiko Aylesworth',
+      },
+      {
+        name: 'John Ortiz',
+      },
+      {
+        name: 'Johnny Lewis',
+      },
+      {
+        name: 'Ariel Gade',
+      },
+      {
+        name: 'Sam Trammell',
+      },
+      {
+        name: 'Robert Joy',
+      },
+    ],
     coverUrl:
       '/movies_pictures/51655-avpr-aliens-vs-predator-requiem-0-150-0-225-crop.jpg',
     releaseDate: '2007-12-25',

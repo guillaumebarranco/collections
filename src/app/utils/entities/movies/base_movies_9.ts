@@ -49,7 +49,29 @@ export const baseMoviesPage9: BaseMovie[] = [
   {
     title: 'Frankenweenie',
     director: 'Tim Burton',
-    actors: [{ name: 'Charlie Tahan' }, { name: 'Winona Ryder' }],
+    actors: [
+      {
+        name: 'Frank Welker',
+      },
+      {
+        name: 'Winona Ryder',
+      },
+      {
+        name: 'Catherine O\'Hara',
+      },
+      {
+        name: 'Martin Short',
+      },
+      {
+        name: 'Martin Landau',
+      },
+      {
+        name: 'Robert Capron',
+      },
+      {
+        name: 'Atticus Shaffer',
+      },
+    ],
     coverUrl: '/movies_pictures/2c1f536a507d.jpg',
     releaseDate: '2012-10-05',
     length: 87,
@@ -336,7 +358,29 @@ export const baseMoviesPage9: BaseMovie[] = [
   {
     title: '10 jours sans maman',
     director: 'Philippe Lacheau',
-    actors: [{ name: 'Philippe Lacheau' }, { name: 'Vanessa Guide' }],
+    actors: [
+      {
+        name: 'Franck Dubosc',
+      },
+      {
+        name: 'Aure Atika',
+      },
+      {
+        name: 'Alexis Michalik',
+      },
+      {
+        name: 'Héléna Noguerra',
+      },
+      {
+        name: 'Violette Guillon',
+      },
+      {
+        name: 'Evan Paturel',
+      },
+      {
+        name: 'Ilan Debrabant',
+      },
+    ],
     coverUrl: '/movies_pictures/1503e35993cc.jpeg',
     releaseDate: '2023-04-12',
     length: 98,
@@ -550,7 +594,29 @@ export const baseMoviesPage9: BaseMovie[] = [
   {
     title: 'Napoléon',
     director: 'Ridley Scott',
-    actors: [{ name: 'Joaquin Phoenix' }, { name: 'Vanessa Kirby' }],
+    actors: [
+      {
+        name: 'Vanessa Kirby',
+      },
+      {
+        name: 'Joaquin Phoenix',
+      },
+      {
+        name: 'Tahar Rahim',
+      },
+      {
+        name: 'Youssef Kerkour',
+      },
+      {
+        name: 'Ludivine Sagnier',
+      },
+      {
+        name: 'Ian McNeice',
+      },
+      {
+        name: 'John Hollingworth',
+      },
+    ],
     coverUrl: '/movies_pictures/d3fa58c6e97c.jpg',
     releaseDate: '2023-11-22',
     length: 158,
@@ -1738,7 +1804,29 @@ export const baseMoviesPage9: BaseMovie[] = [
   {
     title: 'The Gift',
     director: 'Sam Raimi',
-    actors: [{ name: 'Cate Blanchett' }, { name: 'Keanu Reeves' }],
+    actors: [
+      {
+        name: 'Cate Blanchett',
+      },
+      {
+        name: 'Giovanni Ribisi',
+      },
+      {
+        name: 'Keanu Reeves',
+      },
+      {
+        name: 'Katie Holmes',
+      },
+      {
+        name: 'Greg Kinnear',
+      },
+      {
+        name: 'Hilary Swank',
+      },
+      {
+        name: 'Michael Jeter',
+      },
+    ],
     coverUrl: '/movies_pictures/1fa8ead04e68.jpg',
     releaseDate: '2000-12-22',
     length: 111,
@@ -1881,7 +1969,29 @@ export const baseMoviesPage9: BaseMovie[] = [
   {
     title: 'Priscilla',
     director: 'Sofia Coppola',
-    actors: [{ name: 'Cailee Spaeny' }, { name: 'Jacob Elordi' }],
+    actors: [
+      {
+        name: 'Cailee Spaeny',
+      },
+      {
+        name: 'Jacob Elordi',
+      },
+      {
+        name: 'Ari Cohen',
+      },
+      {
+        name: 'Dagmara Dominczyk',
+      },
+      {
+        name: 'Tim Post',
+      },
+      {
+        name: 'Lynne Griffin',
+      },
+      {
+        name: 'Dan Beirne',
+      },
+    ],
     coverUrl: '/movies_pictures/2931b18d8a2d.jpg',
     releaseDate: '2023-11-03',
     length: 113,
@@ -2863,7 +2973,29 @@ export const baseMoviesPage9: BaseMovie[] = [
   {
     title: 'The Kid',
     director: 'Charlie Chaplin',
-    actors: [{ name: 'Charlie Chaplin' }, { name: 'Jackie Coogan' }],
+    actors: [
+      {
+        name: 'Charlie Chaplin',
+      },
+      {
+        name: 'Jackie Coogan',
+      },
+      {
+        name: 'Carl Miller',
+      },
+      {
+        name: 'Edna Purviance',
+      },
+      {
+        name: 'Albert Austin',
+      },
+      {
+        name: 'Beulah Bains',
+      },
+      {
+        name: 'Nellie Bly Baker',
+      },
+    ],
     coverUrl: '/movies_pictures/7694fead40aa.jpg',
     releaseDate: '1921-02-06',
     length: 68,

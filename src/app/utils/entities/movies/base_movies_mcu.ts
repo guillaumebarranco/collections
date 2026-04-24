@@ -173,7 +173,25 @@ export const baseMoviesMcu: BaseMovie[] = [
     director: 'Joe Johnston',
     actors: [
       {
+        name: 'Tommy Lee Jones',
+      },
+      {
+        name: 'Hayley Atwell',
+      },
+      {
+        name: 'Stanley Tucci',
+      },
+      {
         name: 'Chris Evans',
+      },
+      {
+        name: 'Hugo Weaving',
+      },
+      {
+        name: 'Sebastian Stan',
+      },
+      {
+        name: 'Dominic Cooper',
       },
     ],
     coverUrl:
@@ -585,7 +603,25 @@ export const baseMoviesMcu: BaseMovie[] = [
     director: 'Nia DaCosta',
     actors: [
       {
-        name: 'Brie Larson',
+        name: 'Chris Pratt',
+      },
+      {
+        name: 'Zoe Saldaña',
+      },
+      {
+        name: 'Dave Bautista',
+      },
+      {
+        name: 'Karen Gillan',
+      },
+      {
+        name: 'Pom Klementieff',
+      },
+      {
+        name: 'Vin Diesel',
+      },
+      {
+        name: 'Bradley Cooper',
       },
     ],
     coverUrl: '/movies_pictures/536970-the-marvels-0-150-0-225-crop.jpg',
@@ -720,6 +756,24 @@ export const baseMoviesMcu: BaseMovie[] = [
     actors: [
       {
         name: 'Letitia Wright',
+      },
+      {
+        name: 'Winston Duke',
+      },
+      {
+        name: 'Angela Bassett',
+      },
+      {
+        name: 'Danai Gurira',
+      },
+      {
+        name: 'Lupita Nyong\'o',
+      },
+      {
+        name: 'Florence Kasumba',
+      },
+      {
+        name: 'Dominique Thorne',
       },
     ],
     coverUrl:

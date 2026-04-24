@@ -330,6 +330,24 @@ export const baseMoviesLove: BaseMovie[] = [
       {
         name: 'Giovanna Lancellotti',
       },
+      {
+        name: 'Leandro Lima',
+      },
+      {
+        name: 'Camilla de Lucas',
+      },
+      {
+        name: 'Bruno Montaleone',
+      },
+      {
+        name: 'Micael Borges',
+      },
+      {
+        name: 'Louise D&#39;Tuani',
+      },
+      {
+        name: 'Drayson Menezzes',
+      },
     ],
     coverUrl: '/movies_pictures/1060546-burning-betrayal-0-150-0-225-crop.jpg',
     releaseDate: '2023-10-25',
@@ -1697,6 +1715,24 @@ export const baseMoviesLove: BaseMovie[] = [
       {
         name: 'Vanessa Hudgens',
       },
+      {
+        name: 'Sam Palladio',
+      },
+      {
+        name: 'Nick Sagar',
+      },
+      {
+        name: 'Suanne Braun',
+      },
+      {
+        name: 'Mark Fleischmann',
+      },
+      {
+        name: 'Ricky Norwood',
+      },
+      {
+        name: 'Lachlan Nieboer',
+      },
     ],
     coverUrl:
       '/movies_pictures/569812-the-princess-switch-switched-again-0-150-0-225-crop.jpg',
@@ -2285,6 +2321,21 @@ export const baseMoviesLove: BaseMovie[] = [
       {
         name: 'Laura Felpin',
       },
+      {
+        name: 'Benjamin Tranié',
+      },
+      {
+        name: 'Abdulah Sissoko',
+      },
+      {
+        name: 'Alassane Diong',
+      },
+      {
+        name: 'Steve Tientcheu',
+      },
+      {
+        name: 'François Damiens',
+      },
     ],
     coverUrl: '/movies_pictures/amour-surcote.jpg',
     releaseDate: '2025-04-23',
@@ -2404,7 +2455,29 @@ export const baseMoviesLove: BaseMovie[] = [
   {
     title: 'Love Wedding Repeat',
     director: 'Dean Craig',
-    actors: [{ name: 'Sam Claflin' }, { name: 'Olivia Munn' }],
+    actors: [
+      {
+        name: 'Sam Claflin',
+      },
+      {
+        name: 'Olivia Munn',
+      },
+      {
+        name: 'Eleanor Tomlinson',
+      },
+      {
+        name: 'Freida Pinto',
+      },
+      {
+        name: 'Joel Fry',
+      },
+      {
+        name: 'Jack Farthing',
+      },
+      {
+        name: 'Allan Mustafa',
+      },
+    ],
     coverUrl: '/movies_pictures/3931365.webp',
     releaseDate: '2020-04-10',
     length: 100,
@@ -2458,7 +2531,29 @@ export const baseMoviesLove: BaseMovie[] = [
   {
     title: "À tous les garçons : P.S. Je t'aime toujours",
     director: 'Michael Fimognari',
-    actors: [{ name: 'Lana Condor' }, { name: 'Noah Centineo' }],
+    actors: [
+      {
+        name: 'Lana Condor',
+      },
+      {
+        name: 'Noah Centineo',
+      },
+      {
+        name: 'Jordan Fisher',
+      },
+      {
+        name: 'Anna Cathcart',
+      },
+      {
+        name: 'John Corbett',
+      },
+      {
+        name: 'Sarayu Blue',
+      },
+      {
+        name: 'Janel Parrish',
+      },
+    ],
     coverUrl: '/movies_pictures/5599609.webp',
     releaseDate: '2020-02-12',
     length: 102,

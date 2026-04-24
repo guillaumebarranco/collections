@@ -80,6 +80,24 @@ export const baseMoviesPage1: BaseMovie[] = [
       {
         name: 'Taron Egerton',
       },
+      {
+        name: 'Jason Bateman',
+      },
+      {
+        name: 'Sofia Carson',
+      },
+      {
+        name: 'Danielle Deadwyler',
+      },
+      {
+        name: 'Theo Rossi',
+      },
+      {
+        name: 'Logan Marshall-Green',
+      },
+      {
+        name: 'Dean Norris',
+      },
     ],
     coverUrl: '/movies_pictures/905876-carry-on-2024-0-150-0-225-crop.jpg',
     releaseDate: '2024-11-15',
@@ -236,6 +254,24 @@ export const baseMoviesPage1: BaseMovie[] = [
     actors: [
       {
         name: 'Sylvester Stallone',
+      },
+      {
+        name: 'Arnold Schwarzenegger',
+      },
+      {
+        name: 'Frank Stallone Jr.',
+      },
+      {
+        name: 'Quentin Tarantino',
+      },
+      {
+        name: 'Talia Shire',
+      },
+      {
+        name: 'Henry Winkler',
+      },
+      {
+        name: 'John Herzfeld',
       },
     ],
     coverUrl: '/movies_pictures/073f18caf5a23116b09d9b12d9828837.jpg',
@@ -1362,7 +1398,29 @@ export const baseMoviesPage1: BaseMovie[] = [
   {
     title: 'Brick',
     director: 'Philip Koch',
-    actors: [{ name: 'Matthias Schweighöfer' }, { name: 'Ruby O. Fee' }],
+    actors: [
+      {
+        name: 'Matthias Schweighöfer',
+      },
+      {
+        name: 'Ruby O. Fee',
+      },
+      {
+        name: 'Frederick Lau',
+      },
+      {
+        name: 'Salber Lee Williams',
+      },
+      {
+        name: 'Murathan Muslu',
+      },
+      {
+        name: 'Sira-Anna Faal',
+      },
+      {
+        name: 'Axel Werner',
+      },
+    ],
     coverUrl: '/movies_pictures/cdfeb09ef9b1b5e1d5b35269efd5735a.webp',
     releaseDate: '2025-07-10',
     length: 105,
@@ -2263,7 +2321,29 @@ export const baseMoviesPage1: BaseMovie[] = [
   {
     title: 'Le cercle : The ring',
     director: 'Gore Verbinski',
-    actors: [{ name: 'Naomi Watts' }],
+    actors: [
+      {
+        name: 'Brian Cox',
+      },
+      {
+        name: 'Naomi Watts',
+      },
+      {
+        name: 'Martin Henderson',
+      },
+      {
+        name: 'David Dorfman',
+      },
+      {
+        name: 'Jane Alexander',
+      },
+      {
+        name: 'Rachael Bella',
+      },
+      {
+        name: 'Amber Tamblyn',
+      },
+    ],
     coverUrl: '/movies_pictures/the-ring-0-150-0-225-crop.jpg',
     releaseDate: '2002-10-18',
     length: 115,
@@ -2619,7 +2699,29 @@ export const baseMoviesPage1: BaseMovie[] = [
   {
     title: 'Yao',
     director: 'Philippe Godeau',
-    actors: [{ name: 'Omar Sy' }],
+    actors: [
+      {
+        name: 'Omar Sy',
+      },
+      {
+        name: 'Fatoumata Diawara',
+      },
+      {
+        name: 'Lionel Louis Basse',
+      },
+      {
+        name: 'Germaine Acogny',
+      },
+      {
+        name: 'Alibeta',
+      },
+      {
+        name: 'Gwendolyn Gourvenec',
+      },
+      {
+        name: 'Abdoulaye Diop',
+      },
+    ],
     coverUrl: '/movies_pictures/4636245.jpg',
     releaseDate: '2018-12-19',
     length: 103,

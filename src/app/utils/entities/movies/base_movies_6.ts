@@ -5,7 +5,29 @@ export const baseMoviesPage6: BaseMovie[] = [
   {
     title: 'Jane',
     director: 'Julian Jarrold',
-    actors: [{ name: 'Anne Hathaway' }, { name: 'James McAvoy' }],
+    actors: [
+      {
+        name: 'Alison Sweeney',
+      },
+      {
+        name: 'Benjamin Ayres',
+      },
+      {
+        name: 'Kendra Anderson',
+      },
+      {
+        name: 'Aadila Dosani',
+      },
+      {
+        name: 'William Vaughan',
+      },
+      {
+        name: 'Debbie Podowski',
+      },
+      {
+        name: 'John Prowse',
+      },
+    ],
     coverUrl: '/movies_pictures/18827217.jpg',
     releaseDate: '2024-01-01',
     length: 100,
@@ -212,7 +234,29 @@ export const baseMoviesPage6: BaseMovie[] = [
   {
     title: 'La Théorie du Chaos',
     director: 'Marcos Siega',
-    actors: [{ name: 'Ryan Reynolds' }],
+    actors: [
+      {
+        name: 'Ryan Reynolds',
+      },
+      {
+        name: 'Emily Mortimer',
+      },
+      {
+        name: 'Stuart Townsend',
+      },
+      {
+        name: 'Matreya Fedor',
+      },
+      {
+        name: 'Sarah Chalke',
+      },
+      {
+        name: 'Mike Erwin',
+      },
+      {
+        name: 'Constance Zimmer',
+      },
+    ],
     coverUrl:
       '/movies_pictures/MV5BMTAzMjA1NTExNzVeQTJeQWpwZ15BbWU3MDI4OTI1NjE@._V1_.jpg',
     releaseDate: '2005-09-16',
@@ -263,7 +307,29 @@ export const baseMoviesPage6: BaseMovie[] = [
   {
     title: 'Leçons de vie',
     director: 'George Tillman Jr.',
-    actors: [{ name: 'Ryan Reynolds' }],
+    actors: [
+      {
+        name: 'James Wolk',
+      },
+      {
+        name: 'Treat Williams',
+      },
+      {
+        name: 'Dominic Scott Kay',
+      },
+      {
+        name: 'Sarah Drew',
+      },
+      {
+        name: 'Kathleen York',
+      },
+      {
+        name: 'Joe Chrest',
+      },
+      {
+        name: 'Patricia Heaton',
+      },
+    ],
     coverUrl:
       '/movies_pictures/fd1d34245720cb55957866c0356ed8e6c4f6bbdc4baa988521735ee582584cfb.jpg',
     releaseDate: '2007-10-12',
@@ -278,7 +344,29 @@ export const baseMoviesPage6: BaseMovie[] = [
   {
     title: 'Mise à prix',
     director: 'Howard Deutch',
-    actors: [{ name: 'Ryan Reynolds' }, { name: 'Ben Affleck' }],
+    actors: [
+      {
+        name: 'Heather Graham',
+      },
+      {
+        name: 'Mia Kirshner',
+      },
+      {
+        name: 'Tom Ellis',
+      },
+      {
+        name: 'Will Mellor',
+      },
+      {
+        name: 'Orlando Seale',
+      },
+      {
+        name: 'Ruta Gedmintas',
+      },
+      {
+        name: 'Nicholas Le Prevost',
+      },
+    ],
     coverUrl: '/movies_pictures/18766366.jpg',
     releaseDate: '2008-01-25',
     length: 99,
@@ -645,7 +733,29 @@ export const baseMoviesPage6: BaseMovie[] = [
   {
     title: "Deux drôles d'oiseaux",
     director: 'Forest Whitaker',
-    actors: [{ name: 'Sandra Bullock' }],
+    actors: [
+      {
+        name: 'Robert Duvall',
+      },
+      {
+        name: 'Richard Harris',
+      },
+      {
+        name: 'Shirley MacLaine',
+      },
+      {
+        name: 'Sandra Bullock',
+      },
+      {
+        name: 'Marty Belafsky',
+      },
+      {
+        name: 'Piper Laurie',
+      },
+      {
+        name: 'Micole Mercurio',
+      },
+    ],
     coverUrl: '/movies_pictures/deux_droles_d_oiseaux.jpg',
     releaseDate: '1996-09-13',
     length: 123,
@@ -659,7 +769,29 @@ export const baseMoviesPage6: BaseMovie[] = [
   {
     title: 'Nashville Blues',
     director: 'Peter Bogdanovich',
-    actors: [{ name: 'Sandra Bullock' }],
+    actors: [
+      {
+        name: 'River Phoenix',
+      },
+      {
+        name: 'Samantha Mathis',
+      },
+      {
+        name: 'Dermot Mulroney',
+      },
+      {
+        name: 'Sandra Bullock',
+      },
+      {
+        name: 'Anthony Clark',
+      },
+      {
+        name: 'Deborah Allen',
+      },
+      {
+        name: 'K.T. Oslin',
+      },
+    ],
     coverUrl: '/movies_pictures/nashville_blues.jpg',
     releaseDate: '1996-12-25',
     length: 118,
@@ -836,7 +968,29 @@ export const baseMoviesPage6: BaseMovie[] = [
   {
     title: 'Un Vent de folie',
     director: 'Callie Khouri',
-    actors: [{ name: 'Sandra Bullock' }, { name: 'Ben Affleck' }],
+    actors: [
+      {
+        name: 'Sandra Bullock',
+      },
+      {
+        name: 'Ben Affleck',
+      },
+      {
+        name: 'Maura Tierney',
+      },
+      {
+        name: 'Steve Zahn',
+      },
+      {
+        name: 'Blythe Danner',
+      },
+      {
+        name: 'Ronny Cox',
+      },
+      {
+        name: 'Michael Fairman',
+      },
+    ],
     coverUrl: '/movies_pictures/023294.jpg',
     releaseDate: '2002-06-28',
     length: 110,
@@ -1356,7 +1510,29 @@ export const baseMoviesPage6: BaseMovie[] = [
   {
     title: 'Histoires enchantées',
     director: 'Peter Segal',
-    actors: [{ name: 'Adam Sandler' }],
+    actors: [
+      {
+        name: 'Susanne Blakeslee',
+      },
+      {
+        name: 'Erin Torpey',
+      },
+      {
+        name: 'Corey Burton',
+      },
+      {
+        name: 'Barbara Dirickson',
+      },
+      {
+        name: 'Frank Welker',
+      },
+      {
+        name: 'Lea Salonga',
+      },
+      {
+        name: 'Linda Larkin',
+      },
+    ],
     coverUrl: '/movies_pictures/19000540.jpg',
     releaseDate: '2006-06-23',
     length: 109,
@@ -2471,7 +2647,29 @@ export const baseMoviesPage6: BaseMovie[] = [
   {
     title: 'La Promesse',
     director: 'Terry George',
-    actors: [{ name: 'Christian Bale' }, { name: 'Oscar Isaac' }],
+    actors: [
+      {
+        name: 'Oscar Isaac',
+      },
+      {
+        name: 'Charlotte Le Bon',
+      },
+      {
+        name: 'Christian Bale',
+      },
+      {
+        name: 'Marwan Kenzari',
+      },
+      {
+        name: 'Shohreh Aghdashloo',
+      },
+      {
+        name: 'Angela Sarafyan',
+      },
+      {
+        name: 'Daniel Giménez Cacho',
+      },
+    ],
     coverUrl: '/movies_pictures/1088701.webp',
     releaseDate: '2016-09-11',
     length: 134,
@@ -2485,7 +2683,29 @@ export const baseMoviesPage6: BaseMovie[] = [
   {
     title: 'Vice',
     director: 'Adam McKay',
-    actors: [{ name: 'Christian Bale' }, { name: 'Amy Adams' }],
+    actors: [
+      {
+        name: 'Christian Bale',
+      },
+      {
+        name: 'Amy Adams',
+      },
+      {
+        name: 'Alison Pill',
+      },
+      {
+        name: 'Steve Carell',
+      },
+      {
+        name: 'Sam Rockwell',
+      },
+      {
+        name: 'Bill Pullman',
+      },
+      {
+        name: 'Tyler Perry',
+      },
+    ],
     coverUrl: '/movies_pictures/0258747.jpg',
     releaseDate: '2018-12-25',
     length: 132,
@@ -2764,7 +2984,29 @@ export const baseMoviesPage6: BaseMovie[] = [
   {
     title: 'Love Song',
     director: 'Shainee Gabel',
-    actors: [{ name: 'Scarlett Johansson' }, { name: 'John Travolta' }],
+    actors: [
+      {
+        name: 'John Travolta',
+      },
+      {
+        name: 'Scarlett Johansson',
+      },
+      {
+        name: 'Gabriel Macht',
+      },
+      {
+        name: 'Deborah Kara Unger',
+      },
+      {
+        name: 'Dane Rhodes',
+      },
+      {
+        name: 'David Jensen',
+      },
+      {
+        name: 'Clayne Crawford',
+      },
+    ],
     coverUrl: '/movies_pictures/love_song.jpg',
     releaseDate: '2006-01-01',
     length: 119,
@@ -3040,7 +3282,29 @@ export const baseMoviesPage6: BaseMovie[] = [
   {
     title: 'Catching Fire: The Story of Anita Pallenberg',
     director: 'Alexis Bloom',
-    actors: [{ name: 'Scarlett Johansson' }],
+    actors: [
+      {
+        name: 'Anita Pallenberg',
+      },
+      {
+        name: 'Keith Richards',
+      },
+      {
+        name: 'Angela Richards',
+      },
+      {
+        name: 'Marlon Richards',
+      },
+      {
+        name: 'Marianne Faithfull',
+      },
+      {
+        name: 'Kate Moss',
+      },
+      {
+        name: 'Scarlett Johansson',
+      },
+    ],
     coverUrl: '/movies_pictures/dd3bea438c1c1e94d83d3cf36f9c4b8e.jpg',
     releaseDate: '2023-01-01',
     length: 113,
@@ -3271,7 +3535,23 @@ export const baseMoviesPage6: BaseMovie[] = [
   {
     title: 'Dreamland',
     director: 'Miles Joris-Peyrafitte',
-    actors: [{ name: 'Margot Robbie' }],
+    actors: [
+      {
+        name: 'Margot Robbie',
+      },
+      {
+        name: 'Travis Fimmel',
+      },
+      {
+        name: 'Garrett Hedlund',
+      },
+      {
+        name: 'Kerry Condon',
+      },
+      {
+        name: 'Finn Cole',
+      },
+    ],
     coverUrl: '/movies_pictures/81QKBQMzSBL.jpg',
     releaseDate: '2019-11-14',
     length: 98,
@@ -3287,10 +3567,19 @@ export const baseMoviesPage6: BaseMovie[] = [
     director: "Frances O'Connor",
     actors: [
       {
-        name: 'Margot Robbie',
+        name: 'Clément Bresson',
       },
       {
-        name: 'Jacob Elordi',
+        name: 'Caryl Phillips',
+      },
+      {
+        name: 'Lucasta Miller',
+      },
+      {
+        name: 'Isabel Greenberg',
+      },
+      {
+        name: 'Ann Dinsdale',
       },
     ],
     coverUrl: '/movies_pictures/0bf52c69f64606b7325be670294cb767.jpg',
@@ -3613,7 +3902,29 @@ export const baseMoviesPage6: BaseMovie[] = [
   {
     title: 'Docteur Patch',
     director: 'Tom Shadyac',
-    actors: [{ name: 'Robin Williams' }],
+    actors: [
+      {
+        name: 'Robin Williams',
+      },
+      {
+        name: 'Monica Potter',
+      },
+      {
+        name: 'Philip Seymour Hoffman',
+      },
+      {
+        name: 'Daniel London',
+      },
+      {
+        name: 'Bob Gunton',
+      },
+      {
+        name: 'Harve Presnell',
+      },
+      {
+        name: 'Peter Coyote',
+      },
+    ],
     coverUrl: '/movies_pictures/5325579.webp',
     releaseDate: '2002-10-04',
     length: 113,
@@ -3736,7 +4047,29 @@ export const baseMoviesPage6: BaseMovie[] = [
   {
     title: 'La Loi du Silence',
     director: 'John Korty',
-    actors: [{ name: 'Morgan Freeman' }],
+    actors: [
+      {
+        name: 'Montgomery Clift',
+      },
+      {
+        name: 'Anne Baxter',
+      },
+      {
+        name: 'Karl Malden',
+      },
+      {
+        name: 'Brian Aherne',
+      },
+      {
+        name: 'O.E. Hasse',
+      },
+      {
+        name: 'Roger Dann',
+      },
+      {
+        name: 'Dolly Haas',
+      },
+    ],
     coverUrl: '/movies_pictures/la_loi_du_silence.jpg',
     releaseDate: '1995-09-15',
     length: 130,
@@ -3750,7 +4083,29 @@ export const baseMoviesPage6: BaseMovie[] = [
   {
     title: 'La Rue',
     director: 'Jerry Schatzberg',
-    actors: [{ name: 'Morgan Freeman' }],
+    actors: [
+      {
+        name: 'Cuba Gooding Jr.',
+      },
+      {
+        name: 'Laurence Fishburne',
+      },
+      {
+        name: 'Ice Cube',
+      },
+      {
+        name: 'Morris Chestnut',
+      },
+      {
+        name: 'Angela Bassett',
+      },
+      {
+        name: 'Nia Long',
+      },
+      {
+        name: 'Tyra Ferrell',
+      },
+    ],
     coverUrl: '/movies_pictures/La-Rue-affiche.jpg',
     releaseDate: '1991-01-01',
     length: 101,
@@ -3890,7 +4245,29 @@ export const baseMoviesPage6: BaseMovie[] = [
   {
     title: 'Le Collectionneur',
     director: 'Marcus Dunstan',
-    actors: [{ name: 'Morgan Freeman' }],
+    actors: [
+      {
+        name: 'Josh Stewart',
+      },
+      {
+        name: 'Juan Fernández',
+      },
+      {
+        name: 'Michael Reilly Burke',
+      },
+      {
+        name: 'Madeline Zima',
+      },
+      {
+        name: 'Andrea Roth',
+      },
+      {
+        name: 'Karley Scott Collins',
+      },
+      {
+        name: 'Robert Wisdom',
+      },
+    ],
     coverUrl: '/movies_pictures/le-collectionneur-affiche.jpg.webp',
     releaseDate: '2009-07-31',
     length: 90,
@@ -5214,7 +5591,11 @@ export const baseMoviesPage6: BaseMovie[] = [
   {
     title: 'Le Conte de la princesse Kaguya',
     director: 'Isao Takahata',
-    actors: [],
+    actors: [
+      {
+        name: 'Hikaru Ijūin',
+      },
+    ],
     coverUrl: '/movies_pictures/122290.webp',
     releaseDate: '2013-11-23',
     length: 137,
@@ -5228,7 +5609,29 @@ export const baseMoviesPage6: BaseMovie[] = [
   {
     title: 'Muganga - Celui qui soigne',
     director: 'Marie-Hélène Roux',
-    actors: [{ name: 'Angelina Jolie' }, { name: 'Cynthia Pinet' }],
+    actors: [
+      {
+        name: 'Isaach de Bankolé',
+      },
+      {
+        name: 'Vincent Macaigne',
+      },
+      {
+        name: 'Manon Bresch',
+      },
+      {
+        name: 'Babetida Sadjo',
+      },
+      {
+        name: 'Déborah Lukumuena',
+      },
+      {
+        name: 'Joely Mbundu',
+      },
+      {
+        name: 'Yves-Marina Gnahoua',
+      },
+    ],
     coverUrl: '/movies_pictures/6f60495595fe4650b54c1c4af165106c.jpg',
     releaseDate: '2025-01-01',
     length: 90,
@@ -6470,7 +6873,29 @@ export const baseMoviesPage6: BaseMovie[] = [
   {
     title: 'Neuilly, sa mère !',
     director: 'Gabriel Julien-Laferrière',
-    actors: [{ name: 'Joséphine Japy' }],
+    actors: [
+      {
+        name: 'Samy Seghir',
+      },
+      {
+        name: 'Jérémy Denisty',
+      },
+      {
+        name: 'Rachida Brakni',
+      },
+      {
+        name: 'Denis Podalydès',
+      },
+      {
+        name: 'Chloé Coulloud',
+      },
+      {
+        name: 'Joséphine Japy',
+      },
+      {
+        name: 'Farida Khelfa',
+      },
+    ],
     coverUrl: '/movies_pictures/19135063.jpg',
     releaseDate: '2008-01-01',
     length: 90,
@@ -6484,7 +6909,29 @@ export const baseMoviesPage6: BaseMovie[] = [
   {
     title: 'Neuilly, sa mère sa mère',
     director: 'Gabriel Julien-Laferrière',
-    actors: [{ name: 'Joséphine Japy' }],
+    actors: [
+      {
+        name: 'Samy Seghir',
+      },
+      {
+        name: 'Jérémy Denisty',
+      },
+      {
+        name: 'Denis Podalydès',
+      },
+      {
+        name: 'Sophia Aram',
+      },
+      {
+        name: 'Joséphine Japy',
+      },
+      {
+        name: 'Julien Courbey',
+      },
+      {
+        name: 'Booder',
+      },
+    ],
     coverUrl: '/movies_pictures/0525282.jpg',
     releaseDate: '2017-08-08',
     length: 97,
@@ -6539,7 +6986,22 @@ export const baseMoviesPage6: BaseMovie[] = [
         name: 'Marina Foïs',
       },
       {
+        name: 'Jérémie Elkaïm',
+      },
+      {
+        name: 'Joséphine Japy',
+      },
+      {
         name: 'Benjamin Biolay',
+      },
+      {
+        name: 'Jean-Luc Vincent',
+      },
+      {
+        name: 'Jeanne Rosa',
+      },
+      {
+        name: 'Véronique Ruggia Saura',
       },
     ],
     coverUrl: '/movies_pictures/irreprochable.jpg',
@@ -6799,7 +7261,29 @@ export const baseMoviesPage6: BaseMovie[] = [
   {
     title: 'Un plus une',
     director: 'Claude Lelouch',
-    actors: [{ name: 'Jean Dujardin' }],
+    actors: [
+      {
+        name: 'Jean Dujardin',
+      },
+      {
+        name: 'Elsa Zylberstein',
+      },
+      {
+        name: 'Christopher Lambert',
+      },
+      {
+        name: 'Alice Pol',
+      },
+      {
+        name: 'Rahul Vohra',
+      },
+      {
+        name: 'Shriya Pilgaonkar',
+      },
+      {
+        name: 'Venantino Venantini',
+      },
+    ],
     coverUrl: '/movies_pictures/016306.webp',
     releaseDate: '2015-01-01',
     length: 108,

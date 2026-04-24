@@ -1889,7 +1889,29 @@ export const baseMoviesPage8: BaseMovie[] = [
   {
     title: 'Les Misérables (1935)',
     director: 'Richard Boleslawski',
-    actors: [{ name: 'Fredric March' }, { name: 'Charles Laughton' }],
+    actors: [
+      {
+        name: 'Charles Laughton',
+      },
+      {
+        name: 'Fredric March',
+      },
+      {
+        name: 'Cedric Hardwicke',
+      },
+      {
+        name: 'Rochelle Hudson',
+      },
+      {
+        name: 'Florence Eldridge',
+      },
+      {
+        name: 'Frances Drake',
+      },
+      {
+        name: 'Jessie Ralph',
+      },
+    ],
     coverUrl:
       '/movies_pictures/MV5BZTNiMjIwODUtNTUzZC00MjMzLWFhOTQtZTk5MzNlMzZkMzk0XkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg',
     releaseDate: '1935-04-20',
@@ -1908,7 +1930,29 @@ export const baseMoviesPage8: BaseMovie[] = [
   {
     title: 'Les Misérables (1958)',
     director: 'Jean-Paul Le Chanois',
-    actors: [{ name: 'Jean Gabin' }, { name: 'Bourvil' }],
+    actors: [
+      {
+        name: 'Jean Gabin',
+      },
+      {
+        name: 'Bernard Blier',
+      },
+      {
+        name: 'Bourvil',
+      },
+      {
+        name: 'Danièle Delorme',
+      },
+      {
+        name: 'Béatrice Altariba',
+      },
+      {
+        name: 'Giani Esposito',
+      },
+      {
+        name: 'Silvia Monfort',
+      },
+    ],
     coverUrl: '/movies_pictures/ee52a2c2ae81.jpg',
     releaseDate: '1958-03-12',
     length: 210,
@@ -1926,7 +1970,29 @@ export const baseMoviesPage8: BaseMovie[] = [
   {
     title: 'Les Misérables (1978)',
     director: 'Glenn Jordan',
-    actors: [{ name: 'Richard Jordan' }, { name: 'Anthony Perkins' }],
+    actors: [
+      {
+        name: 'Richard Jordan',
+      },
+      {
+        name: 'Anthony Perkins',
+      },
+      {
+        name: 'Angela Pleasence',
+      },
+      {
+        name: 'Caroline Langrishe',
+      },
+      {
+        name: 'Christopher Guard',
+      },
+      {
+        name: 'Ian Holm',
+      },
+      {
+        name: 'Caroline Blakiston',
+      },
+    ],
     coverUrl: '/movies_pictures/bff31307fa18.jpg',
     releaseDate: '1978-12-27',
     length: 150,
@@ -1944,7 +2010,29 @@ export const baseMoviesPage8: BaseMovie[] = [
   {
     title: 'Les Misérables (1982)',
     director: 'Robert Hossein',
-    actors: [{ name: 'Lino Ventura' }, { name: 'Michel Bouquet' }],
+    actors: [
+      {
+        name: 'Lino Ventura',
+      },
+      {
+        name: 'Jean Carmet',
+      },
+      {
+        name: 'Michel Bouquet',
+      },
+      {
+        name: 'Roger Hanin',
+      },
+      {
+        name: 'Christiane Jean',
+      },
+      {
+        name: 'Alain Nobis',
+      },
+      {
+        name: 'Aline Bertrand',
+      },
+    ],
     coverUrl: '/movies_pictures/9a074826ec01.jpg',
     releaseDate: '1982-10-20',
     length: 175,
@@ -1962,7 +2050,29 @@ export const baseMoviesPage8: BaseMovie[] = [
   {
     title: 'Les Misérables (1995)',
     director: 'Claude Lelouch',
-    actors: [{ name: 'Jean-Paul Belmondo' }, { name: 'Annie Girardot' }],
+    actors: [
+      {
+        name: 'Jean-Paul Belmondo',
+      },
+      {
+        name: 'Michel Boujenah',
+      },
+      {
+        name: 'Alessandra Martines',
+      },
+      {
+        name: 'Philippe Léotard',
+      },
+      {
+        name: 'Annie Girardot',
+      },
+      {
+        name: 'Clémentine Célarié',
+      },
+      {
+        name: 'Rufus',
+      },
+    ],
     coverUrl: '/movies_pictures/23478a273179.jpg',
     releaseDate: '1995-11-03',
     length: 175,
@@ -1980,7 +2090,29 @@ export const baseMoviesPage8: BaseMovie[] = [
   {
     title: 'Les Misérables (1998)',
     director: 'Bille August',
-    actors: [{ name: 'Liam Neeson' }, { name: 'Geoffrey Rush' }],
+    actors: [
+      {
+        name: 'Liam Neeson',
+      },
+      {
+        name: 'Geoffrey Rush',
+      },
+      {
+        name: 'Uma Thurman',
+      },
+      {
+        name: 'Claire Danes',
+      },
+      {
+        name: 'Hans Matheson',
+      },
+      {
+        name: 'John McGlynn',
+      },
+      {
+        name: 'Kelly Hunter',
+      },
+    ],
     coverUrl: '/movies_pictures/0e9e3861a08f.jpg',
     releaseDate: '1998-05-01',
     length: 134,
@@ -2106,7 +2238,29 @@ export const baseMoviesPage8: BaseMovie[] = [
   {
     title: 'Le Comte de Monte-Cristo (1934)',
     director: 'Rowland V. Lee',
-    actors: [{ name: 'Robert Donat' }, { name: 'Elissa Landi' }],
+    actors: [
+      {
+        name: 'Robert Donat',
+      },
+      {
+        name: 'Elissa Landi',
+      },
+      {
+        name: 'Louis Calhern',
+      },
+      {
+        name: 'Lionel Belmore',
+      },
+      {
+        name: 'William Farnum',
+      },
+      {
+        name: 'Sidney Blackmer',
+      },
+      {
+        name: 'Luis Alberni',
+      },
+    ],
     coverUrl: '/movies_pictures/be3c43c01cbf.jpg',
     releaseDate: '1934-09-07',
     length: 113,
@@ -2124,7 +2278,29 @@ export const baseMoviesPage8: BaseMovie[] = [
   {
     title: 'Le Comte de Monte-Cristo (1954)',
     director: 'Robert Vernay',
-    actors: [{ name: 'Jean Marais' }, { name: 'Lia Amanda' }],
+    actors: [
+      {
+        name: 'Daniel Ivernel',
+      },
+      {
+        name: 'Jean Marais',
+      },
+      {
+        name: 'André Brunot',
+      },
+      {
+        name: 'André Var',
+      },
+      {
+        name: 'Bernard Musson',
+      },
+      {
+        name: 'Charles Bayard',
+      },
+      {
+        name: 'Claude Génia',
+      },
+    ],
     coverUrl: '/movies_pictures/0819311882e6.jpg',
     releaseDate: '1954-10-20',
     length: 183,
@@ -2142,7 +2318,29 @@ export const baseMoviesPage8: BaseMovie[] = [
   {
     title: 'Le Comte de Monte-Cristo (1961)',
     director: 'Claude Autant-Lara',
-    actors: [{ name: 'Louis Jourdan' }, { name: 'Yvonne Furneaux' }],
+    actors: [
+      {
+        name: 'Louis Jourdan',
+      },
+      {
+        name: 'Yvonne Furneaux',
+      },
+      {
+        name: 'Pierre Mondy',
+      },
+      {
+        name: 'Roldano Lupi',
+      },
+      {
+        name: 'Bernard Dhéran',
+      },
+      {
+        name: 'Jean-Claude Michel',
+      },
+      {
+        name: 'André Dalibert',
+      },
+    ],
     coverUrl: '/movies_pictures/c7295c8a2f6d.jpg',
     releaseDate: '1961-03-17',
     length: 175,
@@ -2160,7 +2358,29 @@ export const baseMoviesPage8: BaseMovie[] = [
   {
     title: 'Le Comte de Monte-Cristo (1975)',
     director: 'David Greene',
-    actors: [{ name: 'Richard Chamberlain' }, { name: 'Kate Nelligan' }],
+    actors: [
+      {
+        name: 'Richard Chamberlain',
+      },
+      {
+        name: 'Kate Nelligan',
+      },
+      {
+        name: 'Tony Curtis',
+      },
+      {
+        name: 'Donald Pleasence',
+      },
+      {
+        name: 'Trevor Howard',
+      },
+      {
+        name: 'Louis Jourdan',
+      },
+      {
+        name: 'Angelo Infanti',
+      },
+    ],
     coverUrl: '/movies_pictures/f3f2746266bd.jpg',
     releaseDate: '1975-01-10',
     length: 103,
@@ -2236,7 +2456,29 @@ export const baseMoviesPage8: BaseMovie[] = [
   {
     title: 'Le Chien des Baskerville (1939)',
     director: 'Sidney Lanfield',
-    actors: [{ name: 'Basil Rathbone' }, { name: 'Nigel Bruce' }],
+    actors: [
+      {
+        name: 'Basil Rathbone',
+      },
+      {
+        name: 'Nigel Bruce',
+      },
+      {
+        name: 'Richard Greene',
+      },
+      {
+        name: 'Wendy Barrie',
+      },
+      {
+        name: 'Lionel Atwill',
+      },
+      {
+        name: 'John Carradine',
+      },
+      {
+        name: 'Beryl Mercer',
+      },
+    ],
     coverUrl: '/movies_pictures/e335821d116d.jpg',
     releaseDate: '1939-03-31',
     length: 80,
@@ -2254,7 +2496,29 @@ export const baseMoviesPage8: BaseMovie[] = [
   {
     title: 'Les Aventures de Sherlock Holmes (1939)',
     director: 'Alfred L. Werker',
-    actors: [{ name: 'Basil Rathbone' }, { name: 'Nigel Bruce' }],
+    actors: [
+      {
+        name: 'Basil Rathbone',
+      },
+      {
+        name: 'Nigel Bruce',
+      },
+      {
+        name: 'Ida Lupino',
+      },
+      {
+        name: 'George Zucco',
+      },
+      {
+        name: 'Alan Marshal',
+      },
+      {
+        name: 'Henry Stephenson',
+      },
+      {
+        name: 'Terry Kilburn',
+      },
+    ],
     coverUrl: '/movies_pictures/b6159276c4ec.jpg',
     releaseDate: '1939-09-01',
     length: 85,
@@ -2410,7 +2674,29 @@ export const baseMoviesPage8: BaseMovie[] = [
   {
     title: 'Le Chien des Baskerville (1959)',
     director: 'Terence Fisher',
-    actors: [{ name: 'Peter Cushing' }, { name: 'Christopher Lee' }],
+    actors: [
+      {
+        name: 'Peter Cushing',
+      },
+      {
+        name: 'Christopher Lee',
+      },
+      {
+        name: 'Marla Landi',
+      },
+      {
+        name: 'André Morell',
+      },
+      {
+        name: 'Miles Malleson',
+      },
+      {
+        name: 'John Le Mesurier',
+      },
+      {
+        name: 'Francis De Wolff',
+      },
+    ],
     coverUrl: '/movies_pictures/940af74b2462.jpg',
     releaseDate: '1959-05-04',
     length: 87,

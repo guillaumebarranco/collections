@@ -658,7 +658,29 @@ export const baseMoviesSagaPage3: BaseMovie[] = [
   {
     title: 'Le Retour du roi (1980)',
     director: 'Jules Bass, Arthur Rankin Jr.',
-    actors: [{ name: 'Orson Bean' }, { name: 'Roddy McDowall' }],
+    actors: [
+      {
+        name: 'Orson Bean',
+      },
+      {
+        name: 'Theodore Bikel',
+      },
+      {
+        name: 'William Conrad',
+      },
+      {
+        name: 'John Huston',
+      },
+      {
+        name: 'Roddy McDowall',
+      },
+      {
+        name: 'Brother Theodore',
+      },
+      {
+        name: 'Casey Kasem',
+      },
+    ],
     coverUrl: '/movies_pictures/dd089037b9f7.jpg',
     releaseDate: '1980-05-11',
     length: 98,
@@ -854,7 +876,29 @@ export const baseMoviesSagaPage3: BaseMovie[] = [
   {
     title: "S.O.S. Fantômes : L'Héritage",
     director: 'Jason Reitman',
-    actors: [{ name: 'Mckenna Grace' }, { name: 'Finn Wolfhard' }],
+    actors: [
+      {
+        name: 'Mckenna Grace',
+      },
+      {
+        name: 'Finn Wolfhard',
+      },
+      {
+        name: 'Carrie Coon',
+      },
+      {
+        name: 'Paul Rudd',
+      },
+      {
+        name: 'Bill Murray',
+      },
+      {
+        name: 'Dan Aykroyd',
+      },
+      {
+        name: 'Ernie Hudson',
+      },
+    ],
     coverUrl: '/movies_pictures/0365804.webp',
     releaseDate: '2021-11-19',
     length: 124,
@@ -938,7 +982,29 @@ export const baseMoviesSagaPage3: BaseMovie[] = [
   {
     title: 'The Conjuring : Les Dossiers Warren',
     director: 'James Wan',
-    actors: [{ name: 'Vera Farmiga' }],
+    actors: [
+      {
+        name: 'Vera Farmiga',
+      },
+      {
+        name: 'Patrick Wilson',
+      },
+      {
+        name: 'Ron Livingston',
+      },
+      {
+        name: 'Lili Taylor',
+      },
+      {
+        name: 'Mackenzie Foy',
+      },
+      {
+        name: 'Joey King',
+      },
+      {
+        name: 'Hayley McFarland',
+      },
+    ],
     coverUrl: '/movies_pictures/106262-the-conjuring-0-150-0-225-crop.jpg',
     releaseDate: '2013-07-19',
     length: 112,
@@ -2343,7 +2409,29 @@ export const baseMoviesSagaPage3: BaseMovie[] = [
   {
     title: 'James Bond : Bons baisers de Russie',
     director: 'Terence Young',
-    actors: [{ name: 'Sean Connery' }],
+    actors: [
+      {
+        name: 'Sean Connery',
+      },
+      {
+        name: 'Ursula Andress',
+      },
+      {
+        name: 'Joseph Wiseman',
+      },
+      {
+        name: 'Jack Lord',
+      },
+      {
+        name: 'John Kitzmiller',
+      },
+      {
+        name: 'Bernard Lee',
+      },
+      {
+        name: 'Anthony Dawson',
+      },
+    ],
     coverUrl: '/movies_pictures/02bedcdfd629.jpg',
     releaseDate: '1963-10-10',
     length: 115,
@@ -2361,7 +2449,29 @@ export const baseMoviesSagaPage3: BaseMovie[] = [
   {
     title: 'James Bond : Goldfinger',
     director: 'Guy Hamilton',
-    actors: [{ name: 'Sean Connery' }],
+    actors: [
+      {
+        name: 'Sean Connery',
+      },
+      {
+        name: 'Honor Blackman',
+      },
+      {
+        name: 'Gert Fröbe',
+      },
+      {
+        name: 'Harold Sakata',
+      },
+      {
+        name: 'Bernard Lee',
+      },
+      {
+        name: 'Lois Maxwell',
+      },
+      {
+        name: 'Desmond Llewelyn',
+      },
+    ],
     coverUrl: '/movies_pictures/4679b29d6fe4.jpg',
     releaseDate: '1964-09-17',
     length: 110,
@@ -2434,7 +2544,29 @@ export const baseMoviesSagaPage3: BaseMovie[] = [
   {
     title: 'James Bond : Au service secret de Sa Majesté',
     director: 'Peter R. Hunt',
-    actors: [{ name: 'George Lazenby' }],
+    actors: [
+      {
+        name: 'George Lazenby',
+      },
+      {
+        name: 'Diana Rigg',
+      },
+      {
+        name: 'Telly Savalas',
+      },
+      {
+        name: 'Gabriele Ferzetti',
+      },
+      {
+        name: 'Ilse Steppat',
+      },
+      {
+        name: 'Bernard Lee',
+      },
+      {
+        name: 'Lois Maxwell',
+      },
+    ],
     coverUrl: '/movies_pictures/870c9b8a6aac.jpg',
     releaseDate: '1969-12-18',
     length: 142,
@@ -2488,7 +2620,29 @@ export const baseMoviesSagaPage3: BaseMovie[] = [
   {
     title: "James Bond : L'homme au pistolet d'or",
     director: 'Guy Hamilton',
-    actors: [{ name: 'Roger Moore' }],
+    actors: [
+      {
+        name: 'Roger Moore',
+      },
+      {
+        name: 'Christopher Lee',
+      },
+      {
+        name: 'Britt Ekland',
+      },
+      {
+        name: 'Maud Adams',
+      },
+      {
+        name: 'Hervé Villechaize',
+      },
+      {
+        name: 'Clifton James',
+      },
+      {
+        name: 'Richard Loo',
+      },
+    ],
     coverUrl: '/movies_pictures/873ed404f119.webp',
     releaseDate: '1974-12-19',
     length: 125,
@@ -2524,7 +2678,29 @@ export const baseMoviesSagaPage3: BaseMovie[] = [
   {
     title: 'James Bond : Moonraker',
     director: 'Lewis Gilbert',
-    actors: [{ name: 'Roger Moore' }],
+    actors: [
+      {
+        name: 'Roger Moore',
+      },
+      {
+        name: 'Michael Lonsdale',
+      },
+      {
+        name: 'Lois Chiles',
+      },
+      {
+        name: 'Richard Kiel',
+      },
+      {
+        name: 'Bernard Lee',
+      },
+      {
+        name: 'Corinne Cléry',
+      },
+      {
+        name: 'Desmond Llewelyn',
+      },
+    ],
     coverUrl: '/movies_pictures/4140d0cfdacc.jpg',
     releaseDate: '1979-06-26',
     length: 126,
@@ -2542,7 +2718,29 @@ export const baseMoviesSagaPage3: BaseMovie[] = [
   {
     title: 'James Bond : Rien que pour vos yeux',
     director: 'John Glen',
-    actors: [{ name: 'Roger Moore' }],
+    actors: [
+      {
+        name: 'Roger Moore',
+      },
+      {
+        name: 'Carole Bouquet',
+      },
+      {
+        name: 'Chaim Topol',
+      },
+      {
+        name: 'Julian Glover',
+      },
+      {
+        name: 'Lynn-Holly Johnson',
+      },
+      {
+        name: 'Cassandra Harris',
+      },
+      {
+        name: 'Jill Bennett',
+      },
+    ],
     coverUrl: '/movies_pictures/35efcc1df9e8.jpg',
     releaseDate: '1981-06-24',
     length: 127,

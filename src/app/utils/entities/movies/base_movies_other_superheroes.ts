@@ -387,6 +387,21 @@ export const baseMoviesOtherSuperheroes: BaseMovie[] = [
       {
         name: 'Tom Hardy',
       },
+      {
+        name: 'Michelle Williams',
+      },
+      {
+        name: 'Woody Harrelson',
+      },
+      {
+        name: 'Naomie Harris',
+      },
+      {
+        name: 'Reid Scott',
+      },
+      {
+        name: 'Stephen Graham',
+      },
     ],
     coverUrl:
       '/movies_pictures/508638-venom-let-there-be-carnage-0-150-0-225-crop.jpg',
@@ -639,7 +654,14 @@ export const baseMoviesOtherSuperheroes: BaseMovie[] = [
   {
     title: "Spider-Man : La Riposte de l'Homme Araignée",
     director: 'Ron Satlof',
-    actors: [{ name: 'Nicholas Hammond' }],
+    actors: [
+      {
+        name: 'Izumi Oyama',
+      },
+      {
+        name: 'Yoshiharu Yabuki',
+      },
+    ],
     coverUrl: '/movies_pictures/5596876ae88d.jpg',
     releaseDate: '1978-10-21',
     length: 90,
@@ -1000,7 +1022,29 @@ export const baseMoviesOtherSuperheroes: BaseMovie[] = [
   {
     title: 'Les 4 Fantastiques',
     director: 'Josh Trank',
-    actors: [{ name: 'Miles Teller' }, { name: 'Michael B. Jordan' }],
+    actors: [
+      {
+        name: 'Miles Teller',
+      },
+      {
+        name: 'Michael B. Jordan',
+      },
+      {
+        name: 'Kate Mara',
+      },
+      {
+        name: 'Jamie Bell',
+      },
+      {
+        name: 'Toby Kebbell',
+      },
+      {
+        name: 'Reg E. Cathey',
+      },
+      {
+        name: 'Tim Blake Nelson',
+      },
+    ],
     coverUrl: '/movies_pictures/123065-fantastic-four-0-150-0-225-crop.jpg',
     releaseDate: '2015-08-07',
     length: 100,

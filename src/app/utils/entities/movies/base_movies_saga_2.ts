@@ -47,6 +47,24 @@ export const baseMoviesSagaPage2: BaseMovie[] = [
       {
         name: 'Timothée Chalamet',
       },
+      {
+        name: 'Zendaya',
+      },
+      {
+        name: 'Rebecca Ferguson',
+      },
+      {
+        name: 'Javier Bardem',
+      },
+      {
+        name: 'Josh Brolin',
+      },
+      {
+        name: 'Austin Butler',
+      },
+      {
+        name: 'Florence Pugh',
+      },
     ],
     coverUrl: '/movies_pictures/5392835.jpg',
     releaseDate: '2024-03-01',
@@ -71,6 +89,21 @@ export const baseMoviesSagaPage2: BaseMovie[] = [
       },
       {
         name: 'Jennifer Aniston',
+      },
+      {
+        name: 'Luke Evans',
+      },
+      {
+        name: 'Terence Stamp',
+      },
+      {
+        name: 'Gemma Arterton',
+      },
+      {
+        name: 'David Walliams',
+      },
+      {
+        name: 'Dany Boon',
       },
     ],
     coverUrl: '/movies_pictures/444598-murder-mystery-0-150-0-225-crop.jpg',
@@ -156,7 +189,29 @@ export const baseMoviesSagaPage2: BaseMovie[] = [
   {
     title: 'John Wick : Chapitre 2',
     director: 'Chad Stahelski',
-    actors: [{ name: 'Keanu Reeves' }],
+    actors: [
+      {
+        name: 'Keanu Reeves',
+      },
+      {
+        name: 'Common',
+      },
+      {
+        name: 'Laurence Fishburne',
+      },
+      {
+        name: 'Riccardo Scamarcio',
+      },
+      {
+        name: 'Ruby Rose',
+      },
+      {
+        name: 'John Leguizamo',
+      },
+      {
+        name: 'Ian McShane',
+      },
+    ],
     coverUrl: '/movies_pictures/jonh_wick.jpg',
     releaseDate: '2017-02-10',
     length: 122,
@@ -209,6 +264,24 @@ export const baseMoviesSagaPage2: BaseMovie[] = [
     actors: [
       {
         name: 'Keanu Reeves',
+      },
+      {
+        name: 'Laurence Fishburne',
+      },
+      {
+        name: 'Ian McShane',
+      },
+      {
+        name: 'Lance Reddick',
+      },
+      {
+        name: 'Rina Sawayama',
+      },
+      {
+        name: 'Donnie Yen',
+      },
+      {
+        name: 'Shamier Anderson',
       },
     ],
     coverUrl:
@@ -364,7 +437,29 @@ export const baseMoviesSagaPage2: BaseMovie[] = [
   {
     title: 'Jack Reacher : Never Go Back',
     director: 'Edward Zwick',
-    actors: [{ name: 'Tom Cruise' }],
+    actors: [
+      {
+        name: 'Tom Cruise',
+      },
+      {
+        name: 'Cobie Smulders',
+      },
+      {
+        name: 'Danika Yarosh',
+      },
+      {
+        name: 'Aldis Hodge',
+      },
+      {
+        name: 'Patrick Heusinger',
+      },
+      {
+        name: 'Holt McCallany',
+      },
+      {
+        name: 'Robert Knepper',
+      },
+    ],
     coverUrl: '/movies_pictures/jack_reacher_never_go_back.jpg',
     releaseDate: '2016-10-21',
     length: 118,
@@ -561,7 +656,29 @@ export const baseMoviesSagaPage2: BaseMovie[] = [
   {
     title: 'James Bond : Quantum of Solace',
     director: 'Marc Forster',
-    actors: [{ name: 'Daniel Craig' }],
+    actors: [
+      {
+        name: 'Daniel Craig',
+      },
+      {
+        name: 'Olga Kurylenko',
+      },
+      {
+        name: 'Mathieu Amalric',
+      },
+      {
+        name: 'Gemma Arterton',
+      },
+      {
+        name: 'Judi Dench',
+      },
+      {
+        name: 'Jeffrey Wright',
+      },
+      {
+        name: 'Giancarlo Giannini',
+      },
+    ],
     coverUrl: '/movies_pictures/45918-quantum-of-solace-0-150-0-225-crop.jpg',
     releaseDate: '2008-11-14',
     length: 106,
@@ -579,7 +696,29 @@ export const baseMoviesSagaPage2: BaseMovie[] = [
   {
     title: 'James Bond : Skyfall',
     director: 'Sam Mendes',
-    actors: [{ name: 'Daniel Craig' }],
+    actors: [
+      {
+        name: 'Daniel Craig',
+      },
+      {
+        name: 'Javier Bardem',
+      },
+      {
+        name: 'Ralph Fiennes',
+      },
+      {
+        name: 'Naomie Harris',
+      },
+      {
+        name: 'Bérénice Marlohe',
+      },
+      {
+        name: 'Albert Finney',
+      },
+      {
+        name: 'Judi Dench',
+      },
+    ],
     coverUrl: '/movies_pictures/20264212.webp',
     releaseDate: '2012-11-09',
     length: 143,
@@ -1253,6 +1392,24 @@ export const baseMoviesSagaPage2: BaseMovie[] = [
       {
         name: 'Shailene Woodley',
       },
+      {
+        name: 'Theo James',
+      },
+      {
+        name: 'Octavia Spencer',
+      },
+      {
+        name: 'Ray Stevenson',
+      },
+      {
+        name: 'Zoë Kravitz',
+      },
+      {
+        name: 'Miles Teller',
+      },
+      {
+        name: 'Ansel Elgort',
+      },
     ],
     coverUrl: '/movies_pictures/divergente.jpg',
     releaseDate: '2016-03-18',
@@ -1714,7 +1871,29 @@ export const baseMoviesSagaPage2: BaseMovie[] = [
   {
     title: 'Resident Evil : Chapitre final',
     director: 'Paul W.S. Anderson',
-    actors: [{ name: 'Milla Jovovich' }, { name: 'Iain Glen' }],
+    actors: [
+      {
+        name: 'Milla Jovovich',
+      },
+      {
+        name: 'Ali Larter',
+      },
+      {
+        name: 'Shawn Roberts',
+      },
+      {
+        name: 'Ruby Rose',
+      },
+      {
+        name: 'Eoin Macken',
+      },
+      {
+        name: 'Iain Glen',
+      },
+      {
+        name: 'William Levy',
+      },
+    ],
     coverUrl: '/movies_pictures/2814ac811b45.jpg',
     releaseDate: '2017-01-25',
     length: 106,
@@ -1771,7 +1950,29 @@ export const baseMoviesSagaPage2: BaseMovie[] = [
   {
     title: 'Resident Evil : Death Island',
     director: 'Eiichiro Hasumi',
-    actors: [{ name: 'Matthew Mercer' }, { name: 'Kevin Dorman' }],
+    actors: [
+      {
+        name: 'Matthew Mercer',
+      },
+      {
+        name: 'Nicole Tompkins',
+      },
+      {
+        name: 'Kevin Dorman',
+      },
+      {
+        name: 'Stephanie Panisello',
+      },
+      {
+        name: 'Erin Cahill',
+      },
+      {
+        name: 'Salli Saffioti',
+      },
+      {
+        name: 'Daman Mills',
+      },
+    ],
     coverUrl: '/movies_pictures/6a88f3d8af33.jpg',
     releaseDate: '2023-07-25',
     length: 91,
@@ -1789,7 +1990,29 @@ export const baseMoviesSagaPage2: BaseMovie[] = [
   {
     title: 'Resident Evil: Degeneration',
     director: 'Makoto Kamiya',
-    actors: [{ name: 'Paul Mercier' }, { name: 'Alyson Court' }],
+    actors: [
+      {
+        name: 'Roger Craig Smith',
+      },
+      {
+        name: 'Paul Mercier',
+      },
+      {
+        name: 'Salli Saffioti',
+      },
+      {
+        name: 'Michelle Ruff',
+      },
+      {
+        name: 'Alyson Court',
+      },
+      {
+        name: 'Steven Blum',
+      },
+      {
+        name: 'Mary Elizabeth McGlynn',
+      },
+    ],
     coverUrl: '/movies_pictures/b3517353a297.jpg',
     releaseDate: '2008-10-17',
     length: 96,
@@ -1807,7 +2030,29 @@ export const baseMoviesSagaPage2: BaseMovie[] = [
   {
     title: 'Resident Evil: Damnation',
     director: 'Makoto Kamiya',
-    actors: [{ name: 'Matthew Mercer' }, { name: 'Dave Wittenberg' }],
+    actors: [
+      {
+        name: 'Matthew Mercer',
+      },
+      {
+        name: 'Dave Wittenberg',
+      },
+      {
+        name: 'Wendee Lee',
+      },
+      {
+        name: 'Courtenay Taylor',
+      },
+      {
+        name: 'Robin Sachs',
+      },
+      {
+        name: 'Salli Saffioti',
+      },
+      {
+        name: 'Patrick Seitz',
+      },
+    ],
     coverUrl: '/movies_pictures/f6f46dc13446.jpg',
     releaseDate: '2012-10-27',
     length: 96,
@@ -2132,7 +2377,22 @@ export const baseMoviesSagaPage2: BaseMovie[] = [
         name: 'Johnny Depp',
       },
       {
+        name: 'Geoffrey Rush',
+      },
+      {
         name: 'Javier Bardem',
+      },
+      {
+        name: 'Orlando Bloom',
+      },
+      {
+        name: 'Kevin McNally',
+      },
+      {
+        name: 'Kaya Scodelario',
+      },
+      {
+        name: 'Brenton Thwaites',
       },
     ],
     coverUrl:
@@ -2534,7 +2794,29 @@ export const baseMoviesSagaPage2: BaseMovie[] = [
   {
     title: "Hellboy 2 : Les Légions d'Or Maudites",
     director: 'Guillermo del Toro',
-    actors: [{ name: 'Ron Perlman' }],
+    actors: [
+      {
+        name: 'Ron Perlman',
+      },
+      {
+        name: 'Selma Blair',
+      },
+      {
+        name: 'Doug Jones',
+      },
+      {
+        name: 'Jeffrey Tambor',
+      },
+      {
+        name: 'John Hurt',
+      },
+      {
+        name: 'John Alexander',
+      },
+      {
+        name: 'Luke Goss',
+      },
+    ],
     coverUrl:
       '/movies_pictures/45459-hellboy-ii-the-golden-army-0-150-0-225-crop.jpg',
     releaseDate: '2008-07-11',
@@ -2821,7 +3103,29 @@ export const baseMoviesSagaPage2: BaseMovie[] = [
   {
     title: 'xXx² : The Next Level',
     director: 'Lee Tamahori',
-    actors: [{ name: 'Ice Cube' }],
+    actors: [
+      {
+        name: 'Ice Cube',
+      },
+      {
+        name: 'Willem Dafoe',
+      },
+      {
+        name: 'Scott Speedman',
+      },
+      {
+        name: 'Peter Strauss',
+      },
+      {
+        name: 'Samuel L. Jackson',
+      },
+      {
+        name: 'Xzibit',
+      },
+      {
+        name: 'Andrew Fiscella',
+      },
+    ],
     coverUrl:
       '/movies_pictures/45074-xxx-state-of-the-union-0-150-0-225-crop.jpg',
     releaseDate: '2005-04-29',
@@ -3012,7 +3316,29 @@ export const baseMoviesSagaPage2: BaseMovie[] = [
   {
     title: 'Twilight : Chapitre 1 - Fascination',
     director: 'Catherine Hardwicke',
-    actors: [{ name: 'Kristen Stewart' }, { name: 'Robert Pattinson' }],
+    actors: [
+      {
+        name: 'Kristen Stewart',
+      },
+      {
+        name: 'Robert Pattinson',
+      },
+      {
+        name: 'Peter Facinelli',
+      },
+      {
+        name: 'Elizabeth Reaser',
+      },
+      {
+        name: 'Ashley Greene',
+      },
+      {
+        name: 'Billy Burke',
+      },
+      {
+        name: 'Taylor Lautner',
+      },
+    ],
     coverUrl: '/movies_pictures/47469-twilight-0-150-0-225-crop.jpg',
     releaseDate: '2008-11-21',
     length: 122,
@@ -3030,7 +3356,29 @@ export const baseMoviesSagaPage2: BaseMovie[] = [
   {
     title: 'Twilight : Chapitre 2 - Tentation',
     director: 'Chris Weitz',
-    actors: [{ name: 'Kristen Stewart' }, { name: 'Robert Pattinson' }],
+    actors: [
+      {
+        name: 'Kristen Stewart',
+      },
+      {
+        name: 'Robert Pattinson',
+      },
+      {
+        name: 'Taylor Lautner',
+      },
+      {
+        name: 'Dakota Fanning',
+      },
+      {
+        name: 'Michael Sheen',
+      },
+      {
+        name: 'Ashley Greene',
+      },
+      {
+        name: 'Rachelle Lefèvre',
+      },
+    ],
     coverUrl:
       '/movies_pictures/40480-the-twilight-saga-new-moon-0-150-0-225-crop.jpg',
     releaseDate: '2009-11-20',
@@ -3049,7 +3397,29 @@ export const baseMoviesSagaPage2: BaseMovie[] = [
   {
     title: 'Twilight : Chapitre 3 - Hésitation',
     director: 'David Slade',
-    actors: [{ name: 'Kristen Stewart' }, { name: 'Robert Pattinson' }],
+    actors: [
+      {
+        name: 'Kristen Stewart',
+      },
+      {
+        name: 'Robert Pattinson',
+      },
+      {
+        name: 'Taylor Lautner',
+      },
+      {
+        name: 'Bryce Dallas Howard',
+      },
+      {
+        name: 'Dakota Fanning',
+      },
+      {
+        name: 'Billy Burke',
+      },
+      {
+        name: 'Peter Facinelli',
+      },
+    ],
     coverUrl: '/movies_pictures/b88b01d859c5.jpg',
     releaseDate: '2010-06-30',
     length: 124,
@@ -3140,7 +3510,29 @@ export const baseMoviesSagaPage2: BaseMovie[] = [
   {
     title: 'Underworld : Évolution',
     director: 'Len Wiseman',
-    actors: [{ name: 'Kate Beckinsale' }],
+    actors: [
+      {
+        name: 'Kate Beckinsale',
+      },
+      {
+        name: 'Scott Speedman',
+      },
+      {
+        name: 'Tony Curran',
+      },
+      {
+        name: 'Derek Jacobi',
+      },
+      {
+        name: 'Bill Nighy',
+      },
+      {
+        name: 'Michael O\'Shea',
+      },
+      {
+        name: 'Michael Sheen',
+      },
+    ],
     coverUrl:
       '/movies_pictures/51318-underworld-evolution-0-150-0-225-crop.jpg',
     releaseDate: '2006-01-20',
@@ -3155,7 +3547,29 @@ export const baseMoviesSagaPage2: BaseMovie[] = [
   {
     title: 'Underworld : Rise of the Lycans',
     director: 'Patrick Tatopoulos',
-    actors: [{ name: 'Michael Sheen' }],
+    actors: [
+      {
+        name: 'Michael Sheen',
+      },
+      {
+        name: 'Bill Nighy',
+      },
+      {
+        name: 'Rhona Mitra',
+      },
+      {
+        name: 'Kevin Grevioux',
+      },
+      {
+        name: 'Steven Mackintosh',
+      },
+      {
+        name: 'Kate Beckinsale',
+      },
+      {
+        name: 'Craig Parker',
+      },
+    ],
     coverUrl:
       '/movies_pictures/44587-underworld-rise-of-the-lycans-0-150-0-225-crop.jpg',
     releaseDate: '2009-01-23',
@@ -3170,7 +3584,29 @@ export const baseMoviesSagaPage2: BaseMovie[] = [
   {
     title: 'Underworld : Éveil',
     director: 'Måns Mårlind, Björn Stein',
-    actors: [{ name: 'Kate Beckinsale' }],
+    actors: [
+      {
+        name: 'Kate Beckinsale',
+      },
+      {
+        name: 'Sandrine Holt',
+      },
+      {
+        name: 'Theo James',
+      },
+      {
+        name: 'Michael Ealy',
+      },
+      {
+        name: 'Stephen Rea',
+      },
+      {
+        name: 'Charles Dance',
+      },
+      {
+        name: 'India Eisley',
+      },
+    ],
     coverUrl:
       '/movies_pictures/13370-underworld-awakening-0-150-0-225-crop.jpg',
     releaseDate: '2012-01-20',
@@ -3185,7 +3621,29 @@ export const baseMoviesSagaPage2: BaseMovie[] = [
   {
     title: 'Underworld : Blood Wars',
     director: 'Anna Foerster',
-    actors: [{ name: 'Kate Beckinsale' }, { name: 'Theo James' }],
+    actors: [
+      {
+        name: 'Kate Beckinsale',
+      },
+      {
+        name: 'Theo James',
+      },
+      {
+        name: 'Tobias Menzies',
+      },
+      {
+        name: 'Trent Garrett',
+      },
+      {
+        name: 'Lara Pulver',
+      },
+      {
+        name: 'Peter Andersson',
+      },
+      {
+        name: 'Bradley James',
+      },
+    ],
     coverUrl: '/movies_pictures/8bb81d79d354.jpg',
     releaseDate: '2016-11-24',
     length: 91,
@@ -3199,7 +3657,29 @@ export const baseMoviesSagaPage2: BaseMovie[] = [
   {
     title: 'Destination Finale',
     director: 'James Wong',
-    actors: [{ name: 'Devon Sawa' }],
+    actors: [
+      {
+        name: 'Devon Sawa',
+      },
+      {
+        name: 'Ali Larter',
+      },
+      {
+        name: 'Kerr Smith',
+      },
+      {
+        name: 'Tony Todd',
+      },
+      {
+        name: 'Seann William Scott',
+      },
+      {
+        name: 'Daniel Roebuck',
+      },
+      {
+        name: 'Roger Guenveur Smith',
+      },
+    ],
     coverUrl: '/movies_pictures/47068-final-destination-0-150-0-225-crop.jpg',
     releaseDate: '2000-03-17',
     length: 98,

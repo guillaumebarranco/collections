@@ -535,7 +535,29 @@ export const baseMoviesSagaPage1: BaseMovie[] = [
   {
     title: 'Rogue One : A Star Wars Story',
     director: 'Gareth Edwards',
-    actors: [{ name: 'Felicity Jones' }],
+    actors: [
+      {
+        name: 'Felicity Jones',
+      },
+      {
+        name: 'Diego Luna',
+      },
+      {
+        name: 'Riz Ahmed',
+      },
+      {
+        name: 'Ben Mendelsohn',
+      },
+      {
+        name: 'Donnie Yen',
+      },
+      {
+        name: 'Jiang Wen',
+      },
+      {
+        name: 'Forest Whitaker',
+      },
+    ],
     coverUrl:
       '/movies_pictures/258128-rogue-one-a-star-wars-story-0-150-0-225-crop.jpg',
     releaseDate: '2016-12-16',
@@ -621,7 +643,29 @@ export const baseMoviesSagaPage1: BaseMovie[] = [
   {
     title: 'Fast and Furious : Tokyo Drift',
     director: 'Justin Lin',
-    actors: [{ name: 'Lucas Black' }],
+    actors: [
+      {
+        name: 'Lucas Black',
+      },
+      {
+        name: 'Sung Kang',
+      },
+      {
+        name: 'Shad Moss',
+      },
+      {
+        name: 'Brian Tee',
+      },
+      {
+        name: 'Nathalie Kelley',
+      },
+      {
+        name: 'Jason Tobin',
+      },
+      {
+        name: 'Sonny Chiba',
+      },
+    ],
     coverUrl:
       '/movies_pictures/46986-the-fast-and-the-furious-tokyo-drift-0-150-0-225-crop.jpg',
     releaseDate: '2006-06-16',
@@ -2144,7 +2188,29 @@ export const baseMoviesSagaPage1: BaseMovie[] = [
   {
     title: 'Independence Day : Resurgence',
     director: 'Roland Emmerich',
-    actors: [{ name: 'Will Smith' }],
+    actors: [
+      {
+        name: 'Will Smith',
+      },
+      {
+        name: 'Jeff Goldblum',
+      },
+      {
+        name: 'Mary McDonnell',
+      },
+      {
+        name: 'Vivica A. Fox',
+      },
+      {
+        name: 'Margaret Colin',
+      },
+      {
+        name: 'Harry Connick',
+      },
+      {
+        name: 'Bill Pullman',
+      },
+    ],
     coverUrl:
       '/movies_pictures/507660-independence-day-the-id4-invasion-0-150-0-225-crop.jpg',
     releaseDate: '1996-07-03',
@@ -2315,7 +2381,29 @@ export const baseMoviesSagaPage1: BaseMovie[] = [
   {
     title: 'Rambo : First Blood',
     director: 'Ted Kotcheff',
-    actors: [{ name: 'Sylvester Stallone' }],
+    actors: [
+      {
+        name: 'Sylvester Stallone',
+      },
+      {
+        name: 'Richard Crenna',
+      },
+      {
+        name: 'Brian Dennehy',
+      },
+      {
+        name: 'Bill McKinney',
+      },
+      {
+        name: 'David Caruso',
+      },
+      {
+        name: 'Jack Starrett',
+      },
+      {
+        name: 'Chris Mulkey',
+      },
+    ],
     coverUrl: '/movies_pictures/51088-first-blood-0-150-0-225-crop.jpg',
     releaseDate: '1982-10-22',
     length: 93,
@@ -2631,6 +2719,24 @@ export const baseMoviesSagaPage1: BaseMovie[] = [
       {
         name: 'Jennifer Lawrence',
       },
+      {
+        name: 'Josh Hutcherson',
+      },
+      {
+        name: 'Liam Hemsworth',
+      },
+      {
+        name: 'Woody Harrelson',
+      },
+      {
+        name: 'Elizabeth Banks',
+      },
+      {
+        name: 'Philip Seymour Hoffman',
+      },
+      {
+        name: 'Jeffrey Wright',
+      },
     ],
     coverUrl:
       '/movies_pictures/101991-the-hunger-games-mockingjay-part-1-0-150-0-225-crop.jpg',
@@ -2748,7 +2854,29 @@ export const baseMoviesSagaPage1: BaseMovie[] = [
   {
     title: 'Transformers 2 : La Revanche',
     director: 'Michael Bay',
-    actors: [{ name: 'Shia LaBeouf' }],
+    actors: [
+      {
+        name: 'Shia LaBeouf',
+      },
+      {
+        name: 'Megan Fox',
+      },
+      {
+        name: 'Josh Duhamel',
+      },
+      {
+        name: 'John Turturro',
+      },
+      {
+        name: 'Ramón Rodríguez',
+      },
+      {
+        name: 'Tyrese Gibson',
+      },
+      {
+        name: 'Kevin Dunn',
+      },
+    ],
     coverUrl:
       '/movies_pictures/47769-transformers-revenge-of-the-fallen-0-150-0-225-crop.jpg',
     releaseDate: '2009-06-24',
@@ -2763,7 +2891,29 @@ export const baseMoviesSagaPage1: BaseMovie[] = [
   {
     title: 'Transformers 3 : La Face Cachée de la Lune',
     director: 'Michael Bay',
-    actors: [{ name: 'Shia LaBeouf' }],
+    actors: [
+      {
+        name: 'Shia LaBeouf',
+      },
+      {
+        name: 'Rosie Huntington-Whiteley',
+      },
+      {
+        name: 'Josh Duhamel',
+      },
+      {
+        name: 'John Turturro',
+      },
+      {
+        name: 'Tyrese Gibson',
+      },
+      {
+        name: 'John Malkovich',
+      },
+      {
+        name: 'Patrick Dempsey',
+      },
+    ],
     coverUrl: '/movies_pictures/transforms_face_cachee_de_la_lune.jpg',
     releaseDate: '2011-06-29',
     length: 154,
@@ -3075,7 +3225,29 @@ export const baseMoviesSagaPage1: BaseMovie[] = [
   {
     title: 'Die Hard 2 : 58 minutes pour vivre',
     director: 'Renny Harlin',
-    actors: [{ name: 'Bruce Willis' }],
+    actors: [
+      {
+        name: 'Bruce Willis',
+      },
+      {
+        name: 'Bonnie Bedelia',
+      },
+      {
+        name: 'William Sadler',
+      },
+      {
+        name: 'Art Evans',
+      },
+      {
+        name: 'Dennis Franz',
+      },
+      {
+        name: 'Reginald VelJohnson',
+      },
+      {
+        name: 'William Atherton',
+      },
+    ],
     coverUrl: '/movies_pictures/die_hard_2.jpg',
     releaseDate: '1990-07-04',
     length: 124,

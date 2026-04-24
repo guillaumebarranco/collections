@@ -110,6 +110,21 @@ export const baseMoviesApi: BaseMovie[] = [
       {
         name: 'Marion Barbeau',
       },
+      {
+        name: 'Anthony Bajon',
+      },
+      {
+        name: 'Holt McCallany',
+      },
+      {
+        name: 'Christophe Montenez',
+      },
+      {
+        name: 'Jonathan Turnbull',
+      },
+      {
+        name: 'Tracy Gotoas',
+      },
     ],
     coverUrl: '/movies_pictures/gourou.jpg',
     releaseDate: '2026-01-28',
@@ -610,6 +625,21 @@ export const baseMoviesApi: BaseMovie[] = [
       },
       {
         name: 'Raphaël Quenard',
+      },
+      {
+        name: 'Gregory Defleur',
+      },
+      {
+        name: 'David Clark',
+      },
+      {
+        name: 'Josh Casaubon',
+      },
+      {
+        name: 'Etienne Guillou-Kervern',
+      },
+      {
+        name: 'Gabriel Caballero',
       },
     ],
     coverUrl: '/movies_pictures/05188b045ef2.jpeg',

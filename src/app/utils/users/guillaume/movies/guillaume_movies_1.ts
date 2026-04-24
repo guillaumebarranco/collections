@@ -2644,4 +2644,21 @@ export const guillaumeMoviesPage1: UserMovies = [
     borrowed: "",
     loaned: "",
   },
+
+  {
+    title: "Braqueurs amateurs",
+    director: "Les Mayfield",
+    rating: 3,
+    timesWatched: 1,
+    firstViewedDate: "2010-04-24",
+    lastViewedDate: "2010-04-24",
+    seenAtCinema: false,
+    owned: false,
+    wantToSeeAgain: false,
+    watchPriority: 1,
+    ratingComment: "",
+    inList: [],
+    borrowed: "",
+    loaned: "",
+  },
 ];

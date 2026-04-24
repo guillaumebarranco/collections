@@ -498,6 +498,24 @@ export const baseMoviesPage2: BaseMovie[] = [
       {
         name: 'Sylvester Stallone',
       },
+      {
+        name: 'David Bautista',
+      },
+      {
+        name: 'Jaime King',
+      },
+      {
+        name: 'Jesse Metcalfe',
+      },
+      {
+        name: 'Titus Welliver',
+      },
+      {
+        name: '50 Cent',
+      },
+      {
+        name: 'Huang Xiaoming',
+      },
     ],
     coverUrl:
       '/movies_pictures/373180-escape-plan-2-hades-0-150-0-225-crop.jpg',
@@ -755,7 +773,23 @@ export const baseMoviesPage2: BaseMovie[] = [
   {
     title: 'Oscar',
     director: 'Édouard Molinaro',
-    actors: [{ name: 'Louis de Funès' }],
+    actors: [
+      {
+        name: 'Louis de Funès',
+      },
+      {
+        name: 'Claude Rich',
+      },
+      {
+        name: 'Claude Gensac',
+      },
+      {
+        name: 'Paul Préboist',
+      },
+      {
+        name: 'Roger Van Hool',
+      },
+    ],
     coverUrl: '/movies_pictures/50079-oscar-0-150-0-225-crop.jpg',
     releaseDate: '1967-10-11',
     length: 85,
@@ -1435,7 +1469,29 @@ export const baseMoviesPage2: BaseMovie[] = [
   {
     title: 'Jo',
     director: 'Jean Girault',
-    actors: [{ name: 'Louis de Funès' }],
+    actors: [
+      {
+        name: 'Louis de Funès',
+      },
+      {
+        name: 'Claude Gensac',
+      },
+      {
+        name: 'Michel Galabru',
+      },
+      {
+        name: 'Bernard Blier',
+      },
+      {
+        name: 'Guy Tréjan',
+      },
+      {
+        name: 'Ferdy Mayne',
+      },
+      {
+        name: 'Yvonne Clech',
+      },
+    ],
     coverUrl: '/movies_pictures/ac77aca9ecb0.jpg',
     releaseDate: '1971-06-15',
     length: 90,
@@ -1825,7 +1881,29 @@ export const baseMoviesPage2: BaseMovie[] = [
   {
     title: "Maman je m'occupe des méchants",
     director: 'Raja Gosnell',
-    actors: [{ name: 'Scarlett Johansson' }],
+    actors: [
+      {
+        name: 'Alex D. Linz',
+      },
+      {
+        name: 'Olek Krupa',
+      },
+      {
+        name: 'Rya Kihlstedt',
+      },
+      {
+        name: 'Lenny Von Dohlen',
+      },
+      {
+        name: 'David Thornton',
+      },
+      {
+        name: 'Haviland Morris',
+      },
+      {
+        name: 'Kevin Kilner',
+      },
+    ],
     coverUrl: '/movies_pictures/46891-home-alone-3-0-1000-0-1500-crop.jpg',
     releaseDate: '1997-02-05',
     length: 102,
@@ -1972,7 +2050,29 @@ export const baseMoviesPage2: BaseMovie[] = [
   {
     title: 'La guerre des mondes (1953)',
     director: 'Byron Haskin',
-    actors: [{ name: 'Gene Barry' }, { name: 'Ann Robinson' }],
+    actors: [
+      {
+        name: 'Gene Barry',
+      },
+      {
+        name: 'Ann Robinson',
+      },
+      {
+        name: 'Cedric Hardwicke',
+      },
+      {
+        name: 'Les Tremayne',
+      },
+      {
+        name: 'Edgar Barrier',
+      },
+      {
+        name: 'Henry Brandon',
+      },
+      {
+        name: 'Ivan Lebedeff',
+      },
+    ],
     coverUrl: '/movies_pictures/120db49684c4.jpg',
     releaseDate: '1953-08-26',
     length: 85,
@@ -2558,7 +2658,29 @@ export const baseMoviesPage2: BaseMovie[] = [
   {
     title: 'Arsène Lupin',
     director: 'Jack Conway',
-    actors: [{ name: 'John Barrymore' }, { name: 'Lionel Barrymore' }],
+    actors: [
+      {
+        name: 'John Barrymore',
+      },
+      {
+        name: 'Lionel Barrymore',
+      },
+      {
+        name: 'Karen Morley',
+      },
+      {
+        name: 'John Miljan',
+      },
+      {
+        name: 'Tully Marshall',
+      },
+      {
+        name: 'Henry Armetta',
+      },
+      {
+        name: 'George Davis',
+      },
+    ],
     coverUrl: '/movies_pictures/e9df70c19993.jpg',
     releaseDate: '1932-03-05',
     length: 84,
@@ -3204,6 +3326,24 @@ export const baseMoviesPage2: BaseMovie[] = [
     actors: [
       {
         name: 'Sarah Michelle Gellar',
+      },
+      {
+        name: 'Ryan Phillippe',
+      },
+      {
+        name: 'Reese Witherspoon',
+      },
+      {
+        name: 'Selma Blair',
+      },
+      {
+        name: 'Louise Fletcher',
+      },
+      {
+        name: 'Joshua Jackson',
+      },
+      {
+        name: 'Eric Mabius',
       },
     ],
     coverUrl: '/movies_pictures/51356-cruel-intentions-0-150-0-225-crop.jpg',
@@ -3898,7 +4038,23 @@ export const baseMoviesPage2: BaseMovie[] = [
   {
     title: 'King Kong',
     director: 'Peter Jackson',
-    actors: [{ name: 'Naomi Watts' }],
+    actors: [
+      {
+        name: 'Peter Jackson',
+      },
+      {
+        name: 'Jack Black',
+      },
+      {
+        name: 'Andy Serkis',
+      },
+      {
+        name: 'Adrien Brody',
+      },
+      {
+        name: 'Naomi Watts',
+      },
+    ],
     coverUrl: '/movies_pictures/king_kong.jpg',
     releaseDate: '2025-02-17',
     length: 187,
@@ -4084,7 +4240,29 @@ export const baseMoviesPage2: BaseMovie[] = [
   {
     title: 'Sous haute pression',
     director: 'Wes Craven',
-    actors: [{ name: 'Rachel McAdams' }],
+    actors: [
+      {
+        name: 'Rachel McAdams',
+      },
+      {
+        name: 'Cillian Murphy',
+      },
+      {
+        name: 'Brian Cox',
+      },
+      {
+        name: 'Jayma Mays',
+      },
+      {
+        name: 'Jack Scalia',
+      },
+      {
+        name: 'Robert Pine',
+      },
+      {
+        name: 'Max Kasch',
+      },
+    ],
     coverUrl: '/movies_pictures/45282-red-eye-0-150-0-225-crop.jpg',
     releaseDate: '2005-08-19',
     length: 85,
@@ -4098,7 +4276,29 @@ export const baseMoviesPage2: BaseMovie[] = [
   {
     title: 'Serial Nocers',
     director: 'David Dobkin',
-    actors: [{ name: 'Owen Wilson' }],
+    actors: [
+      {
+        name: 'Owen Wilson',
+      },
+      {
+        name: 'Vince Vaughn',
+      },
+      {
+        name: 'Rachel McAdams',
+      },
+      {
+        name: 'Bradley Cooper',
+      },
+      {
+        name: 'Isla Fisher',
+      },
+      {
+        name: 'Christopher Walken',
+      },
+      {
+        name: 'Jane Seymour',
+      },
+    ],
     coverUrl: '/movies_pictures/47078-wedding-crashers-0-150-0-225-crop.jpg',
     releaseDate: '2005-07-15',
     length: 119,
@@ -4279,7 +4479,29 @@ export const baseMoviesPage2: BaseMovie[] = [
   {
     title: 'Leon',
     director: 'Luc Besson',
-    actors: [{ name: 'Jean Reno' }],
+    actors: [
+      {
+        name: 'Natalie Portman',
+      },
+      {
+        name: 'Jean Reno',
+      },
+      {
+        name: 'Gary Oldman',
+      },
+      {
+        name: 'Danny Aiello',
+      },
+      {
+        name: 'Michael Badalucco',
+      },
+      {
+        name: 'Ellen Greene',
+      },
+      {
+        name: 'Peter Appel',
+      },
+    ],
     coverUrl: '/movies_pictures/leon.jpg',
     releaseDate: '1994-11-18',
     length: 110,
@@ -4673,7 +4895,29 @@ export const baseMoviesPage2: BaseMovie[] = [
   {
     title: "Je Sais ce que Vous Avez Fait l'Été Dernier",
     director: 'Jim Gillespie',
-    actors: [{ name: 'Jennifer Love Hewitt' }],
+    actors: [
+      {
+        name: 'Sarah Michelle Gellar',
+      },
+      {
+        name: 'Ryan Phillippe',
+      },
+      {
+        name: 'Jennifer Love Hewitt',
+      },
+      {
+        name: 'Freddie Prinze Jr.',
+      },
+      {
+        name: 'Bridgette Wilson-Sampras',
+      },
+      {
+        name: 'Anne Heche',
+      },
+      {
+        name: 'Johnny Galecki',
+      },
+    ],
     coverUrl:
       '/movies_pictures/49638-i-know-what-you-did-last-summer-0-150-0-225-crop.jpg',
     releaseDate: '1997-10-17',

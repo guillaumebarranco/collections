@@ -713,7 +713,29 @@ export const baseMoviesPage4: BaseMovie[] = [
   {
     title: 'Target',
     director: 'McG',
-    actors: [{ name: 'Chris Pine' }],
+    actors: [
+      {
+        name: 'Reese Witherspoon',
+      },
+      {
+        name: 'Chris Pine',
+      },
+      {
+        name: 'Tom Hardy',
+      },
+      {
+        name: 'Til Schweiger',
+      },
+      {
+        name: 'Chelsea Handler',
+      },
+      {
+        name: 'John Paul Ruttan',
+      },
+      {
+        name: 'Abigail Spencer',
+      },
+    ],
     coverUrl: '/movies_pictures/this-means-war-0-150-0-225-crop.jpg',
     releaseDate: '2012-02-17',
     length: 98,
@@ -1996,7 +2018,29 @@ export const baseMoviesPage4: BaseMovie[] = [
   {
     title: 'Eh mec, elle est où ma caisse ?',
     director: 'Frédéric Forestier',
-    actors: [{ name: 'Ashton Kutcher' }],
+    actors: [
+      {
+        name: 'Ashton Kutcher',
+      },
+      {
+        name: 'Seann William Scott',
+      },
+      {
+        name: 'Jennifer Garner',
+      },
+      {
+        name: 'Marla Sokoloff',
+      },
+      {
+        name: 'Kristy Swanson',
+      },
+      {
+        name: 'David Herman',
+      },
+      {
+        name: 'Hal Sparks',
+      },
+    ],
     coverUrl: '/movies_pictures/69198036_af.jpg',
     releaseDate: '2016-01-27',
     length: 92,
@@ -2188,7 +2232,29 @@ export const baseMoviesPage4: BaseMovie[] = [
   {
     title: 'The Sex List',
     director: 'Denis Malleval',
-    actors: [{ name: 'Inconnu' }],
+    actors: [
+      {
+        name: 'Aubrey Plaza',
+      },
+      {
+        name: 'Johnny Simmons',
+      },
+      {
+        name: 'Bill Hader',
+      },
+      {
+        name: 'Alia Shawkat',
+      },
+      {
+        name: 'Sarah Steele',
+      },
+      {
+        name: 'Scott Porter',
+      },
+      {
+        name: 'Rachel Bilson',
+      },
+    ],
     coverUrl: '/movies_pictures/19802001.webp',
     releaseDate: '2017-04-19',
     length: 104,
@@ -2312,7 +2378,29 @@ export const baseMoviesPage4: BaseMovie[] = [
   {
     title: 'Pas un bruit',
     director: 'Mike Flanagan',
-    actors: [{ name: 'Samantha Sloyan)' }],
+    actors: [
+      {
+        name: 'Emily Blunt',
+      },
+      {
+        name: 'John Krasinski',
+      },
+      {
+        name: 'Millicent Simmonds',
+      },
+      {
+        name: 'Noah Jupe',
+      },
+      {
+        name: 'Cade Woodward',
+      },
+      {
+        name: 'Leon Russom',
+      },
+      {
+        name: 'Rhoda Pell',
+      },
+    ],
     coverUrl: '/movies_pictures/333184.webp',
     releaseDate: '2018-05-10',
     length: 90,
@@ -2515,7 +2603,29 @@ export const baseMoviesPage4: BaseMovie[] = [
   {
     title: 'Cours particulier',
     director: 'Kıvanç Baruönü',
-    actors: [{ name: 'Inconnu' }],
+    actors: [
+      {
+        name: 'Bensu Soral',
+      },
+      {
+        name: 'Halit Özgür Sarı',
+      },
+      {
+        name: 'Helin Kandemir',
+      },
+      {
+        name: 'Rami Narin',
+      },
+      {
+        name: 'Hatice Aslan',
+      },
+      {
+        name: 'Murat Karasu',
+      },
+      {
+        name: 'Hülya Gülşen Irmak',
+      },
+    ],
     coverUrl: '/movies_pictures/1638599.webp',
     releaseDate: '2022-09-21',
     length: 107,
@@ -2565,7 +2675,29 @@ export const baseMoviesPage4: BaseMovie[] = [
   {
     title: "L'Amour en touriste",
     director: 'David Wnendt',
-    actors: [{ name: 'Inconnu' }],
+    actors: [
+      {
+        name: 'Rachael Leigh Cook',
+      },
+      {
+        name: 'Scott Ly',
+      },
+      {
+        name: 'Missi Pyle',
+      },
+      {
+        name: 'Ben Feldman',
+      },
+      {
+        name: 'Glynn Sweet',
+      },
+      {
+        name: 'Alexa Povah',
+      },
+      {
+        name: 'Jacqueline Correa',
+      },
+    ],
     coverUrl: '/movies_pictures/1147458.webp',
     releaseDate: '2022-06-08',
     length: 96,
@@ -2617,10 +2749,25 @@ export const baseMoviesPage4: BaseMovie[] = [
     director: 'Adam McKay',
     actors: [
       {
-        name: 'Will Ferrell',
+        name: 'Mel Gibson',
       },
       {
-        name: 'Ali Davis',
+        name: 'Helen Hunt',
+      },
+      {
+        name: 'Marisa Tomei',
+      },
+      {
+        name: 'Alan Alda',
+      },
+      {
+        name: 'Lauren Holly',
+      },
+      {
+        name: 'Ashley Johnson',
+      },
+      {
+        name: 'Bette Midler',
       },
     ],
     coverUrl: '/movies_pictures/5459039.webp',
@@ -2660,7 +2807,29 @@ export const baseMoviesPage4: BaseMovie[] = [
   {
     title: 'Dernier appel pour Istanbul',
     director: 'Ömer Faruk Sorak',
-    actors: [{ name: 'Inconnu' }],
+    actors: [
+      {
+        name: 'Beren Saat',
+      },
+      {
+        name: 'Kıvanç Tatlıtuğ',
+      },
+      {
+        name: 'Senan Kara',
+      },
+      {
+        name: 'Zihan Zhao',
+      },
+      {
+        name: 'Michael Loayza',
+      },
+      {
+        name: 'Susan Slatin',
+      },
+      {
+        name: 'Annie McCain Engman',
+      },
+    ],
     coverUrl:
       '/movies_pictures/aHR0cHM6Ly9pbWFnZS50bWRiLm9yZy90L3AvL29yaWdpbmFsLy8xbldMTlhDV245UDV1WFdvNHBTZXgxVjlwRm8uanBn.webp',
     releaseDate: '2023-11-17',
@@ -2819,7 +2988,29 @@ export const baseMoviesPage4: BaseMovie[] = [
   {
     title: 'Prise au jeu',
     director: 'Trish Sie',
-    actors: [{ name: 'Inconnu' }],
+    actors: [
+      {
+        name: 'Gina Rodriguez',
+      },
+      {
+        name: 'Damon Wayans Jr.',
+      },
+      {
+        name: 'Tom Ellis',
+      },
+      {
+        name: 'Augustus Prew',
+      },
+      {
+        name: 'Joel Courtney',
+      },
+      {
+        name: 'Liza Koshy',
+      },
+      {
+        name: 'Jerry Kernion',
+      },
+    ],
     coverUrl: '/movies_pictures/1133774.webp',
     releaseDate: '2024-02-14',
     length: 105,

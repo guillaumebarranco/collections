@@ -452,7 +452,29 @@ export const baseMoviesFromAmandine: BaseMovie[] = [
   {
     title: 'Old',
     director: 'M. Night Shyamalan',
-    actors: [{ name: 'Gael García Bernal' }, { name: 'Vicky Krieps' }],
+    actors: [
+      {
+        name: 'Gael García Bernal',
+      },
+      {
+        name: 'Vicky Krieps',
+      },
+      {
+        name: 'Rufus Sewell',
+      },
+      {
+        name: 'Alex Wolff',
+      },
+      {
+        name: 'Thomasin McKenzie',
+      },
+      {
+        name: 'Abbey Lee',
+      },
+      {
+        name: 'Nikki Amuka-Bird',
+      },
+    ],
     coverUrl: '/movies_pictures/4425657.jpg',
     releaseDate: '2021-07-23',
     length: 108,
@@ -792,7 +814,29 @@ export const baseMoviesFromAmandine: BaseMovie[] = [
   {
     title: 'The King',
     director: 'David Michôd',
-    actors: [{ name: 'Timothée Chalamet' }, { name: 'Joel Edgerton' }],
+    actors: [
+      {
+        name: 'Timothée Chalamet',
+      },
+      {
+        name: 'Joel Edgerton',
+      },
+      {
+        name: 'Robert Pattinson',
+      },
+      {
+        name: 'Ben Mendelsohn',
+      },
+      {
+        name: 'Sean Harris',
+      },
+      {
+        name: 'Lily-Rose Depp',
+      },
+      {
+        name: 'Tom Glynn-Carney',
+      },
+    ],
     coverUrl:
       '/movies_pictures/MV5BOTFhZTY4YWUtMmJjMy00OTE0LTlmZjctMDg5MTk4N2ZjZWNjXkEyXkFqcGc@._V1_.jpg',
     releaseDate: '2019-10-11',
@@ -3253,7 +3297,29 @@ export const baseMoviesFromAmandine: BaseMovie[] = [
   {
     title: 'Sleepy Hollow',
     director: 'Tim Burton',
-    actors: [{ name: 'Johnny Depp' }, { name: 'Christina Ricci' }],
+    actors: [
+      {
+        name: 'Johnny Depp',
+      },
+      {
+        name: 'Christina Ricci',
+      },
+      {
+        name: 'Miranda Richardson',
+      },
+      {
+        name: 'Michael Gambon',
+      },
+      {
+        name: 'Casper Van Dien',
+      },
+      {
+        name: 'Jeffrey Jones',
+      },
+      {
+        name: 'Christopher Walken',
+      },
+    ],
     coverUrl: '/movies_pictures/81v+wGfdaGL._AC_UF894,1000_QL80_.jpg',
     releaseDate: '1999-11-19',
     length: 105,

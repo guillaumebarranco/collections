@@ -378,6 +378,21 @@ export const baseMoviesPage7: BaseMovie[] = [
       {
         name: 'Robert Pattinson',
       },
+      {
+        name: 'Bill Skarsgård',
+      },
+      {
+        name: 'Riley Keough',
+      },
+      {
+        name: 'Jason Clarke',
+      },
+      {
+        name: 'Sebastian Stan',
+      },
+      {
+        name: 'Haley Bennett',
+      },
     ],
     coverUrl: '/movies_pictures/5086337.jpg',
     releaseDate: '2020-09-16',
@@ -707,7 +722,29 @@ export const baseMoviesPage7: BaseMovie[] = [
   {
     title: 'Nos souvenirs brûlés',
     director: 'Darnell Martin',
-    actors: [{ name: 'Halle Berry' }],
+    actors: [
+      {
+        name: 'Halle Berry',
+      },
+      {
+        name: 'Benicio del Toro',
+      },
+      {
+        name: 'David Duchovny',
+      },
+      {
+        name: 'Alison Lohman',
+      },
+      {
+        name: 'Omar Benson Miller',
+      },
+      {
+        name: 'John Carroll Lynch',
+      },
+      {
+        name: 'Alexis Llewellyn',
+      },
+    ],
     coverUrl: '/movies_pictures/18860807.webp',
     releaseDate: '2005-03-06',
     length: 120,
@@ -914,7 +951,29 @@ export const baseMoviesPage7: BaseMovie[] = [
   {
     title: 'Mensonges et Faux Semblants',
     director: 'Dominic Sena',
-    actors: [{ name: 'Kate Beckinsale' }],
+    actors: [
+      {
+        name: 'Kate Beckinsale',
+      },
+      {
+        name: 'Nick Nolte',
+      },
+      {
+        name: 'James Cromwell',
+      },
+      {
+        name: 'Anna Schafer',
+      },
+      {
+        name: 'Mark Pellegrino',
+      },
+      {
+        name: 'Clancy Brown',
+      },
+      {
+        name: 'Taye Diggs',
+      },
+    ],
     coverUrl:
       '/movies_pictures/MV5BMTQ0MTUwNjI4MF5BMl5BanBnXkFtZTgwOTk4MDk3MDE@._V1_.jpg',
     releaseDate: '2009-09-11',
@@ -929,7 +988,29 @@ export const baseMoviesPage7: BaseMovie[] = [
   {
     title: 'Hysteria',
     director: 'Tanya Wexler',
-    actors: [{ name: 'Kate Beckinsale' }],
+    actors: [
+      {
+        name: 'Maggie Gyllenhaal',
+      },
+      {
+        name: 'Hugh Dancy',
+      },
+      {
+        name: 'Felicity Jones',
+      },
+      {
+        name: 'Rupert Everett',
+      },
+      {
+        name: 'Jonathan Pryce',
+      },
+      {
+        name: 'Ashley Jensen',
+      },
+      {
+        name: 'Gemma Jones',
+      },
+    ],
     coverUrl:
       '/movies_pictures/MV5BNjg5NjU0MTM4N15BMl5BanBnXkFtZTgwMjU1NDQzMjE@._V1_.jpg',
     releaseDate: '2011-09-15',
@@ -1192,7 +1273,29 @@ export const baseMoviesPage7: BaseMovie[] = [
   {
     title: 'Étroite Surveillance',
     director: 'Wayne Wang',
-    actors: [{ name: 'Forest Whitaker' }],
+    actors: [
+      {
+        name: 'Richard Dreyfuss',
+      },
+      {
+        name: 'Emilio Estevez',
+      },
+      {
+        name: 'Madeleine Stowe',
+      },
+      {
+        name: 'Aidan Quinn',
+      },
+      {
+        name: 'Dan Lauria',
+      },
+      {
+        name: 'Forest Whitaker',
+      },
+      {
+        name: 'Earl Billings',
+      },
+    ],
     coverUrl: '/movies_pictures/19252284.jpg',
     releaseDate: '1995-06-09',
     length: 112,
@@ -1466,7 +1569,29 @@ export const baseMoviesPage7: BaseMovie[] = [
   {
     title: 'A Bag of Hammers',
     director: 'Brian Crano',
-    actors: [{ name: 'Amanda Seyfried' }],
+    actors: [
+      {
+        name: 'Jason Ritter',
+      },
+      {
+        name: 'Jake Sandvig',
+      },
+      {
+        name: 'Chandler Canterbury',
+      },
+      {
+        name: 'Rebecca Hall',
+      },
+      {
+        name: 'Todd Louiso',
+      },
+      {
+        name: 'Gabriel Macht',
+      },
+      {
+        name: 'Sally Kirkland',
+      },
+    ],
     coverUrl: '/movies_pictures/20035801.webp',
     releaseDate: '2011-06-10',
     length: 85,
@@ -1690,7 +1815,29 @@ export const baseMoviesPage7: BaseMovie[] = [
   {
     title: 'Sur le chemin de la rédemption',
     director: "Gavin O'Connor",
-    actors: [{ name: 'Amanda Seyfried' }],
+    actors: [
+      {
+        name: 'Ethan Hawke',
+      },
+      {
+        name: 'Amanda Seyfried',
+      },
+      {
+        name: 'Cedric the Entertainer',
+      },
+      {
+        name: 'Victoria Hill',
+      },
+      {
+        name: 'Philip Ettinger',
+      },
+      {
+        name: 'Michael Gaston',
+      },
+      {
+        name: 'Bill Hoag',
+      },
+    ],
     coverUrl: '/movies_pictures/en130359.jpg',
     releaseDate: '2020-07-31',
     length: 108,
@@ -1809,7 +1956,29 @@ export const baseMoviesPage7: BaseMovie[] = [
   {
     title: 'Le souffle coupé',
     director: 'Marc Lawrence',
-    actors: [{ name: 'Amanda Seyfried' }],
+    actors: [
+      {
+        name: 'Manuel Blanc',
+      },
+      {
+        name: 'Thomas Laroppe',
+      },
+      {
+        name: 'Stéphanie Michelini',
+      },
+      {
+        name: 'André Schneider',
+      },
+      {
+        name: 'Michèle Seeberger',
+      },
+      {
+        name: 'Biño Sauitzvy',
+      },
+      {
+        name: 'Magali Gaudou',
+      },
+    ],
     coverUrl: '/movies_pictures/103444000.webp',
     releaseDate: '2021-10-29',
     length: 107,
@@ -1858,7 +2027,29 @@ export const baseMoviesPage7: BaseMovie[] = [
   {
     title: 'Overdrive',
     director: 'Antonio Negret',
-    actors: [{ name: 'Ana de Armas' }, { name: 'Chris Evans' }],
+    actors: [
+      {
+        name: 'Scott Eastwood',
+      },
+      {
+        name: 'Freddie Thorp',
+      },
+      {
+        name: 'Ana de Armas',
+      },
+      {
+        name: 'Gaia Weiss',
+      },
+      {
+        name: 'Clemens Schick',
+      },
+      {
+        name: 'Simon Abkarian',
+      },
+      {
+        name: 'Moussa Maaskri',
+      },
+    ],
     coverUrl: '/movies_pictures/279623.jpg',
     releaseDate: '2017-08-11',
     length: 93,
@@ -2017,7 +2208,20 @@ export const baseMoviesPage7: BaseMovie[] = [
   {
     title: 'Blackout',
     director: 'Rigoberto Castañeda',
-    actors: [{ name: 'Zoe Saldana' }],
+    actors: [
+      {
+        name: 'Amber Tamblyn',
+      },
+      {
+        name: 'Aidan Gillen',
+      },
+      {
+        name: 'Armie Hammer',
+      },
+      {
+        name: 'Katie Stuart',
+      },
+    ],
     coverUrl: '/movies_pictures/599098.webp',
     releaseDate: '2008-09-05',
     length: 85,
