@@ -26,7 +26,29 @@ export const baseMoviesDc: BaseMovie[] = [
   {
     title: 'Green Lantern',
     director: 'Martin Campbell',
-    actors: [{ name: 'Ryan Reynolds' }],
+    actors: [
+      {
+        name: 'Ryan Reynolds',
+      },
+      {
+        name: 'Blake Lively',
+      },
+      {
+        name: 'Mark Strong',
+      },
+      {
+        name: 'Peter Sarsgaard',
+      },
+      {
+        name: 'Temuera Morrison',
+      },
+      {
+        name: 'Tim Robbins',
+      },
+      {
+        name: 'Angela Bassett',
+      },
+    ],
     coverUrl: '/movies_pictures/20293-green-lantern-0-150-0-225-crop.jpg',
     releaseDate: '2011-06-17',
     length: 114,
@@ -40,7 +62,29 @@ export const baseMoviesDc: BaseMovie[] = [
   {
     title: 'Batman',
     director: 'Tim Burton',
-    actors: [{ name: 'Michael Keaton' }, { name: 'Jack Nicholson' }],
+    actors: [
+      {
+        name: 'Jack Palance',
+      },
+      {
+        name: 'Michael Gough',
+      },
+      {
+        name: 'Robert Wuhl',
+      },
+      {
+        name: 'Michael Keaton',
+      },
+      {
+        name: 'Jack Nicholson',
+      },
+      {
+        name: 'Kim Basinger',
+      },
+      {
+        name: 'Pat Hingle',
+      },
+    ],
     coverUrl: '/movies_pictures/51788-batman-0-150-0-225-crop.jpg',
     releaseDate: '1989-06-23',
     length: 126,
@@ -114,7 +158,22 @@ export const baseMoviesDc: BaseMovie[] = [
         name: 'George Clooney',
       },
       {
+        name: 'Chris O\'Donnell',
+      },
+      {
+        name: 'Alicia Silverstone',
+      },
+      {
         name: 'Arnold Schwarzenegger',
+      },
+      {
+        name: 'Uma Thurman',
+      },
+      {
+        name: 'Michael Gough',
+      },
+      {
+        name: 'Pat Hingle',
       },
     ],
     coverUrl: '/movies_pictures/batman_and_robin.jpg',
@@ -248,7 +307,22 @@ export const baseMoviesDc: BaseMovie[] = [
         name: 'Robert Pattinson',
       },
       {
+        name: 'Zoë Kravitz',
+      },
+      {
+        name: 'Jeffrey Wright',
+      },
+      {
+        name: 'Andy Serkis',
+      },
+      {
+        name: 'Colin Farrell',
+      },
+      {
         name: 'Paul Dano',
+      },
+      {
+        name: 'Peter Sarsgaard',
       },
     ],
     coverUrl: '/movies_pictures/348914-the-batman-0-150-0-225-crop.jpg',
@@ -307,9 +381,26 @@ export const baseMoviesDc: BaseMovie[] = [
     director: 'David F. Sandberg',
     actors: [
       {
+        name: 'Asher Angel',
+      },
+      {
         name: 'Zachary Levi',
       },
-      { name: 'Djimon Hounsou' },
+      {
+        name: 'Mark Strong',
+      },
+      {
+        name: 'Djimon Hounsou',
+      },
+      {
+        name: 'Grace Fulton',
+      },
+      {
+        name: 'Jack Dylan Grazer',
+      },
+      {
+        name: 'Ian Chen',
+      },
     ],
     coverUrl: '/movies_pictures/213190-shazam--0-150-0-225-crop.jpg',
     releaseDate: '2019-04-05',
@@ -329,7 +420,22 @@ export const baseMoviesDc: BaseMovie[] = [
         name: 'Jason Momoa',
       },
       {
-        name: 'Djimon Hounsou',
+        name: 'Amber Heard',
+      },
+      {
+        name: 'Nicole Kidman',
+      },
+      {
+        name: 'Dolph Lundgren',
+      },
+      {
+        name: 'Patrick Wilson',
+      },
+      {
+        name: 'Willem Dafoe',
+      },
+      {
+        name: 'Yahya Abdul-Mateen II',
       },
     ],
     coverUrl: '/movies_pictures/225060-aquaman-0-150-0-225-crop.jpg',
@@ -374,7 +480,22 @@ export const baseMoviesDc: BaseMovie[] = [
         name: 'Dwayne Johnson',
       },
       {
+        name: 'Sarah Shahi',
+      },
+      {
+        name: 'Aldis Hodge',
+      },
+      {
+        name: 'Noah Centineo',
+      },
+      {
+        name: 'Quintessa Swindell',
+      },
+      {
         name: 'Pierce Brosnan',
+      },
+      {
+        name: 'Marwan Kenzari',
       },
     ],
     coverUrl: '/movies_pictures/369179-black-adam-0-150-0-225-crop.jpg',
@@ -423,10 +544,25 @@ export const baseMoviesDc: BaseMovie[] = [
     director: 'David Ayer',
     actors: [
       {
+        name: 'Jared Leto',
+      },
+      {
         name: 'Will Smith',
       },
       {
         name: 'Margot Robbie',
+      },
+      {
+        name: 'Adewale Akinnuoye-Agbaje',
+      },
+      {
+        name: 'Jai Courtney',
+      },
+      {
+        name: 'Joel Kinnaman',
+      },
+      {
+        name: 'Cara Delevingne',
       },
     ],
     coverUrl: '/movies_pictures/suicide_squad.jpg',
@@ -442,7 +578,29 @@ export const baseMoviesDc: BaseMovie[] = [
   {
     title: 'Superman',
     director: 'Richard Donner',
-    actors: [{ name: 'Christopher Reeve' }, { name: 'Margot Kidder' }],
+    actors: [
+      {
+        name: 'Marlon Brando',
+      },
+      {
+        name: 'Gene Hackman',
+      },
+      {
+        name: 'Christopher Reeve',
+      },
+      {
+        name: 'Margot Kidder',
+      },
+      {
+        name: 'Jackie Cooper',
+      },
+      {
+        name: 'Ned Beatty',
+      },
+      {
+        name: 'Glenn Ford',
+      },
+    ],
     coverUrl: '/movies_pictures/Superman_affiche_film_1.webp',
     releaseDate: '1978-12-15',
     length: 143,
@@ -460,7 +618,29 @@ export const baseMoviesDc: BaseMovie[] = [
   {
     title: 'Superman II',
     director: 'Richard Lester',
-    actors: [{ name: 'Christopher Reeve' }, { name: 'Margot Kidder' }],
+    actors: [
+      {
+        name: 'Christopher Reeve',
+      },
+      {
+        name: 'Margot Kidder',
+      },
+      {
+        name: 'Gene Hackman',
+      },
+      {
+        name: 'Ned Beatty',
+      },
+      {
+        name: 'Jackie Cooper',
+      },
+      {
+        name: 'Sarah Douglas',
+      },
+      {
+        name: 'Jack O\'Halloran',
+      },
+    ],
     coverUrl: '/movies_pictures/61a2Wp8ylUL._AC_UF894,1000_QL80_.jpg',
     releaseDate: '1980-12-12',
     length: 127,
@@ -482,6 +662,24 @@ export const baseMoviesDc: BaseMovie[] = [
       {
         name: 'Christopher Reeve',
       },
+      {
+        name: 'Gene Hackman',
+      },
+      {
+        name: 'Jackie Cooper',
+      },
+      {
+        name: 'Marc McClure',
+      },
+      {
+        name: 'Jon Cryer',
+      },
+      {
+        name: 'Sam Wanamaker',
+      },
+      {
+        name: 'Mariel Hemingway',
+      },
     ],
     coverUrl: '/movies_pictures/superman_iv_the_quest_for_peace.jpg',
     releaseDate: '1987-10-28',
@@ -496,7 +694,29 @@ export const baseMoviesDc: BaseMovie[] = [
   {
     title: 'Superman Returns',
     director: 'Bryan Singer',
-    actors: [{ name: 'Brandon Routh' }, { name: 'Kate Bosworth' }],
+    actors: [
+      {
+        name: 'Brandon Routh',
+      },
+      {
+        name: 'Kate Bosworth',
+      },
+      {
+        name: 'Kevin Spacey',
+      },
+      {
+        name: 'Frank Langella',
+      },
+      {
+        name: 'Sam Huntington',
+      },
+      {
+        name: 'James Marsden',
+      },
+      {
+        name: 'Parker Posey',
+      },
+    ],
     coverUrl: '/movies_pictures/18648048.jpg',
     releaseDate: '2006-06-28',
     length: 154,
@@ -576,7 +796,29 @@ export const baseMoviesDc: BaseMovie[] = [
   {
     title: 'Watchmen : Les Gardiens',
     director: 'Zack Snyder',
-    actors: [{ name: 'Jackie Earle Haley' }],
+    actors: [
+      {
+        name: 'Billy Crudup',
+      },
+      {
+        name: 'Patrick Wilson',
+      },
+      {
+        name: 'Jackie Earle Haley',
+      },
+      {
+        name: 'Malin Åkerman',
+      },
+      {
+        name: 'Carla Gugino',
+      },
+      {
+        name: 'Matthew Goode',
+      },
+      {
+        name: 'Jeffrey Dean Morgan',
+      },
+    ],
     coverUrl: '/movies_pictures/44070-watchmen-0-150-0-225-crop.jpg',
     releaseDate: '2009-03-06',
     length: 162,
@@ -594,7 +836,29 @@ export const baseMoviesDc: BaseMovie[] = [
   {
     title: 'Catwoman',
     director: 'Pitof',
-    actors: [{ name: 'Halle Berry' }],
+    actors: [
+      {
+        name: 'Halle Berry',
+      },
+      {
+        name: 'Benjamin Bratt',
+      },
+      {
+        name: 'Sharon Stone',
+      },
+      {
+        name: 'Lambert Wilson',
+      },
+      {
+        name: 'Frances Conroy',
+      },
+      {
+        name: 'Alex Borstein',
+      },
+      {
+        name: 'Michael Massee',
+      },
+    ],
     coverUrl: '/movies_pictures/51745-catwoman-0-150-0-225-crop.jpg',
     releaseDate: '2004-07-23',
     length: 104,
@@ -610,7 +874,25 @@ export const baseMoviesDc: BaseMovie[] = [
     director: 'Patty Jenkins',
     actors: [
       {
-        name: 'Gal Gadot',
+        name: 'Lynda Carter',
+      },
+      {
+        name: 'Lyle Waggoner',
+      },
+      {
+        name: 'Norman Burton',
+      },
+      {
+        name: 'Richard Eastham',
+      },
+      {
+        name: 'David Hedison',
+      },
+      {
+        name: 'Stella Stevens',
+      },
+      {
+        name: 'Robert Alda',
       },
     ],
     coverUrl: '/movies_pictures/225027-wonder-woman-0-150-0-225-crop.jpg',
@@ -630,6 +912,24 @@ export const baseMoviesDc: BaseMovie[] = [
       {
         name: 'Gal Gadot',
       },
+      {
+        name: 'Kristen Wiig',
+      },
+      {
+        name: 'Pedro Pascal',
+      },
+      {
+        name: 'Chris Pine',
+      },
+      {
+        name: 'Lynda Carter',
+      },
+      {
+        name: 'Sia Alipour',
+      },
+      {
+        name: 'Natasha Rothwell',
+      },
     ],
     coverUrl: '/movies_pictures/395731-wonder-woman-1984-0-150-0-225-crop.jpg',
     releaseDate: '2020-12-25',
@@ -647,6 +947,24 @@ export const baseMoviesDc: BaseMovie[] = [
     actors: [
       {
         name: 'Ezra Miller',
+      },
+      {
+        name: 'Kiersey Clemons',
+      },
+      {
+        name: 'Ben Affleck',
+      },
+      {
+        name: 'Ron Livingston',
+      },
+      {
+        name: 'Michael Keaton',
+      },
+      {
+        name: 'Sasha Calle',
+      },
+      {
+        name: 'Maribel Verdú',
       },
     ],
     coverUrl: '/movies_pictures/225845-the-flash-0-150-0-225-crop.jpg',
@@ -668,7 +986,22 @@ export const baseMoviesDc: BaseMovie[] = [
     director: 'Cathy Yan',
     actors: [
       {
-        name: 'Margot Robbie',
+        name: 'Ashley Scott',
+      },
+      {
+        name: 'Dina Meyer',
+      },
+      {
+        name: 'Rachel Skarsten',
+      },
+      {
+        name: 'Shemar Moore',
+      },
+      {
+        name: 'Mia Sara',
+      },
+      {
+        name: 'Ian Abercrombie',
       },
     ],
     coverUrl:

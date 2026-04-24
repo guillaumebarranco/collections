@@ -28,8 +28,29 @@ export const baseMoviesSagaPage3: BaseMovie[] = [
   {
     title: 'Indiana Jones et le Temple maudit',
     director: 'Steven Spielberg',
-    actors: [{ name: 'Harrison Ford' }, { name: 'Kate Capshaw' }],
-    coverUrl: '/movies_pictures/18931015.jpg',
+    actors: [
+      {
+        name: 'Harrison Ford',
+      },
+      {
+        name: 'Kate Capshaw',
+      },
+      {
+        name: 'Jonathan Ke Quan',
+      },
+      {
+        name: 'Amrish Puri',
+      },
+      {
+        name: 'Roshan Seth',
+      },
+      {
+        name: 'Philip Stone',
+      },
+      {
+        name: 'Roy Chiao',
+      },
+    ],    coverUrl: '/movies_pictures/18931015.jpg',
     releaseDate: '1984-05-23',
     length: 118,
     genre: ['Aventure', 'Action'],
@@ -42,8 +63,29 @@ export const baseMoviesSagaPage3: BaseMovie[] = [
   {
     title: 'Indiana Jones et la Dernière Croisade',
     director: 'Steven Spielberg',
-    actors: [{ name: 'Harrison Ford' }, { name: 'Sean Connery' }],
-    coverUrl: '/movies_pictures/18895516.jpg',
+    actors: [
+      {
+        name: 'Sean Connery',
+      },
+      {
+        name: 'John Rhys-Davies',
+      },
+      {
+        name: 'Harrison Ford',
+      },
+      {
+        name: 'River Phoenix',
+      },
+      {
+        name: 'Michael Byrne',
+      },
+      {
+        name: 'Alison Doody',
+      },
+      {
+        name: 'Denholm Elliott',
+      },
+    ],    coverUrl: '/movies_pictures/18895516.jpg',
     releaseDate: '1989-05-24',
     length: 127,
     genre: ['Aventure', 'Action'],
@@ -111,8 +153,29 @@ export const baseMoviesSagaPage3: BaseMovie[] = [
   {
     title: 'Big Mamma',
     director: 'Raja Gosnell',
-    actors: [{ name: 'Martin Lawrence' }],
-    coverUrl: '/movies_pictures/big_mamma.jpg',
+    actors: [
+      {
+        name: 'Martin Lawrence',
+      },
+      {
+        name: 'Nia Long',
+      },
+      {
+        name: 'Terrence Howard',
+      },
+      {
+        name: 'Paul Giamatti',
+      },
+      {
+        name: 'Jascha Washington',
+      },
+      {
+        name: 'Anthony Anderson',
+      },
+      {
+        name: 'Octavia Spencer',
+      },
+    ],    coverUrl: '/movies_pictures/big_mamma.jpg',
     releaseDate: '2000-06-02',
     length: 99,
     genre: ['Comédie'],
@@ -125,8 +188,29 @@ export const baseMoviesSagaPage3: BaseMovie[] = [
   {
     title: 'Big Mamma 2',
     director: 'John Whitesell',
-    actors: [{ name: 'Martin Lawrence' }],
-    coverUrl: '/movies_pictures/18475907.webp',
+    actors: [
+      {
+        name: 'Martin Lawrence',
+      },
+      {
+        name: 'Nia Long',
+      },
+      {
+        name: 'Emily Procter',
+      },
+      {
+        name: 'Zachary Levi',
+      },
+      {
+        name: 'Mark Moses',
+      },
+      {
+        name: 'Chloë Grace Moretz',
+      },
+      {
+        name: 'Kat Dennings',
+      },
+    ],    coverUrl: '/movies_pictures/18475907.webp',
     releaseDate: '2006-01-27',
     length: 99,
     genre: ['Comédie'],
@@ -139,8 +223,29 @@ export const baseMoviesSagaPage3: BaseMovie[] = [
   {
     title: '28 jours plus tard',
     director: 'Danny Boyle',
-    actors: [{ name: 'Cillian Murphy' }],
-    coverUrl: '/movies_pictures/28_jours_plus_tard.jpg',
+    actors: [
+      {
+        name: 'Cillian Murphy',
+      },
+      {
+        name: 'Naomie Harris',
+      },
+      {
+        name: 'Christopher Eccleston',
+      },
+      {
+        name: 'Megan Burns',
+      },
+      {
+        name: 'Brendan Gleeson',
+      },
+      {
+        name: 'Bindu De Stoppani',
+      },
+      {
+        name: 'David Schneider',
+      },
+    ],    coverUrl: '/movies_pictures/28_jours_plus_tard.jpg',
     releaseDate: '2002-11-01',
     length: 113,
     genre: ['Horreur'],
@@ -153,8 +258,29 @@ export const baseMoviesSagaPage3: BaseMovie[] = [
   {
     title: '28 Semaines Plus Tard',
     director: 'Juan Carlos Fresnadillo',
-    actors: [{ name: 'Robert Carlyle' }],
-    coverUrl: '/movies_pictures/18795535.jpg',
+    actors: [
+      {
+        name: 'Robert Carlyle',
+      },
+      {
+        name: 'Jeremy Renner',
+      },
+      {
+        name: 'Catherine McCormack',
+      },
+      {
+        name: 'Idris Elba',
+      },
+      {
+        name: 'Rose Byrne',
+      },
+      {
+        name: 'Harold Perrineau Jr.',
+      },
+      {
+        name: 'Imogen Poots',
+      },
+    ],    coverUrl: '/movies_pictures/18795535.jpg',
     releaseDate: '2007-05-11',
     length: 99,
     genre: ['Horreur'],
@@ -226,8 +352,22 @@ export const baseMoviesSagaPage3: BaseMovie[] = [
       {
         name: 'James Marsden',
       },
-    ],
-    coverUrl: '/movies_pictures/sonic-2.jpg',
+      {
+        name: 'Tika Sumpter',
+      },
+      {
+        name: 'Adam Pally',
+      },
+      {
+        name: 'Natasha Rothwell',
+      },
+      {
+        name: 'Lee Majdoub',
+      },
+      {
+        name: 'Shemar Moore',
+      },
+    ],    coverUrl: '/movies_pictures/sonic-2.jpg',
     releaseDate: '2022-03-30',
     length: 122,
     genre: ['Aventure', 'Jeunesse'],
@@ -578,8 +718,22 @@ export const baseMoviesSagaPage3: BaseMovie[] = [
       {
         name: 'Ian McKellen',
       },
-    ],
-    coverUrl: '/movies_pictures/20273834.webp',
+      {
+        name: 'Richard Armitage',
+      },
+      {
+        name: 'Ken Stott',
+      },
+      {
+        name: 'Graham McTavish',
+      },
+      {
+        name: 'Aidan Turner',
+      },
+      {
+        name: 'Dean O\'Gorman',
+      },
+    ],    coverUrl: '/movies_pictures/20273834.webp',
     releaseDate: '2012-12-14',
     length: 169,
     genre: ['Fantastique', 'Aventure'],
@@ -747,13 +901,27 @@ export const baseMoviesSagaPage3: BaseMovie[] = [
     director: 'Andrew Adamson',
     actors: [
       {
+        name: 'William Moseley',
+      },
+      {
         name: 'Ben Barnes',
+      },
+      {
+        name: 'Anna Popplewell',
       },
       {
         name: 'Georgie Henley',
       },
-    ],
-    coverUrl: '/movies_pictures/18943276.jpg',
+      {
+        name: 'Skandar Keynes',
+      },
+      {
+        name: 'Sergio Castellitto',
+      },
+      {
+        name: 'Peter Dinklage',
+      },
+    ],    coverUrl: '/movies_pictures/18943276.jpg',
     releaseDate: '2008-05-16',
     length: 150,
     genre: ['Fantastique', 'Aventure'],
@@ -868,8 +1036,29 @@ export const baseMoviesSagaPage3: BaseMovie[] = [
   {
     title: 'Jurassic World',
     director: 'Colin Trevorrow',
-    actors: [{ name: 'Chris Pratt' }, { name: 'Bryce Dallas Howard' }],
-    coverUrl: '/movies_pictures/422000.webp',
+    actors: [
+      {
+        name: 'Chris Pratt',
+      },
+      {
+        name: 'Bryce Dallas Howard',
+      },
+      {
+        name: 'Irfan Khan',
+      },
+      {
+        name: 'Vincent D\'Onofrio',
+      },
+      {
+        name: 'Ty Simpkins',
+      },
+      {
+        name: 'Omar Sy',
+      },
+      {
+        name: 'Jake Johnson',
+      },
+    ],    coverUrl: '/movies_pictures/422000.webp',
     releaseDate: '2015-06-12',
     length: 124,
     genre: ['Action', 'Aventure'],
@@ -882,8 +1071,29 @@ export const baseMoviesSagaPage3: BaseMovie[] = [
   {
     title: 'Jurassic World: Fallen Kingdom',
     director: 'J.A. Bayona',
-    actors: [{ name: 'Chris Pratt' }, { name: 'Bryce Dallas Howard' }],
-    coverUrl: '/movies_pictures/Jurassic_World_Fallen_Kingdom.png',
+    actors: [
+      {
+        name: 'Chris Pratt',
+      },
+      {
+        name: 'Bryce Dallas Howard',
+      },
+      {
+        name: 'B. D. Wong',
+      },
+      {
+        name: 'James Cromwell',
+      },
+      {
+        name: 'Ted Levine',
+      },
+      {
+        name: 'Jeff Goldblum',
+      },
+      {
+        name: 'Toby Jones',
+      },
+    ],    coverUrl: '/movies_pictures/Jurassic_World_Fallen_Kingdom.png',
     releaseDate: '2018-06-22',
     length: 128,
     genre: ['Action', 'Aventure'],
@@ -1103,8 +1313,14 @@ export const baseMoviesSagaPage3: BaseMovie[] = [
   {
     title: 'Paranormal Activity',
     director: 'Oren Peli',
-    actors: [{ name: 'Katie Featherston' }],
-    coverUrl: '/movies_pictures/paranormal_activity.jpg',
+    actors: [
+      {
+        name: 'Katie Featherston',
+      },
+      {
+        name: 'Micah Sloat',
+      },
+    ],    coverUrl: '/movies_pictures/paranormal_activity.jpg',
     releaseDate: '2007-10-14',
     length: 86,
     genre: ['Horreur'],
@@ -1279,10 +1495,24 @@ export const baseMoviesSagaPage3: BaseMovie[] = [
         name: 'Sylvester Stallone',
       },
       {
-        name: 'Arnold Schwarzenegger',
+        name: 'Jason Statham',
       },
-    ],
-    coverUrl: '/movies_pictures/285929.webp',
+      {
+        name: 'Antonio Banderas',
+      },
+      {
+        name: 'Jet Li',
+      },
+      {
+        name: 'Wesley Snipes',
+      },
+      {
+        name: 'Dolph Lundgren',
+      },
+      {
+        name: 'Kelsey Grammer',
+      },
+    ],    coverUrl: '/movies_pictures/285929.webp',
     releaseDate: '2014-08-15',
     length: 126,
     genre: ['Action'],
@@ -1299,8 +1529,25 @@ export const baseMoviesSagaPage3: BaseMovie[] = [
       {
         name: 'Sylvester Stallone',
       },
-    ],
-    coverUrl: '/movies_pictures/91OrZUqoMxL._AC_UF894,1000_QL80_.jpg',
+      {
+        name: 'Jason Statham',
+      },
+      {
+        name: 'Dolph Lundgren',
+      },
+      {
+        name: 'Randy Couture',
+      },
+      {
+        name: '50 Cent',
+      },
+      {
+        name: 'Megan Fox',
+      },
+      {
+        name: 'Tony Jaa',
+      },
+    ],    coverUrl: '/movies_pictures/91OrZUqoMxL._AC_UF894,1000_QL80_.jpg',
     releaseDate: '2023-09-22',
     length: 103,
     genre: ['Action'],
@@ -1313,8 +1560,29 @@ export const baseMoviesSagaPage3: BaseMovie[] = [
   {
     title: 'Jurassic Park',
     director: 'Steven Spielberg',
-    actors: [{ name: 'Sam Neill' }],
-    coverUrl: '/movies_pictures/jurassic_park.jpg',
+    actors: [
+      {
+        name: 'Richard Attenborough',
+      },
+      {
+        name: 'Jeff Goldblum',
+      },
+      {
+        name: 'Samuel L. Jackson',
+      },
+      {
+        name: 'Sam Neill',
+      },
+      {
+        name: 'Laura Dern',
+      },
+      {
+        name: 'Ariana Richards',
+      },
+      {
+        name: 'Wayne Knight',
+      },
+    ],    coverUrl: '/movies_pictures/jurassic_park.jpg',
     releaseDate: '1993-06-11',
     length: 127,
     genre: ['Aventure'],
@@ -1334,8 +1602,22 @@ export const baseMoviesSagaPage3: BaseMovie[] = [
       {
         name: 'Julianne Moore',
       },
-    ],
-    coverUrl: '/movies_pictures/the_lost_world_jurassic_park.jpg',
+      {
+        name: 'Pete Postlethwaite',
+      },
+      {
+        name: 'Vince Vaughn',
+      },
+      {
+        name: 'Richard Schiff',
+      },
+      {
+        name: 'Peter Stormare',
+      },
+      {
+        name: 'Vanessa Lee Chester',
+      },
+    ],    coverUrl: '/movies_pictures/the_lost_world_jurassic_park.jpg',
     releaseDate: '1997-10-22',
     length: 129,
     genre: ['Action'],
@@ -1348,8 +1630,29 @@ export const baseMoviesSagaPage3: BaseMovie[] = [
   {
     title: 'Mad Max',
     director: 'George Miller',
-    actors: [{ name: 'Mel Gibson' }],
-    coverUrl: '/movies_pictures/18943123.webp',
+    actors: [
+      {
+        name: 'Mel Gibson',
+      },
+      {
+        name: 'Steve Bisley',
+      },
+      {
+        name: 'Joanne Samuel',
+      },
+      {
+        name: 'Hugh Keays-Byrne',
+      },
+      {
+        name: 'Roger Ward',
+      },
+      {
+        name: 'Vincent Gil',
+      },
+      {
+        name: 'Paul Johnstone',
+      },
+    ],    coverUrl: '/movies_pictures/18943123.webp',
     releaseDate: '1979-01-01',
     length: 88,
     genre: ['Action'],
@@ -1362,8 +1665,29 @@ export const baseMoviesSagaPage3: BaseMovie[] = [
   {
     title: 'Mad Max 2',
     director: 'George Miller',
-    actors: [{ name: 'Mel Gibson' }],
-    coverUrl: '/movies_pictures/91qplWiUsQL._AC_UF894,1000_QL80_.jpg',
+    actors: [
+      {
+        name: 'Mel Gibson',
+      },
+      {
+        name: 'Michael Preston',
+      },
+      {
+        name: 'Bruce Spence',
+      },
+      {
+        name: 'Vernon Wells',
+      },
+      {
+        name: 'Kjell Nilsson',
+      },
+      {
+        name: 'Virginia Hey',
+      },
+      {
+        name: 'Emil Minty',
+      },
+    ],    coverUrl: '/movies_pictures/91qplWiUsQL._AC_UF894,1000_QL80_.jpg',
     releaseDate: '1981-01-01',
     length: 96,
     genre: ['Action'],
@@ -1376,8 +1700,29 @@ export const baseMoviesSagaPage3: BaseMovie[] = [
   {
     title: 'Mad Max: Fury Road',
     director: 'George Miller',
-    actors: [{ name: 'Tom Hardy' }, { name: 'Charlize Theron' }],
-    coverUrl: '/movies_pictures/furyroad.png',
+    actors: [
+      {
+        name: 'Tom Hardy',
+      },
+      {
+        name: 'Charlize Theron',
+      },
+      {
+        name: 'Nicholas Hoult',
+      },
+      {
+        name: 'Josh Helman',
+      },
+      {
+        name: 'Nathan Jones',
+      },
+      {
+        name: 'Zoë Kravitz',
+      },
+      {
+        name: 'Rosie Huntington-Whiteley',
+      },
+    ],    coverUrl: '/movies_pictures/furyroad.png',
     releaseDate: '2015-05-15',
     length: 120,
     genre: ['Action'],
@@ -1390,8 +1735,29 @@ export const baseMoviesSagaPage3: BaseMovie[] = [
   {
     title: 'Furiosa',
     director: 'George Miller',
-    actors: [{ name: 'Anya Taylor-Joy' }, { name: 'Chris Hemsworth' }],
-    coverUrl: '/movies_pictures/furiosa-une-saga-mad-max-afff.jpg',
+    actors: [
+      {
+        name: 'Anya Taylor-Joy',
+      },
+      {
+        name: 'Chris Hemsworth',
+      },
+      {
+        name: 'Tom Burke',
+      },
+      {
+        name: 'Nathan Jones',
+      },
+      {
+        name: 'Angus Sampson',
+      },
+      {
+        name: 'Daniel Webber',
+      },
+      {
+        name: 'Lachy Hulme',
+      },
+    ],    coverUrl: '/movies_pictures/furiosa-une-saga-mad-max-afff.jpg',
     releaseDate: '2024-05-24',
     length: 148,
     genre: ['Action'],
@@ -1404,8 +1770,29 @@ export const baseMoviesSagaPage3: BaseMovie[] = [
   {
     title: 'Saw',
     director: 'James Wan',
-    actors: [{ name: 'Cary Elwes' }],
-    coverUrl: '/movies_pictures/saw.jpg',
+    actors: [
+      {
+        name: 'Cary Elwes',
+      },
+      {
+        name: 'Danny Glover',
+      },
+      {
+        name: 'Monica Potter',
+      },
+      {
+        name: 'Michael Emerson',
+      },
+      {
+        name: 'Ken Leung',
+      },
+      {
+        name: 'Tobin Bell',
+      },
+      {
+        name: 'Leigh Whannell',
+      },
+    ],    coverUrl: '/movies_pictures/saw.jpg',
     releaseDate: '2004-10-29',
     length: 103,
     genre: ['Horreur'],
@@ -1769,8 +2156,29 @@ export const baseMoviesSagaPage3: BaseMovie[] = [
   {
     title: 'La Planète des singes',
     director: 'Tim Burton',
-    actors: [{ name: 'Mark Wahlberg' }, { name: 'Helena Bonham Carter' }],
-    coverUrl: '/movies_pictures/69214709_af.jpg',
+    actors: [
+      {
+        name: 'Mark Wahlberg',
+      },
+      {
+        name: 'Tim Roth',
+      },
+      {
+        name: 'Helena Bonham Carter',
+      },
+      {
+        name: 'Michael Clarke Duncan',
+      },
+      {
+        name: 'Paul Giamatti',
+      },
+      {
+        name: 'Estella Warren',
+      },
+      {
+        name: 'Cary-Hiroyuki Tagawa',
+      },
+    ],    coverUrl: '/movies_pictures/69214709_af.jpg',
     releaseDate: '2001-07-27',
     length: 119,
     genre: ['Science Fiction', 'Aventure'],
@@ -1785,13 +2193,27 @@ export const baseMoviesSagaPage3: BaseMovie[] = [
     director: 'Rupert Wyatt',
     actors: [
       {
-        name: 'Andy Serkis',
-      },
-      {
         name: 'James Franco',
       },
-    ],
-    coverUrl: '/movies_pictures/rise_of_the_planet_of_the_apes.jpg',
+      {
+        name: 'Freida Pinto',
+      },
+      {
+        name: 'John Lithgow',
+      },
+      {
+        name: 'Brian Cox',
+      },
+      {
+        name: 'Tom Felton',
+      },
+      {
+        name: 'David Oyelowo',
+      },
+      {
+        name: 'Andy Serkis',
+      },
+    ],    coverUrl: '/movies_pictures/rise_of_the_planet_of_the_apes.jpg',
     releaseDate: '2011-08-10',
     length: 105,
     genre: ['Science Fiction'],
@@ -1882,8 +2304,29 @@ export const baseMoviesSagaPage3: BaseMovie[] = [
   {
     title: 'James Bond 007 contre Dr. No',
     director: 'Terence Young',
-    actors: [{ name: 'Sean Connery' }],
-    coverUrl: '/movies_pictures/a7fbddeda92e.jpg',
+    actors: [
+      {
+        name: 'Sean Connery',
+      },
+      {
+        name: 'Ursula Andress',
+      },
+      {
+        name: 'Joseph Wiseman',
+      },
+      {
+        name: 'Jack Lord',
+      },
+      {
+        name: 'John Kitzmiller',
+      },
+      {
+        name: 'Bernard Lee',
+      },
+      {
+        name: 'Anthony Dawson',
+      },
+    ],    coverUrl: '/movies_pictures/a7fbddeda92e.jpg',
     releaseDate: '1962-10-05',
     length: 110,
     genre: ['Action', 'Aventure'],

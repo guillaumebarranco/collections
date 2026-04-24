@@ -4,7 +4,29 @@ export const baseMoviesScienceFiction: BaseMovie[] = [
   {
     title: 'Blade Runner',
     director: 'Ridley Scott',
-    actors: [{ name: 'Harrison Ford' }, { name: 'Rutger Hauer' }],
+    actors: [
+      {
+        name: 'Harrison Ford',
+      },
+      {
+        name: 'Edward James Olmos',
+      },
+      {
+        name: 'Rutger Hauer',
+      },
+      {
+        name: 'Sean Young',
+      },
+      {
+        name: 'Daryl Hannah',
+      },
+      {
+        name: 'Brion James',
+      },
+      {
+        name: 'Joanna Cassidy',
+      },
+    ],
     coverUrl: '',
     releaseDate: '1982-09-09',
     length: 117,
@@ -44,7 +66,25 @@ export const baseMoviesScienceFiction: BaseMovie[] = [
     director: 'Ridley Scott',
     actors: [
       {
+        name: 'Yaphet Kotto',
+      },
+      {
+        name: 'Veronica Cartwright',
+      },
+      {
+        name: 'Tom Skerritt',
+      },
+      {
+        name: 'Harry Dean Stanton',
+      },
+      {
+        name: 'John Hurt',
+      },
+      {
         name: 'Sigourney Weaver',
+      },
+      {
+        name: 'Ian Holm',
       },
     ],
     coverUrl: '/movies_pictures/alien.jpg',
@@ -60,7 +100,29 @@ export const baseMoviesScienceFiction: BaseMovie[] = [
   {
     title: 'Aliens',
     director: 'James Cameron',
-    actors: [{ name: 'Sigourney Weaver' }],
+    actors: [
+      {
+        name: 'William Hope',
+      },
+      {
+        name: 'Paul Reiser',
+      },
+      {
+        name: 'Bill Paxton',
+      },
+      {
+        name: 'Jenette Goldstein',
+      },
+      {
+        name: 'Al Matthews',
+      },
+      {
+        name: 'Mark Rolston',
+      },
+      {
+        name: 'Ricco Ross',
+      },
+    ],
     coverUrl: '/movies_pictures/51445-aliens-0-150-0-225-crop.jpg',
     releaseDate: '1986-07-18',
     length: 137,
@@ -77,6 +139,24 @@ export const baseMoviesScienceFiction: BaseMovie[] = [
     actors: [
       {
         name: 'Sigourney Weaver',
+      },
+      {
+        name: 'Charles S. Dutton',
+      },
+      {
+        name: 'Charles Dance',
+      },
+      {
+        name: 'Brian Glover',
+      },
+      {
+        name: 'Ralph Brown',
+      },
+      {
+        name: 'Paul McGann',
+      },
+      {
+        name: 'Danny Webb',
       },
     ],
     coverUrl: '/movies_pictures/47888-alien-0-150-0-225-crop.jpg',
@@ -106,7 +186,29 @@ export const baseMoviesScienceFiction: BaseMovie[] = [
   {
     title: 'Prometheus',
     director: 'Ridley Scott',
-    actors: [{ name: 'Noomi Rapace' }],
+    actors: [
+      {
+        name: 'Noomi Rapace',
+      },
+      {
+        name: 'Michael Fassbender',
+      },
+      {
+        name: 'Guy Pearce',
+      },
+      {
+        name: 'Idris Elba',
+      },
+      {
+        name: 'Logan Marshall-Green',
+      },
+      {
+        name: 'Charlize Theron',
+      },
+      {
+        name: 'Rafe Spall',
+      },
+    ],
     coverUrl: '/movies_pictures/prometheus.jpg',
     releaseDate: '2012-06-08',
     length: 124,
@@ -120,7 +222,29 @@ export const baseMoviesScienceFiction: BaseMovie[] = [
   {
     title: 'Alien: Covenant',
     director: 'Ridley Scott',
-    actors: [{ name: 'Michael Fassbender' }, { name: 'Katherine Waterston' }],
+    actors: [
+      {
+        name: 'Michael Fassbender',
+      },
+      {
+        name: 'Katherine Waterston',
+      },
+      {
+        name: 'Danny McBride',
+      },
+      {
+        name: 'Billy Crudup',
+      },
+      {
+        name: 'Demián Bichir',
+      },
+      {
+        name: 'Carmen Ejogo',
+      },
+      {
+        name: 'Amy Seimetz',
+      },
+    ],
     coverUrl:
       '/movies_pictures/3544ac0afac8.jpg',
     releaseDate: '2017-05-10',
@@ -154,7 +278,29 @@ export const baseMoviesScienceFiction: BaseMovie[] = [
   {
     title: 'Alien vs. Predator',
     director: 'Paul W.S. Anderson',
-    actors: [{ name: 'Sanaa Lathan' }],
+    actors: [
+      {
+        name: 'Sanaa Lathan',
+      },
+      {
+        name: 'Lance Henriksen',
+      },
+      {
+        name: 'Raoul Bova',
+      },
+      {
+        name: 'Ewen Bremner',
+      },
+      {
+        name: 'Colin Salmon',
+      },
+      {
+        name: 'Tommy Flanagan',
+      },
+      {
+        name: 'Agathe de La Boulaye',
+      },
+    ],
     coverUrl:
       '/movies_pictures/51695-avp-alien-vs-predator-0-150-0-225-crop.jpg',
     releaseDate: '2004-08-13',
@@ -184,7 +330,29 @@ export const baseMoviesScienceFiction: BaseMovie[] = [
   {
     title: 'Predator',
     director: 'John McTiernan',
-    actors: [{ name: 'Arnold Schwarzenegger' }],
+    actors: [
+      {
+        name: 'Arnold Schwarzenegger',
+      },
+      {
+        name: 'Carl Weathers',
+      },
+      {
+        name: 'Bill Duke',
+      },
+      {
+        name: 'Kevin Peter Hall',
+      },
+      {
+        name: 'Sonny Landham',
+      },
+      {
+        name: 'Jesse Ventura',
+      },
+      {
+        name: 'Shane Black',
+      },
+    ],
     coverUrl: '/movies_pictures/51944-predator-0-150-0-225-crop.jpg',
     releaseDate: '1987-06-12',
     length: 107,
@@ -198,7 +366,29 @@ export const baseMoviesScienceFiction: BaseMovie[] = [
   {
     title: 'Predator 2',
     director: 'Stephen Hopkins',
-    actors: [{ name: 'Danny Glover' }],
+    actors: [
+      {
+        name: 'Danny Glover',
+      },
+      {
+        name: 'Kevin Peter Hall',
+      },
+      {
+        name: 'María Conchita Alonso',
+      },
+      {
+        name: 'Gary Busey',
+      },
+      {
+        name: 'Bill Paxton',
+      },
+      {
+        name: 'Rubén Blades',
+      },
+      {
+        name: 'Adam Baldwin',
+      },
+    ],
     coverUrl: '/movies_pictures/predator_2.jpg',
     releaseDate: '1990-11-21',
     length: 108,
@@ -212,7 +402,29 @@ export const baseMoviesScienceFiction: BaseMovie[] = [
   {
     title: 'Predators',
     director: 'Nimród Antal',
-    actors: [{ name: 'Adrien Brody' }],
+    actors: [
+      {
+        name: 'Adrien Brody',
+      },
+      {
+        name: 'Topher Grace',
+      },
+      {
+        name: 'Alice Braga',
+      },
+      {
+        name: 'Walton Goggins',
+      },
+      {
+        name: 'Danny Trejo',
+      },
+      {
+        name: 'Oleg Taktarov',
+      },
+      {
+        name: 'Mahershalalhashbaz Ali',
+      },
+    ],
     coverUrl: '/movies_pictures/predators.jpg',
     releaseDate: '2010-07-09',
     length: 107,
@@ -231,6 +443,24 @@ export const baseMoviesScienceFiction: BaseMovie[] = [
       {
         name: 'Boyd Holbrook',
       },
+      {
+        name: 'Olivia Munn',
+      },
+      {
+        name: 'Thomas Jane',
+      },
+      {
+        name: 'Jake Busey',
+      },
+      {
+        name: 'Trevante Rhodes',
+      },
+      {
+        name: 'Keegan-Michael Key',
+      },
+      {
+        name: 'Sterling K. Brown',
+      },
     ],
     coverUrl: '/movies_pictures/277351-the-predator-0-150-0-225-crop.jpg',
     releaseDate: '2018-09-14',
@@ -248,6 +478,18 @@ export const baseMoviesScienceFiction: BaseMovie[] = [
     actors: [
       {
         name: 'Amber Midthunder',
+      },
+      {
+        name: 'Michelle Thrush',
+      },
+      {
+        name: 'Julian Black Antelope',
+      },
+      {
+        name: 'Dane DiLiegro',
+      },
+      {
+        name: 'Dakota Beavers',
       },
     ],
     coverUrl: '/movies_pictures/686389-prey-0-150-0-225-crop.jpg',

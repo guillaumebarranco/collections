@@ -602,10 +602,22 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     director: 'Amélie Bonnin',
     actors: [
       {
+        name: 'Juliette Armanet',
+      },
+      {
+        name: 'Dominique Blanc',
+      },
+      {
         name: 'Bastien Bouillon',
       },
       {
-        name: 'Juliette Armanet',
+        name: 'François Rollin',
+      },
+      {
+        name: 'Tewfik Jallab',
+      },
+      {
+        name: 'Mhamed Arezki',
       },
     ],
     coverUrl: '/movies_pictures/partir_un_jour.jpg',
@@ -1436,7 +1448,25 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     director: 'Gil Kenan',
     actors: [
       {
+        name: 'Finn Wolfhard',
+      },
+      {
+        name: 'Mckenna Grace',
+      },
+      {
+        name: 'Celeste O\'Connor',
+      },
+      {
+        name: 'Carrie Coon',
+      },
+      {
         name: 'Paul Rudd',
+      },
+      {
+        name: 'Ernie Hudson',
+      },
+      {
+        name: 'Patton Oswalt',
       },
     ],
     coverUrl: '/movies_pictures/ghostbusters_frozen_empire.jpg',
@@ -1731,10 +1761,25 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     director: 'Takashi Yamazaki',
     actors: [
       {
-        name: 'Ryûnosuke Kamiki',
+        name: 'Ryūnosuke Kamiki',
       },
       {
         name: 'Minami Hamabe',
+      },
+      {
+        name: 'Yuki Yamada',
+      },
+      {
+        name: 'Munetaka Aoki',
+      },
+      {
+        name: 'Hidetaka Yoshioka',
+      },
+      {
+        name: 'Sakura Andō',
+      },
+      {
+        name: 'Kuranosuke Sasaki',
       },
     ],
     coverUrl: '/movies_pictures/godzilla_minus_one.jpg',
@@ -3844,6 +3889,21 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
       {
         name: 'Kevin Hart',
       },
+      {
+        name: 'Jack Black',
+      },
+      {
+        name: 'Karen Gillan',
+      },
+      {
+        name: 'Nick Jonas',
+      },
+      {
+        name: 'Rhys Darby',
+      },
+      {
+        name: 'Bobby Cannavale',
+      },
     ],
     coverUrl: '/movies_pictures/jumanji_welcome_to_the_jungle.jpg',
     releaseDate: '2017-12-20',
@@ -4671,6 +4731,21 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
       },
       {
         name: 'Bill Murray',
+      },
+      {
+        name: 'Ben Kingsley',
+      },
+      {
+        name: 'Idris Elba',
+      },
+      {
+        name: 'Lupita Nyong\'o',
+      },
+      {
+        name: 'Scarlett Johansson',
+      },
+      {
+        name: 'Giancarlo Esposito',
       },
     ],
     coverUrl: '/movies_pictures/the_jungle_book.jpg',
@@ -5794,10 +5869,25 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     director: 'Baz Luhrmann',
     actors: [
       {
-        name: 'Leonardo DiCaprio',
+        name: 'Tobey Maguire',
       },
       {
         name: 'Carey Mulligan',
+      },
+      {
+        name: 'Joel Edgerton',
+      },
+      {
+        name: 'Isla Fisher',
+      },
+      {
+        name: 'Jason Clarke',
+      },
+      {
+        name: 'Amitabh Bachchan',
+      },
+      {
+        name: 'Elizabeth Debicki',
       },
     ],
     coverUrl: '/movies_pictures/the_great_gatsby.jpg',
@@ -7243,6 +7333,21 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
       {
         name: 'Diane Kruger',
       },
+      {
+        name: 'Justin Bartha',
+      },
+      {
+        name: 'Jon Voight',
+      },
+      {
+        name: 'Harvey Keitel',
+      },
+      {
+        name: 'Sean Bean',
+      },
+      {
+        name: 'Christopher Plummer',
+      },
     ],
     coverUrl: '/movies_pictures/national_treasure.jpg',
     releaseDate: '2004-12-22',
@@ -7363,7 +7468,22 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
         name: 'Jennifer Garner',
       },
       {
+        name: 'Judy Greer',
+      },
+      {
         name: 'Mark Ruffalo',
+      },
+      {
+        name: 'Andy Serkis',
+      },
+      {
+        name: 'Kathy Baker',
+      },
+      {
+        name: 'Christa B. Allen',
+      },
+      {
+        name: 'Renee Olstead',
       },
     ],
     coverUrl: '/movies_pictures/13_going_on_30.jpg',
@@ -7386,6 +7506,21 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
       {
         name: 'Freddie Highmore',
       },
+      {
+        name: 'Jean-Claude Dreyfus',
+      },
+      {
+        name: 'Philippine Leroy-Beaulieu',
+      },
+      {
+        name: 'Bô Gaultier de Kermoal',
+      },
+      {
+        name: 'Moussa Maaskri',
+      },
+      {
+        name: 'Nozha Khouadra',
+      },
     ],
     coverUrl: '/movies_pictures/two_brothers.jpg',
     releaseDate: '2004-04-07',
@@ -7403,6 +7538,24 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     actors: [
       {
         name: 'Gérard Jugnot',
+      },
+      {
+        name: 'François Berléand',
+      },
+      {
+        name: 'Jean-Baptiste Maunier',
+      },
+      {
+        name: 'Jacques Perrin',
+      },
+      {
+        name: 'Kad Merad',
+      },
+      {
+        name: 'Armen Godel',
+      },
+      {
+        name: 'Didier Flamand',
       },
     ],
     coverUrl: '/movies_pictures/the_chorus.jpg',

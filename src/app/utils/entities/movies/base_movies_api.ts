@@ -150,7 +150,29 @@ export const baseMoviesApi: BaseMovie[] = [
   {
     title: 'Wedding Daze',
     director: 'Michael Ian Black',
-    actors: [{ name: 'Jason Biggs' }, { name: 'Isla Fisher' }],
+    actors: [
+      {
+        name: 'Jason Biggs',
+      },
+      {
+        name: 'Isla Fisher',
+      },
+      {
+        name: 'Michael Weston',
+      },
+      {
+        name: 'Ebon Moss-Bachrach',
+      },
+      {
+        name: 'Edward Herrmann',
+      },
+      {
+        name: 'Joe Pantoliano',
+      },
+      {
+        name: 'Margo Martindale',
+      },
+    ],
     coverUrl: '/movies_pictures/51tjE6CC0BL._AC_UF894,1000_QL80_.jpg',
     releaseDate: '',
     length: 90,
@@ -194,6 +216,15 @@ export const baseMoviesApi: BaseMovie[] = [
       },
       {
         name: 'Jesse Plemons',
+      },
+      {
+        name: 'Alicia Silverstone',
+      },
+      {
+        name: 'Aidan Delbis',
+      },
+      {
+        name: 'Stavros Halkias',
       },
     ],
     coverUrl: '/movies_pictures/afd8a20d4a52.jpg',
@@ -301,6 +332,21 @@ export const baseMoviesApi: BaseMovie[] = [
       },
       {
         name: 'Paul Mescal',
+      },
+      {
+        name: 'Q137915435',
+      },
+      {
+        name: 'Q137915436',
+      },
+      {
+        name: 'Joe Alwyn',
+      },
+      {
+        name: 'Justine Mitchell',
+      },
+      {
+        name: 'Q137915439',
       },
     ],
     coverUrl: '/movies_pictures/de3c06c3f4d3.jpg',
@@ -997,10 +1043,13 @@ export const baseMoviesApi: BaseMovie[] = [
     director: 'Arnaud Sélignac',
     actors: [
       {
+        name: 'Marie-Josée Croze',
+      },
+      {
         name: 'Fred Testot',
       },
       {
-        name: 'Marie-Josée Croze',
+        name: 'Jeanne Guittet',
       },
     ],
     coverUrl: '/movies_pictures/d83b9b27bffa.jpg',
@@ -1294,10 +1343,13 @@ export const baseMoviesApi: BaseMovie[] = [
     director: "Aurélien Peyre",
     actors: [
       {
-        name: "Anja Verderosa",
+        name: 'Jenny Hasselquist',
       },
       {
-        name: "Félix Lefebvre",
+        name: 'Nils Asther',
+      },
+      {
+        name: 'Tore Svennberg',
       },
     ],
     coverUrl: "/movies_pictures/0c1397847db3.jpg",

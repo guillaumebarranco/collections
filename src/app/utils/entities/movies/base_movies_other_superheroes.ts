@@ -4,7 +4,29 @@ export const baseMoviesOtherSuperheroes: BaseMovie[] = [
   {
     title: 'Deadpool',
     director: 'Tim Miller',
-    actors: [{ name: 'Ryan Reynolds' }],
+    actors: [
+      {
+        name: 'Ryan Reynolds',
+      },
+      {
+        name: 'Morena Baccarin',
+      },
+      {
+        name: 'Ed Skrein',
+      },
+      {
+        name: 'T.J. Miller',
+      },
+      {
+        name: 'Gina Carano',
+      },
+      {
+        name: 'Brianna Hildebrand',
+      },
+      {
+        name: 'Andre Tricoteux',
+      },
+    ],
     coverUrl: '/movies_pictures/220575-deadpool-0-150-0-225-crop.jpg',
     releaseDate: '2016-02-12',
     length: 108,
@@ -138,7 +160,29 @@ export const baseMoviesOtherSuperheroes: BaseMovie[] = [
   {
     title: 'X-Men Origins : Wolverine',
     director: 'Gavin Hood',
-    actors: [{ name: 'Hugh Jackman' }, { name: 'Ryan Reynolds' }],
+    actors: [
+      {
+        name: 'Dominic Monaghan',
+      },
+      {
+        name: 'will.i.am',
+      },
+      {
+        name: 'Lynn Collins',
+      },
+      {
+        name: 'Tahyna Tozzi',
+      },
+      {
+        name: 'Patrick Stewart',
+      },
+      {
+        name: 'Scott Adkins',
+      },
+      {
+        name: 'Q129591',
+      },
+    ],
     coverUrl:
       '/movies_pictures/50544-x-men-origins-wolverine-0-150-0-225-crop.jpg',
     releaseDate: '2009-05-01',
@@ -153,7 +197,29 @@ export const baseMoviesOtherSuperheroes: BaseMovie[] = [
   {
     title: 'The Wolverine',
     director: 'James Mangold',
-    actors: [{ name: 'Hugh Jackman' }],
+    actors: [
+      {
+        name: 'Q129591',
+      },
+      {
+        name: 'Tao Okamoto',
+      },
+      {
+        name: 'Rila Fukushima',
+      },
+      {
+        name: 'Hiroyuki Sanada',
+      },
+      {
+        name: 'Will Yun Lee',
+      },
+      {
+        name: 'Svetlana Viktorovna Khodtchenkova',
+      },
+      {
+        name: 'Famke Janssen',
+      },
+    ],
     coverUrl: '/movies_pictures/62638-the-wolverine-0-150-0-225-crop.jpg',
     releaseDate: '2013-07-26',
     length: 126,
@@ -167,7 +233,29 @@ export const baseMoviesOtherSuperheroes: BaseMovie[] = [
   {
     title: 'Logan',
     director: 'James Mangold',
-    actors: [{ name: 'Hugh Jackman' }],
+    actors: [
+      {
+        name: 'Q129591',
+      },
+      {
+        name: 'Patrick Stewart',
+      },
+      {
+        name: 'Dafne Keen',
+      },
+      {
+        name: 'Boyd Holbrook',
+      },
+      {
+        name: 'Stephen Merchant',
+      },
+      {
+        name: 'Elizabeth Rodriguez',
+      },
+      {
+        name: 'Richard E. Grant',
+      },
+    ],
     coverUrl: '/movies_pictures/logan.jpg',
     releaseDate: '2017-03-03',
     length: 137,
@@ -263,6 +351,24 @@ export const baseMoviesOtherSuperheroes: BaseMovie[] = [
       {
         name: 'Tom Hardy',
       },
+      {
+        name: 'Michelle Williams',
+      },
+      {
+        name: 'Jenny Slate',
+      },
+      {
+        name: 'Woody Harrelson',
+      },
+      {
+        name: 'Riz Ahmed',
+      },
+      {
+        name: 'Reid Scott',
+      },
+      {
+        name: 'Stan Lee',
+      },
     ],
     coverUrl: '/movies_pictures/265438-venom-0-150-0-225-crop.jpg',
     releaseDate: '2018-10-05',
@@ -318,6 +424,24 @@ export const baseMoviesOtherSuperheroes: BaseMovie[] = [
       {
         name: 'Tobey Maguire',
       },
+      {
+        name: 'Willem Dafoe',
+      },
+      {
+        name: 'Kirsten Dunst',
+      },
+      {
+        name: 'James Franco',
+      },
+      {
+        name: 'Cliff Robertson',
+      },
+      {
+        name: 'Rosemary Harris',
+      },
+      {
+        name: 'J. K. Simmons',
+      },
     ],
     coverUrl: '/movies_pictures/51561-spider-man-0-150-0-225-crop.jpg',
     releaseDate: '2002-05-03',
@@ -340,6 +464,24 @@ export const baseMoviesOtherSuperheroes: BaseMovie[] = [
       {
         name: 'Tobey Maguire',
       },
+      {
+        name: 'Kirsten Dunst',
+      },
+      {
+        name: 'James Franco',
+      },
+      {
+        name: 'Alfred Molina',
+      },
+      {
+        name: 'Rosemary Harris',
+      },
+      {
+        name: 'Donna Murphy',
+      },
+      {
+        name: 'J. K. Simmons',
+      },
     ],
     coverUrl: '/movies_pictures/18380826.jpg',
     releaseDate: '2004-06-30',
@@ -359,6 +501,24 @@ export const baseMoviesOtherSuperheroes: BaseMovie[] = [
     title: 'Spider-Man 3',
     director: 'Sam Raimi',
     actors: [
+      {
+        name: 'Thomas Haden Church',
+      },
+      {
+        name: 'Topher Grace',
+      },
+      {
+        name: 'Bryce Dallas Howard',
+      },
+      {
+        name: 'James Cromwell',
+      },
+      {
+        name: 'Rosemary Harris',
+      },
+      {
+        name: 'J. K. Simmons',
+      },
       {
         name: 'Tobey Maguire',
       },
@@ -384,6 +544,24 @@ export const baseMoviesOtherSuperheroes: BaseMovie[] = [
       {
         name: 'Andrew Garfield',
       },
+      {
+        name: 'Emma Stone',
+      },
+      {
+        name: 'Rhys Ifans',
+      },
+      {
+        name: 'Denis Leary',
+      },
+      {
+        name: 'Campbell Scott',
+      },
+      {
+        name: 'Irfan Khan',
+      },
+      {
+        name: 'Martin Sheen',
+      },
     ],
     coverUrl:
       '/movies_pictures/50677-the-amazing-spider-man-0-150-0-225-crop.jpg',
@@ -406,6 +584,24 @@ export const baseMoviesOtherSuperheroes: BaseMovie[] = [
     actors: [
       {
         name: 'Andrew Garfield',
+      },
+      {
+        name: 'Emma Stone',
+      },
+      {
+        name: 'Jamie Foxx',
+      },
+      {
+        name: 'Dane DeHaan',
+      },
+      {
+        name: 'Colm Feore',
+      },
+      {
+        name: 'Paul Giamatti',
+      },
+      {
+        name: 'Martin Sheen',
       },
     ],
     coverUrl: '/movies_pictures/amazin_spiderman_2.jpg',
@@ -479,7 +675,29 @@ export const baseMoviesOtherSuperheroes: BaseMovie[] = [
   {
     title: 'Kick-Ass',
     director: 'Matthew Vaughn',
-    actors: [{ name: 'Aaron Taylor-Johnson' }],
+    actors: [
+      {
+        name: 'Christopher Mintz-Plasse',
+      },
+      {
+        name: 'Mark Strong',
+      },
+      {
+        name: 'Nicolas Cage',
+      },
+      {
+        name: 'Aaron Taylor-Johnson',
+      },
+      {
+        name: 'Chloë Grace Moretz',
+      },
+      {
+        name: 'Lyndsy Fonseca',
+      },
+      {
+        name: 'Michael Rispoli',
+      },
+    ],
     coverUrl: '/movies_pictures/kick_ass.jpg',
     releaseDate: '2010-04-16',
     length: 117,
@@ -493,7 +711,29 @@ export const baseMoviesOtherSuperheroes: BaseMovie[] = [
   {
     title: 'Kick-Ass 2',
     director: 'Jeff Wadlow',
-    actors: [{ name: 'Aaron Taylor-Johnson' }, { name: 'Jim Carrey' }],
+    actors: [
+      {
+        name: 'Chloë Grace Moretz',
+      },
+      {
+        name: 'Christopher Mintz-Plasse',
+      },
+      {
+        name: 'Jim Carrey',
+      },
+      {
+        name: 'Donald Faison',
+      },
+      {
+        name: 'Lindy Booth',
+      },
+      {
+        name: 'Clark Duke',
+      },
+      {
+        name: 'Augustus Prew',
+      },
+    ],
     coverUrl: '/movies_pictures/kick_ass_2.jpg',
     releaseDate: '2013-08-16',
     length: 103,
@@ -507,7 +747,29 @@ export const baseMoviesOtherSuperheroes: BaseMovie[] = [
   {
     title: 'Hancock',
     director: 'Peter Berg',
-    actors: [{ name: 'Will Smith' }],
+    actors: [
+      {
+        name: 'Will Smith',
+      },
+      {
+        name: 'Charlize Theron',
+      },
+      {
+        name: 'Jason Bateman',
+      },
+      {
+        name: 'Eddie Marsan',
+      },
+      {
+        name: 'Jae Head',
+      },
+      {
+        name: 'Johnny Galecki',
+      },
+      {
+        name: 'Thomas Lennon',
+      },
+    ],
     coverUrl: '/movies_pictures/hancock.jpg',
     releaseDate: '2008-07-02',
     length: 92,
@@ -521,7 +783,29 @@ export const baseMoviesOtherSuperheroes: BaseMovie[] = [
   {
     title: 'Les 4 Fantastiques',
     director: 'Tim Story',
-    actors: [{ name: 'Ioan Gruffudd' }],
+    actors: [
+      {
+        name: 'Ioan Gruffudd',
+      },
+      {
+        name: 'Jessica Alba',
+      },
+      {
+        name: 'Chris Evans',
+      },
+      {
+        name: 'Michael Chiklis',
+      },
+      {
+        name: 'Julian McMahon',
+      },
+      {
+        name: 'Kerry Washington',
+      },
+      {
+        name: 'Hamish Linklater',
+      },
+    ],
     coverUrl: '/movies_pictures/46869-fantastic-four-0-150-0-225-crop.jpg',
     releaseDate: '2005-07-08',
     length: 106,
@@ -535,7 +819,29 @@ export const baseMoviesOtherSuperheroes: BaseMovie[] = [
   {
     title: "Les 4 Fantastiques et le Surfeur d'Argent",
     director: 'Tim Story',
-    actors: [{ name: 'Ioan Gruffudd' }],
+    actors: [
+      {
+        name: 'Ioan Gruffudd',
+      },
+      {
+        name: 'Jessica Alba',
+      },
+      {
+        name: 'Chris Evans',
+      },
+      {
+        name: 'Michael Chiklis',
+      },
+      {
+        name: 'Julian McMahon',
+      },
+      {
+        name: 'Kerry Washington',
+      },
+      {
+        name: 'Doug Jones',
+      },
+    ],
     coverUrl:
       '/movies_pictures/50631-fantastic-four-rise-of-the-silver-surfer-0-150-0-225-crop.jpg',
     releaseDate: '2007-06-15',
@@ -550,7 +856,29 @@ export const baseMoviesOtherSuperheroes: BaseMovie[] = [
   {
     title: 'Ghost Rider',
     director: 'Mark Steven Johnson',
-    actors: [{ name: 'Nicolas Cage' }],
+    actors: [
+      {
+        name: 'Nicolas Cage',
+      },
+      {
+        name: 'Eva Mendes',
+      },
+      {
+        name: 'Wes Bentley',
+      },
+      {
+        name: 'Sam Elliott',
+      },
+      {
+        name: 'Donal Logue',
+      },
+      {
+        name: 'Matt Long',
+      },
+      {
+        name: 'Peter Fonda',
+      },
+    ],
     coverUrl: '/movies_pictures/51130-ghost-rider-0-150-0-225-crop.jpg',
     releaseDate: '2007-02-16',
     length: 114,
@@ -564,7 +892,29 @@ export const baseMoviesOtherSuperheroes: BaseMovie[] = [
   {
     title: 'Sky High',
     director: 'Mike Mitchell',
-    actors: [{ name: 'Michael Angarano' }],
+    actors: [
+      {
+        name: 'Michael Angarano',
+      },
+      {
+        name: 'Kurt Russell',
+      },
+      {
+        name: 'Kelly Preston',
+      },
+      {
+        name: 'Danielle Panabaker',
+      },
+      {
+        name: 'Nicholas Braun',
+      },
+      {
+        name: 'Steven Strait',
+      },
+      {
+        name: 'Lynda Carter',
+      },
+    ],
     coverUrl: '/movies_pictures/45283-sky-high-0-150-0-225-crop.jpg',
     releaseDate: '2005-07-29',
     length: 100,
@@ -578,7 +928,29 @@ export const baseMoviesOtherSuperheroes: BaseMovie[] = [
   {
     title: 'Hulk',
     director: 'Ang Lee',
-    actors: [{ name: 'Eric Bana' }],
+    actors: [
+      {
+        name: 'Eric Bana',
+      },
+      {
+        name: 'Jennifer Connelly',
+      },
+      {
+        name: 'Sam Elliott',
+      },
+      {
+        name: 'Josh Lucas',
+      },
+      {
+        name: 'Nick Nolte',
+      },
+      {
+        name: 'Cara Buono',
+      },
+      {
+        name: 'Celia Weston',
+      },
+    ],
     coverUrl: '/movies_pictures/50678-hulk-0-150-0-225-crop.jpg',
     releaseDate: '2003-06-20',
     length: 138,
@@ -592,7 +964,29 @@ export const baseMoviesOtherSuperheroes: BaseMovie[] = [
   {
     title: 'The Punisher',
     director: 'Jonathan Hensleigh',
-    actors: [{ name: 'John Travolta' }],
+    actors: [
+      {
+        name: 'Thomas Jane',
+      },
+      {
+        name: 'John Travolta',
+      },
+      {
+        name: 'Will Patton',
+      },
+      {
+        name: 'Roy Scheider',
+      },
+      {
+        name: 'Laura Harring',
+      },
+      {
+        name: 'Ben Foster',
+      },
+      {
+        name: 'Rebecca Romijn',
+      },
+    ],
     coverUrl: '/movies_pictures/18379323.jpg',
     releaseDate: '2004-04-16',
     length: 124,
@@ -680,7 +1074,29 @@ export const baseMoviesOtherSuperheroes: BaseMovie[] = [
   {
     title: 'Morbius',
     director: 'Daniel Espinosa',
-    actors: [{ name: 'Jared Leto' }, { name: 'Matt Smith' }],
+    actors: [
+      {
+        name: 'Jared Leto',
+      },
+      {
+        name: 'Adria Arjona',
+      },
+      {
+        name: 'Matt Smith',
+      },
+      {
+        name: 'Jared Harris',
+      },
+      {
+        name: 'Tyrese Gibson',
+      },
+      {
+        name: 'Michael Keaton',
+      },
+      {
+        name: 'Corey Johnson',
+      },
+    ],
     coverUrl: '/movies_pictures/5612671.jpg',
     releaseDate: '2022-04-01',
     length: 104,

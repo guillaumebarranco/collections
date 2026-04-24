@@ -131,8 +131,29 @@ export const baseMoviesAnimated: BaseMovie[] = [
   {
     title: 'Super Mario Bros.',
     director: 'Rocky Morton, Annabel Jankel',
-    actors: [{ name: 'Bob Hoskins' }, { name: 'John Leguizamo' }],
-    coverUrl: '/movies_pictures/b248918b4ebc.jpg',
+    actors: [
+      {
+        name: 'Bob Hoskins',
+      },
+      {
+        name: 'John Leguizamo',
+      },
+      {
+        name: 'Dennis Hopper',
+      },
+      {
+        name: 'Samantha Mathis',
+      },
+      {
+        name: 'Fisher Stevens',
+      },
+      {
+        name: 'Fiona Shaw',
+      },
+      {
+        name: 'Gianni Russo',
+      },
+    ],    coverUrl: '/movies_pictures/b248918b4ebc.jpg',
     releaseDate: '1993-05-28',
     length: 104,
     genre: ['Aventure', 'Science Fiction', 'Comédie'],
@@ -291,8 +312,17 @@ export const baseMoviesAnimated: BaseMovie[] = [
   {
     title: 'Vice-Versa',
     director: 'Pete Docter',
-    actors: [{ name: 'Amy Poehler' }],
-    coverUrl: '/movies_pictures/113284-inside-out-0-150-0-225-crop.jpg',
+    actors: [
+      {
+        name: 'Umie Aida',
+      },
+      {
+        name: 'Fahrin Ahmad',
+      },
+      {
+        name: 'Abby Abadi',
+      },
+    ],    coverUrl: '/movies_pictures/113284-inside-out-0-150-0-225-crop.jpg',
     releaseDate: '2015-06-19',
     length: 95,
     genre: ['Animation'],
@@ -450,8 +480,25 @@ export const baseMoviesAnimated: BaseMovie[] = [
       {
         name: 'Freddie Highmore',
       },
-    ],
-    coverUrl:
+      {
+        name: 'Madonna',
+      },
+      {
+        name: 'Snoop Dogg',
+      },
+      {
+        name: 'David Bowie',
+      },
+      {
+        name: 'Robert De Niro',
+      },
+      {
+        name: 'Jason Bateman',
+      },
+      {
+        name: 'Jimmy Fallon',
+      },
+    ],    coverUrl:
       '/movies_pictures/46649-arthur-and-the-invisibles-0-150-0-225-crop.jpg',
     releaseDate: '2006-12-13',
     length: 94,
@@ -469,8 +516,25 @@ export const baseMoviesAnimated: BaseMovie[] = [
       {
         name: 'Freddie Highmore',
       },
-    ],
-    coverUrl:
+      {
+        name: 'Mia Farrow',
+      },
+      {
+        name: 'Selena Gomez',
+      },
+      {
+        name: 'Fergie',
+      },
+      {
+        name: 'Jimmy Fallon',
+      },
+      {
+        name: 'Snoop Dogg',
+      },
+      {
+        name: 'will.i.am',
+      },
+    ],    coverUrl:
       '/movies_pictures/35270-arthur-and-the-revenge-of-maltazard-0-150-0-225-crop.jpg',
     releaseDate: '2009-12-02',
     length: 94,
@@ -486,10 +550,21 @@ export const baseMoviesAnimated: BaseMovie[] = [
     director: 'Luc Besson',
     actors: [
       {
-        name: 'Freddie Highmore',
+        name: 'Mia Farrow',
       },
-    ],
-    coverUrl:
+      {
+        name: 'Lee Delong',
+      },
+      {
+        name: 'Robert Stanton',
+      },
+      {
+        name: 'Ron Crawford',
+      },
+      {
+        name: 'Jean Bejote Njamba',
+      },
+    ],    coverUrl:
       '/movies_pictures/22170-arthur-3-the-war-of-the-two-worlds-0-150-0-225-crop.jpg',
     releaseDate: '2010-10-13',
     length: 101,
@@ -859,8 +934,17 @@ export const baseMoviesAnimated: BaseMovie[] = [
   {
     title: 'Tarzan',
     director: 'Chris Buck, Kevin Lima',
-    actors: [{ name: 'Tony Goldwyn' }],
-    coverUrl: '/movies_pictures/tarzan.jpg',
+    actors: [
+      {
+        name: 'Ron Ely',
+      },
+      {
+        name: 'Manuel Padilla, Jr.',
+      },
+      {
+        name: 'Alan Caillou',
+      },
+    ],    coverUrl: '/movies_pictures/tarzan.jpg',
     releaseDate: '1999-06-18',
     length: 88,
     genre: ['Animation'],
@@ -940,8 +1024,29 @@ export const baseMoviesAnimated: BaseMovie[] = [
   {
     title: 'Hercule',
     director: 'Ron Clements, John Musker',
-    actors: [{ name: 'Tate Donovan' }],
-    coverUrl: '/movies_pictures/44838-hercules-0-150-0-225-crop.jpg',
+    actors: [
+      {
+        name: 'Kevin Sorbo',
+      },
+      {
+        name: 'Michael Hurst',
+      },
+      {
+        name: 'Karl Urban',
+      },
+      {
+        name: 'Bruce Campbell',
+      },
+      {
+        name: 'Alexandra Tydings',
+      },
+      {
+        name: 'Kevin Smith',
+      },
+      {
+        name: 'Cory Everson',
+      },
+    ],    coverUrl: '/movies_pictures/44838-hercules-0-150-0-225-crop.jpg',
     releaseDate: '1997-06-27',
     length: 93,
     genre: ['Animation'],
@@ -968,8 +1073,29 @@ export const baseMoviesAnimated: BaseMovie[] = [
   {
     title: 'Space Jam',
     director: 'Joe Pytka',
-    actors: [{ name: 'Michael Jordan' }],
-    coverUrl: '/movies_pictures/space_jam.jpg',
+    actors: [
+      {
+        name: 'Michael Jordan',
+      },
+      {
+        name: 'Wayne Knight',
+      },
+      {
+        name: 'Theresa Randle',
+      },
+      {
+        name: 'Eric Gordon',
+      },
+      {
+        name: 'Penny Bae Bridges',
+      },
+      {
+        name: 'Brandon Hammond',
+      },
+      {
+        name: 'Thom Barry',
+      },
+    ],    coverUrl: '/movies_pictures/space_jam.jpg',
     releaseDate: '1996-11-15',
     length: 88,
     genre: ['Animation'],
@@ -1010,8 +1136,29 @@ export const baseMoviesAnimated: BaseMovie[] = [
   {
     title: 'La Belle et la Bête',
     director: 'Gary Trousdale, Kirk Wise',
-    actors: [{ name: "Paige O'Hara" }],
-    coverUrl:
+    actors: [
+      {
+        name: 'Linda Hamilton',
+      },
+      {
+        name: 'Ron Perlman',
+      },
+      {
+        name: 'Roy Dotrice',
+      },
+      {
+        name: 'Jay Acovone',
+      },
+      {
+        name: 'Stephen McHattie',
+      },
+      {
+        name: 'Ren Woods',
+      },
+      {
+        name: 'Armin Shimerman',
+      },
+    ],    coverUrl:
       '/movies_pictures/10020-beauty-and-the-beast-1991-animated-0-150-0-225-crop.jpg',
     releaseDate: '1991-11-22',
     length: 84,
@@ -2296,8 +2443,17 @@ export const baseMoviesAnimated: BaseMovie[] = [
     title: 'Batman: Gotham Knight',
     director:
       'Shōjirō Nishimi, Futoshi Higashide, Hiroshi Morioka, Jong-Sik Nam, Yasuhiro Aoki, Toshiyuki Kubooka',
-    actors: [{ name: 'Kevin Conroy' }],
-    coverUrl: '/movies_pictures/4a58b0d451ba.jpg',
+    actors: [
+      {
+        name: 'Kevin Conroy',
+      },
+      {
+        name: 'David McCallum',
+      },
+      {
+        name: 'Ana Ortiz',
+      },
+    ],    coverUrl: '/movies_pictures/4a58b0d451ba.jpg',
     releaseDate: '2008-07-08',
     length: 76,
     genre: ['Animation'],

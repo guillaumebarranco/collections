@@ -60,8 +60,29 @@ export const baseMoviesAnimated2: BaseMovie[] = [
   {
     title: 'Les Trois Caballeros',
     director: 'Norman Ferguson, Clyde Geronimi',
-    actors: [{ name: 'Clarence Nash' }, { name: 'José Oliveira' }],
-    coverUrl:
+    actors: [
+      {
+        name: 'Aurora Miranda',
+      },
+      {
+        name: 'Carmen Molina',
+      },
+      {
+        name: 'Dora Luz',
+      },
+      {
+        name: 'Nestor Amaral',
+      },
+      {
+        name: 'Almirante',
+      },
+      {
+        name: 'Trío Calaveras',
+      },
+      {
+        name: 'Trío Ascensio del Rio',
+      },
+    ],    coverUrl:
       '/movies_pictures/Les-3-caballeros-sort-en-franceles-trois-caballeros-.webp',
     releaseDate: '1944-12-21',
     length: 71,
@@ -75,8 +96,26 @@ export const baseMoviesAnimated2: BaseMovie[] = [
   {
     title: 'Saludos Amigos',
     director: 'Wilfred Jackson, Jack Kinney',
-    actors: [{ name: 'Clarence Nash' }, { name: 'José Oliveira' }],
-    coverUrl:
+    actors: [
+      {
+        name: 'Lee Blair',
+      },
+      {
+        name: 'Mary Blair',
+      },
+      {
+        name: 'Walt Disney',
+      },
+      {
+        name: 'Norman Ferguson',
+      },
+      {
+        name: 'Frank Graham',
+      },
+      {
+        name: 'Franklin Thomas',
+      },
+    ],    coverUrl:
       '/movies_pictures/MV5BODc5ZjlhODYtMjFmMS00NGNhLTgxOTAtNjBhMDJkNzU5ZmVmXkEyXkFqcGc@._V1_.jpg',
     releaseDate: '1942-02-06',
     length: 42,
@@ -104,8 +143,17 @@ export const baseMoviesAnimated2: BaseMovie[] = [
   {
     title: 'Dumbo',
     director: 'Ben Sharpsteen',
-    actors: [{ name: 'Edward Brophy' }, { name: 'Sterling Holloway' }],
-    coverUrl: '/movies_pictures/2034393.webp',
+    actors: [
+      {
+        name: 'Patty Maloney',
+      },
+      {
+        name: 'Van Snowden',
+      },
+      {
+        name: 'Sharon Baird',
+      },
+    ],    coverUrl: '/movies_pictures/2034393.webp',
     releaseDate: '1941-10-23',
     length: 64,
     genre: ['Animation', 'Jeunesse'],
@@ -335,8 +383,26 @@ export const baseMoviesAnimated2: BaseMovie[] = [
   {
     title: 'James et la Pêche géante',
     director: 'Henry Selick',
-    actors: [{ name: 'Paul Terry' }, { name: 'Joanna Lumley' }],
-    coverUrl: '/movies_pictures/James_et_La_P3Fante.webp',
+    actors: [
+      {
+        name: 'Paul Terry',
+      },
+      {
+        name: 'Miriam Margolyes',
+      },
+      {
+        name: 'Joanna Lumley',
+      },
+      {
+        name: 'Pete Postlethwaite',
+      },
+      {
+        name: 'Steven Culp',
+      },
+      {
+        name: 'Mike Starr',
+      },
+    ],    coverUrl: '/movies_pictures/James_et_La_P3Fante.webp',
     releaseDate: '1996-04-12',
     length: 79,
     genre: ['Animation', 'Aventure'],
@@ -349,8 +415,29 @@ export const baseMoviesAnimated2: BaseMovie[] = [
   {
     title: 'Les 101 Dalmatiens',
     director: 'Stephen Herek',
-    actors: [{ name: 'Glenn Close' }, { name: 'Jeff Daniels' }],
-    coverUrl: '/movies_pictures/20193459.jpg',
+    actors: [
+      {
+        name: 'Tim McInnerny',
+      },
+      {
+        name: 'Hugh Fraser',
+      },
+      {
+        name: 'John Shrapnel',
+      },
+      {
+        name: 'John Benfield',
+      },
+      {
+        name: 'Glenn Close',
+      },
+      {
+        name: 'Jeff Daniels',
+      },
+      {
+        name: 'Joely Richardson',
+      },
+    ],    coverUrl: '/movies_pictures/20193459.jpg',
     releaseDate: '1996-11-27',
     length: 103,
     genre: ['Jeunesse', 'Comédie'],
@@ -447,8 +534,29 @@ export const baseMoviesAnimated2: BaseMovie[] = [
   {
     title: 'Dinosaure',
     director: 'Ralph Zondag, Eric Leighton',
-    actors: [{ name: 'D.B. Sweeney' }, { name: 'Alfre Woodard' }],
-    coverUrl: '/movies_pictures/dinosaure-a.webp',
+    actors: [
+      {
+        name: 'Stuart Pankin',
+      },
+      {
+        name: 'Jessica Walter',
+      },
+      {
+        name: 'Jason Willinger',
+      },
+      {
+        name: 'Sally Struthers',
+      },
+      {
+        name: 'Kevin Clash',
+      },
+      {
+        name: 'Sherman Hemsley',
+      },
+      {
+        name: 'Florence Stanley',
+      },
+    ],    coverUrl: '/movies_pictures/dinosaure-a.webp',
     releaseDate: '2000-05-19',
     length: 82,
     genre: ['Animation', 'Aventure'],
@@ -872,8 +980,29 @@ export const baseMoviesAnimated2: BaseMovie[] = [
   {
     title: 'Kung Fu Panda',
     director: 'Mark Osborne, John Stevenson',
-    actors: [{ name: 'Jack Black' }],
-    coverUrl:
+    actors: [
+      {
+        name: 'Jack Black',
+      },
+      {
+        name: 'Dustin Hoffman',
+      },
+      {
+        name: 'David Cross',
+      },
+      {
+        name: 'Randall Duk Kim',
+      },
+      {
+        name: 'Carol Kane',
+      },
+      {
+        name: 'Jaycee Chan',
+      },
+      {
+        name: 'John DiMaggio',
+      },
+    ],    coverUrl:
       '/movies_pictures/mk3UyyaLyXhgIhmLji25OUPXvGR-0-150-0-225-crop.jpg',
     releaseDate: '2008-06-06',
     length: 92,

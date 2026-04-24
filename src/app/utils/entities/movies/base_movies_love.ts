@@ -11,6 +11,9 @@ export const baseMoviesLove: BaseMovie[] = [
       {
         name: 'Joséphine Japy',
       },
+      {
+        name: 'Benjamin Lavernhe',
+      },
     ],
     coverUrl:
       '/movies_pictures/498516-love-at-second-sight-0-150-0-225-crop.jpg',
@@ -29,6 +32,15 @@ export const baseMoviesLove: BaseMovie[] = [
     actors: [
       {
         name: 'Vanessa Hudgens',
+      },
+      {
+        name: 'Sam Palladio',
+      },
+      {
+        name: 'Sara Stewart',
+      },
+      {
+        name: 'Suanne Braun',
       },
     ],
     coverUrl:
@@ -50,7 +62,22 @@ export const baseMoviesLove: BaseMovie[] = [
         name: 'Zoey Deutch',
       },
       {
-        name: 'Glenn Powell',
+        name: 'Lucy Liu',
+      },
+      {
+        name: 'Glen Powell',
+      },
+      {
+        name: 'Taye Diggs',
+      },
+      {
+        name: 'Pete Davidson',
+      },
+      {
+        name: 'Joan Smalls',
+      },
+      {
+        name: 'Jon Rudnitsky',
       },
     ],
     coverUrl: '/movies_pictures/319550-set-it-up-0-150-0-225-crop.jpg',
@@ -68,7 +95,25 @@ export const baseMoviesLove: BaseMovie[] = [
     director: 'Liz W. Garcia',
     actors: [
       {
-        name: 'Katherine Heigl',
+        name: 'Sofia Carson',
+      },
+      {
+        name: 'Sebastian de Souza',
+      },
+      {
+        name: 'Connie Britton',
+      },
+      {
+        name: 'Kyle Allen',
+      },
+      {
+        name: 'José Zúñiga',
+      },
+      {
+        name: 'Jordi Mollà',
+      },
+      {
+        name: 'Marriane Rendón',
       },
     ],
     coverUrl: '/movies_pictures/1138997-the-life-list-0-150-0-225-crop.jpg',
@@ -89,7 +134,19 @@ export const baseMoviesLove: BaseMovie[] = [
         name: 'Minka Kelly',
       },
       {
-        name: 'Tom Wozniczka',
+        name: 'Thibault de Montalembert',
+      },
+      {
+        name: 'Flula Borg',
+      },
+      {
+        name: 'Astrid Whettnall',
+      },
+      {
+        name: 'Xavier Samuel',
+      },
+      {
+        name: 'Maeve Courtier-Lilley',
       },
     ],
     coverUrl: '/movies_pictures/dce24faf4dfe1c86c2bb5ccf0f1a131f.webp',
@@ -161,6 +218,21 @@ export const baseMoviesLove: BaseMovie[] = [
       {
         name: 'Tom Blyth',
       },
+      {
+        name: 'Sarah Catherine Hook',
+      },
+      {
+        name: 'Jameela Jamil',
+      },
+      {
+        name: 'Lucien Laviscount',
+      },
+      {
+        name: 'Lukas Gage',
+      },
+      {
+        name: 'Miles Heizer',
+      },
     ],
     coverUrl: '/movies_pictures/people-we-meet-on-vacation-1.jpg',
     releaseDate: '2026-01-09',
@@ -222,6 +294,24 @@ export const baseMoviesLove: BaseMovie[] = [
       {
         name: 'Sofia Carson',
       },
+      {
+        name: 'Nicholas Galitzine',
+      },
+      {
+        name: 'Chosen Jacobs',
+      },
+      {
+        name: 'John Kim',
+      },
+      {
+        name: 'Katrina Cunningham',
+      },
+      {
+        name: 'Linden Ashby',
+      },
+      {
+        name: 'Anthony Ippolito',
+      },
     ],
     coverUrl: '/movies_pictures/683195-purple-hearts-0-150-0-225-crop.jpg',
     releaseDate: '2022-07-29',
@@ -258,6 +348,24 @@ export const baseMoviesLove: BaseMovie[] = [
       {
         name: 'Haley Lu Richardson',
       },
+      {
+        name: 'Ben Hardy',
+      },
+      {
+        name: 'Dexter Fletcher',
+      },
+      {
+        name: 'Rob Delaney',
+      },
+      {
+        name: 'Sally Phillips',
+      },
+      {
+        name: 'Tom Taylor',
+      },
+      {
+        name: 'Jessica Ransom',
+      },
     ],
     coverUrl: '/movies_pictures/1146306_300x450.webp',
     releaseDate: '2023-09-15',
@@ -274,7 +382,16 @@ export const baseMoviesLove: BaseMovie[] = [
     director: 'Alauda Ruiz de Azúa',
     actors: [
       {
+        name: 'Álvaro Cervantes',
+      },
+      {
         name: 'Silvia Alonso',
+      },
+      {
+        name: 'Susana Abaitua',
+      },
+      {
+        name: 'Pilar Castro',
       },
     ],
     coverUrl: '/movies_pictures/735234-love-at-first-kiss-0-150-0-225-crop.jpg',
@@ -331,6 +448,24 @@ export const baseMoviesLove: BaseMovie[] = [
       {
         name: 'Joey King',
       },
+      {
+        name: 'Kyle Allen',
+      },
+      {
+        name: 'Kim Dickens',
+      },
+      {
+        name: 'John Ortiz',
+      },
+      {
+        name: 'Celeste O\'Connor',
+      },
+      {
+        name: 'Donna Biscoe',
+      },
+      {
+        name: 'April Parker Jones',
+      },
     ],
     coverUrl: '/movies_pictures/735089-the-in-between-0-150-0-225-crop.jpg',
     releaseDate: '2022-02-11',
@@ -347,7 +482,22 @@ export const baseMoviesLove: BaseMovie[] = [
     director: 'Marçal Forés',
     actors: [
       {
-        name: 'Julio Peña',
+        name: 'Clara Galle',
+      },
+      {
+        name: 'Julio Peña Fernandez',
+      },
+      {
+        name: 'Eric Masip',
+      },
+      {
+        name: 'Hugo Arbués',
+      },
+      {
+        name: 'Guillermo Lasheras',
+      },
+      {
+        name: 'Pilar Castro',
       },
     ],
     coverUrl: '/movies_pictures/735239-through-my-window-0-150-0-225-crop.jpg',
@@ -366,6 +516,24 @@ export const baseMoviesLove: BaseMovie[] = [
     actors: [
       {
         name: 'Nina Dobrev',
+      },
+      {
+        name: 'Jimmy Ouyang',
+      },
+      {
+        name: 'Darren Barnet',
+      },
+      {
+        name: 'Harry Shum Jr',
+      },
+      {
+        name: 'James Saito',
+      },
+      {
+        name: 'Mikaela Hoover',
+      },
+      {
+        name: 'Lochlyn Munro',
       },
     ],
     coverUrl: '/movies_pictures/656542-love-hard-0-150-0-225-crop.jpg',
@@ -399,7 +567,29 @@ export const baseMoviesLove: BaseMovie[] = [
   {
     title: 'La Belle et la Bête',
     director: 'Bill Condon',
-    actors: [{ name: 'Emma Watson' }],
+    actors: [
+      {
+        name: 'Emma Watson',
+      },
+      {
+        name: 'Dan Stevens',
+      },
+      {
+        name: 'Luke Evans',
+      },
+      {
+        name: 'Emma Thompson',
+      },
+      {
+        name: 'Ewan McGregor',
+      },
+      {
+        name: 'Ian McKellen',
+      },
+      {
+        name: 'Kevin Kline',
+      },
+    ],
     coverUrl:
       '/movies_pictures/248708-beauty-and-the-beast-0-150-0-225-crop.jpg',
     releaseDate: '2017-03-17',
@@ -414,7 +604,26 @@ export const baseMoviesLove: BaseMovie[] = [
   {
     title: 'Un choix',
     director: 'Ross Katz',
-    actors: [{ name: 'Benjamin Walker' }],
+    actors: [
+      {
+        name: 'Benjamin Walker',
+      },
+      {
+        name: 'Teresa Palmer',
+      },
+      {
+        name: 'Maggie Grace',
+      },
+      {
+        name: 'Alexandra Daddario',
+      },
+      {
+        name: 'Tom Welling',
+      },
+      {
+        name: 'Tom Wilkinson',
+      },
+    ],
     coverUrl: '/movies_pictures/258147-the-choice-0-150-0-225-crop.jpg',
     releaseDate: '2016-02-05',
     length: 111,
@@ -428,7 +637,29 @@ export const baseMoviesLove: BaseMovie[] = [
   {
     title: "L'agence",
     director: 'George Nolfi',
-    actors: [{ name: 'Matt Damon' }],
+    actors: [
+      {
+        name: 'Matt Damon',
+      },
+      {
+        name: 'Emily Blunt',
+      },
+      {
+        name: 'Anthony Mackie',
+      },
+      {
+        name: 'John Slattery',
+      },
+      {
+        name: 'Terence Stamp',
+      },
+      {
+        name: 'Michael Kelly',
+      },
+      {
+        name: 'Anthony Ruivivar',
+      },
+    ],
     coverUrl:
       '/movies_pictures/the-adjustment-bureau-original-1-0-150-0-225-crop.jpg',
     releaseDate: '2011-03-04',
@@ -443,7 +674,29 @@ export const baseMoviesLove: BaseMovie[] = [
   {
     title: 'Un jour',
     director: 'Lone Scherfig',
-    actors: [{ name: 'Anne Hathaway' }],
+    actors: [
+      {
+        name: 'Anne Hathaway',
+      },
+      {
+        name: 'Jim Sturgess',
+      },
+      {
+        name: 'Patricia Clarkson',
+      },
+      {
+        name: 'Romola Garai',
+      },
+      {
+        name: 'Rafe Spall',
+      },
+      {
+        name: 'Ken Stott',
+      },
+      {
+        name: 'Jodie Whittaker',
+      },
+    ],
     coverUrl: '/movies_pictures/un_jour.jpg',
     releaseDate: '2011-08-19',
     length: 107,
@@ -457,7 +710,29 @@ export const baseMoviesLove: BaseMovie[] = [
   {
     title: 'Sex Friends',
     director: 'Ivan Reitman',
-    actors: [{ name: 'Natalie Portman' }, { name: 'Ashton Kutcher' }],
+    actors: [
+      {
+        name: 'Natalie Portman',
+      },
+      {
+        name: 'Ashton Kutcher',
+      },
+      {
+        name: 'Cary Elwes',
+      },
+      {
+        name: 'Kevin Kline',
+      },
+      {
+        name: 'Greta Gerwig',
+      },
+      {
+        name: 'Lake Bell',
+      },
+      {
+        name: 'Olivia Thirlby',
+      },
+    ],
     coverUrl:
       '/movies_pictures/no-strings-attached-original-0-150-0-225-crop.jpg',
     releaseDate: '2011-01-21',
@@ -486,7 +761,29 @@ export const baseMoviesLove: BaseMovie[] = [
   {
     title: 'Sexy Dance',
     director: 'Anne Fletcher',
-    actors: [{ name: 'Channing Tatum' }],
+    actors: [
+      {
+        name: 'Channing Tatum',
+      },
+      {
+        name: 'Jenna Dewan',
+      },
+      {
+        name: 'Mario',
+      },
+      {
+        name: 'Drew Sidora',
+      },
+      {
+        name: 'Rachel Griffiths',
+      },
+      {
+        name: 'Josh Henderson',
+      },
+      {
+        name: 'Alyson Stoner',
+      },
+    ],
     coverUrl: '/movies_pictures/46848-step-up-0-150-0-225-crop.jpg',
     releaseDate: '2006-08-11',
     length: 104,
@@ -500,7 +797,29 @@ export const baseMoviesLove: BaseMovie[] = [
   {
     title: 'Sexy Dance 2',
     director: 'Jon M. Chu',
-    actors: [{ name: 'Briana Evigan' }],
+    actors: [
+      {
+        name: 'Briana Evigan',
+      },
+      {
+        name: 'Robert Hoffman',
+      },
+      {
+        name: 'Adam Gary Sevani',
+      },
+      {
+        name: 'Will Kemp',
+      },
+      {
+        name: 'Cassie',
+      },
+      {
+        name: 'Channing Tatum',
+      },
+      {
+        name: 'Harry Shum Jr',
+      },
+    ],
     coverUrl: '/movies_pictures/47804-step-up-2-0-150-0-225-crop.jpg',
     releaseDate: '2008-02-14',
     length: 98,
@@ -514,7 +833,29 @@ export const baseMoviesLove: BaseMovie[] = [
   {
     title: 'Sexy Dance 3D',
     director: 'Jon M. Chu',
-    actors: [{ name: 'Rick Malambri' }],
+    actors: [
+      {
+        name: 'Rick Malambri',
+      },
+      {
+        name: 'Sharni Vinson',
+      },
+      {
+        name: 'Adam Gary Sevani',
+      },
+      {
+        name: 'Alyson Stoner',
+      },
+      {
+        name: 'Harry Shum Jr',
+      },
+      {
+        name: 'Keith Stallworth',
+      },
+      {
+        name: 'Mari Koda',
+      },
+    ],
     coverUrl: '/movies_pictures/23784-step-up-3-0-150-0-225-crop.jpg',
     releaseDate: '2010-08-06',
     length: 107,
@@ -552,7 +893,29 @@ export const baseMoviesLove: BaseMovie[] = [
   {
     title: "L'Arnacœur",
     director: 'Pascal Chaumeil',
-    actors: [{ name: 'Romain Duris' }],
+    actors: [
+      {
+        name: 'Romain Duris',
+      },
+      {
+        name: 'Vanessa Paradis',
+      },
+      {
+        name: 'Julie Ferrier',
+      },
+      {
+        name: 'Andrew Lincoln',
+      },
+      {
+        name: 'Jacques Frantz',
+      },
+      {
+        name: 'Victoria Silvstedt',
+      },
+      {
+        name: 'Amandine Dewasmes',
+      },
+    ],
     coverUrl: '/movies_pictures/23804-heartbreaker-0-150-0-225-crop.jpg',
     releaseDate: '2010-03-17',
     length: 105,
@@ -566,7 +929,29 @@ export const baseMoviesLove: BaseMovie[] = [
   {
     title: 'Remember Me',
     director: 'Allen Coulter',
-    actors: [{ name: 'Robert Pattinson' }],
+    actors: [
+      {
+        name: 'Robert Pattinson',
+      },
+      {
+        name: 'Émilie de Ravin',
+      },
+      {
+        name: 'Chris Cooper',
+      },
+      {
+        name: 'Lena Olin',
+      },
+      {
+        name: 'Pierce Brosnan',
+      },
+      {
+        name: 'Martha Plimpton',
+      },
+      {
+        name: 'Tate Ellington',
+      },
+    ],
     coverUrl: '/movies_pictures/37502-remember-me-0-150-0-225-crop.jpg',
     releaseDate: '2010-03-12',
     length: 113,
@@ -580,7 +965,29 @@ export const baseMoviesLove: BaseMovie[] = [
   {
     title: "Valentine's Day",
     director: 'Garry Marshall',
-    actors: [{ name: 'Julia Roberts' }, { name: 'Anne Hathaway' }],
+    actors: [
+      {
+        name: 'Jessica Alba',
+      },
+      {
+        name: 'Jessica Biel',
+      },
+      {
+        name: 'Bradley Cooper',
+      },
+      {
+        name: 'Ashton Kutcher',
+      },
+      {
+        name: 'Julia Roberts',
+      },
+      {
+        name: 'Jamie Foxx',
+      },
+      {
+        name: 'Anne Hathaway',
+      },
+    ],
     coverUrl: '/movies_pictures/valentine_day.jpg',
     releaseDate: '2010-02-12',
     length: 125,
@@ -594,7 +1001,29 @@ export const baseMoviesLove: BaseMovie[] = [
   {
     title: 'La proposition',
     director: 'Anne Fletcher',
-    actors: [{ name: 'Sandra Bullock' }, { name: 'Ryan Reynolds' }],
+    actors: [
+      {
+        name: 'Sandra Bullock',
+      },
+      {
+        name: 'Ryan Reynolds',
+      },
+      {
+        name: 'Betty White',
+      },
+      {
+        name: 'Mary Steenburgen',
+      },
+      {
+        name: 'Craig T. Nelson',
+      },
+      {
+        name: 'Aasif Mandvi',
+      },
+      {
+        name: 'Denis O\'Hare',
+      },
+    ],
     coverUrl: '/movies_pictures/40479-the-proposal-0-150-0-225-crop.jpg',
     releaseDate: '2009-06-19',
     length: 108,
@@ -611,6 +1040,24 @@ export const baseMoviesLove: BaseMovie[] = [
     actors: [
       {
         name: 'Zac Efron',
+      },
+      {
+        name: 'Leslie Mann',
+      },
+      {
+        name: 'Thomas Lennon',
+      },
+      {
+        name: 'Sterling Knight',
+      },
+      {
+        name: 'Hunter Parrish',
+      },
+      {
+        name: 'Melora Hardin',
+      },
+      {
+        name: 'Kat Graham',
       },
     ],
     coverUrl: '/movies_pictures/41276-17-again-0-150-0-225-crop.jpg',
@@ -630,6 +1077,24 @@ export const baseMoviesLove: BaseMovie[] = [
       {
         name: 'Joseph Gordon-Levitt',
       },
+      {
+        name: 'Zooey Deschanel',
+      },
+      {
+        name: 'Geoffrey Arend',
+      },
+      {
+        name: 'Chloë Grace Moretz',
+      },
+      {
+        name: 'Matthew Gray Gubler',
+      },
+      {
+        name: 'Clark Gregg',
+      },
+      {
+        name: 'Patricia Belcher',
+      },
     ],
     coverUrl: '/movies_pictures/39350--500-days-of-summer-0-150-0-225-crop.jpg',
     releaseDate: '2009-07-17',
@@ -644,7 +1109,17 @@ export const baseMoviesLove: BaseMovie[] = [
   {
     title: 'Jackpot',
     director: 'Tom Vaughan',
-    actors: [{ name: 'Ashton Kutcher' }],
+    actors: [
+      {
+        name: 'Hiran Chatterjee',
+      },
+      {
+        name: 'Koel Mullick',
+      },
+      {
+        name: 'Sohini Paul',
+      },
+    ],
     coverUrl:
       '/movies_pictures/47414-what-happens-in-vegas--0-150-0-225-crop.jpg',
     releaseDate: '2008-05-09',
@@ -659,7 +1134,29 @@ export const baseMoviesLove: BaseMovie[] = [
   {
     title: 'Juno',
     director: 'Jason Reitman',
-    actors: [{ name: 'Ellen Page' }],
+    actors: [
+      {
+        name: 'Elliot Page',
+      },
+      {
+        name: 'Michael Cera',
+      },
+      {
+        name: 'Jennifer Garner',
+      },
+      {
+        name: 'Jason Bateman',
+      },
+      {
+        name: 'Allison Janney',
+      },
+      {
+        name: 'J. K. Simmons',
+      },
+      {
+        name: 'Olivia Thirlby',
+      },
+    ],
     coverUrl: '/movies_pictures/48051-juno-0-150-0-225-crop.jpg',
     releaseDate: '2007-12-25',
     length: 96,
@@ -676,6 +1173,24 @@ export const baseMoviesLove: BaseMovie[] = [
     actors: [
       {
         name: 'Keira Knightley',
+      },
+      {
+        name: 'Matthew Macfadyen',
+      },
+      {
+        name: 'Brenda Blethyn',
+      },
+      {
+        name: 'Q103784',
+      },
+      {
+        name: 'Tom Hollander',
+      },
+      {
+        name: 'Rosamund Pike',
+      },
+      {
+        name: 'Jena Malone',
       },
     ],
     coverUrl: '/movies_pictures/orgueil_et_prejuges.jpg',
@@ -695,7 +1210,29 @@ export const baseMoviesLove: BaseMovie[] = [
   {
     title: 'Match Point',
     director: 'Woody Allen',
-    actors: [{ name: 'Jonathan Rhys Meyers' }, { name: 'Scarlett Johansson' }],
+    actors: [
+      {
+        name: 'Jonathan Rhys-Meyers',
+      },
+      {
+        name: 'Scarlett Johansson',
+      },
+      {
+        name: 'Emily Mortimer',
+      },
+      {
+        name: 'Matthew Goode',
+      },
+      {
+        name: 'Brian Cox',
+      },
+      {
+        name: 'Penelope Wilton',
+      },
+      {
+        name: 'Ewen Bremner',
+      },
+    ],
     coverUrl: '/movies_pictures/match_point.jpg',
     releaseDate: '2005-05-12',
     length: 124,
@@ -727,7 +1264,29 @@ export const baseMoviesLove: BaseMovie[] = [
   {
     title: 'La fille du président',
     director: 'Forest Whitaker',
-    actors: [{ name: 'Katie Holmes' }],
+    actors: [
+      {
+        name: 'Katie Holmes',
+      },
+      {
+        name: 'Michael Keaton',
+      },
+      {
+        name: 'Marc Blucas',
+      },
+      {
+        name: 'Amerie',
+      },
+      {
+        name: 'Lela Rochon',
+      },
+      {
+        name: 'Margaret Colin',
+      },
+      {
+        name: 'Dwayne Adway',
+      },
+    ],
     coverUrl: '/movies_pictures/43443-first-daughter-0-150-0-225-crop.jpg',
     releaseDate: '2004-09-24',
     length: 106,
@@ -771,7 +1330,29 @@ export const baseMoviesLove: BaseMovie[] = [
   {
     title: 'The Girl Next Door',
     director: 'Luke Greenfield',
-    actors: [{ name: 'Emile Hirsch' }],
+    actors: [
+      {
+        name: 'Emile Hirsch',
+      },
+      {
+        name: 'Elisha Cuthbert',
+      },
+      {
+        name: 'Timothy Olyphant',
+      },
+      {
+        name: 'Chris Marquette',
+      },
+      {
+        name: 'Paul Dano',
+      },
+      {
+        name: 'James Remar',
+      },
+      {
+        name: 'Timothy Bottoms',
+      },
+    ],
     coverUrl:
       '/movies_pictures/46081-the-girl-next-door-2004-0-150-0-225-crop.jpg',
     releaseDate: '2004-04-09',
@@ -821,7 +1402,25 @@ export const baseMoviesLove: BaseMovie[] = [
     director: 'Adam Shankman',
     actors: [
       {
+        name: 'Shane West',
+      },
+      {
         name: 'Mandy Moore',
+      },
+      {
+        name: 'Peter Coyote',
+      },
+      {
+        name: 'Daryl Hannah',
+      },
+      {
+        name: 'Lauren German',
+      },
+      {
+        name: 'Clayne Crawford',
+      },
+      {
+        name: 'Al Thompson',
       },
     ],
     coverUrl: '/movies_pictures/46422-a-walk-to-remember-0-150-0-225-crop.jpg',
@@ -859,7 +1458,29 @@ export const baseMoviesLove: BaseMovie[] = [
   {
     title: 'Ce que Veulent les Femmes',
     director: 'Nancy Meyers',
-    actors: [{ name: 'Mel Gibson' }],
+    actors: [
+      {
+        name: 'Mel Gibson',
+      },
+      {
+        name: 'Helen Hunt',
+      },
+      {
+        name: 'Marisa Tomei',
+      },
+      {
+        name: 'Alan Alda',
+      },
+      {
+        name: 'Lauren Holly',
+      },
+      {
+        name: 'Ashley Johnson',
+      },
+      {
+        name: 'Bette Midler',
+      },
+    ],
     coverUrl: '/movies_pictures/49539-what-women-want-0-150-0-225-crop.jpg',
     releaseDate: '2000-12-15',
     length: 127,
@@ -873,7 +1494,29 @@ export const baseMoviesLove: BaseMovie[] = [
   {
     title: 'Coup de foudre à Notting Hill',
     director: 'Roger Michell',
-    actors: [{ name: 'Julia Roberts' }],
+    actors: [
+      {
+        name: 'Julia Roberts',
+      },
+      {
+        name: 'Hugh Grant',
+      },
+      {
+        name: 'Rhys Ifans',
+      },
+      {
+        name: 'Emma Chambers',
+      },
+      {
+        name: 'Tim McInnerny',
+      },
+      {
+        name: 'Gina McKee',
+      },
+      {
+        name: 'Hugh Bonneville',
+      },
+    ],
     coverUrl: '/movies_pictures/notting-hill-0-150-0-225-crop.jpg',
     releaseDate: '1999-05-28',
     length: 124,
@@ -887,7 +1530,29 @@ export const baseMoviesLove: BaseMovie[] = [
   {
     title: 'Rencontre avec Joe Black',
     director: 'Martin Brest',
-    actors: [{ name: 'Brad Pitt' }],
+    actors: [
+      {
+        name: 'Brad Pitt',
+      },
+      {
+        name: 'Anthony Hopkins',
+      },
+      {
+        name: 'Claire Forlani',
+      },
+      {
+        name: 'Jake Weber',
+      },
+      {
+        name: 'Marcia Gay Harden',
+      },
+      {
+        name: 'Jeffrey Tambor',
+      },
+      {
+        name: 'David S. Howard',
+      },
+    ],
     coverUrl: '/movies_pictures/51762-meet-joe-black-0-150-0-225-crop.jpg',
     releaseDate: '1998-11-13',
     length: 178,
@@ -901,7 +1566,29 @@ export const baseMoviesLove: BaseMovie[] = [
   {
     title: 'Pretty Woman',
     director: 'Garry Marshall',
-    actors: [{ name: 'Julia Roberts' }],
+    actors: [
+      {
+        name: 'Richard Gere',
+      },
+      {
+        name: 'Julia Roberts',
+      },
+      {
+        name: 'Ralph Bellamy',
+      },
+      {
+        name: 'Jason Alexander',
+      },
+      {
+        name: 'Laura San Giacomo',
+      },
+      {
+        name: 'Héctor Elizondo',
+      },
+      {
+        name: 'Amy Yasbeck',
+      },
+    ],
     coverUrl: '/movies_pictures/51936-pretty-woman-0-150-0-225-crop.jpg',
     releaseDate: '1990-03-23',
     length: 119,
@@ -933,7 +1620,29 @@ export const baseMoviesLove: BaseMovie[] = [
   {
     title: 'La La Land',
     director: 'Damien Chazelle',
-    actors: [{ name: 'Ryan Gosling' }],
+    actors: [
+      {
+        name: 'Emma Stone',
+      },
+      {
+        name: 'J. K. Simmons',
+      },
+      {
+        name: 'Finn Wittrock',
+      },
+      {
+        name: 'Rosemarie DeWitt',
+      },
+      {
+        name: 'Meagen Fay',
+      },
+      {
+        name: 'John Legend',
+      },
+      {
+        name: 'Sonoya Mizuno',
+      },
+    ],
     coverUrl: '/movies_pictures/240344-la-la-land-0-150-0-225-crop.jpg',
     releaseDate: '2016-12-09',
     length: 128,
@@ -952,7 +1661,22 @@ export const baseMoviesLove: BaseMovie[] = [
         name: 'François Civil',
       },
       {
-        name: 'Adèle Exarchopoulos',
+        name: 'Q2825427',
+      },
+      {
+        name: 'Mallory Wanecque',
+      },
+      {
+        name: 'Alain Chabat',
+      },
+      {
+        name: 'Benoît Poelvoorde',
+      },
+      {
+        name: 'Vincent Lacoste',
+      },
+      {
+        name: 'Jean-Pascal Zadi',
       },
     ],
     coverUrl:
@@ -988,7 +1712,29 @@ export const baseMoviesLove: BaseMovie[] = [
   {
     title: 'The Princess Switch 3: Romancing the Star',
     director: 'Mike Rohl',
-    actors: [{ name: 'Vanessa Hudgens' }],
+    actors: [
+      {
+        name: 'Vanessa Hudgens',
+      },
+      {
+        name: 'Remy Hii',
+      },
+      {
+        name: 'Sam Palladio',
+      },
+      {
+        name: 'Nick Sagar',
+      },
+      {
+        name: 'Amanda Donohoe',
+      },
+      {
+        name: 'Ricky Norwood',
+      },
+      {
+        name: 'Suanne Braun',
+      },
+    ],
     coverUrl: '/movies_pictures/The_Princess_Switch_3.jpg',
     releaseDate: '2021-11-18',
     length: 107,
@@ -1005,6 +1751,24 @@ export const baseMoviesLove: BaseMovie[] = [
     actors: [
       {
         name: 'Emma Roberts',
+      },
+      {
+        name: 'Luke Bracey',
+      },
+      {
+        name: 'KingBach',
+      },
+      {
+        name: 'Jessica Capshaw',
+      },
+      {
+        name: 'Manish Dayal',
+      },
+      {
+        name: 'Alex Moffat',
+      },
+      {
+        name: 'Jake Manley',
       },
     ],
     coverUrl: '/movies_pictures/542464-holidate-0-150-0-225-crop.jpg',
@@ -1060,6 +1824,24 @@ export const baseMoviesLove: BaseMovie[] = [
       {
         name: 'Emilia Clarke',
       },
+      {
+        name: 'Henry Golding',
+      },
+      {
+        name: 'Emma Thompson',
+      },
+      {
+        name: 'Michelle Yeoh',
+      },
+      {
+        name: 'Rebecca Root',
+      },
+      {
+        name: 'Patti LuPone',
+      },
+      {
+        name: 'Lydia Leonard',
+      },
     ],
     coverUrl: '/movies_pictures/477863-last-christmas-0-150-0-225-crop.jpg',
     releaseDate: '2019-11-08',
@@ -1081,6 +1863,21 @@ export const baseMoviesLove: BaseMovie[] = [
       {
         name: 'Shannyn Sossamon',
       },
+      {
+        name: 'Paulo Costanzo',
+      },
+      {
+        name: 'Maggie Gyllenhaal',
+      },
+      {
+        name: 'Vinessa Shaw',
+      },
+      {
+        name: 'Keegan Connor Tracy',
+      },
+      {
+        name: 'Monet Mazur',
+      },
     ],
     coverUrl: '/movies_pictures/40_jours_et_40_nuits.webp',
     releaseDate: '2002-03-01',
@@ -1101,6 +1898,21 @@ export const baseMoviesLove: BaseMovie[] = [
       },
       {
         name: 'Ralph Fiennes',
+      },
+      {
+        name: 'Natasha Richardson',
+      },
+      {
+        name: 'Stanley Tucci',
+      },
+      {
+        name: 'Tyler Posey',
+      },
+      {
+        name: 'Frances Conroy',
+      },
+      {
+        name: 'Chris Eigeman',
       },
     ],
     coverUrl: '/movies_pictures/affiche_cooup_foudre.webp',
@@ -1154,7 +1966,29 @@ export const baseMoviesLove: BaseMovie[] = [
   {
     title: 'Marty Supreme',
     director: 'Josh Safdie',
-    actors: [{ name: 'Timothée Chalamet' }, { name: 'Gwyneth Paltrow' }],
+    actors: [
+      {
+        name: 'Timothée Chalamet',
+      },
+      {
+        name: 'Gwyneth Paltrow',
+      },
+      {
+        name: 'Tyler, the Creator',
+      },
+      {
+        name: 'Odessa Adlon',
+      },
+      {
+        name: 'Penn Jillette',
+      },
+      {
+        name: 'Kevin O\'Leary',
+      },
+      {
+        name: 'Abel Ferrara',
+      },
+    ],
     coverUrl: '/movies_pictures/7dcb8416ab4e8fd4ff6eeaed758c6004.jpg',
     releaseDate: '2025-12-25',
     length: 120,
@@ -1186,7 +2020,29 @@ export const baseMoviesLove: BaseMovie[] = [
   {
     title: 'Forever My Girl',
     director: 'Bethany Ashton Wolf',
-    actors: [{ name: 'Alex Roe' }, { name: 'Jessica Rothe' }],
+    actors: [
+      {
+        name: 'Alex Roe',
+      },
+      {
+        name: 'Jessica Rothe',
+      },
+      {
+        name: 'John Benjamin Hickey',
+      },
+      {
+        name: 'Abby Ryder Fortson',
+      },
+      {
+        name: 'Travis Tritt',
+      },
+      {
+        name: 'Peter Cambor',
+      },
+      {
+        name: 'Gillian Vigman',
+      },
+    ],
     coverUrl: '/movies_pictures/forever_my_girl.jpg',
     releaseDate: '2018-01-19',
     length: 104,
@@ -1200,7 +2056,29 @@ export const baseMoviesLove: BaseMovie[] = [
   {
     title: 'Maintenance Required',
     director: 'Lacey Uhlemeyer',
-    actors: [{ name: 'Madelaine Petsch' }],
+    actors: [
+      {
+        name: 'Madelaine Petsch',
+      },
+      {
+        name: 'Jacob Scipio',
+      },
+      {
+        name: 'Madison Bailey',
+      },
+      {
+        name: 'Katy O’Brian',
+      },
+      {
+        name: 'Inanna Sarkis',
+      },
+      {
+        name: 'Matteo Lane',
+      },
+      {
+        name: 'Jim Gaffigan',
+      },
+    ],
     coverUrl:
       '/movies_pictures/MV5BNGZlN2Y5ZGEtMmU0MS00ZWI0L_FMjpg_UX1000_.jpg',
     releaseDate: '2024-01-01',
@@ -1230,7 +2108,29 @@ export const baseMoviesLove: BaseMovie[] = [
   {
     title: 'Lettres à Juliette',
     director: 'Gary Winick',
-    actors: [{ name: 'Amanda Seyfried' }, { name: 'Gael García Bernal' }],
+    actors: [
+      {
+        name: 'Amanda Seyfried',
+      },
+      {
+        name: 'Christopher Egan',
+      },
+      {
+        name: 'Vanessa Redgrave',
+      },
+      {
+        name: 'Gael García Bernal',
+      },
+      {
+        name: 'Luisa Ranieri',
+      },
+      {
+        name: 'Franco Nero',
+      },
+      {
+        name: 'Oliver Platt',
+      },
+    ],
     coverUrl: '/movies_pictures/19241233.webp',
     releaseDate: '2010-05-14',
     length: 105,
@@ -1244,7 +2144,29 @@ export const baseMoviesLove: BaseMovie[] = [
   {
     title: 'My Oxford Year',
     director: 'Sarah Treem',
-    actors: [{ name: 'Aisling Franciosi' }],
+    actors: [
+      {
+        name: 'Sofia Carson',
+      },
+      {
+        name: 'Corey Mylchreest',
+      },
+      {
+        name: 'Dougray Scott',
+      },
+      {
+        name: 'Catherine McCormack',
+      },
+      {
+        name: 'Harry Trevaldwyn',
+      },
+      {
+        name: 'Hugh Coles',
+      },
+      {
+        name: 'Poppy Gilbert',
+      },
+    ],
     coverUrl: '/movies_pictures/f1c06582c665ba69d863934d8b176d25.jpg',
     releaseDate: '2024-01-01',
     length: 113,
@@ -1294,7 +2216,23 @@ export const baseMoviesLove: BaseMovie[] = [
   {
     title: 'La carte qui mène à toi',
     director: 'Lasse Hallström',
-    actors: [{ name: 'Madelyn Cline' }],
+    actors: [
+      {
+        name: 'Madelyn Cline',
+      },
+      {
+        name: 'KJ Apa',
+      },
+      {
+        name: 'Sofia Wylie',
+      },
+      {
+        name: 'Madison Thompson',
+      },
+      {
+        name: 'Josh Lucas',
+      },
+    ],
     coverUrl: '/movies_pictures/1254072.webp',
     releaseDate: '2024-01-01',
     length: 100,
@@ -1361,7 +2299,29 @@ export const baseMoviesLove: BaseMovie[] = [
   {
     title: "He's All That",
     director: 'Mark Waters',
-    actors: [{ name: 'Addison Rae' }, { name: 'Tanner Buchanan' }],
+    actors: [
+      {
+        name: 'Addison Rae',
+      },
+      {
+        name: 'Tanner Buchanan',
+      },
+      {
+        name: 'Madison Pettis',
+      },
+      {
+        name: 'Matthew Lillard',
+      },
+      {
+        name: 'Rachael Leigh Cook',
+      },
+      {
+        name: 'Peyton Meyer',
+      },
+      {
+        name: 'Isabella Crovetti',
+      },
+    ],
     coverUrl: '/movies_pictures/p19885745_v_v12_ab.jpg',
     releaseDate: '2021-08-27',
     length: 88,
@@ -1375,7 +2335,29 @@ export const baseMoviesLove: BaseMovie[] = [
   {
     title: 'À tous les garçons : Pour toujours et à jamais',
     director: 'Michael Fimognari',
-    actors: [{ name: 'Lana Condor' }, { name: 'Noah Centineo' }],
+    actors: [
+      {
+        name: 'Lana Condor',
+      },
+      {
+        name: 'Noah Centineo',
+      },
+      {
+        name: 'Janel Parrish',
+      },
+      {
+        name: 'Anna Cathcart',
+      },
+      {
+        name: 'Madeleine Arthur',
+      },
+      {
+        name: 'Emilija Baranac',
+      },
+      {
+        name: 'Sarayu Blue',
+      },
+    ],
     coverUrl: '/movies_pictures/2398485.webp',
     releaseDate: '2021-02-12',
     length: 115,
@@ -1389,7 +2371,26 @@ export const baseMoviesLove: BaseMovie[] = [
   {
     title: 'The Kissing Booth 2',
     director: 'Vince Marcello',
-    actors: [{ name: 'Joey King' }, { name: 'Joel Courtney' }],
+    actors: [
+      {
+        name: 'Joey King',
+      },
+      {
+        name: 'Joel Courtney',
+      },
+      {
+        name: 'Jacob Elordi',
+      },
+      {
+        name: 'Maisie Richardson-Sellers',
+      },
+      {
+        name: 'Molly Ringwald',
+      },
+      {
+        name: 'Meganne Young',
+      },
+    ],
     coverUrl: '/movies_pictures/0527531.webp',
     releaseDate: '2020-07-24',
     length: 132,
@@ -1417,7 +2418,29 @@ export const baseMoviesLove: BaseMovie[] = [
   {
     title: 'Emma.',
     director: 'Autumn de Wilde',
-    actors: [{ name: 'Anya Taylor-Joy' }, { name: 'Johnny Flynn' }],
+    actors: [
+      {
+        name: 'Anya Taylor-Joy',
+      },
+      {
+        name: 'Johnny Flynn',
+      },
+      {
+        name: 'Bill Nighy',
+      },
+      {
+        name: 'Mia Goth',
+      },
+      {
+        name: 'Miranda Hart',
+      },
+      {
+        name: 'Josh O\'Connor',
+      },
+      {
+        name: 'Callum Turner',
+      },
+    ],
     coverUrl: '/movies_pictures/5725926.webp',
     releaseDate: '2020-02-14',
     length: 124,
@@ -1467,7 +2490,29 @@ export const baseMoviesLove: BaseMovie[] = [
   {
     title: 'Warm Bodies',
     director: 'Jonathan Levine',
-    actors: [{ name: 'Nicholas Hoult' }, { name: 'Teresa Palmer' }],
+    actors: [
+      {
+        name: 'Teresa Palmer',
+      },
+      {
+        name: 'Rob Corddry',
+      },
+      {
+        name: 'Dave Franco',
+      },
+      {
+        name: 'Lio Tipton',
+      },
+      {
+        name: 'Cory Hardrict',
+      },
+      {
+        name: 'John Malkovich',
+      },
+      {
+        name: 'Nicholas Hoult',
+      },
+    ],
     coverUrl: '/movies_pictures/71BQ9tEcdJL._AC_UF894,1000_QL80_.jpg',
     releaseDate: '2013-02-01',
     length: 98,
@@ -1481,7 +2526,29 @@ export const baseMoviesLove: BaseMovie[] = [
   {
     title: 'Minuit à Paris',
     director: 'Woody Allen',
-    actors: [{ name: 'Owen Wilson' }, { name: 'Rachel McAdams' }],
+    actors: [
+      {
+        name: 'Owen Wilson',
+      },
+      {
+        name: 'Rachel McAdams',
+      },
+      {
+        name: 'Kurt Fuller',
+      },
+      {
+        name: 'Michael Sheen',
+      },
+      {
+        name: 'Carla Bruni',
+      },
+      {
+        name: 'Marion Cotillard',
+      },
+      {
+        name: 'Léa Seydoux',
+      },
+    ],
     coverUrl: '/movies_pictures/19702766.jpg',
     releaseDate: '2011-05-20',
     length: 94,
@@ -1495,7 +2562,29 @@ export const baseMoviesLove: BaseMovie[] = [
   {
     title: 'Bride Wars',
     director: 'Gary Winick',
-    actors: [{ name: 'Kate Hudson' }, { name: 'Anne Hathaway' }],
+    actors: [
+      {
+        name: 'Kate Hudson',
+      },
+      {
+        name: 'Anne Hathaway',
+      },
+      {
+        name: 'Candice Bergen',
+      },
+      {
+        name: 'Chris Pratt',
+      },
+      {
+        name: 'Bryan Greenberg',
+      },
+      {
+        name: 'Steve Howey',
+      },
+      {
+        name: 'Kristen Johnston',
+      },
+    ],
     coverUrl: '/movies_pictures/614QUSlx75L._AC_UF894,1000_QL80_.jpg',
     releaseDate: '2009-01-09',
     length: 89,
@@ -1509,7 +2598,29 @@ export const baseMoviesLove: BaseMovie[] = [
   {
     title: 'Sex and the City',
     director: 'Michael Patrick King',
-    actors: [{ name: 'Sarah Jessica Parker' }, { name: 'Kim Cattrall' }],
+    actors: [
+      {
+        name: 'Sarah Jessica Parker',
+      },
+      {
+        name: 'Kim Cattrall',
+      },
+      {
+        name: 'Kristin Davis',
+      },
+      {
+        name: 'Cynthia Nixon',
+      },
+      {
+        name: 'Chris Noth',
+      },
+      {
+        name: 'David Eigenberg',
+      },
+      {
+        name: 'Willie Garson',
+      },
+    ],
     coverUrl: '/movies_pictures/18938386.webp',
     releaseDate: '2008-05-30',
     length: 145,
@@ -1523,7 +2634,29 @@ export const baseMoviesLove: BaseMovie[] = [
   {
     title: '27 Robes',
     director: 'Anne Fletcher',
-    actors: [{ name: 'Katherine Heigl' }, { name: 'James Marsden' }],
+    actors: [
+      {
+        name: 'Katherine Heigl',
+      },
+      {
+        name: 'James Marsden',
+      },
+      {
+        name: 'Malin Åkerman',
+      },
+      {
+        name: 'Edward Burns',
+      },
+      {
+        name: 'Judy Greer',
+      },
+      {
+        name: 'Brian Kerwin',
+      },
+      {
+        name: 'David Castro',
+      },
+    ],
     coverUrl: '/movies_pictures/18930657.jpg',
     releaseDate: '2008-01-18',
     length: 111,
@@ -1537,7 +2670,29 @@ export const baseMoviesLove: BaseMovie[] = [
   {
     title: 'P.S. I Love You',
     director: 'Richard LaGravenese',
-    actors: [{ name: 'Hilary Swank' }, { name: 'Gerard Butler' }],
+    actors: [
+      {
+        name: 'Hilary Swank',
+      },
+      {
+        name: 'Gerard Butler',
+      },
+      {
+        name: 'Lisa Kudrow',
+      },
+      {
+        name: 'Harry Connick',
+      },
+      {
+        name: 'Gina Gershon',
+      },
+      {
+        name: 'Jeffrey Dean Morgan',
+      },
+      {
+        name: 'Kathy Bates',
+      },
+    ],
     coverUrl: '/movies_pictures/81w+NT8-2HL._AC_UF894,1000_QL80_.jpg',
     releaseDate: '2007-12-21',
     length: 126,
@@ -1551,7 +2706,29 @@ export const baseMoviesLove: BaseMovie[] = [
   {
     title: 'The Princess Diaries 2: Royal Engagement',
     director: 'Garry Marshall',
-    actors: [{ name: 'Anne Hathaway' }, { name: 'Julie Andrews' }],
+    actors: [
+      {
+        name: 'Anne Hathaway',
+      },
+      {
+        name: 'Julie Andrews',
+      },
+      {
+        name: 'Héctor Elizondo',
+      },
+      {
+        name: 'John Rhys-Davies',
+      },
+      {
+        name: 'Chris Pine',
+      },
+      {
+        name: 'Callum Blue',
+      },
+      {
+        name: 'Heather Matarazzo',
+      },
+    ],
     coverUrl: '/movies_pictures/Movie_the_princess_diaries_2.jpg',
     releaseDate: '2004-08-11',
     length: 113,
@@ -1565,7 +2742,29 @@ export const baseMoviesLove: BaseMovie[] = [
   {
     title: 'Princesse malgré elle',
     director: 'Garry Marshall',
-    actors: [{ name: 'Anne Hathaway' }, { name: 'Julie Andrews' }],
+    actors: [
+      {
+        name: 'Julie Andrews',
+      },
+      {
+        name: 'Héctor Elizondo',
+      },
+      {
+        name: 'Heather Matarazzo',
+      },
+      {
+        name: 'Mandy Moore',
+      },
+      {
+        name: 'Caroline Goodall',
+      },
+      {
+        name: 'Patrick Flueger',
+      },
+      {
+        name: 'Sandra Oh',
+      },
+    ],
     coverUrl: '/movies_pictures/69216468_af.webp',
     releaseDate: '2001-08-03',
     length: 111,
@@ -1579,7 +2778,29 @@ export const baseMoviesLove: BaseMovie[] = [
   {
     title: 'Moulin Rouge !',
     director: 'Baz Luhrmann',
-    actors: [{ name: 'Nicole Kidman' }, { name: 'Ewan McGregor' }],
+    actors: [
+      {
+        name: 'Nicole Kidman',
+      },
+      {
+        name: 'Ewan McGregor',
+      },
+      {
+        name: 'Jim Broadbent',
+      },
+      {
+        name: 'Richard Roxburgh',
+      },
+      {
+        name: 'John Leguizamo',
+      },
+      {
+        name: 'Jacek Koman',
+      },
+      {
+        name: 'Caroline O\'Connor',
+      },
+    ],
     coverUrl: '/movies_pictures/69216008_af.webp',
     releaseDate: '2001-05-24',
     length: 127,
@@ -1593,7 +2814,29 @@ export const baseMoviesLove: BaseMovie[] = [
   {
     title: 'Le Journal de Bridget Jones',
     director: 'Sharon Maguire',
-    actors: [{ name: 'Renée Zellweger' }, { name: 'Colin Firth' }],
+    actors: [
+      {
+        name: 'Renée Zellweger',
+      },
+      {
+        name: 'Colin Firth',
+      },
+      {
+        name: 'Hugh Grant',
+      },
+      {
+        name: 'Gemma Jones',
+      },
+      {
+        name: 'Jim Broadbent',
+      },
+      {
+        name: 'Shirley Henderson',
+      },
+      {
+        name: 'Sally Phillips',
+      },
+    ],
     coverUrl: '/movies_pictures/69216164_af.webp',
     releaseDate: '2001-04-13',
     length: 97,
@@ -1607,7 +2850,29 @@ export const baseMoviesLove: BaseMovie[] = [
   {
     title: 'Mon beau-père et moi',
     director: 'Jay Roach',
-    actors: [{ name: 'Ben Stiller' }, { name: 'Robert De Niro' }],
+    actors: [
+      {
+        name: 'Robert De Niro',
+      },
+      {
+        name: 'Ben Stiller',
+      },
+      {
+        name: 'Teri Polo',
+      },
+      {
+        name: 'Blythe Danner',
+      },
+      {
+        name: 'Owen Wilson',
+      },
+      {
+        name: 'Nicole DeHuff',
+      },
+      {
+        name: 'Jon Abrahams',
+      },
+    ],
     coverUrl: '/movies_pictures/19458150.jpg',
     releaseDate: '2000-10-06',
     length: 108,
@@ -1635,7 +2900,29 @@ export const baseMoviesLove: BaseMovie[] = [
   {
     title: 'Elle est trop bien',
     director: 'Robert Iscove',
-    actors: [{ name: 'Freddie Prinze Jr.' }, { name: 'Rachael Leigh Cook' }],
+    actors: [
+      {
+        name: 'Freddie Prinze Jr.',
+      },
+      {
+        name: 'Rachael Leigh Cook',
+      },
+      {
+        name: 'Matthew Lillard',
+      },
+      {
+        name: 'Paul Walker',
+      },
+      {
+        name: 'Jodi Lyn O\'Keefe',
+      },
+      {
+        name: 'Kevin Pollak',
+      },
+      {
+        name: 'Gabrielle Union',
+      },
+    ],
     coverUrl: '/movies_pictures/75770_20131202125759836.jpg',
     releaseDate: '1999-01-29',
     length: 95,
@@ -1649,7 +2936,29 @@ export const baseMoviesLove: BaseMovie[] = [
   {
     title: 'Mary à tout prix',
     director: 'Bobby Farrelly, Peter Farrelly',
-    actors: [{ name: 'Cameron Diaz' }, { name: 'Ben Stiller' }],
+    actors: [
+      {
+        name: 'Cameron Diaz',
+      },
+      {
+        name: 'Matt Dillon',
+      },
+      {
+        name: 'Ben Stiller',
+      },
+      {
+        name: 'Lee Evans',
+      },
+      {
+        name: 'Chris Elliott',
+      },
+      {
+        name: 'Jeffrey Tambor',
+      },
+      {
+        name: 'Keith David',
+      },
+    ],
     coverUrl: '/movies_pictures/3909229.webp',
     releaseDate: '1998-07-15',
     length: 119,
@@ -1663,7 +2972,29 @@ export const baseMoviesLove: BaseMovie[] = [
   {
     title: 'Titanic',
     director: 'James Cameron',
-    actors: [{ name: 'Leonardo DiCaprio' }, { name: 'Kate Winslet' }],
+    actors: [
+      {
+        name: 'Leonardo DiCaprio',
+      },
+      {
+        name: 'Kate Winslet',
+      },
+      {
+        name: 'Billy Zane',
+      },
+      {
+        name: 'Kathy Bates',
+      },
+      {
+        name: 'Frances Fisher',
+      },
+      {
+        name: 'Bernard Hill',
+      },
+      {
+        name: 'Jonathan Hyde',
+      },
+    ],
     coverUrl: '/movies_pictures/Titanic_(1997_film)_poster.png',
     releaseDate: '1997-12-19',
     length: 195,
@@ -1677,7 +3008,29 @@ export const baseMoviesLove: BaseMovie[] = [
   {
     title: 'Roméo + Juliette',
     director: 'Baz Luhrmann',
-    actors: [{ name: 'Leonardo DiCaprio' }, { name: 'Claire Danes' }],
+    actors: [
+      {
+        name: 'Leonardo DiCaprio',
+      },
+      {
+        name: 'Claire Danes',
+      },
+      {
+        name: 'Brian Dennehy',
+      },
+      {
+        name: 'John Leguizamo',
+      },
+      {
+        name: 'Pete Postlethwaite',
+      },
+      {
+        name: 'Paul Sorvino',
+      },
+      {
+        name: 'Diane Venora',
+      },
+    ],
     coverUrl: '/movies_pictures/18798069.jpg',
     releaseDate: '1996-11-01',
     length: 120,
@@ -1695,7 +3048,26 @@ export const baseMoviesLove: BaseMovie[] = [
   {
     title: 'Strictly Ballroom',
     director: 'Baz Luhrmann',
-    actors: [{ name: 'Paul Mercurio' }, { name: 'Tara Morice' }],
+    actors: [
+      {
+        name: 'Paul Mercurio',
+      },
+      {
+        name: 'Bill Hunter',
+      },
+      {
+        name: 'Barry Otto',
+      },
+      {
+        name: 'Gia Carides',
+      },
+      {
+        name: 'Lauren Hewett',
+      },
+      {
+        name: 'Tara Morice',
+      },
+    ],
     coverUrl: '/movies_pictures/91wvoI-VZ2L._AC_UF894,1000_QL80_.jpg',
     releaseDate: '1992-08-20',
     length: 94,
@@ -1709,7 +3081,29 @@ export const baseMoviesLove: BaseMovie[] = [
   {
     title: 'Grease',
     director: 'Randal Kleiser',
-    actors: [{ name: 'John Travolta' }, { name: 'Olivia Newton-John' }],
+    actors: [
+      {
+        name: 'John Travolta',
+      },
+      {
+        name: 'Olivia Newton-John',
+      },
+      {
+        name: 'Stockard Channing',
+      },
+      {
+        name: 'Jeff Conaway',
+      },
+      {
+        name: 'Barry Pearl',
+      },
+      {
+        name: 'Michael Tucci',
+      },
+      {
+        name: 'Didi Conn',
+      },
+    ],
     coverUrl: '/movies_pictures/Grease.webp',
     releaseDate: '1978-06-16',
     length: 110,
@@ -1723,7 +3117,29 @@ export const baseMoviesLove: BaseMovie[] = [
   {
     title: 'Grease 2',
     director: 'Patricia Birch',
-    actors: [{ name: 'Michelle Pfeiffer' }, { name: 'Maxwell Caulfield' }],
+    actors: [
+      {
+        name: 'Maxwell Caulfield',
+      },
+      {
+        name: 'Michelle Pfeiffer',
+      },
+      {
+        name: 'Adrian Zmed',
+      },
+      {
+        name: 'Lorna Luft',
+      },
+      {
+        name: 'Maureen Teefy',
+      },
+      {
+        name: 'Pamela Adlon',
+      },
+      {
+        name: 'Christopher McDonald',
+      },
+    ],
     coverUrl: '/movies_pictures/81qJICzIC-L._AC_UF894,1000_QL80_.jpg',
     releaseDate: '1982-06-11',
     length: 115,
@@ -1737,7 +3153,29 @@ export const baseMoviesLove: BaseMovie[] = [
   {
     title: 'Vacances romaines',
     director: 'William Wyler',
-    actors: [{ name: 'Audrey Hepburn' }, { name: 'Gregory Peck' }],
+    actors: [
+      {
+        name: 'Gregory Peck',
+      },
+      {
+        name: 'Audrey Hepburn',
+      },
+      {
+        name: 'Eddie Albert',
+      },
+      {
+        name: 'Tullio Carminati',
+      },
+      {
+        name: 'Paolo Carlini',
+      },
+      {
+        name: 'Claudio Ermelli',
+      },
+      {
+        name: 'Paola Borboni',
+      },
+    ],
     coverUrl: '/movies_pictures/Roman_Holiday_(1953_poster).jpg',
     releaseDate: '1953-08-27',
     length: 118,

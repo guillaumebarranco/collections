@@ -192,10 +192,25 @@ export const baseMoviesMcu: BaseMovie[] = [
     director: 'Anthony Russo, Joe Russo',
     actors: [
       {
+        name: 'Robert Redford',
+      },
+      {
         name: 'Chris Evans',
       },
       {
         name: 'Scarlett Johansson',
+      },
+      {
+        name: 'Sebastian Stan',
+      },
+      {
+        name: 'Anthony Mackie',
+      },
+      {
+        name: 'Cobie Smulders',
+      },
+      {
+        name: 'Frank Grillo',
       },
     ],
     coverUrl: '/movies_pictures/captain_america_le_soldat_de_lhiver.jpg',
@@ -250,7 +265,22 @@ export const baseMoviesMcu: BaseMovie[] = [
         name: 'Anthony Mackie',
       },
       {
+        name: 'Danny Ramirez',
+      },
+      {
+        name: 'Tim Blake Nelson',
+      },
+      {
+        name: 'Shira Haas',
+      },
+      {
+        name: 'Carl Lumbly',
+      },
+      {
         name: 'Harrison Ford',
+      },
+      {
+        name: 'Liv Tyler',
       },
     ],
     coverUrl: '/movies_pictures/captain_america_brave_new_world.webp',
@@ -327,6 +357,24 @@ export const baseMoviesMcu: BaseMovie[] = [
       {
         name: 'Robert Downey Jr.',
       },
+      {
+        name: 'Gwyneth Paltrow',
+      },
+      {
+        name: 'Don Cheadle',
+      },
+      {
+        name: 'Guy Pearce',
+      },
+      {
+        name: 'Rebecca Hall',
+      },
+      {
+        name: 'Jon Favreau',
+      },
+      {
+        name: 'Ben Kingsley',
+      },
     ],
     coverUrl: '/movies_pictures/iron_man_3.jpg',
     releaseDate: '2013-05-03',
@@ -347,6 +395,21 @@ export const baseMoviesMcu: BaseMovie[] = [
       },
       {
         name: 'Liv Tyler',
+      },
+      {
+        name: 'Tim Roth',
+      },
+      {
+        name: 'William Hurt',
+      },
+      {
+        name: 'Tim Blake Nelson',
+      },
+      {
+        name: 'Ty Burrell',
+      },
+      {
+        name: 'Peter Mensah',
       },
     ],
     coverUrl: '/movies_pictures/50827-the-incredible-hulk-0-150-0-225-crop.jpg',
@@ -388,10 +451,25 @@ export const baseMoviesMcu: BaseMovie[] = [
     director: 'Alan Taylor',
     actors: [
       {
+        name: 'Kat Dennings',
+      },
+      {
         name: 'Chris Hemsworth',
       },
       {
         name: 'Natalie Portman',
+      },
+      {
+        name: 'Tom Hiddleston',
+      },
+      {
+        name: 'Stellan Skarsgård',
+      },
+      {
+        name: 'Idris Elba',
+      },
+      {
+        name: 'Christopher Eccleston',
       },
     ],
     coverUrl:
@@ -413,7 +491,22 @@ export const baseMoviesMcu: BaseMovie[] = [
         name: 'Chris Hemsworth',
       },
       {
+        name: 'Tom Hiddleston',
+      },
+      {
         name: 'Mark Ruffalo',
+      },
+      {
+        name: 'Cate Blanchett',
+      },
+      {
+        name: 'Tessa Thompson',
+      },
+      {
+        name: 'Jeff Goldblum',
+      },
+      {
+        name: 'Karl Urban',
       },
     ],
     coverUrl: '/movies_pictures/209382-thor-ragnarok-0-150-0-225-crop.jpg',
@@ -461,6 +554,21 @@ export const baseMoviesMcu: BaseMovie[] = [
       {
         name: 'Samuel L. Jackson',
       },
+      {
+        name: 'Jude Law',
+      },
+      {
+        name: 'Gemma Chan',
+      },
+      {
+        name: 'Clark Gregg',
+      },
+      {
+        name: 'Lee Pace',
+      },
+      {
+        name: 'Ben Mendelsohn',
+      },
     ],
     coverUrl: '/movies_pictures/226750-captain-marvel-0-150-0-225-crop.jpg',
     releaseDate: '2019-03-08',
@@ -497,6 +605,24 @@ export const baseMoviesMcu: BaseMovie[] = [
       {
         name: 'Simu Liu',
       },
+      {
+        name: 'Tony Leung Chiu-wai',
+      },
+      {
+        name: 'Awkwafina',
+      },
+      {
+        name: 'Fala Chen',
+      },
+      {
+        name: 'Florian Munteanu',
+      },
+      {
+        name: 'Q18164079',
+      },
+      {
+        name: 'Ben Kingsley',
+      },
     ],
     coverUrl:
       '/movies_pictures/494969-shang-chi-and-the-legend-of-the-ten-rings-0-150-0-225-crop.jpg',
@@ -512,7 +638,29 @@ export const baseMoviesMcu: BaseMovie[] = [
   {
     title: 'Doctor Strange',
     director: 'Scott Derrickson',
-    actors: [{ name: 'Benedict Cumberbatch' }],
+    actors: [
+      {
+        name: 'Benedict Cumberbatch',
+      },
+      {
+        name: 'Chiwetel Ejiofor',
+      },
+      {
+        name: 'Rachel McAdams',
+      },
+      {
+        name: 'Michael Stuhlbarg',
+      },
+      {
+        name: 'Mads Mikkelsen',
+      },
+      {
+        name: 'Tilda Swinton',
+      },
+      {
+        name: 'Amy Landecker',
+      },
+    ],
     coverUrl: '/movies_pictures/209381-doctor-strange-0-150-0-225-crop.jpg',
     releaseDate: '2016-11-04',
     length: 115,
@@ -837,6 +985,24 @@ export const baseMoviesMcu: BaseMovie[] = [
       {
         name: 'Scarlett Johansson',
       },
+      {
+        name: 'David Harbour',
+      },
+      {
+        name: 'Rachel Weisz',
+      },
+      {
+        name: 'O. T. Fagbenle',
+      },
+      {
+        name: 'Florence Pugh',
+      },
+      {
+        name: 'Ray Winstone',
+      },
+      {
+        name: 'William Hurt',
+      },
     ],
     coverUrl: '/movies_pictures/427807-black-widow-0-150-0-225-crop.jpg',
     releaseDate: '2021-07-09',
@@ -880,7 +1046,22 @@ export const baseMoviesMcu: BaseMovie[] = [
         name: 'Ryan Reynolds',
       },
       {
-        name: 'Hugh Jackman',
+        name: 'Q129591',
+      },
+      {
+        name: 'Morena Baccarin',
+      },
+      {
+        name: 'Jennifer Garner',
+      },
+      {
+        name: 'Peggy',
+      },
+      {
+        name: 'Matthew Macfadyen',
+      },
+      {
+        name: 'Emma Corrin',
       },
     ],
     coverUrl: '/movies_pictures/462870-deadpool-wolverine-0-150-0-225-crop.jpg',

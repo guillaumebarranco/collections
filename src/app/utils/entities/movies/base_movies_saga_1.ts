@@ -76,8 +76,25 @@ export const baseMoviesSagaPage1: BaseMovie[] = [
       {
         name: 'Daniel Radcliffe',
       },
-    ],
-    coverUrl: '/movies_pictures/harry_potter_prisonnier_askaban.jpg',
+      {
+        name: 'Rupert Grint',
+      },
+      {
+        name: 'Emma Watson',
+      },
+      {
+        name: 'Robbie Coltrane',
+      },
+      {
+        name: 'Michael Gambon',
+      },
+      {
+        name: 'Richard Griffiths',
+      },
+      {
+        name: 'Gary Oldman',
+      },
+    ],    coverUrl: '/movies_pictures/harry_potter_prisonnier_askaban.jpg',
     releaseDate: '2004-06-04',
     length: 142,
     genre: ['Fantastique'],
@@ -484,10 +501,27 @@ export const baseMoviesSagaPage1: BaseMovie[] = [
     director: 'Ron Howard',
     actors: [
       {
+        name: 'Emilia Clarke',
+      },
+      {
         name: 'Alden Ehrenreich',
       },
-    ],
-    coverUrl:
+      {
+        name: 'Donald Glover',
+      },
+      {
+        name: 'Woody Harrelson',
+      },
+      {
+        name: 'Joonas Suotamo',
+      },
+      {
+        name: 'Thandiwe Newton',
+      },
+      {
+        name: 'Paul Bettany',
+      },
+    ],    coverUrl:
       '/movies_pictures/278668-solo-a-star-wars-story-0-150-0-225-crop.jpg',
     releaseDate: '2018-05-25',
     length: 135,
@@ -518,10 +552,27 @@ export const baseMoviesSagaPage1: BaseMovie[] = [
     director: 'Rob Cohen',
     actors: [
       {
+        name: 'Paul Walker',
+      },
+      {
         name: 'Vin Diesel',
       },
-    ],
-    coverUrl:
+      {
+        name: 'Michelle Rodríguez',
+      },
+      {
+        name: 'Jordana Brewster',
+      },
+      {
+        name: 'Matt Schulze',
+      },
+      {
+        name: 'Thom Barry',
+      },
+      {
+        name: 'Johnny Strong',
+      },
+    ],    coverUrl:
       '/movies_pictures/46813-the-fast-and-the-furious-0-150-0-225-crop.jpg',
     releaseDate: '2001-06-22',
     length: 106,
@@ -535,8 +586,29 @@ export const baseMoviesSagaPage1: BaseMovie[] = [
   {
     title: '2 Fast 2 Furious',
     director: 'John Singleton',
-    actors: [{ name: 'Paul Walker' }],
-    coverUrl: '/movies_pictures/51536-2-fast-2-furious-0-150-0-225-crop.jpg',
+    actors: [
+      {
+        name: 'Paul Walker',
+      },
+      {
+        name: 'Tyrese Gibson',
+      },
+      {
+        name: 'Eva Mendes',
+      },
+      {
+        name: 'Cole Hauser',
+      },
+      {
+        name: 'Ludacris',
+      },
+      {
+        name: 'Thom Barry',
+      },
+      {
+        name: 'James Remar',
+      },
+    ],    coverUrl: '/movies_pictures/51536-2-fast-2-furious-0-150-0-225-crop.jpg',
     releaseDate: '2003-06-06',
     length: 107,
     genre: ['Action'],
@@ -564,8 +636,29 @@ export const baseMoviesSagaPage1: BaseMovie[] = [
   {
     title: 'Fast & Furious 4',
     director: 'Justin Lin',
-    actors: [{ name: 'Vin Diesel' }],
-    coverUrl: '/movies_pictures/43582-fast-furious-0-150-0-225-crop.jpg',
+    actors: [
+      {
+        name: 'Paul Walker',
+      },
+      {
+        name: 'Vin Diesel',
+      },
+      {
+        name: 'Michelle Rodríguez',
+      },
+      {
+        name: 'Jordana Brewster',
+      },
+      {
+        name: 'John Ortiz',
+      },
+      {
+        name: 'Laz Alonso',
+      },
+      {
+        name: 'Gal Gadot',
+      },
+    ],    coverUrl: '/movies_pictures/43582-fast-furious-0-150-0-225-crop.jpg',
     releaseDate: '2009-04-03',
     length: 107,
     genre: ['Action'],
@@ -578,8 +671,29 @@ export const baseMoviesSagaPage1: BaseMovie[] = [
   {
     title: 'Fast & Furious 5',
     director: 'Justin Lin',
-    actors: [{ name: 'Vin Diesel' }],
-    coverUrl: '/movies_pictures/fast_furious_cinq.jpg',
+    actors: [
+      {
+        name: 'Vin Diesel',
+      },
+      {
+        name: 'Paul Walker',
+      },
+      {
+        name: 'Dwayne Johnson',
+      },
+      {
+        name: 'Jordana Brewster',
+      },
+      {
+        name: 'Tyrese Gibson',
+      },
+      {
+        name: 'Sung Kang',
+      },
+      {
+        name: 'Gal Gadot',
+      },
+    ],    coverUrl: '/movies_pictures/fast_furious_cinq.jpg',
     releaseDate: '2011-04-29',
     length: 130,
     genre: ['Action'],
@@ -592,8 +706,29 @@ export const baseMoviesSagaPage1: BaseMovie[] = [
   {
     title: 'Fast & Furious 6',
     director: 'Justin Lin',
-    actors: [{ name: 'Vin Diesel' }],
-    coverUrl: '/movies_pictures/69453-fast-furious-6-0-150-0-225-crop.jpg',
+    actors: [
+      {
+        name: 'Paul Walker',
+      },
+      {
+        name: 'Dwayne Johnson',
+      },
+      {
+        name: 'Jordana Brewster',
+      },
+      {
+        name: 'Tyrese Gibson',
+      },
+      {
+        name: 'Michelle Rodríguez',
+      },
+      {
+        name: 'Sung Kang',
+      },
+      {
+        name: 'Ludacris',
+      },
+    ],    coverUrl: '/movies_pictures/69453-fast-furious-6-0-150-0-225-crop.jpg',
     releaseDate: '2013-05-24',
     length: 130,
     genre: ['Action'],
@@ -606,8 +741,29 @@ export const baseMoviesSagaPage1: BaseMovie[] = [
   {
     title: 'Fast & Furious 7',
     director: 'James Wan',
-    actors: [{ name: 'Vin Diesel' }, { name: 'Djimon Hounsou' }],
-    coverUrl: '/movies_pictures/124133-furious-7-0-150-0-225-crop.jpg',
+    actors: [
+      {
+        name: 'Paul Walker',
+      },
+      {
+        name: 'Dwayne Johnson',
+      },
+      {
+        name: 'Tyrese Gibson',
+      },
+      {
+        name: 'Jason Statham',
+      },
+      {
+        name: 'Tony Jaa',
+      },
+      {
+        name: 'Ronda Rousey',
+      },
+      {
+        name: 'Jordana Brewster',
+      },
+    ],    coverUrl: '/movies_pictures/124133-furious-7-0-150-0-225-crop.jpg',
     releaseDate: '2015-04-03',
     length: 137,
     genre: ['Action'],
@@ -624,8 +780,25 @@ export const baseMoviesSagaPage1: BaseMovie[] = [
       {
         name: 'Dwayne Johnson',
       },
-    ],
-    coverUrl:
+      {
+        name: 'Jason Statham',
+      },
+      {
+        name: 'Vanessa Kirby',
+      },
+      {
+        name: 'Idris Elba',
+      },
+      {
+        name: 'Roman Reigns',
+      },
+      {
+        name: 'Eiza González',
+      },
+      {
+        name: 'Eddie Marsan',
+      },
+    ],    coverUrl:
       '/movies_pictures/318913-fast-furious-presents-hobbs-shaw-0-150-0-225-crop.jpg',
     releaseDate: '2019-08-02',
     length: 137,
@@ -643,8 +816,25 @@ export const baseMoviesSagaPage1: BaseMovie[] = [
       {
         name: 'Vin Diesel',
       },
-    ],
-    coverUrl: '/movies_pictures/fast_and_furious_9.jpg',
+      {
+        name: 'Tyrese Gibson',
+      },
+      {
+        name: 'Michelle Rodríguez',
+      },
+      {
+        name: 'Ludacris',
+      },
+      {
+        name: 'Jordana Brewster',
+      },
+      {
+        name: 'John Cena',
+      },
+      {
+        name: 'Lucas Black',
+      },
+    ],    coverUrl: '/movies_pictures/fast_and_furious_9.jpg',
     releaseDate: '2021-06-25',
     length: 145,
     genre: ['Action'],
@@ -661,8 +851,25 @@ export const baseMoviesSagaPage1: BaseMovie[] = [
       {
         name: 'Vin Diesel',
       },
-    ],
-    coverUrl: '/movies_pictures/320481-fast-x-0-150-0-225-crop.jpg',
+      {
+        name: 'Michelle Rodríguez',
+      },
+      {
+        name: 'Tyrese Gibson',
+      },
+      {
+        name: 'Ludacris',
+      },
+      {
+        name: 'Jordana Brewster',
+      },
+      {
+        name: 'John Cena',
+      },
+      {
+        name: 'Nathalie Emmanuel',
+      },
+    ],    coverUrl: '/movies_pictures/320481-fast-x-0-150-0-225-crop.jpg',
     releaseDate: '2023-05-19',
     length: 141,
     genre: ['Action'],
@@ -675,8 +882,29 @@ export const baseMoviesSagaPage1: BaseMovie[] = [
   {
     title: 'Rocky',
     director: 'John G. Avildsen',
-    actors: [{ name: 'Sylvester Stallone' }],
-    coverUrl: '/movies_pictures/rocky.jpg',
+    actors: [
+      {
+        name: 'Talia Shire',
+      },
+      {
+        name: 'Carl Weathers',
+      },
+      {
+        name: 'Burt Young',
+      },
+      {
+        name: 'Burgess Meredith',
+      },
+      {
+        name: 'Sylvester Stallone',
+      },
+      {
+        name: 'Tony Burton',
+      },
+      {
+        name: 'Thayer David',
+      },
+    ],    coverUrl: '/movies_pictures/rocky.jpg',
     releaseDate: '1976-11-21',
     length: 120,
     genre: ['Drame'],
@@ -689,8 +917,29 @@ export const baseMoviesSagaPage1: BaseMovie[] = [
   {
     title: 'Rocky II',
     director: 'Sylvester Stallone',
-    actors: [{ name: 'Sylvester Stallone' }],
-    coverUrl: '/movies_pictures/51089-rocky-ii-0-150-0-225-crop.jpg',
+    actors: [
+      {
+        name: 'Talia Shire',
+      },
+      {
+        name: 'Burt Young',
+      },
+      {
+        name: 'Carl Weathers',
+      },
+      {
+        name: 'Burgess Meredith',
+      },
+      {
+        name: 'Tony Burton',
+      },
+      {
+        name: 'Sylvester Stallone',
+      },
+      {
+        name: 'Joe Spinell',
+      },
+    ],    coverUrl: '/movies_pictures/51089-rocky-ii-0-150-0-225-crop.jpg',
     releaseDate: '1979-06-15',
     length: 119,
     genre: ['Drame'],
@@ -703,8 +952,29 @@ export const baseMoviesSagaPage1: BaseMovie[] = [
   {
     title: 'Rocky III',
     director: 'Sylvester Stallone',
-    actors: [{ name: 'Sylvester Stallone' }],
-    coverUrl:
+    actors: [
+      {
+        name: 'Mister T.',
+      },
+      {
+        name: 'Carl Weathers',
+      },
+      {
+        name: 'Talia Shire',
+      },
+      {
+        name: 'Burt Young',
+      },
+      {
+        name: 'Burgess Meredith',
+      },
+      {
+        name: 'Tony Burton',
+      },
+      {
+        name: 'Hulk Hogan',
+      },
+    ],    coverUrl:
       '/movies_pictures/eX2RbfTV5figCysWEmC6ubmXIgm-0-150-0-225-crop.jpg',
     releaseDate: '1982-05-28',
     length: 99,
@@ -718,8 +988,29 @@ export const baseMoviesSagaPage1: BaseMovie[] = [
   {
     title: 'Rocky IV',
     director: 'Sylvester Stallone',
-    actors: [{ name: 'Sylvester Stallone' }],
-    coverUrl: '/movies_pictures/51082-rocky-iv-0-150-0-225-crop.jpg',
+    actors: [
+      {
+        name: 'Dolph Lundgren',
+      },
+      {
+        name: 'Burt Young',
+      },
+      {
+        name: 'Talia Shire',
+      },
+      {
+        name: 'Carl Weathers',
+      },
+      {
+        name: 'Tony Burton',
+      },
+      {
+        name: 'Brigitte Nielsen',
+      },
+      {
+        name: 'Michael Pataki',
+      },
+    ],    coverUrl: '/movies_pictures/51082-rocky-iv-0-150-0-225-crop.jpg',
     releaseDate: '1985-11-27',
     length: 91,
     genre: ['Drame'],
@@ -732,8 +1023,29 @@ export const baseMoviesSagaPage1: BaseMovie[] = [
   {
     title: 'Rocky V',
     director: 'John G. Avildsen',
-    actors: [{ name: 'Sylvester Stallone' }],
-    coverUrl: '/movies_pictures/51081-rocky-v-0-150-0-225-crop.jpg',
+    actors: [
+      {
+        name: 'Talia Shire',
+      },
+      {
+        name: 'Burt Young',
+      },
+      {
+        name: 'Sylvester Stallone',
+      },
+      {
+        name: 'Tommy Morrison',
+      },
+      {
+        name: 'Richard Gant',
+      },
+      {
+        name: 'Burgess Meredith',
+      },
+      {
+        name: 'Tony Burton',
+      },
+    ],    coverUrl: '/movies_pictures/51081-rocky-v-0-150-0-225-crop.jpg',
     releaseDate: '1990-11-16',
     length: 104,
     genre: ['Drame'],
@@ -746,8 +1058,29 @@ export const baseMoviesSagaPage1: BaseMovie[] = [
   {
     title: 'Rocky Balboa',
     director: 'Sylvester Stallone',
-    actors: [{ name: 'Sylvester Stallone' }],
-    coverUrl: '/movies_pictures/51134-rocky-balboa-0-150-0-225-crop.jpg',
+    actors: [
+      {
+        name: 'Burt Young',
+      },
+      {
+        name: 'Antonio Tarver',
+      },
+      {
+        name: 'Milo Ventimiglia',
+      },
+      {
+        name: 'Tony Burton',
+      },
+      {
+        name: 'Lou DiBella',
+      },
+      {
+        name: 'Sylvester Stallone',
+      },
+      {
+        name: 'Henry G. Sanders',
+      },
+    ],    coverUrl: '/movies_pictures/51134-rocky-balboa-0-150-0-225-crop.jpg',
     releaseDate: '2006-12-20',
     length: 102,
     genre: ['Drame'],
@@ -760,8 +1093,29 @@ export const baseMoviesSagaPage1: BaseMovie[] = [
   {
     title: 'The Terminator',
     director: 'James Cameron',
-    actors: [{ name: 'Arnold Schwarzenegger' }],
-    coverUrl: '/movies_pictures/the-terminator-original-0-150-0-225-crop.jpg',
+    actors: [
+      {
+        name: 'Arnold Schwarzenegger',
+      },
+      {
+        name: 'Michael Biehn',
+      },
+      {
+        name: 'Linda Hamilton',
+      },
+      {
+        name: 'Paul Winfield',
+      },
+      {
+        name: 'Earl Boen',
+      },
+      {
+        name: 'Lance Henriksen',
+      },
+      {
+        name: 'Rick Rossovich',
+      },
+    ],    coverUrl: '/movies_pictures/the-terminator-original-0-150-0-225-crop.jpg',
     releaseDate: '1984-10-26',
     length: 107,
     genre: ['Science Fiction'],
@@ -774,8 +1128,29 @@ export const baseMoviesSagaPage1: BaseMovie[] = [
   {
     title: 'Terminator 2: Judgment Day',
     director: 'James Cameron',
-    actors: [{ name: 'Arnold Schwarzenegger' }],
-    coverUrl:
+    actors: [
+      {
+        name: 'Arnold Schwarzenegger',
+      },
+      {
+        name: 'Edward Furlong',
+      },
+      {
+        name: 'Linda Hamilton',
+      },
+      {
+        name: 'Robert Patrick',
+      },
+      {
+        name: 'Earl Boen',
+      },
+      {
+        name: 'Joe Morton',
+      },
+      {
+        name: 'S. Epatha Merkerson',
+      },
+    ],    coverUrl:
       '/movies_pictures/terminator-2-judgment-day-original-0-150-0-225-crop.jpg',
     releaseDate: '1991-07-03',
     length: 137,
@@ -789,8 +1164,29 @@ export const baseMoviesSagaPage1: BaseMovie[] = [
   {
     title: 'Terminator 3: Rise of the Machines',
     director: 'Jonathan Mostow',
-    actors: [{ name: 'Arnold Schwarzenegger' }],
-    coverUrl:
+    actors: [
+      {
+        name: 'Arnold Schwarzenegger',
+      },
+      {
+        name: 'Nick Stahl',
+      },
+      {
+        name: 'Claire Danes',
+      },
+      {
+        name: 'Kristanna Loken',
+      },
+      {
+        name: 'Earl Boen',
+      },
+      {
+        name: 'Christopher Lawford',
+      },
+      {
+        name: 'Chris Hardwick',
+      },
+    ],    coverUrl:
       '/movies_pictures/51763-terminator-3-rise-of-the-machines-0-150-0-225-crop.jpg',
     releaseDate: '2003-07-02',
     length: 109,
@@ -804,8 +1200,29 @@ export const baseMoviesSagaPage1: BaseMovie[] = [
   {
     title: 'Terminator Renaissance',
     director: 'McG',
-    actors: [{ name: 'Christian Bale' }],
-    coverUrl:
+    actors: [
+      {
+        name: 'Christian Bale',
+      },
+      {
+        name: 'Sam Worthington',
+      },
+      {
+        name: 'Anton Yelchin',
+      },
+      {
+        name: 'Bryce Dallas Howard',
+      },
+      {
+        name: 'Moon Bloodgood',
+      },
+      {
+        name: 'Common',
+      },
+      {
+        name: 'Helena Bonham Carter',
+      },
+    ],    coverUrl:
       '/movies_pictures/51583-terminator-salvation-0-150-0-225-crop.jpg',
     releaseDate: '2009-05-21',
     length: 115,
@@ -819,8 +1236,29 @@ export const baseMoviesSagaPage1: BaseMovie[] = [
   {
     title: 'Terminator Genisys',
     director: 'Alan Taylor',
-    actors: [{ name: 'Arnold Schwarzenegger' }],
-    coverUrl: '/movies_pictures/73594-terminator-genisys-0-150-0-225-crop.jpg',
+    actors: [
+      {
+        name: 'Arnold Schwarzenegger',
+      },
+      {
+        name: 'Emilia Clarke',
+      },
+      {
+        name: 'Jason Clarke',
+      },
+      {
+        name: 'Jai Courtney',
+      },
+      {
+        name: 'Lee Byung-hun',
+      },
+      {
+        name: 'Matt Smith',
+      },
+      {
+        name: 'J. K. Simmons',
+      },
+    ],    coverUrl: '/movies_pictures/73594-terminator-genisys-0-150-0-225-crop.jpg',
     releaseDate: '2015-07-01',
     length: 126,
     genre: ['Action'],
@@ -835,13 +1273,27 @@ export const baseMoviesSagaPage1: BaseMovie[] = [
     director: 'Tim Miller',
     actors: [
       {
+        name: 'Arnold Schwarzenegger',
+      },
+      {
         name: 'Linda Hamilton',
       },
       {
-        name: 'Arnold Schwarzenegger',
+        name: 'Diego Boneta',
       },
-    ],
-    coverUrl:
+      {
+        name: 'Mackenzie Davis',
+      },
+      {
+        name: 'Natalia Reyes',
+      },
+      {
+        name: 'Gabriel Luna',
+      },
+      {
+        name: 'Tom Hopper',
+      },
+    ],    coverUrl:
       '/movies_pictures/217178-terminator-dark-fate-0-150-0-225-crop.jpg',
     releaseDate: '2019-11-01',
     length: 128,
@@ -855,8 +1307,29 @@ export const baseMoviesSagaPage1: BaseMovie[] = [
   {
     title: 'Scooby-Doo',
     director: 'Raja Gosnell',
-    actors: [{ name: 'Freddie Prinze Jr.' }],
-    coverUrl: '/movies_pictures/scooby-doo.jpg',
+    actors: [
+      {
+        name: 'Sarah Michelle Gellar',
+      },
+      {
+        name: 'Freddie Prinze Jr.',
+      },
+      {
+        name: 'Matthew Lillard',
+      },
+      {
+        name: 'Linda Cardellini',
+      },
+      {
+        name: 'Rowan Atkinson',
+      },
+      {
+        name: 'Isla Fisher',
+      },
+      {
+        name: 'Pamela Anderson',
+      },
+    ],    coverUrl: '/movies_pictures/scooby-doo.jpg',
     releaseDate: '2002-06-14',
     length: 86,
     genre: ['Comédie'],
@@ -869,8 +1342,29 @@ export const baseMoviesSagaPage1: BaseMovie[] = [
   {
     title: 'Scooby-Doo 2: Monsters Unleashed',
     director: 'Raja Gosnell',
-    actors: [{ name: 'Freddie Prinze Jr.' }],
-    coverUrl:
+    actors: [
+      {
+        name: 'Sarah Michelle Gellar',
+      },
+      {
+        name: 'Freddie Prinze Jr.',
+      },
+      {
+        name: 'Seth Green',
+      },
+      {
+        name: 'Matthew Lillard',
+      },
+      {
+        name: 'Linda Cardellini',
+      },
+      {
+        name: 'Alicia Silverstone',
+      },
+      {
+        name: 'Tim Blake Nelson',
+      },
+    ],    coverUrl:
       '/movies_pictures/45679-scooby-doo-2-monsters-unleashed-0-150-0-225-crop.jpg',
     releaseDate: '2004-03-26',
     length: 93,
@@ -884,8 +1378,29 @@ export const baseMoviesSagaPage1: BaseMovie[] = [
   {
     title: 'Matrix',
     director: 'Lana Wachowski, Lilly Wachowski',
-    actors: [{ name: 'Keanu Reeves' }],
-    coverUrl: '/movies_pictures/51518-the-matrix-0-150-0-225-crop.jpg',
+    actors: [
+      {
+        name: 'Laurence Fishburne',
+      },
+      {
+        name: 'Carrie-Anne Moss',
+      },
+      {
+        name: 'Joe Pantoliano',
+      },
+      {
+        name: 'Hugo Weaving',
+      },
+      {
+        name: 'Keanu Reeves',
+      },
+      {
+        name: 'Gloria Foster',
+      },
+      {
+        name: 'Julian Arahanga',
+      },
+    ],    coverUrl: '/movies_pictures/51518-the-matrix-0-150-0-225-crop.jpg',
     releaseDate: '1999-03-31',
     length: 136,
     genre: ['Science Fiction'],
@@ -898,8 +1413,29 @@ export const baseMoviesSagaPage1: BaseMovie[] = [
   {
     title: 'The Matrix Reloaded',
     director: 'Lana Wachowski, Lilly Wachowski',
-    actors: [{ name: 'Keanu Reeves' }],
-    coverUrl: '/movies_pictures/51517-the-matrix-reloaded-0-150-0-225-crop.jpg',
+    actors: [
+      {
+        name: 'Laurence Fishburne',
+      },
+      {
+        name: 'Carrie-Anne Moss',
+      },
+      {
+        name: 'Hugo Weaving',
+      },
+      {
+        name: 'Gloria Foster',
+      },
+      {
+        name: 'Lambert Wilson',
+      },
+      {
+        name: 'Monica Bellucci',
+      },
+      {
+        name: 'Daniel Bernhardt',
+      },
+    ],    coverUrl: '/movies_pictures/51517-the-matrix-reloaded-0-150-0-225-crop.jpg',
     releaseDate: '2003-05-15',
     length: 138,
     genre: ['Science Fiction'],
@@ -912,8 +1448,29 @@ export const baseMoviesSagaPage1: BaseMovie[] = [
   {
     title: 'The Matrix Revolutions',
     director: 'Lana Wachowski, Lilly Wachowski',
-    actors: [{ name: 'Keanu Reeves' }],
-    coverUrl:
+    actors: [
+      {
+        name: 'Laurence Fishburne',
+      },
+      {
+        name: 'Carrie-Anne Moss',
+      },
+      {
+        name: 'Hugo Weaving',
+      },
+      {
+        name: 'Lambert Wilson',
+      },
+      {
+        name: 'Monica Bellucci',
+      },
+      {
+        name: 'Nathaniel Lees',
+      },
+      {
+        name: 'Jada Pinkett Smith',
+      },
+    ],    coverUrl:
       '/movies_pictures/51516-the-matrix-revolutions-0-150-0-225-crop.jpg',
     releaseDate: '2003-11-05',
     length: 129,
@@ -951,8 +1508,29 @@ export const baseMoviesSagaPage1: BaseMovie[] = [
   {
     title: 'Spy Kids',
     director: 'Robert Rodriguez',
-    actors: [{ name: 'Alexa Vega' }],
-    coverUrl: '/movies_pictures/spy_kids.jpg',
+    actors: [
+      {
+        name: 'Antonio Banderas',
+      },
+      {
+        name: 'Carla Gugino',
+      },
+      {
+        name: 'Alexa Vega',
+      },
+      {
+        name: 'Daryl Sabara',
+      },
+      {
+        name: 'Alan Cumming',
+      },
+      {
+        name: 'Teri Hatcher',
+      },
+      {
+        name: 'Cheech Marin',
+      },
+    ],    coverUrl: '/movies_pictures/spy_kids.jpg',
     releaseDate: '2001-03-30',
     length: 88,
     genre: ['Aventure'],
@@ -989,8 +1567,29 @@ export const baseMoviesSagaPage1: BaseMovie[] = [
   {
     title: 'Spy Kids 3-D: Game Over',
     director: 'Robert Rodriguez',
-    actors: [{ name: 'Alexa Vega' }, { name: 'Sylvester Stallone' }],
-    coverUrl:
+    actors: [
+      {
+        name: 'Daryl Sabara',
+      },
+      {
+        name: 'Alexa Vega',
+      },
+      {
+        name: 'Ricardo Montalbán',
+      },
+      {
+        name: 'Sylvester Stallone',
+      },
+      {
+        name: 'Ryan Pinkston',
+      },
+      {
+        name: 'Robert Vito',
+      },
+      {
+        name: 'Bobby Edner',
+      },
+    ],    coverUrl:
       '/movies_pictures/44637-spy-kids-3-d-game-over-0-150-0-225-crop.jpg',
     releaseDate: '2003-07-25',
     length: 84,
@@ -1004,8 +1603,29 @@ export const baseMoviesSagaPage1: BaseMovie[] = [
   {
     title: 'Bad Boys',
     director: 'Michael Bay',
-    actors: [{ name: 'Will Smith' }],
-    coverUrl: '/movies_pictures/46870-bad-boys-0-150-0-225-crop.jpg',
+    actors: [
+      {
+        name: 'Martin Lawrence',
+      },
+      {
+        name: 'Will Smith',
+      },
+      {
+        name: 'Téa Leoni',
+      },
+      {
+        name: 'Tchéky Karyo',
+      },
+      {
+        name: 'Joe Pantoliano',
+      },
+      {
+        name: 'Theresa Randle',
+      },
+      {
+        name: 'Marg Helgenberger',
+      },
+    ],    coverUrl: '/movies_pictures/46870-bad-boys-0-150-0-225-crop.jpg',
     releaseDate: '1995-04-07',
     length: 119,
     genre: ['Action'],
@@ -1018,8 +1638,29 @@ export const baseMoviesSagaPage1: BaseMovie[] = [
   {
     title: 'Bad Boys II',
     director: 'Michael Bay',
-    actors: [{ name: 'Will Smith' }],
-    coverUrl: '/movies_pictures/47473-bad-boys-ii-0-150-0-225-crop.jpg',
+    actors: [
+      {
+        name: 'Martin Lawrence',
+      },
+      {
+        name: 'Will Smith',
+      },
+      {
+        name: 'Jordi Mollà',
+      },
+      {
+        name: 'Gabrielle Union',
+      },
+      {
+        name: 'Peter Stormare',
+      },
+      {
+        name: 'Theresa Randle',
+      },
+      {
+        name: 'Joe Pantoliano',
+      },
+    ],    coverUrl: '/movies_pictures/47473-bad-boys-ii-0-150-0-225-crop.jpg',
     releaseDate: '2003-07-18',
     length: 147,
     genre: ['Action'],
@@ -1080,8 +1721,29 @@ export const baseMoviesSagaPage1: BaseMovie[] = [
   {
     title: 'Men in Black',
     director: 'Barry Sonnenfeld',
-    actors: [{ name: 'Will Smith' }],
-    coverUrl: '/movies_pictures/51514-men-in-black-0-150-0-225-crop.jpg',
+    actors: [
+      {
+        name: 'Tommy Lee Jones',
+      },
+      {
+        name: 'Linda Fiorentino',
+      },
+      {
+        name: 'Vincent D\'Onofrio',
+      },
+      {
+        name: 'Rip Torn',
+      },
+      {
+        name: 'Tony Shalhoub',
+      },
+      {
+        name: 'Jon Gries',
+      },
+      {
+        name: 'Carel Struycken',
+      },
+    ],    coverUrl: '/movies_pictures/51514-men-in-black-0-150-0-225-crop.jpg',
     releaseDate: '1997-07-02',
     length: 98,
     genre: ['Action'],
@@ -1094,8 +1756,29 @@ export const baseMoviesSagaPage1: BaseMovie[] = [
   {
     title: 'Men in Black II',
     director: 'Barry Sonnenfeld',
-    actors: [{ name: 'Will Smith' }],
-    coverUrl: '/movies_pictures/51513-men-in-black-ii-0-150-0-225-crop.jpg',
+    actors: [
+      {
+        name: 'Will Smith',
+      },
+      {
+        name: 'Lara Flynn Boyle',
+      },
+      {
+        name: 'Johnny Knoxville',
+      },
+      {
+        name: 'Rosario Dawson',
+      },
+      {
+        name: 'Tony Shalhoub',
+      },
+      {
+        name: 'Rip Torn',
+      },
+      {
+        name: 'Patrick Warburton',
+      },
+    ],    coverUrl: '/movies_pictures/51513-men-in-black-ii-0-150-0-225-crop.jpg',
     releaseDate: '2002-07-03',
     length: 88,
     genre: ['Action'],
@@ -1108,8 +1791,29 @@ export const baseMoviesSagaPage1: BaseMovie[] = [
   {
     title: 'Men in Black 3',
     director: 'Barry Sonnenfeld',
-    actors: [{ name: 'Will Smith' }],
-    coverUrl: '/movies_pictures/men_in_black_3.jpg',
+    actors: [
+      {
+        name: 'Tommy Lee Jones',
+      },
+      {
+        name: 'Josh Brolin',
+      },
+      {
+        name: 'Jemaine Clement',
+      },
+      {
+        name: 'Michael Stuhlbarg',
+      },
+      {
+        name: 'Bill Hader',
+      },
+      {
+        name: 'David Rasche',
+      },
+      {
+        name: 'Emma Thompson',
+      },
+    ],    coverUrl: '/movies_pictures/men_in_black_3.jpg',
     releaseDate: '2012-05-25',
     length: 106,
     genre: ['Science Fiction'],
@@ -1126,8 +1830,25 @@ export const baseMoviesSagaPage1: BaseMovie[] = [
       {
         name: 'Angelina Jolie',
       },
-    ],
-    coverUrl:
+      {
+        name: 'Noah Taylor',
+      },
+      {
+        name: 'Chris Barrie',
+      },
+      {
+        name: 'Iain Glen',
+      },
+      {
+        name: 'Jon Voight',
+      },
+      {
+        name: 'Daniel Craig',
+      },
+      {
+        name: 'Richard Johnson',
+      },
+    ],    coverUrl:
       '/movies_pictures/50617-lara-croft-tomb-raider-0-150-0-225-crop.jpg',
     releaseDate: '2001-06-15',
     length: 100,
@@ -1163,8 +1884,29 @@ export const baseMoviesSagaPage1: BaseMovie[] = [
   {
     title: 'La Momie',
     director: 'Stephen Sommers',
-    actors: [{ name: 'Brendan Fraser' }, { name: 'Rachel Weisz' }],
-    coverUrl: '/movies_pictures/la_momie.jpg',
+    actors: [
+      {
+        name: 'Brendan Fraser',
+      },
+      {
+        name: 'Rachel Weisz',
+      },
+      {
+        name: 'John Hannah',
+      },
+      {
+        name: 'Arnold Vosloo',
+      },
+      {
+        name: 'Kevin J. O\'Connor',
+      },
+      {
+        name: 'Oded Fehr',
+      },
+      {
+        name: 'Jonathan Hyde',
+      },
+    ],    coverUrl: '/movies_pictures/la_momie.jpg',
     releaseDate: '1999-05-07',
     length: 125,
     genre: ['Aventure'],
@@ -1177,8 +1919,29 @@ export const baseMoviesSagaPage1: BaseMovie[] = [
   {
     title: 'Le Retour de la Momie',
     director: 'Stephen Sommers',
-    actors: [{ name: 'Brendan Fraser' }],
-    coverUrl: '/movies_pictures/50818-the-mummy-returns-0-150-0-225-crop.jpg',
+    actors: [
+      {
+        name: 'Brendan Fraser',
+      },
+      {
+        name: 'Arnold Vosloo',
+      },
+      {
+        name: 'Rachel Weisz',
+      },
+      {
+        name: 'John Hannah',
+      },
+      {
+        name: 'Oded Fehr',
+      },
+      {
+        name: 'Freddie Boath',
+      },
+      {
+        name: 'Alun Armstrong',
+      },
+    ],    coverUrl: '/movies_pictures/50818-the-mummy-returns-0-150-0-225-crop.jpg',
     releaseDate: '2001-05-04',
     length: 130,
     genre: ['Aventure'],
@@ -1191,8 +1954,29 @@ export const baseMoviesSagaPage1: BaseMovie[] = [
   {
     title: "La momie : la tombe de l'empereur dragon",
     director: 'Rob Cohen',
-    actors: [{ name: 'Brendan Fraser' }, { name: 'Jet Li' }],
-    coverUrl: '/movies_pictures/la_momie_la_tombe_de_l_empereur_dragon.jpg',
+    actors: [
+      {
+        name: 'Brendan Fraser',
+      },
+      {
+        name: 'Jet Li',
+      },
+      {
+        name: 'Maria Bello',
+      },
+      {
+        name: 'John Hannah',
+      },
+      {
+        name: 'Luke Ford',
+      },
+      {
+        name: 'Michelle Yeoh',
+      },
+      {
+        name: 'Isabella Leong',
+      },
+    ],    coverUrl: '/movies_pictures/la_momie_la_tombe_de_l_empereur_dragon.jpg',
     releaseDate: '2008-08-06',
     length: 112,
     genre: ['Aventure'],
@@ -1205,8 +1989,23 @@ export const baseMoviesSagaPage1: BaseMovie[] = [
   {
     title: "L'arme fatale",
     director: 'Richard Donner',
-    actors: [{ name: 'Mel Gibson' }, { name: 'Danny Glover' }],
-    coverUrl:
+    actors: [
+      {
+        name: 'Clayne Crawford',
+      },
+      {
+        name: 'Damon Wayans',
+      },
+      {
+        name: 'Jordana Brewster',
+      },
+      {
+        name: 'Kevin Rahm',
+      },
+      {
+        name: 'Keesha Sharp',
+      },
+    ],    coverUrl:
       '/movies_pictures/mF2bTqJuxbZPeEJRIMrA2WeQVxu-0-150-0-225-crop.jpg',
     releaseDate: '1987-03-06',
     length: 110,
@@ -1220,8 +2019,29 @@ export const baseMoviesSagaPage1: BaseMovie[] = [
   {
     title: "L'arme fatale 2",
     director: 'Richard Donner',
-    actors: [{ name: 'Mel Gibson' }, { name: 'Danny Glover' }],
-    coverUrl: '/movies_pictures/51211-lethal-weapon-2-0-150-0-225-crop.jpg',
+    actors: [
+      {
+        name: 'Mel Gibson',
+      },
+      {
+        name: 'Danny Glover',
+      },
+      {
+        name: 'Joe Pesci',
+      },
+      {
+        name: 'Joss Ackland',
+      },
+      {
+        name: 'Derrick O\'Connor',
+      },
+      {
+        name: 'Patsy Kensit',
+      },
+      {
+        name: 'Jenette Goldstein',
+      },
+    ],    coverUrl: '/movies_pictures/51211-lethal-weapon-2-0-150-0-225-crop.jpg',
     releaseDate: '1989-07-07',
     length: 114,
     genre: ['Action'],
@@ -1234,8 +2054,29 @@ export const baseMoviesSagaPage1: BaseMovie[] = [
   {
     title: "L'arme fatale 3",
     director: 'Richard Donner',
-    actors: [{ name: 'Mel Gibson' }, { name: 'Danny Glover' }],
-    coverUrl: '/movies_pictures/arme_fatale_3.jpg',
+    actors: [
+      {
+        name: 'Mel Gibson',
+      },
+      {
+        name: 'Danny Glover',
+      },
+      {
+        name: 'Joe Pesci',
+      },
+      {
+        name: 'Rene Russo',
+      },
+      {
+        name: 'Stuart Wilson',
+      },
+      {
+        name: 'Mary Ellen Trainor',
+      },
+      {
+        name: 'Mark Pellegrino',
+      },
+    ],    coverUrl: '/movies_pictures/arme_fatale_3.jpg',
     releaseDate: '1992-05-15',
     length: 118,
     genre: ['Action'],
@@ -1267,8 +2108,29 @@ export const baseMoviesSagaPage1: BaseMovie[] = [
   {
     title: 'Independence Day',
     director: 'Roland Emmerich',
-    actors: [{ name: 'Will Smith' }],
-    coverUrl:
+    actors: [
+      {
+        name: 'Will Smith',
+      },
+      {
+        name: 'Jeff Goldblum',
+      },
+      {
+        name: 'Mary McDonnell',
+      },
+      {
+        name: 'Vivica A. Fox',
+      },
+      {
+        name: 'Margaret Colin',
+      },
+      {
+        name: 'Harry Connick',
+      },
+      {
+        name: 'Bill Pullman',
+      },
+    ],    coverUrl:
       '/movies_pictures/bqLlWZJdhrS0knfEJRkquW7L8z2-0-150-0-225-crop.jpg',
     releaseDate: '1996-07-03',
     length: 145,
@@ -1297,8 +2159,29 @@ export const baseMoviesSagaPage1: BaseMovie[] = [
   {
     title: "Maman j'ai raté l'avion",
     director: 'Chris Columbus',
-    actors: [{ name: 'Macaulay Culkin' }],
-    coverUrl: '/movies_pictures/home_alone.jpg',
+    actors: [
+      {
+        name: 'Macaulay Culkin',
+      },
+      {
+        name: 'Joe Pesci',
+      },
+      {
+        name: 'Daniel Stern',
+      },
+      {
+        name: 'John Heard',
+      },
+      {
+        name: 'Catherine O\'Hara',
+      },
+      {
+        name: 'Roberts Blossom',
+      },
+      {
+        name: 'John Candy',
+      },
+    ],    coverUrl: '/movies_pictures/home_alone.jpg',
     releaseDate: '1990-11-16',
     length: 103,
     genre: ['Comédie'],
@@ -1325,8 +2208,29 @@ export const baseMoviesSagaPage1: BaseMovie[] = [
   {
     title: 'Retour vers le futur',
     director: 'Robert Zemeckis',
-    actors: [{ name: 'Michael J. Fox' }],
-    coverUrl: '/movies_pictures/51945-back-to-the-future-0-150-0-225-crop.jpg',
+    actors: [
+      {
+        name: 'Christopher Lloyd',
+      },
+      {
+        name: 'Lea Thompson',
+      },
+      {
+        name: 'Crispin Glover',
+      },
+      {
+        name: 'Michael J. Fox',
+      },
+      {
+        name: 'Thomas F. Wilson',
+      },
+      {
+        name: 'Marc McClure',
+      },
+      {
+        name: 'Wendie Jo Sperber',
+      },
+    ],    coverUrl: '/movies_pictures/51945-back-to-the-future-0-150-0-225-crop.jpg',
     releaseDate: '1985-07-03',
     length: 116,
     genre: ['Science Fiction'],
@@ -1339,8 +2243,29 @@ export const baseMoviesSagaPage1: BaseMovie[] = [
   {
     title: 'Retour vers le futur 2',
     director: 'Robert Zemeckis',
-    actors: [{ name: 'Michael J. Fox' }],
-    coverUrl:
+    actors: [
+      {
+        name: 'Michael J. Fox',
+      },
+      {
+        name: 'Christopher Lloyd',
+      },
+      {
+        name: 'Lea Thompson',
+      },
+      {
+        name: 'Thomas F. Wilson',
+      },
+      {
+        name: 'Elisabeth Shue',
+      },
+      {
+        name: 'James Tolkan',
+      },
+      {
+        name: 'Michael Balzary',
+      },
+    ],    coverUrl:
       '/movies_pictures/51886-back-to-the-future-part-ii-0-150-0-225-crop.jpg',
     releaseDate: '1989-11-22',
     length: 108,
@@ -1354,8 +2279,29 @@ export const baseMoviesSagaPage1: BaseMovie[] = [
   {
     title: 'Retour vers le futur 3',
     director: 'Robert Zemeckis',
-    actors: [{ name: 'Michael J. Fox' }],
-    coverUrl:
+    actors: [
+      {
+        name: 'Michael J. Fox',
+      },
+      {
+        name: 'Christopher Lloyd',
+      },
+      {
+        name: 'Mary Steenburgen',
+      },
+      {
+        name: 'Lea Thompson',
+      },
+      {
+        name: 'Thomas F. Wilson',
+      },
+      {
+        name: 'Elisabeth Shue',
+      },
+      {
+        name: 'James Tolkan',
+      },
+    ],    coverUrl:
       '/movies_pictures/51856-back-to-the-future-part-iii-0-150-0-225-crop.jpg',
     releaseDate: '1990-05-25',
     length: 118,
@@ -1383,8 +2329,29 @@ export const baseMoviesSagaPage1: BaseMovie[] = [
   {
     title: 'Rambo 2 : la mission',
     director: 'George P. Cosmatos',
-    actors: [{ name: 'Sylvester Stallone' }],
-    coverUrl:
+    actors: [
+      {
+        name: 'Sylvester Stallone',
+      },
+      {
+        name: 'Richard Crenna',
+      },
+      {
+        name: 'Charles Napier',
+      },
+      {
+        name: 'Steven Berkoff',
+      },
+      {
+        name: 'Julia Nickson-Soul',
+      },
+      {
+        name: 'Martin Kove',
+      },
+      {
+        name: 'George Cheung',
+      },
+    ],    coverUrl:
       '/movies_pictures/51087-rambo-first-blood-part-ii-0-150-0-225-crop.jpg',
     releaseDate: '1985-05-22',
     length: 96,
@@ -1398,8 +2365,29 @@ export const baseMoviesSagaPage1: BaseMovie[] = [
   {
     title: 'Rambo 3',
     director: 'Peter MacDonald',
-    actors: [{ name: 'Sylvester Stallone' }],
-    coverUrl: '/movies_pictures/51086-rambo-iii-0-150-0-225-crop.jpg',
+    actors: [
+      {
+        name: 'Sylvester Stallone',
+      },
+      {
+        name: 'Richard Crenna',
+      },
+      {
+        name: 'Marc de Jonge',
+      },
+      {
+        name: 'Sasson Gabai',
+      },
+      {
+        name: 'Kurtwood Smith',
+      },
+      {
+        name: 'Spýros Fokás',
+      },
+      {
+        name: 'Marcus Gilbert',
+      },
+    ],    coverUrl: '/movies_pictures/51086-rambo-iii-0-150-0-225-crop.jpg',
     releaseDate: '1988-05-25',
     length: 102,
     genre: ['Action'],
@@ -1412,8 +2400,29 @@ export const baseMoviesSagaPage1: BaseMovie[] = [
   {
     title: 'John Rambo',
     director: 'Sylvester Stallone',
-    actors: [{ name: 'Sylvester Stallone' }],
-    coverUrl: '/movies_pictures/47983-rambo-0-150-0-225-crop.jpg',
+    actors: [
+      {
+        name: 'Sylvester Stallone',
+      },
+      {
+        name: 'Julie Benz',
+      },
+      {
+        name: 'Matthew Marsden',
+      },
+      {
+        name: 'Graham McTavish',
+      },
+      {
+        name: 'Jake La Botz',
+      },
+      {
+        name: 'Tim Kang',
+      },
+      {
+        name: 'Paul Schulze',
+      },
+    ],    coverUrl: '/movies_pictures/47983-rambo-0-150-0-225-crop.jpg',
     releaseDate: '2008-01-25',
     length: 92,
     genre: ['Action'],
@@ -1426,8 +2435,29 @@ export const baseMoviesSagaPage1: BaseMovie[] = [
   {
     title: 'Le Parrain',
     director: 'Francis Ford Coppola',
-    actors: [{ name: 'Marlon Brando' }],
-    coverUrl: '/movies_pictures/51818-the-godfather-0-150-0-225-crop.jpg',
+    actors: [
+      {
+        name: 'Marlon Brando',
+      },
+      {
+        name: 'Al Pacino',
+      },
+      {
+        name: 'James Caan',
+      },
+      {
+        name: 'Richard S. Castellano',
+      },
+      {
+        name: 'Robert Duvall',
+      },
+      {
+        name: 'Sterling Hayden',
+      },
+      {
+        name: 'John Cazale',
+      },
+    ],    coverUrl: '/movies_pictures/51818-the-godfather-0-150-0-225-crop.jpg',
     releaseDate: '1972-03-24',
     length: 175,
     genre: ['Policier'],
@@ -1440,8 +2470,29 @@ export const baseMoviesSagaPage1: BaseMovie[] = [
   {
     title: 'Le Parrain 2',
     director: 'Francis Ford Coppola',
-    actors: [{ name: 'Al Pacino' }],
-    coverUrl:
+    actors: [
+      {
+        name: 'Al Pacino',
+      },
+      {
+        name: 'Robert Duvall',
+      },
+      {
+        name: 'Diane Keaton',
+      },
+      {
+        name: 'Robert De Niro',
+      },
+      {
+        name: 'Talia Shire',
+      },
+      {
+        name: 'Morgana King',
+      },
+      {
+        name: 'John Cazale',
+      },
+    ],    coverUrl:
       '/movies_pictures/51816-the-godfather-part-ii-0-150-0-225-crop.jpg',
     releaseDate: '1974-12-20',
     length: 202,
@@ -1455,8 +2506,29 @@ export const baseMoviesSagaPage1: BaseMovie[] = [
   {
     title: 'Le Labyrinthe',
     director: 'Wes Ball',
-    actors: [{ name: "Dylan O'Brien" }],
-    coverUrl: '/movies_pictures/142549-the-maze-runner-0-150-0-225-crop.jpg',
+    actors: [
+      {
+        name: 'Dylan O\'Brien',
+      },
+      {
+        name: 'Thomas Sangster',
+      },
+      {
+        name: 'Kaya Scodelario',
+      },
+      {
+        name: 'Will Poulter',
+      },
+      {
+        name: 'Aml Ameen',
+      },
+      {
+        name: 'Patricia Clarkson',
+      },
+      {
+        name: 'Jacob Latimore',
+      },
+    ],    coverUrl: '/movies_pictures/142549-the-maze-runner-0-150-0-225-crop.jpg',
     releaseDate: '2014-09-19',
     length: 113,
     genre: ['Action'],
@@ -1490,10 +2562,27 @@ export const baseMoviesSagaPage1: BaseMovie[] = [
     director: 'Gary Ross',
     actors: [
       {
-        name: 'Jennifer Lawrence',
+        name: 'Josh Hutcherson',
       },
-    ],
-    coverUrl: '/movies_pictures/hunger_games_1.jpg',
+      {
+        name: 'Liam Hemsworth',
+      },
+      {
+        name: 'Woody Harrelson',
+      },
+      {
+        name: 'Lenny Kravitz',
+      },
+      {
+        name: 'Stanley Tucci',
+      },
+      {
+        name: 'Willow Shields',
+      },
+      {
+        name: 'Isabelle Fuhrman',
+      },
+    ],    coverUrl: '/movies_pictures/hunger_games_1.jpg',
     releaseDate: '2012-03-23',
     length: 142,
     genre: ['Action'],
@@ -1624,8 +2713,29 @@ export const baseMoviesSagaPage1: BaseMovie[] = [
   {
     title: 'Transformers',
     director: 'Michael Bay',
-    actors: [{ name: 'Shia LaBeouf' }],
-    coverUrl: '/movies_pictures/transformers-0-150-0-225-crop.jpg',
+    actors: [
+      {
+        name: 'Shia LaBeouf',
+      },
+      {
+        name: 'Tyrese Gibson',
+      },
+      {
+        name: 'Josh Duhamel',
+      },
+      {
+        name: 'Anthony Anderson',
+      },
+      {
+        name: 'Megan Fox',
+      },
+      {
+        name: 'Rachael Taylor',
+      },
+      {
+        name: 'John Turturro',
+      },
+    ],    coverUrl: '/movies_pictures/transformers-0-150-0-225-crop.jpg',
     releaseDate: '2007-07-03',
     length: 144,
     genre: ['Action'],
@@ -1789,8 +2899,29 @@ export const baseMoviesSagaPage1: BaseMovie[] = [
   {
     title: 'RED 2',
     director: 'Dean Parisot',
-    actors: [{ name: 'Bruce Willis' }],
-    coverUrl: '/movies_pictures/110736-red-2-0-150-0-225-crop.jpg',
+    actors: [
+      {
+        name: 'Bruce Willis',
+      },
+      {
+        name: 'John Malkovich',
+      },
+      {
+        name: 'Mary-Louise Parker',
+      },
+      {
+        name: 'Catherine Zeta-Jones',
+      },
+      {
+        name: 'Helen Mirren',
+      },
+      {
+        name: 'Anthony Hopkins',
+      },
+      {
+        name: 'Lee Byung-hun',
+      },
+    ],    coverUrl: '/movies_pictures/110736-red-2-0-150-0-225-crop.jpg',
     releaseDate: '2013-07-19',
     length: 116,
     genre: ['Action'],
@@ -1803,8 +2934,29 @@ export const baseMoviesSagaPage1: BaseMovie[] = [
   {
     title: 'Very Bad Trip',
     director: 'Todd Phillips',
-    actors: [{ name: 'Bradley Cooper' }],
-    coverUrl: '/movies_pictures/40100-the-hangover-0-150-0-225-crop.jpg',
+    actors: [
+      {
+        name: 'Bradley Cooper',
+      },
+      {
+        name: 'Ed Helms',
+      },
+      {
+        name: 'Zach Galifianakis',
+      },
+      {
+        name: 'Heather Graham',
+      },
+      {
+        name: 'Justin Bartha',
+      },
+      {
+        name: 'Jeffrey Tambor',
+      },
+      {
+        name: 'Sasha Barrese',
+      },
+    ],    coverUrl: '/movies_pictures/40100-the-hangover-0-150-0-225-crop.jpg',
     releaseDate: '2009-06-05',
     length: 100,
     genre: ['Comédie'],
@@ -1817,8 +2969,29 @@ export const baseMoviesSagaPage1: BaseMovie[] = [
   {
     title: 'Very Bad Trip 2',
     director: 'Todd Phillips',
-    actors: [{ name: 'Bradley Cooper' }],
-    coverUrl: '/movies_pictures/very_bad_trip_2.jpg',
+    actors: [
+      {
+        name: 'Bradley Cooper',
+      },
+      {
+        name: 'Ed Helms',
+      },
+      {
+        name: 'Zach Galifianakis',
+      },
+      {
+        name: 'Ken Jeong',
+      },
+      {
+        name: 'Jeffrey Tambor',
+      },
+      {
+        name: 'Justin Bartha',
+      },
+      {
+        name: 'Paul Giamatti',
+      },
+    ],    coverUrl: '/movies_pictures/very_bad_trip_2.jpg',
     releaseDate: '2011-05-26',
     length: 102,
     genre: ['Comédie'],
@@ -1831,8 +3004,29 @@ export const baseMoviesSagaPage1: BaseMovie[] = [
   {
     title: 'Very Bad Trip 3',
     director: 'Todd Phillips',
-    actors: [{ name: 'Bradley Cooper' }],
-    coverUrl:
+    actors: [
+      {
+        name: 'Bradley Cooper',
+      },
+      {
+        name: 'Ed Helms',
+      },
+      {
+        name: 'Zach Galifianakis',
+      },
+      {
+        name: 'Justin Bartha',
+      },
+      {
+        name: 'Ken Jeong',
+      },
+      {
+        name: 'Heather Graham',
+      },
+      {
+        name: 'Jeffrey Tambor',
+      },
+    ],    coverUrl:
       '/movies_pictures/87953-the-hangover-part-iii-0-150-0-225-crop.jpg',
     releaseDate: '2013-05-23',
     length: 100,
@@ -1846,8 +3040,29 @@ export const baseMoviesSagaPage1: BaseMovie[] = [
   {
     title: 'Die Hard : Piège de cristal',
     director: 'John McTiernan',
-    actors: [{ name: 'Bruce Willis' }],
-    coverUrl: '/movies_pictures/51556-die-hard-0-150-0-225-crop.jpg',
+    actors: [
+      {
+        name: 'Bruce Willis',
+      },
+      {
+        name: 'Alexander Godunov',
+      },
+      {
+        name: 'Bonnie Bedelia',
+      },
+      {
+        name: 'Reginald VelJohnson',
+      },
+      {
+        name: 'William Atherton',
+      },
+      {
+        name: 'Paul Gleason',
+      },
+      {
+        name: 'Al Leong',
+      },
+    ],    coverUrl: '/movies_pictures/51556-die-hard-0-150-0-225-crop.jpg',
     releaseDate: '1988-07-15',
     length: 132,
     genre: ['Action'],
@@ -1874,8 +3089,29 @@ export const baseMoviesSagaPage1: BaseMovie[] = [
   {
     title: 'Die Hard 3 : une journée en enfer',
     director: 'John McTiernan',
-    actors: [{ name: 'Bruce Willis' }],
-    coverUrl:
+    actors: [
+      {
+        name: 'Bruce Willis',
+      },
+      {
+        name: 'Jeremy Irons',
+      },
+      {
+        name: 'Samuel L. Jackson',
+      },
+      {
+        name: 'Larry Bryggman',
+      },
+      {
+        name: 'Graham Greene',
+      },
+      {
+        name: 'Colleen Camp',
+      },
+      {
+        name: 'Charles Dumas',
+      },
+    ],    coverUrl:
       '/movies_pictures/50962-die-hard-with-a-vengeance-0-150-0-225-crop.jpg',
     releaseDate: '1995-05-19',
     length: 128,
@@ -1889,8 +3125,29 @@ export const baseMoviesSagaPage1: BaseMovie[] = [
   {
     title: 'Die Hard 4 : Retour en Enfer',
     director: 'Len Wiseman',
-    actors: [{ name: 'Bruce Willis' }, { name: 'Justin Long' }],
-    coverUrl:
+    actors: [
+      {
+        name: 'Bruce Willis',
+      },
+      {
+        name: 'Justin Long',
+      },
+      {
+        name: 'Timothy Olyphant',
+      },
+      {
+        name: 'Cliff Curtis',
+      },
+      {
+        name: 'Maggie Q',
+      },
+      {
+        name: 'Mary Elizabeth Winstead',
+      },
+      {
+        name: 'Kevin Smith',
+      },
+    ],    coverUrl:
       '/movies_pictures/50963-live-free-or-die-hard-0-150-0-225-crop.jpg',
     releaseDate: '2007-06-27',
     length: 128,
@@ -1904,8 +3161,29 @@ export const baseMoviesSagaPage1: BaseMovie[] = [
   {
     title: 'Die Hard : Belle Journée pour Mourir',
     director: 'John Moore',
-    actors: [{ name: 'Bruce Willis' }],
-    coverUrl: '/movies_pictures/die_hard_5.jpg',
+    actors: [
+      {
+        name: 'Bruce Willis',
+      },
+      {
+        name: 'Jai Courtney',
+      },
+      {
+        name: 'Sebastian Koch',
+      },
+      {
+        name: 'Ioulia Sniguir',
+      },
+      {
+        name: 'Cole Hauser',
+      },
+      {
+        name: 'Rasha Bukvic',
+      },
+      {
+        name: 'Amaury Nolasco',
+      },
+    ],    coverUrl: '/movies_pictures/die_hard_5.jpg',
     releaseDate: '2013-02-14',
     length: 98,
     genre: ['Action'],
