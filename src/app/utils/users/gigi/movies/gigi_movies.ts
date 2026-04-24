@@ -1838,7 +1838,7 @@ export const gigiMovies: UserMovie[] = [
   },
 
   {
-    title: 'Le Labyrinthe : La Terre Brûlée',
+    title: 'Le Labyrinthe 2 : La Terre Brûlée',
     director: 'Wes Ball',
     rating: 0,
     timesWatched: 1,

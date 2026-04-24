@@ -2,42 +2,6 @@ import { BaseMovie } from '../../../models/movie-model';
 
 export const baseMoviesPage4: BaseMovie[] = [
   {
-    title: 'Maléfique',
-    director: 'Robert Stromberg',
-    actors: [
-      {
-        name: 'Angelina Jolie',
-      },
-      {
-        name: 'Elle Fanning',
-      },
-      {
-        name: 'Sharlto Copley',
-      },
-      {
-        name: 'Juno Temple',
-      },
-      {
-        name: 'Sam Riley',
-      },
-      {
-        name: 'Miranda Richardson',
-      },
-      {
-        name: 'Imelda Staunton',
-      },
-    ],
-    coverUrl: '/movies_pictures/malefique.jpg',
-    releaseDate: '2014-05-30',
-    length: 97,
-    genre: ['Fantastique'],
-    saga: 'Disney Live Action',
-    description: '',
-    fromEntity: null,
-    countryOrigin: ['États-Unis'],
-    selectDisplayOrder: 0,
-  },
-  {
     title: 'Edge of Tomorrow',
     director: 'Doug Liman',
     actors: [
@@ -307,42 +271,7 @@ export const baseMoviesPage4: BaseMovie[] = [
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 30,
   },
-  {
-    title: 'Evasion',
-    director: 'Mikael Håfström',
-    actors: [
-      {
-        name: 'Sylvester Stallone',
-      },
-      {
-        name: 'Arnold Schwarzenegger',
-      },
-      {
-        name: 'Jim Caviezel',
-      },
-      {
-        name: 'Vincent D\'Onofrio',
-      },
-      {
-        name: 'Vinnie Jones',
-      },
-      {
-        name: '50 Cent',
-      },
-      {
-        name: 'Sam Neill',
-      },
-    ],
-    coverUrl: '/movies_pictures/86856-escape-plan-0-150-0-225-crop.jpg',
-    releaseDate: '2013-10-18',
-    length: 115,
-    genre: ['Action'],
-    saga: '',
-    description: '',
-    fromEntity: null,
-    countryOrigin: ['États-Unis'],
-    selectDisplayOrder: 0,
-  },
+
   {
     title: 'Pacific Rim',
     director: 'Guillermo del Toro',
@@ -1324,7 +1253,7 @@ export const baseMoviesPage4: BaseMovie[] = [
         name: 'Nancy Allen',
       },
       {
-        name: 'Dan O\'Herlihy',
+        name: "Dan O'Herlihy",
       },
       {
         name: 'Ronny Cox',
@@ -1360,7 +1289,7 @@ export const baseMoviesPage4: BaseMovie[] = [
         name: 'Nancy Allen',
       },
       {
-        name: 'Dan O\'Herlihy',
+        name: "Dan O'Herlihy",
       },
       {
         name: 'Belinda Bauer',
@@ -1473,7 +1402,7 @@ export const baseMoviesPage4: BaseMovie[] = [
         name: 'Gary Busey',
       },
       {
-        name: 'Patrick O\'Neal',
+        name: "Patrick O'Neal",
       },
       {
         name: 'Damian Chapa',
@@ -1779,7 +1708,7 @@ export const baseMoviesPage4: BaseMovie[] = [
         name: 'Tom Noonan',
       },
       {
-        name: 'Austin O\'Brien',
+        name: "Austin O'Brien",
       },
       {
         name: 'Art Carney',
@@ -1864,6 +1793,114 @@ export const baseMoviesPage4: BaseMovie[] = [
     coverUrl: '/movies_pictures/45066-the-visitors-0-150-0-225-crop.jpg',
     releaseDate: '1993-01-27',
     length: 107,
+    genre: ['Comédie'],
+    saga: 'Les Visiteurs',
+    description: '',
+    fromEntity: null,
+    countryOrigin: ['France'],
+    selectDisplayOrder: 30,
+  },
+  {
+    title: 'Les Visiteurs II : Les couloirs du temps',
+    director: 'Jean-Marie Poiré',
+    actors: [
+      {
+        name: 'Jean Reno',
+      },
+      {
+        name: 'Christian Clavier',
+      },
+      {
+        name: 'Muriel Robin',
+      },
+      {
+        name: 'Marie-Anne Chazel',
+      },
+      {
+        name: 'Jean-Luc Caron',
+      },
+      {
+        name: 'Patrick Chesnais',
+      },
+      {
+        name: 'Marianne Sagebrecht',
+      },
+    ],
+    coverUrl: '/movies_pictures/90f170480b09.jpg',
+    releaseDate: '1998-03-29',
+    length: 118,
+    genre: ['Comédie'],
+    saga: 'Les Visiteurs',
+    description: '',
+    fromEntity: null,
+    countryOrigin: ['France'],
+    selectDisplayOrder: 30,
+  },
+  {
+    title: 'Les Visiteurs en Amérique',
+    director: 'Jean-Marie Poiré',
+    actors: [
+      {
+        name: 'Jean Reno',
+      },
+      {
+        name: 'Christian Clavier',
+      },
+      {
+        name: 'Christina Applegate',
+      },
+      {
+        name: 'Tara Reid',
+      },
+      {
+        name: 'Malcolm McDowell',
+      },
+      {
+        name: 'Bridgette Wilson-Sampras',
+      },
+      {
+        name: 'Matt Ross',
+      },
+    ],
+    coverUrl: '/movies_pictures/a23ce3ea75a4.jpg',
+    releaseDate: '2001-04-11',
+    length: 88,
+    genre: ['Comédie'],
+    saga: 'Les Visiteurs',
+    description: '',
+    fromEntity: null,
+    countryOrigin: ['France', 'États-Unis'],
+    selectDisplayOrder: 30,
+  },
+  {
+    title: 'Les Visiteurs : La Révolution',
+    director: 'Jean-Marie Poiré',
+    actors: [
+      {
+        name: 'Jean Reno',
+      },
+      {
+        name: 'Christian Clavier',
+      },
+      {
+        name: 'Franck Dubosc',
+      },
+      {
+        name: 'Karin Viard',
+      },
+      {
+        name: 'Sylvie Testud',
+      },
+      {
+        name: 'Marie-Anne Chazel',
+      },
+      {
+        name: 'Alex Lutz',
+      },
+    ],
+    coverUrl: '/movies_pictures/49de8e641305.jpg',
+    releaseDate: '2016-04-06',
+    length: 110,
     genre: ['Comédie'],
     saga: 'Les Visiteurs',
     description: '',
@@ -3306,7 +3343,7 @@ export const baseMoviesPage4: BaseMovie[] = [
         name: 'Cheech Marin',
       },
       {
-        name: 'D\'Arcy Carden',
+        name: "D'Arcy Carden",
       },
     ],
     coverUrl: '/movies_pictures/5806477.jpg',
@@ -3435,7 +3472,7 @@ export const baseMoviesPage4: BaseMovie[] = [
         name: 'Delroy Lindo',
       },
       {
-        name: 'Jack O\'Connell',
+        name: "Jack O'Connell",
       },
       {
         name: 'Jayme Lawson',

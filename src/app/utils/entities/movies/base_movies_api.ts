@@ -47,7 +47,7 @@ export const baseMoviesApi: BaseMovie[] = [
     description: '',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
-    selectDisplayOrder: 0,
+    selectDisplayOrder: 5,
   },
   {
     title: 'Greenland - Le Dernier Refuge',
@@ -71,7 +71,7 @@ export const baseMoviesApi: BaseMovie[] = [
     description: '',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
-    selectDisplayOrder: 0,
+    selectDisplayOrder: 5,
   },
   {
     title: 'La Cité de Dieu',
@@ -98,7 +98,7 @@ export const baseMoviesApi: BaseMovie[] = [
     description: '',
     fromEntity: null,
     countryOrigin: ['Brésil'],
-    selectDisplayOrder: 0,
+    selectDisplayOrder: 5,
   },
   {
     title: 'Gourou',
@@ -134,7 +134,7 @@ export const baseMoviesApi: BaseMovie[] = [
     description: '',
     fromEntity: null,
     countryOrigin: ['France'],
-    selectDisplayOrder: 0,
+    selectDisplayOrder: 5,
   },
 
   {
@@ -159,7 +159,7 @@ export const baseMoviesApi: BaseMovie[] = [
     description: '',
     fromEntity: null,
     countryOrigin: ['France'],
-    selectDisplayOrder: 0,
+    selectDisplayOrder: 5,
   },
 
   {
@@ -196,7 +196,7 @@ export const baseMoviesApi: BaseMovie[] = [
     description: '',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
-    selectDisplayOrder: 0,
+    selectDisplayOrder: 5,
   },
   {
     title: "O'Brother",
@@ -220,7 +220,7 @@ export const baseMoviesApi: BaseMovie[] = [
     description: '',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
-    selectDisplayOrder: 0,
+    selectDisplayOrder: 5,
   },
   {
     title: 'Bugonia',
@@ -250,7 +250,7 @@ export const baseMoviesApi: BaseMovie[] = [
     description: '',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
-    selectDisplayOrder: 0,
+    selectDisplayOrder: 5,
   },
   {
     title: 'Marsupilami',
@@ -287,7 +287,7 @@ export const baseMoviesApi: BaseMovie[] = [
       secondEntityKey: 'André Franquin',
     },
     countryOrigin: ['France'],
-    selectDisplayOrder: 0,
+    selectDisplayOrder: 5,
   },
 
   {
@@ -312,7 +312,7 @@ export const baseMoviesApi: BaseMovie[] = [
     description: '',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
-    selectDisplayOrder: 0,
+    selectDisplayOrder: 5,
   },
   {
     title: "L'Auberge Espagnol",
@@ -336,7 +336,7 @@ export const baseMoviesApi: BaseMovie[] = [
     description: '',
     fromEntity: null,
     countryOrigin: ['France'],
-    selectDisplayOrder: 0,
+    selectDisplayOrder: 5,
   },
   {
     title: 'Hamnet',
@@ -376,7 +376,7 @@ export const baseMoviesApi: BaseMovie[] = [
       secondEntityKey: 'William Shakespeare',
     },
     countryOrigin: ['Royaume-Uni'],
-    selectDisplayOrder: 0,
+    selectDisplayOrder: 5,
   },
   {
     title: 'Hannah Montana - Le Film',
@@ -400,7 +400,7 @@ export const baseMoviesApi: BaseMovie[] = [
     description: '',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
-    selectDisplayOrder: 0,
+    selectDisplayOrder: 5,
   },
   {
     title: 'Les Poupées Russes',
@@ -427,7 +427,7 @@ export const baseMoviesApi: BaseMovie[] = [
     description: '',
     fromEntity: null,
     countryOrigin: ['France'],
-    selectDisplayOrder: 0,
+    selectDisplayOrder: 5,
   },
   {
     title: 'Le Coursier',
@@ -457,7 +457,7 @@ export const baseMoviesApi: BaseMovie[] = [
     description: '',
     fromEntity: null,
     countryOrigin: ['France'],
-    selectDisplayOrder: 0,
+    selectDisplayOrder: 5,
   },
   {
     title: 'Un prophète',
@@ -475,7 +475,7 @@ export const baseMoviesApi: BaseMovie[] = [
     description: '',
     fromEntity: null,
     countryOrigin: ['France'],
-    selectDisplayOrder: 0,
+    selectDisplayOrder: 5,
   },
   {
     title: 'Grave',
@@ -493,7 +493,7 @@ export const baseMoviesApi: BaseMovie[] = [
     description: '',
     fromEntity: null,
     countryOrigin: ['France'],
-    selectDisplayOrder: 0,
+    selectDisplayOrder: 5,
   },
   {
     title: 'Les Sous-doués',
@@ -512,7 +512,7 @@ export const baseMoviesApi: BaseMovie[] = [
     description: '',
     fromEntity: null,
     countryOrigin: ['France'],
-    selectDisplayOrder: 0,
+    selectDisplayOrder: 5,
   },
   {
     title: 'Case départ',
@@ -531,7 +531,7 @@ export const baseMoviesApi: BaseMovie[] = [
     description: '',
     fromEntity: null,
     countryOrigin: ['France'],
-    selectDisplayOrder: 0,
+    selectDisplayOrder: 5,
   },
   {
     title: 'Monty Python - Sacré Graal !',
@@ -613,7 +613,7 @@ export const baseMoviesApi: BaseMovie[] = [
     description: '',
     fromEntity: null,
     countryOrigin: ['Royaume-Uni'],
-    selectDisplayOrder: 0,
+    selectDisplayOrder: 5,
   },
 
   {
@@ -650,7 +650,7 @@ export const baseMoviesApi: BaseMovie[] = [
     description: '',
     fromEntity: null,
     countryOrigin: ['France'],
-    selectDisplayOrder: 0,
+    selectDisplayOrder: 5,
   },
 
   {
@@ -704,7 +704,7 @@ export const baseMoviesApi: BaseMovie[] = [
     description: '',
     fromEntity: null,
     countryOrigin: ['Royaume-Uni'],
-    selectDisplayOrder: 0,
+    selectDisplayOrder: 5,
   },
   {
     title: "Chérie, j'ai rétréci les gosses",
@@ -763,7 +763,7 @@ export const baseMoviesApi: BaseMovie[] = [
     description: '',
     fromEntity: null,
     countryOrigin: ['France'],
-    selectDisplayOrder: 0,
+    selectDisplayOrder: 5,
   },
 
   {
@@ -785,7 +785,7 @@ export const baseMoviesApi: BaseMovie[] = [
     description: '',
     fromEntity: null,
     countryOrigin: ['Japon'],
-    selectDisplayOrder: 0,
+    selectDisplayOrder: 5,
   },
 
   {
@@ -810,7 +810,7 @@ export const baseMoviesApi: BaseMovie[] = [
     description: '',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
-    selectDisplayOrder: 0,
+    selectDisplayOrder: 5,
   },
 
   {
@@ -835,7 +835,7 @@ export const baseMoviesApi: BaseMovie[] = [
     description: '',
     fromEntity: null,
     countryOrigin: ['France'],
-    selectDisplayOrder: 0,
+    selectDisplayOrder: 5,
   },
 
   {
@@ -869,7 +869,7 @@ export const baseMoviesApi: BaseMovie[] = [
     description: '',
     fromEntity: null,
     countryOrigin: ['Royaume-Uni'],
-    selectDisplayOrder: 0,
+    selectDisplayOrder: 5,
   },
 
   {
@@ -894,7 +894,7 @@ export const baseMoviesApi: BaseMovie[] = [
     description: '',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
-    selectDisplayOrder: 0,
+    selectDisplayOrder: 5,
   },
 
   {
@@ -925,7 +925,7 @@ export const baseMoviesApi: BaseMovie[] = [
     description: '',
     fromEntity: null,
     countryOrigin: ['France'],
-    selectDisplayOrder: 0,
+    selectDisplayOrder: 5,
   },
 
   {
@@ -950,7 +950,7 @@ export const baseMoviesApi: BaseMovie[] = [
     description: '',
     fromEntity: null,
     countryOrigin: ['France'],
-    selectDisplayOrder: 0,
+    selectDisplayOrder: 5,
   },
   {
     title: 'Trouble Jeu',
@@ -974,7 +974,7 @@ export const baseMoviesApi: BaseMovie[] = [
     description: '',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
-    selectDisplayOrder: 0,
+    selectDisplayOrder: 5,
   },
 
   {
@@ -1008,7 +1008,7 @@ export const baseMoviesApi: BaseMovie[] = [
     description: '',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
-    selectDisplayOrder: 0,
+    selectDisplayOrder: 5,
   },
 
   {
@@ -1065,7 +1065,7 @@ export const baseMoviesApi: BaseMovie[] = [
       secondEntityKey: 'David Foenkinos',
     },
     countryOrigin: ['France'],
-    selectDisplayOrder: 0,
+    selectDisplayOrder: 5,
   },
 
   {
@@ -1090,45 +1090,7 @@ export const baseMoviesApi: BaseMovie[] = [
     description: '',
     fromEntity: null,
     countryOrigin: ['France'],
-    selectDisplayOrder: 0,
-  },
-
-  {
-    title: 'Super Mario Galaxy, le film',
-    director: 'Michael Jelenic, Aaron Horvath',
-    actors: [
-      {
-        name: 'Chris Pratt',
-      },
-      {
-        name: 'Charlie Day',
-      },
-      {
-        name: 'Jack Black',
-      },
-      {
-        name: 'Brie Larson',
-      },
-      {
-        name: 'Ben Safdie',
-      },
-      {
-        name: 'Anya Taylor-Joy',
-      },
-    ],
-    coverUrl: '/movies_pictures/7b178034b345.jpg',
-    releaseDate: '2026-04-01',
-    length: 99,
-    genre: ['Comédie', 'Aventure', 'Jeunesse', 'Animation'],
-    saga: '',
-    description: '',
-    fromEntity: {
-      entityType: 'game',
-      title: 'Super Mario Galaxy',
-      secondEntityKey: 'Nintendo',
-    },
-    countryOrigin: ['États-Unis'],
-    selectDisplayOrder: 30,
+    selectDisplayOrder: 5,
   },
 
   {
@@ -1156,38 +1118,7 @@ export const baseMoviesApi: BaseMovie[] = [
     description: '',
     fromEntity: null,
     countryOrigin: ['France'],
-    selectDisplayOrder: 0,
-  },
-
-  {
-    title: 'Les Tuche 2 : Le Rêve américain',
-    director: 'Olivier Baroux',
-    actors: [
-      {
-        name: 'Jean-Paul Rouve',
-      },
-      {
-        name: 'Isabelle Nanty',
-      },
-      {
-        name: 'Pierre Lottin',
-      },
-      {
-        name: 'Théo Fernandez',
-      },
-      {
-        name: 'Sarah Stern',
-      },
-    ],
-    coverUrl: '/movies_pictures/3c34373f0323.jpg',
-    releaseDate: '2016-02-03',
-    length: 94,
-    genre: ['Comédie'],
-    saga: 'Les Tuches',
-    description: '',
-    fromEntity: null,
-    countryOrigin: ['France'],
-    selectDisplayOrder: 0,
+    selectDisplayOrder: 5,
   },
 
   {
@@ -1215,7 +1146,7 @@ export const baseMoviesApi: BaseMovie[] = [
     description: '',
     fromEntity: null,
     countryOrigin: ['France'],
-    selectDisplayOrder: 0,
+    selectDisplayOrder: 5,
   },
 
   {
@@ -1243,7 +1174,7 @@ export const baseMoviesApi: BaseMovie[] = [
     description: '',
     fromEntity: null,
     countryOrigin: ['France'],
-    selectDisplayOrder: 0,
+    selectDisplayOrder: 5,
   },
 
   {
@@ -1274,7 +1205,7 @@ export const baseMoviesApi: BaseMovie[] = [
     description: '',
     fromEntity: null,
     countryOrigin: ['France'],
-    selectDisplayOrder: 0,
+    selectDisplayOrder: 5,
   },
 
   {
@@ -1302,75 +1233,43 @@ export const baseMoviesApi: BaseMovie[] = [
     description: '',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
-    selectDisplayOrder: 0,
+    selectDisplayOrder: 5,
   },
 
   {
-    title: "Le Monde de Narnia : L'Odyssée du Passeur d'Aurore",
-    director: 'Michael Apted',
+    title: 'Juste une illusion',
+    director: 'Olivier Nakache, Éric Toledano',
     actors: [
       {
-        name: 'Georgie Henley',
+        name: 'Louis Garrel',
       },
       {
-        name: 'Skandar Keynes',
+        name: 'Camille Cottin',
       },
       {
-        name: 'Ben Barnes',
+        name: 'Pierre Lottin',
       },
       {
-        name: 'Will Poulter',
+        name: 'Alexis Rosenstiehl',
+      },
+      {
+        name: 'Simon Boublil',
       },
     ],
-    coverUrl: '/movies_pictures/8641aa40a943.jpg',
-    releaseDate: '2010-12-08',
-    length: 117,
-    genre: ['Fantastique', 'Aventure'],
-    saga: 'Le Monde de Narnia',
-    description: '',
-    fromEntity: {
-      entityType: 'book',
-      title: "Le Monde de Narnia (Tome 5) L'Odyssée du Passeur d'Aurore",
-      secondEntityKey: 'C. S. Lewis',
-    },
-    countryOrigin: ['États-Unis'],
-    selectDisplayOrder: 0,
-  },
-
-  {
-    title: "Juste une illusion",
-    director: "Olivier Nakache, Éric Toledano",
-    actors: [
-      {
-        name: "Louis Garrel",
-      },
-      {
-        name: "Camille Cottin",
-      },
-      {
-        name: "Pierre Lottin",
-      },
-      {
-        name: "Alexis Rosenstiehl",
-      },
-      {
-        name: "Simon Boublil",
-      },
-    ],
-    coverUrl: "/movies_pictures/9d931f14273c.jpg",
-    releaseDate: "2026-04-15",
+    coverUrl: '/movies_pictures/9d931f14273c.jpg',
+    releaseDate: '2026-04-15',
     length: 116,
     genre: ['Comédie'],
-    saga: "",
-    description: "",
+    saga: '',
+    description: '',
     fromEntity: null,
     countryOrigin: ['France'],
-    selectDisplayOrder: 0,
+    selectDisplayOrder: 5,
   },
 
   {
     title: "L'Épreuve du feu",
-    director: "Aurélien Peyre",
+    director: 'Aurélien Peyre',
     actors: [
       {
         name: 'Jenny Hasselquist',
@@ -1382,14 +1281,14 @@ export const baseMoviesApi: BaseMovie[] = [
         name: 'Tore Svennberg',
       },
     ],
-    coverUrl: "/movies_pictures/0c1397847db3.jpg",
-    releaseDate: "2025-08-13",
+    coverUrl: '/movies_pictures/0c1397847db3.jpg',
+    releaseDate: '2025-08-13',
     length: 105,
     genre: ['Romance', 'Jeunesse', 'Drame'],
-    saga: "",
-    description: "",
+    saga: '',
+    description: '',
     fromEntity: null,
     countryOrigin: ['France'],
-    selectDisplayOrder: 0,
+    selectDisplayOrder: 5,
   },
 ];

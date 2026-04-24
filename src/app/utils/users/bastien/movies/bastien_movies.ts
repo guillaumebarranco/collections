@@ -2612,7 +2612,7 @@ export const bastienMovies: UserMovies = [
     inList: [],
   },
   {
-    title: 'Monsters University',
+    title: 'Monstres Academy',
     director: 'Dan Scanlon',
     rating: 3,
     timesWatched: 1,

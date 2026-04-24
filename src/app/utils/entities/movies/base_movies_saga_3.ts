@@ -50,7 +50,8 @@ export const baseMoviesSagaPage3: BaseMovie[] = [
       {
         name: 'Roy Chiao',
       },
-    ],    coverUrl: '/movies_pictures/18931015.jpg',
+    ],
+    coverUrl: '/movies_pictures/18931015.jpg',
     releaseDate: '1984-05-23',
     length: 118,
     genre: ['Aventure', 'Action'],
@@ -85,7 +86,8 @@ export const baseMoviesSagaPage3: BaseMovie[] = [
       {
         name: 'Denholm Elliott',
       },
-    ],    coverUrl: '/movies_pictures/18895516.jpg',
+    ],
+    coverUrl: '/movies_pictures/18895516.jpg',
     releaseDate: '1989-05-24',
     length: 127,
     genre: ['Aventure', 'Action'],
@@ -175,7 +177,8 @@ export const baseMoviesSagaPage3: BaseMovie[] = [
       {
         name: 'Octavia Spencer',
       },
-    ],    coverUrl: '/movies_pictures/big_mamma.jpg',
+    ],
+    coverUrl: '/movies_pictures/big_mamma.jpg',
     releaseDate: '2000-06-02',
     length: 99,
     genre: ['Comédie'],
@@ -210,7 +213,8 @@ export const baseMoviesSagaPage3: BaseMovie[] = [
       {
         name: 'Kat Dennings',
       },
-    ],    coverUrl: '/movies_pictures/18475907.webp',
+    ],
+    coverUrl: '/movies_pictures/18475907.webp',
     releaseDate: '2006-01-27',
     length: 99,
     genre: ['Comédie'],
@@ -218,7 +222,7 @@ export const baseMoviesSagaPage3: BaseMovie[] = [
     description: '',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
-    selectDisplayOrder: 20,
+    selectDisplayOrder: 0,
   },
   {
     title: '28 jours plus tard',
@@ -245,7 +249,8 @@ export const baseMoviesSagaPage3: BaseMovie[] = [
       {
         name: 'David Schneider',
       },
-    ],    coverUrl: '/movies_pictures/28_jours_plus_tard.jpg',
+    ],
+    coverUrl: '/movies_pictures/28_jours_plus_tard.jpg',
     releaseDate: '2002-11-01',
     length: 113,
     genre: ['Horreur'],
@@ -280,7 +285,8 @@ export const baseMoviesSagaPage3: BaseMovie[] = [
       {
         name: 'Imogen Poots',
       },
-    ],    coverUrl: '/movies_pictures/18795535.jpg',
+    ],
+    coverUrl: '/movies_pictures/18795535.jpg',
     releaseDate: '2007-05-11',
     length: 99,
     genre: ['Horreur'],
@@ -367,7 +373,8 @@ export const baseMoviesSagaPage3: BaseMovie[] = [
       {
         name: 'Shemar Moore',
       },
-    ],    coverUrl: '/movies_pictures/sonic-2.jpg',
+    ],
+    coverUrl: '/movies_pictures/sonic-2.jpg',
     releaseDate: '2022-03-30',
     length: 122,
     genre: ['Aventure', 'Jeunesse'],
@@ -412,42 +419,7 @@ export const baseMoviesSagaPage3: BaseMovie[] = [
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 20,
   },
-  {
-    title: 'Sonic the Hedgehog: The Movie',
-    director: 'Kazunori Ikegami',
-    actors: [{ name: 'Junichi Kanemaru' }, { name: 'Kōji Tsujitani' }],
-    coverUrl: '/movies_pictures/85b2aa73393f.jpg',
-    releaseDate: '1999-05-07',
-    length: 57,
-    genre: ['Animation', 'Science Fiction'],
-    saga: 'Sonic',
-    description: '',
-    fromEntity: {
-      entityType: 'game',
-      title: 'Sonic the Hedgehog',
-      secondEntityKey: 'Sega',
-    },
-    countryOrigin: ['Japon', 'États-Unis'],
-    selectDisplayOrder: 20,
-  },
-  {
-    title: 'Sonic : Le Film de Noël',
-    director: 'Blair Peters',
-    actors: [{ name: 'Jaleel White' }],
-    coverUrl: '/movies_pictures/cec07c7bd441.jpg',
-    releaseDate: '1996-11-24',
-    length: 22,
-    genre: ['Animation', 'Jeunesse'],
-    saga: 'Sonic',
-    description: '',
-    fromEntity: {
-      entityType: 'game',
-      title: 'Sonic the Hedgehog',
-      secondEntityKey: 'Sega',
-    },
-    countryOrigin: ['États-Unis'],
-    selectDisplayOrder: 20,
-  },
+
   {
     title: "Le Seigneur des anneaux : La Communauté de l'anneau",
     director: 'Peter Jackson',
@@ -561,7 +533,7 @@ export const baseMoviesSagaPage3: BaseMovie[] = [
       secondEntityKey: 'J.R.R. Tolkien',
     },
     countryOrigin: ['Nouvelle-Zélande'],
-    selectDisplayOrder: 20,
+    selectDisplayOrder: 30,
   },
   {
     title: 'Le Seigneur des Anneaux - Les Deux Tours - Version Longue',
@@ -589,7 +561,7 @@ export const baseMoviesSagaPage3: BaseMovie[] = [
       secondEntityKey: 'J.R.R. Tolkien',
     },
     countryOrigin: ['Nouvelle-Zélande'],
-    selectDisplayOrder: 20,
+    selectDisplayOrder: 30,
   },
   {
     title: 'Le Seigneur des Anneaux - Le Retour du Roi - Version Longue',
@@ -617,7 +589,7 @@ export const baseMoviesSagaPage3: BaseMovie[] = [
       secondEntityKey: 'J.R.R. Tolkien',
     },
     countryOrigin: ['Nouvelle-Zélande'],
-    selectDisplayOrder: 20,
+    selectDisplayOrder: 30,
   },
   {
     title: 'Le Hobbit (1977)',
@@ -753,9 +725,10 @@ export const baseMoviesSagaPage3: BaseMovie[] = [
         name: 'Aidan Turner',
       },
       {
-        name: 'Dean O\'Gorman',
+        name: "Dean O'Gorman",
       },
-    ],    coverUrl: '/movies_pictures/20273834.webp',
+    ],
+    coverUrl: '/movies_pictures/20273834.webp',
     releaseDate: '2012-12-14',
     length: 169,
     genre: ['Fantastique', 'Aventure'],
@@ -940,6 +913,7 @@ export const baseMoviesSagaPage3: BaseMovie[] = [
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 20,
   },
+
   {
     title: 'Le Monde de Narnia : Le Prince Caspian',
     director: 'Andrew Adamson',
@@ -965,7 +939,8 @@ export const baseMoviesSagaPage3: BaseMovie[] = [
       {
         name: 'Peter Dinklage',
       },
-    ],    coverUrl: '/movies_pictures/18943276.jpg',
+    ],
+    coverUrl: '/movies_pictures/18943276.jpg',
     releaseDate: '2008-05-16',
     length: 150,
     genre: ['Fantastique', 'Aventure'],
@@ -974,6 +949,37 @@ export const baseMoviesSagaPage3: BaseMovie[] = [
     fromEntity: {
       entityType: 'book',
       title: 'Le Monde de Narnia (Tome 4) Le Prince Caspian',
+      secondEntityKey: 'C. S. Lewis',
+    },
+    countryOrigin: ['États-Unis'],
+    selectDisplayOrder: 20,
+  },
+  {
+    title: "Le Monde de Narnia : L'Odyssée du Passeur d'Aurore",
+    director: 'Michael Apted',
+    actors: [
+      {
+        name: 'Georgie Henley',
+      },
+      {
+        name: 'Skandar Keynes',
+      },
+      {
+        name: 'Ben Barnes',
+      },
+      {
+        name: 'Will Poulter',
+      },
+    ],
+    coverUrl: '/movies_pictures/8641aa40a943.jpg',
+    releaseDate: '2010-12-08',
+    length: 117,
+    genre: ['Fantastique', 'Aventure'],
+    saga: 'Le Monde de Narnia',
+    description: '',
+    fromEntity: {
+      entityType: 'book',
+      title: "Le Monde de Narnia (Tome 5) L'Odyssée du Passeur d'Aurore",
       secondEntityKey: 'C. S. Lewis',
     },
     countryOrigin: ['États-Unis'],
@@ -1100,6 +1106,114 @@ export const baseMoviesSagaPage3: BaseMovie[] = [
     selectDisplayOrder: 20,
   },
   {
+    title: 'Jurassic Park',
+    director: 'Steven Spielberg',
+    actors: [
+      {
+        name: 'Richard Attenborough',
+      },
+      {
+        name: 'Jeff Goldblum',
+      },
+      {
+        name: 'Samuel L. Jackson',
+      },
+      {
+        name: 'Sam Neill',
+      },
+      {
+        name: 'Laura Dern',
+      },
+      {
+        name: 'Ariana Richards',
+      },
+      {
+        name: 'Wayne Knight',
+      },
+    ],
+    coverUrl: '/movies_pictures/jurassic_park.jpg',
+    releaseDate: '1993-06-11',
+    length: 127,
+    genre: ['Aventure'],
+    saga: 'Jurassic',
+    description: '',
+    fromEntity: null,
+    countryOrigin: ['États-Unis'],
+    selectDisplayOrder: 20,
+  },
+  {
+    title: 'Le Monde perdu : Jurassic Park',
+    director: 'Steven Spielberg',
+    actors: [
+      {
+        name: 'Jeff Goldblum',
+      },
+      {
+        name: 'Julianne Moore',
+      },
+      {
+        name: 'Pete Postlethwaite',
+      },
+      {
+        name: 'Vince Vaughn',
+      },
+      {
+        name: 'Richard Schiff',
+      },
+      {
+        name: 'Peter Stormare',
+      },
+      {
+        name: 'Vanessa Lee Chester',
+      },
+    ],
+    coverUrl: '/movies_pictures/the_lost_world_jurassic_park.jpg',
+    releaseDate: '1997-10-22',
+    length: 129,
+    genre: ['Action'],
+    saga: 'Jurassic',
+    description: '',
+    fromEntity: null,
+    countryOrigin: ['États-Unis'],
+    selectDisplayOrder: 20,
+  },
+  {
+    title: 'Jurassic Park 3',
+    director: 'Joe Johnston',
+    actors: [
+      {
+        name: 'Sam Neill',
+      },
+      {
+        name: 'William H. Macy',
+      },
+      {
+        name: 'Téa Leoni',
+      },
+      {
+        name: 'Alessandro Nivola',
+      },
+      {
+        name: 'Trevor Morgan',
+      },
+      {
+        name: 'Michael Jeter',
+      },
+      {
+        name: 'Laura Dern',
+      },
+    ],
+    coverUrl: '/movies_pictures/Jurassic_Park_III_poster.jpg',
+    releaseDate: '2001-07-18',
+    length: 92,
+    genre: ['Aventure', 'Action'],
+    saga: 'Jurassic',
+    description: '',
+    fromEntity: null,
+    countryOrigin: ['États-Unis'],
+    selectDisplayOrder: 20,
+  },
+  {
     title: 'Jurassic World',
     director: 'Colin Trevorrow',
     actors: [
@@ -1113,7 +1227,7 @@ export const baseMoviesSagaPage3: BaseMovie[] = [
         name: 'Irfan Khan',
       },
       {
-        name: 'Vincent D\'Onofrio',
+        name: "Vincent D'Onofrio",
       },
       {
         name: 'Ty Simpkins',
@@ -1124,7 +1238,8 @@ export const baseMoviesSagaPage3: BaseMovie[] = [
       {
         name: 'Jake Johnson',
       },
-    ],    coverUrl: '/movies_pictures/422000.webp',
+    ],
+    coverUrl: '/movies_pictures/422000.webp',
     releaseDate: '2015-06-12',
     length: 124,
     genre: ['Action', 'Aventure'],
@@ -1159,7 +1274,8 @@ export const baseMoviesSagaPage3: BaseMovie[] = [
       {
         name: 'Toby Jones',
       },
-    ],    coverUrl: '/movies_pictures/Jurassic_World_Fallen_Kingdom.png',
+    ],
+    coverUrl: '/movies_pictures/Jurassic_World_Fallen_Kingdom.png',
     releaseDate: '2018-06-22',
     length: 128,
     genre: ['Action', 'Aventure'],
@@ -1386,7 +1502,8 @@ export const baseMoviesSagaPage3: BaseMovie[] = [
       {
         name: 'Micah Sloat',
       },
-    ],    coverUrl: '/movies_pictures/paranormal_activity.jpg',
+    ],
+    coverUrl: '/movies_pictures/paranormal_activity.jpg',
     releaseDate: '2007-10-14',
     length: 86,
     genre: ['Horreur'],
@@ -1578,7 +1695,8 @@ export const baseMoviesSagaPage3: BaseMovie[] = [
       {
         name: 'Kelsey Grammer',
       },
-    ],    coverUrl: '/movies_pictures/285929.webp',
+    ],
+    coverUrl: '/movies_pictures/285929.webp',
     releaseDate: '2014-08-15',
     length: 126,
     genre: ['Action'],
@@ -1613,7 +1731,8 @@ export const baseMoviesSagaPage3: BaseMovie[] = [
       {
         name: 'Tony Jaa',
       },
-    ],    coverUrl: '/movies_pictures/91OrZUqoMxL._AC_UF894,1000_QL80_.jpg',
+    ],
+    coverUrl: '/movies_pictures/91OrZUqoMxL._AC_UF894,1000_QL80_.jpg',
     releaseDate: '2023-09-22',
     length: 103,
     genre: ['Action'],
@@ -1623,76 +1742,7 @@ export const baseMoviesSagaPage3: BaseMovie[] = [
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 20,
   },
-  {
-    title: 'Jurassic Park',
-    director: 'Steven Spielberg',
-    actors: [
-      {
-        name: 'Richard Attenborough',
-      },
-      {
-        name: 'Jeff Goldblum',
-      },
-      {
-        name: 'Samuel L. Jackson',
-      },
-      {
-        name: 'Sam Neill',
-      },
-      {
-        name: 'Laura Dern',
-      },
-      {
-        name: 'Ariana Richards',
-      },
-      {
-        name: 'Wayne Knight',
-      },
-    ],    coverUrl: '/movies_pictures/jurassic_park.jpg',
-    releaseDate: '1993-06-11',
-    length: 127,
-    genre: ['Aventure'],
-    saga: 'Jurassic',
-    description: '',
-    fromEntity: null,
-    countryOrigin: ['États-Unis'],
-    selectDisplayOrder: 20,
-  },
-  {
-    title: 'Le Monde perdu : Jurassic Park',
-    director: 'Steven Spielberg',
-    actors: [
-      {
-        name: 'Jeff Goldblum',
-      },
-      {
-        name: 'Julianne Moore',
-      },
-      {
-        name: 'Pete Postlethwaite',
-      },
-      {
-        name: 'Vince Vaughn',
-      },
-      {
-        name: 'Richard Schiff',
-      },
-      {
-        name: 'Peter Stormare',
-      },
-      {
-        name: 'Vanessa Lee Chester',
-      },
-    ],    coverUrl: '/movies_pictures/the_lost_world_jurassic_park.jpg',
-    releaseDate: '1997-10-22',
-    length: 129,
-    genre: ['Action'],
-    saga: 'Jurassic',
-    description: '',
-    fromEntity: null,
-    countryOrigin: ['États-Unis'],
-    selectDisplayOrder: 20,
-  },
+
   {
     title: 'Mad Max',
     director: 'George Miller',
@@ -1718,7 +1768,8 @@ export const baseMoviesSagaPage3: BaseMovie[] = [
       {
         name: 'Paul Johnstone',
       },
-    ],    coverUrl: '/movies_pictures/18943123.webp',
+    ],
+    coverUrl: '/movies_pictures/18943123.webp',
     releaseDate: '1979-01-01',
     length: 88,
     genre: ['Action'],
@@ -1753,7 +1804,8 @@ export const baseMoviesSagaPage3: BaseMovie[] = [
       {
         name: 'Emil Minty',
       },
-    ],    coverUrl: '/movies_pictures/91qplWiUsQL._AC_UF894,1000_QL80_.jpg',
+    ],
+    coverUrl: '/movies_pictures/91qplWiUsQL._AC_UF894,1000_QL80_.jpg',
     releaseDate: '1981-01-01',
     length: 96,
     genre: ['Action'],
@@ -1788,7 +1840,8 @@ export const baseMoviesSagaPage3: BaseMovie[] = [
       {
         name: 'Rosie Huntington-Whiteley',
       },
-    ],    coverUrl: '/movies_pictures/furyroad.png',
+    ],
+    coverUrl: '/movies_pictures/furyroad.png',
     releaseDate: '2015-05-15',
     length: 120,
     genre: ['Action'],
@@ -1823,7 +1876,8 @@ export const baseMoviesSagaPage3: BaseMovie[] = [
       {
         name: 'Lachy Hulme',
       },
-    ],    coverUrl: '/movies_pictures/furiosa-une-saga-mad-max-afff.jpg',
+    ],
+    coverUrl: '/movies_pictures/furiosa-une-saga-mad-max-afff.jpg',
     releaseDate: '2024-05-24',
     length: 148,
     genre: ['Action'],
@@ -1858,7 +1912,8 @@ export const baseMoviesSagaPage3: BaseMovie[] = [
       {
         name: 'Leigh Whannell',
       },
-    ],    coverUrl: '/movies_pictures/saw.jpg',
+    ],
+    coverUrl: '/movies_pictures/saw.jpg',
     releaseDate: '2004-10-29',
     length: 103,
     genre: ['Horreur'],
@@ -2244,7 +2299,8 @@ export const baseMoviesSagaPage3: BaseMovie[] = [
       {
         name: 'Cary-Hiroyuki Tagawa',
       },
-    ],    coverUrl: '/movies_pictures/69214709_af.jpg',
+    ],
+    coverUrl: '/movies_pictures/69214709_af.jpg',
     releaseDate: '2001-07-27',
     length: 119,
     genre: ['Science Fiction', 'Aventure'],
@@ -2279,7 +2335,8 @@ export const baseMoviesSagaPage3: BaseMovie[] = [
       {
         name: 'Andy Serkis',
       },
-    ],    coverUrl: '/movies_pictures/rise_of_the_planet_of_the_apes.jpg',
+    ],
+    coverUrl: '/movies_pictures/rise_of_the_planet_of_the_apes.jpg',
     releaseDate: '2011-08-10',
     length: 105,
     genre: ['Science Fiction'],
@@ -2392,7 +2449,8 @@ export const baseMoviesSagaPage3: BaseMovie[] = [
       {
         name: 'Anthony Dawson',
       },
-    ],    coverUrl: '/movies_pictures/a7fbddeda92e.jpg',
+    ],
+    coverUrl: '/movies_pictures/a7fbddeda92e.jpg',
     releaseDate: '1962-10-05',
     length: 110,
     genre: ['Action', 'Aventure'],
@@ -2845,6 +2903,7 @@ export const baseMoviesSagaPage3: BaseMovie[] = [
     countryOrigin: ['Royaume-Uni', 'États-Unis'],
     selectDisplayOrder: 20,
   },
+
   {
     title: 'James Bond : Demain ne meurt jamais',
     director: 'Roger Spottiswoode',
@@ -2879,6 +2938,31 @@ export const baseMoviesSagaPage3: BaseMovie[] = [
       secondEntityKey: 'Ian Fleming',
     },
     countryOrigin: ['Royaume-Uni', 'États-Unis'],
+    selectDisplayOrder: 20,
+  },
+  {
+    title: 'James Bond: Meurs un autre jour',
+    director: 'Lee Tamahori',
+    actors: [
+      {
+        name: 'Pierce Brosnan',
+      },
+      {
+        name: 'Halle Berry',
+      },
+    ],
+    coverUrl: '/movies_pictures/james_bond_demain_ne_meurs_jamaiis.jpg',
+    releaseDate: '2002-11-22',
+    length: 133,
+    genre: ['Action'],
+    saga: 'James Bond',
+    description: '',
+    fromEntity: {
+      entityType: 'book',
+      title: 'Casino Royale',
+      secondEntityKey: 'Ian Fleming',
+    },
+    countryOrigin: ['États-Unis'],
     selectDisplayOrder: 20,
   },
 ];

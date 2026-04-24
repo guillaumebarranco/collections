@@ -2,8 +2,8 @@ import { UserMovie } from '../../../../models/movie-model';
 
 export const hikenMovies: UserMovie[] = [
   {
-    title: "I, Robot",
-    director: "Alex Proyas",
+    title: 'I, Robot',
+    director: 'Alex Proyas',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -19,8 +19,8 @@ export const hikenMovies: UserMovie[] = [
   },
 
   {
-    title: "Oppenheimer",
-    director: "Christopher Nolan",
+    title: 'Oppenheimer',
+    director: 'Christopher Nolan',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -36,8 +36,8 @@ export const hikenMovies: UserMovie[] = [
   },
 
   {
-    title: "Bullet Train",
-    director: "David Leitch",
+    title: 'Bullet Train',
+    director: 'David Leitch',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -53,8 +53,8 @@ export const hikenMovies: UserMovie[] = [
   },
 
   {
-    title: "Everything Everywhere All at Once",
-    director: "Daniel Kwan, Daniel Scheinert",
+    title: 'Everything Everywhere All at Once',
+    director: 'Daniel Kwan, Daniel Scheinert',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -71,7 +71,7 @@ export const hikenMovies: UserMovie[] = [
 
   {
     title: "Don't look up, déni cosmique",
-    director: "Adam McKay",
+    director: 'Adam McKay',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -87,8 +87,8 @@ export const hikenMovies: UserMovie[] = [
   },
 
   {
-    title: "Tanguy",
-    director: "Étienne Chatiliez",
+    title: 'Tanguy',
+    director: 'Étienne Chatiliez',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -104,8 +104,8 @@ export const hikenMovies: UserMovie[] = [
   },
 
   {
-    title: "Training Day",
-    director: "Antoine Fuqua",
+    title: 'Training Day',
+    director: 'Antoine Fuqua',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -121,8 +121,8 @@ export const hikenMovies: UserMovie[] = [
   },
 
   {
-    title: "Shaolin Soccer",
-    director: "Stephen Chow",
+    title: 'Shaolin Soccer',
+    director: 'Stephen Chow',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -138,8 +138,8 @@ export const hikenMovies: UserMovie[] = [
   },
 
   {
-    title: "Snatch",
-    director: "Guy Ritchie",
+    title: 'Snatch',
+    director: 'Guy Ritchie',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -155,8 +155,8 @@ export const hikenMovies: UserMovie[] = [
   },
 
   {
-    title: "Gladiator",
-    director: "Ridley Scott",
+    title: 'Gladiator',
+    director: 'Ridley Scott',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -172,8 +172,8 @@ export const hikenMovies: UserMovie[] = [
   },
 
   {
-    title: "Premier contact",
-    director: "Denis Villeneuve",
+    title: 'Premier contact',
+    director: 'Denis Villeneuve',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -189,8 +189,8 @@ export const hikenMovies: UserMovie[] = [
   },
 
   {
-    title: "Le silence des agneaux",
-    director: "Jonathan Demme",
+    title: 'Le silence des agneaux',
+    director: 'Jonathan Demme',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -206,8 +206,8 @@ export const hikenMovies: UserMovie[] = [
   },
 
   {
-    title: "DodgeBall: Même pas mal",
-    director: "Rawson Marshall Thurber",
+    title: 'DodgeBall: Même pas mal',
+    director: 'Rawson Marshall Thurber',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -223,8 +223,8 @@ export const hikenMovies: UserMovie[] = [
   },
 
   {
-    title: "The Day After Tomorrow",
-    director: "Roland Emmerich",
+    title: 'The Day After Tomorrow',
+    director: 'Roland Emmerich',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -240,8 +240,8 @@ export const hikenMovies: UserMovie[] = [
   },
 
   {
-    title: "EuroTrip",
-    director: "Jeff Schaffer",
+    title: 'EuroTrip',
+    director: 'Jeff Schaffer',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -257,8 +257,8 @@ export const hikenMovies: UserMovie[] = [
   },
 
   {
-    title: "Les 11 commandements",
-    director: "François Desagnat, Thomas Sorriaux",
+    title: 'Les 11 commandements',
+    director: 'François Desagnat, Thomas Sorriaux',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -274,8 +274,8 @@ export const hikenMovies: UserMovie[] = [
   },
 
   {
-    title: "Moi, Cesar, 10 ans et demi, 1m39",
-    director: "Richard Berry",
+    title: 'Moi, Cesar, 10 ans et demi, 1m39',
+    director: 'Richard Berry',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -291,8 +291,8 @@ export const hikenMovies: UserMovie[] = [
   },
 
   {
-    title: "Ong Bak",
-    director: "Prachya Pinkaew",
+    title: 'Ong Bak',
+    director: 'Prachya Pinkaew',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -308,8 +308,8 @@ export const hikenMovies: UserMovie[] = [
   },
 
   {
-    title: "Rasta Rockett",
-    director: "Jon Turteltaub",
+    title: 'Rasta Rockett',
+    director: 'Jon Turteltaub',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -325,8 +325,8 @@ export const hikenMovies: UserMovie[] = [
   },
 
   {
-    title: "Joker",
-    director: "Todd Phillips",
+    title: 'Joker',
+    director: 'Todd Phillips',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -342,8 +342,8 @@ export const hikenMovies: UserMovie[] = [
   },
 
   {
-    title: "Yamakasi",
-    director: "Julien Seri",
+    title: 'Yamakasi',
+    director: 'Julien Seri',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -359,8 +359,8 @@ export const hikenMovies: UserMovie[] = [
   },
 
   {
-    title: "Les Dents de la mer",
-    director: "Steven Spielberg",
+    title: 'Les Dents de la mer',
+    director: 'Steven Spielberg',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -376,8 +376,8 @@ export const hikenMovies: UserMovie[] = [
   },
 
   {
-    title: "E.T. the Extra-Terrestrial",
-    director: "Steven Spielberg",
+    title: 'E.T. the Extra-Terrestrial',
+    director: 'Steven Spielberg',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -393,8 +393,8 @@ export const hikenMovies: UserMovie[] = [
   },
 
   {
-    title: "Arrête-moi si tu peux",
-    director: "Steven Spielberg",
+    title: 'Arrête-moi si tu peux',
+    director: 'Steven Spielberg',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -410,8 +410,8 @@ export const hikenMovies: UserMovie[] = [
   },
 
   {
-    title: "Dommage Collateral",
-    director: "Andrew Davis",
+    title: 'Dommage Collateral',
+    director: 'Andrew Davis',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -427,8 +427,8 @@ export const hikenMovies: UserMovie[] = [
   },
 
   {
-    title: "Sixième Sens",
-    director: "M. Night Shyamalan",
+    title: 'Sixième Sens',
+    director: 'M. Night Shyamalan',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -444,8 +444,8 @@ export const hikenMovies: UserMovie[] = [
   },
 
   {
-    title: "Armageddon",
-    director: "Michael Bay",
+    title: 'Armageddon',
+    director: 'Michael Bay',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -461,8 +461,8 @@ export const hikenMovies: UserMovie[] = [
   },
 
   {
-    title: "Godzilla",
-    director: "Roland Emmerich",
+    title: 'Godzilla',
+    director: 'Roland Emmerich',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -478,8 +478,8 @@ export const hikenMovies: UserMovie[] = [
   },
 
   {
-    title: "La Ligne Verte",
-    director: "Frank Darabont",
+    title: 'La Ligne Verte',
+    director: 'Frank Darabont',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -495,8 +495,8 @@ export const hikenMovies: UserMovie[] = [
   },
 
   {
-    title: "300",
-    director: "Zack Snyder",
+    title: '300',
+    director: 'Zack Snyder',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -513,7 +513,7 @@ export const hikenMovies: UserMovie[] = [
 
   {
     title: "De l'autre côté du lit",
-    director: "Peyton Reed",
+    director: 'Peyton Reed',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -529,8 +529,8 @@ export const hikenMovies: UserMovie[] = [
   },
 
   {
-    title: "Da Vinci Code",
-    director: "Ron Howard",
+    title: 'Da Vinci Code',
+    director: 'Ron Howard',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -546,8 +546,8 @@ export const hikenMovies: UserMovie[] = [
   },
 
   {
-    title: "V pour Vendetta",
-    director: "James McTeigue",
+    title: 'V pour Vendetta',
+    director: 'James McTeigue',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -563,8 +563,8 @@ export const hikenMovies: UserMovie[] = [
   },
 
   {
-    title: "King Kong",
-    director: "Peter Jackson",
+    title: 'King Kong',
+    director: 'Peter Jackson',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -580,8 +580,8 @@ export const hikenMovies: UserMovie[] = [
   },
 
   {
-    title: "Nanny McPhee",
-    director: "Kirk Jones",
+    title: 'Nanny McPhee',
+    director: 'Kirk Jones',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -597,8 +597,8 @@ export const hikenMovies: UserMovie[] = [
   },
 
   {
-    title: "Lord of War",
-    director: "Andrew Niccol",
+    title: 'Lord of War',
+    director: 'Andrew Niccol',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -614,8 +614,8 @@ export const hikenMovies: UserMovie[] = [
   },
 
   {
-    title: "Serenity",
-    director: "Joss Whedon",
+    title: 'Serenity',
+    director: 'Joss Whedon',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -631,8 +631,8 @@ export const hikenMovies: UserMovie[] = [
   },
 
   {
-    title: "40 Ans, Toujours Puceau",
-    director: "Judd Apatow",
+    title: '40 Ans, Toujours Puceau',
+    director: 'Judd Apatow',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -648,8 +648,8 @@ export const hikenMovies: UserMovie[] = [
   },
 
   {
-    title: "Charlie et la Chocolaterie",
-    director: "Tim Burton",
+    title: 'Charlie et la Chocolaterie',
+    director: 'Tim Burton',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -665,8 +665,8 @@ export const hikenMovies: UserMovie[] = [
   },
 
   {
-    title: "Mr. & Mrs. Smith",
-    director: "Doug Liman",
+    title: 'Mr. & Mrs. Smith',
+    director: 'Doug Liman',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -682,8 +682,8 @@ export const hikenMovies: UserMovie[] = [
   },
 
   {
-    title: "The Mask",
-    director: "Chuck Russell",
+    title: 'The Mask',
+    director: 'Chuck Russell',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -699,8 +699,8 @@ export const hikenMovies: UserMovie[] = [
   },
 
   {
-    title: "True Lies",
-    director: "James Cameron",
+    title: 'True Lies',
+    director: 'James Cameron',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -716,8 +716,8 @@ export const hikenMovies: UserMovie[] = [
   },
 
   {
-    title: "Forrest Gump",
-    director: "Robert Zemeckis",
+    title: 'Forrest Gump',
+    director: 'Robert Zemeckis',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -733,8 +733,8 @@ export const hikenMovies: UserMovie[] = [
   },
 
   {
-    title: "Pulp Fiction",
-    director: "Quentin Tarantino",
+    title: 'Pulp Fiction',
+    director: 'Quentin Tarantino',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -750,8 +750,8 @@ export const hikenMovies: UserMovie[] = [
   },
 
   {
-    title: "La cité de la peur",
-    director: "Alain Berbérian",
+    title: 'La cité de la peur',
+    director: 'Alain Berbérian',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -767,8 +767,8 @@ export const hikenMovies: UserMovie[] = [
   },
 
   {
-    title: "Mrs. Doubtfire",
-    director: "Chris Columbus",
+    title: 'Mrs. Doubtfire',
+    director: 'Chris Columbus',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -784,8 +784,8 @@ export const hikenMovies: UserMovie[] = [
   },
 
   {
-    title: "Code mercury",
-    director: "Harold Becker",
+    title: 'Code mercury',
+    director: 'Harold Becker',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -801,8 +801,8 @@ export const hikenMovies: UserMovie[] = [
   },
 
   {
-    title: "Je Sais ce que Vous Avez Fait l'Été Dernier",
-    director: "Jim Gillespie",
+    title: 'Kingsman : Services Secrets',
+    director: 'Matthew Vaughn',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -818,25 +818,8 @@ export const hikenMovies: UserMovie[] = [
   },
 
   {
-    title: "Kingsman : Services Secrets",
-    director: "Matthew Vaughn",
-    rating: 0,
-    timesWatched: 1,
-    firstViewedDate: '',
-    lastViewedDate: '',
-    seenAtCinema: false,
-    owned: false,
-    wantToSeeAgain: false,
-    watchPriority: 1,
-    ratingComment: '',
-    inList: [],
-    borrowed: '',
-    loaned: '',
-  },
-
-  {
-    title: "Kingsman: The Golden Circle",
-    director: "Matthew Vaughn",
+    title: 'Kingsman: The Golden Circle',
+    director: 'Matthew Vaughn',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -853,7 +836,7 @@ export const hikenMovies: UserMovie[] = [
 
   {
     title: "The Hitman's Bodyguard",
-    director: "Patrick Hughes",
+    director: 'Patrick Hughes',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -869,8 +852,8 @@ export const hikenMovies: UserMovie[] = [
   },
 
   {
-    title: "Baby Driver",
-    director: "Edgar Wright",
+    title: 'Baby Driver',
+    director: 'Edgar Wright',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -887,7 +870,7 @@ export const hikenMovies: UserMovie[] = [
 
   {
     title: "Comment c'est loin",
-    director: "Orelsan",
+    director: 'Orelsan',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -903,8 +886,8 @@ export const hikenMovies: UserMovie[] = [
   },
 
   {
-    title: "Diversion",
-    director: "Glenn Ficarra, John Requa",
+    title: 'Diversion',
+    director: 'Glenn Ficarra, John Requa',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -920,8 +903,8 @@ export const hikenMovies: UserMovie[] = [
   },
 
   {
-    title: "Interstellar",
-    director: "Christopher Nolan",
+    title: 'Interstellar',
+    director: 'Christopher Nolan',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -937,8 +920,8 @@ export const hikenMovies: UserMovie[] = [
   },
 
   {
-    title: "Birdman",
-    director: "Alejandro G. Iñárritu",
+    title: 'Birdman',
+    director: 'Alejandro G. Iñárritu',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -954,8 +937,8 @@ export const hikenMovies: UserMovie[] = [
   },
 
   {
-    title: "Lucy",
-    director: "Luc Besson",
+    title: 'Lucy',
+    director: 'Luc Besson',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -971,8 +954,8 @@ export const hikenMovies: UserMovie[] = [
   },
 
   {
-    title: "Smoking",
-    director: "Kevin Donovan",
+    title: 'Smoking',
+    director: 'Kevin Donovan',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -988,8 +971,8 @@ export const hikenMovies: UserMovie[] = [
   },
 
   {
-    title: "Brice de Nice",
-    director: "James Huth",
+    title: 'Brice de Nice',
+    director: 'James Huth',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -1005,8 +988,8 @@ export const hikenMovies: UserMovie[] = [
   },
 
   {
-    title: "La ligue des gentlemen extraordinaires",
-    director: "Stephen Norrington",
+    title: 'La ligue des gentlemen extraordinaires',
+    director: 'Stephen Norrington',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -1022,8 +1005,8 @@ export const hikenMovies: UserMovie[] = [
   },
 
   {
-    title: "La tour Montparnasse infernale",
-    director: "Charles Nemes",
+    title: 'La tour Montparnasse infernale',
+    director: 'Charles Nemes',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -1039,8 +1022,8 @@ export const hikenMovies: UserMovie[] = [
   },
 
   {
-    title: "Dirty Dancing",
-    director: "Emile Ardolino",
+    title: 'Dirty Dancing',
+    director: 'Emile Ardolino',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -1056,8 +1039,8 @@ export const hikenMovies: UserMovie[] = [
   },
 
   {
-    title: "Le flic de Beverly Hills",
-    director: "Martin Brest",
+    title: 'Le flic de Beverly Hills',
+    director: 'Martin Brest',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -1073,8 +1056,8 @@ export const hikenMovies: UserMovie[] = [
   },
 
   {
-    title: "Karate Kid",
-    director: "John G. Avildsen",
+    title: 'Karate Kid',
+    director: 'John G. Avildsen',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -1090,8 +1073,8 @@ export const hikenMovies: UserMovie[] = [
   },
 
   {
-    title: "Prédictions",
-    director: "Alex Proyas",
+    title: 'Prédictions',
+    director: 'Alex Proyas',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -1107,8 +1090,8 @@ export const hikenMovies: UserMovie[] = [
   },
 
   {
-    title: "Gran Torino",
-    director: "Clint Eastwood",
+    title: 'Gran Torino',
+    director: 'Clint Eastwood',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -1124,8 +1107,8 @@ export const hikenMovies: UserMovie[] = [
   },
 
   {
-    title: "Ong Bak 2",
-    director: "Tony Jaa",
+    title: 'Ong Bak 2',
+    director: 'Tony Jaa',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -1141,8 +1124,8 @@ export const hikenMovies: UserMovie[] = [
   },
 
   {
-    title: "Wanted : Choisis ton Destin",
-    director: "Timur Bekmambetov",
+    title: 'Wanted : Choisis ton Destin',
+    director: 'Timur Bekmambetov',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -1158,8 +1141,8 @@ export const hikenMovies: UserMovie[] = [
   },
 
   {
-    title: "Jumper",
-    director: "Doug Liman",
+    title: 'Jumper',
+    director: 'Doug Liman',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -1175,8 +1158,8 @@ export const hikenMovies: UserMovie[] = [
   },
 
   {
-    title: "Je Suis une Légende",
-    director: "Francis Lawrence",
+    title: 'Je Suis une Légende',
+    director: 'Francis Lawrence',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -1192,8 +1175,8 @@ export const hikenMovies: UserMovie[] = [
   },
 
   {
-    title: "Jumanji",
-    director: "Joe Johnston",
+    title: 'Jumanji',
+    director: 'Joe Johnston',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -1209,8 +1192,8 @@ export const hikenMovies: UserMovie[] = [
   },
 
   {
-    title: "Seven",
-    director: "David Fincher",
+    title: 'Seven',
+    director: 'David Fincher',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -1226,8 +1209,8 @@ export const hikenMovies: UserMovie[] = [
   },
 
   {
-    title: "Un indien dans la ville",
-    director: "Hervé Palud",
+    title: 'Un indien dans la ville',
+    director: 'Hervé Palud',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -1243,8 +1226,8 @@ export const hikenMovies: UserMovie[] = [
   },
 
   {
-    title: "Inception",
-    director: "Christopher Nolan",
+    title: 'Inception',
+    director: 'Christopher Nolan',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -1260,8 +1243,8 @@ export const hikenMovies: UserMovie[] = [
   },
 
   {
-    title: "Fatal",
-    director: "Michaël Youn",
+    title: 'Fatal',
+    director: 'Michaël Youn',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -1277,8 +1260,8 @@ export const hikenMovies: UserMovie[] = [
   },
 
   {
-    title: "Le Choc des Titans",
-    director: "Louis Leterrier",
+    title: 'Le Choc des Titans',
+    director: 'Louis Leterrier',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -1294,8 +1277,8 @@ export const hikenMovies: UserMovie[] = [
   },
 
   {
-    title: "Alice au Pays des Merveilles",
-    director: "Tim Burton",
+    title: 'Alice au Pays des Merveilles',
+    director: 'Tim Burton',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -1311,8 +1294,8 @@ export const hikenMovies: UserMovie[] = [
   },
 
   {
-    title: "Shutter Island",
-    director: "Martin Scorsese",
+    title: 'Shutter Island',
+    director: 'Martin Scorsese',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -1328,8 +1311,8 @@ export const hikenMovies: UserMovie[] = [
   },
 
   {
-    title: "Percy Jackson : Le Voleur de Foudre",
-    director: "Chris Columbus",
+    title: 'Percy Jackson : Le Voleur de Foudre',
+    director: 'Chris Columbus',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -1345,8 +1328,8 @@ export const hikenMovies: UserMovie[] = [
   },
 
   {
-    title: "2012",
-    director: "Roland Emmerich",
+    title: '2012',
+    director: 'Roland Emmerich',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -1362,8 +1345,8 @@ export const hikenMovies: UserMovie[] = [
   },
 
   {
-    title: "Zombieland",
-    director: "Ruben Fleischer",
+    title: 'Zombieland',
+    director: 'Ruben Fleischer',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -1379,8 +1362,8 @@ export const hikenMovies: UserMovie[] = [
   },
 
   {
-    title: "La Vie Rêvée de Walter Mitty",
-    director: "Ben Stiller",
+    title: 'La Vie Rêvée de Walter Mitty',
+    director: 'Ben Stiller',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -1396,8 +1379,8 @@ export const hikenMovies: UserMovie[] = [
   },
 
   {
-    title: "Gravity",
-    director: "Alfonso Cuarón",
+    title: 'Gravity',
+    director: 'Alfonso Cuarón',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -1413,8 +1396,8 @@ export const hikenMovies: UserMovie[] = [
   },
 
   {
-    title: "Elysium",
-    director: "Neill Blomkamp",
+    title: 'Elysium',
+    director: 'Neill Blomkamp',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -1430,8 +1413,8 @@ export const hikenMovies: UserMovie[] = [
   },
 
   {
-    title: "Pacific Rim",
-    director: "Guillermo del Toro",
+    title: 'Pacific Rim',
+    director: 'Guillermo del Toro',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -1447,8 +1430,8 @@ export const hikenMovies: UserMovie[] = [
   },
 
   {
-    title: "No pain no gain",
-    director: "Michael Bay",
+    title: 'No pain no gain',
+    director: 'Michael Bay',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -1464,8 +1447,8 @@ export const hikenMovies: UserMovie[] = [
   },
 
   {
-    title: "Django Unchained",
-    director: "Quentin Tarantino",
+    title: 'Django Unchained',
+    director: 'Quentin Tarantino',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -1481,8 +1464,8 @@ export const hikenMovies: UserMovie[] = [
   },
 
   {
-    title: "The Dictator",
-    director: "Larry Charles",
+    title: 'The Dictator',
+    director: 'Larry Charles',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -1498,8 +1481,8 @@ export const hikenMovies: UserMovie[] = [
   },
 
   {
-    title: "21 Jump Street",
-    director: "Phil Lord, Christopher Miller",
+    title: '21 Jump Street',
+    director: 'Phil Lord, Christopher Miller',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -1515,8 +1498,8 @@ export const hikenMovies: UserMovie[] = [
   },
 
   {
-    title: "Chronicle",
-    director: "Josh Trank",
+    title: 'Chronicle',
+    director: 'Josh Trank',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -1532,8 +1515,8 @@ export const hikenMovies: UserMovie[] = [
   },
 
   {
-    title: "Intouchables",
-    director: "Olivier Nakache, Éric Toledano",
+    title: 'Intouchables',
+    director: 'Olivier Nakache, Éric Toledano',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -1549,8 +1532,8 @@ export const hikenMovies: UserMovie[] = [
   },
 
   {
-    title: "Qui veut la peau de Roger Rabbit",
-    director: "Robert Zemeckis",
+    title: 'Qui veut la peau de Roger Rabbit',
+    director: 'Robert Zemeckis',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -1566,8 +1549,8 @@ export const hikenMovies: UserMovie[] = [
   },
 
   {
-    title: "Reservoir Dogs",
-    director: "Quentin Tarantino",
+    title: 'Reservoir Dogs',
+    director: 'Quentin Tarantino',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -1583,8 +1566,8 @@ export const hikenMovies: UserMovie[] = [
   },
 
   {
-    title: "Les visiteurs",
-    director: "Jean-Marie Poiré",
+    title: 'Les visiteurs',
+    director: 'Jean-Marie Poiré',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -1600,8 +1583,8 @@ export const hikenMovies: UserMovie[] = [
   },
 
   {
-    title: "Ali G",
-    director: "Mark Mylod",
+    title: 'Ali G',
+    director: 'Mark Mylod',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -1617,8 +1600,8 @@ export const hikenMovies: UserMovie[] = [
   },
 
   {
-    title: "Les Evadés",
-    director: "Frank Darabont",
+    title: 'Les Evadés',
+    director: 'Frank Darabont',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -1634,8 +1617,8 @@ export const hikenMovies: UserMovie[] = [
   },
 
   {
-    title: "Kill Bok-soon",
-    director: "Byun Sung-hyun",
+    title: 'Kill Bok-soon',
+    director: 'Byun Sung-hyun',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -1651,8 +1634,8 @@ export const hikenMovies: UserMovie[] = [
   },
 
   {
-    title: "Walter",
-    director: "Varante Soudjian",
+    title: 'Walter',
+    director: 'Varante Soudjian',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -1668,8 +1651,8 @@ export const hikenMovies: UserMovie[] = [
   },
 
   {
-    title: "Le nombre 23",
-    director: "Joel Schumacher",
+    title: 'Le nombre 23',
+    director: 'Joel Schumacher',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -1686,7 +1669,7 @@ export const hikenMovies: UserMovie[] = [
 
   {
     title: "Ennemi d'Etat",
-    director: "Tony Scott",
+    director: 'Tony Scott',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -1702,8 +1685,8 @@ export const hikenMovies: UserMovie[] = [
   },
 
   {
-    title: "Ali",
-    director: "Michael Mann",
+    title: 'Ali',
+    director: 'Michael Mann',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -1719,8 +1702,8 @@ export const hikenMovies: UserMovie[] = [
   },
 
   {
-    title: "Bright",
-    director: "David Ayer",
+    title: 'Bright',
+    director: 'David Ayer',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -1736,8 +1719,8 @@ export const hikenMovies: UserMovie[] = [
   },
 
   {
-    title: "12 Years a Slave",
-    director: "Steve McQueen",
+    title: '12 Years a Slave',
+    director: 'Steve McQueen',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -1753,8 +1736,8 @@ export const hikenMovies: UserMovie[] = [
   },
 
   {
-    title: "Cloud Atlas",
-    director: "Lana Wachowski, Lilly Wachowski, Tom Tykwer",
+    title: 'Cloud Atlas',
+    director: 'Lana Wachowski, Lilly Wachowski, Tom Tykwer',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -1770,8 +1753,8 @@ export const hikenMovies: UserMovie[] = [
   },
 
   {
-    title: "Tonnerre sous les Tropiques",
-    director: "Ben Stiller",
+    title: 'Tonnerre sous les Tropiques',
+    director: 'Ben Stiller',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -1787,8 +1770,8 @@ export const hikenMovies: UserMovie[] = [
   },
 
   {
-    title: "La Momie",
-    director: "Alex Kurtzman",
+    title: 'La Momie',
+    director: 'Alex Kurtzman',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -1804,8 +1787,8 @@ export const hikenMovies: UserMovie[] = [
   },
 
   {
-    title: "Shaft",
-    director: "John Singleton",
+    title: 'Shaft',
+    director: 'John Singleton',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -1821,8 +1804,8 @@ export const hikenMovies: UserMovie[] = [
   },
 
   {
-    title: "La Chute de la Maison-Blanche",
-    director: "Roland Emmerich",
+    title: 'La Chute de la Maison-Blanche',
+    director: 'Roland Emmerich',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -1838,8 +1821,8 @@ export const hikenMovies: UserMovie[] = [
   },
 
   {
-    title: "Last Vegas",
-    director: "Jon Turteltaub",
+    title: 'Last Vegas',
+    director: 'Jon Turteltaub',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -1855,8 +1838,8 @@ export const hikenMovies: UserMovie[] = [
   },
 
   {
-    title: "Le Bon, la brute et le truand",
-    director: "Sergio Leone",
+    title: 'Le Bon, la brute et le truand',
+    director: 'Sergio Leone',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -1872,8 +1855,8 @@ export const hikenMovies: UserMovie[] = [
   },
 
   {
-    title: "Your Name",
-    director: "Makoto Shinkai",
+    title: 'Your Name',
+    director: 'Makoto Shinkai',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -1889,8 +1872,8 @@ export const hikenMovies: UserMovie[] = [
   },
 
   {
-    title: "Signes",
-    director: "M. Night Shyamalan",
+    title: 'Signes',
+    director: 'M. Night Shyamalan',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -1906,8 +1889,8 @@ export const hikenMovies: UserMovie[] = [
   },
 
   {
-    title: "La Passion du Christ",
-    director: "Mel Gibson",
+    title: 'La Passion du Christ',
+    director: 'Mel Gibson',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -1923,8 +1906,8 @@ export const hikenMovies: UserMovie[] = [
   },
 
   {
-    title: "Seuls Two",
-    director: "David Charhon",
+    title: 'Seuls Two',
+    director: 'David Charhon',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -1940,8 +1923,8 @@ export const hikenMovies: UserMovie[] = [
   },
 
   {
-    title: "Les trois frères",
-    director: "Didier Bourdon",
+    title: 'Les trois frères',
+    director: 'Didier Bourdon',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -1958,7 +1941,7 @@ export const hikenMovies: UserMovie[] = [
 
   {
     title: "Qu'est-ce qu'on a fait au bon dieu ?",
-    director: "Philippe de Chauveron",
+    director: 'Philippe de Chauveron',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -1974,8 +1957,8 @@ export const hikenMovies: UserMovie[] = [
   },
 
   {
-    title: "Babysitting",
-    director: "Philippe Lacheau",
+    title: 'Babysitting',
+    director: 'Philippe Lacheau',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -1991,8 +1974,8 @@ export const hikenMovies: UserMovie[] = [
   },
 
   {
-    title: "Babysitting 2",
-    director: "Philippe Lacheau",
+    title: 'Babysitting 2',
+    director: 'Philippe Lacheau',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -2009,7 +1992,7 @@ export const hikenMovies: UserMovie[] = [
 
   {
     title: "Bienvenue chez les Ch'tis",
-    director: "Dany Boon",
+    director: 'Dany Boon',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -2025,8 +2008,8 @@ export const hikenMovies: UserMovie[] = [
   },
 
   {
-    title: "Happiness Therapy",
-    director: "David O. Russell",
+    title: 'Happiness Therapy',
+    director: 'David O. Russell',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -2042,8 +2025,8 @@ export const hikenMovies: UserMovie[] = [
   },
 
   {
-    title: "Passengers",
-    director: "Morten Tyldum",
+    title: 'Passengers',
+    director: 'Morten Tyldum',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -2059,8 +2042,8 @@ export const hikenMovies: UserMovie[] = [
   },
 
   {
-    title: "Mother!",
-    director: "Darren Aronofsky",
+    title: 'Mother!',
+    director: 'Darren Aronofsky',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -2076,8 +2059,8 @@ export const hikenMovies: UserMovie[] = [
   },
 
   {
-    title: "Le Baiser mortel du dragon",
-    director: "Chris Nahon",
+    title: 'Le Baiser mortel du dragon',
+    director: 'Chris Nahon',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -2094,7 +2077,7 @@ export const hikenMovies: UserMovie[] = [
 
   {
     title: "Le Maître d'armes",
-    director: "Ronny Yu",
+    director: 'Ronny Yu',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -2110,8 +2093,8 @@ export const hikenMovies: UserMovie[] = [
   },
 
   {
-    title: "Ray",
-    director: "Taylor Hackford",
+    title: 'Ray',
+    director: 'Taylor Hackford',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -2127,8 +2110,8 @@ export const hikenMovies: UserMovie[] = [
   },
 
   {
-    title: "Snowden",
-    director: "Oliver Stone",
+    title: 'Snowden',
+    director: 'Oliver Stone',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -2144,8 +2127,8 @@ export const hikenMovies: UserMovie[] = [
   },
 
   {
-    title: "Volte/Face",
-    director: "John Woo",
+    title: 'Volte/Face',
+    director: 'John Woo',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -2161,8 +2144,8 @@ export const hikenMovies: UserMovie[] = [
   },
 
   {
-    title: "Rock",
-    director: "Michael Bay",
+    title: 'Rock',
+    director: 'Michael Bay',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -2178,8 +2161,8 @@ export const hikenMovies: UserMovie[] = [
   },
 
   {
-    title: "La Stratégie Ender",
-    director: "Gavin Hood",
+    title: 'La Stratégie Ender',
+    director: 'Gavin Hood',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -2195,8 +2178,8 @@ export const hikenMovies: UserMovie[] = [
   },
 
   {
-    title: "Ben-Hur",
-    director: "William Wyler",
+    title: 'Ben-Hur',
+    director: 'William Wyler',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -2212,8 +2195,8 @@ export const hikenMovies: UserMovie[] = [
   },
 
   {
-    title: "Dragons",
-    director: "Dean DeBlois, Chris Sanders",
+    title: 'Dragons',
+    director: 'Dean DeBlois, Chris Sanders',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -2229,8 +2212,8 @@ export const hikenMovies: UserMovie[] = [
   },
 
   {
-    title: "Dragons 2",
-    director: "Dean DeBlois",
+    title: 'Dragons 2',
+    director: 'Dean DeBlois',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -2246,8 +2229,8 @@ export const hikenMovies: UserMovie[] = [
   },
 
   {
-    title: "Dragons 3 : Le Monde caché",
-    director: "Dean DeBlois",
+    title: 'Dragons 3 : Le Monde caché',
+    director: 'Dean DeBlois',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -2263,8 +2246,8 @@ export const hikenMovies: UserMovie[] = [
   },
 
   {
-    title: "Spider-Man: Into the Spider-Verse",
-    director: "Bob Persichetti, Peter Ramsey, Rodney Rothman",
+    title: 'Spider-Man: Into the Spider-Verse',
+    director: 'Bob Persichetti, Peter Ramsey, Rodney Rothman',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -2280,8 +2263,8 @@ export const hikenMovies: UserMovie[] = [
   },
 
   {
-    title: "Les Mondes de Ralph",
-    director: "Rich Moore",
+    title: 'Les Mondes de Ralph',
+    director: 'Rich Moore',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -2297,8 +2280,8 @@ export const hikenMovies: UserMovie[] = [
   },
 
   {
-    title: "Cars",
-    director: "John Lasseter",
+    title: 'Cars',
+    director: 'John Lasseter',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -2314,8 +2297,8 @@ export const hikenMovies: UserMovie[] = [
   },
 
   {
-    title: "Vaiana",
-    director: "Ron Clements, John Musker",
+    title: 'Vaiana',
+    director: 'Ron Clements, John Musker',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -2331,8 +2314,8 @@ export const hikenMovies: UserMovie[] = [
   },
 
   {
-    title: "Vice-Versa",
-    director: "Pete Docter",
+    title: 'Vice-Versa',
+    director: 'Pete Docter',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -2348,8 +2331,8 @@ export const hikenMovies: UserMovie[] = [
   },
 
   {
-    title: "Les Nouveaux Héros",
-    director: "Don Hall, Chris Williams",
+    title: 'Les Nouveaux Héros',
+    director: 'Don Hall, Chris Williams',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -2365,8 +2348,8 @@ export const hikenMovies: UserMovie[] = [
   },
 
   {
-    title: "La Reine des Neiges",
-    director: "Chris Buck, Jennifer Lee",
+    title: 'La Reine des Neiges',
+    director: 'Chris Buck, Jennifer Lee',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -2382,8 +2365,8 @@ export const hikenMovies: UserMovie[] = [
   },
 
   {
-    title: "Moi, Moche et Méchant",
-    director: "Pierre Coffin, Chris Renaud",
+    title: 'Moi, Moche et Méchant',
+    director: 'Pierre Coffin, Chris Renaud',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -2399,8 +2382,8 @@ export const hikenMovies: UserMovie[] = [
   },
 
   {
-    title: "Moi, Moche et Méchant 2",
-    director: "Pierre Coffin, Chris Renaud",
+    title: 'Moi, Moche et Méchant 2',
+    director: 'Pierre Coffin, Chris Renaud',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -2416,8 +2399,8 @@ export const hikenMovies: UserMovie[] = [
   },
 
   {
-    title: "Les Cinq Légendes",
-    director: "Peter Ramsey",
+    title: 'Les Cinq Légendes',
+    director: 'Peter Ramsey',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -2434,7 +2417,7 @@ export const hikenMovies: UserMovie[] = [
 
   {
     title: "L'Âge de Glace",
-    director: "Chris Wedge, Carlos Saldanha",
+    director: 'Chris Wedge, Carlos Saldanha',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -2451,7 +2434,7 @@ export const hikenMovies: UserMovie[] = [
 
   {
     title: "L'Âge de Glace 2",
-    director: "Carlos Saldanha",
+    director: 'Carlos Saldanha',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -2467,8 +2450,8 @@ export const hikenMovies: UserMovie[] = [
   },
 
   {
-    title: "Rebelle",
-    director: "Mark Andrews, Brenda Chapman",
+    title: 'Rebelle',
+    director: 'Mark Andrews, Brenda Chapman',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -2484,8 +2467,8 @@ export const hikenMovies: UserMovie[] = [
   },
 
   {
-    title: "Les Simpson, le Film",
-    director: "David Silverman",
+    title: 'Les Simpson, le Film',
+    director: 'David Silverman',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -2501,8 +2484,8 @@ export const hikenMovies: UserMovie[] = [
   },
 
   {
-    title: "Shrek",
-    director: "Andrew Adamson, Vicky Jenson",
+    title: 'Shrek',
+    director: 'Andrew Adamson, Vicky Jenson',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -2518,8 +2501,8 @@ export const hikenMovies: UserMovie[] = [
   },
 
   {
-    title: "Shrek 2",
-    director: "Andrew Adamson, Kelly Asbury, Conrad Vernon",
+    title: 'Shrek 2',
+    director: 'Andrew Adamson, Kelly Asbury, Conrad Vernon',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -2535,8 +2518,8 @@ export const hikenMovies: UserMovie[] = [
   },
 
   {
-    title: "Les Indestructibles",
-    director: "Brad Bird",
+    title: 'Les Indestructibles',
+    director: 'Brad Bird',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -2552,8 +2535,8 @@ export const hikenMovies: UserMovie[] = [
   },
 
   {
-    title: "Les Indestructibles 2",
-    director: "Brad Bird",
+    title: 'Les Indestructibles 2',
+    director: 'Brad Bird',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -2569,8 +2552,8 @@ export const hikenMovies: UserMovie[] = [
   },
 
   {
-    title: "Le monde de Nemo",
-    director: "Andrew Stanton",
+    title: 'Le monde de Nemo',
+    director: 'Andrew Stanton',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -2586,8 +2569,8 @@ export const hikenMovies: UserMovie[] = [
   },
 
   {
-    title: "Monstres et Cie",
-    director: "Pete Docter",
+    title: 'Monstres et Cie',
+    director: 'Pete Docter',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -2603,8 +2586,8 @@ export const hikenMovies: UserMovie[] = [
   },
 
   {
-    title: "Toy Story",
-    director: "John Lasseter",
+    title: 'Toy Story',
+    director: 'John Lasseter',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -2620,8 +2603,8 @@ export const hikenMovies: UserMovie[] = [
   },
 
   {
-    title: "Toy Story 2",
-    director: "John Lasseter",
+    title: 'Toy Story 2',
+    director: 'John Lasseter',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -2637,8 +2620,8 @@ export const hikenMovies: UserMovie[] = [
   },
 
   {
-    title: "Toy Story 3",
-    director: "Lee Unkrich",
+    title: 'Toy Story 3',
+    director: 'Lee Unkrich',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -2654,8 +2637,8 @@ export const hikenMovies: UserMovie[] = [
   },
 
   {
-    title: "Tarzan",
-    director: "Chris Buck, Kevin Lima",
+    title: 'Tarzan',
+    director: 'Chris Buck, Kevin Lima',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -2671,8 +2654,8 @@ export const hikenMovies: UserMovie[] = [
   },
 
   {
-    title: "Mulan",
-    director: "Tony Bancroft, Barry Cook",
+    title: 'Mulan',
+    director: 'Tony Bancroft, Barry Cook',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -2688,8 +2671,8 @@ export const hikenMovies: UserMovie[] = [
   },
 
   {
-    title: "Hercule",
-    director: "Ron Clements, John Musker",
+    title: 'Hercule',
+    director: 'Ron Clements, John Musker',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -2705,8 +2688,8 @@ export const hikenMovies: UserMovie[] = [
   },
 
   {
-    title: "Pocahontas",
-    director: "Mike Gabriel, Eric Goldberg",
+    title: 'Pocahontas',
+    director: 'Mike Gabriel, Eric Goldberg',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -2722,8 +2705,8 @@ export const hikenMovies: UserMovie[] = [
   },
 
   {
-    title: "Space Jam",
-    director: "Joe Pytka",
+    title: 'Space Jam',
+    director: 'Joe Pytka',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -2739,8 +2722,8 @@ export const hikenMovies: UserMovie[] = [
   },
 
   {
-    title: "Le Roi Lion",
-    director: "Roger Allers, Rob Minkoff",
+    title: 'Le Roi Lion',
+    director: 'Roger Allers, Rob Minkoff',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -2756,8 +2739,8 @@ export const hikenMovies: UserMovie[] = [
   },
 
   {
-    title: "Aladdin",
-    director: "Ron Clements, John Musker",
+    title: 'Aladdin',
+    director: 'Ron Clements, John Musker',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -2773,8 +2756,8 @@ export const hikenMovies: UserMovie[] = [
   },
 
   {
-    title: "La Belle et la Bête",
-    director: "Gary Trousdale, Kirk Wise",
+    title: 'La Belle et la Bête',
+    director: 'Gary Trousdale, Kirk Wise',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -2790,8 +2773,8 @@ export const hikenMovies: UserMovie[] = [
   },
 
   {
-    title: "La petite sirène",
-    director: "Ron Clements, John Musker",
+    title: 'La petite sirène',
+    director: 'Ron Clements, John Musker',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -2807,8 +2790,8 @@ export const hikenMovies: UserMovie[] = [
   },
 
   {
-    title: "Peter Pan",
-    director: "Clyde Geronimi, Wilfred Jackson, Hamilton Luske",
+    title: 'Peter Pan',
+    director: 'Clyde Geronimi, Wilfred Jackson, Hamilton Luske',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -2824,8 +2807,9 @@ export const hikenMovies: UserMovie[] = [
   },
 
   {
-    title: "Pinocchio",
-    director: "Norman Ferguson, T. Hee, Wilfred Jackson, Jack Kinney, Hamilton Luske, Bill Roberts, Ben Sharpsteen",
+    title: 'Pinocchio',
+    director:
+      'Norman Ferguson, T. Hee, Wilfred Jackson, Jack Kinney, Hamilton Luske, Bill Roberts, Ben Sharpsteen',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -2841,8 +2825,8 @@ export const hikenMovies: UserMovie[] = [
   },
 
   {
-    title: "One Piece Film: Strong World",
-    director: "Munehisa Sakai",
+    title: 'One Piece Film: Strong World',
+    director: 'Munehisa Sakai',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -2858,8 +2842,8 @@ export const hikenMovies: UserMovie[] = [
   },
 
   {
-    title: "Astérix et les Vikings",
-    director: "Stefan Fjeldmark, Jesper Møller",
+    title: 'Astérix et les Vikings',
+    director: 'Stefan Fjeldmark, Jesper Møller',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -2875,8 +2859,8 @@ export const hikenMovies: UserMovie[] = [
   },
 
   {
-    title: "Le Pôle Express",
-    director: "Robert Zemeckis",
+    title: 'Le Pôle Express',
+    director: 'Robert Zemeckis',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -2892,8 +2876,8 @@ export const hikenMovies: UserMovie[] = [
   },
 
   {
-    title: "Gang de requins",
-    director: "Vicky Jenson, Bibo Bergeron, Rob Letterman",
+    title: 'Gang de requins',
+    director: 'Vicky Jenson, Bibo Bergeron, Rob Letterman',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -2909,8 +2893,8 @@ export const hikenMovies: UserMovie[] = [
   },
 
   {
-    title: "Sing",
-    director: "Garth Jennings",
+    title: 'Sing',
+    director: 'Garth Jennings',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -2926,8 +2910,8 @@ export const hikenMovies: UserMovie[] = [
   },
 
   {
-    title: "Blanche-Neige et les Sept Nains",
-    director: "David Hand",
+    title: 'Blanche-Neige et les Sept Nains',
+    director: 'David Hand',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -2943,8 +2927,8 @@ export const hikenMovies: UserMovie[] = [
   },
 
   {
-    title: "Cendrillon",
-    director: "Clyde Geronimi, Wilfred Jackson",
+    title: 'Cendrillon',
+    director: 'Clyde Geronimi, Wilfred Jackson',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -2960,8 +2944,8 @@ export const hikenMovies: UserMovie[] = [
   },
 
   {
-    title: "Bambi",
-    director: "David Hand",
+    title: 'Bambi',
+    director: 'David Hand',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -2977,8 +2961,8 @@ export const hikenMovies: UserMovie[] = [
   },
 
   {
-    title: "Dumbo",
-    director: "Ben Sharpsteen",
+    title: 'Dumbo',
+    director: 'Ben Sharpsteen',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -2994,8 +2978,8 @@ export const hikenMovies: UserMovie[] = [
   },
 
   {
-    title: "Fantasia",
-    director: "James Algar, Samuel Armstrong",
+    title: 'Fantasia',
+    director: 'James Algar, Samuel Armstrong',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -3011,8 +2995,8 @@ export const hikenMovies: UserMovie[] = [
   },
 
   {
-    title: "Alice au pays des merveilles",
-    director: "Clyde Geronimi, Wilfred Jackson",
+    title: 'Alice au pays des merveilles',
+    director: 'Clyde Geronimi, Wilfred Jackson',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -3028,8 +3012,8 @@ export const hikenMovies: UserMovie[] = [
   },
 
   {
-    title: "La Belle au bois dormant",
-    director: "Clyde Geronimi",
+    title: 'La Belle au bois dormant',
+    director: 'Clyde Geronimi',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -3045,8 +3029,8 @@ export const hikenMovies: UserMovie[] = [
   },
 
   {
-    title: "La Belle et le Clochard",
-    director: "Clyde Geronimi, Wilfred Jackson",
+    title: 'La Belle et le Clochard',
+    director: 'Clyde Geronimi, Wilfred Jackson',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -3062,8 +3046,8 @@ export const hikenMovies: UserMovie[] = [
   },
 
   {
-    title: "Le Livre de la jungle",
-    director: "Wolfgang Reitherman",
+    title: 'Le Livre de la jungle',
+    director: 'Wolfgang Reitherman',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -3079,8 +3063,8 @@ export const hikenMovies: UserMovie[] = [
   },
 
   {
-    title: "Le retour de Jafar",
-    director: "Toby Shelton, Tad Stones",
+    title: 'Le retour de Jafar',
+    director: 'Toby Shelton, Tad Stones',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -3096,8 +3080,8 @@ export const hikenMovies: UserMovie[] = [
   },
 
   {
-    title: "Le Bossu de Notre-Dame",
-    director: "Gary Trousdale, Kirk Wise",
+    title: 'Le Bossu de Notre-Dame',
+    director: 'Gary Trousdale, Kirk Wise',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -3113,8 +3097,8 @@ export const hikenMovies: UserMovie[] = [
   },
 
   {
-    title: "Les 101 Dalmatiens",
-    director: "Stephen Herek",
+    title: 'Les 101 Dalmatiens',
+    director: 'Stephen Herek',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -3130,8 +3114,8 @@ export const hikenMovies: UserMovie[] = [
   },
 
   {
-    title: "Anastasia",
-    director: "Don Bluth, Gary Goldman",
+    title: 'Anastasia',
+    director: 'Don Bluth, Gary Goldman',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -3147,8 +3131,8 @@ export const hikenMovies: UserMovie[] = [
   },
 
   {
-    title: "Le Monde magique de la Belle et la Bête",
-    director: "Bob Kline",
+    title: 'Le Monde magique de la Belle et la Bête',
+    director: 'Bob Kline',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -3165,7 +3149,7 @@ export const hikenMovies: UserMovie[] = [
 
   {
     title: "Le Prince d'Égypte",
-    director: "Brenda Chapman, Steve Hickner",
+    director: 'Brenda Chapman, Steve Hickner',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -3182,7 +3166,7 @@ export const hikenMovies: UserMovie[] = [
 
   {
     title: "Le Roi Lion 2 : L'Honneur de la tribu",
-    director: "Darrell Rooney, Rob LaDuca",
+    director: 'Darrell Rooney, Rob LaDuca',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -3198,8 +3182,8 @@ export const hikenMovies: UserMovie[] = [
   },
 
   {
-    title: "Pocahontas 2 : Un monde nouveau",
-    director: "Tom Ellery, Bradley Raymond",
+    title: 'Pocahontas 2 : Un monde nouveau',
+    director: 'Tom Ellery, Bradley Raymond',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -3215,8 +3199,8 @@ export const hikenMovies: UserMovie[] = [
   },
 
   {
-    title: "Dinosaure",
-    director: "Ralph Zondag, Eric Leighton",
+    title: 'Dinosaure',
+    director: 'Ralph Zondag, Eric Leighton',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -3233,7 +3217,7 @@ export const hikenMovies: UserMovie[] = [
 
   {
     title: "La Petite Sirène 2 : Retour à l'océan",
-    director: "Jim Kammerud, Brian Smith",
+    director: 'Jim Kammerud, Brian Smith',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -3250,7 +3234,7 @@ export const hikenMovies: UserMovie[] = [
 
   {
     title: "Kuzco, l'Empereur mégalo",
-    director: "Mark Dindal",
+    director: 'Mark Dindal',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -3267,7 +3251,7 @@ export const hikenMovies: UserMovie[] = [
 
   {
     title: "Atlantis : L'Empire perdu",
-    director: "Gary Trousdale, Kirk Wise",
+    director: 'Gary Trousdale, Kirk Wise',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -3283,8 +3267,8 @@ export const hikenMovies: UserMovie[] = [
   },
 
   {
-    title: "Lilo et Stitch",
-    director: "Dean DeBlois, Chris Sanders",
+    title: 'Lilo et Stitch',
+    director: 'Dean DeBlois, Chris Sanders',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -3300,8 +3284,8 @@ export const hikenMovies: UserMovie[] = [
   },
 
   {
-    title: "La Planète au trésor",
-    director: "Ron Clements, John Musker",
+    title: 'La Planète au trésor',
+    director: 'Ron Clements, John Musker',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -3317,8 +3301,8 @@ export const hikenMovies: UserMovie[] = [
   },
 
   {
-    title: "Mickey, Donald, Dingo : Les Trois Mousquetaires",
-    director: "Donovan Cook",
+    title: 'Mickey, Donald, Dingo : Les Trois Mousquetaires',
+    director: 'Donovan Cook',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -3334,8 +3318,8 @@ export const hikenMovies: UserMovie[] = [
   },
 
   {
-    title: "Mulan 2",
-    director: "Darrell Rooney, Lynne Southerland",
+    title: 'Mulan 2',
+    director: 'Darrell Rooney, Lynne Southerland',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -3351,8 +3335,8 @@ export const hikenMovies: UserMovie[] = [
   },
 
   {
-    title: "Madagascar",
-    director: "Eric Darnell, Tom McGrath",
+    title: 'Madagascar',
+    director: 'Eric Darnell, Tom McGrath',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -3368,8 +3352,8 @@ export const hikenMovies: UserMovie[] = [
   },
 
   {
-    title: "Madagascar 2",
-    director: "Eric Darnell, Tom McGrath",
+    title: 'Madagascar 2',
+    director: 'Eric Darnell, Tom McGrath',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -3385,8 +3369,8 @@ export const hikenMovies: UserMovie[] = [
   },
 
   {
-    title: "Là-haut",
-    director: "Pete Docter",
+    title: 'Là-haut',
+    director: 'Pete Docter',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -3402,8 +3386,8 @@ export const hikenMovies: UserMovie[] = [
   },
 
   {
-    title: "Kung Fu Panda",
-    director: "Mark Osborne, John Stevenson",
+    title: 'Kung Fu Panda',
+    director: 'Mark Osborne, John Stevenson',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -3419,8 +3403,8 @@ export const hikenMovies: UserMovie[] = [
   },
 
   {
-    title: "Kung Fu Panda 2",
-    director: "Jennifer Yuh Nelson",
+    title: 'Kung Fu Panda 2',
+    director: 'Jennifer Yuh Nelson',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -3436,8 +3420,8 @@ export const hikenMovies: UserMovie[] = [
   },
 
   {
-    title: "Hôtel Transylvanie",
-    director: "Genndy Tartakovsky",
+    title: 'Hôtel Transylvanie',
+    director: 'Genndy Tartakovsky',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -3453,8 +3437,8 @@ export const hikenMovies: UserMovie[] = [
   },
 
   {
-    title: "Monsters University",
-    director: "Dan Scanlon",
+    title: 'Monstres Academy',
+    director: 'Dan Scanlon',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -3470,8 +3454,8 @@ export const hikenMovies: UserMovie[] = [
   },
 
   {
-    title: "Zootopie",
-    director: "Byron Howard, Rich Moore",
+    title: 'Zootopie',
+    director: 'Byron Howard, Rich Moore',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -3487,8 +3471,8 @@ export const hikenMovies: UserMovie[] = [
   },
 
   {
-    title: "Vice-Versa 2",
-    director: "Kelsey Mann",
+    title: 'Vice-Versa 2',
+    director: 'Kelsey Mann',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -3504,8 +3488,8 @@ export const hikenMovies: UserMovie[] = [
   },
 
   {
-    title: "Dragon Ball Z : La Menace de Namek",
-    director: "Mitsuo Hashimoto",
+    title: 'Dragon Ball Z : La Menace de Namek',
+    director: 'Mitsuo Hashimoto',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -3521,8 +3505,8 @@ export const hikenMovies: UserMovie[] = [
   },
 
   {
-    title: "Dragon Ball Z : Le Père de Sangoku",
-    director: "Mitsuo Hashimoto",
+    title: 'Dragon Ball Z : Le Père de Sangoku',
+    director: 'Mitsuo Hashimoto',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -3538,8 +3522,8 @@ export const hikenMovies: UserMovie[] = [
   },
 
   {
-    title: "Dragon Ball Z: The Tree of Might",
-    director: "Daisuke Nishio",
+    title: 'Dragon Ball Z: The Tree of Might',
+    director: 'Daisuke Nishio',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -3556,7 +3540,7 @@ export const hikenMovies: UserMovie[] = [
 
   {
     title: "Dragon Ball Z : L'Attaque du dragon",
-    director: "Mitsuo Hashimoto",
+    director: 'Mitsuo Hashimoto',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -3572,8 +3556,8 @@ export const hikenMovies: UserMovie[] = [
   },
 
   {
-    title: "Dragon Ball Z : Fusions",
-    director: "Shigeyasu Yamauchi",
+    title: 'Dragon Ball Z : Fusions',
+    director: 'Shigeyasu Yamauchi',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -3589,8 +3573,8 @@ export const hikenMovies: UserMovie[] = [
   },
 
   {
-    title: "Dragon Ball Z : Bio-Broly",
-    director: "Yoshihiro Ueda",
+    title: 'Dragon Ball Z : Bio-Broly',
+    director: 'Yoshihiro Ueda',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -3606,8 +3590,8 @@ export const hikenMovies: UserMovie[] = [
   },
 
   {
-    title: "Dragon Ball Z : Rivaux dangereux",
-    director: "Shigeyasu Yamauchi",
+    title: 'Dragon Ball Z : Rivaux dangereux',
+    director: 'Shigeyasu Yamauchi',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -3623,8 +3607,8 @@ export const hikenMovies: UserMovie[] = [
   },
 
   {
-    title: "Dragon Ball Z: Bojack Unbound",
-    director: "Yoshihiro Ueda",
+    title: 'Dragon Ball Z: Bojack Unbound',
+    director: 'Yoshihiro Ueda',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -3640,8 +3624,8 @@ export const hikenMovies: UserMovie[] = [
   },
 
   {
-    title: "Dragon Ball Z : Broly le super guerrier",
-    director: "Shigeyasu Yamauchi",
+    title: 'Dragon Ball Z : Broly le super guerrier',
+    director: 'Shigeyasu Yamauchi',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -3658,7 +3642,7 @@ export const hikenMovies: UserMovie[] = [
 
   {
     title: "Dragon Ball Z : L'Histoire de Trunks",
-    director: "Yoshihiro Ueda",
+    director: 'Yoshihiro Ueda',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -3675,7 +3659,7 @@ export const hikenMovies: UserMovie[] = [
 
   {
     title: "Dragon Ball Z : L'Offensive des cyborgs",
-    director: "Kazuhito Kikuchi",
+    director: 'Kazuhito Kikuchi',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -3691,8 +3675,8 @@ export const hikenMovies: UserMovie[] = [
   },
 
   {
-    title: "Dragon Ball Z : Cent Mille Guerriers de métal",
-    director: "Daisuke Nishio",
+    title: 'Dragon Ball Z : Cent Mille Guerriers de métal',
+    director: 'Daisuke Nishio',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -3708,8 +3692,8 @@ export const hikenMovies: UserMovie[] = [
   },
 
   {
-    title: "Dragon Ball Z : La Revanche de Cooler",
-    director: "Mitsuo Hashimoto",
+    title: 'Dragon Ball Z : La Revanche de Cooler',
+    director: 'Mitsuo Hashimoto',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -3725,8 +3709,8 @@ export const hikenMovies: UserMovie[] = [
   },
 
   {
-    title: "Dragon Ball Z : Le Robot des glaces",
-    director: "Daisuke Nishio",
+    title: 'Dragon Ball Z : Le Robot des glaces',
+    director: 'Daisuke Nishio',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -3742,8 +3726,8 @@ export const hikenMovies: UserMovie[] = [
   },
 
   {
-    title: "Dragon Ball Z : À la poursuite de Garlic",
-    director: "Daisuke Nishio",
+    title: 'Dragon Ball Z : À la poursuite de Garlic',
+    director: 'Daisuke Nishio',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -3759,8 +3743,8 @@ export const hikenMovies: UserMovie[] = [
   },
 
   {
-    title: "Dragon Ball Z: Battle of Gods",
-    director: "Masahiro Hosoda",
+    title: 'Dragon Ball Z: Battle of Gods',
+    director: 'Masahiro Hosoda',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -3777,7 +3761,7 @@ export const hikenMovies: UserMovie[] = [
 
   {
     title: "Dragon Ball Z : La Résurrection de 'F'",
-    director: "Tadayoshi Yamamuro",
+    director: 'Tadayoshi Yamamuro',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -3793,8 +3777,8 @@ export const hikenMovies: UserMovie[] = [
   },
 
   {
-    title: "Dragon Ball Super: Broly",
-    director: "Tatsuya Nagamine",
+    title: 'Dragon Ball Super: Broly',
+    director: 'Tatsuya Nagamine',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -3810,8 +3794,8 @@ export const hikenMovies: UserMovie[] = [
   },
 
   {
-    title: "Pokémon, le film : Mewtwo contre-attaque",
-    director: "Kunihiko Yuyama",
+    title: 'Pokémon, le film : Mewtwo contre-attaque',
+    director: 'Kunihiko Yuyama',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -3827,8 +3811,8 @@ export const hikenMovies: UserMovie[] = [
   },
 
   {
-    title: "Pokémon 2 : Le Pouvoir est en toi",
-    director: "Kunihiko Yuyama",
+    title: 'Pokémon 2 : Le Pouvoir est en toi',
+    director: 'Kunihiko Yuyama',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -3844,8 +3828,8 @@ export const hikenMovies: UserMovie[] = [
   },
 
   {
-    title: "Pokémon : Lucario et le mystère de Mew",
-    director: "Kunihiko Yuyama",
+    title: 'Pokémon : Lucario et le mystère de Mew',
+    director: 'Kunihiko Yuyama',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -3861,8 +3845,8 @@ export const hikenMovies: UserMovie[] = [
   },
 
   {
-    title: "Pokémon Ranger et le temple des mers",
-    director: "Kunihiko Yuyama",
+    title: 'Pokémon Ranger et le temple des mers',
+    director: 'Kunihiko Yuyama',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -3878,8 +3862,8 @@ export const hikenMovies: UserMovie[] = [
   },
 
   {
-    title: "Pokémon : Détective Pikachu",
-    director: "Rob Letterman",
+    title: 'Pokémon : Détective Pikachu',
+    director: 'Rob Letterman',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -3895,8 +3879,8 @@ export const hikenMovies: UserMovie[] = [
   },
 
   {
-    title: "Yu-Gi-Oh! : La pyramide de lumière",
-    director: "Hatsuki Tsuji",
+    title: 'Yu-Gi-Oh! : La pyramide de lumière',
+    director: 'Hatsuki Tsuji',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -3912,8 +3896,8 @@ export const hikenMovies: UserMovie[] = [
   },
 
   {
-    title: "La Cité de Dieu",
-    director: "Fernando Meirelles, Kátia Lund",
+    title: 'La Cité de Dieu',
+    director: 'Fernando Meirelles, Kátia Lund',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -3929,8 +3913,8 @@ export const hikenMovies: UserMovie[] = [
   },
 
   {
-    title: "Grave",
-    director: "Julia Ducournau",
+    title: 'Grave',
+    director: 'Julia Ducournau',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -3946,7 +3930,7 @@ export const hikenMovies: UserMovie[] = [
   },
 
   {
-    title: "Case départ",
+    title: 'Case départ',
     director: "Lionel Steketee, Fabrice Éboué, Thomas N'Gijol",
     rating: 0,
     timesWatched: 1,
@@ -3964,7 +3948,7 @@ export const hikenMovies: UserMovie[] = [
 
   {
     title: "L'Élève Ducobu",
-    director: "Philippe de Chauveron",
+    director: 'Philippe de Chauveron',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -3980,8 +3964,8 @@ export const hikenMovies: UserMovie[] = [
   },
 
   {
-    title: "Les Vacances de Ducobu",
-    director: "Philippe de Chauveron",
+    title: 'Les Vacances de Ducobu',
+    director: 'Philippe de Chauveron',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -3997,8 +3981,8 @@ export const hikenMovies: UserMovie[] = [
   },
 
   {
-    title: "Batman",
-    director: "Tim Burton",
+    title: 'Batman',
+    director: 'Tim Burton',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -4014,8 +3998,8 @@ export const hikenMovies: UserMovie[] = [
   },
 
   {
-    title: "Batman Returns",
-    director: "Tim Burton",
+    title: 'Batman Returns',
+    director: 'Tim Burton',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -4031,8 +4015,8 @@ export const hikenMovies: UserMovie[] = [
   },
 
   {
-    title: "Batman Forever",
-    director: "Joel Schumacher",
+    title: 'Batman Forever',
+    director: 'Joel Schumacher',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -4048,8 +4032,8 @@ export const hikenMovies: UserMovie[] = [
   },
 
   {
-    title: "Batman & Robin",
-    director: "Joel Schumacher",
+    title: 'Batman & Robin',
+    director: 'Joel Schumacher',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -4065,8 +4049,8 @@ export const hikenMovies: UserMovie[] = [
   },
 
   {
-    title: "Batman Begins",
-    director: "Christopher Nolan",
+    title: 'Batman Begins',
+    director: 'Christopher Nolan',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -4082,8 +4066,8 @@ export const hikenMovies: UserMovie[] = [
   },
 
   {
-    title: "The Dark Knight : Le Chevalier Noir",
-    director: "Christopher Nolan",
+    title: 'The Dark Knight : Le Chevalier Noir',
+    director: 'Christopher Nolan',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -4099,8 +4083,8 @@ export const hikenMovies: UserMovie[] = [
   },
 
   {
-    title: "The Dark Knight Rises",
-    director: "Christopher Nolan",
+    title: 'The Dark Knight Rises',
+    director: 'Christopher Nolan',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -4117,7 +4101,7 @@ export const hikenMovies: UserMovie[] = [
 
   {
     title: "Batman v Superman : L'Aube de la Justice",
-    director: "Zack Snyder",
+    director: 'Zack Snyder',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -4133,8 +4117,8 @@ export const hikenMovies: UserMovie[] = [
   },
 
   {
-    title: "Aquaman",
-    director: "James Wan",
+    title: 'Aquaman',
+    director: 'James Wan',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -4150,8 +4134,8 @@ export const hikenMovies: UserMovie[] = [
   },
 
   {
-    title: "Suicide Squad",
-    director: "David Ayer",
+    title: 'Suicide Squad',
+    director: 'David Ayer',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -4167,8 +4151,8 @@ export const hikenMovies: UserMovie[] = [
   },
 
   {
-    title: "Man of Steel",
-    director: "Zack Snyder",
+    title: 'Man of Steel',
+    director: 'Zack Snyder',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -4184,8 +4168,8 @@ export const hikenMovies: UserMovie[] = [
   },
 
   {
-    title: "Watchmen : Les Gardiens",
-    director: "Zack Snyder",
+    title: 'Watchmen : Les Gardiens',
+    director: 'Zack Snyder',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -4201,8 +4185,8 @@ export const hikenMovies: UserMovie[] = [
   },
 
   {
-    title: "Catwoman",
-    director: "Pitof",
+    title: 'Catwoman',
+    director: 'Pitof',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -4218,8 +4202,8 @@ export const hikenMovies: UserMovie[] = [
   },
 
   {
-    title: "Wonder Woman",
-    director: "Patty Jenkins",
+    title: 'Wonder Woman',
+    director: 'Patty Jenkins',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -4235,8 +4219,8 @@ export const hikenMovies: UserMovie[] = [
   },
 
   {
-    title: "Blue Beetle",
-    director: "Angel Manuel Soto",
+    title: 'Blue Beetle',
+    director: 'Angel Manuel Soto',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -4252,8 +4236,8 @@ export const hikenMovies: UserMovie[] = [
   },
 
   {
-    title: "Wonka",
-    director: "Paul King",
+    title: 'Wonka',
+    director: 'Paul King',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -4269,8 +4253,8 @@ export const hikenMovies: UserMovie[] = [
   },
 
   {
-    title: "Alvin et les Chipmunks",
-    director: "Tim Hill",
+    title: 'Alvin et les Chipmunks',
+    director: 'Tim Hill',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -4286,8 +4270,8 @@ export const hikenMovies: UserMovie[] = [
   },
 
   {
-    title: "Le Manoir hanté et les 999 Fantômes",
-    director: "Rob Minkoff",
+    title: 'Le Manoir hanté et les 999 Fantômes',
+    director: 'Rob Minkoff',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -4303,8 +4287,8 @@ export const hikenMovies: UserMovie[] = [
   },
 
   {
-    title: "8 Mile",
-    director: "Curtis Hanson",
+    title: '8 Mile',
+    director: 'Curtis Hanson',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -4320,8 +4304,8 @@ export const hikenMovies: UserMovie[] = [
   },
 
   {
-    title: "Fight Club",
-    director: "David Fincher",
+    title: 'Fight Club',
+    director: 'David Fincher',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -4338,7 +4322,7 @@ export const hikenMovies: UserMovie[] = [
 
   {
     title: "Souviens-toi... l'été dernier",
-    director: "Jim Gillespie",
+    director: 'Jim Gillespie',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -4354,8 +4338,8 @@ export const hikenMovies: UserMovie[] = [
   },
 
   {
-    title: "Face/Off",
-    director: "John Woo",
+    title: 'Face/Off',
+    director: 'John Woo',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -4371,8 +4355,8 @@ export const hikenMovies: UserMovie[] = [
   },
 
   {
-    title: "Braveheart",
-    director: "Mel Gibson",
+    title: 'Braveheart',
+    director: 'Mel Gibson',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -4388,8 +4372,8 @@ export const hikenMovies: UserMovie[] = [
   },
 
   {
-    title: "La Famille Addams",
-    director: "Barry Sonnenfeld",
+    title: 'La Famille Addams',
+    director: 'Barry Sonnenfeld',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -4406,7 +4390,7 @@ export const hikenMovies: UserMovie[] = [
 
   {
     title: "Edward aux mains d'argent",
-    director: "Tim Burton",
+    director: 'Tim Burton',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -4422,8 +4406,8 @@ export const hikenMovies: UserMovie[] = [
   },
 
   {
-    title: "Gremlins",
-    director: "Joe Dante",
+    title: 'Gremlins',
+    director: 'Joe Dante',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -4439,8 +4423,8 @@ export const hikenMovies: UserMovie[] = [
   },
 
   {
-    title: "Wedding Nightmare",
-    director: "Tyler Gillett",
+    title: 'Wedding Nightmare',
+    director: 'Tyler Gillett',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -4456,8 +4440,8 @@ export const hikenMovies: UserMovie[] = [
   },
 
   {
-    title: "The Jane Doe Identity",
-    director: "André Øvredal",
+    title: 'The Jane Doe Identity',
+    director: 'André Øvredal',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -4473,8 +4457,8 @@ export const hikenMovies: UserMovie[] = [
   },
 
   {
-    title: "Annabelle",
-    director: "John R. Leonetti",
+    title: 'Annabelle',
+    director: 'John R. Leonetti',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -4490,8 +4474,8 @@ export const hikenMovies: UserMovie[] = [
   },
 
   {
-    title: "La nonne",
-    director: "Corin Hardy",
+    title: 'La nonne',
+    director: 'Corin Hardy',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -4507,8 +4491,8 @@ export const hikenMovies: UserMovie[] = [
   },
 
   {
-    title: "Us",
-    director: "Jordan Peele",
+    title: 'Us',
+    director: 'Jordan Peele',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -4524,8 +4508,8 @@ export const hikenMovies: UserMovie[] = [
   },
 
   {
-    title: "Astérix et le Coup du menhir",
-    director: "Philippe Grimond",
+    title: 'Astérix et le Coup du menhir',
+    director: 'Philippe Grimond',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -4541,8 +4525,8 @@ export const hikenMovies: UserMovie[] = [
   },
 
   {
-    title: "Astérix et la Surprise de César",
-    director: "Gaëtan Brizzi, Paul Brizzi",
+    title: 'Astérix et la Surprise de César',
+    director: 'Gaëtan Brizzi, Paul Brizzi',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -4559,7 +4543,7 @@ export const hikenMovies: UserMovie[] = [
 
   {
     title: "Les 12 Travaux d'Astérix",
-    director: "René Goscinny, Albert Uderzo",
+    director: 'René Goscinny, Albert Uderzo',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -4575,8 +4559,8 @@ export const hikenMovies: UserMovie[] = [
   },
 
   {
-    title: "Astérix le Gaulois",
-    director: "Ray Goossens",
+    title: 'Astérix le Gaulois',
+    director: 'Ray Goossens',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -4592,8 +4576,8 @@ export const hikenMovies: UserMovie[] = [
   },
 
   {
-    title: "Kirikou et la Sorcière",
-    director: "Michel Ocelot",
+    title: 'Kirikou et la Sorcière',
+    director: 'Michel Ocelot',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -4609,8 +4593,8 @@ export const hikenMovies: UserMovie[] = [
   },
 
   {
-    title: "Camp Rock",
-    director: "Matthew Diamond",
+    title: 'Camp Rock',
+    director: 'Matthew Diamond',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -4626,8 +4610,8 @@ export const hikenMovies: UserMovie[] = [
   },
 
   {
-    title: "Beetlejuice Beetlejuice",
-    director: "Tim Burton",
+    title: 'Beetlejuice Beetlejuice',
+    director: 'Tim Burton',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -4643,8 +4627,8 @@ export const hikenMovies: UserMovie[] = [
   },
 
   {
-    title: "Argylle",
-    director: "Matthew Vaughn",
+    title: 'Argylle',
+    director: 'Matthew Vaughn',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -4660,8 +4644,8 @@ export const hikenMovies: UserMovie[] = [
   },
 
   {
-    title: "It Chapter Two",
-    director: "Andy Muschietti",
+    title: 'It Chapter Two',
+    director: 'Andy Muschietti',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -4677,8 +4661,8 @@ export const hikenMovies: UserMovie[] = [
   },
 
   {
-    title: "Justice League",
-    director: "Zack Snyder",
+    title: 'Justice League',
+    director: 'Zack Snyder',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -4694,8 +4678,8 @@ export const hikenMovies: UserMovie[] = [
   },
 
   {
-    title: "Ça",
-    director: "Andy Muschietti",
+    title: 'Ça',
+    director: 'Andy Muschietti',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -4712,7 +4696,7 @@ export const hikenMovies: UserMovie[] = [
 
   {
     title: "Le Roi Arthur : La Légende d'Excalibur",
-    director: "Guy Ritchie",
+    director: 'Guy Ritchie',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -4728,8 +4712,8 @@ export const hikenMovies: UserMovie[] = [
   },
 
   {
-    title: "Get Out",
-    director: "Jordan Peele",
+    title: 'Get Out',
+    director: 'Jordan Peele',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -4745,8 +4729,8 @@ export const hikenMovies: UserMovie[] = [
   },
 
   {
-    title: "Moonlight",
-    director: "Barry Jenkins",
+    title: 'Moonlight',
+    director: 'Barry Jenkins',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -4762,8 +4746,8 @@ export const hikenMovies: UserMovie[] = [
   },
 
   {
-    title: "Teenage Mutant Ninja Turtles: Out of the Shadows",
-    director: "Dave Green",
+    title: 'Teenage Mutant Ninja Turtles: Out of the Shadows',
+    director: 'Dave Green',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -4779,8 +4763,8 @@ export const hikenMovies: UserMovie[] = [
   },
 
   {
-    title: "Godzilla",
-    director: "Gareth Edwards",
+    title: 'Godzilla',
+    director: 'Gareth Edwards',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -4797,7 +4781,7 @@ export const hikenMovies: UserMovie[] = [
 
   {
     title: "300 : La Naissance d'un Empire",
-    director: "Noam Murro",
+    director: 'Noam Murro',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -4813,8 +4797,8 @@ export const hikenMovies: UserMovie[] = [
   },
 
   {
-    title: "Mister Babadook",
-    director: "Jennifer Kent",
+    title: 'Mister Babadook',
+    director: 'Jennifer Kent',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -4830,8 +4814,8 @@ export const hikenMovies: UserMovie[] = [
   },
 
   {
-    title: "Whiplash",
-    director: "Damien Chazelle",
+    title: 'Whiplash',
+    director: 'Damien Chazelle',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -4847,8 +4831,8 @@ export const hikenMovies: UserMovie[] = [
   },
 
   {
-    title: "Insidious : Chapitre 2",
-    director: "James Wan",
+    title: 'Insidious : Chapitre 2',
+    director: 'James Wan',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -4864,8 +4848,8 @@ export const hikenMovies: UserMovie[] = [
   },
 
   {
-    title: "Percy Jackson : La Mer des monstres",
-    director: "Thor Freudenthal",
+    title: 'Percy Jackson : La Mer des monstres',
+    director: 'Thor Freudenthal',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -4881,8 +4865,8 @@ export const hikenMovies: UserMovie[] = [
   },
 
   {
-    title: "Les Miller, une famille en herbe",
-    director: "Rawson Marshall Thurber",
+    title: 'Les Miller, une famille en herbe',
+    director: 'Rawson Marshall Thurber',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -4898,8 +4882,8 @@ export const hikenMovies: UserMovie[] = [
   },
 
   {
-    title: "Les Stagiaires",
-    director: "Shawn Levy",
+    title: 'Les Stagiaires',
+    director: 'Shawn Levy',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -4916,7 +4900,7 @@ export const hikenMovies: UserMovie[] = [
 
   {
     title: "C'est la fin",
-    director: "Evan Goldberg, Seth Rogen",
+    director: 'Evan Goldberg, Seth Rogen',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -4932,8 +4916,8 @@ export const hikenMovies: UserMovie[] = [
   },
 
   {
-    title: "G.I. Joe : Conspiration",
-    director: "Jon M. Chu",
+    title: 'G.I. Joe : Conspiration',
+    director: 'Jon M. Chu',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -4949,8 +4933,8 @@ export const hikenMovies: UserMovie[] = [
   },
 
   {
-    title: "Insidious",
-    director: "James Wan",
+    title: 'Insidious',
+    director: 'James Wan',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -4966,8 +4950,8 @@ export const hikenMovies: UserMovie[] = [
   },
 
   {
-    title: "Piranha 3D",
-    director: "Alexandre Aja",
+    title: 'Piranha 3D',
+    director: 'Alexandre Aja',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -4984,7 +4968,7 @@ export const hikenMovies: UserMovie[] = [
 
   {
     title: "Le Livre d'Eli",
-    director: "Albert Hughes, Allen Hughes",
+    director: 'Albert Hughes, Allen Hughes',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -5000,8 +4984,8 @@ export const hikenMovies: UserMovie[] = [
   },
 
   {
-    title: "G.I. Joe : Le Réveil du Cobra",
-    director: "Stephen Sommers",
+    title: 'G.I. Joe : Le Réveil du Cobra',
+    director: 'Stephen Sommers',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -5017,8 +5001,8 @@ export const hikenMovies: UserMovie[] = [
   },
 
   {
-    title: "Coco",
-    director: "Gad Elmaleh",
+    title: 'Coco',
+    director: 'Gad Elmaleh',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -5034,8 +5018,8 @@ export const hikenMovies: UserMovie[] = [
   },
 
   {
-    title: "Benjamin Gates et le Livre des secrets",
-    director: "Jon Turteltaub",
+    title: 'Benjamin Gates et le Livre des secrets',
+    director: 'Jon Turteltaub',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -5051,8 +5035,8 @@ export const hikenMovies: UserMovie[] = [
   },
 
   {
-    title: "High School Musical 2",
-    director: "Kenny Ortega",
+    title: 'High School Musical 2',
+    director: 'Kenny Ortega',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -5068,8 +5052,8 @@ export const hikenMovies: UserMovie[] = [
   },
 
   {
-    title: "Sunshine",
-    director: "Danny Boyle",
+    title: 'Sunshine',
+    director: 'Danny Boyle',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -5085,8 +5069,8 @@ export const hikenMovies: UserMovie[] = [
   },
 
   {
-    title: "Eragon",
-    director: "Stefen Fangmeier",
+    title: 'Eragon',
+    director: 'Stefen Fangmeier',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -5102,8 +5086,8 @@ export const hikenMovies: UserMovie[] = [
   },
 
   {
-    title: "High School Musical : Premiers pas sur scène",
-    director: "Kenny Ortega",
+    title: 'High School Musical : Premiers pas sur scène',
+    director: 'Kenny Ortega',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -5119,8 +5103,8 @@ export const hikenMovies: UserMovie[] = [
   },
 
   {
-    title: "Benjamin Gates et le Trésor des Templiers",
-    director: "Jon Turteltaub",
+    title: 'Benjamin Gates et le Trésor des Templiers',
+    director: 'Jon Turteltaub',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -5136,8 +5120,8 @@ export const hikenMovies: UserMovie[] = [
   },
 
   {
-    title: "Collatéral",
-    director: "Michael Mann",
+    title: 'Collatéral',
+    director: 'Michael Mann',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -5153,8 +5137,8 @@ export const hikenMovies: UserMovie[] = [
   },
 
   {
-    title: "F.B.I. : Fausses blondes infiltrées",
-    director: "Keenen Ivory Wayans",
+    title: 'F.B.I. : Fausses blondes infiltrées',
+    director: 'Keenen Ivory Wayans',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -5170,8 +5154,8 @@ export const hikenMovies: UserMovie[] = [
   },
 
   {
-    title: "Deux Frères",
-    director: "Jean-Jacques Annaud",
+    title: 'Deux Frères',
+    director: 'Jean-Jacques Annaud',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -5187,8 +5171,8 @@ export const hikenMovies: UserMovie[] = [
   },
 
   {
-    title: "Le Projet Blair Witch",
-    director: "Daniel Myrick, Eduardo Sánchez",
+    title: 'Le Projet Blair Witch',
+    director: 'Daniel Myrick, Eduardo Sánchez',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -5204,8 +5188,8 @@ export const hikenMovies: UserMovie[] = [
   },
 
   {
-    title: "Le Masque de Zorro",
-    director: "Martin Campbell",
+    title: 'Le Masque de Zorro',
+    director: 'Martin Campbell',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -5221,8 +5205,8 @@ export const hikenMovies: UserMovie[] = [
   },
 
   {
-    title: "Sister Act",
-    director: "Emile Ardolino",
+    title: 'Sister Act',
+    director: 'Emile Ardolino',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -5238,8 +5222,8 @@ export const hikenMovies: UserMovie[] = [
   },
 
   {
-    title: "Charlie, les filles lui disent merci",
-    director: "Mark Helfrich",
+    title: 'Charlie, les filles lui disent merci',
+    director: 'Mark Helfrich',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -5255,8 +5239,8 @@ export const hikenMovies: UserMovie[] = [
   },
 
   {
-    title: "Sexy Dance",
-    director: "Anne Fletcher",
+    title: 'Sexy Dance',
+    director: 'Anne Fletcher',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -5272,8 +5256,8 @@ export const hikenMovies: UserMovie[] = [
   },
 
   {
-    title: "La proposition",
-    director: "Anne Fletcher",
+    title: 'La proposition',
+    director: 'Anne Fletcher',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -5289,8 +5273,8 @@ export const hikenMovies: UserMovie[] = [
   },
 
   {
-    title: "Hitch : Expert en Séduction",
-    director: "Andy Tennant",
+    title: 'Hitch : Expert en Séduction',
+    director: 'Andy Tennant',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -5306,8 +5290,8 @@ export const hikenMovies: UserMovie[] = [
   },
 
   {
-    title: "Sexe entre amis",
-    director: "Will Gluck",
+    title: 'Sexe entre amis',
+    director: 'Will Gluck',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -5323,8 +5307,8 @@ export const hikenMovies: UserMovie[] = [
   },
 
   {
-    title: "Le Journal de Bridget Jones",
-    director: "Sharon Maguire",
+    title: 'Le Journal de Bridget Jones',
+    director: 'Sharon Maguire',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -5340,8 +5324,8 @@ export const hikenMovies: UserMovie[] = [
   },
 
   {
-    title: "Mary à tout prix",
-    director: "Bobby Farrelly, Peter Farrelly",
+    title: 'Mary à tout prix',
+    director: 'Bobby Farrelly, Peter Farrelly',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -5357,8 +5341,8 @@ export const hikenMovies: UserMovie[] = [
   },
 
   {
-    title: "Titanic",
-    director: "James Cameron",
+    title: 'Titanic',
+    director: 'James Cameron',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -5374,8 +5358,8 @@ export const hikenMovies: UserMovie[] = [
   },
 
   {
-    title: "Grease",
-    director: "Randal Kleiser",
+    title: 'Grease',
+    director: 'Randal Kleiser',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -5391,8 +5375,8 @@ export const hikenMovies: UserMovie[] = [
   },
 
   {
-    title: "Avengers",
-    director: "Joss Whedon",
+    title: 'Avengers',
+    director: 'Joss Whedon',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -5409,7 +5393,7 @@ export const hikenMovies: UserMovie[] = [
 
   {
     title: "Avengers : L'Ère d'Ultron",
-    director: "Joss Whedon",
+    director: 'Joss Whedon',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -5425,8 +5409,8 @@ export const hikenMovies: UserMovie[] = [
   },
 
   {
-    title: "Avengers: Infinity War",
-    director: "Anthony Russo, Joe Russo",
+    title: 'Avengers: Infinity War',
+    director: 'Anthony Russo, Joe Russo',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -5442,8 +5426,8 @@ export const hikenMovies: UserMovie[] = [
   },
 
   {
-    title: "Avengers: Endgame",
-    director: "Anthony Russo, Joe Russo",
+    title: 'Avengers: Endgame',
+    director: 'Anthony Russo, Joe Russo',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -5459,8 +5443,8 @@ export const hikenMovies: UserMovie[] = [
   },
 
   {
-    title: "Captain America : First Avenger",
-    director: "Joe Johnston",
+    title: 'Captain America : First Avenger',
+    director: 'Joe Johnston',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -5477,7 +5461,7 @@ export const hikenMovies: UserMovie[] = [
 
   {
     title: "Captain America : Le Soldat de l'Hiver",
-    director: "Anthony Russo, Joe Russo",
+    director: 'Anthony Russo, Joe Russo',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -5493,8 +5477,8 @@ export const hikenMovies: UserMovie[] = [
   },
 
   {
-    title: "Captain America : Civil War",
-    director: "Anthony Russo, Joe Russo",
+    title: 'Captain America : Civil War',
+    director: 'Anthony Russo, Joe Russo',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -5510,8 +5494,8 @@ export const hikenMovies: UserMovie[] = [
   },
 
   {
-    title: "Iron Man",
-    director: "Jon Favreau",
+    title: 'Iron Man',
+    director: 'Jon Favreau',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -5527,8 +5511,8 @@ export const hikenMovies: UserMovie[] = [
   },
 
   {
-    title: "Iron Man 2",
-    director: "Jon Favreau",
+    title: 'Iron Man 2',
+    director: 'Jon Favreau',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -5544,8 +5528,8 @@ export const hikenMovies: UserMovie[] = [
   },
 
   {
-    title: "Iron Man 3",
-    director: "Shane Black",
+    title: 'Iron Man 3',
+    director: 'Shane Black',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -5562,7 +5546,7 @@ export const hikenMovies: UserMovie[] = [
 
   {
     title: "L'Incroyable Hulk",
-    director: "Louis Leterrier",
+    director: 'Louis Leterrier',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -5578,8 +5562,8 @@ export const hikenMovies: UserMovie[] = [
   },
 
   {
-    title: "Thor",
-    director: "Kenneth Branagh",
+    title: 'Thor',
+    director: 'Kenneth Branagh',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -5595,8 +5579,8 @@ export const hikenMovies: UserMovie[] = [
   },
 
   {
-    title: "Thor: The Dark World",
-    director: "Alan Taylor",
+    title: 'Thor: The Dark World',
+    director: 'Alan Taylor',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -5612,8 +5596,8 @@ export const hikenMovies: UserMovie[] = [
   },
 
   {
-    title: "Thor: Ragnarok",
-    director: "Taika Waititi",
+    title: 'Thor: Ragnarok',
+    director: 'Taika Waititi',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -5629,8 +5613,8 @@ export const hikenMovies: UserMovie[] = [
   },
 
   {
-    title: "Captain Marvel",
-    director: "Anna Boden, Ryan Fleck",
+    title: 'Captain Marvel',
+    director: 'Anna Boden, Ryan Fleck',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -5646,8 +5630,8 @@ export const hikenMovies: UserMovie[] = [
   },
 
   {
-    title: "Doctor Strange",
-    director: "Scott Derrickson",
+    title: 'Doctor Strange',
+    director: 'Scott Derrickson',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -5663,8 +5647,8 @@ export const hikenMovies: UserMovie[] = [
   },
 
   {
-    title: "Black Panther",
-    director: "Ryan Coogler",
+    title: 'Black Panther',
+    director: 'Ryan Coogler',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -5680,8 +5664,8 @@ export const hikenMovies: UserMovie[] = [
   },
 
   {
-    title: "Black Panther : Wakanda pour Toujours",
-    director: "Ryan Coogler",
+    title: 'Black Panther : Wakanda pour Toujours',
+    director: 'Ryan Coogler',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -5697,8 +5681,8 @@ export const hikenMovies: UserMovie[] = [
   },
 
   {
-    title: "Les Gardiens de la Galaxie",
-    director: "James Gunn",
+    title: 'Les Gardiens de la Galaxie',
+    director: 'James Gunn',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -5714,8 +5698,8 @@ export const hikenMovies: UserMovie[] = [
   },
 
   {
-    title: "Les Gardiens de la Galaxie Vol. 2",
-    director: "James Gunn",
+    title: 'Les Gardiens de la Galaxie Vol. 2',
+    director: 'James Gunn',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -5731,8 +5715,8 @@ export const hikenMovies: UserMovie[] = [
   },
 
   {
-    title: "Ant-Man",
-    director: "Peyton Reed",
+    title: 'Ant-Man',
+    director: 'Peyton Reed',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -5748,8 +5732,8 @@ export const hikenMovies: UserMovie[] = [
   },
 
   {
-    title: "Spider-Man: Homecoming",
-    director: "Jon Watts",
+    title: 'Spider-Man: Homecoming',
+    director: 'Jon Watts',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -5765,8 +5749,8 @@ export const hikenMovies: UserMovie[] = [
   },
 
   {
-    title: "Spider-Man: Far From Home",
-    director: "Jon Watts",
+    title: 'Spider-Man: Far From Home',
+    director: 'Jon Watts',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -5782,8 +5766,8 @@ export const hikenMovies: UserMovie[] = [
   },
 
   {
-    title: "Deadpool et Wolverine",
-    director: "Shawn Levy",
+    title: 'Deadpool et Wolverine',
+    director: 'Shawn Levy',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -5799,8 +5783,8 @@ export const hikenMovies: UserMovie[] = [
   },
 
   {
-    title: "Deadpool",
-    director: "Tim Miller",
+    title: 'Deadpool',
+    director: 'Tim Miller',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -5816,8 +5800,8 @@ export const hikenMovies: UserMovie[] = [
   },
 
   {
-    title: "Deadpool 2",
-    director: "David Leitch",
+    title: 'Deadpool 2',
+    director: 'David Leitch',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -5833,8 +5817,8 @@ export const hikenMovies: UserMovie[] = [
   },
 
   {
-    title: "Daredevil",
-    director: "Mark Steven Johnson",
+    title: 'Daredevil',
+    director: 'Mark Steven Johnson',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -5850,8 +5834,8 @@ export const hikenMovies: UserMovie[] = [
   },
 
   {
-    title: "X-Men",
-    director: "Bryan Singer",
+    title: 'X-Men',
+    director: 'Bryan Singer',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -5867,8 +5851,8 @@ export const hikenMovies: UserMovie[] = [
   },
 
   {
-    title: "X-men 2",
-    director: "Bryan Singer",
+    title: 'X-men 2',
+    director: 'Bryan Singer',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -5885,7 +5869,7 @@ export const hikenMovies: UserMovie[] = [
 
   {
     title: "X-Men : L'Affrontement Final",
-    director: "Brett Ratner",
+    director: 'Brett Ratner',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -5901,8 +5885,8 @@ export const hikenMovies: UserMovie[] = [
   },
 
   {
-    title: "X-Men Origins : Wolverine",
-    director: "Gavin Hood",
+    title: 'X-Men Origins : Wolverine',
+    director: 'Gavin Hood',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -5918,8 +5902,8 @@ export const hikenMovies: UserMovie[] = [
   },
 
   {
-    title: "Logan",
-    director: "James Mangold",
+    title: 'Logan',
+    director: 'James Mangold',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -5935,8 +5919,8 @@ export const hikenMovies: UserMovie[] = [
   },
 
   {
-    title: "X-Men : Le Commencement",
-    director: "Matthew Vaughn",
+    title: 'X-Men : Le Commencement',
+    director: 'Matthew Vaughn',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -5952,8 +5936,8 @@ export const hikenMovies: UserMovie[] = [
   },
 
   {
-    title: "X-Men : Days of Future Past",
-    director: "Bryan Singer",
+    title: 'X-Men : Days of Future Past',
+    director: 'Bryan Singer',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -5969,8 +5953,8 @@ export const hikenMovies: UserMovie[] = [
   },
 
   {
-    title: "X-Men : Apocalypse",
-    director: "Bryan Singer",
+    title: 'X-Men : Apocalypse',
+    director: 'Bryan Singer',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -5986,8 +5970,8 @@ export const hikenMovies: UserMovie[] = [
   },
 
   {
-    title: "X-Men :Dark Phoenix",
-    director: "Simon Kinberg",
+    title: 'X-Men :Dark Phoenix',
+    director: 'Simon Kinberg',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -6003,8 +5987,8 @@ export const hikenMovies: UserMovie[] = [
   },
 
   {
-    title: "Venom",
-    director: "Ruben Fleischer",
+    title: 'Venom',
+    director: 'Ruben Fleischer',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -6020,8 +6004,8 @@ export const hikenMovies: UserMovie[] = [
   },
 
   {
-    title: "Spider-Man",
-    director: "Sam Raimi",
+    title: 'Spider-Man',
+    director: 'Sam Raimi',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -6037,8 +6021,8 @@ export const hikenMovies: UserMovie[] = [
   },
 
   {
-    title: "Spider-Man 2",
-    director: "Sam Raimi",
+    title: 'Spider-Man 2',
+    director: 'Sam Raimi',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -6054,8 +6038,8 @@ export const hikenMovies: UserMovie[] = [
   },
 
   {
-    title: "Spider-Man 3",
-    director: "Sam Raimi",
+    title: 'Spider-Man 3',
+    director: 'Sam Raimi',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -6071,8 +6055,8 @@ export const hikenMovies: UserMovie[] = [
   },
 
   {
-    title: "The Amazing Spider-Man",
-    director: "Marc Webb",
+    title: 'The Amazing Spider-Man',
+    director: 'Marc Webb',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -6089,7 +6073,7 @@ export const hikenMovies: UserMovie[] = [
 
   {
     title: "The Amazing Spider-Man : Le Destin d'un Héros",
-    director: "Marc Webb",
+    director: 'Marc Webb',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -6105,8 +6089,8 @@ export const hikenMovies: UserMovie[] = [
   },
 
   {
-    title: "Kick-Ass",
-    director: "Matthew Vaughn",
+    title: 'Kick-Ass',
+    director: 'Matthew Vaughn',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -6122,8 +6106,8 @@ export const hikenMovies: UserMovie[] = [
   },
 
   {
-    title: "Hancock",
-    director: "Peter Berg",
+    title: 'Hancock',
+    director: 'Peter Berg',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -6139,8 +6123,8 @@ export const hikenMovies: UserMovie[] = [
   },
 
   {
-    title: "Les 4 Fantastiques",
-    director: "Tim Story",
+    title: 'Les 4 Fantastiques',
+    director: 'Tim Story',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -6157,7 +6141,7 @@ export const hikenMovies: UserMovie[] = [
 
   {
     title: "Les 4 Fantastiques et le Surfeur d'Argent",
-    director: "Tim Story",
+    director: 'Tim Story',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -6173,8 +6157,8 @@ export const hikenMovies: UserMovie[] = [
   },
 
   {
-    title: "Ghost Rider",
-    director: "Mark Steven Johnson",
+    title: 'Ghost Rider',
+    director: 'Mark Steven Johnson',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -6190,8 +6174,8 @@ export const hikenMovies: UserMovie[] = [
   },
 
   {
-    title: "Hulk",
-    director: "Ang Lee",
+    title: 'Hulk',
+    director: 'Ang Lee',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -6208,7 +6192,7 @@ export const hikenMovies: UserMovie[] = [
 
   {
     title: "Harry Potter à l'école des sorciers",
-    director: "Chris Columbus",
+    director: 'Chris Columbus',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -6224,8 +6208,8 @@ export const hikenMovies: UserMovie[] = [
   },
 
   {
-    title: "Harry Potter et la chambre des secrets",
-    director: "Chris Columbus",
+    title: 'Harry Potter et la chambre des secrets',
+    director: 'Chris Columbus',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -6242,7 +6226,7 @@ export const hikenMovies: UserMovie[] = [
 
   {
     title: "Harry Potter et le prisonnier d'Azkaban",
-    director: "Alfonso Cuarón",
+    director: 'Alfonso Cuarón',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -6258,8 +6242,8 @@ export const hikenMovies: UserMovie[] = [
   },
 
   {
-    title: "Harry Potter et la coupe de feu",
-    director: "Mike Newell",
+    title: 'Harry Potter et la coupe de feu',
+    director: 'Mike Newell',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -6276,7 +6260,7 @@ export const hikenMovies: UserMovie[] = [
 
   {
     title: "Harry Potter et l'ordre du phénix",
-    director: "David Yates",
+    director: 'David Yates',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -6292,8 +6276,8 @@ export const hikenMovies: UserMovie[] = [
   },
 
   {
-    title: "Harry Potter et le prince de sang-mêlé",
-    director: "David Yates",
+    title: 'Harry Potter et le prince de sang-mêlé',
+    director: 'David Yates',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -6309,8 +6293,8 @@ export const hikenMovies: UserMovie[] = [
   },
 
   {
-    title: "Harry Potter et les reliques de la mort - partie 1",
-    director: "David Yates",
+    title: 'Harry Potter et les reliques de la mort - partie 1',
+    director: 'David Yates',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -6326,8 +6310,8 @@ export const hikenMovies: UserMovie[] = [
   },
 
   {
-    title: "Harry Potter et les reliques de la mort - partie 2",
-    director: "David Yates",
+    title: 'Harry Potter et les reliques de la mort - partie 2',
+    director: 'David Yates',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -6343,8 +6327,8 @@ export const hikenMovies: UserMovie[] = [
   },
 
   {
-    title: "Star Wars : Épisode 1 - La menace fantôme",
-    director: "George Lucas",
+    title: 'Star Wars : Épisode 1 - La menace fantôme',
+    director: 'George Lucas',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -6361,7 +6345,7 @@ export const hikenMovies: UserMovie[] = [
 
   {
     title: "Star Wars: Episode 2 - L'attaque des clones",
-    director: "George Lucas",
+    director: 'George Lucas',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -6377,8 +6361,8 @@ export const hikenMovies: UserMovie[] = [
   },
 
   {
-    title: "Star Wars : Épisode 3 - La revanche des Sith",
-    director: "George Lucas",
+    title: 'Star Wars : Épisode 3 - La revanche des Sith',
+    director: 'George Lucas',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -6394,8 +6378,8 @@ export const hikenMovies: UserMovie[] = [
   },
 
   {
-    title: "Star Wars : Episode 4 - Un nouvel espoir",
-    director: "George Lucas",
+    title: 'Star Wars : Episode 4 - Un nouvel espoir',
+    director: 'George Lucas',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -6412,7 +6396,7 @@ export const hikenMovies: UserMovie[] = [
 
   {
     title: "Star Wars : Episode 5 - L'empire contre-attaque",
-    director: "Irvin Kershner",
+    director: 'Irvin Kershner',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -6428,8 +6412,8 @@ export const hikenMovies: UserMovie[] = [
   },
 
   {
-    title: "Star Wars : Episode 6 - Le retour du Jedi",
-    director: "Richard Marquand",
+    title: 'Star Wars : Episode 6 - Le retour du Jedi',
+    director: 'Richard Marquand',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -6445,8 +6429,8 @@ export const hikenMovies: UserMovie[] = [
   },
 
   {
-    title: "Star Wars : Episode 7 - Le réveil de la Force",
-    director: "J.J. Abrams",
+    title: 'Star Wars : Episode 7 - Le réveil de la Force',
+    director: 'J.J. Abrams',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -6462,8 +6446,8 @@ export const hikenMovies: UserMovie[] = [
   },
 
   {
-    title: "Star Wars : Episode 8 - Le dernier Jedi",
-    director: "Rian Johnson",
+    title: 'Star Wars : Episode 8 - Le dernier Jedi',
+    director: 'Rian Johnson',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -6479,8 +6463,8 @@ export const hikenMovies: UserMovie[] = [
   },
 
   {
-    title: "Fast and Furious",
-    director: "Rob Cohen",
+    title: 'Fast and Furious',
+    director: 'Rob Cohen',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -6496,8 +6480,8 @@ export const hikenMovies: UserMovie[] = [
   },
 
   {
-    title: "2 Fast 2 Furious",
-    director: "John Singleton",
+    title: '2 Fast 2 Furious',
+    director: 'John Singleton',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -6513,8 +6497,8 @@ export const hikenMovies: UserMovie[] = [
   },
 
   {
-    title: "Fast and Furious : Tokyo Drift",
-    director: "Justin Lin",
+    title: 'Fast and Furious : Tokyo Drift',
+    director: 'Justin Lin',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -6530,8 +6514,8 @@ export const hikenMovies: UserMovie[] = [
   },
 
   {
-    title: "Fast & Furious 4",
-    director: "Justin Lin",
+    title: 'Fast & Furious 4',
+    director: 'Justin Lin',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -6547,8 +6531,8 @@ export const hikenMovies: UserMovie[] = [
   },
 
   {
-    title: "Fast & Furious 5",
-    director: "Justin Lin",
+    title: 'Fast & Furious 5',
+    director: 'Justin Lin',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -6564,8 +6548,8 @@ export const hikenMovies: UserMovie[] = [
   },
 
   {
-    title: "Fast & Furious 6",
-    director: "Justin Lin",
+    title: 'Fast & Furious 6',
+    director: 'Justin Lin',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -6581,8 +6565,8 @@ export const hikenMovies: UserMovie[] = [
   },
 
   {
-    title: "Fast & Furious 7",
-    director: "James Wan",
+    title: 'Fast & Furious 7',
+    director: 'James Wan',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -6598,8 +6582,8 @@ export const hikenMovies: UserMovie[] = [
   },
 
   {
-    title: "Fast & Furious Presents: Hobbs & Shaw",
-    director: "David Leitch",
+    title: 'Fast & Furious Presents: Hobbs & Shaw',
+    director: 'David Leitch',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -6615,8 +6599,8 @@ export const hikenMovies: UserMovie[] = [
   },
 
   {
-    title: "Rocky",
-    director: "John G. Avildsen",
+    title: 'Rocky',
+    director: 'John G. Avildsen',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -6632,8 +6616,8 @@ export const hikenMovies: UserMovie[] = [
   },
 
   {
-    title: "Rocky II",
-    director: "Sylvester Stallone",
+    title: 'Rocky II',
+    director: 'Sylvester Stallone',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -6649,8 +6633,8 @@ export const hikenMovies: UserMovie[] = [
   },
 
   {
-    title: "Rocky III",
-    director: "Sylvester Stallone",
+    title: 'Rocky III',
+    director: 'Sylvester Stallone',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -6666,8 +6650,8 @@ export const hikenMovies: UserMovie[] = [
   },
 
   {
-    title: "Rocky IV",
-    director: "Sylvester Stallone",
+    title: 'Rocky IV',
+    director: 'Sylvester Stallone',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -6683,8 +6667,8 @@ export const hikenMovies: UserMovie[] = [
   },
 
   {
-    title: "Rocky V",
-    director: "John G. Avildsen",
+    title: 'Rocky V',
+    director: 'John G. Avildsen',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -6700,8 +6684,8 @@ export const hikenMovies: UserMovie[] = [
   },
 
   {
-    title: "The Terminator",
-    director: "James Cameron",
+    title: 'The Terminator',
+    director: 'James Cameron',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -6717,8 +6701,8 @@ export const hikenMovies: UserMovie[] = [
   },
 
   {
-    title: "Terminator 2: Judgment Day",
-    director: "James Cameron",
+    title: 'Terminator 2: Judgment Day',
+    director: 'James Cameron',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -6734,8 +6718,8 @@ export const hikenMovies: UserMovie[] = [
   },
 
   {
-    title: "Matrix",
-    director: "Lana Wachowski, Lilly Wachowski",
+    title: 'Matrix',
+    director: 'Lana Wachowski, Lilly Wachowski',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -6751,8 +6735,8 @@ export const hikenMovies: UserMovie[] = [
   },
 
   {
-    title: "The Matrix Reloaded",
-    director: "Lana Wachowski, Lilly Wachowski",
+    title: 'The Matrix Reloaded',
+    director: 'Lana Wachowski, Lilly Wachowski',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -6768,8 +6752,8 @@ export const hikenMovies: UserMovie[] = [
   },
 
   {
-    title: "The Matrix Revolutions",
-    director: "Lana Wachowski, Lilly Wachowski",
+    title: 'The Matrix Revolutions',
+    director: 'Lana Wachowski, Lilly Wachowski',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -6785,8 +6769,8 @@ export const hikenMovies: UserMovie[] = [
   },
 
   {
-    title: "Spy Kids",
-    director: "Robert Rodriguez",
+    title: 'Spy Kids',
+    director: 'Robert Rodriguez',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -6802,8 +6786,8 @@ export const hikenMovies: UserMovie[] = [
   },
 
   {
-    title: "Bad Boys",
-    director: "Michael Bay",
+    title: 'Bad Boys',
+    director: 'Michael Bay',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -6819,8 +6803,8 @@ export const hikenMovies: UserMovie[] = [
   },
 
   {
-    title: "Bad Boys II",
-    director: "Michael Bay",
+    title: 'Bad Boys II',
+    director: 'Michael Bay',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -6836,8 +6820,8 @@ export const hikenMovies: UserMovie[] = [
   },
 
   {
-    title: "Bad Boys for Life",
-    director: "Adil El Arbi, Bilall Fallah",
+    title: 'Bad Boys for Life',
+    director: 'Adil El Arbi, Bilall Fallah',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -6853,8 +6837,8 @@ export const hikenMovies: UserMovie[] = [
   },
 
   {
-    title: "Bad Boys Ride or Die",
-    director: "Adil El Arbi, Bilall Fallah",
+    title: 'Bad Boys Ride or Die',
+    director: 'Adil El Arbi, Bilall Fallah',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -6870,8 +6854,8 @@ export const hikenMovies: UserMovie[] = [
   },
 
   {
-    title: "Men in Black",
-    director: "Barry Sonnenfeld",
+    title: 'Men in Black',
+    director: 'Barry Sonnenfeld',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -6887,8 +6871,8 @@ export const hikenMovies: UserMovie[] = [
   },
 
   {
-    title: "Men in Black II",
-    director: "Barry Sonnenfeld",
+    title: 'Men in Black II',
+    director: 'Barry Sonnenfeld',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -6904,8 +6888,8 @@ export const hikenMovies: UserMovie[] = [
   },
 
   {
-    title: "Men in Black 3",
-    director: "Barry Sonnenfeld",
+    title: 'Men in Black 3',
+    director: 'Barry Sonnenfeld',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -6921,8 +6905,8 @@ export const hikenMovies: UserMovie[] = [
   },
 
   {
-    title: "Lara Croft : Tomb Raider",
-    director: "Simon West",
+    title: 'Lara Croft : Tomb Raider',
+    director: 'Simon West',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -6938,8 +6922,8 @@ export const hikenMovies: UserMovie[] = [
   },
 
   {
-    title: "La Momie",
-    director: "Stephen Sommers",
+    title: 'La Momie',
+    director: 'Stephen Sommers',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -6955,8 +6939,8 @@ export const hikenMovies: UserMovie[] = [
   },
 
   {
-    title: "Alien vs. Predator",
-    director: "Paul W.S. Anderson",
+    title: 'Alien vs. Predator',
+    director: 'Paul W.S. Anderson',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -6972,8 +6956,8 @@ export const hikenMovies: UserMovie[] = [
   },
 
   {
-    title: "Alien vs. Predator : Requiem",
-    director: "Colin Strause, Greg Strause",
+    title: 'Alien vs. Predator : Requiem',
+    director: 'Colin Strause, Greg Strause',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -6989,8 +6973,8 @@ export const hikenMovies: UserMovie[] = [
   },
 
   {
-    title: "Independence Day",
-    director: "Roland Emmerich",
+    title: 'Independence Day',
+    director: 'Roland Emmerich',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -7006,8 +6990,8 @@ export const hikenMovies: UserMovie[] = [
   },
 
   {
-    title: "Retour vers le futur",
-    director: "Robert Zemeckis",
+    title: 'Retour vers le futur',
+    director: 'Robert Zemeckis',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -7023,8 +7007,8 @@ export const hikenMovies: UserMovie[] = [
   },
 
   {
-    title: "Retour vers le futur 2",
-    director: "Robert Zemeckis",
+    title: 'Retour vers le futur 2',
+    director: 'Robert Zemeckis',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -7040,8 +7024,8 @@ export const hikenMovies: UserMovie[] = [
   },
 
   {
-    title: "Retour vers le futur 3",
-    director: "Robert Zemeckis",
+    title: 'Retour vers le futur 3',
+    director: 'Robert Zemeckis',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -7057,8 +7041,8 @@ export const hikenMovies: UserMovie[] = [
   },
 
   {
-    title: "Le Parrain",
-    director: "Francis Ford Coppola",
+    title: 'Le Parrain',
+    director: 'Francis Ford Coppola',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -7074,8 +7058,8 @@ export const hikenMovies: UserMovie[] = [
   },
 
   {
-    title: "Le Parrain 2",
-    director: "Francis Ford Coppola",
+    title: 'Le Parrain 2',
+    director: 'Francis Ford Coppola',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -7091,8 +7075,8 @@ export const hikenMovies: UserMovie[] = [
   },
 
   {
-    title: "Le Labyrinthe",
-    director: "Wes Ball",
+    title: 'Le Labyrinthe',
+    director: 'Wes Ball',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -7108,8 +7092,8 @@ export const hikenMovies: UserMovie[] = [
   },
 
   {
-    title: "Hunger Games",
-    director: "Gary Ross",
+    title: 'Hunger Games',
+    director: 'Gary Ross',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -7126,7 +7110,7 @@ export const hikenMovies: UserMovie[] = [
 
   {
     title: "Hunger Games : L'Embrasement",
-    director: "Francis Lawrence",
+    director: 'Francis Lawrence',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -7142,8 +7126,8 @@ export const hikenMovies: UserMovie[] = [
   },
 
   {
-    title: "Hunger Games : La Révolte - Partie 1",
-    director: "Francis Lawrence",
+    title: 'Hunger Games : La Révolte - Partie 1',
+    director: 'Francis Lawrence',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -7159,8 +7143,8 @@ export const hikenMovies: UserMovie[] = [
   },
 
   {
-    title: "Hunger Games : La Révolte, partie 2",
-    director: "Francis Lawrence",
+    title: 'Hunger Games : La Révolte, partie 2',
+    director: 'Francis Lawrence',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -7176,8 +7160,8 @@ export const hikenMovies: UserMovie[] = [
   },
 
   {
-    title: "Transformers",
-    director: "Michael Bay",
+    title: 'Transformers',
+    director: 'Michael Bay',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -7193,8 +7177,8 @@ export const hikenMovies: UserMovie[] = [
   },
 
   {
-    title: "Transformers 2 : La Revanche",
-    director: "Michael Bay",
+    title: 'Transformers 2 : La Revanche',
+    director: 'Michael Bay',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -7210,8 +7194,8 @@ export const hikenMovies: UserMovie[] = [
   },
 
   {
-    title: "Transformers 3 : La Face Cachée de la Lune",
-    director: "Michael Bay",
+    title: 'Transformers 3 : La Face Cachée de la Lune',
+    director: 'Michael Bay',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -7228,7 +7212,7 @@ export const hikenMovies: UserMovie[] = [
 
   {
     title: "Transformers 4 : L'Âge de l'Extinction",
-    director: "Michael Bay",
+    director: 'Michael Bay',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -7244,8 +7228,8 @@ export const hikenMovies: UserMovie[] = [
   },
 
   {
-    title: "Transformers: The Last Knight",
-    director: "Michael Bay",
+    title: 'Transformers: The Last Knight',
+    director: 'Michael Bay',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -7261,8 +7245,8 @@ export const hikenMovies: UserMovie[] = [
   },
 
   {
-    title: "Very Bad Trip",
-    director: "Todd Phillips",
+    title: 'Very Bad Trip',
+    director: 'Todd Phillips',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -7278,8 +7262,8 @@ export const hikenMovies: UserMovie[] = [
   },
 
   {
-    title: "Very Bad Trip 2",
-    director: "Todd Phillips",
+    title: 'Very Bad Trip 2',
+    director: 'Todd Phillips',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -7295,8 +7279,8 @@ export const hikenMovies: UserMovie[] = [
   },
 
   {
-    title: "Very Bad Trip 3",
-    director: "Todd Phillips",
+    title: 'Very Bad Trip 3',
+    director: 'Todd Phillips',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -7312,8 +7296,8 @@ export const hikenMovies: UserMovie[] = [
   },
 
   {
-    title: "Die Hard : Piège de cristal",
-    director: "John McTiernan",
+    title: 'Die Hard : Piège de cristal',
+    director: 'John McTiernan',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -7329,8 +7313,8 @@ export const hikenMovies: UserMovie[] = [
   },
 
   {
-    title: "Die Hard 2 : 58 minutes pour vivre",
-    director: "Renny Harlin",
+    title: 'Die Hard 2 : 58 minutes pour vivre',
+    director: 'Renny Harlin',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -7346,8 +7330,8 @@ export const hikenMovies: UserMovie[] = [
   },
 
   {
-    title: "Die Hard 3 : une journée en enfer",
-    director: "John McTiernan",
+    title: 'Die Hard 3 : une journée en enfer',
+    director: 'John McTiernan',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -7363,8 +7347,8 @@ export const hikenMovies: UserMovie[] = [
   },
 
   {
-    title: "Die Hard 4 : Retour en Enfer",
-    director: "Len Wiseman",
+    title: 'Die Hard 4 : Retour en Enfer',
+    director: 'Len Wiseman',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -7380,8 +7364,8 @@ export const hikenMovies: UserMovie[] = [
   },
 
   {
-    title: "Die Hard : Belle Journée pour Mourir",
-    director: "John Moore",
+    title: 'Die Hard : Belle Journée pour Mourir',
+    director: 'John Moore',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -7397,8 +7381,8 @@ export const hikenMovies: UserMovie[] = [
   },
 
   {
-    title: "John Wick",
-    director: "Chad Stahelski",
+    title: 'John Wick',
+    director: 'Chad Stahelski',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -7414,8 +7398,8 @@ export const hikenMovies: UserMovie[] = [
   },
 
   {
-    title: "John Wick : Chapitre 2",
-    director: "Chad Stahelski",
+    title: 'John Wick : Chapitre 2',
+    director: 'Chad Stahelski',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -7431,8 +7415,8 @@ export const hikenMovies: UserMovie[] = [
   },
 
   {
-    title: "John Wick: Chapter 3 - Parabellum",
-    director: "Chad Stahelski",
+    title: 'John Wick: Chapter 3 - Parabellum',
+    director: 'Chad Stahelski',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -7448,8 +7432,8 @@ export const hikenMovies: UserMovie[] = [
   },
 
   {
-    title: "John Wick : Chapitre 4",
-    director: "Chad Stahelski",
+    title: 'John Wick : Chapitre 4',
+    director: 'Chad Stahelski',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -7465,8 +7449,8 @@ export const hikenMovies: UserMovie[] = [
   },
 
   {
-    title: "Les Animaux Fantastiques",
-    director: "David Yates",
+    title: 'Les Animaux Fantastiques',
+    director: 'David Yates',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -7482,8 +7466,8 @@ export const hikenMovies: UserMovie[] = [
   },
 
   {
-    title: "Les Animaux Fantastiques 2 : Les crimes de Grindelwald",
-    director: "David Yates",
+    title: 'Les Animaux Fantastiques 2 : Les crimes de Grindelwald',
+    director: 'David Yates',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -7499,8 +7483,8 @@ export const hikenMovies: UserMovie[] = [
   },
 
   {
-    title: "A couteaux tirés",
-    director: "Rian Johnson",
+    title: 'A couteaux tirés',
+    director: 'Rian Johnson',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -7516,8 +7500,8 @@ export const hikenMovies: UserMovie[] = [
   },
 
   {
-    title: "A couteaux tirés 2 : Glass Onion",
-    director: "Rian Johnson",
+    title: 'A couteaux tirés 2 : Glass Onion',
+    director: 'Rian Johnson',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -7534,7 +7518,7 @@ export const hikenMovies: UserMovie[] = [
 
   {
     title: "OSS 117 : Le Caire, Nid d'Espions",
-    director: "Michel Hazanavicius",
+    director: 'Michel Hazanavicius',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -7550,8 +7534,8 @@ export const hikenMovies: UserMovie[] = [
   },
 
   {
-    title: "Incassable",
-    director: "M. Night Shyamalan",
+    title: 'Incassable',
+    director: 'M. Night Shyamalan',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -7567,8 +7551,8 @@ export const hikenMovies: UserMovie[] = [
   },
 
   {
-    title: "Split",
-    director: "M. Night Shyamalan",
+    title: 'Split',
+    director: 'M. Night Shyamalan',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -7584,8 +7568,8 @@ export const hikenMovies: UserMovie[] = [
   },
 
   {
-    title: "Glass",
-    director: "M. Night Shyamalan",
+    title: 'Glass',
+    director: 'M. Night Shyamalan',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -7601,8 +7585,8 @@ export const hikenMovies: UserMovie[] = [
   },
 
   {
-    title: "Insaisissables",
-    director: "Louis Leterrier",
+    title: 'Insaisissables',
+    director: 'Louis Leterrier',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -7618,8 +7602,8 @@ export const hikenMovies: UserMovie[] = [
   },
 
   {
-    title: "Divergente",
-    director: "Neil Burger",
+    title: 'Divergente',
+    director: 'Neil Burger',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -7636,7 +7620,7 @@ export const hikenMovies: UserMovie[] = [
 
   {
     title: "Divergente 2 : L'Insurrection",
-    director: "Robert Schwentke",
+    director: 'Robert Schwentke',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -7652,8 +7636,8 @@ export const hikenMovies: UserMovie[] = [
   },
 
   {
-    title: "Divergente 3 : Au-delà du Mur",
-    director: "Robert Schwentke",
+    title: 'Divergente 3 : Au-delà du Mur',
+    director: 'Robert Schwentke',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -7669,8 +7653,8 @@ export const hikenMovies: UserMovie[] = [
   },
 
   {
-    title: "Taken",
-    director: "Pierre Morel",
+    title: 'Taken',
+    director: 'Pierre Morel',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -7686,8 +7670,8 @@ export const hikenMovies: UserMovie[] = [
   },
 
   {
-    title: "La nuit au musée",
-    director: "Shawn Levy",
+    title: 'La nuit au musée',
+    director: 'Shawn Levy',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -7703,8 +7687,8 @@ export const hikenMovies: UserMovie[] = [
   },
 
   {
-    title: "Banlieue 13",
-    director: "Pierre Morel",
+    title: 'Banlieue 13',
+    director: 'Pierre Morel',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -7720,8 +7704,8 @@ export const hikenMovies: UserMovie[] = [
   },
 
   {
-    title: "Banlieue 13 : Ultimatum",
-    director: "Patrick Alessandrin",
+    title: 'Banlieue 13 : Ultimatum',
+    director: 'Patrick Alessandrin',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -7737,8 +7721,8 @@ export const hikenMovies: UserMovie[] = [
   },
 
   {
-    title: "Rush Hour",
-    director: "Brett Ratner",
+    title: 'Rush Hour',
+    director: 'Brett Ratner',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -7754,8 +7738,8 @@ export const hikenMovies: UserMovie[] = [
   },
 
   {
-    title: "Rush Hour 2",
-    director: "Brett Ratner",
+    title: 'Rush Hour 2',
+    director: 'Brett Ratner',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -7771,8 +7755,8 @@ export const hikenMovies: UserMovie[] = [
   },
 
   {
-    title: "Rush Hour 3",
-    director: "Brett Ratner",
+    title: 'Rush Hour 3',
+    director: 'Brett Ratner',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -7789,7 +7773,7 @@ export const hikenMovies: UserMovie[] = [
 
   {
     title: "Ocean's Eleven",
-    director: "Steven Soderbergh",
+    director: 'Steven Soderbergh',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -7806,7 +7790,7 @@ export const hikenMovies: UserMovie[] = [
 
   {
     title: "Ocean's Twelve",
-    director: "Steven Soderbergh",
+    director: 'Steven Soderbergh',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -7823,7 +7807,7 @@ export const hikenMovies: UserMovie[] = [
 
   {
     title: "Ocean's Thirteen",
-    director: "Steven Soderbergh",
+    director: 'Steven Soderbergh',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -7839,8 +7823,8 @@ export const hikenMovies: UserMovie[] = [
   },
 
   {
-    title: "Pirates des Caraïbes : La malédiction du Black Pearl",
-    director: "Gore Verbinski",
+    title: 'Pirates des Caraïbes : La malédiction du Black Pearl',
+    director: 'Gore Verbinski',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -7856,8 +7840,8 @@ export const hikenMovies: UserMovie[] = [
   },
 
   {
-    title: "Pirates des Caraïbes 2 : Le Secret du Coffre Maudit",
-    director: "Gore Verbinski",
+    title: 'Pirates des Caraïbes 2 : Le Secret du Coffre Maudit',
+    director: 'Gore Verbinski',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -7874,7 +7858,7 @@ export const hikenMovies: UserMovie[] = [
 
   {
     title: "Pirates des Caraïbes 3 : Jusqu'au Bout du Monde",
-    director: "Gore Verbinski",
+    director: 'Gore Verbinski',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -7890,8 +7874,8 @@ export const hikenMovies: UserMovie[] = [
   },
 
   {
-    title: "Pirates des Caraïbes : La Vengeance de Salazar",
-    director: "Joachim Rønning, Espen Sandberg",
+    title: 'Pirates des Caraïbes : La Vengeance de Salazar',
+    director: 'Joachim Rønning, Espen Sandberg',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -7907,8 +7891,8 @@ export const hikenMovies: UserMovie[] = [
   },
 
   {
-    title: "Taxi",
-    director: "Gérard Pirès",
+    title: 'Taxi',
+    director: 'Gérard Pirès',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -7924,8 +7908,8 @@ export const hikenMovies: UserMovie[] = [
   },
 
   {
-    title: "Taxi 2",
-    director: "Gérard Krawczyk",
+    title: 'Taxi 2',
+    director: 'Gérard Krawczyk',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -7941,8 +7925,8 @@ export const hikenMovies: UserMovie[] = [
   },
 
   {
-    title: "Taxi 3",
-    director: "Gérard Krawczyk",
+    title: 'Taxi 3',
+    director: 'Gérard Krawczyk',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -7958,8 +7942,8 @@ export const hikenMovies: UserMovie[] = [
   },
 
   {
-    title: "Taxi 4",
-    director: "Gérard Krawczyk",
+    title: 'Taxi 4',
+    director: 'Gérard Krawczyk',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -7975,8 +7959,8 @@ export const hikenMovies: UserMovie[] = [
   },
 
   {
-    title: "Scary Movie",
-    director: "Keenen Ivory Wayans",
+    title: 'Scary Movie',
+    director: 'Keenen Ivory Wayans',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -7992,8 +7976,8 @@ export const hikenMovies: UserMovie[] = [
   },
 
   {
-    title: "Scary Movie 2",
-    director: "Keenen Ivory Wayans",
+    title: 'Scary Movie 2',
+    director: 'Keenen Ivory Wayans',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -8009,8 +7993,8 @@ export const hikenMovies: UserMovie[] = [
   },
 
   {
-    title: "Scary Movie 3",
-    director: "David Zucker",
+    title: 'Scary Movie 3',
+    director: 'David Zucker',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -8026,8 +8010,8 @@ export const hikenMovies: UserMovie[] = [
   },
 
   {
-    title: "Scary Movie 4",
-    director: "David Zucker",
+    title: 'Scary Movie 4',
+    director: 'David Zucker',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -8043,8 +8027,8 @@ export const hikenMovies: UserMovie[] = [
   },
 
   {
-    title: "Kill Bill: Vol. 1",
-    director: "Quentin Tarantino",
+    title: 'Kill Bill: Vol. 1',
+    director: 'Quentin Tarantino',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -8060,8 +8044,8 @@ export const hikenMovies: UserMovie[] = [
   },
 
   {
-    title: "Kill Bill: Vol. 2",
-    director: "Quentin Tarantino",
+    title: 'Kill Bill: Vol. 2',
+    director: 'Quentin Tarantino',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -8077,8 +8061,8 @@ export const hikenMovies: UserMovie[] = [
   },
 
   {
-    title: "Hellboy",
-    director: "Guillermo del Toro",
+    title: 'Hellboy',
+    director: 'Guillermo del Toro',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -8094,8 +8078,8 @@ export const hikenMovies: UserMovie[] = [
   },
 
   {
-    title: "Le Transporteur",
-    director: "Louis Leterrier, Corey Yuen",
+    title: 'Le Transporteur',
+    director: 'Louis Leterrier, Corey Yuen',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -8111,8 +8095,8 @@ export const hikenMovies: UserMovie[] = [
   },
 
   {
-    title: "Le Transporteur 2",
-    director: "Louis Leterrier",
+    title: 'Le Transporteur 2',
+    director: 'Louis Leterrier',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -8128,8 +8112,8 @@ export const hikenMovies: UserMovie[] = [
   },
 
   {
-    title: "Le Transporteur 3",
-    director: "Olivier Megaton",
+    title: 'Le Transporteur 3',
+    director: 'Olivier Megaton',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -8145,8 +8129,8 @@ export const hikenMovies: UserMovie[] = [
   },
 
   {
-    title: "xXx",
-    director: "Rob Cohen",
+    title: 'xXx',
+    director: 'Rob Cohen',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -8162,8 +8146,8 @@ export const hikenMovies: UserMovie[] = [
   },
 
   {
-    title: "xXx² : The Next Level",
-    director: "Lee Tamahori",
+    title: 'xXx² : The Next Level',
+    director: 'Lee Tamahori',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -8179,8 +8163,8 @@ export const hikenMovies: UserMovie[] = [
   },
 
   {
-    title: "Blade",
-    director: "Stephen Norrington",
+    title: 'Blade',
+    director: 'Stephen Norrington',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -8196,8 +8180,8 @@ export const hikenMovies: UserMovie[] = [
   },
 
   {
-    title: "Blade II",
-    director: "Guillermo del Toro",
+    title: 'Blade II',
+    director: 'Guillermo del Toro',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -8213,8 +8197,8 @@ export const hikenMovies: UserMovie[] = [
   },
 
   {
-    title: "Blade : Trinity",
-    director: "David S. Goyer",
+    title: 'Blade : Trinity',
+    director: 'David S. Goyer',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -8230,8 +8214,8 @@ export const hikenMovies: UserMovie[] = [
   },
 
   {
-    title: "Destination Finale",
-    director: "James Wong",
+    title: 'Destination Finale',
+    director: 'James Wong',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -8247,8 +8231,8 @@ export const hikenMovies: UserMovie[] = [
   },
 
   {
-    title: "Destination Finale 2",
-    director: "David R. Ellis",
+    title: 'Destination Finale 2',
+    director: 'David R. Ellis',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -8264,8 +8248,8 @@ export const hikenMovies: UserMovie[] = [
   },
 
   {
-    title: "Destination Finale 3",
-    director: "James Wong",
+    title: 'Destination Finale 3',
+    director: 'James Wong',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -8281,8 +8265,8 @@ export const hikenMovies: UserMovie[] = [
   },
 
   {
-    title: "Destination Finale 4",
-    director: "David R. Ellis",
+    title: 'Destination Finale 4',
+    director: 'David R. Ellis',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -8298,8 +8282,8 @@ export const hikenMovies: UserMovie[] = [
   },
 
   {
-    title: "Destination Finale 5",
-    director: "Steven Quale",
+    title: 'Destination Finale 5',
+    director: 'Steven Quale',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -8315,8 +8299,8 @@ export const hikenMovies: UserMovie[] = [
   },
 
   {
-    title: "Avatar",
-    director: "James Cameron",
+    title: 'Avatar',
+    director: 'James Cameron',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -8332,8 +8316,8 @@ export const hikenMovies: UserMovie[] = [
   },
 
   {
-    title: "American Pie",
-    director: "Paul Weitz, Chris Weitz",
+    title: 'American Pie',
+    director: 'Paul Weitz, Chris Weitz',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -8349,8 +8333,8 @@ export const hikenMovies: UserMovie[] = [
   },
 
   {
-    title: "American Pie 2",
-    director: "J.B. Rogers",
+    title: 'American Pie 2',
+    director: 'J.B. Rogers',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -8366,8 +8350,8 @@ export const hikenMovies: UserMovie[] = [
   },
 
   {
-    title: "American Pie 3 : Marions-les",
-    director: "Jesse Dylan",
+    title: 'American Pie 3 : Marions-les',
+    director: 'Jesse Dylan',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -8383,8 +8367,8 @@ export const hikenMovies: UserMovie[] = [
   },
 
   {
-    title: "American Pie Presents: Beta House",
-    director: "Andrew Waller",
+    title: 'American Pie Presents: Beta House',
+    director: 'Andrew Waller',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -8400,8 +8384,8 @@ export const hikenMovies: UserMovie[] = [
   },
 
   {
-    title: "American Pie Presents: The Naked Mile",
-    director: "Joe Nussbaum",
+    title: 'American Pie Presents: The Naked Mile',
+    director: 'Joe Nussbaum',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -8417,8 +8401,8 @@ export const hikenMovies: UserMovie[] = [
   },
 
   {
-    title: "American Pie Presents: Band Camp",
-    director: "Steve Rash",
+    title: 'American Pie Presents: Band Camp',
+    director: 'Steve Rash',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -8434,8 +8418,8 @@ export const hikenMovies: UserMovie[] = [
   },
 
   {
-    title: "American Pie Presents: The Book of Love",
-    director: "John Putch",
+    title: 'American Pie Presents: The Book of Love',
+    director: 'John Putch',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -8451,8 +8435,8 @@ export const hikenMovies: UserMovie[] = [
   },
 
   {
-    title: "Big Mamma",
-    director: "Raja Gosnell",
+    title: 'Big Mamma',
+    director: 'Raja Gosnell',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -8468,8 +8452,8 @@ export const hikenMovies: UserMovie[] = [
   },
 
   {
-    title: "Big Mamma 2",
-    director: "John Whitesell",
+    title: 'Big Mamma 2',
+    director: 'John Whitesell',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -8486,7 +8470,7 @@ export const hikenMovies: UserMovie[] = [
 
   {
     title: "Le Seigneur des anneaux : La Communauté de l'anneau",
-    director: "Peter Jackson",
+    director: 'Peter Jackson',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -8502,8 +8486,8 @@ export const hikenMovies: UserMovie[] = [
   },
 
   {
-    title: "Le Seigneur des anneaux : Les Deux Tours",
-    director: "Peter Jackson",
+    title: 'Le Seigneur des anneaux : Les Deux Tours',
+    director: 'Peter Jackson',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -8519,8 +8503,8 @@ export const hikenMovies: UserMovie[] = [
   },
 
   {
-    title: "Le Seigneur des anneaux : Le Retour du roi",
-    director: "Peter Jackson",
+    title: 'Le Seigneur des anneaux : Le Retour du roi',
+    director: 'Peter Jackson',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -8536,8 +8520,9 @@ export const hikenMovies: UserMovie[] = [
   },
 
   {
-    title: "Le Seigneur des Anneaux - La Communauté de l'Anneau - Version Longue",
-    director: "Peter Jackson",
+    title:
+      "Le Seigneur des Anneaux - La Communauté de l'Anneau - Version Longue",
+    director: 'Peter Jackson',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -8553,8 +8538,8 @@ export const hikenMovies: UserMovie[] = [
   },
 
   {
-    title: "Le Seigneur des Anneaux - Les Deux Tours - Version Longue",
-    director: "Peter Jackson",
+    title: 'Le Seigneur des Anneaux - Les Deux Tours - Version Longue',
+    director: 'Peter Jackson',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -8570,8 +8555,8 @@ export const hikenMovies: UserMovie[] = [
   },
 
   {
-    title: "Le Seigneur des Anneaux - Le Retour du Roi - Version Longue",
-    director: "Peter Jackson",
+    title: 'Le Seigneur des Anneaux - Le Retour du Roi - Version Longue',
+    director: 'Peter Jackson',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -8587,8 +8572,8 @@ export const hikenMovies: UserMovie[] = [
   },
 
   {
-    title: "Le Hobbit : Un voyage inattendu",
-    director: "Peter Jackson",
+    title: 'Le Hobbit : Un voyage inattendu',
+    director: 'Peter Jackson',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -8604,8 +8589,8 @@ export const hikenMovies: UserMovie[] = [
   },
 
   {
-    title: "Le Hobbit : La Désolation de Smaug",
-    director: "Peter Jackson",
+    title: 'Le Hobbit : La Désolation de Smaug',
+    director: 'Peter Jackson',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -8621,8 +8606,8 @@ export const hikenMovies: UserMovie[] = [
   },
 
   {
-    title: "Le Hobbit : La Bataille des Cinq Armées",
-    director: "Peter Jackson",
+    title: 'Le Hobbit : La Bataille des Cinq Armées',
+    director: 'Peter Jackson',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -8638,8 +8623,8 @@ export const hikenMovies: UserMovie[] = [
   },
 
   {
-    title: "S.O.S. Fantômes",
-    director: "Ivan Reitman",
+    title: 'S.O.S. Fantômes',
+    director: 'Ivan Reitman',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -8655,8 +8640,8 @@ export const hikenMovies: UserMovie[] = [
   },
 
   {
-    title: "S.O.S. Fantômes 2",
-    director: "Ivan Reitman",
+    title: 'S.O.S. Fantômes 2',
+    director: 'Ivan Reitman',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -8672,8 +8657,9 @@ export const hikenMovies: UserMovie[] = [
   },
 
   {
-    title: "Le Monde de Narnia : Le Lion, la Sorcière Blanche et l'Armoire Magique",
-    director: "Andrew Adamson",
+    title:
+      "Le Monde de Narnia : Le Lion, la Sorcière Blanche et l'Armoire Magique",
+    director: 'Andrew Adamson',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -8689,8 +8675,8 @@ export const hikenMovies: UserMovie[] = [
   },
 
   {
-    title: "The Conjuring : Les Dossiers Warren",
-    director: "James Wan",
+    title: 'The Conjuring : Les Dossiers Warren',
+    director: 'James Wan',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -8706,8 +8692,8 @@ export const hikenMovies: UserMovie[] = [
   },
 
   {
-    title: "Conjuring 2 : Le Cas Enfield",
-    director: "James Wan",
+    title: 'Conjuring 2 : Le Cas Enfield',
+    director: 'James Wan',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -8723,8 +8709,8 @@ export const hikenMovies: UserMovie[] = [
   },
 
   {
-    title: "Star Trek Into Darkness",
-    director: "J.J. Abrams",
+    title: 'Star Trek Into Darkness',
+    director: 'J.J. Abrams',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -8740,8 +8726,8 @@ export const hikenMovies: UserMovie[] = [
   },
 
   {
-    title: "Ip Man",
-    director: "Wilson Yip",
+    title: 'Ip Man',
+    director: 'Wilson Yip',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -8757,8 +8743,8 @@ export const hikenMovies: UserMovie[] = [
   },
 
   {
-    title: "Ip Man 2 : Le Retour du grand maître",
-    director: "Wilson Yip",
+    title: 'Ip Man 2 : Le Retour du grand maître',
+    director: 'Wilson Yip',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -8774,8 +8760,8 @@ export const hikenMovies: UserMovie[] = [
   },
 
   {
-    title: "Ip Man 3",
-    director: "Wilson Yip",
+    title: 'Ip Man 3',
+    director: 'Wilson Yip',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -8791,8 +8777,8 @@ export const hikenMovies: UserMovie[] = [
   },
 
   {
-    title: "Expendables : Unité Spéciale",
-    director: "Sylvester Stallone",
+    title: 'Expendables : Unité Spéciale',
+    director: 'Sylvester Stallone',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -8808,8 +8794,8 @@ export const hikenMovies: UserMovie[] = [
   },
 
   {
-    title: "Expendables 2",
-    director: "Simon West",
+    title: 'Expendables 2',
+    director: 'Simon West',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -8825,8 +8811,8 @@ export const hikenMovies: UserMovie[] = [
   },
 
   {
-    title: "Jurassic Park",
-    director: "Steven Spielberg",
+    title: 'Jurassic Park',
+    director: 'Steven Spielberg',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -8842,8 +8828,8 @@ export const hikenMovies: UserMovie[] = [
   },
 
   {
-    title: "Saw",
-    director: "James Wan",
+    title: 'Saw',
+    director: 'James Wan',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -8859,8 +8845,8 @@ export const hikenMovies: UserMovie[] = [
   },
 
   {
-    title: "Max la Menace",
-    director: "Peter Segal",
+    title: 'Max la Menace',
+    director: 'Peter Segal',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',

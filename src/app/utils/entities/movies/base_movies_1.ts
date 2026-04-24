@@ -114,32 +114,36 @@ export const baseMoviesPage1: BaseMovie[] = [
     director: 'Alexandre de La Patellière, Matthieu Delaporte',
     actors: [
       {
-        name: "Pierre Niney",
+        name: 'Pierre Niney',
       },
       {
-        name: "Laurent Lafitte",
+        name: 'Laurent Lafitte',
       },
       {
-        name: "Bastien Bouillon",
+        name: 'Bastien Bouillon',
       },
       {
-        name: "Anaïs Demoustier",
+        name: 'Anaïs Demoustier',
       },
       {
-        name: "Anamaria Vartolomei",
+        name: 'Anamaria Vartolomei',
       },
       {
-        name: "Vassili Schneider",
-      }
+        name: 'Vassili Schneider',
+      },
     ],
     coverUrl:
-      "/movies_pictures/977835-the-count-of-monte-cristo-2024-0-150-0-225-crop.jpg",
-    releaseDate: "2024-06-28",
+      '/movies_pictures/977835-the-count-of-monte-cristo-2024-0-150-0-225-crop.jpg',
+    releaseDate: '2024-06-28',
     length: 178,
     genre: ['Aventure'],
-    saga: "Le Comte de Monte-Cristo",
-    description: "",
-    fromEntity: { entityType: "book", title: "Le Comte de Monte-Cristo", secondEntityKey: "Alexandre Dumas" },
+    saga: 'Le Comte de Monte-Cristo',
+    description: '',
+    fromEntity: {
+      entityType: 'book',
+      title: 'Le Comte de Monte-Cristo',
+      secondEntityKey: 'Alexandre Dumas',
+    },
     countryOrigin: ['France'],
     selectDisplayOrder: 30,
   },
@@ -154,7 +158,7 @@ export const baseMoviesPage1: BaseMovie[] = [
         name: 'Mike Faist',
       },
       {
-        name: 'Josh O\'Connor',
+        name: "Josh O'Connor",
       },
       {
         name: 'Nada Despotovich',
@@ -1336,6 +1340,36 @@ export const baseMoviesPage1: BaseMovie[] = [
     selectDisplayOrder: 30,
   },
   {
+    title: 'Gladiator II',
+    director: 'Ridley Scott',
+    actors: [
+      {
+        name: 'Nicholas Hoult',
+      },
+      {
+        name: 'Toni Collette',
+      },
+      {
+        name: 'J.K. Simmons',
+      },
+      {
+        name: 'Kiefer Sutherland',
+      },
+      {
+        name: 'Zoey Deutch',
+      },
+    ],
+    coverUrl: '/movies_pictures/gladiator_ii.jpg',
+    releaseDate: '2024-11-13',
+    length: 148,
+    genre: ['Action'],
+    saga: '',
+    description: '',
+    fromEntity: null,
+    countryOrigin: ['États-Unis'],
+    selectDisplayOrder: 30,
+  },
+  {
     title: 'Rebel Ridge',
     director: 'Jeremy Saulnier',
     actors: [
@@ -1817,7 +1851,7 @@ export const baseMoviesPage1: BaseMovie[] = [
         name: 'Will Kemp',
       },
       {
-        name: 'Kevin J. O\'Connor',
+        name: "Kevin J. O'Connor",
       },
       {
         name: 'Shuler Hensley',

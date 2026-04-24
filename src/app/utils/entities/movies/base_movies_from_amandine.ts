@@ -23,7 +23,7 @@ export const baseMoviesFromAmandine: BaseMovie[] = [
       secondEntityKey: 'Mary Shelley',
     },
     countryOrigin: ['États-Unis'],
-    selectDisplayOrder: 0,
+    selectDisplayOrder: 5,
   },
   {
     title: 'Wicked',
@@ -59,7 +59,7 @@ export const baseMoviesFromAmandine: BaseMovie[] = [
     description: '',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
-    selectDisplayOrder: 0,
+    selectDisplayOrder: 5,
   },
   {
     title: 'Wonka',
@@ -99,44 +99,9 @@ export const baseMoviesFromAmandine: BaseMovie[] = [
       secondEntityKey: 'Roald Dahl',
     },
     countryOrigin: ['États-Unis'],
-    selectDisplayOrder: 0,
+    selectDisplayOrder: 5,
   },
-  {
-    title: 'La Petite Sirène',
-    director: 'Rob Marshall',
-    actors: [
-      {
-        name: 'Halle Bailey',
-      },
-      {
-        name: 'Melissa McCarthy',
-      },
-      {
-        name: 'Javier Bardem',
-      },
-      {
-        name: 'Jonah Hauer-King',
-      },
-      {
-        name: 'Noma Dumezweni',
-      },
-      {
-        name: 'Art Malik',
-      },
-      {
-        name: 'Martina Laird',
-      },
-    ],
-    coverUrl: '/movies_pictures/5295339.jpg',
-    releaseDate: '2023-05-26',
-    length: 135,
-    genre: ['Comédie musicale', 'Fantastique'],
-    saga: '',
-    description: '',
-    fromEntity: null,
-    countryOrigin: ['États-Unis'],
-    selectDisplayOrder: 0,
-  },
+
   {
     title: "Donjons & Dragons : L'Honneur des voleurs",
     director: 'John Francis Daley, Jonathan Goldstein',
@@ -172,7 +137,7 @@ export const baseMoviesFromAmandine: BaseMovie[] = [
     description: '',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
-    selectDisplayOrder: 0,
+    selectDisplayOrder: 5,
   },
   {
     title: 'Il était une fois 2',
@@ -208,7 +173,7 @@ export const baseMoviesFromAmandine: BaseMovie[] = [
     description: '',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
-    selectDisplayOrder: 0,
+    selectDisplayOrder: 5,
   },
   {
     title: 'Pinocchio',
@@ -227,7 +192,7 @@ export const baseMoviesFromAmandine: BaseMovie[] = [
     description: '',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
-    selectDisplayOrder: 0,
+    selectDisplayOrder: 5,
   },
   {
     title: 'Blonde',
@@ -263,7 +228,7 @@ export const baseMoviesFromAmandine: BaseMovie[] = [
     description: '',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
-    selectDisplayOrder: 0,
+    selectDisplayOrder: 5,
   },
   {
     title: 'Elvis',
@@ -299,7 +264,7 @@ export const baseMoviesFromAmandine: BaseMovie[] = [
     description: '',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
-    selectDisplayOrder: 0,
+    selectDisplayOrder: 5,
   },
   {
     title: 'Downton Abbey II : Une nouvelle ère',
@@ -335,7 +300,7 @@ export const baseMoviesFromAmandine: BaseMovie[] = [
     description: '',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
-    selectDisplayOrder: 0,
+    selectDisplayOrder: 5,
   },
 
   {
@@ -376,44 +341,7 @@ export const baseMoviesFromAmandine: BaseMovie[] = [
       secondEntityKey: 'Agatha Christie',
     },
     countryOrigin: ['États-Unis'],
-    selectDisplayOrder: 0,
-  },
-
-  {
-    title: 'Cendrillon',
-    director: 'Kay Cannon',
-    actors: [
-      {
-        name: 'Camila Cabello',
-      },
-      {
-        name: 'Idina Menzel',
-      },
-      {
-        name: 'Minnie Driver',
-      },
-      {
-        name: 'Nicholas Galitzine',
-      },
-      {
-        name: 'Billy Porter',
-      },
-      {
-        name: 'Pierce Brosnan',
-      },
-      {
-        name: 'James Corden',
-      },
-    ],
-    coverUrl: '/movies_pictures/2715417.jpg',
-    releaseDate: '2021-09-03',
-    length: 113,
-    genre: ['Comédie musicale', 'Romance'],
-    saga: '',
-    description: '',
-    fromEntity: null,
-    countryOrigin: ['États-Unis'],
-    selectDisplayOrder: 0,
+    selectDisplayOrder: 5,
   },
 
   {
@@ -447,7 +375,7 @@ export const baseMoviesFromAmandine: BaseMovie[] = [
     description: '',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
-    selectDisplayOrder: 0,
+    selectDisplayOrder: 5,
   },
   {
     title: 'Old',
@@ -483,43 +411,7 @@ export const baseMoviesFromAmandine: BaseMovie[] = [
     description: '',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
-    selectDisplayOrder: 0,
-  },
-  {
-    title: 'Cruella',
-    director: 'Craig Gillespie',
-    actors: [
-      {
-        name: 'Emma Stone',
-      },
-      {
-        name: 'Emma Thompson',
-      },
-      {
-        name: 'Paul Walter Hauser',
-      },
-      {
-        name: 'Joel Fry',
-      },
-      {
-        name: 'Emily Beecham',
-      },
-      {
-        name: 'Mark Strong',
-      },
-      {
-        name: 'Kayvan Novak',
-      },
-    ],
-    coverUrl: '/movies_pictures/0290309.jpg',
-    releaseDate: '2021-05-28',
-    length: 134,
-    genre: ['Policier', 'Comédie'],
-    saga: '',
-    description: '',
-    fromEntity: null,
-    countryOrigin: ['États-Unis'],
-    selectDisplayOrder: 0,
+    selectDisplayOrder: 5,
   },
 
   {
@@ -556,7 +448,7 @@ export const baseMoviesFromAmandine: BaseMovie[] = [
     description: '',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
-    selectDisplayOrder: 0,
+    selectDisplayOrder: 5,
   },
   {
     title: '2 Hearts',
@@ -589,7 +481,7 @@ export const baseMoviesFromAmandine: BaseMovie[] = [
     description: '',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
-    selectDisplayOrder: 0,
+    selectDisplayOrder: 5,
   },
   {
     title: 'Rebecca',
@@ -625,7 +517,7 @@ export const baseMoviesFromAmandine: BaseMovie[] = [
     description: '',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
-    selectDisplayOrder: 0,
+    selectDisplayOrder: 5,
   },
 
   {
@@ -663,7 +555,7 @@ export const baseMoviesFromAmandine: BaseMovie[] = [
     description: '',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
-    selectDisplayOrder: 0,
+    selectDisplayOrder: 5,
   },
 
   {
@@ -701,7 +593,7 @@ export const baseMoviesFromAmandine: BaseMovie[] = [
     description: '',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
-    selectDisplayOrder: 0,
+    selectDisplayOrder: 5,
   },
   {
     title: 'The Gentlemen',
@@ -737,7 +629,7 @@ export const baseMoviesFromAmandine: BaseMovie[] = [
     description: '',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
-    selectDisplayOrder: 0,
+    selectDisplayOrder: 5,
   },
   {
     title: 'La Belle et le Clochard',
@@ -773,44 +665,9 @@ export const baseMoviesFromAmandine: BaseMovie[] = [
     description: '',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
-    selectDisplayOrder: 0,
+    selectDisplayOrder: 5,
   },
-  {
-    title: 'Maléfique : Le Pouvoir du Mal',
-    director: 'Joachim Rønning',
-    actors: [
-      {
-        name: 'Angelina Jolie',
-      },
-      {
-        name: 'Elle Fanning',
-      },
-      {
-        name: 'Ed Skrein',
-      },
-      {
-        name: 'Sam Riley',
-      },
-      {
-        name: 'Michelle Pfeiffer',
-      },
-      {
-        name: 'Chiwetel Ejiofor',
-      },
-      {
-        name: 'Imelda Staunton',
-      },
-    ],
-    coverUrl: '/movies_pictures/3125098.webp',
-    releaseDate: '2019-10-18',
-    length: 119,
-    genre: ['Fantastique', 'Aventure'],
-    saga: 'Disney Live Action',
-    description: '',
-    fromEntity: null,
-    countryOrigin: ['États-Unis'],
-    selectDisplayOrder: 0,
-  },
+
   {
     title: 'The King',
     director: 'David Michôd',
@@ -846,7 +703,7 @@ export const baseMoviesFromAmandine: BaseMovie[] = [
     description: '',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
-    selectDisplayOrder: 0,
+    selectDisplayOrder: 5,
   },
   {
     title: 'Parasite',
@@ -920,42 +777,7 @@ export const baseMoviesFromAmandine: BaseMovie[] = [
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 30,
   },
-  {
-    title: 'Dumbo',
-    director: 'Tim Burton',
-    actors: [
-      {
-        name: 'Colin Farrell',
-      },
-      {
-        name: 'Michael Keaton',
-      },
-      {
-        name: 'Danny DeVito',
-      },
-      {
-        name: 'Eva Green',
-      },
-      {
-        name: 'Alan Arkin',
-      },
-      {
-        name: 'Roshan Seth',
-      },
-      {
-        name: 'Lars Eidinger',
-      },
-    ],
-    coverUrl: '/movies_pictures/3593965.jpg',
-    releaseDate: '2019-03-29',
-    length: 112,
-    genre: ['Fantastique', 'Jeunesse'],
-    saga: 'Disney Live Action',
-    description: '',
-    fromEntity: null,
-    countryOrigin: ['États-Unis'],
-    selectDisplayOrder: 0,
-  },
+
   {
     title: 'Le Retour de Mary Poppins',
     director: 'Rob Marshall',
@@ -990,7 +812,7 @@ export const baseMoviesFromAmandine: BaseMovie[] = [
     description: '',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
-    selectDisplayOrder: 0,
+    selectDisplayOrder: 5,
   },
   {
     title: 'Bohemian Rhapsody',
@@ -1062,7 +884,7 @@ export const baseMoviesFromAmandine: BaseMovie[] = [
     description: '',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
-    selectDisplayOrder: 0,
+    selectDisplayOrder: 5,
   },
 
   {
@@ -1099,7 +921,7 @@ export const baseMoviesFromAmandine: BaseMovie[] = [
     description: '',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
-    selectDisplayOrder: 0,
+    selectDisplayOrder: 5,
   },
   {
     title: 'Tomb Raider',
@@ -1135,7 +957,7 @@ export const baseMoviesFromAmandine: BaseMovie[] = [
     description: '',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
-    selectDisplayOrder: 0,
+    selectDisplayOrder: 5,
   },
   {
     title: 'Pitch Perfect 3',
@@ -1171,7 +993,7 @@ export const baseMoviesFromAmandine: BaseMovie[] = [
     description: '',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
-    selectDisplayOrder: 0,
+    selectDisplayOrder: 5,
   },
   {
     title: 'The Greatest Showman',
@@ -1244,7 +1066,7 @@ export const baseMoviesFromAmandine: BaseMovie[] = [
     description: '',
     fromEntity: null,
     countryOrigin: ['Royaume-Uni'],
-    selectDisplayOrder: 0,
+    selectDisplayOrder: 5,
   },
   {
     title: "Le Crime de l'Orient-Express",
@@ -1284,7 +1106,7 @@ export const baseMoviesFromAmandine: BaseMovie[] = [
       secondEntityKey: 'Agatha Christie',
     },
     countryOrigin: ['États-Unis'],
-    selectDisplayOrder: 0,
+    selectDisplayOrder: 5,
   },
   {
     title: 'Miss Peregrine et les Enfants particuliers',
@@ -1298,7 +1120,7 @@ export const baseMoviesFromAmandine: BaseMovie[] = [
     description: '',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
-    selectDisplayOrder: 0,
+    selectDisplayOrder: 5,
   },
   {
     title: 'Lion',
@@ -1370,7 +1192,7 @@ export const baseMoviesFromAmandine: BaseMovie[] = [
     description: '',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
-    selectDisplayOrder: 0,
+    selectDisplayOrder: 5,
   },
   {
     title: 'Le Nouveau Stagiaire',
@@ -1407,7 +1229,7 @@ export const baseMoviesFromAmandine: BaseMovie[] = [
     description: '',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
-    selectDisplayOrder: 0,
+    selectDisplayOrder: 5,
   },
 
   {
@@ -1444,44 +1266,9 @@ export const baseMoviesFromAmandine: BaseMovie[] = [
     description: '',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
-    selectDisplayOrder: 0,
+    selectDisplayOrder: 5,
   },
-  {
-    title: 'Cendrillon',
-    director: 'Kenneth Branagh',
-    actors: [
-      {
-        name: 'Lily James',
-      },
-      {
-        name: 'Richard Madden',
-      },
-      {
-        name: 'Stellan Skarsgård',
-      },
-      {
-        name: 'Holliday Grainger',
-      },
-      {
-        name: 'Sophie McShera',
-      },
-      {
-        name: 'Derek Jacobi',
-      },
-      {
-        name: 'Helena Bonham Carter',
-      },
-    ],
-    coverUrl: '/movies_pictures/350162.webp',
-    releaseDate: '2015-03-13',
-    length: 113,
-    genre: ['Fantastique', 'Romance'],
-    saga: '',
-    description: '',
-    fromEntity: null,
-    countryOrigin: ['États-Unis'],
-    selectDisplayOrder: 0,
-  },
+
   {
     title: 'Paddington',
     director: 'Paul King',
@@ -1516,7 +1303,7 @@ export const baseMoviesFromAmandine: BaseMovie[] = [
     description: '',
     fromEntity: null,
     countryOrigin: ['Royaume-Uni'],
-    selectDisplayOrder: 0,
+    selectDisplayOrder: 5,
   },
   {
     title: 'Big Eyes',
@@ -1552,7 +1339,7 @@ export const baseMoviesFromAmandine: BaseMovie[] = [
     description: '',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
-    selectDisplayOrder: 0,
+    selectDisplayOrder: 5,
   },
   {
     title: 'Snowpiercer',
@@ -1588,7 +1375,7 @@ export const baseMoviesFromAmandine: BaseMovie[] = [
     description: '',
     fromEntity: null,
     countryOrigin: ['Corée du Sud'],
-    selectDisplayOrder: 0,
+    selectDisplayOrder: 5,
   },
 
   {
@@ -1625,7 +1412,7 @@ export const baseMoviesFromAmandine: BaseMovie[] = [
     description: '',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
-    selectDisplayOrder: 0,
+    selectDisplayOrder: 5,
   },
 
   {
@@ -1704,7 +1491,7 @@ export const baseMoviesFromAmandine: BaseMovie[] = [
     description: '',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
-    selectDisplayOrder: 0,
+    selectDisplayOrder: 5,
   },
   {
     title: 'Ted',
@@ -1722,7 +1509,7 @@ export const baseMoviesFromAmandine: BaseMovie[] = [
     description: '',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
-    selectDisplayOrder: 0,
+    selectDisplayOrder: 5,
   },
   {
     title: 'Dark Shadows',
@@ -1795,7 +1582,7 @@ export const baseMoviesFromAmandine: BaseMovie[] = [
     description: '',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
-    selectDisplayOrder: 0,
+    selectDisplayOrder: 5,
   },
 
   {
@@ -1832,7 +1619,7 @@ export const baseMoviesFromAmandine: BaseMovie[] = [
     description: '',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
-    selectDisplayOrder: 0,
+    selectDisplayOrder: 5,
   },
   {
     title: "L'Apprenti sorcier",
@@ -1868,7 +1655,7 @@ export const baseMoviesFromAmandine: BaseMovie[] = [
     description: '',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
-    selectDisplayOrder: 0,
+    selectDisplayOrder: 5,
   },
   {
     title: 'Sherlock Holmes',
@@ -1972,7 +1759,7 @@ export const baseMoviesFromAmandine: BaseMovie[] = [
     description: '',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
-    selectDisplayOrder: 0,
+    selectDisplayOrder: 5,
   },
   {
     title: "Jennifer's Body",
@@ -2044,7 +1831,7 @@ export const baseMoviesFromAmandine: BaseMovie[] = [
     description: '',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
-    selectDisplayOrder: 0,
+    selectDisplayOrder: 5,
   },
   {
     title: 'Orphan',
@@ -2081,7 +1868,7 @@ export const baseMoviesFromAmandine: BaseMovie[] = [
     description: '',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
-    selectDisplayOrder: 0,
+    selectDisplayOrder: 5,
   },
   {
     title: 'Public Enemies',
@@ -2099,7 +1886,7 @@ export const baseMoviesFromAmandine: BaseMovie[] = [
     description: '',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
-    selectDisplayOrder: 0,
+    selectDisplayOrder: 5,
   },
 
   {
@@ -2172,7 +1959,7 @@ export const baseMoviesFromAmandine: BaseMovie[] = [
     description: '',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
-    selectDisplayOrder: 0,
+    selectDisplayOrder: 5,
   },
 
   {
@@ -2209,7 +1996,7 @@ export const baseMoviesFromAmandine: BaseMovie[] = [
     description: '',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
-    selectDisplayOrder: 0,
+    selectDisplayOrder: 5,
   },
   {
     title: 'Sweeney Todd : Le Diabolique Barbier de Fleet Street',
@@ -2245,7 +2032,7 @@ export const baseMoviesFromAmandine: BaseMovie[] = [
     description: '',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
-    selectDisplayOrder: 0,
+    selectDisplayOrder: 5,
   },
   {
     title: 'Enchanted',
@@ -2281,7 +2068,7 @@ export const baseMoviesFromAmandine: BaseMovie[] = [
     description: '',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
-    selectDisplayOrder: 0,
+    selectDisplayOrder: 5,
   },
 
   {
@@ -2318,7 +2105,7 @@ export const baseMoviesFromAmandine: BaseMovie[] = [
     description: '',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
-    selectDisplayOrder: 0,
+    selectDisplayOrder: 5,
   },
   {
     title: 'Hairspray',
@@ -2354,7 +2141,7 @@ export const baseMoviesFromAmandine: BaseMovie[] = [
     description: '',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
-    selectDisplayOrder: 0,
+    selectDisplayOrder: 5,
   },
   {
     title: 'Le Secret de Terabithia',
@@ -2390,7 +2177,7 @@ export const baseMoviesFromAmandine: BaseMovie[] = [
     description: '',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
-    selectDisplayOrder: 0,
+    selectDisplayOrder: 5,
   },
   {
     title: 'Le Labyrinthe de Pan',
@@ -2426,7 +2213,7 @@ export const baseMoviesFromAmandine: BaseMovie[] = [
     description: '',
     fromEntity: null,
     countryOrigin: ['Espagne'],
-    selectDisplayOrder: 0,
+    selectDisplayOrder: 5,
   },
   {
     title: 'Marie Antoinette',
@@ -2462,7 +2249,7 @@ export const baseMoviesFromAmandine: BaseMovie[] = [
     description: '',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
-    selectDisplayOrder: 0,
+    selectDisplayOrder: 5,
   },
   {
     title: 'Constantine',
@@ -2549,7 +2336,7 @@ export const baseMoviesFromAmandine: BaseMovie[] = [
     description: '',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
-    selectDisplayOrder: 0,
+    selectDisplayOrder: 5,
   },
   {
     title: 'Comme Cendrillon',
@@ -2585,7 +2372,7 @@ export const baseMoviesFromAmandine: BaseMovie[] = [
     description: '',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
-    selectDisplayOrder: 0,
+    selectDisplayOrder: 5,
   },
   {
     title: 'Troy',
@@ -2640,7 +2427,7 @@ export const baseMoviesFromAmandine: BaseMovie[] = [
     description: '',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
-    selectDisplayOrder: 0,
+    selectDisplayOrder: 5,
   },
   {
     title: '30 ans sinon rien',
@@ -2676,7 +2463,7 @@ export const baseMoviesFromAmandine: BaseMovie[] = [
     description: '',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
-    selectDisplayOrder: 0,
+    selectDisplayOrder: 5,
   },
   {
     title: 'Ella au pays enchanté',
@@ -2712,7 +2499,7 @@ export const baseMoviesFromAmandine: BaseMovie[] = [
     description: '',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
-    selectDisplayOrder: 0,
+    selectDisplayOrder: 5,
   },
   {
     title: 'Une nana au poil',
@@ -2737,7 +2524,7 @@ export const baseMoviesFromAmandine: BaseMovie[] = [
         name: 'Leila Kenzle',
       },
       {
-        name: 'Michael O\'Keefe',
+        name: "Michael O'Keefe",
       },
     ],
     coverUrl: '/movies_pictures/71LWzBwndGS._AC_UF894,1000_QL80_.jpg',
@@ -2748,7 +2535,7 @@ export const baseMoviesFromAmandine: BaseMovie[] = [
     description: '',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
-    selectDisplayOrder: 0,
+    selectDisplayOrder: 5,
   },
   {
     title: 'Big Fish',
@@ -2784,7 +2571,7 @@ export const baseMoviesFromAmandine: BaseMovie[] = [
     description: '',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
-    selectDisplayOrder: 0,
+    selectDisplayOrder: 5,
   },
   {
     title: 'Le Manoir hanté et les 999 Fantômes',
@@ -2820,7 +2607,7 @@ export const baseMoviesFromAmandine: BaseMovie[] = [
     description: '',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
-    selectDisplayOrder: 0,
+    selectDisplayOrder: 5,
   },
   {
     title: 'Le Dernier Samouraï',
@@ -2856,7 +2643,7 @@ export const baseMoviesFromAmandine: BaseMovie[] = [
     description: '',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
-    selectDisplayOrder: 0,
+    selectDisplayOrder: 5,
   },
   {
     title: 'George de la Jungle 2',
@@ -2892,7 +2679,7 @@ export const baseMoviesFromAmandine: BaseMovie[] = [
     description: '',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
-    selectDisplayOrder: 0,
+    selectDisplayOrder: 5,
   },
   {
     title: 'Un vendredi dingue, dingue, dingue',
@@ -2928,7 +2715,7 @@ export const baseMoviesFromAmandine: BaseMovie[] = [
     description: '',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
-    selectDisplayOrder: 0,
+    selectDisplayOrder: 5,
   },
 
   {
@@ -2965,7 +2752,7 @@ export const baseMoviesFromAmandine: BaseMovie[] = [
     description: '',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
-    selectDisplayOrder: 0,
+    selectDisplayOrder: 5,
   },
   {
     title: 'Chicago',
@@ -3001,7 +2788,7 @@ export const baseMoviesFromAmandine: BaseMovie[] = [
     description: '',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
-    selectDisplayOrder: 0,
+    selectDisplayOrder: 5,
   },
   {
     title: 'Tuck Everlasting',
@@ -3037,7 +2824,7 @@ export const baseMoviesFromAmandine: BaseMovie[] = [
     description: '',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
-    selectDisplayOrder: 0,
+    selectDisplayOrder: 5,
   },
   {
     title: '8 Mile',
@@ -3109,7 +2896,7 @@ export const baseMoviesFromAmandine: BaseMovie[] = [
     description: '',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
-    selectDisplayOrder: 0,
+    selectDisplayOrder: 5,
   },
 
   {
@@ -3146,7 +2933,7 @@ export const baseMoviesFromAmandine: BaseMovie[] = [
     description: '',
     fromEntity: null,
     countryOrigin: ['Espagne'],
-    selectDisplayOrder: 0,
+    selectDisplayOrder: 5,
   },
 
   {
@@ -3183,7 +2970,7 @@ export const baseMoviesFromAmandine: BaseMovie[] = [
     description: '',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
-    selectDisplayOrder: 0,
+    selectDisplayOrder: 5,
   },
   {
     title: 'Le Grinch',
@@ -3256,7 +3043,7 @@ export const baseMoviesFromAmandine: BaseMovie[] = [
     description: '',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
-    selectDisplayOrder: 0,
+    selectDisplayOrder: 5,
   },
   {
     title: 'Stuart Little',
@@ -3292,7 +3079,7 @@ export const baseMoviesFromAmandine: BaseMovie[] = [
     description: '',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
-    selectDisplayOrder: 0,
+    selectDisplayOrder: 5,
   },
   {
     title: 'Sleepy Hollow',
@@ -3328,7 +3115,7 @@ export const baseMoviesFromAmandine: BaseMovie[] = [
     description: '',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
-    selectDisplayOrder: 0,
+    selectDisplayOrder: 5,
   },
   {
     title: 'Fight Club',
@@ -3364,7 +3151,7 @@ export const baseMoviesFromAmandine: BaseMovie[] = [
     description: '',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
-    selectDisplayOrder: 0,
+    selectDisplayOrder: 5,
   },
 
   {
@@ -3401,7 +3188,7 @@ export const baseMoviesFromAmandine: BaseMovie[] = [
     description: '',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
-    selectDisplayOrder: 0,
+    selectDisplayOrder: 5,
   },
 
   {
@@ -3439,7 +3226,7 @@ export const baseMoviesFromAmandine: BaseMovie[] = [
     description: '',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
-    selectDisplayOrder: 0,
+    selectDisplayOrder: 5,
   },
 
   {
@@ -3476,7 +3263,7 @@ export const baseMoviesFromAmandine: BaseMovie[] = [
     description: '',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
-    selectDisplayOrder: 0,
+    selectDisplayOrder: 5,
   },
   {
     title: "Souviens-toi... l'été dernier",
@@ -3512,7 +3299,7 @@ export const baseMoviesFromAmandine: BaseMovie[] = [
     description: '',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
-    selectDisplayOrder: 0,
+    selectDisplayOrder: 5,
   },
   {
     title: 'Gattaca',
@@ -3548,7 +3335,7 @@ export const baseMoviesFromAmandine: BaseMovie[] = [
     description: '',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
-    selectDisplayOrder: 0,
+    selectDisplayOrder: 5,
   },
   {
     title: 'Face/Off',
@@ -3585,7 +3372,7 @@ export const baseMoviesFromAmandine: BaseMovie[] = [
     description: '',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
-    selectDisplayOrder: 0,
+    selectDisplayOrder: 5,
   },
   {
     title: 'Austin Powers',
@@ -3621,7 +3408,7 @@ export const baseMoviesFromAmandine: BaseMovie[] = [
     description: '',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
-    selectDisplayOrder: 0,
+    selectDisplayOrder: 5,
   },
   {
     title: 'Mars Attacks !',
@@ -3657,7 +3444,7 @@ export const baseMoviesFromAmandine: BaseMovie[] = [
     description: '',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
-    selectDisplayOrder: 0,
+    selectDisplayOrder: 5,
   },
 
   {
@@ -3694,7 +3481,7 @@ export const baseMoviesFromAmandine: BaseMovie[] = [
     description: '',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
-    selectDisplayOrder: 0,
+    selectDisplayOrder: 5,
   },
   {
     title: 'GoldenEye',
@@ -3734,7 +3521,7 @@ export const baseMoviesFromAmandine: BaseMovie[] = [
       secondEntityKey: 'Ian Fleming',
     },
     countryOrigin: ['États-Unis'],
-    selectDisplayOrder: 0,
+    selectDisplayOrder: 5,
   },
   {
     title: 'Casper',
@@ -3770,7 +3557,7 @@ export const baseMoviesFromAmandine: BaseMovie[] = [
     description: '',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
-    selectDisplayOrder: 0,
+    selectDisplayOrder: 5,
   },
   {
     title: 'Braveheart',
@@ -3795,7 +3582,7 @@ export const baseMoviesFromAmandine: BaseMovie[] = [
         name: 'James Cosmo',
       },
       {
-        name: 'David O\'Hara',
+        name: "David O'Hara",
       },
     ],
     coverUrl: '/movies_pictures/19209164.webp',
@@ -3806,7 +3593,7 @@ export const baseMoviesFromAmandine: BaseMovie[] = [
     description: '',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
-    selectDisplayOrder: 0,
+    selectDisplayOrder: 5,
   },
   {
     title: 'Super Noël',
@@ -3842,7 +3629,7 @@ export const baseMoviesFromAmandine: BaseMovie[] = [
     description: '',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
-    selectDisplayOrder: 0,
+    selectDisplayOrder: 5,
   },
   {
     title: 'Entretien avec un vampire',
@@ -3951,7 +3738,7 @@ export const baseMoviesFromAmandine: BaseMovie[] = [
     description: '',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
-    selectDisplayOrder: 0,
+    selectDisplayOrder: 5,
   },
 
   {
@@ -3988,7 +3775,7 @@ export const baseMoviesFromAmandine: BaseMovie[] = [
     description: '',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
-    selectDisplayOrder: 0,
+    selectDisplayOrder: 5,
   },
   {
     title: 'La Famille Addams',
@@ -4024,7 +3811,7 @@ export const baseMoviesFromAmandine: BaseMovie[] = [
     description: '',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
-    selectDisplayOrder: 0,
+    selectDisplayOrder: 5,
   },
 
   {
@@ -4097,7 +3884,7 @@ export const baseMoviesFromAmandine: BaseMovie[] = [
     description: '',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
-    selectDisplayOrder: 0,
+    selectDisplayOrder: 5,
   },
   {
     title: 'Beetlejuice',
@@ -4116,7 +3903,7 @@ export const baseMoviesFromAmandine: BaseMovie[] = [
         name: 'Jeffrey Jones',
       },
       {
-        name: 'Catherine O\'Hara',
+        name: "Catherine O'Hara",
       },
       {
         name: 'Winona Ryder',
@@ -4133,7 +3920,7 @@ export const baseMoviesFromAmandine: BaseMovie[] = [
     description: '',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
-    selectDisplayOrder: 0,
+    selectDisplayOrder: 5,
   },
   {
     title: 'Labyrinthe',
@@ -4169,7 +3956,7 @@ export const baseMoviesFromAmandine: BaseMovie[] = [
     description: '',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
-    selectDisplayOrder: 0,
+    selectDisplayOrder: 5,
   },
   {
     title: 'Gremlins',
@@ -4199,6 +3986,42 @@ export const baseMoviesFromAmandine: BaseMovie[] = [
     ],
     coverUrl: '/movies_pictures/18462089.jpg',
     releaseDate: '1984-06-08',
+    length: 106,
+    genre: ['Horreur', 'Comédie'],
+    saga: '',
+    description: '',
+    fromEntity: null,
+    countryOrigin: ['États-Unis'],
+    selectDisplayOrder: 30,
+  },
+  {
+    title: 'Gremlins 2 : La nouvelle génération',
+    director: 'Joe Dante',
+    actors: [
+      {
+        name: 'Zach Galligan',
+      },
+      {
+        name: 'Phoebe Cates',
+      },
+      {
+        name: 'John Glover',
+      },
+      {
+        name: 'Robert Prosky',
+      },
+      {
+        name: 'Christopher Lee',
+      },
+      {
+        name: 'Robert Picardo',
+      },
+      {
+        name: 'Gedde Watanabe',
+      },
+    ],
+    coverUrl: '/movies_pictures/4713963511a5.jpg',
+    releaseDate: '1990-06-15',
     length: 106,
     genre: ['Horreur', 'Comédie'],
     saga: '',
@@ -4278,7 +4101,7 @@ export const baseMoviesFromAmandine: BaseMovie[] = [
     description: '',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
-    selectDisplayOrder: 0,
+    selectDisplayOrder: 5,
   },
 
   {
@@ -4315,7 +4138,7 @@ export const baseMoviesFromAmandine: BaseMovie[] = [
     description: '',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
-    selectDisplayOrder: 0,
+    selectDisplayOrder: 5,
   },
   {
     title: 'Mary Poppins',
@@ -4351,7 +4174,7 @@ export const baseMoviesFromAmandine: BaseMovie[] = [
     description: '',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
-    selectDisplayOrder: 0,
+    selectDisplayOrder: 5,
   },
   {
     title: 'Les Parapluies de Cherbourg',
@@ -4387,7 +4210,7 @@ export const baseMoviesFromAmandine: BaseMovie[] = [
     description: '',
     fromEntity: null,
     countryOrigin: ['France'],
-    selectDisplayOrder: 0,
+    selectDisplayOrder: 5,
   },
   {
     title: 'West Side Story',
@@ -4427,7 +4250,7 @@ export const baseMoviesFromAmandine: BaseMovie[] = [
       secondEntityKey: 'William Shakespeare',
     },
     countryOrigin: ['États-Unis'],
-    selectDisplayOrder: 0,
+    selectDisplayOrder: 5,
   },
 
   {
@@ -4438,7 +4261,7 @@ export const baseMoviesFromAmandine: BaseMovie[] = [
         name: 'Gene Kelly',
       },
       {
-        name: 'Donald O\'Connor',
+        name: "Donald O'Connor",
       },
       {
         name: 'Debbie Reynolds',
@@ -4464,7 +4287,7 @@ export const baseMoviesFromAmandine: BaseMovie[] = [
     description: '',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
-    selectDisplayOrder: 0,
+    selectDisplayOrder: 5,
   },
   {
     title: "Le Magicien d'Oz",
@@ -4500,6 +4323,6 @@ export const baseMoviesFromAmandine: BaseMovie[] = [
     description: '',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
-    selectDisplayOrder: 0,
+    selectDisplayOrder: 5,
   },
 ];

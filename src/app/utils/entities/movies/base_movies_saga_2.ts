@@ -26,7 +26,8 @@ export const baseMoviesSagaPage2: BaseMovie[] = [
       {
         name: 'David Bautista',
       },
-    ],    coverUrl: '/movies_pictures/4633954.jpg',
+    ],
+    coverUrl: '/movies_pictures/4633954.jpg',
     releaseDate: '2021-10-22',
     length: 155,
     genre: ['Science Fiction'],
@@ -141,7 +142,8 @@ export const baseMoviesSagaPage2: BaseMovie[] = [
       {
         name: 'Adeel Akhtar',
       },
-    ],    coverUrl: '/movies_pictures/564996-murder-mystery-2-0-150-0-225-crop.jpg',
+    ],
+    coverUrl: '/movies_pictures/564996-murder-mystery-2-0-150-0-225-crop.jpg',
     releaseDate: '2023-03-31',
     length: 89,
     genre: ['Comédie'],
@@ -176,7 +178,8 @@ export const baseMoviesSagaPage2: BaseMovie[] = [
       {
         name: 'Daniel Bernhardt',
       },
-    ],    coverUrl: '/movies_pictures/172076-john-wick-0-150-0-225-crop.jpg',
+    ],
+    coverUrl: '/movies_pictures/172076-john-wick-0-150-0-225-crop.jpg',
     releaseDate: '2014-10-24',
     length: 101,
     genre: ['Action'],
@@ -247,7 +250,8 @@ export const baseMoviesSagaPage2: BaseMovie[] = [
       {
         name: 'Anjelica Huston',
       },
-    ],    coverUrl:
+    ],
+    coverUrl:
       '/movies_pictures/390039-john-wick-chapter-3-parabellum-0-150-0-225-crop.jpg',
     releaseDate: '2019-05-17',
     length: 131,
@@ -320,7 +324,8 @@ export const baseMoviesSagaPage2: BaseMovie[] = [
       {
         name: 'Catalina Sandino Moreno',
       },
-    ],    coverUrl: '/movies_pictures/ballerina.jpg',
+    ],
+    coverUrl: '/movies_pictures/ballerina.jpg',
     releaseDate: '2025-06-04',
     length: 135,
     genre: ['Action'],
@@ -424,7 +429,8 @@ export const baseMoviesSagaPage2: BaseMovie[] = [
       {
         name: 'Michael Raymond-James',
       },
-    ],    coverUrl: '/movies_pictures/jack_reacher.jpg',
+    ],
+    coverUrl: '/movies_pictures/jack_reacher.jpg',
     releaseDate: '2012-12-21',
     length: 130,
     genre: ['Action'],
@@ -489,7 +495,8 @@ export const baseMoviesSagaPage2: BaseMovie[] = [
       {
         name: 'Louis Partridge',
       },
-    ],    coverUrl: '/movies_pictures/427852-enola-holmes-0-150-0-225-crop.jpg',
+    ],
+    coverUrl: '/movies_pictures/427852-enola-holmes-0-150-0-225-crop.jpg',
     releaseDate: '2020-09-23',
     length: 123,
     genre: ['Policier'],
@@ -518,7 +525,8 @@ export const baseMoviesSagaPage2: BaseMovie[] = [
       {
         name: 'Ramzan Miah',
       },
-    ],    coverUrl: '/movies_pictures/744826-enola-holmes-2-0-150-0-225-crop.jpg',
+    ],
+    coverUrl: '/movies_pictures/744826-enola-holmes-2-0-150-0-225-crop.jpg',
     releaseDate: '2022-11-04',
     length: 129,
     genre: ['Policier'],
@@ -582,7 +590,7 @@ export const baseMoviesSagaPage2: BaseMovie[] = [
         name: 'Daniel Craig',
       },
       {
-        name: 'Josh O\'Connor',
+        name: "Josh O'Connor",
       },
       {
         name: 'Glenn Close',
@@ -599,7 +607,8 @@ export const baseMoviesSagaPage2: BaseMovie[] = [
       {
         name: 'Kerry Washington',
       },
-    ],    coverUrl:
+    ],
+    coverUrl:
       '/movies_pictures/image_1199205_20251218_ob_8bc67b_df38f06c165af14b3883e76218ab7678.webp',
     releaseDate: '2025-12-12',
     length: 135,
@@ -610,31 +619,7 @@ export const baseMoviesSagaPage2: BaseMovie[] = [
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 20,
   },
-  {
-    title: 'James Bond: Meurs un autre jour',
-    director: 'Lee Tamahori',
-    actors: [
-      {
-        name: 'Pierce Brosnan',
-      },
-      {
-        name: 'Halle Berry',
-      },
-    ],
-    coverUrl: '/movies_pictures/james_bond_demain_ne_meurs_jamaiis.jpg',
-    releaseDate: '2002-11-22',
-    length: 133,
-    genre: ['Action'],
-    saga: 'James Bond',
-    description: '',
-    fromEntity: {
-      entityType: 'book',
-      title: 'Casino Royale',
-      secondEntityKey: 'Ian Fleming',
-    },
-    countryOrigin: ['États-Unis'],
-    selectDisplayOrder: 20,
-  },
+
   {
     title: 'James Bond : Casino Royale',
     director: 'Martin Campbell',
@@ -811,7 +796,8 @@ export const baseMoviesSagaPage2: BaseMovie[] = [
       {
         name: 'Constantin Alexandrov',
       },
-    ],    coverUrl:
+    ],
+    coverUrl:
       '/movies_pictures/42559-oss-117-cairo-nest-of-spies-0-150-0-225-crop.jpg',
     releaseDate: '2006-04-19',
     length: 99,
@@ -847,7 +833,8 @@ export const baseMoviesSagaPage2: BaseMovie[] = [
       {
         name: 'Jean-Louis Barcelona',
       },
-    ],    coverUrl: '/movies_pictures/42256-oss-117-lost-in-rio-0-150-0-225-crop.jpg',
+    ],
+    coverUrl: '/movies_pictures/42256-oss-117-lost-in-rio-0-150-0-225-crop.jpg',
     releaseDate: '2009-04-15',
     length: 101,
     genre: ['Comédie'],
@@ -868,7 +855,7 @@ export const baseMoviesSagaPage2: BaseMovie[] = [
         name: 'Pierre Niney',
       },
       {
-        name: 'Fatou N\'Diaye',
+        name: "Fatou N'Diaye",
       },
       {
         name: 'Natacha Lindinger',
@@ -879,7 +866,8 @@ export const baseMoviesSagaPage2: BaseMovie[] = [
       {
         name: 'Wladimir Yordanoff',
       },
-    ],    coverUrl:
+    ],
+    coverUrl:
       '/movies_pictures/531701-oss-117-red-alert-in-black-africa-0-150-0-225-crop.jpg',
     releaseDate: '2021-07-14',
     length: 116,
@@ -915,7 +903,8 @@ export const baseMoviesSagaPage2: BaseMovie[] = [
       {
         name: 'Charlayne Woodard',
       },
-    ],    coverUrl: '/movies_pictures/46866-unbreakable-0-150-0-225-crop.jpg',
+    ],
+    coverUrl: '/movies_pictures/46866-unbreakable-0-150-0-225-crop.jpg',
     releaseDate: '2000-11-22',
     length: 106,
     genre: ['Thriller'],
@@ -950,7 +939,8 @@ export const baseMoviesSagaPage2: BaseMovie[] = [
       {
         name: 'Neal Huff',
       },
-    ],    coverUrl: '/movies_pictures/split.jpg',
+    ],
+    coverUrl: '/movies_pictures/split.jpg',
     releaseDate: '2017-01-20',
     length: 117,
     genre: ['Thriller'],
@@ -1012,7 +1002,8 @@ export const baseMoviesSagaPage2: BaseMovie[] = [
       {
         name: 'Wood Harris',
       },
-    ],    coverUrl: '/movies_pictures/239260-creed-0-150-0-225-crop.jpg',
+    ],
+    coverUrl: '/movies_pictures/239260-creed-0-150-0-225-crop.jpg',
     releaseDate: '2015-11-25',
     length: 133,
     genre: ['Drame'],
@@ -1047,7 +1038,8 @@ export const baseMoviesSagaPage2: BaseMovie[] = [
       {
         name: 'Andre Ward',
       },
-    ],    coverUrl: '/movies_pictures/411439-creed-ii-0-150-0-225-crop.jpg',
+    ],
+    coverUrl: '/movies_pictures/411439-creed-ii-0-150-0-225-crop.jpg',
     releaseDate: '2018-11-21',
     length: 130,
     genre: ['Drame'],
@@ -1082,7 +1074,8 @@ export const baseMoviesSagaPage2: BaseMovie[] = [
       {
         name: 'Jose Benavidez',
       },
-    ],    coverUrl: '/movies_pictures/601624-creed-iii-0-150-0-225-crop.jpg',
+    ],
+    coverUrl: '/movies_pictures/601624-creed-iii-0-150-0-225-crop.jpg',
     releaseDate: '2023-03-03',
     length: 116,
     genre: ['Drame'],
@@ -1117,7 +1110,8 @@ export const baseMoviesSagaPage2: BaseMovie[] = [
       {
         name: 'Gabriel Mann',
       },
-    ],    coverUrl: '/movies_pictures/50225-the-bourne-identity-0-150-0-225-crop.jpg',
+    ],
+    coverUrl: '/movies_pictures/50225-the-bourne-identity-0-150-0-225-crop.jpg',
     releaseDate: '2002-06-14',
     length: 119,
     genre: ['Action'],
@@ -1152,7 +1146,8 @@ export const baseMoviesSagaPage2: BaseMovie[] = [
       {
         name: 'Marton Csokas',
       },
-    ],    coverUrl:
+    ],
+    coverUrl:
       '/movies_pictures/50224-the-bourne-supremacy-0-150-0-225-crop.jpg',
     releaseDate: '2004-07-23',
     length: 108,
@@ -1188,7 +1183,8 @@ export const baseMoviesSagaPage2: BaseMovie[] = [
       {
         name: 'Joan Allen',
       },
-    ],    coverUrl:
+    ],
+    coverUrl:
       '/movies_pictures/50223-the-bourne-ultimatum-0-150-0-225-crop.jpg',
     releaseDate: '2007-08-03',
     length: 115,
@@ -1224,7 +1220,8 @@ export const baseMoviesSagaPage2: BaseMovie[] = [
       {
         name: 'Riz Ahmed',
       },
-    ],    coverUrl: '/movies_pictures/251773-jason-bourne-0-150-0-225-crop.jpg',
+    ],
+    coverUrl: '/movies_pictures/251773-jason-bourne-0-150-0-225-crop.jpg',
     releaseDate: '2016-07-29',
     length: 123,
     genre: ['Action'],
@@ -1332,7 +1329,8 @@ export const baseMoviesSagaPage2: BaseMovie[] = [
       {
         name: 'Mekhi Phifer',
       },
-    ],    coverUrl: '/movies_pictures/117583-divergent-0-150-0-225-crop.jpg',
+    ],
+    coverUrl: '/movies_pictures/117583-divergent-0-150-0-225-crop.jpg',
     releaseDate: '2014-03-21',
     length: 139,
     genre: ['Action'],
@@ -1371,7 +1369,8 @@ export const baseMoviesSagaPage2: BaseMovie[] = [
       {
         name: 'Miles Teller',
       },
-    ],    coverUrl: '/movies_pictures/185970-insurgent-0-150-0-225-crop.jpg',
+    ],
+    coverUrl: '/movies_pictures/185970-insurgent-0-150-0-225-crop.jpg',
     releaseDate: '2015-03-20',
     length: 119,
     genre: ['Action'],
@@ -1450,7 +1449,8 @@ export const baseMoviesSagaPage2: BaseMovie[] = [
       {
         name: 'Famke Janssen',
       },
-    ],    coverUrl: '/movies_pictures/47648-taken-0-230-0-345-crop.jpg',
+    ],
+    coverUrl: '/movies_pictures/47648-taken-0-230-0-345-crop.jpg',
     releaseDate: '2008-02-27',
     length: 93,
     genre: ['Action'],
@@ -1485,7 +1485,8 @@ export const baseMoviesSagaPage2: BaseMovie[] = [
       {
         name: 'Alain Figlarz',
       },
-    ],    coverUrl: '/movies_pictures/69169-taken-2-0-150-0-225-crop.jpg',
+    ],
+    coverUrl: '/movies_pictures/69169-taken-2-0-150-0-225-crop.jpg',
     releaseDate: '2012-10-05',
     length: 92,
     genre: ['Action'],
@@ -1520,7 +1521,8 @@ export const baseMoviesSagaPage2: BaseMovie[] = [
       {
         name: 'Famke Janssen',
       },
-    ],    coverUrl: '/movies_pictures/183907-taken-3-0-150-0-225-crop.jpg',
+    ],
+    coverUrl: '/movies_pictures/183907-taken-3-0-150-0-225-crop.jpg',
     releaseDate: '2015-01-09',
     length: 109,
     genre: ['Action'],
@@ -1555,7 +1557,8 @@ export const baseMoviesSagaPage2: BaseMovie[] = [
       {
         name: 'Robin Williams',
       },
-    ],    coverUrl: '/movies_pictures/50941-night-at-the-museum-0-150-0-225-crop.jpg',
+    ],
+    coverUrl: '/movies_pictures/50941-night-at-the-museum-0-150-0-225-crop.jpg',
     releaseDate: '2006-12-22',
     length: 108,
     genre: ['Comédie'],
@@ -1590,7 +1593,8 @@ export const baseMoviesSagaPage2: BaseMovie[] = [
       {
         name: 'Robin Williams',
       },
-    ],    coverUrl: '/movies_pictures/la_nuit_au_musee.jpg',
+    ],
+    coverUrl: '/movies_pictures/la_nuit_au_musee.jpg',
     releaseDate: '2009-05-22',
     length: 105,
     genre: ['Aventure'],
@@ -1614,7 +1618,7 @@ export const baseMoviesSagaPage2: BaseMovie[] = [
         name: 'Dany Verissimo',
       },
       {
-        name: 'Tony D\'Amario',
+        name: "Tony D'Amario",
       },
       {
         name: 'Samir Guesmi',
@@ -1625,7 +1629,8 @@ export const baseMoviesSagaPage2: BaseMovie[] = [
       {
         name: 'Alain Rimoux',
       },
-    ],    coverUrl: '/movies_pictures/46599-district-13-0-150-0-225-crop.jpg',
+    ],
+    coverUrl: '/movies_pictures/46599-district-13-0-150-0-225-crop.jpg',
     releaseDate: '2004-11-10',
     length: 84,
     genre: ['Action'],
@@ -1660,7 +1665,8 @@ export const baseMoviesSagaPage2: BaseMovie[] = [
       {
         name: 'François Bureloup',
       },
-    ],    coverUrl:
+    ],
+    coverUrl:
       '/movies_pictures/42437-district-13-ultimatum-0-150-0-225-crop.jpg',
     releaseDate: '2009-02-18',
     length: 101,
@@ -1696,7 +1702,8 @@ export const baseMoviesSagaPage2: BaseMovie[] = [
       {
         name: 'Ryan McCluskey',
       },
-    ],    coverUrl: '/movies_pictures/resident_evil.jpg',
+    ],
+    coverUrl: '/movies_pictures/resident_evil.jpg',
     releaseDate: '2002-03-15',
     length: 100,
     genre: ['Action'],
@@ -1735,7 +1742,8 @@ export const baseMoviesSagaPage2: BaseMovie[] = [
       {
         name: 'Sophie Vavasseur',
       },
-    ],    coverUrl:
+    ],
+    coverUrl:
       '/movies_pictures/50957-resident-evil-apocalypse-0-150-0-225-crop.jpg',
     releaseDate: '2004-09-10',
     length: 94,
@@ -1775,7 +1783,8 @@ export const baseMoviesSagaPage2: BaseMovie[] = [
       {
         name: 'Christopher Egan',
       },
-    ],    coverUrl:
+    ],
+    coverUrl:
       '/movies_pictures/47979-resident-evil-extinction-0-150-0-225-crop.jpg',
     releaseDate: '2007-09-21',
     length: 94,
@@ -1815,7 +1824,8 @@ export const baseMoviesSagaPage2: BaseMovie[] = [
       {
         name: 'Spencer Locke',
       },
-    ],    coverUrl: '/movies_pictures/19486570.jpg',
+    ],
+    coverUrl: '/movies_pictures/19486570.jpg',
     releaseDate: '2010-09-10',
     length: 97,
     genre: ['Action'],
@@ -1854,7 +1864,8 @@ export const baseMoviesSagaPage2: BaseMovie[] = [
       {
         name: 'Colin Salmon',
       },
-    ],    coverUrl: '/movies_pictures/20204615.jpg',
+    ],
+    coverUrl: '/movies_pictures/20204615.jpg',
     releaseDate: '2012-09-14',
     length: 95,
     genre: ['Action'],
@@ -1933,7 +1944,8 @@ export const baseMoviesSagaPage2: BaseMovie[] = [
       {
         name: 'Donal Logue',
       },
-    ],    coverUrl: '/movies_pictures/96e6d30993bc.jpg',
+    ],
+    coverUrl: '/movies_pictures/96e6d30993bc.jpg',
     releaseDate: '2021-11-24',
     length: 107,
     genre: ['Action', 'Horreur'],
@@ -1947,144 +1959,7 @@ export const baseMoviesSagaPage2: BaseMovie[] = [
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 20,
   },
-  {
-    title: 'Resident Evil : Death Island',
-    director: 'Eiichiro Hasumi',
-    actors: [
-      {
-        name: 'Matthew Mercer',
-      },
-      {
-        name: 'Nicole Tompkins',
-      },
-      {
-        name: 'Kevin Dorman',
-      },
-      {
-        name: 'Stephanie Panisello',
-      },
-      {
-        name: 'Erin Cahill',
-      },
-      {
-        name: 'Salli Saffioti',
-      },
-      {
-        name: 'Daman Mills',
-      },
-    ],
-    coverUrl: '/movies_pictures/6a88f3d8af33.jpg',
-    releaseDate: '2023-07-25',
-    length: 91,
-    genre: ['Animation', 'Action', 'Horreur'],
-    saga: 'Resident Evil',
-    description: '',
-    fromEntity: {
-      entityType: 'game',
-      title: 'Resident Evil',
-      secondEntityKey: 'Capcom',
-    },
-    countryOrigin: ['Japon'],
-    selectDisplayOrder: 20,
-  },
-  {
-    title: 'Resident Evil: Degeneration',
-    director: 'Makoto Kamiya',
-    actors: [
-      {
-        name: 'Roger Craig Smith',
-      },
-      {
-        name: 'Paul Mercier',
-      },
-      {
-        name: 'Salli Saffioti',
-      },
-      {
-        name: 'Michelle Ruff',
-      },
-      {
-        name: 'Alyson Court',
-      },
-      {
-        name: 'Steven Blum',
-      },
-      {
-        name: 'Mary Elizabeth McGlynn',
-      },
-    ],
-    coverUrl: '/movies_pictures/b3517353a297.jpg',
-    releaseDate: '2008-10-17',
-    length: 96,
-    genre: ['Animation', 'Action', 'Horreur'],
-    saga: 'Resident Evil',
-    description: '',
-    fromEntity: {
-      entityType: 'game',
-      title: 'Resident Evil',
-      secondEntityKey: 'Capcom',
-    },
-    countryOrigin: ['Japon'],
-    selectDisplayOrder: 20,
-  },
-  {
-    title: 'Resident Evil: Damnation',
-    director: 'Makoto Kamiya',
-    actors: [
-      {
-        name: 'Matthew Mercer',
-      },
-      {
-        name: 'Dave Wittenberg',
-      },
-      {
-        name: 'Wendee Lee',
-      },
-      {
-        name: 'Courtenay Taylor',
-      },
-      {
-        name: 'Robin Sachs',
-      },
-      {
-        name: 'Salli Saffioti',
-      },
-      {
-        name: 'Patrick Seitz',
-      },
-    ],
-    coverUrl: '/movies_pictures/f6f46dc13446.jpg',
-    releaseDate: '2012-10-27',
-    length: 96,
-    genre: ['Animation', 'Action', 'Horreur'],
-    saga: 'Resident Evil',
-    description: '',
-    fromEntity: {
-      entityType: 'game',
-      title: 'Resident Evil',
-      secondEntityKey: 'Capcom',
-    },
-    countryOrigin: ['Japon'],
-    selectDisplayOrder: 20,
-  },
-  {
-    title: 'Resident Evil: Vendetta',
-    director: 'Takanori Tsujimoto',
-    actors: [{ name: 'Matthew Mercer' }, { name: 'Kevin Dorman' }],
-    coverUrl: '/movies_pictures/4c97c026cd88.jpg',
-    releaseDate: '2017-05-27',
-    length: 97,
-    genre: ['Animation', 'Action', 'Horreur'],
-    saga: 'Resident Evil',
-    description: '',
-    fromEntity: {
-      entityType: 'game',
-      title: 'Resident Evil',
-      secondEntityKey: 'Capcom',
-    },
-    countryOrigin: ['Japon'],
-    selectDisplayOrder: 20,
-  },
+
   {
     title: 'Rush Hour',
     director: 'Brett Ratner',
@@ -2110,7 +1985,8 @@ export const baseMoviesSagaPage2: BaseMovie[] = [
       {
         name: 'Clifton Powell',
       },
-    ],    coverUrl: '/movies_pictures/50517-rush-hour-0-150-0-225-crop.jpg',
+    ],
+    coverUrl: '/movies_pictures/50517-rush-hour-0-150-0-225-crop.jpg',
     releaseDate: '1998-09-18',
     length: 98,
     genre: ['Action'],
@@ -2145,7 +2021,8 @@ export const baseMoviesSagaPage2: BaseMovie[] = [
       {
         name: 'Alan King',
       },
-    ],    coverUrl: '/movies_pictures/48919-rush-hour-2-0-150-0-225-crop.jpg',
+    ],
+    coverUrl: '/movies_pictures/48919-rush-hour-2-0-150-0-225-crop.jpg',
     releaseDate: '2001-08-03',
     length: 90,
     genre: ['Action'],
@@ -2180,7 +2057,8 @@ export const baseMoviesSagaPage2: BaseMovie[] = [
       {
         name: 'Roman Polanski',
       },
-    ],    coverUrl: '/movies_pictures/48920-rush-hour-3-0-150-0-225-crop.jpg',
+    ],
+    coverUrl: '/movies_pictures/48920-rush-hour-3-0-150-0-225-crop.jpg',
     releaseDate: '2007-08-10',
     length: 91,
     genre: ['Action'],
@@ -2272,7 +2150,8 @@ export const baseMoviesSagaPage2: BaseMovie[] = [
       {
         name: 'Awkwafina',
       },
-    ],    coverUrl: '/movies_pictures/5676009.webp',
+    ],
+    coverUrl: '/movies_pictures/5676009.webp',
     releaseDate: '2018-06-08',
     length: 110,
     genre: ['Policier'],
@@ -2307,7 +2186,8 @@ export const baseMoviesSagaPage2: BaseMovie[] = [
       {
         name: 'Lee Arenberg',
       },
-    ],    coverUrl:
+    ],
+    coverUrl:
       '/movies_pictures/2695-pirates-of-the-caribbean-the-curse-of-the-black-pearl-0-150-0-225-crop.jpg',
     releaseDate: '2003-07-09',
     length: 143,
@@ -2343,7 +2223,8 @@ export const baseMoviesSagaPage2: BaseMovie[] = [
       {
         name: 'Mackenzie Crook',
       },
-    ],    coverUrl:
+    ],
+    coverUrl:
       '/movies_pictures/51989-pirates-of-the-caribbean-dead-man-s-chest-0-150-0-225-crop.jpg',
     releaseDate: '2006-07-07',
     length: 151,
@@ -2431,7 +2312,8 @@ export const baseMoviesSagaPage2: BaseMovie[] = [
       {
         name: 'Dan Herzberg',
       },
-    ],    coverUrl: '/movies_pictures/50324-taxi-0-150-0-225-crop.jpg',
+    ],
+    coverUrl: '/movies_pictures/50324-taxi-0-150-0-225-crop.jpg',
     releaseDate: '1998-04-08',
     length: 86,
     genre: ['Action'],
@@ -2466,7 +2348,8 @@ export const baseMoviesSagaPage2: BaseMovie[] = [
       {
         name: 'Daniel Herzog',
       },
-    ],    coverUrl: '/movies_pictures/50322-taxi-2-0-150-0-225-crop.jpg',
+    ],
+    coverUrl: '/movies_pictures/50322-taxi-2-0-150-0-225-crop.jpg',
     releaseDate: '2000-03-31',
     length: 88,
     genre: ['Action'],
@@ -2501,7 +2384,8 @@ export const baseMoviesSagaPage2: BaseMovie[] = [
       {
         name: 'Bernard Farcy',
       },
-    ],    coverUrl: '/movies_pictures/50320-taxi-3-0-150-0-225-crop.jpg',
+    ],
+    coverUrl: '/movies_pictures/50320-taxi-3-0-150-0-225-crop.jpg',
     releaseDate: '2003-01-29',
     length: 84,
     genre: ['Action'],
@@ -2536,7 +2420,8 @@ export const baseMoviesSagaPage2: BaseMovie[] = [
       {
         name: 'Édouard Montoute',
       },
-    ],    coverUrl: '/movies_pictures/50319-taxi-4-0-150-0-225-crop.jpg',
+    ],
+    coverUrl: '/movies_pictures/50319-taxi-4-0-150-0-225-crop.jpg',
     releaseDate: '2007-02-14',
     length: 91,
     genre: ['Action'],
@@ -2571,7 +2456,8 @@ export const baseMoviesSagaPage2: BaseMovie[] = [
       {
         name: 'Lochlyn Munro',
       },
-    ],    coverUrl: '/movies_pictures/49443-scary-movie-0-150-0-225-crop.jpg',
+    ],
+    coverUrl: '/movies_pictures/49443-scary-movie-0-150-0-225-crop.jpg',
     releaseDate: '2000-07-07',
     length: 88,
     genre: ['Comédie'],
@@ -2606,7 +2492,8 @@ export const baseMoviesSagaPage2: BaseMovie[] = [
       {
         name: 'David Cross',
       },
-    ],    coverUrl: '/movies_pictures/49442-scary-movie-2-0-150-0-225-crop.jpg',
+    ],
+    coverUrl: '/movies_pictures/49442-scary-movie-2-0-150-0-225-crop.jpg',
     releaseDate: '2001-07-04',
     length: 83,
     genre: ['Comédie'],
@@ -2641,7 +2528,8 @@ export const baseMoviesSagaPage2: BaseMovie[] = [
       {
         name: 'Anthony Anderson',
       },
-    ],    coverUrl: '/movies_pictures/49434-scary-movie-3-0-150-0-225-crop.jpg',
+    ],
+    coverUrl: '/movies_pictures/49434-scary-movie-3-0-150-0-225-crop.jpg',
     releaseDate: '2003-10-24',
     length: 84,
     genre: ['Comédie'],
@@ -2676,7 +2564,8 @@ export const baseMoviesSagaPage2: BaseMovie[] = [
       {
         name: 'Chris Elliott',
       },
-    ],    coverUrl: '/movies_pictures/49433-scary-movie-4-0-150-0-225-crop.jpg',
+    ],
+    coverUrl: '/movies_pictures/49433-scary-movie-4-0-150-0-225-crop.jpg',
     releaseDate: '2006-04-14',
     length: 83,
     genre: ['Comédie'],
@@ -2711,7 +2600,8 @@ export const baseMoviesSagaPage2: BaseMovie[] = [
       {
         name: 'Julie Dreyfus',
       },
-    ],    coverUrl: '/movies_pictures/kill_bill.jpg',
+    ],
+    coverUrl: '/movies_pictures/kill_bill.jpg',
     releaseDate: '2003-10-10',
     length: 111,
     genre: ['Action'],
@@ -2746,7 +2636,8 @@ export const baseMoviesSagaPage2: BaseMovie[] = [
       {
         name: 'Gordon Liu Chia-hui',
       },
-    ],    coverUrl: '/movies_pictures/kill_bill_2.jpg',
+    ],
+    coverUrl: '/movies_pictures/kill_bill_2.jpg',
     releaseDate: '2004-04-16',
     length: 137,
     genre: ['Action'],
@@ -2781,7 +2672,8 @@ export const baseMoviesSagaPage2: BaseMovie[] = [
       {
         name: 'Doug Jones',
       },
-    ],    coverUrl: '/movies_pictures/51012-hellboy-0-150-0-225-crop.jpg',
+    ],
+    coverUrl: '/movies_pictures/51012-hellboy-0-150-0-225-crop.jpg',
     releaseDate: '2004-04-02',
     length: 122,
     genre: ['Action'],
@@ -2877,7 +2769,8 @@ export const baseMoviesSagaPage2: BaseMovie[] = [
       {
         name: 'Dominique Lavanant',
       },
-    ],    coverUrl:
+    ],
+    coverUrl:
       '/movies_pictures/45526-french-fried-vacation-0-150-0-225-crop.jpg',
     releaseDate: '1978-12-20',
     length: 95,
@@ -2913,7 +2806,8 @@ export const baseMoviesSagaPage2: BaseMovie[] = [
       {
         name: 'Dominique Lavanant',
       },
-    ],    coverUrl:
+    ],
+    coverUrl:
       '/movies_pictures/29599-french-fried-vacation-2-the-bronzes-go-skiing-0-150-0-225-crop.jpg',
     releaseDate: '1979-12-19',
     length: 95,
@@ -2949,7 +2843,8 @@ export const baseMoviesSagaPage2: BaseMovie[] = [
       {
         name: 'Arthur Jugnot',
       },
-    ],    coverUrl:
+    ],
+    coverUrl:
       '/movies_pictures/38412-french-fried-vacation-3-0-150-0-225-crop.jpg',
     releaseDate: '2006-01-25',
     length: 95,
@@ -2985,7 +2880,8 @@ export const baseMoviesSagaPage2: BaseMovie[] = [
       {
         name: 'Alfred Lot',
       },
-    ],    coverUrl: '/movies_pictures/49510-the-transporter-0-150-0-225-crop.jpg',
+    ],
+    coverUrl: '/movies_pictures/49510-the-transporter-0-150-0-225-crop.jpg',
     releaseDate: '2002-10-11',
     length: 92,
     genre: ['Action'],
@@ -3020,7 +2916,8 @@ export const baseMoviesSagaPage2: BaseMovie[] = [
       {
         name: 'François Berléand',
       },
-    ],    coverUrl: '/movies_pictures/47259-transporter-2-0-150-0-225-crop.jpg',
+    ],
+    coverUrl: '/movies_pictures/47259-transporter-2-0-150-0-225-crop.jpg',
     releaseDate: '2005-09-02',
     length: 87,
     genre: ['Action'],
@@ -3055,7 +2952,8 @@ export const baseMoviesSagaPage2: BaseMovie[] = [
       {
         name: 'David Atrakchi',
       },
-    ],    coverUrl: '/movies_pictures/43931-transporter-3-0-150-0-225-crop.jpg',
+    ],
+    coverUrl: '/movies_pictures/43931-transporter-3-0-150-0-225-crop.jpg',
     releaseDate: '2008-11-26',
     length: 104,
     genre: ['Action'],
@@ -3090,7 +2988,8 @@ export const baseMoviesSagaPage2: BaseMovie[] = [
       {
         name: 'Danny Trejo',
       },
-    ],    coverUrl: '/movies_pictures/48025-xxx-0-150-0-225-crop.jpg',
+    ],
+    coverUrl: '/movies_pictures/48025-xxx-0-150-0-225-crop.jpg',
     releaseDate: '2002-08-09',
     length: 124,
     genre: ['Action'],
@@ -3162,7 +3061,8 @@ export const baseMoviesSagaPage2: BaseMovie[] = [
       {
         name: 'Rutger Hauer',
       },
-    ],    coverUrl: '/movies_pictures/51865-sin-city-0-150-0-225-crop.jpg',
+    ],
+    coverUrl: '/movies_pictures/51865-sin-city-0-150-0-225-crop.jpg',
     releaseDate: '2005-04-01',
     length: 124,
     genre: ['Policier'],
@@ -3197,7 +3097,8 @@ export const baseMoviesSagaPage2: BaseMovie[] = [
       {
         name: 'Mickey Rourke',
       },
-    ],    coverUrl:
+    ],
+    coverUrl:
       '/movies_pictures/51863-sin-city-a-dame-to-kill-for-0-150-0-225-crop.jpg',
     releaseDate: '2014-08-22',
     length: 102,
@@ -3222,7 +3123,7 @@ export const baseMoviesSagaPage2: BaseMovie[] = [
         name: 'Stephen Dorff',
       },
       {
-        name: 'N\'Bushe Wright',
+        name: "N'Bushe Wright",
       },
       {
         name: 'Donal Logue',
@@ -3233,7 +3134,8 @@ export const baseMoviesSagaPage2: BaseMovie[] = [
       {
         name: 'Tim Guinee',
       },
-    ],    coverUrl: '/movies_pictures/27730-blade-0-150-0-225-crop.jpg',
+    ],
+    coverUrl: '/movies_pictures/27730-blade-0-150-0-225-crop.jpg',
     releaseDate: '1998-08-21',
     length: 120,
     genre: ['Action'],
@@ -3268,7 +3170,8 @@ export const baseMoviesSagaPage2: BaseMovie[] = [
       {
         name: 'Thomas Kretschmann',
       },
-    ],    coverUrl: '/movies_pictures/27781-blade-ii-0-150-0-225-crop.jpg',
+    ],
+    coverUrl: '/movies_pictures/27781-blade-ii-0-150-0-225-crop.jpg',
     releaseDate: '2002-03-22',
     length: 117,
     genre: ['Action'],
@@ -3303,7 +3206,8 @@ export const baseMoviesSagaPage2: BaseMovie[] = [
       {
         name: 'Wesley Snipes',
       },
-    ],    coverUrl: '/movies_pictures/blade_trinity.jpg',
+    ],
+    coverUrl: '/movies_pictures/blade_trinity.jpg',
     releaseDate: '2004-12-08',
     length: 113,
     genre: ['Action'],
@@ -3497,7 +3401,8 @@ export const baseMoviesSagaPage2: BaseMovie[] = [
       {
         name: 'Sophia Myles',
       },
-    ],    coverUrl: '/movies_pictures/underworld_1.jpg',
+    ],
+    coverUrl: '/movies_pictures/underworld_1.jpg',
     releaseDate: '2003-09-19',
     length: 121,
     genre: ['Action'],
@@ -3527,7 +3432,7 @@ export const baseMoviesSagaPage2: BaseMovie[] = [
         name: 'Bill Nighy',
       },
       {
-        name: 'Michael O\'Shea',
+        name: "Michael O'Shea",
       },
       {
         name: 'Michael Sheen',
@@ -3715,7 +3620,8 @@ export const baseMoviesSagaPage2: BaseMovie[] = [
       {
         name: 'Sarah Carter',
       },
-    ],    coverUrl: '/movies_pictures/destination_finale_2.jpg',
+    ],
+    coverUrl: '/movies_pictures/destination_finale_2.jpg',
     releaseDate: '2003-01-31',
     length: 90,
     genre: ['Horreur'],
@@ -3750,7 +3656,8 @@ export const baseMoviesSagaPage2: BaseMovie[] = [
       {
         name: 'Crystal Lowe',
       },
-    ],    coverUrl: '/movies_pictures/47306-final-destination-3-0-150-0-225-crop.jpg',
+    ],
+    coverUrl: '/movies_pictures/47306-final-destination-3-0-150-0-225-crop.jpg',
     releaseDate: '2006-02-10',
     length: 93,
     genre: ['Horreur'],
@@ -3785,7 +3692,8 @@ export const baseMoviesSagaPage2: BaseMovie[] = [
       {
         name: 'Haley Webb',
       },
-    ],    coverUrl: '/movies_pictures/destination_finale_4.jpg',
+    ],
+    coverUrl: '/movies_pictures/destination_finale_4.jpg',
     releaseDate: '2009-08-28',
     length: 82,
     genre: ['Horreur'],
@@ -3800,7 +3708,7 @@ export const baseMoviesSagaPage2: BaseMovie[] = [
     director: 'Steven Quale',
     actors: [
       {
-        name: 'Nicholas D\'Agosto',
+        name: "Nicholas D'Agosto",
       },
       {
         name: 'Emma Bell',
@@ -3820,9 +3728,40 @@ export const baseMoviesSagaPage2: BaseMovie[] = [
       {
         name: 'Jacqueline MacInnes Wood',
       },
-    ],    coverUrl: '/movies_pictures/destination_finale_5.jpg',
+    ],
+    coverUrl: '/movies_pictures/destination_finale_5.jpg',
     releaseDate: '2011-08-12',
     length: 92,
+    genre: ['Horreur'],
+    saga: 'Destination Finale',
+    description: '',
+    fromEntity: null,
+    countryOrigin: ['États-Unis'],
+    selectDisplayOrder: 20,
+  },
+  {
+    title: 'Destination Finale : Bloodlines',
+    director: 'Zach Lipovsky, Adam B. Stein',
+    actors: [
+      {
+        name: 'Joaquin Phoenix',
+      },
+      {
+        name: 'Pedro Pascal',
+      },
+      {
+        name: 'Emma Stone',
+      },
+      {
+        name: 'Austin Butler',
+      },
+      {
+        name: 'Luke Grimes',
+      },
+    ],
+    coverUrl: '/movies_pictures/destination_finale_bloodlines.jpg',
+    releaseDate: '2025-05-14',
+    length: 109,
     genre: ['Horreur'],
     saga: 'Destination Finale',
     description: '',
@@ -3855,7 +3794,8 @@ export const baseMoviesSagaPage2: BaseMovie[] = [
       {
         name: 'Courteney Cox',
       },
-    ],    coverUrl: '/movies_pictures/49455-scream-0-150-0-225-crop.jpg',
+    ],
+    coverUrl: '/movies_pictures/49455-scream-0-150-0-225-crop.jpg',
     releaseDate: '1996-12-20',
     length: 111,
     genre: ['Horreur'],
@@ -3885,12 +3825,13 @@ export const baseMoviesSagaPage2: BaseMovie[] = [
         name: 'Timothy Olyphant',
       },
       {
-        name: 'Jerry O\'Connell',
+        name: "Jerry O'Connell",
       },
       {
         name: 'Liev Schreiber',
       },
-    ],    coverUrl: '/movies_pictures/scream_2.jpg',
+    ],
+    coverUrl: '/movies_pictures/scream_2.jpg',
     releaseDate: '1997-12-12',
     length: 120,
     genre: ['Horreur'],
@@ -3925,7 +3866,8 @@ export const baseMoviesSagaPage2: BaseMovie[] = [
       {
         name: 'Deon Richmond',
       },
-    ],    coverUrl: '/movies_pictures/49453-scream-3-0-150-0-225-crop.jpg',
+    ],
+    coverUrl: '/movies_pictures/49453-scream-3-0-150-0-225-crop.jpg',
     releaseDate: '2000-02-04',
     length: 116,
     genre: ['Horreur'],
@@ -3960,7 +3902,8 @@ export const baseMoviesSagaPage2: BaseMovie[] = [
       {
         name: 'Nico Tortorella',
       },
-    ],    coverUrl: '/movies_pictures/scream_4.jpg',
+    ],
+    coverUrl: '/movies_pictures/scream_4.jpg',
     releaseDate: '2011-04-15',
     length: 111,
     genre: ['Horreur'],
@@ -4085,7 +4028,8 @@ export const baseMoviesSagaPage2: BaseMovie[] = [
       {
         name: 'Cliff Curtis',
       },
-    ],    coverUrl:
+    ],
+    coverUrl:
       '/movies_pictures/63058-avatar-the-way-of-water-0-150-0-225-crop.jpg',
     releaseDate: '2022-12-16',
     length: 192,
@@ -4151,7 +4095,8 @@ export const baseMoviesSagaPage2: BaseMovie[] = [
       {
         name: 'Seann William Scott',
       },
-    ],    coverUrl: '/movies_pictures/50521-american-pie-0-150-0-225-crop.jpg',
+    ],
+    coverUrl: '/movies_pictures/50521-american-pie-0-150-0-225-crop.jpg',
     releaseDate: '1999-07-09',
     length: 95,
     genre: ['Comédie'],
@@ -4186,7 +4131,8 @@ export const baseMoviesSagaPage2: BaseMovie[] = [
       {
         name: 'Alyson Hannigan',
       },
-    ],    coverUrl: '/movies_pictures/50101-american-pie-2-0-150-0-225-crop.jpg',
+    ],
+    coverUrl: '/movies_pictures/50101-american-pie-2-0-150-0-225-crop.jpg',
     releaseDate: '2001-08-10',
     length: 108,
     genre: ['Comédie'],
@@ -4221,7 +4167,8 @@ export const baseMoviesSagaPage2: BaseMovie[] = [
       {
         name: 'Fred Willard',
       },
-    ],    coverUrl: '/movies_pictures/47833-american-wedding-0-150-0-225-crop.jpg',
+    ],
+    coverUrl: '/movies_pictures/47833-american-wedding-0-150-0-225-crop.jpg',
     releaseDate: '2003-08-01',
     length: 96,
     genre: ['Comédie'],
@@ -4256,7 +4203,8 @@ export const baseMoviesSagaPage2: BaseMovie[] = [
       {
         name: 'Robbie Amell',
       },
-    ],    coverUrl: '/movies_pictures/american_pie_beta_house.jpg',
+    ],
+    coverUrl: '/movies_pictures/american_pie_beta_house.jpg',
     releaseDate: '2007-12-26',
     length: 88,
     genre: ['Comédie'],
@@ -4291,7 +4239,8 @@ export const baseMoviesSagaPage2: BaseMovie[] = [
       {
         name: 'Ross Thomas',
       },
-    ],    coverUrl:
+    ],
+    coverUrl:
       '/movies_pictures/47831-american-pie-presents-the-naked-mile-0-150-0-225-crop.jpg',
     releaseDate: '2006-12-19',
     length: 97,
@@ -4327,7 +4276,8 @@ export const baseMoviesSagaPage2: BaseMovie[] = [
       {
         name: 'Jason Earles',
       },
-    ],    coverUrl: '/movies_pictures/american_pie_band_camp.jpg',
+    ],
+    coverUrl: '/movies_pictures/american_pie_band_camp.jpg',
     releaseDate: '2005-12-26',
     length: 97,
     genre: ['Comédie'],
@@ -4362,7 +4312,8 @@ export const baseMoviesSagaPage2: BaseMovie[] = [
       {
         name: 'Kirsten Price',
       },
-    ],    coverUrl:
+    ],
+    coverUrl:
       '/movies_pictures/35567-american-pie-presents-the-book-of-love-0-150-0-225-crop.jpg',
     releaseDate: '2009-12-22',
     length: 93,
@@ -4398,7 +4349,8 @@ export const baseMoviesSagaPage2: BaseMovie[] = [
       {
         name: 'Tara Reid',
       },
-    ],    coverUrl: '/movies_pictures/57927-american-reunion-0-150-0-225-crop.jpg',
+    ],
+    coverUrl: '/movies_pictures/57927-american-reunion-0-150-0-225-crop.jpg',
     releaseDate: '2012-04-06',
     length: 113,
     genre: ['Comédie'],

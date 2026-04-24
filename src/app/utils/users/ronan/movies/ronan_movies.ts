@@ -10595,7 +10595,7 @@ export const ronanMovies: UserMovies = [
     inList: [],
   },
   {
-    title: 'Monsters University',
+    title: 'Monstres Academy',
     director: 'Dan Scanlon',
     rating: 2.5,
     timesWatched: 1,
@@ -11827,22 +11827,7 @@ export const ronanMovies: UserMovies = [
     loaned: '',
     inList: [],
   },
-  {
-    title: "Je Sais ce que Vous Avez Fait l'Été Dernier",
-    director: 'Jim Gillespie',
-    rating: 2.5,
-    timesWatched: 1,
-    firstViewedDate: '',
-    lastViewedDate: '',
-    seenAtCinema: false,
-    owned: false,
-    wantToSeeAgain: false,
-    watchPriority: 1,
-    ratingComment: '',
-    borrowed: '',
-    loaned: '',
-    inList: [],
-  },
+
   {
     title: 'Maléfique',
     director: 'Robert Stromberg',
@@ -18090,25 +18075,25 @@ export const ronanMovies: UserMovies = [
   },
 
   {
-    title: "Elephant Man",
-    director: "David Lynch",
+    title: 'Elephant Man',
+    director: 'David Lynch',
     rating: 3,
     timesWatched: 1,
-    firstViewedDate: "2026-04-15",
-    lastViewedDate: "2026-04-15",
+    firstViewedDate: '2026-04-15',
+    lastViewedDate: '2026-04-15',
     seenAtCinema: false,
     owned: false,
     wantToSeeAgain: false,
     watchPriority: 1,
-    ratingComment: "",
+    ratingComment: '',
     inList: [],
-    borrowed: "",
-    loaned: "",
+    borrowed: '',
+    loaned: '',
   },
 
   {
-    title: "Need for Speed",
-    director: "Scott Waugh",
+    title: 'Need for Speed',
+    director: 'Scott Waugh',
     rating: 3.5,
     timesWatched: 1,
     firstViewedDate: '',
@@ -18124,8 +18109,8 @@ export const ronanMovies: UserMovies = [
   },
 
   {
-    title: "Gods of Egypt",
-    director: "Alex Proyas",
+    title: 'Gods of Egypt',
+    director: 'Alex Proyas',
     rating: 2.5,
     timesWatched: 1,
     firstViewedDate: '',
@@ -18141,8 +18126,8 @@ export const ronanMovies: UserMovies = [
   },
 
   {
-    title: "Du Plomb dans la tête",
-    director: "Walter Hill",
+    title: 'Du Plomb dans la tête',
+    director: 'Walter Hill',
     rating: 2.5,
     timesWatched: 1,
     firstViewedDate: '',
@@ -18158,8 +18143,8 @@ export const ronanMovies: UserMovies = [
   },
 
   {
-    title: "Passengers",
-    director: "Morten Tyldum",
+    title: 'Passengers',
+    director: 'Morten Tyldum',
     rating: 3.5,
     timesWatched: 1,
     firstViewedDate: '',
@@ -18175,8 +18160,8 @@ export const ronanMovies: UserMovies = [
   },
 
   {
-    title: "Largo Winch",
-    director: "Jérôme Salle",
+    title: 'Largo Winch',
+    director: 'Jérôme Salle',
     rating: 2.5,
     timesWatched: 1,
     firstViewedDate: '',
@@ -18192,8 +18177,8 @@ export const ronanMovies: UserMovies = [
   },
 
   {
-    title: "Hors normes",
-    director: "Éric Toledano, Olivier Nakache",
+    title: 'Hors normes',
+    director: 'Éric Toledano, Olivier Nakache',
     rating: 4,
     timesWatched: 1,
     firstViewedDate: '',
@@ -18209,8 +18194,8 @@ export const ronanMovies: UserMovies = [
   },
 
   {
-    title: "Le Sens de la fête",
-    director: "Éric Toledano, Olivier Nakache",
+    title: 'Le Sens de la fête',
+    director: 'Éric Toledano, Olivier Nakache',
     rating: 3.5,
     timesWatched: 1,
     firstViewedDate: '',
@@ -18226,8 +18211,8 @@ export const ronanMovies: UserMovies = [
   },
 
   {
-    title: "Robin des Bois",
-    director: "Ridley Scott",
+    title: 'Robin des Bois',
+    director: 'Ridley Scott',
     rating: 3,
     timesWatched: 1,
     firstViewedDate: '',
@@ -18243,8 +18228,8 @@ export const ronanMovies: UserMovies = [
   },
 
   {
-    title: "Raging Bull",
-    director: "Martin Scorsese",
+    title: 'Raging Bull',
+    director: 'Martin Scorsese',
     rating: 3,
     timesWatched: 1,
     firstViewedDate: '',
@@ -18260,8 +18245,8 @@ export const ronanMovies: UserMovies = [
   },
 
   {
-    title: "Licorice Pizza",
-    director: "Paul Thomas Anderson",
+    title: 'Licorice Pizza',
+    director: 'Paul Thomas Anderson',
     rating: 2.5,
     timesWatched: 1,
     firstViewedDate: '',
@@ -18278,7 +18263,7 @@ export const ronanMovies: UserMovies = [
 
   {
     title: "Jusqu'en enfer",
-    director: "Sam Raimi",
+    director: 'Sam Raimi',
     rating: 2.5,
     timesWatched: 1,
     firstViewedDate: '',
@@ -18294,8 +18279,8 @@ export const ronanMovies: UserMovies = [
   },
 
   {
-    title: "Oz the Great and Powerful",
-    director: "Sam Raimi",
+    title: 'Oz the Great and Powerful',
+    director: 'Sam Raimi',
     rating: 3.5,
     timesWatched: 1,
     firstViewedDate: '',
@@ -18311,8 +18296,8 @@ export const ronanMovies: UserMovies = [
   },
 
   {
-    title: "La Mouche",
-    director: "David Cronenberg",
+    title: 'La Mouche',
+    director: 'David Cronenberg',
     rating: 2,
     timesWatched: 1,
     firstViewedDate: '',
@@ -18328,53 +18313,53 @@ export const ronanMovies: UserMovies = [
   },
 
   {
-    title: "Juste une illusion",
-    director: "Olivier Nakache, Éric Toledano",
+    title: 'Juste une illusion',
+    director: 'Olivier Nakache, Éric Toledano',
     rating: 3.5,
     timesWatched: 1,
-    firstViewedDate: "2026-04-17",
-    lastViewedDate: "2026-04-17",
+    firstViewedDate: '2026-04-17',
+    lastViewedDate: '2026-04-17',
     seenAtCinema: true,
     owned: false,
     wantToSeeAgain: false,
     watchPriority: 1,
-    ratingComment: "",
+    ratingComment: '',
     inList: [],
-    borrowed: "",
-    loaned: "",
+    borrowed: '',
+    loaned: '',
   },
 
   {
     title: "L'Épreuve du feu",
-    director: "Aurélien Peyre",
+    director: 'Aurélien Peyre',
     rating: 3,
     timesWatched: 1,
-    firstViewedDate: "2026-04-19",
-    lastViewedDate: "2026-04-19",
+    firstViewedDate: '2026-04-19',
+    lastViewedDate: '2026-04-19',
     seenAtCinema: false,
     owned: false,
     wantToSeeAgain: false,
     watchPriority: 1,
-    ratingComment: "",
+    ratingComment: '',
     inList: [],
-    borrowed: "",
-    loaned: "",
+    borrowed: '',
+    loaned: '',
   },
 
   {
-    title: "Eyes Wide Shut",
-    director: "Stanley Kubrick",
+    title: 'Eyes Wide Shut',
+    director: 'Stanley Kubrick',
     rating: 2.5,
     timesWatched: 1,
-    firstViewedDate: "2026-04-22",
-    lastViewedDate: "2026-04-22",
+    firstViewedDate: '2026-04-22',
+    lastViewedDate: '2026-04-22',
     seenAtCinema: false,
     owned: false,
     wantToSeeAgain: false,
     watchPriority: 1,
-    ratingComment: "",
+    ratingComment: '',
     inList: [],
-    borrowed: "",
-    loaned: "",
+    borrowed: '',
+    loaned: '',
   },
 ];

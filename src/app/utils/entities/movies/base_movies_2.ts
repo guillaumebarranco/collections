@@ -42,7 +42,7 @@ export const baseMoviesPage2: BaseMovie[] = [
     director: 'Michael Matthews',
     actors: [
       {
-        name: 'Dylan O\'Brien',
+        name: "Dylan O'Brien",
       },
       {
         name: 'Michael Rooker',
@@ -137,42 +137,7 @@ export const baseMoviesPage2: BaseMovie[] = [
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
   },
-  {
-    title: 'Mulan',
-    director: 'Niki Caro',
-    actors: [
-      {
-        name: 'Liu Yifei',
-      },
-      {
-        name: 'Donnie Yen',
-      },
-      {
-        name: 'Jet Li',
-      },
-      {
-        name: 'Jason Scott Lee',
-      },
-      {
-        name: 'Rosalind Chao',
-      },
-      {
-        name: 'Gong Li',
-      },
-      {
-        name: 'Tzi Ma',
-      },
-    ],
-    coverUrl: '/movies_pictures/d298a5e1cf03.jpg',
-    releaseDate: '2020-09-04',
-    length: 115,
-    genre: ['Action'],
-    saga: 'Disney Classique',
-    description: '',
-    fromEntity: null,
-    countryOrigin: ['États-Unis'],
-    selectDisplayOrder: 0,
-  },
+
   {
     title: 'Palm Springs',
     director: 'Max Barbakow',
@@ -273,39 +238,405 @@ export const baseMoviesPage2: BaseMovie[] = [
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 30,
   },
+
   {
-    title: 'Evasion 3',
-    director: 'John Herzfeld',
+    title: 'Cruella',
+    director: 'Craig Gillespie',
     actors: [
       {
-        name: 'Sylvester Stallone',
+        name: 'Emma Stone',
       },
       {
-        name: 'David Bautista',
+        name: 'Emma Thompson',
       },
       {
-        name: '50 Cent',
+        name: 'Paul Walter Hauser',
       },
       {
-        name: 'Devon Sawa',
+        name: 'Joel Fry',
       },
       {
-        name: 'Jaime King',
+        name: 'Emily Beecham',
       },
       {
-        name: 'Daniel Bernhardt',
+        name: 'Mark Strong',
+      },
+      {
+        name: 'Kayvan Novak',
       },
     ],
-    coverUrl:
-      '/movies_pictures/411041-escape-plan-the-extractors-0-150-0-225-crop.jpg',
-    releaseDate: '2019-07-02',
-    length: 97,
-    genre: ['Action'],
+    coverUrl: '/movies_pictures/0290309.jpg',
+    releaseDate: '2021-05-28',
+    length: 134,
+    genre: ['Policier', 'Comédie'],
     saga: '',
     description: '',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+  },
+  {
+    title: 'Le Livre de la jungle',
+    director: 'Jon Favreau',
+    actors: [
+      {
+        name: 'Neel Sethi',
+      },
+      {
+        name: 'Bill Murray',
+      },
+      {
+        name: 'Ben Kingsley',
+      },
+      {
+        name: 'Idris Elba',
+      },
+      {
+        name: "Lupita Nyong'o",
+      },
+      {
+        name: 'Scarlett Johansson',
+      },
+      {
+        name: 'Giancarlo Esposito',
+      },
+    ],
+    coverUrl: '/movies_pictures/a23cf9302e8d.jpg',
+    releaseDate: '2016-04-13',
+    length: 106,
+    genre: ['Aventure'],
+    saga: 'Disney Live Action',
+    description: '',
+    fromEntity: null,
+    countryOrigin: ['États-Unis'],
+    selectDisplayOrder: 0,
+  },
+  {
+    title: 'Dumbo',
+    director: 'Tim Burton',
+    actors: [
+      {
+        name: 'Colin Farrell',
+      },
+      {
+        name: 'Michael Keaton',
+      },
+      {
+        name: 'Danny DeVito',
+      },
+      {
+        name: 'Eva Green',
+      },
+      {
+        name: 'Alan Arkin',
+      },
+      {
+        name: 'Roshan Seth',
+      },
+      {
+        name: 'Lars Eidinger',
+      },
+    ],
+    coverUrl: '/movies_pictures/3593965.jpg',
+    releaseDate: '2019-03-29',
+    length: 112,
+    genre: ['Fantastique', 'Jeunesse'],
+    saga: 'Disney Live Action',
+    description: '',
+    fromEntity: null,
+    countryOrigin: ['États-Unis'],
+    selectDisplayOrder: 0,
+  },
+  {
+    title: 'Le Roi Lion',
+    director: 'Jon Favreau',
+    actors: [
+      {
+        name: 'Donald Glover',
+      },
+      {
+        name: 'Beyoncé',
+      },
+      {
+        name: 'Chiwetel Ejiofor',
+      },
+      {
+        name: 'Seth Rogen',
+      },
+      {
+        name: 'Billy Eichner',
+      },
+      {
+        name: 'John Oliver',
+      },
+      {
+        name: 'James Earl Jones',
+      },
+    ],
+    coverUrl:
+      '/movies_pictures/78a71d7b6586.jpg',
+    releaseDate: '2019-07-17',
+    length: 118,
+    genre: ['Aventure', 'Jeunesse'],
+    saga: 'Disney Live Action',
+    description: '',
+    fromEntity: null,
+    countryOrigin: ['États-Unis'],
+    selectDisplayOrder: 0,
+  },
+  {
+    title: 'Mufasa : Le Roi Lion',
+    director: 'Barry Jenkins',
+    actors: [
+      {
+        name: 'Aaron Pierre',
+      },
+      {
+        name: 'Kelvin Harrison Jr.',
+      },
+      {
+        name: 'John Kani',
+      },
+      {
+        name: 'Seth Rogen',
+      },
+      {
+        name: 'Billy Eichner',
+      },
+      {
+        name: 'Tiffany Boone',
+      },
+      {
+        name: 'Mads Mikkelsen',
+      },
+    ],
+    coverUrl:
+      '/movies_pictures/5f26c6da2f22.jpg',
+    releaseDate: '2024-12-18',
+    length: 118,
+    genre: ['Aventure', 'Jeunesse'],
+    saga: 'Disney Live Action',
+    description: '',
+    fromEntity: null,
+    countryOrigin: ['États-Unis'],
+    selectDisplayOrder: 0,
+  },
+  {
+    title: 'Mulan',
+    director: 'Niki Caro',
+    actors: [
+      {
+        name: 'Liu Yifei',
+      },
+      {
+        name: 'Donnie Yen',
+      },
+      {
+        name: 'Jet Li',
+      },
+      {
+        name: 'Jason Scott Lee',
+      },
+      {
+        name: 'Rosalind Chao',
+      },
+      {
+        name: 'Gong Li',
+      },
+      {
+        name: 'Tzi Ma',
+      },
+    ],
+    coverUrl: '/movies_pictures/d298a5e1cf03.jpg',
+    releaseDate: '2020-09-04',
+    length: 115,
+    genre: ['Action'],
+    saga: 'Disney Classique',
+    description: '',
+    fromEntity: null,
+    countryOrigin: ['États-Unis'],
+    selectDisplayOrder: 0,
+  },
+  {
+    title: 'Cendrillon',
+    director: 'Kenneth Branagh',
+    actors: [
+      {
+        name: 'Lily James',
+      },
+      {
+        name: 'Richard Madden',
+      },
+      {
+        name: 'Stellan Skarsgård',
+      },
+      {
+        name: 'Holliday Grainger',
+      },
+      {
+        name: 'Sophie McShera',
+      },
+      {
+        name: 'Derek Jacobi',
+      },
+      {
+        name: 'Helena Bonham Carter',
+      },
+    ],
+    coverUrl: '/movies_pictures/350162.webp',
+    releaseDate: '2015-03-13',
+    length: 113,
+    genre: ['Fantastique', 'Romance'],
+    saga: '',
+    description: '',
+    fromEntity: null,
+    countryOrigin: ['États-Unis'],
+    selectDisplayOrder: 0,
+  },
+  {
+    title: 'Cendrillon',
+    director: 'Kay Cannon',
+    actors: [
+      {
+        name: 'Camila Cabello',
+      },
+      {
+        name: 'Idina Menzel',
+      },
+      {
+        name: 'Minnie Driver',
+      },
+      {
+        name: 'Nicholas Galitzine',
+      },
+      {
+        name: 'Billy Porter',
+      },
+      {
+        name: 'Pierce Brosnan',
+      },
+      {
+        name: 'James Corden',
+      },
+    ],
+    coverUrl: '/movies_pictures/2715417.jpg',
+    releaseDate: '2021-09-03',
+    length: 113,
+    genre: ['Comédie musicale', 'Romance'],
+    saga: '',
+    description: '',
+    fromEntity: null,
+    countryOrigin: ['États-Unis'],
+    selectDisplayOrder: 0,
+  },
+  {
+    title: 'Maléfique',
+    director: 'Robert Stromberg',
+    actors: [
+      {
+        name: 'Angelina Jolie',
+      },
+      {
+        name: 'Elle Fanning',
+      },
+      {
+        name: 'Sharlto Copley',
+      },
+      {
+        name: 'Juno Temple',
+      },
+      {
+        name: 'Sam Riley',
+      },
+      {
+        name: 'Miranda Richardson',
+      },
+      {
+        name: 'Imelda Staunton',
+      },
+    ],
+    coverUrl: '/movies_pictures/malefique.jpg',
+    releaseDate: '2014-05-30',
+    length: 97,
+    genre: ['Fantastique'],
+    saga: 'Disney Live Action',
+    description: '',
+    fromEntity: null,
+    countryOrigin: ['États-Unis'],
+    selectDisplayOrder: 0,
+  },
+  {
+    title: 'Maléfique : Le Pouvoir du Mal',
+    director: 'Joachim Rønning',
+    actors: [
+      {
+        name: 'Angelina Jolie',
+      },
+      {
+        name: 'Elle Fanning',
+      },
+      {
+        name: 'Ed Skrein',
+      },
+      {
+        name: 'Sam Riley',
+      },
+      {
+        name: 'Michelle Pfeiffer',
+      },
+      {
+        name: 'Chiwetel Ejiofor',
+      },
+      {
+        name: 'Imelda Staunton',
+      },
+    ],
+    coverUrl: '/movies_pictures/3125098.webp',
+    releaseDate: '2019-10-18',
+    length: 119,
+    genre: ['Fantastique', 'Aventure'],
+    saga: 'Disney Live Action',
+    description: '',
+    fromEntity: null,
+    countryOrigin: ['États-Unis'],
+    selectDisplayOrder: 0,
+  },
+  {
+    title: 'La Belle et la Bête',
+    director: 'Bill Condon',
+    actors: [
+      {
+        name: 'Emma Watson',
+      },
+      {
+        name: 'Dan Stevens',
+      },
+      {
+        name: 'Luke Evans',
+      },
+      {
+        name: 'Emma Thompson',
+      },
+      {
+        name: 'Ewan McGregor',
+      },
+      {
+        name: 'Ian McKellen',
+      },
+      {
+        name: 'Kevin Kline',
+      },
+    ],
+    coverUrl:
+      '/movies_pictures/248708-beauty-and-the-beast-0-150-0-225-crop.jpg',
+    releaseDate: '2017-03-17',
+    length: 129,
+    genre: ['Fantastique', 'Romance'],
+    saga: '',
+    description: '',
+    fromEntity: null,
+    countryOrigin: ['États-Unis'],
+    selectDisplayOrder: 30,
   },
   {
     title: 'Aladdin',
@@ -342,6 +673,78 @@ export const baseMoviesPage2: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+  },
+  {
+    title: 'La Petite Sirène',
+    director: 'Rob Marshall',
+    actors: [
+      {
+        name: 'Halle Bailey',
+      },
+      {
+        name: 'Melissa McCarthy',
+      },
+      {
+        name: 'Javier Bardem',
+      },
+      {
+        name: 'Jonah Hauer-King',
+      },
+      {
+        name: 'Noma Dumezweni',
+      },
+      {
+        name: 'Art Malik',
+      },
+      {
+        name: 'Martina Laird',
+      },
+    ],
+    coverUrl: '/movies_pictures/5295339.jpg',
+    releaseDate: '2023-05-26',
+    length: 135,
+    genre: ['Comédie musicale', 'Fantastique'],
+    saga: '',
+    description: '',
+    fromEntity: null,
+    countryOrigin: ['États-Unis'],
+    selectDisplayOrder: 0,
+  },
+  {
+    title: 'Les 101 Dalmatiens',
+    director: 'Stephen Herek',
+    actors: [
+      {
+        name: 'Tim McInnerny',
+      },
+      {
+        name: 'Hugh Fraser',
+      },
+      {
+        name: 'John Shrapnel',
+      },
+      {
+        name: 'John Benfield',
+      },
+      {
+        name: 'Glenn Close',
+      },
+      {
+        name: 'Jeff Daniels',
+      },
+      {
+        name: 'Joely Richardson',
+      },
+    ],
+    coverUrl: '/movies_pictures/9c17bf5e48ab.jpg',
+    releaseDate: '1996-11-27',
+    length: 103,
+    genre: ['Jeunesse', 'Comédie'],
+    saga: 'Disney Classique',
+    description: '',
+    fromEntity: null,
+    countryOrigin: ['États-Unis'],
+    selectDisplayOrder: 20,
   },
   {
     title: 'Alita: Battle Angel',
@@ -492,6 +895,42 @@ export const baseMoviesPage2: BaseMovie[] = [
     selectDisplayOrder: 30,
   },
   {
+    title: 'Evasion',
+    director: 'Mikael Håfström',
+    actors: [
+      {
+        name: 'Sylvester Stallone',
+      },
+      {
+        name: 'Arnold Schwarzenegger',
+      },
+      {
+        name: 'Jim Caviezel',
+      },
+      {
+        name: "Vincent D'Onofrio",
+      },
+      {
+        name: 'Vinnie Jones',
+      },
+      {
+        name: '50 Cent',
+      },
+      {
+        name: 'Sam Neill',
+      },
+    ],
+    coverUrl: '/movies_pictures/86856-escape-plan-0-150-0-225-crop.jpg',
+    releaseDate: '2013-10-18',
+    length: 115,
+    genre: ['Action'],
+    saga: '',
+    description: '',
+    fromEntity: null,
+    countryOrigin: ['États-Unis'],
+    selectDisplayOrder: 0,
+  },
+  {
     title: 'Evasion 2: Hades',
     director: 'Steven C. Miller',
     actors: [
@@ -528,7 +967,40 @@ export const baseMoviesPage2: BaseMovie[] = [
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
   },
-
+  {
+    title: 'Evasion 3',
+    director: 'John Herzfeld',
+    actors: [
+      {
+        name: 'Sylvester Stallone',
+      },
+      {
+        name: 'David Bautista',
+      },
+      {
+        name: '50 Cent',
+      },
+      {
+        name: 'Devon Sawa',
+      },
+      {
+        name: 'Jaime King',
+      },
+      {
+        name: 'Daniel Bernhardt',
+      },
+    ],
+    coverUrl:
+      '/movies_pictures/411041-escape-plan-the-extractors-0-150-0-225-crop.jpg',
+    releaseDate: '2019-07-02',
+    length: 97,
+    genre: ['Action'],
+    saga: '',
+    description: '',
+    fromEntity: null,
+    countryOrigin: ['États-Unis'],
+    selectDisplayOrder: 0,
+  },
   {
     title: 'La Soupe aux choux',
     director: 'Jean Girault',
@@ -540,6 +1012,42 @@ export const baseMoviesPage2: BaseMovie[] = [
     coverUrl: '/movies_pictures/47276-the-cabbage-soup-0-150-0-225-crop.jpg',
     releaseDate: '1981-12-02',
     length: 98,
+    genre: ['Comédie'],
+    saga: '',
+    description: '',
+    fromEntity: null,
+    countryOrigin: ['France'],
+    selectDisplayOrder: 30,
+  },
+  {
+    title: 'La Grande Vadrouille',
+    director: 'Gérard Oury',
+    actors: [
+      {
+        name: 'Bourvil',
+      },
+      {
+        name: 'Louis de Funès',
+      },
+      {
+        name: 'Terry-Thomas',
+      },
+      {
+        name: 'Helmuth Schneider',
+      },
+      {
+        name: 'Claudio Brook',
+      },
+      {
+        name: 'Mike Marshall',
+      },
+      {
+        name: 'Marie Dubois',
+      },
+    ],
+    coverUrl: '/movies_pictures/81pPAF7B7RL._AC_UF894,1000_QL80_.jpg',
+    releaseDate: '1966-12-08',
+    length: 132,
     genre: ['Comédie'],
     saga: '',
     description: '',
@@ -683,7 +1191,7 @@ export const baseMoviesPage2: BaseMovie[] = [
         name: 'Linda Blair',
       },
       {
-        name: 'William O\'Malley',
+        name: "William O'Malley",
       },
     ],
     coverUrl: '/movies_pictures/47048-the-exorcist-0-150-0-225-crop.jpg',
@@ -1878,42 +2386,7 @@ export const baseMoviesPage2: BaseMovie[] = [
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
   },
-  {
-    title: "Maman je m'occupe des méchants",
-    director: 'Raja Gosnell',
-    actors: [
-      {
-        name: 'Alex D. Linz',
-      },
-      {
-        name: 'Olek Krupa',
-      },
-      {
-        name: 'Rya Kihlstedt',
-      },
-      {
-        name: 'Lenny Von Dohlen',
-      },
-      {
-        name: 'David Thornton',
-      },
-      {
-        name: 'Haviland Morris',
-      },
-      {
-        name: 'Kevin Kilner',
-      },
-    ],
-    coverUrl: '/movies_pictures/46891-home-alone-3-0-1000-0-1500-crop.jpg',
-    releaseDate: '1997-02-05',
-    length: 102,
-    genre: ['Comédie'],
-    saga: '',
-    description: '',
-    fromEntity: null,
-    countryOrigin: ['États-Unis'],
-    selectDisplayOrder: 0,
-  },
+
   {
     title: 'Yamakasi',
     director: 'Julien Seri',
@@ -2309,7 +2782,7 @@ export const baseMoviesPage2: BaseMovie[] = [
         name: 'Corey Stoll',
       },
       {
-        name: 'Brian d\'Arcy James',
+        name: "Brian d'Arcy James",
       },
       {
         name: 'Rita Moreno',
@@ -2444,7 +2917,7 @@ export const baseMoviesPage2: BaseMovie[] = [
         name: 'Jude Law',
       },
       {
-        name: 'Frances O\'Connor',
+        name: "Frances O'Connor",
       },
       {
         name: 'Brendan Gleeson',
@@ -3002,6 +3475,7 @@ export const baseMoviesPage2: BaseMovie[] = [
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
   },
+
   {
     title: 'Astérix et Obélix contre César',
     director: 'Claude Zidi',
@@ -3100,6 +3574,34 @@ export const baseMoviesPage2: BaseMovie[] = [
     coverUrl: '/movies_pictures/asterix_at_the_olympic_games.jpg',
     releaseDate: '2008-01-30',
     length: 117,
+    genre: ['Comédie'],
+    saga: 'Astérix',
+    description: '',
+    fromEntity: {
+      entityType: 'bd',
+      title: 'Astérix le Gaulois',
+      secondEntityKey: 'René Goscinny',
+    },
+    countryOrigin: ['France'],
+    selectDisplayOrder: 30,
+  },
+  {
+    title: 'Astérix et Obélix : Au service de Sa Majesté',
+    director: 'Laurent Tirard',
+    actors: [
+      {
+        name: 'Gérard Depardieu',
+      },
+      {
+        name: 'Catherine Deneuve',
+      },
+      {
+        name: 'Guillaume Gallienne',
+      },
+    ],
+    coverUrl: '/movies_pictures/asterix_obelix_god_save_britannia.jpg',
+    releaseDate: '2012-10-17',
+    length: 109,
     genre: ['Comédie'],
     saga: 'Astérix',
     description: '',
@@ -4056,7 +4558,7 @@ export const baseMoviesPage2: BaseMovie[] = [
       },
     ],
     coverUrl: '/movies_pictures/king_kong.jpg',
-    releaseDate: '2025-02-17',
+    releaseDate: '2005-12-10',
     length: 187,
     genre: ['Aventure'],
     saga: '',
@@ -4886,43 +5388,6 @@ export const baseMoviesPage2: BaseMovie[] = [
     releaseDate: '1997-12-05',
     length: 126,
     genre: ['Drame'],
-    saga: '',
-    description: '',
-    fromEntity: null,
-    countryOrigin: ['États-Unis'],
-    selectDisplayOrder: 30,
-  },
-  {
-    title: "Je Sais ce que Vous Avez Fait l'Été Dernier",
-    director: 'Jim Gillespie',
-    actors: [
-      {
-        name: 'Sarah Michelle Gellar',
-      },
-      {
-        name: 'Ryan Phillippe',
-      },
-      {
-        name: 'Jennifer Love Hewitt',
-      },
-      {
-        name: 'Freddie Prinze Jr.',
-      },
-      {
-        name: 'Bridgette Wilson-Sampras',
-      },
-      {
-        name: 'Anne Heche',
-      },
-      {
-        name: 'Johnny Galecki',
-      },
-    ],
-    coverUrl:
-      '/movies_pictures/49638-i-know-what-you-did-last-summer-0-150-0-225-crop.jpg',
-    releaseDate: '1997-10-17',
-    length: 101,
-    genre: ['Horreur'],
     saga: '',
     description: '',
     fromEntity: null,

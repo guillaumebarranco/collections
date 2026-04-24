@@ -205,6 +205,33 @@ export const baseMoviesPage3: BaseMovie[] = [
     selectDisplayOrder: 0,
   },
   {
+    title: 'Hitman & Bodyguard 2',
+    director: 'Patrick Hughes',
+    actors: [
+      {
+        name: 'Ryan Reynolds',
+      },
+      {
+        name: 'Samuel L. Jackson',
+      },
+      {
+        name: 'Salma Hayek',
+      },
+      {
+        name: 'Morgan Freeman',
+      },
+    ],
+    coverUrl: '/movies_pictures/hitman_bodyguard_2.jpg',
+    releaseDate: '2021-06-30',
+    length: 118,
+    genre: ['Action'],
+    saga: '',
+    description: '',
+    fromEntity: null,
+    countryOrigin: ['États-Unis'],
+    selectDisplayOrder: 0,
+  },
+  {
     title: 'Valerian and the City of a Thousand Planets',
     director: 'Luc Besson',
     actors: [
@@ -453,6 +480,20 @@ export const baseMoviesPage3: BaseMovie[] = [
     selectDisplayOrder: 0,
   },
   {
+    title: 'Yoroï',
+    director: 'David Tomaszewski',
+    actors: [{ name: 'Orelsan' }],
+    coverUrl: '/movies_pictures/8d14de5f174c2eda406c19b663fbe942.jpg',
+    releaseDate: '2025-10-29',
+    length: 102,
+    genre: ['Action', 'Fantastique'],
+    saga: '',
+    description: '',
+    fromEntity: null,
+    countryOrigin: ['France'],
+    selectDisplayOrder: 0,
+  },
+  {
     title: 'Demolition',
     director: 'Jean-Marc Vallée',
     actors: [
@@ -524,47 +565,7 @@ export const baseMoviesPage3: BaseMovie[] = [
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
   },
-  {
-    title: 'Le Labyrinthe : La Terre Brûlée',
-    director: 'Wes Ball',
-    actors: [
-      {
-        name: 'Dylan O\'Brien',
-      },
-      {
-        name: 'Thomas Sangster',
-      },
-      {
-        name: 'Ki Hong Lee',
-      },
-      {
-        name: 'Kaya Scodelario',
-      },
-      {
-        name: 'Rosa Salazar',
-      },
-      {
-        name: 'Giancarlo Esposito',
-      },
-      {
-        name: 'Aidan Gillen',
-      },
-    ],
-    coverUrl:
-      '/movies_pictures/221232-maze-runner-the-scorch-trials-0-150-0-225-crop.jpg',
-    releaseDate: '2015-09-18',
-    length: 131,
-    genre: ['Action'],
-    saga: 'Le Labyrinthe',
-    description: '',
-    fromEntity: {
-      entityType: 'book',
-      title: 'Le Labyrinthe',
-      secondEntityKey: 'James Dashner',
-    },
-    countryOrigin: ['États-Unis'],
-    selectDisplayOrder: 0,
-  },
+
   {
     title: 'Room',
     director: 'Lenny Abrahamson',
@@ -735,13 +736,97 @@ export const baseMoviesPage3: BaseMovie[] = [
         name: 'Rita Ora',
       },
     ],
-    coverUrl: '/movies_pictures/cinquante_nuances_de_grey.jpg',
+    coverUrl: '/movies_pictures/adb0c4881524.jpg',
     releaseDate: '2015-02-13',
     length: 125,
     genre: ['Drame'],
-    saga: '',
+    saga: 'Cinquante Nuances de Grey',
     description: '',
-    fromEntity: null,
+    fromEntity: {
+      entityType: 'book',
+      title: 'Cinquante nuances de Grey',
+      secondEntityKey: 'E. L. James',
+    },
+    countryOrigin: ['États-Unis'],
+    selectDisplayOrder: 30,
+  },
+  {
+    title: 'Cinquante Nuances plus sombres',
+    director: 'James Foley',
+    actors: [
+      {
+        name: 'Dakota Johnson',
+      },
+      {
+        name: 'Jamie Dornan',
+      },
+      {
+        name: 'Eric Johnson',
+      },
+      {
+        name: 'Eloise Mumford',
+      },
+      {
+        name: 'Bella Heathcote',
+      },
+      {
+        name: 'Rita Ora',
+      },
+      {
+        name: 'Marcia Gay Harden',
+      },
+    ],
+    coverUrl: '/movies_pictures/1a0265e23aae.jpg',
+    releaseDate: '2017-02-08',
+    length: 118,
+    genre: ['Drame'],
+    saga: 'Cinquante Nuances de Grey',
+    description: '',
+    fromEntity: {
+      entityType: 'book',
+      title: 'Cinquante nuances plus sombres',
+      secondEntityKey: 'E. L. James',
+    },
+    countryOrigin: ['États-Unis'],
+    selectDisplayOrder: 30,
+  },
+  {
+    title: 'Cinquante Nuances plus claires',
+    director: 'James Foley',
+    actors: [
+      {
+        name: 'Dakota Johnson',
+      },
+      {
+        name: 'Jamie Dornan',
+      },
+      {
+        name: 'Eric Johnson',
+      },
+      {
+        name: 'Eloise Mumford',
+      },
+      {
+        name: 'Rita Ora',
+      },
+      {
+        name: 'Marcia Gay Harden',
+      },
+      {
+        name: 'Luke Grimes',
+      },
+    ],
+    coverUrl: '/movies_pictures/da9e0913a2b1.jpg',
+    releaseDate: '2018-02-07',
+    length: 106,
+    genre: ['Drame'],
+    saga: 'Cinquante Nuances de Grey',
+    description: '',
+    fromEntity: {
+      entityType: 'book',
+      title: 'Cinquante nuances plus claires',
+      secondEntityKey: 'E. L. James',
+    },
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 30,
   },
@@ -1853,7 +1938,7 @@ export const baseMoviesPage3: BaseMovie[] = [
         name: 'Christiane Paul',
       },
       {
-        name: 'Elyas M\'Barek',
+        name: "Elyas M'Barek",
       },
       {
         name: 'Alexander Held',
@@ -2875,6 +2960,147 @@ export const baseMoviesPage3: BaseMovie[] = [
     selectDisplayOrder: 30,
   },
   {
+    title: 'Les Tuche 2 : Le Rêve américain',
+    director: 'Olivier Baroux',
+    actors: [
+      {
+        name: 'Jean-Paul Rouve',
+      },
+      {
+        name: 'Isabelle Nanty',
+      },
+      {
+        name: 'Pierre Lottin',
+      },
+      {
+        name: 'Théo Fernandez',
+      },
+      {
+        name: 'Sarah Stern',
+      },
+    ],
+    coverUrl: '/movies_pictures/3c34373f0323.jpg',
+    releaseDate: '2016-02-03',
+    length: 94,
+    genre: ['Comédie'],
+    saga: 'Les Tuche',
+    description: '',
+    fromEntity: null,
+    countryOrigin: ['France'],
+    selectDisplayOrder: 30,
+  },
+  {
+    title: 'Les Tuche 3 : Liberté, Égalité, Fraternituche',
+    director: 'Olivier Baroux',
+    actors: [
+      {
+        name: 'Jean-Paul Rouve',
+      },
+      {
+        name: 'Isabelle Nanty',
+      },
+      {
+        name: 'Michel Blanc',
+      },
+      {
+        name: 'Pierre Lottin',
+      },
+      {
+        name: 'Théo Fernandez',
+      },
+      {
+        name: 'Sarah Stern',
+      },
+      {
+        name: 'Claire Nadeau',
+      },
+    ],
+    coverUrl: '/movies_pictures/bed6d2c6b9bc.jpg',
+    releaseDate: '2018-01-31',
+    length: 95,
+    genre: ['Comédie'],
+    saga: 'Les Tuche',
+    description: '',
+    fromEntity: null,
+    countryOrigin: ['France'],
+    selectDisplayOrder: 30,
+  },
+  {
+    title: 'Les Tuche 4',
+    director: 'Olivier Baroux',
+    actors: [
+      {
+        name: 'Jean-Paul Rouve',
+      },
+      {
+        name: 'Isabelle Nanty',
+      },
+      {
+        name: 'Michel Blanc',
+      },
+      {
+        name: 'Claire Nadeau',
+      },
+      {
+        name: 'Sarah Stern',
+      },
+      {
+        name: 'Pierre Lottin',
+      },
+      {
+        name: 'Théo Fernandez',
+      },
+      {
+        name: 'François Berléand',
+      },
+    ],
+    coverUrl: '/movies_pictures/0b93e7647663.jpg',
+    releaseDate: '2021-12-08',
+    length: 101,
+    genre: ['Comédie'],
+    saga: 'Les Tuche',
+    description: '',
+    fromEntity: null,
+    countryOrigin: ['France'],
+    selectDisplayOrder: 30,
+  },
+  {
+    title: 'Les Tuche 5 - God Save the Tuche',
+    director: 'Jean-Paul Rouve',
+    actors: [
+      {
+        name: 'Jean-Paul Rouve',
+      },
+      {
+        name: 'Isabelle Nanty',
+      },
+      {
+        name: 'Claire Nadeau',
+      },
+      {
+        name: 'Sarah Stern',
+      },
+      {
+        name: 'Pierre Lottin',
+      },
+      {
+        name: 'Théo Fernandez',
+      },
+      {
+        name: 'Philippe Dusseau',
+      },
+    ],
+    coverUrl: '/movies_pictures/28203869.png',
+    releaseDate: '2025-02-05',
+    length: 95,
+    genre: ['Comédie'],
+    saga: 'Les Tuche',
+    description: '',
+    fromEntity: null,
+    countryOrigin: ['France'],
+    selectDisplayOrder: 30,
+  },
+  {
     title: 'Comment tuer son boss',
     director: 'Seth Gordon',
     actors: [
@@ -3346,6 +3572,30 @@ export const baseMoviesPage3: BaseMovie[] = [
     selectDisplayOrder: 30,
   },
   {
+    title: "Alice de l'autre côté du miroir",
+    director: 'James Bobin',
+    actors: [
+      {
+        name: 'Mia Wasikowska',
+      },
+      {
+        name: 'Johnny Depp',
+      },
+      {
+        name: 'Anne Hathaway',
+      },
+    ],
+    coverUrl: '/movies_pictures/alice_through_the_looking_glass.jpg',
+    releaseDate: '2016-06-01',
+    length: 113,
+    genre: ['Fantastique'],
+    saga: 'Disney Live Action',
+    description: '',
+    fromEntity: null,
+    countryOrigin: ['États-Unis'],
+    selectDisplayOrder: 30,
+  },
+  {
     title: 'Shutter Island',
     director: 'Martin Scorsese',
     actors: [
@@ -3405,6 +3655,34 @@ export const baseMoviesPage3: BaseMovie[] = [
     fromEntity: {
       entityType: 'book',
       title: 'Le Voleur de foudre',
+      secondEntityKey: 'Rick Riordan',
+    },
+    countryOrigin: ['États-Unis'],
+    selectDisplayOrder: 0,
+  },
+  {
+    title: 'Percy Jackson : La Mer des monstres',
+    director: 'Thor Freudenthal',
+    actors: [
+      {
+        name: 'Logan Lerman',
+      },
+      {
+        name: 'Alexandra Daddario',
+      },
+      {
+        name: 'Brandon T. Jackson',
+      },
+    ],
+    coverUrl: '/movies_pictures/percy_jackson_sea_of_monsters.jpg',
+    releaseDate: '2013-08-14',
+    length: 106,
+    genre: ['Aventure'],
+    saga: 'Percy Jackson',
+    description: '',
+    fromEntity: {
+      entityType: 'book',
+      title: 'La Mer des monstres',
       secondEntityKey: 'Rick Riordan',
     },
     countryOrigin: ['États-Unis'],
@@ -3588,6 +3866,30 @@ export const baseMoviesPage3: BaseMovie[] = [
     releaseDate: '2009-10-02',
     length: 88,
     genre: ['Comédie'],
+    saga: '',
+    description: '',
+    fromEntity: null,
+    countryOrigin: ['États-Unis'],
+    selectDisplayOrder: 0,
+  },
+  {
+    title: 'Zombieland: Double Tap',
+    director: 'Ruben Fleischer',
+    actors: [
+      {
+        name: 'Woody Harrelson',
+      },
+      {
+        name: 'Jesse Eisenberg',
+      },
+      {
+        name: 'Emma Stone',
+      },
+    ],
+    coverUrl: '/movies_pictures/zombieland_double_tap.jpg',
+    releaseDate: '2019-01-01',
+    length: 99,
+    genre: [],
     saga: '',
     description: '',
     fromEntity: null,

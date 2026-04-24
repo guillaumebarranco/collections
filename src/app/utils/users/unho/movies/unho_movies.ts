@@ -3404,7 +3404,7 @@ export const unhoMovies: UserMovie[] = [
   },
 
   {
-    title: 'Monsters University',
+    title: 'Monstres Academy',
     director: 'Dan Scanlon',
     rating: 0,
     timesWatched: 1,

@@ -1714,22 +1714,7 @@ export const amandineMovies1: UserMovies = [
     loaned: '',
     inList: [],
   },
-  {
-    title: "Je Sais ce que Vous Avez Fait l'Été Dernier",
-    director: 'Jim Gillespie',
-    rating: 0,
-    timesWatched: 1,
-    firstViewedDate: '',
-    lastViewedDate: '',
-    seenAtCinema: false,
-    owned: false,
-    wantToSeeAgain: false,
-    watchPriority: 1,
-    ratingComment: '',
-    borrowed: '',
-    loaned: '',
-    inList: [],
-  },
+
   {
     title: 'DodgeBall: Même pas mal',
     director: 'Rawson Marshall Thurber',

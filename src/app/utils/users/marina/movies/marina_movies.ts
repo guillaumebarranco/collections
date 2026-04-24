@@ -594,22 +594,7 @@ export const marinaMovies: UserMovie[] = [
     loaned: '',
     inList: [],
   },
-  {
-    title: "Je Sais ce que Vous Avez Fait l'Été Dernier",
-    director: 'Jim Gillespie',
-    rating: 0,
-    timesWatched: 1,
-    firstViewedDate: '',
-    lastViewedDate: '',
-    seenAtCinema: false,
-    owned: false,
-    wantToSeeAgain: false,
-    watchPriority: 1,
-    ratingComment: '',
-    borrowed: '',
-    loaned: '',
-    inList: [],
-  },
+
   {
     title: 'Kingsman : Services Secrets',
     director: 'Matthew Vaughn',
@@ -659,7 +644,7 @@ export const marinaMovies: UserMovie[] = [
     inList: [],
   },
   {
-    title: 'Le Labyrinthe : La Terre Brûlée',
+    title: 'Le Labyrinthe 2 : La Terre Brûlée',
     director: 'Wes Ball',
     rating: 0,
     timesWatched: 1,
@@ -3300,7 +3285,7 @@ export const marinaMovies: UserMovie[] = [
     inList: [],
   },
   {
-    title: 'Monsters University',
+    title: 'Monstres Academy',
     director: 'Dan Scanlon',
     rating: 0,
     timesWatched: 1,
@@ -6756,7 +6741,7 @@ export const marinaMovies: UserMovie[] = [
     inList: [],
   },
   {
-    title: 'Le Labyrinthe 2 : Le remède mortel',
+    title: 'Le Labyrinthe 3 : Le remède mortel',
     director: 'Wes Ball',
     rating: 0,
     timesWatched: 1,
