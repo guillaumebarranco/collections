@@ -4,8 +4,29 @@ export const baseMoviesPage7: BaseMovie[] = [
   {
     title: 'Dos au mur',
     director: 'Asger Leth',
-    actors: [{ name: 'Sam Worthington' }],
-    coverUrl: '/movies_pictures/19863938.jpg',
+    actors: [
+      {
+        name: 'Claus Flygare',
+      },
+      {
+        name: 'Beatrice Seedorff',
+      },
+      {
+        name: 'Christian Grønvall',
+      },
+      {
+        name: 'Dan Zahle',
+      },
+      {
+        name: 'Ditte Arnth',
+      },
+      {
+        name: 'Erkan Özden',
+      },
+      {
+        name: 'Gitte Siem Christensen',
+      },
+    ],    coverUrl: '/movies_pictures/19863938.jpg',
     releaseDate: '2012-01-27',
     length: 102,
     genre: ['Thriller'],
@@ -18,8 +39,29 @@ export const baseMoviesPage7: BaseMovie[] = [
   {
     title: '60 secondes chrono',
     director: 'Dominic Sena',
-    actors: [{ name: 'Angelina Jolie' }, { name: 'Nicolas Cage' }],
-    coverUrl: '/movies_pictures/sqfsdfdfdgdf.jpg',
+    actors: [
+      {
+        name: 'Nicolas Cage',
+      },
+      {
+        name: 'Angelina Jolie',
+      },
+      {
+        name: 'Giovanni Ribisi',
+      },
+      {
+        name: 'Delroy Lindo',
+      },
+      {
+        name: 'Will Patton',
+      },
+      {
+        name: 'Christopher Eccleston',
+      },
+      {
+        name: 'Chi McBride',
+      },
+    ],    coverUrl: '/movies_pictures/sqfsdfdfdgdf.jpg',
     releaseDate: '2000-06-09',
     length: 118,
     genre: ['Action'],
@@ -32,8 +74,29 @@ export const baseMoviesPage7: BaseMovie[] = [
   {
     title: 'Salt',
     director: 'Phillip Noyce',
-    actors: [{ name: 'Angelina Jolie' }],
-    coverUrl: '/movies_pictures/19467642.webp',
+    actors: [
+      {
+        name: 'Angelina Jolie',
+      },
+      {
+        name: 'Liev Schreiber',
+      },
+      {
+        name: 'Chiwetel Ejiofor',
+      },
+      {
+        name: 'Daniel Olbrychski',
+      },
+      {
+        name: 'August Diehl',
+      },
+      {
+        name: 'Corey Stoll',
+      },
+      {
+        name: 'Andre Braugher',
+      },
+    ],    coverUrl: '/movies_pictures/19467642.webp',
     releaseDate: '2010-07-23',
     length: 100,
     genre: ['Action'],
@@ -46,8 +109,29 @@ export const baseMoviesPage7: BaseMovie[] = [
   {
     title: 'Le facteur sonne toujours deux fois',
     director: 'Bob Rafelson',
-    actors: [{ name: 'Jack Nicholson' }],
-    coverUrl: '/movies_pictures/7du7mmidzb37aldpya0auzxk4qz-250.jpg',
+    actors: [
+      {
+        name: 'Jack Nicholson',
+      },
+      {
+        name: 'Jessica Lange',
+      },
+      {
+        name: 'Michael Lerner',
+      },
+      {
+        name: 'Anjelica Huston',
+      },
+      {
+        name: 'Thomas Hill',
+      },
+      {
+        name: 'Christopher Lloyd',
+      },
+      {
+        name: 'John Colicos',
+      },
+    ],    coverUrl: '/movies_pictures/7du7mmidzb37aldpya0auzxk4qz-250.jpg',
     releaseDate: '1981-03-20',
     length: 123,
     genre: ['Policier', 'Drame'],
@@ -60,8 +144,29 @@ export const baseMoviesPage7: BaseMovie[] = [
   {
     title: 'Pour le pire et pour le meilleur',
     director: 'James L. Brooks',
-    actors: [{ name: 'Jack Nicholson' }],
-    coverUrl: '/movies_pictures/4df3molkndn0hqngrqj0uwnjg2t-417.jpg',
+    actors: [
+      {
+        name: 'Jack Nicholson',
+      },
+      {
+        name: 'Helen Hunt',
+      },
+      {
+        name: 'Greg Kinnear',
+      },
+      {
+        name: 'Cuba Gooding Jr.',
+      },
+      {
+        name: 'Skeet Ulrich',
+      },
+      {
+        name: 'Shirley Knight',
+      },
+      {
+        name: 'Yeardley Smith',
+      },
+    ],    coverUrl: '/movies_pictures/4df3molkndn0hqngrqj0uwnjg2t-417.jpg',
     releaseDate: '1997-12-23',
     length: 139,
     genre: ['Comédie', 'Drame'],
@@ -74,8 +179,29 @@ export const baseMoviesPage7: BaseMovie[] = [
   {
     title: 'Monsieur Schmidt',
     director: 'Alexander Payne',
-    actors: [{ name: 'Jack Nicholson' }],
-    coverUrl: '/movies_pictures/sfswdfdsfdfdfdfsfsdfdf',
+    actors: [
+      {
+        name: 'Jack Nicholson',
+      },
+      {
+        name: 'Hope Davis',
+      },
+      {
+        name: 'Dermot Mulroney',
+      },
+      {
+        name: 'Kathy Bates',
+      },
+      {
+        name: 'Harry Groener',
+      },
+      {
+        name: 'Len Cariou',
+      },
+      {
+        name: 'Angela Lansbury',
+      },
+    ],    coverUrl: '/movies_pictures/sfswdfdsfdfdfdfsfsdfdf',
     releaseDate: '2002-12-13',
     length: 125,
     genre: ['Drame'],
@@ -110,8 +236,29 @@ export const baseMoviesPage7: BaseMovie[] = [
   {
     title: "Le Dernier Roi d'Écosse",
     director: 'Kevin Macdonald',
-    actors: [{ name: 'James McAvoy' }, { name: 'Forest Whitaker' }],
-    coverUrl: '/movies_pictures/18737349.jpg',
+    actors: [
+      {
+        name: 'Forest Whitaker',
+      },
+      {
+        name: 'James McAvoy',
+      },
+      {
+        name: 'Kerry Washington',
+      },
+      {
+        name: 'Simon McBurney',
+      },
+      {
+        name: 'Gillian Anderson',
+      },
+      {
+        name: 'David Oyelowo',
+      },
+      {
+        name: 'Chris Wilson',
+      },
+    ],    coverUrl: '/movies_pictures/18737349.jpg',
     releaseDate: '2006-09-27',
     length: 123,
     genre: ['Drame', 'Historique'],
@@ -124,8 +271,29 @@ export const baseMoviesPage7: BaseMovie[] = [
   {
     title: 'Docteur Frankenstein',
     director: 'Paul McGuigan',
-    actors: [{ name: 'James McAvoy' }, { name: 'Daniel Radcliffe' }],
-    coverUrl: '/movies_pictures/331048.webp',
+    actors: [
+      {
+        name: 'Daniel Radcliffe',
+      },
+      {
+        name: 'James McAvoy',
+      },
+      {
+        name: 'Jessica Brown Findlay',
+      },
+      {
+        name: 'Andrew Scott',
+      },
+      {
+        name: 'Charles Dance',
+      },
+      {
+        name: 'Louise Brealey',
+      },
+      {
+        name: 'Mark Gatiss',
+      },
+    ],    coverUrl: '/movies_pictures/331048.webp',
     releaseDate: '2015-11-25',
     length: 110,
     genre: ['Horreur', 'Science Fiction'],
@@ -142,8 +310,29 @@ export const baseMoviesPage7: BaseMovie[] = [
   {
     title: 'Submergence',
     director: 'Wim Wenders',
-    actors: [{ name: 'James McAvoy' }],
-    coverUrl: '/movies_pictures/2407319.webp',
+    actors: [
+      {
+        name: 'Alicia Vikander',
+      },
+      {
+        name: 'James McAvoy',
+      },
+      {
+        name: 'Alexander Siddig',
+      },
+      {
+        name: 'Reda Kateb',
+      },
+      {
+        name: 'Celyn Jones',
+      },
+      {
+        name: 'Harvey Friedman',
+      },
+      {
+        name: 'Godehard Giese',
+      },
+    ],    coverUrl: '/movies_pictures/2407319.webp',
     releaseDate: '2017-12-22',
     length: 112,
     genre: ['Drame', 'Romance'],
@@ -156,8 +345,20 @@ export const baseMoviesPage7: BaseMovie[] = [
   {
     title: 'Speak No Evil',
     director: 'James Watkins',
-    actors: [{ name: 'James McAvoy' }],
-    coverUrl: '/movies_pictures/3bfc5635c5724bd83392c3a9b541fff9.webp',
+    actors: [
+      {
+        name: 'James McAvoy',
+      },
+      {
+        name: 'Mackenzie Davis',
+      },
+      {
+        name: 'Scoot McNairy',
+      },
+      {
+        name: 'Aisling Franciosi',
+      },
+    ],    coverUrl: '/movies_pictures/3bfc5635c5724bd83392c3a9b541fff9.webp',
     releaseDate: '2024-09-13',
     length: 108,
     genre: ['Horreur'],
@@ -191,8 +392,29 @@ export const baseMoviesPage7: BaseMovie[] = [
   {
     title: 'Happiness Therapy',
     director: 'David O. Russell',
-    actors: [{ name: 'Jennifer Lawrence' }],
-    coverUrl: '/movies_pictures/20302958.jpg',
+    actors: [
+      {
+        name: 'Bradley Cooper',
+      },
+      {
+        name: 'Jennifer Lawrence',
+      },
+      {
+        name: 'Robert De Niro',
+      },
+      {
+        name: 'Jacki Weaver',
+      },
+      {
+        name: 'Chris Tucker',
+      },
+      {
+        name: 'Anupam Kher',
+      },
+      {
+        name: 'Shea Whigham',
+      },
+    ],    coverUrl: '/movies_pictures/20302958.jpg',
     releaseDate: '2012-12-25',
     length: 122,
     genre: ['Comédie', 'Drame'],
@@ -205,8 +427,29 @@ export const baseMoviesPage7: BaseMovie[] = [
   {
     title: 'Passengers',
     director: 'Morten Tyldum',
-    actors: [{ name: 'Jennifer Lawrence' }, { name: 'Chris Pratt' }],
-    coverUrl: '/movies_pictures/405336.webp',
+    actors: [
+      {
+        name: 'Jennifer Lawrence',
+      },
+      {
+        name: 'Chris Pratt',
+      },
+      {
+        name: 'Michael Sheen',
+      },
+      {
+        name: 'Laurence Fishburne',
+      },
+      {
+        name: 'Andy García',
+      },
+      {
+        name: 'Aurora Perrineau',
+      },
+      {
+        name: 'Fred Melamed',
+      },
+    ],    coverUrl: '/movies_pictures/405336.webp',
     releaseDate: '2016-12-21',
     length: 116,
     genre: ['Science Fiction'],
@@ -219,8 +462,29 @@ export const baseMoviesPage7: BaseMovie[] = [
   {
     title: 'Mother!',
     director: 'Darren Aronofsky',
-    actors: [{ name: 'Jennifer Lawrence' }, { name: 'Javier Bardem' }],
-    coverUrl: '/movies_pictures/2636970.jpg',
+    actors: [
+      {
+        name: 'Jennifer Lawrence',
+      },
+      {
+        name: 'Javier Bardem',
+      },
+      {
+        name: 'Ed Harris',
+      },
+      {
+        name: 'Michelle Pfeiffer',
+      },
+      {
+        name: 'Domhnall Gleeson',
+      },
+      {
+        name: 'Brian Gleeson',
+      },
+      {
+        name: 'Kristen Wiig',
+      },
+    ],    coverUrl: '/movies_pictures/2636970.jpg',
     releaseDate: '2017-09-15',
     length: 121,
     genre: ['Drame', 'Thriller'],
@@ -233,8 +497,29 @@ export const baseMoviesPage7: BaseMovie[] = [
   {
     title: 'Red Sparrow',
     director: 'Francis Lawrence',
-    actors: [{ name: 'Jennifer Lawrence' }, { name: 'Joel Edgerton' }],
-    coverUrl: '/movies_pictures/5441680.webp',
+    actors: [
+      {
+        name: 'Jennifer Lawrence',
+      },
+      {
+        name: 'Joel Edgerton',
+      },
+      {
+        name: 'Jeremy Irons',
+      },
+      {
+        name: 'Matthias Schoenaerts',
+      },
+      {
+        name: 'Sergueï Polounine',
+      },
+      {
+        name: 'Kristof Konrad',
+      },
+      {
+        name: 'Ciarán Hinds',
+      },
+    ],    coverUrl: '/movies_pictures/5441680.webp',
     releaseDate: '2018-03-02',
     length: 140,
     genre: ['Thriller'],
@@ -247,8 +532,23 @@ export const baseMoviesPage7: BaseMovie[] = [
   {
     title: 'Pur-sang',
     director: 'Cory Finley',
-    actors: [{ name: 'Anya Taylor-Joy' }],
-    coverUrl: '/movies_pictures/4612610.webp',
+    actors: [
+      {
+        name: 'Olivia Cooke',
+      },
+      {
+        name: 'Anton Yelchin',
+      },
+      {
+        name: 'Anya Taylor-Joy',
+      },
+      {
+        name: 'Paul Sparks',
+      },
+      {
+        name: 'Francie Swift',
+      },
+    ],    coverUrl: '/movies_pictures/4612610.webp',
     releaseDate: '2018-03-09',
     length: 92,
     genre: ['Thriller'],
@@ -261,8 +561,29 @@ export const baseMoviesPage7: BaseMovie[] = [
   {
     title: 'Radioactive',
     director: 'Marjane Satrapi',
-    actors: [{ name: 'Anya Taylor-Joy' }, { name: 'Rosamund Pike' }],
-    coverUrl: '/movies_pictures/2787082.jpg',
+    actors: [
+      {
+        name: 'Rosamund Pike',
+      },
+      {
+        name: 'Sam Riley',
+      },
+      {
+        name: 'Anya Taylor-Joy',
+      },
+      {
+        name: 'Aneurin Barnard',
+      },
+      {
+        name: 'Simon Russell Beale',
+      },
+      {
+        name: 'Sian Brooke',
+      },
+      {
+        name: 'Ariella Glaser',
+      },
+    ],    coverUrl: '/movies_pictures/2787082.jpg',
     releaseDate: '2019-09-13',
     length: 111,
     genre: ['Drame', 'Biographie'],
@@ -275,8 +596,17 @@ export const baseMoviesPage7: BaseMovie[] = [
   {
     title: 'Here Are the Young Men',
     director: 'Eoin Macken',
-    actors: [{ name: 'Anya Taylor-Joy' }],
-    coverUrl: '/movies_pictures/3127424.jpg',
+    actors: [
+      {
+        name: 'Dean-Charles Chapman',
+      },
+      {
+        name: 'Finn Cole',
+      },
+      {
+        name: 'Anya Taylor-Joy',
+      },
+    ],    coverUrl: '/movies_pictures/3127424.jpg',
     releaseDate: '2020-12-04',
     length: 96,
     genre: ['Drame'],
@@ -307,8 +637,29 @@ export const baseMoviesPage7: BaseMovie[] = [
   {
     title: "À l'ombre de la haine",
     director: 'Marc Forster',
-    actors: [{ name: 'Halle Berry' }],
-    coverUrl: '/movies_pictures/vl417empofczui3klnkfz1ecncx-256.jpg',
+    actors: [
+      {
+        name: 'Billy Bob Thornton',
+      },
+      {
+        name: 'Halle Berry',
+      },
+      {
+        name: 'Heath Ledger',
+      },
+      {
+        name: 'Peter Boyle',
+      },
+      {
+        name: 'Sean Combs',
+      },
+      {
+        name: 'Mos Def',
+      },
+      {
+        name: 'John McConnell',
+      },
+    ],    coverUrl: '/movies_pictures/vl417empofczui3klnkfz1ecncx-256.jpg',
     releaseDate: '2001-11-11',
     length: 105,
     genre: ['Drame'],
@@ -321,8 +672,29 @@ export const baseMoviesPage7: BaseMovie[] = [
   {
     title: 'Gothika',
     director: 'Mathieu Kassovitz',
-    actors: [{ name: 'Halle Berry' }],
-    coverUrl: '/movies_pictures/18366565.jpg',
+    actors: [
+      {
+        name: 'Halle Berry',
+      },
+      {
+        name: 'Robert Downey Jr.',
+      },
+      {
+        name: 'Charles S. Dutton',
+      },
+      {
+        name: 'John Carroll Lynch',
+      },
+      {
+        name: 'Bernard Hill',
+      },
+      {
+        name: 'Penélope Cruz',
+      },
+      {
+        name: 'Dorian Harewood',
+      },
+    ],    coverUrl: '/movies_pictures/18366565.jpg',
     releaseDate: '2003-11-21',
     length: 98,
     genre: ['Thriller'],
@@ -349,8 +721,29 @@ export const baseMoviesPage7: BaseMovie[] = [
   {
     title: 'The Call',
     director: 'Brad Anderson',
-    actors: [{ name: 'Halle Berry' }],
-    coverUrl: '/movies_pictures/21000451_20130422162145636.webp',
+    actors: [
+      {
+        name: 'Abigail Breslin',
+      },
+      {
+        name: 'Halle Berry',
+      },
+      {
+        name: 'Ella Rae Peck',
+      },
+      {
+        name: 'Morris Chestnut',
+      },
+      {
+        name: 'Michael Imperioli',
+      },
+      {
+        name: 'Michael Eklund',
+      },
+      {
+        name: 'Roma Maffia',
+      },
+    ],    coverUrl: '/movies_pictures/21000451_20130422162145636.webp',
     releaseDate: '2013-03-15',
     length: 94,
     genre: ['Thriller'],
@@ -363,8 +756,29 @@ export const baseMoviesPage7: BaseMovie[] = [
   {
     title: 'Un amour à New York',
     director: 'Peter Chelsom',
-    actors: [{ name: 'Kate Beckinsale' }],
-    coverUrl: '/movies_pictures/affny.jpg',
+    actors: [
+      {
+        name: 'John Cusack',
+      },
+      {
+        name: 'Kate Beckinsale',
+      },
+      {
+        name: 'Bridget Moynahan',
+      },
+      {
+        name: 'John Corbett',
+      },
+      {
+        name: 'Jeremy Piven',
+      },
+      {
+        name: 'Eugene Levy',
+      },
+      {
+        name: 'Molly Shannon',
+      },
+    ],    coverUrl: '/movies_pictures/affny.jpg',
     releaseDate: '2001-10-05',
     length: 90,
     genre: ['Romance'],
@@ -377,8 +791,29 @@ export const baseMoviesPage7: BaseMovie[] = [
   {
     title: 'Snow Angels',
     director: 'David Gordon Green',
-    actors: [{ name: 'Kate Beckinsale' }],
-    coverUrl: '/movies_pictures/513qOv8QT8L._AC_UF894,1000_QL80_.jpg',
+    actors: [
+      {
+        name: 'Kate Beckinsale',
+      },
+      {
+        name: 'Sam Rockwell',
+      },
+      {
+        name: 'Michael Angarano',
+      },
+      {
+        name: 'Olivia Thirlby',
+      },
+      {
+        name: 'Amy Sedaris',
+      },
+      {
+        name: 'Connor Paolo',
+      },
+      {
+        name: 'Griffin Dunne',
+      },
+    ],    coverUrl: '/movies_pictures/513qOv8QT8L._AC_UF894,1000_QL80_.jpg',
     releaseDate: '2007-03-16',
     length: 106,
     genre: ['Drame'],
@@ -391,8 +826,29 @@ export const baseMoviesPage7: BaseMovie[] = [
   {
     title: 'Le Prix du silence',
     director: 'Rod Lurie',
-    actors: [{ name: 'Kate Beckinsale' }],
-    coverUrl: '/movies_pictures/le_prix_du_silence.webp',
+    actors: [
+      {
+        name: 'Kate Beckinsale',
+      },
+      {
+        name: 'Matt Dillon',
+      },
+      {
+        name: 'Vera Farmiga',
+      },
+      {
+        name: 'David Schwimmer',
+      },
+      {
+        name: 'Angela Bassett',
+      },
+      {
+        name: 'Preston Bailey',
+      },
+      {
+        name: 'Noah Wyle',
+      },
+    ],    coverUrl: '/movies_pictures/le_prix_du_silence.webp',
     releaseDate: '2008-12-19',
     length: 108,
     genre: ['Thriller'],
@@ -423,8 +879,29 @@ export const baseMoviesPage7: BaseMovie[] = [
   {
     title: 'Contrebande',
     director: 'Baltasar Kormákur',
-    actors: [{ name: 'Kate Beckinsale' }, { name: 'Mark Wahlberg' }],
-    coverUrl: '/movies_pictures/20022472.webp',
+    actors: [
+      {
+        name: 'Mark Wahlberg',
+      },
+      {
+        name: 'Kate Beckinsale',
+      },
+      {
+        name: 'Ben Foster',
+      },
+      {
+        name: 'Giovanni Ribisi',
+      },
+      {
+        name: 'J. K. Simmons',
+      },
+      {
+        name: 'Lukas Haas',
+      },
+      {
+        name: 'Caleb Landry Jones',
+      },
+    ],    coverUrl: '/movies_pictures/20022472.webp',
     releaseDate: '2012-01-13',
     length: 109,
     genre: ['Action'],
@@ -467,8 +944,29 @@ export const baseMoviesPage7: BaseMovie[] = [
   {
     title: 'Love and Friendship',
     director: 'Whit Stillman',
-    actors: [{ name: 'Kate Beckinsale' }],
-    coverUrl: '/movies_pictures/030703.webp',
+    actors: [
+      {
+        name: 'Kate Beckinsale',
+      },
+      {
+        name: 'Xavier Samuel',
+      },
+      {
+        name: 'Emma Greenwell',
+      },
+      {
+        name: 'Morfydd Clark',
+      },
+      {
+        name: 'Jemma Redgrave',
+      },
+      {
+        name: 'Tom Bennett',
+      },
+      {
+        name: 'James Fleet',
+      },
+    ],    coverUrl: '/movies_pictures/030703.webp',
     releaseDate: '2016-05-13',
     length: 90,
     genre: ['Comédie'],
@@ -481,8 +979,23 @@ export const baseMoviesPage7: BaseMovie[] = [
   {
     title: "Prisoner's Daughter",
     director: 'Catherine Hardwicke',
-    actors: [{ name: 'Kate Beckinsale' }],
-    coverUrl: '/movies_pictures/1766305.webp',
+    actors: [
+      {
+        name: 'Kate Beckinsale',
+      },
+      {
+        name: 'Brian Cox',
+      },
+      {
+        name: 'Ernie Hudson',
+      },
+      {
+        name: 'Christopher Convery',
+      },
+      {
+        name: 'Tyson Ritter',
+      },
+    ],    coverUrl: '/movies_pictures/1766305.webp',
     releaseDate: '2023-06-30',
     length: 98,
     genre: ['Drame'],
@@ -495,8 +1008,29 @@ export const baseMoviesPage7: BaseMovie[] = [
   {
     title: 'Le Baiser mortel du dragon',
     director: 'Chris Nahon',
-    actors: [{ name: 'Jet Li' }],
-    coverUrl: '/movies_pictures/69199665_af.jpg',
+    actors: [
+      {
+        name: 'Jet Li',
+      },
+      {
+        name: 'Bridget Fonda',
+      },
+      {
+        name: 'Tchéky Karyo',
+      },
+      {
+        name: 'Cyril Raffaelli',
+      },
+      {
+        name: 'Alain de Catuelan',
+      },
+      {
+        name: 'Burt Kwouk',
+      },
+      {
+        name: 'Claude Brécourt',
+      },
+    ],    coverUrl: '/movies_pictures/69199665_af.jpg',
     releaseDate: '2001-07-06',
     length: 98,
     genre: ['Action'],
@@ -509,8 +1043,20 @@ export const baseMoviesPage7: BaseMovie[] = [
   {
     title: 'Les Seigneurs de la guerre',
     director: 'Peter Chan',
-    actors: [{ name: 'Jet Li' }],
-    coverUrl: '/movies_pictures/19008026.jpg',
+    actors: [
+      {
+        name: 'Jet Li',
+      },
+      {
+        name: 'Andy Lau',
+      },
+      {
+        name: 'Takeshi Kaneshiro',
+      },
+      {
+        name: 'Xu Jinglei',
+      },
+    ],    coverUrl: '/movies_pictures/19008026.jpg',
     releaseDate: '2007-12-13',
     length: 126,
     genre: ['Action', 'Drame'],
@@ -523,8 +1069,29 @@ export const baseMoviesPage7: BaseMovie[] = [
   {
     title: "Le Maître d'armes",
     director: 'Ronny Yu',
-    actors: [{ name: 'Jet Li' }],
-    coverUrl: '/movies_pictures/18652832.jpg',
+    actors: [
+      {
+        name: 'Jet Li',
+      },
+      {
+        name: 'Susan Sun',
+      },
+      {
+        name: 'Dong Yong',
+      },
+      {
+        name: 'Nathan Jones',
+      },
+      {
+        name: 'Nakamura Shidō II',
+      },
+      {
+        name: 'Collin Chou',
+      },
+      {
+        name: 'Somluck Kamsing',
+      },
+    ],    coverUrl: '/movies_pictures/18652832.jpg',
     releaseDate: '2006-01-26',
     length: 104,
     genre: ['Action'],
@@ -537,8 +1104,29 @@ export const baseMoviesPage7: BaseMovie[] = [
   {
     title: 'Le Royaume interdit',
     director: 'Rob Minkoff',
-    actors: [{ name: 'Jet Li' }, { name: 'Jackie Chan' }],
-    coverUrl: '/movies_pictures/old-royaume_interdit_collector.0.jpg',
+    actors: [
+      {
+        name: 'Jackie Chan',
+      },
+      {
+        name: 'Jet Li',
+      },
+      {
+        name: 'Collin Chou',
+      },
+      {
+        name: 'Liu Yifei',
+      },
+      {
+        name: 'Li Bingbing',
+      },
+      {
+        name: 'Michael Angarano',
+      },
+      {
+        name: 'Thomas McDonell',
+      },
+    ],    coverUrl: '/movies_pictures/old-royaume_interdit_collector.0.jpg',
     releaseDate: '2008-04-18',
     length: 104,
     genre: ['Action', 'Fantastique'],
@@ -551,8 +1139,29 @@ export const baseMoviesPage7: BaseMovie[] = [
   {
     title: 'Ça chauffe au lycée Ridgemont',
     director: 'Amy Heckerling',
-    actors: [{ name: 'Forest Whitaker' }],
-    coverUrl: '/movies_pictures/chauffe-au-lycee-ridgemont-6b0c353288.jpg',
+    actors: [
+      {
+        name: 'Sean Penn',
+      },
+      {
+        name: 'Jennifer Jason Leigh',
+      },
+      {
+        name: 'Judge Reinhold',
+      },
+      {
+        name: 'Phoebe Cates',
+      },
+      {
+        name: 'Brian Backer',
+      },
+      {
+        name: 'Robert Romanus',
+      },
+      {
+        name: 'Ray Walston',
+      },
+    ],    coverUrl: '/movies_pictures/chauffe-au-lycee-ridgemont-6b0c353288.jpg',
     releaseDate: '1982-08-13',
     length: 90,
     genre: ['Comédie'],
@@ -597,8 +1206,29 @@ export const baseMoviesPage7: BaseMovie[] = [
   {
     title: 'Bird',
     director: 'Clint Eastwood',
-    actors: [{ name: 'Forest Whitaker' }],
-    coverUrl: '/movies_pictures/19759970.webp',
+    actors: [
+      {
+        name: 'Forest Whitaker',
+      },
+      {
+        name: 'Diane Venora',
+      },
+      {
+        name: 'Samuel E. Wright',
+      },
+      {
+        name: 'Keith David',
+      },
+      {
+        name: 'Bill Cobbs',
+      },
+      {
+        name: 'James Handy',
+      },
+      {
+        name: 'Sam Robards',
+      },
+    ],    coverUrl: '/movies_pictures/19759970.webp',
     releaseDate: '1988-09-30',
     length: 161,
     genre: ['Biographie', 'Drame'],
@@ -611,8 +1241,29 @@ export const baseMoviesPage7: BaseMovie[] = [
   {
     title: 'The Crying Game',
     director: 'Neil Jordan',
-    actors: [{ name: 'Forest Whitaker' }],
-    coverUrl: '/movies_pictures/the_crying_game.webp',
+    actors: [
+      {
+        name: 'Stephen Rea',
+      },
+      {
+        name: 'Miranda Richardson',
+      },
+      {
+        name: 'Jaye Davidson',
+      },
+      {
+        name: 'Forest Whitaker',
+      },
+      {
+        name: 'Jim Broadbent',
+      },
+      {
+        name: 'Adrian Dunbar',
+      },
+      {
+        name: 'Ralph Brown',
+      },
+    ],    coverUrl: '/movies_pictures/the_crying_game.webp',
     releaseDate: '1992-11-25',
     length: 112,
     genre: ['Thriller', 'Drame'],
@@ -625,8 +1276,29 @@ export const baseMoviesPage7: BaseMovie[] = [
   {
     title: 'La Mutante',
     director: 'Roger Donaldson',
-    actors: [{ name: 'Forest Whitaker' }],
-    coverUrl: '/movies_pictures/la-mutante-affiche-VOD.jpg',
+    actors: [
+      {
+        name: 'Ben Kingsley',
+      },
+      {
+        name: 'Michael Madsen',
+      },
+      {
+        name: 'Alfred Molina',
+      },
+      {
+        name: 'Forest Whitaker',
+      },
+      {
+        name: 'Marg Helgenberger',
+      },
+      {
+        name: 'Natasha Henstridge',
+      },
+      {
+        name: 'Michelle Williams',
+      },
+    ],    coverUrl: '/movies_pictures/la-mutante-affiche-VOD.jpg',
     releaseDate: '1995-07-07',
     length: 108,
     genre: ['Science Fiction'],
@@ -689,8 +1361,29 @@ export const baseMoviesPage7: BaseMovie[] = [
   {
     title: 'Sans aucun remords',
     director: 'Stefano Sollima',
-    actors: [{ name: 'Michael B. Jordan' }],
-    coverUrl: '/movies_pictures/4273666.jpg',
+    actors: [
+      {
+        name: 'Michael B. Jordan',
+      },
+      {
+        name: 'Jamie Bell',
+      },
+      {
+        name: 'Jodie Turner-Smith',
+      },
+      {
+        name: 'Luke Mitchell',
+      },
+      {
+        name: 'Jacob Scipio',
+      },
+      {
+        name: 'Cam Gigandet',
+      },
+      {
+        name: 'Jack Kesy',
+      },
+    ],    coverUrl: '/movies_pictures/4273666.jpg',
     releaseDate: '2021-04-30',
     length: 109,
     genre: ['Action'],
@@ -703,8 +1396,29 @@ export const baseMoviesPage7: BaseMovie[] = [
   {
     title: 'Boogie Woogie',
     director: 'Duncan Ward',
-    actors: [{ name: 'Amanda Seyfried' }],
-    coverUrl: '/movies_pictures/71xCb0YL0GL._AC_UF894,1000_QL80_.jpg',
+    actors: [
+      {
+        name: 'Gillian Anderson',
+      },
+      {
+        name: 'Alan Cumming',
+      },
+      {
+        name: 'Heather Graham',
+      },
+      {
+        name: 'Danny Huston',
+      },
+      {
+        name: 'Christopher Lee',
+      },
+      {
+        name: 'Amanda Seyfried',
+      },
+      {
+        name: 'Charlotte Rampling',
+      },
+    ],    coverUrl: '/movies_pictures/71xCb0YL0GL._AC_UF894,1000_QL80_.jpg',
     releaseDate: '2009-06-12',
     length: 94,
     genre: ['Comédie', 'Drame'],
@@ -717,8 +1431,29 @@ export const baseMoviesPage7: BaseMovie[] = [
   {
     title: 'Chloé',
     director: 'Atom Egoyan',
-    actors: [{ name: 'Amanda Seyfried' }],
-    coverUrl: '/movies_pictures/19219894.jpg',
+    actors: [
+      {
+        name: 'Julianne Moore',
+      },
+      {
+        name: 'Liam Neeson',
+      },
+      {
+        name: 'Amanda Seyfried',
+      },
+      {
+        name: 'Max Thieriot',
+      },
+      {
+        name: 'Nina Dobrev',
+      },
+      {
+        name: 'Meghan Heffern',
+      },
+      {
+        name: 'R.H. Thomson',
+      },
+    ],    coverUrl: '/movies_pictures/19219894.jpg',
     releaseDate: '2009-09-13',
     length: 96,
     genre: ['Drame', 'Thriller'],
@@ -745,8 +1480,29 @@ export const baseMoviesPage7: BaseMovie[] = [
   {
     title: 'Cher John',
     director: 'Lasse Hallström',
-    actors: [{ name: 'Amanda Seyfried' }, { name: 'Channing Tatum' }],
-    coverUrl: '/movies_pictures/19262319.jpg',
+    actors: [
+      {
+        name: 'Amanda Seyfried',
+      },
+      {
+        name: 'Channing Tatum',
+      },
+      {
+        name: 'Henry Thomas',
+      },
+      {
+        name: 'Richard Jenkins',
+      },
+      {
+        name: 'Scott Porter',
+      },
+      {
+        name: 'D.J. Cotrona',
+      },
+      {
+        name: 'Cullen Moss',
+      },
+    ],    coverUrl: '/movies_pictures/19262319.jpg',
     releaseDate: '2010-02-05',
     length: 108,
     genre: ['Romance', 'Drame'],
@@ -759,8 +1515,29 @@ export const baseMoviesPage7: BaseMovie[] = [
   {
     title: 'Le Chaperon rouge',
     director: 'Catherine Hardwicke',
-    actors: [{ name: 'Amanda Seyfried' }],
-    coverUrl: '/movies_pictures/19679067.jpg',
+    actors: [
+      {
+        name: 'Amanda Seyfried',
+      },
+      {
+        name: 'Gary Oldman',
+      },
+      {
+        name: 'Billy Burke',
+      },
+      {
+        name: 'Shiloh Fernandez',
+      },
+      {
+        name: 'Max Irons',
+      },
+      {
+        name: 'Virginia Madsen',
+      },
+      {
+        name: 'Lukas Haas',
+      },
+    ],    coverUrl: '/movies_pictures/19679067.jpg',
     releaseDate: '2011-03-11',
     length: 100,
     genre: ['Fantastique'],
@@ -773,8 +1550,29 @@ export const baseMoviesPage7: BaseMovie[] = [
   {
     title: 'The End of Love',
     director: 'Mark Webber',
-    actors: [{ name: 'Amanda Seyfried' }],
-    coverUrl: '/movies_pictures/20479822.webp',
+    actors: [
+      {
+        name: 'Michael Cera',
+      },
+      {
+        name: 'Amanda Seyfried',
+      },
+      {
+        name: 'Shannyn Sossamon',
+      },
+      {
+        name: 'Jason Ritter',
+      },
+      {
+        name: 'Mark Webber',
+      },
+      {
+        name: 'Jocelin Donahue',
+      },
+      {
+        name: 'Aubrey Plaza',
+      },
+    ],    coverUrl: '/movies_pictures/20479822.webp',
     releaseDate: '2012-03-09',
     length: 82,
     genre: ['Drame'],
@@ -787,8 +1585,29 @@ export const baseMoviesPage7: BaseMovie[] = [
   {
     title: 'Disparue',
     director: 'Heitor Dhalia',
-    actors: [{ name: 'Amanda Seyfried' }],
-    coverUrl: '/movies_pictures/20084379.webp',
+    actors: [
+      {
+        name: 'Amanda Seyfried',
+      },
+      {
+        name: 'Daniel Sunjata',
+      },
+      {
+        name: 'Jennifer Carpenter',
+      },
+      {
+        name: 'Wes Bentley',
+      },
+      {
+        name: 'Sebastian Stan',
+      },
+      {
+        name: 'Nick Searcy',
+      },
+      {
+        name: 'Joel Moore',
+      },
+    ],    coverUrl: '/movies_pictures/20084379.webp',
     releaseDate: '2012-03-09',
     length: 94,
     genre: ['Thriller'],
@@ -801,8 +1620,29 @@ export const baseMoviesPage7: BaseMovie[] = [
   {
     title: 'Epic : La Bataille du royaume secret',
     director: 'Chris Wedge',
-    actors: [{ name: 'Amanda Seyfried' }],
-    coverUrl: '/movies_pictures/Epic_-_La_Bataille_du_royaume_secret.webp',
+    actors: [
+      {
+        name: 'Amanda Seyfried',
+      },
+      {
+        name: 'Colin Farrell',
+      },
+      {
+        name: 'Beyoncé',
+      },
+      {
+        name: 'Josh Hutcherson',
+      },
+      {
+        name: 'Christoph Waltz',
+      },
+      {
+        name: 'Aziz Ansari',
+      },
+      {
+        name: 'Chris O\'Dowd',
+      },
+    ],    coverUrl: '/movies_pictures/Epic_-_La_Bataille_du_royaume_secret.webp',
     releaseDate: '2013-05-24',
     length: 102,
     genre: ['Animation', 'Fantastique'],
@@ -815,8 +1655,29 @@ export const baseMoviesPage7: BaseMovie[] = [
   {
     title: 'Père et fille',
     director: 'Gabriele Muccino',
-    actors: [{ name: 'Amanda Seyfried' }],
-    coverUrl: '/movies_pictures/220573.webp',
+    actors: [
+      {
+        name: 'Russell Crowe',
+      },
+      {
+        name: 'Amanda Seyfried',
+      },
+      {
+        name: 'Kylie Rogers',
+      },
+      {
+        name: 'Aaron Paul',
+      },
+      {
+        name: 'Diane Kruger',
+      },
+      {
+        name: 'Quvenzhané Wallis',
+      },
+      {
+        name: 'Janet McTeer',
+      },
+    ],    coverUrl: '/movies_pictures/220573.webp',
     releaseDate: '2015-09-25',
     length: 116,
     genre: ['Drame'],
@@ -843,8 +1704,29 @@ export const baseMoviesPage7: BaseMovie[] = [
   {
     title: 'Anon',
     director: 'Andrew Niccol',
-    actors: [{ name: 'Amanda Seyfried' }],
-    coverUrl: '/movies_pictures/1599322.webp',
+    actors: [
+      {
+        name: 'Clive Owen',
+      },
+      {
+        name: 'Amanda Seyfried',
+      },
+      {
+        name: 'Colm Feore',
+      },
+      {
+        name: 'Mark O\'Brien',
+      },
+      {
+        name: 'Sonya Walger',
+      },
+      {
+        name: 'Joe Pingue',
+      },
+      {
+        name: 'Iddo Goldberg',
+      },
+    ],    coverUrl: '/movies_pictures/1599322.webp',
     releaseDate: '2018-05-04',
     length: 100,
     genre: ['Science Fiction', 'Thriller'],
@@ -857,8 +1739,29 @@ export const baseMoviesPage7: BaseMovie[] = [
   {
     title: "Dans les yeux d'Enzo",
     director: 'Simon Curtis',
-    actors: [{ name: 'Amanda Seyfried' }],
-    coverUrl: '/movies_pictures/112903944.webp',
+    actors: [
+      {
+        name: 'Milo Ventimiglia',
+      },
+      {
+        name: 'Amanda Seyfried',
+      },
+      {
+        name: 'Kevin Costner',
+      },
+      {
+        name: 'McKinley Belcher III',
+      },
+      {
+        name: 'Gary Cole',
+      },
+      {
+        name: 'Kathy Baker',
+      },
+      {
+        name: 'Martin Donovan',
+      },
+    ],    coverUrl: '/movies_pictures/112903944.webp',
     releaseDate: '2019-08-09',
     length: 109,
     genre: ['Drame'],
@@ -871,8 +1774,29 @@ export const baseMoviesPage7: BaseMovie[] = [
   {
     title: 'Mank',
     director: 'David Fincher',
-    actors: [{ name: 'Amanda Seyfried' }, { name: 'Gary Oldman' }],
-    coverUrl: '/movies_pictures/0563347.jpg',
+    actors: [
+      {
+        name: 'Gary Oldman',
+      },
+      {
+        name: 'Amanda Seyfried',
+      },
+      {
+        name: 'Lily Collins',
+      },
+      {
+        name: 'Tuppence Middleton',
+      },
+      {
+        name: 'Arliss Howard',
+      },
+      {
+        name: 'Charles Dance',
+      },
+      {
+        name: 'Ferdinand Kingsley',
+      },
+    ],    coverUrl: '/movies_pictures/0563347.jpg',
     releaseDate: '2020-11-13',
     length: 131,
     genre: ['Drame'],
@@ -899,8 +1823,29 @@ export const baseMoviesPage7: BaseMovie[] = [
   {
     title: 'Hands of Stone',
     director: 'Jonathan Jakubowicz',
-    actors: [{ name: 'Ana de Armas' }],
-    coverUrl: '/movies_pictures/167167.jpg',
+    actors: [
+      {
+        name: 'Drena De Niro',
+      },
+      {
+        name: 'Édgar Ramírez',
+      },
+      {
+        name: 'Ellen Barkin',
+      },
+      {
+        name: 'John Turturro',
+      },
+      {
+        name: 'Reg E. Cathey',
+      },
+      {
+        name: 'Robert De Niro',
+      },
+      {
+        name: 'Usher',
+      },
+    ],    coverUrl: '/movies_pictures/167167.jpg',
     releaseDate: '2016-08-26',
     length: 111,
     genre: ['Drame'],
@@ -927,8 +1872,29 @@ export const baseMoviesPage7: BaseMovie[] = [
   {
     title: 'Cuban Network',
     director: 'Olivier Assayas',
-    actors: [{ name: 'Ana de Armas' }],
-    coverUrl: '/movies_pictures/5217190.jpg',
+    actors: [
+      {
+        name: 'Ana de Armas',
+      },
+      {
+        name: 'Édgar Ramírez',
+      },
+      {
+        name: 'Wagner Moura',
+      },
+      {
+        name: 'Gael García Bernal',
+      },
+      {
+        name: 'Penélope Cruz',
+      },
+      {
+        name: 'Leonardo Sbaraglia',
+      },
+      {
+        name: 'Tony Plana',
+      },
+    ],    coverUrl: '/movies_pictures/5217190.jpg',
     releaseDate: '2019-09-01',
     length: 123,
     genre: ['Drame'],
@@ -955,8 +1921,29 @@ export const baseMoviesPage7: BaseMovie[] = [
   {
     title: 'The Informer',
     director: 'Andrea Di Stefano',
-    actors: [{ name: 'Ana de Armas' }],
-    coverUrl: '/movies_pictures/2814908.webp',
+    actors: [
+      {
+        name: 'Ana de Armas',
+      },
+      {
+        name: 'Rosamund Pike',
+      },
+      {
+        name: 'Clive Owen',
+      },
+      {
+        name: 'Joel Kinnaman',
+      },
+      {
+        name: 'Common',
+      },
+      {
+        name: 'Sam Spruell',
+      },
+      {
+        name: 'Janusz Sheagall',
+      },
+    ],    coverUrl: '/movies_pictures/2814908.webp',
     releaseDate: '2019-11-01',
     length: 113,
     genre: ['Thriller'],
@@ -969,8 +1956,20 @@ export const baseMoviesPage7: BaseMovie[] = [
   {
     title: 'Ghosted',
     director: 'Dexter Fletcher',
-    actors: [{ name: 'Ana de Armas' }, { name: 'Chris Evans' }],
-    coverUrl: '/movies_pictures/0062410.webp',
+    actors: [
+      {
+        name: 'Craig Robinson',
+      },
+      {
+        name: 'Adam Scott',
+      },
+      {
+        name: 'Amber Stevens',
+      },
+      {
+        name: 'Ally Walker',
+      },
+    ],    coverUrl: '/movies_pictures/0062410.webp',
     releaseDate: '2023-04-21',
     length: 116,
     genre: ['Action', 'Romance'],
@@ -983,8 +1982,29 @@ export const baseMoviesPage7: BaseMovie[] = [
   {
     title: 'Black/White',
     director: 'Kevin Rodney Sullivan',
-    actors: [{ name: 'Zoe Saldana' }, { name: 'Ashton Kutcher' }],
-    coverUrl: '/movies_pictures/18437927.webp',
+    actors: [
+      {
+        name: 'Bernie Mac',
+      },
+      {
+        name: 'Ashton Kutcher',
+      },
+      {
+        name: 'Zoë Saldaña',
+      },
+      {
+        name: 'Judith Scott',
+      },
+      {
+        name: 'Robert Curtis Brown',
+      },
+      {
+        name: 'David Ramsey',
+      },
+      {
+        name: 'Hal Williams',
+      },
+    ],    coverUrl: '/movies_pictures/18437927.webp',
     releaseDate: '2005-03-25',
     length: 105,
     genre: ['Comédie'],
@@ -1011,8 +2031,29 @@ export const baseMoviesPage7: BaseMovie[] = [
   {
     title: 'Colombiana',
     director: 'Olivier Megaton',
-    actors: [{ name: 'Zoe Saldana' }],
-    coverUrl: '/movies_pictures/19733268.webp',
+    actors: [
+      {
+        name: 'Zoë Saldaña',
+      },
+      {
+        name: 'Amandla Stenberg',
+      },
+      {
+        name: 'Michael Vartan',
+      },
+      {
+        name: 'Leni James',
+      },
+      {
+        name: 'Cliff Curtis',
+      },
+      {
+        name: 'Jordi Mollà',
+      },
+      {
+        name: 'Jesse Borrego',
+      },
+    ],    coverUrl: '/movies_pictures/19733268.webp',
     releaseDate: '2011-08-26',
     length: 108,
     genre: ['Action'],
@@ -1061,8 +2102,29 @@ export const baseMoviesPage7: BaseMovie[] = [
   {
     title: 'A Working Man',
     director: 'David Ayer',
-    actors: [{ name: 'Jason Statham' }],
-    coverUrl:
+    actors: [
+      {
+        name: 'Jason Statham',
+      },
+      {
+        name: 'David Harbour',
+      },
+      {
+        name: 'Michael Peña',
+      },
+      {
+        name: 'Jason Flemyng',
+      },
+      {
+        name: 'Noemi Gonzalez',
+      },
+      {
+        name: 'Emmett J. Scanlan',
+      },
+      {
+        name: 'Eve Mauro',
+      },
+    ],    coverUrl:
       '/movies_pictures/MV5BYTg5ZTVhN2UtYjkwZS00OWI1LWFhNTgtNWZkYmRhMDViNjhmXkEyXkFqcGc@._V1_.jpg',
     releaseDate: '2025-03-28',
     length: 116,

@@ -999,7 +999,27 @@ export const baseMoviesPage8: BaseMovie[] = [
     title: "2001 : L'Odyssée de l'espace",
     director: "Stanley Kubrick",
     actors: [
-
+      {
+        name: 'Keir Dullea',
+      },
+      {
+        name: 'Gary Lockwood',
+      },
+      {
+        name: 'William Sylvester',
+      },
+      {
+        name: 'Leonard Rossiter',
+      },
+      {
+        name: 'Margaret Tyzack',
+      },
+      {
+        name: 'Robert Beatty',
+      },
+      {
+        name: 'Sean Sullivan',
+      },
     ],
     coverUrl: "/movies_pictures/2001-lodyssee-de-lespace.jpg",
     releaseDate: "2018-07-30",
@@ -1169,7 +1189,29 @@ export const baseMoviesPage8: BaseMovie[] = [
   {
     title: 'Cléopâtre',
     director: '',
-    actors: [{ name: 'Lydia Sokolova' }, { name: 'Harold Turner' }],
+    actors: [
+      {
+        name: 'Claudette Colbert',
+      },
+      {
+        name: 'Warren William',
+      },
+      {
+        name: 'Henry Wilcoxon',
+      },
+      {
+        name: 'Joseph Schildkraut',
+      },
+      {
+        name: 'Ian Keith',
+      },
+      {
+        name: 'Charles Aubrey Smith',
+      },
+      {
+        name: 'Irving Pichel',
+      },
+    ],
     coverUrl: '',
     releaseDate: '1934-03-13',
     length: 0,
@@ -1956,7 +1998,29 @@ export const baseMoviesPage8: BaseMovie[] = [
   {
     title: 'Irréversible',
     director: 'Magdalena Malfray',
-    actors: [{ name: 'Magdalena Malfray' }],
+    actors: [
+      {
+        name: 'Monica Bellucci',
+      },
+      {
+        name: 'Vincent Cassel',
+      },
+      {
+        name: 'Albert Dupontel',
+      },
+      {
+        name: 'Estella Warren',
+      },
+      {
+        name: 'Jean-Louis Costes',
+      },
+      {
+        name: 'Jo Prestia',
+      },
+      {
+        name: 'Philippe Nahon',
+      },
+    ],
     coverUrl: '',
     releaseDate: '',
     length: 0,
@@ -2132,7 +2196,29 @@ export const baseMoviesPage8: BaseMovie[] = [
   {
     title: 'Knights of the Zodiac',
     director: 'Tomasz Bagiński',
-    actors: [{ name: 'Mackenyu' }, { name: 'Famke Janssen' }],
+    actors: [
+      {
+        name: 'Mackenyu',
+      },
+      {
+        name: 'Madison Iseman',
+      },
+      {
+        name: 'Sean Bean',
+      },
+      {
+        name: 'Famke Janssen',
+      },
+      {
+        name: 'Diego Tinoco',
+      },
+      {
+        name: 'Mark Dacascos',
+      },
+      {
+        name: 'Nick Stahl',
+      },
+    ],
     coverUrl: '/movies_pictures/8116ac2cd69c.jpg',
     releaseDate: '2023-04-28',
     length: 112,
@@ -2186,7 +2272,29 @@ export const baseMoviesPage8: BaseMovie[] = [
   {
     title: 'La Vie privée de Sherlock Holmes',
     director: 'Billy Wilder',
-    actors: [{ name: 'Robert Stephens' }, { name: 'Colin Blakely' }],
+    actors: [
+      {
+        name: 'Robert Stephens',
+      },
+      {
+        name: 'Colin Blakely',
+      },
+      {
+        name: 'Christopher Lee',
+      },
+      {
+        name: 'Clive Revill',
+      },
+      {
+        name: 'Tamara Toumanova',
+      },
+      {
+        name: 'Stanley Holloway',
+      },
+      {
+        name: 'Geneviève Page',
+      },
+    ],
     coverUrl: '/movies_pictures/00ff582d97c8.jpg',
     releaseDate: '1970-10-29',
     length: 125,
@@ -2204,7 +2312,29 @@ export const baseMoviesPage8: BaseMovie[] = [
   {
     title: 'They Might Be Giants',
     director: 'Anthony Harvey',
-    actors: [{ name: 'George C. Scott' }, { name: 'Joanne Woodward' }],
+    actors: [
+      {
+        name: 'George C. Scott',
+      },
+      {
+        name: 'Joanne Woodward',
+      },
+      {
+        name: 'Al Lewis',
+      },
+      {
+        name: 'Jack Gilford',
+      },
+      {
+        name: 'Rue McClanahan',
+      },
+      {
+        name: 'Theresa Merritt',
+      },
+      {
+        name: 'Frances Fuller',
+      },
+    ],
     coverUrl: '/movies_pictures/8d82c86a0233.jpg',
     releaseDate: '1971-06-09',
     length: 91,
@@ -2222,7 +2352,29 @@ export const baseMoviesPage8: BaseMovie[] = [
   {
     title: 'Meurtre par décret',
     director: 'Bob Clark',
-    actors: [{ name: 'Christopher Plummer' }, { name: 'James Mason' }],
+    actors: [
+      {
+        name: 'Christopher Plummer',
+      },
+      {
+        name: 'James Mason',
+      },
+      {
+        name: 'David Hemmings',
+      },
+      {
+        name: 'Susan Clark',
+      },
+      {
+        name: 'Frank Finlay',
+      },
+      {
+        name: 'Geneviève Bujold',
+      },
+      {
+        name: 'Q103784',
+      },
+    ],
     coverUrl: '/movies_pictures/78e2a5e0f5e3.jpg',
     releaseDate: '1979-02-01',
     length: 124,
@@ -2276,7 +2428,29 @@ export const baseMoviesPage8: BaseMovie[] = [
   {
     title: 'Without a clue',
     director: 'Thom Eberhardt',
-    actors: [{ name: 'Michael Caine' }, { name: 'Ben Kingsley' }],
+    actors: [
+      {
+        name: 'Michael Caine',
+      },
+      {
+        name: 'Ben Kingsley',
+      },
+      {
+        name: 'Jeffrey Jones',
+      },
+      {
+        name: 'Paul Freeman',
+      },
+      {
+        name: 'Nigel Davenport',
+      },
+      {
+        name: 'Lysette Anthony',
+      },
+      {
+        name: 'John Warner',
+      },
+    ],
     coverUrl: '/movies_pictures/165bb557a33a.jpg',
     releaseDate: '1988-10-21',
     length: 107,
@@ -2294,7 +2468,29 @@ export const baseMoviesPage8: BaseMovie[] = [
   {
     title: 'Le secret de la pyramide',
     director: 'Barry Levinson',
-    actors: [{ name: 'Nicholas Rowe' }, { name: 'Alan Cox' }],
+    actors: [
+      {
+        name: 'Nicholas Rowe',
+      },
+      {
+        name: 'Alan Cox',
+      },
+      {
+        name: 'Anthony Higgins',
+      },
+      {
+        name: 'Sophie Ward',
+      },
+      {
+        name: 'Roger Ashton-Griffiths',
+      },
+      {
+        name: 'Freddie Jones',
+      },
+      {
+        name: 'Nigel Stock',
+      },
+    ],
     coverUrl: '/movies_pictures/791c0d7973a3.jpg',
     releaseDate: '1985-12-04',
     length: 109,
@@ -2313,7 +2509,29 @@ export const baseMoviesPage8: BaseMovie[] = [
   {
     title: 'Mr. Holmes',
     director: 'Bill Condon',
-    actors: [{ name: 'Ian McKellen' }, { name: 'Laura Linney' }],
+    actors: [
+      {
+        name: 'Ian McKellen',
+      },
+      {
+        name: 'Laura Linney',
+      },
+      {
+        name: 'Milo Parker',
+      },
+      {
+        name: 'Hiroyuki Sanada',
+      },
+      {
+        name: 'Hattie Morahan',
+      },
+      {
+        name: 'Patrick Kennedy',
+      },
+      {
+        name: 'Roger Allam',
+      },
+    ],
     coverUrl: '/movies_pictures/7198741dc359.jpg',
     releaseDate: '2015-06-19',
     length: 104,
@@ -2331,7 +2549,29 @@ export const baseMoviesPage8: BaseMovie[] = [
   {
     title: 'Holmes & Watson',
     director: 'Etan Cohen',
-    actors: [{ name: 'Will Ferrell' }, { name: 'John C. Reilly' }],
+    actors: [
+      {
+        name: 'Will Ferrell',
+      },
+      {
+        name: 'John C. Reilly',
+      },
+      {
+        name: 'Kelly Macdonald',
+      },
+      {
+        name: 'Rebecca Hall',
+      },
+      {
+        name: 'Ralph Fiennes',
+      },
+      {
+        name: 'Lauren Lapkus',
+      },
+      {
+        name: 'Hugh Laurie',
+      },
+    ],
     coverUrl: '/movies_pictures/30c785712da4.jpg',
     releaseDate: '2018-12-25',
     length: 89,

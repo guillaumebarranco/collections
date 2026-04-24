@@ -6,7 +6,25 @@ export const baseMoviesPage2: BaseMovie[] = [
     director: 'Doug Liman',
     actors: [
       {
+        name: 'Daisy Ridley',
+      },
+      {
         name: 'Tom Holland',
+      },
+      {
+        name: 'Mads Mikkelsen',
+      },
+      {
+        name: 'Kurt Sutter',
+      },
+      {
+        name: 'Nick Jonas',
+      },
+      {
+        name: 'Demián Bichir',
+      },
+      {
+        name: 'David Oyelowo',
       },
     ],
     coverUrl: '/movies_pictures/346746-chaos-walking-0-150-0-225-crop.jpg',
@@ -24,7 +42,16 @@ export const baseMoviesPage2: BaseMovie[] = [
     director: 'Michael Matthews',
     actors: [
       {
-        name: "Dylan O'Brien",
+        name: 'Dylan O\'Brien',
+      },
+      {
+        name: 'Michael Rooker',
+      },
+      {
+        name: 'Jessica Henwick',
+      },
+      {
+        name: 'Ariana Greenblatt',
       },
     ],
     coverUrl: '/movies_pictures/517828-love-and-monsters-0-150-0-225-crop.jpg',
@@ -43,6 +70,24 @@ export const baseMoviesPage2: BaseMovie[] = [
     actors: [
       {
         name: 'John David Washington',
+      },
+      {
+        name: 'Robert Pattinson',
+      },
+      {
+        name: 'Elizabeth Debicki',
+      },
+      {
+        name: 'Dimple Kapadia',
+      },
+      {
+        name: 'Aaron Taylor-Johnson',
+      },
+      {
+        name: 'Clémence Poésy',
+      },
+      {
+        name: 'Michael Caine',
       },
     ],
     coverUrl:
@@ -63,6 +108,24 @@ export const baseMoviesPage2: BaseMovie[] = [
       {
         name: 'Jessica Chastain',
       },
+      {
+        name: 'John Malkovich',
+      },
+      {
+        name: 'Common',
+      },
+      {
+        name: 'Geena Davis',
+      },
+      {
+        name: 'Colin Farrell',
+      },
+      {
+        name: 'Ioan Gruffudd',
+      },
+      {
+        name: 'Joan Chen',
+      },
     ],
     coverUrl: '/movies_pictures/468851-ava-0-150-0-225-crop.jpg',
     releaseDate: '2020-07-02',
@@ -79,7 +142,25 @@ export const baseMoviesPage2: BaseMovie[] = [
     director: 'Niki Caro',
     actors: [
       {
-        name: 'Yifei Liu',
+        name: 'Liu Yifei',
+      },
+      {
+        name: 'Donnie Yen',
+      },
+      {
+        name: 'Jet Li',
+      },
+      {
+        name: 'Jason Scott Lee',
+      },
+      {
+        name: 'Rosalind Chao',
+      },
+      {
+        name: 'Gong Li',
+      },
+      {
+        name: 'Tzi Ma',
       },
     ],
     coverUrl: '/movies_pictures/d298a5e1cf03.jpg',
@@ -99,6 +180,24 @@ export const baseMoviesPage2: BaseMovie[] = [
       {
         name: 'Andy Samberg',
       },
+      {
+        name: 'Cristin Milioti',
+      },
+      {
+        name: 'J. K. Simmons',
+      },
+      {
+        name: 'Peter Gallagher',
+      },
+      {
+        name: 'Meredith Hagner',
+      },
+      {
+        name: 'Camila Mendes',
+      },
+      {
+        name: 'Tyler Hoechlin',
+      },
     ],
     coverUrl: '/movies_pictures/515467-palm-springs-0-150-0-225-crop.jpg',
     releaseDate: '2020-07-10',
@@ -117,6 +216,12 @@ export const baseMoviesPage2: BaseMovie[] = [
       {
         name: 'Daniel Radcliffe',
       },
+      {
+        name: 'Natasha Liu Bordizzo',
+      },
+      {
+        name: 'Samara Weaving',
+      },
     ],
     coverUrl: '/movies_pictures/389270-guns-akimbo-0-150-0-225-crop.jpg',
     releaseDate: '2020-02-28',
@@ -134,6 +239,24 @@ export const baseMoviesPage2: BaseMovie[] = [
     actors: [
       {
         name: 'Joaquin Phoenix',
+      },
+      {
+        name: 'Zazie Beetz',
+      },
+      {
+        name: 'Robert De Niro',
+      },
+      {
+        name: 'Frances Conroy',
+      },
+      {
+        name: 'Bryan Callen',
+      },
+      {
+        name: 'Marc Maron',
+      },
+      {
+        name: 'Bill Camp',
       },
     ],
     coverUrl: '/movies_pictures/406775-joker-0-150-0-225-crop.jpg',
@@ -157,6 +280,21 @@ export const baseMoviesPage2: BaseMovie[] = [
       {
         name: 'Sylvester Stallone',
       },
+      {
+        name: 'David Bautista',
+      },
+      {
+        name: '50 Cent',
+      },
+      {
+        name: 'Devon Sawa',
+      },
+      {
+        name: 'Jaime King',
+      },
+      {
+        name: 'Daniel Bernhardt',
+      },
     ],
     coverUrl:
       '/movies_pictures/411041-escape-plan-the-extractors-0-150-0-225-crop.jpg',
@@ -174,7 +312,25 @@ export const baseMoviesPage2: BaseMovie[] = [
     director: 'Guy Ritchie',
     actors: [
       {
+        name: 'Mena Massoud',
+      },
+      {
+        name: 'Naomi Scott',
+      },
+      {
         name: 'Will Smith',
+      },
+      {
+        name: 'Marwan Kenzari',
+      },
+      {
+        name: 'Navid Negahban',
+      },
+      {
+        name: 'Nasim Pedrad',
+      },
+      {
+        name: 'Billy Magnussen',
       },
     ],
     coverUrl: '/movies_pictures/354538-aladdin-0-150-0-225-crop.jpg',
@@ -196,6 +352,21 @@ export const baseMoviesPage2: BaseMovie[] = [
       },
       {
         name: 'Christoph Waltz',
+      },
+      {
+        name: 'Keean Johnson',
+      },
+      {
+        name: 'Mahershalalhashbaz Ali',
+      },
+      {
+        name: 'Ed Skrein',
+      },
+      {
+        name: 'Jackie Earle Haley',
+      },
+      {
+        name: 'Jennifer Connelly',
       },
     ],
     coverUrl: '/movies_pictures/333832-alita-battle-angel-0-150-0-225-crop.jpg',
@@ -219,6 +390,24 @@ export const baseMoviesPage2: BaseMovie[] = [
       {
         name: 'François Civil',
       },
+      {
+        name: 'Omar Sy',
+      },
+      {
+        name: 'Mathieu Kassovitz',
+      },
+      {
+        name: 'Reda Kateb',
+      },
+      {
+        name: 'Paula Beer',
+      },
+      {
+        name: 'Alexis Michalik',
+      },
+      {
+        name: 'Jean-Yves Berteloot',
+      },
     ],
     coverUrl: '/movies_pictures/415280-the-wolf-s-call-0-150-0-225-crop.jpg',
     releaseDate: '2019-02-20',
@@ -237,6 +426,24 @@ export const baseMoviesPage2: BaseMovie[] = [
       {
         name: 'Sandra Bullock',
       },
+      {
+        name: 'Trevante Rhodes',
+      },
+      {
+        name: 'John Malkovich',
+      },
+      {
+        name: 'Sarah Paulson',
+      },
+      {
+        name: 'Jacki Weaver',
+      },
+      {
+        name: 'Rosa Salazar',
+      },
+      {
+        name: 'Danielle Macdonald',
+      },
     ],
     coverUrl: '/movies_pictures/340202-bird-box-0-150-0-225-crop.jpg',
     releaseDate: '2018-12-21',
@@ -253,10 +460,25 @@ export const baseMoviesPage2: BaseMovie[] = [
     director: 'Bradley Cooper',
     actors: [
       {
+        name: 'Bradley Cooper',
+      },
+      {
+        name: 'Sam Elliott',
+      },
+      {
+        name: 'Andrew Dice Clay',
+      },
+      {
         name: 'Lady Gaga',
       },
       {
-        name: 'Bradley Cooper',
+        name: 'Rafi Gavron',
+      },
+      {
+        name: 'Anthony Ramos Martinez',
+      },
+      {
+        name: 'Alec Baldwin',
       },
     ],
     coverUrl: '/movies_pictures/261108-a-star-is-born-0-150-0-225-crop.jpg',
@@ -310,7 +532,29 @@ export const baseMoviesPage2: BaseMovie[] = [
   {
     title: "L'aile ou la cuisse",
     director: 'Claude Zidi',
-    actors: [{ name: 'Louis de Funès' }],
+    actors: [
+      {
+        name: 'Louis de Funès',
+      },
+      {
+        name: 'Coluche',
+      },
+      {
+        name: 'Claude Gensac',
+      },
+      {
+        name: 'Jean Martin',
+      },
+      {
+        name: 'Marcel Dalio',
+      },
+      {
+        name: 'Vittorio Caprioli',
+      },
+      {
+        name: 'Julien Guiomar',
+      },
+    ],
     coverUrl:
       '/movies_pictures/51391-the-wing-or-the-thigh--0-150-0-225-crop.jpg',
     releaseDate: '1976-10-27',
@@ -325,7 +569,29 @@ export const baseMoviesPage2: BaseMovie[] = [
   {
     title: 'The Shining',
     director: 'Stanley Kubrick',
-    actors: [{ name: 'Jack Nicholson' }],
+    actors: [
+      {
+        name: 'Jack Nicholson',
+      },
+      {
+        name: 'Shelley Duvall',
+      },
+      {
+        name: 'Danny Lloyd',
+      },
+      {
+        name: 'Scatman Crothers',
+      },
+      {
+        name: 'Barry Nelson',
+      },
+      {
+        name: 'Philip Stone',
+      },
+      {
+        name: 'Joe Turkel',
+      },
+    ],
     coverUrl: '/movies_pictures/the_shining.jpg',
     releaseDate: '1980-05-23',
     length: 146,
@@ -343,7 +609,29 @@ export const baseMoviesPage2: BaseMovie[] = [
   {
     title: 'Taxi Driver',
     director: 'Martin Scorsese',
-    actors: [{ name: 'Robert De Niro' }],
+    actors: [
+      {
+        name: 'Robert De Niro',
+      },
+      {
+        name: 'Jodie Foster',
+      },
+      {
+        name: 'Cybill Shepherd',
+      },
+      {
+        name: 'Harvey Keitel',
+      },
+      {
+        name: 'Peter Boyle',
+      },
+      {
+        name: 'Albert Brooks',
+      },
+      {
+        name: 'Leonard Harris',
+      },
+    ],
     coverUrl: '/movies_pictures/51947-taxi-driver-0-150-0-225-crop.jpg',
     releaseDate: '1976-02-08',
     length: 114,
@@ -357,7 +645,29 @@ export const baseMoviesPage2: BaseMovie[] = [
   {
     title: "L'exorciste",
     director: 'William Friedkin',
-    actors: [{ name: 'Ellen Burstyn' }],
+    actors: [
+      {
+        name: 'Ellen Burstyn',
+      },
+      {
+        name: 'Max von Sydow',
+      },
+      {
+        name: 'Lee J. Cobb',
+      },
+      {
+        name: 'Kitty Winn',
+      },
+      {
+        name: 'Jack MacGowran',
+      },
+      {
+        name: 'Linda Blair',
+      },
+      {
+        name: 'William O\'Malley',
+      },
+    ],
     coverUrl: '/movies_pictures/47048-the-exorcist-0-150-0-225-crop.jpg',
     releaseDate: '1973-12-26',
     length: 122,
@@ -371,7 +681,29 @@ export const baseMoviesPage2: BaseMovie[] = [
   {
     title: 'Les aventures de Rabbi Jacob',
     director: 'Gérard Oury',
-    actors: [{ name: 'Louis de Funès' }],
+    actors: [
+      {
+        name: 'Louis de Funès',
+      },
+      {
+        name: 'Marcel Dalio',
+      },
+      {
+        name: 'Renzo Montagnani',
+      },
+      {
+        name: 'Miou-Miou',
+      },
+      {
+        name: 'Suzy Delair',
+      },
+      {
+        name: 'Claude Giraud',
+      },
+      {
+        name: 'Henri Guybet',
+      },
+    ],
     coverUrl:
       '/movies_pictures/51392-the-mad-adventures-of-rabbi-jacob-0-150-0-225-crop.jpg',
     releaseDate: '1973-10-17',
@@ -386,7 +718,29 @@ export const baseMoviesPage2: BaseMovie[] = [
   {
     title: 'La Folie des grandeurs',
     director: 'Gérard Oury',
-    actors: [{ name: 'Louis de Funès' }],
+    actors: [
+      {
+        name: 'Louis de Funès',
+      },
+      {
+        name: 'Yves Montand',
+      },
+      {
+        name: 'Karin Schubert',
+      },
+      {
+        name: 'Alberto de Mendoza',
+      },
+      {
+        name: 'Jaime de Mora y Aragón',
+      },
+      {
+        name: 'Venantino Venantini',
+      },
+      {
+        name: 'Gabriele Tinti',
+      },
+    ],
     coverUrl:
       '/movies_pictures/43223-delusions-of-grandeur-0-150-0-225-crop.jpg',
     releaseDate: '1971-12-08',
@@ -433,7 +787,29 @@ export const baseMoviesPage2: BaseMovie[] = [
   {
     title: 'Pouic-Pouic',
     director: 'Jean Girault',
-    actors: [{ name: 'Louis de Funès' }],
+    actors: [
+      {
+        name: 'Louis de Funès',
+      },
+      {
+        name: 'Mireille Darc',
+      },
+      {
+        name: 'Roger Dumas',
+      },
+      {
+        name: 'Christian Marin',
+      },
+      {
+        name: 'Daniel Ceccaldi',
+      },
+      {
+        name: 'Guy Tréjan',
+      },
+      {
+        name: 'Jacqueline Maillan',
+      },
+    ],
     coverUrl: '/movies_pictures/8259f6f050e5.jpg',
     releaseDate: '1963-06-15',
     length: 90,
@@ -447,7 +823,29 @@ export const baseMoviesPage2: BaseMovie[] = [
   {
     title: 'Faites sauter la banque !',
     director: 'Jean Girault',
-    actors: [{ name: 'Louis de Funès' }],
+    actors: [
+      {
+        name: 'Louis de Funès',
+      },
+      {
+        name: 'Yvonne Clech',
+      },
+      {
+        name: 'Jean-Pierre Marielle',
+      },
+      {
+        name: 'Georges Wilson',
+      },
+      {
+        name: 'Claude Piéplu',
+      },
+      {
+        name: 'Michel Tureau',
+      },
+      {
+        name: 'Guy Grosso',
+      },
+    ],
     coverUrl: '/movies_pictures/813192d54f88.jpg',
     releaseDate: '1964-06-15',
     length: 90,
@@ -461,7 +859,29 @@ export const baseMoviesPage2: BaseMovie[] = [
   {
     title: 'Des pissenlits par la racine',
     director: 'Georges Lautner',
-    actors: [{ name: 'Louis de Funès' }],
+    actors: [
+      {
+        name: 'Michel Serrault',
+      },
+      {
+        name: 'Mireille Darc',
+      },
+      {
+        name: 'Louis de Funès',
+      },
+      {
+        name: 'Francis Blanche',
+      },
+      {
+        name: 'Venantino Venantini',
+      },
+      {
+        name: 'Bice Valori',
+      },
+      {
+        name: 'Gianni Musy',
+      },
+    ],
     coverUrl: '/movies_pictures/318f3a3b6a37.jpg',
     releaseDate: '1964-06-15',
     length: 90,
@@ -475,7 +895,29 @@ export const baseMoviesPage2: BaseMovie[] = [
   {
     title: 'Une souris chez les hommes',
     director: 'Jacques Poitrenaud',
-    actors: [{ name: 'Louis de Funès' }],
+    actors: [
+      {
+        name: 'Louis de Funès',
+      },
+      {
+        name: 'Dany Saval',
+      },
+      {
+        name: 'Albert Michel',
+      },
+      {
+        name: 'André Badin',
+      },
+      {
+        name: 'Bernard Musson',
+      },
+      {
+        name: 'Claude Piéplu',
+      },
+      {
+        name: 'Dany Carrel',
+      },
+    ],
     coverUrl: '/movies_pictures/f8a857a7fcec.jpg',
     releaseDate: '1964-06-15',
     length: 90,
@@ -489,7 +931,29 @@ export const baseMoviesPage2: BaseMovie[] = [
   {
     title: 'Le Corniaud',
     director: 'Gérard Oury',
-    actors: [{ name: 'Louis de Funès' }],
+    actors: [
+      {
+        name: 'Bourvil',
+      },
+      {
+        name: 'Louis de Funès',
+      },
+      {
+        name: 'Venantino Venantini',
+      },
+      {
+        name: 'Beba Loncar',
+      },
+      {
+        name: 'Alida Chelli',
+      },
+      {
+        name: 'Lando Buzzanca',
+      },
+      {
+        name: 'Henri Génès',
+      },
+    ],
     coverUrl: '/movies_pictures/f8b2c8e8c72e.jpg',
     releaseDate: '1965-06-15',
     length: 90,
@@ -503,7 +967,29 @@ export const baseMoviesPage2: BaseMovie[] = [
   {
     title: 'Les Bons Vivants',
     director: 'Gilles Grangier, Georges Lautner',
-    actors: [{ name: 'Louis de Funès' }],
+    actors: [
+      {
+        name: 'Louis de Funès',
+      },
+      {
+        name: 'Bernard Blier',
+      },
+      {
+        name: 'Adrien Cayla-Legrand',
+      },
+      {
+        name: 'Albert Michel',
+      },
+      {
+        name: 'Albert Rémy',
+      },
+      {
+        name: 'Aline Bertrand',
+      },
+      {
+        name: 'Andréa Parisy',
+      },
+    ],
     coverUrl: '/movies_pictures/7566596a7709.jpg',
     releaseDate: '1965-06-15',
     length: 90,
@@ -517,7 +1003,29 @@ export const baseMoviesPage2: BaseMovie[] = [
   {
     title: 'Le Gendarme à New York',
     director: 'Jean Girault',
-    actors: [{ name: 'Louis de Funès' }],
+    actors: [
+      {
+        name: 'Louis de Funès',
+      },
+      {
+        name: 'Michel Galabru',
+      },
+      {
+        name: 'Mario Pisu',
+      },
+      {
+        name: 'Tiberio Murgia',
+      },
+      {
+        name: 'Geneviève Grad',
+      },
+      {
+        name: 'Jean Lefebvre',
+      },
+      {
+        name: 'Christian Marin',
+      },
+    ],
     coverUrl: '/movies_pictures/5e19424f0e96.jpg',
     releaseDate: '1965-06-15',
     length: 90,
@@ -531,7 +1039,29 @@ export const baseMoviesPage2: BaseMovie[] = [
   {
     title: 'Fantomas se déchaîne',
     director: 'André Hunebelle',
-    actors: [{ name: 'Louis de Funès' }],
+    actors: [
+      {
+        name: 'Jean Marais',
+      },
+      {
+        name: 'Louis de Funès',
+      },
+      {
+        name: 'Mylène Demongeot',
+      },
+      {
+        name: 'Jacques Dynam',
+      },
+      {
+        name: 'Robert Dalban',
+      },
+      {
+        name: 'Olivier de Funès',
+      },
+      {
+        name: 'Arturo Dominici',
+      },
+    ],
     coverUrl: '/movies_pictures/75102b73c25e.jpg',
     releaseDate: '1965-06-15',
     length: 90,
@@ -545,7 +1075,29 @@ export const baseMoviesPage2: BaseMovie[] = [
   {
     title: 'Le Grand Restaurant',
     director: 'Jacques Besnard',
-    actors: [{ name: 'Louis de Funès' }],
+    actors: [
+      {
+        name: 'Louis de Funès',
+      },
+      {
+        name: 'Bernard Blier',
+      },
+      {
+        name: 'Folco Lulli',
+      },
+      {
+        name: 'Venantino Venantini',
+      },
+      {
+        name: 'Noël Roquevert',
+      },
+      {
+        name: 'Paul Préboist',
+      },
+      {
+        name: 'Adrien Cayla-Legrand',
+      },
+    ],
     coverUrl: '/movies_pictures/02136366c083.jpg',
     releaseDate: '1966-06-15',
     length: 90,
@@ -559,7 +1111,29 @@ export const baseMoviesPage2: BaseMovie[] = [
   {
     title: 'Fantomas contre Scotland Yard',
     director: 'André Hunebelle',
-    actors: [{ name: 'Louis de Funès' }],
+    actors: [
+      {
+        name: 'Jean Marais',
+      },
+      {
+        name: 'Louis de Funès',
+      },
+      {
+        name: 'Mylène Demongeot',
+      },
+      {
+        name: 'Françoise Christophe',
+      },
+      {
+        name: 'André Dumas',
+      },
+      {
+        name: 'Antoine Baud',
+      },
+      {
+        name: 'Dominique Zardi',
+      },
+    ],
     coverUrl: '/movies_pictures/cc7146465fe3.jpg',
     releaseDate: '1967-06-15',
     length: 90,
@@ -573,7 +1147,29 @@ export const baseMoviesPage2: BaseMovie[] = [
   {
     title: 'Les Grandes Vacances',
     director: 'Jean Girault',
-    actors: [{ name: 'Louis de Funès' }],
+    actors: [
+      {
+        name: 'Louis de Funès',
+      },
+      {
+        name: 'Claude Gensac',
+      },
+      {
+        name: 'Silvia Dionisio',
+      },
+      {
+        name: 'Ferdy Mayne',
+      },
+      {
+        name: 'Olivier de Funès',
+      },
+      {
+        name: 'Maurice Risch',
+      },
+      {
+        name: 'Jacques Dynam',
+      },
+    ],
     coverUrl: '/movies_pictures/ff581892f807.jpg',
     releaseDate: '1967-06-15',
     length: 90,
@@ -587,7 +1183,29 @@ export const baseMoviesPage2: BaseMovie[] = [
   {
     title: 'Le Petit Baigneur',
     director: 'Robert Dhéry',
-    actors: [{ name: 'Louis de Funès' }],
+    actors: [
+      {
+        name: 'Louis de Funès',
+      },
+      {
+        name: 'Franco Fabrizi',
+      },
+      {
+        name: 'Michel Galabru',
+      },
+      {
+        name: 'Pierre Dac',
+      },
+      {
+        name: 'Pierre Tchernia',
+      },
+      {
+        name: 'Andréa Parisy',
+      },
+      {
+        name: 'Robert Dhéry',
+      },
+    ],
     coverUrl: '/movies_pictures/4b9dd005abfd.jpg',
     releaseDate: '1968-06-15',
     length: 90,
@@ -601,7 +1219,29 @@ export const baseMoviesPage2: BaseMovie[] = [
   {
     title: 'Le Tatoué',
     director: 'Denys de La Patellière',
-    actors: [{ name: 'Louis de Funès' }],
+    actors: [
+      {
+        name: 'Louis de Funès',
+      },
+      {
+        name: 'Jean Gabin',
+      },
+      {
+        name: 'Jean-Pierre Darras',
+      },
+      {
+        name: 'Lyne Chardonnet',
+      },
+      {
+        name: 'Michel Tureau',
+      },
+      {
+        name: 'Patrick Préjean',
+      },
+      {
+        name: 'Henri Virlogeux',
+      },
+    ],
     coverUrl: '/movies_pictures/cfef8c6f52fb.jpg',
     releaseDate: '1968-06-15',
     length: 90,
@@ -615,7 +1255,29 @@ export const baseMoviesPage2: BaseMovie[] = [
   {
     title: 'Le gendarme se marie',
     director: 'Jean Girault',
-    actors: [{ name: 'Louis de Funès' }],
+    actors: [
+      {
+        name: 'Louis de Funès',
+      },
+      {
+        name: 'Michel Galabru',
+      },
+      {
+        name: 'Claude Gensac',
+      },
+      {
+        name: 'Geneviève Grad',
+      },
+      {
+        name: 'Jean Lefebvre',
+      },
+      {
+        name: 'Christian Marin',
+      },
+      {
+        name: 'Bernard Lavalette',
+      },
+    ],
     coverUrl: '/movies_pictures/d8d0e2193a72.jpg',
     releaseDate: '1968-06-15',
     length: 90,
@@ -629,7 +1291,29 @@ export const baseMoviesPage2: BaseMovie[] = [
   {
     title: 'Hibernatus',
     director: 'Édouard Molinaro',
-    actors: [{ name: 'Louis de Funès' }],
+    actors: [
+      {
+        name: 'Louis de Funès',
+      },
+      {
+        name: 'Claude Gensac',
+      },
+      {
+        name: 'Michael Lonsdale',
+      },
+      {
+        name: 'Bernard Alane',
+      },
+      {
+        name: 'Olivier de Funès',
+      },
+      {
+        name: 'Claude Piéplu',
+      },
+      {
+        name: 'Paul Préboist',
+      },
+    ],
     coverUrl: '/movies_pictures/dfb617447e93.jpg',
     releaseDate: '1969-06-15',
     length: 90,
@@ -643,7 +1327,29 @@ export const baseMoviesPage2: BaseMovie[] = [
   {
     title: "L'Homme orchestre",
     director: 'Serge Korber',
-    actors: [{ name: 'Louis de Funès' }],
+    actors: [
+      {
+        name: 'Louis de Funès',
+      },
+      {
+        name: 'Olivier de Funès',
+      },
+      {
+        name: 'Paul Préboist',
+      },
+      {
+        name: 'Noëlle Adam',
+      },
+      {
+        name: 'Danielle Minazzoli',
+      },
+      {
+        name: 'Franco Fabrizi',
+      },
+      {
+        name: 'Franco Volpi',
+      },
+    ],
     coverUrl: '/movies_pictures/bfe97bd45dd1.jpg',
     releaseDate: '1970-06-15',
     length: 90,
@@ -657,7 +1363,29 @@ export const baseMoviesPage2: BaseMovie[] = [
   {
     title: 'Le Gendarme en balade',
     director: 'Jean Girault',
-    actors: [{ name: 'Louis de Funès' }],
+    actors: [
+      {
+        name: 'Louis de Funès',
+      },
+      {
+        name: 'Michel Galabru',
+      },
+      {
+        name: 'Claude Gensac',
+      },
+      {
+        name: 'Sara Franchetti',
+      },
+      {
+        name: 'Ugo Fangareggi',
+      },
+      {
+        name: 'Jean Lefebvre',
+      },
+      {
+        name: 'Christian Marin',
+      },
+    ],
     coverUrl: '/movies_pictures/8299ce4eaf25.jpg',
     releaseDate: '1970-06-15',
     length: 90,
@@ -671,7 +1399,29 @@ export const baseMoviesPage2: BaseMovie[] = [
   {
     title: 'Sur un arbre perché',
     director: 'Serge Korber',
-    actors: [{ name: 'Louis de Funès' }],
+    actors: [
+      {
+        name: 'Louis de Funès',
+      },
+      {
+        name: 'Geraldine Chaplin',
+      },
+      {
+        name: 'Franco Volpi',
+      },
+      {
+        name: 'Olivier de Funès',
+      },
+      {
+        name: 'Alice Sapritch',
+      },
+      {
+        name: 'Paul Préboist',
+      },
+      {
+        name: 'Hans Meyer',
+      },
+    ],
     coverUrl: '/movies_pictures/b220e77daa73.jpg',
     releaseDate: '1971-06-15',
     length: 90,
@@ -699,7 +1449,29 @@ export const baseMoviesPage2: BaseMovie[] = [
   {
     title: 'La Zizanie',
     director: 'Claude Zidi',
-    actors: [{ name: 'Louis de Funès' }],
+    actors: [
+      {
+        name: 'Louis de Funès',
+      },
+      {
+        name: 'Annie Girardot',
+      },
+      {
+        name: 'André Badin',
+      },
+      {
+        name: 'Daniel Boulanger',
+      },
+      {
+        name: 'Éric Vasberg',
+      },
+      {
+        name: 'Geneviève Fontanel',
+      },
+      {
+        name: 'Georges Staquet',
+      },
+    ],
     coverUrl: '/movies_pictures/eafe0386bec4.jpg',
     releaseDate: '1978-06-15',
     length: 90,
@@ -713,7 +1485,29 @@ export const baseMoviesPage2: BaseMovie[] = [
   {
     title: 'Le Gendarme et les Extra-terrestres',
     director: 'Jean Girault',
-    actors: [{ name: 'Louis de Funès' }],
+    actors: [
+      {
+        name: 'Louis de Funès',
+      },
+      {
+        name: 'Michel Galabru',
+      },
+      {
+        name: 'Maurice Risch',
+      },
+      {
+        name: 'France Rumilly',
+      },
+      {
+        name: 'Guy Grosso',
+      },
+      {
+        name: 'Michel Modo',
+      },
+      {
+        name: 'Jacques François',
+      },
+    ],
     coverUrl: '/movies_pictures/e3971432900d.jpg',
     releaseDate: '1979-06-15',
     length: 90,
@@ -727,7 +1521,29 @@ export const baseMoviesPage2: BaseMovie[] = [
   {
     title: 'L’Avare',
     director: 'Jean Girault',
-    actors: [{ name: 'Louis de Funès' }],
+    actors: [
+      {
+        name: 'Louis de Funès',
+      },
+      {
+        name: 'Michel Galabru',
+      },
+      {
+        name: 'Claude Gensac',
+      },
+      {
+        name: 'Bernard Menez',
+      },
+      {
+        name: 'Anne Caudry',
+      },
+      {
+        name: 'Gaëlle Legrand',
+      },
+      {
+        name: 'Georges Audoubert',
+      },
+    ],
     coverUrl: '/movies_pictures/3fff49c774c6.jpg',
     releaseDate: '1980-06-15',
     length: 90,
@@ -741,7 +1557,29 @@ export const baseMoviesPage2: BaseMovie[] = [
   {
     title: 'Le Gendarme et les Gendarmettes',
     director: 'Jean Girault, Tony Aboyantz',
-    actors: [{ name: 'Louis de Funès' }],
+    actors: [
+      {
+        name: 'Louis de Funès',
+      },
+      {
+        name: 'Michel Galabru',
+      },
+      {
+        name: 'Claude Gensac',
+      },
+      {
+        name: 'Maurice Risch',
+      },
+      {
+        name: 'Guy Grosso',
+      },
+      {
+        name: 'Michel Modo',
+      },
+      {
+        name: 'Patrick Préjean',
+      },
+    ],
     coverUrl: '/movies_pictures/c31090a58cca.jpg',
     releaseDate: '1982-06-15',
     length: 90,
@@ -755,7 +1593,29 @@ export const baseMoviesPage2: BaseMovie[] = [
   {
     title: 'Le Gendarme de Saint-Tropez',
     director: 'Jean Girault',
-    actors: [{ name: 'Louis de Funès' }],
+    actors: [
+      {
+        name: 'Louis de Funès',
+      },
+      {
+        name: 'Michel Galabru',
+      },
+      {
+        name: 'Jean Lefebvre',
+      },
+      {
+        name: 'Christian Marin',
+      },
+      {
+        name: 'Guy Grosso',
+      },
+      {
+        name: 'Michel Modo',
+      },
+      {
+        name: 'Claude Piéplu',
+      },
+    ],
     coverUrl:
       '/movies_pictures/49168-le-gendarme-de-saint-tropez-0-150-0-225-crop.jpg',
     releaseDate: '1964-09-09',
@@ -770,7 +1630,29 @@ export const baseMoviesPage2: BaseMovie[] = [
   {
     title: 'Les oiseaux',
     director: 'Alfred Hitchcock',
-    actors: [{ name: 'Tippi Hedren' }],
+    actors: [
+      {
+        name: 'Rod Taylor',
+      },
+      {
+        name: 'Jessica Tandy',
+      },
+      {
+        name: 'Suzanne Pleshette',
+      },
+      {
+        name: 'Tippi Hedren',
+      },
+      {
+        name: 'Veronica Cartwright',
+      },
+      {
+        name: 'Charles McGraw',
+      },
+      {
+        name: 'Ruth McDevitt',
+      },
+    ],
     coverUrl: '/movies_pictures/51549-the-birds-0-150-0-225-crop.jpg',
     releaseDate: '1963-03-28',
     length: 119,
@@ -784,7 +1666,29 @@ export const baseMoviesPage2: BaseMovie[] = [
   {
     title: 'Psychose',
     director: 'Alfred Hitchcock',
-    actors: [{ name: 'Anthony Perkins' }],
+    actors: [
+      {
+        name: 'John Gavin',
+      },
+      {
+        name: 'Martin Balsam',
+      },
+      {
+        name: 'John McIntire',
+      },
+      {
+        name: 'Simon Oakland',
+      },
+      {
+        name: 'Vaughn Taylor',
+      },
+      {
+        name: 'Frank Albertson',
+      },
+      {
+        name: 'Lurene Tuttle',
+      },
+    ],
     coverUrl: '/movies_pictures/51578-psycho-0-150-0-225-crop.jpg',
     releaseDate: '1960-06-16',
     length: 109,
@@ -800,7 +1704,25 @@ export const baseMoviesPage2: BaseMovie[] = [
     director: 'Sidney Lumet',
     actors: [
       {
-        name: 'Henry Fonda',
+        name: 'Martin Balsam',
+      },
+      {
+        name: 'John Fiedler',
+      },
+      {
+        name: 'Lee J. Cobb',
+      },
+      {
+        name: 'E. G. Marshall',
+      },
+      {
+        name: 'Jack Klugman',
+      },
+      {
+        name: 'Ed Binns',
+      },
+      {
+        name: 'Jack Warden',
       },
     ],
     coverUrl: '/movies_pictures/51700-12-angry-men-0-150-0-225-crop.jpg',
@@ -816,7 +1738,29 @@ export const baseMoviesPage2: BaseMovie[] = [
   {
     title: 'Citizen Kane',
     director: 'Orson Welles',
-    actors: [{ name: 'Orson Welles' }],
+    actors: [
+      {
+        name: 'Orson Welles',
+      },
+      {
+        name: 'Joseph Cotten',
+      },
+      {
+        name: 'Ruth Warrick',
+      },
+      {
+        name: 'Everett Sloane',
+      },
+      {
+        name: 'William Alland',
+      },
+      {
+        name: 'Paul Stewart',
+      },
+      {
+        name: 'George Coulouris',
+      },
+    ],
     coverUrl: '/movies_pictures/2702-citizen-kane-0-150-0-225-crop.jpg',
     releaseDate: '1941-05-01',
     length: 119,
@@ -844,7 +1788,29 @@ export const baseMoviesPage2: BaseMovie[] = [
   {
     title: 'Babylon A.D',
     director: 'Mathieu Kassovitz',
-    actors: [{ name: 'Vin Diesel' }],
+    actors: [
+      {
+        name: 'Vin Diesel',
+      },
+      {
+        name: 'Michelle Yeoh',
+      },
+      {
+        name: 'Mélanie Thierry',
+      },
+      {
+        name: 'Gérard Depardieu',
+      },
+      {
+        name: 'Charlotte Rampling',
+      },
+      {
+        name: 'Lambert Wilson',
+      },
+      {
+        name: 'Mark Strong',
+      },
+    ],
     coverUrl:
       '/movies_pictures/3YXtGZ0jKHhh2bhqr0lu8qefKLr-0-1000-0-1500-crop.jpg',
     releaseDate: '2008-02-05',
@@ -896,7 +1862,26 @@ export const baseMoviesPage2: BaseMovie[] = [
   {
     title: 'Jackie chan dans le bronx',
     director: 'Stanley Tong Gwai-Lai',
-    actors: [{ name: 'Jackie Chan' }],
+    actors: [
+      {
+        name: 'Jackie Chan',
+      },
+      {
+        name: 'Anita Mui',
+      },
+      {
+        name: 'Françoise Yip',
+      },
+      {
+        name: 'Bill Tung',
+      },
+      {
+        name: 'Garvin Cross',
+      },
+      {
+        name: 'Marc Akerstream',
+      },
+    ],
     coverUrl:
       '/movies_pictures/y7AxKPPCtZyrGQKvxzn5zTQ8wFm-0-1000-0-1500-crop.jpg',
     releaseDate: '1995-02-05',
@@ -911,7 +1896,29 @@ export const baseMoviesPage2: BaseMovie[] = [
   {
     title: 'Minority Report',
     director: 'Steven Spielberg',
-    actors: [{ name: 'Tom Cruise' }],
+    actors: [
+      {
+        name: 'Tom Cruise',
+      },
+      {
+        name: 'Colin Farrell',
+      },
+      {
+        name: 'Samantha Morton',
+      },
+      {
+        name: 'Max von Sydow',
+      },
+      {
+        name: 'Patrick Kilpatrick',
+      },
+      {
+        name: 'Lois Smith',
+      },
+      {
+        name: 'Peter Stormare',
+      },
+    ],
     coverUrl: '/movies_pictures/minority_report.jpg',
     releaseDate: '2002-06-21',
     length: 145,
@@ -925,7 +1932,29 @@ export const baseMoviesPage2: BaseMovie[] = [
   {
     title: 'La guerre des mondes',
     director: 'Steven Spielberg',
-    actors: [{ name: 'Tom Cruise' }],
+    actors: [
+      {
+        name: 'Tom Cruise',
+      },
+      {
+        name: 'Dakota Fanning',
+      },
+      {
+        name: 'Justin Chatwin',
+      },
+      {
+        name: 'Miranda Otto',
+      },
+      {
+        name: 'Tim Robbins',
+      },
+      {
+        name: 'Rick Gonzalez',
+      },
+      {
+        name: 'Lenny Venito',
+      },
+    ],
     coverUrl: '/movies_pictures/war_of_the_worlds.jpg',
     releaseDate: '2005-06-29',
     length: 117,
@@ -987,6 +2016,21 @@ export const baseMoviesPage2: BaseMovie[] = [
       {
         name: 'Matt Damon',
       },
+      {
+        name: 'Edward Burns',
+      },
+      {
+        name: 'Tom Sizemore',
+      },
+      {
+        name: 'Jeremy Davies',
+      },
+      {
+        name: 'Adam Goldberg',
+      },
+      {
+        name: 'Barry Pepper',
+      },
     ],
     coverUrl: '/movies_pictures/GE9WD.jpg',
     releaseDate: '1998-07-24',
@@ -1004,6 +2048,24 @@ export const baseMoviesPage2: BaseMovie[] = [
     actors: [
       {
         name: 'Tom Hanks',
+      },
+      {
+        name: 'Mark Rylance',
+      },
+      {
+        name: 'Amy Ryan',
+      },
+      {
+        name: 'Alan Alda',
+      },
+      {
+        name: 'Billy Magnussen',
+      },
+      {
+        name: 'Eve Hewson',
+      },
+      {
+        name: 'Austin Stowell',
       },
     ],
     coverUrl: '/movies_pictures/160047.jpg',
@@ -1023,6 +2085,24 @@ export const baseMoviesPage2: BaseMovie[] = [
       {
         name: 'Tom Hanks',
       },
+      {
+        name: 'Meryl Streep',
+      },
+      {
+        name: 'Sarah Paulson',
+      },
+      {
+        name: 'Bob Odenkirk',
+      },
+      {
+        name: 'Tracy Letts',
+      },
+      {
+        name: 'Bradley Whitford',
+      },
+      {
+        name: 'Bruce Greenwood',
+      },
     ],
     coverUrl: '/movies_pictures/4821419.webp',
     releaseDate: '2017-12-22',
@@ -1037,7 +2117,29 @@ export const baseMoviesPage2: BaseMovie[] = [
   {
     title: 'Empire du soleil',
     director: 'Steven Spielberg',
-    actors: [{ name: 'Christian Bale' }, { name: 'John Malkovich' }],
+    actors: [
+      {
+        name: 'Christian Bale',
+      },
+      {
+        name: 'John Malkovich',
+      },
+      {
+        name: 'Miranda Richardson',
+      },
+      {
+        name: 'Nigel Havers',
+      },
+      {
+        name: 'Joe Pantoliano',
+      },
+      {
+        name: 'Leslie Phillips',
+      },
+      {
+        name: 'Ben Stiller',
+      },
+    ],
     coverUrl: '/movies_pictures/empire-du-soleil-affiche-2.webp',
     releaseDate: '1987-12-25',
     length: 153,
@@ -1098,10 +2200,25 @@ export const baseMoviesPage2: BaseMovie[] = [
     director: 'Steven Spielberg',
     actors: [
       {
+        name: 'Ansel Elgort',
+      },
+      {
         name: 'Rachel Zegler',
       },
       {
-        name: 'Ansel Elgort',
+        name: 'Corey Stoll',
+      },
+      {
+        name: 'Brian d\'Arcy James',
+      },
+      {
+        name: 'Rita Moreno',
+      },
+      {
+        name: 'Ariana DeBose',
+      },
+      {
+        name: 'David Alvarez',
       },
     ],
     coverUrl: '/movies_pictures/2324146.jpg',
@@ -1121,7 +2238,29 @@ export const baseMoviesPage2: BaseMovie[] = [
   {
     title: "Tintin et le Mystère de la Toison d'or",
     director: 'Jean-Jacques Vierne',
-    actors: [{ name: 'Jean-Pierre Talbot' }, { name: 'Georges Wilson' }],
+    actors: [
+      {
+        name: 'Jean-Pierre Talbot',
+      },
+      {
+        name: 'Georges Wilson',
+      },
+      {
+        name: 'Charles Vanel',
+      },
+      {
+        name: 'Marcel Bozzuffi',
+      },
+      {
+        name: 'Serge Marquand',
+      },
+      {
+        name: 'Dario Moreno',
+      },
+      {
+        name: 'Guy-Henry',
+      },
+    ],
     coverUrl: '/movies_pictures/96c7a5930867.jpg',
     releaseDate: '1961-12-06',
     length: 104,
@@ -1139,7 +2278,29 @@ export const baseMoviesPage2: BaseMovie[] = [
   {
     title: 'Tintin et les Oranges bleues',
     director: 'Philippe Condroyer',
-    actors: [{ name: 'Jean-Pierre Talbot' }, { name: 'Félix Fernández' }],
+    actors: [
+      {
+        name: 'Félix Fernández',
+      },
+      {
+        name: 'Ángel Álvarez',
+      },
+      {
+        name: 'Jean-Pierre Zola',
+      },
+      {
+        name: 'Barta Barri',
+      },
+      {
+        name: 'Jesús Tordesillas',
+      },
+      {
+        name: 'Jean-Pierre Talbot',
+      },
+      {
+        name: 'Jean Bouise',
+      },
+    ],
     coverUrl: '/movies_pictures/0199d4e4-8d24-7bff-993d-82fc1597fe30.jpg',
     releaseDate: '1964-12-18',
     length: 105,
@@ -1175,7 +2336,29 @@ export const baseMoviesPage2: BaseMovie[] = [
   {
     title: 'A.I. Intelligence artificielle',
     director: 'Steven Spielberg',
-    actors: [{ name: 'Haley Joel Osment' }, { name: 'Jude Law' }],
+    actors: [
+      {
+        name: 'Haley Joel Osment',
+      },
+      {
+        name: 'Jude Law',
+      },
+      {
+        name: 'Frances O\'Connor',
+      },
+      {
+        name: 'Brendan Gleeson',
+      },
+      {
+        name: 'William Hurt',
+      },
+      {
+        name: 'Sam Robards',
+      },
+      {
+        name: 'Jake Thomas',
+      },
+    ],
     coverUrl: '/movies_pictures/69216449_af.webp',
     releaseDate: '2001-06-29',
     length: 146,
@@ -1189,7 +2372,29 @@ export const baseMoviesPage2: BaseMovie[] = [
   {
     title: 'Hook ou la Revanche du capitaine Crochet',
     director: 'Steven Spielberg',
-    actors: [{ name: 'Robin Williams' }, { name: 'Dustin Hoffman' }],
+    actors: [
+      {
+        name: 'Dustin Hoffman',
+      },
+      {
+        name: 'Robin Williams',
+      },
+      {
+        name: 'Julia Roberts',
+      },
+      {
+        name: 'Bob Hoskins',
+      },
+      {
+        name: 'Maggie Smith',
+      },
+      {
+        name: 'Charlie Korsmo',
+      },
+      {
+        name: 'Caroline Goodall',
+      },
+    ],
     coverUrl: '/movies_pictures/435872.jpg',
     releaseDate: '1991-12-11',
     length: 142,
@@ -1275,7 +2480,29 @@ export const baseMoviesPage2: BaseMovie[] = [
   {
     title: 'E.T. the Extra-Terrestrial',
     director: 'Steven Spielberg',
-    actors: [{ name: 'Henry Thomas' }],
+    actors: [
+      {
+        name: 'Dee Wallace',
+      },
+      {
+        name: 'Peter Coyote',
+      },
+      {
+        name: 'Henry Thomas',
+      },
+      {
+        name: 'Drew Barrymore',
+      },
+      {
+        name: 'Erika Eleniak',
+      },
+      {
+        name: 'C. Thomas Howell',
+      },
+      {
+        name: 'Sean Frye',
+      },
+    ],
     coverUrl:
       '/movies_pictures/51520-e-t-the-extra-terrestrial-0-150-0-225-crop.jpg',
     releaseDate: '1982-06-11',
@@ -1371,7 +2598,29 @@ export const baseMoviesPage2: BaseMovie[] = [
   {
     title: "Les Aventures d'Arsène Lupin",
     director: 'Jacques Becker',
-    actors: [{ name: 'Robert Lamoureux' }, { name: 'Lydia Lamaison' }],
+    actors: [
+      {
+        name: 'Robert Lamoureux',
+      },
+      {
+        name: 'Alain Janey',
+      },
+      {
+        name: 'Alexandre Mihalesco',
+      },
+      {
+        name: 'Antoine Baud',
+      },
+      {
+        name: 'Charles Bouillaud',
+      },
+      {
+        name: 'Daniel Ceccaldi',
+      },
+      {
+        name: 'Édouard Francomme',
+      },
+    ],
     coverUrl: '/movies_pictures/e10c79144da3.jpg',
     releaseDate: '1957-11-04',
     length: 100,
@@ -1389,7 +2638,29 @@ export const baseMoviesPage2: BaseMovie[] = [
   {
     title: 'Signé Arsène Lupin',
     director: 'Yves Robert',
-    actors: [{ name: 'Robert Lamoureux' }, { name: 'Micheline Luccioni' }],
+    actors: [
+      {
+        name: 'Alida Valli',
+      },
+      {
+        name: 'Claude Mercutio',
+      },
+      {
+        name: 'Gabriel Gobin',
+      },
+      {
+        name: 'Gérard Darrieu',
+      },
+      {
+        name: 'Ginette Pigeon',
+      },
+      {
+        name: 'Gisèle Grandpré',
+      },
+      {
+        name: 'Harold Kay',
+      },
+    ],
     coverUrl: '/movies_pictures/466ff98ddefe.jpg',
     releaseDate: '1959-11-04',
     length: 100,
@@ -1407,7 +2678,29 @@ export const baseMoviesPage2: BaseMovie[] = [
   {
     title: 'The Terminal',
     director: 'Steven Spielberg',
-    actors: [{ name: 'Tom Hanks' }, { name: 'Zoe Saldana' }],
+    actors: [
+      {
+        name: 'Tom Hanks',
+      },
+      {
+        name: 'Catherine Zeta-Jones',
+      },
+      {
+        name: 'Stanley Tucci',
+      },
+      {
+        name: 'Barry Shabaka Henley',
+      },
+      {
+        name: 'Kumar Pallana',
+      },
+      {
+        name: 'Diego Luna',
+      },
+      {
+        name: 'Chi McBride',
+      },
+    ],
     coverUrl: '/movies_pictures/51527-the-terminal-0-150-0-225-crop.jpg',
     releaseDate: '2004-06-18',
     length: 128,
@@ -1423,7 +2716,25 @@ export const baseMoviesPage2: BaseMovie[] = [
     director: 'Steven Spielberg',
     actors: [
       {
+        name: 'Olivia Cooke',
+      },
+      {
+        name: 'Ben Mendelsohn',
+      },
+      {
+        name: 'T.J. Miller',
+      },
+      {
         name: 'Tye Sheridan',
+      },
+      {
+        name: 'Mark Rylance',
+      },
+      {
+        name: 'Lena Waithe',
+      },
+      {
+        name: 'Simon Pegg',
       },
     ],
     coverUrl: '/movies_pictures/261866-ready-player-one-0-150-0-225-crop.jpg',
@@ -1443,7 +2754,29 @@ export const baseMoviesPage2: BaseMovie[] = [
   {
     title: 'Calculs Meurtriers',
     director: 'Barbet Schroeder',
-    actors: [{ name: 'Sandra Bullock' }],
+    actors: [
+      {
+        name: 'Sandra Bullock',
+      },
+      {
+        name: 'Ben Chaplin',
+      },
+      {
+        name: 'Ryan Gosling',
+      },
+      {
+        name: 'Michael Pitt',
+      },
+      {
+        name: 'Agnes Bruckner',
+      },
+      {
+        name: 'Chris Penn',
+      },
+      {
+        name: 'Brian Stepanek',
+      },
+    ],
     coverUrl: '/movies_pictures/44914-murder-by-numbers-0-150-0-225-crop.jpg',
     releaseDate: '2002-04-19',
     length: 120,
@@ -1478,7 +2811,29 @@ export const baseMoviesPage2: BaseMovie[] = [
   {
     title: 'Rollerball',
     director: 'John McTiernan',
-    actors: [{ name: 'Chris Klein' }],
+    actors: [
+      {
+        name: 'Chris Klein',
+      },
+      {
+        name: 'Jean Reno',
+      },
+      {
+        name: 'LL Cool J',
+      },
+      {
+        name: 'Rebecca Romijn',
+      },
+      {
+        name: 'Naveen Andrews',
+      },
+      {
+        name: 'Oleg Taktarov',
+      },
+      {
+        name: 'Paul Heyman',
+      },
+    ],
     coverUrl: '/movies_pictures/45213-rollerball-0-150-0-225-crop.jpg',
     releaseDate: '2002-02-08',
     length: 98,
@@ -1492,7 +2847,29 @@ export const baseMoviesPage2: BaseMovie[] = [
   {
     title: 'Dommage Collateral',
     director: 'Andrew Davis',
-    actors: [{ name: 'Arnold Schwarzenegger' }],
+    actors: [
+      {
+        name: 'Arnold Schwarzenegger',
+      },
+      {
+        name: 'Francesca Neri',
+      },
+      {
+        name: 'Elias Koteas',
+      },
+      {
+        name: 'Cliff Curtis',
+      },
+      {
+        name: 'John Leguizamo',
+      },
+      {
+        name: 'John Turturro',
+      },
+      {
+        name: 'Jsu Garcia',
+      },
+    ],
     coverUrl: '/movies_pictures/46749-collateral-damage-0-150-0-225-crop.jpg',
     releaseDate: '2002-02-08',
     length: 108,
@@ -1506,7 +2883,29 @@ export const baseMoviesPage2: BaseMovie[] = [
   {
     title: 'Astérix et Obélix contre César',
     director: 'Claude Zidi',
-    actors: [{ name: 'Gérard Depardieu' }],
+    actors: [
+      {
+        name: 'Christian Clavier',
+      },
+      {
+        name: 'Gérard Depardieu',
+      },
+      {
+        name: 'Roberto Benigni',
+      },
+      {
+        name: 'Michel Galabru',
+      },
+      {
+        name: 'Claude Piéplu',
+      },
+      {
+        name: 'Daniel Prévost',
+      },
+      {
+        name: 'Pierre Palmade',
+      },
+    ],
     coverUrl: '/movies_pictures/036676_af.jpg',
     releaseDate: '1999-01-30',
     length: 105,
@@ -1526,7 +2925,25 @@ export const baseMoviesPage2: BaseMovie[] = [
     director: 'Alain Chabat',
     actors: [
       {
+        name: 'Christian Clavier',
+      },
+      {
         name: 'Gérard Depardieu',
+      },
+      {
+        name: 'Jamel Debbouze',
+      },
+      {
+        name: 'Monica Bellucci',
+      },
+      {
+        name: 'Alain Chabat',
+      },
+      {
+        name: 'Claude Rich',
+      },
+      {
+        name: 'Pierre Tchernia',
       },
     ],
     coverUrl:
@@ -1603,7 +3020,29 @@ export const baseMoviesPage2: BaseMovie[] = [
   {
     title: "L'Associé du diable",
     director: 'Taylor Hackford',
-    actors: [{ name: 'Keanu Reeves' }],
+    actors: [
+      {
+        name: 'Keanu Reeves',
+      },
+      {
+        name: 'Al Pacino',
+      },
+      {
+        name: 'Charlize Theron',
+      },
+      {
+        name: 'Jeffrey Jones',
+      },
+      {
+        name: 'Judith Ivey',
+      },
+      {
+        name: 'Connie Nielsen',
+      },
+      {
+        name: 'Craig T. Nelson',
+      },
+    ],
     coverUrl:
       '/movies_pictures/50780-the-devil-s-advocate-0-150-0-225-crop.jpg',
     releaseDate: '1997-10-17',
@@ -1622,6 +3061,24 @@ export const baseMoviesPage2: BaseMovie[] = [
       {
         name: 'Bruce Willis',
       },
+      {
+        name: 'Gary Oldman',
+      },
+      {
+        name: 'Milla Jovovich',
+      },
+      {
+        name: 'Chris Tucker',
+      },
+      {
+        name: 'Ian Holm',
+      },
+      {
+        name: 'Tricky',
+      },
+      {
+        name: 'Lee Evans',
+      },
     ],
     coverUrl: '/movies_pictures/the_fifth_element.jpg',
     releaseDate: '1997-05-07',
@@ -1636,7 +3093,29 @@ export const baseMoviesPage2: BaseMovie[] = [
   {
     title: 'American Beauty',
     director: 'Sam Mendes',
-    actors: [{ name: 'Kevin Spacey' }],
+    actors: [
+      {
+        name: 'Kevin Spacey',
+      },
+      {
+        name: 'Annette Bening',
+      },
+      {
+        name: 'Thora Birch',
+      },
+      {
+        name: 'Wes Bentley',
+      },
+      {
+        name: 'Mena Suvari',
+      },
+      {
+        name: 'Chris Cooper',
+      },
+      {
+        name: 'Peter Gallagher',
+      },
+    ],
     coverUrl: '/movies_pictures/2703-american-beauty-0-150-0-225-crop.jpg',
     releaseDate: '1999-09-15',
     length: 122,
@@ -1650,7 +3129,29 @@ export const baseMoviesPage2: BaseMovie[] = [
   {
     title: 'Sixième Sens',
     director: 'M. Night Shyamalan',
-    actors: [{ name: 'Bruce Willis' }],
+    actors: [
+      {
+        name: 'Bruce Willis',
+      },
+      {
+        name: 'Haley Joel Osment',
+      },
+      {
+        name: 'Toni Collette',
+      },
+      {
+        name: 'Olivia Williams',
+      },
+      {
+        name: 'Donnie Wahlberg',
+      },
+      {
+        name: 'Peter Anthony Tambakis',
+      },
+      {
+        name: 'Mischa Barton',
+      },
+    ],
     coverUrl: '/movies_pictures/51407-the-sixth-sense-0-150-0-225-crop.jpg',
     releaseDate: '1999-08-06',
     length: 107,
@@ -1664,7 +3165,29 @@ export const baseMoviesPage2: BaseMovie[] = [
   {
     title: 'Wild Wild West',
     director: 'Barry Sonnenfeld',
-    actors: [{ name: 'Will Smith' }],
+    actors: [
+      {
+        name: 'Will Smith',
+      },
+      {
+        name: 'Kevin Kline',
+      },
+      {
+        name: 'Kenneth Branagh',
+      },
+      {
+        name: 'Salma Hayek',
+      },
+      {
+        name: 'M. Emmet Walsh',
+      },
+      {
+        name: 'Musetta Vander',
+      },
+      {
+        name: 'Bai Ling',
+      },
+    ],
     coverUrl: '/movies_pictures/wild_wild_west.jpg',
     releaseDate: '1999-06-30',
     length: 106,
@@ -1700,7 +3223,29 @@ export const baseMoviesPage2: BaseMovie[] = [
   {
     title: 'Armageddon',
     director: 'Michael Bay',
-    actors: [{ name: 'Bruce Willis' }],
+    actors: [
+      {
+        name: 'Bruce Willis',
+      },
+      {
+        name: 'Steve Buscemi',
+      },
+      {
+        name: 'Liv Tyler',
+      },
+      {
+        name: 'Billy Bob Thornton',
+      },
+      {
+        name: 'Will Patton',
+      },
+      {
+        name: 'Keith David',
+      },
+      {
+        name: 'Ben Affleck',
+      },
+    ],
     coverUrl: '/movies_pictures/51955-armageddon-0-150-0-225-crop.jpg',
     releaseDate: '1998-07-01',
     length: 151,
@@ -1714,7 +3259,29 @@ export const baseMoviesPage2: BaseMovie[] = [
   {
     title: 'The Truman Show',
     director: 'Peter Weir',
-    actors: [{ name: 'Jim Carrey' }],
+    actors: [
+      {
+        name: 'Jim Carrey',
+      },
+      {
+        name: 'Ed Harris',
+      },
+      {
+        name: 'Laura Linney',
+      },
+      {
+        name: 'Noah Emmerich',
+      },
+      {
+        name: 'Natascha McElhone',
+      },
+      {
+        name: 'Holland Taylor',
+      },
+      {
+        name: 'Brian Delate',
+      },
+    ],
     coverUrl: '/movies_pictures/the-truman-show-0-150-0-225-crop.jpg',
     releaseDate: '1998-06-05',
     length: 103,
@@ -1732,6 +3299,24 @@ export const baseMoviesPage2: BaseMovie[] = [
       {
         name: 'Matthew Broderick',
       },
+      {
+        name: 'Jean Reno',
+      },
+      {
+        name: 'Maria Pitillo',
+      },
+      {
+        name: 'Hank Azaria',
+      },
+      {
+        name: 'Kevin Dunn',
+      },
+      {
+        name: 'Michael Lerner',
+      },
+      {
+        name: 'Harry Shearer',
+      },
     ],
     coverUrl: '/movies_pictures/51224-godzilla-0-150-0-225-crop.jpg',
     releaseDate: '1998-05-20',
@@ -1746,7 +3331,29 @@ export const baseMoviesPage2: BaseMovie[] = [
   {
     title: 'Mon voisin le tueur',
     director: 'Jonathan Lynn',
-    actors: [{ name: 'Bruce Willis' }],
+    actors: [
+      {
+        name: 'Bruce Willis',
+      },
+      {
+        name: 'Matthew Perry',
+      },
+      {
+        name: 'Rosanna Arquette',
+      },
+      {
+        name: 'Michael Clarke Duncan',
+      },
+      {
+        name: 'Natasha Henstridge',
+      },
+      {
+        name: 'Amanda Peet',
+      },
+      {
+        name: 'Kevin Pollak',
+      },
+    ],
     coverUrl:
       '/movies_pictures/50554-the-whole-nine-yards-0-150-0-225-crop.jpg',
     releaseDate: '2000-02-18',
@@ -1764,6 +3371,24 @@ export const baseMoviesPage2: BaseMovie[] = [
     actors: [
       {
         name: 'Tom Hanks',
+      },
+      {
+        name: 'David Morse',
+      },
+      {
+        name: 'Bonnie Hunt',
+      },
+      {
+        name: 'Michael Clarke Duncan',
+      },
+      {
+        name: 'James Cromwell',
+      },
+      {
+        name: 'Michael Jeter',
+      },
+      {
+        name: 'Doug Hutchison',
       },
     ],
     coverUrl: '/movies_pictures/51613-the-green-mile-0-150-0-225-crop.jpg',
@@ -1790,6 +3415,21 @@ export const baseMoviesPage2: BaseMovie[] = [
       {
         name: 'Jaden Smith',
       },
+      {
+        name: 'Thandiwe Newton',
+      },
+      {
+        name: 'Dan Castellaneta',
+      },
+      {
+        name: 'Kurt Fuller',
+      },
+      {
+        name: 'Brian Howe',
+      },
+      {
+        name: 'Adam Baldwin',
+      },
     ],
     coverUrl:
       '/movies_pictures/51061-the-pursuit-of-happyness-0-150-0-225-crop.jpg',
@@ -1805,7 +3445,29 @@ export const baseMoviesPage2: BaseMovie[] = [
   {
     title: 'Hors de Prix',
     director: 'Pierre Salvadori',
-    actors: [{ name: 'Audrey Tautou' }],
+    actors: [
+      {
+        name: 'Gad Elmaleh',
+      },
+      {
+        name: 'Audrey Tautou',
+      },
+      {
+        name: 'Marie-Christine Adam',
+      },
+      {
+        name: 'Vernon Dobtcheff',
+      },
+      {
+        name: 'Annelise Hesme',
+      },
+      {
+        name: 'Blandine Pélissier',
+      },
+      {
+        name: 'Didier Brice',
+      },
+    ],
     coverUrl: '/movies_pictures/48206-priceless-0-150-0-225-crop.jpg',
     releaseDate: '2006-12-27',
     length: 104,
@@ -1819,7 +3481,29 @@ export const baseMoviesPage2: BaseMovie[] = [
   {
     title: '300',
     director: 'Zack Snyder',
-    actors: [{ name: 'Gerard Butler' }],
+    actors: [
+      {
+        name: 'Gerard Butler',
+      },
+      {
+        name: 'Dominic West',
+      },
+      {
+        name: 'Rodrigo Santoro',
+      },
+      {
+        name: 'Andrew Pleavin',
+      },
+      {
+        name: 'Andrew Tiernan',
+      },
+      {
+        name: 'David Francis',
+      },
+      {
+        name: 'David Wenham',
+      },
+    ],
     coverUrl: '/movies_pictures/51111-300-0-150-0-225-crop.jpg',
     releaseDate: '2007-03-09',
     length: 117,
@@ -1939,7 +3623,29 @@ export const baseMoviesPage2: BaseMovie[] = [
   {
     title: "Le Diable s'Habille en Prada",
     director: 'David Frankel',
-    actors: [{ name: 'Anne Hathaway' }, { name: 'Meryl Streep' }],
+    actors: [
+      {
+        name: 'Meryl Streep',
+      },
+      {
+        name: 'Anne Hathaway',
+      },
+      {
+        name: 'Emily Blunt',
+      },
+      {
+        name: 'Stanley Tucci',
+      },
+      {
+        name: 'Simon Baker',
+      },
+      {
+        name: 'Adrian Grenier',
+      },
+      {
+        name: 'Tracie Thoms',
+      },
+    ],
     coverUrl:
       '/movies_pictures/51712-the-devil-wears-prada-0-150-0-225-crop.jpg',
     releaseDate: '2006-06-30',
@@ -1954,7 +3660,29 @@ export const baseMoviesPage2: BaseMovie[] = [
   {
     title: 'Babel',
     director: 'Alejandro González Iñárritu',
-    actors: [{ name: 'Brad Pitt' }],
+    actors: [
+      {
+        name: 'Brad Pitt',
+      },
+      {
+        name: 'Cate Blanchett',
+      },
+      {
+        name: 'Adriana Barraza',
+      },
+      {
+        name: 'Gael García Bernal',
+      },
+      {
+        name: 'Rinko Kikuchi',
+      },
+      {
+        name: 'Kōji Yakusho',
+      },
+      {
+        name: 'Elle Fanning',
+      },
+    ],
     coverUrl: '/movies_pictures/51140-babel-0-150-0-225-crop.jpg',
     releaseDate: '2006-11-10',
     length: 143,
@@ -1982,7 +3710,29 @@ export const baseMoviesPage2: BaseMovie[] = [
   {
     title: 'Da Vinci Code',
     director: 'Ron Howard',
-    actors: [{ name: 'Tom Hanks' }],
+    actors: [
+      {
+        name: 'Tom Hanks',
+      },
+      {
+        name: 'Audrey Tautou',
+      },
+      {
+        name: 'Ian McKellen',
+      },
+      {
+        name: 'Paul Bettany',
+      },
+      {
+        name: 'Jean Reno',
+      },
+      {
+        name: 'Alfred Molina',
+      },
+      {
+        name: 'Jean-Pierre Marielle',
+      },
+    ],
     coverUrl: '/movies_pictures/da_vinci_code.jpg',
     releaseDate: '2006-05-19',
     length: 149,
@@ -2000,7 +3750,29 @@ export const baseMoviesPage2: BaseMovie[] = [
   {
     title: 'Camping',
     director: 'Fabien Onteniente',
-    actors: [{ name: 'Gérard Lanvin' }],
+    actors: [
+      {
+        name: 'Abbes Zahmani',
+      },
+      {
+        name: 'Antoine Duléry',
+      },
+      {
+        name: 'Ari Vatanen',
+      },
+      {
+        name: 'Armonie Sanders',
+      },
+      {
+        name: 'Béatrice Costantini',
+      },
+      {
+        name: 'Bernard Montiel',
+      },
+      {
+        name: 'Christine Citti',
+      },
+    ],
     coverUrl: '/movies_pictures/44197-camping-0-150-0-225-crop.jpg',
     releaseDate: '2006-04-26',
     length: 111,
@@ -2014,7 +3786,29 @@ export const baseMoviesPage2: BaseMovie[] = [
   {
     title: 'Volver',
     director: 'Pedro Almodóvar',
-    actors: [{ name: 'Penélope Cruz' }],
+    actors: [
+      {
+        name: 'Penélope Cruz',
+      },
+      {
+        name: 'Carmen Maura',
+      },
+      {
+        name: 'Lola Dueñas',
+      },
+      {
+        name: 'Blanca Portillo',
+      },
+      {
+        name: 'Chus Lampreave',
+      },
+      {
+        name: 'Yohana Cobo',
+      },
+      {
+        name: 'Antonio de la Torre',
+      },
+    ],
     coverUrl: '/movies_pictures/51837-volver-0-150-0-225-crop.jpg',
     releaseDate: '2006-03-17',
     length: 121,
@@ -2028,7 +3822,29 @@ export const baseMoviesPage2: BaseMovie[] = [
   {
     title: 'Incontrôlable',
     director: 'Raffy Shart',
-    actors: [{ name: 'Kad Merad' }],
+    actors: [
+      {
+        name: 'Arsène Mosca',
+      },
+      {
+        name: 'Benjamin Morgaine',
+      },
+      {
+        name: 'Christophe Fluder',
+      },
+      {
+        name: 'Cyrielle Clair',
+      },
+      {
+        name: 'Delphine Chanéac',
+      },
+      {
+        name: 'Éric Le Roch',
+      },
+      {
+        name: 'Françoise Bertin',
+      },
+    ],
     coverUrl: '/movies_pictures/43655-incontrolable-0-150-0-225-crop.jpg',
     releaseDate: '2006-02-01',
     length: 90,
@@ -2042,7 +3858,29 @@ export const baseMoviesPage2: BaseMovie[] = [
   {
     title: 'V pour Vendetta',
     director: 'James McTeigue',
-    actors: [{ name: 'Hugo Weaving' }, { name: 'Natalie Portman' }],
+    actors: [
+      {
+        name: 'Hugo Weaving',
+      },
+      {
+        name: 'Natalie Portman',
+      },
+      {
+        name: 'Stephen Rea',
+      },
+      {
+        name: 'John Hurt',
+      },
+      {
+        name: 'Stephen Fry',
+      },
+      {
+        name: 'Rupert Graves',
+      },
+      {
+        name: 'Roger Allam',
+      },
+    ],
     coverUrl: '/movies_pictures/51400-v-for-vendetta-0-150-0-225-crop.jpg',
     releaseDate: '2006-03-17',
     length: 132,
@@ -2074,7 +3912,29 @@ export const baseMoviesPage2: BaseMovie[] = [
   {
     title: 'Nanny McPhee',
     director: 'Kirk Jones',
-    actors: [{ name: 'Emma Thompson' }],
+    actors: [
+      {
+        name: 'Colin Firth',
+      },
+      {
+        name: 'Kelly Macdonald',
+      },
+      {
+        name: 'Derek Jacobi',
+      },
+      {
+        name: 'Patrick Barlow',
+      },
+      {
+        name: 'Celia Imrie',
+      },
+      {
+        name: 'Imelda Staunton',
+      },
+      {
+        name: 'Thomas Sangster',
+      },
+    ],
     coverUrl: '/movies_pictures/45448-nanny-mcphee-0-150-0-225-crop.jpg',
     releaseDate: '2005-10-21',
     length: 97,
@@ -2088,7 +3948,29 @@ export const baseMoviesPage2: BaseMovie[] = [
   {
     title: 'Lord of War',
     director: 'Andrew Niccol',
-    actors: [{ name: 'Nicolas Cage' }],
+    actors: [
+      {
+        name: 'Nicolas Cage',
+      },
+      {
+        name: 'Jared Leto',
+      },
+      {
+        name: 'Bridget Moynahan',
+      },
+      {
+        name: 'Ian Holm',
+      },
+      {
+        name: 'Ethan Hawke',
+      },
+      {
+        name: 'Eamonn Walker',
+      },
+      {
+        name: 'Tanit Phoenix',
+      },
+    ],
     coverUrl: '/movies_pictures/50769-lord-of-war-0-150-0-225-crop.jpg',
     releaseDate: '2005-09-16',
     length: 122,
@@ -2102,7 +3984,29 @@ export const baseMoviesPage2: BaseMovie[] = [
   {
     title: 'Serenity',
     director: 'Joss Whedon',
-    actors: [{ name: 'Nathan Fillion' }],
+    actors: [
+      {
+        name: 'Nathan Fillion',
+      },
+      {
+        name: 'Gina Torres',
+      },
+      {
+        name: 'Alan Tudyk',
+      },
+      {
+        name: 'Morena Baccarin',
+      },
+      {
+        name: 'Adam Baldwin',
+      },
+      {
+        name: 'Jewel Staite',
+      },
+      {
+        name: 'Sean Maher',
+      },
+    ],
     coverUrl: '/movies_pictures/serenity-0-150-0-225-crop.jpg',
     releaseDate: '2005-09-30',
     length: 119,
@@ -2116,7 +4020,29 @@ export const baseMoviesPage2: BaseMovie[] = [
   {
     title: "L'honneur du dragon",
     director: 'Prachya Pinkaew',
-    actors: [{ name: 'Tony Jaa' }],
+    actors: [
+      {
+        name: 'Tony Jaa',
+      },
+      {
+        name: 'Lateef Crowder',
+      },
+      {
+        name: 'Nathan Jones',
+      },
+      {
+        name: 'Jon Foo',
+      },
+      {
+        name: 'Petchtai Wongkamlao',
+      },
+      {
+        name: 'Bongkoj Khongmalai',
+      },
+      {
+        name: 'Jin Xing',
+      },
+    ],
     coverUrl: '/movies_pictures/47454-the-protector-0-150-0-225-crop.jpg',
     releaseDate: '2005-08-11',
     length: 111,
@@ -2186,7 +4112,29 @@ export const baseMoviesPage2: BaseMovie[] = [
   {
     title: 'Charlie et la Chocolaterie',
     director: 'Tim Burton',
-    actors: [{ name: 'Johnny Depp' }],
+    actors: [
+      {
+        name: 'Freddie Highmore',
+      },
+      {
+        name: 'Johnny Depp',
+      },
+      {
+        name: 'David Kelly',
+      },
+      {
+        name: 'Helena Bonham Carter',
+      },
+      {
+        name: 'Noah Taylor',
+      },
+      {
+        name: 'AnnaSophia Robb',
+      },
+      {
+        name: 'Missi Pyle',
+      },
+    ],
     coverUrl:
       '/movies_pictures/51932-charlie-and-the-chocolate-factory-0-150-0-225-crop.jpg',
     releaseDate: '2005-07-15',
@@ -2205,7 +4153,29 @@ export const baseMoviesPage2: BaseMovie[] = [
   {
     title: 'Mr. & Mrs. Smith',
     director: 'Doug Liman',
-    actors: [{ name: 'Brad Pitt' }],
+    actors: [
+      {
+        name: 'Angelina Jolie',
+      },
+      {
+        name: 'Brad Pitt',
+      },
+      {
+        name: 'Vince Vaughn',
+      },
+      {
+        name: 'Kerry Washington',
+      },
+      {
+        name: 'Adam Brody',
+      },
+      {
+        name: 'Keith David',
+      },
+      {
+        name: 'Chris Weitz',
+      },
+    ],
     coverUrl: '/movies_pictures/51365-mr-mrs-smith-0-150-0-225-crop.jpg',
     releaseDate: '2005-06-10',
     length: 120,
@@ -2219,7 +4189,29 @@ export const baseMoviesPage2: BaseMovie[] = [
   {
     title: 'The Descent',
     director: 'Neil Marshall',
-    actors: [{ name: 'Shauna Macdonald' }],
+    actors: [
+      {
+        name: 'Shauna Macdonald',
+      },
+      {
+        name: 'Natalie Mendoza',
+      },
+      {
+        name: 'Alex Reid',
+      },
+      {
+        name: 'Saskia Mulder',
+      },
+      {
+        name: 'MyAnna Buring',
+      },
+      {
+        name: 'Nora-Jane Noone',
+      },
+      {
+        name: 'Oliver Milburn',
+      },
+    ],
     coverUrl: '/movies_pictures/47204-the-descent-0-150-0-225-crop.jpg',
     releaseDate: '2005-07-08',
     length: 99,
@@ -2233,7 +4225,29 @@ export const baseMoviesPage2: BaseMovie[] = [
   {
     title: 'Baby Sittor',
     director: 'Adam Shankman',
-    actors: [{ name: 'Vin Diesel' }],
+    actors: [
+      {
+        name: 'Vin Diesel',
+      },
+      {
+        name: 'Lauren Graham',
+      },
+      {
+        name: 'Faith Ford',
+      },
+      {
+        name: 'Brittany Snow',
+      },
+      {
+        name: 'Morgan York',
+      },
+      {
+        name: 'Max Thieriot',
+      },
+      {
+        name: 'Carol Kane',
+      },
+    ],
     coverUrl: '/movies_pictures/46620-the-pacifier-0-150-0-225-crop.jpg',
     releaseDate: '2005-03-04',
     length: 95,
@@ -2283,6 +4297,24 @@ export const baseMoviesPage2: BaseMovie[] = [
       {
         name: 'Jim Carrey',
       },
+      {
+        name: 'Peter Riegert',
+      },
+      {
+        name: 'Peter Greene',
+      },
+      {
+        name: 'Amy Yasbeck',
+      },
+      {
+        name: 'Orestes Matacena',
+      },
+      {
+        name: 'Ben Stein',
+      },
+      {
+        name: 'Blake Clark',
+      },
     ],
     coverUrl: '/movies_pictures/51298-the-mask-0-150-0-225-crop.jpg',
     releaseDate: '1994-07-29',
@@ -2301,7 +4333,29 @@ export const baseMoviesPage2: BaseMovie[] = [
   {
     title: 'True Lies',
     director: 'James Cameron',
-    actors: [{ name: 'Arnold Schwarzenegger' }, { name: 'Jamie Lee Curtis' }],
+    actors: [
+      {
+        name: 'Arnold Schwarzenegger',
+      },
+      {
+        name: 'Charlton Heston',
+      },
+      {
+        name: 'Jamie Lee Curtis',
+      },
+      {
+        name: 'Bill Paxton',
+      },
+      {
+        name: 'Eliza Dushku',
+      },
+      {
+        name: 'Tia Carrere',
+      },
+      {
+        name: 'Tom Arnold',
+      },
+    ],
     coverUrl: '/movies_pictures/true_lies.jpg',
     releaseDate: '1994-07-15',
     length: 141,
@@ -2315,7 +4369,29 @@ export const baseMoviesPage2: BaseMovie[] = [
   {
     title: 'Forrest Gump',
     director: 'Robert Zemeckis',
-    actors: [{ name: 'Tom Hanks' }],
+    actors: [
+      {
+        name: 'Tom Hanks',
+      },
+      {
+        name: 'Gary Sinise',
+      },
+      {
+        name: 'Sally Field',
+      },
+      {
+        name: 'Robin Wright',
+      },
+      {
+        name: 'Mykelti Williamson',
+      },
+      {
+        name: 'Haley Joel Osment',
+      },
+      {
+        name: 'Hanna R. Hall',
+      },
+    ],
     coverUrl: '/movies_pictures/2704-forrest-gump-0-150-0-225-crop.jpg',
     releaseDate: '1994-07-06',
     length: 142,
@@ -2329,7 +4405,29 @@ export const baseMoviesPage2: BaseMovie[] = [
   {
     title: 'Speed',
     director: 'Jan de Bont',
-    actors: [{ name: 'Keanu Reeves' }, { name: 'Sandra Bullock' }],
+    actors: [
+      {
+        name: 'Keanu Reeves',
+      },
+      {
+        name: 'Dennis Hopper',
+      },
+      {
+        name: 'Sandra Bullock',
+      },
+      {
+        name: 'Joe Morton',
+      },
+      {
+        name: 'Jeff Daniels',
+      },
+      {
+        name: 'Alan Ruck',
+      },
+      {
+        name: 'Glenn E. Plummer',
+      },
+    ],
     coverUrl: '/movies_pictures/50904-speed-0-150-0-225-crop.jpg',
     releaseDate: '1994-06-10',
     length: 116,
@@ -2395,7 +4493,29 @@ export const baseMoviesPage2: BaseMovie[] = [
   {
     title: 'Mrs. Doubtfire',
     director: 'Chris Columbus',
-    actors: [{ name: 'Robin Williams' }],
+    actors: [
+      {
+        name: 'Robin Williams',
+      },
+      {
+        name: 'Sally Field',
+      },
+      {
+        name: 'Lisa Jakub',
+      },
+      {
+        name: 'Matthew Lawrence',
+      },
+      {
+        name: 'Mara Wilson',
+      },
+      {
+        name: 'Pierce Brosnan',
+      },
+      {
+        name: 'Harvey Fierstein',
+      },
+    ],
     coverUrl: '/movies_pictures/51364-mrs-doubtfire-0-150-0-225-crop.jpg',
     releaseDate: '1993-11-24',
     length: 125,
@@ -2409,7 +4529,29 @@ export const baseMoviesPage2: BaseMovie[] = [
   {
     title: 'Le Dîner de Cons',
     director: 'Francis Veber',
-    actors: [{ name: 'Thierry Lhermitte' }, { name: 'Jacques Villeret' }],
+    actors: [
+      {
+        name: 'Jacques Villeret',
+      },
+      {
+        name: 'Thierry Lhermitte',
+      },
+      {
+        name: 'Francis Huster',
+      },
+      {
+        name: 'Alexandra Vandernoot',
+      },
+      {
+        name: 'Daniel Prévost',
+      },
+      {
+        name: 'Bernard Alane',
+      },
+      {
+        name: 'Candide Sanchez',
+      },
+    ],
     coverUrl: '/movies_pictures/47176-the-dinner-game-0-150-0-225-crop.jpg',
     releaseDate: '1998-04-15',
     length: 80,
@@ -2423,7 +4565,29 @@ export const baseMoviesPage2: BaseMovie[] = [
   {
     title: 'Code mercury',
     director: 'Harold Becker',
-    actors: [{ name: 'Bruce Willis' }],
+    actors: [
+      {
+        name: 'Bruce Willis',
+      },
+      {
+        name: 'Alec Baldwin',
+      },
+      {
+        name: 'Miko Hughes',
+      },
+      {
+        name: 'Chi McBride',
+      },
+      {
+        name: 'Kim Dickens',
+      },
+      {
+        name: 'John Carroll Lynch',
+      },
+      {
+        name: 'Peter Stormare',
+      },
+    ],
     coverUrl: '/movies_pictures/47583-mercury-rising-0-150-0-225-crop.jpg',
     releaseDate: '1998-04-03',
     length: 111,
@@ -2437,7 +4601,29 @@ export const baseMoviesPage2: BaseMovie[] = [
   {
     title: 'The Big Lebowski',
     director: 'Joel Coen, Ethan Coen',
-    actors: [{ name: 'Jeff Bridges' }],
+    actors: [
+      {
+        name: 'Julianne Moore',
+      },
+      {
+        name: 'Steve Buscemi',
+      },
+      {
+        name: 'Jeff Bridges',
+      },
+      {
+        name: 'John Goodman',
+      },
+      {
+        name: 'John Turturro',
+      },
+      {
+        name: 'David Huddleston',
+      },
+      {
+        name: 'Philip Seymour Hoffman',
+      },
+    ],
     coverUrl: '/movies_pictures/51935-the-big-lebowski-0-150-0-225-crop.jpg',
     releaseDate: '1998-03-06',
     length: 117,
@@ -2451,7 +4637,29 @@ export const baseMoviesPage2: BaseMovie[] = [
   {
     title: 'Will Hunting',
     director: 'Gus Van Sant',
-    actors: [{ name: 'Matt Damon' }, { name: 'Robin Williams' }],
+    actors: [
+      {
+        name: 'Matt Damon',
+      },
+      {
+        name: 'Robin Williams',
+      },
+      {
+        name: 'Ben Affleck',
+      },
+      {
+        name: 'Minnie Driver',
+      },
+      {
+        name: 'Stellan Skarsgård',
+      },
+      {
+        name: 'Casey Affleck',
+      },
+      {
+        name: 'Cole Hauser',
+      },
+    ],
     coverUrl: '/movies_pictures/51621-good-will-hunting-0-150-0-225-crop.jpg',
     releaseDate: '1997-12-05',
     length: 126,
@@ -2480,7 +4688,29 @@ export const baseMoviesPage2: BaseMovie[] = [
   {
     title: 'Need for Speed',
     director: 'Scott Waugh',
-    actors: [{ name: 'Aaron Paul' }, { name: 'Dominic Cooper' }],
+    actors: [
+      {
+        name: 'Aaron Paul',
+      },
+      {
+        name: 'Imogen Poots',
+      },
+      {
+        name: 'Dominic Cooper',
+      },
+      {
+        name: 'Kid Cudi',
+      },
+      {
+        name: 'Rami Malek',
+      },
+      {
+        name: 'Michael Keaton',
+      },
+      {
+        name: 'Dakota Johnson',
+      },
+    ],
     coverUrl: '/movies_pictures/b02e3a35607f.jpg',
     releaseDate: '2014-03-14',
     length: 132,

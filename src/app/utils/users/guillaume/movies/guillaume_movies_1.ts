@@ -2627,4 +2627,21 @@ export const guillaumeMoviesPage1: UserMovies = [
     borrowed: "",
     loaned: "",
   },
+
+  {
+    title: "Trop loin pour toi",
+    director: "Nanette Burstein",
+    rating: 3.25,
+    timesWatched: 1,
+    firstViewedDate: "2026-04-24",
+    lastViewedDate: "2026-04-24",
+    seenAtCinema: false,
+    owned: false,
+    wantToSeeAgain: false,
+    watchPriority: 1,
+    ratingComment: "",
+    inList: [],
+    borrowed: "",
+    loaned: "",
+  },
 ];

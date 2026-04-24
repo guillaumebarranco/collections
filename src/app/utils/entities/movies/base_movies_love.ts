@@ -47,18 +47,18 @@ export const baseMoviesLove: BaseMovie[] = [
     director: 'Claire Scanlon',
     actors: [
       {
-        name: "Zoey Deutch",
+        name: 'Zoey Deutch',
       },
       {
-        name: "Glenn Powell",
-      }
+        name: 'Glenn Powell',
+      },
     ],
-    coverUrl: "/movies_pictures/319550-set-it-up-0-150-0-225-crop.jpg",
-    releaseDate: "2018-06-15",
+    coverUrl: '/movies_pictures/319550-set-it-up-0-150-0-225-crop.jpg',
+    releaseDate: '2018-06-15',
     length: 105,
     genre: ['Romance'],
-    saga: "",
-    description: "",
+    saga: '',
+    description: '',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -166,6 +166,30 @@ export const baseMoviesLove: BaseMovie[] = [
     releaseDate: '2026-01-09',
     length: 118,
     genre: ['Romance'],
+    saga: '',
+    description: '',
+    fromEntity: null,
+    countryOrigin: ['États-Unis'],
+    selectDisplayOrder: 0,
+  },
+  {
+    title: 'Trop loin pour toi',
+    director: 'Nanette Burstein',
+    actors: [
+      {
+        name: 'Drew Barrymore',
+      },
+      {
+        name: 'Justin Long',
+      },
+      {
+        name: 'Charlie Day',
+      },
+    ],
+    coverUrl: '/movies_pictures/19488091.jpg',
+    releaseDate: '2010-08-27',
+    length: 102,
+    genre: ['Comédie', 'Romance'],
     saga: '',
     description: '',
     fromEntity: null,
