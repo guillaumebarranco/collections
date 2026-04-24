@@ -410,7 +410,11 @@ export const baseMoviesPage7: BaseMovie[] = [
     genre: ['Thriller'],
     saga: '',
     description: '',
-    fromEntity: null,
+    fromEntity: {
+      entityType: 'book',
+      title: 'Le diable tout le temps',
+      secondEntityKey: 'Donald Ray Pollock',
+    },
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
   },

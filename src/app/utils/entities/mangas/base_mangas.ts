@@ -1873,7 +1873,7 @@ export const baseMangas: BaseManga[] = [
     title: 'Lastman',
     author: 'Bastien Vivès, Balak, Michaël Sanlaville',
     coverUrl:
-      'https://www.manga-news.com/public/images/series/.last-man-1-casterman_large.webp',
+      '/mangas_pictures/44411e50422d.webp',
     genre: 'Seinen',
     nbTomes: 12,
     isFinished: true,

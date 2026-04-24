@@ -30,6 +30,7 @@ type EditComicForm = {
   borrowed: string;
   loaned: string;
   wantToReadAgain: boolean;
+  readPriority: number;
   ratingComment: string;
 };
 
@@ -146,7 +147,7 @@ export class EditComicComponent {
     if (!current) return;
 
     let nextValue: EditComicForm[K] = value as EditComicForm[K];
-    if (field === 'rating' || field === 'readTimes') {
+    if (field === 'rating' || field === 'readTimes' || field === 'readPriority') {
       const asNumber = Number(value);
       nextValue = (Number.isNaN(asNumber) ? 0 : asNumber) as EditComicForm[K];
     }
@@ -241,6 +242,10 @@ export class EditComicComponent {
           borrowed: form.borrowed,
           loaned: form.loaned,
           wantToReadAgain: form.wantToReadAgain,
+          readPriority: Math.min(
+            3,
+            Math.max(1, Math.round(Number(form.readPriority) || 1))
+          ),
           ratingComment: form.ratingComment ?? '',
           entity: this.isAdminView()
             ? this.toEntityPayload(this.comicEntityForm())
@@ -434,6 +439,7 @@ export class EditComicComponent {
       borrowed: comic.borrowed ?? '',
       loaned: comic.loaned ?? '',
       wantToReadAgain: comic.wantToReadAgain ?? false,
+      readPriority: comic.readPriority ?? 1,
       ratingComment: comic.ratingComment ?? '',
     };
   }

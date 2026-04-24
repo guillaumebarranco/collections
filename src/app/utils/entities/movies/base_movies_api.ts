@@ -1301,7 +1301,7 @@ export const baseMoviesApi: BaseMovie[] = [
       { name: 'Christopher Walken' },
     ],
     coverUrl:
-      'https://i.pathehome.com/product/fr/phf-norud2p1b0/7c6e7c-clicktelecommandezvotrevie_v_fr.png?auto=format,compress',
+      '/movies_pictures/3e3c38d14aae.png',
     releaseDate: '2006-09-13',
     length: 107,
     genre: ['Comédie', 'Fantastique'],
@@ -1321,7 +1321,7 @@ export const baseMoviesApi: BaseMovie[] = [
       { name: 'Robert Shaw' },
     ],
     coverUrl:
-      'https://media.senscritique.com/media/000019188970/300/l_arnaque.jpg',
+      '/movies_pictures/a1678f33bc5c.jpg',
     releaseDate: '1974-03-22',
     length: 129,
     genre: ['Comédie', 'Policier'],
@@ -1341,7 +1341,7 @@ export const baseMoviesApi: BaseMovie[] = [
       { name: 'Ken Davitian' },
     ],
     coverUrl:
-      'https://fr.web.img6.acsta.net/c_310_420/medias/nmedia/18/65/42/74/18951912.jpg',
+      '/movies_pictures/a0e6edfd41f9.jpg',
     releaseDate: '2008-07-16',
     length: 84,
     genre: ['Comédie', 'Peplum'],
@@ -1361,7 +1361,7 @@ export const baseMoviesApi: BaseMovie[] = [
       { name: 'Jennifer Coolidge' },
     ],
     coverUrl:
-      'https://fr.web.img6.acsta.net/medias/nmedia/18/63/76/92/18752477.jpg',
+      '/movies_pictures/8c2325a93d5a.jpg',
     releaseDate: '2007-03-28',
     length: 86,
     genre: ['Comédie'],
@@ -1381,7 +1381,7 @@ export const baseMoviesApi: BaseMovie[] = [
       { name: 'Shelley Winters' },
     ],
     coverUrl:
-      'https://fr.web.img3.acsta.net/medias/nmedia/18/35/90/91/19037281.jpg',
+      '/movies_pictures/b3a7ab994cc0.jpg',
     releaseDate: '1962-09-28',
     length: 153,
     genre: ['Drame', 'Romance'],
@@ -1401,7 +1401,7 @@ export const baseMoviesApi: BaseMovie[] = [
       { name: 'Jean Simmons' },
     ],
     coverUrl:
-      'https://upload.wikimedia.org/wikipedia/commons/c/ce/Spartacus_-_1960_-_poster.png',
+      '/movies_pictures/35289c768937.png',
     releaseDate: '1960-10-19',
     length: 197,
     genre: ['Peplum', 'Historique', 'Action'],
@@ -1421,7 +1421,7 @@ export const baseMoviesApi: BaseMovie[] = [
       { name: 'Sterling Hayden' },
     ],
     coverUrl:
-      'https://fr.web.img3.acsta.net/medias/nmedia/18/35/24/12/18376604.jpg',
+      '/movies_pictures/987087c8814f.jpg',
     releaseDate: '1964-03-11',
     length: 94,
     genre: ['Comédie', 'Guerre'],

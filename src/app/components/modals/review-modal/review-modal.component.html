@@ -27,7 +27,10 @@
     </div>
     <div class="review-modal__comment">
       @if (data.ratingComment.trim()) {
-      <p class="review-modal__comment-text">{{ data.ratingComment }}</p>
+      <p
+        class="review-modal__comment-text"
+        [innerHTML]="data.ratingComment"
+      ></p>
       } @else {
       <p class="review-modal__comment-empty">Aucun commentaire</p>
       }

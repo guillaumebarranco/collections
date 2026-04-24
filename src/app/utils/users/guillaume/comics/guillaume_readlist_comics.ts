@@ -21,10 +21,10 @@ export const guillaumeReadListComics: UserComics = [
     rating: 0,
     readTimes: 1,
     owned: false,
-    readPriority: 3,
+    readPriority: 1,
     wantToReadAgain: false,
     ratingComment: "",
-    borrowed: "",
+    borrowed: "Ronan",
     loaned: "",
   },
   {
@@ -50,7 +50,7 @@ export const guillaumeReadListComics: UserComics = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: "",
-    borrowed: "",
+    borrowed: "Ronan",
     loaned: "",
   },
   {

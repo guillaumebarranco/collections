@@ -146,7 +146,7 @@
     <div class="comic-card">
       <app-comic
         [comic]="comic"
-        [readOnly]="selectedView() === 'readlist'"
+        [readOnly]="isComicCardReadOnlyForCurrentView()"
         [isReadlistView]="selectedView() === 'readlist'"
         [selectedView]="selectedView()"
         [showTopFiveSelector]="showTopFiveRank()"

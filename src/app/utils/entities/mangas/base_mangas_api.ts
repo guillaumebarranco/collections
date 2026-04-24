@@ -159,7 +159,7 @@ export const baseMangasApi: BaseManga[] = [
     title: 'Monster Hunter Orage',
     author: 'Hiro Mashima',
     coverUrl:
-      'https://cdn.cultura.com/cdn-cgi/image/width=830/media/pim/TITELIVE/21_9782811618322_1_75.jpg',
+      '/mangas_pictures/e3f96c7bdf6a.jpg',
     genre: 'Shonen',
     nbTomes: 4,
     isFinished: true,

@@ -685,6 +685,12 @@ export class ComicsComponent implements OnInit {
     );
   }
 
+  /** Readlist : lecture seule seulement sur le profil d’un autre (sur le sien, édition autorisée via *appCanEdit). */
+  isComicCardReadOnlyForCurrentView(): boolean {
+    if (this.selectedView() !== 'readlist') return false;
+    return !this.authService.canEdit(this.getActiveUserId());
+  }
+
   canShowAddToMyReadlist(): boolean {
     return this.isViewingOtherProfile();
   }

@@ -7616,7 +7616,11 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     genre: ['Thriller'],
     saga: '',
     description: '',
-    fromEntity: null,
+    fromEntity: {
+      entityType: 'book',
+      title: 'American Psycho',
+      secondEntityKey: 'Bret Easton Ellis',
+    },
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 30,
   },
