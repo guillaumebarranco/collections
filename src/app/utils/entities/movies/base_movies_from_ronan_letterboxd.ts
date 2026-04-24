@@ -4294,6 +4294,12 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
       {
         name: 'Christoph Waltz',
       },
+      {
+        name: 'Samuel L. Jackson',
+      },
+      {
+        name: 'Djimon Hounsou',
+      },
     ],
     coverUrl: '/movies_pictures/the_legend_of_tarzan.jpg',
     releaseDate: '2016-07-06',
