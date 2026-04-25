@@ -3874,7 +3874,7 @@ export const ronanMovies: UserMovies = [
     inList: [],
   },
   {
-    title: 'Ralph Breaks the Internet',
+    title: 'Ralph 2.0',
     director: 'Rich Moore, Phil Johnston',
     rating: 3,
     timesWatched: 3,
@@ -10355,7 +10355,7 @@ export const ronanMovies: UserMovies = [
     inList: [],
   },
   {
-    title: 'Underworld : Évolution',
+    title: 'Underworld 2 : Évolution',
     director: 'Len Wiseman',
     rating: 2.5,
     timesWatched: 1,
@@ -10675,7 +10675,7 @@ export const ronanMovies: UserMovies = [
     inList: [],
   },
   {
-    title: 'Bolt',
+    title: 'Volt, star malgré lui',
     director: 'Chris Williams, Byron Howard',
     rating: 3.5,
     timesWatched: 1,

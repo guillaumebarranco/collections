@@ -1652,7 +1652,7 @@ export const marinaMovies: UserMovie[] = [
     inList: [],
   },
   {
-    title: 'Ralph Breaks the Internet',
+    title: 'Ralph 2.0',
     director: 'Rich Moore, Phil Johnston',
     rating: 0,
     timesWatched: 1,
@@ -3125,7 +3125,7 @@ export const marinaMovies: UserMovie[] = [
     inList: [],
   },
   {
-    title: 'Bolt',
+    title: 'Volt, star malgré lui',
     director: 'Chris Williams, Byron Howard',
     rating: 0,
     timesWatched: 1,

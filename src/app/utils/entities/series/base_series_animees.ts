@@ -6275,8 +6275,7 @@ export const baseSeriesAnimees: BaseSerie[] = [
     title: 'Tara Duncan',
     director: 'Éric Bastier',
     actors: [{ name: 'Kelly Marot' }, { name: 'Benoît Allemane' }],
-    coverUrl:
-      '/series_pictures/0c546db85171.jpg',
+    coverUrl: '/series_pictures/0c546db85171.jpg',
     releaseDate: '2010-09-26',
     endDate: '2011-06-19',
     genre: ['Animation', 'Fantastique', 'Aventure'],
@@ -6402,10 +6401,10 @@ export const baseSeriesAnimees: BaseSerie[] = [
       },
     ],
     description:
-      'Trois courts métrages animés avec Selene, initialement diffusés avec Underworld : Éveil.',
+      'Trois courts métrages animés avec Selene, initialement diffusés avec Underworld 4 : Nouvelle ère.',
     fromEntity: {
       entityType: 'movie',
-      title: 'Underworld : Éveil',
+      title: 'Underworld 4 : Nouvelle ère',
       secondEntityKey: 'Måns Mårlind, Björn Stein',
     },
     saga: 'Underworld',

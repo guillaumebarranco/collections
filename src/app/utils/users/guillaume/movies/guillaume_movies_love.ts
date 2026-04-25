@@ -50,7 +50,7 @@ export const guillaumeMoviesLove: UserMovies = [
     inList: [],
   },
   {
-    title: 'The life list',
+    title: 'Demain est un autre jour',
     director: 'Liz W. Garcia',
     rating: 3.5,
     timesWatched: 1,

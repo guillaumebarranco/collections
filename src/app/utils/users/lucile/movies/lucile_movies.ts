@@ -2961,7 +2961,7 @@ export const lucileMovies: UserMovie[] = [
   },
 
   {
-    title: 'Bolt',
+    title: 'Volt, star malgré lui',
     director: 'Chris Williams, Byron Howard',
     rating: 0,
     timesWatched: 1,
@@ -6975,7 +6975,7 @@ export const lucileMovies: UserMovie[] = [
   },
 
   {
-    title: 'Kingdom of the Planet of the Apes',
+    title: 'La Planète des Singes : Le Nouveau Royaume',
     director: 'Wes Ball',
     rating: 0,
     timesWatched: 1,

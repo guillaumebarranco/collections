@@ -1105,7 +1105,8 @@ export const baseMoviesOtherSuperheroes: BaseMovie[] = [
         name: 'Charlie Heaton',
       },
     ],
-    coverUrl: '/movies_pictures/les_nouveaux_mutants.jpg',
+    coverUrl:
+      '/movies_pictures/21f12b26fab1.jpg',
     releaseDate: '2020-08-26',
     length: 94,
     genre: ['Action'],

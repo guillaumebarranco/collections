@@ -1666,7 +1666,7 @@ export const amandineMovies2: UserMovies = [
     inList: [],
   },
   {
-    title: 'Bolt',
+    title: 'Volt, star malgré lui',
     director: 'Chris Williams, Byron Howard',
     rating: 0,
     timesWatched: 1,

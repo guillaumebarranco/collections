@@ -2110,30 +2110,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 5,
   },
-  {
-    title: 'Shazam! La Rage des Dieux',
-    director: 'David F. Sandberg',
-    actors: [
-      {
-        name: 'Zachary Levi',
-      },
-      {
-        name: 'Asher Angel',
-      },
-      {
-        name: 'Jack Dylan Grazer',
-      },
-    ],
-    coverUrl: '/movies_pictures/shazam_la_rage_des_dieux.jpg',
-    releaseDate: '2023-03-29',
-    length: 130,
-    genre: ['Action'],
-    saga: 'DCEU',
-    description: '',
-    fromEntity: null,
-    countryOrigin: ['États-Unis'],
-    selectDisplayOrder: 5,
-  },
+
   {
     title: 'Knock at the Cabin',
     director: 'M. Night Shyamalan',
@@ -2669,30 +2646,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     countryOrigin: ['Norvège'],
     selectDisplayOrder: 5,
   },
-  {
-    title: 'The Suicide Squad',
-    director: 'James Gunn',
-    actors: [
-      {
-        name: 'Margot Robbie',
-      },
-      {
-        name: 'Idris Elba',
-      },
-      {
-        name: 'John Cena',
-      },
-    ],
-    coverUrl: '/movies_pictures/the_suicide_squad.jpg',
-    releaseDate: '2021-07-28',
-    length: 132,
-    genre: ['Action'],
-    saga: 'DCEU',
-    description: '',
-    fromEntity: null,
-    countryOrigin: ['États-Unis'],
-    selectDisplayOrder: 5,
-  },
+
   {
     title: 'Space Jam : Nouvelle Ère',
     director: 'Malcolm D. Lee',
@@ -6985,30 +6939,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 5,
   },
-  {
-    title: 'Les Fils du vent',
-    director: 'Julien Seri',
-    actors: [
-      {
-        name: 'Châu Belle Dinh',
-      },
-      {
-        name: 'Charles Perrière',
-      },
-      {
-        name: "Guylain N'Guba Boyeke",
-      },
-    ],
-    coverUrl: '/movies_pictures/the_great_challenge.jpg',
-    releaseDate: '2004-10-27',
-    length: 89,
-    genre: ['Action'],
-    saga: '',
-    description: '',
-    fromEntity: null,
-    countryOrigin: ['France'],
-    selectDisplayOrder: 5,
-  },
+
   {
     title: 'F.B.I. : Fausses blondes infiltrées',
     director: 'Keenen Ivory Wayans',
@@ -7725,30 +7656,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 5,
   },
-  {
-    title: 'George de la jungle',
-    director: 'Sam Weisman',
-    actors: [
-      {
-        name: 'Brendan Fraser',
-      },
-      {
-        name: 'Leslie Mann',
-      },
-      {
-        name: 'Thomas Haden Church',
-      },
-    ],
-    coverUrl: '/movies_pictures/george_of_the_jungle.jpg',
-    releaseDate: '1997-10-15',
-    length: 92,
-    genre: ['Comédie'],
-    saga: '',
-    description: '',
-    fromEntity: null,
-    countryOrigin: ['États-Unis'],
-    selectDisplayOrder: 5,
-  },
+
   {
     title: "Les Ailes de l'enfer",
     director: 'Simon West',

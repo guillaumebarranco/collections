@@ -1591,24 +1591,7 @@ export const baseMoviesPage8: BaseMovie[] = [
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
   },
-  {
-    title: 'Le Garçon et le héron',
-    director: 'Hayao Miyazaki',
-    actors: [
-      { name: 'Soma Santoki' },
-      { name: 'Masaki Suda' },
-      { name: 'Kô Shibasaki' },
-    ],
-    coverUrl: '/movies_pictures/2a73b849b82a.jpg',
-    releaseDate: '2023-12-08',
-    length: 124,
-    genre: ['Animation', 'Aventure', 'Drame'],
-    saga: '',
-    description: '',
-    fromEntity: null,
-    countryOrigin: ['Japon'],
-    selectDisplayOrder: 0,
-  },
+
   {
     title: 'Le Plus Beau des combats',
     director: 'Boaz Yakin',

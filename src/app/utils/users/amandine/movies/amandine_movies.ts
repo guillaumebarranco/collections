@@ -3236,7 +3236,7 @@ export const amandineMovies1: UserMovies = [
     inList: [],
   },
   {
-    title: 'Underworld : Évolution',
+    title: 'Underworld 2 : Évolution',
     director: 'Len Wiseman',
     rating: 0,
     timesWatched: 10,
@@ -3252,7 +3252,7 @@ export const amandineMovies1: UserMovies = [
     inList: [],
   },
   {
-    title: 'Underworld : Rise of the Lycans',
+    title: 'Underworld 3 : Le Soulèvement des Lycans',
     director: 'Patrick Tatopoulos',
     rating: 0,
     timesWatched: 5,
@@ -3268,7 +3268,7 @@ export const amandineMovies1: UserMovies = [
     inList: [],
   },
   {
-    title: 'Underworld : Éveil',
+    title: 'Underworld 4 : Nouvelle ère',
     director: 'Måns Mårlind, Björn Stein',
     rating: 0,
     timesWatched: 1,

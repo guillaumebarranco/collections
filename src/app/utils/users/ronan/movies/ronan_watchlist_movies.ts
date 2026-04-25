@@ -6530,7 +6530,7 @@ export const ronanWatchlistMovies: UserMovies = [
     inList: [],
   },
   {
-    title: 'Underworld : Rise of the Lycans',
+    title: 'Underworld 3 : Le Soulèvement des Lycans',
     director: 'Patrick Tatopoulos',
     rating: 0,
     timesWatched: 0,

@@ -2419,7 +2419,7 @@ export const ronanCinemaMovies: UserMovies = [
     inList: [],
   },
   {
-    title: 'Kingdom of the Planet of the Apes',
+    title: 'La Planète des Singes : Le Nouveau Royaume',
     director: 'Wes Ball',
     rating: 3.5,
     timesWatched: 1,
@@ -4804,7 +4804,7 @@ export const ronanCinemaMovies: UserMovies = [
     inList: [],
   },
   {
-    title: 'Underworld : Éveil',
+    title: 'Underworld 4 : Nouvelle ère',
     director: 'Måns Mårlind, Björn Stein',
     rating: 3, // Underworld: Awakening (2012) ★★★
     timesWatched: 1,

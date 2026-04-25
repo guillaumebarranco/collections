@@ -2082,7 +2082,7 @@ export const baseMoviesSagaPage1: BaseMovie[] = [
       },
     ],
     coverUrl:
-      '/movies_pictures/mF2bTqJuxbZPeEJRIMrA2WeQVxu-0-150-0-225-crop.jpg',
+      '/movies_pictures/01a59c0e4884.jpg',
     releaseDate: '1987-03-06',
     length: 110,
     genre: ['Action'],
@@ -2118,7 +2118,8 @@ export const baseMoviesSagaPage1: BaseMovie[] = [
         name: 'Jenette Goldstein',
       },
     ],
-    coverUrl: '/movies_pictures/51211-lethal-weapon-2-0-150-0-225-crop.jpg',
+    coverUrl:
+      '/movies_pictures/b82747c3fb60.jpg',
     releaseDate: '1989-07-07',
     length: 114,
     genre: ['Action'],
@@ -2154,7 +2155,8 @@ export const baseMoviesSagaPage1: BaseMovie[] = [
         name: 'Mark Pellegrino',
       },
     ],
-    coverUrl: '/movies_pictures/arme_fatale_3.jpg',
+    coverUrl:
+      '/movies_pictures/4dbcffbc7e4f.jpg',
     releaseDate: '1992-05-15',
     length: 118,
     genre: ['Action'],
@@ -2172,7 +2174,8 @@ export const baseMoviesSagaPage1: BaseMovie[] = [
       { name: 'Danny Glover' },
       { name: 'Jet Li' },
     ],
-    coverUrl: '/movies_pictures/51209-lethal-weapon-4-0-150-0-225-crop.jpg',
+    coverUrl:
+      '/movies_pictures/828182f084c3.jpg',
     releaseDate: '1998-07-10',
     length: 127,
     genre: ['Action'],
@@ -2697,8 +2700,7 @@ export const baseMoviesSagaPage1: BaseMovie[] = [
         name: 'Jacob Latimore',
       },
     ],
-    coverUrl:
-      '/movies_pictures/274122be9558.jpg',
+    coverUrl: '/movies_pictures/274122be9558.jpg',
     releaseDate: '2014-09-19',
     length: 113,
     genre: ['Action'],

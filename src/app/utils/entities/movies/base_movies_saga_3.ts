@@ -2336,7 +2336,8 @@ export const baseMoviesSagaPage3: BaseMovie[] = [
         name: 'Andy Serkis',
       },
     ],
-    coverUrl: '/movies_pictures/rise_of_the_planet_of_the_apes.jpg',
+    coverUrl:
+      '/movies_pictures/52d7845d25b9.jpg',
     releaseDate: '2011-08-10',
     length: 105,
     genre: ['Science Fiction'],
@@ -2360,7 +2361,8 @@ export const baseMoviesSagaPage3: BaseMovie[] = [
         name: 'Gary Oldman',
       },
     ],
-    coverUrl: '/movies_pictures/dawn_of_the_planet_of_the_apes.jpg',
+    coverUrl:
+      '/movies_pictures/e0ce2170326e.jpg',
     releaseDate: '2014-07-30',
     length: 131,
     genre: ['Science Fiction'],
@@ -2384,7 +2386,8 @@ export const baseMoviesSagaPage3: BaseMovie[] = [
         name: 'Steve Zahn',
       },
     ],
-    coverUrl: '/movies_pictures/war_for_the_planet_of_the_apes.jpg',
+    coverUrl:
+      '/movies_pictures/84c5e2a3ad35.jpg',
     releaseDate: '2017-08-02',
     length: 140,
     genre: ['Science Fiction'],
@@ -2395,7 +2398,7 @@ export const baseMoviesSagaPage3: BaseMovie[] = [
     selectDisplayOrder: 20,
   },
   {
-    title: 'Kingdom of the Planet of the Apes',
+    title: 'La Planète des Singes : Le Nouveau Royaume',
     director: 'Wes Ball',
     actors: [
       {
@@ -2414,7 +2417,8 @@ export const baseMoviesSagaPage3: BaseMovie[] = [
         name: 'William H. Macy',
       },
     ],
-    coverUrl: '/movies_pictures/kingdom_of_the_planet_of_the_apes.jpg',
+    coverUrl:
+      '/movies_pictures/ae81cf7ce689.jpg',
     releaseDate: '2024-01-01',
     length: 120,
     genre: ['Science Fiction'],

@@ -2646,6 +2646,30 @@ export const baseMoviesFromAmandine: BaseMovie[] = [
     selectDisplayOrder: 5,
   },
   {
+    title: 'George de la jungle',
+    director: 'Sam Weisman',
+    actors: [
+      {
+        name: 'Brendan Fraser',
+      },
+      {
+        name: 'Leslie Mann',
+      },
+      {
+        name: 'Thomas Haden Church',
+      },
+    ],
+    coverUrl: '/movies_pictures/george_of_the_jungle.jpg',
+    releaseDate: '1997-10-15',
+    length: 92,
+    genre: ['Comédie'],
+    saga: '',
+    description: '',
+    fromEntity: null,
+    countryOrigin: ['États-Unis'],
+    selectDisplayOrder: 5,
+  },
+  {
     title: 'George de la Jungle 2',
     director: 'David Grossman',
     actors: [

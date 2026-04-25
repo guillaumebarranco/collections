@@ -1082,7 +1082,8 @@ export const baseMoviesMcu: BaseMovie[] = [
         name: 'Angelina Jolie',
       },
     ],
-    coverUrl: '/movies_pictures/454016-eternals-0-150-0-225-crop.jpg',
+    coverUrl:
+      '/movies_pictures/cdb65fc168f2.jpg',
     releaseDate: '2021-11-05',
     length: 156,
     genre: ['Action'],

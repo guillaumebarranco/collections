@@ -98,7 +98,7 @@ export const guillaumeMoviesAnimated: UserMovies = [
     inList: [],
   },
   {
-    title: 'Ralph Breaks the Internet',
+    title: 'Ralph 2.0',
     director: 'Rich Moore, Phil Johnston',
     rating: 3.25,
     timesWatched: 1,

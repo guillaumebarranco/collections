@@ -413,6 +413,30 @@ export const baseMoviesDc: BaseMovie[] = [
     selectDisplayOrder: 15,
   },
   {
+    title: 'Shazam! La Rage des Dieux',
+    director: 'David F. Sandberg',
+    actors: [
+      {
+        name: 'Zachary Levi',
+      },
+      {
+        name: 'Asher Angel',
+      },
+      {
+        name: 'Jack Dylan Grazer',
+      },
+    ],
+    coverUrl: '/movies_pictures/shazam_la_rage_des_dieux.jpg',
+    releaseDate: '2023-03-29',
+    length: 130,
+    genre: ['Action'],
+    saga: 'DCEU',
+    description: '',
+    fromEntity: null,
+    countryOrigin: ['États-Unis'],
+    selectDisplayOrder: 15,
+  },
+  {
     title: 'Aquaman',
     director: 'James Wan',
     actors: [
@@ -606,6 +630,30 @@ export const baseMoviesDc: BaseMovie[] = [
     selectDisplayOrder: 15,
   },
   {
+    title: 'The Suicide Squad',
+    director: 'James Gunn',
+    actors: [
+      {
+        name: 'Margot Robbie',
+      },
+      {
+        name: 'Idris Elba',
+      },
+      {
+        name: 'John Cena',
+      },
+    ],
+    coverUrl: '/movies_pictures/the_suicide_squad.jpg',
+    releaseDate: '2021-07-28',
+    length: 132,
+    genre: ['Action'],
+    saga: 'DCEU',
+    description: '',
+    fromEntity: null,
+    countryOrigin: ['États-Unis'],
+    selectDisplayOrder: 15,
+  },
+  {
     title: 'Superman',
     director: 'Richard Donner',
     actors: [
@@ -674,6 +722,44 @@ export const baseMoviesDc: BaseMovie[] = [
     coverUrl: '/movies_pictures/61a2Wp8ylUL._AC_UF894,1000_QL80_.jpg',
     releaseDate: '1980-12-12',
     length: 127,
+    genre: ['Action'],
+    saga: 'Superman',
+    description: '',
+    fromEntity: {
+      entityType: 'comic',
+      title: 'Superman',
+      secondEntityKey: 'Jerry Siegel',
+    },
+    countryOrigin: ['États-Unis'],
+    selectDisplayOrder: 15,
+  },
+  {
+    title: 'Superman III',
+    director: 'Richard Lester',
+    actors: [
+      {
+        name: 'Christopher Reeve',
+      },
+      {
+        name: 'Richard Pryor',
+      },
+      {
+        name: 'Margot Kidder',
+      },
+      {
+        name: 'Annie Ross',
+      },
+      {
+        name: 'Robert Vaughn',
+      },
+      {
+        name: 'Pamela Stephenson',
+      },
+    ],
+    coverUrl:
+      '/movies_pictures/d601724afd5d.jpg',
+    releaseDate: '1983-06-17',
+    length: 125,
     genre: ['Action'],
     saga: 'Superman',
     description: '',
