@@ -1080,7 +1080,7 @@ export const baseMoviesPage2: BaseMovie[] = [
       },
     ],
     coverUrl:
-      '/movies_pictures/51391-the-wing-or-the-thigh--0-150-0-225-crop.jpg',
+      '/movies_pictures/061303c95cea.jpg',
     releaseDate: '1976-10-27',
     length: 104,
     genre: ['Comédie'],
@@ -1229,7 +1229,7 @@ export const baseMoviesPage2: BaseMovie[] = [
       },
     ],
     coverUrl:
-      '/movies_pictures/51392-the-mad-adventures-of-rabbi-jacob-0-150-0-225-crop.jpg',
+      '/movies_pictures/de94a9f25fdb.jpg',
     releaseDate: '1973-10-17',
     length: 95,
     genre: ['Comédie'],
@@ -2215,7 +2215,8 @@ export const baseMoviesPage2: BaseMovie[] = [
         name: 'Ruth McDevitt',
       },
     ],
-    coverUrl: '/movies_pictures/51549-the-birds-0-150-0-225-crop.jpg',
+    coverUrl:
+      '/movies_pictures/1386b544780c.jpg',
     releaseDate: '1963-03-28',
     length: 119,
     genre: ['Horreur'],
@@ -2251,7 +2252,8 @@ export const baseMoviesPage2: BaseMovie[] = [
         name: 'Lurene Tuttle',
       },
     ],
-    coverUrl: '/movies_pictures/51578-psycho-0-150-0-225-crop.jpg',
+    coverUrl:
+      '/movies_pictures/e1f9ecc07402.jpg',
     releaseDate: '1960-06-16',
     length: 109,
     genre: ['Horreur'],
@@ -2287,7 +2289,8 @@ export const baseMoviesPage2: BaseMovie[] = [
         name: 'Jack Warden',
       },
     ],
-    coverUrl: '/movies_pictures/51700-12-angry-men-0-150-0-225-crop.jpg',
+    coverUrl:
+      '/movies_pictures/c2ed79596714.jpg',
     releaseDate: '1957-04-10',
     length: 96,
     genre: ['Drame', 'Mystère'],
@@ -3038,7 +3041,8 @@ export const baseMoviesPage2: BaseMovie[] = [
         name: 'Richard Dreyfuss',
       },
     ],
-    coverUrl: '/movies_pictures/jaws.jpg',
+    coverUrl:
+      '/movies_pictures/37f5dbe03555.jpg',
     releaseDate: '1975-12-17',
     length: 124,
     genre: ['Horreur'],
@@ -3093,7 +3097,8 @@ export const baseMoviesPage2: BaseMovie[] = [
       { name: 'Tom Hanks' },
       { name: 'Amy Adams' },
     ],
-    coverUrl: '/movies_pictures/51484-catch-me-if-you-can-0-150-0-225-crop.jpg',
+    coverUrl:
+      '/movies_pictures/da6c1bff283e.jpg',
     releaseDate: '2002-12-25',
     length: 141,
     genre: ['Policier'],
@@ -3330,7 +3335,7 @@ export const baseMoviesPage2: BaseMovie[] = [
         name: 'Simon Pegg',
       },
     ],
-    coverUrl: '/movies_pictures/261866-ready-player-one-0-150-0-225-crop.jpg',
+    coverUrl: '/movies_pictures/543f48eaef14.jpg',
     releaseDate: '2018-03-29',
     length: 140,
     genre: ['Science Fiction'],
@@ -3540,8 +3545,7 @@ export const baseMoviesPage2: BaseMovie[] = [
         name: 'Pierre Tchernia',
       },
     ],
-    coverUrl:
-      '/movies_pictures/50024-asterix-obelix-mission-cleopatra-0-150-0-225-crop.jpg',
+    coverUrl: '/movies_pictures/4edc62ca1dcf.jpg',
     releaseDate: '2002-01-30',
     length: 107,
     genre: ['Comédie'],
@@ -3569,7 +3573,8 @@ export const baseMoviesPage2: BaseMovie[] = [
         name: 'Adam G. Sevani',
       },
     ],
-    coverUrl: '/movies_pictures/asterix_at_the_olympic_games.jpg',
+    coverUrl:
+      '/movies_pictures/fec4f6009f25.jpg',
     releaseDate: '2008-01-30',
     length: 117,
     genre: ['Comédie'],
@@ -3666,7 +3671,7 @@ export const baseMoviesPage2: BaseMovie[] = [
       },
     ],
     coverUrl:
-      '/movies_pictures/50780-the-devil-s-advocate-0-150-0-225-crop.jpg',
+      '/movies_pictures/b6df508bdfad.jpg',
     releaseDate: '1997-10-17',
     length: 144,
     genre: ['Thriller'],
@@ -3702,7 +3707,8 @@ export const baseMoviesPage2: BaseMovie[] = [
         name: 'Lee Evans',
       },
     ],
-    coverUrl: '/movies_pictures/the_fifth_element.jpg',
+    coverUrl:
+      '/movies_pictures/620762a07465.jpg',
     releaseDate: '1997-05-07',
     length: 126,
     genre: ['Science Fiction'],
@@ -3774,7 +3780,8 @@ export const baseMoviesPage2: BaseMovie[] = [
         name: 'Mischa Barton',
       },
     ],
-    coverUrl: '/movies_pictures/51407-the-sixth-sense-0-150-0-225-crop.jpg',
+    coverUrl:
+      '/movies_pictures/c0edfd3d5943.jpg',
     releaseDate: '1999-08-06',
     length: 107,
     genre: ['Thriller'],
@@ -3846,7 +3853,7 @@ export const baseMoviesPage2: BaseMovie[] = [
         name: 'Eric Mabius',
       },
     ],
-    coverUrl: '/movies_pictures/51356-cruel-intentions-0-150-0-225-crop.jpg',
+    coverUrl: '/movies_pictures/b7801741a77b.jpg',
     releaseDate: '1999-03-05',
     length: 97,
     genre: ['Drame'],
@@ -4169,7 +4176,8 @@ export const baseMoviesPage2: BaseMovie[] = [
         name: 'Doug Hutchison',
       },
     ],
-    coverUrl: '/movies_pictures/51613-the-green-mile-0-150-0-225-crop.jpg',
+    coverUrl:
+      '/movies_pictures/f6f450f9ad10.jpg',
     releaseDate: '1999-12-10',
     length: 189,
     genre: ['Drame'],
@@ -4210,7 +4218,7 @@ export const baseMoviesPage2: BaseMovie[] = [
       },
     ],
     coverUrl:
-      '/movies_pictures/51061-the-pursuit-of-happyness-0-150-0-225-crop.jpg',
+      '/movies_pictures/95e0967653d4.jpg',
     releaseDate: '2006-12-15',
     length: 117,
     genre: ['Drame', 'Biographie'],
@@ -4340,7 +4348,8 @@ export const baseMoviesPage2: BaseMovie[] = [
       { name: 'Matt Damon' },
       { name: 'Jack Nicholson' },
     ],
-    coverUrl: '/movies_pictures/les_infiltres.jpg',
+    coverUrl:
+      '/movies_pictures/9f0e9b9704d9.jpg',
     releaseDate: '2006-10-06',
     length: 151,
     genre: ['Policier'],
@@ -4425,7 +4434,7 @@ export const baseMoviesPage2: BaseMovie[] = [
       },
     ],
     coverUrl:
-      '/movies_pictures/51712-the-devil-wears-prada-0-150-0-225-crop.jpg',
+      '/movies_pictures/4a702017d522.jpg',
     releaseDate: '2006-06-30',
     length: 109,
     genre: ['Comédie'],
@@ -4865,7 +4874,7 @@ export const baseMoviesPage2: BaseMovie[] = [
       },
     ],
     coverUrl:
-      '/movies_pictures/48160-the-40-year-old-virgin-0-150-0-225-crop.jpg',
+      '/movies_pictures/cd530e028963.jpg',
     releaseDate: '2005-08-19',
     length: 116,
     genre: ['Comédie'],

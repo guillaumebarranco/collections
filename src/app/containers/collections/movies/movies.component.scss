@@ -22,6 +22,12 @@
   @include containers.count;
 }
 
+.movies-filters {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
 .movies-config-overlay {
   position: fixed;
   inset: 0;

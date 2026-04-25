@@ -1362,7 +1362,7 @@ export const baseMoviesPage3: BaseMovie[] = [
         name: 'Bronson Pinchot',
       },
     ],
-    coverUrl: '/movies_pictures/le_flic_de_beverly_hills.jpg',
+    coverUrl: '/movies_pictures/0f631ac94b3f.jpg',
     releaseDate: '1984-12-05',
     length: 105,
     genre: ['Action'],
@@ -1398,7 +1398,7 @@ export const baseMoviesPage3: BaseMovie[] = [
         name: 'Chad McQueen',
       },
     ],
-    coverUrl: '/movies_pictures/50718-the-karate-kid-0-150-0-225-crop.jpg',
+    coverUrl: '/movies_pictures/32e9eb90cf38.jpg',
     releaseDate: '1984-06-22',
     length: 126,
     genre: ['Drame'],
@@ -1582,7 +1582,7 @@ export const baseMoviesPage3: BaseMovie[] = [
         name: 'Bill Smitrovich',
       },
     ],
-    coverUrl: '/movies_pictures/45412-seven-pounds-0-150-0-225-crop.jpg',
+    coverUrl: '/movies_pictures/f0fb6a0e332e.jpg',
     releaseDate: '2008-12-19',
     length: 123,
     genre: ['Drame'],
@@ -1689,7 +1689,7 @@ export const baseMoviesPage3: BaseMovie[] = [
     selectDisplayOrder: 0,
   },
   {
-    title: 'Eagle Eye',
+    title: "L'Œil du mal",
     director: 'D.J. Caruso',
     actors: [
       {
@@ -1714,7 +1714,8 @@ export const baseMoviesPage3: BaseMovie[] = [
         name: 'Cameron Boyce',
       },
     ],
-    coverUrl: '/movies_pictures/44201-eagle-eye-0-150-0-225-crop.jpg',
+    coverUrl:
+      'https://play-lh.googleusercontent.com/zooveQgdlh8IpBGZTpPobE15y0cCR4J4hfl4P2jn3HbnAN-93HBiWfEiq96rcjBu7ZE',
     releaseDate: '2008-09-26',
     length: 118,
     genre: ['Thriller'],
@@ -1944,7 +1945,8 @@ export const baseMoviesPage3: BaseMovie[] = [
         name: 'Alexander Held',
       },
     ],
-    coverUrl: '/movies_pictures/47981-the-wave-0-150-0-225-crop.jpg',
+    coverUrl:
+      '/movies_pictures/a48f372dd1e2.jpg',
     releaseDate: '2008-03-13',
     length: 107,
     genre: ['Drame'],
@@ -2040,7 +2042,8 @@ export const baseMoviesPage3: BaseMovie[] = [
         name: 'Emma Thompson',
       },
     ],
-    coverUrl: '/movies_pictures/48296-i-am-legend-0-150-0-225-crop.jpg',
+    coverUrl:
+      '/movies_pictures/ab8bfac00d5b.jpg',
     releaseDate: '2007-12-14',
     length: 101,
     genre: ['Science Fiction'],
@@ -3585,7 +3588,7 @@ export const baseMoviesPage3: BaseMovie[] = [
       },
     ],
     coverUrl:
-      '/movies_pictures/alice-in-wonderland-original-0-150-0-225-crop.jpg',
+      '/movies_pictures/30812204d00a.jpg',
     releaseDate: '2010-03-05',
     length: 108,
     genre: ['Fantastique'],
@@ -3609,7 +3612,7 @@ export const baseMoviesPage3: BaseMovie[] = [
         name: 'Anne Hathaway',
       },
     ],
-    coverUrl: '/movies_pictures/alice_through_the_looking_glass.jpg',
+    coverUrl: '/movies_pictures/6b49a3e7e010.jpg',
     releaseDate: '2016-06-01',
     length: 113,
     genre: ['Fantastique'],

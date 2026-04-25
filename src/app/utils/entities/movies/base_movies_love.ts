@@ -15,8 +15,7 @@ export const baseMoviesLove: BaseMovie[] = [
         name: 'Benjamin Lavernhe',
       },
     ],
-    coverUrl:
-      '/movies_pictures/498516-love-at-second-sight-0-150-0-225-crop.jpg',
+    coverUrl: '/movies_pictures/c92fb64760bb.webp',
     releaseDate: '2019-01-30',
     length: 118,
     genre: ['Romance'],
@@ -725,7 +724,7 @@ export const baseMoviesLove: BaseMovie[] = [
       },
     ],
     coverUrl:
-      '/movies_pictures/no-strings-attached-original-0-150-0-225-crop.jpg',
+      '/movies_pictures/c2d281b1e6e8.jpg',
     releaseDate: '2011-01-21',
     length: 108,
     genre: ['Romance'],
@@ -907,7 +906,7 @@ export const baseMoviesLove: BaseMovie[] = [
         name: 'Amandine Dewasmes',
       },
     ],
-    coverUrl: '/movies_pictures/23804-heartbreaker-0-150-0-225-crop.jpg',
+    coverUrl: '/movies_pictures/6238116a7128.jpg',
     releaseDate: '2010-03-17',
     length: 105,
     genre: ['Romance'],
@@ -1015,7 +1014,8 @@ export const baseMoviesLove: BaseMovie[] = [
         name: "Denis O'Hare",
       },
     ],
-    coverUrl: '/movies_pictures/40479-the-proposal-0-150-0-225-crop.jpg',
+    coverUrl:
+      '/movies_pictures/6fd353a82d5e.jpg',
     releaseDate: '2009-06-19',
     length: 108,
     genre: ['Romance'],
@@ -1184,7 +1184,8 @@ export const baseMoviesLove: BaseMovie[] = [
         name: 'Jena Malone',
       },
     ],
-    coverUrl: '/movies_pictures/orgueil_et_prejuges.jpg',
+    coverUrl:
+      '/movies_pictures/a213348be4ad.jpg',
     releaseDate: '2005-09-16',
     length: 129,
     genre: ['Romance'],
@@ -1359,7 +1360,8 @@ export const baseMoviesLove: BaseMovie[] = [
     title: 'Amour & Amnésie',
     director: 'Peter Segal',
     actors: [{ name: 'Adam Sandler' }],
-    coverUrl: '/movies_pictures/50773-50-first-dates-0-150-0-225-crop.jpg',
+    coverUrl:
+      '/movies_pictures/250140b717ae.jpg',
     releaseDate: '2004-02-13',
     length: 99,
     genre: ['Comédie', 'Romance'],
@@ -1670,8 +1672,7 @@ export const baseMoviesLove: BaseMovie[] = [
         name: 'Jean-Pascal Zadi',
       },
     ],
-    coverUrl:
-      '/movies_pictures/863617-beating-hearts-2024-0-150-0-225-crop.jpg',
+    coverUrl: '/movies_pictures/4d3324dc3860.jpg',
     releaseDate: '2024-01-31',
     length: 160,
     genre: ['Romance', 'Drame'],

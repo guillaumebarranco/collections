@@ -4952,31 +4952,6 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
   },
 
   {
-    title: '22 Jump Street',
-    director: 'Phil Lord, Chris Miller',
-    actors: [
-      {
-        name: 'Jonah Hill',
-      },
-      {
-        name: 'Channing Tatum',
-      },
-      {
-        name: 'Ice Cube',
-      },
-    ],
-    coverUrl: '/movies_pictures/22_jump_street.jpg',
-    releaseDate: '2014-08-27',
-    length: 112,
-    genre: ['Comédie'],
-    saga: '',
-    description: '',
-    fromEntity: null,
-    countryOrigin: ['États-Unis'],
-    selectDisplayOrder: 5,
-  },
-
-  {
     title: 'Nos pires voisins',
     director: 'Nicholas Stoller',
     actors: [

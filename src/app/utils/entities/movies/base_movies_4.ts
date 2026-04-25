@@ -261,7 +261,8 @@ export const baseMoviesPage4: BaseMovie[] = [
         name: 'Alan Rickman',
       },
     ],
-    coverUrl: '/movies_pictures/le_majordome.jpg',
+    coverUrl:
+      '/movies_pictures/fdf47444e317.jpg',
     releaseDate: '2013-08-16',
     length: 132,
     genre: ['Drame'],
@@ -640,6 +641,30 @@ export const baseMoviesPage4: BaseMovie[] = [
     selectDisplayOrder: 30,
   },
   {
+    title: '22 Jump Street',
+    director: 'Phil Lord, Chris Miller',
+    actors: [
+      {
+        name: 'Jonah Hill',
+      },
+      {
+        name: 'Channing Tatum',
+      },
+      {
+        name: 'Ice Cube',
+      },
+    ],
+    coverUrl: '/movies_pictures/22_jump_street.jpg',
+    releaseDate: '2014-08-27',
+    length: 112,
+    genre: ['Comédie'],
+    saga: '',
+    description: '',
+    fromEntity: null,
+    countryOrigin: ['États-Unis'],
+    selectDisplayOrder: 30,
+  },
+  {
     title: 'Target',
     director: 'McG',
     actors: [
@@ -734,7 +759,7 @@ export const baseMoviesPage4: BaseMovie[] = [
         name: 'Alex Pettyfer',
       },
     ],
-    coverUrl: '/movies_pictures/16082-in-time-0-150-0-225-crop.jpg',
+    coverUrl: '/movies_pictures/19816803.jpg',
     releaseDate: '2011-10-28',
     length: 109,
     genre: ['Science Fiction'],
@@ -1050,7 +1075,8 @@ export const baseMoviesPage4: BaseMovie[] = [
         name: 'Kurtwood Smith',
       },
     ],
-    coverUrl: '/movies_pictures/51846-dead-poets-society-0-150-0-225-crop.jpg',
+    coverUrl:
+      '/movies_pictures/529ba49ef3eb.jpg',
     releaseDate: '1989-06-09',
     length: 128,
     genre: ['Drame'],
@@ -1120,7 +1146,7 @@ export const baseMoviesPage4: BaseMovie[] = [
       },
     ],
     coverUrl:
-      '/movies_pictures/51296-who-framed-roger-rabbit-0-150-0-225-crop.jpg',
+      '/movies_pictures/5e233170a1ff.jpg',
     releaseDate: '1988-06-22',
     length: 104,
     genre: [],
@@ -1609,7 +1635,8 @@ export const baseMoviesPage4: BaseMovie[] = [
         name: 'Tony Darrow',
       },
     ],
-    coverUrl: '/movies_pictures/51383-goodfellas-0-150-0-225-crop.jpg',
+    coverUrl:
+      '/movies_pictures/aee47d609fc6.jpg',
     releaseDate: '1990-09-19',
     length: 146,
     genre: ['Policier'],

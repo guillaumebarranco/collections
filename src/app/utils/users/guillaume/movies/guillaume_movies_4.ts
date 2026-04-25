@@ -803,7 +803,7 @@ export const guillaumeMoviesPage4: UserMovies = [
   },
 
   {
-    title: 'Eagle Eye',
+    title: "L'Œil du mal",
     director: 'D.J. Caruso',
     rating: 4.5,
     timesWatched: 15,
