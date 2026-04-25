@@ -69,7 +69,7 @@ export const guillaumeWatchListSeries: UserSeries = [
     owned: false,
     watchPriority: 1,
     wantToWatchAgain: false,
-    ratingComment: '',
+    ratingComment: 'https://nakastream.tv/content/tv/71886',
     borrowed: '',
     loaned: '',
   },

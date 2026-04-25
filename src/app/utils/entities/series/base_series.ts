@@ -1145,7 +1145,7 @@ export const baseSeries: BaseSerie[] = [
         totalLength: 1080,
       },
       {
-        seasonNumber: 1,
+        seasonNumber: 2,
         nbEpisodes: 5,
         totalLength: 500,
       },
