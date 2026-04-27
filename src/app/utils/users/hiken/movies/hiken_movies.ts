@@ -223,7 +223,7 @@ export const hikenMovies: UserMovie[] = [
   },
 
   {
-    title: 'The Day After Tomorrow',
+    title: "Le Jour d'Après",
     director: 'Roland Emmerich',
     rating: 0,
     timesWatched: 1,
@@ -818,7 +818,7 @@ export const hikenMovies: UserMovie[] = [
   },
 
   {
-    title: 'Kingsman: The Golden Circle',
+    title: "Kingsman : Le Cercle d'or",
     director: 'Matthew Vaughn',
     rating: 0,
     timesWatched: 1,
@@ -7364,7 +7364,7 @@ export const hikenMovies: UserMovie[] = [
   },
 
   {
-    title: 'Die Hard : Belle Journée pour Mourir',
+    title: 'Die Hard 5 : Belle Journée pour Mourir',
     director: 'John Moore',
     rating: 0,
     timesWatched: 1,
@@ -7874,7 +7874,7 @@ export const hikenMovies: UserMovie[] = [
   },
 
   {
-    title: 'Pirates des Caraïbes : La Vengeance de Salazar',
+    title: 'Pirates des Caraïbes 5 : La Vengeance de Salazar',
     director: 'Joachim Rønning, Espen Sandberg',
     rating: 0,
     timesWatched: 1,

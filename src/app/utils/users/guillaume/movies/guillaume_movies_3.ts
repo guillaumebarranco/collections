@@ -2,7 +2,7 @@ import { UserMovies } from '../../../../models/movie-model';
 
 export const guillaumeMoviesPage3: UserMovies = [
   {
-    title: 'Kingsman: The Golden Circle',
+    title: "Kingsman : Le Cercle d'or",
     director: 'Matthew Vaughn',
     rating: 3,
     timesWatched: 1,

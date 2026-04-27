@@ -801,7 +801,7 @@ export const dantesMovies: UserMovie[] = [
   },
 
   {
-    title: 'Kingsman: The Golden Circle',
+    title: "Kingsman : Le Cercle d'or",
     director: 'Matthew Vaughn',
     rating: 0,
     timesWatched: 1,
@@ -2059,7 +2059,7 @@ export const dantesMovies: UserMovie[] = [
   },
 
   {
-    title: 'Shrek 4 : Il Était une Fois',
+    title: 'Shrek 4 : Il Était une Fin',
     director: 'Mike Mitchell',
     rating: 0,
     timesWatched: 1,
@@ -5257,7 +5257,7 @@ export const dantesMovies: UserMovie[] = [
   },
 
   {
-    title: 'Pirates des Caraïbes : La Vengeance de Salazar',
+    title: 'Pirates des Caraïbes 5 : La Vengeance de Salazar',
     director: 'Joachim Rønning, Espen Sandberg',
     rating: 0,
     timesWatched: 1,
@@ -9966,7 +9966,7 @@ export const dantesMovies: UserMovie[] = [
   },
 
   {
-    title: 'The Day After Tomorrow',
+    title: "Le Jour d'Après",
     director: 'Roland Emmerich',
     rating: 0,
     timesWatched: 1,

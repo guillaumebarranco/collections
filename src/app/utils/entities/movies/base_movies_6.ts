@@ -6794,7 +6794,8 @@ export const baseMoviesPage6: BaseMovie[] = [
         name: 'Farida Khelfa',
       },
     ],
-    coverUrl: '/movies_pictures/19135063.jpg',
+    coverUrl:
+      '/movies_pictures/a2c6d0a9fee6.jpg',
     releaseDate: '2008-01-01',
     length: 90,
     genre: ['Comédie'],
@@ -6830,7 +6831,8 @@ export const baseMoviesPage6: BaseMovie[] = [
         name: 'Booder',
       },
     ],
-    coverUrl: '/movies_pictures/0525282.jpg',
+    coverUrl:
+      '/movies_pictures/9b3167b6902e.jpg',
     releaseDate: '2017-08-08',
     length: 97,
     genre: ['Comédie'],

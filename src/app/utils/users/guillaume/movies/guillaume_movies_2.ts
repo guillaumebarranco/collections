@@ -626,7 +626,7 @@ export const guillaumeMoviesPage2: UserMovies = [
     inList: [],
   },
   {
-    title: 'The Day After Tomorrow',
+    title: "Le Jour d'Après",
     director: 'Roland Emmerich',
     rating: 4.75,
     timesWatched: 25,

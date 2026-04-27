@@ -1394,7 +1394,7 @@ export const ronanWatchlistMovies: UserMovies = [
     inList: [],
   },
   {
-    title: 'Die Hard : Belle Journée pour Mourir',
+    title: 'Die Hard 5 : Belle Journée pour Mourir',
     director: 'John Moore',
     rating: 0,
     timesWatched: 0,

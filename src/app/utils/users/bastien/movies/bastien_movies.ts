@@ -226,7 +226,7 @@ export const bastienMovies: UserMovies = [
     inList: [],
   },
   {
-    title: 'The Day After Tomorrow',
+    title: "Le Jour d'Après",
     director: 'Roland Emmerich',
     rating: 2.5,
     timesWatched: 1,
@@ -787,7 +787,7 @@ export const bastienMovies: UserMovies = [
     inList: [],
   },
   {
-    title: 'Kingsman: The Golden Circle',
+    title: "Kingsman : Le Cercle d'or",
     director: 'Matthew Vaughn',
     rating: 3.5,
     timesWatched: 1,
@@ -1907,7 +1907,7 @@ export const bastienMovies: UserMovies = [
     inList: [],
   },
   {
-    title: 'Shrek 4 : Il Était une Fois',
+    title: 'Shrek 4 : Il Était une Fin',
     director: 'Mike Mitchell',
     rating: 2.5,
     timesWatched: 1,
@@ -6404,7 +6404,7 @@ export const bastienMovies: UserMovies = [
     inList: [],
   },
   {
-    title: 'Die Hard : Belle Journée pour Mourir',
+    title: 'Die Hard 5 : Belle Journée pour Mourir',
     director: 'John Moore',
     rating: 2.5,
     timesWatched: 1,

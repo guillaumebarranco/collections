@@ -6,8 +6,7 @@ export const baseGamesShrek: BaseGame[] = [
     title: 'Shrek',
     editor: 'TDK Mediactive',
     hero: 'Shrek',
-    coverUrl:
-      '/games_pictures/9518a501a580.jpg',
+    coverUrl: '/games_pictures/9518a501a580.jpg',
     releaseDate: '2001-10-28',
     averageTimeToFinish: 6,
     averageTimeToHundredPercent: 0,
@@ -26,8 +25,7 @@ export const baseGamesShrek: BaseGame[] = [
     title: 'Shrek 2',
     editor: 'Activision',
     hero: 'Shrek',
-    coverUrl:
-      '/games_pictures/5ed5acdca45b.jpg',
+    coverUrl: '/games_pictures/5ed5acdca45b.jpg',
     releaseDate: '2004-04-28',
     averageTimeToFinish: 8,
     averageTimeToHundredPercent: 12,
@@ -46,8 +44,7 @@ export const baseGamesShrek: BaseGame[] = [
     title: 'Shrek SuperSlam',
     editor: 'Activision',
     hero: 'Shrek',
-    coverUrl:
-      '/games_pictures/7289fb4904a4.jpg',
+    coverUrl: '/games_pictures/7289fb4904a4.jpg',
     releaseDate: '2005-10-25',
     averageTimeToFinish: 4,
     averageTimeToHundredPercent: 8,
@@ -101,11 +98,10 @@ export const baseGamesShrek: BaseGame[] = [
     },
   },
   {
-    title: 'Shrek 4 : Il était une fois',
+    title: 'Shrek 4 : Il Était une Fin',
     editor: 'Activision',
     hero: 'Shrek',
-    coverUrl:
-      '/games_pictures/0630277cadfe.jpg',
+    coverUrl: '/games_pictures/0630277cadfe.jpg',
     releaseDate: '2010-05-18',
     averageTimeToFinish: 5,
     averageTimeToHundredPercent: 0,
@@ -116,7 +112,7 @@ export const baseGamesShrek: BaseGame[] = [
       'Jeu d’action-aventure aligné sur le quatrième long métrage (XPEC Entertainment).',
     fromEntity: {
       entityType: 'movie',
-      title: 'Shrek 4 : Il Était une Fois',
+      title: 'Shrek 4 : Il Était une Fin',
       secondEntityKey: 'Mike Mitchell',
     },
   },
@@ -124,8 +120,7 @@ export const baseGamesShrek: BaseGame[] = [
     title: 'Le Chat Potté (jeu vidéo, 2011)',
     editor: 'THQ',
     hero: 'Le Chat Potté',
-    coverUrl:
-      '/games_pictures/a9b691c146f2.jpg',
+    coverUrl: '/games_pictures/a9b691c146f2.jpg',
     releaseDate: '2011-10-25',
     averageTimeToFinish: 6,
     averageTimeToHundredPercent: 0,

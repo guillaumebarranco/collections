@@ -626,7 +626,7 @@ export const guillaumeMoviesAnimated: UserMovies = [
     inList: [],
   },
   {
-    title: 'Shrek 4 : Il Était une Fois',
+    title: 'Shrek 4 : Il Était une Fin',
     director: 'Mike Mitchell',
     rating: 3,
     timesWatched: 1,

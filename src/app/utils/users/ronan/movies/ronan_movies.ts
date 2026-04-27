@@ -1666,7 +1666,7 @@ export const ronanMovies: UserMovies = [
     inList: [],
   },
   {
-    title: 'The Day After Tomorrow',
+    title: "Le Jour d'Après",
     director: 'Roland Emmerich',
     rating: 2.5,
     timesWatched: 1,
@@ -6595,7 +6595,7 @@ export const ronanMovies: UserMovies = [
     inList: [],
   },
   {
-    title: 'The Matrix Resurrections',
+    title: 'Matrix Resurrections',
     director: 'Lana Wachowski',
     rating: 1.5,
     timesWatched: 1,
@@ -10051,7 +10051,7 @@ export const ronanMovies: UserMovies = [
     inList: [],
   },
   {
-    title: 'Shrek 4 : Il Était une Fois',
+    title: 'Shrek 4 : Il Était une Fin',
     director: 'Mike Mitchell',
     rating: 3.5,
     timesWatched: 5,

@@ -458,7 +458,8 @@ export const baseMoviesOtherSuperheroes: BaseMovie[] = [
         name: 'J. K. Simmons',
       },
     ],
-    coverUrl: '/movies_pictures/51561-spider-man-0-150-0-225-crop.jpg',
+    coverUrl:
+      '/movies_pictures/2799f1d3b997.jpg',
     releaseDate: '2002-05-03',
     length: 121,
     genre: ['Action'],
@@ -498,7 +499,8 @@ export const baseMoviesOtherSuperheroes: BaseMovie[] = [
         name: 'J. K. Simmons',
       },
     ],
-    coverUrl: '/movies_pictures/18380826.jpg',
+    coverUrl:
+      '/movies_pictures/6387c5ff1cac.jpg',
     releaseDate: '2004-06-30',
     length: 127,
     genre: ['Action'],
@@ -538,7 +540,8 @@ export const baseMoviesOtherSuperheroes: BaseMovie[] = [
         name: 'Tobey Maguire',
       },
     ],
-    coverUrl: '/movies_pictures/spiderman_3.jpg',
+    coverUrl:
+      '/movies_pictures/d8a2157075a9.jpg',
     releaseDate: '2007-05-04',
     length: 139,
     genre: ['Action'],
@@ -1105,8 +1108,7 @@ export const baseMoviesOtherSuperheroes: BaseMovie[] = [
         name: 'Charlie Heaton',
       },
     ],
-    coverUrl:
-      '/movies_pictures/21f12b26fab1.jpg',
+    coverUrl: '/movies_pictures/21f12b26fab1.jpg',
     releaseDate: '2020-08-26',
     length: 94,
     genre: ['Action'],

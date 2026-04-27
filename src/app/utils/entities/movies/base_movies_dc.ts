@@ -213,7 +213,8 @@ export const baseMoviesDc: BaseMovie[] = [
         name: 'Michael Caine',
       },
     ],
-    coverUrl: '/movies_pictures/51784-batman-begins-0-150-0-225-crop.jpg',
+    coverUrl:
+      '/movies_pictures/99b9c64d6eac.jpg',
     releaseDate: '2005-06-15',
     length: 140,
     genre: ['Action'],
@@ -247,7 +248,8 @@ export const baseMoviesDc: BaseMovie[] = [
         name: 'Heath Ledger',
       },
     ],
-    coverUrl: '/movies_pictures/the_dark_knight.jpg',
+    coverUrl:
+      '/movies_pictures/4fc79ac8ba39.jpg',
     releaseDate: '2008-07-18',
     length: 152,
     genre: ['Action'],
@@ -285,7 +287,7 @@ export const baseMoviesDc: BaseMovie[] = [
       },
     ],
     coverUrl:
-      '/movies_pictures/16550-the-dark-knight-rises-0-150-0-225-crop.jpg',
+      '/movies_pictures/5138fc727503.jpg',
     releaseDate: '2012-07-20',
     length: 164,
     genre: ['Action'],
@@ -756,8 +758,7 @@ export const baseMoviesDc: BaseMovie[] = [
         name: 'Pamela Stephenson',
       },
     ],
-    coverUrl:
-      '/movies_pictures/d601724afd5d.jpg',
+    coverUrl: '/movies_pictures/d601724afd5d.jpg',
     releaseDate: '1983-06-17',
     length: 125,
     genre: ['Action'],
@@ -867,7 +868,7 @@ export const baseMoviesDc: BaseMovie[] = [
         name: 'Russell Crowe',
       },
     ],
-    coverUrl: '/movies_pictures/man_of_steel.jpg',
+    coverUrl: '/movies_pictures/d2286601b68e.jpg',
     releaseDate: '2013-06-14',
     length: 143,
     genre: ['Action'],

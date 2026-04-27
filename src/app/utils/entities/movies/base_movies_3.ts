@@ -2,43 +2,6 @@ import { BaseMovie } from '../../../models/movie-model';
 
 export const baseMoviesPage3: BaseMovie[] = [
   {
-    title: 'Kingsman : Services Secrets',
-    director: 'Matthew Vaughn',
-    actors: [
-      {
-        name: 'Colin Firth',
-      },
-      {
-        name: 'Taron Egerton',
-      },
-      {
-        name: 'Michael Caine',
-      },
-      {
-        name: 'Samuel L. Jackson',
-      },
-      {
-        name: 'Sofia Boutella',
-      },
-      {
-        name: 'Jack Davenport',
-      },
-      {
-        name: 'Mark Strong',
-      },
-    ],
-    coverUrl:
-      '/movies_pictures/148200-kingsman-the-secret-service-0-150-0-225-crop.jpg',
-    releaseDate: '2015-02-13',
-    length: 129,
-    genre: ['Action'],
-    saga: 'Kingsman',
-    description: '',
-    fromEntity: null,
-    countryOrigin: ['Royaume-Uni'],
-    selectDisplayOrder: 30,
-  },
-  {
     title: 'Monster',
     director: 'Patty Jenkins',
     actors: [
@@ -75,14 +38,51 @@ export const baseMoviesPage3: BaseMovie[] = [
     selectDisplayOrder: 30,
   },
   {
-    title: 'Kingsman: The Golden Circle',
+    title: 'Kingsman : Services Secrets',
+    director: 'Matthew Vaughn',
+    actors: [
+      {
+        name: 'Colin Firth',
+      },
+      {
+        name: 'Taron Egerton',
+      },
+      {
+        name: 'Michael Caine',
+      },
+      {
+        name: 'Samuel L. Jackson',
+      },
+      {
+        name: 'Sofia Boutella',
+      },
+      {
+        name: 'Jack Davenport',
+      },
+      {
+        name: 'Mark Strong',
+      },
+    ],
+    coverUrl: '/movies_pictures/1b4ad211686c.jpg',
+    releaseDate: '2015-02-13',
+    length: 129,
+    genre: ['Action'],
+    saga: 'Kingsman',
+    description: '',
+    fromEntity: null,
+    countryOrigin: ['Royaume-Uni'],
+    selectDisplayOrder: 30,
+  },
+
+  {
+    title: "Kingsman : Le Cercle d'or",
     director: 'Matthew Vaughn',
     actors: [
       { name: 'Taron Egerton' },
       { name: 'Mark Strong' },
       { name: 'Halle Berry' },
     ],
-    coverUrl: '/movies_pictures/kingsman_the_golden_circle.jpg',
+    coverUrl: '/movies_pictures/d6537375def3.jpg',
     releaseDate: '2017-09-22',
     length: 141,
     genre: ['Action'],
@@ -118,7 +118,7 @@ export const baseMoviesPage3: BaseMovie[] = [
         name: 'Djimon Hounsou',
       },
     ],
-    coverUrl: '/movies_pictures/1861024.webp',
+    coverUrl: '/movies_pictures/0ff23b6e03b8.jpg',
     releaseDate: '2021-12-22',
     length: 131,
     genre: ['Action'],
@@ -967,7 +967,7 @@ export const baseMoviesPage3: BaseMovie[] = [
         name: 'Lio Tipton',
       },
     ],
-    coverUrl: '/movies_pictures/168860-lucy-0-150-0-225-crop.jpg',
+    coverUrl: '/movies_pictures/8181a2809ca2.jpg',
     releaseDate: '2014-07-25',
     length: 89,
     genre: ['Action'],
@@ -3331,7 +3331,7 @@ export const baseMoviesPage3: BaseMovie[] = [
       { name: 'Andrew Garfield' },
       { name: 'Justin Timberlake' },
     ],
-    coverUrl: '/movies_pictures/the_social_network.jpg',
+    coverUrl: '/movies_pictures/02da2e7db87f.jpg',
     releaseDate: '2010-10-01',
     length: 120,
     genre: ['Drame'],
@@ -3476,7 +3476,8 @@ export const baseMoviesPage3: BaseMovie[] = [
         name: 'Jérôme Le Banner',
       },
     ],
-    coverUrl: '/movies_pictures/19718-fatal-0-150-0-225-crop.jpg',
+    coverUrl:
+      '/movies_pictures/3111ebebad71.jpg',
     releaseDate: '2010-06-30',
     length: 85,
     genre: ['Comédie'],
@@ -3945,7 +3946,7 @@ export const baseMoviesPage3: BaseMovie[] = [
         name: 'Ray McKinnon',
       },
     ],
-    coverUrl: '/movies_pictures/the-blind-side-0-150-0-225-crop.jpg',
+    coverUrl: '/movies_pictures/2d4f22a9e88a.jpg',
     releaseDate: '2009-11-20',
     length: 129,
     genre: ['Drame'],

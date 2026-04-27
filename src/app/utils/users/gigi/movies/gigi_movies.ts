@@ -427,7 +427,7 @@ export const gigiMovies: UserMovie[] = [
   },
 
   {
-    title: 'The Day After Tomorrow',
+    title: "Le Jour d'Après",
     director: 'Roland Emmerich',
     rating: 0,
     timesWatched: 1,
@@ -1770,7 +1770,7 @@ export const gigiMovies: UserMovie[] = [
   },
 
   {
-    title: 'Kingsman: The Golden Circle',
+    title: "Kingsman : Le Cercle d'or",
     director: 'Matthew Vaughn',
     rating: 0,
     timesWatched: 1,

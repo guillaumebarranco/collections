@@ -3175,30 +3175,6 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 5,
   },
-  {
-    title: 'Men in Black: International',
-    director: 'F. Gary Gray',
-    actors: [
-      {
-        name: 'Chris Hemsworth',
-      },
-      {
-        name: 'Tessa Thompson',
-      },
-      {
-        name: 'Liam Neeson',
-      },
-    ],
-    coverUrl: '/movies_pictures/men_in_black_international.jpg',
-    releaseDate: '2019-06-12',
-    length: 115,
-    genre: ['Science Fiction'],
-    saga: 'Men in Black',
-    description: '',
-    fromEntity: null,
-    countryOrigin: ['États-Unis'],
-    selectDisplayOrder: 5,
-  },
 
   {
     title: 'The Specials',
@@ -4255,7 +4231,8 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
         name: 'Djimon Hounsou',
       },
     ],
-    coverUrl: '/movies_pictures/the_legend_of_tarzan.jpg',
+    coverUrl:
+      '/movies_pictures/MV5BODZkYjUxODYtNTdkYS00ZjgzLWFiMTgtNWYyZTIxOGVkMDA1XkEyXkFqcGc@._V1_.jpg',
     releaseDate: '2016-07-06',
     length: 110,
     genre: ['Action'],
@@ -7062,7 +7039,7 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
         name: 'Didier Flamand',
       },
     ],
-    coverUrl: '/movies_pictures/the_chorus.jpg',
+    coverUrl: '/movies_pictures/f5cf1600811a.jpg',
     releaseDate: '2004-03-17',
     length: 95,
     genre: ['Drame'],

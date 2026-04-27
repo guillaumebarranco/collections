@@ -713,8 +713,7 @@ export const baseMoviesPage1: BaseMovie[] = [
         name: 'Ryan Reynolds',
       },
     ],
-    coverUrl:
-      'https://resizing.flixster.com/os4Mo3iliiZUVKAP7mmuBb_gUXg=/ems.cHJkLWVtcy1hc3NldHMvbW92aWVzLzM5YTFiNDY3LTcwZGEtNGNkMi05YTJkLTY0Y2NiYTU5OGI5NS5qcGc=',
+    coverUrl: '/movies_pictures/qfsgsdgdfgfdgfd.jpg',
     releaseDate: '2021-11-12',
     length: 118,
     genre: ['Action'],
@@ -1781,7 +1780,7 @@ export const baseMoviesPage1: BaseMovie[] = [
     selectDisplayOrder: 0,
   },
   {
-    title: 'The Day After Tomorrow',
+    title: "Le Jour d'Après",
     director: 'Roland Emmerich',
     actors: [
       {
@@ -1806,7 +1805,7 @@ export const baseMoviesPage1: BaseMovie[] = [
         name: 'Jay O. Sanders',
       },
     ],
-    coverUrl: '/movies_pictures/le_jour_d_apres.jpg',
+    coverUrl: '/movies_pictures/c239526162d8.jpg',
     releaseDate: '2004-05-28',
     length: 124,
     genre: ['Science Fiction'],
@@ -2132,7 +2131,7 @@ export const baseMoviesPage1: BaseMovie[] = [
         name: 'Lisa Ann Walter',
       },
     ],
-    coverUrl: '/movies_pictures/51749-bruce-almighty-0-150-0-225-crop.jpg',
+    coverUrl: '/movies_pictures/fsggdrgrdgr.jpg',
     releaseDate: '2003-05-23',
     length: 101,
     genre: ['Comédie'],
@@ -2803,8 +2802,7 @@ export const baseMoviesPage1: BaseMovie[] = [
         name: "William O'Leary",
       },
     ],
-    coverUrl:
-      '/movies_pictures/8297c5b1c60c.jpg',
+    coverUrl: '/movies_pictures/8297c5b1c60c.jpg',
     releaseDate: '1991-07-31',
     length: 85,
     genre: ['Comédie'],
@@ -2840,8 +2838,7 @@ export const baseMoviesPage1: BaseMovie[] = [
         name: 'Miguel Ferrer',
       },
     ],
-    coverUrl:
-      '/movies_pictures/c91e3df722a1.jpg',
+    coverUrl: '/movies_pictures/c91e3df722a1.jpg',
     releaseDate: '1993-05-21',
     length: 86,
     genre: ['Comédie'],

@@ -850,7 +850,7 @@ export const amandineMovies2: UserMovies = [
     inList: [],
   },
   {
-    title: 'Pirates des Caraïbes : La Vengeance de Salazar',
+    title: 'Pirates des Caraïbes 5 : La Vengeance de Salazar',
     director: 'Joachim Rønning, Espen Sandberg',
     rating: 0,
     timesWatched: 5,

@@ -1966,4 +1966,19 @@ export const baseBooks: BaseBook[] = [
     countryOrigin: 'États-Unis',
     selectDisplayOrder: 0,
   },
+  {
+    title: 'Le jeu de la dame',
+    author: 'Walter Tevis',
+    coverUrl:
+      '/books_pictures/5ea29327b2cb.jpg',
+    pages: 250,
+    genre: ['Fiction'],
+    saga: '',
+    sagaOrder: 0,
+    sagaFinished: true,
+    releaseDate: '1983-01-01',
+    description: '',
+    countryOrigin: 'États-Unis',
+    selectDisplayOrder: 0,
+  },
 ];

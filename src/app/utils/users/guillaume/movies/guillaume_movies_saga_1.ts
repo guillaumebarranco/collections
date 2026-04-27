@@ -1618,7 +1618,7 @@ export const guillaumeMoviesSagaPage1: UserMovies = [
     inList: [],
   },
   {
-    title: 'Die Hard : Belle Journée pour Mourir',
+    title: 'Die Hard 5 : Belle Journée pour Mourir',
     director: 'John Moore',
     rating: 2.75,
     timesWatched: 1,

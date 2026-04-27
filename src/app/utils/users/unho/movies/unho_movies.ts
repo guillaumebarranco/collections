@@ -308,7 +308,7 @@ export const unhoMovies: UserMovie[] = [
   },
 
   {
-    title: 'The Day After Tomorrow',
+    title: "Le Jour d'Après",
     director: 'Roland Emmerich',
     rating: 3.5,
     timesWatched: 1,
@@ -785,7 +785,7 @@ export const unhoMovies: UserMovie[] = [
   },
 
   {
-    title: 'Kingsman: The Golden Circle',
+    title: "Kingsman : Le Cercle d'or",
     director: 'Matthew Vaughn',
     rating: 0,
     timesWatched: 1,
@@ -2825,7 +2825,7 @@ export const unhoMovies: UserMovie[] = [
   },
 
   {
-    title: 'Shrek 4 : Il Était une Fois',
+    title: 'Shrek 4 : Il Était une Fin',
     director: 'Mike Mitchell',
     rating: 0,
     timesWatched: 1,

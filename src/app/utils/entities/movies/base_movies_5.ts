@@ -776,42 +776,6 @@ export const baseMoviesPage5: BaseMovie[] = [
   },
 
   {
-    title: 'Rambo: Last Blood',
-    director: 'Adrian Grunberg',
-    actors: [
-      {
-        name: 'Sylvester Stallone',
-      },
-      {
-        name: 'Paz Vega',
-      },
-      {
-        name: 'Sergio Peris-Mencheta',
-      },
-      {
-        name: 'Adriana Barraza',
-      },
-      {
-        name: 'Yvette Monreal',
-      },
-      {
-        name: 'Joaquín Cosío',
-      },
-      {
-        name: 'Óscar Jaenada',
-      },
-    ],
-    coverUrl: '/movies_pictures/2773883.jpg',
-    releaseDate: '2019-09-20',
-    length: 89,
-    genre: ['Action'],
-    saga: 'Rambo',
-    description: '',
-    fromEntity: null,
-    countryOrigin: ['États-Unis'],
-    selectDisplayOrder: 0,
-  },
-  {
     title: 'Conan le destructeur',
     director: 'Richard Fleischer',
     actors: [
@@ -7241,8 +7205,7 @@ export const baseMoviesPage5: BaseMovie[] = [
         name: 'Arielle Kebbel',
       },
     ],
-    coverUrl:
-      '/movies_pictures/7d9ae1e530b9.jpg',
+    coverUrl: '/movies_pictures/7d9ae1e530b9.jpg',
     releaseDate: '2010-08-18',
     length: 82,
     genre: ['Comédie'],
@@ -7278,8 +7241,7 @@ export const baseMoviesPage5: BaseMovie[] = [
         name: 'Tracy Morgan',
       },
     ],
-    coverUrl:
-      '/movies_pictures/ea033986376d.jpg',
+    coverUrl: '/movies_pictures/ea033986376d.jpg',
     releaseDate: '2008-03-28',
     length: 85,
     genre: ['Comédie'],
@@ -7315,8 +7277,7 @@ export const baseMoviesPage5: BaseMovie[] = [
         name: 'Keenen Ivory Wayans',
       },
     ],
-    coverUrl:
-      '/movies_pictures/5f141a51b9a9.jpg',
+    coverUrl: '/movies_pictures/5f141a51b9a9.jpg',
     releaseDate: '1996-01-12',
     length: 89,
     genre: ['Comédie'],
