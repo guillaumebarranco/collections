@@ -36,7 +36,8 @@ export const baseMoviesPage9: BaseMovie[] = [
       {
         name: 'Bill Murray',
       },
-    ],    coverUrl: '/movies_pictures/3cf895644916.jpg',
+    ],
+    coverUrl: '/movies_pictures/3cf895644916.jpg',
     releaseDate: '1995-02-03',
     length: 127,
     genre: ['Biographie', 'Comédie', 'Drame'],
@@ -57,7 +58,7 @@ export const baseMoviesPage9: BaseMovie[] = [
         name: 'Winona Ryder',
       },
       {
-        name: 'Catherine O\'Hara',
+        name: "Catherine O'Hara",
       },
       {
         name: 'Martin Short',
@@ -107,7 +108,8 @@ export const baseMoviesPage9: BaseMovie[] = [
       {
         name: 'Erica Yohn',
       },
-    ],    coverUrl: '/movies_pictures/bc10d3ed518a.jpg',
+    ],
+    coverUrl: '/movies_pictures/bc10d3ed518a.jpg',
     releaseDate: '1985-08-09',
     length: 91,
     genre: ['Aventure', 'Comédie', 'Jeunesse'],
@@ -143,7 +145,8 @@ export const baseMoviesPage9: BaseMovie[] = [
       {
         name: 'Hélène Vincent',
       },
-    ],    coverUrl: '/movies_pictures/5549252be6fd.jpg',
+    ],
+    coverUrl: '/movies_pictures/5549252be6fd.jpg',
     releaseDate: '2014-10-15',
     length: 118,
     genre: ['Comédie', 'Drame', 'Romance'],
@@ -172,7 +175,8 @@ export const baseMoviesPage9: BaseMovie[] = [
       {
         name: 'Lyna Khoudri',
       },
-    ],    coverUrl: '/movies_pictures/b29734b8f2e0.jpg',
+    ],
+    coverUrl: '/movies_pictures/b29734b8f2e0.jpg',
     releaseDate: '2019-03-25',
     length: 114,
     genre: ['Comédie', 'Drame'],
@@ -207,7 +211,8 @@ export const baseMoviesPage9: BaseMovie[] = [
       {
         name: 'Cyril Couton',
       },
-    ],    coverUrl: '/movies_pictures/cc99e6df0c7e.jpg',
+    ],
+    coverUrl: '/movies_pictures/cc99e6df0c7e.jpg',
     releaseDate: '2009-06-17',
     length: 102,
     genre: ['Comédie', 'Drame'],
@@ -242,7 +247,8 @@ export const baseMoviesPage9: BaseMovie[] = [
       {
         name: 'Céline Duhamel',
       },
-    ],    coverUrl: '/movies_pictures/cc0469025f2b.jpg',
+    ],
+    coverUrl: '/movies_pictures/cc0469025f2b.jpg',
     releaseDate: '2010-12-22',
     length: 80,
     genre: ['Comédie', 'Romance'],
@@ -277,7 +283,8 @@ export const baseMoviesPage9: BaseMovie[] = [
       {
         name: 'Ruben Alves',
       },
-    ],    coverUrl: '/movies_pictures/3b9b65058891.jpg',
+    ],
+    coverUrl: '/movies_pictures/3b9b65058891.jpg',
     releaseDate: '2016-12-21',
     length: 118,
     genre: ['Comédie', 'Drame'],
@@ -312,7 +319,8 @@ export const baseMoviesPage9: BaseMovie[] = [
       {
         name: 'Judith Chemla',
       },
-    ],    coverUrl: '/movies_pictures/dd349fc8a404.jpg',
+    ],
+    coverUrl: '/movies_pictures/dd349fc8a404.jpg',
     releaseDate: '2017-10-04',
     length: 117,
     genre: ['Comédie', 'Drame'],
@@ -345,7 +353,8 @@ export const baseMoviesPage9: BaseMovie[] = [
       {
         name: 'Thomas de Pourquery',
       },
-    ],    coverUrl: '/movies_pictures/4242dd9f74ba.jpg',
+    ],
+    coverUrl: '/movies_pictures/4242dd9f74ba.jpg',
     releaseDate: '2018-10-17',
     length: 122,
     genre: ['Comédie'],
@@ -404,7 +413,8 @@ export const baseMoviesPage9: BaseMovie[] = [
       {
         name: 'Alexis Michalik',
       },
-    ],    coverUrl: '/movies_pictures/a5c44d589de5.jpg',
+    ],
+    coverUrl: '/movies_pictures/a5c44d589de5.jpg',
     releaseDate: '2024-04-10',
     length: 91,
     genre: ['Comédie'],
@@ -441,7 +451,8 @@ export const baseMoviesPage9: BaseMovie[] = [
       {
         name: 'Ewen Bremner',
       },
-    ],    coverUrl: '/movies_pictures/DigitalCollectionThumbnailHandler.jpg',
+    ],
+    coverUrl: '/movies_pictures/DigitalCollectionThumbnailHandler.jpg',
     releaseDate: '2002-01-18',
     length: 144,
     genre: ['Guerre', 'Drame', 'Historique'],
@@ -476,7 +487,8 @@ export const baseMoviesPage9: BaseMovie[] = [
       {
         name: 'Edward Norton',
       },
-    ],    coverUrl: '/movies_pictures/a1c11f755bdc.jpeg',
+    ],
+    coverUrl: '/movies_pictures/a1c11f755bdc.jpeg',
     releaseDate: '2005-05-06',
     length: 144,
     genre: ['Action', 'Aventure', 'Historique'],
@@ -511,7 +523,8 @@ export const baseMoviesPage9: BaseMovie[] = [
       {
         name: 'Golshifteh Farahani',
       },
-    ],    coverUrl: '/movies_pictures/5103b7e78bda.jpg',
+    ],
+    coverUrl: '/movies_pictures/5103b7e78bda.jpg',
     releaseDate: '2008-10-10',
     length: 128,
     genre: ['Action', 'Thriller', 'Drame'],
@@ -546,7 +559,8 @@ export const baseMoviesPage9: BaseMovie[] = [
       {
         name: 'Joe Armstrong',
       },
-    ],    coverUrl: '/movies_pictures/e13e32068b45.jpg',
+    ],
+    coverUrl: '/movies_pictures/e13e32068b45.jpg',
     releaseDate: '2010-05-12',
     length: 140,
     genre: ['Action', 'Aventure', 'Drame'],
@@ -581,7 +595,8 @@ export const baseMoviesPage9: BaseMovie[] = [
       {
         name: 'Ruby Dee',
       },
-    ],    coverUrl: '/movies_pictures/00c907c6db99.jpg',
+    ],
+    coverUrl: '/movies_pictures/00c907c6db99.jpg',
     releaseDate: '2007-11-02',
     length: 157,
     genre: ['Policier', 'Drame', 'Thriller'],
@@ -652,7 +667,8 @@ export const baseMoviesPage9: BaseMovie[] = [
       {
         name: 'Jeremy Irons',
       },
-    ],    coverUrl: '/movies_pictures/2060788058cb.jpg',
+    ],
+    coverUrl: '/movies_pictures/2060788058cb.jpg',
     releaseDate: '2021-11-24',
     length: 158,
     genre: ['Biographie', 'Drame', 'Thriller'],
@@ -682,12 +698,13 @@ export const baseMoviesPage9: BaseMovie[] = [
         name: 'Bruce McGill',
       },
       {
-        name: 'Jenny O\'Hara',
+        name: "Jenny O'Hara",
       },
       {
         name: 'Steve Eastin',
       },
-    ],    coverUrl: '/movies_pictures/f70865bf87a9.jpg',
+    ],
+    coverUrl: '/movies_pictures/f70865bf87a9.jpg',
     releaseDate: '2003-09-12',
     length: 116,
     genre: ['Comédie', 'Drame', 'Policier'],
@@ -723,7 +740,8 @@ export const baseMoviesPage9: BaseMovie[] = [
       {
         name: 'John Turturro',
       },
-    ],    coverUrl: '/movies_pictures/f3af073ebdb2.jpg',
+    ],
+    coverUrl: '/movies_pictures/f3af073ebdb2.jpg',
     releaseDate: '1980-11-14',
     length: 129,
     genre: ['Biographie', 'Drame'],
@@ -772,7 +790,8 @@ export const baseMoviesPage9: BaseMovie[] = [
       {
         name: 'Cheech Marin',
       },
-    ],    coverUrl: '/movies_pictures/47e9bc67b89a.jpg',
+    ],
+    coverUrl: '/movies_pictures/47e9bc67b89a.jpg',
     releaseDate: '1985-09-13',
     length: 97,
     genre: ['Comédie', 'Thriller', 'Drame'],
@@ -807,7 +826,8 @@ export const baseMoviesPage9: BaseMovie[] = [
       {
         name: 'Forest Whitaker',
       },
-    ],    coverUrl: '/movies_pictures/6e4dc75561f6.jpg',
+    ],
+    coverUrl: '/movies_pictures/6e4dc75561f6.jpg',
     releaseDate: '1986-10-08',
     length: 119,
     genre: ['Drame', 'Thriller'],
@@ -842,7 +862,8 @@ export const baseMoviesPage9: BaseMovie[] = [
       {
         name: 'Gregory Peck',
       },
-    ],    coverUrl: '/movies_pictures/0088e6f9bbd0.jpg',
+    ],
+    coverUrl: '/movies_pictures/0088e6f9bbd0.jpg',
     releaseDate: '1991-11-15',
     length: 128,
     genre: ['Thriller', 'Policier'],
@@ -877,7 +898,8 @@ export const baseMoviesPage9: BaseMovie[] = [
       {
         name: 'Miriam Margolyes',
       },
-    ],    coverUrl: '/movies_pictures/1a5d11235e7a.jpg',
+    ],
+    coverUrl: '/movies_pictures/1a5d11235e7a.jpg',
     releaseDate: '1993-10-01',
     length: 139,
     genre: ['Drame', 'Romance'],
@@ -912,7 +934,8 @@ export const baseMoviesPage9: BaseMovie[] = [
       {
         name: 'Stephen Graham',
       },
-    ],    coverUrl: '/movies_pictures/5956e35e0cf6.jpg',
+    ],
+    coverUrl: '/movies_pictures/5956e35e0cf6.jpg',
     releaseDate: '2019-11-27',
     length: 209,
     genre: ['Biographie', 'Policier', 'Drame'],
@@ -947,7 +970,8 @@ export const baseMoviesPage9: BaseMovie[] = [
       {
         name: 'Afemo Omilami',
       },
-    ],    coverUrl: '/movies_pictures/02cbeac7405c.jpg',
+    ],
+    coverUrl: '/movies_pictures/02cbeac7405c.jpg',
     releaseDate: '1999-10-22',
     length: 121,
     genre: ['Drame', 'Thriller'],
@@ -982,7 +1006,8 @@ export const baseMoviesPage9: BaseMovie[] = [
       {
         name: 'Phintso Thonden',
       },
-    ],    coverUrl: '/movies_pictures/188b471b8c6b.jpg',
+    ],
+    coverUrl: '/movies_pictures/188b471b8c6b.jpg',
     releaseDate: '1997-12-25',
     length: 134,
     genre: ['Biographie', 'Historique', 'Drame'],
@@ -1017,7 +1042,8 @@ export const baseMoviesPage9: BaseMovie[] = [
       {
         name: 'George Memmoli',
       },
-    ],    coverUrl: '/movies_pictures/bdbc20206e84.jpg',
+    ],
+    coverUrl: '/movies_pictures/bdbc20206e84.jpg',
     releaseDate: '1977-06-21',
     length: 136,
     genre: ['Drame', 'Romance', 'Comédie musicale'],
@@ -1053,7 +1079,8 @@ export const baseMoviesPage9: BaseMovie[] = [
       {
         name: 'Judith Roberts',
       },
-    ],    coverUrl: '/movies_pictures/db7b30ff35df.jpg',
+    ],
+    coverUrl: '/movies_pictures/db7b30ff35df.jpg',
     releaseDate: '1977-03-19',
     length: 89,
     genre: ['Horreur', 'Fantastique', 'Drame'],
@@ -1088,7 +1115,8 @@ export const baseMoviesPage9: BaseMovie[] = [
       {
         name: 'George Dickerson',
       },
-    ],    coverUrl: '/movies_pictures/6953de9b417a.jpg',
+    ],
+    coverUrl: '/movies_pictures/6953de9b417a.jpg',
     releaseDate: '1986-09-19',
     length: 120,
     genre: ['Thriller', 'Mystère', 'Drame'],
@@ -1123,7 +1151,8 @@ export const baseMoviesPage9: BaseMovie[] = [
       {
         name: 'Harry Dean Stanton',
       },
-    ],    coverUrl: '/movies_pictures/5c5c66a89897.jpg',
+    ],
+    coverUrl: '/movies_pictures/5c5c66a89897.jpg',
     releaseDate: '1990-08-17',
     length: 124,
     genre: ['Romance', 'Thriller', 'Policier'],
@@ -1158,7 +1187,8 @@ export const baseMoviesPage9: BaseMovie[] = [
       {
         name: 'Kyle MacLachlan',
       },
-    ],    coverUrl: '/movies_pictures/148ef6e4f94d.jpg',
+    ],
+    coverUrl: '/movies_pictures/148ef6e4f94d.jpg',
     releaseDate: '1992-08-28',
     length: 135,
     genre: ['Horreur', 'Drame', 'Mystère'],
@@ -1193,7 +1223,8 @@ export const baseMoviesPage9: BaseMovie[] = [
       {
         name: 'Robert Blake',
       },
-    ],    coverUrl: '/movies_pictures/f6189a1aea89.jpg',
+    ],
+    coverUrl: '/movies_pictures/f6189a1aea89.jpg',
     releaseDate: '1997-02-21',
     length: 134,
     genre: ['Thriller', 'Mystère', 'Drame'],
@@ -1228,7 +1259,8 @@ export const baseMoviesPage9: BaseMovie[] = [
       {
         name: 'Jennifer Edwards-Hughes',
       },
-    ],    coverUrl: '/movies_pictures/7d50a3d03ec0.jpg',
+    ],
+    coverUrl: '/movies_pictures/7d50a3d03ec0.jpg',
     releaseDate: '1999-10-15',
     length: 112,
     genre: ['Biographie', 'Drame', 'Aventure'],
@@ -1263,7 +1295,8 @@ export const baseMoviesPage9: BaseMovie[] = [
       {
         name: 'Diane Ladd',
       },
-    ],    coverUrl: '/movies_pictures/f879fef33690.jpg',
+    ],
+    coverUrl: '/movies_pictures/f879fef33690.jpg',
     releaseDate: '2006-09-06',
     length: 180,
     genre: ['Mystère', 'Thriller', 'Drame'],
@@ -1298,7 +1331,8 @@ export const baseMoviesPage9: BaseMovie[] = [
       {
         name: 'Linda Hunt',
       },
-    ],    coverUrl: '/movies_pictures/d99e21e694eb.jpeg',
+    ],
+    coverUrl: '/movies_pictures/d99e21e694eb.jpeg',
     releaseDate: '1984-12-14',
     length: 137,
     genre: ['Science Fiction', 'Aventure', 'Drame'],
@@ -1334,7 +1368,8 @@ export const baseMoviesPage9: BaseMovie[] = [
       {
         name: 'Melora Walters',
       },
-    ],    coverUrl: '/movies_pictures/8ccbce96ec4c.jpg',
+    ],
+    coverUrl: '/movies_pictures/8ccbce96ec4c.jpg',
     releaseDate: '1997-02-28',
     length: 102,
     genre: ['Drame', 'Thriller', 'Policier'],
@@ -1369,7 +1404,8 @@ export const baseMoviesPage9: BaseMovie[] = [
       {
         name: 'Philip Seymour Hoffman',
       },
-    ],    coverUrl: '/movies_pictures/2e558af5635c.jpg',
+    ],
+    coverUrl: '/movies_pictures/2e558af5635c.jpg',
     releaseDate: '1997-10-10',
     length: 155,
     genre: ['Drame', 'Comédie'],
@@ -1402,9 +1438,10 @@ export const baseMoviesPage9: BaseMovie[] = [
         name: 'Jesse Plemons',
       },
       {
-        name: 'Kevin J. O\'Connor',
+        name: "Kevin J. O'Connor",
       },
-    ],    coverUrl: '/movies_pictures/d042bb9824d5.jpg',
+    ],
+    coverUrl: '/movies_pictures/d042bb9824d5.jpg',
     releaseDate: '2012-09-14',
     length: 144,
     genre: ['Drame'],
@@ -1431,7 +1468,7 @@ export const baseMoviesPage9: BaseMovie[] = [
         name: 'Josh Brolin',
       },
       {
-        name: 'Kevin J. O\'Connor',
+        name: "Kevin J. O'Connor",
       },
       {
         name: 'Martin Short',
@@ -1439,7 +1476,8 @@ export const baseMoviesPage9: BaseMovie[] = [
       {
         name: 'Owen Wilson',
       },
-    ],    coverUrl: '/movies_pictures/1f3a191b0c7f.jpg',
+    ],
+    coverUrl: '/movies_pictures/1f3a191b0c7f.jpg',
     releaseDate: '2014-12-12',
     length: 148,
     genre: ['Comédie', 'Policier', 'Drame'],
@@ -1474,7 +1512,8 @@ export const baseMoviesPage9: BaseMovie[] = [
       {
         name: 'Gina McKee',
       },
-    ],    coverUrl: '/movies_pictures/570ae7d06777.jpg',
+    ],
+    coverUrl: '/movies_pictures/570ae7d06777.jpg',
     releaseDate: '2017-12-25',
     length: 130,
     genre: ['Drame', 'Romance'],
@@ -1509,7 +1548,8 @@ export const baseMoviesPage9: BaseMovie[] = [
       {
         name: 'Skyler Gisondo',
       },
-    ],    coverUrl: '/movies_pictures/5633e846dd8d.jpg',
+    ],
+    coverUrl: '/movies_pictures/5633e846dd8d.jpg',
     releaseDate: '2021-11-26',
     length: 133,
     genre: ['Comédie', 'Drame', 'Romance'],
@@ -1545,7 +1585,8 @@ export const baseMoviesPage9: BaseMovie[] = [
       {
         name: 'Guillermo del Toro',
       },
-    ],    coverUrl: '/movies_pictures/1779fb4a2a18.jpg',
+    ],
+    coverUrl: '/movies_pictures/1779fb4a2a18.jpg',
     releaseDate: '1993-04-30',
     length: 92,
     genre: ['Horreur', 'Drame', 'Fantastique'],
@@ -1580,7 +1621,8 @@ export const baseMoviesPage9: BaseMovie[] = [
       {
         name: 'Alexander Goodwin',
       },
-    ],    coverUrl: '/movies_pictures/7d89a4ef4932.jpg',
+    ],
+    coverUrl: '/movies_pictures/7d89a4ef4932.jpg',
     releaseDate: '1997-08-22',
     length: 105,
     genre: ['Science Fiction', 'Horreur', 'Thriller'],
@@ -1615,7 +1657,8 @@ export const baseMoviesPage9: BaseMovie[] = [
       {
         name: 'Fernando Tielve',
       },
-    ],    coverUrl: '/movies_pictures/dd44d15d1514.jpg',
+    ],
+    coverUrl: '/movies_pictures/dd44d15d1514.jpg',
     releaseDate: '2001-04-20',
     length: 106,
     genre: ['Horreur', 'Drame', 'Thriller'],
@@ -1651,7 +1694,8 @@ export const baseMoviesPage9: BaseMovie[] = [
       {
         name: 'Ian Abercrombie',
       },
-    ],    coverUrl: '/movies_pictures/c5ca3d9a8050.jpg',
+    ],
+    coverUrl: '/movies_pictures/c5ca3d9a8050.jpg',
     releaseDate: '1993-02-19',
     length: 81,
     genre: ['Comédie', 'Fantastique', 'Horreur'],
@@ -1686,7 +1730,8 @@ export const baseMoviesPage9: BaseMovie[] = [
       {
         name: 'Reggie Lee',
       },
-    ],    coverUrl: '/movies_pictures/b1c7bffc8136.jpg',
+    ],
+    coverUrl: '/movies_pictures/b1c7bffc8136.jpg',
     releaseDate: '2009-05-29',
     length: 99,
     genre: ['Horreur', 'Thriller'],
@@ -1721,7 +1766,8 @@ export const baseMoviesPage9: BaseMovie[] = [
       {
         name: 'Bruce Campbell',
       },
-    ],    coverUrl: '/movies_pictures/3c3a1f29efd6.jpg',
+    ],
+    coverUrl: '/movies_pictures/3c3a1f29efd6.jpg',
     releaseDate: '1990-08-24',
     length: 96,
     genre: ['Action', 'Science Fiction', 'Thriller'],
@@ -1756,7 +1802,8 @@ export const baseMoviesPage9: BaseMovie[] = [
       {
         name: 'Chelcie Ross',
       },
-    ],    coverUrl: '/movies_pictures/ab3bbecfc8cd.jpg',
+    ],
+    coverUrl: '/movies_pictures/ab3bbecfc8cd.jpg',
     releaseDate: '1998-12-11',
     length: 121,
     genre: ['Thriller', 'Drame', 'Policier'],
@@ -1791,7 +1838,8 @@ export const baseMoviesPage9: BaseMovie[] = [
       {
         name: 'Joey King',
       },
-    ],    coverUrl: '/movies_pictures/f656998f7f21.jpeg',
+    ],
+    coverUrl: '/movies_pictures/f656998f7f21.jpeg',
     releaseDate: '2013-03-08',
     length: 130,
     genre: ['Aventure', 'Fantastique', 'Jeunesse'],
@@ -1863,7 +1911,8 @@ export const baseMoviesPage9: BaseMovie[] = [
       {
         name: 'Hanna R. Hall',
       },
-    ],    coverUrl: '/movies_pictures/eb8d890a4c0e.jpeg',
+    ],
+    coverUrl: '/movies_pictures/eb8d890a4c0e.jpeg',
     releaseDate: '2000-04-21',
     length: 97,
     genre: ['Drame', 'Romance', 'Mystère'],
@@ -1898,7 +1947,8 @@ export const baseMoviesPage9: BaseMovie[] = [
       {
         name: 'Jo Champa',
       },
-    ],    coverUrl: '/movies_pictures/70ba6ed1111c.jpg',
+    ],
+    coverUrl: '/movies_pictures/70ba6ed1111c.jpg',
     releaseDate: '2010-12-22',
     length: 97,
     genre: ['Drame'],
@@ -1933,7 +1983,8 @@ export const baseMoviesPage9: BaseMovie[] = [
       {
         name: 'Wayne Pére',
       },
-    ],    coverUrl: '/movies_pictures/54815.webp',
+    ],
+    coverUrl: '/movies_pictures/54815.webp',
     releaseDate: '2017-06-23',
     length: 93,
     genre: ['Drame', 'Thriller', 'Guerre'],
@@ -1956,7 +2007,8 @@ export const baseMoviesPage9: BaseMovie[] = [
       {
         name: 'Marlon Wayans',
       },
-    ],    coverUrl: '/movies_pictures/aaa4112420be.jpg',
+    ],
+    coverUrl: '/movies_pictures/aaa4112420be.jpg',
     releaseDate: '2020-10-02',
     length: 96,
     genre: ['Comédie', 'Drame'],
@@ -2028,7 +2080,8 @@ export const baseMoviesPage9: BaseMovie[] = [
       {
         name: 'Allen Garfield',
       },
-    ],    coverUrl: '/movies_pictures/9c2691283f5b.jpg',
+    ],
+    coverUrl: '/movies_pictures/9c2691283f5b.jpg',
     releaseDate: '1974-04-07',
     length: 113,
     genre: ['Thriller', 'Mystère', 'Drame'],
@@ -2063,7 +2116,8 @@ export const baseMoviesPage9: BaseMovie[] = [
       {
         name: 'Danny Glover',
       },
-    ],    coverUrl: '/movies_pictures/0b66d7231257.jpg',
+    ],
+    coverUrl: '/movies_pictures/0b66d7231257.jpg',
     releaseDate: '1997-11-21',
     length: 135,
     genre: ['Drame', 'Policier'],
@@ -2098,7 +2152,8 @@ export const baseMoviesPage9: BaseMovie[] = [
       {
         name: 'Corin Nemec',
       },
-    ],    coverUrl: '/movies_pictures/dadd0c32545d.jpg',
+    ],
+    coverUrl: '/movies_pictures/dadd0c32545d.jpg',
     releaseDate: '1988-08-12',
     length: 110,
     genre: ['Biographie', 'Comédie', 'Drame'],
@@ -2133,7 +2188,8 @@ export const baseMoviesPage9: BaseMovie[] = [
       {
         name: 'Nicolas Cage',
       },
-    ],    coverUrl: '/movies_pictures/a8e180e65b12.jpg',
+    ],
+    coverUrl: '/movies_pictures/a8e180e65b12.jpg',
     releaseDate: '1983-10-21',
     length: 94,
     genre: ['Drame'],
@@ -2168,7 +2224,8 @@ export const baseMoviesPage9: BaseMovie[] = [
       {
         name: 'Bob Hoskins',
       },
-    ],    coverUrl: '/movies_pictures/4208c6138b60.jpg',
+    ],
+    coverUrl: '/movies_pictures/4208c6138b60.jpg',
     releaseDate: '1984-12-14',
     length: 127,
     genre: ['Drame', 'Historique', 'Comédie musicale'],
@@ -2204,7 +2261,8 @@ export const baseMoviesPage9: BaseMovie[] = [
       {
         name: 'Matthew Robbins',
       },
-    ],    coverUrl: '/movies_pictures/a2bb0eb07061.jpg',
+    ],
+    coverUrl: '/movies_pictures/a2bb0eb07061.jpg',
     releaseDate: '1971-03-11',
     length: 88,
     genre: ['Science Fiction', 'Dystopie', 'Drame'],
@@ -2239,7 +2297,8 @@ export const baseMoviesPage9: BaseMovie[] = [
       {
         name: 'Wolfman Jack',
       },
-    ],    coverUrl: '/movies_pictures/997f4d7dc7ab.jpg',
+    ],
+    coverUrl: '/movies_pictures/997f4d7dc7ab.jpg',
     releaseDate: '1973-08-11',
     length: 110,
     genre: ['Comédie', 'Drame'],
@@ -2275,7 +2334,8 @@ export const baseMoviesPage9: BaseMovie[] = [
       {
         name: 'Jayne Eastwood',
       },
-    ],    coverUrl: '/movies_pictures/8c3008eafcbf.jpg',
+    ],
+    coverUrl: '/movies_pictures/8c3008eafcbf.jpg',
     releaseDate: '1983-02-04',
     length: 87,
     genre: ['Science Fiction', 'Horreur', 'Thriller'],
@@ -2304,7 +2364,8 @@ export const baseMoviesPage9: BaseMovie[] = [
       {
         name: 'David Cronenberg',
       },
-    ],    coverUrl: '/movies_pictures/11f541ce75b9.jpg',
+    ],
+    coverUrl: '/movies_pictures/11f541ce75b9.jpg',
     releaseDate: '1986-08-15',
     length: 96,
     genre: ['Science Fiction', 'Horreur', 'Drame'],
@@ -2339,7 +2400,8 @@ export const baseMoviesPage9: BaseMovie[] = [
       {
         name: 'Stephen Lack',
       },
-    ],    coverUrl: '/movies_pictures/76273bb4c026.jpg',
+    ],
+    coverUrl: '/movies_pictures/76273bb4c026.jpg',
     releaseDate: '1988-09-23',
     length: 115,
     genre: ['Drame', 'Thriller', 'Horreur'],
@@ -2374,7 +2436,8 @@ export const baseMoviesPage9: BaseMovie[] = [
       {
         name: 'Peter MacNeill',
       },
-    ],    coverUrl: '/movies_pictures/d67467b38184.jpg',
+    ],
+    coverUrl: '/movies_pictures/d67467b38184.jpg',
     releaseDate: '1996-10-04',
     length: 100,
     genre: ['Drame', 'Thriller'],
@@ -2409,7 +2472,8 @@ export const baseMoviesPage9: BaseMovie[] = [
       {
         name: 'Christopher Eccleston',
       },
-    ],    coverUrl: '/movies_pictures/fddf2bb65a50.jpg',
+    ],
+    coverUrl: '/movies_pictures/fddf2bb65a50.jpg',
     releaseDate: '1999-04-23',
     length: 97,
     genre: ['Science Fiction', 'Thriller', 'Horreur'],
@@ -2444,7 +2508,8 @@ export const baseMoviesPage9: BaseMovie[] = [
       {
         name: 'Sarah-Jeanne Labrosse',
       },
-    ],    coverUrl: '/movies_pictures/446e29536deb.jpg',
+    ],
+    coverUrl: '/movies_pictures/446e29536deb.jpg',
     releaseDate: '2007-09-14',
     length: 100,
     genre: ['Thriller', 'Policier', 'Drame'],
@@ -2462,7 +2527,7 @@ export const baseMoviesPage9: BaseMovie[] = [
         name: 'Stephen Lack',
       },
       {
-        name: 'Jennifer O\'Neill',
+        name: "Jennifer O'Neill",
       },
       {
         name: 'Patrick McGoohan',
@@ -2479,7 +2544,8 @@ export const baseMoviesPage9: BaseMovie[] = [
       {
         name: 'Manfred Schott',
       },
-    ],    coverUrl: '/movies_pictures/556b6a1eebb6.jpg',
+    ],
+    coverUrl: '/movies_pictures/556b6a1eebb6.jpg',
     releaseDate: '1981-01-14',
     length: 103,
     genre: ['Science Fiction', 'Horreur', 'Thriller'],
@@ -2515,7 +2581,8 @@ export const baseMoviesPage9: BaseMovie[] = [
       {
         name: 'Donald Pleasence',
       },
-    ],    coverUrl: '/movies_pictures/caef486d271f.jpg',
+    ],
+    coverUrl: '/movies_pictures/caef486d271f.jpg',
     releaseDate: '1981-07-10',
     length: 99,
     genre: ['Action', 'Science Fiction', 'Thriller'],
@@ -2550,7 +2617,8 @@ export const baseMoviesPage9: BaseMovie[] = [
       {
         name: 'Tommy Morrison',
       },
-    ],    coverUrl: '/movies_pictures/c1817fae3f28.jpg',
+    ],
+    coverUrl: '/movies_pictures/c1817fae3f28.jpg',
     releaseDate: '1988-11-23',
     length: 94,
     genre: ['Science Fiction', 'Action', 'Thriller'],
@@ -2585,7 +2653,8 @@ export const baseMoviesPage9: BaseMovie[] = [
       {
         name: 'Al Leong',
       },
-    ],    coverUrl: '/movies_pictures/f3ba912a97dd.jpg',
+    ],
+    coverUrl: '/movies_pictures/f3ba912a97dd.jpg',
     releaseDate: '1986-07-02',
     length: 99,
     genre: ['Action', 'Aventure', 'Comédie'],
@@ -2620,7 +2689,8 @@ export const baseMoviesPage9: BaseMovie[] = [
       {
         name: 'Nancy Kyes',
       },
-    ],    coverUrl: '/movies_pictures/7a3606fe6754.jpg',
+    ],
+    coverUrl: '/movies_pictures/7a3606fe6754.jpg',
     releaseDate: '1980-02-08',
     length: 89,
     genre: ['Horreur', 'Mystère'],
@@ -2655,7 +2725,8 @@ export const baseMoviesPage9: BaseMovie[] = [
       {
         name: 'Charles Cyphers',
       },
-    ],    coverUrl: '/movies_pictures/681d4ef06f1e.jpg',
+    ],
+    coverUrl: '/movies_pictures/681d4ef06f1e.jpg',
     releaseDate: '1976-11-03',
     length: 91,
     genre: ['Action', 'Thriller', 'Policier'],
@@ -2690,7 +2761,8 @@ export const baseMoviesPage9: BaseMovie[] = [
       {
         name: 'George Buck Flower',
       },
-    ],    coverUrl: '/movies_pictures/0e81aa55fdac.jpg',
+    ],
+    coverUrl: '/movies_pictures/0e81aa55fdac.jpg',
     releaseDate: '1984-12-14',
     length: 115,
     genre: ['Romance', 'Science Fiction', 'Drame'],
@@ -2725,7 +2797,8 @@ export const baseMoviesPage9: BaseMovie[] = [
       {
         name: 'Malcolm Danare',
       },
-    ],    coverUrl: '/movies_pictures/70d0bc180b23.jpg',
+    ],
+    coverUrl: '/movies_pictures/70d0bc180b23.jpg',
     releaseDate: '1983-12-09',
     length: 110,
     genre: ['Horreur', 'Thriller'],
@@ -2760,7 +2833,8 @@ export const baseMoviesPage9: BaseMovie[] = [
       {
         name: 'Bernie Casey',
       },
-    ],    coverUrl: '/movies_pictures/48f834451d49.jpg',
+    ],
+    coverUrl: '/movies_pictures/48f834451d49.jpg',
     releaseDate: '1995-02-03',
     length: 95,
     genre: ['Horreur', 'Mystère', 'Thriller'],
@@ -2779,7 +2853,7 @@ export const baseMoviesPage9: BaseMovie[] = [
         name: 'Duane Jones',
       },
       {
-        name: 'Judith O\'Dea',
+        name: "Judith O'Dea",
       },
       {
         name: 'Karl Hardman',
@@ -2796,7 +2870,8 @@ export const baseMoviesPage9: BaseMovie[] = [
       {
         name: 'Kyra Schon',
       },
-    ],    coverUrl: '/movies_pictures/740034a0692e.jpg',
+    ],
+    coverUrl: '/movies_pictures/740034a0692e.jpg',
     releaseDate: '1968-10-01',
     length: 96,
     genre: ['Horreur', 'Thriller'],
@@ -2831,7 +2906,8 @@ export const baseMoviesPage9: BaseMovie[] = [
       {
         name: 'Richard France',
       },
-    ],    coverUrl: '/movies_pictures/2b4a7fa02199.jpg',
+    ],
+    coverUrl: '/movies_pictures/2b4a7fa02199.jpg',
     releaseDate: '1978-09-10',
     length: 127,
     genre: ['Horreur', 'Action', 'Science Fiction'],
@@ -2866,7 +2942,8 @@ export const baseMoviesPage9: BaseMovie[] = [
       {
         name: 'Sherman Howard',
       },
-    ],    coverUrl: '/movies_pictures/36044366c39e.jpg',
+    ],
+    coverUrl: '/movies_pictures/36044366c39e.jpg',
     releaseDate: '1985-07-03',
     length: 101,
     genre: ['Horreur', 'Science Fiction', 'Drame'],
@@ -2901,7 +2978,8 @@ export const baseMoviesPage9: BaseMovie[] = [
       {
         name: 'Sasha Roiz',
       },
-    ],    coverUrl: '/movies_pictures/ee6b90421df2.jpg',
+    ],
+    coverUrl: '/movies_pictures/ee6b90421df2.jpg',
     releaseDate: '2005-06-24',
     length: 93,
     genre: ['Horreur', 'Science Fiction', 'Action'],
@@ -2930,7 +3008,8 @@ export const baseMoviesPage9: BaseMovie[] = [
       {
         name: 'Jon Gries',
       },
-    ],    coverUrl: '/movies_pictures/f508422d672c.jpg',
+    ],
+    coverUrl: '/movies_pictures/f508422d672c.jpg',
     releaseDate: '1978-07-21',
     length: 95,
     genre: ['Horreur', 'Drame'],
@@ -2959,7 +3038,8 @@ export const baseMoviesPage9: BaseMovie[] = [
       {
         name: 'Richard Thomas France',
       },
-    ],    coverUrl: '/movies_pictures/f0819065ef53.jpg',
+    ],
+    coverUrl: '/movies_pictures/f0819065ef53.jpg',
     releaseDate: '1973-03-16',
     length: 103,
     genre: ['Horreur', 'Science Fiction', 'Action'],
@@ -3031,7 +3111,8 @@ export const baseMoviesPage9: BaseMovie[] = [
       {
         name: 'Tiny Sandford',
       },
-    ],    coverUrl: '/movies_pictures/463e45a82b00.jpg',
+    ],
+    coverUrl: '/movies_pictures/463e45a82b00.jpg',
     releaseDate: '1925-06-26',
     length: 95,
     genre: ['Comédie', 'Aventure', 'Romance'],
@@ -3066,7 +3147,8 @@ export const baseMoviesPage9: BaseMovie[] = [
       {
         name: 'Hugh Saxon',
       },
-    ],    coverUrl: '/movies_pictures/8daa41db4142.jpg',
+    ],
+    coverUrl: '/movies_pictures/8daa41db4142.jpg',
     releaseDate: '1928-01-06',
     length: 72,
     genre: ['Comédie', 'Romance'],
@@ -3101,7 +3183,8 @@ export const baseMoviesPage9: BaseMovie[] = [
       {
         name: 'Norman Lloyd',
       },
-    ],    coverUrl: '/movies_pictures/16ce23aba0de.jpg',
+    ],
+    coverUrl: '/movies_pictures/16ce23aba0de.jpg',
     releaseDate: '1952-10-16',
     length: 137,
     genre: ['Drame', 'Romance', 'Comédie musicale'],
@@ -3136,7 +3219,8 @@ export const baseMoviesPage9: BaseMovie[] = [
       {
         name: 'Fritz Leiber',
       },
-    ],    coverUrl: '/movies_pictures/c0720db1aac9.jpg',
+    ],
+    coverUrl: '/movies_pictures/c0720db1aac9.jpg',
     releaseDate: '1947-04-11',
     length: 124,
     genre: ['Comédie', 'Policier', 'Drame'],
@@ -3144,6 +3228,488 @@ export const baseMoviesPage9: BaseMovie[] = [
     description: '',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
+    selectDisplayOrder: 0,
+  },
+  {
+    title: 'Austin Powers dans Goldmember',
+    director: 'Jay Roach',
+    actors: [
+      {
+        name: 'Mike Myers',
+      },
+      {
+        name: 'Beyoncé',
+      },
+      {
+        name: 'Michael Caine',
+      },
+      {
+        name: 'Seth Green',
+      },
+      {
+        name: 'Michael York',
+      },
+      {
+        name: 'Verne Troyer',
+      },
+      {
+        name: 'Mindy Sterling',
+      },
+    ],
+    coverUrl:
+      '/movies_pictures/6f1732146283.jpg',
+    releaseDate: '2002-07-26',
+    length: 94,
+    genre: ['Comédie'],
+    saga: 'Austin Powers',
+    description: '',
+    fromEntity: null,
+    countryOrigin: ['États-Unis'],
+    selectDisplayOrder: 0,
+  },
+  {
+    title: "Austin Powers - L'Espion qui m'a tirée",
+    director: 'Jay Roach',
+    actors: [
+      {
+        name: 'Mike Myers',
+      },
+      {
+        name: 'Elizabeth Hurley',
+      },
+      {
+        name: 'Michael York',
+      },
+      {
+        name: 'Mimi Rogers',
+      },
+      {
+        name: 'Robert Wagner',
+      },
+      {
+        name: 'Seth Green',
+      },
+      {
+        name: 'Fabiana Udenio',
+      },
+    ],
+    coverUrl:
+      '/movies_pictures/5f6dc67749a0.jpg',
+    releaseDate: '1997-05-02',
+    length: 94,
+    genre: ['Comédie'],
+    saga: 'Austin Powers',
+    description: '',
+    fromEntity: null,
+    countryOrigin: ['États-Unis'],
+    selectDisplayOrder: 0,
+  },
+  {
+    title: 'Johnny English',
+    director: 'Peter Howitt',
+    actors: [
+      {
+        name: 'Rowan Atkinson',
+      },
+      {
+        name: 'Natalie Imbruglia',
+      },
+      {
+        name: 'John Malkovich',
+      },
+      {
+        name: 'Ben Miller',
+      },
+      {
+        name: 'Greg Wise',
+      },
+      {
+        name: 'Tasha de Vasconcelos',
+      },
+      {
+        name: 'Douglas McFerran',
+      },
+    ],
+    coverUrl:
+      '/movies_pictures/fc330392805f.jpg',
+    releaseDate: '2003-04-06',
+    length: 88,
+    genre: ['Comédie', 'Action'],
+    saga: 'Johnny English',
+    description: '',
+    fromEntity: null,
+    countryOrigin: ['Royaume-Uni', 'France', 'États-Unis'],
+    selectDisplayOrder: 0,
+  },
+  {
+    title: 'Johnny English, le retour',
+    director: 'Oliver Parker',
+    actors: [
+      {
+        name: 'Rowan Atkinson',
+      },
+      {
+        name: 'Rosamund Pike',
+      },
+      {
+        name: 'Dominic West',
+      },
+      {
+        name: 'Gillian Anderson',
+      },
+      {
+        name: 'Daniel Kaluuya',
+      },
+      {
+        name: 'Richard Schiff',
+      },
+      {
+        name: 'Tim McInnerny',
+      },
+    ],
+    coverUrl:
+      '/movies_pictures/bd193410e596.jpg',
+    releaseDate: '2011-09-15',
+    length: 101,
+    genre: ['Comédie', 'Action'],
+    saga: 'Johnny English',
+    description: '',
+    fromEntity: null,
+    countryOrigin: ['Royaume-Uni', 'France', 'États-Unis'],
+    selectDisplayOrder: 0,
+  },
+  {
+    title: 'Johnny English 3 : Contre-attaque',
+    director: 'David Kerr',
+    actors: [
+      {
+        name: 'Rowan Atkinson',
+      },
+      {
+        name: 'Olga Kurylenko',
+      },
+      {
+        name: 'Ben Miller',
+      },
+      {
+        name: 'Emma Thompson',
+      },
+      {
+        name: 'Jake Lacy',
+      },
+      {
+        name: 'Miranda Hennessy',
+      },
+      {
+        name: 'Adam James',
+      },
+    ],
+    coverUrl:
+      '/movies_pictures/f9ebf7618bc7.jpg',
+    releaseDate: '2018-10-05',
+    length: 88,
+    genre: ['Comédie', 'Action'],
+    saga: 'Johnny English',
+    description: '',
+    fromEntity: null,
+    countryOrigin: ['Royaume-Uni', 'France', 'États-Unis'],
+    selectDisplayOrder: 0,
+  },
+  {
+    title: "Y a-t-il un pilote dans l'avion ?",
+    director: 'Jim Abrahams, David Zucker, Jerry Zucker',
+    actors: [
+      {
+        name: 'Robert Hays',
+      },
+      {
+        name: 'Julie Hagerty',
+      },
+      {
+        name: 'Leslie Nielsen',
+      },
+      {
+        name: 'Robert Stack',
+      },
+      {
+        name: 'Lloyd Bridges',
+      },
+      {
+        name: 'Peter Graves',
+      },
+      {
+        name: 'Kareem Abdul-Jabbar',
+      },
+    ],
+    coverUrl:
+      '/movies_pictures/629107712b62.jpg',
+    releaseDate: '1980-07-02',
+    length: 88,
+    genre: ['Comédie'],
+    saga: '',
+    description: '',
+    fromEntity: null,
+    countryOrigin: ['États-Unis'],
+    selectDisplayOrder: 0,
+  },
+  {
+    title: 'Y a-t-il un flic pour sauver le président ?',
+    director: 'David Zucker',
+    actors: [
+      {
+        name: 'Leslie Nielsen',
+      },
+      {
+        name: 'Priscilla Presley',
+      },
+      {
+        name: 'George Kennedy',
+      },
+      {
+        name: 'O. J. Simpson',
+      },
+      {
+        name: 'Robert Goulet',
+      },
+      {
+        name: 'Kathleen Freeman',
+      },
+      {
+        name: 'Richard Romanus',
+      },
+    ],
+    coverUrl:
+      '/movies_pictures/6ba63a53dcf5.jpg',
+    releaseDate: '1991-06-28',
+    length: 85,
+    genre: ['Comédie', 'Policier'],
+    saga: 'Y a-t-il un flic...',
+    description: '',
+    fromEntity: null,
+    countryOrigin: ['États-Unis'],
+    selectDisplayOrder: 0,
+  },
+  {
+    title: 'Y a-t-il un flic pour sauver la reine ?',
+    director: 'David Zucker',
+    actors: [
+      {
+        name: 'Leslie Nielsen',
+      },
+      {
+        name: 'Priscilla Presley',
+      },
+      {
+        name: 'Ricardo Montalbán',
+      },
+      {
+        name: 'George Kennedy',
+      },
+      {
+        name: 'O. J. Simpson',
+      },
+      {
+        name: 'Nancy Marchand',
+      },
+      {
+        name: 'John Houseman',
+      },
+    ],
+    coverUrl:
+      '/movies_pictures/f9c261044b6f.jpg',
+    releaseDate: '1988-12-02',
+    length: 85,
+    genre: ['Comédie', 'Policier'],
+    saga: 'Y a-t-il un flic...',
+    description: '',
+    fromEntity: null,
+    countryOrigin: ['États-Unis'],
+    selectDisplayOrder: 0,
+  },
+  {
+    title: 'Sex Academy',
+    director: 'Joel Gallen',
+    actors: [
+      {
+        name: 'Chyler Leigh',
+      },
+      {
+        name: 'Chris Evans',
+      },
+      {
+        name: 'Jaime Pressly',
+      },
+      {
+        name: 'Eric Christian Olsen',
+      },
+      {
+        name: 'Mia Kirshner',
+      },
+      {
+        name: 'Deon Richmond',
+      },
+      {
+        name: 'Eric Jungmann',
+      },
+    ],
+    coverUrl:
+      '/movies_pictures/61ab00831dca.jpg',
+    releaseDate: '2001-12-07',
+    length: 89,
+    genre: ['Comédie'],
+    saga: '',
+    description: '',
+    fromEntity: null,
+    countryOrigin: ['États-Unis'],
+    selectDisplayOrder: 0,
+  },
+  {
+    title: 'Mexican Pie',
+    director: 'Jason A. Carbone, Mike Fleiss',
+    actors: [
+      {
+        name: 'Eddie Macsalka',
+      },
+      {
+        name: 'Hans Swolfs',
+      },
+      {
+        name: 'Alexander Loyless',
+      },
+      {
+        name: "Johnny 'Kansas' Milord",
+      },
+      {
+        name: 'Bryan Codi',
+      },
+      {
+        name: 'Andrew Ghertner',
+      },
+      {
+        name: 'Matt Huntington',
+      },
+    ],
+    coverUrl:
+      '/movies_pictures/c72c534ebede.jpg',
+    releaseDate: '2003-09-24',
+    length: 75,
+    genre: ['Comédie'],
+    saga: '',
+    description: '',
+    fromEntity: null,
+    countryOrigin: ['États-Unis'],
+    selectDisplayOrder: 0,
+  },
+  {
+    title: 'Tucker et Dale fightent le mal',
+    director: 'Eli Craig',
+    actors: [
+      {
+        name: 'Tyler Labine',
+      },
+      {
+        name: 'Alan Tudyk',
+      },
+      {
+        name: 'Katrina Bowden',
+      },
+      {
+        name: 'Jesse Moss',
+      },
+      {
+        name: 'Chelan Simmons',
+      },
+      {
+        name: 'Brandon Jay McLaren',
+      },
+      {
+        name: 'Christie Laing',
+      },
+    ],
+    coverUrl:
+      '/movies_pictures/0bbbad00d75a.jpg',
+    releaseDate: '2010-01-22',
+    length: 89,
+    genre: ['Comédie', 'Horreur'],
+    saga: '',
+    description: '',
+    fromEntity: null,
+    countryOrigin: ['Canada', 'États-Unis', 'Royaume-Uni', 'Inde'],
+    selectDisplayOrder: 0,
+  },
+  {
+    title: 'Cinéman',
+    director: 'Yann Moix',
+    actors: [
+      {
+        name: 'Franck Dubosc',
+      },
+      {
+        name: 'Lucy Gordon',
+      },
+      {
+        name: 'Pierre-François Martin-Laval',
+      },
+      {
+        name: 'Pierre Richard',
+      },
+      {
+        name: 'Anne Marivin',
+      },
+      {
+        name: 'Michel Galabru',
+      },
+      {
+        name: 'Marisa Berenson',
+      },
+      {
+        name: 'Jean-Christophe Bouvet',
+      },
+    ],
+    coverUrl: '/movies_pictures/39816599a642.jpg',
+    releaseDate: '2009-10-28',
+    length: 90,
+    genre: ['Comédie', 'Fantastique', 'Romance'],
+    saga: '',
+    description: '',
+    fromEntity: null,
+    countryOrigin: ['France', 'Belgique'],
+    selectDisplayOrder: 0,
+  },
+  {
+    title: 'Deux heures moins le quart avant Jésus-Christ',
+    director: 'Jean Yanne',
+    actors: [
+      {
+        name: 'Coluche',
+      },
+      {
+        name: 'Michel Serrault',
+      },
+      {
+        name: 'Jean Yanne',
+      },
+      {
+        name: 'Françoise Fabian',
+      },
+      {
+        name: 'Michel Auclair',
+      },
+      {
+        name: 'Mimi Coutelier',
+      },
+      {
+        name: 'Darry Cowl',
+      },
+    ],
+    coverUrl: '/movies_pictures/63c7ae9e220c.jpg',
+    releaseDate: '1982-10-06',
+    length: 97,
+    genre: ['Comédie', 'Peplum'],
+    saga: '',
+    description: '',
+    fromEntity: null,
+    countryOrigin: ['France', 'Tunisie'],
     selectDisplayOrder: 0,
   },
 ];

@@ -7215,4 +7215,115 @@ export const baseMoviesPage5: BaseMovie[] = [
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
   },
+  {
+    title: 'Mords-moi sans hésitation',
+    director: 'Jason Friedberg, Aaron Seltzer',
+    actors: [
+      {
+        name: 'Jenn Proske',
+      },
+      {
+        name: 'Matt Lanter',
+      },
+      {
+        name: 'Christopher N. Riggi',
+      },
+      {
+        name: 'Ken Jeong',
+      },
+      {
+        name: 'Anneliese van der Pol',
+      },
+      {
+        name: 'Diedrich Bader',
+      },
+      {
+        name: 'Arielle Kebbel',
+      },
+    ],
+    coverUrl:
+      '/movies_pictures/7d9ae1e530b9.jpg',
+    releaseDate: '2010-08-18',
+    length: 82,
+    genre: ['Comédie'],
+    saga: '',
+    description: '',
+    fromEntity: null,
+    countryOrigin: ['États-Unis'],
+    selectDisplayOrder: 0,
+  },
+  {
+    title: 'Super Héros Movie',
+    director: 'Craig Mazin',
+    actors: [
+      {
+        name: 'Drake Bell',
+      },
+      {
+        name: 'Sara Paxton',
+      },
+      {
+        name: 'Leslie Nielsen',
+      },
+      {
+        name: 'Christopher McDonald',
+      },
+      {
+        name: 'Marion Ross',
+      },
+      {
+        name: 'Kevin Hart',
+      },
+      {
+        name: 'Tracy Morgan',
+      },
+    ],
+    coverUrl:
+      '/movies_pictures/ea033986376d.jpg',
+    releaseDate: '2008-03-28',
+    length: 85,
+    genre: ['Comédie'],
+    saga: '',
+    description: '',
+    fromEntity: null,
+    countryOrigin: ['États-Unis'],
+    selectDisplayOrder: 0,
+  },
+  {
+    title: 'Spoof Movie',
+    director: 'Paris Barclay',
+    actors: [
+      {
+        name: 'Shawn Wayans',
+      },
+      {
+        name: 'Marlon Wayans',
+      },
+      {
+        name: 'Tracey Cherelle Jones',
+      },
+      {
+        name: 'Vivica A. Fox',
+      },
+      {
+        name: 'Chris Spencer',
+      },
+      {
+        name: 'Bernie Mac',
+      },
+      {
+        name: 'Keenen Ivory Wayans',
+      },
+    ],
+    coverUrl:
+      '/movies_pictures/5f141a51b9a9.jpg',
+    releaseDate: '1996-01-12',
+    length: 89,
+    genre: ['Comédie'],
+    saga: '',
+    description: '',
+    fromEntity: null,
+    countryOrigin: ['États-Unis'],
+    selectDisplayOrder: 0,
+  },
 ];

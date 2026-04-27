@@ -3110,4 +3110,26 @@ export const baseMoviesAnimated: BaseMovie[] = [
     countryOrigin: ['Japon'],
     selectDisplayOrder: 0,
   },
+  {
+    title: 'Vaillant, pigeon de combat !',
+    director: 'Gary Chapman',
+    actors: [
+      { name: 'Ewan McGregor' },
+      { name: 'Ricky Gervais' },
+      { name: 'Tim Curry' },
+      { name: 'Jim Broadbent' },
+      { name: 'Hugh Laurie' },
+      { name: 'John Cleese' },
+    ],
+    coverUrl:
+      '/movies_pictures/a038d3716ad6.jpg',
+    releaseDate: '2005-03-25',
+    length: 76,
+    genre: ['Animation', 'Aventure', 'Jeunesse'],
+    saga: '',
+    description: '',
+    fromEntity: null,
+    countryOrigin: ['Royaume-Uni', 'États-Unis'],
+    selectDisplayOrder: 0,
+  },
 ];

@@ -1591,7 +1591,24 @@ export const baseMoviesPage8: BaseMovie[] = [
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
   },
-
+  {
+    title: 'Arnold',
+    director: 'Lesley Chilcott',
+    actors: [
+      {
+        name: 'Arnold Schwarzenegger',
+      },
+    ],
+    coverUrl: '/movies_pictures/1014180-arnold-0-150-0-225-crop.jpg',
+    releaseDate: '2023-06-07',
+    length: 180,
+    genre: ['Documentaire'],
+    saga: '',
+    description: '',
+    fromEntity: null,
+    countryOrigin: ['États-Unis'],
+    selectDisplayOrder: 0,
+  },
   {
     title: 'Le Plus Beau des combats',
     director: 'Boaz Yakin',

@@ -1300,8 +1300,7 @@ export const baseMoviesApi: BaseMovie[] = [
       { name: 'Kate Beckinsale' },
       { name: 'Christopher Walken' },
     ],
-    coverUrl:
-      '/movies_pictures/3e3c38d14aae.png',
+    coverUrl: '/movies_pictures/3e3c38d14aae.png',
     releaseDate: '2006-09-13',
     length: 107,
     genre: ['Comédie', 'Fantastique'],
@@ -1320,8 +1319,7 @@ export const baseMoviesApi: BaseMovie[] = [
       { name: 'Robert Redford' },
       { name: 'Robert Shaw' },
     ],
-    coverUrl:
-      '/movies_pictures/a1678f33bc5c.jpg',
+    coverUrl: '/movies_pictures/a1678f33bc5c.jpg',
     releaseDate: '1974-03-22',
     length: 129,
     genre: ['Comédie', 'Policier'],
@@ -1340,8 +1338,7 @@ export const baseMoviesApi: BaseMovie[] = [
       { name: 'Carmen Electra' },
       { name: 'Ken Davitian' },
     ],
-    coverUrl:
-      '/movies_pictures/a0e6edfd41f9.jpg',
+    coverUrl: '/movies_pictures/a0e6edfd41f9.jpg',
     releaseDate: '2008-07-16',
     length: 84,
     genre: ['Comédie', 'Peplum'],
@@ -1360,8 +1357,7 @@ export const baseMoviesApi: BaseMovie[] = [
       { name: 'Adam Campbell' },
       { name: 'Jennifer Coolidge' },
     ],
-    coverUrl:
-      '/movies_pictures/8c2325a93d5a.jpg',
+    coverUrl: '/movies_pictures/8c2325a93d5a.jpg',
     releaseDate: '2007-03-28',
     length: 86,
     genre: ['Comédie'],
@@ -1380,8 +1376,7 @@ export const baseMoviesApi: BaseMovie[] = [
       { name: 'Sue Lyon' },
       { name: 'Shelley Winters' },
     ],
-    coverUrl:
-      '/movies_pictures/b3a7ab994cc0.jpg',
+    coverUrl: '/movies_pictures/b3a7ab994cc0.jpg',
     releaseDate: '1962-09-28',
     length: 153,
     genre: ['Drame', 'Romance'],
@@ -1400,8 +1395,7 @@ export const baseMoviesApi: BaseMovie[] = [
       { name: 'Laurence Olivier' },
       { name: 'Jean Simmons' },
     ],
-    coverUrl:
-      '/movies_pictures/35289c768937.png',
+    coverUrl: '/movies_pictures/35289c768937.png',
     releaseDate: '1960-10-19',
     length: 197,
     genre: ['Peplum', 'Historique', 'Action'],
@@ -1420,8 +1414,7 @@ export const baseMoviesApi: BaseMovie[] = [
       { name: 'George C. Scott' },
       { name: 'Sterling Hayden' },
     ],
-    coverUrl:
-      '/movies_pictures/987087c8814f.jpg',
+    coverUrl: '/movies_pictures/987087c8814f.jpg',
     releaseDate: '1964-03-11',
     length: 94,
     genre: ['Comédie', 'Guerre'],
@@ -1429,6 +1422,21 @@ export const baseMoviesApi: BaseMovie[] = [
     description: '',
     fromEntity: null,
     countryOrigin: ['États-Unis', 'Royaume-Uni'],
+    selectDisplayOrder: 5,
+  },
+  {
+    title: 'How High',
+    director: 'Jesse Dylan',
+    actors: [{ name: 'Method Man' }, { name: 'Redman' }, { name: 'Mike Epps' }],
+    coverUrl:
+      '/movies_pictures/16394f0a5668.jpg',
+    releaseDate: '2001-12-21',
+    length: 93,
+    genre: ['Comédie'],
+    saga: '',
+    description: '',
+    fromEntity: null,
+    countryOrigin: ['États-Unis'],
     selectDisplayOrder: 5,
   },
 ];

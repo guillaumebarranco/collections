@@ -1695,7 +1695,7 @@ export const baseGamesAdaptations2: BaseGame[] = [
     title: 'Yu-Gi-Oh! Duel Monsters II: Dark duel Stories',
     editor: 'Konami',
     hero: 'Yugi Muto',
-    coverUrl: '/games_pictures/b01d88f55003.png',
+    coverUrl: '/games_pictures/b1b6c62952ba.jpg',
     releaseDate: '1999-07-08',
     averageTimeToFinish: 8,
     averageTimeToHundredPercent: 0,
