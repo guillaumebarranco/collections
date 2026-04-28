@@ -175,8 +175,7 @@ export const baseMoviesAnimated: BaseMovie[] = [
         name: 'Chris Pratt',
       },
     ],
-    coverUrl:
-      'https://www.shoshosein.com/sites/default/files/fiches/film-animation/super-mario-bros/super-mario-bros-film.jpeg',
+    coverUrl: '/movies_pictures/0f2476dd5e6d.jpeg',
     releaseDate: '2023-04-05',
     length: 92,
     genre: ['Animation'],

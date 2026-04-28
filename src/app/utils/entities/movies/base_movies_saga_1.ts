@@ -2355,7 +2355,7 @@ export const baseMoviesSagaPage1: BaseMovie[] = [
       },
     ],
     coverUrl:
-      'https://www.ecranlarge.com/content/uploads/2020/08/jflrbtxkgogqso43nc7t65gjens-913.jpg',
+      '/movies_pictures/32a4130fd1ab.jpg',
     releaseDate: '1997-02-05',
     length: 102,
     genre: ['Comédie'],

@@ -10,7 +10,7 @@
     "La La Land|Damien Chazelle",
     "Titanic|James Cameron",
     "Man of Steel|Zack Snyder",
-    "The Lego Movie|Phil Lord, Christopher Miller",
+    "La Grande Aventure Lego|Phil Lord, Christopher Miller",
     "Le chant du loup|Antonin Baudry"
   ],
   "series": [
@@ -27,13 +27,7 @@
     "Assassin's Creed : Brotherhood|Ubisoft",
     "Naruto Shippuden: Ultimate Ninja Storm 2|CyberConnect2"
   ],
-  "musics": [
-    "",
-    "",
-    "",
-    "",
-    ""
-  ],
+  "musics": ["", "", "", "", ""],
   "comics": [
     "Civil War|Mark Millar",
     "Spider-Man : Bleu|Jeph Loeb",
@@ -41,13 +35,7 @@
     "House of M|Brian Michael Bendis",
     "Spider-Man : 11 septembre 2001|Inconnu"
   ],
-  "bds": [
-    "",
-    "",
-    "",
-    "",
-    ""
-  ],
+  "bds": ["", "", "", "", ""],
   "mangas": [
     "Naruto|Masashi Kishimoto",
     "One Piece|Eiichirō Oda",
@@ -55,11 +43,5 @@
     "Fullmetal Alchemist|Hiromu Arakawa",
     "Eyeshield 21|Riichirō Inagaki"
   ],
-  "manwhas": [
-    "",
-    "",
-    "",
-    "",
-    ""
-  ]
+  "manwhas": ["", "", "", "", ""]
 }

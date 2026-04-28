@@ -1058,7 +1058,7 @@ export const amandineMovies2: UserMovies = [
     inList: [],
   },
   {
-    title: 'The Lego Movie',
+    title: 'La Grande Aventure Lego',
     director: 'Phil Lord, Christopher Miller',
     rating: 0,
     timesWatched: 1,

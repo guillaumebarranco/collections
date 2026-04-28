@@ -3216,7 +3216,7 @@ export const lucileMovies: UserMovie[] = [
   },
 
   {
-    title: 'The Lego Movie',
+    title: 'La Grande Aventure Lego',
     director: 'Phil Lord, Christopher Miller',
     rating: 0,
     timesWatched: 1,

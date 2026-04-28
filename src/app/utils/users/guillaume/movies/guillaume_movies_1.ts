@@ -2510,7 +2510,7 @@ export const guillaumeMoviesPage1: UserMovies = [
   },
 
   {
-    title: 'The Lego Movie',
+    title: 'La Grande Aventure Lego',
     director: 'Phil Lord, Christopher Miller',
     rating: 3.75,
     timesWatched: 1,
@@ -2848,25 +2848,25 @@ export const guillaumeMoviesPage1: UserMovies = [
   },
 
   {
-    title: "Là-haut",
-    director: "Pete Docter",
+    title: 'Là-haut',
+    director: 'Pete Docter',
     rating: 4.25,
     timesWatched: 1,
-    firstViewedDate: "2026-04-27",
-    lastViewedDate: "2026-04-27",
+    firstViewedDate: '2026-04-27',
+    lastViewedDate: '2026-04-27',
     seenAtCinema: false,
     owned: false,
     wantToSeeAgain: false,
     watchPriority: 1,
-    ratingComment: "",
+    ratingComment: '',
     inList: [],
-    borrowed: "",
-    loaned: "",
+    borrowed: '',
+    loaned: '',
   },
 
   {
-    title: "Le Retour de Jafar",
-    director: "Toby Shelton, Tad Stones",
+    title: 'Le Retour de Jafar',
+    director: 'Toby Shelton, Tad Stones',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -2882,8 +2882,8 @@ export const guillaumeMoviesPage1: UserMovies = [
   },
 
   {
-    title: "Aladdin et le Roi des voleurs",
-    director: "Tad Stones",
+    title: 'Aladdin et le Roi des voleurs',
+    director: 'Tad Stones',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -2899,8 +2899,8 @@ export const guillaumeMoviesPage1: UserMovies = [
   },
 
   {
-    title: "La Belle et la Bête",
-    director: "Gary Trousdale, Kirk Wise",
+    title: 'La Belle et la Bête',
+    director: 'Gary Trousdale, Kirk Wise',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',

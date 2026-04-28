@@ -5507,7 +5507,7 @@ export const ronanMovies: UserMovies = [
     inList: [],
   },
   {
-    title: 'The Lego Movie',
+    title: 'La Grande Aventure Lego',
     director: 'Phil Lord, Christopher Miller',
     rating: 5,
     timesWatched: 3,

@@ -86,7 +86,7 @@ export const baseMoviesPage4: BaseMovie[] = [
       { name: 'Jean Dujardin' },
     ],
     coverUrl:
-      'https://fr.web.img6.acsta.net/pictures/210/604/21060483_20131125114549726.jpg',
+      '/movies_pictures/fb3d1d9f73b9.jpg',
     releaseDate: '2013-12-25',
     length: 180,
     genre: ['Policier'],
