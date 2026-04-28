@@ -2846,4 +2846,21 @@ export const guillaumeMoviesPage1: UserMovies = [
     borrowed: '',
     loaned: '',
   },
+
+  {
+    title: "Là-haut",
+    director: "Pete Docter",
+    rating: 4.25,
+    timesWatched: 1,
+    firstViewedDate: "2026-04-27",
+    lastViewedDate: "2026-04-27",
+    seenAtCinema: false,
+    owned: false,
+    wantToSeeAgain: false,
+    watchPriority: 1,
+    ratingComment: "",
+    inList: [],
+    borrowed: "",
+    loaned: "",
+  },
 ];
