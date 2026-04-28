@@ -710,7 +710,7 @@ export const baseMoviesAnimated2: BaseMovie[] = [
     selectDisplayOrder: 25,
   },
   {
-    title: "Atlantis : L'Empire perdu",
+    title: "Atlantide : L'Empire perdu",
     director: 'Gary Trousdale, Kirk Wise',
     actors: [{ name: 'Michael J. Fox' }, { name: 'Cree Summer' }],
     coverUrl: '/movies_pictures/510VvOPQrTL._AC_UF894,1000_QL80_.jpg',

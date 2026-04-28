@@ -13189,7 +13189,7 @@ export const ronanMovies: UserMovies = [
     inList: [],
   },
   {
-    title: "Atlantis : L'Empire perdu",
+    title: "Atlantide : L'Empire perdu",
     director: 'Gary Trousdale, Kirk Wise',
     rating: 3.5,
     timesWatched: 1,
@@ -18445,7 +18445,7 @@ export const ronanMovies: UserMovies = [
 
   {
     title: "Austin Powers - L'Espion qui m'a tirée",
-    director: "Jay Roach",
+    director: 'Jay Roach',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -18461,8 +18461,8 @@ export const ronanMovies: UserMovies = [
   },
 
   {
-    title: "Johnny English",
-    director: "Peter Howitt",
+    title: 'Johnny English',
+    director: 'Peter Howitt',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -18478,8 +18478,8 @@ export const ronanMovies: UserMovies = [
   },
 
   {
-    title: "Sex Academy",
-    director: "Joel Gallen",
+    title: 'Sex Academy',
+    director: 'Joel Gallen',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -18495,8 +18495,8 @@ export const ronanMovies: UserMovies = [
   },
 
   {
-    title: "Tucker et Dale fightent le mal",
-    director: "Eli Craig",
+    title: 'Tucker et Dale fightent le mal',
+    director: 'Eli Craig',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',

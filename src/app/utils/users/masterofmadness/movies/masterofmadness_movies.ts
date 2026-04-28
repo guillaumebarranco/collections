@@ -2043,7 +2043,7 @@ export const masterofmadnessMovies: UserMovie[] = [
   },
 
   {
-    title: "Atlantis : L'Empire perdu",
+    title: "Atlantide : L'Empire perdu",
     director: 'Gary Trousdale, Kirk Wise',
     rating: 0,
     timesWatched: 1,

@@ -2217,8 +2217,7 @@ export const baseMoviesSagaPage2: BaseMovie[] = [
         name: 'Lee Arenberg',
       },
     ],
-    coverUrl:
-      '/movies_pictures/336aa695f4a2.jpg',
+    coverUrl: '/movies_pictures/336aa695f4a2.jpg',
     releaseDate: '2003-07-09',
     length: 143,
     genre: ['Aventure'],
@@ -2254,8 +2253,7 @@ export const baseMoviesSagaPage2: BaseMovie[] = [
         name: 'Mackenzie Crook',
       },
     ],
-    coverUrl:
-      '/movies_pictures/2d06640f446b.jpg',
+    coverUrl: '/movies_pictures/2d06640f446b.jpg',
     releaseDate: '2006-07-07',
     length: 151,
     genre: ['Aventure'],
@@ -2269,8 +2267,7 @@ export const baseMoviesSagaPage2: BaseMovie[] = [
     title: "Pirates des Caraïbes 3 : Jusqu'au Bout du Monde",
     director: 'Gore Verbinski',
     actors: [{ name: 'Johnny Depp' }],
-    coverUrl:
-      '/movies_pictures/991489831b8f.jpg',
+    coverUrl: '/movies_pictures/991489831b8f.jpg',
     releaseDate: '2007-05-25',
     length: 169,
     genre: ['Aventure'],
@@ -2306,7 +2303,7 @@ export const baseMoviesSagaPage2: BaseMovie[] = [
         name: 'Astrid Bergès-Frisbey',
       },
     ],
-    coverUrl: '',
+    coverUrl: '/movies_pictures/artoff4839.webp',
     releaseDate: '2011-05-18',
     length: 137,
     genre: ['Aventure'],
@@ -2342,8 +2339,7 @@ export const baseMoviesSagaPage2: BaseMovie[] = [
         name: 'Brenton Thwaites',
       },
     ],
-    coverUrl:
-      '/movies_pictures/a7d76ee8b23d.jpg',
+    coverUrl: '/movies_pictures/a7d76ee8b23d.jpg',
     releaseDate: '2017-05-24',
     length: 129,
     genre: ['Aventure'],

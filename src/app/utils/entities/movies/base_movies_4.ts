@@ -86,7 +86,7 @@ export const baseMoviesPage4: BaseMovie[] = [
       { name: 'Jean Dujardin' },
     ],
     coverUrl:
-      '/movies_pictures/86114-the-wolf-of-wall-street-0-150-0-225-crop.jpg',
+      'https://fr.web.img6.acsta.net/pictures/210/604/21060483_20131125114549726.jpg',
     releaseDate: '2013-12-25',
     length: 180,
     genre: ['Policier'],
