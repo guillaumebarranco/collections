@@ -2483,6 +2483,18 @@ export const baseMoviesPage5: BaseMovie[] = [
       {
         name: 'Craig Robinson',
       },
+      {
+        name: 'Jason Mewes',
+      },
+      {
+        name: 'Jeff Anderson',
+      },
+      {
+        name: 'Traci Lords',
+      },
+      {
+        name: 'Katie Morgan',
+      },
     ],
     coverUrl: '/movies_pictures/zack_et_miri_font_un_porno.jpg',
     releaseDate: '2008-10-31',
@@ -3901,6 +3913,18 @@ export const baseMoviesPage5: BaseMovie[] = [
       {
         name: 'Daniel Radcliffe',
       },
+      {
+        name: 'Brad Pitt',
+      },
+      {
+        name: "Oscar Nuñez",
+      },
+      {
+        name: "Da'Vine Joy Randolph",
+      },
+      {
+        name: 'Patti Harrison',
+      },
     ],
     coverUrl: '/movies_pictures/1445602.jpg',
     releaseDate: '2022-03-25',
@@ -4931,6 +4955,18 @@ export const baseMoviesPage5: BaseMovie[] = [
       {
         name: 'Jack Nicholson',
       },
+      {
+        name: 'Kevin Bacon',
+      },
+      {
+        name: 'Kiefer Sutherland',
+      },
+      {
+        name: 'Kevin Pollak',
+      },
+      {
+        name: 'J.T. Walsh',
+      },
     ],
     coverUrl: '/movies_pictures/51RN4ERV26L._AC_UF894,1000_QL80_.jpg',
     releaseDate: '1992-12-11',
@@ -5134,6 +5170,18 @@ export const baseMoviesPage5: BaseMovie[] = [
       },
       {
         name: 'Meryl Streep',
+      },
+      {
+        name: 'Andrew Garfield',
+      },
+      {
+        name: 'Derek Luke',
+      },
+      {
+        name: 'Michael Peña',
+      },
+      {
+        name: 'Peter Berg',
       },
     ],
     coverUrl: '/movies_pictures/18829927.jpg',
@@ -5472,7 +5520,19 @@ export const baseMoviesPage5: BaseMovie[] = [
         name: 'Sharon Stone',
       },
       {
-        name: 'Russel Crowe',
+        name: 'Russell Crowe',
+      },
+      {
+        name: 'Gene Hackman',
+      },
+      {
+        name: 'Keith David',
+      },
+      {
+        name: 'Tobin Bell',
+      },
+      {
+        name: 'Pat Hingle',
       },
     ],
     coverUrl: '/movies_pictures/0495354.webp',
@@ -5813,6 +5873,18 @@ export const baseMoviesPage5: BaseMovie[] = [
       {
         name: 'Anthony Hopkins',
       },
+      {
+        name: 'Hope Davis',
+      },
+      {
+        name: 'Danny McCarthy',
+      },
+      {
+        name: 'Larry Pine',
+      },
+      {
+        name: 'Leigh Zimmerman',
+      },
     ],
     coverUrl: '/movies_pictures/20459855.webp',
     releaseDate: '2005-09-16',
@@ -6122,6 +6194,18 @@ export const baseMoviesPage5: BaseMovie[] = [
       },
       {
         name: 'John Travolta',
+      },
+      {
+        name: 'Don Cheadle',
+      },
+      {
+        name: 'Vinnie Jones',
+      },
+      {
+        name: 'Sam Shepard',
+      },
+      {
+        name: 'Rudolf Martin',
       },
     ],
     coverUrl: '/movies_pictures/old-operation_espadon.0.jpg',
@@ -6751,6 +6835,18 @@ export const baseMoviesPage5: BaseMovie[] = [
       {
         name: 'Cate Blanchett',
       },
+      {
+        name: 'Giovanni Ribisi',
+      },
+      {
+        name: 'Greg Kinnear',
+      },
+      {
+        name: 'Hilary Swank',
+      },
+      {
+        name: 'Rosemary Harris',
+      },
     ],
     coverUrl: '/movies_pictures/69198038_af.webp',
     releaseDate: '1998-10-09',
@@ -6882,6 +6978,18 @@ export const baseMoviesPage5: BaseMovie[] = [
       },
       {
         name: 'Diane Keaton',
+      },
+      {
+        name: 'Amanda Peet',
+      },
+      {
+        name: 'Frances McDormand',
+      },
+      {
+        name: 'Jon Favreau',
+      },
+      {
+        name: 'KaDee Strickland',
       },
     ],
     coverUrl: '/movies_pictures/51XZJ18NBYL.jpg',

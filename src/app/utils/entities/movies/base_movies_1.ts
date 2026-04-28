@@ -577,6 +577,18 @@ export const baseMoviesPage1: BaseMovie[] = [
       {
         name: 'Val Kilmer',
       },
+      {
+        name: 'Anthony Edwards',
+      },
+      {
+        name: 'Tom Skerritt',
+      },
+      {
+        name: 'Michael Ironside',
+      },
+      {
+        name: 'Meg Ryan',
+      },
     ],
     coverUrl: '/movies_pictures/2ad320439faf.jpg',
     releaseDate: '1986-09-17',
@@ -712,6 +724,18 @@ export const baseMoviesPage1: BaseMovie[] = [
       {
         name: 'Ryan Reynolds',
       },
+      {
+        name: 'Ritu Arya',
+      },
+      {
+        name: 'Chris Diamantopoulos',
+      },
+      {
+        name: 'Ivan Mbakop',
+      },
+      {
+        name: 'Vincenzo Amato',
+      },
     ],
     coverUrl: '/movies_pictures/qfsgsdgdfgfdgfd.jpg',
     releaseDate: '2021-11-12',
@@ -735,6 +759,18 @@ export const baseMoviesPage1: BaseMovie[] = [
       },
       {
         name: 'Adrian Martinez',
+      },
+      {
+        name: 'Riley Keough',
+      },
+      {
+        name: 'Peter Sarsgaard',
+      },
+      {
+        name: 'Ethan Hawke',
+      },
+      {
+        name: 'Paul Dano',
       },
     ],
     coverUrl: '/movies_pictures/496198-the-guilty-0-150-0-225-crop.jpg',
@@ -1309,6 +1345,10 @@ export const baseMoviesPage1: BaseMovie[] = [
       { name: 'Russell Crowe' },
       { name: 'Djimon Hounsou' },
       { name: 'Joaquin Phoenix' },
+      { name: 'Connie Nielsen' },
+      { name: 'Oliver Reed' },
+      { name: 'Richard Harris' },
+      { name: 'Derek Jacobi' },
     ],
     coverUrl: '/movies_pictures/ef6e579f676e.jpg',
     releaseDate: '2000-05-05',
@@ -1399,6 +1439,18 @@ export const baseMoviesPage1: BaseMovie[] = [
       {
         name: 'Seo Hyun-woo',
       },
+      {
+        name: 'Jeon Jin-oh',
+      },
+      {
+        name: 'Kim Hyun-jung',
+      },
+      {
+        name: 'Park Sung-il',
+      },
+      {
+        name: 'Kang Ae-shim',
+      },
     ],
     coverUrl: '/movies_pictures/b8e7d5e682836c190da279d7aa0c23b4.webp',
     releaseDate: '2024-01-01',
@@ -1454,6 +1506,10 @@ export const baseMoviesPage1: BaseMovie[] = [
       { name: 'Amy Adams' },
       { name: 'Jeremy Renner' },
       { name: 'Forest Whitaker' },
+      { name: 'Michael Stuhlbarg' },
+      { name: 'Tzi Ma' },
+      { name: "Mark O'Brien" },
+      { name: 'Abigail Pniowsky' },
     ],
     coverUrl: '/movies_pictures/109206907.webp',
     releaseDate: '2016-11-11',
@@ -1473,6 +1529,10 @@ export const baseMoviesPage1: BaseMovie[] = [
       { name: 'Jake Gyllenhaal' },
       { name: 'Michelle Monaghan' },
       { name: 'Vera Farmiga' },
+      { name: 'Jeffrey Wright' },
+      { name: 'Russell Peters' },
+      { name: 'Gordon Pinsent' },
+      { name: 'Fay Masterson' },
     ],
     coverUrl: '/movies_pictures/81JgsD1EoIL._UF894,1000_QL80_ .jpg',
     releaseDate: '2011-04-01',
@@ -1672,6 +1732,10 @@ export const baseMoviesPage1: BaseMovie[] = [
       { name: 'Disiz' },
       { name: 'Béatrice Dalle' },
       { name: 'Vincent Elbaz' },
+      { name: 'Anne Marivin' },
+      { name: 'Édouard Montoute' },
+      { name: 'Atmen Kelif' },
+      { name: 'Nicolas Marié' },
     ],
     coverUrl: '/movies_pictures/18411781.jpg',
     releaseDate: '2005-10-05',
@@ -1695,6 +1759,18 @@ export const baseMoviesPage1: BaseMovie[] = [
       },
       {
         name: 'Justin Long',
+      },
+      {
+        name: 'Christine Taylor',
+      },
+      {
+        name: 'Rip Torn',
+      },
+      {
+        name: 'Alan Tudyk',
+      },
+      {
+        name: 'Missi Pyle',
       },
     ],
     coverUrl: '/movies_pictures/dodgeball.jpg',
@@ -2412,6 +2488,10 @@ export const baseMoviesPage1: BaseMovie[] = [
       { name: 'Sydney Sweeney' },
       { name: 'Amanda Seyfried' },
       { name: 'Brandon Sklenar' },
+      { name: 'Michele Morrone' },
+      { name: 'Elizabeth Perkins' },
+      { name: 'Megan Ferguson' },
+      { name: 'Ellen Tamaki' },
     ],
     coverUrl: '/movies_pictures/eda3bba832e22c79ea22117b058f84e5.webp',
     releaseDate: '2025-12-24',
@@ -2434,6 +2514,10 @@ export const baseMoviesPage1: BaseMovie[] = [
       { name: 'Ben Affleck' },
       { name: 'Ana de Armas' },
       { name: 'Jacob Elordi' },
+      { name: 'Tracy Letts' },
+      { name: 'Rachel Blanchard' },
+      { name: 'Kristen Connolly' },
+      { name: 'Finn Wittrock' },
     ],
     coverUrl:
       '/movies_pictures/c57fc0bb7f1b83e5f8f5c97bf2605a73727f3094c3aa077c88ac17f2e48dd864.jpg',
@@ -2459,6 +2543,18 @@ export const baseMoviesPage1: BaseMovie[] = [
       {
         name: 'Tommy Lee Jones',
       },
+      {
+        name: 'Dianna Agron',
+      },
+      {
+        name: "John D'Leo",
+      },
+      {
+        name: 'Dominic Chianese',
+      },
+      {
+        name: 'Vincent Pastore',
+      },
     ],
     coverUrl: '/movies_pictures/21041261_20130918111051913.jpg',
     releaseDate: '2013-10-23',
@@ -2482,6 +2578,18 @@ export const baseMoviesPage1: BaseMovie[] = [
       },
       {
         name: 'Grégoire Leprince-Ringuet',
+      },
+      {
+        name: 'Gaspard Ulliel',
+      },
+      {
+        name: 'Raphaël Personnaz',
+      },
+      {
+        name: 'Judith Chemla',
+      },
+      {
+        name: 'Déborah François',
       },
     ],
     coverUrl: '/movies_pictures/19448509.jpg',
@@ -2573,6 +2681,10 @@ export const baseMoviesPage1: BaseMovie[] = [
       { name: 'Helen Mirren' },
       { name: 'Pierce Brosnan' },
       { name: 'Ben Kingsley' },
+      { name: 'Celia Imrie' },
+      { name: 'David Tennant' },
+      { name: 'Naomi Ackie' },
+      { name: 'Richard E. Grant' },
     ],
     coverUrl: '/movies_pictures/71cfda9b6e17b1b060ca232f1a038ea1.jpg',
     releaseDate: '2025-08-21',
@@ -2591,6 +2703,10 @@ export const baseMoviesPage1: BaseMovie[] = [
       { name: 'Bérénice Bejo' },
       { name: 'Suzanne Clément' },
       { name: 'Stéphane De Groodt' },
+      { name: 'Roschdy Zem' },
+      { name: 'Vincent Elbaz' },
+      { name: 'Doria Tillier' },
+      { name: 'Grégory Gadebois' },
     ],
     coverUrl: '/movies_pictures/0513738.webp',
     releaseDate: '2017-10-04',

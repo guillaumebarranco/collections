@@ -84,6 +84,10 @@ export const baseMoviesPage4: BaseMovie[] = [
       { name: 'Leonardo DiCaprio' },
       { name: 'Margot Robbie' },
       { name: 'Jean Dujardin' },
+      { name: 'Jonah Hill' },
+      { name: 'Matthew McConaughey' },
+      { name: 'Kyle Chandler' },
+      { name: 'Jon Favreau' },
     ],
     coverUrl: '/movies_pictures/fb3d1d9f73b9.jpg',
     releaseDate: '2013-12-25',
@@ -138,6 +142,10 @@ export const baseMoviesPage4: BaseMovie[] = [
       { name: 'Hugh Jackman' },
       { name: 'Jake Gyllenhaal' },
       { name: 'Paul Dano' },
+      { name: 'Viola Davis' },
+      { name: 'Maria Bello' },
+      { name: 'Terrence Howard' },
+      { name: 'Melissa Leo' },
     ],
     coverUrl:
       '/movies_pictures/MV5BMTg0NTIzMjQ1NV5BMl5BanBnXkFtZTcwNDc3MzM5OQ@@._V1_FMjpg_UX1000_.jpg',
@@ -187,6 +195,10 @@ export const baseMoviesPage4: BaseMovie[] = [
       { name: 'Nikolaj Coster-Waldau' },
       { name: 'Brenton Thwaites' },
       { name: 'Gerard Butler' },
+      { name: 'Geoffrey Rush' },
+      { name: 'Elodie Yung' },
+      { name: 'Chadwick Boseman' },
+      { name: 'Courtney Eaton' },
     ],
     coverUrl: '/movies_pictures/a0102365a43c.jpg',
     releaseDate: '2016-02-26',
@@ -423,6 +435,10 @@ export const baseMoviesPage4: BaseMovie[] = [
       { name: 'Tom Cruise' },
       { name: 'Morgan Freeman' },
       { name: 'Andrea Riseborough' },
+      { name: 'Olga Kurylenko' },
+      { name: 'Melissa Leo' },
+      { name: 'Nikolaj Coster-Waldau' },
+      { name: 'Zoë Bell' },
     ],
     coverUrl: '/movies_pictures/62108-oblivion-0-150-0-225-crop.jpg',
     releaseDate: '2013-04-19',
@@ -441,6 +457,10 @@ export const baseMoviesPage4: BaseMovie[] = [
       { name: 'Jamie Foxx' },
       { name: 'Leonardo DiCaprio' },
       { name: 'Christoph Waltz' },
+      { name: 'Kerry Washington' },
+      { name: 'Samuel L. Jackson' },
+      { name: 'Walton Goggins' },
+      { name: 'Dennis Christopher' },
     ],
     coverUrl: '/movies_pictures/52516-django-unchained-0-150-0-225-crop.jpg',
     releaseDate: '2012-12-25',
@@ -650,6 +670,18 @@ export const baseMoviesPage4: BaseMovie[] = [
       },
       {
         name: 'Ice Cube',
+      },
+      {
+        name: 'Jillian Bell',
+      },
+      {
+        name: 'Amber Stevens West',
+      },
+      {
+        name: 'Wyatt Russell',
+      },
+      {
+        name: 'Jimmy Tatro',
       },
     ],
     coverUrl: '/movies_pictures/22_jump_street.jpg',
@@ -1524,7 +1556,11 @@ export const baseMoviesPage4: BaseMovie[] = [
     actors: [
       { name: 'Bruce Willis' },
       { name: 'Damon Wayans' },
-      { name: 'Halle Berry' },
+      { name: 'Chelsea Field' },
+      { name: 'Noble Willingham' },
+      { name: 'Taylor Negron' },
+      { name: 'Joe Santos' },
+      { name: 'Danielle Harris' },
     ],
     coverUrl: '/movies_pictures/le_dernier_samaritain.jpg',
     releaseDate: '1991-12-13',
@@ -2651,6 +2687,18 @@ export const baseMoviesPage4: BaseMovie[] = [
       {
         name: 'Ali Afshar',
       },
+      {
+        name: 'David Del Rio',
+      },
+      {
+        name: 'Amanda Detmer',
+      },
+      {
+        name: 'Julie Lancaster',
+      },
+      {
+        name: 'Gunnar Anderson',
+      },
     ],
     coverUrl: '/movies_pictures/5951216.webp',
     releaseDate: '2022-11-11',
@@ -2854,6 +2902,18 @@ export const baseMoviesPage4: BaseMovie[] = [
       },
       {
         name: 'Judith El Zein',
+      },
+      {
+        name: 'David Salles',
+      },
+      {
+        name: 'Karim Jebli',
+      },
+      {
+        name: 'Nordine Salhi',
+      },
+      {
+        name: 'Alexandre Antonio',
       },
     ],
     coverUrl: '/movies_pictures/4878496.jpg',
@@ -3958,6 +4018,10 @@ export const baseMoviesPage4: BaseMovie[] = [
       { name: 'Leonardo DiCaprio' },
       { name: 'Brad Pitt' },
       { name: 'Margot Robbie' },
+      { name: 'Al Pacino' },
+      { name: 'Timothy Olyphant' },
+      { name: 'Kurt Russell' },
+      { name: 'Margaret Qualley' },
     ],
     coverUrl: '/movies_pictures/0719990.jpg',
     releaseDate: '2019-07-26',

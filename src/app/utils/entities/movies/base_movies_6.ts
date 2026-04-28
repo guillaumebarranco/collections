@@ -79,13 +79,25 @@ export const baseMoviesPage6: BaseMovie[] = [
     director: 'Peter Segal',
     actors: [
       {
-        name: 'Don Adams',
+        name: 'Steve Carell',
       },
       {
-        name: 'Barbara Feldon',
+        name: 'Anne Hathaway',
       },
       {
-        name: 'Edward Platt',
+        name: 'Alan Arkin',
+      },
+      {
+        name: 'Dwayne Johnson',
+      },
+      {
+        name: 'Terence Stamp',
+      },
+      {
+        name: 'James Caan',
+      },
+      {
+        name: 'Ken Davitian',
       },
     ],
     coverUrl: '/movies_pictures/18950490.jpg',
@@ -444,6 +456,10 @@ export const baseMoviesPage6: BaseMovie[] = [
       { name: 'Ryan Reynolds' },
       { name: 'Jesse Eisenberg' },
       { name: 'Kristen Stewart' },
+      { name: 'Martin Starr' },
+      { name: 'Bill Hader' },
+      { name: 'Wendie Malick' },
+      { name: 'Margarita Levieva' },
     ],
     coverUrl: '/movies_pictures/341031.jpg',
     releaseDate: '2009-04-03',
@@ -1992,6 +2008,18 @@ export const baseMoviesPage6: BaseMovie[] = [
       {
         name: 'Kirsten Dunst',
       },
+      {
+        name: 'Claire Danes',
+      },
+      {
+        name: 'Trini Alvarado',
+      },
+      {
+        name: 'Susan Sarandon',
+      },
+      {
+        name: 'Gabriel Byrne',
+      },
     ],
     coverUrl: '/movies_pictures/81nt92tIlUL._AC_UF350,350_QL80_.jpg',
     releaseDate: '1994-12-25',
@@ -2011,9 +2039,13 @@ export const baseMoviesPage6: BaseMovie[] = [
     title: 'Portrait de femme',
     director: 'Jane Campion',
     actors: [
-      { name: 'Christian Bale' },
       { name: 'Nicole Kidman' },
       { name: 'John Malkovich' },
+      { name: 'Barbara Hershey' },
+      { name: 'Martin Donovan' },
+      { name: 'Shelley Winters' },
+      { name: 'Shelley Duvall' },
+      { name: 'Viggo Mortensen' },
     ],
     coverUrl: '/movies_pictures/75447_20130730150757158.webp',
     releaseDate: '1996-11-01',
@@ -2038,6 +2070,18 @@ export const baseMoviesPage6: BaseMovie[] = [
       {
         name: 'Elsa Zylberstein',
       },
+      {
+        name: 'Lee Ross',
+      },
+      {
+        name: 'John Wood',
+      },
+      {
+        name: 'Lucy Speed',
+      },
+      {
+        name: 'Rufus Sewell',
+      },
     ],
     coverUrl: '/movies_pictures/metroland.jpg',
     releaseDate: '1997-09-12',
@@ -2056,6 +2100,10 @@ export const baseMoviesPage6: BaseMovie[] = [
       { name: 'Christian Bale' },
       { name: 'Ewan McGregor' },
       { name: 'Jonathan Rhys Meyers' },
+      { name: 'Toni Collette' },
+      { name: 'Eddie Izzard' },
+      { name: 'Emily Woof' },
+      { name: 'Michael Feast' },
     ],
     coverUrl: '/movies_pictures/velvet_goldmine.jpg',
     releaseDate: '1998-11-06',
@@ -2214,8 +2262,12 @@ export const baseMoviesPage6: BaseMovie[] = [
     director: 'John Madden',
     actors: [
       { name: 'Christian Bale' },
-      { name: 'Penelope Cruz' },
+      { name: 'Penélope Cruz' },
       { name: 'Nicolas Cage' },
+      { name: 'John Hurt' },
+      { name: 'Irene Papas' },
+      { name: 'Patrick Malahide' },
+      { name: 'David Morrissey' },
     ],
     coverUrl: '/movies_pictures/lttggjceb3hwolpjpmucif46yqa-042.jpg',
     releaseDate: '2001-05-04',
@@ -2516,6 +2568,10 @@ export const baseMoviesPage6: BaseMovie[] = [
       { name: 'Christian Bale' },
       { name: 'Mark Wahlberg' },
       { name: 'Amy Adams' },
+      { name: 'Melissa Leo' },
+      { name: "Mickey O'Keefe" },
+      { name: 'Jack McGee' },
+      { name: 'Christian Stavrakis' },
     ],
     coverUrl: '/movies_pictures/19658171.webp',
     releaseDate: '2010-12-10',
@@ -2597,6 +2653,10 @@ export const baseMoviesPage6: BaseMovie[] = [
       { name: 'Christian Bale' },
       { name: 'Joel Edgerton' },
       { name: 'Ben Kingsley' },
+      { name: 'Sigourney Weaver' },
+      { name: 'Aaron Paul' },
+      { name: 'John Turturro' },
+      { name: 'Ben Mendelsohn' },
     ],
     coverUrl: '/movies_pictures/425795.webp',
     releaseDate: '2014-12-12',
@@ -2970,6 +3030,10 @@ export const baseMoviesPage6: BaseMovie[] = [
       { name: 'Scarlett Johansson' },
       { name: 'Ewan McGregor' },
       { name: 'Djimon Hounsou' },
+      { name: 'Sean Bean' },
+      { name: 'Steve Buscemi' },
+      { name: 'Michael Clarke Duncan' },
+      { name: 'Ethan Phillips' },
     ],
     coverUrl: '/movies_pictures/71ugYlYCs0L._AC_UF894,1000_QL80_.jpg',
     releaseDate: '2005-07-22',
@@ -3066,6 +3130,18 @@ export const baseMoviesPage6: BaseMovie[] = [
       {
         name: 'Josh Hartnett',
       },
+      {
+        name: 'Hilary Swank',
+      },
+      {
+        name: 'Mia Kirshner',
+      },
+      {
+        name: 'Mike Starr',
+      },
+      {
+        name: 'Victor McGuire',
+      },
     ],
     coverUrl: '/movies_pictures/LE-DAHLIA-NOIR-480x640.webp',
     releaseDate: '2006-09-15',
@@ -3088,6 +3164,10 @@ export const baseMoviesPage6: BaseMovie[] = [
       { name: 'Scarlett Johansson' },
       { name: 'Javier Bardem' },
       { name: 'Rebecca Hall' },
+      { name: 'Penélope Cruz' },
+      { name: 'Patricia Clarkson' },
+      { name: 'Christopher Evan Welch' },
+      { name: 'Kevin Dunn' },
     ],
     coverUrl: '/movies_pictures/18982307.webp',
     releaseDate: '2008-05-17',
@@ -4159,6 +4239,10 @@ export const baseMoviesPage6: BaseMovie[] = [
       { name: 'Morgan Freeman' },
       { name: 'Bruce Willis' },
       { name: 'Tom Hanks' },
+      { name: 'Melanie Griffith' },
+      { name: 'Kim Cattrall' },
+      { name: 'Saul Rubinek' },
+      { name: 'F. Murray Abraham' },
     ],
     coverUrl: '/movies_pictures/18867957.webp',
     releaseDate: '1990-12-21',
@@ -4467,6 +4551,10 @@ export const baseMoviesPage6: BaseMovie[] = [
       { name: 'Morgan Freeman' },
       { name: 'Robert Redford' },
       { name: 'Jennifer Lopez' },
+      { name: 'Josh Lucas' },
+      { name: 'Camryn Manheim' },
+      { name: 'Damian Lewis' },
+      { name: 'Lynda Boyd' },
     ],
     coverUrl: '/movies_pictures/18461174.jpg',
     releaseDate: '2005-09-09',
@@ -4630,6 +4718,10 @@ export const baseMoviesPage6: BaseMovie[] = [
       { name: 'Morgan Freeman' },
       { name: 'Johnny Depp' },
       { name: 'Rebecca Ferguson' },
+      { name: 'Rebecca Hall' },
+      { name: 'Paul Bettany' },
+      { name: 'Kate Mara' },
+      { name: 'Cillian Murphy' },
     ],
     coverUrl: '/movies_pictures/543364.jpg',
     releaseDate: '2014-04-18',
@@ -4684,6 +4776,10 @@ export const baseMoviesPage6: BaseMovie[] = [
       { name: 'Morgan Freeman' },
       { name: 'Michael Caine' },
       { name: 'Christopher Lloyd' },
+      { name: 'Alan Arkin' },
+      { name: 'Joey King' },
+      { name: 'Ann-Margret' },
+      { name: 'Matt Dillon' },
     ],
     coverUrl: '/movies_pictures/313963.jpg',
     releaseDate: '2017-05-12',
@@ -5329,6 +5425,10 @@ export const baseMoviesPage6: BaseMovie[] = [
       { name: 'James Stewart' },
       { name: 'John Dall' },
       { name: 'Farley Granger' },
+      { name: 'Cedric Hardwicke' },
+      { name: 'Constance Collier' },
+      { name: 'Douglas Dick' },
+      { name: 'Joan Chandler' },
     ],
     coverUrl: '/movies_pictures/8482f1d463bb.jpg',
     releaseDate: '1948-08-28',
@@ -7235,6 +7335,18 @@ export const baseMoviesPage6: BaseMovie[] = [
       {
         name: 'Christian Clavier',
       },
+      {
+        name: 'Marie-Anne Chazel',
+      },
+      {
+        name: 'Anémone',
+      },
+      {
+        name: 'Bruno Moynot',
+      },
+      {
+        name: 'Martin Lamotte',
+      },
     ],
     coverUrl: '/movies_pictures/fsfsdfddf.jpg',
     releaseDate: '1982-01-01',
@@ -7979,6 +8091,18 @@ export const baseMoviesPage6: BaseMovie[] = [
       {
         name: 'Pascal Greggory',
       },
+      {
+        name: 'Jean-Paul Rouve',
+      },
+      {
+        name: 'Emmanuelle Seigner',
+      },
+      {
+        name: 'Gérard Depardieu',
+      },
+      {
+        name: 'Marc Barbé',
+      },
     ],
     coverUrl: '/movies_pictures/la_mome.jpg',
     releaseDate: '2007-02-14',
@@ -8002,6 +8126,18 @@ export const baseMoviesPage6: BaseMovie[] = [
       },
       {
         name: 'Miou-Miou',
+      },
+      {
+        name: 'Judith Henry',
+      },
+      {
+        name: 'Jean Carmet',
+      },
+      {
+        name: 'Laurent Terzieff',
+      },
+      {
+        name: 'Jean-Roger Milo',
       },
     ],
     coverUrl: '/movies_pictures/germinal.jpg',

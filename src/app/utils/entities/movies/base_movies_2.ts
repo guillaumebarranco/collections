@@ -187,6 +187,18 @@ export const baseMoviesPage2: BaseMovie[] = [
       {
         name: 'Samara Weaving',
       },
+      {
+        name: 'Rhys Darby',
+      },
+      {
+        name: 'Ned Dennehy',
+      },
+      {
+        name: 'Grant Bowler',
+      },
+      {
+        name: 'Edwin Wright',
+      },
     ],
     coverUrl: '/movies_pictures/389270-guns-akimbo-0-150-0-225-crop.jpg',
     releaseDate: '2020-02-28',
@@ -1006,6 +1018,10 @@ export const baseMoviesPage2: BaseMovie[] = [
       { name: 'Louis de Funès' },
       { name: 'Jean Carmet' },
       { name: 'Jacques Villeret' },
+      { name: 'Claude Gensac' },
+      { name: 'Henri Génès' },
+      { name: 'Carole Brenner' },
+      { name: 'Marco Perrin' },
     ],
     coverUrl: '/movies_pictures/18478117.jpg',
     releaseDate: '1981-12-02',
@@ -1311,6 +1327,10 @@ export const baseMoviesPage2: BaseMovie[] = [
       { name: 'Louis de Funès' },
       { name: 'Jean Marais' },
       { name: 'Mylène Demongeot' },
+      { name: 'Jacques Dynam' },
+      { name: 'Henri Serre' },
+      { name: 'Florence Blot' },
+      { name: 'Robert Dalban' },
     ],
     coverUrl: '/movies_pictures/50732-fantomas-0-150-0-225-crop.jpg',
     releaseDate: '1964-11-04',
@@ -2419,6 +2439,18 @@ export const baseMoviesPage2: BaseMovie[] = [
       {
         name: "Guylain N'Guba Boyeke",
       },
+      {
+        name: 'Williams Belle',
+      },
+      {
+        name: 'Malik Diouf',
+      },
+      {
+        name: 'Yann Hnautra',
+      },
+      {
+        name: 'Laurent Piemontesi',
+      },
     ],
     coverUrl: '/movies_pictures/the_great_challenge.jpg',
     releaseDate: '2004-10-27',
@@ -2777,6 +2809,10 @@ export const baseMoviesPage2: BaseMovie[] = [
       { name: 'Daniel Day-Lewis' },
       { name: 'Sally Field' },
       { name: 'David Strathairn' },
+      { name: 'Tommy Lee Jones' },
+      { name: 'Joseph Gordon-Levitt' },
+      { name: 'Hal Holbrook' },
+      { name: 'James Spader' },
     ],
     coverUrl: '/movies_pictures/68073f32b5f3.jpg',
     releaseDate: '2012-11-16',
@@ -3011,6 +3047,18 @@ export const baseMoviesPage2: BaseMovie[] = [
       {
         name: 'Ralph Fiennes',
       },
+      {
+        name: 'Embeth Davidtz',
+      },
+      {
+        name: 'Caroline Goodall',
+      },
+      {
+        name: 'Jonathan Sagall',
+      },
+      {
+        name: 'Norbert Weisser',
+      },
     ],
     coverUrl: '/movies_pictures/schindler_s_list.jpg',
     releaseDate: '1994-03-02',
@@ -3035,6 +3083,18 @@ export const baseMoviesPage2: BaseMovie[] = [
       {
         name: 'Paul Dano',
       },
+      {
+        name: 'Seth Rogen',
+      },
+      {
+        name: 'Judd Hirsch',
+      },
+      {
+        name: 'Julia Butters',
+      },
+      {
+        name: 'Sam Rechner',
+      },
     ],
     coverUrl: '/movies_pictures/the_fabelmans.jpg',
     releaseDate: '2023-02-22',
@@ -3058,6 +3118,18 @@ export const baseMoviesPage2: BaseMovie[] = [
       },
       {
         name: 'Richard Dreyfuss',
+      },
+      {
+        name: 'Lorraine Gary',
+      },
+      {
+        name: 'Murray Hamilton',
+      },
+      {
+        name: 'Carl Gottlieb',
+      },
+      {
+        name: 'Jeffrey Kramer',
       },
     ],
     coverUrl: '/movies_pictures/37f5dbe03555.jpg',
@@ -3114,6 +3186,10 @@ export const baseMoviesPage2: BaseMovie[] = [
       { name: 'Leonardo DiCaprio' },
       { name: 'Tom Hanks' },
       { name: 'Amy Adams' },
+      { name: 'Christopher Walken' },
+      { name: 'Martin Sheen' },
+      { name: 'Nathalie Baye' },
+      { name: 'James Brolin' },
     ],
     coverUrl: '/movies_pictures/da6c1bff283e.jpg',
     releaseDate: '2002-12-25',
@@ -3195,6 +3271,10 @@ export const baseMoviesPage2: BaseMovie[] = [
       { name: 'Wedgwood Nowell' },
       { name: 'Ralph Lewis' },
       { name: 'Wallace Beery' },
+      { name: 'Laura La Plante' },
+      { name: 'J. P. Lockney' },
+      { name: 'William V. Mong' },
+      { name: 'Colin Kenny' },
     ],
     coverUrl: '/movies_pictures/sfsdfddwfxdfdxgfdgxgf.jpg',
     releaseDate: '1920-11-14',
@@ -3581,13 +3661,25 @@ export const baseMoviesPage2: BaseMovie[] = [
     director: 'Frédéric Forestier, Thomas Langmann',
     actors: [
       {
-        name: 'Briana Evigan',
+        name: 'Clovis Cornillac',
       },
       {
-        name: 'Robert Hoffman',
+        name: 'Franck Dubosc',
       },
       {
-        name: 'Adam G. Sevani',
+        name: 'Alain Delon',
+      },
+      {
+        name: 'Benoît Poelvoorde',
+      },
+      {
+        name: 'Marion Cotillard',
+      },
+      {
+        name: 'Alain Chabat',
+      },
+      {
+        name: 'Jérôme Le Banner',
       },
     ],
     coverUrl: '/movies_pictures/fec4f6009f25.jpg',
@@ -3617,6 +3709,18 @@ export const baseMoviesPage2: BaseMovie[] = [
       {
         name: 'Guillaume Gallienne',
       },
+      {
+        name: 'Édouard Baer',
+      },
+      {
+        name: 'Charlotte Le Bon',
+      },
+      {
+        name: 'Valérie Lemercier',
+      },
+      {
+        name: 'Dany Boon',
+      },
     ],
     coverUrl: '/movies_pictures/asterix_obelix_god_save_britannia.jpg',
     releaseDate: '2012-10-17',
@@ -3644,6 +3748,18 @@ export const baseMoviesPage2: BaseMovie[] = [
       },
       {
         name: 'Marion Cotillard',
+      },
+      {
+        name: 'Vincent Cassel',
+      },
+      {
+        name: 'Jonathan Cohen',
+      },
+      {
+        name: 'Leanna Chea',
+      },
+      {
+        name: 'Angèle',
       },
     ],
     coverUrl: '/movies_pictures/asterix_et_obelix_lempire_du_milieu.jpg',
@@ -4002,6 +4118,18 @@ export const baseMoviesPage2: BaseMovie[] = [
       {
         name: 'Bryan Cranston',
       },
+      {
+        name: 'Ken Watanabe',
+      },
+      {
+        name: 'Sally Hawkins',
+      },
+      {
+        name: 'David Strathairn',
+      },
+      {
+        name: 'Juliette Binoche',
+      },
     ],
     coverUrl: '/movies_pictures/godzilla.jpg',
     releaseDate: '2014-05-14',
@@ -4026,6 +4154,18 @@ export const baseMoviesPage2: BaseMovie[] = [
       {
         name: 'Millie Bobby Brown',
       },
+      {
+        name: 'Charles Dance',
+      },
+      {
+        name: 'Zhang Ziyi',
+      },
+      {
+        name: 'Bradley Whitford',
+      },
+      {
+        name: 'Thomas Middleditch',
+      },
     ],
     coverUrl: '/movies_pictures/godzilla_king_of_the_monsters.jpg',
     releaseDate: '2019-01-01',
@@ -4049,6 +4189,18 @@ export const baseMoviesPage2: BaseMovie[] = [
       },
       {
         name: 'Rebecca Hall',
+      },
+      {
+        name: 'Brian Tyree Henry',
+      },
+      {
+        name: 'Shun Oguri',
+      },
+      {
+        name: 'Eiza González',
+      },
+      {
+        name: 'Kyle Chandler',
       },
     ],
     coverUrl: '/movies_pictures/godzilla_vs_kong.jpg',
@@ -4319,6 +4471,10 @@ export const baseMoviesPage2: BaseMovie[] = [
       { name: 'Leonardo DiCaprio' },
       { name: 'Djimon Hounsou' },
       { name: 'Jennifer Connelly' },
+      { name: 'Arnold Vosloo' },
+      { name: 'David Harewood' },
+      { name: 'Jimi Mistry' },
+      { name: 'Michael Sheen' },
     ],
     coverUrl: '/movies_pictures/51084-blood-diamond-0-150-0-225-crop.jpg',
     releaseDate: '2006-12-08',
@@ -4337,6 +4493,10 @@ export const baseMoviesPage2: BaseMovie[] = [
       { name: 'Christian Bale' },
       { name: 'Hugh Jackman' },
       { name: 'Scarlett Johansson' },
+      { name: 'Michael Caine' },
+      { name: 'Rebecca Hall' },
+      { name: 'David Bowie' },
+      { name: 'Andy Serkis' },
     ],
     coverUrl: '/movies_pictures/51147-the-prestige-0-150-0-225-crop.jpg',
     releaseDate: '2006-10-20',
@@ -4359,6 +4519,10 @@ export const baseMoviesPage2: BaseMovie[] = [
       { name: 'Leonardo DiCaprio' },
       { name: 'Matt Damon' },
       { name: 'Jack Nicholson' },
+      { name: 'Mark Wahlberg' },
+      { name: 'Vera Farmiga' },
+      { name: 'Martin Sheen' },
+      { name: 'Alec Baldwin' },
     ],
     coverUrl: '/movies_pictures/9f0e9b9704d9.jpg',
     releaseDate: '2006-10-06',
@@ -4383,6 +4547,18 @@ export const baseMoviesPage2: BaseMovie[] = [
       {
         name: 'Blake Lively',
       },
+      {
+        name: 'Columbus Short',
+      },
+      {
+        name: 'Maria Thayer',
+      },
+      {
+        name: 'Lewis Black',
+      },
+      {
+        name: 'Mark Derwin',
+      },
     ],
     coverUrl: '/movies_pictures/46823-accepted-0-150-0-225-crop.jpg',
     releaseDate: '2006-08-18',
@@ -4406,6 +4582,18 @@ export const baseMoviesPage2: BaseMovie[] = [
       },
       {
         name: 'Omar Sy',
+      },
+      {
+        name: 'Lannick Gautry',
+      },
+      {
+        name: 'Jacqueline Jehanneuf',
+      },
+      {
+        name: 'Julie Durand',
+      },
+      {
+        name: 'Alexandre Pesle',
       },
     ],
     coverUrl:
@@ -5122,6 +5310,10 @@ export const baseMoviesPage2: BaseMovie[] = [
       { name: 'Hilary Swank' },
       { name: 'Morgan Freeman' },
       { name: 'Clint Eastwood' },
+      { name: 'Jay Baruchel' },
+      { name: 'Mike Colter' },
+      { name: 'Lucia Rijker' },
+      { name: "Brian F. O'Byrne" },
     ],
     coverUrl: '/movies_pictures/51979-million-dollar-baby-0-150-0-225-crop.jpg',
     releaseDate: '2004-12-15',
@@ -5356,6 +5548,18 @@ export const baseMoviesPage2: BaseMovie[] = [
       },
       {
         name: 'Alain Chabat',
+      },
+      {
+        name: 'Chantal Lauby',
+      },
+      {
+        name: 'Dominique Farrugia',
+      },
+      {
+        name: 'Bruno Carette',
+      },
+      {
+        name: 'Élisabeth Vitali',
       },
     ],
     coverUrl:

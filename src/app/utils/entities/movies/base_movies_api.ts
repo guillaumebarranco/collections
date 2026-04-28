@@ -14,6 +14,18 @@ export const baseMoviesApi: BaseMovie[] = [
       {
         name: 'Paul Henreid',
       },
+      {
+        name: 'Claude Rains',
+      },
+      {
+        name: 'Conrad Veidt',
+      },
+      {
+        name: 'Sydney Greenstreet',
+      },
+      {
+        name: 'Peter Lorre',
+      },
     ],
     coverUrl: '/movies_pictures/casablanca.jpg',
     releaseDate: '1947-05-23',
@@ -38,6 +50,18 @@ export const baseMoviesApi: BaseMovie[] = [
       {
         name: 'Steven Yeun',
       },
+      {
+        name: 'Teyana Taylor',
+      },
+      {
+        name: 'Sasha Calle',
+      },
+      {
+        name: 'Catalina Sandino Moreno',
+      },
+      {
+        name: 'Kyle Chandler',
+      },
     ],
     coverUrl: '/movies_pictures/8318c06373acd968023aa5afab9c2ae6.jpg',
     releaseDate: '2026-01-16',
@@ -61,6 +85,18 @@ export const baseMoviesApi: BaseMovie[] = [
       },
       {
         name: 'Roger Dale Floyd',
+      },
+      {
+        name: 'Scott Glenn',
+      },
+      {
+        name: 'David Denman',
+      },
+      {
+        name: 'Hope Davis',
+      },
+      {
+        name: 'Holt McCallany',
       },
     ],
     coverUrl: '/movies_pictures/images.webp',
@@ -150,6 +186,18 @@ export const baseMoviesApi: BaseMovie[] = [
       {
         name: 'Elisa Erka',
       },
+      {
+        name: 'Lyes Salem',
+      },
+      {
+        name: 'Constance Carrelet',
+      },
+      {
+        name: 'Rudy Milstein',
+      },
+      {
+        name: 'Johann Dionnet',
+      },
     ],
     coverUrl: '/movies_pictures/avignon.jpg',
     releaseDate: '2025-06-18',
@@ -210,6 +258,18 @@ export const baseMoviesApi: BaseMovie[] = [
       },
       {
         name: 'John Turturro',
+      },
+      {
+        name: 'John Goodman',
+      },
+      {
+        name: 'Holly Hunter',
+      },
+      {
+        name: 'Chris Thomas King',
+      },
+      {
+        name: 'Charles Durning',
       },
     ],
     coverUrl: '/movies_pictures/1f14c0e6a8c4.jpg',
@@ -303,6 +363,18 @@ export const baseMoviesApi: BaseMovie[] = [
       {
         name: 'Steven Yeun',
       },
+      {
+        name: 'Brandon Perea',
+      },
+      {
+        name: 'Michael Wincott',
+      },
+      {
+        name: 'Keith David',
+      },
+      {
+        name: 'Wrenn Schmidt',
+      },
     ],
     coverUrl: '/movies_pictures/c5f6e612cd96.jpg',
     releaseDate: '2022-08-10',
@@ -326,6 +398,18 @@ export const baseMoviesApi: BaseMovie[] = [
       },
       {
         name: 'Audrey Tautou',
+      },
+      {
+        name: 'Kelly Reilly',
+      },
+      {
+        name: 'Judith Godrèche',
+      },
+      {
+        name: 'François-Xavier Demaison',
+      },
+      {
+        name: 'Xavier De Guillebon',
       },
     ],
     coverUrl: '/movies_pictures/3649f55f5292.jpg',
@@ -390,6 +474,18 @@ export const baseMoviesApi: BaseMovie[] = [
       },
       {
         name: 'Lucas Till',
+      },
+      {
+        name: 'Emily Osment',
+      },
+      {
+        name: 'Jason Earles',
+      },
+      {
+        name: 'Margo Martindale',
+      },
+      {
+        name: 'Melora Hardin',
       },
     ],
     coverUrl: '/movies_pictures/1bccb06dc7f5.jpg',
@@ -466,6 +562,10 @@ export const baseMoviesApi: BaseMovie[] = [
       { name: 'Tahar Rahim' },
       { name: 'Niels Arestrup' },
       { name: 'Adel Bencherif' },
+      { name: 'Reda Kateb' },
+      { name: 'Hichem Yacoubi' },
+      { name: 'Jean-Philippe Ricci' },
+      { name: 'Slimane Dazi' },
     ],
     coverUrl: '/movies_pictures/19138702.webp',
     releaseDate: '2009-08-26',
@@ -484,6 +584,10 @@ export const baseMoviesApi: BaseMovie[] = [
       { name: 'Garance Marillier' },
       { name: 'Ella Rumpf' },
       { name: 'Rabah Nait Oufella' },
+      { name: 'Laurent Lucas' },
+      { name: 'Joana Preiss' },
+      { name: 'Bouli Lanners' },
+      { name: 'Jean-Yves Tual' },
     ],
     coverUrl: '/movies_pictures/538324.jpg',
     releaseDate: '2016-09-14',
@@ -801,6 +905,18 @@ export const baseMoviesApi: BaseMovie[] = [
       {
         name: 'Pedro Pascal',
       },
+      {
+        name: 'Marin Ireland',
+      },
+      {
+        name: 'Zoë Winters',
+      },
+      {
+        name: 'Dasha Nekrasova',
+      },
+      {
+        name: 'Louisa Jacobson',
+      },
     ],
     coverUrl: '/movies_pictures/9a099cf183d6.jpg',
     releaseDate: '2025-07-02',
@@ -825,6 +941,18 @@ export const baseMoviesApi: BaseMovie[] = [
       },
       {
         name: 'Franck Dubosc',
+      },
+      {
+        name: 'Bernard Farcy',
+      },
+      {
+        name: 'Arno Chevrier',
+      },
+      {
+        name: 'Sofia Essaïdi',
+      },
+      {
+        name: 'Elsa Pataky',
       },
     ],
     coverUrl: '/movies_pictures/78bc8801b843.jpg',
@@ -885,6 +1013,18 @@ export const baseMoviesApi: BaseMovie[] = [
       {
         name: 'James Ortiz',
       },
+      {
+        name: 'Lionel Boyce',
+      },
+      {
+        name: 'Milana Vayntrub',
+      },
+      {
+        name: 'Ken Leung',
+      },
+      {
+        name: 'Malachi Kirby',
+      },
     ],
     coverUrl: '/movies_pictures/b958c20e3a4a.jpg',
     releaseDate: '2026-03-18',
@@ -941,6 +1081,18 @@ export const baseMoviesApi: BaseMovie[] = [
       {
         name: 'Audrey Tautou',
       },
+      {
+        name: 'Kelly Reilly',
+      },
+      {
+        name: 'Sandrine Holt',
+      },
+      {
+        name: 'Flore Bonaventura',
+      },
+      {
+        name: 'Benoît Jacquot',
+      },
     ],
     coverUrl: '/movies_pictures/1ae4f0135bee.jpg',
     releaseDate: '2013-12-04',
@@ -964,6 +1116,18 @@ export const baseMoviesApi: BaseMovie[] = [
       },
       {
         name: "Mark O'Brien",
+      },
+      {
+        name: 'Andie MacDowell',
+      },
+      {
+        name: 'Henry Czerny',
+      },
+      {
+        name: 'Nicky Guadagni',
+      },
+      {
+        name: 'Melanie Scrofano',
       },
     ],
     coverUrl: '/movies_pictures/d5bf1c5e8a97.jpg',
@@ -1024,6 +1188,18 @@ export const baseMoviesApi: BaseMovie[] = [
       {
         name: 'Sean Young',
       },
+      {
+        name: 'Tone Loc',
+      },
+      {
+        name: 'Dan Marino',
+      },
+      {
+        name: 'Noble Willingham',
+      },
+      {
+        name: 'Troy Evans',
+      },
     ],
     coverUrl: '/movies_pictures/3b75625db871.jpg',
     releaseDate: '1994-02-04',
@@ -1080,6 +1256,18 @@ export const baseMoviesApi: BaseMovie[] = [
       },
       {
         name: 'Jeanne Guittet',
+      },
+      {
+        name: 'Grégoire Plantade',
+      },
+      {
+        name: 'Jara Ezo',
+      },
+      {
+        name: 'Colette Kraffe',
+      },
+      {
+        name: 'Jessica Tougloh',
       },
     ],
     coverUrl: '/movies_pictures/d83b9b27bffa.jpg',
@@ -1272,13 +1460,25 @@ export const baseMoviesApi: BaseMovie[] = [
     director: 'Aurélien Peyre',
     actors: [
       {
-        name: 'Jenny Hasselquist',
+        name: 'Félix Lefebvre',
       },
       {
-        name: 'Nils Asther',
+        name: 'Anja Verderosa',
       },
       {
-        name: 'Tore Svennberg',
+        name: 'Suzanne Jouannet',
+      },
+      {
+        name: 'Victor Bonnel',
+      },
+      {
+        name: 'Sarah Henochsberg',
+      },
+      {
+        name: 'Jules Porier',
+      },
+      {
+        name: 'Nolan Masraf',
       },
     ],
     coverUrl: '/movies_pictures/0c1397847db3.jpg',
@@ -1299,6 +1499,10 @@ export const baseMoviesApi: BaseMovie[] = [
       { name: 'Adam Sandler' },
       { name: 'Kate Beckinsale' },
       { name: 'Christopher Walken' },
+      { name: 'Henry Winkler' },
+      { name: 'Julie Kavner' },
+      { name: 'David Hasselhoff' },
+      { name: 'Sean Astin' },
     ],
     coverUrl: '/movies_pictures/3e3c38d14aae.png',
     releaseDate: '2006-09-13',
@@ -1318,6 +1522,10 @@ export const baseMoviesApi: BaseMovie[] = [
       { name: 'Paul Newman' },
       { name: 'Robert Redford' },
       { name: 'Robert Shaw' },
+      { name: 'Charles Durning' },
+      { name: 'Ray Walston' },
+      { name: 'Eileen Brennan' },
+      { name: 'Harold Gould' },
     ],
     coverUrl: '/movies_pictures/a1678f33bc5c.jpg',
     releaseDate: '1974-03-22',
@@ -1337,6 +1545,10 @@ export const baseMoviesApi: BaseMovie[] = [
       { name: 'Sean Maguire' },
       { name: 'Carmen Electra' },
       { name: 'Ken Davitian' },
+      { name: 'Kevin Sorbo' },
+      { name: 'Diedrich Bader' },
+      { name: 'Nicole Parker' },
+      { name: 'Jim Piddock' },
     ],
     coverUrl: '/movies_pictures/a0e6edfd41f9.jpg',
     releaseDate: '2008-07-16',
@@ -1356,6 +1568,10 @@ export const baseMoviesApi: BaseMovie[] = [
       { name: 'Kal Penn' },
       { name: 'Adam Campbell' },
       { name: 'Jennifer Coolidge' },
+      { name: 'Jayma Mays' },
+      { name: 'Crispin Glover' },
+      { name: 'Faune Chambers Watkins' },
+      { name: 'Fred Willard' },
     ],
     coverUrl: '/movies_pictures/8c2325a93d5a.jpg',
     releaseDate: '2007-03-28',
@@ -1375,6 +1591,10 @@ export const baseMoviesApi: BaseMovie[] = [
       { name: 'James Mason' },
       { name: 'Sue Lyon' },
       { name: 'Shelley Winters' },
+      { name: 'Peter Sellers' },
+      { name: 'Gary Cockrell' },
+      { name: 'Lois Maxwell' },
+      { name: 'Diana Decker' },
     ],
     coverUrl: '/movies_pictures/b3a7ab994cc0.jpg',
     releaseDate: '1962-09-28',
@@ -1394,6 +1614,10 @@ export const baseMoviesApi: BaseMovie[] = [
       { name: 'Kirk Douglas' },
       { name: 'Laurence Olivier' },
       { name: 'Jean Simmons' },
+      { name: 'Tony Curtis' },
+      { name: 'Peter Ustinov' },
+      { name: 'Charles Laughton' },
+      { name: 'John Gavin' },
     ],
     coverUrl: '/movies_pictures/35289c768937.png',
     releaseDate: '1960-10-19',
@@ -1413,6 +1637,10 @@ export const baseMoviesApi: BaseMovie[] = [
       { name: 'Peter Sellers' },
       { name: 'George C. Scott' },
       { name: 'Sterling Hayden' },
+      { name: 'Slim Pickens' },
+      { name: 'Keenan Wynn' },
+      { name: 'Peter Bull' },
+      { name: 'Tracy Reed' },
     ],
     coverUrl: '/movies_pictures/987087c8814f.jpg',
     releaseDate: '1964-03-11',
@@ -1427,7 +1655,15 @@ export const baseMoviesApi: BaseMovie[] = [
   {
     title: 'How High',
     director: 'Jesse Dylan',
-    actors: [{ name: 'Method Man' }, { name: 'Redman' }, { name: 'Mike Epps' }],
+    actors: [
+      { name: 'Method Man' },
+      { name: 'Redman' },
+      { name: 'Mike Epps' },
+      { name: 'Anna Maria Horsford' },
+      { name: 'Jeffrey Jones' },
+      { name: 'Lark Voorhies' },
+      { name: 'Obba Babatundé' },
+    ],
     coverUrl:
       '/movies_pictures/16394f0a5668.jpg',
     releaseDate: '2001-12-21',
