@@ -3324,4 +3324,28 @@ export const baseMoviesLove: BaseMovie[] = [
     countryOrigin: ['France'],
     selectDisplayOrder: 10,
   },
+  {
+    title: 'Jeune et jolie',
+    director: 'François Ozon',
+    actors: [
+      {
+        name: 'Marine Vacth',
+      },
+      {
+        name: 'Géraldine Pailhas',
+      },
+      {
+        name: 'Frédéric Pierrot',
+      },
+    ],
+    coverUrl: '/movies_pictures/jeune_et_jolie.jpg',
+    releaseDate: '2013-08-21',
+    length: 94,
+    genre: ['Drame'],
+    saga: '',
+    description: '',
+    fromEntity: null,
+    countryOrigin: ['France'],
+    selectDisplayOrder: 10,
+  },
 ];

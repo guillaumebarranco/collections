@@ -7966,4 +7966,56 @@ export const baseMoviesPage6: BaseMovie[] = [
     countryOrigin: ['France'],
     selectDisplayOrder: 0,
   },
+  {
+    title: 'La Môme',
+    director: 'Olivier Dahan',
+    actors: [
+      {
+        name: 'Marion Cotillard',
+      },
+      {
+        name: 'Sylvie Testud',
+      },
+      {
+        name: 'Pascal Greggory',
+      },
+    ],
+    coverUrl: '/movies_pictures/la_mome.jpg',
+    releaseDate: '2007-02-14',
+    length: 140,
+    genre: ['Biographie', 'Drame'],
+    saga: '',
+    description: '',
+    fromEntity: null,
+    countryOrigin: ['France'],
+    selectDisplayOrder: 0,
+  },
+  {
+    title: 'Germinal',
+    director: 'Claude Berri',
+    actors: [
+      {
+        name: 'Gérard Depardieu',
+      },
+      {
+        name: 'Renaud',
+      },
+      {
+        name: 'Miou-Miou',
+      },
+    ],
+    coverUrl: '/movies_pictures/germinal.jpg',
+    releaseDate: '1993-09-29',
+    length: 160,
+    genre: ['Drame', 'Historique'],
+    saga: '',
+    description: '',
+    fromEntity: {
+      entityType: 'book',
+      title: 'Germinal',
+      secondEntityKey: 'Émile Zola',
+    },
+    countryOrigin: ['France'],
+    selectDisplayOrder: 0,
+  },
 ];
