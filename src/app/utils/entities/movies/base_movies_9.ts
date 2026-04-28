@@ -535,6 +535,46 @@ export const baseMoviesPage9: BaseMovie[] = [
     selectDisplayOrder: 0,
   },
   {
+    title: 'Super Mario Bros.',
+    director: 'Rocky Morton, Annabel Jankel',
+    actors: [
+      {
+        name: 'Bob Hoskins',
+      },
+      {
+        name: 'John Leguizamo',
+      },
+      {
+        name: 'Dennis Hopper',
+      },
+      {
+        name: 'Samantha Mathis',
+      },
+      {
+        name: 'Fisher Stevens',
+      },
+      {
+        name: 'Fiona Shaw',
+      },
+      {
+        name: 'Gianni Russo',
+      },
+    ],
+    coverUrl: '/movies_pictures/842995eca8b5.webp',
+    releaseDate: '1993-05-28',
+    length: 104,
+    genre: ['Aventure', 'Science Fiction', 'Comédie'],
+    saga: 'Mario',
+    description: '',
+    fromEntity: {
+      entityType: 'game',
+      title: 'Super Mario Bros.',
+      secondEntityKey: 'Nintendo',
+    },
+    countryOrigin: ['États-Unis'],
+    selectDisplayOrder: 0,
+  },
+  {
     title: 'Robin des Bois',
     director: 'Ridley Scott',
     actors: [
@@ -3256,8 +3296,7 @@ export const baseMoviesPage9: BaseMovie[] = [
         name: 'Mindy Sterling',
       },
     ],
-    coverUrl:
-      '/movies_pictures/6f1732146283.jpg',
+    coverUrl: '/movies_pictures/6f1732146283.jpg',
     releaseDate: '2002-07-26',
     length: 94,
     genre: ['Comédie'],
@@ -3293,8 +3332,7 @@ export const baseMoviesPage9: BaseMovie[] = [
         name: 'Fabiana Udenio',
       },
     ],
-    coverUrl:
-      '/movies_pictures/5f6dc67749a0.jpg',
+    coverUrl: '/movies_pictures/5f6dc67749a0.jpg',
     releaseDate: '1997-05-02',
     length: 94,
     genre: ['Comédie'],
@@ -3330,8 +3368,7 @@ export const baseMoviesPage9: BaseMovie[] = [
         name: 'Douglas McFerran',
       },
     ],
-    coverUrl:
-      '/movies_pictures/fc330392805f.jpg',
+    coverUrl: '/movies_pictures/fc330392805f.jpg',
     releaseDate: '2003-04-06',
     length: 88,
     genre: ['Comédie', 'Action'],
@@ -3367,8 +3404,7 @@ export const baseMoviesPage9: BaseMovie[] = [
         name: 'Tim McInnerny',
       },
     ],
-    coverUrl:
-      '/movies_pictures/bd193410e596.jpg',
+    coverUrl: '/movies_pictures/bd193410e596.jpg',
     releaseDate: '2011-09-15',
     length: 101,
     genre: ['Comédie', 'Action'],
@@ -3404,8 +3440,7 @@ export const baseMoviesPage9: BaseMovie[] = [
         name: 'Adam James',
       },
     ],
-    coverUrl:
-      '/movies_pictures/f9ebf7618bc7.jpg',
+    coverUrl: '/movies_pictures/f9ebf7618bc7.jpg',
     releaseDate: '2018-10-05',
     length: 88,
     genre: ['Comédie', 'Action'],
@@ -3441,8 +3476,7 @@ export const baseMoviesPage9: BaseMovie[] = [
         name: 'Kareem Abdul-Jabbar',
       },
     ],
-    coverUrl:
-      '/movies_pictures/629107712b62.jpg',
+    coverUrl: '/movies_pictures/629107712b62.jpg',
     releaseDate: '1980-07-02',
     length: 88,
     genre: ['Comédie'],
@@ -3478,8 +3512,7 @@ export const baseMoviesPage9: BaseMovie[] = [
         name: 'Richard Romanus',
       },
     ],
-    coverUrl:
-      '/movies_pictures/6ba63a53dcf5.jpg',
+    coverUrl: '/movies_pictures/6ba63a53dcf5.jpg',
     releaseDate: '1991-06-28',
     length: 85,
     genre: ['Comédie', 'Policier'],
@@ -3515,8 +3548,7 @@ export const baseMoviesPage9: BaseMovie[] = [
         name: 'John Houseman',
       },
     ],
-    coverUrl:
-      '/movies_pictures/f9c261044b6f.jpg',
+    coverUrl: '/movies_pictures/f9c261044b6f.jpg',
     releaseDate: '1988-12-02',
     length: 85,
     genre: ['Comédie', 'Policier'],
@@ -3552,8 +3584,7 @@ export const baseMoviesPage9: BaseMovie[] = [
         name: 'Eric Jungmann',
       },
     ],
-    coverUrl:
-      '/movies_pictures/61ab00831dca.jpg',
+    coverUrl: '/movies_pictures/61ab00831dca.jpg',
     releaseDate: '2001-12-07',
     length: 89,
     genre: ['Comédie'],
@@ -3589,8 +3620,7 @@ export const baseMoviesPage9: BaseMovie[] = [
         name: 'Matt Huntington',
       },
     ],
-    coverUrl:
-      '/movies_pictures/c72c534ebede.jpg',
+    coverUrl: '/movies_pictures/c72c534ebede.jpg',
     releaseDate: '2003-09-24',
     length: 75,
     genre: ['Comédie'],
@@ -3626,8 +3656,7 @@ export const baseMoviesPage9: BaseMovie[] = [
         name: 'Christie Laing',
       },
     ],
-    coverUrl:
-      '/movies_pictures/0bbbad00d75a.jpg',
+    coverUrl: '/movies_pictures/0bbbad00d75a.jpg',
     releaseDate: '2010-01-22',
     length: 89,
     genre: ['Comédie', 'Horreur'],

@@ -5061,7 +5061,7 @@ export const marinaMovies: UserMovie[] = [
     inList: [],
   },
   {
-    title: 'Sing',
+    title: 'Tous en scène',
     director: 'Garth Jennings',
     rating: 0,
     timesWatched: 1,

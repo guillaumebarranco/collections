@@ -2893,7 +2893,7 @@ export const hikenMovies: UserMovie[] = [
   },
 
   {
-    title: 'Sing',
+    title: 'Tous en scène',
     director: 'Garth Jennings',
     rating: 0,
     timesWatched: 1,

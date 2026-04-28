@@ -7427,7 +7427,7 @@ export const ronanMovies: UserMovies = [
     inList: [],
   },
   {
-    title: 'Sing',
+    title: 'Tous en scène',
     director: 'Garth Jennings',
     rating: 3,
     timesWatched: 1,
