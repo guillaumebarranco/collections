@@ -85,8 +85,7 @@ export const baseMoviesPage4: BaseMovie[] = [
       { name: 'Margot Robbie' },
       { name: 'Jean Dujardin' },
     ],
-    coverUrl:
-      '/movies_pictures/fb3d1d9f73b9.jpg',
+    coverUrl: '/movies_pictures/fb3d1d9f73b9.jpg',
     releaseDate: '2013-12-25',
     length: 180,
     genre: ['Policier'],
@@ -122,8 +121,7 @@ export const baseMoviesPage4: BaseMovie[] = [
         name: 'Ben Stiller',
       },
     ],
-    coverUrl:
-      '/movies_pictures/92619-the-secret-life-of-walter-mitty-0-150-0-225-crop.jpg',
+    coverUrl: '/movies_pictures/5427daf2447f.jpg',
     releaseDate: '2013-12-25',
     length: 114,
     genre: ['Aventure'],
@@ -141,7 +139,8 @@ export const baseMoviesPage4: BaseMovie[] = [
       { name: 'Jake Gyllenhaal' },
       { name: 'Paul Dano' },
     ],
-    coverUrl: '/movies_pictures/prisoners.jpg',
+    coverUrl:
+      '/movies_pictures/MV5BMTg0NTIzMjQ1NV5BMl5BanBnXkFtZTcwNDc3MzM5OQ@@._V1_FMjpg_UX1000_.jpg',
     releaseDate: '2013-09-20',
     length: 153,
     genre: ['Thriller'],
@@ -629,7 +628,7 @@ export const baseMoviesPage4: BaseMovie[] = [
         name: 'Johnny Depp',
       },
     ],
-    coverUrl: '/movies_pictures/279-21-jump-street-0-150-0-225-crop.jpg',
+    coverUrl: '/movies_pictures/b9ff8c463531.jpg',
     releaseDate: '2012-03-16',
     length: 109,
     genre: ['Comédie', 'Policier'],
@@ -884,6 +883,9 @@ export const baseMoviesPage4: BaseMovie[] = [
         name: 'Andrew Koji',
       },
       {
+        name: 'Tom Hardy',
+      },
+      {
         name: 'Olivia Cheng',
       },
       {
@@ -902,7 +904,7 @@ export const baseMoviesPage4: BaseMovie[] = [
         name: 'Joanna Vanderham',
       },
     ],
-    coverUrl: '/movies_pictures/6942-warrior-0-150-0-225-crop.jpg',
+    coverUrl: '/movies_pictures/7822f240c5ee.jpeg',
     releaseDate: '2011-09-09',
     length: 140,
     genre: ['Drame'],

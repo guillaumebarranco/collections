@@ -214,7 +214,7 @@ export const baseMoviesAnimatedOthers: BaseMovie[] = [
     selectDisplayOrder: 20,
   },
   {
-    title: 'Spider-Man: Into the Spider-Verse',
+    title: 'Spider-Man: New Generation',
     director: 'Bob Persichetti, Peter Ramsey, Rodney Rothman',
     actors: [
       {
@@ -222,7 +222,7 @@ export const baseMoviesAnimatedOthers: BaseMovie[] = [
       },
     ],
     coverUrl:
-      '/movies_pictures/251943-spider-man-into-the-spider-verse-0-150-0-225-crop.jpg',
+      '/movies_pictures/fd501958f7fd.jpg',
     releaseDate: '2018-12-14',
     length: 117,
     genre: ['Animation'],
@@ -245,7 +245,7 @@ export const baseMoviesAnimatedOthers: BaseMovie[] = [
       },
     ],
     coverUrl:
-      '/movies_pictures/497631-spider-man-across-the-spider-verse-0-150-0-225-crop.jpg',
+      '/movies_pictures/ef2045a60fe5.jpg',
     releaseDate: '2023-06-02',
     length: 140,
     genre: ['Animation'],
@@ -1781,7 +1781,8 @@ export const baseMoviesAnimatedOthers: BaseMovie[] = [
         name: 'Elizabeth Banks',
       },
     ],
-    coverUrl: '/movies_pictures/The_Lego_Movie_poster.jpg',
+    coverUrl:
+      '/movies_pictures/463acee3c66d.jpg',
     releaseDate: '2014-02-07',
     length: 100,
     genre: ['Animation', 'Aventure'],

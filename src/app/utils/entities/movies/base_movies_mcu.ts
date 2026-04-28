@@ -193,7 +193,7 @@ export const baseMoviesMcu: BaseMovie[] = [
       },
     ],
     coverUrl:
-      '/movies_pictures/50809-captain-america-the-first-avenger-0-150-0-225-crop.jpg',
+      '/movies_pictures/48f79142603f.jpg',
     releaseDate: '2011-07-22',
     length: 124,
     genre: ['Action'],
@@ -229,7 +229,8 @@ export const baseMoviesMcu: BaseMovie[] = [
         name: 'Frank Grillo',
       },
     ],
-    coverUrl: '/movies_pictures/captain_america_le_soldat_de_lhiver.jpg',
+    coverUrl:
+      '/movies_pictures/5ee6f9f2b19e.jpg',
     releaseDate: '2014-04-04',
     length: 136,
     genre: ['Action'],
@@ -263,7 +264,7 @@ export const baseMoviesMcu: BaseMovie[] = [
       },
     ],
     coverUrl:
-      '/movies_pictures/194402-captain-america-civil-war-0-150-0-225-crop.jpg',
+      '/movies_pictures/433ae3f35607.jpg',
     releaseDate: '2016-05-06',
     length: 147,
     genre: ['Action'],
@@ -800,8 +801,7 @@ export const baseMoviesMcu: BaseMovie[] = [
       },
       { name: 'Djimon Hounsou' },
     ],
-    coverUrl:
-      '/movies_pictures/6020fdb2361b.jpg',
+    coverUrl: '/movies_pictures/6020fdb2361b.jpg',
     releaseDate: '2014-08-01',
     length: 121,
     genre: ['Action'],
@@ -828,8 +828,7 @@ export const baseMoviesMcu: BaseMovie[] = [
         name: 'Sylvester Stallone',
       },
     ],
-    coverUrl:
-      '/movies_pictures/ca114d40533e.jpg',
+    coverUrl: '/movies_pictures/ca114d40533e.jpg',
     releaseDate: '2017-05-05',
     length: 136,
     genre: ['Action'],
@@ -856,8 +855,7 @@ export const baseMoviesMcu: BaseMovie[] = [
         name: 'Sylvester Stallone',
       },
     ],
-    coverUrl:
-      '/movies_pictures/f0eab6fb5779.jpg',
+    coverUrl: '/movies_pictures/f0eab6fb5779.jpg',
     releaseDate: '2023-05-05',
     length: 150,
     genre: ['Action'],

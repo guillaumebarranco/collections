@@ -2400,7 +2400,7 @@ export const unhoMovies: UserMovie[] = [
   },
 
   {
-    title: 'Spider-Man: Into the Spider-Verse',
+    title: 'Spider-Man: New Generation',
     director: 'Bob Persichetti, Peter Ramsey, Rodney Rothman',
     rating: 0,
     timesWatched: 1,

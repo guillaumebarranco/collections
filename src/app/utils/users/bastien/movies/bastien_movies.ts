@@ -1523,7 +1523,7 @@ export const bastienMovies: UserMovies = [
     inList: [],
   },
   {
-    title: 'Spider-Man: Into the Spider-Verse',
+    title: 'Spider-Man: New Generation',
     director: 'Bob Persichetti, Peter Ramsey, Rodney Rothman',
     rating: 5,
     timesWatched: 1,

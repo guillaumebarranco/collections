@@ -213,8 +213,7 @@ export const baseMoviesDc: BaseMovie[] = [
         name: 'Michael Caine',
       },
     ],
-    coverUrl:
-      '/movies_pictures/99b9c64d6eac.jpg',
+    coverUrl: '/movies_pictures/99b9c64d6eac.jpg',
     releaseDate: '2005-06-15',
     length: 140,
     genre: ['Action'],
@@ -248,8 +247,7 @@ export const baseMoviesDc: BaseMovie[] = [
         name: 'Heath Ledger',
       },
     ],
-    coverUrl:
-      '/movies_pictures/4fc79ac8ba39.jpg',
+    coverUrl: '/movies_pictures/4fc79ac8ba39.jpg',
     releaseDate: '2008-07-18',
     length: 152,
     genre: ['Action'],
@@ -286,8 +284,7 @@ export const baseMoviesDc: BaseMovie[] = [
         name: 'Michael Caine',
       },
     ],
-    coverUrl:
-      '/movies_pictures/5138fc727503.jpg',
+    coverUrl: '/movies_pictures/5138fc727503.jpg',
     releaseDate: '2012-07-20',
     length: 164,
     genre: ['Action'],
@@ -327,7 +324,8 @@ export const baseMoviesDc: BaseMovie[] = [
         name: 'Peter Sarsgaard',
       },
     ],
-    coverUrl: '/movies_pictures/348914-the-batman-0-150-0-225-crop.jpg',
+    coverUrl:
+      '/movies_pictures/fcf6e73c6ccb.jpg',
     releaseDate: '2022-03-04',
     length: 176,
     genre: ['Action'],
@@ -936,7 +934,7 @@ export const baseMoviesDc: BaseMovie[] = [
         name: 'Jeffrey Dean Morgan',
       },
     ],
-    coverUrl: '/movies_pictures/44070-watchmen-0-150-0-225-crop.jpg',
+    coverUrl: '/movies_pictures/6ee97770a455.jpg',
     releaseDate: '2009-03-06',
     length: 162,
     genre: ['Action'],

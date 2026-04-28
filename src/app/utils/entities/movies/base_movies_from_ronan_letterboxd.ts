@@ -2540,7 +2540,8 @@ export const baseMoviesFromRonanLetterboxd: BaseMovie[] = [
         name: 'Robin de Jesús',
       },
     ],
-    coverUrl: '/movies_pictures/tick_tick_boom.jpg',
+    coverUrl:
+      '/movies_pictures/6adeea04ed09.jpg',
     releaseDate: '2021-01-01',
     length: 115,
     genre: [],

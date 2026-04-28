@@ -871,7 +871,8 @@ export const baseMoviesPage3: BaseMovie[] = [
       { name: 'Anne Hathaway' },
       { name: 'Matt Damon' },
     ],
-    coverUrl: '/movies_pictures/117621-interstellar-0-150-0-225-crop.jpg',
+    coverUrl:
+      '/movies_pictures/eb5a5264b9bf.jpg',
     releaseDate: '2014-11-07',
     length: 169,
     genre: ['Science Fiction'],
@@ -907,7 +908,8 @@ export const baseMoviesPage3: BaseMovie[] = [
         name: 'Patrick Fugit',
       },
     ],
-    coverUrl: '/movies_pictures/149857-gone-girl-0-150-0-225-crop.jpg',
+    coverUrl:
+      '/movies_pictures/665ef95a5df7.jpg',
     releaseDate: '2014-10-03',
     length: 149,
     genre: ['Thriller'],
@@ -2537,7 +2539,7 @@ export const baseMoviesPage3: BaseMovie[] = [
       { name: 'Kevin Spacey' },
       { name: 'Gwyneth Paltrow' },
     ],
-    coverUrl: '/movies_pictures/51345-se7en-0-150-0-225-crop.jpg',
+    coverUrl: '/movies_pictures/403ca7f1d0e0.jpg',
     releaseDate: '1995-09-22',
     length: 127,
     genre: ['Policier'],
@@ -3440,7 +3442,8 @@ export const baseMoviesPage3: BaseMovie[] = [
         name: 'Cillian Murphy',
       },
     ],
-    coverUrl: '/movies_pictures/inception-0-150-0-225-crop.jpg',
+    coverUrl:
+      '/movies_pictures/1803af67b02e.jpg',
     releaseDate: '2010-07-16',
     length: 148,
     genre: ['Science Fiction'],
@@ -3476,8 +3479,7 @@ export const baseMoviesPage3: BaseMovie[] = [
         name: 'Jérôme Le Banner',
       },
     ],
-    coverUrl:
-      '/movies_pictures/3111ebebad71.jpg',
+    coverUrl: '/movies_pictures/3111ebebad71.jpg',
     releaseDate: '2010-06-30',
     length: 85,
     genre: ['Comédie'],

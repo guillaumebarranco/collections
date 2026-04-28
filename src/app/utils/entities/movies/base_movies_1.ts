@@ -2022,7 +2022,8 @@ export const baseMoviesPage1: BaseMovie[] = [
         name: 'Pierre-François Martin-Laval',
       },
     ],
-    coverUrl: '/movies_pictures/38203-rrrrrrr--0-150-0-225-crop.jpg',
+    coverUrl:
+      '/movies_pictures/1663063914e2.jpg',
     releaseDate: '2004-01-28',
     length: 94,
     genre: ['Comédie'],

@@ -1433,8 +1433,7 @@ export const baseMoviesLove: BaseMovie[] = [
       { name: 'Josh Hartnett' },
       { name: 'Kate Beckinsale' },
     ],
-    coverUrl:
-      '/movies_pictures/568a10272f5a.jpg',
+    coverUrl: '/movies_pictures/568a10272f5a.jpg',
     releaseDate: '2001-05-25',
     length: 183,
     genre: ['Drame', 'Romance'],
@@ -1632,7 +1631,8 @@ export const baseMoviesLove: BaseMovie[] = [
         name: 'Sonoya Mizuno',
       },
     ],
-    coverUrl: '/movies_pictures/240344-la-la-land-0-150-0-225-crop.jpg',
+    coverUrl:
+      '/movies_pictures/38b5c57f0991.jpg',
     releaseDate: '2016-12-09',
     length: 128,
     genre: ['Romance'],

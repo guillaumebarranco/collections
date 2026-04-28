@@ -273,7 +273,7 @@ export const baseMoviesPage2: BaseMovie[] = [
     description: '',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
-    selectDisplayOrder: 0,
+    selectDisplayOrder: 20,
   },
   {
     title: 'Le Livre de la jungle',
@@ -309,7 +309,7 @@ export const baseMoviesPage2: BaseMovie[] = [
     description: '',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
-    selectDisplayOrder: 0,
+    selectDisplayOrder: 20,
   },
   {
     title: 'Dumbo',
@@ -345,7 +345,7 @@ export const baseMoviesPage2: BaseMovie[] = [
     description: '',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
-    selectDisplayOrder: 0,
+    selectDisplayOrder: 20,
   },
   {
     title: 'Le Roi Lion',
@@ -381,7 +381,7 @@ export const baseMoviesPage2: BaseMovie[] = [
     description: '',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
-    selectDisplayOrder: 0,
+    selectDisplayOrder: 20,
   },
   {
     title: 'Mufasa : Le Roi Lion',
@@ -417,7 +417,7 @@ export const baseMoviesPage2: BaseMovie[] = [
     description: '',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
-    selectDisplayOrder: 0,
+    selectDisplayOrder: 20,
   },
   {
     title: 'Mulan',
@@ -453,7 +453,7 @@ export const baseMoviesPage2: BaseMovie[] = [
     description: '',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
-    selectDisplayOrder: 0,
+    selectDisplayOrder: 20,
   },
   {
     title: 'Cendrillon',
@@ -489,7 +489,7 @@ export const baseMoviesPage2: BaseMovie[] = [
     description: '',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
-    selectDisplayOrder: 0,
+    selectDisplayOrder: 20,
   },
   {
     title: 'Cendrillon',
@@ -525,7 +525,7 @@ export const baseMoviesPage2: BaseMovie[] = [
     description: '',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
-    selectDisplayOrder: 0,
+    selectDisplayOrder: 20,
   },
   {
     title: 'Maléfique',
@@ -561,7 +561,7 @@ export const baseMoviesPage2: BaseMovie[] = [
     description: '',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
-    selectDisplayOrder: 0,
+    selectDisplayOrder: 20,
   },
   {
     title: 'Maléfique : Le Pouvoir du Mal',
@@ -597,7 +597,7 @@ export const baseMoviesPage2: BaseMovie[] = [
     description: '',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
-    selectDisplayOrder: 0,
+    selectDisplayOrder: 20,
   },
   {
     title: 'La Belle et la Bête',
@@ -634,7 +634,7 @@ export const baseMoviesPage2: BaseMovie[] = [
     description: '',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
-    selectDisplayOrder: 30,
+    selectDisplayOrder: 20,
   },
   {
     title: 'Aladdin',
@@ -670,7 +670,7 @@ export const baseMoviesPage2: BaseMovie[] = [
     description: '',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
-    selectDisplayOrder: 0,
+    selectDisplayOrder: 20,
   },
   {
     title: 'La Petite Sirène',
@@ -706,7 +706,7 @@ export const baseMoviesPage2: BaseMovie[] = [
     description: '',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
-    selectDisplayOrder: 0,
+    selectDisplayOrder: 20,
   },
   {
     title: 'Les 101 Dalmatiens',
@@ -818,7 +818,7 @@ export const baseMoviesPage2: BaseMovie[] = [
     description: '',
     fromEntity: null,
     countryOrigin: ['France'],
-    selectDisplayOrder: 0,
+    selectDisplayOrder: 20,
   },
   {
     title: 'Bird Box',
@@ -3942,7 +3942,8 @@ export const baseMoviesPage2: BaseMovie[] = [
         name: 'Brian Delate',
       },
     ],
-    coverUrl: '/movies_pictures/the-truman-show-0-150-0-225-crop.jpg',
+    coverUrl:
+      '/movies_pictures/ed52223f523b.jpg',
     releaseDate: '1998-06-05',
     length: 103,
     genre: ['Drame'],
