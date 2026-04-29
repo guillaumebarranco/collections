@@ -7824,23 +7824,6 @@ export const marinaMovies: UserMovie[] = [
   },
 
   {
-    title: 'The Woman in the Window',
-    director: 'Joe Wright',
-    rating: 0,
-    timesWatched: 1,
-    firstViewedDate: '',
-    lastViewedDate: '',
-    seenAtCinema: false,
-    owned: false,
-    wantToSeeAgain: false,
-    watchPriority: 1,
-    ratingComment: '',
-    borrowed: '',
-    loaned: '',
-    inList: [],
-  },
-
-  {
     title: 'American Nightmare 3 : Élections',
     director: 'James DeMonaco',
     rating: 0,

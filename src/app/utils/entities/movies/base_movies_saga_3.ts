@@ -14,6 +14,19 @@ export const baseMoviesSagaPage3: BaseMovie[] = [
       {
         name: 'Paul Freeman',
       },
+      {
+        name: 'John Rhys-Davies',
+      },
+      {
+        name: 'Denholm Elliott',
+      },
+      {
+        name: 'Ronald Lacey',
+      },
+      {
+        name: 'Wolf Kahler',
+      },
+    
     ],
     coverUrl: '/movies_pictures/raiders_of_the_lost_ark.jpg',
     releaseDate: '1981-09-16',
@@ -105,11 +118,24 @@ export const baseMoviesSagaPage3: BaseMovie[] = [
         name: 'Harrison Ford',
       },
       {
+        name: 'Cate Blanchett',
+      },
+      {
         name: 'Shia LaBeouf',
       },
       {
-        name: 'Cate Blanchett',
+        name: 'Karen Allen',
       },
+      {
+        name: 'Ray Winstone',
+      },
+      {
+        name: 'John Hurt',
+      },
+      {
+        name: 'Jim Broadbent',
+      },
+    
     ],
     coverUrl:
       '/movies_pictures/indiana_jones_and_the_kingdom_of_the_crystal_skull.jpg',
@@ -301,14 +327,27 @@ export const baseMoviesSagaPage3: BaseMovie[] = [
     director: 'Danny Boyle',
     actors: [
       {
-        name: 'Aaron Taylor-Johnson',
+        name: 'Jodie Comer',
       },
       {
-        name: 'Jodie Comer',
+        name: 'Aaron Taylor-Johnson',
       },
       {
         name: 'Ralph Fiennes',
       },
+      {
+        name: 'Jack OConnell',
+      },
+      {
+        name: 'Erin Kellyman',
+      },
+      {
+        name: 'Edvin Ryding',
+      },
+      {
+        name: 'Emma Laird',
+      },
+    
     ],
     coverUrl: '/movies_pictures/28-ans-plus-tard.jpg',
     releaseDate: '2025-06-18',
@@ -333,6 +372,19 @@ export const baseMoviesSagaPage3: BaseMovie[] = [
       {
         name: 'Jim Carrey',
       },
+      {
+        name: 'Tika Sumpter',
+      },
+      {
+        name: 'Natasha Rothwell',
+      },
+      {
+        name: 'Adam Pally',
+      },
+      {
+        name: 'Neal McDonough',
+      },
+    
     ],
     coverUrl: '/movies_pictures/sonic_the_hedgehog.jpg',
     releaseDate: '2020-01-01',
@@ -353,26 +405,27 @@ export const baseMoviesSagaPage3: BaseMovie[] = [
     director: 'Jeff Fowler',
     actors: [
       {
-        name: 'Jim Carrey',
+        name: 'Ben Schwartz',
       },
       {
         name: 'James Marsden',
       },
       {
-        name: 'Tika Sumpter',
+        name: 'Jim Carrey',
       },
       {
-        name: 'Adam Pally',
+        name: 'Tika Sumpter',
       },
       {
         name: 'Natasha Rothwell',
       },
       {
-        name: 'Lee Majdoub',
+        name: 'Adam Pally',
       },
       {
-        name: 'Shemar Moore',
+        name: 'Neal McDonough',
       },
+    
     ],
     coverUrl: '/movies_pictures/sonic-2.jpg',
     releaseDate: '2022-03-30',
@@ -393,17 +446,27 @@ export const baseMoviesSagaPage3: BaseMovie[] = [
     director: 'Jeff Fowler',
     actors: [
       {
-        name: 'Jim Carrey',
+        name: 'Ben Schwartz',
       },
       {
         name: 'James Marsden',
       },
       {
-        name: 'Idris Elba',
+        name: 'Jim Carrey',
       },
       {
-        name: 'Keanu Reeves',
+        name: 'Tika Sumpter',
       },
+      {
+        name: 'Natasha Rothwell',
+      },
+      {
+        name: 'Adam Pally',
+      },
+      {
+        name: 'Neal McDonough',
+      },
+    
     ],
     coverUrl: '/movies_pictures/sonic-3.jpg',
     releaseDate: '2024-12-25',
@@ -425,14 +488,28 @@ export const baseMoviesSagaPage3: BaseMovie[] = [
     director: 'Peter Jackson',
     actors: [
       {
-        name: 'Elijah Wood',
+        name: 'Ben Schwartz',
       },
       {
-        name: 'Ian McKellen',
+        name: 'James Marsden',
       },
       {
-        name: 'Viggo Mortensen',
+        name: 'Jim Carrey',
       },
+      {
+        name: 'Tika Sumpter',
+      },
+      {
+        name: 'Natasha Rothwell',
+      },
+      {
+        name: 'Adam Pally',
+      },
+      {
+        name: 'Neal McDonough',
+      },
+    
+    
     ],
     coverUrl:
       '/movies_pictures/the_lord_of_the_rings_the_fellowship_of_the_ring.jpg',
@@ -462,6 +539,19 @@ export const baseMoviesSagaPage3: BaseMovie[] = [
       {
         name: 'Viggo Mortensen',
       },
+      {
+        name: 'Sean Astin',
+      },
+      {
+        name: 'Orlando Bloom',
+      },
+      {
+        name: 'John Rhys-Davies',
+      },
+      {
+        name: 'Bernard Hill',
+      },
+    
     ],
     coverUrl: '/movies_pictures/the_lord_of_the_rings_the_two_towers.jpg',
     releaseDate: '2002-12-18',
@@ -490,6 +580,19 @@ export const baseMoviesSagaPage3: BaseMovie[] = [
       {
         name: 'Viggo Mortensen',
       },
+      {
+        name: 'Sean Astin',
+      },
+      {
+        name: 'Orlando Bloom',
+      },
+      {
+        name: 'John Rhys-Davies',
+      },
+      {
+        name: 'Liv Tyler',
+      },
+    
     ],
     coverUrl:
       '/movies_pictures/the_lord_of_the_rings_the_return_of_the_king.jpg',
@@ -515,11 +618,24 @@ export const baseMoviesSagaPage3: BaseMovie[] = [
         name: 'Elijah Wood',
       },
       {
+        name: 'Ian McKellen',
+      },
+      {
+        name: 'Viggo Mortensen',
+      },
+      {
         name: 'Sean Astin',
       },
       {
-        name: 'Ian McKellen',
+        name: 'Orlando Bloom',
       },
+      {
+        name: 'John Rhys-Davies',
+      },
+      {
+        name: 'Sean Bean',
+      },
+    
     ],
     coverUrl: '/movies_pictures/seigneur-anneaux-1.jpg',
     releaseDate: '2002-08-06',
@@ -543,11 +659,24 @@ export const baseMoviesSagaPage3: BaseMovie[] = [
         name: 'Elijah Wood',
       },
       {
+        name: 'Ian McKellen',
+      },
+      {
+        name: 'Viggo Mortensen',
+      },
+      {
         name: 'Sean Astin',
       },
       {
-        name: 'Ian McKellen',
+        name: 'Orlando Bloom',
       },
+      {
+        name: 'John Rhys-Davies',
+      },
+      {
+        name: 'Bernard Hill',
+      },
+    
     ],
     coverUrl: '/movies_pictures/seigneur-anneaux-2.jpg',
     releaseDate: '2003-08-26',
@@ -571,11 +700,24 @@ export const baseMoviesSagaPage3: BaseMovie[] = [
         name: 'Elijah Wood',
       },
       {
+        name: 'Ian McKellen',
+      },
+      {
+        name: 'Viggo Mortensen',
+      },
+      {
         name: 'Sean Astin',
       },
       {
-        name: 'Ian McKellen',
+        name: 'Orlando Bloom',
       },
+      {
+        name: 'John Rhys-Davies',
+      },
+      {
+        name: 'Liv Tyler',
+      },
+    
     ],
     coverUrl: '/movies_pictures/seigneur-anneaux-3.jpg',
     releaseDate: '2004-12-14',
@@ -755,6 +897,19 @@ export const baseMoviesSagaPage3: BaseMovie[] = [
       {
         name: 'Richard Armitage',
       },
+      {
+        name: 'Orlando Bloom',
+      },
+      {
+        name: 'Evangeline Lilly',
+      },
+      {
+        name: 'Luke Evans',
+      },
+      {
+        name: 'Benedict Cumberbatch',
+      },
+    
     ],
     coverUrl: '/movies_pictures/the_hobbit_the_desolation_of_smaug.jpg',
     releaseDate: '2013-12-11',
@@ -783,6 +938,19 @@ export const baseMoviesSagaPage3: BaseMovie[] = [
       {
         name: 'Richard Armitage',
       },
+      {
+        name: 'Orlando Bloom',
+      },
+      {
+        name: 'Evangeline Lilly',
+      },
+      {
+        name: 'Luke Evans',
+      },
+      {
+        name: 'Lee Pace',
+      },
+    
     ],
     coverUrl: '/movies_pictures/the_hobbit_the_battle_of_the_five_armies.jpg',
     releaseDate: '2014-12-10',
@@ -811,6 +979,19 @@ export const baseMoviesSagaPage3: BaseMovie[] = [
       {
         name: 'Sigourney Weaver',
       },
+      {
+        name: 'Harold Ramis',
+      },
+      {
+        name: 'Rick Moranis',
+      },
+      {
+        name: 'Annie Potts',
+      },
+      {
+        name: 'Ernie Hudson',
+      },
+    
     ],
     coverUrl: '/movies_pictures/ghostbusters.jpg',
     releaseDate: '1984-12-12',
@@ -835,6 +1016,19 @@ export const baseMoviesSagaPage3: BaseMovie[] = [
       {
         name: 'Sigourney Weaver',
       },
+      {
+        name: 'Harold Ramis',
+      },
+      {
+        name: 'Rick Moranis',
+      },
+      {
+        name: 'Ernie Hudson',
+      },
+      {
+        name: 'Annie Potts',
+      },
+    
     ],
     coverUrl: '/movies_pictures/ghostbusters_ii.jpg',
     releaseDate: '1989-12-13',
@@ -894,8 +1088,21 @@ export const baseMoviesSagaPage3: BaseMovie[] = [
         name: 'Skandar Keynes',
       },
       {
+        name: 'William Moseley',
+      },
+      {
+        name: 'Anna Popplewell',
+      },
+      {
         name: 'Tilda Swinton',
       },
+      {
+        name: 'James McAvoy',
+      },
+      {
+        name: 'Liam Neeson',
+      },
+    
     ],
     coverUrl:
       '/movies_pictures/the_chronicles_of_narnia_the_lion_the_witch_and_th.jpg',
@@ -1026,14 +1233,27 @@ export const baseMoviesSagaPage3: BaseMovie[] = [
     director: 'James Wan',
     actors: [
       {
-        name: 'Patrick Wilson',
-      },
-      {
         name: 'Vera Farmiga',
       },
       {
-        name: "Frances O'Connor",
+        name: 'Patrick Wilson',
       },
+      {
+        name: 'Madison Wolfe',
+      },
+      {
+        name: 'Frances OConnor',
+      },
+      {
+        name: 'Lauren Esposito',
+      },
+      {
+        name: 'Simon McBurney',
+      },
+      {
+        name: 'Franka Potente',
+      },
+    
     ],
     coverUrl: '/movies_pictures/the_conjuring_2.jpg',
     releaseDate: '2016-06-29',
@@ -1050,14 +1270,27 @@ export const baseMoviesSagaPage3: BaseMovie[] = [
     director: 'Michael Chaves',
     actors: [
       {
-        name: 'Patrick Wilson',
-      },
-      {
         name: 'Vera Farmiga',
       },
       {
-        name: "Ruairi O'Connor",
+        name: 'Patrick Wilson',
       },
+      {
+        name: 'Ruairi OConnor',
+      },
+      {
+        name: 'Sarah Catherine Hook',
+      },
+      {
+        name: 'Julian Hilliard',
+      },
+      {
+        name: 'John Noble',
+      },
+      {
+        name: 'Eugenie Bondurant',
+      },
+    
     ],
     coverUrl: '/movies_pictures/conjuring_sous_lemprise_du_diable.jpg',
     releaseDate: '2021-06-09',
@@ -1298,6 +1531,19 @@ export const baseMoviesSagaPage3: BaseMovie[] = [
       {
         name: 'Laura Dern',
       },
+      {
+        name: 'Sam Neill',
+      },
+      {
+        name: 'Jeff Goldblum',
+      },
+      {
+        name: 'DeWanda Wise',
+      },
+      {
+        name: 'Mamoudou Athie',
+      },
+    
     ],
     coverUrl: '/movies_pictures/jurassic_world_le_monde_dapres.jpg',
     releaseDate: '2022-06-08',
@@ -1353,8 +1599,21 @@ export const baseMoviesSagaPage3: BaseMovie[] = [
         name: 'Zachary Quinto',
       },
       {
+        name: 'Leonard Nimoy',
+      },
+      {
+        name: 'Eric Bana',
+      },
+      {
+        name: 'Karl Urban',
+      },
+      {
         name: 'Zoe Saldana',
       },
+      {
+        name: 'Simon Pegg',
+      },
+    
     ],
     coverUrl: '/movies_pictures/star_trek.jpg',
     releaseDate: '2009-05-06',
@@ -1433,6 +1692,19 @@ export const baseMoviesSagaPage3: BaseMovie[] = [
       {
         name: 'Lynn Hung',
       },
+      {
+        name: 'Hiroyuki Ikeuchi',
+      },
+      {
+        name: 'Gordon Lam',
+      },
+      {
+        name: 'Fan Siu-Wong',
+      },
+      {
+        name: 'Xing Yu',
+      },
+    
     ],
     coverUrl: '/movies_pictures/ip_man.jpg',
     releaseDate: '2010-10-05',
@@ -1455,8 +1727,21 @@ export const baseMoviesSagaPage3: BaseMovie[] = [
         name: 'Sammo Hung',
       },
       {
-        name: 'Simon Yam',
+        name: 'Huang Xiaoming',
       },
+      {
+        name: 'Lynn Hung',
+      },
+      {
+        name: 'Kent Cheng',
+      },
+      {
+        name: 'Darren Shahlavi',
+      },
+      {
+        name: 'Yuen Wah',
+      },
+    
     ],
     coverUrl: '/movies_pictures/ip_man_2.jpg',
     releaseDate: '2011-08-09',
@@ -1476,11 +1761,24 @@ export const baseMoviesSagaPage3: BaseMovie[] = [
         name: 'Donnie Yen',
       },
       {
+        name: 'Lynn Hung',
+      },
+      {
+        name: 'Max Zhang',
+      },
+      {
         name: 'Mike Tyson',
       },
       {
-        name: 'Zhang Jin',
+        name: 'Patrick Tam',
       },
+      {
+        name: 'Louis Cheung',
+      },
+      {
+        name: 'Kent Cheng',
+      },
+    
     ],
     coverUrl: '/movies_pictures/ip_man_3.jpg',
     releaseDate: '2015-12-24',
@@ -1521,11 +1819,24 @@ export const baseMoviesSagaPage3: BaseMovie[] = [
         name: 'Katie Featherston',
       },
       {
+        name: 'Sprague Grayden',
+      },
+      {
         name: 'Micah Sloat',
       },
       {
-        name: 'Sprague Grayden',
+        name: 'Molly Ephraim',
       },
+      {
+        name: 'Brian Boland',
+      },
+      {
+        name: 'Seth Ginsberg',
+      },
+      {
+        name: 'Vivis Cortez',
+      },
+    
     ],
     coverUrl: '/movies_pictures/paranormal_activity_2.jpg',
     releaseDate: '2010-10-20',
@@ -1542,14 +1853,27 @@ export const baseMoviesSagaPage3: BaseMovie[] = [
     director: 'Henry Joost, Ariel Schulman',
     actors: [
       {
-        name: 'Christopher Nicholas Smith',
+        name: 'Lauren Bittner',
       },
       {
-        name: 'Lauren Bittner',
+        name: 'Christopher Nicholas Smith',
       },
       {
         name: 'Chloe Csengery',
       },
+      {
+        name: 'Jessica Tyler Brown',
+      },
+      {
+        name: 'Dustin Ingram',
+      },
+      {
+        name: 'Hallie Foote',
+      },
+      {
+        name: 'Johanna Braddy',
+      },
+    
     ],
     coverUrl: '/movies_pictures/paranormal_activity_3.jpg',
     releaseDate: '2011-10-19',
@@ -1566,6 +1890,9 @@ export const baseMoviesSagaPage3: BaseMovie[] = [
     director: 'Henry Joost, Ariel Schulman',
     actors: [
       {
+        name: 'Katie Featherston',
+      },
+      {
         name: 'Kathryn Newton',
       },
       {
@@ -1574,6 +1901,16 @@ export const baseMoviesSagaPage3: BaseMovie[] = [
       {
         name: 'Aiden Lovekamp',
       },
+      {
+        name: 'Brady Allen',
+      },
+      {
+        name: 'Stephen Dunham',
+      },
+      {
+        name: 'Alexondra Lee',
+      },
+    
     ],
     coverUrl: '/movies_pictures/paranormal_activity_4.jpg',
     releaseDate: '2012-10-31',
@@ -1598,6 +1935,19 @@ export const baseMoviesSagaPage3: BaseMovie[] = [
       {
         name: 'Gabrielle Walsh',
       },
+      {
+        name: 'Renee Victor',
+      },
+      {
+        name: 'Noemi Gonzalez',
+      },
+      {
+        name: 'Richard Cabral',
+      },
+      {
+        name: 'Carlos Pratts',
+      },
+    
     ],
     coverUrl: '/movies_pictures/paranormal_activity_the_marked_ones.jpg',
     releaseDate: '2014-01-01',
@@ -1620,8 +1970,21 @@ export const baseMoviesSagaPage3: BaseMovie[] = [
         name: 'Brit Shaw',
       },
       {
+        name: 'Dan Gill',
+      },
+      {
         name: 'Ivy George',
       },
+      {
+        name: 'Olivia Taylor Dudley',
+      },
+      {
+        name: 'Chloe Csengery',
+      },
+      {
+        name: 'Jessica Tyler Brown',
+      },
+    
     ],
     coverUrl: '/movies_pictures/paranormal_activity_the_ghost_dimension.jpg',
     releaseDate: '2015-10-21',
@@ -1656,9 +2019,28 @@ export const baseMoviesSagaPage3: BaseMovie[] = [
     title: 'Expendables 2',
     director: 'Simon West',
     actors: [
-      { name: 'Sylvester Stallone' },
-      { name: 'Arnold Schwarzenegger' },
-      { name: 'Jet Li' },
+      {
+        name: 'Sylvester Stallone',
+      },
+      {
+        name: 'Jason Statham',
+      },
+      {
+        name: 'Jet Li',
+      },
+      {
+        name: 'Dolph Lundgren',
+      },
+      {
+        name: 'Chuck Norris',
+      },
+      {
+        name: 'Jean-Claude Van Damme',
+      },
+      {
+        name: 'Bruce Willis',
+      },
+    
     ],
     coverUrl: '/movies_pictures/62593-the-expendables-2-0-150-0-225-crop.jpg',
     releaseDate: '2012-08-17',
@@ -1928,14 +2310,27 @@ export const baseMoviesSagaPage3: BaseMovie[] = [
     director: 'Darren Lynn Bousman',
     actors: [
       {
-        name: 'Tobin Bell',
+        name: 'Donnie Wahlberg',
       },
       {
         name: 'Shawnee Smith',
       },
       {
-        name: 'Donnie Wahlberg',
+        name: 'Tobin Bell',
       },
+      {
+        name: 'Erik Knudsen',
+      },
+      {
+        name: 'Franky G',
+      },
+      {
+        name: 'Glenn Plummer',
+      },
+      {
+        name: 'Beverley Mitchell',
+      },
+    
     ],
     coverUrl: '/movies_pictures/saw_ii.jpg',
     releaseDate: '2005-12-28',
@@ -1960,6 +2355,19 @@ export const baseMoviesSagaPage3: BaseMovie[] = [
       {
         name: 'Angus Macfadyen',
       },
+      {
+        name: 'Bahar Soomekh',
+      },
+      {
+        name: 'Dina Meyer',
+      },
+      {
+        name: 'Donnie Wahlberg',
+      },
+      {
+        name: 'J. Larose',
+      },
+    
     ],
     coverUrl: '/movies_pictures/saw_iii.jpg',
     releaseDate: '2006-11-22',
@@ -1984,6 +2392,19 @@ export const baseMoviesSagaPage3: BaseMovie[] = [
       {
         name: 'Scott Patterson',
       },
+      {
+        name: 'Betsy Russell',
+      },
+      {
+        name: 'Lyriq Bent',
+      },
+      {
+        name: 'Athena Karkanis',
+      },
+      {
+        name: 'Donnie Wahlberg',
+      },
+    
     ],
     coverUrl: '/movies_pictures/saw_iv.jpg',
     releaseDate: '2007-11-21',
@@ -2008,6 +2429,19 @@ export const baseMoviesSagaPage3: BaseMovie[] = [
       {
         name: 'Scott Patterson',
       },
+      {
+        name: 'Betsy Russell',
+      },
+      {
+        name: 'Julie Benz',
+      },
+      {
+        name: 'Meagan Good',
+      },
+      {
+        name: 'Mark Rolston',
+      },
+    
     ],
     coverUrl: '/movies_pictures/saw_v.jpg',
     releaseDate: '2008-11-05',
@@ -2024,14 +2458,27 @@ export const baseMoviesSagaPage3: BaseMovie[] = [
     director: 'Kevin Greutert',
     actors: [
       {
-        name: 'Anika Noni Rose',
+        name: 'Tobin Bell',
       },
       {
-        name: 'Bruno Campos',
+        name: 'Costas Mandylor',
       },
       {
-        name: 'Keith David',
+        name: 'Mark Rolston',
       },
+      {
+        name: 'Betsy Russell',
+      },
+      {
+        name: 'Peter Outerbridge',
+      },
+      {
+        name: 'Shawnee Smith',
+      },
+      {
+        name: 'Athena Karkanis',
+      },
+    
     ],
     coverUrl: '/movies_pictures/saw_vi.jpg',
     releaseDate: '2009-11-04',
@@ -2056,6 +2503,19 @@ export const baseMoviesSagaPage3: BaseMovie[] = [
       {
         name: 'Betsy Russell',
       },
+      {
+        name: 'Cary Elwes',
+      },
+      {
+        name: 'Sean Patrick Flanery',
+      },
+      {
+        name: 'Chad Donella',
+      },
+      {
+        name: 'Gina Holden',
+      },
+    
     ],
     coverUrl: '/movies_pictures/saw_3d.jpg',
     releaseDate: '2010-11-10',
@@ -2078,8 +2538,21 @@ export const baseMoviesSagaPage3: BaseMovie[] = [
         name: 'Jon Voight',
       },
       {
-        name: 'Emmanuelle Béart',
+        name: 'Emmanuelle Beart',
       },
+      {
+        name: 'Henry Czerny',
+      },
+      {
+        name: 'Jean Reno',
+      },
+      {
+        name: 'Ving Rhames',
+      },
+      {
+        name: 'Kristin Scott Thomas',
+      },
+    
     ],
     coverUrl: '/movies_pictures/mission_impossible.jpg',
     releaseDate: '1996-10-23',
@@ -2102,8 +2575,21 @@ export const baseMoviesSagaPage3: BaseMovie[] = [
         name: 'Dougray Scott',
       },
       {
-        name: 'Thandie Newton',
+        name: 'Thandiwe Newton',
       },
+      {
+        name: 'Ving Rhames',
+      },
+      {
+        name: 'Richard Roxburgh',
+      },
+      {
+        name: 'Brendan Gleeson',
+      },
+      {
+        name: 'Rade Serbedzija',
+      },
+    
     ],
     coverUrl: '/movies_pictures/mission_impossible_ii.jpg',
     releaseDate: '2000-07-26',
@@ -2128,6 +2614,19 @@ export const baseMoviesSagaPage3: BaseMovie[] = [
       {
         name: 'Ving Rhames',
       },
+      {
+        name: 'Billy Crudup',
+      },
+      {
+        name: 'Michelle Monaghan',
+      },
+      {
+        name: 'Jonathan Rhys Meyers',
+      },
+      {
+        name: 'Maggie Q',
+      },
+    
     ],
     coverUrl: '/movies_pictures/mission_impossible_iii.jpg',
     releaseDate: '2006-05-03',
@@ -2150,8 +2649,21 @@ export const baseMoviesSagaPage3: BaseMovie[] = [
         name: 'Jeremy Renner',
       },
       {
+        name: 'Simon Pegg',
+      },
+      {
         name: 'Paula Patton',
       },
+      {
+        name: 'Michael Nyqvist',
+      },
+      {
+        name: 'Anil Kapoor',
+      },
+      {
+        name: 'Lea Seydoux',
+      },
+    
     ],
     coverUrl: '/movies_pictures/mission_impossible_ghost_protocol.jpg',
     releaseDate: '2011-12-14',
@@ -2171,11 +2683,24 @@ export const baseMoviesSagaPage3: BaseMovie[] = [
         name: 'Tom Cruise',
       },
       {
-        name: 'Rebecca Ferguson',
+        name: 'Jeremy Renner',
       },
       {
         name: 'Simon Pegg',
       },
+      {
+        name: 'Rebecca Ferguson',
+      },
+      {
+        name: 'Ving Rhames',
+      },
+      {
+        name: 'Sean Harris',
+      },
+      {
+        name: 'Alec Baldwin',
+      },
+    
     ],
     coverUrl: '/movies_pictures/mission_impossible_rogue_nation.jpg',
     releaseDate: '2015-08-12',
@@ -2198,8 +2723,21 @@ export const baseMoviesSagaPage3: BaseMovie[] = [
         name: 'Henry Cavill',
       },
       {
+        name: 'Ving Rhames',
+      },
+      {
+        name: 'Simon Pegg',
+      },
+      {
         name: 'Rebecca Ferguson',
       },
+      {
+        name: 'Sean Harris',
+      },
+      {
+        name: 'Angela Bassett',
+      },
+    
     ],
     coverUrl: '/movies_pictures/mission_impossible_fallout.jpg',
     releaseDate: '2018-08-01',
@@ -2360,6 +2898,19 @@ export const baseMoviesSagaPage3: BaseMovie[] = [
       {
         name: 'Gary Oldman',
       },
+      {
+        name: 'Keri Russell',
+      },
+      {
+        name: 'Toby Kebbell',
+      },
+      {
+        name: 'Kodi Smit-McPhee',
+      },
+      {
+        name: 'Kirk Acevedo',
+      },
+    
     ],
     coverUrl:
       '/movies_pictures/e0ce2170326e.jpg',
@@ -2385,6 +2936,19 @@ export const baseMoviesSagaPage3: BaseMovie[] = [
       {
         name: 'Steve Zahn',
       },
+      {
+        name: 'Karin Konoval',
+      },
+      {
+        name: 'Amiah Miller',
+      },
+      {
+        name: 'Terry Notary',
+      },
+      {
+        name: 'Gabriel Chavarria',
+      },
+    
     ],
     coverUrl:
       '/movies_pictures/84c5e2a3ad35.jpg',

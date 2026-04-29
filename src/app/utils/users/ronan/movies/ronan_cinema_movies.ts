@@ -2978,22 +2978,7 @@ export const ronanCinemaMovies: UserMovies = [
     loaned: '',
     inList: [],
   },
-  {
-    title: 'The Woman in the Window',
-    director: 'Joe Wright',
-    rating: 2,
-    timesWatched: 1,
-    firstViewedDate: '2021-01-01',
-    lastViewedDate: '2021-01-01',
-    seenAtCinema: true,
-    owned: false,
-    wantToSeeAgain: false,
-    watchPriority: 1,
-    ratingComment: '',
-    borrowed: '',
-    loaned: '',
-    inList: [],
-  },
+
   {
     title: 'Army of the Dead',
     director: 'Zack Snyder',

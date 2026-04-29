@@ -413,6 +413,18 @@ export const baseMoviesPage9: BaseMovie[] = [
       {
         name: 'Alexis Michalik',
       },
+      {
+        name: 'Alice David',
+      },
+      {
+        name: 'Swan Joulin',
+      },
+      {
+        name: 'Violette Guillon',
+      },
+      {
+        name: 'Ilan Debrabant',
+      },
     ],
     coverUrl: '/movies_pictures/a5c44d589de5.jpg',
     releaseDate: '2024-04-10',
@@ -2046,6 +2058,18 @@ export const baseMoviesPage9: BaseMovie[] = [
       },
       {
         name: 'Marlon Wayans',
+      },
+      {
+        name: 'Jessica Henwick',
+      },
+      {
+        name: 'Jenny Slate',
+      },
+      {
+        name: 'Liyanna Muscat',
+      },
+      {
+        name: 'Barbara Bain',
       },
     ],
     coverUrl: '/movies_pictures/aaa4112420be.jpg',

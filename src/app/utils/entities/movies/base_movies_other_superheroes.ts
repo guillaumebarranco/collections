@@ -270,9 +270,28 @@ export const baseMoviesOtherSuperheroes: BaseMovie[] = [
     title: 'X-Men : Le Commencement',
     director: 'Matthew Vaughn',
     actors: [
-      { name: 'James McAvoy' },
-      { name: 'Michael Fassbender' },
-      { name: 'Jennifer Lawrence' },
+      {
+        name: 'James McAvoy',
+      },
+      {
+        name: 'Michael Fassbender',
+      },
+      {
+        name: 'Jennifer Lawrence',
+      },
+      {
+        name: 'Kevin Bacon',
+      },
+      {
+        name: 'Rose Byrne',
+      },
+      {
+        name: 'January Jones',
+      },
+      {
+        name: 'Nicholas Hoult',
+      },
+    
     ],
     coverUrl: '/movies_pictures/16074-x-men-first-class-0-150-0-225-crop.jpg',
     releaseDate: '2011-06-03',
@@ -418,9 +437,28 @@ export const baseMoviesOtherSuperheroes: BaseMovie[] = [
     title: 'Venom : The Last Dance',
     director: 'Kelly Marcel',
     actors: [
-      { name: 'Tom Hardy' },
-      { name: 'Chiwetel Ejiofor' },
-      { name: 'Juno Temple' },
+      {
+        name: 'Tom Hardy',
+      },
+      {
+        name: 'Chiwetel Ejiofor',
+      },
+      {
+        name: 'Juno Temple',
+      },
+      {
+        name: 'Rhys Ifans',
+      },
+      {
+        name: 'Stephen Graham',
+      },
+      {
+        name: 'Peggy Lu',
+      },
+      {
+        name: 'Alanna Ubach',
+      },
+    
     ],
     coverUrl: '/movies_pictures/223a62b4e2c3.jpg',
     releaseDate: '2024-10-23',
@@ -1107,6 +1145,19 @@ export const baseMoviesOtherSuperheroes: BaseMovie[] = [
       {
         name: 'Charlie Heaton',
       },
+      {
+        name: 'Alice Braga',
+      },
+      {
+        name: 'Blu Hunt',
+      },
+      {
+        name: 'Henry Zaga',
+      },
+      {
+        name: 'Antonio Banderas',
+      },
+    
     ],
     coverUrl: '/movies_pictures/21f12b26fab1.jpg',
     releaseDate: '2020-08-26',

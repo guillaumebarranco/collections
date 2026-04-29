@@ -316,9 +316,28 @@ export const baseMoviesSagaPage1: BaseMovie[] = [
     title: 'Star Wars : Épisode 1 - La menace fantôme',
     director: 'George Lucas',
     actors: [
-      { name: 'Liam Neeson' },
-      { name: 'Ewan McGregor' },
-      { name: 'Natalie Portman' },
+      {
+        name: 'Liam Neeson',
+      },
+      {
+        name: 'Ewan McGregor',
+      },
+      {
+        name: 'Natalie Portman',
+      },
+      {
+        name: 'Jake Lloyd',
+      },
+      {
+        name: 'Ian McDiarmid',
+      },
+      {
+        name: 'Pernilla August',
+      },
+      {
+        name: 'Ray Park',
+      },
+    
     ],
     coverUrl: '/movies_pictures/ca526fe13a7b.jpg',
     releaseDate: '1999-05-19',
@@ -334,9 +353,28 @@ export const baseMoviesSagaPage1: BaseMovie[] = [
     title: "Star Wars: Episode 2 - L'attaque des clones",
     director: 'George Lucas',
     actors: [
-      { name: 'Hayden Christensen' },
-      { name: 'Ewan McGregor' },
-      { name: 'Natalie Portman' },
+      {
+        name: 'Ewan McGregor',
+      },
+      {
+        name: 'Natalie Portman',
+      },
+      {
+        name: 'Hayden Christensen',
+      },
+      {
+        name: 'Christopher Lee',
+      },
+      {
+        name: 'Samuel L. Jackson',
+      },
+      {
+        name: 'Ian McDiarmid',
+      },
+      {
+        name: 'Frank Oz',
+      },
+    
     ],
     coverUrl: '/movies_pictures/ca700bcc1b8b.jpg',
     releaseDate: '2002-05-16',
@@ -352,9 +390,28 @@ export const baseMoviesSagaPage1: BaseMovie[] = [
     title: 'Star Wars : Épisode 3 - La revanche des Sith',
     director: 'George Lucas',
     actors: [
-      { name: 'Hayden Christensen' },
-      { name: 'Ewan McGregor' },
-      { name: 'Natalie Portman' },
+      {
+        name: 'Ewan McGregor',
+      },
+      {
+        name: 'Natalie Portman',
+      },
+      {
+        name: 'Hayden Christensen',
+      },
+      {
+        name: 'Ian McDiarmid',
+      },
+      {
+        name: 'Samuel L. Jackson',
+      },
+      {
+        name: 'Christopher Lee',
+      },
+      {
+        name: 'Frank Oz',
+      },
+    
     ],
     coverUrl: '/movies_pictures/06247443ac89.jpg',
     releaseDate: '2005-05-19',
@@ -370,9 +427,28 @@ export const baseMoviesSagaPage1: BaseMovie[] = [
     title: 'Star Wars : Episode 4 - Un nouvel espoir',
     director: 'George Lucas',
     actors: [
-      { name: 'Mark Hamill' },
-      { name: 'Harrison Ford' },
-      { name: 'Carrie Fisher' },
+      {
+        name: 'Mark Hamill',
+      },
+      {
+        name: 'Harrison Ford',
+      },
+      {
+        name: 'Carrie Fisher',
+      },
+      {
+        name: 'Alec Guinness',
+      },
+      {
+        name: 'Peter Cushing',
+      },
+      {
+        name: 'Anthony Daniels',
+      },
+      {
+        name: 'Kenny Baker',
+      },
+    
     ],
     coverUrl: '/movies_pictures/b1cec9c9ab78.jpg',
     releaseDate: '1977-05-25',
@@ -388,9 +464,28 @@ export const baseMoviesSagaPage1: BaseMovie[] = [
     title: "Star Wars : Episode 5 - L'empire contre-attaque",
     director: 'Irvin Kershner',
     actors: [
-      { name: 'Mark Hamill' },
-      { name: 'Harrison Ford' },
-      { name: 'Carrie Fisher' },
+      {
+        name: 'Mark Hamill',
+      },
+      {
+        name: 'Harrison Ford',
+      },
+      {
+        name: 'Carrie Fisher',
+      },
+      {
+        name: 'Billy Dee Williams',
+      },
+      {
+        name: 'Anthony Daniels',
+      },
+      {
+        name: 'David Prowse',
+      },
+      {
+        name: 'Frank Oz',
+      },
+    
     ],
     coverUrl: '/movies_pictures/d15f5e4674bb.jpg',
     releaseDate: '1980-05-21',
@@ -406,9 +501,28 @@ export const baseMoviesSagaPage1: BaseMovie[] = [
     title: 'Star Wars : Episode 6 - Le retour du Jedi',
     director: 'Richard Marquand',
     actors: [
-      { name: 'Mark Hamill' },
-      { name: 'Harrison Ford' },
-      { name: 'Carrie Fisher' },
+      {
+        name: 'Mark Hamill',
+      },
+      {
+        name: 'Harrison Ford',
+      },
+      {
+        name: 'Carrie Fisher',
+      },
+      {
+        name: 'Billy Dee Williams',
+      },
+      {
+        name: 'Anthony Daniels',
+      },
+      {
+        name: 'Ian McDiarmid',
+      },
+      {
+        name: 'Frank Oz',
+      },
+    
     ],
     coverUrl: '/movies_pictures/ec84b829ebea.jpg',
     releaseDate: '1983-05-25',
@@ -424,9 +538,28 @@ export const baseMoviesSagaPage1: BaseMovie[] = [
     title: 'Star Wars : Episode 7 - Le réveil de la Force',
     director: 'J.J. Abrams',
     actors: [
-      { name: 'Daisy Ridley' },
-      { name: 'John Boyega' },
-      { name: 'Adam Driver' },
+      {
+        name: 'Daisy Ridley',
+      },
+      {
+        name: 'John Boyega',
+      },
+      {
+        name: 'Adam Driver',
+      },
+      {
+        name: 'Harrison Ford',
+      },
+      {
+        name: 'Carrie Fisher',
+      },
+      {
+        name: 'Oscar Isaac',
+      },
+      {
+        name: 'Domhnall Gleeson',
+      },
+    
     ],
     coverUrl: '/movies_pictures/c8d02434fd96.jpg',
     releaseDate: '2015-12-18',
@@ -478,6 +611,19 @@ export const baseMoviesSagaPage1: BaseMovie[] = [
       {
         name: 'Adam Driver',
       },
+      {
+        name: 'Oscar Isaac',
+      },
+      {
+        name: 'Carrie Fisher',
+      },
+      {
+        name: 'Mark Hamill',
+      },
+      {
+        name: 'Ian McDiarmid',
+      },
+    
     ],
     coverUrl: '/movies_pictures/e1419bbb3ede.png',
     releaseDate: '2019-12-20',
@@ -1556,6 +1702,19 @@ export const baseMoviesSagaPage1: BaseMovie[] = [
       {
         name: 'Yahya Abdul-Mateen II',
       },
+      {
+        name: 'Jessica Henwick',
+      },
+      {
+        name: 'Jonathan Groff',
+      },
+      {
+        name: 'Neil Patrick Harris',
+      },
+      {
+        name: 'Jada Pinkett Smith',
+      },
+    
     ],
     coverUrl: '/movies_pictures/929ebe08742b.jpg',
     releaseDate: '2021-12-22',
@@ -1614,8 +1773,21 @@ export const baseMoviesSagaPage1: BaseMovie[] = [
         name: 'Carla Gugino',
       },
       {
-        name: 'Alexa Vega',
+        name: 'Alexa PenaVega',
       },
+      {
+        name: 'Daryl Sabara',
+      },
+      {
+        name: 'Steve Buscemi',
+      },
+      {
+        name: 'Bill Paxton',
+      },
+      {
+        name: 'Alan Cumming',
+      },
+    
     ],
     coverUrl: '/movies_pictures/spy_kids_2_the_island_of_lost_dreams.jpg',
     releaseDate: '2003-01-01',
@@ -1749,6 +1921,19 @@ export const baseMoviesSagaPage1: BaseMovie[] = [
       {
         name: 'Vanessa Hudgens',
       },
+      {
+        name: 'Alexander Ludwig',
+      },
+      {
+        name: 'Paola Nunez',
+      },
+      {
+        name: 'Charles Melton',
+      },
+      {
+        name: 'Kate del Castillo',
+      },
+    
     ],
     coverUrl: '/movies_pictures/bad_boys_for_life.jpg',
     releaseDate: '2020-01-22',
@@ -1773,6 +1958,19 @@ export const baseMoviesSagaPage1: BaseMovie[] = [
       {
         name: 'Vanessa Hudgens',
       },
+      {
+        name: 'Alexander Ludwig',
+      },
+      {
+        name: 'Paola Nunez',
+      },
+      {
+        name: 'Eric Dane',
+      },
+      {
+        name: 'Ioan Gruffudd',
+      },
+    
     ],
     coverUrl: '/movies_pictures/efbbe86f093b0904258c8a9b1e60bae7.webp',
     releaseDate: '2024-06-07',
@@ -1905,6 +2103,19 @@ export const baseMoviesSagaPage1: BaseMovie[] = [
       {
         name: 'Liam Neeson',
       },
+      {
+        name: 'Emma Thompson',
+      },
+      {
+        name: 'Kumail Nanjiani',
+      },
+      {
+        name: 'Rafe Spall',
+      },
+      {
+        name: 'Rebecca Ferguson',
+      },
+    
     ],
     coverUrl: '/movies_pictures/95f46301c698.jpg',
     releaseDate: '2019-06-12',
@@ -2189,9 +2400,28 @@ export const baseMoviesSagaPage1: BaseMovie[] = [
     title: "L'arme fatale 4",
     director: 'Richard Donner',
     actors: [
-      { name: 'Mel Gibson' },
-      { name: 'Danny Glover' },
-      { name: 'Jet Li' },
+      {
+        name: 'Mel Gibson',
+      },
+      {
+        name: 'Danny Glover',
+      },
+      {
+        name: 'Joe Pesci',
+      },
+      {
+        name: 'Rene Russo',
+      },
+      {
+        name: 'Chris Rock',
+      },
+      {
+        name: 'Jet Li',
+      },
+      {
+        name: 'Darlene Love',
+      },
+    
     ],
     coverUrl: '/movies_pictures/828182f084c3.jpg',
     releaseDate: '1998-07-10',
@@ -2876,6 +3106,19 @@ export const baseMoviesSagaPage1: BaseMovie[] = [
       {
         name: 'Liam Hemsworth',
       },
+      {
+        name: 'Woody Harrelson',
+      },
+      {
+        name: 'Elizabeth Banks',
+      },
+      {
+        name: 'Sam Claflin',
+      },
+      {
+        name: 'Philip Seymour Hoffman',
+      },
+    
     ],
     coverUrl: '/movies_pictures/the_hunger_games_catching_fire.jpg',
     releaseDate: '2013-11-27',
@@ -2945,6 +3188,19 @@ export const baseMoviesSagaPage1: BaseMovie[] = [
       {
         name: 'Liam Hemsworth',
       },
+      {
+        name: 'Woody Harrelson',
+      },
+      {
+        name: 'Elizabeth Banks',
+      },
+      {
+        name: 'Julianne Moore',
+      },
+      {
+        name: 'Donald Sutherland',
+      },
+    
     ],
     coverUrl: '/movies_pictures/the_hunger_games_mockingjay_part_2.jpg',
     releaseDate: '2015-11-18',
@@ -3116,6 +3372,19 @@ export const baseMoviesSagaPage1: BaseMovie[] = [
       {
         name: 'Jack Reynor',
       },
+      {
+        name: 'Stanley Tucci',
+      },
+      {
+        name: 'Kelsey Grammer',
+      },
+      {
+        name: 'Titus Welliver',
+      },
+      {
+        name: 'Sophia Myles',
+      },
+    
     ],
     coverUrl: '/movies_pictures/ffa09a88560d.jpg',
     releaseDate: '2014-07-16',
@@ -3140,6 +3409,19 @@ export const baseMoviesSagaPage1: BaseMovie[] = [
       {
         name: 'Laura Haddock',
       },
+      {
+        name: 'Jerrod Carmichael',
+      },
+      {
+        name: 'Isabela Merced',
+      },
+      {
+        name: 'Josh Duhamel',
+      },
+      {
+        name: 'Stanley Tucci',
+      },
+    
     ],
     coverUrl:
       '/movies_pictures/aHR0cHM6Ly9pbWFnZS50bWRiLm9yZy90L3AvL29yaWdpbmFsLy9vR3c1T1ZkR0h4OTFmNzBNcUpQQ3E0SmxQTjguanBn.webp',
@@ -3165,6 +3447,19 @@ export const baseMoviesSagaPage1: BaseMovie[] = [
       {
         name: 'Jorge Lendeborg Jr.',
       },
+      {
+        name: 'John Ortiz',
+      },
+      {
+        name: 'Jason Drucker',
+      },
+      {
+        name: 'Pamela Adlon',
+      },
+      {
+        name: 'Stephen Schneider',
+      },
+    
     ],
     coverUrl: '/movies_pictures/27f5035ae03f.jpg',
     releaseDate: '2018-12-26',

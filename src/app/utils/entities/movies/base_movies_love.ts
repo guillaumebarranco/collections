@@ -6,14 +6,27 @@ export const baseMoviesLove: BaseMovie[] = [
     director: 'Hugo Gélin',
     actors: [
       {
-        name: 'François Civil',
+        name: 'Francois Civil',
       },
       {
-        name: 'Joséphine Japy',
+        name: 'Josephine Japy',
       },
       {
         name: 'Benjamin Lavernhe',
       },
+      {
+        name: 'Edith Scob',
+      },
+      {
+        name: 'Camille Lellouche',
+      },
+      {
+        name: 'Samir Boitard',
+      },
+      {
+        name: 'Aude Pepin',
+      },
+    
     ],
     coverUrl: '/movies_pictures/c92fb64760bb.webp',
     releaseDate: '2019-01-30',
@@ -180,6 +193,19 @@ export const baseMoviesLove: BaseMovie[] = [
       {
         name: 'Dan Fogler',
       },
+      {
+        name: 'Ellia English',
+      },
+      {
+        name: 'Lonny Ross',
+      },
+      {
+        name: 'Sasha Pieterse',
+      },
+      {
+        name: 'Connor Price',
+      },
+    
     ],
     coverUrl:
       '/movies_pictures/5c90b820c8d937b410251edf019caf05e9886554fde10a631e48fd14c03132e0.jpg',
@@ -205,6 +231,19 @@ export const baseMoviesLove: BaseMovie[] = [
       {
         name: 'Jason Sudeikis',
       },
+      {
+        name: 'Christine Baranski',
+      },
+      {
+        name: 'Dorian Missick',
+      },
+      {
+        name: 'Adam Rose',
+      },
+      {
+        name: 'Peter Greene',
+      },
+    
     ],
     coverUrl: '/movies_pictures/459e6ed2c87b.jpg',
     releaseDate: '2010-03-19',
@@ -265,6 +304,19 @@ export const baseMoviesLove: BaseMovie[] = [
       {
         name: 'Charlie Day',
       },
+      {
+        name: 'Jason Sudeikis',
+      },
+      {
+        name: 'Christina Applegate',
+      },
+      {
+        name: 'Ron Livingston',
+      },
+      {
+        name: 'Rob Riggle',
+      },
+    
     ],
     coverUrl: '/movies_pictures/19488091.jpg',
     releaseDate: '2010-08-27',
@@ -867,6 +919,19 @@ export const baseMoviesLove: BaseMovie[] = [
       {
         name: 'Misha Gabriel Hamilton',
       },
+      {
+        name: 'Peter Gallagher',
+      },
+      {
+        name: 'Stephen Boss',
+      },
+      {
+        name: 'Cleopatra Coleman',
+      },
+      {
+        name: 'Megan Boone',
+      },
+    
     ],
     coverUrl: '/movies_pictures/753d126125ed.jpg',
     releaseDate: '2012-08-08',
@@ -1099,14 +1164,27 @@ export const baseMoviesLove: BaseMovie[] = [
     director: 'Tom Vaughan',
     actors: [
       {
-        name: 'Hiran Chatterjee',
+        name: 'Cameron Diaz',
       },
       {
-        name: 'Koel Mullick',
+        name: 'Ashton Kutcher',
       },
       {
-        name: 'Sohini Paul',
+        name: 'Rob Corddry',
       },
+      {
+        name: 'Lake Bell',
+      },
+      {
+        name: 'Jason Sudeikis',
+      },
+      {
+        name: 'Treat Williams',
+      },
+      {
+        name: 'Queen Latifah',
+      },
+    
     ],
     coverUrl:
       '/movies_pictures/47414-what-happens-in-vegas--0-150-0-225-crop.jpg',
@@ -1235,9 +1313,28 @@ export const baseMoviesLove: BaseMovie[] = [
     title: 'Hitch : Expert en Séduction',
     director: 'Andy Tennant',
     actors: [
-      { name: 'Will Smith' },
-      { name: 'Eva Mendes' },
-      { name: 'Kevin James' },
+      {
+        name: 'Will Smith',
+      },
+      {
+        name: 'Eva Mendes',
+      },
+      {
+        name: 'Kevin James',
+      },
+      {
+        name: 'Amber Valletta',
+      },
+      {
+        name: 'Michael Rapaport',
+      },
+      {
+        name: 'Adam Arkin',
+      },
+      {
+        name: 'Julie Ann Emery',
+      },
+    
     ],
     coverUrl: '/movies_pictures/Hitch3Fduction_-_Affiche_VOD.webp',
     releaseDate: '2005-02-11',
@@ -1429,9 +1526,28 @@ export const baseMoviesLove: BaseMovie[] = [
     title: 'Pearl Harbor',
     director: 'Michael Bay',
     actors: [
-      { name: 'Ben Affleck' },
-      { name: 'Josh Hartnett' },
-      { name: 'Kate Beckinsale' },
+      {
+        name: 'Ben Affleck',
+      },
+      {
+        name: 'Josh Hartnett',
+      },
+      {
+        name: 'Kate Beckinsale',
+      },
+      {
+        name: 'Cuba Gooding Jr.',
+      },
+      {
+        name: 'Jon Voight',
+      },
+      {
+        name: 'Tom Sizemore',
+      },
+      {
+        name: 'Alec Baldwin',
+      },
+    
     ],
     coverUrl: '/movies_pictures/568a10272f5a.jpg',
     releaseDate: '2001-05-25',
@@ -1970,8 +2086,21 @@ export const baseMoviesLove: BaseMovie[] = [
         name: 'Sam Heughan',
       },
       {
-        name: 'Céline Dion',
+        name: 'Celine Dion',
       },
+      {
+        name: 'Sofia Barclay',
+      },
+      {
+        name: 'Russell Tovey',
+      },
+      {
+        name: 'Lydia West',
+      },
+      {
+        name: 'Steve Oram',
+      },
+    
     ],
     coverUrl: '/movies_pictures/3006482.jpg',
     releaseDate: '2023-06-07',
@@ -2037,9 +2166,28 @@ export const baseMoviesLove: BaseMovie[] = [
     title: 'Valeur sentimentale (2025)',
     director: 'Joachim Trier',
     actors: [
-      { name: 'Renate Reinsve' },
-      { name: 'Stellan Skarsgård' },
-      { name: 'Elle Fanning' },
+      {
+        name: 'Renate Reinsve',
+      },
+      {
+        name: 'Stellan Skarsgard',
+      },
+      {
+        name: 'Elle Fanning',
+      },
+      {
+        name: 'Inga Ibsdotter Lilleaas',
+      },
+      {
+        name: 'Anders Danielsen Lie',
+      },
+      {
+        name: 'Bartosz Bielenia',
+      },
+      {
+        name: 'Cory Michael Smith',
+      },
+    
     ],
     coverUrl: '/movies_pictures/99b101006553223982d79f39868c79fa.webp',
     releaseDate: '2025-08-20',
@@ -2215,9 +2363,28 @@ export const baseMoviesLove: BaseMovie[] = [
     title: 'Le témoin amoureux',
     director: 'Paul Weiland',
     actors: [
-      { name: 'Patrick Dempsey' },
-      { name: 'Michelle Monaghan' },
-      { name: 'Kevin McKidd' },
+      {
+        name: 'Patrick Dempsey',
+      },
+      {
+        name: 'Michelle Monaghan',
+      },
+      {
+        name: 'Kevin McKidd',
+      },
+      {
+        name: 'Kadeem Hardison',
+      },
+      {
+        name: 'Chris Messina',
+      },
+      {
+        name: 'Richmond Arquette',
+      },
+      {
+        name: 'Sydney Pollack',
+      },
+    
     ],
     coverUrl: '/movies_pictures/18926251.jpg',
     releaseDate: '2008-05-02',
@@ -2233,9 +2400,28 @@ export const baseMoviesLove: BaseMovie[] = [
     title: 'Sexe entre amis',
     director: 'Will Gluck',
     actors: [
-      { name: 'Justin Timberlake' },
-      { name: 'Mila Kunis' },
-      { name: 'Patricia Clarkson' },
+      {
+        name: 'Justin Timberlake',
+      },
+      {
+        name: 'Mila Kunis',
+      },
+      {
+        name: 'Patricia Clarkson',
+      },
+      {
+        name: 'Jenna Elfman',
+      },
+      {
+        name: 'Bryan Greenberg',
+      },
+      {
+        name: 'Richard Jenkins',
+      },
+      {
+        name: 'Emma Stone',
+      },
+    
     ],
     coverUrl: '/movies_pictures/19757410.webp',
     releaseDate: '2011-07-22',
@@ -2293,6 +2479,18 @@ export const baseMoviesLove: BaseMovie[] = [
       },
       {
         name: 'James Marsden',
+      },
+      {
+        name: 'Gena Rowlands',
+      },
+      {
+        name: 'James Garner',
+      },
+      {
+        name: 'Joan Allen',
+      },
+      {
+        name: 'Kevin Connolly',
       },
     ],
     coverUrl: '/movies_pictures/n-oublie-jamais-film.jpg',
@@ -2566,9 +2764,28 @@ export const baseMoviesLove: BaseMovie[] = [
     title: 'About Time',
     director: 'Richard Curtis',
     actors: [
-      { name: 'Domhnall Gleeson' },
-      { name: 'Rachel McAdams' },
-      { name: 'Margot Robbie' },
+      {
+        name: 'Domhnall Gleeson',
+      },
+      {
+        name: 'Rachel McAdams',
+      },
+      {
+        name: 'Bill Nighy',
+      },
+      {
+        name: 'Lydia Wilson',
+      },
+      {
+        name: 'Lindsay Duncan',
+      },
+      {
+        name: 'Tom Hollander',
+      },
+      {
+        name: 'Margot Robbie',
+      },
+    
     ],
     coverUrl: '/movies_pictures/814fRqJ+AyL.jpg',
     releaseDate: '2013-11-08',
@@ -3292,6 +3509,19 @@ export const baseMoviesLove: BaseMovie[] = [
       {
         name: 'Charlie Anson',
       },
+      {
+        name: 'Annabelle Lengronne',
+      },
+      {
+        name: 'Liz Crowther',
+      },
+      {
+        name: 'Alan Fairbairn',
+      },
+      {
+        name: 'Lola Peploe',
+      },
+    
     ],
     coverUrl: '/movies_pictures/e7dfc74ab3c8.jpg',
     releaseDate: '2025-01-22',
@@ -3332,11 +3562,24 @@ export const baseMoviesLove: BaseMovie[] = [
         name: 'Marine Vacth',
       },
       {
-        name: 'Géraldine Pailhas',
+        name: 'Geraldine Pailhas',
       },
       {
-        name: 'Frédéric Pierrot',
+        name: 'Frederic Pierrot',
       },
+      {
+        name: 'Charlotte Rampling',
+      },
+      {
+        name: 'Fantin Ravat',
+      },
+      {
+        name: 'Johan Leysen',
+      },
+      {
+        name: 'Nathalie Richard',
+      },
+    
     ],
     coverUrl: '/movies_pictures/jeune_et_jolie.jpg',
     releaseDate: '2013-08-21',

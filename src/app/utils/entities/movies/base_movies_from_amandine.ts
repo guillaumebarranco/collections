@@ -1499,7 +1499,11 @@ export const baseMoviesFromAmandine: BaseMovie[] = [
     actors: [
       { name: 'Mark Wahlberg' },
       { name: 'Mila Kunis' },
-      { name: 'Ryan Reynolds' },
+      { name: 'Seth MacFarlane' },
+      { name: 'Joel McHale' },
+      { name: 'Giovanni Ribisi' },
+      { name: 'Patrick Warburton' },
+      { name: 'Jessica Stroup' },
     ],
     coverUrl: '/movies_pictures/20196214.webp',
     releaseDate: '2012-06-29',
@@ -1710,6 +1714,18 @@ export const baseMoviesFromAmandine: BaseMovie[] = [
       {
         name: 'Jared Harris',
       },
+      {
+        name: 'Noomi Rapace',
+      },
+      {
+        name: 'Rachel McAdams',
+      },
+      {
+        name: 'Stephen Fry',
+      },
+      {
+        name: 'Paul Anderson',
+      },
     ],
     coverUrl: '/movies_pictures/sherlock_holmes_a_game_of_shadows.jpg',
     releaseDate: '2012-01-25',
@@ -1877,6 +1893,10 @@ export const baseMoviesFromAmandine: BaseMovie[] = [
       { name: 'Johnny Depp' },
       { name: 'Christian Bale' },
       { name: 'Marion Cotillard' },
+      { name: 'Billy Crudup' },
+      { name: 'Stephen Dorff' },
+      { name: 'Stephen Graham' },
+      { name: 'Channing Tatum' },
     ],
     coverUrl: '/movies_pictures/088353.webp',
     releaseDate: '2009-07-01',
@@ -2258,6 +2278,10 @@ export const baseMoviesFromAmandine: BaseMovie[] = [
       { name: 'Keanu Reeves' },
       { name: 'Rachel Weisz' },
       { name: 'Djimon Hounsou' },
+      { name: 'Shia LaBeouf' },
+      { name: 'Tilda Swinton' },
+      { name: 'Peter Stormare' },
+      { name: 'Pruitt Taylor Vince' },
     ],
     coverUrl: '/movies_pictures/18401439.webp',
     releaseDate: '2005-02-18',
@@ -2276,6 +2300,10 @@ export const baseMoviesFromAmandine: BaseMovie[] = [
       { name: 'Leonardo DiCaprio' },
       { name: 'Cate Blanchett' },
       { name: 'Kate Beckinsale' },
+      { name: 'John C. Reilly' },
+      { name: 'Alec Baldwin' },
+      { name: 'Alan Alda' },
+      { name: 'Gwen Stefani' },
     ],
     coverUrl: '/movies_pictures/18402266.jpg',
     releaseDate: '2004-12-25',
@@ -2657,6 +2685,18 @@ export const baseMoviesFromAmandine: BaseMovie[] = [
       },
       {
         name: 'Thomas Haden Church',
+      },
+      {
+        name: 'John Cleese',
+      },
+      {
+        name: 'Richard Roundtree',
+      },
+      {
+        name: 'Abraham Benrubi',
+      },
+      {
+        name: 'Holland Taylor',
       },
     ],
     coverUrl: '/movies_pictures/george_of_the_jungle.jpg',

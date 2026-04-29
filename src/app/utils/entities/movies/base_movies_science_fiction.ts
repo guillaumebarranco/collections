@@ -50,6 +50,19 @@ export const baseMoviesScienceFiction: BaseMovie[] = [
       {
         name: 'Ana de Armas',
       },
+      {
+        name: 'Jared Leto',
+      },
+      {
+        name: 'Robin Wright',
+      },
+      {
+        name: 'Sylvia Hoeks',
+      },
+      {
+        name: 'Dave Bautista',
+      },
+    
     ],
     coverUrl: '/movies_pictures/blade_runner_2049.jpg',
     releaseDate: '2017-10-04',
@@ -260,9 +273,28 @@ export const baseMoviesScienceFiction: BaseMovie[] = [
     title: 'Alien : Romulus',
     director: 'Fede Alvarez',
     actors: [
-      { name: 'Cailee Spaeny' },
-      { name: 'David Jonsson' },
-      { name: 'Archie Renaux' },
+      {
+        name: 'Cailee Spaeny',
+      },
+      {
+        name: 'David Jonsson',
+      },
+      {
+        name: 'Archie Renaux',
+      },
+      {
+        name: 'Isabela Merced',
+      },
+      {
+        name: 'Spike Fearn',
+      },
+      {
+        name: 'Aileen Wu',
+      },
+      {
+        name: 'Rosie Ede',
+      },
+    
     ],
     coverUrl: '/movies_pictures/5fe513cd7721.jpg',
     releaseDate: '2024-08-16',

@@ -8,6 +8,10 @@ export const baseMoviesDc: BaseMovie[] = [
       { name: 'Adam West' },
       { name: 'Burt Ward' },
       { name: 'Cesar Romero' },
+      { name: 'Lee Meriwether' },
+      { name: 'Burgess Meredith' },
+      { name: 'Frank Gorshin' },
+      { name: 'Alan Napier' },
     ],
     coverUrl: '/movies_pictures/0f33ed902452.jpg',
     releaseDate: '1966-07-30',
@@ -134,6 +138,18 @@ export const baseMoviesDc: BaseMovie[] = [
       },
       {
         name: 'Jim Carrey',
+      },
+      {
+        name: "Chris O'Donnell",
+      },
+      {
+        name: 'Nicole Kidman',
+      },
+      {
+        name: 'Drew Barrymore',
+      },
+      {
+        name: 'Debi Mazar',
       },
     ],
     coverUrl: '/movies_pictures/51678-batman-forever-0-150-0-225-crop.jpg',
@@ -425,6 +441,18 @@ export const baseMoviesDc: BaseMovie[] = [
       {
         name: 'Jack Dylan Grazer',
       },
+      {
+        name: 'Lucy Liu',
+      },
+      {
+        name: 'Helen Mirren',
+      },
+      {
+        name: 'Rachel Zegler',
+      },
+      {
+        name: 'Djimon Hounsou',
+      },
     ],
     coverUrl: '/movies_pictures/shazam_la_rage_des_dieux.jpg',
     releaseDate: '2023-03-29',
@@ -477,13 +505,25 @@ export const baseMoviesDc: BaseMovie[] = [
     director: 'James Wan',
     actors: [
       {
-        name: 'Kirsten Dunst',
+        name: 'Jason Momoa',
       },
       {
-        name: 'Wagner Moura',
+        name: 'Patrick Wilson',
       },
       {
-        name: 'Cailee Spaeny',
+        name: 'Amber Heard',
+      },
+      {
+        name: 'Yahya Abdul-Mateen II',
+      },
+      {
+        name: 'Nicole Kidman',
+      },
+      {
+        name: 'Dolph Lundgren',
+      },
+      {
+        name: 'Randall Park',
       },
     ],
     coverUrl: '/movies_pictures/aquaman_et_le_royaume_perdu.jpg',
@@ -641,6 +681,18 @@ export const baseMoviesDc: BaseMovie[] = [
       },
       {
         name: 'John Cena',
+      },
+      {
+        name: 'Joel Kinnaman',
+      },
+      {
+        name: 'Sylvester Stallone',
+      },
+      {
+        name: 'Viola Davis',
+      },
+      {
+        name: 'Daniela Melchior',
       },
     ],
     coverUrl: '/movies_pictures/the_suicide_squad.jpg',
@@ -892,6 +944,18 @@ export const baseMoviesDc: BaseMovie[] = [
       },
       {
         name: 'Nicholas Hoult',
+      },
+      {
+        name: 'Edi Gathegi',
+      },
+      {
+        name: 'Anthony Carrigan',
+      },
+      {
+        name: 'Nathan Fillion',
+      },
+      {
+        name: 'Isabela Merced',
       },
     ],
     coverUrl: '/movies_pictures/superman_2025.jpg',

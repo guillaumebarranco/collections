@@ -722,9 +722,28 @@ export const baseMoviesSagaPage2: BaseMovie[] = [
     title: 'James Bond : Spectre',
     director: 'Sam Mendes',
     actors: [
-      { name: 'Daniel Craig' },
-      { name: 'Christoph Waltz' },
-      { name: 'Léa Seydoux' },
+      {
+        name: 'Daniel Craig',
+      },
+      {
+        name: 'Christoph Waltz',
+      },
+      {
+        name: 'Lea Seydoux',
+      },
+      {
+        name: 'Ben Whishaw',
+      },
+      {
+        name: 'Naomie Harris',
+      },
+      {
+        name: 'Ralph Fiennes',
+      },
+      {
+        name: 'Monica Bellucci',
+      },
+    
     ],
     coverUrl: '/movies_pictures/cd3fa7c336d7.webp',
     releaseDate: '2015-11-06',
@@ -2141,9 +2160,28 @@ export const baseMoviesSagaPage2: BaseMovie[] = [
     title: "Ocean's Thirteen",
     director: 'Steven Soderbergh',
     actors: [
-      { name: 'George Clooney' },
-      { name: 'Matt Damon' },
-      { name: 'Brad Pitt' },
+      {
+        name: 'George Clooney',
+      },
+      {
+        name: 'Brad Pitt',
+      },
+      {
+        name: 'Matt Damon',
+      },
+      {
+        name: 'Andy Garcia',
+      },
+      {
+        name: 'Don Cheadle',
+      },
+      {
+        name: 'Ellen Barkin',
+      },
+      {
+        name: 'Al Pacino',
+      },
+    
     ],
     coverUrl: '/movies_pictures/207b65d18874.jpg',
     releaseDate: '2007-06-08',
@@ -2714,26 +2752,27 @@ export const baseMoviesSagaPage2: BaseMovie[] = [
     director: 'Guillermo del Toro',
     actors: [
       {
-        name: 'Ron Perlman',
+        name: 'David Harbour',
       },
       {
-        name: 'Selma Blair',
+        name: 'Milla Jovovich',
       },
       {
-        name: 'Jeffrey Tambor',
+        name: 'Ian McShane',
       },
       {
-        name: 'Karel Roden',
+        name: 'Sasha Lane',
       },
       {
-        name: 'Rupert Evans',
+        name: 'Daniel Dae Kim',
       },
       {
-        name: 'John Hurt',
+        name: 'Thomas Haden Church',
       },
       {
-        name: 'Doug Jones',
+        name: 'Penelope Mitchell',
       },
+    
     ],
     coverUrl: '/movies_pictures/51012-hellboy-0-150-0-225-crop.jpg',
     releaseDate: '2004-04-02',
@@ -2795,6 +2834,19 @@ export const baseMoviesSagaPage2: BaseMovie[] = [
       {
         name: 'Ian McShane',
       },
+      {
+        name: 'Sasha Lane',
+      },
+      {
+        name: 'Daniel Dae Kim',
+      },
+      {
+        name: 'Thomas Haden Church',
+      },
+      {
+        name: 'Penelope Mitchell',
+      },
+    
     ],
     coverUrl: '/movies_pictures/hellboy.jpg',
     releaseDate: '2019-05-08',
@@ -3833,26 +3885,27 @@ export const baseMoviesSagaPage2: BaseMovie[] = [
     director: 'Wes Craven',
     actors: [
       {
-        name: 'Neve Campbell',
+        name: 'Melissa Barrera',
       },
       {
-        name: 'Skeet Ulrich',
+        name: 'Jenna Ortega',
       },
       {
-        name: 'Rose McGowan',
+        name: 'Jack Quaid',
       },
       {
-        name: 'Matthew Lillard',
+        name: 'Mason Gooding',
       },
       {
-        name: 'Jamie Kennedy',
-      },
-      {
-        name: 'David Arquette',
+        name: 'Jasmin Savoy Brown',
       },
       {
         name: 'Courteney Cox',
       },
+      {
+        name: 'Neve Campbell',
+      },
+    
     ],
     coverUrl: '/movies_pictures/49455-scream-0-150-0-225-crop.jpg',
     releaseDate: '1996-12-20',
@@ -3977,14 +4030,27 @@ export const baseMoviesSagaPage2: BaseMovie[] = [
     director: 'Matt Bettinelli-Olpin, Tyler Gillett',
     actors: [
       {
-        name: 'Neve Campbell',
+        name: 'Melissa Barrera',
+      },
+      {
+        name: 'Jenna Ortega',
+      },
+      {
+        name: 'Jack Quaid',
+      },
+      {
+        name: 'Mason Gooding',
+      },
+      {
+        name: 'Jasmin Savoy Brown',
       },
       {
         name: 'Courteney Cox',
       },
       {
-        name: 'David Arquette',
+        name: 'Neve Campbell',
       },
+    
     ],
     coverUrl: '/movies_pictures/scream.jpg',
     releaseDate: '2022-01-12',
@@ -4001,14 +4067,27 @@ export const baseMoviesSagaPage2: BaseMovie[] = [
     director: 'Matt Bettinelli-Olpin, Tyler Gillett',
     actors: [
       {
-        name: 'Jenna Ortega',
+        name: 'Melissa Barrera',
       },
       {
-        name: 'Melissa Barrera',
+        name: 'Jenna Ortega',
       },
       {
         name: 'Courteney Cox',
       },
+      {
+        name: 'Jasmin Savoy Brown',
+      },
+      {
+        name: 'Mason Gooding',
+      },
+      {
+        name: 'Dermot Mulroney',
+      },
+      {
+        name: 'Samara Weaving',
+      },
+    
     ],
     coverUrl: '/movies_pictures/scream_vi.jpg',
     releaseDate: '2023-03-08',
@@ -4028,11 +4107,24 @@ export const baseMoviesSagaPage2: BaseMovie[] = [
         name: 'Neve Campbell',
       },
       {
+        name: 'Courteney Cox',
+      },
+      {
+        name: 'Mckenna Grace',
+      },
+      {
         name: 'Isabel May',
       },
       {
-        name: 'Courteney Cox',
+        name: "Celeste O'Connor",
       },
+      {
+        name: 'Asa Germann',
+      },
+      {
+        name: 'Sam Rechner',
+      },
+    
     ],
     coverUrl: '/movies_pictures/9ee7fe56e47a.jpg',
     releaseDate: '2026-02-25',
@@ -4048,9 +4140,28 @@ export const baseMoviesSagaPage2: BaseMovie[] = [
     title: 'Avatar',
     director: 'James Cameron',
     actors: [
-      { name: 'Sam Worthington' },
-      { name: 'Zoe Saldana' },
-      { name: 'Sigourney Weaver' },
+      {
+        name: 'Sam Worthington',
+      },
+      {
+        name: 'Zoe Saldana',
+      },
+      {
+        name: 'Sigourney Weaver',
+      },
+      {
+        name: 'Stephen Lang',
+      },
+      {
+        name: 'Michelle Rodriguez',
+      },
+      {
+        name: 'Giovanni Ribisi',
+      },
+      {
+        name: 'Joel David Moore',
+      },
+    
     ],
     coverUrl: '/movies_pictures/5e0542820037.jpg',
     releaseDate: '2009-12-18',
