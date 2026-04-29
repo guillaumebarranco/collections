@@ -2965,4 +2965,21 @@ export const guillaumeMoviesPage1: UserMovies = [
     borrowed: "",
     loaned: "",
   },
+
+  {
+    title: "Sonic the Hedgehog",
+    director: "Jeff Fowler",
+    rating: 3,
+    timesWatched: 1,
+    firstViewedDate: "2026-04-28",
+    lastViewedDate: "2026-04-28",
+    seenAtCinema: false,
+    owned: false,
+    wantToSeeAgain: false,
+    watchPriority: 1,
+    ratingComment: "",
+    inList: [],
+    borrowed: "",
+    loaned: "",
+  },
 ];
