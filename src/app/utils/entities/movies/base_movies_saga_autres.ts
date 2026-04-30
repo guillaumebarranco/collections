@@ -463,7 +463,8 @@ export const baseMoviesSagaAutres: BaseMovie[] = [
         name: 'John Cazale',
       },
     ],
-    coverUrl: '/movies_pictures/51818-the-godfather-0-150-0-225-crop.jpg',
+    coverUrl:
+      '/movies_pictures/a5332e6a34d3.jpg',
     releaseDate: '1972-03-24',
     length: 175,
     genre: ['Policier'],
@@ -500,7 +501,7 @@ export const baseMoviesSagaAutres: BaseMovie[] = [
       },
     ],
     coverUrl:
-      '/movies_pictures/51816-the-godfather-part-ii-0-150-0-225-crop.jpg',
+      '/movies_pictures/08c92e2db7a7.jpg',
     releaseDate: '1974-12-20',
     length: 202,
     genre: ['Policier'],

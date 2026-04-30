@@ -390,7 +390,8 @@ export const baseMoviesSagaAction: BaseMovie[] = [
         name: 'Marg Helgenberger',
       },
     ],
-    coverUrl: '/movies_pictures/46870-bad-boys-0-150-0-225-crop.jpg',
+    coverUrl:
+      '/movies_pictures/937d4985842b.jpg',
     releaseDate: '1995-04-07',
     length: 119,
     genre: ['Action'],
@@ -426,7 +427,8 @@ export const baseMoviesSagaAction: BaseMovie[] = [
         name: 'Joe Pantoliano',
       },
     ],
-    coverUrl: '/movies_pictures/47473-bad-boys-ii-0-150-0-225-crop.jpg',
+    coverUrl:
+      '/movies_pictures/2afe1299fa5c.jpeg',
     releaseDate: '2003-07-18',
     length: 147,
     genre: ['Action'],
@@ -462,7 +464,8 @@ export const baseMoviesSagaAction: BaseMovie[] = [
         name: 'Kate del Castillo',
       },
     ],
-    coverUrl: '/movies_pictures/bad_boys_for_life.jpg',
+    coverUrl:
+      '/movies_pictures/87e1faa195c7.jpg',
     releaseDate: '2020-01-22',
     length: 124,
     genre: ['Action'],
@@ -498,7 +501,8 @@ export const baseMoviesSagaAction: BaseMovie[] = [
         name: 'Ioan Gruffudd',
       },
     ],
-    coverUrl: '/movies_pictures/efbbe86f093b0904258c8a9b1e60bae7.webp',
+    coverUrl:
+      '/movies_pictures/f7f244add6e6.png',
     releaseDate: '2024-06-07',
     length: 115,
     genre: ['Action'],
@@ -535,7 +539,7 @@ export const baseMoviesSagaAction: BaseMovie[] = [
       },
     ],
     coverUrl:
-      '/movies_pictures/50617-lara-croft-tomb-raider-0-150-0-225-crop.jpg',
+      '/movies_pictures/ff859111a7b9.jpg',
     releaseDate: '2001-06-15',
     length: 100,
     genre: ['Action'],
@@ -1183,7 +1187,8 @@ export const baseMoviesSagaAction: BaseMovie[] = [
         name: 'Daniel Bernhardt',
       },
     ],
-    coverUrl: '/movies_pictures/172076-john-wick-0-150-0-225-crop.jpg',
+    coverUrl:
+      '/movies_pictures/03a005b56d50.jpg',
     releaseDate: '2014-10-24',
     length: 101,
     genre: ['Action'],
@@ -1219,7 +1224,8 @@ export const baseMoviesSagaAction: BaseMovie[] = [
         name: 'Ian McShane',
       },
     ],
-    coverUrl: '/movies_pictures/jonh_wick.jpg',
+    coverUrl:
+      '/movies_pictures/5861fc24c240.jpg',
     releaseDate: '2017-02-10',
     length: 122,
     genre: ['Action'],
@@ -1256,7 +1262,7 @@ export const baseMoviesSagaAction: BaseMovie[] = [
       },
     ],
     coverUrl:
-      '/movies_pictures/390039-john-wick-chapter-3-parabellum-0-150-0-225-crop.jpg',
+      '/movies_pictures/3fef990e29a1.jpg',
     releaseDate: '2019-05-17',
     length: 131,
     genre: ['Action'],
@@ -1292,8 +1298,7 @@ export const baseMoviesSagaAction: BaseMovie[] = [
         name: 'Shamier Anderson',
       },
     ],
-    coverUrl:
-      '/movies_pictures/530882-john-wick-chapter-4-0-150-0-225-crop.jpg',
+    coverUrl: '/movies_pictures/15e03edbcd4e.jpg',
     releaseDate: '2023-03-24',
     length: 169,
     genre: ['Action'],
@@ -1329,7 +1334,8 @@ export const baseMoviesSagaAction: BaseMovie[] = [
         name: 'Catalina Sandino Moreno',
       },
     ],
-    coverUrl: '/movies_pictures/ballerina.jpg',
+    coverUrl:
+      '/movies_pictures/623b01d4891e.jpg',
     releaseDate: '2025-06-04',
     length: 135,
     genre: ['Action'],
@@ -2472,7 +2478,8 @@ export const baseMoviesSagaAction: BaseMovie[] = [
         name: 'Clifton Powell',
       },
     ],
-    coverUrl: '/movies_pictures/50517-rush-hour-0-150-0-225-crop.jpg',
+    coverUrl:
+      '/movies_pictures/c92b0b9a872d.jpg',
     releaseDate: '1998-09-18',
     length: 98,
     genre: ['Action', 'Comédie'],
@@ -2508,7 +2515,8 @@ export const baseMoviesSagaAction: BaseMovie[] = [
         name: 'Alan King',
       },
     ],
-    coverUrl: '/movies_pictures/48919-rush-hour-2-0-150-0-225-crop.jpg',
+    coverUrl:
+      '/movies_pictures/f80c989269b7.jpg',
     releaseDate: '2001-08-03',
     length: 90,
     genre: ['Action', 'Comédie'],
@@ -2544,7 +2552,8 @@ export const baseMoviesSagaAction: BaseMovie[] = [
         name: 'Roman Polanski',
       },
     ],
-    coverUrl: '/movies_pictures/48920-rush-hour-3-0-150-0-225-crop.jpg',
+    coverUrl:
+      '/movies_pictures/2e7e37ec00c6.jpg',
     releaseDate: '2007-08-10',
     length: 91,
     genre: ['Action', 'Comédie'],
@@ -2941,7 +2950,8 @@ export const baseMoviesSagaAction: BaseMovie[] = [
         name: 'Wolf Kahler',
       },
     ],
-    coverUrl: '/movies_pictures/raiders_of_the_lost_ark.jpg',
+    coverUrl:
+      '/movies_pictures/ac960b427c8d.jpg',
     releaseDate: '1981-09-16',
     length: 116,
     genre: ['Aventure'],
@@ -2977,7 +2987,8 @@ export const baseMoviesSagaAction: BaseMovie[] = [
         name: 'Roy Chiao',
       },
     ],
-    coverUrl: '/movies_pictures/18931015.jpg',
+    coverUrl:
+      'https://affiches-francaises.com/cdn/shop/files/FullSizeRender.heic?v=1741690528',
     releaseDate: '1984-05-23',
     length: 118,
     genre: ['Aventure', 'Action'],
@@ -3013,7 +3024,8 @@ export const baseMoviesSagaAction: BaseMovie[] = [
         name: 'Denholm Elliott',
       },
     ],
-    coverUrl: '/movies_pictures/18895516.jpg',
+    coverUrl:
+      '/movies_pictures/86700f979907.jpg',
     releaseDate: '1989-05-24',
     length: 127,
     genre: ['Aventure', 'Action'],
@@ -3050,7 +3062,7 @@ export const baseMoviesSagaAction: BaseMovie[] = [
       },
     ],
     coverUrl:
-      '/movies_pictures/indiana_jones_and_the_kingdom_of_the_crystal_skull.jpg',
+      '/movies_pictures/7f2bb5a5136e.jpg',
     releaseDate: '2008-05-21',
     length: 123,
     genre: ['Aventure'],
@@ -3061,7 +3073,7 @@ export const baseMoviesSagaAction: BaseMovie[] = [
     selectDisplayOrder: 30,
   },
   {
-    title: 'Indiana Jones and the Dial of Destiny',
+    title: 'Indiana Jones et le Cadran de la destinée',
     director: 'James Mangold',
     actors: [
       {
@@ -3080,7 +3092,8 @@ export const baseMoviesSagaAction: BaseMovie[] = [
         name: 'John Rhys-Davies',
       },
     ],
-    coverUrl: '/movies_pictures/indiana_jones_and_the_dial_of_destiny.jpg',
+    coverUrl:
+      '/movies_pictures/70e725337bde.jpg',
     releaseDate: '2023-01-01',
     length: 154,
     genre: ['Fantastique'],

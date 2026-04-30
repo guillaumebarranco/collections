@@ -4324,7 +4324,7 @@ export const amandineMovies1: UserMovies = [
     inList: [],
   },
   {
-    title: "Maman j'ai raté l'avion 2",
+    title: "Maman j'ai encore raté l'avion",
     director: 'Chris Columbus',
     rating: 0,
     timesWatched: 5,

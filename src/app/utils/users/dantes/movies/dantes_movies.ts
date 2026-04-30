@@ -4764,7 +4764,7 @@ export const dantesMovies: UserMovie[] = [
   },
 
   {
-    title: "Maman j'ai raté l'avion 2",
+    title: "Maman j'ai encore raté l'avion",
     director: 'Chris Columbus',
     rating: 0,
     timesWatched: 1,
@@ -9677,7 +9677,7 @@ export const dantesMovies: UserMovie[] = [
   },
 
   {
-    title: 'Indiana Jones and the Dial of Destiny',
+    title: 'Indiana Jones et le Cadran de la destinée',
     director: 'James Mangold',
     rating: 0,
     timesWatched: 1,

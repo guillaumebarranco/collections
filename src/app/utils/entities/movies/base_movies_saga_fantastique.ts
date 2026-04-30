@@ -321,7 +321,7 @@ export const baseMoviesSagaFantastique: BaseMovie[] = [
       },
     ],
     coverUrl:
-      '/movies_pictures/182910-fantastic-beasts-and-where-to-find-them-0-150-0-225-crop.jpg',
+      '/movies_pictures/f6f15d8891c5.jpg',
     releaseDate: '2016-11-18',
     length: 133,
     genre: ['Fantastique'],
@@ -344,7 +344,7 @@ export const baseMoviesSagaFantastique: BaseMovie[] = [
       },
     ],
     coverUrl:
-      '/movies_pictures/268365-fantastic-beasts-the-crimes-of-grindelwald-0-150-0-225-crop.jpg',
+      '/movies_pictures/c337e1ad46d9.jpg',
     releaseDate: '2018-11-16',
     length: 134,
     genre: ['Fantastique'],
@@ -367,7 +367,7 @@ export const baseMoviesSagaFantastique: BaseMovie[] = [
       },
     ],
     coverUrl:
-      '/movies_pictures/268366-fantastic-beasts-the-secrets-of-dumbledore-0-150-0-225-crop.jpg',
+      '/movies_pictures/1e64e25886a0.jpg',
     releaseDate: '2022-04-15',
     length: 142,
     genre: ['Fantastique'],
@@ -747,7 +747,7 @@ export const baseMoviesSagaFantastique: BaseMovie[] = [
       },
     ],
     coverUrl:
-      '/movies_pictures/the_lord_of_the_rings_the_fellowship_of_the_ring.jpg',
+      '/movies_pictures/4e548d9e0ed8.png',
     releaseDate: '2001-12-19',
     length: 178,
     genre: ['Fantastique'],
@@ -787,7 +787,8 @@ export const baseMoviesSagaFantastique: BaseMovie[] = [
         name: 'Bernard Hill',
       },
     ],
-    coverUrl: '/movies_pictures/the_lord_of_the_rings_the_two_towers.jpg',
+    coverUrl:
+      '/movies_pictures/745fc9e7276b.jpg',
     releaseDate: '2002-12-18',
     length: 179,
     genre: ['Fantastique'],
@@ -828,7 +829,7 @@ export const baseMoviesSagaFantastique: BaseMovie[] = [
       },
     ],
     coverUrl:
-      '/movies_pictures/the_lord_of_the_rings_the_return_of_the_king.jpg',
+      '/movies_pictures/daf13fbc530c.jpg',
     releaseDate: '2003-12-17',
     length: 201,
     genre: ['Fantastique'],
@@ -997,7 +998,7 @@ export const baseMoviesSagaFantastique: BaseMovie[] = [
       secondEntityKey: 'J.R.R. Tolkien',
     },
     countryOrigin: ['États-Unis'],
-    selectDisplayOrder: 30,
+    selectDisplayOrder: 0,
   },
   {
     title: 'Le Retour du roi (1980)',
@@ -1037,7 +1038,7 @@ export const baseMoviesSagaFantastique: BaseMovie[] = [
       secondEntityKey: 'J.R.R. Tolkien',
     },
     countryOrigin: ['États-Unis'],
-    selectDisplayOrder: 30,
+    selectDisplayOrder: 0,
   },
   {
     title: 'The Lord of the Rings: The War of the Rohirrim',
@@ -1072,7 +1073,7 @@ export const baseMoviesSagaFantastique: BaseMovie[] = [
       secondEntityKey: 'J.R.R. Tolkien',
     },
     countryOrigin: ['États-Unis'],
-    selectDisplayOrder: 30,
+    selectDisplayOrder: 0,
   },
   {
     title: 'Le Hobbit : Un voyage inattendu',
@@ -1100,7 +1101,8 @@ export const baseMoviesSagaFantastique: BaseMovie[] = [
         name: "Dean O'Gorman",
       },
     ],
-    coverUrl: '/movies_pictures/20273834.webp',
+    coverUrl:
+      '/movies_pictures/bb1dfe109bc8.jpg',
     releaseDate: '2012-12-14',
     length: 169,
     genre: ['Fantastique', 'Aventure'],
@@ -1140,7 +1142,8 @@ export const baseMoviesSagaFantastique: BaseMovie[] = [
         name: 'Benedict Cumberbatch',
       },
     ],
-    coverUrl: '/movies_pictures/the_hobbit_the_desolation_of_smaug.jpg',
+    coverUrl:
+      '/movies_pictures/4e558d0b37d7.jpg',
     releaseDate: '2013-12-11',
     length: 161,
     genre: ['Fantastique'],
@@ -1180,7 +1183,8 @@ export const baseMoviesSagaFantastique: BaseMovie[] = [
         name: 'Lee Pace',
       },
     ],
-    coverUrl: '/movies_pictures/the_hobbit_the_battle_of_the_five_armies.jpg',
+    coverUrl:
+      '/movies_pictures/fe927610c3cd.jpg',
     releaseDate: '2014-12-10',
     length: 144,
     genre: ['Fantastique'],

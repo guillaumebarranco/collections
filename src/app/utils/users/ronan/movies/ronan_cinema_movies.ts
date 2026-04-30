@@ -2739,7 +2739,7 @@ export const ronanCinemaMovies: UserMovies = [
     inList: [],
   },
   {
-    title: 'Indiana Jones and the Dial of Destiny',
+    title: 'Indiana Jones et le Cadran de la destinée',
     director: 'James Mangold',
     rating: 3,
     timesWatched: 1,
