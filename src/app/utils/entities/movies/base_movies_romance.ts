@@ -1,6 +1,6 @@
 import { BaseMovie } from '../../../models/movie-model';
 
-export const baseMoviesLove: BaseMovie[] = [
+export const baseMoviesRomance: BaseMovie[] = [
   {
     title: 'Mon inconnue',
     director: 'Hugo Gélin',
@@ -26,7 +26,6 @@ export const baseMoviesLove: BaseMovie[] = [
       {
         name: 'Aude Pepin',
       },
-    
     ],
     coverUrl: '/movies_pictures/c92fb64760bb.webp',
     releaseDate: '2019-01-30',
@@ -205,7 +204,6 @@ export const baseMoviesLove: BaseMovie[] = [
       {
         name: 'Connor Price',
       },
-    
     ],
     coverUrl:
       '/movies_pictures/5c90b820c8d937b410251edf019caf05e9886554fde10a631e48fd14c03132e0.jpg',
@@ -243,7 +241,6 @@ export const baseMoviesLove: BaseMovie[] = [
       {
         name: 'Peter Greene',
       },
-    
     ],
     coverUrl: '/movies_pictures/459e6ed2c87b.jpg',
     releaseDate: '2010-03-19',
@@ -316,7 +313,6 @@ export const baseMoviesLove: BaseMovie[] = [
       {
         name: 'Rob Riggle',
       },
-    
     ],
     coverUrl: '/movies_pictures/19488091.jpg',
     releaseDate: '2010-08-27',
@@ -931,7 +927,6 @@ export const baseMoviesLove: BaseMovie[] = [
       {
         name: 'Megan Boone',
       },
-    
     ],
     coverUrl: '/movies_pictures/753d126125ed.jpg',
     releaseDate: '2012-08-08',
@@ -1184,7 +1179,6 @@ export const baseMoviesLove: BaseMovie[] = [
       {
         name: 'Queen Latifah',
       },
-    
     ],
     coverUrl:
       '/movies_pictures/47414-what-happens-in-vegas--0-150-0-225-crop.jpg',
@@ -1334,7 +1328,6 @@ export const baseMoviesLove: BaseMovie[] = [
       {
         name: 'Julie Ann Emery',
       },
-    
     ],
     coverUrl: '/movies_pictures/Hitch3Fduction_-_Affiche_VOD.webp',
     releaseDate: '2005-02-11',
@@ -1547,7 +1540,6 @@ export const baseMoviesLove: BaseMovie[] = [
       {
         name: 'Alec Baldwin',
       },
-    
     ],
     coverUrl: '/movies_pictures/568a10272f5a.jpg',
     releaseDate: '2001-05-25',
@@ -1747,8 +1739,7 @@ export const baseMoviesLove: BaseMovie[] = [
         name: 'Sonoya Mizuno',
       },
     ],
-    coverUrl:
-      '/movies_pictures/38b5c57f0991.jpg',
+    coverUrl: '/movies_pictures/38b5c57f0991.jpg',
     releaseDate: '2016-12-09',
     length: 128,
     genre: ['Romance'],
@@ -2100,7 +2091,6 @@ export const baseMoviesLove: BaseMovie[] = [
       {
         name: 'Steve Oram',
       },
-    
     ],
     coverUrl: '/movies_pictures/3006482.jpg',
     releaseDate: '2023-06-07',
@@ -2187,7 +2177,6 @@ export const baseMoviesLove: BaseMovie[] = [
       {
         name: 'Cory Michael Smith',
       },
-    
     ],
     coverUrl: '/movies_pictures/99b101006553223982d79f39868c79fa.webp',
     releaseDate: '2025-08-20',
@@ -2384,7 +2373,6 @@ export const baseMoviesLove: BaseMovie[] = [
       {
         name: 'Sydney Pollack',
       },
-    
     ],
     coverUrl: '/movies_pictures/18926251.jpg',
     releaseDate: '2008-05-02',
@@ -2421,7 +2409,6 @@ export const baseMoviesLove: BaseMovie[] = [
       {
         name: 'Emma Stone',
       },
-    
     ],
     coverUrl: '/movies_pictures/19757410.webp',
     releaseDate: '2011-07-22',
@@ -2785,7 +2772,6 @@ export const baseMoviesLove: BaseMovie[] = [
       {
         name: 'Margot Robbie',
       },
-    
     ],
     coverUrl: '/movies_pictures/814fRqJ+AyL.jpg',
     releaseDate: '2013-11-08',
@@ -3085,42 +3071,7 @@ export const baseMoviesLove: BaseMovie[] = [
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 10,
   },
-  {
-    title: 'Moulin Rouge !',
-    director: 'Baz Luhrmann',
-    actors: [
-      {
-        name: 'Nicole Kidman',
-      },
-      {
-        name: 'Ewan McGregor',
-      },
-      {
-        name: 'Jim Broadbent',
-      },
-      {
-        name: 'Richard Roxburgh',
-      },
-      {
-        name: 'John Leguizamo',
-      },
-      {
-        name: 'Jacek Koman',
-      },
-      {
-        name: "Caroline O'Connor",
-      },
-    ],
-    coverUrl: '/movies_pictures/69216008_af.webp',
-    releaseDate: '2001-05-24',
-    length: 127,
-    genre: ['Comédie musicale', 'Romance'],
-    saga: '',
-    description: '',
-    fromEntity: null,
-    countryOrigin: ['États-Unis'],
-    selectDisplayOrder: 30,
-  },
+
   {
     title: 'Le Journal de Bridget Jones',
     director: 'Sharon Maguire',
@@ -3388,78 +3339,7 @@ export const baseMoviesLove: BaseMovie[] = [
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 10,
   },
-  {
-    title: 'Grease',
-    director: 'Randal Kleiser',
-    actors: [
-      {
-        name: 'John Travolta',
-      },
-      {
-        name: 'Olivia Newton-John',
-      },
-      {
-        name: 'Stockard Channing',
-      },
-      {
-        name: 'Jeff Conaway',
-      },
-      {
-        name: 'Barry Pearl',
-      },
-      {
-        name: 'Michael Tucci',
-      },
-      {
-        name: 'Didi Conn',
-      },
-    ],
-    coverUrl: '/movies_pictures/Grease.webp',
-    releaseDate: '1978-06-16',
-    length: 110,
-    genre: ['Comédie musicale', 'Romance'],
-    saga: '',
-    description: '',
-    fromEntity: null,
-    countryOrigin: ['États-Unis'],
-    selectDisplayOrder: 30,
-  },
-  {
-    title: 'Grease 2',
-    director: 'Patricia Birch',
-    actors: [
-      {
-        name: 'Maxwell Caulfield',
-      },
-      {
-        name: 'Michelle Pfeiffer',
-      },
-      {
-        name: 'Adrian Zmed',
-      },
-      {
-        name: 'Lorna Luft',
-      },
-      {
-        name: 'Maureen Teefy',
-      },
-      {
-        name: 'Pamela Adlon',
-      },
-      {
-        name: 'Christopher McDonald',
-      },
-    ],
-    coverUrl: '/movies_pictures/81qJICzIC-L._AC_UF894,1000_QL80_.jpg',
-    releaseDate: '1982-06-11',
-    length: 115,
-    genre: ['Comédie musicale', 'Romance'],
-    saga: '',
-    description: '',
-    fromEntity: null,
-    countryOrigin: ['États-Unis'],
-    selectDisplayOrder: 30,
-  },
+
   {
     title: 'Vacances romaines',
     director: 'William Wyler',
@@ -3521,7 +3401,6 @@ export const baseMoviesLove: BaseMovie[] = [
       {
         name: 'Lola Peploe',
       },
-    
     ],
     coverUrl: '/movies_pictures/e7dfc74ab3c8.jpg',
     releaseDate: '2025-01-22',
@@ -3579,7 +3458,6 @@ export const baseMoviesLove: BaseMovie[] = [
       {
         name: 'Nathalie Richard',
       },
-    
     ],
     coverUrl: '/movies_pictures/jeune_et_jolie.jpg',
     releaseDate: '2013-08-21',
@@ -3590,5 +3468,1104 @@ export const baseMoviesLove: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['France'],
     selectDisplayOrder: 10,
+  },
+  {
+    title: 'Dirty Dancing',
+    director: 'Emile Ardolino',
+    actors: [
+      {
+        name: 'Patrick Swayze',
+      },
+      {
+        name: 'Jennifer Grey',
+      },
+      {
+        name: 'Jerry Orbach',
+      },
+      {
+        name: 'Cynthia Rhodes',
+      },
+      {
+        name: 'Kelly Bishop',
+      },
+      {
+        name: 'Jane Brucker',
+      },
+      {
+        name: 'Jack Weston',
+      },
+    ],
+    coverUrl: '/movies_pictures/51962-dirty-dancing-0-150-0-225-crop.jpg',
+    releaseDate: '1987-08-21',
+    length: 100,
+    genre: ['Romance'],
+    saga: '',
+    description: '',
+    fromEntity: null,
+    countryOrigin: ['États-Unis'],
+    selectDisplayOrder: 30,
+  },
+  {
+    title: 'The Lucky One',
+    director: 'Scott Hicks',
+    actors: [
+      {
+        name: 'Zac Efron',
+      },
+      {
+        name: 'Taylor Schilling',
+      },
+      {
+        name: 'Jay R. Ferguson',
+      },
+      {
+        name: 'Blythe Danner',
+      },
+      {
+        name: 'Adam LeFevre',
+      },
+      {
+        name: 'Douglas M. Griffin',
+      },
+      {
+        name: 'Joe Chrest',
+      },
+    ],
+    coverUrl: '/movies_pictures/64331-the-lucky-one-0-150-0-225-crop.jpg',
+    releaseDate: '2012-04-20',
+    length: 101,
+    genre: ['Romance'],
+    saga: '',
+    description: '',
+    fromEntity: {
+      entityType: 'book',
+      title: 'Le porte bonheur',
+      secondEntityKey: 'Nicholas Sparks',
+    },
+    countryOrigin: ['États-Unis'],
+    selectDisplayOrder: 0,
+  },
+  {
+    title: 'The Perfect Date',
+    director: 'Chris Nelson',
+    actors: [
+      {
+        name: 'Laura Marano',
+      },
+      {
+        name: 'Noah Centineo',
+      },
+      {
+        name: 'Camila Mendes',
+      },
+      {
+        name: 'Matt Walsh',
+      },
+      {
+        name: 'Wayne Pére',
+      },
+    ],
+    coverUrl: '/movies_pictures/3028326.webp',
+    releaseDate: '2019-04-12',
+    length: 89,
+    genre: ['Romance'],
+    saga: '',
+    description: '',
+    fromEntity: null,
+    countryOrigin: ['États-Unis'],
+    selectDisplayOrder: 0,
+  },
+  {
+    title: 'Un Noël en Californie',
+    director: 'Shawn Seet',
+    actors: [
+      {
+        name: 'Lauren Swickard',
+      },
+      {
+        name: 'Josh Swickard',
+      },
+      {
+        name: 'Ali Afshar',
+      },
+      {
+        name: 'David Del Rio',
+      },
+      {
+        name: 'Amanda Detmer',
+      },
+      {
+        name: 'Julie Lancaster',
+      },
+      {
+        name: 'Gunnar Anderson',
+      },
+    ],
+    coverUrl: '/movies_pictures/5951216.webp',
+    releaseDate: '2022-11-11',
+    length: 106,
+    genre: ['Romance'],
+    saga: '',
+    description: '',
+    fromEntity: null,
+    countryOrigin: ['États-Unis'],
+    selectDisplayOrder: 0,
+  },
+  {
+    title: "20 ans d'écart",
+    director: 'David Moreau',
+    actors: [
+      {
+        name: 'Virginie Efira',
+      },
+      {
+        name: 'Pierre Niney',
+      },
+      {
+        name: 'Charles Berling',
+      },
+      {
+        name: 'Gilles Cohen',
+      },
+      {
+        name: 'Camille Japy',
+      },
+      {
+        name: 'Michaël Abiteboul',
+      },
+      {
+        name: 'Louis-Do de Lencquesaing',
+      },
+    ],
+    coverUrl: '/movies_pictures/20446783.jpg',
+    releaseDate: '2013-02-20',
+    length: 92,
+    genre: ['Romance'],
+    saga: '',
+    description: '',
+    fromEntity: null,
+    countryOrigin: ['France'],
+    selectDisplayOrder: 0,
+  },
+  {
+    title: "L'Amour en touriste",
+    director: 'David Wnendt',
+    actors: [
+      {
+        name: 'Rachael Leigh Cook',
+      },
+      {
+        name: 'Scott Ly',
+      },
+      {
+        name: 'Missi Pyle',
+      },
+      {
+        name: 'Ben Feldman',
+      },
+      {
+        name: 'Glynn Sweet',
+      },
+      {
+        name: 'Alexa Povah',
+      },
+      {
+        name: 'Jacqueline Correa',
+      },
+    ],
+    coverUrl: '/movies_pictures/1147458.webp',
+    releaseDate: '2022-06-08',
+    length: 96,
+    genre: ['Romance'],
+    saga: '',
+    description: '',
+    fromEntity: null,
+    countryOrigin: ['États-Unis'],
+    selectDisplayOrder: 0,
+  },
+  {
+    title: 'Dernier appel pour Istanbul',
+    director: 'Ömer Faruk Sorak',
+    actors: [
+      {
+        name: 'Beren Saat',
+      },
+      {
+        name: 'Kıvanç Tatlıtuğ',
+      },
+      {
+        name: 'Senan Kara',
+      },
+      {
+        name: 'Zihan Zhao',
+      },
+      {
+        name: 'Michael Loayza',
+      },
+      {
+        name: 'Susan Slatin',
+      },
+      {
+        name: 'Annie McCain Engman',
+      },
+    ],
+    coverUrl:
+      '/movies_pictures/aHR0cHM6Ly9pbWFnZS50bWRiLm9yZy90L3AvL29yaWdpbmFsLy8xbldMTlhDV245UDV1WFdvNHBTZXgxVjlwRm8uanBn.webp',
+    releaseDate: '2023-11-17',
+    length: 91,
+    genre: ['Romance'],
+    saga: '',
+    description: '',
+    fromEntity: null,
+    countryOrigin: ['États-Unis'],
+    selectDisplayOrder: 0,
+  },
+  {
+    title: 'Mon âme sœur',
+    director: 'Stephanie Laing',
+    actors: [
+      {
+        name: 'Gugu Mbatha-Raw',
+      },
+      {
+        name: 'Michiel Huisman',
+      },
+      {
+        name: 'Steve Coogan',
+      },
+      {
+        name: 'Timothy Simons',
+      },
+      {
+        name: 'Jacki Weaver',
+      },
+      {
+        name: 'Kate McKinnon',
+      },
+      {
+        name: 'Christopher Walken',
+      },
+    ],
+    coverUrl: '/movies_pictures/mon_ame_soeur.jpg',
+    releaseDate: '2018-02-16',
+    length: 96,
+    genre: ['Romance'],
+    saga: '',
+    description: '',
+    fromEntity: null,
+    countryOrigin: ['États-Unis'],
+    selectDisplayOrder: 0,
+  },
+  {
+    title: 'Prise au jeu',
+    director: 'Trish Sie',
+    actors: [
+      {
+        name: 'Gina Rodriguez',
+      },
+      {
+        name: 'Damon Wayans Jr.',
+      },
+      {
+        name: 'Tom Ellis',
+      },
+      {
+        name: 'Augustus Prew',
+      },
+      {
+        name: 'Joel Courtney',
+      },
+      {
+        name: 'Liza Koshy',
+      },
+      {
+        name: 'Jerry Kernion',
+      },
+    ],
+    coverUrl: '/movies_pictures/1133774.webp',
+    releaseDate: '2024-02-14',
+    length: 105,
+    genre: ['Romance'],
+    saga: '',
+    description: '',
+    fromEntity: null,
+    countryOrigin: ['États-Unis'],
+    selectDisplayOrder: 0,
+  },
+  {
+    title: 'La Dernière Lettre de son amant',
+    director: 'Augustine Frizzell',
+    actors: [
+      {
+        name: 'Shailene Woodley',
+      },
+      {
+        name: 'Felicity Jones',
+      },
+      {
+        name: 'Diana Kent',
+      },
+      {
+        name: 'Callum Turner',
+      },
+      {
+        name: 'Ben Cross',
+      },
+      {
+        name: 'Nabhaan Rizwan',
+      },
+      {
+        name: 'Joe Alwyn',
+      },
+    ],
+    coverUrl: '/movies_pictures/3914070.webp',
+    releaseDate: '2021-07-23',
+    length: 110,
+    genre: ['Romance'],
+    saga: '',
+    description: '',
+    fromEntity: null,
+    countryOrigin: ['États-Unis'],
+    selectDisplayOrder: 0,
+  },
+  {
+    title: "Par-delà l'univers",
+    director: 'Diego Freitas',
+    actors: [
+      {
+        name: 'Giulia Be',
+      },
+      {
+        name: 'Henry Zaga',
+      },
+      {
+        name: 'João Miguel',
+      },
+      {
+        name: 'Othon Bastos',
+      },
+      {
+        name: 'Viviane Araújo',
+      },
+      {
+        name: 'Denise Del Vecchio',
+      },
+    ],
+    coverUrl:
+      '/movies_pictures/MV5BYWMxOGIyODMtMGMyMi00ODYzLWIwNTAtYWE5YjAwNzE1OWZkXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg',
+    releaseDate: '2022-10-27',
+    length: 127,
+    genre: ['Romance'],
+    saga: '',
+    description: '',
+    fromEntity: null,
+    countryOrigin: ['États-Unis'],
+    selectDisplayOrder: 0,
+  },
+  {
+    title: 'Nuits blanches à Seattle',
+    director: 'Nora Ephron',
+    actors: [
+      {
+        name: 'Tom Hanks',
+      },
+      {
+        name: 'Meg Ryan',
+      },
+      {
+        name: 'Bill Pullman',
+      },
+      {
+        name: 'Ross Malinger',
+      },
+      {
+        name: "Rosie O'Donnell",
+      },
+      {
+        name: 'Victor Garber',
+      },
+      {
+        name: 'Rita Wilson',
+      },
+    ],
+    coverUrl: '/movies_pictures/18798059.jpg',
+    releaseDate: '1993-06-25',
+    length: 105,
+    genre: ['Romance'],
+    saga: '',
+    description: '',
+    fromEntity: null,
+    countryOrigin: ['États-Unis'],
+    selectDisplayOrder: 30,
+  },
+  {
+    title: 'Vous avez un message',
+    director: 'Nora Ephron',
+    actors: [
+      {
+        name: 'Tom Hanks',
+      },
+      {
+        name: 'Meg Ryan',
+      },
+      {
+        name: 'Greg Kinnear',
+      },
+      {
+        name: 'Parker Posey',
+      },
+      {
+        name: 'Jean Stapleton',
+      },
+      {
+        name: 'Steve Zahn',
+      },
+      {
+        name: 'Dave Chappelle',
+      },
+    ],
+    coverUrl: '/movies_pictures/038614_af.webp',
+    releaseDate: '1998-12-18',
+    length: 119,
+    genre: ['Romance'],
+    saga: '',
+    description: '',
+    fromEntity: null,
+    countryOrigin: ['États-Unis'],
+    selectDisplayOrder: 0,
+  },
+  {
+    title: 'Cocktail',
+    director: 'Roger Donaldson',
+    actors: [
+      {
+        name: 'Tom Cruise',
+      },
+      {
+        name: 'Bryan Brown',
+      },
+      {
+        name: 'Elisabeth Shue',
+      },
+      {
+        name: 'Gina Gershon',
+      },
+      {
+        name: 'Kelly Lynch',
+      },
+      {
+        name: 'Lisa Banes',
+      },
+      {
+        name: 'Laurence Luckinbill',
+      },
+    ],
+    coverUrl: '/movies_pictures/cocktail.jpg',
+    releaseDate: '1988-07-29',
+    length: 104,
+    genre: ['Romance'],
+    saga: '',
+    description: '',
+    fromEntity: null,
+    countryOrigin: ['États-Unis'],
+    selectDisplayOrder: 0,
+  },
+  {
+    title: 'Les Vendanges de feu',
+    director: 'Alfonso Arau',
+    actors: [
+      {
+        name: 'Keanu Reeves',
+      },
+      {
+        name: 'Aitana Sánchez-Gijón',
+      },
+      {
+        name: 'Anthony Quinn',
+      },
+      {
+        name: 'Giancarlo Giannini',
+      },
+      {
+        name: 'Angélica Aragón',
+      },
+      {
+        name: 'Freddy Rodríguez',
+      },
+      {
+        name: 'Debra Messing',
+      },
+    ],
+    coverUrl: '/movies_pictures/18868756.webp',
+    releaseDate: '1995-04-21',
+    length: 102,
+    genre: ['Romance'],
+    saga: '',
+    description: '',
+    fromEntity: null,
+    countryOrigin: ['États-Unis'],
+    selectDisplayOrder: 0,
+  },
+  {
+    title: 'Sweet November',
+    director: "Pat O'Connor",
+    actors: [
+      {
+        name: 'Keanu Reeves',
+      },
+      {
+        name: 'Charlize Theron',
+      },
+      {
+        name: 'Jason Isaacs',
+      },
+      {
+        name: 'Greg Germann',
+      },
+      {
+        name: 'Lauren Graham',
+      },
+      {
+        name: 'Liam Aiken',
+      },
+      {
+        name: 'Robert Joy',
+      },
+    ],
+    coverUrl: '/movies_pictures/518MW6AR4QL._AC_UF894,1000_QL80_.jpg',
+    releaseDate: '2001-02-16',
+    length: 120,
+    genre: ['Romance'],
+    saga: '',
+    description: '',
+    fromEntity: null,
+    countryOrigin: ['États-Unis'],
+    selectDisplayOrder: 0,
+  },
+  {
+    title: 'Tout peut arriver',
+    director: 'Nancy Meyers',
+    actors: [
+      {
+        name: 'Keanu Reeves',
+      },
+      {
+        name: 'Jack Nicholson',
+      },
+      {
+        name: 'Diane Keaton',
+      },
+      {
+        name: 'Amanda Peet',
+      },
+      {
+        name: 'Frances McDormand',
+      },
+      {
+        name: 'Jon Favreau',
+      },
+      {
+        name: 'KaDee Strickland',
+      },
+    ],
+    coverUrl: '/movies_pictures/51XZJ18NBYL.jpg',
+    releaseDate: '2003-12-12',
+    length: 128,
+    genre: ['Romance'],
+    saga: '',
+    description: '',
+    fromEntity: null,
+    countryOrigin: ['États-Unis'],
+    selectDisplayOrder: 0,
+  },
+  {
+    title: 'Entre deux rives',
+    director: 'Alejandro Agresti',
+    actors: [
+      {
+        name: 'Keanu Reeves',
+      },
+      {
+        name: 'Sandra Bullock',
+      },
+      {
+        name: 'Dylan Walsh',
+      },
+      {
+        name: 'Shohreh Aghdashloo',
+      },
+      {
+        name: 'Christopher Plummer',
+      },
+      {
+        name: 'Ebon Moss-Bachrach',
+      },
+      {
+        name: 'Willeke van Ammelrooy',
+      },
+    ],
+    coverUrl: '/movies_pictures/18653696.jpg',
+    releaseDate: '2006-06-16',
+    length: 99,
+    genre: ['Romance'],
+    saga: '',
+    description: '',
+    fromEntity: null,
+    countryOrigin: ['États-Unis'],
+    selectDisplayOrder: 0,
+  },
+  {
+    title: 'Un jour, peut-être',
+    director: 'Marc Webb',
+    actors: [
+      {
+        name: 'Ryan Reynolds',
+      },
+      {
+        name: 'Isla Fisher',
+      },
+      {
+        name: 'Abigail Breslin',
+      },
+      {
+        name: 'Elizabeth Banks',
+      },
+      {
+        name: 'Rachel Weisz',
+      },
+      {
+        name: 'Kevin Kline',
+      },
+      {
+        name: 'Derek Luke',
+      },
+    ],
+    coverUrl: '/movies_pictures/18926056.webp',
+    releaseDate: '2009-01-23',
+    length: 100,
+    genre: ['Romance'],
+    saga: '',
+    description: '',
+    fromEntity: null,
+    countryOrigin: ['États-Unis'],
+    selectDisplayOrder: 0,
+  },
+  {
+    title: "L'Amour sans préavis",
+    director: 'Marc Lawrence',
+    actors: [
+      {
+        name: 'Hugh Grant',
+      },
+      {
+        name: 'Sandra Bullock',
+      },
+      {
+        name: 'Alicia Witt',
+      },
+      {
+        name: 'Heather Burns',
+      },
+      {
+        name: 'David Haig',
+      },
+      {
+        name: 'Joe Badalucco',
+      },
+      {
+        name: 'Katheryn Winnick',
+      },
+    ],
+    coverUrl: '/movies_pictures/aff.webp',
+    releaseDate: '2002-12-20',
+    length: 101,
+    genre: ['Romance'],
+    saga: '',
+    description: '',
+    fromEntity: null,
+    countryOrigin: ['États-Unis'],
+    selectDisplayOrder: 0,
+  },
+  {
+    title: 'Demain on se marie',
+    director: 'Dennis Dugan',
+    actors: [
+      {
+        name: 'Adam Sandler',
+      },
+      {
+        name: 'Drew Barrymore',
+      },
+      {
+        name: 'Christine Taylor',
+      },
+      {
+        name: 'Allen Covert',
+      },
+      {
+        name: 'Angela Featherstone',
+      },
+      {
+        name: 'Matthew Glave',
+      },
+      {
+        name: 'Steve Buscemi',
+      },
+    ],
+    coverUrl: '/movies_pictures/041710_af.webp',
+    releaseDate: '1998-02-13',
+    length: 119,
+    genre: ['Romance'],
+    saga: '',
+    description: '',
+    fromEntity: null,
+    countryOrigin: ['États-Unis'],
+    selectDisplayOrder: 0,
+  },
+  {
+    title: 'Vicky Cristina Barcelona',
+    director: 'Woody Allen',
+    actors: [
+      { name: 'Scarlett Johansson' },
+      { name: 'Javier Bardem' },
+      { name: 'Rebecca Hall' },
+      { name: 'Penélope Cruz' },
+      { name: 'Patricia Clarkson' },
+      { name: 'Christopher Evan Welch' },
+      { name: 'Kevin Dunn' },
+    ],
+    coverUrl: '/movies_pictures/18982307.webp',
+    releaseDate: '2008-05-17',
+    length: 96,
+    genre: ['Romance'],
+    saga: '',
+    description: '',
+    fromEntity: null,
+    countryOrigin: ['États-Unis'],
+    selectDisplayOrder: 0,
+  },
+  {
+    title: "Jeux d'enfants",
+    director: 'Yann Samuel',
+    actors: [
+      {
+        name: 'Guillaume Canet',
+      },
+      {
+        name: 'Marion Cotillard',
+      },
+      {
+        name: 'Gérard Watkins',
+      },
+      {
+        name: 'Gilles Lellouche',
+      },
+      {
+        name: 'Thibault Verhaeghe',
+      },
+      {
+        name: 'Joséphine Lebas-Joly',
+      },
+      {
+        name: 'Élodie Navarre',
+      },
+    ],
+    coverUrl: '/movies_pictures/6_5050582196122_vid.jpg',
+    releaseDate: '2003-01-01',
+    length: 93,
+    genre: ['Romance'],
+    saga: '',
+    description: '',
+    fromEntity: null,
+    countryOrigin: ['France'],
+    selectDisplayOrder: 0,
+  },
+  {
+    title: 'Un amour à New York',
+    director: 'Peter Chelsom',
+    actors: [
+      {
+        name: 'John Cusack',
+      },
+      {
+        name: 'Kate Beckinsale',
+      },
+      {
+        name: 'Bridget Moynahan',
+      },
+      {
+        name: 'John Corbett',
+      },
+      {
+        name: 'Jeremy Piven',
+      },
+      {
+        name: 'Eugene Levy',
+      },
+      {
+        name: 'Molly Shannon',
+      },
+    ],
+    coverUrl: '/movies_pictures/affny.jpg',
+    releaseDate: '2001-10-05',
+    length: 90,
+    genre: ['Romance'],
+    saga: '',
+    description: '',
+    fromEntity: null,
+    countryOrigin: ['États-Unis'],
+    selectDisplayOrder: 0,
+  },
+  {
+    title: 'Cher John',
+    director: 'Lasse Hallström',
+    actors: [
+      {
+        name: 'Amanda Seyfried',
+      },
+      {
+        name: 'Channing Tatum',
+      },
+      {
+        name: 'Henry Thomas',
+      },
+      {
+        name: 'Richard Jenkins',
+      },
+      {
+        name: 'Scott Porter',
+      },
+      {
+        name: 'D.J. Cotrona',
+      },
+      {
+        name: 'Cullen Moss',
+      },
+    ],
+    coverUrl: '/movies_pictures/19262319.jpg',
+    releaseDate: '2010-02-05',
+    length: 108,
+    genre: ['Romance', 'Drame'],
+    saga: '',
+    description: '',
+    fromEntity: null,
+    countryOrigin: ['États-Unis'],
+    selectDisplayOrder: 0,
+  },
+  {
+    title: 'Wild at Heart',
+    director: 'David Lynch',
+    actors: [
+      {
+        name: 'Nicolas Cage',
+      },
+      {
+        name: 'Laura Dern',
+      },
+      {
+        name: 'Willem Dafoe',
+      },
+      {
+        name: 'Crispin Glover',
+      },
+      {
+        name: 'Diane Ladd',
+      },
+      {
+        name: 'Isabella Rossellini',
+      },
+      {
+        name: 'Harry Dean Stanton',
+      },
+    ],
+    coverUrl: '/movies_pictures/5c5c66a89897.jpg',
+    releaseDate: '1990-08-17',
+    length: 124,
+    genre: ['Romance', 'Thriller', 'Policier'],
+    saga: '',
+    description: '',
+    fromEntity: null,
+    countryOrigin: ['États-Unis'],
+    selectDisplayOrder: 0,
+  },
+  {
+    title: 'Starman',
+    director: 'John Carpenter',
+    actors: [
+      {
+        name: 'Jeff Bridges',
+      },
+      {
+        name: 'Karen Allen',
+      },
+      {
+        name: 'Charles Martin Smith',
+      },
+      {
+        name: 'Richard Jaeckel',
+      },
+      {
+        name: 'David Wells',
+      },
+      {
+        name: 'Dirk Blocker',
+      },
+      {
+        name: 'George Buck Flower',
+      },
+    ],
+    coverUrl: '/movies_pictures/0e81aa55fdac.jpg',
+    releaseDate: '1984-12-14',
+    length: 115,
+    genre: ['Romance', 'Science Fiction', 'Drame'],
+    saga: '',
+    description: '',
+    fromEntity: null,
+    countryOrigin: ['États-Unis'],
+    selectDisplayOrder: 0,
+  },
+  {
+    title: 'Rebecca',
+    director: 'Ben Wheatley',
+    actors: [
+      {
+        name: 'Lily James',
+      },
+      {
+        name: 'Armie Hammer',
+      },
+      {
+        name: 'Kristin Scott Thomas',
+      },
+      {
+        name: 'Keeley Hawes',
+      },
+      {
+        name: 'Ann Dowd',
+      },
+      {
+        name: 'Sam Riley',
+      },
+      {
+        name: 'Tom Goodman-Hill',
+      },
+    ],
+    coverUrl: '/movies_pictures/3328407.webp',
+    releaseDate: '2020-10-21',
+    length: 123,
+    genre: ['Romance', 'Thriller'],
+    saga: '',
+    description: '',
+    fromEntity: null,
+    countryOrigin: ['États-Unis'],
+    selectDisplayOrder: 5,
+  },
+  {
+    title: 'La Belle et le Clochard',
+    director: 'Charlie Bean',
+    actors: [
+      {
+        name: 'Tessa Thompson',
+      },
+      {
+        name: 'Justin Theroux',
+      },
+      {
+        name: 'Thomas Mann',
+      },
+      {
+        name: 'Kiersey Clemons',
+      },
+      {
+        name: 'Ashley Jensen',
+      },
+      {
+        name: 'Sam Elliott',
+      },
+      {
+        name: 'Yvette Nicole Brown',
+      },
+    ],
+    coverUrl: '/movies_pictures/1278031.jpg',
+    releaseDate: '2019-11-12',
+    length: 103,
+    genre: ['Romance', 'Jeunesse'],
+    saga: '',
+    description: '',
+    fromEntity: null,
+    countryOrigin: ['États-Unis'],
+    selectDisplayOrder: 5,
+  },
+  {
+    title: 'Ghost',
+    director: 'Jerry Zucker',
+    actors: [
+      {
+        name: 'Patrick Swayze',
+      },
+      {
+        name: 'Demi Moore',
+      },
+      {
+        name: 'Whoopi Goldberg',
+      },
+      {
+        name: 'Tony Goldwyn',
+      },
+      {
+        name: 'Rick Aviles',
+      },
+      {
+        name: 'Vincent Schiavelli',
+      },
+      {
+        name: 'Stephen Root',
+      },
+    ],
+    coverUrl: '/movies_pictures/19106105.jpg',
+    releaseDate: '1990-07-13',
+    length: 127,
+    genre: ['Romance', 'Fantastique'],
+    saga: '',
+    description: '',
+    fromEntity: null,
+    countryOrigin: ['États-Unis'],
+    selectDisplayOrder: 5,
+  },
+  {
+    title: "L'Épreuve du feu",
+    director: 'Aurélien Peyre',
+    actors: [
+      {
+        name: 'Félix Lefebvre',
+      },
+      {
+        name: 'Anja Verderosa',
+      },
+      {
+        name: 'Suzanne Jouannet',
+      },
+      {
+        name: 'Victor Bonnel',
+      },
+      {
+        name: 'Sarah Henochsberg',
+      },
+      {
+        name: 'Jules Porier',
+      },
+      {
+        name: 'Nolan Masraf',
+      },
+    ],
+    coverUrl: '/movies_pictures/0c1397847db3.jpg',
+    releaseDate: '2025-08-13',
+    length: 105,
+    genre: ['Romance', 'Jeunesse', 'Drame'],
+    saga: '',
+    description: '',
+    fromEntity: null,
+    countryOrigin: ['France'],
+    selectDisplayOrder: 5,
   },
 ];

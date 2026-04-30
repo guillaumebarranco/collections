@@ -1,6 +1,6 @@
 import { BaseMovie } from '../../../models/movie-model';
 
-export const baseMoviesAnimatedOthers: BaseMovie[] = [
+export const baseMoviesAnimationOthers: BaseMovie[] = [
   {
     title: 'Le Géant de fer',
     director: 'Brad Bird',
@@ -221,8 +221,7 @@ export const baseMoviesAnimatedOthers: BaseMovie[] = [
         name: 'Shameik Moore',
       },
     ],
-    coverUrl:
-      '/movies_pictures/fd501958f7fd.jpg',
+    coverUrl: '/movies_pictures/fd501958f7fd.jpg',
     releaseDate: '2018-12-14',
     length: 117,
     genre: ['Animation'],
@@ -244,8 +243,7 @@ export const baseMoviesAnimatedOthers: BaseMovie[] = [
         name: 'Shameik Moore',
       },
     ],
-    coverUrl:
-      '/movies_pictures/ef2045a60fe5.jpg',
+    coverUrl: '/movies_pictures/ef2045a60fe5.jpg',
     releaseDate: '2023-06-02',
     length: 140,
     genre: ['Animation'],
@@ -1781,8 +1779,7 @@ export const baseMoviesAnimatedOthers: BaseMovie[] = [
         name: 'Elizabeth Banks',
       },
     ],
-    coverUrl:
-      '/movies_pictures/463acee3c66d.jpg',
+    coverUrl: '/movies_pictures/463acee3c66d.jpg',
     releaseDate: '2014-02-07',
     length: 100,
     genre: ['Animation', 'Aventure'],
@@ -3359,5 +3356,297 @@ export const baseMoviesAnimatedOthers: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+  },
+  {
+    title: 'Le Drôle de Noël de Scrooge',
+    director: 'Robert Zemeckis',
+    actors: [
+      {
+        name: 'Jim Carrey',
+      },
+      {
+        name: 'Gary Oldman',
+      },
+      {
+        name: 'Colin Firth',
+      },
+      {
+        name: 'Robin Wright',
+      },
+      {
+        name: 'Cary Elwes',
+      },
+      {
+        name: 'Bob Hoskins',
+      },
+      {
+        name: 'Daryl Sabara',
+      },
+    ],
+    coverUrl: '/movies_pictures/19107556.jpg',
+    releaseDate: '2009-11-06',
+    length: 96,
+    genre: ['Animation'],
+    saga: '',
+    description: '',
+    fromEntity: null,
+    countryOrigin: ['États-Unis'],
+    selectDisplayOrder: 0,
+  },
+  {
+    title: 'Mister Showman',
+    director: 'Robert Zemeckis',
+    actors: [
+      {
+        name: 'John Malkovich',
+      },
+      {
+        name: 'Emily Blunt',
+      },
+      {
+        name: 'Steve Zahn',
+      },
+      {
+        name: 'Tom Hanks',
+      },
+      {
+        name: 'Colin Hanks',
+      },
+      {
+        name: 'Patrick Fischler',
+      },
+      {
+        name: 'Ricky Jay',
+      },
+    ],
+    coverUrl: '/movies_pictures/19135040.webp',
+    releaseDate: '2004-11-10',
+    length: 108,
+    genre: ['Animation'],
+    saga: '',
+    description: '',
+    fromEntity: null,
+    countryOrigin: ['États-Unis'],
+    selectDisplayOrder: 0,
+  },
+  {
+    title: 'Le Conte de la princesse Kaguya',
+    director: 'Isao Takahata',
+    actors: [
+      {
+        name: 'Hikaru Ijūin',
+      },
+    ],
+    coverUrl: '/movies_pictures/122290.webp',
+    releaseDate: '2013-11-23',
+    length: 137,
+    genre: ['Animation'],
+    saga: '',
+    description: '',
+    fromEntity: null,
+    countryOrigin: ['Japon'],
+    selectDisplayOrder: 1,
+  },
+  {
+    title: 'Epic : La Bataille du royaume secret',
+    director: 'Chris Wedge',
+    actors: [
+      {
+        name: 'Amanda Seyfried',
+      },
+      {
+        name: 'Colin Farrell',
+      },
+      {
+        name: 'Beyoncé',
+      },
+      {
+        name: 'Josh Hutcherson',
+      },
+      {
+        name: 'Christoph Waltz',
+      },
+      {
+        name: 'Aziz Ansari',
+      },
+      {
+        name: "Chris O'Dowd",
+      },
+    ],
+    coverUrl: '/movies_pictures/Epic_-_La_Bataille_du_royaume_secret.webp',
+    releaseDate: '2013-05-24',
+    length: 102,
+    genre: ['Animation', 'Fantastique'],
+    saga: '',
+    description: '',
+    fromEntity: null,
+    countryOrigin: ['États-Unis'],
+    selectDisplayOrder: 0,
+  },
+  {
+    title: 'Perfect Blue',
+    director: 'Satoshi Kon',
+    actors: [
+      { name: 'Junko Iwao' },
+      { name: 'Rica Matsumoto' },
+      { name: 'Shinpachi Tsuji' },
+    ],
+    coverUrl: '/movies_pictures/d8bc0964d441.jpg',
+    releaseDate: '1998-02-28',
+    length: 82,
+    genre: ['Animation', 'Policier', 'Drame'],
+    saga: '',
+    description: '',
+    fromEntity: null,
+    countryOrigin: ['Japon'],
+    selectDisplayOrder: 0,
+  },
+  {
+    title: 'Chico et Rita',
+    director: 'Tono Errando, Javier Mariscal, Fernando Trueba',
+    actors: [
+      { name: 'Eman Xor Oña' },
+      { name: 'Limara Meneses' },
+      { name: 'Mario Guerra' },
+    ],
+    coverUrl: '/movies_pictures/8a35ac7665de.jpg',
+    releaseDate: '2010-11-19',
+    length: 94,
+    genre: ['Animation', 'Policier', 'Drame'],
+    saga: '',
+    description: '',
+    fromEntity: null,
+    countryOrigin: ['Espagne'],
+    selectDisplayOrder: 0,
+  },
+  {
+    title: 'Mars Express',
+    director: 'Jérémie Périn',
+    actors: [
+      { name: 'Léa Drucker' },
+      { name: 'Mathieu Amalric' },
+      { name: 'Daniel Njo Lobé' },
+    ],
+    coverUrl: '/movies_pictures/acc0f3070039.jpg',
+    releaseDate: '2024-05-03',
+    length: 88,
+    genre: ['Animation', 'Action', 'Mystère'],
+    saga: '',
+    description: '',
+    fromEntity: null,
+    countryOrigin: ['France'],
+    selectDisplayOrder: 0,
+  },
+  {
+    title: 'Paprika',
+    director: 'Satoshi Kon',
+    actors: [
+      { name: 'Megumi Hayashibara' },
+      { name: 'Tôru Emori' },
+      { name: 'Katsunosuke Hori' },
+    ],
+    coverUrl: '/movies_pictures/5e709990943e.jpg',
+    releaseDate: '2007-06-22',
+    length: 90,
+    genre: ['Animation', 'Drame', 'Fantastique'],
+    saga: '',
+    description: '',
+    fromEntity: null,
+    countryOrigin: ['Japon'],
+    selectDisplayOrder: 0,
+  },
+  {
+    title: 'Fantastic Mr. Fox',
+    director: 'Wes Anderson',
+    actors: [
+      { name: 'George Clooney' },
+      { name: 'Meryl Streep' },
+      { name: 'Bill Murray' },
+    ],
+    coverUrl: '/movies_pictures/8f8b8cd076d3.jpg',
+    releaseDate: '2009-11-25',
+    length: 87,
+    genre: ['Animation', 'Aventure', 'Comédie'],
+    saga: '',
+    description: '',
+    fromEntity: null,
+    countryOrigin: ['États-Unis'],
+    selectDisplayOrder: 0,
+  },
+  {
+    title: 'Frankenweenie',
+    director: 'Tim Burton',
+    actors: [
+      {
+        name: 'Frank Welker',
+      },
+      {
+        name: 'Winona Ryder',
+      },
+      {
+        name: "Catherine O'Hara",
+      },
+      {
+        name: 'Martin Short',
+      },
+      {
+        name: 'Martin Landau',
+      },
+      {
+        name: 'Robert Capron',
+      },
+      {
+        name: 'Atticus Shaffer',
+      },
+    ],
+    coverUrl: '/movies_pictures/2c1f536a507d.jpg',
+    releaseDate: '2012-10-05',
+    length: 87,
+    genre: ['Animation', 'Comédie', 'Fantastique'],
+    saga: '',
+    description: '',
+    fromEntity: null,
+    countryOrigin: ['États-Unis'],
+    selectDisplayOrder: 0,
+  },
+  {
+    title: 'Le magasin des suicides',
+    director: 'Patrice Leconte',
+    actors: [
+      { name: 'Bernard Alane' },
+      { name: 'Kacey Mottet Klein' },
+      { name: 'Isabelle Gélinas' },
+      { name: 'François Morel' },
+    ],
+    coverUrl: '/movies_pictures/41df16ed6e6b.jpg',
+    releaseDate: '2012-01-01',
+    length: 79,
+    genre: ['Animation'],
+    saga: '',
+    description: '',
+    fromEntity: null,
+    countryOrigin: ['France'],
+    selectDisplayOrder: 0,
+  },
+  {
+    title: "Scarlet et l'éternité",
+    director: 'Mamoru Hosoda',
+    actors: [
+      {
+        name: 'Mana Ashida',
+      },
+      {
+        name: 'Mamoru Miyano',
+      },
+    ],
+    coverUrl: '/movies_pictures/9938c6af328e.jpg',
+    releaseDate: '2026-03-11',
+    length: 118,
+    genre: ['Animation'],
+    saga: '',
+    description: '',
+    fromEntity: null,
+    countryOrigin: ['Japon'],
+    selectDisplayOrder: 5,
   },
 ];

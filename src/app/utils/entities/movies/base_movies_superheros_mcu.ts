@@ -1,6 +1,6 @@
 import { BaseMovie } from '../../../models/movie-model';
 
-export const baseMoviesMcu: BaseMovie[] = [
+export const baseMoviesSuperherosMcu: BaseMovie[] = [
   {
     title: 'Avengers',
     director: 'Joss Whedon',
@@ -192,8 +192,7 @@ export const baseMoviesMcu: BaseMovie[] = [
         name: 'Dominic Cooper',
       },
     ],
-    coverUrl:
-      '/movies_pictures/48f79142603f.jpg',
+    coverUrl: '/movies_pictures/48f79142603f.jpg',
     releaseDate: '2011-07-22',
     length: 124,
     genre: ['Action'],
@@ -229,8 +228,7 @@ export const baseMoviesMcu: BaseMovie[] = [
         name: 'Frank Grillo',
       },
     ],
-    coverUrl:
-      '/movies_pictures/5ee6f9f2b19e.jpg',
+    coverUrl: '/movies_pictures/5ee6f9f2b19e.jpg',
     releaseDate: '2014-04-04',
     length: 136,
     genre: ['Action'],
@@ -263,8 +261,7 @@ export const baseMoviesMcu: BaseMovie[] = [
         name: 'Samuel L. Jackson',
       },
     ],
-    coverUrl:
-      '/movies_pictures/433ae3f35607.jpg',
+    coverUrl: '/movies_pictures/433ae3f35607.jpg',
     releaseDate: '2016-05-06',
     length: 147,
     genre: ['Action'],
@@ -335,7 +332,6 @@ export const baseMoviesMcu: BaseMovie[] = [
       {
         name: 'Jon Favreau',
       },
-    
     ],
     coverUrl: '/movies_pictures/57af819917b7.jpg',
     releaseDate: '2008-05-02',
@@ -477,7 +473,6 @@ export const baseMoviesMcu: BaseMovie[] = [
       {
         name: 'Kat Dennings',
       },
-    
     ],
     coverUrl: '/movies_pictures/46456-thor-0-150-0-225-crop.jpg',
     releaseDate: '2011-05-06',
@@ -587,7 +582,6 @@ export const baseMoviesMcu: BaseMovie[] = [
       {
         name: 'Jaimie Alexander',
       },
-    
     ],
     coverUrl:
       '/movies_pictures/543002-thor-love-and-thunder-0-150-0-225-crop.jpg',
@@ -789,7 +783,6 @@ export const baseMoviesMcu: BaseMovie[] = [
       {
         name: 'Letitia Wright',
       },
-    
     ],
     coverUrl: '/movies_pictures/209383-black-panther-0-150-0-225-crop.jpg',
     releaseDate: '2018-02-16',
@@ -942,7 +935,6 @@ export const baseMoviesMcu: BaseMovie[] = [
       {
         name: 'Judy Greer',
       },
-    
     ],
     coverUrl: '/movies_pictures/83557-ant-man-0-150-0-225-crop.jpg',
     releaseDate: '2015-07-17',
@@ -979,7 +971,6 @@ export const baseMoviesMcu: BaseMovie[] = [
       {
         name: 'Michelle Pfeiffer',
       },
-    
     ],
     coverUrl:
       '/movies_pictures/296341-ant-man-and-the-wasp-0-150-0-225-crop.jpg',
@@ -1017,7 +1008,6 @@ export const baseMoviesMcu: BaseMovie[] = [
       {
         name: 'Bill Murray',
       },
-    
     ],
     coverUrl:
       '/movies_pictures/566237-ant-man-and-the-wasp-quantumania-0-150-0-225-crop.jpg',
@@ -1055,7 +1045,6 @@ export const baseMoviesMcu: BaseMovie[] = [
       {
         name: 'Jacob Batalon',
       },
-    
     ],
     coverUrl:
       '/movies_pictures/242710-spider-man-homecoming-0-150-0-225-crop.jpg',
@@ -1129,7 +1118,6 @@ export const baseMoviesMcu: BaseMovie[] = [
       {
         name: 'Jamie Foxx',
       },
-    
     ],
     coverUrl:
       '/movies_pictures/560787-spider-man-no-way-home-0-150-0-225-crop.jpg',
@@ -1207,7 +1195,6 @@ export const baseMoviesMcu: BaseMovie[] = [
       {
         name: 'Salma Hayek',
       },
-    
     ],
     coverUrl: '/movies_pictures/cdb65fc168f2.jpg',
     releaseDate: '2021-11-05',
@@ -1308,7 +1295,6 @@ export const baseMoviesMcu: BaseMovie[] = [
       {
         name: 'Julia Louis-Dreyfus',
       },
-    
     ],
     coverUrl: '/movies_pictures/72b74175dd05a704ebed57975b0f6487.jpg',
     releaseDate: '2025-05-02',

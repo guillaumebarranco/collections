@@ -1,6 +1,6 @@
 import { BaseMovie } from '../../../models/movie-model';
 
-export const baseMoviesAnimatedJapan: BaseMovie[] = [
+export const baseMoviesAnimationJapan: BaseMovie[] = [
   {
     title: 'Ghost in the Shell (1995)',
     director: 'Mamoru Oshii',

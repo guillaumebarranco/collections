@@ -26,7 +26,6 @@ export const baseMoviesSagaPage3: BaseMovie[] = [
       {
         name: 'Wolf Kahler',
       },
-    
     ],
     coverUrl: '/movies_pictures/raiders_of_the_lost_ark.jpg',
     releaseDate: '1981-09-16',
@@ -135,7 +134,6 @@ export const baseMoviesSagaPage3: BaseMovie[] = [
       {
         name: 'Jim Broadbent',
       },
-    
     ],
     coverUrl:
       '/movies_pictures/indiana_jones_and_the_kingdom_of_the_crystal_skull.jpg',
@@ -347,7 +345,6 @@ export const baseMoviesSagaPage3: BaseMovie[] = [
       {
         name: 'Emma Laird',
       },
-    
     ],
     coverUrl: '/movies_pictures/28-ans-plus-tard.jpg',
     releaseDate: '2025-06-18',
@@ -360,7 +357,7 @@ export const baseMoviesSagaPage3: BaseMovie[] = [
     selectDisplayOrder: 20,
   },
   {
-    title: 'Sonic the Hedgehog',
+    title: 'Sonic, le film',
     director: 'Jeff Fowler',
     actors: [
       {
@@ -384,9 +381,8 @@ export const baseMoviesSagaPage3: BaseMovie[] = [
       {
         name: 'Neal McDonough',
       },
-    
     ],
-    coverUrl: '/movies_pictures/sonic_the_hedgehog.jpg',
+    coverUrl: '/movies_pictures/22c41964d56b.jpg',
     releaseDate: '2020-01-01',
     length: 99,
     genre: [],
@@ -425,9 +421,8 @@ export const baseMoviesSagaPage3: BaseMovie[] = [
       {
         name: 'Neal McDonough',
       },
-    
     ],
-    coverUrl: '/movies_pictures/sonic-2.jpg',
+    coverUrl: '/movies_pictures/efd4652c23a6.jpg',
     releaseDate: '2022-03-30',
     length: 122,
     genre: ['Aventure', 'Jeunesse'],
@@ -466,9 +461,8 @@ export const baseMoviesSagaPage3: BaseMovie[] = [
       {
         name: 'Neal McDonough',
       },
-    
     ],
-    coverUrl: '/movies_pictures/sonic-3.jpg',
+    coverUrl: '/movies_pictures/sdgsdgdfgdfgdfg.webp',
     releaseDate: '2024-12-25',
     length: 110,
     genre: ['Aventure', 'Jeunesse'],
@@ -508,8 +502,6 @@ export const baseMoviesSagaPage3: BaseMovie[] = [
       {
         name: 'Neal McDonough',
       },
-    
-    
     ],
     coverUrl:
       '/movies_pictures/the_lord_of_the_rings_the_fellowship_of_the_ring.jpg',
@@ -551,7 +543,6 @@ export const baseMoviesSagaPage3: BaseMovie[] = [
       {
         name: 'Bernard Hill',
       },
-    
     ],
     coverUrl: '/movies_pictures/the_lord_of_the_rings_the_two_towers.jpg',
     releaseDate: '2002-12-18',
@@ -592,7 +583,6 @@ export const baseMoviesSagaPage3: BaseMovie[] = [
       {
         name: 'Liv Tyler',
       },
-    
     ],
     coverUrl:
       '/movies_pictures/the_lord_of_the_rings_the_return_of_the_king.jpg',
@@ -635,7 +625,6 @@ export const baseMoviesSagaPage3: BaseMovie[] = [
       {
         name: 'Sean Bean',
       },
-    
     ],
     coverUrl: '/movies_pictures/seigneur-anneaux-1.jpg',
     releaseDate: '2002-08-06',
@@ -676,7 +665,6 @@ export const baseMoviesSagaPage3: BaseMovie[] = [
       {
         name: 'Bernard Hill',
       },
-    
     ],
     coverUrl: '/movies_pictures/seigneur-anneaux-2.jpg',
     releaseDate: '2003-08-26',
@@ -717,7 +705,6 @@ export const baseMoviesSagaPage3: BaseMovie[] = [
       {
         name: 'Liv Tyler',
       },
-    
     ],
     coverUrl: '/movies_pictures/seigneur-anneaux-3.jpg',
     releaseDate: '2004-12-14',
@@ -909,7 +896,6 @@ export const baseMoviesSagaPage3: BaseMovie[] = [
       {
         name: 'Benedict Cumberbatch',
       },
-    
     ],
     coverUrl: '/movies_pictures/the_hobbit_the_desolation_of_smaug.jpg',
     releaseDate: '2013-12-11',
@@ -950,7 +936,6 @@ export const baseMoviesSagaPage3: BaseMovie[] = [
       {
         name: 'Lee Pace',
       },
-    
     ],
     coverUrl: '/movies_pictures/the_hobbit_the_battle_of_the_five_armies.jpg',
     releaseDate: '2014-12-10',
@@ -991,7 +976,6 @@ export const baseMoviesSagaPage3: BaseMovie[] = [
       {
         name: 'Ernie Hudson',
       },
-    
     ],
     coverUrl: '/movies_pictures/ghostbusters.jpg',
     releaseDate: '1984-12-12',
@@ -1028,7 +1012,6 @@ export const baseMoviesSagaPage3: BaseMovie[] = [
       {
         name: 'Annie Potts',
       },
-    
     ],
     coverUrl: '/movies_pictures/ghostbusters_ii.jpg',
     releaseDate: '1989-12-13',
@@ -1102,7 +1085,6 @@ export const baseMoviesSagaPage3: BaseMovie[] = [
       {
         name: 'Liam Neeson',
       },
-    
     ],
     coverUrl:
       '/movies_pictures/the_chronicles_of_narnia_the_lion_the_witch_and_th.jpg',
@@ -1253,7 +1235,6 @@ export const baseMoviesSagaPage3: BaseMovie[] = [
       {
         name: 'Franka Potente',
       },
-    
     ],
     coverUrl: '/movies_pictures/the_conjuring_2.jpg',
     releaseDate: '2016-06-29',
@@ -1290,7 +1271,6 @@ export const baseMoviesSagaPage3: BaseMovie[] = [
       {
         name: 'Eugenie Bondurant',
       },
-    
     ],
     coverUrl: '/movies_pictures/conjuring_sous_lemprise_du_diable.jpg',
     releaseDate: '2021-06-09',
@@ -1543,7 +1523,6 @@ export const baseMoviesSagaPage3: BaseMovie[] = [
       {
         name: 'Mamoudou Athie',
       },
-    
     ],
     coverUrl: '/movies_pictures/jurassic_world_le_monde_dapres.jpg',
     releaseDate: '2022-06-08',
@@ -1613,7 +1592,6 @@ export const baseMoviesSagaPage3: BaseMovie[] = [
       {
         name: 'Simon Pegg',
       },
-    
     ],
     coverUrl: '/movies_pictures/star_trek.jpg',
     releaseDate: '2009-05-06',
@@ -1704,7 +1682,6 @@ export const baseMoviesSagaPage3: BaseMovie[] = [
       {
         name: 'Xing Yu',
       },
-    
     ],
     coverUrl: '/movies_pictures/ip_man.jpg',
     releaseDate: '2010-10-05',
@@ -1741,7 +1718,6 @@ export const baseMoviesSagaPage3: BaseMovie[] = [
       {
         name: 'Yuen Wah',
       },
-    
     ],
     coverUrl: '/movies_pictures/ip_man_2.jpg',
     releaseDate: '2011-08-09',
@@ -1778,7 +1754,6 @@ export const baseMoviesSagaPage3: BaseMovie[] = [
       {
         name: 'Kent Cheng',
       },
-    
     ],
     coverUrl: '/movies_pictures/ip_man_3.jpg',
     releaseDate: '2015-12-24',
@@ -1836,7 +1811,6 @@ export const baseMoviesSagaPage3: BaseMovie[] = [
       {
         name: 'Vivis Cortez',
       },
-    
     ],
     coverUrl: '/movies_pictures/paranormal_activity_2.jpg',
     releaseDate: '2010-10-20',
@@ -1873,7 +1847,6 @@ export const baseMoviesSagaPage3: BaseMovie[] = [
       {
         name: 'Johanna Braddy',
       },
-    
     ],
     coverUrl: '/movies_pictures/paranormal_activity_3.jpg',
     releaseDate: '2011-10-19',
@@ -1910,7 +1883,6 @@ export const baseMoviesSagaPage3: BaseMovie[] = [
       {
         name: 'Alexondra Lee',
       },
-    
     ],
     coverUrl: '/movies_pictures/paranormal_activity_4.jpg',
     releaseDate: '2012-10-31',
@@ -1947,7 +1919,6 @@ export const baseMoviesSagaPage3: BaseMovie[] = [
       {
         name: 'Carlos Pratts',
       },
-    
     ],
     coverUrl: '/movies_pictures/paranormal_activity_the_marked_ones.jpg',
     releaseDate: '2014-01-01',
@@ -1984,7 +1955,6 @@ export const baseMoviesSagaPage3: BaseMovie[] = [
       {
         name: 'Jessica Tyler Brown',
       },
-    
     ],
     coverUrl: '/movies_pictures/paranormal_activity_the_ghost_dimension.jpg',
     releaseDate: '2015-10-21',
@@ -2040,7 +2010,6 @@ export const baseMoviesSagaPage3: BaseMovie[] = [
       {
         name: 'Bruce Willis',
       },
-    
     ],
     coverUrl: '/movies_pictures/62593-the-expendables-2-0-150-0-225-crop.jpg',
     releaseDate: '2012-08-17',
@@ -2330,7 +2299,6 @@ export const baseMoviesSagaPage3: BaseMovie[] = [
       {
         name: 'Beverley Mitchell',
       },
-    
     ],
     coverUrl: '/movies_pictures/saw_ii.jpg',
     releaseDate: '2005-12-28',
@@ -2367,7 +2335,6 @@ export const baseMoviesSagaPage3: BaseMovie[] = [
       {
         name: 'J. Larose',
       },
-    
     ],
     coverUrl: '/movies_pictures/saw_iii.jpg',
     releaseDate: '2006-11-22',
@@ -2404,7 +2371,6 @@ export const baseMoviesSagaPage3: BaseMovie[] = [
       {
         name: 'Donnie Wahlberg',
       },
-    
     ],
     coverUrl: '/movies_pictures/saw_iv.jpg',
     releaseDate: '2007-11-21',
@@ -2441,7 +2407,6 @@ export const baseMoviesSagaPage3: BaseMovie[] = [
       {
         name: 'Mark Rolston',
       },
-    
     ],
     coverUrl: '/movies_pictures/saw_v.jpg',
     releaseDate: '2008-11-05',
@@ -2478,7 +2443,6 @@ export const baseMoviesSagaPage3: BaseMovie[] = [
       {
         name: 'Athena Karkanis',
       },
-    
     ],
     coverUrl: '/movies_pictures/saw_vi.jpg',
     releaseDate: '2009-11-04',
@@ -2515,7 +2479,6 @@ export const baseMoviesSagaPage3: BaseMovie[] = [
       {
         name: 'Gina Holden',
       },
-    
     ],
     coverUrl: '/movies_pictures/saw_3d.jpg',
     releaseDate: '2010-11-10',
@@ -2552,7 +2515,6 @@ export const baseMoviesSagaPage3: BaseMovie[] = [
       {
         name: 'Kristin Scott Thomas',
       },
-    
     ],
     coverUrl: '/movies_pictures/mission_impossible.jpg',
     releaseDate: '1996-10-23',
@@ -2589,7 +2551,6 @@ export const baseMoviesSagaPage3: BaseMovie[] = [
       {
         name: 'Rade Serbedzija',
       },
-    
     ],
     coverUrl: '/movies_pictures/mission_impossible_ii.jpg',
     releaseDate: '2000-07-26',
@@ -2626,7 +2587,6 @@ export const baseMoviesSagaPage3: BaseMovie[] = [
       {
         name: 'Maggie Q',
       },
-    
     ],
     coverUrl: '/movies_pictures/mission_impossible_iii.jpg',
     releaseDate: '2006-05-03',
@@ -2663,7 +2623,6 @@ export const baseMoviesSagaPage3: BaseMovie[] = [
       {
         name: 'Lea Seydoux',
       },
-    
     ],
     coverUrl: '/movies_pictures/mission_impossible_ghost_protocol.jpg',
     releaseDate: '2011-12-14',
@@ -2700,7 +2659,6 @@ export const baseMoviesSagaPage3: BaseMovie[] = [
       {
         name: 'Alec Baldwin',
       },
-    
     ],
     coverUrl: '/movies_pictures/mission_impossible_rogue_nation.jpg',
     releaseDate: '2015-08-12',
@@ -2737,7 +2695,6 @@ export const baseMoviesSagaPage3: BaseMovie[] = [
       {
         name: 'Angela Bassett',
       },
-    
     ],
     coverUrl: '/movies_pictures/mission_impossible_fallout.jpg',
     releaseDate: '2018-08-01',
@@ -2874,8 +2831,7 @@ export const baseMoviesSagaPage3: BaseMovie[] = [
         name: 'Andy Serkis',
       },
     ],
-    coverUrl:
-      '/movies_pictures/52d7845d25b9.jpg',
+    coverUrl: '/movies_pictures/52d7845d25b9.jpg',
     releaseDate: '2011-08-10',
     length: 105,
     genre: ['Science Fiction'],
@@ -2910,10 +2866,8 @@ export const baseMoviesSagaPage3: BaseMovie[] = [
       {
         name: 'Kirk Acevedo',
       },
-    
     ],
-    coverUrl:
-      '/movies_pictures/e0ce2170326e.jpg',
+    coverUrl: '/movies_pictures/e0ce2170326e.jpg',
     releaseDate: '2014-07-30',
     length: 131,
     genre: ['Science Fiction'],
@@ -2948,10 +2902,8 @@ export const baseMoviesSagaPage3: BaseMovie[] = [
       {
         name: 'Gabriel Chavarria',
       },
-    
     ],
-    coverUrl:
-      '/movies_pictures/84c5e2a3ad35.jpg',
+    coverUrl: '/movies_pictures/84c5e2a3ad35.jpg',
     releaseDate: '2017-08-02',
     length: 140,
     genre: ['Science Fiction'],
@@ -2981,8 +2933,7 @@ export const baseMoviesSagaPage3: BaseMovie[] = [
         name: 'William H. Macy',
       },
     ],
-    coverUrl:
-      '/movies_pictures/ae81cf7ce689.jpg',
+    coverUrl: '/movies_pictures/ae81cf7ce689.jpg',
     releaseDate: '2024-01-01',
     length: 120,
     genre: ['Science Fiction'],
@@ -3532,5 +3483,100 @@ export const baseMoviesSagaPage3: BaseMovie[] = [
     },
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 20,
+  },
+  {
+    title: 'Kingsman : Services Secrets',
+    director: 'Matthew Vaughn',
+    actors: [
+      {
+        name: 'Colin Firth',
+      },
+      {
+        name: 'Taron Egerton',
+      },
+      {
+        name: 'Michael Caine',
+      },
+      {
+        name: 'Samuel L. Jackson',
+      },
+      {
+        name: 'Sofia Boutella',
+      },
+      {
+        name: 'Jack Davenport',
+      },
+      {
+        name: 'Mark Strong',
+      },
+    ],
+    coverUrl: '/movies_pictures/1b4ad211686c.jpg',
+    releaseDate: '2015-02-13',
+    length: 129,
+    genre: ['Action'],
+    saga: 'Kingsman',
+    description: '',
+    fromEntity: null,
+    countryOrigin: ['Royaume-Uni'],
+    selectDisplayOrder: 30,
+  },
+
+  {
+    title: "Kingsman : Le Cercle d'or",
+    director: 'Matthew Vaughn',
+    actors: [
+      { name: 'Taron Egerton' },
+      { name: 'Mark Strong' },
+      { name: 'Halle Berry' },
+      { name: 'Colin Firth' },
+      { name: 'Julianne Moore' },
+      { name: 'Channing Tatum' },
+      { name: 'Pedro Pascal' },
+    ],
+    coverUrl: '/movies_pictures/d6537375def3.jpg',
+    releaseDate: '2017-09-22',
+    length: 141,
+    genre: ['Action'],
+    saga: 'Kingsman',
+    description: '',
+    fromEntity: null,
+    countryOrigin: ['États-Unis'],
+    selectDisplayOrder: 0,
+  },
+  {
+    title: "The King's Man : Première mission",
+    director: 'Matthew Vaughn',
+    actors: [
+      {
+        name: 'Daniel Brühl',
+      },
+      {
+        name: 'Rhys Ifans',
+      },
+      {
+        name: 'Matthew Goode',
+      },
+      {
+        name: 'Aaron Taylor-Johnson',
+      },
+      {
+        name: 'Gemma Arterton',
+      },
+      {
+        name: 'Tom Hollander',
+      },
+      {
+        name: 'Djimon Hounsou',
+      },
+    ],
+    coverUrl: '/movies_pictures/0ff23b6e03b8.jpg',
+    releaseDate: '2021-12-22',
+    length: 131,
+    genre: ['Action'],
+    saga: 'Kingsman',
+    description: '',
+    fromEntity: null,
+    countryOrigin: ['États-Unis'],
+    selectDisplayOrder: 0,
   },
 ];

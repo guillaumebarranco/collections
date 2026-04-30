@@ -3604,7 +3604,7 @@ export const bastienMovies: UserMovies = [
     inList: [],
   },
   {
-    title: 'Sonic the Hedgehog',
+    title: 'Sonic, le film',
     director: 'Jeff Fowler',
     rating: 4,
     timesWatched: 1,

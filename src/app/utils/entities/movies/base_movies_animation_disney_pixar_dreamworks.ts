@@ -1,6 +1,6 @@
 import { BaseMovie } from '../../../models/movie-model';
 
-export const baseMoviesAnimatedDisneyPixarDreamworks: BaseMovie[] = [
+export const baseMoviesAnimationDisneyPixarDreamworks: BaseMovie[] = [
   {
     title: "Les Aventures de Winnie L'Ourson",
     director: 'John Lounsbery, Wolfgang Reitherman',
@@ -1900,8 +1900,7 @@ export const baseMoviesAnimatedDisneyPixarDreamworks: BaseMovie[] = [
       { name: 'Garry Shandling' },
       { name: 'Steve Carell' },
     ],
-    coverUrl:
-      '/movies_pictures/79a5a4a00f6a.jpg',
+    coverUrl: '/movies_pictures/79a5a4a00f6a.jpg',
     releaseDate: '2006-05-19',
     length: 83,
     genre: ['Animation', 'Comédie'],

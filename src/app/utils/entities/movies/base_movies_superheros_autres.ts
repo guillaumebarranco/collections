@@ -1,6 +1,6 @@
 import { BaseMovie } from '../../../models/movie-model';
 
-export const baseMoviesOtherSuperheroes: BaseMovie[] = [
+export const baseMoviesSuperherosAutres: BaseMovie[] = [
   {
     title: 'Deadpool',
     director: 'Tim Miller',
@@ -291,7 +291,6 @@ export const baseMoviesOtherSuperheroes: BaseMovie[] = [
       {
         name: 'Nicholas Hoult',
       },
-    
     ],
     coverUrl: '/movies_pictures/16074-x-men-first-class-0-150-0-225-crop.jpg',
     releaseDate: '2011-06-03',
@@ -458,7 +457,6 @@ export const baseMoviesOtherSuperheroes: BaseMovie[] = [
       {
         name: 'Alanna Ubach',
       },
-    
     ],
     coverUrl: '/movies_pictures/223a62b4e2c3.jpg',
     releaseDate: '2024-10-23',
@@ -496,8 +494,7 @@ export const baseMoviesOtherSuperheroes: BaseMovie[] = [
         name: 'J. K. Simmons',
       },
     ],
-    coverUrl:
-      '/movies_pictures/2799f1d3b997.jpg',
+    coverUrl: '/movies_pictures/2799f1d3b997.jpg',
     releaseDate: '2002-05-03',
     length: 121,
     genre: ['Action'],
@@ -537,8 +534,7 @@ export const baseMoviesOtherSuperheroes: BaseMovie[] = [
         name: 'J. K. Simmons',
       },
     ],
-    coverUrl:
-      '/movies_pictures/6387c5ff1cac.jpg',
+    coverUrl: '/movies_pictures/6387c5ff1cac.jpg',
     releaseDate: '2004-06-30',
     length: 127,
     genre: ['Action'],
@@ -578,8 +574,7 @@ export const baseMoviesOtherSuperheroes: BaseMovie[] = [
         name: 'Tobey Maguire',
       },
     ],
-    coverUrl:
-      '/movies_pictures/d8a2157075a9.jpg',
+    coverUrl: '/movies_pictures/d8a2157075a9.jpg',
     releaseDate: '2007-05-04',
     length: 139,
     genre: ['Action'],
@@ -1157,7 +1152,6 @@ export const baseMoviesOtherSuperheroes: BaseMovie[] = [
       {
         name: 'Antonio Banderas',
       },
-    
     ],
     coverUrl: '/movies_pictures/21f12b26fab1.jpg',
     releaseDate: '2020-08-26',

@@ -2996,7 +2996,7 @@ export const ronanCinemaMovies: UserMovies = [
     inList: [],
   },
   {
-    title: 'Sonic the Hedgehog',
+    title: 'Sonic, le film',
     director: 'Jeff Fowler',
     rating: 3,
     timesWatched: 1,

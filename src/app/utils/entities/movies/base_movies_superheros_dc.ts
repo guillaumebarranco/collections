@@ -1,6 +1,6 @@
 import { BaseMovie } from '../../../models/movie-model';
 
-export const baseMoviesDc: BaseMovie[] = [
+export const baseMoviesSuperHerosDc: BaseMovie[] = [
   {
     title: 'Batman : Le Film',
     director: 'Leslie H. Martinson',
@@ -340,8 +340,7 @@ export const baseMoviesDc: BaseMovie[] = [
         name: 'Peter Sarsgaard',
       },
     ],
-    coverUrl:
-      '/movies_pictures/fcf6e73c6ccb.jpg',
+    coverUrl: '/movies_pictures/fcf6e73c6ccb.jpg',
     releaseDate: '2022-03-04',
     length: 176,
     genre: ['Action'],

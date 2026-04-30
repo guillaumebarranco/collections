@@ -6344,7 +6344,7 @@ export const lucileMovies: UserMovie[] = [
   },
 
   {
-    title: 'Sonic the Hedgehog',
+    title: 'Sonic, le film',
     director: 'Jeff Fowler',
     rating: 0,
     timesWatched: 1,
