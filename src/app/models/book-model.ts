@@ -58,7 +58,7 @@ export function filterToBookGenres(genres: readonly string[]): BookGenre[] {
 
 export interface BaseBook extends MandatoryBookData {
   coverUrl: string;
-  pages?: number;
+  pages: number;
   genre: BookGenre[];
   saga: string;
   sagaOrder: number;
