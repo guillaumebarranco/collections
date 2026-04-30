@@ -44,6 +44,7 @@ export const getEmptyBook = (book: BaseBook): Book => ({
   ratingComment: '',
   countryOrigin: book.countryOrigin ?? '',
   selectDisplayOrder: book.selectDisplayOrder ?? 0,
+  pages: book.pages,
 });
 
 export const getEmptyComic = (comic: BaseComic): Comic => ({
