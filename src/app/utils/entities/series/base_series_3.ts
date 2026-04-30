@@ -2227,7 +2227,7 @@ export const baseSeries3: BaseSerie[] = [
       'Sarah et John traquent Skynet ; ignore les événements de Terminator 3. Titre VO : Terminator: The Sarah Connor Chronicles.',
     fromEntity: {
       entityType: 'movie',
-      title: 'Terminator 2: Judgment Day',
+      title: 'Terminator 2 : Le Jugement dernier',
       secondEntityKey: 'James Cameron',
     },
     saga: 'Terminator',

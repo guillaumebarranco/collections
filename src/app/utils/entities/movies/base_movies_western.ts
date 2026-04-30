@@ -1,7 +1,7 @@
 import { BaseMovie } from '../../../models/movie-model';
 
 export const baseMoviesWestern: BaseMovie[] = [
-{
+  {
     title: 'True Grit',
     director: 'Joel Coen, Ethan Coen',
     actors: [
@@ -38,7 +38,7 @@ export const baseMoviesWestern: BaseMovie[] = [
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
   },
-{
+  {
     title: 'Mort ou vif',
     director: 'Sam Raimi',
     actors: [
@@ -74,7 +74,7 @@ export const baseMoviesWestern: BaseMovie[] = [
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
   },
-{
+  {
     title: '3 h 10 pour Yuma',
     director: 'James Mangold',
     actors: [
@@ -110,7 +110,7 @@ export const baseMoviesWestern: BaseMovie[] = [
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
   },
-{
+  {
     title: 'Hostiles',
     director: 'Scott Cooper',
     actors: [
@@ -146,7 +146,7 @@ export const baseMoviesWestern: BaseMovie[] = [
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
   },
-{
+  {
     title: 'Impitoyable',
     director: 'Clint Eastwood',
     actors: [
@@ -182,7 +182,7 @@ export const baseMoviesWestern: BaseMovie[] = [
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
   },
-{
+  {
     title: 'Le Bon, la brute et le truand',
     director: 'Sergio Leone',
     actors: [
@@ -218,7 +218,7 @@ export const baseMoviesWestern: BaseMovie[] = [
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
   },
-{
+  {
     title: 'Danse avec les loups',
     director: 'Kevin Costner',
     actors: [
@@ -254,7 +254,7 @@ export const baseMoviesWestern: BaseMovie[] = [
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
   },
-{
+  {
     title: 'Et pour quelques dollars de plus',
     director: 'Sergio Leone',
     actors: [
@@ -290,7 +290,7 @@ export const baseMoviesWestern: BaseMovie[] = [
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
   },
-{
+  {
     title: 'Maverick',
     director: 'Richard Donner',
     actors: [
@@ -320,7 +320,7 @@ export const baseMoviesWestern: BaseMovie[] = [
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
   },
-{
+  {
     title: 'Jane Got a Gun',
     director: "Gavin O'Connor",
     actors: [
@@ -356,7 +356,7 @@ export const baseMoviesWestern: BaseMovie[] = [
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
   },
-{
+  {
     title: 'Cinq nuits chez Freddy 2',
     director: 'Emma Tammi',
     actors: [
@@ -381,7 +381,6 @@ export const baseMoviesWestern: BaseMovie[] = [
       {
         name: 'Woody Strode',
       },
-    
     ],
     coverUrl: '/movies_pictures/once_upon_a_time_in_the_west.jpg',
     releaseDate: '1969-08-27',
@@ -392,5 +391,5 @@ export const baseMoviesWestern: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 30,
-  }
+  },
 ];

@@ -835,7 +835,7 @@ export const hikenMovies: UserMovie[] = [
   },
 
   {
-    title: "The Hitman's Bodyguard",
+    title: 'Hitman & Bodyguard',
     director: 'Patrick Hughes',
     rating: 0,
     timesWatched: 1,
@@ -6684,7 +6684,7 @@ export const hikenMovies: UserMovie[] = [
   },
 
   {
-    title: 'The Terminator',
+    title: 'Terminator',
     director: 'James Cameron',
     rating: 0,
     timesWatched: 1,
@@ -6701,7 +6701,7 @@ export const hikenMovies: UserMovie[] = [
   },
 
   {
-    title: 'Terminator 2: Judgment Day',
+    title: 'Terminator 2 : Le Jugement dernier',
     director: 'James Cameron',
     rating: 0,
     timesWatched: 1,

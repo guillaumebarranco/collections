@@ -50,7 +50,7 @@ export const guillaumeMoviesPage3: UserMovies = [
     inList: [],
   },
   {
-    title: "The Hitman's Bodyguard",
+    title: 'Hitman & Bodyguard',
     director: 'Patrick Hughes',
     rating: 3,
     timesWatched: 1,

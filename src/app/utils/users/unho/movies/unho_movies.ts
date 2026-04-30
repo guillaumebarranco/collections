@@ -5954,7 +5954,7 @@ export const unhoMovies: UserMovie[] = [
   },
 
   {
-    title: 'The Terminator',
+    title: 'Terminator',
     director: 'James Cameron',
     rating: 0,
     timesWatched: 1,

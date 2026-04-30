@@ -149,7 +149,7 @@ export const baseMoviesAction: BaseMovie[] = [
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
   },
-{
+  {
     title: 'Bullet Train',
     director: 'David Leitch',
     actors: [
@@ -176,7 +176,7 @@ export const baseMoviesAction: BaseMovie[] = [
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 30,
   },
-{
+  {
     title: 'Top Gun',
     director: 'Tony Scott',
     actors: [
@@ -212,7 +212,7 @@ export const baseMoviesAction: BaseMovie[] = [
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 30,
   },
-{
+  {
     title: 'Top Gun : Maverick',
     director: 'Joseph Kosinski',
     actors: [
@@ -248,7 +248,7 @@ export const baseMoviesAction: BaseMovie[] = [
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 30,
   },
-{
+  {
     title: 'Red Notice',
     director: 'Rawson Marshall Thurber',
     actors: [
@@ -284,7 +284,7 @@ export const baseMoviesAction: BaseMovie[] = [
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 30,
   },
-{
+  {
     title: 'Jolt',
     director: 'Tanya Wexler',
     actors: [
@@ -320,7 +320,7 @@ export const baseMoviesAction: BaseMovie[] = [
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
   },
-{
+  {
     title: 'Wasabi',
     director: 'Gérard Krawczyk',
     actors: [
@@ -356,7 +356,7 @@ export const baseMoviesAction: BaseMovie[] = [
     countryOrigin: ['France'],
     selectDisplayOrder: 0,
   },
-{
+  {
     title: 'Training Day',
     director: 'Antoine Fuqua',
     actors: [
@@ -392,7 +392,7 @@ export const baseMoviesAction: BaseMovie[] = [
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 30,
   },
-{
+  {
     title: 'Replicant',
     director: 'Ringo Lam',
     actors: [
@@ -428,7 +428,7 @@ export const baseMoviesAction: BaseMovie[] = [
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
   },
-{
+  {
     title: 'Gladiator',
     director: 'Ridley Scott',
     actors: [
@@ -450,7 +450,7 @@ export const baseMoviesAction: BaseMovie[] = [
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 30,
   },
-{
+  {
     title: 'Gladiator II',
     director: 'Ridley Scott',
     actors: [
@@ -480,7 +480,7 @@ export const baseMoviesAction: BaseMovie[] = [
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 30,
   },
-{
+  {
     title: 'Rebel Ridge',
     director: 'Jeremy Saulnier',
     actors: [
@@ -516,7 +516,7 @@ export const baseMoviesAction: BaseMovie[] = [
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
   },
-{
+  {
     title: 'Man on Fire',
     director: 'Tony Scott',
     actors: [
@@ -552,7 +552,7 @@ export const baseMoviesAction: BaseMovie[] = [
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
   },
-{
+  {
     title: 'Ong Bak',
     director: 'Prachya Pinkaew',
     actors: [
@@ -579,7 +579,7 @@ export const baseMoviesAction: BaseMovie[] = [
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 30,
   },
-{
+  {
     title: 'Ava',
     director: 'Tate Taylor',
     actors: [
@@ -615,7 +615,7 @@ export const baseMoviesAction: BaseMovie[] = [
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
   },
-{
+  {
     title: 'Guns Akimbo',
     director: 'Jason Lei Howden',
     actors: [
@@ -651,7 +651,7 @@ export const baseMoviesAction: BaseMovie[] = [
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
   },
-{
+  {
     title: 'Alita: Battle Angel',
     director: 'Robert Rodriguez',
     actors: [
@@ -691,7 +691,7 @@ export const baseMoviesAction: BaseMovie[] = [
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 30,
   },
-{
+  {
     title: 'Evasion',
     director: 'Mikael Håfström',
     actors: [
@@ -727,7 +727,7 @@ export const baseMoviesAction: BaseMovie[] = [
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
   },
-{
+  {
     title: 'Evasion 2: Hades',
     director: 'Steven C. Miller',
     actors: [
@@ -764,7 +764,7 @@ export const baseMoviesAction: BaseMovie[] = [
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
   },
-{
+  {
     title: 'Evasion 3',
     director: 'John Herzfeld',
     actors: [
@@ -798,7 +798,7 @@ export const baseMoviesAction: BaseMovie[] = [
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
   },
-{
+  {
     title: 'Babylon A.D',
     director: 'Mathieu Kassovitz',
     actors: [
@@ -835,7 +835,7 @@ export const baseMoviesAction: BaseMovie[] = [
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
   },
-{
+  {
     title: 'Les Fils du vent',
     director: 'Julien Seri',
     actors: [
@@ -871,7 +871,7 @@ export const baseMoviesAction: BaseMovie[] = [
     countryOrigin: ['France'],
     selectDisplayOrder: 30,
   },
-{
+  {
     title: 'Il faut sauver le soldat Ryan',
     director: 'Steven Spielberg',
     actors: [
@@ -907,7 +907,7 @@ export const baseMoviesAction: BaseMovie[] = [
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 30,
   },
-{
+  {
     title: 'Rollerball',
     director: 'John McTiernan',
     actors: [
@@ -943,7 +943,7 @@ export const baseMoviesAction: BaseMovie[] = [
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
   },
-{
+  {
     title: 'Dommage Collateral',
     director: 'Andrew Davis',
     actors: [
@@ -979,7 +979,7 @@ export const baseMoviesAction: BaseMovie[] = [
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
   },
-{
+  {
     title: 'Armageddon',
     director: 'Michael Bay',
     actors: [
@@ -1015,7 +1015,7 @@ export const baseMoviesAction: BaseMovie[] = [
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 30,
   },
-{
+  {
     title: 'Godzilla',
     director: 'Roland Emmerich',
     actors: [
@@ -1051,7 +1051,7 @@ export const baseMoviesAction: BaseMovie[] = [
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 30,
   },
-{
+  {
     title: 'Godzilla',
     director: 'Gareth Edwards',
     actors: [
@@ -1087,7 +1087,7 @@ export const baseMoviesAction: BaseMovie[] = [
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 5,
   },
-{
+  {
     title: 'Godzilla Minus One',
     director: 'Takashi Yamazaki',
     actors: [
@@ -1123,7 +1123,7 @@ export const baseMoviesAction: BaseMovie[] = [
     countryOrigin: ['Japon'],
     selectDisplayOrder: 5,
   },
-{
+  {
     title: '300',
     director: 'Zack Snyder',
     actors: [
@@ -1159,7 +1159,7 @@ export const baseMoviesAction: BaseMovie[] = [
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 30,
   },
-{
+  {
     title: 'V pour Vendetta',
     director: 'James McTeigue',
     actors: [
@@ -1199,7 +1199,7 @@ export const baseMoviesAction: BaseMovie[] = [
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 30,
   },
-{
+  {
     title: "L'honneur du dragon",
     director: 'Prachya Pinkaew',
     actors: [
@@ -1235,7 +1235,7 @@ export const baseMoviesAction: BaseMovie[] = [
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
   },
-{
+  {
     title: 'Mr. & Mrs. Smith',
     director: 'Doug Liman',
     actors: [
@@ -1271,7 +1271,7 @@ export const baseMoviesAction: BaseMovie[] = [
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 30,
   },
-{
+  {
     title: 'Leon',
     director: 'Luc Besson',
     actors: [
@@ -1307,7 +1307,7 @@ export const baseMoviesAction: BaseMovie[] = [
     countryOrigin: ['France'],
     selectDisplayOrder: 30,
   },
-{
+  {
     title: 'True Lies',
     director: 'James Cameron',
     actors: [
@@ -1343,7 +1343,7 @@ export const baseMoviesAction: BaseMovie[] = [
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 30,
   },
-{
+  {
     title: 'Speed',
     director: 'Jan de Bont',
     actors: [
@@ -1379,7 +1379,7 @@ export const baseMoviesAction: BaseMovie[] = [
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 30,
   },
-{
+  {
     title: 'Need for Speed',
     director: 'Scott Waugh',
     actors: [
@@ -1419,70 +1419,8 @@ export const baseMoviesAction: BaseMovie[] = [
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
   },
-{
-    title: "The Hitman's Bodyguard",
-    director: 'Patrick Hughes',
-    actors: [
-      {
-        name: 'Ryan Reynolds',
-      },
-      {
-        name: 'Samuel L. Jackson',
-      },
-      {
-        name: 'Gary Oldman',
-      },
-      {
-        name: 'Élodie Yung',
-      },
-      {
-        name: 'Salma Hayek',
-      },
-      {
-        name: 'Joaquim de Almeida',
-      },
-      {
-        name: 'Kirsty Mitchell',
-      },
-    ],
-    coverUrl: '/movies_pictures/hitman_bodyguard.jpg',
-    releaseDate: '2017-08-18',
-    length: 118,
-    genre: ['Action'],
-    saga: '',
-    description: '',
-    fromEntity: null,
-    countryOrigin: ['États-Unis'],
-    selectDisplayOrder: 0,
-  },
-{
-    title: 'Hitman & Bodyguard 2',
-    director: 'Patrick Hughes',
-    actors: [
-      {
-        name: 'Ryan Reynolds',
-      },
-      {
-        name: 'Samuel L. Jackson',
-      },
-      {
-        name: 'Salma Hayek',
-      },
-      {
-        name: 'Morgan Freeman',
-      },
-    ],
-    coverUrl: '/movies_pictures/hitman_bodyguard_2.jpg',
-    releaseDate: '2021-06-30',
-    length: 118,
-    genre: ['Action'],
-    saga: '',
-    description: '',
-    fromEntity: null,
-    countryOrigin: ['États-Unis'],
-    selectDisplayOrder: 0,
-  },
-{
+
+  {
     title: 'Atomic Blonde',
     director: 'David Leitch',
     actors: [
@@ -1518,7 +1456,7 @@ export const baseMoviesAction: BaseMovie[] = [
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
   },
-{
+  {
     title: 'Baby Driver',
     director: 'Edgar Wright',
     actors: [
@@ -1554,7 +1492,7 @@ export const baseMoviesAction: BaseMovie[] = [
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 30,
   },
-{
+  {
     title: 'Yoroï',
     director: 'David Tomaszewski',
     actors: [{ name: 'Orelsan' }],
@@ -1568,7 +1506,7 @@ export const baseMoviesAction: BaseMovie[] = [
     countryOrigin: ['France'],
     selectDisplayOrder: 0,
   },
-{
+  {
     title: 'Lucy',
     director: 'Luc Besson',
     actors: [
@@ -1604,7 +1542,7 @@ export const baseMoviesAction: BaseMovie[] = [
     countryOrigin: ['France'],
     selectDisplayOrder: 30,
   },
-{
+  {
     title: 'La ligue des gentlemen extraordinaires',
     director: 'Stephen Norrington',
     actors: [
@@ -1640,7 +1578,7 @@ export const baseMoviesAction: BaseMovie[] = [
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
   },
-{
+  {
     title: 'Commando',
     director: 'Mark L. Lester',
     actors: [
@@ -1676,7 +1614,7 @@ export const baseMoviesAction: BaseMovie[] = [
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
   },
-{
+  {
     title: 'Le flic de Beverly Hills',
     director: 'Martin Brest',
     actors: [
@@ -1712,7 +1650,7 @@ export const baseMoviesAction: BaseMovie[] = [
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 30,
   },
-{
+  {
     title: 'Ong Bak 2',
     director: 'Tony Jaa',
     actors: [
@@ -1748,7 +1686,7 @@ export const baseMoviesAction: BaseMovie[] = [
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
   },
-{
+  {
     title: 'Course à la mort',
     director: 'Paul W.S. Anderson',
     actors: [
@@ -1784,7 +1722,7 @@ export const baseMoviesAction: BaseMovie[] = [
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
   },
-{
+  {
     title: 'Wanted : Choisis ton Destin',
     director: 'Timur Bekmambetov',
     actors: [
@@ -1806,7 +1744,7 @@ export const baseMoviesAction: BaseMovie[] = [
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
   },
-{
+  {
     title: 'Speed Racer',
     director: 'Lana Wachowski, Lilly Wachowski',
     actors: [
@@ -1842,7 +1780,7 @@ export const baseMoviesAction: BaseMovie[] = [
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
   },
-{
+  {
     title: 'Never Back Down',
     director: 'Jeff Wadlow',
     actors: [
@@ -1866,7 +1804,7 @@ export const baseMoviesAction: BaseMovie[] = [
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
   },
-{
+  {
     title: "L'effaceur",
     director: 'Chuck Russell',
     actors: [
@@ -1902,7 +1840,7 @@ export const baseMoviesAction: BaseMovie[] = [
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
   },
-{
+  {
     title: 'La quête',
     director: 'Jean-Claude Van Damme',
     actors: [
@@ -1938,7 +1876,7 @@ export const baseMoviesAction: BaseMovie[] = [
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
   },
-{
+  {
     title: 'Waterworld',
     director: 'Kevin Reynolds',
     actors: [
@@ -1974,7 +1912,7 @@ export const baseMoviesAction: BaseMovie[] = [
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 30,
   },
-{
+  {
     title: 'Piège à grande vitesse',
     director: 'Geoff Murphy',
     actors: [
@@ -2011,7 +1949,7 @@ export const baseMoviesAction: BaseMovie[] = [
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
   },
-{
+  {
     title: 'Judge Dredd',
     director: 'Danny Cannon',
     actors: [
@@ -2047,7 +1985,7 @@ export const baseMoviesAction: BaseMovie[] = [
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
   },
-{
+  {
     title: 'Street Fighter',
     director: 'Steven E. de Souza',
     actors: [
@@ -2087,7 +2025,7 @@ export const baseMoviesAction: BaseMovie[] = [
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
   },
-{
+  {
     title: 'Street Fighter : La Légende de Chun-Li',
     director: 'Andrzej Bartkowiak',
     actors: [
@@ -2127,7 +2065,7 @@ export const baseMoviesAction: BaseMovie[] = [
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
   },
-{
+  {
     title: 'Tekken',
     director: 'Dwight H. Little',
     actors: [
@@ -2167,7 +2105,7 @@ export const baseMoviesAction: BaseMovie[] = [
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
   },
-{
+  {
     title: "Tekken 2: Kazuya's Revenge",
     director: 'Wych Kaosayananda',
     actors: [
@@ -2207,7 +2145,7 @@ export const baseMoviesAction: BaseMovie[] = [
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
   },
-{
+  {
     title: 'Sucker Punch',
     director: 'Zack Snyder',
     actors: [
@@ -2243,7 +2181,7 @@ export const baseMoviesAction: BaseMovie[] = [
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
   },
-{
+  {
     title: 'The Karate Kid',
     director: 'Harald Zwart',
     actors: [
@@ -2279,7 +2217,7 @@ export const baseMoviesAction: BaseMovie[] = [
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
   },
-{
+  {
     title: 'Le Choc des Titans',
     director: 'Louis Leterrier',
     actors: [
@@ -2315,7 +2253,7 @@ export const baseMoviesAction: BaseMovie[] = [
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
   },
-{
+  {
     title: 'Mega Shark vs. Giant Octopus',
     director: 'Jack Perez',
     actors: [
@@ -2337,7 +2275,7 @@ export const baseMoviesAction: BaseMovie[] = [
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
   },
-{
+  {
     title: '2012',
     director: 'Roland Emmerich',
     actors: [
@@ -2373,7 +2311,7 @@ export const baseMoviesAction: BaseMovie[] = [
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 30,
   },
-{
+  {
     title: 'Robocop',
     director: 'José Padilha',
     actors: [
@@ -2409,7 +2347,7 @@ export const baseMoviesAction: BaseMovie[] = [
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
   },
-{
+  {
     title: 'Gods of Egypt',
     director: 'Alex Proyas',
     actors: [
@@ -2431,7 +2369,7 @@ export const baseMoviesAction: BaseMovie[] = [
     countryOrigin: ['Australie'],
     selectDisplayOrder: 0,
   },
-{
+  {
     title: 'Pacific Rim',
     director: 'Guillermo del Toro',
     actors: [
@@ -2467,7 +2405,7 @@ export const baseMoviesAction: BaseMovie[] = [
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 30,
   },
-{
+  {
     title: 'World War Z',
     director: 'Marc Forster',
     actors: [
@@ -2503,7 +2441,7 @@ export const baseMoviesAction: BaseMovie[] = [
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
   },
-{
+  {
     title: 'Dredd',
     director: 'Pete Travis',
     actors: [
@@ -2539,7 +2477,7 @@ export const baseMoviesAction: BaseMovie[] = [
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
   },
-{
+  {
     title: 'Target',
     director: 'McG',
     actors: [
@@ -2575,7 +2513,7 @@ export const baseMoviesAction: BaseMovie[] = [
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
   },
-{
+  {
     title: 'Real Steel',
     director: 'Shawn Levy',
     actors: [
@@ -2611,7 +2549,7 @@ export const baseMoviesAction: BaseMovie[] = [
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
   },
-{
+  {
     title: 'Never Back Down 2: The Beatdown',
     director: 'Michael Jai White',
     actors: [
@@ -2648,7 +2586,7 @@ export const baseMoviesAction: BaseMovie[] = [
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
   },
-{
+  {
     title: 'The Raid',
     director: 'Gareth Evans',
     actors: [
@@ -2675,7 +2613,7 @@ export const baseMoviesAction: BaseMovie[] = [
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
   },
-{
+  {
     title: 'Tango & Cash',
     director: 'Andrei Konchalovsky',
     actors: [
@@ -2711,7 +2649,7 @@ export const baseMoviesAction: BaseMovie[] = [
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
   },
-{
+  {
     title: 'Kickboxer',
     director: 'Mark DiSalle, David Worth',
     actors: [
@@ -2744,7 +2682,7 @@ export const baseMoviesAction: BaseMovie[] = [
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
   },
-{
+  {
     title: 'Bloodsport',
     director: 'Newt Arnold',
     actors: [
@@ -2780,7 +2718,7 @@ export const baseMoviesAction: BaseMovie[] = [
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
   },
-{
+  {
     title: 'RoboCop',
     director: 'Paul Verhoeven',
     actors: [
@@ -2816,7 +2754,7 @@ export const baseMoviesAction: BaseMovie[] = [
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
   },
-{
+  {
     title: 'RoboCop 2',
     director: 'Irvin Kershner',
     actors: [
@@ -2852,7 +2790,7 @@ export const baseMoviesAction: BaseMovie[] = [
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
   },
-{
+  {
     title: 'RoboCop 3',
     director: 'Fred Dekker',
     actors: [
@@ -2888,7 +2826,7 @@ export const baseMoviesAction: BaseMovie[] = [
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
   },
-{
+  {
     title: 'Inglourious Basterds',
     director: 'Quentin Tarantino',
     actors: [
@@ -2909,7 +2847,7 @@ export const baseMoviesAction: BaseMovie[] = [
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 30,
   },
-{
+  {
     title: 'Hypertension',
     director: 'Neveldine/Taylor',
     actors: [{ name: 'Jason Statham' }],
@@ -2923,7 +2861,7 @@ export const baseMoviesAction: BaseMovie[] = [
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
   },
-{
+  {
     title: 'Piège en haute mer',
     director: 'Andrew Davis',
     actors: [
@@ -2959,7 +2897,7 @@ export const baseMoviesAction: BaseMovie[] = [
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
   },
-{
+  {
     title: 'Le dernier samaritain',
     director: 'Tony Scott',
     actors: [
@@ -2981,7 +2919,7 @@ export const baseMoviesAction: BaseMovie[] = [
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
   },
-{
+  {
     title: 'Double Impact',
     director: 'Sheldon Lettich',
     actors: [
@@ -3017,7 +2955,7 @@ export const baseMoviesAction: BaseMovie[] = [
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
   },
-{
+  {
     title: 'Point Break',
     director: 'Kathryn Bigelow',
     actors: [
@@ -3053,7 +2991,7 @@ export const baseMoviesAction: BaseMovie[] = [
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 30,
   },
-{
+  {
     title: 'Nikita',
     director: 'Luc Besson',
     actors: [
@@ -3089,7 +3027,7 @@ export const baseMoviesAction: BaseMovie[] = [
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 30,
   },
-{
+  {
     title: 'Last Action Hero',
     director: 'John McTiernan',
     actors: [
@@ -3125,7 +3063,7 @@ export const baseMoviesAction: BaseMovie[] = [
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
   },
-{
+  {
     title: 'Cliffhanger',
     director: 'Renny Harlin',
     actors: [
@@ -3161,7 +3099,7 @@ export const baseMoviesAction: BaseMovie[] = [
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
   },
-{
+  {
     title: 'Demolition Man',
     director: 'Marco Brambilla',
     actors: [
@@ -3197,7 +3135,7 @@ export const baseMoviesAction: BaseMovie[] = [
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 30,
   },
-{
+  {
     title: 'Le fugitif',
     director: 'Andrew Davis',
     actors: [
@@ -3233,7 +3171,7 @@ export const baseMoviesAction: BaseMovie[] = [
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
   },
-{
+  {
     title: 'From Paris with Love',
     director: 'Pierre Morel',
     actors: [
@@ -3270,7 +3208,7 @@ export const baseMoviesAction: BaseMovie[] = [
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
   },
-{
+  {
     title: 'Fighting',
     director: 'Dito Montiel',
     actors: [
@@ -3307,7 +3245,7 @@ export const baseMoviesAction: BaseMovie[] = [
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
   },
-{
+  {
     title: 'Kill Bok-soon',
     director: 'Byun Sung-hyun',
     actors: [
@@ -3343,7 +3281,7 @@ export const baseMoviesAction: BaseMovie[] = [
     countryOrigin: ['Corée du Sud'],
     selectDisplayOrder: 0,
   },
-{
+  {
     title: 'Agent Stone',
     director: 'Zachary Wigon',
     actors: [
@@ -3379,7 +3317,7 @@ export const baseMoviesAction: BaseMovie[] = [
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
   },
-{
+  {
     title: 'Boss Level',
     director: 'Joe Carnahan',
     actors: [
@@ -3415,7 +3353,7 @@ export const baseMoviesAction: BaseMovie[] = [
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
   },
-{
+  {
     title: 'Novocaine',
     director: 'David Atkins',
     actors: [
@@ -3451,80 +3389,8 @@ export const baseMoviesAction: BaseMovie[] = [
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
   },
-{
-    title: 'Nobody',
-    director: 'Ilya Naishuller',
-    actors: [
-      {
-        name: 'Bob Odenkirk',
-      },
-      {
-        name: 'Connie Nielsen',
-      },
-      {
-        name: 'Christopher Lloyd',
-      },
-      {
-        name: 'RZA',
-      },
-      {
-        name: 'Alexeï Serebriakov',
-      },
-      {
-        name: 'Volodymyr Yamnenko',
-      },
-      {
-        name: 'Paisley Cadorath',
-      },
-    ],
-    coverUrl:
-      '/movies_pictures/MV5BNmNlZDY2YTAtZGNmZS00ZDRmLThhZWQtMWUwNWQwMzUwMTY3XkEyXkFqcGc@._V1_.jpg',
-    releaseDate: '2021-03-26',
-    length: 92,
-    genre: ['Action'],
-    saga: 'Nobody',
-    description: '',
-    fromEntity: null,
-    countryOrigin: ['États-Unis'],
-    selectDisplayOrder: 0,
-  },
-{
-    title: 'Nobody 2',
-    director: 'Timo Tjahjanto',
-    actors: [
-      {
-        name: 'Bob Odenkirk',
-      },
-      {
-        name: 'Connie Nielsen',
-      },
-      {
-        name: 'Sharon Stone',
-      },
-      {
-        name: 'Colin Hanks',
-      },
-      {
-        name: 'RZA',
-      },
-      {
-        name: 'Michael Ironside',
-      },
-      {
-        name: 'Colin Salmon',
-      },
-    ],
-    coverUrl: '/movies_pictures/img_20260202052946_11115.jpg',
-    releaseDate: '2025-08-15',
-    length: 119,
-    genre: ['Action'],
-    saga: 'Nobody',
-    description: '',
-    fromEntity: null,
-    countryOrigin: ['États-Unis'],
-    selectDisplayOrder: 0,
-  },
-{
+
+  {
     title: "Ennemi d'Etat",
     director: 'Tony Scott',
     actors: [
@@ -3560,7 +3426,7 @@ export const baseMoviesAction: BaseMovie[] = [
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
   },
-{
+  {
     title: 'Bright',
     director: 'David Ayer',
     actors: [
@@ -3596,7 +3462,7 @@ export const baseMoviesAction: BaseMovie[] = [
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
   },
-{
+  {
     title: 'Les Faucons de la nuit',
     director: 'Sylvester Stallone',
     actors: [
@@ -3632,7 +3498,7 @@ export const baseMoviesAction: BaseMovie[] = [
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
   },
-{
+  {
     title: 'Cobra',
     director: 'George P. Cosmatos',
     actors: [
@@ -3668,7 +3534,7 @@ export const baseMoviesAction: BaseMovie[] = [
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
   },
-{
+  {
     title: 'Haute sécurité',
     director: 'Marco Brambilla',
     actors: [
@@ -3704,7 +3570,7 @@ export const baseMoviesAction: BaseMovie[] = [
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
   },
-{
+  {
     title: "L'Expert",
     director: 'James Mangold',
     actors: [
@@ -3740,7 +3606,7 @@ export const baseMoviesAction: BaseMovie[] = [
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
   },
-{
+  {
     title: 'Assassins',
     director: 'Richard Donner',
     actors: [
@@ -3776,7 +3642,7 @@ export const baseMoviesAction: BaseMovie[] = [
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
   },
-{
+  {
     title: 'Daylight',
     director: 'Rob Cohen',
     actors: [
@@ -3813,7 +3679,7 @@ export const baseMoviesAction: BaseMovie[] = [
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
   },
-{
+  {
     title: 'Get Carter',
     director: 'Stephen Kay',
     actors: [
@@ -3849,7 +3715,7 @@ export const baseMoviesAction: BaseMovie[] = [
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
   },
-{
+  {
     title: 'Compte à rebours mortel',
     director: 'Sylvester Stallone',
     actors: [
@@ -3885,7 +3751,7 @@ export const baseMoviesAction: BaseMovie[] = [
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
   },
-{
+  {
     title: 'Les Maîtres du jeu',
     director: 'Sylvester Stallone',
     actors: [
@@ -3921,7 +3787,7 @@ export const baseMoviesAction: BaseMovie[] = [
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
   },
-{
+  {
     title: 'Mafia Love',
     director: 'Sylvester Stallone',
     actors: [
@@ -3957,7 +3823,7 @@ export const baseMoviesAction: BaseMovie[] = [
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
   },
-{
+  {
     title: 'Du Plomb dans la tête',
     director: 'Walter Hill',
     actors: [
@@ -3993,7 +3859,7 @@ export const baseMoviesAction: BaseMovie[] = [
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
   },
-{
+  {
     title: 'Le Contrat',
     director: 'William Friedkin',
     actors: [
@@ -4011,7 +3877,7 @@ export const baseMoviesAction: BaseMovie[] = [
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
   },
-{
+  {
     title: 'Double détente',
     director: 'John McTiernan',
     actors: [
@@ -4047,7 +3913,7 @@ export const baseMoviesAction: BaseMovie[] = [
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
   },
-{
+  {
     title: 'Le Dernier rempart',
     director: 'Rod Lurie',
     actors: [
@@ -4083,7 +3949,7 @@ export const baseMoviesAction: BaseMovie[] = [
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
   },
-{
+  {
     title: 'Sabotage',
     director: 'David Ayer',
     actors: [
@@ -4119,7 +3985,7 @@ export const baseMoviesAction: BaseMovie[] = [
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
   },
-{
+  {
     title: 'Breakout',
     director: 'Scott Waugh',
     actors: [
@@ -4156,7 +4022,7 @@ export const baseMoviesAction: BaseMovie[] = [
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
   },
-{
+  {
     title: 'Le Chacal',
     director: 'Michael Caton-Jones',
     actors: [
@@ -4192,7 +4058,7 @@ export const baseMoviesAction: BaseMovie[] = [
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
   },
-{
+  {
     title: 'Couvre-feu',
     director: 'Edward Zwick',
     actors: [
@@ -4228,7 +4094,7 @@ export const baseMoviesAction: BaseMovie[] = [
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
   },
-{
+  {
     title: 'Mission évasion',
     director: 'Antoine Fuqua',
     actors: [
@@ -4264,7 +4130,7 @@ export const baseMoviesAction: BaseMovie[] = [
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
   },
-{
+  {
     title: 'Les Larmes du soleil',
     director: 'Antoine Fuqua',
     actors: [
@@ -4300,7 +4166,7 @@ export const baseMoviesAction: BaseMovie[] = [
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
   },
-{
+  {
     title: 'Otage',
     director: 'Florent-Emilio Siri',
     actors: [
@@ -4336,7 +4202,7 @@ export const baseMoviesAction: BaseMovie[] = [
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
   },
-{
+  {
     title: '16 Blocs',
     director: 'Richard Donner',
     actors: [
@@ -4372,7 +4238,7 @@ export const baseMoviesAction: BaseMovie[] = [
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
   },
-{
+  {
     title: 'Top Cops',
     director: 'David Twohy',
     actors: [
@@ -4408,7 +4274,7 @@ export const baseMoviesAction: BaseMovie[] = [
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
   },
-{
+  {
     title: 'Sans compromis',
     director: 'Antoine Fuqua',
     actors: [
@@ -4444,7 +4310,7 @@ export const baseMoviesAction: BaseMovie[] = [
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
   },
-{
+  {
     title: 'Sans issue',
     director: 'Guy Ritchie',
     actors: [
@@ -4474,7 +4340,7 @@ export const baseMoviesAction: BaseMovie[] = [
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
   },
-{
+  {
     title: 'Green Zone',
     director: 'Paul Greengrass',
     actors: [
@@ -4510,7 +4376,7 @@ export const baseMoviesAction: BaseMovie[] = [
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
   },
-{
+  {
     title: 'La Grande Muraille',
     director: 'Zhang Yimou',
     actors: [
@@ -4546,7 +4412,7 @@ export const baseMoviesAction: BaseMovie[] = [
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
   },
-{
+  {
     title: 'Ennemis rapprochés',
     director: 'David O. Russell',
     actors: [
@@ -4582,7 +4448,7 @@ export const baseMoviesAction: BaseMovie[] = [
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
   },
-{
+  {
     title: "Spy game, jeu d'espions",
     director: 'Tony Scott',
     actors: [
@@ -4618,7 +4484,7 @@ export const baseMoviesAction: BaseMovie[] = [
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
   },
-{
+  {
     title: 'Le Secret de la cité perdue',
     director: 'Aaron Nee, Adam Nee',
     actors: [
@@ -4635,7 +4501,7 @@ export const baseMoviesAction: BaseMovie[] = [
         name: 'Brad Pitt',
       },
       {
-        name: "Oscar Nuñez",
+        name: 'Oscar Nuñez',
       },
       {
         name: "Da'Vine Joy Randolph",
@@ -4654,7 +4520,7 @@ export const baseMoviesAction: BaseMovie[] = [
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
   },
-{
+  {
     title: "USS Greyhound : La Bataille de l'Atlantique",
     director: 'Aaron Schneider',
     actors: [
@@ -4690,7 +4556,7 @@ export const baseMoviesAction: BaseMovie[] = [
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
   },
-{
+  {
     title: 'Né un 4 juillet',
     director: 'Oliver Stone',
     actors: [
@@ -4726,7 +4592,7 @@ export const baseMoviesAction: BaseMovie[] = [
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
   },
-{
+  {
     title: 'Jours de tonnerre',
     director: 'Tony Scott',
     actors: [
@@ -4762,7 +4628,7 @@ export const baseMoviesAction: BaseMovie[] = [
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
   },
-{
+  {
     title: 'Night and Day',
     director: 'James Mangold',
     actors: [
@@ -4798,7 +4664,7 @@ export const baseMoviesAction: BaseMovie[] = [
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
   },
-{
+  {
     title: 'Barry Seal: American Traffic',
     director: 'Doug Liman',
     actors: [
@@ -4834,7 +4700,7 @@ export const baseMoviesAction: BaseMovie[] = [
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
   },
-{
+  {
     title: 'La Momie',
     director: 'Alex Kurtzman',
     actors: [
@@ -4870,7 +4736,7 @@ export const baseMoviesAction: BaseMovie[] = [
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
   },
-{
+  {
     title: "L'Homme au masque de fer",
     director: 'Randall Wallace',
     actors: [
@@ -4906,7 +4772,7 @@ export const baseMoviesAction: BaseMovie[] = [
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
   },
-{
+  {
     title: 'Prince of Persia : Les Sables du temps',
     director: 'Mike Newell',
     actors: [
@@ -4942,7 +4808,7 @@ export const baseMoviesAction: BaseMovie[] = [
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
   },
-{
+  {
     title: 'End of Watch',
     director: 'David Ayer',
     actors: [
@@ -4979,7 +4845,7 @@ export const baseMoviesAction: BaseMovie[] = [
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
   },
-{
+  {
     title: 'The Covenant',
     director: 'Guy Ritchie',
     actors: [
@@ -5015,7 +4881,7 @@ export const baseMoviesAction: BaseMovie[] = [
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
   },
-{
+  {
     title: 'Opération Espadon',
     director: 'Michael Apted',
     actors: [
@@ -5051,7 +4917,7 @@ export const baseMoviesAction: BaseMovie[] = [
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
   },
-{
+  {
     title: 'Poursuite',
     director: 'Roger Spottiswoode',
     actors: [
@@ -5087,7 +4953,7 @@ export const baseMoviesAction: BaseMovie[] = [
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
   },
-{
+  {
     title: "L'Homme du Tai Chi",
     director: 'Keanu Reeves',
     actors: [
@@ -5117,7 +4983,7 @@ export const baseMoviesAction: BaseMovie[] = [
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
   },
-{
+  {
     title: '47 Ronin',
     director: 'Carl Rinsch',
     actors: [
@@ -5153,7 +5019,7 @@ export const baseMoviesAction: BaseMovie[] = [
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
   },
-{
+  {
     title: 'Max la Menace',
     director: 'Peter Segal',
     actors: [
@@ -5189,7 +5055,7 @@ export const baseMoviesAction: BaseMovie[] = [
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
   },
-{
+  {
     title: 'Mise à prix',
     director: 'Howard Deutch',
     actors: [
@@ -5225,7 +5091,7 @@ export const baseMoviesAction: BaseMovie[] = [
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
   },
-{
+  {
     title: 'Sécurité rapprochée',
     director: 'Daniel Espinosa',
     actors: [
@@ -5261,7 +5127,7 @@ export const baseMoviesAction: BaseMovie[] = [
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
   },
-{
+  {
     title: 'Criminal',
     director: 'Ariel Vromen',
     actors: [
@@ -5286,7 +5152,7 @@ export const baseMoviesAction: BaseMovie[] = [
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
   },
-{
+  {
     title: '6 Underground',
     director: 'Michael Bay',
     actors: [
@@ -5322,7 +5188,7 @@ export const baseMoviesAction: BaseMovie[] = [
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
   },
-{
+  {
     title: 'Shaft',
     director: 'John Singleton',
     actors: [
@@ -5358,7 +5224,7 @@ export const baseMoviesAction: BaseMovie[] = [
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
   },
-{
+  {
     title: 'Le Règne du feu',
     director: 'Rob Bowman',
     actors: [
@@ -5394,7 +5260,7 @@ export const baseMoviesAction: BaseMovie[] = [
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
   },
-{
+  {
     title: 'Exodus: Gods and Kings',
     director: 'Ridley Scott',
     actors: [
@@ -5416,7 +5282,7 @@ export const baseMoviesAction: BaseMovie[] = [
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
   },
-{
+  {
     title: 'La Séductrice',
     director: 'Michael Bay',
     actors: [
@@ -5452,7 +5318,7 @@ export const baseMoviesAction: BaseMovie[] = [
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
   },
-{
+  {
     title: 'Glory',
     director: 'Edward Zwick',
     actors: [
@@ -5488,7 +5354,7 @@ export const baseMoviesAction: BaseMovie[] = [
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
   },
-{
+  {
     title: 'La Somme de toutes les peurs',
     director: 'Phil Alden Robinson',
     actors: [
@@ -5524,7 +5390,7 @@ export const baseMoviesAction: BaseMovie[] = [
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
   },
-{
+  {
     title: 'La Chute de la Maison-Blanche',
     director: 'Roland Emmerich',
     actors: [
@@ -5560,7 +5426,7 @@ export const baseMoviesAction: BaseMovie[] = [
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
   },
-{
+  {
     title: 'Last Knights',
     director: 'Kazuaki Kiriya',
     actors: [
@@ -5596,7 +5462,7 @@ export const baseMoviesAction: BaseMovie[] = [
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
   },
-{
+  {
     title: 'Apocalypse Now',
     director: 'Francis Ford Coppola',
     actors: [
@@ -5632,7 +5498,7 @@ export const baseMoviesAction: BaseMovie[] = [
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 1,
   },
-{
+  {
     title: "Voyage au bout de l'enfer",
     director: 'Michael Cimino',
     actors: [
@@ -5668,7 +5534,7 @@ export const baseMoviesAction: BaseMovie[] = [
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 1,
   },
-{
+  {
     title: 'Les Sentiers de la gloire',
     director: 'Stanley Kubrick',
     actors: [
@@ -5704,7 +5570,7 @@ export const baseMoviesAction: BaseMovie[] = [
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 1,
   },
-{
+  {
     title: "L'Armée des Ombres",
     director: 'Jean-Pierre Melville',
     actors: [
@@ -5740,7 +5606,7 @@ export const baseMoviesAction: BaseMovie[] = [
     countryOrigin: ['France'],
     selectDisplayOrder: 0,
   },
-{
+  {
     title: 'La Colère des Titans',
     director: 'Jonathan Liebesman',
     actors: [
@@ -5776,7 +5642,7 @@ export const baseMoviesAction: BaseMovie[] = [
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
   },
-{
+  {
     title: '60 secondes chrono',
     director: 'Dominic Sena',
     actors: [
@@ -5812,7 +5678,7 @@ export const baseMoviesAction: BaseMovie[] = [
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
   },
-{
+  {
     title: 'Salt',
     director: 'Phillip Noyce',
     actors: [
@@ -5848,7 +5714,7 @@ export const baseMoviesAction: BaseMovie[] = [
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
   },
-{
+  {
     title: 'Contrebande',
     director: 'Baltasar Kormákur',
     actors: [
@@ -5884,7 +5750,7 @@ export const baseMoviesAction: BaseMovie[] = [
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
   },
-{
+  {
     title: 'Le Baiser mortel du dragon',
     director: 'Chris Nahon',
     actors: [
@@ -5920,7 +5786,7 @@ export const baseMoviesAction: BaseMovie[] = [
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
   },
-{
+  {
     title: 'Les Seigneurs de la guerre',
     director: 'Peter Chan',
     actors: [
@@ -5947,7 +5813,7 @@ export const baseMoviesAction: BaseMovie[] = [
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
   },
-{
+  {
     title: "Le Maître d'armes",
     director: 'Ronny Yu',
     actors: [
@@ -5983,7 +5849,7 @@ export const baseMoviesAction: BaseMovie[] = [
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
   },
-{
+  {
     title: 'Le Royaume interdit',
     director: 'Rob Minkoff',
     actors: [
@@ -6019,7 +5885,7 @@ export const baseMoviesAction: BaseMovie[] = [
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
   },
-{
+  {
     title: 'Platoon',
     director: 'Oliver Stone',
     actors: [
@@ -6041,7 +5907,7 @@ export const baseMoviesAction: BaseMovie[] = [
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
   },
-{
+  {
     title: 'Sans aucun remords',
     director: 'Stefano Sollima',
     actors: [
@@ -6077,7 +5943,7 @@ export const baseMoviesAction: BaseMovie[] = [
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
   },
-{
+  {
     title: 'Overdrive',
     director: 'Antonio Negret',
     actors: [
@@ -6113,7 +5979,7 @@ export const baseMoviesAction: BaseMovie[] = [
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
   },
-{
+  {
     title: 'Ghosted',
     director: 'Dexter Fletcher',
     actors: [
@@ -6140,7 +6006,7 @@ export const baseMoviesAction: BaseMovie[] = [
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
   },
-{
+  {
     title: 'Colombiana',
     director: 'Olivier Megaton',
     actors: [
@@ -6176,7 +6042,7 @@ export const baseMoviesAction: BaseMovie[] = [
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
   },
-{
+  {
     title: 'A Working Man',
     director: 'David Ayer',
     actors: [
@@ -6213,7 +6079,7 @@ export const baseMoviesAction: BaseMovie[] = [
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
   },
-{
+  {
     title: 'Misanthrope',
     director: 'Damián Szifron',
     actors: [
@@ -6235,7 +6101,7 @@ export const baseMoviesAction: BaseMovie[] = [
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
   },
-{
+  {
     title: "Willy's Wonderland",
     director: 'Kevin Lewis',
     actors: [
@@ -6257,7 +6123,7 @@ export const baseMoviesAction: BaseMovie[] = [
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
   },
-{
+  {
     title: 'The Patriot : Le Chemin de l...',
     director: 'Roland Emmerich',
     actors: [
@@ -6279,7 +6145,7 @@ export const baseMoviesAction: BaseMovie[] = [
     countryOrigin: ['Allemagne'],
     selectDisplayOrder: 0,
   },
-{
+  {
     title: 'Largo Winch',
     director: 'Jérôme Salle',
     actors: [
@@ -6298,7 +6164,7 @@ export const baseMoviesAction: BaseMovie[] = [
     countryOrigin: ['France'],
     selectDisplayOrder: 0,
   },
-{
+  {
     title: "Largo Winch : Le Prix de l'argent",
     director: 'Olivier Masset-Depasse',
     actors: [
@@ -6320,7 +6186,7 @@ export const baseMoviesAction: BaseMovie[] = [
     countryOrigin: ['France'],
     selectDisplayOrder: 0,
   },
-{
+  {
     title: 'Largo Winch II',
     director: 'Jérôme Salle',
     actors: [
@@ -6342,7 +6208,7 @@ export const baseMoviesAction: BaseMovie[] = [
     countryOrigin: ['France'],
     selectDisplayOrder: 0,
   },
-{
+  {
     title: 'Volte/Face',
     director: 'John Woo',
     actors: [
@@ -6364,7 +6230,7 @@ export const baseMoviesAction: BaseMovie[] = [
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
   },
-{
+  {
     title: 'Les Sept Samourais',
     director: 'Akira Kurosawa',
     actors: [
@@ -6386,7 +6252,7 @@ export const baseMoviesAction: BaseMovie[] = [
     countryOrigin: ['Japon'],
     selectDisplayOrder: 0,
   },
-{
+  {
     title: 'Vermines',
     director: 'Loucas St-Jacques',
     actors: [
@@ -6408,7 +6274,7 @@ export const baseMoviesAction: BaseMovie[] = [
     countryOrigin: ['Canada'],
     selectDisplayOrder: 0,
   },
-{
+  {
     title: 'Une nuit en enfer',
     director: 'Robert Rodriguez',
     actors: [
@@ -6430,7 +6296,7 @@ export const baseMoviesAction: BaseMovie[] = [
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
   },
-{
+  {
     title: 'Violent Night',
     director: 'Tommy Wirkola',
     actors: [
@@ -6452,7 +6318,7 @@ export const baseMoviesAction: BaseMovie[] = [
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
   },
-{
+  {
     title: 'The Northman',
     director: 'Robert Eggers',
     actors: [
@@ -6471,7 +6337,7 @@ export const baseMoviesAction: BaseMovie[] = [
     countryOrigin: ['Royaume-Uni'],
     selectDisplayOrder: 0,
   },
-{
+  {
     title: 'Rock',
     director: 'Michael Bay',
     actors: [
@@ -6493,7 +6359,7 @@ export const baseMoviesAction: BaseMovie[] = [
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
   },
-{
+  {
     title: 'Only God Forgives',
     director: 'Nicolas Winding Refn',
     actors: [
@@ -6515,7 +6381,7 @@ export const baseMoviesAction: BaseMovie[] = [
     countryOrigin: ['Danemark'],
     selectDisplayOrder: 0,
   },
-{
+  {
     title: 'Moonfall',
     director: 'Roland Emmerich',
     actors: [
@@ -6537,7 +6403,7 @@ export const baseMoviesAction: BaseMovie[] = [
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
   },
-{
+  {
     title: 'A history of violence',
     director: 'David Cronenberg',
     actors: [
@@ -6559,7 +6425,7 @@ export const baseMoviesAction: BaseMovie[] = [
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
   },
-{
+  {
     title: 'La Stratégie Ender',
     director: 'Gavin Hood',
     actors: [
@@ -6581,7 +6447,7 @@ export const baseMoviesAction: BaseMovie[] = [
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
   },
-{
+  {
     title: 'Bleach (live-action)',
     director: 'Shinsuke Sato',
     actors: [{ name: 'Sota Fukushi' }, { name: 'Hana Sugisaki' }],
@@ -6599,7 +6465,7 @@ export const baseMoviesAction: BaseMovie[] = [
     countryOrigin: ['Japon'],
     selectDisplayOrder: 0,
   },
-{
+  {
     title: 'Highlander',
     director: 'Russell Mulcahy',
     actors: [
@@ -6621,7 +6487,7 @@ export const baseMoviesAction: BaseMovie[] = [
     countryOrigin: ['Royaume-Uni'],
     selectDisplayOrder: 0,
   },
-{
+  {
     title: 'Knights of the Zodiac',
     director: 'Tomasz Bagiński',
     actors: [
@@ -6661,7 +6527,7 @@ export const baseMoviesAction: BaseMovie[] = [
     countryOrigin: ['États-Unis', 'Japon'],
     selectDisplayOrder: 0,
   },
-{
+  {
     title: 'Live by Night',
     director: 'Ben Affleck',
     actors: [
@@ -6683,7 +6549,7 @@ export const baseMoviesAction: BaseMovie[] = [
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
   },
-{
+  {
     title: 'Orgueil et Préjugés et Zombies',
     director: 'Burr Steers',
     actors: [
@@ -6723,7 +6589,7 @@ export const baseMoviesAction: BaseMovie[] = [
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
   },
-{
+  {
     title: 'Air Force One',
     director: 'Wolfgang Petersen',
     actors: [
@@ -6745,7 +6611,7 @@ export const baseMoviesAction: BaseMovie[] = [
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
   },
-{
+  {
     title: 'La Chute Du Faucon Noir',
     director: 'Ridley Scott',
     actors: [
@@ -6781,7 +6647,7 @@ export const baseMoviesAction: BaseMovie[] = [
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
   },
-{
+  {
     title: 'Kingdom of Heaven',
     director: 'Ridley Scott',
     actors: [
@@ -6817,7 +6683,7 @@ export const baseMoviesAction: BaseMovie[] = [
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
   },
-{
+  {
     title: 'Body of Lies',
     director: 'Ridley Scott',
     actors: [
@@ -6853,7 +6719,7 @@ export const baseMoviesAction: BaseMovie[] = [
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
   },
-{
+  {
     title: 'Robin des Bois',
     director: 'Ridley Scott',
     actors: [
@@ -6889,7 +6755,7 @@ export const baseMoviesAction: BaseMovie[] = [
     countryOrigin: ['États-Unis', 'Royaume-Uni'],
     selectDisplayOrder: 0,
   },
-{
+  {
     title: 'Darkman',
     director: 'Sam Raimi',
     actors: [
@@ -6925,7 +6791,7 @@ export const baseMoviesAction: BaseMovie[] = [
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
   },
-{
+  {
     title: 'Escape from New York',
     director: 'John Carpenter',
     actors: [
@@ -6961,7 +6827,7 @@ export const baseMoviesAction: BaseMovie[] = [
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
   },
-{
+  {
     title: 'Big Trouble in Little China',
     director: 'John Carpenter',
     actors: [
@@ -6997,7 +6863,7 @@ export const baseMoviesAction: BaseMovie[] = [
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
   },
-{
+  {
     title: 'Assault on Precinct 13',
     director: 'John Carpenter',
     actors: [
@@ -7033,7 +6899,7 @@ export const baseMoviesAction: BaseMovie[] = [
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
   },
-{
+  {
     title: '1917',
     director: 'Sam Mendes',
     actors: [
@@ -7070,43 +6936,8 @@ export const baseMoviesAction: BaseMovie[] = [
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 5,
   },
-{
-    title: 'Tomb Raider',
-    director: 'Roar Uthaug',
-    actors: [
-      {
-        name: 'Alicia Vikander',
-      },
-      {
-        name: 'Walton Goggins',
-      },
-      {
-        name: 'Daniel Wu',
-      },
-      {
-        name: 'Dominic West',
-      },
-      {
-        name: 'Kristin Scott Thomas',
-      },
-      {
-        name: 'Hannah John-Kamen',
-      },
-      {
-        name: 'Antonio Aakeel',
-      },
-    ],
-    coverUrl: '/movies_pictures/3676882.jpg',
-    releaseDate: '2018-03-16',
-    length: 118,
-    genre: ['Action', 'Aventure'],
-    saga: '',
-    description: '',
-    fromEntity: null,
-    countryOrigin: ['États-Unis'],
-    selectDisplayOrder: 5,
-  },
-{
+
+  {
     title: 'Sherlock Holmes',
     director: 'Guy Ritchie',
     actors: [
@@ -7146,7 +6977,7 @@ export const baseMoviesAction: BaseMovie[] = [
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 30,
   },
-{
+  {
     title: "Sherlock Holmes : Jeu d'ombres",
     director: 'Guy Ritchie',
     actors: [
@@ -7186,7 +7017,7 @@ export const baseMoviesAction: BaseMovie[] = [
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 30,
   },
-{
+  {
     title: 'Troy',
     director: 'Wolfgang Petersen',
     actors: [{ name: 'Brad Pitt' }, { name: 'Eric Bana' }],
@@ -7205,7 +7036,7 @@ export const baseMoviesAction: BaseMovie[] = [
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 30,
   },
-{
+  {
     title: 'Face/Off',
     director: 'John Woo',
     actors: [
@@ -7242,7 +7073,7 @@ export const baseMoviesAction: BaseMovie[] = [
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 5,
   },
-{
+  {
     title: 'GoldenEye',
     director: 'Martin Campbell',
     actors: [
@@ -7282,7 +7113,7 @@ export const baseMoviesAction: BaseMovie[] = [
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 5,
   },
-{
+  {
     title: '3 Ninjas',
     director: 'Jon Turteltaub',
     actors: [
@@ -7318,7 +7149,7 @@ export const baseMoviesAction: BaseMovie[] = [
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 5,
   },
-{
+  {
     title: 'Dragonball Evolution',
     director: 'James Wong',
     actors: [
@@ -7352,7 +7183,7 @@ export const baseMoviesAction: BaseMovie[] = [
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 30,
   },
-{
+  {
     title: 'Kong: Skull Island',
     director: ' Jordan Vogt-Roberts',
     actors: [
@@ -7384,5 +7215,5 @@ export const baseMoviesAction: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 5,
-  }
+  },
 ];

@@ -5812,7 +5812,7 @@ export const bastienMovies: UserMovies = [
     inList: [],
   },
   {
-    title: 'The Terminator',
+    title: 'Terminator',
     director: 'James Cameron',
     rating: 3.5,
     timesWatched: 1,
@@ -5828,7 +5828,7 @@ export const bastienMovies: UserMovies = [
     inList: [],
   },
   {
-    title: 'Terminator 2: Judgment Day',
+    title: 'Terminator 2 : Le Jugement dernier',
     director: 'James Cameron',
     rating: 3.5,
     timesWatched: 1,
@@ -5844,7 +5844,7 @@ export const bastienMovies: UserMovies = [
     inList: [],
   },
   {
-    title: 'Terminator 3: Rise of the Machines',
+    title: 'Terminator 3 : Le Soulèvement des machines',
     director: 'Jonathan Mostow',
     rating: 3.5,
     timesWatched: 1,

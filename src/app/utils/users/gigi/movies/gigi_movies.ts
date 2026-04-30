@@ -1804,7 +1804,7 @@ export const gigiMovies: UserMovie[] = [
   },
 
   {
-    title: "The Hitman's Bodyguard",
+    title: 'Hitman & Bodyguard',
     director: 'Patrick Hughes',
     rating: 0,
     timesWatched: 1,

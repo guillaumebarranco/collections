@@ -6,9 +6,7 @@ import {
   baseMoviesAnimationJapan,
   baseMoviesAnimationOthers,
   baseMoviesAnimationDisneyPixarDreamworks,
-  baseMoviesSagaPage1,
-  baseMoviesSagaPage2,
-  baseMoviesSagaPage3,
+  baseMoviesSagaAutres,
   baseMoviesApi,
   baseMoviesWestern,
   baseMoviesDrame,
@@ -22,6 +20,11 @@ import {
   baseMoviesAventure,
   baseMoviesDocumentaire,
   baseMoviesComedieMusicale,
+  baseMoviesSagaAction,
+  baseMoviesSagaComedie,
+  baseMoviesSagaFantastique,
+  baseMoviesSagaHorreur,
+  baseMoviesSagaScienceFiction,
 } from '../../utils/entities/movies';
 
 import {
@@ -56,6 +59,12 @@ import { kevinMovies } from '../../utils/users/kevin/movies/kevin_movies';
 import { kevinWatchlistMovies } from '../../utils/users/kevin/movies/kevin_watchlist_movies';
 
 export const allBaseMovies: BaseMovie[] = [
+  ...baseMoviesSagaAction,
+  ...baseMoviesSagaAutres,
+  ...baseMoviesSagaComedie,
+  ...baseMoviesSagaFantastique,
+  ...baseMoviesSagaHorreur,
+  ...baseMoviesSagaScienceFiction,
   ...baseMoviesSuperherosMcu,
   ...baseMoviesSuperHerosDc,
   ...baseMoviesSuperherosAutres,
@@ -63,9 +72,6 @@ export const allBaseMovies: BaseMovie[] = [
   ...baseMoviesAnimationDisneyPixarDreamworks,
   ...baseMoviesAnimationJapan,
   ...baseMoviesAnimationOthers,
-  ...baseMoviesSagaPage1,
-  ...baseMoviesSagaPage2,
-  ...baseMoviesSagaPage3,
   ...baseMoviesApi,
   ...baseMoviesWestern,
   ...baseMoviesDrame,

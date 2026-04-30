@@ -1202,7 +1202,7 @@ export const unhoWatchListMovies: UserMovie[] = [
     inList: [],
   },
   {
-    title: 'Terminator 2: Judgment Day',
+    title: 'Terminator 2 : Le Jugement dernier',
     director: 'James Cameron',
     rating: 0,
     timesWatched: 0,

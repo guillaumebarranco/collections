@@ -17,7 +17,7 @@ export const baseGamesTerminator: BaseGame[] = [
       'FPS multijoueur : batailles Skynet contre résistance, calqué sur Terminator 3.',
     fromEntity: {
       entityType: 'movie',
-      title: 'Terminator 3: Rise of the Machines',
+      title: 'Terminator 3 : Le Soulèvement des machines',
       secondEntityKey: 'Jonathan Mostow',
     },
   },
@@ -25,8 +25,7 @@ export const baseGamesTerminator: BaseGame[] = [
     title: 'Terminator Salvation',
     editor: 'Electronic Arts',
     hero: 'John Connor',
-    coverUrl:
-      '/games_pictures/988e21481b7d.jpg',
+    coverUrl: '/games_pictures/988e21481b7d.jpg',
     releaseDate: '2009-05-19',
     averageTimeToFinish: 10,
     averageTimeToHundredPercent: 15,
@@ -45,8 +44,7 @@ export const baseGamesTerminator: BaseGame[] = [
     title: 'Terminator Genisys: Guardian',
     editor: 'Glu Mobile',
     hero: 'Kyle Reese',
-    coverUrl:
-      '/games_pictures/1e0153da860a.jpg',
+    coverUrl: '/games_pictures/1e0153da860a.jpg',
     releaseDate: '2015-06-01',
     averageTimeToFinish: 5,
     averageTimeToHundredPercent: 0,
@@ -77,7 +75,7 @@ export const baseGamesTerminator: BaseGame[] = [
       'FPS solo : guerre du futur contre Skynet (Teyon), entre T1 et T2.',
     fromEntity: {
       entityType: 'movie',
-      title: 'The Terminator',
+      title: 'Terminator',
       secondEntityKey: 'James Cameron',
     },
   },
@@ -85,8 +83,7 @@ export const baseGamesTerminator: BaseGame[] = [
     title: 'Terminator: Dark Fate – Defiance',
     editor: 'Slitherine Software',
     hero: 'Résistance humaine',
-    coverUrl:
-      '/games_pictures/954fe22d4a94.jpg',
+    coverUrl: '/games_pictures/954fe22d4a94.jpg',
     releaseDate: '2024-12-12',
     averageTimeToFinish: 20,
     averageTimeToHundredPercent: 0,

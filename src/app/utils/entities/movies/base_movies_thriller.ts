@@ -37,7 +37,7 @@ export const baseMoviesThriller: BaseMovie[] = [
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
   },
-{
+  {
     title: 'Battle Royale',
     director: 'Kinji Fukasaku',
     actors: [
@@ -73,7 +73,7 @@ export const baseMoviesThriller: BaseMovie[] = [
     countryOrigin: ['Japon'],
     selectDisplayOrder: 30,
   },
-{
+  {
     title: 'Memento',
     director: 'Christopher Nolan',
     actors: [
@@ -109,7 +109,7 @@ export const baseMoviesThriller: BaseMovie[] = [
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 30,
   },
-{
+  {
     title: 'Brick',
     director: 'Philip Koch',
     actors: [
@@ -145,7 +145,7 @@ export const baseMoviesThriller: BaseMovie[] = [
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
   },
-{
+  {
     title: 'Une femme en jeu',
     director: 'Anna Kendrick',
     actors: [
@@ -181,7 +181,7 @@ export const baseMoviesThriller: BaseMovie[] = [
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
   },
-{
+  {
     title: 'Le silence des agneaux',
     director: 'Jonathan Demme',
     actors: [
@@ -217,7 +217,7 @@ export const baseMoviesThriller: BaseMovie[] = [
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 30,
   },
-{
+  {
     title: 'Nocturnal Animals',
     director: 'Tom Ford',
     actors: [
@@ -253,7 +253,7 @@ export const baseMoviesThriller: BaseMovie[] = [
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 30,
   },
-{
+  {
     title: 'Enemy',
     director: 'Denis Villeneuve',
     actors: [
@@ -286,7 +286,7 @@ export const baseMoviesThriller: BaseMovie[] = [
     countryOrigin: ['Canada'],
     selectDisplayOrder: 0,
   },
-{
+  {
     title: "L'effet papillon",
     director: 'Eric Bress, J. Mackye Gruber',
     actors: [
@@ -322,7 +322,7 @@ export const baseMoviesThriller: BaseMovie[] = [
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 30,
   },
-{
+  {
     title: 'Phone Game',
     director: 'Joel Schumacher',
     actors: [
@@ -358,7 +358,7 @@ export const baseMoviesThriller: BaseMovie[] = [
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 30,
   },
-{
+  {
     title: 'La femme de ménage',
     director: 'Paul Feig',
     actors: [
@@ -384,7 +384,7 @@ export const baseMoviesThriller: BaseMovie[] = [
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 30,
   },
-{
+  {
     title: 'Eaux profondes',
     director: 'Adrian Lyne',
     actors: [
@@ -407,7 +407,7 @@ export const baseMoviesThriller: BaseMovie[] = [
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
   },
-{
+  {
     title: 'Le Jeu',
     director: 'Fred Cavayé',
     actors: [
@@ -429,7 +429,7 @@ export const baseMoviesThriller: BaseMovie[] = [
     countryOrigin: ['France'],
     selectDisplayOrder: 0,
   },
-{
+  {
     title: 'Le chant du loup',
     director: 'Antonin Baudry',
     actors: [
@@ -465,7 +465,7 @@ export const baseMoviesThriller: BaseMovie[] = [
     countryOrigin: ['France'],
     selectDisplayOrder: 20,
   },
-{
+  {
     title: 'Bird Box',
     director: 'Susanne Bier',
     actors: [
@@ -501,7 +501,7 @@ export const baseMoviesThriller: BaseMovie[] = [
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
   },
-{
+  {
     title: 'Taxi Driver',
     director: 'Martin Scorsese',
     actors: [
@@ -537,7 +537,7 @@ export const baseMoviesThriller: BaseMovie[] = [
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 30,
   },
-{
+  {
     title: 'Le Pont des espions',
     director: 'Steven Spielberg',
     actors: [
@@ -573,7 +573,7 @@ export const baseMoviesThriller: BaseMovie[] = [
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
   },
-{
+  {
     title: 'Arrête-moi si tu peux',
     director: 'Steven Spielberg',
     actors: [
@@ -595,7 +595,7 @@ export const baseMoviesThriller: BaseMovie[] = [
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 30,
   },
-{
+  {
     title: 'Arsène Lupin',
     director: 'Jack Conway',
     actors: [
@@ -635,7 +635,7 @@ export const baseMoviesThriller: BaseMovie[] = [
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
   },
-{
+  {
     title: '813',
     director: 'Charles Christie, Scott Sidney',
     actors: [
@@ -661,7 +661,7 @@ export const baseMoviesThriller: BaseMovie[] = [
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
   },
-{
+  {
     title: "Les Aventures d'Arsène Lupin",
     director: 'Jacques Becker',
     actors: [
@@ -701,7 +701,7 @@ export const baseMoviesThriller: BaseMovie[] = [
     countryOrigin: ['France'],
     selectDisplayOrder: 0,
   },
-{
+  {
     title: 'Signé Arsène Lupin',
     director: 'Yves Robert',
     actors: [
@@ -741,7 +741,7 @@ export const baseMoviesThriller: BaseMovie[] = [
     countryOrigin: ['France'],
     selectDisplayOrder: 0,
   },
-{
+  {
     title: 'Calculs Meurtriers',
     director: 'Barbet Schroeder',
     actors: [
@@ -777,7 +777,7 @@ export const baseMoviesThriller: BaseMovie[] = [
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
   },
-{
+  {
     title: 'Panic Room',
     director: 'David Fincher',
     actors: [
@@ -798,7 +798,7 @@ export const baseMoviesThriller: BaseMovie[] = [
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 30,
   },
-{
+  {
     title: "L'Associé du diable",
     director: 'Taylor Hackford',
     actors: [
@@ -834,7 +834,7 @@ export const baseMoviesThriller: BaseMovie[] = [
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 30,
   },
-{
+  {
     title: 'Sixième Sens',
     director: 'M. Night Shyamalan',
     actors: [
@@ -870,7 +870,7 @@ export const baseMoviesThriller: BaseMovie[] = [
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 30,
   },
-{
+  {
     title: 'Le Prestige',
     director: 'Christopher Nolan',
     actors: [
@@ -896,7 +896,7 @@ export const baseMoviesThriller: BaseMovie[] = [
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 30,
   },
-{
+  {
     title: 'Les Infiltrés',
     director: 'Martin Scorsese',
     actors: [
@@ -918,7 +918,7 @@ export const baseMoviesThriller: BaseMovie[] = [
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 30,
   },
-{
+  {
     title: 'Da Vinci Code',
     director: 'Ron Howard',
     actors: [
@@ -958,7 +958,7 @@ export const baseMoviesThriller: BaseMovie[] = [
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 30,
   },
-{
+  {
     title: 'Lord of War',
     director: 'Andrew Niccol',
     actors: [
@@ -994,7 +994,7 @@ export const baseMoviesThriller: BaseMovie[] = [
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
   },
-{
+  {
     title: 'Sous haute pression',
     director: 'Wes Craven',
     actors: [
@@ -1030,7 +1030,7 @@ export const baseMoviesThriller: BaseMovie[] = [
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
   },
-{
+  {
     title: 'Pulp Fiction',
     director: 'Quentin Tarantino',
     actors: [
@@ -1057,7 +1057,7 @@ export const baseMoviesThriller: BaseMovie[] = [
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 30,
   },
-{
+  {
     title: 'Code mercury',
     director: 'Harold Becker',
     actors: [
@@ -1093,7 +1093,7 @@ export const baseMoviesThriller: BaseMovie[] = [
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
   },
-{
+  {
     title: 'Death Note',
     director: 'Adam Wingard',
     actors: [
@@ -1133,7 +1133,7 @@ export const baseMoviesThriller: BaseMovie[] = [
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
   },
-{
+  {
     title: 'Diversion',
     director: 'Glenn Ficarra, John Requa',
     actors: [
@@ -1169,7 +1169,7 @@ export const baseMoviesThriller: BaseMovie[] = [
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 30,
   },
-{
+  {
     title: 'Knock Knock',
     director: 'Eli Roth',
     actors: [
@@ -1202,7 +1202,7 @@ export const baseMoviesThriller: BaseMovie[] = [
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
   },
-{
+  {
     title: 'Gone Girl',
     director: 'David Fincher',
     actors: [
@@ -1238,7 +1238,7 @@ export const baseMoviesThriller: BaseMovie[] = [
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 30,
   },
-{
+  {
     title: 'Les Incorruptibles',
     director: 'Brian De Palma',
     actors: [
@@ -1275,7 +1275,7 @@ export const baseMoviesThriller: BaseMovie[] = [
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
   },
-{
+  {
     title: 'Scarface',
     director: 'Brian De Palma',
     actors: [
@@ -1311,7 +1311,7 @@ export const baseMoviesThriller: BaseMovie[] = [
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 30,
   },
-{
+  {
     title: 'The Dead Zone',
     director: 'David Cronenberg',
     actors: [
@@ -1351,7 +1351,7 @@ export const baseMoviesThriller: BaseMovie[] = [
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
   },
-{
+  {
     title: "L'Œil du mal",
     director: 'D.J. Caruso',
     actors: [
@@ -1387,7 +1387,7 @@ export const baseMoviesThriller: BaseMovie[] = [
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 30,
   },
-{
+  {
     title: 'Gone Baby Gone',
     director: 'Ben Affleck',
     actors: [
@@ -1407,7 +1407,7 @@ export const baseMoviesThriller: BaseMovie[] = [
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 30,
   },
-{
+  {
     title: 'No Country for Old Men',
     director: 'Joel Coen, Ethan Coen',
     actors: [
@@ -1443,7 +1443,7 @@ export const baseMoviesThriller: BaseMovie[] = [
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 30,
   },
-{
+  {
     title: 'Dangereuse séduction',
     director: 'James Foley',
     actors: [
@@ -1479,7 +1479,7 @@ export const baseMoviesThriller: BaseMovie[] = [
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
   },
-{
+  {
     title: 'Paranoïak',
     director: 'D.J. Caruso',
     actors: [
@@ -1515,7 +1515,7 @@ export const baseMoviesThriller: BaseMovie[] = [
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
   },
-{
+  {
     title: 'Zodiac',
     director: 'David Fincher',
     actors: [
@@ -1551,7 +1551,7 @@ export const baseMoviesThriller: BaseMovie[] = [
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 30,
   },
-{
+  {
     title: 'Premonition',
     director: 'Mennan Yapo',
     actors: [
@@ -1587,7 +1587,7 @@ export const baseMoviesThriller: BaseMovie[] = [
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
   },
-{
+  {
     title: 'Seven',
     director: 'David Fincher',
     actors: [
@@ -1606,7 +1606,7 @@ export const baseMoviesThriller: BaseMovie[] = [
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 30,
   },
-{
+  {
     title: 'The Usual Suspects',
     director: 'Bryan Singer',
     actors: [
@@ -1642,7 +1642,7 @@ export const baseMoviesThriller: BaseMovie[] = [
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 30,
   },
-{
+  {
     title: 'Drive',
     director: 'Nicolas Winding Refn',
     actors: [
@@ -1678,7 +1678,7 @@ export const baseMoviesThriller: BaseMovie[] = [
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
   },
-{
+  {
     title: 'Shutter Island',
     director: 'Martin Scorsese',
     actors: [
@@ -1714,7 +1714,7 @@ export const baseMoviesThriller: BaseMovie[] = [
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 30,
   },
-{
+  {
     title: 'Le beau-père',
     director: 'Nelson McCormick',
     actors: [
@@ -1750,7 +1750,7 @@ export const baseMoviesThriller: BaseMovie[] = [
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
   },
-{
+  {
     title: 'Le Loup de Wall Street',
     director: 'Martin Scorsese',
     actors: [
@@ -1772,7 +1772,7 @@ export const baseMoviesThriller: BaseMovie[] = [
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 30,
   },
-{
+  {
     title: 'Prisoners',
     director: 'Denis Villeneuve',
     actors: [
@@ -1795,7 +1795,7 @@ export const baseMoviesThriller: BaseMovie[] = [
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 30,
   },
-{
+  {
     title: 'No pain no gain',
     director: 'Michael Bay',
     actors: [
@@ -1831,7 +1831,7 @@ export const baseMoviesThriller: BaseMovie[] = [
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
   },
-{
+  {
     title: 'Basic Instinct',
     director: 'Paul Verhoeven',
     actors: [
@@ -1867,7 +1867,7 @@ export const baseMoviesThriller: BaseMovie[] = [
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 30,
   },
-{
+  {
     title: 'Reservoir Dogs',
     director: 'Quentin Tarantino',
     actors: [
@@ -1903,7 +1903,7 @@ export const baseMoviesThriller: BaseMovie[] = [
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 30,
   },
-{
+  {
     title: 'Les Affranchis',
     director: 'Martin Scorsese',
     actors: [
@@ -1939,7 +1939,7 @@ export const baseMoviesThriller: BaseMovie[] = [
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 30,
   },
-{
+  {
     title: 'Exam',
     director: 'Stuart Hazeldine',
     actors: [
@@ -1972,7 +1972,7 @@ export const baseMoviesThriller: BaseMovie[] = [
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
   },
-{
+  {
     title: 'Traque sur Internet',
     director: 'Irwin Winkler',
     actors: [
@@ -2008,7 +2008,7 @@ export const baseMoviesThriller: BaseMovie[] = [
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
   },
-{
+  {
     title: 'Sous la Seine',
     director: 'Xavier Gens',
     actors: [
@@ -2041,7 +2041,7 @@ export const baseMoviesThriller: BaseMovie[] = [
     countryOrigin: ['France'],
     selectDisplayOrder: 0,
   },
-{
+  {
     title: 'Le nombre 23',
     director: 'Joel Schumacher',
     actors: [
@@ -2077,7 +2077,7 @@ export const baseMoviesThriller: BaseMovie[] = [
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
   },
-{
+  {
     title: 'Triangle',
     director: 'Christopher Smith',
     actors: [
@@ -2114,7 +2114,7 @@ export const baseMoviesThriller: BaseMovie[] = [
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
   },
-{
+  {
     title: 'Uncut Gems',
     director: 'Josh Safdie, Benny Safdie',
     actors: [
@@ -2150,7 +2150,7 @@ export const baseMoviesThriller: BaseMovie[] = [
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
   },
-{
+  {
     title: 'Copland',
     director: 'James Mangold',
     actors: [
@@ -2186,7 +2186,7 @@ export const baseMoviesThriller: BaseMovie[] = [
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
   },
-{
+  {
     title: 'Billy Bathgate',
     director: 'Robert Benton',
     actors: [
@@ -2222,7 +2222,7 @@ export const baseMoviesThriller: BaseMovie[] = [
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
   },
-{
+  {
     title: 'Pensées mortelles',
     director: 'Rowdy Herrington',
     actors: [
@@ -2258,7 +2258,7 @@ export const baseMoviesThriller: BaseMovie[] = [
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
   },
-{
+  {
     title: 'Piège en eaux troubles',
     director: 'Harold Becker',
     actors: [
@@ -2294,7 +2294,7 @@ export const baseMoviesThriller: BaseMovie[] = [
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
   },
-{
+  {
     title: 'Color of Night',
     director: 'Richard Rush',
     actors: [
@@ -2330,7 +2330,7 @@ export const baseMoviesThriller: BaseMovie[] = [
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
   },
-{
+  {
     title: 'Alpha Dog',
     director: 'Nick Cassavetes',
     actors: [
@@ -2366,7 +2366,7 @@ export const baseMoviesThriller: BaseMovie[] = [
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
   },
-{
+  {
     title: 'Slevin',
     director: 'Paul McGuigan',
     actors: [
@@ -2396,7 +2396,7 @@ export const baseMoviesThriller: BaseMovie[] = [
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
   },
-{
+  {
     title: 'Les Joueurs',
     director: 'John Dahl',
     actors: [
@@ -2432,7 +2432,7 @@ export const baseMoviesThriller: BaseMovie[] = [
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
   },
-{
+  {
     title: 'Le Talentueux Mr Ripley',
     director: 'Anthony Minghella',
     actors: [
@@ -2472,7 +2472,7 @@ export const baseMoviesThriller: BaseMovie[] = [
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
   },
-{
+  {
     title: 'Syriana',
     director: 'Stephen Gaghan',
     actors: [
@@ -2508,7 +2508,7 @@ export const baseMoviesThriller: BaseMovie[] = [
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
   },
-{
+  {
     title: "Raisons d'Etat",
     director: 'Robert De Niro',
     actors: [
@@ -2544,7 +2544,7 @@ export const baseMoviesThriller: BaseMovie[] = [
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
   },
-{
+  {
     title: 'Contagion',
     director: 'Steven Soderbergh',
     actors: [
@@ -2580,7 +2580,7 @@ export const baseMoviesThriller: BaseMovie[] = [
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
   },
-{
+  {
     title: 'Cogan - Killing Them Softly',
     director: 'Andrew Dominik',
     actors: [
@@ -2616,7 +2616,7 @@ export const baseMoviesThriller: BaseMovie[] = [
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
   },
-{
+  {
     title: 'Alliés',
     director: 'Robert Zemeckis',
     actors: [
@@ -2652,7 +2652,7 @@ export const baseMoviesThriller: BaseMovie[] = [
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
   },
-{
+  {
     title: 'Les Sentiers de la perdition',
     director: 'Sam Mendes',
     actors: [
@@ -2688,7 +2688,7 @@ export const baseMoviesThriller: BaseMovie[] = [
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
   },
-{
+  {
     title: 'Anges et démons',
     director: 'Ron Howard',
     actors: [
@@ -2728,7 +2728,7 @@ export const baseMoviesThriller: BaseMovie[] = [
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
   },
-{
+  {
     title: 'Capitaine Phillips',
     director: 'Paul Greengrass',
     actors: [
@@ -2764,7 +2764,7 @@ export const baseMoviesThriller: BaseMovie[] = [
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
   },
-{
+  {
     title: 'Inferno',
     director: 'Ron Howard',
     actors: [
@@ -2804,7 +2804,7 @@ export const baseMoviesThriller: BaseMovie[] = [
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
   },
-{
+  {
     title: 'The Circle',
     director: 'James Ponsoldt',
     actors: [
@@ -2840,7 +2840,7 @@ export const baseMoviesThriller: BaseMovie[] = [
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
   },
-{
+  {
     title: 'La Firme',
     director: 'Sydney Pollack',
     actors: [
@@ -2876,7 +2876,7 @@ export const baseMoviesThriller: BaseMovie[] = [
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
   },
-{
+  {
     title: 'Eyes Wide Shut',
     director: 'Stanley Kubrick',
     actors: [
@@ -2912,7 +2912,7 @@ export const baseMoviesThriller: BaseMovie[] = [
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
   },
-{
+  {
     title: 'Walkyrie',
     director: 'Bryan Singer',
     actors: [
@@ -2948,7 +2948,7 @@ export const baseMoviesThriller: BaseMovie[] = [
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
   },
-{
+  {
     title: "Mensonges d'État",
     director: 'Ridley Scott',
     actors: [
@@ -2984,7 +2984,7 @@ export const baseMoviesThriller: BaseMovie[] = [
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
   },
-{
+  {
     title: "Une bataille après l'autre",
     director: 'Paul Thomas Anderson',
     actors: [
@@ -3020,7 +3020,7 @@ export const baseMoviesThriller: BaseMovie[] = [
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
   },
-{
+  {
     title: 'Détention secrète',
     director: 'Gavin Hood',
     actors: [
@@ -3056,7 +3056,7 @@ export const baseMoviesThriller: BaseMovie[] = [
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
   },
-{
+  {
     title: 'Night Call',
     director: 'Dan Gilroy',
     actors: [
@@ -3089,7 +3089,7 @@ export const baseMoviesThriller: BaseMovie[] = [
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
   },
-{
+  {
     title: 'Bad Education',
     director: 'Cory Finley',
     actors: [
@@ -3122,7 +3122,7 @@ export const baseMoviesThriller: BaseMovie[] = [
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
   },
-{
+  {
     title: 'Suicide Club',
     director: 'Stephen Kay',
     actors: [
@@ -3159,7 +3159,7 @@ export const baseMoviesThriller: BaseMovie[] = [
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
   },
-{
+  {
     title: 'Intuitions',
     director: 'Stephen Herek',
     actors: [
@@ -3195,7 +3195,7 @@ export const baseMoviesThriller: BaseMovie[] = [
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
   },
-{
+  {
     title: 'Au bout de la nuit',
     director: 'Scott Derrickson',
     actors: [
@@ -3231,7 +3231,7 @@ export const baseMoviesThriller: BaseMovie[] = [
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
   },
-{
+  {
     title: 'The Whole Truth',
     director: 'Courtney Hunt',
     actors: [
@@ -3261,7 +3261,7 @@ export const baseMoviesThriller: BaseMovie[] = [
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
   },
-{
+  {
     title: 'Serenity',
     director: 'Steven Knight',
     actors: [
@@ -3294,7 +3294,7 @@ export const baseMoviesThriller: BaseMovie[] = [
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
   },
-{
+  {
     title: "Mothers' Instinct",
     director: 'Benoît Delhomme',
     actors: [
@@ -3321,7 +3321,7 @@ export const baseMoviesThriller: BaseMovie[] = [
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
   },
-{
+  {
     title: 'La Théorie du Chaos',
     director: 'Marcos Siega',
     actors: [
@@ -3358,7 +3358,7 @@ export const baseMoviesThriller: BaseMovie[] = [
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
   },
-{
+  {
     title: 'Buried',
     director: 'Rodrigo Cortés',
     actors: [
@@ -3394,7 +3394,7 @@ export const baseMoviesThriller: BaseMovie[] = [
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
   },
-{
+  {
     title: 'Captives',
     director: 'Atom Egoyan',
     actors: [
@@ -3430,7 +3430,7 @@ export const baseMoviesThriller: BaseMovie[] = [
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
   },
-{
+  {
     title: 'La Disparue',
     director: 'Adrian Lyne',
     actors: [
@@ -3463,7 +3463,7 @@ export const baseMoviesThriller: BaseMovie[] = [
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
   },
-{
+  {
     title: 'Le Droit de tuer ?',
     director: 'Joel Schumacher',
     actors: [
@@ -3482,7 +3482,7 @@ export const baseMoviesThriller: BaseMovie[] = [
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
   },
-{
+  {
     title: 'The Machinist',
     director: 'Brad Anderson',
     actors: [
@@ -3518,7 +3518,7 @@ export const baseMoviesThriller: BaseMovie[] = [
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
   },
-{
+  {
     title: 'Bad Times',
     director: 'Hossein Amini',
     actors: [
@@ -3554,7 +3554,7 @@ export const baseMoviesThriller: BaseMovie[] = [
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
   },
-{
+  {
     title: 'The Pale Blue Eye',
     director: 'Scott Cooper',
     actors: [
@@ -3590,7 +3590,7 @@ export const baseMoviesThriller: BaseMovie[] = [
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
   },
-{
+  {
     title: 'Le Dahlia noir',
     director: 'Brian De Palma',
     actors: [
@@ -3630,7 +3630,7 @@ export const baseMoviesThriller: BaseMovie[] = [
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
   },
-{
+  {
     title: 'Dreamland',
     director: 'Miles Joris-Peyrafitte',
     actors: [
@@ -3660,7 +3660,7 @@ export const baseMoviesThriller: BaseMovie[] = [
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
   },
-{
+  {
     title: 'Dead Again',
     director: 'Kenneth Branagh',
     actors: [
@@ -3696,7 +3696,7 @@ export const baseMoviesThriller: BaseMovie[] = [
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
   },
-{
+  {
     title: 'Docteur Patch',
     director: 'Tom Shadyac',
     actors: [
@@ -3732,7 +3732,7 @@ export const baseMoviesThriller: BaseMovie[] = [
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
   },
-{
+  {
     title: 'Photo Obsession',
     director: 'Mark Romanek',
     actors: [
@@ -3768,7 +3768,7 @@ export const baseMoviesThriller: BaseMovie[] = [
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
   },
-{
+  {
     title: 'Le Prince de Greenwich Village',
     director: 'Wayne Kramer',
     actors: [
@@ -3804,7 +3804,7 @@ export const baseMoviesThriller: BaseMovie[] = [
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
   },
-{
+  {
     title: 'La Loi du Silence',
     director: 'John Korty',
     actors: [
@@ -3840,7 +3840,7 @@ export const baseMoviesThriller: BaseMovie[] = [
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
   },
-{
+  {
     title: "La Puissance de l'ange",
     director: 'John G. Avildsen',
     actors: [
@@ -3876,7 +3876,7 @@ export const baseMoviesThriller: BaseMovie[] = [
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
   },
-{
+  {
     title: "Le Masque de l'araignée",
     director: 'Lee Tamahori',
     actors: [
@@ -3912,7 +3912,7 @@ export const baseMoviesThriller: BaseMovie[] = [
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
   },
-{
+  {
     title: 'Crimes et Pouvoir',
     director: 'Carl Franklin',
     actors: [
@@ -3948,7 +3948,7 @@ export const baseMoviesThriller: BaseMovie[] = [
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
   },
-{
+  {
     title: "L'impasse",
     director: 'Brian De Palma',
     actors: [
@@ -3984,7 +3984,7 @@ export const baseMoviesThriller: BaseMovie[] = [
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
   },
-{
+  {
     title: 'Il était une fois en Amérique',
     director: 'Sergio Leone',
     actors: [
@@ -4020,7 +4020,7 @@ export const baseMoviesThriller: BaseMovie[] = [
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
   },
-{
+  {
     title: 'Le Trou',
     director: 'Jacques Becker',
     actors: [
@@ -4056,7 +4056,7 @@ export const baseMoviesThriller: BaseMovie[] = [
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 1,
   },
-{
+  {
     title: 'Fenêtre sur cour',
     director: 'Alfred Hitchcock',
     actors: [
@@ -4092,7 +4092,7 @@ export const baseMoviesThriller: BaseMovie[] = [
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 1,
   },
-{
+  {
     title: 'La Corde',
     director: 'Alfred Hitchcock',
     actors: [
@@ -4114,7 +4114,7 @@ export const baseMoviesThriller: BaseMovie[] = [
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 1,
   },
-{
+  {
     title: "Entre le ciel et l'enfer",
     director: 'Akira Kurosawa',
     actors: [
@@ -4150,7 +4150,7 @@ export const baseMoviesThriller: BaseMovie[] = [
     countryOrigin: ['Japon'],
     selectDisplayOrder: 1,
   },
-{
+  {
     title: 'Sueurs froides',
     director: 'Alfred Hitchcock',
     actors: [
@@ -4186,7 +4186,7 @@ export const baseMoviesThriller: BaseMovie[] = [
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
   },
-{
+  {
     title: 'La Mort aux trousses',
     director: 'Alfred Hitchcock',
     actors: [
@@ -4222,7 +4222,7 @@ export const baseMoviesThriller: BaseMovie[] = [
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
   },
-{
+  {
     title: 'Casino',
     director: 'Martin Scorsese',
     actors: [
@@ -4258,7 +4258,7 @@ export const baseMoviesThriller: BaseMovie[] = [
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 30,
   },
-{
+  {
     title: 'La Nuit du chasseur',
     director: 'Charles Laughton',
     actors: [
@@ -4294,7 +4294,7 @@ export const baseMoviesThriller: BaseMovie[] = [
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 30,
   },
-{
+  {
     title: 'M le Maudit',
     director: 'Fritz Lang',
     actors: [
@@ -4330,7 +4330,7 @@ export const baseMoviesThriller: BaseMovie[] = [
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
   },
-{
+  {
     title: 'Le Nom de la Rose',
     director: 'Jean-Jacques Annaud',
     actors: [
@@ -4366,7 +4366,7 @@ export const baseMoviesThriller: BaseMovie[] = [
     countryOrigin: ['France'],
     selectDisplayOrder: 30,
   },
-{
+  {
     title: 'Sans identité',
     director: 'Jaume Collet-Serra',
     actors: [
@@ -4402,7 +4402,7 @@ export const baseMoviesThriller: BaseMovie[] = [
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
   },
-{
+  {
     title: 'Régression',
     director: 'Alejandro Amenábar',
     actors: [
@@ -4438,7 +4438,7 @@ export const baseMoviesThriller: BaseMovie[] = [
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
   },
-{
+  {
     title: 'Irréprochable',
     director: 'Sébastien Marnier',
     actors: [
@@ -4474,7 +4474,7 @@ export const baseMoviesThriller: BaseMovie[] = [
     countryOrigin: ['France'],
     selectDisplayOrder: 0,
   },
-{
+  {
     title: 'Möbius',
     director: 'Éric Rochant',
     actors: [
@@ -4510,7 +4510,7 @@ export const baseMoviesThriller: BaseMovie[] = [
     countryOrigin: ['France'],
     selectDisplayOrder: 0,
   },
-{
+  {
     title: 'La French',
     director: 'Cédric Jimenez',
     actors: [
@@ -4546,7 +4546,7 @@ export const baseMoviesThriller: BaseMovie[] = [
     countryOrigin: ['France'],
     selectDisplayOrder: 0,
   },
-{
+  {
     title: 'Dos au mur',
     director: 'Asger Leth',
     actors: [
@@ -4582,7 +4582,7 @@ export const baseMoviesThriller: BaseMovie[] = [
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
   },
-{
+  {
     title: 'Le facteur sonne toujours deux fois',
     director: 'Bob Rafelson',
     actors: [
@@ -4618,7 +4618,7 @@ export const baseMoviesThriller: BaseMovie[] = [
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
   },
-{
+  {
     title: 'Le diable tout le temps',
     director: 'Antonio Campos',
     actors: [
@@ -4658,7 +4658,7 @@ export const baseMoviesThriller: BaseMovie[] = [
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
   },
-{
+  {
     title: 'Red Sparrow',
     director: 'Francis Lawrence',
     actors: [
@@ -4694,7 +4694,7 @@ export const baseMoviesThriller: BaseMovie[] = [
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
   },
-{
+  {
     title: 'Pur-sang',
     director: 'Cory Finley',
     actors: [
@@ -4724,7 +4724,7 @@ export const baseMoviesThriller: BaseMovie[] = [
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
   },
-{
+  {
     title: 'Gothika',
     director: 'Mathieu Kassovitz',
     actors: [
@@ -4760,7 +4760,7 @@ export const baseMoviesThriller: BaseMovie[] = [
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
   },
-{
+  {
     title: 'The Call',
     director: 'Brad Anderson',
     actors: [
@@ -4796,7 +4796,7 @@ export const baseMoviesThriller: BaseMovie[] = [
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
   },
-{
+  {
     title: 'Le Prix du silence',
     director: 'Rod Lurie',
     actors: [
@@ -4832,7 +4832,7 @@ export const baseMoviesThriller: BaseMovie[] = [
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
   },
-{
+  {
     title: 'Mensonges et Faux Semblants',
     director: 'Dominic Sena',
     actors: [
@@ -4869,7 +4869,7 @@ export const baseMoviesThriller: BaseMovie[] = [
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
   },
-{
+  {
     title: 'The Crying Game',
     director: 'Neil Jordan',
     actors: [
@@ -4905,7 +4905,7 @@ export const baseMoviesThriller: BaseMovie[] = [
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
   },
-{
+  {
     title: "Angles d'attaque",
     director: 'Pete Travis',
     actors: [
@@ -4927,7 +4927,7 @@ export const baseMoviesThriller: BaseMovie[] = [
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
   },
-{
+  {
     title: 'Disparue',
     director: 'Heitor Dhalia',
     actors: [
@@ -4963,7 +4963,7 @@ export const baseMoviesThriller: BaseMovie[] = [
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
   },
-{
+  {
     title: 'The Informer',
     director: 'Andrea Di Stefano',
     actors: [
@@ -4999,7 +4999,7 @@ export const baseMoviesThriller: BaseMovie[] = [
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
   },
-{
+  {
     title: 'Blackout',
     director: 'Rigoberto Castañeda',
     actors: [
@@ -5026,7 +5026,7 @@ export const baseMoviesThriller: BaseMovie[] = [
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
   },
-{
+  {
     title: 'Blood Ties',
     director: 'Guillaume Canet',
     actors: [
@@ -5048,7 +5048,7 @@ export const baseMoviesThriller: BaseMovie[] = [
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
   },
-{
+  {
     title: 'Longlegs',
     director: 'Osgood Perkins',
     actors: [
@@ -5070,7 +5070,7 @@ export const baseMoviesThriller: BaseMovie[] = [
     countryOrigin: ['Canada'],
     selectDisplayOrder: 0,
   },
-{
+  {
     title: 'Sympathy for Mister Vengeance',
     director: 'Park Chan-wook',
     actors: [
@@ -5092,7 +5092,7 @@ export const baseMoviesThriller: BaseMovie[] = [
     countryOrigin: ['Corée du Sud'],
     selectDisplayOrder: 0,
   },
-{
+  {
     title: "Les Promesses de l'ombre",
     director: 'David Cronenberg',
     actors: [
@@ -5114,7 +5114,7 @@ export const baseMoviesThriller: BaseMovie[] = [
     countryOrigin: ['Royaume-Uni'],
     selectDisplayOrder: 0,
   },
-{
+  {
     title: 'Loft',
     director: 'Erik Van Looy',
     actors: [
@@ -5136,7 +5136,7 @@ export const baseMoviesThriller: BaseMovie[] = [
     countryOrigin: ['Belgique'],
     selectDisplayOrder: 0,
   },
-{
+  {
     title: 'Taking Lives, destins violés',
     director: 'D.J. Caruso',
     actors: [
@@ -5158,7 +5158,7 @@ export const baseMoviesThriller: BaseMovie[] = [
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
   },
-{
+  {
     title: 'Rupture fatale',
     director: 'Andrew Davis',
     actors: [
@@ -5180,7 +5180,7 @@ export const baseMoviesThriller: BaseMovie[] = [
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
   },
-{
+  {
     title: 'La Fracture',
     director: 'Paul Haggis',
     actors: [
@@ -5202,7 +5202,7 @@ export const baseMoviesThriller: BaseMovie[] = [
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
   },
-{
+  {
     title: "Anatomie d'une chute",
     director: 'Justine Triet',
     actors: [
@@ -5224,7 +5224,7 @@ export const baseMoviesThriller: BaseMovie[] = [
     countryOrigin: ['France'],
     selectDisplayOrder: 0,
   },
-{
+  {
     title: "L'Homme qui en savait trop",
     director: 'Alfred Hitchcock',
     actors: [
@@ -5246,7 +5246,7 @@ export const baseMoviesThriller: BaseMovie[] = [
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
   },
-{
+  {
     title: 'Nightmare Alley',
     director: 'Guillermo del Toro',
     actors: [
@@ -5268,7 +5268,7 @@ export const baseMoviesThriller: BaseMovie[] = [
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
   },
-{
+  {
     title: 'Under the Silver Lake',
     director: 'David Robert Mitchell',
     actors: [
@@ -5290,7 +5290,7 @@ export const baseMoviesThriller: BaseMovie[] = [
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
   },
-{
+  {
     title: 'Lady Vengeance',
     director: 'Park Chan-wook',
     actors: [
@@ -5312,7 +5312,7 @@ export const baseMoviesThriller: BaseMovie[] = [
     countryOrigin: ['Corée du Sud'],
     selectDisplayOrder: 0,
   },
-{
+  {
     title: 'Il était une fois le Bronx',
     director: 'Robert De Niro',
     actors: [
@@ -5334,7 +5334,7 @@ export const baseMoviesThriller: BaseMovie[] = [
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
   },
-{
+  {
     title: 'Fargo',
     director: 'Joel Coen, Ethan Coen',
     actors: [
@@ -5356,7 +5356,7 @@ export const baseMoviesThriller: BaseMovie[] = [
     countryOrigin: ['Royaume-Uni'],
     selectDisplayOrder: 0,
   },
-{
+  {
     title: 'Blow Out',
     director: 'Brian De Palma',
     actors: [
@@ -5378,7 +5378,7 @@ export const baseMoviesThriller: BaseMovie[] = [
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
   },
-{
+  {
     title: 'The Bikeriders',
     director: 'Jeff Nichols',
     actors: [
@@ -5400,7 +5400,7 @@ export const baseMoviesThriller: BaseMovie[] = [
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
   },
-{
+  {
     title: 'Wind River',
     director: 'Taylor Sheridan',
     actors: [
@@ -5422,7 +5422,7 @@ export const baseMoviesThriller: BaseMovie[] = [
     countryOrigin: ['Royaume-Uni'],
     selectDisplayOrder: 0,
   },
-{
+  {
     title: 'Killer Joe',
     director: 'William Friedkin',
     actors: [
@@ -5444,7 +5444,7 @@ export const baseMoviesThriller: BaseMovie[] = [
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
   },
-{
+  {
     title: 'Le Chien des Baskerville (1939)',
     director: 'Sidney Lanfield',
     actors: [
@@ -5484,7 +5484,7 @@ export const baseMoviesThriller: BaseMovie[] = [
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
   },
-{
+  {
     title: 'Les Aventures de Sherlock Holmes (1939)',
     director: 'Alfred L. Werker',
     actors: [
@@ -5524,7 +5524,7 @@ export const baseMoviesThriller: BaseMovie[] = [
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
   },
-{
+  {
     title: 'La Vie privée de Sherlock Holmes',
     director: 'Billy Wilder',
     actors: [
@@ -5564,7 +5564,7 @@ export const baseMoviesThriller: BaseMovie[] = [
     countryOrigin: ['Royaume-Uni', 'États-Unis'],
     selectDisplayOrder: 0,
   },
-{
+  {
     title: 'Meurtre par décret',
     director: 'Bob Clark',
     actors: [
@@ -5604,7 +5604,7 @@ export const baseMoviesThriller: BaseMovie[] = [
     countryOrigin: ['Royaume-Uni', 'Canada'],
     selectDisplayOrder: 0,
   },
-{
+  {
     title: 'La Solution à sept pour cent',
     director: 'Herbert Ross',
     actors: [{ name: 'Alan Arkin' }, { name: 'Vanessa Redgrave' }],
@@ -5622,7 +5622,7 @@ export const baseMoviesThriller: BaseMovie[] = [
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
   },
-{
+  {
     title: 'Peur primale',
     director: 'Gregory Hoblit',
     actors: [
@@ -5644,7 +5644,7 @@ export const baseMoviesThriller: BaseMovie[] = [
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
   },
-{
+  {
     title: 'Snake Eyes',
     director: 'Brian De Palma',
     actors: [
@@ -5666,7 +5666,7 @@ export const baseMoviesThriller: BaseMovie[] = [
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
   },
-{
+  {
     title: 'Coherence',
     director: 'James Ward Byrkit',
     actors: [
@@ -5688,7 +5688,7 @@ export const baseMoviesThriller: BaseMovie[] = [
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
   },
-{
+  {
     title: 'American Gangster',
     director: 'Ridley Scott',
     actors: [
@@ -5724,7 +5724,7 @@ export const baseMoviesThriller: BaseMovie[] = [
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
   },
-{
+  {
     title: 'Mean Streets',
     director: 'Martin Scorsese',
     actors: [{ name: 'Robert De Niro' }, { name: 'Harvey Keitel' }],
@@ -5738,7 +5738,7 @@ export const baseMoviesThriller: BaseMovie[] = [
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
   },
-{
+  {
     title: 'Les Nerfs à vif',
     director: 'Martin Scorsese',
     actors: [
@@ -5774,7 +5774,7 @@ export const baseMoviesThriller: BaseMovie[] = [
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
   },
-{
+  {
     title: 'Blue Velvet',
     director: 'David Lynch',
     actors: [
@@ -5810,7 +5810,7 @@ export const baseMoviesThriller: BaseMovie[] = [
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
   },
-{
+  {
     title: 'Lost Highway',
     director: 'David Lynch',
     actors: [
@@ -5846,7 +5846,7 @@ export const baseMoviesThriller: BaseMovie[] = [
     countryOrigin: ['États-Unis', 'France'],
     selectDisplayOrder: 0,
   },
-{
+  {
     title: 'Inland Empire',
     director: 'David Lynch',
     actors: [
@@ -5882,7 +5882,7 @@ export const baseMoviesThriller: BaseMovie[] = [
     countryOrigin: ['États-Unis', 'France', 'Pologne'],
     selectDisplayOrder: 0,
   },
-{
+  {
     title: 'Un plan simple',
     director: 'Sam Raimi',
     actors: [
@@ -5918,7 +5918,7 @@ export const baseMoviesThriller: BaseMovie[] = [
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
   },
-{
+  {
     title: 'The Gift',
     director: 'Sam Raimi',
     actors: [
@@ -5954,7 +5954,7 @@ export const baseMoviesThriller: BaseMovie[] = [
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
   },
-{
+  {
     title: 'Conversation Secrète',
     director: 'Francis Ford Coppola',
     actors: [
@@ -5990,7 +5990,7 @@ export const baseMoviesThriller: BaseMovie[] = [
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
   },
-{
+  {
     title: 'Eastern Promises',
     director: 'David Cronenberg',
     actors: [
@@ -6026,7 +6026,7 @@ export const baseMoviesThriller: BaseMovie[] = [
     countryOrigin: ['Royaume-Uni', 'Canada', 'États-Unis'],
     selectDisplayOrder: 0,
   },
-{
+  {
     title: 'Mort sur le Nil',
     director: 'Kenneth Branagh',
     actors: [
@@ -6066,7 +6066,7 @@ export const baseMoviesThriller: BaseMovie[] = [
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 5,
   },
-{
+  {
     title: 'Old',
     director: 'M. Night Shyamalan',
     actors: [
@@ -6102,7 +6102,7 @@ export const baseMoviesThriller: BaseMovie[] = [
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 5,
   },
-{
+  {
     title: 'The Gentlemen',
     director: 'Guy Ritchie',
     actors: [
@@ -6138,7 +6138,7 @@ export const baseMoviesThriller: BaseMovie[] = [
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 5,
   },
-{
+  {
     title: 'Parasite',
     director: 'Bong Joon-ho',
     actors: [
@@ -6174,7 +6174,7 @@ export const baseMoviesThriller: BaseMovie[] = [
     countryOrigin: ['Corée du Sud'],
     selectDisplayOrder: 30,
   },
-{
+  {
     title: 'BlacKkKlansman',
     director: 'Spike Lee',
     actors: [
@@ -6210,7 +6210,7 @@ export const baseMoviesThriller: BaseMovie[] = [
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 5,
   },
-{
+  {
     title: "Le Crime de l'Orient-Express",
     director: 'Kenneth Branagh',
     actors: [
@@ -6250,7 +6250,7 @@ export const baseMoviesThriller: BaseMovie[] = [
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 5,
   },
-{
+  {
     title: 'Public Enemies',
     director: 'Michael Mann',
     actors: [
@@ -6272,7 +6272,7 @@ export const baseMoviesThriller: BaseMovie[] = [
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 5,
   },
-{
+  {
     title: 'Le Village',
     director: 'M. Night Shyamalan',
     actors: [
@@ -6308,7 +6308,7 @@ export const baseMoviesThriller: BaseMovie[] = [
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 5,
   },
-{
+  {
     title: 'Insomnia',
     director: 'Christopher Nolan',
     actors: [
@@ -6344,7 +6344,7 @@ export const baseMoviesThriller: BaseMovie[] = [
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 5,
   },
-{
+  {
     title: 'Tower of Terror',
     director: 'D.J. MacHale',
     actors: [
@@ -6380,7 +6380,7 @@ export const baseMoviesThriller: BaseMovie[] = [
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 5,
   },
-{
+  {
     title: 'Wedding Nightmare',
     director: 'Tyler Gillett',
     actors: [
@@ -6399,7 +6399,7 @@ export const baseMoviesThriller: BaseMovie[] = [
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
   },
-{
+  {
     title: 'Jessie',
     director: 'Mike Flanagan',
     actors: [
@@ -6418,7 +6418,7 @@ export const baseMoviesThriller: BaseMovie[] = [
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
   },
-{
+  {
     title: "Don't Breathe",
     director: 'Fede Álvarez',
     actors: [
@@ -6437,7 +6437,7 @@ export const baseMoviesThriller: BaseMovie[] = [
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
   },
-{
+  {
     title: 'I Spit on Your Grave',
     director: 'Steven R. Monroe',
     actors: [
@@ -6456,7 +6456,7 @@ export const baseMoviesThriller: BaseMovie[] = [
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
   },
-{
+  {
     title: 'Ma',
     director: 'Tate Taylor',
     actors: [
@@ -6475,7 +6475,7 @@ export const baseMoviesThriller: BaseMovie[] = [
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
   },
-{
+  {
     title: 'Intrusion',
     director: 'Adam Salky',
     actors: [
@@ -6497,7 +6497,7 @@ export const baseMoviesThriller: BaseMovie[] = [
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
   },
-{
+  {
     title: "L'intrusion",
     director: 'Natalie E. James',
     actors: [
@@ -6519,7 +6519,7 @@ export const baseMoviesThriller: BaseMovie[] = [
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
   },
-{
+  {
     title: 'The Weekend Away',
     director: 'Kim Farrant',
     actors: [
@@ -6538,7 +6538,7 @@ export const baseMoviesThriller: BaseMovie[] = [
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
   },
-{
+  {
     title: 'La femme à la fenêtre',
     director: 'Joe Wright',
     actors: [
@@ -6557,7 +6557,7 @@ export const baseMoviesThriller: BaseMovie[] = [
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
   },
-{
+  {
     title: 'Obsession secrète',
     director: 'Peter Sullivan',
     actors: [
@@ -6579,7 +6579,7 @@ export const baseMoviesThriller: BaseMovie[] = [
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
   },
-{
+  {
     title: 'Fatale',
     director: 'Deon Taylor',
     actors: [
@@ -6598,7 +6598,7 @@ export const baseMoviesThriller: BaseMovie[] = [
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
   },
-{
+  {
     title: 'Rencontre fatale',
     director: 'Deon Taylor',
     actors: [
@@ -6620,7 +6620,7 @@ export const baseMoviesThriller: BaseMovie[] = [
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
   },
-{
+  {
     title: 'Mea Culpa',
     director: 'Tyler Perry',
     actors: [
@@ -6639,7 +6639,7 @@ export const baseMoviesThriller: BaseMovie[] = [
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
   },
-{
+  {
     title: 'Double vice',
     director: 'André van Duren',
     actors: [
@@ -6661,7 +6661,7 @@ export const baseMoviesThriller: BaseMovie[] = [
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
   },
-{
+  {
     title: 'Liaison fatale',
     director: 'Adrian Lyne',
     actors: [
@@ -6680,7 +6680,7 @@ export const baseMoviesThriller: BaseMovie[] = [
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
   },
-{
+  {
     title: 'Fair Play',
     director: 'Chloe Domont',
     actors: [
@@ -6699,7 +6699,7 @@ export const baseMoviesThriller: BaseMovie[] = [
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
   },
-{
+  {
     title: 'The Jane Doe Identity',
     director: 'André Øvredal',
     actors: [
@@ -6721,7 +6721,7 @@ export const baseMoviesThriller: BaseMovie[] = [
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
   },
-{
+  {
     title: 'Action ou vérité',
     director: 'Jeff Wadlow',
     actors: [
@@ -6748,7 +6748,7 @@ export const baseMoviesThriller: BaseMovie[] = [
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
   },
-{
+  {
     title: 'Play or Die',
     director: 'Jacques Kluger',
     actors: [
@@ -6767,7 +6767,7 @@ export const baseMoviesThriller: BaseMovie[] = [
     countryOrigin: ['France'],
     selectDisplayOrder: 0,
   },
-{
+  {
     title: 'Couple modèle',
     director: 'Peter Askin',
     actors: [
@@ -6786,7 +6786,7 @@ export const baseMoviesThriller: BaseMovie[] = [
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
   },
-{
+  {
     title: 'Jamais plus',
     director: 'Justin Baldoni',
     actors: [
@@ -6805,7 +6805,7 @@ export const baseMoviesThriller: BaseMovie[] = [
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
   },
-{
+  {
     title: 'Escape Room',
     director: 'Adam Robitel',
     actors: [
@@ -6824,7 +6824,7 @@ export const baseMoviesThriller: BaseMovie[] = [
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
   },
-{
+  {
     title: 'Final Girl',
     director: 'Tyler Shields',
     actors: [
@@ -6843,7 +6843,7 @@ export const baseMoviesThriller: BaseMovie[] = [
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
   },
-{
+  {
     title: 'Le cas 39',
     director: 'Christian Alvart',
     actors: [
@@ -6862,7 +6862,7 @@ export const baseMoviesThriller: BaseMovie[] = [
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
   },
-{
+  {
     title: 'Tin et Tina',
     director: 'Rubin Stein',
     actors: [
@@ -6881,7 +6881,7 @@ export const baseMoviesThriller: BaseMovie[] = [
     countryOrigin: ['Espagne'],
     selectDisplayOrder: 0,
   },
-{
+  {
     title: 'Run Rabbit Run',
     director: 'Daina Reid',
     actors: [
@@ -6900,7 +6900,7 @@ export const baseMoviesThriller: BaseMovie[] = [
     countryOrigin: ['Australie'],
     selectDisplayOrder: 0,
   },
-{
+  {
     title: 'Les guetteurs',
     director: 'Ishana Shyamalan',
     actors: [
@@ -6919,7 +6919,7 @@ export const baseMoviesThriller: BaseMovie[] = [
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
   },
-{
+  {
     title: 'I See You',
     director: 'Adam Randall',
     actors: [
@@ -6938,7 +6938,7 @@ export const baseMoviesThriller: BaseMovie[] = [
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
   },
-{
+  {
     title: 'Le monde de John',
     director: 'Pascual Sisto',
     actors: [
@@ -6957,7 +6957,7 @@ export const baseMoviesThriller: BaseMovie[] = [
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
   },
-{
+  {
     title: 'Dans les angles morts',
     director: 'Shari Springer Berman, Robert Pulcini',
     actors: [
@@ -6976,7 +6976,7 @@ export const baseMoviesThriller: BaseMovie[] = [
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
   },
-{
+  {
     title: 'Identity',
     director: 'James Mangold',
     actors: [
@@ -6995,7 +6995,7 @@ export const baseMoviesThriller: BaseMovie[] = [
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
   },
-{
+  {
     title: 'Jeu intérieur',
     director: 'Greg Jardin',
     actors: [
@@ -7014,7 +7014,7 @@ export const baseMoviesThriller: BaseMovie[] = [
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
   },
-{
+  {
     title: 'Re Member',
     director: 'Eiichirō Hasumi',
     actors: [
@@ -7033,7 +7033,7 @@ export const baseMoviesThriller: BaseMovie[] = [
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
   },
-{
+  {
     title: "Ne t'endors pas",
     director: 'Mike Flanagan',
     actors: [
@@ -7052,7 +7052,7 @@ export const baseMoviesThriller: BaseMovie[] = [
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
   },
-{
+  {
     title: "Don't Worry Darling",
     director: 'Olivia Wilde',
     actors: [
@@ -7071,7 +7071,7 @@ export const baseMoviesThriller: BaseMovie[] = [
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
   },
-{
+  {
     title: 'Les couleurs du mal Rouge',
     director: 'Adrian Panek',
     actors: [
@@ -7090,7 +7090,7 @@ export const baseMoviesThriller: BaseMovie[] = [
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
   },
-{
+  {
     title: 'The Privilege',
     director: 'Felix Fuchssteiner',
     actors: [
@@ -7109,7 +7109,7 @@ export const baseMoviesThriller: BaseMovie[] = [
     countryOrigin: ['Allemagne'],
     selectDisplayOrder: 0,
   },
-{
+  {
     title: 'Séminaire',
     director: 'Patrik Eklund',
     actors: [
@@ -7128,7 +7128,7 @@ export const baseMoviesThriller: BaseMovie[] = [
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
   },
-{
+  {
     title: "N'écoute pas",
     director: 'Ángel Gómez Hernández',
     actors: [
@@ -7147,7 +7147,7 @@ export const baseMoviesThriller: BaseMovie[] = [
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
   },
-{
+  {
     title: 'Hypnotique',
     director: 'Matt Angel, Suzanne Coote',
     actors: [
@@ -7166,7 +7166,7 @@ export const baseMoviesThriller: BaseMovie[] = [
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
   },
-{
+  {
     title: "Don't Move",
     director: 'Adam Schindler, Brian Netto',
     actors: [
@@ -7185,7 +7185,7 @@ export const baseMoviesThriller: BaseMovie[] = [
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
   },
-{
+  {
     title: 'La prison de verre',
     director: 'Daniel Sackheim',
     actors: [
@@ -7204,7 +7204,7 @@ export const baseMoviesThriller: BaseMovie[] = [
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
   },
-{
+  {
     title: 'Locked In',
     director: 'Carl Tibbetts',
     actors: [
@@ -7223,7 +7223,7 @@ export const baseMoviesThriller: BaseMovie[] = [
     countryOrigin: ['Royaume-Uni'],
     selectDisplayOrder: 0,
   },
-{
+  {
     title: 'Brick',
     director: 'Rian Johnson',
     actors: [
@@ -7242,7 +7242,7 @@ export const baseMoviesThriller: BaseMovie[] = [
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
   },
-{
+  {
     title: 'Chez moi',
     director: 'David Pastor',
     actors: [
@@ -7261,7 +7261,7 @@ export const baseMoviesThriller: BaseMovie[] = [
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
   },
-{
+  {
     title: 'The Perfection',
     director: 'Richard Shepard',
     actors: [
@@ -7280,7 +7280,7 @@ export const baseMoviesThriller: BaseMovie[] = [
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
   },
-{
+  {
     title: 'Eileen',
     director: 'William Oldroyd',
     actors: [
@@ -7299,7 +7299,7 @@ export const baseMoviesThriller: BaseMovie[] = [
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
   },
-{
+  {
     title: 'Escape Game 2',
     director: 'Adam Robitel',
     actors: [
@@ -7318,7 +7318,7 @@ export const baseMoviesThriller: BaseMovie[] = [
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
   },
-{
+  {
     title: 'The Rip',
     director: 'Joe Carnahan',
     actors: [
@@ -7354,7 +7354,7 @@ export const baseMoviesThriller: BaseMovie[] = [
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 5,
   },
-{
+  {
     title: 'Gourou',
     director: 'Yann Gozlan',
     actors: [
@@ -7390,7 +7390,7 @@ export const baseMoviesThriller: BaseMovie[] = [
     countryOrigin: ['France'],
     selectDisplayOrder: 5,
   },
-{
+  {
     title: 'Bugonia',
     director: 'Yórgos Lánthimos',
     actors: [
@@ -7420,7 +7420,7 @@ export const baseMoviesThriller: BaseMovie[] = [
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 5,
   },
-{
+  {
     title: 'The Ghost Writer',
     director: 'Roman Polanski',
     actors: [
@@ -7438,5 +7438,5 @@ export const baseMoviesThriller: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['Royaume-Uni'],
     selectDisplayOrder: 5,
-  }
+  },
 ];

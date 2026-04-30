@@ -40,6 +40,10 @@
     <span class="missing-badge" style="background-color: #9c27b0; color: white"
       >Emprunté à {{ book.borrowed }}</span
     >
+    } @if (book.owned && selectedView === 'readlist' && !isBaseEntityView) {
+    <span class="missing-badge" style="background-color: #2e7d32; color: white"
+      >Possédé</span
+    >
     } @if (book.loaned && !isBaseEntityView) {
     <span class="missing-badge" style="background-color: #00695c; color: white"
       >Prêté à {{ book.loaned }}</span
