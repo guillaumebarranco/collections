@@ -427,13 +427,14 @@
   <!-- Classic Movies list -->
   } @else {
   <div class="movies">
-    @for (movie of sortedMovies(); track `${movie.title}-${movie.releaseDate}`;
-    let i = $index) {
+    @for (movie of selectedView() === 'watched' ? paginatedMovies() :
+    sortedMovies(); track `${movie.title}-${movie.releaseDate}`; let i = $index)
+    {
     <div class="movie-card">
       <app-movie
         [movie]="movie"
         [list]="sortedMovies()"
-        [index]="i"
+        [index]="selectedView() === 'watched' ? paginationStartIndex() + i : i"
         [readOnly]="selectedView() === 'watchlist'"
         [isWatchList]="selectedView() === 'watchlist'"
         [selectedView]="selectedView()"
@@ -457,6 +458,17 @@
     </div>
     }
   </div>
+  @if (selectedView() === 'watched') {
+  <app-pagination
+    [totalItems]="sortedMovies().length"
+    [currentPage]="currentPage()"
+    [pageSize]="pageSize()"
+    [pageSizeOptions]="pageSizeOptions"
+    [maxVisiblePages]="10"
+    (currentPageChange)="onPageChange($event)"
+    (pageSizeChange)="onPageSizeChange($event)"
+  />
+  }
   } }
 </div>
 

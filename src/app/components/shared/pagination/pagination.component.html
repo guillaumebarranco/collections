@@ -1,0 +1,62 @@
+@if (hasPagination) {
+<div class="pagination-container">
+  <div class="pagination-meta">
+    <span>Affichage {{ startItem }}-{{ endItem }} sur {{ totalItems }}</span>
+    <label for="page-size-select">Éléments par page :</label>
+    <select
+      id="page-size-select"
+      [ngModel]="pageSize"
+      (ngModelChange)="onPageSizeSelectionChange($event)"
+    >
+      @for (size of pageSizeOptions; track size) {
+      <option [value]="size">{{ getPageSizeLabel(size) }}</option>
+      }
+    </select>
+  </div>
+
+  <div class="pagination-controls">
+    <button
+      type="button"
+      (click)="goToPreviousPage()"
+      [disabled]="currentPage <= 1"
+    >
+      Précédent
+    </button>
+
+    <div class="pagination-pages">
+      @for (item of visiblePages; track $index) { @if (item === 'ellipsis') {
+      <span class="pagination-ellipsis">…</span>
+      } @else {
+      <button
+        type="button"
+        [class.active]="item === currentPage"
+        (click)="goToPage(item)"
+      >
+        {{ item }}
+      </button>
+      } }
+    </div>
+
+    <button
+      type="button"
+      (click)="goToNextPage()"
+      [disabled]="currentPage >= totalPages"
+    >
+      Suivant
+    </button>
+  </div>
+
+  <div class="pagination-goto">
+    <label for="go-to-page">Aller à la page :</label>
+    <input
+      id="go-to-page"
+      type="number"
+      min="1"
+      [max]="totalPages"
+      [(ngModel)]="goToPageInput"
+      (keyup.enter)="applyGoToPage()"
+    />
+    <button type="button" (click)="applyGoToPage()">Aller</button>
+  </div>
+</div>
+}

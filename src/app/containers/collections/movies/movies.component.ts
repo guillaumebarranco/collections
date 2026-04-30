@@ -58,6 +58,7 @@ import {
 import { getApiBaseUrl, isLocalhost } from '../../../core/config';
 import { MoviesHeaderComponent } from './movies-header/movies-header.component';
 import { LoaderComponent } from '../../../components/shared/loader/loader.component';
+import { PaginationComponent } from '../../../components/shared/pagination/pagination.component';
 import { getFullMovie } from '../../../helpers/full-entities-helper';
 import {
   updateWatchPriority,
@@ -90,6 +91,7 @@ type RecommendedMovie = Movie & {
 
     MoviesHeaderComponent,
     LoaderComponent,
+    PaginationComponent,
     StatsDisplayComponent,
     SortDropdownComponent,
   ],
@@ -115,6 +117,8 @@ export class MoviesComponent implements OnInit {
   selectedSort = signal<string>('lastViewedDate');
   selectedView = signal<MovieView>('watched');
   selectedYearFilter = signal<string>('all');
+  currentPage = signal<number>(1);
+  pageSize = signal<number>(50);
   searchTerm = signal<string>('');
   showTopFiveRank = signal<boolean>(false);
   isViewConfigOpen = signal<boolean>(false);
@@ -194,6 +198,25 @@ export class MoviesComponent implements OnInit {
     effect(() => {
       if (this.selectedView() === 'recommendations') {
         void this.loadRecommendations();
+      }
+    });
+
+    effect(() => {
+      this.selectedView();
+      this.selectedSort();
+      this.selectedYearFilter();
+      this.searchTerm();
+      this.selectedListFilter();
+      this.currentPage.set(1);
+    });
+
+    effect(() => {
+      const totalItems = this.sortedMovies().length;
+      const size = this.pageSize();
+      const totalPages =
+        size === -1 ? 1 : Math.max(1, Math.ceil(totalItems / size));
+      if (this.currentPage() > totalPages) {
+        this.currentPage.set(totalPages);
       }
     });
   }
@@ -637,6 +660,22 @@ export class MoviesComponent implements OnInit {
   }
 
   readonly followedIdsForRecommendations = signal<string[]>([]);
+  readonly pageSizeOptions = [50, 100, 200, 500, -1];
+
+  readonly paginationStartIndex = computed<number>(() => {
+    if (this.pageSize() === -1) return 0;
+    return (this.currentPage() - 1) * this.pageSize();
+  });
+
+  readonly paginatedMovies = computed<Movie[]>(() => {
+    const movies = this.sortedMovies();
+    const size = this.pageSize();
+    if (size === -1) {
+      return movies;
+    }
+    const start = this.paginationStartIndex();
+    return movies.slice(start, start + size);
+  });
 
   async loadRecommendations() {
     if (this.isLoadingRecommendations()) return;
@@ -1033,5 +1072,14 @@ export class MoviesComponent implements OnInit {
       const ok = await addMovieToList(movie, name.trim(), userId);
       if (ok) await this.refreshMovies();
     }
+  }
+
+  onPageChange(page: number): void {
+    this.currentPage.set(page);
+  }
+
+  onPageSizeChange(size: number): void {
+    this.pageSize.set(size);
+    this.currentPage.set(1);
   }
 }
