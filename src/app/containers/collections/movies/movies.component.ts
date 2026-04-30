@@ -111,8 +111,10 @@ export class MoviesComponent implements OnInit {
   private isInitializing = false;
   private isLoadingViewConfig = false;
   private isLoadingPreferences = false;
+  private isLoadingPaginationPreferences = false;
   private readonly viewConfigStorageKey = 'movies_view_config';
   private readonly viewPreferencesStorageKey = 'movies_view_preferences';
+  private readonly paginationPageSizeStorageKey = 'movies_pagination_page_size';
 
   selectedSort = signal<string>('lastViewedDate');
   selectedView = signal<MovieView>('watched');
@@ -189,6 +191,14 @@ export class MoviesComponent implements OnInit {
     });
 
     effect(() => {
+      if (this.isLoadingPaginationPreferences) return;
+      this.localStorageService.setItem(
+        this.paginationPageSizeStorageKey,
+        this.pageSize()
+      );
+    });
+
+    effect(() => {
       const view = this.selectedView();
       if (!this.isViewOptionVisible(view)) {
         this.selectedView.set('watched');
@@ -222,6 +232,7 @@ export class MoviesComponent implements OnInit {
   }
 
   ngOnInit() {
+    this.loadPaginationPreferencesFromStorage();
     this.loadViewConfigFromStorage();
     this.loadViewPreferencesFromStorage();
     // Lire les paramètres de l'URL au démarrage
@@ -923,6 +934,17 @@ export class MoviesComponent implements OnInit {
       toReWatch: parsed.toReWatch ?? true,
     });
     this.isLoadingViewConfig = false;
+  }
+
+  private loadPaginationPreferencesFromStorage(): void {
+    const storedPageSize = this.localStorageService.getItem<number>(
+      this.paginationPageSizeStorageKey
+    );
+    if (storedPageSize == null) return;
+    if (!this.pageSizeOptions.includes(storedPageSize)) return;
+    this.isLoadingPaginationPreferences = true;
+    this.pageSize.set(storedPageSize);
+    this.isLoadingPaginationPreferences = false;
   }
 
   getMovieRecommendationText(movie: Movie): string {
