@@ -920,23 +920,6 @@ export const cassandreMovies: UserMovies = [
   },
 
   {
-    title: 'Drôles de dames',
-    director: 'McG',
-    rating: 0,
-    timesWatched: 1,
-    firstViewedDate: '',
-    lastViewedDate: '',
-    seenAtCinema: false,
-    owned: false,
-    wantToSeeAgain: false,
-    watchPriority: 1,
-    ratingComment: '',
-    inList: [],
-    borrowed: '',
-    loaned: '',
-  },
-
-  {
     title: 'Kirikou et la Sorcière',
     director: 'Michel Ocelot',
     rating: 0,

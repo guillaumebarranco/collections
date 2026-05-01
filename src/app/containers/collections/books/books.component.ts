@@ -30,6 +30,7 @@ import {
   getBooksByCountry,
   getBooksBySaga,
   getBooksSortOptions,
+  getDefaultBooksSortForView,
   getSortedBooks,
   yearFilterOptions,
 } from './books.utils';
@@ -166,7 +167,8 @@ export class BooksComponent implements OnInit {
         queryParams.view = null;
       }
 
-      if (this.selectedSort() !== 'readDate') {
+      const defaultSort = getDefaultBooksSortForView(this.selectedView());
+      if (this.selectedSort() !== defaultSort) {
         queryParams.sort = this.selectedSort();
       } else {
         queryParams.sort = null;
@@ -188,11 +190,19 @@ export class BooksComponent implements OnInit {
 
     effect(() => {
       if (this.isLoadingPreferences || this.isInitializing) return;
-      const preferences = {
-        view: this.selectedView(),
-        sort: this.selectedSort(),
+      const view = this.selectedView();
+      const preferences: {
+        view: BookView;
+        year: string;
+        sort?: string;
+      } = {
+        view,
         year: this.selectedYearFilter(),
       };
+      // « À lire » / « En cours » : ne pas persister le tri (retour sur la vue = priorité par défaut).
+      if (view !== 'readlist' && view !== 'readingInProgress') {
+        preferences.sort = this.selectedSort();
+      }
       this.localStorageService.setItem(
         this.viewPreferencesStorageKey,
         preferences
@@ -330,6 +340,13 @@ export class BooksComponent implements OnInit {
         this.selectedYearFilter.set(queryParams['year']);
       }
     }
+
+    const allowedSorts = new Set(this.sortOptions().map((o) => o.value));
+    if (!allowedSorts.has(this.selectedSort())) {
+      this.selectedSort.set(
+        getDefaultBooksSortForView(this.selectedView())
+      );
+    }
   }
 
   openViewConfig(): void {
@@ -394,6 +411,11 @@ export class BooksComponent implements OnInit {
       this.selectedView.set(parsed.view);
     }
     if (
+      parsed.view === 'readlist' ||
+      parsed.view === 'readingInProgress'
+    ) {
+      this.selectedSort.set('readPriority');
+    } else if (
       parsed.sort &&
       this.sortOptions().some((opt) => opt.value === parsed.sort)
     ) {
@@ -578,10 +600,7 @@ export class BooksComponent implements OnInit {
   });
 
   sortedBooks = computed(() =>
-    this.selectedView() === 'readlist' ||
-    this.selectedView() === 'readingInProgress'
-      ? getSortedBooks([...this.filteredBooksByYear()], 'readPriority')
-      : getSortedBooks([...this.filteredBooksByYear()], this.selectedSort())
+    getSortedBooks([...this.filteredBooksByYear()], this.selectedSort())
   );
 
   stats = computed<StatItem[]>(() => {
@@ -651,6 +670,9 @@ export class BooksComponent implements OnInit {
 
   onViewChange(view: BookView) {
     this.selectedView.set(view);
+    if (view === 'readlist' || view === 'readingInProgress') {
+      this.selectedSort.set('readPriority');
+    }
     if (view === 'recommendations') {
       void this.loadRecommendations();
     }

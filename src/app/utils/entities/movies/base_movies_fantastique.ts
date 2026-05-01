@@ -1232,4 +1232,312 @@ export const baseMoviesFantastique: BaseMovie[] = [
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 5,
   },
+
+  {
+    title: 'La Forme de l\'eau',
+    director: 'Guillermo del Toro',
+    actors: [
+      {
+        name: 'Sally Hawkins',
+      },
+      {
+        name: 'Michael Shannon',
+      },
+      {
+        name: 'Richard Jenkins',
+      },
+    ],
+    coverUrl: '/movies_pictures/the_shape_of_water.jpg',
+    releaseDate: '2018-02-21',
+    length: 123,
+    genre: ['Fantastique'],
+    saga: '',
+    description: '',
+    fromEntity: null,
+    countryOrigin: ['États-Unis'],
+    selectDisplayOrder: 5,
+  },
+  {
+    title: 'Le Chasseur et la Reine des glaces',
+    director: 'Cedric Nicolas-Troyan',
+    actors: [
+      {
+        name: 'Chris Hemsworth',
+      },
+      {
+        name: 'Charlize Theron',
+      },
+      {
+        name: 'Emily Blunt',
+      },
+    ],
+    coverUrl: '/movies_pictures/the_huntsman_winter_s_war.jpg',
+    releaseDate: '2016-04-20',
+    length: 114,
+    genre: ['Fantastique'],
+    saga: '',
+    description: '',
+    fromEntity: null,
+    countryOrigin: ['États-Unis'],
+    selectDisplayOrder: 5,
+  },
+  {
+    title: 'Dracula Untold',
+    director: 'Gary Shore',
+    actors: [
+      {
+        name: 'Luke Evans',
+      },
+      {
+        name: 'Sarah Gadon',
+      },
+      {
+        name: 'Dominic Cooper',
+      },
+    ],
+    coverUrl: '/movies_pictures/dracula_untold.jpg',
+    releaseDate: '2014-10-01',
+    length: 92,
+    genre: ['Fantastique'],
+    saga: '',
+    description: '',
+    fromEntity: {
+      entityType: 'book',
+      title: 'Dracula',
+      secondEntityKey: 'Bram Stoker',
+    },
+    countryOrigin: ['États-Unis'],
+    selectDisplayOrder: 5,
+  },
+  {
+    title: 'Blanche-Neige et le Chasseur',
+    director: 'Rupert Sanders',
+    actors: [
+      {
+        name: 'Kristen Stewart',
+      },
+      {
+        name: 'Chris Hemsworth',
+      },
+      {
+        name: 'Charlize Theron',
+      },
+    ],
+    coverUrl: '/movies_pictures/snow_white_and_the_huntsman.jpg',
+    releaseDate: '2012-06-13',
+    length: 126,
+    genre: ['Fantastique'],
+    saga: '',
+    description: '',
+    fromEntity: null,
+    countryOrigin: ['États-Unis'],
+    selectDisplayOrder: 5,
+  },
+  {
+    title: 'Les Chroniques de Spiderwick',
+    director: 'Mark Waters',
+    actors: [
+      {
+        name: 'Freddie Highmore',
+      },
+      {
+        name: 'Mary-Louise Parker',
+      },
+      {
+        name: 'Sarah Bolger',
+      },
+    ],
+    coverUrl: '/movies_pictures/the_spiderwick_chronicles.jpg',
+    releaseDate: '2008-04-16',
+    length: 96,
+    genre: ['Fantastique'],
+    saga: '',
+    description: '',
+    fromEntity: null,
+    countryOrigin: ['États-Unis'],
+    selectDisplayOrder: 5,
+  },
+  {
+    title: 'À la croisée des mondes : La Boussole d\'or',
+    director: 'Chris Weitz',
+    actors: [
+      {
+        name: 'Dakota Blue Richards',
+      },
+      {
+        name: 'Nicole Kidman',
+      },
+      {
+        name: 'Daniel Craig',
+      },
+    ],
+    coverUrl: '/movies_pictures/the_golden_compass.jpg',
+    releaseDate: '2007-12-05',
+    length: 113,
+    genre: ['Fantastique', 'Aventure'],
+    saga: '',
+    description: '',
+    fromEntity: {
+      entityType: 'book',
+      title: 'Les Royaumes du Nord (À la croisée des mondes, #1)',
+      secondEntityKey: 'Philip Pullman',
+    },
+    countryOrigin: ['États-Unis'],
+    selectDisplayOrder: 5,
+  },
+  {
+    title: 'Eragon',
+    director: 'Stefen Fangmeier',
+    actors: [
+      {
+        name: 'Ed Speleers',
+      },
+      {
+        name: 'Jeremy Irons',
+      },
+      {
+        name: 'Sienna Guillory',
+      },
+      {
+        name: 'Djimon Hounsou',
+      },
+    ],
+    coverUrl: '/movies_pictures/eragon.jpg',
+    releaseDate: '2006-12-20',
+    length: 103,
+    genre: ['Fantastique'],
+    saga: '',
+    description: '',
+    fromEntity: {
+      entityType: 'book',
+      title: 'Eragon (Eragon, #1)',
+      secondEntityKey: 'Christopher Paolini',
+    },
+    countryOrigin: ['États-Unis'],
+    selectDisplayOrder: 30,
+  },
+  {
+    title: 'Donnie Darko',
+    director: 'Richard Kelly',
+    actors: [
+      {
+        name: 'Jake Gyllenhaal',
+      },
+      {
+        name: 'Jena Malone',
+      },
+      {
+        name: 'Drew Barrymore',
+      },
+    ],
+    coverUrl: '/movies_pictures/donnie_darko.jpg',
+    releaseDate: '2002-01-30',
+    length: 113,
+    genre: ['Fantastique'],
+    saga: '',
+    description: '',
+    fromEntity: null,
+    countryOrigin: ['États-Unis'],
+    selectDisplayOrder: 5,
+  },
+  {
+    title: 'The Crow',
+    director: 'Alex Proyas',
+    actors: [
+      {
+        name: 'Brandon Lee',
+      },
+      {
+        name: 'Rochelle Davis',
+      },
+      {
+        name: 'Ernie Hudson',
+      },
+    ],
+    coverUrl: '/movies_pictures/the_crow.jpg',
+    releaseDate: '1994-08-03',
+    length: 102,
+    genre: ['Fantastique'],
+    saga: '',
+    description: '',
+    fromEntity: null,
+    countryOrigin: ['États-Unis'],
+    selectDisplayOrder: 5,
+  },
+  {
+    title: 'Dracula',
+    director: 'Francis Ford Coppola',
+    actors: [
+      {
+        name: 'Gary Oldman',
+      },
+      {
+        name: 'Winona Ryder',
+      },
+      {
+        name: 'Anthony Hopkins',
+      },
+    ],
+    coverUrl: '/movies_pictures/bram_stoker_s_dracula.jpg',
+    releaseDate: '1993-01-13',
+    length: 128,
+    genre: ['Fantastique'],
+    saga: '',
+    description: '',
+    fromEntity: {
+      entityType: 'book',
+      title: 'Dracula',
+      secondEntityKey: 'Bram Stoker',
+    },
+    countryOrigin: ['États-Unis'],
+    selectDisplayOrder: 5,
+  },
+  {
+    title: 'Willow',
+    director: 'Ron Howard',
+    actors: [
+      {
+        name: 'Warwick Davis',
+      },
+      {
+        name: 'Val Kilmer',
+      },
+      {
+        name: 'Joanne Whalley',
+      },
+    ],
+    coverUrl: '/movies_pictures/willow.jpg',
+    releaseDate: '1988-11-02',
+    length: 125,
+    genre: ['Fantastique'],
+    saga: '',
+    description: '',
+    fromEntity: null,
+    countryOrigin: ['États-Unis'],
+    selectDisplayOrder: 5,
+  },
+  {
+    title: 'L\'Histoire sans fin',
+    director: 'Wolfgang Petersen',
+    actors: [
+      {
+        name: 'Bill Murray',
+      },
+      {
+        name: 'Dan Aykroyd',
+      },
+      {
+        name: 'Harold Ramis',
+      },
+    ],
+    coverUrl: '/movies_pictures/the_neverending_story.jpg',
+    releaseDate: '1984-11-21',
+    length: 94,
+    genre: ['Fantastique'],
+    saga: '',
+    description: '',
+    fromEntity: null,
+    countryOrigin: ['États-Unis'],
+    selectDisplayOrder: 5,
+  },
 ];

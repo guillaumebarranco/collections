@@ -3848,4 +3848,273 @@ export const baseMoviesSagaAction: BaseMovie[] = [
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
   },
+
+  {
+    title: 'Karate Kid: Legends',
+    director: 'Jonathan Entwistle',
+    actors: [
+      {
+        name: 'Juliette Armanet',
+      },
+      {
+        name: 'Bastien Bouillon',
+      },
+      {
+        name: 'François Rollin',
+      },
+      {
+        name: 'Tewfik Jallab',
+      },
+      {
+        name: 'Dominique Blanc',
+      },
+    ],
+    coverUrl: '/movies_pictures/karate_kid_legends.jpg',
+    releaseDate: '2025-01-01',
+    length: 94,
+    genre: ['Action'],
+    saga: 'Karate Kid',
+    description: '',
+    fromEntity: null,
+    countryOrigin: ['États-Unis'],
+    selectDisplayOrder: 5,
+  },
+  {
+    title: 'Last Bullet',
+    director: 'Guillaume Pierret',
+    actors: [
+      {
+        name: 'Ben Wang',
+      },
+      {
+        name: 'Jackie Chan',
+      },
+      {
+        name: 'Ralph Macchio',
+      },
+      {
+        name: 'Joshua Jackson',
+      },
+      {
+        name: 'Sadie Stanley',
+      },
+      {
+        name: 'Ming-Na Wen',
+      },
+    ],
+    coverUrl: '/movies_pictures/last_bullet.jpg',
+    releaseDate: '2025-01-01',
+    length: 111,
+    genre: ['Action'],
+    saga: 'Balle Perdue',
+    description: '',
+    fromEntity: null,
+    countryOrigin: ['France'],
+    selectDisplayOrder: 5,
+  },
+  {
+    title: 'Balle perdue 2',
+    director: 'Guillaume Pierret',
+    actors: [
+      {
+        name: 'Alban Lenoir',
+      },
+      {
+        name: 'Nicolas Duvauchelle',
+      },
+      {
+        name: 'Stéfi Celma',
+      },
+    ],
+    coverUrl: '/movies_pictures/balle_perdue_2.jpg',
+    releaseDate: '2022-11-10',
+    length: 98,
+    genre: ['Action'],
+    saga: 'Balle Perdue',
+    description: '',
+    fromEntity: null,
+    countryOrigin: ['France'],
+    selectDisplayOrder: 5,
+  },
+  {
+    title: 'Jumanji: Next Level',
+    director: 'Jake Kasdan',
+    actors: [
+      {
+        name: 'Dwayne Johnson',
+      },
+      {
+        name: 'Jack Black',
+      },
+      {
+        name: 'Kevin Hart',
+      },
+    ],
+    coverUrl: '/movies_pictures/jumanji_next_level.jpg',
+    releaseDate: '2019-12-04',
+    length: 114,
+    genre: ['Action'],
+    saga: 'Jumanji',
+    description: '',
+    fromEntity: null,
+    countryOrigin: ['États-Unis'],
+    selectDisplayOrder: 5,
+  },
+  {
+    title: 'Equalizer 2',
+    director: 'Antoine Fuqua',
+    actors: [
+      {
+        name: 'Denzel Washington',
+      },
+      {
+        name: 'Pedro Pascal',
+      },
+      {
+        name: 'Ashton Sanders',
+      },
+    ],
+    coverUrl: '/movies_pictures/the_equalizer_2.jpg',
+    releaseDate: '2018-08-15',
+    length: 121,
+    genre: ['Action'],
+    saga: 'Equalizer',
+    description: '',
+    fromEntity: null,
+    countryOrigin: ['États-Unis'],
+    selectDisplayOrder: 5,
+  },
+  {
+    title: 'Jumanji : Bienvenue dans la jungle',
+    director: 'Jake Kasdan',
+    actors: [
+      {
+        name: 'Dwayne Johnson',
+      },
+      {
+        name: 'Kevin Hart',
+      },
+      {
+        name: 'Jack Black',
+      },
+      {
+        name: 'Karen Gillan',
+      },
+      {
+        name: 'Nick Jonas',
+      },
+      {
+        name: 'Rhys Darby',
+      },
+      {
+        name: 'Bobby Cannavale',
+      },
+    ],
+    coverUrl: '/movies_pictures/jumanji_welcome_to_the_jungle.jpg',
+    releaseDate: '2017-12-20',
+    length: 119,
+    genre: ['Action'],
+    saga: 'Jumanji',
+    description: '',
+    fromEntity: null,
+    countryOrigin: ['États-Unis'],
+    selectDisplayOrder: 5,
+  },
+  {
+    title: 'Equalizer',
+    director: 'Antoine Fuqua',
+    actors: [
+      {
+        name: 'Denzel Washington',
+      },
+      {
+        name: 'Marton Csokas',
+      },
+      {
+        name: 'Chloë Grace Moretz',
+      },
+    ],
+    coverUrl: '/movies_pictures/the_equalizer.jpg',
+    releaseDate: '2014-10-01',
+    length: 132,
+    genre: ['Action'],
+    saga: 'Equalizer',
+    description: '',
+    fromEntity: null,
+    countryOrigin: ['États-Unis'],
+    selectDisplayOrder: 5,
+  },
+  {
+    title: 'Les Tortues Ninja 3',
+    director: 'Stuart Gillard',
+    actors: [
+      {
+        name: 'Paige Turco',
+      },
+      {
+        name: 'Elias Koteas',
+      },
+      {
+        name: 'Stuart Wilson',
+      },
+    ],
+    coverUrl: '/movies_pictures/teenage_mutant_ninja_turtles_iii.jpg',
+    releaseDate: '1993-07-21',
+    length: 96,
+    genre: ['Action'],
+    saga: 'Tortues Ninja',
+    description: '',
+    fromEntity: null,
+    countryOrigin: ['États-Unis'],
+    selectDisplayOrder: 5,
+  },
+  {
+    title: 'Les Tortues Ninja 2 : Les héros sont de retour',
+    director: 'Michael Pressman',
+    actors: [
+      {
+        name: 'Paige Turco',
+      },
+      {
+        name: 'David Warner',
+      },
+      {
+        name: 'Michelan Sisti',
+      },
+    ],
+    coverUrl:
+      '/movies_pictures/teenage_mutant_ninja_turtles_ii_the_secret_of_the_.jpg',
+    releaseDate: '1991-07-17',
+    length: 88,
+    genre: ['Action'],
+    saga: 'Tortues Ninja',
+    description: '',
+    fromEntity: null,
+    countryOrigin: ['États-Unis'],
+    selectDisplayOrder: 5,
+  },
+  {
+    title: 'Les Tortues Ninja',
+    director: 'Steve Barron',
+    actors: [
+      {
+        name: 'Judith Hoag',
+      },
+      {
+        name: 'Elias Koteas',
+      },
+      {
+        name: 'Josh Pais',
+      },
+    ],
+    coverUrl: '/movies_pictures/teenage_mutant_ninja_turtles.jpg',
+    releaseDate: '1990-12-12',
+    length: 93,
+    genre: ['Action'],
+    saga: 'Tortues Ninja',
+    description: '',
+    fromEntity: null,
+    countryOrigin: ['États-Unis'],
+    selectDisplayOrder: 5,
+  },
 ];

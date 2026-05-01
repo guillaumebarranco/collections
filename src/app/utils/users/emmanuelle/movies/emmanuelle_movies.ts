@@ -87,7 +87,7 @@ export const emmanuelleMovies: UserMovie[] = [
   },
 
   {
-    title: 'Les choristes',
+    title: 'Les Choristes',
     director: 'Christophe Barratier',
     rating: 0,
     timesWatched: 1,

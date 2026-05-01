@@ -2917,4 +2917,375 @@ export const baseMoviesScienceFiction: BaseMovie[] = [
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 5,
   },
+
+  {
+    title: 'Running Man',
+    director: 'Edgar Wright',
+    actors: [
+      {
+        name: 'Sam Worthington',
+      },
+      {
+        name: 'Zoe Saldana',
+      },
+      {
+        name: 'Sigourney Weaver',
+      },
+      {
+        name: 'Stephen Lang',
+      },
+      {
+        name: 'Kate Winslet',
+      },
+    ],
+    coverUrl: '/movies_pictures/running_man.jpg',
+    releaseDate: '2025-11-19',
+    length: 134,
+    genre: ['Science Fiction'],
+    saga: '',
+    description: '',
+    fromEntity: {
+      entityType: 'book',
+      title: 'Running man',
+      secondEntityKey: 'Stephen King',
+    },
+    countryOrigin: ['États-Unis'],
+    selectDisplayOrder: 5,
+  },
+  {
+    title: 'Megalopolis',
+    director: 'Francis Ford Coppola',
+    actors: [
+      {
+        name: 'Adam Driver',
+      },
+      {
+        name: 'Giancarlo Esposito',
+      },
+      {
+        name: 'Nathalie Emmanuel',
+      },
+      {
+        name: 'Aubrey Plaza',
+      },
+      {
+        name: 'Shia LaBeouf',
+      },
+    ],
+    coverUrl: '/movies_pictures/megalopolis.jpg',
+    releaseDate: '2024-09-25',
+    length: 138,
+    genre: ['Science Fiction'],
+    saga: '',
+    description: '',
+    fromEntity: null,
+    countryOrigin: ['États-Unis'],
+    selectDisplayOrder: 5,
+  },
+  {
+    title: 'Code 8 : Partie II',
+    director: 'Jeff Chan',
+    actors: [
+      {
+        name: 'Robbie Amell',
+      },
+      {
+        name: 'Stephen Amell',
+      },
+      {
+        name: 'Sirena Gulamgaus',
+      },
+      {
+        name: 'Aaron Abrams',
+      },
+      {
+        name: 'Jean Yoon',
+      },
+    ],
+    coverUrl: '/movies_pictures/code_8_partie_ii.jpg',
+    releaseDate: '2024-02-28',
+    length: 100,
+    genre: ['Science Fiction'],
+    saga: '',
+    description: '',
+    fromEntity: null,
+    countryOrigin: ['Canada'],
+    selectDisplayOrder: 5,
+  },
+  {
+    title: 'Rebel Moon - Partie 1 : Enfant du feu',
+    director: 'Zack Snyder',
+    actors: [
+      {
+        name: 'Sofia Boutella',
+      },
+      {
+        name: 'Djimon Hounsou',
+      },
+      {
+        name: 'Ed Skrein',
+      },
+      {
+        name: 'Michiel Huisman',
+      },
+      {
+        name: 'Doona Bae',
+      },
+    ],
+    coverUrl: '/movies_pictures/rebel_moon_-_partie_1_enfant_du_feu.jpg',
+    releaseDate: '2023-12-22',
+    length: 133,
+    genre: ['Science Fiction'],
+    saga: '',
+    description: '',
+    fromEntity: null,
+    countryOrigin: ['États-Unis'],
+    selectDisplayOrder: 5,
+  },
+  {
+    title: 'The Creator',
+    director: 'Gareth Edwards',
+    actors: [
+      {
+        name: 'John David Washington',
+      },
+      {
+        name: 'Gemma Chan',
+      },
+      {
+        name: 'Ken Watanabe',
+      },
+      {
+        name: 'Allison Janney',
+      },
+      {
+        name: 'Madeleine Yuna Voyles',
+      },
+    ],
+    coverUrl: '/movies_pictures/the_creator.jpg',
+    releaseDate: '2023-09-27',
+    length: 133,
+    genre: ['Science Fiction'],
+    saga: '',
+    description: '',
+    fromEntity: null,
+    countryOrigin: ['États-Unis'],
+    selectDisplayOrder: 5,
+  },
+  {
+    title: 'Le Visiteur du Futur',
+    director: 'François Descraques',
+    actors: [
+      {
+        name: 'Florent Dorin',
+      },
+      {
+        name: 'Arnaud Joyet',
+      },
+      {
+        name: 'François Descraques',
+      },
+    ],
+    coverUrl: '/movies_pictures/le_visiteur_du_futur.jpg',
+    releaseDate: '2022-09-07',
+    length: 102,
+    genre: ['Science Fiction'],
+    saga: '',
+    description: '',
+    fromEntity: null,
+    countryOrigin: ['France'],
+    selectDisplayOrder: 5,
+  },
+  {
+    title: 'Code 8',
+    director: 'Jeff Chan',
+    actors: [
+      {
+        name: 'Robbie Amell',
+      },
+      {
+        name: 'Stephen Amell',
+      },
+      {
+        name: 'Sung Kang',
+      },
+    ],
+    coverUrl: '/movies_pictures/code_8.jpg',
+    releaseDate: '2019-12-13',
+    length: 98,
+    genre: ['Science Fiction'],
+    saga: '',
+    description: '',
+    fromEntity: null,
+    countryOrigin: ['Canada'],
+    selectDisplayOrder: 5,
+  },
+  {
+    title: 'Pacific Rim: Uprising',
+    director: 'Steven S. DeKnight',
+    actors: [
+      {
+        name: 'John Boyega',
+      },
+      {
+        name: 'Scott Eastwood',
+      },
+      {
+        name: 'Cailee Spaeny',
+      },
+    ],
+    coverUrl: '/movies_pictures/pacific_rim_uprising.jpg',
+    releaseDate: '2018-03-21',
+    length: 111,
+    genre: ['Science Fiction'],
+    saga: '',
+    description: '',
+    fromEntity: null,
+    countryOrigin: ['États-Unis'],
+    selectDisplayOrder: 5,
+  },
+  {
+    title: 'Life : Origine inconnue',
+    director: 'Daniel Espinosa',
+    actors: [
+      {
+        name: 'Jake Gyllenhaal',
+      },
+      {
+        name: 'Rebecca Ferguson',
+      },
+      {
+        name: 'Ryan Reynolds',
+      },
+    ],
+    coverUrl: '/movies_pictures/life.jpg',
+    releaseDate: '2017-04-19',
+    length: 104,
+    genre: ['Science Fiction'],
+    saga: '',
+    description: '',
+    fromEntity: null,
+    countryOrigin: ['États-Unis'],
+    selectDisplayOrder: 5,
+  },
+  {
+    title: 'À la poursuite de demain',
+    director: 'Brad Bird',
+    actors: [
+      {
+        name: 'George Clooney',
+      },
+      {
+        name: 'Britt Robertson',
+      },
+      {
+        name: 'Hugh Laurie',
+      },
+    ],
+    coverUrl: '/movies_pictures/tomorrowland.jpg',
+    releaseDate: '2015-05-20',
+    length: 130,
+    genre: ['Science Fiction'],
+    saga: '',
+    description: '',
+    fromEntity: null,
+    countryOrigin: ['États-Unis'],
+    selectDisplayOrder: 5,
+  },
+  {
+    title: 'Chappie',
+    director: 'Neill Blomkamp',
+    actors: [
+      {
+        name: 'Sharlto Copley',
+      },
+      {
+        name: 'Dev Patel',
+      },
+      {
+        name: 'Hugh Jackman',
+      },
+    ],
+    coverUrl: '/movies_pictures/chappie.jpg',
+    releaseDate: '2015-03-04',
+    length: 120,
+    genre: ['Science Fiction'],
+    saga: '',
+    description: '',
+    fromEntity: null,
+    countryOrigin: ['États-Unis'],
+    selectDisplayOrder: 5,
+  },
+  {
+    title: 'Her',
+    director: 'Spike Jonze',
+    actors: [
+      {
+        name: 'Joaquin Phoenix',
+      },
+      {
+        name: 'Scarlett Johansson',
+      },
+      {
+        name: 'Amy Adams',
+      },
+    ],
+    coverUrl: '/movies_pictures/her.jpg',
+    releaseDate: '2014-03-19',
+    length: 126,
+    genre: ['Science Fiction'],
+    saga: '',
+    description: '',
+    fromEntity: null,
+    countryOrigin: ['États-Unis'],
+    selectDisplayOrder: 5,
+  },
+  {
+    title: 'Sunshine',
+    director: 'Danny Boyle',
+    actors: [
+      {
+        name: 'Shia LaBeouf',
+      },
+      {
+        name: 'Sarah Roemer',
+      },
+      {
+        name: 'Carrie-Anne Moss',
+      },
+    ],
+    coverUrl: '/movies_pictures/sunshine.jpg',
+    releaseDate: '2007-04-11',
+    length: 108,
+    genre: ['Science Fiction'],
+    saga: '',
+    description: '',
+    fromEntity: null,
+    countryOrigin: ['États-Unis'],
+    selectDisplayOrder: 5,
+  },
+  {
+    title: 'Les Fils de l\'homme',
+    director: 'Alfonso Cuarón',
+    actors: [
+      {
+        name: 'Clive Owen',
+      },
+      {
+        name: 'Julianne Moore',
+      },
+      {
+        name: 'Michael Caine',
+      },
+    ],
+    coverUrl: '/movies_pictures/children_of_men.jpg',
+    releaseDate: '2006-10-18',
+    length: 109,
+    genre: ['Science Fiction'],
+    saga: '',
+    description: '',
+    fromEntity: null,
+    countryOrigin: ['États-Unis'],
+    selectDisplayOrder: 5,
+  },
 ];

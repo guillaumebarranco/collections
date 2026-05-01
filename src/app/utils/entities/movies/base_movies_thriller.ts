@@ -7439,4 +7439,603 @@ export const baseMoviesThriller: BaseMovie[] = [
     countryOrigin: ['Royaume-Uni'],
     selectDisplayOrder: 5,
   },
+
+  {
+    title: 'Pris au piège',
+    director: 'Darren Aronofsky',
+    actors: [
+      {
+        name: 'Jesse Eisenberg',
+      },
+      {
+        name: 'Woody Harrelson',
+      },
+      {
+        name: 'Isla Fisher',
+      },
+      {
+        name: 'Dave Franco',
+      },
+      {
+        name: 'Morgan Freeman',
+      },
+      {
+        name: 'Justice Smith',
+      },
+      {
+        name: 'Rosamund Pike',
+      },
+    ],
+    coverUrl: '/movies_pictures/pris_au_pi_ge.jpg',
+    releaseDate: '2025-08-27',
+    length: 107,
+    genre: ['Thriller'],
+    saga: '',
+    description: '',
+    fromEntity: null,
+    countryOrigin: ['États-Unis'],
+    selectDisplayOrder: 5,
+  },
+  {
+    title: 'Juré n°2',
+    director: 'Clint Eastwood',
+    actors: [
+      {
+        name: 'Auliʻi Cravalho',
+      },
+      {
+        name: 'Dwayne Johnson',
+      },
+      {
+        name: 'Hualālai Chung',
+      },
+      {
+        name: 'Rose Matafeo',
+      },
+      {
+        name: 'David Fane',
+      },
+    ],
+    coverUrl: '/movies_pictures/jur_n_2.jpg',
+    releaseDate: '2024-10-30',
+    length: 114,
+    genre: ['Thriller'],
+    saga: '',
+    description: '',
+    fromEntity: null,
+    countryOrigin: ['États-Unis'],
+    selectDisplayOrder: 5,
+  },
+  {
+    title: 'Trap',
+    director: 'M. Night Shyamalan',
+    actors: [
+      {
+        name: 'Josh Hartnett',
+      },
+      {
+        name: 'Ariel Donoghue',
+      },
+      {
+        name: 'Saleka Night Shyamalan',
+      },
+      {
+        name: 'Alison Pill',
+      },
+      {
+        name: 'Hayley Mills',
+      },
+    ],
+    coverUrl: '/movies_pictures/trap.jpg',
+    releaseDate: '2024-01-01',
+    length: 105,
+    genre: ['Thriller'],
+    saga: '',
+    description: '',
+    fromEntity: null,
+    countryOrigin: ['États-Unis'],
+    selectDisplayOrder: 5,
+  },
+  {
+    title: 'Civil War',
+    director: 'Alex Garland',
+    actors: [
+      {
+        name: 'Kirsten Dunst',
+      },
+      {
+        name: 'Wagner Moura',
+      },
+      {
+        name: 'Cailee Spaeny',
+      },
+      {
+        name: 'Stephen McKinley Henderson',
+      },
+      {
+        name: 'Sonoya Mizuno',
+      },
+    ],
+    coverUrl: '/movies_pictures/civil_war.jpg',
+    releaseDate: '2024-04-17',
+    length: 109,
+    genre: ['Thriller'],
+    saga: '',
+    description: '',
+    fromEntity: null,
+    countryOrigin: ['États-Unis'],
+    selectDisplayOrder: 5,
+  },
+  {
+    title: 'The Killer',
+    director: 'David Fincher',
+    actors: [
+      {
+        name: 'Michael Fassbender',
+      },
+      {
+        name: 'Tilda Swinton',
+      },
+      {
+        name: 'Charles Parnell',
+      },
+      {
+        name: 'Arliss Howard',
+      },
+      {
+        name: 'Kerry O\'Malley',
+      },
+    ],
+    coverUrl: '/movies_pictures/the_killer.jpg',
+    releaseDate: '2023-10-27',
+    length: 118,
+    genre: ['Thriller'],
+    saga: '',
+    description: '',
+    fromEntity: null,
+    countryOrigin: ['États-Unis'],
+    selectDisplayOrder: 5,
+  },
+  {
+    title: 'Boîte noire',
+    director: 'Yann Gozlan',
+    actors: [
+      {
+        name: 'Pierre Niney',
+      },
+      {
+        name: 'Yann Gozlan',
+      },
+      {
+        name: 'Sébastien Pouderoux',
+      },
+    ],
+    coverUrl: '/movies_pictures/boite_noire.jpg',
+    releaseDate: '2021-09-08',
+    length: 129,
+    genre: ['Thriller'],
+    saga: '',
+    description: '',
+    fromEntity: null,
+    countryOrigin: ['France'],
+    selectDisplayOrder: 5,
+  },
+  {
+    title: 'Escape Game',
+    director: 'Adam Robitel',
+    actors: [
+      {
+        name: 'Taylor Russell',
+      },
+      {
+        name: 'Logan Miller',
+      },
+      {
+        name: 'Deborah Ann Woll',
+      },
+    ],
+    coverUrl: '/movies_pictures/escape_room.jpg',
+    releaseDate: '2019-02-27',
+    length: 99,
+    genre: ['Thriller'],
+    saga: '',
+    description: '',
+    fromEntity: null,
+    countryOrigin: ['États-Unis'],
+    selectDisplayOrder: 5,
+  },
+  {
+    title: 'Sale temps à l\'hôtel El Royale',
+    director: 'Drew Goddard',
+    actors: [
+      {
+        name: 'Jeff Bridges',
+      },
+      {
+        name: 'Cynthia Erivo',
+      },
+      {
+        name: 'Jon Hamm',
+      },
+    ],
+    coverUrl: '/movies_pictures/bad_times_at_the_el_royale.jpg',
+    releaseDate: '2018-11-07',
+    length: 141,
+    genre: ['Thriller'],
+    saga: '',
+    description: '',
+    fromEntity: null,
+    countryOrigin: ['États-Unis'],
+    selectDisplayOrder: 5,
+  },
+  {
+    title: 'Good Time',
+    director: 'Josh Safdie, Benny Safdie',
+    actors: [
+      {
+        name: 'Robert Pattinson',
+      },
+      {
+        name: 'Benny Safdie',
+      },
+      {
+        name: 'Jennifer Jason Leigh',
+      },
+    ],
+    coverUrl: '/movies_pictures/good_time.jpg',
+    releaseDate: '2017-09-13',
+    length: 101,
+    genre: ['Thriller'],
+    saga: '',
+    description: '',
+    fromEntity: null,
+    countryOrigin: ['États-Unis'],
+    selectDisplayOrder: 5,
+  },
+  {
+    title: 'Money Monster',
+    director: 'Jodie Foster',
+    actors: [
+      {
+        name: 'George Clooney',
+      },
+      {
+        name: 'Julia Roberts',
+      },
+      {
+        name: 'Jack O\'Connell',
+      },
+    ],
+    coverUrl: '/movies_pictures/money_monster.jpg',
+    releaseDate: '2016-05-12',
+    length: 98,
+    genre: ['Thriller'],
+    saga: '',
+    description: '',
+    fromEntity: null,
+    countryOrigin: ['États-Unis'],
+    selectDisplayOrder: 5,
+  },
+  {
+    title: 'Sicario',
+    director: 'Denis Villeneuve',
+    actors: [
+      {
+        name: 'Emily Blunt',
+      },
+      {
+        name: 'Benicio del Toro',
+      },
+      {
+        name: 'Josh Brolin',
+      },
+    ],
+    coverUrl: '/movies_pictures/sicario.jpg',
+    releaseDate: '2015-10-07',
+    length: 121,
+    genre: ['Thriller'],
+    saga: '',
+    description: '',
+    fromEntity: null,
+    countryOrigin: ['États-Unis'],
+    selectDisplayOrder: 5,
+  },
+  {
+    title: 'Les Brasiers de la colère',
+    director: 'Scott Cooper',
+    actors: [
+      {
+        name: 'Christian Bale',
+      },
+      {
+        name: 'Casey Affleck',
+      },
+      {
+        name: 'Woody Harrelson',
+      },
+      {
+        name: 'Forest Whitaker',
+      },
+      {
+        name: 'Zoe Saldana',
+      },
+    ],
+    coverUrl: '/movies_pictures/out_of_the_furnace.jpg',
+    releaseDate: '2014-01-15',
+    length: 116,
+    genre: ['Thriller'],
+    saga: '',
+    description: '',
+    fromEntity: null,
+    countryOrigin: ['États-Unis'],
+    selectDisplayOrder: 5,
+  },
+  {
+    title: 'Mindscape',
+    director: 'Jorge Dorado',
+    actors: [
+      {
+        name: 'Mark Strong',
+      },
+      {
+        name: 'Taissa Farmiga',
+      },
+      {
+        name: 'Brian Cox',
+      },
+    ],
+    coverUrl: '/movies_pictures/anna.jpg',
+    releaseDate: '2014-06-11',
+    length: 99,
+    genre: ['Thriller'],
+    saga: '',
+    description: '',
+    fromEntity: null,
+    countryOrigin: ['États-Unis'],
+    selectDisplayOrder: 5,
+  },
+  {
+    title: 'Gangster Squad',
+    director: 'Ruben Fleischer',
+    actors: [
+      {
+        name: 'Sean Penn',
+      },
+      {
+        name: 'Ryan Gosling',
+      },
+      {
+        name: 'Emma Stone',
+      },
+    ],
+    coverUrl: '/movies_pictures/gangster_squad.jpg',
+    releaseDate: '2013-02-06',
+    length: 113,
+    genre: ['Thriller'],
+    saga: '',
+    description: '',
+    fromEntity: null,
+    countryOrigin: ['États-Unis'],
+    selectDisplayOrder: 5,
+  },
+  {
+    title: 'Funny Games U.S.',
+    director: 'Michael Haneke',
+    actors: [
+      {
+        name: 'Naomi Watts',
+      },
+      {
+        name: 'Tim Roth',
+      },
+      {
+        name: 'Michael Pitt',
+      },
+    ],
+    coverUrl: '/movies_pictures/funny_games.jpg',
+    releaseDate: '2008-04-23',
+    length: 111,
+    genre: ['Thriller'],
+    saga: '',
+    description: '',
+    fromEntity: null,
+    countryOrigin: ['États-Unis'],
+    selectDisplayOrder: 5,
+  },
+  {
+    title: 'Hannibal Lecter : Les Origines du mal',
+    director: 'Peter Webber',
+    actors: [
+      {
+        name: 'Gaspard Ulliel',
+      },
+      {
+        name: 'Gong Li',
+      },
+      {
+        name: 'Rhys Ifans',
+      },
+    ],
+    coverUrl: '/movies_pictures/hannibal_rising.jpg',
+    releaseDate: '2007-02-07',
+    length: 115,
+    genre: ['Thriller'],
+    saga: '',
+    description: '',
+    fromEntity: null,
+    countryOrigin: ['États-Unis'],
+    selectDisplayOrder: 5,
+  },
+  {
+    title: 'Inside Man : L\'Homme de l\'intérieur',
+    director: 'Spike Lee',
+    actors: [
+      {
+        name: 'Denzel Washington',
+      },
+      {
+        name: 'Clive Owen',
+      },
+      {
+        name: 'Jodie Foster',
+      },
+    ],
+    coverUrl: '/movies_pictures/inside_man.jpg',
+    releaseDate: '2006-04-12',
+    length: 130,
+    genre: ['Thriller'],
+    saga: '',
+    description: '',
+    fromEntity: null,
+    countryOrigin: ['États-Unis'],
+    selectDisplayOrder: 5,
+  },
+  {
+    title: 'Collatéral',
+    director: 'Michael Mann',
+    actors: [
+      {
+        name: 'Tom Cruise',
+      },
+      {
+        name: 'Jamie Foxx',
+      },
+      {
+        name: 'Jada Pinkett Smith',
+      },
+    ],
+    coverUrl: '/movies_pictures/collateral.jpg',
+    releaseDate: '2004-09-29',
+    length: 120,
+    genre: ['Thriller'],
+    saga: '',
+    description: '',
+    fromEntity: null,
+    countryOrigin: ['États-Unis'],
+    selectDisplayOrder: 5,
+  },
+  {
+    title: 'Mystic River',
+    director: 'Clint Eastwood',
+    actors: [
+      {
+        name: 'Sean Penn',
+      },
+      {
+        name: 'Tim Robbins',
+      },
+      {
+        name: 'Kevin Bacon',
+      },
+    ],
+    coverUrl: '/movies_pictures/mystic_river.jpg',
+    releaseDate: '2003-10-15',
+    length: 137,
+    genre: ['Thriller'],
+    saga: '',
+    description: '',
+    fromEntity: null,
+    countryOrigin: ['États-Unis'],
+    selectDisplayOrder: 5,
+  },
+  {
+    title: 'Dragon rouge',
+    director: 'Brett Ratner',
+    actors: [
+      {
+        name: 'Anthony Hopkins',
+      },
+      {
+        name: 'Edward Norton',
+      },
+      {
+        name: 'Ralph Fiennes',
+      },
+    ],
+    coverUrl: '/movies_pictures/red_dragon.jpg',
+    releaseDate: '2002-10-30',
+    length: 124,
+    genre: ['Thriller'],
+    saga: '',
+    description: '',
+    fromEntity: null,
+    countryOrigin: ['États-Unis'],
+    selectDisplayOrder: 5,
+  },
+  {
+    title: 'Hannibal',
+    director: 'Ridley Scott',
+    actors: [
+      {
+        name: 'Anthony Hopkins',
+      },
+      {
+        name: 'Julianne Moore',
+      },
+      {
+        name: 'Gary Oldman',
+      },
+    ],
+    coverUrl: '/movies_pictures/hannibal.jpg',
+    releaseDate: '2001-02-28',
+    length: 131,
+    genre: ['Thriller'],
+    saga: '',
+    description: '',
+    fromEntity: null,
+    countryOrigin: ['États-Unis'],
+    selectDisplayOrder: 5,
+  },
+  {
+    title: 'American Psycho',
+    director: 'Mary Harron',
+    actors: [
+      {
+        name: 'Christian Bale',
+      },
+      {
+        name: 'Willem Dafoe',
+      },
+      {
+        name: 'Jared Leto',
+      },
+    ],
+    coverUrl: '/movies_pictures/american_psycho.jpg',
+    releaseDate: '2000-06-07',
+    length: 102,
+    genre: ['Thriller'],
+    saga: '',
+    description: '',
+    fromEntity: {
+      entityType: 'book',
+      title: 'American Psycho',
+      secondEntityKey: 'Bret Easton Ellis',
+    },
+    countryOrigin: ['États-Unis'],
+    selectDisplayOrder: 30,
+  },
+  {
+    title: 'The Game',
+    director: 'David Fincher',
+    actors: [
+      {
+        name: 'Michael Douglas',
+      },
+      {
+        name: 'Sean Penn',
+      },
+      {
+        name: 'Deborah Kara Unger',
+      },
+    ],
+    coverUrl: '/movies_pictures/the_game.jpg',
+    releaseDate: '1997-11-05',
+    length: 129,
+    genre: ['Thriller'],
+    saga: '',
+    description: '',
+    fromEntity: null,
+    countryOrigin: ['États-Unis'],
+    selectDisplayOrder: 5,
+  },
 ];

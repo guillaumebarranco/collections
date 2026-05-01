@@ -38,7 +38,7 @@ export const baseMoviesAventure: BaseMovie[] = [
     countryOrigin: ['France'],
     selectDisplayOrder: 30,
   },
-{
+  {
     title: 'Love and Monsters',
     director: 'Michael Matthews',
     actors: [
@@ -65,8 +65,8 @@ export const baseMoviesAventure: BaseMovie[] = [
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
   },
-{
-    title: 'Fantômas',
+  {
+    title: 'Fantomas',
     director: 'André Hunebelle',
     actors: [
       { name: 'Louis de Funès' },
@@ -81,13 +81,13 @@ export const baseMoviesAventure: BaseMovie[] = [
     releaseDate: '1964-11-04',
     length: 105,
     genre: ['Aventure', 'Comédie'],
-    saga: 'Fantômas',
+    saga: 'Fantomas',
     description: '',
     fromEntity: null,
     countryOrigin: ['France', 'Italie'],
     selectDisplayOrder: 0,
   },
-{
+  {
     title: "Tintin et le Mystère de la Toison d'or",
     director: 'Jean-Jacques Vierne',
     actors: [
@@ -127,7 +127,7 @@ export const baseMoviesAventure: BaseMovie[] = [
     countryOrigin: ['France', 'Belgique'],
     selectDisplayOrder: 0,
   },
-{
+  {
     title: 'Tintin et les Oranges bleues',
     director: 'Philippe Condroyer',
     actors: [
@@ -167,7 +167,7 @@ export const baseMoviesAventure: BaseMovie[] = [
     countryOrigin: ['France', 'Espagne'],
     selectDisplayOrder: 0,
   },
-{
+  {
     title: 'Les Aventures de Tintin',
     director: 'Steven Spielberg',
     actors: [{ name: 'Jamie Bell' }, { name: 'Andy Serkis' }],
@@ -185,7 +185,7 @@ export const baseMoviesAventure: BaseMovie[] = [
     countryOrigin: ['États-Unis', 'Nouvelle-Zélande'],
     selectDisplayOrder: 0,
   },
-{
+  {
     title: 'Hook ou la Revanche du capitaine Crochet',
     director: 'Steven Spielberg',
     actors: [
@@ -221,7 +221,7 @@ export const baseMoviesAventure: BaseMovie[] = [
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 30,
   },
-{
+  {
     title: 'Arsène Lupin',
     director: 'Jean-Paul Salomé',
     actors: [
@@ -244,7 +244,7 @@ export const baseMoviesAventure: BaseMovie[] = [
     countryOrigin: ['France', 'Italie', 'Espagne', 'Royaume-Uni'],
     selectDisplayOrder: 0,
   },
-{
+  {
     title: 'King Kong',
     director: 'Peter Jackson',
     actors: [
@@ -274,7 +274,7 @@ export const baseMoviesAventure: BaseMovie[] = [
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
   },
-{
+  {
     title: 'Voyage au Centre de la Terre',
     director: 'Eric Brevig',
     actors: [
@@ -306,7 +306,7 @@ export const baseMoviesAventure: BaseMovie[] = [
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
   },
-{
+  {
     title: 'Jumanji',
     director: 'Joe Johnston',
     actors: [
@@ -342,7 +342,7 @@ export const baseMoviesAventure: BaseMovie[] = [
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 30,
   },
-{
+  {
     title: 'Percy Jackson : La Mer des monstres',
     director: 'Thor Freudenthal',
     actors: [
@@ -382,7 +382,7 @@ export const baseMoviesAventure: BaseMovie[] = [
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
   },
-{
+  {
     title: 'La Vie Rêvée de Walter Mitty',
     director: 'Ben Stiller',
     actors: [
@@ -418,7 +418,7 @@ export const baseMoviesAventure: BaseMovie[] = [
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
   },
-{
+  {
     title: 'Seul au monde',
     director: 'Robert Zemeckis',
     actors: [
@@ -455,7 +455,7 @@ export const baseMoviesAventure: BaseMovie[] = [
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 30,
   },
-{
+  {
     title: "L'Île au trésor",
     director: 'Fraser Clarke Heston',
     actors: [
@@ -496,7 +496,7 @@ export const baseMoviesAventure: BaseMovie[] = [
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
   },
-{
+  {
     title: "Lawrence d'Arabie",
     director: 'David Lean',
     actors: [
@@ -532,7 +532,7 @@ export const baseMoviesAventure: BaseMovie[] = [
     countryOrigin: ['Royaume-Uni'],
     selectDisplayOrder: 0,
   },
-{
+  {
     title: "L'Imaginarium du Docteur Parnassus",
     director: 'Terry Gilliam',
     actors: [
@@ -554,7 +554,7 @@ export const baseMoviesAventure: BaseMovie[] = [
     countryOrigin: ['Royaume-Uni'],
     selectDisplayOrder: 0,
   },
-{
+  {
     title: 'La Chair et le Sang',
     director: 'Paul Verhoeven',
     actors: [
@@ -576,7 +576,7 @@ export const baseMoviesAventure: BaseMovie[] = [
     countryOrigin: ['Pays-Bas'],
     selectDisplayOrder: 0,
   },
-{
+  {
     title: 'Le Règne animal',
     director: 'Thomas Cailley',
     actors: [
@@ -598,7 +598,7 @@ export const baseMoviesAventure: BaseMovie[] = [
     countryOrigin: ['France'],
     selectDisplayOrder: 0,
   },
-{
+  {
     title: 'Excalibur',
     director: 'John Boorman',
     actors: [
@@ -620,7 +620,7 @@ export const baseMoviesAventure: BaseMovie[] = [
     countryOrigin: ['Royaume-Uni'],
     selectDisplayOrder: 0,
   },
-{
+  {
     title: 'Le Comte de Monte-Cristo (1934)',
     director: 'Rowland V. Lee',
     actors: [
@@ -660,7 +660,7 @@ export const baseMoviesAventure: BaseMovie[] = [
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
   },
-{
+  {
     title: 'Le Comte de Monte-Cristo (1954)',
     director: 'Robert Vernay',
     actors: [
@@ -700,7 +700,7 @@ export const baseMoviesAventure: BaseMovie[] = [
     countryOrigin: ['France', 'Italie'],
     selectDisplayOrder: 0,
   },
-{
+  {
     title: 'Le Comte de Monte-Cristo (1961)',
     director: 'Claude Autant-Lara',
     actors: [
@@ -740,7 +740,7 @@ export const baseMoviesAventure: BaseMovie[] = [
     countryOrigin: ['France', 'Italie'],
     selectDisplayOrder: 0,
   },
-{
+  {
     title: 'Le Comte de Monte-Cristo (1975)',
     director: 'David Greene',
     actors: [
@@ -780,7 +780,7 @@ export const baseMoviesAventure: BaseMovie[] = [
     countryOrigin: ['Royaume-Uni', 'États-Unis'],
     selectDisplayOrder: 0,
   },
-{
+  {
     title: 'Le Comte de Monte-Cristo (2002)',
     director: 'Kevin Reynolds',
     actors: [{ name: 'Jim Caviezel' }, { name: 'Guy Pearce' }],
@@ -798,7 +798,7 @@ export const baseMoviesAventure: BaseMovie[] = [
     countryOrigin: ['États-Unis', 'Irlande'],
     selectDisplayOrder: 0,
   },
-{
+  {
     title: 'Le secret de la pyramide',
     director: 'Barry Levinson',
     actors: [
@@ -838,7 +838,7 @@ export const baseMoviesAventure: BaseMovie[] = [
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
   },
-{
+  {
     title: 'The Green Knight',
     director: 'David Lowery',
     actors: [
@@ -860,7 +860,7 @@ export const baseMoviesAventure: BaseMovie[] = [
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
   },
-{
+  {
     title: 'Casse-Noisette et les Quatre Royaumes',
     director: 'Lasse Hallström, Joe Johnston',
     actors: [
@@ -882,7 +882,7 @@ export const baseMoviesAventure: BaseMovie[] = [
     countryOrigin: ['Canada'],
     selectDisplayOrder: 0,
   },
-{
+  {
     title: 'Ben-Hur',
     director: 'William Wyler',
     actors: [
@@ -904,7 +904,7 @@ export const baseMoviesAventure: BaseMovie[] = [
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 30,
   },
-{
+  {
     title: "Pee-wee's Big Adventure",
     director: 'Tim Burton',
     actors: [
@@ -940,7 +940,7 @@ export const baseMoviesAventure: BaseMovie[] = [
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
   },
-{
+  {
     title: 'Super Mario Bros.',
     director: 'Rocky Morton, Annabel Jankel',
     actors: [
@@ -980,7 +980,7 @@ export const baseMoviesAventure: BaseMovie[] = [
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
   },
-{
+  {
     title: 'Oz the Great and Powerful',
     director: 'Sam Raimi',
     actors: [
@@ -1016,7 +1016,7 @@ export const baseMoviesAventure: BaseMovie[] = [
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
   },
-{
+  {
     title: 'Jungle Cruise',
     director: 'Jaume Collet-Serra',
     actors: [
@@ -1049,7 +1049,7 @@ export const baseMoviesAventure: BaseMovie[] = [
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 5,
   },
-{
+  {
     title: 'Hugo',
     director: 'Martin Scorsese',
     actors: [
@@ -1085,7 +1085,7 @@ export const baseMoviesAventure: BaseMovie[] = [
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 5,
   },
-{
+  {
     title: 'Les déstreuses aventures des Orphelins Baudelaire',
     director: 'Brad Silberling',
     actors: [{ name: 'Jim Carrey' }, { name: 'Emily Browning' }],
@@ -1098,5 +1098,359 @@ export const baseMoviesAventure: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 30,
-  }
+  },
+
+  {
+    title: 'Dragons',
+    director: 'Dean DeBlois',
+    actors: [
+      {
+        name: 'Vera Farmiga',
+      },
+      {
+        name: 'Patrick Wilson',
+      },
+      {
+        name: 'Mia Tomlinson',
+      },
+      {
+        name: 'Ben Hardy',
+      },
+      {
+        name: 'Rebecca Calder',
+      },
+    ],
+    coverUrl: '/movies_pictures/dragons.jpg',
+    releaseDate: '2025-06-11',
+    length: 125,
+    genre: ['Aventure'],
+    saga: '',
+    description: '',
+    fromEntity: null,
+    countryOrigin: ['États-Unis'],
+    selectDisplayOrder: 5,
+  },
+  {
+    title: 'Les Trois Mousquetaires : Milady',
+    director: 'Martin Bourboulon',
+    actors: [
+      {
+        name: 'François Civil',
+      },
+      {
+        name: 'Eva Green',
+      },
+      {
+        name: 'Vincent Cassel',
+      },
+      {
+        name: 'Romain Duris',
+      },
+      {
+        name: 'Pio Marmaï',
+      },
+    ],
+    coverUrl: '/movies_pictures/les_trois_mousquetaires_milady.jpg',
+    releaseDate: '2023-12-13',
+    length: 114,
+    genre: ['Aventure'],
+    saga: '',
+    description: '',
+    fromEntity: {
+      entityType: 'book',
+      title: 'Les Trois Mousquetaires',
+      secondEntityKey: 'Alexandre Dumas',
+    },
+    countryOrigin: ['France'],
+    selectDisplayOrder: 5,
+  },
+  {
+    title: "Voyage au centre de la Terre 2 : L'Île mystérieuse",
+    director: 'Brad Peyton',
+    actors: [
+      {
+        name: 'Dwayne Johnson',
+      },
+      {
+        name: 'Josh Hutcherson',
+      },
+      {
+        name: 'Vanessa Hudgens',
+      },
+    ],
+    coverUrl: '/movies_pictures/journey_2_the_mysterious_island.jpg',
+    releaseDate: '2012-02-15',
+    length: 94,
+    genre: ['Aventure'],
+    saga: '',
+    description: '',
+    fromEntity: null,
+    countryOrigin: ['États-Unis'],
+    selectDisplayOrder: 5,
+  },
+  {
+    title: 'Benjamin Gates et le Livre des secrets',
+    director: 'Jon Turteltaub',
+    actors: [
+      {
+        name: 'Nicolas Cage',
+      },
+      {
+        name: 'Diane Kruger',
+      },
+      {
+        name: 'Justin Bartha',
+      },
+    ],
+    coverUrl: '/movies_pictures/national_treasure_book_of_secrets.jpg',
+    releaseDate: '2008-02-13',
+    length: 124,
+    genre: ['Aventure'],
+    saga: '',
+    description: '',
+    fromEntity: null,
+    countryOrigin: ['États-Unis'],
+    selectDisplayOrder: 5,
+  },
+  {
+    title: 'Benjamin Gates et le Trésor des Templiers',
+    director: 'Jon Turteltaub',
+    actors: [
+      {
+        name: 'Nicolas Cage',
+      },
+      {
+        name: 'Diane Kruger',
+      },
+      {
+        name: 'Justin Bartha',
+      },
+      {
+        name: 'Jon Voight',
+      },
+      {
+        name: 'Harvey Keitel',
+      },
+      {
+        name: 'Sean Bean',
+      },
+      {
+        name: 'Christopher Plummer',
+      },
+    ],
+    coverUrl: '/movies_pictures/national_treasure.jpg',
+    releaseDate: '2004-12-22',
+    length: 131,
+    genre: ['Aventure'],
+    saga: '',
+    description: '',
+    fromEntity: null,
+    countryOrigin: ['États-Unis'],
+    selectDisplayOrder: 5,
+  },
+  {
+    title: 'Deux Frères',
+    director: 'Jean-Jacques Annaud',
+    actors: [
+      {
+        name: 'Guy Pearce',
+      },
+      {
+        name: 'Freddie Highmore',
+      },
+      {
+        name: 'Jean-Claude Dreyfus',
+      },
+      {
+        name: 'Philippine Leroy-Beaulieu',
+      },
+      {
+        name: 'Bô Gaultier de Kermoal',
+      },
+      {
+        name: 'Moussa Maaskri',
+      },
+      {
+        name: 'Nozha Khouadra',
+      },
+    ],
+    coverUrl: '/movies_pictures/two_brothers.jpg',
+    releaseDate: '2004-04-07',
+    length: 110,
+    genre: ['Aventure'],
+    saga: '',
+    description: '',
+    fromEntity: null,
+    countryOrigin: ['France'],
+    selectDisplayOrder: 5,
+  },
+  {
+    title: "Master and Commander : De l'autre côté du monde",
+    director: 'Peter Weir',
+    actors: [
+      {
+        name: 'Tom Cruise',
+      },
+      {
+        name: 'Ken Watanabe',
+      },
+      {
+        name: 'Billy Connolly',
+      },
+    ],
+    coverUrl:
+      '/movies_pictures/master_and_commander_the_far_side_of_the_world.jpg',
+    releaseDate: '2003-12-31',
+    length: 138,
+    genre: ['Aventure'],
+    saga: '',
+    description: '',
+    fromEntity: null,
+    countryOrigin: ['États-Unis'],
+    selectDisplayOrder: 5,
+  },
+  {
+    title: 'La Plage',
+    director: 'Danny Boyle',
+    actors: [
+      {
+        name: 'Leonardo DiCaprio',
+      },
+      {
+        name: 'Virginie Ledoyen',
+      },
+      {
+        name: 'Guillaume Canet',
+      },
+    ],
+    coverUrl: '/movies_pictures/the_beach.jpg',
+    releaseDate: '2000-02-16',
+    length: 119,
+    genre: ['Aventure'],
+    saga: '',
+    description: '',
+    fromEntity: null,
+    countryOrigin: ['États-Unis'],
+    selectDisplayOrder: 5,
+  },
+  {
+    title: 'Le Masque de Zorro',
+    director: 'Martin Campbell',
+    actors: [
+      {
+        name: 'Antonio Banderas',
+      },
+      {
+        name: 'Anthony Hopkins',
+      },
+      {
+        name: 'Catherine Zeta-Jones',
+      },
+    ],
+    coverUrl: '/movies_pictures/the_mask_of_zorro.jpg',
+    releaseDate: '1998-10-14',
+    length: 136,
+    genre: ['Aventure'],
+    saga: '',
+    description: '',
+    fromEntity: null,
+    countryOrigin: ['États-Unis'],
+    selectDisplayOrder: 5,
+  },
+  {
+    title: 'Lancelot, le premier chevalier',
+    director: 'Jerry Zucker',
+    actors: [
+      {
+        name: 'Richard Gere',
+      },
+      {
+        name: 'Sean Connery',
+      },
+      {
+        name: 'Julia Ormond',
+      },
+    ],
+    coverUrl: '/movies_pictures/first_knight.jpg',
+    releaseDate: '1995-08-16',
+    length: 134,
+    genre: ['Aventure'],
+    saga: '',
+    description: '',
+    fromEntity: null,
+    countryOrigin: ['États-Unis'],
+    selectDisplayOrder: 5,
+  },
+  {
+    title: 'Le Dernier des Mohicans',
+    director: 'Michael Mann',
+    actors: [
+      {
+        name: 'Daniel Day-Lewis',
+      },
+      {
+        name: 'Madeleine Stowe',
+      },
+      {
+        name: 'Russell Means',
+      },
+    ],
+    coverUrl: '/movies_pictures/the_last_of_the_mohicans.jpg',
+    releaseDate: '1992-08-26',
+    length: 112,
+    genre: ['Aventure'],
+    saga: '',
+    description: '',
+    fromEntity: null,
+    countryOrigin: ['États-Unis'],
+    selectDisplayOrder: 5,
+  },
+  {
+    title: 'Les Goonies',
+    director: 'Richard Donner',
+    actors: [
+      {
+        name: 'Sean Astin',
+      },
+      {
+        name: 'Josh Brolin',
+      },
+      {
+        name: 'Jeff Cohen',
+      },
+    ],
+    coverUrl: '/movies_pictures/the_goonies.jpg',
+    releaseDate: '1985-12-04',
+    length: 114,
+    genre: ['Aventure'],
+    saga: '',
+    description: '',
+    fromEntity: null,
+    countryOrigin: ['États-Unis'],
+    selectDisplayOrder: 30,
+  },
+  {
+    title: 'Conan le Barbare',
+    director: 'John Milius',
+    actors: [
+      {
+        name: 'Arnold Schwarzenegger',
+      },
+      {
+        name: 'James Earl Jones',
+      },
+      {
+        name: 'Max von Sydow',
+      },
+    ],
+    coverUrl: '/movies_pictures/conan_the_barbarian.jpg',
+    releaseDate: '1982-04-07',
+    length: 129,
+    genre: ['Aventure'],
+    saga: '',
+    description: '',
+    fromEntity: null,
+    countryOrigin: ['États-Unis'],
+    selectDisplayOrder: 5,
+  },
 ];

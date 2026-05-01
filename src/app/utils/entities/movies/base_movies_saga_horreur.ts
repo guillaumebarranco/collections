@@ -1171,4 +1171,269 @@ export const baseMoviesSagaHorreur: BaseMovie[] = [
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 20,
   },
+
+  {
+    title: 'Insidious: The Red Door',
+    director: 'Patrick Wilson',
+    actors: [
+      {
+        name: 'Micah Abbey',
+      },
+      {
+        name: 'Shamon Brown Jr.',
+      },
+      {
+        name: 'Nicolas Cantu',
+      },
+    ],
+    coverUrl: '/movies_pictures/insidious_the_red_door.jpg',
+    releaseDate: '2023-07-05',
+    length: 107,
+    genre: ['Horreur'],
+    saga: 'Insidious',
+    description: '',
+    fromEntity: null,
+    countryOrigin: ['États-Unis'],
+    selectDisplayOrder: 5,
+  },
+  {
+    title: 'Sans un bruit 2',
+    director: 'John Krasinski',
+    actors: [
+      {
+        name: 'Emily Blunt',
+      },
+      {
+        name: 'Cillian Murphy',
+      },
+      {
+        name: 'Millicent Simmonds',
+      },
+    ],
+    coverUrl: '/movies_pictures/sans_un_bruit_2.jpg',
+    releaseDate: '2021-06-16',
+    length: 97,
+    genre: ['Horreur'],
+    saga: 'Sans un bruit',
+    description: '',
+    fromEntity: null,
+    countryOrigin: ['États-Unis'],
+    selectDisplayOrder: 5,
+  },
+  {
+    title: 'American Nightmare 4 : Les Origines',
+    director: 'Gerard McMurray',
+    actors: [
+      {
+        name: 'Y\'lan Noel',
+      },
+      {
+        name: 'Lex Scott Davis',
+      },
+      {
+        name: 'Joivan Wade',
+      },
+    ],
+    coverUrl: '/movies_pictures/the_first_purge.jpg',
+    releaseDate: '2018-07-04',
+    length: 97,
+    genre: ['Horreur'],
+    saga: 'American Nightmare',
+    description: '',
+    fromEntity: null,
+    countryOrigin: ['États-Unis'],
+    selectDisplayOrder: 5,
+  },
+  {
+    title: 'Sans un bruit',
+    director: 'John Krasinski',
+    actors: [
+      {
+        name: 'Emily Blunt',
+      },
+      {
+        name: 'John Krasinski',
+      },
+      {
+        name: 'Millicent Simmonds',
+      },
+    ],
+    coverUrl: '/movies_pictures/a_quiet_place.jpg',
+    releaseDate: '2018-06-20',
+    length: 90,
+    genre: ['Horreur'],
+    saga: 'Sans un bruit',
+    description: '',
+    fromEntity: null,
+    countryOrigin: ['États-Unis'],
+    selectDisplayOrder: 5,
+  },
+  {
+    title: 'American Nightmare 2 : Anarchy',
+    director: 'James DeMonaco',
+    actors: [
+      {
+        name: 'Frank Grillo',
+      },
+      {
+        name: 'Zach Gilford',
+      },
+      {
+        name: 'Kiele Sanchez',
+      },
+    ],
+    coverUrl: '/movies_pictures/the_purge_anarchy.jpg',
+    releaseDate: '2014-07-23',
+    length: 103,
+    genre: ['Horreur'],
+    saga: 'American Nightmare',
+    description: '',
+    fromEntity: null,
+    countryOrigin: ['États-Unis'],
+    selectDisplayOrder: 5,
+  },
+  {
+    title: 'Insidious : Chapitre 2',
+    director: 'James Wan',
+    actors: [
+      {
+        name: 'Patrick Wilson',
+      },
+      {
+        name: 'Rose Byrne',
+      },
+      {
+        name: 'Barbara Hershey',
+      },
+    ],
+    coverUrl: '/movies_pictures/insidious_chapter_2.jpg',
+    releaseDate: '2013-10-02',
+    length: 105,
+    genre: ['Horreur'],
+    saga: 'Insidious',
+    description: '',
+    fromEntity: null,
+    countryOrigin: ['États-Unis'],
+    selectDisplayOrder: 5,
+  },
+  {
+    title: 'American Nightmare',
+    director: 'James DeMonaco',
+    actors: [
+      {
+        name: 'Ethan Hawke',
+      },
+      {
+        name: 'Lena Headey',
+      },
+      {
+        name: 'Max Burkholder',
+      },
+    ],
+    coverUrl: '/movies_pictures/the_purge.jpg',
+    releaseDate: '2013-08-07',
+    length: 85,
+    genre: ['Horreur'],
+    saga: 'American Nightmare',
+    description: '',
+    fromEntity: null,
+    countryOrigin: ['États-Unis'],
+    selectDisplayOrder: 5,
+  },
+  {
+    title: 'Evil Dead',
+    director: 'Fede Álvarez',
+    actors: [
+      {
+        name: 'Jane Levy',
+      },
+      {
+        name: 'Shiloh Fernandez',
+      },
+      {
+        name: 'Lou Taylor Pucci',
+      },
+    ],
+    coverUrl: '/movies_pictures/evil_dead.jpg',
+    releaseDate: '2013-05-01',
+    length: 91,
+    genre: ['Horreur'],
+    saga: 'Evil Dead',
+    description: '',
+    fromEntity: null,
+    countryOrigin: ['États-Unis'],
+    selectDisplayOrder: 5,
+  },
+  {
+    title: 'Insidious',
+    director: 'James Wan',
+    actors: [
+      {
+        name: 'Patrick Wilson',
+      },
+      {
+        name: 'Rose Byrne',
+      },
+      {
+        name: 'Lin Shaye',
+      },
+    ],
+    coverUrl: '/movies_pictures/insidious.jpg',
+    releaseDate: '2011-06-15',
+    length: 102,
+    genre: ['Horreur'],
+    saga: 'Insidious',
+    description: '',
+    fromEntity: null,
+    countryOrigin: ['États-Unis'],
+    selectDisplayOrder: 5,
+  },
+  {
+    title: 'Evil Dead II',
+    director: 'Sam Raimi',
+    actors: [
+      {
+        name: 'Bruce Campbell',
+      },
+      {
+        name: 'Sarah Berry',
+      },
+      {
+        name: 'Dan Hicks',
+      },
+    ],
+    coverUrl: '/movies_pictures/evil_dead_ii.jpg',
+    releaseDate: '1987-07-08',
+    length: 85,
+    genre: ['Horreur'],
+    saga: 'Evil Dead',
+    description: '',
+    fromEntity: null,
+    countryOrigin: ['États-Unis'],
+    selectDisplayOrder: 5,
+  },
+  {
+    title: 'Evil Dead',
+    director: 'Sam Raimi',
+    actors: [
+      {
+        name: 'Bruce Campbell',
+      },
+      {
+        name: 'Ellen Sandweiss',
+      },
+      {
+        name: 'Richard DeManincor',
+      },
+    ],
+    coverUrl: '/movies_pictures/the_evil_dead.jpg',
+    releaseDate: '1983-08-24',
+    length: 85,
+    genre: ['Horreur'],
+    saga: 'Evil Dead',
+    description: '',
+    fromEntity: null,
+    countryOrigin: ['États-Unis'],
+    selectDisplayOrder: 5,
+  },
 ];

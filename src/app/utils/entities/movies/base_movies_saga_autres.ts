@@ -1122,4 +1122,197 @@ export const baseMoviesSagaAutres: BaseMovie[] = [
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 20,
   },
+
+  {
+    title: 'The Equalizer 3',
+    director: 'Antoine Fuqua',
+    actors: [
+      {
+        name: 'Josh Hutcherson',
+      },
+      {
+        name: 'Piper Rubio',
+      },
+      {
+        name: 'Matthew Lillard',
+      },
+    ],
+    coverUrl: '/movies_pictures/the_equalizer_3.jpg',
+    releaseDate: '2023-01-01',
+    length: 109,
+    genre: ['Drame'],
+    saga: 'Equalizer',
+    description: '',
+    fromEntity: null,
+    countryOrigin: ['États-Unis'],
+    selectDisplayOrder: 5,
+  },
+  {
+    title: 'Werewolf by Night',
+    director: 'Michael Giacchino',
+    actors: [
+      {
+        name: 'Gael García Bernal',
+      },
+      {
+        name: 'Laura Donnelly',
+      },
+      {
+        name: 'Harriet Sansom Harris',
+      },
+    ],
+    coverUrl: '/movies_pictures/werewolf_by_night.jpg',
+    releaseDate: '2022-01-01',
+    length: 53,
+    genre: ['Drame'],
+    saga: 'Marvel Cinematic Universe',
+    description: '',
+    fromEntity: null,
+    countryOrigin: ['États-Unis'],
+    selectDisplayOrder: 5,
+  },
+  {
+    title: 'Balle Perdue',
+    director: 'Guillaume Pierret',
+    actors: [
+      {
+        name: 'Alban Lenoir',
+      },
+      {
+        name: 'Nicolas Duvauchelle',
+      },
+      {
+        name: 'Stéfi Celma',
+      },
+    ],
+    coverUrl: '/movies_pictures/lost_bullet.jpg',
+    releaseDate: '2020-01-01',
+    length: 92,
+    genre: ['Drame'],
+    saga: 'Balle Perdue',
+    description: '',
+    fromEntity: null,
+    countryOrigin: ['France'],
+    selectDisplayOrder: 5,
+  },
+  {
+    title: 'En avant',
+    director: 'Dan Scanlon',
+    actors: [
+      {
+        name: 'Tom Holland',
+      },
+      {
+        name: 'Chris Pratt',
+      },
+      {
+        name: 'Julia Louis-Dreyfus',
+      },
+    ],
+    coverUrl: '/movies_pictures/en_avant.jpg',
+    releaseDate: '2020-03-04',
+    length: 102,
+    genre: ['Animation'],
+    saga: 'Pixar',
+    description: '',
+    fromEntity: null,
+    countryOrigin: ['États-Unis'],
+    selectDisplayOrder: 5,
+  },
+  {
+    title: 'Step Up: All In',
+    director: 'Trish Sie',
+    actors: [
+      {
+        name: 'Ryan Guzman',
+      },
+      {
+        name: 'Briana Evigan',
+      },
+      {
+        name: 'Alyson Stoner',
+      },
+    ],
+    coverUrl: '/movies_pictures/step_up_all_in.jpg',
+    releaseDate: '2014-08-08',
+    length: 112,
+    genre: ['Drame'],
+    saga: 'Sexy Dance',
+    description: '',
+    fromEntity: null,
+    countryOrigin: ['États-Unis'],
+    selectDisplayOrder: 5,
+  },
+  {
+    title: 'High School Musical 3 : Nos années lycée',
+    director: 'Kenny Ortega',
+    actors: [
+      {
+        name: 'Bruce Reitherman',
+      },
+      {
+        name: 'Phil Harris',
+      },
+      {
+        name: 'Sebastian Cabot',
+      },
+    ],
+    coverUrl: '/movies_pictures/high_school_musical_3_senior_year.jpg',
+    releaseDate: '2008-10-22',
+    length: 111,
+    genre: ['Comédie musicale'],
+    saga: 'High School Musical',
+    description: '',
+    fromEntity: null,
+    countryOrigin: ['États-Unis'],
+    selectDisplayOrder: 5,
+  },
+  {
+    title: 'High School Musical 2',
+    director: 'Kenny Ortega',
+    actors: [
+      {
+        name: 'Zac Efron',
+      },
+      {
+        name: 'Vanessa Hudgens',
+      },
+      {
+        name: 'Ashley Tisdale',
+      },
+    ],
+    coverUrl: '/movies_pictures/high_school_musical_2.jpg',
+    releaseDate: '2007-09-25',
+    length: 104,
+    genre: ['Comédie musicale'],
+    saga: 'High School Musical',
+    description: '',
+    fromEntity: null,
+    countryOrigin: ['États-Unis'],
+    selectDisplayOrder: 5,
+  },
+  {
+    title: 'High School Musical : Premiers pas sur scène',
+    director: 'Kenny Ortega',
+    actors: [
+      {
+        name: 'Zac Efron',
+      },
+      {
+        name: 'Vanessa Hudgens',
+      },
+      {
+        name: 'Ashley Tisdale',
+      },
+    ],
+    coverUrl: '/movies_pictures/high_school_musical.jpg',
+    releaseDate: '2006-10-30',
+    length: 93,
+    genre: ['Comédie musicale'],
+    saga: 'High School Musical',
+    description: '',
+    fromEntity: null,
+    countryOrigin: ['États-Unis'],
+    selectDisplayOrder: 5,
+  },
 ];

@@ -11626,4 +11626,1621 @@ export const baseMoviesComedie: BaseMovie[] = [
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 5,
   },
+
+  {
+    title: 'Adieu Jean-Pat',
+    director: 'Cécilia Rouaud',
+    actors: [
+      {
+        name: 'Hakim Jemili',
+      },
+      {
+        name: 'Alice David',
+      },
+    ],
+    coverUrl: '/movies_pictures/adieu_jean_pat.jpg',
+    releaseDate: '2025-09-03',
+    length: 94,
+    genre: ['Comédie'],
+    saga: '',
+    description: '',
+    fromEntity: null,
+    countryOrigin: ['France'],
+    selectDisplayOrder: 5,
+  },
+  {
+    title: 'Loups-Garous',
+    director: 'François Uzan',
+    actors: [
+      {
+        name: 'Bill Skarsgård',
+      },
+      {
+        name: 'Nicholas Hoult',
+      },
+      {
+        name: 'Lily-Rose Depp',
+      },
+      {
+        name: 'Aaron Taylor-Johnson',
+      },
+      {
+        name: 'Emma Corrin',
+      },
+      {
+        name: 'Willem Dafoe',
+      },
+    ],
+    coverUrl: '/movies_pictures/loups_garous.jpg',
+    releaseDate: '2024-10-23',
+    length: 94,
+    genre: ['Comédie'],
+    saga: '',
+    description: '',
+    fromEntity: null,
+    countryOrigin: ['France'],
+    selectDisplayOrder: 5,
+  },
+  {
+    title: 'Beetlejuice Beetlejuice',
+    director: 'Tim Burton',
+    actors: [
+      {
+        name: 'Michael Keaton',
+      },
+      {
+        name: 'Winona Ryder',
+      },
+      {
+        name: 'Catherine O\'Hara',
+      },
+      {
+        name: 'Jenna Ortega',
+      },
+      {
+        name: 'Justin Theroux',
+      },
+    ],
+    coverUrl: '/movies_pictures/beetlejuice_beetlejuice.jpg',
+    releaseDate: '2024-09-11',
+    length: 104,
+    genre: ['Comédie'],
+    saga: '',
+    description: '',
+    fromEntity: null,
+    countryOrigin: ['États-Unis'],
+    selectDisplayOrder: 5,
+  },
+  {
+    title: 'A Little Something Extra',
+    director: 'Artus',
+    actors: [
+      {
+        name: 'Artus',
+      },
+      {
+        name: 'Clovis Cornillac',
+      },
+      {
+        name: 'Alice Belaïdi',
+      },
+      {
+        name: 'Marc Riso',
+      },
+      {
+        name: 'Céline Groussard',
+      },
+    ],
+    coverUrl: '/movies_pictures/a_little_something_extra.jpg',
+    releaseDate: '2024-01-01',
+    length: 100,
+    genre: ['Comédie'],
+    saga: '',
+    description: '',
+    fromEntity: null,
+    countryOrigin: ['France'],
+    selectDisplayOrder: 5,
+  },
+  {
+    title: 'Tout sauf toi',
+    director: 'Will Gluck',
+    actors: [
+      {
+        name: 'Sydney Sweeney',
+      },
+      {
+        name: 'Glen Powell',
+      },
+      {
+        name: 'Alexandra Shipp',
+      },
+      {
+        name: 'Hadley Robinson',
+      },
+      {
+        name: 'Michelle Hurd',
+      },
+    ],
+    coverUrl: '/movies_pictures/tout_sauf_toi.jpg',
+    releaseDate: '2024-01-24',
+    length: 103,
+    genre: ['Comédie'],
+    saga: '',
+    description: '',
+    fromEntity: null,
+    countryOrigin: ['États-Unis'],
+    selectDisplayOrder: 5,
+  },
+  {
+    title: 'Pauvres Créatures',
+    director: 'Yórgos Lánthimos',
+    actors: [
+      {
+        name: 'Emma Stone',
+      },
+      {
+        name: 'Mark Ruffalo',
+      },
+      {
+        name: 'Willem Dafoe',
+      },
+      {
+        name: 'Ramy Youssef',
+      },
+      {
+        name: 'Christopher Abbott',
+      },
+    ],
+    coverUrl: '/movies_pictures/pauvres_creatures.jpg',
+    releaseDate: '2024-01-17',
+    length: 141,
+    genre: ['Comédie'],
+    saga: '',
+    description: '',
+    fromEntity: null,
+    countryOrigin: ['États-Unis'],
+    selectDisplayOrder: 5,
+  },
+  {
+    title: 'Le Manoir hanté',
+    director: 'Justin Simien',
+    actors: [
+      {
+        name: 'LaKeith Stanfield',
+      },
+      {
+        name: 'Tiffany Haddish',
+      },
+      {
+        name: 'Owen Wilson',
+      },
+      {
+        name: 'Danny DeVito',
+      },
+      {
+        name: 'Rosario Dawson',
+      },
+    ],
+    coverUrl: '/movies_pictures/le_manoir_hante.jpg',
+    releaseDate: '2023-07-26',
+    length: 123,
+    genre: ['Comédie'],
+    saga: '',
+    description: '',
+    fromEntity: null,
+    countryOrigin: ['États-Unis'],
+    selectDisplayOrder: 5,
+  },
+  {
+    title: 'Yannick',
+    director: 'Quentin Dupieux',
+    actors: [
+      {
+        name: 'Raphaël Quenard',
+      },
+      {
+        name: 'Pio Marmaï',
+      },
+      {
+        name: 'Blanche Gardin',
+      },
+      {
+        name: 'Sébastien Chassagne',
+      },
+    ],
+    coverUrl: '/movies_pictures/yannick.jpg',
+    releaseDate: '2023-08-02',
+    length: 67,
+    genre: ['Comédie'],
+    saga: '',
+    description: '',
+    fromEntity: null,
+    countryOrigin: ['France'],
+    selectDisplayOrder: 5,
+  },
+  {
+    title: 'Le Challenge',
+    director: 'Gene Stupnitsky',
+    actors: [
+      {
+        name: 'Jennifer Lawrence',
+      },
+      {
+        name: 'Andrew Barth Feldman',
+      },
+      {
+        name: 'Laura Benanti',
+      },
+      {
+        name: 'Natalie Morales',
+      },
+      {
+        name: 'Matthew Broderick',
+      },
+    ],
+    coverUrl: '/movies_pictures/le_challenge.jpg',
+    releaseDate: '2023-06-21',
+    length: 103,
+    genre: ['Comédie'],
+    saga: '',
+    description: '',
+    fromEntity: null,
+    countryOrigin: ['États-Unis'],
+    selectDisplayOrder: 5,
+  },
+  {
+    title: 'Mon crime',
+    director: 'François Ozon',
+    actors: [
+      {
+        name: 'Nadia Tereszkiewicz',
+      },
+      {
+        name: 'Rebecca Marder',
+      },
+      {
+        name: 'Isabelle Huppert',
+      },
+      {
+        name: 'Fabrice Luchini',
+      },
+      {
+        name: 'Dany Boon',
+      },
+    ],
+    coverUrl: '/movies_pictures/mon_crime.jpg',
+    releaseDate: '2023-03-08',
+    length: 102,
+    genre: ['Comédie'],
+    saga: '',
+    description: '',
+    fromEntity: null,
+    countryOrigin: ['France'],
+    selectDisplayOrder: 5,
+  },
+  {
+    title: 'Alibi.com 2',
+    director: 'Philippe Lacheau',
+    actors: [
+      {
+        name: 'Philippe Lacheau',
+      },
+      {
+        name: 'Élodie Fontan',
+      },
+      {
+        name: 'Julien Arruti',
+      },
+    ],
+    coverUrl: '/movies_pictures/alibicom_2.jpg',
+    releaseDate: '2023-01-01',
+    length: 88,
+    genre: ['Comédie'],
+    saga: '',
+    description: '',
+    fromEntity: null,
+    countryOrigin: ['France'],
+    selectDisplayOrder: 5,
+  },
+  {
+    title: 'Le Menu',
+    director: 'Mark Mylod',
+    actors: [
+      {
+        name: 'Ralph Fiennes',
+      },
+      {
+        name: 'Anya Taylor-Joy',
+      },
+      {
+        name: 'Nicholas Hoult',
+      },
+    ],
+    coverUrl: '/movies_pictures/le_menu.jpg',
+    releaseDate: '2022-11-23',
+    length: 107,
+    genre: ['Comédie'],
+    saga: '',
+    description: '',
+    fromEntity: null,
+    countryOrigin: ['États-Unis'],
+    selectDisplayOrder: 30,
+  },
+  {
+    title: 'Ténor',
+    director: 'Claude Zidi Jr.',
+    actors: [
+      {
+        name: 'Michaël Youn',
+      },
+      {
+        name: 'Kad Merad',
+      },
+      {
+        name: 'Claude Zidi Jr.',
+      },
+    ],
+    coverUrl: '/movies_pictures/tenor.jpg',
+    releaseDate: '2022-05-04',
+    length: 100,
+    genre: ['Comédie'],
+    saga: '',
+    description: '',
+    fromEntity: null,
+    countryOrigin: ['France'],
+    selectDisplayOrder: 5,
+  },
+  {
+    title: 'Super-héros malgré lui',
+    director: 'Philippe Lacheau',
+    actors: [
+      {
+        name: 'Philippe Lacheau',
+      },
+      {
+        name: 'Tarek Boudali',
+      },
+      {
+        name: 'Julien Arruti',
+      },
+    ],
+    coverUrl: '/movies_pictures/super-heros_malgre_lui.jpg',
+    releaseDate: '2022-02-02',
+    length: 82,
+    genre: ['Comédie'],
+    saga: '',
+    description: '',
+    fromEntity: null,
+    countryOrigin: ['États-Unis'],
+    selectDisplayOrder: 5,
+  },
+  {
+    title: 'The Trip',
+    director: 'Tommy Wirkola',
+    actors: [
+      {
+        name: 'Noomi Rapace',
+      },
+      {
+        name: 'Aksel Hennie',
+      },
+      {
+        name: 'Atle Antonsen',
+      },
+    ],
+    coverUrl: '/movies_pictures/the_trip.jpg',
+    releaseDate: '2021-07-30',
+    length: 113,
+    genre: ['Comédie'],
+    saga: '',
+    description: '',
+    fromEntity: null,
+    countryOrigin: ['Norvège'],
+    selectDisplayOrder: 5,
+  },
+  {
+    title: 'Un papa hors pair',
+    director: 'Paul Weitz',
+    actors: [
+      {
+        name: 'Kevin Hart',
+      },
+      {
+        name: 'Alfre Woodard',
+      },
+      {
+        name: 'Lil Rel Howery',
+      },
+    ],
+    coverUrl: '/movies_pictures/un_papa_hors_pair.jpg',
+    releaseDate: '2021-06-18',
+    length: 109,
+    genre: ['Comédie'],
+    saga: '',
+    description: '',
+    fromEntity: null,
+    countryOrigin: ['États-Unis'],
+    selectDisplayOrder: 5,
+  },
+  {
+    title: 'Play',
+    director: 'Anthony Marciano',
+    actors: [
+      {
+        name: 'Anthony Marciano',
+      },
+      {
+        name: 'Mehdi Nebbou',
+      },
+      {
+        name: 'Lannick Gautry',
+      },
+    ],
+    coverUrl: '/movies_pictures/play.jpg',
+    releaseDate: '2020-01-01',
+    length: 108,
+    genre: ['Comédie'],
+    saga: '',
+    description: '',
+    fromEntity: null,
+    countryOrigin: ['France'],
+    selectDisplayOrder: 5,
+  },
+  {
+    title: 'À tous les garçons que j\'ai aimés',
+    director: 'Susan Johnson',
+    actors: [
+      {
+        name: 'Lana Condor',
+      },
+      {
+        name: 'Noah Centineo',
+      },
+      {
+        name: 'Janel Parrish',
+      },
+    ],
+    coverUrl: '/movies_pictures/to_all_the_boys_i_ve_loved_before.jpg',
+    releaseDate: '2018-08-17',
+    length: 99,
+    genre: ['Comédie'],
+    saga: '',
+    description: '',
+    fromEntity: null,
+    countryOrigin: ['États-Unis'],
+    selectDisplayOrder: 5,
+  },
+  {
+    title: 'Crazy Rich Asians',
+    director: 'Jon M. Chu',
+    actors: [
+      {
+        name: 'Constance Wu',
+      },
+      {
+        name: 'Henry Golding',
+      },
+      {
+        name: 'Michelle Yeoh',
+      },
+    ],
+    coverUrl: '/movies_pictures/crazy_rich_asians.jpg',
+    releaseDate: '2018-11-07',
+    length: 121,
+    genre: ['Comédie'],
+    saga: '',
+    description: '',
+    fromEntity: null,
+    countryOrigin: ['États-Unis'],
+    selectDisplayOrder: 5,
+  },
+  {
+    title: 'Ne coupez pas !',
+    director: 'Shin\'ichirō Ueda',
+    actors: [
+      {
+        name: 'Dwayne Johnson',
+      },
+      {
+        name: 'Jack Black',
+      },
+      {
+        name: 'Kevin Hart',
+      },
+    ],
+    coverUrl: '/movies_pictures/one_cut_of_the_dead.jpg',
+    releaseDate: '2019-04-24',
+    length: 96,
+    genre: ['Comédie'],
+    saga: '',
+    description: '',
+    fromEntity: null,
+    countryOrigin: ['Japon'],
+    selectDisplayOrder: 5,
+  },
+  {
+    title: 'The Babysitter',
+    director: 'McG',
+    actors: [
+      {
+        name: 'Samara Weaving',
+      },
+      {
+        name: 'Judah Lewis',
+      },
+      {
+        name: 'Bella Thorne',
+      },
+    ],
+    coverUrl: '/movies_pictures/the_babysitter.jpg',
+    releaseDate: '2017-10-13',
+    length: 85,
+    genre: ['Comédie'],
+    saga: '',
+    description: '',
+    fromEntity: null,
+    countryOrigin: ['États-Unis'],
+    selectDisplayOrder: 5,
+  },
+  {
+    title: 'Lady Bird',
+    director: 'Greta Gerwig',
+    actors: [
+      {
+        name: 'Saoirse Ronan',
+      },
+      {
+        name: 'Laurie Metcalf',
+      },
+      {
+        name: 'Tracy Letts',
+      },
+    ],
+    coverUrl: '/movies_pictures/lady_bird.jpg',
+    releaseDate: '2018-02-28',
+    length: 94,
+    genre: ['Comédie'],
+    saga: '',
+    description: '',
+    fromEntity: null,
+    countryOrigin: ['États-Unis'],
+    selectDisplayOrder: 5,
+  },
+  {
+    title: 'La Colle',
+    director: 'Alexandre Castagnetti',
+    actors: [
+      {
+        name: 'Kev Adams',
+      },
+      {
+        name: 'Gérard Depardieu',
+      },
+      {
+        name: 'Noémie Schmidt',
+      },
+    ],
+    coverUrl: '/movies_pictures/la_colle.jpg',
+    releaseDate: '2017-07-19',
+    length: 91,
+    genre: ['Comédie'],
+    saga: '',
+    description: '',
+    fromEntity: null,
+    countryOrigin: ['France'],
+    selectDisplayOrder: 5,
+  },
+  {
+    title: 'Alibi.com',
+    director: 'Philippe Lacheau',
+    actors: [
+      {
+        name: 'Philippe Lacheau',
+      },
+      {
+        name: 'Élodie Fontan',
+      },
+      {
+        name: 'Tarek Boudali',
+      },
+    ],
+    coverUrl: '/movies_pictures/alibi_com.jpg',
+    releaseDate: '2017-02-15',
+    length: 90,
+    genre: ['Comédie'],
+    saga: '',
+    description: '',
+    fromEntity: null,
+    countryOrigin: ['France'],
+    selectDisplayOrder: 5,
+  },
+  {
+    title: 'The Boyfriend : Pourquoi lui ?',
+    director: 'John Hamburg',
+    actors: [
+      {
+        name: 'James Franco',
+      },
+      {
+        name: 'Zoey Deutch',
+      },
+      {
+        name: 'Bryan Cranston',
+      },
+    ],
+    coverUrl: '/movies_pictures/why_him.jpg',
+    releaseDate: '2017-01-25',
+    length: 111,
+    genre: ['Comédie'],
+    saga: '',
+    description: '',
+    fromEntity: null,
+    countryOrigin: ['États-Unis'],
+    selectDisplayOrder: 5,
+  },
+  {
+    title: 'War Dogs',
+    director: 'Todd Phillips',
+    actors: [
+      {
+        name: 'Jonah Hill',
+      },
+      {
+        name: 'Miles Teller',
+      },
+      {
+        name: 'Ana de Armas',
+      },
+    ],
+    coverUrl: '/movies_pictures/war_dogs.jpg',
+    releaseDate: '2016-09-14',
+    length: 114,
+    genre: ['Comédie'],
+    saga: '',
+    description: '',
+    fromEntity: null,
+    countryOrigin: ['États-Unis'],
+    selectDisplayOrder: 5,
+  },
+  {
+    title: 'The Nice Guys',
+    director: 'Shane Black',
+    actors: [
+      {
+        name: 'Ryan Gosling',
+      },
+      {
+        name: 'Russell Crowe',
+      },
+      {
+        name: 'Angourie Rice',
+      },
+    ],
+    coverUrl: '/movies_pictures/the_nice_guys.jpg',
+    releaseDate: '2016-05-20',
+    length: 116,
+    genre: ['Comédie'],
+    saga: '',
+    description: '',
+    fromEntity: null,
+    countryOrigin: ['États-Unis'],
+    selectDisplayOrder: 5,
+  },
+  {
+    title: 'Nos pires voisins 2',
+    director: 'Nicholas Stoller',
+    actors: [
+      {
+        name: 'Seth Rogen',
+      },
+      {
+        name: 'Zac Efron',
+      },
+      {
+        name: 'Rose Byrne',
+      },
+    ],
+    coverUrl: '/movies_pictures/neighbors_2_sorority_rising.jpg',
+    releaseDate: '2016-07-06',
+    length: 92,
+    genre: ['Comédie'],
+    saga: '',
+    description: '',
+    fromEntity: null,
+    countryOrigin: ['États-Unis'],
+    selectDisplayOrder: 5,
+  },
+  {
+    title: 'Five',
+    director: 'Igor Gotesman',
+    actors: [
+      {
+        name: 'Pierre Niney',
+      },
+      {
+        name: 'François Civil',
+      },
+    ],
+    coverUrl: '/movies_pictures/five.jpg',
+    releaseDate: '2016-08-31',
+    length: 95,
+    genre: ['Comédie'],
+    saga: '',
+    description: '',
+    fromEntity: null,
+    countryOrigin: ['France'],
+    selectDisplayOrder: 5,
+  },
+  {
+    title: 'Ted 2',
+    director: 'Seth MacFarlane',
+    actors: [
+      {
+        name: 'Mark Wahlberg',
+      },
+      {
+        name: 'Seth MacFarlane',
+      },
+      {
+        name: 'Amanda Seyfried',
+      },
+      {
+        name: 'Morgan Freeman',
+      },
+    ],
+    coverUrl: '/movies_pictures/ted_2.jpg',
+    releaseDate: '2015-08-05',
+    length: 115,
+    genre: ['Comédie'],
+    saga: '',
+    description: '',
+    fromEntity: null,
+    countryOrigin: ['États-Unis'],
+    selectDisplayOrder: 5,
+  },
+  {
+    title: 'Dope',
+    director: 'Rick Famuyiwa',
+    actors: [
+      {
+        name: 'Shameik Moore',
+      },
+      {
+        name: 'Tony Revolori',
+      },
+      {
+        name: 'Kiersey Clemons',
+      },
+    ],
+    coverUrl: '/movies_pictures/dope.jpg',
+    releaseDate: '2015-11-04',
+    length: 103,
+    genre: ['Comédie'],
+    saga: '',
+    description: '',
+    fromEntity: null,
+    countryOrigin: ['États-Unis'],
+    selectDisplayOrder: 5,
+  },
+  {
+    title: 'Nos pires voisins',
+    director: 'Nicholas Stoller',
+    actors: [
+      {
+        name: 'Seth Rogen',
+      },
+      {
+        name: 'Zac Efron',
+      },
+      {
+        name: 'Rose Byrne',
+      },
+    ],
+    coverUrl: '/movies_pictures/neighbors.jpg',
+    releaseDate: '2014-05-28',
+    length: 97,
+    genre: ['Comédie'],
+    saga: '',
+    description: '',
+    fromEntity: null,
+    countryOrigin: ['États-Unis'],
+    selectDisplayOrder: 5,
+  },
+  {
+    title: 'The Grand Budapest Hotel',
+    director: 'Wes Anderson',
+    actors: [
+      {
+        name: 'Ralph Fiennes',
+      },
+      {
+        name: 'Tony Revolori',
+      },
+      {
+        name: 'F. Murray Abraham',
+      },
+    ],
+    coverUrl: '/movies_pictures/the_grand_budapest_hotel.jpg',
+    releaseDate: '2014-02-26',
+    length: 100,
+    genre: ['Comédie'],
+    saga: '',
+    description: '',
+    fromEntity: null,
+    countryOrigin: ['États-Unis'],
+    selectDisplayOrder: 5,
+  },
+  {
+    title: 'Vampires en toute intimité',
+    director: 'Taika Waititi, Jemaine Clement',
+    actors: [
+      {
+        name: 'Taika Waititi',
+      },
+      {
+        name: 'Jemaine Clement',
+      },
+      {
+        name: 'Jonathan Brugh',
+      },
+    ],
+    coverUrl: '/movies_pictures/what_we_do_in_the_shadows.jpg',
+    releaseDate: '2015-02-11',
+    length: 86,
+    genre: ['Comédie'],
+    saga: '',
+    description: '',
+    fromEntity: null,
+    countryOrigin: ['Nouvelle-Zélande'],
+    selectDisplayOrder: 5,
+  },
+  {
+    title: 'Et (beaucoup) plus si affinités',
+    director: 'Michael Dowse',
+    actors: [
+      {
+        name: 'Daniel Radcliffe',
+      },
+      {
+        name: 'Zoe Kazan',
+      },
+      {
+        name: 'Megan Park',
+      },
+    ],
+    coverUrl: '/movies_pictures/what_if.jpg',
+    releaseDate: '2014-08-20',
+    length: 102,
+    genre: ['Comédie'],
+    saga: '',
+    description: '',
+    fromEntity: null,
+    countryOrigin: ['États-Unis'],
+    selectDisplayOrder: 5,
+  },
+  {
+    title: 'New York Melody',
+    director: 'John Carney',
+    actors: [
+      {
+        name: 'Keira Knightley',
+      },
+      {
+        name: 'Mark Ruffalo',
+      },
+      {
+        name: 'Adam Levine',
+      },
+    ],
+    coverUrl: '/movies_pictures/begin_again.jpg',
+    releaseDate: '2014-07-30',
+    length: 104,
+    genre: ['Comédie'],
+    saga: '',
+    description: '',
+    fromEntity: null,
+    countryOrigin: ['États-Unis'],
+    selectDisplayOrder: 5,
+  },
+  {
+    title: 'Les Miller, une famille en herbe',
+    director: 'Rawson Marshall Thurber',
+    actors: [
+      {
+        name: 'Jennifer Aniston',
+      },
+      {
+        name: 'Jason Sudeikis',
+      },
+      {
+        name: 'Emma Roberts',
+      },
+    ],
+    coverUrl: '/movies_pictures/we_re_the_millers.jpg',
+    releaseDate: '2013-09-18',
+    length: 110,
+    genre: ['Comédie'],
+    saga: '',
+    description: '',
+    fromEntity: null,
+    countryOrigin: ['États-Unis'],
+    selectDisplayOrder: 5,
+  },
+  {
+    title: 'Copains pour toujours 2',
+    director: 'Dennis Dugan',
+    actors: [
+      {
+        name: 'Adam Sandler',
+      },
+      {
+        name: 'Kevin James',
+      },
+      {
+        name: 'Chris Rock',
+      },
+    ],
+    coverUrl: '/movies_pictures/grown_ups_2.jpg',
+    releaseDate: '2013-09-11',
+    length: 101,
+    genre: ['Comédie'],
+    saga: '',
+    description: '',
+    fromEntity: null,
+    countryOrigin: ['États-Unis'],
+    selectDisplayOrder: 5,
+  },
+  {
+    title: 'Les Stagiaires',
+    director: 'Shawn Levy',
+    actors: [
+      {
+        name: 'Vince Vaughn',
+      },
+      {
+        name: 'Owen Wilson',
+      },
+      {
+        name: 'Rose Byrne',
+      },
+    ],
+    coverUrl: '/movies_pictures/the_internship.jpg',
+    releaseDate: '2013-06-26',
+    length: 119,
+    genre: ['Comédie'],
+    saga: '',
+    description: '',
+    fromEntity: null,
+    countryOrigin: ['États-Unis'],
+    selectDisplayOrder: 5,
+  },
+  {
+    title: 'C\'est la fin',
+    director: 'Evan Goldberg, Seth Rogen',
+    actors: [
+      {
+        name: 'Seth Rogen',
+      },
+      {
+        name: 'James Franco',
+      },
+      {
+        name: 'Jonah Hill',
+      },
+    ],
+    coverUrl: '/movies_pictures/this_is_the_end.jpg',
+    releaseDate: '2013-10-09',
+    length: 107,
+    genre: ['Comédie'],
+    saga: '',
+    description: '',
+    fromEntity: null,
+    countryOrigin: ['États-Unis'],
+    selectDisplayOrder: 5,
+  },
+  {
+    title: 'Seven Psychopaths',
+    director: 'Martin McDonagh',
+    actors: [
+      {
+        name: 'Colin Farrell',
+      },
+      {
+        name: 'Sam Rockwell',
+      },
+      {
+        name: 'Christopher Walken',
+      },
+    ],
+    coverUrl: '/movies_pictures/seven_psychopaths.jpg',
+    releaseDate: '2013-01-30',
+    length: 110,
+    genre: ['Comédie'],
+    saga: '',
+    description: '',
+    fromEntity: null,
+    countryOrigin: ['États-Unis'],
+    selectDisplayOrder: 5,
+  },
+  {
+    title: 'Happy New Year',
+    director: 'Garry Marshall',
+    actors: [
+      {
+        name: 'Halle Berry',
+      },
+      {
+        name: 'Ashton Kutcher',
+      },
+      {
+        name: 'Jessica Biel',
+      },
+    ],
+    coverUrl: '/movies_pictures/new_year_s_eve.jpg',
+    releaseDate: '2011-12-21',
+    length: 118,
+    genre: ['Comédie'],
+    saga: '',
+    description: '',
+    fromEntity: null,
+    countryOrigin: ['États-Unis'],
+    selectDisplayOrder: 5,
+  },
+  {
+    title: '10 ans déjà !',
+    director: 'Jamie Linden',
+    actors: [
+      {
+        name: 'Channing Tatum',
+      },
+      {
+        name: 'Rosario Dawson',
+      },
+      {
+        name: 'Justin Long',
+      },
+    ],
+    coverUrl: '/movies_pictures/10_years.jpg',
+    releaseDate: '2012-06-13',
+    length: 110,
+    genre: ['Comédie'],
+    saga: '',
+    description: '',
+    fromEntity: null,
+    countryOrigin: ['États-Unis'],
+    selectDisplayOrder: 5,
+  },
+  {
+    title: 'Bad Teacher',
+    director: 'Jake Kasdan',
+    actors: [
+      {
+        name: 'Cameron Diaz',
+      },
+      {
+        name: 'Justin Timberlake',
+      },
+      {
+        name: 'Jason Segel',
+      },
+    ],
+    coverUrl: '/movies_pictures/bad_teacher.jpg',
+    releaseDate: '2011-07-27',
+    length: 92,
+    genre: ['Comédie'],
+    saga: '',
+    description: '',
+    fromEntity: null,
+    countryOrigin: ['États-Unis'],
+    selectDisplayOrder: 5,
+  },
+  {
+    title: 'Scott Pilgrim',
+    director: 'Edgar Wright',
+    actors: [
+      {
+        name: 'Michael Cera',
+      },
+      {
+        name: 'Mary Elizabeth Winstead',
+      },
+      {
+        name: 'Kieran Culkin',
+      },
+    ],
+    coverUrl: '/movies_pictures/scott_pilgrim_vs_the_world.jpg',
+    releaseDate: '2010-12-01',
+    length: 112,
+    genre: ['Comédie'],
+    saga: '',
+    description: '',
+    fromEntity: null,
+    countryOrigin: ['États-Unis'],
+    selectDisplayOrder: 5,
+  },
+  {
+    title: 'Copains pour toujours',
+    director: 'Dennis Dugan',
+    actors: [
+      {
+        name: 'Adam Sandler',
+      },
+      {
+        name: 'Kevin James',
+      },
+      {
+        name: 'Chris Rock',
+      },
+    ],
+    coverUrl: '/movies_pictures/grown_ups.jpg',
+    releaseDate: '2010-09-08',
+    length: 102,
+    genre: ['Comédie'],
+    saga: '',
+    description: '',
+    fromEntity: null,
+    countryOrigin: ['États-Unis'],
+    selectDisplayOrder: 5,
+  },
+  {
+    title: 'Nanny McPhee et le Big Bang',
+    director: 'Susanna White',
+    actors: [
+      {
+        name: 'Emma Thompson',
+      },
+      {
+        name: 'Maggie Gyllenhaal',
+      },
+      {
+        name: 'Rhys Ifans',
+      },
+    ],
+    coverUrl: '/movies_pictures/nanny_mcphee_and_the_big_bang.jpg',
+    releaseDate: '2010-03-31',
+    length: 109,
+    genre: ['Comédie'],
+    saga: '',
+    description: '',
+    fromEntity: null,
+    countryOrigin: ['États-Unis'],
+    selectDisplayOrder: 5,
+  },
+  {
+    title: 'Coco',
+    director: 'Gad Elmaleh',
+    actors: [
+      {
+        name: 'Gad Elmaleh',
+      },
+    ],
+    coverUrl: '/movies_pictures/coco.jpg',
+    releaseDate: '2009-11-29',
+    length: 105,
+    genre: ['Comédie'],
+    saga: '',
+    description: '',
+    fromEntity: null,
+    countryOrigin: ['États-Unis'],
+    selectDisplayOrder: 5,
+  },
+  {
+    title: 'Little Miss Sunshine',
+    director: 'Jonathan Dayton, Valerie Faris',
+    actors: [
+      {
+        name: 'Abigail Breslin',
+      },
+      {
+        name: 'Greg Kinnear',
+      },
+      {
+        name: 'Toni Collette',
+      },
+    ],
+    coverUrl: '/movies_pictures/little_miss_sunshine.jpg',
+    releaseDate: '2006-09-06',
+    length: 100,
+    genre: ['Comédie'],
+    saga: '',
+    description: '',
+    fromEntity: null,
+    countryOrigin: ['États-Unis'],
+    selectDisplayOrder: 30,
+  },
+  {
+    title: 'Treize à la douzaine 2',
+    director: 'Adam Shankman',
+    actors: [
+      {
+        name: 'Steve Martin',
+      },
+      {
+        name: 'Bonnie Hunt',
+      },
+      {
+        name: 'Eugene Levy',
+      },
+    ],
+    coverUrl: '/movies_pictures/cheaper_by_the_dozen_2.jpg',
+    releaseDate: '2006-03-01',
+    length: 94,
+    genre: ['Comédie'],
+    saga: '',
+    description: '',
+    fromEntity: null,
+    countryOrigin: ['États-Unis'],
+    selectDisplayOrder: 5,
+  },
+  {
+    title: 'Kiss Kiss Bang Bang',
+    director: 'Shane Black',
+    actors: [
+      {
+        name: 'Steve Carell',
+      },
+      {
+        name: 'Catherine Keener',
+      },
+      {
+        name: 'Paul Rudd',
+      },
+    ],
+    coverUrl: '/movies_pictures/kiss_kiss_bang_bang.jpg',
+    releaseDate: '2005-09-14',
+    length: 102,
+    genre: ['Comédie'],
+    saga: '',
+    description: '',
+    fromEntity: null,
+    countryOrigin: ['États-Unis'],
+    selectDisplayOrder: 30,
+  },
+  {
+    title: 'Le Fils du Mask',
+    director: 'Lawrence Guterman',
+    actors: [
+      {
+        name: 'Jamie Kennedy',
+      },
+      {
+        name: 'Alan Cumming',
+      },
+      {
+        name: 'Traylor Howard',
+      },
+    ],
+    coverUrl: '/movies_pictures/son_of_the_mask.jpg',
+    releaseDate: '2005-03-23',
+    length: 94,
+    genre: ['Comédie'],
+    saga: '',
+    description: '',
+    fromEntity: {
+      entityType: 'comic',
+      title: 'The Mask',
+      secondEntityKey: 'John Arcudi',
+    },
+    countryOrigin: ['États-Unis'],
+    selectDisplayOrder: 5,
+  },
+  {
+    title: 'Les Dalton',
+    director: 'Philippe Haïm',
+    actors: [
+      {
+        name: 'Nicolas Cage',
+      },
+      {
+        name: 'Diane Kruger',
+      },
+      {
+        name: 'Justin Bartha',
+      },
+    ],
+    coverUrl: '/movies_pictures/lucky_luke_and_the_daltons.jpg',
+    releaseDate: '2004-12-08',
+    length: 86,
+    genre: ['Comédie'],
+    saga: '',
+    description: '',
+    fromEntity: {
+      entityType: 'bd',
+      title: 'Les Cousins Dalton',
+      secondEntityKey: 'Morris',
+    },
+    countryOrigin: ['France'],
+    selectDisplayOrder: 5,
+  },
+  {
+    title: 'F.B.I. : Fausses blondes infiltrées',
+    director: 'Keenen Ivory Wayans',
+    actors: [
+      {
+        name: 'Shawn Wayans',
+      },
+      {
+        name: 'Marlon Wayans',
+      },
+      {
+        name: 'Jaime King',
+      },
+    ],
+    coverUrl: '/movies_pictures/white_chicks.jpg',
+    releaseDate: '2004-10-20',
+    length: 109,
+    genre: ['Comédie'],
+    saga: '',
+    description: '',
+    fromEntity: null,
+    countryOrigin: ['États-Unis'],
+    selectDisplayOrder: 5,
+  },
+  {
+    title: 'Treize à la douzaine',
+    director: 'Shawn Levy',
+    actors: [
+      {
+        name: 'Steve Martin',
+      },
+      {
+        name: 'Bonnie Hunt',
+      },
+      {
+        name: 'Piper Perabo',
+      },
+    ],
+    coverUrl: '/movies_pictures/cheaper_by_the_dozen.jpg',
+    releaseDate: '2004-04-14',
+    length: 99,
+    genre: ['Comédie'],
+    saga: '',
+    description: '',
+    fromEntity: null,
+    countryOrigin: ['États-Unis'],
+    selectDisplayOrder: 5,
+  },
+  {
+    title: 'Rock Academy',
+    director: 'Richard Linklater',
+    actors: [
+      {
+        name: 'Jack Black',
+      },
+      {
+        name: 'Joan Cusack',
+      },
+      {
+        name: 'Mike White',
+      },
+    ],
+    coverUrl: '/movies_pictures/school_of_rock.jpg',
+    releaseDate: '2004-03-24',
+    length: 108,
+    genre: ['Comédie'],
+    saga: '',
+    description: '',
+    fromEntity: null,
+    countryOrigin: ['États-Unis'],
+    selectDisplayOrder: 5,
+  },
+  {
+    title: 'Comment se faire larguer en dix leçons',
+    director: 'Donald Petrie',
+    actors: [
+      {
+        name: 'Kate Hudson',
+      },
+      {
+        name: 'Matthew McConaughey',
+      },
+      {
+        name: 'Kathryn Hahn',
+      },
+    ],
+    coverUrl: '/movies_pictures/how_to_lose_a_guy_in_10_days.jpg',
+    releaseDate: '2003-06-11',
+    length: 115,
+    genre: ['Comédie'],
+    saga: '',
+    description: '',
+    fromEntity: null,
+    countryOrigin: ['États-Unis'],
+    selectDisplayOrder: 5,
+  },
+  {
+    title: 'Zoolander',
+    director: 'Ben Stiller',
+    actors: [
+      {
+        name: 'Ben Stiller',
+      },
+      {
+        name: 'Owen Wilson',
+      },
+      {
+        name: 'Christine Taylor',
+      },
+    ],
+    coverUrl: '/movies_pictures/zoolander.jpg',
+    releaseDate: '2002-01-02',
+    length: 89,
+    genre: ['Comédie'],
+    saga: '',
+    description: '',
+    fromEntity: null,
+    countryOrigin: ['États-Unis'],
+    selectDisplayOrder: 5,
+  },
+  {
+    title: 'La Course au jouet',
+    director: 'Brian Levant',
+    actors: [
+      {
+        name: 'Arnold Schwarzenegger',
+      },
+      {
+        name: 'Jeff Goldblum',
+      },
+      {
+        name: 'Julianne Moore',
+      },
+      {
+        name: 'Pete Postlethwaite',
+      },
+    ],
+    coverUrl: '/movies_pictures/jingle_all_the_way.jpg',
+    releaseDate: '1996-12-11',
+    length: 90,
+    genre: ['Comédie'],
+    saga: '',
+    description: '',
+    fromEntity: null,
+    countryOrigin: ['États-Unis'],
+    selectDisplayOrder: 5,
+  },
+  {
+    title: 'Sister Act, acte 2',
+    director: 'Bill Duke',
+    actors: [
+      {
+        name: 'Chantal Lauby',
+      },
+      {
+        name: 'Alain Chabat',
+      },
+      {
+        name: 'Dominique Farrugia',
+      },
+    ],
+    coverUrl: '/movies_pictures/sister_act_2_back_in_the_habit.jpg',
+    releaseDate: '1994-03-23',
+    length: 107,
+    genre: ['Comédie'],
+    saga: '',
+    description: '',
+    fromEntity: null,
+    countryOrigin: ['États-Unis'],
+    selectDisplayOrder: 5,
+  },
+  {
+    title: 'Sister Act',
+    director: 'Emile Ardolino',
+    actors: [
+      {
+        name: 'Whoopi Goldberg',
+      },
+      {
+        name: 'Maggie Smith',
+      },
+      {
+        name: 'Harvey Keitel',
+      },
+    ],
+    coverUrl: '/movies_pictures/sister_act.jpg',
+    releaseDate: '1992-11-25',
+    length: 100,
+    genre: ['Comédie'],
+    saga: '',
+    description: '',
+    fromEntity: null,
+    countryOrigin: ['États-Unis'],
+    selectDisplayOrder: 5,
+  },
+  {
+    title: 'Big',
+    director: 'Penny Marshall',
+    actors: [
+      {
+        name: 'Tom Hanks',
+      },
+      {
+        name: 'Elizabeth Perkins',
+      },
+      {
+        name: 'Robert Loggia',
+      },
+    ],
+    coverUrl: '/movies_pictures/big.jpg',
+    releaseDate: '1988-12-07',
+    length: 104,
+    genre: ['Comédie'],
+    saga: '',
+    description: '',
+    fromEntity: null,
+    countryOrigin: ['États-Unis'],
+    selectDisplayOrder: 5,
+  },
+  {
+    title: 'La Folle Journée de Ferris Bueller',
+    director: 'John Hughes',
+    actors: [
+      {
+        name: 'Mayumi Tanaka',
+      },
+      {
+        name: 'Keiko Yokozawa',
+      },
+      {
+        name: 'Kotoe Hatsui',
+      },
+    ],
+    coverUrl: '/movies_pictures/ferris_bueller_s_day_off.jpg',
+    releaseDate: '1986-12-17',
+    length: 102,
+    genre: ['Comédie'],
+    saga: '',
+    description: '',
+    fromEntity: null,
+    countryOrigin: ['États-Unis'],
+    selectDisplayOrder: 5,
+  },
+  {
+    title: 'Risky Business',
+    director: 'Paul Brickman',
+    actors: [
+      {
+        name: 'Tom Cruise',
+      },
+      {
+        name: 'Rebecca De Mornay',
+      },
+      {
+        name: 'Joe Pantoliano',
+      },
+    ],
+    coverUrl: '/movies_pictures/risky_business.jpg',
+    releaseDate: '1984-03-21',
+    length: 98,
+    genre: ['Comédie'],
+    saga: '',
+    description: '',
+    fromEntity: null,
+    countryOrigin: ['États-Unis'],
+    selectDisplayOrder: 30,
+  },
+  {
+    title: 'Les Valseuses',
+    director: 'Bertrand Blier',
+    actors: [
+      {
+        name: 'Gérard Depardieu',
+      },
+      {
+        name: 'Patrick Dewaere',
+      },
+      {
+        name: 'Miou-Miou',
+      },
+    ],
+    coverUrl: '/movies_pictures/going_places.jpg',
+    releaseDate: '1974-01-09',
+    length: 117,
+    genre: ['Comédie'],
+    saga: '',
+    description: '',
+    fromEntity: null,
+    countryOrigin: ['France'],
+    selectDisplayOrder: 5,
+  },
 ];

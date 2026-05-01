@@ -1808,4 +1808,41 @@ export const baseMoviesSagaFantastique: BaseMovie[] = [
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 20,
   },
+
+  {
+    title: 'Ghostbusters: Frozen Empire',
+    director: 'Gil Kenan',
+    actors: [
+      {
+        name: 'Finn Wolfhard',
+      },
+      {
+        name: 'Mckenna Grace',
+      },
+      {
+        name: 'Celeste O\'Connor',
+      },
+      {
+        name: 'Carrie Coon',
+      },
+      {
+        name: 'Paul Rudd',
+      },
+      {
+        name: 'Ernie Hudson',
+      },
+      {
+        name: 'Patton Oswalt',
+      },
+    ],
+    coverUrl: '/movies_pictures/ghostbusters_frozen_empire.jpg',
+    releaseDate: '2024-01-01',
+    length: 115,
+    genre: ['Fantastique'],
+    saga: 'Ghostbusters',
+    description: '',
+    fromEntity: null,
+    countryOrigin: ['États-Unis'],
+    selectDisplayOrder: 5,
+  },
 ];

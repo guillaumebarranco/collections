@@ -3649,4 +3649,81 @@ export const baseMoviesAnimationOthers: BaseMovie[] = [
     countryOrigin: ['Japon'],
     selectDisplayOrder: 5,
   },
+
+  {
+    title: 'Space Jam : Nouvelle Ère',
+    director: 'Malcolm D. Lee',
+    actors: [
+      {
+        name: 'LeBron James',
+      },
+      {
+        name: 'Don Cheadle',
+      },
+      {
+        name: 'Sonequa Martin-Green',
+      },
+    ],
+    coverUrl: '/movies_pictures/space_jam_nouvelle_ere.jpg',
+    releaseDate: '2021-07-21',
+    length: 116,
+    genre: ['Animation'],
+    saga: '',
+    description: '',
+    fromEntity: null,
+    countryOrigin: ['États-Unis'],
+    selectDisplayOrder: 5,
+  },
+  {
+    title: 'Nicky Larson Private Eyes',
+    director: 'Kenji Kodama',
+    actors: [
+      {
+        name: 'Philippe Lacheau',
+      },
+      {
+        name: 'Élodie Fontan',
+      },
+      {
+        name: 'Tarek Boudali',
+      },
+    ],
+    coverUrl: '/movies_pictures/city_hunter.jpg',
+    releaseDate: '2019-06-13',
+    length: 96,
+    genre: ['Animation'],
+    saga: '',
+    description: '',
+    fromEntity: {
+      entityType: 'manga',
+      title: 'City Hunter',
+      secondEntityKey: 'Tsukasa Hōjō',
+    },
+    countryOrigin: ['France'],
+    selectDisplayOrder: 5,
+  },
+  {
+    title: 'Le Grinch',
+    director: 'Yarrow Cheney, Scott Mosier',
+    actors: [
+      {
+        name: 'Benedict Cumberbatch',
+      },
+      {
+        name: 'Rashida Jones',
+      },
+      {
+        name: 'Kenan Thompson',
+      },
+    ],
+    coverUrl: '/movies_pictures/the_grinch.jpg',
+    releaseDate: '2018-11-28',
+    length: 86,
+    genre: ['Animation'],
+    saga: '',
+    description: '',
+    fromEntity: null,
+    countryOrigin: ['États-Unis'],
+    selectDisplayOrder: 5,
+  },
 ];

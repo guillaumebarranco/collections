@@ -1493,4 +1493,107 @@ export const baseMoviesSagaComedie: BaseMovie[] = [
     countryOrigin: ['France'],
     selectDisplayOrder: 30,
   },
+
+  {
+    title: 'Argylle',
+    director: 'Matthew Vaughn',
+    actors: [
+      {
+        name: 'Henry Cavill',
+      },
+      {
+        name: 'Bryce Dallas Howard',
+      },
+      {
+        name: 'Sam Rockwell',
+      },
+      {
+        name: 'Bryan Cranston',
+      },
+      {
+        name: 'Catherine O\'Hara',
+      },
+    ],
+    coverUrl: '/movies_pictures/argylle.jpg',
+    releaseDate: '2024-01-31',
+    length: 139,
+    genre: ['Action', 'Comédie'],
+    saga: 'Kingsman',
+    description: '',
+    fromEntity: null,
+    countryOrigin: ['États-Unis'],
+    selectDisplayOrder: 5,
+  },
+  {
+    title: 'Magic Mike XXL',
+    director: 'Gregory Jacobs',
+    actors: [
+      {
+        name: 'Channing Tatum',
+      },
+      {
+        name: 'Matt Bomer',
+      },
+      {
+        name: 'Joe Manganiello',
+      },
+    ],
+    coverUrl: '/movies_pictures/magic_mike_xxl.jpg',
+    releaseDate: '2015-07-08',
+    length: 115,
+    genre: ['Comédie'],
+    saga: 'Magic Mike',
+    description: '',
+    fromEntity: null,
+    countryOrigin: ['États-Unis'],
+    selectDisplayOrder: 5,
+  },
+  {
+    title: 'Magic Mike',
+    director: 'Steven Soderbergh',
+    actors: [
+      {
+        name: 'Ray Romano',
+      },
+      {
+        name: 'John Leguizamo',
+      },
+      {
+        name: 'Denis Leary',
+      },
+    ],
+    coverUrl: '/movies_pictures/magic_mike.jpg',
+    releaseDate: '2012-08-15',
+    length: 110,
+    genre: ['Comédie'],
+    saga: 'Magic Mike',
+    description: '',
+    fromEntity: null,
+    countryOrigin: ['États-Unis'],
+    selectDisplayOrder: 5,
+  },
+  {
+    title: 'Hot Fuzz',
+    director: 'Edgar Wright',
+    actors: [
+      {
+        name: 'Simon Pegg',
+      },
+      {
+        name: 'Nick Frost',
+      },
+      {
+        name: 'Jim Broadbent',
+      },
+    ],
+    coverUrl: '/movies_pictures/hot_fuzz.jpg',
+    releaseDate: '2007-07-18',
+    length: 121,
+    genre: ['Comédie'],
+    saga: 'Cornetto',
+    description: '',
+    fromEntity: null,
+    countryOrigin: ['Royaume-Uni'],
+    selectDisplayOrder: 30,
+  },
 ];

@@ -1970,5 +1970,595 @@ export const baseMoviesHorreur: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 5,
-  }
+  },
+
+  {
+    title: 'Évanouis',
+    director: 'Zach Cregger',
+    actors: [
+      {
+        name: 'Jared Leto',
+      },
+      {
+        name: 'Greta Lee',
+      },
+      {
+        name: 'Evan Peters',
+      },
+      {
+        name: 'Jodie Turner-Smith',
+      },
+      {
+        name: 'Hasan Minhaj',
+      },
+      {
+        name: 'Gillian Anderson',
+      },
+      {
+        name: 'Jeff Bridges',
+      },
+    ],
+    coverUrl: '/movies_pictures/vanouis.jpg',
+    releaseDate: '2025-08-06',
+    length: 128,
+    genre: ['Horreur'],
+    saga: '',
+    description: '',
+    fromEntity: null,
+    countryOrigin: ['États-Unis'],
+    selectDisplayOrder: 5,
+  },
+  {
+    title: 'Until Dawn : La mort sans fin',
+    director: 'David F. Sandberg',
+    actors: [
+      {
+        name: 'Alban Lenoir',
+      },
+      {
+        name: 'Nicolas Duvauchelle',
+      },
+      {
+        name: 'Stéfi Celma',
+      },
+      {
+        name: 'Gérard Lanvin',
+      },
+      {
+        name: 'Pascale Arbillot',
+      },
+    ],
+    coverUrl: '/movies_pictures/until_dawn_la_mort_sans_fin.jpg',
+    releaseDate: '2025-04-23',
+    length: 103,
+    genre: ['Horreur'],
+    saga: '',
+    description: '',
+    fromEntity: null,
+    countryOrigin: ['États-Unis'],
+    selectDisplayOrder: 5,
+  },
+  {
+    title: 'Nosferatu',
+    director: 'Robert Eggers',
+    actors: [
+      {
+        name: 'Brian Cox',
+      },
+      {
+        name: 'Gaia Wise',
+      },
+      {
+        name: 'Luke Pasqualino',
+      },
+      {
+        name: 'Miranda Otto',
+      },
+      {
+        name: 'Lorraine Ashbourne',
+      },
+    ],
+    coverUrl: '/movies_pictures/nosferatu.jpg',
+    releaseDate: '2024-12-25',
+    length: 132,
+    genre: ['Horreur'],
+    saga: '',
+    description: '',
+    fromEntity: {
+      entityType: 'book',
+      title: 'Dracula',
+      secondEntityKey: 'Bram Stoker',
+    },
+    countryOrigin: ['États-Unis'],
+    selectDisplayOrder: 5,
+  },
+  {
+    title: 'The Substance',
+    director: 'Coralie Fargeat',
+    actors: [
+      {
+        name: 'Demi Moore',
+      },
+      {
+        name: 'Margaret Qualley',
+      },
+      {
+        name: 'Dennis Quaid',
+      },
+      {
+        name: 'Edward Hamilton-Clark',
+      },
+    ],
+    coverUrl: '/movies_pictures/the_substance.jpg',
+    releaseDate: '2024-11-06',
+    length: 140,
+    genre: ['Horreur'],
+    saga: '',
+    description: '',
+    fromEntity: null,
+    countryOrigin: ['États-Unis'],
+    selectDisplayOrder: 5,
+  },
+  {
+    title: 'Cinq nuits chez Freddy',
+    director: 'Emma Tammi',
+    actors: [
+      {
+        name: 'Josh Hutcherson',
+      },
+      {
+        name: 'Piper Rubio',
+      },
+      {
+        name: 'Elizabeth Lail',
+      },
+      {
+        name: 'Matthew Lillard',
+      },
+      {
+        name: 'Mary Stuart Masterson',
+      },
+    ],
+    coverUrl: '/movies_pictures/cinq_nuits_chez_freddy.jpg',
+    releaseDate: '2023-11-08',
+    length: 110,
+    genre: ['Horreur'],
+    saga: '',
+    description: '',
+    fromEntity: null,
+    countryOrigin: ['États-Unis'],
+    selectDisplayOrder: 5,
+  },
+  {
+    title: 'Hérédité',
+    director: 'Ari Aster',
+    actors: [
+      {
+        name: 'Toni Collette',
+      },
+      {
+        name: 'Alex Wolff',
+      },
+      {
+        name: 'Gabriel Byrne',
+      },
+    ],
+    coverUrl: '/movies_pictures/hereditary.jpg',
+    releaseDate: '2018-06-13',
+    length: 126,
+    genre: ['Horreur'],
+    saga: '',
+    description: '',
+    fromEntity: null,
+    countryOrigin: ['États-Unis'],
+    selectDisplayOrder: 5,
+  },
+  {
+    title: 'Ça',
+    director: 'Andy Muschietti',
+    actors: [
+      {
+        name: 'Bill Skarsgård',
+      },
+      {
+        name: 'Jaeden Martell',
+      },
+      {
+        name: 'Sophia Lillis',
+      },
+    ],
+    coverUrl: '/movies_pictures/it.jpg',
+    releaseDate: '2017-09-20',
+    length: 135,
+    genre: ['Horreur'],
+    saga: '',
+    description: '',
+    fromEntity: null,
+    countryOrigin: ['États-Unis'],
+    selectDisplayOrder: 5,
+  },
+  {
+    title: 'Get Out',
+    director: 'Jordan Peele',
+    actors: [
+      {
+        name: 'Daniel Kaluuya',
+      },
+      {
+        name: 'Allison Williams',
+      },
+      {
+        name: 'Catherine Keener',
+      },
+    ],
+    coverUrl: '/movies_pictures/get_out.jpg',
+    releaseDate: '2017-05-03',
+    length: 104,
+    genre: ['Horreur'],
+    saga: '',
+    description: '',
+    fromEntity: null,
+    countryOrigin: ['États-Unis'],
+    selectDisplayOrder: 5,
+  },
+  {
+    title: 'American Nightmare 3 : Élections',
+    director: 'James DeMonaco',
+    actors: [
+      {
+        name: 'Frank Grillo',
+      },
+      {
+        name: 'Elizabeth Mitchell',
+      },
+      {
+        name: 'Mykelti Williamson',
+      },
+    ],
+    coverUrl: '/movies_pictures/the_purge_election_year.jpg',
+    releaseDate: '2016-07-20',
+    length: 109,
+    genre: ['Horreur'],
+    saga: '',
+    description: '',
+    fromEntity: null,
+    countryOrigin: ['États-Unis'],
+    selectDisplayOrder: 5,
+  },
+  {
+    title: 'Dernier train pour Busan',
+    director: 'Yeon Sang-ho',
+    actors: [
+      {
+        name: 'Gong Yoo',
+      },
+      {
+        name: 'Jung Yu-mi',
+      },
+      {
+        name: 'Ma Dong-seok',
+      },
+    ],
+    coverUrl: '/movies_pictures/train_to_busan.jpg',
+    releaseDate: '2016-08-17',
+    length: 118,
+    genre: ['Horreur'],
+    saga: '',
+    description: '',
+    fromEntity: null,
+    countryOrigin: ['Corée du Sud'],
+    selectDisplayOrder: 5,
+  },
+  {
+    title: 'Crimson Peak',
+    director: 'Guillermo del Toro',
+    actors: [
+      {
+        name: 'Mia Wasikowska',
+      },
+      {
+        name: 'Tom Hiddleston',
+      },
+      {
+        name: 'Jessica Chastain',
+      },
+    ],
+    coverUrl: '/movies_pictures/crimson_peak.jpg',
+    releaseDate: '2015-10-14',
+    length: 119,
+    genre: ['Horreur'],
+    saga: '',
+    description: '',
+    fromEntity: null,
+    countryOrigin: ['États-Unis'],
+    selectDisplayOrder: 5,
+  },
+  {
+    title: 'Maggie',
+    director: 'Henry Hobson',
+    actors: [
+      {
+        name: 'Arnold Schwarzenegger',
+      },
+      {
+        name: 'Abigail Breslin',
+      },
+      {
+        name: 'Joely Richardson',
+      },
+    ],
+    coverUrl: '/movies_pictures/maggie.jpg',
+    releaseDate: '2015-05-27',
+    length: 95,
+    genre: ['Horreur'],
+    saga: '',
+    description: '',
+    fromEntity: null,
+    countryOrigin: ['États-Unis'],
+    selectDisplayOrder: 5,
+  },
+  {
+    title: 'Mister Babadook',
+    director: 'Jennifer Kent',
+    actors: [
+      {
+        name: 'Essie Davis',
+      },
+      {
+        name: 'Noah Wiseman',
+      },
+      {
+        name: 'Daniel Henshall',
+      },
+    ],
+    coverUrl: '/movies_pictures/the_babadook.jpg',
+    releaseDate: '2014-07-30',
+    length: 94,
+    genre: ['Horreur'],
+    saga: '',
+    description: '',
+    fromEntity: null,
+    countryOrigin: ['États-Unis'],
+    selectDisplayOrder: 5,
+  },
+  {
+    title: 'Mama',
+    director: 'Andrés Muschietti',
+    actors: [
+      {
+        name: 'Jessica Chastain',
+      },
+      {
+        name: 'Nikolaj Coster-Waldau',
+      },
+      {
+        name: 'Megan Charpentier',
+      },
+    ],
+    coverUrl: '/movies_pictures/mama.jpg',
+    releaseDate: '2013-05-15',
+    length: 100,
+    genre: ['Horreur'],
+    saga: '',
+    description: '',
+    fromEntity: null,
+    countryOrigin: ['États-Unis'],
+    selectDisplayOrder: 5,
+  },
+  {
+    title: 'Sinister',
+    director: 'Scott Derrickson',
+    actors: [
+      {
+        name: 'Ethan Hawke',
+      },
+      {
+        name: 'Juliet Rylance',
+      },
+      {
+        name: 'Fred Thompson',
+      },
+    ],
+    coverUrl: '/movies_pictures/sinister.jpg',
+    releaseDate: '2012-11-07',
+    length: 110,
+    genre: ['Horreur'],
+    saga: '',
+    description: '',
+    fromEntity: null,
+    countryOrigin: ['États-Unis'],
+    selectDisplayOrder: 5,
+  },
+  {
+    title: 'La Cabane dans les bois',
+    director: 'Drew Goddard',
+    actors: [
+      {
+        name: 'Kristen Connolly',
+      },
+      {
+        name: 'Chris Hemsworth',
+      },
+      {
+        name: 'Anna Hutchison',
+      },
+    ],
+    coverUrl: '/movies_pictures/the_cabin_in_the_woods.jpg',
+    releaseDate: '2012-05-02',
+    length: 95,
+    genre: ['Horreur'],
+    saga: '',
+    description: '',
+    fromEntity: null,
+    countryOrigin: ['États-Unis'],
+    selectDisplayOrder: 5,
+  },
+  {
+    title: 'Piranha 3D',
+    director: 'Alexandre Aja',
+    actors: [
+      {
+        name: 'Elisabeth Shue',
+      },
+      {
+        name: 'Adam Scott',
+      },
+      {
+        name: 'Jerry O\'Connell',
+      },
+    ],
+    coverUrl: '/movies_pictures/piranha_3d.jpg',
+    releaseDate: '2010-09-01',
+    length: 89,
+    genre: ['Horreur'],
+    saga: '',
+    description: '',
+    fromEntity: null,
+    countryOrigin: ['États-Unis'],
+    selectDisplayOrder: 5,
+  },
+  {
+    title: 'Le Dernier Exorcisme',
+    director: 'Daniel Stamm',
+    actors: [
+      {
+        name: 'Patrick Fabian',
+      },
+      {
+        name: 'Ashley Bell',
+      },
+      {
+        name: 'Iris Bahr',
+      },
+    ],
+    coverUrl: '/movies_pictures/the_last_exorcism.jpg',
+    releaseDate: '2010-09-15',
+    length: 87,
+    genre: ['Horreur'],
+    saga: '',
+    description: '',
+    fromEntity: null,
+    countryOrigin: ['États-Unis'],
+    selectDisplayOrder: 5,
+  },
+  {
+    title: '[REC]',
+    director: 'Jaume Balagueró, Paco Plaza',
+    actors: [
+      {
+        name: 'Manuela Velasco',
+      },
+      {
+        name: 'Ferran Terraza',
+      },
+      {
+        name: 'Jorge-Yamam Serrano',
+      },
+    ],
+    coverUrl: '/movies_pictures/rec.jpg',
+    releaseDate: '2008-04-23',
+    length: 80,
+    genre: ['Horreur'],
+    saga: '',
+    description: '',
+    fromEntity: null,
+    countryOrigin: ['Espagne'],
+    selectDisplayOrder: 5,
+  },
+  {
+    title: 'La Colline a des yeux',
+    director: 'Alexandre Aja',
+    actors: [
+      {
+        name: 'Aaron Stanford',
+      },
+      {
+        name: 'Kathleen Quinlan',
+      },
+      {
+        name: 'Vinessa Shaw',
+      },
+    ],
+    coverUrl: '/movies_pictures/the_hills_have_eyes.jpg',
+    releaseDate: '2006-06-21',
+    length: 107,
+    genre: ['Horreur'],
+    saga: '',
+    description: '',
+    fromEntity: null,
+    countryOrigin: ['États-Unis'],
+    selectDisplayOrder: 5,
+  },
+  {
+    title: 'L\'Armée des morts',
+    director: 'Zack Snyder',
+    actors: [
+      {
+        name: 'Sarah Polley',
+      },
+      {
+        name: 'Ving Rhames',
+      },
+      {
+        name: 'Jake Weber',
+      },
+    ],
+    coverUrl: '/movies_pictures/dawn_of_the_dead.jpg',
+    releaseDate: '2004-06-30',
+    length: 100,
+    genre: ['Horreur'],
+    saga: '',
+    description: '',
+    fromEntity: null,
+    countryOrigin: ['États-Unis'],
+    selectDisplayOrder: 5,
+  },
+  {
+    title: 'Le Projet Blair Witch',
+    director: 'Daniel Myrick, Eduardo Sánchez',
+    actors: [
+      {
+        name: 'Heather Donahue',
+      },
+      {
+        name: 'Michael C. Williams',
+      },
+      {
+        name: 'Joshua Leonard',
+      },
+    ],
+    coverUrl: '/movies_pictures/the_blair_witch_project.jpg',
+    releaseDate: '1999-07-28',
+    length: 81,
+    genre: ['Horreur'],
+    saga: '',
+    description: '',
+    fromEntity: null,
+    countryOrigin: ['États-Unis'],
+    selectDisplayOrder: 5,
+  },
+  {
+    title: 'Les Dents de la mer, 2ᵉ partie',
+    director: 'Jeannot Szwarc',
+    actors: [
+      {
+        name: 'Roy Scheider',
+      },
+      {
+        name: 'Lorraine Gary',
+      },
+      {
+        name: 'Murray Hamilton',
+      },
+    ],
+    coverUrl: '/movies_pictures/jaws_2.jpg',
+    releaseDate: '1978-12-06',
+    length: 116,
+    genre: ['Horreur'],
+    saga: '',
+    description: '',
+    fromEntity: null,
+    countryOrigin: ['États-Unis'],
+    selectDisplayOrder: 5,
+  },
 ];

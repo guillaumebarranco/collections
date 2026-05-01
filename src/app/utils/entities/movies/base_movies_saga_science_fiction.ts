@@ -3340,4 +3340,41 @@ export const baseMoviesSagaScienceFiction: BaseMovie[] = [
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 20,
   },
+
+  {
+    title: 'TRON : Ares',
+    director: 'Joachim Rønning',
+    actors: [
+      {
+        name: 'Ariana Grande',
+      },
+      {
+        name: 'Cynthia Erivo',
+      },
+      {
+        name: 'Jonathan Bailey',
+      },
+      {
+        name: 'Ethan Slater',
+      },
+      {
+        name: 'Bowen Yang',
+      },
+      {
+        name: 'Michelle Yeoh',
+      },
+      {
+        name: 'Jeff Goldblum',
+      },
+    ],
+    coverUrl: '/movies_pictures/tron_ares.jpg',
+    releaseDate: '2025-10-08',
+    length: 119,
+    genre: ['Science Fiction'],
+    saga: 'Tron',
+    description: '',
+    fromEntity: null,
+    countryOrigin: ['États-Unis'],
+    selectDisplayOrder: 5,
+  },
 ];

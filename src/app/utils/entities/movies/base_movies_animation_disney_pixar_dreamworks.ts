@@ -2,6 +2,31 @@ import { BaseMovie } from '../../../models/movie-model';
 
 export const baseMoviesAnimationDisneyPixarDreamworks: BaseMovie[] = [
   {
+    title: 'Les Trois Caballeros',
+    director: 'Norman Ferguson, Clyde Geronimi',
+    actors: [
+      {
+        name: 'Clarence Nash',
+      },
+      {
+        name: 'José Oliveira',
+      },
+      {
+        name: 'Joaquin Garay',
+      },
+    ],
+    coverUrl:
+      '/movies_pictures/872cdb462590.jpg',
+    releaseDate: '1945-02-03',
+    length: 71,
+    genre: ['Animation'],
+    saga: 'Disney Classique',
+    description: '',
+    fromEntity: null,
+    countryOrigin: ['États-Unis'],
+    selectDisplayOrder: 25,
+  },
+  {
     title: "Les Aventures de Winnie L'Ourson",
     director: 'John Lounsbery, Wolfgang Reitherman',
     actors: [
@@ -1152,6 +1177,28 @@ export const baseMoviesAnimationDisneyPixarDreamworks: BaseMovie[] = [
     selectDisplayOrder: 25,
   },
   {
+    title: 'La Reine des neiges 2',
+    director: 'Chris Buck, Jennifer Lee',
+    actors: [
+      {
+        name: 'Kristen Bell',
+      },
+      {
+        name: 'Idina Menzel',
+      },
+    ],
+    coverUrl:
+      '/movies_pictures/24758186d934.jpg',
+    releaseDate: '2019-11-20',
+    length: 103,
+    genre: ['Animation'],
+    saga: 'Disney Classique',
+    description: '',
+    fromEntity: null,
+    countryOrigin: ['États-Unis'],
+    selectDisplayOrder: 25,
+  },
+  {
     title: 'Les Nouveaux Héros',
     director: 'Don Hall, Chris Williams',
     actors: [{ name: 'Ryan Potter' }],
@@ -1230,6 +1277,21 @@ export const baseMoviesAnimationDisneyPixarDreamworks: BaseMovie[] = [
     coverUrl: '/movies_pictures/79cb96f35cfb.jpg',
     releaseDate: '2016-11-23',
     length: 107,
+    genre: ['Animation'],
+    saga: 'Disney Classique',
+    description: '',
+    fromEntity: null,
+    countryOrigin: ['États-Unis'],
+    selectDisplayOrder: 25,
+  },
+  {
+    title: 'Vaiana 2',
+    director: 'David G. Derrick Jr., Jason Hand, Dana Ledoux Miller',
+    actors: [{ name: "Auli'i Cravalho" }],
+    coverUrl:
+      '/movies_pictures/1cee892fb6c2.jpg',
+    releaseDate: '2024-11-27',
+    length: 100,
     genre: ['Animation'],
     saga: 'Disney Classique',
     description: '',

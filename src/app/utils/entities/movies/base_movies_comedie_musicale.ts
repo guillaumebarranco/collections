@@ -1242,4 +1242,41 @@ export const baseMoviesComedieMusicale: BaseMovie[] = [
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 30,
   },
+
+  {
+    title: 'Wicked: For Good',
+    director: 'Jon M. Chu',
+    actors: [
+      {
+        name: 'Ariana Grande',
+      },
+      {
+        name: 'Cynthia Erivo',
+      },
+      {
+        name: 'Jonathan Bailey',
+      },
+      {
+        name: 'Ethan Slater',
+      },
+      {
+        name: 'Bowen Yang',
+      },
+      {
+        name: 'Michelle Yeoh',
+      },
+      {
+        name: 'Jeff Goldblum',
+      },
+    ],
+    coverUrl: '/movies_pictures/wicked_for_good.jpg',
+    releaseDate: '2025-11-19',
+    length: 138,
+    genre: ['Comédie musicale'],
+    saga: '',
+    description: '',
+    fromEntity: null,
+    countryOrigin: ['États-Unis'],
+    selectDisplayOrder: 5,
+  },
 ];

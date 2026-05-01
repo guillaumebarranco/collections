@@ -4568,4 +4568,65 @@ export const baseMoviesRomance: BaseMovie[] = [
     countryOrigin: ['France'],
     selectDisplayOrder: 5,
   },
+
+  {
+    title: 'L\'amour au présent',
+    director: 'John Crowley',
+    actors: [
+      {
+        name: 'Andrew Garfield',
+      },
+      {
+        name: 'Florence Pugh',
+      },
+      {
+        name: 'Adam James',
+      },
+      {
+        name: 'Marama Corlett',
+      },
+      {
+        name: 'Aoife Hinds',
+      },
+    ],
+    coverUrl: '/movies_pictures/we_live_in_time.jpg',
+    releaseDate: '2024-01-01',
+    length: 108,
+    genre: ['Romance'],
+    saga: '',
+    description: '',
+    fromEntity: null,
+    countryOrigin: ['États-Unis'],
+    selectDisplayOrder: 5,
+  },
+  {
+    title: 'Fly Me to the Moon',
+    director: 'Greg Berlanti',
+    actors: [
+      {
+        name: 'Scarlett Johansson',
+      },
+      {
+        name: 'Channing Tatum',
+      },
+      {
+        name: 'Woody Harrelson',
+      },
+      {
+        name: 'Jim Rash',
+      },
+      {
+        name: 'Anna Garcia',
+      },
+    ],
+    coverUrl: '/movies_pictures/fly_me_to_the_moon.jpg',
+    releaseDate: '2024-01-01',
+    length: 132,
+    genre: ['Romance'],
+    saga: '',
+    description: '',
+    fromEntity: null,
+    countryOrigin: ['États-Unis'],
+    selectDisplayOrder: 5,
+  },
 ];

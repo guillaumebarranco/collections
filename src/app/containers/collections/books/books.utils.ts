@@ -41,6 +41,21 @@ export const booksSortOptions: { value: string; label: string }[] = [
   { value: 'genre-desc', label: 'Genre (Z-A)' },
 ];
 
+/** Tris pour « À lire » et « En cours » : pas de dates/notes/relectures (livre pas encore lu comme tel). */
+export const booksReadlistSortOptions: { value: string; label: string }[] = [
+  { value: 'readPriority', label: 'Priorité de lecture' },
+  { value: 'title', label: 'Titre (A-Z)' },
+  { value: 'title-desc', label: 'Titre (Z-A)' },
+  { value: 'author', label: 'Auteur (A-Z)' },
+  { value: 'author-desc', label: 'Auteur (Z-A)' },
+  { value: 'releaseDate', label: 'Date de parution (récent)' },
+  { value: 'releaseDate-asc', label: 'Date de parution (ancien)' },
+  { value: 'pages', label: 'Pages (élevé)' },
+  { value: 'pages-asc', label: 'Pages (faible)' },
+  { value: 'genre', label: 'Genre (A-Z)' },
+  { value: 'genre-desc', label: 'Genre (Z-A)' },
+];
+
 export const yearFilterOptions: { value: string; label: string }[] = [
   { value: 'all', label: 'Toutes' },
   { value: '2026', label: '2026' },
@@ -89,8 +104,17 @@ export const getBooksSortOptions = (
   if (selectedView === 'countries') {
     return countriesBooksSortOptions;
   }
+  if (selectedView === 'readlist' || selectedView === 'readingInProgress') {
+    return booksReadlistSortOptions;
+  }
   return booksSortOptions;
 };
+
+/** Tri par défaut selon la vue (URL / état initial). */
+export const getDefaultBooksSortForView = (view: BookView): string =>
+  view === 'readlist' || view === 'readingInProgress'
+    ? 'readPriority'
+    : 'readDate';
 
 export const getSortedBooks = (books: Book[], selectedSort: string): Book[] => {
   switch (selectedSort) {

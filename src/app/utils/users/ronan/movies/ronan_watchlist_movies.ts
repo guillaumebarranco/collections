@@ -6915,7 +6915,7 @@ export const ronanWatchlistMovies: UserMovies = [
     inList: [],
   },
   {
-    title: 'Fantômas',
+    title: 'Fantomas',
     director: 'André Hunebelle',
     rating: 0,
     timesWatched: 0,

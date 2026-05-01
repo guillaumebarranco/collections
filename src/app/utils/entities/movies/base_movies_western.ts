@@ -392,4 +392,53 @@ export const baseMoviesWestern: BaseMovie[] = [
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 30,
   },
+
+  {
+    title: 'Les Huit Salopards',
+    director: 'Quentin Tarantino',
+    actors: [
+      {
+        name: 'Samuel L. Jackson',
+      },
+      {
+        name: 'Kurt Russell',
+      },
+      {
+        name: 'Jennifer Jason Leigh',
+      },
+    ],
+    coverUrl: '/movies_pictures/the_hateful_eight.jpg',
+    releaseDate: '2016-01-06',
+    length: 167,
+    genre: ['Western'],
+    saga: '',
+    description: '',
+    fromEntity: null,
+    countryOrigin: ['États-Unis'],
+    selectDisplayOrder: 5,
+  },
+  {
+    title: 'Il était une fois dans l\'Ouest',
+    director: 'Sergio Leone',
+    actors: [
+      {
+        name: 'Claudia Cardinale',
+      },
+      {
+        name: 'Henry Fonda',
+      },
+      {
+        name: 'Charles Bronson',
+      },
+    ],
+    coverUrl: '/movies_pictures/once_upon_a_time_in_the_west.jpg',
+    releaseDate: '1969-08-27',
+    length: 165,
+    genre: ['Western'],
+    saga: '',
+    description: '',
+    fromEntity: null,
+    countryOrigin: ['États-Unis'],
+    selectDisplayOrder: 30,
+  },
 ];
