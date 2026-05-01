@@ -1352,4 +1352,19 @@ export const guillaumeBooks: UserBooks = [
     wantToReadAgain: false,
     ratingComment: '',
   },
+
+  {
+    title: "Impitoyables Serments (Lettres d'enchantement, #2)",
+    author: "Rebecca Ross",
+    firstReadDate: "2026-04-30",
+    lastReadDate: "2026-04-30",
+    rating: 4.25,
+    readTimes: 1,
+    owned: false,
+    borrowed: '',
+    loaned: '',
+    readPriority: 3,
+    wantToReadAgain: false,
+    ratingComment: "",
+  },
 ];
