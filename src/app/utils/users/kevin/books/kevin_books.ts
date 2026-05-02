@@ -1680,4 +1680,19 @@ export const kevinBooks: UserBooks = [
     wantToReadAgain: false,
     ratingComment: "Bien meilleur que les deux précédentes tomes, il se passe des choses mais malheureusement pas assez. \n\nLa note :\n- Écriture : 1/1\n- Le monde : 0,5/1\n- Les personnages : 0,5/1\n- L'histoire : 0,5\\1\n- Le bonus coup de cœur : 0,5/1\nTotal :",
   },
+
+  {
+    title: "Paradis Perdus",
+    author: "Eric Emmanuel Schmitt",
+    firstReadDate: "2026-05-01",
+    lastReadDate: "2026-05-01",
+    rating: 4.5,
+    readTimes: 1,
+    owned: true,
+    borrowed: "",
+    loaned: "",
+    readPriority: 1,
+    wantToReadAgain: false,
+    ratingComment: "Une histoire simple ancrée dans le réel qui ne manque pas de rebondissements. Un récit humain plaisant à lire, qui devient un excellent premier tome de saga dans ses derniers chapitres.",
+  },
 ];

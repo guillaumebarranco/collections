@@ -1957,4 +1957,19 @@ export const baseBooksApi: BaseBook[] = [
     countryOrigin: 'France',
     selectDisplayOrder: 0,
   },
+
+  {
+    title: "Paradis Perdus",
+    author: "Eric Emmanuel Schmitt",
+    coverUrl: "https://m.media-amazon.com/images/I/917RAyPvpgL.jpg",
+    pages: 564,
+    genre: [],
+    saga: "La Traversée des Temps",
+    sagaOrder: 1,
+    sagaFinished: true,
+    releaseDate: "2021-02-03",
+    description: "",
+    countryOrigin: "France",
+    selectDisplayOrder: 0,
+  },
 ];

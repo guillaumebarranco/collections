@@ -2171,7 +2171,7 @@ export const guillaumeWatchlistMovies: UserMovies = [
     seenAtCinema: false,
     owned: false,
     wantToSeeAgain: false,
-    watchPriority: 2,
+    watchPriority: 3,
     ratingComment: "",
     borrowed: "",
     loaned: "",
