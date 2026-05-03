@@ -23,12 +23,7 @@ import { DashboardEntityChartsComponent } from '../../components/dashboard/dashb
 import { DashboardUserTodosComponent } from '../../components/dashboard/dashboard-user-todos/dashboard-user-todos.component';
 import { DashboardFeedComponent } from '../../components/dashboard/dashboard-feed/dashboard-feed.component';
 import { DashboardMonthlyActivityComponent } from '../../components/dashboard/dashboard-monthly-activity/dashboard-monthly-activity.component';
-import {
-  DashboardRecordsComponent,
-  type RecordsData,
-} from '../../components/dashboard/dashboard-records/dashboard-records.component';
 import { LoginComponent } from '../../components/login/login.component';
-import { getAdminRecords } from '../../facades/admin/admin.facade';
 
 import { ActivatedRoute, Params, Router, RouterModule } from '@angular/router';
 import { DEFAULT_USER_ID } from '../../utils/constants';
@@ -161,7 +156,6 @@ type BadgeGroup = {
     DashboardUserTodosComponent,
     DashboardFeedComponent,
     DashboardMonthlyActivityComponent,
-    DashboardRecordsComponent,
     LoginComponent,
   ],
   templateUrl: './dashboard.component.html',
@@ -188,7 +182,6 @@ export class DashboardComponent implements OnInit {
     | 'top5stats'
     | 'top5personal'
     | 'badges'
-    | 'records'
   >('overview');
   selectedBadgeEntity = signal<BadgeDashboardTabKey>('books');
   isAuthenticated = computed<boolean>(() => this.authService.isAuthenticated());
@@ -209,7 +202,6 @@ export class DashboardComponent implements OnInit {
     { value: 'top5stats', label: 'Top 5 (statistiques)' },
     { value: 'top5personal', label: 'Top 5 personnel' },
     { value: 'badges', label: 'Badges' },
-    { value: 'records', label: 'Records' },
   ];
 
   booksList = signal<{ [key: string]: Book[] }>({});
@@ -229,9 +221,6 @@ export class DashboardComponent implements OnInit {
   readlistComicsList = signal<{ [key: string]: Comic[] }>({});
   readlistBdsList = signal<{ [key: string]: Bd[] }>({});
 
-  /** Données des records (top 3 par catégorie), chargées pour les admins. */
-  recordsData = signal<RecordsData | null>(null);
-  recordsLoading = signal<boolean>(false);
   musicsList = signal<{ [key: string]: Music[] }>({});
   readlistMangasList = signal<{ [key: string]: Manga[] }>({});
 
@@ -917,27 +906,8 @@ export class DashboardComponent implements OnInit {
       | 'top5stats'
       | 'top5personal'
       | 'badges'
-      | 'records'
   ): void {
     this.selectedTab.set(tab);
-    if (tab === 'records' && this.isAdmin()) {
-      void this.loadRecords();
-    }
-  }
-
-  /** Charge les records (top 3 par nombre et par temps) via l'API dédiée /admin/records. */
-  async loadRecords(): Promise<void> {
-    if (!this.isAdmin()) return;
-    this.recordsLoading.set(true);
-    this.recordsData.set(null);
-    try {
-      const adminId =
-        this.authService.getAuthenticatedUserId() || DEFAULT_USER_ID;
-      const data = await getAdminRecords(adminId);
-      this.recordsData.set(data);
-    } finally {
-      this.recordsLoading.set(false);
-    }
   }
 
   openFollowsModal(): void {

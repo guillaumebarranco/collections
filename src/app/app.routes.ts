@@ -60,6 +60,8 @@ import { AdminComicsComponent } from './containers/admin-collections/comics/comi
 import { AdminBdsComponent } from './containers/admin-collections/bds/bds.component';
 import { AdaptationsComponent } from './containers/adaptations/adaptations.component';
 import { QuizzsComponent } from './containers/collections/quizzs/quizzs.component';
+import { RecordsComponent } from './containers/records/records.component';
+import { EntityStatsComponent } from './containers/entity-stats/entity-stats.component';
 
 export const routes: Routes = [
   {
@@ -391,6 +393,14 @@ export const routes: Routes = [
       {
         path: 'quizzs',
         component: QuizzsComponent,
+      },
+      {
+        path: 'records',
+        component: RecordsComponent,
+      },
+      {
+        path: 'entity-stats',
+        component: EntityStatsComponent,
       },
       {
         path: 'select-movies',

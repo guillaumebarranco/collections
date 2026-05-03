@@ -1961,7 +1961,7 @@ export const baseBooksApi: BaseBook[] = [
   {
     title: "Paradis Perdus",
     author: "Eric Emmanuel Schmitt",
-    coverUrl: "https://m.media-amazon.com/images/I/917RAyPvpgL.jpg",
+    coverUrl: "/books_pictures/6d774555cfe8.jpg",
     pages: 564,
     genre: [],
     saga: "La Traversée des Temps",

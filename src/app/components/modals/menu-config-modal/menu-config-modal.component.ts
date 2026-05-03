@@ -28,6 +28,12 @@ const CONFIGURABLE_ITEMS: {
   { key: 'musics', label: 'Musiques', icon: '🎵' },
   { key: 'adaptations', label: 'Adaptations', icon: '🔀' },
   { key: 'quizzs', label: 'Quizz', icon: '🎯' },
+  { key: 'records', label: 'Records', icon: '🏆' },
+  {
+    key: 'entity-stats',
+    label: 'Statistiques des entités',
+    icon: '📈',
+  },
 ];
 
 @Component({

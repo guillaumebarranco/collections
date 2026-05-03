@@ -1,0 +1,108 @@
+<app-menu></app-menu>
+
+<div class="entity-stats-page">
+  <header class="entity-stats-header">
+    <h1>Statistiques des entités</h1>
+    <p class="entity-stats-intro">
+      Vue agrégée sur tous les comptes : œuvres ayant touché le plus
+      d’utilisateurs (lecture, visionnage, écoute ou jeu terminé selon le cas),
+      et œuvres les mieux notées en moyenne.
+    </p>
+  </header>
+
+  @if (!isAdmin()) {
+  <p class="entity-stats-restricted">
+    Ces statistiques sont réservées aux administrateurs.
+  </p>
+  } @else if (loading()) {
+  <p class="entity-stats-loading">Chargement des statistiques…</p>
+  } @else if (!statsData()) {
+  <p class="entity-stats-empty">
+    Impossible de charger les données (API indisponible ou erreur).
+  </p>
+  } @else {
+  <app-view-toggle
+    [toggleClass]="'entity-stats-tabs'"
+    [options]="entityTabOptions"
+    [selected]="selectedEntity()"
+    (selectedChange)="onEntityTabChange($any($event))"
+  ></app-view-toggle>
+
+  @if (currentCategory(); as cat) {
+  <div class="entity-stats-panels">
+    <section class="entity-stats-panel">
+      <h2>Top 10 — les plus présents chez les utilisateurs</h2>
+      <p class="entity-stats-hint">
+        Nombre d’utilisateurs distincts ayant au moins une interaction
+        enregistrée (œuvre lue / vue / jouée à au moins une reprise complète,
+        etc.).
+      </p>
+      <div class="entity-stats-table-wrap">
+        <table class="entity-stats-table">
+          <thead>
+            <tr>
+              <th class="col-rank">#</th>
+              <th>Titre</th>
+              <th>{{ secondaryColumnLabel() }}</th>
+              <th class="col-num">Utilisateurs</th>
+            </tr>
+          </thead>
+          <tbody>
+            @for (row of cat.topByUserReach; track row.title + row.secondaryLabel; let i = $index) {
+            <tr>
+              <td class="col-rank">{{ i + 1 }}</td>
+              <td>{{ row.title }}</td>
+              <td>{{ row.secondaryLabel }}</td>
+              <td class="col-num">{{ row.userCount }}</td>
+            </tr>
+            } @empty {
+            <tr>
+              <td colspan="4" class="entity-stats-no-row">Aucune donnée.</td>
+            </tr>
+            }
+          </tbody>
+        </table>
+      </div>
+    </section>
+
+    <section class="entity-stats-panel">
+      <h2>Top 10 — meilleures notes moyennes</h2>
+      <p class="entity-stats-hint">
+        Moyenne des notes (&gt; 0) : une seule note par compte et par œuvre
+        (doublons éventuels dans les fichiers ignorés). Uniquement les œuvres
+        vues/lues/jouées par au moins <strong>3</strong> personnes
+        <em>et</em> notées par au moins <strong>3</strong> personnes distinctes.
+      </p>
+      <div class="entity-stats-table-wrap">
+        <table class="entity-stats-table">
+          <thead>
+            <tr>
+              <th class="col-rank">#</th>
+              <th>Titre</th>
+              <th>{{ secondaryColumnLabel() }}</th>
+              <th class="col-num">Note moyenne</th>
+            </tr>
+          </thead>
+          <tbody>
+            @for (row of cat.topByAverageRating; track row.title + row.secondaryLabel; let i = $index) {
+            <tr>
+              <td class="col-rank">{{ i + 1 }}</td>
+              <td>{{ row.title }}</td>
+              <td>{{ row.secondaryLabel }}</td>
+              <td class="col-num">
+                {{ row.averageRating != null ? (row.averageRating | number : '1.2-2') : '—' }}
+              </td>
+            </tr>
+            } @empty {
+            <tr>
+              <td colspan="4" class="entity-stats-no-row">Aucune note.</td>
+            </tr>
+            }
+          </tbody>
+        </table>
+      </div>
+    </section>
+  </div>
+  }
+  }
+</div>

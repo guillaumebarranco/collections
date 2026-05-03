@@ -1,0 +1,16 @@
+.records-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: var(--spacing-24, 1.5rem) var(--spacing-16, 1rem);
+}
+
+.records-header h1 {
+  margin: 0 0 0.5rem;
+  font-size: 1.75rem;
+}
+
+.records-intro {
+  margin: 0 0 1.5rem;
+  color: var(--text-secondary, #666);
+  line-height: 1.5;
+}

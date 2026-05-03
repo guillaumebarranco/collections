@@ -180,3 +180,90 @@ export async function getAdminUsers(
     users: Array.isArray(payload?.users) ? payload.users : [],
   };
 }
+
+/** Ligne de stats agrégée (GET /admin/entity-stats). */
+export type PlatformEntityStatRow = {
+  title: string;
+  secondaryLabel: string;
+  userCount: number;
+  averageRating: number | null;
+};
+
+export type PlatformEntityCategoryStats = {
+  topByUserReach: PlatformEntityStatRow[];
+  topByAverageRating: PlatformEntityStatRow[];
+};
+
+export type PlatformEntityStatsResponse = Record<
+  AdminRecordsCategoryKey,
+  PlatformEntityCategoryStats
+>;
+
+const ENTITY_STATS_CATEGORY_KEYS: AdminRecordsCategoryKey[] = [
+  'books',
+  'movies',
+  'series',
+  'games',
+  'mangas',
+  'manwhas',
+  'comics',
+  'bds',
+  'musics',
+];
+
+function normalizePlatformStatRow(raw: unknown): PlatformEntityStatRow {
+  const r = raw as Record<string, unknown>;
+  return {
+    title: String(r?.['title'] ?? ''),
+    secondaryLabel: String(r?.['secondaryLabel'] ?? ''),
+    userCount: Number(r?.['userCount'] ?? 0),
+    averageRating:
+      r?.['averageRating'] === null || r?.['averageRating'] === undefined
+        ? null
+        : Number(r['averageRating']),
+  };
+}
+
+function normalizePlatformCategory(raw: unknown): PlatformEntityCategoryStats {
+  const c = raw as Record<string, unknown>;
+  return {
+    topByUserReach: Array.isArray(c?.['topByUserReach'])
+      ? (c['topByUserReach'] as unknown[]).map(normalizePlatformStatRow)
+      : [],
+    topByAverageRating: Array.isArray(c?.['topByAverageRating'])
+      ? (c['topByAverageRating'] as unknown[]).map(normalizePlatformStatRow)
+      : [],
+  };
+}
+
+function normalizePlatformEntityStatsResponse(
+  raw: unknown
+): PlatformEntityStatsResponse {
+  const rawObj = raw as Record<string, unknown>;
+  const result = {} as PlatformEntityStatsResponse;
+  for (const key of ENTITY_STATS_CATEGORY_KEYS) {
+    result[key] = normalizePlatformCategory(rawObj?.[key] ?? {});
+  }
+  return result;
+}
+
+/**
+ * Statistiques plateforme par entité (top 10 popularité + top 10 notes).
+ * GET /admin/entity-stats — réservé admin.
+ */
+export async function getPlatformEntityStats(
+  adminUserId: string
+): Promise<PlatformEntityStatsResponse | null> {
+  try {
+    const response = await fetch(
+      `${getApiBaseUrl()}/admin/entity-stats?userId=${encodeURIComponent(adminUserId)}`
+    );
+    if (!response.ok) {
+      return null;
+    }
+    const data = await response.json();
+    return normalizePlatformEntityStatsResponse(data);
+  } catch {
+    return null;
+  }
+}

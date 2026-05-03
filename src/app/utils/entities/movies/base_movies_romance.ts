@@ -4570,7 +4570,7 @@ export const baseMoviesRomance: BaseMovie[] = [
   },
 
   {
-    title: 'L\'amour au présent',
+    title: "L'amour au présent",
     director: 'John Crowley',
     actors: [
       {
@@ -4622,6 +4622,28 @@ export const baseMoviesRomance: BaseMovie[] = [
     coverUrl: '/movies_pictures/fly_me_to_the_moon.jpg',
     releaseDate: '2024-01-01',
     length: 132,
+    genre: ['Romance'],
+    saga: '',
+    description: '',
+    fromEntity: null,
+    countryOrigin: ['États-Unis'],
+    selectDisplayOrder: 5,
+  },
+  {
+    title: "L'idée d'être avec toi",
+    director: 'Michael Showalter',
+    actors: [
+      {
+        name: 'Anne Hathaway',
+      },
+      {
+        name: 'Nicholas Galitzine',
+      },
+    ],
+    coverUrl:
+      '/movies_pictures/d5b4d0f9fa2a.png',
+    releaseDate: '2024-05-02',
+    length: 115,
     genre: ['Romance'],
     saga: '',
     description: '',

@@ -1,0 +1,17 @@
+<app-menu></app-menu>
+
+<div class="records-container">
+  <header class="records-header">
+    <h1>Records</h1>
+    <p class="records-intro">
+      Top 3 par catégorie parmi les utilisateurs (nombre de livres lus, films
+      vus, séries vues, etc.).
+    </p>
+  </header>
+
+  <app-dashboard-records
+    [recordsData]="recordsData()"
+    [isLoading]="recordsLoading()"
+    [isAdmin]="isAdmin()"
+  ></app-dashboard-records>
+</div>

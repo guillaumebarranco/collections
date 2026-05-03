@@ -40,6 +40,7 @@ export class MenuComponent implements OnInit {
     'musics',
     'adaptations',
     'quizzs',
+    'entity-stats',
   ]);
 
   isMobile = false;
@@ -149,6 +150,20 @@ export class MenuComponent implements OnInit {
       group: 'extras',
     },
     { label: 'Quizz', icon: '🎯', key: 'quizzs', hideOnMobile: false, group: 'extras' },
+    {
+      label: 'Records',
+      icon: '🏆',
+      key: 'records',
+      hideOnMobile: false,
+      group: 'extras',
+    },
+    {
+      label: 'Statistiques des entités',
+      icon: '📈',
+      key: 'entity-stats',
+      hideOnMobile: false,
+      group: 'extras',
+    },
   ];
 
   constructor() {

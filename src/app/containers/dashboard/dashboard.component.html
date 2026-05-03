@@ -317,22 +317,6 @@
     </div>
     }
 
-    <!-- Records (top 3 par catégorie parmi les utilisateurs) -->
-    @if (selectedTab() === 'records') {
-    <div class="dashboard-section">
-      <h2>🏆 Records</h2>
-      <p class="records-intro">
-        Top 3 par catégorie parmi les utilisateurs (nombre de livres lus, films
-        vus, séries vues, etc.).
-      </p>
-      <app-dashboard-records
-        [recordsData]="recordsData()"
-        [isLoading]="recordsLoading()"
-        [isAdmin]="isAdmin()"
-      ></app-dashboard-records>
-    </div>
-    }
-
     <!-- Badges (gamification) -->
     @if (selectedTab() === 'badges') {
     <div class="dashboard-section">
