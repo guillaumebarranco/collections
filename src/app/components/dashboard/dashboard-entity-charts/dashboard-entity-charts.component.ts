@@ -1,12 +1,15 @@
 import {
   Component,
   computed,
+  effect,
   inject,
+  input,
   signal,
   OnInit,
   AfterViewInit,
   ElementRef,
   ViewChild,
+  untracked,
 } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { ActivatedRoute, Params } from '@angular/router';
@@ -51,7 +54,19 @@ const ENTITIES_WITH_CHARTS: EntityType[] = ['movies', 'books', 'series'];
 export class DashboardEntityChartsComponent implements OnInit, AfterViewInit {
   activatedRoute = inject(ActivatedRoute);
 
+  /** Quand true : pas de titre ni d’onglets ; l’entité vient du parent (ex. vue Statistiques par entité). */
+  readonly embedded = input(false);
+  readonly parentSelectedEntity = input<EntityType | undefined>(undefined);
+
   selectedEntity = signal<EntityType>('books');
+
+  /** Entité effective : pilotée par le parent en mode embarqué, sinon signal interne. */
+  readonly effectiveEntity = computed<EntityType>(() => {
+    if (this.embedded()) {
+      return this.parentSelectedEntity() ?? 'movies';
+    }
+    return this.selectedEntity();
+  });
   entities: EntityType[] = [
     'books',
     'movies',
@@ -250,19 +265,29 @@ export class DashboardEntityChartsComponent implements OnInit, AfterViewInit {
   }
 
   selectEntity(entity: EntityType | string): void {
+    if (this.embedded()) {
+      return;
+    }
     this.selectedEntity.set(entity as EntityType);
-    if (entity === 'movies') {
-      requestAnimationFrame(() => {
-        this.renderMoviesWatchedChart();
-        this.renderMoviesCinemaChart();
+    requestAnimationFrame(() =>
+      this.refreshChartsForEntity(this.effectiveEntity())
+    );
+  }
+
+  constructor() {
+    effect(() => {
+      if (!this.embedded()) {
+        return;
+      }
+      const entity = this.effectiveEntity();
+      this.moviesWatchedByYear();
+      this.moviesCinemaByYear();
+      this.booksReadByYear();
+      this.seriesSeasonsViewedByYear();
+      untracked(() => {
+        requestAnimationFrame(() => this.refreshChartsForEntity(entity));
       });
-    }
-    if (entity === 'books') {
-      requestAnimationFrame(() => this.renderBooksReadChart());
-    }
-    if (entity === 'series') {
-      requestAnimationFrame(() => this.renderSeriesSeasonsViewedChart());
-    }
+    });
   }
 
   ngOnInit() {
@@ -272,19 +297,16 @@ export class DashboardEntityChartsComponent implements OnInit, AfterViewInit {
   }
 
   ngAfterViewInit() {
-    requestAnimationFrame(() => {
-      this.renderMoviesWatchedChart();
-      this.renderMoviesCinemaChart();
-    });
-    requestAnimationFrame(() => this.renderBooksReadChart());
-    requestAnimationFrame(() => this.renderSeriesSeasonsViewedChart());
+    requestAnimationFrame(() =>
+      this.refreshChartsForEntity(this.effectiveEntity())
+    );
   }
 
   private async loadMoviesData() {
     const uid = this.userId();
     const movies = await getAllMovies(uid);
     this.moviesList.set(movies);
-    if (this.selectedEntity() === 'movies') {
+    if (this.effectiveEntity() === 'movies') {
       requestAnimationFrame(() => {
         this.renderMoviesWatchedChart();
         this.renderMoviesCinemaChart();
@@ -296,7 +318,7 @@ export class DashboardEntityChartsComponent implements OnInit, AfterViewInit {
     const uid = this.userId();
     const books = await getAllBooks(uid);
     this.booksList.set(books);
-    if (this.selectedEntity() === 'books') {
+    if (this.effectiveEntity() === 'books') {
       requestAnimationFrame(() => this.renderBooksReadChart());
     }
   }
@@ -305,8 +327,19 @@ export class DashboardEntityChartsComponent implements OnInit, AfterViewInit {
     const uid = this.userId();
     const series = await getAllSeries(uid);
     this.seriesList.set(series);
-    if (this.selectedEntity() === 'series') {
+    if (this.effectiveEntity() === 'series') {
       requestAnimationFrame(() => this.renderSeriesSeasonsViewedChart());
+    }
+  }
+
+  private refreshChartsForEntity(entity: EntityType): void {
+    if (entity === 'movies') {
+      this.renderMoviesWatchedChart();
+      this.renderMoviesCinemaChart();
+    } else if (entity === 'books') {
+      this.renderBooksReadChart();
+    } else if (entity === 'series') {
+      this.renderSeriesSeasonsViewedChart();
     }
   }
 
@@ -353,7 +386,7 @@ export class DashboardEntityChartsComponent implements OnInit, AfterViewInit {
   }
 
   private renderMoviesWatchedChart(): void {
-    if (this.selectedEntity() !== 'movies') {
+    if (this.effectiveEntity() !== 'movies') {
       return;
     }
     const container = this.moviesWatchedChart?.nativeElement;
@@ -365,7 +398,7 @@ export class DashboardEntityChartsComponent implements OnInit, AfterViewInit {
   }
 
   private renderMoviesCinemaChart(): void {
-    if (this.selectedEntity() !== 'movies') {
+    if (this.effectiveEntity() !== 'movies') {
       return;
     }
     const container = this.moviesCinemaChart?.nativeElement;
@@ -377,7 +410,7 @@ export class DashboardEntityChartsComponent implements OnInit, AfterViewInit {
   }
 
   private renderBooksReadChart(): void {
-    if (this.selectedEntity() !== 'books') {
+    if (this.effectiveEntity() !== 'books') {
       return;
     }
     const container = this.booksReadChart?.nativeElement;
@@ -389,7 +422,7 @@ export class DashboardEntityChartsComponent implements OnInit, AfterViewInit {
   }
 
   private renderSeriesSeasonsViewedChart(): void {
-    if (this.selectedEntity() !== 'series') {
+    if (this.effectiveEntity() !== 'series') {
       return;
     }
     const container = this.seriesSeasonsViewedChart?.nativeElement;

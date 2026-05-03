@@ -2,6 +2,74 @@ import { BaseMovie } from '../../../models/movie-model';
 
 export const baseMoviesComedie: BaseMovie[] = [
   {
+    title: 'La Boum',
+    director: 'Claude Pinoteau',
+    actors: [
+      { name: 'Sophie Marceau' },
+      { name: 'Claude Brasseur' },
+      { name: 'Brigitte Fossey' },
+      { name: 'Denise Grey' },
+      { name: "Sheila O'Connor" },
+      { name: 'Alexandre Sterling' },
+      { name: 'Bernard Giraudeau' },
+    ],
+    coverUrl:
+      '/movies_pictures/7b8dbed44135.jpg',
+    releaseDate: '1980-12-17',
+    length: 110,
+    genre: ['Comédie', 'Romance'],
+    saga: 'La Boum',
+    description: '',
+    fromEntity: null,
+    countryOrigin: ['France'],
+    selectDisplayOrder: 30,
+  },
+  {
+    title: 'La Boum 2',
+    director: 'Claude Pinoteau',
+    actors: [
+      { name: 'Sophie Marceau' },
+      { name: 'Claude Brasseur' },
+      { name: 'Brigitte Fossey' },
+      { name: 'Denise Grey' },
+      { name: 'Pierre Cosso' },
+      { name: 'Alexandre Jardin' },
+      { name: 'Shirley Bousquet' },
+    ],
+    coverUrl: '/movies_pictures/105349aa69a5.jpg',
+    releaseDate: '1982-12-08',
+    length: 109,
+    genre: ['Comédie', 'Romance'],
+    saga: 'La Boum',
+    description: '',
+    fromEntity: null,
+    countryOrigin: ['France'],
+    selectDisplayOrder: 30,
+  },
+  {
+    title: 'Mais où est donc passée la 7ème compagnie ?',
+    director: 'Robert Lamoureux',
+    actors: [
+      { name: 'Jean Lefebvre' },
+      { name: 'Pierre Mondy' },
+      { name: 'Robert Lamoureux' },
+      { name: 'Aldo Maccione' },
+      { name: 'Michel Modo' },
+      { name: 'Robert Rimbaud' },
+      { name: 'Henri Guybet' },
+    ],
+    coverUrl:
+      '/movies_pictures/d79426f1171c.jpg',
+    releaseDate: '1973-10-15',
+    length: 92,
+    genre: ['Comédie', 'Guerre'],
+    saga: '',
+    description: '',
+    fromEntity: null,
+    countryOrigin: ['France'],
+    selectDisplayOrder: 30,
+  },
+  {
     title: 'Barbie',
     director: 'Greta Gerwig',
     actors: [
@@ -11692,7 +11760,7 @@ export const baseMoviesComedie: BaseMovie[] = [
         name: 'Winona Ryder',
       },
       {
-        name: 'Catherine O\'Hara',
+        name: "Catherine O'Hara",
       },
       {
         name: 'Jenna Ortega',
@@ -12087,7 +12155,7 @@ export const baseMoviesComedie: BaseMovie[] = [
     selectDisplayOrder: 5,
   },
   {
-    title: 'À tous les garçons que j\'ai aimés',
+    title: "À tous les garçons que j'ai aimés",
     director: 'Susan Johnson',
     actors: [
       {
@@ -12136,7 +12204,7 @@ export const baseMoviesComedie: BaseMovie[] = [
   },
   {
     title: 'Ne coupez pas !',
-    director: 'Shin\'ichirō Ueda',
+    director: "Shin'ichirō Ueda",
     actors: [
       {
         name: 'Dwayne Johnson',
@@ -12615,7 +12683,7 @@ export const baseMoviesComedie: BaseMovie[] = [
     selectDisplayOrder: 5,
   },
   {
-    title: 'C\'est la fin',
+    title: "C'est la fin",
     director: 'Evan Goldberg, Seth Rogen',
     actors: [
       {

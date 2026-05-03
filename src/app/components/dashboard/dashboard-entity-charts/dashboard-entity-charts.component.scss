@@ -6,6 +6,13 @@
   min-width: 0;
   box-sizing: border-box;
 
+  &--embedded {
+    background: transparent;
+    border-radius: 0;
+    padding: 0;
+    box-shadow: none;
+  }
+
   h2 {
     margin: 0 0 20px 0;
     font-size: 1.5rem;

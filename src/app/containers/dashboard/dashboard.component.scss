@@ -74,6 +74,10 @@
   font-size: 0.95rem;
 }
 
+.dashboard-section--top5 .dashboard-top5-subtabs {
+  margin: 0 0 16px 0;
+}
+
 // Styles pour la section Top 5 (min() évite le scroll horizontal sur petits écrans)
 .top5-grid {
   display: grid;

@@ -4,6 +4,7 @@ import {
   ViewToggleComponent,
   type ViewToggleOption,
 } from '../../shared/view-toggle/view-toggle.component';
+import { DashboardEntityChartsComponent } from '../dashboard-entity-charts/dashboard-entity-charts.component';
 import { ActivatedRoute, Params } from '@angular/router';
 import { Movie } from '../../../models/movie-model';
 import { normalizeSerieGenres, Serie } from '../../../models/serie-model';
@@ -55,7 +56,11 @@ interface EntityStats {
 @Component({
   selector: 'app-dashboard-entities-stats',
   standalone: true,
-  imports: [CommonModule, ViewToggleComponent],
+  imports: [
+    CommonModule,
+    ViewToggleComponent,
+    DashboardEntityChartsComponent,
+  ],
   templateUrl: './dashboard-entities-stats.component.html',
   styleUrls: ['./dashboard-entities-stats.component.scss'],
 })

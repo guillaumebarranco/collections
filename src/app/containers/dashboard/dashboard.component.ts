@@ -19,7 +19,6 @@ import {
   StatItemColor,
 } from '../../components/shared/stats-display/stats-display.component';
 import { DashboardEntitiesStatsComponent } from '../../components/dashboard/dashboard-entities-stats/dashboard-entities-stats.component';
-import { DashboardEntityChartsComponent } from '../../components/dashboard/dashboard-entity-charts/dashboard-entity-charts.component';
 import { DashboardUserTodosComponent } from '../../components/dashboard/dashboard-user-todos/dashboard-user-todos.component';
 import { DashboardFeedComponent } from '../../components/dashboard/dashboard-feed/dashboard-feed.component';
 import { DashboardMonthlyActivityComponent } from '../../components/dashboard/dashboard-monthly-activity/dashboard-monthly-activity.component';
@@ -152,7 +151,6 @@ type BadgeGroup = {
     ViewToggleComponent,
     StatsDisplayComponent,
     DashboardEntitiesStatsComponent,
-    DashboardEntityChartsComponent,
     DashboardUserTodosComponent,
     DashboardFeedComponent,
     DashboardMonthlyActivityComponent,
@@ -177,12 +175,18 @@ export class DashboardComponent implements OnInit {
   selectedTab = signal<
     | 'overview'
     | 'entities'
-    | 'charts'
     | 'monthlyActivity'
-    | 'top5stats'
-    | 'top5personal'
+    | 'top5'
     | 'badges'
   >('overview');
+
+  /** Sous-vue de l’onglet Top 5 : personnel par défaut, ou classements statistiques. */
+  top5SubView = signal<'personal' | 'stats'>('personal');
+
+  top5SubTabOptions: ViewToggleOption[] = [
+    { value: 'personal', label: 'Mon Top 5 personnel' },
+    { value: 'stats', label: 'Top 5 statistiques' },
+  ];
   selectedBadgeEntity = signal<BadgeDashboardTabKey>('books');
   isAuthenticated = computed<boolean>(() => this.authService.isAuthenticated());
   isAdmin = computed<boolean>(() => this.authService.isAdmin());
@@ -198,9 +202,7 @@ export class DashboardComponent implements OnInit {
     { value: 'overview', label: "Vue d'ensemble" },
     { value: 'monthlyActivity', label: 'Mon activité mensuelle' },
     { value: 'entities', label: 'Statistiques par entité' },
-    { value: 'charts', label: 'Graphiques par entité' },
-    { value: 'top5stats', label: 'Top 5 (statistiques)' },
-    { value: 'top5personal', label: 'Top 5 personnel' },
+    { value: 'top5', label: 'Top 5' },
     { value: 'badges', label: 'Badges' },
   ];
 
@@ -901,13 +903,15 @@ export class DashboardComponent implements OnInit {
     tab:
       | 'overview'
       | 'entities'
-      | 'charts'
       | 'monthlyActivity'
-      | 'top5stats'
-      | 'top5personal'
+      | 'top5'
       | 'badges'
   ): void {
     this.selectedTab.set(tab);
+  }
+
+  onTop5SubTabChange(tab: 'personal' | 'stats' | string): void {
+    this.top5SubView.set(tab === 'stats' ? 'stats' : 'personal');
   }
 
   openFollowsModal(): void {

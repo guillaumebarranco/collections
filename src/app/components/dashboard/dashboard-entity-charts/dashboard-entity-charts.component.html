@@ -1,4 +1,8 @@
-<div class="entity-charts-container">
+<div
+  class="entity-charts-container"
+  [class.entity-charts-container--embedded]="embedded()"
+>
+  @if (!embedded()) {
   <h2>📈 Graphiques par entité</h2>
 
   <app-view-toggle
@@ -7,9 +11,10 @@
     [selected]="selectedEntity()"
     (selectedChange)="selectEntity($event)"
   ></app-view-toggle>
+  }
 
   <div class="charts-content">
-    @if (!hasChartForEntity(selectedEntity())) {
+    @if (!hasChartForEntity(effectiveEntity())) {
     <div class="no-chart-message">
       <p>Pas de graphique disponible pour cette entité pour le moment.</p>
       <p class="no-chart-hint">
@@ -17,7 +22,7 @@
         etc.).
       </p>
     </div>
-    } @if (selectedEntity() === 'movies') {
+    } @if (effectiveEntity() === 'movies') {
     <div class="charts-section charts-section--wide">
       <h3>🎬 Films vus par an (2000-{{ currentYear }})</h3>
       @if (moviesWatchedTotal() === 0) {
@@ -40,7 +45,7 @@
       </div>
       }
     </div>
-    } @if (selectedEntity() === 'books') {
+    } @if (effectiveEntity() === 'books') {
     <div class="charts-section charts-section--wide">
       <h3>📖 Livres lus par an (2000-{{ currentYear }})</h3>
       @if (booksReadTotal() === 0) {
@@ -52,7 +57,7 @@
       </div>
       }
     </div>
-    } @if (selectedEntity() === 'series') {
+    } @if (effectiveEntity() === 'series') {
     <div class="charts-section charts-section--wide">
       <h3>📺 Saisons visionnées par an (2000-{{ currentYear }})</h3>
       <p class="chart-description">

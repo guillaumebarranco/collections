@@ -106,14 +106,9 @@
 
     }
 
-    <!-- Statistiques par entité -->
+    <!-- Statistiques par entité (graphiques inclus au-dessus des classements) -->
     @if (selectedTab() === 'entities') {
     <app-dashboard-entities-stats></app-dashboard-entities-stats>
-    }
-
-    <!-- Graphiques par entité -->
-    @if (selectedTab() === 'charts') {
-    <app-dashboard-entity-charts></app-dashboard-entity-charts>
     }
 
     <!-- Activité mensuelle (30 j. / 12 mois) -->
@@ -134,11 +129,45 @@
     </div>
     }
 
-    <!-- Top 5 -->
-    @if (selectedTab() === 'top5stats') {
-    <div class="dashboard-section">
+    <!-- Top 5 (personnel par défaut, bascule vers statistiques) -->
+    @if (selectedTab() === 'top5') {
+    <div class="dashboard-section dashboard-section--top5">
       <h2>🏆 Top 5</h2>
 
+      <app-view-toggle
+        toggleClass="dashboard-top5-subtabs"
+        [options]="top5SubTabOptions"
+        [selected]="top5SubView()"
+        (selectedChange)="onTop5SubTabChange($any($event))"
+      ></app-view-toggle>
+
+      @if (top5SubView() === 'personal') {
+      <p class="top5-personal-hint">
+        Remplissez votre top 5 depuis chaque collection (Livres, Films, etc.) en
+        choisissant le rang pour vos œuvres préférées.
+      </p>
+      <div class="top5-grid">
+        @for (entityType of personalTopFiveEntityTypes; track entityType) {
+        <div class="top5-category">
+          <h3>{{ personalTopFiveLabels[entityType] }}</h3>
+          <div class="top5-list">
+            @for (slot of personalTopFiveDisplay()[entityType]; track slot.rank)
+            {
+            <div
+              class="top5-item"
+              [class.top5-item--gold]="slot.rank === 1"
+              [class.top5-item--silver]="slot.rank === 2"
+              [class.top5-item--bronze]="slot.rank === 3"
+            >
+              <span class="rank">#{{ slot.rank }}</span>
+              <span class="title">{{ slot.label || "—" }}</span>
+            </div>
+            }
+          </div>
+        </div>
+        }
+      </div>
+      } @if (top5SubView() === 'stats') {
       <div class="top5-grid">
         <!-- Top 5 Livres -->
         <div class="top5-category">
@@ -282,38 +311,7 @@
           </div>
         </div>
       </div>
-    </div>
-    }
-
-    <!-- Top 5 personnel (choisi par l'utilisateur) -->
-    @if (selectedTab() === 'top5personal') {
-    <div class="dashboard-section">
-      <h2>🏆 Mon Top 5 personnel</h2>
-      <p class="top5-personal-hint">
-        Remplissez votre top 5 depuis chaque collection (Livres, Films, etc.) en
-        choisissant le rang pour vos œuvres préférées.
-      </p>
-      <div class="top5-grid">
-        @for (entityType of personalTopFiveEntityTypes; track entityType) {
-        <div class="top5-category">
-          <h3>{{ personalTopFiveLabels[entityType] }}</h3>
-          <div class="top5-list">
-            @for (slot of personalTopFiveDisplay()[entityType]; track slot.rank)
-            {
-            <div
-              class="top5-item"
-              [class.top5-item--gold]="slot.rank === 1"
-              [class.top5-item--silver]="slot.rank === 2"
-              [class.top5-item--bronze]="slot.rank === 3"
-            >
-              <span class="rank">#{{ slot.rank }}</span>
-              <span class="title">{{ slot.label || "—" }}</span>
-            </div>
-            }
-          </div>
-        </div>
-        }
-      </div>
+      }
     </div>
     }
 

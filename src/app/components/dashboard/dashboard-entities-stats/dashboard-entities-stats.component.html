@@ -8,6 +8,16 @@
     (selectedChange)="selectEntity($event)"
   ></app-view-toggle>
 
+  <section
+    class="entities-stats__charts"
+    aria-label="Graphiques pour l’entité sélectionnée"
+  >
+    <app-dashboard-entity-charts
+      [embedded]="true"
+      [parentSelectedEntity]="selectedEntity()"
+    />
+  </section>
+
   <!-- Stats Content -->
   <div class="stats-content">
     @if (stats().topActors && stats().topActors!.length > 0) {
