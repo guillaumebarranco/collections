@@ -2082,10 +2082,6 @@ export const guillaumeWatchlistMovies: UserMovies = [
     inList: [],
   },
   {
-<<<<<<< Updated upstream
-    title: "Le Grinch",
-    director: "Ron Howard",
-=======
     title: 'Le Journal de Bridget Jones',
     director: 'Sharon Maguire',
     rating: 0,
@@ -2104,7 +2100,6 @@ export const guillaumeWatchlistMovies: UserMovies = [
   {
     title: 'Le Grinch',
     director: 'Ron Howard',
->>>>>>> Stashed changes
     rating: 0,
     timesWatched: 0,
     firstViewedDate: '',
@@ -2167,10 +2162,6 @@ export const guillaumeWatchlistMovies: UserMovies = [
     inList: [],
   },
   {
-<<<<<<< Updated upstream
-    title: "The Princess",
-    director: "Le-Van Kiet",
-=======
     title: 'Anora',
     director: 'Sean Baker',
     rating: 0,
@@ -2189,7 +2180,6 @@ export const guillaumeWatchlistMovies: UserMovies = [
   {
     title: 'The Princess',
     director: 'Le-Van Kiet',
->>>>>>> Stashed changes
     rating: 0,
     timesWatched: 0,
     firstViewedDate: '',
@@ -2741,17 +2731,10 @@ export const guillaumeWatchlistMovies: UserMovies = [
     seenAtCinema: false,
     owned: false,
     wantToSeeAgain: false,
-<<<<<<< Updated upstream
     watchPriority: 3,
-    ratingComment: "https://nakastream.tv/content/movie/6435",
-    borrowed: "",
-    loaned: "",
-=======
-    watchPriority: 1,
     ratingComment: 'https://nakastream.tv/content/movie/6435',
     borrowed: '',
     loaned: '',
->>>>>>> Stashed changes
     inList: [],
   },
   {
@@ -4044,17 +4027,10 @@ export const guillaumeWatchlistMovies: UserMovies = [
     seenAtCinema: false,
     owned: false,
     wantToSeeAgain: false,
-<<<<<<< Updated upstream
     watchPriority: 3,
-    ratingComment: "",
-    borrowed: "",
-    loaned: "",
-=======
-    watchPriority: 1,
     ratingComment: '',
     borrowed: '',
     loaned: '',
->>>>>>> Stashed changes
     inList: [],
   },
 ];
