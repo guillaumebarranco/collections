@@ -339,7 +339,8 @@ export const baseMoviesDrame: BaseMovie[] = [
         name: 'Oh Dal-su',
       },
     ],
-    coverUrl: '/movies_pictures/51454-oldboy-0-150-0-225-crop.jpg',
+    coverUrl:
+      'https://img.festival-cannes.com/eyJidWNrZXQiOiJtZWRpYSIsImtleSI6InVwbG9hZHNcLzIwMjNcLzAzXC8xOTUzNC5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjE2MDAsImZpdCI6ImNvdmVyIn19fQ==',
     releaseDate: '2003-11-21',
     length: 120,
     genre: ['Drame'],
@@ -447,9 +448,43 @@ export const baseMoviesDrame: BaseMovie[] = [
         name: 'Bill Camp',
       },
     ],
-    coverUrl: '/movies_pictures/406775-joker-0-150-0-225-crop.jpg',
+    coverUrl: '/movies_pictures/5d3f137f4419.jpg',
     releaseDate: '2019-10-04',
     length: 122,
+    genre: ['Drame'],
+    saga: '',
+    description: '',
+    fromEntity: {
+      entityType: 'comic',
+      title: 'Batman',
+      secondEntityKey: 'Bill Finger',
+    },
+    countryOrigin: ['États-Unis'],
+    selectDisplayOrder: 30,
+  },
+  {
+    title: 'Joker : Folie à Deux',
+    director: 'Todd Phillips',
+    actors: [
+      {
+        name: 'Joaquin Phoenix',
+      },
+      {
+        name: 'Lady Gaga',
+      },
+      {
+        name: 'Brendan Gleeson',
+      },
+      {
+        name: 'Catherine Keener',
+      },
+      {
+        name: 'Zazie Beetz',
+      },
+    ],
+    coverUrl: '/movies_pictures/7fcb36c38cc0.jpg',
+    releaseDate: '2024-10-02',
+    length: 138,
     genre: ['Drame'],
     saga: '',
     description: '',
@@ -487,7 +522,7 @@ export const baseMoviesDrame: BaseMovie[] = [
         name: 'Alec Baldwin',
       },
     ],
-    coverUrl: '/movies_pictures/261108-a-star-is-born-0-150-0-225-crop.jpg',
+    coverUrl: 'https://m.media-amazon.com/images/I/71ge3IaRi4L.jpg',
     releaseDate: '2018-10-05',
     length: 136,
     genre: ['Drame'],
@@ -559,7 +594,7 @@ export const baseMoviesDrame: BaseMovie[] = [
         name: 'George Coulouris',
       },
     ],
-    coverUrl: '/movies_pictures/2702-citizen-kane-0-150-0-225-crop.jpg',
+    coverUrl: '/movies_pictures/44f7d3a42c25.jpg',
     releaseDate: '1941-05-01',
     length: 119,
     genre: ['Drame'],
@@ -658,7 +693,7 @@ export const baseMoviesDrame: BaseMovie[] = [
         name: 'Matthew McConaughey',
       },
     ],
-    coverUrl: '/movies_pictures/51VKJJGV2NL._AC_UF1000,1000_QL80_.jpg',
+    coverUrl: '/movies_pictures/458a3737446c.jpg',
     releaseDate: '1997-12-10',
     length: 155,
     genre: ['Drame', 'Historique'],
@@ -716,7 +751,7 @@ export const baseMoviesDrame: BaseMovie[] = [
         name: 'Norbert Weisser',
       },
     ],
-    coverUrl: '/movies_pictures/schindler_s_list.jpg',
+    coverUrl: '/movies_pictures/1c13e06eb3c4.jpg',
     releaseDate: '1994-03-02',
     length: 195,
     genre: ['Drame'],
@@ -763,7 +798,7 @@ export const baseMoviesDrame: BaseMovie[] = [
     selectDisplayOrder: 0,
   },
   {
-    title: 'The Terminal',
+    title: 'Le Terminal',
     director: 'Steven Spielberg',
     actors: [
       {
@@ -788,7 +823,7 @@ export const baseMoviesDrame: BaseMovie[] = [
         name: 'Chi McBride',
       },
     ],
-    coverUrl: '/movies_pictures/51527-the-terminal-0-150-0-225-crop.jpg',
+    coverUrl: '/movies_pictures/93b375db6de3.jpg',
     releaseDate: '2004-06-18',
     length: 128,
     genre: ['Drame'],
@@ -824,7 +859,7 @@ export const baseMoviesDrame: BaseMovie[] = [
         name: 'Peter Gallagher',
       },
     ],
-    coverUrl: '/movies_pictures/2703-american-beauty-0-150-0-225-crop.jpg',
+    coverUrl: '/movies_pictures/f8b9390ad52b.jpg',
     releaseDate: '1999-09-15',
     length: 122,
     genre: ['Drame'],
@@ -1100,7 +1135,7 @@ export const baseMoviesDrame: BaseMovie[] = [
       { name: 'Jimi Mistry' },
       { name: 'Michael Sheen' },
     ],
-    coverUrl: '/movies_pictures/51084-blood-diamond-0-150-0-225-crop.jpg',
+    coverUrl: '/movies_pictures/adb33588f1ea.jpg',
     releaseDate: '2006-12-08',
     length: 143,
     genre: ['Drame'],
@@ -1194,7 +1229,8 @@ export const baseMoviesDrame: BaseMovie[] = [
       { name: 'Lucia Rijker' },
       { name: "Brian F. O'Byrne" },
     ],
-    coverUrl: '/movies_pictures/51979-million-dollar-baby-0-150-0-225-crop.jpg',
+    coverUrl:
+      'https://m.media-amazon.com/images/M/MV5BMTkxNzA1NDQxOV5BMl5BanBnXkFtZTcwNTkyMTIzMw@@._V1_.jpg',
     releaseDate: '2004-12-15',
     length: 132,
     genre: ['Drame'],
@@ -1410,7 +1446,7 @@ export const baseMoviesDrame: BaseMovie[] = [
         name: 'Cas Anvar',
       },
     ],
-    coverUrl: '/movies_pictures/room.jpg',
+    coverUrl: '/movies_pictures/25c1762502cc.jpg',
     releaseDate: '2016-01-22',
     length: 118,
     genre: ['Drame'],
@@ -1482,7 +1518,7 @@ export const baseMoviesDrame: BaseMovie[] = [
         name: 'Rita Ora',
       },
     ],
-    coverUrl: '/movies_pictures/adb0c4881524.jpg',
+    coverUrl: '/movies_pictures/c50a4d030861.jpg',
     releaseDate: '2015-02-13',
     length: 125,
     genre: ['Drame'],
@@ -1779,7 +1815,7 @@ export const baseMoviesDrame: BaseMovie[] = [
         name: 'Tanay Chheda',
       },
     ],
-    coverUrl: '/movies_pictures/44613-slumdog-millionaire-0-150-0-225-crop.jpg',
+    coverUrl: '/movies_pictures/5a38ab75c422.png',
     releaseDate: '2008-12-25',
     length: 120,
     genre: ['Drame'],
@@ -1855,7 +1891,7 @@ export const baseMoviesDrame: BaseMovie[] = [
         name: 'Kristen Stewart',
       },
     ],
-    coverUrl: '/movies_pictures/48571-into-the-wild-0-150-0-225-crop.jpg',
+    coverUrl: '/movies_pictures/97ab37a3c132.jpg',
     releaseDate: '2007-09-21',
     length: 148,
     genre: ['Drame'],
@@ -1891,7 +1927,7 @@ export const baseMoviesDrame: BaseMovie[] = [
         name: 'Peter Mullan',
       },
     ],
-    coverUrl: '/movies_pictures/51497-trainspotting-0-150-0-225-crop.jpg',
+    coverUrl: '/movies_pictures/a15304fc13b8.jpg',
     releaseDate: '1996-02-23',
     length: 93,
     genre: ['Drame'],
@@ -1927,7 +1963,7 @@ export const baseMoviesDrame: BaseMovie[] = [
         name: 'Joel Murray',
       },
     ],
-    coverUrl: '/movies_pictures/the_artist.jpg',
+    coverUrl: '/movies_pictures/b47c154aeba4.jpg',
     releaseDate: '2011-11-23',
     length: 100,
     genre: ['Drame'],
@@ -2021,7 +2057,7 @@ export const baseMoviesDrame: BaseMovie[] = [
         name: 'Kristina Anapau',
       },
     ],
-    coverUrl: '/movies_pictures/black_swan.jpg',
+    coverUrl: '/movies_pictures/718b0b9b58eb.jpg',
     releaseDate: '2010-12-03',
     length: 108,
     genre: ['Drame'],
@@ -2173,7 +2209,7 @@ export const baseMoviesDrame: BaseMovie[] = [
       { name: 'Walton Goggins' },
       { name: 'Dennis Christopher' },
     ],
-    coverUrl: '/movies_pictures/52516-django-unchained-0-150-0-225-crop.jpg',
+    coverUrl: '/movies_pictures/bfdbcb5a1db0.jpg',
     releaseDate: '2012-12-25',
     length: 165,
     genre: ['Western'],
@@ -2439,7 +2475,7 @@ export const baseMoviesDrame: BaseMovie[] = [
     selectDisplayOrder: 0,
   },
   {
-    title: 'Atonement',
+    title: 'Reviens-moi',
     director: 'Joe Wright',
     actors: [
       {
@@ -2465,7 +2501,7 @@ export const baseMoviesDrame: BaseMovie[] = [
       },
     ],
     coverUrl:
-      '/movies_pictures/MV5BZmQ5ZjZlMzMtODA1ZS00NTNiLWIzOTYtOTQyYjQ2YWQxMTA1XkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg',
+      'https://www.critikat.com/wp-content/uploads/2008/01/artoff1775.jpg',
     releaseDate: '2007-09-07',
     length: 123,
     genre: ['Drame'],
@@ -2667,7 +2703,7 @@ export const baseMoviesDrame: BaseMovie[] = [
         name: 'Mykelti Williamson',
       },
     ],
-    coverUrl: '/movies_pictures/aff_ali.jpg',
+    coverUrl: '/movies_pictures/5e23fe4bce80.jpg',
     releaseDate: '2001-12-25',
     length: 157,
     genre: ['Biographie'],
@@ -11916,7 +11952,7 @@ export const baseMoviesDrame: BaseMovie[] = [
         name: 'Peter Lorre',
       },
     ],
-    coverUrl: '/movies_pictures/casablanca.jpg',
+    coverUrl: '/movies_pictures/294bbd338092.jpg',
     releaseDate: '1947-05-23',
     length: 102,
     genre: ['Drame'],
@@ -12430,7 +12466,7 @@ export const baseMoviesDrame: BaseMovie[] = [
     selectDisplayOrder: 5,
   },
   {
-    title: 'The Party\'s Over!',
+    title: "The Party's Over!",
     director: 'Antony Cordier',
     actors: [
       {
@@ -12680,7 +12716,7 @@ export const baseMoviesDrame: BaseMovie[] = [
         name: 'Michael Cimino',
       },
       {
-        name: 'Odessa A\'zion',
+        name: "Odessa A'zion",
       },
     ],
     coverUrl: '/movies_pictures/un_parfait_inconnu.jpg',
@@ -12767,7 +12803,8 @@ export const baseMoviesDrame: BaseMovie[] = [
         name: 'Mark Hamill',
       },
     ],
-    coverUrl: '/movies_pictures/life_of_chuck.jpg',
+    coverUrl:
+      'https://m.media-amazon.com/images/M/MV5BZDA2YmM2YTgtMzE4ZS00NjA1LThjZDEtMDQyN2NjNGRmMzliXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg',
     releaseDate: '2025-06-11',
     length: 111,
     genre: ['Drame'],
@@ -12777,46 +12814,13 @@ export const baseMoviesDrame: BaseMovie[] = [
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 30,
   },
-  {
-    title: 'Joker : Folie à Deux',
-    director: 'Todd Phillips',
-    actors: [
-      {
-        name: 'Joaquin Phoenix',
-      },
-      {
-        name: 'Lady Gaga',
-      },
-      {
-        name: 'Brendan Gleeson',
-      },
-      {
-        name: 'Catherine Keener',
-      },
-      {
-        name: 'Zazie Beetz',
-      },
-    ],
-    coverUrl: '/movies_pictures/joker_folie_a_deux.jpg',
-    releaseDate: '2024-10-02',
-    length: 138,
-    genre: ['Drame'],
-    saga: '',
-    description: '',
-    fromEntity: {
-      entityType: 'comic',
-      title: 'Batman',
-      secondEntityKey: 'Bill Finger',
-    },
-    countryOrigin: ['États-Unis'],
-    selectDisplayOrder: 5,
-  },
+
   {
     title: 'Anora',
     director: 'Sean Baker',
     actors: [
       {
-        name: 'Lupita Nyong\'o',
+        name: "Lupita Nyong'o",
       },
       {
         name: 'Pedro Pascal',
@@ -12825,7 +12829,7 @@ export const baseMoviesDrame: BaseMovie[] = [
         name: 'Bill Nighy',
       },
     ],
-    coverUrl: '/movies_pictures/anora.jpg',
+    coverUrl: 'https://nakastream.tv/content/movie/1064213',
     releaseDate: '2024-01-01',
     length: 139,
     genre: ['Drame'],
@@ -13010,7 +13014,7 @@ export const baseMoviesDrame: BaseMovie[] = [
     selectDisplayOrder: 5,
   },
   {
-    title: 'Les trois mousquetaires: D\'Artagnan',
+    title: "Les trois mousquetaires: D'Artagnan",
     director: 'Martin Bourboulon',
     actors: [
       {
@@ -13086,7 +13090,7 @@ export const baseMoviesDrame: BaseMovie[] = [
     selectDisplayOrder: 5,
   },
   {
-    title: 'Past Lives – Nos vies d\'avant',
+    title: "Past Lives – Nos vies d'avant",
     director: 'Celine Song',
     actors: [
       {
@@ -13120,7 +13124,7 @@ export const baseMoviesDrame: BaseMovie[] = [
         name: 'Marlow Barkley',
       },
       {
-        name: 'Chris O\'Dowd',
+        name: "Chris O'Dowd",
       },
     ],
     coverUrl: '/movies_pictures/slumberland.jpg',
@@ -13147,7 +13151,7 @@ export const baseMoviesDrame: BaseMovie[] = [
         name: 'Hong Chau',
       },
     ],
-    coverUrl: '/movies_pictures/the_whale.jpg',
+    coverUrl: '/movies_pictures/6fbf9a1e2f97.jpg',
     releaseDate: '2023-03-08',
     length: 117,
     genre: ['Drame'],
@@ -13456,7 +13460,7 @@ export const baseMoviesDrame: BaseMovie[] = [
         name: 'Jon Bernthal',
       },
     ],
-    coverUrl: '/movies_pictures/le_mans_66.jpg',
+    coverUrl: '/movies_pictures/829596b788f1.jpg',
     releaseDate: '2019-11-13',
     length: 152,
     genre: ['Drame'],
@@ -13707,7 +13711,7 @@ export const baseMoviesDrame: BaseMovie[] = [
     selectDisplayOrder: 5,
   },
   {
-    title: 'Les Figures de l\'ombre',
+    title: "Les Figures de l'ombre",
     director: 'Theodore Melfi',
     actors: [
       {
@@ -14095,7 +14099,8 @@ export const baseMoviesDrame: BaseMovie[] = [
         name: 'Jake Gyllenhaal',
       },
     ],
-    coverUrl: '/movies_pictures/brokeback_mountain.jpg',
+    coverUrl:
+      'https://patrimoine.bm-grenoble.fr/Ils/digitalCollection/DigitalCollectionThumbnailHandler.ashx?documentId=1006874&size=LARGE&fallback=https%3A%2F%2Fpatrimoine.bm-grenoble.fr%2Fui%2Fskins%2Fdefault%2Fportal%2Ffront%2Fimages%2FGeneral%2FDocType%2FAUVI_LARGE.png',
     releaseDate: '2006-01-18',
     length: 134,
     genre: ['Drame'],
@@ -14296,10 +14301,11 @@ export const baseMoviesDrame: BaseMovie[] = [
         name: 'Edward Furlong',
       },
       {
-        name: 'Beverly D\'Angelo',
+        name: "Beverly D'Angelo",
       },
     ],
-    coverUrl: '/movies_pictures/american_history_x.jpg',
+    coverUrl:
+      'https://m.media-amazon.com/images/M/MV5BMzhiOTQ0NDItOTg0Zi00OGVmLWE0OGEtMTI4NDM0NWMxZWU4XkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg',
     releaseDate: '1999-03-03',
     length: 119,
     genre: ['Drame'],
@@ -14392,10 +14398,10 @@ export const baseMoviesDrame: BaseMovie[] = [
         name: 'Adam Baldwin',
       },
       {
-        name: 'Vincent D\'Onofrio',
+        name: "Vincent D'Onofrio",
       },
     ],
-    coverUrl: '/movies_pictures/full_metal_jacket.jpg',
+    coverUrl: '/movies_pictures/4e1af9af28c9.jpg',
     releaseDate: '1987-10-21',
     length: 116,
     genre: ['Drame'],
@@ -14419,7 +14425,7 @@ export const baseMoviesDrame: BaseMovie[] = [
         name: 'Corey Feldman',
       },
     ],
-    coverUrl: '/movies_pictures/stand_by_me.jpg',
+    coverUrl: '/movies_pictures/2e00afcca010.jpg',
     releaseDate: '1987-02-25',
     length: 89,
     genre: ['Drame'],
@@ -14467,7 +14473,7 @@ export const baseMoviesDrame: BaseMovie[] = [
         name: 'Elizabeth Berridge',
       },
     ],
-    coverUrl: '/movies_pictures/amadeus.jpg',
+    coverUrl: '/movies_pictures/49f967bf6195.jpg',
     releaseDate: '1984-10-31',
     length: 160,
     genre: ['Drame', 'Historique', 'Biographie'],

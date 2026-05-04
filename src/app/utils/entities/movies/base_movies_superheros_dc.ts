@@ -377,7 +377,8 @@ export const baseMoviesSuperHerosDc: BaseMovie[] = [
         name: 'Amy Adams',
       },
     ],
-    coverUrl: '/movies_pictures/batman_v_superman.jpg',
+    coverUrl:
+      '/movies_pictures/df9028c7f49d.jpg',
     releaseDate: '2016-03-25',
     length: 151,
     genre: ['Action'],
@@ -1045,7 +1046,7 @@ export const baseMoviesSuperHerosDc: BaseMovie[] = [
     description: '',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
-    selectDisplayOrder: 30,
+    selectDisplayOrder: 20,
   },
   {
     title: 'Wonder Woman',

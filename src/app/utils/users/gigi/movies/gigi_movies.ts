@@ -1039,7 +1039,7 @@ export const gigiMovies: UserMovie[] = [
   },
 
   {
-    title: 'The Terminal',
+    title: 'Le Terminal',
     director: 'Steven Spielberg',
     rating: 0,
     timesWatched: 1,

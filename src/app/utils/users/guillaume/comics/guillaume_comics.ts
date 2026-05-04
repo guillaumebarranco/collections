@@ -27,4 +27,17 @@ export const guillaumeComics: UserComics = [
     borrowed: '',
     loaned: '',
   },
+  {
+    title: 'Batman : Silence',
+    writer: 'Jeph Loeb',
+    readDate: '',
+    rating: 3.75,
+    readTimes: 1,
+    owned: true,
+    readPriority: 1,
+    wantToReadAgain: false,
+    ratingComment: '',
+    borrowed: '',
+    loaned: '',
+  },
 ];

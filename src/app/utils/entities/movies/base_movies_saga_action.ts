@@ -390,8 +390,7 @@ export const baseMoviesSagaAction: BaseMovie[] = [
         name: 'Marg Helgenberger',
       },
     ],
-    coverUrl:
-      '/movies_pictures/937d4985842b.jpg',
+    coverUrl: '/movies_pictures/937d4985842b.jpg',
     releaseDate: '1995-04-07',
     length: 119,
     genre: ['Action'],
@@ -427,8 +426,7 @@ export const baseMoviesSagaAction: BaseMovie[] = [
         name: 'Joe Pantoliano',
       },
     ],
-    coverUrl:
-      '/movies_pictures/2afe1299fa5c.jpeg',
+    coverUrl: '/movies_pictures/2afe1299fa5c.jpeg',
     releaseDate: '2003-07-18',
     length: 147,
     genre: ['Action'],
@@ -464,8 +462,7 @@ export const baseMoviesSagaAction: BaseMovie[] = [
         name: 'Kate del Castillo',
       },
     ],
-    coverUrl:
-      '/movies_pictures/87e1faa195c7.jpg',
+    coverUrl: '/movies_pictures/87e1faa195c7.jpg',
     releaseDate: '2020-01-22',
     length: 124,
     genre: ['Action'],
@@ -501,8 +498,7 @@ export const baseMoviesSagaAction: BaseMovie[] = [
         name: 'Ioan Gruffudd',
       },
     ],
-    coverUrl:
-      '/movies_pictures/f7f244add6e6.png',
+    coverUrl: '/movies_pictures/f7f244add6e6.png',
     releaseDate: '2024-06-07',
     length: 115,
     genre: ['Action'],
@@ -538,8 +534,7 @@ export const baseMoviesSagaAction: BaseMovie[] = [
         name: 'Richard Johnson',
       },
     ],
-    coverUrl:
-      '/movies_pictures/ff859111a7b9.jpg',
+    coverUrl: '/movies_pictures/ff859111a7b9.jpg',
     releaseDate: '2001-06-15',
     length: 100,
     genre: ['Action'],
@@ -663,7 +658,8 @@ export const baseMoviesSagaAction: BaseMovie[] = [
         name: 'Jenette Goldstein',
       },
     ],
-    coverUrl: '/movies_pictures/b82747c3fb60.jpg',
+    coverUrl:
+      '/movies_pictures/77c8e19867f6.jpg',
     releaseDate: '1989-07-07',
     length: 114,
     genre: ['Action', 'Policier'],
@@ -1187,8 +1183,7 @@ export const baseMoviesSagaAction: BaseMovie[] = [
         name: 'Daniel Bernhardt',
       },
     ],
-    coverUrl:
-      '/movies_pictures/03a005b56d50.jpg',
+    coverUrl: '/movies_pictures/03a005b56d50.jpg',
     releaseDate: '2014-10-24',
     length: 101,
     genre: ['Action'],
@@ -1224,8 +1219,7 @@ export const baseMoviesSagaAction: BaseMovie[] = [
         name: 'Ian McShane',
       },
     ],
-    coverUrl:
-      '/movies_pictures/5861fc24c240.jpg',
+    coverUrl: '/movies_pictures/5861fc24c240.jpg',
     releaseDate: '2017-02-10',
     length: 122,
     genre: ['Action'],
@@ -1261,8 +1255,7 @@ export const baseMoviesSagaAction: BaseMovie[] = [
         name: 'Anjelica Huston',
       },
     ],
-    coverUrl:
-      '/movies_pictures/3fef990e29a1.jpg',
+    coverUrl: '/movies_pictures/3fef990e29a1.jpg',
     releaseDate: '2019-05-17',
     length: 131,
     genre: ['Action'],
@@ -1334,8 +1327,7 @@ export const baseMoviesSagaAction: BaseMovie[] = [
         name: 'Catalina Sandino Moreno',
       },
     ],
-    coverUrl:
-      '/movies_pictures/623b01d4891e.jpg',
+    coverUrl: '/movies_pictures/623b01d4891e.jpg',
     releaseDate: '2025-06-04',
     length: 135,
     genre: ['Action'],
@@ -2478,8 +2470,7 @@ export const baseMoviesSagaAction: BaseMovie[] = [
         name: 'Clifton Powell',
       },
     ],
-    coverUrl:
-      '/movies_pictures/c92b0b9a872d.jpg',
+    coverUrl: '/movies_pictures/c92b0b9a872d.jpg',
     releaseDate: '1998-09-18',
     length: 98,
     genre: ['Action', 'Comédie'],
@@ -2515,8 +2506,7 @@ export const baseMoviesSagaAction: BaseMovie[] = [
         name: 'Alan King',
       },
     ],
-    coverUrl:
-      '/movies_pictures/f80c989269b7.jpg',
+    coverUrl: '/movies_pictures/f80c989269b7.jpg',
     releaseDate: '2001-08-03',
     length: 90,
     genre: ['Action', 'Comédie'],
@@ -2552,8 +2542,7 @@ export const baseMoviesSagaAction: BaseMovie[] = [
         name: 'Roman Polanski',
       },
     ],
-    coverUrl:
-      '/movies_pictures/2e7e37ec00c6.jpg',
+    coverUrl: '/movies_pictures/2e7e37ec00c6.jpg',
     releaseDate: '2007-08-10',
     length: 91,
     genre: ['Action', 'Comédie'],
@@ -2950,8 +2939,7 @@ export const baseMoviesSagaAction: BaseMovie[] = [
         name: 'Wolf Kahler',
       },
     ],
-    coverUrl:
-      '/movies_pictures/ac960b427c8d.jpg',
+    coverUrl: '/movies_pictures/ac960b427c8d.jpg',
     releaseDate: '1981-09-16',
     length: 116,
     genre: ['Aventure'],
@@ -3024,8 +3012,7 @@ export const baseMoviesSagaAction: BaseMovie[] = [
         name: 'Denholm Elliott',
       },
     ],
-    coverUrl:
-      '/movies_pictures/86700f979907.jpg',
+    coverUrl: '/movies_pictures/86700f979907.jpg',
     releaseDate: '1989-05-24',
     length: 127,
     genre: ['Aventure', 'Action'],
@@ -3061,8 +3048,7 @@ export const baseMoviesSagaAction: BaseMovie[] = [
         name: 'Jim Broadbent',
       },
     ],
-    coverUrl:
-      '/movies_pictures/7f2bb5a5136e.jpg',
+    coverUrl: '/movies_pictures/7f2bb5a5136e.jpg',
     releaseDate: '2008-05-21',
     length: 123,
     genre: ['Aventure'],
@@ -3092,8 +3078,7 @@ export const baseMoviesSagaAction: BaseMovie[] = [
         name: 'John Rhys-Davies',
       },
     ],
-    coverUrl:
-      '/movies_pictures/70e725337bde.jpg',
+    coverUrl: '/movies_pictures/70e725337bde.jpg',
     releaseDate: '2023-01-01',
     length: 154,
     genre: ['Fantastique'],

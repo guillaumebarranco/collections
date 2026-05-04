@@ -37,7 +37,7 @@ export const baseMoviesHorreur: BaseMovie[] = [
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 30,
   },
-{
+  {
     title: 'The Shining',
     director: 'Stanley Kubrick',
     actors: [
@@ -77,7 +77,7 @@ export const baseMoviesHorreur: BaseMovie[] = [
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 30,
   },
-{
+  {
     title: "L'exorciste",
     director: 'William Friedkin',
     actors: [
@@ -113,7 +113,7 @@ export const baseMoviesHorreur: BaseMovie[] = [
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 30,
   },
-{
+  {
     title: 'Les oiseaux',
     director: 'Alfred Hitchcock',
     actors: [
@@ -149,7 +149,7 @@ export const baseMoviesHorreur: BaseMovie[] = [
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 30,
   },
-{
+  {
     title: 'Psychose',
     director: 'Alfred Hitchcock',
     actors: [
@@ -185,7 +185,7 @@ export const baseMoviesHorreur: BaseMovie[] = [
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 30,
   },
-{
+  {
     title: 'Les Dents de la mer',
     director: 'Steven Spielberg',
     actors: [
@@ -221,7 +221,7 @@ export const baseMoviesHorreur: BaseMovie[] = [
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 30,
   },
-{
+  {
     title: 'The Descent',
     director: 'Neil Marshall',
     actors: [
@@ -257,7 +257,7 @@ export const baseMoviesHorreur: BaseMovie[] = [
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
   },
-{
+  {
     title: 'The Visit',
     director: 'M. Night Shyamalan',
     actors: [
@@ -293,7 +293,7 @@ export const baseMoviesHorreur: BaseMovie[] = [
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
   },
-{
+  {
     title: 'La chambre 1408',
     director: 'Mikael Håfström',
     actors: [
@@ -329,7 +329,7 @@ export const baseMoviesHorreur: BaseMovie[] = [
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
   },
-{
+  {
     title: 'Pas un bruit',
     director: 'Mike Flanagan',
     actors: [
@@ -365,7 +365,7 @@ export const baseMoviesHorreur: BaseMovie[] = [
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
   },
-{
+  {
     title: 'Sinners',
     director: 'Ryan Coogler',
     actors: [
@@ -401,7 +401,7 @@ export const baseMoviesHorreur: BaseMovie[] = [
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 30,
   },
-{
+  {
     title: 'Amityville',
     director: 'Andrew Douglas',
     actors: [
@@ -437,7 +437,7 @@ export const baseMoviesHorreur: BaseMovie[] = [
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
   },
-{
+  {
     title: 'Le Collectionneur',
     director: 'Marcus Dunstan',
     actors: [
@@ -473,7 +473,7 @@ export const baseMoviesHorreur: BaseMovie[] = [
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
   },
-{
+  {
     title: 'Docteur Frankenstein',
     director: 'Paul McGuigan',
     actors: [
@@ -513,7 +513,7 @@ export const baseMoviesHorreur: BaseMovie[] = [
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
   },
-{
+  {
     title: 'Speak No Evil',
     director: 'James Watkins',
     actors: [
@@ -540,7 +540,7 @@ export const baseMoviesHorreur: BaseMovie[] = [
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
   },
-{
+  {
     title: 'The Strangers',
     director: 'Bryan Bertino',
     actors: [
@@ -562,7 +562,7 @@ export const baseMoviesHorreur: BaseMovie[] = [
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
   },
-{
+  {
     title: 'Massacre à la tronconneuse',
     director: 'Tobe Hooper',
     actors: [
@@ -584,7 +584,7 @@ export const baseMoviesHorreur: BaseMovie[] = [
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
   },
-{
+  {
     title: 'Vendredi 13',
     director: 'Sean S. Cunningham',
     actors: [
@@ -606,7 +606,7 @@ export const baseMoviesHorreur: BaseMovie[] = [
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
   },
-{
+  {
     title: 'La Nuit des masques',
     director: 'John Carpenter',
     actors: [
@@ -628,7 +628,7 @@ export const baseMoviesHorreur: BaseMovie[] = [
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
   },
-{
+  {
     title: 'Les Griffes de la nuit',
     director: 'Wes Craven',
     actors: [
@@ -650,7 +650,7 @@ export const baseMoviesHorreur: BaseMovie[] = [
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
   },
-{
+  {
     title: 'The Thing',
     director: 'John Carpenter',
     actors: [
@@ -672,7 +672,7 @@ export const baseMoviesHorreur: BaseMovie[] = [
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
   },
-{
+  {
     title: 'The Wicker Man',
     director: 'Robin Hardy',
     actors: [
@@ -694,7 +694,7 @@ export const baseMoviesHorreur: BaseMovie[] = [
     countryOrigin: ['Royaume-Uni'],
     selectDisplayOrder: 0,
   },
-{
+  {
     title: 'Le Chien des Baskerville (1959)',
     director: 'Terence Fisher',
     actors: [
@@ -734,7 +734,7 @@ export const baseMoviesHorreur: BaseMovie[] = [
     countryOrigin: ['Royaume-Uni'],
     selectDisplayOrder: 0,
   },
-{
+  {
     title: 'Eraserhead',
     director: 'David Lynch',
     actors: [
@@ -770,7 +770,7 @@ export const baseMoviesHorreur: BaseMovie[] = [
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
   },
-{
+  {
     title: 'Twin Peaks: Fire Walk with Me',
     director: 'David Lynch',
     actors: [
@@ -806,7 +806,7 @@ export const baseMoviesHorreur: BaseMovie[] = [
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
   },
-{
+  {
     title: 'Cronos',
     director: 'Guillermo del Toro',
     actors: [
@@ -842,7 +842,7 @@ export const baseMoviesHorreur: BaseMovie[] = [
     countryOrigin: ['Mexique'],
     selectDisplayOrder: 0,
   },
-{
+  {
     title: "L'Échine du diable",
     director: 'Guillermo del Toro',
     actors: [
@@ -878,7 +878,7 @@ export const baseMoviesHorreur: BaseMovie[] = [
     countryOrigin: ['Espagne', 'Mexique'],
     selectDisplayOrder: 0,
   },
-{
+  {
     title: "Jusqu'en enfer",
     director: 'Sam Raimi',
     actors: [
@@ -914,7 +914,7 @@ export const baseMoviesHorreur: BaseMovie[] = [
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
   },
-{
+  {
     title: 'The Fog',
     director: 'John Carpenter',
     actors: [
@@ -950,7 +950,7 @@ export const baseMoviesHorreur: BaseMovie[] = [
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
   },
-{
+  {
     title: 'Christine',
     director: 'John Carpenter',
     actors: [
@@ -986,7 +986,7 @@ export const baseMoviesHorreur: BaseMovie[] = [
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
   },
-{
+  {
     title: 'In the Mouth of Madness',
     director: 'John Carpenter',
     actors: [
@@ -1022,7 +1022,7 @@ export const baseMoviesHorreur: BaseMovie[] = [
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
   },
-{
+  {
     title: 'La Nuit des morts-vivants',
     director: 'George A. Romero',
     actors: [
@@ -1058,7 +1058,7 @@ export const baseMoviesHorreur: BaseMovie[] = [
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
   },
-{
+  {
     title: 'Zombie',
     director: 'George A. Romero',
     actors: [
@@ -1094,7 +1094,7 @@ export const baseMoviesHorreur: BaseMovie[] = [
     countryOrigin: ['États-Unis', 'Italie'],
     selectDisplayOrder: 0,
   },
-{
+  {
     title: 'Le Jour des morts-vivants',
     director: 'George A. Romero',
     actors: [
@@ -1130,7 +1130,7 @@ export const baseMoviesHorreur: BaseMovie[] = [
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
   },
-{
+  {
     title: 'Le Territoire des Morts',
     director: 'George A. Romero',
     actors: [
@@ -1166,7 +1166,7 @@ export const baseMoviesHorreur: BaseMovie[] = [
     countryOrigin: ['Canada', 'France', 'États-Unis'],
     selectDisplayOrder: 0,
   },
-{
+  {
     title: 'Martin',
     director: 'George A. Romero',
     actors: [
@@ -1196,7 +1196,7 @@ export const baseMoviesHorreur: BaseMovie[] = [
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
   },
-{
+  {
     title: 'The Crazies',
     director: 'George A. Romero',
     actors: [
@@ -1226,7 +1226,7 @@ export const baseMoviesHorreur: BaseMovie[] = [
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
   },
-{
+  {
     title: 'Frankenstein',
     director: 'Guillermo del Toro',
     actors: [
@@ -1250,7 +1250,7 @@ export const baseMoviesHorreur: BaseMovie[] = [
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 5,
   },
-{
+  {
     title: "Jennifer's Body",
     director: 'Karyn Kusama',
     actors: [
@@ -1286,7 +1286,7 @@ export const baseMoviesHorreur: BaseMovie[] = [
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 30,
   },
-{
+  {
     title: 'Orphan',
     director: 'Jaume Collet-Serra',
     actors: [
@@ -1323,7 +1323,7 @@ export const baseMoviesHorreur: BaseMovie[] = [
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 5,
   },
-{
+  {
     title: 'The Others',
     director: 'Alejandro Amenábar',
     actors: [
@@ -1359,7 +1359,7 @@ export const baseMoviesHorreur: BaseMovie[] = [
     countryOrigin: ['Espagne'],
     selectDisplayOrder: 5,
   },
-{
+  {
     title: 'Sleepy Hollow',
     director: 'Tim Burton',
     actors: [
@@ -1395,7 +1395,7 @@ export const baseMoviesHorreur: BaseMovie[] = [
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 5,
   },
-{
+  {
     title: "Souviens-toi... l'été dernier",
     director: 'Jim Gillespie',
     actors: [
@@ -1431,7 +1431,7 @@ export const baseMoviesHorreur: BaseMovie[] = [
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 5,
   },
-{
+  {
     title: 'Entretien avec un vampire',
     director: 'Neil Jordan',
     actors: [
@@ -1468,7 +1468,7 @@ export const baseMoviesHorreur: BaseMovie[] = [
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 30,
   },
-{
+  {
     title: 'Gremlins',
     director: 'Joe Dante',
     actors: [
@@ -1504,7 +1504,7 @@ export const baseMoviesHorreur: BaseMovie[] = [
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 30,
   },
-{
+  {
     title: 'Gremlins 2 : La nouvelle génération',
     director: 'Joe Dante',
     actors: [
@@ -1540,7 +1540,7 @@ export const baseMoviesHorreur: BaseMovie[] = [
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 30,
   },
-{
+  {
     title: 'Halloween',
     director: 'John Carpenter',
     actors: [
@@ -1576,7 +1576,7 @@ export const baseMoviesHorreur: BaseMovie[] = [
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 5,
   },
-{
+  {
     title: 'Dans les hautes herbes',
     director: 'Vincenzo Natali',
     actors: [
@@ -1595,7 +1595,7 @@ export const baseMoviesHorreur: BaseMovie[] = [
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
   },
-{
+  {
     title: 'Ghostland',
     director: 'Pascal Laugier',
     actors: [
@@ -1614,7 +1614,7 @@ export const baseMoviesHorreur: BaseMovie[] = [
     countryOrigin: ['France'],
     selectDisplayOrder: 0,
   },
-{
+  {
     title: 'Black Phone',
     director: 'Scott Derrickson',
     actors: [
@@ -1633,7 +1633,7 @@ export const baseMoviesHorreur: BaseMovie[] = [
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
   },
-{
+  {
     title: 'La maison de cire',
     director: 'Jaume Collet-Serra',
     actors: [
@@ -1652,7 +1652,7 @@ export const baseMoviesHorreur: BaseMovie[] = [
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
   },
-{
+  {
     title: 'Happy Death Day',
     director: 'Christopher Landon',
     actors: [
@@ -1671,7 +1671,7 @@ export const baseMoviesHorreur: BaseMovie[] = [
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
   },
-{
+  {
     title: 'Affamés',
     director: 'Robin Aubert',
     actors: [
@@ -1690,7 +1690,7 @@ export const baseMoviesHorreur: BaseMovie[] = [
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
   },
-{
+  {
     title: 'The Farm',
     director: 'Hans Stjernswärd',
     actors: [
@@ -1709,7 +1709,7 @@ export const baseMoviesHorreur: BaseMovie[] = [
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
   },
-{
+  {
     title: 'La maison des 1000 morts',
     director: 'Rob Zombie',
     actors: [
@@ -1728,7 +1728,7 @@ export const baseMoviesHorreur: BaseMovie[] = [
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
   },
-{
+  {
     title: 'The Grudge',
     director: 'Takashi Shimizu',
     actors: [
@@ -1747,7 +1747,7 @@ export const baseMoviesHorreur: BaseMovie[] = [
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
   },
-{
+  {
     title: 'Annabelle',
     director: 'John R. Leonetti',
     actors: [
@@ -1766,7 +1766,7 @@ export const baseMoviesHorreur: BaseMovie[] = [
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
   },
-{
+  {
     title: 'La nonne',
     director: 'Corin Hardy',
     actors: [
@@ -1785,7 +1785,7 @@ export const baseMoviesHorreur: BaseMovie[] = [
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
   },
-{
+  {
     title: 'The Mortuary',
     director: 'Ryan Spindell',
     actors: [
@@ -1804,7 +1804,7 @@ export const baseMoviesHorreur: BaseMovie[] = [
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
   },
-{
+  {
     title: 'Eli',
     director: 'Ciarán Foy',
     actors: [
@@ -1823,7 +1823,7 @@ export const baseMoviesHorreur: BaseMovie[] = [
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
   },
-{
+  {
     title: 'Us',
     director: 'Jordan Peele',
     actors: [
@@ -1842,7 +1842,7 @@ export const baseMoviesHorreur: BaseMovie[] = [
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
   },
-{
+  {
     title: 'Midsommar',
     director: 'Ari Aster',
     actors: [
@@ -1861,7 +1861,7 @@ export const baseMoviesHorreur: BaseMovie[] = [
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
   },
-{
+  {
     title: 'Baba Yaga',
     director: 'Caradog W. James',
     actors: [
@@ -1880,7 +1880,7 @@ export const baseMoviesHorreur: BaseMovie[] = [
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
   },
-{
+  {
     title: 'Creep',
     director: 'Patrick Brice',
     actors: [{ name: 'Mark Duplass' }, { name: 'Patrick Brice' }],
@@ -1894,7 +1894,7 @@ export const baseMoviesHorreur: BaseMovie[] = [
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
   },
-{
+  {
     title: 'Wounds',
     director: 'Babak Anvari',
     actors: [
@@ -1913,7 +1913,7 @@ export const baseMoviesHorreur: BaseMovie[] = [
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
   },
-{
+  {
     title: 'Grave',
     director: 'Julia Ducournau',
     actors: [
@@ -1935,7 +1935,7 @@ export const baseMoviesHorreur: BaseMovie[] = [
     countryOrigin: ['France'],
     selectDisplayOrder: 5,
   },
-{
+  {
     title: 'Trouble Jeu',
     director: 'Matt Bettinelli-Olpin, Tyler Gillett',
     actors: [
@@ -2123,6 +2123,42 @@ export const baseMoviesHorreur: BaseMovie[] = [
     releaseDate: '2023-11-08',
     length: 110,
     genre: ['Horreur'],
+    saga: '',
+    description: '',
+    fromEntity: null,
+    countryOrigin: ['États-Unis'],
+    selectDisplayOrder: 5,
+  },
+  {
+    title: 'Cinq nuits chez Freddy 2',
+    director: 'Emma Tammi',
+    actors: [
+      {
+        name: 'Claudia Cardinale',
+      },
+      {
+        name: 'Henry Fonda',
+      },
+      {
+        name: 'Charles Bronson',
+      },
+      {
+        name: 'Jason Robards',
+      },
+      {
+        name: 'Gabriele Ferzetti',
+      },
+      {
+        name: 'Paolo Stoppa',
+      },
+      {
+        name: 'Woody Strode',
+      },
+    ],
+    coverUrl: '/movies_pictures/4ee42645f1d0.jpg',
+    releaseDate: '1969-08-27',
+    length: 165,
+    genre: ['Horreur', 'Western'],
     saga: '',
     description: '',
     fromEntity: null,
@@ -2404,7 +2440,7 @@ export const baseMoviesHorreur: BaseMovie[] = [
         name: 'Adam Scott',
       },
       {
-        name: 'Jerry O\'Connell',
+        name: "Jerry O'Connell",
       },
     ],
     coverUrl: '/movies_pictures/piranha_3d.jpg',
@@ -2490,7 +2526,7 @@ export const baseMoviesHorreur: BaseMovie[] = [
     selectDisplayOrder: 5,
   },
   {
-    title: 'L\'Armée des morts',
+    title: "L'Armée des morts",
     director: 'Zack Snyder',
     actors: [
       {
@@ -2560,5 +2596,42 @@ export const baseMoviesHorreur: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 5,
+  },
+  {
+    title: "Brightburn : L'enfant du mal",
+    director: 'David Yarovesky',
+    actors: [
+      {
+        name: 'Elizabeth Banks',
+      },
+      {
+        name: 'David Denman',
+      },
+      {
+        name: 'Jackson A. Dunn',
+      },
+      {
+        name: 'Matt Jones',
+      },
+      {
+        name: 'Meredith Hagner',
+      },
+      {
+        name: 'Abraham Clinkscales',
+      },
+      {
+        name: 'Becky Wahlstrom',
+      },
+    ],
+    coverUrl:
+      '/movies_pictures/6cc2a12d0040.jpg',
+    releaseDate: '2019-05-29',
+    length: 91,
+    genre: ['Horreur', 'Science Fiction'],
+    saga: '',
+    description: '',
+    fromEntity: null,
+    countryOrigin: ['États-Unis'],
+    selectDisplayOrder: 30,
   },
 ];

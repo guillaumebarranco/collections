@@ -6175,7 +6175,7 @@ export const unhoMovies: UserMovie[] = [
   },
 
   {
-    title: 'Alien',
+    title: 'Alien, le huitième passager',
     director: 'Ridley Scott',
     rating: 0,
     timesWatched: 1,
@@ -6192,7 +6192,7 @@ export const unhoMovies: UserMovie[] = [
   },
 
   {
-    title: 'Aliens',
+    title: 'Aliens, le retour',
     director: 'James Cameron',
     rating: 0,
     timesWatched: 1,

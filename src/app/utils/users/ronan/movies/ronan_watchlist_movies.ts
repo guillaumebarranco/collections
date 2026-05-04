@@ -1298,7 +1298,7 @@ export const ronanWatchlistMovies: UserMovies = [
     inList: [],
   },
   {
-    title: 'Aliens',
+    title: 'Aliens, le retour',
     director: 'James Cameron',
     rating: 0,
     timesWatched: 0,
@@ -1554,7 +1554,7 @@ export const ronanWatchlistMovies: UserMovies = [
     inList: [],
   },
   {
-    title: 'Atonement',
+    title: 'Reviens-moi',
     director: 'Joe Wright',
     rating: 0,
     timesWatched: 0,

@@ -450,7 +450,7 @@ export const guillaumeMoviesPage1: UserMovies = [
     inList: [],
   },
   {
-    title: 'The Terminal',
+    title: 'Le Terminal',
     director: 'Steven Spielberg',
     rating: 3.75,
     timesWatched: 3,
@@ -2985,19 +2985,19 @@ export const guillaumeMoviesPage1: UserMovies = [
 
   {
     title: "L'idée d'être avec toi",
-    director: "Michael Showalter",
+    director: 'Michael Showalter',
     rating: 3.75,
     timesWatched: 1,
-    firstViewedDate: "2026-05-02",
-    lastViewedDate: "2026-05-02",
+    firstViewedDate: '2026-05-02',
+    lastViewedDate: '2026-05-02',
     seenAtCinema: false,
     owned: false,
     wantToSeeAgain: false,
     watchPriority: 1,
-    ratingComment: "",
+    ratingComment: '',
     inList: [],
-    borrowed: "",
-    loaned: "",
+    borrowed: '',
+    loaned: '',
   },
 
   {

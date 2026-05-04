@@ -1106,7 +1106,7 @@ export const guillaumeMoviesSagaPage2: UserMovies = [
     inList: [],
   },
   {
-    title: 'Alien',
+    title: 'Alien, le huitième passager',
     director: 'Ridley Scott',
     rating: 3.5,
     timesWatched: 5,
@@ -1122,7 +1122,7 @@ export const guillaumeMoviesSagaPage2: UserMovies = [
     inList: [],
   },
   {
-    title: 'Aliens',
+    title: 'Aliens, le retour',
     director: 'James Cameron',
     rating: 3.5,
     timesWatched: 5,

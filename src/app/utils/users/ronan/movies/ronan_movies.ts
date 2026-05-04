@@ -1234,7 +1234,7 @@ export const ronanMovies: UserMovies = [
     inList: [],
   },
   {
-    title: 'The Terminal',
+    title: 'Le Terminal',
     director: 'Steven Spielberg',
     rating: 3,
     timesWatched: 1,
@@ -5155,7 +5155,7 @@ export const ronanMovies: UserMovies = [
     inList: [],
   },
   {
-    title: 'Alien',
+    title: 'Alien, le huitième passager',
     director: 'Ridley Scott',
     rating: 3.5,
     timesWatched: 1,
@@ -10451,7 +10451,7 @@ export const ronanMovies: UserMovies = [
     inList: [],
   },
   {
-    title: 'Independence Day : Resurgence',
+    title: 'Independence Day 2',
     director: 'Roland Emmerich',
     rating: 3.5,
     timesWatched: 1,

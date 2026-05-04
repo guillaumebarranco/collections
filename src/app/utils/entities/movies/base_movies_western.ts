@@ -356,42 +356,6 @@ export const baseMoviesWestern: BaseMovie[] = [
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
   },
-  {
-    title: 'Cinq nuits chez Freddy 2',
-    director: 'Emma Tammi',
-    actors: [
-      {
-        name: 'Claudia Cardinale',
-      },
-      {
-        name: 'Henry Fonda',
-      },
-      {
-        name: 'Charles Bronson',
-      },
-      {
-        name: 'Jason Robards',
-      },
-      {
-        name: 'Gabriele Ferzetti',
-      },
-      {
-        name: 'Paolo Stoppa',
-      },
-      {
-        name: 'Woody Strode',
-      },
-    ],
-    coverUrl: '/movies_pictures/once_upon_a_time_in_the_west.jpg',
-    releaseDate: '1969-08-27',
-    length: 165,
-    genre: ['Western'],
-    saga: '',
-    description: '',
-    fromEntity: null,
-    countryOrigin: ['États-Unis'],
-    selectDisplayOrder: 30,
-  },
 
   {
     title: 'Les Huit Salopards',
@@ -418,7 +382,7 @@ export const baseMoviesWestern: BaseMovie[] = [
     selectDisplayOrder: 5,
   },
   {
-    title: 'Il était une fois dans l\'Ouest',
+    title: "Il était une fois dans l'Ouest",
     director: 'Sergio Leone',
     actors: [
       {
@@ -431,7 +395,7 @@ export const baseMoviesWestern: BaseMovie[] = [
         name: 'Charles Bronson',
       },
     ],
-    coverUrl: '/movies_pictures/once_upon_a_time_in_the_west.jpg',
+    coverUrl: '/movies_pictures/03454bc973db.jpg',
     releaseDate: '1969-08-27',
     length: 165,
     genre: ['Western'],

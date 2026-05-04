@@ -92,6 +92,43 @@ export const baseMoviesSuperherosAutres: BaseMovie[] = [
     selectDisplayOrder: 20,
   },
   {
+    title: 'Elektra',
+    director: 'Rob Bowman',
+    actors: [
+      {
+        name: 'Jennifer Garner',
+      },
+      {
+        name: 'Goran Višnjić',
+      },
+      {
+        name: 'Terence Stamp',
+      },
+      {
+        name: 'Kirsten Prout',
+      },
+      {
+        name: 'Will Yun Lee',
+      },
+      {
+        name: 'Cary-Hiroyuki Tagawa',
+      },
+      {
+        name: 'Natassia Malthe',
+      },
+    ],
+    coverUrl:
+      '/movies_pictures/4aa8cd4d8608.jpg',
+    releaseDate: '2005-01-14',
+    length: 97,
+    genre: ['Action'],
+    saga: '',
+    description: '',
+    fromEntity: null,
+    countryOrigin: ['États-Unis'],
+    selectDisplayOrder: 20,
+  },
+  {
     title: 'X-Men',
     director: 'Bryan Singer',
     actors: [

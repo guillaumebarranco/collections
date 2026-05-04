@@ -13,8 +13,7 @@ export const baseMoviesComedie: BaseMovie[] = [
       { name: 'Alexandre Sterling' },
       { name: 'Bernard Giraudeau' },
     ],
-    coverUrl:
-      '/movies_pictures/7b8dbed44135.jpg',
+    coverUrl: '/movies_pictures/7b8dbed44135.jpg',
     releaseDate: '1980-12-17',
     length: 110,
     genre: ['Comédie', 'Romance'],
@@ -58,8 +57,7 @@ export const baseMoviesComedie: BaseMovie[] = [
       { name: 'Robert Rimbaud' },
       { name: 'Henri Guybet' },
     ],
-    coverUrl:
-      '/movies_pictures/d79426f1171c.jpg',
+    coverUrl: '/movies_pictures/d79426f1171c.jpg',
     releaseDate: '1973-10-15',
     length: 92,
     genre: ['Comédie', 'Guerre'],
@@ -372,7 +370,8 @@ export const baseMoviesComedie: BaseMovie[] = [
         name: 'Missi Pyle',
       },
     ],
-    coverUrl: '/movies_pictures/dodgeball.jpg',
+    coverUrl:
+      'https://assets.diverto.tv/media/remote/aHR0cHM6Ly9pbWFnZS50bWRiLm9yZy90L3AvL29yaWdpbmFsLy84aWtzckNOdmZhYnplZlMyQTlYVWg5ZXdyVm4uanBn?fit=contain&fm=webp&s=deba2a368ab77fd7672297c40ebd1b46',
     releaseDate: '2004-06-18',
     length: 92,
     genre: ['Comédie'],
@@ -408,14 +407,51 @@ export const baseMoviesComedie: BaseMovie[] = [
         name: 'David Eigenberg',
       },
     ],
-    coverUrl: '/movies_pictures/47508-garfield-0-150-0-225-crop.jpg',
+    coverUrl: '/movies_pictures/443d87c56ca4.jpg',
     releaseDate: '2004-06-11',
     length: 80,
     genre: ['Comédie'],
-    saga: '',
+    saga: 'Garfield',
     description: '',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
+    selectDisplayOrder: 30,
+  },
+  {
+    title: 'Garfield 2',
+    director: 'Tim Hill',
+    actors: [
+      {
+        name: 'Breckin Meyer',
+      },
+      {
+        name: 'Jennifer Love Hewitt',
+      },
+      {
+        name: 'Bill Murray',
+      },
+      {
+        name: 'Billy Connolly',
+      },
+      {
+        name: 'Lucy Davis',
+      },
+      {
+        name: 'Bob Hoskins',
+      },
+      {
+        name: 'Tim Curry',
+      },
+    ],
+    coverUrl:
+      '/movies_pictures/d2b311224602.jpg',
+    releaseDate: '2006-07-19',
+    length: 86,
+    genre: ['Comédie', 'Jeunesse'],
+    saga: 'Garfield',
+    description: '',
+    fromEntity: null,
+    countryOrigin: ['États-Unis', 'Royaume-Uni'],
     selectDisplayOrder: 30,
   },
   {

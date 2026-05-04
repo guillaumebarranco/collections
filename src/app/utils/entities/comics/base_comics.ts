@@ -1109,6 +1109,19 @@ export const baseComics: BaseComic[] = [
     description: '',
   },
   {
+    title: 'Batman : Silence',
+    writer: 'Jeph Loeb',
+    designer: 'Jim Lee',
+    coverUrl:
+      'https://cdn1.booknode.com/book_cover/4427/full/batman-silence-4427063.jpg',
+    releaseDate: '2004-09-01',
+    pages: 320,
+    genre: 'Super-héros',
+    saga: '',
+    sagaOrder: 0,
+    description: '',
+  },
+  {
     title: 'Batman',
     writer: 'Bill Finger',
     designer: 'Bob Kane',

@@ -720,8 +720,7 @@ export const baseMoviesSagaComedie: BaseMovie[] = [
         name: 'Lochlyn Munro',
       },
     ],
-    coverUrl:
-      '/movies_pictures/bec782ccaa8d.jpg',
+    coverUrl: '/movies_pictures/bec782ccaa8d.jpg',
     releaseDate: '2000-07-07',
     length: 88,
     genre: ['Comédie'],
@@ -757,8 +756,7 @@ export const baseMoviesSagaComedie: BaseMovie[] = [
         name: 'David Cross',
       },
     ],
-    coverUrl:
-      '/movies_pictures/d55b9eee3ac3.jpg',
+    coverUrl: '/movies_pictures/d55b9eee3ac3.jpg',
     releaseDate: '2001-07-04',
     length: 83,
     genre: ['Comédie'],
@@ -794,8 +792,7 @@ export const baseMoviesSagaComedie: BaseMovie[] = [
         name: 'Anthony Anderson',
       },
     ],
-    coverUrl:
-      '/movies_pictures/3006509dc50b.jpg',
+    coverUrl: '/movies_pictures/3006509dc50b.jpg',
     releaseDate: '2003-10-24',
     length: 84,
     genre: ['Comédie'],
@@ -831,8 +828,7 @@ export const baseMoviesSagaComedie: BaseMovie[] = [
         name: 'Chris Elliott',
       },
     ],
-    coverUrl:
-      '/movies_pictures/560accb612ff.jpg',
+    coverUrl: '/movies_pictures/560accb612ff.jpg',
     releaseDate: '2006-04-14',
     length: 83,
     genre: ['Comédie'],
@@ -1511,7 +1507,7 @@ export const baseMoviesSagaComedie: BaseMovie[] = [
         name: 'Bryan Cranston',
       },
       {
-        name: 'Catherine O\'Hara',
+        name: "Catherine O'Hara",
       },
     ],
     coverUrl: '/movies_pictures/argylle.jpg',
@@ -1586,7 +1582,8 @@ export const baseMoviesSagaComedie: BaseMovie[] = [
         name: 'Jim Broadbent',
       },
     ],
-    coverUrl: '/movies_pictures/hot_fuzz.jpg',
+    coverUrl:
+      '/movies_pictures/9243a4d2e759.jpg',
     releaseDate: '2007-07-18',
     length: 121,
     genre: ['Comédie'],

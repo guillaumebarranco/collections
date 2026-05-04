@@ -6052,7 +6052,7 @@ export const bastienMovies: UserMovies = [
     inList: [],
   },
   {
-    title: 'Alien',
+    title: 'Alien, le huitième passager',
     director: 'Ridley Scott',
     rating: 4,
     timesWatched: 1,
@@ -6068,7 +6068,7 @@ export const bastienMovies: UserMovies = [
     inList: [],
   },
   {
-    title: 'Aliens',
+    title: 'Aliens, le retour',
     director: 'James Cameron',
     rating: 4,
     timesWatched: 1,
