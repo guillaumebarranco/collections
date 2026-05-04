@@ -1972,4 +1972,19 @@ export const baseBooksApi: BaseBook[] = [
     countryOrigin: "France",
     selectDisplayOrder: 0,
   },
+
+  {
+    title: "John",
+    author: "Eny Heli",
+    coverUrl: "https://m.media-amazon.com/images/I/6153jLn-w6L._AC_UF1000,1000_QL80_.jpg",
+    pages: 470,
+    genre: ['Romance'],
+    saga: "",
+    sagaOrder: 0,
+    sagaFinished: true,
+    releaseDate: "2026-04-30",
+    description: "",
+    countryOrigin: "France",
+    selectDisplayOrder: 0,
+  },
 ];

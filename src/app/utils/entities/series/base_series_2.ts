@@ -833,23 +833,46 @@ export const baseSeries2: BaseSerie[] = [
     title: 'Invincible',
     director: 'Robert Kirkman',
     actors: [
-      { name: 'Steven Yeun' },
-      { name: 'J.K. Simmons' },
-      { name: 'Sandra Oh' },
+      {
+        name: "Steven Yeun",
+      },
+      {
+        name: "J.K. Simmons",
+      },
+      {
+        name: "Sandra Oh",
+      }
     ],
-    coverUrl: '/series_pictures/ed292bcc92da.jpg',
-    releaseDate: '2021-03-26',
-    endDate: '2025-03-13',
+    coverUrl: "/series_pictures/ed292bcc92da.jpg",
+    releaseDate: "2021-03-26",
+    endDate: "2025-03-13",
     genre: ['Action', 'Animation', 'Drama'],
     seasonsData: [
-      { seasonNumber: 1, nbEpisodes: 8, totalLength: 480 },
-      { seasonNumber: 2, nbEpisodes: 8, totalLength: 480 },
-      { seasonNumber: 3, nbEpisodes: 8, totalLength: 480 },
+      {
+        seasonNumber: 1,
+        nbEpisodes: 8,
+        totalLength: 0,
+      },
+      {
+        seasonNumber: 2,
+        nbEpisodes: 8,
+        totalLength: 0,
+      },
+      {
+        seasonNumber: 3,
+        nbEpisodes: 8,
+        totalLength: 0,
+      },
+      {
+        seasonNumber: 4,
+        nbEpisodes: 8,
+        totalLength: 416,
+      }
     ],
-    description: '',
+    description: "",
     fromEntity: null,
-    saga: '',
-    countryOrigin: 'États-Unis',
+    saga: "",
+    countryOrigin: "États-Unis",
   },
   {
     title: 'True Blood',

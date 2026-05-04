@@ -1367,4 +1367,19 @@ export const guillaumeBooks: UserBooks = [
     wantToReadAgain: false,
     ratingComment: "",
   },
+
+  {
+    title: "John",
+    author: "Eny Heli",
+    firstReadDate: "2026-05-03",
+    lastReadDate: "2026-05-03",
+    rating: 4,
+    readTimes: 1,
+    owned: false,
+    borrowed: "",
+    loaned: "",
+    readPriority: 1,
+    wantToReadAgain: false,
+    ratingComment: "",
+  },
 ];
