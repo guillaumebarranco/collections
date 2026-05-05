@@ -14,6 +14,16 @@
     @if (showAdaptationSourceTabs()) {
     <div class="adaptations-header-secondary">
       <p class="adaptations-secondary-label">Type d’œuvre source</p>
+      <p class="adaptations-header-adaptation-total" role="status">
+        <strong>{{ totalFilmsFromAdaptationSources() }}</strong>
+        film{{ totalFilmsFromAdaptationSources() !== 1 ? "s" : "" }} au total
+        issu{{ totalFilmsFromAdaptationSources() !== 1 ? "s" : "" }} d’un autre
+        média
+        <span class="adaptations-header-adaptation-total-hint">
+          (somme des onglets Livre, BD, Comics, Manga, Manhwa, Jeu vidéo, Série
+          TV)
+        </span>
+      </p>
       <app-view-toggle
         [toggleClass]="'adaptations-secondary-toggle'"
         [options]="adaptationSourceOptions"
@@ -81,648 +91,225 @@
     </section>
     } }
   </div>
-  } @else if (selectedPrimary() === 'worksWithMovieAdaptations') {
-  <div class="adaptations-content adaptations-by-entity">
-    @switch (selectedAdaptationSource()) { @case ('book') { @if
-    (booksAdapted().length === 0) {
-    <p class="adaptations-empty">Aucun livre adapté en film pour le moment.</p>
-    } @else { @for (item of booksAdapted(); track item.book.title + '|' +
-    item.book.author) {
-    <section class="adaptations-section">
-      <h2 class="adaptations-section-title">
-        <button
-          type="button"
-          class="adaptations-section-toggle"
-          [attr.aria-expanded]="
-            !isSectionCollapsed(item.book.title + '|' + item.book.author)
-          "
-          (click)="toggleSection(item.book.title + '|' + item.book.author)"
-        >
-          <span class="adaptations-section-toggle-icon">
-            {{
-              isSectionCollapsed(item.book.title + "|" + item.book.author)
-                ? "▶"
-                : "▼"
-            }}
-          </span>
-          {{ item.book.title }} — {{ item.book.author }} ({{
-            item.movies.length
-          }}
-          adaptation{{ item.movies.length > 1 ? "s" : "" }})
-        </button>
-      </h2>
-      @if (!isSectionCollapsed(item.book.title + '|' + item.book.author)) {
-      <div class="adaptations-section-book">
-        <app-book [book]="item.book" [readOnly]="true"></app-book>
-      </div>
-      <p class="adaptations-entity-label">Adaptation(s) film :</p>
-      <div class="adaptations-movies">
-        @for (movie of item.movies; track movie.title + '|' + movie.director) {
-        <div class="adaptations-movie-card">
-          <app-movie
-            [movie]="movie"
-            [readOnly]="true"
-            [list]="item.movies"
-            [index]="$index"
-          ></app-movie>
-        </div>
-        }
-      </div>
-      }
-    </section>
-    } } } @case ('bd') { @if (bdsAdapted().length === 0) {
-    <p class="adaptations-empty">Aucune BD adaptée en film pour le moment.</p>
-    } @else { @for (item of bdsAdapted(); track item.bd.title + '|' +
-    item.bd.writer) {
-    <section class="adaptations-section">
-      <h2 class="adaptations-section-title">
-        <button
-          type="button"
-          class="adaptations-section-toggle"
-          [attr.aria-expanded]="
-            !isSectionCollapsed(item.bd.title + '|' + item.bd.writer)
-          "
-          (click)="toggleSection(item.bd.title + '|' + item.bd.writer)"
-        >
-          <span class="adaptations-section-toggle-icon">
-            {{
-              isSectionCollapsed(item.bd.title + "|" + item.bd.writer)
-                ? "▶"
-                : "▼"
-            }}
-          </span>
-          {{ item.bd.title }} — {{ item.bd.writer }} ({{
-            item.movies.length
-          }}
-          adaptation{{ item.movies.length > 1 ? "s" : "" }})
-        </button>
-      </h2>
-      @if (!isSectionCollapsed(item.bd.title + '|' + item.bd.writer)) {
-      <div class="adaptations-section-bd">
-        <app-bd [bd]="item.bd" [readOnly]="true"></app-bd>
-      </div>
-      <p class="adaptations-entity-label">Adaptation(s) film :</p>
-      <div class="adaptations-movies">
-        @for (movie of item.movies; track movie.title + '|' + movie.director) {
-        <div class="adaptations-movie-card">
-          <app-movie
-            [movie]="movie"
-            [readOnly]="true"
-            [list]="item.movies"
-            [index]="$index"
-          ></app-movie>
-        </div>
-        }
-      </div>
-      }
-    </section>
-    } } } @case ('comic') { @if (comicBooksAdapted().length === 0) {
-    <p class="adaptations-empty">Aucun comic adapté en film pour le moment.</p>
-    } @else { @for (item of comicBooksAdapted(); track item.comic.title + '|' +
-    item.comic.writer) {
-    <section class="adaptations-section">
-      <h2 class="adaptations-section-title">
-        <button
-          type="button"
-          class="adaptations-section-toggle"
-          [attr.aria-expanded]="
-            !isSectionCollapsed(item.comic.title + '|' + item.comic.writer)
-          "
-          (click)="toggleSection(item.comic.title + '|' + item.comic.writer)"
-        >
-          <span class="adaptations-section-toggle-icon">
-            {{
-              isSectionCollapsed(item.comic.title + "|" + item.comic.writer)
-                ? "▶"
-                : "▼"
-            }}
-          </span>
-          {{ item.comic.title }}
-          ({{ item.movies.length }} adaptation{{
-            item.movies.length > 1 ? "s" : ""
-          }})
-        </button>
-      </h2>
-      @if (!isSectionCollapsed(item.comic.title + '|' + item.comic.writer)) {
-      <div class="adaptations-section-comic">
-        <app-comic [comic]="item.comic" [readOnly]="true"></app-comic>
-      </div>
-      <p class="adaptations-entity-label">Adaptation(s) film :</p>
-      <div class="adaptations-movies">
-        @for (movie of item.movies; track movie.title + '|' + movie.director) {
-        <div class="adaptations-movie-card">
-          <app-movie
-            [movie]="movie"
-            [readOnly]="true"
-            [list]="item.movies"
-            [index]="$index"
-          ></app-movie>
-        </div>
-        }
-      </div>
-      }
-    </section>
-    } } } @case ('manga') { @if (mangasAdapted().length === 0) {
-    <p class="adaptations-empty">Aucun manga adapté en film pour le moment.</p>
-    } @else { @for (item of mangasAdapted(); track item.manga.title + '|' +
-    item.manga.author) {
-    <section class="adaptations-section">
-      <h2 class="adaptations-section-title">
-        <button
-          type="button"
-          class="adaptations-section-toggle"
-          [attr.aria-expanded]="
-            !isSectionCollapsed(item.manga.title + '|' + item.manga.author)
-          "
-          (click)="toggleSection(item.manga.title + '|' + item.manga.author)"
-        >
-          <span class="adaptations-section-toggle-icon">
-            {{
-              isSectionCollapsed(item.manga.title + "|" + item.manga.author)
-                ? "▶"
-                : "▼"
-            }}
-          </span>
-          {{ item.manga.title }}
-          ({{ item.movies.length }} adaptation{{
-            item.movies.length > 1 ? "s" : ""
-          }})
-        </button>
-      </h2>
-      @if (!isSectionCollapsed(item.manga.title + '|' + item.manga.author)) {
-      <div class="adaptations-section-manga">
-        <app-manga [manga]="item.manga" [readOnly]="true"></app-manga>
-      </div>
-      <p class="adaptations-entity-label">Adaptation(s) film :</p>
-      <div class="adaptations-movies">
-        @for (movie of item.movies; track movie.title + '|' + movie.director) {
-        <div class="adaptations-movie-card">
-          <app-movie
-            [movie]="movie"
-            [readOnly]="true"
-            [list]="item.movies"
-            [index]="$index"
-          ></app-movie>
-        </div>
-        }
-      </div>
-      }
-    </section>
-    } } } @case ('manwha') { @if (manwhasAdapted().length === 0) {
-    <p class="adaptations-empty">Aucun manhwa adapté en film pour le moment.</p>
-    } @else { @for (item of manwhasAdapted(); track item.manwha.title + '|' +
-    item.manwha.author) {
-    <section class="adaptations-section">
-      <h2 class="adaptations-section-title">
-        <button
-          type="button"
-          class="adaptations-section-toggle"
-          [attr.aria-expanded]="
-            !isSectionCollapsed(item.manwha.title + '|' + item.manwha.author)
-          "
-          (click)="toggleSection(item.manwha.title + '|' + item.manwha.author)"
-        >
-          <span class="adaptations-section-toggle-icon">
-            {{
-              isSectionCollapsed(item.manwha.title + "|" + item.manwha.author)
-                ? "▶"
-                : "▼"
-            }}
-          </span>
-          {{ item.manwha.title }}
-          ({{ item.movies.length }} adaptation{{
-            item.movies.length > 1 ? "s" : ""
-          }})
-        </button>
-      </h2>
-      @if (!isSectionCollapsed(item.manwha.title + '|' + item.manwha.author)) {
-      <div class="adaptations-section-manwha">
-        <app-manwha [manwha]="item.manwha" [readOnly]="true"></app-manwha>
-      </div>
-      <p class="adaptations-entity-label">Adaptation(s) film :</p>
-      <div class="adaptations-movies">
-        @for (movie of item.movies; track movie.title + '|' + movie.director) {
-        <div class="adaptations-movie-card">
-          <app-movie
-            [movie]="movie"
-            [readOnly]="true"
-            [list]="item.movies"
-            [index]="$index"
-          ></app-movie>
-        </div>
-        }
-      </div>
-      }
-    </section>
-    } } } @case ('game') { @if (gamesAdapted().length === 0) {
-    <p class="adaptations-empty">Aucun jeu adapté en film pour le moment.</p>
-    } @else { @for (item of gamesAdapted(); track item.game.title + '|' +
-    item.game.editor) {
-    <section class="adaptations-section">
-      <h2 class="adaptations-section-title">
-        <button
-          type="button"
-          class="adaptations-section-toggle"
-          [attr.aria-expanded]="
-            !isSectionCollapsed(item.game.title + '|' + item.game.editor)
-          "
-          (click)="toggleSection(item.game.title + '|' + item.game.editor)"
-        >
-          <span class="adaptations-section-toggle-icon">
-            {{
-              isSectionCollapsed(item.game.title + "|" + item.game.editor)
-                ? "▶"
-                : "▼"
-            }}
-          </span>
-          {{ item.game.title }} — {{ item.game.editor }} ({{
-            item.movies.length
-          }}
-          adaptation{{ item.movies.length > 1 ? "s" : "" }})
-        </button>
-      </h2>
-      @if (!isSectionCollapsed(item.game.title + '|' + item.game.editor)) {
-      <div class="adaptations-section-game">
-        <app-game [game]="item.game" [readOnly]="true"></app-game>
-      </div>
-      <p class="adaptations-entity-label">Adaptation(s) film :</p>
-      <div class="adaptations-movies">
-        @for (movie of item.movies; track movie.title + '|' + movie.director) {
-        <div class="adaptations-movie-card">
-          <app-movie
-            [movie]="movie"
-            [readOnly]="true"
-            [list]="item.movies"
-            [index]="$index"
-          ></app-movie>
-        </div>
-        }
-      </div>
-      }
-    </section>
-    } } } @case ('serie') { @if (seriesWithFilmAdaptations().length === 0) {
-    <p class="adaptations-empty">
-      Aucune série TV listée comme source d’un film pour le moment.
-    </p>
-    } @else { @for (item of seriesWithFilmAdaptations(); track item.serie.title
-    + '|' + item.serie.director) {
-    <section class="adaptations-section">
-      <h2 class="adaptations-section-title">
-        <button
-          type="button"
-          class="adaptations-section-toggle"
-          [attr.aria-expanded]="
-            !isSectionCollapsed(item.serie.title + '|' + item.serie.director)
-          "
-          (click)="toggleSection(item.serie.title + '|' + item.serie.director)"
-        >
-          <span class="adaptations-section-toggle-icon">
-            {{
-              isSectionCollapsed(item.serie.title + "|" + item.serie.director)
-                ? "▶"
-                : "▼"
-            }}
-          </span>
-          {{ item.serie.title }} — {{ item.serie.director }} ({{
-            item.movies.length
-          }}
-          adaptation{{ item.movies.length > 1 ? "s" : "" }})
-        </button>
-      </h2>
-      @if (!isSectionCollapsed(item.serie.title + '|' + item.serie.director)) {
-      <div class="adaptations-section-serie">
-        <app-serie
-          [serie]="item.serie"
-          [readOnly]="true"
-          [list]="[item.serie]"
-          [index]="0"
-        ></app-serie>
-      </div>
-      <p class="adaptations-entity-label">Adaptation(s) film :</p>
-      <div class="adaptations-movies">
-        @for (movie of item.movies; track movie.title + '|' + movie.director) {
-        <div class="adaptations-movie-card">
-          <app-movie
-            [movie]="movie"
-            [readOnly]="true"
-            [list]="item.movies"
-            [index]="$index"
-          ></app-movie>
-        </div>
-        }
-      </div>
-      }
-    </section>
-    } } } }
-  </div>
   } @else if (selectedPrimary() === 'moviesGroupedBySource') {
-  <div class="adaptations-content adaptations-by-entity">
+  <div
+    class="adaptations-content adaptations-by-entity adaptations-by-source-page"
+  >
     @switch (selectedAdaptationSource()) { @case ('book') { @if
-    (moviesFromBooksBySource().length === 0) {
-    <p class="adaptations-empty">Aucun film provenant d’un livre pour le moment.</p>
-    } @else { @for (group of moviesFromBooksBySource(); track group.sourceKey) {
-    <section class="adaptations-section">
-      <h2 class="adaptations-section-title">
-        <button
-          type="button"
-          class="adaptations-section-toggle"
-          [attr.aria-expanded]="!isSectionCollapsed(group.sourceKey)"
-          (click)="toggleSection(group.sourceKey)"
-        >
-          <span class="adaptations-section-toggle-icon">
-            {{ isSectionCollapsed(group.sourceKey) ? "▶" : "▼" }}
-          </span>
-          {{ group.sourceLabel }}
-          ({{ group.movies.length }} film{{
-            group.movies.length > 1 ? "s" : ""
-          }})
-        </button>
-      </h2>
-      @if (!isSectionCollapsed(group.sourceKey)) {
-      <div class="adaptations-movies">
-        @for (movie of group.movies; track movie.title + '|' + movie.director) {
-        <div class="adaptations-movie-card">
-          <app-movie
-            [movie]="movie"
-            [readOnly]="true"
-            [list]="group.movies"
-            [index]="$index"
-          ></app-movie>
-        </div>
-        }
-      </div>
-      }
-    </section>
-    } } } @case ('bd') { @if (moviesFromBdsBySource().length === 0) {
-    <p class="adaptations-empty">Aucun film adapté d’une BD franco pour le moment.</p>
-    } @else { @for (group of moviesFromBdsBySource(); track group.sourceKey) {
-    <section class="adaptations-section">
-      <h2 class="adaptations-section-title">
-        <button
-          type="button"
-          class="adaptations-section-toggle"
-          [attr.aria-expanded]="!isSectionCollapsed(group.sourceKey)"
-          (click)="toggleSection(group.sourceKey)"
-        >
-          <span class="adaptations-section-toggle-icon">
-            {{ isSectionCollapsed(group.sourceKey) ? "▶" : "▼" }}
-          </span>
-          {{ group.sourceLabel }}
-          ({{ group.movies.length }} film{{
-            group.movies.length > 1 ? "s" : ""
-          }})
-        </button>
-      </h2>
-      @if (!isSectionCollapsed(group.sourceKey)) {
-      <div class="adaptations-movies">
-        @for (movie of group.movies; track movie.title + '|' + movie.director) {
-        <div class="adaptations-movie-card">
-          <app-movie
-            [movie]="movie"
-            [readOnly]="true"
-            [list]="group.movies"
-            [index]="$index"
-          ></app-movie>
-        </div>
-        }
-      </div>
-      }
-    </section>
-    } } } @case ('comic') { @if (moviesFromComicBooksBySource().length === 0) {
-    <p class="adaptations-empty">Aucun film adapté d’un comic US pour le moment.</p>
-    } @else { @for (group of moviesFromComicBooksBySource(); track
-    group.sourceKey) {
-    <section class="adaptations-section">
-      <h2 class="adaptations-section-title">
-        <button
-          type="button"
-          class="adaptations-section-toggle"
-          [attr.aria-expanded]="!isSectionCollapsed(group.sourceKey)"
-          (click)="toggleSection(group.sourceKey)"
-        >
-          <span class="adaptations-section-toggle-icon">
-            {{ isSectionCollapsed(group.sourceKey) ? "▶" : "▼" }}
-          </span>
-          {{ group.sourceLabel }}
-          ({{ group.movies.length }} film{{
-            group.movies.length > 1 ? "s" : ""
-          }})
-        </button>
-      </h2>
-      @if (!isSectionCollapsed(group.sourceKey)) {
-      <div class="adaptations-movies">
-        @for (movie of group.movies; track movie.title + '|' + movie.director) {
-        <div class="adaptations-movie-card">
-          <app-movie
-            [movie]="movie"
-            [readOnly]="true"
-            [list]="group.movies"
-            [index]="$index"
-          ></app-movie>
-        </div>
-        }
-      </div>
-      }
-    </section>
-    } } } @case ('manga') { @if (moviesFromMangaBySource().length === 0) {
-    <p class="adaptations-empty">Aucun film adapté d’un manga pour le moment.</p>
-    } @else { @for (group of moviesFromMangaBySource(); track group.sourceKey) {
-    <section class="adaptations-section">
-      <h2 class="adaptations-section-title">
-        <button
-          type="button"
-          class="adaptations-section-toggle"
-          [attr.aria-expanded]="!isSectionCollapsed(group.sourceKey)"
-          (click)="toggleSection(group.sourceKey)"
-        >
-          <span class="adaptations-section-toggle-icon">
-            {{ isSectionCollapsed(group.sourceKey) ? "▶" : "▼" }}
-          </span>
-          {{ group.sourceLabel }}
-          ({{ group.movies.length }} film{{
-            group.movies.length > 1 ? "s" : ""
-          }})
-        </button>
-      </h2>
-      @if (!isSectionCollapsed(group.sourceKey)) {
-      <div class="adaptations-movies">
-        @for (movie of group.movies; track movie.title + '|' + movie.director) {
-        <div class="adaptations-movie-card">
-          <app-movie
-            [movie]="movie"
-            [readOnly]="true"
-            [list]="group.movies"
-            [index]="$index"
-          ></app-movie>
-        </div>
-        }
-      </div>
-      }
-    </section>
-    } } } @case ('manwha') { @if (moviesFromManwhaBySource().length === 0) {
-    <p class="adaptations-empty">Aucun film adapté d’un manhwa pour le moment.</p>
-    } @else { @for (group of moviesFromManwhaBySource(); track group.sourceKey)
-    {
-    <section class="adaptations-section">
-      <h2 class="adaptations-section-title">
-        <button
-          type="button"
-          class="adaptations-section-toggle"
-          [attr.aria-expanded]="!isSectionCollapsed(group.sourceKey)"
-          (click)="toggleSection(group.sourceKey)"
-        >
-          <span class="adaptations-section-toggle-icon">
-            {{ isSectionCollapsed(group.sourceKey) ? "▶" : "▼" }}
-          </span>
-          {{ group.sourceLabel }}
-          ({{ group.movies.length }} film{{
-            group.movies.length > 1 ? "s" : ""
-          }})
-        </button>
-      </h2>
-      @if (!isSectionCollapsed(group.sourceKey)) {
-      <div class="adaptations-movies">
-        @for (movie of group.movies; track movie.title + '|' + movie.director) {
-        <div class="adaptations-movie-card">
-          <app-movie
-            [movie]="movie"
-            [readOnly]="true"
-            [list]="group.movies"
-            [index]="$index"
-          ></app-movie>
-        </div>
-        }
-      </div>
-      }
-    </section>
-    } } } @case ('game') { @if (moviesFromGamesBySource().length === 0) {
-    <p class="adaptations-empty">Aucun film adapté d’un jeu pour le moment.</p>
-    } @else { @for (group of moviesFromGamesBySource(); track group.sourceKey) {
-    <section class="adaptations-section">
-      <h2 class="adaptations-section-title">
-        <button
-          type="button"
-          class="adaptations-section-toggle"
-          [attr.aria-expanded]="!isSectionCollapsed(group.sourceKey)"
-          (click)="toggleSection(group.sourceKey)"
-        >
-          <span class="adaptations-section-toggle-icon">
-            {{ isSectionCollapsed(group.sourceKey) ? "▶" : "▼" }}
-          </span>
-          {{ group.sourceLabel }}
-          ({{ group.movies.length }} film{{
-            group.movies.length > 1 ? "s" : ""
-          }})
-        </button>
-      </h2>
-      @if (!isSectionCollapsed(group.sourceKey)) {
-      <div class="adaptations-movies">
-        @for (movie of group.movies; track movie.title + '|' + movie.director) {
-        <div class="adaptations-movie-card">
-          <app-movie
-            [movie]="movie"
-            [readOnly]="true"
-            [list]="group.movies"
-            [index]="$index"
-          ></app-movie>
-        </div>
-        }
-      </div>
-      }
-    </section>
-    } } } @case ('serie') { @if (moviesFromSeriesBySource().length === 0) {
-    <p class="adaptations-empty">Aucun film issu d’une série TV pour le moment.</p>
-    } @else { @for (group of moviesFromSeriesBySource(); track group.sourceKey)
-    {
-    <section class="adaptations-section">
-      <h2 class="adaptations-section-title">
-        <button
-          type="button"
-          class="adaptations-section-toggle"
-          [attr.aria-expanded]="!isSectionCollapsed(group.sourceKey)"
-          (click)="toggleSection(group.sourceKey)"
-        >
-          <span class="adaptations-section-toggle-icon">
-            {{ isSectionCollapsed(group.sourceKey) ? "▶" : "▼" }}
-          </span>
-          {{ group.sourceLabel }}
-          ({{ group.movies.length }} film{{
-            group.movies.length > 1 ? "s" : ""
-          }})
-        </button>
-      </h2>
-      @if (!isSectionCollapsed(group.sourceKey)) {
-      <div class="adaptations-movies">
-        @for (movie of group.movies; track movie.title + '|' + movie.director) {
-        <div class="adaptations-movie-card">
-          <app-movie
-            [movie]="movie"
-            [readOnly]="true"
-            [list]="group.movies"
-            [index]="$index"
-          ></app-movie>
-        </div>
-        }
-      </div>
-      }
-    </section>
-    } } } }
-  </div>
-  } @else if (selectedPrimary() === 'gamesFromFilms') {
-  <div class="adaptations-content adaptations-by-entity">
-    @if (gamesFromFilmsDetail().length === 0) {
+    (moviesAdaptedFromBooksFlat().length === 0) {
     <p class="adaptations-empty">
-      Aucun jeu déclaré comme adaptation d’un film pour le moment.
+      Aucun film provenant d’un livre pour le moment.
     </p>
-    } @else { @for (row of gamesFromFilmsDetail(); track row.game.title + '|' +
-    row.game.editor) {
-    <section class="adaptations-section">
-      <h2 class="adaptations-section-title">
-        <button
-          type="button"
-          class="adaptations-section-toggle"
-          [attr.aria-expanded]="
-            !isSectionCollapsed('gf-' + row.game.title + '|' + row.game.editor)
-          "
-          (click)="
-            toggleSection('gf-' + row.game.title + '|' + row.game.editor)
-          "
-        >
-          <span class="adaptations-section-toggle-icon">
-            {{
-              isSectionCollapsed("gf-" + row.game.title + "|" + row.game.editor)
-                ? "▶"
-                : "▼"
-            }}
-          </span>
-          {{ row.game.title }} — {{ row.game.editor }}
-        </button>
-      </h2>
-      @if (!isSectionCollapsed('gf-' + row.game.title + '|' + row.game.editor))
-      {
-      <div class="adaptations-section-game">
-        <app-game [game]="row.game" [readOnly]="true"></app-game>
+    } @else {
+    <p class="adaptations-films-from-source-count" role="status">
+      <strong>{{ moviesAdaptedFromBooksFlat().length }}</strong>
+      film{{ moviesAdaptedFromBooksFlat().length > 1 ? "s" : "" }} issu{{
+        moviesAdaptedFromBooksFlat().length > 1 ? "s" : ""
+      }}
+      d’un livre
+    </p>
+    <div
+      class="movies adaptations-movies-strip adaptations-movies-strip--posters"
+    >
+      @for (movie of moviesAdaptedFromBooksFlat(); track movie.title + '|' +
+      movie.director) {
+      <div
+        class="movie-card adaptations-movie-poster-card"
+        [attr.title]="adaptationSourceTooltip(movie)"
+      >
+        <img
+          class="adaptations-movie-poster"
+          [src]="movie.coverUrl || '/movies_pictures/poster.jpg'"
+          [alt]="movie.title"
+          referrerpolicy="no-referrer"
+          loading="lazy"
+        />
       </div>
-      @if (row.sourceMovie) {
-      <p class="adaptations-entity-label">Film source :</p>
-      <div class="adaptations-movies">
-        <div class="adaptations-movie-card">
-          <app-movie
-            [movie]="row.sourceMovie"
-            [readOnly]="true"
-            [list]="[row.sourceMovie]"
-            [index]="0"
-          ></app-movie>
-        </div>
+      }
+    </div>
+    } } @case ('bd') { @if (moviesAdaptedFromBdsFlat().length === 0) {
+    <p class="adaptations-empty">Aucun film adapté d’une BD pour le moment.</p>
+    } @else {
+    <p class="adaptations-films-from-source-count" role="status">
+      <strong>{{ moviesAdaptedFromBdsFlat().length }}</strong>
+      film{{ moviesAdaptedFromBdsFlat().length > 1 ? "s" : "" }} issu{{
+        moviesAdaptedFromBdsFlat().length > 1 ? "s" : ""
+      }}
+      d’une BD
+    </p>
+    <div
+      class="movies adaptations-movies-strip adaptations-movies-strip--posters"
+    >
+      @for (movie of moviesAdaptedFromBdsFlat(); track movie.title + '|' +
+      movie.director) {
+      <div
+        class="movie-card adaptations-movie-poster-card"
+        [attr.title]="adaptationSourceTooltip(movie)"
+      >
+        <img
+          class="adaptations-movie-poster"
+          [src]="movie.coverUrl || '/movies_pictures/poster.jpg'"
+          [alt]="movie.title"
+          referrerpolicy="no-referrer"
+          loading="lazy"
+        />
       </div>
-      } @else {
-      <p class="adaptations-entity-label">
-        Réf. film : {{ row.game.fromEntity?.title }} —
-        {{ row.game.fromEntity?.secondEntityKey }}
-      </p>
-      } }
-    </section>
-    } }
+      }
+    </div>
+    } } @case ('comic') { @if (moviesAdaptedFromComicsFlat().length === 0) {
+    <p class="adaptations-empty">
+      Aucun film adapté d’un comic US pour le moment.
+    </p>
+    } @else {
+    <p class="adaptations-films-from-source-count" role="status">
+      <strong>{{ moviesAdaptedFromComicsFlat().length }}</strong>
+      film{{ moviesAdaptedFromComicsFlat().length > 1 ? "s" : "" }} issu{{
+        moviesAdaptedFromComicsFlat().length > 1 ? "s" : ""
+      }}
+      d’un comic US
+    </p>
+    <div
+      class="movies adaptations-movies-strip adaptations-movies-strip--posters"
+    >
+      @for (movie of moviesAdaptedFromComicsFlat(); track movie.title + '|' +
+      movie.director) {
+      <div
+        class="movie-card adaptations-movie-poster-card"
+        [attr.title]="adaptationSourceTooltip(movie)"
+      >
+        <img
+          class="adaptations-movie-poster"
+          [src]="movie.coverUrl || '/movies_pictures/poster.jpg'"
+          [alt]="movie.title"
+          referrerpolicy="no-referrer"
+          loading="lazy"
+        />
+      </div>
+      }
+    </div>
+    } } @case ('manga') { @if (moviesAdaptedFromMangasFlat().length === 0) {
+    <p class="adaptations-empty">
+      Aucun film adapté d’un manga pour le moment.
+    </p>
+    } @else {
+    <p class="adaptations-films-from-source-count" role="status">
+      <strong>{{ moviesAdaptedFromMangasFlat().length }}</strong>
+      film{{ moviesAdaptedFromMangasFlat().length > 1 ? "s" : "" }} issu{{
+        moviesAdaptedFromMangasFlat().length > 1 ? "s" : ""
+      }}
+      d’un manga
+    </p>
+    <div
+      class="movies adaptations-movies-strip adaptations-movies-strip--posters"
+    >
+      @for (movie of moviesAdaptedFromMangasFlat(); track movie.title + '|' +
+      movie.director) {
+      <div
+        class="movie-card adaptations-movie-poster-card"
+        [attr.title]="adaptationSourceTooltip(movie)"
+      >
+        <img
+          class="adaptations-movie-poster"
+          [src]="movie.coverUrl || '/movies_pictures/poster.jpg'"
+          [alt]="movie.title"
+          referrerpolicy="no-referrer"
+          loading="lazy"
+        />
+      </div>
+      }
+    </div>
+    } } @case ('manwha') { @if (moviesAdaptedFromManwhasFlat().length === 0) {
+    <p class="adaptations-empty">
+      Aucun film adapté d’un manhwa pour le moment.
+    </p>
+    } @else {
+    <p class="adaptations-films-from-source-count" role="status">
+      <strong>{{ moviesAdaptedFromManwhasFlat().length }}</strong>
+      film{{ moviesAdaptedFromManwhasFlat().length > 1 ? "s" : "" }} issu{{
+        moviesAdaptedFromManwhasFlat().length > 1 ? "s" : ""
+      }}
+      d’un manhwa
+    </p>
+    <div
+      class="movies adaptations-movies-strip adaptations-movies-strip--posters"
+    >
+      @for (movie of moviesAdaptedFromManwhasFlat(); track movie.title + '|' +
+      movie.director) {
+      <div
+        class="movie-card adaptations-movie-poster-card"
+        [attr.title]="adaptationSourceTooltip(movie)"
+      >
+        <img
+          class="adaptations-movie-poster"
+          [src]="movie.coverUrl || '/movies_pictures/poster.jpg'"
+          [alt]="movie.title"
+          referrerpolicy="no-referrer"
+          loading="lazy"
+        />
+      </div>
+      }
+    </div>
+    } } @case ('game') { @if (moviesAdaptedFromGamesFlat().length === 0) {
+    <p class="adaptations-empty">Aucun film adapté d’un jeu pour le moment.</p>
+    } @else {
+    <p class="adaptations-films-from-source-count" role="status">
+      <strong>{{ moviesAdaptedFromGamesFlat().length }}</strong>
+      film{{ moviesAdaptedFromGamesFlat().length > 1 ? "s" : "" }} issu{{
+        moviesAdaptedFromGamesFlat().length > 1 ? "s" : ""
+      }}
+      d’un jeu vidéo
+    </p>
+    <div
+      class="movies adaptations-movies-strip adaptations-movies-strip--posters"
+    >
+      @for (movie of moviesAdaptedFromGamesFlat(); track movie.title + '|' +
+      movie.director) {
+      <div
+        class="movie-card adaptations-movie-poster-card"
+        [attr.title]="adaptationSourceTooltip(movie)"
+      >
+        <img
+          class="adaptations-movie-poster"
+          [src]="movie.coverUrl || '/movies_pictures/poster.jpg'"
+          [alt]="movie.title"
+          referrerpolicy="no-referrer"
+          loading="lazy"
+        />
+      </div>
+      }
+    </div>
+    } } @case ('serie') { @if (moviesAdaptedFromSeriesFlat().length === 0) {
+    <p class="adaptations-empty">
+      Aucun film issu d’une série TV pour le moment.
+    </p>
+    } @else {
+    <p class="adaptations-films-from-source-count" role="status">
+      <strong>{{ moviesAdaptedFromSeriesFlat().length }}</strong>
+      film{{ moviesAdaptedFromSeriesFlat().length > 1 ? "s" : "" }} issu{{
+        moviesAdaptedFromSeriesFlat().length > 1 ? "s" : ""
+      }}
+      d’une série TV
+    </p>
+    <div
+      class="movies adaptations-movies-strip adaptations-movies-strip--posters"
+    >
+      @for (movie of moviesAdaptedFromSeriesFlat(); track movie.title + '|' +
+      movie.director) {
+      <div
+        class="movie-card adaptations-movie-poster-card"
+        [attr.title]="adaptationSourceTooltip(movie)"
+      >
+        <img
+          class="adaptations-movie-poster"
+          [src]="movie.coverUrl || '/movies_pictures/poster.jpg'"
+          [alt]="movie.title"
+          referrerpolicy="no-referrer"
+          loading="lazy"
+        />
+      </div>
+      }
+    </div>
+    } } }
   </div>
   } @else if (selectedPrimary() === 'baseWorksGalaxy') {
   <app-adaptations-base-works-galaxy

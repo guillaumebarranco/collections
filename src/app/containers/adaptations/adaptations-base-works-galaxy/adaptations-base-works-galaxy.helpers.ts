@@ -279,8 +279,8 @@ export function buildAdaptationsBaseWorkPanelSearchHaystack(
 /** Libellés FR des types d’entité (orbite + adaptations). */
 const ADAPTATIONS_ORBIT_ENTITY_LABELS: Record<string, string> = {
   book: 'Livre',
-  bd: 'BD franco',
-  comic: 'Comic US',
+  bd: 'BD',
+  comic: 'Comics',
   manga: 'Manga',
   manwha: 'Manhwa',
   game: 'Jeu vidéo',
@@ -309,10 +309,14 @@ const FRANCHISE_SAGA_CANONICAL_DISPLAY: Record<string, string> = {
 };
 
 function canonicalFranchiseSagaKey(sagaKeyNormalized: string): string {
-  return FRANCHISE_SAGA_ALIAS_TO_CANONICAL[sagaKeyNormalized] ?? sagaKeyNormalized;
+  return (
+    FRANCHISE_SAGA_ALIAS_TO_CANONICAL[sagaKeyNormalized] ?? sagaKeyNormalized
+  );
 }
 
-function preferredFranchiseSagaDisplayName(canonicalKey: string): string | null {
+function preferredFranchiseSagaDisplayName(
+  canonicalKey: string
+): string | null {
   return FRANCHISE_SAGA_CANONICAL_DISPLAY[canonicalKey] ?? null;
 }
 
@@ -340,7 +344,9 @@ export function adaptationsOrbitEntityKindLabel(kind: string): string {
   return ADAPTATIONS_ORBIT_ENTITY_LABELS[kind] ?? kind;
 }
 
-function adaptationsOrbitTrimCoverUrl(url: string | undefined | null): string | null {
+function adaptationsOrbitTrimCoverUrl(
+  url: string | undefined | null
+): string | null {
   const t = url?.trim();
   return t ? t : null;
 }
@@ -421,7 +427,9 @@ const ADAPTATIONS_BASE_GRAPHIC_SERIAL_SAGA_WEIGHT = 0.5;
 /** Pivot manga : 0,5 pt par tome catalogue (= 0,5 × nbTomes par série). */
 const ADAPTATIONS_BASE_MANGA_TOME_SCORE_WEIGHT = 0.5;
 
-function adaptationsBaseMangaPrimaryScorePoints(nbTomes: number | undefined): number {
+function adaptationsBaseMangaPrimaryScorePoints(
+  nbTomes: number | undefined
+): number {
   const n = nbTomes ?? 1;
   return ADAPTATIONS_BASE_MANGA_TOME_SCORE_WEIGHT * Math.max(1, n);
 }
@@ -503,7 +511,9 @@ function adaptationsBaseWeightForKinds(
 /**
  * Texte d’infobulle pour le score affiché sur le titre de bloc (pondération 1 / 5).
  */
-export function adaptationsBaseWorksCrossMediaScoreTooltip(score: number): string {
+export function adaptationsBaseWorksCrossMediaScoreTooltip(
+  score: number
+): string {
   return `Score d'export transmédia : ${score} points (règles : pivot BD/comic → 0,5 pt par BD ou comic de la saga ; pivot manga → 0,5 pt × nbTomes par série ; sinon même type ×${ADAPTATIONS_BASE_WORK_SAME_MEDIUM_WEIGHT}, autre type ×${ADAPTATIONS_BASE_WORK_CROSS_MEDIUM_WEIGHT})`;
 }
 
@@ -1339,11 +1349,9 @@ function baseWorksBlockToOrbitPanel(
   );
   const centralGalaxy = pickCentralGalaxyForFranchiseSaga(galaxies);
   const effectiveCentralBook =
-    catalogVol1.book ??
-    (catalogVol1.bd ? null : centralGalaxy.book);
+    catalogVol1.book ?? (catalogVol1.bd ? null : centralGalaxy.book);
   const effectiveCentralBd =
-    catalogVol1.bd ??
-    (catalogVol1.book ? null : centralGalaxy.bd);
+    catalogVol1.bd ?? (catalogVol1.book ? null : centralGalaxy.bd);
   const centralMovie = centralGalaxy.movie;
   const centralSerie = centralGalaxy.serie;
   const centralManga = centralGalaxy.manga;
@@ -1353,7 +1361,9 @@ function baseWorksBlockToOrbitPanel(
   const centralKeyMovie = centralMovie ? movieEntityKey(centralMovie) : '';
   const centralKeySerie = centralSerie ? serieEntityKey(centralSerie) : '';
   const centralKeyManga = centralManga ? mangaEntityKey(centralManga) : '';
-  const centralKeyBd = effectiveCentralBd ? bdEntityKey(effectiveCentralBd) : '';
+  const centralKeyBd = effectiveCentralBd
+    ? bdEntityKey(effectiveCentralBd)
+    : '';
   const centralKeyComic = centralGalaxy.comic
     ? comicEntityKey(centralGalaxy.comic)
     : '';
@@ -1549,8 +1559,8 @@ function baseWorksBlockToOrbitPanel(
     catalogVol1.book
       ? { ...baseCentralSaga, book: catalogVol1.book, bd: null }
       : catalogVol1.bd
-        ? { ...baseCentralSaga, bd: catalogVol1.bd, book: null }
-        : baseCentralSaga;
+      ? { ...baseCentralSaga, bd: catalogVol1.bd, book: null }
+      : baseCentralSaga;
   const licBs = adaptationsBaseCentralLicenseYearMeta(centralBookSaga);
   return {
     orbitKey: `abwg-saga:${block.sagaKey}`,
@@ -1992,9 +2002,11 @@ export function buildAdaptationsBaseWorksBlocks(
   standaloneGalaxies.sort((a, b) =>
     a.uniqueKey.localeCompare(b.uniqueKey, 'fr')
   );
-  const standaloneBlocks: AdaptationsBaseWorksViewBlock[] = standaloneGalaxies.map(
-    (galaxy) => ({ blockKind: 'standalone' as const, galaxies: [galaxy] })
-  );
+  const standaloneBlocks: AdaptationsBaseWorksViewBlock[] =
+    standaloneGalaxies.map((galaxy) => ({
+      blockKind: 'standalone' as const,
+      galaxies: [galaxy],
+    }));
 
   const blockSortLabel = (block: AdaptationsBaseWorksViewBlock): string =>
     block.blockKind === 'bookSaga' || block.blockKind === 'gameSaga'

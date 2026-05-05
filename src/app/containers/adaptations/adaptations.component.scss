@@ -35,6 +35,26 @@
   letter-spacing: 0.04em;
 }
 
+.adaptations-header-adaptation-total {
+  margin: 0 0 0.75rem 0;
+  font-size: 0.95rem;
+  line-height: 1.45;
+  color: #2c3e50;
+
+  strong {
+    font-size: 1.1rem;
+    color: #1e3a8a;
+  }
+}
+
+.adaptations-header-adaptation-total-hint {
+  display: block;
+  margin-top: 0.25rem;
+  font-size: 0.8rem;
+  font-weight: 400;
+  color: var(--text-secondary, #64748b);
+}
+
 /* Second rang d’onglets : plus compact, retour à la ligne possible */
 :host ::ng-deep .adaptations-secondary-toggle.view-toggle-desktop {
   flex-wrap: wrap;
@@ -143,4 +163,52 @@
 .adaptations-movie-card,
 .adaptations-serie-card {
   min-width: 0;
+}
+
+/* —— Films par origine : compteur par type de source + grille jaquettes + tooltips —— */
+.adaptations-films-from-source-count {
+  margin: 0 0 1rem 0;
+  padding: 10px 14px;
+  font-size: 1rem;
+  color: #2c3e50;
+  background: #eef2ff;
+  border-radius: 10px;
+  border: 1px solid #dbeafe;
+
+  strong {
+    font-size: 1.15rem;
+    color: #1e3a8a;
+  }
+}
+
+.adaptations-by-source-page {
+  .adaptations-movies-strip {
+    @include containers.grid-base;
+  }
+
+  /* Grille plus serrée : uniquement des jaquettes, pas de carte « fiche » */
+  .adaptations-movies-strip--posters {
+    grid-template-columns: repeat(auto-fill, minmax(min(100%, 104px), 1fr));
+    gap: 14px;
+    padding: 12px 0;
+  }
+
+  .adaptations-movies-strip .movie-card {
+    @include containers.card-base;
+  }
+
+  .adaptations-movie-poster-card {
+    cursor: default;
+    padding: 0;
+    line-height: 0;
+    aspect-ratio: 2 / 3;
+  }
+
+  .adaptations-movie-poster {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    vertical-align: top;
+  }
 }
