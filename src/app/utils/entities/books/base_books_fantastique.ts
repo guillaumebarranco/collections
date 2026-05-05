@@ -395,4 +395,18 @@ export const baseBooksFantastique: BaseBook[] = [
     countryOrigin: 'Irlande',
     selectDisplayOrder: 0,
   },
+  {
+    title: 'Orgueil et Préjugés et Zombies',
+    author: 'Seth Grahame-Smith',
+    coverUrl: '/books_pictures/82b15f52a6b8.jpg',
+    pages: 320,
+    genre: ['Fantastique', 'Horreur'],
+    saga: '',
+    sagaOrder: 0,
+    sagaFinished: false,
+    releaseDate: '2009-01-01',
+    description: '',
+    countryOrigin: 'États-Unis',
+    selectDisplayOrder: 0,
+  },
 ];

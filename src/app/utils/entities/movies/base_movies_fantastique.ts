@@ -1536,7 +1536,11 @@ export const baseMoviesFantastique: BaseMovie[] = [
     genre: ['Fantastique'],
     saga: '',
     description: '',
-    fromEntity: null,
+    fromEntity: {
+      entityType: 'book',
+      title: "L'Histoire sans fin",
+      secondEntityKey: 'Michael Ende',
+    },
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 5,
   },

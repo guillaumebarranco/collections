@@ -105,7 +105,11 @@ export const baseMoviesScienceFiction: BaseMovie[] = [
     genre: ['Science Fiction', 'Thriller'],
     saga: '',
     description: '',
-    fromEntity: null,
+    fromEntity: {
+      entityType: 'book',
+      title: 'Les Androïdes rêvent-ils de moutons électriques ?',
+      secondEntityKey: 'Philip K. Dick',
+    },
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 20,
   },
@@ -141,9 +145,39 @@ export const baseMoviesScienceFiction: BaseMovie[] = [
     genre: ['Science Fiction'],
     saga: '',
     description: '',
-    fromEntity: null,
+    fromEntity: {
+      entityType: 'book',
+      title: 'Les Androïdes rêvent-ils de moutons électriques ?',
+      secondEntityKey: 'Philip K. Dick',
+    },
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+  },
+  {
+    title: 'La 5ème Vague',
+    director: 'J Blakeson',
+    actors: [
+      { name: 'Chloë Grace Moretz' },
+      { name: 'Nick Robinson' },
+      { name: 'Alex Roe' },
+      { name: 'Maika Monroe' },
+      { name: 'Liev Schreiber' },
+      { name: 'Maria Bello' },
+      { name: 'Ron Livingston' },
+    ],
+    coverUrl: '/movies_pictures/la_5eme_vague.jpg',
+    releaseDate: '2016-01-22',
+    length: 112,
+    genre: ['Science Fiction'],
+    saga: '',
+    description: '',
+    fromEntity: {
+      entityType: 'book',
+      title: 'La 5ème Vague',
+      secondEntityKey: 'Rick Yancey',
+    },
+    countryOrigin: ['États-Unis'],
+    selectDisplayOrder: 10,
   },
 
   {
@@ -867,7 +901,11 @@ export const baseMoviesScienceFiction: BaseMovie[] = [
     genre: ['Science Fiction'],
     saga: '',
     description: '',
-    fromEntity: null,
+    fromEntity: {
+      entityType: 'book',
+      title: 'Jumper',
+      secondEntityKey: 'Steven Gould',
+    },
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
   },
@@ -903,9 +941,49 @@ export const baseMoviesScienceFiction: BaseMovie[] = [
     genre: ['Science Fiction'],
     saga: '',
     description: '',
-    fromEntity: null,
+    fromEntity: {
+      entityType: 'book',
+      title: 'Je suis une légende',
+      secondEntityKey: 'Richard Matheson',
+    },
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 30,
+  },
+  {
+    title: 'Push',
+    director: 'Paul McGuigan',
+    actors: [
+      {
+        name: 'Chris Evans',
+      },
+      {
+        name: 'Dakota Fanning',
+      },
+      {
+        name: 'Camilla Belle',
+      },
+      {
+        name: 'Djimon Hounsou',
+      },
+      {
+        name: 'Cliff Curtis',
+      },
+      {
+        name: 'Ming-Na Wen',
+      },
+      {
+        name: 'Nate Mooney',
+      },
+    ],
+    coverUrl: '/movies_pictures/19172439e197.jpg',
+    releaseDate: '2009-02-06',
+    length: 111,
+    genre: ['Science Fiction'],
+    saga: '',
+    description: '',
+    fromEntity: null,
+    countryOrigin: ['États-Unis'],
+    selectDisplayOrder: 0,
   },
   {
     title: 'Super 8',
@@ -2877,7 +2955,11 @@ export const baseMoviesScienceFiction: BaseMovie[] = [
     genre: ['Science Fiction', 'Drame'],
     saga: '',
     description: '',
-    fromEntity: null,
+    fromEntity: {
+      entityType: 'book',
+      title: "L'Orange mécanique",
+      secondEntityKey: 'Anthony Burgess',
+    },
     countryOrigin: ['Royaume-Uni'],
     selectDisplayOrder: 30,
   },
@@ -3265,7 +3347,7 @@ export const baseMoviesScienceFiction: BaseMovie[] = [
     selectDisplayOrder: 5,
   },
   {
-    title: 'Les Fils de l\'homme',
+    title: "Les Fils de l'homme",
     director: 'Alfonso Cuarón',
     actors: [
       {

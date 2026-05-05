@@ -6583,8 +6583,8 @@ export const baseMoviesAction: BaseMovie[] = [
     description: '',
     fromEntity: {
       entityType: 'book',
-      title: 'Orgueil et Préjugés',
-      secondEntityKey: 'Jane Austen',
+      title: 'Orgueil et Préjugés et Zombies',
+      secondEntityKey: 'Seth Grahame-Smith',
     },
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,

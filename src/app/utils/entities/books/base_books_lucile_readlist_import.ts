@@ -861,8 +861,8 @@ export const baseBooksLucileReadlistImport: BaseBook[] = [
   {
     title: 'Ici et seulement Ici',
     author: 'Christelle Dabos',
-    coverUrl: '',
-    pages: 10,
+    coverUrl: '/books_pictures/b54c64bc4a4e.jpg',
+    pages: 256,
     genre: ['Fiction'],
     saga: '',
     sagaOrder: 0,

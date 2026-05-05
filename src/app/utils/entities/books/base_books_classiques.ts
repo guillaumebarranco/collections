@@ -16,6 +16,21 @@ export const baseBooksClassiques: BaseBook[] = [
     selectDisplayOrder: 30,
   },
   {
+    title: 'La Liste de Schindler',
+    author: 'Thomas Keneally',
+    coverUrl:
+      '/books_pictures/0b8e0317ffdd.jpg',
+    pages: 432,
+    genre: ['Classiques', 'Fiction historique'],
+    saga: '',
+    sagaOrder: 0,
+    sagaFinished: false,
+    releaseDate: '1982-01-01',
+    description: '',
+    countryOrigin: 'Australie',
+    selectDisplayOrder: 30,
+  },
+  {
     title: 'Les Hauts de Hurlevent',
     author: 'Emily Brontë',
     coverUrl: '/books_pictures/les_hauts_de_hurlevent.jpg',

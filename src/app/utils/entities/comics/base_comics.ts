@@ -1113,7 +1113,7 @@ export const baseComics: BaseComic[] = [
     writer: 'Jeph Loeb',
     designer: 'Jim Lee',
     coverUrl:
-      'https://cdn1.booknode.com/book_cover/4427/full/batman-silence-4427063.jpg',
+      '/comics_pictures/7c18d65698d2.jpg',
     releaseDate: '2004-09-01',
     pages: 320,
     genre: 'Super-héros',

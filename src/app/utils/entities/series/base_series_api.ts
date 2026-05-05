@@ -15,7 +15,7 @@ export const baseSeriesApi: BaseSerie[] = [
         name: "Gideon Adlon",
       },
     ],
-    coverUrl: "https://fr.web.img4.acsta.net/img/76/5c/765c935c8581945ad9f800489df875f6.jpg",
+    coverUrl: "/series_pictures/6f8b1f6cec88.jpg",
     releaseDate: "2026-04-06",
     endDate: "",
     genre: ['Science Fiction', 'Aventure'],

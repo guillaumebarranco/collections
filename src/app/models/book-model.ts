@@ -24,6 +24,7 @@ export type BookGenre =
   | 'Fiction historique'
   | 'Poésie'
   | 'Conte'
+  | 'Biographie'
   | 'Littérature';
 
 /** Liste ordonnée des genres (alignée sur {@link BookGenre}) pour les formulaires. */
@@ -46,6 +47,7 @@ export const BOOK_GENRE_OPTIONS: readonly BookGenre[] = [
   'Fiction historique',
   'Poésie',
   'Conte',
+  'Biographie',
   'Littérature',
 ];
 

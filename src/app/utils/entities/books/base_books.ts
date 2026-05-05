@@ -1955,7 +1955,7 @@ export const baseBooks: BaseBook[] = [
   {
     title: 'Le Bro Code',
     author: 'Barney Stinson',
-    coverUrl: '',
+    coverUrl: '/books_pictures/e842cb0268e1.jpg',
     pages: 208,
     genre: ['Fiction'],
     saga: '',
@@ -1969,8 +1969,7 @@ export const baseBooks: BaseBook[] = [
   {
     title: 'Le jeu de la dame',
     author: 'Walter Tevis',
-    coverUrl:
-      '/books_pictures/5ea29327b2cb.jpg',
+    coverUrl: '/books_pictures/5ea29327b2cb.jpg',
     pages: 250,
     genre: ['Fiction'],
     saga: '',

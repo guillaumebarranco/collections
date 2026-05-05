@@ -658,8 +658,7 @@ export const baseMoviesSagaAction: BaseMovie[] = [
         name: 'Jenette Goldstein',
       },
     ],
-    coverUrl:
-      '/movies_pictures/77c8e19867f6.jpg',
+    coverUrl: '/movies_pictures/77c8e19867f6.jpg',
     releaseDate: '1989-07-07',
     length: 114,
     genre: ['Action', 'Policier'],
@@ -2975,8 +2974,7 @@ export const baseMoviesSagaAction: BaseMovie[] = [
         name: 'Roy Chiao',
       },
     ],
-    coverUrl:
-      'https://affiches-francaises.com/cdn/shop/files/FullSizeRender.heic?v=1741690528',
+    coverUrl: '/movies_pictures/FullSizeRender.jpg',
     releaseDate: '1984-05-23',
     length: 118,
     genre: ['Aventure', 'Action'],
