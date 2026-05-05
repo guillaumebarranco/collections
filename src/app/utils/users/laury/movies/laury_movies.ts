@@ -16445,7 +16445,7 @@ export const lauryMovies: UserMovie[] = [
 
   {
     title: 'Stalingrad',
-    director: 'Fedor Bondarchuk',
+    director: 'Jean-Jacques Annaud',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -16785,7 +16785,7 @@ export const lauryMovies: UserMovie[] = [
 
   {
     title: 'Le Négociateur',
-    director: 'James Foley',
+    director: 'F. Gary Gray',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -16852,7 +16852,7 @@ export const lauryMovies: UserMovie[] = [
   },
 
   {
-    title: 'Far and Away',
+    title: 'Horizons lointains',
     director: 'Ron Howard',
     rating: 0,
     timesWatched: 1,
@@ -16972,7 +16972,7 @@ export const lauryMovies: UserMovie[] = [
 
   {
     title: 'Peur bleue',
-    director: 'Kathryn Bigelow',
+    director: 'Renny Harlin',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -17107,7 +17107,7 @@ export const lauryMovies: UserMovie[] = [
   },
 
   {
-    title: 'The Rock',
+    title: 'Rock',
     director: 'Michael Bay',
     rating: 0,
     timesWatched: 1,

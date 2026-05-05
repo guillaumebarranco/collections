@@ -8321,7 +8321,7 @@ export const baseMoviesAction: BaseMovie[] = [
       },
     ],
     coverUrl:
-      'https://m.media-amazon.com/images/S/pv-target-images/13fb003798cf333264e1d6b10379a7015462debccd14b9e93a7aca3b0d7ac2c1.jpg',
+      '/movies_pictures/2a06290ad720.jpg',
     releaseDate: '2003-09-17',
     length: 111,
     genre: ['Action'],
