@@ -7425,7 +7425,7 @@ export const baseMoviesAction: BaseMovie[] = [
     description: '',
     fromEntity: {
       entityType: 'game',
-      title: 'Uncharted : Drake\'s Fortune',
+      title: "Uncharted : Drake's Fortune",
       secondEntityKey: 'Naughty Dog',
     },
     countryOrigin: ['États-Unis'],
@@ -7628,7 +7628,7 @@ export const baseMoviesAction: BaseMovie[] = [
     director: 'Michael Cuesta',
     actors: [
       {
-        name: 'Dylan O\'Brien',
+        name: "Dylan O'Brien",
       },
       {
         name: 'Michael Keaton',
@@ -7648,7 +7648,7 @@ export const baseMoviesAction: BaseMovie[] = [
     selectDisplayOrder: 5,
   },
   {
-    title: 'Le Roi Arthur : La Légende d\'Excalibur',
+    title: "Le Roi Arthur : La Légende d'Excalibur",
     director: 'Guy Ritchie',
     actors: [
       {
@@ -7696,7 +7696,7 @@ export const baseMoviesAction: BaseMovie[] = [
     selectDisplayOrder: 5,
   },
   {
-    title: 'Assassin\'s Creed',
+    title: "Assassin's Creed",
     director: 'Justin Kurzel',
     actors: [
       {
@@ -7717,7 +7717,7 @@ export const baseMoviesAction: BaseMovie[] = [
     description: '',
     fromEntity: {
       entityType: 'game',
-      title: 'Assassin\'s Creed',
+      title: "Assassin's Creed",
       secondEntityKey: 'Ubisoft',
     },
     countryOrigin: ['États-Unis'],
@@ -7768,7 +7768,8 @@ export const baseMoviesAction: BaseMovie[] = [
         name: 'Laura Linney',
       },
     ],
-    coverUrl: '/movies_pictures/teenage_mutant_ninja_turtles_out_of_the_shadows.jpg',
+    coverUrl:
+      '/movies_pictures/teenage_mutant_ninja_turtles_out_of_the_shadows.jpg',
     releaseDate: '2016-06-29',
     length: 112,
     genre: ['Action'],
@@ -7855,7 +7856,7 @@ export const baseMoviesAction: BaseMovie[] = [
     selectDisplayOrder: 5,
   },
   {
-    title: '300 : La Naissance d\'un Empire',
+    title: "300 : La Naissance d'un Empire",
     director: 'Noam Murro',
     actors: [
       {
@@ -8026,7 +8027,7 @@ export const baseMoviesAction: BaseMovie[] = [
     selectDisplayOrder: 5,
   },
   {
-    title: 'L\'Agence tous risques',
+    title: "L'Agence tous risques",
     director: 'Joe Carnahan',
     actors: [
       {
@@ -8050,7 +8051,7 @@ export const baseMoviesAction: BaseMovie[] = [
     selectDisplayOrder: 5,
   },
   {
-    title: 'Le Livre d\'Eli',
+    title: "Le Livre d'Eli",
     director: 'Albert Hughes, Allen Hughes',
     actors: [
       {
@@ -8246,7 +8247,7 @@ export const baseMoviesAction: BaseMovie[] = [
     selectDisplayOrder: 5,
   },
   {
-    title: 'Les Ailes de l\'enfer',
+    title: "Les Ailes de l'enfer",
     director: 'Simon West',
     actors: [
       {
@@ -8292,5 +8293,42 @@ export const baseMoviesAction: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 30,
+  },
+  {
+    title: "Braquage à l'italienne",
+    director: 'F. Gary Gray',
+    actors: [
+      {
+        name: 'Mark Wahlberg',
+      },
+      {
+        name: 'Charlize Theron',
+      },
+      {
+        name: 'Edward Norton',
+      },
+      {
+        name: 'Jason Statham',
+      },
+      {
+        name: 'Seth Green',
+      },
+      {
+        name: 'Donald Sutherland',
+      },
+      {
+        name: 'Mos Def',
+      },
+    ],
+    coverUrl:
+      'https://m.media-amazon.com/images/S/pv-target-images/13fb003798cf333264e1d6b10379a7015462debccd14b9e93a7aca3b0d7ac2c1.jpg',
+    releaseDate: '2003-09-17',
+    length: 111,
+    genre: ['Action'],
+    saga: '',
+    description: '',
+    fromEntity: null,
+    countryOrigin: ['États-Unis'],
+    selectDisplayOrder: 0,
   },
 ];

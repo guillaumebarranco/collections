@@ -93,6 +93,7 @@ import { unhoMovies } from '../../utils/users/unho/movies/unho_movies';
 import { unhoWatchListMovies } from '../../utils/users/unho/movies/unho_watchlist_movies';
 import { marinaMovies } from '../../utils/users/marina/movies/marina_movies';
 import { lucileMovies } from '../../utils/users/lucile/movies/lucile_movies';
+import { lauryMovies } from '../../utils/users/laury/movies/laury_movies';
 
 export function getLocalMoviesByUser(userId: string): UserMovie[] {
   switch (userId) {
@@ -131,6 +132,8 @@ export function getLocalMoviesByUser(userId: string): UserMovie[] {
       return [...marinaMovies];
     case 'lucile':
       return [...lucileMovies];
+    case 'laury':
+      return [...lauryMovies];
     default:
       return [];
   }
