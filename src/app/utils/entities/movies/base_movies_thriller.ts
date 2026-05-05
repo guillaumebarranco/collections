@@ -419,7 +419,8 @@ export const baseMoviesThriller: BaseMovie[] = [
       { name: 'Corinna Harfouch' },
       { name: 'Birgit Minichmayr' },
     ],
-    coverUrl: '/movies_pictures/le_parfum.jpg',
+    coverUrl:
+      '/movies_pictures/f29053f5bb6b.jpg',
     releaseDate: '2006-09-13',
     length: 147,
     genre: ['Thriller'],
@@ -7617,7 +7618,7 @@ export const baseMoviesThriller: BaseMovie[] = [
         name: 'Arliss Howard',
       },
       {
-        name: 'Kerry O\'Malley',
+        name: "Kerry O'Malley",
       },
     ],
     coverUrl: '/movies_pictures/the_killer.jpg',
@@ -7679,7 +7680,7 @@ export const baseMoviesThriller: BaseMovie[] = [
     selectDisplayOrder: 5,
   },
   {
-    title: 'Sale temps à l\'hôtel El Royale',
+    title: "Sale temps à l'hôtel El Royale",
     director: 'Drew Goddard',
     actors: [
       {
@@ -7737,7 +7738,7 @@ export const baseMoviesThriller: BaseMovie[] = [
         name: 'Julia Roberts',
       },
       {
-        name: 'Jack O\'Connell',
+        name: "Jack O'Connell",
       },
     ],
     coverUrl: '/movies_pictures/money_monster.jpg',
@@ -7901,7 +7902,7 @@ export const baseMoviesThriller: BaseMovie[] = [
     selectDisplayOrder: 5,
   },
   {
-    title: 'Inside Man : L\'Homme de l\'intérieur',
+    title: "Inside Man : L'Homme de l'intérieur",
     director: 'Spike Lee',
     actors: [
       {
@@ -8084,7 +8085,8 @@ export const baseMoviesThriller: BaseMovie[] = [
       { name: 'Marika Lagercrantz' },
       { name: 'Ingvar Hirdwall' },
     ],
-    coverUrl: '/movies_pictures/millenium_tome_1_les_hommes_qui_naimaient_pas_les_femmes.jpg',
+    coverUrl:
+      '/movies_pictures/millenium_tome_1_les_hommes_qui_naimaient_pas_les_femmes.jpg',
     releaseDate: '2009-02-27',
     length: 152,
     genre: ['Thriller'],

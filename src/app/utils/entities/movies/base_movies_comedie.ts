@@ -57,7 +57,8 @@ export const baseMoviesComedie: BaseMovie[] = [
       { name: 'Pierre Tchernia' },
       { name: 'Jean Richard' },
     ],
-    coverUrl: '/movies_pictures/la_guerre_des_boutons.jpg',
+    coverUrl:
+      '/movies_pictures/190183592105.jpeg',
     releaseDate: '1962-04-18',
     length: 90,
     genre: ['Comédie', 'Drame'],
@@ -169,22 +170,36 @@ export const baseMoviesComedie: BaseMovie[] = [
     selectDisplayOrder: 30,
   },
   {
-    title: "Le diable s'habille en Prada",
+    title: "Le Diable s'Habille en Prada",
     director: 'David Frankel',
     actors: [
-      { name: 'Meryl Streep' },
-      { name: 'Anne Hathaway' },
-      { name: 'Emily Blunt' },
-      { name: 'Stanley Tucci' },
-      { name: 'Simon Baker' },
-      { name: 'Adrian Grenier' },
-      { name: 'Tracie Thoms' },
+      {
+        name: 'Meryl Streep',
+      },
+      {
+        name: 'Anne Hathaway',
+      },
+      {
+        name: 'Emily Blunt',
+      },
+      {
+        name: 'Stanley Tucci',
+      },
+      {
+        name: 'Simon Baker',
+      },
+      {
+        name: 'Adrian Grenier',
+      },
+      {
+        name: 'Tracie Thoms',
+      },
     ],
-    coverUrl: '/movies_pictures/le_diable_s_habille_en_prada.jpg',
+    coverUrl: '/movies_pictures/4a702017d522.jpg',
     releaseDate: '2006-06-30',
     length: 109,
-    genre: ['Comédie', 'Drame'],
-    saga: "Le diable s'habille en Prada",
+    genre: ['Comédie'],
+    saga: '',
     description: '',
     fromEntity: {
       entityType: 'book',
@@ -192,10 +207,10 @@ export const baseMoviesComedie: BaseMovie[] = [
       secondEntityKey: 'Lauren Weisberger',
     },
     countryOrigin: ['États-Unis'],
-    selectDisplayOrder: 20,
+    selectDisplayOrder: 30,
   },
   {
-    title: "Le diable s'habille en Prada 2",
+    title: "Le Diable s'habille en Prada 2",
     director: 'David Frankel',
     actors: [
       { name: 'Meryl Streep' },
@@ -206,7 +221,8 @@ export const baseMoviesComedie: BaseMovie[] = [
       { name: 'Adrian Grenier' },
       { name: 'Tracie Thoms' },
     ],
-    coverUrl: '/movies_pictures/le_diable_s_habille_en_prada_2.jpg',
+    coverUrl:
+      '/movies_pictures/b0b81d0df348.jpg',
     releaseDate: '2026-01-01',
     length: 110,
     genre: ['Comédie', 'Drame'],
@@ -1232,7 +1248,7 @@ export const baseMoviesComedie: BaseMovie[] = [
         name: 'Roger Bowen',
       },
     ],
-    coverUrl: '/movies_pictures/mash.jpg',
+    coverUrl: '/movies_pictures/9e221359f0a9.jpg',
     releaseDate: '1970-03-25',
     length: 116,
     genre: ['Comédie', 'Guerre'],
@@ -2794,42 +2810,7 @@ export const baseMoviesComedie: BaseMovie[] = [
     countryOrigin: ['France'],
     selectDisplayOrder: 30,
   },
-  {
-    title: "Le Diable s'Habille en Prada",
-    director: 'David Frankel',
-    actors: [
-      {
-        name: 'Meryl Streep',
-      },
-      {
-        name: 'Anne Hathaway',
-      },
-      {
-        name: 'Emily Blunt',
-      },
-      {
-        name: 'Stanley Tucci',
-      },
-      {
-        name: 'Simon Baker',
-      },
-      {
-        name: 'Adrian Grenier',
-      },
-      {
-        name: 'Tracie Thoms',
-      },
-    ],
-    coverUrl: '/movies_pictures/4a702017d522.jpg',
-    releaseDate: '2006-06-30',
-    length: 109,
-    genre: ['Comédie'],
-    saga: '',
-    description: '',
-    fromEntity: null,
-    countryOrigin: ['États-Unis'],
-    selectDisplayOrder: 30,
-  },
+
   {
     title: "De l'autre côté du lit",
     director: 'Peyton Reed',
@@ -5520,7 +5501,8 @@ export const baseMoviesComedie: BaseMovie[] = [
         name: 'Katie Morgan',
       },
     ],
-    coverUrl: '/movies_pictures/zack_et_miri_font_un_porno.jpg',
+    coverUrl:
+      '/movies_pictures/8a5615d6a1c3.jpg',
     releaseDate: '2008-10-31',
     length: 101,
     genre: ['Comédie', 'Romance'],

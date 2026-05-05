@@ -129,7 +129,8 @@ export const baseMoviesHorreur: BaseMovie[] = [
       { name: 'Betty Buckley' },
       { name: 'William Katt' },
     ],
-    coverUrl: '/movies_pictures/carrie_au_bal_du_diable.jpg',
+    coverUrl:
+      '/movies_pictures/71dad822da2e.jpg',
     releaseDate: '1976-11-03',
     length: 98,
     genre: ['Horreur'],
@@ -2653,8 +2654,7 @@ export const baseMoviesHorreur: BaseMovie[] = [
         name: 'Becky Wahlstrom',
       },
     ],
-    coverUrl:
-      '/movies_pictures/6cc2a12d0040.jpg',
+    coverUrl: '/movies_pictures/6cc2a12d0040.jpg',
     releaseDate: '2019-05-29',
     length: 91,
     genre: ['Horreur', 'Science Fiction'],
