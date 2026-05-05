@@ -129,6 +129,23 @@ export function getLastFullyWatchedSeasonNumber(serie: Serie): number {
 }
 
 /**
+ * Horodatage (ms) le plus récent parmi les `lastViewedDate` des saisons.
+ * 0 si aucune date valide (tri : séries sans historique en fin de liste).
+ */
+export function getSerieLatestSeasonLastViewedTime(serie: Serie): number {
+  let max = 0;
+  for (const s of serie.seasons ?? []) {
+    const raw = s.lastViewedDate?.trim();
+    if (!raw) continue;
+    const t = new Date(raw).getTime();
+    if (!Number.isNaN(t) && t > max) {
+      max = t;
+    }
+  }
+  return max;
+}
+
+/**
  * Saison N+1 à passer à 0.5 : N = dernière saison complètement vue, la suivante existe en base et est encore à 0.
  */
 export function getNextSeasonNumberForNewSeasonStarted(

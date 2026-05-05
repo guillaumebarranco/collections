@@ -24,3 +24,4 @@ export * from './base_movies_thriller';
 export * from './base_movies_aventure';
 export * from './base_movies_documentaire';
 export * from './base_movies_comedie_musicale';
+export * from './base_movies_laury_import_batch';

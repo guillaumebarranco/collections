@@ -1,6 +1,7 @@
 import { Serie } from '../../../models/serie-model';
 import {
   getSerieAverageRating,
+  getSerieLatestSeasonLastViewedTime,
   getSerieSeasonsCount,
   getSerieTotalEpisodes,
   getSerieTotalLengthMinutes,
@@ -29,6 +30,8 @@ export const seriesSortOptions: { value: string; label: string }[] = [
   { value: 'title-desc', label: 'Titre (Z-A)' },
   { value: 'releaseDate', label: 'Date de sortie (récent)' },
   { value: 'releaseDate-asc', label: 'Date de sortie (ancien)' },
+  { value: 'seasonLastViewed', label: 'Date de visionnage (récent)' },
+  { value: 'seasonLastViewed-asc', label: 'Date de visionnage (ancien)' },
   { value: 'rating', label: 'Note (élevée)' },
   { value: 'rating-asc', label: 'Note (faible)' },
   { value: 'timesWatched', label: 'Visionnages (élevé)' },
@@ -347,6 +350,30 @@ export const getSortedSeries = (
         (a, b) =>
           new Date(a.releaseDate).getTime() - new Date(b.releaseDate).getTime()
       );
+    case 'seasonLastViewed':
+      return series.sort((a, b) => {
+        const ta = getSerieLatestSeasonLastViewedTime(a);
+        const tb = getSerieLatestSeasonLastViewedTime(b);
+        if (ta === 0 && tb === 0) {
+          return a.title.localeCompare(b.title);
+        }
+        if (ta === 0) return 1;
+        if (tb === 0) return -1;
+        if (tb !== ta) return tb - ta;
+        return a.title.localeCompare(b.title);
+      });
+    case 'seasonLastViewed-asc':
+      return series.sort((a, b) => {
+        const ta = getSerieLatestSeasonLastViewedTime(a);
+        const tb = getSerieLatestSeasonLastViewedTime(b);
+        if (ta === 0 && tb === 0) {
+          return a.title.localeCompare(b.title);
+        }
+        if (ta === 0) return 1;
+        if (tb === 0) return -1;
+        if (ta !== tb) return ta - tb;
+        return a.title.localeCompare(b.title);
+      });
     case 'rating':
       return series.sort((a, b) => {
         const ratingA = getSerieAverageRating(a);

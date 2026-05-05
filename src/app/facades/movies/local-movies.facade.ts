@@ -25,6 +25,7 @@ import {
   baseMoviesSagaFantastique,
   baseMoviesSagaHorreur,
   baseMoviesSagaScienceFiction,
+  baseMoviesLauryImportBatch,
 } from '../../utils/entities/movies';
 
 import {
@@ -85,6 +86,7 @@ export const allBaseMovies: BaseMovie[] = [
   ...baseMoviesAventure,
   ...baseMoviesDocumentaire,
   ...baseMoviesComedieMusicale,
+  ...baseMoviesLauryImportBatch,
 ];
 import { emmanuelleMovies } from '../../utils/users/emmanuelle/movies/emmanuelle_movies';
 import { dantesMovies } from '../../utils/users/dantes/movies/dantes_movies';
@@ -94,6 +96,7 @@ import { unhoWatchListMovies } from '../../utils/users/unho/movies/unho_watchlis
 import { marinaMovies } from '../../utils/users/marina/movies/marina_movies';
 import { lucileMovies } from '../../utils/users/lucile/movies/lucile_movies';
 import { lauryMovies } from '../../utils/users/laury/movies/laury_movies';
+import { cassandreMovies } from '../../utils/users/cassandre/movies/cassandre_movies';
 
 export function getLocalMoviesByUser(userId: string): UserMovie[] {
   switch (userId) {
@@ -134,6 +137,8 @@ export function getLocalMoviesByUser(userId: string): UserMovie[] {
       return [...lucileMovies];
     case 'laury':
       return [...lauryMovies];
+    case 'cassandre':
+      return [...cassandreMovies];
     default:
       return [];
   }
