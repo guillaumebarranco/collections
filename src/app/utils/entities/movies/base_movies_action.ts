@@ -4919,31 +4919,16 @@ export const baseMoviesAction: BaseMovie[] = [
   },
   {
     title: 'Poursuite',
-    director: 'Roger Spottiswoode',
+    director: 'Andrew Davis',
     actors: [
-      {
-        name: 'Marina Déak',
-      },
-      {
-        name: 'Yann Guillemot',
-      },
-      {
-        name: 'Renaud Dehesdin',
-      },
-      {
-        name: 'Paul Cahen',
-      },
-      {
-        name: 'Aurélien Recoing',
-      },
-      {
-        name: 'Agnès Château',
-      },
-      {
-        name: 'Delphine Chuillot',
-      },
+      { name: 'Keanu Reeves' },
+      { name: 'Eddie Kasalivich' },
+      { name: 'Morgan Freeman' },
+      { name: 'Rachel Weisz' },
+      { name: 'Fred Ward' },
     ],
-    coverUrl: '/movies_pictures/poursuite.webp',
+    coverUrl:
+      '/movies_pictures/9bf7113a5185.jpg',
     releaseDate: '1994-10-28',
     length: 116,
     genre: ['Action'],
