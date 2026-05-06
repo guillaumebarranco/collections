@@ -5392,7 +5392,7 @@ export const baseMoviesAction: BaseMovie[] = [
   },
   {
     title: 'La Chute de la Maison-Blanche',
-    director: 'Roland Emmerich',
+    director: 'Antoine Fuqua',
     actors: [
       {
         name: 'Gerard Butler',
@@ -8320,8 +8320,7 @@ export const baseMoviesAction: BaseMovie[] = [
         name: 'Mos Def',
       },
     ],
-    coverUrl:
-      '/movies_pictures/2a06290ad720.jpg',
+    coverUrl: '/movies_pictures/2a06290ad720.jpg',
     releaseDate: '2003-09-17',
     length: 111,
     genre: ['Action'],

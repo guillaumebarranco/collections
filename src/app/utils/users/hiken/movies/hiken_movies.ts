@@ -1805,7 +1805,7 @@ export const hikenMovies: UserMovie[] = [
 
   {
     title: 'La Chute de la Maison-Blanche',
-    director: 'Roland Emmerich',
+    director: 'Antoine Fuqua',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',

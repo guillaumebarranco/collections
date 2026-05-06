@@ -14303,7 +14303,7 @@ export const lauryMovies: UserMovie[] = [
 
   {
     title: 'La Chute de la Maison-Blanche',
-    director: 'Roland Emmerich',
+    director: 'Antoine Fuqua',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -17141,8 +17141,8 @@ export const lauryMovies: UserMovie[] = [
   },
 
   {
-    title: "16 Blocs",
-    director: "Richard Donner",
+    title: '16 Blocs',
+    director: 'Richard Donner',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -17158,8 +17158,8 @@ export const lauryMovies: UserMovie[] = [
   },
 
   {
-    title: "Piège à grande vitesse",
-    director: "Geoff Murphy",
+    title: 'Piège à grande vitesse',
+    director: 'Geoff Murphy',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -17175,8 +17175,8 @@ export const lauryMovies: UserMovie[] = [
   },
 
   {
-    title: "Sans un bruit",
-    director: "John Krasinski",
+    title: 'Sans un bruit',
+    director: 'John Krasinski',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -17192,8 +17192,8 @@ export const lauryMovies: UserMovie[] = [
   },
 
   {
-    title: "Knock Knock",
-    director: "Eli Roth",
+    title: 'Knock Knock',
+    director: 'Eli Roth',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -17209,8 +17209,8 @@ export const lauryMovies: UserMovie[] = [
   },
 
   {
-    title: "Danny the Dog",
-    director: "Louis Leterrier",
+    title: 'Danny the Dog',
+    director: 'Louis Leterrier',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -17226,8 +17226,8 @@ export const lauryMovies: UserMovie[] = [
   },
 
   {
-    title: "American Gangster",
-    director: "Ridley Scott",
+    title: 'American Gangster',
+    director: 'Ridley Scott',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -17243,8 +17243,8 @@ export const lauryMovies: UserMovie[] = [
   },
 
   {
-    title: "Sans identité",
-    director: "Jaume Collet-Serra",
+    title: 'Sans identité',
+    director: 'Jaume Collet-Serra',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -17260,8 +17260,8 @@ export const lauryMovies: UserMovie[] = [
   },
 
   {
-    title: "Le Labyrinthe de Pan",
-    director: "Guillermo del Toro",
+    title: 'Le Labyrinthe de Pan',
+    director: 'Guillermo del Toro',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -17277,8 +17277,8 @@ export const lauryMovies: UserMovie[] = [
   },
 
   {
-    title: "La Stratégie Ender",
-    director: "Gavin Hood",
+    title: 'La Stratégie Ender',
+    director: 'Gavin Hood',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -17294,8 +17294,8 @@ export const lauryMovies: UserMovie[] = [
   },
 
   {
-    title: "Carrie au bal du diable",
-    director: "Brian De Palma",
+    title: 'Carrie au bal du diable',
+    director: 'Brian De Palma',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -17311,8 +17311,8 @@ export const lauryMovies: UserMovie[] = [
   },
 
   {
-    title: "Piège en eaux troubles",
-    director: "Harold Becker",
+    title: 'Piège en eaux troubles',
+    director: 'Harold Becker',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -17326,7 +17326,6 @@ export const lauryMovies: UserMovie[] = [
     borrowed: '',
     loaned: '',
   },
-
 
   {
     title: '13 jours, 13 nuits',
