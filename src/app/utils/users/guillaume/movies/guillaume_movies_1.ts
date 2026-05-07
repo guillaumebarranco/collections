@@ -3116,4 +3116,21 @@ export const guillaumeMoviesPage1: UserMovies = [
     borrowed: "",
     loaned: "",
   },
+
+  {
+    title: "Phénomènes",
+    director: "M. Night Shyamalan",
+    rating: 3.25,
+    timesWatched: 1,
+    firstViewedDate: "",
+    lastViewedDate: "",
+    seenAtCinema: false,
+    owned: false,
+    wantToSeeAgain: false,
+    watchPriority: 1,
+    ratingComment: "",
+    inList: [],
+    borrowed: "",
+    loaned: "",
+  },
 ];

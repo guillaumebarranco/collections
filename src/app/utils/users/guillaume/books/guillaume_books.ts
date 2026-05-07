@@ -1382,4 +1382,19 @@ export const guillaumeBooks: UserBooks = [
     wantToReadAgain: false,
     ratingComment: "",
   },
+
+  {
+    title: "Le Gaslighting ou l'art de faire taire les femmes",
+    author: "Hélène Frappat",
+    firstReadDate: "2026-05-07",
+    lastReadDate: "2026-05-07",
+    rating: 3.75,
+    readTimes: 1,
+    owned: false,
+    borrowed: "",
+    loaned: "",
+    readPriority: 3,
+    wantToReadAgain: false,
+    ratingComment: "",
+  },
 ];

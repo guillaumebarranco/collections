@@ -3848,33 +3848,36 @@ export const baseMoviesComedie: BaseMovie[] = [
     director: 'Michaël Youn',
     actors: [
       {
-        name: 'Armelle',
+        name: "Michaël Youn",
       },
       {
-        name: 'Ary Abittan',
+        name: "Armelle",
       },
       {
-        name: 'Bianca Gervais',
+        name: "Ary Abittan",
       },
       {
-        name: 'Catherine Allégret',
+        name: "Bianca Gervais",
       },
       {
-        name: 'Fabrice Éboué',
+        name: "Catherine Allégret",
       },
       {
-        name: 'Jean Benguigui',
+        name: "Fabrice Éboué",
       },
       {
-        name: 'Jérôme Le Banner',
+        name: "Jean Benguigui",
       },
+      {
+        name: "Jérôme Le Banner",
+      }
     ],
-    coverUrl: '/movies_pictures/3111ebebad71.jpg',
-    releaseDate: '2010-06-30',
+    coverUrl: "/movies_pictures/3111ebebad71.jpg",
+    releaseDate: "2010-06-30",
     length: 85,
     genre: ['Comédie'],
-    saga: '',
-    description: '',
+    saga: "",
+    description: "",
     fromEntity: null,
     countryOrigin: ['France'],
     selectDisplayOrder: 30,
