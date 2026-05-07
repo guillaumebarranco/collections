@@ -695,25 +695,25 @@ export const ronanSeries: UserSeries = [
     title: 'Daredevil : Born Again',
     director: 'Matt Corman, Chris Ord',
     seasons: [
-      {
-        seasonNumber: 1,
-        seasonRating: 3,
-        seasonTimesWatched: 1,
-        lastViewedDate: '',
-      },
-      {
-        seasonNumber: 2,
-        seasonRating: 0,
-        seasonTimesWatched: 0,
-        lastViewedDate: '',
-      },
-    ],
+    {
+      seasonNumber: 1,
+      seasonRating: 3,
+      seasonTimesWatched: 1,
+      lastViewedDate: "",
+    },
+    {
+      seasonNumber: 2,
+      seasonRating: 4,
+      seasonTimesWatched: 1,
+      lastViewedDate: "2026-05-06",
+    }
+  ],
     owned: false,
     watchPriority: 1,
     wantToWatchAgain: false,
-    ratingComment: '',
-    borrowed: '',
-    loaned: '',
+    ratingComment: "",
+    borrowed: "",
+    loaned: "",
   },
   {
     title: 'Jessica Jones',

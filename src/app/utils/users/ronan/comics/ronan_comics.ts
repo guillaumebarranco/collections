@@ -2734,8 +2734,8 @@ export const ronanComics: UserComics = [
   {
     title: "Daredevil - Tome 2",
     writer: "Miller",
-    readDate: "",
-    rating: 0,
+    readDate: "2026-05-06",
+    rating: 3.5,
     readTimes: 1,
     owned: true,
     readPriority: 1,
