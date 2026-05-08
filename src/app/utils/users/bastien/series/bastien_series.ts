@@ -1,6 +1,6 @@
 import { UserSeries } from '../../../../models/serie-model';
 
-const bastienSeries: UserSeries = [
+export const bastienSeries: UserSeries = [
   {
     title: 'Avatar: The Last Airbender',
     director: 'Michael Dante DiMartino, Bryan Konietzko',
