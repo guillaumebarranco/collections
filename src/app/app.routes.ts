@@ -62,11 +62,16 @@ import { AdaptationsComponent } from './containers/adaptations/adaptations.compo
 import { QuizzsComponent } from './containers/collections/quizzs/quizzs.component';
 import { RecordsComponent } from './containers/records/records.component';
 import { EntityStatsComponent } from './containers/entity-stats/entity-stats.component';
+import { ChangePasswordComponent } from './components/change-password/change-password.component';
 
 export const routes: Routes = [
   {
     path: '',
     component: DashboardComponent,
+  },
+  {
+    path: 'change-password',
+    component: ChangePasswordComponent,
   },
   {
     path: 'admin',

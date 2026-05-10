@@ -109,6 +109,40 @@ export class AuthService {
     return true;
   }
 
+  /**
+   * Change le mot de passe de l'utilisateur courant côté serveur.
+   * Le serveur vérifie d'abord l'ancien mot de passe puis applique le nouveau
+   * hash (PBKDF2 sha512, même schéma que `register`).
+   *
+   * @returns un statut `'ok' | 'invalid-current' | 'not-found' | 'same-password' | 'error'`
+   */
+  async changePassword(
+    username: string,
+    oldPassword: string,
+    newPassword: string
+  ): Promise<
+    'ok' | 'invalid-current' | 'not-found' | 'same-password' | 'error'
+  > {
+    const normalized = username.trim().toLowerCase();
+    if (!normalized || !oldPassword || !newPassword) return 'error';
+
+    const response = await fetch(`${getApiBaseUrl()}/auth/change-password`, {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({
+        username: normalized,
+        oldPassword,
+        newPassword,
+      }),
+    });
+
+    if (response.ok) return 'ok';
+    if (response.status === 401) return 'invalid-current';
+    if (response.status === 404) return 'not-found';
+    if (response.status === 400) return 'same-password';
+    return 'error';
+  }
+
   private readStoredUserId(): string | null {
     if (typeof window === 'undefined') return null;
     return localStorage.getItem(STORAGE_KEY);

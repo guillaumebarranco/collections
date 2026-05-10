@@ -41,6 +41,7 @@ export class MenuComponent implements OnInit {
     'adaptations',
     'quizzs',
     'entity-stats',
+    'change-password',
   ]);
 
   isMobile = false;
@@ -129,6 +130,12 @@ export class MenuComponent implements OnInit {
     this.closeUserMenu();
     this.impersonateService.clearImpersonation();
     void this.router.navigate(['/admin']);
+  }
+
+  /** Page de modification du mot de passe de l'utilisateur connecté. */
+  goToChangePassword(): void {
+    this.closeUserMenu();
+    void this.router.navigate(['/change-password']);
   }
 
   menuItems = [
