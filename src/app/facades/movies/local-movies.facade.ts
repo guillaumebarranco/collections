@@ -48,7 +48,6 @@ import { williamMovies } from '../../utils/users/william/movies';
 import { williamWatchListMovies } from '../../utils/users/william/movies/william_watchlist_movies';
 import {
   amandineMovies1,
-  amandineMovies2,
   amandineWatchlistMovies,
 } from '../../utils/users/amandine/movies';
 import {
@@ -120,7 +119,7 @@ export function getLocalMoviesByUser(userId: string): UserMovie[] {
     case 'william':
       return [...williamMovies];
     case 'amandine':
-      return [...amandineMovies1, ...amandineMovies2];
+      return [...amandineMovies1];
     case 'ronan':
       return [...ronanMovies, ...ronanCinemaMovies];
     case 'kevin':

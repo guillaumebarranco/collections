@@ -26,8 +26,27 @@ type MovieEntry = {
 
 type Collection = 'movies' | 'watchlist' | 'cinema';
 
-const USERS_ROOT = path.join(__dirname, '..', 'src', 'app', 'utils', 'users');
-const REPO_ROOT = path.join(__dirname, '..');
+/**
+ * Trouve la racine du repo en remontant depuis le cwd jusqu'à trouver un
+ * package.json. Cette approche est compatible CommonJS (ts-node) et ESM
+ * (exécution directe via `node script.ts` avec Node.js >= 22), contrairement
+ * à `__dirname` qui n'existe pas en ESM.
+ */
+function findRepoRoot(start: string): string {
+  let current = path.resolve(start);
+  while (current !== path.dirname(current)) {
+    if (fs.existsSync(path.join(current, 'package.json'))) {
+      return current;
+    }
+    current = path.dirname(current);
+  }
+  throw new Error(
+    `Impossible de trouver la racine du repo (aucun package.json trouvé en remontant depuis "${start}").`
+  );
+}
+
+const REPO_ROOT = findRepoRoot(process.cwd());
+const USERS_ROOT = path.join(REPO_ROOT, 'src', 'app', 'utils', 'users');
 
 function listMovieFiles(usersRoot: string): string[] {
   const files: string[] = [];

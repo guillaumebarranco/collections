@@ -789,7 +789,7 @@ export const guillaumeMoviesAnimated: UserMovies = [
     title: 'Fourmiz',
     director: 'Eric Darnell, Tim Johnson',
     rating: 3,
-    timesWatched: 1,
+    timesWatched: 5,
     firstViewedDate: '',
     lastViewedDate: '',
     seenAtCinema: false,
