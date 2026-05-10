@@ -30,6 +30,19 @@ export class SelectManwhasRatingComponent
     return this.manwhasList();
   });
 
+  // Filtre : afficher uniquement les manwhas sans note
+  showOnlyUnrated = signal<boolean>(false);
+
+  // Manwhas affichés selon le filtre actif (basé sur la note d'origine, pour
+  // éviter qu'un manwha ne disparaisse de la liste dès qu'il vient d'être noté)
+  displayedManwhas = computed<Manwha[]>(() => {
+    const manwhas = this.allManwhas();
+    if (!this.showOnlyUnrated()) {
+      return manwhas;
+    }
+    return manwhas.filter((manwha) => !manwha.rating);
+  });
+
   manwhasRatings = signal<Map<string, number>>(new Map());
 
   readonly ratingOptions = ratingOptionsSelectPages;
@@ -49,6 +62,11 @@ export class SelectManwhasRatingComponent
     const updated = new Map(this.manwhasRatings());
     updated.set(key, rating);
     this.manwhasRatings.set(updated);
+  }
+
+  // Basculer le filtre des manwhas sans note
+  toggleShowOnlyUnrated(checked: boolean): void {
+    this.showOnlyUnrated.set(checked);
   }
 
   modifiedCount = computed(() => {

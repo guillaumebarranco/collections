@@ -114,6 +114,32 @@
   margin-bottom: 0;
 }
 
+// Checkbox de filtre dans la toolbar (ex: "Filtrer sur les éléments sans note")
+.toolbar .select-filter-option {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  cursor: pointer;
+  font-size: 0.95rem;
+  color: #333;
+  user-select: none;
+
+  input[type="checkbox"] {
+    cursor: pointer;
+    accent-color: #ffc107;
+    width: 18px;
+    height: 18px;
+  }
+}
+
+// État vide quand un filtre n'a aucun résultat
+.select-empty-state {
+  text-align: center;
+  padding: 2rem;
+  color: #ddd;
+  font-size: 1.2rem;
+}
+
 // Grid commun
 %select-grid {
   display: grid;

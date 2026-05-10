@@ -6,6 +6,15 @@
     <span class="total">sur {{ allBds().length }}</span>
   </div>
 
+  <label class="select-filter-option">
+    <input
+      type="checkbox"
+      [checked]="showOnlyUnrated()"
+      (change)="toggleShowOnlyUnrated($any($event.target).checked)"
+    />
+    Filtrer sur les BD qui n'ont pas de note
+  </label>
+
   <div class="actions">
     <button
       class="makya-btn-big"
@@ -38,8 +47,14 @@
     <ng-container *ngTemplateOutlet="selectionSummaryBand" />
   </div>
 
+  @if (showOnlyUnrated() && displayedBds().length === 0) {
+  <div class="select-empty-state">
+    <p>🎉 Toutes tes BD ont déjà une note !</p>
+  </div>
+  }
+
   <div class="bds-grid">
-    @for (bd of allBds(); track `${bd.title}-${bd.writer}`) {
+    @for (bd of displayedBds(); track `${bd.title}-${bd.writer}`) {
     <div class="bd-cover" [title]="bd.title + ' - ' + bd.writer">
       <img [src]="bd.coverUrl" [alt]="bd.title" />
       <div class="overlay">

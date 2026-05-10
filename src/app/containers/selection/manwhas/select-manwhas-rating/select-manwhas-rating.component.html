@@ -6,6 +6,15 @@
     <span class="total">sur {{ allManwhas().length }}</span>
   </div>
 
+  <label class="select-filter-option">
+    <input
+      type="checkbox"
+      [checked]="showOnlyUnrated()"
+      (change)="toggleShowOnlyUnrated($any($event.target).checked)"
+    />
+    Filtrer sur les manwhas qui n'ont pas de note
+  </label>
+
   <div class="actions">
     <button
       class="makya-btn-big"
@@ -38,8 +47,14 @@
     <ng-container *ngTemplateOutlet="selectionSummaryBand" />
   </div>
 
+  @if (showOnlyUnrated() && displayedManwhas().length === 0) {
+  <div class="select-empty-state">
+    <p>🎉 Tous tes manwhas ont déjà une note !</p>
+  </div>
+  }
+
   <div class="manwhas-grid">
-    @for (manwha of allManwhas(); track `${manwha.title}-${manwha.author}`) {
+    @for (manwha of displayedManwhas(); track `${manwha.title}-${manwha.author}`) {
     <div class="manwha-cover" [title]="manwha.title + ' - ' + manwha.author">
       <img [src]="manwha.coverUrl" [alt]="manwha.title" />
       <div class="overlay">

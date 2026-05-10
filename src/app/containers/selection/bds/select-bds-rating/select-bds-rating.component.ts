@@ -28,6 +28,19 @@ export class SelectBdsRatingComponent
     return this.bdsList();
   });
 
+  // Filtre : afficher uniquement les BD sans note
+  showOnlyUnrated = signal<boolean>(false);
+
+  // BD affichées selon le filtre actif (basé sur la note d'origine, pour
+  // éviter qu'une BD ne disparaisse de la liste dès qu'elle vient d'être notée)
+  displayedBds = computed<Bd[]>(() => {
+    const bds = this.allBds();
+    if (!this.showOnlyUnrated()) {
+      return bds;
+    }
+    return bds.filter((bd) => !bd.rating);
+  });
+
   bdsRatings = signal<Map<string, number>>(new Map());
 
   readonly ratingOptions = ratingOptionsSelectPages;
@@ -47,6 +60,11 @@ export class SelectBdsRatingComponent
     const updated = new Map(this.bdsRatings());
     updated.set(key, rating);
     this.bdsRatings.set(updated);
+  }
+
+  // Basculer le filtre des BD sans note
+  toggleShowOnlyUnrated(checked: boolean): void {
+    this.showOnlyUnrated.set(checked);
   }
 
   modifiedCount = computed(() => {

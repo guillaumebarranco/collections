@@ -91,23 +91,6 @@
       color: #ffc107;
     }
 
-    .select-filter-option {
-      display: inline-flex;
-      align-items: center;
-      gap: 0.5rem;
-      cursor: pointer;
-      font-size: 0.95rem;
-      color: #333;
-      user-select: none;
-
-      input[type="checkbox"] {
-        cursor: pointer;
-        accent-color: #ffc107;
-        width: 18px;
-        height: 18px;
-      }
-    }
-
     .makya-btn-big {
       background: #ffc107;
       color: #333;
@@ -117,13 +100,6 @@
         box-shadow: 0 4px 8px rgba(255, 193, 7, 0.3);
       }
     }
-  }
-
-  .empty-state {
-    text-align: center;
-    padding: 2rem;
-    color: #ddd;
-    font-size: 1.2rem;
   }
 
   .movies-grid {

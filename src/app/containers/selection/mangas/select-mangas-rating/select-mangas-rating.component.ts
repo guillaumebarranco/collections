@@ -30,6 +30,19 @@ export class SelectMangasRatingComponent
     return this.mangasList();
   });
 
+  // Filtre : afficher uniquement les mangas sans note
+  showOnlyUnrated = signal<boolean>(false);
+
+  // Mangas affichés selon le filtre actif (basé sur la note d'origine, pour
+  // éviter qu'un manga ne disparaisse de la liste dès qu'il vient d'être noté)
+  displayedMangas = computed<Manga[]>(() => {
+    const mangas = this.allMangas();
+    if (!this.showOnlyUnrated()) {
+      return mangas;
+    }
+    return mangas.filter((manga) => !manga.rating);
+  });
+
   mangasRatings = signal<Map<string, number>>(new Map());
 
   readonly ratingOptions = ratingOptionsSelectPages;
@@ -49,6 +62,11 @@ export class SelectMangasRatingComponent
     const updated = new Map(this.mangasRatings());
     updated.set(key, rating);
     this.mangasRatings.set(updated);
+  }
+
+  // Basculer le filtre des mangas sans note
+  toggleShowOnlyUnrated(checked: boolean): void {
+    this.showOnlyUnrated.set(checked);
   }
 
   modifiedCount = computed(() => {

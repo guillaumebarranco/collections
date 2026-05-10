@@ -6,6 +6,15 @@
     <span class="total">sur {{ allComics().length }}</span>
   </div>
 
+  <label class="select-filter-option">
+    <input
+      type="checkbox"
+      [checked]="showOnlyUnrated()"
+      (change)="toggleShowOnlyUnrated($any($event.target).checked)"
+    />
+    Filtrer sur les comics qui n'ont pas de note
+  </label>
+
   <div class="actions">
     <button
       class="makya-btn-big"
@@ -38,8 +47,14 @@
     <ng-container *ngTemplateOutlet="selectionSummaryBand" />
   </div>
 
+  @if (showOnlyUnrated() && displayedComics().length === 0) {
+  <div class="select-empty-state">
+    <p>🎉 Tous tes comics ont déjà une note !</p>
+  </div>
+  }
+
   <div class="comics-grid">
-    @for (comic of allComics(); track `${comic.title}-${comic.writer}`) {
+    @for (comic of displayedComics(); track `${comic.title}-${comic.writer}`) {
     <div class="comic-cover" [title]="comic.title + ' - ' + comic.writer">
       <img [src]="comic.coverUrl" [alt]="comic.title" />
       <div class="overlay">

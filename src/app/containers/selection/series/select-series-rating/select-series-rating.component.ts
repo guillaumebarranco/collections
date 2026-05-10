@@ -29,6 +29,25 @@ export class SelectSeriesRatingComponent
     return this.seriesList();
   });
 
+  // Filtre : afficher uniquement les séries sans note
+  showOnlyUnrated = signal<boolean>(false);
+
+  // Séries affichées selon le filtre actif. Une série est considérée "sans
+  // note" lorsqu'aucune de ses saisons n'a de seasonRating > 0. On se base
+  // sur les saisons d'origine (pas celles en cours d'édition) pour éviter
+  // qu'une série ne disparaisse de la liste dès qu'elle vient d'être notée.
+  displayedSeries = computed<Serie[]>(() => {
+    const series = this.allSeries();
+    if (!this.showOnlyUnrated()) {
+      return series;
+    }
+    return series.filter((serie) => {
+      const seasons = serie.seasons ?? [];
+      if (seasons.length === 0) return true;
+      return seasons.every((season) => !season.seasonRating);
+    });
+  });
+
   seriesSeasons = signal<Map<string, Serie['seasons']>>(new Map());
 
   readonly ratingOptions = ratingOptionsSelectPages;
@@ -74,6 +93,11 @@ export class SelectSeriesRatingComponent
     const updated = new Map(this.seriesSeasons());
     updated.set(key, seasons);
     this.seriesSeasons.set(updated);
+  }
+
+  // Basculer le filtre des séries sans note
+  toggleShowOnlyUnrated(checked: boolean): void {
+    this.showOnlyUnrated.set(checked);
   }
 
   // Compter le nombre de sÃ©ries modifiÃ©es

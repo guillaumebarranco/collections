@@ -28,6 +28,19 @@ export class SelectBooksRatingComponent
     return this.booksList();
   });
 
+  // Filtre : afficher uniquement les livres sans note
+  showOnlyUnrated = signal<boolean>(false);
+
+  // Livres affichés selon le filtre actif (basé sur la note d'origine, pour
+  // éviter qu'un livre ne disparaisse de la liste dès qu'il vient d'être noté)
+  displayedBooks = computed<Book[]>(() => {
+    const books = this.allBooks();
+    if (!this.showOnlyUnrated()) {
+      return books;
+    }
+    return books.filter((book) => !book.rating);
+  });
+
   // Map pour stocker les ratings mis à jour (clé: title-author, valeur: rating)
   booksRatings = signal<Map<string, number>>(new Map());
 
@@ -52,6 +65,11 @@ export class SelectBooksRatingComponent
     const updated = new Map(this.booksRatings());
     updated.set(key, rating);
     this.booksRatings.set(updated);
+  }
+
+  // Basculer le filtre des livres sans note
+  toggleShowOnlyUnrated(checked: boolean): void {
+    this.showOnlyUnrated.set(checked);
   }
 
   // Compter le nombre de livres modifiés

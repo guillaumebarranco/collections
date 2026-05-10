@@ -6,6 +6,15 @@
     <span class="total">sur {{ allMusics().length }}</span>
   </div>
 
+  <label class="select-filter-option">
+    <input
+      type="checkbox"
+      [checked]="showOnlyUnrated()"
+      (change)="toggleShowOnlyUnrated($any($event.target).checked)"
+    />
+    Filtrer sur les musiques qui n'ont pas de note
+  </label>
+
   <div class="actions">
     <button
       class="makya-btn-big"
@@ -38,8 +47,14 @@
     <ng-container *ngTemplateOutlet="selectionSummaryBand" />
   </div>
 
+  @if (showOnlyUnrated() && displayedMusics().length === 0) {
+  <div class="select-empty-state">
+    <p>🎉 Toutes tes musiques ont déjà une note !</p>
+  </div>
+  }
+
   <div class="musics-grid">
-    @for (music of allMusics(); track `${music.title}-${music.artist}`) {
+    @for (music of displayedMusics(); track `${music.title}-${music.artist}`) {
     <div class="music-poster" [title]="music.title + ' - ' + music.artist">
       <img
         [src]="music.coverUrl || '/musics_pictures/default.jpg'"

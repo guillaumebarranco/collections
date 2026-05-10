@@ -30,6 +30,19 @@ export class SelectComicsRatingComponent
     return this.comicsList();
   });
 
+  // Filtre : afficher uniquement les comics sans note
+  showOnlyUnrated = signal<boolean>(false);
+
+  // Comics affichés selon le filtre actif (basé sur la note d'origine, pour
+  // éviter qu'un comic ne disparaisse de la liste dès qu'il vient d'être noté)
+  displayedComics = computed<Comic[]>(() => {
+    const comics = this.allComics();
+    if (!this.showOnlyUnrated()) {
+      return comics;
+    }
+    return comics.filter((comic) => !comic.rating);
+  });
+
   comicsRatings = signal<Map<string, number>>(new Map());
 
   readonly ratingOptions = ratingOptionsSelectPages;
@@ -49,6 +62,11 @@ export class SelectComicsRatingComponent
     const updated = new Map(this.comicsRatings());
     updated.set(key, rating);
     this.comicsRatings.set(updated);
+  }
+
+  // Basculer le filtre des comics sans note
+  toggleShowOnlyUnrated(checked: boolean): void {
+    this.showOnlyUnrated.set(checked);
   }
 
   modifiedCount = computed(() => {

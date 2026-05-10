@@ -6,6 +6,15 @@
     <span class="total">sur {{ allMangas().length }}</span>
   </div>
 
+  <label class="select-filter-option">
+    <input
+      type="checkbox"
+      [checked]="showOnlyUnrated()"
+      (change)="toggleShowOnlyUnrated($any($event.target).checked)"
+    />
+    Filtrer sur les mangas qui n'ont pas de note
+  </label>
+
   <div class="actions">
     <button
       class="makya-btn-big"
@@ -38,8 +47,14 @@
     <ng-container *ngTemplateOutlet="selectionSummaryBand" />
   </div>
 
+  @if (showOnlyUnrated() && displayedMangas().length === 0) {
+  <div class="select-empty-state">
+    <p>🎉 Tous tes mangas ont déjà une note !</p>
+  </div>
+  }
+
   <div class="mangas-grid">
-    @for (manga of allMangas(); track `${manga.title}-${manga.author}`) {
+    @for (manga of displayedMangas(); track `${manga.title}-${manga.author}`) {
     <div class="manga-cover" [title]="manga.title + ' - ' + manga.author">
       <img [src]="manga.coverUrl" [alt]="manga.title" />
       <div class="overlay">

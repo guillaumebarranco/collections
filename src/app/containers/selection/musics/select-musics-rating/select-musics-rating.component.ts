@@ -30,6 +30,19 @@ export class SelectMusicsRatingComponent
     return this.musicsList();
   });
 
+  // Filtre : afficher uniquement les musiques sans note
+  showOnlyUnrated = signal<boolean>(false);
+
+  // Musiques affichées selon le filtre actif (basé sur la note d'origine, pour
+  // éviter qu'une musique ne disparaisse de la liste dès qu'elle vient d'être notée)
+  displayedMusics = computed<Music[]>(() => {
+    const musics = this.allMusics();
+    if (!this.showOnlyUnrated()) {
+      return musics;
+    }
+    return musics.filter((music) => !music.rating);
+  });
+
   musicsRatings = signal<Map<string, number>>(new Map());
 
   readonly ratingOptions = ratingOptionsSelectPages;
@@ -49,6 +62,11 @@ export class SelectMusicsRatingComponent
     const updated = new Map(this.musicsRatings());
     updated.set(key, rating);
     this.musicsRatings.set(updated);
+  }
+
+  // Basculer le filtre des musiques sans note
+  toggleShowOnlyUnrated(checked: boolean): void {
+    this.showOnlyUnrated.set(checked);
   }
 
   modifiedCount = computed(() => {

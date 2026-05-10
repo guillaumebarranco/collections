@@ -6,6 +6,15 @@
     <span class="total">sur {{ allBooks().length }}</span>
   </div>
 
+  <label class="select-filter-option">
+    <input
+      type="checkbox"
+      [checked]="showOnlyUnrated()"
+      (change)="toggleShowOnlyUnrated($any($event.target).checked)"
+    />
+    Filtrer sur les livres qui n'ont pas de note
+  </label>
+
   <div class="actions">
     <button
       class="makya-btn-big"
@@ -38,8 +47,14 @@
     <ng-container *ngTemplateOutlet="selectionSummaryBand" />
   </div>
 
+  @if (showOnlyUnrated() && displayedBooks().length === 0) {
+  <div class="select-empty-state">
+    <p>🎉 Tous tes livres ont déjà une note !</p>
+  </div>
+  }
+
   <div class="books-grid">
-    @for (book of allBooks(); track `${book.title}-${book.author}`) {
+    @for (book of displayedBooks(); track `${book.title}-${book.author}`) {
     <div class="book-cover" [title]="book.title + ' - ' + book.author">
       <img [src]="book.coverUrl" [alt]="book.title" />
       <div class="overlay">

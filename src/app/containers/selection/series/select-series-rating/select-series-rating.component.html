@@ -6,6 +6,15 @@
     <span class="total">sur {{ allSeries().length }}</span>
   </div>
 
+  <label class="select-filter-option">
+    <input
+      type="checkbox"
+      [checked]="showOnlyUnrated()"
+      (change)="toggleShowOnlyUnrated($any($event.target).checked)"
+    />
+    Filtrer sur les séries qui n'ont pas de note
+  </label>
+
   <div class="actions">
     <button
       class="makya-btn-big"
@@ -38,8 +47,14 @@
     <ng-container *ngTemplateOutlet="selectionSummaryBand" />
   </div>
 
+  @if (showOnlyUnrated() && displayedSeries().length === 0) {
+  <div class="select-empty-state">
+    <p>🎉 Toutes tes séries ont déjà une note !</p>
+  </div>
+  }
+
   <div class="series-grid">
-    @for (serie of allSeries(); track `${serie.title}-${serie.releaseDate}`) {
+    @for (serie of displayedSeries(); track `${serie.title}-${serie.releaseDate}`) {
     <div
       class="serie-poster"
       [title]="serie.title + ' (' + serie.releaseDate.substring(0, 4) + ')'"

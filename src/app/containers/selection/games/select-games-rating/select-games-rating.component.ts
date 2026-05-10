@@ -21,6 +21,19 @@ export class SelectGamesRatingComponent
   isSaving = signal(false);
   allGames = signal<Game[]>([]);
 
+  // Filtre : afficher uniquement les jeux sans note
+  showOnlyUnrated = signal<boolean>(false);
+
+  // Jeux affichés selon le filtre actif (basé sur la note d'origine, pour
+  // éviter qu'un jeu ne disparaisse de la liste dès qu'il vient d'être noté)
+  displayedGames = computed<Game[]>(() => {
+    const games = this.allGames();
+    if (!this.showOnlyUnrated()) {
+      return games;
+    }
+    return games.filter((game) => !game.rating);
+  });
+
   gamesRatings = signal<Map<string, number>>(new Map());
 
   readonly ratingOptions = ratingOptionsSelectPages;
@@ -40,6 +53,11 @@ export class SelectGamesRatingComponent
     const updated = new Map(this.gamesRatings());
     updated.set(key, rating);
     this.gamesRatings.set(updated);
+  }
+
+  // Basculer le filtre des jeux sans note
+  toggleShowOnlyUnrated(checked: boolean): void {
+    this.showOnlyUnrated.set(checked);
   }
 
   modifiedCount = computed(() => {
