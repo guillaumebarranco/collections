@@ -2519,23 +2519,6 @@ export const lucileMovies: UserMovie[] = [
   },
 
   {
-    title: 'La Belle au bois dormant',
-    director: 'Clyde Geronimi',
-    rating: 0,
-    timesWatched: 1,
-    firstViewedDate: '',
-    lastViewedDate: '',
-    seenAtCinema: false,
-    owned: false,
-    wantToSeeAgain: false,
-    watchPriority: 1,
-    ratingComment: '',
-    inList: [],
-    borrowed: '',
-    loaned: '',
-  },
-
-  {
     title: 'La Belle et le Clochard',
     director: 'Clyde Geronimi, Wilfred Jackson',
     rating: 0,

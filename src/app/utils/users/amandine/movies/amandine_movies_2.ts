@@ -3250,7 +3250,7 @@ export const amandineMovies2: UserMovies = [
     inList: [],
   },
   {
-    title: 'Le retour de Jafar',
+    title: 'Le Retour de Jafar',
     director: 'Toby Shelton, Tad Stones',
     rating: 0,
     timesWatched: 1,

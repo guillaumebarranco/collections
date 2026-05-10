@@ -31,6 +31,19 @@ export class SelectMoviesRatingComponent
     return this.moviesList();
   });
 
+  // Filtre : afficher uniquement les films sans note
+  showOnlyUnrated = signal<boolean>(false);
+
+  // Films affichés selon le filtre actif (basé sur la note d'origine, pour
+  // éviter qu'un film ne disparaisse de la liste dès qu'il vient d'être noté)
+  displayedMovies = computed<Movie[]>(() => {
+    const movies = this.allMovies();
+    if (!this.showOnlyUnrated()) {
+      return movies;
+    }
+    return movies.filter((movie) => !movie.rating);
+  });
+
   // Map pour stocker les ratings mis à jour (clé: title-director, valeur: rating)
   moviesRatings = signal<Map<string, number>>(new Map());
 
@@ -55,6 +68,11 @@ export class SelectMoviesRatingComponent
     const updated = new Map(this.moviesRatings());
     updated.set(key, rating);
     this.moviesRatings.set(updated);
+  }
+
+  // Basculer le filtre des films sans note
+  toggleShowOnlyUnrated(checked: boolean): void {
+    this.showOnlyUnrated.set(checked);
   }
 
   // Compter le nombre de films modifiés

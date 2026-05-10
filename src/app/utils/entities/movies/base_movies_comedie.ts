@@ -57,8 +57,7 @@ export const baseMoviesComedie: BaseMovie[] = [
       { name: 'Pierre Tchernia' },
       { name: 'Jean Richard' },
     ],
-    coverUrl:
-      '/movies_pictures/190183592105.jpeg',
+    coverUrl: '/movies_pictures/190183592105.jpeg',
     releaseDate: '1962-04-18',
     length: 90,
     genre: ['Comédie', 'Drame'],
@@ -221,8 +220,7 @@ export const baseMoviesComedie: BaseMovie[] = [
       { name: 'Adrian Grenier' },
       { name: 'Tracie Thoms' },
     ],
-    coverUrl:
-      '/movies_pictures/b0b81d0df348.jpg',
+    coverUrl: '/movies_pictures/b0b81d0df348.jpg',
     releaseDate: '2026-01-01',
     length: 110,
     genre: ['Comédie', 'Drame'],
@@ -3848,36 +3846,36 @@ export const baseMoviesComedie: BaseMovie[] = [
     director: 'Michaël Youn',
     actors: [
       {
-        name: "Michaël Youn",
+        name: 'Michaël Youn',
       },
       {
-        name: "Armelle",
+        name: 'Armelle',
       },
       {
-        name: "Ary Abittan",
+        name: 'Ary Abittan',
       },
       {
-        name: "Bianca Gervais",
+        name: 'Bianca Gervais',
       },
       {
-        name: "Catherine Allégret",
+        name: 'Catherine Allégret',
       },
       {
-        name: "Fabrice Éboué",
+        name: 'Fabrice Éboué',
       },
       {
-        name: "Jean Benguigui",
+        name: 'Jean Benguigui',
       },
       {
-        name: "Jérôme Le Banner",
-      }
+        name: 'Jérôme Le Banner',
+      },
     ],
-    coverUrl: "/movies_pictures/3111ebebad71.jpg",
-    releaseDate: "2010-06-30",
+    coverUrl: '/movies_pictures/3111ebebad71.jpg',
+    releaseDate: '2010-06-30',
     length: 85,
     genre: ['Comédie'],
-    saga: "",
-    description: "",
+    saga: '',
+    description: '',
     fromEntity: null,
     countryOrigin: ['France'],
     selectDisplayOrder: 30,
@@ -5504,8 +5502,7 @@ export const baseMoviesComedie: BaseMovie[] = [
         name: 'Katie Morgan',
       },
     ],
-    coverUrl:
-      '/movies_pictures/8a5615d6a1c3.jpg',
+    coverUrl: '/movies_pictures/8a5615d6a1c3.jpg',
     releaseDate: '2008-10-31',
     length: 101,
     genre: ['Comédie', 'Romance'],
@@ -9539,42 +9536,6 @@ export const baseMoviesComedie: BaseMovie[] = [
     releaseDate: '1921-02-06',
     length: 68,
     genre: ['Comédie', 'Drame', 'Jeunesse'],
-    saga: '',
-    description: '',
-    fromEntity: null,
-    countryOrigin: ['États-Unis'],
-    selectDisplayOrder: 0,
-  },
-  {
-    title: "La ruée vers l'or",
-    director: 'Charlie Chaplin',
-    actors: [
-      {
-        name: 'Mack Swain',
-      },
-      {
-        name: 'Tom Murray',
-      },
-      {
-        name: 'Charlie Chaplin',
-      },
-      {
-        name: 'Georgia Hale',
-      },
-      {
-        name: 'Henry Bergman',
-      },
-      {
-        name: 'Albert Austin',
-      },
-      {
-        name: 'Tiny Sandford',
-      },
-    ],
-    coverUrl: '/movies_pictures/463e45a82b00.jpg',
-    releaseDate: '1925-06-26',
-    length: 95,
-    genre: ['Comédie', 'Aventure', 'Romance'],
     saga: '',
     description: '',
     fromEntity: null,

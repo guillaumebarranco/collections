@@ -6,6 +6,15 @@
     <span class="total">sur {{ allMovies().length }}</span>
   </div>
 
+  <label class="select-filter-option">
+    <input
+      type="checkbox"
+      [checked]="showOnlyUnrated()"
+      (change)="toggleShowOnlyUnrated($any($event.target).checked)"
+    />
+    Filtrer sur les films qui n'ont pas de note
+  </label>
+
   <div class="actions">
     <button
       class="makya-btn-big"
@@ -38,8 +47,14 @@
     <ng-container *ngTemplateOutlet="selectionSummaryBand" />
   </div>
 
+  @if (showOnlyUnrated() && displayedMovies().length === 0) {
+  <div class="empty-state">
+    <p>🎉 Tous tes films ont déjà une note !</p>
+  </div>
+  }
+
   <div class="movies-grid">
-    @for (movie of allMovies(); track `${movie.title}-${movie.releaseDate}`) {
+    @for (movie of displayedMovies(); track `${movie.title}-${movie.releaseDate}`) {
     <div
       class="movie-poster"
       [title]="movie.title + ' (' + movie.releaseDate.substring(0, 4) + ')'"

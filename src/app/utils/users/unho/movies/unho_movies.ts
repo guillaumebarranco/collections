@@ -5206,23 +5206,6 @@ export const unhoMovies: UserMovie[] = [
   },
 
   {
-    title: 'Indiana Jones et le Temple maudit',
-    director: 'Steven Spielberg',
-    rating: 0,
-    timesWatched: 1,
-    firstViewedDate: '',
-    lastViewedDate: '',
-    seenAtCinema: false,
-    owned: false,
-    wantToSeeAgain: false,
-    watchPriority: 1,
-    ratingComment: '',
-    borrowed: '',
-    loaned: '',
-    inList: [],
-  },
-
-  {
     title: "Les Aventuriers de l'Arche perdue",
     director: 'Steven Spielberg',
     rating: 0,
@@ -7485,23 +7468,6 @@ export const unhoMovies: UserMovie[] = [
 
   {
     title: 'Indiana Jones et le Temple maudit',
-    director: 'Steven Spielberg',
-    rating: 0,
-    timesWatched: 1,
-    firstViewedDate: '',
-    lastViewedDate: '',
-    seenAtCinema: false,
-    owned: false,
-    wantToSeeAgain: false,
-    watchPriority: 1,
-    ratingComment: '',
-    borrowed: '',
-    loaned: '',
-    inList: [],
-  },
-
-  {
-    title: 'Indiana Jones et la Dernière Croisade',
     director: 'Steven Spielberg',
     rating: 0,
     timesWatched: 1,

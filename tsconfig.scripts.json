@@ -8,5 +8,5 @@
     "skipLibCheck": true,
     "resolveJsonModule": true
   },
-  "include": ["scripts/check-badges.ts"]
+  "include": ["scripts/check-badges.ts", "scripts/check-user-movies-dupes.ts"]
 }

@@ -2637,23 +2637,6 @@ export const dantesMovies: UserMovie[] = [
   },
 
   {
-    title: 'Le retour de Jafar',
-    director: 'Toby Shelton, Tad Stones',
-    rating: 0,
-    timesWatched: 1,
-    firstViewedDate: '',
-    lastViewedDate: '',
-    seenAtCinema: false,
-    owned: false,
-    wantToSeeAgain: false,
-    watchPriority: 1,
-    ratingComment: '',
-    borrowed: '',
-    loaned: '',
-    inList: [],
-  },
-
-  {
     title: 'Le Bossu de Notre-Dame',
     director: 'Gary Trousdale, Kirk Wise',
     rating: 0,
@@ -3335,23 +3318,6 @@ export const dantesMovies: UserMovie[] = [
   },
 
   {
-    title: 'Mort sur le Nil',
-    director: 'Kenneth Branagh',
-    rating: 0,
-    timesWatched: 1,
-    firstViewedDate: '',
-    lastViewedDate: '',
-    seenAtCinema: false,
-    owned: false,
-    wantToSeeAgain: false,
-    watchPriority: 1,
-    ratingComment: '',
-    borrowed: '',
-    loaned: '',
-    inList: [],
-  },
-
-  {
     title: 'West Side Story',
     director: 'Steven Spielberg',
     rating: 0,
@@ -3947,23 +3913,6 @@ export const dantesMovies: UserMovie[] = [
   },
 
   {
-    title: 'One Piece Film: Red',
-    director: 'Gorō Taniguchi',
-    rating: 0,
-    timesWatched: 1,
-    firstViewedDate: '',
-    lastViewedDate: '',
-    seenAtCinema: false,
-    owned: false,
-    wantToSeeAgain: false,
-    watchPriority: 1,
-    ratingComment: '',
-    borrowed: '',
-    loaned: '',
-    inList: [],
-  },
-
-  {
     title: 'Yesterday',
     director: 'Danny Boyle',
     rating: 0,
@@ -4151,23 +4100,6 @@ export const dantesMovies: UserMovie[] = [
   },
 
   {
-    title: 'Coco',
-    director: 'Lee Unkrich',
-    rating: 0,
-    timesWatched: 1,
-    firstViewedDate: '',
-    lastViewedDate: '',
-    seenAtCinema: false,
-    owned: false,
-    wantToSeeAgain: false,
-    watchPriority: 1,
-    ratingComment: '',
-    borrowed: '',
-    loaned: '',
-    inList: [],
-  },
-
-  {
     title: 'Indiana Jones et le Royaume du crâne de cristal',
     director: 'Steven Spielberg',
     rating: 0,
@@ -4324,40 +4256,6 @@ export const dantesMovies: UserMovie[] = [
   {
     title: 'Astérix et Cléopâtre',
     director: 'René Goscinny, Albert Uderzo',
-    rating: 0,
-    timesWatched: 1,
-    firstViewedDate: '',
-    lastViewedDate: '',
-    seenAtCinema: false,
-    owned: false,
-    wantToSeeAgain: false,
-    watchPriority: 1,
-    ratingComment: '',
-    borrowed: '',
-    loaned: '',
-    inList: [],
-  },
-
-  {
-    title: 'Le Livre de la jungle',
-    director: 'Wolfgang Reitherman',
-    rating: 0,
-    timesWatched: 1,
-    firstViewedDate: '',
-    lastViewedDate: '',
-    seenAtCinema: false,
-    owned: false,
-    wantToSeeAgain: false,
-    watchPriority: 1,
-    ratingComment: '',
-    borrowed: '',
-    loaned: '',
-    inList: [],
-  },
-
-  {
-    title: 'La Belle au bois dormant',
-    director: 'Clyde Geronimi',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -8623,23 +8521,6 @@ export const dantesMovies: UserMovie[] = [
   },
 
   {
-    title: 'Indiana Jones et la Dernière Croisade',
-    director: 'Steven Spielberg',
-    rating: 0,
-    timesWatched: 1,
-    firstViewedDate: '',
-    lastViewedDate: '',
-    seenAtCinema: false,
-    owned: false,
-    wantToSeeAgain: false,
-    watchPriority: 1,
-    ratingComment: '',
-    borrowed: '',
-    loaned: '',
-    inList: [],
-  },
-
-  {
     title: 'Rain Man',
     director: 'Barry Levinson',
     rating: 0,
@@ -10154,8 +10035,8 @@ export const dantesMovies: UserMovie[] = [
   },
 
   {
-    title: "Il faut sauver le soldat Ryan",
-    director: "Steven Spielberg",
+    title: 'Il faut sauver le soldat Ryan',
+    director: 'Steven Spielberg',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -10171,8 +10052,8 @@ export const dantesMovies: UserMovie[] = [
   },
 
   {
-    title: "Waterworld",
-    director: "Kevin Reynolds",
+    title: 'Waterworld',
+    director: 'Kevin Reynolds',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -10188,8 +10069,8 @@ export const dantesMovies: UserMovie[] = [
   },
 
   {
-    title: "Les Visiteurs : La Révolution",
-    director: "Jean-Marie Poiré",
+    title: 'Les Visiteurs : La Révolution',
+    director: 'Jean-Marie Poiré',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -10205,8 +10086,8 @@ export const dantesMovies: UserMovie[] = [
   },
 
   {
-    title: "Borat",
-    director: "Larry Charles",
+    title: 'Borat',
+    director: 'Larry Charles',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -10222,8 +10103,8 @@ export const dantesMovies: UserMovie[] = [
   },
 
   {
-    title: "The Blues Brothers",
-    director: "John Landis",
+    title: 'The Blues Brothers',
+    director: 'John Landis',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -10239,8 +10120,8 @@ export const dantesMovies: UserMovie[] = [
   },
 
   {
-    title: "Moulin Rouge !",
-    director: "Baz Luhrmann",
+    title: 'Moulin Rouge !',
+    director: 'Baz Luhrmann',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -10256,8 +10137,8 @@ export const dantesMovies: UserMovie[] = [
   },
 
   {
-    title: "La Liste de Schindler",
-    director: "Steven Spielberg",
+    title: 'La Liste de Schindler',
+    director: 'Steven Spielberg',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -10273,8 +10154,8 @@ export const dantesMovies: UserMovie[] = [
   },
 
   {
-    title: "La Ligne Verte",
-    director: "Frank Darabont",
+    title: 'La Ligne Verte',
+    director: 'Frank Darabont',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -10290,8 +10171,8 @@ export const dantesMovies: UserMovie[] = [
   },
 
   {
-    title: "Cinquante Nuances plus sombres",
-    director: "James Foley",
+    title: 'Cinquante Nuances plus sombres',
+    director: 'James Foley',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -10307,8 +10188,8 @@ export const dantesMovies: UserMovie[] = [
   },
 
   {
-    title: "Cinquante Nuances plus claires",
-    director: "James Foley",
+    title: 'Cinquante Nuances plus claires',
+    director: 'James Foley',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -10324,8 +10205,8 @@ export const dantesMovies: UserMovie[] = [
   },
 
   {
-    title: "Django Unchained",
-    director: "Quentin Tarantino",
+    title: 'Django Unchained',
+    director: 'Quentin Tarantino',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -10341,8 +10222,8 @@ export const dantesMovies: UserMovie[] = [
   },
 
   {
-    title: "Philadelphia",
-    director: "Jonathan Demme",
+    title: 'Philadelphia',
+    director: 'Jonathan Demme',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -10358,8 +10239,8 @@ export const dantesMovies: UserMovie[] = [
   },
 
   {
-    title: "Invictus",
-    director: "Clint Eastwood",
+    title: 'Invictus',
+    director: 'Clint Eastwood',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -10375,8 +10256,8 @@ export const dantesMovies: UserMovie[] = [
   },
 
   {
-    title: "Quai des Brumes",
-    director: "Marcel Carné",
+    title: 'Quai des Brumes',
+    director: 'Marcel Carné',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -10393,7 +10274,7 @@ export const dantesMovies: UserMovie[] = [
 
   {
     title: "L'Étrange Histoire de Benjamin Button",
-    director: "David Fincher",
+    director: 'David Fincher',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -10409,8 +10290,8 @@ export const dantesMovies: UserMovie[] = [
   },
 
   {
-    title: "Aviator",
-    director: "Martin Scorsese",
+    title: 'Aviator',
+    director: 'Martin Scorsese',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -10427,7 +10308,7 @@ export const dantesMovies: UserMovie[] = [
 
   {
     title: "Alice de l'autre côté du miroir",
-    director: "James Bobin",
+    director: 'James Bobin',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -10444,7 +10325,7 @@ export const dantesMovies: UserMovie[] = [
 
   {
     title: "Edward aux mains d'argent",
-    director: "Tim Burton",
+    director: 'Tim Burton',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -10460,8 +10341,8 @@ export const dantesMovies: UserMovie[] = [
   },
 
   {
-    title: "Les Dents de la mer",
-    director: "Steven Spielberg",
+    title: 'Les Dents de la mer',
+    director: 'Steven Spielberg',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -10477,8 +10358,8 @@ export const dantesMovies: UserMovie[] = [
   },
 
   {
-    title: "Gremlins 2 : La nouvelle génération",
-    director: "Joe Dante",
+    title: 'Gremlins 2 : La nouvelle génération',
+    director: 'Joe Dante',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -10495,7 +10376,7 @@ export const dantesMovies: UserMovie[] = [
 
   {
     title: "L'amour ouf",
-    director: "Gilles Lellouche",
+    director: 'Gilles Lellouche',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -10511,8 +10392,8 @@ export const dantesMovies: UserMovie[] = [
   },
 
   {
-    title: "La guerre des mondes",
-    director: "Steven Spielberg",
+    title: 'La guerre des mondes',
+    director: 'Steven Spielberg',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -10528,8 +10409,8 @@ export const dantesMovies: UserMovie[] = [
   },
 
   {
-    title: "Je Suis une Légende",
-    director: "Francis Lawrence",
+    title: 'Je Suis une Légende',
+    director: 'Francis Lawrence',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -10546,7 +10427,7 @@ export const dantesMovies: UserMovie[] = [
 
   {
     title: "L'Armée des 12 singes",
-    director: "Terry Gilliam",
+    director: 'Terry Gilliam',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -10562,8 +10443,8 @@ export const dantesMovies: UserMovie[] = [
   },
 
   {
-    title: "Avengers",
-    director: "Joss Whedon",
+    title: 'Avengers',
+    director: 'Joss Whedon',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -10580,7 +10461,7 @@ export const dantesMovies: UserMovie[] = [
 
   {
     title: "Avengers : L'Ère d'Ultron",
-    director: "Joss Whedon",
+    director: 'Joss Whedon',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -10596,8 +10477,8 @@ export const dantesMovies: UserMovie[] = [
   },
 
   {
-    title: "Avengers: Infinity War",
-    director: "Anthony Russo, Joe Russo",
+    title: 'Avengers: Infinity War',
+    director: 'Anthony Russo, Joe Russo',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -10613,8 +10494,8 @@ export const dantesMovies: UserMovie[] = [
   },
 
   {
-    title: "Avengers: Endgame",
-    director: "Anthony Russo, Joe Russo",
+    title: 'Avengers: Endgame',
+    director: 'Anthony Russo, Joe Russo',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -10631,7 +10512,7 @@ export const dantesMovies: UserMovie[] = [
 
   {
     title: "L'effet papillon",
-    director: "Eric Bress, J. Mackye Gruber",
+    director: 'Eric Bress, J. Mackye Gruber',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -10647,8 +10528,8 @@ export const dantesMovies: UserMovie[] = [
   },
 
   {
-    title: "Le Loup de Wall Street",
-    director: "Martin Scorsese",
+    title: 'Le Loup de Wall Street',
+    director: 'Martin Scorsese',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -10664,8 +10545,8 @@ export const dantesMovies: UserMovie[] = [
   },
 
   {
-    title: "Fantasia 2000",
-    director: "James Algar, Gaëtan Brizzi",
+    title: 'Fantasia 2000',
+    director: 'James Algar, Gaëtan Brizzi',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -10681,8 +10562,8 @@ export const dantesMovies: UserMovie[] = [
   },
 
   {
-    title: "Cendrillon 2 : Une vie de princesse",
-    director: "John Kafka",
+    title: 'Cendrillon 2 : Une vie de princesse',
+    director: 'John Kafka',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -10698,8 +10579,8 @@ export const dantesMovies: UserMovie[] = [
   },
 
   {
-    title: "La Belle et la Bête",
-    director: "Gary Trousdale, Kirk Wise",
+    title: 'La Belle et la Bête',
+    director: 'Gary Trousdale, Kirk Wise',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -10715,8 +10596,8 @@ export const dantesMovies: UserMovie[] = [
   },
 
   {
-    title: "Le Retour de Jafar",
-    director: "Toby Shelton, Tad Stones",
+    title: 'Le Retour de Jafar',
+    director: 'Toby Shelton, Tad Stones',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -10732,8 +10613,8 @@ export const dantesMovies: UserMovie[] = [
   },
 
   {
-    title: "Aladdin et le Roi des voleurs",
-    director: "Tad Stones",
+    title: 'Aladdin et le Roi des voleurs',
+    director: 'Tad Stones',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -10749,8 +10630,8 @@ export const dantesMovies: UserMovie[] = [
   },
 
   {
-    title: "Le Roi Lion 3 - Hakuna Matata",
-    director: "Bradley Raymond",
+    title: 'Le Roi Lion 3 - Hakuna Matata',
+    director: 'Bradley Raymond',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -10766,8 +10647,8 @@ export const dantesMovies: UserMovie[] = [
   },
 
   {
-    title: "Chicken Run",
-    director: "Peter Lord, Nick Park",
+    title: 'Chicken Run',
+    director: 'Peter Lord, Nick Park',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -10783,8 +10664,8 @@ export const dantesMovies: UserMovie[] = [
   },
 
   {
-    title: "Le Robot sauvage",
-    director: "Chris Sanders",
+    title: 'Le Robot sauvage',
+    director: 'Chris Sanders',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -10800,8 +10681,8 @@ export const dantesMovies: UserMovie[] = [
   },
 
   {
-    title: "Le Château ambulant",
-    director: "Hayao Miyazaki",
+    title: 'Le Château ambulant',
+    director: 'Hayao Miyazaki',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -10817,7 +10698,7 @@ export const dantesMovies: UserMovie[] = [
   },
 
   {
-    title: "Je veux manger ton pancréas",
+    title: 'Je veux manger ton pancréas',
     director: "Shin'ichirô Ushijima",
     rating: 0,
     timesWatched: 1,
@@ -10834,8 +10715,8 @@ export const dantesMovies: UserMovie[] = [
   },
 
   {
-    title: "Your Name",
-    director: "Makoto Shinkai",
+    title: 'Your Name',
+    director: 'Makoto Shinkai',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -10851,8 +10732,8 @@ export const dantesMovies: UserMovie[] = [
   },
 
   {
-    title: "Kirikou et la Sorcière",
-    director: "Michel Ocelot",
+    title: 'Kirikou et la Sorcière',
+    director: 'Michel Ocelot',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -10868,8 +10749,8 @@ export const dantesMovies: UserMovie[] = [
   },
 
   {
-    title: "Super Mario Bros. le Film",
-    director: "Aaron Horvath, Michael Jelenic",
+    title: 'Super Mario Bros. le Film',
+    director: 'Aaron Horvath, Michael Jelenic',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -10885,8 +10766,8 @@ export const dantesMovies: UserMovie[] = [
   },
 
   {
-    title: "Super Mario Galaxy, le film",
-    director: "Michael Jelenic, Aaron Horvath",
+    title: 'Super Mario Galaxy, le film',
+    director: 'Michael Jelenic, Aaron Horvath',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -10902,8 +10783,8 @@ export const dantesMovies: UserMovie[] = [
   },
 
   {
-    title: "Les Minions",
-    director: "Pierre Coffin, Kyle Balda",
+    title: 'Les Minions',
+    director: 'Pierre Coffin, Kyle Balda',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -10919,8 +10800,8 @@ export const dantesMovies: UserMovie[] = [
   },
 
   {
-    title: "Moi, Moche et Méchant 3",
-    director: "Pierre Coffin, Kyle Balda",
+    title: 'Moi, Moche et Méchant 3',
+    director: 'Pierre Coffin, Kyle Balda',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -10936,8 +10817,8 @@ export const dantesMovies: UserMovie[] = [
   },
 
   {
-    title: "Les Minions 2 : Il était une fois Gru",
-    director: "Kyle Balda, Brad Ableson, Jonathan del Val",
+    title: 'Les Minions 2 : Il était une fois Gru',
+    director: 'Kyle Balda, Brad Ableson, Jonathan del Val',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -10954,7 +10835,7 @@ export const dantesMovies: UserMovie[] = [
 
   {
     title: "Madagascar 3 : Bons Baisers d'Europe",
-    director: "Eric Darnell, Tom McGrath, Conrad Vernon",
+    director: 'Eric Darnell, Tom McGrath, Conrad Vernon',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -10970,8 +10851,8 @@ export const dantesMovies: UserMovie[] = [
   },
 
   {
-    title: "Astérix le Gaulois",
-    director: "Ray Goossens",
+    title: 'Astérix le Gaulois',
+    director: 'Ray Goossens',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -10987,8 +10868,8 @@ export const dantesMovies: UserMovie[] = [
   },
 
   {
-    title: "Astérix et la Surprise de César",
-    director: "Gaëtan Brizzi, Paul Brizzi",
+    title: 'Astérix et la Surprise de César',
+    director: 'Gaëtan Brizzi, Paul Brizzi',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -11005,7 +10886,7 @@ export const dantesMovies: UserMovie[] = [
 
   {
     title: "Les 12 Travaux d'Astérix",
-    director: "René Goscinny, Albert Uderzo",
+    director: 'René Goscinny, Albert Uderzo',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -11021,8 +10902,8 @@ export const dantesMovies: UserMovie[] = [
   },
 
   {
-    title: "Le Roi Lion",
-    director: "Jon Favreau",
+    title: 'Le Roi Lion',
+    director: 'Jon Favreau',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -11038,8 +10919,8 @@ export const dantesMovies: UserMovie[] = [
   },
 
   {
-    title: "Mufasa : Le Roi Lion",
-    director: "Barry Jenkins",
+    title: 'Mufasa : Le Roi Lion',
+    director: 'Barry Jenkins',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -11055,8 +10936,8 @@ export const dantesMovies: UserMovie[] = [
   },
 
   {
-    title: "James Bond 007 contre Dr. No",
-    director: "Terence Young",
+    title: 'James Bond 007 contre Dr. No',
+    director: 'Terence Young',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -11072,8 +10953,8 @@ export const dantesMovies: UserMovie[] = [
   },
 
   {
-    title: "James Bond : Bons baisers de Russie",
-    director: "Terence Young",
+    title: 'James Bond : Bons baisers de Russie',
+    director: 'Terence Young',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -11089,8 +10970,8 @@ export const dantesMovies: UserMovie[] = [
   },
 
   {
-    title: "James Bond : Goldfinger",
-    director: "Guy Hamilton",
+    title: 'James Bond : Goldfinger',
+    director: 'Guy Hamilton',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -11106,8 +10987,8 @@ export const dantesMovies: UserMovie[] = [
   },
 
   {
-    title: "James Bond : Opération tonnerre",
-    director: "Terence Young",
+    title: 'James Bond : Opération tonnerre',
+    director: 'Terence Young',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -11123,8 +11004,8 @@ export const dantesMovies: UserMovie[] = [
   },
 
   {
-    title: "James Bond : On ne vit que deux fois",
-    director: "Lewis Gilbert",
+    title: 'James Bond : On ne vit que deux fois',
+    director: 'Lewis Gilbert',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -11140,8 +11021,8 @@ export const dantesMovies: UserMovie[] = [
   },
 
   {
-    title: "James Bond : Au service secret de Sa Majesté",
-    director: "Peter R. Hunt",
+    title: 'James Bond : Au service secret de Sa Majesté',
+    director: 'Peter R. Hunt',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -11157,8 +11038,8 @@ export const dantesMovies: UserMovie[] = [
   },
 
   {
-    title: "James Bond : Les diamants sont éternels",
-    director: "Guy Hamilton",
+    title: 'James Bond : Les diamants sont éternels',
+    director: 'Guy Hamilton',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -11175,7 +11056,7 @@ export const dantesMovies: UserMovie[] = [
 
   {
     title: "James Bond : L'homme au pistolet d'or",
-    director: "Guy Hamilton",
+    director: 'Guy Hamilton',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -11192,7 +11073,7 @@ export const dantesMovies: UserMovie[] = [
 
   {
     title: "James Bond : L'espion qui m'aimait",
-    director: "Lewis Gilbert",
+    director: 'Lewis Gilbert',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -11208,8 +11089,8 @@ export const dantesMovies: UserMovie[] = [
   },
 
   {
-    title: "James Bond : Moonraker",
-    director: "Lewis Gilbert",
+    title: 'James Bond : Moonraker',
+    director: 'Lewis Gilbert',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -11225,8 +11106,8 @@ export const dantesMovies: UserMovie[] = [
   },
 
   {
-    title: "James Bond : Rien que pour vos yeux",
-    director: "John Glen",
+    title: 'James Bond : Rien que pour vos yeux',
+    director: 'John Glen',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -11242,8 +11123,8 @@ export const dantesMovies: UserMovie[] = [
   },
 
   {
-    title: "James Bond : Octopussy",
-    director: "John Glen",
+    title: 'James Bond : Octopussy',
+    director: 'John Glen',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -11259,8 +11140,8 @@ export const dantesMovies: UserMovie[] = [
   },
 
   {
-    title: "James Bond : Jamais plus jamais",
-    director: "Irvin Kershner",
+    title: 'James Bond : Jamais plus jamais',
+    director: 'Irvin Kershner',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -11276,8 +11157,8 @@ export const dantesMovies: UserMovie[] = [
   },
 
   {
-    title: "James Bond : Dangereusement vôtre",
-    director: "John Glen",
+    title: 'James Bond : Dangereusement vôtre',
+    director: 'John Glen',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -11294,7 +11175,7 @@ export const dantesMovies: UserMovie[] = [
 
   {
     title: "James Bond : Tuer n'est pas jouer",
-    director: "John Glen",
+    director: 'John Glen',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -11310,8 +11191,8 @@ export const dantesMovies: UserMovie[] = [
   },
 
   {
-    title: "James Bond : Demain ne meurt jamais",
-    director: "Roger Spottiswoode",
+    title: 'James Bond : Demain ne meurt jamais',
+    director: 'Roger Spottiswoode',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -11327,8 +11208,8 @@ export const dantesMovies: UserMovie[] = [
   },
 
   {
-    title: "James Bond : Le monde ne suffit pas",
-    director: "Michael Apted",
+    title: 'James Bond : Le monde ne suffit pas',
+    director: 'Michael Apted',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -11344,8 +11225,8 @@ export const dantesMovies: UserMovie[] = [
   },
 
   {
-    title: "La mémoire dans la peau",
-    director: "Doug Liman",
+    title: 'La mémoire dans la peau',
+    director: 'Doug Liman',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -11361,8 +11242,8 @@ export const dantesMovies: UserMovie[] = [
   },
 
   {
-    title: "La Vengeance dans la Peau",
-    director: "Paul Greengrass",
+    title: 'La Vengeance dans la Peau',
+    director: 'Paul Greengrass',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -11378,8 +11259,8 @@ export const dantesMovies: UserMovie[] = [
   },
 
   {
-    title: "Jason Bourne",
-    director: "Paul Greengrass",
+    title: 'Jason Bourne',
+    director: 'Paul Greengrass',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -11395,8 +11276,8 @@ export const dantesMovies: UserMovie[] = [
   },
 
   {
-    title: "Mission : Impossible – Fallout",
-    director: "Christopher McQuarrie",
+    title: 'Mission : Impossible – Fallout',
+    director: 'Christopher McQuarrie',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -11412,8 +11293,8 @@ export const dantesMovies: UserMovie[] = [
   },
 
   {
-    title: "La Planète des Singes : Le Nouveau Royaume",
-    director: "Wes Ball",
+    title: 'La Planète des Singes : Le Nouveau Royaume',
+    director: 'Wes Ball',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -11429,8 +11310,8 @@ export const dantesMovies: UserMovie[] = [
   },
 
   {
-    title: "The Princess Switch",
-    director: "Mike Rohl",
+    title: 'The Princess Switch',
+    director: 'Mike Rohl',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -11446,8 +11327,8 @@ export const dantesMovies: UserMovie[] = [
   },
 
   {
-    title: "The Princess Switch : Switched Again",
-    director: "Mike Rohl",
+    title: 'The Princess Switch : Switched Again',
+    director: 'Mike Rohl',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -11463,8 +11344,8 @@ export const dantesMovies: UserMovie[] = [
   },
 
   {
-    title: "Les Trois Mousquetaires",
-    director: "Paul W.S. Anderson",
+    title: 'Les Trois Mousquetaires',
+    director: 'Paul W.S. Anderson',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -11480,8 +11361,8 @@ export const dantesMovies: UserMovie[] = [
   },
 
   {
-    title: "Le Pacte des loups",
-    director: "Christophe Gans",
+    title: 'Le Pacte des loups',
+    director: 'Christophe Gans',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -11497,8 +11378,8 @@ export const dantesMovies: UserMovie[] = [
   },
 
   {
-    title: "Les Trois Mousquetaires : Milady",
-    director: "Martin Bourboulon",
+    title: 'Les Trois Mousquetaires : Milady',
+    director: 'Martin Bourboulon',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -11514,7 +11395,7 @@ export const dantesMovies: UserMovie[] = [
   },
 
   {
-    title: "Case départ",
+    title: 'Case départ',
     director: "Lionel Steketee, Fabrice Éboué, Thomas N'Gijol",
     rating: 0,
     timesWatched: 1,
@@ -11531,8 +11412,8 @@ export const dantesMovies: UserMovie[] = [
   },
 
   {
-    title: "Iznogoud",
-    director: "Patrick Braoudé",
+    title: 'Iznogoud',
+    director: 'Patrick Braoudé',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -11548,8 +11429,8 @@ export const dantesMovies: UserMovie[] = [
   },
 
   {
-    title: "Sur la piste du Marsupilami",
-    director: "Alain Chabat",
+    title: 'Sur la piste du Marsupilami',
+    director: 'Alain Chabat',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -11565,8 +11446,8 @@ export const dantesMovies: UserMovie[] = [
   },
 
   {
-    title: "Le Mystère Henri Pick",
-    director: "Rémi Bezançon",
+    title: 'Le Mystère Henri Pick',
+    director: 'Rémi Bezançon',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -11582,8 +11463,8 @@ export const dantesMovies: UserMovie[] = [
   },
 
   {
-    title: "Les Profs",
-    director: "Pierre-François Martin-Laval",
+    title: 'Les Profs',
+    director: 'Pierre-François Martin-Laval',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -11600,7 +11481,7 @@ export const dantesMovies: UserMovie[] = [
 
   {
     title: "L'Élève Ducobu",
-    director: "Philippe de Chauveron",
+    director: 'Philippe de Chauveron',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -11616,8 +11497,8 @@ export const dantesMovies: UserMovie[] = [
   },
 
   {
-    title: "Les Vacances de Ducobu",
-    director: "Philippe de Chauveron",
+    title: 'Les Vacances de Ducobu',
+    director: 'Philippe de Chauveron',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -11633,8 +11514,8 @@ export const dantesMovies: UserMovie[] = [
   },
 
   {
-    title: "Le Petit Nicolas",
-    director: "Laurent Tirard",
+    title: 'Le Petit Nicolas',
+    director: 'Laurent Tirard',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -11650,8 +11531,8 @@ export const dantesMovies: UserMovie[] = [
   },
 
   {
-    title: "Juste une illusion",
-    director: "Olivier Nakache, Éric Toledano",
+    title: 'Juste une illusion',
+    director: 'Olivier Nakache, Éric Toledano',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -11667,8 +11548,8 @@ export const dantesMovies: UserMovie[] = [
   },
 
   {
-    title: "Ténor",
-    director: "Claude Zidi Jr.",
+    title: 'Ténor',
+    director: 'Claude Zidi Jr.',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -11684,8 +11565,8 @@ export const dantesMovies: UserMovie[] = [
   },
 
   {
-    title: "Spartacus",
-    director: "Stanley Kubrick",
+    title: 'Spartacus',
+    director: 'Stanley Kubrick',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -11701,8 +11582,8 @@ export const dantesMovies: UserMovie[] = [
   },
 
   {
-    title: "Projet Dernière Chance",
-    director: "Phil Lord, Chris Miller",
+    title: 'Projet Dernière Chance',
+    director: 'Phil Lord, Chris Miller',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -11718,8 +11599,8 @@ export const dantesMovies: UserMovie[] = [
   },
 
   {
-    title: "Boîte noire",
-    director: "Yann Gozlan",
+    title: 'Boîte noire',
+    director: 'Yann Gozlan',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -11735,8 +11616,8 @@ export const dantesMovies: UserMovie[] = [
   },
 
   {
-    title: "Les Sentiers de la gloire",
-    director: "Stanley Kubrick",
+    title: 'Les Sentiers de la gloire',
+    director: 'Stanley Kubrick',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -11752,8 +11633,8 @@ export const dantesMovies: UserMovie[] = [
   },
 
   {
-    title: "Le Géant de fer",
-    director: "Brad Bird",
+    title: 'Le Géant de fer',
+    director: 'Brad Bird',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -11770,7 +11651,7 @@ export const dantesMovies: UserMovie[] = [
 
   {
     title: "Tintin et le Mystère de la Toison d'or",
-    director: "Jean-Jacques Vierne",
+    director: 'Jean-Jacques Vierne',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -11786,8 +11667,8 @@ export const dantesMovies: UserMovie[] = [
   },
 
   {
-    title: "Tintin et les Oranges bleues",
-    director: "Philippe Condroyer",
+    title: 'Tintin et les Oranges bleues',
+    director: 'Philippe Condroyer',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -11804,7 +11685,7 @@ export const dantesMovies: UserMovie[] = [
 
   {
     title: "Lawrence d'Arabie",
-    director: "David Lean",
+    director: 'David Lean',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -11820,8 +11701,8 @@ export const dantesMovies: UserMovie[] = [
   },
 
   {
-    title: "Le Comte de Monte-Cristo (1934)",
-    director: "Rowland V. Lee",
+    title: 'Le Comte de Monte-Cristo (1934)',
+    director: 'Rowland V. Lee',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -11837,8 +11718,8 @@ export const dantesMovies: UserMovie[] = [
   },
 
   {
-    title: "Le Comte de Monte-Cristo (1954)",
-    director: "Robert Vernay",
+    title: 'Le Comte de Monte-Cristo (1954)',
+    director: 'Robert Vernay',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -11854,8 +11735,8 @@ export const dantesMovies: UserMovie[] = [
   },
 
   {
-    title: "Le Comte de Monte-Cristo (1961)",
-    director: "Claude Autant-Lara",
+    title: 'Le Comte de Monte-Cristo (1961)',
+    director: 'Claude Autant-Lara',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -11871,8 +11752,8 @@ export const dantesMovies: UserMovie[] = [
   },
 
   {
-    title: "Le secret de la pyramide",
-    director: "Barry Levinson",
+    title: 'Le secret de la pyramide',
+    director: 'Barry Levinson',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -11888,8 +11769,8 @@ export const dantesMovies: UserMovie[] = [
   },
 
   {
-    title: "Des pissenlits par la racine",
-    director: "Georges Lautner",
+    title: 'Des pissenlits par la racine',
+    director: 'Georges Lautner',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -11905,8 +11786,8 @@ export const dantesMovies: UserMovie[] = [
   },
 
   {
-    title: "Une souris chez les hommes",
-    director: "Jacques Poitrenaud",
+    title: 'Une souris chez les hommes',
+    director: 'Jacques Poitrenaud',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -11922,8 +11803,8 @@ export const dantesMovies: UserMovie[] = [
   },
 
   {
-    title: "Le Corniaud",
-    director: "Gérard Oury",
+    title: 'Le Corniaud',
+    director: 'Gérard Oury',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -11939,8 +11820,8 @@ export const dantesMovies: UserMovie[] = [
   },
 
   {
-    title: "Les Bons Vivants",
-    director: "Gilles Grangier, Georges Lautner",
+    title: 'Les Bons Vivants',
+    director: 'Gilles Grangier, Georges Lautner',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -11956,8 +11837,8 @@ export const dantesMovies: UserMovie[] = [
   },
 
   {
-    title: "Le Gendarme à New York",
-    director: "Jean Girault",
+    title: 'Le Gendarme à New York',
+    director: 'Jean Girault',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -11973,8 +11854,8 @@ export const dantesMovies: UserMovie[] = [
   },
 
   {
-    title: "Fantomas se déchaîne",
-    director: "André Hunebelle",
+    title: 'Fantomas se déchaîne',
+    director: 'André Hunebelle',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -11990,8 +11871,8 @@ export const dantesMovies: UserMovie[] = [
   },
 
   {
-    title: "Le Grand Restaurant",
-    director: "Jacques Besnard",
+    title: 'Le Grand Restaurant',
+    director: 'Jacques Besnard',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -12007,8 +11888,8 @@ export const dantesMovies: UserMovie[] = [
   },
 
   {
-    title: "Fantomas contre Scotland Yard",
-    director: "André Hunebelle",
+    title: 'Fantomas contre Scotland Yard',
+    director: 'André Hunebelle',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -12024,8 +11905,8 @@ export const dantesMovies: UserMovie[] = [
   },
 
   {
-    title: "Les Grandes Vacances",
-    director: "Jean Girault",
+    title: 'Les Grandes Vacances',
+    director: 'Jean Girault',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -12041,8 +11922,8 @@ export const dantesMovies: UserMovie[] = [
   },
 
   {
-    title: "Le gendarme se marie",
-    director: "Jean Girault",
+    title: 'Le gendarme se marie',
+    director: 'Jean Girault',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -12058,8 +11939,8 @@ export const dantesMovies: UserMovie[] = [
   },
 
   {
-    title: "Hibernatus",
-    director: "Édouard Molinaro",
+    title: 'Hibernatus',
+    director: 'Édouard Molinaro',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -12076,7 +11957,7 @@ export const dantesMovies: UserMovie[] = [
 
   {
     title: "L'Homme orchestre",
-    director: "Serge Korber",
+    director: 'Serge Korber',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -12092,8 +11973,8 @@ export const dantesMovies: UserMovie[] = [
   },
 
   {
-    title: "Le Gendarme en balade",
-    director: "Jean Girault",
+    title: 'Le Gendarme en balade',
+    director: 'Jean Girault',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -12109,8 +11990,8 @@ export const dantesMovies: UserMovie[] = [
   },
 
   {
-    title: "Sur un arbre perché",
-    director: "Serge Korber",
+    title: 'Sur un arbre perché',
+    director: 'Serge Korber',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -12126,8 +12007,8 @@ export const dantesMovies: UserMovie[] = [
   },
 
   {
-    title: "Jo",
-    director: "Jean Girault",
+    title: 'Jo',
+    director: 'Jean Girault',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -12143,8 +12024,8 @@ export const dantesMovies: UserMovie[] = [
   },
 
   {
-    title: "La Zizanie",
-    director: "Claude Zidi",
+    title: 'La Zizanie',
+    director: 'Claude Zidi',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -12160,8 +12041,8 @@ export const dantesMovies: UserMovie[] = [
   },
 
   {
-    title: "Le Gendarme et les Extra-terrestres",
-    director: "Jean Girault",
+    title: 'Le Gendarme et les Extra-terrestres',
+    director: 'Jean Girault',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -12177,8 +12058,8 @@ export const dantesMovies: UserMovie[] = [
   },
 
   {
-    title: "L’Avare",
-    director: "Jean Girault",
+    title: 'L’Avare',
+    director: 'Jean Girault',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -12194,8 +12075,8 @@ export const dantesMovies: UserMovie[] = [
   },
 
   {
-    title: "Le Gendarme et les Gendarmettes",
-    director: "Jean Girault, Tony Aboyantz",
+    title: 'Le Gendarme et les Gendarmettes',
+    director: 'Jean Girault, Tony Aboyantz',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -12211,8 +12092,8 @@ export const dantesMovies: UserMovie[] = [
   },
 
   {
-    title: "Les seigneurs",
-    director: "Olivier Dahan",
+    title: 'Les seigneurs',
+    director: 'Olivier Dahan',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -12228,8 +12109,8 @@ export const dantesMovies: UserMovie[] = [
   },
 
   {
-    title: "Les Ensorceleuses",
-    director: "Griffin Dunne",
+    title: 'Les Ensorceleuses',
+    director: 'Griffin Dunne',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -12245,8 +12126,8 @@ export const dantesMovies: UserMovie[] = [
   },
 
   {
-    title: "Le Mytho",
-    director: "Dennis Dugan",
+    title: 'Le Mytho',
+    director: 'Dennis Dugan',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -12262,8 +12143,8 @@ export const dantesMovies: UserMovie[] = [
   },
 
   {
-    title: "Demain tout commence",
-    director: "Éric Toledano, Olivier Nakache",
+    title: 'Demain tout commence',
+    director: 'Éric Toledano, Olivier Nakache',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -12279,8 +12160,8 @@ export const dantesMovies: UserMovie[] = [
   },
 
   {
-    title: "The Kid",
-    director: "Charlie Chaplin",
+    title: 'The Kid',
+    director: 'Charlie Chaplin',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -12296,8 +12177,8 @@ export const dantesMovies: UserMovie[] = [
   },
 
   {
-    title: "La ruée vers l'or",
-    director: "Charlie Chaplin",
+    title: 'The Circus',
+    director: 'Charlie Chaplin',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -12313,8 +12194,8 @@ export const dantesMovies: UserMovie[] = [
   },
 
   {
-    title: "The Circus",
-    director: "Charlie Chaplin",
+    title: 'Monsieur Verdoux',
+    director: 'Charlie Chaplin',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -12330,25 +12211,8 @@ export const dantesMovies: UserMovie[] = [
   },
 
   {
-    title: "Monsieur Verdoux",
-    director: "Charlie Chaplin",
-    rating: 0,
-    timesWatched: 1,
-    firstViewedDate: '',
-    lastViewedDate: '',
-    seenAtCinema: false,
-    owned: false,
-    wantToSeeAgain: false,
-    watchPriority: 1,
-    ratingComment: '',
-    inList: [],
-    borrowed: '',
-    loaned: '',
-  },
-
-  {
-    title: "Austin Powers dans Goldmember",
-    director: "Jay Roach",
+    title: 'Austin Powers dans Goldmember',
+    director: 'Jay Roach',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -12365,7 +12229,7 @@ export const dantesMovies: UserMovie[] = [
 
   {
     title: "Austin Powers - L'Espion qui m'a tirée",
-    director: "Jay Roach",
+    director: 'Jay Roach',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -12381,8 +12245,8 @@ export const dantesMovies: UserMovie[] = [
   },
 
   {
-    title: "Cinéman",
-    director: "Yann Moix",
+    title: 'Cinéman',
+    director: 'Yann Moix',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -12398,8 +12262,8 @@ export const dantesMovies: UserMovie[] = [
   },
 
   {
-    title: "Deux heures moins le quart avant Jésus-Christ",
-    director: "Jean Yanne",
+    title: 'Deux heures moins le quart avant Jésus-Christ',
+    director: 'Jean Yanne',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -12415,8 +12279,8 @@ export const dantesMovies: UserMovie[] = [
   },
 
   {
-    title: "Ma sorcière bien aimée",
-    director: "Nora Ephron",
+    title: 'Ma sorcière bien aimée',
+    director: 'Nora Ephron',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -12432,8 +12296,8 @@ export const dantesMovies: UserMovie[] = [
   },
 
   {
-    title: "New York, New York",
-    director: "Martin Scorsese",
+    title: 'New York, New York',
+    director: 'Martin Scorsese',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -12449,8 +12313,8 @@ export const dantesMovies: UserMovie[] = [
   },
 
   {
-    title: "Limelight",
-    director: "Charlie Chaplin",
+    title: 'Limelight',
+    director: 'Charlie Chaplin',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -12466,8 +12330,8 @@ export const dantesMovies: UserMovie[] = [
   },
 
   {
-    title: "Chocolat",
-    director: "Roschdy Zem",
+    title: 'Chocolat',
+    director: 'Roschdy Zem',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -12483,8 +12347,8 @@ export const dantesMovies: UserMovie[] = [
   },
 
   {
-    title: "Pentagon Papers",
-    director: "Steven Spielberg",
+    title: 'Pentagon Papers',
+    director: 'Steven Spielberg',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -12500,8 +12364,8 @@ export const dantesMovies: UserMovie[] = [
   },
 
   {
-    title: "Empire du soleil",
-    director: "Steven Spielberg",
+    title: 'Empire du soleil',
+    director: 'Steven Spielberg',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -12517,8 +12381,8 @@ export const dantesMovies: UserMovie[] = [
   },
 
   {
-    title: "Ainsi va la vie",
-    director: "Forest Whitaker",
+    title: 'Ainsi va la vie',
+    director: 'Forest Whitaker',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -12534,8 +12398,8 @@ export const dantesMovies: UserMovie[] = [
   },
 
   {
-    title: "Les Quatre Filles du docteur March",
-    director: "Gillian Armstrong",
+    title: 'Les Quatre Filles du docteur March',
+    director: 'Gillian Armstrong',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -12551,7 +12415,7 @@ export const dantesMovies: UserMovie[] = [
   },
 
   {
-    title: "Hurlevent",
+    title: 'Hurlevent',
     director: "Frances O'Connor",
     rating: 0,
     timesWatched: 1,
@@ -12568,8 +12432,8 @@ export const dantesMovies: UserMovie[] = [
   },
 
   {
-    title: "Les Marches du pouvoir",
-    director: "George Clooney",
+    title: 'Les Marches du pouvoir',
+    director: 'George Clooney',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -12585,8 +12449,8 @@ export const dantesMovies: UserMovie[] = [
   },
 
   {
-    title: "Tu ne tueras point",
-    director: "Mel Gibson",
+    title: 'Tu ne tueras point',
+    director: 'Mel Gibson',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -12602,8 +12466,8 @@ export const dantesMovies: UserMovie[] = [
   },
 
   {
-    title: "Les Misérables (1958)",
-    director: "Jean-Paul Le Chanois",
+    title: 'Les Misérables (1958)',
+    director: 'Jean-Paul Le Chanois',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -12619,8 +12483,8 @@ export const dantesMovies: UserMovie[] = [
   },
 
   {
-    title: "Les Misérables (1978)",
-    director: "Glenn Jordan",
+    title: 'Les Misérables (1978)',
+    director: 'Glenn Jordan',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -12636,8 +12500,8 @@ export const dantesMovies: UserMovie[] = [
   },
 
   {
-    title: "Les Misérables (1995)",
-    director: "Claude Lelouch",
+    title: 'Les Misérables (1995)',
+    director: 'Claude Lelouch',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -12653,8 +12517,8 @@ export const dantesMovies: UserMovie[] = [
   },
 
   {
-    title: "Les Misérables (1998)",
-    director: "Bille August",
+    title: 'Les Misérables (1998)',
+    director: 'Bille August',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -12670,8 +12534,8 @@ export const dantesMovies: UserMovie[] = [
   },
 
   {
-    title: "Mr. Holmes",
-    director: "Bill Condon",
+    title: 'Mr. Holmes',
+    director: 'Bill Condon',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -12687,8 +12551,8 @@ export const dantesMovies: UserMovie[] = [
   },
 
   {
-    title: "Napoléon",
-    director: "Ridley Scott",
+    title: 'Napoléon',
+    director: 'Ridley Scott',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -12704,8 +12568,8 @@ export const dantesMovies: UserMovie[] = [
   },
 
   {
-    title: "House of Gucci",
-    director: "Ridley Scott",
+    title: 'House of Gucci',
+    director: 'Ridley Scott',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -12721,8 +12585,8 @@ export const dantesMovies: UserMovie[] = [
   },
 
   {
-    title: "Twin Peaks: Fire Walk with Me",
-    director: "David Lynch",
+    title: 'Twin Peaks: Fire Walk with Me',
+    director: 'David Lynch',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -12738,8 +12602,8 @@ export const dantesMovies: UserMovie[] = [
   },
 
   {
-    title: "Un Noël en Californie",
-    director: "Shawn Seet",
+    title: 'Un Noël en Californie',
+    director: 'Shawn Seet',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -12756,7 +12620,7 @@ export const dantesMovies: UserMovie[] = [
 
   {
     title: "20 ans d'écart",
-    director: "David Moreau",
+    director: 'David Moreau',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -12772,8 +12636,8 @@ export const dantesMovies: UserMovie[] = [
   },
 
   {
-    title: "Vanilla Sky",
-    director: "Cameron Crowe",
+    title: 'Vanilla Sky',
+    director: 'Cameron Crowe',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -12790,7 +12654,7 @@ export const dantesMovies: UserMovie[] = [
 
   {
     title: "2001 : L'Odyssée de l'espace",
-    director: "Stanley Kubrick",
+    director: 'Stanley Kubrick',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -12806,8 +12670,8 @@ export const dantesMovies: UserMovie[] = [
   },
 
   {
-    title: "Dune",
-    director: "David Lynch",
+    title: 'Dune',
+    director: 'David Lynch',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -12823,8 +12687,8 @@ export const dantesMovies: UserMovie[] = [
   },
 
   {
-    title: "Le Jeu",
-    director: "Fred Cavayé",
+    title: 'Le Jeu',
+    director: 'Fred Cavayé',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',
@@ -12840,8 +12704,8 @@ export const dantesMovies: UserMovie[] = [
   },
 
   {
-    title: "Traque sur Internet",
-    director: "Irwin Winkler",
+    title: 'Traque sur Internet',
+    director: 'Irwin Winkler',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',

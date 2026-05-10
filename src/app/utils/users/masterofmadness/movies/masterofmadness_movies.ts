@@ -2449,21 +2449,4 @@ export const masterofmadnessMovies: UserMovie[] = [
     loaned: '',
     inList: [],
   },
-
-  {
-    title: 'One Piece Film: Red',
-    director: 'Gorō Taniguchi',
-    rating: 0,
-    timesWatched: 1,
-    firstViewedDate: '',
-    lastViewedDate: '',
-    seenAtCinema: false,
-    owned: false,
-    wantToSeeAgain: false,
-    watchPriority: 1,
-    ratingComment: '',
-    borrowed: '',
-    loaned: '',
-    inList: [],
-  },
 ];
