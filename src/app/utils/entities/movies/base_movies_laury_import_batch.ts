@@ -2806,7 +2806,7 @@ export const baseMoviesLauryImportBatch: BaseMovie[] = [
       { name: 'Joe Morton' },
     ],
     coverUrl:
-      'https://www.ecranlarge.com/content/uploads/2020/01/apparences-affiche-1158427.jpg',
+      '/movies_pictures/a5f155da9503.jpg',
     releaseDate: '2000-09-13',
     length: 130,
     genre: ['Thriller', 'Horreur'],
@@ -2829,7 +2829,7 @@ export const baseMoviesLauryImportBatch: BaseMovie[] = [
       { name: 'Ali Suliman' },
     ],
     coverUrl:
-      'https://www.critikat.com/wp-content/uploads/2013/12/artoff6870.jpg',
+      '/movies_pictures/5de1e442b5e4.jpg',
     releaseDate: '2013-12-25',
     length: 121,
     genre: ['Guerre', 'Action', 'Drame'],
@@ -2852,7 +2852,7 @@ export const baseMoviesLauryImportBatch: BaseMovie[] = [
       { name: 'John Hurt' },
     ],
     coverUrl:
-      'https://www.ecranlarge.com/content/uploads/2019/11/z9mu3mpozymuzf2j3cdqqzc9sz7-070.jpg',
+      '/movies_pictures/3bf67dea1163.jpg',
     releaseDate: '1985-07-24',
     length: 80,
     genre: ['Animation', 'Fantastique', 'Jeunesse'],
@@ -2875,7 +2875,7 @@ export const baseMoviesLauryImportBatch: BaseMovie[] = [
       { name: 'Judith Light' },
     ],
     coverUrl:
-      'https://img-4.linternaute.com/FPuhQwpuQ1tQdii5I_0FbFxY3mQ=/1240x/9363311557654743b98e815625331cb0/ccmcms-linternaute/37865.jpg',
+      '/movies_pictures/f8934a4f1e2c.jpg',
     releaseDate: '1999-09-01',
     length: 101,
     genre: ['Action', 'Thriller', 'Comédie'],
@@ -2897,7 +2897,7 @@ export const baseMoviesLauryImportBatch: BaseMovie[] = [
       { name: 'Alan Ruck' },
       { name: 'Frank Collison' },
     ],
-    coverUrl: 'https://www.avoir-alire.com/IMG/logo/phenomenes.jpg',
+    coverUrl: '/movies_pictures/67c9e4f49d17.jpg',
     releaseDate: '2008-06-11',
     length: 91,
     genre: ['Catastrophe', 'Thriller', 'Science Fiction'],
