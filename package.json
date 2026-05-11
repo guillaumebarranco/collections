@@ -6,6 +6,7 @@
     "start": "ng serve",
     "check-badges": "ts-node --project tsconfig.scripts.json scripts/check-badges.ts",
     "check-user-movies-dupes": "ts-node --project tsconfig.scripts.json scripts/check-user-movies-dupes.ts",
+    "list-base-movies-few-actors": "ts-node --project tsconfig.scripts.json scripts/list-base-movies-few-actors.ts",
     "localize-entity-covers": "node scripts/localize-entity-cover-urls.js",
     "localize-entity-covers:dry-run": "node scripts/localize-entity-cover-urls.js --dry-run",
     "build": "ng build",
