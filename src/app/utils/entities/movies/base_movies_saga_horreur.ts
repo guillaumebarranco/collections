@@ -721,12 +721,11 @@ export const baseMoviesSagaHorreur: BaseMovie[] = [
     title: 'Paranormal Activity',
     director: 'Oren Peli',
     actors: [
-      {
-        name: 'Katie Featherston',
-      },
-      {
-        name: 'Micah Sloat',
-      },
+      { name: 'Katie Featherston' },
+      { name: 'Micah Sloat' },
+      { name: 'Mark Fredrichs' },
+      { name: 'Amber Armstrong' },
+      { name: 'Ashley Palmer' },
     ],
     coverUrl: '/movies_pictures/paranormal_activity.jpg',
     releaseDate: '2007-10-14',
@@ -1176,15 +1175,13 @@ export const baseMoviesSagaHorreur: BaseMovie[] = [
     title: 'Insidious: The Red Door',
     director: 'Patrick Wilson',
     actors: [
-      {
-        name: 'Micah Abbey',
-      },
-      {
-        name: 'Shamon Brown Jr.',
-      },
-      {
-        name: 'Nicolas Cantu',
-      },
+      { name: 'Patrick Wilson' },
+      { name: 'Ty Simpkins' },
+      { name: 'Rose Byrne' },
+      { name: 'Sinclair Daniel' },
+      { name: 'Hiam Abbass' },
+      { name: 'Andrew Astor' },
+      { name: 'Juliana Davies' },
     ],
     coverUrl: '/movies_pictures/insidious_the_red_door.jpg',
     releaseDate: '2023-07-05',
@@ -1200,15 +1197,13 @@ export const baseMoviesSagaHorreur: BaseMovie[] = [
     title: 'Sans un bruit 2',
     director: 'John Krasinski',
     actors: [
-      {
-        name: 'Emily Blunt',
-      },
-      {
-        name: 'Cillian Murphy',
-      },
-      {
-        name: 'Millicent Simmonds',
-      },
+      { name: 'Emily Blunt' },
+      { name: 'Cillian Murphy' },
+      { name: 'Millicent Simmonds' },
+      { name: 'Noah Jupe' },
+      { name: 'Djimon Hounsou' },
+      { name: 'John Krasinski' },
+      { name: 'Wayne Duvall' },
     ],
     coverUrl: '/movies_pictures/sans_un_bruit_2.jpg',
     releaseDate: '2021-06-16',
@@ -1224,15 +1219,13 @@ export const baseMoviesSagaHorreur: BaseMovie[] = [
     title: 'American Nightmare 4 : Les Origines',
     director: 'Gerard McMurray',
     actors: [
-      {
-        name: 'Y\'lan Noel',
-      },
-      {
-        name: 'Lex Scott Davis',
-      },
-      {
-        name: 'Joivan Wade',
-      },
+      { name: 'Y\'lan Noel' },
+      { name: 'Lex Scott Davis' },
+      { name: 'Joivan Wade' },
+      { name: 'Mugga' },
+      { name: 'Patch Darragh' },
+      { name: 'Marisa Tomei' },
+      { name: 'Luna Lauren Velez' },
     ],
     coverUrl: '/movies_pictures/the_first_purge.jpg',
     releaseDate: '2018-07-04',
@@ -1248,15 +1241,13 @@ export const baseMoviesSagaHorreur: BaseMovie[] = [
     title: 'Sans un bruit',
     director: 'John Krasinski',
     actors: [
-      {
-        name: 'Emily Blunt',
-      },
-      {
-        name: 'John Krasinski',
-      },
-      {
-        name: 'Millicent Simmonds',
-      },
+      { name: 'Emily Blunt' },
+      { name: 'John Krasinski' },
+      { name: 'Millicent Simmonds' },
+      { name: 'Noah Jupe' },
+      { name: 'Cade Woodward' },
+      { name: 'Leon Russom' },
+      { name: 'Doris McCarthy' },
     ],
     coverUrl: '/movies_pictures/a_quiet_place.jpg',
     releaseDate: '2018-06-20',
@@ -1272,15 +1263,13 @@ export const baseMoviesSagaHorreur: BaseMovie[] = [
     title: 'American Nightmare 2 : Anarchy',
     director: 'James DeMonaco',
     actors: [
-      {
-        name: 'Frank Grillo',
-      },
-      {
-        name: 'Zach Gilford',
-      },
-      {
-        name: 'Kiele Sanchez',
-      },
+      { name: 'Frank Grillo' },
+      { name: 'Zach Gilford' },
+      { name: 'Kiele Sanchez' },
+      { name: 'Carmen Ejogo' },
+      { name: 'Zoë Soul' },
+      { name: 'Justina Machado' },
+      { name: 'Michael K. Williams' },
     ],
     coverUrl: '/movies_pictures/the_purge_anarchy.jpg',
     releaseDate: '2014-07-23',
@@ -1296,15 +1285,13 @@ export const baseMoviesSagaHorreur: BaseMovie[] = [
     title: 'Insidious : Chapitre 2',
     director: 'James Wan',
     actors: [
-      {
-        name: 'Patrick Wilson',
-      },
-      {
-        name: 'Rose Byrne',
-      },
-      {
-        name: 'Barbara Hershey',
-      },
+      { name: 'Patrick Wilson' },
+      { name: 'Rose Byrne' },
+      { name: 'Barbara Hershey' },
+      { name: 'Lin Shaye' },
+      { name: 'Ty Simpkins' },
+      { name: 'Leigh Whannell' },
+      { name: 'Angus Sampson' },
     ],
     coverUrl: '/movies_pictures/insidious_chapter_2.jpg',
     releaseDate: '2013-10-02',
@@ -1320,15 +1307,13 @@ export const baseMoviesSagaHorreur: BaseMovie[] = [
     title: 'American Nightmare',
     director: 'James DeMonaco',
     actors: [
-      {
-        name: 'Ethan Hawke',
-      },
-      {
-        name: 'Lena Headey',
-      },
-      {
-        name: 'Max Burkholder',
-      },
+      { name: 'Ethan Hawke' },
+      { name: 'Lena Headey' },
+      { name: 'Max Burkholder' },
+      { name: 'Adelaide Kane' },
+      { name: 'Edwin Hodge' },
+      { name: 'Rhys Wakefield' },
+      { name: 'Tony Oller' },
     ],
     coverUrl: '/movies_pictures/the_purge.jpg',
     releaseDate: '2013-08-07',
@@ -1344,15 +1329,13 @@ export const baseMoviesSagaHorreur: BaseMovie[] = [
     title: 'Evil Dead',
     director: 'Fede Álvarez',
     actors: [
-      {
-        name: 'Jane Levy',
-      },
-      {
-        name: 'Shiloh Fernandez',
-      },
-      {
-        name: 'Lou Taylor Pucci',
-      },
+      { name: 'Jane Levy' },
+      { name: 'Shiloh Fernandez' },
+      { name: 'Lou Taylor Pucci' },
+      { name: 'Jessica Lucas' },
+      { name: 'Elizabeth Blackmore' },
+      { name: 'Phoenix Connolly' },
+      { name: 'Bruce Campbell' },
     ],
     coverUrl: '/movies_pictures/evil_dead.jpg',
     releaseDate: '2013-05-01',
@@ -1368,15 +1351,13 @@ export const baseMoviesSagaHorreur: BaseMovie[] = [
     title: 'Insidious',
     director: 'James Wan',
     actors: [
-      {
-        name: 'Patrick Wilson',
-      },
-      {
-        name: 'Rose Byrne',
-      },
-      {
-        name: 'Lin Shaye',
-      },
+      { name: 'Patrick Wilson' },
+      { name: 'Rose Byrne' },
+      { name: 'Lin Shaye' },
+      { name: 'Ty Simpkins' },
+      { name: 'Barbara Hershey' },
+      { name: 'Leigh Whannell' },
+      { name: 'Angus Sampson' },
     ],
     coverUrl: '/movies_pictures/insidious.jpg',
     releaseDate: '2011-06-15',
@@ -1392,15 +1373,13 @@ export const baseMoviesSagaHorreur: BaseMovie[] = [
     title: 'Evil Dead II',
     director: 'Sam Raimi',
     actors: [
-      {
-        name: 'Bruce Campbell',
-      },
-      {
-        name: 'Sarah Berry',
-      },
-      {
-        name: 'Dan Hicks',
-      },
+      { name: 'Bruce Campbell' },
+      { name: 'Sarah Berry' },
+      { name: 'Dan Hicks' },
+      { name: 'Kassie Wesley DePaiva' },
+      { name: 'Theodore Raimi' },
+      { name: 'Denise Bixler' },
+      { name: 'Richard Domeier' },
     ],
     coverUrl: '/movies_pictures/evil_dead_ii.jpg',
     releaseDate: '1987-07-08',
@@ -1416,15 +1395,13 @@ export const baseMoviesSagaHorreur: BaseMovie[] = [
     title: 'Evil Dead',
     director: 'Sam Raimi',
     actors: [
-      {
-        name: 'Bruce Campbell',
-      },
-      {
-        name: 'Ellen Sandweiss',
-      },
-      {
-        name: 'Richard DeManincor',
-      },
+      { name: 'Bruce Campbell' },
+      { name: 'Ellen Sandweiss' },
+      { name: 'Richard DeManincor' },
+      { name: 'Betsy Baker' },
+      { name: 'Theresa Tilly' },
+      { name: 'Philip A. Gillis' },
+      { name: 'Dorothy Tapert' },
     ],
     coverUrl: '/movies_pictures/the_evil_dead.jpg',
     releaseDate: '1983-08-24',

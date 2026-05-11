@@ -361,15 +361,13 @@ export const baseMoviesWestern: BaseMovie[] = [
     title: 'Les Huit Salopards',
     director: 'Quentin Tarantino',
     actors: [
-      {
-        name: 'Samuel L. Jackson',
-      },
-      {
-        name: 'Kurt Russell',
-      },
-      {
-        name: 'Jennifer Jason Leigh',
-      },
+      { name: 'Samuel L. Jackson' },
+      { name: 'Kurt Russell' },
+      { name: 'Jennifer Jason Leigh' },
+      { name: 'Walton Goggins' },
+      { name: 'Tim Roth' },
+      { name: 'Michael Madsen' },
+      { name: 'Bruce Dern' },
     ],
     coverUrl: '/movies_pictures/the_hateful_eight.jpg',
     releaseDate: '2016-01-06',
@@ -385,15 +383,13 @@ export const baseMoviesWestern: BaseMovie[] = [
     title: "Il était une fois dans l'Ouest",
     director: 'Sergio Leone',
     actors: [
-      {
-        name: 'Claudia Cardinale',
-      },
-      {
-        name: 'Henry Fonda',
-      },
-      {
-        name: 'Charles Bronson',
-      },
+      { name: 'Claudia Cardinale' },
+      { name: 'Henry Fonda' },
+      { name: 'Charles Bronson' },
+      { name: 'Jason Robards' },
+      { name: 'Gabriele Ferzetti' },
+      { name: 'Paolo Stoppa' },
+      { name: 'Frank Wolff' },
     ],
     coverUrl: '/movies_pictures/03454bc973db.jpg',
     releaseDate: '1969-08-27',

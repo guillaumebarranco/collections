@@ -113,7 +113,15 @@ export const baseMoviesSagaComedie: BaseMovie[] = [
   {
     title: "Maman j'ai encore raté l'avion",
     director: 'Chris Columbus',
-    actors: [{ name: 'Macaulay Culkin' }],
+    actors: [
+      { name: 'Macaulay Culkin' },
+      { name: 'Joe Pesci' },
+      { name: 'Daniel Stern' },
+      { name: 'Catherine O\'Hara' },
+      { name: 'John Heard' },
+      { name: 'Tim Curry' },
+      { name: 'Brenda Fricker' },
+    ],
     coverUrl: '/movies_pictures/d2f3ed2fd427.png',
     releaseDate: '1992-11-20',
     length: 120,
@@ -1524,15 +1532,13 @@ export const baseMoviesSagaComedie: BaseMovie[] = [
     title: 'Magic Mike XXL',
     director: 'Gregory Jacobs',
     actors: [
-      {
-        name: 'Channing Tatum',
-      },
-      {
-        name: 'Matt Bomer',
-      },
-      {
-        name: 'Joe Manganiello',
-      },
+      { name: 'Channing Tatum' },
+      { name: 'Matt Bomer' },
+      { name: 'Joe Manganiello' },
+      { name: 'Adam Rodriguez' },
+      { name: 'Kevin Nash' },
+      { name: 'Amber Heard' },
+      { name: 'Jada Pinkett Smith' },
     ],
     coverUrl: '/movies_pictures/magic_mike_xxl.jpg',
     releaseDate: '2015-07-08',
@@ -1548,15 +1554,13 @@ export const baseMoviesSagaComedie: BaseMovie[] = [
     title: 'Magic Mike',
     director: 'Steven Soderbergh',
     actors: [
-      {
-        name: 'Ray Romano',
-      },
-      {
-        name: 'John Leguizamo',
-      },
-      {
-        name: 'Denis Leary',
-      },
+      { name: 'Channing Tatum' },
+      { name: 'Alex Pettyfer' },
+      { name: 'Matthew McConaughey' },
+      { name: 'Matt Bomer' },
+      { name: 'Joe Manganiello' },
+      { name: 'Adam Rodriguez' },
+      { name: 'Olivia Munn' },
     ],
     coverUrl: '/movies_pictures/magic_mike.jpg',
     releaseDate: '2012-08-15',
@@ -1572,15 +1576,13 @@ export const baseMoviesSagaComedie: BaseMovie[] = [
     title: 'Hot Fuzz',
     director: 'Edgar Wright',
     actors: [
-      {
-        name: 'Simon Pegg',
-      },
-      {
-        name: 'Nick Frost',
-      },
-      {
-        name: 'Jim Broadbent',
-      },
+      { name: 'Simon Pegg' },
+      { name: 'Nick Frost' },
+      { name: 'Jim Broadbent' },
+      { name: 'Timothy Dalton' },
+      { name: 'Paddy Considine' },
+      { name: 'Edward Woodward' },
+      { name: 'Rafe Spall' },
     ],
     coverUrl:
       '/movies_pictures/9243a4d2e759.jpg',

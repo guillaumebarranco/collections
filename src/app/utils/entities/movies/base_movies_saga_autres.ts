@@ -602,9 +602,13 @@ export const baseMoviesSagaAutres: BaseMovie[] = [
     title: 'A couteaux tirés 2 : Glass Onion',
     director: 'Rian Johnson',
     actors: [
-      {
-        name: 'Daniel Craig',
-      },
+      { name: 'Daniel Craig' },
+      { name: 'Edward Norton' },
+      { name: 'Janelle Monáe' },
+      { name: 'Kathryn Hahn' },
+      { name: 'Leslie Odom Jr.' },
+      { name: 'Kate Hudson' },
+      { name: 'Dave Bautista' },
     ],
     coverUrl:
       '/movies_pictures/586723-glass-onion-a-knives-out-mystery-0-150-0-225-crop.jpg',
@@ -1127,15 +1131,13 @@ export const baseMoviesSagaAutres: BaseMovie[] = [
     title: 'The Equalizer 3',
     director: 'Antoine Fuqua',
     actors: [
-      {
-        name: 'Josh Hutcherson',
-      },
-      {
-        name: 'Piper Rubio',
-      },
-      {
-        name: 'Matthew Lillard',
-      },
+      { name: 'Denzel Washington' },
+      { name: 'Dakota Fanning' },
+      { name: 'Eugenio Mastrandrea' },
+      { name: 'David Denman' },
+      { name: 'Gaia Scodellaro' },
+      { name: 'Remo Girone' },
+      { name: 'Andrea Scarduzio' },
     ],
     coverUrl: '/movies_pictures/the_equalizer_3.jpg',
     releaseDate: '2023-01-01',
@@ -1151,15 +1153,13 @@ export const baseMoviesSagaAutres: BaseMovie[] = [
     title: 'Werewolf by Night',
     director: 'Michael Giacchino',
     actors: [
-      {
-        name: 'Gael García Bernal',
-      },
-      {
-        name: 'Laura Donnelly',
-      },
-      {
-        name: 'Harriet Sansom Harris',
-      },
+      { name: 'Gael García Bernal' },
+      { name: 'Laura Donnelly' },
+      { name: 'Harriet Sansom Harris' },
+      { name: 'Kirk R. Thatcher' },
+      { name: 'Eugenie Bondurant' },
+      { name: 'Leonardo Nam' },
+      { name: 'Daniel J. Watts' },
     ],
     coverUrl: '/movies_pictures/werewolf_by_night.jpg',
     releaseDate: '2022-01-01',
@@ -1175,15 +1175,13 @@ export const baseMoviesSagaAutres: BaseMovie[] = [
     title: 'Balle Perdue',
     director: 'Guillaume Pierret',
     actors: [
-      {
-        name: 'Alban Lenoir',
-      },
-      {
-        name: 'Nicolas Duvauchelle',
-      },
-      {
-        name: 'Stéfi Celma',
-      },
+      { name: 'Alban Lenoir' },
+      { name: 'Nicolas Duvauchelle' },
+      { name: 'Stéfi Celma' },
+      { name: 'Ramzy Bedia' },
+      { name: 'Sébastien Lalanne' },
+      { name: 'Rod Paradot' },
+      { name: 'Patrick Médioni' },
     ],
     coverUrl: '/movies_pictures/lost_bullet.jpg',
     releaseDate: '2020-01-01',
@@ -1199,15 +1197,13 @@ export const baseMoviesSagaAutres: BaseMovie[] = [
     title: 'En avant',
     director: 'Dan Scanlon',
     actors: [
-      {
-        name: 'Tom Holland',
-      },
-      {
-        name: 'Chris Pratt',
-      },
-      {
-        name: 'Julia Louis-Dreyfus',
-      },
+      { name: 'Tom Holland' },
+      { name: 'Chris Pratt' },
+      { name: 'Julia Louis-Dreyfus' },
+      { name: 'Octavia Spencer' },
+      { name: 'Mel Rodriguez' },
+      { name: 'Lena Waithe' },
+      { name: 'Ali Wong' },
     ],
     coverUrl: '/movies_pictures/en_avant.jpg',
     releaseDate: '2020-03-04',
@@ -1223,15 +1219,13 @@ export const baseMoviesSagaAutres: BaseMovie[] = [
     title: 'Step Up: All In',
     director: 'Trish Sie',
     actors: [
-      {
-        name: 'Ryan Guzman',
-      },
-      {
-        name: 'Briana Evigan',
-      },
-      {
-        name: 'Alyson Stoner',
-      },
+      { name: 'Ryan Guzman' },
+      { name: 'Briana Evigan' },
+      { name: 'Alyson Stoner' },
+      { name: 'Adam G. Sevani' },
+      { name: 'Stephen Boss' },
+      { name: 'Misha Gabriel' },
+      { name: 'Izabella Miko' },
     ],
     coverUrl: '/movies_pictures/step_up_all_in.jpg',
     releaseDate: '2014-08-08',
@@ -1247,15 +1241,13 @@ export const baseMoviesSagaAutres: BaseMovie[] = [
     title: 'High School Musical 3 : Nos années lycée',
     director: 'Kenny Ortega',
     actors: [
-      {
-        name: 'Bruce Reitherman',
-      },
-      {
-        name: 'Phil Harris',
-      },
-      {
-        name: 'Sebastian Cabot',
-      },
+      { name: 'Zac Efron' },
+      { name: 'Vanessa Hudgens' },
+      { name: 'Ashley Tisdale' },
+      { name: 'Lucas Grabeel' },
+      { name: 'Corbin Bleu' },
+      { name: 'Monique Coleman' },
+      { name: 'Olesya Rulin' },
     ],
     coverUrl: '/movies_pictures/high_school_musical_3_senior_year.jpg',
     releaseDate: '2008-10-22',
@@ -1271,15 +1263,13 @@ export const baseMoviesSagaAutres: BaseMovie[] = [
     title: 'High School Musical 2',
     director: 'Kenny Ortega',
     actors: [
-      {
-        name: 'Zac Efron',
-      },
-      {
-        name: 'Vanessa Hudgens',
-      },
-      {
-        name: 'Ashley Tisdale',
-      },
+      { name: 'Zac Efron' },
+      { name: 'Vanessa Hudgens' },
+      { name: 'Ashley Tisdale' },
+      { name: 'Lucas Grabeel' },
+      { name: 'Corbin Bleu' },
+      { name: 'Monique Coleman' },
+      { name: 'Olesya Rulin' },
     ],
     coverUrl: '/movies_pictures/high_school_musical_2.jpg',
     releaseDate: '2007-09-25',
@@ -1295,15 +1285,13 @@ export const baseMoviesSagaAutres: BaseMovie[] = [
     title: 'High School Musical : Premiers pas sur scène',
     director: 'Kenny Ortega',
     actors: [
-      {
-        name: 'Zac Efron',
-      },
-      {
-        name: 'Vanessa Hudgens',
-      },
-      {
-        name: 'Ashley Tisdale',
-      },
+      { name: 'Zac Efron' },
+      { name: 'Vanessa Hudgens' },
+      { name: 'Ashley Tisdale' },
+      { name: 'Lucas Grabeel' },
+      { name: 'Corbin Bleu' },
+      { name: 'Monique Coleman' },
+      { name: 'Alyson Reed' },
     ],
     coverUrl: '/movies_pictures/high_school_musical.jpg',
     releaseDate: '2006-10-30',

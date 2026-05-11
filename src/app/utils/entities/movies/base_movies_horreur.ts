@@ -1914,7 +1914,7 @@ export const baseMoviesHorreur: BaseMovie[] = [
   {
     title: 'Creep',
     director: 'Patrick Brice',
-    actors: [{ name: 'Mark Duplass' }, { name: 'Patrick Brice' }],
+    actors: [{ name: 'Mark Duplass' }, { name: 'Patrick Brice' }, { name: 'Katie Aselton' }],
     coverUrl: '/movies_pictures/2a399b569f61.jpg',
     releaseDate: '2014-01-01',
     length: 77,
@@ -2200,15 +2200,13 @@ export const baseMoviesHorreur: BaseMovie[] = [
     title: 'Hérédité',
     director: 'Ari Aster',
     actors: [
-      {
-        name: 'Toni Collette',
-      },
-      {
-        name: 'Alex Wolff',
-      },
-      {
-        name: 'Gabriel Byrne',
-      },
+      { name: 'Toni Collette' },
+      { name: 'Alex Wolff' },
+      { name: 'Gabriel Byrne' },
+      { name: 'Milly Shapiro' },
+      { name: 'Ann Dowd' },
+      { name: 'Mallory Bechtel' },
+      { name: 'Christy Summerhays' },
     ],
     coverUrl: '/movies_pictures/hereditary.jpg',
     releaseDate: '2018-06-13',
@@ -2224,15 +2222,13 @@ export const baseMoviesHorreur: BaseMovie[] = [
     title: 'Ça',
     director: 'Andy Muschietti',
     actors: [
-      {
-        name: 'Bill Skarsgård',
-      },
-      {
-        name: 'Jaeden Martell',
-      },
-      {
-        name: 'Sophia Lillis',
-      },
+      { name: 'Bill Skarsgård' },
+      { name: 'Jaeden Martell' },
+      { name: 'Sophia Lillis' },
+      { name: 'Finn Wolfhard' },
+      { name: 'Jeremy Ray Taylor' },
+      { name: 'Chosen Jacobs' },
+      { name: 'Wyatt Oleff' },
     ],
     coverUrl: '/movies_pictures/it.jpg',
     releaseDate: '2017-09-20',
@@ -2248,15 +2244,13 @@ export const baseMoviesHorreur: BaseMovie[] = [
     title: 'Get Out',
     director: 'Jordan Peele',
     actors: [
-      {
-        name: 'Daniel Kaluuya',
-      },
-      {
-        name: 'Allison Williams',
-      },
-      {
-        name: 'Catherine Keener',
-      },
+      { name: 'Daniel Kaluuya' },
+      { name: 'Allison Williams' },
+      { name: 'Catherine Keener' },
+      { name: 'Bradley Whitford' },
+      { name: 'Caleb Landry Jones' },
+      { name: 'LilRel Howery' },
+      { name: 'Lakeith Stanfield' },
     ],
     coverUrl: '/movies_pictures/get_out.jpg',
     releaseDate: '2017-05-03',
@@ -2272,15 +2266,13 @@ export const baseMoviesHorreur: BaseMovie[] = [
     title: 'American Nightmare 3 : Élections',
     director: 'James DeMonaco',
     actors: [
-      {
-        name: 'Frank Grillo',
-      },
-      {
-        name: 'Elizabeth Mitchell',
-      },
-      {
-        name: 'Mykelti Williamson',
-      },
+      { name: 'Frank Grillo' },
+      { name: 'Elizabeth Mitchell' },
+      { name: 'Mykelti Williamson' },
+      { name: 'Joseph Julian Soria' },
+      { name: 'Betty Gabriel' },
+      { name: 'Edwin Hodge' },
+      { name: 'Kyle Secor' },
     ],
     coverUrl: '/movies_pictures/the_purge_election_year.jpg',
     releaseDate: '2016-07-20',
@@ -2296,15 +2288,13 @@ export const baseMoviesHorreur: BaseMovie[] = [
     title: 'Dernier train pour Busan',
     director: 'Yeon Sang-ho',
     actors: [
-      {
-        name: 'Gong Yoo',
-      },
-      {
-        name: 'Jung Yu-mi',
-      },
-      {
-        name: 'Ma Dong-seok',
-      },
+      { name: 'Gong Yoo' },
+      { name: 'Jung Yu-mi' },
+      { name: 'Ma Dong-seok' },
+      { name: 'Kim Su-an' },
+      { name: 'Kim Eui-sung' },
+      { name: 'Choi Woo-shik' },
+      { name: 'Ahn So-hee' },
     ],
     coverUrl: '/movies_pictures/train_to_busan.jpg',
     releaseDate: '2016-08-17',
@@ -2320,15 +2310,13 @@ export const baseMoviesHorreur: BaseMovie[] = [
     title: 'Crimson Peak',
     director: 'Guillermo del Toro',
     actors: [
-      {
-        name: 'Mia Wasikowska',
-      },
-      {
-        name: 'Tom Hiddleston',
-      },
-      {
-        name: 'Jessica Chastain',
-      },
+      { name: 'Mia Wasikowska' },
+      { name: 'Tom Hiddleston' },
+      { name: 'Jessica Chastain' },
+      { name: 'Charlie Hunnam' },
+      { name: 'Jim Beaver' },
+      { name: 'Burn Gorman' },
+      { name: 'Leslie Hope' },
     ],
     coverUrl: '/movies_pictures/crimson_peak.jpg',
     releaseDate: '2015-10-14',
@@ -2344,15 +2332,13 @@ export const baseMoviesHorreur: BaseMovie[] = [
     title: 'Maggie',
     director: 'Henry Hobson',
     actors: [
-      {
-        name: 'Arnold Schwarzenegger',
-      },
-      {
-        name: 'Abigail Breslin',
-      },
-      {
-        name: 'Joely Richardson',
-      },
+      { name: 'Arnold Schwarzenegger' },
+      { name: 'Abigail Breslin' },
+      { name: 'Joely Richardson' },
+      { name: 'Douglas M. Griffin' },
+      { name: 'J.D. Evermore' },
+      { name: 'Rachel Whitman Groves' },
+      { name: 'Jodie Moore' },
     ],
     coverUrl: '/movies_pictures/maggie.jpg',
     releaseDate: '2015-05-27',
@@ -2368,15 +2354,13 @@ export const baseMoviesHorreur: BaseMovie[] = [
     title: 'Mister Babadook',
     director: 'Jennifer Kent',
     actors: [
-      {
-        name: 'Essie Davis',
-      },
-      {
-        name: 'Noah Wiseman',
-      },
-      {
-        name: 'Daniel Henshall',
-      },
+      { name: 'Essie Davis' },
+      { name: 'Noah Wiseman' },
+      { name: 'Daniel Henshall' },
+      { name: 'Hayley McElhinney' },
+      { name: 'Barbara West' },
+      { name: 'Ben Winspear' },
+      { name: 'Cathy Adamek' },
     ],
     coverUrl: '/movies_pictures/the_babadook.jpg',
     releaseDate: '2014-07-30',
@@ -2392,15 +2376,13 @@ export const baseMoviesHorreur: BaseMovie[] = [
     title: 'Mama',
     director: 'Andrés Muschietti',
     actors: [
-      {
-        name: 'Jessica Chastain',
-      },
-      {
-        name: 'Nikolaj Coster-Waldau',
-      },
-      {
-        name: 'Megan Charpentier',
-      },
+      { name: 'Jessica Chastain' },
+      { name: 'Nikolaj Coster-Waldau' },
+      { name: 'Megan Charpentier' },
+      { name: 'Isabelle Nélisse' },
+      { name: 'Daniel Kash' },
+      { name: 'Javier Botet' },
+      { name: 'Jane Moffat' },
     ],
     coverUrl: '/movies_pictures/mama.jpg',
     releaseDate: '2013-05-15',
@@ -2416,15 +2398,13 @@ export const baseMoviesHorreur: BaseMovie[] = [
     title: 'Sinister',
     director: 'Scott Derrickson',
     actors: [
-      {
-        name: 'Ethan Hawke',
-      },
-      {
-        name: 'Juliet Rylance',
-      },
-      {
-        name: 'Fred Thompson',
-      },
+      { name: 'Ethan Hawke' },
+      { name: 'Juliet Rylance' },
+      { name: 'Fred Thompson' },
+      { name: 'James Ransone' },
+      { name: 'Vincent D\'Onofrio' },
+      { name: 'Clare Foley' },
+      { name: 'Michael Hall D\'Addario' },
     ],
     coverUrl: '/movies_pictures/sinister.jpg',
     releaseDate: '2012-11-07',
@@ -2440,15 +2420,13 @@ export const baseMoviesHorreur: BaseMovie[] = [
     title: 'La Cabane dans les bois',
     director: 'Drew Goddard',
     actors: [
-      {
-        name: 'Kristen Connolly',
-      },
-      {
-        name: 'Chris Hemsworth',
-      },
-      {
-        name: 'Anna Hutchison',
-      },
+      { name: 'Kristen Connolly' },
+      { name: 'Chris Hemsworth' },
+      { name: 'Anna Hutchison' },
+      { name: 'Fran Kranz' },
+      { name: 'Jesse Williams' },
+      { name: 'Richard Jenkins' },
+      { name: 'Bradley Whitford' },
     ],
     coverUrl: '/movies_pictures/the_cabin_in_the_woods.jpg',
     releaseDate: '2012-05-02',
@@ -2464,15 +2442,13 @@ export const baseMoviesHorreur: BaseMovie[] = [
     title: 'Piranha 3D',
     director: 'Alexandre Aja',
     actors: [
-      {
-        name: 'Elisabeth Shue',
-      },
-      {
-        name: 'Adam Scott',
-      },
-      {
-        name: "Jerry O'Connell",
-      },
+      { name: 'Elisabeth Shue' },
+      { name: 'Adam Scott' },
+      { name: "Jerry O'Connell" },
+      { name: 'Ving Rhames' },
+      { name: 'Steven R. McQueen' },
+      { name: 'Jessica Szohr' },
+      { name: 'Kelly Brook' },
     ],
     coverUrl: '/movies_pictures/piranha_3d.jpg',
     releaseDate: '2010-09-01',
@@ -2488,15 +2464,13 @@ export const baseMoviesHorreur: BaseMovie[] = [
     title: 'Le Dernier Exorcisme',
     director: 'Daniel Stamm',
     actors: [
-      {
-        name: 'Patrick Fabian',
-      },
-      {
-        name: 'Ashley Bell',
-      },
-      {
-        name: 'Iris Bahr',
-      },
+      { name: 'Patrick Fabian' },
+      { name: 'Ashley Bell' },
+      { name: 'Iris Bahr' },
+      { name: 'Louis Herthum' },
+      { name: 'Caleb Landry Jones' },
+      { name: 'Tony Bentley' },
+      { name: 'Shanna Forrestall' },
     ],
     coverUrl: '/movies_pictures/the_last_exorcism.jpg',
     releaseDate: '2010-09-15',
@@ -2512,15 +2486,13 @@ export const baseMoviesHorreur: BaseMovie[] = [
     title: '[REC]',
     director: 'Jaume Balagueró, Paco Plaza',
     actors: [
-      {
-        name: 'Manuela Velasco',
-      },
-      {
-        name: 'Ferran Terraza',
-      },
-      {
-        name: 'Jorge-Yamam Serrano',
-      },
+      { name: 'Manuela Velasco' },
+      { name: 'Ferran Terraza' },
+      { name: 'Jorge-Yamam Serrano' },
+      { name: 'Pablo Rosso' },
+      { name: 'David Vert' },
+      { name: 'Vicente Gil' },
+      { name: 'Martha Carbonell' },
     ],
     coverUrl: '/movies_pictures/rec.jpg',
     releaseDate: '2008-04-23',
@@ -2536,15 +2508,13 @@ export const baseMoviesHorreur: BaseMovie[] = [
     title: 'La Colline a des yeux',
     director: 'Alexandre Aja',
     actors: [
-      {
-        name: 'Aaron Stanford',
-      },
-      {
-        name: 'Kathleen Quinlan',
-      },
-      {
-        name: 'Vinessa Shaw',
-      },
+      { name: 'Aaron Stanford' },
+      { name: 'Kathleen Quinlan' },
+      { name: 'Vinessa Shaw' },
+      { name: 'Emilie de Ravin' },
+      { name: 'Dan Byrd' },
+      { name: 'Tom Bower' },
+      { name: 'Ted Levine' },
     ],
     coverUrl: '/movies_pictures/the_hills_have_eyes.jpg',
     releaseDate: '2006-06-21',
@@ -2560,15 +2530,13 @@ export const baseMoviesHorreur: BaseMovie[] = [
     title: "L'Armée des morts",
     director: 'Zack Snyder',
     actors: [
-      {
-        name: 'Sarah Polley',
-      },
-      {
-        name: 'Ving Rhames',
-      },
-      {
-        name: 'Jake Weber',
-      },
+      { name: 'Sarah Polley' },
+      { name: 'Ving Rhames' },
+      { name: 'Jake Weber' },
+      { name: 'Mekhi Phifer' },
+      { name: 'Ty Burrell' },
+      { name: 'Michael Kelly' },
+      { name: 'Kevin Zegers' },
     ],
     coverUrl: '/movies_pictures/dawn_of_the_dead.jpg',
     releaseDate: '2004-06-30',
@@ -2584,15 +2552,13 @@ export const baseMoviesHorreur: BaseMovie[] = [
     title: 'Le Projet Blair Witch',
     director: 'Daniel Myrick, Eduardo Sánchez',
     actors: [
-      {
-        name: 'Heather Donahue',
-      },
-      {
-        name: 'Michael C. Williams',
-      },
-      {
-        name: 'Joshua Leonard',
-      },
+      { name: 'Heather Donahue' },
+      { name: 'Michael C. Williams' },
+      { name: 'Joshua Leonard' },
+      { name: 'Bob Griffin' },
+      { name: 'Jim King' },
+      { name: 'Sandra Sánchez' },
+      { name: 'Patricia DeCou' },
     ],
     coverUrl: '/movies_pictures/the_blair_witch_project.jpg',
     releaseDate: '1999-07-28',
@@ -2608,15 +2574,13 @@ export const baseMoviesHorreur: BaseMovie[] = [
     title: 'Les Dents de la mer, 2ᵉ partie',
     director: 'Jeannot Szwarc',
     actors: [
-      {
-        name: 'Roy Scheider',
-      },
-      {
-        name: 'Lorraine Gary',
-      },
-      {
-        name: 'Murray Hamilton',
-      },
+      { name: 'Roy Scheider' },
+      { name: 'Lorraine Gary' },
+      { name: 'Murray Hamilton' },
+      { name: 'Joseph Mascolo' },
+      { name: 'Jeffrey Kramer' },
+      { name: 'Collin Wilcox' },
+      { name: 'Ann Dusenberry' },
     ],
     coverUrl: '/movies_pictures/jaws_2.jpg',
     releaseDate: '1978-12-06',

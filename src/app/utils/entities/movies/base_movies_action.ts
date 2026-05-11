@@ -1495,7 +1495,12 @@ export const baseMoviesAction: BaseMovie[] = [
   {
     title: 'Yoroï',
     director: 'David Tomaszewski',
-    actors: [{ name: 'Orelsan' }],
+    actors: [
+      { name: 'Orelsan' },
+      { name: 'Lim Jiyoon' },
+      { name: 'Léa Léviant' },
+      { name: 'Bruno Henry' },
+    ],
     coverUrl: '/movies_pictures/8d14de5f174c2eda406c19b663fbe942.jpg',
     releaseDate: '2025-10-29',
     length: 102,
@@ -2850,7 +2855,15 @@ export const baseMoviesAction: BaseMovie[] = [
   {
     title: 'Hypertension',
     director: 'Neveldine/Taylor',
-    actors: [{ name: 'Jason Statham' }],
+    actors: [
+      { name: 'Jason Statham' },
+      { name: 'Amy Smart' },
+      { name: 'Dwight Yoakam' },
+      { name: 'Efren Ramirez' },
+      { name: 'Bai Ling' },
+      { name: 'Clifton Collins Jr.' },
+      { name: 'David Carradine' },
+    ],
     coverUrl: '/movies_pictures/42603-crank-high-voltage-0-150-0-225-crop.jpg',
     releaseDate: '2009-04-17',
     length: 96,
@@ -3863,9 +3876,13 @@ export const baseMoviesAction: BaseMovie[] = [
     title: 'Le Contrat',
     director: 'William Friedkin',
     actors: [
-      {
-        name: 'Arnold Schwarzenegger',
-      },
+      { name: 'Tommy Lee Jones' },
+      { name: 'Benicio del Toro' },
+      { name: 'Connie Nielsen' },
+      { name: 'Leslie Stefanson' },
+      { name: 'Ron Canada' },
+      { name: 'John Finn' },
+      { name: 'Mark Pellegrino' },
     ],
     coverUrl: '/movies_pictures/zbcu0rymw6cvybswg6bt1ku14le-636.jpg',
     releaseDate: '2003-10-24',
@@ -6435,7 +6452,15 @@ export const baseMoviesAction: BaseMovie[] = [
   {
     title: 'Bleach (live-action)',
     director: 'Shinsuke Sato',
-    actors: [{ name: 'Sota Fukushi' }, { name: 'Hana Sugisaki' }],
+    actors: [
+      { name: 'Sota Fukushi' },
+      { name: 'Hana Sugisaki' },
+      { name: 'Ryo Yoshizawa' },
+      { name: 'Erina Mano' },
+      { name: 'Yu Koyanagi' },
+      { name: 'Taichi Saotome' },
+      { name: 'Seiichi Tanabe' },
+    ],
     coverUrl: '/movies_pictures/da86328701a8.jpg',
     releaseDate: '2018-07-20',
     length: 108,
@@ -7005,7 +7030,15 @@ export const baseMoviesAction: BaseMovie[] = [
   {
     title: 'Troy',
     director: 'Wolfgang Petersen',
-    actors: [{ name: 'Brad Pitt' }, { name: 'Eric Bana' }],
+    actors: [
+      { name: 'Brad Pitt' },
+      { name: 'Eric Bana' },
+      { name: 'Orlando Bloom' },
+      { name: 'Diane Kruger' },
+      { name: 'Brian Cox' },
+      { name: 'Sean Bean' },
+      { name: 'Peter O\'Toole' },
+    ],
     coverUrl:
       '/movies_pictures/MV5BMTk5MzU1MDMwMF5BMl5BanBnXkFtZTcwNjczODMzMw@@._V1_.jpg',
     releaseDate: '2004-05-14',
@@ -7296,15 +7329,13 @@ export const baseMoviesAction: BaseMovie[] = [
     title: 'Extraction 2',
     director: 'Sam Hargrave',
     actors: [
-      {
-        name: 'Tom Cruise',
-      },
-      {
-        name: 'Hayley Atwell',
-      },
-      {
-        name: 'Ving Rhames',
-      },
+      { name: 'Chris Hemsworth' },
+      { name: 'Golshifteh Farahani' },
+      { name: 'Tornike Gogrichiani' },
+      { name: 'Tinatin Dalakishvili' },
+      { name: 'Olga Kurylenko' },
+      { name: 'Adam Bessa' },
+      { name: 'Idris Elba' },
     ],
     coverUrl: '/movies_pictures/extraction_2.jpg',
     releaseDate: '2023-06-16',
@@ -7320,15 +7351,13 @@ export const baseMoviesAction: BaseMovie[] = [
     title: 'AKA',
     director: 'Morgan S. Dalibert',
     actors: [
-      {
-        name: 'Harrison Ford',
-      },
-      {
-        name: 'Phoebe Waller-Bridge',
-      },
-      {
-        name: 'Mads Mikkelsen',
-      },
+      { name: 'Alban Lenoir' },
+      { name: 'Eric Cantona' },
+      { name: 'Sveva Alviti' },
+      { name: 'Thibault de Montalembert' },
+      { name: 'Noé Chabbat' },
+      { name: 'Lionel Erdogan' },
+      { name: 'Kevin Layne' },
     ],
     coverUrl: '/movies_pictures/aka.jpg',
     releaseDate: '2023-04-28',
@@ -7344,15 +7373,13 @@ export const baseMoviesAction: BaseMovie[] = [
     title: 'The Gray Man',
     director: 'Anthony Russo, Joe Russo',
     actors: [
-      {
-        name: 'Ryan Gosling',
-      },
-      {
-        name: 'Chris Evans',
-      },
-      {
-        name: 'Ana de Armas',
-      },
+      { name: 'Ryan Gosling' },
+      { name: 'Chris Evans' },
+      { name: 'Ana de Armas' },
+      { name: 'Jessica Henwick' },
+      { name: 'Regé-Jean Page' },
+      { name: 'Wagner Moura' },
+      { name: 'Billy Bob Thornton' },
     ],
     coverUrl: '/movies_pictures/the_gray_man.jpg',
     releaseDate: '2022-07-22',
@@ -7368,15 +7395,13 @@ export const baseMoviesAction: BaseMovie[] = [
     title: 'Ambulance',
     director: 'Michael Bay',
     actors: [
-      {
-        name: 'Jake Gyllenhaal',
-      },
-      {
-        name: 'Yahya Abdul-Mateen II',
-      },
-      {
-        name: 'Eiza González',
-      },
+      { name: 'Jake Gyllenhaal' },
+      { name: 'Yahya Abdul-Mateen II' },
+      { name: 'Eiza González' },
+      { name: 'Garret Dillahunt' },
+      { name: 'Keir O\'Donnell' },
+      { name: 'A Martinez' },
+      { name: 'Moses Ingram' },
     ],
     coverUrl: '/movies_pictures/ambulance.jpg',
     releaseDate: '2022-03-23',
@@ -7392,15 +7417,13 @@ export const baseMoviesAction: BaseMovie[] = [
     title: 'Uncharted',
     director: 'Ruben Fleischer',
     actors: [
-      {
-        name: 'Tom Holland',
-      },
-      {
-        name: 'Mark Wahlberg',
-      },
-      {
-        name: 'Sophia Ali',
-      },
+      { name: 'Tom Holland' },
+      { name: 'Mark Wahlberg' },
+      { name: 'Sophia Ali' },
+      { name: 'Tati Gabrielle' },
+      { name: 'Antonio Banderas' },
+      { name: 'Steven Waddington' },
+      { name: 'Manuel de Blas' },
     ],
     coverUrl: '/movies_pictures/uncharted.jpg',
     releaseDate: '2022-02-16',
@@ -7420,15 +7443,13 @@ export const baseMoviesAction: BaseMovie[] = [
     title: 'Army of Thieves',
     director: 'Matthias Schweighöfer',
     actors: [
-      {
-        name: 'Matthias Schweighöfer',
-      },
-      {
-        name: 'Nathalie Emmanuel',
-      },
-      {
-        name: 'Ruby O. Fee',
-      },
+      { name: 'Matthias Schweighöfer' },
+      { name: 'Nathalie Emmanuel' },
+      { name: 'Ruby O. Fee' },
+      { name: 'Stuart Martin' },
+      { name: 'Guz Khan' },
+      { name: 'Jonathan Cohen' },
+      { name: 'Noémie Nakai' },
     ],
     coverUrl: '/movies_pictures/army_of_thieves.jpg',
     releaseDate: '2021-10-29',
@@ -7444,15 +7465,13 @@ export const baseMoviesAction: BaseMovie[] = [
     title: 'Un homme en colère',
     director: 'Guy Ritchie',
     actors: [
-      {
-        name: 'Jason Statham',
-      },
-      {
-        name: 'Holt McCallany',
-      },
-      {
-        name: 'Jeffrey Donovan',
-      },
+      { name: 'Jason Statham' },
+      { name: 'Holt McCallany' },
+      { name: 'Jeffrey Donovan' },
+      { name: 'Josh Hartnett' },
+      { name: 'Scott Eastwood' },
+      { name: 'Andy Garcia' },
+      { name: 'Eddie Marsan' },
     ],
     coverUrl: '/movies_pictures/un_homme_en_colere.jpg',
     releaseDate: '2021-06-16',
@@ -7468,15 +7487,13 @@ export const baseMoviesAction: BaseMovie[] = [
     title: 'Army of the Dead',
     director: 'Zack Snyder',
     actors: [
-      {
-        name: 'Dave Bautista',
-      },
-      {
-        name: 'Ella Purnell',
-      },
-      {
-        name: 'Omari Hardwick',
-      },
+      { name: 'Dave Bautista' },
+      { name: 'Ella Purnell' },
+      { name: 'Omari Hardwick' },
+      { name: 'Ana de la Reguera' },
+      { name: 'Theo Rossi' },
+      { name: 'Matthias Schweighöfer' },
+      { name: 'Tig Notaro' },
     ],
     coverUrl: '/movies_pictures/army_of_the_dead.jpg',
     releaseDate: '2021-05-21',
@@ -7492,15 +7509,13 @@ export const baseMoviesAction: BaseMovie[] = [
     title: 'Extraction',
     director: 'Sam Hargrave',
     actors: [
-      {
-        name: 'Chris Hemsworth',
-      },
-      {
-        name: 'Rudhraksh Jaiswal',
-      },
-      {
-        name: 'Randeep Hooda',
-      },
+      { name: 'Chris Hemsworth' },
+      { name: 'Rudhraksh Jaiswal' },
+      { name: 'Randeep Hooda' },
+      { name: 'Golshifteh Farahani' },
+      { name: 'Pankaj Tripathi' },
+      { name: 'David Harbour' },
+      { name: 'Priyanshu Painyuli' },
     ],
     coverUrl: '/movies_pictures/extraction.jpg',
     releaseDate: '2020-04-24',
@@ -7516,15 +7531,13 @@ export const baseMoviesAction: BaseMovie[] = [
     title: 'Bloodshot',
     director: 'Dave Wilson',
     actors: [
-      {
-        name: 'Vin Diesel',
-      },
-      {
-        name: 'Eiza González',
-      },
-      {
-        name: 'Sam Heughan',
-      },
+      { name: 'Vin Diesel' },
+      { name: 'Eiza González' },
+      { name: 'Sam Heughan' },
+      { name: 'Toby Kebbell' },
+      { name: 'Guy Pearce' },
+      { name: 'Lamorne Morris' },
+      { name: 'Talulah Riley' },
     ],
     coverUrl: '/movies_pictures/bloodshot.jpg',
     releaseDate: '2020-03-27',
@@ -7540,15 +7553,13 @@ export const baseMoviesAction: BaseMovie[] = [
     title: 'The Meg',
     director: 'Jon Turteltaub',
     actors: [
-      {
-        name: 'Jason Statham',
-      },
-      {
-        name: 'Li Bingbing',
-      },
-      {
-        name: 'Rainn Wilson',
-      },
+      { name: 'Jason Statham' },
+      { name: 'Li Bingbing' },
+      { name: 'Rainn Wilson' },
+      { name: 'Ruby Rose' },
+      { name: 'Cliff Curtis' },
+      { name: 'Winston Chao' },
+      { name: 'Page Kennedy' },
     ],
     coverUrl: '/movies_pictures/the_meg.jpg',
     releaseDate: '2018-08-22',
@@ -7564,15 +7575,13 @@ export const baseMoviesAction: BaseMovie[] = [
     title: 'Skyscraper',
     director: 'Rawson Marshall Thurber',
     actors: [
-      {
-        name: 'Dwayne Johnson',
-      },
-      {
-        name: 'Neve Campbell',
-      },
-      {
-        name: 'Chin Han',
-      },
+      { name: 'Dwayne Johnson' },
+      { name: 'Neve Campbell' },
+      { name: 'Chin Han' },
+      { name: 'Roland Møller' },
+      { name: 'Pablo Schreiber' },
+      { name: 'Byron Mann' },
+      { name: 'Hannah Quinlivan' },
     ],
     coverUrl: '/movies_pictures/skyscraper.jpg',
     releaseDate: '2018-07-11',
@@ -7588,15 +7597,13 @@ export const baseMoviesAction: BaseMovie[] = [
     title: 'La Tour sombre',
     director: 'Nikolaj Arcel',
     actors: [
-      {
-        name: 'Idris Elba',
-      },
-      {
-        name: 'Matthew McConaughey',
-      },
-      {
-        name: 'Tom Taylor',
-      },
+      { name: 'Idris Elba' },
+      { name: 'Matthew McConaughey' },
+      { name: 'Tom Taylor' },
+      { name: 'Claudia Kim' },
+      { name: 'Fran Kranz' },
+      { name: 'Abbey Lee' },
+      { name: 'Jackie Earle Haley' },
     ],
     coverUrl: '/movies_pictures/the_dark_tower.jpg',
     releaseDate: '2017-08-09',
@@ -7612,15 +7619,13 @@ export const baseMoviesAction: BaseMovie[] = [
     title: 'American Assassin',
     director: 'Michael Cuesta',
     actors: [
-      {
-        name: "Dylan O'Brien",
-      },
-      {
-        name: 'Michael Keaton',
-      },
-      {
-        name: 'Sanaa Lathan',
-      },
+      { name: "Dylan O'Brien" },
+      { name: 'Michael Keaton' },
+      { name: 'Sanaa Lathan' },
+      { name: 'Taylor Kitsch' },
+      { name: 'Shiva Negar' },
+      { name: 'David Suchet' },
+      { name: 'Charlotte Vega' },
     ],
     coverUrl: '/movies_pictures/american_assassin.jpg',
     releaseDate: '2017-09-20',
@@ -7636,15 +7641,13 @@ export const baseMoviesAction: BaseMovie[] = [
     title: "Le Roi Arthur : La Légende d'Excalibur",
     director: 'Guy Ritchie',
     actors: [
-      {
-        name: 'Johnny Depp',
-      },
-      {
-        name: 'Javier Bardem',
-      },
-      {
-        name: 'Brenton Thwaites',
-      },
+      { name: 'Charlie Hunnam' },
+      { name: 'Jude Law' },
+      { name: 'Àstrid Bergès-Frisbey' },
+      { name: 'Djimon Hounsou' },
+      { name: 'Aidan Gillen' },
+      { name: 'Eric Bana' },
+      { name: 'Mikael Persbrandt' },
     ],
     coverUrl: '/movies_pictures/king_arthur_legend_of_the_sword.jpg',
     releaseDate: '2017-05-17',
@@ -7660,15 +7663,13 @@ export const baseMoviesAction: BaseMovie[] = [
     title: 'Power Rangers',
     director: 'Dean Israelite',
     actors: [
-      {
-        name: 'Dacre Montgomery',
-      },
-      {
-        name: 'Naomi Scott',
-      },
-      {
-        name: 'RJ Cyler',
-      },
+      { name: 'Dacre Montgomery' },
+      { name: 'Naomi Scott' },
+      { name: 'RJ Cyler' },
+      { name: 'Ludi Lin' },
+      { name: 'Becky G' },
+      { name: 'Bill Hader' },
+      { name: 'Elizabeth Banks' },
     ],
     coverUrl: '/movies_pictures/power_rangers.jpg',
     releaseDate: '2017-04-05',
@@ -7684,15 +7685,13 @@ export const baseMoviesAction: BaseMovie[] = [
     title: "Assassin's Creed",
     director: 'Justin Kurzel',
     actors: [
-      {
-        name: 'Michael Fassbender',
-      },
-      {
-        name: 'Marion Cotillard',
-      },
-      {
-        name: 'Jeremy Irons',
-      },
+      { name: 'Michael Fassbender' },
+      { name: 'Marion Cotillard' },
+      { name: 'Jeremy Irons' },
+      { name: 'Brendan Gleeson' },
+      { name: 'Charlotte Rampling' },
+      { name: 'Michael K. Williams' },
+      { name: 'Ariane Labed' },
     ],
     coverUrl: '/movies_pictures/assassin_s_creed.jpg',
     releaseDate: '2016-12-21',
@@ -7743,15 +7742,13 @@ export const baseMoviesAction: BaseMovie[] = [
     title: 'Teenage Mutant Ninja Turtles: Out of the Shadows',
     director: 'Dave Green',
     actors: [
-      {
-        name: 'Megan Fox',
-      },
-      {
-        name: 'Will Arnett',
-      },
-      {
-        name: 'Laura Linney',
-      },
+      { name: 'Megan Fox' },
+      { name: 'Will Arnett' },
+      { name: 'Laura Linney' },
+      { name: 'Stephen Amell' },
+      { name: 'Tyler Perry' },
+      { name: 'Brian Tee' },
+      { name: 'Brad Garrett' },
     ],
     coverUrl:
       '/movies_pictures/teenage_mutant_ninja_turtles_out_of_the_shadows.jpg',
@@ -7768,15 +7765,13 @@ export const baseMoviesAction: BaseMovie[] = [
     title: 'Agents très spéciaux : Code U.N.C.L.E.',
     director: 'Guy Ritchie',
     actors: [
-      {
-        name: 'Henry Cavill',
-      },
-      {
-        name: 'Armie Hammer',
-      },
-      {
-        name: 'Alicia Vikander',
-      },
+      { name: 'Henry Cavill' },
+      { name: 'Armie Hammer' },
+      { name: 'Alicia Vikander' },
+      { name: 'Elizabeth Debicki' },
+      { name: 'Jared Harris' },
+      { name: 'Hugh Grant' },
+      { name: 'Luca Calvani' },
     ],
     coverUrl: '/movies_pictures/the_man_from_u_n_c_l_e.jpg',
     releaseDate: '2015-09-16',
@@ -7792,15 +7787,13 @@ export const baseMoviesAction: BaseMovie[] = [
     title: 'Hitman: Agent 47',
     director: 'Aleksander Bach',
     actors: [
-      {
-        name: 'Rupert Friend',
-      },
-      {
-        name: 'Hannah Ware',
-      },
-      {
-        name: 'Zachary Quinto',
-      },
+      { name: 'Rupert Friend' },
+      { name: 'Hannah Ware' },
+      { name: 'Zachary Quinto' },
+      { name: 'Ciarán Hinds' },
+      { name: 'Thomas Kretschmann' },
+      { name: 'Angelababy' },
+      { name: 'Dan Bakkedahl' },
     ],
     coverUrl: '/movies_pictures/hitman_agent_47.jpg',
     releaseDate: '2015-08-26',
@@ -7820,15 +7813,13 @@ export const baseMoviesAction: BaseMovie[] = [
     title: 'Ninja Turtles',
     director: 'Jonathan Liebesman',
     actors: [
-      {
-        name: 'Megan Fox',
-      },
-      {
-        name: 'Will Arnett',
-      },
-      {
-        name: 'William Fichtner',
-      },
+      { name: 'Megan Fox' },
+      { name: 'Will Arnett' },
+      { name: 'William Fichtner' },
+      { name: 'Whoopi Goldberg' },
+      { name: 'Tony Shalhoub' },
+      { name: 'Pete Ploszek' },
+      { name: 'Alan Ritchson' },
     ],
     coverUrl: '/movies_pictures/teenage_mutant_ninja_turtles.jpg',
     releaseDate: '2014-10-15',
@@ -7844,15 +7835,13 @@ export const baseMoviesAction: BaseMovie[] = [
     title: "300 : La Naissance d'un Empire",
     director: 'Noam Murro',
     actors: [
-      {
-        name: 'Sullivan Stapleton',
-      },
-      {
-        name: 'Eva Green',
-      },
-      {
-        name: 'Lena Headey',
-      },
+      { name: 'Sullivan Stapleton' },
+      { name: 'Eva Green' },
+      { name: 'Lena Headey' },
+      { name: 'Hans Matheson' },
+      { name: 'Callan Mulvey' },
+      { name: 'David Wenham' },
+      { name: 'Rodrigo Santoro' },
     ],
     coverUrl: '/movies_pictures/300_rise_of_an_empire.jpg',
     releaseDate: '2014-03-05',
@@ -7895,15 +7884,13 @@ export const baseMoviesAction: BaseMovie[] = [
     title: 'The Raid 2',
     director: 'Gareth Evans',
     actors: [
-      {
-        name: 'Iko Uwais',
-      },
-      {
-        name: 'Arifin Putra',
-      },
-      {
-        name: 'Tio Pakusadewo',
-      },
+      { name: 'Iko Uwais' },
+      { name: 'Arifin Putra' },
+      { name: 'Tio Pakusadewo' },
+      { name: 'Oka Antara' },
+      { name: 'Alex Abbad' },
+      { name: 'Julie Estelle' },
+      { name: 'Ryuhei Matsuda' },
     ],
     coverUrl: '/movies_pictures/the_raid_2.jpg',
     releaseDate: '2014-07-23',
@@ -7919,15 +7906,13 @@ export const baseMoviesAction: BaseMovie[] = [
     title: 'G.I. Joe : Conspiration',
     director: 'Jon M. Chu',
     actors: [
-      {
-        name: 'Dwayne Johnson',
-      },
-      {
-        name: 'Bruce Willis',
-      },
-      {
-        name: 'Channing Tatum',
-      },
+      { name: 'Dwayne Johnson' },
+      { name: 'Bruce Willis' },
+      { name: 'Channing Tatum' },
+      { name: 'Adrianne Palicki' },
+      { name: 'Byung-hun Lee' },
+      { name: 'Ray Stevenson' },
+      { name: 'Jonathan Pryce' },
     ],
     coverUrl: '/movies_pictures/g_i_joe_retaliation.jpg',
     releaseDate: '2013-03-27',
@@ -7943,15 +7928,13 @@ export const baseMoviesAction: BaseMovie[] = [
     title: 'Hansel & Gretel : Witch Hunters',
     director: 'Tommy Wirkola',
     actors: [
-      {
-        name: 'Jeremy Renner',
-      },
-      {
-        name: 'Gemma Arterton',
-      },
-      {
-        name: 'Famke Janssen',
-      },
+      { name: 'Jeremy Renner' },
+      { name: 'Gemma Arterton' },
+      { name: 'Famke Janssen' },
+      { name: 'Peter Stormare' },
+      { name: 'Pihla Viitala' },
+      { name: 'Thomas Mann' },
+      { name: 'Derek Mears' },
     ],
     coverUrl: '/movies_pictures/hansel_gretel_witch_hunters.jpg',
     releaseDate: '2013-03-06',
@@ -7967,15 +7950,13 @@ export const baseMoviesAction: BaseMovie[] = [
     title: 'Battleship',
     director: 'Peter Berg',
     actors: [
-      {
-        name: 'Taylor Kitsch',
-      },
-      {
-        name: 'Alexander Skarsgård',
-      },
-      {
-        name: 'Rihanna',
-      },
+      { name: 'Taylor Kitsch' },
+      { name: 'Alexander Skarsgård' },
+      { name: 'Rihanna' },
+      { name: 'Brooklyn Decker' },
+      { name: 'Liam Neeson' },
+      { name: 'Hamish Linklater' },
+      { name: 'Tadanobu Asano' },
     ],
     coverUrl: '/movies_pictures/battleship.jpg',
     releaseDate: '2012-04-11',
@@ -7991,15 +7972,13 @@ export const baseMoviesAction: BaseMovie[] = [
     title: 'Les Trois Mousquetaires',
     director: 'Paul W.S. Anderson',
     actors: [
-      {
-        name: 'Logan Lerman',
-      },
-      {
-        name: 'Milla Jovovich',
-      },
-      {
-        name: 'Matthew Macfadyen',
-      },
+      { name: 'Logan Lerman' },
+      { name: 'Milla Jovovich' },
+      { name: 'Matthew Macfadyen' },
+      { name: 'Ray Stevenson' },
+      { name: 'Luke Evans' },
+      { name: 'Mads Mikkelsen' },
+      { name: 'Christoph Waltz' },
     ],
     coverUrl: '/movies_pictures/the_three_musketeers.jpg',
     releaseDate: '2011-10-12',
@@ -8015,15 +7994,13 @@ export const baseMoviesAction: BaseMovie[] = [
     title: "L'Agence tous risques",
     director: 'Joe Carnahan',
     actors: [
-      {
-        name: 'Liam Neeson',
-      },
-      {
-        name: 'Bradley Cooper',
-      },
-      {
-        name: 'Quinton Jackson',
-      },
+      { name: 'Liam Neeson' },
+      { name: 'Bradley Cooper' },
+      { name: 'Quinton Jackson' },
+      { name: 'Sharlto Copley' },
+      { name: 'Jessica Biel' },
+      { name: 'Patrick Wilson' },
+      { name: 'Brian Bloom' },
     ],
     coverUrl: '/movies_pictures/the_a_team.jpg',
     releaseDate: '2010-06-16',
@@ -8039,15 +8016,13 @@ export const baseMoviesAction: BaseMovie[] = [
     title: "Le Livre d'Eli",
     director: 'Albert Hughes, Allen Hughes',
     actors: [
-      {
-        name: 'Denzel Washington',
-      },
-      {
-        name: 'Mila Kunis',
-      },
-      {
-        name: 'Gary Oldman',
-      },
+      { name: 'Denzel Washington' },
+      { name: 'Mila Kunis' },
+      { name: 'Gary Oldman' },
+      { name: 'Ray Stevenson' },
+      { name: 'Jennifer Beals' },
+      { name: 'Evan Jones' },
+      { name: 'Michael Gambon' },
     ],
     coverUrl: '/movies_pictures/the_book_of_eli.jpg',
     releaseDate: '2010-01-20',
@@ -8063,15 +8038,13 @@ export const baseMoviesAction: BaseMovie[] = [
     title: 'G.I. Joe : Le Réveil du Cobra',
     director: 'Stephen Sommers',
     actors: [
-      {
-        name: 'Channing Tatum',
-      },
-      {
-        name: 'Marlon Wayans',
-      },
-      {
-        name: 'Sienna Miller',
-      },
+      { name: 'Channing Tatum' },
+      { name: 'Marlon Wayans' },
+      { name: 'Sienna Miller' },
+      { name: 'Dennis Quaid' },
+      { name: 'Christopher Eccleston' },
+      { name: 'Ray Park' },
+      { name: 'Rachel Nichols' },
     ],
     coverUrl: '/movies_pictures/g_i_joe_the_rise_of_cobra.jpg',
     releaseDate: '2009-08-05',
@@ -8087,15 +8060,13 @@ export const baseMoviesAction: BaseMovie[] = [
     title: 'Hitman',
     director: 'Xavier Gens',
     actors: [
-      {
-        name: 'Timothy Olyphant',
-      },
-      {
-        name: 'Dougray Scott',
-      },
-      {
-        name: 'Olga Kurylenko',
-      },
+      { name: 'Timothy Olyphant' },
+      { name: 'Dougray Scott' },
+      { name: 'Olga Kurylenko' },
+      { name: 'Robert Knepper' },
+      { name: 'Ulrich Thomsen' },
+      { name: 'Michael Offei' },
+      { name: 'Henry Ian Cusick' },
     ],
     coverUrl: '/movies_pictures/hitman.jpg',
     releaseDate: '2007-12-26',
@@ -8115,15 +8086,13 @@ export const baseMoviesAction: BaseMovie[] = [
     title: 'Boulevard de la mort',
     director: 'Quentin Tarantino',
     actors: [
-      {
-        name: 'Kurt Russell',
-      },
-      {
-        name: 'Rosario Dawson',
-      },
-      {
-        name: 'Zoë Bell',
-      },
+      { name: 'Kurt Russell' },
+      { name: 'Rosario Dawson' },
+      { name: 'Zoë Bell' },
+      { name: 'Vanessa Ferlito' },
+      { name: 'Sydney Tamiia Poitier' },
+      { name: 'Tracie Thoms' },
+      { name: 'Mary Elizabeth Winstead' },
     ],
     coverUrl: '/movies_pictures/death_proof.jpg',
     releaseDate: '2007-06-06',
@@ -8139,15 +8108,13 @@ export const baseMoviesAction: BaseMovie[] = [
     title: 'Danny the Dog',
     director: 'Louis Leterrier',
     actors: [
-      {
-        name: 'Jet Li',
-      },
-      {
-        name: 'Morgan Freeman',
-      },
-      {
-        name: 'Bob Hoskins',
-      },
+      { name: 'Jet Li' },
+      { name: 'Morgan Freeman' },
+      { name: 'Bob Hoskins' },
+      { name: 'Kerry Condon' },
+      { name: 'Vincent Regan' },
+      { name: 'Dylan Brown' },
+      { name: 'Tamer Hassan' },
     ],
     coverUrl: '/movies_pictures/unleashed.jpg',
     releaseDate: '2005-02-02',
@@ -8163,15 +8130,13 @@ export const baseMoviesAction: BaseMovie[] = [
     title: 'Hero',
     director: 'Zhang Yimou',
     actors: [
-      {
-        name: 'Jet Li',
-      },
-      {
-        name: 'Tony Leung Chiu-Wai',
-      },
-      {
-        name: 'Maggie Cheung',
-      },
+      { name: 'Jet Li' },
+      { name: 'Tony Leung Chiu-Wai' },
+      { name: 'Maggie Cheung' },
+      { name: 'Zhang Ziyi' },
+      { name: 'Donnie Yen' },
+      { name: 'Chen Daoming' },
+      { name: 'Liu Zhonghyuan' },
     ],
     coverUrl: '/movies_pictures/hero.jpg',
     releaseDate: '2003-09-24',
@@ -8187,15 +8152,13 @@ export const baseMoviesAction: BaseMovie[] = [
     title: 'Le Pacte des loups',
     director: 'Christophe Gans',
     actors: [
-      {
-        name: 'Samuel Le Bihan',
-      },
-      {
-        name: 'Mark Dacascos',
-      },
-      {
-        name: 'Vincent Cassel',
-      },
+      { name: 'Samuel Le Bihan' },
+      { name: 'Mark Dacascos' },
+      { name: 'Vincent Cassel' },
+      { name: 'Émilie Dequenne' },
+      { name: 'Monica Bellucci' },
+      { name: 'Jérémie Renier' },
+      { name: 'Jean Yanne' },
     ],
     coverUrl: '/movies_pictures/brotherhood_of_the_wolf.jpg',
     releaseDate: '2001-01-31',
@@ -8211,15 +8174,13 @@ export const baseMoviesAction: BaseMovie[] = [
     title: 'Charlie et ses drôles de dames',
     director: 'McG',
     actors: [
-      {
-        name: 'David Spade',
-      },
-      {
-        name: 'John Goodman',
-      },
-      {
-        name: 'Eartha Kitt',
-      },
+      { name: 'Cameron Diaz' },
+      { name: 'Drew Barrymore' },
+      { name: 'Lucy Liu' },
+      { name: 'Bill Murray' },
+      { name: 'Sam Rockwell' },
+      { name: 'Tim Curry' },
+      { name: 'Crispin Glover' },
     ],
     coverUrl: '/movies_pictures/charlie_s_angels.jpg',
     releaseDate: '2000-11-22',
@@ -8235,15 +8196,13 @@ export const baseMoviesAction: BaseMovie[] = [
     title: "Les Ailes de l'enfer",
     director: 'Simon West',
     actors: [
-      {
-        name: 'Nicolas Cage',
-      },
-      {
-        name: 'John Malkovich',
-      },
-      {
-        name: 'John Cusack',
-      },
+      { name: 'Nicolas Cage' },
+      { name: 'John Malkovich' },
+      { name: 'John Cusack' },
+      { name: 'Steve Buscemi' },
+      { name: 'Ving Rhames' },
+      { name: 'Colm Meaney' },
+      { name: 'Mykelti Williamson' },
     ],
     coverUrl: '/movies_pictures/con_air.jpg',
     releaseDate: '1997-08-20',
@@ -8259,15 +8218,13 @@ export const baseMoviesAction: BaseMovie[] = [
     title: 'Heat',
     director: 'Michael Mann',
     actors: [
-      {
-        name: 'Al Pacino',
-      },
-      {
-        name: 'Robert De Niro',
-      },
-      {
-        name: 'Val Kilmer',
-      },
+      { name: 'Al Pacino' },
+      { name: 'Robert De Niro' },
+      { name: 'Val Kilmer' },
+      { name: 'Jon Voight' },
+      { name: 'Tom Sizemore' },
+      { name: 'Diane Venora' },
+      { name: 'Ashley Judd' },
     ],
     coverUrl: '/movies_pictures/heat.jpg',
     releaseDate: '1996-02-21',

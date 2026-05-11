@@ -5642,7 +5642,15 @@ export const baseMoviesThriller: BaseMovie[] = [
   {
     title: 'La Solution à sept pour cent',
     director: 'Herbert Ross',
-    actors: [{ name: 'Alan Arkin' }, { name: 'Vanessa Redgrave' }],
+    actors: [
+      { name: 'Alan Arkin' },
+      { name: 'Vanessa Redgrave' },
+      { name: 'Nicol Williamson' },
+      { name: 'Robert Duvall' },
+      { name: 'Laurence Olivier' },
+      { name: 'Joel Grey' },
+      { name: 'Samantha Eggar' },
+    ],
     coverUrl: '/movies_pictures/7e31cff2e039.jpg',
     releaseDate: '1976-10-24',
     length: 113,
@@ -5762,7 +5770,15 @@ export const baseMoviesThriller: BaseMovie[] = [
   {
     title: 'Mean Streets',
     director: 'Martin Scorsese',
-    actors: [{ name: 'Robert De Niro' }, { name: 'Harvey Keitel' }],
+    actors: [
+      { name: 'Robert De Niro' },
+      { name: 'Harvey Keitel' },
+      { name: 'David Proval' },
+      { name: 'Amy Robinson' },
+      { name: 'Richard Romanus' },
+      { name: 'Cesare Danova' },
+      { name: 'Vic Argo' },
+    ],
     coverUrl: '/movies_pictures/1d80c24a9cdb.jpg',
     releaseDate: '1973-10-14',
     length: 112,
@@ -7635,15 +7651,13 @@ export const baseMoviesThriller: BaseMovie[] = [
     title: 'Boîte noire',
     director: 'Yann Gozlan',
     actors: [
-      {
-        name: 'Pierre Niney',
-      },
-      {
-        name: 'Yann Gozlan',
-      },
-      {
-        name: 'Sébastien Pouderoux',
-      },
+      { name: 'Pierre Niney' },
+      { name: 'Lou de Laâge' },
+      { name: 'André Dussollier' },
+      { name: 'Sébastien Pouderoux' },
+      { name: 'Olivier Rabourdin' },
+      { name: 'Aurélien Recoing' },
+      { name: 'Anne Azoulay' },
     ],
     coverUrl: '/movies_pictures/boite_noire.jpg',
     releaseDate: '2021-09-08',
@@ -7659,15 +7673,13 @@ export const baseMoviesThriller: BaseMovie[] = [
     title: 'Escape Game',
     director: 'Adam Robitel',
     actors: [
-      {
-        name: 'Taylor Russell',
-      },
-      {
-        name: 'Logan Miller',
-      },
-      {
-        name: 'Deborah Ann Woll',
-      },
+      { name: 'Taylor Russell' },
+      { name: 'Logan Miller' },
+      { name: 'Deborah Ann Woll' },
+      { name: 'Tyler Labine' },
+      { name: 'Jay Ellis' },
+      { name: 'Nik Dodani' },
+      { name: 'Yorick van Wageningen' },
     ],
     coverUrl: '/movies_pictures/escape_room.jpg',
     releaseDate: '2019-02-27',
@@ -7683,15 +7695,13 @@ export const baseMoviesThriller: BaseMovie[] = [
     title: "Sale temps à l'hôtel El Royale",
     director: 'Drew Goddard',
     actors: [
-      {
-        name: 'Jeff Bridges',
-      },
-      {
-        name: 'Cynthia Erivo',
-      },
-      {
-        name: 'Jon Hamm',
-      },
+      { name: 'Jeff Bridges' },
+      { name: 'Cynthia Erivo' },
+      { name: 'Jon Hamm' },
+      { name: 'Dakota Johnson' },
+      { name: 'Chris Hemsworth' },
+      { name: 'Cailee Spaeny' },
+      { name: 'Lewis Pullman' },
     ],
     coverUrl: '/movies_pictures/bad_times_at_the_el_royale.jpg',
     releaseDate: '2018-11-07',
@@ -7707,15 +7717,13 @@ export const baseMoviesThriller: BaseMovie[] = [
     title: 'Good Time',
     director: 'Josh Safdie, Benny Safdie',
     actors: [
-      {
-        name: 'Robert Pattinson',
-      },
-      {
-        name: 'Benny Safdie',
-      },
-      {
-        name: 'Jennifer Jason Leigh',
-      },
+      { name: 'Robert Pattinson' },
+      { name: 'Benny Safdie' },
+      { name: 'Jennifer Jason Leigh' },
+      { name: 'Buddy Duress' },
+      { name: 'Taliah Lennice Webster' },
+      { name: 'Barkhad Abdi' },
+      { name: 'Necro' },
     ],
     coverUrl: '/movies_pictures/good_time.jpg',
     releaseDate: '2017-09-13',
@@ -7731,15 +7739,13 @@ export const baseMoviesThriller: BaseMovie[] = [
     title: 'Money Monster',
     director: 'Jodie Foster',
     actors: [
-      {
-        name: 'George Clooney',
-      },
-      {
-        name: 'Julia Roberts',
-      },
-      {
-        name: "Jack O'Connell",
-      },
+      { name: 'George Clooney' },
+      { name: 'Julia Roberts' },
+      { name: "Jack O'Connell" },
+      { name: 'Dominic West' },
+      { name: 'Caitriona Balfe' },
+      { name: 'Giancarlo Esposito' },
+      { name: 'Christopher Denham' },
     ],
     coverUrl: '/movies_pictures/money_monster.jpg',
     releaseDate: '2016-05-12',
@@ -7755,15 +7761,13 @@ export const baseMoviesThriller: BaseMovie[] = [
     title: 'Sicario',
     director: 'Denis Villeneuve',
     actors: [
-      {
-        name: 'Emily Blunt',
-      },
-      {
-        name: 'Benicio del Toro',
-      },
-      {
-        name: 'Josh Brolin',
-      },
+      { name: 'Emily Blunt' },
+      { name: 'Benicio del Toro' },
+      { name: 'Josh Brolin' },
+      { name: 'Daniel Kaluuya' },
+      { name: 'Jon Bernthal' },
+      { name: 'Victor Garber' },
+      { name: 'Jeffrey Donovan' },
     ],
     coverUrl: '/movies_pictures/sicario.jpg',
     releaseDate: '2015-10-07',
@@ -7809,15 +7813,13 @@ export const baseMoviesThriller: BaseMovie[] = [
     title: 'Mindscape',
     director: 'Jorge Dorado',
     actors: [
-      {
-        name: 'Mark Strong',
-      },
-      {
-        name: 'Taissa Farmiga',
-      },
-      {
-        name: 'Brian Cox',
-      },
+      { name: 'Mark Strong' },
+      { name: 'Taissa Farmiga' },
+      { name: 'Brian Cox' },
+      { name: 'Indira Varma' },
+      { name: 'Saskia Reeves' },
+      { name: 'Noah Taylor' },
+      { name: 'Richard Dillane' },
     ],
     coverUrl: '/movies_pictures/anna.jpg',
     releaseDate: '2014-06-11',
@@ -7833,15 +7835,13 @@ export const baseMoviesThriller: BaseMovie[] = [
     title: 'Gangster Squad',
     director: 'Ruben Fleischer',
     actors: [
-      {
-        name: 'Sean Penn',
-      },
-      {
-        name: 'Ryan Gosling',
-      },
-      {
-        name: 'Emma Stone',
-      },
+      { name: 'Sean Penn' },
+      { name: 'Ryan Gosling' },
+      { name: 'Emma Stone' },
+      { name: 'Josh Brolin' },
+      { name: 'Nick Nolte' },
+      { name: 'Anthony Mackie' },
+      { name: 'Giovanni Ribisi' },
     ],
     coverUrl: '/movies_pictures/gangster_squad.jpg',
     releaseDate: '2013-02-06',
@@ -7857,15 +7857,13 @@ export const baseMoviesThriller: BaseMovie[] = [
     title: 'Funny Games U.S.',
     director: 'Michael Haneke',
     actors: [
-      {
-        name: 'Naomi Watts',
-      },
-      {
-        name: 'Tim Roth',
-      },
-      {
-        name: 'Michael Pitt',
-      },
+      { name: 'Naomi Watts' },
+      { name: 'Tim Roth' },
+      { name: 'Michael Pitt' },
+      { name: 'Brady Corbet' },
+      { name: 'Devon Gearhart' },
+      { name: 'Boyd Gaines' },
+      { name: 'Siobhan Fallon Hogan' },
     ],
     coverUrl: '/movies_pictures/funny_games.jpg',
     releaseDate: '2008-04-23',
@@ -7881,15 +7879,13 @@ export const baseMoviesThriller: BaseMovie[] = [
     title: 'Hannibal Lecter : Les Origines du mal',
     director: 'Peter Webber',
     actors: [
-      {
-        name: 'Gaspard Ulliel',
-      },
-      {
-        name: 'Gong Li',
-      },
-      {
-        name: 'Rhys Ifans',
-      },
+      { name: 'Gaspard Ulliel' },
+      { name: 'Gong Li' },
+      { name: 'Rhys Ifans' },
+      { name: 'Dominic West' },
+      { name: 'Kevin McKidd' },
+      { name: 'Helena Lia Tachovska' },
+      { name: 'Stephen Walters' },
     ],
     coverUrl: '/movies_pictures/hannibal_rising.jpg',
     releaseDate: '2007-02-07',
@@ -7905,15 +7901,13 @@ export const baseMoviesThriller: BaseMovie[] = [
     title: "Inside Man : L'Homme de l'intérieur",
     director: 'Spike Lee',
     actors: [
-      {
-        name: 'Denzel Washington',
-      },
-      {
-        name: 'Clive Owen',
-      },
-      {
-        name: 'Jodie Foster',
-      },
+      { name: 'Denzel Washington' },
+      { name: 'Clive Owen' },
+      { name: 'Jodie Foster' },
+      { name: 'Christopher Plummer' },
+      { name: 'Willem Dafoe' },
+      { name: 'Chiwetel Ejiofor' },
+      { name: 'Carlos Andrés Gómez' },
     ],
     coverUrl: '/movies_pictures/inside_man.jpg',
     releaseDate: '2006-04-12',
@@ -7929,15 +7923,13 @@ export const baseMoviesThriller: BaseMovie[] = [
     title: 'Collatéral',
     director: 'Michael Mann',
     actors: [
-      {
-        name: 'Tom Cruise',
-      },
-      {
-        name: 'Jamie Foxx',
-      },
-      {
-        name: 'Jada Pinkett Smith',
-      },
+      { name: 'Tom Cruise' },
+      { name: 'Jamie Foxx' },
+      { name: 'Jada Pinkett Smith' },
+      { name: 'Mark Ruffalo' },
+      { name: 'Peter Berg' },
+      { name: 'Bruce McGill' },
+      { name: 'Javier Bardem' },
     ],
     coverUrl: '/movies_pictures/collateral.jpg',
     releaseDate: '2004-09-29',
@@ -7953,15 +7945,13 @@ export const baseMoviesThriller: BaseMovie[] = [
     title: 'Mystic River',
     director: 'Clint Eastwood',
     actors: [
-      {
-        name: 'Sean Penn',
-      },
-      {
-        name: 'Tim Robbins',
-      },
-      {
-        name: 'Kevin Bacon',
-      },
+      { name: 'Sean Penn' },
+      { name: 'Tim Robbins' },
+      { name: 'Kevin Bacon' },
+      { name: 'Laurence Fishburne' },
+      { name: 'Marcia Gay Harden' },
+      { name: 'Laura Linney' },
+      { name: 'Eli Wallach' },
     ],
     coverUrl: '/movies_pictures/mystic_river.jpg',
     releaseDate: '2003-10-15',
@@ -7977,15 +7967,13 @@ export const baseMoviesThriller: BaseMovie[] = [
     title: 'Dragon rouge',
     director: 'Brett Ratner',
     actors: [
-      {
-        name: 'Anthony Hopkins',
-      },
-      {
-        name: 'Edward Norton',
-      },
-      {
-        name: 'Ralph Fiennes',
-      },
+      { name: 'Anthony Hopkins' },
+      { name: 'Edward Norton' },
+      { name: 'Ralph Fiennes' },
+      { name: 'Emily Watson' },
+      { name: 'Harvey Keitel' },
+      { name: 'Mary-Louise Parker' },
+      { name: 'Philip Seymour Hoffman' },
     ],
     coverUrl: '/movies_pictures/red_dragon.jpg',
     releaseDate: '2002-10-30',
@@ -8001,15 +7989,13 @@ export const baseMoviesThriller: BaseMovie[] = [
     title: 'Hannibal',
     director: 'Ridley Scott',
     actors: [
-      {
-        name: 'Anthony Hopkins',
-      },
-      {
-        name: 'Julianne Moore',
-      },
-      {
-        name: 'Gary Oldman',
-      },
+      { name: 'Anthony Hopkins' },
+      { name: 'Julianne Moore' },
+      { name: 'Gary Oldman' },
+      { name: 'Ray Liotta' },
+      { name: 'Frankie Faison' },
+      { name: 'Giancarlo Giannini' },
+      { name: 'Francesca Neri' },
     ],
     coverUrl: '/movies_pictures/hannibal.jpg',
     releaseDate: '2001-02-28',
@@ -8025,15 +8011,13 @@ export const baseMoviesThriller: BaseMovie[] = [
     title: 'American Psycho',
     director: 'Mary Harron',
     actors: [
-      {
-        name: 'Christian Bale',
-      },
-      {
-        name: 'Willem Dafoe',
-      },
-      {
-        name: 'Jared Leto',
-      },
+      { name: 'Christian Bale' },
+      { name: 'Willem Dafoe' },
+      { name: 'Jared Leto' },
+      { name: 'Reese Witherspoon' },
+      { name: 'Samantha Mathis' },
+      { name: 'Chloë Sevigny' },
+      { name: 'Justin Theroux' },
     ],
     coverUrl: '/movies_pictures/american_psycho.jpg',
     releaseDate: '2000-06-07',
@@ -8053,15 +8037,13 @@ export const baseMoviesThriller: BaseMovie[] = [
     title: 'The Game',
     director: 'David Fincher',
     actors: [
-      {
-        name: 'Michael Douglas',
-      },
-      {
-        name: 'Sean Penn',
-      },
-      {
-        name: 'Deborah Kara Unger',
-      },
+      { name: 'Michael Douglas' },
+      { name: 'Sean Penn' },
+      { name: 'Deborah Kara Unger' },
+      { name: 'James Rebhorn' },
+      { name: 'Peter Donat' },
+      { name: 'Carroll Baker' },
+      { name: 'Anna Katarina' },
     ],
     coverUrl: '/movies_pictures/the_game.jpg',
     releaseDate: '1997-11-05',

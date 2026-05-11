@@ -316,9 +316,13 @@ export const baseMoviesSagaFantastique: BaseMovie[] = [
     title: 'Les Animaux Fantastiques',
     director: 'David Yates',
     actors: [
-      {
-        name: 'Eddie Redmayne',
-      },
+      { name: 'Eddie Redmayne' },
+      { name: 'Katherine Waterston' },
+      { name: 'Dan Fogler' },
+      { name: 'Alison Sudol' },
+      { name: 'Colin Farrell' },
+      { name: 'Ezra Miller' },
+      { name: 'Johnny Depp' },
     ],
     coverUrl:
       '/movies_pictures/f6f15d8891c5.jpg',
@@ -339,9 +343,13 @@ export const baseMoviesSagaFantastique: BaseMovie[] = [
     title: 'Les Animaux Fantastiques 2 : Les crimes de Grindelwald',
     director: 'David Yates',
     actors: [
-      {
-        name: 'Eddie Redmayne',
-      },
+      { name: 'Eddie Redmayne' },
+      { name: 'Johnny Depp' },
+      { name: 'Jude Law' },
+      { name: 'Katherine Waterston' },
+      { name: 'Dan Fogler' },
+      { name: 'Alison Sudol' },
+      { name: 'Ezra Miller' },
     ],
     coverUrl:
       '/movies_pictures/c337e1ad46d9.jpg',
@@ -362,9 +370,13 @@ export const baseMoviesSagaFantastique: BaseMovie[] = [
     title: 'Les Animaux Fantastiques 3 : Les Secrets de Dumbledore',
     director: 'David Yates',
     actors: [
-      {
-        name: 'Eddie Redmayne',
-      },
+      { name: 'Eddie Redmayne' },
+      { name: 'Jude Law' },
+      { name: 'Mads Mikkelsen' },
+      { name: 'Katherine Waterston' },
+      { name: 'Dan Fogler' },
+      { name: 'Alison Sudol' },
+      { name: 'Ezra Miller' },
     ],
     coverUrl:
       '/movies_pictures/1e64e25886a0.jpg',
@@ -685,7 +697,15 @@ export const baseMoviesSagaFantastique: BaseMovie[] = [
   {
     title: 'Twilight : Chapitre 4 - Révélation - Partie 1',
     director: 'Bill Condon',
-    actors: [{ name: 'Kristen Stewart' }, { name: 'Robert Pattinson' }],
+    actors: [
+      { name: 'Kristen Stewart' },
+      { name: 'Robert Pattinson' },
+      { name: 'Taylor Lautner' },
+      { name: 'Billy Burke' },
+      { name: 'Peter Facinelli' },
+      { name: 'Ashley Greene' },
+      { name: 'Nikki Reed' },
+    ],
     coverUrl:
       '/movies_pictures/15077-the-twilight-saga-breaking-dawn-part-1-0-1000-0-1500-crop.jpg',
     releaseDate: '2011-11-18',
@@ -704,7 +724,15 @@ export const baseMoviesSagaFantastique: BaseMovie[] = [
   {
     title: 'Twilight : Chapitre 4 - Révélation - Partie 2',
     director: 'Bill Condon',
-    actors: [{ name: 'Kristen Stewart' }, { name: 'Robert Pattinson' }],
+    actors: [
+      { name: 'Kristen Stewart' },
+      { name: 'Robert Pattinson' },
+      { name: 'Taylor Lautner' },
+      { name: 'Michael Sheen' },
+      { name: 'Dakota Fanning' },
+      { name: 'Billy Burke' },
+      { name: 'Ashley Greene' },
+    ],
     coverUrl:
       '/movies_pictures/15076-the-twilight-saga-breaking-dawn-part-2-0-150-0-225-crop.jpg',
     releaseDate: '2012-11-16',
@@ -967,7 +995,15 @@ export const baseMoviesSagaFantastique: BaseMovie[] = [
   {
     title: 'Le Hobbit (1977)',
     director: 'Jules Bass, Arthur Rankin Jr.',
-    actors: [{ name: 'Orson Bean' }, { name: 'John Huston' }],
+    actors: [
+      { name: 'Orson Bean' },
+      { name: 'John Huston' },
+      { name: 'Richard Boone' },
+      { name: 'Otto Preminger' },
+      { name: 'Cyril Ritchard' },
+      { name: 'Hans Conried' },
+      { name: 'Theodore Gottlieb' },
+    ],
     coverUrl: '/movies_pictures/877c390d70f3.jpg',
     releaseDate: '1977-11-27',
     length: 77,
@@ -985,7 +1021,15 @@ export const baseMoviesSagaFantastique: BaseMovie[] = [
   {
     title: 'Le Seigneur des anneaux (1978)',
     director: 'Ralph Bakshi',
-    actors: [{ name: 'Christopher Guard' }, { name: 'William Squire' }],
+    actors: [
+      { name: 'Christopher Guard' },
+      { name: 'William Squire' },
+      { name: 'John Hurt' },
+      { name: 'Michael Scholes' },
+      { name: 'Anthony Daniels' },
+      { name: 'Norman Bird' },
+      { name: 'Dominic Guard' },
+    ],
     coverUrl: '/movies_pictures/e311dda8bc1f.jpg',
     releaseDate: '1978-11-15',
     length: 132,
@@ -1497,7 +1541,15 @@ export const baseMoviesSagaFantastique: BaseMovie[] = [
   {
     title: "Pirates des Caraïbes 3 : Jusqu'au Bout du Monde",
     director: 'Gore Verbinski',
-    actors: [{ name: 'Johnny Depp' }],
+    actors: [
+      { name: 'Johnny Depp' },
+      { name: 'Orlando Bloom' },
+      { name: 'Keira Knightley' },
+      { name: 'Geoffrey Rush' },
+      { name: 'Bill Nighy' },
+      { name: 'Chow Yun-fat' },
+      { name: 'Jack Davenport' },
+    ],
     coverUrl: '/movies_pictures/991489831b8f.jpg',
     releaseDate: '2007-05-25',
     length: 169,

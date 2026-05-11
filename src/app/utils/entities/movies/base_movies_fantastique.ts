@@ -731,7 +731,15 @@ export const baseMoviesFantastique: BaseMovie[] = [
   {
     title: 'Miss Peregrine et les Enfants particuliers',
     director: 'Tim Burton',
-    actors: [{ name: 'Eva Green' }, { name: 'Asa Butterfield' }],
+    actors: [
+      { name: 'Eva Green' },
+      { name: 'Asa Butterfield' },
+      { name: 'Samuel L. Jackson' },
+      { name: 'Judi Dench' },
+      { name: 'Ella Purnell' },
+      { name: 'Chris O\'Dowd' },
+      { name: 'Allison Janney' },
+    ],
     coverUrl: '/movies_pictures/413443.jpg',
     releaseDate: '2016-09-30',
     length: 127,
@@ -1237,15 +1245,13 @@ export const baseMoviesFantastique: BaseMovie[] = [
     title: 'La Forme de l\'eau',
     director: 'Guillermo del Toro',
     actors: [
-      {
-        name: 'Sally Hawkins',
-      },
-      {
-        name: 'Michael Shannon',
-      },
-      {
-        name: 'Richard Jenkins',
-      },
+      { name: 'Sally Hawkins' },
+      { name: 'Michael Shannon' },
+      { name: 'Richard Jenkins' },
+      { name: 'Doug Jones' },
+      { name: 'Octavia Spencer' },
+      { name: 'Michael Stuhlbarg' },
+      { name: 'David Hewlett' },
     ],
     coverUrl: '/movies_pictures/the_shape_of_water.jpg',
     releaseDate: '2018-02-21',
@@ -1261,15 +1267,13 @@ export const baseMoviesFantastique: BaseMovie[] = [
     title: 'Le Chasseur et la Reine des glaces',
     director: 'Cedric Nicolas-Troyan',
     actors: [
-      {
-        name: 'Chris Hemsworth',
-      },
-      {
-        name: 'Charlize Theron',
-      },
-      {
-        name: 'Emily Blunt',
-      },
+      { name: 'Chris Hemsworth' },
+      { name: 'Charlize Theron' },
+      { name: 'Emily Blunt' },
+      { name: 'Jessica Chastain' },
+      { name: 'Nick Frost' },
+      { name: 'Rob Brydon' },
+      { name: 'Sheridan Smith' },
     ],
     coverUrl: '/movies_pictures/the_huntsman_winter_s_war.jpg',
     releaseDate: '2016-04-20',
@@ -1285,15 +1289,13 @@ export const baseMoviesFantastique: BaseMovie[] = [
     title: 'Dracula Untold',
     director: 'Gary Shore',
     actors: [
-      {
-        name: 'Luke Evans',
-      },
-      {
-        name: 'Sarah Gadon',
-      },
-      {
-        name: 'Dominic Cooper',
-      },
+      { name: 'Luke Evans' },
+      { name: 'Sarah Gadon' },
+      { name: 'Dominic Cooper' },
+      { name: 'Charles Dance' },
+      { name: 'Art Parkinson' },
+      { name: 'William Houston' },
+      { name: 'Noah Huntley' },
     ],
     coverUrl: '/movies_pictures/dracula_untold.jpg',
     releaseDate: '2014-10-01',
@@ -1313,15 +1315,13 @@ export const baseMoviesFantastique: BaseMovie[] = [
     title: 'Blanche-Neige et le Chasseur',
     director: 'Rupert Sanders',
     actors: [
-      {
-        name: 'Kristen Stewart',
-      },
-      {
-        name: 'Chris Hemsworth',
-      },
-      {
-        name: 'Charlize Theron',
-      },
+      { name: 'Kristen Stewart' },
+      { name: 'Chris Hemsworth' },
+      { name: 'Charlize Theron' },
+      { name: 'Sam Claflin' },
+      { name: 'Bob Hoskins' },
+      { name: 'Ian McShane' },
+      { name: 'Ray Winstone' },
     ],
     coverUrl: '/movies_pictures/snow_white_and_the_huntsman.jpg',
     releaseDate: '2012-06-13',
@@ -1337,15 +1337,13 @@ export const baseMoviesFantastique: BaseMovie[] = [
     title: 'Les Chroniques de Spiderwick',
     director: 'Mark Waters',
     actors: [
-      {
-        name: 'Freddie Highmore',
-      },
-      {
-        name: 'Mary-Louise Parker',
-      },
-      {
-        name: 'Sarah Bolger',
-      },
+      { name: 'Freddie Highmore' },
+      { name: 'Mary-Louise Parker' },
+      { name: 'Sarah Bolger' },
+      { name: 'Nick Nolte' },
+      { name: 'David Strathairn' },
+      { name: 'Joan Plowright' },
+      { name: 'Seth Rogen' },
     ],
     coverUrl: '/movies_pictures/the_spiderwick_chronicles.jpg',
     releaseDate: '2008-04-16',
@@ -1361,15 +1359,13 @@ export const baseMoviesFantastique: BaseMovie[] = [
     title: 'À la croisée des mondes : La Boussole d\'or',
     director: 'Chris Weitz',
     actors: [
-      {
-        name: 'Dakota Blue Richards',
-      },
-      {
-        name: 'Nicole Kidman',
-      },
-      {
-        name: 'Daniel Craig',
-      },
+      { name: 'Dakota Blue Richards' },
+      { name: 'Nicole Kidman' },
+      { name: 'Daniel Craig' },
+      { name: 'Sam Elliott' },
+      { name: 'Eva Green' },
+      { name: 'Ian McKellen' },
+      { name: 'Christopher Lee' },
     ],
     coverUrl: '/movies_pictures/the_golden_compass.jpg',
     releaseDate: '2007-12-05',
@@ -1420,15 +1416,13 @@ export const baseMoviesFantastique: BaseMovie[] = [
     title: 'Donnie Darko',
     director: 'Richard Kelly',
     actors: [
-      {
-        name: 'Jake Gyllenhaal',
-      },
-      {
-        name: 'Jena Malone',
-      },
-      {
-        name: 'Drew Barrymore',
-      },
+      { name: 'Jake Gyllenhaal' },
+      { name: 'Jena Malone' },
+      { name: 'Drew Barrymore' },
+      { name: 'Mary McDonnell' },
+      { name: 'Patrick Swayze' },
+      { name: 'Maggie Gyllenhaal' },
+      { name: 'Noah Wyle' },
     ],
     coverUrl: '/movies_pictures/donnie_darko.jpg',
     releaseDate: '2002-01-30',
@@ -1444,15 +1438,13 @@ export const baseMoviesFantastique: BaseMovie[] = [
     title: 'The Crow',
     director: 'Alex Proyas',
     actors: [
-      {
-        name: 'Brandon Lee',
-      },
-      {
-        name: 'Rochelle Davis',
-      },
-      {
-        name: 'Ernie Hudson',
-      },
+      { name: 'Brandon Lee' },
+      { name: 'Rochelle Davis' },
+      { name: 'Ernie Hudson' },
+      { name: 'Michael Wincott' },
+      { name: 'Bai Ling' },
+      { name: 'Sofia Shinas' },
+      { name: 'Anna Levine' },
     ],
     coverUrl: '/movies_pictures/the_crow.jpg',
     releaseDate: '1994-08-03',
@@ -1468,15 +1460,13 @@ export const baseMoviesFantastique: BaseMovie[] = [
     title: 'Dracula',
     director: 'Francis Ford Coppola',
     actors: [
-      {
-        name: 'Gary Oldman',
-      },
-      {
-        name: 'Winona Ryder',
-      },
-      {
-        name: 'Anthony Hopkins',
-      },
+      { name: 'Gary Oldman' },
+      { name: 'Winona Ryder' },
+      { name: 'Anthony Hopkins' },
+      { name: 'Keanu Reeves' },
+      { name: 'Richard E. Grant' },
+      { name: 'Cary Elwes' },
+      { name: 'Sadie Frost' },
     ],
     coverUrl: '/movies_pictures/bram_stoker_s_dracula.jpg',
     releaseDate: '1993-01-13',
@@ -1496,15 +1486,13 @@ export const baseMoviesFantastique: BaseMovie[] = [
     title: 'Willow',
     director: 'Ron Howard',
     actors: [
-      {
-        name: 'Warwick Davis',
-      },
-      {
-        name: 'Val Kilmer',
-      },
-      {
-        name: 'Joanne Whalley',
-      },
+      { name: 'Warwick Davis' },
+      { name: 'Val Kilmer' },
+      { name: 'Joanne Whalley' },
+      { name: 'Jean Marsh' },
+      { name: 'Patricia Hayes' },
+      { name: 'Billy Barty' },
+      { name: 'Pat Roach' },
     ],
     coverUrl: '/movies_pictures/willow.jpg',
     releaseDate: '1988-11-02',
@@ -1520,15 +1508,13 @@ export const baseMoviesFantastique: BaseMovie[] = [
     title: 'L\'Histoire sans fin',
     director: 'Wolfgang Petersen',
     actors: [
-      {
-        name: 'Bill Murray',
-      },
-      {
-        name: 'Dan Aykroyd',
-      },
-      {
-        name: 'Harold Ramis',
-      },
+      { name: 'Noah Hathaway' },
+      { name: 'Barret Oliver' },
+      { name: 'Tami Stronach' },
+      { name: 'Gerald McRaney' },
+      { name: 'Patricia Hayes' },
+      { name: 'Sydney Bromley' },
+      { name: 'Alan Oppenheimer' },
     ],
     coverUrl: '/movies_pictures/the_neverending_story.jpg',
     releaseDate: '1984-11-21',

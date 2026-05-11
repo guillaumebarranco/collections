@@ -170,7 +170,15 @@ export const baseMoviesAventure: BaseMovie[] = [
   {
     title: 'Les Aventures de Tintin',
     director: 'Steven Spielberg',
-    actors: [{ name: 'Jamie Bell' }, { name: 'Andy Serkis' }],
+    actors: [
+      { name: 'Jamie Bell' },
+      { name: 'Andy Serkis' },
+      { name: 'Daniel Craig' },
+      { name: 'Simon Pegg' },
+      { name: 'Nick Frost' },
+      { name: 'Toby Jones' },
+      { name: 'Mackenzie Crook' },
+    ],
     coverUrl: '/movies_pictures/19798422.webp',
     releaseDate: '2011-12-21',
     length: 107,
@@ -783,7 +791,15 @@ export const baseMoviesAventure: BaseMovie[] = [
   {
     title: 'Le Comte de Monte-Cristo (2002)',
     director: 'Kevin Reynolds',
-    actors: [{ name: 'Jim Caviezel' }, { name: 'Guy Pearce' }],
+    actors: [
+      { name: 'Jim Caviezel' },
+      { name: 'Guy Pearce' },
+      { name: 'Richard Harris' },
+      { name: 'James Frain' },
+      { name: 'Dagmara Domińczyk' },
+      { name: 'Luis Guzmán' },
+      { name: 'Michael Wincott' },
+    ],
     coverUrl: '/movies_pictures/4e44a4cb7d0b.jpg',
     releaseDate: '2002-01-25',
     length: 131,
@@ -1088,7 +1104,15 @@ export const baseMoviesAventure: BaseMovie[] = [
   {
     title: 'Les déstreuses aventures des Orphelins Baudelaire',
     director: 'Brad Silberling',
-    actors: [{ name: 'Jim Carrey' }, { name: 'Emily Browning' }],
+    actors: [
+      { name: 'Jim Carrey' },
+      { name: 'Emily Browning' },
+      { name: 'Liam Aiken' },
+      { name: 'Kara Hoffman' },
+      { name: 'Shelby Hoffman' },
+      { name: 'Meryl Streep' },
+      { name: 'Billy Connolly' },
+    ],
     coverUrl: '/movies_pictures/18399180.jpg',
     releaseDate: '2004-12-17',
     length: 108,
@@ -1168,15 +1192,13 @@ export const baseMoviesAventure: BaseMovie[] = [
     title: "Voyage au centre de la Terre 2 : L'Île mystérieuse",
     director: 'Brad Peyton',
     actors: [
-      {
-        name: 'Dwayne Johnson',
-      },
-      {
-        name: 'Josh Hutcherson',
-      },
-      {
-        name: 'Vanessa Hudgens',
-      },
+      { name: 'Dwayne Johnson' },
+      { name: 'Josh Hutcherson' },
+      { name: 'Vanessa Hudgens' },
+      { name: 'Michael Caine' },
+      { name: 'Luis Guzmán' },
+      { name: 'Kristin Davis' },
+      { name: 'Anna Colwell' },
     ],
     coverUrl: '/movies_pictures/journey_2_the_mysterious_island.jpg',
     releaseDate: '2012-02-15',
@@ -1192,15 +1214,13 @@ export const baseMoviesAventure: BaseMovie[] = [
     title: 'Benjamin Gates et le Livre des secrets',
     director: 'Jon Turteltaub',
     actors: [
-      {
-        name: 'Nicolas Cage',
-      },
-      {
-        name: 'Diane Kruger',
-      },
-      {
-        name: 'Justin Bartha',
-      },
+      { name: 'Nicolas Cage' },
+      { name: 'Diane Kruger' },
+      { name: 'Justin Bartha' },
+      { name: 'Jon Voight' },
+      { name: 'Helen Mirren' },
+      { name: 'Ed Harris' },
+      { name: 'Harvey Keitel' },
     ],
     coverUrl: '/movies_pictures/national_treasure_book_of_secrets.jpg',
     releaseDate: '2008-02-13',
@@ -1288,15 +1308,13 @@ export const baseMoviesAventure: BaseMovie[] = [
     title: "Master and Commander : De l'autre côté du monde",
     director: 'Peter Weir',
     actors: [
-      {
-        name: 'Tom Cruise',
-      },
-      {
-        name: 'Ken Watanabe',
-      },
-      {
-        name: 'Billy Connolly',
-      },
+      { name: 'Russell Crowe' },
+      { name: 'Paul Bettany' },
+      { name: 'Billy Boyd' },
+      { name: 'James D\'Arcy' },
+      { name: 'Lee Ingleby' },
+      { name: 'George Innes' },
+      { name: 'Chris Larkin' },
     ],
     coverUrl:
       '/movies_pictures/master_and_commander_the_far_side_of_the_world.jpg',
@@ -1313,15 +1331,13 @@ export const baseMoviesAventure: BaseMovie[] = [
     title: 'La Plage',
     director: 'Danny Boyle',
     actors: [
-      {
-        name: 'Leonardo DiCaprio',
-      },
-      {
-        name: 'Virginie Ledoyen',
-      },
-      {
-        name: 'Guillaume Canet',
-      },
+      { name: 'Leonardo DiCaprio' },
+      { name: 'Virginie Ledoyen' },
+      { name: 'Guillaume Canet' },
+      { name: 'Tilda Swinton' },
+      { name: 'Robert Carlyle' },
+      { name: 'Paterson Joseph' },
+      { name: 'Lars Arentz-Hansen' },
     ],
     coverUrl: '/movies_pictures/the_beach.jpg',
     releaseDate: '2000-02-16',
@@ -1337,15 +1353,13 @@ export const baseMoviesAventure: BaseMovie[] = [
     title: 'Le Masque de Zorro',
     director: 'Martin Campbell',
     actors: [
-      {
-        name: 'Antonio Banderas',
-      },
-      {
-        name: 'Anthony Hopkins',
-      },
-      {
-        name: 'Catherine Zeta-Jones',
-      },
+      { name: 'Antonio Banderas' },
+      { name: 'Anthony Hopkins' },
+      { name: 'Catherine Zeta-Jones' },
+      { name: 'Stuart Wilson' },
+      { name: 'Matt Letscher' },
+      { name: 'Maury Chaykin' },
+      { name: 'Tony Amendola' },
     ],
     coverUrl: '/movies_pictures/the_mask_of_zorro.jpg',
     releaseDate: '1998-10-14',
@@ -1361,15 +1375,13 @@ export const baseMoviesAventure: BaseMovie[] = [
     title: 'Lancelot, le premier chevalier',
     director: 'Jerry Zucker',
     actors: [
-      {
-        name: 'Richard Gere',
-      },
-      {
-        name: 'Sean Connery',
-      },
-      {
-        name: 'Julia Ormond',
-      },
+      { name: 'Richard Gere' },
+      { name: 'Sean Connery' },
+      { name: 'Julia Ormond' },
+      { name: 'Ben Cross' },
+      { name: 'Liam Cunningham' },
+      { name: 'Christopher Villiers' },
+      { name: 'Valentine Pelka' },
     ],
     coverUrl: '/movies_pictures/first_knight.jpg',
     releaseDate: '1995-08-16',
@@ -1385,15 +1397,13 @@ export const baseMoviesAventure: BaseMovie[] = [
     title: 'Le Dernier des Mohicans',
     director: 'Michael Mann',
     actors: [
-      {
-        name: 'Daniel Day-Lewis',
-      },
-      {
-        name: 'Madeleine Stowe',
-      },
-      {
-        name: 'Russell Means',
-      },
+      { name: 'Daniel Day-Lewis' },
+      { name: 'Madeleine Stowe' },
+      { name: 'Russell Means' },
+      { name: 'Eric Schweig' },
+      { name: 'Jodhi May' },
+      { name: 'Steven Waddington' },
+      { name: 'Wes Studi' },
     ],
     coverUrl: '/movies_pictures/the_last_of_the_mohicans.jpg',
     releaseDate: '1992-08-26',
@@ -1409,15 +1419,13 @@ export const baseMoviesAventure: BaseMovie[] = [
     title: 'Les Goonies',
     director: 'Richard Donner',
     actors: [
-      {
-        name: 'Sean Astin',
-      },
-      {
-        name: 'Josh Brolin',
-      },
-      {
-        name: 'Jeff Cohen',
-      },
+      { name: 'Sean Astin' },
+      { name: 'Josh Brolin' },
+      { name: 'Jeff Cohen' },
+      { name: 'Corey Feldman' },
+      { name: 'Kerri Green' },
+      { name: 'Martha Plimpton' },
+      { name: 'Ke Huy Quan' },
     ],
     coverUrl: '/movies_pictures/the_goonies.jpg',
     releaseDate: '1985-12-04',
@@ -1433,15 +1441,13 @@ export const baseMoviesAventure: BaseMovie[] = [
     title: 'Conan le Barbare',
     director: 'John Milius',
     actors: [
-      {
-        name: 'Arnold Schwarzenegger',
-      },
-      {
-        name: 'James Earl Jones',
-      },
-      {
-        name: 'Max von Sydow',
-      },
+      { name: 'Arnold Schwarzenegger' },
+      { name: 'James Earl Jones' },
+      { name: 'Max von Sydow' },
+      { name: 'Sandahl Bergman' },
+      { name: 'Mako' },
+      { name: 'Ben Davidson' },
+      { name: 'Gerry Lopez' },
     ],
     coverUrl: '/movies_pictures/conan_the_barbarian.jpg',
     releaseDate: '1982-04-07',

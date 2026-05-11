@@ -794,9 +794,13 @@ export const baseMoviesComedie: BaseMovie[] = [
     title: 'Moi, Cesar, 10 ans et demi, 1m39',
     director: 'Richard Berry',
     actors: [
-      {
-        name: 'Richard Berry',
-      },
+      { name: 'Jules Sitruk' },
+      { name: 'Joséphine Berry' },
+      { name: 'Maël Giraudeau' },
+      { name: 'Yves Pignot' },
+      { name: 'Anna Karina' },
+      { name: 'Maria de Medeiros' },
+      { name: 'Jean-Philippe Écoffey' },
     ],
     coverUrl: '/movies_pictures/6543-i-cesar-0-150-0-225-crop.jpg',
     releaseDate: '2003-04-30',
@@ -2357,7 +2361,15 @@ export const baseMoviesComedie: BaseMovie[] = [
   {
     title: 'Les temps modernes',
     director: 'Charles Chaplin',
-    actors: [{ name: 'Charles Chaplin' }],
+    actors: [
+      { name: 'Charles Chaplin' },
+      { name: 'Paulette Goddard' },
+      { name: 'Henry Bergman' },
+      { name: 'Tiny Sandford' },
+      { name: 'Chester Conklin' },
+      { name: 'Hank Mann' },
+      { name: 'Stanley Blystone' },
+    ],
     coverUrl: '/movies_pictures/49889-modern-times-0-150-0-225-crop.jpg',
     releaseDate: '1936-02-05',
     length: 87,
@@ -2812,7 +2824,15 @@ export const baseMoviesComedie: BaseMovie[] = [
   {
     title: "De l'autre côté du lit",
     director: 'Peyton Reed',
-    actors: [{ name: 'Vince Vaughn' }],
+    actors: [
+      { name: 'Vince Vaughn' },
+      { name: 'Jennifer Aniston' },
+      { name: 'Vincent D\'Onofrio' },
+      { name: 'Jon Favreau' },
+      { name: 'Jason Bateman' },
+      { name: 'Judy Davis' },
+      { name: 'Joey Lauren Adams' },
+    ],
     coverUrl: '/movies_pictures/46843-the-break-up-0-150-0-225-crop.jpg',
     releaseDate: '2006-06-02',
     length: 106,
@@ -8500,7 +8520,15 @@ export const baseMoviesComedie: BaseMovie[] = [
   {
     title: "L'Étoile de Harlem",
     director: 'Bill Duke',
-    actors: [{ name: 'Forest Whitaker' }],
+    actors: [
+      { name: 'Forest Whitaker' },
+      { name: 'Cynda Williams' },
+      { name: 'Damon Wayans' },
+      { name: 'Eugene Williams' },
+      { name: 'Joe Petruzzi' },
+      { name: 'Charles Lane' },
+      { name: 'Howard Witt' },
+    ],
     coverUrl: '/movies_pictures/sdsdsddsdsds.jpg',
     releaseDate: '1991-05-03',
     length: 108,
@@ -8741,7 +8769,10 @@ export const baseMoviesComedie: BaseMovie[] = [
   {
     title: 'My Dinner with Andrew',
     director: 'Tim Ryan',
-    actors: [{ name: 'Bob Glouberman' }, { name: 'Tim Ryan' }],
+    actors: [
+      { name: 'Bob Glouberman' },
+      { name: 'Tim Ryan' },
+    ],
     coverUrl:
       '/movies_pictures/MV5BYWE3OTcwYTUtNzIyMy00OTMwLWFiNjMtZjljMjM4ZDU5NDg0XkEyXkFqcGc@._V1_.jpg',
     releaseDate: '',
@@ -11754,12 +11785,13 @@ export const baseMoviesComedie: BaseMovie[] = [
     title: 'Adieu Jean-Pat',
     director: 'Cécilia Rouaud',
     actors: [
-      {
-        name: 'Hakim Jemili',
-      },
-      {
-        name: 'Alice David',
-      },
+      { name: 'Hakim Jemili' },
+      { name: 'Alice David' },
+      { name: 'Eddy Mitchell' },
+      { name: 'Brigitte Roüan' },
+      { name: 'Vincent Macaigne' },
+      { name: 'Jonathan Cohen' },
+      { name: 'Adèle Wismes' },
     ],
     coverUrl: '/movies_pictures/adieu_jean_pat.jpg',
     releaseDate: '2025-09-03',
@@ -12045,15 +12077,13 @@ export const baseMoviesComedie: BaseMovie[] = [
     title: 'Alibi.com 2',
     director: 'Philippe Lacheau',
     actors: [
-      {
-        name: 'Philippe Lacheau',
-      },
-      {
-        name: 'Élodie Fontan',
-      },
-      {
-        name: 'Julien Arruti',
-      },
+      { name: 'Philippe Lacheau' },
+      { name: 'Élodie Fontan' },
+      { name: 'Julien Arruti' },
+      { name: 'Tarek Boudali' },
+      { name: 'Didier Bourdon' },
+      { name: 'Gérard Jugnot' },
+      { name: 'Nathalie Baye' },
     ],
     coverUrl: '/movies_pictures/alibicom_2.jpg',
     releaseDate: '2023-01-01',
@@ -12069,15 +12099,13 @@ export const baseMoviesComedie: BaseMovie[] = [
     title: 'Le Menu',
     director: 'Mark Mylod',
     actors: [
-      {
-        name: 'Ralph Fiennes',
-      },
-      {
-        name: 'Anya Taylor-Joy',
-      },
-      {
-        name: 'Nicholas Hoult',
-      },
+      { name: 'Ralph Fiennes' },
+      { name: 'Anya Taylor-Joy' },
+      { name: 'Nicholas Hoult' },
+      { name: 'Hong Chau' },
+      { name: 'Janet McTeer' },
+      { name: 'John Leguizamo' },
+      { name: 'Judith Light' },
     ],
     coverUrl: '/movies_pictures/le_menu.jpg',
     releaseDate: '2022-11-23',
@@ -12093,15 +12121,13 @@ export const baseMoviesComedie: BaseMovie[] = [
     title: 'Ténor',
     director: 'Claude Zidi Jr.',
     actors: [
-      {
-        name: 'Michaël Youn',
-      },
-      {
-        name: 'Kad Merad',
-      },
-      {
-        name: 'Claude Zidi Jr.',
-      },
+      { name: 'Michèle Laroque' },
+      { name: 'MB14' },
+      { name: 'Marie-Julie Baup' },
+      { name: 'Maïmouna Gueye' },
+      { name: 'Guillaume Duhesme' },
+      { name: 'Mariam Pirzadeh' },
+      { name: 'Mohamed Belkhir' },
     ],
     coverUrl: '/movies_pictures/tenor.jpg',
     releaseDate: '2022-05-04',
@@ -12117,15 +12143,13 @@ export const baseMoviesComedie: BaseMovie[] = [
     title: 'Super-héros malgré lui',
     director: 'Philippe Lacheau',
     actors: [
-      {
-        name: 'Philippe Lacheau',
-      },
-      {
-        name: 'Tarek Boudali',
-      },
-      {
-        name: 'Julien Arruti',
-      },
+      { name: 'Philippe Lacheau' },
+      { name: 'Tarek Boudali' },
+      { name: 'Julien Arruti' },
+      { name: 'Élodie Fontan' },
+      { name: 'Alice Dufour' },
+      { name: 'Vincent Desagnat' },
+      { name: 'Reem Kherici' },
     ],
     coverUrl: '/movies_pictures/super-heros_malgre_lui.jpg',
     releaseDate: '2022-02-02',
@@ -12141,15 +12165,11 @@ export const baseMoviesComedie: BaseMovie[] = [
     title: 'The Trip',
     director: 'Tommy Wirkola',
     actors: [
-      {
-        name: 'Noomi Rapace',
-      },
-      {
-        name: 'Aksel Hennie',
-      },
-      {
-        name: 'Atle Antonsen',
-      },
+      { name: 'Noomi Rapace' },
+      { name: 'Aksel Hennie' },
+      { name: 'Atle Antonsen' },
+      { name: 'André Eriksen' },
+      { name: 'Christian Rubeck' },
     ],
     coverUrl: '/movies_pictures/the_trip.jpg',
     releaseDate: '2021-07-30',
@@ -12165,15 +12185,13 @@ export const baseMoviesComedie: BaseMovie[] = [
     title: 'Un papa hors pair',
     director: 'Paul Weitz',
     actors: [
-      {
-        name: 'Kevin Hart',
-      },
-      {
-        name: 'Alfre Woodard',
-      },
-      {
-        name: 'Lil Rel Howery',
-      },
+      { name: 'Kevin Hart' },
+      { name: 'Alfre Woodard' },
+      { name: 'Lil Rel Howery' },
+      { name: 'DeWanda Wise' },
+      { name: 'Anthony Carrigan' },
+      { name: 'Paul Reiser' },
+      { name: 'Melody Hurd' },
     ],
     coverUrl: '/movies_pictures/un_papa_hors_pair.jpg',
     releaseDate: '2021-06-18',
@@ -12189,15 +12207,13 @@ export const baseMoviesComedie: BaseMovie[] = [
     title: 'Play',
     director: 'Anthony Marciano',
     actors: [
-      {
-        name: 'Anthony Marciano',
-      },
-      {
-        name: 'Mehdi Nebbou',
-      },
-      {
-        name: 'Lannick Gautry',
-      },
+      { name: 'Max Boublil' },
+      { name: 'Alice Isaaz' },
+      { name: 'Malik Zidi' },
+      { name: 'Yaniss Lespert' },
+      { name: 'Pauline Étienne' },
+      { name: 'Lucas Englander' },
+      { name: 'Audrey Lamy' },
     ],
     coverUrl: '/movies_pictures/play.jpg',
     releaseDate: '2020-01-01',
@@ -12213,15 +12229,13 @@ export const baseMoviesComedie: BaseMovie[] = [
     title: "À tous les garçons que j'ai aimés",
     director: 'Susan Johnson',
     actors: [
-      {
-        name: 'Lana Condor',
-      },
-      {
-        name: 'Noah Centineo',
-      },
-      {
-        name: 'Janel Parrish',
-      },
+      { name: 'Lana Condor' },
+      { name: 'Noah Centineo' },
+      { name: 'Janel Parrish' },
+      { name: 'Anna Cathcart' },
+      { name: 'John Corbett' },
+      { name: 'Israel Broussard' },
+      { name: 'Madeleine Arthur' },
     ],
     coverUrl: '/movies_pictures/to_all_the_boys_i_ve_loved_before.jpg',
     releaseDate: '2018-08-17',
@@ -12237,15 +12251,13 @@ export const baseMoviesComedie: BaseMovie[] = [
     title: 'Crazy Rich Asians',
     director: 'Jon M. Chu',
     actors: [
-      {
-        name: 'Constance Wu',
-      },
-      {
-        name: 'Henry Golding',
-      },
-      {
-        name: 'Michelle Yeoh',
-      },
+      { name: 'Constance Wu' },
+      { name: 'Henry Golding' },
+      { name: 'Michelle Yeoh' },
+      { name: 'Gemma Chan' },
+      { name: 'Awkwafina' },
+      { name: 'Lisa Lu' },
+      { name: 'Ken Jeong' },
     ],
     coverUrl: '/movies_pictures/crazy_rich_asians.jpg',
     releaseDate: '2018-11-07',
@@ -12261,15 +12273,13 @@ export const baseMoviesComedie: BaseMovie[] = [
     title: 'Ne coupez pas !',
     director: "Shin'ichirō Ueda",
     actors: [
-      {
-        name: 'Dwayne Johnson',
-      },
-      {
-        name: 'Jack Black',
-      },
-      {
-        name: 'Kevin Hart',
-      },
+      { name: 'Takayuki Hamatsu' },
+      { name: 'Yuzuki Akiyama' },
+      { name: 'Harumi Shuhama' },
+      { name: 'Kazuaki Nagaya' },
+      { name: 'Hiroshi Ichihara' },
+      { name: 'Manabu Hosoi' },
+      { name: 'Mao' },
     ],
     coverUrl: '/movies_pictures/one_cut_of_the_dead.jpg',
     releaseDate: '2019-04-24',
@@ -12285,15 +12295,13 @@ export const baseMoviesComedie: BaseMovie[] = [
     title: 'The Babysitter',
     director: 'McG',
     actors: [
-      {
-        name: 'Samara Weaving',
-      },
-      {
-        name: 'Judah Lewis',
-      },
-      {
-        name: 'Bella Thorne',
-      },
+      { name: 'Samara Weaving' },
+      { name: 'Judah Lewis' },
+      { name: 'Bella Thorne' },
+      { name: 'Robbie Amell' },
+      { name: 'Hana Mae Lee' },
+      { name: 'Andrew Bachelor' },
+      { name: 'Emily Alyn Lind' },
     ],
     coverUrl: '/movies_pictures/the_babysitter.jpg',
     releaseDate: '2017-10-13',
@@ -12309,15 +12317,13 @@ export const baseMoviesComedie: BaseMovie[] = [
     title: 'Lady Bird',
     director: 'Greta Gerwig',
     actors: [
-      {
-        name: 'Saoirse Ronan',
-      },
-      {
-        name: 'Laurie Metcalf',
-      },
-      {
-        name: 'Tracy Letts',
-      },
+      { name: 'Saoirse Ronan' },
+      { name: 'Laurie Metcalf' },
+      { name: 'Tracy Letts' },
+      { name: 'Lucas Hedges' },
+      { name: 'Timothée Chalamet' },
+      { name: 'Beanie Feldstein' },
+      { name: 'Stephen McKinley Henderson' },
     ],
     coverUrl: '/movies_pictures/lady_bird.jpg',
     releaseDate: '2018-02-28',
@@ -12333,15 +12339,13 @@ export const baseMoviesComedie: BaseMovie[] = [
     title: 'La Colle',
     director: 'Alexandre Castagnetti',
     actors: [
-      {
-        name: 'Kev Adams',
-      },
-      {
-        name: 'Gérard Depardieu',
-      },
-      {
-        name: 'Noémie Schmidt',
-      },
+      { name: 'Kev Adams' },
+      { name: 'Gérard Depardieu' },
+      { name: 'Noémie Schmidt' },
+      { name: 'Audrey Lamy' },
+      { name: 'Tarek Boudali' },
+      { name: 'Yvonne Catterfeld' },
+      { name: 'Lannick Gautry' },
     ],
     coverUrl: '/movies_pictures/la_colle.jpg',
     releaseDate: '2017-07-19',
@@ -12357,15 +12361,13 @@ export const baseMoviesComedie: BaseMovie[] = [
     title: 'Alibi.com',
     director: 'Philippe Lacheau',
     actors: [
-      {
-        name: 'Philippe Lacheau',
-      },
-      {
-        name: 'Élodie Fontan',
-      },
-      {
-        name: 'Tarek Boudali',
-      },
+      { name: 'Philippe Lacheau' },
+      { name: 'Élodie Fontan' },
+      { name: 'Tarek Boudali' },
+      { name: 'Julien Arruti' },
+      { name: 'Didier Bourdon' },
+      { name: 'Nathalie Baye' },
+      { name: 'Medi Sadoun' },
     ],
     coverUrl: '/movies_pictures/alibi_com.jpg',
     releaseDate: '2017-02-15',
@@ -12381,15 +12383,13 @@ export const baseMoviesComedie: BaseMovie[] = [
     title: 'The Boyfriend : Pourquoi lui ?',
     director: 'John Hamburg',
     actors: [
-      {
-        name: 'James Franco',
-      },
-      {
-        name: 'Zoey Deutch',
-      },
-      {
-        name: 'Bryan Cranston',
-      },
+      { name: 'James Franco' },
+      { name: 'Zoey Deutch' },
+      { name: 'Bryan Cranston' },
+      { name: 'Megan Mullally' },
+      { name: 'Griffin Gluck' },
+      { name: 'Keegan-Michael Key' },
+      { name: 'Cedric the Entertainer' },
     ],
     coverUrl: '/movies_pictures/why_him.jpg',
     releaseDate: '2017-01-25',
@@ -12405,15 +12405,13 @@ export const baseMoviesComedie: BaseMovie[] = [
     title: 'War Dogs',
     director: 'Todd Phillips',
     actors: [
-      {
-        name: 'Jonah Hill',
-      },
-      {
-        name: 'Miles Teller',
-      },
-      {
-        name: 'Ana de Armas',
-      },
+      { name: 'Jonah Hill' },
+      { name: 'Miles Teller' },
+      { name: 'Ana de Armas' },
+      { name: 'Bradley Cooper' },
+      { name: 'Kevin Pollak' },
+      { name: 'Patrick St. Esprit' },
+      { name: 'Shaun Toub' },
     ],
     coverUrl: '/movies_pictures/war_dogs.jpg',
     releaseDate: '2016-09-14',
@@ -12429,15 +12427,13 @@ export const baseMoviesComedie: BaseMovie[] = [
     title: 'The Nice Guys',
     director: 'Shane Black',
     actors: [
-      {
-        name: 'Ryan Gosling',
-      },
-      {
-        name: 'Russell Crowe',
-      },
-      {
-        name: 'Angourie Rice',
-      },
+      { name: 'Ryan Gosling' },
+      { name: 'Russell Crowe' },
+      { name: 'Angourie Rice' },
+      { name: 'Matt Bomer' },
+      { name: 'Margaret Qualley' },
+      { name: 'Keith David' },
+      { name: 'Beau Knapp' },
     ],
     coverUrl: '/movies_pictures/the_nice_guys.jpg',
     releaseDate: '2016-05-20',
@@ -12453,15 +12449,13 @@ export const baseMoviesComedie: BaseMovie[] = [
     title: 'Nos pires voisins 2',
     director: 'Nicholas Stoller',
     actors: [
-      {
-        name: 'Seth Rogen',
-      },
-      {
-        name: 'Zac Efron',
-      },
-      {
-        name: 'Rose Byrne',
-      },
+      { name: 'Seth Rogen' },
+      { name: 'Zac Efron' },
+      { name: 'Rose Byrne' },
+      { name: 'Chloë Grace Moretz' },
+      { name: 'Dave Franco' },
+      { name: 'Ike Barinholtz' },
+      { name: 'Carla Gallo' },
     ],
     coverUrl: '/movies_pictures/neighbors_2_sorority_rising.jpg',
     releaseDate: '2016-07-06',
@@ -12477,12 +12471,13 @@ export const baseMoviesComedie: BaseMovie[] = [
     title: 'Five',
     director: 'Igor Gotesman',
     actors: [
-      {
-        name: 'Pierre Niney',
-      },
-      {
-        name: 'François Civil',
-      },
+      { name: 'Pierre Niney' },
+      { name: 'François Civil' },
+      { name: 'Idrissa Hanrot' },
+      { name: 'Margot Bancilhon' },
+      { name: 'Igor Gotesman' },
+      { name: 'Annabelle Lengronne' },
+      { name: 'Vincent Lacoste' },
     ],
     coverUrl: '/movies_pictures/five.jpg',
     releaseDate: '2016-08-31',
@@ -12525,15 +12520,13 @@ export const baseMoviesComedie: BaseMovie[] = [
     title: 'Dope',
     director: 'Rick Famuyiwa',
     actors: [
-      {
-        name: 'Shameik Moore',
-      },
-      {
-        name: 'Tony Revolori',
-      },
-      {
-        name: 'Kiersey Clemons',
-      },
+      { name: 'Shameik Moore' },
+      { name: 'Tony Revolori' },
+      { name: 'Kiersey Clemons' },
+      { name: 'Blake Anderson' },
+      { name: 'Zoë Kravitz' },
+      { name: 'A$AP Rocky' },
+      { name: 'Chanel Iman' },
     ],
     coverUrl: '/movies_pictures/dope.jpg',
     releaseDate: '2015-11-04',
@@ -12549,15 +12542,13 @@ export const baseMoviesComedie: BaseMovie[] = [
     title: 'Nos pires voisins',
     director: 'Nicholas Stoller',
     actors: [
-      {
-        name: 'Seth Rogen',
-      },
-      {
-        name: 'Zac Efron',
-      },
-      {
-        name: 'Rose Byrne',
-      },
+      { name: 'Seth Rogen' },
+      { name: 'Zac Efron' },
+      { name: 'Rose Byrne' },
+      { name: 'Dave Franco' },
+      { name: 'Christopher Mintz-Plasse' },
+      { name: 'Lisa Kudrow' },
+      { name: 'Ike Barinholtz' },
     ],
     coverUrl: '/movies_pictures/neighbors.jpg',
     releaseDate: '2014-05-28',
@@ -12573,15 +12564,13 @@ export const baseMoviesComedie: BaseMovie[] = [
     title: 'The Grand Budapest Hotel',
     director: 'Wes Anderson',
     actors: [
-      {
-        name: 'Ralph Fiennes',
-      },
-      {
-        name: 'Tony Revolori',
-      },
-      {
-        name: 'F. Murray Abraham',
-      },
+      { name: 'Ralph Fiennes' },
+      { name: 'Tony Revolori' },
+      { name: 'F. Murray Abraham' },
+      { name: 'Saoirse Ronan' },
+      { name: 'Adrien Brody' },
+      { name: 'Willem Dafoe' },
+      { name: 'Jeff Goldblum' },
     ],
     coverUrl: '/movies_pictures/the_grand_budapest_hotel.jpg',
     releaseDate: '2014-02-26',
@@ -12597,15 +12586,13 @@ export const baseMoviesComedie: BaseMovie[] = [
     title: 'Vampires en toute intimité',
     director: 'Taika Waititi, Jemaine Clement',
     actors: [
-      {
-        name: 'Taika Waititi',
-      },
-      {
-        name: 'Jemaine Clement',
-      },
-      {
-        name: 'Jonathan Brugh',
-      },
+      { name: 'Taika Waititi' },
+      { name: 'Jemaine Clement' },
+      { name: 'Jonathan Brugh' },
+      { name: 'Ben Fransham' },
+      { name: 'Cori Gonzalez-Macuer' },
+      { name: 'Stuart Rutherford' },
+      { name: 'Rhys Darby' },
     ],
     coverUrl: '/movies_pictures/what_we_do_in_the_shadows.jpg',
     releaseDate: '2015-02-11',
@@ -12621,15 +12608,13 @@ export const baseMoviesComedie: BaseMovie[] = [
     title: 'Et (beaucoup) plus si affinités',
     director: 'Michael Dowse',
     actors: [
-      {
-        name: 'Daniel Radcliffe',
-      },
-      {
-        name: 'Zoe Kazan',
-      },
-      {
-        name: 'Megan Park',
-      },
+      { name: 'Daniel Radcliffe' },
+      { name: 'Zoe Kazan' },
+      { name: 'Megan Park' },
+      { name: 'Adam Driver' },
+      { name: 'Mackenzie Davis' },
+      { name: 'Rafe Spall' },
+      { name: 'Jemima Rooper' },
     ],
     coverUrl: '/movies_pictures/what_if.jpg',
     releaseDate: '2014-08-20',
@@ -12645,15 +12630,13 @@ export const baseMoviesComedie: BaseMovie[] = [
     title: 'New York Melody',
     director: 'John Carney',
     actors: [
-      {
-        name: 'Keira Knightley',
-      },
-      {
-        name: 'Mark Ruffalo',
-      },
-      {
-        name: 'Adam Levine',
-      },
+      { name: 'Keira Knightley' },
+      { name: 'Mark Ruffalo' },
+      { name: 'Adam Levine' },
+      { name: 'Hailee Steinfeld' },
+      { name: 'James Corden' },
+      { name: 'Yasiin Bey' },
+      { name: 'Cee Lo Green' },
     ],
     coverUrl: '/movies_pictures/begin_again.jpg',
     releaseDate: '2014-07-30',
@@ -12669,15 +12652,13 @@ export const baseMoviesComedie: BaseMovie[] = [
     title: 'Les Miller, une famille en herbe',
     director: 'Rawson Marshall Thurber',
     actors: [
-      {
-        name: 'Jennifer Aniston',
-      },
-      {
-        name: 'Jason Sudeikis',
-      },
-      {
-        name: 'Emma Roberts',
-      },
+      { name: 'Jennifer Aniston' },
+      { name: 'Jason Sudeikis' },
+      { name: 'Emma Roberts' },
+      { name: 'Will Poulter' },
+      { name: 'Ed Helms' },
+      { name: 'Nick Offerman' },
+      { name: 'Kathryn Hahn' },
     ],
     coverUrl: '/movies_pictures/we_re_the_millers.jpg',
     releaseDate: '2013-09-18',
@@ -12693,15 +12674,13 @@ export const baseMoviesComedie: BaseMovie[] = [
     title: 'Copains pour toujours 2',
     director: 'Dennis Dugan',
     actors: [
-      {
-        name: 'Adam Sandler',
-      },
-      {
-        name: 'Kevin James',
-      },
-      {
-        name: 'Chris Rock',
-      },
+      { name: 'Adam Sandler' },
+      { name: 'Kevin James' },
+      { name: 'Chris Rock' },
+      { name: 'David Spade' },
+      { name: 'Salma Hayek' },
+      { name: 'Maya Rudolph' },
+      { name: 'Maria Bello' },
     ],
     coverUrl: '/movies_pictures/grown_ups_2.jpg',
     releaseDate: '2013-09-11',
@@ -12717,15 +12696,13 @@ export const baseMoviesComedie: BaseMovie[] = [
     title: 'Les Stagiaires',
     director: 'Shawn Levy',
     actors: [
-      {
-        name: 'Vince Vaughn',
-      },
-      {
-        name: 'Owen Wilson',
-      },
-      {
-        name: 'Rose Byrne',
-      },
+      { name: 'Vince Vaughn' },
+      { name: 'Owen Wilson' },
+      { name: 'Rose Byrne' },
+      { name: 'Aasif Mandvi' },
+      { name: 'Max Minghella' },
+      { name: 'Josh Brener' },
+      { name: 'Dylan O\'Brien' },
     ],
     coverUrl: '/movies_pictures/the_internship.jpg',
     releaseDate: '2013-06-26',
@@ -12741,15 +12718,13 @@ export const baseMoviesComedie: BaseMovie[] = [
     title: "C'est la fin",
     director: 'Evan Goldberg, Seth Rogen',
     actors: [
-      {
-        name: 'Seth Rogen',
-      },
-      {
-        name: 'James Franco',
-      },
-      {
-        name: 'Jonah Hill',
-      },
+      { name: 'Seth Rogen' },
+      { name: 'James Franco' },
+      { name: 'Jonah Hill' },
+      { name: 'Jay Baruchel' },
+      { name: 'Craig Robinson' },
+      { name: 'Danny McBride' },
+      { name: 'Michael Cera' },
     ],
     coverUrl: '/movies_pictures/this_is_the_end.jpg',
     releaseDate: '2013-10-09',
@@ -12765,15 +12740,13 @@ export const baseMoviesComedie: BaseMovie[] = [
     title: 'Seven Psychopaths',
     director: 'Martin McDonagh',
     actors: [
-      {
-        name: 'Colin Farrell',
-      },
-      {
-        name: 'Sam Rockwell',
-      },
-      {
-        name: 'Christopher Walken',
-      },
+      { name: 'Colin Farrell' },
+      { name: 'Sam Rockwell' },
+      { name: 'Christopher Walken' },
+      { name: 'Woody Harrelson' },
+      { name: 'Abbie Cornish' },
+      { name: 'Olga Kurylenko' },
+      { name: 'Tom Waits' },
     ],
     coverUrl: '/movies_pictures/seven_psychopaths.jpg',
     releaseDate: '2013-01-30',
@@ -12789,15 +12762,13 @@ export const baseMoviesComedie: BaseMovie[] = [
     title: 'Happy New Year',
     director: 'Garry Marshall',
     actors: [
-      {
-        name: 'Halle Berry',
-      },
-      {
-        name: 'Ashton Kutcher',
-      },
-      {
-        name: 'Jessica Biel',
-      },
+      { name: 'Halle Berry' },
+      { name: 'Ashton Kutcher' },
+      { name: 'Jessica Biel' },
+      { name: 'Sarah Jessica Parker' },
+      { name: 'Robert De Niro' },
+      { name: 'Hilary Swank' },
+      { name: 'Zac Efron' },
     ],
     coverUrl: '/movies_pictures/new_year_s_eve.jpg',
     releaseDate: '2011-12-21',
@@ -12813,15 +12784,13 @@ export const baseMoviesComedie: BaseMovie[] = [
     title: '10 ans déjà !',
     director: 'Jamie Linden',
     actors: [
-      {
-        name: 'Channing Tatum',
-      },
-      {
-        name: 'Rosario Dawson',
-      },
-      {
-        name: 'Justin Long',
-      },
+      { name: 'Channing Tatum' },
+      { name: 'Rosario Dawson' },
+      { name: 'Justin Long' },
+      { name: 'Chris Pratt' },
+      { name: 'Aubrey Plaza' },
+      { name: 'Anthony Mackie' },
+      { name: 'Lynn Collins' },
     ],
     coverUrl: '/movies_pictures/10_years.jpg',
     releaseDate: '2012-06-13',
@@ -12837,15 +12806,13 @@ export const baseMoviesComedie: BaseMovie[] = [
     title: 'Bad Teacher',
     director: 'Jake Kasdan',
     actors: [
-      {
-        name: 'Cameron Diaz',
-      },
-      {
-        name: 'Justin Timberlake',
-      },
-      {
-        name: 'Jason Segel',
-      },
+      { name: 'Cameron Diaz' },
+      { name: 'Justin Timberlake' },
+      { name: 'Jason Segel' },
+      { name: 'Lucy Punch' },
+      { name: 'Phyllis Smith' },
+      { name: 'John Michael Higgins' },
+      { name: 'Eric Stonestreet' },
     ],
     coverUrl: '/movies_pictures/bad_teacher.jpg',
     releaseDate: '2011-07-27',
@@ -12861,15 +12828,13 @@ export const baseMoviesComedie: BaseMovie[] = [
     title: 'Scott Pilgrim',
     director: 'Edgar Wright',
     actors: [
-      {
-        name: 'Michael Cera',
-      },
-      {
-        name: 'Mary Elizabeth Winstead',
-      },
-      {
-        name: 'Kieran Culkin',
-      },
+      { name: 'Michael Cera' },
+      { name: 'Mary Elizabeth Winstead' },
+      { name: 'Kieran Culkin' },
+      { name: 'Anna Kendrick' },
+      { name: 'Brie Larson' },
+      { name: 'Chris Evans' },
+      { name: 'Brandon Routh' },
     ],
     coverUrl: '/movies_pictures/scott_pilgrim_vs_the_world.jpg',
     releaseDate: '2010-12-01',
@@ -12885,15 +12850,13 @@ export const baseMoviesComedie: BaseMovie[] = [
     title: 'Copains pour toujours',
     director: 'Dennis Dugan',
     actors: [
-      {
-        name: 'Adam Sandler',
-      },
-      {
-        name: 'Kevin James',
-      },
-      {
-        name: 'Chris Rock',
-      },
+      { name: 'Adam Sandler' },
+      { name: 'Kevin James' },
+      { name: 'Chris Rock' },
+      { name: 'David Spade' },
+      { name: 'Rob Schneider' },
+      { name: 'Salma Hayek' },
+      { name: 'Maya Rudolph' },
     ],
     coverUrl: '/movies_pictures/grown_ups.jpg',
     releaseDate: '2010-09-08',
@@ -12909,15 +12872,13 @@ export const baseMoviesComedie: BaseMovie[] = [
     title: 'Nanny McPhee et le Big Bang',
     director: 'Susanna White',
     actors: [
-      {
-        name: 'Emma Thompson',
-      },
-      {
-        name: 'Maggie Gyllenhaal',
-      },
-      {
-        name: 'Rhys Ifans',
-      },
+      { name: 'Emma Thompson' },
+      { name: 'Maggie Gyllenhaal' },
+      { name: 'Rhys Ifans' },
+      { name: 'Maggie Smith' },
+      { name: 'Asa Butterfield' },
+      { name: 'Ralph Fiennes' },
+      { name: 'Ewan McGregor' },
     ],
     coverUrl: '/movies_pictures/nanny_mcphee_and_the_big_bang.jpg',
     releaseDate: '2010-03-31',
@@ -12933,9 +12894,13 @@ export const baseMoviesComedie: BaseMovie[] = [
     title: 'Coco',
     director: 'Gad Elmaleh',
     actors: [
-      {
-        name: 'Gad Elmaleh',
-      },
+      { name: 'Gad Elmaleh' },
+      { name: 'Cécile Cassel' },
+      { name: 'Joey Starr' },
+      { name: 'Manu Payet' },
+      { name: 'Lionnel Astier' },
+      { name: 'Pierre-François Martin-Laval' },
+      { name: 'Liliane Rovère' },
     ],
     coverUrl: '/movies_pictures/coco.jpg',
     releaseDate: '2009-11-29',
@@ -12951,15 +12916,13 @@ export const baseMoviesComedie: BaseMovie[] = [
     title: 'Little Miss Sunshine',
     director: 'Jonathan Dayton, Valerie Faris',
     actors: [
-      {
-        name: 'Abigail Breslin',
-      },
-      {
-        name: 'Greg Kinnear',
-      },
-      {
-        name: 'Toni Collette',
-      },
+      { name: 'Abigail Breslin' },
+      { name: 'Greg Kinnear' },
+      { name: 'Toni Collette' },
+      { name: 'Steve Carell' },
+      { name: 'Paul Dano' },
+      { name: 'Alan Arkin' },
+      { name: 'Bryan Cranston' },
     ],
     coverUrl: '/movies_pictures/little_miss_sunshine.jpg',
     releaseDate: '2006-09-06',
@@ -12975,15 +12938,13 @@ export const baseMoviesComedie: BaseMovie[] = [
     title: 'Treize à la douzaine 2',
     director: 'Adam Shankman',
     actors: [
-      {
-        name: 'Steve Martin',
-      },
-      {
-        name: 'Bonnie Hunt',
-      },
-      {
-        name: 'Eugene Levy',
-      },
+      { name: 'Steve Martin' },
+      { name: 'Bonnie Hunt' },
+      { name: 'Eugene Levy' },
+      { name: 'Hilary Duff' },
+      { name: 'Tom Welling' },
+      { name: 'Piper Perabo' },
+      { name: 'Carmen Electra' },
     ],
     coverUrl: '/movies_pictures/cheaper_by_the_dozen_2.jpg',
     releaseDate: '2006-03-01',
@@ -12999,15 +12960,13 @@ export const baseMoviesComedie: BaseMovie[] = [
     title: 'Kiss Kiss Bang Bang',
     director: 'Shane Black',
     actors: [
-      {
-        name: 'Steve Carell',
-      },
-      {
-        name: 'Catherine Keener',
-      },
-      {
-        name: 'Paul Rudd',
-      },
+      { name: 'Robert Downey Jr.' },
+      { name: 'Val Kilmer' },
+      { name: 'Michelle Monaghan' },
+      { name: 'Corbin Bernsen' },
+      { name: 'Larry Miller' },
+      { name: 'Rockmond Dunbar' },
+      { name: 'Shannyn Sossamon' },
     ],
     coverUrl: '/movies_pictures/kiss_kiss_bang_bang.jpg',
     releaseDate: '2005-09-14',
@@ -13023,15 +12982,13 @@ export const baseMoviesComedie: BaseMovie[] = [
     title: 'Le Fils du Mask',
     director: 'Lawrence Guterman',
     actors: [
-      {
-        name: 'Jamie Kennedy',
-      },
-      {
-        name: 'Alan Cumming',
-      },
-      {
-        name: 'Traylor Howard',
-      },
+      { name: 'Jamie Kennedy' },
+      { name: 'Alan Cumming' },
+      { name: 'Traylor Howard' },
+      { name: 'Steven Wright' },
+      { name: 'Bob Hoskins' },
+      { name: 'Kal Penn' },
+      { name: 'Liam Falconer' },
     ],
     coverUrl: '/movies_pictures/son_of_the_mask.jpg',
     releaseDate: '2005-03-23',
@@ -13051,15 +13008,13 @@ export const baseMoviesComedie: BaseMovie[] = [
     title: 'Les Dalton',
     director: 'Philippe Haïm',
     actors: [
-      {
-        name: 'Nicolas Cage',
-      },
-      {
-        name: 'Diane Kruger',
-      },
-      {
-        name: 'Justin Bartha',
-      },
+      { name: 'Éric Judor' },
+      { name: 'Ramzy Bedia' },
+      { name: 'Til Schweiger' },
+      { name: 'Saïd Serrari' },
+      { name: 'Romain Berger' },
+      { name: 'Marthe Villalonga' },
+      { name: 'Javivi' },
     ],
     coverUrl: '/movies_pictures/lucky_luke_and_the_daltons.jpg',
     releaseDate: '2004-12-08',
@@ -13079,15 +13034,13 @@ export const baseMoviesComedie: BaseMovie[] = [
     title: 'F.B.I. : Fausses blondes infiltrées',
     director: 'Keenen Ivory Wayans',
     actors: [
-      {
-        name: 'Shawn Wayans',
-      },
-      {
-        name: 'Marlon Wayans',
-      },
-      {
-        name: 'Jaime King',
-      },
+      { name: 'Shawn Wayans' },
+      { name: 'Marlon Wayans' },
+      { name: 'Jaime King' },
+      { name: 'Frankie Faison' },
+      { name: 'Lochlyn Munro' },
+      { name: 'John Heard' },
+      { name: 'Busy Philipps' },
     ],
     coverUrl: '/movies_pictures/white_chicks.jpg',
     releaseDate: '2004-10-20',
@@ -13103,15 +13056,13 @@ export const baseMoviesComedie: BaseMovie[] = [
     title: 'Treize à la douzaine',
     director: 'Shawn Levy',
     actors: [
-      {
-        name: 'Steve Martin',
-      },
-      {
-        name: 'Bonnie Hunt',
-      },
-      {
-        name: 'Piper Perabo',
-      },
+      { name: 'Steve Martin' },
+      { name: 'Bonnie Hunt' },
+      { name: 'Piper Perabo' },
+      { name: 'Hilary Duff' },
+      { name: 'Tom Welling' },
+      { name: 'Ashton Kutcher' },
+      { name: 'Forrest Landis' },
     ],
     coverUrl: '/movies_pictures/cheaper_by_the_dozen.jpg',
     releaseDate: '2004-04-14',
@@ -13127,15 +13078,13 @@ export const baseMoviesComedie: BaseMovie[] = [
     title: 'Rock Academy',
     director: 'Richard Linklater',
     actors: [
-      {
-        name: 'Jack Black',
-      },
-      {
-        name: 'Joan Cusack',
-      },
-      {
-        name: 'Mike White',
-      },
+      { name: 'Jack Black' },
+      { name: 'Joan Cusack' },
+      { name: 'Mike White' },
+      { name: 'Sarah Silverman' },
+      { name: 'Miranda Cosgrove' },
+      { name: 'Joey Gaydos Jr.' },
+      { name: 'Maryam Hassan' },
     ],
     coverUrl: '/movies_pictures/school_of_rock.jpg',
     releaseDate: '2004-03-24',
@@ -13151,15 +13100,13 @@ export const baseMoviesComedie: BaseMovie[] = [
     title: 'Comment se faire larguer en dix leçons',
     director: 'Donald Petrie',
     actors: [
-      {
-        name: 'Kate Hudson',
-      },
-      {
-        name: 'Matthew McConaughey',
-      },
-      {
-        name: 'Kathryn Hahn',
-      },
+      { name: 'Kate Hudson' },
+      { name: 'Matthew McConaughey' },
+      { name: 'Kathryn Hahn' },
+      { name: 'Adam Goldberg' },
+      { name: 'Bebe Neuwirth' },
+      { name: 'Robert Klein' },
+      { name: 'Shalom Harlow' },
     ],
     coverUrl: '/movies_pictures/how_to_lose_a_guy_in_10_days.jpg',
     releaseDate: '2003-06-11',
@@ -13175,15 +13122,13 @@ export const baseMoviesComedie: BaseMovie[] = [
     title: 'Zoolander',
     director: 'Ben Stiller',
     actors: [
-      {
-        name: 'Ben Stiller',
-      },
-      {
-        name: 'Owen Wilson',
-      },
-      {
-        name: 'Christine Taylor',
-      },
+      { name: 'Ben Stiller' },
+      { name: 'Owen Wilson' },
+      { name: 'Christine Taylor' },
+      { name: 'Will Ferrell' },
+      { name: 'Milla Jovovich' },
+      { name: 'Jon Voight' },
+      { name: 'David Duchovny' },
     ],
     coverUrl: '/movies_pictures/zoolander.jpg',
     releaseDate: '2002-01-02',
@@ -13226,15 +13171,13 @@ export const baseMoviesComedie: BaseMovie[] = [
     title: 'Sister Act, acte 2',
     director: 'Bill Duke',
     actors: [
-      {
-        name: 'Chantal Lauby',
-      },
-      {
-        name: 'Alain Chabat',
-      },
-      {
-        name: 'Dominique Farrugia',
-      },
+      { name: 'Whoopi Goldberg' },
+      { name: 'Kathy Najimy' },
+      { name: 'Maggie Smith' },
+      { name: 'Wendy Makkena' },
+      { name: 'Lauryn Hill' },
+      { name: 'Jennifer Love Hewitt' },
+      { name: 'James Coburn' },
     ],
     coverUrl: '/movies_pictures/sister_act_2_back_in_the_habit.jpg',
     releaseDate: '1994-03-23',
@@ -13250,15 +13193,13 @@ export const baseMoviesComedie: BaseMovie[] = [
     title: 'Sister Act',
     director: 'Emile Ardolino',
     actors: [
-      {
-        name: 'Whoopi Goldberg',
-      },
-      {
-        name: 'Maggie Smith',
-      },
-      {
-        name: 'Harvey Keitel',
-      },
+      { name: 'Whoopi Goldberg' },
+      { name: 'Maggie Smith' },
+      { name: 'Harvey Keitel' },
+      { name: 'Kathy Najimy' },
+      { name: 'Wendy Makkena' },
+      { name: 'Mary Wickes' },
+      { name: 'Bill Nunn' },
     ],
     coverUrl: '/movies_pictures/sister_act.jpg',
     releaseDate: '1992-11-25',
@@ -13274,15 +13215,13 @@ export const baseMoviesComedie: BaseMovie[] = [
     title: 'Big',
     director: 'Penny Marshall',
     actors: [
-      {
-        name: 'Tom Hanks',
-      },
-      {
-        name: 'Elizabeth Perkins',
-      },
-      {
-        name: 'Robert Loggia',
-      },
+      { name: 'Tom Hanks' },
+      { name: 'Elizabeth Perkins' },
+      { name: 'Robert Loggia' },
+      { name: 'John Heard' },
+      { name: 'Jared Rushton' },
+      { name: 'David Moscow' },
+      { name: 'Mercedes Ruehl' },
     ],
     coverUrl: '/movies_pictures/big.jpg',
     releaseDate: '1988-12-07',
@@ -13298,15 +13237,13 @@ export const baseMoviesComedie: BaseMovie[] = [
     title: 'La Folle Journée de Ferris Bueller',
     director: 'John Hughes',
     actors: [
-      {
-        name: 'Mayumi Tanaka',
-      },
-      {
-        name: 'Keiko Yokozawa',
-      },
-      {
-        name: 'Kotoe Hatsui',
-      },
+      { name: 'Matthew Broderick' },
+      { name: 'Alan Ruck' },
+      { name: 'Mia Sara' },
+      { name: 'Jeffrey Jones' },
+      { name: 'Jennifer Grey' },
+      { name: 'Cindy Pickett' },
+      { name: 'Edie McClurg' },
     ],
     coverUrl: '/movies_pictures/ferris_bueller_s_day_off.jpg',
     releaseDate: '1986-12-17',
@@ -13322,15 +13259,13 @@ export const baseMoviesComedie: BaseMovie[] = [
     title: 'Risky Business',
     director: 'Paul Brickman',
     actors: [
-      {
-        name: 'Tom Cruise',
-      },
-      {
-        name: 'Rebecca De Mornay',
-      },
-      {
-        name: 'Joe Pantoliano',
-      },
+      { name: 'Tom Cruise' },
+      { name: 'Rebecca De Mornay' },
+      { name: 'Joe Pantoliano' },
+      { name: 'Curtis Armstrong' },
+      { name: 'Bronson Pinchot' },
+      { name: 'Richard Masur' },
+      { name: 'Janet Carroll' },
     ],
     coverUrl: '/movies_pictures/risky_business.jpg',
     releaseDate: '1984-03-21',
@@ -13346,15 +13281,13 @@ export const baseMoviesComedie: BaseMovie[] = [
     title: 'Les Valseuses',
     director: 'Bertrand Blier',
     actors: [
-      {
-        name: 'Gérard Depardieu',
-      },
-      {
-        name: 'Patrick Dewaere',
-      },
-      {
-        name: 'Miou-Miou',
-      },
+      { name: 'Gérard Depardieu' },
+      { name: 'Patrick Dewaere' },
+      { name: 'Miou-Miou' },
+      { name: 'Jeanne Moreau' },
+      { name: 'Brigitte Fossey' },
+      { name: 'Isabelle Huppert' },
+      { name: 'Michel Peyrelon' },
     ],
     coverUrl: '/movies_pictures/going_places.jpg',
     releaseDate: '1974-01-09',

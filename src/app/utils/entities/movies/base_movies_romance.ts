@@ -394,9 +394,13 @@ export const baseMoviesRomance: BaseMovie[] = [
     title: 'Tout le Bleu du Ciel',
     director: 'João Canijo',
     actors: [
-      {
-        name: 'Rita Blanco',
-      },
+      { name: 'Rita Blanco' },
+      { name: 'Anabela Moreira' },
+      { name: 'Cleia Almeida' },
+      { name: 'Vera Barreto' },
+      { name: 'Madalena Almeida' },
+      { name: 'Beatriz Batarda' },
+      { name: 'Lia Carvalho' },
     ],
     coverUrl:
       '/movies_pictures/1307347-tout-le-bleu-du-ciel-2025-0-150-0-225-crop.jpg',
@@ -548,9 +552,13 @@ export const baseMoviesRomance: BaseMovie[] = [
     title: 'Hello, goodbye and everything in between',
     director: 'Michael Lewen',
     actors: [
-      {
-        name: 'Talia Ryder',
-      },
+      { name: 'Talia Ryder' },
+      { name: 'Jordan Fisher' },
+      { name: 'Ayo Edebiri' },
+      { name: 'Nico Hiraga' },
+      { name: 'Julia Benson' },
+      { name: 'Artemis Anastasiadis' },
+      { name: 'Sophia Reid-Gantzert' },
     ],
     coverUrl:
       '/movies_pictures/666928-hello-goodbye-and-everything-in-between-0-150-0-225-crop.jpg',
@@ -567,9 +575,13 @@ export const baseMoviesRomance: BaseMovie[] = [
     title: 'Un Accord Parfait',
     director: 'Stuart McDonald',
     actors: [
-      {
-        name: 'Victoria Justice',
-      },
+      { name: 'Victoria Justice' },
+      { name: 'Adam Demos' },
+      { name: 'Lucy Durack' },
+      { name: 'Craig Horner' },
+      { name: 'Samuel Johnson' },
+      { name: 'Toby Truslove' },
+      { name: 'Susan Prior' },
     ],
     coverUrl: '/movies_pictures/839735-a-perfect-pairing-0-150-0-225-crop.jpg',
     releaseDate: '2022-05-19',
@@ -690,9 +702,13 @@ export const baseMoviesRomance: BaseMovie[] = [
     title: "L'Amour complexe",
     director: 'Steven Tsuchida',
     actors: [
-      {
-        name: 'Christina Milian',
-      },
+      { name: 'Christina Milian' },
+      { name: 'Jay Pharoah' },
+      { name: 'Sinqua Walls' },
+      { name: 'Kym Whitley' },
+      { name: 'Tymberlee Hill' },
+      { name: 'AnnaLynne McCord' },
+      { name: 'Lonnie Chavis' },
     ],
     coverUrl: '/movies_pictures/704151-resort-to-love-0-150-0-225-crop.jpg',
     releaseDate: '2021-07-29',
@@ -853,7 +869,15 @@ export const baseMoviesRomance: BaseMovie[] = [
   {
     title: 'Love & autres drogues',
     director: 'Edward Zwick',
-    actors: [{ name: 'Jake Gyllenhaal' }, { name: 'Anne Hathaway' }],
+    actors: [
+      { name: 'Jake Gyllenhaal' },
+      { name: 'Anne Hathaway' },
+      { name: 'Oliver Platt' },
+      { name: 'Hank Azaria' },
+      { name: 'Josh Gad' },
+      { name: 'Gabriel Macht' },
+      { name: 'Judy Greer' },
+    ],
     coverUrl: '/movies_pictures/f4ae023308ad.jpg',
     releaseDate: '2010-11-24',
     length: 112,
@@ -1515,7 +1539,15 @@ export const baseMoviesRomance: BaseMovie[] = [
   {
     title: 'Amour & Amnésie',
     director: 'Peter Segal',
-    actors: [{ name: 'Adam Sandler' }],
+    actors: [
+      { name: 'Adam Sandler' },
+      { name: 'Drew Barrymore' },
+      { name: 'Rob Schneider' },
+      { name: 'Sean Astin' },
+      { name: 'Lusia Strus' },
+      { name: 'Dan Aykroyd' },
+      { name: 'Blake Clark' },
+    ],
     coverUrl: '/movies_pictures/250140b717ae.jpg',
     releaseDate: '2004-02-13',
     length: 99,
@@ -1769,9 +1801,9 @@ export const baseMoviesRomance: BaseMovie[] = [
     title: "L'Amour puissance mille",
     director: 'Filip Zylber',
     actors: [
-      {
-        name: 'Adrianna Chlebicka',
-      },
+      { name: 'Adrianna Chlebicka' },
+      { name: 'Mikolaj Roznerski' },
+      { name: 'Wojciech Solarz' },
     ],
     coverUrl: '/movies_pictures/2b3c67229ef5.jpg',
     releaseDate: '2021-02-11',
@@ -1996,9 +2028,13 @@ export const baseMoviesRomance: BaseMovie[] = [
     title: 'Rich in Love',
     director: 'Bruno Garotti',
     actors: [
-      {
-        name: 'Maisa Silva',
-      },
+      { name: 'Maisa Silva' },
+      { name: 'Danilo Mesquita' },
+      { name: 'Giovanna Lancellotti' },
+      { name: 'Ivete Sangalo' },
+      { name: 'José Rubens Chachá' },
+      { name: 'Vanessa Lóes' },
+      { name: 'Igor Jansen' },
     ],
     coverUrl: '/movies_pictures/582011-rich-in-love-0-150-0-225-crop.jpg',
     releaseDate: '2020-06-19',
@@ -2014,9 +2050,13 @@ export const baseMoviesRomance: BaseMovie[] = [
     title: 'Isi & Ossi',
     director: 'Oliver Kienle',
     actors: [
-      {
-        name: 'Lisa Vicari',
-      },
+      { name: 'Lisa Vicari' },
+      { name: 'Dennis Mojen' },
+      { name: 'Lisa Hagmeister' },
+      { name: 'Walid Al-Atiyat' },
+      { name: 'Anke Engelke' },
+      { name: 'Stephan Luca' },
+      { name: 'Almila Bagriacik' },
     ],
     coverUrl: '/movies_pictures/584262-isi-ossi-0-150-0-225-crop.jpg',
     releaseDate: '2020-02-14',
@@ -2175,7 +2215,15 @@ export const baseMoviesRomance: BaseMovie[] = [
   {
     title: 'LOL (Laughing Out Loud)',
     director: 'Lisa Azuelos',
-    actors: [{ name: 'Sophie Marceau' }, { name: 'Alexandre Astier' }],
+    actors: [
+      { name: 'Sophie Marceau' },
+      { name: 'Alexandre Astier' },
+      { name: 'Christa Théret' },
+      { name: 'Jérémy Kapone' },
+      { name: 'Marion Chabassol' },
+      { name: 'Félix Moati' },
+      { name: 'Lou Lesage' },
+    ],
     coverUrl: '/movies_pictures/e16d7036cbc8.jpg',
     releaseDate: '2012-04-04',
     length: 97,
@@ -2334,7 +2382,13 @@ export const baseMoviesRomance: BaseMovie[] = [
   {
     title: 'French Lover',
     director: 'Nina Rives',
-    actors: [{ name: 'Omar Sy' }],
+    actors: [
+      { name: 'Omar Sy' },
+      { name: 'Sara Giraudeau' },
+      { name: 'Pascale Arbillot' },
+      { name: 'Alban Ivanov' },
+      { name: 'Anaïs Demoustier' },
+    ],
     coverUrl:
       '/movies_pictures/AAAABWVgN_6qNZk70MFWrIUY6kiYXI907aDytmsBt7M1eQ_o.jpg',
     releaseDate: '2025-01-01',
@@ -3273,7 +3327,15 @@ export const baseMoviesRomance: BaseMovie[] = [
   {
     title: '10 bonnes raisons de te larguer',
     director: 'Gil Junger',
-    actors: [{ name: 'Julia Stiles' }, { name: 'Heath Ledger' }],
+    actors: [
+      { name: 'Julia Stiles' },
+      { name: 'Heath Ledger' },
+      { name: 'Joseph Gordon-Levitt' },
+      { name: 'Larisa Oleynik' },
+      { name: 'David Krumholtz' },
+      { name: 'Andrew Keegan' },
+      { name: 'Susan May Pratt' },
+    ],
     coverUrl: '/movies_pictures/19052436.webp',
     releaseDate: '1999-03-31',
     length: 97,
@@ -3542,12 +3604,13 @@ export const baseMoviesRomance: BaseMovie[] = [
     title: 'Friendzone',
     director: 'Charles Van Tieghem',
     actors: [
-      {
-        name: 'Mickaël Lumière',
-      },
-      {
-        name: 'Manon Azem',
-      },
+      { name: 'Mickaël Lumière' },
+      { name: 'Manon Azem' },
+      { name: 'Constance Arnoult' },
+      { name: 'Yvick Letexier' },
+      { name: 'Diane Robert' },
+      { name: 'Helena Coppejans' },
+      { name: 'Jean-Édouard Bodziak' },
     ],
     coverUrl: '/movies_pictures/7e4e7b1969cd.jpg',
     releaseDate: '2021-09-29',
@@ -4759,12 +4822,13 @@ export const baseMoviesRomance: BaseMovie[] = [
     title: "L'idée d'être avec toi",
     director: 'Michael Showalter',
     actors: [
-      {
-        name: 'Anne Hathaway',
-      },
-      {
-        name: 'Nicholas Galitzine',
-      },
+      { name: 'Anne Hathaway' },
+      { name: 'Nicholas Galitzine' },
+      { name: 'Ella Rubin' },
+      { name: 'Annie Mumolo' },
+      { name: 'Reid Scott' },
+      { name: 'Perry Mattfeld' },
+      { name: 'Jordan Aaron Hall' },
     ],
     coverUrl: '/movies_pictures/d5b4d0f9fa2a.png',
     releaseDate: '2024-05-02',

@@ -859,7 +859,15 @@ export const baseMoviesSagaScienceFiction: BaseMovie[] = [
   {
     title: 'Alien : La Résurrection',
     director: 'Jean-Pierre Jeunet',
-    actors: [{ name: 'Sigourney Weaver' }],
+    actors: [
+      { name: 'Sigourney Weaver' },
+      { name: 'Winona Ryder' },
+      { name: 'Ron Perlman' },
+      { name: 'Dominique Pinon' },
+      { name: 'Michael Wincott' },
+      { name: 'Brad Dourif' },
+      { name: 'Dan Hedaya' },
+    ],
     coverUrl: '/movies_pictures/39ff0d4211c0.jpg',
     releaseDate: '1997-11-26',
     length: 109,
@@ -1630,9 +1638,13 @@ export const baseMoviesSagaScienceFiction: BaseMovie[] = [
     title: 'Le Labyrinthe 3 : Le remède mortel',
     director: 'Wes Ball',
     actors: [
-      {
-        name: "Dylan O'Brien",
-      },
+      { name: "Dylan O'Brien" },
+      { name: 'Kaya Scodelario' },
+      { name: 'Thomas Brodie-Sangster' },
+      { name: 'Ki Hong Lee' },
+      { name: 'Aidan Gillen' },
+      { name: 'Patricia Clarkson' },
+      { name: 'Walton Goggins' },
     ],
     coverUrl: '/movies_pictures/490429f278fd.jpg',
     releaseDate: '2018-01-26',

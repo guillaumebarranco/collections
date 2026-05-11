@@ -6411,7 +6411,15 @@ export const baseMoviesDrame: BaseMovie[] = [
   {
     title: 'La Dernière Passe',
     director: 'Dustin Hoffman',
-    actors: [{ name: 'Robin Williams' }],
+    actors: [
+      { name: 'Maggie Smith' },
+      { name: 'Tom Courtenay' },
+      { name: 'Billy Connolly' },
+      { name: 'Pauline Collins' },
+      { name: 'Michael Gambon' },
+      { name: 'Sheridan Smith' },
+      { name: 'Andrew Sachs' },
+    ],
     coverUrl: '/movies_pictures/affich_33159_1.jpg',
     releaseDate: '2012-12-21',
     length: 105,
@@ -6699,7 +6707,15 @@ export const baseMoviesDrame: BaseMovie[] = [
   {
     title: 'La Chute du Président Nixon',
     director: 'Ron Howard',
-    actors: [{ name: 'Morgan Freeman' }],
+    actors: [
+      { name: 'Frank Langella' },
+      { name: 'Michael Sheen' },
+      { name: 'Sam Rockwell' },
+      { name: 'Kevin Bacon' },
+      { name: 'Toby Jones' },
+      { name: 'Matthew Macfadyen' },
+      { name: 'Oliver Platt' },
+    ],
     coverUrl: '/movies_pictures/0248334.webp',
     releaseDate: '1995-12-20',
     length: 141,
@@ -8901,7 +8917,15 @@ export const baseMoviesDrame: BaseMovie[] = [
   {
     title: 'Sergio',
     director: 'Greg Barker',
-    actors: [{ name: 'Ana de Armas' }],
+    actors: [
+      { name: 'Wagner Moura' },
+      { name: 'Ana de Armas' },
+      { name: 'Garret Dillahunt' },
+      { name: 'Brían F. O\'Byrne' },
+      { name: 'Bradley Whitford' },
+      { name: 'Will Dalton' },
+      { name: 'Clemens Schick' },
+    ],
     coverUrl: '/movies_pictures/0997412.jpg',
     releaseDate: '2020-04-17',
     length: 118,
@@ -12569,9 +12593,13 @@ export const baseMoviesDrame: BaseMovie[] = [
     title: 'Alpha',
     director: 'Julia Ducournau',
     actors: [
-      {
-        name: 'Tahar Rahim',
-      },
+      { name: 'Mélissa Boros' },
+      { name: 'Golshifteh Farahani' },
+      { name: 'Tahar Rahim' },
+      { name: 'Finnegan Oldfield' },
+      { name: 'Emma Mackey' },
+      { name: 'Louai El Amrousy' },
+      { name: 'Mohamed Bourial' },
     ],
     coverUrl: '/movies_pictures/alpha.jpg',
     releaseDate: '2025-01-01',
@@ -12773,15 +12801,13 @@ export const baseMoviesDrame: BaseMovie[] = [
     title: 'Caddo Lake',
     director: 'Celine Held, Logan George',
     actors: [
-      {
-        name: 'Josh Hutcherson',
-      },
-      {
-        name: 'Piper Rubio',
-      },
-      {
-        name: 'Matthew Lillard',
-      },
+      { name: 'Dylan O\'Brien' },
+      { name: 'Eliza Scanlen' },
+      { name: 'Lauren Ambrose' },
+      { name: 'Diana Hopper' },
+      { name: 'Caroline Falk' },
+      { name: 'Sam Hennings' },
+      { name: 'David Maldonado' },
     ],
     coverUrl: '/movies_pictures/caddo_lake.jpg',
     releaseDate: '2024-01-01',
@@ -12858,15 +12884,13 @@ export const baseMoviesDrame: BaseMovie[] = [
     title: 'Anora',
     director: 'Sean Baker',
     actors: [
-      {
-        name: "Lupita Nyong'o",
-      },
-      {
-        name: 'Pedro Pascal',
-      },
-      {
-        name: 'Bill Nighy',
-      },
+      { name: 'Mikey Madison' },
+      { name: 'Mark Eydelshteyn' },
+      { name: 'Yura Borisov' },
+      { name: 'Karren Karagulian' },
+      { name: 'Vache Tovmasyan' },
+      { name: 'Aleksei Serebryakov' },
+      { name: 'Darya Ekamasova' },
     ],
     coverUrl: '/movies_pictures/f201e5c3dfff.jpg',
     releaseDate: '2024-01-01',
@@ -13032,15 +13056,13 @@ export const baseMoviesDrame: BaseMovie[] = [
     title: 'Killers of the Flower Moon',
     director: 'Martin Scorsese',
     actors: [
-      {
-        name: 'Nadia Tereszkiewicz',
-      },
-      {
-        name: 'Rebecca Marder',
-      },
-      {
-        name: 'Isabelle Huppert',
-      },
+      { name: 'Leonardo DiCaprio' },
+      { name: 'Robert De Niro' },
+      { name: 'Lily Gladstone' },
+      { name: 'Jesse Plemons' },
+      { name: 'Tantoo Cardinal' },
+      { name: 'John Lithgow' },
+      { name: 'Brendan Fraser' },
     ],
     coverUrl: '/movies_pictures/killers_of_the_flower_moon.jpg',
     releaseDate: '2023-10-18',
@@ -13056,15 +13078,13 @@ export const baseMoviesDrame: BaseMovie[] = [
     title: "Les trois mousquetaires: D'Artagnan",
     director: 'Martin Bourboulon',
     actors: [
-      {
-        name: 'François Civil',
-      },
-      {
-        name: 'Vincent Cassel',
-      },
-      {
-        name: 'Romain Duris',
-      },
+      { name: 'François Civil' },
+      { name: 'Vincent Cassel' },
+      { name: 'Romain Duris' },
+      { name: 'Pio Marmaï' },
+      { name: 'Eva Green' },
+      { name: 'Louis Garrel' },
+      { name: 'Lyna Khoudri' },
     ],
     coverUrl: '/movies_pictures/the_three_musketeers_dartagnan.jpg',
     releaseDate: '2023-01-01',
@@ -13084,15 +13104,13 @@ export const baseMoviesDrame: BaseMovie[] = [
     title: 'Air',
     director: 'Ben Affleck',
     actors: [
-      {
-        name: 'Matt Damon',
-      },
-      {
-        name: 'Ben Affleck',
-      },
-      {
-        name: 'Viola Davis',
-      },
+      { name: 'Matt Damon' },
+      { name: 'Ben Affleck' },
+      { name: 'Viola Davis' },
+      { name: 'Jason Bateman' },
+      { name: 'Marlon Wayans' },
+      { name: 'Chris Messina' },
+      { name: 'Chris Tucker' },
     ],
     coverUrl: '/movies_pictures/air.jpg',
     releaseDate: '2023-04-05',
@@ -13108,15 +13126,13 @@ export const baseMoviesDrame: BaseMovie[] = [
     title: 'Knock at the Cabin',
     director: 'M. Night Shyamalan',
     actors: [
-      {
-        name: 'Dave Bautista',
-      },
-      {
-        name: 'Jonathan Groff',
-      },
-      {
-        name: 'Ben Aldridge',
-      },
+      { name: 'Dave Bautista' },
+      { name: 'Jonathan Groff' },
+      { name: 'Ben Aldridge' },
+      { name: 'Nikki Amuka-Bird' },
+      { name: 'Kristen Cui' },
+      { name: 'Abby Quinn' },
+      { name: 'Rupert Grint' },
     ],
     coverUrl: '/movies_pictures/knock_at_the_cabin.jpg',
     releaseDate: '2023-01-01',
@@ -13132,15 +13148,13 @@ export const baseMoviesDrame: BaseMovie[] = [
     title: "Past Lives – Nos vies d'avant",
     director: 'Celine Song',
     actors: [
-      {
-        name: 'Greta Lee',
-      },
-      {
-        name: 'Teo Yoo',
-      },
-      {
-        name: 'John Magaro',
-      },
+      { name: 'Greta Lee' },
+      { name: 'Teo Yoo' },
+      { name: 'John Magaro' },
+      { name: 'Moon Seung-ah' },
+      { name: 'Leem Seung-min' },
+      { name: 'Ji Hye Yoon' },
+      { name: 'Choi Won-young' },
     ],
     coverUrl: '/movies_pictures/past_lives_nos_vies_davant.jpg',
     releaseDate: '2023-12-13',
@@ -13156,15 +13170,13 @@ export const baseMoviesDrame: BaseMovie[] = [
     title: 'Slumberland',
     director: 'Francis Lawrence',
     actors: [
-      {
-        name: 'Jason Momoa',
-      },
-      {
-        name: 'Marlow Barkley',
-      },
-      {
-        name: "Chris O'Dowd",
-      },
+      { name: 'Jason Momoa' },
+      { name: 'Marlow Barkley' },
+      { name: "Chris O'Dowd" },
+      { name: 'Kyle Chandler' },
+      { name: 'Weruche Opia' },
+      { name: 'India de Beaufort' },
+      { name: 'Humberly González' },
     ],
     coverUrl: '/movies_pictures/slumberland.jpg',
     releaseDate: '2022-01-01',
@@ -13180,15 +13192,13 @@ export const baseMoviesDrame: BaseMovie[] = [
     title: 'The Whale',
     director: 'Darren Aronofsky',
     actors: [
-      {
-        name: 'Brendan Fraser',
-      },
-      {
-        name: 'Sadie Sink',
-      },
-      {
-        name: 'Hong Chau',
-      },
+      { name: 'Brendan Fraser' },
+      { name: 'Sadie Sink' },
+      { name: 'Hong Chau' },
+      { name: 'Ty Simpkins' },
+      { name: 'Samantha Morton' },
+      { name: 'Sathya Sridharan' },
+      { name: 'Jacey Sink' },
     ],
     coverUrl: '/movies_pictures/6fbf9a1e2f97.jpg',
     releaseDate: '2023-03-08',
@@ -13204,15 +13214,13 @@ export const baseMoviesDrame: BaseMovie[] = [
     title: 'Athena',
     director: 'Romain Gavras',
     actors: [
-      {
-        name: 'Dali Benssalah',
-      },
-      {
-        name: 'Sami Slimane',
-      },
-      {
-        name: 'Anthony Bajon',
-      },
+      { name: 'Dali Benssalah' },
+      { name: 'Sami Slimane' },
+      { name: 'Anthony Bajon' },
+      { name: 'Ouassini Embarek' },
+      { name: 'Alexis Manenti' },
+      { name: 'Karim Lasmi' },
+      { name: 'Mehdi Massadi' },
     ],
     coverUrl: '/movies_pictures/athena.jpg',
     releaseDate: '2022-01-01',
@@ -13228,15 +13236,13 @@ export const baseMoviesDrame: BaseMovie[] = [
     title: 'The Princess',
     director: 'Le-Van Kiet',
     actors: [
-      {
-        name: 'Joey King',
-      },
-      {
-        name: 'Dominic Cooper',
-      },
-      {
-        name: 'Olga Kurylenko',
-      },
+      { name: 'Joey King' },
+      { name: 'Dominic Cooper' },
+      { name: 'Olga Kurylenko' },
+      { name: 'Veronica Ngo' },
+      { name: 'Ed Stoppard' },
+      { name: 'Alex Reid' },
+      { name: 'Katelyn Rose Downey' },
     ],
     coverUrl: '/movies_pictures/the_princess.jpg',
     releaseDate: '2022-01-01',
@@ -13252,15 +13258,13 @@ export const baseMoviesDrame: BaseMovie[] = [
     title: 'The Night of the 12th',
     director: 'Dominik Moll',
     actors: [
-      {
-        name: 'Bastien Bouillon',
-      },
-      {
-        name: 'Bouli Lanners',
-      },
-      {
-        name: 'Anouk Grinberg',
-      },
+      { name: 'Bastien Bouillon' },
+      { name: 'Bouli Lanners' },
+      { name: 'Anouk Grinberg' },
+      { name: 'Mouna Soualem' },
+      { name: 'Pauline Serieys' },
+      { name: 'Théo Cholbi' },
+      { name: 'Pierre Lottin' },
     ],
     coverUrl: '/movies_pictures/the_night_of_the_12th.jpg',
     releaseDate: '2022-01-01',
@@ -13276,15 +13280,13 @@ export const baseMoviesDrame: BaseMovie[] = [
     title: 'tick, tick... BOOM!',
     director: 'Lin-Manuel Miranda',
     actors: [
-      {
-        name: 'Andrew Garfield',
-      },
-      {
-        name: 'Alexandra Shipp',
-      },
-      {
-        name: 'Robin de Jesús',
-      },
+      { name: 'Andrew Garfield' },
+      { name: 'Alexandra Shipp' },
+      { name: 'Robin de Jesús' },
+      { name: 'Joshua Henry' },
+      { name: 'Vanessa Hudgens' },
+      { name: 'Bradley Whitford' },
+      { name: 'MJ Rodriguez' },
     ],
     coverUrl: '/movies_pictures/6adeea04ed09.jpg',
     releaseDate: '2021-01-01',
@@ -13300,15 +13302,13 @@ export const baseMoviesDrame: BaseMovie[] = [
     title: 'The Last Duel',
     director: 'Ridley Scott',
     actors: [
-      {
-        name: 'Matt Damon',
-      },
-      {
-        name: 'Adam Driver',
-      },
-      {
-        name: 'Jodie Comer',
-      },
+      { name: 'Matt Damon' },
+      { name: 'Adam Driver' },
+      { name: 'Jodie Comer' },
+      { name: 'Ben Affleck' },
+      { name: 'Harriet Walter' },
+      { name: 'Nathaniel Parker' },
+      { name: 'Marton Csokas' },
     ],
     coverUrl: '/movies_pictures/the_last_duel.jpg',
     releaseDate: '2021-01-01',
@@ -13324,15 +13324,13 @@ export const baseMoviesDrame: BaseMovie[] = [
     title: 'The Stronghold',
     director: 'Cédric Jimenez',
     actors: [
-      {
-        name: 'Gilles Lellouche',
-      },
-      {
-        name: 'François Civil',
-      },
-      {
-        name: 'Karim Leklou',
-      },
+      { name: 'Gilles Lellouche' },
+      { name: 'François Civil' },
+      { name: 'Karim Leklou' },
+      { name: 'Adèle Exarchopoulos' },
+      { name: 'Kenza Fortas' },
+      { name: 'Bakary Diombera' },
+      { name: 'Cyril Lecomte' },
     ],
     coverUrl: '/movies_pictures/the_stronghold.jpg',
     releaseDate: '2021-01-01',
@@ -13348,15 +13346,13 @@ export const baseMoviesDrame: BaseMovie[] = [
     title: 'The Woman in the Window',
     director: 'Joe Wright',
     actors: [
-      {
-        name: 'Amy Adams',
-      },
-      {
-        name: 'Gary Oldman',
-      },
-      {
-        name: 'Anthony Mackie',
-      },
+      { name: 'Amy Adams' },
+      { name: 'Gary Oldman' },
+      { name: 'Anthony Mackie' },
+      { name: 'Fred Hechinger' },
+      { name: 'Wyatt Russell' },
+      { name: 'Brian Tyree Henry' },
+      { name: 'Julianne Moore' },
     ],
     coverUrl: '/movies_pictures/the_woman_in_the_window.jpg',
     releaseDate: '2021-01-01',
@@ -13372,12 +13368,8 @@ export const baseMoviesDrame: BaseMovie[] = [
     title: 'Malcolm & Marie',
     director: 'Sam Levinson',
     actors: [
-      {
-        name: 'John David Washington',
-      },
-      {
-        name: 'Zendaya',
-      },
+      { name: 'John David Washington' },
+      { name: 'Zendaya' },
     ],
     coverUrl: '/movies_pictures/malcolm_marie.jpg',
     releaseDate: '2021-02-05',
@@ -13393,15 +13385,13 @@ export const baseMoviesDrame: BaseMovie[] = [
     title: 'The Little Things',
     director: 'John Lee Hancock',
     actors: [
-      {
-        name: 'Denzel Washington',
-      },
-      {
-        name: 'Rami Malek',
-      },
-      {
-        name: 'Jared Leto',
-      },
+      { name: 'Denzel Washington' },
+      { name: 'Rami Malek' },
+      { name: 'Jared Leto' },
+      { name: 'Natalie Morales' },
+      { name: 'Terry Kinney' },
+      { name: 'Chris Bauer' },
+      { name: 'Joris Jarsky' },
     ],
     coverUrl: '/movies_pictures/the_little_things.jpg',
     releaseDate: '2021-01-01',
@@ -13417,15 +13407,13 @@ export const baseMoviesDrame: BaseMovie[] = [
     title: 'Da 5 Bloods : Frères de sang',
     director: 'Spike Lee',
     actors: [
-      {
-        name: 'Delroy Lindo',
-      },
-      {
-        name: 'Jonathan Majors',
-      },
-      {
-        name: 'Clarke Peters',
-      },
+      { name: 'Delroy Lindo' },
+      { name: 'Jonathan Majors' },
+      { name: 'Clarke Peters' },
+      { name: 'Norm Lewis' },
+      { name: 'Isiah Whitlock Jr.' },
+      { name: 'Mélanie Thierry' },
+      { name: 'Chadwick Boseman' },
     ],
     coverUrl: '/movies_pictures/da_5_bloods_freres_de_sang.jpg',
     releaseDate: '2020-06-12',
@@ -13441,15 +13429,13 @@ export const baseMoviesDrame: BaseMovie[] = [
     title: 'The Invisible Man',
     director: 'Leigh Whannell',
     actors: [
-      {
-        name: 'Elisabeth Moss',
-      },
-      {
-        name: 'Oliver Jackson-Cohen',
-      },
-      {
-        name: 'Aldis Hodge',
-      },
+      { name: 'Elisabeth Moss' },
+      { name: 'Oliver Jackson-Cohen' },
+      { name: 'Aldis Hodge' },
+      { name: 'Storm Reid' },
+      { name: 'Harriet Dyer' },
+      { name: 'Michael Dorman' },
+      { name: 'Benedict Hardie' },
     ],
     coverUrl: '/movies_pictures/the_invisible_man.jpg',
     releaseDate: '2020-01-01',
@@ -13465,15 +13451,13 @@ export const baseMoviesDrame: BaseMovie[] = [
     title: 'Gemini Man',
     director: 'Ang Lee',
     actors: [
-      {
-        name: 'Will Smith',
-      },
-      {
-        name: 'Mary Elizabeth Winstead',
-      },
-      {
-        name: 'Clive Owen',
-      },
+      { name: 'Will Smith' },
+      { name: 'Mary Elizabeth Winstead' },
+      { name: 'Clive Owen' },
+      { name: 'Benedict Wong' },
+      { name: 'Linda Emond' },
+      { name: 'Ilia Volok' },
+      { name: 'Theodora Miranne' },
     ],
     coverUrl: '/movies_pictures/gemini_man.jpg',
     releaseDate: '2019-01-01',
@@ -13489,15 +13473,13 @@ export const baseMoviesDrame: BaseMovie[] = [
     title: 'Le Mans 66',
     director: 'James Mangold',
     actors: [
-      {
-        name: 'Matt Damon',
-      },
-      {
-        name: 'Christian Bale',
-      },
-      {
-        name: 'Jon Bernthal',
-      },
+      { name: 'Matt Damon' },
+      { name: 'Christian Bale' },
+      { name: 'Jon Bernthal' },
+      { name: 'Caitríona Balfe' },
+      { name: 'Tracy Letts' },
+      { name: 'Josh Lucas' },
+      { name: 'Noah Jupe' },
     ],
     coverUrl: '/movies_pictures/829596b788f1.jpg',
     releaseDate: '2019-11-13',
@@ -13513,15 +13495,13 @@ export const baseMoviesDrame: BaseMovie[] = [
     title: 'Marriage Story',
     director: 'Noah Baumbach',
     actors: [
-      {
-        name: 'Adam Driver',
-      },
-      {
-        name: 'Scarlett Johansson',
-      },
-      {
-        name: 'Laura Dern',
-      },
+      { name: 'Adam Driver' },
+      { name: 'Scarlett Johansson' },
+      { name: 'Laura Dern' },
+      { name: 'Alan Alda' },
+      { name: 'Ray Liotta' },
+      { name: 'Julie Hagerty' },
+      { name: 'Merritt Wever' },
     ],
     coverUrl: '/movies_pictures/marriage_story.jpg',
     releaseDate: '2019-12-06',
@@ -13537,15 +13517,13 @@ export const baseMoviesDrame: BaseMovie[] = [
     title: 'It Chapter Two',
     director: 'Andy Muschietti',
     actors: [
-      {
-        name: 'Jessica Chastain',
-      },
-      {
-        name: 'James McAvoy',
-      },
-      {
-        name: 'Bill Hader',
-      },
+      { name: 'Jessica Chastain' },
+      { name: 'James McAvoy' },
+      { name: 'Bill Hader' },
+      { name: 'Isaiah Mustafa' },
+      { name: 'Jay Ryan' },
+      { name: 'James Ransone' },
+      { name: 'Bill Skarsgård' },
     ],
     coverUrl: '/movies_pictures/it_chapter_two.jpg',
     releaseDate: '2019-01-01',
@@ -13561,15 +13539,13 @@ export const baseMoviesDrame: BaseMovie[] = [
     title: 'The Specials',
     director: 'Éric Toledano, Olivier Nakache',
     actors: [
-      {
-        name: 'Vincent Cassel',
-      },
-      {
-        name: 'Reda Kateb',
-      },
-      {
-        name: 'Hélène Vincent',
-      },
+      { name: 'Vincent Cassel' },
+      { name: 'Reda Kateb' },
+      { name: 'Hélène Vincent' },
+      { name: 'Bryan Mialoundama' },
+      { name: 'Marco Locatelli' },
+      { name: 'Alban Ivanov' },
+      { name: 'Catherine Mouchet' },
     ],
     coverUrl: '/movies_pictures/the_specials.jpg',
     releaseDate: '2019-10-23',
@@ -13585,15 +13561,13 @@ export const baseMoviesDrame: BaseMovie[] = [
     title: 'Yesterday',
     director: 'Danny Boyle',
     actors: [
-      {
-        name: 'Himesh Patel',
-      },
-      {
-        name: 'Lily James',
-      },
-      {
-        name: 'Ed Sheeran',
-      },
+      { name: 'Himesh Patel' },
+      { name: 'Lily James' },
+      { name: 'Ed Sheeran' },
+      { name: 'Kate McKinnon' },
+      { name: 'Joel Fry' },
+      { name: 'Sophia Di Martino' },
+      { name: 'Karma Sood' },
     ],
     coverUrl: '/movies_pictures/yesterday.jpg',
     releaseDate: '2019-01-01',
@@ -13609,15 +13583,13 @@ export const baseMoviesDrame: BaseMovie[] = [
     title: 'Tolkien',
     director: 'Dome Karukoski',
     actors: [
-      {
-        name: 'Nicholas Hoult',
-      },
-      {
-        name: 'Lily Collins',
-      },
-      {
-        name: 'Colm Meaney',
-      },
+      { name: 'Nicholas Hoult' },
+      { name: 'Lily Collins' },
+      { name: 'Colm Meaney' },
+      { name: 'Anthony Boyle' },
+      { name: 'Patrick Gibson' },
+      { name: 'Tom Glynn-Carney' },
+      { name: 'Craig Roberts' },
     ],
     coverUrl: '/movies_pictures/tolkien.jpg',
     releaseDate: '2019-06-19',
@@ -13633,15 +13605,13 @@ export const baseMoviesDrame: BaseMovie[] = [
     title: 'Green Book : Sur les routes du Sud',
     director: 'Peter Farrelly',
     actors: [
-      {
-        name: 'Viggo Mortensen',
-      },
-      {
-        name: 'Mahershala Ali',
-      },
-      {
-        name: 'Linda Cardellini',
-      },
+      { name: 'Viggo Mortensen' },
+      { name: 'Mahershala Ali' },
+      { name: 'Linda Cardellini' },
+      { name: 'Sebastian Maniscalco' },
+      { name: 'Dimiter D. Marinov' },
+      { name: 'Mike Hatton' },
+      { name: 'P.J. Byrne' },
     ],
     coverUrl: '/movies_pictures/green_book.jpg',
     releaseDate: '2019-01-23',
@@ -13657,15 +13627,13 @@ export const baseMoviesDrame: BaseMovie[] = [
     title: 'Dunkerque',
     director: 'Christopher Nolan',
     actors: [
-      {
-        name: 'Fionn Whitehead',
-      },
-      {
-        name: 'Tom Hardy',
-      },
-      {
-        name: 'Mark Rylance',
-      },
+      { name: 'Fionn Whitehead' },
+      { name: 'Tom Hardy' },
+      { name: 'Mark Rylance' },
+      { name: 'Kenneth Branagh' },
+      { name: 'Cillian Murphy' },
+      { name: 'Harry Styles' },
+      { name: 'Aneurin Barnard' },
     ],
     coverUrl: '/movies_pictures/dunkirk.jpg',
     releaseDate: '2017-07-19',
@@ -13681,15 +13649,13 @@ export const baseMoviesDrame: BaseMovie[] = [
     title: 'Mary',
     director: 'Marc Webb',
     actors: [
-      {
-        name: 'Emily Blunt',
-      },
-      {
-        name: 'Lin-Manuel Miranda',
-      },
-      {
-        name: 'Ben Whishaw',
-      },
+      { name: 'Chris Evans' },
+      { name: 'Mckenna Grace' },
+      { name: 'Lindsay Duncan' },
+      { name: 'Jenny Slate' },
+      { name: 'Octavia Spencer' },
+      { name: 'Glenn Plummer' },
+      { name: 'John M. Jackson' },
     ],
     coverUrl: '/movies_pictures/gifted.jpg',
     releaseDate: '2017-09-13',
@@ -13705,15 +13671,13 @@ export const baseMoviesDrame: BaseMovie[] = [
     title: 'Call Me by Your Name',
     director: 'Luca Guadagnino',
     actors: [
-      {
-        name: 'Timothée Chalamet',
-      },
-      {
-        name: 'Armie Hammer',
-      },
-      {
-        name: 'Michael Stuhlbarg',
-      },
+      { name: 'Timothée Chalamet' },
+      { name: 'Armie Hammer' },
+      { name: 'Michael Stuhlbarg' },
+      { name: 'Amira Casar' },
+      { name: 'Esther Garrel' },
+      { name: 'Victoire Du Bois' },
+      { name: 'Vanda Capriolo' },
     ],
     coverUrl: '/movies_pictures/call_me_by_your_name.jpg',
     releaseDate: '2018-02-28',
@@ -13729,15 +13693,13 @@ export const baseMoviesDrame: BaseMovie[] = [
     title: 'Beauté cachée',
     director: 'David Frankel',
     actors: [
-      {
-        name: 'Will Smith',
-      },
-      {
-        name: 'Edward Norton',
-      },
-      {
-        name: 'Kate Winslet',
-      },
+      { name: 'Will Smith' },
+      { name: 'Edward Norton' },
+      { name: 'Kate Winslet' },
+      { name: 'Michael Peña' },
+      { name: 'Naomie Harris' },
+      { name: 'Keira Knightley' },
+      { name: 'Helen Mirren' },
     ],
     coverUrl: '/movies_pictures/collateral_beauty.jpg',
     releaseDate: '2016-12-21',
@@ -13753,15 +13715,13 @@ export const baseMoviesDrame: BaseMovie[] = [
     title: "Les Figures de l'ombre",
     director: 'Theodore Melfi',
     actors: [
-      {
-        name: 'Taraji P. Henson',
-      },
-      {
-        name: 'Octavia Spencer',
-      },
-      {
-        name: 'Janelle Monáe',
-      },
+      { name: 'Taraji P. Henson' },
+      { name: 'Octavia Spencer' },
+      { name: 'Janelle Monáe' },
+      { name: 'Kevin Costner' },
+      { name: 'Kirsten Dunst' },
+      { name: 'Jim Parsons' },
+      { name: 'Mahershala Ali' },
     ],
     coverUrl: '/movies_pictures/hidden_figures.jpg',
     releaseDate: '2017-03-08',
@@ -13777,15 +13737,13 @@ export const baseMoviesDrame: BaseMovie[] = [
     title: 'Moonlight',
     director: 'Barry Jenkins',
     actors: [
-      {
-        name: 'Trevante Rhodes',
-      },
-      {
-        name: 'André Holland',
-      },
-      {
-        name: 'Mahershala Ali',
-      },
+      { name: 'Trevante Rhodes' },
+      { name: 'André Holland' },
+      { name: 'Mahershala Ali' },
+      { name: 'Naomie Harris' },
+      { name: 'Janelle Monáe' },
+      { name: 'Ashton Sanders' },
+      { name: 'Alex Hibbert' },
     ],
     coverUrl: '/movies_pictures/moonlight.jpg',
     releaseDate: '2017-02-01',
@@ -13801,15 +13759,13 @@ export const baseMoviesDrame: BaseMovie[] = [
     title: 'Steve Jobs',
     director: 'Danny Boyle',
     actors: [
-      {
-        name: 'Robert De Niro',
-      },
-      {
-        name: 'Anne Hathaway',
-      },
-      {
-        name: 'Rene Russo',
-      },
+      { name: 'Michael Fassbender' },
+      { name: 'Kate Winslet' },
+      { name: 'Seth Rogen' },
+      { name: 'Jeff Daniels' },
+      { name: 'Michael Stuhlbarg' },
+      { name: 'Katherine Waterston' },
+      { name: 'Sarah Snook' },
     ],
     coverUrl: '/movies_pictures/steve_jobs.jpg',
     releaseDate: '2016-02-03',
@@ -13825,15 +13781,13 @@ export const baseMoviesDrame: BaseMovie[] = [
     title: 'Éternelle Adaline',
     director: 'Lee Toland Krieger',
     actors: [
-      {
-        name: 'Blake Lively',
-      },
-      {
-        name: 'Michiel Huisman',
-      },
-      {
-        name: 'Harrison Ford',
-      },
+      { name: 'Blake Lively' },
+      { name: 'Michiel Huisman' },
+      { name: 'Harrison Ford' },
+      { name: 'Ellen Burstyn' },
+      { name: 'Kathy Baker' },
+      { name: 'Amanda Crew' },
+      { name: 'Lynda Boyd' },
     ],
     coverUrl: '/movies_pictures/the_age_of_adaline.jpg',
     releaseDate: '2015-05-06',
@@ -13849,15 +13803,13 @@ export const baseMoviesDrame: BaseMovie[] = [
     title: 'Fury',
     director: 'David Ayer',
     actors: [
-      {
-        name: 'Brad Pitt',
-      },
-      {
-        name: 'Shia LaBeouf',
-      },
-      {
-        name: 'Logan Lerman',
-      },
+      { name: 'Brad Pitt' },
+      { name: 'Shia LaBeouf' },
+      { name: 'Logan Lerman' },
+      { name: 'Michael Peña' },
+      { name: 'Jon Bernthal' },
+      { name: 'Jason Isaacs' },
+      { name: 'Scott Eastwood' },
     ],
     coverUrl: '/movies_pictures/fury.jpg',
     releaseDate: '2014-10-22',
@@ -13873,15 +13825,13 @@ export const baseMoviesDrame: BaseMovie[] = [
     title: 'Noé',
     director: 'Darren Aronofsky',
     actors: [
-      {
-        name: 'Russell Crowe',
-      },
-      {
-        name: 'Jennifer Connelly',
-      },
-      {
-        name: 'Emma Watson',
-      },
+      { name: 'Russell Crowe' },
+      { name: 'Jennifer Connelly' },
+      { name: 'Emma Watson' },
+      { name: 'Ray Winstone' },
+      { name: 'Logan Lerman' },
+      { name: 'Anthony Hopkins' },
+      { name: 'Douglas Booth' },
     ],
     coverUrl: '/movies_pictures/noah.jpg',
     releaseDate: '2014-04-09',
@@ -13897,15 +13847,13 @@ export const baseMoviesDrame: BaseMovie[] = [
     title: 'Whiplash',
     director: 'Damien Chazelle',
     actors: [
-      {
-        name: 'Miles Teller',
-      },
-      {
-        name: 'J.K. Simmons',
-      },
-      {
-        name: 'Paul Reiser',
-      },
+      { name: 'Miles Teller' },
+      { name: 'J.K. Simmons' },
+      { name: 'Paul Reiser' },
+      { name: 'Melissa Benoist' },
+      { name: 'Austin Stowell' },
+      { name: 'Nate Lang' },
+      { name: 'Chris Mulkey' },
     ],
     coverUrl: '/movies_pictures/whiplash.jpg',
     releaseDate: '2014-12-24',
@@ -13921,15 +13869,13 @@ export const baseMoviesDrame: BaseMovie[] = [
     title: 'Dallas Buyers Club',
     director: 'Jean-Marc Vallée',
     actors: [
-      {
-        name: 'Matthew McConaughey',
-      },
-      {
-        name: 'Jared Leto',
-      },
-      {
-        name: 'Jennifer Garner',
-      },
+      { name: 'Matthew McConaughey' },
+      { name: 'Jared Leto' },
+      { name: 'Jennifer Garner' },
+      { name: 'Denis O\'Hare' },
+      { name: 'Steve Zahn' },
+      { name: 'Michael O\'Neill' },
+      { name: 'Dallas Roberts' },
     ],
     coverUrl: '/movies_pictures/dallas_buyers_club.jpg',
     releaseDate: '2014-01-29',
@@ -13981,15 +13927,13 @@ export const baseMoviesDrame: BaseMovie[] = [
     title: 'Jobs',
     director: 'Joshua Michael Stern',
     actors: [
-      {
-        name: 'Ashton Kutcher',
-      },
-      {
-        name: 'Josh Gad',
-      },
-      {
-        name: 'Dermot Mulroney',
-      },
+      { name: 'Ashton Kutcher' },
+      { name: 'Josh Gad' },
+      { name: 'Dermot Mulroney' },
+      { name: 'Lukas Haas' },
+      { name: 'J.K. Simmons' },
+      { name: 'Matthew Modine' },
+      { name: 'Lesley Ann Warren' },
     ],
     coverUrl: '/movies_pictures/jobs.jpg',
     releaseDate: '2013-08-21',
@@ -14005,15 +13949,13 @@ export const baseMoviesDrame: BaseMovie[] = [
     title: 'La Couleur des sentiments',
     director: 'Tate Taylor',
     actors: [
-      {
-        name: 'Emma Stone',
-      },
-      {
-        name: 'Viola Davis',
-      },
-      {
-        name: 'Octavia Spencer',
-      },
+      { name: 'Emma Stone' },
+      { name: 'Viola Davis' },
+      { name: 'Octavia Spencer' },
+      { name: 'Bryce Dallas Howard' },
+      { name: 'Jessica Chastain' },
+      { name: 'Allison Janney' },
+      { name: 'Sissy Spacek' },
     ],
     coverUrl: '/movies_pictures/the_help.jpg',
     releaseDate: '2011-10-26',
@@ -14029,15 +13971,13 @@ export const baseMoviesDrame: BaseMovie[] = [
     title: 'Incendies',
     director: 'Denis Villeneuve',
     actors: [
-      {
-        name: 'Lubna Azabal',
-      },
-      {
-        name: 'Mélissa Désormeaux-Poulin',
-      },
-      {
-        name: 'Maxim Gaudette',
-      },
+      { name: 'Lubna Azabal' },
+      { name: 'Mélissa Désormeaux-Poulin' },
+      { name: 'Maxim Gaudette' },
+      { name: 'Rémy Girard' },
+      { name: 'Abdelghafour Elaaziz' },
+      { name: 'Allen Altman' },
+      { name: 'Mohamed Majd' },
     ],
     coverUrl: '/movies_pictures/incendies.jpg',
     releaseDate: '2011-01-12',
@@ -14053,15 +13993,13 @@ export const baseMoviesDrame: BaseMovie[] = [
     title: 'Le Secret de Charlie',
     director: 'Burr Steers',
     actors: [
-      {
-        name: 'Zac Efron',
-      },
-      {
-        name: 'Amanda Crew',
-      },
-      {
-        name: 'Charlie Tahan',
-      },
+      { name: 'Zac Efron' },
+      { name: 'Amanda Crew' },
+      { name: 'Charlie Tahan' },
+      { name: 'Kim Basinger' },
+      { name: 'Ray Liotta' },
+      { name: 'Tory Kittles' },
+      { name: 'Augusto Aguilera' },
     ],
     coverUrl: '/movies_pictures/charlie_st_cloud.jpg',
     releaseDate: '2010-11-10',
@@ -14077,15 +14015,13 @@ export const baseMoviesDrame: BaseMovie[] = [
     title: 'La Rafle',
     director: 'Roselyne Bosch',
     actors: [
-      {
-        name: 'Mélanie Laurent',
-      },
-      {
-        name: 'Jean Reno',
-      },
-      {
-        name: 'Gad Elmaleh',
-      },
+      { name: 'Mélanie Laurent' },
+      { name: 'Jean Reno' },
+      { name: 'Gad Elmaleh' },
+      { name: 'Raphaëlle Agogué' },
+      { name: 'Hugo Leverdez' },
+      { name: 'Sylvie Testud' },
+      { name: 'Anne Brochet' },
     ],
     coverUrl: '/movies_pictures/the_round_up.jpg',
     releaseDate: '2010-03-10',
@@ -14101,15 +14037,13 @@ export const baseMoviesDrame: BaseMovie[] = [
     title: 'La Route',
     director: 'John Hillcoat',
     actors: [
-      {
-        name: 'Viggo Mortensen',
-      },
-      {
-        name: 'Kodi Smit-McPhee',
-      },
-      {
-        name: 'Charlize Theron',
-      },
+      { name: 'Viggo Mortensen' },
+      { name: 'Kodi Smit-McPhee' },
+      { name: 'Charlize Theron' },
+      { name: 'Robert Duvall' },
+      { name: 'Guy Pearce' },
+      { name: 'Molly Parker' },
+      { name: 'Michael Kenneth Williams' },
     ],
     coverUrl: '/movies_pictures/the_road.jpg',
     releaseDate: '2009-12-02',
@@ -14156,15 +14090,13 @@ export const baseMoviesDrame: BaseMovie[] = [
     title: 'Hooligans',
     director: 'Lexi Alexander',
     actors: [
-      {
-        name: 'Elijah Wood',
-      },
-      {
-        name: 'Charlie Hunnam',
-      },
-      {
-        name: 'Claire Forlani',
-      },
+      { name: 'Elijah Wood' },
+      { name: 'Charlie Hunnam' },
+      { name: 'Claire Forlani' },
+      { name: 'Marc Warren' },
+      { name: 'Leo Gregory' },
+      { name: 'Henry Goodman' },
+      { name: 'Geoff Bell' },
     ],
     coverUrl: '/movies_pictures/green_street_hooligans.jpg',
     releaseDate: '2006-05-31',
@@ -14216,15 +14148,13 @@ export const baseMoviesDrame: BaseMovie[] = [
     title: 'Street Dancers',
     director: 'Chris Stokes',
     actors: [
-      {
-        name: 'Marques Houston',
-      },
-      {
-        name: 'Omarion Grandberry',
-      },
-      {
-        name: 'Jennifer Freeman',
-      },
+      { name: 'Marques Houston' },
+      { name: 'Omarion Grandberry' },
+      { name: 'Jennifer Freeman' },
+      { name: 'Meagan Good' },
+      { name: 'Jackie Long' },
+      { name: 'Wesley Jonathan' },
+      { name: 'Lil\'JJ' },
     ],
     coverUrl: '/movies_pictures/you_got_served.jpg',
     releaseDate: '2004-06-02',
@@ -14240,15 +14170,13 @@ export const baseMoviesDrame: BaseMovie[] = [
     title: 'Lost in Translation',
     director: 'Sofia Coppola',
     actors: [
-      {
-        name: 'Bill Murray',
-      },
-      {
-        name: 'Scarlett Johansson',
-      },
-      {
-        name: 'Giovanni Ribisi',
-      },
+      { name: 'Bill Murray' },
+      { name: 'Scarlett Johansson' },
+      { name: 'Giovanni Ribisi' },
+      { name: 'Anna Faris' },
+      { name: 'Akiko Takeshita' },
+      { name: 'Catherine Lambert' },
+      { name: 'Fumihiro Hayashi' },
     ],
     coverUrl: '/movies_pictures/lost_in_translation.jpg',
     releaseDate: '2004-01-07',
@@ -14264,15 +14192,13 @@ export const baseMoviesDrame: BaseMovie[] = [
     title: 'Gangs of New York',
     director: 'Martin Scorsese',
     actors: [
-      {
-        name: 'Leonardo DiCaprio',
-      },
-      {
-        name: 'Daniel Day-Lewis',
-      },
-      {
-        name: 'Cameron Diaz',
-      },
+      { name: 'Leonardo DiCaprio' },
+      { name: 'Daniel Day-Lewis' },
+      { name: 'Cameron Diaz' },
+      { name: 'Liam Neeson' },
+      { name: 'Jim Broadbent' },
+      { name: 'John C. Reilly' },
+      { name: 'Brendan Gleeson' },
     ],
     coverUrl: '/movies_pictures/gangs_of_new_york.jpg',
     releaseDate: '2003-01-08',
@@ -14288,15 +14214,13 @@ export const baseMoviesDrame: BaseMovie[] = [
     title: 'Erin Brockovich, seule contre tous',
     director: 'Steven Soderbergh',
     actors: [
-      {
-        name: 'Julia Roberts',
-      },
-      {
-        name: 'Albert Finney',
-      },
-      {
-        name: 'Aaron Eckhart',
-      },
+      { name: 'Julia Roberts' },
+      { name: 'Albert Finney' },
+      { name: 'Aaron Eckhart' },
+      { name: 'Marg Helgenberger' },
+      { name: 'Cherry Jones' },
+      { name: 'Veanne Cox' },
+      { name: 'Conchata Ferrell' },
     ],
     coverUrl: '/movies_pictures/erin_brockovich.jpg',
     releaseDate: '2000-04-26',
@@ -14312,15 +14236,13 @@ export const baseMoviesDrame: BaseMovie[] = [
     title: 'Ghost Dog : La Voie du samouraï',
     director: 'Jim Jarmusch',
     actors: [
-      {
-        name: 'Forest Whitaker',
-      },
-      {
-        name: 'John Tormey',
-      },
-      {
-        name: 'Cliff Gorman',
-      },
+      { name: 'Forest Whitaker' },
+      { name: 'John Tormey' },
+      { name: 'Cliff Gorman' },
+      { name: 'Henry Silva' },
+      { name: 'Isaach de Bankolé' },
+      { name: 'Tricia Vessey' },
+      { name: 'Camille Winbush' },
     ],
     coverUrl: '/movies_pictures/ghost_dog_the_way_of_the_samurai.jpg',
     releaseDate: '1999-10-06',
@@ -14336,15 +14258,13 @@ export const baseMoviesDrame: BaseMovie[] = [
     title: 'American History X',
     director: 'Tony Kaye',
     actors: [
-      {
-        name: 'Edward Norton',
-      },
-      {
-        name: 'Edward Furlong',
-      },
-      {
-        name: "Beverly D'Angelo",
-      },
+      { name: 'Edward Norton' },
+      { name: 'Edward Furlong' },
+      { name: "Beverly D'Angelo" },
+      { name: 'Stacy Keach' },
+      { name: 'Fairuza Balk' },
+      { name: 'Avery Brooks' },
+      { name: 'Elliott Gould' },
     ],
     coverUrl: '/movies_pictures/d8f9480d2910.jpg',
     releaseDate: '1999-03-03',
@@ -14360,15 +14280,13 @@ export const baseMoviesDrame: BaseMovie[] = [
     title: 'Bodyguard',
     director: 'Mick Jackson',
     actors: [
-      {
-        name: 'Bill Murray',
-      },
-      {
-        name: 'Andie MacDowell',
-      },
-      {
-        name: 'Chris Elliott',
-      },
+      { name: 'Kevin Costner' },
+      { name: 'Whitney Houston' },
+      { name: 'Gary Kemp' },
+      { name: 'Bill Cobbs' },
+      { name: 'Ralph Waite' },
+      { name: 'Tomas Arana' },
+      { name: 'Mike Starr' },
     ],
     coverUrl: '/movies_pictures/the_bodyguard.jpg',
     releaseDate: '1992-12-09',
@@ -14384,15 +14302,13 @@ export const baseMoviesDrame: BaseMovie[] = [
     title: 'Thelma et Louise',
     director: 'Ridley Scott',
     actors: [
-      {
-        name: 'Geena Davis',
-      },
-      {
-        name: 'Susan Sarandon',
-      },
-      {
-        name: 'Harvey Keitel',
-      },
+      { name: 'Geena Davis' },
+      { name: 'Susan Sarandon' },
+      { name: 'Harvey Keitel' },
+      { name: 'Michael Madsen' },
+      { name: 'Brad Pitt' },
+      { name: 'Christopher McDonald' },
+      { name: 'Stephen Tobolowsky' },
     ],
     coverUrl: '/movies_pictures/thelma_louise.jpg',
     releaseDate: '1991-05-29',
@@ -14408,15 +14324,13 @@ export const baseMoviesDrame: BaseMovie[] = [
     title: 'Rain Man',
     director: 'Barry Levinson',
     actors: [
-      {
-        name: 'Harrison Ford',
-      },
-      {
-        name: 'Sean Connery',
-      },
-      {
-        name: 'Denholm Elliott',
-      },
+      { name: 'Dustin Hoffman' },
+      { name: 'Tom Cruise' },
+      { name: 'Valeria Golino' },
+      { name: 'Jerry Molen' },
+      { name: 'Jack Murdock' },
+      { name: 'Michael D. Roberts' },
+      { name: 'Ralph Seymour' },
     ],
     coverUrl: '/movies_pictures/rain_man.jpg',
     releaseDate: '1989-03-15',
@@ -14432,15 +14346,13 @@ export const baseMoviesDrame: BaseMovie[] = [
     title: 'Full Metal Jacket',
     director: 'Stanley Kubrick',
     actors: [
-      {
-        name: 'Matthew Modine',
-      },
-      {
-        name: 'Adam Baldwin',
-      },
-      {
-        name: "Vincent D'Onofrio",
-      },
+      { name: 'Matthew Modine' },
+      { name: 'Adam Baldwin' },
+      { name: "Vincent D'Onofrio" },
+      { name: 'R. Lee Ermey' },
+      { name: 'Dorian Harewood' },
+      { name: 'Arliss Howard' },
+      { name: 'Kevyn Major Howard' },
     ],
     coverUrl: '/movies_pictures/4e1af9af28c9.jpg',
     releaseDate: '1987-10-21',
@@ -14456,15 +14368,13 @@ export const baseMoviesDrame: BaseMovie[] = [
     title: 'Stand by Me',
     director: 'Rob Reiner',
     actors: [
-      {
-        name: 'Wil Wheaton',
-      },
-      {
-        name: 'River Phoenix',
-      },
-      {
-        name: 'Corey Feldman',
-      },
+      { name: 'Wil Wheaton' },
+      { name: 'River Phoenix' },
+      { name: 'Corey Feldman' },
+      { name: 'Jerry O\'Connell' },
+      { name: 'Kiefer Sutherland' },
+      { name: 'Richard Dreyfuss' },
+      { name: 'John Cusack' },
     ],
     coverUrl: '/movies_pictures/2e00afcca010.jpg',
     releaseDate: '1987-02-25',
@@ -14480,15 +14390,13 @@ export const baseMoviesDrame: BaseMovie[] = [
     title: 'Breakfast Club',
     director: 'John Hughes',
     actors: [
-      {
-        name: 'Emilio Estevez',
-      },
-      {
-        name: 'Molly Ringwald',
-      },
-      {
-        name: 'Judd Nelson',
-      },
+      { name: 'Emilio Estevez' },
+      { name: 'Molly Ringwald' },
+      { name: 'Judd Nelson' },
+      { name: 'Anthony Michael Hall' },
+      { name: 'Ally Sheedy' },
+      { name: 'Paul Gleason' },
+      { name: 'John Kapelos' },
     ],
     coverUrl: '/movies_pictures/the_breakfast_club.jpg',
     releaseDate: '1985-09-11',
@@ -14504,15 +14412,13 @@ export const baseMoviesDrame: BaseMovie[] = [
     title: 'Amadeus',
     director: 'Miloš Forman',
     actors: [
-      {
-        name: 'F. Murray Abraham',
-      },
-      {
-        name: 'Tom Hulce',
-      },
-      {
-        name: 'Elizabeth Berridge',
-      },
+      { name: 'F. Murray Abraham' },
+      { name: 'Tom Hulce' },
+      { name: 'Elizabeth Berridge' },
+      { name: 'Roy Dotrice' },
+      { name: 'Simon Callow' },
+      { name: 'Jeffrey Jones' },
+      { name: 'Christine Ebersole' },
     ],
     coverUrl: '/movies_pictures/49f967bf6195.jpg',
     releaseDate: '1984-10-31',

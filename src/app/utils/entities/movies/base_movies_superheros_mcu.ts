@@ -743,9 +743,13 @@ export const baseMoviesSuperherosMcu: BaseMovie[] = [
     title: 'Doctor Strange dans le Multivers de la Folie',
     director: 'Sam Raimi',
     actors: [
-      {
-        name: 'Benedict Cumberbatch',
-      },
+      { name: 'Benedict Cumberbatch' },
+      { name: 'Elizabeth Olsen' },
+      { name: 'Chiwetel Ejiofor' },
+      { name: 'Benedict Wong' },
+      { name: 'Xochitl Gomez' },
+      { name: 'Rachel McAdams' },
+      { name: 'Michael Stuhlbarg' },
     ],
     coverUrl:
       '/movies_pictures/385511-doctor-strange-in-the-multiverse-of-madness-0-150-0-225-crop.jpg',

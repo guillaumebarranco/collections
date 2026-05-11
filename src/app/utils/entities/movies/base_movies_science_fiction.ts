@@ -255,7 +255,15 @@ export const baseMoviesScienceFiction: BaseMovie[] = [
   {
     title: "A l'aube du 6ème jour",
     director: 'Roger Spottiswoode',
-    actors: [{ name: 'Arnold Schwarzenegger' }],
+    actors: [
+      { name: 'Arnold Schwarzenegger' },
+      { name: 'Tony Goldwyn' },
+      { name: 'Michael Rapaport' },
+      { name: 'Michael Rooker' },
+      { name: 'Sarah Wynter' },
+      { name: 'Wendy Crewson' },
+      { name: 'Robert Duvall' },
+    ],
     coverUrl: '/movies_pictures/a_l_aube_du_sixieme_jour.jpg',
     releaseDate: '2000-11-17',
     length: 123,
@@ -1751,12 +1759,13 @@ export const baseMoviesScienceFiction: BaseMovie[] = [
     title: "L'Armée des 12 singes",
     director: 'Terry Gilliam',
     actors: [
-      {
-        name: 'Bruce Willis',
-      },
-      {
-        name: 'Brad Pitt',
-      },
+      { name: 'Bruce Willis' },
+      { name: 'Brad Pitt' },
+      { name: 'Madeleine Stowe' },
+      { name: 'Christopher Plummer' },
+      { name: 'David Morse' },
+      { name: 'Frank Gorshin' },
+      { name: 'Joseph Melito' },
     ],
     coverUrl: '/movies_pictures/81xkdqlwzymi3f4idfcep3chngs-175.jpg',
     releaseDate: '1995-12-27',
@@ -3158,15 +3167,13 @@ export const baseMoviesScienceFiction: BaseMovie[] = [
     title: 'Le Visiteur du Futur',
     director: 'François Descraques',
     actors: [
-      {
-        name: 'Florent Dorin',
-      },
-      {
-        name: 'Arnaud Joyet',
-      },
-      {
-        name: 'François Descraques',
-      },
+      { name: 'Florent Dorin' },
+      { name: 'Arnaud Joyet' },
+      { name: 'François Descraques' },
+      { name: 'Enya Baroux' },
+      { name: 'Raphaël Descraques' },
+      { name: 'Slimane-Baptiste Berhoun' },
+      { name: 'Mathias Mlekuz' },
     ],
     coverUrl: '/movies_pictures/le_visiteur_du_futur.jpg',
     releaseDate: '2022-09-07',
@@ -3182,15 +3189,13 @@ export const baseMoviesScienceFiction: BaseMovie[] = [
     title: 'Code 8',
     director: 'Jeff Chan',
     actors: [
-      {
-        name: 'Robbie Amell',
-      },
-      {
-        name: 'Stephen Amell',
-      },
-      {
-        name: 'Sung Kang',
-      },
+      { name: 'Robbie Amell' },
+      { name: 'Stephen Amell' },
+      { name: 'Sung Kang' },
+      { name: 'Aaron Abrams' },
+      { name: 'Kari Matchett' },
+      { name: 'Greg Bryk' },
+      { name: 'Peter Outerbridge' },
     ],
     coverUrl: '/movies_pictures/code_8.jpg',
     releaseDate: '2019-12-13',
@@ -3206,15 +3211,13 @@ export const baseMoviesScienceFiction: BaseMovie[] = [
     title: 'Pacific Rim: Uprising',
     director: 'Steven S. DeKnight',
     actors: [
-      {
-        name: 'John Boyega',
-      },
-      {
-        name: 'Scott Eastwood',
-      },
-      {
-        name: 'Cailee Spaeny',
-      },
+      { name: 'John Boyega' },
+      { name: 'Scott Eastwood' },
+      { name: 'Cailee Spaeny' },
+      { name: 'Jing Tian' },
+      { name: 'Rinko Kikuchi' },
+      { name: 'Charlie Day' },
+      { name: 'Burn Gorman' },
     ],
     coverUrl: '/movies_pictures/pacific_rim_uprising.jpg',
     releaseDate: '2018-03-21',
@@ -3230,15 +3233,12 @@ export const baseMoviesScienceFiction: BaseMovie[] = [
     title: 'Life : Origine inconnue',
     director: 'Daniel Espinosa',
     actors: [
-      {
-        name: 'Jake Gyllenhaal',
-      },
-      {
-        name: 'Rebecca Ferguson',
-      },
-      {
-        name: 'Ryan Reynolds',
-      },
+      { name: 'Jake Gyllenhaal' },
+      { name: 'Rebecca Ferguson' },
+      { name: 'Ryan Reynolds' },
+      { name: 'Hiroyuki Sanada' },
+      { name: 'Ariyon Bakare' },
+      { name: 'Olga Dihovichnaya' },
     ],
     coverUrl: '/movies_pictures/life.jpg',
     releaseDate: '2017-04-19',
@@ -3254,15 +3254,13 @@ export const baseMoviesScienceFiction: BaseMovie[] = [
     title: 'À la poursuite de demain',
     director: 'Brad Bird',
     actors: [
-      {
-        name: 'George Clooney',
-      },
-      {
-        name: 'Britt Robertson',
-      },
-      {
-        name: 'Hugh Laurie',
-      },
+      { name: 'George Clooney' },
+      { name: 'Britt Robertson' },
+      { name: 'Hugh Laurie' },
+      { name: 'Raffey Cassidy' },
+      { name: 'Tim McGraw' },
+      { name: 'Kathryn Hahn' },
+      { name: 'Keegan-Michael Key' },
     ],
     coverUrl: '/movies_pictures/tomorrowland.jpg',
     releaseDate: '2015-05-20',
@@ -3278,15 +3276,13 @@ export const baseMoviesScienceFiction: BaseMovie[] = [
     title: 'Chappie',
     director: 'Neill Blomkamp',
     actors: [
-      {
-        name: 'Sharlto Copley',
-      },
-      {
-        name: 'Dev Patel',
-      },
-      {
-        name: 'Hugh Jackman',
-      },
+      { name: 'Sharlto Copley' },
+      { name: 'Dev Patel' },
+      { name: 'Hugh Jackman' },
+      { name: 'Sigourney Weaver' },
+      { name: 'Ninja' },
+      { name: 'Yo-Landi Visser' },
+      { name: 'Jose Pablo Cantillo' },
     ],
     coverUrl: '/movies_pictures/chappie.jpg',
     releaseDate: '2015-03-04',
@@ -3302,15 +3298,13 @@ export const baseMoviesScienceFiction: BaseMovie[] = [
     title: 'Her',
     director: 'Spike Jonze',
     actors: [
-      {
-        name: 'Joaquin Phoenix',
-      },
-      {
-        name: 'Scarlett Johansson',
-      },
-      {
-        name: 'Amy Adams',
-      },
+      { name: 'Joaquin Phoenix' },
+      { name: 'Scarlett Johansson' },
+      { name: 'Amy Adams' },
+      { name: 'Rooney Mara' },
+      { name: 'Olivia Wilde' },
+      { name: 'Chris Pratt' },
+      { name: 'Matt Letscher' },
     ],
     coverUrl: '/movies_pictures/her.jpg',
     releaseDate: '2014-03-19',
@@ -3326,15 +3320,13 @@ export const baseMoviesScienceFiction: BaseMovie[] = [
     title: 'Sunshine',
     director: 'Danny Boyle',
     actors: [
-      {
-        name: 'Shia LaBeouf',
-      },
-      {
-        name: 'Sarah Roemer',
-      },
-      {
-        name: 'Carrie-Anne Moss',
-      },
+      { name: 'Cillian Murphy' },
+      { name: 'Rose Byrne' },
+      { name: 'Chris Evans' },
+      { name: 'Michelle Yeoh' },
+      { name: 'Hiroyuki Sanada' },
+      { name: 'Cliff Curtis' },
+      { name: 'Mark Strong' },
     ],
     coverUrl: '/movies_pictures/sunshine.jpg',
     releaseDate: '2007-04-11',
@@ -3350,15 +3342,13 @@ export const baseMoviesScienceFiction: BaseMovie[] = [
     title: "Les Fils de l'homme",
     director: 'Alfonso Cuarón',
     actors: [
-      {
-        name: 'Clive Owen',
-      },
-      {
-        name: 'Julianne Moore',
-      },
-      {
-        name: 'Michael Caine',
-      },
+      { name: 'Clive Owen' },
+      { name: 'Julianne Moore' },
+      { name: 'Michael Caine' },
+      { name: 'Chiwetel Ejiofor' },
+      { name: 'Clare-Hope Ashitey' },
+      { name: 'Charlie Hunnam' },
+      { name: 'Pam Ferris' },
     ],
     coverUrl: '/movies_pictures/children_of_men.jpg',
     releaseDate: '2006-10-18',
