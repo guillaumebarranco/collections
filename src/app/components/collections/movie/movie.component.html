@@ -9,10 +9,21 @@
     >
       &#9998;
     </button>
+    @if (showCommunityWatchersButton) {
+    <button
+      type="button"
+      class="edit-button community-button"
+      (click)="openCommunityWatchersModal()"
+      aria-label="Voir qui a vu ce film (communauté)"
+    >
+      👥
+    </button>
+    }
     <button
       *appCanEdit
       type="button"
       class="edit-button lists-button"
+      [class.lists-button--stack-second]="!showCommunityWatchersButton"
       (click)="openMovieListsModal()"
       aria-label="Ajouter à une liste"
     >

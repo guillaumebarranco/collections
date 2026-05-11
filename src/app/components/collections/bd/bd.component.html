@@ -1,15 +1,26 @@
 <app-entity-card>
   @if (!readOnly) {
-  <button
-    entity-edit
-    type="button"
-    class="edit-button"
-    aria-label="Editer la BD"
-    (click)="requestEdit()"
-    *appCanEdit
-  >
-    &#9998;
-  </button>
+  <div entity-edit>
+    <button
+      type="button"
+      class="edit-button"
+      aria-label="Editer la BD"
+      (click)="requestEdit()"
+      *appCanEdit
+    >
+      &#9998;
+    </button>
+    @if (showCommunityWatchersButton) {
+    <button
+      type="button"
+      class="edit-button community-button"
+      (click)="openCommunityWatchersModal()"
+      aria-label="Voir qui a lu cette BD (communauté)"
+    >
+      👥
+    </button>
+    }
+  </div>
   }
 
   <ng-container entity-badges>

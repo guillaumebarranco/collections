@@ -1,4 +1,5 @@
 const express = require('express');
+const getMangaWatchersRouter = require('./get-manga-watchers');
 const getMangasRouter = require('./get-mangas');
 const getReadlistRouter = require('./get-readlist');
 const getEntitiesRouter = require('./get-entities');
@@ -14,6 +15,7 @@ const othersRatedRouter = require('./get-others-users-mangas-rated');
 
 const router = express.Router();
 
+router.use(getMangaWatchersRouter);
 router.use(getEntitiesRouter);
 router.use(getReadlistRouter);
 router.use(othersRatedRouter);

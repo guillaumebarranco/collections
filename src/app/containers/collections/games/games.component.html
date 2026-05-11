@@ -68,6 +68,7 @@
         [list]="sortedGames()"
         [index]="i"
         [isGamelistView]="selectedView() === 'gamelist'"
+        [showCommunityWatchersButton]="selectedView() === 'played'"
         [selectedView]="selectedView()"
         [showTopFiveSelector]="showTopFiveRank()"
         [topFiveRank]="getTopFiveRank(game)"

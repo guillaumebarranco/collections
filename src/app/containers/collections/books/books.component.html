@@ -257,6 +257,7 @@
         <app-book
           [book]="book"
           [showTopFiveSelector]="showTopFiveRank()"
+          [showCommunityWatchersButton]="selectedView() === 'read'"
           [isReadlistView]="
             selectedView() === 'readlist' ||
             selectedView() === 'readingInProgress'

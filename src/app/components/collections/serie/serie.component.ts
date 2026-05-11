@@ -26,6 +26,7 @@ import {
   EntityCardEntityData,
 } from '../../entity/entity-card-rating-and-buttons/entity-card-rating-and-buttons.component';
 import { CanEditDirective } from '../../../directives/can-edit.directive';
+import { AuthService } from '../../../core/auth.service';
 import { isBaseEntityView, getApiBaseUrl } from '../../../core/config';
 import { DEFAULT_USER_ID } from '../../../utils/constants';
 import { StarInfo } from '../../../models/various-model';
@@ -34,6 +35,7 @@ import {
   isSerieWatchlistNotStarted,
   serieShowsNewSeasonStartedButton,
 } from '../../../utils/series.utils';
+import { MovieCommunityWatchersModalComponent } from '../../modals/movie-community-watchers-modal/movie-community-watchers-modal.component';
 
 @Component({
   selector: 'app-serie',
@@ -53,6 +55,7 @@ export class SerieComponent {
   private readonly activatedRoute = inject(ActivatedRoute);
   private readonly router = inject(Router);
   private readonly dialog = inject(MatDialog);
+  private readonly authService = inject(AuthService);
 
   @Input() serie!: Serie;
   @Input() list: Serie[] = [];
@@ -89,6 +92,8 @@ export class SerieComponent {
   @Input() showTopFiveSelector = false;
   @Input() topFiveRank: number | null = null;
   @Output() topFiveRankChange = new EventEmitter<number | null>();
+  /** Affiche le bouton communauté (séries vues). */
+  @Input() showCommunityWatchersButton = false;
 
   isBaseEntityView = isBaseEntityView();
   seasonsExpanded = signal(false);
@@ -104,6 +109,22 @@ export class SerieComponent {
     this.topFiveRankChange.emit(
       value === '' ? null : Math.min(5, Math.max(1, parseInt(value, 10)))
     );
+  }
+
+  openCommunityWatchersModal(): void {
+    const authId = this.authService.getAuthenticatedUserId();
+    const profileId = this.getActiveUserId();
+    const currentUserId = (authId ?? profileId).toLowerCase();
+    this.dialog.open(MovieCommunityWatchersModalComponent, {
+      data: {
+        workTitle: this.serie.title,
+        currentUserId,
+        kind: 'serie' as const,
+        identity: { title: this.serie.title, director: this.serie.director },
+      },
+      width: 'min(420px, 95vw)',
+      maxWidth: '95vw',
+    });
   }
 
   openReviewModal(): void {

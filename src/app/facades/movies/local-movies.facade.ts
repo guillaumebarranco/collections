@@ -99,6 +99,23 @@ import { lucileMovies } from '../../utils/users/lucile/movies/lucile_movies';
 import { lauryMovies } from '../../utils/users/laury/movies/laury_movies';
 import { cassandreMovies } from '../../utils/users/cassandre/movies/cassandre_movies';
 
+/** Utilisateurs avec des films « vus » locaux (aligné sur {@link getLocalMoviesByUser}). */
+export const LOCAL_MOVIE_USER_IDS: readonly string[] = [
+  'guillaume',
+  'william',
+  'amandine',
+  'ronan',
+  'kevin',
+  'emmanuelle',
+  'dantes',
+  'bastien',
+  'unho',
+  'marina',
+  'lucile',
+  'laury',
+  'cassandre',
+];
+
 export function getLocalMoviesByUser(userId: string): UserMovie[] {
   switch (userId) {
     case 'guillaume':

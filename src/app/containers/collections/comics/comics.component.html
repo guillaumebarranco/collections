@@ -148,6 +148,7 @@
         [comic]="comic"
         [readOnly]="isComicCardReadOnlyForCurrentView()"
         [isReadlistView]="selectedView() === 'readlist'"
+        [showCommunityWatchersButton]="selectedView() === 'read'"
         [selectedView]="selectedView()"
         [showTopFiveSelector]="showTopFiveRank()"
         [topFiveRank]="getTopFiveRank(comic)"

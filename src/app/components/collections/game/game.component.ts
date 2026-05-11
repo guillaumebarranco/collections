@@ -19,6 +19,7 @@ import {
   EntityCardEntityData,
 } from '../../entity/entity-card-rating-and-buttons/entity-card-rating-and-buttons.component';
 import { CanEditDirective } from '../../../directives/can-edit.directive';
+import { AuthService } from '../../../core/auth.service';
 import { getGameTimePlayed } from '../../../utils/games.utils';
 
 import { isBaseEntityView, getApiBaseUrl } from '../../../core/config';
@@ -28,6 +29,7 @@ import {
   MoveEntityReviewModalComponent,
   MoveEntityReviewModalResult,
 } from '../../modals/move-entity-review-modal/move-entity-review-modal.component';
+import { MovieCommunityWatchersModalComponent } from '../../modals/movie-community-watchers-modal/movie-community-watchers-modal.component';
 
 @Component({
   selector: 'app-game',
@@ -47,6 +49,7 @@ export class GameComponent {
   private readonly activatedRoute = inject(ActivatedRoute);
   private readonly router = inject(Router);
   private readonly dialog = inject(MatDialog);
+  private readonly authService = inject(AuthService);
 
   @Input() game!: Game;
   @Input() list: Game[] = [];
@@ -57,7 +60,7 @@ export class GameComponent {
   @Input() isInGamelist = false;
   @Input() recommendationBadge = '';
   @Input() isGamelistView = false;
-  @Input() selectedView: GameView = 'finished';
+  @Input() selectedView: GameView = 'played';
   @Input() showAddToMyGamelist = false;
   @Input() canAddToMyGamelist = false;
   @Input() canAddAsPlayed = false;
@@ -77,6 +80,8 @@ export class GameComponent {
   @Input() showTopFiveSelector = false;
   @Input() topFiveRank: number | null = null;
   @Output() topFiveRankChange = new EventEmitter<number | null>();
+  /** Affiche le bouton communauté (jeux joués). */
+  @Input() showCommunityWatchersButton = false;
 
   isBaseEntityView = isBaseEntityView();
 
@@ -84,6 +89,22 @@ export class GameComponent {
     const directId = this.activatedRoute.snapshot.params['id'];
     const parentId = this.activatedRoute.parent?.snapshot.params['id'];
     return directId || parentId || DEFAULT_USER_ID;
+  }
+
+  openCommunityWatchersModal(): void {
+    const authId = this.authService.getAuthenticatedUserId();
+    const profileId = this.getActiveUserId();
+    const currentUserId = (authId ?? profileId).toLowerCase();
+    this.dialog.open(MovieCommunityWatchersModalComponent, {
+      data: {
+        workTitle: this.game.title,
+        currentUserId,
+        kind: 'game' as const,
+        identity: { title: this.game.title, editor: this.game.editor },
+      },
+      width: 'min(420px, 95vw)',
+      maxWidth: '95vw',
+    });
   }
 
   openReviewModal(): void {

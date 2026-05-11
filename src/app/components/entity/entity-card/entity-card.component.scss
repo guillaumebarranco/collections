@@ -30,7 +30,15 @@ app-entity-card {
     z-index: 2;
     transition: background 0.2s ease, transform 0.2s ease;
 
+    &.community-button {
+      top: 50px;
+    }
+
     &.lists-button {
+      top: 92px;
+    }
+
+    &.lists-button.lists-button--stack-second {
       top: 50px;
     }
   }

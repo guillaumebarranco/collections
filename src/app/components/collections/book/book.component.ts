@@ -8,7 +8,7 @@ import {
 } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { ActivatedRoute, Router } from '@angular/router';
-import { MatDialog } from '@angular/material/dialog';
+import { MatDialog, MatDialogModule } from '@angular/material/dialog';
 import { EntityCardComponent } from '../../entity/entity-card/entity-card.component';
 import {
   EntityCardRatingAndButtonsComponent,
@@ -26,12 +26,15 @@ import {
   MoveEntityReviewModalComponent,
   MoveEntityReviewModalResult,
 } from '../../modals/move-entity-review-modal/move-entity-review-modal.component';
+import { MovieCommunityWatchersModalComponent } from '../../modals/movie-community-watchers-modal/movie-community-watchers-modal.component';
+import { AuthService } from '../../../core/auth.service';
 
 @Component({
   selector: 'app-book',
   standalone: true,
   imports: [
     CommonModule,
+    MatDialogModule,
     EntityCardComponent,
     EntityCardRatingAndButtonsComponent,
     CanEditDirective,
@@ -44,6 +47,7 @@ export class BookComponent {
   private readonly activatedRoute = inject(ActivatedRoute);
   private readonly router = inject(Router);
   private readonly dialog = inject(MatDialog);
+  private readonly authService = inject(AuthService);
 
   @Input() book!: any;
 
@@ -82,6 +86,8 @@ export class BookComponent {
   /** Rang actuel dans le top 5 personnel (1-5) ou null. */
   @Input() topFiveRank: number | null = null;
   @Output() topFiveRankChange = new EventEmitter<number | null>();
+  /** Affiche le bouton communauté (œuvres lues). */
+  @Input() showCommunityWatchersButton = false;
 
   isBaseEntityView = isBaseEntityView();
 
@@ -124,6 +130,22 @@ export class BookComponent {
   getActiveUserId(): string {
     const params = this.activatedRoute.snapshot.params;
     return params['id'] ?? DEFAULT_USER_ID;
+  }
+
+  openCommunityWatchersModal(): void {
+    const authId = this.authService.getAuthenticatedUserId();
+    const profileId = this.getActiveUserId();
+    const currentUserId = (authId ?? profileId).toLowerCase();
+    this.dialog.open(MovieCommunityWatchersModalComponent, {
+      data: {
+        workTitle: this.book.title,
+        currentUserId,
+        kind: 'book' as const,
+        identity: { title: this.book.title, author: this.book.author },
+      },
+      width: 'min(420px, 95vw)',
+      maxWidth: '95vw',
+    });
   }
 
   openReviewModal(): void {

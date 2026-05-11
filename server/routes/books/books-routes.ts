@@ -1,4 +1,5 @@
 const express = require('express');
+const getBookWatchersRouter = require('./get-book-watchers');
 const getBooksRouter = require('./get-books');
 const getReadlistRouter = require('./get-readlist');
 const getEntitiesRouter = require('./get-entities');
@@ -14,6 +15,7 @@ const moveBookFromReadlistRouter = require('./move-book-from-readlist-to-read');
 
 const router = express.Router();
 
+router.use(getBookWatchersRouter);
 router.use(getEntitiesRouter);
 router.use(getReadlistRouter);
 router.use(othersRatedRouter);

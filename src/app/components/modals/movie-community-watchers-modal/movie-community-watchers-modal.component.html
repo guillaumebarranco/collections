@@ -1,0 +1,40 @@
+<div class="community-modal">
+  <h2 class="community-modal__title">Communauté</h2>
+  <p class="community-modal__subtitle">{{ data.workTitle }}</p>
+
+  @if (loading()) {
+  <p class="community-modal__loading">Chargement…</p>
+  } @else if (loadError()) {
+  <p class="community-modal__error">
+    Impossible de charger les données communautaires pour cette œuvre.
+  </p>
+  } @else if (rows().length === 0) {
+  <p class="community-modal__empty">Aucun autre suivi enregistré.</p>
+  } @else {
+  <ul class="community-modal__list" role="list">
+    @for (row of rows(); track row.userId) {
+    <li
+      class="community-modal__row"
+      [class.community-modal__row--me]="row.isCurrentUser"
+      role="listitem"
+    >
+      <span class="community-modal__user">
+        @if (row.isCurrentUser) {
+        <span class="community-modal__badge">Vous</span>
+        }
+        {{ row.displayName }}
+      </span>
+      <span class="community-modal__meta">
+        <span>Note : {{ row.ratingLabel }}</span>
+        <span class="community-modal__sep">·</span>
+        <span>{{ row.timesLabel }}</span>
+      </span>
+    </li>
+    }
+  </ul>
+  }
+
+  <div class="community-modal__actions">
+    <button type="button" class="makya-btn" (click)="close()">Fermer</button>
+  </div>
+</div>

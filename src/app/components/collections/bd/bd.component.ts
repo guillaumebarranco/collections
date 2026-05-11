@@ -9,6 +9,7 @@ import {
 import { CommonModule } from '@angular/common';
 import { ActivatedRoute } from '@angular/router';
 import { MatDialog, MatDialogModule } from '@angular/material/dialog';
+import { AuthService } from '../../../core/auth.service';
 import { EntityCardComponent } from '../../entity/entity-card/entity-card.component';
 import {
   EntityCardRatingAndButtonsComponent,
@@ -25,6 +26,7 @@ import {
   MoveEntityReviewModalComponent,
   MoveEntityReviewModalResult,
 } from '../../modals/move-entity-review-modal/move-entity-review-modal.component';
+import { MovieCommunityWatchersModalComponent } from '../../modals/movie-community-watchers-modal/movie-community-watchers-modal.component';
 import { DEFAULT_USER_ID } from '../../../utils/constants';
 
 @Component({
@@ -44,6 +46,7 @@ import { DEFAULT_USER_ID } from '../../../utils/constants';
 export class BdComponent {
   private readonly activatedRoute = inject(ActivatedRoute);
   private readonly dialog = inject(MatDialog);
+  private readonly authService = inject(AuthService);
 
   @Input() bd!: Bd;
 
@@ -72,6 +75,7 @@ export class BdComponent {
   @Input() showTopFiveSelector = false;
   @Input() topFiveRank: number | null = null;
   @Output() topFiveRankChange = new EventEmitter<number | null>();
+  @Input() showCommunityWatchersButton = false;
 
   isBaseEntityView = isBaseEntityView();
 
@@ -105,6 +109,22 @@ export class BdComponent {
 
   updateReadPriority(priority: number): void {
     this.readPriorityUpdated.emit({ bd: this.bd, priority });
+  }
+
+  openCommunityWatchersModal(): void {
+    const authId = this.authService.getAuthenticatedUserId();
+    const profileId = this.getActiveUserId();
+    const currentUserId = (authId ?? profileId).toLowerCase();
+    this.dialog.open(MovieCommunityWatchersModalComponent, {
+      data: {
+        workTitle: this.bd.title,
+        currentUserId,
+        kind: 'bd' as const,
+        identity: { title: this.bd.title, writer: this.bd.writer },
+      },
+      width: 'min(420px, 95vw)',
+      maxWidth: '95vw',
+    });
   }
 
   getActiveUserId(): string {

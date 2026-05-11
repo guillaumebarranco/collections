@@ -1,4 +1,5 @@
 const express = require('express');
+const getSerieWatchersRouter = require('./get-serie-watchers');
 const getSeriesRouter = require('./get-series');
 const getWatchlistRouter = require('./get-watchlist');
 const getEntitiesRouter = require('./get-entities');
@@ -14,6 +15,7 @@ const moveSerieFromWatchlistRouter = require('./move-serie-from-watchlist-to-wat
 
 const router = express.Router();
 
+router.use(getSerieWatchersRouter);
 router.use(getEntitiesRouter);
 router.use(getWatchlistRouter);
 router.use(moveSerieFromWatchlistRouter);

@@ -9,6 +9,16 @@
     >
       &#9998;
     </button>
+    @if (showCommunityWatchersButton) {
+    <button
+      type="button"
+      class="edit-button community-button"
+      (click)="openCommunityWatchersModal()"
+      aria-label="Voir qui a joué à ce jeu (communauté)"
+    >
+      👥
+    </button>
+    }
   </div>
 
   <ng-container entity-badges>

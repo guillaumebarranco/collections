@@ -11,6 +11,7 @@ const addMovieRouter = require('./add-movie');
 const addExistingRouter = require('./add-existing');
 const deleteMovieRouter = require('./delete-movie');
 const othersRatedRouter = require('./get-others-users-movies-rated');
+const movieWatchersRouter = require('./get-movie-watchers');
 const moveMovieFromWatchlistToWatchedRouter = require('./move-movie-from-watchlist-to-watched');
 
 const router = express.Router();
@@ -18,6 +19,7 @@ const router = express.Router();
 router.use(getEntitiesRouter);
 router.use(getWatchlistRouter);
 router.use(othersRatedRouter);
+router.use(movieWatchersRouter);
 router.use(getMoviesRouter);
 router.use(saveMovieRouter);
 router.use(batchRatingRouter);

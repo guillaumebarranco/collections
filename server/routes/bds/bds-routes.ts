@@ -1,4 +1,5 @@
 const express = require('express');
+const getBdWatchersRouter = require('./get-bd-watchers');
 const getBdsRouter = require('./get-bds');
 const getReadlistRouter = require('./get-readlist');
 const getEntitiesRouter = require('./get-entities');
@@ -14,6 +15,7 @@ const othersRatedRouter = require('./get-others-users-bds-rated');
 
 const router = express.Router();
 
+router.use(getBdWatchersRouter);
 router.use(getEntitiesRouter);
 router.use(getReadlistRouter);
 router.use(othersRatedRouter);

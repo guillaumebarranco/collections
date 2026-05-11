@@ -1,4 +1,5 @@
 const express = require('express');
+const getManwhaWatchersRouter = require('./get-manwha-watchers');
 const getManwhasRouter = require('./get-manwhas');
 const getReadlistRouter = require('./get-readlist');
 const getEntitiesRouter = require('./get-entities');
@@ -14,6 +15,7 @@ const othersRatedRouter = require('./get-others-users-manwhas-rated');
 
 const router = express.Router();
 
+router.use(getManwhaWatchersRouter);
 router.use(getEntitiesRouter);
 router.use(getReadlistRouter);
 router.use(othersRatedRouter);

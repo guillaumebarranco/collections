@@ -47,6 +47,11 @@ export type OtherUserMovieRating = {
   userId: string;
 };
 
+export {
+  getMovieWatchers,
+  type CommunityWatcherEntry as MovieWatcherEntry,
+} from '../community/entity-community-watchers.facade';
+
 export async function getAllMovies(
   currentUserId = 'guillaume'
 ): Promise<{ [key: string]: Movie[] }> {

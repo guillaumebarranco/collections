@@ -71,6 +71,7 @@
           selectedView() === 'readlist' ||
           selectedView() === 'readingInProgress'
         "
+        [showCommunityWatchersButton]="selectedView() === 'read'"
         [selectedView]="selectedView()"
         [showTopFiveSelector]="showTopFiveRank()"
         [topFiveRank]="getTopFiveRank(manwha)"

@@ -9,6 +9,7 @@ import {
 import { CommonModule } from '@angular/common';
 import { ActivatedRoute, Router } from '@angular/router';
 import { MatDialog, MatDialogModule } from '@angular/material/dialog';
+import { AuthService } from '../../../core/auth.service';
 import { EntityCardComponent } from '../../entity/entity-card/entity-card.component';
 import {
   EntityCardRatingAndButtonsComponent,
@@ -26,6 +27,7 @@ import {
   MoveEntityReviewModalComponent,
   MoveEntityReviewModalResult,
 } from '../../modals/move-entity-review-modal/move-entity-review-modal.component';
+import { MovieCommunityWatchersModalComponent } from '../../modals/movie-community-watchers-modal/movie-community-watchers-modal.component';
 
 @Component({
   selector: 'app-manga',
@@ -45,6 +47,7 @@ export class MangaComponent {
   private readonly activatedRoute = inject(ActivatedRoute);
   private readonly router = inject(Router);
   private readonly dialog = inject(MatDialog);
+  private readonly authService = inject(AuthService);
 
   @Input() manga!: Manga;
 
@@ -76,6 +79,7 @@ export class MangaComponent {
   @Input() showTopFiveSelector = false;
   @Input() topFiveRank: number | null = null;
   @Output() topFiveRankChange = new EventEmitter<number | null>();
+  @Input() showCommunityWatchersButton = false;
 
   isBaseEntityView = isBaseEntityView();
 
@@ -113,6 +117,22 @@ export class MangaComponent {
 
   updateReadPriority(priority: number): void {
     this.readPriorityUpdated.emit({ manga: this.manga, priority });
+  }
+
+  openCommunityWatchersModal(): void {
+    const authId = this.authService.getAuthenticatedUserId();
+    const profileId = this.getActiveUserId();
+    const currentUserId = (authId ?? profileId).toLowerCase();
+    this.dialog.open(MovieCommunityWatchersModalComponent, {
+      data: {
+        workTitle: this.manga.title,
+        currentUserId,
+        kind: 'manga' as const,
+        identity: { title: this.manga.title, author: this.manga.author },
+      },
+      width: 'min(420px, 95vw)',
+      maxWidth: '95vw',
+    });
   }
 
   getActiveUserId(): string {

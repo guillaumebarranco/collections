@@ -2,6 +2,7 @@ const express = require('express');
 
 const router = express.Router();
 
+const getGameWatchers = require('./get-game-watchers');
 const getGames = require('./get-games');
 const getGamelist = require('./get-gamelist');
 const getEntities = require('./get-entities');
@@ -15,6 +16,7 @@ const moveGameFromGamelistRouter = require('./move-game-from-gamelist-to-played'
 const deleteGame = require('./delete-game');
 const othersRatedRouter = require('./get-others-users-games-rated');
 
+router.use('/', getGameWatchers);
 router.use('/', getGamelist);
 router.use('/', othersRatedRouter);
 router.use('/', getGames);

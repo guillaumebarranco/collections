@@ -25,6 +25,8 @@ import {
   MovieListsModalComponent,
   type MovieListsModalResult,
 } from '../../modals/movie-lists-modal/movie-lists-modal.component';
+import { MovieCommunityWatchersModalComponent } from '../../modals/movie-community-watchers-modal/movie-community-watchers-modal.component';
+import { AuthService } from '../../../core/auth.service';
 import { EntityCardComponent } from '../../entity/entity-card/entity-card.component';
 import {
   EntityCardRatingAndButtonsComponent,
@@ -54,6 +56,7 @@ export class MovieComponent {
   private readonly activatedRoute = inject(ActivatedRoute);
   private readonly router = inject(Router);
   private readonly dialog = inject(MatDialog);
+  private readonly authService = inject(AuthService);
 
   @Input() movie!: Movie;
   @Input() list: Movie[] = [];
@@ -85,6 +88,9 @@ export class MovieComponent {
   @Input() showTopFiveSelector = false;
   @Input() topFiveRank: number | null = null;
   @Output() topFiveRankChange = new EventEmitter<number | null>();
+  /** Affiche le bouton communauté (films vus — qui a vu ce film). */
+  @Input() showCommunityWatchersButton = false;
+
   /** Listes de films de l'utilisateur (pour "Ajouter à une liste"). Défini uniquement sur sa propre collection. */
   userLists = input<UserMovieListItem[] | undefined>(undefined);
   @Output() addMovieToList = new EventEmitter<{ movie: Movie; listName: string }>();
@@ -241,6 +247,26 @@ export class MovieComponent {
     dialogRef.afterClosed().subscribe((result) => {
       if (result === undefined) return;
       this.callMoveMovieFromWatchlistApi(result.rating, result.ratingComment);
+    });
+  }
+
+  openCommunityWatchersModal(): void {
+    const authId = this.authService.getAuthenticatedUserId();
+    const profileId = this.getActiveUserId();
+    const currentUserId = (authId ?? profileId).toLowerCase();
+
+    this.dialog.open(MovieCommunityWatchersModalComponent, {
+      data: {
+        workTitle: this.movie.title,
+        currentUserId,
+        kind: 'movie' as const,
+        identity: {
+          title: this.movie.title,
+          director: this.movie.director,
+        },
+      },
+      width: 'min(420px, 95vw)',
+      maxWidth: '95vw',
     });
   }
 

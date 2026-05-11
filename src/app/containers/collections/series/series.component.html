@@ -214,6 +214,7 @@
         [serie]="serie"
         [list]="sortedSeries()"
         [index]="i"
+        [showCommunityWatchersButton]="selectedView() === 'finished'"
         [isWatchlistView]="
           selectedView() === 'watchlist' ||
           selectedView() === 'watchingInProgress'
