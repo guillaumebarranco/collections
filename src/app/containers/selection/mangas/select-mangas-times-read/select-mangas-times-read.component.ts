@@ -28,6 +28,34 @@ export class SelectMangasTimesReadComponent
     return this.mangasList();
   });
 
+  // Filtre : afficher uniquement les mangas non lus
+  showOnlyNotRead = signal<boolean>(false);
+
+  // Recherche textuelle (titre / auteur)
+  searchQuery = signal<string>('');
+
+  // Mangas affichés selon les filtres actifs. Le filtre "non lu" se base
+  // sur la valeur d'origine pour éviter qu'un manga ne disparaisse dès qu'on
+  // lui attribue un nombre de lectures pendant la session.
+  displayedMangas = computed<Manga[]>(() => {
+    let mangas = this.allMangas();
+
+    if (this.showOnlyNotRead()) {
+      mangas = mangas.filter((manga) => !manga.readTimes);
+    }
+
+    const query = this.searchQuery().trim().toLowerCase();
+    if (query) {
+      mangas = mangas.filter((manga) => {
+        if (manga.title?.toLowerCase().includes(query)) return true;
+        if (manga.author?.toLowerCase().includes(query)) return true;
+        return false;
+      });
+    }
+
+    return mangas;
+  });
+
   mangasTimesRead = signal<Map<string, number>>(new Map());
 
   readonly timesReadOptions = [1, 2, 3, 5, 10, 15, 20, 25, 30, 40, 50];
@@ -48,6 +76,16 @@ export class SelectMangasTimesReadComponent
     const updated = new Map(this.mangasTimesRead());
     updated.set(key, timesRead);
     this.mangasTimesRead.set(updated);
+  }
+
+  // Basculer le filtre des mangas non lus
+  toggleShowOnlyNotRead(checked: boolean): void {
+    this.showOnlyNotRead.set(checked);
+  }
+
+  // Mettre à jour la recherche textuelle
+  onSearchChange(value: string): void {
+    this.searchQuery.set(value);
   }
 
   modifiedCount = computed(() => {

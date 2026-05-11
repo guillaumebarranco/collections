@@ -28,6 +28,34 @@ export class SelectManwhasTimesReadComponent
     return this.manwhasList();
   });
 
+  // Filtre : afficher uniquement les manwhas non lus
+  showOnlyNotRead = signal<boolean>(false);
+
+  // Recherche textuelle (titre / auteur)
+  searchQuery = signal<string>('');
+
+  // Manwhas affichés selon les filtres actifs. Le filtre "non lu" se base
+  // sur la valeur d'origine pour éviter qu'un manwha ne disparaisse dès
+  // qu'on lui attribue un nombre de lectures pendant la session.
+  displayedManwhas = computed<Manwha[]>(() => {
+    let manwhas = this.allManwhas();
+
+    if (this.showOnlyNotRead()) {
+      manwhas = manwhas.filter((manwha) => !manwha.readTimes);
+    }
+
+    const query = this.searchQuery().trim().toLowerCase();
+    if (query) {
+      manwhas = manwhas.filter((manwha) => {
+        if (manwha.title?.toLowerCase().includes(query)) return true;
+        if (manwha.author?.toLowerCase().includes(query)) return true;
+        return false;
+      });
+    }
+
+    return manwhas;
+  });
+
   manwhasTimesRead = signal<Map<string, number>>(new Map());
 
   readonly timesReadOptions = [1, 2, 3, 5, 10, 15, 20, 25, 30, 40, 50];
@@ -48,6 +76,16 @@ export class SelectManwhasTimesReadComponent
     const updated = new Map(this.manwhasTimesRead());
     updated.set(key, timesRead);
     this.manwhasTimesRead.set(updated);
+  }
+
+  // Basculer le filtre des manwhas non lus
+  toggleShowOnlyNotRead(checked: boolean): void {
+    this.showOnlyNotRead.set(checked);
+  }
+
+  // Mettre à jour la recherche textuelle
+  onSearchChange(value: string): void {
+    this.searchQuery.set(value);
   }
 
   modifiedCount = computed(() => {

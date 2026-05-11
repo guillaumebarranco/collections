@@ -30,6 +30,36 @@ export class SelectMoviesOwnedComponent
     return this.moviesList();
   });
 
+  // Filtre : afficher uniquement les films non possédés
+  showOnlyNotOwned = signal<boolean>(false);
+
+  // Recherche textuelle (titre / réalisateur / acteurs)
+  searchQuery = signal<string>('');
+
+  // Films affichés selon les filtres actifs. Le filtre "non possédé" se base
+  // sur la valeur d'origine pour éviter qu'un film ne disparaisse dès qu'on
+  // le marque comme possédé pendant la session.
+  displayedMovies = computed<Movie[]>(() => {
+    let movies = this.allMovies();
+
+    if (this.showOnlyNotOwned()) {
+      movies = movies.filter((movie) => !movie.owned);
+    }
+
+    const query = this.searchQuery().trim().toLowerCase();
+    if (query) {
+      movies = movies.filter((movie) => {
+        if (movie.title?.toLowerCase().includes(query)) return true;
+        if (movie.director?.toLowerCase().includes(query)) return true;
+        return (movie.actors ?? []).some((actor) =>
+          actor?.name?.toLowerCase().includes(query)
+        );
+      });
+    }
+
+    return movies;
+  });
+
   // Map pour stocker les owned mis à jour (clé: title-director, valeur: owned)
   moviesOwned = signal<Map<string, boolean>>(new Map());
 
@@ -51,6 +81,16 @@ export class SelectMoviesOwnedComponent
     const updated = new Map(this.moviesOwned());
     updated.set(key, owned);
     this.moviesOwned.set(updated);
+  }
+
+  // Basculer le filtre des films non possédés
+  toggleShowOnlyNotOwned(checked: boolean): void {
+    this.showOnlyNotOwned.set(checked);
+  }
+
+  // Mettre à jour la recherche textuelle
+  onSearchChange(value: string): void {
+    this.searchQuery.set(value);
   }
 
   // Compter le nombre de films modifiés

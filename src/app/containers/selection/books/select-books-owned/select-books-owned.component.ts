@@ -29,6 +29,34 @@ export class SelectBooksOwnedComponent
     return this.booksList();
   });
 
+  // Filtre : afficher uniquement les livres non possédés
+  showOnlyNotOwned = signal<boolean>(false);
+
+  // Recherche textuelle (titre / auteur)
+  searchQuery = signal<string>('');
+
+  // Livres affichés selon les filtres actifs. Le filtre "non possédé" se base
+  // sur la valeur d'origine pour éviter qu'un livre ne disparaisse dès qu'on
+  // le marque comme possédé pendant la session.
+  displayedBooks = computed<Book[]>(() => {
+    let books = this.allBooks();
+
+    if (this.showOnlyNotOwned()) {
+      books = books.filter((book) => !book.owned);
+    }
+
+    const query = this.searchQuery().trim().toLowerCase();
+    if (query) {
+      books = books.filter((book) => {
+        if (book.title?.toLowerCase().includes(query)) return true;
+        if (book.author?.toLowerCase().includes(query)) return true;
+        return false;
+      });
+    }
+
+    return books;
+  });
+
   // Map pour stocker les owned mis à jour (clé: title-author, valeur: owned)
   booksOwned = signal<Map<string, boolean>>(new Map());
 
@@ -50,6 +78,16 @@ export class SelectBooksOwnedComponent
     const updated = new Map(this.booksOwned());
     updated.set(key, owned);
     this.booksOwned.set(updated);
+  }
+
+  // Basculer le filtre des livres non possédés
+  toggleShowOnlyNotOwned(checked: boolean): void {
+    this.showOnlyNotOwned.set(checked);
+  }
+
+  // Mettre à jour la recherche textuelle
+  onSearchChange(value: string): void {
+    this.searchQuery.set(value);
   }
 
   // Compter le nombre de livres modifiés

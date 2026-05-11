@@ -25,6 +25,34 @@ export class SelectBdsOwnedComponent
     return this.bdsList();
   });
 
+  // Filtre : afficher uniquement les BDs non possédées
+  showOnlyNotOwned = signal<boolean>(false);
+
+  // Recherche textuelle (titre / scénariste)
+  searchQuery = signal<string>('');
+
+  // BDs affichées selon les filtres actifs. Le filtre "non possédé" se base
+  // sur la valeur d'origine pour éviter qu'une BD ne disparaisse dès qu'on
+  // la marque comme possédée pendant la session.
+  displayedBds = computed<Bd[]>(() => {
+    let bds = this.allBds();
+
+    if (this.showOnlyNotOwned()) {
+      bds = bds.filter((bd) => !bd.owned);
+    }
+
+    const query = this.searchQuery().trim().toLowerCase();
+    if (query) {
+      bds = bds.filter((bd) => {
+        if (bd.title?.toLowerCase().includes(query)) return true;
+        if (bd.writer?.toLowerCase().includes(query)) return true;
+        return false;
+      });
+    }
+
+    return bds;
+  });
+
   bdsOwned = signal<Map<string, boolean>>(new Map());
 
   private getBdKey(bd: Bd): string {
@@ -42,6 +70,16 @@ export class SelectBdsOwnedComponent
     const updated = new Map(this.bdsOwned());
     updated.set(key, owned);
     this.bdsOwned.set(updated);
+  }
+
+  // Basculer le filtre des BDs non possédées
+  toggleShowOnlyNotOwned(checked: boolean): void {
+    this.showOnlyNotOwned.set(checked);
+  }
+
+  // Mettre à jour la recherche textuelle
+  onSearchChange(value: string): void {
+    this.searchQuery.set(value);
   }
 
   modifiedCount = computed(() => {

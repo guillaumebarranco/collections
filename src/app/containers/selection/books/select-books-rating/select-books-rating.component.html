@@ -15,6 +15,17 @@
     Filtrer sur les livres qui n'ont pas de note
   </label>
 
+  <div class="select-search">
+    <input
+      type="search"
+      class="select-search-input"
+      placeholder="Rechercher par titre ou auteur…"
+      [value]="searchQuery()"
+      (input)="onSearchChange($any($event.target).value)"
+      aria-label="Rechercher un livre"
+    />
+  </div>
+
   <div class="actions">
     <button
       class="makya-btn-big"
@@ -47,9 +58,13 @@
     <ng-container *ngTemplateOutlet="selectionSummaryBand" />
   </div>
 
-  @if (showOnlyUnrated() && displayedBooks().length === 0) {
+  @if (displayedBooks().length === 0 && allBooks().length > 0) {
   <div class="select-empty-state">
+    @if (searchQuery().trim()) {
+    <p>Aucun livre ne correspond à ta recherche.</p>
+    } @else if (showOnlyUnrated()) {
     <p>🎉 Tous tes livres ont déjà une note !</p>
+    }
   </div>
   }
 

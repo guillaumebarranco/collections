@@ -24,9 +24,39 @@ export class SelectSeriesOwnedComponent
 
   seriesList = signal<Serie[]>([]);
 
-  // Toutes les sÃ©ries de l'utilisateur
+  // Toutes les séries de l'utilisateur
   allSeries = computed<Serie[]>(() => {
     return this.seriesList();
+  });
+
+  // Filtre : afficher uniquement les séries non possédées
+  showOnlyNotOwned = signal<boolean>(false);
+
+  // Recherche textuelle (titre / réalisateur / acteurs)
+  searchQuery = signal<string>('');
+
+  // Séries affichées selon les filtres actifs. Le filtre "non possédée" se
+  // base sur la valeur d'origine pour éviter qu'une série ne disparaisse
+  // dès qu'on la marque comme possédée pendant la session.
+  displayedSeries = computed<Serie[]>(() => {
+    let series = this.allSeries();
+
+    if (this.showOnlyNotOwned()) {
+      series = series.filter((serie) => !serie.owned);
+    }
+
+    const query = this.searchQuery().trim().toLowerCase();
+    if (query) {
+      series = series.filter((serie) => {
+        if (serie.title?.toLowerCase().includes(query)) return true;
+        if (serie.director?.toLowerCase().includes(query)) return true;
+        return (serie.actors ?? []).some((actor) =>
+          actor?.name?.toLowerCase().includes(query)
+        );
+      });
+    }
+
+    return series;
   });
 
   // Map pour stocker les owned mis à jour (clé: title-director)
@@ -49,6 +79,16 @@ export class SelectSeriesOwnedComponent
     const updated = new Map(this.seriesOwned());
     updated.set(key, owned);
     this.seriesOwned.set(updated);
+  }
+
+  // Basculer le filtre des séries non possédées
+  toggleShowOnlyNotOwned(checked: boolean): void {
+    this.showOnlyNotOwned.set(checked);
+  }
+
+  // Mettre à jour la recherche textuelle
+  onSearchChange(value: string): void {
+    this.searchQuery.set(value);
   }
 
   // Compter le nombre de séries modifiées

@@ -28,6 +28,34 @@ export class SelectMusicsTimesListenedComponent
     return this.musicsList();
   });
 
+  // Filtre : afficher uniquement les musiques non écoutées
+  showOnlyNotListened = signal<boolean>(false);
+
+  // Recherche textuelle (titre / artiste)
+  searchQuery = signal<string>('');
+
+  // Musiques affichées selon les filtres actifs. Le filtre "non écouté" se
+  // base sur la valeur d'origine pour éviter qu'une musique ne disparaisse
+  // dès qu'on lui attribue un nombre d'écoutes pendant la session.
+  displayedMusics = computed<Music[]>(() => {
+    let musics = this.allMusics();
+
+    if (this.showOnlyNotListened()) {
+      musics = musics.filter((music) => !music.timesListened);
+    }
+
+    const query = this.searchQuery().trim().toLowerCase();
+    if (query) {
+      musics = musics.filter((music) => {
+        if (music.title?.toLowerCase().includes(query)) return true;
+        if (music.artist?.toLowerCase().includes(query)) return true;
+        return false;
+      });
+    }
+
+    return musics;
+  });
+
   musicsTimesListened = signal<Map<string, number>>(new Map());
 
   readonly timesListenedOptions = [
@@ -49,6 +77,16 @@ export class SelectMusicsTimesListenedComponent
     const updated = new Map(this.musicsTimesListened());
     updated.set(key, timesListened);
     this.musicsTimesListened.set(updated);
+  }
+
+  // Basculer le filtre des musiques non écoutées
+  toggleShowOnlyNotListened(checked: boolean): void {
+    this.showOnlyNotListened.set(checked);
+  }
+
+  // Mettre à jour la recherche textuelle
+  onSearchChange(value: string): void {
+    this.searchQuery.set(value);
   }
 
   modifiedCount = computed(() => {

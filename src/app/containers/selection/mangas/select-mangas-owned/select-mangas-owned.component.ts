@@ -25,6 +25,34 @@ export class SelectMangasOwnedComponent
     return this.mangasList();
   });
 
+  // Filtre : afficher uniquement les mangas non possédés
+  showOnlyNotOwned = signal<boolean>(false);
+
+  // Recherche textuelle (titre / auteur)
+  searchQuery = signal<string>('');
+
+  // Mangas affichés selon les filtres actifs. Le filtre "non possédé" se base
+  // sur la valeur d'origine pour éviter qu'un manga ne disparaisse dès qu'on
+  // le marque comme possédé pendant la session.
+  displayedMangas = computed<Manga[]>(() => {
+    let mangas = this.allMangas();
+
+    if (this.showOnlyNotOwned()) {
+      mangas = mangas.filter((manga) => !manga.owned);
+    }
+
+    const query = this.searchQuery().trim().toLowerCase();
+    if (query) {
+      mangas = mangas.filter((manga) => {
+        if (manga.title?.toLowerCase().includes(query)) return true;
+        if (manga.author?.toLowerCase().includes(query)) return true;
+        return false;
+      });
+    }
+
+    return mangas;
+  });
+
   mangasOwned = signal<Map<string, boolean>>(new Map());
 
   private getMangaKey(manga: Manga): string {
@@ -42,6 +70,16 @@ export class SelectMangasOwnedComponent
     const updated = new Map(this.mangasOwned());
     updated.set(key, owned);
     this.mangasOwned.set(updated);
+  }
+
+  // Basculer le filtre des mangas non possédés
+  toggleShowOnlyNotOwned(checked: boolean): void {
+    this.showOnlyNotOwned.set(checked);
+  }
+
+  // Mettre à jour la recherche textuelle
+  onSearchChange(value: string): void {
+    this.searchQuery.set(value);
   }
 
   modifiedCount = computed(() => {

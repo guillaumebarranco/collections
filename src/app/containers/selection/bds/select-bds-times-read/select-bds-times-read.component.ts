@@ -28,6 +28,34 @@ export class SelectBdsTimesReadComponent
     return this.bdsList();
   });
 
+  // Filtre : afficher uniquement les BDs non lues
+  showOnlyNotRead = signal<boolean>(false);
+
+  // Recherche textuelle (titre / scénariste)
+  searchQuery = signal<string>('');
+
+  // BDs affichées selon les filtres actifs. Le filtre "non lu" se base sur
+  // la valeur d'origine pour éviter qu'une BD ne disparaisse dès qu'on lui
+  // attribue un nombre de lectures pendant la session.
+  displayedBds = computed<Bd[]>(() => {
+    let bds = this.allBds();
+
+    if (this.showOnlyNotRead()) {
+      bds = bds.filter((bd) => !bd.readTimes);
+    }
+
+    const query = this.searchQuery().trim().toLowerCase();
+    if (query) {
+      bds = bds.filter((bd) => {
+        if (bd.title?.toLowerCase().includes(query)) return true;
+        if (bd.writer?.toLowerCase().includes(query)) return true;
+        return false;
+      });
+    }
+
+    return bds;
+  });
+
   bdsTimesRead = signal<Map<string, number>>(new Map());
 
   readonly timesReadOptions = [1, 2, 3, 5, 10, 15, 20, 25, 30, 40, 50];
@@ -48,6 +76,16 @@ export class SelectBdsTimesReadComponent
     const updated = new Map(this.bdsTimesRead());
     updated.set(key, timesRead);
     this.bdsTimesRead.set(updated);
+  }
+
+  // Basculer le filtre des BDs non lues
+  toggleShowOnlyNotRead(checked: boolean): void {
+    this.showOnlyNotRead.set(checked);
+  }
+
+  // Mettre à jour la recherche textuelle
+  onSearchChange(value: string): void {
+    this.searchQuery.set(value);
   }
 
   modifiedCount = computed(() => {

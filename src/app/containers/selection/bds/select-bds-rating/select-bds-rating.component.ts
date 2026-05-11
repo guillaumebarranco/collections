@@ -31,14 +31,29 @@ export class SelectBdsRatingComponent
   // Filtre : afficher uniquement les BD sans note
   showOnlyUnrated = signal<boolean>(false);
 
-  // BD affichées selon le filtre actif (basé sur la note d'origine, pour
-  // éviter qu'une BD ne disparaisse de la liste dès qu'elle vient d'être notée)
+  // Recherche textuelle (titre / scénariste)
+  searchQuery = signal<string>('');
+
+  // BD affichées selon les filtres actifs. Le filtre "sans note" se base sur
+  // la note d'origine pour éviter qu'une BD ne disparaisse de la liste dès
+  // qu'elle vient d'être notée pendant la session.
   displayedBds = computed<Bd[]>(() => {
-    const bds = this.allBds();
-    if (!this.showOnlyUnrated()) {
-      return bds;
+    let bds = this.allBds();
+
+    if (this.showOnlyUnrated()) {
+      bds = bds.filter((bd) => !bd.rating);
     }
-    return bds.filter((bd) => !bd.rating);
+
+    const query = this.searchQuery().trim().toLowerCase();
+    if (query) {
+      bds = bds.filter((bd) => {
+        if (bd.title?.toLowerCase().includes(query)) return true;
+        if (bd.writer?.toLowerCase().includes(query)) return true;
+        return false;
+      });
+    }
+
+    return bds;
   });
 
   bdsRatings = signal<Map<string, number>>(new Map());
@@ -65,6 +80,11 @@ export class SelectBdsRatingComponent
   // Basculer le filtre des BD sans note
   toggleShowOnlyUnrated(checked: boolean): void {
     this.showOnlyUnrated.set(checked);
+  }
+
+  // Mettre à jour la recherche textuelle
+  onSearchChange(value: string): void {
+    this.searchQuery.set(value);
   }
 
   modifiedCount = computed(() => {

@@ -6,6 +6,26 @@
     <span class="total">sur {{ allMangas().length }}</span>
   </div>
 
+  <label class="select-filter-option">
+    <input
+      type="checkbox"
+      [checked]="showOnlyNotRead()"
+      (change)="toggleShowOnlyNotRead($any($event.target).checked)"
+    />
+    Filtrer sur les mangas non lus
+  </label>
+
+  <div class="select-search">
+    <input
+      type="search"
+      class="select-search-input"
+      placeholder="Rechercher par titre ou auteur…"
+      [value]="searchQuery()"
+      (input)="onSearchChange($any($event.target).value)"
+      aria-label="Rechercher un manga"
+    />
+  </div>
+
   <div class="actions">
     <button
       class="makya-btn-big"
@@ -38,8 +58,18 @@
     <ng-container *ngTemplateOutlet="selectionSummaryBand" />
   </div>
 
+  @if (displayedMangas().length === 0 && allMangas().length > 0) {
+  <div class="select-empty-state">
+    @if (searchQuery().trim()) {
+    <p>Aucun manga ne correspond à ta recherche.</p>
+    } @else if (showOnlyNotRead()) {
+    <p>🎉 Tu as déjà lu tous tes mangas !</p>
+    }
+  </div>
+  }
+
   <div class="mangas-grid">
-    @for (manga of allMangas(); track `${manga.title}-${manga.author}`) {
+    @for (manga of displayedMangas(); track `${manga.title}-${manga.author}`) {
     <div class="manga-cover" [title]="manga.title + ' - ' + manga.author">
       <img [src]="manga.coverUrl" [alt]="manga.title" />
       <div class="overlay">

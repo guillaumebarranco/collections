@@ -33,14 +33,29 @@ export class SelectComicsRatingComponent
   // Filtre : afficher uniquement les comics sans note
   showOnlyUnrated = signal<boolean>(false);
 
-  // Comics affichés selon le filtre actif (basé sur la note d'origine, pour
-  // éviter qu'un comic ne disparaisse de la liste dès qu'il vient d'être noté)
+  // Recherche textuelle (titre / scénariste)
+  searchQuery = signal<string>('');
+
+  // Comics affichés selon les filtres actifs. Le filtre "sans note" se base
+  // sur la note d'origine pour éviter qu'un comic ne disparaisse de la liste
+  // dès qu'il vient d'être noté pendant la session.
   displayedComics = computed<Comic[]>(() => {
-    const comics = this.allComics();
-    if (!this.showOnlyUnrated()) {
-      return comics;
+    let comics = this.allComics();
+
+    if (this.showOnlyUnrated()) {
+      comics = comics.filter((comic) => !comic.rating);
     }
-    return comics.filter((comic) => !comic.rating);
+
+    const query = this.searchQuery().trim().toLowerCase();
+    if (query) {
+      comics = comics.filter((comic) => {
+        if (comic.title?.toLowerCase().includes(query)) return true;
+        if (comic.writer?.toLowerCase().includes(query)) return true;
+        return false;
+      });
+    }
+
+    return comics;
   });
 
   comicsRatings = signal<Map<string, number>>(new Map());
@@ -67,6 +82,11 @@ export class SelectComicsRatingComponent
   // Basculer le filtre des comics sans note
   toggleShowOnlyUnrated(checked: boolean): void {
     this.showOnlyUnrated.set(checked);
+  }
+
+  // Mettre à jour la recherche textuelle
+  onSearchChange(value: string): void {
+    this.searchQuery.set(value);
   }
 
   modifiedCount = computed(() => {

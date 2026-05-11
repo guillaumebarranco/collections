@@ -24,14 +24,29 @@ export class SelectGamesRatingComponent
   // Filtre : afficher uniquement les jeux sans note
   showOnlyUnrated = signal<boolean>(false);
 
-  // Jeux affichés selon le filtre actif (basé sur la note d'origine, pour
-  // éviter qu'un jeu ne disparaisse de la liste dès qu'il vient d'être noté)
+  // Recherche textuelle (titre / éditeur)
+  searchQuery = signal<string>('');
+
+  // Jeux affichés selon les filtres actifs. Le filtre "sans note" se base
+  // sur la note d'origine pour éviter qu'un jeu ne disparaisse de la liste
+  // dès qu'il vient d'être noté pendant la session.
   displayedGames = computed<Game[]>(() => {
-    const games = this.allGames();
-    if (!this.showOnlyUnrated()) {
-      return games;
+    let games = this.allGames();
+
+    if (this.showOnlyUnrated()) {
+      games = games.filter((game) => !game.rating);
     }
-    return games.filter((game) => !game.rating);
+
+    const query = this.searchQuery().trim().toLowerCase();
+    if (query) {
+      games = games.filter((game) => {
+        if (game.title?.toLowerCase().includes(query)) return true;
+        if (game.editor?.toLowerCase().includes(query)) return true;
+        return false;
+      });
+    }
+
+    return games;
   });
 
   gamesRatings = signal<Map<string, number>>(new Map());
@@ -58,6 +73,11 @@ export class SelectGamesRatingComponent
   // Basculer le filtre des jeux sans note
   toggleShowOnlyUnrated(checked: boolean): void {
     this.showOnlyUnrated.set(checked);
+  }
+
+  // Mettre à jour la recherche textuelle
+  onSearchChange(value: string): void {
+    this.searchQuery.set(value);
   }
 
   modifiedCount = computed(() => {

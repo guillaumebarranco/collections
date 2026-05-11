@@ -34,14 +34,31 @@ export class SelectMoviesRatingComponent
   // Filtre : afficher uniquement les films sans note
   showOnlyUnrated = signal<boolean>(false);
 
-  // Films affichés selon le filtre actif (basé sur la note d'origine, pour
-  // éviter qu'un film ne disparaisse de la liste dès qu'il vient d'être noté)
+  // Recherche textuelle (titre / réalisateur / acteurs)
+  searchQuery = signal<string>('');
+
+  // Films affichés selon les filtres actifs. Le filtre "sans note" se base
+  // sur la note d'origine pour éviter qu'un film ne disparaisse de la liste
+  // dès qu'il vient d'être noté pendant la session.
   displayedMovies = computed<Movie[]>(() => {
-    const movies = this.allMovies();
-    if (!this.showOnlyUnrated()) {
-      return movies;
+    let movies = this.allMovies();
+
+    if (this.showOnlyUnrated()) {
+      movies = movies.filter((movie) => !movie.rating);
     }
-    return movies.filter((movie) => !movie.rating);
+
+    const query = this.searchQuery().trim().toLowerCase();
+    if (query) {
+      movies = movies.filter((movie) => {
+        if (movie.title?.toLowerCase().includes(query)) return true;
+        if (movie.director?.toLowerCase().includes(query)) return true;
+        return (movie.actors ?? []).some((actor) =>
+          actor?.name?.toLowerCase().includes(query)
+        );
+      });
+    }
+
+    return movies;
   });
 
   // Map pour stocker les ratings mis à jour (clé: title-director, valeur: rating)
@@ -73,6 +90,11 @@ export class SelectMoviesRatingComponent
   // Basculer le filtre des films sans note
   toggleShowOnlyUnrated(checked: boolean): void {
     this.showOnlyUnrated.set(checked);
+  }
+
+  // Mettre à jour la recherche textuelle
+  onSearchChange(value: string): void {
+    this.searchQuery.set(value);
   }
 
   // Compter le nombre de films modifiés

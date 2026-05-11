@@ -15,6 +15,17 @@
     Filtrer sur les séries qui n'ont pas de note
   </label>
 
+  <div class="select-search">
+    <input
+      type="search"
+      class="select-search-input"
+      placeholder="Rechercher par titre, réalisateur ou acteur…"
+      [value]="searchQuery()"
+      (input)="onSearchChange($any($event.target).value)"
+      aria-label="Rechercher une série"
+    />
+  </div>
+
   <div class="actions">
     <button
       class="makya-btn-big"
@@ -47,9 +58,13 @@
     <ng-container *ngTemplateOutlet="selectionSummaryBand" />
   </div>
 
-  @if (showOnlyUnrated() && displayedSeries().length === 0) {
+  @if (displayedSeries().length === 0 && allSeries().length > 0) {
   <div class="select-empty-state">
+    @if (searchQuery().trim()) {
+    <p>Aucune série ne correspond à ta recherche.</p>
+    } @else if (showOnlyUnrated()) {
     <p>🎉 Toutes tes séries ont déjà une note !</p>
+    }
   </div>
   }
 

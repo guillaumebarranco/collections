@@ -6,6 +6,26 @@
     <span class="total">sur {{ allSeries().length }}</span>
   </div>
 
+  <label class="select-filter-option">
+    <input
+      type="checkbox"
+      [checked]="showOnlyNotOwned()"
+      (change)="toggleShowOnlyNotOwned($any($event.target).checked)"
+    />
+    Filtrer sur les séries non possédées
+  </label>
+
+  <div class="select-search">
+    <input
+      type="search"
+      class="select-search-input"
+      placeholder="Rechercher par titre, réalisateur ou acteur…"
+      [value]="searchQuery()"
+      (input)="onSearchChange($any($event.target).value)"
+      aria-label="Rechercher une série"
+    />
+  </div>
+
   <div class="actions">
     <button
       class="makya-btn-big"
@@ -37,8 +57,18 @@
     <ng-container *ngTemplateOutlet="selectionSummaryBand" />
   </div>
 
+  @if (displayedSeries().length === 0 && allSeries().length > 0) {
+  <div class="select-empty-state">
+    @if (searchQuery().trim()) {
+    <p>Aucune série ne correspond à ta recherche.</p>
+    } @else if (showOnlyNotOwned()) {
+    <p>🎉 Tu possèdes déjà toutes tes séries !</p>
+    }
+  </div>
+  }
+
   <div class="series-grid">
-    @for (serie of allSeries(); track `${serie.title}-${serie.releaseDate}`) {
+    @for (serie of displayedSeries(); track `${serie.title}-${serie.releaseDate}`) {
     <div
       class="serie-poster"
       [title]="serie.title + ' (' + serie.releaseDate.substring(0, 4) + ')'"

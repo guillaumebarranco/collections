@@ -30,6 +30,36 @@ export class SelectMoviesTimesWatchedComponent
     return this.moviesList();
   });
 
+  // Filtre : afficher uniquement les films non visionnés
+  showOnlyNotWatched = signal<boolean>(false);
+
+  // Recherche textuelle (titre / réalisateur / acteurs)
+  searchQuery = signal<string>('');
+
+  // Films affichés selon les filtres actifs. Le filtre "non visionné" se
+  // base sur la valeur d'origine pour éviter qu'un film ne disparaisse dès
+  // qu'on lui attribue un nombre de visionnages pendant la session.
+  displayedMovies = computed<Movie[]>(() => {
+    let movies = this.allMovies();
+
+    if (this.showOnlyNotWatched()) {
+      movies = movies.filter((movie) => !movie.timesWatched);
+    }
+
+    const query = this.searchQuery().trim().toLowerCase();
+    if (query) {
+      movies = movies.filter((movie) => {
+        if (movie.title?.toLowerCase().includes(query)) return true;
+        if (movie.director?.toLowerCase().includes(query)) return true;
+        return (movie.actors ?? []).some((actor) =>
+          actor?.name?.toLowerCase().includes(query)
+        );
+      });
+    }
+
+    return movies;
+  });
+
   // Map pour stocker les timesWatched mis à jour (clé: title-director, valeur: timesWatched)
   moviesTimesWatched = signal<Map<string, number>>(new Map());
 
@@ -54,6 +84,16 @@ export class SelectMoviesTimesWatchedComponent
     const updated = new Map(this.moviesTimesWatched());
     updated.set(key, timesWatched);
     this.moviesTimesWatched.set(updated);
+  }
+
+  // Basculer le filtre des films non visionnés
+  toggleShowOnlyNotWatched(checked: boolean): void {
+    this.showOnlyNotWatched.set(checked);
+  }
+
+  // Mettre à jour la recherche textuelle
+  onSearchChange(value: string): void {
+    this.searchQuery.set(value);
   }
 
   // Compter le nombre de films modifiés

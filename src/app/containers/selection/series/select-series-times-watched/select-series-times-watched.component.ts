@@ -24,9 +24,36 @@ export class SelectSeriesTimesWatchedComponent
 
   seriesList = signal<Serie[]>([]);
 
-  // Toutes les sÃ©ries de l'utilisateur
   allSeries = computed<Serie[]>(() => {
     return this.seriesList();
+  });
+
+  showOnlyNotWatched = signal<boolean>(false);
+
+  searchQuery = signal<string>('');
+
+  displayedSeries = computed<Serie[]>(() => {
+    let series = this.allSeries();
+
+    if (this.showOnlyNotWatched()) {
+      series = series.filter((serie) => {
+        if (!serie.seasons || serie.seasons.length === 0) return true;
+        return serie.seasons.every((season) => !season.seasonTimesWatched);
+      });
+    }
+
+    const query = this.searchQuery().trim().toLowerCase();
+    if (query) {
+      series = series.filter((serie) => {
+        if (serie.title?.toLowerCase().includes(query)) return true;
+        if (serie.director?.toLowerCase().includes(query)) return true;
+        return (serie.actors ?? []).some((actor) =>
+          actor?.name?.toLowerCase().includes(query)
+        );
+      });
+    }
+
+    return series;
   });
 
   // Map pour stocker les saisons mises Ã  jour (clÃ©: title-director)
@@ -94,6 +121,14 @@ export class SelectSeriesTimesWatchedComponent
     const updated = new Map(this.seriesSeasons());
     updated.set(key, seasons);
     this.seriesSeasons.set(updated);
+  }
+
+  toggleShowOnlyNotWatched(checked: boolean): void {
+    this.showOnlyNotWatched.set(checked);
+  }
+
+  onSearchChange(value: string): void {
+    this.searchQuery.set(value);
   }
 
   // Compter le nombre de sÃ©ries modifiÃ©es

@@ -3133,4 +3133,21 @@ export const guillaumeMoviesPage1: UserMovies = [
     borrowed: "",
     loaned: "",
   },
+
+  {
+    title: "The Drama",
+    director: "Kristoffer Borgli",
+    rating: 3,
+    timesWatched: 1,
+    firstViewedDate: "2026-05-11",
+    lastViewedDate: "2026-05-11",
+    seenAtCinema: false,
+    owned: false,
+    wantToSeeAgain: false,
+    watchPriority: 1,
+    ratingComment: "",
+    inList: [],
+    borrowed: "",
+    loaned: "",
+  },
 ];

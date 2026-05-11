@@ -28,6 +28,34 @@ export class SelectManwhasOwnedComponent
     return this.manwhasList();
   });
 
+  // Filtre : afficher uniquement les manwhas non possédés
+  showOnlyNotOwned = signal<boolean>(false);
+
+  // Recherche textuelle (titre / auteur)
+  searchQuery = signal<string>('');
+
+  // Manwhas affichés selon les filtres actifs. Le filtre "non possédé" se
+  // base sur la valeur d'origine pour éviter qu'un manwha ne disparaisse
+  // dès qu'on le marque comme possédé pendant la session.
+  displayedManwhas = computed<Manwha[]>(() => {
+    let manwhas = this.allManwhas();
+
+    if (this.showOnlyNotOwned()) {
+      manwhas = manwhas.filter((manwha) => !manwha.owned);
+    }
+
+    const query = this.searchQuery().trim().toLowerCase();
+    if (query) {
+      manwhas = manwhas.filter((manwha) => {
+        if (manwha.title?.toLowerCase().includes(query)) return true;
+        if (manwha.author?.toLowerCase().includes(query)) return true;
+        return false;
+      });
+    }
+
+    return manwhas;
+  });
+
   manwhasOwned = signal<Map<string, boolean>>(new Map());
 
   private getManwhaKey(manwha: Manwha): string {
@@ -45,6 +73,16 @@ export class SelectManwhasOwnedComponent
     const updated = new Map(this.manwhasOwned());
     updated.set(key, owned);
     this.manwhasOwned.set(updated);
+  }
+
+  // Basculer le filtre des manwhas non possédés
+  toggleShowOnlyNotOwned(checked: boolean): void {
+    this.showOnlyNotOwned.set(checked);
+  }
+
+  // Mettre à jour la recherche textuelle
+  onSearchChange(value: string): void {
+    this.searchQuery.set(value);
   }
 
   modifiedCount = computed(() => {

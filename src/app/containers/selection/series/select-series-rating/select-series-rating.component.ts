@@ -32,20 +32,37 @@ export class SelectSeriesRatingComponent
   // Filtre : afficher uniquement les séries sans note
   showOnlyUnrated = signal<boolean>(false);
 
-  // Séries affichées selon le filtre actif. Une série est considérée "sans
-  // note" lorsqu'aucune de ses saisons n'a de seasonRating > 0. On se base
-  // sur les saisons d'origine (pas celles en cours d'édition) pour éviter
-  // qu'une série ne disparaisse de la liste dès qu'elle vient d'être notée.
+  // Recherche textuelle (titre / réalisateur / acteurs)
+  searchQuery = signal<string>('');
+
+  // Séries affichées selon les filtres actifs. Une série est considérée
+  // "sans note" lorsqu'aucune de ses saisons n'a de seasonRating > 0. On se
+  // base sur les saisons d'origine (pas celles en cours d'édition) pour
+  // éviter qu'une série ne disparaisse de la liste dès qu'elle vient d'être
+  // notée pendant la session.
   displayedSeries = computed<Serie[]>(() => {
-    const series = this.allSeries();
-    if (!this.showOnlyUnrated()) {
-      return series;
+    let series = this.allSeries();
+
+    if (this.showOnlyUnrated()) {
+      series = series.filter((serie) => {
+        const seasons = serie.seasons ?? [];
+        if (seasons.length === 0) return true;
+        return seasons.every((season) => !season.seasonRating);
+      });
     }
-    return series.filter((serie) => {
-      const seasons = serie.seasons ?? [];
-      if (seasons.length === 0) return true;
-      return seasons.every((season) => !season.seasonRating);
-    });
+
+    const query = this.searchQuery().trim().toLowerCase();
+    if (query) {
+      series = series.filter((serie) => {
+        if (serie.title?.toLowerCase().includes(query)) return true;
+        if (serie.director?.toLowerCase().includes(query)) return true;
+        return (serie.actors ?? []).some((actor) =>
+          actor?.name?.toLowerCase().includes(query)
+        );
+      });
+    }
+
+    return series;
   });
 
   seriesSeasons = signal<Map<string, Serie['seasons']>>(new Map());
@@ -98,6 +115,11 @@ export class SelectSeriesRatingComponent
   // Basculer le filtre des séries sans note
   toggleShowOnlyUnrated(checked: boolean): void {
     this.showOnlyUnrated.set(checked);
+  }
+
+  // Mettre à jour la recherche textuelle
+  onSearchChange(value: string): void {
+    this.searchQuery.set(value);
   }
 
   // Compter le nombre de sÃ©ries modifiÃ©es

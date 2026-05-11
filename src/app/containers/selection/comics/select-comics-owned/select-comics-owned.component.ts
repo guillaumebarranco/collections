@@ -25,6 +25,34 @@ export class SelectComicsOwnedComponent
     return this.comicsList();
   });
 
+  // Filtre : afficher uniquement les comics non possédés
+  showOnlyNotOwned = signal<boolean>(false);
+
+  // Recherche textuelle (titre / scénariste)
+  searchQuery = signal<string>('');
+
+  // Comics affichés selon les filtres actifs. Le filtre "non possédé" se
+  // base sur la valeur d'origine pour éviter qu'un comic ne disparaisse
+  // dès qu'on le marque comme possédé pendant la session.
+  displayedComics = computed<Comic[]>(() => {
+    let comics = this.allComics();
+
+    if (this.showOnlyNotOwned()) {
+      comics = comics.filter((comic) => !comic.owned);
+    }
+
+    const query = this.searchQuery().trim().toLowerCase();
+    if (query) {
+      comics = comics.filter((comic) => {
+        if (comic.title?.toLowerCase().includes(query)) return true;
+        if (comic.writer?.toLowerCase().includes(query)) return true;
+        return false;
+      });
+    }
+
+    return comics;
+  });
+
   comicsOwned = signal<Map<string, boolean>>(new Map());
 
   private getComicKey(comic: Comic): string {
@@ -42,6 +70,16 @@ export class SelectComicsOwnedComponent
     const updated = new Map(this.comicsOwned());
     updated.set(key, owned);
     this.comicsOwned.set(updated);
+  }
+
+  // Basculer le filtre des comics non possédés
+  toggleShowOnlyNotOwned(checked: boolean): void {
+    this.showOnlyNotOwned.set(checked);
+  }
+
+  // Mettre à jour la recherche textuelle
+  onSearchChange(value: string): void {
+    this.searchQuery.set(value);
   }
 
   modifiedCount = computed(() => {

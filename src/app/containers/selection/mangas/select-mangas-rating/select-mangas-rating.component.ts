@@ -33,14 +33,29 @@ export class SelectMangasRatingComponent
   // Filtre : afficher uniquement les mangas sans note
   showOnlyUnrated = signal<boolean>(false);
 
-  // Mangas affichés selon le filtre actif (basé sur la note d'origine, pour
-  // éviter qu'un manga ne disparaisse de la liste dès qu'il vient d'être noté)
+  // Recherche textuelle (titre / auteur)
+  searchQuery = signal<string>('');
+
+  // Mangas affichés selon les filtres actifs. Le filtre "sans note" se base
+  // sur la note d'origine pour éviter qu'un manga ne disparaisse de la liste
+  // dès qu'il vient d'être noté pendant la session.
   displayedMangas = computed<Manga[]>(() => {
-    const mangas = this.allMangas();
-    if (!this.showOnlyUnrated()) {
-      return mangas;
+    let mangas = this.allMangas();
+
+    if (this.showOnlyUnrated()) {
+      mangas = mangas.filter((manga) => !manga.rating);
     }
-    return mangas.filter((manga) => !manga.rating);
+
+    const query = this.searchQuery().trim().toLowerCase();
+    if (query) {
+      mangas = mangas.filter((manga) => {
+        if (manga.title?.toLowerCase().includes(query)) return true;
+        if (manga.author?.toLowerCase().includes(query)) return true;
+        return false;
+      });
+    }
+
+    return mangas;
   });
 
   mangasRatings = signal<Map<string, number>>(new Map());
@@ -67,6 +82,11 @@ export class SelectMangasRatingComponent
   // Basculer le filtre des mangas sans note
   toggleShowOnlyUnrated(checked: boolean): void {
     this.showOnlyUnrated.set(checked);
+  }
+
+  // Mettre à jour la recherche textuelle
+  onSearchChange(value: string): void {
+    this.searchQuery.set(value);
   }
 
   modifiedCount = computed(() => {

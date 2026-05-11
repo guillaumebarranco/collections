@@ -33,14 +33,29 @@ export class SelectManwhasRatingComponent
   // Filtre : afficher uniquement les manwhas sans note
   showOnlyUnrated = signal<boolean>(false);
 
-  // Manwhas affichés selon le filtre actif (basé sur la note d'origine, pour
-  // éviter qu'un manwha ne disparaisse de la liste dès qu'il vient d'être noté)
+  // Recherche textuelle (titre / auteur)
+  searchQuery = signal<string>('');
+
+  // Manwhas affichés selon les filtres actifs. Le filtre "sans note" se base
+  // sur la note d'origine pour éviter qu'un manwha ne disparaisse de la liste
+  // dès qu'il vient d'être noté pendant la session.
   displayedManwhas = computed<Manwha[]>(() => {
-    const manwhas = this.allManwhas();
-    if (!this.showOnlyUnrated()) {
-      return manwhas;
+    let manwhas = this.allManwhas();
+
+    if (this.showOnlyUnrated()) {
+      manwhas = manwhas.filter((manwha) => !manwha.rating);
     }
-    return manwhas.filter((manwha) => !manwha.rating);
+
+    const query = this.searchQuery().trim().toLowerCase();
+    if (query) {
+      manwhas = manwhas.filter((manwha) => {
+        if (manwha.title?.toLowerCase().includes(query)) return true;
+        if (manwha.author?.toLowerCase().includes(query)) return true;
+        return false;
+      });
+    }
+
+    return manwhas;
   });
 
   manwhasRatings = signal<Map<string, number>>(new Map());
@@ -67,6 +82,11 @@ export class SelectManwhasRatingComponent
   // Basculer le filtre des manwhas sans note
   toggleShowOnlyUnrated(checked: boolean): void {
     this.showOnlyUnrated.set(checked);
+  }
+
+  // Mettre à jour la recherche textuelle
+  onSearchChange(value: string): void {
+    this.searchQuery.set(value);
   }
 
   modifiedCount = computed(() => {

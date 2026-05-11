@@ -29,6 +29,34 @@ export class SelectBooksTimesReadComponent
     return this.booksList();
   });
 
+  // Filtre : afficher uniquement les livres non lus
+  showOnlyNotRead = signal<boolean>(false);
+
+  // Recherche textuelle (titre / auteur)
+  searchQuery = signal<string>('');
+
+  // Livres affichés selon les filtres actifs. Le filtre "non lu" se base
+  // sur la valeur d'origine pour éviter qu'un livre ne disparaisse dès
+  // qu'on lui attribue un nombre de lectures pendant la session.
+  displayedBooks = computed<Book[]>(() => {
+    let books = this.allBooks();
+
+    if (this.showOnlyNotRead()) {
+      books = books.filter((book) => !book.readTimes);
+    }
+
+    const query = this.searchQuery().trim().toLowerCase();
+    if (query) {
+      books = books.filter((book) => {
+        if (book.title?.toLowerCase().includes(query)) return true;
+        if (book.author?.toLowerCase().includes(query)) return true;
+        return false;
+      });
+    }
+
+    return books;
+  });
+
   // Map pour stocker les readTimes mis à jour (clé: title-author, valeur: readTimes)
   booksTimesRead = signal<Map<string, number>>(new Map());
 
@@ -54,6 +82,16 @@ export class SelectBooksTimesReadComponent
     const updated = new Map(this.booksTimesRead());
     updated.set(key, timesRead);
     this.booksTimesRead.set(updated);
+  }
+
+  // Basculer le filtre des livres non lus
+  toggleShowOnlyNotRead(checked: boolean): void {
+    this.showOnlyNotRead.set(checked);
+  }
+
+  // Mettre à jour la recherche textuelle
+  onSearchChange(value: string): void {
+    this.searchQuery.set(value);
   }
 
   // Compter le nombre de livres modifiés

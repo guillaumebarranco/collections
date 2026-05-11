@@ -22,6 +22,34 @@ export class SelectGamesOwnedComponent
   allGames = signal<Game[]>([]);
   isSaving = signal(false);
 
+  // Filtre : afficher uniquement les jeux non possédés
+  showOnlyNotOwned = signal<boolean>(false);
+
+  // Recherche textuelle (titre / éditeur)
+  searchQuery = signal<string>('');
+
+  // Jeux affichés selon les filtres actifs. Le filtre "non possédé" se base
+  // sur la valeur d'origine pour éviter qu'un jeu ne disparaisse dès qu'on
+  // le marque comme possédé pendant la session.
+  displayedGames = computed<Game[]>(() => {
+    let games = this.allGames();
+
+    if (this.showOnlyNotOwned()) {
+      games = games.filter((game) => !game.owned);
+    }
+
+    const query = this.searchQuery().trim().toLowerCase();
+    if (query) {
+      games = games.filter((game) => {
+        if (game.title?.toLowerCase().includes(query)) return true;
+        if (game.editor?.toLowerCase().includes(query)) return true;
+        return false;
+      });
+    }
+
+    return games;
+  });
+
   gamesOwned = signal<Map<string, boolean>>(new Map());
 
   private getGameKey(game: Game): string {
@@ -39,6 +67,16 @@ export class SelectGamesOwnedComponent
     const updated = new Map(this.gamesOwned());
     updated.set(key, owned);
     this.gamesOwned.set(updated);
+  }
+
+  // Basculer le filtre des jeux non possédés
+  toggleShowOnlyNotOwned(checked: boolean): void {
+    this.showOnlyNotOwned.set(checked);
+  }
+
+  // Mettre à jour la recherche textuelle
+  onSearchChange(value: string): void {
+    this.searchQuery.set(value);
   }
 
   modifiedCount = computed(() => {

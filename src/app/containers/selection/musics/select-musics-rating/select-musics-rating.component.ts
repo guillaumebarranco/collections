@@ -33,14 +33,29 @@ export class SelectMusicsRatingComponent
   // Filtre : afficher uniquement les musiques sans note
   showOnlyUnrated = signal<boolean>(false);
 
-  // Musiques affichées selon le filtre actif (basé sur la note d'origine, pour
-  // éviter qu'une musique ne disparaisse de la liste dès qu'elle vient d'être notée)
+  // Recherche textuelle (titre / artiste)
+  searchQuery = signal<string>('');
+
+  // Musiques affichées selon les filtres actifs. Le filtre "sans note" se
+  // base sur la note d'origine pour éviter qu'une musique ne disparaisse de
+  // la liste dès qu'elle vient d'être notée pendant la session.
   displayedMusics = computed<Music[]>(() => {
-    const musics = this.allMusics();
-    if (!this.showOnlyUnrated()) {
-      return musics;
+    let musics = this.allMusics();
+
+    if (this.showOnlyUnrated()) {
+      musics = musics.filter((music) => !music.rating);
     }
-    return musics.filter((music) => !music.rating);
+
+    const query = this.searchQuery().trim().toLowerCase();
+    if (query) {
+      musics = musics.filter((music) => {
+        if (music.title?.toLowerCase().includes(query)) return true;
+        if (music.artist?.toLowerCase().includes(query)) return true;
+        return false;
+      });
+    }
+
+    return musics;
   });
 
   musicsRatings = signal<Map<string, number>>(new Map());
@@ -67,6 +82,11 @@ export class SelectMusicsRatingComponent
   // Basculer le filtre des musiques sans note
   toggleShowOnlyUnrated(checked: boolean): void {
     this.showOnlyUnrated.set(checked);
+  }
+
+  // Mettre à jour la recherche textuelle
+  onSearchChange(value: string): void {
+    this.searchQuery.set(value);
   }
 
   modifiedCount = computed(() => {

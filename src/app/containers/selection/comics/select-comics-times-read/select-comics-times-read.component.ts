@@ -28,6 +28,34 @@ export class SelectComicsTimesReadComponent
     return this.comicsList();
   });
 
+  // Filtre : afficher uniquement les comics non lus
+  showOnlyNotRead = signal<boolean>(false);
+
+  // Recherche textuelle (titre / scénariste)
+  searchQuery = signal<string>('');
+
+  // Comics affichés selon les filtres actifs. Le filtre "non lu" se base
+  // sur la valeur d'origine pour éviter qu'un comic ne disparaisse dès qu'on
+  // lui attribue un nombre de lectures pendant la session.
+  displayedComics = computed<Comic[]>(() => {
+    let comics = this.allComics();
+
+    if (this.showOnlyNotRead()) {
+      comics = comics.filter((comic) => !comic.readTimes);
+    }
+
+    const query = this.searchQuery().trim().toLowerCase();
+    if (query) {
+      comics = comics.filter((comic) => {
+        if (comic.title?.toLowerCase().includes(query)) return true;
+        if (comic.writer?.toLowerCase().includes(query)) return true;
+        return false;
+      });
+    }
+
+    return comics;
+  });
+
   comicsTimesRead = signal<Map<string, number>>(new Map());
 
   readonly timesReadOptions = [1, 2, 3, 5, 10, 15, 20, 25, 30, 40, 50];
@@ -48,6 +76,16 @@ export class SelectComicsTimesReadComponent
     const updated = new Map(this.comicsTimesRead());
     updated.set(key, timesRead);
     this.comicsTimesRead.set(updated);
+  }
+
+  // Basculer le filtre des comics non lus
+  toggleShowOnlyNotRead(checked: boolean): void {
+    this.showOnlyNotRead.set(checked);
+  }
+
+  // Mettre à jour la recherche textuelle
+  onSearchChange(value: string): void {
+    this.searchQuery.set(value);
   }
 
   modifiedCount = computed(() => {

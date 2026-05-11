@@ -31,14 +31,29 @@ export class SelectBooksRatingComponent
   // Filtre : afficher uniquement les livres sans note
   showOnlyUnrated = signal<boolean>(false);
 
-  // Livres affichés selon le filtre actif (basé sur la note d'origine, pour
-  // éviter qu'un livre ne disparaisse de la liste dès qu'il vient d'être noté)
+  // Recherche textuelle (titre / auteur)
+  searchQuery = signal<string>('');
+
+  // Livres affichés selon les filtres actifs. Le filtre "sans note" se base
+  // sur la note d'origine pour éviter qu'un livre ne disparaisse de la liste
+  // dès qu'il vient d'être noté pendant la session.
   displayedBooks = computed<Book[]>(() => {
-    const books = this.allBooks();
-    if (!this.showOnlyUnrated()) {
-      return books;
+    let books = this.allBooks();
+
+    if (this.showOnlyUnrated()) {
+      books = books.filter((book) => !book.rating);
     }
-    return books.filter((book) => !book.rating);
+
+    const query = this.searchQuery().trim().toLowerCase();
+    if (query) {
+      books = books.filter((book) => {
+        if (book.title?.toLowerCase().includes(query)) return true;
+        if (book.author?.toLowerCase().includes(query)) return true;
+        return false;
+      });
+    }
+
+    return books;
   });
 
   // Map pour stocker les ratings mis à jour (clé: title-author, valeur: rating)
@@ -70,6 +85,11 @@ export class SelectBooksRatingComponent
   // Basculer le filtre des livres sans note
   toggleShowOnlyUnrated(checked: boolean): void {
     this.showOnlyUnrated.set(checked);
+  }
+
+  // Mettre à jour la recherche textuelle
+  onSearchChange(value: string): void {
+    this.searchQuery.set(value);
   }
 
   // Compter le nombre de livres modifiés
