@@ -4017,21 +4017,4 @@ export const guillaumeWatchlistMovies: UserMovies = [
     loaned: "",
     inList: [],
   }
-,
-  {
-    title: "The Grand Budapest Hotel",
-    director: "Wes Anderson",
-    rating: 0,
-    timesWatched: 0,
-    firstViewedDate: '',
-    lastViewedDate: '',
-    seenAtCinema: false,
-    owned: false,
-    wantToSeeAgain: false,
-    watchPriority: 1,
-    ratingComment: '',
-    inList: [],
-    borrowed: '',
-    loaned: '',
-  },
 ];
