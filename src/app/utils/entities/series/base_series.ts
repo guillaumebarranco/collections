@@ -1125,18 +1125,18 @@ export const baseSeries: BaseSerie[] = [
     director: 'Matt Corman, Chris Ord',
     actors: [
       {
-        name: 'Charlie Cox',
+        name: "Charlie Cox",
       },
       {
         name: "Vincent D'Onofrio",
       },
       {
-        name: 'Jon Bernthal',
-      },
+        name: "Jon Bernthal",
+      }
     ],
-    coverUrl: '/series_pictures/8c6c4659ab0bc0764f06e2bf7c487d05.jpg',
-    releaseDate: '2024-03-10',
-    endDate: '',
+    coverUrl: "https://i.ebayimg.com/images/g/IakAAOSw9AVnvj8t/s-l400.jpg",
+    releaseDate: "2024-03-10",
+    endDate: "",
     genre: ['Action', 'Crime', 'Drama'],
     seasonsData: [
       {
@@ -1148,12 +1148,12 @@ export const baseSeries: BaseSerie[] = [
         seasonNumber: 2,
         nbEpisodes: 5,
         totalLength: 500,
-      },
+      }
     ],
-    description: '',
+    description: "",
     fromEntity: null,
-    saga: 'Marvel Cinematic Universe',
-    countryOrigin: 'États-Unis',
+    saga: "Marvel Cinematic Universe",
+    countryOrigin: "États-Unis",
   },
   {
     title: 'Emily in Paris',

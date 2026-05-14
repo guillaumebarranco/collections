@@ -245,7 +245,7 @@ export const guillaumeReadlistBooks: UserBooks = [
     firstReadDate: "",
     lastReadDate: "",
     rating: 0,
-    readTimes: 0,
+    readTimes: 0.5,
     owned: false,
     borrowed: "Ronan",
     loaned: "",
