@@ -12,6 +12,7 @@ const {
   removeSerieFromFile,
   getUserWatchlistSeriesFiles,
   findBaseSerie,
+  updateSerieInFile,
 } = require('../../utils/series/series-utils');
 
 const router = express.Router();
@@ -58,20 +59,126 @@ function getTodayISO(): string {
   return `${year}-${month}-${day}`;
 }
 
-function buildWatchedSeasons(seasonsCount: number) {
-  const viewedDate = getTodayISO();
-  const count = Math.max(0, Number(seasonsCount) || 0);
-  return Array.from({ length: count }, (_, index) => ({
-    seasonNumber: index + 1,
-    seasonRating: 0,
-    seasonTimesWatched: 1,
-    lastViewedDate: viewedDate,
-  }));
+/** Saisons reçues du client watchlist lors du clic « J'ai vu cette série ». */
+type PayloadSeasonRow = {
+  seasonNumber: number;
+  seasonRating: number;
+  seasonTimesWatched: number;
+  lastViewedDate: string;
+};
+
+function sanitizePayloadSeasons(value: unknown): PayloadSeasonRow[] {
+  if (!Array.isArray(value)) {
+    return [];
+  }
+  const out: PayloadSeasonRow[] = [];
+  for (const raw of value) {
+    if (!raw || typeof raw !== 'object') {
+      continue;
+    }
+    const o = raw as Record<string, unknown>;
+    const sn = Number(o['seasonNumber']);
+    if (!Number.isFinite(sn) || sn < 1) {
+      continue;
+    }
+    const sr = Number(o['seasonRating']);
+    const tw = Number(o['seasonTimesWatched']);
+    const lvd =
+      typeof o['lastViewedDate'] === 'string' ? o['lastViewedDate'] : '';
+    out.push({
+      seasonNumber: sn,
+      seasonRating: Number.isFinite(sr) ? sr : 0,
+      seasonTimesWatched: Number.isFinite(tw) ? tw : 0,
+      lastViewedDate: lvd ?? '',
+    });
+  }
+  return out;
 }
 
-function formatSeasons(seasons: any[]) {
+function findPayloadSeason(rows: PayloadSeasonRow[], seasonNumber: number) {
+  return rows.find((r) => r.seasonNumber === seasonNumber);
+}
+
+/**
+ * Fusion watchlist (+ optionnellement entrée « déjà vue » existante pour le même titre).
+ * Les saisons passées avec timesWatched 0.5 (en cours) passent à 1 avec date du jour.
+ */
+function mergeWatchlistSeasonsToWatched(params: {
+  seasonsCount: number;
+  payloadSeasons: PayloadSeasonRow[];
+  existingSeasons?: {
+    seasonNumber: number;
+    seasonRating: number;
+    seasonTimesWatched: number;
+    lastViewedDate: string;
+  }[];
+}): PayloadSeasonRow[] {
+  const today = getTodayISO();
+  const count = Math.max(0, Number(params.seasonsCount) || 0);
+  const wl = params.payloadSeasons;
+  const ex = params.existingSeasons ?? [];
+  const out: PayloadSeasonRow[] = [];
+
+  for (let n = 1; n <= count; n++) {
+    const wlRow = findPayloadSeason(wl, n);
+    const exRow = ex.find((s) => s.seasonNumber === n);
+
+    if (wlRow) {
+      const tw = wlRow.seasonTimesWatched;
+      // En cours → une fois vu entièrement, comme demandé métier.
+      if (tw === 0.5 || tw === 0) {
+        out.push({
+          seasonNumber: n,
+          seasonRating: wlRow.seasonRating ?? 0,
+          seasonTimesWatched: 1,
+          lastViewedDate: today,
+        });
+        continue;
+      }
+      if (tw >= 1) {
+        out.push({
+          seasonNumber: n,
+          seasonRating: wlRow.seasonRating ?? 0,
+          seasonTimesWatched: wlRow.seasonTimesWatched,
+          lastViewedDate: wlRow.lastViewedDate || today,
+        });
+        continue;
+      }
+      // Autre valeur inattendue : traiter comme visionnage à compléter.
+      out.push({
+        seasonNumber: n,
+        seasonRating: wlRow.seasonRating ?? 0,
+        seasonTimesWatched: 1,
+        lastViewedDate: today,
+      });
+      continue;
+    }
+
+    // Pas de ligne watchlist pour cette saison
+    if (exRow != null && (exRow.seasonTimesWatched ?? 0) >= 1) {
+      out.push({
+        seasonNumber: n,
+        seasonRating: Number(exRow.seasonRating ?? 0),
+        seasonTimesWatched: Number(exRow.seasonTimesWatched),
+        lastViewedDate: String(exRow.lastViewedDate || ''),
+      });
+      continue;
+    }
+
+    out.push({
+      seasonNumber: n,
+      seasonRating: 0,
+      seasonTimesWatched: 1,
+      lastViewedDate: today,
+    });
+  }
+
+  return out;
+}
+
+function formatSeasons(seasons: PayloadSeasonRow[]) {
   const lines = seasons.map(
-    (season: any) => `      {
+    (season: PayloadSeasonRow) => `      {
         seasonNumber: ${season.seasonNumber},
         seasonRating: ${season.seasonRating},
         seasonTimesWatched: ${season.seasonTimesWatched},
@@ -81,13 +188,56 @@ function formatSeasons(seasons: any[]) {
   return `    seasons: [\n${lines.join(',\n')}\n    ],`;
 }
 
-function formatUserSerie(serie: any, options?: { ratingComment?: string }) {
-  const seasons = buildWatchedSeasons(serie.seasonsCount);
-  const ratingComment = typeof options?.ratingComment === 'string' ? options.ratingComment : '';
+/** Nombre total de saisons : base données + max des fichiers utilisateur/watchlist pour les cas hors base. */
+function resolveSeasonsCount(
+  baseCount: number,
+  payloadSeasons: PayloadSeasonRow[],
+  existingSeasons?: { seasonNumber: number }[]
+): number {
+  let maxSeason = Math.max(0, Number(baseCount) || 0);
+  for (const s of payloadSeasons) {
+    if (Number.isFinite(s.seasonNumber)) {
+      maxSeason = Math.max(maxSeason, s.seasonNumber);
+    }
+  }
+  if (Array.isArray(existingSeasons)) {
+    for (const s of existingSeasons) {
+      if (Number.isFinite(s?.seasonNumber)) {
+        maxSeason = Math.max(maxSeason, s.seasonNumber);
+      }
+    }
+  }
+  return maxSeason;
+}
+
+function formatUserSerie(
+  serie: any,
+  options?: {
+    ratingComment?: string;
+    mergedSeasonRows?: PayloadSeasonRow[];
+    payloadSeasons?: PayloadSeasonRow[];
+    existingSeasonRows?: PayloadSeasonRow[];
+  }
+) {
+  const wl = options?.payloadSeasons ?? [];
+  const inferred = resolveSeasonsCount(
+    serie.seasonsCount,
+    wl,
+    options?.existingSeasonRows
+  );
+  const merged =
+    options?.mergedSeasonRows ??
+    mergeWatchlistSeasonsToWatched({
+      seasonsCount: inferred,
+      payloadSeasons: wl,
+      existingSeasons: options?.existingSeasonRows,
+    });
+  const ratingComment =
+    typeof options?.ratingComment === 'string' ? options.ratingComment : '';
   return `  {
     title: "${escapeString(serie.title)}",
     director: "${escapeString(serie.director)}",
-${formatSeasons(seasons)}
+${formatSeasons(merged)}
     owned: false,
     watchPriority: ${serie.watchPriority ?? 1},
     wantToWatchAgain: false,
@@ -135,6 +285,23 @@ function getUserSeriesTargetFile(userId: string, isWatchlist: boolean) {
   return path.join(userDir, selected);
 }
 
+function findExistingWatchedSerie(
+  userFiles: string[],
+  title: string,
+  director: string
+): { filePath: string; content: string; serie: Record<string, unknown> } | null {
+  const key = `${title}|${director}`;
+  for (const filePath of userFiles) {
+    const content = fs.readFileSync(filePath, 'utf8');
+    const list = parseSeriesFromFile(content) as Record<string, unknown>[];
+    const serie = list.find((s: any) => `${s.title}|${s.director}` === key);
+    if (serie) {
+      return { filePath, content, serie };
+    }
+  }
+  return null;
+}
+
 router.post('/move-serie-from-watchlist-to-watched', (req: any, res: any) => {
   try {
     const input = req.body || {};
@@ -146,92 +313,155 @@ router.post('/move-serie-from-watchlist-to-watched', (req: any, res: any) => {
 
     ensureUserExists(userId);
 
-    const series = Array.isArray(input.series) ? input.series : [];
-    const isWatchlist = normalizeBoolean(input.watchlist, 'watchlist') ?? false;
-    const ratingComment = typeof input.ratingComment === 'string' ? input.ratingComment : undefined;
-    const normalizedSeries = series
-      .map((serie: any) => ({
-        title: normalizeString(serie.title, 'title'),
-        director: normalizeString(serie.director, 'director'),
-      }))
-      .filter((serie: any) => serie.title && serie.director);
+    const seriesPayload = Array.isArray(input.series) ? input.series : [];
+    const watchlistBool = normalizeBoolean(input.watchlist, 'watchlist') ?? false;
+    const ratingComment =
+      typeof input.ratingComment === 'string' ? input.ratingComment : undefined;
 
-    if (normalizedSeries.length === 0) {
+    const normalizedRows = seriesPayload
+      .map((serie: any) => {
+        const title = normalizeString(serie.title, 'title');
+        const director = normalizeString(serie.director, 'director');
+        const payloadSeasons = sanitizePayloadSeasons(serie.seasons);
+        return {
+          title,
+          director,
+          payloadSeasons,
+          borrowed:
+            typeof serie.borrowed === 'string' ? serie.borrowed : undefined,
+          loaned: typeof serie.loaned === 'string' ? serie.loaned : undefined,
+        };
+      })
+      .filter((r: any) => r.title && r.director);
+
+    if (normalizedRows.length === 0) {
       res.status(400).json({ error: 'Missing series' });
       return;
     }
 
     const userFiles = getUserSeriesFiles(userId);
-    const existing = userFiles.flatMap((serieFile: string) => {
-      const fileContent = fs.readFileSync(serieFile, 'utf8');
-      return parseSeriesFromFile(fileContent).map((serie: any) => ({
-        title: serie.title,
-        director: serie.director,
-      }));
-    });
+    const userWatchedFile = getUserSeriesTargetFile(userId, watchlistBool);
 
-    const existingSet = new Set(
-      existing.map((serie: any) => `${serie.title}|${serie.director}`)
-    );
-
-    const toAdd = normalizedSeries
-      .filter(
-        (serie: any) => !existingSet.has(`${serie.title}|${serie.director}`)
-      )
-      .map((serie: any) => {
-        const baseSerie = findBaseSerie(serie.title, serie.director);
-        const seasonsCount = baseSerie?.seasonsData?.length ?? 0;
-        return {
-          ...serie,
-          seasonsCount,
-          watchPriority: 1,
-        };
-      });
-
-    if (toAdd.length === 0) {
-      res.status(409).json({ error: 'Series already exist for user' });
-      return;
-    }
-
-    const userFile = getUserSeriesTargetFile(userId, isWatchlist);
-    let nextContent = fs.readFileSync(userFile, 'utf8');
-    const reviewOptions = ratingComment != null ? { ratingComment } : undefined;
-    for (const serie of toAdd) {
-      nextContent = appendObjectToArrayFile(userFile, formatUserSerie(serie, reviewOptions));
-      fs.writeFileSync(userFile, nextContent, 'utf8');
-    }
+    let appended = 0;
+    let mergedExisting = 0;
 
     const watchlistFiles = getUserWatchlistSeriesFiles(userId);
-    let updatedFile: string | null = null;
-    const title = normalizeString(toAdd[0].title, 'title');
-    const director = normalizeString(toAdd[0].director, 'director');
 
-    for (const serieFile of watchlistFiles) {
-      const fileContent = fs.readFileSync(serieFile, 'utf8');
-      try {
-        const updatedContent = removeSerieFromFile(fileContent, {
-          title,
-          director,
-        });
-        fs.writeFileSync(serieFile, updatedContent, 'utf8');
-        updatedFile = serieFile;
-        break;
-      } catch (error: any) {
-        if (error.message !== 'Serie not found') {
-          throw error;
+    for (const row of normalizedRows) {
+      const baseSerie = findBaseSerie(row.title!, row.director!);
+      const seasonsCountBase = baseSerie?.seasonsData?.length ?? 0;
+
+      const found = findExistingWatchedSerie(
+        userFiles,
+        row.title!,
+        row.director!
+      );
+
+      const serieSnapshot = found?.serie as
+        | {
+            seasons?: PayloadSeasonRow[];
+            borrowed?: unknown;
+            loaned?: unknown;
+          }
+        | undefined;
+      const existingSeasonsRaw: PayloadSeasonRow[] = Array.isArray(
+        serieSnapshot?.seasons
+      )
+        ? serieSnapshot.seasons
+        : [];
+
+      const inferred = resolveSeasonsCount(
+        seasonsCountBase,
+        row.payloadSeasons,
+        existingSeasonsRaw
+      );
+
+      const mergedSeasons = mergeWatchlistSeasonsToWatched({
+        seasonsCount: inferred,
+        payloadSeasons: row.payloadSeasons,
+        existingSeasons: existingSeasonsRaw,
+      });
+
+      if (found) {
+        let content = fs.readFileSync(found.filePath, 'utf8');
+        const snap = found.serie as {
+          seasons?: PayloadSeasonRow[];
+          borrowed?: unknown;
+          loaned?: unknown;
+        };
+        const borrowedPreserve =
+          typeof snap.borrowed === 'string' ? snap.borrowed : '';
+        const loanedPreserve =
+          typeof snap.loaned === 'string' ? snap.loaned : '';
+        const updatePayload = {
+          title: row.title,
+          director: row.director,
+          seasons: mergedSeasons,
+          borrowed: borrowedPreserve,
+          loaned: loanedPreserve,
+          ...(ratingComment !== undefined ? { ratingComment } : {}),
+        };
+        content = updateSerieInFile(content, updatePayload);
+        fs.writeFileSync(found.filePath, content, 'utf8');
+        mergedExisting += 1;
+      } else {
+        let nextContent = fs.readFileSync(userWatchedFile, 'utf8');
+        nextContent = appendObjectToArrayFile(
+          userWatchedFile,
+          formatUserSerie(
+            {
+              title: row.title,
+              director: row.director,
+              seasonsCount: seasonsCountBase,
+              watchPriority: 1,
+              borrowed:
+                row.borrowed !== undefined
+                  ? row.borrowed
+                  : '',
+              loaned:
+                row.loaned !== undefined
+                  ? row.loaned
+                  : '',
+            },
+            {
+              ...(ratingComment != null ? { ratingComment } : {}),
+              mergedSeasonRows: mergedSeasons,
+            }
+          )
+        );
+        fs.writeFileSync(userWatchedFile, nextContent, 'utf8');
+        appended += 1;
+      }
+
+      let removedFromWl: string | null = null;
+      for (const serieFile of watchlistFiles) {
+        const wlContent = fs.readFileSync(serieFile, 'utf8');
+        try {
+          const updatedWl = removeSerieFromFile(wlContent, {
+            title: row.title,
+            director: row.director,
+          });
+          fs.writeFileSync(serieFile, updatedWl, 'utf8');
+          removedFromWl = serieFile;
+          break;
+        } catch (error: any) {
+          if (error.message !== 'Serie not found') {
+            throw error;
+          }
         }
       }
-    }
 
-    if (!updatedFile) {
-      res.status(404).json({ error: 'Serie not found in watchlist' });
-      return;
+      if (!removedFromWl) {
+        res.status(404).json({ error: 'Serie not found in watchlist' });
+        return;
+      }
     }
 
     res.json({
       ok: true,
-      added: toAdd.length,
-      file: userFile,
+      added: appended,
+      merged: mergedExisting,
+      file: userWatchedFile,
     });
   } catch (error: any) {
     res.status(500).json({ error: error.message || 'Unknown error' });

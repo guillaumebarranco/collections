@@ -771,7 +771,9 @@ function updateSerieInFile(content: string, payload: SerieUpdatePayload) {
             'wantToWatchAgain',
             payload.wantToWatchAgain
           );
-          updated = upsertField(updated, 'ratingComment', payload.ratingComment ?? '');
+          if (payload.ratingComment !== undefined) {
+            updated = upsertField(updated, 'ratingComment', payload.ratingComment ?? '');
+          }
           updated = upsertField(
             updated,
             'borrowed',

@@ -129,12 +129,17 @@ export function getLastFullyWatchedSeasonNumber(serie: Serie): number {
 }
 
 /**
- * Horodatage (ms) le plus récent parmi les `lastViewedDate` des saisons.
+ * Horodatage (ms) le plus récent parmi les `lastViewedDate` des saisons
+ * avec visionnage réel (seasonTimesWatched > 0 : en cours ou terminé).
+ * Ignore les saisons à 0 même si une date parasite est présente (ex. padding UI).
  * 0 si aucune date valide (tri : séries sans historique en fin de liste).
  */
 export function getSerieLatestSeasonLastViewedTime(serie: Serie): number {
   let max = 0;
   for (const s of serie.seasons ?? []) {
+    if (Number(s.seasonTimesWatched ?? 0) <= 0) {
+      continue;
+    }
     const raw = s.lastViewedDate?.trim();
     if (!raw) continue;
     const t = new Date(raw).getTime();

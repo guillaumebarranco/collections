@@ -38,7 +38,8 @@ function buildSeasons(
         seasonNumber: existing.length + index + 1,
         seasonRating: 0,
         seasonTimesWatched: 0,
-        lastViewedDate: new Date().toISOString(),
+        /** Pas de date : la saison n’a pas été vue (évite de fausser le tri « visionnage récent »). */
+        lastViewedDate: '',
       })
     );
     return [...existing, ...missing];
@@ -47,7 +48,7 @@ function buildSeasons(
     seasonNumber: index + 1,
     seasonRating: 0,
     seasonTimesWatched: 0,
-    lastViewedDate: new Date().toISOString(),
+    lastViewedDate: '',
   }));
 }
 
