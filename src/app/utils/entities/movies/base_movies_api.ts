@@ -41,4 +41,29 @@ export const baseMoviesApi: BaseMovie[] = [
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
   },
+
+  {
+    title: "Michael",
+    director: "Antoine Fuqua",
+    actors: [
+      {
+        name: "Jaafar Jackson",
+      },
+      {
+        name: "Miles Teller",
+      },
+      {
+        name: "Colman Domingo",
+      },
+    ],
+    coverUrl: "https://m.media-amazon.com/images/M/MV5BNzllNmRlN2EtMDQyOC00ODJjLTg4OWQtZDNmNGU3YzlkNjc1XkEyXkFqcGc@._V1_.jpg",
+    releaseDate: "2026-04-22",
+    length: 127,
+    genre: ['Biographie'],
+    saga: "",
+    description: "",
+    fromEntity: null,
+    countryOrigin: ['États-Unis'],
+    selectDisplayOrder: 0,
+  },
 ];
