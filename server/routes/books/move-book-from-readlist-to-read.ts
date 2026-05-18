@@ -57,6 +57,8 @@ function formatUserBook(book: any, options?: { rating?: number; ratingComment?: 
   const readDate = `${year}-${month}-${day}`;
   const rating = options?.rating != null ? Number(options.rating) : 0;
   const ratingComment = typeof options?.ratingComment === 'string' ? options.ratingComment : '';
+  const borrowed = typeof book.borrowed === 'string' ? book.borrowed : '';
+  const loaned = typeof book.loaned === 'string' ? book.loaned : '';
 
   return `  {
     title: "${escapeString(book.title)}",
@@ -65,13 +67,49 @@ function formatUserBook(book: any, options?: { rating?: number; ratingComment?: 
     lastReadDate: "${readDate}",
     rating: ${rating},
     readTimes: 1,
-    owned: false,
-    borrowed: '',
-    loaned: '',
+    owned: ${book.owned ?? false},
+    borrowed: "${escapeString(borrowed)}",
+    loaned: "${escapeString(loaned)}",
     readPriority: ${book.readPriority ?? 1},
     wantToReadAgain: ${book.wantToReadAgain ?? false},
     ratingComment: "${escapeString(ratingComment)}",
   },`;
+}
+
+function findReadlistBook(userId: string, title: string, author: string) {
+  const readlistFiles = getUserReadlistBooksFiles(userId);
+  for (const bookFile of readlistFiles) {
+    const fileContent = fs.readFileSync(bookFile, 'utf8');
+    const books = parseBooksFromFile(fileContent);
+    const found = books.find(
+      (book: any) => book.title === title && book.author === author
+    );
+    if (found) {
+      return found;
+    }
+  }
+  return null;
+}
+
+function pickPreservedString(
+  readlistValue: string | undefined,
+  requestValue: string | undefined
+): string {
+  const fromReadlist = typeof readlistValue === 'string' ? readlistValue : '';
+  const fromRequest = typeof requestValue === 'string' ? requestValue : '';
+  return fromReadlist.trim() ? fromReadlist : fromRequest;
+}
+
+function mergeBookWithReadlistMetadata(requestBook: any, readlistBook: any | null) {
+  return {
+    ...requestBook,
+    borrowed: pickPreservedString(readlistBook?.borrowed, requestBook.borrowed),
+    loaned: pickPreservedString(readlistBook?.loaned, requestBook.loaned),
+    owned: readlistBook?.owned ?? requestBook.owned ?? false,
+    readPriority: requestBook.readPriority ?? readlistBook?.readPriority ?? 1,
+    wantToReadAgain:
+      requestBook.wantToReadAgain ?? readlistBook?.wantToReadAgain ?? false,
+  };
 }
 
 function formatReadlistBook(book: any) {
@@ -149,6 +187,9 @@ router.post('/move-book-from-readlist-to-read', (req: any, res: any) => {
         author: normalizeString(book.author, 'author'),
         readPriority: book.readPriority,
         wantToReadAgain: book.wantToReadAgain,
+        borrowed: typeof book.borrowed === 'string' ? book.borrowed : '',
+        loaned: typeof book.loaned === 'string' ? book.loaned : '',
+        owned: book.owned ?? false,
       }))
       .filter((book: any) => book.title && book.author);
 
@@ -183,9 +224,13 @@ router.post('/move-book-from-readlist-to-read', (req: any, res: any) => {
     let nextContent = fs.readFileSync(userFile, 'utf8');
     const reviewOptions = (rating != null || ratingComment != null) ? { rating, ratingComment } : undefined;
     for (const book of toAdd) {
+      const readlistBook = findReadlistBook(userId, book.title, book.author);
+      const bookWithMetadata = mergeBookWithReadlistMetadata(book, readlistBook);
       nextContent = appendObjectToArrayFile(
         userFile,
-        isReadlist ? formatReadlistBook(book) : formatUserBook(book, reviewOptions)
+        isReadlist
+          ? formatReadlistBook(bookWithMetadata)
+          : formatUserBook(bookWithMetadata, reviewOptions)
       );
       fs.writeFileSync(userFile, nextContent, 'utf8');
     }
