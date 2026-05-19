@@ -41,6 +41,37 @@
       color: #495057;
       text-align: center;
     }
+
+    .charts-section-header {
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      justify-content: center;
+      gap: 12px 20px;
+      margin-bottom: 15px;
+
+      h3 {
+        margin: 0;
+      }
+    }
+
+    .charts-section-option {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      font-size: 0.9rem;
+      font-weight: 500;
+      color: #495057;
+      cursor: pointer;
+      user-select: none;
+
+      input[type='checkbox'] {
+        width: 16px;
+        height: 16px;
+        cursor: pointer;
+        accent-color: #28a745;
+      }
+    }
   }
 
   .charts-section--wide {

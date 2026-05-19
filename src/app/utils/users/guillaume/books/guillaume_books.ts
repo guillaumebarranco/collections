@@ -34,8 +34,8 @@ export const guillaumeBooks: UserBooks = [
   {
     title: 'Castel Boy',
     author: 'Eny Heli',
-    firstReadDate: '2026-01-27',
-    lastReadDate: '',
+    firstReadDate: '2025-08-15',
+    lastReadDate: '2026-01-27',
     otherReadDates: [],
     rating: 5,
     readTimes: 2,
@@ -215,7 +215,7 @@ export const guillaumeBooks: UserBooks = [
     title: 'Le Comte de Monte-Cristo',
     author: 'Alexandre Dumas',
     firstReadDate: '2024-04-30',
-    lastReadDate: '2024-04-30',
+    lastReadDate: '2025-02-13',
     otherReadDates: [],
     rating: 5,
     readTimes: 2,
@@ -1403,7 +1403,7 @@ export const guillaumeBooks: UserBooks = [
   {
     title: 'Le Bro Code',
     author: 'Barney Stinson',
-    firstReadDate: '',
+    firstReadDate: '2012-08-30',
     lastReadDate: '',
     otherReadDates: [],
     rating: 3.5,

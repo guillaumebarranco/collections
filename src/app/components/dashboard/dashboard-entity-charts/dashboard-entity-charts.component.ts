@@ -30,6 +30,10 @@ import { DEFAULT_USER_ID } from '../../../utils/constants';
 import { getAllMovies } from '../../../facades/movies/movies.facade';
 import { getAllBooks } from '../../../facades/books/books.facade';
 import { getAllSeries } from '../../../facades/series/series.facade';
+import {
+  getBookReadYearsForChart,
+  getBookUndatedReadCountForChart,
+} from '../../../utils/book-read-dates.utils';
 
 export type EntityType =
   | 'books'
@@ -86,6 +90,9 @@ export class DashboardEntityChartsComponent implements OnInit, AfterViewInit {
   moviesList = signal<{ [key: string]: Movie[] }>({});
   booksList = signal<{ [key: string]: Book[] }>({});
   seriesList = signal<{ [key: string]: Serie[] }>({});
+
+  /** Inclure les relectures (lastReadDate + otherReadDates) dans le graphique livres. */
+  showBookRereads = signal(true);
 
   @ViewChild('moviesWatchedChart')
   moviesWatchedChart?: ElementRef<HTMLDivElement>;
@@ -196,13 +203,15 @@ export class DashboardEntityChartsComponent implements OnInit, AfterViewInit {
     const counts = new Map<number, number>();
     years.forEach((year) => counts.set(year, 0));
 
+    const includeRereads = this.showBookRereads();
     const uniqueBooks = this.getUniqueBooks(this.allBooks());
     uniqueBooks.forEach((book) => {
-      const year = this.getBookReadYear(book);
-      if (year === null || year < startYear || year > endYear) {
-        return;
-      }
-      counts.set(year, (counts.get(year) || 0) + 1);
+      getBookReadYearsForChart(book, includeRereads).forEach((year) => {
+        if (year < startYear || year > endYear) {
+          return;
+        }
+        counts.set(year, (counts.get(year) || 0) + 1);
+      });
     });
 
     return years.map((year) => ({
@@ -213,6 +222,29 @@ export class DashboardEntityChartsComponent implements OnInit, AfterViewInit {
 
   booksReadTotal = computed(() => {
     return this.booksReadByYear().reduce((sum, item) => sum + item.count, 0);
+  });
+
+  booksUndatedReadsTotal = computed(() => {
+    if (!this.showBookRereads()) {
+      return 0;
+    }
+    return this.getUniqueBooks(this.allBooks()).reduce(
+      (sum, book) => sum + getBookUndatedReadCountForChart(book),
+      0
+    );
+  });
+
+  booksReadTotalFootnote = computed(() => {
+    if (!this.showBookRereads()) {
+      return '(sans compter les relectures)';
+    }
+    const undated = this.booksUndatedReadsTotal();
+    if (undated <= 0) {
+      return '(avec relectures)';
+    }
+    const label =
+      undated === 1 ? 'lecture non datée' : 'lectures non datées';
+    return `(avec relectures) (sans compter les ${undated} ${label})`;
   });
 
   /** Saisons visionnées par an (basé sur lastViewedDate de chaque saison). */
@@ -274,6 +306,11 @@ export class DashboardEntityChartsComponent implements OnInit, AfterViewInit {
     );
   }
 
+  onShowBookRereadsChange(event: Event): void {
+    const checked = (event.target as HTMLInputElement).checked;
+    this.showBookRereads.set(checked);
+  }
+
   constructor() {
     effect(() => {
       if (!this.embedded()) {
@@ -286,6 +323,17 @@ export class DashboardEntityChartsComponent implements OnInit, AfterViewInit {
       this.seriesSeasonsViewedByYear();
       untracked(() => {
         requestAnimationFrame(() => this.refreshChartsForEntity(entity));
+      });
+    });
+
+    effect(() => {
+      this.booksReadByYear();
+      this.showBookRereads();
+      if (this.effectiveEntity() !== 'books') {
+        return;
+      }
+      untracked(() => {
+        requestAnimationFrame(() => this.renderBooksReadChart());
       });
     });
   }
@@ -367,18 +415,6 @@ export class DashboardEntityChartsComponent implements OnInit, AfterViewInit {
       return null;
     }
     const year = new Date(dateValue).getFullYear();
-    if (Number.isNaN(year)) {
-      return null;
-    }
-    return year;
-  }
-
-  private getBookReadYear(book: Book): number | null {
-    const dateStr = book.lastReadDate || book.firstReadDate;
-    if (!dateStr) {
-      return null;
-    }
-    const year = new Date(dateStr).getFullYear();
     if (Number.isNaN(year)) {
       return null;
     }
