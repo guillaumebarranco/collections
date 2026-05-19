@@ -39,6 +39,7 @@ function formatUserBook(user: any): string {
     author: "${escapeString(user.author)}",
     firstReadDate: "${escapeString(user.firstReadDate || '')}",
     lastReadDate: "${escapeString(user.lastReadDate || '')}",
+    otherReadDates: [],
     rating: ${user.rating ?? 0},
     readTimes: ${user.readTimes ?? 1},
     owned: ${user.owned ?? false},

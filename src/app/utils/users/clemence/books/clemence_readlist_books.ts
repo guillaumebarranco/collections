@@ -6,6 +6,7 @@ export const clemenceReadListBooks: UserBook[] = [
     author: "Léon Tolstoï",
     firstReadDate: '',
     lastReadDate: '',
+    otherReadDates: [],
     rating: 0,
     readTimes: 1,
     owned: false,

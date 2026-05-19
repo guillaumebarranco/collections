@@ -52,6 +52,7 @@ export const getBookDataFromUserBookAndBaseBook = (
   rating: userBook.rating,
   firstReadDate: userBook.firstReadDate,
   lastReadDate: userBook.lastReadDate,
+  otherReadDates: userBook.otherReadDates ?? [],
   readTimes: userBook.readTimes,
   coverUrl: baseBook?.coverUrl || '',
   pages: baseBook?.pages || 0,

@@ -85,6 +85,62 @@ function parseGenreField(objectText: string): string[] {
     .filter(Boolean);
 }
 
+function parseStringArrayField(objectText: string, key: string): string[] {
+  const keyIndex = objectText.indexOf(key);
+  if (keyIndex === -1) return [];
+  const afterKey = objectText.slice(keyIndex + key.length);
+  const bracketStart = afterKey.indexOf('[');
+  if (bracketStart === -1) return [];
+  let depth = 1;
+  let i = bracketStart + 1;
+  while (i < afterKey.length && depth > 0) {
+    const c = afterKey[i];
+    if (c === '[') depth += 1;
+    else if (c === ']') depth -= 1;
+    i += 1;
+  }
+  const inner = afterKey.slice(bracketStart + 1, i - 1);
+  if (!inner.trim()) return [];
+  const regex = /(['"])((?:\\.|(?!\1).)*)\1/g;
+  const result: string[] = [];
+  let match = regex.exec(inner);
+  while (match) {
+    const quote = match[1];
+    const raw = match[2];
+    result.push(
+      quote === '"'
+        ? raw.replace(/\\"/g, '"').replace(/\\\\/g, '\\')
+        : raw.replace(/\\'/g, "'").replace(/\\\\/g, '\\')
+    );
+    match = regex.exec(inner);
+  }
+  return result;
+}
+
+function formatOtherReadDatesTs(dates: string[] | undefined): string {
+  if (!Array.isArray(dates) || dates.length === 0) {
+    return '[]';
+  }
+  const parts = dates.map((d) => `"${escapeString(d)}"`);
+  return `[${parts.join(', ')}]`;
+}
+
+function upsertOtherReadDatesField(objectText: string, dates: string[]) {
+  const serialized = formatOtherReadDatesTs(dates);
+  const existingRegex = /otherReadDates\s*:\s*\[[\s\S]*?\]/;
+  if (existingRegex.test(objectText)) {
+    return objectText.replace(existingRegex, `otherReadDates: ${serialized}`);
+  }
+  const afterLastReadDate = /(lastReadDate\s*:\s*(?:'[^']*'|"[^"]*"),)\n/;
+  if (afterLastReadDate.test(objectText)) {
+    return objectText.replace(
+      afterLastReadDate,
+      `$1    otherReadDates: ${serialized},\n`
+    );
+  }
+  return objectText.replace(/\}\s*$/, `    otherReadDates: ${serialized},\n  }`);
+}
+
 function normalizeGenre(value: unknown): string[] {
   if (value === undefined || value === null) return [];
   if (Array.isArray(value)) {
@@ -141,6 +197,7 @@ function parseBooksFromFile(content: string): UserBook[] {
             readTimes: parseNumberField(objectText, 'readTimes') ?? 0,
             firstReadDate: parseStringField(objectText, 'firstReadDate') ?? '',
             lastReadDate: parseStringField(objectText, 'lastReadDate') ?? '',
+            otherReadDates: parseStringArrayField(objectText, 'otherReadDates'),
             owned: parseBooleanField(objectText, 'owned') ?? false,
             borrowed:
               parseStringField(objectText, 'borrowed') ??
@@ -474,6 +531,12 @@ function updateBookInFile(content: string, payload: BookUpdatePayload) {
             payload.firstReadDate
           );
           updated = replaceField(updated, 'lastReadDate', payload.lastReadDate);
+          if (payload.otherReadDates !== undefined) {
+            updated = upsertOtherReadDatesField(
+              updated,
+              Array.isArray(payload.otherReadDates) ? payload.otherReadDates : []
+            );
+          }
           updated = replaceField(updated, 'owned', payload.owned);
           updated = upsertField(updated, 'borrowed', payload.borrowed);
           updated = upsertField(updated, 'loaned', payload.loaned);
@@ -701,6 +764,7 @@ function removeBookFromFile(content: string, payload: BookRemovePayload) {
     author: "${escapeString(book.author)}",
     firstReadDate: "${escapeString(book.firstReadDate || '')}",
     lastReadDate: "${escapeString(book.lastReadDate || '')}",
+    otherReadDates: ${formatOtherReadDatesTs(book.otherReadDates)},
     rating: ${book.rating ?? 0},
     readTimes: ${book.readTimes ?? 0},
     owned: ${book.owned ?? false},

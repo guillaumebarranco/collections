@@ -62,6 +62,7 @@ export const getFullBook = (book: BaseBook): Book => ({
   rating: 0,
   firstReadDate: '',
   lastReadDate: '',
+  otherReadDates: [],
   readTimes: 0,
   owned: false,
   borrowed: '',

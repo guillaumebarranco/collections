@@ -35,6 +35,7 @@ export const getEmptyBook = (book: BaseBook): Book => ({
   loaned: '',
   firstReadDate: '',
   lastReadDate: '',
+  otherReadDates: [],
   rating: 0,
   readPriority: 1,
   sagaFinished: false,

@@ -59,12 +59,20 @@ function formatUserBook(book: any, options?: { rating?: number; ratingComment?: 
   const ratingComment = typeof options?.ratingComment === 'string' ? options.ratingComment : '';
   const borrowed = typeof book.borrowed === 'string' ? book.borrowed : '';
   const loaned = typeof book.loaned === 'string' ? book.loaned : '';
+  const otherReadDates = Array.isArray(book.otherReadDates)
+    ? book.otherReadDates
+    : [];
+  const otherReadDatesTs =
+    otherReadDates.length === 0
+      ? '[]'
+      : `[${otherReadDates.map((d: string) => `"${escapeString(d)}"`).join(', ')}]`;
 
   return `  {
     title: "${escapeString(book.title)}",
     author: "${escapeString(book.author)}",
     firstReadDate: "${readDate}",
     lastReadDate: "${readDate}",
+    otherReadDates: ${otherReadDatesTs},
     rating: ${rating},
     readTimes: 1,
     owned: ${book.owned ?? false},
@@ -100,12 +108,27 @@ function pickPreservedString(
   return fromReadlist.trim() ? fromReadlist : fromRequest;
 }
 
+function pickPreservedOtherReadDates(
+  readlistValue: string[] | undefined,
+  requestValue: string[] | undefined
+): string[] {
+  const fromReadlist = Array.isArray(readlistValue) ? readlistValue : [];
+  if (fromReadlist.length > 0) {
+    return fromReadlist;
+  }
+  return Array.isArray(requestValue) ? requestValue : [];
+}
+
 function mergeBookWithReadlistMetadata(requestBook: any, readlistBook: any | null) {
   return {
     ...requestBook,
     borrowed: pickPreservedString(readlistBook?.borrowed, requestBook.borrowed),
     loaned: pickPreservedString(readlistBook?.loaned, requestBook.loaned),
     owned: readlistBook?.owned ?? requestBook.owned ?? false,
+    otherReadDates: pickPreservedOtherReadDates(
+      readlistBook?.otherReadDates,
+      requestBook.otherReadDates
+    ),
     readPriority: requestBook.readPriority ?? readlistBook?.readPriority ?? 1,
     wantToReadAgain:
       requestBook.wantToReadAgain ?? readlistBook?.wantToReadAgain ?? false,
@@ -118,6 +141,7 @@ function formatReadlistBook(book: any) {
     author: "${escapeString(book.author)}",
     firstReadDate: '',
     lastReadDate: '',
+    otherReadDates: [],
     rating: 0,
     readTimes: 0,
     owned: false,
@@ -190,6 +214,7 @@ router.post('/move-book-from-readlist-to-read', (req: any, res: any) => {
         borrowed: typeof book.borrowed === 'string' ? book.borrowed : '',
         loaned: typeof book.loaned === 'string' ? book.loaned : '',
         owned: book.owned ?? false,
+        otherReadDates: Array.isArray(book.otherReadDates) ? book.otherReadDates : [],
       }))
       .filter((book: any) => book.title && book.author);
 
