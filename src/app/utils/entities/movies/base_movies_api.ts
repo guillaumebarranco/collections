@@ -66,4 +66,79 @@ export const baseMoviesApi: BaseMovie[] = [
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
   },
+
+  {
+    title: "Jim Queen",
+    director: "Marco Nguyen, Nicolas Athané",
+    actors: [
+      {
+        name: "Alex Ramirez",
+      },
+      {
+        name: "Jérémy Gillet",
+      },
+      {
+        name: "François Sagat",
+      },
+    ],
+    coverUrl: "https://www.thejokersfilms.com/app/uploads/2025/12/jq_posterweb_BD-773x1024.jpg",
+    releaseDate: "2026-06-17",
+    length: 80,
+    genre: ['Comédie', 'Animation'],
+    saga: "",
+    description: "",
+    fromEntity: null,
+    countryOrigin: ['France'],
+    selectDisplayOrder: 0,
+  },
+
+  {
+    title: "Fjord",
+    director: "Cristian Mungiu",
+    actors: [
+      {
+        name: "Sebastian Stan",
+      },
+      {
+        name: "Renate Reinsve",
+      },
+    ],
+    coverUrl: "https://m.media-amazon.com/images/M/MV5BZTIzNTNhNDUtMjY4MC00ODk5LWE3NGQtYjRhZWIzMWViMzc5XkEyXkFqcGc@._V1_.jpg",
+    releaseDate: "2026-08-19",
+    length: 146,
+    genre: ['Drame'],
+    saga: "",
+    description: "",
+    fromEntity: null,
+    countryOrigin: ['Norvège', 'Roumanie'],
+    selectDisplayOrder: 0,
+  },
+
+  {
+    title: "Her Private Hell",
+    director: "Nicolas Winding Refn",
+    actors: [
+      {
+        name: "Sophie Thatcher",
+      },
+      {
+        name: "Charles Melton",
+      },
+      {
+        name: "Diego Calva",
+      },
+      {
+        name: "Havana Rose Liu",
+      },
+    ],
+    coverUrl: "https://m.media-amazon.com/images/M/MV5BNTI5MTZkMWQtZTA2OS00MGMzLTgzNzAtMDE4MWM4ZGVmYjZhXkEyXkFqcGc@._V1_.jpg",
+    releaseDate: "",
+    length: 109,
+    genre: ['Science Fiction', 'Drame'],
+    saga: "",
+    description: "",
+    fromEntity: null,
+    countryOrigin: ['États-Unis', 'Danemark'],
+    selectDisplayOrder: 0,
+  },
 ];
