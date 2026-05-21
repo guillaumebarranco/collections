@@ -136,7 +136,8 @@ export class SelectSeriesComponent
           seasonNumber: index + 1,
           seasonRating: 0,
           seasonTimesWatched: 0,
-          lastViewedDate: new Date().toISOString(),
+          firstViewedDate: '',
+          lastViewedDate: '',
         })
       ),
       owned: false,

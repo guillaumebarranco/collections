@@ -28,6 +28,7 @@ import {
 } from '../../modals/move-entity-review-modal/move-entity-review-modal.component';
 import { MovieCommunityWatchersModalComponent } from '../../modals/movie-community-watchers-modal/movie-community-watchers-modal.component';
 import { AuthService } from '../../../core/auth.service';
+import { isBookApproximateReadDate } from '../../../utils/approximate-date-badges.utils';
 
 @Component({
   selector: 'app-book',
@@ -50,6 +51,10 @@ export class BookComponent {
   private readonly authService = inject(AuthService);
 
   @Input() book!: any;
+
+  get showApproximateDateBadge(): boolean {
+    return isBookApproximateReadDate(this.book);
+  }
 
   @Input() readOnly = false;
   @Input() recommendationText = '';

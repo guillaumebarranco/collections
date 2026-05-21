@@ -281,11 +281,13 @@ function parseSeasonsField(objectText: string) {
     const seasonRating = parseNumberField(entry, 'seasonRating') ?? 0;
     const seasonTimesWatched =
       parseNumberField(entry, 'seasonTimesWatched') ?? 0;
+    const firstViewedDate = parseStringField(entry, 'firstViewedDate') ?? '';
     const lastViewedDate = parseStringField(entry, 'lastViewedDate') ?? '';
     seasons.push({
       seasonNumber,
       seasonRating,
       seasonTimesWatched,
+      firstViewedDate,
       lastViewedDate,
     });
   }
@@ -700,6 +702,7 @@ function formatSeasons(seasons: UserSerieSeason[]) {
     const seasonNumber = Number(season?.seasonNumber ?? 0);
     const seasonRating = Number(season?.seasonRating ?? 0);
     const seasonTimesWatched = Number(season?.seasonTimesWatched ?? 0);
+    const firstViewedDate = `${season?.firstViewedDate ?? ''}`;
     const lastViewedDate = `${season?.lastViewedDate ?? ''}`;
     return `    {
       seasonNumber: ${Number.isNaN(seasonNumber) ? 0 : seasonNumber},
@@ -707,6 +710,7 @@ function formatSeasons(seasons: UserSerieSeason[]) {
       seasonTimesWatched: ${
         Number.isNaN(seasonTimesWatched) ? 0 : seasonTimesWatched
       },
+      firstViewedDate: "${escapeString(firstViewedDate)}",
       lastViewedDate: "${escapeString(lastViewedDate)}",
     }`;
   });

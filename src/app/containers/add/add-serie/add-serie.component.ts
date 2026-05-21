@@ -39,6 +39,7 @@ type AddSerieUserForm = {
     seasonNumber: number;
     seasonRating: number;
     seasonTimesWatched: number;
+    firstViewedDate: string;
     lastViewedDate: string;
   }[];
   ratingComment: string;
@@ -119,6 +120,7 @@ export class AddSerieComponent {
           seasonNumber: nextNumber,
           seasonRating: 0,
           seasonTimesWatched: 0,
+          firstViewedDate: '',
           lastViewedDate: '',
         },
       ],
@@ -185,7 +187,7 @@ export class AddSerieComponent {
 
   updateUserSeasonField(
     index: number,
-    field: 'seasonRating' | 'seasonTimesWatched' | 'lastViewedDate',
+    field: 'seasonRating' | 'seasonTimesWatched' | 'firstViewedDate' | 'lastViewedDate',
     value: string | number
   ) {
     const current = this.userForm();
@@ -194,7 +196,7 @@ export class AddSerieComponent {
         ? {
             ...season,
             [field]:
-              field === 'lastViewedDate'
+              field === 'firstViewedDate' || field === 'lastViewedDate'
                 ? String(value)
                 : Number.isNaN(Number(value))
                 ? 0

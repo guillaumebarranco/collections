@@ -7,6 +7,11 @@ import type { Manwha } from '../models/manwha-model';
 import type { Serie } from '../models/serie-model';
 import type { Game } from '../models/game-model';
 import type { Music } from '../models/music-model';
+import {
+  isBdApproximateReadDate,
+  isBookApproximateReadDate,
+  isMovieApproximateViewDate,
+} from './approximate-date-badges.utils';
 
 export type ActivityCounts = {
   books: number;
@@ -18,14 +23,43 @@ export type ActivityCounts = {
   series: number;
 };
 
+export type ActivityMovieViewBadge = 'first' | 'rewatch';
+
+export type ActivityMovieSample = {
+  line: string;
+  viewBadge: ActivityMovieViewBadge;
+  showCinemaBadge: boolean;
+  showApproximateDateBadge: boolean;
+};
+
+export type ActivityBookReadBadge = 'first' | 'reread';
+
+export type ActivityBookSample = {
+  line: string;
+  readBadge: ActivityBookReadBadge;
+  showApproximateDateBadge: boolean;
+};
+
+export type ActivityBdSample = {
+  line: string;
+  showApproximateDateBadge: boolean;
+};
+
+export type ActivitySerieViewBadge = 'first' | 'rewatch';
+
+export type ActivitySerieSample = {
+  line: string;
+  viewBadge: ActivitySerieViewBadge;
+};
+
 export type ActivitySamples = {
-  books: string[];
+  books: ActivityBookSample[];
   mangas: string[];
   comics: string[];
-  bds: string[];
+  bds: ActivityBdSample[];
   manwhas: string[];
-  movies: string[];
-  series: string[];
+  movies: ActivityMovieSample[];
+  series: ActivitySerieSample[];
 };
 
 export type ActivityWindowResult = {
@@ -163,18 +197,98 @@ function takeSampleTitles(titles: string[]): string[] {
   return titles.slice(0, MAX_SAMPLES);
 }
 
-function bookActivityDate(book: Book): Date | null {
-  return (
-    parseActivityDate(book.lastReadDate) ??
-    parseActivityDate(book.firstReadDate)
-  );
+function takeMovieSamples(samples: ActivityMovieSample[]): ActivityMovieSample[] {
+  return samples.slice(0, MAX_SAMPLES);
 }
 
-function movieActivityDate(movie: Movie): Date | null {
-  return (
-    parseActivityDate(movie.lastViewedDate) ??
-    parseActivityDate(movie.firstViewedDate)
+function takeBookSamples(samples: ActivityBookSample[]): ActivityBookSample[] {
+  return samples.slice(0, MAX_SAMPLES);
+}
+
+function takeBdSamples(samples: ActivityBdSample[]): ActivityBdSample[] {
+  return samples.slice(0, MAX_SAMPLES);
+}
+
+function takeSerieSamples(samples: ActivitySerieSample[]): ActivitySerieSample[] {
+  return samples.slice(0, MAX_SAMPLES);
+}
+
+function formatBdSample(bd: Bd): ActivityBdSample {
+  return {
+    line: `${bd.title} — ${bd.writer}`,
+    showApproximateDateBadge: isBdApproximateReadDate(bd),
+  };
+}
+
+function formatBookSample(
+  book: Book,
+  rangeStart: Date,
+  rangeEnd: Date,
+): ActivityBookSample {
+  const first = parseActivityDate(book.firstReadDate);
+  const firstInRange = Boolean(
+    first && isInInclusiveRange(first, rangeStart, rangeEnd),
   );
+  return {
+    line: `${book.title} — ${book.author}`,
+    readBadge: firstInRange ? 'first' : 'reread',
+    showApproximateDateBadge: isBookApproximateReadDate(book),
+  };
+}
+
+function formatMovieSample(
+  movie: Movie,
+  rangeStart: Date,
+  rangeEnd: Date,
+): ActivityMovieSample {
+  const first = parseActivityDate(movie.firstViewedDate);
+  const firstInRange = Boolean(
+    first && isInInclusiveRange(first, rangeStart, rangeEnd),
+  );
+  return {
+    line: `${movie.title} — ${movie.director}`,
+    viewBadge: firstInRange ? 'first' : 'rewatch',
+    showCinemaBadge: Boolean(movie.seenAtCinema && firstInRange),
+    showApproximateDateBadge: isMovieApproximateViewDate(movie),
+  };
+}
+
+function bookHasActivityInRange(
+  book: Book,
+  rangeStart: Date,
+  rangeEnd: Date,
+): boolean {
+  if ((book.readTimes ?? 0) <= 0) {
+    return false;
+  }
+  const dates = [
+    book.firstReadDate,
+    book.lastReadDate,
+    ...(book.otherReadDates ?? []),
+  ];
+  return dates.some((raw) => {
+    const d = parseActivityDate(raw);
+    return Boolean(d && isInInclusiveRange(d, rangeStart, rangeEnd));
+  });
+}
+
+function movieHasActivityInRange(
+  movie: Movie,
+  rangeStart: Date,
+  rangeEnd: Date,
+): boolean {
+  if ((movie.timesWatched ?? 0) <= 0) {
+    return false;
+  }
+  const dates = [
+    movie.firstViewedDate,
+    movie.lastViewedDate,
+    ...(movie.otherSeenDates ?? []),
+  ];
+  return dates.some((raw) => {
+    const d = parseActivityDate(raw);
+    return Boolean(d && isInInclusiveRange(d, rangeStart, rangeEnd));
+  });
 }
 
 function readItemActivityDate(item: {
@@ -183,22 +297,29 @@ function readItemActivityDate(item: {
   return parseActivityDate(item.readDate);
 }
 
+function seasonHasActivityInRange(
+  season: Serie['seasons'][number],
+  rangeStart: Date,
+  rangeEnd: Date,
+): boolean {
+  if ((season.seasonTimesWatched ?? 0) <= 0) {
+    return false;
+  }
+  const dates = [season.firstViewedDate, season.lastViewedDate];
+  return dates.some((raw) => {
+    const d = parseActivityDate(raw);
+    return Boolean(d && isInInclusiveRange(d, rangeStart, rangeEnd));
+  });
+}
+
 function serieHasActivityInRange(
   serie: Serie,
   rangeStart: Date,
   rangeEnd: Date
 ): boolean {
-  for (const s of serie.seasons ?? []) {
-    const times = s.seasonTimesWatched ?? 0;
-    if (times <= 0) {
-      continue;
-    }
-    const d = parseActivityDate(s.lastViewedDate);
-    if (d && isInInclusiveRange(d, rangeStart, rangeEnd)) {
-      return true;
-    }
-  }
-  return false;
+  return (serie.seasons ?? []).some((s) =>
+    seasonHasActivityInRange(s, rangeStart, rangeEnd),
+  );
 }
 
 function formatSerieSampleLine(
@@ -207,14 +328,7 @@ function formatSerieSampleLine(
   rangeEnd: Date
 ): string {
   const seasonNums = (serie.seasons ?? [])
-    .filter((s) => {
-      const times = s.seasonTimesWatched ?? 0;
-      if (times <= 0) {
-        return false;
-      }
-      const d = parseActivityDate(s.lastViewedDate);
-      return Boolean(d && isInInclusiveRange(d, rangeStart, rangeEnd));
-    })
+    .filter((s) => seasonHasActivityInRange(s, rangeStart, rangeEnd))
     .map((s) => s.seasonNumber)
     .sort((a, b) => a - b);
 
@@ -226,6 +340,24 @@ function formatSerieSampleLine(
     return `${base} — saison ${seasonNums[0]}`;
   }
   return `${base} — saisons ${seasonNums.join(', ')}`;
+}
+
+function formatSerieSample(
+  serie: Serie,
+  rangeStart: Date,
+  rangeEnd: Date,
+): ActivitySerieSample {
+  const activeSeasons = (serie.seasons ?? []).filter((s) =>
+    seasonHasActivityInRange(s, rangeStart, rangeEnd),
+  );
+  const firstInRange = activeSeasons.some((s) => {
+    const first = parseActivityDate(s.firstViewedDate);
+    return Boolean(first && isInInclusiveRange(first, rangeStart, rangeEnd));
+  });
+  return {
+    line: formatSerieSampleLine(serie, rangeStart, rangeEnd),
+    viewBadge: firstInRange ? 'first' : 'rewatch',
+  };
 }
 
 export function computeActivityInRange(
@@ -241,14 +373,9 @@ export function computeActivityInRange(
   rangeStart: Date,
   rangeEnd: Date
 ): ActivityWindowResult {
-  const b = books.filter((book) => {
-    const rt = book.readTimes ?? 0;
-    if (rt <= 0) {
-      return false;
-    }
-    const d = bookActivityDate(book);
-    return Boolean(d && isInInclusiveRange(d, rangeStart, rangeEnd));
-  });
+  const b = books.filter((book) =>
+    bookHasActivityInRange(book, rangeStart, rangeEnd),
+  );
   const mg = mangas.filter((m) => {
     const rt = m.readTimes ?? 0;
     if (rt <= 0) {
@@ -281,13 +408,9 @@ export function computeActivityInRange(
     const d = readItemActivityDate(x);
     return Boolean(d && isInInclusiveRange(d, rangeStart, rangeEnd));
   });
-  const mv = movies.filter((movie) => {
-    if ((movie.timesWatched ?? 0) <= 0) {
-      return false;
-    }
-    const d = movieActivityDate(movie);
-    return Boolean(d && isInInclusiveRange(d, rangeStart, rangeEnd));
-  });
+  const mv = movies.filter((movie) =>
+    movieHasActivityInRange(movie, rangeStart, rangeEnd),
+  );
   const sr = series.filter((serie) =>
     serieHasActivityInRange(serie, rangeStart, rangeEnd),
   );
@@ -303,17 +426,322 @@ export function computeActivityInRange(
       series: sr.length,
     },
     samples: {
-      books: takeSampleTitles(b.map((x) => `${x.title} — ${x.author}`)),
+      books: takeBookSamples(
+        b.map((x) => formatBookSample(x, rangeStart, rangeEnd)),
+      ),
       mangas: takeSampleTitles(mg.map((x) => `${x.title} — ${x.author}`)),
       comics: takeSampleTitles(c.map((x) => `${x.title} — ${x.writer}`)),
-      bds: takeSampleTitles(bd.map((x) => `${x.title} — ${x.writer}`)),
+      bds: takeBdSamples(bd.map((x) => formatBdSample(x))),
       manwhas: takeSampleTitles(mw.map((x) => `${x.title} — ${x.author}`)),
-      movies: takeSampleTitles(mv.map((x) => `${x.title} — ${x.director}`)),
-      series: takeSampleTitles(
-        sr.map((x) => formatSerieSampleLine(x, rangeStart, rangeEnd)),
+      movies: takeMovieSamples(
+        mv.map((x) => formatMovieSample(x, rangeStart, rangeEnd)),
+      ),
+      series: takeSerieSamples(
+        sr.map((x) => formatSerieSample(x, rangeStart, rangeEnd)),
       ),
     },
   };
+}
+
+function dateToDayKey(d: Date): string {
+  return `${d.getFullYear()}-${String(d.getMonth() + 1).padStart(2, '0')}-${String(d.getDate()).padStart(2, '0')}`;
+}
+
+export type ActivityDurationTotals = {
+  readingMinutes: number;
+  viewingMinutes: number;
+};
+
+const MINUTES_PER_PAGE = 2;
+const MINUTES_PER_MANGA_TOME = 30;
+const MINUTES_PER_MANWHA_CHAPTER = 15;
+const MINUTES_PER_DAY = 24 * 60;
+const DEFAULT_MOVIE_MINUTES = 90;
+const DEFAULT_READ_SESSION_MINUTES = 60;
+
+function addSessionMinutesInRange(
+  totalMinutes: number,
+  seenSessions: Set<string>,
+  dedupeKey: string,
+  raw: string | undefined | null,
+  rangeStart: Date,
+  rangeEnd: Date,
+  sessionMinutes: number,
+): number {
+  const d = parseActivityDate(raw);
+  if (!d || !isInInclusiveRange(d, rangeStart, rangeEnd)) {
+    return totalMinutes;
+  }
+  const sessionKey = `${dedupeKey}|${dateToDayKey(d)}`;
+  if (seenSessions.has(sessionKey)) {
+    return totalMinutes;
+  }
+  seenSessions.add(sessionKey);
+  return totalMinutes + Math.max(0, sessionMinutes);
+}
+
+function bookSessionMinutes(book: Book): number {
+  const pages = book.pages ?? 0;
+  const readTimes = Math.max(1, book.readTimes ?? 1);
+  if (pages > 0) {
+    return (pages / readTimes) * MINUTES_PER_PAGE;
+  }
+  return DEFAULT_READ_SESSION_MINUTES;
+}
+
+function pagesItemSessionMinutes(
+  pages: number,
+  readTimes: number,
+): number {
+  const rt = Math.max(1, readTimes);
+  if (pages > 0) {
+    return (pages / rt) * MINUTES_PER_PAGE;
+  }
+  return DEFAULT_READ_SESSION_MINUTES;
+}
+
+function mangaSessionMinutes(manga: Manga): number {
+  const tomes = manga.nbTomes ?? 0;
+  const readTimes = Math.max(1, manga.readTimes ?? 1);
+  if (tomes > 0) {
+    return (tomes / readTimes) * MINUTES_PER_MANGA_TOME;
+  }
+  return DEFAULT_READ_SESSION_MINUTES;
+}
+
+function manwhaSessionMinutes(manwha: Manwha): number {
+  const chapters = manwha.nbChapters ?? 0;
+  const readTimes = Math.max(1, manwha.readTimes ?? 1);
+  if (chapters > 0) {
+    return (chapters / readTimes) * MINUTES_PER_MANWHA_CHAPTER;
+  }
+  return DEFAULT_READ_SESSION_MINUTES;
+}
+
+function movieSessionMinutes(movie: Movie): number {
+  return movie.length > 0 ? movie.length : DEFAULT_MOVIE_MINUTES;
+}
+
+function serieSeasonSessionMinutes(serie: Serie, seasonNumber: number): number {
+  const seasonData = serie.seasonsData?.find(
+    (s) => s.seasonNumber === seasonNumber,
+  );
+  const totalLength = seasonData?.totalLength ?? 0;
+  const userSeason = serie.seasons?.find((s) => s.seasonNumber === seasonNumber);
+  const times = Math.max(1, userSeason?.seasonTimesWatched ?? 1);
+  if (totalLength > 0) {
+    return totalLength / times;
+  }
+  return DEFAULT_MOVIE_MINUTES;
+}
+
+/** Temps cumulé de lecture et de visionnage sur la période (minutes). */
+export function computeActivityDurationInRange(
+  books: Book[],
+  mangas: Manga[],
+  comics: Comic[],
+  bds: Bd[],
+  manwhas: Manwha[],
+  movies: Movie[],
+  series: Serie[],
+  rangeStart: Date,
+  rangeEnd: Date,
+): ActivityDurationTotals {
+  const readingSeen = new Set<string>();
+  const viewingSeen = new Set<string>();
+  let readingMinutes = 0;
+  let viewingMinutes = 0;
+
+  for (const book of books) {
+    if ((book.readTimes ?? 0) <= 0) {
+      continue;
+    }
+    const key = `book|${book.title}|${book.author}`;
+    const session = bookSessionMinutes(book);
+    readingMinutes = addSessionMinutesInRange(
+      readingMinutes,
+      readingSeen,
+      key,
+      book.firstReadDate,
+      rangeStart,
+      rangeEnd,
+      session,
+    );
+    readingMinutes = addSessionMinutesInRange(
+      readingMinutes,
+      readingSeen,
+      key,
+      book.lastReadDate,
+      rangeStart,
+      rangeEnd,
+      session,
+    );
+    for (const raw of book.otherReadDates ?? []) {
+      readingMinutes = addSessionMinutesInRange(
+        readingMinutes,
+        readingSeen,
+        key,
+        raw,
+        rangeStart,
+        rangeEnd,
+        session,
+      );
+    }
+  }
+
+  for (const item of mangas) {
+    if ((item.readTimes ?? 0) <= 0) {
+      continue;
+    }
+    const key = `manga|${item.title}|${item.author}`;
+    const session = mangaSessionMinutes(item);
+    readingMinutes = addSessionMinutesInRange(
+      readingMinutes,
+      readingSeen,
+      key,
+      item.readDate,
+      rangeStart,
+      rangeEnd,
+      session,
+    );
+  }
+
+  for (const item of comics) {
+    if ((item.readTimes ?? 0) <= 0) {
+      continue;
+    }
+    const key = `comic|${item.title}|${item.writer}`;
+    const session = pagesItemSessionMinutes(item.pages ?? 0, item.readTimes ?? 1);
+    readingMinutes = addSessionMinutesInRange(
+      readingMinutes,
+      readingSeen,
+      key,
+      item.readDate,
+      rangeStart,
+      rangeEnd,
+      session,
+    );
+  }
+
+  for (const item of bds) {
+    if ((item.readTimes ?? 0) <= 0) {
+      continue;
+    }
+    const key = `bd|${item.title}|${item.writer}`;
+    const session = pagesItemSessionMinutes(item.pages ?? 0, item.readTimes ?? 1);
+    readingMinutes = addSessionMinutesInRange(
+      readingMinutes,
+      readingSeen,
+      key,
+      item.readDate,
+      rangeStart,
+      rangeEnd,
+      session,
+    );
+  }
+
+  for (const item of manwhas) {
+    if ((item.readTimes ?? 0) <= 0) {
+      continue;
+    }
+    const key = `manwha|${item.title}|${item.author}`;
+    const session = manwhaSessionMinutes(item);
+    readingMinutes = addSessionMinutesInRange(
+      readingMinutes,
+      readingSeen,
+      key,
+      item.readDate,
+      rangeStart,
+      rangeEnd,
+      session,
+    );
+  }
+
+  for (const movie of movies) {
+    if ((movie.timesWatched ?? 0) <= 0) {
+      continue;
+    }
+    const key = `movie|${movie.title}|${movie.director}`;
+    const session = movieSessionMinutes(movie);
+    viewingMinutes = addSessionMinutesInRange(
+      viewingMinutes,
+      viewingSeen,
+      key,
+      movie.firstViewedDate,
+      rangeStart,
+      rangeEnd,
+      session,
+    );
+    viewingMinutes = addSessionMinutesInRange(
+      viewingMinutes,
+      viewingSeen,
+      key,
+      movie.lastViewedDate,
+      rangeStart,
+      rangeEnd,
+      session,
+    );
+    for (const raw of movie.otherSeenDates ?? []) {
+      viewingMinutes = addSessionMinutesInRange(
+        viewingMinutes,
+        viewingSeen,
+        key,
+        raw,
+        rangeStart,
+        rangeEnd,
+        session,
+      );
+    }
+  }
+
+  for (const serie of series) {
+    for (const s of serie.seasons ?? []) {
+      if ((s.seasonTimesWatched ?? 0) <= 0) {
+        continue;
+      }
+      const key = `serie|${serie.title}|${serie.director}|s${s.seasonNumber}`;
+      const session = serieSeasonSessionMinutes(serie, s.seasonNumber);
+      viewingMinutes = addSessionMinutesInRange(
+        viewingMinutes,
+        viewingSeen,
+        key,
+        s.firstViewedDate,
+        rangeStart,
+        rangeEnd,
+        session,
+      );
+      viewingMinutes = addSessionMinutesInRange(
+        viewingMinutes,
+        viewingSeen,
+        key,
+        s.lastViewedDate,
+        rangeStart,
+        rangeEnd,
+        session,
+      );
+    }
+  }
+
+  return { readingMinutes, viewingMinutes };
+}
+
+export function formatActivityDurationLabel(
+  totalMinutes: number,
+  kind: 'lecture' | 'visionnage',
+): string {
+  const noun = kind === 'lecture' ? 'lecture' : 'visionnage';
+  if (totalMinutes <= 0) {
+    return `0 h de ${noun}`;
+  }
+  if (totalMinutes >= MINUTES_PER_DAY) {
+    const days = Math.round((totalMinutes / MINUTES_PER_DAY) * 10) / 10;
+    if (days <= 1) {
+      return `1 jour de ${noun}`;
+    }
+    return `${days} jours de ${noun}`;
+  }
+  const hours = Math.max(1, Math.round(totalMinutes / 60));
+  return `${hours} h de ${noun}`;
 }
 
 export function formatRolling30Intro(range: { start: Date; end: Date }): string {

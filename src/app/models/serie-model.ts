@@ -56,6 +56,7 @@ export interface UserSerieSeason {
    * Fichier vus + nouvelle saison : la saison N+1 (après la dernière à ≥1) peut être passée à 0.5 puis à ≥1.
    */
   seasonTimesWatched: number;
+  firstViewedDate: string;
   lastViewedDate: string;
 }
 

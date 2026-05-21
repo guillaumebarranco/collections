@@ -79,6 +79,44 @@
   letter-spacing: 0.02em;
 }
 
+.monthly-activity__sample-list .tag--cinema,
+.monthly-activity__sample-list .tag--first-view,
+.monthly-activity__sample-list .tag--first-read,
+.monthly-activity__sample-list .tag--reread,
+.monthly-activity__sample-list .tag--approximate-date {
+  min-width: auto;
+  margin-left: 6px;
+  padding: 2px 8px;
+  border-radius: 4px;
+  text-transform: none;
+  letter-spacing: 0;
+}
+
+.monthly-activity__sample-list .tag--first-view {
+  background: #e3f2fd;
+  color: #1565c0;
+}
+
+.monthly-activity__sample-list .tag--cinema {
+  background: #e8eaf6;
+  color: #3949ab;
+}
+
+.monthly-activity__sample-list .tag--first-read {
+  background: #e8f5e9;
+  color: #2e7d32;
+}
+
+.monthly-activity__sample-list .tag--reread {
+  background: #fff3e0;
+  color: #e65100;
+}
+
+.monthly-activity__sample-list .tag--approximate-date {
+  background: #efebe9;
+  color: #5d4037;
+}
+
 .monthly-activity__months {
   display: flex;
   flex-direction: column;
@@ -109,9 +147,24 @@
   }
 }
 
-.monthly-activity__month-label {
+.monthly-activity__month-heading {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
   flex: 1 1 auto;
   min-width: 0;
+}
+
+.monthly-activity__month-label {
+  min-width: 0;
+}
+
+.monthly-activity__month-days {
+  display: block;
+  font-size: 0.75rem;
+  font-weight: 500;
+  color: #6c757d;
+  line-height: 1.35;
 }
 
 .monthly-activity__month-total {

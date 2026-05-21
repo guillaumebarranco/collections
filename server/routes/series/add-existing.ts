@@ -54,6 +54,7 @@ function buildSeasons(seasonsCount: number) {
     seasonNumber: index + 1,
     seasonRating: 0,
     seasonTimesWatched: 0,
+    firstViewedDate: '',
     lastViewedDate: '',
   }));
 }
@@ -64,6 +65,7 @@ function formatSeasons(seasons: any[]) {
         seasonNumber: ${season.seasonNumber},
         seasonRating: ${season.seasonRating},
         seasonTimesWatched: ${season.seasonTimesWatched},
+        firstViewedDate: "${escapeString(season.firstViewedDate || '')}",
         lastViewedDate: "${escapeString(season.lastViewedDate || '')}",
       }`
   );

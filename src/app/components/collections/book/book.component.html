@@ -72,6 +72,8 @@
       [style.color]="'white'"
       >{{ sagaBadge }}</span
     >
+    } @if (showApproximateDateBadge && !isBaseEntityView) {
+    <span class="missing-badge approximate-date-badge">Date approximative</span>
     }
   </ng-container>
 

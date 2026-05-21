@@ -6,6 +6,7 @@ function buildWatchlistSeasonsWithHalfWatched(serie: Serie): {
   seasonNumber: number;
   seasonRating: number;
   seasonTimesWatched: number;
+  firstViewedDate: string;
   lastViewedDate: string;
 }[] {
   const fromUser =
@@ -15,12 +16,14 @@ function buildWatchlistSeasonsWithHalfWatched(serie: Serie): {
           seasonNumber: sd.seasonNumber,
           seasonRating: 0,
           seasonTimesWatched: 0,
+          firstViewedDate: '',
           lastViewedDate: '',
         }));
   return fromUser.map((s) => ({
     seasonNumber: s.seasonNumber,
     seasonRating: s.seasonRating ?? 0,
     seasonTimesWatched: 0.5,
+    firstViewedDate: s.firstViewedDate ?? '',
     lastViewedDate: s.lastViewedDate ?? '',
   }));
 }
@@ -177,6 +180,7 @@ function buildWatchedSeasonsWithNextSeasonAtHalf(serie: Serie): UserSerieSeason[
         seasonNumber: sn,
         seasonRating: 0,
         seasonTimesWatched: 0,
+        firstViewedDate: '',
         lastViewedDate: '',
       } as UserSerieSeason);
 

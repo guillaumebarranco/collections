@@ -39,6 +39,7 @@ function buildSeasons(
         seasonRating: 0,
         seasonTimesWatched: 0,
         /** Pas de date : la saison n’a pas été vue (évite de fausser le tri « visionnage récent »). */
+        firstViewedDate: '',
         lastViewedDate: '',
       })
     );
@@ -48,6 +49,7 @@ function buildSeasons(
     seasonNumber: index + 1,
     seasonRating: 0,
     seasonTimesWatched: 0,
+    firstViewedDate: '',
     lastViewedDate: '',
   }));
 }

@@ -724,8 +724,8 @@ export const guillaumeBooks: UserBooks = [
   {
     title: 'La Potion magique de Georges Bouillon',
     author: 'Roald Dahl',
-    firstReadDate: '2003-01-28',
-    lastReadDate: '2003-01-28',
+    firstReadDate: '2002-01-28',
+    lastReadDate: '2002-01-28',
     otherReadDates: [],
     rating: 3.5,
     readTimes: 3,
@@ -1279,8 +1279,8 @@ export const guillaumeBooks: UserBooks = [
   {
     title: 'Dom Juan',
     author: 'Molière',
-    firstReadDate: '2010-01-01',
-    lastReadDate: '2010-05-04',
+    firstReadDate: '2011-01-01',
+    lastReadDate: '',
     otherReadDates: [],
     rating: 3.5,
     readTimes: 3,

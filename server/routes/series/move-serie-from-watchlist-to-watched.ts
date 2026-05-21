@@ -64,6 +64,7 @@ type PayloadSeasonRow = {
   seasonNumber: number;
   seasonRating: number;
   seasonTimesWatched: number;
+  firstViewedDate: string;
   lastViewedDate: string;
 };
 
@@ -83,12 +84,15 @@ function sanitizePayloadSeasons(value: unknown): PayloadSeasonRow[] {
     }
     const sr = Number(o['seasonRating']);
     const tw = Number(o['seasonTimesWatched']);
+    const fvd =
+      typeof o['firstViewedDate'] === 'string' ? o['firstViewedDate'] : '';
     const lvd =
       typeof o['lastViewedDate'] === 'string' ? o['lastViewedDate'] : '';
     out.push({
       seasonNumber: sn,
       seasonRating: Number.isFinite(sr) ? sr : 0,
       seasonTimesWatched: Number.isFinite(tw) ? tw : 0,
+      firstViewedDate: fvd ?? '',
       lastViewedDate: lvd ?? '',
     });
   }
@@ -110,6 +114,7 @@ function mergeWatchlistSeasonsToWatched(params: {
     seasonNumber: number;
     seasonRating: number;
     seasonTimesWatched: number;
+    firstViewedDate: string;
     lastViewedDate: string;
   }[];
 }): PayloadSeasonRow[] {
@@ -127,10 +132,12 @@ function mergeWatchlistSeasonsToWatched(params: {
       const tw = wlRow.seasonTimesWatched;
       // En cours → une fois vu entièrement, comme demandé métier.
       if (tw === 0.5 || tw === 0) {
+        const existingFirst = String(exRow?.firstViewedDate ?? '').trim();
         out.push({
           seasonNumber: n,
           seasonRating: wlRow.seasonRating ?? 0,
           seasonTimesWatched: 1,
+          firstViewedDate: existingFirst || today,
           lastViewedDate: today,
         });
         continue;
@@ -140,6 +147,11 @@ function mergeWatchlistSeasonsToWatched(params: {
           seasonNumber: n,
           seasonRating: wlRow.seasonRating ?? 0,
           seasonTimesWatched: wlRow.seasonTimesWatched,
+          firstViewedDate:
+            String(wlRow.firstViewedDate ?? '').trim() ||
+            String(exRow?.firstViewedDate ?? '').trim() ||
+            wlRow.lastViewedDate ||
+            today,
           lastViewedDate: wlRow.lastViewedDate || today,
         });
         continue;
@@ -149,6 +161,7 @@ function mergeWatchlistSeasonsToWatched(params: {
         seasonNumber: n,
         seasonRating: wlRow.seasonRating ?? 0,
         seasonTimesWatched: 1,
+        firstViewedDate: String(exRow?.firstViewedDate ?? '').trim() || today,
         lastViewedDate: today,
       });
       continue;
@@ -160,6 +173,7 @@ function mergeWatchlistSeasonsToWatched(params: {
         seasonNumber: n,
         seasonRating: Number(exRow.seasonRating ?? 0),
         seasonTimesWatched: Number(exRow.seasonTimesWatched),
+        firstViewedDate: String(exRow.firstViewedDate || ''),
         lastViewedDate: String(exRow.lastViewedDate || ''),
       });
       continue;
@@ -169,6 +183,7 @@ function mergeWatchlistSeasonsToWatched(params: {
       seasonNumber: n,
       seasonRating: 0,
       seasonTimesWatched: 1,
+      firstViewedDate: today,
       lastViewedDate: today,
     });
   }
@@ -182,6 +197,7 @@ function formatSeasons(seasons: PayloadSeasonRow[]) {
         seasonNumber: ${season.seasonNumber},
         seasonRating: ${season.seasonRating},
         seasonTimesWatched: ${season.seasonTimesWatched},
+        firstViewedDate: "${escapeString(season.firstViewedDate || '')}",
         lastViewedDate: "${escapeString(season.lastViewedDate || '')}",
       }`
   );

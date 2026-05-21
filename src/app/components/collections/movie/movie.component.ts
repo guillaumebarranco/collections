@@ -37,6 +37,7 @@ import { getApiBaseUrl, isBaseEntityView, isLocalhost } from '../../../core/conf
 import { DEFAULT_USER_ID } from '../../../utils/constants';
 import { usersMoviesLists } from '../../../utils/users/user-movies-lists';
 import { MovieView } from '../../../containers/collections/movies/movies.utils';
+import { isMovieApproximateViewDate } from '../../../utils/approximate-date-badges.utils';
 
 @Component({
   selector: 'app-movie',
@@ -59,6 +60,9 @@ export class MovieComponent {
   private readonly authService = inject(AuthService);
 
   @Input() movie!: Movie;
+  get showApproximateDateBadge(): boolean {
+    return isMovieApproximateViewDate(this.movie);
+  }
   @Input() list: Movie[] = [];
   @Input() index = -1;
 

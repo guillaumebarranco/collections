@@ -534,7 +534,7 @@ export const guillaumeMoviesPage3: UserMovies = [
     rating: 3,
     timesWatched: 3,
     firstViewedDate: '2005-02-07',
-    lastViewedDate: '2010-02-07',
+    lastViewedDate: '2005-02-07',
     otherSeenDates: [],
     seenAtCinema: true,
     owned: false,

@@ -18,20 +18,55 @@
     </p>
     } @else {
     <ul class="monthly-activity__sample-list">
-      @for (line of s.books; track line) {
-      <li><span class="tag">Livre</span> {{ line }}</li>
+      @for (book of s.books; track book.line) {
+      <li>
+        <span class="tag">Livre</span> {{ book.line }}
+        @if (book.readBadge === 'first') {
+        <span class="tag tag--first-read">Première lecture</span>
+        } @else {
+        <span class="tag tag--reread">Relecture</span>
+        }
+        @if (book.showApproximateDateBadge) {
+        <span class="tag tag--approximate-date">Date approximative</span>
+        }
+      </li>
       } @for (line of s.mangas; track line) {
       <li><span class="tag">Manga</span> {{ line }}</li>
       } @for (line of s.comics; track line) {
       <li><span class="tag">Comic</span> {{ line }}</li>
-      } @for (line of s.bds; track line) {
-      <li><span class="tag">BD</span> {{ line }}</li>
+      } @for (bd of s.bds; track bd.line) {
+      <li>
+        <span class="tag">BD</span> {{ bd.line }}
+        @if (bd.showApproximateDateBadge) {
+        <span class="tag tag--approximate-date">Date approximative</span>
+        }
+      </li>
       } @for (line of s.manwhas; track line) {
       <li><span class="tag">Manwha</span> {{ line }}</li>
-      } @for (line of s.movies; track line) {
-      <li><span class="tag">Film</span> {{ line }}</li>
-      } @for (line of s.series; track line) {
-      <li><span class="tag">Série</span> {{ line }}</li>
+      } @for (movie of s.movies; track movie.line) {
+      <li>
+        <span class="tag">Film</span> {{ movie.line }}
+        @if (movie.viewBadge === 'first') {
+        <span class="tag tag--first-view">Premier visionnage</span>
+        } @else {
+        <span class="tag tag--reread">Revisionnage</span>
+        }
+        @if (movie.showCinemaBadge) {
+        <span class="tag tag--cinema">Cinéma</span>
+        }
+        @if (movie.showApproximateDateBadge) {
+        <span class="tag tag--approximate-date">Date approximative</span>
+        }
+      </li>
+      } @for (serie of s.series; track serie.line) {
+      <li>
+        <span class="tag">Série</span> {{ serie.line }}
+        @if (serie.viewBadge === 'first') {
+        <span class="tag tag--first-view">Premier visionnage</span>
+        } @else {
+        <span class="tag tag--reread">Revisionnage</span>
+        }
+      </li>
       }
     </ul>
     }
@@ -42,7 +77,11 @@
     @for (row of monthlyRows(); track row.key) {
     <details class="monthly-activity__month" [open]="row.total > 0">
       <summary class="monthly-activity__month-summary">
-        <span class="monthly-activity__month-label">{{ row.label }}</span>
+        <span class="monthly-activity__month-heading">
+          <span class="monthly-activity__month-label">{{ row.label }}</span>
+          <span class="monthly-activity__month-days">{{ row.readingDurationLabel }}</span>
+          <span class="monthly-activity__month-days">{{ row.viewingDurationLabel }}</span>
+        </span>
         <span class="monthly-activity__month-total"
           >{{ row.total }} entrée(s)</span
         >
@@ -55,20 +94,55 @@
       <ul
         class="monthly-activity__sample-list monthly-activity__sample-list--tight"
       >
-        @for (line of row.samples.books; track line) {
-        <li><span class="tag">Livre</span> {{ line }}</li>
+        @for (book of row.samples.books; track book.line) {
+        <li>
+          <span class="tag">Livre</span> {{ book.line }}
+          @if (book.readBadge === 'first') {
+          <span class="tag tag--first-read">Première lecture</span>
+          } @else {
+          <span class="tag tag--reread">Relecture</span>
+          }
+          @if (book.showApproximateDateBadge) {
+          <span class="tag tag--approximate-date">Date approximative</span>
+          }
+        </li>
         } @for (line of row.samples.mangas; track line) {
         <li><span class="tag">Manga</span> {{ line }}</li>
         } @for (line of row.samples.comics; track line) {
         <li><span class="tag">Comic</span> {{ line }}</li>
-        } @for (line of row.samples.bds; track line) {
-        <li><span class="tag">BD</span> {{ line }}</li>
+        } @for (bd of row.samples.bds; track bd.line) {
+        <li>
+          <span class="tag">BD</span> {{ bd.line }}
+          @if (bd.showApproximateDateBadge) {
+          <span class="tag tag--approximate-date">Date approximative</span>
+          }
+        </li>
         } @for (line of row.samples.manwhas; track line) {
         <li><span class="tag">Manwha</span> {{ line }}</li>
-        } @for (line of row.samples.movies; track line) {
-        <li><span class="tag">Film</span> {{ line }}</li>
-        } @for (line of row.samples.series; track line) {
-        <li><span class="tag">Série</span> {{ line }}</li>
+        }         @for (movie of row.samples.movies; track movie.line) {
+        <li>
+          <span class="tag">Film</span> {{ movie.line }}
+          @if (movie.viewBadge === 'first') {
+          <span class="tag tag--first-view">Premier visionnage</span>
+          } @else {
+          <span class="tag tag--reread">Revisionnage</span>
+          }
+          @if (movie.showCinemaBadge) {
+          <span class="tag tag--cinema">Cinéma</span>
+          }
+          @if (movie.showApproximateDateBadge) {
+          <span class="tag tag--approximate-date">Date approximative</span>
+          }
+        </li>
+        } @for (serie of row.samples.series; track serie.line) {
+        <li>
+          <span class="tag">Série</span> {{ serie.line }}
+          @if (serie.viewBadge === 'first') {
+          <span class="tag tag--first-view">Premier visionnage</span>
+          } @else {
+          <span class="tag tag--reread">Revisionnage</span>
+          }
+        </li>
         }
       </ul>
       }

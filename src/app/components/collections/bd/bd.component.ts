@@ -28,6 +28,7 @@ import {
 } from '../../modals/move-entity-review-modal/move-entity-review-modal.component';
 import { MovieCommunityWatchersModalComponent } from '../../modals/movie-community-watchers-modal/movie-community-watchers-modal.component';
 import { DEFAULT_USER_ID } from '../../../utils/constants';
+import { isBdApproximateReadDate } from '../../../utils/approximate-date-badges.utils';
 
 @Component({
   selector: 'app-bd',
@@ -49,6 +50,10 @@ export class BdComponent {
   private readonly authService = inject(AuthService);
 
   @Input() bd!: Bd;
+
+  get showApproximateDateBadge(): boolean {
+    return isBdApproximateReadDate(this.bd);
+  }
 
   @Input() readOnly = false;
   @Input() recommendationText = '';

@@ -15,6 +15,8 @@ import {
 } from '../../shared/view-toggle/view-toggle.component';
 import {
   computeActivityInRange,
+  computeActivityDurationInRange,
+  formatActivityDurationLabel,
   formatRolling30Intro,
   getCalendarMonthsForYear,
   getLast12CalendarMonths,
@@ -124,9 +126,28 @@ export class DashboardMonthlyActivityComponent {
         m.rangeStart,
         m.rangeEnd,
       );
+      const duration = computeActivityDurationInRange(
+        this.books(),
+        this.mangas(),
+        this.comics(),
+        this.bds(),
+        this.manwhas(),
+        this.movies(),
+        this.series(),
+        m.rangeStart,
+        m.rangeEnd,
+      );
       return {
         key: m.key,
         label: m.label,
+        readingDurationLabel: formatActivityDurationLabel(
+          duration.readingMinutes,
+          'lecture',
+        ),
+        viewingDurationLabel: formatActivityDurationLabel(
+          duration.viewingMinutes,
+          'visionnage',
+        ),
         samples: activity.samples,
         total:
           activity.counts.books +

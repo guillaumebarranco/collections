@@ -186,6 +186,17 @@
               />
             </label>
             <label>
+              Premier visionnage
+              <input
+                type="date"
+                [ngModel]="season.firstViewedDate"
+                (ngModelChange)="
+                  updateUserSeasonField(i, 'firstViewedDate', $event)
+                "
+                name="seasonFirstViewedDate-{{ i }}"
+              />
+            </label>
+            <label>
               Dernier visionnage
               <input
                 type="date"

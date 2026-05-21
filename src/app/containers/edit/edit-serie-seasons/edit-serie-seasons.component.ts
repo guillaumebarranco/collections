@@ -42,7 +42,7 @@ export class EditSerieSeasonsComponent {
 
   updateSeasonField(
     seasonNumber: number,
-    field: 'seasonRating' | 'seasonTimesWatched' | 'lastViewedDate',
+    field: 'seasonRating' | 'seasonTimesWatched' | 'firstViewedDate' | 'lastViewedDate',
     value: string | number
   ) {
     this.seasons.set(
@@ -51,7 +51,7 @@ export class EditSerieSeasonsComponent {
           ? {
               ...season,
               [field]:
-                field === 'lastViewedDate'
+                field === 'firstViewedDate' || field === 'lastViewedDate'
                   ? String(value)
                   : Number.isNaN(Number(value))
                   ? 0
@@ -109,6 +109,7 @@ export class EditSerieSeasonsComponent {
     if (serie?.seasons && serie.seasons.length > 0) {
       return serie.seasons.map((season) => ({
         ...season,
+        firstViewedDate: season.firstViewedDate || '',
         lastViewedDate: season.lastViewedDate || '',
       }));
     }
@@ -117,6 +118,7 @@ export class EditSerieSeasonsComponent {
       seasonNumber: index + 1,
       seasonRating: 0,
       seasonTimesWatched: 0,
+      firstViewedDate: '',
       lastViewedDate: '',
     }));
   }

@@ -49,6 +49,8 @@
     <span class="missing-badge" style="background-color: #00695c; color: white"
       >Prêté à {{ bd.loaned }}</span
     >
+    } @if (showApproximateDateBadge && !isBaseEntityView) {
+    <span class="missing-badge approximate-date-badge">Date approximative</span>
     }
   </ng-container>
   <img
