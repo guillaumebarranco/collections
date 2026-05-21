@@ -16,9 +16,14 @@ import {
 import {
   computeActivityInRange,
   formatRolling30Intro,
+  getCalendarMonthsForYear,
   getLast12CalendarMonths,
   getRolling30DaysRange,
+  getYearTabYears,
+  parseYearTabValue,
+  yearTabValue,
   type ActivityWindowResult,
+  type CalendarMonthRange,
 } from '../../../utils/dashboard-monthly-activity.utils';
 
 @Component({
@@ -39,12 +44,16 @@ export class DashboardMonthlyActivityComponent {
   readonly games = input<Game[]>([]);
   readonly musics = input<Music[]>([]);
 
-  readonly periodTab = signal<'rolling30' | 'yearly'>('rolling30');
+  readonly periodTab = signal<string>('rolling30');
 
-  readonly periodOptions: ViewToggleOption[] = [
-    { value: 'rolling30', label: '30 derniers jours' },
-    { value: 'yearly', label: '12 derniers mois' },
-  ];
+  readonly periodOptions = computed<ViewToggleOption[]>(() => {
+    const years = getYearTabYears();
+    return [
+      { value: 'rolling30', label: '30 derniers jours' },
+      { value: 'yearly', label: '12 derniers mois' },
+      ...years.map((y) => ({ value: yearTabValue(y), label: String(y) })),
+    ];
+  });
 
   private readonly rollingRange = computed(() => getRolling30DaysRange());
 
@@ -69,8 +78,38 @@ export class DashboardMonthlyActivityComponent {
     );
   });
 
+  readonly periodRangeIntro = computed(() => {
+    const tab = this.periodTab();
+    if (tab === 'yearly') {
+      return (
+        'Chaque bloc correspond à un mois calendaire complet (du 1er au dernier jour), ' +
+        'du plus récent au plus ancien.'
+      );
+    }
+    const year = parseYearTabValue(tab);
+    if (year != null) {
+      return (
+        `Chaque bloc correspond à un mois calendaire complet de ${year} ` +
+        '(du 1er au dernier jour), du plus récent au plus ancien.'
+      );
+    }
+    return '';
+  });
+
+  private readonly calendarMonthsForPeriod = computed((): CalendarMonthRange[] => {
+    const tab = this.periodTab();
+    if (tab === 'yearly') {
+      return getLast12CalendarMonths();
+    }
+    const year = parseYearTabValue(tab);
+    if (year != null) {
+      return getCalendarMonthsForYear(year);
+    }
+    return [];
+  });
+
   readonly monthlyRows = computed(() => {
-    const months = getLast12CalendarMonths();
+    const months = this.calendarMonthsForPeriod();
     return months.map((m) => {
       const activity = computeActivityInRange(
         this.books(),
@@ -102,7 +141,11 @@ export class DashboardMonthlyActivityComponent {
   });
 
   onPeriodChange(value: string): void {
-    if (value === 'rolling30' || value === 'yearly') {
+    if (
+      value === 'rolling30' ||
+      value === 'yearly' ||
+      parseYearTabValue(value) != null
+    ) {
       this.periodTab.set(value);
     }
   }

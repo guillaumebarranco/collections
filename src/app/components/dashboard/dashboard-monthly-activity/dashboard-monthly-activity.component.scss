@@ -5,6 +5,18 @@
   min-width: 0;
 }
 
+:host ::ng-deep .monthly-activity-period-toggle.view-toggle-desktop {
+  flex-wrap: wrap;
+  width: 100%;
+  max-width: 100%;
+
+  .toggle-option {
+    flex: 0 1 auto;
+    padding: 10px 14px;
+    font-size: 0.875rem;
+  }
+}
+
 .monthly-activity__intro,
 .monthly-activity__note,
 .monthly-activity__range {

@@ -89,24 +89,28 @@ export function getRolling30DaysRange(reference = new Date()): {
   return { start, end };
 }
 
+function buildCalendarMonthRange(y: number, m: number): CalendarMonthRange {
+  const rangeStart = new Date(y, m, 1, 0, 0, 0, 0);
+  const rangeEnd = new Date(y, m + 1, 0, 23, 59, 59, 999);
+  const key = `${y}-${String(m + 1).padStart(2, '0')}`;
+  const rawLabel = rangeStart.toLocaleDateString('fr-FR', {
+    month: 'long',
+    year: 'numeric',
+  });
+  const label =
+    rawLabel.length > 0
+      ? rawLabel.charAt(0).toLocaleUpperCase('fr-FR') + rawLabel.slice(1)
+      : key;
+  return { key, label, rangeStart, rangeEnd };
+}
+
 /** Mois calendaires complets : du 1er au dernier jour, les 12 derniers mois en partant du mois courant. */
 export function getLast12CalendarMonths(reference = new Date()): CalendarMonthRange[] {
   const out: CalendarMonthRange[] = [];
   let y = reference.getFullYear();
   let m = reference.getMonth();
   for (let i = 0; i < 12; i++) {
-    const rangeStart = new Date(y, m, 1, 0, 0, 0, 0);
-    const rangeEnd = new Date(y, m + 1, 0, 23, 59, 59, 999);
-    const key = `${y}-${String(m + 1).padStart(2, '0')}`;
-    const rawLabel = rangeStart.toLocaleDateString('fr-FR', {
-      month: 'long',
-      year: 'numeric',
-    });
-    const label =
-      rawLabel.length > 0
-        ? rawLabel.charAt(0).toLocaleUpperCase('fr-FR') + rawLabel.slice(1)
-        : key;
-    out.push({ key, label, rangeStart, rangeEnd });
+    out.push(buildCalendarMonthRange(y, m));
     m -= 1;
     if (m < 0) {
       m = 11;
@@ -114,6 +118,45 @@ export function getLast12CalendarMonths(reference = new Date()): CalendarMonthRa
     }
   }
   return out;
+}
+
+/** Les 12 mois d'une année civile (décembre → janvier). */
+export function getCalendarMonthsForYear(year: number): CalendarMonthRange[] {
+  const out: CalendarMonthRange[] = [];
+  for (let m = 11; m >= 0; m--) {
+    out.push(buildCalendarMonthRange(year, m));
+  }
+  return out;
+}
+
+export const YEAR_TAB_PREFIX = 'year-';
+
+export function yearTabValue(year: number): string {
+  return `${YEAR_TAB_PREFIX}${year}`;
+}
+
+export function parseYearTabValue(value: string): number | null {
+  if (!value.startsWith(YEAR_TAB_PREFIX)) {
+    return null;
+  }
+  const y = Number(value.slice(YEAR_TAB_PREFIX.length));
+  if (!Number.isInteger(y) || y < 2000 || y > 2100) {
+    return null;
+  }
+  return y;
+}
+
+/** Années des onglets : (année courante − 1) jusqu'à endYear inclus. */
+export function getYearTabYears(
+  reference = new Date(),
+  endYear = 2000,
+): number[] {
+  const start = reference.getFullYear() - 1;
+  const years: number[] = [];
+  for (let y = start; y >= endYear; y--) {
+    years.push(y);
+  }
+  return years;
 }
 
 function takeSampleTitles(titles: string[]): string[] {

@@ -1,7 +1,7 @@
 <div class="monthly-activity">
   <app-view-toggle
     toggleClass="monthly-activity-period-toggle"
-    [options]="periodOptions"
+    [options]="periodOptions()"
     [selected]="periodTab()"
     (selectedChange)="onPeriodChange($event)"
   ></app-view-toggle>
@@ -37,10 +37,7 @@
     }
   </div>
   } @else {
-  <p class="monthly-activity__range">
-    Chaque bloc correspond à un mois calendaire complet (du 1<sup>er</sup> au
-    dernier jour), du plus récent au plus ancien.
-  </p>
+  <p class="monthly-activity__range">{{ periodRangeIntro() }}</p>
   <div class="monthly-activity__months">
     @for (row of monthlyRows(); track row.key) {
     <details class="monthly-activity__month" [open]="row.total > 0">
