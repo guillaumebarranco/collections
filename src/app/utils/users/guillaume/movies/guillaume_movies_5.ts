@@ -1640,7 +1640,7 @@ export const guillaumeMoviesPage5: UserMovies = [
     timesWatched: 5,
     firstViewedDate: '',
     lastViewedDate: '',
-    otherSeenDates: [],
+    otherSeenDates: ['2020-03-24'],
     seenAtCinema: false,
     owned: false,
     wantToSeeAgain: false,

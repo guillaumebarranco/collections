@@ -619,7 +619,7 @@ export const guillaumeMoviesAnimated: UserMovies = [
     rating: 4.25,
     timesWatched: 10,
     firstViewedDate: '',
-    lastViewedDate: '',
+    lastViewedDate: '2026-03-26',
     otherSeenDates: [],
     seenAtCinema: false,
     owned: false,
