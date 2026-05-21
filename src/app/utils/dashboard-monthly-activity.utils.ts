@@ -305,7 +305,11 @@ function seasonHasActivityInRange(
   if ((season.seasonTimesWatched ?? 0) <= 0) {
     return false;
   }
-  const dates = [season.firstViewedDate, season.lastViewedDate];
+  const dates = [
+    season.firstViewedDate,
+    season.lastViewedDate,
+    ...(season.otherViewedDates ?? []),
+  ];
   return dates.some((raw) => {
     const d = parseActivityDate(raw);
     return Boolean(d && isInInclusiveRange(d, rangeStart, rangeEnd));
@@ -719,6 +723,17 @@ export function computeActivityDurationInRange(
         rangeEnd,
         session,
       );
+      for (const raw of s.otherViewedDates ?? []) {
+        viewingMinutes = addSessionMinutesInRange(
+          viewingMinutes,
+          viewingSeen,
+          key,
+          raw,
+          rangeStart,
+          rangeEnd,
+          session,
+        );
+      }
     }
   }
 

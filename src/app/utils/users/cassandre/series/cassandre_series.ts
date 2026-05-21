@@ -11,6 +11,8 @@ export const cassandreSeries: UserSeries = [
         seasonTimesWatched: 1,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 2,
@@ -18,6 +20,8 @@ export const cassandreSeries: UserSeries = [
         seasonTimesWatched: 1,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 3,
@@ -25,6 +29,8 @@ export const cassandreSeries: UserSeries = [
         seasonTimesWatched: 1,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 4,
@@ -32,6 +38,8 @@ export const cassandreSeries: UserSeries = [
         seasonTimesWatched: 1,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 5,
@@ -39,6 +47,8 @@ export const cassandreSeries: UserSeries = [
         seasonTimesWatched: 1,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 6,
@@ -46,6 +56,8 @@ export const cassandreSeries: UserSeries = [
         seasonTimesWatched: 1,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 7,
@@ -53,6 +65,8 @@ export const cassandreSeries: UserSeries = [
         seasonTimesWatched: 1,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 8,
@@ -60,6 +74,8 @@ export const cassandreSeries: UserSeries = [
         seasonTimesWatched: 1,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 9,
@@ -67,6 +83,8 @@ export const cassandreSeries: UserSeries = [
         seasonTimesWatched: 1,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 10,
@@ -74,6 +92,8 @@ export const cassandreSeries: UserSeries = [
         seasonTimesWatched: 1,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 11,
@@ -81,6 +101,8 @@ export const cassandreSeries: UserSeries = [
         seasonTimesWatched: 1,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 12,
@@ -88,6 +110,8 @@ export const cassandreSeries: UserSeries = [
         seasonTimesWatched: 1,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 13,
@@ -95,6 +119,8 @@ export const cassandreSeries: UserSeries = [
         seasonTimesWatched: 1,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 14,
@@ -102,6 +128,8 @@ export const cassandreSeries: UserSeries = [
         seasonTimesWatched: 1,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 15,
@@ -109,6 +137,8 @@ export const cassandreSeries: UserSeries = [
         seasonTimesWatched: 1,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 16,
@@ -116,6 +146,8 @@ export const cassandreSeries: UserSeries = [
         seasonTimesWatched: 1,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 17,
@@ -123,6 +155,8 @@ export const cassandreSeries: UserSeries = [
         seasonTimesWatched: 1,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 18,
@@ -130,6 +164,8 @@ export const cassandreSeries: UserSeries = [
         seasonTimesWatched: 1,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 19,
@@ -137,6 +173,8 @@ export const cassandreSeries: UserSeries = [
         seasonTimesWatched: 1,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 20,
@@ -144,6 +182,8 @@ export const cassandreSeries: UserSeries = [
         seasonTimesWatched: 1,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 21,
@@ -151,6 +191,8 @@ export const cassandreSeries: UserSeries = [
         seasonTimesWatched: 1,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 22,
@@ -158,6 +200,8 @@ export const cassandreSeries: UserSeries = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
     ],
     owned: false,
@@ -178,6 +222,8 @@ export const cassandreSeries: UserSeries = [
         seasonTimesWatched: 1,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
     ],
     owned: false,
@@ -198,6 +244,8 @@ export const cassandreSeries: UserSeries = [
         seasonTimesWatched: 1,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 2,
@@ -205,6 +253,8 @@ export const cassandreSeries: UserSeries = [
         seasonTimesWatched: 1,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 3,
@@ -212,6 +262,8 @@ export const cassandreSeries: UserSeries = [
         seasonTimesWatched: 1,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 4,
@@ -219,6 +271,8 @@ export const cassandreSeries: UserSeries = [
         seasonTimesWatched: 1,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 5,
@@ -226,6 +280,8 @@ export const cassandreSeries: UserSeries = [
         seasonTimesWatched: 1,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 6,
@@ -233,6 +289,8 @@ export const cassandreSeries: UserSeries = [
         seasonTimesWatched: 1,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 7,
@@ -240,6 +298,8 @@ export const cassandreSeries: UserSeries = [
         seasonTimesWatched: 1,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 8,
@@ -247,6 +307,8 @@ export const cassandreSeries: UserSeries = [
         seasonTimesWatched: 1,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 9,
@@ -254,6 +316,8 @@ export const cassandreSeries: UserSeries = [
         seasonTimesWatched: 1,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 10,
@@ -261,6 +325,8 @@ export const cassandreSeries: UserSeries = [
         seasonTimesWatched: 1,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 11,
@@ -268,6 +334,8 @@ export const cassandreSeries: UserSeries = [
         seasonTimesWatched: 1,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
     ],
     owned: false,
@@ -288,6 +356,8 @@ export const cassandreSeries: UserSeries = [
         seasonTimesWatched: 1,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 2,
@@ -295,6 +365,8 @@ export const cassandreSeries: UserSeries = [
         seasonTimesWatched: 1,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 3,
@@ -302,6 +374,8 @@ export const cassandreSeries: UserSeries = [
         seasonTimesWatched: 1,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 4,
@@ -309,6 +383,8 @@ export const cassandreSeries: UserSeries = [
         seasonTimesWatched: 1,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 5,
@@ -316,6 +392,8 @@ export const cassandreSeries: UserSeries = [
         seasonTimesWatched: 1,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
     ],
     owned: false,
@@ -336,6 +414,8 @@ export const cassandreSeries: UserSeries = [
         seasonTimesWatched: 10,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
     ],
     owned: false,
@@ -356,6 +436,8 @@ export const cassandreSeries: UserSeries = [
         seasonTimesWatched: 1,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 2,
@@ -363,6 +445,8 @@ export const cassandreSeries: UserSeries = [
         seasonTimesWatched: 1,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 3,
@@ -370,6 +454,8 @@ export const cassandreSeries: UserSeries = [
         seasonTimesWatched: 1,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 4,
@@ -377,6 +463,8 @@ export const cassandreSeries: UserSeries = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 5,
@@ -384,6 +472,8 @@ export const cassandreSeries: UserSeries = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 6,
@@ -391,6 +481,8 @@ export const cassandreSeries: UserSeries = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
     ],
     owned: false,
@@ -411,6 +503,8 @@ export const cassandreSeries: UserSeries = [
         seasonTimesWatched: 1,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 2,
@@ -418,6 +512,8 @@ export const cassandreSeries: UserSeries = [
         seasonTimesWatched: 1,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
     ],
     owned: false,
@@ -438,6 +534,8 @@ export const cassandreSeries: UserSeries = [
         seasonTimesWatched: 1,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 2,
@@ -445,6 +543,8 @@ export const cassandreSeries: UserSeries = [
         seasonTimesWatched: 1,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 3,
@@ -452,6 +552,8 @@ export const cassandreSeries: UserSeries = [
         seasonTimesWatched: 1,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 4,
@@ -459,6 +561,8 @@ export const cassandreSeries: UserSeries = [
         seasonTimesWatched: 1,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 5,
@@ -466,6 +570,8 @@ export const cassandreSeries: UserSeries = [
         seasonTimesWatched: 1,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 6,
@@ -473,6 +579,8 @@ export const cassandreSeries: UserSeries = [
         seasonTimesWatched: 1,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 7,
@@ -480,6 +588,8 @@ export const cassandreSeries: UserSeries = [
         seasonTimesWatched: 1,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 8,
@@ -487,6 +597,8 @@ export const cassandreSeries: UserSeries = [
         seasonTimesWatched: 1,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 9,
@@ -494,6 +606,8 @@ export const cassandreSeries: UserSeries = [
         seasonTimesWatched: 1,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 10,
@@ -501,6 +615,8 @@ export const cassandreSeries: UserSeries = [
         seasonTimesWatched: 1,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 11,
@@ -508,6 +624,8 @@ export const cassandreSeries: UserSeries = [
         seasonTimesWatched: 1,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 12,
@@ -515,6 +633,8 @@ export const cassandreSeries: UserSeries = [
         seasonTimesWatched: 1,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 13,
@@ -522,6 +642,8 @@ export const cassandreSeries: UserSeries = [
         seasonTimesWatched: 1,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 14,
@@ -529,6 +651,8 @@ export const cassandreSeries: UserSeries = [
         seasonTimesWatched: 1,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 15,
@@ -536,6 +660,8 @@ export const cassandreSeries: UserSeries = [
         seasonTimesWatched: 1,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 16,
@@ -543,6 +669,8 @@ export const cassandreSeries: UserSeries = [
         seasonTimesWatched: 1,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 17,
@@ -550,6 +678,8 @@ export const cassandreSeries: UserSeries = [
         seasonTimesWatched: 1,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
     ],
     owned: false,
@@ -570,6 +700,8 @@ export const cassandreSeries: UserSeries = [
         seasonTimesWatched: 1,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 2,
@@ -577,6 +709,8 @@ export const cassandreSeries: UserSeries = [
         seasonTimesWatched: 1,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 3,
@@ -584,6 +718,8 @@ export const cassandreSeries: UserSeries = [
         seasonTimesWatched: 1,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
     ],
     owned: false,
@@ -604,6 +740,8 @@ export const cassandreSeries: UserSeries = [
         seasonTimesWatched: 1,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 2,
@@ -611,6 +749,8 @@ export const cassandreSeries: UserSeries = [
         seasonTimesWatched: 1,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 3,
@@ -618,6 +758,8 @@ export const cassandreSeries: UserSeries = [
         seasonTimesWatched: 1,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
     ],
     owned: false,
@@ -638,6 +780,8 @@ export const cassandreSeries: UserSeries = [
         seasonTimesWatched: 1,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 2,
@@ -645,6 +789,8 @@ export const cassandreSeries: UserSeries = [
         seasonTimesWatched: 1,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 3,
@@ -652,6 +798,8 @@ export const cassandreSeries: UserSeries = [
         seasonTimesWatched: 1,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 4,
@@ -659,6 +807,8 @@ export const cassandreSeries: UserSeries = [
         seasonTimesWatched: 1,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
     ],
     owned: false,
@@ -679,6 +829,8 @@ export const cassandreSeries: UserSeries = [
         seasonTimesWatched: 1,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
     ],
     owned: false,
@@ -699,6 +851,8 @@ export const cassandreSeries: UserSeries = [
         seasonTimesWatched: 1,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
     ],
     owned: false,
@@ -719,6 +873,8 @@ export const cassandreSeries: UserSeries = [
         seasonTimesWatched: 1,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 2,
@@ -726,6 +882,8 @@ export const cassandreSeries: UserSeries = [
         seasonTimesWatched: 1,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 3,
@@ -733,6 +891,8 @@ export const cassandreSeries: UserSeries = [
         seasonTimesWatched: 1,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 4,
@@ -740,6 +900,8 @@ export const cassandreSeries: UserSeries = [
         seasonTimesWatched: 1,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 5,
@@ -747,6 +909,8 @@ export const cassandreSeries: UserSeries = [
         seasonTimesWatched: 1,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
     ],
     owned: false,
@@ -767,6 +931,8 @@ export const cassandreSeries: UserSeries = [
         seasonTimesWatched: 1,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
     ],
     owned: false,
@@ -787,6 +953,8 @@ export const cassandreSeries: UserSeries = [
         seasonTimesWatched: 10,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 2,
@@ -794,6 +962,8 @@ export const cassandreSeries: UserSeries = [
         seasonTimesWatched: 10,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 3,
@@ -801,6 +971,8 @@ export const cassandreSeries: UserSeries = [
         seasonTimesWatched: 10,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 4,
@@ -808,6 +980,8 @@ export const cassandreSeries: UserSeries = [
         seasonTimesWatched: 10,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
     ],
     owned: false,
@@ -828,6 +1002,8 @@ export const cassandreSeries: UserSeries = [
         seasonTimesWatched: 1,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 2,
@@ -835,6 +1011,8 @@ export const cassandreSeries: UserSeries = [
         seasonTimesWatched: 1,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 3,
@@ -842,6 +1020,8 @@ export const cassandreSeries: UserSeries = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 4,
@@ -849,6 +1029,8 @@ export const cassandreSeries: UserSeries = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 5,
@@ -856,6 +1038,8 @@ export const cassandreSeries: UserSeries = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 6,
@@ -863,6 +1047,8 @@ export const cassandreSeries: UserSeries = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 7,
@@ -870,6 +1056,8 @@ export const cassandreSeries: UserSeries = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
     ],
     owned: false,
@@ -890,6 +1078,8 @@ export const cassandreSeries: UserSeries = [
         seasonTimesWatched: 1,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 2,
@@ -897,6 +1087,8 @@ export const cassandreSeries: UserSeries = [
         seasonTimesWatched: 1,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 3,
@@ -904,6 +1096,8 @@ export const cassandreSeries: UserSeries = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 4,
@@ -911,6 +1105,8 @@ export const cassandreSeries: UserSeries = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 5,
@@ -918,6 +1114,8 @@ export const cassandreSeries: UserSeries = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 6,
@@ -925,6 +1123,8 @@ export const cassandreSeries: UserSeries = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 7,
@@ -932,6 +1132,8 @@ export const cassandreSeries: UserSeries = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 8,
@@ -939,6 +1141,8 @@ export const cassandreSeries: UserSeries = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 9,
@@ -946,6 +1150,8 @@ export const cassandreSeries: UserSeries = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 10,
@@ -953,6 +1159,8 @@ export const cassandreSeries: UserSeries = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 11,
@@ -960,6 +1168,8 @@ export const cassandreSeries: UserSeries = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
     ],
     owned: false,
@@ -980,6 +1190,8 @@ export const cassandreSeries: UserSeries = [
         seasonTimesWatched: 1,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 2,
@@ -987,6 +1199,8 @@ export const cassandreSeries: UserSeries = [
         seasonTimesWatched: 1,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 3,
@@ -994,6 +1208,8 @@ export const cassandreSeries: UserSeries = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 4,
@@ -1001,6 +1217,8 @@ export const cassandreSeries: UserSeries = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 5,
@@ -1008,6 +1226,8 @@ export const cassandreSeries: UserSeries = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 6,
@@ -1015,6 +1235,8 @@ export const cassandreSeries: UserSeries = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 7,
@@ -1022,6 +1244,8 @@ export const cassandreSeries: UserSeries = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 8,
@@ -1029,6 +1253,8 @@ export const cassandreSeries: UserSeries = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 9,
@@ -1036,6 +1262,8 @@ export const cassandreSeries: UserSeries = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 10,
@@ -1043,6 +1271,8 @@ export const cassandreSeries: UserSeries = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 11,
@@ -1050,6 +1280,8 @@ export const cassandreSeries: UserSeries = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
     ],
     owned: false,
@@ -1070,6 +1302,8 @@ export const cassandreSeries: UserSeries = [
         seasonTimesWatched: 1,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 2,
@@ -1077,6 +1311,8 @@ export const cassandreSeries: UserSeries = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 3,
@@ -1084,6 +1320,8 @@ export const cassandreSeries: UserSeries = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
     ],
     owned: false,
@@ -1104,6 +1342,8 @@ export const cassandreSeries: UserSeries = [
         seasonTimesWatched: 1,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 2,
@@ -1111,6 +1351,8 @@ export const cassandreSeries: UserSeries = [
         seasonTimesWatched: 1,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 3,
@@ -1118,6 +1360,8 @@ export const cassandreSeries: UserSeries = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 4,
@@ -1125,6 +1369,8 @@ export const cassandreSeries: UserSeries = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 5,
@@ -1132,6 +1378,8 @@ export const cassandreSeries: UserSeries = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 6,
@@ -1139,6 +1387,8 @@ export const cassandreSeries: UserSeries = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 7,
@@ -1146,6 +1396,8 @@ export const cassandreSeries: UserSeries = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
     ],
     owned: false,
@@ -1166,6 +1418,8 @@ export const cassandreSeries: UserSeries = [
         seasonTimesWatched: 1,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 2,
@@ -1173,6 +1427,8 @@ export const cassandreSeries: UserSeries = [
         seasonTimesWatched: 1,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 3,
@@ -1180,6 +1436,8 @@ export const cassandreSeries: UserSeries = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 4,
@@ -1187,6 +1445,8 @@ export const cassandreSeries: UserSeries = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 5,
@@ -1194,6 +1454,8 @@ export const cassandreSeries: UserSeries = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 6,
@@ -1201,6 +1463,8 @@ export const cassandreSeries: UserSeries = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 7,
@@ -1208,6 +1472,8 @@ export const cassandreSeries: UserSeries = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
     ],
     owned: false,
@@ -1228,6 +1494,8 @@ export const cassandreSeries: UserSeries = [
         seasonTimesWatched: 1,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 2,
@@ -1235,6 +1503,8 @@ export const cassandreSeries: UserSeries = [
         seasonTimesWatched: 1,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 3,
@@ -1242,6 +1512,8 @@ export const cassandreSeries: UserSeries = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 4,
@@ -1249,6 +1521,8 @@ export const cassandreSeries: UserSeries = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 5,
@@ -1256,6 +1530,8 @@ export const cassandreSeries: UserSeries = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 6,
@@ -1263,6 +1539,8 @@ export const cassandreSeries: UserSeries = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 7,
@@ -1270,6 +1548,8 @@ export const cassandreSeries: UserSeries = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 8,
@@ -1277,6 +1557,8 @@ export const cassandreSeries: UserSeries = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 9,
@@ -1284,6 +1566,8 @@ export const cassandreSeries: UserSeries = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 10,
@@ -1291,6 +1575,8 @@ export const cassandreSeries: UserSeries = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 11,
@@ -1298,6 +1584,8 @@ export const cassandreSeries: UserSeries = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
     ],
     owned: false,
@@ -1318,6 +1606,8 @@ export const cassandreSeries: UserSeries = [
         seasonTimesWatched: 1,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
     ],
     owned: false,
@@ -1338,6 +1628,8 @@ export const cassandreSeries: UserSeries = [
         seasonTimesWatched: 1,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 2,
@@ -1345,6 +1637,8 @@ export const cassandreSeries: UserSeries = [
         seasonTimesWatched: 1,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 3,
@@ -1352,6 +1646,8 @@ export const cassandreSeries: UserSeries = [
         seasonTimesWatched: 1,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 4,
@@ -1359,6 +1655,8 @@ export const cassandreSeries: UserSeries = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 5,
@@ -1366,6 +1664,8 @@ export const cassandreSeries: UserSeries = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 6,
@@ -1373,6 +1673,8 @@ export const cassandreSeries: UserSeries = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 7,
@@ -1380,6 +1682,8 @@ export const cassandreSeries: UserSeries = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 8,
@@ -1387,6 +1691,8 @@ export const cassandreSeries: UserSeries = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 9,
@@ -1394,6 +1700,8 @@ export const cassandreSeries: UserSeries = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 10,
@@ -1401,6 +1709,8 @@ export const cassandreSeries: UserSeries = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 11,
@@ -1408,6 +1718,8 @@ export const cassandreSeries: UserSeries = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 12,
@@ -1415,6 +1727,8 @@ export const cassandreSeries: UserSeries = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 13,
@@ -1422,6 +1736,8 @@ export const cassandreSeries: UserSeries = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 14,
@@ -1429,6 +1745,8 @@ export const cassandreSeries: UserSeries = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 15,
@@ -1436,6 +1754,8 @@ export const cassandreSeries: UserSeries = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 16,
@@ -1443,6 +1763,8 @@ export const cassandreSeries: UserSeries = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 17,
@@ -1450,6 +1772,8 @@ export const cassandreSeries: UserSeries = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 18,
@@ -1457,6 +1781,8 @@ export const cassandreSeries: UserSeries = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 19,
@@ -1464,6 +1790,8 @@ export const cassandreSeries: UserSeries = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 20,
@@ -1471,6 +1799,8 @@ export const cassandreSeries: UserSeries = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 21,
@@ -1478,6 +1808,8 @@ export const cassandreSeries: UserSeries = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 22,
@@ -1485,6 +1817,8 @@ export const cassandreSeries: UserSeries = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 23,
@@ -1492,6 +1826,8 @@ export const cassandreSeries: UserSeries = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 24,
@@ -1499,6 +1835,8 @@ export const cassandreSeries: UserSeries = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
     ],
     owned: false,
@@ -1519,6 +1857,8 @@ export const cassandreSeries: UserSeries = [
         seasonTimesWatched: 1,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
     ],
     owned: false,
@@ -1539,6 +1879,8 @@ export const cassandreSeries: UserSeries = [
         seasonTimesWatched: 1,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 2,
@@ -1546,6 +1888,8 @@ export const cassandreSeries: UserSeries = [
         seasonTimesWatched: 1,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 3,
@@ -1553,6 +1897,8 @@ export const cassandreSeries: UserSeries = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 4,
@@ -1560,6 +1906,8 @@ export const cassandreSeries: UserSeries = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
     ],
     owned: false,
@@ -1580,6 +1928,8 @@ export const cassandreSeries: UserSeries = [
         seasonTimesWatched: 1,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 2,
@@ -1587,6 +1937,8 @@ export const cassandreSeries: UserSeries = [
         seasonTimesWatched: 1,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 3,
@@ -1594,6 +1946,8 @@ export const cassandreSeries: UserSeries = [
         seasonTimesWatched: 1,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 4,
@@ -1601,6 +1955,8 @@ export const cassandreSeries: UserSeries = [
         seasonTimesWatched: 1,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 5,
@@ -1608,6 +1964,8 @@ export const cassandreSeries: UserSeries = [
         seasonTimesWatched: 1,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 6,
@@ -1615,6 +1973,8 @@ export const cassandreSeries: UserSeries = [
         seasonTimesWatched: 1,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 7,
@@ -1622,6 +1982,8 @@ export const cassandreSeries: UserSeries = [
         seasonTimesWatched: 1,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 8,
@@ -1629,6 +1991,8 @@ export const cassandreSeries: UserSeries = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
     ],
     owned: false,
@@ -1649,6 +2013,8 @@ export const cassandreSeries: UserSeries = [
         seasonTimesWatched: 10,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
     ],
     owned: false,
@@ -1669,6 +2035,8 @@ export const cassandreSeries: UserSeries = [
         seasonTimesWatched: 1,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
     ],
     owned: false,
@@ -1689,6 +2057,8 @@ export const cassandreSeries: UserSeries = [
         seasonTimesWatched: 1,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 2,
@@ -1696,6 +2066,8 @@ export const cassandreSeries: UserSeries = [
         seasonTimesWatched: 1,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
     ],
     owned: false,
@@ -1716,6 +2088,8 @@ export const cassandreSeries: UserSeries = [
         seasonTimesWatched: 2,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 2,
@@ -1723,6 +2097,8 @@ export const cassandreSeries: UserSeries = [
         seasonTimesWatched: 2,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
     ],
     owned: false,
@@ -1743,6 +2119,8 @@ export const cassandreSeries: UserSeries = [
         seasonTimesWatched: 1,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 2,
@@ -1750,6 +2128,8 @@ export const cassandreSeries: UserSeries = [
         seasonTimesWatched: 1,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 3,
@@ -1757,6 +2137,8 @@ export const cassandreSeries: UserSeries = [
         seasonTimesWatched: 1,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 4,
@@ -1764,6 +2146,8 @@ export const cassandreSeries: UserSeries = [
         seasonTimesWatched: 1,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
     ],
     owned: false,
@@ -1784,6 +2168,8 @@ export const cassandreSeries: UserSeries = [
         seasonTimesWatched: 1,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 2,
@@ -1791,6 +2177,8 @@ export const cassandreSeries: UserSeries = [
         seasonTimesWatched: 1,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 3,
@@ -1798,6 +2186,8 @@ export const cassandreSeries: UserSeries = [
         seasonTimesWatched: 1,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
     ],
     owned: false,
@@ -1818,6 +2208,8 @@ export const cassandreSeries: UserSeries = [
         seasonTimesWatched: 1,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 2,
@@ -1825,6 +2217,8 @@ export const cassandreSeries: UserSeries = [
         seasonTimesWatched: 1,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
     ],
     owned: false,
@@ -1845,6 +2239,8 @@ export const cassandreSeries: UserSeries = [
         seasonTimesWatched: 5,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 2,
@@ -1852,6 +2248,8 @@ export const cassandreSeries: UserSeries = [
         seasonTimesWatched: 5,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 3,
@@ -1859,6 +2257,8 @@ export const cassandreSeries: UserSeries = [
         seasonTimesWatched: 1,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
     ],
     owned: false,
@@ -1878,6 +2278,8 @@ export const cassandreSeries: UserSeries = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 2,
@@ -1885,6 +2287,8 @@ export const cassandreSeries: UserSeries = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
     ],
     owned: false,
@@ -1904,6 +2308,8 @@ export const cassandreSeries: UserSeries = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
     ],
     owned: false,
@@ -1923,6 +2329,8 @@ export const cassandreSeries: UserSeries = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 2,
@@ -1930,6 +2338,8 @@ export const cassandreSeries: UserSeries = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 3,
@@ -1937,6 +2347,8 @@ export const cassandreSeries: UserSeries = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
     ],
     owned: false,
@@ -1956,6 +2368,8 @@ export const cassandreSeries: UserSeries = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
     ],
     owned: false,
@@ -1975,6 +2389,8 @@ export const cassandreSeries: UserSeries = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 2,
@@ -1982,6 +2398,8 @@ export const cassandreSeries: UserSeries = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 3,
@@ -1989,6 +2407,8 @@ export const cassandreSeries: UserSeries = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 4,
@@ -1996,6 +2416,8 @@ export const cassandreSeries: UserSeries = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
     ],
     owned: false,
@@ -2015,6 +2437,8 @@ export const cassandreSeries: UserSeries = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 2,
@@ -2022,6 +2446,8 @@ export const cassandreSeries: UserSeries = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 3,
@@ -2029,6 +2455,8 @@ export const cassandreSeries: UserSeries = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 4,
@@ -2036,6 +2464,8 @@ export const cassandreSeries: UserSeries = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
     ],
     owned: false,
@@ -2055,6 +2485,8 @@ export const cassandreSeries: UserSeries = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 2,
@@ -2062,6 +2494,8 @@ export const cassandreSeries: UserSeries = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 3,
@@ -2069,6 +2503,8 @@ export const cassandreSeries: UserSeries = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 4,
@@ -2076,6 +2512,8 @@ export const cassandreSeries: UserSeries = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 5,
@@ -2083,6 +2521,8 @@ export const cassandreSeries: UserSeries = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 6,
@@ -2090,6 +2530,8 @@ export const cassandreSeries: UserSeries = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 7,
@@ -2097,6 +2539,8 @@ export const cassandreSeries: UserSeries = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 8,
@@ -2104,6 +2548,8 @@ export const cassandreSeries: UserSeries = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 9,
@@ -2111,6 +2557,8 @@ export const cassandreSeries: UserSeries = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
     ],
     owned: false,
@@ -2130,6 +2578,8 @@ export const cassandreSeries: UserSeries = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 2,
@@ -2137,6 +2587,8 @@ export const cassandreSeries: UserSeries = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
     ],
     owned: false,
@@ -2156,6 +2608,8 @@ export const cassandreSeries: UserSeries = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
     ],
     owned: false,
@@ -2175,6 +2629,8 @@ export const cassandreSeries: UserSeries = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
     ],
     owned: false,
@@ -2194,6 +2650,8 @@ export const cassandreSeries: UserSeries = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
     ],
     owned: false,
@@ -2213,6 +2671,8 @@ export const cassandreSeries: UserSeries = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 2,
@@ -2220,6 +2680,8 @@ export const cassandreSeries: UserSeries = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
     ],
     owned: false,
@@ -2239,6 +2701,8 @@ export const cassandreSeries: UserSeries = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 2,
@@ -2246,6 +2710,8 @@ export const cassandreSeries: UserSeries = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 3,
@@ -2253,6 +2719,8 @@ export const cassandreSeries: UserSeries = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 4,
@@ -2260,6 +2728,8 @@ export const cassandreSeries: UserSeries = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 5,
@@ -2267,6 +2737,8 @@ export const cassandreSeries: UserSeries = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 6,
@@ -2274,6 +2746,8 @@ export const cassandreSeries: UserSeries = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 7,
@@ -2281,6 +2755,8 @@ export const cassandreSeries: UserSeries = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 8,
@@ -2288,6 +2764,8 @@ export const cassandreSeries: UserSeries = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 9,
@@ -2295,6 +2773,8 @@ export const cassandreSeries: UserSeries = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
     ],
     owned: false,
@@ -2314,6 +2794,8 @@ export const cassandreSeries: UserSeries = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
     ],
     owned: false,
@@ -2333,6 +2815,8 @@ export const cassandreSeries: UserSeries = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
     ],
     owned: false,
@@ -2352,6 +2836,8 @@ export const cassandreSeries: UserSeries = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
     ],
     owned: false,
@@ -2371,6 +2857,8 @@ export const cassandreSeries: UserSeries = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 2,
@@ -2378,6 +2866,8 @@ export const cassandreSeries: UserSeries = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
     ],
     owned: false,
@@ -2397,6 +2887,8 @@ export const cassandreSeries: UserSeries = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
     ],
     owned: false,
@@ -2416,6 +2908,8 @@ export const cassandreSeries: UserSeries = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 2,
@@ -2423,6 +2917,8 @@ export const cassandreSeries: UserSeries = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 3,
@@ -2430,6 +2926,8 @@ export const cassandreSeries: UserSeries = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 4,
@@ -2437,6 +2935,8 @@ export const cassandreSeries: UserSeries = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
     ],
     owned: false,
@@ -2456,6 +2956,8 @@ export const cassandreSeries: UserSeries = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
     ],
     owned: false,
@@ -2475,6 +2977,8 @@ export const cassandreSeries: UserSeries = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 2,
@@ -2482,6 +2986,8 @@ export const cassandreSeries: UserSeries = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 3,
@@ -2489,6 +2995,8 @@ export const cassandreSeries: UserSeries = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 4,
@@ -2496,6 +3004,8 @@ export const cassandreSeries: UserSeries = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
     ],
     owned: false,
@@ -2515,6 +3025,8 @@ export const cassandreSeries: UserSeries = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
     ],
     owned: false,
@@ -2534,6 +3046,8 @@ export const cassandreSeries: UserSeries = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 2,
@@ -2541,6 +3055,8 @@ export const cassandreSeries: UserSeries = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
     ],
     owned: false,
@@ -2560,6 +3076,8 @@ export const cassandreSeries: UserSeries = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
     ],
     owned: false,
@@ -2579,6 +3097,8 @@ export const cassandreSeries: UserSeries = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 2,
@@ -2586,6 +3106,8 @@ export const cassandreSeries: UserSeries = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 3,
@@ -2593,6 +3115,8 @@ export const cassandreSeries: UserSeries = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
     ],
     owned: false,
@@ -2612,6 +3136,8 @@ export const cassandreSeries: UserSeries = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 2,
@@ -2619,6 +3145,8 @@ export const cassandreSeries: UserSeries = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
     ],
     owned: false,
@@ -2638,6 +3166,8 @@ export const cassandreSeries: UserSeries = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 2,
@@ -2645,6 +3175,8 @@ export const cassandreSeries: UserSeries = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
     ],
     owned: false,
@@ -2664,6 +3196,8 @@ export const cassandreSeries: UserSeries = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
     ],
     owned: false,
@@ -2683,6 +3217,8 @@ export const cassandreSeries: UserSeries = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 2,
@@ -2690,6 +3226,8 @@ export const cassandreSeries: UserSeries = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
     ],
     owned: false,
@@ -2709,6 +3247,8 @@ export const cassandreSeries: UserSeries = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 2,
@@ -2716,6 +3256,8 @@ export const cassandreSeries: UserSeries = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
     ],
     owned: false,
@@ -2735,6 +3277,8 @@ export const cassandreSeries: UserSeries = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
     ],
     owned: false,
@@ -2754,6 +3298,8 @@ export const cassandreSeries: UserSeries = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 2,
@@ -2761,6 +3307,8 @@ export const cassandreSeries: UserSeries = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 3,
@@ -2768,6 +3316,8 @@ export const cassandreSeries: UserSeries = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
     ],
     owned: false,
@@ -2787,6 +3337,8 @@ export const cassandreSeries: UserSeries = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
     ],
     owned: false,
@@ -2806,6 +3358,8 @@ export const cassandreSeries: UserSeries = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
     ],
     owned: false,
@@ -2825,6 +3379,8 @@ export const cassandreSeries: UserSeries = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
     ],
     owned: false,
@@ -2844,6 +3400,8 @@ export const cassandreSeries: UserSeries = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
     ],
     owned: false,
@@ -2863,6 +3421,8 @@ export const cassandreSeries: UserSeries = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
     ],
     owned: false,
@@ -2882,6 +3442,8 @@ export const cassandreSeries: UserSeries = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 2,
@@ -2889,6 +3451,8 @@ export const cassandreSeries: UserSeries = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 3,
@@ -2896,6 +3460,8 @@ export const cassandreSeries: UserSeries = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 4,
@@ -2903,6 +3469,8 @@ export const cassandreSeries: UserSeries = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 5,
@@ -2910,6 +3478,8 @@ export const cassandreSeries: UserSeries = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
     ],
     owned: false,
@@ -2929,6 +3499,8 @@ export const cassandreSeries: UserSeries = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 2,
@@ -2936,6 +3508,8 @@ export const cassandreSeries: UserSeries = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 3,
@@ -2943,6 +3517,8 @@ export const cassandreSeries: UserSeries = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 4,
@@ -2950,6 +3526,8 @@ export const cassandreSeries: UserSeries = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 5,
@@ -2957,6 +3535,8 @@ export const cassandreSeries: UserSeries = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
     ],
     owned: false,
@@ -2976,6 +3556,8 @@ export const cassandreSeries: UserSeries = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 2,
@@ -2983,6 +3565,8 @@ export const cassandreSeries: UserSeries = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 3,
@@ -2990,6 +3574,8 @@ export const cassandreSeries: UserSeries = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
     ],
     owned: false,
@@ -3009,6 +3595,8 @@ export const cassandreSeries: UserSeries = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
     ],
     owned: false,
@@ -3028,6 +3616,8 @@ export const cassandreSeries: UserSeries = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
     ],
     owned: false,
@@ -3047,6 +3637,8 @@ export const cassandreSeries: UserSeries = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
     ],
     owned: false,
@@ -3066,6 +3658,8 @@ export const cassandreSeries: UserSeries = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
     ],
     owned: false,
@@ -3085,6 +3679,8 @@ export const cassandreSeries: UserSeries = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
     ],
     owned: false,
@@ -3104,6 +3700,8 @@ export const cassandreSeries: UserSeries = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
     ],
     owned: false,
@@ -3123,6 +3721,8 @@ export const cassandreSeries: UserSeries = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
     ],
     owned: false,
@@ -3142,6 +3742,8 @@ export const cassandreSeries: UserSeries = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
     ],
     owned: false,
@@ -3161,6 +3763,8 @@ export const cassandreSeries: UserSeries = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
     ],
     owned: false,
@@ -3180,6 +3784,8 @@ export const cassandreSeries: UserSeries = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
     ],
     owned: false,
@@ -3199,6 +3805,8 @@ export const cassandreSeries: UserSeries = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
     ],
     owned: false,
@@ -3218,6 +3826,8 @@ export const cassandreSeries: UserSeries = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
     ],
     owned: false,
@@ -3237,6 +3847,8 @@ export const cassandreSeries: UserSeries = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
     ],
     owned: false,
@@ -3256,6 +3868,8 @@ export const cassandreSeries: UserSeries = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
     ],
     owned: false,
@@ -3275,6 +3889,8 @@ export const cassandreSeries: UserSeries = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
     ],
     owned: false,
@@ -3294,6 +3910,8 @@ export const cassandreSeries: UserSeries = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
     ],
     owned: false,
@@ -3314,6 +3932,8 @@ export const cassandreSeries: UserSeries = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 2,
@@ -3321,6 +3941,8 @@ export const cassandreSeries: UserSeries = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 3,
@@ -3328,6 +3950,8 @@ export const cassandreSeries: UserSeries = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 4,
@@ -3335,6 +3959,8 @@ export const cassandreSeries: UserSeries = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
     ],
     owned: false,
@@ -3355,6 +3981,8 @@ export const cassandreSeries: UserSeries = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
     ],
     owned: false,
@@ -3375,6 +4003,8 @@ export const cassandreSeries: UserSeries = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 2,
@@ -3382,6 +4012,8 @@ export const cassandreSeries: UserSeries = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 3,
@@ -3389,6 +4021,8 @@ export const cassandreSeries: UserSeries = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 4,
@@ -3396,6 +4030,8 @@ export const cassandreSeries: UserSeries = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 5,
@@ -3403,6 +4039,8 @@ export const cassandreSeries: UserSeries = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 6,
@@ -3410,6 +4048,8 @@ export const cassandreSeries: UserSeries = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 7,
@@ -3417,6 +4057,8 @@ export const cassandreSeries: UserSeries = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
     ],
     owned: false,
@@ -3437,6 +4079,8 @@ export const cassandreSeries: UserSeries = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 2,
@@ -3444,6 +4088,8 @@ export const cassandreSeries: UserSeries = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 3,
@@ -3451,6 +4097,8 @@ export const cassandreSeries: UserSeries = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 4,
@@ -3458,6 +4106,8 @@ export const cassandreSeries: UserSeries = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 5,
@@ -3465,6 +4115,8 @@ export const cassandreSeries: UserSeries = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
     ],
     owned: false,
@@ -3485,6 +4137,8 @@ export const cassandreSeries: UserSeries = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 2,
@@ -3492,6 +4146,8 @@ export const cassandreSeries: UserSeries = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 3,
@@ -3499,6 +4155,8 @@ export const cassandreSeries: UserSeries = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 4,
@@ -3506,6 +4164,8 @@ export const cassandreSeries: UserSeries = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 5,
@@ -3513,6 +4173,8 @@ export const cassandreSeries: UserSeries = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
     ],
     owned: false,
@@ -3533,6 +4195,8 @@ export const cassandreSeries: UserSeries = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 2,
@@ -3540,6 +4204,8 @@ export const cassandreSeries: UserSeries = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 3,
@@ -3547,6 +4213,8 @@ export const cassandreSeries: UserSeries = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 4,
@@ -3554,6 +4222,8 @@ export const cassandreSeries: UserSeries = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
     ],
     owned: false,
@@ -3574,6 +4244,8 @@ export const cassandreSeries: UserSeries = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 2,
@@ -3581,6 +4253,8 @@ export const cassandreSeries: UserSeries = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 3,
@@ -3588,6 +4262,8 @@ export const cassandreSeries: UserSeries = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
     ],
     owned: false,
@@ -3608,6 +4284,8 @@ export const cassandreSeries: UserSeries = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 2,
@@ -3615,6 +4293,8 @@ export const cassandreSeries: UserSeries = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 3,
@@ -3622,6 +4302,8 @@ export const cassandreSeries: UserSeries = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
     ],
     owned: false,
@@ -3642,6 +4324,8 @@ export const cassandreSeries: UserSeries = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 2,
@@ -3649,6 +4333,8 @@ export const cassandreSeries: UserSeries = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
     ],
     owned: false,
@@ -3669,6 +4355,8 @@ export const cassandreSeries: UserSeries = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 2,
@@ -3676,6 +4364,8 @@ export const cassandreSeries: UserSeries = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
     ],
     owned: false,
@@ -3696,6 +4386,8 @@ export const cassandreSeries: UserSeries = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
     ],
     owned: false,
@@ -3716,6 +4408,8 @@ export const cassandreSeries: UserSeries = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 2,
@@ -3723,6 +4417,8 @@ export const cassandreSeries: UserSeries = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
     ],
     owned: false,
@@ -3743,6 +4439,8 @@ export const cassandreSeries: UserSeries = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 2,
@@ -3750,6 +4448,8 @@ export const cassandreSeries: UserSeries = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
     ],
     owned: false,
@@ -3770,6 +4470,8 @@ export const cassandreSeries: UserSeries = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 2,
@@ -3777,6 +4479,8 @@ export const cassandreSeries: UserSeries = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 3,
@@ -3784,6 +4488,8 @@ export const cassandreSeries: UserSeries = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
     ],
     owned: false,
@@ -3804,6 +4510,8 @@ export const cassandreSeries: UserSeries = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 2,
@@ -3811,6 +4519,8 @@ export const cassandreSeries: UserSeries = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 3,
@@ -3818,6 +4528,8 @@ export const cassandreSeries: UserSeries = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 4,
@@ -3825,6 +4537,8 @@ export const cassandreSeries: UserSeries = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 5,
@@ -3832,6 +4546,8 @@ export const cassandreSeries: UserSeries = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
     ],
     owned: false,
@@ -3852,6 +4568,8 @@ export const cassandreSeries: UserSeries = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 2,
@@ -3859,6 +4577,8 @@ export const cassandreSeries: UserSeries = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
     ],
     owned: false,
@@ -3879,6 +4599,8 @@ export const cassandreSeries: UserSeries = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
     ],
     owned: false,
@@ -3899,6 +4621,8 @@ export const cassandreSeries: UserSeries = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 2,
@@ -3906,6 +4630,8 @@ export const cassandreSeries: UserSeries = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 3,
@@ -3913,6 +4639,8 @@ export const cassandreSeries: UserSeries = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 4,
@@ -3920,6 +4648,8 @@ export const cassandreSeries: UserSeries = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
     ],
     owned: false,
@@ -3940,6 +4670,8 @@ export const cassandreSeries: UserSeries = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
     ],
     owned: false,
@@ -3960,6 +4692,8 @@ export const cassandreSeries: UserSeries = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 2,
@@ -3967,6 +4701,8 @@ export const cassandreSeries: UserSeries = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 3,
@@ -3974,6 +4710,8 @@ export const cassandreSeries: UserSeries = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 4,
@@ -3981,6 +4719,8 @@ export const cassandreSeries: UserSeries = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 5,
@@ -3988,6 +4728,8 @@ export const cassandreSeries: UserSeries = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
     ],
     owned: false,
@@ -4008,6 +4750,8 @@ export const cassandreSeries: UserSeries = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 2,
@@ -4015,6 +4759,8 @@ export const cassandreSeries: UserSeries = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
     ],
     owned: false,
@@ -4035,6 +4781,8 @@ export const cassandreSeries: UserSeries = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
     ],
     owned: false,
@@ -4055,6 +4803,8 @@ export const cassandreSeries: UserSeries = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 2,
@@ -4062,6 +4812,8 @@ export const cassandreSeries: UserSeries = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 3,
@@ -4069,6 +4821,8 @@ export const cassandreSeries: UserSeries = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 4,
@@ -4076,6 +4830,8 @@ export const cassandreSeries: UserSeries = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 5,
@@ -4083,6 +4839,8 @@ export const cassandreSeries: UserSeries = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 6,
@@ -4090,6 +4848,8 @@ export const cassandreSeries: UserSeries = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 7,
@@ -4097,6 +4857,8 @@ export const cassandreSeries: UserSeries = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
     ],
     owned: false,
@@ -4117,6 +4879,8 @@ export const cassandreSeries: UserSeries = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 2,
@@ -4124,6 +4888,8 @@ export const cassandreSeries: UserSeries = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 3,
@@ -4131,6 +4897,8 @@ export const cassandreSeries: UserSeries = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 4,
@@ -4138,6 +4906,8 @@ export const cassandreSeries: UserSeries = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 5,
@@ -4145,6 +4915,8 @@ export const cassandreSeries: UserSeries = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 6,
@@ -4152,6 +4924,8 @@ export const cassandreSeries: UserSeries = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 7,
@@ -4159,6 +4933,8 @@ export const cassandreSeries: UserSeries = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
     ],
     owned: false,
@@ -4179,6 +4955,8 @@ export const cassandreSeries: UserSeries = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 2,
@@ -4186,6 +4964,8 @@ export const cassandreSeries: UserSeries = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 3,
@@ -4193,6 +4973,8 @@ export const cassandreSeries: UserSeries = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 4,
@@ -4200,6 +4982,8 @@ export const cassandreSeries: UserSeries = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 5,
@@ -4207,6 +4991,8 @@ export const cassandreSeries: UserSeries = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 6,
@@ -4214,6 +5000,8 @@ export const cassandreSeries: UserSeries = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 7,
@@ -4221,6 +5009,8 @@ export const cassandreSeries: UserSeries = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 8,
@@ -4228,6 +5018,8 @@ export const cassandreSeries: UserSeries = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
     ],
     owned: false,
@@ -4248,6 +5040,8 @@ export const cassandreSeries: UserSeries = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
     ],
     owned: false,
@@ -4268,6 +5062,8 @@ export const cassandreSeries: UserSeries = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 2,
@@ -4275,6 +5071,8 @@ export const cassandreSeries: UserSeries = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 3,
@@ -4282,6 +5080,8 @@ export const cassandreSeries: UserSeries = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 4,
@@ -4289,6 +5089,8 @@ export const cassandreSeries: UserSeries = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 5,
@@ -4296,6 +5098,8 @@ export const cassandreSeries: UserSeries = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 6,
@@ -4303,6 +5107,8 @@ export const cassandreSeries: UserSeries = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 7,
@@ -4310,6 +5116,8 @@ export const cassandreSeries: UserSeries = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 8,
@@ -4317,6 +5125,8 @@ export const cassandreSeries: UserSeries = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 9,
@@ -4324,6 +5134,8 @@ export const cassandreSeries: UserSeries = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 10,
@@ -4331,6 +5143,8 @@ export const cassandreSeries: UserSeries = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 11,
@@ -4338,6 +5152,8 @@ export const cassandreSeries: UserSeries = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 12,
@@ -4345,6 +5161,8 @@ export const cassandreSeries: UserSeries = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 13,
@@ -4352,6 +5170,8 @@ export const cassandreSeries: UserSeries = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 14,
@@ -4359,6 +5179,8 @@ export const cassandreSeries: UserSeries = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 15,
@@ -4366,6 +5188,8 @@ export const cassandreSeries: UserSeries = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 16,
@@ -4373,6 +5197,8 @@ export const cassandreSeries: UserSeries = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 17,
@@ -4380,6 +5206,8 @@ export const cassandreSeries: UserSeries = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 18,
@@ -4387,6 +5215,8 @@ export const cassandreSeries: UserSeries = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 19,
@@ -4394,6 +5224,8 @@ export const cassandreSeries: UserSeries = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 20,
@@ -4401,6 +5233,8 @@ export const cassandreSeries: UserSeries = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 21,
@@ -4408,6 +5242,8 @@ export const cassandreSeries: UserSeries = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 22,
@@ -4415,6 +5251,8 @@ export const cassandreSeries: UserSeries = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
     ],
     owned: false,
@@ -4435,6 +5273,8 @@ export const cassandreSeries: UserSeries = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
     ],
     owned: false,
@@ -4455,6 +5295,8 @@ export const cassandreSeries: UserSeries = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 2,
@@ -4462,6 +5304,8 @@ export const cassandreSeries: UserSeries = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 3,
@@ -4469,6 +5313,8 @@ export const cassandreSeries: UserSeries = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 4,
@@ -4476,6 +5322,8 @@ export const cassandreSeries: UserSeries = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 5,
@@ -4483,6 +5331,8 @@ export const cassandreSeries: UserSeries = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 6,
@@ -4490,6 +5340,8 @@ export const cassandreSeries: UserSeries = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
     ],
     owned: false,
@@ -4510,6 +5362,8 @@ export const cassandreSeries: UserSeries = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 2,
@@ -4517,6 +5371,8 @@ export const cassandreSeries: UserSeries = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
     ],
     owned: false,
@@ -4537,6 +5393,8 @@ export const cassandreSeries: UserSeries = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
     ],
     owned: false,
@@ -4557,6 +5415,8 @@ export const cassandreSeries: UserSeries = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 2,
@@ -4564,6 +5424,8 @@ export const cassandreSeries: UserSeries = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
     ],
     owned: false,
@@ -4584,6 +5446,8 @@ export const cassandreSeries: UserSeries = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 2,
@@ -4591,6 +5455,8 @@ export const cassandreSeries: UserSeries = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 3,
@@ -4598,6 +5464,8 @@ export const cassandreSeries: UserSeries = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 4,
@@ -4605,6 +5473,8 @@ export const cassandreSeries: UserSeries = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
     ],
     owned: false,
@@ -4625,6 +5495,8 @@ export const cassandreSeries: UserSeries = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 2,
@@ -4632,6 +5504,8 @@ export const cassandreSeries: UserSeries = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 3,
@@ -4639,6 +5513,8 @@ export const cassandreSeries: UserSeries = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 4,
@@ -4646,6 +5522,8 @@ export const cassandreSeries: UserSeries = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 5,
@@ -4653,6 +5531,8 @@ export const cassandreSeries: UserSeries = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 6,
@@ -4660,6 +5540,8 @@ export const cassandreSeries: UserSeries = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 7,
@@ -4667,6 +5549,8 @@ export const cassandreSeries: UserSeries = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 8,
@@ -4674,6 +5558,8 @@ export const cassandreSeries: UserSeries = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
     ],
     owned: false,
@@ -4694,6 +5580,8 @@ export const cassandreSeries: UserSeries = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 2,
@@ -4701,6 +5589,8 @@ export const cassandreSeries: UserSeries = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 3,
@@ -4708,6 +5598,8 @@ export const cassandreSeries: UserSeries = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 4,
@@ -4715,6 +5607,8 @@ export const cassandreSeries: UserSeries = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
     ],
     owned: false,
@@ -4735,6 +5629,8 @@ export const cassandreSeries: UserSeries = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 2,
@@ -4742,6 +5638,8 @@ export const cassandreSeries: UserSeries = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
     ],
     owned: false,
@@ -4762,6 +5660,8 @@ export const cassandreSeries: UserSeries = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 2,
@@ -4769,6 +5669,8 @@ export const cassandreSeries: UserSeries = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 3,
@@ -4776,6 +5678,8 @@ export const cassandreSeries: UserSeries = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 4,
@@ -4783,6 +5687,8 @@ export const cassandreSeries: UserSeries = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 5,
@@ -4790,6 +5696,8 @@ export const cassandreSeries: UserSeries = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 6,
@@ -4797,6 +5705,8 @@ export const cassandreSeries: UserSeries = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
     ],
     owned: false,

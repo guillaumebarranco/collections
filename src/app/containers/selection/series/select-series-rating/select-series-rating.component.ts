@@ -84,6 +84,7 @@ export class SelectSeriesRatingComponent
       seasonTimesWatched: 0,
       firstViewedDate: '',
       lastViewedDate: '',
+      otherViewedDates: [],
     }));
   }
 

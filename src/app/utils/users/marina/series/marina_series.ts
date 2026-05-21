@@ -11,6 +11,8 @@ export const marinaSeries: UserSerie[] = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 2,
@@ -18,6 +20,8 @@ export const marinaSeries: UserSerie[] = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 3,
@@ -25,6 +29,8 @@ export const marinaSeries: UserSerie[] = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 4,
@@ -32,6 +38,8 @@ export const marinaSeries: UserSerie[] = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
     ],
     owned: false,
@@ -52,6 +60,8 @@ export const marinaSeries: UserSerie[] = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
     ],
     owned: false,
@@ -72,6 +82,8 @@ export const marinaSeries: UserSerie[] = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 2,
@@ -79,6 +91,8 @@ export const marinaSeries: UserSerie[] = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 3,
@@ -86,6 +100,8 @@ export const marinaSeries: UserSerie[] = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 4,
@@ -93,6 +109,8 @@ export const marinaSeries: UserSerie[] = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 5,
@@ -100,6 +118,8 @@ export const marinaSeries: UserSerie[] = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 6,
@@ -107,6 +127,8 @@ export const marinaSeries: UserSerie[] = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 7,
@@ -114,6 +136,8 @@ export const marinaSeries: UserSerie[] = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
     ],
     owned: false,
@@ -134,6 +158,8 @@ export const marinaSeries: UserSerie[] = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 2,
@@ -141,6 +167,8 @@ export const marinaSeries: UserSerie[] = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 3,
@@ -148,6 +176,8 @@ export const marinaSeries: UserSerie[] = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 4,
@@ -155,6 +185,8 @@ export const marinaSeries: UserSerie[] = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 5,
@@ -162,6 +194,8 @@ export const marinaSeries: UserSerie[] = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 6,
@@ -169,6 +203,8 @@ export const marinaSeries: UserSerie[] = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 7,
@@ -176,6 +212,8 @@ export const marinaSeries: UserSerie[] = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 8,
@@ -183,6 +221,8 @@ export const marinaSeries: UserSerie[] = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
     ],
     owned: false,
@@ -203,6 +243,8 @@ export const marinaSeries: UserSerie[] = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 2,
@@ -210,6 +252,8 @@ export const marinaSeries: UserSerie[] = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 3,
@@ -217,6 +261,8 @@ export const marinaSeries: UserSerie[] = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 4,
@@ -224,6 +270,8 @@ export const marinaSeries: UserSerie[] = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 5,
@@ -231,6 +279,8 @@ export const marinaSeries: UserSerie[] = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 6,
@@ -238,6 +288,8 @@ export const marinaSeries: UserSerie[] = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 7,
@@ -245,6 +297,8 @@ export const marinaSeries: UserSerie[] = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 8,
@@ -252,6 +306,8 @@ export const marinaSeries: UserSerie[] = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
     ],
     owned: false,
@@ -272,6 +328,8 @@ export const marinaSeries: UserSerie[] = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 2,
@@ -279,6 +337,8 @@ export const marinaSeries: UserSerie[] = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 3,
@@ -286,6 +346,8 @@ export const marinaSeries: UserSerie[] = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 4,
@@ -293,6 +355,8 @@ export const marinaSeries: UserSerie[] = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
     ],
     owned: false,
@@ -313,6 +377,8 @@ export const marinaSeries: UserSerie[] = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 2,
@@ -320,6 +386,8 @@ export const marinaSeries: UserSerie[] = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 3,
@@ -327,6 +395,8 @@ export const marinaSeries: UserSerie[] = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 4,
@@ -334,6 +404,8 @@ export const marinaSeries: UserSerie[] = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 5,
@@ -341,6 +413,8 @@ export const marinaSeries: UserSerie[] = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
     ],
     owned: false,
@@ -361,6 +435,8 @@ export const marinaSeries: UserSerie[] = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 2,
@@ -368,6 +444,8 @@ export const marinaSeries: UserSerie[] = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 3,
@@ -375,6 +453,8 @@ export const marinaSeries: UserSerie[] = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
     ],
     owned: false,
@@ -395,6 +475,8 @@ export const marinaSeries: UserSerie[] = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 2,
@@ -402,6 +484,8 @@ export const marinaSeries: UserSerie[] = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 3,
@@ -409,6 +493,8 @@ export const marinaSeries: UserSerie[] = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 4,
@@ -416,6 +502,8 @@ export const marinaSeries: UserSerie[] = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 5,
@@ -423,6 +511,8 @@ export const marinaSeries: UserSerie[] = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 6,
@@ -430,6 +520,8 @@ export const marinaSeries: UserSerie[] = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
     ],
     owned: false,
@@ -450,6 +542,8 @@ export const marinaSeries: UserSerie[] = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 2,
@@ -457,6 +551,8 @@ export const marinaSeries: UserSerie[] = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 3,
@@ -464,6 +560,8 @@ export const marinaSeries: UserSerie[] = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 4,
@@ -471,6 +569,8 @@ export const marinaSeries: UserSerie[] = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 5,
@@ -478,6 +578,8 @@ export const marinaSeries: UserSerie[] = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 6,
@@ -485,6 +587,8 @@ export const marinaSeries: UserSerie[] = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 7,
@@ -492,6 +596,8 @@ export const marinaSeries: UserSerie[] = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
     ],
     owned: false,
@@ -512,6 +618,8 @@ export const marinaSeries: UserSerie[] = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 2,
@@ -519,6 +627,8 @@ export const marinaSeries: UserSerie[] = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 3,
@@ -526,6 +636,8 @@ export const marinaSeries: UserSerie[] = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 4,
@@ -533,6 +645,8 @@ export const marinaSeries: UserSerie[] = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 5,
@@ -540,6 +654,8 @@ export const marinaSeries: UserSerie[] = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
     ],
     owned: false,
@@ -560,6 +676,8 @@ export const marinaSeries: UserSerie[] = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
     ],
     owned: false,
@@ -580,6 +698,8 @@ export const marinaSeries: UserSerie[] = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 2,
@@ -587,6 +707,8 @@ export const marinaSeries: UserSerie[] = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 3,
@@ -594,6 +716,8 @@ export const marinaSeries: UserSerie[] = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
     ],
     owned: false,
@@ -614,6 +738,8 @@ export const marinaSeries: UserSerie[] = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 2,
@@ -621,6 +747,8 @@ export const marinaSeries: UserSerie[] = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 3,
@@ -628,6 +756,8 @@ export const marinaSeries: UserSerie[] = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 4,
@@ -635,6 +765,8 @@ export const marinaSeries: UserSerie[] = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 5,
@@ -642,6 +774,8 @@ export const marinaSeries: UserSerie[] = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
     ],
     owned: false,
@@ -662,6 +796,8 @@ export const marinaSeries: UserSerie[] = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
     ],
     owned: false,
@@ -682,6 +818,8 @@ export const marinaSeries: UserSerie[] = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 2,
@@ -689,6 +827,8 @@ export const marinaSeries: UserSerie[] = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
     ],
     owned: false,
@@ -709,6 +849,8 @@ export const marinaSeries: UserSerie[] = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 2,
@@ -716,6 +858,8 @@ export const marinaSeries: UserSerie[] = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 3,
@@ -723,6 +867,8 @@ export const marinaSeries: UserSerie[] = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 4,
@@ -730,6 +876,8 @@ export const marinaSeries: UserSerie[] = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
     ],
     owned: false,
@@ -750,6 +898,8 @@ export const marinaSeries: UserSerie[] = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 2,
@@ -757,6 +907,8 @@ export const marinaSeries: UserSerie[] = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 3,
@@ -764,6 +916,8 @@ export const marinaSeries: UserSerie[] = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 4,
@@ -771,6 +925,8 @@ export const marinaSeries: UserSerie[] = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 5,
@@ -778,6 +934,8 @@ export const marinaSeries: UserSerie[] = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
     ],
     owned: false,
@@ -798,6 +956,8 @@ export const marinaSeries: UserSerie[] = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 2,
@@ -805,6 +965,8 @@ export const marinaSeries: UserSerie[] = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 3,
@@ -812,6 +974,8 @@ export const marinaSeries: UserSerie[] = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 4,
@@ -819,6 +983,8 @@ export const marinaSeries: UserSerie[] = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 5,
@@ -826,6 +992,8 @@ export const marinaSeries: UserSerie[] = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 6,
@@ -833,6 +1001,8 @@ export const marinaSeries: UserSerie[] = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
     ],
     owned: false,
@@ -853,6 +1023,8 @@ export const marinaSeries: UserSerie[] = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 2,
@@ -860,6 +1032,8 @@ export const marinaSeries: UserSerie[] = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 3,
@@ -867,6 +1041,8 @@ export const marinaSeries: UserSerie[] = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
     ],
     owned: false,
@@ -887,6 +1063,8 @@ export const marinaSeries: UserSerie[] = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 2,
@@ -894,6 +1072,8 @@ export const marinaSeries: UserSerie[] = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 3,
@@ -901,6 +1081,8 @@ export const marinaSeries: UserSerie[] = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 4,
@@ -908,6 +1090,8 @@ export const marinaSeries: UserSerie[] = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 5,
@@ -915,6 +1099,8 @@ export const marinaSeries: UserSerie[] = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
     ],
     owned: false,
@@ -935,6 +1121,8 @@ export const marinaSeries: UserSerie[] = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 2,
@@ -942,6 +1130,8 @@ export const marinaSeries: UserSerie[] = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 3,
@@ -949,6 +1139,8 @@ export const marinaSeries: UserSerie[] = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 4,
@@ -956,6 +1148,8 @@ export const marinaSeries: UserSerie[] = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
     ],
     owned: false,
@@ -976,6 +1170,8 @@ export const marinaSeries: UserSerie[] = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 2,
@@ -983,6 +1179,8 @@ export const marinaSeries: UserSerie[] = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 3,
@@ -990,6 +1188,8 @@ export const marinaSeries: UserSerie[] = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 4,
@@ -997,6 +1197,8 @@ export const marinaSeries: UserSerie[] = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 5,
@@ -1004,6 +1206,8 @@ export const marinaSeries: UserSerie[] = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 6,
@@ -1011,6 +1215,8 @@ export const marinaSeries: UserSerie[] = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 7,
@@ -1018,6 +1224,8 @@ export const marinaSeries: UserSerie[] = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
     ],
     owned: false,
@@ -1038,6 +1246,8 @@ export const marinaSeries: UserSerie[] = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 2,
@@ -1045,6 +1255,8 @@ export const marinaSeries: UserSerie[] = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 3,
@@ -1052,6 +1264,8 @@ export const marinaSeries: UserSerie[] = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 4,
@@ -1059,6 +1273,8 @@ export const marinaSeries: UserSerie[] = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 5,
@@ -1066,6 +1282,8 @@ export const marinaSeries: UserSerie[] = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 6,
@@ -1073,6 +1291,8 @@ export const marinaSeries: UserSerie[] = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 7,
@@ -1080,6 +1300,8 @@ export const marinaSeries: UserSerie[] = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 8,
@@ -1087,6 +1309,8 @@ export const marinaSeries: UserSerie[] = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 9,
@@ -1094,6 +1318,8 @@ export const marinaSeries: UserSerie[] = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 10,
@@ -1101,6 +1327,8 @@ export const marinaSeries: UserSerie[] = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 11,
@@ -1108,6 +1336,8 @@ export const marinaSeries: UserSerie[] = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
     ],
     owned: false,
@@ -1128,6 +1358,8 @@ export const marinaSeries: UserSerie[] = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 2,
@@ -1135,6 +1367,8 @@ export const marinaSeries: UserSerie[] = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 3,
@@ -1142,6 +1376,8 @@ export const marinaSeries: UserSerie[] = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
     ],
     owned: false,
@@ -1162,6 +1398,8 @@ export const marinaSeries: UserSerie[] = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 2,
@@ -1169,6 +1407,8 @@ export const marinaSeries: UserSerie[] = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 3,
@@ -1176,6 +1416,8 @@ export const marinaSeries: UserSerie[] = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 4,
@@ -1183,6 +1425,8 @@ export const marinaSeries: UserSerie[] = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 5,
@@ -1190,6 +1434,8 @@ export const marinaSeries: UserSerie[] = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 6,
@@ -1197,6 +1443,8 @@ export const marinaSeries: UserSerie[] = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 7,
@@ -1204,6 +1452,8 @@ export const marinaSeries: UserSerie[] = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
     ],
     owned: false,
@@ -1224,6 +1474,8 @@ export const marinaSeries: UserSerie[] = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 2,
@@ -1231,6 +1483,8 @@ export const marinaSeries: UserSerie[] = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 3,
@@ -1238,6 +1492,8 @@ export const marinaSeries: UserSerie[] = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 4,
@@ -1245,6 +1501,8 @@ export const marinaSeries: UserSerie[] = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 5,
@@ -1252,6 +1510,8 @@ export const marinaSeries: UserSerie[] = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 6,
@@ -1259,6 +1519,8 @@ export const marinaSeries: UserSerie[] = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 7,
@@ -1266,6 +1528,8 @@ export const marinaSeries: UserSerie[] = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
     ],
     owned: false,
@@ -1286,6 +1550,8 @@ export const marinaSeries: UserSerie[] = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 2,
@@ -1293,6 +1559,8 @@ export const marinaSeries: UserSerie[] = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
     ],
     owned: false,
@@ -1313,6 +1581,8 @@ export const marinaSeries: UserSerie[] = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 2,
@@ -1320,6 +1590,8 @@ export const marinaSeries: UserSerie[] = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 3,
@@ -1327,6 +1599,8 @@ export const marinaSeries: UserSerie[] = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 4,
@@ -1334,6 +1608,8 @@ export const marinaSeries: UserSerie[] = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
     ],
     owned: false,
@@ -1354,6 +1630,8 @@ export const marinaSeries: UserSerie[] = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 2,
@@ -1361,6 +1639,8 @@ export const marinaSeries: UserSerie[] = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 3,
@@ -1368,6 +1648,8 @@ export const marinaSeries: UserSerie[] = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 4,
@@ -1375,6 +1657,8 @@ export const marinaSeries: UserSerie[] = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 5,
@@ -1382,6 +1666,8 @@ export const marinaSeries: UserSerie[] = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 6,
@@ -1389,6 +1675,8 @@ export const marinaSeries: UserSerie[] = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 7,
@@ -1396,6 +1684,8 @@ export const marinaSeries: UserSerie[] = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 8,
@@ -1403,6 +1693,8 @@ export const marinaSeries: UserSerie[] = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 9,
@@ -1410,6 +1702,8 @@ export const marinaSeries: UserSerie[] = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 10,
@@ -1417,6 +1711,8 @@ export const marinaSeries: UserSerie[] = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 11,
@@ -1424,6 +1720,8 @@ export const marinaSeries: UserSerie[] = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 12,
@@ -1431,6 +1729,8 @@ export const marinaSeries: UserSerie[] = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 13,
@@ -1438,6 +1738,8 @@ export const marinaSeries: UserSerie[] = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 14,
@@ -1445,6 +1747,8 @@ export const marinaSeries: UserSerie[] = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 15,
@@ -1452,6 +1756,8 @@ export const marinaSeries: UserSerie[] = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 16,
@@ -1459,6 +1765,8 @@ export const marinaSeries: UserSerie[] = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 17,
@@ -1466,6 +1774,8 @@ export const marinaSeries: UserSerie[] = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 18,
@@ -1473,6 +1783,8 @@ export const marinaSeries: UserSerie[] = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 19,
@@ -1480,6 +1792,8 @@ export const marinaSeries: UserSerie[] = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 20,
@@ -1487,6 +1801,8 @@ export const marinaSeries: UserSerie[] = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 21,
@@ -1494,6 +1810,8 @@ export const marinaSeries: UserSerie[] = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 22,
@@ -1501,6 +1819,8 @@ export const marinaSeries: UserSerie[] = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 23,
@@ -1508,6 +1828,8 @@ export const marinaSeries: UserSerie[] = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 24,
@@ -1515,6 +1837,8 @@ export const marinaSeries: UserSerie[] = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 25,
@@ -1522,6 +1846,8 @@ export const marinaSeries: UserSerie[] = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 26,
@@ -1529,6 +1855,8 @@ export const marinaSeries: UserSerie[] = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 27,
@@ -1536,6 +1864,8 @@ export const marinaSeries: UserSerie[] = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 28,
@@ -1543,6 +1873,8 @@ export const marinaSeries: UserSerie[] = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 29,
@@ -1550,6 +1882,8 @@ export const marinaSeries: UserSerie[] = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 30,
@@ -1557,6 +1891,8 @@ export const marinaSeries: UserSerie[] = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 31,
@@ -1564,6 +1900,8 @@ export const marinaSeries: UserSerie[] = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 32,
@@ -1571,6 +1909,8 @@ export const marinaSeries: UserSerie[] = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 33,
@@ -1578,6 +1918,8 @@ export const marinaSeries: UserSerie[] = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 34,
@@ -1585,6 +1927,8 @@ export const marinaSeries: UserSerie[] = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 35,
@@ -1592,6 +1936,8 @@ export const marinaSeries: UserSerie[] = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
     ],
     owned: false,
@@ -1612,6 +1958,8 @@ export const marinaSeries: UserSerie[] = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
     ],
     owned: false,
@@ -1632,6 +1980,8 @@ export const marinaSeries: UserSerie[] = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 2,
@@ -1639,6 +1989,8 @@ export const marinaSeries: UserSerie[] = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
     ],
     owned: false,
@@ -1659,6 +2011,8 @@ export const marinaSeries: UserSerie[] = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 2,
@@ -1666,6 +2020,8 @@ export const marinaSeries: UserSerie[] = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 3,
@@ -1673,6 +2029,8 @@ export const marinaSeries: UserSerie[] = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 4,
@@ -1680,6 +2038,8 @@ export const marinaSeries: UserSerie[] = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
     ],
     owned: false,
@@ -1700,6 +2060,8 @@ export const marinaSeries: UserSerie[] = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 2,
@@ -1707,6 +2069,8 @@ export const marinaSeries: UserSerie[] = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 3,
@@ -1714,6 +2078,8 @@ export const marinaSeries: UserSerie[] = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 4,
@@ -1721,6 +2087,8 @@ export const marinaSeries: UserSerie[] = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
     ],
     owned: false,
@@ -1741,6 +2109,8 @@ export const marinaSeries: UserSerie[] = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 2,
@@ -1748,6 +2118,8 @@ export const marinaSeries: UserSerie[] = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
     ],
     owned: false,
@@ -1768,6 +2140,8 @@ export const marinaSeries: UserSerie[] = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
     ],
     owned: false,
@@ -1788,6 +2162,8 @@ export const marinaSeries: UserSerie[] = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
     ],
     owned: false,
@@ -1808,6 +2184,8 @@ export const marinaSeries: UserSerie[] = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
     ],
     owned: false,
@@ -1828,6 +2206,8 @@ export const marinaSeries: UserSerie[] = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 2,
@@ -1835,6 +2215,8 @@ export const marinaSeries: UserSerie[] = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
     ],
     owned: false,
@@ -1855,6 +2237,8 @@ export const marinaSeries: UserSerie[] = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 2,
@@ -1862,6 +2246,8 @@ export const marinaSeries: UserSerie[] = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
     ],
     owned: false,
@@ -1882,6 +2268,8 @@ export const marinaSeries: UserSerie[] = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 2,
@@ -1889,6 +2277,8 @@ export const marinaSeries: UserSerie[] = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 3,
@@ -1896,6 +2286,8 @@ export const marinaSeries: UserSerie[] = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 4,
@@ -1903,6 +2295,8 @@ export const marinaSeries: UserSerie[] = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 5,
@@ -1910,6 +2304,8 @@ export const marinaSeries: UserSerie[] = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 6,
@@ -1917,6 +2313,8 @@ export const marinaSeries: UserSerie[] = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 7,
@@ -1924,6 +2322,8 @@ export const marinaSeries: UserSerie[] = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 8,
@@ -1931,6 +2331,8 @@ export const marinaSeries: UserSerie[] = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 9,
@@ -1938,6 +2340,8 @@ export const marinaSeries: UserSerie[] = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 10,
@@ -1945,6 +2349,8 @@ export const marinaSeries: UserSerie[] = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
     ],
     owned: false,
@@ -1965,6 +2371,8 @@ export const marinaSeries: UserSerie[] = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 2,
@@ -1972,6 +2380,8 @@ export const marinaSeries: UserSerie[] = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 3,
@@ -1979,6 +2389,8 @@ export const marinaSeries: UserSerie[] = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
     ],
     owned: false,
@@ -1999,6 +2411,8 @@ export const marinaSeries: UserSerie[] = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 2,
@@ -2006,6 +2420,8 @@ export const marinaSeries: UserSerie[] = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
     ],
     owned: false,
@@ -2026,6 +2442,8 @@ export const marinaSeries: UserSerie[] = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
     ],
     owned: false,
@@ -2046,6 +2464,8 @@ export const marinaSeries: UserSerie[] = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
     ],
     owned: false,
@@ -2067,6 +2487,8 @@ export const marinaSeries: UserSerie[] = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
     ],
     owned: false,
@@ -2086,6 +2508,8 @@ export const marinaSeries: UserSerie[] = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
     ],
     owned: false,
@@ -2105,6 +2529,8 @@ export const marinaSeries: UserSerie[] = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
     ],
     owned: false,
@@ -2124,6 +2550,8 @@ export const marinaSeries: UserSerie[] = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
     ],
     owned: false,
@@ -2143,6 +2571,8 @@ export const marinaSeries: UserSerie[] = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
     ],
     owned: false,
@@ -2162,6 +2592,8 @@ export const marinaSeries: UserSerie[] = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
     ],
     owned: false,
@@ -2181,6 +2613,8 @@ export const marinaSeries: UserSerie[] = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
     ],
     owned: false,
@@ -2200,6 +2634,8 @@ export const marinaSeries: UserSerie[] = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
     ],
     owned: false,
@@ -2219,6 +2655,8 @@ export const marinaSeries: UserSerie[] = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
     ],
     owned: false,
@@ -2238,6 +2676,8 @@ export const marinaSeries: UserSerie[] = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
     ],
     owned: false,
@@ -2257,6 +2697,8 @@ export const marinaSeries: UserSerie[] = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
     ],
     owned: false,
@@ -2276,6 +2718,8 @@ export const marinaSeries: UserSerie[] = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
     ],
     owned: false,
@@ -2295,6 +2739,8 @@ export const marinaSeries: UserSerie[] = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
     ],
     owned: false,
@@ -2314,6 +2760,8 @@ export const marinaSeries: UserSerie[] = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
     ],
     owned: false,
@@ -2333,6 +2781,8 @@ export const marinaSeries: UserSerie[] = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
     ],
     owned: false,
@@ -2352,6 +2802,8 @@ export const marinaSeries: UserSerie[] = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
     ],
     owned: false,
@@ -2371,6 +2823,8 @@ export const marinaSeries: UserSerie[] = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
     ],
     owned: false,
@@ -2390,6 +2844,8 @@ export const marinaSeries: UserSerie[] = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
     ],
     owned: false,
@@ -2409,6 +2865,8 @@ export const marinaSeries: UserSerie[] = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
     ],
     owned: false,
@@ -2428,6 +2886,8 @@ export const marinaSeries: UserSerie[] = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
     ],
     owned: false,
@@ -2447,6 +2907,8 @@ export const marinaSeries: UserSerie[] = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
     ],
     owned: false,
@@ -2466,6 +2928,8 @@ export const marinaSeries: UserSerie[] = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
     ],
     owned: false,
@@ -2485,6 +2949,8 @@ export const marinaSeries: UserSerie[] = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
     ],
     owned: false,
@@ -2504,6 +2970,8 @@ export const marinaSeries: UserSerie[] = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
     ],
     owned: false,
@@ -2523,6 +2991,8 @@ export const marinaSeries: UserSerie[] = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
     ],
     owned: false,
@@ -2542,6 +3012,8 @@ export const marinaSeries: UserSerie[] = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
     ],
     owned: false,
@@ -2561,6 +3033,8 @@ export const marinaSeries: UserSerie[] = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
     ],
     owned: false,
@@ -2580,6 +3054,8 @@ export const marinaSeries: UserSerie[] = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
     ],
     owned: false,
@@ -2599,6 +3075,8 @@ export const marinaSeries: UserSerie[] = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
     ],
     owned: false,
@@ -2618,6 +3096,8 @@ export const marinaSeries: UserSerie[] = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
     ],
     owned: false,
@@ -2637,6 +3117,8 @@ export const marinaSeries: UserSerie[] = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
     ],
     owned: false,
@@ -2656,6 +3138,8 @@ export const marinaSeries: UserSerie[] = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
     ],
     owned: false,
@@ -2675,6 +3159,8 @@ export const marinaSeries: UserSerie[] = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
     ],
     owned: false,
@@ -2694,6 +3180,8 @@ export const marinaSeries: UserSerie[] = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
     ],
     owned: false,
@@ -2713,6 +3201,8 @@ export const marinaSeries: UserSerie[] = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
     ],
     owned: false,
@@ -2732,6 +3222,8 @@ export const marinaSeries: UserSerie[] = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
     ],
     owned: false,
@@ -2751,6 +3243,8 @@ export const marinaSeries: UserSerie[] = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
     ],
     owned: false,
@@ -2770,6 +3264,8 @@ export const marinaSeries: UserSerie[] = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
     ],
     owned: false,
@@ -2789,6 +3285,8 @@ export const marinaSeries: UserSerie[] = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
     ],
     owned: false,
@@ -2808,6 +3306,8 @@ export const marinaSeries: UserSerie[] = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
     ],
     owned: false,
@@ -2827,6 +3327,8 @@ export const marinaSeries: UserSerie[] = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
     ],
     owned: false,
@@ -2846,6 +3348,8 @@ export const marinaSeries: UserSerie[] = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
     ],
     owned: false,
@@ -2865,6 +3369,8 @@ export const marinaSeries: UserSerie[] = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
     ],
     owned: false,
@@ -2884,6 +3390,8 @@ export const marinaSeries: UserSerie[] = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
     ],
     owned: false,
@@ -2903,6 +3411,8 @@ export const marinaSeries: UserSerie[] = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
     ],
     owned: false,
@@ -2922,6 +3432,8 @@ export const marinaSeries: UserSerie[] = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
     ],
     owned: false,
@@ -2941,6 +3453,8 @@ export const marinaSeries: UserSerie[] = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
     ],
     owned: false,
@@ -2960,6 +3474,8 @@ export const marinaSeries: UserSerie[] = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
     ],
     owned: false,
@@ -2979,6 +3495,8 @@ export const marinaSeries: UserSerie[] = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
     ],
     owned: false,
@@ -2998,6 +3516,8 @@ export const marinaSeries: UserSerie[] = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
     ],
     owned: false,
@@ -3017,6 +3537,8 @@ export const marinaSeries: UserSerie[] = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
     ],
     owned: false,
@@ -3036,6 +3558,8 @@ export const marinaSeries: UserSerie[] = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
     ],
     owned: false,
@@ -3055,6 +3579,8 @@ export const marinaSeries: UserSerie[] = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
     ],
     owned: false,

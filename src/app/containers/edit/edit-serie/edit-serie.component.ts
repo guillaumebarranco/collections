@@ -785,6 +785,7 @@ export class EditSerieComponent {
         ...season,
         firstViewedDate: season.firstViewedDate || '',
         lastViewedDate: season.lastViewedDate || '',
+        otherViewedDates: season.otherViewedDates ?? [],
       }));
     }
     const total = serie.seasonsData?.length ?? 0;
@@ -794,6 +795,7 @@ export class EditSerieComponent {
       seasonTimesWatched: 0,
       firstViewedDate: '',
       lastViewedDate: '',
+      otherViewedDates: [],
     }));
   }
 

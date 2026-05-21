@@ -138,6 +138,7 @@ export class SelectSeriesComponent
           seasonTimesWatched: 0,
           firstViewedDate: '',
           lastViewedDate: '',
+          otherViewedDates: [],
         })
       ),
       owned: false,

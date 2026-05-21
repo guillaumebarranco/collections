@@ -11,6 +11,8 @@ export const dantesSeries: UserSerie[] = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
     ],
     owned: false,
@@ -31,6 +33,8 @@ export const dantesSeries: UserSerie[] = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 2,
@@ -38,6 +42,8 @@ export const dantesSeries: UserSerie[] = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 3,
@@ -45,6 +51,8 @@ export const dantesSeries: UserSerie[] = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 4,
@@ -52,6 +60,8 @@ export const dantesSeries: UserSerie[] = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 5,
@@ -59,6 +69,8 @@ export const dantesSeries: UserSerie[] = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
     ],
     owned: false,
@@ -79,6 +91,8 @@ export const dantesSeries: UserSerie[] = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 2,
@@ -86,6 +100,8 @@ export const dantesSeries: UserSerie[] = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 3,
@@ -93,6 +109,8 @@ export const dantesSeries: UserSerie[] = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 4,
@@ -100,6 +118,8 @@ export const dantesSeries: UserSerie[] = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 5,
@@ -107,6 +127,8 @@ export const dantesSeries: UserSerie[] = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 6,
@@ -114,6 +136,8 @@ export const dantesSeries: UserSerie[] = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 7,
@@ -121,6 +145,8 @@ export const dantesSeries: UserSerie[] = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 8,
@@ -128,6 +154,8 @@ export const dantesSeries: UserSerie[] = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
     ],
     owned: false,
@@ -148,6 +176,8 @@ export const dantesSeries: UserSerie[] = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 2,
@@ -155,6 +185,8 @@ export const dantesSeries: UserSerie[] = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 3,
@@ -162,6 +194,8 @@ export const dantesSeries: UserSerie[] = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 4,
@@ -169,6 +203,8 @@ export const dantesSeries: UserSerie[] = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 5,
@@ -176,6 +212,8 @@ export const dantesSeries: UserSerie[] = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 6,
@@ -183,6 +221,8 @@ export const dantesSeries: UserSerie[] = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 7,
@@ -190,6 +230,8 @@ export const dantesSeries: UserSerie[] = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 8,
@@ -197,6 +239,8 @@ export const dantesSeries: UserSerie[] = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
     ],
     owned: false,
@@ -217,6 +261,8 @@ export const dantesSeries: UserSerie[] = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 2,
@@ -224,6 +270,8 @@ export const dantesSeries: UserSerie[] = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 3,
@@ -231,6 +279,8 @@ export const dantesSeries: UserSerie[] = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 4,
@@ -238,6 +288,8 @@ export const dantesSeries: UserSerie[] = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 5,
@@ -245,6 +297,8 @@ export const dantesSeries: UserSerie[] = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
     ],
     owned: false,
@@ -265,6 +319,8 @@ export const dantesSeries: UserSerie[] = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 2,
@@ -272,6 +328,8 @@ export const dantesSeries: UserSerie[] = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 3,
@@ -279,6 +337,8 @@ export const dantesSeries: UserSerie[] = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 4,
@@ -286,6 +346,8 @@ export const dantesSeries: UserSerie[] = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
     ],
     owned: false,
@@ -306,6 +368,8 @@ export const dantesSeries: UserSerie[] = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
     ],
     owned: false,
@@ -326,6 +390,8 @@ export const dantesSeries: UserSerie[] = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 2,
@@ -333,6 +399,8 @@ export const dantesSeries: UserSerie[] = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 3,
@@ -340,6 +408,8 @@ export const dantesSeries: UserSerie[] = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 4,
@@ -347,6 +417,8 @@ export const dantesSeries: UserSerie[] = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 5,
@@ -354,6 +426,8 @@ export const dantesSeries: UserSerie[] = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 6,
@@ -361,6 +435,8 @@ export const dantesSeries: UserSerie[] = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 7,
@@ -368,6 +444,8 @@ export const dantesSeries: UserSerie[] = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 8,
@@ -375,6 +453,8 @@ export const dantesSeries: UserSerie[] = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 9,
@@ -382,6 +462,8 @@ export const dantesSeries: UserSerie[] = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
     ],
     owned: false,
@@ -402,6 +484,8 @@ export const dantesSeries: UserSerie[] = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 2,
@@ -409,6 +493,8 @@ export const dantesSeries: UserSerie[] = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 3,
@@ -416,6 +502,8 @@ export const dantesSeries: UserSerie[] = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 4,
@@ -423,6 +511,8 @@ export const dantesSeries: UserSerie[] = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
     ],
     owned: false,
@@ -443,6 +533,8 @@ export const dantesSeries: UserSerie[] = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
     ],
     owned: false,
@@ -463,6 +555,8 @@ export const dantesSeries: UserSerie[] = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 2,
@@ -470,6 +564,8 @@ export const dantesSeries: UserSerie[] = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 3,
@@ -477,6 +573,8 @@ export const dantesSeries: UserSerie[] = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
     ],
     owned: false,
@@ -497,6 +595,8 @@ export const dantesSeries: UserSerie[] = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 2,
@@ -504,6 +604,8 @@ export const dantesSeries: UserSerie[] = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
     ],
     owned: false,
@@ -524,6 +626,8 @@ export const dantesSeries: UserSerie[] = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
     ],
     owned: false,
@@ -544,6 +648,8 @@ export const dantesSeries: UserSerie[] = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 2,
@@ -551,6 +657,8 @@ export const dantesSeries: UserSerie[] = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 3,
@@ -558,6 +666,8 @@ export const dantesSeries: UserSerie[] = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 4,
@@ -565,6 +675,8 @@ export const dantesSeries: UserSerie[] = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 5,
@@ -572,6 +684,8 @@ export const dantesSeries: UserSerie[] = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 6,
@@ -579,6 +693,8 @@ export const dantesSeries: UserSerie[] = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 7,
@@ -586,6 +702,8 @@ export const dantesSeries: UserSerie[] = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 8,
@@ -593,6 +711,8 @@ export const dantesSeries: UserSerie[] = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 9,
@@ -600,6 +720,8 @@ export const dantesSeries: UserSerie[] = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 10,
@@ -607,6 +729,8 @@ export const dantesSeries: UserSerie[] = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 11,
@@ -614,6 +738,8 @@ export const dantesSeries: UserSerie[] = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 12,
@@ -621,6 +747,8 @@ export const dantesSeries: UserSerie[] = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
     ],
     owned: false,
@@ -641,6 +769,8 @@ export const dantesSeries: UserSerie[] = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 2,
@@ -648,6 +778,8 @@ export const dantesSeries: UserSerie[] = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 3,
@@ -655,6 +787,8 @@ export const dantesSeries: UserSerie[] = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 4,
@@ -662,6 +796,8 @@ export const dantesSeries: UserSerie[] = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
     ],
     owned: false,
@@ -682,6 +818,8 @@ export const dantesSeries: UserSerie[] = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 2,
@@ -689,6 +827,8 @@ export const dantesSeries: UserSerie[] = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 3,
@@ -696,6 +836,8 @@ export const dantesSeries: UserSerie[] = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 4,
@@ -703,6 +845,8 @@ export const dantesSeries: UserSerie[] = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 5,
@@ -710,6 +854,8 @@ export const dantesSeries: UserSerie[] = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 6,
@@ -717,6 +863,8 @@ export const dantesSeries: UserSerie[] = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
     ],
     owned: false,
@@ -737,6 +885,8 @@ export const dantesSeries: UserSerie[] = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 2,
@@ -744,6 +894,8 @@ export const dantesSeries: UserSerie[] = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 3,
@@ -751,6 +903,8 @@ export const dantesSeries: UserSerie[] = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 4,
@@ -758,6 +912,8 @@ export const dantesSeries: UserSerie[] = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 5,
@@ -765,6 +921,8 @@ export const dantesSeries: UserSerie[] = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 6,
@@ -772,6 +930,8 @@ export const dantesSeries: UserSerie[] = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 7,
@@ -779,6 +939,8 @@ export const dantesSeries: UserSerie[] = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 8,
@@ -786,6 +948,8 @@ export const dantesSeries: UserSerie[] = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 9,
@@ -793,6 +957,8 @@ export const dantesSeries: UserSerie[] = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 10,
@@ -800,6 +966,8 @@ export const dantesSeries: UserSerie[] = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 11,
@@ -807,6 +975,8 @@ export const dantesSeries: UserSerie[] = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 12,
@@ -814,6 +984,8 @@ export const dantesSeries: UserSerie[] = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 13,
@@ -821,6 +993,8 @@ export const dantesSeries: UserSerie[] = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 14,
@@ -828,6 +1002,8 @@ export const dantesSeries: UserSerie[] = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 15,
@@ -835,6 +1011,8 @@ export const dantesSeries: UserSerie[] = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 16,
@@ -842,6 +1020,8 @@ export const dantesSeries: UserSerie[] = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 17,
@@ -849,6 +1029,8 @@ export const dantesSeries: UserSerie[] = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 18,
@@ -856,6 +1038,8 @@ export const dantesSeries: UserSerie[] = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 19,
@@ -863,6 +1047,8 @@ export const dantesSeries: UserSerie[] = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 20,
@@ -870,6 +1056,8 @@ export const dantesSeries: UserSerie[] = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 21,
@@ -877,6 +1065,8 @@ export const dantesSeries: UserSerie[] = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 22,
@@ -884,6 +1074,8 @@ export const dantesSeries: UserSerie[] = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
     ],
     owned: false,
@@ -904,6 +1096,8 @@ export const dantesSeries: UserSerie[] = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 2,
@@ -911,6 +1105,8 @@ export const dantesSeries: UserSerie[] = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 3,
@@ -918,6 +1114,8 @@ export const dantesSeries: UserSerie[] = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 4,
@@ -925,6 +1123,8 @@ export const dantesSeries: UserSerie[] = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 5,
@@ -932,6 +1132,8 @@ export const dantesSeries: UserSerie[] = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 6,
@@ -939,6 +1141,8 @@ export const dantesSeries: UserSerie[] = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 7,
@@ -946,6 +1150,8 @@ export const dantesSeries: UserSerie[] = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 8,
@@ -953,6 +1159,8 @@ export const dantesSeries: UserSerie[] = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 9,
@@ -960,6 +1168,8 @@ export const dantesSeries: UserSerie[] = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 10,
@@ -967,6 +1177,8 @@ export const dantesSeries: UserSerie[] = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 11,
@@ -974,6 +1186,8 @@ export const dantesSeries: UserSerie[] = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 12,
@@ -981,6 +1195,8 @@ export const dantesSeries: UserSerie[] = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 13,
@@ -988,6 +1204,8 @@ export const dantesSeries: UserSerie[] = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 14,
@@ -995,6 +1213,8 @@ export const dantesSeries: UserSerie[] = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 15,
@@ -1002,6 +1222,8 @@ export const dantesSeries: UserSerie[] = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 16,
@@ -1009,6 +1231,8 @@ export const dantesSeries: UserSerie[] = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 17,
@@ -1016,6 +1240,8 @@ export const dantesSeries: UserSerie[] = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 18,
@@ -1023,6 +1249,8 @@ export const dantesSeries: UserSerie[] = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 19,
@@ -1030,6 +1258,8 @@ export const dantesSeries: UserSerie[] = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 20,
@@ -1037,6 +1267,8 @@ export const dantesSeries: UserSerie[] = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 21,
@@ -1044,6 +1276,8 @@ export const dantesSeries: UserSerie[] = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 22,
@@ -1051,6 +1285,8 @@ export const dantesSeries: UserSerie[] = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
     ],
     owned: false,
@@ -1071,6 +1307,8 @@ export const dantesSeries: UserSerie[] = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 2,
@@ -1078,6 +1316,8 @@ export const dantesSeries: UserSerie[] = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 3,
@@ -1085,6 +1325,8 @@ export const dantesSeries: UserSerie[] = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 4,
@@ -1092,6 +1334,8 @@ export const dantesSeries: UserSerie[] = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 5,
@@ -1099,6 +1343,8 @@ export const dantesSeries: UserSerie[] = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 6,
@@ -1106,6 +1352,8 @@ export const dantesSeries: UserSerie[] = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 7,
@@ -1113,6 +1361,8 @@ export const dantesSeries: UserSerie[] = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 8,
@@ -1120,6 +1370,8 @@ export const dantesSeries: UserSerie[] = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 9,
@@ -1127,6 +1379,8 @@ export const dantesSeries: UserSerie[] = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 10,
@@ -1134,6 +1388,8 @@ export const dantesSeries: UserSerie[] = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 11,
@@ -1141,6 +1397,8 @@ export const dantesSeries: UserSerie[] = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 12,
@@ -1148,6 +1406,8 @@ export const dantesSeries: UserSerie[] = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
     ],
     owned: false,
@@ -1168,6 +1428,8 @@ export const dantesSeries: UserSerie[] = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 2,
@@ -1175,6 +1437,8 @@ export const dantesSeries: UserSerie[] = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 3,
@@ -1182,6 +1446,8 @@ export const dantesSeries: UserSerie[] = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 4,
@@ -1189,6 +1455,8 @@ export const dantesSeries: UserSerie[] = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 5,
@@ -1196,6 +1464,8 @@ export const dantesSeries: UserSerie[] = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 6,
@@ -1203,6 +1473,8 @@ export const dantesSeries: UserSerie[] = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 7,
@@ -1210,6 +1482,8 @@ export const dantesSeries: UserSerie[] = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
     ],
     owned: false,
@@ -1230,6 +1504,8 @@ export const dantesSeries: UserSerie[] = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 2,
@@ -1237,6 +1513,8 @@ export const dantesSeries: UserSerie[] = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
     ],
     owned: false,
@@ -1257,6 +1535,8 @@ export const dantesSeries: UserSerie[] = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 2,
@@ -1264,6 +1544,8 @@ export const dantesSeries: UserSerie[] = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 3,
@@ -1271,6 +1553,8 @@ export const dantesSeries: UserSerie[] = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 4,
@@ -1278,6 +1562,8 @@ export const dantesSeries: UserSerie[] = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 5,
@@ -1285,6 +1571,8 @@ export const dantesSeries: UserSerie[] = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 6,
@@ -1292,6 +1580,8 @@ export const dantesSeries: UserSerie[] = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 7,
@@ -1299,6 +1589,8 @@ export const dantesSeries: UserSerie[] = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 8,
@@ -1306,6 +1598,8 @@ export const dantesSeries: UserSerie[] = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 9,
@@ -1313,6 +1607,8 @@ export const dantesSeries: UserSerie[] = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 10,
@@ -1320,6 +1616,8 @@ export const dantesSeries: UserSerie[] = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 11,
@@ -1327,6 +1625,8 @@ export const dantesSeries: UserSerie[] = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 12,
@@ -1334,6 +1634,8 @@ export const dantesSeries: UserSerie[] = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 13,
@@ -1341,6 +1643,8 @@ export const dantesSeries: UserSerie[] = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 14,
@@ -1348,6 +1652,8 @@ export const dantesSeries: UserSerie[] = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 15,
@@ -1355,6 +1661,8 @@ export const dantesSeries: UserSerie[] = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 16,
@@ -1362,6 +1670,8 @@ export const dantesSeries: UserSerie[] = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 17,
@@ -1369,6 +1679,8 @@ export const dantesSeries: UserSerie[] = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 18,
@@ -1376,6 +1688,8 @@ export const dantesSeries: UserSerie[] = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 19,
@@ -1383,6 +1697,8 @@ export const dantesSeries: UserSerie[] = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 20,
@@ -1390,6 +1706,8 @@ export const dantesSeries: UserSerie[] = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 21,
@@ -1397,6 +1715,8 @@ export const dantesSeries: UserSerie[] = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 22,
@@ -1404,6 +1724,8 @@ export const dantesSeries: UserSerie[] = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 23,
@@ -1411,6 +1733,8 @@ export const dantesSeries: UserSerie[] = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 24,
@@ -1418,6 +1742,8 @@ export const dantesSeries: UserSerie[] = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 25,
@@ -1425,6 +1751,8 @@ export const dantesSeries: UserSerie[] = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 26,
@@ -1432,6 +1760,8 @@ export const dantesSeries: UserSerie[] = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 27,
@@ -1439,6 +1769,8 @@ export const dantesSeries: UserSerie[] = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 28,
@@ -1446,6 +1778,8 @@ export const dantesSeries: UserSerie[] = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 29,
@@ -1453,6 +1787,8 @@ export const dantesSeries: UserSerie[] = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 30,
@@ -1460,6 +1796,8 @@ export const dantesSeries: UserSerie[] = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 31,
@@ -1467,6 +1805,8 @@ export const dantesSeries: UserSerie[] = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 32,
@@ -1474,6 +1814,8 @@ export const dantesSeries: UserSerie[] = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 33,
@@ -1481,6 +1823,8 @@ export const dantesSeries: UserSerie[] = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 34,
@@ -1488,6 +1832,8 @@ export const dantesSeries: UserSerie[] = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 35,
@@ -1495,6 +1841,8 @@ export const dantesSeries: UserSerie[] = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
     ],
     owned: false,
@@ -1515,6 +1863,8 @@ export const dantesSeries: UserSerie[] = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 2,
@@ -1522,6 +1872,8 @@ export const dantesSeries: UserSerie[] = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
     ],
     owned: false,
@@ -1542,6 +1894,8 @@ export const dantesSeries: UserSerie[] = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 2,
@@ -1549,6 +1903,8 @@ export const dantesSeries: UserSerie[] = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 3,
@@ -1556,6 +1912,8 @@ export const dantesSeries: UserSerie[] = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
     ],
     owned: false,
@@ -1576,6 +1934,8 @@ export const dantesSeries: UserSerie[] = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
     ],
     owned: false,
@@ -1596,6 +1956,8 @@ export const dantesSeries: UserSerie[] = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 2,
@@ -1603,6 +1965,8 @@ export const dantesSeries: UserSerie[] = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
     ],
     owned: false,
@@ -1623,6 +1987,8 @@ export const dantesSeries: UserSerie[] = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
     ],
     owned: false,
@@ -1643,6 +2009,8 @@ export const dantesSeries: UserSerie[] = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 2,
@@ -1650,6 +2018,8 @@ export const dantesSeries: UserSerie[] = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 3,
@@ -1657,6 +2027,8 @@ export const dantesSeries: UserSerie[] = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
     ],
     owned: false,
@@ -1677,6 +2049,8 @@ export const dantesSeries: UserSerie[] = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 2,
@@ -1684,6 +2058,8 @@ export const dantesSeries: UserSerie[] = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 3,
@@ -1691,6 +2067,8 @@ export const dantesSeries: UserSerie[] = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
     ],
     owned: false,
@@ -1711,6 +2089,8 @@ export const dantesSeries: UserSerie[] = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 2,
@@ -1718,6 +2098,8 @@ export const dantesSeries: UserSerie[] = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 3,
@@ -1725,6 +2107,8 @@ export const dantesSeries: UserSerie[] = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 4,
@@ -1732,6 +2116,8 @@ export const dantesSeries: UserSerie[] = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 5,
@@ -1739,6 +2125,8 @@ export const dantesSeries: UserSerie[] = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 6,
@@ -1746,6 +2134,8 @@ export const dantesSeries: UserSerie[] = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 7,
@@ -1753,6 +2143,8 @@ export const dantesSeries: UserSerie[] = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 8,
@@ -1760,6 +2152,8 @@ export const dantesSeries: UserSerie[] = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
     ],
     owned: false,
@@ -1780,6 +2174,8 @@ export const dantesSeries: UserSerie[] = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 2,
@@ -1787,6 +2183,8 @@ export const dantesSeries: UserSerie[] = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 3,
@@ -1794,6 +2192,8 @@ export const dantesSeries: UserSerie[] = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 4,
@@ -1801,6 +2201,8 @@ export const dantesSeries: UserSerie[] = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 5,
@@ -1808,6 +2210,8 @@ export const dantesSeries: UserSerie[] = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
     ],
     owned: false,
@@ -1828,6 +2232,8 @@ export const dantesSeries: UserSerie[] = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 2,
@@ -1835,6 +2241,8 @@ export const dantesSeries: UserSerie[] = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 3,
@@ -1842,6 +2250,8 @@ export const dantesSeries: UserSerie[] = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 4,
@@ -1849,6 +2259,8 @@ export const dantesSeries: UserSerie[] = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 5,
@@ -1856,6 +2268,8 @@ export const dantesSeries: UserSerie[] = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 6,
@@ -1863,6 +2277,8 @@ export const dantesSeries: UserSerie[] = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 7,
@@ -1870,6 +2286,8 @@ export const dantesSeries: UserSerie[] = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
     ],
     owned: false,
@@ -1890,6 +2308,8 @@ export const dantesSeries: UserSerie[] = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 2,
@@ -1897,6 +2317,8 @@ export const dantesSeries: UserSerie[] = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 3,
@@ -1904,6 +2326,8 @@ export const dantesSeries: UserSerie[] = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
     ],
     owned: false,

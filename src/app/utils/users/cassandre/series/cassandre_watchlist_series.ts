@@ -11,6 +11,8 @@ export const cassandreWatchListSeries: UserSeries = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
     ],
     owned: false,
@@ -30,6 +32,8 @@ export const cassandreWatchListSeries: UserSeries = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
     ],
     owned: false,
@@ -49,6 +53,8 @@ export const cassandreWatchListSeries: UserSeries = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
     ],
     owned: false,

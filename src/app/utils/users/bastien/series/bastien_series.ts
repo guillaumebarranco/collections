@@ -11,6 +11,8 @@ export const bastienSeries: UserSeries = [
         seasonTimesWatched: 1,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 2,
@@ -18,6 +20,8 @@ export const bastienSeries: UserSeries = [
         seasonTimesWatched: 1,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 3,
@@ -25,6 +29,8 @@ export const bastienSeries: UserSeries = [
         seasonTimesWatched: 1,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
     ],
     owned: false,
@@ -44,6 +50,8 @@ export const bastienSeries: UserSeries = [
         seasonTimesWatched: 1,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 2,
@@ -51,6 +59,8 @@ export const bastienSeries: UserSeries = [
         seasonTimesWatched: 1,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
     ],
     owned: false,
@@ -70,6 +80,8 @@ export const bastienSeries: UserSeries = [
         seasonTimesWatched: 3,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 2,
@@ -77,6 +89,8 @@ export const bastienSeries: UserSeries = [
         seasonTimesWatched: 3,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 3,
@@ -84,6 +98,8 @@ export const bastienSeries: UserSeries = [
         seasonTimesWatched: 3,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 4,
@@ -91,6 +107,8 @@ export const bastienSeries: UserSeries = [
         seasonTimesWatched: 3,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
     ],
     owned: false,
@@ -110,6 +128,8 @@ export const bastienSeries: UserSeries = [
         seasonTimesWatched: 1,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 2,
@@ -117,6 +137,8 @@ export const bastienSeries: UserSeries = [
         seasonTimesWatched: 1,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
     ],
     owned: false,
@@ -136,6 +158,8 @@ export const bastienSeries: UserSeries = [
         seasonTimesWatched: 1,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 2,
@@ -143,6 +167,8 @@ export const bastienSeries: UserSeries = [
         seasonTimesWatched: 1,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 3,
@@ -150,6 +176,8 @@ export const bastienSeries: UserSeries = [
         seasonTimesWatched: 1,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 4,
@@ -157,6 +185,8 @@ export const bastienSeries: UserSeries = [
         seasonTimesWatched: 1,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 5,
@@ -164,6 +194,8 @@ export const bastienSeries: UserSeries = [
         seasonTimesWatched: 1,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 6,
@@ -171,6 +203,8 @@ export const bastienSeries: UserSeries = [
         seasonTimesWatched: 1,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 7,
@@ -178,6 +212,8 @@ export const bastienSeries: UserSeries = [
         seasonTimesWatched: 1,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 8,
@@ -185,6 +221,8 @@ export const bastienSeries: UserSeries = [
         seasonTimesWatched: 1,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
     ],
     owned: false,
@@ -204,6 +242,8 @@ export const bastienSeries: UserSeries = [
         seasonTimesWatched: 1,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 2,
@@ -211,6 +251,8 @@ export const bastienSeries: UserSeries = [
         seasonTimesWatched: 1,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
     ],
     owned: false,
@@ -230,6 +272,8 @@ export const bastienSeries: UserSeries = [
         seasonTimesWatched: 1,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 2,
@@ -237,6 +281,8 @@ export const bastienSeries: UserSeries = [
         seasonTimesWatched: 1,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 3,
@@ -244,6 +290,8 @@ export const bastienSeries: UserSeries = [
         seasonTimesWatched: 1,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 4,
@@ -251,6 +299,8 @@ export const bastienSeries: UserSeries = [
         seasonTimesWatched: 1,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 5,
@@ -258,6 +308,8 @@ export const bastienSeries: UserSeries = [
         seasonTimesWatched: 1,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 6,
@@ -265,6 +317,8 @@ export const bastienSeries: UserSeries = [
         seasonTimesWatched: 1,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
     ],
     owned: false,
@@ -284,6 +338,8 @@ export const bastienSeries: UserSeries = [
         seasonTimesWatched: 1,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 2,
@@ -291,6 +347,8 @@ export const bastienSeries: UserSeries = [
         seasonTimesWatched: 1,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 3,
@@ -298,6 +356,8 @@ export const bastienSeries: UserSeries = [
         seasonTimesWatched: 1,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
     ],
     owned: false,
@@ -317,6 +377,8 @@ export const bastienSeries: UserSeries = [
         seasonTimesWatched: 1,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
     ],
     owned: false,
@@ -336,6 +398,8 @@ export const bastienSeries: UserSeries = [
         seasonTimesWatched: 1,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 2,
@@ -343,6 +407,8 @@ export const bastienSeries: UserSeries = [
         seasonTimesWatched: 1,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 3,
@@ -350,6 +416,8 @@ export const bastienSeries: UserSeries = [
         seasonTimesWatched: 1,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 4,
@@ -357,6 +425,8 @@ export const bastienSeries: UserSeries = [
         seasonTimesWatched: 1,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 5,
@@ -364,6 +434,8 @@ export const bastienSeries: UserSeries = [
         seasonTimesWatched: 1,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
     ],
     owned: false,
@@ -383,6 +455,8 @@ export const bastienSeries: UserSeries = [
         seasonTimesWatched: 1,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 2,
@@ -390,6 +464,8 @@ export const bastienSeries: UserSeries = [
         seasonTimesWatched: 1,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 3,
@@ -397,6 +473,8 @@ export const bastienSeries: UserSeries = [
         seasonTimesWatched: 1,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 4,
@@ -404,6 +482,8 @@ export const bastienSeries: UserSeries = [
         seasonTimesWatched: 1,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
     ],
     owned: false,
@@ -423,6 +503,8 @@ export const bastienSeries: UserSeries = [
         seasonTimesWatched: 1,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 2,
@@ -430,6 +512,8 @@ export const bastienSeries: UserSeries = [
         seasonTimesWatched: 1,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
     ],
     owned: false,
@@ -449,6 +533,8 @@ export const bastienSeries: UserSeries = [
         seasonTimesWatched: 1,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 2,
@@ -456,6 +542,8 @@ export const bastienSeries: UserSeries = [
         seasonTimesWatched: 1,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 3,
@@ -463,6 +551,8 @@ export const bastienSeries: UserSeries = [
         seasonTimesWatched: 1,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
     ],
     owned: false,
@@ -482,6 +572,8 @@ export const bastienSeries: UserSeries = [
         seasonTimesWatched: 1,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
     ],
     owned: false,
@@ -501,6 +593,8 @@ export const bastienSeries: UserSeries = [
         seasonTimesWatched: 1,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 2,
@@ -508,6 +602,8 @@ export const bastienSeries: UserSeries = [
         seasonTimesWatched: 1,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 3,
@@ -515,6 +611,8 @@ export const bastienSeries: UserSeries = [
         seasonTimesWatched: 1,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
     ],
     owned: false,
@@ -534,6 +632,8 @@ export const bastienSeries: UserSeries = [
         seasonTimesWatched: 1,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 2,
@@ -541,6 +641,8 @@ export const bastienSeries: UserSeries = [
         seasonTimesWatched: 1,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
     ],
     owned: false,
@@ -560,6 +662,8 @@ export const bastienSeries: UserSeries = [
         seasonTimesWatched: 1,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 2,
@@ -567,6 +671,8 @@ export const bastienSeries: UserSeries = [
         seasonTimesWatched: 1,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
     ],
     owned: false,
@@ -586,6 +692,8 @@ export const bastienSeries: UserSeries = [
         seasonTimesWatched: 3,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 2,
@@ -593,6 +701,8 @@ export const bastienSeries: UserSeries = [
         seasonTimesWatched: 3,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 3,
@@ -600,6 +710,8 @@ export const bastienSeries: UserSeries = [
         seasonTimesWatched: 3,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 4,
@@ -607,6 +719,8 @@ export const bastienSeries: UserSeries = [
         seasonTimesWatched: 3,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 5,
@@ -614,6 +728,8 @@ export const bastienSeries: UserSeries = [
         seasonTimesWatched: 3,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 6,
@@ -621,6 +737,8 @@ export const bastienSeries: UserSeries = [
         seasonTimesWatched: 3,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 7,
@@ -628,6 +746,8 @@ export const bastienSeries: UserSeries = [
         seasonTimesWatched: 3,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
     ],
     owned: false,
@@ -647,6 +767,8 @@ export const bastienSeries: UserSeries = [
         seasonTimesWatched: 1,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 2,
@@ -654,6 +776,8 @@ export const bastienSeries: UserSeries = [
         seasonTimesWatched: 1,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 3,
@@ -661,6 +785,8 @@ export const bastienSeries: UserSeries = [
         seasonTimesWatched: 1,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 4,
@@ -668,6 +794,8 @@ export const bastienSeries: UserSeries = [
         seasonTimesWatched: 1,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 5,
@@ -675,6 +803,8 @@ export const bastienSeries: UserSeries = [
         seasonTimesWatched: 1,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
     ],
     owned: false,
@@ -694,6 +824,8 @@ export const bastienSeries: UserSeries = [
         seasonTimesWatched: 1,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 2,
@@ -701,6 +833,8 @@ export const bastienSeries: UserSeries = [
         seasonTimesWatched: 1,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
     ],
     owned: false,
@@ -720,6 +854,8 @@ export const bastienSeries: UserSeries = [
         seasonTimesWatched: 1,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
     ],
     owned: false,
@@ -739,6 +875,8 @@ export const bastienSeries: UserSeries = [
         seasonTimesWatched: 1,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
     ],
     owned: false,
@@ -758,6 +896,8 @@ export const bastienSeries: UserSeries = [
         seasonTimesWatched: 1,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 2,
@@ -765,6 +905,8 @@ export const bastienSeries: UserSeries = [
         seasonTimesWatched: 1,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 3,
@@ -772,6 +914,8 @@ export const bastienSeries: UserSeries = [
         seasonTimesWatched: 1,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 4,
@@ -779,6 +923,8 @@ export const bastienSeries: UserSeries = [
         seasonTimesWatched: 1,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 5,
@@ -786,6 +932,8 @@ export const bastienSeries: UserSeries = [
         seasonTimesWatched: 1,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 6,
@@ -793,6 +941,8 @@ export const bastienSeries: UserSeries = [
         seasonTimesWatched: 1,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 7,
@@ -800,6 +950,8 @@ export const bastienSeries: UserSeries = [
         seasonTimesWatched: 1,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 8,
@@ -807,6 +959,8 @@ export const bastienSeries: UserSeries = [
         seasonTimesWatched: 1,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 9,
@@ -814,6 +968,8 @@ export const bastienSeries: UserSeries = [
         seasonTimesWatched: 1,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 10,
@@ -821,6 +977,8 @@ export const bastienSeries: UserSeries = [
         seasonTimesWatched: 1,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
     ],
     owned: false,
@@ -840,6 +998,8 @@ export const bastienSeries: UserSeries = [
         seasonTimesWatched: 1,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 2,
@@ -847,6 +1007,8 @@ export const bastienSeries: UserSeries = [
         seasonTimesWatched: 1,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 3,
@@ -854,6 +1016,8 @@ export const bastienSeries: UserSeries = [
         seasonTimesWatched: 1,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 4,
@@ -861,6 +1025,8 @@ export const bastienSeries: UserSeries = [
         seasonTimesWatched: 1,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 5,
@@ -868,6 +1034,8 @@ export const bastienSeries: UserSeries = [
         seasonTimesWatched: 1,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 6,
@@ -875,6 +1043,8 @@ export const bastienSeries: UserSeries = [
         seasonTimesWatched: 1,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 7,
@@ -882,6 +1052,8 @@ export const bastienSeries: UserSeries = [
         seasonTimesWatched: 1,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 8,
@@ -889,6 +1061,8 @@ export const bastienSeries: UserSeries = [
         seasonTimesWatched: 1,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 9,
@@ -896,6 +1070,8 @@ export const bastienSeries: UserSeries = [
         seasonTimesWatched: 1,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 10,
@@ -903,6 +1079,8 @@ export const bastienSeries: UserSeries = [
         seasonTimesWatched: 1,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 11,
@@ -910,6 +1088,8 @@ export const bastienSeries: UserSeries = [
         seasonTimesWatched: 1,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 12,
@@ -917,6 +1097,8 @@ export const bastienSeries: UserSeries = [
         seasonTimesWatched: 1,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 13,
@@ -924,6 +1106,8 @@ export const bastienSeries: UserSeries = [
         seasonTimesWatched: 1,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 14,
@@ -931,6 +1115,8 @@ export const bastienSeries: UserSeries = [
         seasonTimesWatched: 1,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 15,
@@ -938,6 +1124,8 @@ export const bastienSeries: UserSeries = [
         seasonTimesWatched: 1,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 16,
@@ -945,6 +1133,8 @@ export const bastienSeries: UserSeries = [
         seasonTimesWatched: 1,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 17,
@@ -952,6 +1142,8 @@ export const bastienSeries: UserSeries = [
         seasonTimesWatched: 1,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 18,
@@ -959,6 +1151,8 @@ export const bastienSeries: UserSeries = [
         seasonTimesWatched: 1,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 19,
@@ -966,6 +1160,8 @@ export const bastienSeries: UserSeries = [
         seasonTimesWatched: 1,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 20,
@@ -973,6 +1169,8 @@ export const bastienSeries: UserSeries = [
         seasonTimesWatched: 1,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 21,
@@ -980,6 +1178,8 @@ export const bastienSeries: UserSeries = [
         seasonTimesWatched: 1,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 22,
@@ -987,6 +1187,8 @@ export const bastienSeries: UserSeries = [
         seasonTimesWatched: 1,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 23,
@@ -994,6 +1196,8 @@ export const bastienSeries: UserSeries = [
         seasonTimesWatched: 1,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 24,
@@ -1001,6 +1205,8 @@ export const bastienSeries: UserSeries = [
         seasonTimesWatched: 1,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 25,
@@ -1008,6 +1214,8 @@ export const bastienSeries: UserSeries = [
         seasonTimesWatched: 1,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 26,
@@ -1015,6 +1223,8 @@ export const bastienSeries: UserSeries = [
         seasonTimesWatched: 1,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
     ],
     owned: false,
@@ -1034,6 +1244,8 @@ export const bastienSeries: UserSeries = [
         seasonTimesWatched: 1,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 2,
@@ -1041,6 +1253,8 @@ export const bastienSeries: UserSeries = [
         seasonTimesWatched: 1,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 3,
@@ -1048,6 +1262,8 @@ export const bastienSeries: UserSeries = [
         seasonTimesWatched: 1,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
     ],
     owned: false,
@@ -1067,6 +1283,8 @@ export const bastienSeries: UserSeries = [
         seasonTimesWatched: 1,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 2,
@@ -1074,6 +1292,8 @@ export const bastienSeries: UserSeries = [
         seasonTimesWatched: 1,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 3,
@@ -1081,6 +1301,8 @@ export const bastienSeries: UserSeries = [
         seasonTimesWatched: 1,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 4,
@@ -1088,6 +1310,8 @@ export const bastienSeries: UserSeries = [
         seasonTimesWatched: 1,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 5,
@@ -1095,6 +1319,8 @@ export const bastienSeries: UserSeries = [
         seasonTimesWatched: 1,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
     ],
     owned: false,
@@ -1114,6 +1340,8 @@ export const bastienSeries: UserSeries = [
         seasonTimesWatched: 1,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 2,
@@ -1121,6 +1349,8 @@ export const bastienSeries: UserSeries = [
         seasonTimesWatched: 1,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 3,
@@ -1128,6 +1358,8 @@ export const bastienSeries: UserSeries = [
         seasonTimesWatched: 1,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 4,
@@ -1135,6 +1367,8 @@ export const bastienSeries: UserSeries = [
         seasonTimesWatched: 1,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 5,
@@ -1142,6 +1376,8 @@ export const bastienSeries: UserSeries = [
         seasonTimesWatched: 1,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 6,
@@ -1149,6 +1385,8 @@ export const bastienSeries: UserSeries = [
         seasonTimesWatched: 1,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 7,
@@ -1156,6 +1394,8 @@ export const bastienSeries: UserSeries = [
         seasonTimesWatched: 1,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 8,
@@ -1163,6 +1403,8 @@ export const bastienSeries: UserSeries = [
         seasonTimesWatched: 1,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 9,
@@ -1170,6 +1412,8 @@ export const bastienSeries: UserSeries = [
         seasonTimesWatched: 1,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 10,
@@ -1177,6 +1421,8 @@ export const bastienSeries: UserSeries = [
         seasonTimesWatched: 1,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 11,
@@ -1184,6 +1430,8 @@ export const bastienSeries: UserSeries = [
         seasonTimesWatched: 1,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 12,
@@ -1191,6 +1439,8 @@ export const bastienSeries: UserSeries = [
         seasonTimesWatched: 1,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 13,
@@ -1198,6 +1448,8 @@ export const bastienSeries: UserSeries = [
         seasonTimesWatched: 1,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 14,
@@ -1205,6 +1457,8 @@ export const bastienSeries: UserSeries = [
         seasonTimesWatched: 1,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 15,
@@ -1212,6 +1466,8 @@ export const bastienSeries: UserSeries = [
         seasonTimesWatched: 1,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
     ],
     owned: false,
@@ -1231,6 +1487,8 @@ export const bastienSeries: UserSeries = [
         seasonTimesWatched: 1,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 2,
@@ -1238,6 +1496,8 @@ export const bastienSeries: UserSeries = [
         seasonTimesWatched: 1,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 3,
@@ -1245,6 +1505,8 @@ export const bastienSeries: UserSeries = [
         seasonTimesWatched: 1,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 4,
@@ -1252,6 +1514,8 @@ export const bastienSeries: UserSeries = [
         seasonTimesWatched: 1,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
     ],
     owned: false,
@@ -1271,6 +1535,8 @@ export const bastienSeries: UserSeries = [
         seasonTimesWatched: 1,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
     ],
     owned: false,
@@ -1290,6 +1556,8 @@ export const bastienSeries: UserSeries = [
         seasonTimesWatched: 1,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
     ],
     owned: false,
@@ -1309,6 +1577,8 @@ export const bastienSeries: UserSeries = [
         seasonTimesWatched: 1,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 2,
@@ -1316,6 +1586,8 @@ export const bastienSeries: UserSeries = [
         seasonTimesWatched: 1,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 3,
@@ -1323,6 +1595,8 @@ export const bastienSeries: UserSeries = [
         seasonTimesWatched: 1,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 4,
@@ -1330,6 +1604,8 @@ export const bastienSeries: UserSeries = [
         seasonTimesWatched: 1,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 5,
@@ -1337,6 +1613,8 @@ export const bastienSeries: UserSeries = [
         seasonTimesWatched: 1,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 6,
@@ -1344,6 +1622,8 @@ export const bastienSeries: UserSeries = [
         seasonTimesWatched: 1,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 7,
@@ -1351,6 +1631,8 @@ export const bastienSeries: UserSeries = [
         seasonTimesWatched: 1,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 8,
@@ -1358,6 +1640,8 @@ export const bastienSeries: UserSeries = [
         seasonTimesWatched: 1,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 9,
@@ -1365,6 +1649,8 @@ export const bastienSeries: UserSeries = [
         seasonTimesWatched: 1,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
     ],
     owned: false,
@@ -1384,6 +1670,8 @@ export const bastienSeries: UserSeries = [
         seasonTimesWatched: 1,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 2,
@@ -1391,6 +1679,8 @@ export const bastienSeries: UserSeries = [
         seasonTimesWatched: 1,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
     ],
     owned: false,
@@ -1410,6 +1700,8 @@ export const bastienSeries: UserSeries = [
         seasonTimesWatched: 1,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 2,
@@ -1417,6 +1709,8 @@ export const bastienSeries: UserSeries = [
         seasonTimesWatched: 1,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
     ],
     owned: false,
@@ -1436,6 +1730,8 @@ export const bastienSeries: UserSeries = [
         seasonTimesWatched: 1,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
     ],
     owned: false,
@@ -1455,6 +1751,8 @@ export const bastienSeries: UserSeries = [
         seasonTimesWatched: 1,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
     ],
     owned: false,

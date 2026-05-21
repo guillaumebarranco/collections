@@ -8,6 +8,7 @@ function buildWatchlistSeasonsWithHalfWatched(serie: Serie): {
   seasonTimesWatched: number;
   firstViewedDate: string;
   lastViewedDate: string;
+  otherViewedDates: string[];
 }[] {
   const fromUser =
     serie.seasons && serie.seasons.length > 0
@@ -18,6 +19,7 @@ function buildWatchlistSeasonsWithHalfWatched(serie: Serie): {
           seasonTimesWatched: 0,
           firstViewedDate: '',
           lastViewedDate: '',
+          otherViewedDates: [],
         }));
   return fromUser.map((s) => ({
     seasonNumber: s.seasonNumber,
@@ -25,6 +27,7 @@ function buildWatchlistSeasonsWithHalfWatched(serie: Serie): {
     seasonTimesWatched: 0.5,
     firstViewedDate: s.firstViewedDate ?? '',
     lastViewedDate: s.lastViewedDate ?? '',
+    otherViewedDates: s.otherViewedDates ?? [],
   }));
 }
 
@@ -182,6 +185,7 @@ function buildWatchedSeasonsWithNextSeasonAtHalf(serie: Serie): UserSerieSeason[
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+        otherViewedDates: [],
       } as UserSerieSeason);
 
     if (sn === next) {

@@ -11,6 +11,8 @@ export const masterofmadnessSeries: UserSerie[] = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 2,
@@ -18,6 +20,8 @@ export const masterofmadnessSeries: UserSerie[] = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 3,
@@ -25,6 +29,8 @@ export const masterofmadnessSeries: UserSerie[] = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 4,
@@ -32,6 +38,8 @@ export const masterofmadnessSeries: UserSerie[] = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
     ],
     owned: false,
@@ -52,6 +60,8 @@ export const masterofmadnessSeries: UserSerie[] = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
     ],
     owned: false,
@@ -72,6 +82,8 @@ export const masterofmadnessSeries: UserSerie[] = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
     ],
     owned: false,
@@ -92,6 +104,8 @@ export const masterofmadnessSeries: UserSerie[] = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 2,
@@ -99,6 +113,8 @@ export const masterofmadnessSeries: UserSerie[] = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 3,
@@ -106,6 +122,8 @@ export const masterofmadnessSeries: UserSerie[] = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 4,
@@ -113,6 +131,8 @@ export const masterofmadnessSeries: UserSerie[] = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 5,
@@ -120,6 +140,8 @@ export const masterofmadnessSeries: UserSerie[] = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
     ],
     owned: false,
@@ -140,6 +162,8 @@ export const masterofmadnessSeries: UserSerie[] = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 2,
@@ -147,6 +171,8 @@ export const masterofmadnessSeries: UserSerie[] = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 3,
@@ -154,6 +180,8 @@ export const masterofmadnessSeries: UserSerie[] = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 4,
@@ -161,6 +189,8 @@ export const masterofmadnessSeries: UserSerie[] = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 5,
@@ -168,6 +198,8 @@ export const masterofmadnessSeries: UserSerie[] = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 6,
@@ -175,6 +207,8 @@ export const masterofmadnessSeries: UserSerie[] = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 7,
@@ -182,6 +216,8 @@ export const masterofmadnessSeries: UserSerie[] = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 8,
@@ -189,6 +225,8 @@ export const masterofmadnessSeries: UserSerie[] = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
     ],
     owned: false,
@@ -209,6 +247,8 @@ export const masterofmadnessSeries: UserSerie[] = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 2,
@@ -216,6 +256,8 @@ export const masterofmadnessSeries: UserSerie[] = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 3,
@@ -223,6 +265,8 @@ export const masterofmadnessSeries: UserSerie[] = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 4,
@@ -230,6 +274,8 @@ export const masterofmadnessSeries: UserSerie[] = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 5,
@@ -237,6 +283,8 @@ export const masterofmadnessSeries: UserSerie[] = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 6,
@@ -244,6 +292,8 @@ export const masterofmadnessSeries: UserSerie[] = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
     ],
     owned: false,
@@ -264,6 +314,8 @@ export const masterofmadnessSeries: UserSerie[] = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 2,
@@ -271,6 +323,8 @@ export const masterofmadnessSeries: UserSerie[] = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 3,
@@ -278,6 +332,8 @@ export const masterofmadnessSeries: UserSerie[] = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 4,
@@ -285,6 +341,8 @@ export const masterofmadnessSeries: UserSerie[] = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 5,
@@ -292,6 +350,8 @@ export const masterofmadnessSeries: UserSerie[] = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 6,
@@ -299,6 +359,8 @@ export const masterofmadnessSeries: UserSerie[] = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 7,
@@ -306,6 +368,8 @@ export const masterofmadnessSeries: UserSerie[] = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 8,
@@ -313,6 +377,8 @@ export const masterofmadnessSeries: UserSerie[] = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
     ],
     owned: false,
@@ -333,6 +399,8 @@ export const masterofmadnessSeries: UserSerie[] = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 2,
@@ -340,6 +408,8 @@ export const masterofmadnessSeries: UserSerie[] = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 3,
@@ -347,6 +417,8 @@ export const masterofmadnessSeries: UserSerie[] = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 4,
@@ -354,6 +426,8 @@ export const masterofmadnessSeries: UserSerie[] = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 5,
@@ -361,6 +435,8 @@ export const masterofmadnessSeries: UserSerie[] = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 6,
@@ -368,6 +444,8 @@ export const masterofmadnessSeries: UserSerie[] = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 7,
@@ -375,6 +453,8 @@ export const masterofmadnessSeries: UserSerie[] = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
     ],
     owned: false,
@@ -395,6 +475,8 @@ export const masterofmadnessSeries: UserSerie[] = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 2,
@@ -402,6 +484,8 @@ export const masterofmadnessSeries: UserSerie[] = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
     ],
     owned: false,
@@ -422,6 +506,8 @@ export const masterofmadnessSeries: UserSerie[] = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 2,
@@ -429,6 +515,8 @@ export const masterofmadnessSeries: UserSerie[] = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
     ],
     owned: false,
@@ -449,6 +537,8 @@ export const masterofmadnessSeries: UserSerie[] = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 2,
@@ -456,6 +546,8 @@ export const masterofmadnessSeries: UserSerie[] = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
     ],
     owned: false,
@@ -476,6 +568,8 @@ export const masterofmadnessSeries: UserSerie[] = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
     ],
     owned: false,
@@ -496,6 +590,8 @@ export const masterofmadnessSeries: UserSerie[] = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 2,
@@ -503,6 +599,8 @@ export const masterofmadnessSeries: UserSerie[] = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
     ],
     owned: false,
@@ -523,6 +621,8 @@ export const masterofmadnessSeries: UserSerie[] = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 2,
@@ -530,6 +630,8 @@ export const masterofmadnessSeries: UserSerie[] = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 3,
@@ -537,6 +639,8 @@ export const masterofmadnessSeries: UserSerie[] = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 4,
@@ -544,6 +648,8 @@ export const masterofmadnessSeries: UserSerie[] = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 5,
@@ -551,6 +657,8 @@ export const masterofmadnessSeries: UserSerie[] = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 6,
@@ -558,6 +666,8 @@ export const masterofmadnessSeries: UserSerie[] = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 7,
@@ -565,6 +675,8 @@ export const masterofmadnessSeries: UserSerie[] = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
     ],
     owned: false,
@@ -585,6 +697,8 @@ export const masterofmadnessSeries: UserSerie[] = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 2,
@@ -592,6 +706,8 @@ export const masterofmadnessSeries: UserSerie[] = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 3,
@@ -599,6 +715,8 @@ export const masterofmadnessSeries: UserSerie[] = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 4,
@@ -606,6 +724,8 @@ export const masterofmadnessSeries: UserSerie[] = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 5,
@@ -613,6 +733,8 @@ export const masterofmadnessSeries: UserSerie[] = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
     ],
     owned: false,
@@ -633,6 +755,8 @@ export const masterofmadnessSeries: UserSerie[] = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 2,
@@ -640,6 +764,8 @@ export const masterofmadnessSeries: UserSerie[] = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
     ],
     owned: false,
@@ -660,6 +786,8 @@ export const masterofmadnessSeries: UserSerie[] = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 2,
@@ -667,6 +795,8 @@ export const masterofmadnessSeries: UserSerie[] = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 3,
@@ -674,6 +804,8 @@ export const masterofmadnessSeries: UserSerie[] = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 4,
@@ -681,6 +813,8 @@ export const masterofmadnessSeries: UserSerie[] = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 5,
@@ -688,6 +822,8 @@ export const masterofmadnessSeries: UserSerie[] = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 6,
@@ -695,6 +831,8 @@ export const masterofmadnessSeries: UserSerie[] = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 7,
@@ -702,6 +840,8 @@ export const masterofmadnessSeries: UserSerie[] = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 8,
@@ -709,6 +849,8 @@ export const masterofmadnessSeries: UserSerie[] = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 9,
@@ -716,6 +858,8 @@ export const masterofmadnessSeries: UserSerie[] = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
     ],
     owned: false,
@@ -736,6 +880,8 @@ export const masterofmadnessSeries: UserSerie[] = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 2,
@@ -743,6 +889,8 @@ export const masterofmadnessSeries: UserSerie[] = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 3,
@@ -750,6 +898,8 @@ export const masterofmadnessSeries: UserSerie[] = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 4,
@@ -757,6 +907,8 @@ export const masterofmadnessSeries: UserSerie[] = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 5,
@@ -764,6 +916,8 @@ export const masterofmadnessSeries: UserSerie[] = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 6,
@@ -771,6 +925,8 @@ export const masterofmadnessSeries: UserSerie[] = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
     ],
     owned: false,
@@ -791,6 +947,8 @@ export const masterofmadnessSeries: UserSerie[] = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 2,
@@ -798,6 +956,8 @@ export const masterofmadnessSeries: UserSerie[] = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 3,
@@ -805,6 +965,8 @@ export const masterofmadnessSeries: UserSerie[] = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 4,
@@ -812,6 +974,8 @@ export const masterofmadnessSeries: UserSerie[] = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 5,
@@ -819,6 +983,8 @@ export const masterofmadnessSeries: UserSerie[] = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 6,
@@ -826,6 +992,8 @@ export const masterofmadnessSeries: UserSerie[] = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
     ],
     owned: false,
@@ -846,6 +1014,8 @@ export const masterofmadnessSeries: UserSerie[] = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 2,
@@ -853,6 +1023,8 @@ export const masterofmadnessSeries: UserSerie[] = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 3,
@@ -860,6 +1032,8 @@ export const masterofmadnessSeries: UserSerie[] = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 4,
@@ -867,6 +1041,8 @@ export const masterofmadnessSeries: UserSerie[] = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 5,
@@ -874,6 +1050,8 @@ export const masterofmadnessSeries: UserSerie[] = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 6,
@@ -881,6 +1059,8 @@ export const masterofmadnessSeries: UserSerie[] = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 7,
@@ -888,6 +1068,8 @@ export const masterofmadnessSeries: UserSerie[] = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 8,
@@ -895,6 +1077,8 @@ export const masterofmadnessSeries: UserSerie[] = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 9,
@@ -902,6 +1086,8 @@ export const masterofmadnessSeries: UserSerie[] = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 10,
@@ -909,6 +1095,8 @@ export const masterofmadnessSeries: UserSerie[] = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 11,
@@ -916,6 +1104,8 @@ export const masterofmadnessSeries: UserSerie[] = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 12,
@@ -923,6 +1113,8 @@ export const masterofmadnessSeries: UserSerie[] = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 13,
@@ -930,6 +1122,8 @@ export const masterofmadnessSeries: UserSerie[] = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 14,
@@ -937,6 +1131,8 @@ export const masterofmadnessSeries: UserSerie[] = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 15,
@@ -944,6 +1140,8 @@ export const masterofmadnessSeries: UserSerie[] = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 16,
@@ -951,6 +1149,8 @@ export const masterofmadnessSeries: UserSerie[] = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 17,
@@ -958,6 +1158,8 @@ export const masterofmadnessSeries: UserSerie[] = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 18,
@@ -965,6 +1167,8 @@ export const masterofmadnessSeries: UserSerie[] = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 19,
@@ -972,6 +1176,8 @@ export const masterofmadnessSeries: UserSerie[] = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 20,
@@ -979,6 +1185,8 @@ export const masterofmadnessSeries: UserSerie[] = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 21,
@@ -986,6 +1194,8 @@ export const masterofmadnessSeries: UserSerie[] = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 22,
@@ -993,6 +1203,8 @@ export const masterofmadnessSeries: UserSerie[] = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
     ],
     owned: false,
@@ -1013,6 +1225,8 @@ export const masterofmadnessSeries: UserSerie[] = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 2,
@@ -1020,6 +1234,8 @@ export const masterofmadnessSeries: UserSerie[] = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 3,
@@ -1027,6 +1243,8 @@ export const masterofmadnessSeries: UserSerie[] = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 4,
@@ -1034,6 +1252,8 @@ export const masterofmadnessSeries: UserSerie[] = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 5,
@@ -1041,6 +1261,8 @@ export const masterofmadnessSeries: UserSerie[] = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 6,
@@ -1048,6 +1270,8 @@ export const masterofmadnessSeries: UserSerie[] = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 7,
@@ -1055,6 +1279,8 @@ export const masterofmadnessSeries: UserSerie[] = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 8,
@@ -1062,6 +1288,8 @@ export const masterofmadnessSeries: UserSerie[] = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 9,
@@ -1069,6 +1297,8 @@ export const masterofmadnessSeries: UserSerie[] = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 10,
@@ -1076,6 +1306,8 @@ export const masterofmadnessSeries: UserSerie[] = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 11,
@@ -1083,6 +1315,8 @@ export const masterofmadnessSeries: UserSerie[] = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 12,
@@ -1090,6 +1324,8 @@ export const masterofmadnessSeries: UserSerie[] = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 13,
@@ -1097,6 +1333,8 @@ export const masterofmadnessSeries: UserSerie[] = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 14,
@@ -1104,6 +1342,8 @@ export const masterofmadnessSeries: UserSerie[] = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 15,
@@ -1111,6 +1351,8 @@ export const masterofmadnessSeries: UserSerie[] = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 16,
@@ -1118,6 +1360,8 @@ export const masterofmadnessSeries: UserSerie[] = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 17,
@@ -1125,6 +1369,8 @@ export const masterofmadnessSeries: UserSerie[] = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 18,
@@ -1132,6 +1378,8 @@ export const masterofmadnessSeries: UserSerie[] = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 19,
@@ -1139,6 +1387,8 @@ export const masterofmadnessSeries: UserSerie[] = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 20,
@@ -1146,6 +1396,8 @@ export const masterofmadnessSeries: UserSerie[] = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 21,
@@ -1153,6 +1405,8 @@ export const masterofmadnessSeries: UserSerie[] = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 22,
@@ -1160,6 +1414,8 @@ export const masterofmadnessSeries: UserSerie[] = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
     ],
     owned: false,
@@ -1180,6 +1436,8 @@ export const masterofmadnessSeries: UserSerie[] = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 2,
@@ -1187,6 +1445,8 @@ export const masterofmadnessSeries: UserSerie[] = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 3,
@@ -1194,6 +1454,8 @@ export const masterofmadnessSeries: UserSerie[] = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 4,
@@ -1201,6 +1463,8 @@ export const masterofmadnessSeries: UserSerie[] = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 5,
@@ -1208,6 +1472,8 @@ export const masterofmadnessSeries: UserSerie[] = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 6,
@@ -1215,6 +1481,8 @@ export const masterofmadnessSeries: UserSerie[] = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 7,
@@ -1222,6 +1490,8 @@ export const masterofmadnessSeries: UserSerie[] = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 8,
@@ -1229,6 +1499,8 @@ export const masterofmadnessSeries: UserSerie[] = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 9,
@@ -1236,6 +1508,8 @@ export const masterofmadnessSeries: UserSerie[] = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
     ],
     owned: false,
@@ -1256,6 +1530,8 @@ export const masterofmadnessSeries: UserSerie[] = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 2,
@@ -1263,6 +1539,8 @@ export const masterofmadnessSeries: UserSerie[] = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 3,
@@ -1270,6 +1548,8 @@ export const masterofmadnessSeries: UserSerie[] = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 4,
@@ -1277,6 +1557,8 @@ export const masterofmadnessSeries: UserSerie[] = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 5,
@@ -1284,6 +1566,8 @@ export const masterofmadnessSeries: UserSerie[] = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 6,
@@ -1291,6 +1575,8 @@ export const masterofmadnessSeries: UserSerie[] = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 7,
@@ -1298,6 +1584,8 @@ export const masterofmadnessSeries: UserSerie[] = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 8,
@@ -1305,6 +1593,8 @@ export const masterofmadnessSeries: UserSerie[] = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 9,
@@ -1312,6 +1602,8 @@ export const masterofmadnessSeries: UserSerie[] = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 10,
@@ -1319,6 +1611,8 @@ export const masterofmadnessSeries: UserSerie[] = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 11,
@@ -1326,6 +1620,8 @@ export const masterofmadnessSeries: UserSerie[] = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
     ],
     owned: false,
@@ -1346,6 +1642,8 @@ export const masterofmadnessSeries: UserSerie[] = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 2,
@@ -1353,6 +1651,8 @@ export const masterofmadnessSeries: UserSerie[] = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 3,
@@ -1360,6 +1660,8 @@ export const masterofmadnessSeries: UserSerie[] = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 4,
@@ -1367,6 +1669,8 @@ export const masterofmadnessSeries: UserSerie[] = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 5,
@@ -1374,6 +1678,8 @@ export const masterofmadnessSeries: UserSerie[] = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
     ],
     owned: false,
@@ -1394,6 +1700,8 @@ export const masterofmadnessSeries: UserSerie[] = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 2,
@@ -1401,6 +1709,8 @@ export const masterofmadnessSeries: UserSerie[] = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 3,
@@ -1408,6 +1718,8 @@ export const masterofmadnessSeries: UserSerie[] = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
     ],
     owned: false,
@@ -1428,6 +1740,8 @@ export const masterofmadnessSeries: UserSerie[] = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 2,
@@ -1435,6 +1749,8 @@ export const masterofmadnessSeries: UserSerie[] = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 3,
@@ -1442,6 +1758,8 @@ export const masterofmadnessSeries: UserSerie[] = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 4,
@@ -1449,6 +1767,8 @@ export const masterofmadnessSeries: UserSerie[] = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 5,
@@ -1456,6 +1776,8 @@ export const masterofmadnessSeries: UserSerie[] = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 6,
@@ -1463,6 +1785,8 @@ export const masterofmadnessSeries: UserSerie[] = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 7,
@@ -1470,6 +1794,8 @@ export const masterofmadnessSeries: UserSerie[] = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 8,
@@ -1477,6 +1803,8 @@ export const masterofmadnessSeries: UserSerie[] = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 9,
@@ -1484,6 +1812,8 @@ export const masterofmadnessSeries: UserSerie[] = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 10,
@@ -1491,6 +1821,8 @@ export const masterofmadnessSeries: UserSerie[] = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 11,
@@ -1498,6 +1830,8 @@ export const masterofmadnessSeries: UserSerie[] = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 12,
@@ -1505,6 +1839,8 @@ export const masterofmadnessSeries: UserSerie[] = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 13,
@@ -1512,6 +1848,8 @@ export const masterofmadnessSeries: UserSerie[] = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 14,
@@ -1519,6 +1857,8 @@ export const masterofmadnessSeries: UserSerie[] = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 15,
@@ -1526,6 +1866,8 @@ export const masterofmadnessSeries: UserSerie[] = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 16,
@@ -1533,6 +1875,8 @@ export const masterofmadnessSeries: UserSerie[] = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 17,
@@ -1540,6 +1884,8 @@ export const masterofmadnessSeries: UserSerie[] = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
     ],
     owned: false,
@@ -1560,6 +1906,8 @@ export const masterofmadnessSeries: UserSerie[] = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 2,
@@ -1567,6 +1915,8 @@ export const masterofmadnessSeries: UserSerie[] = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 3,
@@ -1574,6 +1924,8 @@ export const masterofmadnessSeries: UserSerie[] = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
     ],
     owned: false,
@@ -1594,6 +1946,8 @@ export const masterofmadnessSeries: UserSerie[] = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
     ],
     owned: false,
@@ -1614,6 +1968,8 @@ export const masterofmadnessSeries: UserSerie[] = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 2,
@@ -1621,6 +1977,8 @@ export const masterofmadnessSeries: UserSerie[] = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 3,
@@ -1628,6 +1986,8 @@ export const masterofmadnessSeries: UserSerie[] = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 4,
@@ -1635,6 +1995,8 @@ export const masterofmadnessSeries: UserSerie[] = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 5,
@@ -1642,6 +2004,8 @@ export const masterofmadnessSeries: UserSerie[] = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 6,
@@ -1649,6 +2013,8 @@ export const masterofmadnessSeries: UserSerie[] = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 7,
@@ -1656,6 +2022,8 @@ export const masterofmadnessSeries: UserSerie[] = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 8,
@@ -1663,6 +2031,8 @@ export const masterofmadnessSeries: UserSerie[] = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 9,
@@ -1670,6 +2040,8 @@ export const masterofmadnessSeries: UserSerie[] = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 10,
@@ -1677,6 +2049,8 @@ export const masterofmadnessSeries: UserSerie[] = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 11,
@@ -1684,6 +2058,8 @@ export const masterofmadnessSeries: UserSerie[] = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
     ],
     owned: false,
@@ -1704,6 +2080,8 @@ export const masterofmadnessSeries: UserSerie[] = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 2,
@@ -1711,6 +2089,8 @@ export const masterofmadnessSeries: UserSerie[] = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 3,
@@ -1718,6 +2098,8 @@ export const masterofmadnessSeries: UserSerie[] = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 4,
@@ -1725,6 +2107,8 @@ export const masterofmadnessSeries: UserSerie[] = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 5,
@@ -1732,6 +2116,8 @@ export const masterofmadnessSeries: UserSerie[] = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 6,
@@ -1739,6 +2125,8 @@ export const masterofmadnessSeries: UserSerie[] = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 7,
@@ -1746,6 +2134,8 @@ export const masterofmadnessSeries: UserSerie[] = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
     ],
     owned: false,
@@ -1766,6 +2156,8 @@ export const masterofmadnessSeries: UserSerie[] = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 2,
@@ -1773,6 +2165,8 @@ export const masterofmadnessSeries: UserSerie[] = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 3,
@@ -1780,6 +2174,8 @@ export const masterofmadnessSeries: UserSerie[] = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 4,
@@ -1787,6 +2183,8 @@ export const masterofmadnessSeries: UserSerie[] = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 5,
@@ -1794,6 +2192,8 @@ export const masterofmadnessSeries: UserSerie[] = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 6,
@@ -1801,6 +2201,8 @@ export const masterofmadnessSeries: UserSerie[] = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 7,
@@ -1808,6 +2210,8 @@ export const masterofmadnessSeries: UserSerie[] = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
     ],
     owned: false,
@@ -1828,6 +2232,8 @@ export const masterofmadnessSeries: UserSerie[] = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 2,
@@ -1835,6 +2241,8 @@ export const masterofmadnessSeries: UserSerie[] = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 3,
@@ -1842,6 +2250,8 @@ export const masterofmadnessSeries: UserSerie[] = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 4,
@@ -1849,6 +2259,8 @@ export const masterofmadnessSeries: UserSerie[] = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 5,
@@ -1856,6 +2268,8 @@ export const masterofmadnessSeries: UserSerie[] = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 6,
@@ -1863,6 +2277,8 @@ export const masterofmadnessSeries: UserSerie[] = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 7,
@@ -1870,6 +2286,8 @@ export const masterofmadnessSeries: UserSerie[] = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 8,
@@ -1877,6 +2295,8 @@ export const masterofmadnessSeries: UserSerie[] = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 9,
@@ -1884,6 +2304,8 @@ export const masterofmadnessSeries: UserSerie[] = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 10,
@@ -1891,6 +2313,8 @@ export const masterofmadnessSeries: UserSerie[] = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 11,
@@ -1898,6 +2322,8 @@ export const masterofmadnessSeries: UserSerie[] = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 12,
@@ -1905,6 +2331,8 @@ export const masterofmadnessSeries: UserSerie[] = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 13,
@@ -1912,6 +2340,8 @@ export const masterofmadnessSeries: UserSerie[] = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 14,
@@ -1919,6 +2349,8 @@ export const masterofmadnessSeries: UserSerie[] = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 15,
@@ -1926,6 +2358,8 @@ export const masterofmadnessSeries: UserSerie[] = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 16,
@@ -1933,6 +2367,8 @@ export const masterofmadnessSeries: UserSerie[] = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 17,
@@ -1940,6 +2376,8 @@ export const masterofmadnessSeries: UserSerie[] = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 18,
@@ -1947,6 +2385,8 @@ export const masterofmadnessSeries: UserSerie[] = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 19,
@@ -1954,6 +2394,8 @@ export const masterofmadnessSeries: UserSerie[] = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 20,
@@ -1961,6 +2403,8 @@ export const masterofmadnessSeries: UserSerie[] = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 21,
@@ -1968,6 +2412,8 @@ export const masterofmadnessSeries: UserSerie[] = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 22,
@@ -1975,6 +2421,8 @@ export const masterofmadnessSeries: UserSerie[] = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 23,
@@ -1982,6 +2430,8 @@ export const masterofmadnessSeries: UserSerie[] = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 24,
@@ -1989,6 +2439,8 @@ export const masterofmadnessSeries: UserSerie[] = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
     ],
     owned: false,
@@ -2009,6 +2461,8 @@ export const masterofmadnessSeries: UserSerie[] = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
     ],
     owned: false,
@@ -2029,6 +2483,8 @@ export const masterofmadnessSeries: UserSerie[] = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 2,
@@ -2036,6 +2492,8 @@ export const masterofmadnessSeries: UserSerie[] = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
     ],
     owned: false,
@@ -2056,6 +2514,8 @@ export const masterofmadnessSeries: UserSerie[] = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 2,
@@ -2063,6 +2523,8 @@ export const masterofmadnessSeries: UserSerie[] = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
     ],
     owned: false,
@@ -2083,6 +2545,8 @@ export const masterofmadnessSeries: UserSerie[] = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 2,
@@ -2090,6 +2554,8 @@ export const masterofmadnessSeries: UserSerie[] = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 3,
@@ -2097,6 +2563,8 @@ export const masterofmadnessSeries: UserSerie[] = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 4,
@@ -2104,6 +2572,8 @@ export const masterofmadnessSeries: UserSerie[] = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 5,
@@ -2111,6 +2581,8 @@ export const masterofmadnessSeries: UserSerie[] = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 6,
@@ -2118,6 +2590,8 @@ export const masterofmadnessSeries: UserSerie[] = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 7,
@@ -2125,6 +2599,8 @@ export const masterofmadnessSeries: UserSerie[] = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 8,
@@ -2132,6 +2608,8 @@ export const masterofmadnessSeries: UserSerie[] = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 9,
@@ -2139,6 +2617,8 @@ export const masterofmadnessSeries: UserSerie[] = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 10,
@@ -2146,6 +2626,8 @@ export const masterofmadnessSeries: UserSerie[] = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 11,
@@ -2153,6 +2635,8 @@ export const masterofmadnessSeries: UserSerie[] = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 12,
@@ -2160,6 +2644,8 @@ export const masterofmadnessSeries: UserSerie[] = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 13,
@@ -2167,6 +2653,8 @@ export const masterofmadnessSeries: UserSerie[] = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 14,
@@ -2174,6 +2662,8 @@ export const masterofmadnessSeries: UserSerie[] = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 15,
@@ -2181,6 +2671,8 @@ export const masterofmadnessSeries: UserSerie[] = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 16,
@@ -2188,6 +2680,8 @@ export const masterofmadnessSeries: UserSerie[] = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 17,
@@ -2195,6 +2689,8 @@ export const masterofmadnessSeries: UserSerie[] = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 18,
@@ -2202,6 +2698,8 @@ export const masterofmadnessSeries: UserSerie[] = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 19,
@@ -2209,6 +2707,8 @@ export const masterofmadnessSeries: UserSerie[] = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 20,
@@ -2216,6 +2716,8 @@ export const masterofmadnessSeries: UserSerie[] = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 21,
@@ -2223,6 +2725,8 @@ export const masterofmadnessSeries: UserSerie[] = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 22,
@@ -2230,6 +2734,8 @@ export const masterofmadnessSeries: UserSerie[] = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 23,
@@ -2237,6 +2743,8 @@ export const masterofmadnessSeries: UserSerie[] = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 24,
@@ -2244,6 +2752,8 @@ export const masterofmadnessSeries: UserSerie[] = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 25,
@@ -2251,6 +2761,8 @@ export const masterofmadnessSeries: UserSerie[] = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 26,
@@ -2258,6 +2770,8 @@ export const masterofmadnessSeries: UserSerie[] = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 27,
@@ -2265,6 +2779,8 @@ export const masterofmadnessSeries: UserSerie[] = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 28,
@@ -2272,6 +2788,8 @@ export const masterofmadnessSeries: UserSerie[] = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 29,
@@ -2279,6 +2797,8 @@ export const masterofmadnessSeries: UserSerie[] = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 30,
@@ -2286,6 +2806,8 @@ export const masterofmadnessSeries: UserSerie[] = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 31,
@@ -2293,6 +2815,8 @@ export const masterofmadnessSeries: UserSerie[] = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 32,
@@ -2300,6 +2824,8 @@ export const masterofmadnessSeries: UserSerie[] = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 33,
@@ -2307,6 +2833,8 @@ export const masterofmadnessSeries: UserSerie[] = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 34,
@@ -2314,6 +2842,8 @@ export const masterofmadnessSeries: UserSerie[] = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 35,
@@ -2321,6 +2851,8 @@ export const masterofmadnessSeries: UserSerie[] = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
     ],
     owned: false,
@@ -2341,6 +2873,8 @@ export const masterofmadnessSeries: UserSerie[] = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 2,
@@ -2348,6 +2882,8 @@ export const masterofmadnessSeries: UserSerie[] = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 3,
@@ -2355,6 +2891,8 @@ export const masterofmadnessSeries: UserSerie[] = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 4,
@@ -2362,6 +2900,8 @@ export const masterofmadnessSeries: UserSerie[] = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 5,
@@ -2369,6 +2909,8 @@ export const masterofmadnessSeries: UserSerie[] = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 6,
@@ -2376,6 +2918,8 @@ export const masterofmadnessSeries: UserSerie[] = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 7,
@@ -2383,6 +2927,8 @@ export const masterofmadnessSeries: UserSerie[] = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
     ],
     owned: false,
@@ -2403,6 +2949,8 @@ export const masterofmadnessSeries: UserSerie[] = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 2,
@@ -2410,6 +2958,8 @@ export const masterofmadnessSeries: UserSerie[] = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 3,
@@ -2417,6 +2967,8 @@ export const masterofmadnessSeries: UserSerie[] = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 4,
@@ -2424,6 +2976,8 @@ export const masterofmadnessSeries: UserSerie[] = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
     ],
     owned: false,
@@ -2444,6 +2998,8 @@ export const masterofmadnessSeries: UserSerie[] = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 2,
@@ -2451,6 +3007,8 @@ export const masterofmadnessSeries: UserSerie[] = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
     ],
     owned: false,
@@ -2471,6 +3029,8 @@ export const masterofmadnessSeries: UserSerie[] = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 2,
@@ -2478,6 +3038,8 @@ export const masterofmadnessSeries: UserSerie[] = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 3,
@@ -2485,6 +3047,8 @@ export const masterofmadnessSeries: UserSerie[] = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
     ],
     owned: false,
@@ -2505,6 +3069,8 @@ export const masterofmadnessSeries: UserSerie[] = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
     ],
     owned: false,
@@ -2525,6 +3091,8 @@ export const masterofmadnessSeries: UserSerie[] = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 2,
@@ -2532,6 +3100,8 @@ export const masterofmadnessSeries: UserSerie[] = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 3,
@@ -2539,6 +3109,8 @@ export const masterofmadnessSeries: UserSerie[] = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
     ],
     owned: false,
@@ -2559,6 +3131,8 @@ export const masterofmadnessSeries: UserSerie[] = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 2,
@@ -2566,6 +3140,8 @@ export const masterofmadnessSeries: UserSerie[] = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 3,
@@ -2573,6 +3149,8 @@ export const masterofmadnessSeries: UserSerie[] = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
       {
         seasonNumber: 4,
@@ -2580,6 +3158,8 @@ export const masterofmadnessSeries: UserSerie[] = [
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
+
+        otherViewedDates: [],
       },
     ],
     owned: false,

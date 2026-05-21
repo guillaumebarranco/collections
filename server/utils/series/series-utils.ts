@@ -81,6 +81,70 @@ function parseStringField(objectText: string, key: string) {
   return unescapeString(match[2], quote);
 }
 
+function parseStringArrayField(objectText: string, key: string): string[] {
+  const keyIndex = objectText.indexOf(key);
+  if (keyIndex === -1) return [];
+  const afterKey = objectText.slice(keyIndex + key.length);
+  const bracketStart = afterKey.indexOf('[');
+  if (bracketStart === -1) return [];
+  let depth = 1;
+  let i = bracketStart + 1;
+  while (i < afterKey.length && depth > 0) {
+    const c = afterKey[i];
+    if (c === '[') depth += 1;
+    else if (c === ']') depth -= 1;
+    i += 1;
+  }
+  const inner = afterKey.slice(bracketStart + 1, i - 1);
+  if (!inner.trim()) return [];
+  const regex = /(['"])((?:\\.|(?!\1).)*)\1/g;
+  const result: string[] = [];
+  let match = regex.exec(inner);
+  while (match) {
+    const quote = match[1];
+    const raw = match[2];
+    result.push(
+      quote === '"'
+        ? raw.replace(/\\"/g, '"').replace(/\\\\/g, '\\')
+        : raw.replace(/\\'/g, "'").replace(/\\\\/g, '\\')
+    );
+    match = regex.exec(inner);
+  }
+  return result;
+}
+
+function formatOtherViewedDatesTs(dates: string[] | undefined): string {
+  if (!Array.isArray(dates) || dates.length === 0) {
+    return '[]';
+  }
+  const parts = dates.map((d) => `"${escapeString(d)}"`);
+  return `[${parts.join(', ')}]`;
+}
+
+/** Conserve otherViewedDates déjà en fichier (l’UI ne les envoie pas). */
+function mergeSeasonsPreservingOtherViewedDates(
+  incoming: UserSerieSeason[],
+  existing: UserSerieSeason[] | null
+): UserSerieSeason[] {
+  const byNum = new Map((existing ?? []).map((s) => [s.seasonNumber, s]));
+  return incoming.map((row) => {
+    const prev = byNum.get(row.seasonNumber);
+    const prevOther = prev?.otherViewedDates;
+    const hasPrevOther = Array.isArray(prevOther) && prevOther.length > 0;
+    const incomingOther = row.otherViewedDates;
+    const hasIncomingOther =
+      Array.isArray(incomingOther) && incomingOther.length > 0;
+    return {
+      ...row,
+      otherViewedDates: hasIncomingOther
+        ? incomingOther
+        : hasPrevOther
+          ? prevOther
+          : [],
+    };
+  });
+}
+
 function unescapeString(value: string, quote: string) {
   return value
     .replace(new RegExp(`\\\\${quote}`, 'g'), quote)
@@ -283,12 +347,15 @@ function parseSeasonsField(objectText: string) {
       parseNumberField(entry, 'seasonTimesWatched') ?? 0;
     const firstViewedDate = parseStringField(entry, 'firstViewedDate') ?? '';
     const lastViewedDate = parseStringField(entry, 'lastViewedDate') ?? '';
+    const otherViewedDates =
+      parseStringArrayField(entry, 'otherViewedDates') ?? [];
     seasons.push({
       seasonNumber,
       seasonRating,
       seasonTimesWatched,
       firstViewedDate,
       lastViewedDate,
+      otherViewedDates,
     });
   }
   return seasons;
@@ -712,6 +779,7 @@ function formatSeasons(seasons: UserSerieSeason[]) {
       },
       firstViewedDate: "${escapeString(firstViewedDate)}",
       lastViewedDate: "${escapeString(lastViewedDate)}",
+      otherViewedDates: ${formatOtherViewedDatesTs(season?.otherViewedDates)},
     }`;
   });
   return `seasons: [\n${lines.join(',\n')}\n  ]`;
@@ -762,7 +830,14 @@ function updateSerieInFile(content: string, payload: SerieUpdatePayload) {
         if (title === payload.title && director === payload.director) {
           let updated = objectText;
           if (payload.seasons) {
-            updated = replaceSeasonsField(updated, payload.seasons);
+            const existingSeasons = parseSeasonsField(objectText) ?? [];
+            updated = replaceSeasonsField(
+              updated,
+              mergeSeasonsPreservingOtherViewedDates(
+                payload.seasons,
+                existingSeasons
+              )
+            );
           }
           updated = replaceField(updated, 'owned', payload.owned);
           updated = replaceField(

@@ -41,6 +41,7 @@ function buildSeasons(
         /** Pas de date : la saison n’a pas été vue (évite de fausser le tri « visionnage récent »). */
         firstViewedDate: '',
         lastViewedDate: '',
+        otherViewedDates: [],
       })
     );
     return [...existing, ...missing];
@@ -51,6 +52,7 @@ function buildSeasons(
     seasonTimesWatched: 0,
     firstViewedDate: '',
     lastViewedDate: '',
+    otherViewedDates: [],
   }));
 }
 

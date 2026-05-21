@@ -66,6 +66,7 @@ type PayloadSeasonRow = {
   seasonTimesWatched: number;
   firstViewedDate: string;
   lastViewedDate: string;
+  otherViewedDates?: string[];
 };
 
 function sanitizePayloadSeasons(value: unknown): PayloadSeasonRow[] {
@@ -103,6 +104,28 @@ function findPayloadSeason(rows: PayloadSeasonRow[], seasonNumber: number) {
   return rows.find((r) => r.seasonNumber === seasonNumber);
 }
 
+function pickOtherViewedDates(
+  wlRow?: PayloadSeasonRow,
+  exRow?: { otherViewedDates?: string[] }
+): string[] {
+  const wl = wlRow?.otherViewedDates;
+  if (Array.isArray(wl) && wl.length > 0) {
+    return wl;
+  }
+  const ex = exRow?.otherViewedDates;
+  if (Array.isArray(ex) && ex.length > 0) {
+    return ex;
+  }
+  return [];
+}
+
+function formatOtherViewedDatesInline(dates: string[] | undefined): string {
+  if (!Array.isArray(dates) || dates.length === 0) {
+    return '[]';
+  }
+  return `[${dates.map((d) => `"${escapeString(d)}"`).join(', ')}]`;
+}
+
 /**
  * Fusion watchlist (+ optionnellement entrée « déjà vue » existante pour le même titre).
  * Les saisons passées avec timesWatched 0.5 (en cours) passent à 1 avec date du jour.
@@ -116,6 +139,7 @@ function mergeWatchlistSeasonsToWatched(params: {
     seasonTimesWatched: number;
     firstViewedDate: string;
     lastViewedDate: string;
+    otherViewedDates?: string[];
   }[];
 }): PayloadSeasonRow[] {
   const today = getTodayISO();
@@ -139,6 +163,7 @@ function mergeWatchlistSeasonsToWatched(params: {
           seasonTimesWatched: 1,
           firstViewedDate: existingFirst || today,
           lastViewedDate: today,
+          otherViewedDates: pickOtherViewedDates(wlRow, exRow),
         });
         continue;
       }
@@ -153,6 +178,7 @@ function mergeWatchlistSeasonsToWatched(params: {
             wlRow.lastViewedDate ||
             today,
           lastViewedDate: wlRow.lastViewedDate || today,
+          otherViewedDates: pickOtherViewedDates(wlRow, exRow),
         });
         continue;
       }
@@ -163,6 +189,7 @@ function mergeWatchlistSeasonsToWatched(params: {
         seasonTimesWatched: 1,
         firstViewedDate: String(exRow?.firstViewedDate ?? '').trim() || today,
         lastViewedDate: today,
+        otherViewedDates: pickOtherViewedDates(wlRow, exRow),
       });
       continue;
     }
@@ -175,6 +202,7 @@ function mergeWatchlistSeasonsToWatched(params: {
         seasonTimesWatched: Number(exRow.seasonTimesWatched),
         firstViewedDate: String(exRow.firstViewedDate || ''),
         lastViewedDate: String(exRow.lastViewedDate || ''),
+        otherViewedDates: pickOtherViewedDates(undefined, exRow),
       });
       continue;
     }
@@ -185,6 +213,7 @@ function mergeWatchlistSeasonsToWatched(params: {
       seasonTimesWatched: 1,
       firstViewedDate: today,
       lastViewedDate: today,
+      otherViewedDates: [],
     });
   }
 
@@ -199,6 +228,7 @@ function formatSeasons(seasons: PayloadSeasonRow[]) {
         seasonTimesWatched: ${season.seasonTimesWatched},
         firstViewedDate: "${escapeString(season.firstViewedDate || '')}",
         lastViewedDate: "${escapeString(season.lastViewedDate || '')}",
+        otherViewedDates: ${formatOtherViewedDatesInline(season.otherViewedDates)},
       }`
   );
   return `    seasons: [\n${lines.join(',\n')}\n    ],`;

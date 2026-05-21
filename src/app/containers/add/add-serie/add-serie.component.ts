@@ -41,6 +41,7 @@ type AddSerieUserForm = {
     seasonTimesWatched: number;
     firstViewedDate: string;
     lastViewedDate: string;
+    otherViewedDates: string[];
   }[];
   ratingComment: string;
 };
@@ -122,6 +123,7 @@ export class AddSerieComponent {
           seasonTimesWatched: 0,
           firstViewedDate: '',
           lastViewedDate: '',
+          otherViewedDates: [],
         },
       ],
     });
