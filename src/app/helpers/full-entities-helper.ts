@@ -151,6 +151,7 @@ export const getFullMovie = (movie: BaseMovie): Movie => ({
   timesWatched: 0,
   firstViewedDate: '',
   lastViewedDate: '',
+  otherSeenDates: [],
   seenAtCinema: false,
   owned: false,
   wantToSeeAgain: false,

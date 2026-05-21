@@ -56,7 +56,7 @@ function formatUserMovie(user: any): string {
     user.firstViewedDate || ''
   )}",\n    lastViewedDate: "${escapeString(
     user.lastViewedDate || ''
-  )}",\n    seenAtCinema: ${user.seenAtCinema ?? false},\n    owned: ${
+  )}",\n    otherSeenDates: [],\n    seenAtCinema: ${user.seenAtCinema ?? false},\n    owned: ${
     user.owned ?? false
   },\n    wantToSeeAgain: ${
     user.wantToSeeAgain ?? false

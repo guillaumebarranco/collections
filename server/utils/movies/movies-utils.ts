@@ -273,6 +273,30 @@ function parseStringArrayField(objectText: string, key: string) {
   return result;
 }
 
+function formatOtherSeenDatesTs(dates: string[] | undefined): string {
+  if (!Array.isArray(dates) || dates.length === 0) {
+    return '[]';
+  }
+  const parts = dates.map((d) => `"${escapeString(d)}"`);
+  return `[${parts.join(', ')}]`;
+}
+
+function upsertOtherSeenDatesField(objectText: string, dates: string[]) {
+  const serialized = formatOtherSeenDatesTs(dates);
+  const existingRegex = /otherSeenDates\s*:\s*\[[\s\S]*?\]/;
+  if (existingRegex.test(objectText)) {
+    return objectText.replace(existingRegex, `otherSeenDates: ${serialized}`);
+  }
+  const afterLastViewedDate = /(lastViewedDate\s*:\s*(?:'[^']*'|"[^"]*"),)\n/;
+  if (afterLastViewedDate.test(objectText)) {
+    return objectText.replace(
+      afterLastViewedDate,
+      `$1    otherSeenDates: ${serialized},\n`
+    );
+  }
+  return objectText.replace(/\}\s*$/, `    otherSeenDates: ${serialized},\n  }`);
+}
+
 const FROM_ENTITY_TYPES = [
   'book',
   'bd',
@@ -357,6 +381,8 @@ function parseMoviesFromFile(content: string): UserMovie[] {
               parseStringField(objectText, 'firstViewedDate') ?? '',
             lastViewedDate:
               parseStringField(objectText, 'lastViewedDate') ?? '',
+            otherSeenDates:
+              parseStringArrayField(objectText, 'otherSeenDates') ?? [],
             seenAtCinema:
               parseBooleanField(objectText, 'seenAtCinema') ?? false,
             owned: parseBooleanField(objectText, 'owned') ?? false,
@@ -825,6 +851,14 @@ function updateMovieInFile(content: string, payload: MovieUpdatePayload) {
             'lastViewedDate',
             payload.lastViewedDate
           );
+          if (payload.otherSeenDates !== undefined) {
+            updated = upsertOtherSeenDatesField(
+              updated,
+              Array.isArray(payload.otherSeenDates)
+                ? payload.otherSeenDates
+                : []
+            );
+          }
           updated = replaceField(updated, 'seenAtCinema', payload.seenAtCinema);
           updated = replaceField(updated, 'owned', payload.owned);
           updated = replaceField(
@@ -1083,6 +1117,7 @@ function removeMovieFromFile(content: string, payload: MovieRemovePayload) {
     timesWatched: ${movie.timesWatched ?? 0},
     firstViewedDate: "${escapeString(movie.firstViewedDate || '')}",
     lastViewedDate: "${escapeString(movie.lastViewedDate || '')}",
+    otherSeenDates: ${formatOtherSeenDatesTs(movie.otherSeenDates)},
     seenAtCinema: ${movie.seenAtCinema ?? false},
     owned: ${movie.owned ?? false},
     wantToSeeAgain: ${movie.wantToSeeAgain ?? false},

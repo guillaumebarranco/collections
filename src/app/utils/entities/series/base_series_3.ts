@@ -3979,6 +3979,28 @@ export const baseSeries3: BaseSerie[] = [
   },
 
   {
+    title: 'Arnold',
+    director: 'Lesley Chilcott',
+    actors: [
+      { name: 'Arnold Schwarzenegger' },
+      { name: 'James Cameron' },
+      { name: 'Danny DeVito' },
+      { name: 'Jamie Lee Curtis' },
+      { name: 'Sylvester Stallone' },
+    ],
+    coverUrl: '/series_pictures/arnold.jpg',
+    releaseDate: '2023-06-07',
+    endDate: '2023-06-07',
+    genre: ['Documentaire', 'Biographie'],
+    seasonsData: [{ seasonNumber: 1, nbEpisodes: 3, totalLength: 190 }],
+    description:
+      'Mini-série documentaire Netflix en 3 parties sur la vie d\'Arnold Schwarzenegger : bodybuilding, Hollywood et gouverneur de Californie.',
+    saga: '',
+    fromEntity: null,
+    countryOrigin: 'États-Unis',
+  },
+
+  {
     title: 'I Am a Killer',
     director: 'Ross Young',
     actors: [],

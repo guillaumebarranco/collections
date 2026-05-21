@@ -419,8 +419,7 @@ export const baseMoviesThriller: BaseMovie[] = [
       { name: 'Corinna Harfouch' },
       { name: 'Birgit Minichmayr' },
     ],
-    coverUrl:
-      '/movies_pictures/f29053f5bb6b.jpg',
+    coverUrl: '/movies_pictures/f29053f5bb6b.jpg',
     releaseDate: '2006-09-13',
     length: 147,
     genre: ['Thriller'],
@@ -1121,6 +1120,60 @@ export const baseMoviesThriller: BaseMovie[] = [
     selectDisplayOrder: 0,
   },
   {
+    title: 'Death Note (2006)',
+    director: 'Shusuke Kaneko',
+    actors: [
+      { name: 'Tatsuya Fujiwara' },
+      { name: 'Kenichi Matsuyama' },
+      { name: 'Erika Toda' },
+      { name: 'Shigeki Hosokawa' },
+      { name: 'Yû Kashii' },
+      { name: 'Shinji Kaseda' },
+      { name: 'Mayuko Fujiyoshi' },
+    ],
+    coverUrl:
+      'https://m.media-amazon.com/images/M/MV5BYmRkNzYzOGMtNjM3Mi00NmZiLTg4MzMtZWVlOTRhZDY4ZDY0XkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg',
+    releaseDate: '2006-06-17',
+    length: 126,
+    genre: ['Thriller', 'Fantastique'],
+    saga: 'Death Note',
+    description: '',
+    fromEntity: {
+      entityType: 'manga',
+      title: 'Death Note',
+      secondEntityKey: 'Takeshi Obata',
+    },
+    countryOrigin: ['Japon'],
+    selectDisplayOrder: 0,
+  },
+  {
+    title: 'Death Note : The Last Name',
+    director: 'Shusuke Kaneko',
+    actors: [
+      { name: 'Tatsuya Fujiwara' },
+      { name: 'Kenichi Matsuyama' },
+      { name: 'Erika Toda' },
+      { name: 'Shunji Fujimura' },
+      { name: 'Yû Kashii' },
+      { name: 'Miyuki Kaneko' },
+      { name: 'Yoshiya Namba' },
+    ],
+    coverUrl:
+      'https://m.media-amazon.com/images/M/MV5BYWM1MDA5MmEtNDZhMy00YmZlLTk3NzYtZjNmZjE1MzNlYTlhXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg',
+    releaseDate: '2006-11-03',
+    length: 139,
+    genre: ['Thriller', 'Fantastique'],
+    saga: 'Death Note',
+    description: '',
+    fromEntity: {
+      entityType: 'manga',
+      title: 'Death Note',
+      secondEntityKey: 'Takeshi Obata',
+    },
+    countryOrigin: ['Japon'],
+    selectDisplayOrder: 0,
+  },
+  {
     title: 'Death Note',
     director: 'Adam Wingard',
     actors: [
@@ -1583,7 +1636,7 @@ export const baseMoviesThriller: BaseMovie[] = [
     selectDisplayOrder: 30,
   },
   {
-    title: 'Premonition',
+    title: 'Prémonitions',
     director: 'Mennan Yapo',
     actors: [
       {

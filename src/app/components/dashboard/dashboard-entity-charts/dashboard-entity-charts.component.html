@@ -24,13 +24,24 @@
     </div>
     } @if (effectiveEntity() === 'movies') {
     <div class="charts-section charts-section--wide">
-      <h3>🎬 Films vus par an (2000-{{ currentYear }})</h3>
+      <div class="charts-section-header">
+        <h3>🎬 Films vus par an (2000-{{ currentYear }})</h3>
+        <label class="charts-section-option">
+          <input
+            type="checkbox"
+            [checked]="showMovieRewatches()"
+            (change)="onShowMovieRewatchesChange($event)"
+          />
+          Afficher les revisionnages
+        </label>
+      </div>
       @if (moviesWatchedTotal() === 0) {
       <div class="no-data">Aucun film vu depuis 2000.</div>
       } @else {
       <div #moviesWatchedChart class="cinema-chart"></div>
       <div class="chart-footnote">
         Total: {{ moviesWatchedTotal() }} film(s) vus
+        {{ moviesWatchedTotalFootnote() }}
       </div>
       }
     </div>

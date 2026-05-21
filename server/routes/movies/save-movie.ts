@@ -22,6 +22,7 @@ interface SaveMovieUserPayload {
   timesWatched: number | undefined;
   firstViewedDate: string | undefined;
   lastViewedDate: string | undefined;
+  otherSeenDates?: string[];
   seenAtCinema: boolean | undefined;
   owned: boolean | undefined;
   wantToSeeAgain: boolean | undefined;
@@ -78,6 +79,11 @@ router.post('/', (req: any, res: any) => {
     }
     if (Object.prototype.hasOwnProperty.call(input, 'loaned')) {
       payload.loaned = normalizeString(input.loaned, 'loaned') ?? '';
+    }
+    if (Array.isArray(input.otherSeenDates)) {
+      payload.otherSeenDates = input.otherSeenDates.filter(
+        (d: unknown) => typeof d === 'string'
+      );
     }
 
     const entityPayload = input.entity || null;

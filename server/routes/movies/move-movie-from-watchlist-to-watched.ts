@@ -73,7 +73,7 @@ function formatUserMovie(
     movie.title
   )}",\n    director: "${escapeString(
     movie.director
-  )}",\n    rating: ${rating},\n    timesWatched: 1,\n    firstViewedDate: "${viewedDate}",\n    lastViewedDate: "${viewedDate}",\n    seenAtCinema: false,\n    owned: false,\n    wantToSeeAgain: false,\n    watchPriority: 1,\n    ratingComment: "${escapeString(
+  )}",\n    rating: ${rating},\n    timesWatched: 1,\n    firstViewedDate: "${viewedDate}",\n    lastViewedDate: "${viewedDate}",\n    otherSeenDates: [],\n    seenAtCinema: false,\n    owned: false,\n    wantToSeeAgain: false,\n    watchPriority: 1,\n    ratingComment: "${escapeString(
     ratingComment
   )}",\n    inList: [],\n    borrowed: "${escapeString(
     typeof movie.borrowed === 'string' ? movie.borrowed : ''
@@ -87,7 +87,7 @@ function formatWatchlistMovie(movie: UserMovie) {
     movie.title
   )}",\n    director: "${escapeString(
     movie.director
-  )}",\n    rating: 0,\n    timesWatched: 0,\n    firstViewedDate: '',\n    lastViewedDate: '',\n    seenAtCinema: false,\n    owned: false,\n    wantToSeeAgain: false,\n    watchPriority: 1,\n    ratingComment: '',\n    inList: [],\n    borrowed: "${escapeString(
+  )}",\n    rating: 0,\n    timesWatched: 0,\n    firstViewedDate: '',\n    lastViewedDate: '',\n    otherSeenDates: [],\n    seenAtCinema: false,\n    owned: false,\n    wantToSeeAgain: false,\n    watchPriority: 1,\n    ratingComment: '',\n    inList: [],\n    borrowed: "${escapeString(
     typeof movie.borrowed === 'string' ? movie.borrowed : ''
   )}",\n    loaned: "${escapeString(
     typeof movie.loaned === 'string' ? movie.loaned : ''

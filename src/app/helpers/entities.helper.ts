@@ -257,6 +257,7 @@ export const getMovieDataFromUserMovieAndBaseMovie = (
   timesWatched: userMovie.timesWatched,
   firstViewedDate: userMovie.firstViewedDate,
   lastViewedDate: userMovie.lastViewedDate,
+  otherSeenDates: userMovie.otherSeenDates ?? [],
   actors: baseMovie?.actors || [],
   coverUrl: baseMovie?.coverUrl || '',
   releaseDate: baseMovie?.releaseDate || '',

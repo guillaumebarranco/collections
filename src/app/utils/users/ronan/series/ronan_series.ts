@@ -998,6 +998,24 @@ export const ronanSeries: UserSeries = [
     loaned: '',
   },
   {
+    title: 'Arnold',
+    director: 'Lesley Chilcott',
+    seasons: [
+      {
+        seasonNumber: 1,
+        seasonRating: 3,
+        seasonTimesWatched: 1,
+        lastViewedDate: '',
+      },
+    ],
+    owned: false,
+    watchPriority: 1,
+    wantToWatchAgain: false,
+    ratingComment: '',
+    borrowed: '',
+    loaned: '',
+  },
+  {
     title: 'Arrow',
     director: 'Greg Berlanti, Marc Guggenheim',
     seasons: [

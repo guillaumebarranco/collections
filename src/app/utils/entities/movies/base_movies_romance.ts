@@ -549,7 +549,7 @@ export const baseMoviesRomance: BaseMovie[] = [
     selectDisplayOrder: 10,
   },
   {
-    title: 'Hello, goodbye and everything in between',
+    title: 'Hello, adieu, et nous au milieu',
     director: 'Michael Lewen',
     actors: [
       { name: 'Talia Ryder' },
@@ -1434,7 +1434,7 @@ export const baseMoviesRomance: BaseMovie[] = [
     selectDisplayOrder: 30,
   },
   {
-    title: 'La fille du président',
+    title: 'Des étoiles plein les yeux',
     director: 'Forest Whitaker',
     actors: [
       {
@@ -2980,7 +2980,7 @@ export const baseMoviesRomance: BaseMovie[] = [
     selectDisplayOrder: 10,
   },
   {
-    title: 'Bride Wars',
+    title: 'Meilleures ennemies',
     director: 'Gary Winick',
     actors: [
       {
@@ -4876,5 +4876,42 @@ export const baseMoviesRomance: BaseMovie[] = [
     },
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 20,
+  },
+  {
+    title: 'La règle de novembre',
+    director: 'Mike Elliott',
+    actors: [
+      {
+        name: 'Mo McRae',
+      },
+      {
+        name: 'Tatyana Ali',
+      },
+      {
+        name: 'DJ Qualls',
+      },
+      {
+        name: 'La La Anthony',
+      },
+      {
+        name: 'Rick Gonzalez',
+      },
+      {
+        name: 'Jay Ellis',
+      },
+      {
+        name: 'Macy Gray',
+      },
+    ],
+    coverUrl:
+      'https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p12216048_p_v7_aa.jpg',
+    releaseDate: '2015-02-14',
+    length: 94,
+    genre: ['Comédie', 'Romance'],
+    saga: '',
+    description: '',
+    fromEntity: null,
+    countryOrigin: ['États-Unis'],
+    selectDisplayOrder: 0,
   },
 ];

@@ -56,7 +56,7 @@ function formatUserMovie(movie: Movie) {
     movie.title
   )}",\n    director: "${escapeString(
     movie.director
-  )}",\n    rating: 0,\n    timesWatched: 1,\n    firstViewedDate: '',\n    lastViewedDate: '',\n    seenAtCinema: false,\n    owned: false,\n    wantToSeeAgain: false,\n    watchPriority: 1,\n    ratingComment: '',\n    inList: [],\n    borrowed: '',\n    loaned: '',\n  },`;
+  )}",\n    rating: 0,\n    timesWatched: 1,\n    firstViewedDate: '',\n    lastViewedDate: '',\n    otherSeenDates: [],\n    seenAtCinema: false,\n    owned: false,\n    wantToSeeAgain: false,\n    watchPriority: 1,\n    ratingComment: '',\n    inList: [],\n    borrowed: '',\n    loaned: '',\n  },`;
 }
 
 function formatWatchlistMovie(movie: Movie) {
@@ -64,7 +64,7 @@ function formatWatchlistMovie(movie: Movie) {
     movie.title
   )}",\n    director: "${escapeString(
     movie.director
-  )}",\n    rating: 0,\n    timesWatched: 0,\n    firstViewedDate: '',\n    lastViewedDate: '',\n    seenAtCinema: false,\n    owned: false,\n    wantToSeeAgain: false,\n    watchPriority: 1,\n    ratingComment: '',\n    inList: [],\n    borrowed: '',\n    loaned: '',\n  },`;
+  )}",\n    rating: 0,\n    timesWatched: 0,\n    firstViewedDate: '',\n    lastViewedDate: '',\n    otherSeenDates: [],\n    seenAtCinema: false,\n    owned: false,\n    wantToSeeAgain: false,\n    watchPriority: 1,\n    ratingComment: '',\n    inList: [],\n    borrowed: '',\n    loaned: '',\n  },`;
 }
 
 function getUserMoviesTargetFile(userId: string, isWatchlist: boolean) {

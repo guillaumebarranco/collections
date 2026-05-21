@@ -34,6 +34,10 @@ import {
   getBookReadYearsForChart,
   getBookUndatedReadCountForChart,
 } from '../../../utils/book-read-dates.utils';
+import {
+  getMovieSeenYearsForChart,
+  getMovieUndatedSeenCountForChart,
+} from '../../../utils/movie-seen-dates.utils';
 
 export type EntityType =
   | 'books'
@@ -94,6 +98,9 @@ export class DashboardEntityChartsComponent implements OnInit, AfterViewInit {
   /** Inclure les relectures (lastReadDate + otherReadDates) dans le graphique livres. */
   showBookRereads = signal(true);
 
+  /** Inclure les revisionnages (lastViewedDate + otherSeenDates) dans le graphique films. */
+  showMovieRewatches = signal(true);
+
   @ViewChild('moviesWatchedChart')
   moviesWatchedChart?: ElementRef<HTMLDivElement>;
 
@@ -139,13 +146,15 @@ export class DashboardEntityChartsComponent implements OnInit, AfterViewInit {
     const counts = new Map<number, number>();
     years.forEach((year) => counts.set(year, 0));
 
+    const includeRewatches = this.showMovieRewatches();
     const uniqueMovies = this.getUniqueMovies(this.allMovies());
     uniqueMovies.forEach((movie) => {
-      const year = this.getMovieViewedYear(movie);
-      if (year === null || year < startYear || year > endYear) {
-        return;
-      }
-      counts.set(year, (counts.get(year) || 0) + 1);
+      getMovieSeenYearsForChart(movie, includeRewatches).forEach((year) => {
+        if (year < startYear || year > endYear) {
+          return;
+        }
+        counts.set(year, (counts.get(year) || 0) + 1);
+      });
     });
 
     return years.map((year) => ({
@@ -159,6 +168,29 @@ export class DashboardEntityChartsComponent implements OnInit, AfterViewInit {
       (sum, item) => sum + item.count,
       0
     );
+  });
+
+  moviesUndatedSeenTotal = computed(() => {
+    if (!this.showMovieRewatches()) {
+      return 0;
+    }
+    return this.getUniqueMovies(this.allMovies()).reduce(
+      (sum, movie) => sum + getMovieUndatedSeenCountForChart(movie),
+      0
+    );
+  });
+
+  moviesWatchedTotalFootnote = computed(() => {
+    if (!this.showMovieRewatches()) {
+      return '(sans compter les revisionnages)';
+    }
+    const undated = this.moviesUndatedSeenTotal();
+    if (undated <= 0) {
+      return '(avec revisionnages)';
+    }
+    const label =
+      undated === 1 ? 'visionnage non daté' : 'visionnages non datés';
+    return `(avec revisionnages) (sans compter les ${undated} ${label})`;
   });
 
   moviesCinemaByYear = computed(() => {
@@ -311,6 +343,11 @@ export class DashboardEntityChartsComponent implements OnInit, AfterViewInit {
     this.showBookRereads.set(checked);
   }
 
+  onShowMovieRewatchesChange(event: Event): void {
+    const checked = (event.target as HTMLInputElement).checked;
+    this.showMovieRewatches.set(checked);
+  }
+
   constructor() {
     effect(() => {
       if (!this.embedded()) {
@@ -334,6 +371,17 @@ export class DashboardEntityChartsComponent implements OnInit, AfterViewInit {
       }
       untracked(() => {
         requestAnimationFrame(() => this.renderBooksReadChart());
+      });
+    });
+
+    effect(() => {
+      this.moviesWatchedByYear();
+      this.showMovieRewatches();
+      if (this.effectiveEntity() !== 'movies') {
+        return;
+      }
+      untracked(() => {
+        requestAnimationFrame(() => this.renderMoviesWatchedChart());
       });
     });
   }

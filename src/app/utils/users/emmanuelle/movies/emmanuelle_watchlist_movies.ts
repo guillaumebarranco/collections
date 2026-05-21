@@ -8,6 +8,7 @@ export const emmanuelleWatchListMovies: UserMovie[] = [
     timesWatched: 0,
     firstViewedDate: '',
     lastViewedDate: '',
+    otherSeenDates: [],
     seenAtCinema: false,
     owned: false,
     wantToSeeAgain: false,

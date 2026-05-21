@@ -783,7 +783,7 @@ export const baseMoviesScienceFiction: BaseMovie[] = [
     selectDisplayOrder: 0,
   },
   {
-    title: 'Valerian and the City of a Thousand Planets',
+    title: 'Valérian et la Cité des Mille Planètes',
     director: 'Luc Besson',
     actors: [
       {

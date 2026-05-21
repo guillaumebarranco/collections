@@ -291,7 +291,7 @@ export const baseMoviesSagaAutres: BaseMovie[] = [
     selectDisplayOrder: 0,
   },
   {
-    title: 'Spy Kids 3-D: Game Over',
+    title: 'Spy Kids 3 : Mission 3D',
     director: 'Robert Rodriguez',
     actors: [
       {
@@ -463,8 +463,7 @@ export const baseMoviesSagaAutres: BaseMovie[] = [
         name: 'John Cazale',
       },
     ],
-    coverUrl:
-      '/movies_pictures/a5332e6a34d3.jpg',
+    coverUrl: '/movies_pictures/a5332e6a34d3.jpg',
     releaseDate: '1972-03-24',
     length: 175,
     genre: ['Policier'],
@@ -500,8 +499,7 @@ export const baseMoviesSagaAutres: BaseMovie[] = [
         name: 'John Cazale',
       },
     ],
-    coverUrl:
-      '/movies_pictures/08c92e2db7a7.jpg',
+    coverUrl: '/movies_pictures/08c92e2db7a7.jpg',
     releaseDate: '1974-12-20',
     length: 202,
     genre: ['Policier'],

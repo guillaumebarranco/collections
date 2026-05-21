@@ -37,7 +37,7 @@ export const baseMoviesDocumentaire: BaseMovie[] = [
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
   },
-{
+  {
     title: 'Magnifique désolation : marchons sur la lune',
     director: 'Mark Cowen',
     actors: [
@@ -73,7 +73,7 @@ export const baseMoviesDocumentaire: BaseMovie[] = [
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
   },
-{
+  {
     title: 'Catching Fire: The Story of Anita Pallenberg',
     director: 'Alexis Bloom',
     actors: [
@@ -109,7 +109,7 @@ export const baseMoviesDocumentaire: BaseMovie[] = [
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
   },
-{
+  {
     title: 'Muganga - Celui qui soigne',
     director: 'Marie-Hélène Roux',
     actors: [
@@ -145,7 +145,7 @@ export const baseMoviesDocumentaire: BaseMovie[] = [
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
   },
-{
+  {
     title: 'Val',
     director: 'Ting Poo, Leo Scott',
     actors: [
@@ -167,22 +167,72 @@ export const baseMoviesDocumentaire: BaseMovie[] = [
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
   },
-{
-    title: 'Arnold',
-    director: 'Lesley Chilcott',
+  {
+    title: 'Derrière nos écrans de fumée',
+    director: 'Jeff Orlowski',
     actors: [
-      {
-        name: 'Arnold Schwarzenegger',
-      },
+      { name: 'Tristan Harris' },
+      { name: 'Jaron Lanier' },
+      { name: 'Shoshana Zuboff' },
+      { name: 'Justin Rosenstein' },
+      { name: 'Roger McNamee' },
+      { name: 'Cathy O\'Neil' },
+      { name: 'Jeff Orlowski' },
     ],
-    coverUrl: '/movies_pictures/1014180-arnold-0-150-0-225-crop.jpg',
-    releaseDate: '2023-06-07',
-    length: 180,
+    coverUrl: '',
+    releaseDate: '2020-09-09',
+    length: 94,
     genre: ['Documentaire'],
     saga: '',
     description: '',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
-  }
+  },
+  {
+    title: 'Les Étoiles Vagabondes',
+    director: 'Idriss Klait',
+    actors: [
+      { name: 'Nekfeu' },
+      { name: 'JeanJass' },
+      { name: 'Alpha Wann' },
+      { name: 'Framal' },
+      { name: 'Keny Arkana' },
+      { name: 'Lomepal' },
+      { name: 'Damso' },
+    ],
+    coverUrl:
+      'https://m.media-amazon.com/images/M/MV5BMjc1ZmM4ZDItNjY3Yy00NjYyLTkzN2ItNjEzOWNkNmRjNTQ3XkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg',
+    releaseDate: '2019-10-09',
+    length: 82,
+    genre: ['Documentaire'],
+    saga: '',
+    description: '',
+    fromEntity: null,
+    countryOrigin: ['France'],
+    selectDisplayOrder: 0,
+  },
+  {
+    title: 'Pornhub : Gros plan sur le géant du sexe',
+    director: 'Suzanne Hillinger',
+    actors: [
+      { name: 'Asa Akira' },
+      { name: 'Siri Dahl' },
+      { name: 'Cherie DeVille' },
+      { name: 'Nicholas Kristof' },
+      { name: 'Michael Stabile' },
+      { name: 'Noelle Perdue' },
+      { name: 'Wolf Hudson' },
+    ],
+    coverUrl: '',
+    releaseDate: '2023-03-15',
+    length: 94,
+    genre: ['Documentaire'],
+    saga: '',
+    description:
+      'Documentaire Netflix (Money Shot: The Pornhub Story) sur la plateforme Pornhub, ses succès et les scandales de modération du contenu.',
+    fromEntity: null,
+    countryOrigin: ['États-Unis'],
+    selectDisplayOrder: 0,
+  },
 ];

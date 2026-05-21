@@ -141,6 +141,8 @@ export interface UserMovie extends MandatoryMovieData {
   timesWatched: number;
   firstViewedDate: string;
   lastViewedDate: string;
+  /** Dates de visionnages supplémentaires (hors première / dernière vision). */
+  otherSeenDates: string[];
   seenAtCinema: boolean;
   owned: boolean;
   wantToSeeAgain: boolean;

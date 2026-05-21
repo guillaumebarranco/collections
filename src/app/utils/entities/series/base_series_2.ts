@@ -834,18 +834,18 @@ export const baseSeries2: BaseSerie[] = [
     director: 'Robert Kirkman',
     actors: [
       {
-        name: "Steven Yeun",
+        name: 'Steven Yeun',
       },
       {
-        name: "J.K. Simmons",
+        name: 'J.K. Simmons',
       },
       {
-        name: "Sandra Oh",
-      }
+        name: 'Sandra Oh',
+      },
     ],
-    coverUrl: "/series_pictures/ed292bcc92da.jpg",
-    releaseDate: "2021-03-26",
-    endDate: "2025-03-13",
+    coverUrl: '/series_pictures/ed292bcc92da.jpg',
+    releaseDate: '2021-03-26',
+    endDate: '2025-03-13',
     genre: ['Action', 'Animation', 'Drama'],
     seasonsData: [
       {
@@ -867,12 +867,12 @@ export const baseSeries2: BaseSerie[] = [
         seasonNumber: 4,
         nbEpisodes: 8,
         totalLength: 416,
-      }
+      },
     ],
-    description: "",
+    description: '',
     fromEntity: null,
-    saga: "",
-    countryOrigin: "États-Unis",
+    saga: '',
+    countryOrigin: 'États-Unis',
   },
   {
     title: 'True Blood',
@@ -2618,6 +2618,34 @@ export const baseSeries2: BaseSerie[] = [
     countryOrigin: 'États-Unis',
   },
   {
+    title: 'Good Girls',
+    director: 'Jenna Benda, Ali Gordon',
+    actors: [
+      { name: 'Christina Hendricks' },
+      { name: 'Retta' },
+      { name: 'Mae Whitman' },
+      { name: 'Matthew Lillard' },
+      { name: 'Reno Wilson' },
+      { name: 'Manny Montana' },
+      { name: 'Lillie Reed' },
+    ],
+    coverUrl:
+      'https://m.media-amazon.com/images/M/MV5BMTkwMDU2MWMtZjRhZi00MzE2LTk1MzAtNWNjMjlkOGRmNTEyXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg',
+    releaseDate: '2018-02-26',
+    endDate: '2022-08-02',
+    genre: ['Comedy', 'Crime', 'Drama'],
+    seasonsData: [
+      { seasonNumber: 1, nbEpisodes: 10, totalLength: 430 },
+      { seasonNumber: 2, nbEpisodes: 13, totalLength: 559 },
+      { seasonNumber: 3, nbEpisodes: 11, totalLength: 473 },
+      { seasonNumber: 4, nbEpisodes: 16, totalLength: 688 },
+    ],
+    description: '',
+    fromEntity: null,
+    saga: '',
+    countryOrigin: 'États-Unis',
+  },
+  {
     title: 'Ginny & Georgia',
     director: 'Sarah Lampert',
     actors: [
@@ -3851,5 +3879,82 @@ export const baseSeries2: BaseSerie[] = [
     fromEntity: null,
     saga: '',
     countryOrigin: 'Royaume-Uni',
+  },
+  {
+    title: "DAHMER : Monstre : L'histoire de Jeffrey Dahmer",
+    director: 'Ryan Murphy, Ian Brennan',
+    actors: [
+      { name: 'Evan Peters' },
+      { name: 'Richard Jenkins' },
+      { name: 'Niecy Nash' },
+      { name: 'Molly Ringwald' },
+      { name: 'Michael Raymond-James' },
+      { name: 'Colin Ford' },
+      { name: 'Parker Sawyers' },
+    ],
+    coverUrl:
+      'https://fr.web.img2.acsta.net/c_310_420/pictures/22/09/17/18/16/3249476.jpg',
+    releaseDate: '2022-09-21',
+    endDate: '2022-09-21',
+    genre: ['Crime', 'Drame', 'Horreur'],
+    seasonsData: [{ seasonNumber: 1, nbEpisodes: 10, totalLength: 500 }],
+    description: '',
+    fromEntity: null,
+    saga: 'Monstre',
+    countryOrigin: 'États-Unis',
+  },
+  {
+    title: 'Nouvelle École',
+    director: 'Sylvain Pearl, Stan Bertheux',
+    actors: [
+      { name: 'SCH' },
+      { name: 'Niska' },
+      { name: 'Shay' },
+      { name: 'SDM' },
+      { name: 'Aya Nakamura' },
+    ],
+    coverUrl:
+      'https://m.media-amazon.com/images/M/MV5BYWU4MmJhNTYtZjA3Ny00NzcwLWEyMTEtZWMyOWQ0Y2U5MTI5XkEyXkFqcGc@._V1_.jpg',
+    releaseDate: '2022-06-09',
+    endDate: '',
+    genre: ['Musique'],
+    seasonsData: [
+      { seasonNumber: 1, nbEpisodes: 8, totalLength: 368 },
+      { seasonNumber: 2, nbEpisodes: 8, totalLength: 368 },
+      { seasonNumber: 3, nbEpisodes: 10, totalLength: 460 },
+      { seasonNumber: 4, nbEpisodes: 9, totalLength: 414 },
+    ],
+    description:
+      'Compétition de rap français (adaptation de Rhythm + Flow) : freestyles, battles et clips pour remporter 100 000 €.',
+    fromEntity: {
+      title: 'Rhythm + Flow',
+      secondEntityKey: 'John Legend, Jeff Gaspin, Jesse Collins',
+      entityType: 'serie',
+    },
+    saga: '',
+    countryOrigin: 'France',
+  },
+  {
+    title: 'Rhythm + Flow',
+    director: 'John Legend, Jeff Gaspin, Jesse Collins',
+    actors: [
+      { name: 'Cardi B' },
+      { name: 'Chance the Rapper' },
+      { name: 'T.I.' },
+      { name: 'John Legend' },
+      { name: 'D Smoke' },
+      { name: 'Flawless Real Talk' },
+      { name: 'Old Man Saxon' },
+    ],
+    coverUrl:
+      'https://m.media-amazon.com/images/M/MV5BMjE1M2FlMjctNDNiZi00ODhkLTlmMmMtNTA3MjlhNTFjMWY3XkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg',
+    releaseDate: '2019-10-09',
+    endDate: '2019-11-20',
+    genre: ['Musique'],
+    seasonsData: [{ seasonNumber: 1, nbEpisodes: 10, totalLength: 500 }],
+    description: '',
+    fromEntity: null,
+    saga: '',
+    countryOrigin: 'États-Unis',
   },
 ];

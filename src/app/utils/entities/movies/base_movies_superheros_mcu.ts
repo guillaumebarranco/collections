@@ -485,7 +485,7 @@ export const baseMoviesSuperherosMcu: BaseMovie[] = [
     selectDisplayOrder: 20,
   },
   {
-    title: 'Thor: The Dark World',
+    title: 'Thor : le monde des ténèbres',
     director: 'Alan Taylor',
     actors: [
       {
