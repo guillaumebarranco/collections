@@ -1,0 +1,35 @@
+<div class="extra-dates-list">
+  <div class="extra-dates-list__header">
+    <span class="extra-dates-list__label">{{ label() }}</span>
+    <button type="button" class="makya-btn" (click)="addDate()">
+      Ajouter une date
+    </button>
+  </div>
+  @if (hint()) {
+  <p class="extra-dates-list__hint">{{ hint() }}</p>
+  }
+  @if (dates().length === 0) {
+  <p class="extra-dates-list__empty">Aucune date renseignée.</p>
+  } @else {
+  <ul class="extra-dates-list__items">
+    @for (date of dates(); track $index) {
+    <li class="extra-dates-list__item">
+      <input
+        type="date"
+        [ngModel]="date"
+        (ngModelChange)="updateDate($index, $event)"
+        [name]="'extra-date-' + $index"
+      />
+      <button
+        type="button"
+        class="extra-dates-list__remove"
+        aria-label="Supprimer cette date"
+        (click)="removeDate($index)"
+      >
+        Supprimer
+      </button>
+    </li>
+    }
+  </ul>
+  }
+</div>

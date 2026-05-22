@@ -1,5 +1,9 @@
 import { getApiBaseUrl, isLocalhost } from '../../../core/config';
 import { Movie } from '../../../models/movie-model';
+import {
+  shiftPreviousLastDateToExtras,
+  todayIsoDate,
+} from '../../../utils/activity-extra-dates.utils';
 import type { UserMovieListItem } from '../../../models/movie-list.model';
 import { usersMoviesLists } from '../../../utils/users/user-movies-lists';
 
@@ -54,7 +58,12 @@ export async function markMovieAsReWatched(
   getActiveUserId: string
 ): Promise<boolean> {
   try {
-    const today = new Date().toISOString().split('T')[0];
+    const today = todayIsoDate();
+    const otherSeenDates = shiftPreviousLastDateToExtras(
+      movie.lastViewedDate,
+      movie.otherSeenDates,
+      today
+    );
     const response = await fetch(`${getApiBaseUrl()}/movies`, {
       method: 'POST',
       headers: {
@@ -68,6 +77,7 @@ export async function markMovieAsReWatched(
         timesWatched: (movie.timesWatched || 0) + 1,
         firstViewedDate: movie.firstViewedDate,
         lastViewedDate: today,
+        otherSeenDates,
         seenAtCinema: movie.seenAtCinema,
         owned: movie.owned,
         wantToSeeAgain: false,

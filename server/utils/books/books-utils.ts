@@ -824,6 +824,7 @@ module.exports = {
   normalizeString,
   normalizeGenre,
   formatGenreTsArray,
+  formatOtherReadDatesTs,
   parseBooksFromFile,
   parseBaseBooksFromFile,
   parseBaseBooksFullFromFile,

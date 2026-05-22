@@ -29,12 +29,15 @@ import { CountrySelectComponent } from '../../../components/shared/country-selec
 import { MatFormFieldModule } from '@angular/material/form-field';
 import { MatSelectModule } from '@angular/material/select';
 import { DEFAULT_USER_ID } from '../../../utils/constants';
+import { ExtraDatesListComponent } from '../../../components/shared/extra-dates-list/extra-dates-list.component';
+import { normalizeActivityExtraDates } from '../../../utils/activity-extra-dates.utils';
 
 type EditBookForm = {
   rating: number;
   readTimes: number;
   firstReadDate: string;
   lastReadDate: string;
+  otherReadDates: string[];
   owned: boolean;
   borrowed: string;
   loaned: string;
@@ -75,6 +78,7 @@ type EditBookDialogData = {
     CountrySelectComponent,
     MatFormFieldModule,
     MatSelectModule,
+    ExtraDatesListComponent,
   ],
   templateUrl: './edit-book.component.html',
   styleUrls: ['./edit-book.component.scss'],
@@ -156,6 +160,17 @@ export class EditBookComponent {
 
     this.activatedRoute.paramMap.subscribe((params) => {
       void this.loadBookFromSlug(params);
+    });
+  }
+
+  updateOtherReadDates(dates: string[]): void {
+    const form = this.bookForm();
+    if (!form) {
+      return;
+    }
+    this.bookForm.set({
+      ...form,
+      otherReadDates: dates,
     });
   }
 
@@ -278,6 +293,7 @@ export class EditBookComponent {
           readTimes: form.readTimes,
           firstReadDate: form.firstReadDate,
           lastReadDate: form.lastReadDate,
+          otherReadDates: normalizeActivityExtraDates(form.otherReadDates),
           owned: form.owned,
           borrowed: form.borrowed,
           loaned: form.loaned,
@@ -473,6 +489,7 @@ export class EditBookComponent {
       readTimes: book.readTimes || 0,
       firstReadDate: book.firstReadDate,
       lastReadDate: book.lastReadDate,
+      otherReadDates: [...(book.otherReadDates ?? [])],
       owned: book.owned,
       borrowed: book.borrowed ?? '',
       loaned: book.loaned ?? '',

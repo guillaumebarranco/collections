@@ -145,6 +145,13 @@
       />
     </div>
 
+    <app-extra-dates-list
+      label="Autres dates de lecture"
+      hint="Relectures ou visionnages intermédiaires (hors première et dernière lecture)."
+      [dates]="bookForm()?.otherReadDates ?? []"
+      (datesChange)="updateOtherReadDates($event)"
+    />
+
     <div class="form-row checkbox-row">
       <label for="owned">Possédé</label>
       <input

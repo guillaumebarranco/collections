@@ -8,6 +8,7 @@ const {
   normalizeSerieGenreInput,
   formatSerieGenreArrayTs,
   escapeString,
+  formatOtherViewedDatesTs,
   appendObjectToArrayFile,
   baseSerieExists,
   BASE_SERIES_API_FILE,
@@ -68,7 +69,7 @@ function formatUserSerie(user: any): string {
         seasonTimesWatched: ${season.seasonTimesWatched},
         firstViewedDate: "${escapeString(season.firstViewedDate || '')}",
         lastViewedDate: "${escapeString(season.lastViewedDate || '')}",
-        otherViewedDates: [],
+        otherViewedDates: ${formatOtherViewedDatesTs(season.otherViewedDates)},
       }`
         )
       : Array.from(

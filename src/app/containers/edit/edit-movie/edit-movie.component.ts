@@ -35,6 +35,8 @@ import { AuthService } from '../../../core/auth.service';
 import { QuizzCreateModalComponent } from '../../../components/modals/quizz-create-modal/quizz-create-modal.component';
 import { EntityType } from '../../../models/quizz-model';
 import { DEFAULT_USER_ID } from '../../../utils/constants';
+import { ExtraDatesListComponent } from '../../../components/shared/extra-dates-list/extra-dates-list.component';
+import { normalizeActivityExtraDates } from '../../../utils/activity-extra-dates.utils';
 import { getAllBaseBooks } from '../../../facades/books/books.facade';
 import { getAllBaseBds } from '../../../facades/bds/bds.facade';
 import { getAllBaseComics } from '../../../facades/comics/comics.facade';
@@ -59,6 +61,7 @@ type EditMovieForm = {
   timesWatched: number;
   firstViewedDate: string;
   lastViewedDate: string;
+  otherSeenDates: string[];
   seenAtCinema: boolean;
   owned: boolean;
   borrowed: string;
@@ -104,6 +107,7 @@ export type MovieFromEntityType = NonNullable<
     MatFormFieldModule,
     MatSelectModule,
     SearchableSelectboxComponent,
+    ExtraDatesListComponent,
   ],
   templateUrl: './edit-movie.component.html',
   styleUrls: ['./edit-movie.component.scss'],
@@ -322,6 +326,17 @@ export class EditMovieComponent {
     this.fromEntitySourceType.set((fe?.entityType ?? '') as MovieFromEntityType | '');
   }
 
+  updateOtherSeenDates(dates: string[]): void {
+    const current = this.movieForm();
+    if (!current) {
+      return;
+    }
+    this.movieForm.set({
+      ...current,
+      otherSeenDates: dates,
+    });
+  }
+
   updateField<K extends keyof EditMovieForm>(field: K, value: string | number) {
     const current = this.movieForm();
     if (!current) return;
@@ -437,6 +452,7 @@ export class EditMovieComponent {
           timesWatched: form.timesWatched,
           firstViewedDate: form.firstViewedDate,
           lastViewedDate: form.lastViewedDate,
+          otherSeenDates: normalizeActivityExtraDates(form.otherSeenDates),
           seenAtCinema: form.seenAtCinema,
           owned: form.owned,
           borrowed: form.borrowed,
@@ -642,6 +658,7 @@ export class EditMovieComponent {
       timesWatched: movie.timesWatched,
       firstViewedDate: movie.firstViewedDate,
       lastViewedDate: movie.lastViewedDate,
+      otherSeenDates: [...(movie.otherSeenDates ?? [])],
       seenAtCinema: movie.seenAtCinema,
       owned: movie.owned,
       borrowed: movie.borrowed ?? '',

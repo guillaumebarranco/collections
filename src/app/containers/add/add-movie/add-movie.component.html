@@ -208,6 +208,13 @@
         />
       </div>
 
+      <app-extra-dates-list
+        label="Autres dates de visionnage"
+        hint="Revisionnages intermédiaires (hors premier et dernier visionnage)."
+        [dates]="userForm().otherSeenDates"
+        (datesChange)="updateOtherSeenDates($event)"
+      />
+
       <div class="form-row checkbox-row">
         <label for="seenAtCinema">Vu au cinéma</label>
         <input

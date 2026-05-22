@@ -8,6 +8,8 @@ import { getApiBaseUrl } from '../../../core/config';
 import { EditEntityComponent } from '../../../components/entity/edit-entity/edit-entity.component';
 import { AuthService } from '../../../core/auth.service';
 import { DEFAULT_USER_ID } from '../../../utils/constants';
+import { ExtraDatesListComponent } from '../../../components/shared/extra-dates-list/extra-dates-list.component';
+import { normalizeActivityExtraDates } from '../../../utils/activity-extra-dates.utils';
 
 type EditSerieSeasonsDialogData = {
   serie: Serie;
@@ -17,7 +19,13 @@ type EditSerieSeasonsDialogData = {
 @Component({
   selector: 'app-edit-serie-seasons',
   standalone: true,
-  imports: [CommonModule, FormsModule, RouterModule, EditEntityComponent],
+  imports: [
+    CommonModule,
+    FormsModule,
+    RouterModule,
+    EditEntityComponent,
+    ExtraDatesListComponent,
+  ],
   templateUrl: './edit-serie-seasons.component.html',
   styleUrls: ['./edit-serie-seasons.component.scss'],
 })
@@ -62,12 +70,26 @@ export class EditSerieSeasonsComponent {
     );
   }
 
+  updateSeasonOtherViewedDates(seasonNumber: number, dates: string[]): void {
+    this.seasons.set(
+      this.seasons().map((season) =>
+        season.seasonNumber === seasonNumber
+          ? { ...season, otherViewedDates: dates }
+          : season
+      )
+    );
+  }
+
   async onSubmit() {
     const serie = this.serie();
     if (!serie) return;
     if (!this.authService.canEdit(this.getCurrentUserId())) return;
     this.isSaving.set(true);
     try {
+      const seasonsPayload = this.seasons().map((season) => ({
+        ...season,
+        otherViewedDates: normalizeActivityExtraDates(season.otherViewedDates),
+      }));
       const response = await fetch(`${getApiBaseUrl()}/series`, {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
@@ -75,7 +97,7 @@ export class EditSerieSeasonsComponent {
           userId: this.getCurrentUserId(),
           title: serie.title,
           director: serie.director,
-          seasons: this.seasons(),
+          seasons: seasonsPayload,
         }),
       });
 
@@ -111,7 +133,7 @@ export class EditSerieSeasonsComponent {
         ...season,
         firstViewedDate: season.firstViewedDate || '',
         lastViewedDate: season.lastViewedDate || '',
-        otherViewedDates: season.otherViewedDates ?? [],
+        otherViewedDates: [...(season.otherViewedDates ?? [])],
       }));
     }
     const total = serie?.seasonsData?.length ?? 0;

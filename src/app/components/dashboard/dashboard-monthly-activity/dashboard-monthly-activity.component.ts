@@ -19,6 +19,8 @@ import {
   formatActivityDurationLabel,
   formatRolling30Intro,
   getCalendarMonthsForYear,
+  getCalendarMonthsUnionRange,
+  getCalendarYearRange,
   getLast12CalendarMonths,
   getRolling30DaysRange,
   getYearTabYears,
@@ -108,6 +110,55 @@ export class DashboardMonthlyActivityComponent {
       return getCalendarMonthsForYear(year);
     }
     return [];
+  });
+
+  /** Temps de lecture / visionnage agrégés sur toute la période (année ou 12 derniers mois). */
+  readonly periodDurationSummary = computed(() => {
+    const tab = this.periodTab();
+    const months = this.calendarMonthsForPeriod();
+    if (months.length === 0) {
+      return null;
+    }
+
+    const year = parseYearTabValue(tab);
+    let range: { rangeStart: Date; rangeEnd: Date } | null = null;
+    let title = '';
+
+    if (year != null) {
+      range = getCalendarYearRange(year);
+      title = `Année ${year}`;
+    } else if (tab === 'yearly') {
+      range = getCalendarMonthsUnionRange(months);
+      title = '12 derniers mois';
+    }
+
+    if (!range) {
+      return null;
+    }
+
+    const duration = computeActivityDurationInRange(
+      this.books(),
+      this.mangas(),
+      this.comics(),
+      this.bds(),
+      this.manwhas(),
+      this.movies(),
+      this.series(),
+      range.rangeStart,
+      range.rangeEnd,
+    );
+
+    return {
+      title,
+      readingDurationLabel: formatActivityDurationLabel(
+        duration.readingMinutes,
+        'lecture',
+      ),
+      viewingDurationLabel: formatActivityDurationLabel(
+        duration.viewingMinutes,
+        'visionnage',
+      ),
+    };
   });
 
   readonly monthlyRows = computed(() => {

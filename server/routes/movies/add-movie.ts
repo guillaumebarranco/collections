@@ -9,6 +9,7 @@ const {
   normalizeMovieCountryOriginInput,
   formatMovieGenreArrayTs,
   formatMovieCountryOriginArrayTs,
+  formatOtherSeenDatesTs,
   escapeString,
   appendObjectToArrayFile,
   baseMovieExists,
@@ -56,7 +57,11 @@ function formatUserMovie(user: any): string {
     user.firstViewedDate || ''
   )}",\n    lastViewedDate: "${escapeString(
     user.lastViewedDate || ''
-  )}",\n    otherSeenDates: [],\n    seenAtCinema: ${user.seenAtCinema ?? false},\n    owned: ${
+  )}",\n    otherSeenDates: ${formatOtherSeenDatesTs(
+    Array.isArray(user.otherSeenDates)
+      ? user.otherSeenDates.filter((d: unknown) => typeof d === 'string' && d.trim())
+      : []
+  )},\n    seenAtCinema: ${user.seenAtCinema ?? false},\n    owned: ${
     user.owned ?? false
   },\n    wantToSeeAgain: ${
     user.wantToSeeAgain ?? false
@@ -153,6 +158,11 @@ router.post('/add', (req: any, res: any) => {
       ratingComment: normalizeString(user.ratingComment, 'ratingComment') ?? '',
       borrowed: normalizeString(user.borrowed, 'borrowed') ?? '',
       loaned: normalizeString(user.loaned, 'loaned') ?? '',
+      otherSeenDates: Array.isArray(user.otherSeenDates)
+        ? user.otherSeenDates.filter(
+            (d: unknown) => typeof d === 'string' && d.trim()
+          )
+        : [],
     };
 
     const baseMovieContent = appendObjectToArrayFile(

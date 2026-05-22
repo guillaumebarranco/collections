@@ -1189,6 +1189,7 @@ module.exports = {
   normalizeNumber,
   normalizeBoolean,
   normalizeString,
+  formatOtherSeenDatesTs,
   normalizeMovieGenreInput,
   normalizeMovieCountryOriginInput,
   formatMovieGenreArrayTs,

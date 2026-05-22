@@ -207,6 +207,12 @@
                 name="seasonLastViewedDate-{{ i }}"
               />
             </label>
+            <app-extra-dates-list
+              label="Autres dates de visionnage"
+              hint="Revisionnages de cette saison (hors premier et dernier visionnage)."
+              [dates]="season.otherViewedDates"
+              (datesChange)="updateUserSeasonOtherViewedDates(i, $event)"
+            />
           </div>
           }
         </div>

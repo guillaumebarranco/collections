@@ -1,5 +1,9 @@
 import { getApiBaseUrl } from '../../../core/config';
 import { Book } from '../../../models/book-model';
+import {
+  shiftPreviousLastDateToExtras,
+  todayIsoDate,
+} from '../../../utils/activity-extra-dates.utils';
 
 export async function addBookToReadlist(
   book: Book,
@@ -117,6 +121,12 @@ export async function markBookAsReRead(
   getActiveUserId: string
 ): Promise<boolean> {
   try {
+    const today = todayIsoDate();
+    const otherReadDates = shiftPreviousLastDateToExtras(
+      book.lastReadDate,
+      book.otherReadDates,
+      today
+    );
     const response = await fetch(`${getApiBaseUrl()}/books`, {
       method: 'POST',
       headers: {
@@ -129,7 +139,8 @@ export async function markBookAsReRead(
         rating: book.rating,
         readTimes: (book.readTimes ?? 0) + 1,
         firstReadDate: book.firstReadDate,
-        lastReadDate: book.lastReadDate,
+        lastReadDate: today,
+        otherReadDates,
         owned: book.owned,
         readPriority: book.readPriority ?? 0,
         wantToReadAgain: false,

@@ -1,0 +1,68 @@
+.extra-dates-list {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  margin: 8px 0 12px;
+}
+
+.extra-dates-list__header {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  gap: 8px;
+}
+
+.extra-dates-list__label {
+  font-weight: 600;
+  color: #2c3e50;
+}
+
+.extra-dates-list__hint {
+  margin: 0;
+  font-size: 0.85rem;
+  color: #6c757d;
+  line-height: 1.4;
+}
+
+.extra-dates-list__empty {
+  margin: 0;
+  font-size: 0.85rem;
+  color: #6c757d;
+  font-style: italic;
+}
+
+.extra-dates-list__items {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.extra-dates-list__item {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 8px;
+
+  input[type='date'] {
+    flex: 1 1 160px;
+    min-width: 0;
+  }
+}
+
+.extra-dates-list__remove {
+  padding: 4px 10px;
+  font-size: 0.8rem;
+  border: 1px solid #dee2e6;
+  border-radius: 6px;
+  background: #fff;
+  color: #c0392b;
+  cursor: pointer;
+
+  &:hover {
+    background: #fdecea;
+  }
+}

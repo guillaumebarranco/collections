@@ -48,6 +48,12 @@ router.post('/', (req: any, res: any) => {
       ratingComment: normalizeString(input.ratingComment, 'ratingComment') ?? '',
     };
 
+    if (Array.isArray(input.otherReadDates)) {
+      payload.otherReadDates = input.otherReadDates.filter(
+        (d: unknown) => typeof d === 'string' && d.trim()
+      );
+    }
+
     const entityPayload = input.entity || null;
     const entityOnly = Boolean(input.entityOnly);
     if ((entityPayload || entityOnly) && !isAdminUser(userId)) {

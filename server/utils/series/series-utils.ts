@@ -121,26 +121,26 @@ function formatOtherViewedDatesTs(dates: string[] | undefined): string {
   return `[${parts.join(', ')}]`;
 }
 
-/** Conserve otherViewedDates déjà en fichier (l’UI ne les envoie pas). */
+/** Conserve otherViewedDates du fichier si le payload ne les envoie pas. */
 function mergeSeasonsPreservingOtherViewedDates(
   incoming: UserSerieSeason[],
   existing: UserSerieSeason[] | null
 ): UserSerieSeason[] {
   const byNum = new Map((existing ?? []).map((s) => [s.seasonNumber, s]));
   return incoming.map((row) => {
+    if (row.otherViewedDates !== undefined) {
+      return {
+        ...row,
+        otherViewedDates: Array.isArray(row.otherViewedDates)
+          ? row.otherViewedDates
+          : [],
+      };
+    }
     const prev = byNum.get(row.seasonNumber);
     const prevOther = prev?.otherViewedDates;
-    const hasPrevOther = Array.isArray(prevOther) && prevOther.length > 0;
-    const incomingOther = row.otherViewedDates;
-    const hasIncomingOther =
-      Array.isArray(incomingOther) && incomingOther.length > 0;
     return {
       ...row,
-      otherViewedDates: hasIncomingOther
-        ? incomingOther
-        : hasPrevOther
-          ? prevOther
-          : [],
+      otherViewedDates: Array.isArray(prevOther) ? prevOther : [],
     };
   });
 }
@@ -1135,6 +1135,7 @@ module.exports = {
   normalizeString,
   normalizeSerieGenreInput,
   formatSerieGenreArrayTs,
+  formatOtherViewedDatesTs,
   parseSeriesFromFile,
   parseBaseSeriesFromFile,
   parseBaseSeriesFullFromFile,

@@ -73,6 +73,17 @@
   </div>
   } @else {
   <p class="monthly-activity__range">{{ periodRangeIntro() }}</p>
+  @if (periodDurationSummary(); as periodTotals) {
+  <div class="monthly-activity__period-totals">
+    <span class="monthly-activity__period-totals-title">{{ periodTotals.title }}</span>
+    <span class="monthly-activity__period-totals-duration">{{
+      periodTotals.readingDurationLabel
+    }}</span>
+    <span class="monthly-activity__period-totals-duration">{{
+      periodTotals.viewingDurationLabel
+    }}</span>
+  </div>
+  }
   <div class="monthly-activity__months">
     @for (row of monthlyRows(); track row.key) {
     <details class="monthly-activity__month" [open]="row.total > 0">

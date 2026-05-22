@@ -163,6 +163,37 @@ export function getCalendarMonthsForYear(year: number): CalendarMonthRange[] {
   return out;
 }
 
+/** Plage calendaire d'une année civile complète (1er janv. → 31 déc.). */
+export function getCalendarYearRange(year: number): {
+  rangeStart: Date;
+  rangeEnd: Date;
+} {
+  return {
+    rangeStart: new Date(year, 0, 1, 0, 0, 0, 0),
+    rangeEnd: new Date(year, 11, 31, 23, 59, 59, 999),
+  };
+}
+
+/** Union des mois affichés (du plus ancien au plus récent). */
+export function getCalendarMonthsUnionRange(
+  months: CalendarMonthRange[],
+): { rangeStart: Date; rangeEnd: Date } | null {
+  if (months.length === 0) {
+    return null;
+  }
+  let rangeStart = months[0].rangeStart;
+  let rangeEnd = months[0].rangeEnd;
+  for (const m of months) {
+    if (m.rangeStart.getTime() < rangeStart.getTime()) {
+      rangeStart = m.rangeStart;
+    }
+    if (m.rangeEnd.getTime() > rangeEnd.getTime()) {
+      rangeEnd = m.rangeEnd;
+    }
+  }
+  return { rangeStart, rangeEnd };
+}
+
 export const YEAR_TAB_PREFIX = 'year-';
 
 export function yearTabValue(year: number): string {

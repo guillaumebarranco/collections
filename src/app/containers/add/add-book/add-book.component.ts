@@ -11,6 +11,8 @@ import {
   BOOK_GENRE_OPTIONS,
   type BookGenre,
 } from '../../../models/book-model';
+import { ExtraDatesListComponent } from '../../../components/shared/extra-dates-list/extra-dates-list.component';
+import { normalizeActivityExtraDates } from '../../../utils/activity-extra-dates.utils';
 
 type AddBookEntityForm = {
   title: string;
@@ -31,6 +33,7 @@ type AddBookUserForm = {
   readTimes: number;
   firstReadDate: string;
   lastReadDate: string;
+  otherReadDates: string[];
   owned: boolean;
   borrowed: string;
   loaned: string;
@@ -51,6 +54,7 @@ type AddBookDialogData = {
     CountrySelectComponent,
     MatFormFieldModule,
     MatSelectModule,
+    ExtraDatesListComponent,
   ],
   templateUrl: './add-book.component.html',
   styleUrls: ['./add-book.component.scss'],
@@ -85,6 +89,7 @@ export class AddBookComponent {
     readTimes: 1,
     firstReadDate: '',
     lastReadDate: '',
+    otherReadDates: [],
     owned: false,
     borrowed: '',
     loaned: '',
@@ -111,6 +116,13 @@ export class AddBookComponent {
     this.entityForm.set({
       ...current,
       [field]: nextValue,
+    });
+  }
+
+  updateOtherReadDates(dates: string[]): void {
+    this.userForm.set({
+      ...this.userForm(),
+      otherReadDates: dates,
     });
   }
 
@@ -200,7 +212,10 @@ export class AddBookComponent {
         body: JSON.stringify({
           userId: this.getUserId(),
           entity,
-          user,
+          user: {
+            ...user,
+            otherReadDates: normalizeActivityExtraDates(user.otherReadDates),
+          },
         }),
       });
 

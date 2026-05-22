@@ -6,6 +6,8 @@ import { getApiBaseUrl } from '../../../core/config';
 import { DEFAULT_USER_ID } from '../../../utils/constants';
 import { CountrySelectComponent } from '../../../components/shared/country-select/country-select.component';
 import { normalizeSerieGenres } from '../../../models/serie-model';
+import { ExtraDatesListComponent } from '../../../components/shared/extra-dates-list/extra-dates-list.component';
+import { normalizeActivityExtraDates } from '../../../utils/activity-extra-dates.utils';
 
 type AddSerieEntityForm = {
   title: string;
@@ -49,7 +51,7 @@ type AddSerieUserForm = {
 @Component({
   selector: 'app-add-serie',
   standalone: true,
-  imports: [CommonModule, FormsModule, CountrySelectComponent],
+  imports: [CommonModule, FormsModule, CountrySelectComponent, ExtraDatesListComponent],
   templateUrl: './add-serie.component.html',
   styleUrls: ['./add-serie.component.scss'],
 })
@@ -187,6 +189,14 @@ export class AddSerieComponent {
     });
   }
 
+  updateUserSeasonOtherViewedDates(index: number, dates: string[]): void {
+    const current = this.userForm();
+    const seasons = current.seasons.map((season, i) =>
+      i === index ? { ...season, otherViewedDates: dates } : season
+    );
+    this.userForm.set({ ...current, seasons });
+  }
+
   updateUserSeasonField(
     index: number,
     field: 'seasonRating' | 'seasonTimesWatched' | 'firstViewedDate' | 'lastViewedDate',
@@ -256,7 +266,12 @@ export class AddSerieComponent {
             borrowed: this.userForm().borrowed ?? '',
             loaned: this.userForm().loaned ?? '',
             watchPriority: this.userForm().watchPriority,
-            seasons: this.userForm().seasons,
+            seasons: this.userForm().seasons.map((season) => ({
+              ...season,
+              otherViewedDates: normalizeActivityExtraDates(
+                season.otherViewedDates
+              ),
+            })),
           },
         }),
       });

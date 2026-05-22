@@ -14,6 +14,8 @@ import {
   MOVIE_GENRE_OPTIONS,
   type MovieGenre,
 } from '../../../models/movie-model';
+import { ExtraDatesListComponent } from '../../../components/shared/extra-dates-list/extra-dates-list.component';
+import { normalizeActivityExtraDates } from '../../../utils/activity-extra-dates.utils';
 
 type AddMovieEntityForm = {
   title: string;
@@ -33,6 +35,7 @@ type AddMovieUserForm = {
   timesWatched: number;
   firstViewedDate: string;
   lastViewedDate: string;
+  otherSeenDates: string[];
   seenAtCinema: boolean;
   owned: boolean;
   borrowed: string;
@@ -55,6 +58,7 @@ type AddMovieDialogData = {
     FormsModule,
     MatFormFieldModule,
     MatSelectModule,
+    ExtraDatesListComponent,
   ],
   templateUrl: './add-movie.component.html',
   styleUrls: ['./add-movie.component.scss'],
@@ -89,6 +93,7 @@ export class AddMovieComponent {
     timesWatched: 1,
     firstViewedDate: '',
     lastViewedDate: '',
+    otherSeenDates: [],
     seenAtCinema: false,
     owned: false,
     borrowed: '',
@@ -129,6 +134,13 @@ export class AddMovieComponent {
   setCountries(countries: Exclude<Country, ''>[]) {
     const current = this.entityForm();
     this.entityForm.set({ ...current, countryOrigin: countries });
+  }
+
+  updateOtherSeenDates(dates: string[]): void {
+    this.userForm.set({
+      ...this.userForm(),
+      otherSeenDates: dates,
+    });
   }
 
   updateUserField<K extends keyof AddMovieUserForm>(
@@ -220,7 +232,10 @@ export class AddMovieComponent {
             ...entity,
             actors: this.getActorsList(),
           },
-          user,
+          user: {
+            ...user,
+            otherSeenDates: normalizeActivityExtraDates(user.otherSeenDates),
+          },
         }),
       });
 

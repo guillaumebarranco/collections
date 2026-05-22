@@ -7,6 +7,7 @@ const {
   normalizeString,
   normalizeGenre,
   formatGenreTsArray,
+  formatOtherReadDatesTs,
   escapeString,
   appendObjectToArrayFile,
   baseBookExists,
@@ -39,7 +40,11 @@ function formatUserBook(user: any): string {
     author: "${escapeString(user.author)}",
     firstReadDate: "${escapeString(user.firstReadDate || '')}",
     lastReadDate: "${escapeString(user.lastReadDate || '')}",
-    otherReadDates: [],
+    otherReadDates: ${formatOtherReadDatesTs(
+      Array.isArray(user.otherReadDates)
+        ? user.otherReadDates.filter((d: unknown) => typeof d === 'string' && d.trim())
+        : []
+    )},
     rating: ${user.rating ?? 0},
     readTimes: ${user.readTimes ?? 1},
     owned: ${user.owned ?? false},
@@ -145,6 +150,11 @@ router.post('/add', (req: any, res: any) => {
         normalizeBoolean(user.wantToReadAgain, 'wantToReadAgain') ?? false,
       ratingComment:
         normalizeString(user.ratingComment, 'ratingComment') ?? '',
+      otherReadDates: Array.isArray(user.otherReadDates)
+        ? user.otherReadDates.filter(
+            (d: unknown) => typeof d === 'string' && d.trim()
+          )
+        : [],
     };
 
     const baseBookContent = appendObjectToArrayFile(

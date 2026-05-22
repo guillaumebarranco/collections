@@ -49,6 +49,8 @@ import { AuthService } from '../../../core/auth.service';
 import { QuizzCreateModalComponent } from '../../../components/modals/quizz-create-modal/quizz-create-modal.component';
 import { EntityType } from '../../../models/quizz-model';
 import { DEFAULT_USER_ID } from '../../../utils/constants';
+import { ExtraDatesListComponent } from '../../../components/shared/extra-dates-list/extra-dates-list.component';
+import { normalizeActivityExtraDates } from '../../../utils/activity-extra-dates.utils';
 import { MatFormFieldModule } from '@angular/material/form-field';
 import { MatSelectModule } from '@angular/material/select';
 import {
@@ -99,6 +101,7 @@ type EditSerieDialogData = {
     MatFormFieldModule,
     MatSelectModule,
     SearchableSelectboxComponent,
+    ExtraDatesListComponent,
   ],
   templateUrl: './edit-serie.component.html',
   styleUrls: ['./edit-serie.component.scss'],
@@ -387,7 +390,12 @@ export class EditSerieComponent {
           userId,
           title: serie.title,
           director: serie.director,
-          seasons: form.seasons,
+          seasons: form.seasons.map((season) => ({
+            ...season,
+            otherViewedDates: normalizeActivityExtraDates(
+              season.otherViewedDates
+            ),
+          })),
           owned: form.owned,
           borrowed: form.borrowed,
           loaned: form.loaned,
@@ -724,6 +732,20 @@ export class EditSerieComponent {
     this.serieEntityForm.set({
       ...current,
       seasonsData: nextSeasons,
+    });
+  }
+
+  updateSeasonOtherViewedDates(seasonNumber: number, dates: string[]): void {
+    const current = this.serieForm();
+    if (!current) return;
+
+    this.serieForm.set({
+      ...current,
+      seasons: current.seasons.map((season) =>
+        season.seasonNumber === seasonNumber
+          ? { ...season, otherViewedDates: dates }
+          : season
+      ),
     });
   }
 
