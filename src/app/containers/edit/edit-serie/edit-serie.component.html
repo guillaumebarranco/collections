@@ -24,7 +24,7 @@
     <div class="entity-details">
       <p><strong>Réalisateur :</strong> {{ serie()?.director }}</p>
       @if (serie()?.genre?.length) {
-      <p><strong>Genre :</strong> {{ serie()?.genre?.join(', ') }}</p>
+      <p><strong>Genre :</strong> {{ serie()?.genre?.join(", ") }}</p>
       } @if (serie()?.releaseDate) {
       <p><strong>Date de sortie :</strong> {{ serie()?.releaseDate }}</p>
       } @if (serie()?.endDate) {
@@ -125,11 +125,7 @@
                 step="0.25"
                 [ngModel]="season.seasonRating"
                 (ngModelChange)="
-                  updateSeasonField(
-                    season.seasonNumber,
-                    'seasonRating',
-                    $event
-                  )
+                  updateSeasonField(season.seasonNumber, 'seasonRating', $event)
                 "
                 [name]="'seasonRating-' + season.seasonNumber"
                 class="rating-input"
@@ -160,7 +156,11 @@
               type="date"
               [ngModel]="season.firstViewedDate"
               (ngModelChange)="
-                updateSeasonField(season.seasonNumber, 'firstViewedDate', $event)
+                updateSeasonField(
+                  season.seasonNumber,
+                  'firstViewedDate',
+                  $event
+                )
               "
               name="seasonFirstViewedDate-{{ season.seasonNumber }}"
             />
@@ -179,8 +179,10 @@
           <app-extra-dates-list
             label="Autres dates de visionnage"
             hint="Revisionnages de cette saison (hors premier et dernier visionnage)."
-            [dates]="season.otherViewedDates ?? []"
-            (datesChange)="updateSeasonOtherViewedDates(season.seasonNumber, $event)"
+            [dates]="season.otherViewedDates"
+            (datesChange)="
+              updateSeasonOtherViewedDates(season.seasonNumber, $event)
+            "
           />
         </div>
         }
@@ -225,7 +227,9 @@
         id="wantToWatchAgain"
         type="checkbox"
         [checked]="serieForm()?.wantToWatchAgain"
-        (change)="updateCheckbox('wantToWatchAgain', $any($event).target.checked)"
+        (change)="
+          updateCheckbox('wantToWatchAgain', $any($event).target.checked)
+        "
         name="wantToWatchAgain"
       />
     </div>
@@ -354,7 +358,7 @@
           placeholder="Aucune adaptation"
         >
           @for (t of fromEntityTypeSelectOptions; track t.value) {
-            <mat-option [value]="t.value">{{ t.label }}</mat-option>
+          <mat-option [value]="t.value">{{ t.label }}</mat-option>
           }
         </mat-select>
       </mat-form-field>
@@ -388,14 +392,13 @@
       </p>
       }
       <div class="season-form-grid">
-        @for (
-          season of serieEntityForm()?.seasonsData;
-          track season.seasonNumber;
-          let i = $index
-        ) {
+        @for ( season of serieEntityForm()?.seasonsData; track
+        season.seasonNumber; let i = $index ) {
         <div class="season-form-card">
           <div class="season-form-card-header">
-            <div class="season-form-title">Saison {{ season.seasonNumber }}</div>
+            <div class="season-form-title">
+              Saison {{ season.seasonNumber }}
+            </div>
             <button
               type="button"
               class="season-remove-btn"

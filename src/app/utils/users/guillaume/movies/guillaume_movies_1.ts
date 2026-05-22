@@ -3379,4 +3379,22 @@ export const guillaumeMoviesPage1: UserMovies = [
     borrowed: '',
     loaned: '',
   },
+
+  {
+    title: "Le Château dans le ciel",
+    director: "Hayao Miyazaki",
+    rating: 3.5,
+    timesWatched: 1,
+    firstViewedDate: "2026-05-20",
+    lastViewedDate: "2026-05-20",
+    otherSeenDates: [],
+    seenAtCinema: false,
+    owned: false,
+    wantToSeeAgain: false,
+    watchPriority: 1,
+    ratingComment: "",
+    inList: [],
+    borrowed: "",
+    loaned: "",
+  },
 ];
