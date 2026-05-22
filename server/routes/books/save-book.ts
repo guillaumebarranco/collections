@@ -13,6 +13,23 @@ const {
 } = require('../../utils/books/books-utils');
 const { isAdminUser, loadUsers } = require('../../utils/users/users-utils');
 
+/** Payload passé à updateBookInFile (champs optionnels seulement si présents dans le body). */
+interface SaveBookUserPayload {
+  title: string;
+  author: string;
+  rating: number | undefined;
+  readTimes: number | undefined;
+  firstReadDate: string | undefined;
+  lastReadDate: string | undefined;
+  otherReadDates?: string[];
+  owned: boolean | undefined;
+  borrowed: string;
+  loaned: string;
+  readPriority: number | undefined;
+  wantToReadAgain: boolean;
+  ratingComment: string;
+}
+
 const router = express.Router();
 
 router.post('/', (req: any, res: any) => {
@@ -32,7 +49,7 @@ router.post('/', (req: any, res: any) => {
       return;
     }
 
-    const payload = {
+    const payload: SaveBookUserPayload = {
       title,
       author,
       rating: normalizeNumber(input.rating, 'rating'),
