@@ -34,7 +34,7 @@ export const guillaumeMoviesPage4: UserMovies = [
     ratingComment: '',
     borrowed: '',
     loaned: '',
-    inList: ['Mes classiques'],
+    inList: [],
   },
   {
     title: 'Jeune et jolie',
@@ -51,7 +51,7 @@ export const guillaumeMoviesPage4: UserMovies = [
     ratingComment: '',
     borrowed: '',
     loaned: '',
-    inList: ['Mes classiques'],
+    inList: [],
   },
   {
     title: 'Germinal',
@@ -68,7 +68,7 @@ export const guillaumeMoviesPage4: UserMovies = [
     ratingComment: '',
     borrowed: '',
     loaned: '',
-    inList: ['Mes classiques'],
+    inList: [],
   },
   {
     title: 'Edge of Tomorrow',
