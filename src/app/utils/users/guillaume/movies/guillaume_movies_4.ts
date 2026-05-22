@@ -282,7 +282,7 @@ export const guillaumeMoviesPage4: UserMovies = [
     firstViewedDate: '2013-05-31',
     lastViewedDate: '2013-05-31',
     otherSeenDates: [],
-    seenAtCinema: false,
+    seenAtCinema: true,
     owned: false,
     wantToSeeAgain: false,
     watchPriority: 1,
