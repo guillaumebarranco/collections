@@ -1,4 +1,58 @@
-import { Serie } from '../models/serie-model';
+import { Serie, UserSerieSeason } from '../models/serie-model';
+
+export type SerieLastViewedSeasonInfo = {
+  seasonNumber: number;
+  dateStr: string;
+};
+
+/** Dates de visionnage d'une saison (premier, dernier, autres). */
+export function getAllSeasonViewedDateStrings(season: UserSerieSeason): string[] {
+  const out: string[] = [];
+  for (const raw of [
+    season.firstViewedDate,
+    season.lastViewedDate,
+    ...(season.otherViewedDates ?? []),
+  ]) {
+    const s = (raw ?? '').trim();
+    if (s && !out.includes(s)) {
+      out.push(s);
+    }
+  }
+  return out;
+}
+
+/**
+ * Saison la plus récemment visionnée et date associée (toutes dates de la saison).
+ */
+export function getSerieLastViewedSeasonInfo(
+  serie: Serie
+): SerieLastViewedSeasonInfo | null {
+  let best: SerieLastViewedSeasonInfo | null = null;
+  let bestTime = 0;
+
+  for (const season of serie.seasons ?? []) {
+    if ((season.seasonTimesWatched ?? 0) <= 0) {
+      continue;
+    }
+    for (const dateStr of getAllSeasonViewedDateStrings(season)) {
+      const t = new Date(dateStr).getTime();
+      if (Number.isNaN(t)) {
+        continue;
+      }
+      if (
+        t > bestTime ||
+        (t === bestTime &&
+          best !== null &&
+          season.seasonNumber > best.seasonNumber)
+      ) {
+        bestTime = t;
+        best = { seasonNumber: season.seasonNumber, dateStr };
+      }
+    }
+  }
+
+  return best;
+}
 
 /**
  * Nombre de séries distinctes en bibliothèque (titre + réalisateur), sans tenir compte du visionnage.
@@ -135,19 +189,12 @@ export function getLastFullyWatchedSeasonNumber(serie: Serie): number {
  * 0 si aucune date valide (tri : séries sans historique en fin de liste).
  */
 export function getSerieLatestSeasonLastViewedTime(serie: Serie): number {
-  let max = 0;
-  for (const s of serie.seasons ?? []) {
-    if (Number(s.seasonTimesWatched ?? 0) <= 0) {
-      continue;
-    }
-    const raw = s.lastViewedDate?.trim();
-    if (!raw) continue;
-    const t = new Date(raw).getTime();
-    if (!Number.isNaN(t) && t > max) {
-      max = t;
-    }
+  const info = getSerieLastViewedSeasonInfo(serie);
+  if (!info) {
+    return 0;
   }
-  return max;
+  const t = new Date(info.dateStr).getTime();
+  return Number.isNaN(t) ? 0 : t;
 }
 
 /**

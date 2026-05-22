@@ -32,8 +32,10 @@ import { DEFAULT_USER_ID } from '../../../utils/constants';
 import { StarInfo } from '../../../models/various-model';
 import { getRatingStars } from '../../../utils/constants';
 import {
+  getSerieLastViewedSeasonInfo,
   isSerieWatchlistNotStarted,
   serieShowsNewSeasonStartedButton,
+  type SerieLastViewedSeasonInfo,
 } from '../../../utils/series.utils';
 import { MovieCommunityWatchersModalComponent } from '../../modals/movie-community-watchers-modal/movie-community-watchers-modal.component';
 
@@ -211,6 +213,10 @@ export class SerieComponent {
 
   toggleSeasonsInline(): void {
     this.seasonsExpanded.set(!this.seasonsExpanded());
+  }
+
+  getLastViewedSeasonInfo(): SerieLastViewedSeasonInfo | null {
+    return getSerieLastViewedSeasonInfo(this.serie);
   }
 
   getSerieSeasons() {

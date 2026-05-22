@@ -80,8 +80,13 @@
     <p class="serie-end-date">Terminé en {{ serie.endDate | date : "yyyy" }}</p>
     } @if (serie.saga) {
     <p class="serie-saga">Saga {{ serie.saga }}</p>
-    } @if (serie.description) {
+    }     @if (serie.description) {
     <p class="serie-description">{{ serie.description }}</p>
+    } @if (!isBaseEntityView && getLastViewedSeasonInfo(); as lastSeason) {
+    <p class="serie-times-watched">
+      Dernière saison (saison {{ lastSeason.seasonNumber }}) vue le
+      {{ lastSeason.dateStr | date : "dd/MM/yyyy" }}
+    </p>
     } @if ( !isBaseEntityView || (showAddToMyWatchlist && (canAddToMyWatchlist
     || canAddAsWatched)) ) {
     <app-entity-card-rating-and-buttons

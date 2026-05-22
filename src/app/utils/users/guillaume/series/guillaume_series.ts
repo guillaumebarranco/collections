@@ -140,7 +140,7 @@ export const guillaumeSeries: UserSeries = [
       {
         seasonNumber: 9,
         seasonRating: 4.5,
-        seasonTimesWatched: 20,
+        seasonTimesWatched: 15,
         firstViewedDate: '2014-03-31',
         lastViewedDate: '',
         otherViewedDates: ['2020-10-27', '2021-09-15'],
