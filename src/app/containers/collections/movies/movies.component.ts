@@ -41,6 +41,10 @@ import { LocalStorageService } from '../../../services/local-storage.service';
 import { TopFiveService } from '../../../services/top-five.service';
 import { FollowsService } from '../../../services/follows.service';
 import { getEntityKey } from '../../../utils/top-five.utils';
+import {
+  movieHasSeenBeforeYear,
+  movieHasSeenInYear,
+} from '../../../utils/movie-seen-dates.utils';
 
 import {
   getSortedMovies,
@@ -374,15 +378,14 @@ export class MoviesComponent implements OnInit {
       this.selectedView() === 'loaned'
     ) {
       if (allYearsSince2000.includes(Number(this.selectedYearFilter()))) {
+        const year = Number(this.selectedYearFilter());
         filteredMovies = filteredMovies.filter((m) =>
-          m.firstViewedDate?.startsWith(this.selectedYearFilter())
+          movieHasSeenInYear(m, year)
         );
       } else if (this.selectedYearFilter() === 'before2002') {
-        filteredMovies = filteredMovies.filter((m) => {
-          if (!m.firstViewedDate) return true;
-          const year = parseInt(m.firstViewedDate.substring(0, 4));
-          return year < 2002;
-        });
+        filteredMovies = filteredMovies.filter((m) =>
+          movieHasSeenBeforeYear(m, 2002)
+        );
       }
     } else if (
       this.selectedView() === 'sagas' ||

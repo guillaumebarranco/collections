@@ -1,5 +1,39 @@
 import type { Movie } from '../models/movie-model';
 
+/** Toutes les dates de visionnage renseignées (premier, dernier, autres). */
+export function getAllMovieSeenDateStrings(movie: Movie): string[] {
+  const out: string[] = [];
+  for (const raw of [
+    movie.firstViewedDate,
+    movie.lastViewedDate,
+    ...(movie.otherSeenDates ?? []),
+  ]) {
+    const s = (raw ?? '').trim();
+    if (s && !out.includes(s)) {
+      out.push(s);
+    }
+  }
+  return out;
+}
+
+/** Au moins une date de visionnage tombe dans l'année calendaire (ex. 2021). */
+export function movieHasSeenInYear(movie: Movie, year: number): boolean {
+  const prefix = String(year);
+  return getAllMovieSeenDateStrings(movie).some((d) => d.startsWith(prefix));
+}
+
+/** Au moins une date de visionnage est strictement avant l'année donnée. */
+export function movieHasSeenBeforeYear(movie: Movie, beforeYear: number): boolean {
+  const dates = getAllMovieSeenDateStrings(movie);
+  if (dates.length === 0) {
+    return true;
+  }
+  return dates.some((d) => {
+    const y = parseInt(d.substring(0, 4), 10);
+    return !Number.isNaN(y) && y < beforeYear;
+  });
+}
+
 /** Dates de visionnage prises en compte dans le graphique « films vus par an ». */
 export function collectMovieSeenDatesForChart(
   movie: Movie,
