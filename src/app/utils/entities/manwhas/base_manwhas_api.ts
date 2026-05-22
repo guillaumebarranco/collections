@@ -8,6 +8,8 @@ export const baseManwhasApi: BaseManwha[] = [
     genre: 'Shonen',
     nbChapters: 140,
     isFinished: true,
+    startDate: '2017-10-14',
+    endDate: '2020-07-03',
     description: '',
   },
   {
@@ -18,6 +20,8 @@ export const baseManwhasApi: BaseManwha[] = [
     genre: 'Shonen',
     nbChapters: 435,
     isFinished: false,
+    startDate: '2011-04-08',
+    endDate: '',
     description: '',
   },
 ];

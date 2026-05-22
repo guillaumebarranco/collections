@@ -332,14 +332,57 @@ function parseNumberField(objectText: string, key: string) {
   return Number.isNaN(parsed) ? null : parsed;
 }
 
-function parseSeasonsField(objectText: string) {
-  const seasonsMatch = objectText.match(
-    /["']?seasons["']?\s*:\s*\[([\s\S]*?)\]/
+/** Extrait le contenu d'un tableau `[...]` après une clé (gère les `[]` imbriqués, ex. otherViewedDates). */
+function extractBracketArrayInner(objectText: string, key: string): string | null {
+  const keyMatch = objectText.match(
+    new RegExp(`["']?${key}["']?\\s*:\\s*\\[`)
   );
-  if (!seasonsMatch) return null;
-  const body = seasonsMatch[1];
+  if (!keyMatch || keyMatch.index === undefined) {
+    return null;
+  }
+  const bracketStart = keyMatch.index + keyMatch[0].length - 1;
+  let depth = 1;
+  let i = bracketStart + 1;
+  while (i < objectText.length && depth > 0) {
+    const c = objectText[i];
+    if (c === '[') depth += 1;
+    else if (c === ']') depth -= 1;
+    i += 1;
+  }
+  if (depth !== 0) {
+    return null;
+  }
+  return objectText.slice(bracketStart + 1, i - 1);
+}
+
+/** Découpe les objets `{...}` au premier niveau d'un corps de tableau. */
+function splitTopLevelObjectLiterals(arrayBody: string): string[] {
+  const entries: string[] = [];
+  let depth = 0;
+  let start = -1;
+  for (let i = 0; i < arrayBody.length; i += 1) {
+    const c = arrayBody[i];
+    if (c === '{') {
+      if (depth === 0) {
+        start = i;
+      }
+      depth += 1;
+    } else if (c === '}') {
+      depth -= 1;
+      if (depth === 0 && start !== -1) {
+        entries.push(arrayBody.slice(start, i + 1));
+        start = -1;
+      }
+    }
+  }
+  return entries;
+}
+
+function parseSeasonsField(objectText: string) {
+  const body = extractBracketArrayInner(objectText, 'seasons');
+  if (body === null) return null;
   const seasons: UserSerieSeason[] = [];
-  const entries = body.match(/\{[\s\S]*?\}/g) || [];
+  const entries = splitTopLevelObjectLiterals(body);
   for (const entry of entries) {
     const seasonNumber = parseNumberField(entry, 'seasonNumber') ?? 0;
     const seasonRating = parseNumberField(entry, 'seasonRating') ?? 0;

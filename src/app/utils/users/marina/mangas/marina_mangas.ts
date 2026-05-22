@@ -5,6 +5,8 @@ export const marinaMangas: UserManga[] = [
     title: 'Death Note',
     author: 'Takeshi Obata',
     readDate: '',
+    readingScanStartDate: '',
+    readingScanEndDate: '',
     rating: 5,
     readTimes: 1,
     owned: false,

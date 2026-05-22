@@ -1,6 +1,6 @@
 .community-modal {
   padding: 16px;
-  min-width: min(360px, 88vw);
+  min-width: min(400px, 92vw);
   box-sizing: border-box;
 }
 
@@ -74,6 +74,56 @@
 .community-modal__meta {
   font-size: 0.85rem;
   color: #555;
+}
+
+.community-modal__season-groups {
+  list-style: none;
+  margin: 0 0 1rem;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+  max-height: min(55vh, 380px);
+  overflow-y: auto;
+}
+
+.community-modal__season-group {
+  border: 1px solid #e8e8e8;
+  border-radius: 8px;
+  background: #fafafa;
+}
+
+.community-modal__season-group-title {
+  margin: 0;
+  padding: 0.5rem 0.65rem;
+  font-size: 0.92rem;
+  font-weight: 700;
+  color: #1a1a1a;
+  background: #eef4f8;
+  border-bottom: 1px solid #e0e8ec;
+}
+
+.community-modal__season-users {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.community-modal__season-user {
+  display: flex;
+  flex-direction: column;
+  gap: 0.2rem;
+  padding: 0.5rem 0.65rem;
+  font-size: 0.85rem;
+  border-bottom: 1px solid #eee;
+
+  &:last-child {
+    border-bottom: none;
+  }
+
+  &--me {
+    background: #f0f7ff;
+  }
 }
 
 .community-modal__sep {

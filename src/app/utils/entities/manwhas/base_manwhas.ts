@@ -8,6 +8,8 @@ export const baseManwhas: BaseManwha[] = [
     genre: 'Shonen',
     nbChapters: 510,
     isFinished: false,
+    startDate: '2013-01-17',
+    endDate: '',
     description: '',
   },
   {
@@ -17,6 +19,8 @@ export const baseManwhas: BaseManwha[] = [
     genre: 'Shonen',
     nbChapters: 0,
     isFinished: true,
+    startDate: '2013-06-08',
+    endDate: '2020-12-18',
     description: '',
   },
   {
@@ -26,6 +30,8 @@ export const baseManwhas: BaseManwha[] = [
     genre: 'Shonen',
     nbChapters: 544,
     isFinished: true,
+    startDate: '2007-12-30',
+    endDate: '2019-01-07',
     description: '',
   },
   {
@@ -35,6 +41,8 @@ export const baseManwhas: BaseManwha[] = [
     genre: 'Shonen',
     nbChapters: 652,
     isFinished: false,
+    startDate: '2010-06-30',
+    endDate: '',
     description: '',
   },
   {
@@ -44,6 +52,8 @@ export const baseManwhas: BaseManwha[] = [
     genre: 'Shonen',
     nbChapters: 264,
     isFinished: true,
+    startDate: '2012-08-03',
+    endDate: '2017-12-23',
     description: '',
   },
   {
@@ -53,6 +63,8 @@ export const baseManwhas: BaseManwha[] = [
     genre: 'Shonen',
     nbChapters: 388,
     isFinished: true,
+    startDate: '2014-05-31',
+    endDate: '2021-03-27',
     description: '',
   },
   {
@@ -62,6 +74,8 @@ export const baseManwhas: BaseManwha[] = [
     genre: '',
     nbChapters: 265,
     isFinished: false,
+    startDate: '2014-04-16',
+    endDate: '',
     description: '',
   },
   {
@@ -71,6 +85,8 @@ export const baseManwhas: BaseManwha[] = [
     genre: '',
     nbChapters: 384,
     isFinished: false,
+    startDate: '2016-05-28',
+    endDate: '',
     description: '',
   },
   {
@@ -80,6 +96,8 @@ export const baseManwhas: BaseManwha[] = [
     genre: 'Romance',
     nbChapters: 281,
     isFinished: false,
+    startDate: '2016-08-05',
+    endDate: '',
     description: '',
   },
   {
@@ -89,6 +107,8 @@ export const baseManwhas: BaseManwha[] = [
     genre: '',
     nbChapters: 479,
     isFinished: false,
+    startDate: '2021-02-27',
+    endDate: '',
     description: '',
   },
   {
@@ -98,6 +118,8 @@ export const baseManwhas: BaseManwha[] = [
     genre: '',
     nbChapters: 581,
     isFinished: false,
+    startDate: '2014-11-17',
+    endDate: '',
     description: '',
   },
   {
@@ -107,6 +129,8 @@ export const baseManwhas: BaseManwha[] = [
     genre: '',
     nbChapters: 94,
     isFinished: false,
+    startDate: '2016-07-02',
+    endDate: '',
     description: '',
   },
   {
@@ -116,6 +140,8 @@ export const baseManwhas: BaseManwha[] = [
     genre: '',
     nbChapters: 131,
     isFinished: false,
+    startDate: '2012-08-27',
+    endDate: '',
     description: '',
   },
   {
@@ -125,6 +151,8 @@ export const baseManwhas: BaseManwha[] = [
     genre: '',
     nbChapters: 270,
     isFinished: false,
+    startDate: '2018-03-04',
+    endDate: '',
     description: '',
   },
   {
@@ -134,6 +162,8 @@ export const baseManwhas: BaseManwha[] = [
     genre: 'Action',
     nbChapters: 551,
     isFinished: true,
+    startDate: '2020-05-26',
+    endDate: '2026-05-18',
     description: '',
   },
   {
@@ -143,6 +173,8 @@ export const baseManwhas: BaseManwha[] = [
     genre: 'Fantasy',
     nbChapters: 220,
     isFinished: false,
+    startDate: '2018-06-03',
+    endDate: '',
     description: '',
   },
   {
@@ -152,6 +184,8 @@ export const baseManwhas: BaseManwha[] = [
     genre: 'Fantasy',
     nbChapters: 150,
     isFinished: false,
+    startDate: '2022-01-30',
+    endDate: '',
     description: '',
   },
   {
@@ -161,6 +195,8 @@ export const baseManwhas: BaseManwha[] = [
     genre: 'Action',
     nbChapters: 200,
     isFinished: true,
+    startDate: '2014-04-16',
+    endDate: '2020-08-05',
     description: '',
   },
   {
@@ -170,6 +206,8 @@ export const baseManwhas: BaseManwha[] = [
     genre: 'Action',
     nbChapters: 350,
     isFinished: false,
+    startDate: '2020-05-26',
+    endDate: '',
     description: '',
   },
   {
@@ -179,6 +217,8 @@ export const baseManwhas: BaseManwha[] = [
     genre: 'Fantasy',
     nbChapters: 650,
     isFinished: false,
+    startDate: '2012-02-05',
+    endDate: '',
     description: '',
   },
   {
@@ -188,6 +228,8 @@ export const baseManwhas: BaseManwha[] = [
     genre: 'Romance',
     nbChapters: 200,
     isFinished: true,
+    startDate: '2016-03-26',
+    endDate: '2017-08-12',
     description: '',
   },
   {
@@ -197,6 +239,8 @@ export const baseManwhas: BaseManwha[] = [
     genre: 'Drama',
     nbChapters: 132,
     isFinished: true,
+    startDate: '2019-05-28',
+    endDate: '2022-06-29',
     description: '',
   },
   {
@@ -206,6 +250,8 @@ export const baseManwhas: BaseManwha[] = [
     genre: 'Romance',
     nbChapters: 180,
     isFinished: false,
+    startDate: '2016-01-15',
+    endDate: '',
     description: '',
   },
   {
@@ -215,6 +261,8 @@ export const baseManwhas: BaseManwha[] = [
     genre: 'Fantasy',
     nbChapters: 300,
     isFinished: true,
+    startDate: '2015-08-12',
+    endDate: '2020-09-25',
     description: '',
   },
   {
@@ -224,6 +272,8 @@ export const baseManwhas: BaseManwha[] = [
     genre: 'Romance',
     nbChapters: 80,
     isFinished: false,
+    startDate: '2023-06-12',
+    endDate: '',
     description: '',
   },
   {
@@ -233,6 +283,8 @@ export const baseManwhas: BaseManwha[] = [
     genre: 'Thriller',
     nbChapters: 120,
     isFinished: false,
+    startDate: '2020-07-17',
+    endDate: '',
     description: '',
   },
   {
@@ -242,6 +294,8 @@ export const baseManwhas: BaseManwha[] = [
     genre: 'Fantasy',
     nbChapters: 450,
     isFinished: false,
+    startDate: '2014-12-01',
+    endDate: '',
     description: '',
   },
   {
@@ -251,6 +305,8 @@ export const baseManwhas: BaseManwha[] = [
     genre: 'Romance',
     nbChapters: 240,
     isFinished: true,
+    startDate: '2018-02-25',
+    endDate: '2023-03-20',
     description: '',
   },
 ];

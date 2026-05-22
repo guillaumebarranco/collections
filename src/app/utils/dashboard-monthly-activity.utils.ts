@@ -40,6 +40,16 @@ export type ActivityBookSample = {
   showApproximateDateBadge: boolean;
 };
 
+export type ActivityMangaSample = {
+  line: string;
+  showScanBadge: boolean;
+};
+
+export type ActivityManwhaSample = {
+  line: string;
+  showScanBadge: boolean;
+};
+
 export type ActivityBdSample = {
   line: string;
   showApproximateDateBadge: boolean;
@@ -54,10 +64,10 @@ export type ActivitySerieSample = {
 
 export type ActivitySamples = {
   books: ActivityBookSample[];
-  mangas: string[];
+  mangas: ActivityMangaSample[];
   comics: string[];
   bds: ActivityBdSample[];
-  manwhas: string[];
+  manwhas: ActivityManwhaSample[];
   movies: ActivityMovieSample[];
   series: ActivitySerieSample[];
 };
@@ -236,6 +246,14 @@ function takeBookSamples(samples: ActivityBookSample[]): ActivityBookSample[] {
   return samples.slice(0, MAX_SAMPLES);
 }
 
+function takeMangaSamples(samples: ActivityMangaSample[]): ActivityMangaSample[] {
+  return samples.slice(0, MAX_SAMPLES);
+}
+
+function takeManwhaSamples(samples: ActivityManwhaSample[]): ActivityManwhaSample[] {
+  return samples.slice(0, MAX_SAMPLES);
+}
+
 function takeBdSamples(samples: ActivityBdSample[]): ActivityBdSample[] {
   return samples.slice(0, MAX_SAMPLES);
 }
@@ -328,6 +346,262 @@ function readItemActivityDate(item: {
   return parseActivityDate(item.readDate);
 }
 
+function mangaHasReadingScanStart(manga: Manga): boolean {
+  return Boolean(parseActivityDate(manga.readingScanStartDate));
+}
+
+/**
+ * Fin de la période scan :
+ * 1. `readingScanEndDate` si renseignée (arrêt du suivi scan)
+ * 2. sinon aujourd’hui si le manga est en cours (`endDate` vide)
+ * 3. sinon la date de fin de parution du manga
+ */
+export function getMangaScanActivityEndDate(
+  manga: Pick<Manga, 'endDate' | 'readingScanEndDate'>,
+  reference = new Date(),
+): Date {
+  const todayEnd = new Date(reference);
+  todayEnd.setHours(23, 59, 59, 999);
+
+  const userScanEnd = parseActivityDate(manga.readingScanEndDate);
+  if (userScanEnd) {
+    userScanEnd.setHours(23, 59, 59, 999);
+    return userScanEnd.getTime() > todayEnd.getTime() ? todayEnd : userScanEnd;
+  }
+
+  const rawEnd = manga.endDate?.trim();
+  if (!rawEnd) {
+    return todayEnd;
+  }
+  const parsed = parseActivityDate(rawEnd);
+  if (!parsed) {
+    return todayEnd;
+  }
+  parsed.setHours(23, 59, 59, 999);
+  return parsed.getTime() < todayEnd.getTime() ? parsed : todayEnd;
+}
+
+export function mangaHasScanActivityInRange(
+  manga: Manga,
+  rangeStart: Date,
+  rangeEnd: Date,
+  reference = new Date(),
+): boolean {
+  if ((manga.readTimes ?? 0) <= 0 || !mangaHasReadingScanStart(manga)) {
+    return false;
+  }
+  const scanStart = parseActivityDate(manga.readingScanStartDate);
+  if (!scanStart) {
+    return false;
+  }
+  scanStart.setHours(0, 0, 0, 0);
+  const scanEnd = getMangaScanActivityEndDate(manga, reference);
+  if (scanEnd.getTime() < scanStart.getTime()) {
+    return false;
+  }
+  return scanStart.getTime() <= rangeEnd.getTime() && scanEnd.getTime() >= rangeStart.getTime();
+}
+
+function mangaReadDateInRange(
+  manga: Manga,
+  rangeStart: Date,
+  rangeEnd: Date,
+): boolean {
+  if ((manga.readTimes ?? 0) <= 0) {
+    return false;
+  }
+  const d = readItemActivityDate(manga);
+  return Boolean(d && isInInclusiveRange(d, rangeStart, rangeEnd));
+}
+
+function formatMangaActivitySample(
+  manga: Manga,
+  rangeStart: Date,
+  rangeEnd: Date,
+  reference = new Date(),
+): ActivityMangaSample {
+  return {
+    line: `${manga.title} — ${manga.author}`,
+    showScanBadge: mangaHasScanActivityInRange(
+      manga,
+      rangeStart,
+      rangeEnd,
+      reference,
+    ),
+  };
+}
+
+function addMangaScanMinutesInRange(
+  totalMinutes: number,
+  scanSeen: Set<string>,
+  manga: Manga,
+  rangeStart: Date,
+  rangeEnd: Date,
+  reference = new Date(),
+): number {
+  if ((manga.readTimes ?? 0) <= 0 || !mangaHasReadingScanStart(manga)) {
+    return totalMinutes;
+  }
+  const scanStart = parseActivityDate(manga.readingScanStartDate);
+  if (!scanStart) {
+    return totalMinutes;
+  }
+  const scanEnd = getMangaScanActivityEndDate(manga, reference);
+  const minutesPerMonth =
+    MANGA_SCAN_CHAPTERS_PER_MONTH * MANGA_SCAN_MINUTES_PER_CHAPTER;
+  const keyBase = `manga|${manga.title}|${manga.author}|scan`;
+
+  let y = scanStart.getFullYear();
+  let m = scanStart.getMonth();
+  const endY = scanEnd.getFullYear();
+  const endM = scanEnd.getMonth();
+
+  while (y < endY || (y === endY && m <= endM)) {
+    const monthStart = new Date(y, m, 1, 0, 0, 0, 0);
+    const monthEnd = new Date(y, m + 1, 0, 23, 59, 59, 999);
+    if (monthStart.getTime() <= rangeEnd.getTime() && monthEnd.getTime() >= rangeStart.getTime()) {
+      const monthKey = `${keyBase}|${y}-${String(m + 1).padStart(2, '0')}`;
+      if (!scanSeen.has(monthKey)) {
+        scanSeen.add(monthKey);
+        totalMinutes += minutesPerMonth;
+      }
+    }
+    m += 1;
+    if (m > 11) {
+      m = 0;
+      y += 1;
+    }
+  }
+
+  return totalMinutes;
+}
+
+function hasReadingScanStart(item: {
+  readingScanStartDate: string;
+}): boolean {
+  return Boolean(parseActivityDate(item.readingScanStartDate));
+}
+
+function getManwhaScanActivityEndDate(
+  manwha: Pick<Manwha, 'endDate' | 'readingScanEndDate'>,
+  reference = new Date(),
+): Date {
+  const todayEnd = new Date(reference);
+  todayEnd.setHours(23, 59, 59, 999);
+
+  const userScanEnd = parseActivityDate(manwha.readingScanEndDate);
+  if (userScanEnd) {
+    userScanEnd.setHours(23, 59, 59, 999);
+    return userScanEnd.getTime() > todayEnd.getTime() ? todayEnd : userScanEnd;
+  }
+
+  const rawEnd = manwha.endDate?.trim();
+  if (!rawEnd) {
+    return todayEnd;
+  }
+  const parsed = parseActivityDate(rawEnd);
+  if (!parsed) {
+    return todayEnd;
+  }
+  parsed.setHours(23, 59, 59, 999);
+  return parsed.getTime() < todayEnd.getTime() ? parsed : todayEnd;
+}
+
+export function manwhaHasScanActivityInRange(
+  manwha: Manwha,
+  rangeStart: Date,
+  rangeEnd: Date,
+  reference = new Date(),
+): boolean {
+  if ((manwha.readTimes ?? 0) <= 0 || !hasReadingScanStart(manwha)) {
+    return false;
+  }
+  const scanStart = parseActivityDate(manwha.readingScanStartDate);
+  if (!scanStart) {
+    return false;
+  }
+  scanStart.setHours(0, 0, 0, 0);
+  const scanEnd = getManwhaScanActivityEndDate(manwha, reference);
+  if (scanEnd.getTime() < scanStart.getTime()) {
+    return false;
+  }
+  return scanStart.getTime() <= rangeEnd.getTime() && scanEnd.getTime() >= rangeStart.getTime();
+}
+
+function manwhaReadDateInRange(
+  manwha: Manwha,
+  rangeStart: Date,
+  rangeEnd: Date,
+): boolean {
+  if ((manwha.readTimes ?? 0) <= 0) {
+    return false;
+  }
+  const d = readItemActivityDate(manwha);
+  return Boolean(d && isInInclusiveRange(d, rangeStart, rangeEnd));
+}
+
+function formatManwhaActivitySample(
+  manwha: Manwha,
+  rangeStart: Date,
+  rangeEnd: Date,
+  reference = new Date(),
+): ActivityManwhaSample {
+  return {
+    line: `${manwha.title} — ${manwha.author}`,
+    showScanBadge: manwhaHasScanActivityInRange(
+      manwha,
+      rangeStart,
+      rangeEnd,
+      reference,
+    ),
+  };
+}
+
+function addManwhaScanMinutesInRange(
+  totalMinutes: number,
+  scanSeen: Set<string>,
+  manwha: Manwha,
+  rangeStart: Date,
+  rangeEnd: Date,
+  reference = new Date(),
+): number {
+  if ((manwha.readTimes ?? 0) <= 0 || !hasReadingScanStart(manwha)) {
+    return totalMinutes;
+  }
+  const scanStart = parseActivityDate(manwha.readingScanStartDate);
+  if (!scanStart) {
+    return totalMinutes;
+  }
+  const scanEnd = getManwhaScanActivityEndDate(manwha, reference);
+  const minutesPerMonth =
+    MANGA_SCAN_CHAPTERS_PER_MONTH * MANGA_SCAN_MINUTES_PER_CHAPTER;
+  const keyBase = `manwha|${manwha.title}|${manwha.author}|scan`;
+
+  let y = scanStart.getFullYear();
+  let m = scanStart.getMonth();
+  const endY = scanEnd.getFullYear();
+  const endM = scanEnd.getMonth();
+
+  while (y < endY || (y === endY && m <= endM)) {
+    const monthStart = new Date(y, m, 1, 0, 0, 0, 0);
+    const monthEnd = new Date(y, m + 1, 0, 23, 59, 59, 999);
+    if (monthStart.getTime() <= rangeEnd.getTime() && monthEnd.getTime() >= rangeStart.getTime()) {
+      const monthKey = `${keyBase}|${y}-${String(m + 1).padStart(2, '0')}`;
+      if (!scanSeen.has(monthKey)) {
+        scanSeen.add(monthKey);
+        totalMinutes += minutesPerMonth;
+      }
+    }
+    m += 1;
+    if (m > 11) {
+      m = 0;
+      y += 1;
+    }
+  }
+
+  return totalMinutes;
+}
+
 function seasonHasActivityInRange(
   season: Serie['seasons'][number],
   rangeStart: Date,
@@ -412,12 +686,10 @@ export function computeActivityInRange(
     bookHasActivityInRange(book, rangeStart, rangeEnd),
   );
   const mg = mangas.filter((m) => {
-    const rt = m.readTimes ?? 0;
-    if (rt <= 0) {
-      return false;
+    if (mangaHasScanActivityInRange(m, rangeStart, rangeEnd)) {
+      return true;
     }
-    const d = readItemActivityDate(m);
-    return Boolean(d && isInInclusiveRange(d, rangeStart, rangeEnd));
+    return mangaReadDateInRange(m, rangeStart, rangeEnd);
   });
   const c = comics.filter((x) => {
     const rt = x.readTimes ?? 0;
@@ -436,12 +708,10 @@ export function computeActivityInRange(
     return Boolean(d && isInInclusiveRange(d, rangeStart, rangeEnd));
   });
   const mw = manwhas.filter((x) => {
-    const rt = x.readTimes ?? 0;
-    if (rt <= 0) {
-      return false;
+    if (manwhaHasScanActivityInRange(x, rangeStart, rangeEnd)) {
+      return true;
     }
-    const d = readItemActivityDate(x);
-    return Boolean(d && isInInclusiveRange(d, rangeStart, rangeEnd));
+    return manwhaReadDateInRange(x, rangeStart, rangeEnd);
   });
   const mv = movies.filter((movie) =>
     movieHasActivityInRange(movie, rangeStart, rangeEnd),
@@ -464,10 +734,14 @@ export function computeActivityInRange(
       books: takeBookSamples(
         b.map((x) => formatBookSample(x, rangeStart, rangeEnd)),
       ),
-      mangas: takeSampleTitles(mg.map((x) => `${x.title} — ${x.author}`)),
+      mangas: takeMangaSamples(
+        mg.map((x) => formatMangaActivitySample(x, rangeStart, rangeEnd)),
+      ),
       comics: takeSampleTitles(c.map((x) => `${x.title} — ${x.writer}`)),
       bds: takeBdSamples(bd.map((x) => formatBdSample(x))),
-      manwhas: takeSampleTitles(mw.map((x) => `${x.title} — ${x.author}`)),
+      manwhas: takeManwhaSamples(
+        mw.map((x) => formatManwhaActivitySample(x, rangeStart, rangeEnd)),
+      ),
       movies: takeMovieSamples(
         mv.map((x) => formatMovieSample(x, rangeStart, rangeEnd)),
       ),
@@ -490,6 +764,11 @@ export type ActivityDurationTotals = {
 const MINUTES_PER_PAGE = 2;
 const MINUTES_PER_MANGA_TOME = 30;
 const MINUTES_PER_MANWHA_CHAPTER = 15;
+
+/** Chapitres de scan comptés par mois calendaire (activité mensuelle, mangas & manwhas). */
+export const MANGA_SCAN_CHAPTERS_PER_MONTH = 4;
+/** Durée estimée pour lire un chapitre en scan (activité mensuelle, mangas & manwhas). */
+export const MANGA_SCAN_MINUTES_PER_CHAPTER = 5;
 const MINUTES_PER_DAY = 24 * 60;
 const DEFAULT_MOVIE_MINUTES = 90;
 const DEFAULT_READ_SESSION_MINUTES = 60;
@@ -583,6 +862,7 @@ export function computeActivityDurationInRange(
   rangeEnd: Date,
 ): ActivityDurationTotals {
   const readingSeen = new Set<string>();
+  const scanSeen = new Set<string>();
   const viewingSeen = new Set<string>();
   let readingMinutes = 0;
   let viewingMinutes = 0;
@@ -639,6 +919,13 @@ export function computeActivityDurationInRange(
       rangeEnd,
       session,
     );
+    readingMinutes = addMangaScanMinutesInRange(
+      readingMinutes,
+      scanSeen,
+      item,
+      rangeStart,
+      rangeEnd,
+    );
   }
 
   for (const item of comics) {
@@ -689,6 +976,13 @@ export function computeActivityDurationInRange(
       rangeStart,
       rangeEnd,
       session,
+    );
+    readingMinutes = addManwhaScanMinutesInRange(
+      readingMinutes,
+      scanSeen,
+      item,
+      rangeStart,
+      rangeEnd,
     );
   }
 

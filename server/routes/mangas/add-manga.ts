@@ -33,6 +33,8 @@ function formatUserManga(user: any): string {
     title: "${escapeString(user.title)}",
     author: "${escapeString(user.author)}",
     readDate: "${escapeString(user.readDate || '')}",
+    readingScanStartDate: "${escapeString(user.readingScanStartDate || '')}",
+    readingScanEndDate: "${escapeString(user.readingScanEndDate || '')}",
     rating: ${user.rating ?? 0},
     readTimes: ${user.readTimes ?? 1},
     owned: ${user.owned ?? false},
@@ -125,6 +127,10 @@ router.post('/add', (req: any, res: any) => {
       rating: normalizeNumber(user.rating, 'rating') ?? 0,
       readTimes: normalizeNumber(user.readTimes, 'readTimes') ?? 1,
       readDate: normalizeString(user.readDate, 'readDate') || '',
+      readingScanStartDate:
+        normalizeString(user.readingScanStartDate, 'readingScanStartDate') || '',
+      readingScanEndDate:
+        normalizeString(user.readingScanEndDate, 'readingScanEndDate') || '',
       owned: normalizeBoolean(user.owned, 'owned') ?? false,
       readPriority: normalizeNumber(user.readPriority, 'readPriority') ?? 1,
       wantToReadAgain: normalizeBoolean(user.wantToReadAgain, 'wantToReadAgain') ?? false,

@@ -8,7 +8,23 @@ const {
 } = require('../../utils/series/series-utils');
 const { normalizeUsername } = require('../../utils/users/users-utils');
 
-import type { UserSerie } from '../../../src/app/models/serie-model';
+import type {
+  UserSerie,
+  UserSerieSeason,
+} from '../../../src/app/models/serie-model';
+
+type SerieWatcherSeasonRow = {
+  seasonNumber: number;
+  seasonRating: number;
+  seasonTimesWatched: number;
+};
+
+type SerieWatcherRow = {
+  userId: string;
+  rating: number;
+  timesWatched: number;
+  seasons: SerieWatcherSeasonRow[];
+};
 
 const router = express.Router();
 
@@ -45,6 +61,19 @@ function serieAvgRating(serie: UserSerie): number {
   return Math.round((total / rated.length) * 2) / 2;
 }
 
+function mapSeasonsForResponse(
+  seasons: UserSerieSeason[]
+): SerieWatcherSeasonRow[] {
+  return [...(seasons ?? [])]
+    .filter((se) => (se.seasonTimesWatched ?? 0) > 0)
+    .sort((a, b) => a.seasonNumber - b.seasonNumber)
+    .map((se) => ({
+      seasonNumber: se.seasonNumber,
+      seasonRating: se.seasonRating ?? 0,
+      seasonTimesWatched: se.seasonTimesWatched ?? 0,
+    }));
+}
+
 router.get('/serie-watchers', (req: any, res: any) => {
   try {
     const title = normalizeString(req.query.title, 'title');
@@ -57,8 +86,7 @@ router.get('/serie-watchers', (req: any, res: any) => {
 
     const targetTitle = title.trim();
     const targetDirector = director.trim();
-    const results: { userId: string; rating: number; timesWatched: number }[] =
-      [];
+    const results: SerieWatcherRow[] = [];
 
     if (!fs.existsSync(USERS_DIR)) {
       return res.json(results);
@@ -83,6 +111,7 @@ router.get('/serie-watchers', (req: any, res: any) => {
           userId: normalizeUsername(rawUserId),
           rating: serieAvgRating(match),
           timesWatched: tw,
+          seasons: mapSeasonsForResponse(match.seasons ?? []),
         });
       } catch (error: any) {
         if (!String(error.message || '').includes('not found')) {

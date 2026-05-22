@@ -5,6 +5,8 @@ export const cassandreManwhas: UserManwhas = [
     title: "Tower Of God",
     author: "Slave In Utero",
     readDate: '',
+    readingScanStartDate: '',
+    readingScanEndDate: '',
     rating: 0,
     readTimes: 1,
     owned: false,

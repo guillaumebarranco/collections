@@ -147,6 +147,10 @@ function parseManwhasFromFile(content: string): UserManwha[] {
             rating: parseNumberField(objectText, 'rating') ?? 0,
             readTimes: parseNumberField(objectText, 'readTimes') ?? 0,
             readDate: parseStringField(objectText, 'readDate') ?? '',
+            readingScanStartDate:
+              parseStringField(objectText, 'readingScanStartDate') ?? '',
+            readingScanEndDate:
+              parseStringField(objectText, 'readingScanEndDate') ?? '',
             owned: parseBooleanField(objectText, 'owned') ?? false,
             readPriority: (parseNumberField(objectText, 'readPriority') ??
               1) as UserManwha['readPriority'],
@@ -216,6 +220,8 @@ function parseBaseManwhasFullFromFile(content: string): BaseManwha[] {
           genre: parseStringField(objectText, 'genre') || '',
           nbChapters: parseNumberField(objectText, 'nbChapters') ?? 0,
           isFinished: parseBooleanField(objectText, 'isFinished') ?? false,
+          startDate: parseStringField(objectText, 'startDate') || '',
+          endDate: parseStringField(objectText, 'endDate') || '',
           description: parseStringField(objectText, 'description') || '',
         } as BaseManwha);
       }
@@ -260,6 +266,24 @@ function getBaseManwhasFiles(): string[] {
     .map((file: string) => path.join(BASE_MANWHAS_DIR, file));
 }
 
+function formatUserManwhaEntry(manwha: UserManwha): string {
+  return `  {
+    title: "${escapeString(manwha.title)}",
+    author: "${escapeString(manwha.author)}",
+    readDate: "${escapeString(manwha.readDate || '')}",
+    readingScanStartDate: "${escapeString(manwha.readingScanStartDate || '')}",
+    readingScanEndDate: "${escapeString(manwha.readingScanEndDate || '')}",
+    rating: ${manwha.rating ?? 0},
+    readTimes: ${manwha.readTimes ?? 1},
+    owned: ${manwha.owned ?? false},
+    readPriority: ${manwha.readPriority ?? 1},
+    wantToReadAgain: ${manwha.wantToReadAgain ?? false},
+    ratingComment: "${escapeString(manwha.ratingComment || '')}",
+    borrowed: "${escapeString(manwha.borrowed || '')}",
+    loaned: "${escapeString(manwha.loaned || '')}",
+  }`;
+}
+
 function baseManwhaExists(title: string, author: string): boolean {
   const files = getBaseManwhasFiles();
   for (const filePath of files) {
@@ -293,21 +317,7 @@ function updateManwhaInFile(
   } as UserManwha;
 
   const newArrayContent = manwhas
-    .map(
-      (manwha) => `  {
-    title: "${escapeString(manwha.title)}",
-    author: "${escapeString(manwha.author)}",
-    readDate: "${escapeString(manwha.readDate || '')}",
-    rating: ${manwha.rating ?? 0},
-    readTimes: ${manwha.readTimes ?? 1},
-    owned: ${manwha.owned ?? false},
-    readPriority: ${manwha.readPriority ?? 1},
-    wantToReadAgain: ${manwha.wantToReadAgain ?? false},
-    ratingComment: "${escapeString(manwha.ratingComment || '')}",
-    borrowed: "${escapeString(manwha.borrowed || '')}",
-    loaned: "${escapeString(manwha.loaned || '')}",
-  }`
-    )
+    .map((manwha) => formatUserManwhaEntry(manwha))
     .join(',\n');
 
   const exportIndex = content.indexOf('export const');
@@ -351,21 +361,7 @@ function updateManwhaIdentityInFile(
   } as UserManwha;
 
   const newArrayContent = manwhas
-    .map(
-      (manwha) => `  {
-    title: "${escapeString(manwha.title)}",
-    author: "${escapeString(manwha.author)}",
-    readDate: "${escapeString(manwha.readDate || '')}",
-    rating: ${manwha.rating ?? 0},
-    readTimes: ${manwha.readTimes ?? 1},
-    owned: ${manwha.owned ?? false},
-    readPriority: ${manwha.readPriority ?? 1},
-    wantToReadAgain: ${manwha.wantToReadAgain ?? false},
-    ratingComment: "${escapeString(manwha.ratingComment || '')}",
-    borrowed: "${escapeString(manwha.borrowed || '')}",
-    loaned: "${escapeString(manwha.loaned || '')}",
-  }`
-    )
+    .map((manwha) => formatUserManwhaEntry(manwha))
     .join(',\n');
 
   const exportIndex = content.indexOf('export const');
@@ -384,6 +380,20 @@ function updateManwhaIdentityInFile(
 
   fs.writeFileSync(filePath, newContent, 'utf8');
   return true;
+}
+
+function formatBaseManwhaEntry(manwha: BaseManwha): string {
+  return `  {
+    title: "${escapeString(manwha.title)}",
+    author: "${escapeString(manwha.author)}",
+    coverUrl: "${escapeString(manwha.coverUrl || '')}",
+    genre: "${escapeString(manwha.genre || '')}",
+    nbChapters: ${manwha.nbChapters ?? 0},
+    isFinished: ${manwha.isFinished ?? false},
+    startDate: "${escapeString(manwha.startDate || '')}",
+    endDate: "${escapeString(manwha.endDate || '')}",
+    description: "${escapeString(manwha.description || '')}",
+  }`;
 }
 
 function updateBaseManwhaInFile(
@@ -417,17 +427,7 @@ function updateBaseManwhaInFile(
   manwhas[index] = merged;
 
   const newArrayContent = manwhas
-    .map(
-      (manwha) => `  {
-    title: "${escapeString(manwha.title)}",
-    author: "${escapeString(manwha.author)}",
-    coverUrl: "${escapeString(manwha.coverUrl || '')}",
-    genre: "${escapeString(manwha.genre || '')}",
-    nbChapters: ${manwha.nbChapters ?? 0},
-    isFinished: ${manwha.isFinished ?? false},
-    description: "${escapeString(manwha.description || '')}",
-  }`
-    )
+    .map((manwha) => formatBaseManwhaEntry(manwha))
     .join(',\n');
 
   const exportIndex = content.indexOf('export const');
@@ -483,21 +483,7 @@ function removeManwhaFromFile(
   }
 
   const newArrayContent = filtered
-    .map(
-      (manwha) => `  {
-    title: "${escapeString(manwha.title)}",
-    author: "${escapeString(manwha.author)}",
-    readDate: "${escapeString(manwha.readDate || '')}",
-    rating: ${manwha.rating ?? 0},
-    readTimes: ${manwha.readTimes ?? 1},
-    owned: ${manwha.owned ?? false},
-    readPriority: ${manwha.readPriority ?? 1},
-    wantToReadAgain: ${manwha.wantToReadAgain ?? false},
-    ratingComment: "${escapeString(manwha.ratingComment || '')}",
-    borrowed: "${escapeString(manwha.borrowed || '')}",
-    loaned: "${escapeString(manwha.loaned || '')}",
-  }`
-    )
+    .map((manwha) => formatUserManwhaEntry(manwha))
     .join(',\n');
 
   return (
@@ -545,6 +531,7 @@ module.exports = {
   parseManwhasFromFile,
   parseBaseManwhasFullFromFile,
   escapeString,
+  formatBaseManwhaEntry,
   appendObjectToArrayFile,
   baseManwhaExists,
   updateManwhaInFile,

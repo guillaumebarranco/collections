@@ -52,7 +52,7 @@ function formatUserManwha(manwha: any) {
     manwha.title
   )}",\n    author: "${escapeString(
     manwha.author
-  )}",\n    readDate: '',\n    rating: 0,\n    readTimes: 1,\n    owned: false,\n    readPriority: 1,\n    wantToReadAgain: false,\n    ratingComment: '',\n    borrowed: '',\n    loaned: '',\n  },`;
+  )}",\n    readDate: '',\n    readingScanStartDate: '',\n    readingScanEndDate: '',\n    rating: 0,\n    readTimes: 1,\n    owned: false,\n    readPriority: 1,\n    wantToReadAgain: false,\n    ratingComment: '',\n    borrowed: '',\n    loaned: '',\n  },`;
 }
 
 function formatReadlistManwha(manwha: any) {
@@ -60,7 +60,7 @@ function formatReadlistManwha(manwha: any) {
     manwha.title
   )}",\n    author: "${escapeString(
     manwha.author
-  )}",\n    readDate: '',\n    rating: 0,\n    readTimes: 0,\n    owned: false,\n    readPriority: ${
+  )}",\n    readDate: '',\n    readingScanStartDate: '',\n    readingScanEndDate: '',\n    rating: 0,\n    readTimes: 0,\n    owned: false,\n    readPriority: ${
     manwha.readPriority ?? 1
   },\n    wantToReadAgain: false,\n    ratingComment: '',\n    borrowed: '',\n    loaned: '',\n  },`;
 }

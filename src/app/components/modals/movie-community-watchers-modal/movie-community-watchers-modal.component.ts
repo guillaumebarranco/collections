@@ -14,6 +14,7 @@ import {
 import {
   getEntityCommunityWatchers,
   type CommunityEntityKind,
+  type CommunityWatcherSeasonEntry,
 } from '../../../facades/community/entity-community-watchers.facade';
 
 export interface EntityCommunityWatchersModalData {
@@ -26,12 +27,32 @@ export interface EntityCommunityWatchersModalData {
 /** @deprecated Utiliser {@link EntityCommunityWatchersModalData}. */
 export type MovieCommunityWatchersModalData = EntityCommunityWatchersModalData;
 
+export type EntityCommunityWatcherSeasonDisplayRow = {
+  seasonNumber: number;
+  ratingLabel: string;
+  timesLabel: string;
+};
+
+export type EntityCommunitySeasonGroupUserRow = {
+  userId: string;
+  displayName: string;
+  ratingLabel: string;
+  timesLabel: string;
+  isCurrentUser: boolean;
+};
+
+export type EntityCommunitySeasonGroup = {
+  seasonNumber: number;
+  users: EntityCommunitySeasonGroupUserRow[];
+};
+
 export type EntityCommunityWatcherDisplayRow = {
   userId: string;
   displayName: string;
   ratingLabel: string;
   timesLabel: string;
   isCurrentUser: boolean;
+  seasons: EntityCommunityWatcherSeasonDisplayRow[];
 };
 
 /** @deprecated Utiliser {@link EntityCommunityWatcherDisplayRow}. */
@@ -62,6 +83,69 @@ export function formatCommunityCountLabel(
   return n <= 1 ? `${n} visionnage` : `${n} visionnages`;
 }
 
+export function formatCommunitySeasonTimesLabel(
+  seasonTimesWatched: number
+): string {
+  if (seasonTimesWatched === 0.5) {
+    return 'En cours';
+  }
+  const n = Math.floor(seasonTimesWatched);
+  if (n <= 0) {
+    return 'Non vue';
+  }
+  return n <= 1 ? '1 visionnage' : `${n} visionnages`;
+}
+
+function mapSeasonsForDisplay(
+  seasons: CommunityWatcherSeasonEntry[] | undefined
+): EntityCommunityWatcherSeasonDisplayRow[] {
+  return (seasons ?? []).map((se) => ({
+    seasonNumber: se.seasonNumber,
+    ratingLabel:
+      (se.seasonRating ?? 0) === 0 ? 'Pas de note' : `${se.seasonRating}/5`,
+    timesLabel: formatCommunitySeasonTimesLabel(se.seasonTimesWatched ?? 0),
+  }));
+}
+
+function sortSeasonGroupUsers(
+  users: EntityCommunitySeasonGroupUserRow[]
+): EntityCommunitySeasonGroupUserRow[] {
+  const me = users.filter((u) => u.isCurrentUser);
+  const others = users
+    .filter((u) => !u.isCurrentUser)
+    .sort((a, b) =>
+      a.displayName.localeCompare(b.displayName, 'fr', { sensitivity: 'base' })
+    );
+  return [...me, ...others];
+}
+
+export function buildSerieSeasonGroups(
+  rows: EntityCommunityWatcherDisplayRow[]
+): EntityCommunitySeasonGroup[] {
+  const bySeason = new Map<number, EntityCommunitySeasonGroupUserRow[]>();
+
+  for (const row of rows) {
+    for (const season of row.seasons) {
+      const list = bySeason.get(season.seasonNumber) ?? [];
+      list.push({
+        userId: row.userId,
+        displayName: row.displayName,
+        ratingLabel: season.ratingLabel,
+        timesLabel: season.timesLabel,
+        isCurrentUser: row.isCurrentUser,
+      });
+      bySeason.set(season.seasonNumber, list);
+    }
+  }
+
+  return [...bySeason.entries()]
+    .sort(([a], [b]) => a - b)
+    .map(([seasonNumber, users]) => ({
+      seasonNumber,
+      users: sortSeasonGroupUsers(users),
+    }));
+}
+
 @Component({
   selector: 'app-movie-community-watchers-modal',
   standalone: true,
@@ -79,6 +163,7 @@ export class MovieCommunityWatchersModalComponent implements OnInit {
   readonly loading = signal(true);
   readonly loadError = signal(false);
   readonly rows = signal<EntityCommunityWatcherDisplayRow[]>([]);
+  readonly serieSeasonGroups = signal<EntityCommunitySeasonGroup[]>([]);
 
   ngOnInit(): void {
     const { kind, identity, currentUserId } = this.data;
@@ -86,19 +171,20 @@ export class MovieCommunityWatchersModalComponent implements OnInit {
 
     void getEntityCommunityWatchers(kind, identity, currentUserId)
       .then((list) => {
-        this.rows.set(
-          list.map((r) => ({
-            userId: r.userId,
-            displayName: userIdToDisplayName(r.userId),
-            ratingLabel:
-              (r.rating ?? 0) === 0 ? 'Pas de note' : `${r.rating}/5`,
-            timesLabel: formatCommunityCountLabel(
-              kind,
-              r.timesWatched ?? 0
-            ),
-            isCurrentUser: r.userId.toLowerCase() === currentLower,
-          }))
-        );
+        const displayRows = list.map((r) => ({
+          userId: r.userId,
+          displayName: userIdToDisplayName(r.userId),
+          ratingLabel:
+            (r.rating ?? 0) === 0 ? 'Pas de note' : `${r.rating}/5`,
+          timesLabel: formatCommunityCountLabel(kind, r.timesWatched ?? 0),
+          isCurrentUser: r.userId.toLowerCase() === currentLower,
+          seasons:
+            kind === 'serie' ? mapSeasonsForDisplay(r.seasons) : [],
+        }));
+        this.rows.set(displayRows);
+        if (kind === 'serie') {
+          this.serieSeasonGroups.set(buildSerieSeasonGroups(displayRows));
+        }
         this.loading.set(false);
       })
       .catch(() => {

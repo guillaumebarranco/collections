@@ -5,6 +5,8 @@ export const dantesManwhas: UserManwha[] = [
     title: 'Solo Leveling',
     author: 'Jang Sung-Lak',
     readDate: '',
+    readingScanStartDate: '',
+    readingScanEndDate: '',
     rating: 0,
     readTimes: 1,
     owned: false,

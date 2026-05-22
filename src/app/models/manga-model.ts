@@ -27,6 +27,16 @@ export type { MangaFromEntityAdaptation, MangaFromEntityType };
 
 export interface UserManga extends MandatoryMangaData {
   readDate: string;
+  /**
+   * Début de lecture en scan (chapitre par chapitre), format YYYY-MM-DD (vide si N/A).
+   * Alimente l’activité mensuelle : 4 chapitres/mois.
+   */
+  readingScanStartDate: string;
+  /**
+   * Fin de lecture en scan (arrêt avant la fin du manga), format YYYY-MM-DD (vide si N/A).
+   * Si renseignée, borne la période de suivi scan (prioritaire sur aujourd’hui).
+   */
+  readingScanEndDate: string;
   rating: number;
   readTimes: number;
   owned: boolean;

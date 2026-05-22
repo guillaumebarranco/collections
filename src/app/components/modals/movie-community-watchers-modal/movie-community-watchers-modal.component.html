@@ -8,8 +8,42 @@
   <p class="community-modal__error">
     Impossible de charger les données communautaires pour cette œuvre.
   </p>
-  } @else if (rows().length === 0) {
+  } @else if (
+    (data.kind === 'serie' && serieSeasonGroups().length === 0) ||
+    (data.kind !== 'serie' && rows().length === 0)
+  ) {
   <p class="community-modal__empty">Aucun autre suivi enregistré.</p>
+  } @else if (data.kind === 'serie') {
+  <ul class="community-modal__season-groups" role="list">
+    @for (group of serieSeasonGroups(); track group.seasonNumber) {
+    <li class="community-modal__season-group" role="listitem">
+      <h3 class="community-modal__season-group-title">
+        Saison {{ group.seasonNumber }}
+      </h3>
+      <ul class="community-modal__season-users" role="list">
+        @for (user of group.users; track user.userId) {
+        <li
+          class="community-modal__season-user"
+          [class.community-modal__season-user--me]="user.isCurrentUser"
+          role="listitem"
+        >
+          <span class="community-modal__user">
+            @if (user.isCurrentUser) {
+            <span class="community-modal__badge">Vous</span>
+            }
+            {{ user.displayName }}
+          </span>
+          <span class="community-modal__meta">
+            <span>Note : {{ user.ratingLabel }}</span>
+            <span class="community-modal__sep">·</span>
+            <span>{{ user.timesLabel }}</span>
+          </span>
+        </li>
+        }
+      </ul>
+    </li>
+    }
+  </ul>
   } @else {
   <ul class="community-modal__list" role="list">
     @for (row of rows(); track row.userId) {

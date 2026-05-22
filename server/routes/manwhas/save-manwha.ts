@@ -36,6 +36,10 @@ router.post('/', (req: any, res: any) => {
       rating: normalizeNumber(input.rating, 'rating') ?? 0,
       readTimes: normalizeNumber(input.readTimes, 'readTimes') ?? 1,
       readDate: normalizeString(input.readDate, 'readDate') || '',
+      readingScanStartDate:
+        normalizeString(input.readingScanStartDate, 'readingScanStartDate') || '',
+      readingScanEndDate:
+        normalizeString(input.readingScanEndDate, 'readingScanEndDate') || '',
       owned: normalizeBoolean(input.owned, 'owned') ?? false,
       readPriority: normalizeNumber(input.readPriority, 'readPriority') ?? 1,
       wantToReadAgain: normalizeBoolean(input.wantToReadAgain, 'wantToReadAgain') ?? false,
@@ -100,6 +104,12 @@ router.post('/', (req: any, res: any) => {
         nbChapters: normalizeNumber(entityPayload.nbChapters, 'nbChapters'),
         isFinished: normalizeBoolean(entityPayload.isFinished, 'isFinished'),
         description: normalizeString(entityPayload.description, 'description') ?? '',
+        ...(entityPayload.startDate !== undefined && {
+          startDate: normalizeString(entityPayload.startDate, 'startDate') || '',
+        }),
+        ...(entityPayload.endDate !== undefined && {
+          endDate: normalizeString(entityPayload.endDate, 'endDate') || '',
+        }),
       });
 
       if (originalTitle || originalAuthor) {

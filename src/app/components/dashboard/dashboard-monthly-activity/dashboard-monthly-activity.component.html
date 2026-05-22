@@ -30,8 +30,13 @@
         <span class="tag tag--approximate-date">Date approximative</span>
         }
       </li>
-      } @for (line of s.mangas; track line) {
-      <li><span class="tag">Manga</span> {{ line }}</li>
+      } @for (manga of s.mangas; track manga.line) {
+      <li>
+        <span class="tag">Manga</span> {{ manga.line }}
+        @if (manga.showScanBadge) {
+        <span class="tag tag--manga-scan">Suivi scans mangas</span>
+        }
+      </li>
       } @for (line of s.comics; track line) {
       <li><span class="tag">Comic</span> {{ line }}</li>
       } @for (bd of s.bds; track bd.line) {
@@ -41,8 +46,13 @@
         <span class="tag tag--approximate-date">Date approximative</span>
         }
       </li>
-      } @for (line of s.manwhas; track line) {
-      <li><span class="tag">Manwha</span> {{ line }}</li>
+      } @for (manwha of s.manwhas; track manwha.line) {
+      <li>
+        <span class="tag">Manwha</span> {{ manwha.line }}
+        @if (manwha.showScanBadge) {
+        <span class="tag tag--manwha-scan">Suivi scans manwhas</span>
+        }
+      </li>
       } @for (movie of s.movies; track movie.line) {
       <li>
         <span class="tag">Film</span> {{ movie.line }}
@@ -117,8 +127,13 @@
           <span class="tag tag--approximate-date">Date approximative</span>
           }
         </li>
-        } @for (line of row.samples.mangas; track line) {
-        <li><span class="tag">Manga</span> {{ line }}</li>
+        } @for (manga of row.samples.mangas; track manga.line) {
+        <li>
+          <span class="tag">Manga</span> {{ manga.line }}
+          @if (manga.showScanBadge) {
+          <span class="tag tag--manga-scan">Suivi scans mangas</span>
+          }
+        </li>
         } @for (line of row.samples.comics; track line) {
         <li><span class="tag">Comic</span> {{ line }}</li>
         } @for (bd of row.samples.bds; track bd.line) {
@@ -128,9 +143,14 @@
           <span class="tag tag--approximate-date">Date approximative</span>
           }
         </li>
-        } @for (line of row.samples.manwhas; track line) {
-        <li><span class="tag">Manwha</span> {{ line }}</li>
-        }         @for (movie of row.samples.movies; track movie.line) {
+        } @for (manwha of row.samples.manwhas; track manwha.line) {
+        <li>
+          <span class="tag">Manwha</span> {{ manwha.line }}
+          @if (manwha.showScanBadge) {
+          <span class="tag tag--manwha-scan">Suivi scans manwhas</span>
+          }
+        </li>
+        } @for (movie of row.samples.movies; track movie.line) {
         <li>
           <span class="tag">Film</span> {{ movie.line }}
           @if (movie.viewBadge === 'first') {

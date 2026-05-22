@@ -22,12 +22,33 @@ export type CommunityEntityKind =
   | 'manwha'
   | 'bd';
 
+export type CommunityWatcherSeasonEntry = {
+  seasonNumber: number;
+  seasonRating: number;
+  seasonTimesWatched: number;
+};
+
 /** Même forme que l’API : `timesWatched` sert de compteur générique (lectures, parties, visionnages…). */
 export type CommunityWatcherEntry = {
   userId: string;
   rating: number;
   timesWatched: number;
+  /** Détail par saison (séries uniquement). */
+  seasons?: CommunityWatcherSeasonEntry[];
 };
+
+function mapSerieSeasonsForCommunity(
+  serie: UserSerie
+): CommunityWatcherSeasonEntry[] {
+  return [...(serie.seasons ?? [])]
+    .filter((se) => (se.seasonTimesWatched ?? 0) > 0)
+    .sort((a, b) => a.seasonNumber - b.seasonNumber)
+    .map((se) => ({
+      seasonNumber: se.seasonNumber,
+      seasonRating: se.seasonRating ?? 0,
+      seasonTimesWatched: se.seasonTimesWatched ?? 0,
+    }));
+}
 
 const API_PATH: Record<CommunityEntityKind, string> = {
   movie: 'movies/movie-watchers',
@@ -117,6 +138,7 @@ function extractLocalWatcherRow(
         userId,
         rating: serieAverageRating(match),
         timesWatched: tw,
+        seasons: mapSerieSeasonsForCommunity(match),
       };
     }
     case 'game': {
@@ -247,10 +269,17 @@ async function fetchCommunityWatchersFromApi(
   if (!Array.isArray(data)) {
     return [];
   }
-  return data.map((r: CommunityWatcherEntry) => ({
+  return data.map((r: CommunityWatcherEntry & { seasons?: unknown }) => ({
     userId: String(r.userId),
     rating: Number(r.rating) || 0,
     timesWatched: Number(r.timesWatched) || 0,
+    seasons: Array.isArray(r.seasons)
+      ? r.seasons.map((se: CommunityWatcherSeasonEntry) => ({
+          seasonNumber: Number(se.seasonNumber) || 0,
+          seasonRating: Number(se.seasonRating) || 0,
+          seasonTimesWatched: Number(se.seasonTimesWatched) || 0,
+        }))
+      : undefined,
   }));
 }
 
@@ -277,7 +306,9 @@ export async function getEntityCommunityWatchers(
 
   try {
     const rows = await fetchCommunityWatchersFromApi(kind, identity);
-    return sortWatchersForDisplay(rows, normalizedCurrent);
+    if (rows.length > 0 || !isLocalhost()) {
+      return sortWatchersForDisplay(rows, normalizedCurrent);
+    }
   } catch {
     if (!isLocalhost()) {
       return [];

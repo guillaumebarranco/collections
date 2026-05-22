@@ -1732,7 +1732,7 @@ export const guillaumeSeries: UserSeries = [
       {
         seasonNumber: 1,
         seasonRating: 4.5,
-        seasonTimesWatched: 20,
+        seasonTimesWatched: 15,
         firstViewedDate: '',
         lastViewedDate: '',
         otherViewedDates: [],
@@ -1740,7 +1740,7 @@ export const guillaumeSeries: UserSeries = [
       {
         seasonNumber: 2,
         seasonRating: 4.5,
-        seasonTimesWatched: 20,
+        seasonTimesWatched: 15,
         firstViewedDate: '',
         lastViewedDate: '',
         otherViewedDates: [],
@@ -1748,7 +1748,7 @@ export const guillaumeSeries: UserSeries = [
       {
         seasonNumber: 3,
         seasonRating: 4.5,
-        seasonTimesWatched: 20,
+        seasonTimesWatched: 15,
         firstViewedDate: '',
         lastViewedDate: '',
         otherViewedDates: [],
@@ -1756,7 +1756,7 @@ export const guillaumeSeries: UserSeries = [
       {
         seasonNumber: 4,
         seasonRating: 4.5,
-        seasonTimesWatched: 15,
+        seasonTimesWatched: 10,
         firstViewedDate: '',
         lastViewedDate: '',
         otherViewedDates: [],
@@ -1764,7 +1764,7 @@ export const guillaumeSeries: UserSeries = [
       {
         seasonNumber: 5,
         seasonRating: 4.5,
-        seasonTimesWatched: 10,
+        seasonTimesWatched: 8,
         firstViewedDate: '',
         lastViewedDate: '',
         otherViewedDates: [],

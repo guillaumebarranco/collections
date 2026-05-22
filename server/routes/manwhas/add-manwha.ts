@@ -8,28 +8,19 @@ const {
   escapeString,
   appendObjectToArrayFile,
   baseManwhaExists,
+  formatBaseManwhaEntry,
   BASE_MANWHAS_API_FILE,
 } = require('../../utils/manwhas/manwhas-utils');
 
 const router = express.Router();
-
-function formatBaseManwha(entity: any): string {
-  return `  {
-    title: "${escapeString(entity.title)}",
-    author: "${escapeString(entity.author)}",
-    coverUrl: "${escapeString(entity.coverUrl || '')}",
-    genre: "${escapeString(entity.genre || '')}",
-    nbChapters: ${entity.nbChapters || 0},
-    isFinished: ${entity.isFinished ?? true},
-    description: "${escapeString(entity.description ?? '')}",
-  },`;
-}
 
 function formatUserManwha(user: any): string {
   return `  {
     title: "${escapeString(user.title)}",
     author: "${escapeString(user.author)}",
     readDate: "${escapeString(user.readDate || '')}",
+    readingScanStartDate: "${escapeString(user.readingScanStartDate || '')}",
+    readingScanEndDate: "${escapeString(user.readingScanEndDate || '')}",
     rating: ${user.rating ?? 0},
     readTimes: ${user.readTimes ?? 1},
     owned: ${user.owned ?? false},
@@ -111,6 +102,8 @@ router.post('/add', (req: any, res: any) => {
       genre: normalizeString(entity.genre, 'genre') || '',
       nbChapters,
       isFinished: normalizeBoolean(entity.isFinished, 'isFinished') ?? true,
+      startDate: normalizeString(entity.startDate, 'startDate') || '',
+      endDate: normalizeString(entity.endDate, 'endDate') || '',
       description: normalizeString(entity.description, 'description') ?? '',
     };
 
@@ -120,6 +113,10 @@ router.post('/add', (req: any, res: any) => {
       rating: normalizeNumber(user.rating, 'rating') ?? 0,
       readTimes: normalizeNumber(user.readTimes, 'readTimes') ?? 1,
       readDate: normalizeString(user.readDate, 'readDate') || '',
+      readingScanStartDate:
+        normalizeString(user.readingScanStartDate, 'readingScanStartDate') || '',
+      readingScanEndDate:
+        normalizeString(user.readingScanEndDate, 'readingScanEndDate') || '',
       owned: normalizeBoolean(user.owned, 'owned') ?? false,
       readPriority: normalizeNumber(user.readPriority, 'readPriority') ?? 1,
       wantToReadAgain: normalizeBoolean(user.wantToReadAgain, 'wantToReadAgain') ?? false,
@@ -131,7 +128,7 @@ router.post('/add', (req: any, res: any) => {
 
     const baseManwhaContent = appendObjectToArrayFile(
       BASE_MANWHAS_API_FILE,
-      formatBaseManwha(entityPayload)
+      `${formatBaseManwhaEntry(entityPayload)},`
     );
     fs.writeFileSync(BASE_MANWHAS_API_FILE, baseManwhaContent, 'utf8');
 
