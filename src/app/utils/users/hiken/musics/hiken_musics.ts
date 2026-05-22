@@ -5516,4 +5516,914 @@ export const hikenMusics: UserMusic[] = [
     rating: 0,
     timesListened: 1,
   },
+
+  {
+    title: "Coda vide",
+    artist: "Disiz",
+    rating: 0,
+    timesListened: 1,
+  },
+
+  {
+    title: "Combien de temps ?",
+    artist: "Disiz",
+    rating: 0,
+    timesListened: 1,
+  },
+
+  {
+    title: "Everything",
+    artist: "Disiz",
+    rating: 0,
+    timesListened: 1,
+  },
+
+  {
+    title: "Best day",
+    artist: "Disiz",
+    rating: 0,
+    timesListened: 1,
+  },
+
+  {
+    title: "Pour l'homme",
+    artist: "Disiz",
+    rating: 0,
+    timesListened: 1,
+  },
+
+  {
+    title: "Extra-lucide",
+    artist: "Disiz",
+    rating: 0,
+    timesListened: 1,
+  },
+
+  {
+    title: "Tu brilles",
+    artist: "Disiz",
+    rating: 0,
+    timesListened: 1,
+  },
+
+  {
+    title: "Toussa toussa (Remix)",
+    artist: "Disiz",
+    rating: 0,
+    timesListened: 1,
+  },
+
+  {
+    title: "Go Go Gadget",
+    artist: "Disiz",
+    rating: 0,
+    timesListened: 1,
+  },
+
+  {
+    title: "Porte disparue",
+    artist: "Disiz",
+    rating: 0,
+    timesListened: 1,
+  },
+
+  {
+    title: "Actarus",
+    artist: "Disiz",
+    rating: 0,
+    timesListened: 1,
+  },
+
+  {
+    title: "Je les garde",
+    artist: "Disiz",
+    rating: 0,
+    timesListened: 1,
+  },
+
+  {
+    title: "Les bienveillants",
+    artist: "Disiz",
+    rating: 0,
+    timesListened: 1,
+  },
+
+  {
+    title: "C'est ma tournée",
+    artist: "Disiz",
+    rating: 0,
+    timesListened: 1,
+  },
+
+  {
+    title: "Fête foraine",
+    artist: "Disiz",
+    rating: 0,
+    timesListened: 1,
+  },
+
+  {
+    title: "Salauds d'pauvres",
+    artist: "Disiz",
+    rating: 0,
+    timesListened: 1,
+  },
+
+  {
+    title: "Les moyens du bord",
+    artist: "Disiz",
+    rating: 0,
+    timesListened: 1,
+  },
+
+  {
+    title: "Fukushima",
+    artist: "Disiz",
+    rating: 0,
+    timesListened: 1,
+  },
+
+  {
+    title: "Life is good",
+    artist: "Disiz",
+    rating: 0,
+    timesListened: 1,
+  },
+
+  {
+    title: "Polyuréthane (Plastic life)",
+    artist: "Disiz",
+    rating: 0,
+    timesListened: 1,
+  },
+
+  {
+    title: "Bullshitter",
+    artist: "Disiz",
+    rating: 0,
+    timesListened: 1,
+  },
+
+  {
+    title: "Coeur Gangster",
+    artist: "Disiz",
+    rating: 0,
+    timesListened: 1,
+  },
+
+  {
+    title: "Prélude A La Rébellion Des Coeurs",
+    artist: "Disiz",
+    rating: 0,
+    timesListened: 1,
+  },
+
+  {
+    title: "Terre (Intro)",
+    artist: "Disiz",
+    rating: 0,
+    timesListened: 1,
+  },
+
+  {
+    title: "Banlieusard Syndrome",
+    artist: "Disiz",
+    rating: 0,
+    timesListened: 1,
+  },
+
+  {
+    title: "Miskine",
+    artist: "Disiz",
+    rating: 0,
+    timesListened: 1,
+  },
+
+  {
+    title: "Kamikaze",
+    artist: "Disiz",
+    rating: 0,
+    timesListened: 1,
+  },
+
+  {
+    title: "Rap Genius",
+    artist: "Disiz",
+    rating: 0,
+    timesListened: 1,
+  },
+
+  {
+    title: "Fuck Les Problèmes",
+    artist: "Disiz",
+    rating: 0,
+    timesListened: 1,
+  },
+
+  {
+    title: "MC Kissinger",
+    artist: "Disiz",
+    rating: 0,
+    timesListened: 1,
+  },
+
+  {
+    title: "Spirales",
+    artist: "Disiz",
+    rating: 0,
+    timesListened: 1,
+  },
+
+  {
+    title: "Burn Out (Sayonara)",
+    artist: "Disiz",
+    rating: 0,
+    timesListened: 1,
+  },
+
+  {
+    title: "Eau (Interlude)",
+    artist: "Disiz",
+    rating: 0,
+    timesListened: 1,
+  },
+
+  {
+    title: "King of Cool",
+    artist: "Disiz",
+    rating: 0,
+    timesListened: 1,
+  },
+
+  {
+    title: "Kadija",
+    artist: "Disiz",
+    rating: 0,
+    timesListened: 1,
+  },
+
+  {
+    title: "Echo",
+    artist: "Disiz",
+    rating: 0,
+    timesListened: 1,
+  },
+
+  {
+    title: "Ciel (Interlude)",
+    artist: "Disiz",
+    rating: 0,
+    timesListened: 1,
+  },
+
+  {
+    title: "Luv (Prends Le Risque)",
+    artist: "Disiz",
+    rating: 0,
+    timesListened: 1,
+  },
+
+  {
+    title: "Complexité Française",
+    artist: "Disiz",
+    rating: 0,
+    timesListened: 1,
+  },
+
+  {
+    title: "Happy End",
+    artist: "Disiz",
+    rating: 0,
+    timesListened: 1,
+  },
+
+  {
+    title: "Lotus",
+    artist: "Disiz",
+    rating: 0,
+    timesListened: 1,
+  },
+
+  {
+    title: "Intro Civilisation perdue",
+    artist: "Orelsan",
+    rating: 0,
+    timesListened: 1,
+  },
+
+  {
+    title: "Les aventures de Minisan",
+    artist: "Orelsan",
+    rating: 0,
+    timesListened: 1,
+  },
+
+  {
+    title: "Toujours perdu quand même",
+    artist: "Orelsan",
+    rating: 0,
+    timesListened: 1,
+  },
+
+  {
+    title: "Juste un dernier",
+    artist: "Orelsan",
+    rating: 0,
+    timesListened: 1,
+  },
+
+  {
+    title: "Ok... Super...",
+    artist: "Orelsan",
+    rating: 0,
+    timesListened: 1,
+  },
+
+  {
+    title: "Ah la France",
+    artist: "Orelsan",
+    rating: 0,
+    timesListened: 1,
+  },
+
+  {
+    title: "Point de rupture",
+    artist: "Orelsan",
+    rating: 0,
+    timesListened: 1,
+  },
+
+  {
+    title: "Nous contre le monde",
+    artist: "Orelsan",
+    rating: 0,
+    timesListened: 1,
+  },
+
+  {
+    title: "Évidemment",
+    artist: "Orelsan",
+    rating: 0,
+    timesListened: 1,
+  },
+
+  {
+    title: "On a gagné",
+    artist: "Orelsan",
+    rating: 0,
+    timesListened: 1,
+  },
+
+  {
+    title: "Intro",
+    artist: "Sniper",
+    rating: 0,
+    timesListened: 1,
+  },
+
+  {
+    title: "Sniper processus",
+    artist: "Sniper",
+    rating: 0,
+    timesListened: 1,
+  },
+
+  {
+    title: "Pris pour cible",
+    artist: "Sniper",
+    rating: 0,
+    timesListened: 1,
+  },
+
+  {
+    title: "Faut de tout pour faire un monde",
+    artist: "Sniper",
+    rating: 0,
+    timesListened: 1,
+  },
+
+  {
+    title: "Intro \"Le crew est de sortie\"",
+    artist: "Sniper",
+    rating: 0,
+    timesListened: 1,
+  },
+
+  {
+    title: "Le crew est de sortie",
+    artist: "Sniper",
+    rating: 0,
+    timesListened: 1,
+  },
+
+  {
+    title: "Intro \"Tribal poursuite\"",
+    artist: "Sniper",
+    rating: 0,
+    timesListened: 1,
+  },
+
+  {
+    title: "Tribal poursuite",
+    artist: "Sniper",
+    rating: 0,
+    timesListened: 1,
+  },
+
+  {
+    title: "La France (solo Tunisiano)",
+    artist: "Sniper",
+    rating: 0,
+    timesListened: 1,
+  },
+
+  {
+    title: "Intro \"Du rire aux larmes\"",
+    artist: "Sniper",
+    rating: 0,
+    timesListened: 1,
+  },
+
+  {
+    title: "Du rire aux larmes",
+    artist: "Sniper",
+    rating: 0,
+    timesListened: 1,
+  },
+
+  {
+    title: "Aketo vs. Tunisiano",
+    artist: "Sniper",
+    rating: 0,
+    timesListened: 1,
+  },
+
+  {
+    title: "La sentence",
+    artist: "Sniper",
+    rating: 0,
+    timesListened: 1,
+  },
+
+  {
+    title: "Quand on te dit",
+    artist: "Sniper",
+    rating: 0,
+    timesListened: 1,
+  },
+
+  {
+    title: "Aketo solo (solo Aketo)",
+    artist: "Sniper",
+    rating: 0,
+    timesListened: 1,
+  },
+
+  {
+    title: "Fait divers",
+    artist: "Sniper",
+    rating: 0,
+    timesListened: 1,
+  },
+
+  {
+    title: "La rumba",
+    artist: "Sniper",
+    rating: 0,
+    timesListened: 1,
+  },
+
+  {
+    title: "On s'en sort bien",
+    artist: "Sniper",
+    rating: 0,
+    timesListened: 1,
+  },
+
+  {
+    title: "Intro",
+    artist: "Sniper",
+    rating: 0,
+    timesListened: 1,
+  },
+
+  {
+    title: "Processus 2003",
+    artist: "Sniper",
+    rating: 0,
+    timesListened: 1,
+  },
+
+  {
+    title: "Visions chaotiques",
+    artist: "Sniper",
+    rating: 0,
+    timesListened: 1,
+  },
+
+  {
+    title: "Gravé dans la roche",
+    artist: "Sniper",
+    rating: 0,
+    timesListened: 1,
+  },
+
+  {
+    title: "Pourquoi",
+    artist: "Sniper",
+    rating: 0,
+    timesListened: 1,
+  },
+
+  {
+    title: "Recette maison",
+    artist: "Sniper",
+    rating: 0,
+    timesListened: 1,
+  },
+
+  {
+    title: "Y'a pas de mérite",
+    artist: "Sniper",
+    rating: 0,
+    timesListened: 1,
+  },
+
+  {
+    title: "Sans (re)pères",
+    artist: "Sniper",
+    rating: 0,
+    timesListened: 1,
+  },
+
+  {
+    title: "Ce que j'ai sur le cœur",
+    artist: "Sniper",
+    rating: 0,
+    timesListened: 1,
+  },
+
+  {
+    title: "35 heures",
+    artist: "Sniper",
+    rating: 0,
+    timesListened: 1,
+  },
+
+  {
+    title: "Hall Story",
+    artist: "Sniper",
+    rating: 0,
+    timesListened: 1,
+  },
+
+  {
+    title: "Entre deux",
+    artist: "Sniper",
+    rating: 0,
+    timesListened: 1,
+  },
+
+  {
+    title: "Trop vite (solo Blacko)",
+    artist: "Sniper",
+    rating: 0,
+    timesListened: 1,
+  },
+
+  {
+    title: "Jeteur de pierres",
+    artist: "Sniper",
+    rating: 0,
+    timesListened: 1,
+  },
+
+  {
+    title: "Interlude micro ouvert",
+    artist: "Sniper",
+    rating: 0,
+    timesListened: 1,
+  },
+
+  {
+    title: "Panam All Starz",
+    artist: "Sniper",
+    rating: 0,
+    timesListened: 1,
+  },
+
+  {
+    title: "S.N.I",
+    artist: "Sniper",
+    rating: 0,
+    timesListened: 1,
+  },
+
+  {
+    title: "Dans mon monde",
+    artist: "Sniper",
+    rating: 0,
+    timesListened: 1,
+  },
+
+  {
+    title: "Trait pour trait",
+    artist: "Sniper",
+    rating: 0,
+    timesListened: 1,
+  },
+
+  {
+    title: "Eldorado",
+    artist: "Sniper",
+    rating: 0,
+    timesListened: 1,
+  },
+
+  {
+    title: "Zamalia (solo Blacko)",
+    artist: "Sniper",
+    rating: 0,
+    timesListened: 1,
+  },
+
+  {
+    title: "Génération Tanguy",
+    artist: "Sniper",
+    rating: 0,
+    timesListened: 1,
+  },
+
+  {
+    title: "Donne tout",
+    artist: "Sniper",
+    rating: 0,
+    timesListened: 1,
+  },
+
+  {
+    title: "La France (itinéraire d'une polémique) (solo Tunisiano)",
+    artist: "Sniper",
+    rating: 0,
+    timesListened: 1,
+  },
+
+  {
+    title: "Hommes de loi",
+    artist: "Sniper",
+    rating: 0,
+    timesListened: 1,
+  },
+
+  {
+    title: "Il était une foi",
+    artist: "Sniper",
+    rating: 0,
+    timesListened: 1,
+  },
+
+  {
+    title: "Radio",
+    artist: "Sniper",
+    rating: 0,
+    timesListened: 1,
+  },
+
+  {
+    title: "Retour aux sources (solo Aketo)",
+    artist: "Sniper",
+    rating: 0,
+    timesListened: 1,
+  },
+
+  {
+    title: "Elle",
+    artist: "Sniper",
+    rating: 0,
+    timesListened: 1,
+  },
+
+  {
+    title: "Brûle",
+    artist: "Sniper",
+    rating: 0,
+    timesListened: 1,
+  },
+
+  {
+    title: "Fallait que je te dise",
+    artist: "Sniper",
+    rating: 0,
+    timesListened: 1,
+  },
+
+  {
+    title: "Donc",
+    artist: "Soprano",
+    rating: 0,
+    timesListened: 1,
+  },
+
+  {
+    title: "Le divan",
+    artist: "Soprano",
+    rating: 0,
+    timesListened: 1,
+  },
+
+  {
+    title: "Mélancolique anonyme (feat Diam's)",
+    artist: "Soprano",
+    rating: 0,
+    timesListened: 1,
+  },
+
+  {
+    title: "Bombe humaine",
+    artist: "Soprano",
+    rating: 0,
+    timesListened: 1,
+  },
+
+  {
+    title: "Halla Halla",
+    artist: "Soprano",
+    rating: 0,
+    timesListened: 1,
+  },
+
+  {
+    title: "Dans ma tête",
+    artist: "Soprano",
+    rating: 0,
+    timesListened: 1,
+  },
+
+  {
+    title: "Moi j'ai pas",
+    artist: "Soprano",
+    rating: 0,
+    timesListened: 1,
+  },
+
+  {
+    title: "La famille (feat Léa Castel)",
+    artist: "Soprano",
+    rating: 0,
+    timesListened: 1,
+  },
+
+  {
+    title: "Tant que Dieu (Remix) (feat Mino)",
+    artist: "Soprano",
+    rating: 0,
+    timesListened: 1,
+  },
+
+  {
+    title: "Juste fais le (feat Le Rat Luciano)",
+    artist: "Soprano",
+    rating: 0,
+    timesListened: 1,
+  },
+
+  {
+    title: "Le bistro du coin",
+    artist: "Soprano",
+    rating: 0,
+    timesListened: 1,
+  },
+
+  {
+    title: "À la bien!",
+    artist: "Soprano",
+    rating: 0,
+    timesListened: 1,
+  },
+
+  {
+    title: "Welcome (feat Psy 4 de la rime)",
+    artist: "Soprano",
+    rating: 0,
+    timesListened: 1,
+  },
+
+  {
+    title: "Parle-moi",
+    artist: "Soprano",
+    rating: 0,
+    timesListened: 1,
+  },
+
+  {
+    title: "Ferme les yeux et imagine-toi (feat Blacko)",
+    artist: "Soprano",
+    rating: 0,
+    timesListened: 1,
+  },
+
+  {
+    title: "Passe-moi le mic",
+    artist: "Soprano",
+    rating: 0,
+    timesListened: 1,
+  },
+
+  {
+    title: "Puisqu'il faut vivre",
+    artist: "Soprano",
+    rating: 0,
+    timesListened: 1,
+  },
+
+  {
+    title: "L'hiver d'un été (Bonus)",
+    artist: "Soprano",
+    rating: 0,
+    timesListened: 1,
+  },
+
+  {
+    title: "Le labo",
+    artist: "Soprano",
+    rating: 0,
+    timesListened: 1,
+  },
+
+  {
+    title: "Flow siamois",
+    artist: "Soprano",
+    rating: 0,
+    timesListened: 1,
+  },
+
+  {
+    title: "Avant de s'en aller",
+    artist: "Soprano",
+    rating: 0,
+    timesListened: 1,
+  },
+
+  {
+    title: "Meskine",
+    artist: "Soprano",
+    rating: 0,
+    timesListened: 1,
+  },
+
+  {
+    title: "J'ai vu",
+    artist: "Soprano",
+    rating: 0,
+    timesListened: 1,
+  },
+
+  {
+    title: "Simple constat 5",
+    artist: "Soprano",
+    rating: 0,
+    timesListened: 1,
+  },
+
+  {
+    title: "Rêves et illusions",
+    artist: "Soprano",
+    rating: 0,
+    timesListened: 1,
+  },
+
+  {
+    title: "Le temps d'une pause (avec Sarah Riani)",
+    artist: "Soprano",
+    rating: 0,
+    timesListened: 1,
+  },
+
+  {
+    title: "Afrika",
+    artist: "Soprano",
+    rating: 0,
+    timesListened: 1,
+  },
+
+  {
+    title: "Je rappe comme ça me chante",
+    artist: "Soprano",
+    rating: 0,
+    timesListened: 1,
+  },
+
+  {
+    title: "Secret de polichinelle (avec Carpe Diem)",
+    artist: "Soprano",
+    rating: 0,
+    timesListened: 1,
+  },
+
+  {
+    title: "A plumes ouvertes",
+    artist: "Soprano",
+    rating: 0,
+    timesListened: 1,
+  },
 ];
