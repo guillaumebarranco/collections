@@ -145,8 +145,8 @@ function parseMangasFromFile(content: string): UserManga[] {
             readDate: parseStringField(objectText, 'readDate') ?? '',
             readingScanStartDate:
               parseStringField(objectText, 'readingScanStartDate') ?? '',
-            readingScanEndDate:
-              parseStringField(objectText, 'readingScanEndDate') ?? '',
+            readingScanStopDate:
+              parseStringField(objectText, 'readingScanStopDate') ?? '',
             owned: parseBooleanField(objectText, 'owned') ?? false,
             readPriority: (parseNumberField(objectText, 'readPriority') ??
               1) as UserManga['readPriority'],
@@ -269,7 +269,7 @@ function formatUserMangaEntry(manga: UserManga): string {
     author: "${escapeString(manga.author)}",
     readDate: "${escapeString(manga.readDate || '')}",
     readingScanStartDate: "${escapeString(manga.readingScanStartDate || '')}",
-    readingScanEndDate: "${escapeString(manga.readingScanEndDate || '')}",
+    readingScanStopDate: "${escapeString(manga.readingScanStopDate || '')}",
     rating: ${manga.rating ?? 0},
     readTimes: ${manga.readTimes ?? 1},
     owned: ${manga.owned ?? false},

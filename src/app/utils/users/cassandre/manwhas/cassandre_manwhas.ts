@@ -6,7 +6,7 @@ export const cassandreManwhas: UserManwhas = [
     author: "Slave In Utero",
     readDate: '',
     readingScanStartDate: '',
-    readingScanEndDate: '',
+    readingScanStopDate: '',
     rating: 0,
     readTimes: 1,
     owned: false,

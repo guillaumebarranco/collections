@@ -55,7 +55,7 @@ function formatUserManwha(manwha: any, options?: { rating?: number; ratingCommen
   const readDate = getReadDateToday();
   const rating = options?.rating != null ? Number(options.rating) : 0;
   const ratingComment = typeof options?.ratingComment === 'string' ? options.ratingComment : '';
-  return `  {\n    title: "${escapeString(manwha.title)}",\n    author: "${escapeString(manwha.author)}",\n    readDate: "${readDate}",\n    readingScanStartDate: "",\n    readingScanEndDate: "",\n    rating: ${rating},\n    readTimes: 1,\n    owned: false,\n    readPriority: ${manwha.readPriority ?? 1},\n    wantToReadAgain: false,\n    ratingComment: "${escapeString(ratingComment)}",\n    borrowed: "${escapeString(typeof manwha.borrowed === 'string' ? manwha.borrowed : '')}",\n    loaned: "${escapeString(typeof manwha.loaned === 'string' ? manwha.loaned : '')}",\n  },`;
+  return `  {\n    title: "${escapeString(manwha.title)}",\n    author: "${escapeString(manwha.author)}",\n    readDate: "${readDate}",\n    readingScanStartDate: "",\n    readingScanStopDate: "",\n    rating: ${rating},\n    readTimes: 1,\n    owned: false,\n    readPriority: ${manwha.readPriority ?? 1},\n    wantToReadAgain: false,\n    ratingComment: "${escapeString(ratingComment)}",\n    borrowed: "${escapeString(typeof manwha.borrowed === 'string' ? manwha.borrowed : '')}",\n    loaned: "${escapeString(typeof manwha.loaned === 'string' ? manwha.loaned : '')}",\n  },`;
 }
 
 function getUserManwhasTargetFile(userId: string, isReadlist: boolean) {

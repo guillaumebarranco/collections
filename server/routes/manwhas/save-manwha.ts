@@ -38,8 +38,8 @@ router.post('/', (req: any, res: any) => {
       readDate: normalizeString(input.readDate, 'readDate') || '',
       readingScanStartDate:
         normalizeString(input.readingScanStartDate, 'readingScanStartDate') || '',
-      readingScanEndDate:
-        normalizeString(input.readingScanEndDate, 'readingScanEndDate') || '',
+      readingScanStopDate:
+        normalizeString(input.readingScanStopDate, 'readingScanStopDate') || '',
       owned: normalizeBoolean(input.owned, 'owned') ?? false,
       readPriority: normalizeNumber(input.readPriority, 'readPriority') ?? 1,
       wantToReadAgain: normalizeBoolean(input.wantToReadAgain, 'wantToReadAgain') ?? false,

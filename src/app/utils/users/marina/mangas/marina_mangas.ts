@@ -6,7 +6,7 @@ export const marinaMangas: UserManga[] = [
     author: 'Takeshi Obata',
     readDate: '',
     readingScanStartDate: '',
-    readingScanEndDate: '',
+    readingScanStopDate: '',
     rating: 5,
     readTimes: 1,
     owned: false,

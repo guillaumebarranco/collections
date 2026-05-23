@@ -6,7 +6,7 @@ export const guillaumeReadListManwhas: UserManwhas = [
     author: 'Young-Chan Hwang',
     readDate: '',
     readingScanStartDate: '',
-    readingScanEndDate: '',
+    readingScanStopDate: '',
     rating: 0,
     readTimes: 0,
     owned: false,

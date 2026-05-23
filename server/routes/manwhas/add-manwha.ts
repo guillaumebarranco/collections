@@ -20,7 +20,7 @@ function formatUserManwha(user: any): string {
     author: "${escapeString(user.author)}",
     readDate: "${escapeString(user.readDate || '')}",
     readingScanStartDate: "${escapeString(user.readingScanStartDate || '')}",
-    readingScanEndDate: "${escapeString(user.readingScanEndDate || '')}",
+    readingScanStopDate: "${escapeString(user.readingScanStopDate || '')}",
     rating: ${user.rating ?? 0},
     readTimes: ${user.readTimes ?? 1},
     owned: ${user.owned ?? false},
@@ -115,8 +115,8 @@ router.post('/add', (req: any, res: any) => {
       readDate: normalizeString(user.readDate, 'readDate') || '',
       readingScanStartDate:
         normalizeString(user.readingScanStartDate, 'readingScanStartDate') || '',
-      readingScanEndDate:
-        normalizeString(user.readingScanEndDate, 'readingScanEndDate') || '',
+      readingScanStopDate:
+        normalizeString(user.readingScanStopDate, 'readingScanStopDate') || '',
       owned: normalizeBoolean(user.owned, 'owned') ?? false,
       readPriority: normalizeNumber(user.readPriority, 'readPriority') ?? 1,
       wantToReadAgain: normalizeBoolean(user.wantToReadAgain, 'wantToReadAgain') ?? false,

@@ -26,7 +26,7 @@ export interface UserManwha extends MandatoryManwhaData {
    * Fin de lecture en scan (arrêt avant la fin du manwha), format YYYY-MM-DD (vide si N/A).
    * Si renseignée, borne la période de suivi scan (prioritaire sur aujourd’hui).
    */
-  readingScanEndDate: string;
+  readingScanStopDate: string;
   rating: number;
   readTimes: number;
   owned: boolean;

@@ -149,8 +149,8 @@ function parseManwhasFromFile(content: string): UserManwha[] {
             readDate: parseStringField(objectText, 'readDate') ?? '',
             readingScanStartDate:
               parseStringField(objectText, 'readingScanStartDate') ?? '',
-            readingScanEndDate:
-              parseStringField(objectText, 'readingScanEndDate') ?? '',
+            readingScanStopDate:
+              parseStringField(objectText, 'readingScanStopDate') ?? '',
             owned: parseBooleanField(objectText, 'owned') ?? false,
             readPriority: (parseNumberField(objectText, 'readPriority') ??
               1) as UserManwha['readPriority'],
@@ -272,7 +272,7 @@ function formatUserManwhaEntry(manwha: UserManwha): string {
     author: "${escapeString(manwha.author)}",
     readDate: "${escapeString(manwha.readDate || '')}",
     readingScanStartDate: "${escapeString(manwha.readingScanStartDate || '')}",
-    readingScanEndDate: "${escapeString(manwha.readingScanEndDate || '')}",
+    readingScanStopDate: "${escapeString(manwha.readingScanStopDate || '')}",
     rating: ${manwha.rating ?? 0},
     readTimes: ${manwha.readTimes ?? 1},
     owned: ${manwha.owned ?? false},

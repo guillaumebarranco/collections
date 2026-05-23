@@ -36,7 +36,7 @@ export interface UserManga extends MandatoryMangaData {
    * Fin de lecture en scan (arrêt avant la fin du manga), format YYYY-MM-DD (vide si N/A).
    * Si renseignée, borne la période de suivi scan (prioritaire sur aujourd’hui).
    */
-  readingScanEndDate: string;
+  readingScanStopDate: string;
   rating: number;
   readTimes: number;
   owned: boolean;

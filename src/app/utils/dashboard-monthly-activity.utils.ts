@@ -352,18 +352,18 @@ function mangaHasReadingScanStart(manga: Manga): boolean {
 
 /**
  * Fin de la période scan :
- * 1. `readingScanEndDate` si renseignée (arrêt du suivi scan)
+ * 1. `readingScanStopDate` si renseignée (arrêt du suivi scan)
  * 2. sinon aujourd’hui si le manga est en cours (`endDate` vide)
  * 3. sinon la date de fin de parution du manga
  */
 export function getMangaScanActivityEndDate(
-  manga: Pick<Manga, 'endDate' | 'readingScanEndDate'>,
+  manga: Pick<Manga, 'endDate' | 'readingScanStopDate'>,
   reference = new Date(),
 ): Date {
   const todayEnd = new Date(reference);
   todayEnd.setHours(23, 59, 59, 999);
 
-  const userScanEnd = parseActivityDate(manga.readingScanEndDate);
+  const userScanEnd = parseActivityDate(manga.readingScanStopDate);
   if (userScanEnd) {
     userScanEnd.setHours(23, 59, 59, 999);
     return userScanEnd.getTime() > todayEnd.getTime() ? todayEnd : userScanEnd;
@@ -483,13 +483,13 @@ function hasReadingScanStart(item: {
 }
 
 function getManwhaScanActivityEndDate(
-  manwha: Pick<Manwha, 'endDate' | 'readingScanEndDate'>,
+  manwha: Pick<Manwha, 'endDate' | 'readingScanStopDate'>,
   reference = new Date(),
 ): Date {
   const todayEnd = new Date(reference);
   todayEnd.setHours(23, 59, 59, 999);
 
-  const userScanEnd = parseActivityDate(manwha.readingScanEndDate);
+  const userScanEnd = parseActivityDate(manwha.readingScanStopDate);
   if (userScanEnd) {
     userScanEnd.setHours(23, 59, 59, 999);
     return userScanEnd.getTime() > todayEnd.getTime() ? todayEnd : userScanEnd;
