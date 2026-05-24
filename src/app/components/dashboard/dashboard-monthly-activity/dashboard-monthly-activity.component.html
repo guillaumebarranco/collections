@@ -12,7 +12,7 @@
     <h3 class="monthly-activity__samples-title">Extraits</h3>
     @let s = rollingActivity().samples; @if ( s.books.length + s.mangas.length +
     s.comics.length + s.bds.length + s.manwhas.length + s.movies.length +
-    s.series.length === 0 ) {
+    s.series.length + s.games.length === 0 ) {
     <p class="monthly-activity__empty">
       Aucune activité datée sur cette période (ou dates non renseignées).
     </p>
@@ -87,6 +87,13 @@
         <span class="tag tag--reread">Revisionnage</span>
         }
       </li>
+      } @for (game of s.games; track game.line) {
+      <li>
+        <span class="tag">Jeu</span> {{ game.line }}
+        @if (game.showGameSessionBadge) {
+        <span class="tag tag--game-session">Session de jeu vidéo</span>
+        }
+      </li>
       }
     </ul>
     }
@@ -102,6 +109,9 @@
     <span class="monthly-activity__period-totals-duration">{{
       periodTotals.viewingDurationLabel
     }}</span>
+    <span class="monthly-activity__period-totals-duration">{{
+      periodTotals.gamingDurationLabel
+    }}</span>
   </div>
   }
   <div class="monthly-activity__months">
@@ -112,6 +122,7 @@
           <span class="monthly-activity__month-label">{{ row.label }}</span>
           <span class="monthly-activity__month-days">{{ row.readingDurationLabel }}</span>
           <span class="monthly-activity__month-days">{{ row.viewingDurationLabel }}</span>
+          <span class="monthly-activity__month-days">{{ row.gamingDurationLabel }}</span>
         </span>
         <span class="monthly-activity__month-total"
           >{{ row.total }} entrée(s)</span
@@ -192,6 +203,13 @@
           <span class="tag tag--first-view">Premier visionnage</span>
           } @else {
           <span class="tag tag--reread">Revisionnage</span>
+          }
+        </li>
+        } @for (game of row.samples.games; track game.line) {
+        <li>
+          <span class="tag">Jeu</span> {{ game.line }}
+          @if (game.showGameSessionBadge) {
+          <span class="tag tag--game-session">Session de jeu vidéo</span>
           }
         </li>
         }

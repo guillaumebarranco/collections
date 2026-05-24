@@ -146,6 +146,7 @@ export class DashboardMonthlyActivityComponent {
       this.manwhas(),
       this.movies(),
       this.series(),
+      this.games(),
       range.rangeStart,
       range.rangeEnd,
     );
@@ -159,6 +160,10 @@ export class DashboardMonthlyActivityComponent {
       viewingDurationLabel: formatActivityDurationLabel(
         duration.viewingMinutes,
         'visionnage',
+      ),
+      gamingDurationLabel: formatActivityDurationLabel(
+        duration.gamingMinutes,
+        'jeu',
       ),
     };
   });
@@ -187,6 +192,7 @@ export class DashboardMonthlyActivityComponent {
         this.manwhas(),
         this.movies(),
         this.series(),
+        this.games(),
         m.rangeStart,
         m.rangeEnd,
       );
@@ -201,6 +207,10 @@ export class DashboardMonthlyActivityComponent {
           duration.viewingMinutes,
           'visionnage',
         ),
+        gamingDurationLabel: formatActivityDurationLabel(
+          duration.gamingMinutes,
+          'jeu',
+        ),
         samples: activity.samples,
         total:
           activity.counts.books +
@@ -209,7 +219,8 @@ export class DashboardMonthlyActivityComponent {
           activity.counts.bds +
           activity.counts.manwhas +
           activity.counts.movies +
-          activity.counts.series,
+          activity.counts.series +
+          activity.counts.games,
       };
     });
   });

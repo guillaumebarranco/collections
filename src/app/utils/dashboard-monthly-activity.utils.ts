@@ -5,8 +5,9 @@ import type { Comic } from '../models/comic-model';
 import type { Bd } from '../models/bd-model';
 import type { Manwha } from '../models/manwha-model';
 import type { Serie } from '../models/serie-model';
-import type { Game } from '../models/game-model';
+import type { Game, UserGameSession } from '../models/game-model';
 import type { Music } from '../models/music-model';
+import { getGamePlayedHoursFromSessions } from './games.utils';
 import {
   isBdApproximateReadDate,
   isBookApproximateReadDate,
@@ -21,6 +22,7 @@ export type ActivityCounts = {
   manwhas: number;
   movies: number;
   series: number;
+  games: number;
 };
 
 export type ActivityMovieViewBadge = 'first' | 'rewatch';
@@ -66,6 +68,11 @@ export type ActivitySerieSample = {
   viewBadge: ActivitySerieViewBadge;
 };
 
+export type ActivityGameSample = {
+  line: string;
+  showGameSessionBadge: boolean;
+};
+
 export type ActivitySamples = {
   books: ActivityBookSample[];
   mangas: ActivityMangaSample[];
@@ -74,6 +81,7 @@ export type ActivitySamples = {
   manwhas: ActivityManwhaSample[];
   movies: ActivityMovieSample[];
   series: ActivitySerieSample[];
+  games: ActivityGameSample[];
 };
 
 export type ActivityWindowResult = {
@@ -273,6 +281,10 @@ function takeBdSamples(samples: ActivityBdSample[]): ActivityBdSample[] {
 function takeSerieSamples(
   samples: ActivitySerieSample[]
 ): ActivitySerieSample[] {
+  return samples.slice(0, MAX_SAMPLES);
+}
+
+function takeGameSamples(samples: ActivityGameSample[]): ActivityGameSample[] {
   return samples.slice(0, MAX_SAMPLES);
 }
 
@@ -920,6 +932,110 @@ function formatSerieSample(
   };
 }
 
+function getGameSessionActivityStart(session: UserGameSession): Date | null {
+  const legacy = session as UserGameSession & { finishedSessionDate?: string };
+  const start = parseActivityDate(session.sessionStartDate);
+  if (start) {
+    start.setHours(0, 0, 0, 0);
+    return start;
+  }
+  const endOnly =
+    parseActivityDate(session.sessionEndDate) ??
+    parseActivityDate(legacy.finishedSessionDate);
+  if (endOnly) {
+    endOnly.setHours(0, 0, 0, 0);
+    return endOnly;
+  }
+  return null;
+}
+
+function getGameSessionActivityEnd(
+  session: UserGameSession,
+  reference = new Date()
+): Date | null {
+  const legacy = session as UserGameSession & { finishedSessionDate?: string };
+  const end =
+    parseActivityDate(session.sessionEndDate) ??
+    parseActivityDate(legacy.finishedSessionDate);
+  if (end) {
+    end.setHours(23, 59, 59, 999);
+    return end;
+  }
+  if (session.currentlyPlaying) {
+    const todayEnd = new Date(reference);
+    todayEnd.setHours(23, 59, 59, 999);
+    return todayEnd;
+  }
+  const start = parseActivityDate(session.sessionStartDate);
+  if (start) {
+    start.setHours(23, 59, 59, 999);
+    return start;
+  }
+  return null;
+}
+
+export function gameSessionHasActivityInRange(
+  session: UserGameSession,
+  rangeStart: Date,
+  rangeEnd: Date,
+  reference = new Date()
+): boolean {
+  const sessionStart = getGameSessionActivityStart(session);
+  if (!sessionStart) {
+    return false;
+  }
+  const sessionEnd = getGameSessionActivityEnd(session, reference);
+  if (!sessionEnd || sessionEnd.getTime() < sessionStart.getTime()) {
+    return false;
+  }
+  return (
+    sessionStart.getTime() <= rangeEnd.getTime() &&
+    sessionEnd.getTime() >= rangeStart.getTime()
+  );
+}
+
+export function gameHasActivityInRange(
+  game: Game,
+  rangeStart: Date,
+  rangeEnd: Date,
+  reference = new Date()
+): boolean {
+  return (game.sessions ?? []).some((session) =>
+    gameSessionHasActivityInRange(session, rangeStart, rangeEnd, reference)
+  );
+}
+
+function formatGameSampleLine(
+  game: Game,
+  rangeStart: Date,
+  rangeEnd: Date,
+  reference = new Date()
+): string {
+  const activeCount = (game.sessions ?? []).filter((session) =>
+    gameSessionHasActivityInRange(session, rangeStart, rangeEnd, reference)
+  ).length;
+  const base = `${game.title} — ${game.editor}`;
+  if (activeCount <= 1) {
+    return base;
+  }
+  return `${base} — ${activeCount} sessions`;
+}
+
+function formatGameSample(
+  game: Game,
+  rangeStart: Date,
+  rangeEnd: Date,
+  reference = new Date()
+): ActivityGameSample {
+  const hasActiveSession = (game.sessions ?? []).some((session) =>
+    gameSessionHasActivityInRange(session, rangeStart, rangeEnd, reference)
+  );
+  return {
+    line: formatGameSampleLine(game, rangeStart, rangeEnd, reference),
+    showGameSessionBadge: hasActiveSession,
+  };
+}
+
 export function computeActivityInRange(
   books: Book[],
   mangas: Manga[],
@@ -928,10 +1044,11 @@ export function computeActivityInRange(
   manwhas: Manwha[],
   movies: Movie[],
   series: Serie[],
-  _games: Game[],
+  games: Game[],
   _musics: Music[],
   rangeStart: Date,
-  rangeEnd: Date
+  rangeEnd: Date,
+  reference = new Date()
 ): ActivityWindowResult {
   const b = books.filter((book) =>
     bookHasActivityInRange(book, rangeStart, rangeEnd)
@@ -970,6 +1087,9 @@ export function computeActivityInRange(
   const sr = series.filter((serie) =>
     serieHasActivityInRange(serie, rangeStart, rangeEnd)
   );
+  const gm = games.filter((game) =>
+    gameHasActivityInRange(game, rangeStart, rangeEnd, reference)
+  );
 
   return {
     counts: {
@@ -980,6 +1100,7 @@ export function computeActivityInRange(
       manwhas: mw.length,
       movies: mv.length,
       series: sr.length,
+      games: gm.length,
     },
     samples: {
       books: takeBookSamples(
@@ -999,6 +1120,9 @@ export function computeActivityInRange(
       series: takeSerieSamples(
         sr.map((x) => formatSerieSample(x, rangeStart, rangeEnd))
       ),
+      games: takeGameSamples(
+        gm.map((x) => formatGameSample(x, rangeStart, rangeEnd, reference))
+      ),
     },
   };
 }
@@ -1013,11 +1137,13 @@ function dateToDayKey(d: Date): string {
 export type ActivityDurationTotals = {
   readingMinutes: number;
   viewingMinutes: number;
+  gamingMinutes: number;
 };
 
 const MINUTES_PER_PAGE = 2;
 const MINUTES_PER_MANGA_TOME = 30;
 const MINUTES_PER_MANWHA_CHAPTER = 15;
+const DEFAULT_GAME_SESSION_MINUTES = 60;
 
 /** Chapitres de scan comptés par mois calendaire (activité mensuelle, mangas & manwhas). */
 export const MANGA_SCAN_CHAPTERS_PER_MONTH = 4;
@@ -1102,7 +1228,90 @@ function serieSeasonSessionMinutes(serie: Serie, seasonNumber: number): number {
   return DEFAULT_MOVIE_MINUTES;
 }
 
-/** Temps cumulé de lecture et de visionnage sur la période (minutes). */
+function gameSessionMinutes(game: Game, session: UserGameSession): number {
+  const hours = getGamePlayedHoursFromSessions([session], game);
+  if (hours > 0) {
+    return hours * 60;
+  }
+  return DEFAULT_GAME_SESSION_MINUTES;
+}
+
+function countCalendarMonthsInclusive(start: Date, end: Date): number {
+  let y = start.getFullYear();
+  let m = start.getMonth();
+  const endY = end.getFullYear();
+  const endM = end.getMonth();
+  let count = 0;
+  while (y < endY || (y === endY && m <= endM)) {
+    count += 1;
+    m += 1;
+    if (m > 11) {
+      m = 0;
+      y += 1;
+    }
+  }
+  return Math.max(1, count);
+}
+
+function addGameSessionMinutesInRange(
+  totalMinutes: number,
+  gamingSeen: Set<string>,
+  game: Game,
+  session: UserGameSession,
+  sessionIndex: number,
+  rangeStart: Date,
+  rangeEnd: Date,
+  reference = new Date()
+): number {
+  if (!gameSessionHasActivityInRange(session, rangeStart, rangeEnd, reference)) {
+    return totalMinutes;
+  }
+  const sessionStart = getGameSessionActivityStart(session);
+  if (!sessionStart) {
+    return totalMinutes;
+  }
+  const sessionEnd = getGameSessionActivityEnd(session, reference);
+  if (!sessionEnd || sessionEnd.getTime() < sessionStart.getTime()) {
+    return totalMinutes;
+  }
+
+  const sessionMinutes = gameSessionMinutes(game, session);
+  const keyBase = `game|${game.title}|${game.editor}|${sessionIndex}`;
+  const totalMonths = countCalendarMonthsInclusive(sessionStart, sessionEnd);
+  if (totalMonths >= 3) {
+    return totalMinutes;
+  }
+  const minutesPerMonth = sessionMinutes / totalMonths;
+
+  let y = sessionStart.getFullYear();
+  let m = sessionStart.getMonth();
+  const endY = sessionEnd.getFullYear();
+  const endM = sessionEnd.getMonth();
+
+  while (y < endY || (y === endY && m <= endM)) {
+    const monthStart = new Date(y, m, 1, 0, 0, 0, 0);
+    const monthEnd = new Date(y, m + 1, 0, 23, 59, 59, 999);
+    if (
+      monthStart.getTime() <= rangeEnd.getTime() &&
+      monthEnd.getTime() >= rangeStart.getTime()
+    ) {
+      const monthKey = `${keyBase}|${y}-${String(m + 1).padStart(2, '0')}`;
+      if (!gamingSeen.has(monthKey)) {
+        gamingSeen.add(monthKey);
+        totalMinutes += minutesPerMonth;
+      }
+    }
+    m += 1;
+    if (m > 11) {
+      m = 0;
+      y += 1;
+    }
+  }
+
+  return totalMinutes;
+}
+
+/** Temps cumulé de lecture, visionnage et jeu sur la période (minutes). */
 export function computeActivityDurationInRange(
   books: Book[],
   mangas: Manga[],
@@ -1111,14 +1320,18 @@ export function computeActivityDurationInRange(
   manwhas: Manwha[],
   movies: Movie[],
   series: Serie[],
+  games: Game[],
   rangeStart: Date,
-  rangeEnd: Date
+  rangeEnd: Date,
+  reference = new Date()
 ): ActivityDurationTotals {
   const readingSeen = new Set<string>();
   const scanSeen = new Set<string>();
   const viewingSeen = new Set<string>();
+  const gamingSeen = new Set<string>();
   let readingMinutes = 0;
   let viewingMinutes = 0;
+  let gamingMinutes = 0;
 
   for (const book of books) {
     if ((book.readTimes ?? 0) <= 0) {
@@ -1321,14 +1534,30 @@ export function computeActivityDurationInRange(
     }
   }
 
-  return { readingMinutes, viewingMinutes };
+  for (const game of games) {
+    for (let i = 0; i < (game.sessions ?? []).length; i += 1) {
+      gamingMinutes = addGameSessionMinutesInRange(
+        gamingMinutes,
+        gamingSeen,
+        game,
+        game.sessions[i],
+        i,
+        rangeStart,
+        rangeEnd,
+        reference
+      );
+    }
+  }
+
+  return { readingMinutes, viewingMinutes, gamingMinutes };
 }
 
 export function formatActivityDurationLabel(
   totalMinutes: number,
-  kind: 'lecture' | 'visionnage'
+  kind: 'lecture' | 'visionnage' | 'jeu'
 ): string {
-  const noun = kind === 'lecture' ? 'lecture' : 'visionnage';
+  const noun =
+    kind === 'lecture' ? 'lecture' : kind === 'visionnage' ? 'visionnage' : 'jeu';
   if (totalMinutes <= 0) {
     return `0 h de ${noun}`;
   }

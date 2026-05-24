@@ -3225,7 +3225,7 @@ export const ronanGames: UserGames = [
     ],
   },
   {
-    title: 'PokÃ©mon Ã‰meraude',
+    title: 'Pokémon Émeraude',
     editor: 'Game Freak',
     rating: 0,
     owned: false,
@@ -3309,7 +3309,7 @@ export const ronanGames: UserGames = [
     ],
   },
   {
-    title: 'PokÃ©mon Bleu',
+    title: 'Pokémon Bleu',
     editor: 'Game Freak',
     rating: 0,
     owned: false,

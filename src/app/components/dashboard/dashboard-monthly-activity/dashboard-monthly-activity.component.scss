@@ -98,7 +98,8 @@
 .monthly-activity__sample-list .tag--manga-finished,
 .monthly-activity__sample-list .tag--manwha-finished,
 .monthly-activity__sample-list .tag--manga-stopped,
-.monthly-activity__sample-list .tag--manwha-stopped {
+.monthly-activity__sample-list .tag--manwha-stopped,
+.monthly-activity__sample-list .tag--game-session {
   min-width: auto;
   margin-left: 6px;
   padding: 2px 8px;
@@ -148,6 +149,11 @@
 .monthly-activity__sample-list .tag--manwha-stopped {
   background: #eceff1;
   color: #37474f;
+}
+
+.monthly-activity__sample-list .tag--game-session {
+  background: #fff8e1;
+  color: #b8860b;
 }
 
 .monthly-activity__period-totals {
