@@ -36,7 +36,8 @@ type EditMangaForm = {
 type EditMangaEntityForm = {
   genre: string;
   nbTomes: number;
-  isFinished: boolean;
+  startDate: string;
+  endDate: string;
   coverUrl: string;
   description: string;
 };
@@ -170,7 +171,13 @@ export class EditMangaComponent {
     const current = this.mangaEntityForm();
     if (!current) return;
     let nextValue: EditMangaEntityForm[K] = value as EditMangaEntityForm[K];
-    if (field !== 'genre' && field !== 'coverUrl') {
+    if (
+      field !== 'genre' &&
+      field !== 'coverUrl' &&
+      field !== 'description' &&
+      field !== 'startDate' &&
+      field !== 'endDate'
+    ) {
       const asNumber = Number(value);
       nextValue = (
         Number.isNaN(asNumber) ? 0 : asNumber
@@ -179,15 +186,6 @@ export class EditMangaComponent {
     this.mangaEntityForm.set({
       ...current,
       [field]: nextValue,
-    });
-  }
-
-  updateEntityCheckbox(field: 'isFinished', checked: boolean) {
-    const current = this.mangaEntityForm();
-    if (!current) return;
-    this.mangaEntityForm.set({
-      ...current,
-      [field]: checked,
     });
   }
 
@@ -441,7 +439,8 @@ export class EditMangaComponent {
     return {
       genre: manga.genre || '',
       nbTomes: manga.nbTomes || 0,
-      isFinished: manga.isFinished !== false,
+      startDate: manga.startDate ?? '',
+      endDate: manga.endDate ?? '',
       coverUrl: manga.coverUrl || '',
       description: manga.description ?? '',
     };
@@ -452,7 +451,8 @@ export class EditMangaComponent {
     return {
       genre: form.genre,
       nbTomes: form.nbTomes,
-      isFinished: form.isFinished,
+      startDate: form.startDate,
+      endDate: form.endDate,
       coverUrl: form.coverUrl,
       description: form.description ?? '',
       fromEntity: this.manga()?.fromEntity ?? null,

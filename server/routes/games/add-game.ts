@@ -37,7 +37,7 @@ function formatUserGame(user: any): string {
     sessions
       .map(
         (s: any) =>
-          `      { finishedGame: ${s.finishedGame ?? false}, finishedGameWithHundredPercent: ${s.finishedGameWithHundredPercent ?? false}, platinedGame: ${s.platinedGame ?? false}, additionnalEstimatedTime: ${s.additionnalEstimatedTime ?? 0}, finishedSessionDate: "${escapeString(String(s.finishedSessionDate ?? ''))}" }`
+          `      { finishedGame: ${s.finishedGame ?? false}, finishedGameWithHundredPercent: ${s.finishedGameWithHundredPercent ?? false}, platinedGame: ${s.platinedGame ?? false}, additionnalEstimatedTime: ${s.additionnalEstimatedTime ?? 0}, sessionStartDate: "${escapeString(String(s.sessionStartDate ?? ''))}", sessionEndDate: "${escapeString(String(s.sessionEndDate ?? s.finishedSessionDate ?? ''))}" }`
       )
       .join(',\n') +
     '\n    ],';
@@ -140,8 +140,11 @@ router.post('/add', (req: any, res: any) => {
           platinedGame: normalizeBoolean(s.platinedGame, 'platinedGame') ?? false,
           additionnalEstimatedTime:
             normalizeNumber(s.additionnalEstimatedTime, 'additionnalEstimatedTime') ?? 0,
-          finishedSessionDate:
-            normalizeString(s.finishedSessionDate, 'finishedSessionDate') ?? '',
+          sessionStartDate:
+            normalizeString(s.sessionStartDate, 'sessionStartDate') ?? '',
+          sessionEndDate:
+            normalizeString(s.sessionEndDate ?? s.finishedSessionDate, 'sessionEndDate') ??
+            '',
         }))
       : [];
     const userPayload = {

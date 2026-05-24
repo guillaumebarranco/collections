@@ -79,12 +79,14 @@
   }
 
   .cinema-chart,
-  .books-chart {
+  .books-chart,
+  .scan-timeline-chart {
     width: 100%;
     max-width: 100%;
     min-height: 260px;
     position: relative;
-    overflow-x: hidden;
+    overflow-x: auto;
+    overflow-y: visible;
 
     svg {
       width: 100%;
@@ -94,7 +96,8 @@
       display: block;
     }
 
-    .cinema-grid line {
+    .cinema-grid line,
+    .scan-timeline-grid line {
       stroke: #e3e6ea;
     }
 

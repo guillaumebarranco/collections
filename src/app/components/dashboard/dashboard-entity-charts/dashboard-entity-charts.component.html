@@ -95,6 +95,56 @@
       </div>
       }
     </div>
+    } @if (effectiveEntity() === 'mangas') {
+    <div class="charts-section charts-section--wide">
+      <h3>📚 Suivi scans mangas ({{ scanChartStartYear }}-{{ currentYear }})</h3>
+      <p class="chart-description">
+        Période de lecture en scan pour chaque manga. Le titre et la couleur
+        sont affichés à gauche de chaque barre.
+      </p>
+      @if (mangaScanPeriods().length === 0) {
+      <div class="no-data">Aucun manga en suivi scan depuis {{ scanChartStartYear }}.</div>
+      } @else {
+      <div #mangaScanChart class="scan-timeline-chart"></div>
+      <div class="chart-footnote">
+        {{ mangaScanPeriods().length }} manga(s) en suivi scan
+      </div>
+      }
+    </div>
+    } @if (effectiveEntity() === 'manwhas') {
+    <div class="charts-section charts-section--wide">
+      <h3>📖 Suivi scans manwhas ({{ scanChartStartYear }}-{{ currentYear }})</h3>
+      <p class="chart-description">
+        Période de lecture en scan pour chaque manwha. Le titre et la couleur
+        sont affichés à gauche de chaque barre.
+      </p>
+      @if (manwhaScanPeriods().length === 0) {
+      <div class="no-data">Aucun manwha en suivi scan depuis {{ scanChartStartYear }}.</div>
+      } @else {
+      <div #manwhaScanChart class="scan-timeline-chart"></div>
+      <div class="chart-footnote">
+        {{ manwhaScanPeriods().length }} manwha(s) en suivi scan
+      </div>
+      }
+    </div>
+    } @if (effectiveEntity() === 'mangas' || effectiveEntity() === 'manwhas') {
+    <div class="charts-section charts-section--wide">
+      <h3>📚 Suivi scans mangas + manwhas ({{ scanChartStartYear }}-{{ currentYear }})</h3>
+      <p class="chart-description">
+        Vue combinée de toutes les lectures en scan, mangas et manwhas réunis.
+      </p>
+      @if (combinedScanPeriods().length === 0) {
+      <div class="no-data">
+        Aucune œuvre en suivi scan depuis {{ scanChartStartYear }}.
+      </div>
+      } @else {
+      <div #combinedScanChart class="scan-timeline-chart"></div>
+      <div class="chart-footnote">
+        {{ combinedScanMangaCount() }} manga(s) et {{ combinedScanManwhaCount() }}
+        manwha(s) en suivi scan
+      </div>
+      }
+    </div>
     }
   </div>
 </div>

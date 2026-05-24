@@ -209,8 +209,12 @@ function parseSessionsField(objectText: string) {
                 parseBooleanField(objText, 'platinedGame') ?? false,
               additionnalEstimatedTime:
                 parseNumberField(objText, 'additionnalEstimatedTime') ?? 0,
-              finishedSessionDate:
-                parseStringField(objText, 'finishedSessionDate') ?? '',
+              sessionStartDate:
+                parseStringField(objText, 'sessionStartDate') ?? '',
+              sessionEndDate:
+                parseStringField(objText, 'sessionEndDate') ??
+                parseStringField(objText, 'finishedSessionDate') ??
+                '',
               currentlyPlaying:
                 parseBooleanField(objText, 'currentlyPlaying') ?? false,
             });
@@ -244,7 +248,8 @@ function formatSession(session: UserGameSession) {
       finishedGameWithHundredPercent: ${session.finishedGameWithHundredPercent ?? false},
       platinedGame: ${session.platinedGame ?? false},
       additionnalEstimatedTime: ${session.additionnalEstimatedTime ?? 0},
-      finishedSessionDate: "${escapeString(session.finishedSessionDate ?? '')}",
+      sessionStartDate: "${escapeString(session.sessionStartDate ?? '')}",
+      sessionEndDate: "${escapeString(session.sessionEndDate ?? '')}",
       currentlyPlaying: ${session.currentlyPlaying ?? false},
     }`;
 }

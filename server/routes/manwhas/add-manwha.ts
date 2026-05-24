@@ -101,7 +101,6 @@ router.post('/add', (req: any, res: any) => {
       coverUrl: normalizeString(entity.coverUrl, 'coverUrl') || '',
       genre: normalizeString(entity.genre, 'genre') || '',
       nbChapters,
-      isFinished: normalizeBoolean(entity.isFinished, 'isFinished') ?? true,
       startDate: normalizeString(entity.startDate, 'startDate') || '',
       endDate: normalizeString(entity.endDate, 'endDate') || '',
       description: normalizeString(entity.description, 'description') ?? '',

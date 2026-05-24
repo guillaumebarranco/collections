@@ -36,7 +36,8 @@ type EditManwhaForm = {
 type EditManwhaEntityForm = {
   genre: string;
   nbChapters: number;
-  isFinished: boolean;
+  startDate: string;
+  endDate: string;
   coverUrl: string;
   description: string;
 };
@@ -173,7 +174,13 @@ export class EditManwhaComponent {
     const current = this.manwhaEntityForm();
     if (!current) return;
     let nextValue: EditManwhaEntityForm[K] = value as EditManwhaEntityForm[K];
-    if (field !== 'genre' && field !== 'coverUrl') {
+    if (
+      field !== 'genre' &&
+      field !== 'coverUrl' &&
+      field !== 'description' &&
+      field !== 'startDate' &&
+      field !== 'endDate'
+    ) {
       const asNumber = Number(value);
       nextValue = (
         Number.isNaN(asNumber) ? 0 : asNumber
@@ -182,15 +189,6 @@ export class EditManwhaComponent {
     this.manwhaEntityForm.set({
       ...current,
       [field]: nextValue,
-    });
-  }
-
-  updateEntityCheckbox(field: 'isFinished', checked: boolean) {
-    const current = this.manwhaEntityForm();
-    if (!current) return;
-    this.manwhaEntityForm.set({
-      ...current,
-      [field]: checked,
     });
   }
 
@@ -444,7 +442,8 @@ export class EditManwhaComponent {
     return {
       genre: manwha.genre || '',
       nbChapters: manwha.nbChapters || 0,
-      isFinished: manwha.isFinished !== false,
+      startDate: manwha.startDate ?? '',
+      endDate: manwha.endDate ?? '',
       coverUrl: manwha.coverUrl || '',
       description: manwha.description ?? '',
     };
@@ -455,7 +454,8 @@ export class EditManwhaComponent {
     return {
       genre: form.genre,
       nbChapters: form.nbChapters,
-      isFinished: form.isFinished,
+      startDate: form.startDate,
+      endDate: form.endDate,
       coverUrl: form.coverUrl,
       description: form.description ?? '',
     };

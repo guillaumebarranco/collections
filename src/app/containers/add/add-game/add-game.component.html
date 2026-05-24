@@ -219,15 +219,25 @@
               name="addSessionHours{{ $index }}"
             />
           </div>
-          @if (session.completion !== 'none') {
-          <div class="form-row session-finished-date">
-            <label for="addSessionFinishedDate{{ $index }}">Date de fin de session</label>
+          <div class="form-row session-start-date">
+            <label for="addSessionStartDate{{ $index }}">Date de début de session</label>
             <input
-              id="addSessionFinishedDate{{ $index }}"
+              id="addSessionStartDate{{ $index }}"
               type="date"
-              [ngModel]="session.finishedSessionDate"
-              (ngModelChange)="updateSessionFinishedDate($index, $event)"
-              name="addSessionFinishedDate{{ $index }}"
+              [ngModel]="session.sessionStartDate"
+              (ngModelChange)="updateSessionStartDate($index, $event)"
+              name="addSessionStartDate{{ $index }}"
+            />
+          </div>
+          @if (session.completion !== 'none') {
+          <div class="form-row session-end-date">
+            <label for="addSessionEndDate{{ $index }}">Date de fin de session</label>
+            <input
+              id="addSessionEndDate{{ $index }}"
+              type="date"
+              [ngModel]="session.sessionEndDate"
+              (ngModelChange)="updateSessionEndDate($index, $event)"
+              name="addSessionEndDate{{ $index }}"
             />
           </div>
           }

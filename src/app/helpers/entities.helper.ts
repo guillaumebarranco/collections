@@ -156,12 +156,21 @@ export function normalizeUserGameSessions(
 ): UserGameSession[] {
   if (!sessions.length) return [];
   const last = sessions.length - 1;
-  return sessions.map((s, i) => ({
-    ...s,
-    finishedSessionDate:
-      typeof s.finishedSessionDate === 'string' ? s.finishedSessionDate : '',
-    currentlyPlaying: i === last && Boolean(s.currentlyPlaying),
-  }));
+  return sessions.map((s, i) => {
+    const legacy = s as UserGameSession & { finishedSessionDate?: string };
+    return {
+      ...s,
+      sessionStartDate:
+        typeof s.sessionStartDate === 'string' ? s.sessionStartDate : '',
+      sessionEndDate:
+        typeof s.sessionEndDate === 'string'
+          ? s.sessionEndDate
+          : typeof legacy.finishedSessionDate === 'string'
+            ? legacy.finishedSessionDate
+            : '',
+      currentlyPlaying: i === last && Boolean(s.currentlyPlaying),
+    };
+  });
 }
 
 export const getGameDataFromUserGameAndBaseGame = (
@@ -213,7 +222,6 @@ export const getMangaDataFromUserMangaAndBaseManga = (
   saga: baseManga?.saga ?? '',
   fromEntity: baseManga?.fromEntity ?? null,
   nbTomes: baseManga?.nbTomes || 0,
-  isFinished: baseManga?.isFinished || false,
   startDate: baseManga?.startDate ?? '',
   endDate: baseManga?.endDate ?? '',
   owned: userManga.owned,
@@ -239,7 +247,6 @@ export const getManwhaDataFromUserManwhaAndBaseManwha = (
   coverUrl: baseManwha?.coverUrl || '',
   genre: baseManwha?.genre || '',
   nbChapters: baseManwha?.nbChapters || 0,
-  isFinished: baseManwha?.isFinished || false,
   startDate: baseManwha?.startDate ?? '',
   endDate: baseManwha?.endDate ?? '',
   saga: '',

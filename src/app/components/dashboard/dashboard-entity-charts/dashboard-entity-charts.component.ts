@@ -21,15 +21,26 @@ import {
   renderBooksReadChart,
   renderMoviesCinemaChart,
   renderMoviesWatchedChart,
+  renderScanTrackingTimelineChart,
   renderSeriesSeasonsViewedChart,
 } from '../../../utils/graph.utils';
 import { Movie } from '../../../models/movie-model';
 import { Book } from '../../../models/book-model';
 import { Serie } from '../../../models/serie-model';
+import { Manga } from '../../../models/manga-model';
+import { Manwha } from '../../../models/manwha-model';
 import { DEFAULT_USER_ID } from '../../../utils/constants';
 import { getAllMovies } from '../../../facades/movies/movies.facade';
 import { getAllBooks } from '../../../facades/books/books.facade';
 import { getAllSeries } from '../../../facades/series/series.facade';
+import { getAllMangas } from '../../../facades/mangas/mangas.facade';
+import { getAllManwhas } from '../../../facades/manwhas/manwhas.facade';
+import {
+  getMangaScanTrackingPeriods,
+  getManwhaScanTrackingPeriods,
+  getCombinedMangaManwhaScanTrackingPeriods,
+  SCAN_CHART_START_YEAR,
+} from '../../../utils/dashboard-monthly-activity.utils';
 import {
   getBookReadYearsForChart,
   getBookUndatedReadCountForChart,
@@ -50,7 +61,13 @@ export type EntityType =
   | 'mangas'
   | 'manwhas';
 
-const ENTITIES_WITH_CHARTS: EntityType[] = ['movies', 'books', 'series'];
+const ENTITIES_WITH_CHARTS: EntityType[] = [
+  'movies',
+  'books',
+  'series',
+  'mangas',
+  'manwhas',
+];
 
 @Component({
   selector: 'app-dashboard-entity-charts',
@@ -94,6 +111,8 @@ export class DashboardEntityChartsComponent implements OnInit, AfterViewInit {
   moviesList = signal<{ [key: string]: Movie[] }>({});
   booksList = signal<{ [key: string]: Book[] }>({});
   seriesList = signal<{ [key: string]: Serie[] }>({});
+  mangasList = signal<{ [key: string]: Manga[] }>({});
+  manwhasList = signal<{ [key: string]: Manwha[] }>({});
 
   /** Inclure les relectures (lastReadDate + otherReadDates) dans le graphique livres. */
   showBookRereads = signal(true);
@@ -113,6 +132,17 @@ export class DashboardEntityChartsComponent implements OnInit, AfterViewInit {
   @ViewChild('seriesSeasonsViewedChart')
   seriesSeasonsViewedChart?: ElementRef<HTMLDivElement>;
 
+  @ViewChild('mangaScanChart')
+  mangaScanChart?: ElementRef<HTMLDivElement>;
+
+  @ViewChild('manwhaScanChart')
+  manwhaScanChart?: ElementRef<HTMLDivElement>;
+
+  @ViewChild('combinedScanChart')
+  combinedScanChart?: ElementRef<HTMLDivElement>;
+
+  readonly scanChartStartYear = SCAN_CHART_START_YEAR;
+
   currentYear = new Date().getFullYear();
 
   userId = computed<string>(() => {
@@ -130,6 +160,14 @@ export class DashboardEntityChartsComponent implements OnInit, AfterViewInit {
 
   allSeries = computed<Serie[]>(() => {
     return this.seriesList()[this.userId()] || [];
+  });
+
+  allMangas = computed<Manga[]>(() => {
+    return this.mangasList()[this.userId()] || [];
+  });
+
+  allManwhas = computed<Manwha[]>(() => {
+    return this.manwhasList()[this.userId()] || [];
   });
 
   hasChartForEntity = (entity: EntityType): boolean =>
@@ -313,6 +351,39 @@ export class DashboardEntityChartsComponent implements OnInit, AfterViewInit {
     );
   });
 
+  mangaScanPeriods = computed(() =>
+    getMangaScanTrackingPeriods(
+      this.allMangas(),
+      this.scanChartStartYear,
+      new Date(),
+    ),
+  );
+
+  manwhaScanPeriods = computed(() =>
+    getManwhaScanTrackingPeriods(
+      this.allManwhas(),
+      this.scanChartStartYear,
+      new Date(),
+    ),
+  );
+
+  combinedScanPeriods = computed(() =>
+    getCombinedMangaManwhaScanTrackingPeriods(
+      this.allMangas(),
+      this.allManwhas(),
+      this.scanChartStartYear,
+      new Date(),
+    ),
+  );
+
+  combinedScanMangaCount = computed(
+    () => this.combinedScanPeriods().filter((p) => p.key.startsWith('manga:')).length,
+  );
+
+  combinedScanManwhaCount = computed(
+    () => this.combinedScanPeriods().filter((p) => p.key.startsWith('manwha:')).length,
+  );
+
   getEntityLabel(entity: EntityType): string {
     const labels: { [key in EntityType]: string } = {
       movies: '🎬 Films',
@@ -358,6 +429,9 @@ export class DashboardEntityChartsComponent implements OnInit, AfterViewInit {
       this.moviesCinemaByYear();
       this.booksReadByYear();
       this.seriesSeasonsViewedByYear();
+      this.mangaScanPeriods();
+      this.manwhaScanPeriods();
+      this.combinedScanPeriods();
       untracked(() => {
         requestAnimationFrame(() => this.refreshChartsForEntity(entity));
       });
@@ -384,12 +458,42 @@ export class DashboardEntityChartsComponent implements OnInit, AfterViewInit {
         requestAnimationFrame(() => this.renderMoviesWatchedChart());
       });
     });
+
+    effect(() => {
+      this.mangaScanPeriods();
+      this.combinedScanPeriods();
+      if (this.effectiveEntity() !== 'mangas') {
+        return;
+      }
+      untracked(() => {
+        requestAnimationFrame(() => {
+          this.renderMangaScanChart();
+          this.renderCombinedScanChart();
+        });
+      });
+    });
+
+    effect(() => {
+      this.manwhaScanPeriods();
+      this.combinedScanPeriods();
+      if (this.effectiveEntity() !== 'manwhas') {
+        return;
+      }
+      untracked(() => {
+        requestAnimationFrame(() => {
+          this.renderManwhaScanChart();
+          this.renderCombinedScanChart();
+        });
+      });
+    });
   }
 
   ngOnInit() {
     void this.loadMoviesData();
     void this.loadBooksData();
     void this.loadSeriesData();
+    void this.loadMangasData();
+    void this.loadManwhasData();
   }
 
   ngAfterViewInit() {
@@ -428,6 +532,40 @@ export class DashboardEntityChartsComponent implements OnInit, AfterViewInit {
     }
   }
 
+  private async loadMangasData() {
+    const uid = this.userId();
+    const mangas = await getAllMangas(uid);
+    this.mangasList.set(mangas);
+    requestAnimationFrame(() => {
+      if (this.effectiveEntity() === 'mangas') {
+        this.renderMangaScanChart();
+      }
+      if (
+        this.effectiveEntity() === 'mangas' ||
+        this.effectiveEntity() === 'manwhas'
+      ) {
+        this.renderCombinedScanChart();
+      }
+    });
+  }
+
+  private async loadManwhasData() {
+    const uid = this.userId();
+    const manwhas = await getAllManwhas(uid);
+    this.manwhasList.set(manwhas);
+    requestAnimationFrame(() => {
+      if (this.effectiveEntity() === 'manwhas') {
+        this.renderManwhaScanChart();
+      }
+      if (
+        this.effectiveEntity() === 'mangas' ||
+        this.effectiveEntity() === 'manwhas'
+      ) {
+        this.renderCombinedScanChart();
+      }
+    });
+  }
+
   private refreshChartsForEntity(entity: EntityType): void {
     if (entity === 'movies') {
       this.renderMoviesWatchedChart();
@@ -436,6 +574,12 @@ export class DashboardEntityChartsComponent implements OnInit, AfterViewInit {
       this.renderBooksReadChart();
     } else if (entity === 'series') {
       this.renderSeriesSeasonsViewedChart();
+    } else if (entity === 'mangas') {
+      this.renderMangaScanChart();
+      this.renderCombinedScanChart();
+    } else if (entity === 'manwhas') {
+      this.renderManwhaScanChart();
+      this.renderCombinedScanChart();
     }
   }
 
@@ -515,5 +659,39 @@ export class DashboardEntityChartsComponent implements OnInit, AfterViewInit {
       this.seriesSeasonsViewedTotal(),
       this.seriesSeasonsViewedByYear()
     );
+  }
+
+  private renderMangaScanChart(): void {
+    if (this.effectiveEntity() !== 'mangas') {
+      return;
+    }
+    const container = this.mangaScanChart?.nativeElement;
+    renderScanTrackingTimelineChart(container, this.mangaScanPeriods(), {
+      startYear: this.scanChartStartYear,
+      endYear: this.currentYear,
+    });
+  }
+
+  private renderManwhaScanChart(): void {
+    if (this.effectiveEntity() !== 'manwhas') {
+      return;
+    }
+    const container = this.manwhaScanChart?.nativeElement;
+    renderScanTrackingTimelineChart(container, this.manwhaScanPeriods(), {
+      startYear: this.scanChartStartYear,
+      endYear: this.currentYear,
+    });
+  }
+
+  private renderCombinedScanChart(): void {
+    const entity = this.effectiveEntity();
+    if (entity !== 'mangas' && entity !== 'manwhas') {
+      return;
+    }
+    const container = this.combinedScanChart?.nativeElement;
+    renderScanTrackingTimelineChart(container, this.combinedScanPeriods(), {
+      startYear: this.scanChartStartYear,
+      endYear: this.currentYear,
+    });
   }
 }

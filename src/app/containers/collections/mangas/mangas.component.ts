@@ -707,7 +707,7 @@ export class MangasComponent implements OnInit {
   }
 
   getMangaSerializationBadge(manga: Manga): 'Manga fini' | 'Manga en cours' {
-    return manga.endDate?.trim() ? 'Manga fini' : 'Manga en cours';
+    return manga.endDate.trim() ? 'Manga fini' : 'Manga en cours';
   }
 
   getMangaRecommendationText(manga: Manga): string {

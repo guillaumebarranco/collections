@@ -186,15 +186,25 @@
             name="sessionHours{{ $index }}"
           />
         </div>
-        @if (gameForm()?.sessions?.[$index]?.completion !== 'none') {
-        <div class="form-row session-finished-date">
-          <label for="sessionFinishedDate{{ $index }}">Date de fin de session</label>
+        <div class="form-row session-start-date">
+          <label for="sessionStartDate{{ $index }}">Date de début de session</label>
           <input
-            id="sessionFinishedDate{{ $index }}"
+            id="sessionStartDate{{ $index }}"
             type="date"
-            [ngModel]="gameForm()?.sessions?.[$index]?.finishedSessionDate"
-            (ngModelChange)="updateSessionFinishedDate($index, $event)"
-            name="sessionFinishedDate{{ $index }}"
+            [ngModel]="gameForm()?.sessions?.[$index]?.sessionStartDate"
+            (ngModelChange)="updateSessionStartDate($index, $event)"
+            name="sessionStartDate{{ $index }}"
+          />
+        </div>
+        @if (gameForm()?.sessions?.[$index]?.completion !== 'none') {
+        <div class="form-row session-end-date">
+          <label for="sessionEndDate{{ $index }}">Date de fin de session</label>
+          <input
+            id="sessionEndDate{{ $index }}"
+            type="date"
+            [ngModel]="gameForm()?.sessions?.[$index]?.sessionEndDate"
+            (ngModelChange)="updateSessionEndDate($index, $event)"
+            name="sessionEndDate{{ $index }}"
           />
         </div>
         }

@@ -56,7 +56,8 @@ router.post('/batch-times-finished', (req: any, res: any) => {
             finishedGameWithHundredPercent: false,
             platinedGame: false,
             additionnalEstimatedTime: 0,
-            finishedSessionDate: today,
+            sessionStartDate: '',
+            sessionEndDate: today,
           });
         }
         const payload = {

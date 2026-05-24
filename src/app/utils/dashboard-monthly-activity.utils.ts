@@ -40,14 +40,18 @@ export type ActivityBookSample = {
   showApproximateDateBadge: boolean;
 };
 
+export type ActivityScanEndBadge = 'finished' | 'stopped';
+
 export type ActivityMangaSample = {
   line: string;
   showScanBadge: boolean;
+  scanEndBadge: ActivityScanEndBadge | null;
 };
 
 export type ActivityManwhaSample = {
   line: string;
   showScanBadge: boolean;
+  scanEndBadge: ActivityScanEndBadge | null;
 };
 
 export type ActivityBdSample = {
@@ -149,7 +153,9 @@ function buildCalendarMonthRange(y: number, m: number): CalendarMonthRange {
 }
 
 /** Mois calendaires complets : du 1er au dernier jour, les 12 derniers mois en partant du mois courant. */
-export function getLast12CalendarMonths(reference = new Date()): CalendarMonthRange[] {
+export function getLast12CalendarMonths(
+  reference = new Date()
+): CalendarMonthRange[] {
   const out: CalendarMonthRange[] = [];
   let y = reference.getFullYear();
   let m = reference.getMonth();
@@ -186,7 +192,7 @@ export function getCalendarYearRange(year: number): {
 
 /** Union des mois affichés (du plus ancien au plus récent). */
 export function getCalendarMonthsUnionRange(
-  months: CalendarMonthRange[],
+  months: CalendarMonthRange[]
 ): { rangeStart: Date; rangeEnd: Date } | null {
   if (months.length === 0) {
     return null;
@@ -224,7 +230,7 @@ export function parseYearTabValue(value: string): number | null {
 /** Années des onglets : (année courante − 1) jusqu'à endYear inclus. */
 export function getYearTabYears(
   reference = new Date(),
-  endYear = 2000,
+  endYear = 2000
 ): number[] {
   const start = reference.getFullYear() - 1;
   const years: number[] = [];
@@ -238,7 +244,9 @@ function takeSampleTitles(titles: string[]): string[] {
   return titles.slice(0, MAX_SAMPLES);
 }
 
-function takeMovieSamples(samples: ActivityMovieSample[]): ActivityMovieSample[] {
+function takeMovieSamples(
+  samples: ActivityMovieSample[]
+): ActivityMovieSample[] {
   return samples.slice(0, MAX_SAMPLES);
 }
 
@@ -246,11 +254,15 @@ function takeBookSamples(samples: ActivityBookSample[]): ActivityBookSample[] {
   return samples.slice(0, MAX_SAMPLES);
 }
 
-function takeMangaSamples(samples: ActivityMangaSample[]): ActivityMangaSample[] {
+function takeMangaSamples(
+  samples: ActivityMangaSample[]
+): ActivityMangaSample[] {
   return samples.slice(0, MAX_SAMPLES);
 }
 
-function takeManwhaSamples(samples: ActivityManwhaSample[]): ActivityManwhaSample[] {
+function takeManwhaSamples(
+  samples: ActivityManwhaSample[]
+): ActivityManwhaSample[] {
   return samples.slice(0, MAX_SAMPLES);
 }
 
@@ -258,7 +270,9 @@ function takeBdSamples(samples: ActivityBdSample[]): ActivityBdSample[] {
   return samples.slice(0, MAX_SAMPLES);
 }
 
-function takeSerieSamples(samples: ActivitySerieSample[]): ActivitySerieSample[] {
+function takeSerieSamples(
+  samples: ActivitySerieSample[]
+): ActivitySerieSample[] {
   return samples.slice(0, MAX_SAMPLES);
 }
 
@@ -272,11 +286,11 @@ function formatBdSample(bd: Bd): ActivityBdSample {
 function formatBookSample(
   book: Book,
   rangeStart: Date,
-  rangeEnd: Date,
+  rangeEnd: Date
 ): ActivityBookSample {
   const first = parseActivityDate(book.firstReadDate);
   const firstInRange = Boolean(
-    first && isInInclusiveRange(first, rangeStart, rangeEnd),
+    first && isInInclusiveRange(first, rangeStart, rangeEnd)
   );
   return {
     line: `${book.title} — ${book.author}`,
@@ -288,11 +302,11 @@ function formatBookSample(
 function formatMovieSample(
   movie: Movie,
   rangeStart: Date,
-  rangeEnd: Date,
+  rangeEnd: Date
 ): ActivityMovieSample {
   const first = parseActivityDate(movie.firstViewedDate);
   const firstInRange = Boolean(
-    first && isInInclusiveRange(first, rangeStart, rangeEnd),
+    first && isInInclusiveRange(first, rangeStart, rangeEnd)
   );
   return {
     line: `${movie.title} — ${movie.director}`,
@@ -305,7 +319,7 @@ function formatMovieSample(
 function bookHasActivityInRange(
   book: Book,
   rangeStart: Date,
-  rangeEnd: Date,
+  rangeEnd: Date
 ): boolean {
   if ((book.readTimes ?? 0) <= 0) {
     return false;
@@ -324,7 +338,7 @@ function bookHasActivityInRange(
 function movieHasActivityInRange(
   movie: Movie,
   rangeStart: Date,
-  rangeEnd: Date,
+  rangeEnd: Date
 ): boolean {
   if ((movie.timesWatched ?? 0) <= 0) {
     return false;
@@ -340,14 +354,140 @@ function movieHasActivityInRange(
   });
 }
 
-function readItemActivityDate(item: {
-  readDate: string;
-}): Date | null {
+function readItemActivityDate(item: { readDate: string }): Date | null {
   return parseActivityDate(item.readDate);
 }
 
-function mangaHasReadingScanStart(manga: Manga): boolean {
-  return Boolean(parseActivityDate(manga.readingScanStartDate));
+export const SCAN_CHART_START_YEAR = 2000;
+
+export type ScanTrackingPeriod = {
+  key: string;
+  label: string;
+  start: Date;
+  end: Date;
+};
+
+function buildScanTrackingPeriods<
+  T extends {
+    title: string;
+    author: string;
+    readTimes?: number;
+    readingScanStartDate: string;
+    endDate: string;
+    readingScanStopDate: string;
+  }
+>(
+  items: T[],
+  getEndDate: (item: T, reference: Date) => Date,
+  startYear: number,
+  reference: Date
+): ScanTrackingPeriod[] {
+  const rangeStart = new Date(startYear, 0, 1);
+  rangeStart.setHours(0, 0, 0, 0);
+  const rangeEnd = new Date(reference);
+  rangeEnd.setHours(23, 59, 59, 999);
+
+  const uniqueKeys = new Set<string>();
+  const periods: ScanTrackingPeriod[] = [];
+
+  for (const item of items) {
+    if ((item.readTimes ?? 0) <= 0) {
+      continue;
+    }
+    const scanStart = parseActivityDate(item.readingScanStartDate);
+    if (!scanStart) {
+      continue;
+    }
+    scanStart.setHours(0, 0, 0, 0);
+
+    const key = `${item.title}|${item.author}`;
+    if (uniqueKeys.has(key)) {
+      continue;
+    }
+    uniqueKeys.add(key);
+
+    const scanEnd = getEndDate(item, reference);
+    if (scanEnd.getTime() < scanStart.getTime()) {
+      continue;
+    }
+    if (
+      scanEnd.getTime() < rangeStart.getTime() ||
+      scanStart.getTime() > rangeEnd.getTime()
+    ) {
+      continue;
+    }
+
+    periods.push({
+      key,
+      label: item.title,
+      start: scanStart,
+      end: scanEnd,
+    });
+  }
+
+  return periods.sort(
+    (a, b) =>
+      a.start.getTime() - b.start.getTime() ||
+      a.label.localeCompare(b.label, 'fr')
+  );
+}
+
+export function getMangaScanTrackingPeriods(
+  mangas: Manga[],
+  startYear = SCAN_CHART_START_YEAR,
+  reference = new Date()
+): ScanTrackingPeriod[] {
+  return buildScanTrackingPeriods(
+    mangas,
+    (manga, ref) => getMangaScanActivityEndDate(manga, ref),
+    startYear,
+    reference
+  );
+}
+
+export function getManwhaScanTrackingPeriods(
+  manwhas: Manwha[],
+  startYear = SCAN_CHART_START_YEAR,
+  reference = new Date()
+): ScanTrackingPeriod[] {
+  return buildScanTrackingPeriods(
+    manwhas,
+    (manwha, ref) => getManwhaScanActivityEndDate(manwha, ref),
+    startYear,
+    reference
+  );
+}
+
+/** Mangas et manwhas réunis (clés distinctes par type pour éviter les collisions). */
+export function getCombinedMangaManwhaScanTrackingPeriods(
+  mangas: Manga[],
+  manwhas: Manwha[],
+  startYear = SCAN_CHART_START_YEAR,
+  reference = new Date()
+): ScanTrackingPeriod[] {
+  const mangaPeriods = getMangaScanTrackingPeriods(
+    mangas,
+    startYear,
+    reference
+  ).map((period) => ({
+    ...period,
+    key: `manga:${period.key}`,
+  }));
+
+  const manwhaPeriods = getManwhaScanTrackingPeriods(
+    manwhas,
+    startYear,
+    reference
+  ).map((period) => ({
+    ...period,
+    key: `manwha:${period.key}`,
+  }));
+
+  return [...mangaPeriods, ...manwhaPeriods].sort(
+    (a, b) =>
+      a.start.getTime() - b.start.getTime() ||
+      a.label.localeCompare(b.label, 'fr')
+  );
 }
 
 /**
@@ -358,7 +498,7 @@ function mangaHasReadingScanStart(manga: Manga): boolean {
  */
 export function getMangaScanActivityEndDate(
   manga: Pick<Manga, 'endDate' | 'readingScanStopDate'>,
-  reference = new Date(),
+  reference = new Date()
 ): Date {
   const todayEnd = new Date(reference);
   todayEnd.setHours(23, 59, 59, 999);
@@ -369,7 +509,7 @@ export function getMangaScanActivityEndDate(
     return userScanEnd.getTime() > todayEnd.getTime() ? todayEnd : userScanEnd;
   }
 
-  const rawEnd = manga.endDate?.trim();
+  const rawEnd = manga.endDate.trim();
   if (!rawEnd) {
     return todayEnd;
   }
@@ -385,7 +525,7 @@ export function mangaHasScanActivityInRange(
   manga: Manga,
   rangeStart: Date,
   rangeEnd: Date,
-  reference = new Date(),
+  reference = new Date()
 ): boolean {
   if ((manga.readTimes ?? 0) <= 0 || !mangaHasReadingScanStart(manga)) {
     return false;
@@ -399,13 +539,84 @@ export function mangaHasScanActivityInRange(
   if (scanEnd.getTime() < scanStart.getTime()) {
     return false;
   }
-  return scanStart.getTime() <= rangeEnd.getTime() && scanEnd.getTime() >= rangeStart.getTime();
+  return (
+    scanStart.getTime() <= rangeEnd.getTime() &&
+    scanEnd.getTime() >= rangeStart.getTime()
+  );
+}
+
+function getScanEndBadge(
+  item: {
+    endDate: string;
+    readingScanStopDate: string;
+    readTimes?: number;
+  },
+  hasScanInRange: boolean,
+  hasScanStart: boolean,
+  getScanActivityEndDate: (reference: Date) => Date,
+  rangeStart: Date,
+  rangeEnd: Date,
+  reference = new Date()
+): ActivityScanEndBadge | null {
+  if ((item.readTimes ?? 0) <= 0 || !hasScanStart) {
+    return null;
+  }
+  if (!hasScanInRange) {
+    return null;
+  }
+
+  const scanEnd = getScanActivityEndDate(reference);
+  if (!isInInclusiveRange(scanEnd, rangeStart, rangeEnd)) {
+    return null;
+  }
+
+  if (parseActivityDate(item.readingScanStopDate)) {
+    return 'stopped';
+  }
+
+  const pubEnd = parseActivityDate(item.endDate.trim());
+  if (!pubEnd) {
+    return null;
+  }
+  pubEnd.setHours(23, 59, 59, 999);
+
+  const todayEnd = new Date(reference);
+  todayEnd.setHours(23, 59, 59, 999);
+  if (pubEnd.getTime() >= todayEnd.getTime()) {
+    return null;
+  }
+
+  if (
+    scanEnd.getFullYear() === pubEnd.getFullYear() &&
+    scanEnd.getMonth() === pubEnd.getMonth()
+  ) {
+    return 'finished';
+  }
+
+  return null;
+}
+
+function getMangaScanEndBadge(
+  manga: Manga,
+  rangeStart: Date,
+  rangeEnd: Date,
+  reference = new Date()
+): ActivityScanEndBadge | null {
+  return getScanEndBadge(
+    manga,
+    mangaHasScanActivityInRange(manga, rangeStart, rangeEnd, reference),
+    mangaHasReadingScanStart(manga),
+    (ref) => getMangaScanActivityEndDate(manga, ref),
+    rangeStart,
+    rangeEnd,
+    reference
+  );
 }
 
 function mangaReadDateInRange(
   manga: Manga,
   rangeStart: Date,
-  rangeEnd: Date,
+  rangeEnd: Date
 ): boolean {
   if ((manga.readTimes ?? 0) <= 0) {
     return false;
@@ -418,16 +629,18 @@ function formatMangaActivitySample(
   manga: Manga,
   rangeStart: Date,
   rangeEnd: Date,
-  reference = new Date(),
+  reference = new Date()
 ): ActivityMangaSample {
+  const showScanBadge = mangaHasScanActivityInRange(
+    manga,
+    rangeStart,
+    rangeEnd,
+    reference
+  );
   return {
     line: `${manga.title} — ${manga.author}`,
-    showScanBadge: mangaHasScanActivityInRange(
-      manga,
-      rangeStart,
-      rangeEnd,
-      reference,
-    ),
+    showScanBadge,
+    scanEndBadge: getMangaScanEndBadge(manga, rangeStart, rangeEnd, reference),
   };
 }
 
@@ -437,7 +650,7 @@ function addMangaScanMinutesInRange(
   manga: Manga,
   rangeStart: Date,
   rangeEnd: Date,
-  reference = new Date(),
+  reference = new Date()
 ): number {
   if ((manga.readTimes ?? 0) <= 0 || !mangaHasReadingScanStart(manga)) {
     return totalMinutes;
@@ -459,7 +672,10 @@ function addMangaScanMinutesInRange(
   while (y < endY || (y === endY && m <= endM)) {
     const monthStart = new Date(y, m, 1, 0, 0, 0, 0);
     const monthEnd = new Date(y, m + 1, 0, 23, 59, 59, 999);
-    if (monthStart.getTime() <= rangeEnd.getTime() && monthEnd.getTime() >= rangeStart.getTime()) {
+    if (
+      monthStart.getTime() <= rangeEnd.getTime() &&
+      monthEnd.getTime() >= rangeStart.getTime()
+    ) {
       const monthKey = `${keyBase}|${y}-${String(m + 1).padStart(2, '0')}`;
       if (!scanSeen.has(monthKey)) {
         scanSeen.add(monthKey);
@@ -476,15 +692,20 @@ function addMangaScanMinutesInRange(
   return totalMinutes;
 }
 
-function hasReadingScanStart(item: {
-  readingScanStartDate: string;
-}): boolean {
+function hasReadingScanStart(item: { readingScanStartDate: string }): boolean {
   return Boolean(parseActivityDate(item.readingScanStartDate));
 }
 
-function getManwhaScanActivityEndDate(
+function mangaHasReadingScanStart(manga: Manga): boolean {
+  return Boolean(parseActivityDate(manga.readingScanStartDate));
+}
+
+/**
+ * Fin de la période scan manwha (même règles que pour les mangas).
+ */
+export function getManwhaScanActivityEndDate(
   manwha: Pick<Manwha, 'endDate' | 'readingScanStopDate'>,
-  reference = new Date(),
+  reference = new Date()
 ): Date {
   const todayEnd = new Date(reference);
   todayEnd.setHours(23, 59, 59, 999);
@@ -495,7 +716,7 @@ function getManwhaScanActivityEndDate(
     return userScanEnd.getTime() > todayEnd.getTime() ? todayEnd : userScanEnd;
   }
 
-  const rawEnd = manwha.endDate?.trim();
+  const rawEnd = manwha.endDate.trim();
   if (!rawEnd) {
     return todayEnd;
   }
@@ -511,7 +732,7 @@ export function manwhaHasScanActivityInRange(
   manwha: Manwha,
   rangeStart: Date,
   rangeEnd: Date,
-  reference = new Date(),
+  reference = new Date()
 ): boolean {
   if ((manwha.readTimes ?? 0) <= 0 || !hasReadingScanStart(manwha)) {
     return false;
@@ -525,13 +746,33 @@ export function manwhaHasScanActivityInRange(
   if (scanEnd.getTime() < scanStart.getTime()) {
     return false;
   }
-  return scanStart.getTime() <= rangeEnd.getTime() && scanEnd.getTime() >= rangeStart.getTime();
+  return (
+    scanStart.getTime() <= rangeEnd.getTime() &&
+    scanEnd.getTime() >= rangeStart.getTime()
+  );
+}
+
+function getManwhaScanEndBadge(
+  manwha: Manwha,
+  rangeStart: Date,
+  rangeEnd: Date,
+  reference = new Date()
+): ActivityScanEndBadge | null {
+  return getScanEndBadge(
+    manwha,
+    manwhaHasScanActivityInRange(manwha, rangeStart, rangeEnd, reference),
+    hasReadingScanStart(manwha),
+    (ref) => getManwhaScanActivityEndDate(manwha, ref),
+    rangeStart,
+    rangeEnd,
+    reference
+  );
 }
 
 function manwhaReadDateInRange(
   manwha: Manwha,
   rangeStart: Date,
-  rangeEnd: Date,
+  rangeEnd: Date
 ): boolean {
   if ((manwha.readTimes ?? 0) <= 0) {
     return false;
@@ -544,15 +785,22 @@ function formatManwhaActivitySample(
   manwha: Manwha,
   rangeStart: Date,
   rangeEnd: Date,
-  reference = new Date(),
+  reference = new Date()
 ): ActivityManwhaSample {
+  const showScanBadge = manwhaHasScanActivityInRange(
+    manwha,
+    rangeStart,
+    rangeEnd,
+    reference
+  );
   return {
     line: `${manwha.title} — ${manwha.author}`,
-    showScanBadge: manwhaHasScanActivityInRange(
+    showScanBadge,
+    scanEndBadge: getManwhaScanEndBadge(
       manwha,
       rangeStart,
       rangeEnd,
-      reference,
+      reference
     ),
   };
 }
@@ -563,7 +811,7 @@ function addManwhaScanMinutesInRange(
   manwha: Manwha,
   rangeStart: Date,
   rangeEnd: Date,
-  reference = new Date(),
+  reference = new Date()
 ): number {
   if ((manwha.readTimes ?? 0) <= 0 || !hasReadingScanStart(manwha)) {
     return totalMinutes;
@@ -585,7 +833,10 @@ function addManwhaScanMinutesInRange(
   while (y < endY || (y === endY && m <= endM)) {
     const monthStart = new Date(y, m, 1, 0, 0, 0, 0);
     const monthEnd = new Date(y, m + 1, 0, 23, 59, 59, 999);
-    if (monthStart.getTime() <= rangeEnd.getTime() && monthEnd.getTime() >= rangeStart.getTime()) {
+    if (
+      monthStart.getTime() <= rangeEnd.getTime() &&
+      monthEnd.getTime() >= rangeStart.getTime()
+    ) {
       const monthKey = `${keyBase}|${y}-${String(m + 1).padStart(2, '0')}`;
       if (!scanSeen.has(monthKey)) {
         scanSeen.add(monthKey);
@@ -605,7 +856,7 @@ function addManwhaScanMinutesInRange(
 function seasonHasActivityInRange(
   season: Serie['seasons'][number],
   rangeStart: Date,
-  rangeEnd: Date,
+  rangeEnd: Date
 ): boolean {
   if ((season.seasonTimesWatched ?? 0) <= 0) {
     return false;
@@ -627,7 +878,7 @@ function serieHasActivityInRange(
   rangeEnd: Date
 ): boolean {
   return (serie.seasons ?? []).some((s) =>
-    seasonHasActivityInRange(s, rangeStart, rangeEnd),
+    seasonHasActivityInRange(s, rangeStart, rangeEnd)
   );
 }
 
@@ -654,10 +905,10 @@ function formatSerieSampleLine(
 function formatSerieSample(
   serie: Serie,
   rangeStart: Date,
-  rangeEnd: Date,
+  rangeEnd: Date
 ): ActivitySerieSample {
   const activeSeasons = (serie.seasons ?? []).filter((s) =>
-    seasonHasActivityInRange(s, rangeStart, rangeEnd),
+    seasonHasActivityInRange(s, rangeStart, rangeEnd)
   );
   const firstInRange = activeSeasons.some((s) => {
     const first = parseActivityDate(s.firstViewedDate);
@@ -683,7 +934,7 @@ export function computeActivityInRange(
   rangeEnd: Date
 ): ActivityWindowResult {
   const b = books.filter((book) =>
-    bookHasActivityInRange(book, rangeStart, rangeEnd),
+    bookHasActivityInRange(book, rangeStart, rangeEnd)
   );
   const mg = mangas.filter((m) => {
     if (mangaHasScanActivityInRange(m, rangeStart, rangeEnd)) {
@@ -714,10 +965,10 @@ export function computeActivityInRange(
     return manwhaReadDateInRange(x, rangeStart, rangeEnd);
   });
   const mv = movies.filter((movie) =>
-    movieHasActivityInRange(movie, rangeStart, rangeEnd),
+    movieHasActivityInRange(movie, rangeStart, rangeEnd)
   );
   const sr = series.filter((serie) =>
-    serieHasActivityInRange(serie, rangeStart, rangeEnd),
+    serieHasActivityInRange(serie, rangeStart, rangeEnd)
   );
 
   return {
@@ -732,28 +983,31 @@ export function computeActivityInRange(
     },
     samples: {
       books: takeBookSamples(
-        b.map((x) => formatBookSample(x, rangeStart, rangeEnd)),
+        b.map((x) => formatBookSample(x, rangeStart, rangeEnd))
       ),
       mangas: takeMangaSamples(
-        mg.map((x) => formatMangaActivitySample(x, rangeStart, rangeEnd)),
+        mg.map((x) => formatMangaActivitySample(x, rangeStart, rangeEnd))
       ),
       comics: takeSampleTitles(c.map((x) => `${x.title} — ${x.writer}`)),
       bds: takeBdSamples(bd.map((x) => formatBdSample(x))),
       manwhas: takeManwhaSamples(
-        mw.map((x) => formatManwhaActivitySample(x, rangeStart, rangeEnd)),
+        mw.map((x) => formatManwhaActivitySample(x, rangeStart, rangeEnd))
       ),
       movies: takeMovieSamples(
-        mv.map((x) => formatMovieSample(x, rangeStart, rangeEnd)),
+        mv.map((x) => formatMovieSample(x, rangeStart, rangeEnd))
       ),
       series: takeSerieSamples(
-        sr.map((x) => formatSerieSample(x, rangeStart, rangeEnd)),
+        sr.map((x) => formatSerieSample(x, rangeStart, rangeEnd))
       ),
     },
   };
 }
 
 function dateToDayKey(d: Date): string {
-  return `${d.getFullYear()}-${String(d.getMonth() + 1).padStart(2, '0')}-${String(d.getDate()).padStart(2, '0')}`;
+  return `${d.getFullYear()}-${String(d.getMonth() + 1).padStart(
+    2,
+    '0'
+  )}-${String(d.getDate()).padStart(2, '0')}`;
 }
 
 export type ActivityDurationTotals = {
@@ -780,7 +1034,7 @@ function addSessionMinutesInRange(
   raw: string | undefined | null,
   rangeStart: Date,
   rangeEnd: Date,
-  sessionMinutes: number,
+  sessionMinutes: number
 ): number {
   const d = parseActivityDate(raw);
   if (!d || !isInInclusiveRange(d, rangeStart, rangeEnd)) {
@@ -803,10 +1057,7 @@ function bookSessionMinutes(book: Book): number {
   return DEFAULT_READ_SESSION_MINUTES;
 }
 
-function pagesItemSessionMinutes(
-  pages: number,
-  readTimes: number,
-): number {
+function pagesItemSessionMinutes(pages: number, readTimes: number): number {
   const rt = Math.max(1, readTimes);
   if (pages > 0) {
     return (pages / rt) * MINUTES_PER_PAGE;
@@ -838,10 +1089,12 @@ function movieSessionMinutes(movie: Movie): number {
 
 function serieSeasonSessionMinutes(serie: Serie, seasonNumber: number): number {
   const seasonData = serie.seasonsData?.find(
-    (s) => s.seasonNumber === seasonNumber,
+    (s) => s.seasonNumber === seasonNumber
   );
   const totalLength = seasonData?.totalLength ?? 0;
-  const userSeason = serie.seasons?.find((s) => s.seasonNumber === seasonNumber);
+  const userSeason = serie.seasons?.find(
+    (s) => s.seasonNumber === seasonNumber
+  );
   const times = Math.max(1, userSeason?.seasonTimesWatched ?? 1);
   if (totalLength > 0) {
     return totalLength / times;
@@ -859,7 +1112,7 @@ export function computeActivityDurationInRange(
   movies: Movie[],
   series: Serie[],
   rangeStart: Date,
-  rangeEnd: Date,
+  rangeEnd: Date
 ): ActivityDurationTotals {
   const readingSeen = new Set<string>();
   const scanSeen = new Set<string>();
@@ -880,7 +1133,7 @@ export function computeActivityDurationInRange(
       book.firstReadDate,
       rangeStart,
       rangeEnd,
-      session,
+      session
     );
     readingMinutes = addSessionMinutesInRange(
       readingMinutes,
@@ -889,7 +1142,7 @@ export function computeActivityDurationInRange(
       book.lastReadDate,
       rangeStart,
       rangeEnd,
-      session,
+      session
     );
     for (const raw of book.otherReadDates ?? []) {
       readingMinutes = addSessionMinutesInRange(
@@ -899,7 +1152,7 @@ export function computeActivityDurationInRange(
         raw,
         rangeStart,
         rangeEnd,
-        session,
+        session
       );
     }
   }
@@ -917,14 +1170,14 @@ export function computeActivityDurationInRange(
       item.readDate,
       rangeStart,
       rangeEnd,
-      session,
+      session
     );
     readingMinutes = addMangaScanMinutesInRange(
       readingMinutes,
       scanSeen,
       item,
       rangeStart,
-      rangeEnd,
+      rangeEnd
     );
   }
 
@@ -933,7 +1186,10 @@ export function computeActivityDurationInRange(
       continue;
     }
     const key = `comic|${item.title}|${item.writer}`;
-    const session = pagesItemSessionMinutes(item.pages ?? 0, item.readTimes ?? 1);
+    const session = pagesItemSessionMinutes(
+      item.pages ?? 0,
+      item.readTimes ?? 1
+    );
     readingMinutes = addSessionMinutesInRange(
       readingMinutes,
       readingSeen,
@@ -941,7 +1197,7 @@ export function computeActivityDurationInRange(
       item.readDate,
       rangeStart,
       rangeEnd,
-      session,
+      session
     );
   }
 
@@ -950,7 +1206,10 @@ export function computeActivityDurationInRange(
       continue;
     }
     const key = `bd|${item.title}|${item.writer}`;
-    const session = pagesItemSessionMinutes(item.pages ?? 0, item.readTimes ?? 1);
+    const session = pagesItemSessionMinutes(
+      item.pages ?? 0,
+      item.readTimes ?? 1
+    );
     readingMinutes = addSessionMinutesInRange(
       readingMinutes,
       readingSeen,
@@ -958,7 +1217,7 @@ export function computeActivityDurationInRange(
       item.readDate,
       rangeStart,
       rangeEnd,
-      session,
+      session
     );
   }
 
@@ -975,14 +1234,14 @@ export function computeActivityDurationInRange(
       item.readDate,
       rangeStart,
       rangeEnd,
-      session,
+      session
     );
     readingMinutes = addManwhaScanMinutesInRange(
       readingMinutes,
       scanSeen,
       item,
       rangeStart,
-      rangeEnd,
+      rangeEnd
     );
   }
 
@@ -999,7 +1258,7 @@ export function computeActivityDurationInRange(
       movie.firstViewedDate,
       rangeStart,
       rangeEnd,
-      session,
+      session
     );
     viewingMinutes = addSessionMinutesInRange(
       viewingMinutes,
@@ -1008,7 +1267,7 @@ export function computeActivityDurationInRange(
       movie.lastViewedDate,
       rangeStart,
       rangeEnd,
-      session,
+      session
     );
     for (const raw of movie.otherSeenDates ?? []) {
       viewingMinutes = addSessionMinutesInRange(
@@ -1018,7 +1277,7 @@ export function computeActivityDurationInRange(
         raw,
         rangeStart,
         rangeEnd,
-        session,
+        session
       );
     }
   }
@@ -1037,7 +1296,7 @@ export function computeActivityDurationInRange(
         s.firstViewedDate,
         rangeStart,
         rangeEnd,
-        session,
+        session
       );
       viewingMinutes = addSessionMinutesInRange(
         viewingMinutes,
@@ -1046,7 +1305,7 @@ export function computeActivityDurationInRange(
         s.lastViewedDate,
         rangeStart,
         rangeEnd,
-        session,
+        session
       );
       for (const raw of s.otherViewedDates ?? []) {
         viewingMinutes = addSessionMinutesInRange(
@@ -1056,7 +1315,7 @@ export function computeActivityDurationInRange(
           raw,
           rangeStart,
           rangeEnd,
-          session,
+          session
         );
       }
     }
@@ -1067,7 +1326,7 @@ export function computeActivityDurationInRange(
 
 export function formatActivityDurationLabel(
   totalMinutes: number,
-  kind: 'lecture' | 'visionnage',
+  kind: 'lecture' | 'visionnage'
 ): string {
   const noun = kind === 'lecture' ? 'lecture' : 'visionnage';
   if (totalMinutes <= 0) {
@@ -1084,7 +1343,10 @@ export function formatActivityDurationLabel(
   return `${hours} h de ${noun}`;
 }
 
-export function formatRolling30Intro(range: { start: Date; end: Date }): string {
+export function formatRolling30Intro(range: {
+  start: Date;
+  end: Date;
+}): string {
   const opts: Intl.DateTimeFormatOptions = {
     day: 'numeric',
     month: 'long',

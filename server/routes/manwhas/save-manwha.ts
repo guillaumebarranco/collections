@@ -102,14 +102,9 @@ router.post('/', (req: any, res: any) => {
         coverUrl: normalizeString(entityPayload.coverUrl, 'coverUrl'),
         genre: normalizeString(entityPayload.genre, 'genre'),
         nbChapters: normalizeNumber(entityPayload.nbChapters, 'nbChapters'),
-        isFinished: normalizeBoolean(entityPayload.isFinished, 'isFinished'),
+        startDate: normalizeString(entityPayload.startDate, 'startDate') || '',
+        endDate: normalizeString(entityPayload.endDate, 'endDate') || '',
         description: normalizeString(entityPayload.description, 'description') ?? '',
-        ...(entityPayload.startDate !== undefined && {
-          startDate: normalizeString(entityPayload.startDate, 'startDate') || '',
-        }),
-        ...(entityPayload.endDate !== undefined && {
-          endDate: normalizeString(entityPayload.endDate, 'endDate') || '',
-        }),
       });
 
       if (originalTitle || originalAuthor) {

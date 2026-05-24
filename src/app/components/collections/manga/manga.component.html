@@ -84,7 +84,7 @@
     } @if (manga.nbTomes) {
     <p>
       <span class="book-pages">{{ manga.nbTomes }} tomes</span>
-      @if(!manga.isFinished) {
+      @if(!manga.endDate.trim()) {
       <span class="book-pages"> (En cours)</span>
       }
     </p>

@@ -61,7 +61,9 @@ export type EditGameSessionForm = {
   completion: SessionCompletionType;
   additionnalEstimatedTime: number;
   /** YYYY-MM-DD ; vide si session « temps uniquement » / en cours. */
-  finishedSessionDate: string;
+  sessionStartDate: string;
+  /** YYYY-MM-DD ; vide si session non terminée. */
+  sessionEndDate: string;
   currentlyPlaying: boolean;
 };
 
@@ -398,16 +400,21 @@ export class EditGameComponent {
     if (!current || sessionIndex < 0 || sessionIndex >= current.sessions.length)
       return;
     const next = [...current.sessions];
-    const prevDate = (next[sessionIndex]?.finishedSessionDate ?? '').trim();
+    const prevEndDate = (next[sessionIndex]?.sessionEndDate ?? '').trim();
+    const prevStartDate = (next[sessionIndex]?.sessionStartDate ?? '').trim();
     next[sessionIndex] = {
       ...next[sessionIndex],
       completion,
       currentlyPlaying:
         completion === 'none' ? (next[sessionIndex]?.currentlyPlaying ?? false) : false,
-      finishedSessionDate:
+      sessionEndDate:
         completion === 'none'
           ? ''
-          : prevDate || new Date().toISOString().slice(0, 10),
+          : prevEndDate || new Date().toISOString().slice(0, 10),
+      sessionStartDate:
+        completion === 'none' && !prevStartDate
+          ? ''
+          : prevStartDate || new Date().toISOString().slice(0, 10),
     };
     this.gameForm.set({ ...current, sessions: next });
   }
@@ -417,20 +424,39 @@ export class EditGameComponent {
     if (!current || sessionIndex !== current.sessions.length - 1) return;
     const next = current.sessions.map((s, i) =>
       i === sessionIndex
-        ? { ...s, currentlyPlaying: checked }
+        ? {
+            ...s,
+            currentlyPlaying: checked,
+            sessionStartDate:
+              checked && !(s.sessionStartDate ?? '').trim()
+                ? new Date().toISOString().slice(0, 10)
+                : s.sessionStartDate,
+          }
         : { ...s, currentlyPlaying: false }
     );
     this.gameForm.set({ ...current, sessions: next });
   }
 
-  updateSessionFinishedDate(sessionIndex: number, value: string) {
+  updateSessionStartDate(sessionIndex: number, value: string) {
     const current = this.gameForm();
     if (!current || sessionIndex < 0 || sessionIndex >= current.sessions.length)
       return;
     const next = [...current.sessions];
     next[sessionIndex] = {
       ...next[sessionIndex],
-      finishedSessionDate: typeof value === 'string' ? value : '',
+      sessionStartDate: typeof value === 'string' ? value : '',
+    };
+    this.gameForm.set({ ...current, sessions: next });
+  }
+
+  updateSessionEndDate(sessionIndex: number, value: string) {
+    const current = this.gameForm();
+    if (!current || sessionIndex < 0 || sessionIndex >= current.sessions.length)
+      return;
+    const next = [...current.sessions];
+    next[sessionIndex] = {
+      ...next[sessionIndex],
+      sessionEndDate: typeof value === 'string' ? value : '',
     };
     this.gameForm.set({ ...current, sessions: next });
   }
@@ -462,7 +488,8 @@ export class EditGameComponent {
         {
           completion: 'none',
           additionnalEstimatedTime: 0,
-          finishedSessionDate: '',
+          sessionStartDate: '',
+          sessionEndDate: '',
           currentlyPlaying: false,
         },
       ],
@@ -766,12 +793,13 @@ export class EditGameComponent {
       (game.sessions ?? []).length > 0
         ? this.gameSessionsToFormSessions(game.sessions)
         : [
-            {
-              completion: 'none' as const,
-              additionnalEstimatedTime: 0,
-              finishedSessionDate: '',
-              currentlyPlaying: false,
-            },
+        {
+          completion: 'none' as const,
+          additionnalEstimatedTime: 0,
+          sessionStartDate: '',
+          sessionEndDate: '',
+          currentlyPlaying: false,
+        },
           ];
     return {
       rating: game.rating,
@@ -797,7 +825,8 @@ export class EditGameComponent {
       return {
         completion,
         additionnalEstimatedTime: s.additionnalEstimatedTime ?? 0,
-        finishedSessionDate: s.finishedSessionDate ?? '',
+        sessionStartDate: s.sessionStartDate ?? '',
+        sessionEndDate: s.sessionEndDate ?? '',
         currentlyPlaying:
           index === last && Boolean(s.currentlyPlaying),
       };
@@ -814,15 +843,16 @@ export class EditGameComponent {
         platinedGame: f.completion === 'platined',
         additionnalEstimatedTime:
           f.completion === 'none' ? f.additionnalEstimatedTime ?? 0 : 0,
-        finishedSessionDate: this.resolveFinishedSessionDateForPayload(f),
+        sessionStartDate: f.sessionStartDate ?? '',
+        sessionEndDate: this.resolveSessionEndDateForPayload(f),
         currentlyPlaying: Boolean(f.currentlyPlaying),
       }))
     );
     return { sessions };
   }
 
-  private resolveFinishedSessionDateForPayload(f: EditGameSessionForm): string {
-    const trimmed = (f.finishedSessionDate ?? '').trim();
+  private resolveSessionEndDateForPayload(f: EditGameSessionForm): string {
+    const trimmed = (f.sessionEndDate ?? '').trim();
     if (trimmed) {
       return trimmed;
     }

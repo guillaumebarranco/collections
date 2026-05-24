@@ -1,6 +1,6 @@
 <div class="monthly-activity">
   <app-view-toggle
-    toggleClass="monthly-activity-period-toggle"
+    toggleClass="monthly-activity-period-toggle monthly-activity__period-toggle"
     [options]="periodOptions()"
     [selected]="periodTab()"
     (selectedChange)="onPeriodChange($event)"
@@ -36,6 +36,11 @@
         @if (manga.showScanBadge) {
         <span class="tag tag--manga-scan">Suivi scans mangas</span>
         }
+        @if (manga.scanEndBadge === 'finished') {
+        <span class="tag tag--manga-finished">Fin du manga</span>
+        } @else if (manga.scanEndBadge === 'stopped') {
+        <span class="tag tag--manga-stopped">Manga stoppé</span>
+        }
       </li>
       } @for (line of s.comics; track line) {
       <li><span class="tag">Comic</span> {{ line }}</li>
@@ -51,6 +56,11 @@
         <span class="tag">Manwha</span> {{ manwha.line }}
         @if (manwha.showScanBadge) {
         <span class="tag tag--manwha-scan">Suivi scans manwhas</span>
+        }
+        @if (manwha.scanEndBadge === 'finished') {
+        <span class="tag tag--manwha-finished">Fin du manwha</span>
+        } @else if (manwha.scanEndBadge === 'stopped') {
+        <span class="tag tag--manwha-stopped">Manwha stoppé</span>
         }
       </li>
       } @for (movie of s.movies; track movie.line) {
@@ -133,6 +143,11 @@
           @if (manga.showScanBadge) {
           <span class="tag tag--manga-scan">Suivi scans mangas</span>
           }
+          @if (manga.scanEndBadge === 'finished') {
+          <span class="tag tag--manga-finished">Fin du manga</span>
+          } @else if (manga.scanEndBadge === 'stopped') {
+          <span class="tag tag--manga-stopped">Manga stoppé</span>
+          }
         </li>
         } @for (line of row.samples.comics; track line) {
         <li><span class="tag">Comic</span> {{ line }}</li>
@@ -148,6 +163,11 @@
           <span class="tag">Manwha</span> {{ manwha.line }}
           @if (manwha.showScanBadge) {
           <span class="tag tag--manwha-scan">Suivi scans manwhas</span>
+          }
+          @if (manwha.scanEndBadge === 'finished') {
+          <span class="tag tag--manwha-finished">Fin du manwha</span>
+          } @else if (manwha.scanEndBadge === 'stopped') {
+          <span class="tag tag--manwha-stopped">Manwha stoppé</span>
           }
         </li>
         } @for (movie of row.samples.movies; track movie.line) {
@@ -180,5 +200,11 @@
     </details>
     }
   </div>
+  <app-view-toggle
+    toggleClass="monthly-activity-period-toggle monthly-activity__period-toggle monthly-activity__period-toggle--bottom"
+    [options]="periodOptions()"
+    [selected]="periodTab()"
+    (selectedChange)="onPeriodChange($event, true)"
+  ></app-view-toggle>
   }
 </div>

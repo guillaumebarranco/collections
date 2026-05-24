@@ -1,3 +1,8 @@
+:host {
+  display: block;
+  scroll-margin-top: 16px;
+}
+
 .monthly-activity {
   display: flex;
   flex-direction: column;
@@ -15,6 +20,10 @@
     padding: 10px 14px;
     font-size: 0.875rem;
   }
+}
+
+.monthly-activity__period-toggle--bottom {
+  margin-top: 16px;
 }
 
 .monthly-activity__intro,
@@ -85,7 +94,11 @@
 .monthly-activity__sample-list .tag--reread,
 .monthly-activity__sample-list .tag--approximate-date,
 .monthly-activity__sample-list .tag--manga-scan,
-.monthly-activity__sample-list .tag--manwha-scan {
+.monthly-activity__sample-list .tag--manwha-scan,
+.monthly-activity__sample-list .tag--manga-finished,
+.monthly-activity__sample-list .tag--manwha-finished,
+.monthly-activity__sample-list .tag--manga-stopped,
+.monthly-activity__sample-list .tag--manwha-stopped {
   min-width: auto;
   margin-left: 6px;
   padding: 2px 8px;
@@ -123,6 +136,18 @@
 .monthly-activity__sample-list .tag--manwha-scan {
   background: #e8f0e9;
   color: #4a5d4c;
+}
+
+.monthly-activity__sample-list .tag--manga-finished,
+.monthly-activity__sample-list .tag--manwha-finished {
+  background: #ffebee;
+  color: #c62828;
+}
+
+.monthly-activity__sample-list .tag--manga-stopped,
+.monthly-activity__sample-list .tag--manwha-stopped {
+  background: #eceff1;
+  color: #37474f;
 }
 
 .monthly-activity__period-totals {

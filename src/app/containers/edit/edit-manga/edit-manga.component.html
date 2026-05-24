@@ -27,7 +27,7 @@
       <p><strong>Genre :</strong> {{ manga()?.genre }}</p>
       } @if (manga()?.nbTomes) {
       <p><strong>Nombre de tomes :</strong> {{ manga()?.nbTomes }}</p>
-      } @if (manga()?.isFinished === false) {
+      } @if (!manga()?.endDate?.trim()) {
       <p><strong>Série :</strong> En cours</p>
       } @if (manga()?.description) {
       <p><strong>Description :</strong> {{ manga()?.description }}</p>
@@ -173,7 +173,9 @@
         id="wantToReadAgain"
         type="checkbox"
         [checked]="mangaForm()?.wantToReadAgain"
-        (change)="updateCheckbox('wantToReadAgain', $any($event).target.checked)"
+        (change)="
+          updateCheckbox('wantToReadAgain', $any($event).target.checked)
+        "
         name="wantToReadAgain"
       />
     </div>
@@ -213,17 +215,27 @@
       />
     </div>
 
-    <div class="form-row checkbox-row">
-      <label for="entityIsFinished">Série terminée</label>
+    <div class="form-row">
+      <label for="entityStartDate">Date de début de parution</label>
       <input
-        id="entityIsFinished"
-        type="checkbox"
-        [checked]="mangaEntityForm()?.isFinished"
-        (change)="
-          updateEntityCheckbox('isFinished', $any($event).target.checked)
-        "
-        name="entityIsFinished"
+        id="entityStartDate"
+        type="date"
+        [ngModel]="mangaEntityForm()?.startDate"
+        (ngModelChange)="updateEntityField('startDate', $event)"
+        name="entityStartDate"
       />
+    </div>
+
+    <div class="form-row">
+      <label for="entityEndDate">Date de fin de parution</label>
+      <input
+        id="entityEndDate"
+        type="date"
+        [ngModel]="mangaEntityForm()?.endDate"
+        (ngModelChange)="updateEntityField('endDate', $event)"
+        name="entityEndDate"
+      />
+      <p class="field-hint">Laisser vide si la série est en cours.</p>
     </div>
 
     <div class="form-row">

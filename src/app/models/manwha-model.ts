@@ -7,10 +7,9 @@ export interface BaseManwha extends MandatoryManwhaData {
   coverUrl: string;
   genre: string;
   nbChapters: number;
-  isFinished: boolean;
   /** Début de parution (webtoon), format YYYY-MM-DD. */
   startDate: string;
-  /** Fin de parution si le manwha est terminé (`isFinished`), sinon chaîne vide. */
+  /** Fin de parution si le manwha est terminé, sinon chaîne vide (série en cours). */
   endDate: string;
   description: string;
 }

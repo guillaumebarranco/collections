@@ -25,7 +25,8 @@ type SessionCompletionType = 'platined' | 'hundred' | 'finished' | 'none';
 type AddGameSessionForm = {
   completion: SessionCompletionType;
   additionnalEstimatedTime: number;
-  finishedSessionDate: string;
+  sessionStartDate: string;
+  sessionEndDate: string;
 };
 
 type AddGameUserForm = {
@@ -76,7 +77,7 @@ export class AddGameComponent {
   userForm = signal<AddGameUserForm>({
     rating: 0,
     sessions: [
-      { completion: 'none', additionnalEstimatedTime: 0, finishedSessionDate: '' },
+      { completion: 'none', additionnalEstimatedTime: 0, sessionStartDate: '', sessionEndDate: '' },
     ],
     owned: false,
     borrowed: '',
@@ -131,25 +132,41 @@ export class AddGameComponent {
     const current = this.userForm();
     if (sessionIndex < 0 || sessionIndex >= current.sessions.length) return;
     const next = [...current.sessions];
-    const prevDate = (next[sessionIndex]?.finishedSessionDate ?? '').trim();
+    const prevEndDate = (next[sessionIndex]?.sessionEndDate ?? '').trim();
     next[sessionIndex] = {
       ...next[sessionIndex],
       completion,
-      finishedSessionDate:
+      sessionEndDate:
         completion === 'none'
           ? ''
-          : prevDate || new Date().toISOString().slice(0, 10),
+          : prevEndDate || new Date().toISOString().slice(0, 10),
+      sessionStartDate:
+        completion === 'none'
+          ? (next[sessionIndex]?.sessionStartDate ?? '')
+          : (next[sessionIndex]?.sessionStartDate ?? '').trim() ||
+            new Date().toISOString().slice(0, 10),
     };
     this.userForm.set({ ...current, sessions: next });
   }
 
-  updateSessionFinishedDate(sessionIndex: number, value: string) {
+  updateSessionStartDate(sessionIndex: number, value: string) {
     const current = this.userForm();
     if (sessionIndex < 0 || sessionIndex >= current.sessions.length) return;
     const next = [...current.sessions];
     next[sessionIndex] = {
       ...next[sessionIndex],
-      finishedSessionDate: typeof value === 'string' ? value : '',
+      sessionStartDate: typeof value === 'string' ? value : '',
+    };
+    this.userForm.set({ ...current, sessions: next });
+  }
+
+  updateSessionEndDate(sessionIndex: number, value: string) {
+    const current = this.userForm();
+    if (sessionIndex < 0 || sessionIndex >= current.sessions.length) return;
+    const next = [...current.sessions];
+    next[sessionIndex] = {
+      ...next[sessionIndex],
+      sessionEndDate: typeof value === 'string' ? value : '',
     };
     this.userForm.set({ ...current, sessions: next });
   }
@@ -172,7 +189,7 @@ export class AddGameComponent {
       ...current,
       sessions: [
         ...current.sessions,
-        { completion: 'none', additionnalEstimatedTime: 0, finishedSessionDate: '' },
+        { completion: 'none', additionnalEstimatedTime: 0, sessionStartDate: '', sessionEndDate: '' },
       ],
     });
   }
@@ -245,7 +262,8 @@ export class AddGameComponent {
           platinedGame: f.completion === 'platined',
           additionnalEstimatedTime:
             f.completion === 'none' ? f.additionnalEstimatedTime ?? 0 : 0,
-          finishedSessionDate: this.resolveFinishedSessionDateForPayload(f),
+          sessionStartDate: f.sessionStartDate ?? '',
+          sessionEndDate: this.resolveSessionEndDateForPayload(f),
           currentlyPlaying: false,
         }))
       );
@@ -284,8 +302,8 @@ export class AddGameComponent {
     }
   }
 
-  private resolveFinishedSessionDateForPayload(f: AddGameSessionForm): string {
-    const trimmed = (f.finishedSessionDate ?? '').trim();
+  private resolveSessionEndDateForPayload(f: AddGameSessionForm): string {
+    const trimmed = (f.sessionEndDate ?? '').trim();
     if (trimmed) return trimmed;
     if (f.completion === 'none') return '';
     return new Date().toISOString().slice(0, 10);

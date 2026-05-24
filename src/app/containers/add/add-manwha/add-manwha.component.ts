@@ -11,7 +11,8 @@ type AddManwhaEntityForm = {
   coverUrl: string;
   genre: string;
   nbChapters: number;
-  isFinished: boolean;
+  startDate: string;
+  endDate: string;
   description: string;
 };
 
@@ -52,7 +53,8 @@ export class AddManwhaComponent {
     coverUrl: '',
     genre: '',
     nbChapters: 0,
-    isFinished: true,
+    startDate: '',
+    endDate: '',
     description: '',
   });
 
@@ -103,14 +105,6 @@ export class AddManwhaComponent {
     this.userForm.set({
       ...current,
       [field]: nextValue,
-    });
-  }
-
-  updateCheckbox(field: 'isFinished', checked: boolean) {
-    const current = this.entityForm();
-    this.entityForm.set({
-      ...current,
-      [field]: checked,
     });
   }
 

@@ -1,4 +1,4 @@
-import { Component, computed, input, signal } from '@angular/core';
+import { Component, computed, ElementRef, inject, input, signal } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import type { Book } from '../../../models/book-model';
 import type { Movie } from '../../../models/movie-model';
@@ -38,6 +38,8 @@ import {
   styleUrls: ['./dashboard-monthly-activity.component.scss'],
 })
 export class DashboardMonthlyActivityComponent {
+  private readonly host = inject(ElementRef<HTMLElement>);
+
   readonly books = input<Book[]>([]);
   readonly mangas = input<Manga[]>([]);
   readonly comics = input<Comic[]>([]);
@@ -212,13 +214,25 @@ export class DashboardMonthlyActivityComponent {
     });
   });
 
-  onPeriodChange(value: string): void {
+  onPeriodChange(value: string, scrollToTop = false): void {
     if (
       value === 'rolling30' ||
       value === 'yearly' ||
       parseYearTabValue(value) != null
     ) {
       this.periodTab.set(value);
+      if (scrollToTop) {
+        this.scrollToBlockStart();
+      }
     }
+  }
+
+  private scrollToBlockStart(): void {
+    requestAnimationFrame(() => {
+      this.host.nativeElement.scrollIntoView({
+        behavior: 'smooth',
+        block: 'start',
+      });
+    });
   }
 }

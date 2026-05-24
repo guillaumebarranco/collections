@@ -77,7 +77,7 @@
     } @if (manwha.nbChapters) {
     <p>
       <span class="book-pages">{{ manwha.nbChapters }} chapitres</span>
-      @if(!manwha.isFinished) {
+      @if(!manwha.endDate.trim()) {
       <span class="book-pages"> (En cours)</span>
       }
     </p>

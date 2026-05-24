@@ -68,15 +68,27 @@
         />
       </div>
 
-      <div class="form-row checkbox-row">
-        <label for="isFinished">Série terminée</label>
+      <div class="form-row">
+        <label for="startDate">Date de début de parution</label>
         <input
-          id="isFinished"
-          type="checkbox"
-          [checked]="entityForm().isFinished"
-          (change)="updateCheckbox('isFinished', $any($event).target.checked)"
-          name="isFinished"
+          id="startDate"
+          type="date"
+          [ngModel]="entityForm().startDate"
+          (ngModelChange)="updateEntityField('startDate', $event)"
+          name="startDate"
         />
+      </div>
+
+      <div class="form-row">
+        <label for="endDate">Date de fin de parution</label>
+        <input
+          id="endDate"
+          type="date"
+          [ngModel]="entityForm().endDate"
+          (ngModelChange)="updateEntityField('endDate', $event)"
+          name="endDate"
+        />
+        <p class="field-hint">Laisser vide si la série est en cours.</p>
       </div>
     </section>
 

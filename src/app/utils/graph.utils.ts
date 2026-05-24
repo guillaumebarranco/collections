@@ -1,4 +1,244 @@
-import * as d3 from 'd3';
+﻿import * as d3 from 'd3';
+import type { ScanTrackingPeriod } from './dashboard-monthly-activity.utils';
+
+const SCAN_TRACKING_CHART_COLORS = [
+  '#4e79a7',
+  '#f28e2b',
+  '#e15759',
+  '#76b7b2',
+  '#59a14f',
+  '#edc948',
+  '#b07aa1',
+  '#ff9da7',
+  '#9c755f',
+  '#bab0ac',
+  '#1f77b4',
+  '#ff7f0e',
+  '#2ca02c',
+  '#d62728',
+  '#9467bd',
+  '#8c564b',
+  '#e377c2',
+  '#7f7f7f',
+  '#bcbd22',
+  '#17becf',
+];
+
+function formatScanChartDate(date: Date): string {
+  return date.toLocaleDateString('fr-FR', {
+    day: '2-digit',
+    month: '2-digit',
+    year: 'numeric',
+  });
+}
+
+function measureMaxTextWidth(
+  svg: d3.Selection<SVGSVGElement, unknown, null, undefined>,
+  texts: string[],
+  fontSize: number,
+): number {
+  const tempText = svg
+    .append('text')
+    .attr('visibility', 'hidden')
+    .attr('font-size', `${fontSize}px`)
+    .attr('font-family', 'sans-serif');
+
+  let maxWidth = 0;
+  texts.forEach((text) => {
+    tempText.text(text);
+    maxWidth = Math.max(
+      maxWidth,
+      (tempText.node() as SVGTextElement).getBBox().width,
+    );
+  });
+
+  tempText.remove();
+  return maxWidth;
+}
+
+export function renderScanTrackingTimelineChart(
+  container: HTMLElement | null | undefined,
+  periods: ScanTrackingPeriod[],
+  options: {
+    startYear: number;
+    endYear: number;
+  },
+): void {
+  if (!container || periods.length === 0) {
+    return;
+  }
+
+  const { startYear, endYear } = options;
+  const rangeStart = new Date(startYear, 0, 1);
+  rangeStart.setHours(0, 0, 0, 0);
+  const rangeEnd = new Date(endYear, 11, 31, 23, 59, 59, 999);
+
+  const rows = periods
+    .map((period) => {
+      const displayStart =
+        period.start.getTime() < rangeStart.getTime()
+          ? rangeStart
+          : period.start;
+      const displayEnd =
+        period.end.getTime() > rangeEnd.getTime() ? rangeEnd : period.end;
+      return { ...period, displayStart, displayEnd };
+    })
+    .filter(
+      (period) => period.displayEnd.getTime() >= period.displayStart.getTime(),
+    );
+
+  if (rows.length === 0) {
+    return;
+  }
+
+  d3.select(container).selectAll('*').remove();
+
+  const colorByKey = new Map<string, string>();
+  rows.forEach((row, index) => {
+    colorByKey.set(
+      row.key,
+      SCAN_TRACKING_CHART_COLORS[index % SCAN_TRACKING_CHART_COLORS.length],
+    );
+  });
+
+  const containerWidth = container.clientWidth || 600;
+  const width = Math.max(containerWidth, 320);
+  const rowHeight = 28;
+  const labelFontSize = 11;
+  const swatchSize = 10;
+  const swatchGap = 6;
+  const rowTitles = rows.map((row) => row.label);
+
+  const svg = d3
+    .select(container)
+    .append('svg')
+    .attr('viewBox', `0 0 ${width} 100`)
+    .attr('preserveAspectRatio', 'xMinYMin meet');
+
+  const maxTitleWidth = measureMaxTextWidth(svg, rowTitles, labelFontSize);
+  const labelColumnWidth = Math.min(
+    220,
+    Math.ceil(maxTitleWidth + swatchSize + swatchGap + 4),
+  );
+  const margin = {
+    top: 16,
+    right: 24,
+    bottom: 44,
+    left: labelColumnWidth + 12,
+  };
+  const chartHeight = rows.length * rowHeight;
+  const height = margin.top + chartHeight + margin.bottom;
+
+  svg.attr('viewBox', `0 0 ${width} ${height}`);
+
+  const tooltip = d3
+    .select(container)
+    .append('div')
+    .attr('class', 'chart-tooltip');
+
+  const x = d3
+    .scaleTime()
+    .domain([rangeStart, rangeEnd])
+    .range([margin.left, width - margin.right]);
+
+  const y = d3
+    .scaleBand<string>()
+    .domain(rows.map((row) => row.key))
+    .range([margin.top, margin.top + chartHeight])
+    .padding(0.25);
+
+  const gridYears = d3.range(startYear, endYear + 1, 2);
+  svg
+    .append('g')
+    .attr('class', 'scan-timeline-grid')
+    .selectAll('line')
+    .data(gridYears)
+    .join('line')
+    .attr('x1', (year) => x(new Date(year, 0, 1)))
+    .attr('x2', (year) => x(new Date(year, 0, 1)))
+    .attr('y1', margin.top)
+    .attr('y2', margin.top + chartHeight)
+    .attr('stroke', '#e3e6ea');
+
+  svg
+    .append('g')
+    .attr('class', 'scan-timeline-labels')
+    .selectAll('g')
+    .data(rows)
+    .join('g')
+    .attr('class', 'scan-timeline-label')
+    .attr('transform', (row) => {
+      const yPos = (y(row.key) ?? 0) + y.bandwidth() / 2;
+      return `translate(0, ${yPos})`;
+    })
+    .each(function (row) {
+      const group = d3.select(this);
+      const color = colorByKey.get(row.key) ?? '#4e79a7';
+
+      group
+        .append('rect')
+        .attr('x', 0)
+        .attr('y', -swatchSize / 2)
+        .attr('width', swatchSize)
+        .attr('height', swatchSize)
+        .attr('rx', 2)
+        .attr('fill', color);
+
+      group
+        .append('text')
+        .attr('x', swatchSize + swatchGap)
+        .attr('y', 0)
+        .attr('dy', '0.35em')
+        .attr('fill', '#495057')
+        .attr('font-size', `${labelFontSize}px`)
+        .attr('font-family', 'sans-serif')
+        .text(row.label);
+    });
+
+  svg
+    .append('g')
+    .attr('class', 'scan-timeline-bars')
+    .selectAll('rect')
+    .data(rows)
+    .join('rect')
+    .attr('x', (row) => x(row.displayStart))
+    .attr('y', (row) => y(row.key) ?? 0)
+    .attr('width', (row) =>
+      Math.max(2, x(row.displayEnd) - x(row.displayStart)),
+    )
+    .attr('height', y.bandwidth())
+    .attr('rx', 3)
+    .attr('fill', (row) => colorByKey.get(row.key) ?? '#4e79a7')
+    .on('mouseenter', (event: MouseEvent, row) => {
+      tooltip
+        .style('opacity', '1')
+        .html(
+          `<strong>${row.label}</strong><br/>${formatScanChartDate(row.start)} â†’ ${formatScanChartDate(row.end)}`,
+        );
+      const [xPos, yPos] = d3.pointer(event, container);
+      tooltip.style('left', `${xPos + 10}px`).style('top', `${yPos - 10}px`);
+    })
+    .on('mousemove', (event: MouseEvent) => {
+      const [xPos, yPos] = d3.pointer(event, container);
+      tooltip.style('left', `${xPos + 10}px`).style('top', `${yPos - 10}px`);
+    })
+    .on('mouseleave', () => {
+      tooltip.style('opacity', '0');
+    });
+
+  svg
+    .append('g')
+    .attr('transform', `translate(0,${margin.top + chartHeight})`)
+    .call(
+      d3
+        .axisBottom(x)
+        .ticks(d3.timeYear.every(2))
+        .tickFormat((value) => d3.timeFormat('%Y')(value as Date)),
+    )
+    .selectAll('text')
+    .attr('transform', 'rotate(-25)')
+    .style('text-anchor', 'end');
+}
 
 export function renderBooksReadChart(
   container: any,
@@ -309,7 +549,7 @@ export function renderMoviesWatchedChart(
     .call(d3.axisLeft(y).ticks(5).tickFormat(d3.format('d')));
 }
 
-/** Graphique saisons de séries visionnées par an (basé sur lastViewedDate des saisons). */
+/** Graphique saisons de sÃ©ries visionnÃ©es par an (basÃ© sur lastViewedDate des saisons). */
 export function renderSeriesSeasonsViewedChart(
   container: any,
   seriesSeasonsTotal: number,
@@ -381,7 +621,7 @@ export function renderSeriesSeasonsViewedChart(
     .on('mouseenter', (event: any, d: any) => {
       tooltip
         .style('opacity', '1')
-        .text(`${d.count} saison(s) visionnée(s)`);
+        .text(`${d.count} saison(s) visionnÃ©e(s)`);
       const [xPos, yPos] = d3.pointer(event, container);
       tooltip.style('left', `${xPos + 10}px`).style('top', `${yPos - 10}px`);
     })
