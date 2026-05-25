@@ -29,16 +29,19 @@ import { Book } from '../../../models/book-model';
 import { Serie } from '../../../models/serie-model';
 import { Manga } from '../../../models/manga-model';
 import { Manwha } from '../../../models/manwha-model';
+import { Game } from '../../../models/game-model';
 import { DEFAULT_USER_ID } from '../../../utils/constants';
 import { getAllMovies } from '../../../facades/movies/movies.facade';
 import { getAllBooks } from '../../../facades/books/books.facade';
 import { getAllSeries } from '../../../facades/series/series.facade';
 import { getAllMangas } from '../../../facades/mangas/mangas.facade';
 import { getAllManwhas } from '../../../facades/manwhas/manwhas.facade';
+import { getAllGames } from '../../../facades/games/games.facade';
 import {
   getMangaScanTrackingPeriods,
   getManwhaScanTrackingPeriods,
   getCombinedMangaManwhaScanTrackingPeriods,
+  getGameSessionTrackingPeriods,
   SCAN_CHART_START_YEAR,
 } from '../../../utils/dashboard-monthly-activity.utils';
 import {
@@ -65,6 +68,7 @@ const ENTITIES_WITH_CHARTS: EntityType[] = [
   'movies',
   'books',
   'series',
+  'games',
   'mangas',
   'manwhas',
 ];
@@ -113,6 +117,7 @@ export class DashboardEntityChartsComponent implements OnInit, AfterViewInit {
   seriesList = signal<{ [key: string]: Serie[] }>({});
   mangasList = signal<{ [key: string]: Manga[] }>({});
   manwhasList = signal<{ [key: string]: Manwha[] }>({});
+  gamesList = signal<{ [key: string]: Game[] }>({});
 
   /** Inclure les relectures (lastReadDate + otherReadDates) dans le graphique livres. */
   showBookRereads = signal(true);
@@ -141,6 +146,9 @@ export class DashboardEntityChartsComponent implements OnInit, AfterViewInit {
   @ViewChild('combinedScanChart')
   combinedScanChart?: ElementRef<HTMLDivElement>;
 
+  @ViewChild('gamesSessionChart')
+  gamesSessionChart?: ElementRef<HTMLDivElement>;
+
   readonly scanChartStartYear = SCAN_CHART_START_YEAR;
 
   currentYear = new Date().getFullYear();
@@ -168,6 +176,10 @@ export class DashboardEntityChartsComponent implements OnInit, AfterViewInit {
 
   allManwhas = computed<Manwha[]>(() => {
     return this.manwhasList()[this.userId()] || [];
+  });
+
+  allGames = computed<Game[]>(() => {
+    return this.gamesList()[this.userId()] || [];
   });
 
   hasChartForEntity = (entity: EntityType): boolean =>
@@ -384,6 +396,24 @@ export class DashboardEntityChartsComponent implements OnInit, AfterViewInit {
     () => this.combinedScanPeriods().filter((p) => p.key.startsWith('manwha:')).length,
   );
 
+  gameSessionPeriods = computed(() =>
+    getGameSessionTrackingPeriods(
+      this.allGames(),
+      this.scanChartStartYear,
+      new Date(),
+    ),
+  );
+
+  gameSessionPeriodsGameCount = computed(() => {
+    const gameKeys = new Set(
+      this.gameSessionPeriods().map((p) => {
+        const lastPipe = p.key.lastIndexOf('|');
+        return lastPipe >= 0 ? p.key.slice(0, lastPipe) : p.key;
+      }),
+    );
+    return gameKeys.size;
+  });
+
   getEntityLabel(entity: EntityType): string {
     const labels: { [key in EntityType]: string } = {
       movies: '🎬 Films',
@@ -432,6 +462,7 @@ export class DashboardEntityChartsComponent implements OnInit, AfterViewInit {
       this.mangaScanPeriods();
       this.manwhaScanPeriods();
       this.combinedScanPeriods();
+      this.gameSessionPeriods();
       untracked(() => {
         requestAnimationFrame(() => this.refreshChartsForEntity(entity));
       });
@@ -486,6 +517,16 @@ export class DashboardEntityChartsComponent implements OnInit, AfterViewInit {
         });
       });
     });
+
+    effect(() => {
+      this.gameSessionPeriods();
+      if (this.effectiveEntity() !== 'games') {
+        return;
+      }
+      untracked(() => {
+        requestAnimationFrame(() => this.renderGamesSessionChart());
+      });
+    });
   }
 
   ngOnInit() {
@@ -494,6 +535,7 @@ export class DashboardEntityChartsComponent implements OnInit, AfterViewInit {
     void this.loadSeriesData();
     void this.loadMangasData();
     void this.loadManwhasData();
+    void this.loadGamesData();
   }
 
   ngAfterViewInit() {
@@ -566,6 +608,15 @@ export class DashboardEntityChartsComponent implements OnInit, AfterViewInit {
     });
   }
 
+  private async loadGamesData() {
+    const uid = this.userId();
+    const games = await getAllGames(uid);
+    this.gamesList.set(games);
+    if (this.effectiveEntity() === 'games') {
+      requestAnimationFrame(() => this.renderGamesSessionChart());
+    }
+  }
+
   private refreshChartsForEntity(entity: EntityType): void {
     if (entity === 'movies') {
       this.renderMoviesWatchedChart();
@@ -580,6 +631,8 @@ export class DashboardEntityChartsComponent implements OnInit, AfterViewInit {
     } else if (entity === 'manwhas') {
       this.renderManwhaScanChart();
       this.renderCombinedScanChart();
+    } else if (entity === 'games') {
+      this.renderGamesSessionChart();
     }
   }
 
@@ -690,6 +743,17 @@ export class DashboardEntityChartsComponent implements OnInit, AfterViewInit {
     }
     const container = this.combinedScanChart?.nativeElement;
     renderScanTrackingTimelineChart(container, this.combinedScanPeriods(), {
+      startYear: this.scanChartStartYear,
+      endYear: this.currentYear,
+    });
+  }
+
+  private renderGamesSessionChart(): void {
+    if (this.effectiveEntity() !== 'games') {
+      return;
+    }
+    const container = this.gamesSessionChart?.nativeElement;
+    renderScanTrackingTimelineChart(container, this.gameSessionPeriods(), {
       startYear: this.scanChartStartYear,
       endYear: this.currentYear,
     });

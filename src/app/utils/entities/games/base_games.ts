@@ -1622,7 +1622,7 @@ export const baseGames: BaseGame[] = [
     editor: 'Softnyx',
     hero: 'Artilleur',
     coverUrl: '/games_pictures/11820829.jpg',
-    releaseDate: '2005-01-01',
+    releaseDate: '2007-03-28',
     averageTimeToFinish: 0,
     averageTimeToHundredPercent: 0,
     platform: 'PC',

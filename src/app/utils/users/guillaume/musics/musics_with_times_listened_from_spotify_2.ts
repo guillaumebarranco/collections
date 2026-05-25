@@ -87,7 +87,7 @@ export const musicsOthers: UserMusic[] = [
 
   {
     title: 'Warrior Falls',
-    artist: 'Ludwig GÃ¶ransson',
+    artist: 'Ludwig Göransson',
     rating: 0,
     timesListened: 4,
   },
@@ -983,7 +983,7 @@ export const musicsOthers: UserMusic[] = [
 
   {
     title: 'Ancestral Plane',
-    artist: 'Ludwig GÃ¶ransson',
+    artist: 'Ludwig Göransson',
     rating: 0,
     timesListened: 4,
   },
@@ -1417,7 +1417,7 @@ export const musicsOthers: UserMusic[] = [
 
   {
     title: 'Wakanda Origins',
-    artist: 'Ludwig GÃ¶ransson',
+    artist: 'Ludwig Göransson',
     rating: 0,
     timesListened: 4,
   },
@@ -2861,7 +2861,7 @@ export const musicsOthers: UserMusic[] = [
 
   {
     title: 'House of Love',
-    artist: 'NaÃ¢man',
+    artist: 'Naâman',
     rating: 0,
     timesListened: 3,
   },
@@ -2959,7 +2959,7 @@ export const musicsOthers: UserMusic[] = [
 
   {
     title: 'United Nations / End Titles',
-    artist: 'Ludwig GÃ¶ransson',
+    artist: 'Ludwig Göransson',
     rating: 0,
     timesListened: 3,
   },
@@ -4828,7 +4828,7 @@ export const musicsOthers: UserMusic[] = [
 
   {
     title: 'Glory to Bast',
-    artist: 'Ludwig GÃ¶ransson',
+    artist: 'Ludwig Göransson',
     rating: 0,
     timesListened: 2,
   },
@@ -5305,7 +5305,7 @@ export const musicsOthers: UserMusic[] = [
 
   {
     title: 'The Jabari Pt II',
-    artist: 'Ludwig GÃ¶ransson',
+    artist: 'Ludwig Göransson',
     rating: 0,
     timesListened: 2,
   },
@@ -6020,7 +6020,7 @@ export const musicsOthers: UserMusic[] = [
 
   {
     title: 'We Can Be the Rulers',
-    artist: 'MÃ¥ns ZelmerlÃ¶w',
+    artist: 'MÃ¥ns Zelmerlöw',
     rating: 0,
     timesListened: 2,
   },
@@ -6195,7 +6195,7 @@ export const musicsOthers: UserMusic[] = [
 
   {
     title: 'A New Day',
-    artist: 'Ludwig GÃ¶ransson',
+    artist: 'Ludwig Göransson',
     rating: 0,
     timesListened: 2,
   },
@@ -8438,7 +8438,7 @@ export const musicsOthers: UserMusic[] = [
   },
 
   {
-    title: 'ChÃ¢teau de cartes',
+    title: 'Château de cartes',
     artist: 'Lorage',
     rating: 0,
     timesListened: 2,
@@ -9138,7 +9138,7 @@ export const musicsOthers: UserMusic[] = [
   },
 
   {
-    title: 'Tout lÃ¢cher - Colors Session',
+    title: 'Tout lâcher - Colors Session',
     artist: 'Lomepal',
     rating: 0,
     timesListened: 2,
@@ -10602,7 +10602,7 @@ export const musicsOthers: UserMusic[] = [
 
   {
     title: 'Royal Talon Fighter',
-    artist: 'Ludwig GÃ¶ransson',
+    artist: 'Ludwig Göransson',
     rating: 0,
     timesListened: 2,
   },
@@ -11071,7 +11071,7 @@ export const musicsOthers: UserMusic[] = [
 
   {
     title: 'Spaceship Bugatti',
-    artist: 'Ludwig GÃ¶ransson',
+    artist: 'Ludwig Göransson',
     rating: 0,
     timesListened: 2,
   },

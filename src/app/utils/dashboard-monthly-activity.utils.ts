@@ -377,7 +377,46 @@ export type ScanTrackingPeriod = {
   label: string;
   start: Date;
   end: Date;
+  /** Libellé de durée au survol (ex. temps de jeu d’une session). */
+  durationLabel?: string;
 };
+
+/** Nombre de jours calendaires inclus entre deux dates d’activité. */
+export function inclusiveActivityPeriodDays(start: Date, end: Date): number {
+  const startDay = new Date(start);
+  startDay.setHours(0, 0, 0, 0);
+  const endDay = new Date(end);
+  endDay.setHours(0, 0, 0, 0);
+  const msPerDay = 24 * 60 * 60 * 1000;
+  return Math.max(
+    1,
+    Math.round((endDay.getTime() - startDay.getTime()) / msPerDay) + 1,
+  );
+}
+
+/** Durée lisible : jours si moins d’un an, sinon années (décimale si besoin). */
+export function formatActivityPeriodDurationLabel(
+  start: Date,
+  end: Date,
+): string {
+  const days = inclusiveActivityPeriodDays(start, end);
+  if (days < 365) {
+    return days === 1 ? '1 jour' : `${days} jours`;
+  }
+
+  const years = days / 365.25;
+  const roundedTenth = Math.round(years * 10) / 10;
+  const wholeYears = Math.round(roundedTenth);
+
+  if (Math.abs(roundedTenth - wholeYears) < 0.05) {
+    return wholeYears <= 1 ? '1 an' : `${wholeYears} ans`;
+  }
+
+  return `${roundedTenth.toLocaleString('fr-FR', {
+    minimumFractionDigits: 1,
+    maximumFractionDigits: 1,
+  })} ans`;
+}
 
 function buildScanTrackingPeriods<
   T extends {
@@ -496,6 +535,68 @@ export function getCombinedMangaManwhaScanTrackingPeriods(
   }));
 
   return [...mangaPeriods, ...manwhaPeriods].sort(
+    (a, b) =>
+      a.start.getTime() - b.start.getTime() ||
+      a.label.localeCompare(b.label, 'fr')
+  );
+}
+
+/** Périodes de jeu par session (sessionStartDate / sessionEndDate) pour le graphique timeline. */
+export function getGameSessionTrackingPeriods(
+  games: Game[],
+  startYear = SCAN_CHART_START_YEAR,
+  reference = new Date()
+): ScanTrackingPeriod[] {
+  const rangeStart = new Date(startYear, 0, 1);
+  rangeStart.setHours(0, 0, 0, 0);
+  const rangeEnd = new Date(reference);
+  rangeEnd.setHours(23, 59, 59, 999);
+
+  const periods: ScanTrackingPeriod[] = [];
+
+  for (const game of games) {
+    const sessions = game.sessions ?? [];
+    const datedSessionIndexes = sessions
+      .map((session, index) => ({ session, index }))
+      .filter(({ session }) => getGameSessionActivityStart(session) !== null);
+
+    const showSessionNumber = datedSessionIndexes.length > 1;
+
+    for (const { session, index } of datedSessionIndexes) {
+      const sessionStart = getGameSessionActivityStart(session);
+      if (!sessionStart) {
+        continue;
+      }
+      const sessionEnd = getGameSessionActivityEnd(session, reference);
+      if (!sessionEnd || sessionEnd.getTime() < sessionStart.getTime()) {
+        continue;
+      }
+      if (
+        sessionEnd.getTime() < rangeStart.getTime() ||
+        sessionStart.getTime() > rangeEnd.getTime()
+      ) {
+        continue;
+      }
+
+      const key = `${game.title}|${game.editor}|${index}`;
+      const label = showSessionNumber
+        ? `${game.title} (session ${index + 1})`
+        : game.title;
+
+      periods.push({
+        key,
+        label,
+        start: sessionStart,
+        end: sessionEnd,
+        durationLabel: formatActivityPeriodDurationLabel(
+          sessionStart,
+          sessionEnd,
+        ),
+      });
+    }
+  }
+
+  return periods.sort(
     (a, b) =>
       a.start.getTime() - b.start.getTime() ||
       a.label.localeCompare(b.label, 'fr')
@@ -961,15 +1062,11 @@ function getGameSessionActivityEnd(
     end.setHours(23, 59, 59, 999);
     return end;
   }
-  if (session.currentlyPlaying) {
+  const start = parseActivityDate(session.sessionStartDate);
+  if (start || session.currentlyPlaying) {
     const todayEnd = new Date(reference);
     todayEnd.setHours(23, 59, 59, 999);
     return todayEnd;
-  }
-  const start = parseActivityDate(session.sessionStartDate);
-  if (start) {
-    start.setHours(23, 59, 59, 999);
-    return start;
   }
   return null;
 }

@@ -65,7 +65,7 @@
       cursor: pointer;
       user-select: none;
 
-      input[type='checkbox'] {
+      input[type="checkbox"] {
         width: 16px;
         height: 16px;
         cursor: pointer;
@@ -104,20 +104,6 @@
     .cinema-grid path {
       stroke: transparent;
     }
-  }
-
-  :host ::ng-deep .chart-tooltip {
-    position: absolute;
-    pointer-events: none;
-    opacity: 0;
-    background: #212529;
-    color: #fff;
-    padding: 6px 10px;
-    border-radius: 6px;
-    font-size: 0.85rem;
-    white-space: nowrap;
-    transform: translateY(-50%);
-    transition: opacity 0.1s ease;
   }
 
   .chart-description {

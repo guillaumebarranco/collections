@@ -32,10 +32,31 @@ function formatScanChartDate(date: Date): string {
   });
 }
 
+function formatScanTrackingTooltipHtml(row: ScanTrackingPeriod): string {
+  const durationLine = row.durationLabel
+    ? `<br/>Temps de jeu : <strong>${row.durationLabel}</strong>`
+    : '';
+  return `<strong>${row.label}</strong><br/>${formatScanChartDate(
+    row.start,
+  )} → ${formatScanChartDate(row.end)}${durationLine}`;
+}
+
+/** Positionne la tooltip au curseur (viewport), pour les graphiques SVG scrollables. */
+function positionChartTooltipAtPointer(
+  tooltip: d3.Selection<HTMLDivElement, unknown, null, undefined>,
+  event: MouseEvent,
+): void {
+  tooltip
+    .style('position', 'fixed')
+    .style('left', `${event.clientX + 12}px`)
+    .style('top', `${event.clientY + 12}px`)
+    .style('z-index', '10000');
+}
+
 function measureMaxTextWidth(
   svg: d3.Selection<SVGSVGElement, unknown, null, undefined>,
   texts: string[],
-  fontSize: number,
+  fontSize: number
 ): number {
   const tempText = svg
     .append('text')
@@ -48,7 +69,7 @@ function measureMaxTextWidth(
     tempText.text(text);
     maxWidth = Math.max(
       maxWidth,
-      (tempText.node() as SVGTextElement).getBBox().width,
+      (tempText.node() as SVGTextElement).getBBox().width
     );
   });
 
@@ -62,7 +83,7 @@ export function renderScanTrackingTimelineChart(
   options: {
     startYear: number;
     endYear: number;
-  },
+  }
 ): void {
   if (!container || periods.length === 0) {
     return;
@@ -84,7 +105,7 @@ export function renderScanTrackingTimelineChart(
       return { ...period, displayStart, displayEnd };
     })
     .filter(
-      (period) => period.displayEnd.getTime() >= period.displayStart.getTime(),
+      (period) => period.displayEnd.getTime() >= period.displayStart.getTime()
     );
 
   if (rows.length === 0) {
@@ -97,7 +118,7 @@ export function renderScanTrackingTimelineChart(
   rows.forEach((row, index) => {
     colorByKey.set(
       row.key,
-      SCAN_TRACKING_CHART_COLORS[index % SCAN_TRACKING_CHART_COLORS.length],
+      SCAN_TRACKING_CHART_COLORS[index % SCAN_TRACKING_CHART_COLORS.length]
     );
   });
 
@@ -118,10 +139,10 @@ export function renderScanTrackingTimelineChart(
   const maxTitleWidth = measureMaxTextWidth(svg, rowTitles, labelFontSize);
   const labelColumnWidth = Math.min(
     220,
-    Math.ceil(maxTitleWidth + swatchSize + swatchGap + 4),
+    Math.ceil(maxTitleWidth + swatchSize + swatchGap + 4)
   );
   const margin = {
-    top: 16,
+    top: 44,
     right: 24,
     bottom: 44,
     left: labelColumnWidth + 12,
@@ -204,40 +225,59 @@ export function renderScanTrackingTimelineChart(
     .attr('x', (row) => x(row.displayStart))
     .attr('y', (row) => y(row.key) ?? 0)
     .attr('width', (row) =>
-      Math.max(2, x(row.displayEnd) - x(row.displayStart)),
+      Math.max(2, x(row.displayEnd) - x(row.displayStart))
     )
     .attr('height', y.bandwidth())
     .attr('rx', 3)
     .attr('fill', (row) => colorByKey.get(row.key) ?? '#4e79a7')
     .on('mouseenter', (event: MouseEvent, row) => {
-      tooltip
-        .style('opacity', '1')
-        .html(
-          `<strong>${row.label}</strong><br/>${formatScanChartDate(row.start)} â†’ ${formatScanChartDate(row.end)}`,
-        );
-      const [xPos, yPos] = d3.pointer(event, container);
-      tooltip.style('left', `${xPos + 10}px`).style('top', `${yPos - 10}px`);
+      tooltip.style('opacity', '1').html(formatScanTrackingTooltipHtml(row));
+      positionChartTooltipAtPointer(tooltip, event);
     })
     .on('mousemove', (event: MouseEvent) => {
-      const [xPos, yPos] = d3.pointer(event, container);
-      tooltip.style('left', `${xPos + 10}px`).style('top', `${yPos - 10}px`);
+      positionChartTooltipAtPointer(tooltip, event);
     })
     .on('mouseleave', () => {
       tooltip.style('opacity', '0');
     });
 
-  svg
-    .append('g')
-    .attr('transform', `translate(0,${margin.top + chartHeight})`)
-    .call(
-      d3
-        .axisBottom(x)
-        .ticks(d3.timeYear.every(2))
-        .tickFormat((value) => d3.timeFormat('%Y')(value as Date)),
-    )
-    .selectAll('text')
-    .attr('transform', 'rotate(-25)')
-    .style('text-anchor', 'end');
+  const yearTickFormat = (value: Date | d3.NumberValue) =>
+    d3.timeFormat('%Y')(value as Date);
+
+  const yearAxisTop = d3
+    .axisTop(x)
+    .ticks(d3.timeYear.every(2))
+    .tickFormat(yearTickFormat);
+
+  const yearAxisBottom = d3
+    .axisBottom(x)
+    .ticks(d3.timeYear.every(2))
+    .tickFormat(yearTickFormat);
+
+  const applyYearAxisLabelStyle = (
+    axisGroup: d3.Selection<SVGGElement, unknown, null, undefined>,
+  ) => {
+    axisGroup
+      .selectAll('text')
+      .attr('transform', 'rotate(-25)')
+      .style('text-anchor', 'end');
+  };
+
+  applyYearAxisLabelStyle(
+    svg
+      .append('g')
+      .attr('class', 'scan-timeline-axis scan-timeline-axis--top')
+      .attr('transform', `translate(0,${margin.top})`)
+      .call(yearAxisTop),
+  );
+
+  applyYearAxisLabelStyle(
+    svg
+      .append('g')
+      .attr('class', 'scan-timeline-axis scan-timeline-axis--bottom')
+      .attr('transform', `translate(0,${margin.top + chartHeight})`)
+      .call(yearAxisBottom),
+  );
 }
 
 export function renderBooksReadChart(
@@ -310,12 +350,10 @@ export function renderBooksReadChart(
     .attr('fill', '#28a745')
     .on('mouseenter', (event: any, d: any) => {
       tooltip.style('opacity', '1').text(`${d.count} livre(s)`);
-      const [xPos, yPos] = d3.pointer(event, container);
-      tooltip.style('left', `${xPos + 10}px`).style('top', `${yPos - 10}px`);
+      positionChartTooltipAtPointer(tooltip, event);
     })
     .on('mousemove', (event: any) => {
-      const [xPos, yPos] = d3.pointer(event, container);
-      tooltip.style('left', `${xPos + 10}px`).style('top', `${yPos - 10}px`);
+      positionChartTooltipAtPointer(tooltip, event);
     })
     .on('mouseleave', () => {
       tooltip.style('opacity', '0');
@@ -413,12 +451,10 @@ export function renderMoviesCinemaChart(
     .attr('fill', '#007bff')
     .on('mouseenter', (event: any, d: any) => {
       tooltip.style('opacity', '1').text(`${d.count} film(s)`);
-      const [xPos, yPos] = d3.pointer(event, container);
-      tooltip.style('left', `${xPos + 10}px`).style('top', `${yPos - 10}px`);
+      positionChartTooltipAtPointer(tooltip, event);
     })
     .on('mousemove', (event: any) => {
-      const [xPos, yPos] = d3.pointer(event, container);
-      tooltip.style('left', `${xPos + 10}px`).style('top', `${yPos - 10}px`);
+      positionChartTooltipAtPointer(tooltip, event);
     })
     .on('mouseleave', () => {
       tooltip.style('opacity', '0');
@@ -516,12 +552,10 @@ export function renderMoviesWatchedChart(
     .attr('fill', '#17a2b8')
     .on('mouseenter', (event: any, d: any) => {
       tooltip.style('opacity', '1').text(`${d.count} film(s) vus`);
-      const [xPos, yPos] = d3.pointer(event, container);
-      tooltip.style('left', `${xPos + 10}px`).style('top', `${yPos - 10}px`);
+      positionChartTooltipAtPointer(tooltip, event);
     })
     .on('mousemove', (event: any) => {
-      const [xPos, yPos] = d3.pointer(event, container);
-      tooltip.style('left', `${xPos + 10}px`).style('top', `${yPos - 10}px`);
+      positionChartTooltipAtPointer(tooltip, event);
     })
     .on('mouseleave', () => {
       tooltip.style('opacity', '0');
@@ -549,7 +583,7 @@ export function renderMoviesWatchedChart(
     .call(d3.axisLeft(y).ticks(5).tickFormat(d3.format('d')));
 }
 
-/** Graphique saisons de sÃ©ries visionnÃ©es par an (basÃ© sur lastViewedDate des saisons). */
+/** Graphique saisons de séries visionnées par an (basé sur lastViewedDate des saisons). */
 export function renderSeriesSeasonsViewedChart(
   container: any,
   seriesSeasonsTotal: number,
@@ -619,15 +653,11 @@ export function renderSeriesSeasonsViewedChart(
     .attr('rx', 3)
     .attr('fill', '#6f42c1')
     .on('mouseenter', (event: any, d: any) => {
-      tooltip
-        .style('opacity', '1')
-        .text(`${d.count} saison(s) visionnÃ©e(s)`);
-      const [xPos, yPos] = d3.pointer(event, container);
-      tooltip.style('left', `${xPos + 10}px`).style('top', `${yPos - 10}px`);
+      tooltip.style('opacity', '1').text(`${d.count} saison(s) visionnée(s)`);
+      positionChartTooltipAtPointer(tooltip, event);
     })
     .on('mousemove', (event: any) => {
-      const [xPos, yPos] = d3.pointer(event, container);
-      tooltip.style('left', `${xPos + 10}px`).style('top', `${yPos - 10}px`);
+      positionChartTooltipAtPointer(tooltip, event);
     })
     .on('mouseleave', () => {
       tooltip.style('opacity', '0');

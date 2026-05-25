@@ -638,7 +638,7 @@ export const ronanGames: UserGames = [
     ],
   },
   {
-    title: 'South Park: Le BÃ¢ton de la VÃ©ritÃ©',
+    title: 'South Park: Le Bâton de la Vérité',
     editor: 'Obsidian Entertainment',
     rating: 4,
     owned: false,
@@ -688,7 +688,7 @@ export const ronanGames: UserGames = [
     ],
   },
   {
-    title: 'God of War RagnarÃ¶k',
+    title: 'God of War Ragnarök',
     editor: 'Santa Monica Studio',
     rating: 4.5,
     owned: true,
@@ -1495,7 +1495,7 @@ export const ronanGames: UserGames = [
   },
   {
     title: 'Batman: Arkham Origins',
-    editor: 'WB Games MontrÃ©al',
+    editor: 'WB Games Montréal',
     rating: 4,
     owned: true,
     gamelistPriority: 1,
@@ -1997,7 +1997,7 @@ export const ronanGames: UserGames = [
   },
   {
     title: 'Gotham Knights',
-    editor: 'WB Games MontrÃ©al',
+    editor: 'WB Games Montréal',
     rating: 3,
     owned: true,
     gamelistPriority: 1,
@@ -2391,7 +2391,7 @@ export const ronanGames: UserGames = [
   },
   {
     title: "Marvel's Guardians of the Galaxy",
-    editor: 'Eidos-MontrÃ©al',
+    editor: 'Eidos-Montréal',
     rating: 4,
     owned: true,
     gamelistPriority: 1,
@@ -2453,7 +2453,7 @@ export const ronanGames: UserGames = [
     ],
   },
   {
-    title: 'Prince of Persia : Les Sables OubliÃ©s',
+    title: 'Prince of Persia : Les Sables Oubliés',
     editor: 'Ubisoft',
     rating: 3,
     owned: false,
@@ -3435,7 +3435,7 @@ export const ronanGames: UserGames = [
     ],
   },
   {
-    title: "Harry Potter Ã  l'Ã©cole des sorciers",
+    title: "Harry Potter Ã  l'école des sorciers",
     editor: 'Electronic Arts',
     rating: 3.5,
     owned: true,
@@ -3788,7 +3788,7 @@ export const ronanGames: UserGames = [
     ],
   },
   {
-    title: 'AstÃ©rix aux Jeux Olympiques',
+    title: 'Astérix aux Jeux Olympiques',
     editor: 'Atari',
     rating: 2.5,
     owned: false,
@@ -4091,7 +4091,7 @@ export const ronanGames: UserGames = [
     ],
   },
   {
-    title: "Harry Potter et l'Ordre du PhÃ©nix",
+    title: "Harry Potter et l'Ordre du Phénix",
     editor: 'Electronic Arts',
     rating: 2.5,
     owned: false,
@@ -4112,7 +4112,7 @@ export const ronanGames: UserGames = [
     ],
   },
   {
-    title: 'Harry Potter et le Prince de Sang MÃªlÃ©',
+    title: 'Harry Potter et le Prince de Sang MÃªlé',
     editor: 'Electronic Arts',
     rating: 2.5,
     owned: false,
@@ -4730,7 +4730,7 @@ export const ronanGames: UserGames = [
     ],
   },
   {
-    title: "Programme d'entraÃ®nement cÃ©rÃ©bral du Dr Kawashima",
+    title: "Programme d'entraÃ®nement cérébral du Dr Kawashima",
     editor: 'Nintendo',
     rating: 3,
     owned: false,

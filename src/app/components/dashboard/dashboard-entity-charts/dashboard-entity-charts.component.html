@@ -79,6 +79,26 @@
       </div>
       }
     </div>
+    } @if (effectiveEntity() === 'games') {
+    <div class="charts-section charts-section--wide">
+      <h3>🎮 Sessions de jeu ({{ scanChartStartYear }}-{{ currentYear }})</h3>
+      <p class="chart-description">
+        Période de chaque session de jeu (dates de début et de fin). Le titre et
+        la couleur sont affichés à gauche de chaque barre. Les jeux avec
+        plusieurs sessions sont numérotés.
+      </p>
+      @if (gameSessionPeriods().length === 0) {
+      <div class="no-data">
+        Aucune session de jeu datée depuis {{ scanChartStartYear }}.
+      </div>
+      } @else {
+      <div #gamesSessionChart class="scan-timeline-chart"></div>
+      <div class="chart-footnote">
+        {{ gameSessionPeriods().length }} session(s) sur
+        {{ gameSessionPeriodsGameCount() }} jeu(x)
+      </div>
+      }
+    </div>
     } @if (effectiveEntity() === 'series') {
     <div class="charts-section charts-section--wide">
       <h3>📺 Saisons visionnées par an (2000-{{ currentYear }})</h3>
