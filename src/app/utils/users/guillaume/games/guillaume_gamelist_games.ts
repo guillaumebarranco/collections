@@ -35,28 +35,7 @@ export const guillaumeGameListGames: UserGames = [
     loaned: '',
     sessions: [],
   },
-  {
-    title: 'Ratchet & Clank : Rift Apart',
-    editor: 'Insomniac Games',
-    rating: 0,
-    owned: false,
-    gamelistPriority: 1,
-    wantToPlayAgain: false,
-    ratingComment: '',
-    borrowed: '',
-    loaned: '',
-    sessions: [
-      {
-        finishedGame: true,
-        finishedGameWithHundredPercent: false,
-        platinedGame: false,
-        additionnalEstimatedTime: 0,
-        sessionStartDate: '',
-        sessionEndDate: '',
-        currentlyPlaying: false,
-      },
-    ],
-  },
+
   {
     title: "The Legend of Zelda: Majora's Mask",
     editor: 'Nintendo',

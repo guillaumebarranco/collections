@@ -4904,7 +4904,7 @@ export const baseMoviesRomance: BaseMovie[] = [
       },
     ],
     coverUrl:
-      'https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p12216048_p_v7_aa.jpg',
+      '/movies_pictures/b885b5aad82c.jpg',
     releaseDate: '2015-02-14',
     length: 94,
     genre: ['Comédie', 'Romance'],

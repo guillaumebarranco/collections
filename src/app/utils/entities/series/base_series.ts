@@ -1134,7 +1134,7 @@ export const baseSeries: BaseSerie[] = [
         name: "Jon Bernthal",
       }
     ],
-    coverUrl: "https://i.ebayimg.com/images/g/IakAAOSw9AVnvj8t/s-l400.jpg",
+    coverUrl: "/series_pictures/bbc8d10a4b3c.jpg",
     releaseDate: "2024-03-10",
     endDate: "",
     genre: ['Action', 'Crime', 'Drama'],

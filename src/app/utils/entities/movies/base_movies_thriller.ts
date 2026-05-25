@@ -1132,7 +1132,7 @@ export const baseMoviesThriller: BaseMovie[] = [
       { name: 'Mayuko Fujiyoshi' },
     ],
     coverUrl:
-      'https://m.media-amazon.com/images/M/MV5BYmRkNzYzOGMtNjM3Mi00NmZiLTg4MzMtZWVlOTRhZDY4ZDY0XkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg',
+      '/movies_pictures/6e3b7bd19cc6.jpg',
     releaseDate: '2006-06-17',
     length: 126,
     genre: ['Thriller', 'Fantastique'],
@@ -1159,7 +1159,7 @@ export const baseMoviesThriller: BaseMovie[] = [
       { name: 'Yoshiya Namba' },
     ],
     coverUrl:
-      'https://m.media-amazon.com/images/M/MV5BYWM1MDA5MmEtNDZhMy00YmZlLTk3NzYtZjNmZjE1MzNlYTlhXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg',
+      '/movies_pictures/8c6359899561.jpg',
     releaseDate: '2006-11-03',
     length: 139,
     genre: ['Thriller', 'Fantastique'],

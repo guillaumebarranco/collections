@@ -1186,8 +1186,7 @@ export const baseMoviesFromNinon: BaseMovie[] = [
       { name: 'Marie Rosa Tietjen' },
       { name: 'Johann Karloff' },
     ],
-    coverUrl:
-      '/movies_pictures/b021c0249a12.jpeg',
+    coverUrl: '/movies_pictures/b021c0249a12.jpeg',
     releaseDate: '2024-02-01',
     length: 106,
     genre: ['Drame', 'Historique'],
@@ -1209,8 +1208,7 @@ export const baseMoviesFromNinon: BaseMovie[] = [
       { name: 'Viss Elliot Safavi' },
       { name: 'Sammi Rotibi' },
     ],
-    coverUrl:
-      '/movies_pictures/e3da0b5046d7.jpg',
+    coverUrl: '/movies_pictures/e3da0b5046d7.jpg',
     releaseDate: '2023-09-02',
     length: 104,
     genre: ['Drame', 'Thriller'],
@@ -1232,8 +1230,7 @@ export const baseMoviesFromNinon: BaseMovie[] = [
       { name: 'Anne-Marie Pisani' },
       { name: 'Howard Vernon' },
     ],
-    coverUrl:
-      '/movies_pictures/8fec0755ccce.jpg',
+    coverUrl: '/movies_pictures/8fec0755ccce.jpg',
     releaseDate: '1991-04-17',
     length: 99,
     genre: ['Comédie', 'Science Fiction'],
@@ -1255,8 +1252,7 @@ export const baseMoviesFromNinon: BaseMovie[] = [
       { name: 'Jean-Claude Michel' },
       { name: 'Germaine Charley' },
     ],
-    coverUrl:
-      '/movies_pictures/f10bfa723e5b.jpg',
+    coverUrl: '/movies_pictures/f10bfa723e5b.jpg',
     releaseDate: '1960-03-18',
     length: 132,
     genre: ['Thriller', 'Drame'],
@@ -1278,8 +1274,7 @@ export const baseMoviesFromNinon: BaseMovie[] = [
       { name: 'Jean Rougerie' },
       { name: 'Denise Gence' },
     ],
-    coverUrl:
-      '/movies_pictures/5dd63341df72.jpg',
+    coverUrl: '/movies_pictures/5dd63341df72.jpg',
     releaseDate: '1979-12-19',
     length: 95,
     genre: ['Comédie', 'Policier'],
@@ -1323,8 +1318,7 @@ export const baseMoviesFromNinon: BaseMovie[] = [
       { name: 'Charlie Sheen' },
       { name: 'Ben Stein' },
     ],
-    coverUrl:
-      '/movies_pictures/028169e8e89a.jpg',
+    coverUrl: '/movies_pictures/028169e8e89a.jpg',
     releaseDate: '1986-06-11',
     length: 103,
     genre: ['Comédie'],
@@ -1346,8 +1340,7 @@ export const baseMoviesFromNinon: BaseMovie[] = [
       { name: 'Slimane Dazi' },
       { name: 'Yasmine Hamdan' },
     ],
-    coverUrl:
-      '/movies_pictures/57bf1c457b50.jpg',
+    coverUrl: '/movies_pictures/57bf1c457b50.jpg',
     releaseDate: '2013-12-25',
     length: 123,
     genre: ['Drame', 'Romance'],
@@ -1413,8 +1406,7 @@ export const baseMoviesFromNinon: BaseMovie[] = [
       { name: 'Bernhard Wicki' },
       { name: 'John Lurie' },
     ],
-    coverUrl:
-      '/movies_pictures/eae1cec8841f.jpg',
+    coverUrl: '/movies_pictures/eae1cec8841f.jpg',
     releaseDate: '1984-05-19',
     length: 145,
     genre: ['Drame'],
@@ -1436,8 +1428,7 @@ export const baseMoviesFromNinon: BaseMovie[] = [
       { name: 'Wilhelm von Homburg' },
       { name: 'Charlton Heston' },
     ],
-    coverUrl:
-      '/movies_pictures/01c0d0f011fb.jpg',
+    coverUrl: '/movies_pictures/01c0d0f011fb.jpg',
     releaseDate: '1995-02-03',
     length: 95,
     genre: ['Horreur', 'Thriller'],
@@ -1459,8 +1450,7 @@ export const baseMoviesFromNinon: BaseMovie[] = [
       { name: 'Francis Lemarque' },
       { name: 'Jean-Claude Leguay' },
     ],
-    coverUrl:
-      '/movies_pictures/4613ef5bc2a4.jpg',
+    coverUrl: '/movies_pictures/4613ef5bc2a4.jpg',
     releaseDate: '1992-09-09',
     length: 95,
     genre: ['Comédie'],
@@ -1504,8 +1494,7 @@ export const baseMoviesFromNinon: BaseMovie[] = [
       { name: 'Kurt Russell' },
       { name: 'Michael J. Fox' },
     ],
-    coverUrl:
-      '/movies_pictures/c08bc210d93c.jpg',
+    coverUrl: '/movies_pictures/c08bc210d93c.jpg',
     releaseDate: '2002-04-17',
     length: 116,
     genre: ['Aventure', 'Comédie'],
@@ -1527,8 +1516,7 @@ export const baseMoviesFromNinon: BaseMovie[] = [
       { name: 'Camille Rutherford' },
       { name: 'Anne Rotger' },
     ],
-    coverUrl:
-      '/movies_pictures/80be6e451bfb.jpg',
+    coverUrl: '/movies_pictures/80be6e451bfb.jpg',
     releaseDate: '2023-08-23',
     length: 152,
     genre: ['Thriller', 'Drame'],
@@ -1550,8 +1538,7 @@ export const baseMoviesFromNinon: BaseMovie[] = [
       { name: 'Eva Axén' },
       { name: 'Alida Valli' },
     ],
-    coverUrl:
-      '/movies_pictures/4804c96a4230.jpg',
+    coverUrl: '/movies_pictures/4804c96a4230.jpg',
     releaseDate: '1977-02-01',
     length: 99,
     genre: ['Horreur', 'Thriller'],
@@ -1573,8 +1560,7 @@ export const baseMoviesFromNinon: BaseMovie[] = [
       { name: 'Doris Kunstmann' },
       { name: 'Christoph Krix' },
     ],
-    coverUrl:
-      'https://img.festival-cannes.com/eyJidWNrZXQiOiJtZWRpYSIsImtleSI6InVwbG9hZHNcLzIwMjNcLzAzXC8xOTEyNy5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjE2MDAsImZpdCI6ImNvdmVyIn19fQ==',
+    coverUrl: '/movies_pictures/19127.webp',
     releaseDate: '1997-09-20',
     length: 109,
     genre: ['Thriller', 'Drame'],
@@ -1596,8 +1582,7 @@ export const baseMoviesFromNinon: BaseMovie[] = [
       { name: 'Giselle Palmer' },
       { name: 'Thea Carla Schott' },
     ],
-    coverUrl:
-      '/movies_pictures/ab2c36f1a8ca.jpg',
+    coverUrl: '/movies_pictures/ab2c36f1a8ca.jpg',
     releaseDate: '2018-09-19',
     length: 96,
     genre: ['Drame', 'Thriller'],
@@ -1619,8 +1604,7 @@ export const baseMoviesFromNinon: BaseMovie[] = [
       { name: 'Michael Palin' },
       { name: 'Andrea Riseborough' },
     ],
-    coverUrl:
-      '/movies_pictures/8c778bf0fa00.jpg',
+    coverUrl: '/movies_pictures/8c778bf0fa00.jpg',
     releaseDate: '2017-10-18',
     length: 107,
     genre: ['Comédie', 'Historique'],
@@ -1642,8 +1626,7 @@ export const baseMoviesFromNinon: BaseMovie[] = [
       { name: 'Nihal Koldaş' },
       { name: 'Ayşe Akça' },
     ],
-    coverUrl:
-      '/movies_pictures/9de7fbacaf4b.jpg',
+    coverUrl: '/movies_pictures/9de7fbacaf4b.jpg',
     releaseDate: '2015-06-17',
     length: 97,
     genre: ['Drame'],
@@ -1665,8 +1648,7 @@ export const baseMoviesFromNinon: BaseMovie[] = [
       { name: 'Samantha Isler' },
       { name: 'Annalise Basso' },
     ],
-    coverUrl:
-      '/movies_pictures/8e4245bb1e8c.jpg',
+    coverUrl: '/movies_pictures/8e4245bb1e8c.jpg',
     releaseDate: '2016-07-08',
     length: 118,
     genre: ['Drame', 'Aventure'],
@@ -1732,8 +1714,7 @@ export const baseMoviesFromNinon: BaseMovie[] = [
       { name: 'Noémie Lvovsky' },
       { name: 'William Lebghil' },
     ],
-    coverUrl:
-      '/movies_pictures/b43a92f51a08.jpg',
+    coverUrl: '/movies_pictures/b43a92f51a08.jpg',
     releaseDate: '2014-01-29',
     length: 90,
     genre: ['Comédie', 'Science Fiction'],
@@ -1755,8 +1736,7 @@ export const baseMoviesFromNinon: BaseMovie[] = [
       { name: 'Michel Hazanavicius' },
       { name: 'Daniel Hartley' },
     ],
-    coverUrl:
-      '/movies_pictures/8528ab310e35.jpg',
+    coverUrl: '/movies_pictures/8528ab310e35.jpg',
     releaseDate: '2014-05-30',
     length: 95,
     genre: ['Comédie'],
@@ -1778,8 +1758,7 @@ export const baseMoviesFromNinon: BaseMovie[] = [
       { name: 'Pat O’Brien' },
       { name: 'Joan Shawlee' },
     ],
-    coverUrl:
-      '/movies_pictures/1474d645f0b8.jpg',
+    coverUrl: '/movies_pictures/1474d645f0b8.jpg',
     releaseDate: '1959-03-29',
     length: 121,
     genre: ['Comédie'],
@@ -1801,8 +1780,7 @@ export const baseMoviesFromNinon: BaseMovie[] = [
       { name: 'Walter Catlett' },
       { name: 'Fritz Feld' },
     ],
-    coverUrl:
-      '/movies_pictures/df781311a2e9.jpg',
+    coverUrl: '/movies_pictures/df781311a2e9.jpg',
     releaseDate: '1938-02-18',
     length: 102,
     genre: ['Comédie', 'Romance'],
@@ -1824,8 +1802,7 @@ export const baseMoviesFromNinon: BaseMovie[] = [
       { name: 'Owen Wilson' },
       { name: 'Bill Murray' },
     ],
-    coverUrl:
-      '/movies_pictures/22d085ab9187.jpg',
+    coverUrl: '/movies_pictures/22d085ab9187.jpg',
     releaseDate: '2002-01-04',
     length: 110,
     genre: ['Comédie', 'Drame'],
@@ -1847,8 +1824,7 @@ export const baseMoviesFromNinon: BaseMovie[] = [
       { name: 'Jenny Wright' },
       { name: 'Joanne Whalley' },
     ],
-    coverUrl:
-      '/movies_pictures/74c08f39e55b.jpg',
+    coverUrl: '/movies_pictures/74c08f39e55b.jpg',
     releaseDate: '1982-07-14',
     length: 95,
     genre: ['Drame', 'Fantastique'],
@@ -1892,8 +1868,7 @@ export const baseMoviesFromNinon: BaseMovie[] = [
       { name: 'Jean-Michel Vovk' },
       { name: 'Manon Barbé' },
     ],
-    coverUrl:
-      '/movies_pictures/163e9d4569cd.jpg',
+    coverUrl: '/movies_pictures/163e9d4569cd.jpg',
     releaseDate: '2013-08-12',
     length: 102,
     genre: ['Thriller'],
@@ -1915,8 +1890,7 @@ export const baseMoviesFromNinon: BaseMovie[] = [
       { name: 'Anatoliy Solonitsyn' },
       { name: 'Olga Barnet' },
     ],
-    coverUrl:
-      '/movies_pictures/7afab205f887.jpg',
+    coverUrl: '/movies_pictures/7afab205f887.jpg',
     releaseDate: '1972-05-26',
     length: 167,
     genre: ['Science Fiction', 'Drame'],
@@ -1938,8 +1912,7 @@ export const baseMoviesFromNinon: BaseMovie[] = [
       { name: 'Blanca Suárez' },
       { name: 'José Luis Gómez' },
     ],
-    coverUrl:
-      '/movies_pictures/a6cf40bab78e.jpg',
+    coverUrl: '/movies_pictures/a6cf40bab78e.jpg',
     releaseDate: '2011-09-02',
     length: 120,
     genre: ['Thriller', 'Drame'],
@@ -1961,8 +1934,7 @@ export const baseMoviesFromNinon: BaseMovie[] = [
       { name: 'Jeanne Disson' },
       { name: 'Geoffrey Carey' },
     ],
-    coverUrl:
-      '/movies_pictures/a93fdf37a7d9.jpg',
+    coverUrl: '/movies_pictures/a93fdf37a7d9.jpg',
     releaseDate: '2012-05-23',
     length: 115,
     genre: ['Drame', 'Fantastique'],
@@ -1984,8 +1956,7 @@ export const baseMoviesFromNinon: BaseMovie[] = [
       { name: 'Cameron Diaz' },
       { name: 'Michael Jeter' },
     ],
-    coverUrl:
-      '/movies_pictures/06bae11c9469.jpg',
+    coverUrl: '/movies_pictures/06bae11c9469.jpg',
     releaseDate: '1998-05-22',
     length: 118,
     genre: ['Comédie', 'Aventure'],
@@ -2051,8 +2022,7 @@ export const baseMoviesFromNinon: BaseMovie[] = [
       { name: 'Lisa Gay Hamilton' },
       { name: 'Tova Stewart' },
     ],
-    coverUrl:
-      '/movies_pictures/5f4e14c36b58.jpg',
+    coverUrl: '/movies_pictures/5f4e14c36b58.jpg',
     releaseDate: '2011-09-30',
     length: 121,
     genre: ['Thriller', 'Drame'],
@@ -2074,8 +2044,7 @@ export const baseMoviesFromNinon: BaseMovie[] = [
       { name: 'Dakin Matthews' },
       { name: 'Domhnall Gleeson' },
     ],
-    coverUrl:
-      '/movies_pictures/787031cfa85c.jpg',
+    coverUrl: '/movies_pictures/787031cfa85c.jpg',
     releaseDate: '2010-12-22',
     length: 110,
     genre: ['Western', 'Aventure'],

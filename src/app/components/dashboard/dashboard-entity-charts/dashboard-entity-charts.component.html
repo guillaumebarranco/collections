@@ -98,6 +98,46 @@
         {{ gameSessionPeriodsGameCount() }} jeu(x)
       </div>
       }
+
+      <div class="game-chart-lists">
+        <div class="game-chart-list">
+          <h4>Jeux non placés car manque d'informations</h4>
+          @if (gamesMissingFromChart().length === 0) {
+          <p class="game-chart-list__empty">Tous les jeux ont au moins une session datée.</p>
+          } @else {
+          <ul class="game-chart-list__items">
+            @for (game of gamesMissingFromChart(); track game.title + game.editor) {
+            <li>{{ game.title }} <span class="game-chart-list__meta">— {{ game.editor }}</span></li>
+            }
+          </ul>
+          }
+        </div>
+
+        <div class="game-chart-list">
+          <h4>Sessions restantes à dater (jeux déjà sur le graphique)</h4>
+          @if (gamesWithUndatedSessionsOnChart().length === 0) {
+          <p class="game-chart-list__empty">
+            Aucun jeu du graphique n'a de session sans dates.
+          </p>
+          } @else {
+          <ul class="game-chart-list__items">
+            @for (
+              game of gamesWithUndatedSessionsOnChart();
+              track game.title + game.editor
+            ) {
+            <li>
+              {{ game.title }}
+              <span class="game-chart-list__meta">— {{ game.editor }}</span>
+              <span class="game-chart-list__badge">
+                {{ game.undatedSessionsCount }}
+                session{{ game.undatedSessionsCount > 1 ? 's' : '' }} à dater
+              </span>
+            </li>
+            }
+          </ul>
+          }
+        </div>
+      </div>
     </div>
     } @if (effectiveEntity() === 'series') {
     <div class="charts-section charts-section--wide">

@@ -3358,4 +3358,23 @@ export const baseGamesAdaptations: BaseGame[] = [
       secondEntityKey: 'J.K. Rowling',
     },
   },
+  {
+    title: 'Harry Potter : Secret à Poudlard',
+    editor: 'Jam City',
+    hero: 'Élève de Poudlard',
+    coverUrl:
+      '/games_pictures/8138d80039b7.png',
+    releaseDate: '2018-04-25',
+    averageTimeToFinish: 0,
+    averageTimeToHundredPercent: 0,
+    platform: 'Android, iOS',
+    saga: 'Harry Potter',
+    platineTime: 0,
+    description: '',
+    fromEntity: {
+      entityType: 'book',
+      title: "Harry Potter à l'école des sorciers",
+      secondEntityKey: 'J.K. Rowling',
+    },
+  },
 ];

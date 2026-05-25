@@ -8295,7 +8295,7 @@ export const baseMoviesAction: BaseMovie[] = [
       },
     ],
     coverUrl:
-      'https://m.media-amazon.com/images/M/MV5BMTUxOTBhYjAtZjEyOC00ZjY5LWFjMDItMWFjOWRjZWZkZDI2XkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg',
+      '/movies_pictures/f873a443e002.jpg',
     releaseDate: '2004-04-02',
     length: 86,
     genre: ['Action'],

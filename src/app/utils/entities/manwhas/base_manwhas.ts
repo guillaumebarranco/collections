@@ -145,7 +145,7 @@ export const baseManwhas: BaseManwha[] = [
     title: 'Solo Leveling : Ragnarok',
     author: 'Daul, JIN',
     coverUrl:
-      'https://servimg.eyrolles.com/static/media/4560/9782382884560_internet_h1400.jpg',
+      '/manwhas_pictures/b1d0b5383010.jpg',
     genre: 'Action',
     nbChapters: 50,
     startDate: '2024-08-01',

@@ -202,7 +202,7 @@ export const baseMoviesDocumentaire: BaseMovie[] = [
       { name: 'Damso' },
     ],
     coverUrl:
-      'https://m.media-amazon.com/images/M/MV5BMjc1ZmM4ZDItNjY3Yy00NjYyLTkzN2ItNjEzOWNkNmRjNTQ3XkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg',
+      '/movies_pictures/70a1abfdad71.jpg',
     releaseDate: '2019-10-09',
     length: 82,
     genre: ['Documentaire'],

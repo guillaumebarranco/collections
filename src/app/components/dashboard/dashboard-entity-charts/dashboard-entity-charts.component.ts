@@ -42,6 +42,8 @@ import {
   getManwhaScanTrackingPeriods,
   getCombinedMangaManwhaScanTrackingPeriods,
   getGameSessionTrackingPeriods,
+  getGamesMissingFromSessionChart,
+  getGamesWithUndatedSessionsOnChart,
   SCAN_CHART_START_YEAR,
 } from '../../../utils/dashboard-monthly-activity.utils';
 import {
@@ -413,6 +415,18 @@ export class DashboardEntityChartsComponent implements OnInit, AfterViewInit {
     );
     return gameKeys.size;
   });
+
+  gamesMissingFromChart = computed(() =>
+    getGamesMissingFromSessionChart(this.allGames()),
+  );
+
+  gamesWithUndatedSessionsOnChart = computed(() =>
+    getGamesWithUndatedSessionsOnChart(
+      this.allGames(),
+      this.scanChartStartYear,
+      new Date(),
+    ),
+  );
 
   getEntityLabel(entity: EntityType): string {
     const labels: { [key in EntityType]: string } = {

@@ -2630,7 +2630,7 @@ export const baseSeries2: BaseSerie[] = [
       { name: 'Lillie Reed' },
     ],
     coverUrl:
-      'https://m.media-amazon.com/images/M/MV5BMTkwMDU2MWMtZjRhZi00MzE2LTk1MzAtNWNjMjlkOGRmNTEyXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg',
+      '/series_pictures/c6c588b58e1d.jpg',
     releaseDate: '2018-02-26',
     endDate: '2022-08-02',
     genre: ['Comedy', 'Crime', 'Drama'],
@@ -3893,7 +3893,7 @@ export const baseSeries2: BaseSerie[] = [
       { name: 'Parker Sawyers' },
     ],
     coverUrl:
-      'https://fr.web.img2.acsta.net/c_310_420/pictures/22/09/17/18/16/3249476.jpg',
+      '/series_pictures/115bb35fc4d4.jpg',
     releaseDate: '2022-09-21',
     endDate: '2022-09-21',
     genre: ['Crime', 'Drame', 'Horreur'],
@@ -3914,7 +3914,7 @@ export const baseSeries2: BaseSerie[] = [
       { name: 'Aya Nakamura' },
     ],
     coverUrl:
-      'https://m.media-amazon.com/images/M/MV5BYWU4MmJhNTYtZjA3Ny00NzcwLWEyMTEtZWMyOWQ0Y2U5MTI5XkEyXkFqcGc@._V1_.jpg',
+      '/series_pictures/c010006ca0a9.jpg',
     releaseDate: '2022-06-09',
     endDate: '',
     genre: ['Musique'],
@@ -3947,7 +3947,7 @@ export const baseSeries2: BaseSerie[] = [
       { name: 'Old Man Saxon' },
     ],
     coverUrl:
-      'https://m.media-amazon.com/images/M/MV5BMjE1M2FlMjctNDNiZi00ODhkLTlmMmMtNTA3MjlhNTFjMWY3XkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg',
+      '/series_pictures/5b3e58131300.jpg',
     releaseDate: '2019-10-09',
     endDate: '2019-11-20',
     genre: ['Musique'],

@@ -603,6 +603,69 @@ export function getGameSessionTrackingPeriods(
   );
 }
 
+export type GameChartListEntry = {
+  title: string;
+  editor: string;
+};
+
+export type GameChartPartialDatesEntry = GameChartListEntry & {
+  undatedSessionsCount: number;
+};
+
+function gameSessionHasChartDate(session: UserGameSession): boolean {
+  return getGameSessionActivityStart(session) !== null;
+}
+
+function getGameChartKey(game: Pick<Game, 'title' | 'editor'>): string {
+  return `${game.title}|${game.editor}`;
+}
+
+/** Jeux absents du graphique : aucune session avec date de début ou de fin. */
+export function getGamesMissingFromSessionChart(
+  games: Game[],
+): GameChartListEntry[] {
+  return games
+    .filter((game) =>
+      (game.sessions ?? []).every((session) => !gameSessionHasChartDate(session)),
+    )
+    .map((game) => ({ title: game.title, editor: game.editor }))
+    .sort((a, b) => a.title.localeCompare(b.title, 'fr'));
+}
+
+/** Jeux présents sur le graphique avec au moins une session encore sans dates. */
+export function getGamesWithUndatedSessionsOnChart(
+  games: Game[],
+  startYear = SCAN_CHART_START_YEAR,
+  reference = new Date(),
+): GameChartPartialDatesEntry[] {
+  const gamesOnChart = new Set(
+    getGameSessionTrackingPeriods(games, startYear, reference).map((period) => {
+      const lastPipe = period.key.lastIndexOf('|');
+      return lastPipe >= 0 ? period.key.slice(0, lastPipe) : period.key;
+    }),
+  );
+
+  return games
+    .map((game) => {
+      if (!gamesOnChart.has(getGameChartKey(game))) {
+        return null;
+      }
+      const undatedSessionsCount = (game.sessions ?? []).filter(
+        (session) => !gameSessionHasChartDate(session),
+      ).length;
+      if (undatedSessionsCount === 0) {
+        return null;
+      }
+      return {
+        title: game.title,
+        editor: game.editor,
+        undatedSessionsCount,
+      };
+    })
+    .filter((entry): entry is GameChartPartialDatesEntry => entry !== null)
+    .sort((a, b) => a.title.localeCompare(b.title, 'fr'));
+}
+
 /**
  * Fin de la période scan :
  * 1. `readingScanStopDate` si renseignée (arrêt du suivi scan)
