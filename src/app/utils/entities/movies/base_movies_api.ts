@@ -324,4 +324,110 @@ export const baseMoviesApi: BaseMovie[] = [
     countryOrigin: ['France', 'Italie'],
     selectDisplayOrder: 0,
   },
+
+  {
+    title: "L'Inconnue",
+    director: "Arthur Harari",
+    actors: [
+      {
+        name: "Léa Seydoux",
+      },
+      {
+        name: "Niels Schneider",
+      }
+    ],
+    coverUrl: "https://images.monnaie-services.com/movie_poster/600/FRE5LDF/DIXTKQFH.webp",
+    releaseDate: "2026-08-26",
+    length: 160,
+    genre: ['Drame'],
+    saga: "",
+    description: "",
+    fromEntity: null,
+    countryOrigin: ['France'],
+    selectDisplayOrder: 0,
+  },
+
+  {
+    title: "Le Vertige",
+    director: "Quentin Dupieux",
+    actors: [
+      {
+        name: "Alain Chabat",
+      },
+      {
+        name: "Jonathan Cohen",
+      },
+      {
+        name: "Anaïs Demoustier",
+      },
+    ],
+    coverUrl: "https://fr.web.img6.acsta.net/img/45/0b/450bf9211ea195e44999da9e5dbfa51b.jpg",
+    releaseDate: "2026-06-10",
+    length: 66,
+    genre: ['Comédie', 'Science Fiction'],
+    saga: "",
+    description: "",
+    fromEntity: null,
+    countryOrigin: ['France'],
+    selectDisplayOrder: 0,
+  },
+
+  {
+    title: "La Bola Negra",
+    director: "Javier Calvo, Javier Ambrossi",
+    actors: [
+      {
+        name: "Guitarricadelafuente",
+      },
+      {
+        name: "Carlos González",
+      },
+      {
+        name: "Miguel Bernardeau",
+      },
+      {
+        name: "Penélope Cruz",
+      },
+      {
+        name: "Milo Quifes",
+      },
+      {
+        name: "Glenn Close",
+      },
+    ],
+    coverUrl: "https://m.media-amazon.com/images/M/MV5BYTExMTk3OTItODg1Zi00OGNjLThlZTctOTU1YzdlMzgwMTUzXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg",
+    releaseDate: "",
+    length: 154,
+    genre: ['Drame', 'Historique'],
+    saga: "",
+    description: "",
+    fromEntity: null,
+    countryOrigin: ['Espagne'],
+    selectDisplayOrder: 0,
+  },
+
+  {
+    title: "The End of It",
+    director: "Maria Martínez Bayona",
+    actors: [
+      {
+        name: "Rebecca Hall",
+      },
+      {
+        name: "Noomie Rapace",
+      },
+      {
+        name: "Gael Garcia Bernal",
+      },
+    ],
+    coverUrl: "https://m.media-amazon.com/images/M/MV5BZWYzN2UyYWItMTNhYS00NzY3LTg1YWMtMjc5MDdlZTQ3MmQwXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg",
+    releaseDate: "",
+    length: 102,
+    genre: ['Science Fiction', 'Drame'],
+    saga: "",
+    description: "",
+    fromEntity: null,
+    countryOrigin: ['Royaume-Uni'],
+    selectDisplayOrder: 0,
+  },
 ];
