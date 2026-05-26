@@ -56,11 +56,7 @@ interface EntityStats {
 @Component({
   selector: 'app-dashboard-entities-stats',
   standalone: true,
-  imports: [
-    CommonModule,
-    ViewToggleComponent,
-    DashboardEntityChartsComponent,
-  ],
+  imports: [CommonModule, ViewToggleComponent, DashboardEntityChartsComponent],
   templateUrl: './dashboard-entities-stats.component.html',
   styleUrls: ['./dashboard-entities-stats.component.scss'],
 })
@@ -73,15 +69,15 @@ export class DashboardEntitiesStatsComponent implements OnInit {
     'series',
     'books',
     'games',
-    'musics',
-    'comics',
-    'bds',
     'mangas',
     'manwhas',
+    'bds',
+    'comics',
+    'musics',
   ];
 
   entityTabOptions = computed<ViewToggleOption[]>(() =>
-    this.entities.map((e) => ({ value: e, label: this.getEntityLabel(e) })),
+    this.entities.map((e) => ({ value: e, label: this.getEntityLabel(e) }))
   );
 
   moviesList = signal<{ [key: string]: Movie[] }>({});
@@ -191,8 +187,11 @@ export class DashboardEntitiesStatsComponent implements OnInit {
       const genresList = Array.isArray(raw)
         ? raw.map((g) => g.trim()).filter(Boolean)
         : typeof raw === 'string' && raw.trim()
-          ? raw.split(',').map((g) => g.trim()).filter(Boolean)
-          : [];
+        ? raw
+            .split(',')
+            .map((g) => g.trim())
+            .filter(Boolean)
+        : [];
       genresList.forEach((genre) => {
         genresCount[genre] = (genresCount[genre] || 0) + 1;
       });

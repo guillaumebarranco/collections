@@ -144,8 +144,7 @@ export const baseManwhas: BaseManwha[] = [
   {
     title: 'Solo Leveling : Ragnarok',
     author: 'Daul, JIN',
-    coverUrl:
-      '/manwhas_pictures/b1d0b5383010.jpg',
+    coverUrl: '/manwhas_pictures/b1d0b5383010.jpg',
     genre: 'Action',
     nbChapters: 50,
     startDate: '2024-08-01',
@@ -180,6 +179,17 @@ export const baseManwhas: BaseManwha[] = [
     nbChapters: 150,
     startDate: '2022-01-30',
     endDate: '',
+    description: '',
+  },
+  {
+    title: 'Hive',
+    author: 'Kim Kyusam',
+    coverUrl:
+      '/manwhas_pictures/6925eb5b8487.jpg',
+    genre: 'Thriller',
+    nbChapters: 243,
+    startDate: '2014-01-20',
+    endDate: '2018-11-19',
     description: '',
   },
   {

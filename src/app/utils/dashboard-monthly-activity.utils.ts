@@ -379,6 +379,8 @@ export type ScanTrackingPeriod = {
   end: Date;
   /** Libellé de durée au survol (ex. temps de jeu d’une session). */
   durationLabel?: string;
+  /** Préfixe de clé `oneshot:` pour les lectures sans suivi scan. */
+  trackingKind?: 'scan' | 'one-shot';
 };
 
 /** Nombre de jours calendaires inclus entre deux dates d’activité. */
@@ -473,6 +475,7 @@ function buildScanTrackingPeriods<
       label: item.title,
       start: scanStart,
       end: scanEnd,
+      trackingKind: 'scan',
     });
   }
 
@@ -480,6 +483,74 @@ function buildScanTrackingPeriods<
     (a, b) =>
       a.start.getTime() - b.start.getTime() ||
       a.label.localeCompare(b.label, 'fr')
+  );
+}
+
+function isMangaOneShotRead(manga: Manga): boolean {
+  if ((manga.readTimes ?? 0) <= 0) {
+    return false;
+  }
+  if (mangaHasReadingScanStart(manga)) {
+    return false;
+  }
+  if (manga.readingScanStopDate.trim()) {
+    return false;
+  }
+  return Boolean(parseActivityDate(manga.readDate));
+}
+
+/** Mangas lus en one shot : readDate renseignée, sans suivi scan. */
+export function getMangaOneShotReadTrackingPeriods(
+  mangas: Manga[],
+  startYear = SCAN_CHART_START_YEAR,
+  reference = new Date(),
+): ScanTrackingPeriod[] {
+  const rangeStart = new Date(startYear, 0, 1);
+  rangeStart.setHours(0, 0, 0, 0);
+  const rangeEnd = new Date(reference);
+  rangeEnd.setHours(23, 59, 59, 999);
+
+  const uniqueKeys = new Set<string>();
+  const periods: ScanTrackingPeriod[] = [];
+
+  for (const manga of mangas) {
+    if (!isMangaOneShotRead(manga)) {
+      continue;
+    }
+    const readDate = parseActivityDate(manga.readDate);
+    if (!readDate) {
+      continue;
+    }
+    readDate.setHours(0, 0, 0, 0);
+    const readEnd = new Date(readDate);
+    readEnd.setHours(23, 59, 59, 999);
+
+    const key = `oneshot:${manga.title}|${manga.author}`;
+    if (uniqueKeys.has(key)) {
+      continue;
+    }
+    uniqueKeys.add(key);
+
+    if (
+      readEnd.getTime() < rangeStart.getTime() ||
+      readDate.getTime() > rangeEnd.getTime()
+    ) {
+      continue;
+    }
+
+    periods.push({
+      key,
+      label: manga.title,
+      start: readDate,
+      end: readEnd,
+      trackingKind: 'one-shot',
+    });
+  }
+
+  return periods.sort(
+    (a, b) =>
+      a.start.getTime() - b.start.getTime() ||
+      a.label.localeCompare(b.label, 'fr'),
   );
 }
 
@@ -493,6 +564,35 @@ export function getMangaScanTrackingPeriods(
     (manga, ref) => getMangaScanActivityEndDate(manga, ref),
     startYear,
     reference
+  );
+}
+
+export function getMangaScanChartPeriods(
+  mangas: Manga[],
+  options: {
+    includeScanTracking: boolean;
+    includeOneShotReads: boolean;
+    startYear?: number;
+    reference?: Date;
+  },
+): ScanTrackingPeriod[] {
+  const startYear = options.startYear ?? SCAN_CHART_START_YEAR;
+  const reference = options.reference ?? new Date();
+  const periods: ScanTrackingPeriod[] = [];
+
+  if (options.includeScanTracking) {
+    periods.push(...getMangaScanTrackingPeriods(mangas, startYear, reference));
+  }
+  if (options.includeOneShotReads) {
+    periods.push(
+      ...getMangaOneShotReadTrackingPeriods(mangas, startYear, reference),
+    );
+  }
+
+  return periods.sort(
+    (a, b) =>
+      a.start.getTime() - b.start.getTime() ||
+      a.label.localeCompare(b.label, 'fr'),
   );
 }
 
@@ -539,6 +639,31 @@ export function getCombinedMangaManwhaScanTrackingPeriods(
       a.start.getTime() - b.start.getTime() ||
       a.label.localeCompare(b.label, 'fr')
   );
+}
+
+export type MangaChartListEntry = {
+  title: string;
+  author: string;
+};
+
+export function mangaHasAnyReadingChartDate(
+  manga: Pick<Manga, 'readDate' | 'readingScanStartDate' | 'readingScanStopDate'>,
+): boolean {
+  return Boolean(
+    parseActivityDate(manga.readDate) ||
+      parseActivityDate(manga.readingScanStartDate) ||
+      parseActivityDate(manga.readingScanStopDate),
+  );
+}
+
+/** Mangas absents du graphique : readDate, readingScanStartDate et readingScanStopDate vides. */
+export function getMangasUndatedForReadingChart(
+  mangas: Manga[],
+): MangaChartListEntry[] {
+  return mangas
+    .filter((manga) => !mangaHasAnyReadingChartDate(manga))
+    .map((manga) => ({ title: manga.title, author: manga.author }))
+    .sort((a, b) => a.title.localeCompare(b.title, 'fr'));
 }
 
 /** Périodes de jeu par session (sessionStartDate / sessionEndDate) pour le graphique timeline. */

@@ -38,12 +38,14 @@ import { getAllMangas } from '../../../facades/mangas/mangas.facade';
 import { getAllManwhas } from '../../../facades/manwhas/manwhas.facade';
 import { getAllGames } from '../../../facades/games/games.facade';
 import {
+  getMangaScanChartPeriods,
   getMangaScanTrackingPeriods,
   getManwhaScanTrackingPeriods,
   getCombinedMangaManwhaScanTrackingPeriods,
   getGameSessionTrackingPeriods,
   getGamesMissingFromSessionChart,
   getGamesWithUndatedSessionsOnChart,
+  getMangasUndatedForReadingChart,
   SCAN_CHART_START_YEAR,
 } from '../../../utils/dashboard-monthly-activity.utils';
 import {
@@ -126,6 +128,12 @@ export class DashboardEntityChartsComponent implements OnInit, AfterViewInit {
 
   /** Inclure les revisionnages (lastViewedDate + otherSeenDates) dans le graphique films. */
   showMovieRewatches = signal(true);
+
+  /** Suivis de scans (readingScanStartDate) sur le graphique mangas. */
+  showMangaScanTracking = signal(true);
+
+  /** Mangas lus en one shot (readDate sans suivi scan) sur le graphique mangas. */
+  showMangaOneShotReads = signal(true);
 
   @ViewChild('moviesWatchedChart')
   moviesWatchedChart?: ElementRef<HTMLDivElement>;
@@ -366,11 +374,29 @@ export class DashboardEntityChartsComponent implements OnInit, AfterViewInit {
   });
 
   mangaScanPeriods = computed(() =>
-    getMangaScanTrackingPeriods(
-      this.allMangas(),
-      this.scanChartStartYear,
-      new Date(),
-    ),
+    getMangaScanChartPeriods(this.allMangas(), {
+      includeScanTracking: this.showMangaScanTracking(),
+      includeOneShotReads: this.showMangaOneShotReads(),
+      startYear: this.scanChartStartYear,
+      reference: new Date(),
+    }),
+  );
+
+  mangaScanChartScanCount = computed(
+    () =>
+      this.mangaScanPeriods().filter((period) => period.trackingKind === 'scan')
+        .length,
+  );
+
+  mangaScanChartOneShotCount = computed(
+    () =>
+      this.mangaScanPeriods().filter(
+        (period) => period.trackingKind === 'one-shot',
+      ).length,
+  );
+
+  mangasUndatedForReadingChart = computed(() =>
+    getMangasUndatedForReadingChart(this.allMangas()),
   );
 
   manwhaScanPeriods = computed(() =>
@@ -463,6 +489,16 @@ export class DashboardEntityChartsComponent implements OnInit, AfterViewInit {
     this.showMovieRewatches.set(checked);
   }
 
+  onShowMangaScanTrackingChange(event: Event): void {
+    const checked = (event.target as HTMLInputElement).checked;
+    this.showMangaScanTracking.set(checked);
+  }
+
+  onShowMangaOneShotReadsChange(event: Event): void {
+    const checked = (event.target as HTMLInputElement).checked;
+    this.showMangaOneShotReads.set(checked);
+  }
+
   constructor() {
     effect(() => {
       if (!this.embedded()) {
@@ -506,6 +542,8 @@ export class DashboardEntityChartsComponent implements OnInit, AfterViewInit {
 
     effect(() => {
       this.mangaScanPeriods();
+      this.showMangaScanTracking();
+      this.showMangaOneShotReads();
       this.combinedScanPeriods();
       if (this.effectiveEntity() !== 'mangas') {
         return;

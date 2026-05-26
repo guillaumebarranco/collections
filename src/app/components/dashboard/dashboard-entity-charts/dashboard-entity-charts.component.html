@@ -157,19 +157,87 @@
     </div>
     } @if (effectiveEntity() === 'mangas') {
     <div class="charts-section charts-section--wide">
-      <h3>📚 Suivi scans mangas ({{ scanChartStartYear }}-{{ currentYear }})</h3>
+      <div class="charts-section-header">
+        <h3>📚 Suivi scans mangas ({{ scanChartStartYear }}-{{ currentYear }})</h3>
+        <div class="charts-section-options">
+          <label class="charts-section-option">
+            <input
+              type="checkbox"
+              [checked]="showMangaScanTracking()"
+              (change)="onShowMangaScanTrackingChange($event)"
+            />
+            Afficher les suivis de scans
+          </label>
+          <label class="charts-section-option">
+            <input
+              type="checkbox"
+              [checked]="showMangaOneShotReads()"
+              (change)="onShowMangaOneShotReadsChange($event)"
+            />
+            Afficher les mangas lus en one shot
+          </label>
+        </div>
+      </div>
       <p class="chart-description">
-        Période de lecture en scan pour chaque manga. Le titre et la couleur
-        sont affichés à gauche de chaque barre.
+        Période de lecture en scan ou date de lecture one shot (readDate sans
+        suivi scan). Le titre et la couleur sont affichés à gauche de chaque
+        barre.
       </p>
       @if (mangaScanPeriods().length === 0) {
-      <div class="no-data">Aucun manga en suivi scan depuis {{ scanChartStartYear }}.</div>
+      <div class="no-data">
+        @if (!showMangaScanTracking() && !showMangaOneShotReads()) {
+        Activez au moins une option pour afficher le graphique.
+        } @else {
+        Aucun manga à afficher avec les filtres sélectionnés depuis
+        {{ scanChartStartYear }}.
+        }
+      </div>
       } @else {
       <div #mangaScanChart class="scan-timeline-chart"></div>
       <div class="chart-footnote">
-        {{ mangaScanPeriods().length }} manga(s) en suivi scan
+        {{ mangaScanPeriods().length }} entrée(s) :
+        @if (showMangaScanTracking() && mangaScanChartScanCount() > 0) {
+        {{ mangaScanChartScanCount() }} suivi(s) de scan
+        }
+        @if (
+          showMangaScanTracking() &&
+          mangaScanChartScanCount() > 0 &&
+          showMangaOneShotReads() &&
+          mangaScanChartOneShotCount() > 0
+        ) {
+        ,
+        }
+        @if (showMangaOneShotReads() && mangaScanChartOneShotCount() > 0) {
+        {{ mangaScanChartOneShotCount() }} one shot
+        }
       </div>
       }
+
+      <div class="game-chart-lists game-chart-lists--single">
+        <div class="game-chart-list">
+          <h4>Mangas pas encore datés</h4>
+          <p class="game-chart-list__hint">
+            Aucune date de lecture renseignée (readDate, début ou fin de suivi scan).
+          </p>
+          @if (mangasUndatedForReadingChart().length === 0) {
+          <p class="game-chart-list__empty">
+            Tous les mangas ont au moins une date de lecture.
+          </p>
+          } @else {
+          <ul class="game-chart-list__items">
+            @for (
+              manga of mangasUndatedForReadingChart();
+              track manga.title + manga.author
+            ) {
+            <li>
+              {{ manga.title }}
+              <span class="game-chart-list__meta">— {{ manga.author }}</span>
+            </li>
+            }
+          </ul>
+          }
+        </div>
+      </div>
     </div>
     } @if (effectiveEntity() === 'manwhas') {
     <div class="charts-section charts-section--wide">

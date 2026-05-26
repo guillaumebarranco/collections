@@ -33,6 +33,11 @@ function formatScanChartDate(date: Date): string {
 }
 
 function formatScanTrackingTooltipHtml(row: ScanTrackingPeriod): string {
+  if (row.trackingKind === 'one-shot' || row.key.startsWith('oneshot:')) {
+    return `<strong>${row.label}</strong><br/>Lu le ${formatScanChartDate(
+      row.start,
+    )}<br/>Lecture one shot`;
+  }
   const durationLine = row.durationLabel
     ? `<br/>Temps de jeu : <strong>${row.durationLabel}</strong>`
     : '';
@@ -85,7 +90,11 @@ export function renderScanTrackingTimelineChart(
     endYear: number;
   }
 ): void {
-  if (!container || periods.length === 0) {
+  if (!container) {
+    return;
+  }
+  if (periods.length === 0) {
+    d3.select(container).selectAll('*').remove();
     return;
   }
 
