@@ -430,4 +430,128 @@ export const baseMoviesApi: BaseMovie[] = [
     countryOrigin: ['Royaume-Uni'],
     selectDisplayOrder: 0,
   },
+
+  {
+    title: "Histoires de la Nuit",
+    director: "Léa Mysius",
+    actors: [
+      {
+        name: "Bastien Bouillon",
+      },
+      {
+        name: "Benoît Magimel",
+      },
+      {
+        name: "Hafsia Herzi",
+      },
+      {
+        name: "Monica Bellucci",
+      },
+    ],
+    coverUrl: "https://static.wixstatic.com/media/d36b3e_d2470f74f72945e696fdec497360434c~mv2.jpg/v1/fill/w_245,h_326,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/histoires-de-la-nuit-2026.jpg",
+    releaseDate: "2026-09-16",
+    length: 114,
+    genre: ['Thriller'],
+    saga: "",
+    description: "",
+    fromEntity: null,
+    countryOrigin: ['France'],
+    selectDisplayOrder: 0,
+  },
+
+  {
+    title: "Victorian Psycho",
+    director: "Zachary Wigon",
+    actors: [
+      {
+        name: "Maika Monroe",
+      },
+      {
+        name: "Ruth Wilson",
+      },
+      {
+        name: "Thomasin McKenzie",
+      },
+      {
+        name: "Jason Isaacs",
+      },
+      {
+        name: "Amy De Bhrún",
+      },
+      {
+        name: "Jacobi Jupe",
+      },
+      {
+        name: "Katherine Moran",
+      },
+    ],
+    coverUrl: "https://fr.web.img2.acsta.net/c_310_420/img/5a/f6/5af621a611a9c23d91826e5f2a67a868.jpg",
+    releaseDate: "",
+    length: 90,
+    genre: ['Horreur'],
+    saga: "",
+    description: "",
+    fromEntity: null,
+    countryOrigin: ['États-Unis', 'Royaume-Uni'],
+    selectDisplayOrder: 0,
+  },
+
+  {
+    title: "L'Objet du Délit",
+    director: "Agnès Jaoui",
+    actors: [
+      {
+        name: "Agnès Jaoui",
+      },
+      {
+        name: "Daniel Auteuil",
+      },
+      {
+        name: "Eye Haidara",
+      },
+      {
+        name: "Claire Chust",
+      },
+      {
+        name: "Oussama Kheddam",
+      },
+      {
+        name: "Lucie Gallo",
+      },
+    ],
+    coverUrl: "https://www.cinemaelysee.fr/wp-content/uploads/2026/05/f113b78c6126c1a49a0168d53497267c-768x1024.jpg",
+    releaseDate: "2026-05-27",
+    length: 133,
+    genre: ['Comédie'],
+    saga: "",
+    description: "",
+    fromEntity: null,
+    countryOrigin: ['France'],
+    selectDisplayOrder: 0,
+  },
+
+  {
+    title: "Mandalorian & Grogu",
+    director: "Jon Favreau",
+    actors: [
+      {
+        name: "Pedro Pascal",
+      },
+      {
+        name: "Segourney Weaver",
+      },
+      {
+        name: "Jeremy Allen White",
+      },
+    ],
+    coverUrl: "https://fr.web.img3.acsta.net/c_310_420/img/6e/84/6e847b845d10b7194d43f604b3ef1f20.jpg",
+    releaseDate: "2026-05-20",
+    length: 132,
+    genre: ['Action', 'Science Fiction', 'Aventure'],
+    saga: "Star Wars",
+    description: "",
+    fromEntity: null,
+    countryOrigin: ['États-Unis'],
+    selectDisplayOrder: 0,
+  },
 ];
