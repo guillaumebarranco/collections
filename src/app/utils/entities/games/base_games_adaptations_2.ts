@@ -872,7 +872,7 @@ export const baseGamesAdaptations2: BaseGame[] = [
     fromEntity: null,
   },
   {
-    title: 'Pokemon Jaune',
+    title: 'Pokémon Jaune',
     editor: 'Nintendo',
     hero: 'Dresseur',
     coverUrl: '/games_pictures/pokemon-jaune.jpg',

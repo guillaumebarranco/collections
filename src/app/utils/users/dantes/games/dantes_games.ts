@@ -210,8 +210,8 @@ export const dantesGames: UserGame[] = [
   },
 
   {
-    title: "Call of Duty: Black Ops 7",
-    editor: "Treyarch",
+    title: 'Call of Duty: Black Ops 7',
+    editor: 'Treyarch',
     rating: 0,
     owned: false,
     gamelistPriority: 1,
@@ -223,8 +223,8 @@ export const dantesGames: UserGame[] = [
   },
 
   {
-    title: "Need for Speed II",
-    editor: "Electronic Arts",
+    title: 'Need for Speed II',
+    editor: 'Electronic Arts',
     rating: 0,
     owned: false,
     gamelistPriority: 1,
@@ -236,8 +236,8 @@ export const dantesGames: UserGame[] = [
   },
 
   {
-    title: "Need for Speed III: Hot Pursuit",
-    editor: "Electronic Arts",
+    title: 'Need for Speed III: Hot Pursuit',
+    editor: 'Electronic Arts',
     rating: 0,
     owned: false,
     gamelistPriority: 1,
@@ -249,8 +249,8 @@ export const dantesGames: UserGame[] = [
   },
 
   {
-    title: "Need for Speed: High Stakes",
-    editor: "Electronic Arts",
+    title: 'Need for Speed: High Stakes',
+    editor: 'Electronic Arts',
     rating: 0,
     owned: false,
     gamelistPriority: 1,
@@ -262,8 +262,8 @@ export const dantesGames: UserGame[] = [
   },
 
   {
-    title: "Need for Speed: Porsche Unleashed",
-    editor: "Electronic Arts",
+    title: 'Need for Speed: Porsche Unleashed',
+    editor: 'Electronic Arts',
     rating: 0,
     owned: false,
     gamelistPriority: 1,
@@ -275,8 +275,8 @@ export const dantesGames: UserGame[] = [
   },
 
   {
-    title: "Need for Speed: Hot Pursuit 2",
-    editor: "Electronic Arts",
+    title: 'Need for Speed: Hot Pursuit 2',
+    editor: 'Electronic Arts',
     rating: 0,
     owned: false,
     gamelistPriority: 1,
@@ -288,8 +288,8 @@ export const dantesGames: UserGame[] = [
   },
 
   {
-    title: "Pro Evolution Soccer 5",
-    editor: "Konami",
+    title: 'Pro Evolution Soccer 5',
+    editor: 'Konami',
     rating: 0,
     owned: false,
     gamelistPriority: 1,
@@ -301,8 +301,8 @@ export const dantesGames: UserGame[] = [
   },
 
   {
-    title: "Rayman 3: Hoodlum Havoc",
-    editor: "Ubisoft",
+    title: 'Rayman 3: Hoodlum Havoc',
+    editor: 'Ubisoft',
     rating: 0,
     owned: false,
     gamelistPriority: 1,
@@ -314,8 +314,8 @@ export const dantesGames: UserGame[] = [
   },
 
   {
-    title: "Grand Theft Auto: Vice City",
-    editor: "Rockstar Games",
+    title: 'Grand Theft Auto: Vice City',
+    editor: 'Rockstar Games',
     rating: 0,
     owned: false,
     gamelistPriority: 1,
@@ -328,7 +328,7 @@ export const dantesGames: UserGame[] = [
 
   {
     title: "Assassin's Creed",
-    editor: "Ubisoft",
+    editor: 'Ubisoft',
     rating: 0,
     owned: false,
     gamelistPriority: 1,
@@ -341,7 +341,7 @@ export const dantesGames: UserGame[] = [
 
   {
     title: "Assassin's Creed Origins",
-    editor: "Ubisoft",
+    editor: 'Ubisoft',
     rating: 0,
     owned: false,
     gamelistPriority: 1,
@@ -354,7 +354,7 @@ export const dantesGames: UserGame[] = [
 
   {
     title: "Assassin's Creed Shadows",
-    editor: "Ubisoft",
+    editor: 'Ubisoft',
     rating: 0,
     owned: false,
     gamelistPriority: 1,
@@ -366,8 +366,8 @@ export const dantesGames: UserGame[] = [
   },
 
   {
-    title: "God of War III",
-    editor: "Santa Monica Studio",
+    title: 'God of War III',
+    editor: 'Santa Monica Studio',
     rating: 0,
     owned: false,
     gamelistPriority: 1,
@@ -379,8 +379,8 @@ export const dantesGames: UserGame[] = [
   },
 
   {
-    title: "Horizon Zero Dawn",
-    editor: "Guerrilla Games",
+    title: 'Horizon Zero Dawn',
+    editor: 'Guerrilla Games',
     rating: 0,
     owned: false,
     gamelistPriority: 1,
@@ -392,8 +392,8 @@ export const dantesGames: UserGame[] = [
   },
 
   {
-    title: "Resident Evil 7 : Biohazard",
-    editor: "Capcom",
+    title: 'Resident Evil 7 : Biohazard',
+    editor: 'Capcom',
     rating: 0,
     owned: false,
     gamelistPriority: 1,
@@ -405,8 +405,8 @@ export const dantesGames: UserGame[] = [
   },
 
   {
-    title: "SSX",
-    editor: "EA Sports",
+    title: 'SSX',
+    editor: 'EA Sports',
     rating: 0,
     owned: false,
     gamelistPriority: 1,
@@ -418,8 +418,8 @@ export const dantesGames: UserGame[] = [
   },
 
   {
-    title: "Assassin’s Creed Altaïr Chronicles",
-    editor: "Ubisoft",
+    title: 'Assassin’s Creed Altaïr Chronicles',
+    editor: 'Ubisoft',
     rating: 0,
     owned: false,
     gamelistPriority: 1,
@@ -431,8 +431,8 @@ export const dantesGames: UserGame[] = [
   },
 
   {
-    title: "Assassin’s Creed II : Discovery",
-    editor: "Ubisoft",
+    title: 'Assassin’s Creed II : Discovery',
+    editor: 'Ubisoft',
     rating: 0,
     owned: false,
     gamelistPriority: 1,
@@ -444,8 +444,8 @@ export const dantesGames: UserGame[] = [
   },
 
   {
-    title: "The Simpsons (arcade)",
-    editor: "Konami",
+    title: 'The Simpsons (arcade)',
+    editor: 'Konami',
     rating: 0,
     owned: false,
     gamelistPriority: 1,
@@ -457,8 +457,8 @@ export const dantesGames: UserGame[] = [
   },
 
   {
-    title: "Le Seigneur des anneaux : Les Deux Tours",
-    editor: "Electronic Arts",
+    title: 'Le Seigneur des anneaux : Les Deux Tours',
+    editor: 'Electronic Arts',
     rating: 0,
     owned: false,
     gamelistPriority: 1,
@@ -470,8 +470,8 @@ export const dantesGames: UserGame[] = [
   },
 
   {
-    title: "Le Seigneur des anneaux : Le Retour du roi",
-    editor: "Electronic Arts",
+    title: 'Le Seigneur des anneaux : Le Retour du roi',
+    editor: 'Electronic Arts',
     rating: 0,
     owned: false,
     gamelistPriority: 1,
@@ -483,8 +483,8 @@ export const dantesGames: UserGame[] = [
   },
 
   {
-    title: "Le Seigneur des anneaux : Le Tiers-Âge",
-    editor: "Electronic Arts",
+    title: 'Le Seigneur des anneaux : Le Tiers-Âge',
+    editor: 'Electronic Arts',
     rating: 0,
     owned: false,
     gamelistPriority: 1,
@@ -496,8 +496,8 @@ export const dantesGames: UserGame[] = [
   },
 
   {
-    title: "Dragon Ball Z: Budokai 3",
-    editor: "Dimps",
+    title: 'Dragon Ball Z: Budokai 3',
+    editor: 'Dimps',
     rating: 0,
     owned: false,
     gamelistPriority: 1,
@@ -509,8 +509,8 @@ export const dantesGames: UserGame[] = [
   },
 
   {
-    title: "Dragon Ball Z: Budokai Tenkaichi 2",
-    editor: "Spike",
+    title: 'Dragon Ball Z: Budokai Tenkaichi 2',
+    editor: 'Spike',
     rating: 0,
     owned: false,
     gamelistPriority: 1,
@@ -522,8 +522,8 @@ export const dantesGames: UserGame[] = [
   },
 
   {
-    title: "Pokémon Bleu",
-    editor: "Game Freak",
+    title: 'Pokémon Bleu',
+    editor: 'Game Freak',
     rating: 0,
     owned: false,
     gamelistPriority: 1,
@@ -535,8 +535,8 @@ export const dantesGames: UserGame[] = [
   },
 
   {
-    title: "Pokemon Jaune",
-    editor: "Nintendo",
+    title: 'Pokémon Jaune',
+    editor: 'Nintendo',
     rating: 0,
     owned: false,
     gamelistPriority: 1,
@@ -548,8 +548,8 @@ export const dantesGames: UserGame[] = [
   },
 
   {
-    title: "Pokémon Rouge",
-    editor: "Game Freak",
+    title: 'Pokémon Rouge',
+    editor: 'Game Freak',
     rating: 0,
     owned: false,
     gamelistPriority: 1,
@@ -561,8 +561,8 @@ export const dantesGames: UserGame[] = [
   },
 
   {
-    title: "Pokémon Or",
-    editor: "Game Freak",
+    title: 'Pokémon Or',
+    editor: 'Game Freak',
     rating: 0,
     owned: false,
     gamelistPriority: 1,
@@ -574,8 +574,8 @@ export const dantesGames: UserGame[] = [
   },
 
   {
-    title: "Pokémon Argent",
-    editor: "Game Freak",
+    title: 'Pokémon Argent',
+    editor: 'Game Freak',
     rating: 0,
     owned: false,
     gamelistPriority: 1,
@@ -587,8 +587,8 @@ export const dantesGames: UserGame[] = [
   },
 
   {
-    title: "Pokémon Cristal",
-    editor: "Game Freak",
+    title: 'Pokémon Cristal',
+    editor: 'Game Freak',
     rating: 0,
     owned: false,
     gamelistPriority: 1,
@@ -600,8 +600,8 @@ export const dantesGames: UserGame[] = [
   },
 
   {
-    title: "Pokémon Émeraude",
-    editor: "Game Freak",
+    title: 'Pokémon Émeraude',
+    editor: 'Game Freak',
     rating: 0,
     owned: false,
     gamelistPriority: 1,
@@ -613,8 +613,8 @@ export const dantesGames: UserGame[] = [
   },
 
   {
-    title: "Pokémon Rouge Feu",
-    editor: "Game Freak",
+    title: 'Pokémon Rouge Feu',
+    editor: 'Game Freak',
     rating: 0,
     owned: false,
     gamelistPriority: 1,
@@ -626,8 +626,8 @@ export const dantesGames: UserGame[] = [
   },
 
   {
-    title: "Pokémon Vert Feuille",
-    editor: "Game Freak",
+    title: 'Pokémon Vert Feuille',
+    editor: 'Game Freak',
     rating: 0,
     owned: false,
     gamelistPriority: 1,
@@ -639,8 +639,8 @@ export const dantesGames: UserGame[] = [
   },
 
   {
-    title: "Pokémon Diamant",
-    editor: "Game Freak",
+    title: 'Pokémon Diamant',
+    editor: 'Game Freak',
     rating: 0,
     owned: false,
     gamelistPriority: 1,
@@ -652,8 +652,8 @@ export const dantesGames: UserGame[] = [
   },
 
   {
-    title: "Pokémon Perle",
-    editor: "Game Freak",
+    title: 'Pokémon Perle',
+    editor: 'Game Freak',
     rating: 0,
     owned: false,
     gamelistPriority: 1,
@@ -665,8 +665,8 @@ export const dantesGames: UserGame[] = [
   },
 
   {
-    title: "Pokémon Or HeartGold",
-    editor: "Game Freak",
+    title: 'Pokémon Or HeartGold',
+    editor: 'Game Freak',
     rating: 0,
     owned: false,
     gamelistPriority: 1,
@@ -678,8 +678,8 @@ export const dantesGames: UserGame[] = [
   },
 
   {
-    title: "Pokémon Argent SoulSilver",
-    editor: "Game Freak",
+    title: 'Pokémon Argent SoulSilver',
+    editor: 'Game Freak',
     rating: 0,
     owned: false,
     gamelistPriority: 1,
@@ -691,8 +691,8 @@ export const dantesGames: UserGame[] = [
   },
 
   {
-    title: "Age of Empires",
-    editor: "Ensemble Studios",
+    title: 'Age of Empires',
+    editor: 'Ensemble Studios',
     rating: 0,
     owned: false,
     gamelistPriority: 1,
@@ -704,8 +704,8 @@ export const dantesGames: UserGame[] = [
   },
 
   {
-    title: "Age of Empires: The Rise of Rome",
-    editor: "Ensemble Studios",
+    title: 'Age of Empires: The Rise of Rome',
+    editor: 'Ensemble Studios',
     rating: 0,
     owned: false,
     gamelistPriority: 1,
@@ -717,8 +717,8 @@ export const dantesGames: UserGame[] = [
   },
 
   {
-    title: "Age of Empires II: The Age of Kings",
-    editor: "Ensemble Studios",
+    title: 'Age of Empires II: The Age of Kings',
+    editor: 'Ensemble Studios',
     rating: 0,
     owned: false,
     gamelistPriority: 1,
@@ -730,7 +730,7 @@ export const dantesGames: UserGame[] = [
   },
 
   {
-    title: "Age of Empires II: Definitive Edition",
+    title: 'Age of Empires II: Definitive Edition',
     editor: "World's Edge",
     rating: 0,
     owned: false,
@@ -743,8 +743,8 @@ export const dantesGames: UserGame[] = [
   },
 
   {
-    title: "Age of Empires III",
-    editor: "Ensemble Studios",
+    title: 'Age of Empires III',
+    editor: 'Ensemble Studios',
     rating: 0,
     owned: false,
     gamelistPriority: 1,
@@ -756,7 +756,7 @@ export const dantesGames: UserGame[] = [
   },
 
   {
-    title: "Age of Empires III: Definitive Edition",
+    title: 'Age of Empires III: Definitive Edition',
     editor: "World's Edge",
     rating: 0,
     owned: false,
@@ -769,8 +769,8 @@ export const dantesGames: UserGame[] = [
   },
 
   {
-    title: "Age of Empires IV",
-    editor: "Relic Entertainment",
+    title: 'Age of Empires IV',
+    editor: 'Relic Entertainment',
     rating: 0,
     owned: false,
     gamelistPriority: 1,
@@ -782,8 +782,8 @@ export const dantesGames: UserGame[] = [
   },
 
   {
-    title: "Age of Mythology",
-    editor: "Ensemble Studios",
+    title: 'Age of Mythology',
+    editor: 'Ensemble Studios',
     rating: 0,
     owned: false,
     gamelistPriority: 1,
@@ -795,7 +795,7 @@ export const dantesGames: UserGame[] = [
   },
 
   {
-    title: "Age of Mythology: Retold",
+    title: 'Age of Mythology: Retold',
     editor: "World's Edge",
     rating: 0,
     owned: false,
@@ -808,8 +808,8 @@ export const dantesGames: UserGame[] = [
   },
 
   {
-    title: "God of War (2005)",
-    editor: "Santa Monica Studio",
+    title: 'God of War (2005)',
+    editor: 'Santa Monica Studio',
     rating: 0,
     owned: false,
     gamelistPriority: 1,
@@ -821,8 +821,8 @@ export const dantesGames: UserGame[] = [
   },
 
   {
-    title: "God of War II",
-    editor: "Santa Monica Studio",
+    title: 'God of War II',
+    editor: 'Santa Monica Studio',
     rating: 0,
     owned: false,
     gamelistPriority: 1,
@@ -834,8 +834,8 @@ export const dantesGames: UserGame[] = [
   },
 
   {
-    title: "God of War: Chains of Olympus",
-    editor: "Ready at Dawn",
+    title: 'God of War: Chains of Olympus',
+    editor: 'Ready at Dawn',
     rating: 0,
     owned: false,
     gamelistPriority: 1,
@@ -847,8 +847,8 @@ export const dantesGames: UserGame[] = [
   },
 
   {
-    title: "God of War: Ghost of Sparta",
-    editor: "Ready at Dawn",
+    title: 'God of War: Ghost of Sparta',
+    editor: 'Ready at Dawn',
     rating: 0,
     owned: false,
     gamelistPriority: 1,
@@ -860,8 +860,8 @@ export const dantesGames: UserGame[] = [
   },
 
   {
-    title: "God of War: Ascension",
-    editor: "Santa Monica Studio",
+    title: 'God of War: Ascension',
+    editor: 'Santa Monica Studio',
     rating: 0,
     owned: false,
     gamelistPriority: 1,

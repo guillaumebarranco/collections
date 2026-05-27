@@ -41,7 +41,7 @@ export const cassandreGames: UserGames = [
   },
 
   {
-    title: 'Pokemon Jaune',
+    title: 'Pokémon Jaune',
     editor: 'Nintendo',
     rating: 0,
     owned: false,
@@ -509,8 +509,8 @@ export const cassandreGames: UserGames = [
   },
 
   {
-    title: "Sonic Heroes",
-    editor: "Sega",
+    title: 'Sonic Heroes',
+    editor: 'Sega',
     rating: 0,
     owned: false,
     gamelistPriority: 1,
@@ -522,8 +522,8 @@ export const cassandreGames: UserGames = [
   },
 
   {
-    title: "Sonic Advance 3",
-    editor: "Sega",
+    title: 'Sonic Advance 3',
+    editor: 'Sega',
     rating: 0,
     owned: false,
     gamelistPriority: 1,
@@ -535,8 +535,8 @@ export const cassandreGames: UserGames = [
   },
 
   {
-    title: "Sonic Riders",
-    editor: "Sega",
+    title: 'Sonic Riders',
+    editor: 'Sega',
     rating: 0,
     owned: false,
     gamelistPriority: 1,
@@ -548,8 +548,8 @@ export const cassandreGames: UserGames = [
   },
 
   {
-    title: "Sonic Generations",
-    editor: "Sonic Team",
+    title: 'Sonic Generations',
+    editor: 'Sonic Team',
     rating: 0,
     owned: false,
     gamelistPriority: 1,
@@ -561,8 +561,8 @@ export const cassandreGames: UserGames = [
   },
 
   {
-    title: "Sonic Frontiers",
-    editor: "Sonic Team",
+    title: 'Sonic Frontiers',
+    editor: 'Sonic Team',
     rating: 0,
     owned: false,
     gamelistPriority: 1,

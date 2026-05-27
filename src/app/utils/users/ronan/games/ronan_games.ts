@@ -3372,7 +3372,7 @@ export const ronanGames: UserGames = [
     ],
   },
   {
-    title: 'Pokemon Jaune',
+    title: 'Pokémon Jaune',
     editor: 'Nintendo',
     rating: 3.5,
     owned: false,
@@ -3509,7 +3509,7 @@ export const ronanGames: UserGames = [
     ],
   },
   {
-    title: 'Pokemon Rubis',
+    title: 'Pokémon Rubis',
     editor: 'Nintendo',
     rating: 4,
     owned: false,
