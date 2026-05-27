@@ -33,10 +33,19 @@ function formatScanChartDate(date: Date): string {
 }
 
 function formatScanTrackingTooltipHtml(row: ScanTrackingPeriod): string {
-  if (row.trackingKind === 'one-shot' || row.key.startsWith('oneshot:')) {
+  if (
+    row.trackingKind === 'book-read' ||
+    row.trackingKind === 'one-shot' ||
+    row.key.startsWith('oneshot:') ||
+    row.key.startsWith('read:')
+  ) {
+    const typeLine =
+      row.trackingKind === 'one-shot' || row.key.startsWith('oneshot:')
+        ? 'Lecture one shot'
+        : 'Date de lecture';
     return `<strong>${row.label}</strong><br/>Lu le ${formatScanChartDate(
       row.start,
-    )}<br/>Lecture one shot`;
+    )}<br/>${typeLine}`;
   }
   const durationLine = row.durationLabel
     ? `<br/>Temps de jeu : <strong>${row.durationLabel}</strong>`

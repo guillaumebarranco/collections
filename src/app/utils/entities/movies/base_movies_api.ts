@@ -554,4 +554,27 @@ export const baseMoviesApi: BaseMovie[] = [
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
   },
+
+  {
+    title: 'Ladies First',
+    director: 'Thea Sharrock',
+    actors: [
+      { name: 'Sacha Baron Cohen' },
+      { name: 'Rosamund Pike' },
+      { name: 'Richard E. Grant' },
+      { name: 'Emily Mortimer' },
+      { name: 'Charles Dance' },
+      { name: 'Fiona Shaw' },
+      { name: 'Tom Davis' },
+    ],
+    coverUrl: '/movies_pictures/acd0f921b4e3.jpg',
+    releaseDate: '2026-05-22',
+    length: 93,
+    genre: ['Comédie'],
+    saga: '',
+    description: '',
+    fromEntity: null,
+    countryOrigin: ['États-Unis'],
+    selectDisplayOrder: 0,
+  },
 ];

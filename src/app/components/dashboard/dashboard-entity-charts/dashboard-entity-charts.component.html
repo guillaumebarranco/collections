@@ -79,6 +79,63 @@
       </div>
       }
     </div>
+    <div class="charts-section charts-section--wide charts-section--compact">
+      <label class="charts-section-option">
+        <input
+          type="checkbox"
+          [checked]="showBooksReadTimelineChart()"
+          (change)="onShowBooksReadTimelineChartChange($event)"
+        />
+        Afficher le graphique des dates de lecture ({{ scanChartStartYear }}-{{ currentYear }})
+      </label>
+    </div>
+    @if (showBooksReadTimelineChart()) {
+    <div class="charts-section charts-section--wide">
+      <h3>📖 Dates de lecture des livres ({{ scanChartStartYear }}-{{ currentYear }})</h3>
+      <p class="chart-description">
+        Chaque barre correspond à une date de lecture (première lecture ou
+        relecture selon la case ci-dessus). Le titre et la couleur sont affichés
+        à gauche de chaque barre.
+      </p>
+      @if (bookReadPeriods().length === 0) {
+      <div class="no-data">
+        Aucune lecture datée depuis {{ scanChartStartYear }}.
+      </div>
+      } @else {
+      <div #booksReadTimelineChart class="scan-timeline-chart"></div>
+      <div class="chart-footnote">
+        {{ bookReadPeriods().length }} lecture(s) sur
+        {{ bookReadPeriodsBookCount() }} livre(s)
+        @if (!showBookRereads()) {
+        <span> (sans relectures)</span>
+        }
+      </div>
+      }
+
+      <div class="game-chart-lists game-chart-lists--single">
+        <div class="game-chart-list">
+          <h4>Livres lus sans date de lecture</h4>
+          @if (booksUndatedForReadingChart().length === 0) {
+          <p class="game-chart-list__empty">
+            Tous les livres lus ont au moins une date de lecture.
+          </p>
+          } @else {
+          <ul class="game-chart-list__items">
+            @for (
+              book of booksUndatedForReadingChart();
+              track book.title + book.author
+            ) {
+            <li>
+              {{ book.title }}
+              <span class="game-chart-list__meta">— {{ book.author }}</span>
+            </li>
+            }
+          </ul>
+          }
+        </div>
+      </div>
+    </div>
+    }
     } @if (effectiveEntity() === 'games') {
     <div class="charts-section charts-section--wide">
       <h3>🎮 Sessions de jeu ({{ scanChartStartYear }}-{{ currentYear }})</h3>

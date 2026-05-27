@@ -51,11 +51,14 @@ import {
 import {
   getBookReadYearsForChart,
   getBookUndatedReadCountForChart,
+  getBookReadTrackingPeriods,
+  getBooksUndatedForReadingChart,
 } from '../../../utils/book-read-dates.utils';
 import {
   getMovieSeenYearsForChart,
   getMovieUndatedSeenCountForChart,
 } from '../../../utils/movie-seen-dates.utils';
+import { LocalStorageService } from '../../../services/local-storage.service';
 
 export type EntityType =
   | 'books'
@@ -85,7 +88,11 @@ const ENTITIES_WITH_CHARTS: EntityType[] = [
   styleUrls: ['./dashboard-entity-charts.component.scss'],
 })
 export class DashboardEntityChartsComponent implements OnInit, AfterViewInit {
+  private static readonly BOOKS_READ_TIMELINE_VISIBLE_KEY =
+    'makya.dashboard.entity-charts.books-read-timeline-visible';
+
   activatedRoute = inject(ActivatedRoute);
+  private readonly localStorageService = inject(LocalStorageService);
 
   /** Quand true : pas de titre ni d’onglets ; l’entité vient du parent (ex. vue Statistiques par entité). */
   readonly embedded = input(false);
@@ -126,6 +133,13 @@ export class DashboardEntityChartsComponent implements OnInit, AfterViewInit {
   /** Inclure les relectures (lastReadDate + otherReadDates) dans le graphique livres. */
   showBookRereads = signal(true);
 
+  /** Graphique timeline des dates de lecture (persisté, masqué par défaut). */
+  showBooksReadTimelineChart = signal(
+    this.localStorageService.getItem<boolean>(
+      DashboardEntityChartsComponent.BOOKS_READ_TIMELINE_VISIBLE_KEY,
+    ) === true,
+  );
+
   /** Inclure les revisionnages (lastViewedDate + otherSeenDates) dans le graphique films. */
   showMovieRewatches = signal(true);
 
@@ -143,6 +157,9 @@ export class DashboardEntityChartsComponent implements OnInit, AfterViewInit {
 
   @ViewChild('booksReadChart')
   booksReadChart?: ElementRef<HTMLDivElement>;
+
+  @ViewChild('booksReadTimelineChart')
+  booksReadTimelineChart?: ElementRef<HTMLDivElement>;
 
   @ViewChild('seriesSeasonsViewedChart')
   seriesSeasonsViewedChart?: ElementRef<HTMLDivElement>;
@@ -339,6 +356,32 @@ export class DashboardEntityChartsComponent implements OnInit, AfterViewInit {
     return `(avec relectures) (sans compter les ${undated} ${label})`;
   });
 
+  bookReadPeriods = computed(() =>
+    getBookReadTrackingPeriods(
+      this.getUniqueBooks(this.allBooks()),
+      this.showBookRereads(),
+      this.scanChartStartYear,
+      new Date(),
+    ),
+  );
+
+  bookReadPeriodsBookCount = computed(() => {
+    const bookKeys = new Set(
+      this.bookReadPeriods().map((period) => {
+        const withoutPrefix = period.key.replace(/^read:/, '');
+        const lastPipe = withoutPrefix.lastIndexOf('|');
+        return lastPipe >= 0
+          ? withoutPrefix.slice(0, lastPipe)
+          : withoutPrefix;
+      }),
+    );
+    return bookKeys.size;
+  });
+
+  booksUndatedForReadingChart = computed(() =>
+    getBooksUndatedForReadingChart(this.getUniqueBooks(this.allBooks())),
+  );
+
   /** Saisons visionnées par an (basé sur lastViewedDate de chaque saison). */
   seriesSeasonsViewedByYear = computed(() => {
     const startYear = 2000;
@@ -484,6 +527,15 @@ export class DashboardEntityChartsComponent implements OnInit, AfterViewInit {
     this.showBookRereads.set(checked);
   }
 
+  onShowBooksReadTimelineChartChange(event: Event): void {
+    const checked = (event.target as HTMLInputElement).checked;
+    this.showBooksReadTimelineChart.set(checked);
+    this.localStorageService.setItem(
+      DashboardEntityChartsComponent.BOOKS_READ_TIMELINE_VISIBLE_KEY,
+      checked,
+    );
+  }
+
   onShowMovieRewatchesChange(event: Event): void {
     const checked = (event.target as HTMLInputElement).checked;
     this.showMovieRewatches.set(checked);
@@ -508,6 +560,7 @@ export class DashboardEntityChartsComponent implements OnInit, AfterViewInit {
       this.moviesWatchedByYear();
       this.moviesCinemaByYear();
       this.booksReadByYear();
+      this.bookReadPeriods();
       this.seriesSeasonsViewedByYear();
       this.mangaScanPeriods();
       this.manwhaScanPeriods();
@@ -520,12 +573,17 @@ export class DashboardEntityChartsComponent implements OnInit, AfterViewInit {
 
     effect(() => {
       this.booksReadByYear();
+      this.bookReadPeriods();
       this.showBookRereads();
+      this.showBooksReadTimelineChart();
       if (this.effectiveEntity() !== 'books') {
         return;
       }
       untracked(() => {
-        requestAnimationFrame(() => this.renderBooksReadChart());
+        requestAnimationFrame(() => {
+          this.renderBooksReadChart();
+          this.renderBooksReadTimelineChart();
+        });
       });
     });
 
@@ -613,7 +671,10 @@ export class DashboardEntityChartsComponent implements OnInit, AfterViewInit {
     const books = await getAllBooks(uid);
     this.booksList.set(books);
     if (this.effectiveEntity() === 'books') {
-      requestAnimationFrame(() => this.renderBooksReadChart());
+      requestAnimationFrame(() => {
+        this.renderBooksReadChart();
+        this.renderBooksReadTimelineChart();
+      });
     }
   }
 
@@ -675,6 +736,9 @@ export class DashboardEntityChartsComponent implements OnInit, AfterViewInit {
       this.renderMoviesCinemaChart();
     } else if (entity === 'books') {
       this.renderBooksReadChart();
+      if (this.showBooksReadTimelineChart()) {
+        this.renderBooksReadTimelineChart();
+      }
     } else if (entity === 'series') {
       this.renderSeriesSeasonsViewedChart();
     } else if (entity === 'mangas') {
@@ -752,6 +816,17 @@ export class DashboardEntityChartsComponent implements OnInit, AfterViewInit {
       this.booksReadTotal(),
       this.booksReadByYear()
     );
+  }
+
+  private renderBooksReadTimelineChart(): void {
+    if (this.effectiveEntity() !== 'books' || !this.showBooksReadTimelineChart()) {
+      return;
+    }
+    const container = this.booksReadTimelineChart?.nativeElement;
+    renderScanTrackingTimelineChart(container, this.bookReadPeriods(), {
+      startYear: this.scanChartStartYear,
+      endYear: this.currentYear,
+    });
   }
 
   private renderSeriesSeasonsViewedChart(): void {

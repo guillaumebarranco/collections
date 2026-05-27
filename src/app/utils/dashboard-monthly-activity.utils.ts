@@ -380,7 +380,7 @@ export type ScanTrackingPeriod = {
   /** Libellé de durée au survol (ex. temps de jeu d’une session). */
   durationLabel?: string;
   /** Préfixe de clé `oneshot:` pour les lectures sans suivi scan. */
-  trackingKind?: 'scan' | 'one-shot';
+  trackingKind?: 'scan' | 'one-shot' | 'book-read';
 };
 
 /** Nombre de jours calendaires inclus entre deux dates d’activité. */
