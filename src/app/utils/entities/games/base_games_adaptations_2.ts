@@ -1573,7 +1573,7 @@ export const baseGamesAdaptations2: BaseGame[] = [
     fromEntity: null,
   },
   {
-    title: 'Pokemon Flora Sky',
+    title: 'Pokémon Flora Sky',
     editor: 'Fangame (12345 SKY)',
     hero: 'Dresseur',
     coverUrl: '/games_pictures/01206088ae0b.png',
