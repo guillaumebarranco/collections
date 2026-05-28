@@ -32,6 +32,7 @@ router.get('/entities', (_req: any, res: any) => {
       })
       .flat();
 
+    res.set('Cache-Control', 'no-store, no-cache, must-revalidate');
     res.json(games);
   } catch (error: any) {
     res.status(500).json({ error: error.message || 'Unknown error' });

@@ -15,6 +15,7 @@ import type {
 } from '../../../models/from-entity.model';
 import {
   getAllBaseGames,
+  invalidateBaseGamesCache,
   getGamesByUser,
 } from '../../../facades/games/games.facade';
 import { getAllBaseBooks } from '../../../facades/books/books.facade';
@@ -705,6 +706,7 @@ export class EditGameComponent {
         return;
       }
 
+      invalidateBaseGamesCache();
       this.dialogRef?.close({ updated: true, payload });
     } catch (error) {
       console.error('edit-game:admin:error', error);

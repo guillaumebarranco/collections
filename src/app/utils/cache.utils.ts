@@ -1,8 +1,14 @@
-export function createCachedFetcher<T>(fetcher: () => Promise<T>) {
+export type CachedFetcher<T> = (() => Promise<T>) & {
+  invalidate: () => void;
+};
+
+export function createCachedFetcher<T>(
+  fetcher: () => Promise<T>
+): CachedFetcher<T> {
   let cache: T | null = null;
   let pending: Promise<T> | null = null;
 
-  return async () => {
+  const load = async () => {
     if (cache !== null) {
       return cache;
     }
@@ -20,4 +26,11 @@ export function createCachedFetcher<T>(fetcher: () => Promise<T>) {
 
     return pending;
   };
+
+  load.invalidate = () => {
+    cache = null;
+    pending = null;
+  };
+
+  return load;
 }

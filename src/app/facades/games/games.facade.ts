@@ -18,6 +18,11 @@ import { getGameDataFromUserGameAndBaseGame } from '../../helpers/entities.helpe
 
 const fetchBaseGamesCached = createCachedFetcher(fetchBaseGamesFromApi);
 
+/** À appeler après une modification admin des entités jeux (fichiers base). */
+export function invalidateBaseGamesCache(): void {
+  fetchBaseGamesCached.invalidate();
+}
+
 async function getAllGamesData(games: UserGame[]): Promise<Game[]> {
   const baseGames = await getAllBaseGames();
 

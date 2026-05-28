@@ -28,7 +28,9 @@ export async function fetchGamelistGamesFromApi(
 }
 
 export async function fetchBaseGamesFromApi(): Promise<BaseGame[]> {
-  const response = await fetch(`${getApiBaseUrl()}/games/entities`);
+  const response = await fetch(`${getApiBaseUrl()}/games/entities`, {
+    cache: 'no-store',
+  });
   if (!response.ok) {
     throw new Error('Games entities API error');
   }

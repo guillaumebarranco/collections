@@ -11,7 +11,10 @@ import { GameComponent } from '../../../components/collections/game/game.compone
 import { AdminGamesHeaderComponent } from './games-header/games-header.component';
 import { Game } from '../../../models/game-model';
 import { GameView, getSortedGames } from '../../collections/games/games.utils';
-import { getAllBaseGames } from '../../../facades/games/games.facade';
+import {
+  getAllBaseGames,
+  invalidateBaseGamesCache,
+} from '../../../facades/games/games.facade';
 import { getFullGame } from '../../../helpers/full-entities-helper';
 import { normalizeSearchText } from '../../../utils/normalize-search-text';
 import { Router } from '@angular/router';
@@ -73,6 +76,7 @@ export class AdminGamesComponent implements OnInit {
   }
 
   async refreshGames(): Promise<void> {
+    invalidateBaseGamesCache();
     const baseGames = await getAllBaseGames();
     const games = baseGames.map(getFullGame);
     this.adminGamesList.set(games);
