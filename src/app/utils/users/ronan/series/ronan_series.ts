@@ -952,7 +952,6 @@ export const ronanSeries: UserSeries = [
 
         lastViewedDate: '',
 
-
         otherViewedDates: [],
       },
       {
@@ -962,7 +961,6 @@ export const ronanSeries: UserSeries = [
         firstViewedDate: '',
 
         lastViewedDate: '2026-05-06',
-
 
         otherViewedDates: [],
       },
@@ -6818,23 +6816,13 @@ export const ronanSeries: UserSeries = [
     title: 'Andor',
     director: 'Tony Gilroy',
     seasons: [
-    {
-      seasonNumber: 1,
-      seasonRating: 4.75,
-      seasonTimesWatched: 2,
-      firstViewedDate: "",
-      lastViewedDate: "",
-      otherViewedDates: [],
-    },
-    {
-      seasonNumber: 2,
-      seasonRating: 4.5,
-      seasonTimesWatched: 1,
-      firstViewedDate: "",
-      lastViewedDate: "2025-05-14",
-      otherViewedDates: [],
-    }
-  ],
+      {
+        seasonNumber: 1,
+        seasonRating: 4.75,
+        seasonTimesWatched: 2,
+        firstViewedDate: '',
+        lastViewedDate: '',
+        otherViewedDates: [],
       },
       {
         seasonNumber: 2,
@@ -6842,16 +6830,15 @@ export const ronanSeries: UserSeries = [
         seasonTimesWatched: 1,
         firstViewedDate: '',
         lastViewedDate: '2025-05-14',
-
         otherViewedDates: [],
       },
     ],
     owned: false,
     watchPriority: 1,
     wantToWatchAgain: true,
-    ratingComment: "",
-    borrowed: "",
-    loaned: "",
+    ratingComment: '',
+    borrowed: '',
+    loaned: '',
   },
 
   {
@@ -8930,105 +8917,63 @@ export const ronanSeries: UserSeries = [
   },
 
   {
-    title: "LOST : Les disparus",
-    director: "J.J. Abrams, Damon Lindelof, Carlton Cuse",
+    title: 'LOST : Les disparus',
+    director: 'J.J. Abrams, Damon Lindelof, Carlton Cuse',
     seasons: [
-    {
-      seasonNumber: 1,
-      seasonRating: 3.5,
-      seasonTimesWatched: 1,
-      firstViewedDate: "",
-      lastViewedDate: "2026-05-24",
-      otherViewedDates: [],
-    },
-    {
-      seasonNumber: 2,
-      seasonRating: 0,
-      seasonTimesWatched: 0,
-      firstViewedDate: "",
-      lastViewedDate: "",
-      otherViewedDates: [],
-    },
-    {
-      seasonNumber: 3,
-      seasonRating: 0,
-      seasonTimesWatched: 0,
-      firstViewedDate: "",
-      lastViewedDate: "",
-      otherViewedDates: [],
-    },
-    {
-      seasonNumber: 4,
-      seasonRating: 0,
-      seasonTimesWatched: 0,
-      firstViewedDate: "",
-      lastViewedDate: "",
-      otherViewedDates: [],
-    },
-    {
-      seasonNumber: 5,
-      seasonRating: 0,
-      seasonTimesWatched: 0,
-      firstViewedDate: "",
-      lastViewedDate: "",
-      otherViewedDates: [],
-    },
-    {
-      seasonNumber: 6,
-      seasonRating: 0,
-      seasonTimesWatched: 0,
-      firstViewedDate: "",
-      lastViewedDate: "",
-      otherViewedDates: [],
-    }
-  ],
+      {
+        seasonNumber: 1,
+        seasonRating: 3.5,
+        seasonTimesWatched: 1,
+        firstViewedDate: '',
+        lastViewedDate: '2026-05-24',
+        otherViewedDates: [],
       },
       {
         seasonNumber: 2,
         seasonRating: 0,
         seasonTimesWatched: 0,
-        firstViewedDate: "",
-        lastViewedDate: "",
+        firstViewedDate: '',
+        lastViewedDate: '',
         otherViewedDates: [],
       },
       {
         seasonNumber: 3,
         seasonRating: 0,
         seasonTimesWatched: 0,
-        firstViewedDate: "",
-        lastViewedDate: "",
+        firstViewedDate: '',
+        lastViewedDate: '',
         otherViewedDates: [],
       },
       {
         seasonNumber: 4,
         seasonRating: 0,
         seasonTimesWatched: 0,
-        firstViewedDate: "",
-        lastViewedDate: "",
+        firstViewedDate: '',
+        lastViewedDate: '',
         otherViewedDates: [],
       },
       {
         seasonNumber: 5,
         seasonRating: 0,
         seasonTimesWatched: 0,
-        firstViewedDate: "",
-        lastViewedDate: "",
+        firstViewedDate: '',
+        lastViewedDate: '',
         otherViewedDates: [],
       },
       {
         seasonNumber: 6,
         seasonRating: 0,
         seasonTimesWatched: 0,
-        firstViewedDate: "",
-        lastViewedDate: "",
+        firstViewedDate: '',
+        lastViewedDate: '',
         otherViewedDates: [],
-      }
+      },
     ],
     owned: false,
     watchPriority: 1,
     wantToWatchAgain: false,
-    ratingComment: "",
-    borrowed: "",
-    loaned: "",
+    ratingComment: '',
+    borrowed: '',
+    loaned: '',
   },
 ];
