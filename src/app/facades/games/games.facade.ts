@@ -95,9 +95,11 @@ export async function getAllBaseGames(): Promise<BaseGame[]> {
   }
 
   try {
-    const apiGames = await fetchBaseGamesCached();
-    return apiGames.length ? apiGames : allBaseGames;
+    return await fetchBaseGamesCached();
   } catch {
+    console.warn(
+      'Impossible de charger les jeux de base via l’API, repli sur le bundle embarqué.'
+    );
     return allBaseGames;
   }
 }

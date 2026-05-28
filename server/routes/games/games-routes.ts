@@ -19,8 +19,9 @@ const othersRatedRouter = require('./get-others-users-games-rated');
 router.use('/', getGameWatchers);
 router.use('/', getGamelist);
 router.use('/', othersRatedRouter);
-router.use('/', getGames);
+// /entities avant /:userId — sinon "entities" est pris pour un userId
 router.use('/', getEntities);
+router.use('/', getGames);
 router.use('/', saveGame);
 router.use('/', batchRating);
 router.use('/', batchTimesFinished);
