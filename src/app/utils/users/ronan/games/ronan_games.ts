@@ -889,15 +889,6 @@ export const ronanGames: UserGames = [
       sessionStartDate: "2021-07-26",
       sessionEndDate: "2021-09-26",
       currentlyPlaying: false,
-    },
-{
-      finishedGame: true,
-      finishedGameWithHundredPercent: false,
-      platinedGame: false,
-      additionnalEstimatedTime: 0,
-      sessionStartDate: "",
-      sessionEndDate: "2026-05-27",
-      currentlyPlaying: false,
     }
     ],
   },
@@ -1852,15 +1843,6 @@ export const ronanGames: UserGames = [
       additionnalEstimatedTime: 0,
       sessionStartDate: "2025-03-09",
       sessionEndDate: "2025-03-11",
-      currentlyPlaying: false,
-    },
-{
-      finishedGame: true,
-      finishedGameWithHundredPercent: false,
-      platinedGame: false,
-      additionnalEstimatedTime: 0,
-      sessionStartDate: "",
-      sessionEndDate: "2026-05-27",
       currentlyPlaying: false,
     }
     ],
@@ -3581,8 +3563,8 @@ export const ronanGames: UserGames = [
       finishedGameWithHundredPercent: false,
       platinedGame: false,
       additionnalEstimatedTime: 0,
-      sessionStartDate: "2002-11-28",
-      sessionEndDate: "2003-02-15",
+      sessionStartDate: "",
+      sessionEndDate: "",
       currentlyPlaying: false,
     }
     ],

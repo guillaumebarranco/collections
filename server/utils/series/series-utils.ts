@@ -830,13 +830,29 @@ function formatSeasons(seasons: UserSerieSeason[]) {
 
 function replaceSeasonsField(objectText: string, seasons: UserSerieSeason[]) {
   if (!Array.isArray(seasons)) return objectText;
-  // Capture seasons: [...] suivi d'une virgule optionnelle
-  const regex = /seasons\s*:\s*\[[\s\S]*?\]\s*,?/;
   const replacement = `${formatSeasons(seasons)},`;
-  if (regex.test(objectText)) {
-    return objectText.replace(regex, replacement);
+  const keyMatch = objectText.match(/["']?seasons["']?\s*:\s*\[/);
+  if (!keyMatch || keyMatch.index === undefined) {
+    return objectText.replace(/\{\s*/, (match) => `${match}${replacement}\n  `);
   }
-  return objectText.replace(/\{\s*/, (match) => `${match}${replacement}\n  `);
+  const bracketStart = keyMatch.index + keyMatch[0].length - 1;
+  let depth = 1;
+  let i = bracketStart + 1;
+  while (i < objectText.length && depth > 0) {
+    const c = objectText[i];
+    if (c === '[') depth += 1;
+    else if (c === ']') depth -= 1;
+    i += 1;
+  }
+  if (depth !== 0) {
+    return objectText;
+  }
+  let end = i;
+  const trailing = objectText.slice(end).match(/^\s*,?/);
+  if (trailing) {
+    end += trailing[0].length;
+  }
+  return objectText.slice(0, keyMatch.index) + replacement + objectText.slice(end);
 }
 
 function updateSerieInFile(content: string, payload: SerieUpdatePayload) {

@@ -1,5 +1,9 @@
 import { Game } from '../../../models/game-model';
-import { getGameTimePlayed } from '../../../utils/games.utils';
+import {
+  getGameFirstPlayedTimestamp,
+  getGameLastPlayedTimestamp,
+  getGameTimePlayed,
+} from '../../../utils/games.utils';
 
 export type GameView =
   | 'played'
@@ -18,11 +22,17 @@ export type OptionalGameView = Exclude<
   'played' | 'gamelist' | 'inProgress'
 >;
 
+const gamesSessionDateSortOptions: { value: string; label: string }[] = [
+  { value: 'lastPlayedDate', label: 'Derniers jeux joués récents' },
+  { value: 'firstPlayedDate-asc', label: 'Premiers jeux joués' },
+];
+
 export const gamesSortOptions: { value: string; label: string }[] = [
   { value: 'title', label: 'Titre (A-Z)' },
   { value: 'title-desc', label: 'Titre (Z-A)' },
   { value: 'platform', label: 'Plateforme (A-Z)' },
   { value: 'platform-desc', label: 'Plateforme (Z-A)' },
+  ...gamesSessionDateSortOptions,
   { value: 'releaseDate', label: 'Date de sortie (récent)' },
   { value: 'releaseDate-asc', label: 'Date de sortie (ancien)' },
   { value: 'rating', label: 'Note (élevée)' },
@@ -34,6 +44,81 @@ export const gamesSortOptions: { value: string; label: string }[] = [
   { value: 'totalPlayedTime', label: 'Temps passé (élevé)' },
   { value: 'totalPlayedTime-asc', label: 'Temps passé (faible)' },
 ];
+
+export const gamesGamelistSortOptions: { value: string; label: string }[] = [
+  { value: 'gamelistPriority', label: 'Priorité gamelist' },
+  { value: 'title', label: 'Titre (A-Z)' },
+  { value: 'title-desc', label: 'Titre (Z-A)' },
+  { value: 'platform', label: 'Plateforme (A-Z)' },
+  { value: 'platform-desc', label: 'Plateforme (Z-A)' },
+  { value: 'releaseDate', label: 'Date de sortie (récent)' },
+  { value: 'releaseDate-asc', label: 'Date de sortie (ancien)' },
+];
+
+export const getGamesSortOptions = (
+  selectedView: GameView
+): { value: string; label: string }[] => {
+  if (selectedView === 'gamelist') {
+    return gamesGamelistSortOptions;
+  }
+  return gamesSortOptions;
+};
+
+export const getDefaultGamesSortForView = (view: GameView): string => {
+  if (view === 'gamelist') {
+    return 'gamelistPriority';
+  }
+  if (view === 'played' || view === 'inProgress') {
+    return 'lastPlayedDate';
+  }
+  return 'rating';
+};
+
+function compareGameTimestampsDesc(
+  games: Game[],
+  getTimestamp: (game: Game) => number
+): Game[] {
+  return games.sort((a, b) => {
+    const ta = getTimestamp(a);
+    const tb = getTimestamp(b);
+    if (!ta && !tb) {
+      return a.title.localeCompare(b.title);
+    }
+    if (!ta) {
+      return 1;
+    }
+    if (!tb) {
+      return -1;
+    }
+    if (tb !== ta) {
+      return tb - ta;
+    }
+    return a.title.localeCompare(b.title);
+  });
+}
+
+function compareGameTimestampsAsc(
+  games: Game[],
+  getTimestamp: (game: Game) => number
+): Game[] {
+  return games.sort((a, b) => {
+    const ta = getTimestamp(a);
+    const tb = getTimestamp(b);
+    if (!ta && !tb) {
+      return a.title.localeCompare(b.title);
+    }
+    if (!ta) {
+      return 1;
+    }
+    if (!tb) {
+      return -1;
+    }
+    if (ta !== tb) {
+      return ta - tb;
+    }
+    return a.title.localeCompare(b.title);
+  });
+}
 
 export const gameViewOptions: { value: GameView; label: string }[] = [
   { value: 'played', label: 'Jeux joués' },
@@ -65,6 +150,14 @@ export const getSortedGames = (games: Game[], selectedSort: string): Game[] => {
         if (platformCompare !== 0) return platformCompare;
         return a.title.localeCompare(b.title);
       });
+    case 'lastPlayedDate':
+      return compareGameTimestampsDesc(games, getGameLastPlayedTimestamp);
+    case 'lastPlayedDate-asc':
+      return compareGameTimestampsAsc(games, getGameLastPlayedTimestamp);
+    case 'firstPlayedDate':
+      return compareGameTimestampsDesc(games, getGameFirstPlayedTimestamp);
+    case 'firstPlayedDate-asc':
+      return compareGameTimestampsAsc(games, getGameFirstPlayedTimestamp);
     case 'releaseDate':
       return games.sort(
         (a, b) =>

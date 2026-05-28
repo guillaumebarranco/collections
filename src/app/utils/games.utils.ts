@@ -83,6 +83,71 @@ export function getGameTimePlayed(game: GameForPlayedTimeStats): number {
   return getGamePlayedHoursFromSessions(game.sessions, game);
 }
 
+function parseGameSessionDate(raw: string | undefined | null): number {
+  const value = (raw ?? '').trim();
+  if (!value) {
+    return 0;
+  }
+  const time = new Date(value).getTime();
+  return Number.isNaN(time) ? 0 : time;
+}
+
+/** Timestamp de la dernière activité connue sur une session (fin, début, ou aujourd'hui si en cours). */
+export function getGameSessionLastActivityTimestamp(
+  session: UserGameSession,
+  reference = new Date()
+): number {
+  const legacy = session as UserGameSession & { finishedSessionDate?: string };
+  const end = parseGameSessionDate(
+    session.sessionEndDate || legacy.finishedSessionDate
+  );
+  if (end > 0) {
+    return end;
+  }
+  const start = parseGameSessionDate(session.sessionStartDate);
+  if (start > 0) {
+    return start;
+  }
+  if (session.currentlyPlaying) {
+    return reference.getTime();
+  }
+  return 0;
+}
+
+/** Timestamp de la dernière activité sur toutes les sessions du jeu. */
+export function getGameLastPlayedTimestamp(
+  game: GameForPlayedTimeStats,
+  reference = new Date()
+): number {
+  let max = 0;
+  for (const session of game.sessions ?? []) {
+    const activity = getGameSessionLastActivityTimestamp(session, reference);
+    if (activity > max) {
+      max = activity;
+    }
+  }
+  return max;
+}
+
+/** Timestamp de la première session datée du jeu. */
+export function getGameFirstPlayedTimestamp(game: GameForPlayedTimeStats): number {
+  let min = 0;
+  let hasDate = false;
+  for (const session of game.sessions ?? []) {
+    const start = parseGameSessionDate(session.sessionStartDate);
+    const end = parseGameSessionDate(session.sessionEndDate);
+    const candidate = start || end;
+    if (!candidate) {
+      continue;
+    }
+    if (!hasDate || candidate < min) {
+      min = candidate;
+      hasDate = true;
+    }
+  }
+  return hasDate ? min : 0;
+}
+
 /**
  * Temps total passé à jouer sur tous les jeux de la liste (somme des temps par session).
  * Utilisé pour la stat "Temps total passé à jouer".

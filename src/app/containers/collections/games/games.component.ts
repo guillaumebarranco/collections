@@ -25,7 +25,8 @@ import {
   GameView,
   OptionalGameView,
   gameViewOptions,
-  gamesSortOptions,
+  getDefaultGamesSortForView,
+  getGamesSortOptions,
   getSortedGames,
 } from './games.utils';
 import { isGameCurrentlyPlaying } from '../../../helpers/entities.helper';
@@ -98,7 +99,9 @@ export class GamesComponent implements OnInit {
   private readonly viewConfigStorageKey = 'games_view_config';
   private readonly viewPreferencesStorageKey = 'games_view_preferences';
 
-  selectedSort = signal<string>('rating');
+  selectedSort = signal<string>(
+    getDefaultGamesSortForView('played')
+  );
   selectedView = signal<GameView>('played');
   searchTerm = signal<string>('');
   showTopFiveRank = signal<boolean>(false);
@@ -114,7 +117,9 @@ export class GamesComponent implements OnInit {
     recommendations: false,
   });
 
-  sortOptions = signal<SortOption[]>(gamesSortOptions);
+  sortOptions = computed<SortOption[]>(() =>
+    getGamesSortOptions(this.selectedView())
+  );
 
   /**
    * Jeux marqués « en cours » côté ludothèque **ou** côté liste à jouer
@@ -268,9 +273,7 @@ export class GamesComponent implements OnInit {
   });
 
   sortedGames = computed<Game[]>(() =>
-    this.selectedView() === 'gamelist'
-      ? getSortedGames([...this.filteredGames()], 'gamelistPriority')
-      : getSortedGames([...this.filteredGames()], this.selectedSort())
+    getSortedGames([...this.filteredGames()], this.selectedSort())
   );
 
   stats = computed<StatItem[]>(() => {
@@ -396,6 +399,12 @@ export class GamesComponent implements OnInit {
 
   onViewChange(view: GameView) {
     this.selectedView.set(view);
+    const allowedSorts = new Set(
+      getGamesSortOptions(view).map((option) => option.value)
+    );
+    if (!allowedSorts.has(this.selectedSort())) {
+      this.selectedSort.set(getDefaultGamesSortForView(view));
+    }
     if (view === 'recommendations') {
       void this.loadRecommendations();
     }
@@ -460,11 +469,26 @@ export class GamesComponent implements OnInit {
     ) {
       this.selectedView.set(parsed.view);
     }
-    if (
+    if (parsed.view === 'gamelist') {
+      this.selectedSort.set(
+        parsed.sort &&
+          getGamesSortOptions('gamelist').some((opt) => opt.value === parsed.sort)
+          ? parsed.sort
+          : getDefaultGamesSortForView('gamelist')
+      );
+    } else if (
       parsed.sort &&
-      this.sortOptions().some((opt) => opt.value === parsed.sort)
+      getGamesSortOptions(parsed.view ?? 'played').some(
+        (opt) => opt.value === parsed.sort
+      )
     ) {
       this.selectedSort.set(parsed.sort);
+    }
+    const allowedSorts = new Set(
+      getGamesSortOptions(this.selectedView()).map((option) => option.value)
+    );
+    if (!allowedSorts.has(this.selectedSort())) {
+      this.selectedSort.set(getDefaultGamesSortForView(this.selectedView()));
     }
     this.isLoadingPreferences = false;
   }
