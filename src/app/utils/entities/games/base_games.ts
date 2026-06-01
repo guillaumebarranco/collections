@@ -2078,7 +2078,7 @@ export const baseGames: BaseGame[] = [
     editor: "Sandfall Interactive",
     hero: "Inconnu",
     coverUrl: "/games_pictures/15dd9f9368aa87c9b2dcaf58e1856e8cca01b6e595331858.avif",
-    releaseDate: "2025-04-27",
+    releaseDate: "2025-01-29",
     averageTimeToFinish: 31,
     averageTimeToHundredPercent: 75,
     platform: "PlayStation 5",

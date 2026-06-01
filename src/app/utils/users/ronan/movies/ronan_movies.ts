@@ -20882,4 +20882,22 @@ export const ronanMovies: UserMovies = [
     borrowed: "",
     loaned: "",
   },
+
+  {
+    title: "Apocalypse Now",
+    director: "Francis Ford Coppola",
+    rating: 4,
+    timesWatched: 1,
+    firstViewedDate: "2026-05-29",
+    lastViewedDate: "2026-05-29",
+    otherSeenDates: [],
+    seenAtCinema: true,
+    owned: false,
+    wantToSeeAgain: false,
+    watchPriority: 1,
+    ratingComment: "",
+    inList: [],
+    borrowed: "",
+    loaned: "",
+  },
 ];
