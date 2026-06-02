@@ -8476,31 +8476,37 @@ export const ronanSeries: UserSeries = [
     title: 'Euphoria',
     director: 'Sam Levinson',
     seasons: [
-      {
-        seasonNumber: 1,
-        seasonRating: 4,
-        seasonTimesWatched: 1,
-        firstViewedDate: '',
-        lastViewedDate: '',
-
-        otherViewedDates: [],
-      },
-      {
-        seasonNumber: 2,
-        seasonRating: 4.5,
-        seasonTimesWatched: 1,
-        firstViewedDate: '',
-        lastViewedDate: '',
-
-        otherViewedDates: [],
-      },
-    ],
+    {
+      seasonNumber: 1,
+      seasonRating: 4,
+      seasonTimesWatched: 1,
+      firstViewedDate: "",
+      lastViewedDate: "",
+      otherViewedDates: [],
+    },
+    {
+      seasonNumber: 2,
+      seasonRating: 4.5,
+      seasonTimesWatched: 1,
+      firstViewedDate: "",
+      lastViewedDate: "",
+      otherViewedDates: [],
+    },
+    {
+      seasonNumber: 3,
+      seasonRating: 3,
+      seasonTimesWatched: 1,
+      firstViewedDate: "",
+      lastViewedDate: "2026-06-01",
+      otherViewedDates: [],
+    }
+  ],
     owned: false,
     watchPriority: 1,
     wantToWatchAgain: false,
-    ratingComment: '',
-    borrowed: '',
-    loaned: '',
+    ratingComment: "",
+    borrowed: "",
+    loaned: "",
   },
 
   {

@@ -1415,22 +1415,41 @@ export const baseSeries2: BaseSerie[] = [
     title: 'Euphoria',
     director: 'Sam Levinson',
     actors: [
-      { name: 'Zendaya' },
-      { name: 'Hunter Schafer' },
-      { name: 'Jacob Elordi' },
+      {
+        name: "Zendaya",
+      },
+      {
+        name: "Hunter Schafer",
+      },
+      {
+        name: "Jacob Elordi",
+      }
     ],
-    coverUrl: '/series_pictures/d45e7f46d205.jpg',
-    releaseDate: '2019-06-16',
-    endDate: '2024-05-19',
+    coverUrl: "/series_pictures/d45e7f46d205.jpg",
+    releaseDate: "2019-06-16",
+    endDate: "2026-06-01",
     genre: ['Drama'],
     seasonsData: [
-      { seasonNumber: 1, nbEpisodes: 8, totalLength: 480 },
-      { seasonNumber: 2, nbEpisodes: 8, totalLength: 480 },
+      {
+        seasonNumber: 1,
+        nbEpisodes: 8,
+        totalLength: 451,
+      },
+      {
+        seasonNumber: 2,
+        nbEpisodes: 8,
+        totalLength: 472,
+      },
+      {
+        seasonNumber: 3,
+        nbEpisodes: 8,
+        totalLength: 532,
+      }
     ],
-    description: '',
+    description: "",
     fromEntity: null,
-    saga: '',
-    countryOrigin: 'États-Unis',
+    saga: "",
+    countryOrigin: "États-Unis",
   },
   {
     title: 'Peacemaker',
