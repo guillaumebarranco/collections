@@ -1,6 +1,10 @@
 const fs = require('fs');
 const path = require('path');
 const { escapeStringForTsDoubleQuote: escapeString } = require('../escape-ts-string');
+const {
+  parseReadingFromFile,
+  formatReadingTsLine,
+} = require('../in-progress-fields');
 
 const USERS_MANGAS_DIR = path.join(
   __dirname,
@@ -137,11 +141,16 @@ function parseMangasFromFile(content: string): UserManga[] {
         const title = parseStringField(objectText, 'title');
         const author = parseStringField(objectText, 'author');
         if (title && author) {
+          const { readTimes, reading } = parseReadingFromFile(
+            parseNumberField(objectText, 'readTimes') ?? 0,
+            parseBooleanField(objectText, 'reading')
+          );
           mangas.push({
             title,
             author,
             rating: parseNumberField(objectText, 'rating') ?? 0,
-            readTimes: parseNumberField(objectText, 'readTimes') ?? 0,
+            reading,
+            readTimes,
             readDate: parseStringField(objectText, 'readDate') ?? '',
             readingScanStartDate:
               parseStringField(objectText, 'readingScanStartDate') ?? '',
@@ -270,7 +279,7 @@ function formatUserMangaEntry(manga: UserManga): string {
     readingScanStartDate: "${escapeString(manga.readingScanStartDate || '')}",
     readingScanStopDate: "${escapeString(manga.readingScanStopDate || '')}",
     rating: ${manga.rating ?? 0},
-    readTimes: ${manga.readTimes ?? 1},
+${formatReadingTsLine(manga.reading)}    readTimes: ${manga.readTimes ?? 1},
     owned: ${manga.owned ?? false},
     readPriority: ${manga.readPriority ?? 1},
     wantToReadAgain: ${manga.wantToReadAgain ?? false},

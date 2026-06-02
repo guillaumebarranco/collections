@@ -16,6 +16,7 @@ import { ManwhasHeaderComponent } from './manwhas-header/manwhas-header.componen
 import { Manwha } from '../../../models/manwha-model';
 import { DEFAULT_USER_ID } from '../../../utils/constants';
 import { normalizeSearchText } from '../../../utils/normalize-search-text';
+import { isReading } from '../../../utils/in-progress.utils';
 import {
   ManwhaView,
   OptionalManwhaView,
@@ -239,11 +240,11 @@ export class ManwhasComponent implements OnInit {
     let manwhas: Manwha[];
     if (this.selectedView() === 'readlist') {
       manwhas = this.allReadlistManwhas().filter(
-        (m) => (m.readTimes ?? 0) !== 0.5
+        (m) => !isReading(m)
       );
     } else if (this.selectedView() === 'readingInProgress') {
       manwhas = this.allReadlistManwhas().filter(
-        (m) => (m.readTimes ?? 0) === 0.5
+        (m) => isReading(m)
       );
     } else if (this.selectedView() === 'owned') {
       manwhas = this.allManwhas().filter((manwha) => manwha.owned);

@@ -21,6 +21,7 @@ import { BooksHeaderComponent } from './books-header/books-header.component';
 import { Book } from '../../../models/book-model';
 import { DEFAULT_USER_ID } from '../../../utils/constants';
 import { normalizeSearchText } from '../../../utils/normalize-search-text';
+import { isReading } from '../../../utils/in-progress.utils';
 
 import {
   BookView,
@@ -66,6 +67,7 @@ import {
   markBookAsReRead as markBookAsReReadApi,
   updateReadPriority as updateReadPriorityApi,
   markReadlistBookAsStarted as markReadlistBookAsStartedApi,
+  markReadBookAsReadingInProgress as markReadBookAsReadingInProgressApi,
 } from './books.controller';
 import { isLocalhost } from '../../../core/config';
 import { BookUpdateFollowUpModalComponent } from '../../../components/modals/book-update-follow-up-modal/book-update-follow-up-modal.component';
@@ -277,7 +279,11 @@ export class BooksComponent implements OnInit {
 
   /** Après readlist → lu : rafraîchit les listes puis modale félicitations / badges (profil affiché = le vôtre). */
   async onReadlistStartedReading(book: Book): Promise<void> {
-    const ok = await markReadlistBookAsStartedApi(book, this.getActiveUserId());
+    const userId = this.getActiveUserId();
+    const ok =
+      this.selectedView() === 'toReRead'
+        ? await markReadBookAsReadingInProgressApi(book, userId)
+        : await markReadlistBookAsStartedApi(book, userId);
     if (ok) {
       await this.refreshBooks();
     }
@@ -452,9 +458,17 @@ export class BooksComponent implements OnInit {
   filteredBooks = computed<Book[]>(() => {
     let books: Book[] = this.allBooks();
     if (this.selectedView() === 'readlist') {
-      books = this.allReadlistBooks().filter((b) => (b.readTimes ?? 0) !== 0.5);
+      books = this.allReadlistBooks().filter((b) => !isReading(b));
     } else if (this.selectedView() === 'readingInProgress') {
-      books = this.allReadlistBooks().filter((b) => (b.readTimes ?? 0) === 0.5);
+      const fromReadlist = this.allReadlistBooks().filter((b) => isReading(b));
+      const fromRead = this.allBooks().filter((b) => isReading(b));
+      const seen = new Set<string>();
+      books = [...fromReadlist, ...fromRead].filter((book) => {
+        const key = `${book.title}|${book.author}`;
+        if (seen.has(key)) return false;
+        seen.add(key);
+        return true;
+      });
     } else if (this.selectedView() === 'owned') {
       const ownedRead = this.allBooks().filter((book) => book.owned);
       const ownedReadlist = this.allReadlistBooks().filter((book) => book.owned);
@@ -494,7 +508,9 @@ export class BooksComponent implements OnInit {
         return true;
       });
     } else if (this.selectedView() === 'toReRead') {
-      books = this.allBooks().filter((book) => book.wantToReadAgain === true);
+      books = this.allBooks().filter(
+        (book) => book.wantToReadAgain === true && !isReading(book)
+      );
     } else if (this.selectedView() === 'authors') {
       books = this.allBooks();
     } else if (this.selectedView() === 'sagas') {

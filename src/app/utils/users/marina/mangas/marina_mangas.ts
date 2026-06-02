@@ -8,6 +8,7 @@ export const marinaMangas: UserManga[] = [
     readingScanStartDate: '',
     readingScanStopDate: '',
     rating: 5,
+    reading: false,
     readTimes: 1,
     owned: false,
     readPriority: 1,

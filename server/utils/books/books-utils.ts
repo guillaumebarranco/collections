@@ -11,6 +11,10 @@ const {
   parseNumberField,
   parseBooleanField,
 } = require('../utils');
+const {
+  parseReadingFromFile,
+  formatReadingTsLine,
+} = require('../in-progress-fields');
 
 const USERS_BOOKS_DIR = path.join(
   __dirname,
@@ -190,11 +194,16 @@ function parseBooksFromFile(content: string): UserBook[] {
         const title = parseStringField(objectText, 'title');
         const author = parseStringField(objectText, 'author');
         if (title && author) {
+          const { readTimes, reading } = parseReadingFromFile(
+            parseNumberField(objectText, 'readTimes') ?? 0,
+            parseBooleanField(objectText, 'reading')
+          );
           books.push({
             title,
             author,
             rating: parseNumberField(objectText, 'rating') ?? 0,
-            readTimes: parseNumberField(objectText, 'readTimes') ?? 0,
+            reading,
+            readTimes,
             firstReadDate: parseStringField(objectText, 'firstReadDate') ?? '',
             lastReadDate: parseStringField(objectText, 'lastReadDate') ?? '',
             otherReadDates: parseStringArrayField(objectText, 'otherReadDates'),
@@ -524,7 +533,12 @@ function updateBookInFile(content: string, payload: BookUpdatePayload) {
         if (title === payload.title && author === payload.author) {
           let updated = objectText;
           updated = replaceField(updated, 'rating', payload.rating);
-          updated = replaceField(updated, 'readTimes', payload.readTimes);
+          if (payload.readTimes !== undefined) {
+            updated = replaceField(updated, 'readTimes', payload.readTimes);
+          }
+          if (payload.reading !== undefined) {
+            updated = replaceField(updated, 'reading', payload.reading);
+          }
           updated = replaceField(
             updated,
             'firstReadDate',
@@ -766,7 +780,7 @@ function removeBookFromFile(content: string, payload: BookRemovePayload) {
     lastReadDate: "${escapeString(book.lastReadDate || '')}",
     otherReadDates: ${formatOtherReadDatesTs(book.otherReadDates)},
     rating: ${book.rating ?? 0},
-    readTimes: ${book.readTimes ?? 0},
+${formatReadingTsLine(book.reading)}    readTimes: ${book.readTimes ?? 0},
     owned: ${book.owned ?? false},
     borrowed: "${escapeString(book.borrowed ?? '')}",
     loaned: "${escapeString(book.loaned ?? '')}",

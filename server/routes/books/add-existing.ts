@@ -52,7 +52,7 @@ function formatUserBook(book: any) {
     book.title
   )}",\n    author: "${escapeString(
     book.author
-  )}",\n    firstReadDate: '',\n    lastReadDate: '',\n    otherReadDates: [],\n    rating: 0,\n    readTimes: 1,\n    owned: false,\n    borrowed: '',\n    loaned: '',\n    readPriority: 1,\n    wantToReadAgain: false,\n    ratingComment: '',\n  },`;
+  )}",\n    firstReadDate: '',\n    lastReadDate: '',\n    otherReadDates: [],\n    rating: 0,\n    reading: false,\n    readTimes: 1,\n    owned: false,\n    borrowed: '',\n    loaned: '',\n    readPriority: 1,\n    wantToReadAgain: false,\n    ratingComment: '',\n  },`;
 }
 
 function getUserBooksTargetFile(userId: string, isReadlist: boolean) {

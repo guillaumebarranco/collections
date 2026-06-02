@@ -26,6 +26,7 @@ export type CommunityWatcherSeasonEntry = {
   seasonNumber: number;
   seasonRating: number;
   seasonTimesWatched: number;
+  watching: boolean;
 };
 
 /** Même forme que l’API : `timesWatched` sert de compteur générique (lectures, parties, visionnages…). */
@@ -41,12 +42,16 @@ function mapSerieSeasonsForCommunity(
   serie: UserSerie
 ): CommunityWatcherSeasonEntry[] {
   return [...(serie.seasons ?? [])]
-    .filter((se) => (se.seasonTimesWatched ?? 0) > 0)
+    .filter(
+      (se) =>
+        se.watching === true || (se.seasonTimesWatched ?? 0) > 0
+    )
     .sort((a, b) => a.seasonNumber - b.seasonNumber)
     .map((se) => ({
       seasonNumber: se.seasonNumber,
       seasonRating: se.seasonRating ?? 0,
       seasonTimesWatched: se.seasonTimesWatched ?? 0,
+      watching: se.watching,
     }));
 }
 
@@ -278,6 +283,7 @@ async function fetchCommunityWatchersFromApi(
           seasonNumber: Number(se.seasonNumber) || 0,
           seasonRating: Number(se.seasonRating) || 0,
           seasonTimesWatched: Number(se.seasonTimesWatched) || 0,
+          watching: Boolean(se.watching),
         }))
       : undefined,
   }));

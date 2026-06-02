@@ -8,6 +8,7 @@ export const clemenceReadListBooks: UserBook[] = [
     lastReadDate: '',
     otherReadDates: [],
     rating: 0,
+    reading: false,
     readTimes: 1,
     owned: false,
     borrowed: '',

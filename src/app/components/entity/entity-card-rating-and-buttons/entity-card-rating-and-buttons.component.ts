@@ -37,9 +37,11 @@ export interface EntityCardRatingLabels {
   addToMyWishlist: string;
   /** « Tiens, j’ai déjà vu/lu/joué… » */
   addToMyDone: string;
-  /** Readlist livre : « J'ai commencé ce livre » (readTimes → 0.5). */
+  /** Readlist livre : « J'ai commencé ce livre » (reading → true). */
   markStartedReading?: string;
-  /** Série vue : « J'ai commencé une nouvelle saison » (saison N+1 → 0.5). */
+  /** Vue à relire : « Je suis en train de lire ce livre » (relecture en cours). */
+  markReadingInProgress?: string;
+  /** Série vue : « J'ai commencé une nouvelle saison » (saison N+1 → watching). */
   markStartedNewSeason?: string;
 }
 @Component({
@@ -61,10 +63,13 @@ export class EntityCardRatingAndButtonsComponent {
   /** Override optionnel des libellés par défaut (déduits de entityType). */
   @Input() labels: Partial<EntityCardRatingLabels> = {};
 
-  /** readTimes côté readlist (0.5 = en cours ; autre valeur = pas encore en cours, ex. 0 ou 1 selon les données) — pour le bouton « J'ai commencé ». */
+  /** Readlist : déjà en cours de lecture — masque « J'ai commencé ». */
+  @Input() listReading = false;
+
+  /** readTimes côté readlist (pour possédés : livre encore à lire si < 1). */
   @Input() listReadTimes = 0;
 
-  /** Watchlist série : toutes les saisons à seasonTimesWatched 0 — affiche « J'ai commencé cette série ». */
+  /** Watchlist série : aucune saison commencée — affiche « J'ai commencé cette série ». */
   @Input() watchlistSerieNotStarted = false;
 
   /** Série fichier vus : nouvelle saison dispo, affiche « J'ai commencé une nouvelle saison ». */
@@ -185,6 +190,7 @@ export class EntityCardRatingAndButtonsComponent {
           addToMyWishlist: 'Je veux lire ce livre',
           addToMyDone: "Tiens, j'ai déjà lu ce livre !",
           markStartedReading: "J'ai commencé ce livre",
+          markReadingInProgress: 'Je suis en train de lire ce livre',
         };
       case 'manga':
         return {
@@ -395,19 +401,28 @@ export class EntityCardRatingAndButtonsComponent {
     this.startedNewSeasonClick.emit();
   }
 
+  get startedReadingLabel(): string {
+    if (this.selectedView === this.reReadViewName) {
+      return (
+        this.effectiveLabels.markReadingInProgress ??
+        this.effectiveLabels.markStartedReading ??
+        ''
+      );
+    }
+    return this.effectiveLabels.markStartedReading ?? '';
+  }
+
   get showMarkStartedReadingButton(): boolean {
     if (
       this.entityData?.entityType === 'book' ||
       this.entityData?.entityType === 'manga' ||
       this.entityData?.entityType === 'manwha'
     ) {
-      /* Readlist : l’API ajoute souvent readTimes: 1 par défaut ; seul 0.5 = « déjà commencé ».
-       * Possédés : même bouton pour un livre à lire encore uniquement en readlist (listReadTimes < 1).
-       */
       return (
         (this.selectedView === 'readlist' ||
+          this.selectedView === this.reReadViewName ||
           (this.selectedView === 'owned' && this.listReadTimes < 1)) &&
-        this.listReadTimes !== 0.5
+        !this.listReading
       );
     }
     if (this.entityData?.entityType === 'serie') {

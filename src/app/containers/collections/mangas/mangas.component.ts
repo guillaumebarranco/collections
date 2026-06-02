@@ -21,6 +21,7 @@ import { MangasHeaderComponent } from './mangas-header/mangas-header.component';
 import { Manga } from '../../../models/manga-model';
 import { DEFAULT_USER_ID } from '../../../utils/constants';
 import { normalizeSearchText } from '../../../utils/normalize-search-text';
+import { isReading } from '../../../utils/in-progress.utils';
 
 import {
   MangaView,
@@ -244,11 +245,11 @@ export class MangasComponent implements OnInit {
     let mangas: Manga[];
     if (this.selectedView() === 'readlist') {
       mangas = this.allReadlistMangas().filter(
-        (m) => (m.readTimes ?? 0) !== 0.5
+        (m) => !isReading(m)
       );
     } else if (this.selectedView() === 'readingInProgress') {
       mangas = this.allReadlistMangas().filter(
-        (m) => (m.readTimes ?? 0) === 0.5
+        (m) => isReading(m)
       );
     } else if (this.selectedView() === 'owned') {
       mangas = this.allMangas().filter((manga) => manga.owned);

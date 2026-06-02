@@ -52,7 +52,7 @@ function formatUserManga(manga: any) {
     manga.title
   )}",\n    author: "${escapeString(
     manga.author
-  )}",\n    readDate: '',\n    readingScanStartDate: '',\n    readingScanStopDate: '',\n    rating: 0,\n    readTimes: 1,\n    owned: false,\n    readPriority: 1,\n    wantToReadAgain: false,\n    ratingComment: '',\n    borrowed: '',\n    loaned: '',\n  },`;
+  )}",\n    readDate: '',\n    readingScanStartDate: '',\n    readingScanStopDate: '',\n    rating: 0,\n    reading: false,\n    readTimes: 1,\n    owned: false,\n    readPriority: 1,\n    wantToReadAgain: false,\n    ratingComment: '',\n    borrowed: '',\n    loaned: '',\n  },`;
 }
 
 function getUserMangasTargetFile(userId: string, isReadlist: boolean) {

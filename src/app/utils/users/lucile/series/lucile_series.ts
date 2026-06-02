@@ -8,6 +8,7 @@ export const lucileSeries: UserSerie[] = [
       {
         seasonNumber: 1,
         seasonRating: 0,
+        watching: false,
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: "",
@@ -16,6 +17,7 @@ export const lucileSeries: UserSerie[] = [
       {
         seasonNumber: 2,
         seasonRating: 0,
+        watching: false,
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: "",
@@ -24,6 +26,7 @@ export const lucileSeries: UserSerie[] = [
       {
         seasonNumber: 3,
         seasonRating: 0,
+        watching: false,
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: "",
@@ -32,6 +35,7 @@ export const lucileSeries: UserSerie[] = [
       {
         seasonNumber: 4,
         seasonRating: 0,
+        watching: false,
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: "",
@@ -53,6 +57,7 @@ export const lucileSeries: UserSerie[] = [
       {
         seasonNumber: 1,
         seasonRating: 0,
+        watching: false,
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: "",
@@ -61,6 +66,7 @@ export const lucileSeries: UserSerie[] = [
       {
         seasonNumber: 2,
         seasonRating: 0,
+        watching: false,
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: "",
@@ -69,6 +75,7 @@ export const lucileSeries: UserSerie[] = [
       {
         seasonNumber: 3,
         seasonRating: 0,
+        watching: false,
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: "",
@@ -77,6 +84,7 @@ export const lucileSeries: UserSerie[] = [
       {
         seasonNumber: 4,
         seasonRating: 0,
+        watching: false,
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: "",
@@ -85,6 +93,7 @@ export const lucileSeries: UserSerie[] = [
       {
         seasonNumber: 5,
         seasonRating: 0,
+        watching: false,
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: "",
@@ -93,6 +102,7 @@ export const lucileSeries: UserSerie[] = [
       {
         seasonNumber: 6,
         seasonRating: 0,
+        watching: false,
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: "",
@@ -101,6 +111,7 @@ export const lucileSeries: UserSerie[] = [
       {
         seasonNumber: 7,
         seasonRating: 0,
+        watching: false,
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: "",
@@ -122,6 +133,7 @@ export const lucileSeries: UserSerie[] = [
       {
         seasonNumber: 1,
         seasonRating: 0,
+        watching: false,
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: "",
@@ -130,6 +142,7 @@ export const lucileSeries: UserSerie[] = [
       {
         seasonNumber: 2,
         seasonRating: 0,
+        watching: false,
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: "",
@@ -138,6 +151,7 @@ export const lucileSeries: UserSerie[] = [
       {
         seasonNumber: 3,
         seasonRating: 0,
+        watching: false,
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: "",
@@ -146,6 +160,7 @@ export const lucileSeries: UserSerie[] = [
       {
         seasonNumber: 4,
         seasonRating: 0,
+        watching: false,
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: "",
@@ -154,6 +169,7 @@ export const lucileSeries: UserSerie[] = [
       {
         seasonNumber: 5,
         seasonRating: 0,
+        watching: false,
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: "",
@@ -162,6 +178,7 @@ export const lucileSeries: UserSerie[] = [
       {
         seasonNumber: 6,
         seasonRating: 0,
+        watching: false,
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: "",
@@ -170,6 +187,7 @@ export const lucileSeries: UserSerie[] = [
       {
         seasonNumber: 7,
         seasonRating: 0,
+        watching: false,
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: "",
@@ -178,6 +196,7 @@ export const lucileSeries: UserSerie[] = [
       {
         seasonNumber: 8,
         seasonRating: 0,
+        watching: false,
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: "",
@@ -199,6 +218,7 @@ export const lucileSeries: UserSerie[] = [
       {
         seasonNumber: 1,
         seasonRating: 0,
+        watching: false,
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: "",
@@ -220,6 +240,7 @@ export const lucileSeries: UserSerie[] = [
       {
         seasonNumber: 1,
         seasonRating: 0,
+        watching: false,
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: "",
@@ -228,6 +249,7 @@ export const lucileSeries: UserSerie[] = [
       {
         seasonNumber: 2,
         seasonRating: 0,
+        watching: false,
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: "",
@@ -236,6 +258,7 @@ export const lucileSeries: UserSerie[] = [
       {
         seasonNumber: 3,
         seasonRating: 0,
+        watching: false,
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: "",
@@ -257,6 +280,7 @@ export const lucileSeries: UserSerie[] = [
       {
         seasonNumber: 1,
         seasonRating: 0,
+        watching: false,
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: "",
@@ -265,6 +289,7 @@ export const lucileSeries: UserSerie[] = [
       {
         seasonNumber: 2,
         seasonRating: 0,
+        watching: false,
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: "",
@@ -273,6 +298,7 @@ export const lucileSeries: UserSerie[] = [
       {
         seasonNumber: 3,
         seasonRating: 0,
+        watching: false,
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: "",
@@ -281,6 +307,7 @@ export const lucileSeries: UserSerie[] = [
       {
         seasonNumber: 4,
         seasonRating: 0,
+        watching: false,
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: "",
@@ -289,6 +316,7 @@ export const lucileSeries: UserSerie[] = [
       {
         seasonNumber: 5,
         seasonRating: 0,
+        watching: false,
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: "",
@@ -297,6 +325,7 @@ export const lucileSeries: UserSerie[] = [
       {
         seasonNumber: 6,
         seasonRating: 0,
+        watching: false,
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: "",
@@ -305,6 +334,7 @@ export const lucileSeries: UserSerie[] = [
       {
         seasonNumber: 7,
         seasonRating: 0,
+        watching: false,
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: "",
@@ -313,6 +343,7 @@ export const lucileSeries: UserSerie[] = [
       {
         seasonNumber: 8,
         seasonRating: 0,
+        watching: false,
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: "",
@@ -334,6 +365,7 @@ export const lucileSeries: UserSerie[] = [
       {
         seasonNumber: 1,
         seasonRating: 0,
+        watching: false,
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: "",
@@ -342,6 +374,7 @@ export const lucileSeries: UserSerie[] = [
       {
         seasonNumber: 2,
         seasonRating: 0,
+        watching: false,
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: "",
@@ -363,6 +396,7 @@ export const lucileSeries: UserSerie[] = [
       {
         seasonNumber: 1,
         seasonRating: 0,
+        watching: false,
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: "",
@@ -371,6 +405,7 @@ export const lucileSeries: UserSerie[] = [
       {
         seasonNumber: 2,
         seasonRating: 0,
+        watching: false,
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: "",
@@ -379,6 +414,7 @@ export const lucileSeries: UserSerie[] = [
       {
         seasonNumber: 3,
         seasonRating: 0,
+        watching: false,
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: "",
@@ -387,6 +423,7 @@ export const lucileSeries: UserSerie[] = [
       {
         seasonNumber: 4,
         seasonRating: 0,
+        watching: false,
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: "",
@@ -395,6 +432,7 @@ export const lucileSeries: UserSerie[] = [
       {
         seasonNumber: 5,
         seasonRating: 0,
+        watching: false,
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: "",
@@ -403,6 +441,7 @@ export const lucileSeries: UserSerie[] = [
       {
         seasonNumber: 6,
         seasonRating: 0,
+        watching: false,
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: "",
@@ -411,6 +450,7 @@ export const lucileSeries: UserSerie[] = [
       {
         seasonNumber: 7,
         seasonRating: 0,
+        watching: false,
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: "",
@@ -419,6 +459,7 @@ export const lucileSeries: UserSerie[] = [
       {
         seasonNumber: 8,
         seasonRating: 0,
+        watching: false,
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: "",
@@ -440,6 +481,7 @@ export const lucileSeries: UserSerie[] = [
       {
         seasonNumber: 1,
         seasonRating: 0,
+        watching: false,
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: "",
@@ -448,6 +490,7 @@ export const lucileSeries: UserSerie[] = [
       {
         seasonNumber: 2,
         seasonRating: 0,
+        watching: false,
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: "",
@@ -456,6 +499,7 @@ export const lucileSeries: UserSerie[] = [
       {
         seasonNumber: 3,
         seasonRating: 0,
+        watching: false,
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: "",
@@ -464,6 +508,7 @@ export const lucileSeries: UserSerie[] = [
       {
         seasonNumber: 4,
         seasonRating: 0,
+        watching: false,
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: "",
@@ -472,6 +517,7 @@ export const lucileSeries: UserSerie[] = [
       {
         seasonNumber: 5,
         seasonRating: 0,
+        watching: false,
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: "",
@@ -480,6 +526,7 @@ export const lucileSeries: UserSerie[] = [
       {
         seasonNumber: 6,
         seasonRating: 0,
+        watching: false,
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: "",
@@ -488,6 +535,7 @@ export const lucileSeries: UserSerie[] = [
       {
         seasonNumber: 7,
         seasonRating: 0,
+        watching: false,
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: "",
@@ -496,6 +544,7 @@ export const lucileSeries: UserSerie[] = [
       {
         seasonNumber: 8,
         seasonRating: 0,
+        watching: false,
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: "",
@@ -504,6 +553,7 @@ export const lucileSeries: UserSerie[] = [
       {
         seasonNumber: 9,
         seasonRating: 0,
+        watching: false,
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: "",
@@ -525,6 +575,7 @@ export const lucileSeries: UserSerie[] = [
       {
         seasonNumber: 1,
         seasonRating: 0,
+        watching: false,
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: "",
@@ -546,6 +597,7 @@ export const lucileSeries: UserSerie[] = [
       {
         seasonNumber: 1,
         seasonRating: 0,
+        watching: false,
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: "",
@@ -554,6 +606,7 @@ export const lucileSeries: UserSerie[] = [
       {
         seasonNumber: 2,
         seasonRating: 0,
+        watching: false,
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: "",
@@ -562,6 +615,7 @@ export const lucileSeries: UserSerie[] = [
       {
         seasonNumber: 3,
         seasonRating: 0,
+        watching: false,
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: "",
@@ -583,6 +637,7 @@ export const lucileSeries: UserSerie[] = [
       {
         seasonNumber: 1,
         seasonRating: 0,
+        watching: false,
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: "",
@@ -591,6 +646,7 @@ export const lucileSeries: UserSerie[] = [
       {
         seasonNumber: 2,
         seasonRating: 0,
+        watching: false,
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: "",
@@ -599,6 +655,7 @@ export const lucileSeries: UserSerie[] = [
       {
         seasonNumber: 3,
         seasonRating: 0,
+        watching: false,
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: "",
@@ -620,6 +677,7 @@ export const lucileSeries: UserSerie[] = [
       {
         seasonNumber: 1,
         seasonRating: 0,
+        watching: false,
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: "",
@@ -628,6 +686,7 @@ export const lucileSeries: UserSerie[] = [
       {
         seasonNumber: 2,
         seasonRating: 0,
+        watching: false,
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: "",
@@ -636,6 +695,7 @@ export const lucileSeries: UserSerie[] = [
       {
         seasonNumber: 3,
         seasonRating: 0,
+        watching: false,
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: "",
@@ -644,6 +704,7 @@ export const lucileSeries: UserSerie[] = [
       {
         seasonNumber: 4,
         seasonRating: 0,
+        watching: false,
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: "",
@@ -652,6 +713,7 @@ export const lucileSeries: UserSerie[] = [
       {
         seasonNumber: 5,
         seasonRating: 0,
+        watching: false,
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: "",
@@ -660,6 +722,7 @@ export const lucileSeries: UserSerie[] = [
       {
         seasonNumber: 6,
         seasonRating: 0,
+        watching: false,
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: "",
@@ -668,6 +731,7 @@ export const lucileSeries: UserSerie[] = [
       {
         seasonNumber: 7,
         seasonRating: 0,
+        watching: false,
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: "",
@@ -689,6 +753,7 @@ export const lucileSeries: UserSerie[] = [
       {
         seasonNumber: 1,
         seasonRating: 0,
+        watching: false,
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: "",
@@ -710,6 +775,7 @@ export const lucileSeries: UserSerie[] = [
       {
         seasonNumber: 1,
         seasonRating: 0,
+        watching: false,
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: "",
@@ -718,6 +784,7 @@ export const lucileSeries: UserSerie[] = [
       {
         seasonNumber: 2,
         seasonRating: 0,
+        watching: false,
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: "",
@@ -726,6 +793,7 @@ export const lucileSeries: UserSerie[] = [
       {
         seasonNumber: 3,
         seasonRating: 0,
+        watching: false,
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: "",
@@ -734,6 +802,7 @@ export const lucileSeries: UserSerie[] = [
       {
         seasonNumber: 4,
         seasonRating: 0,
+        watching: false,
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: "",
@@ -742,6 +811,7 @@ export const lucileSeries: UserSerie[] = [
       {
         seasonNumber: 5,
         seasonRating: 0,
+        watching: false,
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: "",
@@ -750,6 +820,7 @@ export const lucileSeries: UserSerie[] = [
       {
         seasonNumber: 6,
         seasonRating: 0,
+        watching: false,
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: "",
@@ -758,6 +829,7 @@ export const lucileSeries: UserSerie[] = [
       {
         seasonNumber: 7,
         seasonRating: 0,
+        watching: false,
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: "",
@@ -779,6 +851,7 @@ export const lucileSeries: UserSerie[] = [
       {
         seasonNumber: 1,
         seasonRating: 0,
+        watching: false,
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: "",
@@ -787,6 +860,7 @@ export const lucileSeries: UserSerie[] = [
       {
         seasonNumber: 2,
         seasonRating: 0,
+        watching: false,
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: "",
@@ -808,6 +882,7 @@ export const lucileSeries: UserSerie[] = [
       {
         seasonNumber: 1,
         seasonRating: 0,
+        watching: false,
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: "",
@@ -816,6 +891,7 @@ export const lucileSeries: UserSerie[] = [
       {
         seasonNumber: 2,
         seasonRating: 0,
+        watching: false,
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: "",
@@ -837,6 +913,7 @@ export const lucileSeries: UserSerie[] = [
       {
         seasonNumber: 1,
         seasonRating: 0,
+        watching: false,
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: "",
@@ -845,6 +922,7 @@ export const lucileSeries: UserSerie[] = [
       {
         seasonNumber: 2,
         seasonRating: 0,
+        watching: false,
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: "",
@@ -866,6 +944,7 @@ export const lucileSeries: UserSerie[] = [
       {
         seasonNumber: 1,
         seasonRating: 0,
+        watching: false,
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: "",
@@ -874,6 +953,7 @@ export const lucileSeries: UserSerie[] = [
       {
         seasonNumber: 2,
         seasonRating: 0,
+        watching: false,
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: "",
@@ -882,6 +962,7 @@ export const lucileSeries: UserSerie[] = [
       {
         seasonNumber: 3,
         seasonRating: 0,
+        watching: false,
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: "",
@@ -890,6 +971,7 @@ export const lucileSeries: UserSerie[] = [
       {
         seasonNumber: 4,
         seasonRating: 0,
+        watching: false,
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: "",
@@ -898,6 +980,7 @@ export const lucileSeries: UserSerie[] = [
       {
         seasonNumber: 5,
         seasonRating: 0,
+        watching: false,
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: "",
@@ -906,6 +989,7 @@ export const lucileSeries: UserSerie[] = [
       {
         seasonNumber: 6,
         seasonRating: 0,
+        watching: false,
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: "",
@@ -914,6 +998,7 @@ export const lucileSeries: UserSerie[] = [
       {
         seasonNumber: 7,
         seasonRating: 0,
+        watching: false,
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: "",
@@ -922,6 +1007,7 @@ export const lucileSeries: UserSerie[] = [
       {
         seasonNumber: 8,
         seasonRating: 0,
+        watching: false,
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: "",
@@ -943,6 +1029,7 @@ export const lucileSeries: UserSerie[] = [
       {
         seasonNumber: 1,
         seasonRating: 0,
+        watching: false,
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: "",
@@ -964,6 +1051,7 @@ export const lucileSeries: UserSerie[] = [
       {
         seasonNumber: 1,
         seasonRating: 0,
+        watching: false,
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: "",
@@ -972,6 +1060,7 @@ export const lucileSeries: UserSerie[] = [
       {
         seasonNumber: 2,
         seasonRating: 0,
+        watching: false,
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: "",
@@ -980,6 +1069,7 @@ export const lucileSeries: UserSerie[] = [
       {
         seasonNumber: 3,
         seasonRating: 0,
+        watching: false,
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: "",
@@ -988,6 +1078,7 @@ export const lucileSeries: UserSerie[] = [
       {
         seasonNumber: 4,
         seasonRating: 0,
+        watching: false,
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: "",
@@ -1009,6 +1100,7 @@ export const lucileSeries: UserSerie[] = [
       {
         seasonNumber: 1,
         seasonRating: 0,
+        watching: false,
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: "",
@@ -1017,6 +1109,7 @@ export const lucileSeries: UserSerie[] = [
       {
         seasonNumber: 2,
         seasonRating: 0,
+        watching: false,
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: "",
@@ -1025,6 +1118,7 @@ export const lucileSeries: UserSerie[] = [
       {
         seasonNumber: 3,
         seasonRating: 0,
+        watching: false,
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: "",
@@ -1033,6 +1127,7 @@ export const lucileSeries: UserSerie[] = [
       {
         seasonNumber: 4,
         seasonRating: 0,
+        watching: false,
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: "",
@@ -1054,6 +1149,7 @@ export const lucileSeries: UserSerie[] = [
       {
         seasonNumber: 1,
         seasonRating: 0,
+        watching: false,
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: "",
@@ -1062,6 +1158,7 @@ export const lucileSeries: UserSerie[] = [
       {
         seasonNumber: 2,
         seasonRating: 0,
+        watching: false,
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: "",
@@ -1070,6 +1167,7 @@ export const lucileSeries: UserSerie[] = [
       {
         seasonNumber: 3,
         seasonRating: 0,
+        watching: false,
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: "",
@@ -1078,6 +1176,7 @@ export const lucileSeries: UserSerie[] = [
       {
         seasonNumber: 4,
         seasonRating: 0,
+        watching: false,
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: "",
@@ -1099,6 +1198,7 @@ export const lucileSeries: UserSerie[] = [
       {
         seasonNumber: 1,
         seasonRating: 0,
+        watching: false,
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: "",
@@ -1107,6 +1207,7 @@ export const lucileSeries: UserSerie[] = [
       {
         seasonNumber: 2,
         seasonRating: 0,
+        watching: false,
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: "",
@@ -1115,6 +1216,7 @@ export const lucileSeries: UserSerie[] = [
       {
         seasonNumber: 3,
         seasonRating: 0,
+        watching: false,
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: "",
@@ -1123,6 +1225,7 @@ export const lucileSeries: UserSerie[] = [
       {
         seasonNumber: 4,
         seasonRating: 0,
+        watching: false,
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: "",
@@ -1144,6 +1247,7 @@ export const lucileSeries: UserSerie[] = [
       {
         seasonNumber: 1,
         seasonRating: 0,
+        watching: false,
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: "",
@@ -1152,6 +1256,7 @@ export const lucileSeries: UserSerie[] = [
       {
         seasonNumber: 2,
         seasonRating: 0,
+        watching: false,
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: "",
@@ -1160,6 +1265,7 @@ export const lucileSeries: UserSerie[] = [
       {
         seasonNumber: 3,
         seasonRating: 0,
+        watching: false,
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: "",
@@ -1168,6 +1274,7 @@ export const lucileSeries: UserSerie[] = [
       {
         seasonNumber: 4,
         seasonRating: 0,
+        watching: false,
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: "",
@@ -1176,6 +1283,7 @@ export const lucileSeries: UserSerie[] = [
       {
         seasonNumber: 5,
         seasonRating: 0,
+        watching: false,
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: "",
@@ -1184,6 +1292,7 @@ export const lucileSeries: UserSerie[] = [
       {
         seasonNumber: 6,
         seasonRating: 0,
+        watching: false,
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: "",
@@ -1192,6 +1301,7 @@ export const lucileSeries: UserSerie[] = [
       {
         seasonNumber: 7,
         seasonRating: 0,
+        watching: false,
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: "",
@@ -1200,6 +1310,7 @@ export const lucileSeries: UserSerie[] = [
       {
         seasonNumber: 8,
         seasonRating: 0,
+        watching: false,
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: "",
@@ -1208,6 +1319,7 @@ export const lucileSeries: UserSerie[] = [
       {
         seasonNumber: 9,
         seasonRating: 0,
+        watching: false,
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: "",
@@ -1216,6 +1328,7 @@ export const lucileSeries: UserSerie[] = [
       {
         seasonNumber: 10,
         seasonRating: 0,
+        watching: false,
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: "",
@@ -1224,6 +1337,7 @@ export const lucileSeries: UserSerie[] = [
       {
         seasonNumber: 11,
         seasonRating: 0,
+        watching: false,
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: "",
@@ -1245,6 +1359,7 @@ export const lucileSeries: UserSerie[] = [
       {
         seasonNumber: 1,
         seasonRating: 0,
+        watching: false,
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: "",
@@ -1253,6 +1368,7 @@ export const lucileSeries: UserSerie[] = [
       {
         seasonNumber: 2,
         seasonRating: 0,
+        watching: false,
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: "",
@@ -1261,6 +1377,7 @@ export const lucileSeries: UserSerie[] = [
       {
         seasonNumber: 3,
         seasonRating: 0,
+        watching: false,
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: "",
@@ -1269,6 +1386,7 @@ export const lucileSeries: UserSerie[] = [
       {
         seasonNumber: 4,
         seasonRating: 0,
+        watching: false,
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: "",
@@ -1277,6 +1395,7 @@ export const lucileSeries: UserSerie[] = [
       {
         seasonNumber: 5,
         seasonRating: 0,
+        watching: false,
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: "",
@@ -1285,6 +1404,7 @@ export const lucileSeries: UserSerie[] = [
       {
         seasonNumber: 6,
         seasonRating: 0,
+        watching: false,
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: "",
@@ -1293,6 +1413,7 @@ export const lucileSeries: UserSerie[] = [
       {
         seasonNumber: 7,
         seasonRating: 0,
+        watching: false,
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: "",
@@ -1314,6 +1435,7 @@ export const lucileSeries: UserSerie[] = [
       {
         seasonNumber: 1,
         seasonRating: 0,
+        watching: false,
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: "",
@@ -1322,6 +1444,7 @@ export const lucileSeries: UserSerie[] = [
       {
         seasonNumber: 2,
         seasonRating: 0,
+        watching: false,
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: "",
@@ -1330,6 +1453,7 @@ export const lucileSeries: UserSerie[] = [
       {
         seasonNumber: 3,
         seasonRating: 0,
+        watching: false,
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: "",
@@ -1338,6 +1462,7 @@ export const lucileSeries: UserSerie[] = [
       {
         seasonNumber: 4,
         seasonRating: 0,
+        watching: false,
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: "",
@@ -1346,6 +1471,7 @@ export const lucileSeries: UserSerie[] = [
       {
         seasonNumber: 5,
         seasonRating: 0,
+        watching: false,
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: "",
@@ -1367,6 +1493,7 @@ export const lucileSeries: UserSerie[] = [
       {
         seasonNumber: 1,
         seasonRating: 0,
+        watching: false,
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: "",
@@ -1375,6 +1502,7 @@ export const lucileSeries: UserSerie[] = [
       {
         seasonNumber: 2,
         seasonRating: 0,
+        watching: false,
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: "",
@@ -1383,6 +1511,7 @@ export const lucileSeries: UserSerie[] = [
       {
         seasonNumber: 3,
         seasonRating: 0,
+        watching: false,
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: "",
@@ -1391,6 +1520,7 @@ export const lucileSeries: UserSerie[] = [
       {
         seasonNumber: 4,
         seasonRating: 0,
+        watching: false,
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: "",
@@ -1399,6 +1529,7 @@ export const lucileSeries: UserSerie[] = [
       {
         seasonNumber: 5,
         seasonRating: 0,
+        watching: false,
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: "",
@@ -1407,6 +1538,7 @@ export const lucileSeries: UserSerie[] = [
       {
         seasonNumber: 6,
         seasonRating: 0,
+        watching: false,
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: "",
@@ -1415,6 +1547,7 @@ export const lucileSeries: UserSerie[] = [
       {
         seasonNumber: 7,
         seasonRating: 0,
+        watching: false,
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: "",
@@ -1436,6 +1569,7 @@ export const lucileSeries: UserSerie[] = [
       {
         seasonNumber: 1,
         seasonRating: 0,
+        watching: false,
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: "",
@@ -1444,6 +1578,7 @@ export const lucileSeries: UserSerie[] = [
       {
         seasonNumber: 2,
         seasonRating: 0,
+        watching: false,
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: "",
@@ -1465,6 +1600,7 @@ export const lucileSeries: UserSerie[] = [
       {
         seasonNumber: 1,
         seasonRating: 0,
+        watching: false,
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: "",
@@ -1473,6 +1609,7 @@ export const lucileSeries: UserSerie[] = [
       {
         seasonNumber: 2,
         seasonRating: 0,
+        watching: false,
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: "",
@@ -1494,6 +1631,7 @@ export const lucileSeries: UserSerie[] = [
       {
         seasonNumber: 1,
         seasonRating: 0,
+        watching: false,
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: "",
@@ -1502,6 +1640,7 @@ export const lucileSeries: UserSerie[] = [
       {
         seasonNumber: 2,
         seasonRating: 0,
+        watching: false,
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: "",
@@ -1510,6 +1649,7 @@ export const lucileSeries: UserSerie[] = [
       {
         seasonNumber: 3,
         seasonRating: 0,
+        watching: false,
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: "",
@@ -1531,6 +1671,7 @@ export const lucileSeries: UserSerie[] = [
       {
         seasonNumber: 1,
         seasonRating: 0,
+        watching: false,
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: "",
@@ -1539,6 +1680,7 @@ export const lucileSeries: UserSerie[] = [
       {
         seasonNumber: 2,
         seasonRating: 0,
+        watching: false,
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: "",
@@ -1547,6 +1689,7 @@ export const lucileSeries: UserSerie[] = [
       {
         seasonNumber: 3,
         seasonRating: 0,
+        watching: false,
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: "",
@@ -1555,6 +1698,7 @@ export const lucileSeries: UserSerie[] = [
       {
         seasonNumber: 4,
         seasonRating: 0,
+        watching: false,
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: "",
@@ -1563,6 +1707,7 @@ export const lucileSeries: UserSerie[] = [
       {
         seasonNumber: 5,
         seasonRating: 0,
+        watching: false,
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: "",
@@ -1584,6 +1729,7 @@ export const lucileSeries: UserSerie[] = [
       {
         seasonNumber: 1,
         seasonRating: 0,
+        watching: false,
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: "",
@@ -1592,6 +1738,7 @@ export const lucileSeries: UserSerie[] = [
       {
         seasonNumber: 2,
         seasonRating: 0,
+        watching: false,
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: "",
@@ -1600,6 +1747,7 @@ export const lucileSeries: UserSerie[] = [
       {
         seasonNumber: 3,
         seasonRating: 0,
+        watching: false,
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: "",
@@ -1608,6 +1756,7 @@ export const lucileSeries: UserSerie[] = [
       {
         seasonNumber: 4,
         seasonRating: 0,
+        watching: false,
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: "",
@@ -1616,6 +1765,7 @@ export const lucileSeries: UserSerie[] = [
       {
         seasonNumber: 5,
         seasonRating: 0,
+        watching: false,
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: "",
@@ -1624,6 +1774,7 @@ export const lucileSeries: UserSerie[] = [
       {
         seasonNumber: 6,
         seasonRating: 0,
+        watching: false,
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: "",
@@ -1645,6 +1796,7 @@ export const lucileSeries: UserSerie[] = [
       {
         seasonNumber: 1,
         seasonRating: 0,
+        watching: false,
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: "",
@@ -1653,6 +1805,7 @@ export const lucileSeries: UserSerie[] = [
       {
         seasonNumber: 2,
         seasonRating: 0,
+        watching: false,
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: "",
@@ -1661,6 +1814,7 @@ export const lucileSeries: UserSerie[] = [
       {
         seasonNumber: 3,
         seasonRating: 0,
+        watching: false,
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: "",
@@ -1669,6 +1823,7 @@ export const lucileSeries: UserSerie[] = [
       {
         seasonNumber: 4,
         seasonRating: 0,
+        watching: false,
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: "",
@@ -1677,6 +1832,7 @@ export const lucileSeries: UserSerie[] = [
       {
         seasonNumber: 5,
         seasonRating: 0,
+        watching: false,
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: "",
@@ -1685,6 +1841,7 @@ export const lucileSeries: UserSerie[] = [
       {
         seasonNumber: 6,
         seasonRating: 0,
+        watching: false,
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: "",
@@ -1693,6 +1850,7 @@ export const lucileSeries: UserSerie[] = [
       {
         seasonNumber: 7,
         seasonRating: 0,
+        watching: false,
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: "",
@@ -1701,6 +1859,7 @@ export const lucileSeries: UserSerie[] = [
       {
         seasonNumber: 8,
         seasonRating: 0,
+        watching: false,
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: "",
@@ -1709,6 +1868,7 @@ export const lucileSeries: UserSerie[] = [
       {
         seasonNumber: 9,
         seasonRating: 0,
+        watching: false,
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: "",
@@ -1730,6 +1890,7 @@ export const lucileSeries: UserSerie[] = [
       {
         seasonNumber: 1,
         seasonRating: 0,
+        watching: false,
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: "",
@@ -1738,6 +1899,7 @@ export const lucileSeries: UserSerie[] = [
       {
         seasonNumber: 2,
         seasonRating: 0,
+        watching: false,
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: "",
@@ -1746,6 +1908,7 @@ export const lucileSeries: UserSerie[] = [
       {
         seasonNumber: 3,
         seasonRating: 0,
+        watching: false,
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: "",
@@ -1754,6 +1917,7 @@ export const lucileSeries: UserSerie[] = [
       {
         seasonNumber: 4,
         seasonRating: 0,
+        watching: false,
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: "",
@@ -1762,6 +1926,7 @@ export const lucileSeries: UserSerie[] = [
       {
         seasonNumber: 5,
         seasonRating: 0,
+        watching: false,
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: "",
@@ -1770,6 +1935,7 @@ export const lucileSeries: UserSerie[] = [
       {
         seasonNumber: 6,
         seasonRating: 0,
+        watching: false,
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: "",
@@ -1778,6 +1944,7 @@ export const lucileSeries: UserSerie[] = [
       {
         seasonNumber: 7,
         seasonRating: 0,
+        watching: false,
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: "",
@@ -1786,6 +1953,7 @@ export const lucileSeries: UserSerie[] = [
       {
         seasonNumber: 8,
         seasonRating: 0,
+        watching: false,
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: "",
@@ -1807,6 +1975,7 @@ export const lucileSeries: UserSerie[] = [
       {
         seasonNumber: 1,
         seasonRating: 0,
+        watching: false,
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: "",
@@ -1815,6 +1984,7 @@ export const lucileSeries: UserSerie[] = [
       {
         seasonNumber: 2,
         seasonRating: 0,
+        watching: false,
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: "",
@@ -1836,6 +2006,7 @@ export const lucileSeries: UserSerie[] = [
       {
         seasonNumber: 1,
         seasonRating: 0,
+        watching: false,
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: "",
@@ -1844,6 +2015,7 @@ export const lucileSeries: UserSerie[] = [
       {
         seasonNumber: 2,
         seasonRating: 0,
+        watching: false,
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: "",
@@ -1852,6 +2024,7 @@ export const lucileSeries: UserSerie[] = [
       {
         seasonNumber: 3,
         seasonRating: 0,
+        watching: false,
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: "",
@@ -1860,6 +2033,7 @@ export const lucileSeries: UserSerie[] = [
       {
         seasonNumber: 4,
         seasonRating: 0,
+        watching: false,
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: "",
@@ -1881,6 +2055,7 @@ export const lucileSeries: UserSerie[] = [
       {
         seasonNumber: 1,
         seasonRating: 0,
+        watching: false,
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: "",
@@ -1902,6 +2077,7 @@ export const lucileSeries: UserSerie[] = [
       {
         seasonNumber: 1,
         seasonRating: 0,
+        watching: false,
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: "",
@@ -1910,6 +2086,7 @@ export const lucileSeries: UserSerie[] = [
       {
         seasonNumber: 2,
         seasonRating: 0,
+        watching: false,
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: "",
@@ -1918,6 +2095,7 @@ export const lucileSeries: UserSerie[] = [
       {
         seasonNumber: 3,
         seasonRating: 0,
+        watching: false,
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: "",
@@ -1926,6 +2104,7 @@ export const lucileSeries: UserSerie[] = [
       {
         seasonNumber: 4,
         seasonRating: 0,
+        watching: false,
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: "",
@@ -1934,6 +2113,7 @@ export const lucileSeries: UserSerie[] = [
       {
         seasonNumber: 5,
         seasonRating: 0,
+        watching: false,
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: "",
@@ -1955,6 +2135,7 @@ export const lucileSeries: UserSerie[] = [
       {
         seasonNumber: 1,
         seasonRating: 0,
+        watching: false,
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: "",
@@ -1976,6 +2157,7 @@ export const lucileSeries: UserSerie[] = [
       {
         seasonNumber: 1,
         seasonRating: 0,
+        watching: false,
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: "",
@@ -1997,6 +2179,7 @@ export const lucileSeries: UserSerie[] = [
       {
         seasonNumber: 1,
         seasonRating: 0,
+        watching: false,
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: "",
@@ -2018,6 +2201,7 @@ export const lucileSeries: UserSerie[] = [
       {
         seasonNumber: 1,
         seasonRating: 0,
+        watching: false,
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: "",
@@ -2026,6 +2210,7 @@ export const lucileSeries: UserSerie[] = [
       {
         seasonNumber: 2,
         seasonRating: 0,
+        watching: false,
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: "",
@@ -2047,6 +2232,7 @@ export const lucileSeries: UserSerie[] = [
       {
         seasonNumber: 1,
         seasonRating: 0,
+        watching: false,
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: "",
@@ -2055,6 +2241,7 @@ export const lucileSeries: UserSerie[] = [
       {
         seasonNumber: 2,
         seasonRating: 0,
+        watching: false,
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: "",
@@ -2063,6 +2250,7 @@ export const lucileSeries: UserSerie[] = [
       {
         seasonNumber: 3,
         seasonRating: 0,
+        watching: false,
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: "",
@@ -2084,6 +2272,7 @@ export const lucileSeries: UserSerie[] = [
       {
         seasonNumber: 1,
         seasonRating: 0,
+        watching: false,
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: "",
@@ -2092,6 +2281,7 @@ export const lucileSeries: UserSerie[] = [
       {
         seasonNumber: 2,
         seasonRating: 0,
+        watching: false,
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: "",
@@ -2113,6 +2303,7 @@ export const lucileSeries: UserSerie[] = [
       {
         seasonNumber: 1,
         seasonRating: 0,
+        watching: false,
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: "",
@@ -2121,6 +2312,7 @@ export const lucileSeries: UserSerie[] = [
       {
         seasonNumber: 2,
         seasonRating: 0,
+        watching: false,
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: "",
@@ -2142,6 +2334,7 @@ export const lucileSeries: UserSerie[] = [
       {
         seasonNumber: 1,
         seasonRating: 0,
+        watching: false,
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: "",
@@ -2150,6 +2343,7 @@ export const lucileSeries: UserSerie[] = [
       {
         seasonNumber: 2,
         seasonRating: 0,
+        watching: false,
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: "",
@@ -2158,6 +2352,7 @@ export const lucileSeries: UserSerie[] = [
       {
         seasonNumber: 3,
         seasonRating: 0,
+        watching: false,
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: "",
@@ -2166,6 +2361,7 @@ export const lucileSeries: UserSerie[] = [
       {
         seasonNumber: 4,
         seasonRating: 0,
+        watching: false,
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: "",
@@ -2187,6 +2383,7 @@ export const lucileSeries: UserSerie[] = [
       {
         seasonNumber: 1,
         seasonRating: 0,
+        watching: false,
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: "",
@@ -2195,6 +2392,7 @@ export const lucileSeries: UserSerie[] = [
       {
         seasonNumber: 2,
         seasonRating: 0,
+        watching: false,
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: "",
@@ -2203,6 +2401,7 @@ export const lucileSeries: UserSerie[] = [
       {
         seasonNumber: 3,
         seasonRating: 0,
+        watching: false,
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: "",
@@ -2211,6 +2410,7 @@ export const lucileSeries: UserSerie[] = [
       {
         seasonNumber: 4,
         seasonRating: 0,
+        watching: false,
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: "",
@@ -2232,6 +2432,7 @@ export const lucileSeries: UserSerie[] = [
       {
         seasonNumber: 1,
         seasonRating: 0,
+        watching: false,
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: "",
@@ -2240,6 +2441,7 @@ export const lucileSeries: UserSerie[] = [
       {
         seasonNumber: 2,
         seasonRating: 0,
+        watching: false,
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: "",
@@ -2248,6 +2450,7 @@ export const lucileSeries: UserSerie[] = [
       {
         seasonNumber: 3,
         seasonRating: 0,
+        watching: false,
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: "",
@@ -2269,6 +2472,7 @@ export const lucileSeries: UserSerie[] = [
       {
         seasonNumber: 1,
         seasonRating: 0,
+        watching: false,
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: "",
@@ -2277,6 +2481,7 @@ export const lucileSeries: UserSerie[] = [
       {
         seasonNumber: 2,
         seasonRating: 0,
+        watching: false,
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: "",
@@ -2285,6 +2490,7 @@ export const lucileSeries: UserSerie[] = [
       {
         seasonNumber: 3,
         seasonRating: 0,
+        watching: false,
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: "",
@@ -2293,6 +2499,7 @@ export const lucileSeries: UserSerie[] = [
       {
         seasonNumber: 4,
         seasonRating: 0,
+        watching: false,
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: "",
@@ -2301,6 +2508,7 @@ export const lucileSeries: UserSerie[] = [
       {
         seasonNumber: 5,
         seasonRating: 0,
+        watching: false,
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: "",
@@ -2309,6 +2517,7 @@ export const lucileSeries: UserSerie[] = [
       {
         seasonNumber: 6,
         seasonRating: 0,
+        watching: false,
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: "",
@@ -2330,6 +2539,7 @@ export const lucileSeries: UserSerie[] = [
       {
         seasonNumber: 1,
         seasonRating: 0,
+        watching: false,
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: "",
@@ -2338,6 +2548,7 @@ export const lucileSeries: UserSerie[] = [
       {
         seasonNumber: 2,
         seasonRating: 0,
+        watching: false,
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: "",
@@ -2346,6 +2557,7 @@ export const lucileSeries: UserSerie[] = [
       {
         seasonNumber: 3,
         seasonRating: 0,
+        watching: false,
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: "",
@@ -2354,6 +2566,7 @@ export const lucileSeries: UserSerie[] = [
       {
         seasonNumber: 4,
         seasonRating: 0,
+        watching: false,
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: "",
@@ -2362,6 +2575,7 @@ export const lucileSeries: UserSerie[] = [
       {
         seasonNumber: 5,
         seasonRating: 0,
+        watching: false,
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: "",
@@ -2370,6 +2584,7 @@ export const lucileSeries: UserSerie[] = [
       {
         seasonNumber: 6,
         seasonRating: 0,
+        watching: false,
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: "",
@@ -2378,6 +2593,7 @@ export const lucileSeries: UserSerie[] = [
       {
         seasonNumber: 7,
         seasonRating: 0,
+        watching: false,
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: "",
@@ -2386,6 +2602,7 @@ export const lucileSeries: UserSerie[] = [
       {
         seasonNumber: 8,
         seasonRating: 0,
+        watching: false,
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: "",
@@ -2394,6 +2611,7 @@ export const lucileSeries: UserSerie[] = [
       {
         seasonNumber: 9,
         seasonRating: 0,
+        watching: false,
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: "",
@@ -2402,6 +2620,7 @@ export const lucileSeries: UserSerie[] = [
       {
         seasonNumber: 10,
         seasonRating: 0,
+        watching: false,
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: "",
@@ -2410,6 +2629,7 @@ export const lucileSeries: UserSerie[] = [
       {
         seasonNumber: 11,
         seasonRating: 0,
+        watching: false,
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: "",
@@ -2418,6 +2638,7 @@ export const lucileSeries: UserSerie[] = [
       {
         seasonNumber: 12,
         seasonRating: 0,
+        watching: false,
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: "",
@@ -2426,6 +2647,7 @@ export const lucileSeries: UserSerie[] = [
       {
         seasonNumber: 13,
         seasonRating: 0,
+        watching: false,
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: "",
@@ -2434,6 +2656,7 @@ export const lucileSeries: UserSerie[] = [
       {
         seasonNumber: 14,
         seasonRating: 0,
+        watching: false,
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: "",
@@ -2442,6 +2665,7 @@ export const lucileSeries: UserSerie[] = [
       {
         seasonNumber: 15,
         seasonRating: 0,
+        watching: false,
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: "",
@@ -2450,6 +2674,7 @@ export const lucileSeries: UserSerie[] = [
       {
         seasonNumber: 16,
         seasonRating: 0,
+        watching: false,
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: "",
@@ -2458,6 +2683,7 @@ export const lucileSeries: UserSerie[] = [
       {
         seasonNumber: 17,
         seasonRating: 0,
+        watching: false,
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: "",
@@ -2466,6 +2692,7 @@ export const lucileSeries: UserSerie[] = [
       {
         seasonNumber: 18,
         seasonRating: 0,
+        watching: false,
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: "",
@@ -2474,6 +2701,7 @@ export const lucileSeries: UserSerie[] = [
       {
         seasonNumber: 19,
         seasonRating: 0,
+        watching: false,
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: "",
@@ -2482,6 +2710,7 @@ export const lucileSeries: UserSerie[] = [
       {
         seasonNumber: 20,
         seasonRating: 0,
+        watching: false,
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: "",
@@ -2490,6 +2719,7 @@ export const lucileSeries: UserSerie[] = [
       {
         seasonNumber: 21,
         seasonRating: 0,
+        watching: false,
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: "",
@@ -2498,6 +2728,7 @@ export const lucileSeries: UserSerie[] = [
       {
         seasonNumber: 22,
         seasonRating: 0,
+        watching: false,
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: "",
@@ -2519,6 +2750,7 @@ export const lucileSeries: UserSerie[] = [
       {
         seasonNumber: 1,
         seasonRating: 0,
+        watching: false,
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: "",
@@ -2527,6 +2759,7 @@ export const lucileSeries: UserSerie[] = [
       {
         seasonNumber: 2,
         seasonRating: 0,
+        watching: false,
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: "",
@@ -2535,6 +2768,7 @@ export const lucileSeries: UserSerie[] = [
       {
         seasonNumber: 3,
         seasonRating: 0,
+        watching: false,
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: "",
@@ -2543,6 +2777,7 @@ export const lucileSeries: UserSerie[] = [
       {
         seasonNumber: 4,
         seasonRating: 0,
+        watching: false,
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: "",
@@ -2551,6 +2786,7 @@ export const lucileSeries: UserSerie[] = [
       {
         seasonNumber: 5,
         seasonRating: 0,
+        watching: false,
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: "",
@@ -2572,6 +2808,7 @@ export const lucileSeries: UserSerie[] = [
       {
         seasonNumber: 1,
         seasonRating: 0,
+        watching: false,
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: "",
@@ -2580,6 +2817,7 @@ export const lucileSeries: UserSerie[] = [
       {
         seasonNumber: 2,
         seasonRating: 0,
+        watching: false,
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: "",
@@ -2588,6 +2826,7 @@ export const lucileSeries: UserSerie[] = [
       {
         seasonNumber: 3,
         seasonRating: 0,
+        watching: false,
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: "",
@@ -2596,6 +2835,7 @@ export const lucileSeries: UserSerie[] = [
       {
         seasonNumber: 4,
         seasonRating: 0,
+        watching: false,
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: "",
@@ -2604,6 +2844,7 @@ export const lucileSeries: UserSerie[] = [
       {
         seasonNumber: 5,
         seasonRating: 0,
+        watching: false,
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: "",
@@ -2612,6 +2853,7 @@ export const lucileSeries: UserSerie[] = [
       {
         seasonNumber: 6,
         seasonRating: 0,
+        watching: false,
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: "",
@@ -2620,6 +2862,7 @@ export const lucileSeries: UserSerie[] = [
       {
         seasonNumber: 7,
         seasonRating: 0,
+        watching: false,
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: "",
@@ -2641,6 +2884,7 @@ export const lucileSeries: UserSerie[] = [
       {
         seasonNumber: 1,
         seasonRating: 0,
+        watching: false,
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: "",
@@ -2649,6 +2893,7 @@ export const lucileSeries: UserSerie[] = [
       {
         seasonNumber: 2,
         seasonRating: 0,
+        watching: false,
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: "",
@@ -2657,6 +2902,7 @@ export const lucileSeries: UserSerie[] = [
       {
         seasonNumber: 3,
         seasonRating: 0,
+        watching: false,
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: "",
@@ -2665,6 +2911,7 @@ export const lucileSeries: UserSerie[] = [
       {
         seasonNumber: 4,
         seasonRating: 0,
+        watching: false,
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: "",
@@ -2673,6 +2920,7 @@ export const lucileSeries: UserSerie[] = [
       {
         seasonNumber: 5,
         seasonRating: 0,
+        watching: false,
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: "",
@@ -2681,6 +2929,7 @@ export const lucileSeries: UserSerie[] = [
       {
         seasonNumber: 6,
         seasonRating: 0,
+        watching: false,
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: "",
@@ -2689,6 +2938,7 @@ export const lucileSeries: UserSerie[] = [
       {
         seasonNumber: 7,
         seasonRating: 0,
+        watching: false,
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: "",
@@ -2697,6 +2947,7 @@ export const lucileSeries: UserSerie[] = [
       {
         seasonNumber: 8,
         seasonRating: 0,
+        watching: false,
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: "",
@@ -2705,6 +2956,7 @@ export const lucileSeries: UserSerie[] = [
       {
         seasonNumber: 9,
         seasonRating: 0,
+        watching: false,
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: "",
@@ -2713,6 +2965,7 @@ export const lucileSeries: UserSerie[] = [
       {
         seasonNumber: 10,
         seasonRating: 0,
+        watching: false,
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: "",
@@ -2721,6 +2974,7 @@ export const lucileSeries: UserSerie[] = [
       {
         seasonNumber: 11,
         seasonRating: 0,
+        watching: false,
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: "",
@@ -2742,6 +2996,7 @@ export const lucileSeries: UserSerie[] = [
       {
         seasonNumber: 1,
         seasonRating: 0,
+        watching: false,
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: "",
@@ -2750,6 +3005,7 @@ export const lucileSeries: UserSerie[] = [
       {
         seasonNumber: 2,
         seasonRating: 0,
+        watching: false,
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: "",
@@ -2758,6 +3014,7 @@ export const lucileSeries: UserSerie[] = [
       {
         seasonNumber: 3,
         seasonRating: 0,
+        watching: false,
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: "",
@@ -2766,6 +3023,7 @@ export const lucileSeries: UserSerie[] = [
       {
         seasonNumber: 4,
         seasonRating: 0,
+        watching: false,
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: "",
@@ -2774,6 +3032,7 @@ export const lucileSeries: UserSerie[] = [
       {
         seasonNumber: 5,
         seasonRating: 0,
+        watching: false,
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: "",
@@ -2782,6 +3041,7 @@ export const lucileSeries: UserSerie[] = [
       {
         seasonNumber: 6,
         seasonRating: 0,
+        watching: false,
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: "",
@@ -2790,6 +3050,7 @@ export const lucileSeries: UserSerie[] = [
       {
         seasonNumber: 7,
         seasonRating: 0,
+        watching: false,
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: "",
@@ -2811,6 +3072,7 @@ export const lucileSeries: UserSerie[] = [
       {
         seasonNumber: 1,
         seasonRating: 0,
+        watching: false,
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: "",
@@ -2819,6 +3081,7 @@ export const lucileSeries: UserSerie[] = [
       {
         seasonNumber: 2,
         seasonRating: 0,
+        watching: false,
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: "",
@@ -2827,6 +3090,7 @@ export const lucileSeries: UserSerie[] = [
       {
         seasonNumber: 3,
         seasonRating: 0,
+        watching: false,
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: "",
@@ -2835,6 +3099,7 @@ export const lucileSeries: UserSerie[] = [
       {
         seasonNumber: 4,
         seasonRating: 0,
+        watching: false,
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: "",
@@ -2843,6 +3108,7 @@ export const lucileSeries: UserSerie[] = [
       {
         seasonNumber: 5,
         seasonRating: 0,
+        watching: false,
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: "",
@@ -2851,6 +3117,7 @@ export const lucileSeries: UserSerie[] = [
       {
         seasonNumber: 6,
         seasonRating: 0,
+        watching: false,
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: "",
@@ -2859,6 +3126,7 @@ export const lucileSeries: UserSerie[] = [
       {
         seasonNumber: 7,
         seasonRating: 0,
+        watching: false,
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: "",
@@ -2880,6 +3148,7 @@ export const lucileSeries: UserSerie[] = [
       {
         seasonNumber: 1,
         seasonRating: 0,
+        watching: false,
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: "",
@@ -2901,6 +3170,7 @@ export const lucileSeries: UserSerie[] = [
       {
         seasonNumber: 1,
         seasonRating: 0,
+        watching: false,
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: "",
@@ -2909,6 +3179,7 @@ export const lucileSeries: UserSerie[] = [
       {
         seasonNumber: 2,
         seasonRating: 0,
+        watching: false,
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: "",
@@ -2930,6 +3201,7 @@ export const lucileSeries: UserSerie[] = [
       {
         seasonNumber: 1,
         seasonRating: 0,
+        watching: false,
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: "",
@@ -2938,6 +3210,7 @@ export const lucileSeries: UserSerie[] = [
       {
         seasonNumber: 2,
         seasonRating: 0,
+        watching: false,
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: "",
@@ -2946,6 +3219,7 @@ export const lucileSeries: UserSerie[] = [
       {
         seasonNumber: 3,
         seasonRating: 0,
+        watching: false,
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: "",
@@ -2967,6 +3241,7 @@ export const lucileSeries: UserSerie[] = [
       {
         seasonNumber: 1,
         seasonRating: 0,
+        watching: false,
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: "",
@@ -2975,6 +3250,7 @@ export const lucileSeries: UserSerie[] = [
       {
         seasonNumber: 2,
         seasonRating: 0,
+        watching: false,
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: "",
@@ -2996,6 +3272,7 @@ export const lucileSeries: UserSerie[] = [
       {
         seasonNumber: 1,
         seasonRating: 0,
+        watching: false,
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: "",
@@ -3004,6 +3281,7 @@ export const lucileSeries: UserSerie[] = [
       {
         seasonNumber: 2,
         seasonRating: 0,
+        watching: false,
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: "",
@@ -3012,6 +3290,7 @@ export const lucileSeries: UserSerie[] = [
       {
         seasonNumber: 3,
         seasonRating: 0,
+        watching: false,
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: "",
@@ -3020,6 +3299,7 @@ export const lucileSeries: UserSerie[] = [
       {
         seasonNumber: 4,
         seasonRating: 0,
+        watching: false,
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: "",
@@ -3028,6 +3308,7 @@ export const lucileSeries: UserSerie[] = [
       {
         seasonNumber: 5,
         seasonRating: 0,
+        watching: false,
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: "",
@@ -3036,6 +3317,7 @@ export const lucileSeries: UserSerie[] = [
       {
         seasonNumber: 6,
         seasonRating: 0,
+        watching: false,
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: "",
@@ -3044,6 +3326,7 @@ export const lucileSeries: UserSerie[] = [
       {
         seasonNumber: 7,
         seasonRating: 0,
+        watching: false,
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: "",
@@ -3052,6 +3335,7 @@ export const lucileSeries: UserSerie[] = [
       {
         seasonNumber: 8,
         seasonRating: 0,
+        watching: false,
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: "",
@@ -3060,6 +3344,7 @@ export const lucileSeries: UserSerie[] = [
       {
         seasonNumber: 9,
         seasonRating: 0,
+        watching: false,
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: "",
@@ -3081,6 +3366,7 @@ export const lucileSeries: UserSerie[] = [
       {
         seasonNumber: 1,
         seasonRating: 0,
+        watching: false,
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: "",
@@ -3102,6 +3388,7 @@ export const lucileSeries: UserSerie[] = [
       {
         seasonNumber: 1,
         seasonRating: 0,
+        watching: false,
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: "",
@@ -3122,6 +3409,7 @@ export const lucileSeries: UserSerie[] = [
       {
         seasonNumber: 1,
         seasonRating: 0,
+        watching: false,
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: "",
@@ -3130,6 +3418,7 @@ export const lucileSeries: UserSerie[] = [
       {
         seasonNumber: 2,
         seasonRating: 0,
+        watching: false,
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: "",
@@ -3138,6 +3427,7 @@ export const lucileSeries: UserSerie[] = [
       {
         seasonNumber: 3,
         seasonRating: 0,
+        watching: false,
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: "",
@@ -3146,6 +3436,7 @@ export const lucileSeries: UserSerie[] = [
       {
         seasonNumber: 4,
         seasonRating: 0,
+        watching: false,
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: "",
@@ -3166,6 +3457,7 @@ export const lucileSeries: UserSerie[] = [
       {
         seasonNumber: 1,
         seasonRating: 0,
+        watching: false,
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: "",

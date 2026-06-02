@@ -21,6 +21,10 @@ import { isBaseEntityView, getApiBaseUrl } from '../../../core/config';
 import { DEFAULT_USER_ID } from '../../../utils/constants';
 import { BookView } from '../../../containers/collections/books/books.utils';
 import { Book } from '../../../models/book-model';
+import {
+  isReading,
+  normalizedReadTimes,
+} from '../../../utils/in-progress.utils';
 import { ReviewModalComponent } from '../../modals/review-modal/review-modal.component';
 import {
   MoveEntityReviewModalComponent,
@@ -80,7 +84,7 @@ export class BookComponent {
     book: any;
     priority: number;
   }>();
-  /** Readlist : marqué « en cours » (readTimes 0.5), API OK. */
+  /** Readlist : marqué « en cours » (reading), API OK. */
   @Output() readlistStartedReading = new EventEmitter<Book>();
   /** Après passage readlist → lu (API OK). */
   @Output() readlistMarkedAsRead = new EventEmitter<Book>();
@@ -98,6 +102,10 @@ export class BookComponent {
 
   requestEdit(): void {
     this.editRequested.emit();
+  }
+
+  isBookReading(): boolean {
+    return isReading(this.book);
   }
 
   onStartedReadingClick(): void {
@@ -118,7 +126,7 @@ export class BookComponent {
 
   getEntityData(): EntityCardEntityData {
     return {
-      alreadySeenRead: (this.book.readTimes ?? 0) >= 1,
+      alreadySeenRead: normalizedReadTimes(this.book.readTimes) >= 1,
       alreadyInList: this.isInReadlist,
       rating: this.book.rating ?? 0,
       hasRatingComment: !!this.book.ratingComment,

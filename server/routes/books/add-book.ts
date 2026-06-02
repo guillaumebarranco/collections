@@ -46,6 +46,7 @@ function formatUserBook(user: any): string {
         : []
     )},
     rating: ${user.rating ?? 0},
+    reading: false,
     readTimes: ${user.readTimes ?? 1},
     owned: ${user.owned ?? false},
     borrowed: "${escapeString(user.borrowed ?? '')}",

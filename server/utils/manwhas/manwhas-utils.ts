@@ -1,6 +1,10 @@
 const fs = require('fs');
 const path = require('path');
 const { escapeStringForTsDoubleQuote: escapeString } = require('../escape-ts-string');
+const {
+  parseReadingFromFile,
+  formatReadingTsLine,
+} = require('../in-progress-fields');
 
 const USERS_MANWHAS_DIR = path.join(
   __dirname,
@@ -141,11 +145,16 @@ function parseManwhasFromFile(content: string): UserManwha[] {
         const title = parseStringField(objectText, 'title');
         const author = parseStringField(objectText, 'author');
         if (title && author) {
+          const { readTimes, reading } = parseReadingFromFile(
+            parseNumberField(objectText, 'readTimes') ?? 0,
+            parseBooleanField(objectText, 'reading')
+          );
           manwhas.push({
             title,
             author,
             rating: parseNumberField(objectText, 'rating') ?? 0,
-            readTimes: parseNumberField(objectText, 'readTimes') ?? 0,
+            reading,
+            readTimes,
             readDate: parseStringField(objectText, 'readDate') ?? '',
             readingScanStartDate:
               parseStringField(objectText, 'readingScanStartDate') ?? '',
@@ -273,7 +282,7 @@ function formatUserManwhaEntry(manwha: UserManwha): string {
     readingScanStartDate: "${escapeString(manwha.readingScanStartDate || '')}",
     readingScanStopDate: "${escapeString(manwha.readingScanStopDate || '')}",
     rating: ${manwha.rating ?? 0},
-    readTimes: ${manwha.readTimes ?? 1},
+${formatReadingTsLine(manwha.reading)}    readTimes: ${manwha.readTimes ?? 1},
     owned: ${manwha.owned ?? false},
     readPriority: ${manwha.readPriority ?? 1},
     wantToReadAgain: ${manwha.wantToReadAgain ?? false},

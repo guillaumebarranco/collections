@@ -8,6 +8,7 @@ export const cassandreManwhas: UserManwhas = [
     readingScanStartDate: '',
     readingScanStopDate: '',
     rating: 0,
+    reading: false,
     readTimes: 1,
     owned: false,
     readPriority: 1,

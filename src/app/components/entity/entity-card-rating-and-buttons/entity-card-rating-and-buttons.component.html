@@ -39,7 +39,7 @@
     class="makya-btn-small"
     (click)="onStartedReadingClick()"
   >
-    {{ effectiveLabels.markStartedReading }}
+    {{ startedReadingLabel }}
   </button>
   }
   <button type="button" class="makya-btn-small" (click)="onAddFromList()">
@@ -69,7 +69,15 @@
   <span class="recommendation-text">{{
     effectiveLabels.alreadyWantToReRead
   }}</span>
-  } } @if (selectedView === reReadViewName && wantToReRead) {
+  }   } @if (showMarkStartedReadingButton && selectedView === reReadViewName) {
+  <button
+    type="button"
+    class="makya-btn-small"
+    (click)="onStartedReadingClick()"
+  >
+    {{ startedReadingLabel }}
+  </button>
+  } @if (selectedView === reReadViewName && wantToReRead) {
   <button type="button" class="makya-btn-small" (click)="onHaveReReadClick()">
     {{ effectiveLabels.haveReRead }}
   </button>

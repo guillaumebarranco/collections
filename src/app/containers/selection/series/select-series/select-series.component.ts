@@ -135,6 +135,7 @@ export class SelectSeriesComponent
         (_, index) => ({
           seasonNumber: index + 1,
           seasonRating: 0,
+          watching: false,
           seasonTimesWatched: 0,
           firstViewedDate: '',
           lastViewedDate: '',

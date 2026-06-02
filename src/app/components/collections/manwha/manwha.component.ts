@@ -18,6 +18,7 @@ import {
 import { ReviewModalComponent } from '../../modals/review-modal/review-modal.component';
 import { CanEditDirective } from '../../../directives/can-edit.directive';
 import { Manwha } from '../../../models/manwha-model';
+import { isReading, normalizedReadTimes } from '../../../utils/in-progress.utils';
 import { EntityType } from '../../../models/quizz-model';
 
 import { isBaseEntityView, getApiBaseUrl } from '../../../core/config';
@@ -84,6 +85,10 @@ export class ManwhaComponent {
     this.editRequested.emit();
   }
 
+  isManwhaReading(): boolean {
+    return isReading(this.manwha);
+  }
+
   onStartedReadingClick(): void {
     this.readlistStartedReading.emit(this.manwha);
   }
@@ -102,7 +107,7 @@ export class ManwhaComponent {
 
   getEntityData(): EntityCardEntityData {
     return {
-      alreadySeenRead: (this.manwha.readTimes ?? 0) >= 1,
+      alreadySeenRead: normalizedReadTimes(this.manwha.readTimes) >= 1,
       alreadyInList: this.isInReadlist,
       rating: this.manwha.rating ?? 0,
       hasRatingComment: !!this.manwha.ratingComment,

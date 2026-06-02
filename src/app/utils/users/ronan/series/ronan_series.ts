@@ -8,6 +8,7 @@ export const ronanSeries: UserSeries = [
       {
         seasonNumber: 1,
         seasonRating: 3,
+        watching: false,
         seasonTimesWatched: 1,
         firstViewedDate: '',
         lastViewedDate: '',
@@ -17,6 +18,7 @@ export const ronanSeries: UserSeries = [
       {
         seasonNumber: 2,
         seasonRating: 3,
+        watching: false,
         seasonTimesWatched: 1,
         firstViewedDate: '',
         lastViewedDate: '',
@@ -26,6 +28,7 @@ export const ronanSeries: UserSeries = [
       {
         seasonNumber: 3,
         seasonRating: 3,
+        watching: false,
         seasonTimesWatched: 1,
         firstViewedDate: '',
         lastViewedDate: '',
@@ -35,6 +38,7 @@ export const ronanSeries: UserSeries = [
       {
         seasonNumber: 4,
         seasonRating: 3,
+        watching: false,
         seasonTimesWatched: 1,
         firstViewedDate: '',
         lastViewedDate: '',
@@ -44,6 +48,7 @@ export const ronanSeries: UserSeries = [
       {
         seasonNumber: 5,
         seasonRating: 3,
+        watching: false,
         seasonTimesWatched: 1,
         firstViewedDate: '',
         lastViewedDate: '',
@@ -53,6 +58,7 @@ export const ronanSeries: UserSeries = [
       {
         seasonNumber: 6,
         seasonRating: 3,
+        watching: false,
         seasonTimesWatched: 1,
         firstViewedDate: '',
         lastViewedDate: '',
@@ -62,6 +68,7 @@ export const ronanSeries: UserSeries = [
       {
         seasonNumber: 7,
         seasonRating: 3,
+        watching: false,
         seasonTimesWatched: 1,
         firstViewedDate: '',
         lastViewedDate: '',
@@ -83,6 +90,7 @@ export const ronanSeries: UserSeries = [
       {
         seasonNumber: 1,
         seasonRating: 5,
+        watching: false,
         seasonTimesWatched: 10,
         firstViewedDate: '',
         lastViewedDate: '',
@@ -92,6 +100,7 @@ export const ronanSeries: UserSeries = [
       {
         seasonNumber: 2,
         seasonRating: 5,
+        watching: false,
         seasonTimesWatched: 10,
         firstViewedDate: '',
         lastViewedDate: '',
@@ -101,6 +110,7 @@ export const ronanSeries: UserSeries = [
       {
         seasonNumber: 3,
         seasonRating: 5,
+        watching: false,
         seasonTimesWatched: 10,
         firstViewedDate: '',
         lastViewedDate: '',
@@ -110,6 +120,7 @@ export const ronanSeries: UserSeries = [
       {
         seasonNumber: 4,
         seasonRating: 5,
+        watching: false,
         seasonTimesWatched: 10,
         firstViewedDate: '',
         lastViewedDate: '',
@@ -119,6 +130,7 @@ export const ronanSeries: UserSeries = [
       {
         seasonNumber: 5,
         seasonRating: 5,
+        watching: false,
         seasonTimesWatched: 10,
         firstViewedDate: '',
         lastViewedDate: '',
@@ -128,6 +140,7 @@ export const ronanSeries: UserSeries = [
       {
         seasonNumber: 6,
         seasonRating: 4.5,
+        watching: false,
         seasonTimesWatched: 10,
         firstViewedDate: '',
         lastViewedDate: '',
@@ -137,6 +150,7 @@ export const ronanSeries: UserSeries = [
       {
         seasonNumber: 7,
         seasonRating: 4,
+        watching: false,
         seasonTimesWatched: 10,
         firstViewedDate: '',
         lastViewedDate: '',
@@ -146,6 +160,7 @@ export const ronanSeries: UserSeries = [
       {
         seasonNumber: 8,
         seasonRating: 4,
+        watching: false,
         seasonTimesWatched: 10,
         firstViewedDate: '',
         lastViewedDate: '',
@@ -155,6 +170,7 @@ export const ronanSeries: UserSeries = [
       {
         seasonNumber: 9,
         seasonRating: 4.5,
+        watching: false,
         seasonTimesWatched: 5,
         firstViewedDate: '',
         lastViewedDate: '',
@@ -176,6 +192,7 @@ export const ronanSeries: UserSeries = [
       {
         seasonNumber: 1,
         seasonRating: 4,
+        watching: false,
         seasonTimesWatched: 1,
         firstViewedDate: '',
         lastViewedDate: '',
@@ -185,6 +202,7 @@ export const ronanSeries: UserSeries = [
       {
         seasonNumber: 2,
         seasonRating: 4,
+        watching: false,
         seasonTimesWatched: 1,
         firstViewedDate: '',
         lastViewedDate: '',
@@ -206,6 +224,7 @@ export const ronanSeries: UserSeries = [
       {
         seasonNumber: 1,
         seasonRating: 3,
+        watching: false,
         seasonTimesWatched: 1,
         firstViewedDate: '',
         lastViewedDate: '',
@@ -227,6 +246,7 @@ export const ronanSeries: UserSeries = [
       {
         seasonNumber: 1,
         seasonRating: 3.5,
+        watching: false,
         seasonTimesWatched: 1,
         firstViewedDate: '',
         lastViewedDate: '',
@@ -248,6 +268,7 @@ export const ronanSeries: UserSeries = [
       {
         seasonNumber: 1,
         seasonRating: 2.5,
+        watching: false,
         seasonTimesWatched: 1,
         firstViewedDate: '',
         lastViewedDate: '',
@@ -269,6 +290,7 @@ export const ronanSeries: UserSeries = [
       {
         seasonNumber: 1,
         seasonRating: 2.5,
+        watching: false,
         seasonTimesWatched: 1,
         firstViewedDate: '',
         lastViewedDate: '',
@@ -278,6 +300,7 @@ export const ronanSeries: UserSeries = [
       {
         seasonNumber: 2,
         seasonRating: 2,
+        watching: false,
         seasonTimesWatched: 1,
         firstViewedDate: '',
         lastViewedDate: '',
@@ -287,6 +310,7 @@ export const ronanSeries: UserSeries = [
       {
         seasonNumber: 3,
         seasonRating: 2,
+        watching: false,
         seasonTimesWatched: 1,
         firstViewedDate: '',
         lastViewedDate: '',
@@ -308,6 +332,7 @@ export const ronanSeries: UserSeries = [
       {
         seasonNumber: 1,
         seasonRating: 4.5,
+        watching: false,
         seasonTimesWatched: 2,
         firstViewedDate: '',
         lastViewedDate: '',
@@ -317,6 +342,7 @@ export const ronanSeries: UserSeries = [
       {
         seasonNumber: 2,
         seasonRating: 4.5,
+        watching: false,
         seasonTimesWatched: 2,
         firstViewedDate: '',
         lastViewedDate: '',
@@ -326,6 +352,7 @@ export const ronanSeries: UserSeries = [
       {
         seasonNumber: 3,
         seasonRating: 4.5,
+        watching: false,
         seasonTimesWatched: 2,
         firstViewedDate: '',
         lastViewedDate: '',
@@ -335,6 +362,7 @@ export const ronanSeries: UserSeries = [
       {
         seasonNumber: 4,
         seasonRating: 4.5,
+        watching: false,
         seasonTimesWatched: 2,
         firstViewedDate: '',
         lastViewedDate: '',
@@ -344,6 +372,7 @@ export const ronanSeries: UserSeries = [
       {
         seasonNumber: 5,
         seasonRating: 4.5,
+        watching: false,
         seasonTimesWatched: 2,
         firstViewedDate: '',
         lastViewedDate: '',
@@ -365,6 +394,7 @@ export const ronanSeries: UserSeries = [
       {
         seasonNumber: 1,
         seasonRating: 4,
+        watching: false,
         seasonTimesWatched: 2,
         firstViewedDate: '',
         lastViewedDate: '',
@@ -374,6 +404,7 @@ export const ronanSeries: UserSeries = [
       {
         seasonNumber: 2,
         seasonRating: 3.5,
+        watching: false,
         seasonTimesWatched: 2,
         firstViewedDate: '',
         lastViewedDate: '',
@@ -383,6 +414,7 @@ export const ronanSeries: UserSeries = [
       {
         seasonNumber: 3,
         seasonRating: 2.5,
+        watching: false,
         seasonTimesWatched: 2,
         firstViewedDate: '',
         lastViewedDate: '',
@@ -392,6 +424,7 @@ export const ronanSeries: UserSeries = [
       {
         seasonNumber: 4,
         seasonRating: 2,
+        watching: false,
         seasonTimesWatched: 1,
         firstViewedDate: '',
         lastViewedDate: '',
@@ -413,6 +446,7 @@ export const ronanSeries: UserSeries = [
       {
         seasonNumber: 1,
         seasonRating: 3.5,
+        watching: false,
         seasonTimesWatched: 1,
         firstViewedDate: '',
         lastViewedDate: '',
@@ -422,6 +456,7 @@ export const ronanSeries: UserSeries = [
       {
         seasonNumber: 2,
         seasonRating: 3,
+        watching: false,
         seasonTimesWatched: 1,
         firstViewedDate: '',
         lastViewedDate: '',
@@ -431,6 +466,7 @@ export const ronanSeries: UserSeries = [
       {
         seasonNumber: 3,
         seasonRating: 2.5,
+        watching: false,
         seasonTimesWatched: 1,
         firstViewedDate: '',
         lastViewedDate: '',
@@ -440,6 +476,7 @@ export const ronanSeries: UserSeries = [
       {
         seasonNumber: 4,
         seasonRating: 3.5,
+        watching: false,
         seasonTimesWatched: 1,
         firstViewedDate: '',
         lastViewedDate: '',
@@ -449,6 +486,7 @@ export const ronanSeries: UserSeries = [
       {
         seasonNumber: 5,
         seasonRating: 2,
+        watching: false,
         seasonTimesWatched: 1,
         firstViewedDate: '',
         lastViewedDate: '',
@@ -470,6 +508,7 @@ export const ronanSeries: UserSeries = [
       {
         seasonNumber: 1,
         seasonRating: 3.5,
+        watching: false,
         seasonTimesWatched: 1,
         firstViewedDate: '',
         lastViewedDate: '',
@@ -479,6 +518,7 @@ export const ronanSeries: UserSeries = [
       {
         seasonNumber: 2,
         seasonRating: 3.5,
+        watching: false,
         seasonTimesWatched: 1,
         firstViewedDate: '',
         lastViewedDate: '',
@@ -488,6 +528,7 @@ export const ronanSeries: UserSeries = [
       {
         seasonNumber: 3,
         seasonRating: 3.5,
+        watching: false,
         seasonTimesWatched: 1,
         firstViewedDate: '',
         lastViewedDate: '',
@@ -497,6 +538,7 @@ export const ronanSeries: UserSeries = [
       {
         seasonNumber: 4,
         seasonRating: 3.5,
+        watching: false,
         seasonTimesWatched: 1,
         firstViewedDate: '',
         lastViewedDate: '',
@@ -506,6 +548,7 @@ export const ronanSeries: UserSeries = [
       {
         seasonNumber: 5,
         seasonRating: 0,
+        watching: false,
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
@@ -527,6 +570,7 @@ export const ronanSeries: UserSeries = [
       {
         seasonNumber: 1,
         seasonRating: 4,
+        watching: false,
         seasonTimesWatched: 2,
         firstViewedDate: '',
         lastViewedDate: '',
@@ -536,6 +580,7 @@ export const ronanSeries: UserSeries = [
       {
         seasonNumber: 2,
         seasonRating: 4,
+        watching: false,
         seasonTimesWatched: 2,
         firstViewedDate: '',
         lastViewedDate: '',
@@ -545,6 +590,7 @@ export const ronanSeries: UserSeries = [
       {
         seasonNumber: 3,
         seasonRating: 4,
+        watching: false,
         seasonTimesWatched: 2,
         firstViewedDate: '',
         lastViewedDate: '',
@@ -554,6 +600,7 @@ export const ronanSeries: UserSeries = [
       {
         seasonNumber: 4,
         seasonRating: 4,
+        watching: false,
         seasonTimesWatched: 2,
         firstViewedDate: '',
         lastViewedDate: '',
@@ -563,6 +610,7 @@ export const ronanSeries: UserSeries = [
       {
         seasonNumber: 5,
         seasonRating: 3,
+        watching: false,
         seasonTimesWatched: 1,
         firstViewedDate: '',
         lastViewedDate: '',
@@ -584,6 +632,7 @@ export const ronanSeries: UserSeries = [
       {
         seasonNumber: 1,
         seasonRating: 3,
+        watching: false,
         seasonTimesWatched: 1,
         firstViewedDate: '',
         lastViewedDate: '',
@@ -593,6 +642,7 @@ export const ronanSeries: UserSeries = [
       {
         seasonNumber: 2,
         seasonRating: 2.5,
+        watching: false,
         seasonTimesWatched: 1,
         firstViewedDate: '',
         lastViewedDate: '',
@@ -602,6 +652,7 @@ export const ronanSeries: UserSeries = [
       {
         seasonNumber: 3,
         seasonRating: 2.5,
+        watching: false,
         seasonTimesWatched: 1,
         firstViewedDate: '',
         lastViewedDate: '',
@@ -623,6 +674,7 @@ export const ronanSeries: UserSeries = [
       {
         seasonNumber: 1,
         seasonRating: 5,
+        watching: false,
         seasonTimesWatched: 2,
         firstViewedDate: '',
         lastViewedDate: '',
@@ -632,6 +684,7 @@ export const ronanSeries: UserSeries = [
       {
         seasonNumber: 2,
         seasonRating: 4.5,
+        watching: false,
         seasonTimesWatched: 1,
         firstViewedDate: '',
         lastViewedDate: '',
@@ -653,6 +706,7 @@ export const ronanSeries: UserSeries = [
       {
         seasonNumber: 1,
         seasonRating: 4,
+        watching: false,
         seasonTimesWatched: 1,
         firstViewedDate: '',
         lastViewedDate: '',
@@ -662,6 +716,7 @@ export const ronanSeries: UserSeries = [
       {
         seasonNumber: 2,
         seasonRating: 4,
+        watching: false,
         seasonTimesWatched: 1,
         firstViewedDate: '',
         lastViewedDate: '',
@@ -671,6 +726,7 @@ export const ronanSeries: UserSeries = [
       {
         seasonNumber: 3,
         seasonRating: 4,
+        watching: false,
         seasonTimesWatched: 1,
         firstViewedDate: '',
         lastViewedDate: '',
@@ -680,6 +736,7 @@ export const ronanSeries: UserSeries = [
       {
         seasonNumber: 4,
         seasonRating: 4,
+        watching: false,
         seasonTimesWatched: 1,
         firstViewedDate: '',
         lastViewedDate: '',
@@ -689,6 +746,7 @@ export const ronanSeries: UserSeries = [
       {
         seasonNumber: 5,
         seasonRating: 4,
+        watching: false,
         seasonTimesWatched: 1,
         firstViewedDate: '',
         lastViewedDate: '',
@@ -698,6 +756,7 @@ export const ronanSeries: UserSeries = [
       {
         seasonNumber: 6,
         seasonRating: 4,
+        watching: false,
         seasonTimesWatched: 1,
         firstViewedDate: '',
         lastViewedDate: '',
@@ -707,6 +766,7 @@ export const ronanSeries: UserSeries = [
       {
         seasonNumber: 7,
         seasonRating: 4,
+        watching: false,
         seasonTimesWatched: 1,
         firstViewedDate: '',
         lastViewedDate: '',
@@ -716,6 +776,7 @@ export const ronanSeries: UserSeries = [
       {
         seasonNumber: 8,
         seasonRating: 4,
+        watching: false,
         seasonTimesWatched: 1,
         firstViewedDate: '',
         lastViewedDate: '',
@@ -725,6 +786,7 @@ export const ronanSeries: UserSeries = [
       {
         seasonNumber: 9,
         seasonRating: 4,
+        watching: false,
         seasonTimesWatched: 1,
         firstViewedDate: '',
         lastViewedDate: '',
@@ -734,6 +796,7 @@ export const ronanSeries: UserSeries = [
       {
         seasonNumber: 10,
         seasonRating: 4,
+        watching: false,
         seasonTimesWatched: 1,
         firstViewedDate: '',
         lastViewedDate: '',
@@ -743,6 +806,7 @@ export const ronanSeries: UserSeries = [
       {
         seasonNumber: 11,
         seasonRating: 4,
+        watching: false,
         seasonTimesWatched: 1,
         firstViewedDate: '',
         lastViewedDate: '',
@@ -752,6 +816,7 @@ export const ronanSeries: UserSeries = [
       {
         seasonNumber: 12,
         seasonRating: 4,
+        watching: false,
         seasonTimesWatched: 1,
         firstViewedDate: '',
         lastViewedDate: '',
@@ -761,6 +826,7 @@ export const ronanSeries: UserSeries = [
       {
         seasonNumber: 13,
         seasonRating: 4,
+        watching: false,
         seasonTimesWatched: 1,
         firstViewedDate: '',
         lastViewedDate: '',
@@ -770,6 +836,7 @@ export const ronanSeries: UserSeries = [
       {
         seasonNumber: 14,
         seasonRating: 4,
+        watching: false,
         seasonTimesWatched: 1,
         firstViewedDate: '',
         lastViewedDate: '',
@@ -779,6 +846,7 @@ export const ronanSeries: UserSeries = [
       {
         seasonNumber: 15,
         seasonRating: 4,
+        watching: false,
         seasonTimesWatched: 1,
         firstViewedDate: '',
         lastViewedDate: '',
@@ -788,6 +856,7 @@ export const ronanSeries: UserSeries = [
       {
         seasonNumber: 16,
         seasonRating: 4,
+        watching: false,
         seasonTimesWatched: 1,
         firstViewedDate: '',
         lastViewedDate: '',
@@ -797,6 +866,7 @@ export const ronanSeries: UserSeries = [
       {
         seasonNumber: 17,
         seasonRating: 4,
+        watching: false,
         seasonTimesWatched: 1,
         firstViewedDate: '',
         lastViewedDate: '',
@@ -806,6 +876,7 @@ export const ronanSeries: UserSeries = [
       {
         seasonNumber: 18,
         seasonRating: 4,
+        watching: false,
         seasonTimesWatched: 1,
         firstViewedDate: '',
         lastViewedDate: '',
@@ -815,6 +886,7 @@ export const ronanSeries: UserSeries = [
       {
         seasonNumber: 19,
         seasonRating: 4,
+        watching: false,
         seasonTimesWatched: 1,
         firstViewedDate: '',
         lastViewedDate: '',
@@ -824,6 +896,7 @@ export const ronanSeries: UserSeries = [
       {
         seasonNumber: 20,
         seasonRating: 4,
+        watching: false,
         seasonTimesWatched: 1,
         firstViewedDate: '',
         lastViewedDate: '',
@@ -833,6 +906,7 @@ export const ronanSeries: UserSeries = [
       {
         seasonNumber: 21,
         seasonRating: 4,
+        watching: false,
         seasonTimesWatched: 1,
         firstViewedDate: '',
         lastViewedDate: '',
@@ -842,6 +916,7 @@ export const ronanSeries: UserSeries = [
       {
         seasonNumber: 22,
         seasonRating: 4,
+        watching: false,
         seasonTimesWatched: 1,
         firstViewedDate: '',
         lastViewedDate: '',
@@ -851,6 +926,7 @@ export const ronanSeries: UserSeries = [
       {
         seasonNumber: 23,
         seasonRating: 4,
+        watching: false,
         seasonTimesWatched: 1,
         firstViewedDate: '',
         lastViewedDate: '',
@@ -860,6 +936,7 @@ export const ronanSeries: UserSeries = [
       {
         seasonNumber: 24,
         seasonRating: 4,
+        watching: false,
         seasonTimesWatched: 1,
         firstViewedDate: '',
         lastViewedDate: '',
@@ -869,6 +946,7 @@ export const ronanSeries: UserSeries = [
       {
         seasonNumber: 25,
         seasonRating: 4,
+        watching: false,
         seasonTimesWatched: 1,
         firstViewedDate: '',
         lastViewedDate: '',
@@ -878,6 +956,7 @@ export const ronanSeries: UserSeries = [
       {
         seasonNumber: 26,
         seasonRating: 4,
+        watching: false,
         seasonTimesWatched: 1,
         firstViewedDate: '',
         lastViewedDate: '',
@@ -887,6 +966,7 @@ export const ronanSeries: UserSeries = [
       {
         seasonNumber: 27,
         seasonRating: 0,
+        watching: false,
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
@@ -908,6 +988,7 @@ export const ronanSeries: UserSeries = [
       {
         seasonNumber: 1,
         seasonRating: 4,
+        watching: false,
         seasonTimesWatched: 3,
         firstViewedDate: '',
         lastViewedDate: '',
@@ -917,6 +998,7 @@ export const ronanSeries: UserSeries = [
       {
         seasonNumber: 2,
         seasonRating: 3,
+        watching: false,
         seasonTimesWatched: 2,
         firstViewedDate: '',
         lastViewedDate: '',
@@ -926,6 +1008,7 @@ export const ronanSeries: UserSeries = [
       {
         seasonNumber: 3,
         seasonRating: 5,
+        watching: false,
         seasonTimesWatched: 3,
         firstViewedDate: '',
         lastViewedDate: '',
@@ -947,6 +1030,7 @@ export const ronanSeries: UserSeries = [
       {
         seasonNumber: 1,
         seasonRating: 3,
+        watching: false,
         seasonTimesWatched: 1,
         firstViewedDate: '',
 
@@ -957,6 +1041,7 @@ export const ronanSeries: UserSeries = [
       {
         seasonNumber: 2,
         seasonRating: 4,
+        watching: false,
         seasonTimesWatched: 1,
         firstViewedDate: '',
 
@@ -979,6 +1064,7 @@ export const ronanSeries: UserSeries = [
       {
         seasonNumber: 1,
         seasonRating: 2.5,
+        watching: false,
         seasonTimesWatched: 1,
         firstViewedDate: '',
         lastViewedDate: '',
@@ -988,6 +1074,7 @@ export const ronanSeries: UserSeries = [
       {
         seasonNumber: 2,
         seasonRating: 2.5,
+        watching: false,
         seasonTimesWatched: 1,
         firstViewedDate: '',
         lastViewedDate: '',
@@ -997,6 +1084,7 @@ export const ronanSeries: UserSeries = [
       {
         seasonNumber: 3,
         seasonRating: 2.5,
+        watching: false,
         seasonTimesWatched: 1,
         firstViewedDate: '',
         lastViewedDate: '',
@@ -1018,6 +1106,7 @@ export const ronanSeries: UserSeries = [
       {
         seasonNumber: 1,
         seasonRating: 3,
+        watching: false,
         seasonTimesWatched: 1,
         firstViewedDate: '',
         lastViewedDate: '',
@@ -1027,6 +1116,7 @@ export const ronanSeries: UserSeries = [
       {
         seasonNumber: 2,
         seasonRating: 2.5,
+        watching: false,
         seasonTimesWatched: 1,
         firstViewedDate: '',
         lastViewedDate: '',
@@ -1048,6 +1138,7 @@ export const ronanSeries: UserSeries = [
       {
         seasonNumber: 1,
         seasonRating: 3,
+        watching: false,
         seasonTimesWatched: 1,
         firstViewedDate: '',
         lastViewedDate: '',
@@ -1057,6 +1148,7 @@ export const ronanSeries: UserSeries = [
       {
         seasonNumber: 2,
         seasonRating: 2.5,
+        watching: false,
         seasonTimesWatched: 1,
         firstViewedDate: '',
         lastViewedDate: '',
@@ -1078,6 +1170,7 @@ export const ronanSeries: UserSeries = [
       {
         seasonNumber: 1,
         seasonRating: 3,
+        watching: false,
         seasonTimesWatched: 2,
         firstViewedDate: '',
         lastViewedDate: '',
@@ -1099,6 +1192,7 @@ export const ronanSeries: UserSeries = [
       {
         seasonNumber: 1,
         seasonRating: 3.5,
+        watching: false,
         seasonTimesWatched: 1,
         firstViewedDate: '',
         lastViewedDate: '',
@@ -1108,6 +1202,7 @@ export const ronanSeries: UserSeries = [
       {
         seasonNumber: 2,
         seasonRating: 3,
+        watching: false,
         seasonTimesWatched: 1,
         firstViewedDate: '',
         lastViewedDate: '',
@@ -1129,6 +1224,7 @@ export const ronanSeries: UserSeries = [
       {
         seasonNumber: 1,
         seasonRating: 4,
+        watching: false,
         seasonTimesWatched: 1,
         firstViewedDate: '',
         lastViewedDate: '',
@@ -1138,6 +1234,7 @@ export const ronanSeries: UserSeries = [
       {
         seasonNumber: 2,
         seasonRating: 4,
+        watching: false,
         seasonTimesWatched: 1,
         firstViewedDate: '',
         lastViewedDate: '',
@@ -1147,6 +1244,7 @@ export const ronanSeries: UserSeries = [
       {
         seasonNumber: 3,
         seasonRating: 3.5,
+        watching: false,
         seasonTimesWatched: 1,
         firstViewedDate: '',
         lastViewedDate: '',
@@ -1156,6 +1254,7 @@ export const ronanSeries: UserSeries = [
       {
         seasonNumber: 4,
         seasonRating: 2.5,
+        watching: false,
         seasonTimesWatched: 1,
         firstViewedDate: '',
         lastViewedDate: '',
@@ -1177,6 +1276,7 @@ export const ronanSeries: UserSeries = [
       {
         seasonNumber: 1,
         seasonRating: 3.5,
+        watching: false,
         seasonTimesWatched: 1,
         firstViewedDate: '',
         lastViewedDate: '',
@@ -1198,6 +1298,7 @@ export const ronanSeries: UserSeries = [
       {
         seasonNumber: 1,
         seasonRating: 4.5,
+        watching: false,
         seasonTimesWatched: 1,
         firstViewedDate: '',
         lastViewedDate: '',
@@ -1207,6 +1308,7 @@ export const ronanSeries: UserSeries = [
       {
         seasonNumber: 2,
         seasonRating: 4.5,
+        watching: false,
         seasonTimesWatched: 1,
         firstViewedDate: '',
         lastViewedDate: '',
@@ -1216,6 +1318,7 @@ export const ronanSeries: UserSeries = [
       {
         seasonNumber: 3,
         seasonRating: 4.5,
+        watching: false,
         seasonTimesWatched: 1,
         firstViewedDate: '',
         lastViewedDate: '',
@@ -1225,6 +1328,7 @@ export const ronanSeries: UserSeries = [
       {
         seasonNumber: 4,
         seasonRating: 4.5,
+        watching: false,
         seasonTimesWatched: 1,
         firstViewedDate: '',
         lastViewedDate: '',
@@ -1234,6 +1338,7 @@ export const ronanSeries: UserSeries = [
       {
         seasonNumber: 5,
         seasonRating: 4.5,
+        watching: false,
         seasonTimesWatched: 1,
         firstViewedDate: '',
         lastViewedDate: '',
@@ -1243,6 +1348,7 @@ export const ronanSeries: UserSeries = [
       {
         seasonNumber: 6,
         seasonRating: 4.5,
+        watching: false,
         seasonTimesWatched: 1,
         firstViewedDate: '',
         lastViewedDate: '',
@@ -1252,6 +1358,7 @@ export const ronanSeries: UserSeries = [
       {
         seasonNumber: 7,
         seasonRating: 4.5,
+        watching: false,
         seasonTimesWatched: 1,
         firstViewedDate: '',
         lastViewedDate: '',
@@ -1261,6 +1368,7 @@ export const ronanSeries: UserSeries = [
       {
         seasonNumber: 8,
         seasonRating: 4,
+        watching: false,
         seasonTimesWatched: 1,
         firstViewedDate: '',
         lastViewedDate: '',
@@ -1282,6 +1390,7 @@ export const ronanSeries: UserSeries = [
       {
         seasonNumber: 1,
         seasonRating: 3,
+        watching: false,
         seasonTimesWatched: 1,
         firstViewedDate: '',
         lastViewedDate: '',
@@ -1291,6 +1400,7 @@ export const ronanSeries: UserSeries = [
       {
         seasonNumber: 2,
         seasonRating: 3,
+        watching: false,
         seasonTimesWatched: 1,
         firstViewedDate: '',
         lastViewedDate: '',
@@ -1312,6 +1422,7 @@ export const ronanSeries: UserSeries = [
       {
         seasonNumber: 1,
         seasonRating: 4.5,
+        watching: false,
         seasonTimesWatched: 1,
         firstViewedDate: '',
         lastViewedDate: '',
@@ -1321,6 +1432,7 @@ export const ronanSeries: UserSeries = [
       {
         seasonNumber: 2,
         seasonRating: 4.5,
+        watching: false,
         seasonTimesWatched: 1,
         firstViewedDate: '',
         lastViewedDate: '',
@@ -1342,6 +1454,7 @@ export const ronanSeries: UserSeries = [
       {
         seasonNumber: 1,
         seasonRating: 3,
+        watching: false,
         seasonTimesWatched: 1,
         firstViewedDate: '',
         lastViewedDate: '',
@@ -1363,6 +1476,7 @@ export const ronanSeries: UserSeries = [
       {
         seasonNumber: 1,
         seasonRating: 4,
+        watching: false,
         seasonTimesWatched: 2,
         firstViewedDate: '',
         lastViewedDate: '',
@@ -1372,6 +1486,7 @@ export const ronanSeries: UserSeries = [
       {
         seasonNumber: 2,
         seasonRating: 4.5,
+        watching: false,
         seasonTimesWatched: 2,
         firstViewedDate: '',
         lastViewedDate: '',
@@ -1381,6 +1496,7 @@ export const ronanSeries: UserSeries = [
       {
         seasonNumber: 3,
         seasonRating: 2.5,
+        watching: false,
         seasonTimesWatched: 2,
         firstViewedDate: '',
         lastViewedDate: '',
@@ -1390,6 +1506,7 @@ export const ronanSeries: UserSeries = [
       {
         seasonNumber: 4,
         seasonRating: 2.5,
+        watching: false,
         seasonTimesWatched: 2,
         firstViewedDate: '',
         lastViewedDate: '',
@@ -1399,6 +1516,7 @@ export const ronanSeries: UserSeries = [
       {
         seasonNumber: 5,
         seasonRating: 3.5,
+        watching: false,
         seasonTimesWatched: 2,
         firstViewedDate: '',
         lastViewedDate: '',
@@ -1408,6 +1526,7 @@ export const ronanSeries: UserSeries = [
       {
         seasonNumber: 6,
         seasonRating: 2.5,
+        watching: false,
         seasonTimesWatched: 2,
         firstViewedDate: '',
         lastViewedDate: '',
@@ -1417,6 +1536,7 @@ export const ronanSeries: UserSeries = [
       {
         seasonNumber: 7,
         seasonRating: 3,
+        watching: false,
         seasonTimesWatched: 2,
         firstViewedDate: '',
         lastViewedDate: '',
@@ -1426,6 +1546,7 @@ export const ronanSeries: UserSeries = [
       {
         seasonNumber: 8,
         seasonRating: 3,
+        watching: false,
         seasonTimesWatched: 2,
         firstViewedDate: '',
         lastViewedDate: '',
@@ -1447,6 +1568,7 @@ export const ronanSeries: UserSeries = [
       {
         seasonNumber: 1,
         seasonRating: 4.5,
+        watching: false,
         seasonTimesWatched: 1,
         firstViewedDate: '',
         lastViewedDate: '',
@@ -1456,6 +1578,7 @@ export const ronanSeries: UserSeries = [
       {
         seasonNumber: 2,
         seasonRating: 4,
+        watching: false,
         seasonTimesWatched: 1,
         firstViewedDate: '',
         lastViewedDate: '',
@@ -1465,6 +1588,7 @@ export const ronanSeries: UserSeries = [
       {
         seasonNumber: 3,
         seasonRating: 3.5,
+        watching: false,
         seasonTimesWatched: 1,
         firstViewedDate: '',
         lastViewedDate: '',
@@ -1474,6 +1598,7 @@ export const ronanSeries: UserSeries = [
       {
         seasonNumber: 4,
         seasonRating: 2.5,
+        watching: false,
         seasonTimesWatched: 1,
         firstViewedDate: '',
         lastViewedDate: '',
@@ -1483,6 +1608,7 @@ export const ronanSeries: UserSeries = [
       {
         seasonNumber: 5,
         seasonRating: 2.5,
+        watching: false,
         seasonTimesWatched: 1,
         firstViewedDate: '',
         lastViewedDate: '',
@@ -1492,6 +1618,7 @@ export const ronanSeries: UserSeries = [
       {
         seasonNumber: 6,
         seasonRating: 2.5,
+        watching: false,
         seasonTimesWatched: 1,
         firstViewedDate: '',
         lastViewedDate: '',
@@ -1501,6 +1628,7 @@ export const ronanSeries: UserSeries = [
       {
         seasonNumber: 7,
         seasonRating: 2,
+        watching: false,
         seasonTimesWatched: 1,
         firstViewedDate: '',
         lastViewedDate: '',
@@ -1510,6 +1638,7 @@ export const ronanSeries: UserSeries = [
       {
         seasonNumber: 8,
         seasonRating: 2,
+        watching: false,
         seasonTimesWatched: 1,
         firstViewedDate: '',
         lastViewedDate: '',
@@ -1519,6 +1648,7 @@ export const ronanSeries: UserSeries = [
       {
         seasonNumber: 9,
         seasonRating: 2,
+        watching: false,
         seasonTimesWatched: 1,
         firstViewedDate: '',
         lastViewedDate: '',
@@ -1540,6 +1670,7 @@ export const ronanSeries: UserSeries = [
       {
         seasonNumber: 1,
         seasonRating: 3,
+        watching: false,
         seasonTimesWatched: 1,
         firstViewedDate: '',
         lastViewedDate: '',
@@ -1549,6 +1680,7 @@ export const ronanSeries: UserSeries = [
       {
         seasonNumber: 2,
         seasonRating: 3,
+        watching: false,
         seasonTimesWatched: 1,
         firstViewedDate: '',
         lastViewedDate: '',
@@ -1558,6 +1690,7 @@ export const ronanSeries: UserSeries = [
       {
         seasonNumber: 3,
         seasonRating: 3,
+        watching: false,
         seasonTimesWatched: 1,
         firstViewedDate: '',
         lastViewedDate: '',
@@ -1567,6 +1700,7 @@ export const ronanSeries: UserSeries = [
       {
         seasonNumber: 4,
         seasonRating: 3,
+        watching: false,
         seasonTimesWatched: 1,
         firstViewedDate: '',
         lastViewedDate: '',
@@ -1588,6 +1722,7 @@ export const ronanSeries: UserSeries = [
       {
         seasonNumber: 1,
         seasonRating: 4,
+        watching: false,
         seasonTimesWatched: 1,
         firstViewedDate: '',
         lastViewedDate: '',
@@ -1597,6 +1732,7 @@ export const ronanSeries: UserSeries = [
       {
         seasonNumber: 2,
         seasonRating: 3,
+        watching: false,
         seasonTimesWatched: 1,
         firstViewedDate: '',
         lastViewedDate: '',
@@ -1606,6 +1742,7 @@ export const ronanSeries: UserSeries = [
       {
         seasonNumber: 3,
         seasonRating: 3.5,
+        watching: false,
         seasonTimesWatched: 1,
         firstViewedDate: '',
         lastViewedDate: '',
@@ -1615,6 +1752,7 @@ export const ronanSeries: UserSeries = [
       {
         seasonNumber: 4,
         seasonRating: 3,
+        watching: false,
         seasonTimesWatched: 1,
         firstViewedDate: '',
         lastViewedDate: '',
@@ -1624,6 +1762,7 @@ export const ronanSeries: UserSeries = [
       {
         seasonNumber: 5,
         seasonRating: 3.5,
+        watching: false,
         seasonTimesWatched: 1,
         firstViewedDate: '',
         lastViewedDate: '',
@@ -1633,6 +1772,7 @@ export const ronanSeries: UserSeries = [
       {
         seasonNumber: 6,
         seasonRating: 2.5,
+        watching: false,
         seasonTimesWatched: 1,
         firstViewedDate: '',
         lastViewedDate: '',
@@ -1654,6 +1794,7 @@ export const ronanSeries: UserSeries = [
       {
         seasonNumber: 1,
         seasonRating: 3.5,
+        watching: false,
         seasonTimesWatched: 1,
         firstViewedDate: '',
         lastViewedDate: '',
@@ -1663,6 +1804,7 @@ export const ronanSeries: UserSeries = [
       {
         seasonNumber: 2,
         seasonRating: 3.5,
+        watching: false,
         seasonTimesWatched: 1,
         firstViewedDate: '',
         lastViewedDate: '',
@@ -1684,6 +1826,7 @@ export const ronanSeries: UserSeries = [
       {
         seasonNumber: 1,
         seasonRating: 3.5,
+        watching: false,
         seasonTimesWatched: 1,
         firstViewedDate: '',
         lastViewedDate: '',
@@ -1693,6 +1836,7 @@ export const ronanSeries: UserSeries = [
       {
         seasonNumber: 2,
         seasonRating: 3.5,
+        watching: false,
         seasonTimesWatched: 1,
         firstViewedDate: '',
         lastViewedDate: '',
@@ -1702,6 +1846,7 @@ export const ronanSeries: UserSeries = [
       {
         seasonNumber: 3,
         seasonRating: 3.5,
+        watching: false,
         seasonTimesWatched: 1,
         firstViewedDate: '',
         lastViewedDate: '',
@@ -1711,6 +1856,7 @@ export const ronanSeries: UserSeries = [
       {
         seasonNumber: 4,
         seasonRating: 3.5,
+        watching: false,
         seasonTimesWatched: 1,
         firstViewedDate: '',
         lastViewedDate: '',
@@ -1720,6 +1866,7 @@ export const ronanSeries: UserSeries = [
       {
         seasonNumber: 5,
         seasonRating: 3.5,
+        watching: false,
         seasonTimesWatched: 1,
         firstViewedDate: '',
         lastViewedDate: '',
@@ -1729,6 +1876,7 @@ export const ronanSeries: UserSeries = [
       {
         seasonNumber: 6,
         seasonRating: 3.5,
+        watching: false,
         seasonTimesWatched: 1,
         firstViewedDate: '',
         lastViewedDate: '',
@@ -1738,6 +1886,7 @@ export const ronanSeries: UserSeries = [
       {
         seasonNumber: 7,
         seasonRating: 3.5,
+        watching: false,
         seasonTimesWatched: 1,
         firstViewedDate: '',
         lastViewedDate: '',
@@ -1747,6 +1896,7 @@ export const ronanSeries: UserSeries = [
       {
         seasonNumber: 8,
         seasonRating: 0,
+        watching: false,
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
@@ -1768,6 +1918,7 @@ export const ronanSeries: UserSeries = [
       {
         seasonNumber: 1,
         seasonRating: 4.5,
+        watching: false,
         seasonTimesWatched: 1,
         firstViewedDate: '',
         lastViewedDate: '',
@@ -1777,6 +1928,7 @@ export const ronanSeries: UserSeries = [
       {
         seasonNumber: 2,
         seasonRating: 4.5,
+        watching: false,
         seasonTimesWatched: 1,
         firstViewedDate: '',
         lastViewedDate: '',
@@ -1798,6 +1950,7 @@ export const ronanSeries: UserSeries = [
       {
         seasonNumber: 1,
         seasonRating: 2,
+        watching: false,
         seasonTimesWatched: 1,
         firstViewedDate: '',
         lastViewedDate: '',
@@ -1807,6 +1960,7 @@ export const ronanSeries: UserSeries = [
       {
         seasonNumber: 2,
         seasonRating: 2,
+        watching: false,
         seasonTimesWatched: 1,
         firstViewedDate: '',
         lastViewedDate: '',
@@ -1828,6 +1982,7 @@ export const ronanSeries: UserSeries = [
       {
         seasonNumber: 1,
         seasonRating: 4,
+        watching: false,
         seasonTimesWatched: 1,
         firstViewedDate: '',
         lastViewedDate: '',
@@ -1837,6 +1992,7 @@ export const ronanSeries: UserSeries = [
       {
         seasonNumber: 2,
         seasonRating: 4,
+        watching: false,
         seasonTimesWatched: 1,
         firstViewedDate: '',
         lastViewedDate: '',
@@ -1846,6 +2002,7 @@ export const ronanSeries: UserSeries = [
       {
         seasonNumber: 3,
         seasonRating: 4,
+        watching: false,
         seasonTimesWatched: 1,
         firstViewedDate: '',
         lastViewedDate: '',
@@ -1855,6 +2012,7 @@ export const ronanSeries: UserSeries = [
       {
         seasonNumber: 4,
         seasonRating: 4,
+        watching: false,
         seasonTimesWatched: 1,
         firstViewedDate: '',
         lastViewedDate: '',
@@ -1876,6 +2034,7 @@ export const ronanSeries: UserSeries = [
       {
         seasonNumber: 1,
         seasonRating: 3,
+        watching: false,
         seasonTimesWatched: 1,
         firstViewedDate: '',
         lastViewedDate: '',
@@ -1885,6 +2044,7 @@ export const ronanSeries: UserSeries = [
       {
         seasonNumber: 2,
         seasonRating: 3,
+        watching: false,
         seasonTimesWatched: 1,
         firstViewedDate: '',
         lastViewedDate: '',
@@ -1894,6 +2054,7 @@ export const ronanSeries: UserSeries = [
       {
         seasonNumber: 3,
         seasonRating: 2.5,
+        watching: false,
         seasonTimesWatched: 1,
         firstViewedDate: '',
         lastViewedDate: '',
@@ -1915,6 +2076,7 @@ export const ronanSeries: UserSeries = [
       {
         seasonNumber: 1,
         seasonRating: 2,
+        watching: false,
         seasonTimesWatched: 1,
         firstViewedDate: '',
         lastViewedDate: '',
@@ -1936,6 +2098,7 @@ export const ronanSeries: UserSeries = [
       {
         seasonNumber: 1,
         seasonRating: 2.5,
+        watching: false,
         seasonTimesWatched: 1,
         firstViewedDate: '',
         lastViewedDate: '',
@@ -1945,6 +2108,7 @@ export const ronanSeries: UserSeries = [
       {
         seasonNumber: 2,
         seasonRating: 2.5,
+        watching: false,
         seasonTimesWatched: 1,
         firstViewedDate: '',
         lastViewedDate: '',
@@ -1966,6 +2130,7 @@ export const ronanSeries: UserSeries = [
       {
         seasonNumber: 1,
         seasonRating: 4,
+        watching: false,
         seasonTimesWatched: 2,
         firstViewedDate: '',
         lastViewedDate: '',
@@ -1975,6 +2140,7 @@ export const ronanSeries: UserSeries = [
       {
         seasonNumber: 2,
         seasonRating: 4.5,
+        watching: false,
         seasonTimesWatched: 2,
         firstViewedDate: '',
         lastViewedDate: '',
@@ -1984,6 +2150,7 @@ export const ronanSeries: UserSeries = [
       {
         seasonNumber: 3,
         seasonRating: 4.5,
+        watching: false,
         seasonTimesWatched: 2,
         firstViewedDate: '',
         lastViewedDate: '',
@@ -1993,6 +2160,7 @@ export const ronanSeries: UserSeries = [
       {
         seasonNumber: 4,
         seasonRating: 5,
+        watching: false,
         seasonTimesWatched: 2,
         firstViewedDate: '',
         lastViewedDate: '',
@@ -2002,6 +2170,7 @@ export const ronanSeries: UserSeries = [
       {
         seasonNumber: 5,
         seasonRating: 4,
+        watching: false,
         seasonTimesWatched: 2,
         firstViewedDate: '',
         lastViewedDate: '',
@@ -2011,6 +2180,7 @@ export const ronanSeries: UserSeries = [
       {
         seasonNumber: 6,
         seasonRating: 3,
+        watching: false,
         seasonTimesWatched: 1,
         firstViewedDate: '',
         lastViewedDate: '',
@@ -2020,6 +2190,7 @@ export const ronanSeries: UserSeries = [
       {
         seasonNumber: 7,
         seasonRating: 3,
+        watching: false,
         seasonTimesWatched: 1,
         firstViewedDate: '',
         lastViewedDate: '',
@@ -2041,6 +2212,7 @@ export const ronanSeries: UserSeries = [
       {
         seasonNumber: 1,
         seasonRating: 2.5,
+        watching: false,
         seasonTimesWatched: 1,
         firstViewedDate: '',
         lastViewedDate: '',
@@ -2062,6 +2234,7 @@ export const ronanSeries: UserSeries = [
       {
         seasonNumber: 1,
         seasonRating: 4,
+        watching: false,
         seasonTimesWatched: 1,
         firstViewedDate: '',
         lastViewedDate: '',
@@ -2071,6 +2244,7 @@ export const ronanSeries: UserSeries = [
       {
         seasonNumber: 2,
         seasonRating: 2.5,
+        watching: false,
         seasonTimesWatched: 1,
         firstViewedDate: '',
         lastViewedDate: '',
@@ -2092,6 +2266,7 @@ export const ronanSeries: UserSeries = [
       {
         seasonNumber: 1,
         seasonRating: 4,
+        watching: false,
         seasonTimesWatched: 3,
         firstViewedDate: '',
         lastViewedDate: '',
@@ -2101,6 +2276,7 @@ export const ronanSeries: UserSeries = [
       {
         seasonNumber: 2,
         seasonRating: 4,
+        watching: false,
         seasonTimesWatched: 3,
         firstViewedDate: '',
         lastViewedDate: '',
@@ -2110,6 +2286,7 @@ export const ronanSeries: UserSeries = [
       {
         seasonNumber: 3,
         seasonRating: 4,
+        watching: false,
         seasonTimesWatched: 3,
         firstViewedDate: '',
         lastViewedDate: '',
@@ -2131,6 +2308,7 @@ export const ronanSeries: UserSeries = [
       {
         seasonNumber: 1,
         seasonRating: 2.5,
+        watching: false,
         seasonTimesWatched: 1,
         firstViewedDate: '',
         lastViewedDate: '',
@@ -2140,6 +2318,7 @@ export const ronanSeries: UserSeries = [
       {
         seasonNumber: 2,
         seasonRating: 2.5,
+        watching: false,
         seasonTimesWatched: 1,
         firstViewedDate: '',
         lastViewedDate: '',
@@ -2149,6 +2328,7 @@ export const ronanSeries: UserSeries = [
       {
         seasonNumber: 3,
         seasonRating: 2.5,
+        watching: false,
         seasonTimesWatched: 1,
         firstViewedDate: '',
         lastViewedDate: '',
@@ -2170,6 +2350,7 @@ export const ronanSeries: UserSeries = [
       {
         seasonNumber: 1,
         seasonRating: 4,
+        watching: false,
         seasonTimesWatched: 3,
         firstViewedDate: '',
         lastViewedDate: '',
@@ -2191,6 +2372,7 @@ export const ronanSeries: UserSeries = [
       {
         seasonNumber: 1,
         seasonRating: 3.5,
+        watching: false,
         seasonTimesWatched: 1,
         firstViewedDate: '',
         lastViewedDate: '',
@@ -2212,6 +2394,7 @@ export const ronanSeries: UserSeries = [
       {
         seasonNumber: 1,
         seasonRating: 3.5,
+        watching: false,
         seasonTimesWatched: 1,
         firstViewedDate: '',
         lastViewedDate: '',
@@ -2221,6 +2404,7 @@ export const ronanSeries: UserSeries = [
       {
         seasonNumber: 2,
         seasonRating: 3.5,
+        watching: false,
         seasonTimesWatched: 1,
         firstViewedDate: '',
         lastViewedDate: '',
@@ -2242,6 +2426,7 @@ export const ronanSeries: UserSeries = [
       {
         seasonNumber: 1,
         seasonRating: 4.5,
+        watching: false,
         seasonTimesWatched: 2,
         firstViewedDate: '',
         lastViewedDate: '',
@@ -2251,6 +2436,7 @@ export const ronanSeries: UserSeries = [
       {
         seasonNumber: 2,
         seasonRating: 4.5,
+        watching: false,
         seasonTimesWatched: 2,
         firstViewedDate: '',
         lastViewedDate: '',
@@ -2260,6 +2446,7 @@ export const ronanSeries: UserSeries = [
       {
         seasonNumber: 3,
         seasonRating: 4.5,
+        watching: false,
         seasonTimesWatched: 2,
         firstViewedDate: '',
         lastViewedDate: '',
@@ -2269,6 +2456,7 @@ export const ronanSeries: UserSeries = [
       {
         seasonNumber: 4,
         seasonRating: 4.5,
+        watching: false,
         seasonTimesWatched: 2,
         firstViewedDate: '',
         lastViewedDate: '',
@@ -2278,6 +2466,7 @@ export const ronanSeries: UserSeries = [
       {
         seasonNumber: 5,
         seasonRating: 3,
+        watching: false,
         seasonTimesWatched: 1,
         firstViewedDate: '',
         lastViewedDate: '',
@@ -2287,6 +2476,7 @@ export const ronanSeries: UserSeries = [
       {
         seasonNumber: 6,
         seasonRating: 3,
+        watching: false,
         seasonTimesWatched: 1,
         firstViewedDate: '',
         lastViewedDate: '',
@@ -2308,6 +2498,7 @@ export const ronanSeries: UserSeries = [
       {
         seasonNumber: 1,
         seasonRating: 2.5,
+        watching: false,
         seasonTimesWatched: 1,
         firstViewedDate: '',
         lastViewedDate: '',
@@ -2329,6 +2520,7 @@ export const ronanSeries: UserSeries = [
       {
         seasonNumber: 1,
         seasonRating: 4,
+        watching: false,
         seasonTimesWatched: 2,
         firstViewedDate: '',
         lastViewedDate: '',
@@ -2350,6 +2542,7 @@ export const ronanSeries: UserSeries = [
       {
         seasonNumber: 1,
         seasonRating: 3.5,
+        watching: false,
         seasonTimesWatched: 1,
         firstViewedDate: '',
         lastViewedDate: '',
@@ -2359,6 +2552,7 @@ export const ronanSeries: UserSeries = [
       {
         seasonNumber: 2,
         seasonRating: 3.5,
+        watching: false,
         seasonTimesWatched: 1,
         firstViewedDate: '',
         lastViewedDate: '',
@@ -2368,6 +2562,7 @@ export const ronanSeries: UserSeries = [
       {
         seasonNumber: 3,
         seasonRating: 3.5,
+        watching: false,
         seasonTimesWatched: 1,
         firstViewedDate: '',
         lastViewedDate: '',
@@ -2377,6 +2572,7 @@ export const ronanSeries: UserSeries = [
       {
         seasonNumber: 4,
         seasonRating: 3.5,
+        watching: false,
         seasonTimesWatched: 1,
         firstViewedDate: '',
         lastViewedDate: '',
@@ -2386,6 +2582,7 @@ export const ronanSeries: UserSeries = [
       {
         seasonNumber: 5,
         seasonRating: 3.5,
+        watching: false,
         seasonTimesWatched: 1,
         firstViewedDate: '',
         lastViewedDate: '',
@@ -2395,6 +2592,7 @@ export const ronanSeries: UserSeries = [
       {
         seasonNumber: 6,
         seasonRating: 3.5,
+        watching: false,
         seasonTimesWatched: 1,
         firstViewedDate: '',
         lastViewedDate: '',
@@ -2404,6 +2602,7 @@ export const ronanSeries: UserSeries = [
       {
         seasonNumber: 7,
         seasonRating: 3.5,
+        watching: false,
         seasonTimesWatched: 1,
         firstViewedDate: '',
         lastViewedDate: '',
@@ -2413,6 +2612,7 @@ export const ronanSeries: UserSeries = [
       {
         seasonNumber: 8,
         seasonRating: 3.5,
+        watching: false,
         seasonTimesWatched: 1,
         firstViewedDate: '',
         lastViewedDate: '',
@@ -2434,6 +2634,7 @@ export const ronanSeries: UserSeries = [
       {
         seasonNumber: 1,
         seasonRating: 4,
+        watching: false,
         seasonTimesWatched: 3,
         firstViewedDate: '',
         lastViewedDate: '',
@@ -2443,6 +2644,7 @@ export const ronanSeries: UserSeries = [
       {
         seasonNumber: 2,
         seasonRating: 4,
+        watching: false,
         seasonTimesWatched: 3,
         firstViewedDate: '',
         lastViewedDate: '',
@@ -2452,6 +2654,7 @@ export const ronanSeries: UserSeries = [
       {
         seasonNumber: 3,
         seasonRating: 4,
+        watching: false,
         seasonTimesWatched: 3,
         firstViewedDate: '',
         lastViewedDate: '',
@@ -2461,6 +2664,7 @@ export const ronanSeries: UserSeries = [
       {
         seasonNumber: 4,
         seasonRating: 4.5,
+        watching: false,
         seasonTimesWatched: 3,
         firstViewedDate: '',
         lastViewedDate: '',
@@ -2470,6 +2674,7 @@ export const ronanSeries: UserSeries = [
       {
         seasonNumber: 5,
         seasonRating: 3.5,
+        watching: false,
         seasonTimesWatched: 3,
         firstViewedDate: '',
         lastViewedDate: '',
@@ -2479,6 +2684,7 @@ export const ronanSeries: UserSeries = [
       {
         seasonNumber: 6,
         seasonRating: 4,
+        watching: false,
         seasonTimesWatched: 3,
         firstViewedDate: '',
         lastViewedDate: '',
@@ -2488,6 +2694,7 @@ export const ronanSeries: UserSeries = [
       {
         seasonNumber: 7,
         seasonRating: 3.5,
+        watching: false,
         seasonTimesWatched: 3,
         firstViewedDate: '',
         lastViewedDate: '',
@@ -2497,6 +2704,7 @@ export const ronanSeries: UserSeries = [
       {
         seasonNumber: 8,
         seasonRating: 3.5,
+        watching: false,
         seasonTimesWatched: 1,
         firstViewedDate: '',
         lastViewedDate: '',
@@ -2518,6 +2726,7 @@ export const ronanSeries: UserSeries = [
       {
         seasonNumber: 1,
         seasonRating: 3.5,
+        watching: false,
         seasonTimesWatched: 1,
         firstViewedDate: '',
         lastViewedDate: '',
@@ -2527,6 +2736,7 @@ export const ronanSeries: UserSeries = [
       {
         seasonNumber: 2,
         seasonRating: 3.5,
+        watching: false,
         seasonTimesWatched: 1,
         firstViewedDate: '',
         lastViewedDate: '',
@@ -2536,6 +2746,7 @@ export const ronanSeries: UserSeries = [
       {
         seasonNumber: 3,
         seasonRating: 3.5,
+        watching: false,
         seasonTimesWatched: 1,
         firstViewedDate: '',
         lastViewedDate: '',
@@ -2557,6 +2768,7 @@ export const ronanSeries: UserSeries = [
       {
         seasonNumber: 1,
         seasonRating: 4.5,
+        watching: false,
         seasonTimesWatched: 2,
         firstViewedDate: '',
         lastViewedDate: '',
@@ -2566,6 +2778,7 @@ export const ronanSeries: UserSeries = [
       {
         seasonNumber: 2,
         seasonRating: 4.5,
+        watching: false,
         seasonTimesWatched: 2,
         firstViewedDate: '',
         lastViewedDate: '',
@@ -2575,6 +2788,7 @@ export const ronanSeries: UserSeries = [
       {
         seasonNumber: 3,
         seasonRating: 4.5,
+        watching: false,
         seasonTimesWatched: 2,
         firstViewedDate: '',
         lastViewedDate: '',
@@ -2584,6 +2798,7 @@ export const ronanSeries: UserSeries = [
       {
         seasonNumber: 4,
         seasonRating: 4.5,
+        watching: false,
         seasonTimesWatched: 2,
         firstViewedDate: '',
         lastViewedDate: '',
@@ -2593,6 +2808,7 @@ export const ronanSeries: UserSeries = [
       {
         seasonNumber: 5,
         seasonRating: 4.5,
+        watching: false,
         seasonTimesWatched: 2,
         firstViewedDate: '',
         lastViewedDate: '',
@@ -2602,6 +2818,7 @@ export const ronanSeries: UserSeries = [
       {
         seasonNumber: 6,
         seasonRating: 4.5,
+        watching: false,
         seasonTimesWatched: 2,
         firstViewedDate: '',
         lastViewedDate: '',
@@ -2611,6 +2828,7 @@ export const ronanSeries: UserSeries = [
       {
         seasonNumber: 7,
         seasonRating: 4,
+        watching: false,
         seasonTimesWatched: 2,
         firstViewedDate: '',
         lastViewedDate: '',
@@ -2620,6 +2838,7 @@ export const ronanSeries: UserSeries = [
       {
         seasonNumber: 8,
         seasonRating: 3.5,
+        watching: false,
         seasonTimesWatched: 1,
         firstViewedDate: '',
         lastViewedDate: '',
@@ -2641,6 +2860,7 @@ export const ronanSeries: UserSeries = [
       {
         seasonNumber: 1,
         seasonRating: 3.5,
+        watching: false,
         seasonTimesWatched: 1,
         firstViewedDate: '',
         lastViewedDate: '',
@@ -2650,6 +2870,7 @@ export const ronanSeries: UserSeries = [
       {
         seasonNumber: 2,
         seasonRating: 4,
+        watching: false,
         seasonTimesWatched: 1,
         firstViewedDate: '',
         lastViewedDate: '',
@@ -2659,6 +2880,7 @@ export const ronanSeries: UserSeries = [
       {
         seasonNumber: 3,
         seasonRating: 4,
+        watching: false,
         seasonTimesWatched: 1,
         firstViewedDate: '',
         lastViewedDate: '',
@@ -2668,6 +2890,7 @@ export const ronanSeries: UserSeries = [
       {
         seasonNumber: 4,
         seasonRating: 3.5,
+        watching: false,
         seasonTimesWatched: 1,
         firstViewedDate: '',
         lastViewedDate: '',
@@ -2677,6 +2900,7 @@ export const ronanSeries: UserSeries = [
       {
         seasonNumber: 5,
         seasonRating: 3.5,
+        watching: false,
         seasonTimesWatched: 1,
         firstViewedDate: '',
         lastViewedDate: '',
@@ -2698,6 +2922,7 @@ export const ronanSeries: UserSeries = [
       {
         seasonNumber: 1,
         seasonRating: 3.5,
+        watching: false,
         seasonTimesWatched: 1,
         firstViewedDate: '',
         lastViewedDate: '',
@@ -2719,6 +2944,7 @@ export const ronanSeries: UserSeries = [
       {
         seasonNumber: 1,
         seasonRating: 4,
+        watching: false,
         seasonTimesWatched: 2,
         firstViewedDate: '',
         lastViewedDate: '',
@@ -2728,6 +2954,7 @@ export const ronanSeries: UserSeries = [
       {
         seasonNumber: 2,
         seasonRating: 3.5,
+        watching: false,
         seasonTimesWatched: 2,
         firstViewedDate: '',
         lastViewedDate: '',
@@ -2737,6 +2964,7 @@ export const ronanSeries: UserSeries = [
       {
         seasonNumber: 3,
         seasonRating: 2.5,
+        watching: false,
         seasonTimesWatched: 2,
         firstViewedDate: '',
         lastViewedDate: '',
@@ -2746,6 +2974,7 @@ export const ronanSeries: UserSeries = [
       {
         seasonNumber: 4,
         seasonRating: 2,
+        watching: false,
         seasonTimesWatched: 2,
         firstViewedDate: '',
         lastViewedDate: '',
@@ -2767,6 +2996,7 @@ export const ronanSeries: UserSeries = [
       {
         seasonNumber: 1,
         seasonRating: 2.5,
+        watching: false,
         seasonTimesWatched: 1,
         firstViewedDate: '',
         lastViewedDate: '',
@@ -2788,6 +3018,7 @@ export const ronanSeries: UserSeries = [
       {
         seasonNumber: 1,
         seasonRating: 0.5,
+        watching: false,
         seasonTimesWatched: 1,
         firstViewedDate: '',
         lastViewedDate: '',
@@ -2809,6 +3040,7 @@ export const ronanSeries: UserSeries = [
       {
         seasonNumber: 1,
         seasonRating: 2,
+        watching: false,
         seasonTimesWatched: 1,
         firstViewedDate: '',
         lastViewedDate: '',
@@ -2830,6 +3062,7 @@ export const ronanSeries: UserSeries = [
       {
         seasonNumber: 1,
         seasonRating: 3,
+        watching: false,
         seasonTimesWatched: 1,
         firstViewedDate: '',
         lastViewedDate: '',
@@ -2839,6 +3072,7 @@ export const ronanSeries: UserSeries = [
       {
         seasonNumber: 2,
         seasonRating: 3,
+        watching: false,
         seasonTimesWatched: 1,
         firstViewedDate: '',
         lastViewedDate: '',
@@ -2848,6 +3082,7 @@ export const ronanSeries: UserSeries = [
       {
         seasonNumber: 3,
         seasonRating: 3,
+        watching: false,
         seasonTimesWatched: 1,
         firstViewedDate: '',
         lastViewedDate: '',
@@ -2869,6 +3104,7 @@ export const ronanSeries: UserSeries = [
       {
         seasonNumber: 1,
         seasonRating: 4,
+        watching: false,
         seasonTimesWatched: 3,
         firstViewedDate: '',
         lastViewedDate: '',
@@ -2878,6 +3114,7 @@ export const ronanSeries: UserSeries = [
       {
         seasonNumber: 2,
         seasonRating: 4,
+        watching: false,
         seasonTimesWatched: 3,
         firstViewedDate: '',
         lastViewedDate: '',
@@ -2887,6 +3124,7 @@ export const ronanSeries: UserSeries = [
       {
         seasonNumber: 3,
         seasonRating: 4,
+        watching: false,
         seasonTimesWatched: 3,
         firstViewedDate: '',
         lastViewedDate: '',
@@ -2896,6 +3134,7 @@ export const ronanSeries: UserSeries = [
       {
         seasonNumber: 4,
         seasonRating: 4,
+        watching: false,
         seasonTimesWatched: 3,
         firstViewedDate: '',
         lastViewedDate: '',
@@ -2905,6 +3144,7 @@ export const ronanSeries: UserSeries = [
       {
         seasonNumber: 5,
         seasonRating: 4,
+        watching: false,
         seasonTimesWatched: 3,
         firstViewedDate: '',
         lastViewedDate: '',
@@ -2914,6 +3154,7 @@ export const ronanSeries: UserSeries = [
       {
         seasonNumber: 6,
         seasonRating: 4,
+        watching: false,
         seasonTimesWatched: 3,
         firstViewedDate: '',
         lastViewedDate: '',
@@ -2923,6 +3164,7 @@ export const ronanSeries: UserSeries = [
       {
         seasonNumber: 7,
         seasonRating: 4,
+        watching: false,
         seasonTimesWatched: 3,
         firstViewedDate: '',
         lastViewedDate: '',
@@ -2944,6 +3186,7 @@ export const ronanSeries: UserSeries = [
       {
         seasonNumber: 1,
         seasonRating: 3.5,
+        watching: false,
         seasonTimesWatched: 1,
         firstViewedDate: '',
         lastViewedDate: '',
@@ -2953,6 +3196,7 @@ export const ronanSeries: UserSeries = [
       {
         seasonNumber: 2,
         seasonRating: 4,
+        watching: false,
         seasonTimesWatched: 1,
         firstViewedDate: '',
         lastViewedDate: '',
@@ -2974,6 +3218,7 @@ export const ronanSeries: UserSeries = [
       {
         seasonNumber: 1,
         seasonRating: 4,
+        watching: false,
         seasonTimesWatched: 1,
         firstViewedDate: '',
         lastViewedDate: '',
@@ -2983,6 +3228,7 @@ export const ronanSeries: UserSeries = [
       {
         seasonNumber: 2,
         seasonRating: 4,
+        watching: false,
         seasonTimesWatched: 1,
         firstViewedDate: '',
         lastViewedDate: '',
@@ -2992,6 +3238,7 @@ export const ronanSeries: UserSeries = [
       {
         seasonNumber: 3,
         seasonRating: 3.5,
+        watching: false,
         seasonTimesWatched: 1,
         firstViewedDate: '',
         lastViewedDate: '',
@@ -3001,6 +3248,7 @@ export const ronanSeries: UserSeries = [
       {
         seasonNumber: 4,
         seasonRating: 3.5,
+        watching: false,
         seasonTimesWatched: 1,
         firstViewedDate: '',
         lastViewedDate: '',
@@ -3010,6 +3258,7 @@ export const ronanSeries: UserSeries = [
       {
         seasonNumber: 5,
         seasonRating: 3,
+        watching: false,
         seasonTimesWatched: 1,
         firstViewedDate: '',
         lastViewedDate: '',
@@ -3031,6 +3280,7 @@ export const ronanSeries: UserSeries = [
       {
         seasonNumber: 1,
         seasonRating: 3.5,
+        watching: false,
         seasonTimesWatched: 2,
         firstViewedDate: '',
         lastViewedDate: '',
@@ -3040,6 +3290,7 @@ export const ronanSeries: UserSeries = [
       {
         seasonNumber: 2,
         seasonRating: 4,
+        watching: false,
         seasonTimesWatched: 2,
         firstViewedDate: '',
         lastViewedDate: '',
@@ -3061,6 +3312,7 @@ export const ronanSeries: UserSeries = [
       {
         seasonNumber: 1,
         seasonRating: 3.5,
+        watching: false,
         seasonTimesWatched: 3,
         firstViewedDate: '',
         lastViewedDate: '',
@@ -3070,6 +3322,7 @@ export const ronanSeries: UserSeries = [
       {
         seasonNumber: 2,
         seasonRating: 3.5,
+        watching: false,
         seasonTimesWatched: 3,
         firstViewedDate: '',
         lastViewedDate: '',
@@ -3079,6 +3332,7 @@ export const ronanSeries: UserSeries = [
       {
         seasonNumber: 3,
         seasonRating: 3.5,
+        watching: false,
         seasonTimesWatched: 3,
         firstViewedDate: '',
         lastViewedDate: '',
@@ -3088,6 +3342,7 @@ export const ronanSeries: UserSeries = [
       {
         seasonNumber: 4,
         seasonRating: 3.5,
+        watching: false,
         seasonTimesWatched: 3,
         firstViewedDate: '',
         lastViewedDate: '',
@@ -3097,6 +3352,7 @@ export const ronanSeries: UserSeries = [
       {
         seasonNumber: 5,
         seasonRating: 3.5,
+        watching: false,
         seasonTimesWatched: 3,
         firstViewedDate: '',
         lastViewedDate: '',
@@ -3106,6 +3362,7 @@ export const ronanSeries: UserSeries = [
       {
         seasonNumber: 6,
         seasonRating: 3.5,
+        watching: false,
         seasonTimesWatched: 3,
         firstViewedDate: '',
         lastViewedDate: '',
@@ -3127,6 +3384,7 @@ export const ronanSeries: UserSeries = [
       {
         seasonNumber: 1,
         seasonRating: 3.5,
+        watching: false,
         seasonTimesWatched: 1,
         firstViewedDate: '',
         lastViewedDate: '',
@@ -3136,6 +3394,7 @@ export const ronanSeries: UserSeries = [
       {
         seasonNumber: 2,
         seasonRating: 3.5,
+        watching: false,
         seasonTimesWatched: 1,
         firstViewedDate: '',
         lastViewedDate: '',
@@ -3145,6 +3404,7 @@ export const ronanSeries: UserSeries = [
       {
         seasonNumber: 3,
         seasonRating: 3.5,
+        watching: false,
         seasonTimesWatched: 1,
         firstViewedDate: '',
         lastViewedDate: '',
@@ -3166,6 +3426,7 @@ export const ronanSeries: UserSeries = [
       {
         seasonNumber: 1,
         seasonRating: 3,
+        watching: false,
         seasonTimesWatched: 1,
         firstViewedDate: '',
         lastViewedDate: '',
@@ -3187,6 +3448,7 @@ export const ronanSeries: UserSeries = [
       {
         seasonNumber: 1,
         seasonRating: 3,
+        watching: false,
         seasonTimesWatched: 1,
         firstViewedDate: '',
         lastViewedDate: '',
@@ -3208,6 +3470,7 @@ export const ronanSeries: UserSeries = [
       {
         seasonNumber: 1,
         seasonRating: 4,
+        watching: false,
         seasonTimesWatched: 1,
         firstViewedDate: '',
         lastViewedDate: '',
@@ -3217,6 +3480,7 @@ export const ronanSeries: UserSeries = [
       {
         seasonNumber: 2,
         seasonRating: 4,
+        watching: false,
         seasonTimesWatched: 1,
         firstViewedDate: '',
         lastViewedDate: '',
@@ -3226,6 +3490,7 @@ export const ronanSeries: UserSeries = [
       {
         seasonNumber: 3,
         seasonRating: 4,
+        watching: false,
         seasonTimesWatched: 1,
         firstViewedDate: '',
         lastViewedDate: '',
@@ -3235,6 +3500,7 @@ export const ronanSeries: UserSeries = [
       {
         seasonNumber: 4,
         seasonRating: 4,
+        watching: false,
         seasonTimesWatched: 1,
         firstViewedDate: '',
         lastViewedDate: '',
@@ -3244,6 +3510,7 @@ export const ronanSeries: UserSeries = [
       {
         seasonNumber: 5,
         seasonRating: 4,
+        watching: false,
         seasonTimesWatched: 1,
         firstViewedDate: '',
         lastViewedDate: '',
@@ -3253,6 +3520,7 @@ export const ronanSeries: UserSeries = [
       {
         seasonNumber: 6,
         seasonRating: 4,
+        watching: false,
         seasonTimesWatched: 1,
         firstViewedDate: '',
         lastViewedDate: '',
@@ -3262,6 +3530,7 @@ export const ronanSeries: UserSeries = [
       {
         seasonNumber: 7,
         seasonRating: 4,
+        watching: false,
         seasonTimesWatched: 1,
         firstViewedDate: '',
         lastViewedDate: '',
@@ -3271,6 +3540,7 @@ export const ronanSeries: UserSeries = [
       {
         seasonNumber: 8,
         seasonRating: 3.5,
+        watching: false,
         seasonTimesWatched: 1,
         firstViewedDate: '',
         lastViewedDate: '',
@@ -3280,6 +3550,7 @@ export const ronanSeries: UserSeries = [
       {
         seasonNumber: 9,
         seasonRating: 3.5,
+        watching: false,
         seasonTimesWatched: 1,
         firstViewedDate: '',
         lastViewedDate: '',
@@ -3289,6 +3560,7 @@ export const ronanSeries: UserSeries = [
       {
         seasonNumber: 10,
         seasonRating: 3.5,
+        watching: false,
         seasonTimesWatched: 1,
         firstViewedDate: '',
         lastViewedDate: '',
@@ -3298,6 +3570,7 @@ export const ronanSeries: UserSeries = [
       {
         seasonNumber: 11,
         seasonRating: 3.5,
+        watching: false,
         seasonTimesWatched: 1,
         firstViewedDate: '',
         lastViewedDate: '',
@@ -3319,6 +3592,7 @@ export const ronanSeries: UserSeries = [
       {
         seasonNumber: 1,
         seasonRating: 2.5,
+        watching: false,
         seasonTimesWatched: 1,
         firstViewedDate: '',
         lastViewedDate: '',
@@ -3328,6 +3602,7 @@ export const ronanSeries: UserSeries = [
       {
         seasonNumber: 2,
         seasonRating: 2.5,
+        watching: false,
         seasonTimesWatched: 1,
         firstViewedDate: '',
         lastViewedDate: '',
@@ -3337,6 +3612,7 @@ export const ronanSeries: UserSeries = [
       {
         seasonNumber: 3,
         seasonRating: 2.5,
+        watching: false,
         seasonTimesWatched: 1,
         firstViewedDate: '',
         lastViewedDate: '',
@@ -3346,6 +3622,7 @@ export const ronanSeries: UserSeries = [
       {
         seasonNumber: 4,
         seasonRating: 2.5,
+        watching: false,
         seasonTimesWatched: 1,
         firstViewedDate: '',
         lastViewedDate: '',
@@ -3355,6 +3632,7 @@ export const ronanSeries: UserSeries = [
       {
         seasonNumber: 5,
         seasonRating: 2.5,
+        watching: false,
         seasonTimesWatched: 1,
         firstViewedDate: '',
         lastViewedDate: '',
@@ -3364,6 +3642,7 @@ export const ronanSeries: UserSeries = [
       {
         seasonNumber: 6,
         seasonRating: 2.5,
+        watching: false,
         seasonTimesWatched: 1,
         firstViewedDate: '',
         lastViewedDate: '',
@@ -3373,6 +3652,7 @@ export const ronanSeries: UserSeries = [
       {
         seasonNumber: 7,
         seasonRating: 2.5,
+        watching: false,
         seasonTimesWatched: 1,
         firstViewedDate: '',
         lastViewedDate: '',
@@ -3382,6 +3662,7 @@ export const ronanSeries: UserSeries = [
       {
         seasonNumber: 8,
         seasonRating: 2.5,
+        watching: false,
         seasonTimesWatched: 1,
         firstViewedDate: '',
         lastViewedDate: '',
@@ -3391,6 +3672,7 @@ export const ronanSeries: UserSeries = [
       {
         seasonNumber: 9,
         seasonRating: 2.5,
+        watching: false,
         seasonTimesWatched: 1,
         firstViewedDate: '',
         lastViewedDate: '',
@@ -3400,6 +3682,7 @@ export const ronanSeries: UserSeries = [
       {
         seasonNumber: 10,
         seasonRating: 2.5,
+        watching: false,
         seasonTimesWatched: 1,
         firstViewedDate: '',
         lastViewedDate: '',
@@ -3421,6 +3704,7 @@ export const ronanSeries: UserSeries = [
       {
         seasonNumber: 1,
         seasonRating: 3,
+        watching: false,
         seasonTimesWatched: 1,
         firstViewedDate: '',
         lastViewedDate: '',
@@ -3430,6 +3714,7 @@ export const ronanSeries: UserSeries = [
       {
         seasonNumber: 2,
         seasonRating: 3,
+        watching: false,
         seasonTimesWatched: 1,
         firstViewedDate: '',
         lastViewedDate: '',
@@ -3439,6 +3724,7 @@ export const ronanSeries: UserSeries = [
       {
         seasonNumber: 3,
         seasonRating: 3.5,
+        watching: false,
         seasonTimesWatched: 1,
         firstViewedDate: '',
         lastViewedDate: '',
@@ -3448,6 +3734,7 @@ export const ronanSeries: UserSeries = [
       {
         seasonNumber: 4,
         seasonRating: 3,
+        watching: false,
         seasonTimesWatched: 1,
         firstViewedDate: '',
         lastViewedDate: '',
@@ -3457,6 +3744,7 @@ export const ronanSeries: UserSeries = [
       {
         seasonNumber: 5,
         seasonRating: 3,
+        watching: false,
         seasonTimesWatched: 1,
         firstViewedDate: '',
         lastViewedDate: '',
@@ -3466,6 +3754,7 @@ export const ronanSeries: UserSeries = [
       {
         seasonNumber: 6,
         seasonRating: 3,
+        watching: false,
         seasonTimesWatched: 1,
         firstViewedDate: '',
         lastViewedDate: '',
@@ -3475,6 +3764,7 @@ export const ronanSeries: UserSeries = [
       {
         seasonNumber: 7,
         seasonRating: 3,
+        watching: false,
         seasonTimesWatched: 1,
         firstViewedDate: '',
         lastViewedDate: '',
@@ -3496,6 +3786,7 @@ export const ronanSeries: UserSeries = [
       {
         seasonNumber: 1,
         seasonRating: 4.5,
+        watching: false,
         seasonTimesWatched: 2,
         firstViewedDate: '',
         lastViewedDate: '',
@@ -3505,6 +3796,7 @@ export const ronanSeries: UserSeries = [
       {
         seasonNumber: 2,
         seasonRating: 4,
+        watching: false,
         seasonTimesWatched: 2,
         firstViewedDate: '',
         lastViewedDate: '',
@@ -3514,6 +3806,7 @@ export const ronanSeries: UserSeries = [
       {
         seasonNumber: 3,
         seasonRating: 4.5,
+        watching: false,
         seasonTimesWatched: 2,
         firstViewedDate: '',
         lastViewedDate: '',
@@ -3535,6 +3828,7 @@ export const ronanSeries: UserSeries = [
       {
         seasonNumber: 1,
         seasonRating: 3.5,
+        watching: false,
         seasonTimesWatched: 1,
         firstViewedDate: '',
         lastViewedDate: '',
@@ -3544,6 +3838,7 @@ export const ronanSeries: UserSeries = [
       {
         seasonNumber: 2,
         seasonRating: 3.5,
+        watching: false,
         seasonTimesWatched: 1,
         firstViewedDate: '',
         lastViewedDate: '',
@@ -3553,6 +3848,7 @@ export const ronanSeries: UserSeries = [
       {
         seasonNumber: 3,
         seasonRating: 3.5,
+        watching: false,
         seasonTimesWatched: 1,
         firstViewedDate: '',
         lastViewedDate: '',
@@ -3562,6 +3858,7 @@ export const ronanSeries: UserSeries = [
       {
         seasonNumber: 4,
         seasonRating: 3.5,
+        watching: false,
         seasonTimesWatched: 1,
         firstViewedDate: '',
         lastViewedDate: '',
@@ -3583,6 +3880,7 @@ export const ronanSeries: UserSeries = [
       {
         seasonNumber: 1,
         seasonRating: 3.5,
+        watching: false,
         seasonTimesWatched: 1,
         firstViewedDate: '',
         lastViewedDate: '',
@@ -3592,6 +3890,7 @@ export const ronanSeries: UserSeries = [
       {
         seasonNumber: 2,
         seasonRating: 3.5,
+        watching: false,
         seasonTimesWatched: 1,
         firstViewedDate: '',
         lastViewedDate: '',
@@ -3601,6 +3900,7 @@ export const ronanSeries: UserSeries = [
       {
         seasonNumber: 3,
         seasonRating: 3.5,
+        watching: false,
         seasonTimesWatched: 1,
         firstViewedDate: '',
         lastViewedDate: '',
@@ -3610,6 +3910,7 @@ export const ronanSeries: UserSeries = [
       {
         seasonNumber: 4,
         seasonRating: 3.5,
+        watching: false,
         seasonTimesWatched: 1,
         firstViewedDate: '',
         lastViewedDate: '',
@@ -3619,6 +3920,7 @@ export const ronanSeries: UserSeries = [
       {
         seasonNumber: 5,
         seasonRating: 3.5,
+        watching: false,
         seasonTimesWatched: 1,
         firstViewedDate: '',
         lastViewedDate: '',
@@ -3628,6 +3930,7 @@ export const ronanSeries: UserSeries = [
       {
         seasonNumber: 6,
         seasonRating: 3.5,
+        watching: false,
         seasonTimesWatched: 1,
         firstViewedDate: '',
         lastViewedDate: '',
@@ -3637,6 +3940,7 @@ export const ronanSeries: UserSeries = [
       {
         seasonNumber: 7,
         seasonRating: 4.5,
+        watching: false,
         seasonTimesWatched: 1,
         firstViewedDate: '',
         lastViewedDate: '',
@@ -3658,6 +3962,7 @@ export const ronanSeries: UserSeries = [
       {
         seasonNumber: 1,
         seasonRating: 3,
+        watching: false,
         seasonTimesWatched: 1,
         firstViewedDate: '',
         lastViewedDate: '',
@@ -3667,6 +3972,7 @@ export const ronanSeries: UserSeries = [
       {
         seasonNumber: 2,
         seasonRating: 3,
+        watching: false,
         seasonTimesWatched: 1,
         firstViewedDate: '',
         lastViewedDate: '',
@@ -3676,6 +3982,7 @@ export const ronanSeries: UserSeries = [
       {
         seasonNumber: 3,
         seasonRating: 3,
+        watching: false,
         seasonTimesWatched: 1,
         firstViewedDate: '',
         lastViewedDate: '',
@@ -3685,6 +3992,7 @@ export const ronanSeries: UserSeries = [
       {
         seasonNumber: 4,
         seasonRating: 3,
+        watching: false,
         seasonTimesWatched: 1,
         firstViewedDate: '',
         lastViewedDate: '',
@@ -3694,6 +4002,7 @@ export const ronanSeries: UserSeries = [
       {
         seasonNumber: 5,
         seasonRating: 3,
+        watching: false,
         seasonTimesWatched: 1,
         firstViewedDate: '',
         lastViewedDate: '',
@@ -3703,6 +4012,7 @@ export const ronanSeries: UserSeries = [
       {
         seasonNumber: 6,
         seasonRating: 3,
+        watching: false,
         seasonTimesWatched: 1,
         firstViewedDate: '',
         lastViewedDate: '',
@@ -3712,6 +4022,7 @@ export const ronanSeries: UserSeries = [
       {
         seasonNumber: 7,
         seasonRating: 3,
+        watching: false,
         seasonTimesWatched: 1,
         firstViewedDate: '',
         lastViewedDate: '',
@@ -3721,6 +4032,7 @@ export const ronanSeries: UserSeries = [
       {
         seasonNumber: 8,
         seasonRating: 3,
+        watching: false,
         seasonTimesWatched: 1,
         firstViewedDate: '',
         lastViewedDate: '',
@@ -3730,6 +4042,7 @@ export const ronanSeries: UserSeries = [
       {
         seasonNumber: 9,
         seasonRating: 3,
+        watching: false,
         seasonTimesWatched: 1,
         firstViewedDate: '',
         lastViewedDate: '',
@@ -3739,6 +4052,7 @@ export const ronanSeries: UserSeries = [
       {
         seasonNumber: 10,
         seasonRating: 3,
+        watching: false,
         seasonTimesWatched: 1,
         firstViewedDate: '',
         lastViewedDate: '',
@@ -3748,6 +4062,7 @@ export const ronanSeries: UserSeries = [
       {
         seasonNumber: 11,
         seasonRating: 3,
+        watching: false,
         seasonTimesWatched: 1,
         firstViewedDate: '',
         lastViewedDate: '',
@@ -3757,6 +4072,7 @@ export const ronanSeries: UserSeries = [
       {
         seasonNumber: 12,
         seasonRating: 3,
+        watching: false,
         seasonTimesWatched: 1,
         firstViewedDate: '',
         lastViewedDate: '',
@@ -3766,6 +4082,7 @@ export const ronanSeries: UserSeries = [
       {
         seasonNumber: 13,
         seasonRating: 3,
+        watching: false,
         seasonTimesWatched: 1,
         firstViewedDate: '',
         lastViewedDate: '',
@@ -3775,6 +4092,7 @@ export const ronanSeries: UserSeries = [
       {
         seasonNumber: 14,
         seasonRating: 3,
+        watching: false,
         seasonTimesWatched: 1,
         firstViewedDate: '',
         lastViewedDate: '',
@@ -3784,6 +4102,7 @@ export const ronanSeries: UserSeries = [
       {
         seasonNumber: 15,
         seasonRating: 3,
+        watching: false,
         seasonTimesWatched: 1,
         firstViewedDate: '',
         lastViewedDate: '',
@@ -3805,6 +4124,7 @@ export const ronanSeries: UserSeries = [
       {
         seasonNumber: 1,
         seasonRating: 4,
+        watching: false,
         seasonTimesWatched: 2,
         firstViewedDate: '',
         lastViewedDate: '',
@@ -3814,6 +4134,7 @@ export const ronanSeries: UserSeries = [
       {
         seasonNumber: 2,
         seasonRating: 3.5,
+        watching: false,
         seasonTimesWatched: 2,
         firstViewedDate: '',
         lastViewedDate: '',
@@ -3823,6 +4144,7 @@ export const ronanSeries: UserSeries = [
       {
         seasonNumber: 3,
         seasonRating: 4.5,
+        watching: false,
         seasonTimesWatched: 2,
         firstViewedDate: '',
         lastViewedDate: '',
@@ -3832,6 +4154,7 @@ export const ronanSeries: UserSeries = [
       {
         seasonNumber: 4,
         seasonRating: 3,
+        watching: false,
         seasonTimesWatched: 2,
         firstViewedDate: '',
         lastViewedDate: '',
@@ -3841,6 +4164,7 @@ export const ronanSeries: UserSeries = [
       {
         seasonNumber: 5,
         seasonRating: 2.5,
+        watching: false,
         seasonTimesWatched: 2,
         firstViewedDate: '',
         lastViewedDate: '',
@@ -3850,6 +4174,7 @@ export const ronanSeries: UserSeries = [
       {
         seasonNumber: 6,
         seasonRating: 2.5,
+        watching: false,
         seasonTimesWatched: 2,
         firstViewedDate: '',
         lastViewedDate: '',
@@ -3871,6 +4196,7 @@ export const ronanSeries: UserSeries = [
       {
         seasonNumber: 1,
         seasonRating: 3.5,
+        watching: false,
         seasonTimesWatched: 1,
         firstViewedDate: '',
         lastViewedDate: '',
@@ -3880,6 +4206,7 @@ export const ronanSeries: UserSeries = [
       {
         seasonNumber: 2,
         seasonRating: 3.5,
+        watching: false,
         seasonTimesWatched: 1,
         firstViewedDate: '',
         lastViewedDate: '',
@@ -3889,6 +4216,7 @@ export const ronanSeries: UserSeries = [
       {
         seasonNumber: 3,
         seasonRating: 3.5,
+        watching: false,
         seasonTimesWatched: 1,
         firstViewedDate: '',
         lastViewedDate: '',
@@ -3898,6 +4226,7 @@ export const ronanSeries: UserSeries = [
       {
         seasonNumber: 4,
         seasonRating: 3.5,
+        watching: false,
         seasonTimesWatched: 1,
         firstViewedDate: '',
         lastViewedDate: '',
@@ -3907,6 +4236,7 @@ export const ronanSeries: UserSeries = [
       {
         seasonNumber: 5,
         seasonRating: 3.5,
+        watching: false,
         seasonTimesWatched: 1,
         firstViewedDate: '',
         lastViewedDate: '',
@@ -3916,6 +4246,7 @@ export const ronanSeries: UserSeries = [
       {
         seasonNumber: 6,
         seasonRating: 3.5,
+        watching: false,
         seasonTimesWatched: 1,
         firstViewedDate: '',
         lastViewedDate: '',
@@ -3925,6 +4256,7 @@ export const ronanSeries: UserSeries = [
       {
         seasonNumber: 7,
         seasonRating: 3.5,
+        watching: false,
         seasonTimesWatched: 1,
         firstViewedDate: '',
         lastViewedDate: '',
@@ -3934,6 +4266,7 @@ export const ronanSeries: UserSeries = [
       {
         seasonNumber: 8,
         seasonRating: 3.5,
+        watching: false,
         seasonTimesWatched: 1,
         firstViewedDate: '',
         lastViewedDate: '',
@@ -3943,6 +4276,7 @@ export const ronanSeries: UserSeries = [
       {
         seasonNumber: 9,
         seasonRating: 3.5,
+        watching: false,
         seasonTimesWatched: 1,
         firstViewedDate: '',
         lastViewedDate: '',
@@ -3952,6 +4286,7 @@ export const ronanSeries: UserSeries = [
       {
         seasonNumber: 10,
         seasonRating: 3.5,
+        watching: false,
         seasonTimesWatched: 1,
         firstViewedDate: '',
         lastViewedDate: '',
@@ -3961,6 +4296,7 @@ export const ronanSeries: UserSeries = [
       {
         seasonNumber: 11,
         seasonRating: 3.5,
+        watching: false,
         seasonTimesWatched: 1,
         firstViewedDate: '',
         lastViewedDate: '',
@@ -3970,6 +4306,7 @@ export const ronanSeries: UserSeries = [
       {
         seasonNumber: 12,
         seasonRating: 3.5,
+        watching: false,
         seasonTimesWatched: 1,
         firstViewedDate: '',
         lastViewedDate: '',
@@ -3991,6 +4328,7 @@ export const ronanSeries: UserSeries = [
       {
         seasonNumber: 1,
         seasonRating: 3.5,
+        watching: false,
         seasonTimesWatched: 1,
         firstViewedDate: '',
         lastViewedDate: '',
@@ -4012,6 +4350,7 @@ export const ronanSeries: UserSeries = [
       {
         seasonNumber: 1,
         seasonRating: 4.5,
+        watching: false,
         seasonTimesWatched: 2,
         firstViewedDate: '',
         lastViewedDate: '',
@@ -4021,6 +4360,7 @@ export const ronanSeries: UserSeries = [
       {
         seasonNumber: 2,
         seasonRating: 4.5,
+        watching: false,
         seasonTimesWatched: 2,
         firstViewedDate: '',
         lastViewedDate: '',
@@ -4042,6 +4382,7 @@ export const ronanSeries: UserSeries = [
       {
         seasonNumber: 1,
         seasonRating: 2.5,
+        watching: false,
         seasonTimesWatched: 1,
         firstViewedDate: '',
         lastViewedDate: '',
@@ -4051,6 +4392,7 @@ export const ronanSeries: UserSeries = [
       {
         seasonNumber: 2,
         seasonRating: 3.5,
+        watching: false,
         seasonTimesWatched: 1,
         firstViewedDate: '',
         lastViewedDate: '',
@@ -4060,6 +4402,7 @@ export const ronanSeries: UserSeries = [
       {
         seasonNumber: 3,
         seasonRating: 4,
+        watching: false,
         seasonTimesWatched: 1,
         firstViewedDate: '',
         lastViewedDate: '',
@@ -4069,6 +4412,7 @@ export const ronanSeries: UserSeries = [
       {
         seasonNumber: 4,
         seasonRating: 4,
+        watching: false,
         seasonTimesWatched: 1,
         firstViewedDate: '',
         lastViewedDate: '',
@@ -4078,6 +4422,7 @@ export const ronanSeries: UserSeries = [
       {
         seasonNumber: 5,
         seasonRating: 4,
+        watching: false,
         seasonTimesWatched: 1,
         firstViewedDate: '',
         lastViewedDate: '',
@@ -4087,6 +4432,7 @@ export const ronanSeries: UserSeries = [
       {
         seasonNumber: 6,
         seasonRating: 4,
+        watching: false,
         seasonTimesWatched: 1,
         firstViewedDate: '',
         lastViewedDate: '',
@@ -4096,6 +4442,7 @@ export const ronanSeries: UserSeries = [
       {
         seasonNumber: 7,
         seasonRating: 4,
+        watching: false,
         seasonTimesWatched: 1,
         firstViewedDate: '',
         lastViewedDate: '',
@@ -4105,6 +4452,7 @@ export const ronanSeries: UserSeries = [
       {
         seasonNumber: 8,
         seasonRating: 3,
+        watching: false,
         seasonTimesWatched: 1,
         firstViewedDate: '',
         lastViewedDate: '',
@@ -4114,6 +4462,7 @@ export const ronanSeries: UserSeries = [
       {
         seasonNumber: 9,
         seasonRating: 3,
+        watching: false,
         seasonTimesWatched: 1,
         firstViewedDate: '',
         lastViewedDate: '',
@@ -4135,6 +4484,7 @@ export const ronanSeries: UserSeries = [
       {
         seasonNumber: 1,
         seasonRating: 4,
+        watching: false,
         seasonTimesWatched: 1,
         firstViewedDate: '',
         lastViewedDate: '',
@@ -4144,6 +4494,7 @@ export const ronanSeries: UserSeries = [
       {
         seasonNumber: 2,
         seasonRating: 4,
+        watching: false,
         seasonTimesWatched: 1,
         firstViewedDate: '',
         lastViewedDate: '',
@@ -4153,6 +4504,7 @@ export const ronanSeries: UserSeries = [
       {
         seasonNumber: 3,
         seasonRating: 4,
+        watching: false,
         seasonTimesWatched: 1,
         firstViewedDate: '',
         lastViewedDate: '',
@@ -4162,6 +4514,7 @@ export const ronanSeries: UserSeries = [
       {
         seasonNumber: 4,
         seasonRating: 4,
+        watching: false,
         seasonTimesWatched: 1,
         firstViewedDate: '',
         lastViewedDate: '',
@@ -4171,6 +4524,7 @@ export const ronanSeries: UserSeries = [
       {
         seasonNumber: 5,
         seasonRating: 4,
+        watching: false,
         seasonTimesWatched: 1,
         firstViewedDate: '',
         lastViewedDate: '',
@@ -4192,6 +4546,7 @@ export const ronanSeries: UserSeries = [
       {
         seasonNumber: 1,
         seasonRating: 3.5,
+        watching: false,
         seasonTimesWatched: 1,
         firstViewedDate: '',
         lastViewedDate: '',
@@ -4213,6 +4568,7 @@ export const ronanSeries: UserSeries = [
       {
         seasonNumber: 1,
         seasonRating: 3,
+        watching: false,
         seasonTimesWatched: 1,
         firstViewedDate: '',
         lastViewedDate: '',
@@ -4222,6 +4578,7 @@ export const ronanSeries: UserSeries = [
       {
         seasonNumber: 2,
         seasonRating: 3,
+        watching: false,
         seasonTimesWatched: 1,
         firstViewedDate: '',
         lastViewedDate: '',
@@ -4243,6 +4600,7 @@ export const ronanSeries: UserSeries = [
       {
         seasonNumber: 1,
         seasonRating: 2.5,
+        watching: false,
         seasonTimesWatched: 1,
         firstViewedDate: '',
         lastViewedDate: '',
@@ -4264,6 +4622,7 @@ export const ronanSeries: UserSeries = [
       {
         seasonNumber: 1,
         seasonRating: 3.5,
+        watching: false,
         seasonTimesWatched: 4,
         firstViewedDate: '',
         lastViewedDate: '',
@@ -4273,6 +4632,7 @@ export const ronanSeries: UserSeries = [
       {
         seasonNumber: 2,
         seasonRating: 4,
+        watching: false,
         seasonTimesWatched: 4,
         firstViewedDate: '',
         lastViewedDate: '',
@@ -4282,6 +4642,7 @@ export const ronanSeries: UserSeries = [
       {
         seasonNumber: 3,
         seasonRating: 4,
+        watching: false,
         seasonTimesWatched: 2,
         firstViewedDate: '',
         lastViewedDate: '',
@@ -4291,6 +4652,7 @@ export const ronanSeries: UserSeries = [
       {
         seasonNumber: 4,
         seasonRating: 3.5,
+        watching: false,
         seasonTimesWatched: 3,
         firstViewedDate: '',
         lastViewedDate: '',
@@ -4300,6 +4662,7 @@ export const ronanSeries: UserSeries = [
       {
         seasonNumber: 5,
         seasonRating: 3,
+        watching: false,
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
@@ -4309,6 +4672,7 @@ export const ronanSeries: UserSeries = [
       {
         seasonNumber: 6,
         seasonRating: 4,
+        watching: false,
         seasonTimesWatched: 3,
         firstViewedDate: '',
         lastViewedDate: '',
@@ -4318,6 +4682,7 @@ export const ronanSeries: UserSeries = [
       {
         seasonNumber: 7,
         seasonRating: 3,
+        watching: false,
         seasonTimesWatched: 2,
         firstViewedDate: '',
         lastViewedDate: '',
@@ -4327,6 +4692,7 @@ export const ronanSeries: UserSeries = [
       {
         seasonNumber: 8,
         seasonRating: 3,
+        watching: false,
         seasonTimesWatched: 2,
         firstViewedDate: '',
         lastViewedDate: '',
@@ -4348,6 +4714,7 @@ export const ronanSeries: UserSeries = [
       {
         seasonNumber: 1,
         seasonRating: 3.5,
+        watching: false,
         seasonTimesWatched: 1,
         firstViewedDate: '',
         lastViewedDate: '',
@@ -4357,6 +4724,7 @@ export const ronanSeries: UserSeries = [
       {
         seasonNumber: 2,
         seasonRating: 4,
+        watching: false,
         seasonTimesWatched: 1,
         firstViewedDate: '',
         lastViewedDate: '',
@@ -4366,6 +4734,7 @@ export const ronanSeries: UserSeries = [
       {
         seasonNumber: 3,
         seasonRating: 4.5,
+        watching: false,
         seasonTimesWatched: 1,
         firstViewedDate: '',
         lastViewedDate: '',
@@ -4375,6 +4744,7 @@ export const ronanSeries: UserSeries = [
       {
         seasonNumber: 4,
         seasonRating: 3.5,
+        watching: false,
         seasonTimesWatched: 1,
         firstViewedDate: '',
         lastViewedDate: '',
@@ -4384,6 +4754,7 @@ export const ronanSeries: UserSeries = [
       {
         seasonNumber: 5,
         seasonRating: 3.5,
+        watching: false,
         seasonTimesWatched: 1,
         firstViewedDate: '',
         lastViewedDate: '',
@@ -4393,6 +4764,7 @@ export const ronanSeries: UserSeries = [
       {
         seasonNumber: 6,
         seasonRating: 3,
+        watching: false,
         seasonTimesWatched: 1,
         firstViewedDate: '',
         lastViewedDate: '',
@@ -4414,6 +4786,7 @@ export const ronanSeries: UserSeries = [
       {
         seasonNumber: 1,
         seasonRating: 4.5,
+        watching: false,
         seasonTimesWatched: 1,
         firstViewedDate: '',
         lastViewedDate: '',
@@ -4435,6 +4808,7 @@ export const ronanSeries: UserSeries = [
       {
         seasonNumber: 1,
         seasonRating: 3,
+        watching: false,
         seasonTimesWatched: 1,
         firstViewedDate: '',
         lastViewedDate: '',
@@ -4444,6 +4818,7 @@ export const ronanSeries: UserSeries = [
       {
         seasonNumber: 2,
         seasonRating: 3,
+        watching: false,
         seasonTimesWatched: 1,
         firstViewedDate: '',
         lastViewedDate: '',
@@ -4453,6 +4828,7 @@ export const ronanSeries: UserSeries = [
       {
         seasonNumber: 3,
         seasonRating: 3,
+        watching: false,
         seasonTimesWatched: 1,
         firstViewedDate: '',
         lastViewedDate: '',
@@ -4462,6 +4838,7 @@ export const ronanSeries: UserSeries = [
       {
         seasonNumber: 4,
         seasonRating: 3,
+        watching: false,
         seasonTimesWatched: 1,
         firstViewedDate: '',
         lastViewedDate: '',
@@ -4483,6 +4860,7 @@ export const ronanSeries: UserSeries = [
       {
         seasonNumber: 1,
         seasonRating: 3.5,
+        watching: false,
         seasonTimesWatched: 1,
         firstViewedDate: '',
         lastViewedDate: '',
@@ -4492,6 +4870,7 @@ export const ronanSeries: UserSeries = [
       {
         seasonNumber: 2,
         seasonRating: 3.5,
+        watching: false,
         seasonTimesWatched: 1,
         firstViewedDate: '',
         lastViewedDate: '2026-03-11',
@@ -4513,6 +4892,7 @@ export const ronanSeries: UserSeries = [
       {
         seasonNumber: 1,
         seasonRating: 3.5,
+        watching: false,
         seasonTimesWatched: 1,
         firstViewedDate: '',
         lastViewedDate: '',
@@ -4534,6 +4914,7 @@ export const ronanSeries: UserSeries = [
       {
         seasonNumber: 1,
         seasonRating: 3,
+        watching: false,
         seasonTimesWatched: 1,
         firstViewedDate: '',
         lastViewedDate: '',
@@ -4555,6 +4936,7 @@ export const ronanSeries: UserSeries = [
       {
         seasonNumber: 1,
         seasonRating: 3.5,
+        watching: false,
         seasonTimesWatched: 1,
         firstViewedDate: '',
         lastViewedDate: '',
@@ -4564,6 +4946,7 @@ export const ronanSeries: UserSeries = [
       {
         seasonNumber: 2,
         seasonRating: 0,
+        watching: false,
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
@@ -4585,6 +4968,7 @@ export const ronanSeries: UserSeries = [
       {
         seasonNumber: 1,
         seasonRating: 4,
+        watching: false,
         seasonTimesWatched: 2,
         firstViewedDate: '',
         lastViewedDate: '',
@@ -4594,6 +4978,7 @@ export const ronanSeries: UserSeries = [
       {
         seasonNumber: 2,
         seasonRating: 4,
+        watching: false,
         seasonTimesWatched: 1,
         firstViewedDate: '',
         lastViewedDate: '',
@@ -4603,6 +4988,7 @@ export const ronanSeries: UserSeries = [
       {
         seasonNumber: 3,
         seasonRating: 4,
+        watching: false,
         seasonTimesWatched: 1,
         firstViewedDate: '',
         lastViewedDate: '',
@@ -4612,6 +4998,7 @@ export const ronanSeries: UserSeries = [
       {
         seasonNumber: 4,
         seasonRating: 4,
+        watching: false,
         seasonTimesWatched: 1,
         firstViewedDate: '',
         lastViewedDate: '',
@@ -4633,6 +5020,7 @@ export const ronanSeries: UserSeries = [
       {
         seasonNumber: 1,
         seasonRating: 3.5,
+        watching: false,
         seasonTimesWatched: 1,
         firstViewedDate: '',
         lastViewedDate: '',
@@ -4642,6 +5030,7 @@ export const ronanSeries: UserSeries = [
       {
         seasonNumber: 2,
         seasonRating: 4,
+        watching: false,
         seasonTimesWatched: 1,
         firstViewedDate: '',
         lastViewedDate: '',
@@ -4663,6 +5052,7 @@ export const ronanSeries: UserSeries = [
       {
         seasonNumber: 1,
         seasonRating: 3.5,
+        watching: false,
         seasonTimesWatched: 2,
         firstViewedDate: '',
         lastViewedDate: '',
@@ -4684,6 +5074,7 @@ export const ronanSeries: UserSeries = [
       {
         seasonNumber: 1,
         seasonRating: 3.5,
+        watching: false,
         seasonTimesWatched: 1,
         firstViewedDate: '',
         lastViewedDate: '',
@@ -4693,6 +5084,7 @@ export const ronanSeries: UserSeries = [
       {
         seasonNumber: 2,
         seasonRating: 0,
+        watching: false,
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
@@ -4714,6 +5106,7 @@ export const ronanSeries: UserSeries = [
       {
         seasonNumber: 1,
         seasonRating: 4,
+        watching: false,
         seasonTimesWatched: 1,
         firstViewedDate: '',
         lastViewedDate: '',
@@ -4723,6 +5116,7 @@ export const ronanSeries: UserSeries = [
       {
         seasonNumber: 2,
         seasonRating: 4,
+        watching: false,
         seasonTimesWatched: 1,
         firstViewedDate: '',
         lastViewedDate: '',
@@ -4744,6 +5138,7 @@ export const ronanSeries: UserSeries = [
       {
         seasonNumber: 1,
         seasonRating: 4,
+        watching: false,
         seasonTimesWatched: 2,
         firstViewedDate: '',
         lastViewedDate: '',
@@ -4753,6 +5148,7 @@ export const ronanSeries: UserSeries = [
       {
         seasonNumber: 2,
         seasonRating: 4,
+        watching: false,
         seasonTimesWatched: 2,
         firstViewedDate: '',
         lastViewedDate: '',
@@ -4762,6 +5158,7 @@ export const ronanSeries: UserSeries = [
       {
         seasonNumber: 3,
         seasonRating: 4,
+        watching: false,
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
@@ -4783,6 +5180,7 @@ export const ronanSeries: UserSeries = [
       {
         seasonNumber: 1,
         seasonRating: 3.5,
+        watching: false,
         seasonTimesWatched: 3,
         firstViewedDate: '',
         lastViewedDate: '',
@@ -4792,6 +5190,7 @@ export const ronanSeries: UserSeries = [
       {
         seasonNumber: 2,
         seasonRating: 3,
+        watching: false,
         seasonTimesWatched: 2,
         firstViewedDate: '',
         lastViewedDate: '',
@@ -4801,6 +5200,7 @@ export const ronanSeries: UserSeries = [
       {
         seasonNumber: 3,
         seasonRating: 0,
+        watching: false,
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
@@ -4822,6 +5222,7 @@ export const ronanSeries: UserSeries = [
       {
         seasonNumber: 1,
         seasonRating: 3.5,
+        watching: false,
         seasonTimesWatched: 3,
         firstViewedDate: '',
         lastViewedDate: '',
@@ -4831,6 +5232,7 @@ export const ronanSeries: UserSeries = [
       {
         seasonNumber: 2,
         seasonRating: 0,
+        watching: false,
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
@@ -4840,6 +5242,7 @@ export const ronanSeries: UserSeries = [
       {
         seasonNumber: 3,
         seasonRating: 0,
+        watching: false,
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
@@ -4849,6 +5252,7 @@ export const ronanSeries: UserSeries = [
       {
         seasonNumber: 4,
         seasonRating: 0,
+        watching: false,
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
@@ -4870,6 +5274,7 @@ export const ronanSeries: UserSeries = [
       {
         seasonNumber: 1,
         seasonRating: 3.5,
+        watching: false,
         seasonTimesWatched: 1,
         firstViewedDate: '',
         lastViewedDate: '',
@@ -4879,6 +5284,7 @@ export const ronanSeries: UserSeries = [
       {
         seasonNumber: 2,
         seasonRating: 0,
+        watching: false,
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
@@ -4888,6 +5294,7 @@ export const ronanSeries: UserSeries = [
       {
         seasonNumber: 3,
         seasonRating: 0,
+        watching: false,
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
@@ -4909,6 +5316,7 @@ export const ronanSeries: UserSeries = [
       {
         seasonNumber: 1,
         seasonRating: 3.5,
+        watching: false,
         seasonTimesWatched: 2,
         firstViewedDate: '',
         lastViewedDate: '',
@@ -4918,6 +5326,7 @@ export const ronanSeries: UserSeries = [
       {
         seasonNumber: 2,
         seasonRating: 3.5,
+        watching: false,
         seasonTimesWatched: 2,
         firstViewedDate: '',
         lastViewedDate: '',
@@ -4927,6 +5336,7 @@ export const ronanSeries: UserSeries = [
       {
         seasonNumber: 3,
         seasonRating: 3.5,
+        watching: false,
         seasonTimesWatched: 2,
         firstViewedDate: '',
         lastViewedDate: '',
@@ -4936,6 +5346,7 @@ export const ronanSeries: UserSeries = [
       {
         seasonNumber: 4,
         seasonRating: 3.5,
+        watching: false,
         seasonTimesWatched: 2,
         firstViewedDate: '',
         lastViewedDate: '',
@@ -4945,6 +5356,7 @@ export const ronanSeries: UserSeries = [
       {
         seasonNumber: 5,
         seasonRating: 3.5,
+        watching: false,
         seasonTimesWatched: 2,
         firstViewedDate: '',
         lastViewedDate: '',
@@ -4954,6 +5366,7 @@ export const ronanSeries: UserSeries = [
       {
         seasonNumber: 6,
         seasonRating: 3.5,
+        watching: false,
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
@@ -4963,6 +5376,7 @@ export const ronanSeries: UserSeries = [
       {
         seasonNumber: 7,
         seasonRating: 3.5,
+        watching: false,
         seasonTimesWatched: 2,
         firstViewedDate: '',
         lastViewedDate: '',
@@ -4972,6 +5386,7 @@ export const ronanSeries: UserSeries = [
       {
         seasonNumber: 8,
         seasonRating: 3.5,
+        watching: false,
         seasonTimesWatched: 2,
         firstViewedDate: '',
         lastViewedDate: '',
@@ -4981,6 +5396,7 @@ export const ronanSeries: UserSeries = [
       {
         seasonNumber: 9,
         seasonRating: 3.5,
+        watching: false,
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
@@ -4990,6 +5406,7 @@ export const ronanSeries: UserSeries = [
       {
         seasonNumber: 10,
         seasonRating: 3.5,
+        watching: false,
         seasonTimesWatched: 2,
         firstViewedDate: '',
         lastViewedDate: '',
@@ -4999,6 +5416,7 @@ export const ronanSeries: UserSeries = [
       {
         seasonNumber: 11,
         seasonRating: 0,
+        watching: false,
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
@@ -5008,6 +5426,7 @@ export const ronanSeries: UserSeries = [
       {
         seasonNumber: 12,
         seasonRating: 0,
+        watching: false,
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
@@ -5017,6 +5436,7 @@ export const ronanSeries: UserSeries = [
       {
         seasonNumber: 13,
         seasonRating: 0,
+        watching: false,
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
@@ -5026,6 +5446,7 @@ export const ronanSeries: UserSeries = [
       {
         seasonNumber: 14,
         seasonRating: 0,
+        watching: false,
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
@@ -5035,6 +5456,7 @@ export const ronanSeries: UserSeries = [
       {
         seasonNumber: 15,
         seasonRating: 0,
+        watching: false,
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
@@ -5044,6 +5466,7 @@ export const ronanSeries: UserSeries = [
       {
         seasonNumber: 16,
         seasonRating: 0,
+        watching: false,
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
@@ -5053,6 +5476,7 @@ export const ronanSeries: UserSeries = [
       {
         seasonNumber: 17,
         seasonRating: 0,
+        watching: false,
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
@@ -5062,6 +5486,7 @@ export const ronanSeries: UserSeries = [
       {
         seasonNumber: 18,
         seasonRating: 0,
+        watching: false,
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
@@ -5071,6 +5496,7 @@ export const ronanSeries: UserSeries = [
       {
         seasonNumber: 19,
         seasonRating: 0,
+        watching: false,
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
@@ -5080,6 +5506,7 @@ export const ronanSeries: UserSeries = [
       {
         seasonNumber: 20,
         seasonRating: 0,
+        watching: false,
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
@@ -5089,6 +5516,7 @@ export const ronanSeries: UserSeries = [
       {
         seasonNumber: 21,
         seasonRating: 0,
+        watching: false,
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
@@ -5098,6 +5526,7 @@ export const ronanSeries: UserSeries = [
       {
         seasonNumber: 22,
         seasonRating: 0,
+        watching: false,
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
@@ -5119,6 +5548,7 @@ export const ronanSeries: UserSeries = [
       {
         seasonNumber: 1,
         seasonRating: 3.5,
+        watching: false,
         seasonTimesWatched: 1,
         firstViewedDate: '',
         lastViewedDate: '',
@@ -5128,6 +5558,7 @@ export const ronanSeries: UserSeries = [
       {
         seasonNumber: 2,
         seasonRating: 3.5,
+        watching: false,
         seasonTimesWatched: 1,
         firstViewedDate: '',
         lastViewedDate: '',
@@ -5137,6 +5568,7 @@ export const ronanSeries: UserSeries = [
       {
         seasonNumber: 3,
         seasonRating: 3.5,
+        watching: false,
         seasonTimesWatched: 1,
         firstViewedDate: '',
         lastViewedDate: '',
@@ -5146,6 +5578,7 @@ export const ronanSeries: UserSeries = [
       {
         seasonNumber: 4,
         seasonRating: 3,
+        watching: false,
         seasonTimesWatched: 1,
         firstViewedDate: '',
         lastViewedDate: '',
@@ -5155,6 +5588,7 @@ export const ronanSeries: UserSeries = [
       {
         seasonNumber: 5,
         seasonRating: 3,
+        watching: false,
         seasonTimesWatched: 1,
         firstViewedDate: '',
         lastViewedDate: '',
@@ -5164,6 +5598,7 @@ export const ronanSeries: UserSeries = [
       {
         seasonNumber: 6,
         seasonRating: 3,
+        watching: false,
         seasonTimesWatched: 1,
         firstViewedDate: '',
         lastViewedDate: '',
@@ -5173,6 +5608,7 @@ export const ronanSeries: UserSeries = [
       {
         seasonNumber: 7,
         seasonRating: 3,
+        watching: false,
         seasonTimesWatched: 1,
         firstViewedDate: '',
         lastViewedDate: '',
@@ -5182,6 +5618,7 @@ export const ronanSeries: UserSeries = [
       {
         seasonNumber: 8,
         seasonRating: 3,
+        watching: false,
         seasonTimesWatched: 1,
         firstViewedDate: '',
         lastViewedDate: '',
@@ -5191,6 +5628,7 @@ export const ronanSeries: UserSeries = [
       {
         seasonNumber: 9,
         seasonRating: 3,
+        watching: false,
         seasonTimesWatched: 1,
         firstViewedDate: '',
         lastViewedDate: '',
@@ -5200,6 +5638,7 @@ export const ronanSeries: UserSeries = [
       {
         seasonNumber: 10,
         seasonRating: 3,
+        watching: false,
         seasonTimesWatched: 1,
         firstViewedDate: '',
         lastViewedDate: '',
@@ -5209,6 +5648,7 @@ export const ronanSeries: UserSeries = [
       {
         seasonNumber: 11,
         seasonRating: 3,
+        watching: false,
         seasonTimesWatched: 1,
         firstViewedDate: '',
         lastViewedDate: '',
@@ -5218,6 +5658,7 @@ export const ronanSeries: UserSeries = [
       {
         seasonNumber: 12,
         seasonRating: 3,
+        watching: false,
         seasonTimesWatched: 1,
         firstViewedDate: '',
         lastViewedDate: '',
@@ -5227,6 +5668,7 @@ export const ronanSeries: UserSeries = [
       {
         seasonNumber: 13,
         seasonRating: 3,
+        watching: false,
         seasonTimesWatched: 1,
         firstViewedDate: '',
         lastViewedDate: '',
@@ -5236,6 +5678,7 @@ export const ronanSeries: UserSeries = [
       {
         seasonNumber: 14,
         seasonRating: 3,
+        watching: false,
         seasonTimesWatched: 1,
         firstViewedDate: '',
         lastViewedDate: '',
@@ -5245,6 +5688,7 @@ export const ronanSeries: UserSeries = [
       {
         seasonNumber: 15,
         seasonRating: 0,
+        watching: false,
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
@@ -5254,6 +5698,7 @@ export const ronanSeries: UserSeries = [
       {
         seasonNumber: 16,
         seasonRating: 0,
+        watching: false,
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
@@ -5263,6 +5708,7 @@ export const ronanSeries: UserSeries = [
       {
         seasonNumber: 17,
         seasonRating: 0,
+        watching: false,
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
@@ -5272,6 +5718,7 @@ export const ronanSeries: UserSeries = [
       {
         seasonNumber: 18,
         seasonRating: 0,
+        watching: false,
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
@@ -5281,6 +5728,7 @@ export const ronanSeries: UserSeries = [
       {
         seasonNumber: 19,
         seasonRating: 0,
+        watching: false,
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
@@ -5290,6 +5738,7 @@ export const ronanSeries: UserSeries = [
       {
         seasonNumber: 20,
         seasonRating: 0,
+        watching: false,
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
@@ -5299,6 +5748,7 @@ export const ronanSeries: UserSeries = [
       {
         seasonNumber: 21,
         seasonRating: 0,
+        watching: false,
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
@@ -5308,6 +5758,7 @@ export const ronanSeries: UserSeries = [
       {
         seasonNumber: 22,
         seasonRating: 0,
+        watching: false,
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
@@ -5329,6 +5780,7 @@ export const ronanSeries: UserSeries = [
       {
         seasonNumber: 1,
         seasonRating: 0,
+        watching: false,
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
@@ -5338,6 +5790,7 @@ export const ronanSeries: UserSeries = [
       {
         seasonNumber: 2,
         seasonRating: 0,
+        watching: false,
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
@@ -5347,6 +5800,7 @@ export const ronanSeries: UserSeries = [
       {
         seasonNumber: 3,
         seasonRating: 0,
+        watching: false,
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
@@ -5356,6 +5810,7 @@ export const ronanSeries: UserSeries = [
       {
         seasonNumber: 4,
         seasonRating: 0,
+        watching: false,
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
@@ -5365,6 +5820,7 @@ export const ronanSeries: UserSeries = [
       {
         seasonNumber: 5,
         seasonRating: 0,
+        watching: false,
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
@@ -5374,6 +5830,7 @@ export const ronanSeries: UserSeries = [
       {
         seasonNumber: 6,
         seasonRating: 0,
+        watching: false,
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
@@ -5383,6 +5840,7 @@ export const ronanSeries: UserSeries = [
       {
         seasonNumber: 7,
         seasonRating: 0,
+        watching: false,
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
@@ -5392,6 +5850,7 @@ export const ronanSeries: UserSeries = [
       {
         seasonNumber: 8,
         seasonRating: 0,
+        watching: false,
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
@@ -5401,6 +5860,7 @@ export const ronanSeries: UserSeries = [
       {
         seasonNumber: 9,
         seasonRating: 0,
+        watching: false,
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
@@ -5422,6 +5882,7 @@ export const ronanSeries: UserSeries = [
       {
         seasonNumber: 1,
         seasonRating: 3,
+        watching: false,
         seasonTimesWatched: 3,
         firstViewedDate: '',
         lastViewedDate: '',
@@ -5431,6 +5892,7 @@ export const ronanSeries: UserSeries = [
       {
         seasonNumber: 2,
         seasonRating: 3,
+        watching: false,
         seasonTimesWatched: 3,
         firstViewedDate: '',
         lastViewedDate: '',
@@ -5440,6 +5902,7 @@ export const ronanSeries: UserSeries = [
       {
         seasonNumber: 3,
         seasonRating: 3,
+        watching: false,
         seasonTimesWatched: 1,
         firstViewedDate: '',
         lastViewedDate: '',
@@ -5449,6 +5912,7 @@ export const ronanSeries: UserSeries = [
       {
         seasonNumber: 4,
         seasonRating: 3,
+        watching: false,
         seasonTimesWatched: 2,
         firstViewedDate: '',
         lastViewedDate: '',
@@ -5458,6 +5922,7 @@ export const ronanSeries: UserSeries = [
       {
         seasonNumber: 5,
         seasonRating: 3,
+        watching: false,
         seasonTimesWatched: 2,
         firstViewedDate: '',
         lastViewedDate: '',
@@ -5467,6 +5932,7 @@ export const ronanSeries: UserSeries = [
       {
         seasonNumber: 6,
         seasonRating: 3,
+        watching: false,
         seasonTimesWatched: 2,
         firstViewedDate: '',
         lastViewedDate: '',
@@ -5476,6 +5942,7 @@ export const ronanSeries: UserSeries = [
       {
         seasonNumber: 7,
         seasonRating: 3,
+        watching: false,
         seasonTimesWatched: 2,
         firstViewedDate: '',
         lastViewedDate: '',
@@ -5485,6 +5952,7 @@ export const ronanSeries: UserSeries = [
       {
         seasonNumber: 8,
         seasonRating: 3,
+        watching: false,
         seasonTimesWatched: 2,
         firstViewedDate: '',
         lastViewedDate: '',
@@ -5494,6 +5962,7 @@ export const ronanSeries: UserSeries = [
       {
         seasonNumber: 9,
         seasonRating: 3,
+        watching: false,
         seasonTimesWatched: 2,
         firstViewedDate: '',
         lastViewedDate: '',
@@ -5503,6 +5972,7 @@ export const ronanSeries: UserSeries = [
       {
         seasonNumber: 10,
         seasonRating: 3,
+        watching: false,
         seasonTimesWatched: 2,
         firstViewedDate: '',
         lastViewedDate: '',
@@ -5512,6 +5982,7 @@ export const ronanSeries: UserSeries = [
       {
         seasonNumber: 11,
         seasonRating: 3,
+        watching: false,
         seasonTimesWatched: 3,
         firstViewedDate: '',
         lastViewedDate: '',
@@ -5533,6 +6004,7 @@ export const ronanSeries: UserSeries = [
       {
         seasonNumber: 1,
         seasonRating: 0,
+        watching: false,
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
@@ -5542,6 +6014,7 @@ export const ronanSeries: UserSeries = [
       {
         seasonNumber: 2,
         seasonRating: 0,
+        watching: false,
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
@@ -5551,6 +6024,7 @@ export const ronanSeries: UserSeries = [
       {
         seasonNumber: 3,
         seasonRating: 0,
+        watching: false,
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
@@ -5560,6 +6034,7 @@ export const ronanSeries: UserSeries = [
       {
         seasonNumber: 4,
         seasonRating: 0,
+        watching: false,
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
@@ -5569,6 +6044,7 @@ export const ronanSeries: UserSeries = [
       {
         seasonNumber: 5,
         seasonRating: 0,
+        watching: false,
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
@@ -5590,6 +6066,7 @@ export const ronanSeries: UserSeries = [
       {
         seasonNumber: 1,
         seasonRating: 3,
+        watching: false,
         seasonTimesWatched: 3,
         firstViewedDate: '',
         lastViewedDate: '',
@@ -5599,6 +6076,7 @@ export const ronanSeries: UserSeries = [
       {
         seasonNumber: 2,
         seasonRating: 3,
+        watching: false,
         seasonTimesWatched: 2,
         firstViewedDate: '',
         lastViewedDate: '',
@@ -5608,6 +6086,7 @@ export const ronanSeries: UserSeries = [
       {
         seasonNumber: 3,
         seasonRating: 2.5,
+        watching: false,
         seasonTimesWatched: 1,
         firstViewedDate: '',
         lastViewedDate: '',
@@ -5629,6 +6108,7 @@ export const ronanSeries: UserSeries = [
       {
         seasonNumber: 1,
         seasonRating: 0,
+        watching: false,
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
@@ -5638,6 +6118,7 @@ export const ronanSeries: UserSeries = [
       {
         seasonNumber: 2,
         seasonRating: 0,
+        watching: false,
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
@@ -5647,6 +6128,7 @@ export const ronanSeries: UserSeries = [
       {
         seasonNumber: 3,
         seasonRating: 0,
+        watching: false,
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
@@ -5656,6 +6138,7 @@ export const ronanSeries: UserSeries = [
       {
         seasonNumber: 4,
         seasonRating: 0,
+        watching: false,
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
@@ -5665,6 +6148,7 @@ export const ronanSeries: UserSeries = [
       {
         seasonNumber: 5,
         seasonRating: 0,
+        watching: false,
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
@@ -5674,6 +6158,7 @@ export const ronanSeries: UserSeries = [
       {
         seasonNumber: 6,
         seasonRating: 0,
+        watching: false,
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
@@ -5683,6 +6168,7 @@ export const ronanSeries: UserSeries = [
       {
         seasonNumber: 7,
         seasonRating: 0,
+        watching: false,
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
@@ -5704,6 +6190,7 @@ export const ronanSeries: UserSeries = [
       {
         seasonNumber: 1,
         seasonRating: 0,
+        watching: false,
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
@@ -5713,6 +6200,7 @@ export const ronanSeries: UserSeries = [
       {
         seasonNumber: 2,
         seasonRating: 0,
+        watching: false,
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
@@ -5722,6 +6210,7 @@ export const ronanSeries: UserSeries = [
       {
         seasonNumber: 3,
         seasonRating: 0,
+        watching: false,
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
@@ -5731,6 +6220,7 @@ export const ronanSeries: UserSeries = [
       {
         seasonNumber: 4,
         seasonRating: 0,
+        watching: false,
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
@@ -5740,6 +6230,7 @@ export const ronanSeries: UserSeries = [
       {
         seasonNumber: 5,
         seasonRating: 0,
+        watching: false,
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
@@ -5749,6 +6240,7 @@ export const ronanSeries: UserSeries = [
       {
         seasonNumber: 6,
         seasonRating: 0,
+        watching: false,
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
@@ -5758,6 +6250,7 @@ export const ronanSeries: UserSeries = [
       {
         seasonNumber: 7,
         seasonRating: 0,
+        watching: false,
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
@@ -5767,6 +6260,7 @@ export const ronanSeries: UserSeries = [
       {
         seasonNumber: 8,
         seasonRating: 0,
+        watching: false,
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
@@ -5776,6 +6270,7 @@ export const ronanSeries: UserSeries = [
       {
         seasonNumber: 9,
         seasonRating: 0,
+        watching: false,
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
@@ -5785,6 +6280,7 @@ export const ronanSeries: UserSeries = [
       {
         seasonNumber: 10,
         seasonRating: 0,
+        watching: false,
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
@@ -5794,6 +6290,7 @@ export const ronanSeries: UserSeries = [
       {
         seasonNumber: 11,
         seasonRating: 0,
+        watching: false,
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
@@ -5815,6 +6312,7 @@ export const ronanSeries: UserSeries = [
       {
         seasonNumber: 1,
         seasonRating: 0,
+        watching: false,
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
@@ -5824,6 +6322,7 @@ export const ronanSeries: UserSeries = [
       {
         seasonNumber: 2,
         seasonRating: 0,
+        watching: false,
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
@@ -5833,6 +6332,7 @@ export const ronanSeries: UserSeries = [
       {
         seasonNumber: 3,
         seasonRating: 0,
+        watching: false,
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
@@ -5842,6 +6342,7 @@ export const ronanSeries: UserSeries = [
       {
         seasonNumber: 4,
         seasonRating: 0,
+        watching: false,
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
@@ -5851,6 +6352,7 @@ export const ronanSeries: UserSeries = [
       {
         seasonNumber: 5,
         seasonRating: 0,
+        watching: false,
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
@@ -5860,6 +6362,7 @@ export const ronanSeries: UserSeries = [
       {
         seasonNumber: 6,
         seasonRating: 0,
+        watching: false,
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
@@ -5869,6 +6372,7 @@ export const ronanSeries: UserSeries = [
       {
         seasonNumber: 7,
         seasonRating: 0,
+        watching: false,
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
@@ -5878,6 +6382,7 @@ export const ronanSeries: UserSeries = [
       {
         seasonNumber: 8,
         seasonRating: 0,
+        watching: false,
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
@@ -5887,6 +6392,7 @@ export const ronanSeries: UserSeries = [
       {
         seasonNumber: 9,
         seasonRating: 0,
+        watching: false,
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
@@ -5896,6 +6402,7 @@ export const ronanSeries: UserSeries = [
       {
         seasonNumber: 10,
         seasonRating: 0,
+        watching: false,
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
@@ -5905,6 +6412,7 @@ export const ronanSeries: UserSeries = [
       {
         seasonNumber: 11,
         seasonRating: 0,
+        watching: false,
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
@@ -5914,6 +6422,7 @@ export const ronanSeries: UserSeries = [
       {
         seasonNumber: 12,
         seasonRating: 0,
+        watching: false,
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
@@ -5923,6 +6432,7 @@ export const ronanSeries: UserSeries = [
       {
         seasonNumber: 13,
         seasonRating: 0,
+        watching: false,
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
@@ -5932,6 +6442,7 @@ export const ronanSeries: UserSeries = [
       {
         seasonNumber: 14,
         seasonRating: 0,
+        watching: false,
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
@@ -5941,6 +6452,7 @@ export const ronanSeries: UserSeries = [
       {
         seasonNumber: 15,
         seasonRating: 0,
+        watching: false,
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
@@ -5950,6 +6462,7 @@ export const ronanSeries: UserSeries = [
       {
         seasonNumber: 16,
         seasonRating: 0,
+        watching: false,
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
@@ -5959,6 +6472,7 @@ export const ronanSeries: UserSeries = [
       {
         seasonNumber: 17,
         seasonRating: 0,
+        watching: false,
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
@@ -5968,6 +6482,7 @@ export const ronanSeries: UserSeries = [
       {
         seasonNumber: 18,
         seasonRating: 0,
+        watching: false,
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
@@ -5977,6 +6492,7 @@ export const ronanSeries: UserSeries = [
       {
         seasonNumber: 19,
         seasonRating: 0,
+        watching: false,
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
@@ -5986,6 +6502,7 @@ export const ronanSeries: UserSeries = [
       {
         seasonNumber: 20,
         seasonRating: 0,
+        watching: false,
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
@@ -5995,6 +6512,7 @@ export const ronanSeries: UserSeries = [
       {
         seasonNumber: 21,
         seasonRating: 0,
+        watching: false,
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
@@ -6004,6 +6522,7 @@ export const ronanSeries: UserSeries = [
       {
         seasonNumber: 22,
         seasonRating: 0,
+        watching: false,
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
@@ -6013,6 +6532,7 @@ export const ronanSeries: UserSeries = [
       {
         seasonNumber: 23,
         seasonRating: 0,
+        watching: false,
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
@@ -6022,6 +6542,7 @@ export const ronanSeries: UserSeries = [
       {
         seasonNumber: 24,
         seasonRating: 0,
+        watching: false,
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
@@ -6043,6 +6564,7 @@ export const ronanSeries: UserSeries = [
       {
         seasonNumber: 1,
         seasonRating: 0,
+        watching: false,
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
@@ -6052,6 +6574,7 @@ export const ronanSeries: UserSeries = [
       {
         seasonNumber: 2,
         seasonRating: 0,
+        watching: false,
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
@@ -6073,6 +6596,7 @@ export const ronanSeries: UserSeries = [
       {
         seasonNumber: 1,
         seasonRating: 0,
+        watching: false,
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
@@ -6094,6 +6618,7 @@ export const ronanSeries: UserSeries = [
       {
         seasonNumber: 1,
         seasonRating: 0,
+        watching: false,
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
@@ -6103,6 +6628,7 @@ export const ronanSeries: UserSeries = [
       {
         seasonNumber: 2,
         seasonRating: 0,
+        watching: false,
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
@@ -6112,6 +6638,7 @@ export const ronanSeries: UserSeries = [
       {
         seasonNumber: 3,
         seasonRating: 0,
+        watching: false,
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
@@ -6121,6 +6648,7 @@ export const ronanSeries: UserSeries = [
       {
         seasonNumber: 4,
         seasonRating: 0,
+        watching: false,
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
@@ -6130,6 +6658,7 @@ export const ronanSeries: UserSeries = [
       {
         seasonNumber: 5,
         seasonRating: 0,
+        watching: false,
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
@@ -6139,6 +6668,7 @@ export const ronanSeries: UserSeries = [
       {
         seasonNumber: 6,
         seasonRating: 0,
+        watching: false,
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
@@ -6148,6 +6678,7 @@ export const ronanSeries: UserSeries = [
       {
         seasonNumber: 7,
         seasonRating: 0,
+        watching: false,
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
@@ -6157,6 +6688,7 @@ export const ronanSeries: UserSeries = [
       {
         seasonNumber: 8,
         seasonRating: 0,
+        watching: false,
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
@@ -6166,6 +6698,7 @@ export const ronanSeries: UserSeries = [
       {
         seasonNumber: 9,
         seasonRating: 0,
+        watching: false,
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
@@ -6175,6 +6708,7 @@ export const ronanSeries: UserSeries = [
       {
         seasonNumber: 10,
         seasonRating: 0,
+        watching: false,
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
@@ -6184,6 +6718,7 @@ export const ronanSeries: UserSeries = [
       {
         seasonNumber: 11,
         seasonRating: 0,
+        watching: false,
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
@@ -6193,6 +6728,7 @@ export const ronanSeries: UserSeries = [
       {
         seasonNumber: 12,
         seasonRating: 0,
+        watching: false,
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
@@ -6202,6 +6738,7 @@ export const ronanSeries: UserSeries = [
       {
         seasonNumber: 13,
         seasonRating: 0,
+        watching: false,
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
@@ -6211,6 +6748,7 @@ export const ronanSeries: UserSeries = [
       {
         seasonNumber: 14,
         seasonRating: 0,
+        watching: false,
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
@@ -6220,6 +6758,7 @@ export const ronanSeries: UserSeries = [
       {
         seasonNumber: 15,
         seasonRating: 0,
+        watching: false,
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
@@ -6229,6 +6768,7 @@ export const ronanSeries: UserSeries = [
       {
         seasonNumber: 16,
         seasonRating: 0,
+        watching: false,
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
@@ -6238,6 +6778,7 @@ export const ronanSeries: UserSeries = [
       {
         seasonNumber: 17,
         seasonRating: 0,
+        watching: false,
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
@@ -6247,6 +6788,7 @@ export const ronanSeries: UserSeries = [
       {
         seasonNumber: 18,
         seasonRating: 0,
+        watching: false,
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
@@ -6256,6 +6798,7 @@ export const ronanSeries: UserSeries = [
       {
         seasonNumber: 19,
         seasonRating: 0,
+        watching: false,
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
@@ -6265,6 +6808,7 @@ export const ronanSeries: UserSeries = [
       {
         seasonNumber: 20,
         seasonRating: 0,
+        watching: false,
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
@@ -6274,6 +6818,7 @@ export const ronanSeries: UserSeries = [
       {
         seasonNumber: 21,
         seasonRating: 0,
+        watching: false,
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
@@ -6283,6 +6828,7 @@ export const ronanSeries: UserSeries = [
       {
         seasonNumber: 22,
         seasonRating: 0,
+        watching: false,
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
@@ -6292,6 +6838,7 @@ export const ronanSeries: UserSeries = [
       {
         seasonNumber: 23,
         seasonRating: 0,
+        watching: false,
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
@@ -6301,6 +6848,7 @@ export const ronanSeries: UserSeries = [
       {
         seasonNumber: 24,
         seasonRating: 0,
+        watching: false,
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
@@ -6310,6 +6858,7 @@ export const ronanSeries: UserSeries = [
       {
         seasonNumber: 25,
         seasonRating: 0,
+        watching: false,
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
@@ -6319,6 +6868,7 @@ export const ronanSeries: UserSeries = [
       {
         seasonNumber: 26,
         seasonRating: 0,
+        watching: false,
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
@@ -6328,6 +6878,7 @@ export const ronanSeries: UserSeries = [
       {
         seasonNumber: 27,
         seasonRating: 0,
+        watching: false,
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
@@ -6337,6 +6888,7 @@ export const ronanSeries: UserSeries = [
       {
         seasonNumber: 28,
         seasonRating: 0,
+        watching: false,
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
@@ -6346,6 +6898,7 @@ export const ronanSeries: UserSeries = [
       {
         seasonNumber: 29,
         seasonRating: 0,
+        watching: false,
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
@@ -6355,6 +6908,7 @@ export const ronanSeries: UserSeries = [
       {
         seasonNumber: 30,
         seasonRating: 0,
+        watching: false,
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
@@ -6364,6 +6918,7 @@ export const ronanSeries: UserSeries = [
       {
         seasonNumber: 31,
         seasonRating: 0,
+        watching: false,
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
@@ -6373,6 +6928,7 @@ export const ronanSeries: UserSeries = [
       {
         seasonNumber: 32,
         seasonRating: 0,
+        watching: false,
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
@@ -6382,6 +6938,7 @@ export const ronanSeries: UserSeries = [
       {
         seasonNumber: 33,
         seasonRating: 0,
+        watching: false,
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
@@ -6391,6 +6948,7 @@ export const ronanSeries: UserSeries = [
       {
         seasonNumber: 34,
         seasonRating: 0,
+        watching: false,
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
@@ -6400,6 +6958,7 @@ export const ronanSeries: UserSeries = [
       {
         seasonNumber: 35,
         seasonRating: 0,
+        watching: false,
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
@@ -6421,6 +6980,7 @@ export const ronanSeries: UserSeries = [
       {
         seasonNumber: 1,
         seasonRating: 3.5,
+        watching: false,
         seasonTimesWatched: 2,
         firstViewedDate: '',
         lastViewedDate: '',
@@ -6430,6 +6990,7 @@ export const ronanSeries: UserSeries = [
       {
         seasonNumber: 2,
         seasonRating: 3.5,
+        watching: false,
         seasonTimesWatched: 2,
         firstViewedDate: '',
         lastViewedDate: '',
@@ -6439,6 +7000,7 @@ export const ronanSeries: UserSeries = [
       {
         seasonNumber: 3,
         seasonRating: 3.5,
+        watching: false,
         seasonTimesWatched: 1,
         firstViewedDate: '',
         lastViewedDate: '',
@@ -6448,6 +7010,7 @@ export const ronanSeries: UserSeries = [
       {
         seasonNumber: 4,
         seasonRating: 3.5,
+        watching: false,
         seasonTimesWatched: 1,
         firstViewedDate: '',
         lastViewedDate: '',
@@ -6457,6 +7020,7 @@ export const ronanSeries: UserSeries = [
       {
         seasonNumber: 5,
         seasonRating: 0,
+        watching: false,
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
@@ -6466,6 +7030,7 @@ export const ronanSeries: UserSeries = [
       {
         seasonNumber: 6,
         seasonRating: 0,
+        watching: false,
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
@@ -6475,6 +7040,7 @@ export const ronanSeries: UserSeries = [
       {
         seasonNumber: 7,
         seasonRating: 0,
+        watching: false,
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
@@ -6484,6 +7050,7 @@ export const ronanSeries: UserSeries = [
       {
         seasonNumber: 8,
         seasonRating: 0,
+        watching: false,
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
@@ -6493,6 +7060,7 @@ export const ronanSeries: UserSeries = [
       {
         seasonNumber: 9,
         seasonRating: 0,
+        watching: false,
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
@@ -6514,6 +7082,7 @@ export const ronanSeries: UserSeries = [
       {
         seasonNumber: 1,
         seasonRating: 0,
+        watching: false,
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
@@ -6523,6 +7092,7 @@ export const ronanSeries: UserSeries = [
       {
         seasonNumber: 2,
         seasonRating: 0,
+        watching: false,
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
@@ -6532,6 +7102,7 @@ export const ronanSeries: UserSeries = [
       {
         seasonNumber: 3,
         seasonRating: 0,
+        watching: false,
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
@@ -6553,6 +7124,7 @@ export const ronanSeries: UserSeries = [
       {
         seasonNumber: 1,
         seasonRating: 0,
+        watching: false,
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
@@ -6574,6 +7146,7 @@ export const ronanSeries: UserSeries = [
       {
         seasonNumber: 1,
         seasonRating: 0,
+        watching: false,
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
@@ -6595,6 +7168,7 @@ export const ronanSeries: UserSeries = [
       {
         seasonNumber: 1,
         seasonRating: 3.5,
+        watching: false,
         seasonTimesWatched: 1,
         firstViewedDate: '',
         lastViewedDate: '',
@@ -6604,6 +7178,7 @@ export const ronanSeries: UserSeries = [
       {
         seasonNumber: 2,
         seasonRating: 3.5,
+        watching: false,
         seasonTimesWatched: 1,
         firstViewedDate: '',
         lastViewedDate: '',
@@ -6625,6 +7200,7 @@ export const ronanSeries: UserSeries = [
       {
         seasonNumber: 1,
         seasonRating: 3.5,
+        watching: false,
         seasonTimesWatched: 1,
         firstViewedDate: '',
         lastViewedDate: '',
@@ -6647,6 +7223,7 @@ export const ronanSeries: UserSeries = [
       {
         seasonNumber: 1,
         seasonRating: 3.25,
+        watching: false,
         seasonTimesWatched: 1,
         firstViewedDate: '',
         lastViewedDate: '2025-01-15',
@@ -6669,6 +7246,7 @@ export const ronanSeries: UserSeries = [
       {
         seasonNumber: 1,
         seasonRating: 4,
+        watching: false,
         seasonTimesWatched: 1,
         firstViewedDate: '',
         lastViewedDate: '2026-02-23',
@@ -6691,6 +7269,7 @@ export const ronanSeries: UserSeries = [
       {
         seasonNumber: 1,
         seasonRating: 4,
+        watching: false,
         seasonTimesWatched: 5,
         firstViewedDate: '',
         lastViewedDate: '',
@@ -6713,6 +7292,7 @@ export const ronanSeries: UserSeries = [
       {
         seasonNumber: 1,
         seasonRating: 4.5,
+        watching: false,
         seasonTimesWatched: 1,
         firstViewedDate: '',
         lastViewedDate: '2025-02-18',
@@ -6735,6 +7315,7 @@ export const ronanSeries: UserSeries = [
       {
         seasonNumber: 1,
         seasonRating: 3.5,
+        watching: false,
         seasonTimesWatched: 1,
         firstViewedDate: '',
         lastViewedDate: '',
@@ -6757,6 +7338,7 @@ export const ronanSeries: UserSeries = [
       {
         seasonNumber: 1,
         seasonRating: 3.5,
+        watching: false,
         seasonTimesWatched: 1,
         firstViewedDate: '',
         lastViewedDate: '',
@@ -6766,6 +7348,7 @@ export const ronanSeries: UserSeries = [
       {
         seasonNumber: 2,
         seasonRating: 3.5,
+        watching: false,
         seasonTimesWatched: 1,
         firstViewedDate: '',
         lastViewedDate: '',
@@ -6775,6 +7358,7 @@ export const ronanSeries: UserSeries = [
       {
         seasonNumber: 3,
         seasonRating: 3.5,
+        watching: false,
         seasonTimesWatched: 1,
         firstViewedDate: '',
         lastViewedDate: '',
@@ -6797,6 +7381,7 @@ export const ronanSeries: UserSeries = [
       {
         seasonNumber: 1,
         seasonRating: 2,
+        watching: false,
         seasonTimesWatched: 1,
         firstViewedDate: '',
         lastViewedDate: '2022-02-09',
@@ -6819,6 +7404,7 @@ export const ronanSeries: UserSeries = [
       {
         seasonNumber: 1,
         seasonRating: 4.75,
+        watching: false,
         seasonTimesWatched: 2,
         firstViewedDate: '',
         lastViewedDate: '',
@@ -6827,6 +7413,7 @@ export const ronanSeries: UserSeries = [
       {
         seasonNumber: 2,
         seasonRating: 4.5,
+        watching: false,
         seasonTimesWatched: 1,
         firstViewedDate: '',
         lastViewedDate: '2025-05-14',
@@ -6848,6 +7435,7 @@ export const ronanSeries: UserSeries = [
       {
         seasonNumber: 1,
         seasonRating: 2,
+        watching: false,
         seasonTimesWatched: 1,
         firstViewedDate: '',
         lastViewedDate: '2024-07-17',
@@ -6870,6 +7458,7 @@ export const ronanSeries: UserSeries = [
       {
         seasonNumber: 1,
         seasonRating: 3.5,
+        watching: false,
         seasonTimesWatched: 1,
         firstViewedDate: '',
         lastViewedDate: '2025-01-15',
@@ -6892,6 +7481,7 @@ export const ronanSeries: UserSeries = [
       {
         seasonNumber: 1,
         seasonRating: 4,
+        watching: false,
         seasonTimesWatched: 1,
         firstViewedDate: '',
         lastViewedDate: '',
@@ -6901,6 +7491,7 @@ export const ronanSeries: UserSeries = [
       {
         seasonNumber: 2,
         seasonRating: 3,
+        watching: false,
         seasonTimesWatched: 1,
         firstViewedDate: '',
         lastViewedDate: '2024-08-04',
@@ -6910,6 +7501,7 @@ export const ronanSeries: UserSeries = [
       {
         seasonNumber: 3,
         seasonRating: 0,
+        watching: false,
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
@@ -6932,6 +7524,7 @@ export const ronanSeries: UserSeries = [
       {
         seasonNumber: 1,
         seasonRating: 3,
+        watching: false,
         seasonTimesWatched: 1,
         firstViewedDate: '',
         lastViewedDate: '',
@@ -6941,6 +7534,7 @@ export const ronanSeries: UserSeries = [
       {
         seasonNumber: 2,
         seasonRating: 4,
+        watching: false,
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
@@ -6950,6 +7544,7 @@ export const ronanSeries: UserSeries = [
       {
         seasonNumber: 3,
         seasonRating: 2.5,
+        watching: false,
         seasonTimesWatched: 1,
         firstViewedDate: '',
         lastViewedDate: '',
@@ -6959,6 +7554,7 @@ export const ronanSeries: UserSeries = [
       {
         seasonNumber: 4,
         seasonRating: 2,
+        watching: false,
         seasonTimesWatched: 1,
         firstViewedDate: '',
         lastViewedDate: '',
@@ -6968,6 +7564,7 @@ export const ronanSeries: UserSeries = [
       {
         seasonNumber: 5,
         seasonRating: 0,
+        watching: false,
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
@@ -6977,6 +7574,7 @@ export const ronanSeries: UserSeries = [
       {
         seasonNumber: 6,
         seasonRating: 0,
+        watching: false,
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
@@ -6999,6 +7597,7 @@ export const ronanSeries: UserSeries = [
       {
         seasonNumber: 1,
         seasonRating: 2.5,
+        watching: false,
         seasonTimesWatched: 1,
         firstViewedDate: '',
         lastViewedDate: '',
@@ -7008,6 +7607,7 @@ export const ronanSeries: UserSeries = [
       {
         seasonNumber: 2,
         seasonRating: 3.5,
+        watching: false,
         seasonTimesWatched: 1,
         firstViewedDate: '',
         lastViewedDate: '',
@@ -7017,6 +7617,7 @@ export const ronanSeries: UserSeries = [
       {
         seasonNumber: 3,
         seasonRating: 4,
+        watching: false,
         seasonTimesWatched: 1,
         firstViewedDate: '',
         lastViewedDate: '',
@@ -7026,6 +7627,7 @@ export const ronanSeries: UserSeries = [
       {
         seasonNumber: 4,
         seasonRating: 4,
+        watching: false,
         seasonTimesWatched: 1,
         firstViewedDate: '',
         lastViewedDate: '',
@@ -7035,6 +7637,7 @@ export const ronanSeries: UserSeries = [
       {
         seasonNumber: 5,
         seasonRating: 0,
+        watching: false,
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
@@ -7044,6 +7647,7 @@ export const ronanSeries: UserSeries = [
       {
         seasonNumber: 6,
         seasonRating: 0,
+        watching: false,
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
@@ -7053,6 +7657,7 @@ export const ronanSeries: UserSeries = [
       {
         seasonNumber: 7,
         seasonRating: 0,
+        watching: false,
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
@@ -7075,6 +7680,7 @@ export const ronanSeries: UserSeries = [
       {
         seasonNumber: 1,
         seasonRating: 2.5,
+        watching: false,
         seasonTimesWatched: 1,
         firstViewedDate: '',
         lastViewedDate: '',
@@ -7084,6 +7690,7 @@ export const ronanSeries: UserSeries = [
       {
         seasonNumber: 2,
         seasonRating: 2,
+        watching: false,
         seasonTimesWatched: 1,
         firstViewedDate: '',
         lastViewedDate: '',
@@ -7093,6 +7700,7 @@ export const ronanSeries: UserSeries = [
       {
         seasonNumber: 3,
         seasonRating: 1.5,
+        watching: false,
         seasonTimesWatched: 1,
         firstViewedDate: '',
         lastViewedDate: '',
@@ -7102,6 +7710,7 @@ export const ronanSeries: UserSeries = [
       {
         seasonNumber: 4,
         seasonRating: 0,
+        watching: false,
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
@@ -7124,6 +7733,7 @@ export const ronanSeries: UserSeries = [
       {
         seasonNumber: 1,
         seasonRating: 2,
+        watching: false,
         seasonTimesWatched: 1,
         firstViewedDate: '',
         lastViewedDate: '',
@@ -7133,6 +7743,7 @@ export const ronanSeries: UserSeries = [
       {
         seasonNumber: 2,
         seasonRating: 0,
+        watching: false,
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
@@ -7142,6 +7753,7 @@ export const ronanSeries: UserSeries = [
       {
         seasonNumber: 3,
         seasonRating: 0,
+        watching: false,
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
@@ -7164,6 +7776,7 @@ export const ronanSeries: UserSeries = [
       {
         seasonNumber: 1,
         seasonRating: 2.5,
+        watching: false,
         seasonTimesWatched: 1,
         firstViewedDate: '',
         lastViewedDate: '',
@@ -7173,6 +7786,7 @@ export const ronanSeries: UserSeries = [
       {
         seasonNumber: 2,
         seasonRating: 2.5,
+        watching: false,
         seasonTimesWatched: 1,
         firstViewedDate: '',
         lastViewedDate: '',
@@ -7195,6 +7809,7 @@ export const ronanSeries: UserSeries = [
       {
         seasonNumber: 1,
         seasonRating: 2.5,
+        watching: false,
         seasonTimesWatched: 1,
         firstViewedDate: '',
         lastViewedDate: '',
@@ -7204,6 +7819,7 @@ export const ronanSeries: UserSeries = [
       {
         seasonNumber: 2,
         seasonRating: 2.5,
+        watching: false,
         seasonTimesWatched: 1,
         firstViewedDate: '',
         lastViewedDate: '',
@@ -7226,6 +7842,7 @@ export const ronanSeries: UserSeries = [
       {
         seasonNumber: 1,
         seasonRating: 4,
+        watching: false,
         seasonTimesWatched: 1,
         firstViewedDate: '',
         lastViewedDate: '',
@@ -7235,6 +7852,7 @@ export const ronanSeries: UserSeries = [
       {
         seasonNumber: 2,
         seasonRating: 0,
+        watching: false,
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
@@ -7257,6 +7875,7 @@ export const ronanSeries: UserSeries = [
       {
         seasonNumber: 1,
         seasonRating: 3,
+        watching: false,
         seasonTimesWatched: 1,
         firstViewedDate: '',
         lastViewedDate: '2024-01-30',
@@ -7266,6 +7885,7 @@ export const ronanSeries: UserSeries = [
       {
         seasonNumber: 2,
         seasonRating: 3.5,
+        watching: false,
         seasonTimesWatched: 1,
         firstViewedDate: '',
         lastViewedDate: '2026-01-21',
@@ -7288,6 +7908,7 @@ export const ronanSeries: UserSeries = [
       {
         seasonNumber: 1,
         seasonRating: 3.5,
+        watching: false,
         seasonTimesWatched: 1,
         firstViewedDate: '',
         lastViewedDate: '2026-03-02',
@@ -7310,6 +7931,7 @@ export const ronanSeries: UserSeries = [
       {
         seasonNumber: 1,
         seasonRating: 3,
+        watching: false,
         seasonTimesWatched: 1,
         firstViewedDate: '',
         lastViewedDate: '2022-07-13',
@@ -7332,6 +7954,7 @@ export const ronanSeries: UserSeries = [
       {
         seasonNumber: 1,
         seasonRating: 4,
+        watching: false,
         seasonTimesWatched: 1,
         firstViewedDate: '',
         lastViewedDate: '2025-02-18',
@@ -7354,6 +7977,7 @@ export const ronanSeries: UserSeries = [
       {
         seasonNumber: 1,
         seasonRating: 3,
+        watching: false,
         seasonTimesWatched: 1,
         firstViewedDate: '',
         lastViewedDate: '',
@@ -7363,6 +7987,7 @@ export const ronanSeries: UserSeries = [
       {
         seasonNumber: 2,
         seasonRating: 3,
+        watching: false,
         seasonTimesWatched: 1,
         firstViewedDate: '',
         lastViewedDate: '',
@@ -7372,6 +7997,7 @@ export const ronanSeries: UserSeries = [
       {
         seasonNumber: 3,
         seasonRating: 3,
+        watching: false,
         seasonTimesWatched: 1,
         firstViewedDate: '',
         lastViewedDate: '',
@@ -7394,6 +8020,7 @@ export const ronanSeries: UserSeries = [
       {
         seasonNumber: 1,
         seasonRating: 3,
+        watching: false,
         seasonTimesWatched: 1,
         firstViewedDate: '',
         lastViewedDate: '',
@@ -7403,6 +8030,7 @@ export const ronanSeries: UserSeries = [
       {
         seasonNumber: 2,
         seasonRating: 3,
+        watching: false,
         seasonTimesWatched: 1,
         firstViewedDate: '',
         lastViewedDate: '',
@@ -7412,6 +8040,7 @@ export const ronanSeries: UserSeries = [
       {
         seasonNumber: 3,
         seasonRating: 3.5,
+        watching: false,
         seasonTimesWatched: 1,
         firstViewedDate: '',
         lastViewedDate: '',
@@ -7434,6 +8063,7 @@ export const ronanSeries: UserSeries = [
       {
         seasonNumber: 1,
         seasonRating: 3.5,
+        watching: false,
         seasonTimesWatched: 1,
         firstViewedDate: '',
         lastViewedDate: '',
@@ -7456,6 +8086,7 @@ export const ronanSeries: UserSeries = [
       {
         seasonNumber: 1,
         seasonRating: 2.5,
+        watching: false,
         seasonTimesWatched: 1,
         firstViewedDate: '',
         lastViewedDate: '',
@@ -7478,6 +8109,7 @@ export const ronanSeries: UserSeries = [
       {
         seasonNumber: 1,
         seasonRating: 2.5,
+        watching: false,
         seasonTimesWatched: 1,
         firstViewedDate: '',
         lastViewedDate: '',
@@ -7500,6 +8132,7 @@ export const ronanSeries: UserSeries = [
       {
         seasonNumber: 1,
         seasonRating: 2.5,
+        watching: false,
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
@@ -7509,6 +8142,7 @@ export const ronanSeries: UserSeries = [
       {
         seasonNumber: 2,
         seasonRating: 0,
+        watching: false,
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
@@ -7531,6 +8165,7 @@ export const ronanSeries: UserSeries = [
       {
         seasonNumber: 1,
         seasonRating: 3,
+        watching: false,
         seasonTimesWatched: 1,
         firstViewedDate: '',
         lastViewedDate: '',
@@ -7553,6 +8188,7 @@ export const ronanSeries: UserSeries = [
       {
         seasonNumber: 1,
         seasonRating: 3,
+        watching: false,
         seasonTimesWatched: 1,
         firstViewedDate: '',
         lastViewedDate: '',
@@ -7575,6 +8211,7 @@ export const ronanSeries: UserSeries = [
       {
         seasonNumber: 1,
         seasonRating: 2.5,
+        watching: false,
         seasonTimesWatched: 1,
         firstViewedDate: '',
         lastViewedDate: '',
@@ -7597,6 +8234,7 @@ export const ronanSeries: UserSeries = [
       {
         seasonNumber: 1,
         seasonRating: 2,
+        watching: false,
         seasonTimesWatched: 1,
         firstViewedDate: '',
         lastViewedDate: '',
@@ -7619,6 +8257,7 @@ export const ronanSeries: UserSeries = [
       {
         seasonNumber: 1,
         seasonRating: 3,
+        watching: false,
         seasonTimesWatched: 1,
         firstViewedDate: '',
         lastViewedDate: '',
@@ -7641,6 +8280,7 @@ export const ronanSeries: UserSeries = [
       {
         seasonNumber: 1,
         seasonRating: 3.5,
+        watching: false,
         seasonTimesWatched: 1,
         firstViewedDate: '',
         lastViewedDate: '',
@@ -7650,6 +8290,7 @@ export const ronanSeries: UserSeries = [
       {
         seasonNumber: 2,
         seasonRating: 3.5,
+        watching: false,
         seasonTimesWatched: 1,
         firstViewedDate: '',
         lastViewedDate: '2026-03-20',
@@ -7672,6 +8313,7 @@ export const ronanSeries: UserSeries = [
       {
         seasonNumber: 1,
         seasonRating: 3.75,
+        watching: false,
         seasonTimesWatched: 1,
         firstViewedDate: '',
         lastViewedDate: '',
@@ -7681,6 +8323,7 @@ export const ronanSeries: UserSeries = [
       {
         seasonNumber: 2,
         seasonRating: 4,
+        watching: false,
         seasonTimesWatched: 1,
         firstViewedDate: '',
         lastViewedDate: '',
@@ -7690,6 +8333,7 @@ export const ronanSeries: UserSeries = [
       {
         seasonNumber: 3,
         seasonRating: 4,
+        watching: false,
         seasonTimesWatched: 1,
         firstViewedDate: '',
         lastViewedDate: '2026-04-08',
@@ -7712,6 +8356,7 @@ export const ronanSeries: UserSeries = [
       {
         seasonNumber: 1,
         seasonRating: 3,
+        watching: false,
         seasonTimesWatched: 1,
         firstViewedDate: '',
         lastViewedDate: '2026-04-10',
@@ -7734,6 +8379,7 @@ export const ronanSeries: UserSeries = [
       {
         seasonNumber: 1,
         seasonRating: 3.5,
+        watching: false,
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
@@ -7756,6 +8402,7 @@ export const ronanSeries: UserSeries = [
       {
         seasonNumber: 1,
         seasonRating: 4,
+        watching: false,
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
@@ -7765,6 +8412,7 @@ export const ronanSeries: UserSeries = [
       {
         seasonNumber: 2,
         seasonRating: 4,
+        watching: false,
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
@@ -7774,6 +8422,7 @@ export const ronanSeries: UserSeries = [
       {
         seasonNumber: 3,
         seasonRating: 4,
+        watching: false,
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
@@ -7783,6 +8432,7 @@ export const ronanSeries: UserSeries = [
       {
         seasonNumber: 4,
         seasonRating: 4,
+        watching: false,
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
@@ -7792,6 +8442,7 @@ export const ronanSeries: UserSeries = [
       {
         seasonNumber: 5,
         seasonRating: 4,
+        watching: false,
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
@@ -7801,6 +8452,7 @@ export const ronanSeries: UserSeries = [
       {
         seasonNumber: 6,
         seasonRating: 3.5,
+        watching: false,
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
@@ -7810,6 +8462,7 @@ export const ronanSeries: UserSeries = [
       {
         seasonNumber: 7,
         seasonRating: 3.5,
+        watching: false,
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
@@ -7819,6 +8472,7 @@ export const ronanSeries: UserSeries = [
       {
         seasonNumber: 8,
         seasonRating: 3.5,
+        watching: false,
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
@@ -7828,6 +8482,7 @@ export const ronanSeries: UserSeries = [
       {
         seasonNumber: 9,
         seasonRating: 0,
+        watching: false,
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
@@ -7837,6 +8492,7 @@ export const ronanSeries: UserSeries = [
       {
         seasonNumber: 10,
         seasonRating: 0,
+        watching: false,
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
@@ -7846,6 +8502,7 @@ export const ronanSeries: UserSeries = [
       {
         seasonNumber: 11,
         seasonRating: 0,
+        watching: false,
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
@@ -7868,6 +8525,7 @@ export const ronanSeries: UserSeries = [
       {
         seasonNumber: 1,
         seasonRating: 3.5,
+        watching: false,
         seasonTimesWatched: 1,
         firstViewedDate: '',
         lastViewedDate: '',
@@ -7877,6 +8535,7 @@ export const ronanSeries: UserSeries = [
       {
         seasonNumber: 2,
         seasonRating: 3.5,
+        watching: false,
         seasonTimesWatched: 1,
         firstViewedDate: '',
         lastViewedDate: '',
@@ -7886,6 +8545,7 @@ export const ronanSeries: UserSeries = [
       {
         seasonNumber: 3,
         seasonRating: 3,
+        watching: false,
         seasonTimesWatched: 1,
         firstViewedDate: '',
         lastViewedDate: '',
@@ -7908,6 +8568,7 @@ export const ronanSeries: UserSeries = [
       {
         seasonNumber: 1,
         seasonRating: 3,
+        watching: false,
         seasonTimesWatched: 1,
         firstViewedDate: '',
         lastViewedDate: '',
@@ -7930,6 +8591,7 @@ export const ronanSeries: UserSeries = [
       {
         seasonNumber: 1,
         seasonRating: 3.5,
+        watching: false,
         seasonTimesWatched: 1,
         firstViewedDate: '',
         lastViewedDate: '',
@@ -7939,6 +8601,7 @@ export const ronanSeries: UserSeries = [
       {
         seasonNumber: 2,
         seasonRating: 4,
+        watching: false,
         seasonTimesWatched: 1,
         firstViewedDate: '',
         lastViewedDate: '',
@@ -7948,6 +8611,7 @@ export const ronanSeries: UserSeries = [
       {
         seasonNumber: 3,
         seasonRating: 4,
+        watching: false,
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
@@ -7957,6 +8621,7 @@ export const ronanSeries: UserSeries = [
       {
         seasonNumber: 4,
         seasonRating: 4.5,
+        watching: false,
         seasonTimesWatched: 1,
         firstViewedDate: '',
         lastViewedDate: '',
@@ -7966,6 +8631,7 @@ export const ronanSeries: UserSeries = [
       {
         seasonNumber: 5,
         seasonRating: 3.5,
+        watching: false,
         seasonTimesWatched: 1,
         firstViewedDate: '',
         lastViewedDate: '',
@@ -7975,6 +8641,7 @@ export const ronanSeries: UserSeries = [
       {
         seasonNumber: 6,
         seasonRating: 3.5,
+        watching: false,
         seasonTimesWatched: 1,
         firstViewedDate: '',
         lastViewedDate: '',
@@ -7997,6 +8664,7 @@ export const ronanSeries: UserSeries = [
       {
         seasonNumber: 1,
         seasonRating: 2.5,
+        watching: false,
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
@@ -8006,6 +8674,7 @@ export const ronanSeries: UserSeries = [
       {
         seasonNumber: 2,
         seasonRating: 3,
+        watching: false,
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
@@ -8015,6 +8684,7 @@ export const ronanSeries: UserSeries = [
       {
         seasonNumber: 3,
         seasonRating: 3,
+        watching: false,
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
@@ -8024,6 +8694,7 @@ export const ronanSeries: UserSeries = [
       {
         seasonNumber: 4,
         seasonRating: 2.5,
+        watching: false,
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
@@ -8033,6 +8704,7 @@ export const ronanSeries: UserSeries = [
       {
         seasonNumber: 5,
         seasonRating: 2.5,
+        watching: false,
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
@@ -8042,6 +8714,7 @@ export const ronanSeries: UserSeries = [
       {
         seasonNumber: 6,
         seasonRating: 2.5,
+        watching: false,
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
@@ -8051,6 +8724,7 @@ export const ronanSeries: UserSeries = [
       {
         seasonNumber: 7,
         seasonRating: 2.5,
+        watching: false,
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
@@ -8073,6 +8747,7 @@ export const ronanSeries: UserSeries = [
       {
         seasonNumber: 1,
         seasonRating: 4,
+        watching: false,
         seasonTimesWatched: 1,
         firstViewedDate: '',
         lastViewedDate: '',
@@ -8095,6 +8770,7 @@ export const ronanSeries: UserSeries = [
       {
         seasonNumber: 1,
         seasonRating: 3.5,
+        watching: false,
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
@@ -8104,6 +8780,7 @@ export const ronanSeries: UserSeries = [
       {
         seasonNumber: 2,
         seasonRating: 3.5,
+        watching: false,
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
@@ -8113,6 +8790,7 @@ export const ronanSeries: UserSeries = [
       {
         seasonNumber: 3,
         seasonRating: 3.5,
+        watching: false,
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
@@ -8122,6 +8800,7 @@ export const ronanSeries: UserSeries = [
       {
         seasonNumber: 4,
         seasonRating: 3.5,
+        watching: false,
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
@@ -8131,6 +8810,7 @@ export const ronanSeries: UserSeries = [
       {
         seasonNumber: 5,
         seasonRating: 0,
+        watching: false,
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
@@ -8140,6 +8820,7 @@ export const ronanSeries: UserSeries = [
       {
         seasonNumber: 6,
         seasonRating: 0,
+        watching: false,
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
@@ -8149,6 +8830,7 @@ export const ronanSeries: UserSeries = [
       {
         seasonNumber: 7,
         seasonRating: 0,
+        watching: false,
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
@@ -8158,6 +8840,7 @@ export const ronanSeries: UserSeries = [
       {
         seasonNumber: 8,
         seasonRating: 0,
+        watching: false,
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
@@ -8167,6 +8850,7 @@ export const ronanSeries: UserSeries = [
       {
         seasonNumber: 9,
         seasonRating: 0,
+        watching: false,
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
@@ -8176,6 +8860,7 @@ export const ronanSeries: UserSeries = [
       {
         seasonNumber: 10,
         seasonRating: 0,
+        watching: false,
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
@@ -8185,6 +8870,7 @@ export const ronanSeries: UserSeries = [
       {
         seasonNumber: 11,
         seasonRating: 0,
+        watching: false,
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
@@ -8194,6 +8880,7 @@ export const ronanSeries: UserSeries = [
       {
         seasonNumber: 12,
         seasonRating: 0,
+        watching: false,
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
@@ -8203,6 +8890,7 @@ export const ronanSeries: UserSeries = [
       {
         seasonNumber: 13,
         seasonRating: 0,
+        watching: false,
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
@@ -8212,6 +8900,7 @@ export const ronanSeries: UserSeries = [
       {
         seasonNumber: 14,
         seasonRating: 0,
+        watching: false,
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
@@ -8234,6 +8923,7 @@ export const ronanSeries: UserSeries = [
       {
         seasonNumber: 1,
         seasonRating: 3.5,
+        watching: false,
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
@@ -8243,6 +8933,7 @@ export const ronanSeries: UserSeries = [
       {
         seasonNumber: 2,
         seasonRating: 3.5,
+        watching: false,
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
@@ -8265,6 +8956,7 @@ export const ronanSeries: UserSeries = [
       {
         seasonNumber: 1,
         seasonRating: 3,
+        watching: false,
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
@@ -8274,6 +8966,7 @@ export const ronanSeries: UserSeries = [
       {
         seasonNumber: 2,
         seasonRating: 3.5,
+        watching: false,
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
@@ -8283,6 +8976,7 @@ export const ronanSeries: UserSeries = [
       {
         seasonNumber: 3,
         seasonRating: 3,
+        watching: false,
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
@@ -8292,6 +8986,7 @@ export const ronanSeries: UserSeries = [
       {
         seasonNumber: 4,
         seasonRating: 3,
+        watching: false,
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
@@ -8301,6 +8996,7 @@ export const ronanSeries: UserSeries = [
       {
         seasonNumber: 5,
         seasonRating: 0,
+        watching: false,
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
@@ -8310,6 +9006,7 @@ export const ronanSeries: UserSeries = [
       {
         seasonNumber: 6,
         seasonRating: 0,
+        watching: false,
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
@@ -8332,6 +9029,7 @@ export const ronanSeries: UserSeries = [
       {
         seasonNumber: 1,
         seasonRating: 3.5,
+        watching: false,
         seasonTimesWatched: 1,
         firstViewedDate: '',
         lastViewedDate: '',
@@ -8341,6 +9039,7 @@ export const ronanSeries: UserSeries = [
       {
         seasonNumber: 2,
         seasonRating: 3.5,
+        watching: false,
         seasonTimesWatched: 1,
         firstViewedDate: '',
         lastViewedDate: '',
@@ -8350,6 +9049,7 @@ export const ronanSeries: UserSeries = [
       {
         seasonNumber: 3,
         seasonRating: 3.5,
+        watching: false,
         seasonTimesWatched: 1,
         firstViewedDate: '',
         lastViewedDate: '',
@@ -8359,6 +9059,7 @@ export const ronanSeries: UserSeries = [
       {
         seasonNumber: 4,
         seasonRating: 3,
+        watching: false,
         seasonTimesWatched: 1,
         firstViewedDate: '',
         lastViewedDate: '2026-04-29',
@@ -8381,6 +9082,7 @@ export const ronanSeries: UserSeries = [
       {
         seasonNumber: 1,
         seasonRating: 3.5,
+        watching: false,
         seasonTimesWatched: 1,
         firstViewedDate: '',
         lastViewedDate: '',
@@ -8390,6 +9092,7 @@ export const ronanSeries: UserSeries = [
       {
         seasonNumber: 2,
         seasonRating: 3.5,
+        watching: false,
         seasonTimesWatched: 1,
         firstViewedDate: '',
         lastViewedDate: '',
@@ -8399,6 +9102,7 @@ export const ronanSeries: UserSeries = [
       {
         seasonNumber: 3,
         seasonRating: 3.5,
+        watching: false,
         seasonTimesWatched: 1,
         firstViewedDate: '',
         lastViewedDate: '',
@@ -8408,6 +9112,7 @@ export const ronanSeries: UserSeries = [
       {
         seasonNumber: 4,
         seasonRating: 3.5,
+        watching: false,
         seasonTimesWatched: 1,
         firstViewedDate: '',
         lastViewedDate: '',
@@ -8430,6 +9135,7 @@ export const ronanSeries: UserSeries = [
       {
         seasonNumber: 1,
         seasonRating: 3.5,
+        watching: false,
         seasonTimesWatched: 1,
         firstViewedDate: '',
         lastViewedDate: '',
@@ -8439,6 +9145,7 @@ export const ronanSeries: UserSeries = [
       {
         seasonNumber: 2,
         seasonRating: 3.5,
+        watching: false,
         seasonTimesWatched: 1,
         firstViewedDate: '',
         lastViewedDate: '',
@@ -8448,6 +9155,7 @@ export const ronanSeries: UserSeries = [
       {
         seasonNumber: 3,
         seasonRating: 3,
+        watching: false,
         seasonTimesWatched: 1,
         firstViewedDate: '',
         lastViewedDate: '',
@@ -8457,6 +9165,7 @@ export const ronanSeries: UserSeries = [
       {
         seasonNumber: 4,
         seasonRating: 3,
+        watching: false,
         seasonTimesWatched: 1,
         firstViewedDate: '',
         lastViewedDate: '',
@@ -8479,6 +9188,7 @@ export const ronanSeries: UserSeries = [
     {
       seasonNumber: 1,
       seasonRating: 4,
+      watching: false,
       seasonTimesWatched: 1,
       firstViewedDate: "",
       lastViewedDate: "",
@@ -8487,6 +9197,7 @@ export const ronanSeries: UserSeries = [
     {
       seasonNumber: 2,
       seasonRating: 4.5,
+      watching: false,
       seasonTimesWatched: 1,
       firstViewedDate: "",
       lastViewedDate: "",
@@ -8495,6 +9206,7 @@ export const ronanSeries: UserSeries = [
     {
       seasonNumber: 3,
       seasonRating: 3,
+      watching: false,
       seasonTimesWatched: 1,
       firstViewedDate: "",
       lastViewedDate: "2026-06-01",
@@ -8516,6 +9228,7 @@ export const ronanSeries: UserSeries = [
       {
         seasonNumber: 1,
         seasonRating: 3.5,
+        watching: false,
         seasonTimesWatched: 1,
         firstViewedDate: '',
         lastViewedDate: '',
@@ -8538,6 +9251,7 @@ export const ronanSeries: UserSeries = [
       {
         seasonNumber: 1,
         seasonRating: 3,
+        watching: false,
         seasonTimesWatched: 1,
         firstViewedDate: '',
         lastViewedDate: '',
@@ -8547,6 +9261,7 @@ export const ronanSeries: UserSeries = [
       {
         seasonNumber: 2,
         seasonRating: 3,
+        watching: false,
         seasonTimesWatched: 1,
         firstViewedDate: '',
         lastViewedDate: '',
@@ -8569,6 +9284,7 @@ export const ronanSeries: UserSeries = [
       {
         seasonNumber: 1,
         seasonRating: 4,
+        watching: false,
         seasonTimesWatched: 1,
         firstViewedDate: '',
         lastViewedDate: '',
@@ -8578,6 +9294,7 @@ export const ronanSeries: UserSeries = [
       {
         seasonNumber: 2,
         seasonRating: 2,
+        watching: false,
         seasonTimesWatched: 1,
         firstViewedDate: '',
         lastViewedDate: '',
@@ -8587,6 +9304,7 @@ export const ronanSeries: UserSeries = [
       {
         seasonNumber: 3,
         seasonRating: 3.5,
+        watching: false,
         seasonTimesWatched: 1,
         firstViewedDate: '',
         lastViewedDate: '',
@@ -8596,6 +9314,7 @@ export const ronanSeries: UserSeries = [
       {
         seasonNumber: 4,
         seasonRating: 3,
+        watching: false,
         seasonTimesWatched: 1,
         firstViewedDate: '',
         lastViewedDate: '',
@@ -8618,6 +9337,7 @@ export const ronanSeries: UserSeries = [
       {
         seasonNumber: 1,
         seasonRating: 3.5,
+        watching: false,
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
@@ -8640,6 +9360,7 @@ export const ronanSeries: UserSeries = [
       {
         seasonNumber: 1,
         seasonRating: 3.5,
+        watching: false,
         seasonTimesWatched: 1,
         firstViewedDate: '',
         lastViewedDate: '',
@@ -8649,6 +9370,7 @@ export const ronanSeries: UserSeries = [
       {
         seasonNumber: 2,
         seasonRating: 3.5,
+        watching: false,
         seasonTimesWatched: 1,
         firstViewedDate: '',
         lastViewedDate: '',
@@ -8658,6 +9380,7 @@ export const ronanSeries: UserSeries = [
       {
         seasonNumber: 3,
         seasonRating: 3.5,
+        watching: false,
         seasonTimesWatched: 1,
         firstViewedDate: '',
         lastViewedDate: '',
@@ -8667,6 +9390,7 @@ export const ronanSeries: UserSeries = [
       {
         seasonNumber: 4,
         seasonRating: 3.5,
+        watching: false,
         seasonTimesWatched: 1,
         firstViewedDate: '',
         lastViewedDate: '',
@@ -8676,6 +9400,7 @@ export const ronanSeries: UserSeries = [
       {
         seasonNumber: 5,
         seasonRating: 3.5,
+        watching: false,
         seasonTimesWatched: 1,
         firstViewedDate: '',
         lastViewedDate: '',
@@ -8685,6 +9410,7 @@ export const ronanSeries: UserSeries = [
       {
         seasonNumber: 6,
         seasonRating: 3.5,
+        watching: false,
         seasonTimesWatched: 1,
         firstViewedDate: '',
         lastViewedDate: '',
@@ -8694,6 +9420,7 @@ export const ronanSeries: UserSeries = [
       {
         seasonNumber: 7,
         seasonRating: 3.5,
+        watching: false,
         seasonTimesWatched: 1,
         firstViewedDate: '',
         lastViewedDate: '',
@@ -8703,6 +9430,7 @@ export const ronanSeries: UserSeries = [
       {
         seasonNumber: 8,
         seasonRating: 3.5,
+        watching: false,
         seasonTimesWatched: 1,
         firstViewedDate: '',
         lastViewedDate: '',
@@ -8725,6 +9453,7 @@ export const ronanSeries: UserSeries = [
       {
         seasonNumber: 1,
         seasonRating: 3.5,
+        watching: false,
         seasonTimesWatched: 1,
         firstViewedDate: '',
         lastViewedDate: '',
@@ -8747,6 +9476,7 @@ export const ronanSeries: UserSeries = [
       {
         seasonNumber: 1,
         seasonRating: 3.5,
+        watching: false,
         seasonTimesWatched: 1,
         firstViewedDate: '',
         lastViewedDate: '',
@@ -8756,6 +9486,7 @@ export const ronanSeries: UserSeries = [
       {
         seasonNumber: 2,
         seasonRating: 3.5,
+        watching: false,
         seasonTimesWatched: 1,
         firstViewedDate: '',
         lastViewedDate: '',
@@ -8765,6 +9496,7 @@ export const ronanSeries: UserSeries = [
       {
         seasonNumber: 3,
         seasonRating: 3.5,
+        watching: false,
         seasonTimesWatched: 1,
         firstViewedDate: '',
         lastViewedDate: '',
@@ -8774,6 +9506,7 @@ export const ronanSeries: UserSeries = [
       {
         seasonNumber: 4,
         seasonRating: 3.5,
+        watching: false,
         seasonTimesWatched: 1,
         firstViewedDate: '',
         lastViewedDate: '',
@@ -8796,6 +9529,7 @@ export const ronanSeries: UserSeries = [
       {
         seasonNumber: 1,
         seasonRating: 3,
+        watching: false,
         seasonTimesWatched: 3,
         firstViewedDate: '',
         lastViewedDate: '',
@@ -8818,6 +9552,7 @@ export const ronanSeries: UserSeries = [
       {
         seasonNumber: 1,
         seasonRating: 3.5,
+        watching: false,
         seasonTimesWatched: 1,
         firstViewedDate: '',
         lastViewedDate: '',
@@ -8827,6 +9562,7 @@ export const ronanSeries: UserSeries = [
       {
         seasonNumber: 2,
         seasonRating: 3.5,
+        watching: false,
         seasonTimesWatched: 1,
         firstViewedDate: '',
         lastViewedDate: '',
@@ -8849,6 +9585,7 @@ export const ronanSeries: UserSeries = [
       {
         seasonNumber: 1,
         seasonRating: 3.5,
+        watching: false,
         seasonTimesWatched: 3,
         firstViewedDate: '',
         lastViewedDate: '',
@@ -8858,6 +9595,7 @@ export const ronanSeries: UserSeries = [
       {
         seasonNumber: 2,
         seasonRating: 3.5,
+        watching: false,
         seasonTimesWatched: 3,
         firstViewedDate: '',
         lastViewedDate: '',
@@ -8867,6 +9605,7 @@ export const ronanSeries: UserSeries = [
       {
         seasonNumber: 3,
         seasonRating: 3.5,
+        watching: false,
         seasonTimesWatched: 3,
         firstViewedDate: '',
         lastViewedDate: '',
@@ -8876,6 +9615,7 @@ export const ronanSeries: UserSeries = [
       {
         seasonNumber: 4,
         seasonRating: 3.5,
+        watching: false,
         seasonTimesWatched: 3,
         firstViewedDate: '',
         lastViewedDate: '',
@@ -8885,6 +9625,7 @@ export const ronanSeries: UserSeries = [
       {
         seasonNumber: 5,
         seasonRating: 3.5,
+        watching: false,
         seasonTimesWatched: 3,
         firstViewedDate: '',
         lastViewedDate: '',
@@ -8907,6 +9648,7 @@ export const ronanSeries: UserSeries = [
       {
         seasonNumber: 1,
         seasonRating: 3.5,
+        watching: false,
         seasonTimesWatched: 1,
         firstViewedDate: '',
         lastViewedDate: '2026-05-04',
@@ -8929,6 +9671,7 @@ export const ronanSeries: UserSeries = [
       {
         seasonNumber: 1,
         seasonRating: 3.5,
+        watching: false,
         seasonTimesWatched: 1,
         firstViewedDate: '',
         lastViewedDate: '2026-05-24',
@@ -8937,6 +9680,7 @@ export const ronanSeries: UserSeries = [
       {
         seasonNumber: 2,
         seasonRating: 0,
+        watching: false,
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
@@ -8945,6 +9689,7 @@ export const ronanSeries: UserSeries = [
       {
         seasonNumber: 3,
         seasonRating: 0,
+        watching: false,
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
@@ -8953,6 +9698,7 @@ export const ronanSeries: UserSeries = [
       {
         seasonNumber: 4,
         seasonRating: 0,
+        watching: false,
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
@@ -8961,6 +9707,7 @@ export const ronanSeries: UserSeries = [
       {
         seasonNumber: 5,
         seasonRating: 0,
+        watching: false,
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',
@@ -8969,6 +9716,7 @@ export const ronanSeries: UserSeries = [
       {
         seasonNumber: 6,
         seasonRating: 0,
+        watching: false,
         seasonTimesWatched: 0,
         firstViewedDate: '',
         lastViewedDate: '',

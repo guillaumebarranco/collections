@@ -113,7 +113,7 @@ export async function markManwhaAsReRead(
   }
 }
 
-/** Readlist : marque le manwha comme commencé (readTimes = 0.5), reste dans la readlist. */
+/** Readlist : marque le manwha comme commencé (reading = true), reste dans la readlist. */
 export async function markReadlistManwhaAsStarted(
   manwha: Manwha,
   userId: string
@@ -127,7 +127,8 @@ export async function markReadlistManwhaAsStarted(
         title: manwha.title,
         author: manwha.author,
         rating: manwha.rating ?? 0,
-        readTimes: 0.5,
+        reading: true,
+        readTimes: 0,
         readDate: manwha.readDate ?? '',
         owned: manwha.owned ?? false,
         borrowed: manwha.borrowed ?? '',

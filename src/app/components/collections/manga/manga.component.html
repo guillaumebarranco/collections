@@ -58,7 +58,7 @@
     <span class="missing-badge" style="background-color: #00695c; color: white"
       >Prêté à {{ manga.loaned }}</span
     >
-    } @if ((manga.readTimes) === 0.5 && isReadlistView && !isBaseEntityView) {
+    } @if (isMangaReading() && isReadlistView && !isBaseEntityView) {
     <span class="missing-badge" style="background-color: #3f51b5; color: white"
       >Lecture en cours</span
     >
@@ -102,6 +102,7 @@
       [recommendationBadge]="recommendationBadge"
       [showRating]="!isBaseEntityView"
       [selectedView]="selectedView"
+      [listReading]="isMangaReading()"
       [listReadTimes]="manga.readTimes"
       [showAddToMyListActions]="showAddToMyReadlist"
       [canAddToMyWishlist]="canAddToMyReadlist"

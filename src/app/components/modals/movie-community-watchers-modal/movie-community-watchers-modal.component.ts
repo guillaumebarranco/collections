@@ -84,9 +84,10 @@ export function formatCommunityCountLabel(
 }
 
 export function formatCommunitySeasonTimesLabel(
-  seasonTimesWatched: number
+  seasonTimesWatched: number,
+  watching = false
 ): string {
-  if (seasonTimesWatched === 0.5) {
+  if (watching || seasonTimesWatched === 0.5) {
     return 'En cours';
   }
   const n = Math.floor(seasonTimesWatched);
@@ -103,7 +104,10 @@ function mapSeasonsForDisplay(
     seasonNumber: se.seasonNumber,
     ratingLabel:
       (se.seasonRating ?? 0) === 0 ? 'Pas de note' : `${se.seasonRating}/5`,
-    timesLabel: formatCommunitySeasonTimesLabel(se.seasonTimesWatched ?? 0),
+    timesLabel: formatCommunitySeasonTimesLabel(
+      se.seasonTimesWatched ?? 0,
+      se.watching === true
+    ),
   }));
 }
 

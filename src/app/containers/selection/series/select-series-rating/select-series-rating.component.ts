@@ -81,6 +81,7 @@ export class SelectSeriesRatingComponent
     return Array.from({ length: total }, (_, index) => ({
       seasonNumber: index + 1,
       seasonRating: 0,
+      watching: false,
       seasonTimesWatched: 0,
       firstViewedDate: '',
       lastViewedDate: '',

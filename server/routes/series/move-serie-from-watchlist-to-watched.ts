@@ -63,6 +63,7 @@ function getTodayISO(): string {
 type PayloadSeasonRow = {
   seasonNumber: number;
   seasonRating: number;
+  watching?: boolean;
   seasonTimesWatched: number;
   firstViewedDate: string;
   lastViewedDate: string;
@@ -92,6 +93,7 @@ function sanitizePayloadSeasons(value: unknown): PayloadSeasonRow[] {
     out.push({
       seasonNumber: sn,
       seasonRating: Number.isFinite(sr) ? sr : 0,
+      watching: o['watching'] === true,
       seasonTimesWatched: Number.isFinite(tw) ? tw : 0,
       firstViewedDate: fvd ?? '',
       lastViewedDate: lvd ?? '',
@@ -128,7 +130,7 @@ function formatOtherViewedDatesInline(dates: string[] | undefined): string {
 
 /**
  * Fusion watchlist (+ optionnellement entrée « déjà vue » existante pour le même titre).
- * Les saisons passées avec timesWatched 0.5 (en cours) passent à 1 avec date du jour.
+ * Les saisons en cours (watching ou legacy 0.5) passent à 1 avec date du jour.
  */
 function mergeWatchlistSeasonsToWatched(params: {
   seasonsCount: number;
@@ -154,8 +156,10 @@ function mergeWatchlistSeasonsToWatched(params: {
 
     if (wlRow) {
       const tw = wlRow.seasonTimesWatched;
+      const inProgress =
+        wlRow.watching === true || tw === 0.5;
       // En cours → une fois vu entièrement, comme demandé métier.
-      if (tw === 0.5 || tw === 0) {
+      if (inProgress || tw === 0) {
         const existingFirst = String(exRow?.firstViewedDate ?? '').trim();
         out.push({
           seasonNumber: n,
@@ -225,6 +229,7 @@ function formatSeasons(seasons: PayloadSeasonRow[]) {
     (season: PayloadSeasonRow) => `      {
         seasonNumber: ${season.seasonNumber},
         seasonRating: ${season.seasonRating},
+        watching: false,
         seasonTimesWatched: ${season.seasonTimesWatched},
         firstViewedDate: "${escapeString(season.firstViewedDate || '')}",
         lastViewedDate: "${escapeString(season.lastViewedDate || '')}",

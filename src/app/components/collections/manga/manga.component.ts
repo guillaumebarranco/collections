@@ -18,6 +18,7 @@ import {
 import { ReviewModalComponent } from '../../modals/review-modal/review-modal.component';
 import { CanEditDirective } from '../../../directives/can-edit.directive';
 import { Manga } from '../../../models/manga-model';
+import { isReading, normalizedReadTimes } from '../../../utils/in-progress.utils';
 import { EntityType } from '../../../models/quizz-model';
 
 import { isBaseEntityView, getApiBaseUrl } from '../../../core/config';
@@ -73,7 +74,7 @@ export class MangaComponent {
   }>();
   @Output() wantToReRead = new EventEmitter<Manga>();
   @Output() haveReRead = new EventEmitter<Manga>();
-  /** Readlist : marqué « en cours » (readTimes 0.5), API OK. */
+  /** Readlist : marqué « en cours » (reading), API OK. */
   @Output() readlistStartedReading = new EventEmitter<Manga>();
   @Output() readlistMarkedAsRead = new EventEmitter<Manga>();
   @Input() showTopFiveSelector = false;
@@ -85,6 +86,10 @@ export class MangaComponent {
 
   requestEdit(): void {
     this.editRequested.emit();
+  }
+
+  isMangaReading(): boolean {
+    return isReading(this.manga);
   }
 
   onStartedReadingClick(): void {
@@ -105,7 +110,7 @@ export class MangaComponent {
 
   getEntityData(): EntityCardEntityData {
     return {
-      alreadySeenRead: (this.manga.readTimes ?? 0) >= 1,
+      alreadySeenRead: normalizedReadTimes(this.manga.readTimes) >= 1,
       alreadyInList: this.isInReadlist,
       rating: this.manga.rating ?? 0,
       hasRatingComment: !!this.manga.ratingComment,

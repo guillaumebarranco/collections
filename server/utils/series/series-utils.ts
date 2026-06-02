@@ -1,6 +1,10 @@
 const fs = require('fs');
 const path = require('path');
 const { escapeStringForTsDoubleQuote: escapeString } = require('../escape-ts-string');
+const {
+  parseWatchingFromFile,
+  formatWatchingTsLine,
+} = require('../in-progress-fields');
 
 const USERS_SERIES_DIR = path.join(
   __dirname,
@@ -386,8 +390,10 @@ function parseSeasonsField(objectText: string) {
   for (const entry of entries) {
     const seasonNumber = parseNumberField(entry, 'seasonNumber') ?? 0;
     const seasonRating = parseNumberField(entry, 'seasonRating') ?? 0;
-    const seasonTimesWatched =
-      parseNumberField(entry, 'seasonTimesWatched') ?? 0;
+    const { seasonTimesWatched, watching } = parseWatchingFromFile(
+      parseNumberField(entry, 'seasonTimesWatched') ?? 0,
+      parseBooleanField(entry, 'watching')
+    );
     const firstViewedDate = parseStringField(entry, 'firstViewedDate') ?? '';
     const lastViewedDate = parseStringField(entry, 'lastViewedDate') ?? '';
     const otherViewedDates =
@@ -395,6 +401,7 @@ function parseSeasonsField(objectText: string) {
     seasons.push({
       seasonNumber,
       seasonRating,
+      watching,
       seasonTimesWatched,
       firstViewedDate,
       lastViewedDate,
@@ -817,7 +824,7 @@ function formatSeasons(seasons: UserSerieSeason[]) {
     return `    {
       seasonNumber: ${Number.isNaN(seasonNumber) ? 0 : seasonNumber},
       seasonRating: ${Number.isNaN(seasonRating) ? 0 : seasonRating},
-      seasonTimesWatched: ${
+${formatWatchingTsLine(season?.watching)}      seasonTimesWatched: ${
         Number.isNaN(seasonTimesWatched) ? 0 : seasonTimesWatched
       },
       firstViewedDate: "${escapeString(firstViewedDate)}",

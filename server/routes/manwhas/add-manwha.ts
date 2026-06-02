@@ -22,6 +22,7 @@ function formatUserManwha(user: any): string {
     readingScanStartDate: "${escapeString(user.readingScanStartDate || '')}",
     readingScanStopDate: "${escapeString(user.readingScanStopDate || '')}",
     rating: ${user.rating ?? 0},
+    reading: false,
     readTimes: ${user.readTimes ?? 1},
     owned: ${user.owned ?? false},
     readPriority: ${user.readPriority ?? 1},

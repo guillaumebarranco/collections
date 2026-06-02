@@ -1,4 +1,9 @@
 import { Serie, UserSerieSeason } from '../models/serie-model';
+import {
+  isSeasonWatching,
+  normalizedSeasonTimesWatched,
+  seasonHasViewingActivity,
+} from './in-progress.utils';
 
 export type SerieLastViewedSeasonInfo = {
   seasonNumber: number;
@@ -31,7 +36,7 @@ export function getSerieLastViewedSeasonInfo(
   let bestTime = 0;
 
   for (const season of serie.seasons ?? []) {
-    if ((season.seasonTimesWatched ?? 0) <= 0) {
+    if (!seasonHasViewingActivity(season)) {
       continue;
     }
     for (const dateStr of getAllSeasonViewedDateStrings(season)) {
@@ -73,13 +78,16 @@ export function countDistinctSeriesForBadges(
 /**
  * Nombre de séries distinctes « vues » pour les badges : au moins une saison avec
  * `seasonTimesWatched >= 1` (visionnage complet d’au moins une saison).
- * Les saisons à 0 ou 0.5 seules ne comptent pas ; une entrée = une série (pas une saison).
+ * Les saisons uniquement en cours (`watching`) ne comptent pas ; une entrée = une série (pas une saison).
  */
 export function countSeriesSeenForBadges(
   rows: ReadonlyArray<{
     title?: string;
     director?: string;
-    seasons?: ReadonlyArray<{ seasonTimesWatched?: number }>;
+    seasons?: ReadonlyArray<{
+      watching: boolean;
+      seasonTimesWatched?: number;
+    }>;
   }>
 ): number {
   const keys = new Set<string>();
@@ -88,7 +96,7 @@ export function countSeriesSeenForBadges(
     const d = (r.director ?? '').trim();
     if (!t || !d) continue;
     const seen = (r.seasons ?? []).some(
-      (s) => Number(s.seasonTimesWatched ?? 0) >= 1
+      (s) => normalizedSeasonTimesWatched(s.seasonTimesWatched) >= 1
     );
     if (!seen) continue;
     keys.add(`${t}|${d}`);
@@ -124,11 +132,12 @@ export function getSerieWatchedLengthMinutes(serie: Serie): number {
     const seasonsByNumber = new Map(
       serie.seasons.map((season) => [
         season.seasonNumber,
-        season.seasonTimesWatched || 0,
+        normalizedSeasonTimesWatched(season.seasonTimesWatched),
       ])
     );
     const totalSeasonTimes = serie.seasons.reduce(
-      (sum, season) => sum + (season.seasonTimesWatched || 0),
+      (sum, season) =>
+        sum + normalizedSeasonTimesWatched(season.seasonTimesWatched),
       0
     );
 
@@ -146,36 +155,41 @@ export function getSerieWatchedLengthMinutes(serie: Serie): number {
 export function getSerieTotalTimesWatched(serie: Serie): number {
   if (serie.seasons && serie.seasons.length > 0) {
     return serie.seasons.reduce(
-      (sum, season) => sum + (season.seasonTimesWatched || 0),
+      (sum, season) =>
+        sum + normalizedSeasonTimesWatched(season.seasonTimesWatched),
       0
     );
   }
   return 0;
 }
 
-/** Watchlist : aucune saison commencée (toutes à 0). */
+/** Watchlist : aucune saison commencée (pas en cours, pas vue). */
 export function isSerieWatchlistNotStarted(serie: Serie): boolean {
   const seasons = serie.seasons ?? [];
   if (seasons.length === 0) {
     return true;
   }
-  return seasons.every((s) => (s.seasonTimesWatched ?? 0) === 0);
+  return seasons.every(
+    (s) =>
+      !isSeasonWatching(s) &&
+      normalizedSeasonTimesWatched(s.seasonTimesWatched) === 0
+  );
 }
 
-/** Watchlist : marquée « en cours » (chaque saison à 0.5), comme readTimes 0.5 pour les livres. */
+/** Watchlist : marquée « en cours » (chaque saison en watching). */
 export function isSerieWatchlistInProgress(serie: Serie): boolean {
   const seasons = serie.seasons ?? [];
   if (seasons.length === 0) {
     return false;
   }
-  return seasons.every((s) => (s.seasonTimesWatched ?? 0) === 0.5);
+  return seasons.every((s) => isSeasonWatching(s));
 }
 
 /** Dernière saison marquée comme vue au moins une fois complètement (≥1). */
 export function getLastFullyWatchedSeasonNumber(serie: Serie): number {
   let maxN = 0;
   for (const s of serie.seasons ?? []) {
-    if ((s.seasonTimesWatched ?? 0) >= 1) {
+    if (normalizedSeasonTimesWatched(s.seasonTimesWatched) >= 1) {
       maxN = Math.max(maxN, s.seasonNumber);
     }
   }
@@ -184,9 +198,8 @@ export function getLastFullyWatchedSeasonNumber(serie: Serie): number {
 
 /**
  * Horodatage (ms) le plus récent parmi les `lastViewedDate` des saisons
- * avec visionnage réel (seasonTimesWatched > 0 : en cours ou terminé).
- * Ignore les saisons à 0 même si une date parasite est présente (ex. padding UI).
- * 0 si aucune date valide (tri : séries sans historique en fin de liste).
+ * avec visionnage réel (en cours ou terminé).
+ * Ignore les saisons sans activité même si une date parasite est présente.
  */
 export function getSerieLatestSeasonLastViewedTime(serie: Serie): number {
   const info = getSerieLastViewedSeasonInfo(serie);
@@ -198,7 +211,7 @@ export function getSerieLatestSeasonLastViewedTime(serie: Serie): number {
 }
 
 /**
- * Saison N+1 à passer à 0.5 : N = dernière saison complètement vue, la suivante existe en base et est encore à 0.
+ * Saison N+1 à marquer en cours : N = dernière saison complètement vue, la suivante existe et n'est pas déjà commencée.
  */
 export function getNextSeasonNumberForNewSeasonStarted(
   serie: Serie
@@ -216,24 +229,29 @@ export function getNextSeasonNumberForNewSeasonStarted(
     return null;
   }
   const row = (serie.seasons ?? []).find((s) => s.seasonNumber === next);
-  const tw = row?.seasonTimesWatched ?? 0;
-  if (tw >= 1 || tw === 0.5) {
+  if (!row) {
+    return next;
+  }
+  if (
+    isSeasonWatching(row) ||
+    normalizedSeasonTimesWatched(row.seasonTimesWatched) >= 1
+  ) {
     return null;
   }
-  if (tw !== 0) {
+  if (normalizedSeasonTimesWatched(row.seasonTimesWatched) !== 0) {
     return null;
   }
   return next;
 }
 
-/** Fichier « vus » : une nouvelle saison est disponible et peut être marquée « en cours » (0.5). */
+/** Fichier « vus » : une nouvelle saison est disponible et peut être marquée « en cours ». */
 export function serieShowsNewSeasonStartedButton(serie: Serie): boolean {
   return getNextSeasonNumberForNewSeasonStarted(serie) !== null;
 }
 
 /**
- * Série du fichier vus + au moins une saison en cours (0.5) : affichage aussi dans « En cours ».
- * (Distinct de la watchlist où toutes les saisons sont à 0.5 sans saison ≥1.)
+ * Série du fichier vus + au moins une saison en cours : affichage aussi dans « En cours ».
+ * (Distinct de la watchlist où toutes les saisons sont en watching sans saison ≥1.)
  */
 export function isSerieFinishedWithNewSeasonInProgress(serie: Serie): boolean {
   const seasons = serie.seasons ?? [];
@@ -241,17 +259,16 @@ export function isSerieFinishedWithNewSeasonInProgress(serie: Serie): boolean {
     return false;
   }
   let hasComplete = false;
-  let hasHalf = false;
+  let hasInProgress = false;
   for (const s of seasons) {
-    const tw = s.seasonTimesWatched ?? 0;
-    if (tw >= 1) {
+    if (normalizedSeasonTimesWatched(s.seasonTimesWatched) >= 1) {
       hasComplete = true;
     }
-    if (tw === 0.5) {
-      hasHalf = true;
+    if (isSeasonWatching(s)) {
+      hasInProgress = true;
     }
   }
-  return hasComplete && hasHalf;
+  return hasComplete && hasInProgress;
 }
 
 export function getSerieAverageRating(serie: Serie): number {

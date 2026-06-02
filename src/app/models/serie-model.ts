@@ -51,10 +51,9 @@ export interface BaseSerieSeasonData {
 export interface UserSerieSeason {
   seasonNumber: number;
   seasonRating: number;
-  /**
-   * Watchlist : 0 = pas commencé, 0.5 = en cours de visionnage, ≥1 = visionnages complets.
-   * Fichier vus + nouvelle saison : la saison N+1 (après la dernière à ≥1) peut être passée à 0.5 puis à ≥1.
-   */
+  /** En cours de visionnage (watchlist ou nouvelle saison sur une série déjà vue). */
+  watching: boolean;
+  /** 0 = pas commencé, ≥1 = visionnages complets de la saison. */
   seasonTimesWatched: number;
   firstViewedDate: string;
   lastViewedDate: string;

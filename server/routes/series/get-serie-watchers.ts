@@ -17,6 +17,7 @@ type SerieWatcherSeasonRow = {
   seasonNumber: number;
   seasonRating: number;
   seasonTimesWatched: number;
+  watching: boolean;
 };
 
 type SerieWatcherRow = {
@@ -65,12 +66,17 @@ function mapSeasonsForResponse(
   seasons: UserSerieSeason[]
 ): SerieWatcherSeasonRow[] {
   return [...(seasons ?? [])]
-    .filter((se) => (se.seasonTimesWatched ?? 0) > 0)
+    .filter(
+      (se) =>
+        se.watching === true ||
+        (se.seasonTimesWatched ?? 0) > 0
+    )
     .sort((a, b) => a.seasonNumber - b.seasonNumber)
     .map((se) => ({
       seasonNumber: se.seasonNumber,
       seasonRating: se.seasonRating ?? 0,
       seasonTimesWatched: se.seasonTimesWatched ?? 0,
+      watching: Boolean(se.watching),
     }));
 }
 

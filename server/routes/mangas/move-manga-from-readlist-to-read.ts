@@ -55,7 +55,7 @@ function formatUserManga(manga: any, options?: { rating?: number; ratingComment?
   const readDate = getReadDateToday();
   const rating = options?.rating != null ? Number(options.rating) : 0;
   const ratingComment = typeof options?.ratingComment === 'string' ? options.ratingComment : '';
-  return `  {\n    title: "${escapeString(manga.title)}",\n    author: "${escapeString(manga.author)}",\n    readDate: "${readDate}",\n    readingScanStartDate: "",\n    readingScanStopDate: "",\n    rating: ${rating},\n    readTimes: 1,\n    owned: false,\n    readPriority: ${manga.readPriority ?? 1},\n    wantToReadAgain: false,\n    ratingComment: "${escapeString(ratingComment)}",\n    borrowed: "${escapeString(typeof manga.borrowed === 'string' ? manga.borrowed : '')}",\n    loaned: "${escapeString(typeof manga.loaned === 'string' ? manga.loaned : '')}",\n  },`;
+  return `  {\n    title: "${escapeString(manga.title)}",\n    author: "${escapeString(manga.author)}",\n    readDate: "${readDate}",\n    readingScanStartDate: "",\n    readingScanStopDate: "",\n    rating: ${rating},\n    reading: false,\n    readTimes: 1,\n    owned: false,\n    readPriority: ${manga.readPriority ?? 1},\n    wantToReadAgain: false,\n    ratingComment: "${escapeString(ratingComment)}",\n    borrowed: "${escapeString(typeof manga.borrowed === 'string' ? manga.borrowed : '')}",\n    loaned: "${escapeString(typeof manga.loaned === 'string' ? manga.loaned : '')}",\n  },`;
 }
 
 function getUserMangasTargetFile(userId: string, isReadlist: boolean) {

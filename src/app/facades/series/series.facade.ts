@@ -37,6 +37,7 @@ function buildSeasons(
       (_, index) => ({
         seasonNumber: existing.length + index + 1,
         seasonRating: 0,
+        watching: false,
         seasonTimesWatched: 0,
         /** Pas de date : la saison n’a pas été vue (évite de fausser le tri « visionnage récent »). */
         firstViewedDate: '',
@@ -49,6 +50,7 @@ function buildSeasons(
   return Array.from({ length: safeNbSeasons }, (_, index) => ({
     seasonNumber: index + 1,
     seasonRating: 0,
+    watching: false,
     seasonTimesWatched: 0,
     firstViewedDate: '',
     lastViewedDate: '',

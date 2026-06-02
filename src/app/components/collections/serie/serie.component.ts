@@ -77,9 +77,9 @@ export class SerieComponent {
   @Output() serieUpdated = new EventEmitter<void>();
   /** Après watchlist → vu (API OK). */
   @Output() watchlistMarkedAsWatched = new EventEmitter<Serie>();
-  /** Watchlist : marqué « en cours » (seasonTimesWatched 0.5 par saison), API OK. */
+  /** Watchlist : marqué « en cours » (watching par saison), API OK. */
   @Output() watchlistStartedWatching = new EventEmitter<Serie>();
-  /** Fichier vus : saison N+1 passée à 0.5, API OK. */
+  /** Fichier vus : saison N+1 en watching, API OK. */
   @Output() finishedSerieNewSeasonStarted = new EventEmitter<Serie>();
 
   @Output() addToWatchlist = new EventEmitter<Serie>();
@@ -227,7 +227,11 @@ export class SerieComponent {
     return Array.from({ length: total }, (_, index) => ({
       seasonNumber: index + 1,
       seasonRating: 0,
+      watching: false,
       seasonTimesWatched: 0,
+      firstViewedDate: '',
+      lastViewedDate: '',
+      otherViewedDates: [],
     }));
   }
 

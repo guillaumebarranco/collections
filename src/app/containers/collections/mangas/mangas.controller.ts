@@ -113,7 +113,7 @@ export async function markMangaAsReRead(
   }
 }
 
-/** Readlist : marque le manga comme commencé (readTimes = 0.5), reste dans la readlist. */
+/** Readlist : marque le manga comme commencé (reading = true), reste dans la readlist. */
 export async function markReadlistMangaAsStarted(
   manga: Manga,
   userId: string
@@ -127,7 +127,8 @@ export async function markReadlistMangaAsStarted(
         title: manga.title,
         author: manga.author,
         rating: manga.rating ?? 0,
-        readTimes: 0.5,
+        reading: true,
+        readTimes: 0,
         readDate: manga.readDate ?? '',
         owned: manga.owned ?? false,
         borrowed: manga.borrowed ?? '',

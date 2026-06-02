@@ -2,14 +2,7 @@ import { getApiBaseUrl } from '../../../core/config';
 import { Serie, UserSerieSeason } from '../../../models/serie-model';
 import { getNextSeasonNumberForNewSeasonStarted } from '../../../utils/series.utils';
 
-function buildWatchlistSeasonsWithHalfWatched(serie: Serie): {
-  seasonNumber: number;
-  seasonRating: number;
-  seasonTimesWatched: number;
-  firstViewedDate: string;
-  lastViewedDate: string;
-  otherViewedDates: string[];
-}[] {
+function buildWatchlistSeasonsWatching(serie: Serie): UserSerieSeason[] {
   const fromUser =
     serie.seasons && serie.seasons.length > 0
       ? serie.seasons
@@ -17,6 +10,7 @@ function buildWatchlistSeasonsWithHalfWatched(serie: Serie): {
           seasonNumber: sd.seasonNumber,
           seasonRating: 0,
           seasonTimesWatched: 0,
+          watching: false,
           firstViewedDate: '',
           lastViewedDate: '',
           otherViewedDates: [],
@@ -24,7 +18,8 @@ function buildWatchlistSeasonsWithHalfWatched(serie: Serie): {
   return fromUser.map((s) => ({
     seasonNumber: s.seasonNumber,
     seasonRating: s.seasonRating ?? 0,
-    seasonTimesWatched: 0.5,
+    seasonTimesWatched: 0,
+    watching: true,
     firstViewedDate: s.firstViewedDate ?? '',
     lastViewedDate: s.lastViewedDate ?? '',
     otherViewedDates: s.otherViewedDates ?? [],
@@ -159,7 +154,7 @@ export async function addSerieToWatchlist(
   }
 }
 
-function buildWatchedSeasonsWithNextSeasonAtHalf(serie: Serie): UserSerieSeason[] | null {
+function buildWatchedSeasonsWithNextSeasonWatching(serie: Serie): UserSerieSeason[] | null {
   const next = getNextSeasonNumberForNewSeasonStarted(serie);
   if (next === null) {
     return null;
@@ -183,6 +178,7 @@ function buildWatchedSeasonsWithNextSeasonAtHalf(serie: Serie): UserSerieSeason[
         seasonNumber: sn,
         seasonRating: 0,
         seasonTimesWatched: 0,
+        watching: false,
         firstViewedDate: '',
         lastViewedDate: '',
         otherViewedDates: [],
@@ -192,24 +188,26 @@ function buildWatchedSeasonsWithNextSeasonAtHalf(serie: Serie): UserSerieSeason[
       result.push({
         ...row,
         seasonNumber: sn,
-        seasonTimesWatched: 0.5,
+        seasonTimesWatched: 0,
+        watching: true,
       });
     } else {
       result.push({
         ...row,
         seasonNumber: sn,
+        watching: false,
       });
     }
   }
   return result;
 }
 
-/** Fichier vus : saison N+1 (après dernière vue complète) → 0.5. */
+/** Fichier vus : saison N+1 (après dernière vue complète) → watching. */
 export async function markWatchedSerieNextSeasonAsStarted(
   serie: Serie,
   userId: string
 ): Promise<boolean> {
-  const seasons = buildWatchedSeasonsWithNextSeasonAtHalf(serie);
+  const seasons = buildWatchedSeasonsWithNextSeasonWatching(serie);
   if (!seasons?.length) {
     return false;
   }
@@ -248,12 +246,12 @@ export async function markWatchedSerieNextSeasonAsStarted(
   }
 }
 
-/** Watchlist : chaque saison à seasonTimesWatched = 0.5 (équivalent readTimes 0.5 côté livres). */
+/** Watchlist : chaque saison en watching (équivalent reading côté livres). */
 export async function markWatchlistSerieAsStarted(
   serie: Serie,
   userId: string
 ): Promise<boolean> {
-  const seasons = buildWatchlistSeasonsWithHalfWatched(serie);
+  const seasons = buildWatchlistSeasonsWatching(serie);
   if (seasons.length === 0) {
     return false;
   }

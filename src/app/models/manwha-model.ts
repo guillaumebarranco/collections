@@ -27,6 +27,8 @@ export interface UserManwha extends MandatoryManwhaData {
    */
   readingScanStopDate: string;
   rating: number;
+  /** Readlist : en cours de lecture. */
+  reading: boolean;
   readTimes: number;
   owned: boolean;
   readPriority: 1 | 2 | 3;

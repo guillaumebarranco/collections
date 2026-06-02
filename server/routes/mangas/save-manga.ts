@@ -35,6 +35,7 @@ router.post('/', (req: any, res: any) => {
       author,
       rating: normalizeNumber(input.rating, 'rating') ?? 0,
       readTimes: normalizeNumber(input.readTimes, 'readTimes') ?? 1,
+      reading: normalizeBoolean(input.reading, 'reading') ?? false,
       readDate: normalizeString(input.readDate, 'readDate') || '',
       readingScanStartDate:
         normalizeString(input.readingScanStartDate, 'readingScanStartDate') || '',

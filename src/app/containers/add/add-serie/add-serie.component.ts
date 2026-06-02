@@ -5,7 +5,7 @@ import { MAT_DIALOG_DATA, MatDialogRef } from '@angular/material/dialog';
 import { getApiBaseUrl } from '../../../core/config';
 import { DEFAULT_USER_ID } from '../../../utils/constants';
 import { CountrySelectComponent } from '../../../components/shared/country-select/country-select.component';
-import { normalizeSerieGenres } from '../../../models/serie-model';
+import { normalizeSerieGenres, UserSerieSeason } from '../../../models/serie-model';
 import { ExtraDatesListComponent } from '../../../components/shared/extra-dates-list/extra-dates-list.component';
 import { normalizeActivityExtraDates } from '../../../utils/activity-extra-dates.utils';
 
@@ -37,14 +37,7 @@ type AddSerieUserForm = {
   borrowed: string;
   loaned: string;
   watchPriority: number;
-  seasons: {
-    seasonNumber: number;
-    seasonRating: number;
-    seasonTimesWatched: number;
-    firstViewedDate: string;
-    lastViewedDate: string;
-    otherViewedDates: string[];
-  }[];
+  seasons: UserSerieSeason[];
   ratingComment: string;
 };
 
@@ -122,6 +115,7 @@ export class AddSerieComponent {
         {
           seasonNumber: nextNumber,
           seasonRating: 0,
+          watching: false,
           seasonTimesWatched: 0,
           firstViewedDate: '',
           lastViewedDate: '',

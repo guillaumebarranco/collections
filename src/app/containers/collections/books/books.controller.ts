@@ -167,7 +167,55 @@ export async function markBookAsReRead(
   }
 }
 
-/** Readlist : marque le livre comme commencé (readTimes = 0.5), reste dans la readlist. */
+/** Livre déjà lu (ex. à relire) : relecture en cours (reading = true). */
+export async function markReadBookAsReadingInProgress(
+  book: Book,
+  userId: string
+): Promise<boolean> {
+  try {
+    const response = await fetch(`${getApiBaseUrl()}/books`, {
+      method: 'POST',
+      headers: {
+        'Content-Type': 'application/json',
+      },
+      body: JSON.stringify({
+        userId,
+        title: book.title,
+        author: book.author,
+        rating: book.rating ?? 0,
+        reading: true,
+        readTimes: book.readTimes ?? 1,
+        firstReadDate: book.firstReadDate ?? '',
+        lastReadDate: book.lastReadDate ?? '',
+        owned: book.owned ?? false,
+        borrowed: book.borrowed ?? '',
+        loaned: book.loaned ?? '',
+        readPriority: book.readPriority ?? 1,
+        wantToReadAgain: book.wantToReadAgain ?? false,
+        ratingComment: book.ratingComment ?? '',
+      }),
+    });
+
+    if (!response.ok) {
+      const payload = await response.json().catch(() => ({}));
+      console.warn(
+        'Échec du marquage « relecture en cours » :',
+        payload?.error || response.statusText
+      );
+      return false;
+    }
+
+    return true;
+  } catch (error) {
+    console.warn(
+      'Erreur réseau lors du marquage « relecture en cours ».',
+      error
+    );
+    return false;
+  }
+}
+
+/** Readlist : marque le livre comme commencé (reading = true), reste dans la readlist. */
 export async function markReadlistBookAsStarted(
   book: Book,
   userId: string
@@ -183,7 +231,8 @@ export async function markReadlistBookAsStarted(
         title: book.title,
         author: book.author,
         rating: book.rating ?? 0,
-        readTimes: 0.5,
+        reading: true,
+        readTimes: 0,
         firstReadDate: book.firstReadDate ?? '',
         lastReadDate: book.lastReadDate ?? '',
         owned: book.owned ?? false,
