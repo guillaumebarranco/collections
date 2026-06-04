@@ -11,7 +11,7 @@ import {
 import { SelectEntitiesComponent } from '../../select-base.component';
 import { MatDialog, MatDialogModule } from '@angular/material/dialog';
 import { AddComicComponent } from '../../../add/add-comic/add-comic.component';
-import { getApiBaseUrl, isLocalhost } from '../../../../core/config';
+import { getApiBaseUrl } from '../../../../core/config';
 import { SelectEntityComponent } from '../../../../components/entity/select-entity/select-entity.component';
 import { getEmptyComic } from '../../../../helpers/empty-entities-helper';
 import { normalizeSearchText } from '../../../../utils/normalize-search-text';
@@ -147,20 +147,8 @@ export class SelectComicsComponent
     this.allComicsMergedList.set(allComics);
   }
 
-  private async getAllComicsForSelection(userId: string): Promise<Comic[]> {
-    if (isLocalhost()) {
-      return getAllComicsMerged(userId);
-    }
-    try {
-      const response = await fetch(`${getApiBaseUrl()}/comics/entities`);
-      if (!response.ok) {
-        return [];
-      }
-      const data = await response.json();
-      return Array.isArray(data) ? data : [];
-    } catch {
-      return [];
-    }
+  private async getAllComicsForSelection(_userId: string): Promise<Comic[]> {
+    return (await getAllBaseComics()).map(getEmptyComic);
   }
 
   protected async addSelectedComics(): Promise<void> {

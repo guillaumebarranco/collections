@@ -1,12 +1,6 @@
 import { Manga, BaseManga, UserManga } from '../../models/manga-model';
 
 import {
-  allBaseMangas,
-  getLocalMangasByUser,
-  getLocalReadlistByUser,
-} from './local-mangas.facade';
-import { isLocalhost } from '../../core/config';
-import {
   fetchBaseMangasFromApi,
   fetchUserMangasFromApi,
   fetchReadlistMangasFromApi,
@@ -15,6 +9,11 @@ import {
 } from './api-mangas.facade';
 import { createCachedFetcher } from '../../utils/cache.utils';
 import { getMangaDataFromUserMangaAndBaseManga } from '../../helpers/entities.helper';
+import {
+  canServeOfflineUser,
+  getActiveOfflineCache,
+} from '../../core/offline/offline-entity-access';
+import { isOfflineModeBlockingOtherUsers } from '../../core/offline/offline-mode.utils';
 
 const fetchBaseMangasCached = createCachedFetcher(fetchBaseMangasFromApi);
 
@@ -43,11 +42,13 @@ async function getAllMangasData(mangas: UserManga[]): Promise<Manga[]> {
 export async function getAllMangas(
   currentUserId = 'guillaume'
 ): Promise<{ [key: string]: Manga[] }> {
-  if (isLocalhost()) {
+  const offline = getActiveOfflineCache();
+  if (offline) {
+    if (!canServeOfflineUser(currentUserId)) {
+      return { [currentUserId]: [] };
+    }
     return {
-      [currentUserId]: await getAllMangasData(
-        getLocalMangasByUser(currentUserId)
-      ),
+      [currentUserId]: await getAllMangasData(offline.mangas.user),
     };
   }
 
@@ -64,9 +65,8 @@ export async function getAllMangas(
 }
 
 export async function getAllBaseMangas(): Promise<BaseManga[]> {
-  if (isLocalhost()) {
-    return allBaseMangas;
-  }
+  const offline = getActiveOfflineCache();
+  if (offline) return offline.mangas.base;
 
   try {
     return await fetchBaseMangasCached();
@@ -78,11 +78,13 @@ export async function getAllBaseMangas(): Promise<BaseManga[]> {
 export async function getAllReadlistMangas(
   currentUserId = 'guillaume'
 ): Promise<{ [key: string]: Manga[] }> {
-  if (isLocalhost()) {
+  const offline = getActiveOfflineCache();
+  if (offline) {
+    if (!canServeOfflineUser(currentUserId)) {
+      return { [currentUserId]: [] };
+    }
     return {
-      [currentUserId]: await getAllMangasData(
-        getLocalReadlistByUser(currentUserId)
-      ),
+      [currentUserId]: await getAllMangasData(offline.mangas.readlist),
     };
   }
 
@@ -117,8 +119,10 @@ export async function getAllMangasMerged(
 }
 
 export async function getMangasByUser(userId: string): Promise<Manga[]> {
-  if (isLocalhost()) {
-    return getAllMangasData(getLocalMangasByUser(userId));
+  const offline = getActiveOfflineCache();
+  if (offline) {
+    if (!canServeOfflineUser(userId)) return [];
+    return getAllMangasData(offline.mangas.user);
   }
 
   try {
@@ -132,8 +136,10 @@ export async function getMangasByUser(userId: string): Promise<Manga[]> {
 export async function getCurrentReadlistMangasByUser(
   userId: string
 ): Promise<Manga[]> {
-  if (isLocalhost()) {
-    return getAllMangasData(getLocalReadlistByUser(userId));
+  const offline = getActiveOfflineCache();
+  if (offline) {
+    if (!canServeOfflineUser(userId)) return [];
+    return getAllMangasData(offline.mangas.readlist);
   }
 
   try {
@@ -149,26 +155,8 @@ export async function getOtherUsersMangasRated(
   minRating = 4,
   followedUserIds: string[] = []
 ): Promise<OtherUserMangaRating[]> {
-  const otherUsers =
-    followedUserIds.length > 0
-      ? followedUserIds.filter((id) => id !== currentUserId.toLowerCase())
-      : [];
-  if (isLocalhost()) {
-    const results: OtherUserMangaRating[] = [];
-    otherUsers.forEach((username) => {
-      const mangas = getLocalMangasByUser(username);
-      mangas
-        .filter((manga: any) => (manga.rating ?? 0) >= minRating)
-        .forEach((manga: any) => {
-          results.push({
-            title: manga.title,
-            author: manga.author,
-            rating: manga.rating ?? 0,
-            userId: username,
-          });
-        });
-    });
-    return results;
+  if (isOfflineModeBlockingOtherUsers()) {
+    return [];
   }
 
   try {

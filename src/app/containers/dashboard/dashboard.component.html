@@ -92,7 +92,11 @@
         Films vus, livres lus et séries vues par les personnes que vous suivez
         (dernier mois, 5 max par catégorie).
       </p>
+      @if (feedOfflineBlocked()) {
+      <app-offline-restricted-message />
+      } @else {
       <app-dashboard-feed [feedData]="feedData()"></app-dashboard-feed>
+      }
     </div>
     }
 

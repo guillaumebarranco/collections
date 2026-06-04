@@ -1,6 +1,9 @@
 <app-menu></app-menu>
 
 <div class="musics-container">
+  @if (isLoadingMusics()) {
+  <app-loader message="Chargement des musiques..." />
+  } @else {
   <app-musics-header
     [selectedViewMode]="selectedViewMode()"
     [selectedFilterInput]="selectedFilter()"
@@ -76,6 +79,7 @@
     </div>
     }
   </div>
+  }
   }
 </div>
 

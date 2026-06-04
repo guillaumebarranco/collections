@@ -1,12 +1,6 @@
 import { Game, BaseGame, UserGame } from '../../models/game-model';
 
 import {
-  allBaseGames,
-  getLocalGamesByUser,
-  getLocalGamelistByUser,
-} from './local-games.facade';
-import { isLocalhost } from '../../core/config';
-import {
   fetchBaseGamesFromApi,
   fetchUserGamesFromApi,
   fetchGamelistGamesFromApi,
@@ -15,6 +9,11 @@ import {
 } from './api-games.facade';
 import { createCachedFetcher } from '../../utils/cache.utils';
 import { getGameDataFromUserGameAndBaseGame } from '../../helpers/entities.helper';
+import {
+  canServeOfflineUser,
+  getActiveOfflineCache,
+} from '../../core/offline/offline-entity-access';
+import { isOfflineModeBlockingOtherUsers } from '../../core/offline/offline-mode.utils';
 
 const fetchBaseGamesCached = createCachedFetcher(fetchBaseGamesFromApi);
 
@@ -46,11 +45,13 @@ async function getAllGamesData(games: UserGame[]): Promise<Game[]> {
 export async function getAllGames(
   currentUserId = 'guillaume'
 ): Promise<{ [key: string]: Game[] }> {
-  if (isLocalhost()) {
+  const offline = getActiveOfflineCache();
+  if (offline) {
+    if (!canServeOfflineUser(currentUserId)) {
+      return { [currentUserId]: [] };
+    }
     return {
-      [currentUserId]: await getAllGamesData(
-        getLocalGamesByUser(currentUserId)
-      ),
+      [currentUserId]: await getAllGamesData(offline.games.user),
     };
   }
 
@@ -69,11 +70,13 @@ export async function getAllGames(
 export async function getAllGamelistGames(
   currentUserId = 'guillaume'
 ): Promise<{ [key: string]: Game[] }> {
-  if (isLocalhost()) {
+  const offline = getActiveOfflineCache();
+  if (offline) {
+    if (!canServeOfflineUser(currentUserId)) {
+      return { [currentUserId]: [] };
+    }
     return {
-      [currentUserId]: await getAllGamesData(
-        getLocalGamelistByUser(currentUserId)
-      ),
+      [currentUserId]: await getAllGamesData(offline.games.gamelist),
     };
   }
 
@@ -90,9 +93,8 @@ export async function getAllGamelistGames(
 }
 
 export async function getAllBaseGames(): Promise<BaseGame[]> {
-  if (isLocalhost()) {
-    return allBaseGames;
-  }
+  const offline = getActiveOfflineCache();
+  if (offline) return offline.games.base;
 
   try {
     return await fetchBaseGamesCached();
@@ -100,7 +102,7 @@ export async function getAllBaseGames(): Promise<BaseGame[]> {
     console.warn(
       'Impossible de charger les jeux de base via l’API, repli sur le bundle embarqué.'
     );
-    return allBaseGames;
+    return [];
   }
 }
 
@@ -123,8 +125,10 @@ export async function getAllGamesMerged(
 }
 
 export async function getGamesByUser(userId: string): Promise<Game[]> {
-  if (isLocalhost()) {
-    return getAllGamesData(getLocalGamesByUser(userId));
+  const offline = getActiveOfflineCache();
+  if (offline) {
+    if (!canServeOfflineUser(userId)) return [];
+    return getAllGamesData(offline.games.user);
   }
 
   try {
@@ -138,8 +142,10 @@ export async function getGamesByUser(userId: string): Promise<Game[]> {
 export async function getCurrentGamelistGamesByUser(
   userId: string
 ): Promise<Game[]> {
-  if (isLocalhost()) {
-    return getAllGamesData(getLocalGamelistByUser(userId));
+  const offline = getActiveOfflineCache();
+  if (offline) {
+    if (!canServeOfflineUser(userId)) return [];
+    return getAllGamesData(offline.games.gamelist);
   }
 
   try {
@@ -155,26 +161,8 @@ export async function getOtherUsersGamesRated(
   minRating = 4,
   followedUserIds: string[] = []
 ): Promise<OtherUserGameRating[]> {
-  const otherUsers =
-    followedUserIds.length > 0
-      ? followedUserIds.filter((id) => id !== currentUserId.toLowerCase())
-      : [];
-  if (isLocalhost()) {
-    const results: OtherUserGameRating[] = [];
-    otherUsers.forEach((username) => {
-      const games = getLocalGamesByUser(username);
-      games
-        .filter((game: any) => (game.rating ?? 0) >= minRating)
-        .forEach((game: any) => {
-          results.push({
-            title: game.title,
-            editor: game.editor,
-            rating: game.rating ?? 0,
-            userId: username,
-          });
-        });
-    });
-    return results;
+  if (isOfflineModeBlockingOtherUsers()) {
+    return [];
   }
 
   try {

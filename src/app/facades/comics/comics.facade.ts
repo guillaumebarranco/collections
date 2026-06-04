@@ -1,11 +1,5 @@
 import { Comic, BaseComic, UserComic } from '../../models/comic-model';
 import {
-  allBaseComics,
-  getLocalComicsByUser,
-  getLocalReadlistByUser,
-} from './local-comics.facade';
-import { isLocalhost } from '../../core/config';
-import {
   fetchBaseComicsFromApi,
   fetchReadlistComicsFromApi,
   fetchUserComicsFromApi,
@@ -14,6 +8,11 @@ import {
 } from './api-comics.facade';
 import { createCachedFetcher } from '../../utils/cache.utils';
 import { getComicDataFromUserComicAndBaseComic } from '../../helpers/entities.helper';
+import {
+  canServeOfflineUser,
+  getActiveOfflineCache,
+} from '../../core/offline/offline-entity-access';
+import { isOfflineModeBlockingOtherUsers } from '../../core/offline/offline-mode.utils';
 
 const fetchBaseComicsCached = createCachedFetcher(fetchBaseComicsFromApi);
 
@@ -42,11 +41,13 @@ async function getAllComicsData(comics: UserComic[]): Promise<Comic[]> {
 export async function getAllComics(
   currentUserId = 'guillaume'
 ): Promise<{ [key: string]: Comic[] }> {
-  if (isLocalhost()) {
+  const offline = getActiveOfflineCache();
+  if (offline) {
+    if (!canServeOfflineUser(currentUserId)) {
+      return { [currentUserId]: [] };
+    }
     return {
-      [currentUserId]: await getAllComicsData(
-        getLocalComicsByUser(currentUserId)
-      ),
+      [currentUserId]: await getAllComicsData(offline.comics.user),
     };
   }
 
@@ -65,11 +66,13 @@ export async function getAllComics(
 export async function getAllReadlistComics(
   currentUserId = 'guillaume'
 ): Promise<{ [key: string]: Comic[] }> {
-  if (isLocalhost()) {
+  const offline = getActiveOfflineCache();
+  if (offline) {
+    if (!canServeOfflineUser(currentUserId)) {
+      return { [currentUserId]: [] };
+    }
     return {
-      [currentUserId]: await getAllComicsData(
-        getLocalReadlistByUser(currentUserId)
-      ),
+      [currentUserId]: await getAllComicsData(offline.comics.readlist),
     };
   }
 
@@ -86,15 +89,14 @@ export async function getAllReadlistComics(
 }
 
 export async function getAllBaseComics(): Promise<BaseComic[]> {
-  if (isLocalhost()) {
-    return allBaseComics;
-  }
+  const offline = getActiveOfflineCache();
+  if (offline) return offline.comics.base;
 
   try {
     const apiComics = await fetchBaseComicsCached();
-    return apiComics.length ? apiComics : allBaseComics;
+    return apiComics;
   } catch {
-    return allBaseComics;
+    return [];
   }
 }
 
@@ -117,8 +119,10 @@ export async function getAllComicsMerged(
 }
 
 export async function getComicsByUser(userId: string): Promise<Comic[]> {
-  if (isLocalhost()) {
-    return getAllComicsData(getLocalComicsByUser(userId));
+  const offline = getActiveOfflineCache();
+  if (offline) {
+    if (!canServeOfflineUser(userId)) return [];
+    return getAllComicsData(offline.comics.user);
   }
 
   try {
@@ -132,8 +136,10 @@ export async function getComicsByUser(userId: string): Promise<Comic[]> {
 export async function getCurrentReadlistComicsByUser(
   userId: string
 ): Promise<Comic[]> {
-  if (isLocalhost()) {
-    return getAllComicsData(getLocalReadlistByUser(userId));
+  const offline = getActiveOfflineCache();
+  if (offline) {
+    if (!canServeOfflineUser(userId)) return [];
+    return getAllComicsData(offline.comics.readlist);
   }
 
   try {
@@ -149,26 +155,8 @@ export async function getOtherUsersComicsRated(
   minRating = 4,
   followedUserIds: string[] = []
 ): Promise<OtherUserComicRating[]> {
-  const otherUsers =
-    followedUserIds.length > 0
-      ? followedUserIds.filter((id) => id !== currentUserId.toLowerCase())
-      : [];
-  if (isLocalhost()) {
-    const results: OtherUserComicRating[] = [];
-    otherUsers.forEach((username) => {
-      const comics = getLocalComicsByUser(username);
-      comics
-        .filter((comic: any) => (comic.rating ?? 0) >= minRating)
-        .forEach((comic: any) => {
-          results.push({
-            title: comic.title,
-            writer: comic.writer,
-            rating: comic.rating ?? 0,
-            userId: username,
-          });
-        });
-    });
-    return results;
+  if (isOfflineModeBlockingOtherUsers()) {
+    return [];
   }
 
   try {

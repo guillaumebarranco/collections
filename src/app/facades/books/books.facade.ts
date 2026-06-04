@@ -1,11 +1,4 @@
 import { Book, BaseBook, UserBook } from '../../models/book-model';
-
-import {
-  allBaseBooks,
-  getLocalBooksByUser,
-  getLocalReadlistByUser,
-} from './local-books.facade';
-import { isLocalhost } from '../../core/config';
 import {
   fetchBaseBooksFromApi,
   fetchUserBooksFromApi,
@@ -15,6 +8,11 @@ import {
 } from './api-books.facade';
 import { createCachedFetcher } from '../../utils/cache.utils';
 import { getBookDataFromUserBookAndBaseBook } from '../../helpers/entities.helper';
+import {
+  canServeOfflineUser,
+  getActiveOfflineCache,
+} from '../../core/offline/offline-entity-access';
+import { isOfflineModeBlockingOtherUsers } from '../../core/offline/offline-mode.utils';
 
 const fetchBaseBooksCached = createCachedFetcher(fetchBaseBooksFromApi);
 
@@ -26,7 +24,6 @@ async function getAllBooksData(books: UserBook[]): Promise<Book[]> {
       (baseBook: BaseBook) => baseBook.title === book.title
     );
 
-    // For the case when multiple books have the same name, hence matching from book director
     const definitiveMatchingBook =
       matchingBaseBook.length === 1
         ? matchingBaseBook[0]
@@ -39,9 +36,8 @@ async function getAllBooksData(books: UserBook[]): Promise<Book[]> {
 }
 
 export async function getAllBaseBooks(): Promise<BaseBook[]> {
-  if (isLocalhost()) {
-    return allBaseBooks;
-  }
+  const offline = getActiveOfflineCache();
+  if (offline) return offline.books.base;
 
   try {
     return await fetchBaseBooksCached();
@@ -53,11 +49,13 @@ export async function getAllBaseBooks(): Promise<BaseBook[]> {
 export async function getAllBooks(
   currentUserId = 'guillaume'
 ): Promise<{ [key: string]: Book[] }> {
-  if (isLocalhost()) {
+  const offline = getActiveOfflineCache();
+  if (offline) {
+    if (!canServeOfflineUser(currentUserId)) {
+      return { [currentUserId]: [] };
+    }
     return {
-      [currentUserId]: await getAllBooksData(
-        getLocalBooksByUser(currentUserId)
-      ),
+      [currentUserId]: await getAllBooksData(offline.books.user),
     };
   }
 
@@ -76,11 +74,13 @@ export async function getAllBooks(
 export async function getAllReadlistBooks(
   currentUserId = 'guillaume'
 ): Promise<{ [key: string]: Book[] }> {
-  if (isLocalhost()) {
+  const offline = getActiveOfflineCache();
+  if (offline) {
+    if (!canServeOfflineUser(currentUserId)) {
+      return { [currentUserId]: [] };
+    }
     return {
-      [currentUserId]: await getAllBooksData(
-        getLocalReadlistByUser(currentUserId)
-      ),
+      [currentUserId]: await getAllBooksData(offline.books.readlist),
     };
   }
 
@@ -115,8 +115,10 @@ export async function getAllBooksMerged(
 }
 
 export async function getBooksByUser(userId: string): Promise<Book[]> {
-  if (isLocalhost()) {
-    return getAllBooksData(getLocalBooksByUser(userId));
+  const offline = getActiveOfflineCache();
+  if (offline) {
+    if (!canServeOfflineUser(userId)) return [];
+    return getAllBooksData(offline.books.user);
   }
 
   try {
@@ -130,8 +132,10 @@ export async function getBooksByUser(userId: string): Promise<Book[]> {
 export async function getCurrentReadlistBooksByUser(
   userId: string
 ): Promise<Book[]> {
-  if (isLocalhost()) {
-    return getAllBooksData(getLocalReadlistByUser(userId));
+  const offline = getActiveOfflineCache();
+  if (offline) {
+    if (!canServeOfflineUser(userId)) return [];
+    return getAllBooksData(offline.books.readlist);
   }
 
   try {
@@ -147,26 +151,8 @@ export async function getOtherUsersBooksRated(
   minRating = 4,
   followedUserIds: string[] = []
 ): Promise<OtherUserBookRating[]> {
-  const otherUsers =
-    followedUserIds.length > 0
-      ? followedUserIds.filter((id) => id !== currentUserId.toLowerCase())
-      : [];
-  if (isLocalhost()) {
-    const results: OtherUserBookRating[] = [];
-    otherUsers.forEach((username) => {
-      const books = getLocalBooksByUser(username);
-      books
-        .filter((book) => (book.rating ?? 0) >= minRating)
-        .forEach((book) => {
-          results.push({
-            title: book.title,
-            author: book.author,
-            rating: book.rating ?? 0,
-            userId: username,
-          });
-        });
-    });
-    return results;
+  if (isOfflineModeBlockingOtherUsers()) {
+    return [];
   }
 
   try {

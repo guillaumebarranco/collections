@@ -59,7 +59,7 @@ import {
   getMoviesBySaga,
   getMoviesByCountry,
 } from './movies.utils';
-import { getApiBaseUrl, isLocalhost } from '../../../core/config';
+import { getApiBaseUrl } from '../../../core/config';
 import { MoviesHeaderComponent } from './movies-header/movies-header.component';
 import { LoaderComponent } from '../../../components/shared/loader/loader.component';
 import { PaginationComponent } from '../../../components/shared/pagination/pagination.component';
@@ -79,6 +79,8 @@ import { MatDialog } from '@angular/material/dialog';
 import { MovieUpdateFollowUpModalComponent } from '../../../components/modals/movie-update-follow-up-modal/movie-update-follow-up-modal.component';
 import { buildMovieWatchFollowUpProgress } from '../../../utils/movie-watch-follow-up.utils';
 import { BadgesService } from '../../../services/badges.service';
+import { isOfflineModeBlockingOtherUsers } from '../../../core/offline/offline-mode.utils';
+import { OfflineRestrictedMessageComponent } from '../../../components/shared/offline-restricted-message/offline-restricted-message.component';
 
 type RecommendationDetail = { userId: string; rating: number };
 type RecommendedMovie = Movie & {
@@ -98,6 +100,7 @@ type RecommendedMovie = Movie & {
     PaginationComponent,
     StatsDisplayComponent,
     SortDropdownComponent,
+    OfflineRestrictedMessageComponent,
   ],
   templateUrl: './movies.component.html',
   styleUrls: ['./movies.component.scss'],
@@ -438,6 +441,7 @@ export class MoviesComponent implements OnInit {
   collapsedCountries = signal<Record<string, boolean>>({});
   recommendations = signal<RecommendedMovie[]>([]);
   isLoadingRecommendations = signal<boolean>(false);
+  recommendationsOfflineBlocked = signal(false);
   recommendationsUserId = signal<string>('');
 
   /** Listes de films de l'utilisateur courant (pour "Ajouter à une liste" sur la card). */
@@ -555,9 +559,7 @@ export class MoviesComponent implements OnInit {
     await this.refreshMovies();
     if (this.isViewingOtherProfile()) return;
     const progressRows = buildMovieWatchFollowUpProgress(movie, this.allMovies());
-    if (!isLocalhost()) {
-      void this.badgesService.loadFromApi(this.getActiveUserId());
-    }
+    void this.badgesService.loadFromApi(this.getActiveUserId());
     this.dialog.open(MovieUpdateFollowUpModalComponent, {
       data: {
         movieTitle: movie.title,
@@ -693,6 +695,13 @@ export class MoviesComponent implements OnInit {
 
   async loadRecommendations() {
     if (this.isLoadingRecommendations()) return;
+
+    if (isOfflineModeBlockingOtherUsers()) {
+      this.recommendationsOfflineBlocked.set(true);
+      this.recommendations.set([]);
+      return;
+    }
+    this.recommendationsOfflineBlocked.set(false);
 
     const userId = this.getActiveUserId();
     if (

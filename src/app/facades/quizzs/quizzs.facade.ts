@@ -1,6 +1,4 @@
 import { Quizz } from '../../models/quizz-model';
-import { isLocalhost } from '../../core/config';
-import { getLocalQuizzs } from './local-quizzs.facade';
 import { createQuizzOnApi, fetchQuizzsFromApi } from './api-quizzs.facade';
 import {
   fetchQuizzScoresFromApi,
@@ -9,10 +7,6 @@ import {
 import type { QuizzScoreEntry } from '../../utils/users/users-quizz-scores';
 
 export async function getAllQuizzs(): Promise<Quizz[]> {
-  if (isLocalhost()) {
-    return getLocalQuizzs();
-  }
-
   try {
     return await fetchQuizzsFromApi();
   } catch {

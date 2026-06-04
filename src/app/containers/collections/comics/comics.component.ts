@@ -57,8 +57,10 @@ import { TopFiveService } from '../../../services/top-five.service';
 import { FollowsService } from '../../../services/follows.service';
 import { AuthService } from '../../../core/auth.service';
 import { getEntityKey } from '../../../utils/top-five.utils';
-import { isLocalhost } from '../../../core/config';
 import { BadgesService } from '../../../services/badges.service';
+import { isOfflineModeBlockingOtherUsers } from '../../../core/offline/offline-mode.utils';
+import { OfflineRestrictedMessageComponent } from '../../../components/shared/offline-restricted-message/offline-restricted-message.component';
+import { LoaderComponent } from '../../../components/shared/loader/loader.component';
 import { openCollectionEntityFollowUpModal } from '../../../utils/collection-entity-follow-up-dialog';
 import { buildComicReadlistFollowUpProgress } from '../../../utils/collection-read-badge-follow-up.utils';
 type RecommendationDetail = { userId: string; rating: number };
@@ -78,6 +80,8 @@ type RecommendedComic = Comic & {
 
     ComicsHeaderComponent,
     RouterLink,
+    OfflineRestrictedMessageComponent,
+    LoaderComponent,
   ],
   templateUrl: './comics.component.html',
   styleUrls: ['./comics.component.scss'],
@@ -119,6 +123,9 @@ export class ComicsComponent implements OnInit {
     this.viewOptions.filter((option) => this.isViewOptionVisible(option.value))
   );
 
+  /** True tant que les comics n'ont pas été chargés une première fois. */
+  isLoadingComics = signal<boolean>(true);
+
   comicsList = signal<{ [key: string]: Comic[] }>({});
   readlistComicsList = signal<{ [key: string]: Comic[] }>({});
   connectedUserComics = signal<Comic[]>([]);
@@ -126,6 +133,7 @@ export class ComicsComponent implements OnInit {
   baseComicsList = signal<Comic[]>([]);
   recommendations = signal<RecommendedComic[]>([]);
   isLoadingRecommendations = signal<boolean>(false);
+  recommendationsOfflineBlocked = signal(false);
   recommendationsUserId = signal<string>('');
 
   topFive = computed(() => {
@@ -429,33 +437,38 @@ export class ComicsComponent implements OnInit {
   }
 
   private async refreshComics() {
-    const displayedUserId = this.getActiveUserId();
-    const connectedUserId = this.authService.userId() ?? undefined;
-    const isViewingOther = Boolean(
-      connectedUserId &&
-        displayedUserId &&
-        displayedUserId.toLowerCase() !== connectedUserId.toLowerCase()
-    );
+    this.isLoadingComics.set(true);
+    try {
+      const displayedUserId = this.getActiveUserId();
+      const connectedUserId = this.authService.userId() ?? undefined;
+      const isViewingOther = Boolean(
+        connectedUserId &&
+          displayedUserId &&
+          displayedUserId.toLowerCase() !== connectedUserId.toLowerCase()
+      );
 
-    const [comics, readlist, baseComics] = await Promise.all([
-      getAllComics(displayedUserId),
-      getAllReadlistComics(displayedUserId),
-      getAllBaseComics(),
-    ]);
-    this.comicsList.set(comics);
-    this.readlistComicsList.set(readlist);
-    this.baseComicsList.set(baseComics.map(getFullComic));
-
-    if (isViewingOther && connectedUserId) {
-      const [connectedComics, connectedReadlist] = await Promise.all([
-        getAllComics(connectedUserId),
-        getAllReadlistComics(connectedUserId),
+      const [comics, readlist, baseComics] = await Promise.all([
+        getAllComics(displayedUserId),
+        getAllReadlistComics(displayedUserId),
+        getAllBaseComics(),
       ]);
-      this.connectedUserComics.set(connectedComics[connectedUserId] ?? []);
-      this.connectedUserReadlist.set(connectedReadlist[connectedUserId] ?? []);
-    } else {
-      this.connectedUserComics.set([]);
-      this.connectedUserReadlist.set([]);
+      this.comicsList.set(comics);
+      this.readlistComicsList.set(readlist);
+      this.baseComicsList.set(baseComics.map(getFullComic));
+
+      if (isViewingOther && connectedUserId) {
+        const [connectedComics, connectedReadlist] = await Promise.all([
+          getAllComics(connectedUserId),
+          getAllReadlistComics(connectedUserId),
+        ]);
+        this.connectedUserComics.set(connectedComics[connectedUserId] ?? []);
+        this.connectedUserReadlist.set(connectedReadlist[connectedUserId] ?? []);
+      } else {
+        this.connectedUserComics.set([]);
+        this.connectedUserReadlist.set([]);
+      }
+    } finally {
+      this.isLoadingComics.set(false);
     }
   }
 
@@ -485,9 +498,7 @@ export class ComicsComponent implements OnInit {
   async onReadlistMarkedAsRead(comic: Comic): Promise<void> {
     await this.refreshComics();
     if (this.isViewingOtherProfile()) return;
-    if (!isLocalhost()) {
-      void this.badgesService.loadFromApi(this.getActiveUserId());
-    }
+    void this.badgesService.loadFromApi(this.getActiveUserId());
     openCollectionEntityFollowUpModal(this.dialog, {
       entityTitle: comic.title,
       coverUrl: comic.coverUrl ?? '',
@@ -554,6 +565,13 @@ export class ComicsComponent implements OnInit {
 
   async loadRecommendations() {
     if (this.isLoadingRecommendations()) return;
+
+    if (isOfflineModeBlockingOtherUsers()) {
+      this.recommendationsOfflineBlocked.set(true);
+      this.recommendations.set([]);
+      return;
+    }
+    this.recommendationsOfflineBlocked.set(false);
 
     const userId = this.getActiveUserId();
     if (

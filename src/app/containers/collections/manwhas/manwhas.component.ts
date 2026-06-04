@@ -60,8 +60,10 @@ import { TopFiveService } from '../../../services/top-five.service';
 import { FollowsService } from '../../../services/follows.service';
 import { AuthService } from '../../../core/auth.service';
 import { getEntityKey } from '../../../utils/top-five.utils';
-import { isLocalhost } from '../../../core/config';
 import { BadgesService } from '../../../services/badges.service';
+import { isOfflineModeBlockingOtherUsers } from '../../../core/offline/offline-mode.utils';
+import { OfflineRestrictedMessageComponent } from '../../../components/shared/offline-restricted-message/offline-restricted-message.component';
+import { LoaderComponent } from '../../../components/shared/loader/loader.component';
 import { openCollectionEntityFollowUpModal } from '../../../utils/collection-entity-follow-up-dialog';
 import { buildManwhaReadlistFollowUpProgress } from '../../../utils/collection-read-badge-follow-up.utils';
 
@@ -80,6 +82,8 @@ type RecommendedManwha = Manwha & {
     MatDialogModule,
 
     ManwhasHeaderComponent,
+    OfflineRestrictedMessageComponent,
+    LoaderComponent,
   ],
   templateUrl: './manwhas.component.html',
   styleUrls: ['./manwhas.component.scss'],
@@ -122,6 +126,9 @@ export class ManwhasComponent implements OnInit {
     this.viewOptions.filter((option) => this.isViewOptionVisible(option.value))
   );
 
+  /** True tant que les manhwas n'ont pas été chargés une première fois. */
+  isLoadingManwhas = signal<boolean>(true);
+
   manwhasList = signal<{ [key: string]: Manwha[] }>({});
   readlistManwhasList = signal<{ [key: string]: Manwha[] }>({});
   connectedUserManwhas = signal<Manwha[]>([]);
@@ -129,6 +136,7 @@ export class ManwhasComponent implements OnInit {
   baseManwhasList = signal<Manwha[]>([]);
   recommendations = signal<RecommendedManwha[]>([]);
   isLoadingRecommendations = signal<boolean>(false);
+  recommendationsOfflineBlocked = signal(false);
   recommendationsUserId = signal<string>('');
 
   topFive = computed(() => {
@@ -535,9 +543,7 @@ export class ManwhasComponent implements OnInit {
   async onReadlistMarkedAsRead(manwha: Manwha): Promise<void> {
     await this.refreshManwhas();
     if (this.isViewingOtherProfile()) return;
-    if (!isLocalhost()) {
-      void this.badgesService.loadFromApi(this.getActiveUserId());
-    }
+    void this.badgesService.loadFromApi(this.getActiveUserId());
     openCollectionEntityFollowUpModal(this.dialog, {
       entityTitle: manwha.title,
       coverUrl: manwha.coverUrl ?? '',
@@ -549,35 +555,40 @@ export class ManwhasComponent implements OnInit {
   }
 
   private async refreshManwhas() {
-    const displayedUserId = this.getActiveUserId();
-    const connectedUserId = this.authService.userId() ?? undefined;
-    const isViewingOther = Boolean(
-      connectedUserId &&
-        displayedUserId &&
-        displayedUserId.toLowerCase() !== connectedUserId.toLowerCase()
-    );
+    this.isLoadingManwhas.set(true);
+    try {
+      const displayedUserId = this.getActiveUserId();
+      const connectedUserId = this.authService.userId() ?? undefined;
+      const isViewingOther = Boolean(
+        connectedUserId &&
+          displayedUserId &&
+          displayedUserId.toLowerCase() !== connectedUserId.toLowerCase()
+      );
 
-    const [manwhas, readlist, baseManwhas] = await Promise.all([
-      getAllManwhas(displayedUserId),
-      getAllReadlistManwhas(displayedUserId),
-      getAllBaseManwhas(),
-    ]);
-    this.manwhasList.set(manwhas);
-    this.readlistManwhasList.set(readlist);
-    this.baseManwhasList.set(baseManwhas.map(getFullManwha));
-
-    this.cdr.detectChanges();
-
-    if (isViewingOther && connectedUserId) {
-      const [connectedManwhas, connectedReadlist] = await Promise.all([
-        getAllManwhas(connectedUserId),
-        getAllReadlistManwhas(connectedUserId),
+      const [manwhas, readlist, baseManwhas] = await Promise.all([
+        getAllManwhas(displayedUserId),
+        getAllReadlistManwhas(displayedUserId),
+        getAllBaseManwhas(),
       ]);
-      this.connectedUserManwhas.set(connectedManwhas[connectedUserId] ?? []);
-      this.connectedUserReadlist.set(connectedReadlist[connectedUserId] ?? []);
-    } else {
-      this.connectedUserManwhas.set([]);
-      this.connectedUserReadlist.set([]);
+      this.manwhasList.set(manwhas);
+      this.readlistManwhasList.set(readlist);
+      this.baseManwhasList.set(baseManwhas.map(getFullManwha));
+
+      this.cdr.detectChanges();
+
+      if (isViewingOther && connectedUserId) {
+        const [connectedManwhas, connectedReadlist] = await Promise.all([
+          getAllManwhas(connectedUserId),
+          getAllReadlistManwhas(connectedUserId),
+        ]);
+        this.connectedUserManwhas.set(connectedManwhas[connectedUserId] ?? []);
+        this.connectedUserReadlist.set(connectedReadlist[connectedUserId] ?? []);
+      } else {
+        this.connectedUserManwhas.set([]);
+        this.connectedUserReadlist.set([]);
+      }
+    } finally {
+      this.isLoadingManwhas.set(false);
     }
   }
 
@@ -610,6 +621,13 @@ export class ManwhasComponent implements OnInit {
 
   async loadRecommendations() {
     if (this.isLoadingRecommendations()) return;
+
+    if (isOfflineModeBlockingOtherUsers()) {
+      this.recommendationsOfflineBlocked.set(true);
+      this.recommendations.set([]);
+      return;
+    }
+    this.recommendationsOfflineBlocked.set(false);
 
     const userId = this.getActiveUserId();
     if (

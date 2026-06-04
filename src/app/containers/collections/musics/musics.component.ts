@@ -37,6 +37,7 @@ import {
   musicViewOptions,
 } from './musics.utils';
 import { DEFAULT_USER_ID } from '../../../utils/constants';
+import { LoaderComponent } from '../../../components/shared/loader/loader.component';
 
 @Component({
   selector: 'app-musics',
@@ -47,6 +48,7 @@ import { DEFAULT_USER_ID } from '../../../utils/constants';
     MenuComponent,
     AlbumModalComponent,
     MusicsHeaderComponent,
+    LoaderComponent,
   ],
   templateUrl: './musics.component.html',
   styleUrls: ['./musics.component.scss'],
@@ -72,6 +74,9 @@ export class MusicsComponent implements OnInit {
   sortOptions: SortOption[] = musicSortOptions;
 
   viewOptions: { value: string; label: string }[] = musicViewOptions;
+
+  /** True tant que les musiques n'ont pas été chargées une première fois. */
+  isLoadingMusics = signal<boolean>(true);
 
   musicsList = signal<{ [key: string]: Music[] }>({});
 
@@ -257,19 +262,24 @@ export class MusicsComponent implements OnInit {
   }
 
   async refreshMusics() {
-    const userId = this.getActiveUserId();
-    const musics = await getAllMusics(userId);
-    this.musicsList.set(musics);
+    this.isLoadingMusics.set(true);
+    try {
+      const userId = this.getActiveUserId();
+      const musics = await getAllMusics(userId);
+      this.musicsList.set(musics);
 
-    const currentUserMusics = musics[userId] || [];
-    if (
-      this.selectedFilter() === 'popular' &&
-      currentUserMusics.length > 0 &&
-      !currentUserMusics.some(
-        (music) => music.timesListened > TIMES_LISTENED_FOR_POPULAR
-      )
-    ) {
-      this.selectedFilter.set('all');
+      const currentUserMusics = musics[userId] || [];
+      if (
+        this.selectedFilter() === 'popular' &&
+        currentUserMusics.length > 0 &&
+        !currentUserMusics.some(
+          (music) => music.timesListened > TIMES_LISTENED_FOR_POPULAR
+        )
+      ) {
+        this.selectedFilter.set('all');
+      }
+    } finally {
+      this.isLoadingMusics.set(false);
     }
   }
 

@@ -69,10 +69,12 @@ import {
   markReadlistBookAsStarted as markReadlistBookAsStartedApi,
   markReadBookAsReadingInProgress as markReadBookAsReadingInProgressApi,
 } from './books.controller';
-import { isLocalhost } from '../../../core/config';
 import { BookUpdateFollowUpModalComponent } from '../../../components/modals/book-update-follow-up-modal/book-update-follow-up-modal.component';
 import { buildBookReadFollowUpProgress } from '../../../utils/book-read-follow-up.utils';
 import { BadgesService } from '../../../services/badges.service';
+import { isOfflineModeBlockingOtherUsers } from '../../../core/offline/offline-mode.utils';
+import { OfflineRestrictedMessageComponent } from '../../../components/shared/offline-restricted-message/offline-restricted-message.component';
+import { LoaderComponent } from '../../../components/shared/loader/loader.component';
 
 type RecommendationDetail = { userId: string; rating: number };
 type RecommendedBook = Book & {
@@ -90,6 +92,8 @@ type RecommendedBook = Book & {
     MatDialogModule,
 
     BooksHeaderComponent,
+    OfflineRestrictedMessageComponent,
+    LoaderComponent,
   ],
   templateUrl: './books.component.html',
   styleUrls: ['./books.component.scss'],
@@ -153,7 +157,11 @@ export class BooksComponent implements OnInit {
   connectedUserReadlist = signal<Book[]>([]);
   baseBooksList = signal<Book[]>([]);
   recommendations = signal<RecommendedBook[]>([]);
+  /** True tant que les livres n'ont pas été chargés une première fois. */
+  isLoadingBooks = signal<boolean>(true);
+
   isLoadingRecommendations = signal<boolean>(false);
+  recommendationsOfflineBlocked = signal(false);
   recommendationsUserId = signal<string>('');
 
   constructor() {
@@ -242,39 +250,44 @@ export class BooksComponent implements OnInit {
   }
 
   async refreshBooks() {
-    const displayedUserId = this.getActiveUserId();
-    const connectedUserId = this.authService.userId() ?? undefined;
-    const isViewingOther = Boolean(
-      connectedUserId &&
-        displayedUserId &&
-        displayedUserId.toLowerCase() !== connectedUserId.toLowerCase()
-    );
+    this.isLoadingBooks.set(true);
+    try {
+      const displayedUserId = this.getActiveUserId();
+      const connectedUserId = this.authService.userId() ?? undefined;
+      const isViewingOther = Boolean(
+        connectedUserId &&
+          displayedUserId &&
+          displayedUserId.toLowerCase() !== connectedUserId.toLowerCase()
+      );
 
-    const [books, readlist, baseBooks] = await Promise.all([
-      getAllBooks(displayedUserId),
-      getAllReadlistBooks(displayedUserId),
-      getAllBaseBooks(),
-    ]);
-    this.booksList.set(books);
-    this.readlistBooksList.set(readlist);
-    this.baseBooksList.set(baseBooks.map(getFullBook));
-
-    if (isViewingOther && connectedUserId) {
-      const [connectedBooks, connectedReadlist] = await Promise.all([
-        getAllBooks(connectedUserId),
-        getAllReadlistBooks(connectedUserId),
+      const [books, readlist, baseBooks] = await Promise.all([
+        getAllBooks(displayedUserId),
+        getAllReadlistBooks(displayedUserId),
+        getAllBaseBooks(),
       ]);
-      const connectedBooksList = connectedBooks[connectedUserId] ?? [];
-      const connectedReadlistList = connectedReadlist[connectedUserId] ?? [];
-      this.connectedUserBooks.set(connectedBooksList);
-      this.connectedUserReadlist.set(connectedReadlistList);
-    } else {
-      this.connectedUserBooks.set([]);
-      this.connectedUserReadlist.set([]);
-    }
+      this.booksList.set(books);
+      this.readlistBooksList.set(readlist);
+      this.baseBooksList.set(baseBooks.map(getFullBook));
 
-    // Forcer la détection des changements pour que le header (OnPush) affiche le bloc stats
-    this.cdr.detectChanges();
+      if (isViewingOther && connectedUserId) {
+        const [connectedBooks, connectedReadlist] = await Promise.all([
+          getAllBooks(connectedUserId),
+          getAllReadlistBooks(connectedUserId),
+        ]);
+        const connectedBooksList = connectedBooks[connectedUserId] ?? [];
+        const connectedReadlistList = connectedReadlist[connectedUserId] ?? [];
+        this.connectedUserBooks.set(connectedBooksList);
+        this.connectedUserReadlist.set(connectedReadlistList);
+      } else {
+        this.connectedUserBooks.set([]);
+        this.connectedUserReadlist.set([]);
+      }
+
+      // Forcer la détection des changements pour que le header (OnPush) affiche le bloc stats
+      this.cdr.detectChanges();
+    } finally {
+      this.isLoadingBooks.set(false);
+    }
   }
 
   /** Après readlist → lu : rafraîchit les listes puis modale félicitations / badges (profil affiché = le vôtre). */
@@ -293,9 +306,7 @@ export class BooksComponent implements OnInit {
     await this.refreshBooks();
     if (this.isViewingOtherProfile()) return;
     const progressRows = buildBookReadFollowUpProgress(book, this.allBooks());
-    if (!isLocalhost()) {
-      void this.badgesService.loadFromApi(this.getActiveUserId());
-    }
+    void this.badgesService.loadFromApi(this.getActiveUserId());
     this.dialog.open(BookUpdateFollowUpModalComponent, {
       data: {
         bookTitle: book.title,
@@ -832,6 +843,13 @@ export class BooksComponent implements OnInit {
 
   async loadRecommendations() {
     if (this.isLoadingRecommendations()) return;
+
+    if (isOfflineModeBlockingOtherUsers()) {
+      this.recommendationsOfflineBlocked.set(true);
+      this.recommendations.set([]);
+      return;
+    }
+    this.recommendationsOfflineBlocked.set(false);
 
     const userId = this.getActiveUserId();
     if (

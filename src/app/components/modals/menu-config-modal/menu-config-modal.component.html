@@ -1,6 +1,6 @@
 <div class="menu-config-modal">
   <div class="menu-config-modal__header">
-    <h2 class="menu-config-modal__title">Configuration de mon menu</h2>
+    <h2 class="menu-config-modal__title">Préférences</h2>
     <button
       type="button"
       class="menu-config-modal__close"
@@ -10,7 +10,32 @@
       ✕
     </button>
   </div>
-  <div class="menu-config-modal__body">
+
+  <div class="menu-config-modal__tabs" role="tablist">
+    <button
+      type="button"
+      class="menu-config-modal__tab"
+      role="tab"
+      [class.menu-config-modal__tab--active]="activeTab() === 'menu'"
+      [attr.aria-selected]="activeTab() === 'menu'"
+      (click)="setTab('menu')"
+    >
+      Configuration de mon menu
+    </button>
+    <button
+      type="button"
+      class="menu-config-modal__tab"
+      role="tab"
+      [class.menu-config-modal__tab--active]="activeTab() === 'offline'"
+      [attr.aria-selected]="activeTab() === 'offline'"
+      (click)="setTab('offline')"
+    >
+      Mode hors-ligne
+    </button>
+  </div>
+
+  @if (activeTab() === 'menu') {
+  <div class="menu-config-modal__body" role="tabpanel">
     <p class="menu-config-modal__hint">
       Cochez les entrées que vous souhaitez afficher dans le menu. Home reste
       toujours affiché.
@@ -32,6 +57,57 @@
       }
     </ul>
   </div>
+  } @else {
+  <div class="menu-config-modal__body menu-config-modal__body--offline" role="tabpanel">
+    <p class="menu-config-modal__hint">
+      Sauvegardez vos collections pour les consulter sans connexion. Les données
+      des autres utilisateurs ne sont pas incluses.
+    </p>
+
+    <label class="menu-config-modal__label menu-config-modal__label--block">
+      <input
+        type="checkbox"
+        [checked]="offlineCacheEnabled()"
+        (change)="onCacheEnabledChange($any($event.target).checked)"
+        class="menu-config-modal__checkbox"
+        [disabled]="isSyncing()"
+      />
+      <span class="menu-config-modal__text"
+        >Activer la sauvegarde des données pour le mode hors-ligne</span
+      >
+    </label>
+
+    <label class="menu-config-modal__label menu-config-modal__label--block">
+      <input
+        type="checkbox"
+        [checked]="offlineModeActive()"
+        (change)="onOfflineModeChange($any($event.target).checked)"
+        class="menu-config-modal__checkbox"
+      />
+      <span class="menu-config-modal__text">Passer en mode hors-ligne</span>
+    </label>
+
+    @if (lastSavedLabel()) {
+    <p class="menu-config-modal__meta">{{ lastSavedLabel() }}</p>
+    }
+    @if (syncError()) {
+    <p class="menu-config-modal__error">{{ syncError() }}</p>
+    }
+    @if (isSyncing()) {
+    <p class="menu-config-modal__meta">Sauvegarde en cours…</p>
+    }
+
+    <button
+      type="button"
+      class="makya-btn-small menu-config-modal__force-sync"
+      (click)="forceSync()"
+      [disabled]="!offlineCacheEnabled() || isSyncing()"
+    >
+      Forcer la sauvegarde des données hors-ligne
+    </button>
+  </div>
+  }
+
   <div class="menu-config-modal__footer">
     <button type="button" class="makya-btn-small" (click)="cancel()">
       Annuler

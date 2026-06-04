@@ -11,7 +11,7 @@ import {
 import { SelectEntitiesComponent } from '../../select-base.component';
 import { MatDialog, MatDialogModule } from '@angular/material/dialog';
 import { AddMangaComponent } from '../../../add/add-manga/add-manga.component';
-import { getApiBaseUrl, isLocalhost } from '../../../../core/config';
+import { getApiBaseUrl } from '../../../../core/config';
 import { SelectEntityComponent } from '../../../../components/entity/select-entity/select-entity.component';
 import { getEmptyManga } from '../../../../helpers/empty-entities-helper';
 import { normalizeSearchText } from '../../../../utils/normalize-search-text';
@@ -141,20 +141,8 @@ export class SelectMangasComponent
     this.allMangasMergedList.set(allMangas);
   }
 
-  private async getAllMangasForSelection(userId: string): Promise<Manga[]> {
-    if (isLocalhost()) {
-      return getAllMangasMerged(userId);
-    }
-    try {
-      const response = await fetch(`${getApiBaseUrl()}/mangas/entities`);
-      if (!response.ok) {
-        return [];
-      }
-      const data = await response.json();
-      return Array.isArray(data) ? data : [];
-    } catch {
-      return [];
-    }
+  private async getAllMangasForSelection(_userId: string): Promise<Manga[]> {
+    return (await getAllBaseMangas()).map(getEmptyManga);
   }
 
   protected async addSelectedMangas(): Promise<void> {

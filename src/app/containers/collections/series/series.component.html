@@ -1,6 +1,9 @@
 <app-menu></app-menu>
 
 <div class="series-container">
+  @if (isLoadingSeries()) {
+  <app-loader message="Chargement des séries..." />
+  } @else {
   <app-series-header
     [selectedView]="selectedView()"
     [selectedSortInput]="selectedSort()"
@@ -23,7 +26,9 @@
   <!-- Recommendations -->
   @if(selectedView() === 'recommendations') {
   <div class="series">
-    @if (isLoadingRecommendations()) {
+    @if (recommendationsOfflineBlocked()) {
+    <app-offline-restricted-message />
+    } @else if (isLoadingRecommendations()) {
     <p>Chargement des recommandations...</p>
     } @else if (followedIdsForRecommendations().length === 0) {
     <p class="recommendations-no-follows">
@@ -240,6 +245,7 @@
     </div>
     }
   </div>
+  }
   }
 </div>
 

@@ -8,6 +8,9 @@
     selectedView() === 'countries'
   "
 >
+  @if (isLoadingBooks()) {
+  <app-loader message="Chargement des livres..." />
+  } @else {
   <app-books-header
     [selectedView]="selectedView()"
     [selectedSortInput]="selectedSort()"
@@ -37,7 +40,9 @@
   <!-- Recommendations -->
   @if(selectedView() === 'recommendations') {
   <div class="books">
-    @if (isLoadingRecommendations()) {
+    @if (recommendationsOfflineBlocked()) {
+    <app-offline-restricted-message />
+    } @else if (isLoadingRecommendations()) {
     <p>Chargement des recommandations...</p>
     } @else if (followedIdsForRecommendations().length === 0) {
     <p class="recommendations-no-follows">
@@ -283,6 +288,7 @@
     </div>
     } }
   </div>
+  }
 </div>
 
 @if (isViewConfigOpen()) {

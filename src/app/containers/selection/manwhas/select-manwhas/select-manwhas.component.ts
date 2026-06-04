@@ -11,7 +11,7 @@ import {
 import { SelectEntitiesComponent } from '../../select-base.component';
 import { MatDialog, MatDialogModule } from '@angular/material/dialog';
 import { AddManwhaComponent } from '../../../add/add-manwha/add-manwha.component';
-import { getApiBaseUrl, isLocalhost } from '../../../../core/config';
+import { getApiBaseUrl } from '../../../../core/config';
 import { SelectEntityComponent } from '../../../../components/entity/select-entity/select-entity.component';
 import { getEmptyManwha } from '../../../../helpers/empty-entities-helper';
 import { normalizeSearchText } from '../../../../utils/normalize-search-text';
@@ -141,20 +141,8 @@ export class SelectManwhasComponent
     this.allManwhasMergedList.set(allManwhas);
   }
 
-  private async getAllManwhasForSelection(userId: string): Promise<Manwha[]> {
-    if (isLocalhost()) {
-      return getAllManwhasMerged(userId);
-    }
-    try {
-      const response = await fetch(`${getApiBaseUrl()}/manwhas/entities`);
-      if (!response.ok) {
-        return [];
-      }
-      const data = await response.json();
-      return Array.isArray(data) ? data : [];
-    } catch {
-      return [];
-    }
+  private async getAllManwhasForSelection(_userId: string): Promise<Manwha[]> {
+    return (await getAllBaseManwhas()).map(getEmptyManwha);
   }
 
   protected async addSelectedManwhas(): Promise<void> {

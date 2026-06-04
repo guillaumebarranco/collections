@@ -4,8 +4,6 @@ import {
   fetchProfileBadgeFromApi,
   saveProfileBadgeToApi,
 } from '../facades/profile-badge/api-profile-badge.facade';
-import { getLocalProfileBadge } from '../facades/profile-badge/local-profile-badge.facade';
-import { isLocalhost } from '../core/config';
 
 const STORAGE_KEY = 'makya_profile_badge';
 
@@ -69,13 +67,7 @@ export class ProfileBadgeService {
       const badgeId = await fetchProfileBadgeFromApi(id);
       this.applyToCacheAndStorage(id, badgeId);
     } catch {
-      if (isLocalhost()) {
-        const local = getLocalProfileBadge(id);
-        if (local !== undefined) {
-          this.applyToCacheAndStorage(id, local);
-        }
-      }
-      // Sinon : conserve le cache (localStorage) — pas de synchro serveur
+      // Conserve le cache (localStorage) — pas de synchro serveur
     }
   }
 }

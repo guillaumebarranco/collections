@@ -64,7 +64,9 @@
   <!-- Recommendations -->
   @if(selectedView() === 'recommendations') {
   <div class="movies">
-    @if (isLoadingRecommendations()) {
+    @if (recommendationsOfflineBlocked()) {
+    <app-offline-restricted-message />
+    } @else if (isLoadingRecommendations()) {
     <p>Chargement des recommandations...</p>
     } @else if (followedIdsForRecommendations().length === 0) {
     <p class="recommendations-no-follows">

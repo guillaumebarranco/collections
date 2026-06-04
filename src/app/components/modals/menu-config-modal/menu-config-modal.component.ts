@@ -1,6 +1,7 @@
 import {
   ChangeDetectionStrategy,
   Component,
+  computed,
   inject,
   signal,
 } from '@angular/core';
@@ -11,6 +12,8 @@ import {
   CONFIGURABLE_MENU_KEYS,
   type MenuConfigKey,
 } from '../../../core/menu-config.service';
+import { AuthService } from '../../../core/auth.service';
+import { OfflineModeService } from '../../../services/offline-mode.service';
 
 const CONFIGURABLE_ITEMS: {
   key: MenuConfigKey;
@@ -36,6 +39,8 @@ const CONFIGURABLE_ITEMS: {
   },
 ];
 
+type PreferencesTab = 'menu' | 'offline';
+
 @Component({
   selector: 'app-menu-config-modal',
   standalone: true,
@@ -49,8 +54,30 @@ export class MenuConfigModalComponent {
     MatDialogRef<MenuConfigModalComponent, void>
   );
   private readonly menuConfig = inject(MenuConfigService);
+  private readonly authService = inject(AuthService);
+  private readonly offlineMode = inject(OfflineModeService);
 
   readonly items = CONFIGURABLE_ITEMS;
+  readonly activeTab = signal<PreferencesTab>('menu');
+
+  private readonly initialCacheEnabled = this.offlineMode.cacheEnabled();
+  private readonly initialOfflineModeActive = this.offlineMode.offlineModeActive();
+
+  readonly offlineCacheEnabled = signal(this.initialCacheEnabled);
+  readonly offlineModeActive = signal(this.initialOfflineModeActive);
+  readonly isSyncing = this.offlineMode.isSyncing;
+  readonly syncError = this.offlineMode.lastSyncError;
+
+  readonly lastSavedLabel = computed(() => {
+    const at = this.offlineMode.lastSavedAt();
+    if (!at) return null;
+    try {
+      const d = new Date(at);
+      return `Dernière sauvegarde : ${d.toLocaleString('fr-FR')}`;
+    } catch {
+      return null;
+    }
+  });
 
   /** État local des cases cochées (clé -> activé). */
   readonly checked = signal<Record<string, boolean>>(
@@ -70,6 +97,25 @@ export class MenuConfigModalComponent {
     this.checked.set(next);
   }
 
+  setTab(tab: PreferencesTab): void {
+    this.activeTab.set(tab);
+  }
+
+  onCacheEnabledChange(enabled: boolean): void {
+    this.offlineCacheEnabled.set(enabled);
+  }
+
+  onOfflineModeChange(active: boolean): void {
+    this.offlineModeActive.set(active);
+  }
+
+  forceSync(): void {
+    if (!this.offlineCacheEnabled()) return;
+    const userId = this.authService.getAuthenticatedUserId();
+    if (!userId) return;
+    void this.offlineMode.syncOfflineData(userId);
+  }
+
   save(): void {
     const current = this.checked();
     const enabled = new Set<string>();
@@ -77,10 +123,25 @@ export class MenuConfigModalComponent {
       if (current[key] !== false) enabled.add(key);
     }
     this.menuConfig.setEnabled(enabled);
+
+    const userId = this.authService.getAuthenticatedUserId();
+    const cacheEnabled = this.offlineCacheEnabled();
+    const offlineActive = this.offlineModeActive();
+
+    if (cacheEnabled !== this.initialCacheEnabled) {
+      this.offlineMode.setCacheEnabled(cacheEnabled, userId);
+    }
+    if (offlineActive !== this.initialOfflineModeActive) {
+      this.offlineMode.setOfflineModeActive(offlineActive);
+    }
+
     this.dialogRef.close();
   }
 
   cancel(): void {
+    const userId = this.authService.getAuthenticatedUserId();
+    this.offlineMode.setCacheEnabled(this.initialCacheEnabled, userId);
+    this.offlineMode.setOfflineModeActive(this.initialOfflineModeActive);
     this.dialogRef.close();
   }
 }

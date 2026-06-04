@@ -1,6 +1,9 @@
 <app-menu></app-menu>
 
 <div class="comics-container">
+  @if (isLoadingComics()) {
+  <app-loader message="Chargement des comics..." />
+  } @else {
   <app-comics-header
     [selectedView]="selectedView()"
     [selectedSortInput]="selectedSort()"
@@ -24,7 +27,9 @@
   <!-- Recommendations -->
   @if(selectedView() === 'recommendations') {
   <div class="comics">
-    @if (isLoadingRecommendations()) {
+    @if (recommendationsOfflineBlocked()) {
+    <app-offline-restricted-message />
+    } @else if (isLoadingRecommendations()) {
     <p>Chargement des recommandations...</p>
     } @else if (followedIdsForRecommendations().length === 0) {
     <p class="recommendations-no-follows">
@@ -167,6 +172,7 @@
     </div>
     }
   </div>
+  }
   }
 </div>
 

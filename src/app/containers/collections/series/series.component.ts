@@ -62,8 +62,10 @@ import {
 } from './series.controller';
 import { AuthService } from '../../../core/auth.service';
 import { MatDialog, MatDialogModule } from '@angular/material/dialog';
-import { isLocalhost } from '../../../core/config';
 import { BadgesService } from '../../../services/badges.service';
+import { isOfflineModeBlockingOtherUsers } from '../../../core/offline/offline-mode.utils';
+import { OfflineRestrictedMessageComponent } from '../../../components/shared/offline-restricted-message/offline-restricted-message.component';
+import { LoaderComponent } from '../../../components/shared/loader/loader.component';
 import { openCollectionEntityFollowUpModal } from '../../../utils/collection-entity-follow-up-dialog';
 import { buildSeriesWatchFollowUpProgress } from '../../../utils/collection-read-badge-follow-up.utils';
 
@@ -83,6 +85,8 @@ type RecommendedSerie = Serie & {
 
     SeriesHeaderComponent,
     RouterLink,
+    OfflineRestrictedMessageComponent,
+    LoaderComponent,
   ],
   templateUrl: './series.component.html',
   styleUrls: ['./series.component.scss'],
@@ -129,6 +133,9 @@ export class SeriesComponent implements OnInit {
     this.viewOptions.filter((option) => this.isViewOptionVisible(option.value))
   );
 
+  /** True tant que les séries n'ont pas été chargées une première fois. */
+  isLoadingSeries = signal<boolean>(true);
+
   seriesList = signal<{ [key: string]: Serie[] }>({});
   watchingSeriesList = signal<{ [key: string]: Serie[] }>({});
   connectedUserSeries = signal<Serie[]>([]);
@@ -136,6 +143,7 @@ export class SeriesComponent implements OnInit {
   baseSeriesList = signal<Serie[]>([]);
   recommendations = signal<RecommendedSerie[]>([]);
   isLoadingRecommendations = signal<boolean>(false);
+  recommendationsOfflineBlocked = signal(false);
   recommendationsUserId = signal<string>('');
 
   constructor() {
@@ -393,35 +401,40 @@ export class SeriesComponent implements OnInit {
   }
 
   async refreshSeries() {
-    const displayedUserId = this.getActiveUserId();
-    const connectedUserId = this.authService.userId() ?? undefined;
-    const isViewingOther = Boolean(
-      connectedUserId &&
-        displayedUserId &&
-        displayedUserId.toLowerCase() !== connectedUserId.toLowerCase()
-    );
-
-    const [series, watchlist, baseSeries] = await Promise.all([
-      getAllSeries(displayedUserId),
-      getAllWatchlistSeries(displayedUserId),
-      getAllBaseSeries(),
-    ]);
-    this.seriesList.set(series);
-    this.watchingSeriesList.set(watchlist);
-    this.baseSeriesList.set(baseSeries.map(getFullSerie));
-
-    if (isViewingOther && connectedUserId) {
-      const [connectedSeries, connectedWatchlist] = await Promise.all([
-        getAllSeries(connectedUserId),
-        getAllWatchlistSeries(connectedUserId),
-      ]);
-      this.connectedUserSeries.set(connectedSeries[connectedUserId] ?? []);
-      this.connectedUserWatchlist.set(
-        connectedWatchlist[connectedUserId] ?? []
+    this.isLoadingSeries.set(true);
+    try {
+      const displayedUserId = this.getActiveUserId();
+      const connectedUserId = this.authService.userId() ?? undefined;
+      const isViewingOther = Boolean(
+        connectedUserId &&
+          displayedUserId &&
+          displayedUserId.toLowerCase() !== connectedUserId.toLowerCase()
       );
-    } else {
-      this.connectedUserSeries.set([]);
-      this.connectedUserWatchlist.set([]);
+
+      const [series, watchlist, baseSeries] = await Promise.all([
+        getAllSeries(displayedUserId),
+        getAllWatchlistSeries(displayedUserId),
+        getAllBaseSeries(),
+      ]);
+      this.seriesList.set(series);
+      this.watchingSeriesList.set(watchlist);
+      this.baseSeriesList.set(baseSeries.map(getFullSerie));
+
+      if (isViewingOther && connectedUserId) {
+        const [connectedSeries, connectedWatchlist] = await Promise.all([
+          getAllSeries(connectedUserId),
+          getAllWatchlistSeries(connectedUserId),
+        ]);
+        this.connectedUserSeries.set(connectedSeries[connectedUserId] ?? []);
+        this.connectedUserWatchlist.set(
+          connectedWatchlist[connectedUserId] ?? []
+        );
+      } else {
+        this.connectedUserSeries.set([]);
+        this.connectedUserWatchlist.set([]);
+      }
+    } finally {
+      this.isLoadingSeries.set(false);
     }
   }
 
@@ -448,9 +461,7 @@ export class SeriesComponent implements OnInit {
   async onWatchlistMarkedAsWatched(serie: Serie): Promise<void> {
     await this.refreshSeries();
     if (this.isViewingOtherProfile()) return;
-    if (!isLocalhost()) {
-      void this.badgesService.loadFromApi(this.getActiveUserId());
-    }
+    void this.badgesService.loadFromApi(this.getActiveUserId());
     openCollectionEntityFollowUpModal(this.dialog, {
       entityTitle: serie.title,
       coverUrl: serie.coverUrl ?? '',
@@ -571,6 +582,13 @@ export class SeriesComponent implements OnInit {
 
   async loadRecommendations() {
     if (this.isLoadingRecommendations()) return;
+
+    if (isOfflineModeBlockingOtherUsers()) {
+      this.recommendationsOfflineBlocked.set(true);
+      this.recommendations.set([]);
+      return;
+    }
+    this.recommendationsOfflineBlocked.set(false);
 
     const userId = this.getActiveUserId();
     if (

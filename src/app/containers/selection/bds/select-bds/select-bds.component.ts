@@ -11,7 +11,7 @@ import {
 import { SelectEntitiesComponent } from '../../select-base.component';
 import { MatDialog, MatDialogModule } from '@angular/material/dialog';
 import { AddBdComponent } from '../../../add/add-bd/add-bd.component';
-import { getApiBaseUrl, isLocalhost } from '../../../../core/config';
+import { getApiBaseUrl } from '../../../../core/config';
 import { SelectEntityComponent } from '../../../../components/entity/select-entity/select-entity.component';
 import { getEmptyBd } from '../../../../helpers/empty-entities-helper';
 import { normalizeSearchText } from '../../../../utils/normalize-search-text';
@@ -146,20 +146,8 @@ export class SelectBdsComponent
     this.allBdsMergedList.set(allBds);
   }
 
-  private async getAllBdsForSelection(userId: string): Promise<Bd[]> {
-    if (isLocalhost()) {
-      return getAllBdsMerged(userId);
-    }
-    try {
-      const response = await fetch(`${getApiBaseUrl()}/bds/entities`);
-      if (!response.ok) {
-        return [];
-      }
-      const data = await response.json();
-      return Array.isArray(data) ? data : [];
-    } catch {
-      return [];
-    }
+  private async getAllBdsForSelection(_userId: string): Promise<Bd[]> {
+    return (await getAllBaseBds()).map(getEmptyBd);
   }
 
   protected async addSelectedBds(): Promise<void> {

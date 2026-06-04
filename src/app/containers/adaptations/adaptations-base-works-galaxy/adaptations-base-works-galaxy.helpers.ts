@@ -1,29 +1,29 @@
-import { getLocalMoviesByUser } from '../../../facades/movies/local-movies.facade';
+import { fetchUserMoviesFromApi } from '../../../facades/movies/api-movies.facade';
 import {
-  getLocalBooksByUser,
-  getLocalReadlistByUser as getLocalBooksReadlistByUser,
-} from '../../../facades/books/local-books.facade';
+  fetchUserBooksFromApi,
+  fetchReadlistBooksFromApi,
+} from '../../../facades/books/api-books.facade';
 import {
-  getLocalBdsByUser,
-  getLocalReadlistByUser as getLocalBdsReadlistByUser,
-} from '../../../facades/bds/local-bds.facade';
+  fetchUserBdsFromApi,
+  fetchReadlistBdsFromApi,
+} from '../../../facades/bds/api-bds.facade';
 import {
-  getLocalComicsByUser,
-  getLocalReadlistByUser as getLocalComicsReadlistByUser,
-} from '../../../facades/comics/local-comics.facade';
+  fetchUserComicsFromApi,
+  fetchReadlistComicsFromApi,
+} from '../../../facades/comics/api-comics.facade';
 import {
-  getLocalMangasByUser,
-  getLocalReadlistByUser as getLocalMangasReadlistByUser,
-} from '../../../facades/mangas/local-mangas.facade';
+  fetchUserMangasFromApi,
+  fetchReadlistMangasFromApi,
+} from '../../../facades/mangas/api-mangas.facade';
 import {
-  getLocalManwhasByUser,
-  getLocalReadlistByUser as getLocalManwhasReadlistByUser,
-} from '../../../facades/manwhas/local-manwhas.facade';
+  fetchUserManwhasFromApi,
+  fetchReadlistManwhasFromApi,
+} from '../../../facades/manwhas/api-manwhas.facade';
 import {
-  getLocalGamesByUser,
-  getLocalGamelistByUser,
-} from '../../../facades/games/local-games.facade';
-import { getLocalSeriesByUser } from '../../../facades/series/local-series.facade';
+  fetchUserGamesFromApi,
+  fetchGamelistGamesFromApi,
+} from '../../../facades/games/api-games.facade';
+import { fetchUserSeriesFromApi } from '../../../facades/series/api-series.facade';
 import {
   getFullBd,
   getFullBook,
@@ -721,68 +721,122 @@ function mergeConsumedKeysByReadTimes<T extends WithReadTimes>(
   return out;
 }
 
-export function buildUserBaseGalaxyConsumption(
+export function emptyUserBaseGalaxyConsumption(): UserBaseGalaxyConsumption {
+  return {
+    movies: new Set(),
+    series: new Set(),
+    games: new Set(),
+    books: new Set(),
+    bds: new Set(),
+    comics: new Set(),
+    mangas: new Set(),
+    manwhas: new Set(),
+  };
+}
+
+export async function buildUserBaseGalaxyConsumption(
   uid: string
-): UserBaseGalaxyConsumption {
-  const movies = new Set(
-    getLocalMoviesByUser(uid).map((m) => `${m.title}|${m.director}`)
-  );
-  const series = new Set<string>();
-  for (const s of getLocalSeriesByUser(uid)) {
-    if (s.seasons?.some((se) => (se.seasonTimesWatched ?? 0) > 0)) {
-      series.add(`${s.title}|${s.director}`);
-    }
+): Promise<UserBaseGalaxyConsumption> {
+  const userId = uid.trim().toLowerCase();
+  if (!userId) {
+    return emptyUserBaseGalaxyConsumption();
   }
-  const gameMap = new Map<string, UserGame>();
-  const ingestGames = (arr: UserGame[]) => {
-    for (const g of arr) {
-      const k = `${g.title}|${g.editor}`;
-      const prev = gameMap.get(k);
-      const sc = g.sessions?.length ?? 0;
-      const psc = prev?.sessions?.length ?? 0;
-      if (!prev || sc > psc) {
-        gameMap.set(k, g);
+
+  try {
+    const [
+      userMovies,
+      userSeries,
+      userGames,
+      gamelistGames,
+      userBooks,
+      readlistBooks,
+      userBds,
+      readlistBds,
+      userComics,
+      readlistComics,
+      userMangas,
+      readlistMangas,
+      userManwhas,
+      readlistManwhas,
+    ] = await Promise.all([
+      fetchUserMoviesFromApi(userId),
+      fetchUserSeriesFromApi(userId),
+      fetchUserGamesFromApi(userId),
+      fetchGamelistGamesFromApi(userId),
+      fetchUserBooksFromApi(userId),
+      fetchReadlistBooksFromApi(userId),
+      fetchUserBdsFromApi(userId),
+      fetchReadlistBdsFromApi(userId),
+      fetchUserComicsFromApi(userId),
+      fetchReadlistComicsFromApi(userId),
+      fetchUserMangasFromApi(userId),
+      fetchReadlistMangasFromApi(userId),
+      fetchUserManwhasFromApi(userId),
+      fetchReadlistManwhasFromApi(userId),
+    ]);
+
+    const movies = new Set(
+      userMovies.map((m) => `${m.title}|${m.director}`)
+    );
+    const series = new Set<string>();
+    for (const s of userSeries) {
+      if (s.seasons?.some((se) => (se.seasonTimesWatched ?? 0) > 0)) {
+        series.add(`${s.title}|${s.director}`);
       }
     }
-  };
-  ingestGames(getLocalGamesByUser(uid));
-  ingestGames(getLocalGamelistByUser(uid));
-  const games = new Set<string>();
-  for (const [k, g] of gameMap) {
-    if (g.sessions && g.sessions.length > 0) {
-      games.add(k);
+    const gameMap = new Map<string, UserGame>();
+    const ingestGames = (arr: UserGame[]) => {
+      for (const g of arr) {
+        const k = `${g.title}|${g.editor}`;
+        const prev = gameMap.get(k);
+        const sc = g.sessions?.length ?? 0;
+        const psc = prev?.sessions?.length ?? 0;
+        if (!prev || sc > psc) {
+          gameMap.set(k, g);
+        }
+      }
+    };
+    ingestGames(userGames);
+    ingestGames(gamelistGames);
+    const games = new Set<string>();
+    for (const [k, g] of gameMap) {
+      if (g.sessions && g.sessions.length > 0) {
+        games.add(k);
+      }
     }
+    return {
+      movies,
+      series,
+      games,
+      books: mergeConsumedKeysByReadTimes(
+        userBooks,
+        readlistBooks,
+        (b) => `${b.title}|${b.author}`
+      ),
+      bds: mergeConsumedKeysByReadTimes(
+        userBds,
+        readlistBds,
+        (b) => `${b.title}|${b.writer}`
+      ),
+      comics: mergeConsumedKeysByReadTimes(
+        userComics,
+        readlistComics,
+        (c) => `${c.title}|${c.writer}`
+      ),
+      mangas: mergeConsumedKeysByReadTimes(
+        userMangas,
+        readlistMangas,
+        (m) => `${m.title}|${m.author}`
+      ),
+      manwhas: mergeConsumedKeysByReadTimes(
+        userManwhas,
+        readlistManwhas,
+        (m) => `${m.title}|${m.author}`
+      ),
+    };
+  } catch {
+    return emptyUserBaseGalaxyConsumption();
   }
-  return {
-    movies,
-    series,
-    games,
-    books: mergeConsumedKeysByReadTimes(
-      getLocalBooksByUser(uid),
-      getLocalBooksReadlistByUser(uid),
-      (b) => `${b.title}|${b.author}`
-    ),
-    bds: mergeConsumedKeysByReadTimes(
-      getLocalBdsByUser(uid),
-      getLocalBdsReadlistByUser(uid),
-      (b) => `${b.title}|${b.writer}`
-    ),
-    comics: mergeConsumedKeysByReadTimes(
-      getLocalComicsByUser(uid),
-      getLocalComicsReadlistByUser(uid),
-      (c) => `${c.title}|${c.writer}`
-    ),
-    mangas: mergeConsumedKeysByReadTimes(
-      getLocalMangasByUser(uid),
-      getLocalMangasReadlistByUser(uid),
-      (m) => `${m.title}|${m.author}`
-    ),
-    manwhas: mergeConsumedKeysByReadTimes(
-      getLocalManwhasByUser(uid),
-      getLocalManwhasReadlistByUser(uid),
-      (m) => `${m.title}|${m.author}`
-    ),
-  };
 }
 
 function mergeDedupeMovies(lists: Movie[][]): Movie[] {

@@ -6,12 +6,6 @@ import {
 } from '../../models/serie-model';
 
 import {
-  allBaseSeries,
-  getLocalSeriesByUser,
-  getLocalWatchlistByUser,
-} from './local-series.facade';
-import { isLocalhost } from '../../core/config';
-import {
   fetchBaseSeriesFromApi,
   fetchUserSeriesFromApi,
   fetchWatchlistSeriesFromApi,
@@ -20,6 +14,11 @@ import {
 } from './api-series.facade';
 import { createCachedFetcher } from '../../utils/cache.utils';
 import { getSerieDataFromUserSerieAndBaseSerie } from '../../helpers/entities.helper';
+import {
+  canServeOfflineUser,
+  getActiveOfflineCache,
+} from '../../core/offline/offline-entity-access';
+import { isOfflineModeBlockingOtherUsers } from '../../core/offline/offline-mode.utils';
 
 const fetchBaseSeriesCached = createCachedFetcher(fetchBaseSeriesFromApi);
 
@@ -91,11 +90,13 @@ async function getAllSeriesData(series: UserSerie[]): Promise<Serie[]> {
 export async function getAllSeries(
   currentUserId = 'guillaume'
 ): Promise<{ [key: string]: Serie[] }> {
-  if (isLocalhost()) {
+  const offline = getActiveOfflineCache();
+  if (offline) {
+    if (!canServeOfflineUser(currentUserId)) {
+      return { [currentUserId]: [] };
+    }
     return {
-      [currentUserId]: await getAllSeriesData(
-        getLocalSeriesByUser(currentUserId)
-      ),
+      [currentUserId]: await getAllSeriesData(offline.series.user),
     };
   }
 
@@ -114,11 +115,13 @@ export async function getAllSeries(
 export async function getAllWatchlistSeries(
   currentUserId = 'guillaume'
 ): Promise<{ [key: string]: Serie[] }> {
-  if (isLocalhost()) {
+  const offline = getActiveOfflineCache();
+  if (offline) {
+    if (!canServeOfflineUser(currentUserId)) {
+      return { [currentUserId]: [] };
+    }
     return {
-      [currentUserId]: await getAllSeriesData(
-        getLocalWatchlistByUser(currentUserId)
-      ),
+      [currentUserId]: await getAllSeriesData(offline.series.watchlist),
     };
   }
 
@@ -135,9 +138,8 @@ export async function getAllWatchlistSeries(
 }
 
 export async function getAllBaseSeries(): Promise<BaseSerie[]> {
-  if (isLocalhost()) {
-    return allBaseSeries;
-  }
+  const offline = getActiveOfflineCache();
+  if (offline) return offline.series.base;
 
   try {
     return await fetchBaseSeriesCached();
@@ -166,8 +168,10 @@ export async function getAllSeriesMerged(
 }
 
 export async function getSeriesByUser(userId: string): Promise<Serie[]> {
-  if (isLocalhost()) {
-    return getAllSeriesData(getLocalSeriesByUser(userId));
+  const offline = getActiveOfflineCache();
+  if (offline) {
+    if (!canServeOfflineUser(userId)) return [];
+    return getAllSeriesData(offline.series.user);
   }
 
   try {
@@ -181,8 +185,10 @@ export async function getSeriesByUser(userId: string): Promise<Serie[]> {
 export async function getCurrentWatchlistSeriesByUser(
   userId: string
 ): Promise<Serie[]> {
-  if (isLocalhost()) {
-    return getAllSeriesData(getLocalWatchlistByUser(userId));
+  const offline = getActiveOfflineCache();
+  if (offline) {
+    if (!canServeOfflineUser(userId)) return [];
+    return getAllSeriesData(offline.series.watchlist);
   }
 
   try {
@@ -198,44 +204,8 @@ export async function getOtherUsersSeriesRated(
   minRating = 4,
   followedUserIds: string[] = []
 ): Promise<OtherUserSerieRating[]> {
-  const otherUsers =
-    followedUserIds.length > 0
-      ? followedUserIds.filter((id) => id !== currentUserId.toLowerCase())
-      : [];
-  if (isLocalhost()) {
-    const results: OtherUserSerieRating[] = [];
-    otherUsers.forEach((username) => {
-      const series = getLocalSeriesByUser(username);
-      series
-        .filter((serie: any) => {
-          // Pour les séries, on prend la note moyenne des saisons
-          const seasons = serie.seasons || [];
-          if (seasons.length === 0) return false;
-          const avgRating =
-            seasons.reduce(
-              (sum: number, s: any) => sum + (s.seasonRating || 0),
-              0
-            ) / seasons.length;
-          return avgRating >= minRating;
-        })
-        .forEach((serie: any) => {
-          const seasons = serie.seasons || [];
-          const avgRating =
-            seasons.length > 0
-              ? seasons.reduce(
-                  (sum: number, s: any) => sum + (s.seasonRating || 0),
-                  0
-                ) / seasons.length
-              : 0;
-          results.push({
-            title: serie.title,
-            director: serie.director,
-            rating: avgRating,
-            userId: username,
-          });
-        });
-    });
-    return results;
+  if (isOfflineModeBlockingOtherUsers()) {
+    return [];
   }
 
   try {

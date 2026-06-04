@@ -383,7 +383,7 @@ export class MenuComponent implements OnInit {
     this.isUserMenuOpen = false;
   }
 
-  openMenuConfigModal(): void {
+  openPreferencesModal(): void {
     this.closeUserMenu();
     this.dialog.open(MenuConfigModalComponent, {
       width: 'auto',

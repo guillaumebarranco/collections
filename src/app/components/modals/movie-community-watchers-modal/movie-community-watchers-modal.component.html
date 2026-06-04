@@ -2,7 +2,9 @@
   <h2 class="community-modal__title">Communauté</h2>
   <p class="community-modal__subtitle">{{ data.workTitle }}</p>
 
-  @if (loading()) {
+  @if (offlineBlocked()) {
+  <app-offline-restricted-message />
+  } @else if (loading()) {
   <p class="community-modal__loading">Chargement…</p>
   } @else if (loadError()) {
   <p class="community-modal__error">

@@ -16,6 +16,8 @@ import {
   type CommunityEntityKind,
   type CommunityWatcherSeasonEntry,
 } from '../../../facades/community/entity-community-watchers.facade';
+import { isOfflineModeBlockingOtherUsers } from '../../../core/offline/offline-mode.utils';
+import { OfflineRestrictedMessageComponent } from '../../shared/offline-restricted-message/offline-restricted-message.component';
 
 export interface EntityCommunityWatchersModalData {
   workTitle: string;
@@ -153,7 +155,7 @@ export function buildSerieSeasonGroups(
 @Component({
   selector: 'app-movie-community-watchers-modal',
   standalone: true,
-  imports: [CommonModule, MatDialogModule],
+  imports: [CommonModule, MatDialogModule, OfflineRestrictedMessageComponent],
   templateUrl: './movie-community-watchers-modal.component.html',
   styleUrls: ['./movie-community-watchers-modal.component.scss'],
   changeDetection: ChangeDetectionStrategy.OnPush,
@@ -166,10 +168,17 @@ export class MovieCommunityWatchersModalComponent implements OnInit {
 
   readonly loading = signal(true);
   readonly loadError = signal(false);
+  readonly offlineBlocked = signal(false);
   readonly rows = signal<EntityCommunityWatcherDisplayRow[]>([]);
   readonly serieSeasonGroups = signal<EntityCommunitySeasonGroup[]>([]);
 
   ngOnInit(): void {
+    if (isOfflineModeBlockingOtherUsers()) {
+      this.offlineBlocked.set(true);
+      this.loading.set(false);
+      return;
+    }
+
     const { kind, identity, currentUserId } = this.data;
     const currentLower = currentUserId.trim().toLowerCase();
 

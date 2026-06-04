@@ -61,8 +61,10 @@ import { TopFiveService } from '../../../services/top-five.service';
 import { FollowsService } from '../../../services/follows.service';
 import { AuthService } from '../../../core/auth.service';
 import { getEntityKey } from '../../../utils/top-five.utils';
-import { isLocalhost } from '../../../core/config';
 import { BadgesService } from '../../../services/badges.service';
+import { isOfflineModeBlockingOtherUsers } from '../../../core/offline/offline-mode.utils';
+import { OfflineRestrictedMessageComponent } from '../../../components/shared/offline-restricted-message/offline-restricted-message.component';
+import { LoaderComponent } from '../../../components/shared/loader/loader.component';
 import { openCollectionEntityFollowUpModal } from '../../../utils/collection-entity-follow-up-dialog';
 import { buildMangaReadlistFollowUpProgress } from '../../../utils/collection-read-badge-follow-up.utils';
 
@@ -83,6 +85,8 @@ type RecommendedManga = Manga & {
 
     MangasHeaderComponent,
     RouterLink,
+    OfflineRestrictedMessageComponent,
+    LoaderComponent,
   ],
   templateUrl: './mangas.component.html',
   styleUrls: ['./mangas.component.scss'],
@@ -125,6 +129,9 @@ export class MangasComponent implements OnInit {
     this.viewOptions.filter((option) => this.isViewOptionVisible(option.value))
   );
 
+  /** True tant que les mangas n'ont pas été chargés une première fois. */
+  isLoadingMangas = signal<boolean>(true);
+
   mangasList = signal<{ [key: string]: Manga[] }>({});
   readlistMangasList = signal<{ [key: string]: Manga[] }>({});
   /** Mangas lus par l'utilisateur connecté (rempli uniquement en consultation d'un autre profil). */
@@ -134,6 +141,7 @@ export class MangasComponent implements OnInit {
   baseMangasList = signal<Manga[]>([]);
   recommendations = signal<RecommendedManga[]>([]);
   isLoadingRecommendations = signal<boolean>(false);
+  recommendationsOfflineBlocked = signal(false);
   recommendationsUserId = signal<string>('');
 
   topFive = computed(() => {
@@ -499,36 +507,41 @@ export class MangasComponent implements OnInit {
   }
 
   private async refreshMangas() {
-    const userId = this.getActiveUserId();
-    const displayedUserId = userId;
-    const connectedUserId = this.authService.userId() ?? undefined;
-    const isViewingOther = Boolean(
-      connectedUserId &&
-        displayedUserId &&
-        displayedUserId.toLowerCase() !== connectedUserId.toLowerCase()
-    );
+    this.isLoadingMangas.set(true);
+    try {
+      const userId = this.getActiveUserId();
+      const displayedUserId = userId;
+      const connectedUserId = this.authService.userId() ?? undefined;
+      const isViewingOther = Boolean(
+        connectedUserId &&
+          displayedUserId &&
+          displayedUserId.toLowerCase() !== connectedUserId.toLowerCase()
+      );
 
-    const [mangas, readlist, baseMangas] = await Promise.all([
-      getAllMangas(displayedUserId),
-      getAllReadlistMangas(displayedUserId),
-      getAllBaseMangas(),
-    ]);
-    this.mangasList.set(mangas);
-    this.readlistMangasList.set(readlist);
-    this.baseMangasList.set(baseMangas.map(getFullManga));
-
-    this.cdr.detectChanges();
-
-    if (isViewingOther && connectedUserId) {
-      const [connectedMangas, connectedReadlist] = await Promise.all([
-        getAllMangas(connectedUserId),
-        getAllReadlistMangas(connectedUserId),
+      const [mangas, readlist, baseMangas] = await Promise.all([
+        getAllMangas(displayedUserId),
+        getAllReadlistMangas(displayedUserId),
+        getAllBaseMangas(),
       ]);
-      this.connectedUserMangas.set(connectedMangas[connectedUserId] ?? []);
-      this.connectedUserReadlist.set(connectedReadlist[connectedUserId] ?? []);
-    } else {
-      this.connectedUserMangas.set([]);
-      this.connectedUserReadlist.set([]);
+      this.mangasList.set(mangas);
+      this.readlistMangasList.set(readlist);
+      this.baseMangasList.set(baseMangas.map(getFullManga));
+
+      this.cdr.detectChanges();
+
+      if (isViewingOther && connectedUserId) {
+        const [connectedMangas, connectedReadlist] = await Promise.all([
+          getAllMangas(connectedUserId),
+          getAllReadlistMangas(connectedUserId),
+        ]);
+        this.connectedUserMangas.set(connectedMangas[connectedUserId] ?? []);
+        this.connectedUserReadlist.set(connectedReadlist[connectedUserId] ?? []);
+      } else {
+        this.connectedUserMangas.set([]);
+        this.connectedUserReadlist.set([]);
+      }
+    } finally {
+      this.isLoadingMangas.set(false);
     }
   }
 
@@ -568,9 +581,7 @@ export class MangasComponent implements OnInit {
   async onReadlistMarkedAsRead(manga: Manga): Promise<void> {
     await this.refreshMangas();
     if (this.isViewingOtherProfile()) return;
-    if (!isLocalhost()) {
-      void this.badgesService.loadFromApi(this.getActiveUserId());
-    }
+    void this.badgesService.loadFromApi(this.getActiveUserId());
     openCollectionEntityFollowUpModal(this.dialog, {
       entityTitle: manga.title,
       coverUrl: manga.coverUrl ?? '',
@@ -610,6 +621,13 @@ export class MangasComponent implements OnInit {
 
   async loadRecommendations() {
     if (this.isLoadingRecommendations()) return;
+
+    if (isOfflineModeBlockingOtherUsers()) {
+      this.recommendationsOfflineBlocked.set(true);
+      this.recommendations.set([]);
+      return;
+    }
+    this.recommendationsOfflineBlocked.set(false);
 
     const userId = this.getActiveUserId();
     if (

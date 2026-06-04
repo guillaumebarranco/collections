@@ -51,7 +51,8 @@ import {
   getAllMovies,
   getAllWatchlistMovies,
 } from '../../facades/movies/movies.facade';
-import { allBaseMovies } from '../../facades/movies/local-movies.facade';
+import { getAllBaseMovies } from '../../facades/movies/movies.facade';
+import type { BaseMovie } from '../../models/movie-model';
 import {
   getAllSeries,
   getAllWatchlistSeries,
@@ -109,6 +110,9 @@ import {
 } from '../../utils/users/badges';
 import { BadgesService } from '../../services/badges.service';
 import { ProfileBadgeService } from '../../services/profile-badge.service';
+import { OfflineModeService } from '../../services/offline-mode.service';
+import { isOfflineModeBlockingOtherUsers } from '../../core/offline/offline-mode.utils';
+import { OfflineRestrictedMessageComponent } from '../../components/shared/offline-restricted-message/offline-restricted-message.component';
 
 interface TopBook extends Book {
   formattedReadingTime: string;
@@ -155,6 +159,7 @@ type BadgeGroup = {
     DashboardFeedComponent,
     DashboardMonthlyActivityComponent,
     LoginComponent,
+    OfflineRestrictedMessageComponent,
   ],
   templateUrl: './dashboard.component.html',
   styleUrls: ['./dashboard.component.scss'],
@@ -170,6 +175,7 @@ export class DashboardComponent implements OnInit {
   private readonly followsService = inject(FollowsService);
   private readonly feedService = inject(FeedService);
   private readonly impersonateService = inject(ImpersonateService);
+  private readonly offlineModeService = inject(OfflineModeService);
 
   filledUserId = signal<string>('');
   selectedTab = signal<
@@ -190,6 +196,10 @@ export class DashboardComponent implements OnInit {
   selectedBadgeEntity = signal<BadgeDashboardTabKey>('books');
   isAuthenticated = computed<boolean>(() => this.authService.isAuthenticated());
   isAdmin = computed<boolean>(() => this.authService.isAdmin());
+
+  readonly feedOfflineBlocked = computed(() =>
+    isOfflineModeBlockingOtherUsers()
+  );
 
   /** True si l'utilisateur connecté regarde son propre dashboard (peut gérer les comptes suivis). */
   isOwnUserDashboard = computed<boolean>(() => {
@@ -225,6 +235,7 @@ export class DashboardComponent implements OnInit {
 
   musicsList = signal<{ [key: string]: Music[] }>({});
   readlistMangasList = signal<{ [key: string]: Manga[] }>({});
+  baseMoviesCatalog = signal<BaseMovie[]>([]);
 
   /** Paramètres de la route en réactif pour que le contenu se mette à jour au changement d'URL (ex. clic "voir le profil"). */
   private routeParams = toSignal(this.activatedRoute.params, {
@@ -487,7 +498,7 @@ export class DashboardComponent implements OnInit {
     const watched = new Set(
       this.allMovies().map((m) => `${m.title}|${m.director}`)
     );
-    const sagaMovies = allBaseMovies.filter(
+    const sagaMovies = this.baseMoviesCatalog().filter(
       (m) => (m.saga || '').trim() === sagaName
     );
     if (sagaMovies.length === 0) {
@@ -498,6 +509,7 @@ export class DashboardComponent implements OnInit {
   }
 
   badgeProgressById = computed<Record<string, string>>(() => {
+    this.baseMoviesCatalog();
     const stats: BadgeThresholdStats = buildBadgeThresholdStatsFromCollections({
       books: this.allBooks(),
       movies: this.allMovies(),
@@ -513,23 +525,25 @@ export class DashboardComponent implements OnInit {
       'vengeurs-de-la-terre': `${this.getWatchedSagaCount(
         'Marvel Cinematic Universe'
       )}/${
-        allBaseMovies.filter(
+        this.baseMoviesCatalog().filter(
           (m) => (m.saga || '').trim() === 'Marvel Cinematic Universe'
         ).length
       }`,
       'badges-des-trois-sorciers': `${this.getWatchedSagaCount(
         'Wizarding World'
       )}/${
-        allBaseMovies.filter((m) => (m.saga || '').trim() === 'Wizarding World')
-          .length
+        this.baseMoviesCatalog().filter(
+          (m) => (m.saga || '').trim() === 'Wizarding World'
+        ).length
       }`,
       'guerrier-de-la-terre-du-milieu': `${this.getWatchedSagaCount(
         'Tolkien'
       )}/${
-        allBaseMovies.filter((m) => (m.saga || '').trim() === 'Tolkien').length
+        this.baseMoviesCatalog().filter((m) => (m.saga || '').trim() === 'Tolkien')
+          .length
       }`,
       'membre-de-l-ordre': `${this.getWatchedSagaCount('Star Wars')}/${
-        allBaseMovies.filter((m) => (m.saga || '').trim() === 'Star Wars')
+        this.baseMoviesCatalog().filter((m) => (m.saga || '').trim() === 'Star Wars')
           .length
       }`,
     };
@@ -952,11 +966,19 @@ export class DashboardComponent implements OnInit {
     effect(() => {
       const uid = this.userId();
       if (!uid) return;
-      this.topFiveService.loadFromApi(uid);
-      this.badgesService.loadFromApi(uid);
+      if (!isOfflineModeBlockingOtherUsers()) {
+        this.topFiveService.loadFromApi(uid);
+        this.badgesService.loadFromApi(uid);
+      }
       if (this.isOwnUserDashboard()) {
-        void this.followsService.loadFromApi(uid);
-        void this.feedService.loadFromApi(uid);
+        const authId = this.authService.getAuthenticatedUserId();
+        if (authId) {
+          this.offlineModeService.maybeRefreshCacheOnDashboardVisit(authId);
+        }
+        if (!isOfflineModeBlockingOtherUsers()) {
+          void this.followsService.loadFromApi(uid);
+          void this.feedService.loadFromApi(uid);
+        }
       }
       void this.loadAllDashboardData();
     });
@@ -975,6 +997,7 @@ export class DashboardComponent implements OnInit {
     this.topFiveService.loadFromStorage();
     this.badgesService.loadFromStorage();
     this.profileBadgeService.loadFromStorage();
+    void getAllBaseMovies().then((movies) => this.baseMoviesCatalog.set(movies));
   }
 
   private loadAllDashboardData(): void {

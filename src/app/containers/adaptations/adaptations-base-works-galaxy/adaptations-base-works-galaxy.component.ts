@@ -4,6 +4,7 @@ import {
   Component,
   computed,
   DestroyRef,
+  effect,
   inject,
   Injector,
   input,
@@ -31,6 +32,8 @@ import {
   buildAdaptationsBaseWorksBlocks,
   buildAdaptationsBaseWorkPanelSearchHaystack,
   buildUserBaseGalaxyConsumption,
+  emptyUserBaseGalaxyConsumption,
+  type UserBaseGalaxyConsumption,
   bookEntityKey,
   gameEntityKey,
   isCentralConsumed,
@@ -79,8 +82,12 @@ export class AdaptationsBaseWorksGalaxyComponent {
   readonly baseManwhas = input.required<BaseManwha[]>();
   readonly baseMovies = input.required<BaseMovie[]>();
   readonly baseSeries = input.required<BaseSerie[]>();
-  /** Utilisateur pour les collections locales (vues / lues / jouées). */
+  /** Utilisateur pour les collections (vues / lues / jouées). */
   readonly effectiveUserIdLower = input.required<string>();
+
+  readonly userBaseGalaxyConsumption = signal<UserBaseGalaxyConsumption>(
+    emptyUserBaseGalaxyConsumption()
+  );
 
   /**
    * Désactivé par défaut. Activé : atténue les vignettes non consommées
@@ -89,6 +96,13 @@ export class AdaptationsBaseWorksGalaxyComponent {
   readonly emphasizeMyConsumedWorks = signal(false);
 
   constructor() {
+    effect(() => {
+      const uid = this.effectiveUserIdLower();
+      void buildUserBaseGalaxyConsumption(uid).then((consumption) =>
+        this.userBaseGalaxyConsumption.set(consumption)
+      );
+    });
+
     afterNextRender(
       () => {
         const mq = window.matchMedia('(max-width: 720px) and (hover: none)');
@@ -104,10 +118,6 @@ export class AdaptationsBaseWorksGalaxyComponent {
       { injector: this._injector }
     );
   }
-
-  readonly userBaseGalaxyConsumption = computed(() =>
-    buildUserBaseGalaxyConsumption(this.effectiveUserIdLower())
-  );
 
   readonly adaptationsBaseWorksBlocks = computed(() =>
     buildAdaptationsBaseWorksBlocks(

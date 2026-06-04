@@ -13,7 +13,6 @@ import { MatDialog, MatDialogModule } from '@angular/material/dialog';
 import { AddBookComponent } from '../../../add/add-book/add-book.component';
 import { SelectEntityComponent } from '../../../../components/entity/select-entity/select-entity.component';
 
-import { isLocalhost } from '../../../../core/config';
 import { getApiBaseUrl } from '../../../../core/config';
 import { getEmptyBook } from '../../../../helpers/empty-entities-helper';
 import { normalizeSearchText } from '../../../../utils/normalize-search-text';
@@ -145,20 +144,8 @@ export class SelectBooksComponent
     });
   }
 
-  private async getAllBooksForSelection(userId: string): Promise<Book[]> {
-    if (isLocalhost()) {
-      return getAllBooksMerged(userId);
-    }
-    try {
-      const response = await fetch(`${getApiBaseUrl()}/books/entities`);
-      if (!response.ok) {
-        return [];
-      }
-      const data = await response.json();
-      return Array.isArray(data) ? data : [];
-    } catch {
-      return [];
-    }
+  private async getAllBooksForSelection(_userId: string): Promise<Book[]> {
+    return (await getAllBaseBooks()).map(getEmptyBook);
   }
 
   protected async addSelectedBooks(): Promise<void> {

@@ -1,10 +1,4 @@
 import { Bd, BaseBd, UserBd } from '../../models/bd-model';
-import { isLocalhost } from '../../core/config';
-import {
-  allBaseBds,
-  getLocalBdsByUser,
-  getLocalReadlistByUser,
-} from './local-bds.facade';
 import {
   fetchBaseBdsFromApi,
   fetchReadlistBdsFromApi,
@@ -14,6 +8,11 @@ import {
 } from './api-bds.facade';
 import { createCachedFetcher } from '../../utils/cache.utils';
 import { getBdDataFromUserBdAndBaseBd } from '../../helpers/entities.helper';
+import {
+  canServeOfflineUser,
+  getActiveOfflineCache,
+} from '../../core/offline/offline-entity-access';
+import { isOfflineModeBlockingOtherUsers } from '../../core/offline/offline-mode.utils';
 
 const fetchBaseBdsCached = createCachedFetcher(fetchBaseBdsFromApi);
 
@@ -39,9 +38,13 @@ async function getAllBdsData(bds: UserBd[]): Promise<Bd[]> {
 export async function getAllBds(
   currentUserId = 'guillaume'
 ): Promise<{ [key: string]: Bd[] }> {
-  if (isLocalhost()) {
+  const offline = getActiveOfflineCache();
+  if (offline) {
+    if (!canServeOfflineUser(currentUserId)) {
+      return { [currentUserId]: [] };
+    }
     return {
-      [currentUserId]: await getAllBdsData(getLocalBdsByUser(currentUserId)),
+      [currentUserId]: await getAllBdsData(offline.bds.user),
     };
   }
 
@@ -60,11 +63,13 @@ export async function getAllBds(
 export async function getAllReadlistBds(
   currentUserId = 'guillaume'
 ): Promise<{ [key: string]: Bd[] }> {
-  if (isLocalhost()) {
+  const offline = getActiveOfflineCache();
+  if (offline) {
+    if (!canServeOfflineUser(currentUserId)) {
+      return { [currentUserId]: [] };
+    }
     return {
-      [currentUserId]: await getAllBdsData(
-        getLocalReadlistByUser(currentUserId)
-      ),
+      [currentUserId]: await getAllBdsData(offline.bds.readlist),
     };
   }
 
@@ -81,15 +86,14 @@ export async function getAllReadlistBds(
 }
 
 export async function getAllBaseBds(): Promise<BaseBd[]> {
-  if (isLocalhost()) {
-    return allBaseBds;
-  }
+  const offline = getActiveOfflineCache();
+  if (offline) return offline.bds.base;
 
   try {
     const apiBds = await fetchBaseBdsCached();
-    return apiBds.length ? apiBds : allBaseBds;
+    return apiBds;
   } catch {
-    return allBaseBds;
+    return [];
   }
 }
 
@@ -110,8 +114,10 @@ export async function getAllBdsMerged(
 }
 
 export async function getBdsByUser(userId: string): Promise<Bd[]> {
-  if (isLocalhost()) {
-    return getAllBdsData(getLocalBdsByUser(userId));
+  const offline = getActiveOfflineCache();
+  if (offline) {
+    if (!canServeOfflineUser(userId)) return [];
+    return getAllBdsData(offline.bds.user);
   }
 
   try {
@@ -125,8 +131,10 @@ export async function getBdsByUser(userId: string): Promise<Bd[]> {
 export async function getCurrentReadlistBdsByUser(
   userId: string
 ): Promise<Bd[]> {
-  if (isLocalhost()) {
-    return getAllBdsData(getLocalReadlistByUser(userId));
+  const offline = getActiveOfflineCache();
+  if (offline) {
+    if (!canServeOfflineUser(userId)) return [];
+    return getAllBdsData(offline.bds.readlist);
   }
 
   try {
@@ -142,26 +150,8 @@ export async function getOtherUsersBdsRated(
   minRating = 4,
   followedUserIds: string[] = []
 ): Promise<OtherUserBdRating[]> {
-  const otherUsers =
-    followedUserIds.length > 0
-      ? followedUserIds.filter((id) => id !== currentUserId.toLowerCase())
-      : [];
-  if (isLocalhost()) {
-    const results: OtherUserBdRating[] = [];
-    otherUsers.forEach((username) => {
-      const bds = getLocalBdsByUser(username);
-      bds
-        .filter((bd: any) => (bd.rating ?? 0) >= minRating)
-        .forEach((bd: any) => {
-          results.push({
-            title: bd.title,
-            writer: bd.writer,
-            rating: bd.rating ?? 0,
-            userId: username,
-          });
-        });
-    });
-    return results;
+  if (isOfflineModeBlockingOtherUsers()) {
+    return [];
   }
 
   try {

@@ -1,6 +1,9 @@
 <app-menu></app-menu>
 
 <div class="manwhas-container">
+  @if (isLoadingManwhas()) {
+  <app-loader message="Chargement des manhwas..." />
+  } @else {
   <app-manwhas-header
     [selectedView]="selectedView()"
     [selectedSortInput]="selectedSort()"
@@ -24,7 +27,9 @@
   <!-- Recommendations -->
   @if(selectedView() === 'recommendations') {
   <div class="manwhas">
-    @if (isLoadingRecommendations()) {
+    @if (recommendationsOfflineBlocked()) {
+    <app-offline-restricted-message />
+    } @else if (isLoadingRecommendations()) {
     <p>Chargement des recommandations...</p>
     } @else if (followedIdsForRecommendations().length === 0) {
     <p class="recommendations-no-follows">
@@ -91,6 +96,7 @@
     </div>
     }
   </div>
+  }
   }
 </div>
 

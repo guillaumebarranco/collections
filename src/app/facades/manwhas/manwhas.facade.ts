@@ -1,12 +1,6 @@
 import { Manwha, BaseManwha, UserManwha } from '../../models/manwha-model';
 
 import {
-  allBaseManwhas,
-  getLocalManwhasByUser,
-  getLocalReadlistByUser,
-} from './local-manwhas.facade';
-import { isLocalhost } from '../../core/config';
-import {
   fetchBaseManwhasFromApi,
   fetchUserManwhasFromApi,
   fetchReadlistManwhasFromApi,
@@ -15,6 +9,11 @@ import {
 } from './api-manwhas.facade';
 import { createCachedFetcher } from '../../utils/cache.utils';
 import { getManwhaDataFromUserManwhaAndBaseManwha } from '../../helpers/entities.helper';
+import {
+  canServeOfflineUser,
+  getActiveOfflineCache,
+} from '../../core/offline/offline-entity-access';
+import { isOfflineModeBlockingOtherUsers } from '../../core/offline/offline-mode.utils';
 
 const fetchBaseManwhasCached = createCachedFetcher(fetchBaseManwhasFromApi);
 
@@ -43,11 +42,13 @@ async function getAllManwhasData(manwhas: UserManwha[]): Promise<Manwha[]> {
 export async function getAllManwhas(
   currentUserId = 'guillaume'
 ): Promise<{ [key: string]: Manwha[] }> {
-  if (isLocalhost()) {
+  const offline = getActiveOfflineCache();
+  if (offline) {
+    if (!canServeOfflineUser(currentUserId)) {
+      return { [currentUserId]: [] };
+    }
     return {
-      [currentUserId]: await getAllManwhasData(
-        getLocalManwhasByUser(currentUserId)
-      ),
+      [currentUserId]: await getAllManwhasData(offline.manwhas.user),
     };
   }
 
@@ -64,9 +65,8 @@ export async function getAllManwhas(
 }
 
 export async function getAllBaseManwhas(): Promise<BaseManwha[]> {
-  if (isLocalhost()) {
-    return allBaseManwhas;
-  }
+  const offline = getActiveOfflineCache();
+  if (offline) return offline.manwhas.base;
 
   try {
     return await fetchBaseManwhasCached();
@@ -78,11 +78,13 @@ export async function getAllBaseManwhas(): Promise<BaseManwha[]> {
 export async function getAllReadlistManwhas(
   currentUserId = 'guillaume'
 ): Promise<{ [key: string]: Manwha[] }> {
-  if (isLocalhost()) {
+  const offline = getActiveOfflineCache();
+  if (offline) {
+    if (!canServeOfflineUser(currentUserId)) {
+      return { [currentUserId]: [] };
+    }
     return {
-      [currentUserId]: await getAllManwhasData(
-        getLocalReadlistByUser(currentUserId)
-      ),
+      [currentUserId]: await getAllManwhasData(offline.manwhas.readlist),
     };
   }
 
@@ -118,8 +120,10 @@ export async function getAllManwhasMerged(
 }
 
 export async function getManwhasByUser(userId: string): Promise<Manwha[]> {
-  if (isLocalhost()) {
-    return getAllManwhasData(getLocalManwhasByUser(userId));
+  const offline = getActiveOfflineCache();
+  if (offline) {
+    if (!canServeOfflineUser(userId)) return [];
+    return getAllManwhasData(offline.manwhas.user);
   }
 
   try {
@@ -133,8 +137,10 @@ export async function getManwhasByUser(userId: string): Promise<Manwha[]> {
 export async function getCurrentReadlistManwhasByUser(
   userId: string
 ): Promise<Manwha[]> {
-  if (isLocalhost()) {
-    return getAllManwhasData(getLocalReadlistByUser(userId));
+  const offline = getActiveOfflineCache();
+  if (offline) {
+    if (!canServeOfflineUser(userId)) return [];
+    return getAllManwhasData(offline.manwhas.readlist);
   }
 
   try {
@@ -150,26 +156,8 @@ export async function getOtherUsersManwhasRated(
   minRating = 4,
   followedUserIds: string[] = []
 ): Promise<OtherUserManwhaRating[]> {
-  const otherUsers =
-    followedUserIds.length > 0
-      ? followedUserIds.filter((id) => id !== currentUserId.toLowerCase())
-      : [];
-  if (isLocalhost()) {
-    const results: OtherUserManwhaRating[] = [];
-    otherUsers.forEach((username) => {
-      const manwhas = getLocalManwhasByUser(username);
-      manwhas
-        .filter((manwha: any) => (manwha.rating ?? 0) >= minRating)
-        .forEach((manwha: any) => {
-          results.push({
-            title: manwha.title,
-            author: manwha.author,
-            rating: manwha.rating ?? 0,
-            userId: username,
-          });
-        });
-    });
-    return results;
+  if (isOfflineModeBlockingOtherUsers()) {
+    return [];
   }
 
   try {

@@ -53,8 +53,10 @@ import { FollowsService } from '../../../services/follows.service';
 import { AuthService } from '../../../core/auth.service';
 import { getEntityKey } from '../../../utils/top-five.utils';
 import { MatDialog, MatDialogModule } from '@angular/material/dialog';
-import { isLocalhost } from '../../../core/config';
 import { BadgesService } from '../../../services/badges.service';
+import { isOfflineModeBlockingOtherUsers } from '../../../core/offline/offline-mode.utils';
+import { OfflineRestrictedMessageComponent } from '../../../components/shared/offline-restricted-message/offline-restricted-message.component';
+import { LoaderComponent } from '../../../components/shared/loader/loader.component';
 import { openCollectionEntityFollowUpModal } from '../../../utils/collection-entity-follow-up-dialog';
 import { buildGameGamelistFollowUpProgress } from '../../../utils/game-gamelist-follow-up.utils';
 
@@ -81,6 +83,8 @@ import {
 
     GamesHeaderComponent,
     RouterLink,
+    OfflineRestrictedMessageComponent,
+    LoaderComponent,
   ],
   templateUrl: './games.component.html',
   styleUrls: ['./games.component.scss'],
@@ -154,6 +158,9 @@ export class GamesComponent implements OnInit {
     )
   );
 
+  /** True tant que les jeux n'ont pas été chargés une première fois. */
+  isLoadingGames = signal<boolean>(true);
+
   gamesList = signal<{ [key: string]: Game[] }>({});
   gamelistGamesList = signal<{ [key: string]: Game[] }>({});
   connectedUserGames = signal<Game[]>([]);
@@ -161,6 +168,7 @@ export class GamesComponent implements OnInit {
   baseGamesList = signal<Game[]>([]);
   recommendations = signal<RecommendedGame[]>([]);
   isLoadingRecommendations = signal<boolean>(false);
+  recommendationsOfflineBlocked = signal(false);
   recommendationsUserId = signal<string>('');
 
   topFive = computed(() => {
@@ -322,42 +330,45 @@ export class GamesComponent implements OnInit {
   }
 
   async refreshGames() {
-    const displayedUserId = this.getActiveUserId();
-    const connectedUserId = this.authService.userId() ?? undefined;
-    const isViewingOther = Boolean(
-      connectedUserId &&
-        displayedUserId &&
-        displayedUserId.toLowerCase() !== connectedUserId.toLowerCase()
-    );
+    this.isLoadingGames.set(true);
+    try {
+      const displayedUserId = this.getActiveUserId();
+      const connectedUserId = this.authService.userId() ?? undefined;
+      const isViewingOther = Boolean(
+        connectedUserId &&
+          displayedUserId &&
+          displayedUserId.toLowerCase() !== connectedUserId.toLowerCase()
+      );
 
-    const [games, gamelist, baseGames] = await Promise.all([
-      getAllGames(displayedUserId),
-      getAllGamelistGames(displayedUserId),
-      getAllBaseGames(),
-    ]);
-    this.gamesList.set(games);
-    this.gamelistGamesList.set(gamelist);
-    this.baseGamesList.set(baseGames.map(getFullGame));
-
-    if (isViewingOther && connectedUserId) {
-      const [connectedGames, connectedGamelist] = await Promise.all([
-        getAllGames(connectedUserId),
-        getAllGamelistGames(connectedUserId),
+      const [games, gamelist, baseGames] = await Promise.all([
+        getAllGames(displayedUserId),
+        getAllGamelistGames(displayedUserId),
+        getAllBaseGames(),
       ]);
-      this.connectedUserGames.set(connectedGames[connectedUserId] ?? []);
-      this.connectedUserGamelist.set(connectedGamelist[connectedUserId] ?? []);
-    } else {
-      this.connectedUserGames.set([]);
-      this.connectedUserGamelist.set([]);
+      this.gamesList.set(games);
+      this.gamelistGamesList.set(gamelist);
+      this.baseGamesList.set(baseGames.map(getFullGame));
+
+      if (isViewingOther && connectedUserId) {
+        const [connectedGames, connectedGamelist] = await Promise.all([
+          getAllGames(connectedUserId),
+          getAllGamelistGames(connectedUserId),
+        ]);
+        this.connectedUserGames.set(connectedGames[connectedUserId] ?? []);
+        this.connectedUserGamelist.set(connectedGamelist[connectedUserId] ?? []);
+      } else {
+        this.connectedUserGames.set([]);
+        this.connectedUserGamelist.set([]);
+      }
+    } finally {
+      this.isLoadingGames.set(false);
     }
   }
 
   async onGamelistMarkedAsPlayed(game: Game): Promise<void> {
     await this.refreshGames();
     if (this.isViewingOtherProfile()) return;
-    if (!isLocalhost()) {
-      void this.badgesService.loadFromApi(this.getActiveUserId());
-    }
+    void this.badgesService.loadFromApi(this.getActiveUserId());
     openCollectionEntityFollowUpModal(this.dialog, {
       entityTitle: game.title,
       coverUrl: game.coverUrl ?? '',
@@ -513,6 +524,13 @@ export class GamesComponent implements OnInit {
 
   async loadRecommendations() {
     if (this.isLoadingRecommendations()) return;
+
+    if (isOfflineModeBlockingOtherUsers()) {
+      this.recommendationsOfflineBlocked.set(true);
+      this.recommendations.set([]);
+      return;
+    }
+    this.recommendationsOfflineBlocked.set(false);
 
     const userId = this.getActiveUserId();
     if (

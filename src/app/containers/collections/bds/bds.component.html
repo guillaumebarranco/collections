@@ -1,6 +1,9 @@
 <app-menu></app-menu>
 
 <div class="bds-container">
+  @if (isLoadingBds()) {
+  <app-loader message="Chargement des BD..." />
+  } @else {
   <app-bds-header
     [selectedView]="selectedView()"
     [selectedSortInput]="selectedSort()"
@@ -24,7 +27,9 @@
   <!-- Recommendations -->
   @if(selectedView() === 'recommendations') {
   <div class="bds">
-    @if (isLoadingRecommendations()) {
+    @if (recommendationsOfflineBlocked()) {
+    <app-offline-restricted-message />
+    } @else if (isLoadingRecommendations()) {
     <p>Chargement des recommandations...</p>
     } @else if (followedIdsForRecommendations().length === 0) {
     <p class="recommendations-no-follows">
@@ -164,6 +169,7 @@
     </div>
     }
   </div>
+  }
   }
 </div>
 

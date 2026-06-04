@@ -1,10 +1,12 @@
 import { Music, BaseMusic, UserMusic } from '../../models/music-model';
-import { allBaseMusics, getLocalMusicsByUser } from './local-musics.facade';
-import { isLocalhost } from '../../core/config';
 import {
   fetchBaseMusicsFromApi,
   fetchUserMusicsFromApi,
 } from './api-musics.facade';
+import {
+  canServeOfflineUser,
+  getActiveOfflineCache,
+} from '../../core/offline/offline-entity-access';
 
 async function getAllMusicsData(musics: UserMusic[]): Promise<Music[]> {
   const baseMusics = await getAllBaseMusics();
@@ -38,11 +40,13 @@ async function getAllMusicsData(musics: UserMusic[]): Promise<Music[]> {
 export async function getAllMusics(
   currentUserId = 'guillaume'
 ): Promise<{ [key: string]: Music[] }> {
-  if (isLocalhost()) {
+  const offline = getActiveOfflineCache();
+  if (offline) {
+    if (!canServeOfflineUser(currentUserId)) {
+      return { [currentUserId]: [] };
+    }
     return {
-      [currentUserId]: await getAllMusicsData(
-        getLocalMusicsByUser(currentUserId)
-      ),
+      [currentUserId]: await getAllMusicsData(offline.musics.user),
     };
   }
 
@@ -59,15 +63,13 @@ export async function getAllMusics(
 }
 
 export async function getAllBaseMusics(): Promise<BaseMusic[]> {
-  if (isLocalhost()) {
-    return allBaseMusics;
-  }
+  const offline = getActiveOfflineCache();
+  if (offline) return offline.musics.base;
 
   try {
-    const apiMusics = await fetchBaseMusicsFromApi();
-    return apiMusics.length ? apiMusics : allBaseMusics;
+    return await fetchBaseMusicsFromApi();
   } catch {
-    return allBaseMusics;
+    return [];
   }
 }
 
@@ -91,8 +93,10 @@ export async function getAllMusicsMerged(
 }
 
 export async function getMusicsByUser(userId: string): Promise<Music[]> {
-  if (isLocalhost()) {
-    return getAllMusicsData(getLocalMusicsByUser(userId));
+  const offline = getActiveOfflineCache();
+  if (offline) {
+    if (!canServeOfflineUser(userId)) return [];
+    return getAllMusicsData(offline.musics.user);
   }
 
   try {

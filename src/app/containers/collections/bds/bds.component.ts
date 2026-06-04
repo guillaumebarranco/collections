@@ -57,8 +57,10 @@ import { TopFiveService } from '../../../services/top-five.service';
 import { FollowsService } from '../../../services/follows.service';
 import { AuthService } from '../../../core/auth.service';
 import { getEntityKey } from '../../../utils/top-five.utils';
-import { isLocalhost } from '../../../core/config';
 import { BadgesService } from '../../../services/badges.service';
+import { isOfflineModeBlockingOtherUsers } from '../../../core/offline/offline-mode.utils';
+import { OfflineRestrictedMessageComponent } from '../../../components/shared/offline-restricted-message/offline-restricted-message.component';
+import { LoaderComponent } from '../../../components/shared/loader/loader.component';
 import { openCollectionEntityFollowUpModal } from '../../../utils/collection-entity-follow-up-dialog';
 import { buildBdReadlistFollowUpProgress } from '../../../utils/collection-read-badge-follow-up.utils';
 
@@ -79,6 +81,8 @@ type RecommendedBd = Bd & {
 
     BdsHeaderComponent,
     RouterLink,
+    OfflineRestrictedMessageComponent,
+    LoaderComponent,
   ],
   templateUrl: './bds.component.html',
   styleUrls: ['./bds.component.scss'],
@@ -120,6 +124,9 @@ export class BdsComponent implements OnInit {
     this.viewOptions.filter((option) => this.isViewOptionVisible(option.value))
   );
 
+  /** True tant que les BD n'ont pas été chargées une première fois. */
+  isLoadingBds = signal<boolean>(true);
+
   bdsList = signal<{ [key: string]: Bd[] }>({});
   readlistBdsList = signal<{ [key: string]: Bd[] }>({});
   connectedUserBds = signal<Bd[]>([]);
@@ -127,6 +134,7 @@ export class BdsComponent implements OnInit {
   baseBdsList = signal<Bd[]>([]);
   recommendations = signal<RecommendedBd[]>([]);
   isLoadingRecommendations = signal<boolean>(false);
+  recommendationsOfflineBlocked = signal(false);
   recommendationsUserId = signal<string>('');
 
   topFive = computed(() => {
@@ -412,33 +420,38 @@ export class BdsComponent implements OnInit {
   }
 
   private async refreshBds() {
-    const displayedUserId = this.getActiveUserId();
-    const connectedUserId = this.authService.userId() ?? undefined;
-    const isViewingOther = Boolean(
-      connectedUserId &&
-        displayedUserId &&
-        displayedUserId.toLowerCase() !== connectedUserId.toLowerCase()
-    );
+    this.isLoadingBds.set(true);
+    try {
+      const displayedUserId = this.getActiveUserId();
+      const connectedUserId = this.authService.userId() ?? undefined;
+      const isViewingOther = Boolean(
+        connectedUserId &&
+          displayedUserId &&
+          displayedUserId.toLowerCase() !== connectedUserId.toLowerCase()
+      );
 
-    const [bds, readlist, baseBds] = await Promise.all([
-      getAllBds(displayedUserId),
-      getAllReadlistBds(displayedUserId),
-      getAllBaseBds(),
-    ]);
-    this.bdsList.set(bds);
-    this.readlistBdsList.set(readlist);
-    this.baseBdsList.set(baseBds.map(getFullBd));
-
-    if (isViewingOther && connectedUserId) {
-      const [connectedBds, connectedReadlist] = await Promise.all([
-        getAllBds(connectedUserId),
-        getAllReadlistBds(connectedUserId),
+      const [bds, readlist, baseBds] = await Promise.all([
+        getAllBds(displayedUserId),
+        getAllReadlistBds(displayedUserId),
+        getAllBaseBds(),
       ]);
-      this.connectedUserBds.set(connectedBds[connectedUserId] ?? []);
-      this.connectedUserReadlist.set(connectedReadlist[connectedUserId] ?? []);
-    } else {
-      this.connectedUserBds.set([]);
-      this.connectedUserReadlist.set([]);
+      this.bdsList.set(bds);
+      this.readlistBdsList.set(readlist);
+      this.baseBdsList.set(baseBds.map(getFullBd));
+
+      if (isViewingOther && connectedUserId) {
+        const [connectedBds, connectedReadlist] = await Promise.all([
+          getAllBds(connectedUserId),
+          getAllReadlistBds(connectedUserId),
+        ]);
+        this.connectedUserBds.set(connectedBds[connectedUserId] ?? []);
+        this.connectedUserReadlist.set(connectedReadlist[connectedUserId] ?? []);
+      } else {
+        this.connectedUserBds.set([]);
+        this.connectedUserReadlist.set([]);
+      }
+    } finally {
+      this.isLoadingBds.set(false);
     }
   }
 
@@ -468,9 +481,7 @@ export class BdsComponent implements OnInit {
   async onReadlistMarkedAsRead(bd: Bd): Promise<void> {
     await this.refreshBds();
     if (this.isViewingOtherProfile()) return;
-    if (!isLocalhost()) {
-      void this.badgesService.loadFromApi(this.getActiveUserId());
-    }
+    void this.badgesService.loadFromApi(this.getActiveUserId());
     openCollectionEntityFollowUpModal(this.dialog, {
       entityTitle: bd.title,
       coverUrl: bd.coverUrl ?? '',
@@ -510,6 +521,13 @@ export class BdsComponent implements OnInit {
 
   async loadRecommendations() {
     if (this.isLoadingRecommendations()) return;
+
+    if (isOfflineModeBlockingOtherUsers()) {
+      this.recommendationsOfflineBlocked.set(true);
+      this.recommendations.set([]);
+      return;
+    }
+    this.recommendationsOfflineBlocked.set(false);
 
     const userId = this.getActiveUserId();
     if (
