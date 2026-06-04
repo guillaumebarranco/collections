@@ -31,4 +31,41 @@ export const baseSeriesApi: BaseSerie[] = [
     saga: "Star Wars",
     fromEntity: null,
   },
+
+  {
+    title: "Spider-Noir",
+    director: "Oren Uziel",
+    actors: [
+      {
+        name: "Nicolas Cage",
+      },
+      {
+        name: "Lamorne Morris",
+      },
+      {
+        name: "Brendan Gleeson",
+      },
+      {
+        name: "Li Jun Li",
+      },
+      {
+        name: "Karen Rodriguez",
+      },
+    ],
+    coverUrl: "https://www.ecranlarge.com/content/uploads/2026/05/mv5byju3njewntitmzc1mi00y2qyltljnditotq4yju4njzjn2eyxkeyxkfqcgc._v1_.jpg",
+    releaseDate: "2026-05-25",
+    endDate: "",
+    genre: ['Super-héro'],
+    seasonsData: [
+      {
+        seasonNumber: 1,
+        nbEpisodes: 8,
+        totalLength: 369,
+      },
+    ],
+    description: "",
+    countryOrigin: "États-Unis",
+    saga: "Spider-Man",
+    fromEntity: null,
+  },
 ];

@@ -3414,4 +3414,22 @@ export const guillaumeMoviesPage1: UserMovies = [
     borrowed: '',
     loaned: '',
   },
+
+  {
+    title: "Sinners",
+    director: "Ryan Coogler",
+    rating: 3.75,
+    timesWatched: 1,
+    firstViewedDate: "2026-06-04",
+    lastViewedDate: "2026-06-04",
+    otherSeenDates: [],
+    seenAtCinema: false,
+    owned: false,
+    wantToSeeAgain: false,
+    watchPriority: 1,
+    ratingComment: "",
+    inList: [],
+    borrowed: "",
+    loaned: "",
+  },
 ];

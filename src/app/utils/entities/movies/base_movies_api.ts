@@ -577,4 +577,32 @@ export const baseMoviesApi: BaseMovie[] = [
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
   },
+
+  {
+    title: "Scary Movie (6)",
+    director: "Michael Tiddes",
+    actors: [
+      {
+        name: "Marlon Wayans",
+      },
+      {
+        name: "Shawn Wayans",
+      },
+      {
+        name: "Anna Faris",
+      },
+      {
+        name: "Regina Hall",
+      },
+    ],
+    coverUrl: "https://m.media-amazon.com/images/M/MV5BNTJjMDk1NzAtMGVmNS00NTFmLWFlOTQtZDk5M2I2NjZiZDdlXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg",
+    releaseDate: "2026-06-03",
+    length: 96,
+    genre: ['Comédie'],
+    saga: "Scary Movie",
+    description: "",
+    fromEntity: null,
+    countryOrigin: ['États-Unis'],
+    selectDisplayOrder: 0,
+  },
 ];

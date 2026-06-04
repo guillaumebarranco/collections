@@ -2455,33 +2455,33 @@ export const baseMoviesScienceFiction: BaseMovie[] = [
     director: 'Stanley Kubrick',
     actors: [
       {
-        name: 'Keir Dullea',
+        name: "Keir Dullea",
       },
       {
-        name: 'Gary Lockwood',
+        name: "Gary Lockwood",
       },
       {
-        name: 'William Sylvester',
+        name: "William Sylvester",
       },
       {
-        name: 'Leonard Rossiter',
+        name: "Leonard Rossiter",
       },
       {
-        name: 'Margaret Tyzack',
+        name: "Margaret Tyzack",
       },
       {
-        name: 'Robert Beatty',
+        name: "Robert Beatty",
       },
       {
-        name: 'Sean Sullivan',
-      },
+        name: "Sean Sullivan",
+      }
     ],
-    coverUrl: '/movies_pictures/2001-lodyssee-de-lespace.jpg',
-    releaseDate: '2018-07-30',
-    length: 0,
+    coverUrl: "/movies_pictures/2001-lodyssee-de-lespace.jpg",
+    releaseDate: "2018-07-30",
+    length: 149,
     genre: ['Science Fiction'],
-    saga: '',
-    description: '',
+    saga: "",
+    description: "",
     fromEntity: null,
     countryOrigin: ['France'],
     selectDisplayOrder: 0,

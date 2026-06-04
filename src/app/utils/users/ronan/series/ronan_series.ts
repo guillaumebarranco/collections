@@ -9730,4 +9730,26 @@ export const ronanSeries: UserSeries = [
     borrowed: '',
     loaned: '',
   },
+
+  {
+    title: "Spider-Noir",
+    director: "Oren Uziel",
+    seasons: [
+      {
+        seasonNumber: 1,
+        seasonRating: 3.5,
+        watching: false,
+        seasonTimesWatched: 1,
+        firstViewedDate: "2026-06-02",
+        lastViewedDate: "2026-06-02",
+        otherViewedDates: [],
+      }
+    ],
+    owned: false,
+    watchPriority: 1,
+    wantToWatchAgain: false,
+    ratingComment: "",
+    borrowed: "",
+    loaned: "",
+  },
 ];
