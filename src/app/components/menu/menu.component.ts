@@ -15,9 +15,13 @@ import { MatDialog } from '@angular/material/dialog';
 import { AuthService } from '../../core/auth.service';
 import { DEFAULT_USER_ID } from '../../utils/constants';
 import { MenuConfigService } from '../../core/menu-config.service';
-import { MenuConfigModalComponent } from '../modals/menu-config-modal/menu-config-modal.component';
 import { ImpersonateService } from '../../services/impersonate.service';
+import { OfflineModeService } from '../../services/offline-mode.service';
 import { ProfileBadgeService } from '../../services/profile-badge.service';
+import {
+  MenuConfigModalComponent,
+  type MenuConfigModalData,
+} from '../modals/menu-config-modal/menu-config-modal.component';
 import { getBadgeDefinitionById } from '../../utils/users/badges';
 
 @Component({
@@ -55,6 +59,7 @@ export class MenuComponent implements OnInit {
   authService = inject(AuthService);
   menuConfig = inject(MenuConfigService);
   impersonateService = inject(ImpersonateService);
+  private readonly offlineModeService = inject(OfflineModeService);
   profileBadgeService = inject(ProfileBadgeService);
   private readonly dialog = inject(MatDialog);
 
@@ -85,6 +90,21 @@ export class MenuComponent implements OnInit {
     const routeId = this.routeUserId()?.trim().toLowerCase() ?? '';
     if (!auth || !routeId) return false;
     return auth !== routeId;
+  });
+
+  /** Bandeau : mode hors-ligne activé dans Préférences. */
+  showOfflineModeBanner = computed(() =>
+    this.offlineModeService.offlineModeActive()
+  );
+
+  offlineLastSavedLabel = computed(() => {
+    const at = this.offlineModeService.lastSavedAt();
+    if (!at) return null;
+    try {
+      return new Date(at).toLocaleString('fr-FR');
+    } catch {
+      return null;
+    }
   });
 
   currentUser = computed(() => {
@@ -383,11 +403,23 @@ export class MenuComponent implements OnInit {
     this.isUserMenuOpen = false;
   }
 
-  openPreferencesModal(): void {
+  openPreferencesModal(initialTab: MenuConfigModalData['initialTab'] = 'menu'): void {
     this.closeUserMenu();
     this.dialog.open(MenuConfigModalComponent, {
       width: 'auto',
       maxWidth: '95vw',
+      data: { initialTab } satisfies MenuConfigModalData,
+    });
+  }
+
+  openOfflinePreferences(): void {
+    this.openPreferencesModal('offline');
+  }
+
+  exitOfflineMode(): void {
+    this.offlineModeService.setOfflineModeActive(false);
+    void this.router.navigateByUrl(this.router.url, {
+      onSameUrlNavigation: 'reload',
     });
   }
 

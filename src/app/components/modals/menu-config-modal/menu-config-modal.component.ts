@@ -6,7 +6,11 @@ import {
   signal,
 } from '@angular/core';
 import { CommonModule } from '@angular/common';
-import { MatDialogModule, MatDialogRef } from '@angular/material/dialog';
+import {
+  MAT_DIALOG_DATA,
+  MatDialogModule,
+  MatDialogRef,
+} from '@angular/material/dialog';
 import {
   MenuConfigService,
   CONFIGURABLE_MENU_KEYS,
@@ -41,6 +45,10 @@ const CONFIGURABLE_ITEMS: {
 
 type PreferencesTab = 'menu' | 'offline';
 
+export interface MenuConfigModalData {
+  initialTab?: PreferencesTab;
+}
+
 @Component({
   selector: 'app-menu-config-modal',
   standalone: true,
@@ -56,9 +64,15 @@ export class MenuConfigModalComponent {
   private readonly menuConfig = inject(MenuConfigService);
   private readonly authService = inject(AuthService);
   private readonly offlineMode = inject(OfflineModeService);
+  private readonly dialogData = inject<MenuConfigModalData | null>(
+    MAT_DIALOG_DATA,
+    { optional: true }
+  );
 
   readonly items = CONFIGURABLE_ITEMS;
-  readonly activeTab = signal<PreferencesTab>('menu');
+  readonly activeTab = signal<PreferencesTab>(
+    this.dialogData?.initialTab ?? 'menu'
+  );
 
   private readonly initialCacheEnabled = this.offlineMode.cacheEnabled();
   private readonly initialOfflineModeActive = this.offlineMode.offlineModeActive();

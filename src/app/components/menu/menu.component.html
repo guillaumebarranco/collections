@@ -185,4 +185,34 @@
     </button>
   </div>
   }
+  @if (showOfflineModeBanner()) {
+  <div class="offline-mode-banner" role="status" aria-live="polite">
+    <p class="offline-mode-banner__text">
+      <strong>Mode hors-ligne actif</strong> — vous consultez vos données
+      sauvegardées localement. Le feed, les recommandations et les profils
+      d’autres utilisateurs ne sont pas disponibles.
+      @if (offlineLastSavedLabel()) {
+      <span class="offline-mode-banner__meta">
+        Dernière sauvegarde : {{ offlineLastSavedLabel() }}.
+      </span>
+      }
+    </p>
+    <div class="offline-mode-banner__actions">
+      <button
+        type="button"
+        class="offline-mode-banner__action offline-mode-banner__action--secondary"
+        (click)="openOfflinePreferences()"
+      >
+        Préférences
+      </button>
+      <button
+        type="button"
+        class="offline-mode-banner__action"
+        (click)="exitOfflineMode()"
+      >
+        Quitter le mode hors-ligne
+      </button>
+    </div>
+  </div>
+  }
 </div>
