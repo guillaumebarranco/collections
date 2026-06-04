@@ -12,10 +12,9 @@ Makya est maintenant configuré comme Progressive Web App (PWA). Voici ce qui a 
 ## Fonctionnalités
 
 ### ✅ Service Worker
-- Cache des ressources statiques
-- Stratégie Network First (réseau en priorité, puis cache)
-- Mise à jour automatique du cache
-- Fonctionnement hors ligne basique
+- Cache du shell PWA (`index.html`, JS/CSS/images statiques)
+- **Les requêtes `/api/` ne sont pas mises en cache** (données utilisateur = mode hors-ligne dans Préférences uniquement)
+- Navigation hors-ligne : affichage de l’app, pas des collections sans mode hors-ligne activé
 
 ### ✅ Manifest
 - Nom et description de l'application

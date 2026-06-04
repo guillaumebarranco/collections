@@ -1,76 +1,84 @@
-// Service Worker pour Makya
-const CACHE_NAME = 'makya-v1';
-const urlsToCache = [
-  '/',
-  '/index.html',
-  '/styles.css',
-  '/main.js'
-];
+// Service Worker pour Makya — shell PWA uniquement (pas de cache API implicite).
+// Le mode hors-ligne « Préférences » utilise localStorage dédié, pas ce cache.
+const CACHE_NAME = 'makya-v2';
+const SHELL_URLS = ['/', '/index.html'];
 
-// Installation du service worker
+function isApiRequest(url) {
+  return url.pathname.startsWith('/api/');
+}
+
+function isCacheableStaticAsset(url, request) {
+  if (request.method !== 'GET') return false;
+  if (url.origin !== self.location.origin) return false;
+  if (isApiRequest(url)) return false;
+  return /\.(js|css|woff2?|png|jpe?g|webp|svg|ico)$/i.test(url.pathname);
+}
+
 self.addEventListener('install', (event) => {
   event.waitUntil(
-    caches.open(CACHE_NAME)
-      .then((cache) => {
-        console.log('Service Worker: Cache ouvert');
-        return cache.addAll(urlsToCache);
-      })
+    caches
+      .open(CACHE_NAME)
+      .then((cache) => cache.addAll(SHELL_URLS))
       .catch((error) => {
-        console.error('Service Worker: Erreur lors de la mise en cache', error);
+        console.error('Service Worker: erreur mise en cache shell', error);
       })
   );
   self.skipWaiting();
 });
 
-// Activation du service worker
 self.addEventListener('activate', (event) => {
   event.waitUntil(
-    caches.keys().then((cacheNames) => {
-      return Promise.all(
+    caches.keys().then((cacheNames) =>
+      Promise.all(
         cacheNames.map((cacheName) => {
           if (cacheName !== CACHE_NAME) {
-            console.log('Service Worker: Suppression de l\'ancien cache', cacheName);
+            console.log('Service Worker: suppression cache', cacheName);
             return caches.delete(cacheName);
           }
         })
-      );
-    })
+      )
+    )
   );
   return self.clients.claim();
 });
 
-// Stratégie: Network First, puis Cache
 self.addEventListener('fetch', (event) => {
+  const url = new URL(event.request.url);
+
+  // Ne jamais intercepter l’API : pas de données utilisateur servies hors-ligne par le SW.
+  if (isApiRequest(url)) {
+    return;
+  }
+
+  // Navigation SPA : réseau, puis index.html en cache si hors-ligne.
+  if (event.request.mode === 'navigate') {
+    event.respondWith(
+      fetch(event.request).catch(() =>
+        caches.match('/index.html').then(
+          (cached) => cached || new Response('Hors ligne', { status: 503 })
+        )
+      )
+    );
+    return;
+  }
+
+  if (!isCacheableStaticAsset(url, event.request)) {
+    return;
+  }
+
   event.respondWith(
     fetch(event.request)
       .then((response) => {
-        // Vérifier si la réponse est valide
-        if (!response || response.status !== 200 || response.type !== 'basic') {
-          return response;
+        if (response && response.status === 200 && response.type === 'basic') {
+          const clone = response.clone();
+          caches.open(CACHE_NAME).then((cache) => cache.put(event.request, clone));
         }
-
-        // Cloner la réponse
-        const responseToCache = response.clone();
-
-        caches.open(CACHE_NAME)
-          .then((cache) => {
-            cache.put(event.request, responseToCache);
-          });
-
         return response;
       })
-      .catch(() => {
-        // Si le réseau échoue, essayer le cache
-        return caches.match(event.request)
-          .then((cachedResponse) => {
-            if (cachedResponse) {
-              return cachedResponse;
-            }
-            // Si pas de cache, retourner une page d'erreur pour les navigations
-            if (event.request.mode === 'navigate') {
-              return caches.match('/index.html');
-            }
-          });
-      })
+      .catch(() =>
+        caches.match(event.request).then(
+          (cached) => cached || new Response('', { status: 504 })
+        )
+      )
   );
 });
