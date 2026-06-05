@@ -1,5 +1,53 @@
 <div class="menu-shell">
-  <nav class="menu">
+  <div class="menu-banners">
+    @if (showImpersonationBanner()) {
+    <div class="impersonation-banner" role="status" aria-live="polite">
+      <p class="impersonation-banner__text">
+        Connecté en tant que <strong>{{ currentUser() }}</strong> — vous consultez
+        son tableau de bord et ses collections, pas les vôtres.
+      </p>
+      <button
+        type="button"
+        class="impersonation-banner__action"
+        (click)="goToDashboard()"
+      >
+        Revenir à mon espace
+      </button>
+    </div>
+    }
+    @if (showOfflineModeBanner()) {
+    <div class="offline-mode-banner" role="status" aria-live="polite">
+      <p class="offline-mode-banner__text">
+        <strong>Mode hors-ligne actif</strong> — vous consultez vos données
+        sauvegardées localement. Le feed, les recommandations et les profils
+        d’autres utilisateurs ne sont pas disponibles.
+        @if (offlineLastSavedLabel()) {
+        <span class="offline-mode-banner__meta">
+          Dernière sauvegarde : {{ offlineLastSavedLabel() }}.
+        </span>
+        }
+      </p>
+      <div class="offline-mode-banner__actions">
+        <button
+          type="button"
+          class="offline-mode-banner__action offline-mode-banner__action--secondary"
+          (click)="openOfflinePreferences()"
+        >
+          Préférences
+        </button>
+        <button
+          type="button"
+          class="offline-mode-banner__action"
+          (click)="exitOfflineMode()"
+        >
+          Quitter le mode hors-ligne
+        </button>
+      </div>
+    </div>
+    }
+  </div>
+
+  <nav class="menu" aria-label="Navigation principale">
     <div class="menu-container">
       <a class="menu-logo" [routerLink]="getRoute('dashboard')">
         <span class="logo-text">Makya</span>
@@ -170,49 +218,4 @@
       </div>
     </div>
   </nav>
-  @if (showImpersonationBanner()) {
-  <div class="impersonation-banner" role="status" aria-live="polite">
-    <p class="impersonation-banner__text">
-      Connecté en tant que <strong>{{ currentUser() }}</strong> — vous consultez
-      son tableau de bord et ses collections, pas les vôtres.
-    </p>
-    <button
-      type="button"
-      class="impersonation-banner__action"
-      (click)="goToDashboard()"
-    >
-      Revenir à mon espace
-    </button>
-  </div>
-  }
-  @if (showOfflineModeBanner()) {
-  <div class="offline-mode-banner" role="status" aria-live="polite">
-    <p class="offline-mode-banner__text">
-      <strong>Mode hors-ligne actif</strong> — vous consultez vos données
-      sauvegardées localement. Le feed, les recommandations et les profils
-      d’autres utilisateurs ne sont pas disponibles.
-      @if (offlineLastSavedLabel()) {
-      <span class="offline-mode-banner__meta">
-        Dernière sauvegarde : {{ offlineLastSavedLabel() }}.
-      </span>
-      }
-    </p>
-    <div class="offline-mode-banner__actions">
-      <button
-        type="button"
-        class="offline-mode-banner__action offline-mode-banner__action--secondary"
-        (click)="openOfflinePreferences()"
-      >
-        Préférences
-      </button>
-      <button
-        type="button"
-        class="offline-mode-banner__action"
-        (click)="exitOfflineMode()"
-      >
-        Quitter le mode hors-ligne
-      </button>
-    </div>
-  </div>
-  }
 </div>

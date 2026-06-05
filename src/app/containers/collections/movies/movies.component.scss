@@ -117,11 +117,13 @@
 
 .movies {
   @include containers.grid-base;
+  @include containers.collection-grid-mobile-list;
 }
 
 .movie-card {
   position: relative;
   @include containers.card-base;
+  @include containers.collection-card-mobile-flat;
 }
 
 .movies-by-saga {
@@ -150,13 +152,13 @@
     grid-template-columns: repeat(auto-fill, minmax(min(100%, 180px), 1fr));
     gap: 16px;
 
-    @media (max-width: 768px) {
-      grid-template-columns: repeat(auto-fill, minmax(min(100%, 140px), 1fr));
-    }
+    @include containers.collection-grid-mobile-list;
   }
 
   .movie-card {
     padding: 0;
+
+    @include containers.collection-card-mobile-flat;
   }
 }
 
@@ -263,10 +265,5 @@
   .movies-actions {
     flex-wrap: wrap;
     justify-content: center;
-  }
-
-  .movies {
-    grid-template-columns: repeat(auto-fill, minmax(min(100%, 150px), 1fr));
-    gap: 20px;
   }
 }

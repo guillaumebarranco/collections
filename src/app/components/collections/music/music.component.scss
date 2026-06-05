@@ -114,3 +114,57 @@
   }
 }
 
+:host {
+  display: block;
+  height: 100%;
+}
+
+:host-context(.collection-view) {
+  @media (max-width: 768px) {
+    .music-card {
+      display: grid;
+      grid-template-columns: 72px minmax(0, 1fr);
+      gap: 10px;
+      align-items: center;
+      padding: 10px 12px;
+      border-radius: 10px;
+
+      &:hover {
+        transform: none;
+      }
+    }
+
+    .music-cover {
+      width: 72px;
+      height: 72px;
+      aspect-ratio: 1;
+      border-radius: 8px;
+      flex-shrink: 0;
+    }
+
+    .music-content {
+      padding: 0;
+      min-width: 0;
+    }
+
+    .music-title {
+      font-size: 0.9rem;
+      -webkit-line-clamp: 1;
+      margin-bottom: 2px;
+    }
+
+    .music-artist,
+    .music-album {
+      font-size: 0.78rem;
+      margin-bottom: 2px;
+    }
+
+    .music-footer {
+      padding-top: 4px;
+      margin-top: 4px;
+      border-top: none;
+      gap: 8px;
+    }
+  }
+}
+

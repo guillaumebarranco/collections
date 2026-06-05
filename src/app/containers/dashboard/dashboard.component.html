@@ -394,7 +394,7 @@
     }
   </div>
 </div>
-} @if(userId() && !userHasData()) {
+} @else if (userId() && !userHasData()) {
 <div class="dashboard-container dashboard-logged-user-no-data">
   <div class="dashboard-header">
     <h1>Tableau de bord</h1>
@@ -446,7 +446,7 @@
     </div>
   </div>
 </div>
-} @if (!userId()) {
+} @else if (!userId()) {
 <div class="dashboard-container dashboard-unlogged-user">
   <div class="dashboard-character">
     <img src="/logo.png" alt="Makya" class="character-image" />

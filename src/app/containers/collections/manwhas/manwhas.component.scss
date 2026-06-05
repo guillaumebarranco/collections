@@ -150,10 +150,12 @@
 
 .manwhas {
   @include containers.grid-base;
+  @include containers.collection-grid-mobile-list;
 }
 
 .manwha-card {
   @include containers.card-base;
+  @include containers.collection-card-mobile-flat;
 }
 
 // Responsive
@@ -169,10 +171,5 @@
     flex-direction: column;
     align-items: stretch;
     gap: 15px;
-  }
-
-  .manwhas {
-    grid-template-columns: repeat(auto-fill, minmax(min(100%, 150px), 1fr));
-    gap: 20px;
   }
 }

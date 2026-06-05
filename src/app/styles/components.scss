@@ -86,20 +86,34 @@
 
 // Styles de base pour les notes
 @mixin component-rating-base {
-  display: flex;
-  align-items: baseline;
-  gap: 8px;
+  display: inline-flex;
+  align-items: center;
+  flex-wrap: nowrap;
+  flex-shrink: 0;
+  gap: 6px;
+  white-space: nowrap;
+  width: fit-content;
+  max-width: 100%;
+  line-height: 1;
 }
 
 // Styles de base pour les étoiles
 @mixin component-stars-base {
-  display: flex;
+  display: inline-flex;
+  align-items: center;
   gap: 2px;
+  line-height: 1;
+  font-size: 0.85rem;
 }
 
 // Styles de base pour une étoile
 @mixin component-star-base {
-  font-size: 1rem;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  font-size: 0.85rem;
+  line-height: 1;
   position: relative;
   width: 1em;
   height: 1em;
@@ -108,76 +122,95 @@
     content: "★";
     position: absolute;
     left: 0;
-    top: 0;
+    top: 50%;
+    transform: translateY(-50%);
     color: #f39c12;
+    line-height: 1;
   }
 
   &.star-empty::before {
     content: "☆";
     position: absolute;
     left: 0;
-    top: 0;
+    top: 50%;
+    transform: translateY(-50%);
     color: #bdc3c7;
+    line-height: 1;
   }
 
   &.star-half::before {
     content: "☆";
     position: absolute;
     left: 0;
-    top: 0;
+    top: 50%;
+    transform: translateY(-50%);
     color: #bdc3c7;
+    line-height: 1;
   }
 
   &.star-half::after {
     content: "★";
     position: absolute;
     left: 0;
-    top: 0;
+    top: 50%;
+    transform: translateY(-50%);
     color: #f39c12;
     overflow: hidden;
     clip-path: polygon(0 0, 50% 0, 50% 100%, 0 100%);
+    line-height: 1;
   }
 
   &.star-quarter::before {
     content: "☆";
     position: absolute;
     left: 0;
-    top: 0;
+    top: 50%;
+    transform: translateY(-50%);
     color: #bdc3c7;
+    line-height: 1;
   }
 
   &.star-quarter::after {
     content: "★";
     position: absolute;
     left: 0;
-    top: 0;
+    top: 50%;
+    transform: translateY(-50%);
     color: #f39c12;
     overflow: hidden;
     clip-path: polygon(0 0, 25% 0, 25% 100%, 0 100%);
+    line-height: 1;
   }
 
   &.star-threeQuarter::before {
     content: "☆";
     position: absolute;
     left: 0;
-    top: 0;
+    top: 50%;
+    transform: translateY(-50%);
     color: #bdc3c7;
+    line-height: 1;
   }
 
   &.star-threeQuarter::after {
     content: "★";
     position: absolute;
     left: 0;
-    top: 0;
+    top: 50%;
+    transform: translateY(-50%);
     color: #f39c12;
     overflow: hidden;
     clip-path: polygon(0 0, 75% 0, 75% 100%, 0 100%);
+    line-height: 1;
   }
 }
 
 // Styles de base pour le texte de note
 @mixin component-rating-text-base {
-  font-size: 0.85rem;
+  display: inline-flex;
+  align-items: center;
+  font-size: 0.8rem;
+  line-height: 1;
   color: #7f8c8d;
   font-weight: 500;
 }
@@ -199,6 +232,144 @@
 @mixin component-reset-paragraphs {
   p {
     margin: 0 !important;
+  }
+}
+
+// Carte entité en liste horizontale — mobile uniquement (vue collection utilisateur)
+@mixin entity-card-mobile-horizontal-layout {
+  @media (max-width: 768px) {
+    ::ng-deep .entity-card {
+      display: grid;
+      grid-template-columns: 84px minmax(0, 1fr);
+      grid-template-rows: auto auto;
+      column-gap: 10px;
+      row-gap: 8px;
+      align-items: start;
+      padding: 10px 12px;
+      height: auto;
+      min-height: 0;
+      position: relative;
+    }
+
+    ::ng-deep .entity-card > [entity-edit] {
+      position: absolute;
+      top: 8px;
+      right: 8px;
+      z-index: 3;
+      display: flex;
+      flex-direction: column;
+      gap: 6px;
+      pointer-events: none;
+
+      .edit-button {
+        pointer-events: auto;
+      }
+    }
+
+    ::ng-deep .entity-badges {
+      grid-column: 1 / -1;
+      grid-row: 1;
+      flex-direction: row;
+      flex-wrap: wrap;
+      align-items: center;
+      gap: 6px;
+      margin-bottom: 0;
+      order: 0;
+    }
+
+    ::ng-deep .entity-cover {
+      grid-column: 1;
+      grid-row: 2;
+      width: 84px;
+      height: 126px;
+      margin: 0;
+    }
+
+    ::ng-deep .cover-image {
+      object-fit: cover;
+    }
+
+    ::ng-deep .entity-info {
+      grid-column: 2;
+      grid-row: 2;
+      min-width: 0;
+      padding: 0;
+      display: flex;
+      flex-direction: column;
+      gap: 4px;
+      justify-content: flex-start;
+    }
+
+    ::ng-deep .entity-info h3 {
+      margin: 0 0 2px;
+      font-size: 0.95rem;
+      line-height: 1.25;
+    }
+
+    ::ng-deep .entity-info p,
+    ::ng-deep .entity-info ul {
+      margin: 0;
+      font-size: 0.82rem;
+    }
+
+    ::ng-deep .entity-info [class*="description"] {
+      display: -webkit-box;
+      -webkit-box-orient: vertical;
+      -webkit-line-clamp: 1;
+      overflow: hidden;
+      line-height: 1.4;
+    }
+
+    ::ng-deep .entity-info .movie-directors,
+    ::ng-deep .entity-info .movie-actors,
+    ::ng-deep .entity-info .movie-list-tags {
+      margin: 0;
+    }
+
+    ::ng-deep .rating-and-buttons {
+      flex-direction: column;
+      align-items: flex-start;
+      gap: 8px;
+      margin-top: 8px;
+      width: 100%;
+
+      > div:not(.entity-rating):not([entityCardRatingExtra]) {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 8px;
+        width: 100%;
+      }
+    }
+
+    ::ng-deep .entity-rating {
+      display: inline-flex;
+      flex-direction: row;
+      flex-wrap: nowrap;
+      flex-shrink: 0;
+      align-items: center;
+      align-self: flex-start;
+      gap: 6px;
+      white-space: nowrap;
+      line-height: 1;
+      height: 0.85rem;
+
+      .rating-text,
+      .stars {
+        height: 0.85rem;
+        align-items: center;
+      }
+    }
+
+    ::ng-deep .entity-card-my-profile-actions {
+      flex-direction: column;
+      align-items: flex-start;
+      gap: 8px;
+      width: 100%;
+    }
+
+    ::ng-deep .readlist-priority {
+      flex-wrap: wrap;
+    }
   }
 }
 

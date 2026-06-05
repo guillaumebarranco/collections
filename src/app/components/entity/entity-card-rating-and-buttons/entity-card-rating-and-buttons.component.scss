@@ -4,20 +4,27 @@
   display: flex;
   flex-direction: column;
   gap: 8px;
+  margin-top: 8px;
 
-  & > div {
+  & > div:not(.entity-rating):not([entityCardRatingExtra]) {
     display: flex;
     flex-direction: column;
     gap: 8px;
   }
 }
 
+.entity-rating,
 .book-rating.entity-rating {
   @include components.component-rating-base;
+  flex-direction: row;
+  align-self: flex-start;
+  height: 0.85rem;
 }
 
 .stars {
   @include components.component-stars-base;
+  flex-shrink: 0;
+  height: 0.85rem;
 }
 
 .star {
@@ -26,6 +33,8 @@
 
 .rating-text {
   @include components.component-rating-text-base;
+  flex-shrink: 0;
+  height: 0.85rem;
 }
 
 .entity-card-my-profile-actions {

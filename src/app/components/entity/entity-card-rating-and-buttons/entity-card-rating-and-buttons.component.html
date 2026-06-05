@@ -3,12 +3,12 @@
 
   @if (showRating) {
   <div class="book-rating entity-rating">
+    <span class="rating-text">{{ rating }}/5</span>
     <span class="stars">
       @for (star of getRatingStars(rating); track star.value) {
       <span [class]="'star star-' + star.type"></span>
       }
     </span>
-    <span class="rating-text">{{ rating }}/5</span>
   </div>
 
   } @if (hasRatingComment) {
@@ -42,9 +42,15 @@
     {{ startedReadingLabel }}
   </button>
   }
+  @if (selectedView === 'readingInProgress' && entityData.alreadySeenRead) {
+  <button type="button" class="makya-btn-small" (click)="onHaveReReadClick()">
+    {{ effectiveLabels.haveReRead }}
+  </button>
+  } @else {
   <button type="button" class="makya-btn-small" (click)="onAddFromList()">
     {{ effectiveLabels.addFromList }}
   </button>
+  }
   } @if (showMarkNewSeasonButton) {
   <button
     type="button"

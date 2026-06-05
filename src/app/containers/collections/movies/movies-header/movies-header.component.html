@@ -15,33 +15,50 @@
       [selected]="selectedView()"
       (selectedChange)="onViewChange.emit($any($event))"
     ></app-view-toggle>
+  </div>
 
-    <div class="movies-actions" *appCanEdit>
-      <button
-        class="makya-btn-small"
-        type="button"
-        title="Configurer l'affichage des onglets"
-        (click)="onOpenViewConfig.emit()"
-      >
-        ⚙️ Configurer ma vue films
-      </button>
+  <div class="movies-header-tools-accordion">
+    @if (isMobileViewport()) {
+    <button
+      type="button"
+      class="movies-header-tools-accordion__summary"
+      [attr.aria-expanded]="toolsPanelExpanded()"
+      (click)="toggleToolsPanel()"
+    >
+      Afficher les actions et statistiques
+    </button>
+    }
 
-      @if (canShowAddMoviesButton()) {
-      <button
-        class="makya-btn-small"
-        [routerLink]="getSelectMoviesRoute()"
-        [queryParams]="{
-          watchlist: selectedView() === 'watchlist',
-          cinema: selectedView() === 'cinema'
-        }"
-        title="Ajouter un film"
-      >
-        ➕
-        {{ addMoviesButtonLabel() }}
-      </button>
-      } @if (canShowUpdateMoviesRatingButton()) {
+    <div
+      class="movies-header-tools-accordion__content"
+      [class.movies-header-tools-accordion__content--collapsed]="
+        isMobileViewport() && !toolsPanelExpanded()
+      "
+    >
+      <div class="movies-actions" *appCanEdit>
+        <button
+          class="makya-btn-small"
+          type="button"
+          title="Configurer l'affichage des onglets"
+          (click)="onOpenViewConfig.emit()"
+        >
+          ⚙️ Configurer ma vue films
+        </button>
 
-      <ng-container>
+        @if (canShowAddMoviesButton()) {
+        <button
+          class="makya-btn-small"
+          [routerLink]="getSelectMoviesRoute()"
+          [queryParams]="{
+            watchlist: selectedView() === 'watchlist',
+            cinema: selectedView() === 'cinema'
+          }"
+          title="Ajouter un film"
+        >
+          ➕
+          {{ addMoviesButtonLabel() }}
+        </button>
+        } @if (canShowUpdateMoviesRatingButton()) {
         <button
           class="makya-btn-small"
           [routerLink]="getSelectMoviesRatingRoute()"
@@ -49,9 +66,7 @@
         >
           ⭐ Notes
         </button>
-      </ng-container>
-      } @if (canShowUpdateMoviesTimesWatchedButton()) {
-      <ng-container>
+        } @if (canShowUpdateMoviesTimesWatchedButton()) {
         <button
           class="makya-btn-small"
           [routerLink]="getSelectMoviesTimesWatchedRoute()"
@@ -59,9 +74,7 @@
         >
           🎬 Visionnages
         </button>
-      </ng-container>
-      } @if (canShowUpdateMoviesOwnedButton()) {
-      <ng-container>
+        } @if (canShowUpdateMoviesOwnedButton()) {
         <button
           class="makya-btn-small"
           [routerLink]="getSelectMoviesOwnedRoute()"
@@ -69,9 +82,7 @@
         >
           ✅ Possédés
         </button>
-      </ng-container>
-      } @if (canShowTopFiveRankButton()) {
-      <ng-container>
+        } @if (canShowTopFiveRankButton()) {
         <button
           class="makya-btn-small"
           [class.active]="showTopFiveRank()"
@@ -80,7 +91,59 @@
         >
           🏆 Top 5
         </button>
-      </ng-container>
+        }
+      </div>
+
+      @if (showFiltersAndSearch() && canShowFiltersAndSearch()) {
+      <div class="movies-stats-bloc">
+        <ng-content select="[movies-stats-bloc-content]"></ng-content>
+        <ng-content select="[movies-filters]"></ng-content>
+      </div>
+
+      <div class="movies-search-and-lists">
+        <div class="entity-input-search">
+          <input
+            type="text"
+            placeholder="Rechercher par titre, réalisateur, acteur..."
+            [ngModel]="searchTerm()"
+            (ngModelChange)="handleSearchChange($event)"
+          />
+        </div>
+        @if (selectedView() === 'watched' && userMoviesLists().length > 0) {
+        <div
+          class="movies-list-filters"
+          role="group"
+          aria-label="Filtrer par liste"
+        >
+          @for (list of userMoviesLists(); track list.name) {
+          <button
+            type="button"
+            class="movies-list-filter-chip"
+            [class.movies-list-filter-chip--selected]="
+              selectedListFilter() === list.name
+            "
+            [style.--list-color]="list.color"
+            (click)="
+              onListFilterChange.emit(
+                selectedListFilter() === list.name ? null : list.name
+              )
+            "
+            [attr.aria-pressed]="selectedListFilter() === list.name"
+            [attr.aria-label]="'Filtrer par liste : ' + list.name"
+          >
+            <span class="movies-list-filter-chip__icon" aria-hidden="true">{{
+              list.icon
+            }}</span>
+            <span class="movies-list-filter-chip__name">{{ list.name }}</span>
+          </button>
+          }
+        </div>
+        }
+      </div>
+      } @if(noDataForThisView() && allMoviesCount() !== 0) {
+      <div class="empty-state">
+        <p class="empty-message">{{ noDataMessageText() }}</p>
+      </div>
       }
     </div>
   </div>
@@ -93,56 +156,6 @@
     <button class="makya-btn-ultra-big" [routerLink]="getSelectMoviesRoute()">
       Sélectionner mes films
     </button>
-  </div>
-  } @if (showFiltersAndSearch() && canShowFiltersAndSearch()) {
-  <div class="movies-stats-bloc">
-    <ng-content select="[movies-stats-bloc-content]"></ng-content>
-    <ng-content select="[movies-filters]"></ng-content>
-  </div>
-
-  <div class="movies-search-and-lists">
-    <div class="entity-input-search">
-      <input
-        type="text"
-        placeholder="Rechercher par titre, réalisateur, acteur..."
-        [ngModel]="searchTerm()"
-        (ngModelChange)="handleSearchChange($event)"
-      />
-    </div>
-    @if (selectedView() === 'watched' && userMoviesLists().length > 0) {
-    <div
-      class="movies-list-filters"
-      role="group"
-      aria-label="Filtrer par liste"
-    >
-      @for (list of userMoviesLists(); track list.name) {
-      <button
-        type="button"
-        class="movies-list-filter-chip"
-        [class.movies-list-filter-chip--selected]="
-          selectedListFilter() === list.name
-        "
-        [style.--list-color]="list.color"
-        (click)="
-          onListFilterChange.emit(
-            selectedListFilter() === list.name ? null : list.name
-          )
-        "
-        [attr.aria-pressed]="selectedListFilter() === list.name"
-        [attr.aria-label]="'Filtrer par liste : ' + list.name"
-      >
-        <span class="movies-list-filter-chip__icon" aria-hidden="true">{{
-          list.icon
-        }}</span>
-        <span class="movies-list-filter-chip__name">{{ list.name }}</span>
-      </button>
-      }
-    </div>
-    }
-  </div>
-  } @if(noDataForThisView() && allMoviesCount() !== 0) {
-  <div class="empty-state">
-    <p class="empty-message">{{ noDataMessageText() }}</p>
   </div>
   }
 </div>

@@ -11,18 +11,11 @@
 }
 
 .movies-header-top {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  gap: 20px;
-  margin-bottom: 20px;
-  flex-wrap: wrap;
+  @include containers.header-top-with-view-toggle;
 }
 
 .movies-actions {
-  flex-wrap: wrap;
-  display: flex;
-  gap: 8px;
+  @include containers.header-actions-row;
 }
 
 .movies-stats-bloc {
@@ -108,12 +101,6 @@
     }
   }
 
-  .movies-header-top {
-    flex-direction: column;
-    align-items: stretch;
-    gap: 8px;
-  }
-
   .movies-search-and-lists {
     flex-direction: column;
     align-items: stretch;
@@ -125,3 +112,5 @@
     justify-content: center;
   }
 }
+
+@include containers.header-tools-accordion("movies-header-tools-accordion");

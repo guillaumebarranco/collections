@@ -11,18 +11,11 @@
 }
 
 .comics-header-top {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  gap: 20px;
-  margin-bottom: 20px;
-  flex-wrap: wrap;
+  @include containers.header-top-with-view-toggle;
 }
 
 .comics-actions {
-  flex-wrap: wrap;
-  display: flex;
-  gap: 8px;
+  @include containers.header-actions-row;
 }
 
 .comics-stats-bloc {
@@ -35,10 +28,6 @@
     gap: 8px;
     text-align: center;
   }
-
-  .comics-header-top {
-    flex-direction: column;
-    align-items: stretch;
-    gap: 8px;
-  }
 }
+
+@include containers.header-tools-accordion("comics-header-tools-accordion");

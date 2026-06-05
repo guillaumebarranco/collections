@@ -1,11 +1,23 @@
 @use "../../../styles/components.scss" as components;
 
+:host {
+  display: block;
+  height: 100%;
+}
+
 .book-title {
   @include components.component-title-base;
 }
 
 .book-author {
   @include components.component-author-base;
+}
+
+.book-saga {
+  margin: 0;
+  font-size: 0.85rem;
+  color: #6366f1;
+  font-weight: 600;
 }
 
 .book-pages {
@@ -18,4 +30,15 @@
 
 .book-genre {
   @include components.component-genre-base;
+}
+
+.book-description {
+  margin: 0;
+  font-size: 0.85rem;
+  color: #5d6d7e;
+  line-height: 1.45;
+}
+
+:host-context(.collection-view) {
+  @include components.entity-card-mobile-horizontal-layout;
 }

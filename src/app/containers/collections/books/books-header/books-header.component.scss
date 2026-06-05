@@ -11,19 +11,11 @@
 }
 
 .books-header-top {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  gap: 20px;
-  margin-bottom: 20px;
-  flex-wrap: wrap;
+  @include containers.header-top-with-view-toggle;
 }
 
 .books-actions {
-  flex-wrap: wrap;
-  display: flex;
-  gap: 8px;
-  flex-wrap: wrap;
+  @include containers.header-actions-row;
 }
 
 .books-stats-bloc {
@@ -59,10 +51,6 @@
       max-width: 100%;
     }
   }
-
-  .books-header-top {
-    flex-direction: column;
-    align-items: stretch;
-    gap: 8px;
-  }
 }
+
+@include containers.header-tools-accordion("books-header-tools-accordion");

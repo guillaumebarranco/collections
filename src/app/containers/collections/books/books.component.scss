@@ -141,10 +141,12 @@
 
 .books {
   @include containers.grid-base;
+  @include containers.collection-grid-mobile-list;
 }
 
 .book-card {
   @include containers.card-base;
+  @include containers.collection-card-mobile-flat;
 }
 
 .books-by-author {
@@ -162,10 +164,14 @@
   .books {
     grid-template-columns: repeat(auto-fill, minmax(min(100%, 140px), 1fr));
     gap: 16px;
+
+    @include containers.collection-grid-mobile-list;
   }
 
   .book-card {
     padding: 10px;
+
+    @include containers.collection-card-mobile-flat;
   }
 }
 
@@ -202,13 +208,5 @@
   .book-rating,
   .book-read-times {
     display: none;
-  }
-}
-
-// Responsive
-@include containers.responsive-base {
-  .books {
-    grid-template-columns: repeat(auto-fill, minmax(min(100%, 150px), 1fr));
-    gap: 20px;
   }
 }

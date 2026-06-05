@@ -15,64 +15,120 @@
       [selected]="selectedView()"
       (selectedChange)="onViewChange.emit($any($event))"
     ></app-view-toggle>
+  </div>
 
-    <div class="series-actions" *appCanEdit>
-      <button
-        class="makya-btn-small"
-        type="button"
-        title="Configurer l'affichage des onglets"
-        (click)="onOpenViewConfig.emit()"
-      >
-        ⚙️ Configurer ma vue séries
-      </button>
-      @if (canShowAddSeriesButton()) {
-      <button
-        class="makya-btn-small"
-        [routerLink]="getSelectSeriesRoute()"
-        [queryParams]="{
-          watchlist:
-            selectedView() === 'watchlist' ||
-            selectedView() === 'watchingInProgress',
-          add: 'true'
-        }"
-        title="Ajouter une série"
-      >
-        ➕
-        {{ addSeriesButtonLabel() }}
-      </button>
-      } @if (canShowUpdateSeriesRatingButton()) {
-      <button
-        class="makya-btn-small"
-        [routerLink]="getSelectSeriesRatingRoute()"
-        title="Mettre à jour les notes de mes séries"
-      >
-        ⭐ Notes
-      </button>
-      } @if (canShowUpdateSeriesTimesWatchedButton()) {
-      <button
-        class="makya-btn-small"
-        [routerLink]="getSelectSeriesTimesWatchedRoute()"
-        title="Mettre à jour le nombre de visionnages de mes séries"
-      >
-        🎬 Visionnages
-      </button>
-      } @if (canShowUpdateSeriesOwnedButton()) {
-      <button
-        class="makya-btn-small"
-        [routerLink]="getSelectSeriesOwnedRoute()"
-        title="Mettre à jour les séries possédées"
-      >
-        ✅ Possédées
-      </button>
-      } @if (canShowTopFiveRankButton()) {
-      <button
-        class="makya-btn-small"
-        [class.active]="showTopFiveRank()"
-        title="Voir les top 5 des séries"
-        (click)="onTopFiveRankChange.emit()"
-      >
-        🏆 Top 5
-      </button>
+  <div class="series-header-tools-accordion">
+    @if (isMobileViewport()) {
+    <button
+      type="button"
+      class="series-header-tools-accordion__summary"
+      [attr.aria-expanded]="toolsPanelExpanded()"
+      (click)="toggleToolsPanel()"
+    >
+      Afficher les actions et statistiques
+    </button>
+    }
+
+    <div
+      class="series-header-tools-accordion__content"
+      [class.series-header-tools-accordion__content--collapsed]="
+        isMobileViewport() && !toolsPanelExpanded()
+      "
+    >
+      <div class="series-actions" *appCanEdit>
+        <button
+          class="makya-btn-small"
+          type="button"
+          title="Configurer l'affichage des onglets"
+          (click)="onOpenViewConfig.emit()"
+        >
+          ⚙️ Configurer ma vue séries
+        </button>
+        @if (canShowAddSeriesButton()) {
+        <button
+          class="makya-btn-small"
+          [routerLink]="getSelectSeriesRoute()"
+          [queryParams]="{
+            watchlist:
+              selectedView() === 'watchlist' ||
+              selectedView() === 'watchingInProgress',
+            add: 'true'
+          }"
+          title="Ajouter une série"
+        >
+          ➕
+          {{ addSeriesButtonLabel() }}
+        </button>
+        } @if (canShowUpdateSeriesRatingButton()) {
+        <button
+          class="makya-btn-small"
+          [routerLink]="getSelectSeriesRatingRoute()"
+          title="Mettre à jour les notes de mes séries"
+        >
+          ⭐ Notes
+        </button>
+        } @if (canShowUpdateSeriesTimesWatchedButton()) {
+        <button
+          class="makya-btn-small"
+          [routerLink]="getSelectSeriesTimesWatchedRoute()"
+          title="Mettre à jour le nombre de visionnages de mes séries"
+        >
+          🎬 Visionnages
+        </button>
+        } @if (canShowUpdateSeriesOwnedButton()) {
+        <button
+          class="makya-btn-small"
+          [routerLink]="getSelectSeriesOwnedRoute()"
+          title="Mettre à jour les séries possédées"
+        >
+          ✅ Possédées
+        </button>
+        } @if (canShowTopFiveRankButton()) {
+        <button
+          class="makya-btn-small"
+          [class.active]="showTopFiveRank()"
+          title="Voir les top 5 des séries"
+          (click)="onTopFiveRankChange.emit()"
+        >
+          🏆 Top 5
+        </button>
+        }
+      </div>
+
+      @if (showFiltersAndSearch() && canShowFiltersAndSearch()) {
+      <div class="series-stats-bloc">
+        <app-stats-display
+          [stats]="stats()"
+          [count]="filteredSeriesCount()"
+          countLabel="séries"
+        >
+        </app-stats-display>
+
+        @if (canShowSortDropdown()) {
+        <div class="series-filters">
+          <app-sort-dropdown
+            label="Trier par :"
+            [sortOptions]="sortOptions()"
+            [selectedSort]="selectedSort()"
+            (sortChange)="onSortChange.emit($event)"
+          >
+          </app-sort-dropdown>
+        </div>
+        }
+      </div>
+
+      <div class="entity-input-search">
+        <input
+          type="text"
+          placeholder="Rechercher par titre, réalisateur, acteur..."
+          [ngModel]="searchTerm()"
+          (ngModelChange)="onSearchChange.emit($event)"
+        />
+      </div>
+      } @if (noDataForThisView() && allSeriesCount() !== 0) {
+      <div class="empty-state">
+        <p class="empty-message">{{ noDataMessageText() }}</p>
+      </div>
       }
     </div>
   </div>
@@ -85,40 +141,6 @@
     <button class="makya-btn-ultra-big" [routerLink]="getSelectSeriesRoute()">
       Sélectionner mes séries
     </button>
-  </div>
-  } @if (showFiltersAndSearch() && canShowFiltersAndSearch()) {
-  <div class="series-stats-bloc">
-    <app-stats-display
-      [stats]="stats()"
-      [count]="filteredSeriesCount()"
-      countLabel="séries"
-    >
-    </app-stats-display>
-
-    @if (canShowSortDropdown()) {
-    <div class="series-filters">
-      <app-sort-dropdown
-        label="Trier par :"
-        [sortOptions]="sortOptions()"
-        [selectedSort]="selectedSort()"
-        (sortChange)="onSortChange.emit($event)"
-      >
-      </app-sort-dropdown>
-    </div>
-    }
-  </div>
-
-  <div class="entity-input-search">
-    <input
-      type="text"
-      placeholder="Rechercher par titre, réalisateur, acteur..."
-      [ngModel]="searchTerm()"
-      (ngModelChange)="onSearchChange.emit($event)"
-    />
-  </div>
-  } @if (noDataForThisView() && allSeriesCount() !== 0) {
-  <div class="empty-state">
-    <p class="empty-message">{{ noDataMessageText() }}</p>
   </div>
   }
 </div>

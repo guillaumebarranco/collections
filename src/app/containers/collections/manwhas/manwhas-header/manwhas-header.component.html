@@ -7,75 +7,7 @@
     }})
   </h1>
 
-  @if(allManwhasCount() !== 0 || allReadlistManwhasCount() !== 0) {
-  <div class="manwhas-header-top">
-    <app-view-toggle
-      [toggleClass]="'manwhas-view-toggle'"
-      [options]="viewOptions()"
-      [selected]="selectedView()"
-      (selectedChange)="onViewChange.emit($any($event))"
-    ></app-view-toggle>
-
-    <div class="manwhas-actions" *appCanEdit>
-      <button
-        class="makya-btn-small"
-        type="button"
-        title="Configurer l'affichage des onglets"
-        (click)="onOpenViewConfig.emit()"
-      >
-        ⚙️ Configurer ma vue manwhas
-      </button>
-      @if (canShowAddManwhasButton()) {
-      <button
-        class="makya-btn-small"
-        [routerLink]="getSelectManwhasRoute()"
-        [queryParams]="{
-          readlist:
-            selectedView() === 'readlist' ||
-            selectedView() === 'readingInProgress',
-        }"
-        title="Ajouter des manwhas"
-      >
-        ➕
-        {{ addManwhasButtonLabel() }}
-      </button>
-      } @if (canShowUpdateManwhasRatingButton()) {
-      <button
-        class="makya-btn-small"
-        [routerLink]="getSelectManwhasRatingRoute()"
-        title="Mettre à jour les notes de mes manwhas"
-      >
-        ⭐ Notes
-      </button>
-      } @if (canShowUpdateManwhasTimesReadButton()) {
-      <button
-        class="makya-btn-small"
-        [routerLink]="getSelectManwhasTimesReadRoute()"
-        title="Mettre à jour le nombre de lectures de mes manwhas"
-      >
-        📖 Lectures
-      </button>
-      } @if (canShowUpdateManwhasOwnedButton()) {
-      <button
-        class="makya-btn-small"
-        [routerLink]="getSelectManwhasOwnedRoute()"
-        title="Mettre à jour les manwhas possédés"
-      >
-        ✅ Possédés
-      </button>
-      } @if (canShowTopFiveRankButton()) {
-      <button
-        class="makya-btn-small"
-        [class.active]="showTopFiveRank()"
-        title="Voir les top 5 des manwhas"
-        (click)="onTopFiveRankChange.emit()"
-      >
-        🏆 Top 5
-      </button>
-      }
-    </div>
-  </div>
-  } @if(allManwhasCount() === 0 && allReadlistManwhasCount() === 0) {
+  @if(allManwhasCount() === 0 && allReadlistManwhasCount() === 0) {
   <div class="empty-state">
     <p class="empty-message">Vous n'avez aucun manwha dans votre collection.</p>
     <p class="empty-subtitle">
@@ -85,36 +17,126 @@
       Sélectionner mes manwhas
     </button>
   </div>
-  } @if (showFiltersAndSearch() && canShowFiltersAndSearch()) {
-  <div class="manwhas-stats-bloc">
-    <app-stats-display
-      [stats]="stats()"
-      [count]="filteredManwhasCount()"
-      countLabel="manwhas"
-    >
-    </app-stats-display>
+  } @else {
+  <div class="manwhas-header-top">
+    <app-view-toggle
+      [toggleClass]="'manwhas-view-toggle'"
+      [options]="viewOptions()"
+      [selected]="selectedView()"
+      (selectedChange)="onViewChange.emit($any($event))"
+    ></app-view-toggle>
+  </div>
 
-    @if (canShowSortDropdown()) {
-    <app-sort-dropdown
-      [sortOptions]="sortOptions()"
-      [selectedSort]="selectedSort()"
-      (sortChange)="onSortChange.emit($event)"
+  <div class="manwhas-header-tools-accordion">
+    @if (isMobileViewport()) {
+    <button
+      type="button"
+      class="manwhas-header-tools-accordion__summary"
+      [attr.aria-expanded]="toolsPanelExpanded()"
+      (click)="toggleToolsPanel()"
     >
-    </app-sort-dropdown>
+      Afficher les actions et statistiques
+    </button>
     }
-  </div>
 
-  <div class="entity-input-search">
-    <input
-      type="text"
-      placeholder="Rechercher par titre, auteur, genre..."
-      [ngModel]="searchTerm()"
-      (ngModelChange)="onSearchChange.emit($event)"
-    />
-  </div>
-  } @if (noDataForThisView() && allManwhasCount() !== 0) {
-  <div class="empty-state">
-    <p class="empty-message">{{ noDataMessageText() }}</p>
+    <div
+      class="manwhas-header-tools-accordion__content"
+      [class.manwhas-header-tools-accordion__content--collapsed]="
+        isMobileViewport() && !toolsPanelExpanded()
+      "
+    >
+      <div class="manwhas-actions" *appCanEdit>
+        <button
+          class="makya-btn-small"
+          type="button"
+          title="Configurer l'affichage des onglets"
+          (click)="onOpenViewConfig.emit()"
+        >
+          ⚙️ Configurer ma vue manwhas
+        </button>
+        @if (canShowAddManwhasButton()) {
+        <button
+          class="makya-btn-small"
+          [routerLink]="getSelectManwhasRoute()"
+          [queryParams]="{
+            readlist:
+              selectedView() === 'readlist' ||
+              selectedView() === 'readingInProgress',
+          }"
+          title="Ajouter des manwhas"
+        >
+          ➕
+          {{ addManwhasButtonLabel() }}
+        </button>
+        } @if (canShowUpdateManwhasRatingButton()) {
+        <button
+          class="makya-btn-small"
+          [routerLink]="getSelectManwhasRatingRoute()"
+          title="Mettre à jour les notes de mes manwhas"
+        >
+          ⭐ Notes
+        </button>
+        } @if (canShowUpdateManwhasTimesReadButton()) {
+        <button
+          class="makya-btn-small"
+          [routerLink]="getSelectManwhasTimesReadRoute()"
+          title="Mettre à jour le nombre de lectures de mes manwhas"
+        >
+          📖 Lectures
+        </button>
+        } @if (canShowUpdateManwhasOwnedButton()) {
+        <button
+          class="makya-btn-small"
+          [routerLink]="getSelectManwhasOwnedRoute()"
+          title="Mettre à jour les manwhas possédés"
+        >
+          ✅ Possédés
+        </button>
+        } @if (canShowTopFiveRankButton()) {
+        <button
+          class="makya-btn-small"
+          [class.active]="showTopFiveRank()"
+          title="Voir les top 5 des manwhas"
+          (click)="onTopFiveRankChange.emit()"
+        >
+          🏆 Top 5
+        </button>
+        }
+      </div>
+
+      @if (showFiltersAndSearch() && canShowFiltersAndSearch()) {
+      <div class="manwhas-stats-bloc">
+        <app-stats-display
+          [stats]="stats()"
+          [count]="filteredManwhasCount()"
+          countLabel="manwhas"
+        >
+        </app-stats-display>
+
+        @if (canShowSortDropdown()) {
+        <app-sort-dropdown
+          [sortOptions]="sortOptions()"
+          [selectedSort]="selectedSort()"
+          (sortChange)="onSortChange.emit($event)"
+        >
+        </app-sort-dropdown>
+        }
+      </div>
+
+      <div class="entity-input-search">
+        <input
+          type="text"
+          placeholder="Rechercher par titre, auteur, genre..."
+          [ngModel]="searchTerm()"
+          (ngModelChange)="onSearchChange.emit($event)"
+        />
+      </div>
+      } @if (noDataForThisView() && allManwhasCount() !== 0) {
+      <div class="empty-state">
+        <p class="empty-message">{{ noDataMessageText() }}</p>
+      </div>
+      }
+    </div>
   </div>
   }
 </div>

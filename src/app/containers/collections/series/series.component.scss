@@ -101,10 +101,12 @@
 
 .series {
   @include containers.grid-base;
+  @include containers.collection-grid-mobile-list;
 }
 
 .serie-card {
   @include containers.card-base;
+  @include containers.collection-card-mobile-flat;
 }
 
 .series-by-country,
@@ -124,10 +126,14 @@
   .series {
     grid-template-columns: repeat(auto-fill, minmax(min(100%, 180px), 1fr));
     gap: 16px;
+
+    @include containers.collection-grid-mobile-list;
   }
 
   .serie-card {
     padding: 0;
+
+    @include containers.collection-card-mobile-flat;
   }
 }
 
@@ -208,14 +214,4 @@
   color: #ffe0b2;
   margin-left: 6px;
   font-size: 1.15em;
-}
-
-// Responsive
-@include containers.responsive-base {
-
-
-  .series {
-    grid-template-columns: repeat(auto-fill, minmax(min(100%, 150px), 1fr));
-    gap: 20px;
-  }
 }

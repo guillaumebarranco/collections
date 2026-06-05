@@ -1,6 +1,7 @@
 import { getApiBaseUrl } from '../../../core/config';
 import { Book } from '../../../models/book-model';
 import {
+  normalizeActivityExtraDates,
   shiftPreviousLastDateToExtras,
   todayIsoDate,
 } from '../../../utils/activity-extra-dates.utils';
@@ -122,11 +123,19 @@ export async function markBookAsReRead(
 ): Promise<boolean> {
   try {
     const today = todayIsoDate();
-    const otherReadDates = shiftPreviousLastDateToExtras(
-      book.lastReadDate,
-      book.otherReadDates,
-      today
-    );
+    const firstReadDate = (book.firstReadDate ?? '').trim();
+    const previousLastReadDate = (book.lastReadDate ?? '').trim();
+    const shouldArchivePreviousLastDate =
+      Boolean(firstReadDate) &&
+      Boolean(previousLastReadDate) &&
+      firstReadDate !== previousLastReadDate;
+    const otherReadDates = shouldArchivePreviousLastDate
+      ? shiftPreviousLastDateToExtras(
+          book.lastReadDate,
+          book.otherReadDates,
+          today
+        )
+      : normalizeActivityExtraDates(book.otherReadDates);
     const response = await fetch(`${getApiBaseUrl()}/books`, {
       method: 'POST',
       headers: {
@@ -137,6 +146,7 @@ export async function markBookAsReRead(
         title: book.title,
         author: book.author,
         rating: book.rating,
+        reading: false,
         readTimes: (book.readTimes ?? 0) + 1,
         firstReadDate: book.firstReadDate,
         lastReadDate: today,

@@ -17,6 +17,7 @@ import { StatsDisplayComponent } from '../../../../components/shared/stats-displ
 import { ActivatedRoute, Params, Router, RouterModule } from '@angular/router';
 import { StatItem } from '../../../../components/shared/stats-display/stats-display.component';
 import { FormsModule } from '@angular/forms';
+import { createCollectionHeaderMobileAccordion } from '../../../../utils/collection-header-mobile';
 
 @Component({
   selector: 'app-musics-header',
@@ -62,6 +63,10 @@ export class MusicsHeaderComponent {
 
   private readonly activatedRoute = inject(ActivatedRoute);
   private readonly router = inject(Router);
+  private readonly mobileAccordion = createCollectionHeaderMobileAccordion();
+
+  readonly isMobileViewport = this.mobileAccordion.isMobileViewport;
+  readonly toolsPanelExpanded = this.mobileAccordion.toolsPanelExpanded;
 
   selectedSort = signal<string>('rating');
   selectedFilter = signal<string>('popular');
@@ -77,6 +82,10 @@ export class MusicsHeaderComponent {
     effect(() => {
       this.searchTerm.set(this.searchTermInput());
     });
+  }
+
+  toggleToolsPanel(): void {
+    this.mobileAccordion.toggleToolsPanel();
   }
 
   getSelectMusicsRoute(): string {

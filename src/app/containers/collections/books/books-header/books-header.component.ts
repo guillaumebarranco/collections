@@ -19,6 +19,7 @@ import { BookView } from '../books.utils';
 import { StatItem } from '../../../../components/shared/stats-display/stats-display.component';
 import { FormsModule } from '@angular/forms';
 import { DEFAULT_USER_ID } from '../../../../utils/constants';
+import { createCollectionHeaderMobileAccordion } from '../../../../utils/collection-header-mobile';
 import { CanEditDirective } from '../../../../directives/can-edit.directive';
 
 @Component({
@@ -64,6 +65,10 @@ export class BooksHeaderComponent {
   showTopFiveRank = input<boolean>(false);
 
   private readonly activatedRoute = inject(ActivatedRoute);
+  private readonly mobileAccordion = createCollectionHeaderMobileAccordion();
+
+  readonly isMobileViewport = this.mobileAccordion.isMobileViewport;
+  readonly toolsPanelExpanded = this.mobileAccordion.toolsPanelExpanded;
 
   selectedSort = signal<string>('readDate');
   selectedYearFilter = signal<string>('all');
@@ -146,7 +151,6 @@ export class BooksHeaderComponent {
   });
 
   constructor() {
-    // Synchroniser les inputs avec les signaux locaux
     effect(() => {
       this.selectedSort.set(this.selectedSortInput());
     });
@@ -156,6 +160,10 @@ export class BooksHeaderComponent {
     effect(() => {
       this.searchTerm.set(this.searchTermInput());
     });
+  }
+
+  toggleToolsPanel(): void {
+    this.mobileAccordion.toggleToolsPanel();
   }
 
   booksPageTitle = computed(() =>

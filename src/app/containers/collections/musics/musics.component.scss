@@ -175,10 +175,13 @@
   grid-template-columns: repeat(auto-fill, minmax(min(100%, 160px), 1fr));
   gap: 15px;
   padding: 20px 0;
+
+  @include containers.collection-grid-mobile-list;
 }
 
 .music-card {
   @include containers.card-base;
+  @include containers.collection-card-mobile-flat;
 }
 
 // Responsive - Tablette (max-width: 1024px)
@@ -313,8 +316,7 @@
   }
 
   .musics {
-    grid-template-columns: repeat(auto-fill, minmax(min(100%, 130px), 1fr));
-    gap: 10px;
+    @include containers.collection-grid-mobile-list;
     padding: 15px 0;
   }
 }

@@ -19,6 +19,7 @@ import { SerieView } from '../series.utils';
 import { StatItem } from '../../../../components/shared/stats-display/stats-display.component';
 import { FormsModule } from '@angular/forms';
 import { CanEditDirective } from '../../../../directives/can-edit.directive';
+import { createCollectionHeaderMobileAccordion } from '../../../../utils/collection-header-mobile';
 
 @Component({
   selector: 'app-series-header',
@@ -60,6 +61,11 @@ export class SeriesHeaderComponent {
   stats = input.required<StatItem[]>();
 
   private readonly activatedRoute = inject(ActivatedRoute);
+  private readonly mobileAccordion = createCollectionHeaderMobileAccordion();
+
+  readonly isMobileViewport = this.mobileAccordion.isMobileViewport;
+  readonly toolsPanelExpanded = this.mobileAccordion.toolsPanelExpanded;
+
   selectedSort = signal<string>('rating');
   searchTerm = signal<string>('');
 
@@ -152,6 +158,10 @@ export class SeriesHeaderComponent {
     effect(() => {
       this.searchTerm.set(this.searchTermInput());
     });
+  }
+
+  toggleToolsPanel(): void {
+    this.mobileAccordion.toggleToolsPanel();
   }
 
   seriesPageTitle = computed(() =>

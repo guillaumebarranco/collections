@@ -21,72 +21,95 @@
       [selected]="selectedViewMode()"
       (selectedChange)="onViewModeChange.emit($any($event))"
     ></app-view-toggle>
-    <div class="musics-actions">
-      <button
-        class="makya-btn-small"
-        [routerLink]="getSelectMusicsRoute()"
-        title="Ajouter des musiques"
-      >
-        ➕ Ajouter des musiques
-      </button>
-      <button
-        class="makya-btn-small"
-        [routerLink]="getSelectMusicsRatingRoute()"
-        title="Mettre à jour les notes de mes musiques"
-      >
-        ⭐ Notes
-      </button>
-      <button
-        class="makya-btn-small"
-        [routerLink]="getSelectMusicsTimesListenedRoute()"
-        title="Mettre à jour le nombre d'écoutes"
-      >
-        🎧 Écoutes
-      </button>
-    </div>
   </div>
-  } @if (showFiltersAndSearch()) {
-  <div class="musics-stats-bloc">
-    <app-stats-display
-      [stats]="stats()"
-      [count]="allMusicsCount()"
-      countLabel="musiques"
-    >
-    </app-stats-display>
 
-    <div class="musics-filters">
-      <div class="musics-filters-item">
-        <p>Filtrer :</p>
-        <select
-          class="app-dropdown"
-          [ngModel]="selectedFilter()"
-          (ngModelChange)="onFilterChange.emit($event)"
-          style="margin-bottom: 8px"
+  <div class="musics-header-tools-accordion">
+    @if (isMobileViewport()) {
+    <button
+      type="button"
+      class="musics-header-tools-accordion__summary"
+      [attr.aria-expanded]="toolsPanelExpanded()"
+      (click)="toggleToolsPanel()"
+    >
+      Afficher les actions et statistiques
+    </button>
+    }
+
+    <div
+      class="musics-header-tools-accordion__content"
+      [class.musics-header-tools-accordion__content--collapsed]="
+        isMobileViewport() && !toolsPanelExpanded()
+      "
+    >
+      <div class="musics-actions">
+        <button
+          class="makya-btn-small"
+          [routerLink]="getSelectMusicsRoute()"
+          title="Ajouter des musiques"
         >
-          @for (option of filterOptions(); track option.value) {
-          <option [value]="option.value">
-            {{ option.label }}
-          </option>
-          }
-        </select>
+          ➕ Ajouter des musiques
+        </button>
+        <button
+          class="makya-btn-small"
+          [routerLink]="getSelectMusicsRatingRoute()"
+          title="Mettre à jour les notes de mes musiques"
+        >
+          ⭐ Notes
+        </button>
+        <button
+          class="makya-btn-small"
+          [routerLink]="getSelectMusicsTimesListenedRoute()"
+          title="Mettre à jour le nombre d'écoutes"
+        >
+          🎧 Écoutes
+        </button>
       </div>
 
-      <app-sort-dropdown
-        [sortOptions]="sortOptions()"
-        [selectedSort]="selectedSort()"
-        (sortChange)="onSortChange.emit($event)"
-      >
-      </app-sort-dropdown>
-    </div>
-  </div>
+      @if (showFiltersAndSearch()) {
+      <div class="musics-stats-bloc">
+        <app-stats-display
+          [stats]="stats()"
+          [count]="allMusicsCount()"
+          countLabel="musiques"
+        >
+        </app-stats-display>
 
-  <div class="entity-input-search">
-    <input
-      type="text"
-      placeholder="Rechercher par titre, artiste, album..."
-      [ngModel]="searchTerm()"
-      (ngModelChange)="onSearchChange.emit($event)"
-    />
+        <div class="musics-filters">
+          <div class="musics-filters-item">
+            <p>Filtrer :</p>
+            <select
+              class="app-dropdown"
+              [ngModel]="selectedFilter()"
+              (ngModelChange)="onFilterChange.emit($event)"
+              style="margin-bottom: 8px"
+            >
+              @for (option of filterOptions(); track option.value) {
+              <option [value]="option.value">
+                {{ option.label }}
+              </option>
+              }
+            </select>
+          </div>
+
+          <app-sort-dropdown
+            [sortOptions]="sortOptions()"
+            [selectedSort]="selectedSort()"
+            (sortChange)="onSortChange.emit($event)"
+          >
+          </app-sort-dropdown>
+        </div>
+      </div>
+
+      <div class="entity-input-search">
+        <input
+          type="text"
+          placeholder="Rechercher par titre, artiste, album..."
+          [ngModel]="searchTerm()"
+          (ngModelChange)="onSearchChange.emit($event)"
+        />
+      </div>
+      }
+    </div>
   </div>
   }
 </div>

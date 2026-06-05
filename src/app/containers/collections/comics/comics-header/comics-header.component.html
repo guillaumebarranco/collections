@@ -15,59 +15,112 @@
       [selected]="selectedView()"
       (selectedChange)="onViewChange.emit($any($event))"
     ></app-view-toggle>
+  </div>
 
-    <div class="comics-actions" *appCanEdit>
-      <button
-        class="makya-btn-small"
-        type="button"
-        title="Configurer l'affichage des onglets"
-        (click)="onOpenViewConfig.emit()"
-      >
-        ⚙️ Configurer ma vue comics
-      </button>
-      @if (canShowAddComicsButton()) {
-      <button
-        class="makya-btn-small"
-        [routerLink]="getSelectComicsRoute()"
-        [queryParams]="{ readlist: selectedView() === 'readlist' }"
-        title="Ajouter des comics"
-      >
-        ➕
-        {{ addComicsButtonLabel() }}
-      </button>
-      } @if (canShowUpdateComicsRatingButton()) {
-      <button
-        class="makya-btn-small"
-        [routerLink]="getSelectComicsRatingRoute()"
-        title="Mettre à jour les notes de mes comics"
-      >
-        ⭐ Notes
-      </button>
-      } @if (canShowUpdateComicsTimesReadButton()) {
-      <button
-        class="makya-btn-small"
-        [routerLink]="getSelectComicsTimesReadRoute()"
-        title="Mettre à jour le nombre de lectures de mes comics"
-      >
-        📖 Lectures
-      </button>
-      } @if (canShowUpdateComicsOwnedButton()) {
-      <button
-        class="makya-btn-small"
-        [routerLink]="getSelectComicsOwnedRoute()"
-        title="Mettre à jour les comics possédés"
-      >
-        ✅ Possédés
-      </button>
-      } @if (canShowTopFiveRankButton()) {
-      <button
-        class="makya-btn-small"
-        [class.active]="showTopFiveRank()"
-        title="Voir les top 5 des comics"
-        (click)="onTopFiveRankChange.emit()"
-      >
-        🏆 Top 5
-      </button>
+  <div class="comics-header-tools-accordion">
+    @if (isMobileViewport()) {
+    <button
+      type="button"
+      class="comics-header-tools-accordion__summary"
+      [attr.aria-expanded]="toolsPanelExpanded()"
+      (click)="toggleToolsPanel()"
+    >
+      Afficher les actions et statistiques
+    </button>
+    }
+
+    <div
+      class="comics-header-tools-accordion__content"
+      [class.comics-header-tools-accordion__content--collapsed]="
+        isMobileViewport() && !toolsPanelExpanded()
+      "
+    >
+      <div class="comics-actions" *appCanEdit>
+        <button
+          class="makya-btn-small"
+          type="button"
+          title="Configurer l'affichage des onglets"
+          (click)="onOpenViewConfig.emit()"
+        >
+          ⚙️ Configurer ma vue comics
+        </button>
+        @if (canShowAddComicsButton()) {
+        <button
+          class="makya-btn-small"
+          [routerLink]="getSelectComicsRoute()"
+          [queryParams]="{ readlist: selectedView() === 'readlist' }"
+          title="Ajouter des comics"
+        >
+          ➕
+          {{ addComicsButtonLabel() }}
+        </button>
+        } @if (canShowUpdateComicsRatingButton()) {
+        <button
+          class="makya-btn-small"
+          [routerLink]="getSelectComicsRatingRoute()"
+          title="Mettre à jour les notes de mes comics"
+        >
+          ⭐ Notes
+        </button>
+        } @if (canShowUpdateComicsTimesReadButton()) {
+        <button
+          class="makya-btn-small"
+          [routerLink]="getSelectComicsTimesReadRoute()"
+          title="Mettre à jour le nombre de lectures de mes comics"
+        >
+          📖 Lectures
+        </button>
+        } @if (canShowUpdateComicsOwnedButton()) {
+        <button
+          class="makya-btn-small"
+          [routerLink]="getSelectComicsOwnedRoute()"
+          title="Mettre à jour les comics possédés"
+        >
+          ✅ Possédés
+        </button>
+        } @if (canShowTopFiveRankButton()) {
+        <button
+          class="makya-btn-small"
+          [class.active]="showTopFiveRank()"
+          title="Voir les top 5 des comics"
+          (click)="onTopFiveRankChange.emit()"
+        >
+          🏆 Top 5
+        </button>
+        }
+      </div>
+
+      @if (showFiltersAndSearch() && canShowFiltersAndSearch()) {
+      <div class="comics-stats-bloc">
+        <app-stats-display
+          [stats]="stats()"
+          [count]="filteredComicsCount()"
+          countLabel="comics"
+        >
+        </app-stats-display>
+
+        @if (canShowSortDropdown()) {
+        <app-sort-dropdown
+          [sortOptions]="sortOptions()"
+          [selectedSort]="selectedSort()"
+          (sortChange)="onSortChange.emit($event)"
+        >
+        </app-sort-dropdown>
+        }
+      </div>
+
+      <div class="entity-input-search">
+        <input
+          type="text"
+          placeholder="Rechercher par titre, designer, genre..."
+          [ngModel]="searchTerm()"
+          (ngModelChange)="onSearchChange.emit($event)"
+        />
+      </div>
+      } @if (noDataForThisView() && allComicsCount() !== 0) {
+      <div class="empty-state">
+        <p class="empty-message">{{ noDataMessageText() }}</p>
+      </div>
       }
     </div>
   </div>
@@ -80,37 +133,6 @@
     <button class="makya-btn-ultra-big" [routerLink]="getSelectComicsRoute()">
       Sélectionner mes comics
     </button>
-  </div>
-  } @if (showFiltersAndSearch() && canShowFiltersAndSearch()) {
-  <div class="comics-stats-bloc">
-    <app-stats-display
-      [stats]="stats()"
-      [count]="filteredComicsCount()"
-      countLabel="comics"
-    >
-    </app-stats-display>
-
-    @if (canShowSortDropdown()) {
-    <app-sort-dropdown
-      [sortOptions]="sortOptions()"
-      [selectedSort]="selectedSort()"
-      (sortChange)="onSortChange.emit($event)"
-    >
-    </app-sort-dropdown>
-    }
-  </div>
-
-  <div class="entity-input-search">
-    <input
-      type="text"
-      placeholder="Rechercher par titre, designer, genre..."
-      [ngModel]="searchTerm()"
-      (ngModelChange)="onSearchChange.emit($event)"
-    />
-  </div>
-  } @if (noDataForThisView() && allComicsCount() !== 0) {
-  <div class="empty-state">
-    <p class="empty-message">{{ noDataMessageText() }}</p>
   </div>
   }
 </div>

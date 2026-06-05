@@ -8,6 +8,10 @@
   z-index: 1000;
 }
 
+.menu-banners {
+  display: contents;
+}
+
 .menu {
   background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
   box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
@@ -413,29 +417,70 @@
 }
 
 @media (max-width: 768px) {
+  .menu-shell {
+    position: static;
+    top: auto;
+    z-index: auto;
+  }
+
+  .menu-banners {
+    display: block;
+    position: sticky;
+    top: 0;
+    z-index: 999;
+  }
+
+  .menu {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 1000;
+    box-shadow: 0 -4px 20px rgba(0, 0, 0, 0.18);
+  }
+
   .menu-container {
-    padding: 0;
+    padding: 0 6px;
+    padding-bottom: env(safe-area-inset-bottom, 0px);
     gap: 0;
-    justify-content: flex-start;
+    justify-content: space-between;
+    width: 100%;
+    box-sizing: border-box;
   }
 
   .menu-items {
     gap: 0;
-    flex: 0;
+    flex: 1;
+    justify-content: space-evenly;
+    min-width: 0;
   }
 
   .menu-item {
-    padding: 5px 5px;
-    min-width: 50px;
-    margin: 0 2px;
+    padding: 6px 4px;
+    min-width: 0;
+    flex: 1 1 0;
+    margin: 0;
+    border-radius: 0 0 8px 8px;
 
     &.menu-item-group {
       padding: 0;
+    }
+
+    &:hover {
+      transform: none;
+    }
+
+    &.active::after {
+      top: 0;
+      bottom: auto;
+      border-radius: 0 0 2px 2px;
     }
   }
 
   .menu-auth {
     display: flex;
+    flex-shrink: 0;
+    padding-left: 4px;
   }
 
   .menu-login {
@@ -448,14 +493,47 @@
 
   .menu-icon {
     font-size: 20px;
+    margin-bottom: 2px;
   }
 
   .menu-label {
-    font-size: 12px;
+    font-size: 10px;
+    letter-spacing: 0.2px;
   }
 
   .menu-group-toggle {
-    padding: 10px 10px;
-    min-width: 70px;
+    padding: 6px 4px;
+    min-width: 0;
+    width: 100%;
+    border-radius: 0 0 8px 8px;
+
+    &:hover {
+      transform: none;
+    }
+  }
+
+  .menu-caret {
+    display: none;
+  }
+
+  .menu-submenu {
+    top: auto;
+    bottom: calc(100% + 6px);
+    left: 50%;
+    transform: translateX(-50%);
+    max-height: min(50vh, 320px);
+    overflow-y: auto;
+  }
+
+  .menu-user-submenu {
+    right: 0;
+    left: auto;
+    transform: none;
+    bottom: calc(100% + 6px);
+    top: auto;
+  }
+
+  .menu-user .menu-caret {
+    display: none;
   }
 }

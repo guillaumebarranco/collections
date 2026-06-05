@@ -13,6 +13,11 @@ $dark_blue: #25645d;
 
 html {
   overflow-x: hidden;
+  --makya-mobile-nav-height: 64px;
+
+  @media (max-width: 768px) {
+    --makya-mobile-nav-height: calc(58px + env(safe-area-inset-bottom, 0px));
+  }
 }
 
 body {
@@ -23,6 +28,10 @@ body {
   color: #bbb;
   font-family: "Open Sans", sans-serif;
   font-size: em(14);
+
+  @media (max-width: 768px) {
+    padding-bottom: var(--makya-mobile-nav-height, 64px);
+  }
 }
 
 p {
@@ -341,7 +350,7 @@ ul li {
   }
 
   .entity-input-search {
-    margin: 6px 0 2px;
+    margin: 12px 0 8px;
     max-width: 100%;
 
     input {

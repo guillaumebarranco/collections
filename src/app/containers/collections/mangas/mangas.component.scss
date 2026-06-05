@@ -140,10 +140,12 @@
 
 .mangas {
   @include containers.grid-base;
+  @include containers.collection-grid-mobile-list;
 }
 
 .manga-card {
   @include containers.card-base;
+  @include containers.collection-card-mobile-flat;
 }
 
 // Responsive
@@ -159,10 +161,5 @@
     flex-direction: column;
     align-items: stretch;
     gap: 15px;
-  }
-
-  .mangas {
-    grid-template-columns: repeat(auto-fill, minmax(min(100%, 150px), 1fr));
-    gap: 20px;
   }
 }

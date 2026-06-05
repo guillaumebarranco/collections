@@ -15,59 +15,112 @@
       [selected]="selectedView()"
       (selectedChange)="onViewChange.emit($any($event))"
     ></app-view-toggle>
+  </div>
 
-    <div class="bds-actions" *appCanEdit>
-      <button
-        class="makya-btn-small"
-        type="button"
-        title="Configurer l'affichage des onglets"
-        (click)="onOpenViewConfig.emit()"
-      >
-        ⚙️ Configurer ma vue BD
-      </button>
-      @if (canShowAddBdsButton()) {
-      <button
-        class="makya-btn-small"
-        [routerLink]="getSelectBdsRoute()"
-        [queryParams]="{ readlist: selectedView() === 'readlist' }"
-        title="Ajouter des BD"
-      >
-        ➕
-        {{ addBdsButtonLabel() }}
-      </button>
-      } @if (canShowUpdateBdsRatingButton()) {
-      <button
-        class="makya-btn-small"
-        [routerLink]="getSelectBdsRatingRoute()"
-        title="Mettre à jour les notes de mes BD"
-      >
-        ⭐ Notes
-      </button>
-      } @if (canShowUpdateBdsTimesReadButton()) {
-      <button
-        class="makya-btn-small"
-        [routerLink]="getSelectBdsTimesReadRoute()"
-        title="Mettre à jour le nombre de lectures de mes BD"
-      >
-        📖 Lectures
-      </button>
-      } @if (canShowUpdateBdsOwnedButton()) {
-      <button
-        class="makya-btn-small"
-        [routerLink]="getSelectBdsOwnedRoute()"
-        title="Mettre à jour les BD possédées"
-      >
-        ✅ Possédées
-      </button>
-      } @if (canShowTopFiveRankButton()) {
-      <button
-        class="makya-btn-small"
-        [class.active]="showTopFiveRank()"
-        title="Voir les top 5 des BD"
-        (click)="onTopFiveRankChange.emit()"
-      >
-        🏆 Top 5
-      </button>
+  <div class="bds-header-tools-accordion">
+    @if (isMobileViewport()) {
+    <button
+      type="button"
+      class="bds-header-tools-accordion__summary"
+      [attr.aria-expanded]="toolsPanelExpanded()"
+      (click)="toggleToolsPanel()"
+    >
+      Afficher les actions et statistiques
+    </button>
+    }
+
+    <div
+      class="bds-header-tools-accordion__content"
+      [class.bds-header-tools-accordion__content--collapsed]="
+        isMobileViewport() && !toolsPanelExpanded()
+      "
+    >
+      <div class="bds-actions" *appCanEdit>
+        <button
+          class="makya-btn-small"
+          type="button"
+          title="Configurer l'affichage des onglets"
+          (click)="onOpenViewConfig.emit()"
+        >
+          ⚙️ Configurer ma vue BD
+        </button>
+        @if (canShowAddBdsButton()) {
+        <button
+          class="makya-btn-small"
+          [routerLink]="getSelectBdsRoute()"
+          [queryParams]="{ readlist: selectedView() === 'readlist' }"
+          title="Ajouter des BD"
+        >
+          ➕
+          {{ addBdsButtonLabel() }}
+        </button>
+        } @if (canShowUpdateBdsRatingButton()) {
+        <button
+          class="makya-btn-small"
+          [routerLink]="getSelectBdsRatingRoute()"
+          title="Mettre à jour les notes de mes BD"
+        >
+          ⭐ Notes
+        </button>
+        } @if (canShowUpdateBdsTimesReadButton()) {
+        <button
+          class="makya-btn-small"
+          [routerLink]="getSelectBdsTimesReadRoute()"
+          title="Mettre à jour le nombre de lectures de mes BD"
+        >
+          📖 Lectures
+        </button>
+        } @if (canShowUpdateBdsOwnedButton()) {
+        <button
+          class="makya-btn-small"
+          [routerLink]="getSelectBdsOwnedRoute()"
+          title="Mettre à jour les BD possédées"
+        >
+          ✅ Possédées
+        </button>
+        } @if (canShowTopFiveRankButton()) {
+        <button
+          class="makya-btn-small"
+          [class.active]="showTopFiveRank()"
+          title="Voir les top 5 des BD"
+          (click)="onTopFiveRankChange.emit()"
+        >
+          🏆 Top 5
+        </button>
+        }
+      </div>
+
+      @if (showFiltersAndSearch() && canShowFiltersAndSearch()) {
+      <div class="bds-stats-bloc">
+        <app-stats-display
+          [stats]="stats()"
+          [count]="filteredBdsCount()"
+          countLabel="BD"
+        >
+        </app-stats-display>
+
+        @if (canShowSortDropdown()) {
+        <app-sort-dropdown
+          [sortOptions]="sortOptions()"
+          [selectedSort]="selectedSort()"
+          (sortChange)="onSortChange.emit($event)"
+        >
+        </app-sort-dropdown>
+        }
+      </div>
+
+      <div class="entity-input-search">
+        <input
+          type="text"
+          placeholder="Rechercher par titre, designer, genre..."
+          [ngModel]="searchTerm()"
+          (ngModelChange)="onSearchChange.emit($event)"
+        />
+      </div>
+      } @if (noDataForThisView() && allBdsCount() !== 0) {
+      <div class="empty-state">
+        <p class="empty-message">{{ noDataMessageText() }}</p>
+      </div>
       }
     </div>
   </div>
@@ -80,37 +133,6 @@
     <button class="makya-btn-ultra-big" [routerLink]="getSelectBdsRoute()">
       Sélectionner mes BD
     </button>
-  </div>
-  } @if (showFiltersAndSearch() && canShowFiltersAndSearch()) {
-  <div class="bds-stats-bloc">
-    <app-stats-display
-      [stats]="stats()"
-      [count]="filteredBdsCount()"
-      countLabel="BD"
-    >
-    </app-stats-display>
-
-    @if (canShowSortDropdown()) {
-    <app-sort-dropdown
-      [sortOptions]="sortOptions()"
-      [selectedSort]="selectedSort()"
-      (sortChange)="onSortChange.emit($event)"
-    >
-    </app-sort-dropdown>
-    }
-  </div>
-
-  <div class="entity-input-search">
-    <input
-      type="text"
-      placeholder="Rechercher par titre, designer, genre..."
-      [ngModel]="searchTerm()"
-      (ngModelChange)="onSearchChange.emit($event)"
-    />
-  </div>
-  } @if (noDataForThisView() && allBdsCount() !== 0) {
-  <div class="empty-state">
-    <p class="empty-message">{{ noDataMessageText() }}</p>
   </div>
   }
 </div>

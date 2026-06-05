@@ -7,75 +7,7 @@
     }})
   </h1>
 
-  @if(allMangasCount() !== 0 || allReadlistMangasCount() !== 0) {
-  <div class="mangas-header-top">
-    <app-view-toggle
-      [toggleClass]="'mangas-view-toggle'"
-      [options]="viewOptions()"
-      [selected]="selectedView()"
-      (selectedChange)="onViewChange.emit($any($event))"
-    ></app-view-toggle>
-
-    <div class="mangas-actions" *appCanEdit>
-      <button
-        class="makya-btn-small"
-        type="button"
-        title="Configurer l'affichage des onglets"
-        (click)="onOpenViewConfig.emit()"
-      >
-        ⚙️ Configurer ma vue mangas
-      </button>
-      @if (canShowAddMangasButton()) {
-      <button
-        class="makya-btn-small"
-        [routerLink]="getSelectMangasRoute()"
-        [queryParams]="{
-          readlist:
-            selectedView() === 'readlist' ||
-            selectedView() === 'readingInProgress',
-        }"
-        title="Ajouter des mangas"
-      >
-        ➕
-        {{ addMangasButtonLabel() }}
-      </button>
-      } @if (canShowUpdateMangasRatingButton()) {
-      <button
-        class="makya-btn-small"
-        [routerLink]="getSelectMangasRatingRoute()"
-        title="Mettre à jour les notes de mes mangas"
-      >
-        ⭐ Notes
-      </button>
-      } @if (canShowUpdateMangasTimesReadButton()) {
-      <button
-        class="makya-btn-small"
-        [routerLink]="getSelectMangasTimesReadRoute()"
-        title="Mettre à jour le nombre de lectures de mes mangas"
-      >
-        📖 Lectures
-      </button>
-      } @if (canShowUpdateMangasOwnedButton()) {
-      <button
-        class="makya-btn-small"
-        [routerLink]="getSelectMangasOwnedRoute()"
-        title="Mettre à jour les mangas possédés"
-      >
-        ✅ Possédés
-      </button>
-      } @if (canShowTopFiveRankButton()) {
-      <button
-        class="makya-btn-small"
-        [class.active]="showTopFiveRank()"
-        title="Voir les top 5 des mangas"
-        (click)="onTopFiveRankChange.emit()"
-      >
-        🏆 Top 5
-      </button>
-      }
-    </div>
-  </div>
-  } @if(allMangasCount() === 0 && allReadlistMangasCount() === 0) {
+  @if(allMangasCount() === 0 && allReadlistMangasCount() === 0) {
   <div class="empty-state">
     <p class="empty-message">Vous n'avez aucun manga dans votre collection.</p>
     <p class="empty-subtitle">
@@ -85,36 +17,126 @@
       Sélectionner mes mangas
     </button>
   </div>
-  } @if (showFiltersAndSearch() && canShowFiltersAndSearch()) {
-  <div class="mangas-stats-bloc">
-    <app-stats-display
-      [stats]="stats()"
-      [count]="filteredMangasCount()"
-      countLabel="mangas"
-    >
-    </app-stats-display>
+  } @else {
+  <div class="mangas-header-top">
+    <app-view-toggle
+      [toggleClass]="'mangas-view-toggle'"
+      [options]="viewOptions()"
+      [selected]="selectedView()"
+      (selectedChange)="onViewChange.emit($any($event))"
+    ></app-view-toggle>
+  </div>
 
-    @if (canShowSortDropdown()) {
-    <app-sort-dropdown
-      [sortOptions]="sortOptions()"
-      [selectedSort]="selectedSort()"
-      (sortChange)="onSortChange.emit($event)"
+  <div class="mangas-header-tools-accordion">
+    @if (isMobileViewport()) {
+    <button
+      type="button"
+      class="mangas-header-tools-accordion__summary"
+      [attr.aria-expanded]="toolsPanelExpanded()"
+      (click)="toggleToolsPanel()"
     >
-    </app-sort-dropdown>
+      Afficher les actions et statistiques
+    </button>
     }
-  </div>
 
-  <div class="entity-input-search">
-    <input
-      type="text"
-      placeholder="Rechercher par titre, auteur, genre..."
-      [ngModel]="searchTerm()"
-      (ngModelChange)="onSearchChange.emit($event)"
-    />
-  </div>
-  } @if (noDataForThisView() && allMangasCount() !== 0) {
-  <div class="empty-state">
-    <p class="empty-message">{{ noDataMessageText() }}</p>
+    <div
+      class="mangas-header-tools-accordion__content"
+      [class.mangas-header-tools-accordion__content--collapsed]="
+        isMobileViewport() && !toolsPanelExpanded()
+      "
+    >
+      <div class="mangas-actions" *appCanEdit>
+        <button
+          class="makya-btn-small"
+          type="button"
+          title="Configurer l'affichage des onglets"
+          (click)="onOpenViewConfig.emit()"
+        >
+          ⚙️ Configurer ma vue mangas
+        </button>
+        @if (canShowAddMangasButton()) {
+        <button
+          class="makya-btn-small"
+          [routerLink]="getSelectMangasRoute()"
+          [queryParams]="{
+            readlist:
+              selectedView() === 'readlist' ||
+              selectedView() === 'readingInProgress',
+          }"
+          title="Ajouter des mangas"
+        >
+          ➕
+          {{ addMangasButtonLabel() }}
+        </button>
+        } @if (canShowUpdateMangasRatingButton()) {
+        <button
+          class="makya-btn-small"
+          [routerLink]="getSelectMangasRatingRoute()"
+          title="Mettre à jour les notes de mes mangas"
+        >
+          ⭐ Notes
+        </button>
+        } @if (canShowUpdateMangasTimesReadButton()) {
+        <button
+          class="makya-btn-small"
+          [routerLink]="getSelectMangasTimesReadRoute()"
+          title="Mettre à jour le nombre de lectures de mes mangas"
+        >
+          📖 Lectures
+        </button>
+        } @if (canShowUpdateMangasOwnedButton()) {
+        <button
+          class="makya-btn-small"
+          [routerLink]="getSelectMangasOwnedRoute()"
+          title="Mettre à jour les mangas possédés"
+        >
+          ✅ Possédés
+        </button>
+        } @if (canShowTopFiveRankButton()) {
+        <button
+          class="makya-btn-small"
+          [class.active]="showTopFiveRank()"
+          title="Voir les top 5 des mangas"
+          (click)="onTopFiveRankChange.emit()"
+        >
+          🏆 Top 5
+        </button>
+        }
+      </div>
+
+      @if (showFiltersAndSearch() && canShowFiltersAndSearch()) {
+      <div class="mangas-stats-bloc">
+        <app-stats-display
+          [stats]="stats()"
+          [count]="filteredMangasCount()"
+          countLabel="mangas"
+        >
+        </app-stats-display>
+
+        @if (canShowSortDropdown()) {
+        <app-sort-dropdown
+          [sortOptions]="sortOptions()"
+          [selectedSort]="selectedSort()"
+          (sortChange)="onSortChange.emit($event)"
+        >
+        </app-sort-dropdown>
+        }
+      </div>
+
+      <div class="entity-input-search">
+        <input
+          type="text"
+          placeholder="Rechercher par titre, auteur, genre..."
+          [ngModel]="searchTerm()"
+          (ngModelChange)="onSearchChange.emit($event)"
+        />
+      </div>
+      } @if (noDataForThisView() && allMangasCount() !== 0) {
+      <div class="empty-state">
+        <p class="empty-message">{{ noDataMessageText() }}</p>
+      </div>
+      }
+    </div>
   </div>
   }
 </div>

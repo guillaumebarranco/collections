@@ -15,6 +15,7 @@ import { FormsModule } from '@angular/forms';
 import { DEFAULT_USER_ID } from '../../../../utils/constants';
 import type { UserMovieListItem } from '../../../../models/movie-list.model';
 import { CanEditDirective } from '../../../../directives/can-edit.directive';
+import { createCollectionHeaderMobileAccordion } from '../../../../utils/collection-header-mobile';
 
 @Component({
   selector: 'app-movies-header',
@@ -52,6 +53,10 @@ export class MoviesHeaderComponent {
   >([]);
 
   private readonly activatedRoute = inject(ActivatedRoute);
+  private readonly mobileAccordion = createCollectionHeaderMobileAccordion();
+
+  readonly isMobileViewport = this.mobileAccordion.isMobileViewport;
+  readonly toolsPanelExpanded = this.mobileAccordion.toolsPanelExpanded;
 
   searchTerm = signal<string>('');
 
@@ -59,6 +64,10 @@ export class MoviesHeaderComponent {
     effect(() => {
       this.searchTerm.set(this.searchTermInput());
     });
+  }
+
+  toggleToolsPanel(): void {
+    this.mobileAccordion.toggleToolsPanel();
   }
 
   addMoviesButtonLabel = computed(() =>

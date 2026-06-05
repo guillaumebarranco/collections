@@ -19,3 +19,12 @@
 .book-genre {
   @include components.component-genre-base;
 }
+
+:host {
+  display: block;
+  height: 100%;
+}
+
+:host-context(.collection-view) {
+  @include components.entity-card-mobile-horizontal-layout;
+}

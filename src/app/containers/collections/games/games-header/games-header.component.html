@@ -7,74 +7,7 @@
     }})
   </h1>
 
-  @if(allGamesCount() !== 0 || allGamelistGamesCount() !== 0) {
-  <div class="games-header-top">
-    <app-view-toggle
-      [toggleClass]="'games-view-toggle'"
-      [options]="viewOptions()"
-      [selected]="selectedView()"
-      (selectedChange)="onViewChange.emit($any($event))"
-    ></app-view-toggle>
-
-    <div class="games-actions" *appCanEdit>
-      <button
-        class="makya-btn-small"
-        type="button"
-        title="Configurer l'affichage des onglets"
-        (click)="onOpenViewConfig.emit()"
-      >
-        ⚙️ Configurer ma vue jeux
-      </button>
-      @if (canShowAddGamesButton()) {
-      <button
-        class="makya-btn-small"
-        [routerLink]="getSelectGamesRoute()"
-        [queryParams]="{
-          gamelist: selectedView() === 'gamelist',
-          add: 'true'
-        }"
-        title="Ajouter un jeu"
-      >
-        ➕
-        {{ addGamesButtonLabel() }}
-      </button>
-      } @if (canShowUpdateGamesRatingButton()) {
-      <button
-        class="makya-btn-small"
-        [routerLink]="getSelectGamesRatingRoute()"
-        title="Mettre à jour les notes de mes jeux"
-      >
-        ⭐ Notes
-      </button>
-      } @if (canShowUpdateGamesTimesFinishedButton()) {
-      <button
-        class="makya-btn-small"
-        [routerLink]="getSelectGamesTimesFinishedRoute()"
-        title="Mettre à jour le nombre de fois que j'ai terminé mes jeux"
-      >
-        🎮 Terminés
-      </button>
-      } @if (canShowUpdateGamesOwnedButton()) {
-      <button
-        class="makya-btn-small"
-        [routerLink]="getSelectGamesOwnedRoute()"
-        title="Mettre à jour les jeux possédés"
-      >
-        ✅ Possédés
-      </button>
-      } @if (canShowTopFiveRankButton()) {
-      <button
-        class="makya-btn-small"
-        [class.active]="showTopFiveRank()"
-        title="Voir les top 5 des jeux"
-        (click)="onTopFiveRankChange.emit()"
-      >
-        🏆 Top 5
-      </button>
-      }
-    </div>
-  </div>
-  } @if(allGamesCount() === 0 && allGamelistGamesCount() === 0) {
+  @if(allGamesCount() === 0 && allGamelistGamesCount() === 0) {
   <div class="empty-state">
     <p class="empty-message">Vous n'avez aucun jeu dans votre collection.</p>
     <p class="empty-subtitle">
@@ -84,36 +17,125 @@
       Sélectionner mes jeux
     </button>
   </div>
-  } @if (showFiltersAndSearch() && canShowFiltersAndSearch()) {
-  <div class="games-stats-bloc">
-    <app-stats-display
-      [stats]="stats()"
-      [count]="filteredGamesCount()"
-      countLabel="jeux"
-    >
-    </app-stats-display>
+  } @else {
+  <div class="games-header-top">
+    <app-view-toggle
+      [toggleClass]="'games-view-toggle'"
+      [options]="viewOptions()"
+      [selected]="selectedView()"
+      (selectedChange)="onViewChange.emit($any($event))"
+    ></app-view-toggle>
+  </div>
 
-    @if (canShowSortDropdown()) {
-    <app-sort-dropdown
-      [sortOptions]="sortOptions()"
-      [selectedSort]="selectedSort()"
-      (sortChange)="onSortChange.emit($event)"
+  <div class="games-header-tools-accordion">
+    @if (isMobileViewport()) {
+    <button
+      type="button"
+      class="games-header-tools-accordion__summary"
+      [attr.aria-expanded]="toolsPanelExpanded()"
+      (click)="toggleToolsPanel()"
     >
-    </app-sort-dropdown>
+      Afficher les actions et statistiques
+    </button>
     }
-  </div>
 
-  <div class="entity-input-search">
-    <input
-      type="text"
-      placeholder="Rechercher par titre, éditeur, plateforme..."
-      [ngModel]="searchTerm()"
-      (ngModelChange)="onSearchChange.emit($event)"
-    />
-  </div>
-  } @if (noDataForThisView() && allGamesCount() !== 0 ) {
-  <div class="empty-state">
-    <p class="empty-message">{{ noDataMessageText() }}</p>
+    <div
+      class="games-header-tools-accordion__content"
+      [class.games-header-tools-accordion__content--collapsed]="
+        isMobileViewport() && !toolsPanelExpanded()
+      "
+    >
+      <div class="games-actions" *appCanEdit>
+        <button
+          class="makya-btn-small"
+          type="button"
+          title="Configurer l'affichage des onglets"
+          (click)="onOpenViewConfig.emit()"
+        >
+          ⚙️ Configurer ma vue jeux
+        </button>
+        @if (canShowAddGamesButton()) {
+        <button
+          class="makya-btn-small"
+          [routerLink]="getSelectGamesRoute()"
+          [queryParams]="{
+            gamelist: selectedView() === 'gamelist',
+            add: 'true'
+          }"
+          title="Ajouter un jeu"
+        >
+          ➕
+          {{ addGamesButtonLabel() }}
+        </button>
+        } @if (canShowUpdateGamesRatingButton()) {
+        <button
+          class="makya-btn-small"
+          [routerLink]="getSelectGamesRatingRoute()"
+          title="Mettre à jour les notes de mes jeux"
+        >
+          ⭐ Notes
+        </button>
+        } @if (canShowUpdateGamesTimesFinishedButton()) {
+        <button
+          class="makya-btn-small"
+          [routerLink]="getSelectGamesTimesFinishedRoute()"
+          title="Mettre à jour le nombre de fois que j'ai terminé mes jeux"
+        >
+          🎮 Terminés
+        </button>
+        } @if (canShowUpdateGamesOwnedButton()) {
+        <button
+          class="makya-btn-small"
+          [routerLink]="getSelectGamesOwnedRoute()"
+          title="Mettre à jour les jeux possédés"
+        >
+          ✅ Possédés
+        </button>
+        } @if (canShowTopFiveRankButton()) {
+        <button
+          class="makya-btn-small"
+          [class.active]="showTopFiveRank()"
+          title="Voir les top 5 des jeux"
+          (click)="onTopFiveRankChange.emit()"
+        >
+          🏆 Top 5
+        </button>
+        }
+      </div>
+
+      @if (showFiltersAndSearch() && canShowFiltersAndSearch()) {
+      <div class="games-stats-bloc">
+        <app-stats-display
+          [stats]="stats()"
+          [count]="filteredGamesCount()"
+          countLabel="jeux"
+        >
+        </app-stats-display>
+
+        @if (canShowSortDropdown()) {
+        <app-sort-dropdown
+          [sortOptions]="sortOptions()"
+          [selectedSort]="selectedSort()"
+          (sortChange)="onSortChange.emit($event)"
+        >
+        </app-sort-dropdown>
+        }
+      </div>
+
+      <div class="entity-input-search">
+        <input
+          type="text"
+          placeholder="Rechercher par titre, éditeur, plateforme..."
+          [ngModel]="searchTerm()"
+          (ngModelChange)="onSearchChange.emit($event)"
+        />
+      </div>
+      } @if (noDataForThisView() && allGamesCount() !== 0 ) {
+      <div class="empty-state">
+        <p class="empty-message">{{ noDataMessageText() }}</p>
+      </div>
+      }
+    </div>
   </div>
   }
 </div>

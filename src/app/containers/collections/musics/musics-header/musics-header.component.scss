@@ -11,18 +11,11 @@
 }
 
 .musics-header-top {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  gap: 20px;
-  margin-bottom: 20px;
-  flex-wrap: wrap;
+  @include containers.header-top-with-view-toggle;
 }
 
 .musics-actions {
-  flex-wrap: wrap;
-  display: flex;
-  gap: 8px;
+  @include containers.header-actions-row;
 }
 
 .musics-stats-bloc {
@@ -59,10 +52,6 @@
       width: 100%;
     }
   }
-
-  .musics-header-top {
-    flex-direction: column;
-    align-items: stretch;
-    gap: 8px;
-  }
 }
+
+@include containers.header-tools-accordion("musics-header-tools-accordion");

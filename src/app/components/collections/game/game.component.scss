@@ -61,3 +61,12 @@
 .rating-text {
   font-size: 0.8rem;
 }
+
+:host {
+  display: block;
+  height: 100%;
+}
+
+:host-context(.collection-view) {
+  @include components.entity-card-mobile-horizontal-layout;
+}

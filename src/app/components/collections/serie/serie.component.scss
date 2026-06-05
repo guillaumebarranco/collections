@@ -57,8 +57,10 @@
 .serie-seasons-details {
   margin-top: 8px;
   display: flex;
+  flex-direction: row;
   flex-wrap: wrap;
-  gap: 4px;
+  gap: 6px;
+  width: 100%;
 }
 
 .serie-season-row {
@@ -66,16 +68,14 @@
   flex-direction: column;
   text-align: center;
   align-items: center;
-  gap: 6px;
+  gap: 4px;
   border-radius: 6px;
   background: rgba(0, 0, 0, 0.04);
-  max-width: 32%;
+  flex: 0 1 auto;
+  max-width: calc(33.333% - 4px);
+  min-width: 72px;
   box-sizing: border-box;
   padding: 4px 6px;
-
-  @media (max-width: 768px) {
-    max-width: none;
-  }
 }
 
 .serie-season-title {
@@ -109,4 +109,30 @@
   width: 14px;
   height: 14px;
   fill: currentColor;
+}
+
+:host {
+  display: block;
+  height: 100%;
+}
+
+:host-context(.collection-view) {
+  @include components.entity-card-mobile-horizontal-layout;
+
+  @media (max-width: 768px) {
+    ::ng-deep .serie-seasons-details {
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+      align-items: flex-start;
+      gap: 6px;
+      width: 100%;
+    }
+
+    ::ng-deep .serie-season-row {
+      flex: 0 1 auto;
+      max-width: calc(33.333% - 4px);
+      min-width: 72px;
+    }
+  }
 }
