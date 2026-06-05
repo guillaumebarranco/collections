@@ -32,13 +32,13 @@
 @include containers.responsive-base {
   .mangas-stats-bloc {
     flex-direction: column;
-    gap: 15px;
+    gap: 8px;
     text-align: center;
   }
 
   .mangas-header-top {
     flex-direction: column;
     align-items: stretch;
-    gap: 15px;
+    gap: 8px;
   }
 }

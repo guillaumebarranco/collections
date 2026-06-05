@@ -55,6 +55,23 @@ export const MINUTES_PER_MANWHA_CHAPTER = 5;
 // Estimation : 30 minutes par tome de manga en moyenne
 export const MINUTES_PER_MANGA_TOME = 30;
 
+/** Version courte des valeurs de stats pour l'affichage mobile (headers collections). */
+export function compactStatValueForMobile(value: string): string {
+  let result = value.trim();
+
+  result = result.replace(/\s+(pages|tomes|chapitres)$/i, '');
+
+  if (/jours|heures/i.test(result)) {
+    result = result.replace(/\s+et\s+\d+\s+minutes$/i, '');
+  }
+
+  if (/jours|\d+h\b/i.test(result)) {
+    result = result.replace(/\s+\d+min$/i, '');
+  }
+
+  return result.trim();
+}
+
 export function formatTimeStats(totalMinutes: number): TimeStats {
   // Arrondir totalMinutes à l'entier le plus proche pour éviter les décimales dans les minutes
   const roundedMinutes = Math.round(totalMinutes);

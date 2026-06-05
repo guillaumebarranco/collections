@@ -98,7 +98,7 @@
 @include containers.responsive-base {
   .movies-stats-bloc {
     flex-direction: column;
-    gap: 15px;
+    gap: 8px;
     text-align: center;
 
     .movies-list-filters {
@@ -111,12 +111,14 @@
   .movies-header-top {
     flex-direction: column;
     align-items: stretch;
-    gap: 15px;
+    gap: 8px;
   }
 
   .movies-search-and-lists {
     flex-direction: column;
     align-items: stretch;
+    gap: 8px;
+    margin-top: 8px;
   }
 
   .movies-list-filters {

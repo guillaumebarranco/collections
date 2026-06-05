@@ -188,3 +188,21 @@
     display: block;
   }
 }
+
+@media (max-width: 768px) {
+  .view-toggle-mobile {
+    margin: 6px 0;
+  }
+
+  .view-toggle-mobile-trigger {
+    gap: 8px;
+    padding: 8px 10px;
+    font-size: 0.82rem;
+    border-radius: 8px;
+  }
+
+  .toggle-option-mobile {
+    padding: 8px 10px;
+    font-size: 0.82rem;
+  }
+}

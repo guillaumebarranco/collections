@@ -158,13 +158,6 @@
 
 // Responsive
 @include containers.responsive-base {
-  .manwhas-container {
-    padding: 15px;
-
-    h1 {
-      font-size: 2rem;
-    }
-  }
 
   .manwhas-header {
     flex-direction: column;

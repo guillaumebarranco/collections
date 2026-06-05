@@ -43,6 +43,7 @@ export class MoviesHeaderComponent {
   userMoviesLists = input<UserMovieListItem[]>([]);
   /** Liste actuellement sélectionnée pour filtrer (null = pas de filtre). */
   selectedListFilter = input<string | null>(null);
+  searchTermInput = input<string>('');
   visibleMovieViewOptions = input<
     {
       value: MovieView;
@@ -55,11 +56,8 @@ export class MoviesHeaderComponent {
   searchTerm = signal<string>('');
 
   constructor() {
-    // Quand on change de contexte (vue), on remet l'input de recherche à zéro.
-    // Sinon, `canShowFiltersAndSearch()` peut rester basé sur une recherche obsolète.
     effect(() => {
-      this.selectedView();
-      this.searchTerm.set('');
+      this.searchTerm.set(this.searchTermInput());
     });
   }
 

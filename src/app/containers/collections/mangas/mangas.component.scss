@@ -148,13 +148,6 @@
 
 // Responsive
 @include containers.responsive-base {
-  .mangas-container {
-    padding: 15px;
-
-    h1 {
-      font-size: 2rem;
-    }
-  }
 
   .mangas-header {
     flex-direction: column;

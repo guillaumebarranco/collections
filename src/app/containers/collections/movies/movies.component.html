@@ -14,6 +14,7 @@
   } @else {
   <app-movies-header
     [selectedView]="selectedView()"
+    [searchTermInput]="searchTerm()"
     [filteredMoviesByYearCount]="filteredMoviesByYear().length"
     [recommendedMoviesCount]="recommendedMovies().length"
     [allMoviesCount]="allMovies().length"

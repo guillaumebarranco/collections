@@ -50,7 +50,7 @@
 @include containers.responsive-base {
   .series-stats-bloc {
     flex-direction: column;
-    gap: 15px;
+    gap: 8px;
     text-align: center;
 
     .series-filters {
@@ -63,6 +63,6 @@
   .series-header-top {
     flex-direction: column;
     align-items: stretch;
-    gap: 15px;
+    gap: 8px;
   }
 }

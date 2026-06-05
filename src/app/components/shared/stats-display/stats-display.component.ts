@@ -1,5 +1,14 @@
-import { Component, Input } from '@angular/core';
-import { CommonModule } from '@angular/common';
+import {
+  afterNextRender,
+  Component,
+  DestroyRef,
+  inject,
+  Input,
+  PLATFORM_ID,
+  signal,
+} from '@angular/core';
+import { CommonModule, isPlatformBrowser } from '@angular/common';
+import { compactStatValueForMobile } from '../../../utils/stats.utils';
 
 export enum StatItemColor {
   PRIMARY = 'primary',
@@ -28,4 +37,29 @@ export class StatsDisplayComponent {
   @Input() stats: StatItem[] = [];
   @Input() count: number = 0;
   @Input() countLabel: string = 'éléments';
+
+  private readonly platformId = inject(PLATFORM_ID);
+  private readonly destroyRef = inject(DestroyRef);
+  readonly isMobileViewport = signal(false);
+
+  constructor() {
+    afterNextRender(() => {
+      if (!isPlatformBrowser(this.platformId)) return;
+
+      const mediaQuery = window.matchMedia('(max-width: 768px)');
+      const syncViewport = () => this.isMobileViewport.set(mediaQuery.matches);
+
+      syncViewport();
+      mediaQuery.addEventListener('change', syncViewport);
+      this.destroyRef.onDestroy(() =>
+        mediaQuery.removeEventListener('change', syncViewport)
+      );
+    });
+  }
+
+  displayValue(value: string): string {
+    return this.isMobileViewport()
+      ? compactStatValueForMobile(value)
+      : value;
+  }
 }

@@ -18,6 +18,7 @@
   @media (max-width: 768px) {
     min-width: 0;
     box-sizing: border-box;
+    padding: 10px 12px;
   }
 }
 
@@ -27,6 +28,12 @@
   margin-bottom: 30px;
   font-size: 2.5rem;
   font-weight: 700;
+
+  @media (max-width: 768px) {
+    margin-bottom: 10px;
+    font-size: 1.35rem;
+    line-height: 1.2;
+  }
 }
 
 @mixin header-base {
@@ -41,6 +48,14 @@
   background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
   border-radius: 15px;
   box-shadow: 0 8px 32px rgba(0, 0, 0, 0.1);
+
+  @media (max-width: 768px) {
+    gap: 8px;
+    margin-bottom: 10px;
+    padding: 10px 12px;
+    border-radius: 10px;
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.1);
+  }
 }
 
 @mixin count {
@@ -54,6 +69,11 @@
   grid-template-columns: repeat(auto-fill, minmax(min(100%, 280px), 1fr));
   gap: 25px;
   padding: 20px 0;
+
+  @media (max-width: 768px) {
+    gap: 12px;
+    padding: 8px 0 12px;
+  }
 }
 
 @mixin card-base {
@@ -98,5 +118,31 @@
 @mixin responsive-base {
   @media (max-width: 768px) {
     @content;
+  }
+}
+
+// Compactage mobile du chrome des pages collections (header, stats, filtres)
+@mixin collection-chrome-mobile {
+  @media (max-width: 768px) {
+    [class$="-header-top"] {
+      gap: 8px !important;
+      margin-bottom: 8px !important;
+    }
+
+    [class$="-actions"] {
+      gap: 4px;
+    }
+
+    [class$="-stats-bloc"] {
+      gap: 8px !important;
+    }
+
+    [class$="-filters"] {
+      gap: 6px;
+    }
+
+    [class$="-filters-item"] {
+      font-size: 0.85rem;
+    }
   }
 }

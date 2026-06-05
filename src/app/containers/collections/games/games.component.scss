@@ -128,13 +128,6 @@
 
 // Responsive
 @include containers.responsive-base {
-  .games-container {
-    padding: 15px;
-
-    h1 {
-      font-size: 2rem;
-    }
-  }
 
   .games-header-top {
     flex-direction: column;

@@ -212,13 +212,6 @@
 
 // Responsive
 @include containers.responsive-base {
-  .series-container {
-    padding: 15px;
-
-    h1 {
-      font-size: 2rem;
-    }
-  }
 
 
   .series {

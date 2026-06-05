@@ -329,3 +329,25 @@ ul li {
     max-width: min(320px, 90vw);
   }
 }
+
+@include containers.collection-chrome-mobile;
+
+@media (max-width: 768px) {
+  .makya-btn-small {
+    padding: 4px 8px;
+    font-size: 0.72rem;
+    border-radius: 5px;
+    gap: 2px;
+  }
+
+  .entity-input-search {
+    margin: 6px 0 2px;
+    max-width: 100%;
+
+    input {
+      padding: 7px 10px;
+      font-size: 0.85rem;
+      border-radius: 6px;
+    }
+  }
+}

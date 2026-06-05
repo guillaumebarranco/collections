@@ -233,17 +233,17 @@
 // Responsive - Mobile (max-width: 768px)
 @media (max-width: 768px) {
   .musics-container {
-    padding: 15px 10px;
+    padding: 10px 12px;
 
     h1 {
-      font-size: 1.8rem;
-      margin-bottom: 15px;
+      font-size: 1.35rem;
+      margin-bottom: 10px;
     }
   }
 
   .musics-header {
     flex-direction: column;
-    gap: 15px;
+    gap: 8px;
     text-align: center;
   }
 

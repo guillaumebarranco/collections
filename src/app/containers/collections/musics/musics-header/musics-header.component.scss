@@ -52,7 +52,7 @@
 @include containers.responsive-base {
   .musics-stats-bloc {
     flex-direction: column;
-    gap: 15px;
+    gap: 8px;
     text-align: center;
 
     .musics-filters {
@@ -63,6 +63,6 @@
   .musics-header-top {
     flex-direction: column;
     align-items: stretch;
-    gap: 15px;
+    gap: 8px;
   }
 }

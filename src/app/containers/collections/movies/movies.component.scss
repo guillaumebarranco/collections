@@ -259,13 +259,6 @@
 
 // Responsive
 @include containers.responsive-base {
-  .movies-container {
-    padding: 15px;
-
-    h1 {
-      font-size: 2rem;
-    }
-  }
 
   .movies-actions {
     flex-wrap: wrap;
