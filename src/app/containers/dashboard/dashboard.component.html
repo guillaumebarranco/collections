@@ -1,6 +1,10 @@
 <app-menu></app-menu>
 
-@if (userId() && userHasData()) {
+@if (showDashboardLoader()) {
+<div class="dashboard-container dashboard-loading">
+  <app-loader message="Chargement du tableau de bord..." />
+</div>
+} @else if (userId() && userHasData()) {
 <div class="dashboard-container">
   <div class="dashboard-header">
     <h1>Tableau de bord</h1>

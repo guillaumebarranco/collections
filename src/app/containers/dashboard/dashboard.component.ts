@@ -113,6 +113,7 @@ import { ProfileBadgeService } from '../../services/profile-badge.service';
 import { OfflineModeService } from '../../services/offline-mode.service';
 import { isOfflineModeBlockingOtherUsers } from '../../core/offline/offline-mode.utils';
 import { OfflineRestrictedMessageComponent } from '../../components/shared/offline-restricted-message/offline-restricted-message.component';
+import { LoaderComponent } from '../../components/shared/loader/loader.component';
 
 interface TopBook extends Book {
   formattedReadingTime: string;
@@ -160,6 +161,7 @@ type BadgeGroup = {
     DashboardMonthlyActivityComponent,
     LoginComponent,
     OfflineRestrictedMessageComponent,
+    LoaderComponent,
   ],
   templateUrl: './dashboard.component.html',
   styleUrls: ['./dashboard.component.scss'],
@@ -178,6 +180,8 @@ export class DashboardComponent implements OnInit {
   private readonly offlineModeService = inject(OfflineModeService);
 
   filledUserId = signal<string>('');
+  isLoadingDashboardData = signal(false);
+  private dashboardLoadGeneration = 0;
   selectedTab = signal<
     'overview' | 'entities' | 'monthlyActivity' | 'top5' | 'badges'
   >('overview');
@@ -192,6 +196,13 @@ export class DashboardComponent implements OnInit {
   selectedBadgeEntity = signal<BadgeDashboardTabKey>('books');
   isAuthenticated = computed<boolean>(() => this.authService.isAuthenticated());
   isAdmin = computed<boolean>(() => this.authService.isAdmin());
+
+  /** Utilisateur connecté : redirection ou chargement des collections en cours. */
+  showDashboardLoader = computed<boolean>(
+    () =>
+      this.isAuthenticated() &&
+      (!this.userId() || this.isLoadingDashboardData())
+  );
 
   readonly feedOfflineBlocked = computed(() =>
     isOfflineModeBlockingOtherUsers()
@@ -973,6 +984,7 @@ export class DashboardComponent implements OnInit {
           void this.feedService.loadFromApi(uid);
         }
       }
+      this.isLoadingDashboardData.set(true);
       void this.loadAllDashboardData();
     });
 
@@ -995,23 +1007,34 @@ export class DashboardComponent implements OnInit {
     );
   }
 
-  private loadAllDashboardData(): void {
-    this.loadMoviesData();
-    this.loadWatchlistMoviesData();
-    this.loadBooksData();
-    this.loadReadlistBooksData();
-    this.loadMangasData();
-    this.loadReadlistMangasData();
-    this.loadComicsData();
-    this.loadReadlistComicsData();
-    this.loadBdsData();
-    this.loadReadlistBdsData();
-    this.loadManwhasData();
-    this.loadReadlistManwhasData();
-    this.loadSeriesData();
-    this.loadWatchlistSeriesData();
-    this.loadGamesData();
-    this.loadMusicsData();
+  private async loadAllDashboardData(): Promise<void> {
+    const generation = ++this.dashboardLoadGeneration;
+    this.isLoadingDashboardData.set(true);
+
+    try {
+      await Promise.all([
+        this.loadMoviesData(),
+        this.loadWatchlistMoviesData(),
+        this.loadBooksData(),
+        this.loadReadlistBooksData(),
+        this.loadMangasData(),
+        this.loadReadlistMangasData(),
+        this.loadComicsData(),
+        this.loadReadlistComicsData(),
+        this.loadBdsData(),
+        this.loadReadlistBdsData(),
+        this.loadManwhasData(),
+        this.loadReadlistManwhasData(),
+        this.loadSeriesData(),
+        this.loadWatchlistSeriesData(),
+        this.loadGamesData(),
+        this.loadMusicsData(),
+      ]);
+    } finally {
+      if (generation === this.dashboardLoadGeneration) {
+        this.isLoadingDashboardData.set(false);
+      }
+    }
   }
 
   private async loadMoviesData() {
