@@ -30,6 +30,18 @@ import {
   type CalendarMonthRange,
 } from '../../../utils/dashboard-monthly-activity.utils';
 
+/** Icônes alignées sur le menu / statistiques par entité du dashboard. */
+export const ACTIVITY_ENTITY_TAGS = {
+  book: { icon: '📖', label: 'Livre' },
+  manga: { icon: '📚', label: 'Manga' },
+  comic: { icon: '🦸', label: 'Comic' },
+  bd: { icon: '📗', label: 'BD' },
+  manwha: { icon: '📘', label: 'Manwha' },
+  movie: { icon: '🎬', label: 'Film' },
+  series: { icon: '📺', label: 'Série' },
+  game: { icon: '🎮', label: 'Jeu' },
+} as const;
+
 @Component({
   selector: 'app-dashboard-monthly-activity',
   standalone: true,
@@ -39,6 +51,8 @@ import {
 })
 export class DashboardMonthlyActivityComponent {
   private readonly host = inject(ElementRef<HTMLElement>);
+
+  readonly entityTag = ACTIVITY_ENTITY_TAGS;
 
   readonly books = input<Book[]>([]);
   readonly mangas = input<Manga[]>([]);

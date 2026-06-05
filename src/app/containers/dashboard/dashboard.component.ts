@@ -179,11 +179,7 @@ export class DashboardComponent implements OnInit {
 
   filledUserId = signal<string>('');
   selectedTab = signal<
-    | 'overview'
-    | 'entities'
-    | 'monthlyActivity'
-    | 'top5'
-    | 'badges'
+    'overview' | 'entities' | 'monthlyActivity' | 'top5' | 'badges'
   >('overview');
 
   /** Sous-vue de l’onglet Top 5 : personnel par défaut, ou classements statistiques. */
@@ -210,7 +206,7 @@ export class DashboardComponent implements OnInit {
 
   tabOptions: ViewToggleOption[] = [
     { value: 'overview', label: "Vue d'ensemble" },
-    { value: 'monthlyActivity', label: 'Mon activité mensuelle' },
+    { value: 'monthlyActivity', label: 'Mon activité' },
     { value: 'entities', label: 'Statistiques par entité' },
     { value: 'top5', label: 'Top 5' },
     { value: 'badges', label: 'Badges' },
@@ -539,12 +535,14 @@ export class DashboardComponent implements OnInit {
       'guerrier-de-la-terre-du-milieu': `${this.getWatchedSagaCount(
         'Tolkien'
       )}/${
-        this.baseMoviesCatalog().filter((m) => (m.saga || '').trim() === 'Tolkien')
-          .length
+        this.baseMoviesCatalog().filter(
+          (m) => (m.saga || '').trim() === 'Tolkien'
+        ).length
       }`,
       'membre-de-l-ordre': `${this.getWatchedSagaCount('Star Wars')}/${
-        this.baseMoviesCatalog().filter((m) => (m.saga || '').trim() === 'Star Wars')
-          .length
+        this.baseMoviesCatalog().filter(
+          (m) => (m.saga || '').trim() === 'Star Wars'
+        ).length
       }`,
     };
 
@@ -914,12 +912,7 @@ export class DashboardComponent implements OnInit {
   }
 
   onTabChange(
-    tab:
-      | 'overview'
-      | 'entities'
-      | 'monthlyActivity'
-      | 'top5'
-      | 'badges'
+    tab: 'overview' | 'entities' | 'monthlyActivity' | 'top5' | 'badges'
   ): void {
     this.selectedTab.set(tab);
   }
@@ -997,7 +990,9 @@ export class DashboardComponent implements OnInit {
     this.topFiveService.loadFromStorage();
     this.badgesService.loadFromStorage();
     this.profileBadgeService.loadFromStorage();
-    void getAllBaseMovies().then((movies) => this.baseMoviesCatalog.set(movies));
+    void getAllBaseMovies().then((movies) =>
+      this.baseMoviesCatalog.set(movies)
+    );
   }
 
   private loadAllDashboardData(): void {

@@ -79,13 +79,21 @@
 }
 
 .monthly-activity__sample-list .tag {
-  display: inline-block;
-  min-width: 4.5rem;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.25rem;
+  min-width: 5.25rem;
   font-size: 0.75rem;
   font-weight: 600;
   color: #495057;
   text-transform: uppercase;
   letter-spacing: 0.02em;
+}
+
+.monthly-activity__sample-list .tag__icon {
+  font-size: 0.85rem;
+  line-height: 1;
+  text-transform: none;
 }
 
 .monthly-activity__sample-list .tag--cinema,

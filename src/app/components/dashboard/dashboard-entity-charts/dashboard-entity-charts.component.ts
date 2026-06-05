@@ -49,6 +49,11 @@ import {
   SCAN_CHART_START_YEAR,
 } from '../../../utils/dashboard-monthly-activity.utils';
 import {
+  getSeriesMissingFromSeasonChart,
+  getSeriesSeasonTrackingPeriods,
+  getSeriesWithUndatedSeasonsOnChart,
+} from '../../../utils/series-season-chart.utils';
+import {
   getBookReadYearsForChart,
   getBookUndatedReadCountForChart,
   getBookReadTrackingPeriods,
@@ -143,6 +148,9 @@ export class DashboardEntityChartsComponent implements OnInit, AfterViewInit {
   /** Inclure les revisionnages (lastViewedDate + otherSeenDates) dans le graphique films. */
   showMovieRewatches = signal(true);
 
+  /** Inclure les revisionnages de saisons (otherViewedDates) dans le graphique timeline séries. */
+  showSeriesSeasonRewatches = signal(true);
+
   /** Suivis de scans (readingScanStartDate) sur le graphique mangas. */
   showMangaScanTracking = signal(true);
 
@@ -163,6 +171,9 @@ export class DashboardEntityChartsComponent implements OnInit, AfterViewInit {
 
   @ViewChild('seriesSeasonsViewedChart')
   seriesSeasonsViewedChart?: ElementRef<HTMLDivElement>;
+
+  @ViewChild('seriesSeasonTimelineChart')
+  seriesSeasonTimelineChart?: ElementRef<HTMLDivElement>;
 
   @ViewChild('mangaScanChart')
   mangaScanChart?: ElementRef<HTMLDivElement>;
@@ -416,6 +427,37 @@ export class DashboardEntityChartsComponent implements OnInit, AfterViewInit {
     );
   });
 
+  seriesSeasonPeriods = computed(() =>
+    getSeriesSeasonTrackingPeriods(
+      this.allSeries(),
+      this.showSeriesSeasonRewatches(),
+      this.scanChartStartYear,
+      new Date(),
+    ),
+  );
+
+  seriesSeasonPeriodsSeasonCount = computed(() => {
+    const seasonKeys = new Set(
+      this.seriesSeasonPeriods().map((period) => {
+        const match = period.key.match(/^(.*)\|s(\d+)\|/);
+        return match ? `${match[1]}|s${match[2]}` : period.key;
+      }),
+    );
+    return seasonKeys.size;
+  });
+
+  seriesMissingFromSeasonChart = computed(() =>
+    getSeriesMissingFromSeasonChart(this.allSeries()),
+  );
+
+  seriesWithUndatedSeasonsOnChart = computed(() =>
+    getSeriesWithUndatedSeasonsOnChart(
+      this.allSeries(),
+      this.scanChartStartYear,
+      new Date(),
+    ),
+  );
+
   mangaScanPeriods = computed(() =>
     getMangaScanChartPeriods(this.allMangas(), {
       includeScanTracking: this.showMangaScanTracking(),
@@ -551,6 +593,11 @@ export class DashboardEntityChartsComponent implements OnInit, AfterViewInit {
     this.showMangaOneShotReads.set(checked);
   }
 
+  onShowSeriesSeasonRewatchesChange(event: Event): void {
+    const checked = (event.target as HTMLInputElement).checked;
+    this.showSeriesSeasonRewatches.set(checked);
+  }
+
   constructor() {
     effect(() => {
       if (!this.embedded()) {
@@ -562,6 +609,7 @@ export class DashboardEntityChartsComponent implements OnInit, AfterViewInit {
       this.booksReadByYear();
       this.bookReadPeriods();
       this.seriesSeasonsViewedByYear();
+      this.seriesSeasonPeriods();
       this.mangaScanPeriods();
       this.manwhaScanPeriods();
       this.combinedScanPeriods();
@@ -637,6 +685,17 @@ export class DashboardEntityChartsComponent implements OnInit, AfterViewInit {
         requestAnimationFrame(() => this.renderGamesSessionChart());
       });
     });
+
+    effect(() => {
+      this.seriesSeasonPeriods();
+      this.showSeriesSeasonRewatches();
+      if (this.effectiveEntity() !== 'series') {
+        return;
+      }
+      untracked(() => {
+        requestAnimationFrame(() => this.renderSeriesSeasonTimelineChart());
+      });
+    });
   }
 
   ngOnInit() {
@@ -683,7 +742,10 @@ export class DashboardEntityChartsComponent implements OnInit, AfterViewInit {
     const series = await getAllSeries(uid);
     this.seriesList.set(series);
     if (this.effectiveEntity() === 'series') {
-      requestAnimationFrame(() => this.renderSeriesSeasonsViewedChart());
+      requestAnimationFrame(() => {
+        this.renderSeriesSeasonsViewedChart();
+        this.renderSeriesSeasonTimelineChart();
+      });
     }
   }
 
@@ -741,6 +803,7 @@ export class DashboardEntityChartsComponent implements OnInit, AfterViewInit {
       }
     } else if (entity === 'series') {
       this.renderSeriesSeasonsViewedChart();
+      this.renderSeriesSeasonTimelineChart();
     } else if (entity === 'mangas') {
       this.renderMangaScanChart();
       this.renderCombinedScanChart();
@@ -839,6 +902,17 @@ export class DashboardEntityChartsComponent implements OnInit, AfterViewInit {
       this.seriesSeasonsViewedTotal(),
       this.seriesSeasonsViewedByYear()
     );
+  }
+
+  private renderSeriesSeasonTimelineChart(): void {
+    if (this.effectiveEntity() !== 'series') {
+      return;
+    }
+    const container = this.seriesSeasonTimelineChart?.nativeElement;
+    renderScanTrackingTimelineChart(container, this.seriesSeasonPeriods(), {
+      startYear: this.scanChartStartYear,
+      endYear: this.currentYear,
+    });
   }
 
   private renderMangaScanChart(): void {

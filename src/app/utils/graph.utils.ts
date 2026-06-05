@@ -36,19 +36,33 @@ function formatScanTrackingTooltipHtml(row: ScanTrackingPeriod): string {
   if (
     row.trackingKind === 'book-read' ||
     row.trackingKind === 'one-shot' ||
+    row.trackingKind === 'season-view' ||
+    row.trackingKind === 'season-rewatch' ||
     row.key.startsWith('oneshot:') ||
     row.key.startsWith('read:')
   ) {
     const typeLine =
       row.trackingKind === 'one-shot' || row.key.startsWith('oneshot:')
         ? 'Lecture one shot'
-        : 'Date de lecture';
-    return `<strong>${row.label}</strong><br/>Lu le ${formatScanChartDate(
+        : row.trackingKind === 'season-rewatch'
+          ? 'Revisionnage de saison'
+          : row.trackingKind === 'season-view'
+            ? 'Visionnage de saison'
+            : 'Date de lecture';
+    const viewedOn =
+      row.trackingKind === 'book-read' || row.key.startsWith('read:')
+        ? 'Lu le'
+        : 'Vu le';
+    return `<strong>${row.label}</strong><br/>${viewedOn} ${formatScanChartDate(
       row.start,
     )}<br/>${typeLine}`;
   }
+  const durationPrefix =
+    row.trackingKind === 'season-in-progress'
+      ? 'Durée de visionnage'
+      : 'Temps de jeu';
   const durationLine = row.durationLabel
-    ? `<br/>Temps de jeu : <strong>${row.durationLabel}</strong>`
+    ? `<br/>${durationPrefix} : <strong>${row.durationLabel}</strong>`
     : '';
   return `<strong>${row.label}</strong><br/>${formatScanChartDate(
     row.start,

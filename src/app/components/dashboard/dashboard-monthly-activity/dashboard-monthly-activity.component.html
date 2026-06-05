@@ -20,7 +20,10 @@
     <ul class="monthly-activity__sample-list">
       @for (book of s.books; track book.line) {
       <li>
-        <span class="tag">Livre</span> {{ book.line }}
+        <span class="tag"
+          ><span class="tag__icon" aria-hidden="true">{{ entityTag.book.icon }}</span
+          >{{ entityTag.book.label }}</span
+        > {{ book.line }}
         @if (book.readBadge === 'first') {
         <span class="tag tag--first-read">Première lecture</span>
         } @else {
@@ -32,7 +35,10 @@
       </li>
       } @for (manga of s.mangas; track manga.line) {
       <li>
-        <span class="tag">Manga</span> {{ manga.line }}
+        <span class="tag"
+          ><span class="tag__icon" aria-hidden="true">{{ entityTag.manga.icon }}</span
+          >{{ entityTag.manga.label }}</span
+        > {{ manga.line }}
         @if (manga.showScanBadge) {
         <span class="tag tag--manga-scan">Suivi scans mangas</span>
         }
@@ -43,17 +49,29 @@
         }
       </li>
       } @for (line of s.comics; track line) {
-      <li><span class="tag">Comic</span> {{ line }}</li>
+      <li>
+        <span class="tag"
+          ><span class="tag__icon" aria-hidden="true">{{ entityTag.comic.icon }}</span
+          >{{ entityTag.comic.label }}</span
+        >
+        {{ line }}
+      </li>
       } @for (bd of s.bds; track bd.line) {
       <li>
-        <span class="tag">BD</span> {{ bd.line }}
+        <span class="tag"
+          ><span class="tag__icon" aria-hidden="true">{{ entityTag.bd.icon }}</span
+          >{{ entityTag.bd.label }}</span
+        > {{ bd.line }}
         @if (bd.showApproximateDateBadge) {
         <span class="tag tag--approximate-date">Date approximative</span>
         }
       </li>
       } @for (manwha of s.manwhas; track manwha.line) {
       <li>
-        <span class="tag">Manwha</span> {{ manwha.line }}
+        <span class="tag"
+          ><span class="tag__icon" aria-hidden="true">{{ entityTag.manwha.icon }}</span
+          >{{ entityTag.manwha.label }}</span
+        > {{ manwha.line }}
         @if (manwha.showScanBadge) {
         <span class="tag tag--manwha-scan">Suivi scans manwhas</span>
         }
@@ -65,7 +83,10 @@
       </li>
       } @for (movie of s.movies; track movie.line) {
       <li>
-        <span class="tag">Film</span> {{ movie.line }}
+        <span class="tag"
+          ><span class="tag__icon" aria-hidden="true">{{ entityTag.movie.icon }}</span
+          >{{ entityTag.movie.label }}</span
+        > {{ movie.line }}
         @if (movie.viewBadge === 'first') {
         <span class="tag tag--first-view">Premier visionnage</span>
         } @else {
@@ -80,7 +101,10 @@
       </li>
       } @for (serie of s.series; track serie.line) {
       <li>
-        <span class="tag">Série</span> {{ serie.line }}
+        <span class="tag"
+          ><span class="tag__icon" aria-hidden="true">{{ entityTag.series.icon }}</span
+          >{{ entityTag.series.label }}</span
+        > {{ serie.line }}
         @if (serie.viewBadge === 'first') {
         <span class="tag tag--first-view">Premier visionnage</span>
         } @else {
@@ -89,7 +113,10 @@
       </li>
       } @for (game of s.games; track game.line) {
       <li>
-        <span class="tag">Jeu</span> {{ game.line }}
+        <span class="tag"
+          ><span class="tag__icon" aria-hidden="true">{{ entityTag.game.icon }}</span
+          >{{ entityTag.game.label }}</span
+        > {{ game.line }}
         @if (game.showGameSessionBadge) {
         <span class="tag tag--game-session">Session de jeu vidéo</span>
         }
@@ -138,7 +165,10 @@
       >
         @for (book of row.samples.books; track book.line) {
         <li>
-          <span class="tag">Livre</span> {{ book.line }}
+          <span class="tag"
+          ><span class="tag__icon" aria-hidden="true">{{ entityTag.book.icon }}</span
+          >{{ entityTag.book.label }}</span
+        > {{ book.line }}
           @if (book.readBadge === 'first') {
           <span class="tag tag--first-read">Première lecture</span>
           } @else {
@@ -150,7 +180,10 @@
         </li>
         } @for (manga of row.samples.mangas; track manga.line) {
         <li>
-          <span class="tag">Manga</span> {{ manga.line }}
+          <span class="tag"
+          ><span class="tag__icon" aria-hidden="true">{{ entityTag.manga.icon }}</span
+          >{{ entityTag.manga.label }}</span
+        > {{ manga.line }}
           @if (manga.showScanBadge) {
           <span class="tag tag--manga-scan">Suivi scans mangas</span>
           }
@@ -161,17 +194,29 @@
           }
         </li>
         } @for (line of row.samples.comics; track line) {
-        <li><span class="tag">Comic</span> {{ line }}</li>
+        <li>
+        <span class="tag"
+          ><span class="tag__icon" aria-hidden="true">{{ entityTag.comic.icon }}</span
+          >{{ entityTag.comic.label }}</span
+        >
+        {{ line }}
+      </li>
         } @for (bd of row.samples.bds; track bd.line) {
         <li>
-          <span class="tag">BD</span> {{ bd.line }}
+          <span class="tag"
+          ><span class="tag__icon" aria-hidden="true">{{ entityTag.bd.icon }}</span
+          >{{ entityTag.bd.label }}</span
+        > {{ bd.line }}
           @if (bd.showApproximateDateBadge) {
           <span class="tag tag--approximate-date">Date approximative</span>
           }
         </li>
         } @for (manwha of row.samples.manwhas; track manwha.line) {
         <li>
-          <span class="tag">Manwha</span> {{ manwha.line }}
+          <span class="tag"
+          ><span class="tag__icon" aria-hidden="true">{{ entityTag.manwha.icon }}</span
+          >{{ entityTag.manwha.label }}</span
+        > {{ manwha.line }}
           @if (manwha.showScanBadge) {
           <span class="tag tag--manwha-scan">Suivi scans manwhas</span>
           }
@@ -183,7 +228,10 @@
         </li>
         } @for (movie of row.samples.movies; track movie.line) {
         <li>
-          <span class="tag">Film</span> {{ movie.line }}
+          <span class="tag"
+          ><span class="tag__icon" aria-hidden="true">{{ entityTag.movie.icon }}</span
+          >{{ entityTag.movie.label }}</span
+        > {{ movie.line }}
           @if (movie.viewBadge === 'first') {
           <span class="tag tag--first-view">Premier visionnage</span>
           } @else {
@@ -198,7 +246,10 @@
         </li>
         } @for (serie of row.samples.series; track serie.line) {
         <li>
-          <span class="tag">Série</span> {{ serie.line }}
+          <span class="tag"
+          ><span class="tag__icon" aria-hidden="true">{{ entityTag.series.icon }}</span
+          >{{ entityTag.series.label }}</span
+        > {{ serie.line }}
           @if (serie.viewBadge === 'first') {
           <span class="tag tag--first-view">Premier visionnage</span>
           } @else {
@@ -207,7 +258,10 @@
         </li>
         } @for (game of row.samples.games; track game.line) {
         <li>
-          <span class="tag">Jeu</span> {{ game.line }}
+          <span class="tag"
+          ><span class="tag__icon" aria-hidden="true">{{ entityTag.game.icon }}</span
+          >{{ entityTag.game.label }}</span
+        > {{ game.line }}
           @if (game.showGameSessionBadge) {
           <span class="tag tag--game-session">Session de jeu vidéo</span>
           }

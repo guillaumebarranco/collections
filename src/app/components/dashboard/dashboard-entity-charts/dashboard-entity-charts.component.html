@@ -212,6 +212,88 @@
       </div>
       }
     </div>
+    <div class="charts-section charts-section--wide">
+      <div class="charts-section-header">
+        <h3>📺 Suivi des saisons par série ({{ scanChartStartYear }}-{{ currentYear }})</h3>
+        <label class="charts-section-option">
+          <input
+            type="checkbox"
+            [checked]="showSeriesSeasonRewatches()"
+            (change)="onShowSeriesSeasonRewatchesChange($event)"
+          />
+          Afficher toutes les dates de visionnage
+        </label>
+      </div>
+      <p class="chart-description">
+        Chaque barre correspond à une date de visionnage d'une saison
+        (première vision, dernière vision ou dates dans « autres visionnages »).
+        Une saison en cours sans date de fin affiche une période jusqu'à
+        aujourd'hui. Le titre et la couleur sont affichés à gauche de chaque
+        barre.
+      </p>
+      @if (seriesSeasonPeriods().length === 0) {
+      <div class="no-data">
+        Aucune saison datée depuis {{ scanChartStartYear }}.
+      </div>
+      } @else {
+      <div #seriesSeasonTimelineChart class="scan-timeline-chart"></div>
+      <div class="chart-footnote">
+        {{ seriesSeasonPeriods().length }} entrée(s) sur
+        {{ seriesSeasonPeriodsSeasonCount() }} saison(s)
+        @if (!showSeriesSeasonRewatches()) {
+        <span> (première date de visionnage uniquement)</span>
+        }
+      </div>
+      }
+
+      <div class="game-chart-lists">
+        <div class="game-chart-list">
+          <h4>Séries non placées car manque d'informations</h4>
+          @if (seriesMissingFromSeasonChart().length === 0) {
+          <p class="game-chart-list__empty">
+            Toutes les séries avec saisons vues ont au moins une date.
+          </p>
+          } @else {
+          <ul class="game-chart-list__items">
+            @for (
+              serie of seriesMissingFromSeasonChart();
+              track serie.title + serie.director
+            ) {
+            <li>
+              {{ serie.title }}
+              <span class="game-chart-list__meta">— {{ serie.director }}</span>
+            </li>
+            }
+          </ul>
+          }
+        </div>
+
+        <div class="game-chart-list">
+          <h4>Saisons restantes à dater (séries déjà sur le graphique)</h4>
+          @if (seriesWithUndatedSeasonsOnChart().length === 0) {
+          <p class="game-chart-list__empty">
+            Aucune série du graphique n'a de saison vue sans dates.
+          </p>
+          } @else {
+          <ul class="game-chart-list__items">
+            @for (
+              serie of seriesWithUndatedSeasonsOnChart();
+              track serie.title + serie.director
+            ) {
+            <li>
+              {{ serie.title }}
+              <span class="game-chart-list__meta">— {{ serie.director }}</span>
+              <span class="game-chart-list__badge">
+                {{ serie.undatedSeasonsCount }}
+                saison{{ serie.undatedSeasonsCount > 1 ? 's' : '' }} à dater
+              </span>
+            </li>
+            }
+          </ul>
+          }
+        </div>
+      </div>
+    </div>
     } @if (effectiveEntity() === 'mangas') {
     <div class="charts-section charts-section--wide">
       <div class="charts-section-header">

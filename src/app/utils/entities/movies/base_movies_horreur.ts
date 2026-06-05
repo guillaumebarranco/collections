@@ -129,8 +129,7 @@ export const baseMoviesHorreur: BaseMovie[] = [
       { name: 'Betty Buckley' },
       { name: 'William Katt' },
     ],
-    coverUrl:
-      '/movies_pictures/71dad822da2e.jpg',
+    coverUrl: '/movies_pictures/71dad822da2e.jpg',
     releaseDate: '1976-11-03',
     length: 98,
     genre: ['Horreur'],
@@ -1914,7 +1913,11 @@ export const baseMoviesHorreur: BaseMovie[] = [
   {
     title: 'Creep',
     director: 'Patrick Brice',
-    actors: [{ name: 'Mark Duplass' }, { name: 'Patrick Brice' }, { name: 'Katie Aselton' }],
+    actors: [
+      { name: 'Mark Duplass' },
+      { name: 'Patrick Brice' },
+      { name: 'Katie Aselton' },
+    ],
     coverUrl: '/movies_pictures/2a399b569f61.jpg',
     releaseDate: '2014-01-01',
     length: 77,
@@ -2402,9 +2405,9 @@ export const baseMoviesHorreur: BaseMovie[] = [
       { name: 'Juliet Rylance' },
       { name: 'Fred Thompson' },
       { name: 'James Ransone' },
-      { name: 'Vincent D\'Onofrio' },
+      { name: "Vincent D'Onofrio" },
       { name: 'Clare Foley' },
-      { name: 'Michael Hall D\'Addario' },
+      { name: "Michael Hall D'Addario" },
     ],
     coverUrl: '/movies_pictures/sinister.jpg',
     releaseDate: '2012-11-07',
@@ -2627,5 +2630,36 @@ export const baseMoviesHorreur: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 30,
+  },
+  {
+    title: 'Obsession',
+    director: 'Curry Barker',
+    actors: [
+      {
+        name: 'Michael Johnston',
+      },
+      {
+        name: 'Inde Navarrette',
+      },
+      {
+        name: 'Cooper Tomlinson',
+      },
+      {
+        name: 'Megan Lawless',
+      },
+      {
+        name: 'Andy Richter',
+      },
+    ],
+    coverUrl:
+      'https://fr.web.img6.acsta.net/img/00/20/0020008382daf6b1305be800e8342a72.jpg',
+    releaseDate: '2026-05-15',
+    length: 109,
+    genre: ['Horreur'],
+    saga: '',
+    description: '',
+    fromEntity: null,
+    countryOrigin: ['États-Unis'],
+    selectDisplayOrder: 0,
   },
 ];
