@@ -44,6 +44,13 @@ type BaseGameFileUpdatePayload = Partial<BaseGame> & {
 type GameRemovePayload = Pick<MandatoryGameData, 'title' | 'editor'>;
 
 function getArrayBounds(content: string, exportIndex: number) {
+  const eqBracket = content.indexOf(' = [', exportIndex);
+  if (eqBracket >= 0) {
+    const arrayStart = eqBracket + ' = ['.length - 1;
+    const arrayEnd = content.indexOf('];', arrayStart);
+    if (arrayEnd === -1) return null;
+    return { arrayStart, arrayEnd };
+  }
   const assignIndex = content.indexOf('=', exportIndex);
   if (assignIndex === -1) return null;
   const arrayStart = content.indexOf('[', assignIndex);

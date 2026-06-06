@@ -6,11 +6,11 @@
     "strict": true,
     "esModuleInterop": true,
     "skipLibCheck": true,
-    "resolveJsonModule": true
+    "resolveJsonModule": true,
+    "types": ["node"]
   },
   "include": [
-    "scripts/check-badges.ts",
-    "scripts/check-user-movies-dupes.ts",
-    "scripts/list-base-movies-few-actors.ts"
+    "scripts/**/*.ts",
+    "src/app/models/**/*.ts"
   ]
 }

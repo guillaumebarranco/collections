@@ -175,17 +175,17 @@ function main(): void {
   const {
     getLocalBooksByUser,
     allBaseBooks,
-  } = require('../src/app/facades/books/local-books.facade');
+  } = require('./facades/local-books.facade');
   const {
     getLocalMoviesByUser,
     allBaseMovies,
-  } = require('../src/app/facades/movies/local-movies.facade');
-  const { getLocalGamesByUser } = require('../src/app/facades/games/local-games.facade');
-  const { getLocalMangasByUser } = require('../src/app/facades/mangas/local-mangas.facade');
-  const { getLocalManwhasByUser } = require('../src/app/facades/manwhas/local-manwhas.facade');
-  const { getLocalComicsByUser } = require('../src/app/facades/comics/local-comics.facade');
-  const { getLocalBdsByUser } = require('../src/app/facades/bds/local-bds.facade');
-  const { getLocalSeriesByUser } = require('../src/app/facades/series/local-series.facade');
+  } = require('./facades/local-movies.facade');
+  const { getLocalGamesByUser } = require('./facades/local-games.facade');
+  const { getLocalMangasByUser } = require('./facades/local-mangas.facade');
+  const { getLocalManwhasByUser } = require('./facades/local-manwhas.facade');
+  const { getLocalComicsByUser } = require('./facades/local-comics.facade');
+  const { getLocalBdsByUser } = require('./facades/local-bds.facade');
+  const { getLocalSeriesByUser } = require('./facades/local-series.facade');
 
   const userIds = (users as { username: string }[]).map((u) => u.username);
   const badgeIds = BADGE_DEFINITIONS.map((b) => b.id);

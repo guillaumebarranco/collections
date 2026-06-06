@@ -126,8 +126,8 @@ export class GamesComponent implements OnInit {
   );
 
   /**
-   * Jeux marqués « en cours » côté ludothèque **ou** côté liste à jouer
-   * (même session `currentlyPlaying` sur la dernière session).
+   * Jeux en cours : dernière session `currentlyPlaying` ou session ouverte
+   * (date de début sans date de fin), côté ludothèque et liste à jouer.
    */
   gamesInProgress = computed(() => {
     const fromPlayed = this.allGames().filter((g) => isGameCurrentlyPlaying(g));

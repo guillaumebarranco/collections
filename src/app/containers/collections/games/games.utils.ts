@@ -1,8 +1,10 @@
 import { Game } from '../../../models/game-model';
 import {
   getGameFirstPlayedTimestamp,
+  getGameLastPlayedSortTimestamp,
   getGameLastPlayedTimestamp,
   getGameTimePlayed,
+  isGameInProgress,
 } from '../../../utils/games.utils';
 
 export type GameView =
@@ -76,9 +78,18 @@ export const getDefaultGamesSortForView = (view: GameView): string => {
 
 function compareGameTimestampsDesc(
   games: Game[],
-  getTimestamp: (game: Game) => number
+  getTimestamp: (game: Game) => number,
+  prioritize?: (game: Game) => boolean
 ): Game[] {
   return games.sort((a, b) => {
+    if (prioritize) {
+      const aPriority = prioritize(a);
+      const bPriority = prioritize(b);
+      if (aPriority !== bPriority) {
+        return aPriority ? -1 : 1;
+      }
+    }
+
     const ta = getTimestamp(a);
     const tb = getTimestamp(b);
     if (!ta && !tb) {
@@ -151,7 +162,11 @@ export const getSortedGames = (games: Game[], selectedSort: string): Game[] => {
         return a.title.localeCompare(b.title);
       });
     case 'lastPlayedDate':
-      return compareGameTimestampsDesc(games, getGameLastPlayedTimestamp);
+      return compareGameTimestampsDesc(
+        games,
+        getGameLastPlayedSortTimestamp,
+        isGameInProgress
+      );
     case 'lastPlayedDate-asc':
       return compareGameTimestampsAsc(games, getGameLastPlayedTimestamp);
     case 'firstPlayedDate':

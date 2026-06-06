@@ -14,6 +14,11 @@
   margin-bottom: 6px;
 }
 
+.big-game-time {
+  font-weight: 700;
+  color: #007bff;
+}
+
 .game-editor {
   @include components.component-author-base;
   font-size: 0.85rem;
@@ -46,16 +51,35 @@
   margin-bottom: 4px;
 }
 
+.game-last-session {
+  @include components.component-date-base;
+  font-size: 0.8rem;
+  margin-bottom: 4px;
+}
+
 .game-time {
   @include components.component-secondary-info-base;
   font-size: 0.8rem;
   margin-bottom: 4px;
 }
 
-.game-finished {
+.game-finished,
+.game-last-session {
   @include components.component-times-base;
   font-size: 0.8rem;
   margin-bottom: 6px;
+}
+
+.game-first-session {
+  font-size: 0.8rem;
+  margin-bottom: 6px;
+  color: #007bff;
+}
+
+.game-in-progress {
+  font-size: 0.8rem;
+  margin-bottom: 6px;
+  color: green;
 }
 
 .rating-text {

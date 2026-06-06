@@ -20,7 +20,11 @@ import {
 } from '../../entity/entity-card-rating-and-buttons/entity-card-rating-and-buttons.component';
 import { CanEditDirective } from '../../../directives/can-edit.directive';
 import { AuthService } from '../../../core/auth.service';
-import { getGameTimePlayed } from '../../../utils/games.utils';
+import {
+  getGameLastSessionDisplay,
+  getGameTimePlayed,
+  type GameLastSessionDisplay,
+} from '../../../utils/games.utils';
 
 import { isBaseEntityView, getApiBaseUrl } from '../../../core/config';
 import { DEFAULT_USER_ID } from '../../../utils/constants';
@@ -177,6 +181,10 @@ export class GameComponent {
     });
 
     return data;
+  }
+
+  getLastSessionDisplay(): GameLastSessionDisplay | null {
+    return getGameLastSessionDisplay(this.game);
   }
 
   updateGamelistPriority(priority: number): void {

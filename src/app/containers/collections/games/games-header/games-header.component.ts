@@ -130,7 +130,7 @@ export class GamesHeaderComponent {
       case 'played':
         return "Vous n'avez renseigné aucun jeu dans votre ludothèque jouée";
       case 'inProgress':
-        return 'Aucun jeu marqué comme « en cours ». Cochez « En cours » sur la dernière session dans la fiche du jeu.';
+        return 'Aucun jeu en cours. Marquez une session comme « en cours » ou renseignez une date de début sans date de fin.';
       case 'gamelist':
         return 'Vous n\'avez marqué aucun jeu comme "à jouer". Vous pouvez le faire via le bouton au-dessus.';
       case 'platined':

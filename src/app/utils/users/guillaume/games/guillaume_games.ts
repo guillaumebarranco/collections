@@ -3953,6 +3953,28 @@ export const guillaumeGames: UserGames = [
     ],
   },
   {
+    title: 'Black Myth : Wukong',
+    editor: 'Game Science',
+    rating: 3.25,
+    owned: false,
+    gamelistPriority: 1,
+    wantToPlayAgain: false,
+    ratingComment: '',
+    borrowed: '',
+    loaned: '',
+    sessions: [
+      {
+        finishedGame: false,
+        finishedGameWithHundredPercent: false,
+        platinedGame: false,
+        additionnalEstimatedTime: 4,
+        sessionStartDate: '2026-04-18',
+        sessionEndDate: '2026-05-05',
+        currentlyPlaying: false,
+      },
+    ],
+  },
+  {
     title: 'Tarzan Freeride',
     editor: 'Ubisoft',
     rating: 3.5,

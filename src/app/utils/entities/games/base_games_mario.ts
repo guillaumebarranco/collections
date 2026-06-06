@@ -1,7 +1,7 @@
 import { BaseGame } from '../../../models/game-model';
 
 /** Catalogue saga Mario (jeux déplacés depuis base_games / base_games_api + ajouts). */
-export const baseGamesMario: BaseGame[] = ([] = [
+export const baseGamesMario: BaseGame[] = [
   {
     title: 'Super Mario 64',
     editor: 'Nintendo',
@@ -1473,4 +1473,4 @@ export const baseGamesMario: BaseGame[] = ([] = [
     description: '',
     fromEntity: null,
   },
-]);
+];

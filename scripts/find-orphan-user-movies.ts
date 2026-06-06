@@ -3,7 +3,7 @@
  * Usage : npx tsx scripts/find-orphan-user-movies.ts
  */
 import type { BaseMovie, UserMovie } from '../src/app/models/movie-model';
-import { allBaseMovies } from '../src/app/facades/movies/local-movies.facade';
+import { allBaseMovies } from './facades/local-movies.facade';
 
 import { amandineMovies1 } from '../src/app/utils/users/amandine/movies/amandine_movies';
 import { amandineMovies2 } from '../src/app/utils/users/amandine/movies/amandine_movies_2';

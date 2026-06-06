@@ -7,6 +7,7 @@ import {
   UserGame,
   UserGameSession,
 } from '../models/game-model';
+import { isGameInProgress } from '../utils/games.utils';
 import { BaseManga, Manga, UserManga } from '../models/manga-model';
 import { BaseManwha, UserManwha } from '../models/manwha-model';
 import { BaseMovie, Movie, UserMovie } from '../models/movie-model';
@@ -143,12 +144,9 @@ function getGameUserTotals(userGame: UserGame): {
   return getGameTotalsFromSessions(userGame.sessions ?? []);
 }
 
-/** True si la dernière session du jeu est marquée « en cours ». */
+/** True si la dernière session du jeu est en cours (flag ou session ouverte). */
 export function isGameCurrentlyPlaying(game: Pick<UserGame, 'sessions'>): boolean {
-  const sessions = game.sessions ?? [];
-  if (sessions.length === 0) return false;
-  const last = sessions[sessions.length - 1];
-  return Boolean(last?.currentlyPlaying);
+  return isGameInProgress(game);
 }
 
 /** Une seule session « en cours » : uniquement la dernière peut être à true. */

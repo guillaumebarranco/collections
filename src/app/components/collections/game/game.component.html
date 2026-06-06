@@ -49,6 +49,7 @@
     >
     }
   </ng-container>
+
   <img
     entity-cover
     [src]="game.coverUrl"
@@ -99,10 +100,33 @@
       @if (!isBaseEntityView) {
       <div entityCardRatingExtra>
         <p class="game-time">
-          Temps passé:
-          {{ getGameTimePlayed(game) }}h
+          <span>Temps passé: </span>
+          <span [class.big-game-time]="getGameTimePlayed(game) > 100"
+            >{{ getGameTimePlayed(game) }}h</span
+          >
         </p>
+        @if (game.timesFinished > 0) {
         <p class="game-finished">Terminé {{ game.timesFinished }} fois</p>
+        } @if (getLastSessionDisplay(); as sessionDisplay) {
+        <p class="game-finished">
+          @if (sessionDisplay.kind === 'inProgress') {
+          <span class="game-in-progress"
+            >En cours depuis le
+            {{ sessionDisplay.date | date : "dd/MM/yyyy" }}</span
+          >
+          } @else if (sessionDisplay.kind === 'firstSession') {
+          <span class="game-first-session"
+            >Première session de jeu le
+            {{ sessionDisplay.date | date : "dd/MM/yyyy" }}</span
+          >
+          } @else {
+          <span class="game-last-session"
+            >Dernière session de jeu le
+            {{ sessionDisplay.date | date : "dd/MM/yyyy" }}</span
+          >
+          }
+        </p>
+        }
       </div>
       }
     </app-entity-card-rating-and-buttons>

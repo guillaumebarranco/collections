@@ -2,28 +2,6 @@ import { UserGames } from '../../../../models/game-model';
 
 export const guillaumeGameListGames: UserGames = [
   {
-    title: 'Black Myth : Wukong',
-    editor: 'Game Science',
-    rating: 0,
-    owned: false,
-    gamelistPriority: 1,
-    wantToPlayAgain: false,
-    ratingComment: '',
-    borrowed: '',
-    loaned: '',
-    sessions: [
-      {
-        finishedGame: false,
-        finishedGameWithHundredPercent: false,
-        platinedGame: false,
-        additionnalEstimatedTime: 0,
-        sessionStartDate: '',
-        sessionEndDate: '',
-        currentlyPlaying: true,
-      },
-    ],
-  },
-  {
     title: 'Clair Obscur : Expedition 33',
     editor: 'Sandfall Interactive',
     rating: 0,
