@@ -118,5 +118,11 @@ export const users = [
     passwordHash: "d54699f8e1d8dccb7d94f0e4188f0033f2776c94ac6580ad7f2d089fc445c3ccdfdb7f569ad96eec6ab7337baea98b7752742d35d7de5f057d1cee918013ed65",
     passwordSalt: "b8c26753a10e1767785de9bf499b9825",
     admin: false,
+  },
+  {
+    username: "laural",
+    passwordHash: "299361c1a4ce201c5ebbf9ab684a5ed84af647c2cd997d4af7b6b68640bebf93c422f962e3bdaa959eb158985781d0238114bdae3f4e5099d4aea9132a1cf2c8",
+    passwordSalt: "ce2222863a716688857e662ad578afe3",
+    admin: false,
   }
 ];

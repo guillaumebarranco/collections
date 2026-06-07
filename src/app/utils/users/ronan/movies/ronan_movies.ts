@@ -20936,4 +20936,22 @@ export const ronanMovies: UserMovies = [
     borrowed: "",
     loaned: "",
   },
+
+  {
+    title: "Obsession",
+    director: "Curry Barker",
+    rating: 4,
+    timesWatched: 1,
+    firstViewedDate: "2026-06-03",
+    lastViewedDate: "2026-06-03",
+    otherSeenDates: [],
+    seenAtCinema: true,
+    owned: false,
+    wantToSeeAgain: false,
+    watchPriority: 1,
+    ratingComment: "",
+    inList: [],
+    borrowed: "",
+    loaned: "",
+  },
 ];
