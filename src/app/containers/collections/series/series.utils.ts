@@ -426,8 +426,8 @@ export const getSortedSeries = (
       );
     case 'watchPriority':
       return series.sort((a, b) => {
-        const priorityA = a.watchPriority ?? 0;
-        const priorityB = b.watchPriority ?? 0;
+        const priorityA = a.watchPriority ?? 1;
+        const priorityB = b.watchPriority ?? 1;
         if (priorityB !== priorityA) {
           return priorityB - priorityA;
         }

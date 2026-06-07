@@ -3,6 +3,7 @@ const path = require('path');
 const {
   escapeStringForTsDoubleQuote: escapeString,
 } = require('../escape-ts-string');
+const { normalizeWatchPriority } = require('../watch-priority-utils');
 
 import type {
   BaseMovie,
@@ -388,7 +389,10 @@ function parseMoviesFromFile(content: string): UserMovie[] {
             owned: parseBooleanField(objectText, 'owned') ?? false,
             wantToSeeAgain:
               parseBooleanField(objectText, 'wantToSeeAgain') ?? false,
-            watchPriority: parseNumberField(objectText, 'watchPriority') ?? 1,
+            watchPriority:
+              normalizeWatchPriority(
+                parseNumberField(objectText, 'watchPriority')
+              ) ?? 1,
             ratingComment: parseStringField(objectText, 'ratingComment') ?? '',
             inList: parseStringArrayField(objectText, 'inList') ?? [],
             borrowed:
@@ -869,7 +873,7 @@ function updateMovieInFile(content: string, payload: MovieUpdatePayload) {
           updated = replaceField(
             updated,
             'watchPriority',
-            payload.watchPriority
+            normalizeWatchPriority(payload.watchPriority) ?? payload.watchPriority
           );
           // Ne mettre à jour ces champs que si le payload les fournit (évite d’effacer
           // prêt/emprunt, commentaires et listes lors d’updates partiels, ex. POST /movies/batch-rating).
@@ -1121,7 +1125,7 @@ function removeMovieFromFile(content: string, payload: MovieRemovePayload) {
     seenAtCinema: ${movie.seenAtCinema ?? false},
     owned: ${movie.owned ?? false},
     wantToSeeAgain: ${movie.wantToSeeAgain ?? false},
-    watchPriority: ${movie.watchPriority ?? 1},
+    watchPriority: ${normalizeWatchPriority(movie.watchPriority) ?? 1},
     ratingComment: "${escapeString(movie.ratingComment || '')}",
     borrowed: "${escapeString(movie.borrowed || '')}",
     loaned: "${escapeString(movie.loaned || '')}",

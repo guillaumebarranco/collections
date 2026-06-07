@@ -348,7 +348,12 @@ export class EditMovieComponent {
       field === 'watchPriority'
     ) {
       const asNumber = Number(value);
-      nextValue = (Number.isNaN(asNumber) ? 0 : asNumber) as EditMovieForm[K];
+      const fallback = field === 'watchPriority' ? 1 : 0;
+      nextValue = (Number.isNaN(asNumber) ? fallback : asNumber) as EditMovieForm[K];
+      if (field === 'watchPriority') {
+        const priority = nextValue as number;
+        nextValue = (priority < 1 ? 1 : priority > 3 ? 3 : priority) as EditMovieForm[K];
+      }
     }
 
     this.movieForm.set({
@@ -664,7 +669,7 @@ export class EditMovieComponent {
       borrowed: movie.borrowed ?? '',
       loaned: movie.loaned ?? '',
       wantToSeeAgain: movie.wantToSeeAgain ?? false,
-      watchPriority: movie.watchPriority ?? 0,
+      watchPriority: movie.watchPriority ?? 1,
       ratingComment: movie.ratingComment ?? '',
       inList: movie.inList ?? [],
     };

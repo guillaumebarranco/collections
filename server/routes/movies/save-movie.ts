@@ -12,6 +12,7 @@ const {
   getUserMoviesFiles,
   getUserWatchlistMoviesFiles,
 } = require('../../utils/movies/movies-utils');
+const { normalizeWatchPriority } = require('../../utils/watch-priority-utils');
 const { isAdminUser, loadUsers } = require('../../utils/users/users-utils');
 
 /** Payload passé à updateMovieInFile (champs optionnels seulement si présents dans le body). */
@@ -65,7 +66,9 @@ router.post('/', (req: any, res: any) => {
       seenAtCinema: normalizeBoolean(input.seenAtCinema, 'seenAtCinema'),
       owned: normalizeBoolean(input.owned, 'owned'),
       wantToSeeAgain: normalizeBoolean(input.wantToSeeAgain, 'wantToSeeAgain'),
-      watchPriority: normalizeNumber(input.watchPriority, 'watchPriority'),
+      watchPriority: normalizeWatchPriority(
+        normalizeNumber(input.watchPriority, 'watchPriority')
+      ),
     };
     if (Object.prototype.hasOwnProperty.call(input, 'ratingComment')) {
       payload.ratingComment =

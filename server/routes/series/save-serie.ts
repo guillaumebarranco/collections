@@ -11,6 +11,7 @@ const {
   getUserSeriesFiles,
   getUserWatchlistSeriesFiles,
 } = require('../../utils/series/series-utils');
+const { normalizeWatchPriority } = require('../../utils/watch-priority-utils');
 const { isAdminUser, loadUsers } = require('../../utils/users/users-utils');
 
 const router = express.Router();
@@ -71,7 +72,9 @@ router.post('/', (req: any, res: any) => {
       director,
       seasons: Array.isArray(input.seasons) ? input.seasons : undefined,
       owned: normalizeBoolean(input.owned, 'owned'),
-      watchPriority: normalizeNumber(input.watchPriority, 'watchPriority'),
+      watchPriority: normalizeWatchPriority(
+        normalizeNumber(input.watchPriority, 'watchPriority')
+      ),
       wantToWatchAgain:
         normalizeBoolean(input.wantToWatchAgain, 'wantToWatchAgain') ?? false,
       rating: normalizeNumber(input.rating, 'rating'),

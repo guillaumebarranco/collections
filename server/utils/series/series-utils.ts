@@ -1,6 +1,7 @@
 const fs = require('fs');
 const path = require('path');
 const { escapeStringForTsDoubleQuote: escapeString } = require('../escape-ts-string');
+const { normalizeWatchPriority } = require('../watch-priority-utils');
 const {
   parseWatchingFromFile,
   formatWatchingTsLine,
@@ -514,8 +515,9 @@ function parseSeriesFromFile(content: string): UserSerieFileRow[] {
             director,
             seasons: parseSeasonsField(objectText) ?? [],
             owned: parseBooleanField(objectText, 'owned') ?? false,
-            watchPriority: (parseNumberField(objectText, 'watchPriority') ??
-              1) as UserSerie['watchPriority'],
+            watchPriority: (normalizeWatchPriority(
+              parseNumberField(objectText, 'watchPriority')
+            ) ?? 1) as UserSerie['watchPriority'],
             wantToWatchAgain:
               parseBooleanField(objectText, 'wantToWatchAgain') ?? false,
             rating: parseNumberField(objectText, 'rating') ?? 0,
@@ -909,7 +911,8 @@ function updateSerieInFile(content: string, payload: SerieUpdatePayload) {
           updated = replaceField(
             updated,
             'watchPriority',
-            payload.watchPriority
+            normalizeWatchPriority(payload.watchPriority) ??
+              payload.watchPriority
           );
           updated = replaceField(
             updated,
@@ -1131,7 +1134,7 @@ function removeSerieFromFile(content: string, payload: SerieRemovePayload) {
     director: "${escapeString(serie.director)}",
 ${seasonsText}
     owned: ${serie.owned ?? false},
-    watchPriority: ${serie.watchPriority ?? 1},
+    watchPriority: ${normalizeWatchPriority(serie.watchPriority) ?? 1},
     wantToWatchAgain: ${serie.wantToWatchAgain ?? false},
     ratingComment: "${escapeString(serie.ratingComment || '')}",
     borrowed: "${escapeString(serie.borrowed || '')}",

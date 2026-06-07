@@ -13,6 +13,7 @@ const {
   baseSerieExists,
   BASE_SERIES_API_FILE,
 } = require('../../utils/series/series-utils');
+const { normalizeWatchPriority } = require('../../utils/watch-priority-utils');
 
 const router = express.Router();
 
@@ -92,7 +93,7 @@ function formatUserSerie(user: any): string {
     director: "${escapeString(user.director)}",
 ${seasonsBlock}
     owned: ${user.owned ?? false},
-    watchPriority: ${user.watchPriority ?? 1},
+    watchPriority: ${normalizeWatchPriority(user.watchPriority) ?? 1},
     wantToWatchAgain: ${user.wantToWatchAgain ?? false},
     ratingComment: "${escapeString(user.ratingComment ?? '')}",
     borrowed: "${escapeString(user.borrowed ?? '')}",
@@ -219,7 +220,10 @@ router.post('/add', (req: any, res: any) => {
       seasonsCount,
       owned: normalizeBoolean(user.owned, 'owned') ?? false,
       seasons: normalizedUserSeasons,
-      watchPriority: normalizeNumber(user.watchPriority, 'watchPriority') ?? 1,
+      watchPriority:
+        normalizeWatchPriority(
+          normalizeNumber(user.watchPriority, 'watchPriority')
+        ) ?? 1,
       wantToWatchAgain:
         normalizeBoolean(user.wantToWatchAgain, 'wantToWatchAgain') ?? false,
       ratingComment:

@@ -599,7 +599,7 @@ export class EditSerieComponent {
       owned: serie.owned,
       borrowed: serie.borrowed ?? '',
       loaned: serie.loaned ?? '',
-      watchPriority: serie.watchPriority ?? 0,
+      watchPriority: serie.watchPriority ?? 1,
       wantToWatchAgain: serie.wantToWatchAgain ?? false,
       ratingComment: serie.ratingComment ?? '',
     };
@@ -654,7 +654,8 @@ export class EditSerieComponent {
     let nextValue: EditSerieForm[K] = value as EditSerieForm[K];
     if (field === 'watchPriority') {
       const asNumber = Number(value);
-      nextValue = (Number.isNaN(asNumber) ? 0 : asNumber) as EditSerieForm[K];
+      const priority = Number.isNaN(asNumber) ? 1 : asNumber;
+      nextValue = (priority < 1 ? 1 : priority > 3 ? 3 : priority) as EditSerieForm[K];
     }
     if (field === 'ratingComment') {
       nextValue = (typeof value === 'string' ? value : '') as EditSerieForm[K];

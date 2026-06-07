@@ -15,6 +15,7 @@ const {
   baseMovieExists,
   BASE_MOVIES_API_FILE,
 } = require('../../utils/movies/movies-utils');
+const { normalizeWatchPriority } = require('../../utils/watch-priority-utils');
 
 const router = express.Router();
 
@@ -66,7 +67,7 @@ function formatUserMovie(user: any): string {
   },\n    wantToSeeAgain: ${
     user.wantToSeeAgain ?? false
   },\n    watchPriority: ${
-    user.watchPriority ?? 1
+    normalizeWatchPriority(user.watchPriority) ?? 1
   },\n    ratingComment: "${escapeString(
     user.ratingComment ?? ''
   )}",\n    inList: ${
@@ -154,7 +155,10 @@ router.post('/add', (req: any, res: any) => {
       owned: normalizeBoolean(user.owned, 'owned') ?? false,
       wantToSeeAgain:
         normalizeBoolean(user.wantToSeeAgain, 'wantToSeeAgain') ?? false,
-      watchPriority: normalizeNumber(user.watchPriority, 'watchPriority') ?? 1,
+      watchPriority:
+        normalizeWatchPriority(
+          normalizeNumber(user.watchPriority, 'watchPriority')
+        ) ?? 1,
       ratingComment: normalizeString(user.ratingComment, 'ratingComment') ?? '',
       borrowed: normalizeString(user.borrowed, 'borrowed') ?? '',
       loaned: normalizeString(user.loaned, 'loaned') ?? '',
