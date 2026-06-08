@@ -1,3 +1,58 @@
 import { UserBd } from '../../../../models/bd-model';
 
-export const lauralBds: UserBd[] = [];
+export const lauralBds: UserBd[] = [
+  {
+    title: 'Deep Me',
+    writer: 'Marc-Antoine Mathieu',
+    readDate: '',
+    rating: 0,
+    readTimes: 1,
+    owned: false,
+    readPriority: 1,
+    wantToReadAgain: false,
+    ratingComment: '',
+    borrowed: '',
+    loaned: '',
+  },
+  {
+    title: 'Elles, tome 1 : La nouvelle',
+    writer: 'Kid Toussaint',
+    rating: 3,
+    readTimes: 1,
+    owned: false,
+    readPriority: 1,
+    wantToReadAgain: false,
+    ratingComment: '',
+    borrowed: '',
+    loaned: '',
+    readDate: '',
+  },
+
+  {
+    title: 'Elles, tome 2 : Universelle',
+    writer: 'Kid Toussaint',
+    rating: 2,
+    readTimes: 1,
+    owned: false,
+    readPriority: 1,
+    wantToReadAgain: false,
+    ratingComment: '',
+    borrowed: '',
+    loaned: '',
+    readDate: '',
+  },
+
+  {
+    title: 'Elles, tome 3 : Plurielle',
+    writer: 'Kid Toussaint',
+    rating: 2,
+    readTimes: 1,
+    owned: false,
+    readPriority: 1,
+    wantToReadAgain: false,
+    ratingComment: '',
+    borrowed: '',
+    loaned: '',
+    readDate: '',
+  },
+];

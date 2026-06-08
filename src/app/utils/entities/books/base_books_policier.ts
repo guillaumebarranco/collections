@@ -213,7 +213,7 @@ export const baseBooksPolicier: BaseBook[] = [
     selectDisplayOrder: 0,
   },
   {
-    title: 'Crime et chatiment',
+    title: 'Crime et châtiment',
     author: 'Fiodor Dostoïevski',
     coverUrl: '/books_pictures/8169SdaZRgL._SY522_.jpg',
     pages: 700,
@@ -804,8 +804,7 @@ export const baseBooksPolicier: BaseBook[] = [
   {
     title: 'Le Dahlia noir',
     author: 'James Ellroy',
-    coverUrl:
-      '/books_pictures/cbe8473478fd.jpg',
+    coverUrl: '/books_pictures/cbe8473478fd.jpg',
     pages: 352,
     genre: ['Policier'],
     saga: 'Quatuor de Los Angeles',

@@ -1446,7 +1446,7 @@ export const dantesBooks: UserBook[] = [
   },
 
   {
-    title: 'Crime et chatiment',
+    title: 'Crime et châtiment',
     author: 'Fiodor Dostoïevski',
     firstReadDate: '',
     lastReadDate: '',
@@ -6062,7 +6062,7 @@ export const dantesBooks: UserBook[] = [
 
   {
     title: "Ne tirez pas sur l'oiseau moqueur",
-    author: "Harper Lee",
+    author: 'Harper Lee',
     firstReadDate: '',
     lastReadDate: '',
     otherReadDates: [],
@@ -6078,8 +6078,8 @@ export const dantesBooks: UserBook[] = [
   },
 
   {
-    title: "Cent ans de solitude",
-    author: "Gabriel García Márquez",
+    title: 'Cent ans de solitude',
+    author: 'Gabriel García Márquez',
     firstReadDate: '',
     lastReadDate: '',
     otherReadDates: [],
@@ -6095,8 +6095,8 @@ export const dantesBooks: UserBook[] = [
   },
 
   {
-    title: "813",
-    author: "Maurice Leblanc",
+    title: '813',
+    author: 'Maurice Leblanc',
     firstReadDate: '',
     lastReadDate: '',
     otherReadDates: [],
@@ -6113,7 +6113,7 @@ export const dantesBooks: UserBook[] = [
 
   {
     title: "Le petit nicolas - L'intégral",
-    author: "René Goscinny",
+    author: 'René Goscinny',
     firstReadDate: '',
     lastReadDate: '',
     otherReadDates: [],
@@ -6129,8 +6129,8 @@ export const dantesBooks: UserBook[] = [
   },
 
   {
-    title: "Paradis Perdus",
-    author: "Eric Emmanuel Schmitt",
+    title: 'Paradis Perdus',
+    author: 'Eric Emmanuel Schmitt',
     firstReadDate: '',
     lastReadDate: '',
     otherReadDates: [],
@@ -6146,8 +6146,8 @@ export const dantesBooks: UserBook[] = [
   },
 
   {
-    title: "Vivre et laisser mourir",
-    author: "Ian Fleming",
+    title: 'Vivre et laisser mourir',
+    author: 'Ian Fleming',
     firstReadDate: '',
     lastReadDate: '',
     otherReadDates: [],
@@ -6163,8 +6163,8 @@ export const dantesBooks: UserBook[] = [
   },
 
   {
-    title: "Moonraker",
-    author: "Ian Fleming",
+    title: 'Moonraker',
+    author: 'Ian Fleming',
     firstReadDate: '',
     lastReadDate: '',
     otherReadDates: [],
@@ -6180,8 +6180,8 @@ export const dantesBooks: UserBook[] = [
   },
 
   {
-    title: "Bons baisers de Russie",
-    author: "Ian Fleming",
+    title: 'Bons baisers de Russie',
+    author: 'Ian Fleming',
     firstReadDate: '',
     lastReadDate: '',
     otherReadDates: [],
@@ -6197,8 +6197,8 @@ export const dantesBooks: UserBook[] = [
   },
 
   {
-    title: "James Bond 007 contre Dr. No",
-    author: "Ian Fleming",
+    title: 'James Bond 007 contre Dr. No',
+    author: 'Ian Fleming',
     firstReadDate: '',
     lastReadDate: '',
     otherReadDates: [],
@@ -6214,8 +6214,8 @@ export const dantesBooks: UserBook[] = [
   },
 
   {
-    title: "Goldfinger",
-    author: "Ian Fleming",
+    title: 'Goldfinger',
+    author: 'Ian Fleming',
     firstReadDate: '',
     lastReadDate: '',
     otherReadDates: [],
@@ -6231,8 +6231,8 @@ export const dantesBooks: UserBook[] = [
   },
 
   {
-    title: "Bons baisers de Paris",
-    author: "Ian Fleming",
+    title: 'Bons baisers de Paris',
+    author: 'Ian Fleming',
     firstReadDate: '',
     lastReadDate: '',
     otherReadDates: [],
@@ -6248,8 +6248,8 @@ export const dantesBooks: UserBook[] = [
   },
 
   {
-    title: "Opération tonnerre",
-    author: "Ian Fleming",
+    title: 'Opération tonnerre',
+    author: 'Ian Fleming',
     firstReadDate: '',
     lastReadDate: '',
     otherReadDates: [],
@@ -6266,7 +6266,7 @@ export const dantesBooks: UserBook[] = [
 
   {
     title: "L'espion qui m'aimait",
-    author: "Ian Fleming",
+    author: 'Ian Fleming',
     firstReadDate: '',
     lastReadDate: '',
     otherReadDates: [],
@@ -6282,8 +6282,8 @@ export const dantesBooks: UserBook[] = [
   },
 
   {
-    title: "Au service secret de Sa Majesté",
-    author: "Ian Fleming",
+    title: 'Au service secret de Sa Majesté',
+    author: 'Ian Fleming',
     firstReadDate: '',
     lastReadDate: '',
     otherReadDates: [],
@@ -6299,8 +6299,8 @@ export const dantesBooks: UserBook[] = [
   },
 
   {
-    title: "On ne vit que deux fois",
-    author: "Ian Fleming",
+    title: 'On ne vit que deux fois',
+    author: 'Ian Fleming',
     firstReadDate: '',
     lastReadDate: '',
     otherReadDates: [],
@@ -6317,7 +6317,7 @@ export const dantesBooks: UserBook[] = [
 
   {
     title: "L'homme au pistolet d'or",
-    author: "Ian Fleming",
+    author: 'Ian Fleming',
     firstReadDate: '',
     lastReadDate: '',
     otherReadDates: [],
@@ -6333,8 +6333,8 @@ export const dantesBooks: UserBook[] = [
   },
 
   {
-    title: "Octopussy et autres histoires",
-    author: "Ian Fleming",
+    title: 'Octopussy et autres histoires',
+    author: 'Ian Fleming',
     firstReadDate: '',
     lastReadDate: '',
     otherReadDates: [],
@@ -6350,8 +6350,8 @@ export const dantesBooks: UserBook[] = [
   },
 
   {
-    title: "Le Ventre de Paris",
-    author: "Émile Zola",
+    title: 'Le Ventre de Paris',
+    author: 'Émile Zola',
     firstReadDate: '',
     lastReadDate: '',
     otherReadDates: [],
@@ -6367,8 +6367,8 @@ export const dantesBooks: UserBook[] = [
   },
 
   {
-    title: "Le Drageoir aux épices",
-    author: "Joris-Karl Huysmans",
+    title: 'Le Drageoir aux épices',
+    author: 'Joris-Karl Huysmans',
     firstReadDate: '',
     lastReadDate: '',
     otherReadDates: [],
@@ -6384,8 +6384,8 @@ export const dantesBooks: UserBook[] = [
   },
 
   {
-    title: "Les Soirées de Médan",
-    author: "Émile Zola",
+    title: 'Les Soirées de Médan',
+    author: 'Émile Zola',
     firstReadDate: '',
     lastReadDate: '',
     otherReadDates: [],
@@ -6401,8 +6401,8 @@ export const dantesBooks: UserBook[] = [
   },
 
   {
-    title: "Les Amours jaunes",
-    author: "Tristan Corbière",
+    title: 'Les Amours jaunes',
+    author: 'Tristan Corbière',
     firstReadDate: '',
     lastReadDate: '',
     otherReadDates: [],
@@ -6419,7 +6419,7 @@ export const dantesBooks: UserBook[] = [
 
   {
     title: "Les Egarements du cœur et de l'esprit",
-    author: "Crébillon fils",
+    author: 'Crébillon fils',
     firstReadDate: '',
     lastReadDate: '',
     otherReadDates: [],
@@ -6435,8 +6435,8 @@ export const dantesBooks: UserBook[] = [
   },
 
   {
-    title: "Le Médecin volant",
-    author: "Molière",
+    title: 'Le Médecin volant',
+    author: 'Molière',
     firstReadDate: '',
     lastReadDate: '',
     otherReadDates: [],
@@ -6452,8 +6452,8 @@ export const dantesBooks: UserBook[] = [
   },
 
   {
-    title: "Pour un nouveau roman",
-    author: "Alain Robbe-Grillet",
+    title: 'Pour un nouveau roman',
+    author: 'Alain Robbe-Grillet',
     firstReadDate: '',
     lastReadDate: '',
     otherReadDates: [],
@@ -6469,8 +6469,8 @@ export const dantesBooks: UserBook[] = [
   },
 
   {
-    title: "Les Gommes",
-    author: "Alain Robbe-Grillet",
+    title: 'Les Gommes',
+    author: 'Alain Robbe-Grillet',
     firstReadDate: '',
     lastReadDate: '',
     otherReadDates: [],
@@ -6486,8 +6486,8 @@ export const dantesBooks: UserBook[] = [
   },
 
   {
-    title: "La Modification",
-    author: "Michel Butor",
+    title: 'La Modification',
+    author: 'Michel Butor',
     firstReadDate: '',
     lastReadDate: '',
     otherReadDates: [],
@@ -6503,8 +6503,8 @@ export const dantesBooks: UserBook[] = [
   },
 
   {
-    title: "Les Choses",
-    author: "Georges Perec",
+    title: 'Les Choses',
+    author: 'Georges Perec',
     firstReadDate: '',
     lastReadDate: '',
     otherReadDates: [],
@@ -6520,8 +6520,8 @@ export const dantesBooks: UserBook[] = [
   },
 
   {
-    title: "Passacaille",
-    author: "Robert Pinget",
+    title: 'Passacaille',
+    author: 'Robert Pinget',
     firstReadDate: '',
     lastReadDate: '',
     otherReadDates: [],
@@ -6537,8 +6537,8 @@ export const dantesBooks: UserBook[] = [
   },
 
   {
-    title: "Tous les matins du monde",
-    author: "Pascal Quignard",
+    title: 'Tous les matins du monde',
+    author: 'Pascal Quignard',
     firstReadDate: '',
     lastReadDate: '',
     otherReadDates: [],
@@ -6554,8 +6554,8 @@ export const dantesBooks: UserBook[] = [
   },
 
   {
-    title: "Pays rêvé, Pays réel",
-    author: "Édouard Glissant",
+    title: 'Pays rêvé, Pays réel',
+    author: 'Édouard Glissant',
     firstReadDate: '',
     lastReadDate: '',
     otherReadDates: [],
@@ -6571,8 +6571,8 @@ export const dantesBooks: UserBook[] = [
   },
 
   {
-    title: "Aurais-je été résistant ou bourreau ?",
-    author: "Pierre Bayard",
+    title: 'Aurais-je été résistant ou bourreau ?',
+    author: 'Pierre Bayard',
     firstReadDate: '',
     lastReadDate: '',
     otherReadDates: [],
@@ -6588,8 +6588,8 @@ export const dantesBooks: UserBook[] = [
   },
 
   {
-    title: "Les Chevaliers du subjonctif",
-    author: "Erik Orsenna",
+    title: 'Les Chevaliers du subjonctif',
+    author: 'Erik Orsenna',
     firstReadDate: '',
     lastReadDate: '',
     otherReadDates: [],
@@ -6606,7 +6606,7 @@ export const dantesBooks: UserBook[] = [
 
   {
     title: "Histoire d'un voyage fait en la terre du Brésil",
-    author: "Jean de Léry",
+    author: 'Jean de Léry',
     firstReadDate: '',
     lastReadDate: '',
     otherReadDates: [],
@@ -6622,8 +6622,8 @@ export const dantesBooks: UserBook[] = [
   },
 
   {
-    title: "Les Regrets",
-    author: "Joachim du Bellay",
+    title: 'Les Regrets',
+    author: 'Joachim du Bellay',
     firstReadDate: '',
     lastReadDate: '',
     otherReadDates: [],
@@ -6639,8 +6639,8 @@ export const dantesBooks: UserBook[] = [
   },
 
   {
-    title: "Becoming",
-    author: "Michelle Obama",
+    title: 'Becoming',
+    author: 'Michelle Obama',
     firstReadDate: '',
     lastReadDate: '',
     otherReadDates: [],
@@ -6656,8 +6656,8 @@ export const dantesBooks: UserBook[] = [
   },
 
   {
-    title: "Une terre promise",
-    author: "Barack Obama",
+    title: 'Une terre promise',
+    author: 'Barack Obama',
     firstReadDate: '',
     lastReadDate: '',
     otherReadDates: [],
@@ -6673,8 +6673,8 @@ export const dantesBooks: UserBook[] = [
   },
 
   {
-    title: "Le temps des chimères",
-    author: "Bernard Werber",
+    title: 'Le temps des chimères',
+    author: 'Bernard Werber',
     firstReadDate: '',
     lastReadDate: '',
     otherReadDates: [],
@@ -6690,8 +6690,8 @@ export const dantesBooks: UserBook[] = [
   },
 
   {
-    title: "Identités croisées",
-    author: "Harlan Coben",
+    title: 'Identités croisées',
+    author: 'Harlan Coben',
     firstReadDate: '',
     lastReadDate: '',
     otherReadDates: [],
@@ -6707,8 +6707,8 @@ export const dantesBooks: UserBook[] = [
   },
 
   {
-    title: "Le livre du voyage",
-    author: "Bernard Werber",
+    title: 'Le livre du voyage',
+    author: 'Bernard Werber',
     firstReadDate: '',
     lastReadDate: '',
     otherReadDates: [],
@@ -6724,8 +6724,8 @@ export const dantesBooks: UserBook[] = [
   },
 
   {
-    title: "Le Château des Papes : Les Intriguants",
-    author: "Jean-Michel Thibaux",
+    title: 'Le Château des Papes : Les Intriguants',
+    author: 'Jean-Michel Thibaux',
     firstReadDate: '',
     lastReadDate: '',
     otherReadDates: [],
@@ -6741,8 +6741,8 @@ export const dantesBooks: UserBook[] = [
   },
 
   {
-    title: "Le Château des Papes II : Les bâtisseurs",
-    author: "Jean-Michel Thibaux",
+    title: 'Le Château des Papes II : Les bâtisseurs',
+    author: 'Jean-Michel Thibaux',
     firstReadDate: '',
     lastReadDate: '',
     otherReadDates: [],
@@ -6758,8 +6758,8 @@ export const dantesBooks: UserBook[] = [
   },
 
   {
-    title: "Le Château des Papes III : Les Impétueux",
-    author: "Jean-Michel Thibaux",
+    title: 'Le Château des Papes III : Les Impétueux',
+    author: 'Jean-Michel Thibaux',
     firstReadDate: '',
     lastReadDate: '',
     otherReadDates: [],

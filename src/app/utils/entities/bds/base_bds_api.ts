@@ -1,3 +1,54 @@
 import { BaseBd } from '../../../models/bd-model';
 
-export const baseBdsApi: BaseBd[] = [];
+export const baseBdsApi: BaseBd[] = [
+  {
+    title: 'Deep Me',
+    designer: 'Marc-Antoine Mathieu',
+    writer: 'Marc-Antoine Mathieu',
+    coverUrl:
+      '/bds_pictures/63f889f8ec04.jpg',
+    pages: 0,
+    genre: 'Fiction',
+    saga: '',
+    sagaOrder: 0,
+    releaseDate: '',
+    description: '',
+  },
+  {
+    title: 'Elles, tome 1 : La nouvelle',
+    designer: 'Kid Toussaint',
+    writer: 'Kid Toussaint',
+    coverUrl: '/bds_pictures/676e2929fe76.jpg',
+    pages: 0,
+    genre: 'Fiction',
+    saga: '',
+    sagaOrder: 0,
+    releaseDate: '',
+    description: '',
+  },
+  {
+    title: 'Elles, tome 2 : Universelle',
+    designer: 'Kid Toussaint',
+    writer: 'Kid Toussaint',
+    coverUrl:
+      '/bds_pictures/7b3b6bb4bea0.jpg',
+    pages: 0,
+    genre: 'Fiction',
+    saga: '',
+    sagaOrder: 0,
+    releaseDate: '',
+    description: '',
+  },
+  {
+    title: 'Elles, tome 3 : Plurielle',
+    designer: 'Kid Toussaint',
+    writer: 'Kid Toussaint',
+    coverUrl: '/bds_pictures/5d82f497ca86.jpg',
+    pages: 0,
+    genre: 'Fiction',
+    saga: '',
+    sagaOrder: 0,
+    releaseDate: '',
+    description: '',
+  },
+];
