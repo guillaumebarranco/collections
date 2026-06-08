@@ -595,8 +595,7 @@ export const baseMoviesApi: BaseMovie[] = [
         name: 'Regina Hall',
       },
     ],
-    coverUrl:
-      '/movies_pictures/f71af794912a.jpg',
+    coverUrl: '/movies_pictures/f71af794912a.jpg',
     releaseDate: '2026-06-03',
     length: 96,
     genre: ['Comédie'],
@@ -615,8 +614,7 @@ export const baseMoviesApi: BaseMovie[] = [
         name: 'Wil Aime',
       },
     ],
-    coverUrl:
-      '/movies_pictures/ed73601b85b9.jpg',
+    coverUrl: '/movies_pictures/ed73601b85b9.jpg',
     releaseDate: '2026-05-28',
     length: 130,
     genre: ['Thriller'],
@@ -638,8 +636,7 @@ export const baseMoviesApi: BaseMovie[] = [
         name: 'Emmanuelle Bercot',
       },
     ],
-    coverUrl:
-      '/movies_pictures/1b1ec9782ecd.jpg',
+    coverUrl: '/movies_pictures/1b1ec9782ecd.jpg',
     releaseDate: '2026-05-13',
     length: 100,
     genre: ['Drame'],
@@ -661,8 +658,7 @@ export const baseMoviesApi: BaseMovie[] = [
         name: 'Pierre Lottin',
       },
     ],
-    coverUrl:
-      '/movies_pictures/b973d5ee21da.jpg',
+    coverUrl: '/movies_pictures/b973d5ee21da.jpg',
     releaseDate: '2026-03-25',
     length: 98,
     genre: ['Comédie', 'Drame'],
@@ -684,8 +680,7 @@ export const baseMoviesApi: BaseMovie[] = [
         name: 'Christian Bale',
       },
     ],
-    coverUrl:
-      '/movies_pictures/c59cf1742a94.jpg',
+    coverUrl: '/movies_pictures/c59cf1742a94.jpg',
     releaseDate: '2026-03-06',
     length: 126,
     genre: ['Horreur', 'Drame'],
@@ -707,8 +702,7 @@ export const baseMoviesApi: BaseMovie[] = [
         name: 'Jang Hye-jin',
       },
     ],
-    coverUrl:
-      '/movies_pictures/4b800d685331.jpg',
+    coverUrl: '/movies_pictures/4b800d685331.jpg',
     releaseDate: '2025-10-22',
     length: 119,
     genre: ['Drame'],
@@ -730,8 +724,7 @@ export const baseMoviesApi: BaseMovie[] = [
         name: 'Shirley Henderson',
       },
     ],
-    coverUrl:
-      '/movies_pictures/90d2c928bfb0.jpg',
+    coverUrl: '/movies_pictures/90d2c928bfb0.jpg',
     releaseDate: '2026-04-01',
     length: 121,
     genre: ['Biographie', 'Drame'],
@@ -753,8 +746,7 @@ export const baseMoviesApi: BaseMovie[] = [
         name: 'Marta Etura',
       },
     ],
-    coverUrl:
-      '/movies_pictures/012aa766ab5a.jpg',
+    coverUrl: '/movies_pictures/012aa766ab5a.jpg',
     releaseDate: '2025-01-01',
     length: 110,
     genre: ['Drame'],
@@ -776,8 +768,7 @@ export const baseMoviesApi: BaseMovie[] = [
         name: 'Rebecca Ferguson',
       },
     ],
-    coverUrl:
-      '/movies_pictures/6ceb7ad2fcdf.jpg',
+    coverUrl: '/movies_pictures/6ceb7ad2fcdf.jpg',
     releaseDate: '2016-10-26',
     length: 112,
     genre: ['Thriller'],
@@ -799,8 +790,7 @@ export const baseMoviesApi: BaseMovie[] = [
         name: 'Simone Baldasseroni',
       },
     ],
-    coverUrl:
-      '/movies_pictures/e8e216b1735e.jpeg',
+    coverUrl: '/movies_pictures/e8e216b1735e.jpeg',
     releaseDate: '2024-04-04',
     length: 103,
     genre: ['Romance', 'Drame'],
@@ -822,8 +812,7 @@ export const baseMoviesApi: BaseMovie[] = [
         name: 'Son Ye-jin',
       },
     ],
-    coverUrl:
-      '/movies_pictures/d63213f345d6.jpg',
+    coverUrl: '/movies_pictures/d63213f345d6.jpg',
     releaseDate: '2026-02-11',
     length: 139,
     genre: ['Thriller', 'Comédie'],
@@ -845,8 +834,7 @@ export const baseMoviesApi: BaseMovie[] = [
         name: 'Godwin Chiemerie Egbo',
       },
     ],
-    coverUrl:
-      '/movies_pictures/71e7926a151d.jpg',
+    coverUrl: '/movies_pictures/71e7926a151d.jpg',
     releaseDate: '2026-03-26',
     length: 94,
     genre: ['Drame'],
@@ -868,8 +856,7 @@ export const baseMoviesApi: BaseMovie[] = [
         name: 'Robert Pattinson',
       },
     ],
-    coverUrl:
-      '/movies_pictures/373f654a29dd.jpg',
+    coverUrl: '/movies_pictures/373f654a29dd.jpg',
     releaseDate: '2026-04-29',
     length: 119,
     genre: ['Drame'],
@@ -913,8 +900,7 @@ export const baseMoviesApi: BaseMovie[] = [
         name: 'Gabriel Guevara',
       },
     ],
-    coverUrl:
-      '/movies_pictures/310306cec8f6.jpg',
+    coverUrl: '/movies_pictures/310306cec8f6.jpg',
     releaseDate: '2023-06-08',
     length: 118,
     genre: ['Drame', 'Romance'],
@@ -936,8 +922,7 @@ export const baseMoviesApi: BaseMovie[] = [
         name: 'Matthew Broome',
       },
     ],
-    coverUrl:
-      '/movies_pictures/e5bf731054f2.jpg',
+    coverUrl: '/movies_pictures/e5bf731054f2.jpg',
     releaseDate: '2025-02-13',
     length: 119,
     genre: ['Drame', 'Romance'],
@@ -959,8 +944,7 @@ export const baseMoviesApi: BaseMovie[] = [
         name: 'Jacob Elordi',
       },
     ],
-    coverUrl:
-      '/movies_pictures/51abd0166810.jpg',
+    coverUrl: '/movies_pictures/51abd0166810.jpg',
     releaseDate: '2023-11-17',
     length: 131,
     genre: ['Thriller', 'Drame'],
@@ -982,8 +966,7 @@ export const baseMoviesApi: BaseMovie[] = [
         name: 'Jean-Baptiste Durand',
       },
     ],
-    coverUrl:
-      '/movies_pictures/0a3168c616a1.jpg',
+    coverUrl: '/movies_pictures/0a3168c616a1.jpg',
     releaseDate: '2023-04-19',
     length: 93,
     genre: ['Comédie', 'Drame'],
@@ -1005,8 +988,7 @@ export const baseMoviesApi: BaseMovie[] = [
         name: 'Diana Silvers',
       },
     ],
-    coverUrl:
-      '/movies_pictures/9791a5b241cc.jpg',
+    coverUrl: '/movies_pictures/9791a5b241cc.jpg',
     releaseDate: '2021-09-24',
     length: 113,
     genre: ['Drame'],
@@ -1028,8 +1010,7 @@ export const baseMoviesApi: BaseMovie[] = [
         name: 'Thomas Gullestad',
       },
     ],
-    coverUrl:
-      '/movies_pictures/a83793b129c5.jpg',
+    coverUrl: '/movies_pictures/a83793b129c5.jpg',
     releaseDate: '2020-10-22',
     length: 86,
     genre: ['Horreur'],
@@ -1051,8 +1032,7 @@ export const baseMoviesApi: BaseMovie[] = [
         name: 'Jesse Plemons',
       },
     ],
-    coverUrl:
-      '/movies_pictures/71f2a44e32c1.jpg',
+    coverUrl: '/movies_pictures/71f2a44e32c1.jpg',
     releaseDate: '2020-09-04',
     length: 134,
     genre: ['Drame', 'Thriller'],
@@ -1074,8 +1054,7 @@ export const baseMoviesApi: BaseMovie[] = [
         name: 'Rebecca Ferguson',
       },
     ],
-    coverUrl:
-      '/movies_pictures/ae5e879f088f.jpg',
+    coverUrl: '/movies_pictures/ae5e879f088f.jpg',
     releaseDate: '2019-11-08',
     length: 152,
     genre: ['Horreur'],
@@ -1101,8 +1080,7 @@ export const baseMoviesApi: BaseMovie[] = [
         name: 'Danielle Macdonald',
       },
     ],
-    coverUrl:
-      '/movies_pictures/e3ac1c612d61.jpg',
+    coverUrl: '/movies_pictures/e3ac1c612d61.jpg',
     releaseDate: '2019-08-30',
     length: 95,
     genre: ['Science Fiction'],
@@ -1124,8 +1102,7 @@ export const baseMoviesApi: BaseMovie[] = [
         name: 'Antoine Reinartz',
       },
     ],
-    coverUrl:
-      '/movies_pictures/a1938a458a49.jpg',
+    coverUrl: '/movies_pictures/a1938a458a49.jpg',
     releaseDate: '2018-09-12',
     length: 105,
     genre: ['Comédie', 'Drame'],
@@ -1147,8 +1124,7 @@ export const baseMoviesApi: BaseMovie[] = [
         name: 'Michelle Williams',
       },
     ],
-    coverUrl:
-      '/movies_pictures/d6e244b6deaf.jpg',
+    coverUrl: '/movies_pictures/d6e244b6deaf.jpg',
     releaseDate: '2016-11-18',
     length: 137,
     genre: ['Drame'],
@@ -1192,8 +1168,7 @@ export const baseMoviesApi: BaseMovie[] = [
         name: 'Angelina Jolie',
       },
     ],
-    coverUrl:
-      '/movies_pictures/acd67cb359c8.jpg',
+    coverUrl: '/movies_pictures/acd67cb359c8.jpg',
     releaseDate: '1999-12-21',
     length: 127,
     genre: ['Drame'],
@@ -1215,8 +1190,7 @@ export const baseMoviesApi: BaseMovie[] = [
         name: 'Meg Ryan',
       },
     ],
-    coverUrl:
-      '/movies_pictures/43e292fa7628.jpg',
+    coverUrl: '/movies_pictures/43e292fa7628.jpg',
     releaseDate: '1989-07-21',
     length: 96,
     genre: ['Comédie', 'Romance'],
@@ -1224,6 +1198,162 @@ export const baseMoviesApi: BaseMovie[] = [
     description: '',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
+    selectDisplayOrder: 0,
+  },
+
+  {
+    title: 'Marcel le coquillage (avec ses chaussures)',
+    director: 'Dean Fleischer Camp',
+    actors: [
+      {
+        name: 'Jenny Slate',
+      },
+      {
+        name: 'Rosa Salazar',
+      },
+      {
+        name: 'Isabella Rossellini',
+      },
+    ],
+    coverUrl:
+      '/movies_pictures/b7a752f38069.jpg',
+    releaseDate: '2021-09-03',
+    length: 90,
+    genre: ['Comédie', 'Animation'],
+    saga: '',
+    description: '',
+    fromEntity: null,
+    countryOrigin: ['États-Unis'],
+    selectDisplayOrder: 0,
+  },
+
+  {
+    title: 'Mommy',
+    director: 'Xavier Dolan',
+    actors: [
+      {
+        name: 'Anne Dorval',
+      },
+      {
+        name: 'Antoine Olivier Pilon',
+      },
+      {
+        name: 'Suzanne Clément',
+      },
+    ],
+    coverUrl:
+      '/movies_pictures/594426aed075.jpg',
+    releaseDate: '2014-09-19',
+    length: 138,
+    genre: ['Drame'],
+    saga: '',
+    description: '',
+    fromEntity: null,
+    countryOrigin: ['Canada'],
+    selectDisplayOrder: 0,
+  },
+
+  {
+    title: 'La Faille',
+    director: 'Gregory Hoblit',
+    actors: [
+      {
+        name: 'Anthony Hopkins',
+      },
+      {
+        name: 'Ryan Gosling',
+      },
+      {
+        name: 'Rosamund Pike',
+      },
+    ],
+    coverUrl:
+      '/movies_pictures/d89cd27049db.jpg',
+    releaseDate: '2007-05-09',
+    length: 112,
+    genre: ['Thriller'],
+    saga: '',
+    description: '',
+    fromEntity: null,
+    countryOrigin: ['États-Unis'],
+    selectDisplayOrder: 0,
+  },
+
+  {
+    title: 'Crocodile Dundee',
+    director: 'Peter Faiman',
+    actors: [
+      {
+        name: 'Paul Hogan',
+      },
+      {
+        name: 'Linda Kozlowski',
+      },
+      {
+        name: 'John Meillon',
+      },
+    ],
+    coverUrl:
+      '/movies_pictures/d33311228929.jpg',
+    releaseDate: '1986-04-30',
+    length: 97,
+    genre: ['Comédie', 'Aventure'],
+    saga: 'Crocodile Dundee',
+    description: '',
+    fromEntity: null,
+    countryOrigin: ['Australie', 'États-Unis'],
+    selectDisplayOrder: 0,
+  },
+
+  {
+    title: 'Crocodile Dundee 2',
+    director: 'John Cornell',
+    actors: [
+      {
+        name: 'Paul Hogan',
+      },
+      {
+        name: 'Linda Kozlowski',
+      },
+      {
+        name: 'Ernie Dingo',
+      },
+    ],
+    coverUrl:
+      '/movies_pictures/c79ed332dda4.jpg',
+    releaseDate: '1988-05-25',
+    length: 111,
+    genre: ['Comédie', 'Aventure'],
+    saga: 'Crocodile Dundee',
+    description: '',
+    fromEntity: null,
+    countryOrigin: ['Australie', 'États-Unis'],
+    selectDisplayOrder: 0,
+  },
+
+  {
+    title: 'Crocodile Dundee 3',
+    director: 'Simon Wincer',
+    actors: [
+      {
+        name: 'Paul Hogan',
+      },
+      {
+        name: 'Linda Kozlowski',
+      },
+      {
+        name: 'Serge Cockburn',
+      },
+    ],
+    coverUrl:
+      '/movies_pictures/fe990d84d0a3.webp',
+    releaseDate: '2001-04-20',
+    length: 95,
+    genre: ['Comédie', 'Aventure'],
+    saga: 'Crocodile Dundee',
+    description: '',
+    fromEntity: null,
+    countryOrigin: ['Australie', 'États-Unis'],
     selectDisplayOrder: 0,
   },
 ];
