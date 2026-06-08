@@ -55,4 +55,17 @@ export const lauralBds: UserBd[] = [
     loaned: '',
     readDate: '',
   },
+  {
+    title: 'La Nuit retrouvée',
+    writer: 'Lola Lafon',
+    rating: 4.5,
+    readTimes: 1,
+    owned: false,
+    readPriority: 1,
+    wantToReadAgain: false,
+    ratingComment: '',
+    borrowed: '',
+    loaned: '',
+    readDate: '',
+  },
 ];
