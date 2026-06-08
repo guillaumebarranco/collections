@@ -624,4 +624,576 @@ export const baseMoviesApi: BaseMovie[] = [
     countryOrigin: ['France'],
     selectDisplayOrder: 0,
   },
+
+  {
+    title: "L'Abandon",
+    director: "Vincent Garenq",
+    actors: [
+      {
+        name: "Antoine Reinartz",
+      },
+      {
+        name: "Emmanuelle Bercot",
+      },
+    ],
+    coverUrl: "",
+    releaseDate: "2026-05-13",
+    length: 100,
+    genre: ['Drame'],
+    saga: "",
+    description: "",
+    fromEntity: null,
+    countryOrigin: ['France'],
+    selectDisplayOrder: 0,
+  },
+
+  {
+    title: "Ceux qui comptent",
+    director: "Jean-Baptiste Leonetti",
+    actors: [
+      {
+        name: "Sandrine Kiberlain",
+      },
+      {
+        name: "Pierre Lottin",
+      },
+    ],
+    coverUrl: "",
+    releaseDate: "2026-03-25",
+    length: 98,
+    genre: ['Comédie', 'Drame'],
+    saga: "",
+    description: "",
+    fromEntity: null,
+    countryOrigin: ['France'],
+    selectDisplayOrder: 0,
+  },
+
+  {
+    title: "The Bride!",
+    director: "Maggie Gyllenhaal",
+    actors: [
+      {
+        name: "Jessie Buckley",
+      },
+      {
+        name: "Christian Bale",
+      },
+    ],
+    coverUrl: "",
+    releaseDate: "2026-03-06",
+    length: 126,
+    genre: ['Horreur', 'Drame'],
+    saga: "",
+    description: "",
+    fromEntity: null,
+    countryOrigin: ['États-Unis'],
+    selectDisplayOrder: 0,
+  },
+
+  {
+    title: "The World of Love",
+    director: "Yoon Ga-eun",
+    actors: [
+      {
+        name: "Seo Su-bin",
+      },
+      {
+        name: "Jang Hye-jin",
+      },
+    ],
+    coverUrl: "",
+    releaseDate: "2025-10-22",
+    length: 119,
+    genre: ['Drame'],
+    saga: "",
+    description: "",
+    fromEntity: null,
+    countryOrigin: ['Corée du Sud'],
+    selectDisplayOrder: 0,
+  },
+
+  {
+    title: "Plus fort que moi",
+    director: "Kirk Jones",
+    actors: [
+      {
+        name: "Robert Aramayo",
+      },
+      {
+        name: "Shirley Henderson",
+      },
+    ],
+    coverUrl: "",
+    releaseDate: "2026-04-01",
+    length: 121,
+    genre: ['Biographie', 'Drame'],
+    saga: "",
+    description: "",
+    fromEntity: null,
+    countryOrigin: ['Royaume-Uni'],
+    selectDisplayOrder: 0,
+  },
+
+  {
+    title: "Rue Málaga",
+    director: "Maryam Touzani",
+    actors: [
+      {
+        name: "Carmen Maura",
+      },
+      {
+        name: "Marta Etura",
+      },
+    ],
+    coverUrl: "",
+    releaseDate: "2025-01-01",
+    length: 110,
+    genre: ['Drame'],
+    saga: "",
+    description: "",
+    fromEntity: null,
+    countryOrigin: ['Maroc', 'France'],
+    selectDisplayOrder: 0,
+  },
+
+  {
+    title: "La fille du train",
+    director: "Tate Taylor",
+    actors: [
+      {
+        name: "Emily Blunt",
+      },
+      {
+        name: "Rebecca Ferguson",
+      },
+    ],
+    coverUrl: "",
+    releaseDate: "2016-10-26",
+    length: 112,
+    genre: ['Thriller'],
+    saga: "",
+    description: "",
+    fromEntity: null,
+    countryOrigin: ['États-Unis'],
+    selectDisplayOrder: 0,
+  },
+
+  {
+    title: "Fabricant de larmes",
+    director: "Alessandro Genovesi",
+    actors: [
+      {
+        name: "Caterina Ferioli",
+      },
+      {
+        name: "Simone Baldasseroni",
+      },
+    ],
+    coverUrl: "",
+    releaseDate: "2024-04-04",
+    length: 103,
+    genre: ['Romance', 'Drame'],
+    saga: "",
+    description: "",
+    fromEntity: null,
+    countryOrigin: ['Italie'],
+    selectDisplayOrder: 0,
+  },
+
+  {
+    title: "Aucun autre choix",
+    director: "Park Chan-wook",
+    actors: [
+      {
+        name: "Lee Byung-hun",
+      },
+      {
+        name: "Son Ye-jin",
+      },
+    ],
+    coverUrl: "",
+    releaseDate: "2026-02-11",
+    length: 139,
+    genre: ['Thriller', 'Comédie'],
+    saga: "",
+    description: "",
+    fromEntity: null,
+    countryOrigin: ['Corée du Sud'],
+    selectDisplayOrder: 0,
+  },
+
+  {
+    title: "Un jour avec mon père",
+    director: "Akinola Davies Jr.",
+    actors: [
+      {
+        name: "Ṣọpẹ́ Dìrísù",
+      },
+      {
+        name: "Godwin Chiemerie Egbo",
+      },
+    ],
+    coverUrl: "",
+    releaseDate: "2026-03-26",
+    length: 94,
+    genre: ['Drame'],
+    saga: "",
+    description: "",
+    fromEntity: null,
+    countryOrigin: ['Royaume-Uni', 'Nigeria'],
+    selectDisplayOrder: 0,
+  },
+
+  {
+    title: "Die, My Love",
+    director: "Lynne Ramsay",
+    actors: [
+      {
+        name: "Jennifer Lawrence",
+      },
+      {
+        name: "Robert Pattinson",
+      },
+    ],
+    coverUrl: "",
+    releaseDate: "2026-04-29",
+    length: 119,
+    genre: ['Drame'],
+    saga: "",
+    description: "",
+    fromEntity: null,
+    countryOrigin: ['États-Unis'],
+    selectDisplayOrder: 0,
+  },
+
+  {
+    title: "Ce qu'il reste de nous",
+    director: "Cherien Dabis",
+    actors: [
+      {
+        name: "Saleh Bakri",
+      },
+      {
+        name: "Cherien Dabis",
+      },
+    ],
+    coverUrl: "",
+    releaseDate: "2026-03-11",
+    length: 145,
+    genre: ['Drame'],
+    saga: "",
+    description: "",
+    fromEntity: null,
+    countryOrigin: ['Palestine', 'États-Unis'],
+    selectDisplayOrder: 0,
+  },
+
+  {
+    title: "À contre-sens",
+    director: "Domingo González",
+    actors: [
+      {
+        name: "Nicole Wallace",
+      },
+      {
+        name: "Gabriel Guevara",
+      },
+    ],
+    coverUrl: "",
+    releaseDate: "2023-06-08",
+    length: 118,
+    genre: ['Drame', 'Romance'],
+    saga: "",
+    description: "",
+    fromEntity: null,
+    countryOrigin: ['Espagne'],
+    selectDisplayOrder: 0,
+  },
+
+  {
+    title: "À contre-sens : Londres",
+    director: "Charlotte Fassler, Dani Girdwood",
+    actors: [
+      {
+        name: "Asha Banks",
+      },
+      {
+        name: "Matthew Broome",
+      },
+    ],
+    coverUrl: "",
+    releaseDate: "2025-02-13",
+    length: 119,
+    genre: ['Drame', 'Romance'],
+    saga: "",
+    description: "",
+    fromEntity: null,
+    countryOrigin: ['Royaume-Uni'],
+    selectDisplayOrder: 0,
+  },
+
+  {
+    title: "Saltburn",
+    director: "Emerald Fennell",
+    actors: [
+      {
+        name: "Barry Keoghan",
+      },
+      {
+        name: "Jacob Elordi",
+      },
+    ],
+    coverUrl: "",
+    releaseDate: "2023-11-17",
+    length: 131,
+    genre: ['Thriller', 'Drame'],
+    saga: "",
+    description: "",
+    fromEntity: null,
+    countryOrigin: ['Royaume-Uni'],
+    selectDisplayOrder: 0,
+  },
+
+  {
+    title: "Chien de la casse",
+    director: "Jean-Baptiste Durand",
+    actors: [
+      {
+        name: "Raphaël Quenard",
+      },
+      {
+        name: "Jean-Baptiste Durand",
+      },
+    ],
+    coverUrl: "",
+    releaseDate: "2023-04-19",
+    length: 93,
+    genre: ['Comédie', 'Drame'],
+    saga: "",
+    description: "",
+    fromEntity: null,
+    countryOrigin: ['France'],
+    selectDisplayOrder: 0,
+  },
+
+  {
+    title: "Oiseaux de paradis",
+    director: "Sarah Adina Smith",
+    actors: [
+      {
+        name: "Kristine Frøseth",
+      },
+      {
+        name: "Diana Silvers",
+      },
+    ],
+    coverUrl: "",
+    releaseDate: "2021-09-24",
+    length: 113,
+    genre: ['Drame'],
+    saga: "",
+    description: "",
+    fromEntity: null,
+    countryOrigin: ['États-Unis'],
+    selectDisplayOrder: 0,
+  },
+
+  {
+    title: "Kadaver",
+    director: "Jarand Herdal",
+    actors: [
+      {
+        name: "Gitte Witt",
+      },
+      {
+        name: "Thomas Gullestad",
+      },
+    ],
+    coverUrl: "",
+    releaseDate: "2020-10-22",
+    length: 86,
+    genre: ['Horreur'],
+    saga: "",
+    description: "",
+    fromEntity: null,
+    countryOrigin: ['Norvège'],
+    selectDisplayOrder: 0,
+  },
+
+  {
+    title: "Je veux juste en finir",
+    director: "Charlie Kaufman",
+    actors: [
+      {
+        name: "Jessie Buckley",
+      },
+      {
+        name: "Jesse Plemons",
+      },
+    ],
+    coverUrl: "",
+    releaseDate: "2020-09-04",
+    length: 134,
+    genre: ['Drame', 'Thriller'],
+    saga: "",
+    description: "",
+    fromEntity: null,
+    countryOrigin: ['États-Unis'],
+    selectDisplayOrder: 0,
+  },
+
+  {
+    title: "Doctor Sleep",
+    director: "Mike Flanagan",
+    actors: [
+      {
+        name: "Ewan McGregor",
+      },
+      {
+        name: "Rebecca Ferguson",
+      },
+    ],
+    coverUrl: "",
+    releaseDate: "2019-11-08",
+    length: 152,
+    genre: ['Horreur'],
+    saga: "",
+    description: "",
+    fromEntity: null,
+    countryOrigin: ['États-Unis'],
+    selectDisplayOrder: 0,
+  },
+
+  {
+    title: "Paradise Hills",
+    director: "Alice Waddington",
+    actors: [
+      {
+        name: "Emma Roberts",
+      },
+      {
+        name: "Danielle Macdonald",
+      },
+    ],
+    coverUrl: "",
+    releaseDate: "2019-08-30",
+    length: 95,
+    genre: ['Science Fiction'],
+    saga: "",
+    description: "",
+    fromEntity: null,
+    countryOrigin: ['Espagne'],
+    selectDisplayOrder: 0,
+  },
+
+  {
+    title: "Première Année",
+    director: "Thomas Lilti",
+    actors: [
+      {
+        name: "Vincent Lacoste",
+      },
+      {
+        name: "Antoine Reinartz",
+      },
+    ],
+    coverUrl: "",
+    releaseDate: "2018-09-12",
+    length: 105,
+    genre: ['Comédie', 'Drame'],
+    saga: "",
+    description: "",
+    fromEntity: null,
+    countryOrigin: ['France'],
+    selectDisplayOrder: 0,
+  },
+
+  {
+    title: "Manchester by the Sea",
+    director: "Kenneth Lonergan",
+    actors: [
+      {
+        name: "Casey Affleck",
+      },
+      {
+        name: "Michelle Williams",
+      },
+    ],
+    coverUrl: "",
+    releaseDate: "2016-11-18",
+    length: 137,
+    genre: ['Drame'],
+    saga: "",
+    description: "",
+    fromEntity: null,
+    countryOrigin: ['États-Unis'],
+    selectDisplayOrder: 0,
+  },
+
+  {
+    title: "Melancholia",
+    director: "Lars von Trier",
+    actors: [
+      {
+        name: "Kirsten Dunst",
+      },
+      {
+        name: "Charlotte Gainsbourg",
+      },
+    ],
+    coverUrl: "",
+    releaseDate: "2011-05-26",
+    length: 136,
+    genre: ['Drame', 'Science Fiction'],
+    saga: "",
+    description: "",
+    fromEntity: null,
+    countryOrigin: ['Danemark'],
+    selectDisplayOrder: 0,
+  },
+
+  {
+    title: "Une vie volée",
+    director: "James Mangold",
+    actors: [
+      {
+        name: "Winona Ryder",
+      },
+      {
+        name: "Angelina Jolie",
+      },
+    ],
+    coverUrl: "",
+    releaseDate: "1999-12-21",
+    length: 127,
+    genre: ['Drame'],
+    saga: "",
+    description: "",
+    fromEntity: null,
+    countryOrigin: ['États-Unis'],
+    selectDisplayOrder: 0,
+  },
+
+  {
+    title: "Quand Harry rencontre Sally",
+    director: "Rob Reiner",
+    actors: [
+      {
+        name: "Billy Crystal",
+      },
+      {
+        name: "Meg Ryan",
+      },
+    ],
+    coverUrl: "",
+    releaseDate: "1989-07-21",
+    length: 96,
+    genre: ['Comédie', 'Romance'],
+    saga: "",
+    description: "",
+    fromEntity: null,
+    countryOrigin: ['États-Unis'],
+    selectDisplayOrder: 0,
+  },
 ];
