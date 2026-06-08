@@ -2826,7 +2826,7 @@ export const baseGames: BaseGame[] = [
     editor: 'Ubisoft',
     hero: 'Tarzan',
     coverUrl:
-      'https://static.fnac-static.com/multimedia/Images/FR/MDM/65/49/21/18958693/3756-1.jpg',
+      '/games_pictures/e3c885e5a18c.jpg',
     releaseDate: '2001-11-23',
     averageTimeToFinish: 8,
     averageTimeToHundredPercent: 0,

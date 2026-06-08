@@ -2652,7 +2652,7 @@ export const baseMoviesHorreur: BaseMovie[] = [
       },
     ],
     coverUrl:
-      'https://fr.web.img6.acsta.net/img/00/20/0020008382daf6b1305be800e8342a72.jpg',
+      '/movies_pictures/200b0c3bef42.jpg',
     releaseDate: '2026-05-15',
     length: 109,
     genre: ['Horreur'],

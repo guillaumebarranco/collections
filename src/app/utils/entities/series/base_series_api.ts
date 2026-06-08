@@ -52,7 +52,7 @@ export const baseSeriesApi: BaseSerie[] = [
         name: "Karen Rodriguez",
       },
     ],
-    coverUrl: "https://www.ecranlarge.com/content/uploads/2026/05/mv5byju3njewntitmzc1mi00y2qyltljnditotq4yju4njzjn2eyxkeyxkfqcgc._v1_.jpg",
+    coverUrl: "/series_pictures/11886816e5f4.jpg",
     releaseDate: "2026-05-25",
     endDate: "",
     genre: ['Super-héro'],
