@@ -1985,4 +1985,19 @@ export const baseBooksApi: BaseBook[] = [
     countryOrigin: 'France',
     selectDisplayOrder: 0,
   },
+
+  {
+    title: "La Porte du Ciel",
+    author: "Eric Emmanuel Schmitt",
+    coverUrl: "https://m.media-amazon.com/images/I/81HIFNkmOoL._AC_SL1500_.jpg",
+    pages: 576,
+    genre: [],
+    saga: "La Traversée des Temps",
+    sagaOrder: 2,
+    sagaFinished: true,
+    releaseDate: "2021-11-03",
+    description: "",
+    countryOrigin: "France",
+    selectDisplayOrder: 0,
+  },
 ];

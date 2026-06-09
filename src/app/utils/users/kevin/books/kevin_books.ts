@@ -1935,4 +1935,21 @@ export const kevinBooks: UserBooks = [
     wantToReadAgain: false,
     ratingComment: "Une histoire simple ancrée dans le réel qui ne manque pas de rebondissements. Un récit humain plaisant à lire, qui devient un excellent premier tome de saga dans ses derniers chapitres.",
   },
+
+  {
+    title: "La Porte du Ciel",
+    author: "Eric Emmanuel Schmitt",
+    firstReadDate: "2026-05-26",
+    lastReadDate: "",
+    otherReadDates: [],
+    rating: 3.5,
+    reading: false,
+    readTimes: 1,
+    owned: true,
+    borrowed: "",
+    loaned: "",
+    readPriority: 1,
+    wantToReadAgain: false,
+    ratingComment: "Encore un très bon livre, mais la surprise du premier tome s'efface et la qualité des personnages ne suffit pas à compenser une intrigue moins prenante.",
+  },
 ];
