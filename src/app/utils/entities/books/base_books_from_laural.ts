@@ -1898,7 +1898,8 @@ export const baseBooksFromLaural: BaseBook[] = [
   {
     title: 'Le champ des soupirs',
     author: 'Elspeth Barker',
-    coverUrl: 'https://media.hachette.fr/imgArticle/LGFLIVREDEPOCHE/2023/9782253940890-001-X.jpeg?source=web',
+    coverUrl:
+      'https://media.hachette.fr/imgArticle/LGFLIVREDEPOCHE/2023/9782253940890-001-X.jpeg?source=web',
     pages: 220,
     genre: ['Littérature'],
     saga: '',
@@ -1940,7 +1941,8 @@ export const baseBooksFromLaural: BaseBook[] = [
   {
     title: 'Le chat qui reliait les âmes au Café Pont',
     author: 'Nagi Shimeno',
-    coverUrl: 'https://cdn1.booknode.com/book_cover/5778/full/le-chat-qui-reliait-les-ames-au-cafe-pont-5777529.jpg',
+    coverUrl:
+      'https://cdn1.booknode.com/book_cover/5778/full/le-chat-qui-reliait-les-ames-au-cafe-pont-5777529.jpg',
     pages: 320,
     genre: ['Littérature'],
     saga: '',
@@ -1982,7 +1984,8 @@ export const baseBooksFromLaural: BaseBook[] = [
   {
     title: "Le Courant d'air",
     author: 'Catherine Ryan Howard',
-    coverUrl: 'https://cdn1.booknode.com/book_cover/5651/full/le-courant-dair-5650761.jpg',
+    coverUrl:
+      'https://cdn1.booknode.com/book_cover/5651/full/le-courant-dair-5650761.jpg',
     pages: 238,
     genre: ['Thriller'],
     saga: '',
@@ -1996,7 +1999,8 @@ export const baseBooksFromLaural: BaseBook[] = [
   {
     title: 'Le Démon de maître Prosper',
     author: 'K. J. Parker',
-    coverUrl: 'https://www.l-atalante.com/uploads/couvertures/kj-parker-le-demon-de-maitre-prosper.jpg',
+    coverUrl:
+      'https://www.l-atalante.com/uploads/couvertures/kj-parker-le-demon-de-maitre-prosper.jpg',
     pages: 104,
     genre: ['Littérature'],
     saga: '',
@@ -2010,7 +2014,8 @@ export const baseBooksFromLaural: BaseBook[] = [
   {
     title: "Le Fort Intérieur et la sorcière de l'île Moufle",
     author: 'Stella Benson',
-    coverUrl: 'https://media.senscritique.com/media/000019692309/0/le_fort_interieur_et_la_sorciere_de_l_ile_moufle.jpg',
+    coverUrl:
+      'https://media.senscritique.com/media/000019692309/0/le_fort_interieur_et_la_sorciere_de_l_ile_moufle.jpg',
     pages: 256,
     genre: ['Littérature'],
     saga: '',
@@ -2024,7 +2029,8 @@ export const baseBooksFromLaural: BaseBook[] = [
   {
     title: 'Le jeu du Chuchoteur',
     author: 'Donato Carrisi',
-    coverUrl: 'https://cdn1.booknode.com/book_cover/1262/full/le-jeu-du-chuchoteur-1262298.jpg',
+    coverUrl:
+      'https://cdn1.booknode.com/book_cover/1262/full/le-jeu-du-chuchoteur-1262298.jpg',
     pages: 437,
     genre: ['Thriller'],
     saga: '',
@@ -2052,7 +2058,8 @@ export const baseBooksFromLaural: BaseBook[] = [
   {
     title: 'Le Livre des portes',
     author: 'Gareth Brown',
-    coverUrl: 'https://cdn1.booknode.com/book_cover/5568/full/le-livre-des-portes-5568245.jpg',
+    coverUrl:
+      'https://cdn1.booknode.com/book_cover/5568/full/le-livre-des-portes-5568245.jpg',
     pages: 358,
     genre: ['Littérature'],
     saga: '',
@@ -2066,7 +2073,8 @@ export const baseBooksFromLaural: BaseBook[] = [
   {
     title: 'Le Loup des steppes',
     author: 'Hermann Hesse',
-    coverUrl: 'https://media.hachette.fr/imgArticle/LGFLIVREDEPOCHE/2024/9782253002932-001-X.jpeg?source=web&v=d961cf0330dcd1fb92571baffb0d1087',
+    coverUrl:
+      'https://media.hachette.fr/imgArticle/LGFLIVREDEPOCHE/2024/9782253002932-001-X.jpeg?source=web&v=d961cf0330dcd1fb92571baffb0d1087',
     pages: 224,
     genre: ['Classiques'],
     saga: '',
@@ -2080,7 +2088,8 @@ export const baseBooksFromLaural: BaseBook[] = [
   {
     title: 'Le Magasin des suicides',
     author: 'Jean Teulé',
-    coverUrl: 'https://cdn.kobo.com/book-images/76bfd25e-0574-4f74-96d5-8b6bcd46fd59/1200/1200/False/le-magasin-des-suicides.jpg',
+    coverUrl:
+      'https://cdn.kobo.com/book-images/76bfd25e-0574-4f74-96d5-8b6bcd46fd59/1200/1200/False/le-magasin-des-suicides.jpg',
     pages: 169,
     genre: ['Littérature'],
     saga: '',
@@ -2094,7 +2103,8 @@ export const baseBooksFromLaural: BaseBook[] = [
   {
     title: "Le mec de la tombe d'à côté",
     author: 'Katarina Mazetti',
-    coverUrl: 'https://actes-sud.fr/media/cache/meta/media/image/cover/9782742771905.jpg',
+    coverUrl:
+      'https://actes-sud.fr/media/cache/meta/media/image/cover/9782742771905.jpg',
     pages: 256,
     genre: ['Littérature'],
     saga: '',
@@ -2122,7 +2132,8 @@ export const baseBooksFromLaural: BaseBook[] = [
   {
     title: 'Le monde de Charlie',
     author: 'Stephen Chbosky',
-    coverUrl: 'https://cdn1.booknode.com/book_cover/4227/full/le-monde-de-charlie-4226602.jpg',
+    coverUrl:
+      'https://cdn1.booknode.com/book_cover/4227/full/le-monde-de-charlie-4226602.jpg',
     pages: 231,
     genre: ['Littérature'],
     saga: '',
@@ -2151,7 +2162,8 @@ export const baseBooksFromLaural: BaseBook[] = [
   {
     title: 'Le mythe de Sisyphe',
     author: 'Albert Camus',
-    coverUrl: '',
+    coverUrl:
+      'https://librairiegrandselve.fr/cache/images/product/0004866-couverture1-xcgzbqmbjsupufk8_e8ix22fa0w_-hki4oq-sscfhzjmorl_l8th9a-cover-full.jpg',
     pages: 169,
     genre: ['Nonfiction'],
     saga: '',

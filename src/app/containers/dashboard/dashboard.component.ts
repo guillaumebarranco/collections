@@ -61,6 +61,11 @@ import {
   getAllBooks,
   getAllReadlistBooks,
 } from '../../facades/books/books.facade';
+import {
+  getAllChildrenBooks,
+  getAllReadlistChildrenBooks,
+} from '../../facades/children-books/children-books.facade';
+import { ChildrenBook } from '../../models/children-book-model';
 import { getAllGames } from '../../facades/games/games.facade';
 import { getAllMusics } from '../../facades/musics/musics.facade';
 import { Manga } from '../../models/manga-model';
@@ -224,6 +229,7 @@ export class DashboardComponent implements OnInit {
   ];
 
   booksList = signal<{ [key: string]: Book[] }>({});
+  childrenBooksList = signal<{ [key: string]: ChildrenBook[] }>({});
   mangasList = signal<{ [key: string]: Manga[] }>({});
   comicsList = signal<{ [key: string]: Comic[] }>({});
   bdsList = signal<{ [key: string]: Bd[] }>({});
@@ -271,6 +277,17 @@ export class DashboardComponent implements OnInit {
     return hasNameParam
       ? Boolean(this.booksList()[this.userId()])
         ? this.booksList()[this.userId()]
+        : []
+      : [];
+  });
+
+  allChildrenBooks = computed<ChildrenBook[]>(() => {
+    const params: Params = this.routeParams();
+    const hasNameParam = params['id'] !== undefined;
+
+    return hasNameParam
+      ? Boolean(this.childrenBooksList()[this.userId()])
+        ? this.childrenBooksList()[this.userId()]
         : []
       : [];
   });
@@ -712,6 +729,11 @@ export class DashboardComponent implements OnInit {
 
     return {
       books: resolve('books', this.allBooks() as Entity[], tf.books ?? []),
+      'children-books': resolve(
+        'children-books',
+        this.allChildrenBooks() as Entity[],
+        tf['children-books'] ?? []
+      ),
       movies: resolve('movies', this.allMovies() as Entity[], tf.movies ?? []),
       series: resolve('series', this.allSeries() as Entity[], tf.series ?? []),
       games: resolve('games', this.allGames() as Entity[], tf.games ?? []),
@@ -729,6 +751,7 @@ export class DashboardComponent implements OnInit {
 
   personalTopFiveLabels: Record<TopFiveEntityType, string> = {
     books: '📖 Livres',
+    'children-books': '🧒 Livres pour enfants',
     movies: '🎬 Films',
     series: '📺 Séries',
     games: '🎮 Jeux',
@@ -1016,6 +1039,7 @@ export class DashboardComponent implements OnInit {
         this.loadMoviesData(),
         this.loadWatchlistMoviesData(),
         this.loadBooksData(),
+        this.loadChildrenBooksData(),
         this.loadReadlistBooksData(),
         this.loadMangasData(),
         this.loadReadlistMangasData(),
@@ -1053,6 +1077,12 @@ export class DashboardComponent implements OnInit {
     const userId = this.userId() || DEFAULT_USER_ID;
     const books = await getAllBooks(userId);
     this.booksList.set(books);
+  }
+
+  private async loadChildrenBooksData() {
+    const userId = this.userId() || DEFAULT_USER_ID;
+    const childrenBooks = await getAllChildrenBooks(userId);
+    this.childrenBooksList.set(childrenBooks);
   }
 
   private async loadReadlistBooksData() {

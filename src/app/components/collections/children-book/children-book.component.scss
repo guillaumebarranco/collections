@@ -1,0 +1,44 @@
+@use "../../../styles/components.scss" as components;
+
+:host {
+  display: block;
+  height: 100%;
+}
+
+.childrenBook-title {
+  @include components.component-title-base;
+}
+
+.childrenBook-author {
+  @include components.component-author-base;
+}
+
+.childrenBook-saga {
+  margin: 0;
+  font-size: 0.85rem;
+  color: #6366f1;
+  font-weight: 600;
+}
+
+.childrenBook-pages {
+  @include components.component-secondary-info-base;
+}
+
+.childrenBook-read-times {
+  @include components.component-times-base;
+}
+
+.childrenBook-genre {
+  @include components.component-genre-base;
+}
+
+.childrenBook-description {
+  margin: 0;
+  font-size: 0.85rem;
+  color: #5d6d7e;
+  line-height: 1.45;
+}
+
+:host-context(.collection-view) {
+  @include components.entity-card-mobile-horizontal-layout;
+}

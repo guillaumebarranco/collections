@@ -25,6 +25,11 @@ const CONFIGURABLE_ITEMS: {
   icon: string;
 }[] = [
   { key: 'books', label: 'Livres', icon: '📚' },
+  {
+    key: 'children-books',
+    label: 'Livres pour enfants',
+    icon: '🧒',
+  },
   { key: 'movies', label: 'Films', icon: '🎬' },
   { key: 'series', label: 'Séries', icon: '📺' },
   { key: 'games', label: 'Jeux', icon: '🎮' },

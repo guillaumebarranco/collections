@@ -1,0 +1,360 @@
+<app-edit-entity class="edit-entity--light">
+  <app-edit-entity-header
+    entity-header
+    [entity]="EntityType.BOOK"
+    [dialogRef]="dialogRef"
+    [canNavigatePrevious]="canNavigatePrevious()"
+    [canNavigateNext]="canNavigateNext()"
+    [dialogPositionLabel]="dialogPositionLabel()"
+    [hasDialogNavigation]="hasDialogNavigation()"
+    (navigateToEntityList)="navigateToChildrenBooks()"
+    (navigatePrevious)="navigatePrevious()"
+    (navigateNext)="navigateNext()"
+    (openCreateQuizz)="openCreateQuizz()"
+  ></app-edit-entity-header>
+
+  <div entity-content>
+    <h1 class="title">Éditer un livre</h1>
+
+    <img [src]="childrenBook()?.coverUrl" alt="Cover" width="200" />
+    <div>{{ childrenBook()?.title }}</div>
+    <div class="entity-details">
+      <p><strong>Auteur :</strong> {{ childrenBook()?.author }}</p>
+      @if (childrenBook()?.genre?.length) {
+      <p><strong>Genre :</strong> {{ childrenBook()?.genre?.join(', ') }}</p>
+      } @if (childrenBook()?.pages) {
+      <p><strong>Pages :</strong> {{ childrenBook()?.pages }}</p>
+      } @if (childrenBook()?.saga) {
+      <p><strong>Saga :</strong> {{ childrenBook()?.saga }}</p>
+      } @if (childrenBook()?.sagaOrder) {
+      <p><strong>Tome :</strong> {{ childrenBook()?.sagaOrder }}</p>
+      } @if (childrenBook()?.description) {
+      <p><strong>Description :</strong> {{ childrenBook()?.description }}</p>
+      } @if (childrenBook()?.countryOrigin) {
+      <p><strong>Pays d'origine :</strong> {{ childrenBook()?.countryOrigin }}</p>
+      }
+    </div>
+  </div>
+
+  <form
+    *ngIf="childrenBookForm()"
+    entity-form
+    class="edit-form"
+    (ngSubmit)="onSubmit()"
+  >
+    @if (isAdminView()) {
+    <div class="form-row">
+      <label for="adminTitle">Titre</label>
+      <input
+        id="adminTitle"
+        type="text"
+        [disabled]="disableTitleEdit()"
+        [ngModel]="adminTitle()"
+        (ngModelChange)="adminTitle.set($event)"
+        name="adminTitle"
+      />
+    </div>
+
+    <div class="form-row">
+      <label for="adminAuthor">Auteur</label>
+      <input
+        id="adminAuthor"
+        type="text"
+        [disabled]="disableSecondaryEdit()"
+        [ngModel]="adminSecondary()"
+        (ngModelChange)="adminSecondary.set($event)"
+        name="adminAuthor"
+      />
+    </div>
+    } @if (!isAdminView()) {
+    <div class="form-row">
+      <label>Note</label>
+      <div class="rating-control">
+        <button
+          *ngFor="let star of [1, 2, 3, 4, 5]"
+          type="button"
+          class="star-btn"
+          (click)="setRatingFromClick(star, $event)"
+        >
+          <span
+            class="star"
+            [class.star-full]="
+              getStarType(childrenBookForm()?.rating || 0, star) === 'full'
+            "
+            [class.star-threeQuarter]="
+              getStarType(childrenBookForm()?.rating || 0, star) === 'threeQuarter'
+            "
+            [class.star-half]="
+              getStarType(childrenBookForm()?.rating || 0, star) === 'half'
+            "
+            [class.star-quarter]="
+              getStarType(childrenBookForm()?.rating || 0, star) === 'quarter'
+            "
+            [class.star-empty]="
+              getStarType(childrenBookForm()?.rating || 0, star) === 'empty'
+            "
+          >
+            ★
+          </span>
+        </button>
+        <input
+          type="number"
+          min="0"
+          max="5"
+          step="0.25"
+          [ngModel]="childrenBookForm()?.rating"
+          (ngModelChange)="updateField('rating', $event)"
+          name="rating"
+          class="rating-input"
+          aria-label="Note numérique"
+        />
+        <span class="rating-value">{{ childrenBookForm()?.rating }}/5</span>
+      </div>
+    </div>
+
+    <div class="form-row">
+      <label for="readTimes">Relectures</label>
+      <input
+        id="readTimes"
+        type="number"
+        min="0"
+        [ngModel]="childrenBookForm()?.readTimes"
+        (ngModelChange)="updateField('readTimes', $event)"
+        name="readTimes"
+      />
+    </div>
+
+    <div class="form-row">
+      <label for="firstReadDate">Date de première lecture</label>
+      <input
+        id="firstReadDate"
+        type="date"
+        [ngModel]="childrenBookForm()?.firstReadDate"
+        (ngModelChange)="updateField('firstReadDate', $event)"
+        name="firstReadDate"
+      />
+    </div>
+    <div class="form-row">
+      <label for="lastReadDate">Date de dernière lecture</label>
+      <input
+        id="lastReadDate"
+        type="date"
+        [ngModel]="childrenBookForm()?.lastReadDate"
+        (ngModelChange)="updateField('lastReadDate', $event)"
+        name="lastReadDate"
+      />
+    </div>
+
+    <app-extra-dates-list
+      label="Autres dates de lecture"
+      hint="Relectures ou visionnages intermédiaires (hors première et dernière lecture)."
+      [dates]="childrenBookForm()?.otherReadDates ?? []"
+      (datesChange)="updateOtherReadDates($event)"
+    />
+
+    <div class="form-row checkbox-row">
+      <label for="owned">Possédé</label>
+      <input
+        id="owned"
+        type="checkbox"
+        [checked]="childrenBookForm()?.owned"
+        (change)="updateCheckbox('owned', $any($event).target.checked)"
+        name="owned"
+      />
+    </div>
+
+    <div class="form-row">
+      <label for="borrowed">Emprunté à</label>
+      <input
+        id="borrowed"
+        type="text"
+        [ngModel]="childrenBookForm()?.borrowed"
+        (ngModelChange)="updateField('borrowed', $event)"
+        name="borrowed"
+      />
+    </div>
+
+    <div class="form-row">
+      <label for="loaned">Prêté à</label>
+      <input
+        id="loaned"
+        type="text"
+        [ngModel]="childrenBookForm()?.loaned"
+        (ngModelChange)="updateField('loaned', $event)"
+        name="loaned"
+      />
+    </div>
+
+    <div class="form-row checkbox-row">
+      <label for="wantToReadAgain">À relire</label>
+      <input
+        id="wantToReadAgain"
+        type="checkbox"
+        [checked]="childrenBookForm()?.wantToReadAgain"
+        (change)="
+          updateCheckbox('wantToReadAgain', $any($event).target.checked)
+        "
+        name="wantToReadAgain"
+      />
+    </div>
+
+    <div class="form-row">
+      <label for="readPriority">Priorité dans la readlist</label>
+      <input
+        id="readPriority"
+        type="number"
+        [ngModel]="childrenBookForm()?.readPriority"
+        (ngModelChange)="updateField('readPriority', $event)"
+        name="readPriority"
+        min="0"
+      />
+    </div>
+
+    <div class="form-row">
+      <label for="ratingComment">Commentaire sur la note</label>
+      <textarea
+        id="ratingComment"
+        rows="3"
+        [ngModel]="childrenBookForm()?.ratingComment"
+        (ngModelChange)="updateField('ratingComment', $event)"
+        name="ratingComment"
+        placeholder="Optionnel"
+      ></textarea>
+    </div>
+    } @if (isAdminView() && childrenBookEntityForm()) {
+    <div class="form-row">
+      <label for="entityPages">Pages</label>
+      <input
+        id="entityPages"
+        type="number"
+        min="0"
+        [ngModel]="childrenBookEntityForm()?.pages"
+        (ngModelChange)="updateEntityField('pages', $event)"
+        name="entityPages"
+      />
+    </div>
+
+    <div class="form-row genre-row">
+      <mat-form-field appearance="outline" class="genre-field">
+        <mat-label>Genres</mat-label>
+        <mat-select
+          id="entityGenre"
+          multiple
+          [ngModel]="childrenBookEntityForm()?.genre"
+          (ngModelChange)="setEntityGenres($event)"
+          name="entityGenre"
+          placeholder="Sélectionner un ou plusieurs genres"
+        >
+          @for (g of childrenBookGenreOptions; track g) {
+            <mat-option [value]="g">{{ g }}</mat-option>
+          }
+        </mat-select>
+      </mat-form-field>
+    </div>
+
+    <div class="form-row">
+      <label for="entitySaga">Saga</label>
+      <input
+        id="entitySaga"
+        type="text"
+        [ngModel]="childrenBookEntityForm()?.saga"
+        (ngModelChange)="updateEntityField('saga', $event)"
+        name="entitySaga"
+      />
+    </div>
+
+    <div class="form-row">
+      <label for="entitySagaOrder">Tome (ordre)</label>
+      <input
+        id="entitySagaOrder"
+        type="number"
+        min="0"
+        [ngModel]="childrenBookEntityForm()?.sagaOrder"
+        (ngModelChange)="updateEntityField('sagaOrder', $event)"
+        name="entitySagaOrder"
+      />
+    </div>
+
+    <div class="form-row checkbox-row">
+      <label for="sagaIsFinished">Saga terminée</label>
+      <input
+        id="sagaIsFinished"
+        type="checkbox"
+        [checked]="childrenBookEntityForm()?.sagaFinished"
+        (change)="
+          updateEntityCheckbox('sagaFinished', $any($event).target.checked)
+        "
+        name="sagaIsFinished"
+      />
+    </div>
+
+    <div class="form-row">
+      <label for="entityCoverUrl">Cover URL</label>
+      <input
+        id="entityCoverUrl"
+        type="text"
+        [ngModel]="childrenBookEntityForm()?.coverUrl"
+        (ngModelChange)="updateEntityField('coverUrl', $event)"
+        name="entityCoverUrl"
+      />
+    </div>
+
+    <div class="form-row">
+      <label for="entityReleaseDate">Date de sortie</label>
+      <input
+        id="entityReleaseDate"
+        type="date"
+        [ngModel]="childrenBookEntityForm()?.releaseDate"
+        (ngModelChange)="updateEntityField('releaseDate', $event)"
+        name="entityReleaseDate"
+      />
+    </div>
+
+    <div class="form-row">
+      <label for="entityCountryOrigin">Pays d'origine</label>
+      <app-country-select
+        inputId="entityCountryOrigin"
+        name="entityCountryOrigin"
+        [value]="childrenBookEntityForm()?.countryOrigin ?? ''"
+        (valueChange)="updateEntityField('countryOrigin', $event)"
+      />
+    </div>
+
+    <div class="form-row">
+      <label for="entityDescription">Description</label>
+      <textarea
+        id="entityDescription"
+        rows="3"
+        [ngModel]="childrenBookEntityForm()?.description"
+        (ngModelChange)="updateEntityField('description', $event)"
+        name="entityDescription"
+        placeholder="Optionnel"
+      ></textarea>
+    </div>
+    }
+
+    <div class="form-actions">
+      <button type="submit" class="makya-btn" [disabled]="isSaving()">
+        Modifier
+      </button>
+      @if (hasDialogNavigation()) {
+      <button
+        type="button"
+        class="makya-btn"
+        [disabled]="isSaving() || !canNavigateNext()"
+        (click)="onSubmit(true)"
+      >
+        Modifier et passer au suivant
+      </button>
+      }
+      <button
+        type="button"
+        class="makya-btn makya-delete-btn"
+        [disabled]="isDeleting()"
+        (click)="onDelete()"
+      >
+        Supprimer
+      </button>
+    </div>
+  </form>
+</app-edit-entity>

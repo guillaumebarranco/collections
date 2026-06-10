@@ -5,6 +5,7 @@ const STORAGE_KEY = 'makya-menu-config';
 /** Clés des entrées de menu configurables (Home/dashboard exclu, toujours affiché). */
 export const CONFIGURABLE_MENU_KEYS = [
   'books',
+  'children-books',
   'movies',
   'series',
   'games',
@@ -21,15 +22,22 @@ export const CONFIGURABLE_MENU_KEYS = [
 
 export type MenuConfigKey = (typeof CONFIGURABLE_MENU_KEYS)[number];
 
+/** Entrées activées par défaut (children-books désactivé). */
+function getDefaultEnabledKeys(): Set<string> {
+  return new Set(
+    CONFIGURABLE_MENU_KEYS.filter((key) => key !== 'children-books')
+  );
+}
+
 function readStored(): Set<string> {
   if (typeof window === 'undefined') {
-    return new Set(CONFIGURABLE_MENU_KEYS);
+    return getDefaultEnabledKeys();
   }
   try {
     const raw = localStorage.getItem(STORAGE_KEY);
-    if (!raw) return new Set(CONFIGURABLE_MENU_KEYS);
+    if (!raw) return getDefaultEnabledKeys();
     const arr = JSON.parse(raw) as unknown;
-    if (!Array.isArray(arr)) return new Set(CONFIGURABLE_MENU_KEYS);
+    if (!Array.isArray(arr)) return getDefaultEnabledKeys();
     const normalized = arr.map((k) => (k === 'mix' ? 'adaptations' : k));
     const valid = normalized.filter((k) =>
       CONFIGURABLE_MENU_KEYS.includes(k as MenuConfigKey)
@@ -53,7 +61,7 @@ function readStored(): Set<string> {
     }
     return storedSet;
   } catch {
-    return new Set(CONFIGURABLE_MENU_KEYS);
+    return getDefaultEnabledKeys();
   }
 }
 
@@ -103,7 +111,7 @@ export class MenuConfigService {
 
   /** Réinitialise à tout afficher (sauf Home qui est toujours affiché). */
   resetToDefault(): void {
-    this.enabledSet.set(new Set(CONFIGURABLE_MENU_KEYS));
+    this.enabledSet.set(getDefaultEnabledKeys());
     writeStored(this.enabledSet());
   }
 }

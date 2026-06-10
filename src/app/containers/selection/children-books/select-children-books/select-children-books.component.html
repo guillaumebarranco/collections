@@ -1,0 +1,121 @@
+<app-menu></app-menu>
+
+<ng-template #selectionSummaryBand>
+  <div class="selection-info">
+    <span class="count">{{ selectedCount() }} livre(s) sélectionné(s)</span>
+    <span class="total">sur {{ filteredChildrenBooks().length }}</span>
+  </div>
+
+  <div class="actions">
+    <button
+      class="makya-btn-big"
+      (click)="addSelectedChildrenBooks()"
+      [disabled]="selectedCount() === 0"
+    >
+      {{
+        isWatchOrReadlistMode()
+          ? "Ajouter à mes livres à lire"
+          : "Ajouter à mes livres lus"
+      }}
+      ({{ selectedCount() }})
+    </button>
+  </div>
+</ng-template>
+
+<app-select-entity class="select-children-books-container">
+  <div class="header" select-header>
+    <h1>
+      {{
+        isWatchOrReadlistMode()
+          ? "Sélectionner des livres pour ma readlist"
+          : "Ajouter des livres lus"
+      }}
+    </h1>
+
+    <div class="selection-description">
+      @if(!isWatchOrReadlistMode()) {
+      <p>
+        Bonjour {{ username() }} <br /><br />
+        Ici tu peux ajouter des livres que tu as lu. La liste ci-dessous affiche
+        uniquement les livres que tu n'as pas encore dans ta collection.
+        <br /><br />
+        Sélectionne les livres que tu as lus, puis clique sur "Ajouter à mes
+        livres lus".
+      </p>
+      @if (hasReadChildrenBooksFromExistingCatalog()) {
+      <p>
+        Si tu ne trouves pas ton livre dans la liste, ajoute-le d'abord dans les
+        entités (si jamais tu souhaites ajouter un grand nombre de livres non
+        présents ici, le mieux reste de contacter l'administrateur) :
+      </p>
+      <button class="makya-btn" (click)="openAddChildrenBookDialog()">
+        Ajouter un livre qui n'existe pas encore sur Makya
+      </button>
+      } } @else if(isWatchOrReadlistMode()) {
+      <p>
+        Bonjour {{ username() }} <br /><br />
+        Tu es en mode "Readlist" ! Ici, tu peux sélectionner les livres que tu
+        souhaites ajouter à ta liste de livres à lire.
+        <br /><br />
+        Les livres que tu as déjà lus sont automatiquement exclus de cette liste
+        pour t'éviter les doublons.
+        <br /><br />
+        Sélectionne les livres que tu aimerais lire et télécharge le fichier
+        JSON pour construire ta readlist.
+      </p>
+      } @else {
+      <!-- <p>
+        Bonjour {{ username() }} <br /><br />
+        Si tu es ici, c'est que tu souhaites pouvoir faire ta collection de
+        livres regardés, pouvoir les noter, les trier par préférence, par date
+        de sortie ou de dernière lecture, etc... <br /><br />
+        Comment ça marche ? <br />
+      </p> -->
+
+      }
+    </div>
+  </div>
+
+  <div class="toolbar" select-toolbar>
+    <ng-container *ngTemplateOutlet="selectionSummaryBand" />
+
+    <div class="select-search">
+      <input
+        class="select-search-input"
+        type="text"
+        placeholder="Rechercher un livre..."
+        aria-label="Rechercher un livre"
+        [value]="searchTerm()"
+        (input)="searchTerm.set($any($event.target).value)"
+      />
+    </div>
+  </div>
+
+  <div class="children-books-grid" select-grid>
+    @for (childrenBook of filteredChildrenBooks(); track `${childrenBook.title}-${childrenBook.author}`) {
+    <div
+      class="childrenBook-cover"
+      [class.selected]="isSelected(childrenBook)"
+      (click)="toggleSelection(childrenBook)"
+      [title]="childrenBook.title + ' - ' + childrenBook.author"
+    >
+      <img [src]="childrenBook.coverUrl" [alt]="childrenBook.title" />
+      <div class="overlay">
+        <div class="checkmark"></div>
+        <div class="childrenBook-info">
+          <span class="childrenBook-title">{{ childrenBook.title }}</span>
+          <span class="childrenBook-author">{{ childrenBook.author }}</span>
+        </div>
+      </div>
+    </div>
+    }
+  </div>
+
+  <div
+    class="toolbar toolbar--footer"
+    select-extra
+    aria-label="Résumé de sélection et validation en bas de page"
+  >
+    <ng-container *ngTemplateOutlet="selectionSummaryBand" />
+  </div>
+</app-select-entity>

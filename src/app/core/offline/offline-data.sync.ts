@@ -5,6 +5,11 @@ import {
   fetchUserBooksFromApi,
 } from '../../facades/books/api-books.facade';
 import {
+  fetchBaseChildrenBooksFromApi,
+  fetchReadlistChildrenBooksFromApi,
+  fetchUserChildrenBooksFromApi,
+} from '../../facades/children-books/api-children-books.facade';
+import {
   fetchBaseComicsFromApi,
   fetchReadlistComicsFromApi,
   fetchUserComicsFromApi,
@@ -68,6 +73,9 @@ export async function fetchOfflineCachePayload(
       booksBase,
       booksUser,
       booksReadlist,
+      childrenBooksBase,
+      childrenBooksUser,
+      childrenBooksReadlist,
       seriesBase,
       seriesUser,
       seriesWatchlist,
@@ -96,6 +104,9 @@ export async function fetchOfflineCachePayload(
       fetchBaseBooksFromApi(),
       fetchUserBooksFromApi(normalizedId),
       fetchReadlistBooksFromApi(normalizedId),
+      fetchBaseChildrenBooksFromApi(),
+      fetchUserChildrenBooksFromApi(normalizedId),
+      fetchReadlistChildrenBooksFromApi(normalizedId),
       fetchBaseSeriesFromApi(),
       fetchUserSeriesFromApi(normalizedId),
       fetchWatchlistSeriesFromApi(normalizedId),
@@ -131,6 +142,11 @@ export async function fetchOfflineCachePayload(
         base: booksBase,
         user: booksUser,
         readlist: booksReadlist,
+      },
+      childrenBooks: {
+        base: childrenBooksBase,
+        user: childrenBooksUser,
+        readlist: childrenBooksReadlist,
       },
       series: {
         base: seriesBase,

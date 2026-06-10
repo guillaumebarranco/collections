@@ -1,5 +1,9 @@
 import type { BaseBd, UserBd } from '../../models/bd-model';
 import type { BaseBook, UserBook } from '../../models/book-model';
+import type {
+  BaseChildrenBook,
+  UserChildrenBook,
+} from '../../models/children-book-model';
 import type { BaseComic, UserComic } from '../../models/comic-model';
 import type { BaseGame, UserGame } from '../../models/game-model';
 import type { BaseManga, UserManga } from '../../models/manga-model';
@@ -19,6 +23,12 @@ export interface OfflineBooksCache {
   base: BaseBook[];
   user: UserBook[];
   readlist: UserBook[];
+}
+
+export interface OfflineChildrenBooksCache {
+  base: BaseChildrenBook[];
+  user: UserChildrenBook[];
+  readlist: UserChildrenBook[];
 }
 
 export interface OfflineSeriesCache {
@@ -67,6 +77,7 @@ export interface OfflineCachePayload {
   savedAt: string;
   movies: OfflineMoviesCache;
   books: OfflineBooksCache;
+  childrenBooks: OfflineChildrenBooksCache;
   series: OfflineSeriesCache;
   games: OfflineGamesCache;
   mangas: OfflineMangasCache;

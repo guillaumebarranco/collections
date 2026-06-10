@@ -1,6 +1,7 @@
 /** Types d'entités pour le Top 5 personnel (alignés avec les collections) */
 export type TopFiveEntityType =
   | 'books'
+  | 'children-books'
   | 'movies'
   | 'series'
   | 'games'
@@ -19,6 +20,7 @@ export interface UserTopFive {
 
 const ENTITY_TYPES: TopFiveEntityType[] = [
   'books',
+  'children-books',
   'movies',
   'series',
   'games',

@@ -1,6 +1,7 @@
 const express = require('express');
 const moviesRoutes = require('./routes/movies/movies-routes');
 const booksRoutes = require('./routes/books/books-routes');
+const childrenBooksRoutes = require('./routes/children-books/children-books-routes');
 const seriesRoutes = require('./routes/series/series-routes');
 const gamesRoutes = require('./routes/games/games-routes');
 const mangasRoutes = require('./routes/mangas/mangas-routes');
@@ -36,6 +37,7 @@ app.use(express.json({ limit: '1mb' }));
 
 app.use('/api/movies', moviesRoutes);
 app.use('/api/books', booksRoutes);
+app.use('/api/children-books', childrenBooksRoutes);
 app.use('/api/series', seriesRoutes);
 app.use('/api/games', gamesRoutes);
 app.use('/api/mangas', mangasRoutes);

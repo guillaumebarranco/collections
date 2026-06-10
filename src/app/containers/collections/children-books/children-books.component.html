@@ -1,0 +1,389 @@
+<app-menu></app-menu>
+
+<div
+  class="children-books-container collection-view"
+  [class.container-saga-mode]="
+    selectedView() === 'sagas' ||
+    selectedView() === 'authors' ||
+    selectedView() === 'countries'
+  "
+>
+  @if (isLoadingChildrenBooks()) {
+  <app-loader message="Chargement des livres..." />
+  } @else {
+  <app-children-books-header
+    [selectedView]="selectedView()"
+    [selectedSortInput]="selectedSort()"
+    [selectedYearFilterInput]="selectedYearFilter()"
+    [searchTermInput]="searchTerm()"
+    [filteredChildrenBooksCount]="filteredChildrenBooks().length"
+    [recommendedChildrenBooksCount]="recommendedChildrenBooks().length"
+    [allChildrenBooksCount]="allChildrenBooks().length"
+    [showFiltersAndSearch]="showFiltersAndSearch()"
+    [showTopFiveRank]="showTopFiveRank()"
+    [stats]="stats()"
+    [viewOptions]="visibleViewOptions()"
+    [sortOptions]="sortOptions()"
+    [yearFilterOptions]="yearFilterOptions"
+    (onViewChange)="onViewChange($any($event))"
+    (onOpenViewConfig)="openViewConfig()"
+    (onYearFilterChange)="onYearFilterChange($event)"
+    (onSearchChange)="onSearchChange($event)"
+    (onSortChange)="onSortChange($event)"
+    (onTopFiveRankChange)="toggleTopFiveRankDisplay()"
+  ></app-children-books-header>
+
+  @if(selectedYearFilter() !== 'all') {
+  <p>Résultats affichés: {{ sortedChildrenBooks().length }}</p>
+  }
+
+  <!-- Recommendations -->
+  @if(selectedView() === 'recommendations') {
+  <div class="children-books">
+    @if (recommendationsOfflineBlocked()) {
+    <app-offline-restricted-message />
+    } @else if (isLoadingRecommendations()) {
+    <p>Chargement des recommandations...</p>
+    } @else if (followedIdsForRecommendations().length === 0) {
+    <p class="recommendations-no-follows">
+      Vous ne suivez aucun compte. Suivez des utilisateurs depuis votre
+      <a [routerLink]="[getActiveUserId(), 'dashboard']">tableau de bord</a>
+      pour avoir des recommandations.
+    </p>
+    } @else if (recommendedChildrenBooks().length === 0) {
+    <p>Aucune recommandation disponible pour le moment.</p>
+    } @else { @for (childrenBook of recommendedChildrenBooks(); track
+    `${childrenBook.title}-${childrenBook.author}`; let i = $index) {
+    <div class="childrenBook-card childrenBook-card--recommended childrenBook-card--missing">
+      <app-children-book
+        [childrenBook]="childrenBook"
+        [readOnly]="true"
+        [recommendationText]="getChildrenBookRecommendationText(childrenBook)"
+        [recommendationBadge]="
+          childrenBookAlreadyInUserReadlist(childrenBook)
+            ? 'Déjà dans votre readlist'
+            : 'Recommandé'
+        "
+        [sagaBadge]="getSagaBadge(childrenBook)"
+        [isInReadlist]="childrenBookAlreadyInUserReadlist(childrenBook)"
+        (addToReadlist)="addChildrenBookToReadlist($event)"
+      >
+      </app-children-book>
+    </div>
+    } }
+  </div>
+  }
+
+  <div>
+    @if(selectedView() !== 'recommendations') { @if(selectedView() ===
+    'authors') {
+    <div class="children-books-by-author">
+      @for (authorGroup of childrenBooksByAuthor(); track authorGroup.author) {
+      <section class="children-books-author-section">
+        <h2
+          class="children-books-author-title children-books-author-title--clickable"
+          (click)="toggleAuthor(authorGroup.author)"
+        >
+          @if (isAuthorCollapsed(authorGroup.author)) {
+          <span class="children-books-author-title-chevron">▶</span>
+          } @else {
+          <span class="children-books-author-title-chevron">▼</span>
+          }
+          {{ authorGroup.author }} ({{ authorGroup.readChildrenBooks.length }} lus) ({{
+            authorGroup.missingChildrenBooks.length
+          }}
+          restants à lire)
+        </h2>
+        @if (!isAuthorCollapsed(authorGroup.author)) {
+        <div class="children-books">
+          @for (childrenBook of authorGroup.readChildrenBooks; track childrenBook.title) {
+          <div class="childrenBook-card">
+            <app-children-book
+              [childrenBook]="childrenBook"
+              [showTopFiveSelector]="showTopFiveRank()"
+              [selectedView]="selectedView()"
+              [topFiveRank]="getTopFiveRank(childrenBook)"
+              [showAddToMyReadlist]="canShowAddToMyReadlist()"
+              [canAddToMyReadlist]="canAddChildrenBookToMyReadlist(childrenBook)"
+              [canAddAsRead]="canAddChildrenBookToMyRead(childrenBook)"
+              (editRequested)="openEditChildrenBookDialog(childrenBook)"
+              (topFiveRankChange)="onTopFiveRankChange(childrenBook, $event)"
+              (wantToReRead)="markChildrenBookAsWantToReRead($event)"
+              (haveReRead)="markChildrenBookAsReRead($event)"
+              (addToMyReadlist)="addChildrenBookToConnectedUserReadlist($event)"
+              (addToMyRead)="addChildrenBookToConnectedUserAsRead($event)"
+            ></app-children-book>
+          </div>
+          }
+        </div>
+        @if (authorGroup.missingChildrenBooks.length > 0) {
+        <div class="children-books-author-missing">
+          <p class="children-books-author-missing-label">Livres pour enfants pas encore lus</p>
+          <div class="children-books">
+            @for (childrenBook of authorGroup.missingChildrenBooks; track childrenBook.title) {
+            <div class="childrenBook-card childrenBook-card--missing">
+              <app-children-book
+                [childrenBook]="childrenBook"
+                [readOnly]="true"
+                [recommendationBadge]="'Non lu'"
+              ></app-children-book>
+            </div>
+            }
+          </div>
+        </div>
+        } }
+      </section>
+      }
+    </div>
+    } @else if(selectedView() === 'sagas') {
+    <div class="children-books-by-author">
+      @for (sagaGroup of childrenBooksBySaga(); track sagaGroup.saga) {
+      <section class="children-books-author-section">
+        <h2
+          class="children-books-author-title children-books-author-title--clickable"
+          (click)="toggleSaga(sagaGroup.saga)"
+        >
+          @if (isSagaCollapsed(sagaGroup.saga)) {
+          <span class="children-books-author-title-chevron">▶</span>
+          } @else {
+          <span class="children-books-author-title-chevron">▼</span>
+          }
+          {{ sagaGroup.saga }} ({{ sagaGroup.readChildrenBooks.length }} lus) ({{
+            sagaGroup.missingChildrenBooks.length
+          }}
+          restants à lire) @if(sagaGroup.isSagaFinished) {
+          <span style="color: green">Saga terminée</span>
+          } @else {
+          <span style="color: orange">Saga en cours</span>
+          }
+        </h2>
+        @if (!isSagaCollapsed(sagaGroup.saga)) {
+        <div class="children-books">
+          @for (childrenBook of sagaGroup.readChildrenBooks; track childrenBook.title) {
+          <div class="childrenBook-card">
+            <app-children-book
+              [childrenBook]="childrenBook"
+              [showTopFiveSelector]="showTopFiveRank()"
+              [selectedView]="selectedView()"
+              [topFiveRank]="getTopFiveRank(childrenBook)"
+              [showAddToMyReadlist]="canShowAddToMyReadlist()"
+              [canAddToMyReadlist]="canAddChildrenBookToMyReadlist(childrenBook)"
+              [canAddAsRead]="canAddChildrenBookToMyRead(childrenBook)"
+              (editRequested)="openEditChildrenBookDialog(childrenBook)"
+              (topFiveRankChange)="onTopFiveRankChange(childrenBook, $event)"
+              (wantToReRead)="markChildrenBookAsWantToReRead($event)"
+              (haveReRead)="markChildrenBookAsReRead($event)"
+              (addToMyReadlist)="addChildrenBookToConnectedUserReadlist($event)"
+              (addToMyRead)="addChildrenBookToConnectedUserAsRead($event)"
+            ></app-children-book>
+          </div>
+          }
+        </div>
+        @if (sagaGroup.missingChildrenBooks.length > 0) {
+        <div class="children-books-author-missing">
+          <p class="children-books-author-missing-label">Livres pour enfants pas encore lus</p>
+          <div class="children-books">
+            @for (childrenBook of sagaGroup.missingChildrenBooks; track childrenBook.title) {
+            <div class="childrenBook-card childrenBook-card--missing">
+              <app-children-book
+                [childrenBook]="childrenBook"
+                [readOnly]="true"
+                [recommendationBadge]="'Non lu'"
+              ></app-children-book>
+            </div>
+            }
+          </div>
+        </div>
+        } }
+      </section>
+      }
+    </div>
+    } @else if(selectedView() === 'countries') {
+    <div class="children-books-by-author">
+      @for (countryGroup of childrenBooksByCountry(); track countryGroup.country) {
+      <section class="children-books-author-section">
+        <h2
+          class="children-books-author-title children-books-author-title--clickable"
+          (click)="toggleCountry(countryGroup.country)"
+        >
+          @if (isCountryCollapsed(countryGroup.country)) {
+          <span class="children-books-author-title-chevron">▶</span>
+          } @else {
+          <span class="children-books-author-title-chevron">▼</span>
+          } {{ countryGroup.country }} ({{ countryGroup.readChildrenBooks.length }} lus)
+          ({{ countryGroup.missingChildrenBooks.length }}
+          restants à lire)
+        </h2>
+        @if (!isCountryCollapsed(countryGroup.country)) {
+        <div class="children-books">
+          @for (childrenBook of countryGroup.readChildrenBooks; track childrenBook.title) {
+          <div class="childrenBook-card">
+            <app-children-book
+              [childrenBook]="childrenBook"
+              [showTopFiveSelector]="showTopFiveRank()"
+              [selectedView]="selectedView()"
+              [topFiveRank]="getTopFiveRank(childrenBook)"
+              [showAddToMyReadlist]="canShowAddToMyReadlist()"
+              [canAddToMyReadlist]="canAddChildrenBookToMyReadlist(childrenBook)"
+              [canAddAsRead]="canAddChildrenBookToMyRead(childrenBook)"
+              (editRequested)="openEditChildrenBookDialog(childrenBook)"
+              (topFiveRankChange)="onTopFiveRankChange(childrenBook, $event)"
+              (wantToReRead)="markChildrenBookAsWantToReRead($event)"
+              (haveReRead)="markChildrenBookAsReRead($event)"
+              (addToMyReadlist)="addChildrenBookToConnectedUserReadlist($event)"
+              (addToMyRead)="addChildrenBookToConnectedUserAsRead($event)"
+            ></app-children-book>
+          </div>
+          }
+        </div>
+        @if (countryGroup.missingChildrenBooks.length > 0) {
+        <div class="children-books-author-missing">
+          <p class="children-books-author-missing-label">Livres pour enfants pas encore lus</p>
+          <div class="children-books">
+            @for (childrenBook of countryGroup.missingChildrenBooks; track childrenBook.title) {
+            <div class="childrenBook-card childrenBook-card--missing">
+              <app-children-book
+                [childrenBook]="childrenBook"
+                [readOnly]="true"
+                [recommendationBadge]="'Non lu'"
+              ></app-children-book>
+            </div>
+            }
+          </div>
+        </div>
+        } }
+      </section>
+      }
+    </div>
+    } @else {
+    <div class="children-books">
+      @for (childrenBook of sortedChildrenBooks(); track childrenBook.title) {
+      <div class="childrenBook-card">
+        <app-children-book
+          [childrenBook]="childrenBook"
+          [showTopFiveSelector]="showTopFiveRank()"
+          [showCommunityWatchersButton]="selectedView() === 'read'"
+          [isReadlistView]="
+            selectedView() === 'readlist' ||
+            selectedView() === 'readingInProgress'
+          "
+          [selectedView]="selectedView()"
+          [isInReadlist]="childrenBookAlreadyInUserReadlist(childrenBook)"
+          [topFiveRank]="getTopFiveRank(childrenBook)"
+          [showAddToMyReadlist]="canShowAddToMyReadlist()"
+          [canAddToMyReadlist]="canAddChildrenBookToMyReadlist(childrenBook)"
+          [canAddAsRead]="canAddChildrenBookToMyRead(childrenBook)"
+          (editRequested)="openEditChildrenBookDialog(childrenBook)"
+          (readPriorityUpdated)="updateReadPriority($event)"
+          (readlistStartedReading)="onReadlistStartedReading($event)"
+          (readlistMarkedAsRead)="onReadlistMarkedAsRead($event)"
+          (topFiveRankChange)="onTopFiveRankChange(childrenBook, $event)"
+          (wantToReRead)="markChildrenBookAsWantToReRead($event)"
+          (haveReRead)="markChildrenBookAsReRead($event)"
+          (addToMyReadlist)="addChildrenBookToConnectedUserReadlist($event)"
+          (addToMyRead)="addChildrenBookToConnectedUserAsRead($event)"
+        ></app-children-book>
+      </div>
+      }
+    </div>
+    } }
+  </div>
+  }
+</div>
+
+@if (isViewConfigOpen()) {
+<div class="children-books-config-overlay" (click)="closeViewConfig()">
+  <div
+    class="children-books-config-content"
+    role="dialog"
+    aria-modal="true"
+    aria-label="Configurer ma vue livres"
+    (click)="$event.stopPropagation()"
+  >
+    <div class="children-books-config-header">
+      <h2>Configurer ma vue livres</h2>
+      <button class="children-books-config-close" (click)="closeViewConfig()">✕</button>
+    </div>
+    <div class="children-books-config-body">
+      <p class="children-books-config-subtitle">Choisissez les onglets à afficher.</p>
+      <label class="children-books-config-option">
+        <input
+          type="checkbox"
+          [checked]="optionalViewConfig().owned"
+          (change)="onOptionalViewChange('owned', $any($event.target).checked)"
+        />
+        Livres pour enfants possédés
+      </label>
+      <label class="children-books-config-option">
+        <input
+          type="checkbox"
+          [checked]="optionalViewConfig().borrowed"
+          (change)="
+            onOptionalViewChange('borrowed', $any($event.target).checked)
+          "
+        />
+        Livres pour enfants empruntés
+      </label>
+      <label class="children-books-config-option">
+        <input
+          type="checkbox"
+          [checked]="optionalViewConfig().loaned"
+          (change)="onOptionalViewChange('loaned', $any($event.target).checked)"
+        />
+        Livres pour enfants prêtés
+      </label>
+      <label class="children-books-config-option">
+        <input
+          type="checkbox"
+          [checked]="optionalViewConfig().toReRead"
+          (change)="
+            onOptionalViewChange('toReRead', $any($event.target).checked)
+          "
+        />
+        Livres pour enfants à relire
+      </label>
+      <label class="children-books-config-option">
+        <input
+          type="checkbox"
+          [checked]="optionalViewConfig().authors"
+          (change)="
+            onOptionalViewChange('authors', $any($event.target).checked)
+          "
+        />
+        Voir par auteurs
+      </label>
+      <label class="children-books-config-option">
+        <input
+          type="checkbox"
+          [checked]="optionalViewConfig().sagas"
+          (change)="onOptionalViewChange('sagas', $any($event.target).checked)"
+        />
+        Voir par sagas
+      </label>
+      <label class="children-books-config-option">
+        <input
+          type="checkbox"
+          [checked]="optionalViewConfig().countries"
+          (change)="
+            onOptionalViewChange('countries', $any($event.target).checked)
+          "
+        />
+        Voir par pays
+      </label>
+      <label class="children-books-config-option">
+        <input
+          type="checkbox"
+          [checked]="optionalViewConfig().recommendations"
+          (change)="
+            onOptionalViewChange('recommendations', $any($event.target).checked)
+          "
+        />
+        Recommandations
+      </label>
+      <p class="children-books-config-hint">
+        « Lus », « À lire » et « En cours » restent affichés par défaut.
+      </p>
+    </div>
+  </div>
+</div>
+}

@@ -1,5 +1,6 @@
 import { BaseBd, Bd } from '../models/bd-model';
 import { BaseBook, Book } from '../models/book-model';
+import { BaseChildrenBook, ChildrenBook } from '../models/children-book-model';
 import { BaseComic, Comic } from '../models/comic-model';
 import { BaseGame, Game } from '../models/game-model';
 import { BaseManga, Manga } from '../models/manga-model';
@@ -23,6 +24,9 @@ export const getEmptyMovie = (movie: BaseMovie): Movie => ({
   borrowed: '',
   loaned: '',
 });
+
+export const getEmptyChildrenBook = (book: BaseChildrenBook): ChildrenBook =>
+  getEmptyBook(book as BaseBook) as ChildrenBook;
 
 export const getEmptyBook = (book: BaseBook): Book => ({
   title: book.title,

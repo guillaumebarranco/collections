@@ -1,0 +1,279 @@
+<div class="add-children-book">
+  <div class="header">
+    <h1>Ajouter un livre pour enfants</h1>
+    <button type="button" class="close-btn" (click)="close()">✕</button>
+  </div>
+
+  <form class="add-form" (ngSubmit)="onSubmit()">
+    <section class="form-section">
+      <h2>Informations du livre</h2>
+
+      <div class="form-row">
+        <label for="title">Titre</label>
+        <input
+          id="title"
+          type="text"
+          [ngModel]="entityForm().title"
+          (ngModelChange)="updateEntityField('title', $event)"
+          name="title"
+          required
+        />
+      </div>
+
+      <div class="form-row">
+        <label for="author">Auteur</label>
+        <input
+          id="author"
+          type="text"
+          [ngModel]="entityForm().author"
+          (ngModelChange)="updateEntityField('author', $event)"
+          name="author"
+          required
+        />
+      </div>
+
+      <div class="form-row">
+        <label for="coverUrl">Cover URL</label>
+        <input
+          id="coverUrl"
+          type="text"
+          [ngModel]="entityForm().coverUrl"
+          (ngModelChange)="updateEntityField('coverUrl', $event)"
+          name="coverUrl"
+        />
+      </div>
+
+      <div class="form-row">
+        <label for="pages">Pages</label>
+        <input
+          id="pages"
+          type="number"
+          min="0"
+          [ngModel]="entityForm().pages"
+          (ngModelChange)="updateEntityField('pages', $event)"
+          name="pages"
+        />
+      </div>
+
+      <div class="form-row genre-row">
+        <mat-form-field appearance="outline" class="genre-field">
+          <mat-label>Genres</mat-label>
+          <mat-select
+            id="genre"
+            multiple
+            [ngModel]="entityForm().genre"
+            (ngModelChange)="setGenres($event)"
+            name="genre"
+            placeholder="Sélectionner un ou plusieurs genres"
+          >
+            @for (g of childrenBookGenreOptions; track g) {
+              <mat-option [value]="g">{{ g }}</mat-option>
+            }
+          </mat-select>
+        </mat-form-field>
+      </div>
+
+      <div class="form-row">
+        <label for="saga">Saga</label>
+        <input
+          id="saga"
+          type="text"
+          [ngModel]="entityForm().saga"
+          (ngModelChange)="updateEntityField('saga', $event)"
+          name="saga"
+        />
+      </div>
+
+      <div class="form-row">
+        <label for="sagaOrder">Ordre dans la saga</label>
+        <input
+          id="sagaOrder"
+          type="number"
+          min="0"
+          [ngModel]="entityForm().sagaOrder"
+          (ngModelChange)="updateEntityField('sagaOrder', $event)"
+          name="sagaOrder"
+        />
+      </div>
+
+      <div class="form-row checkbox-row">
+        <label for="sagaFinished">Saga terminée</label>
+        <input
+          id="sagaFinished"
+          type="checkbox"
+          [checked]="entityForm().sagaFinished"
+          (change)="updateCheckbox('sagaFinished', $any($event).target.checked)"
+          name="sagaFinished"
+        />
+      </div>
+
+      <div class="form-row">
+        <label for="releaseDate">Date de sortie</label>
+        <input
+          id="releaseDate"
+          type="date"
+          [ngModel]="entityForm().releaseDate"
+          (ngModelChange)="updateEntityField('releaseDate', $event)"
+          name="releaseDate"
+        />
+      </div>
+
+      <div class="form-row">
+        <label for="countryOrigin">Pays d'origine</label>
+        <app-country-select
+          inputId="countryOrigin"
+          name="countryOrigin"
+          [value]="entityForm().countryOrigin"
+          (valueChange)="updateEntityField('countryOrigin', $event)"
+        />
+      </div>
+    </section>
+
+    @if(getUserId() !== 'admin') {
+    <section class="form-section">
+      <h2>Informations utilisateur</h2>
+
+      <div class="form-row">
+        <label>Note</label>
+        <div class="rating-control">
+          <button
+            *ngFor="let star of [1, 2, 3, 4, 5]"
+            type="button"
+            class="star-btn"
+            (click)="setRatingFromClick(star, $event)"
+          >
+            <span
+              class="star"
+              [class.star-full]="
+                getStarType(userForm().rating || 0, star) === 'full'
+              "
+              [class.star-threeQuarter]="
+                getStarType(userForm().rating || 0, star) === 'threeQuarter'
+              "
+              [class.star-half]="
+                getStarType(userForm().rating || 0, star) === 'half'
+              "
+              [class.star-quarter]="
+                getStarType(userForm().rating || 0, star) === 'quarter'
+              "
+              [class.star-empty]="
+                getStarType(userForm().rating || 0, star) === 'empty'
+              "
+            >
+              ★
+            </span>
+          </button>
+          <input
+            type="number"
+            min="0"
+            max="5"
+            step="0.25"
+            [ngModel]="userForm().rating"
+            (ngModelChange)="updateUserField('rating', $event)"
+            name="rating"
+            class="rating-input"
+            aria-label="Note numérique"
+          />
+          <span class="rating-value">{{ userForm().rating }}/5</span>
+        </div>
+      </div>
+
+      <div class="form-row">
+        <label for="readTimes">Relectures</label>
+        <input
+          id="readTimes"
+          type="number"
+          min="0"
+          [ngModel]="userForm().readTimes"
+          (ngModelChange)="updateUserField('readTimes', $event)"
+          name="readTimes"
+        />
+      </div>
+
+      <div class="form-row">
+        <label for="firstReadDate">Date de première lecture</label>
+        <input
+          id="firstReadDate"
+          type="date"
+          [ngModel]="userForm().firstReadDate"
+          (ngModelChange)="updateUserField('firstReadDate', $event)"
+          name="firstReadDate"
+        />
+      </div>
+      <div class="form-row">
+        <label for="lastReadDate">Date de dernière lecture</label>
+        <input
+          id="lastReadDate"
+          type="date"
+          [ngModel]="userForm().lastReadDate"
+          (ngModelChange)="updateUserField('lastReadDate', $event)"
+          name="lastReadDate"
+        />
+      </div>
+
+      <app-extra-dates-list
+        label="Autres dates de lecture"
+        hint="Relectures intermédiaires (hors première et dernière lecture)."
+        [dates]="userForm().otherReadDates"
+        (datesChange)="updateOtherReadDates($event)"
+      />
+
+      <div class="form-row checkbox-row">
+        <label for="owned">Possédé</label>
+        <input
+          id="owned"
+          type="checkbox"
+          [checked]="userForm().owned"
+          (change)="updateUserCheckbox('owned', $any($event).target.checked)"
+          name="owned"
+        />
+      </div>
+
+      <div class="form-row">
+        <label for="borrowed">Emprunté à</label>
+        <input
+          id="borrowed"
+          type="text"
+          [ngModel]="userForm().borrowed"
+          (ngModelChange)="updateUserField('borrowed', $event)"
+          name="borrowed"
+        />
+      </div>
+
+      <div class="form-row">
+        <label for="loaned">Prêté à</label>
+        <input
+          id="loaned"
+          type="text"
+          [ngModel]="userForm().loaned"
+          (ngModelChange)="updateUserField('loaned', $event)"
+          name="loaned"
+        />
+      </div>
+
+      <div class="form-row">
+        <label for="readPriority">Priorité dans la readlist</label>
+        <input
+          id="readPriority"
+          type="number"
+          [ngModel]="userForm().readPriority"
+          (ngModelChange)="updateUserField('readPriority', $event)"
+          name="readPriority"
+          min="0"
+        />
+      </div>
+    </section>
+    } @if(errorMessage()) {
+    <p class="error-message">{{ errorMessage() }}</p>
+    }
+
+    <div class="actions">
+      <button type="button" class="btn secondary" (click)="close()">
+        Annuler
+      </button>
+      <button type="submit" class="btn primary" [disabled]="isSaving()">
+        {{ isSaving() ? "Ajout..." : "Ajouter" }}
+      </button>
+    </div>
+  </form>
+</div>

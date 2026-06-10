@@ -1,0 +1,157 @@
+<div
+  class="children-books-container"
+  [class.container-saga-mode]="
+    selectedView() === 'sagas' ||
+    selectedView() === 'authors' ||
+    selectedView() === 'countries'
+  "
+>
+  <app-admin-children-books-header
+    [selectedView]="selectedView()"
+    [searchTermInput]="searchTerm()"
+    [filteredChildrenBooksCount]="filteredChildrenBooks().length"
+    (onViewChange)="onViewChange($any($event))"
+    (onSearchChange)="onSearchChange($event)"
+  ></app-admin-children-books-header>
+
+  @if (selectedView() === 'authors') {
+  <div class="children-books-by-author">
+    @for (authorGroup of childrenBooksByAuthor(); track authorGroup.author) {
+    <section class="children-books-author-section">
+      <h2 class="children-books-author-title">
+        {{ authorGroup.author }} ({{
+          authorGroup.readChildrenBooks.length + authorGroup.missingChildrenBooks.length
+        }})
+      </h2>
+      <div class="children-books">
+        @for (childrenBook of authorGroup.readChildrenBooks; track childrenBook.title) {
+        <div class="childrenBook-card">
+          <app-children-book
+            [childrenBook]="childrenBook"
+            (editRequested)="openEditChildrenBookDialog(childrenBook)"
+          ></app-children-book>
+        </div>
+        }
+      </div>
+      @if (authorGroup.missingChildrenBooks.length > 0) {
+      <div class="children-books-author-missing">
+        <p class="children-books-author-missing-label">Livres pour enfants pas encore lus</p>
+        <div class="children-books">
+          @for (childrenBook of authorGroup.missingChildrenBooks; track childrenBook.title) {
+          <div class="childrenBook-card childrenBook-card--missing">
+            <app-children-book
+              [childrenBook]="childrenBook"
+              [readOnly]="true"
+              [recommendationBadge]="'Non lu'"
+            ></app-children-book>
+          </div>
+          }
+        </div>
+      </div>
+      }
+    </section>
+    }
+  </div>
+  } @else if (selectedView() === 'sagas') {
+  <div class="children-books-by-author">
+    @for (sagaGroup of childrenBooksBySaga(); track sagaGroup.saga) {
+    <section class="children-books-author-section">
+      <h2 class="children-books-author-title">
+        {{ sagaGroup.saga }} ({{
+          sagaGroup.readChildrenBooks.length + sagaGroup.missingChildrenBooks.length
+        }}) @if (sagaGroup.isSagaFinished) {
+        <span style="color: green">Saga terminée</span>
+        } @else {
+        <span style="color: orange">Saga en cours</span>
+        }
+      </h2>
+      <div class="children-books">
+        @for (childrenBook of sagaGroup.readChildrenBooks; track childrenBook.title) {
+        <div class="childrenBook-card">
+          <app-children-book
+            [childrenBook]="childrenBook"
+            (editRequested)="openEditChildrenBookDialog(childrenBook)"
+          ></app-children-book>
+        </div>
+        }
+      </div>
+      @if (sagaGroup.missingChildrenBooks.length > 0) {
+      <div class="children-books-author-missing">
+        <p class="children-books-author-missing-label">Livres pour enfants pas encore lus</p>
+        <div class="children-books">
+          @for (childrenBook of sagaGroup.missingChildrenBooks; track childrenBook.title) {
+          <div class="childrenBook-card childrenBook-card--missing">
+            <app-children-book
+              [childrenBook]="childrenBook"
+              [readOnly]="true"
+              [recommendationBadge]="'Non lu'"
+            ></app-children-book>
+          </div>
+          }
+        </div>
+      </div>
+      }
+    </section>
+    }
+  </div>
+  } @else if (selectedView() === 'countries') {
+  <div class="children-books-by-author">
+    @for (countryGroup of childrenBooksByCountry(); track countryGroup.country) {
+    <section class="children-books-author-section">
+      <h2
+        class="children-books-author-title children-books-author-title--clickable"
+        (click)="toggleCountry(countryGroup.country)"
+      >
+        @if (isCountryCollapsed(countryGroup.country)) {
+        <span class="children-books-author-title-chevron">▶</span>
+        } @else {
+        <span class="children-books-author-title-chevron">▼</span>
+        }
+        {{ countryGroup.country }} ({{
+          countryGroup.readChildrenBooks.length + countryGroup.missingChildrenBooks.length
+        }})
+      </h2>
+      @if (!isCountryCollapsed(countryGroup.country)) {
+      <div class="children-books">
+        @for (childrenBook of countryGroup.readChildrenBooks; track childrenBook.title) {
+        <div class="childrenBook-card">
+          <app-children-book
+            [childrenBook]="childrenBook"
+            (editRequested)="openEditChildrenBookDialog(childrenBook)"
+          ></app-children-book>
+        </div>
+        }
+      </div>
+      @if (countryGroup.missingChildrenBooks.length > 0) {
+      <div class="children-books-author-missing">
+        <p class="children-books-author-missing-label">Livres pour enfants pas encore lus</p>
+        <div class="children-books">
+          @for (childrenBook of countryGroup.missingChildrenBooks; track childrenBook.title) {
+          <div class="childrenBook-card childrenBook-card--missing">
+            <app-children-book
+              [childrenBook]="childrenBook"
+              [readOnly]="true"
+              [recommendationBadge]="'Non lu'"
+            ></app-children-book>
+          </div>
+          }
+        </div>
+      </div>
+      } }
+    </section>
+    }
+  </div>
+  } @else {
+  <div class="children-books">
+    @for (childrenBook of sortedChildrenBooks(); track childrenBook.title) {
+    <div class="childrenBook-card">
+      <app-children-book
+        [childrenBook]="childrenBook"
+        (editRequested)="openEditChildrenBookDialog(childrenBook)"
+        (readlistMarkedAsRead)="refreshChildrenBooks()"
+      ></app-children-book>
+    </div>
+    }
+  </div>
+  }
+</div>

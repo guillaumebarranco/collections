@@ -1,5 +1,10 @@
 import { BaseBd, Bd, UserBd } from '../models/bd-model';
 import { BaseBook, Book, UserBook } from '../models/book-model';
+import {
+  BaseChildrenBook,
+  ChildrenBook,
+  UserChildrenBook,
+} from '../models/children-book-model';
 import { BaseComic, Comic, UserComic } from '../models/comic-model';
 import {
   BaseGame,
@@ -42,6 +47,36 @@ export const getBdDataFromUserBdAndBaseBd = (
   sagaOrder: baseBd?.sagaOrder ?? 0,
   borrowed: userBd.borrowed ?? '',
   loaned: userBd.loaned ?? '',
+});
+
+export const getChildrenBookDataFromUserChildrenBookAndBaseChildrenBook = (
+  userChildrenBook: UserChildrenBook,
+  baseChildrenBook: BaseChildrenBook
+): ChildrenBook => ({
+  title: userChildrenBook.title,
+  author: userChildrenBook.author,
+  rating: userChildrenBook.rating,
+  firstReadDate: userChildrenBook.firstReadDate,
+  lastReadDate: userChildrenBook.lastReadDate,
+  otherReadDates: userChildrenBook.otherReadDates ?? [],
+  reading: userChildrenBook.reading,
+  readTimes: userChildrenBook.readTimes,
+  coverUrl: baseChildrenBook?.coverUrl || '',
+  pages: baseChildrenBook?.pages || 0,
+  genre: baseChildrenBook?.genre ?? [],
+  saga: baseChildrenBook?.saga || '',
+  sagaOrder: baseChildrenBook?.sagaOrder || 0,
+  owned: userChildrenBook.owned,
+  borrowed: userChildrenBook.borrowed ?? '',
+  loaned: userChildrenBook.loaned ?? '',
+  readPriority: userChildrenBook.readPriority,
+  sagaFinished: baseChildrenBook?.sagaFinished || false,
+  releaseDate: baseChildrenBook?.releaseDate || '',
+  wantToReadAgain: userChildrenBook.wantToReadAgain,
+  description: baseChildrenBook?.description ?? '',
+  ratingComment: userChildrenBook.ratingComment ?? '',
+  countryOrigin: baseChildrenBook?.countryOrigin ?? '',
+  selectDisplayOrder: baseChildrenBook?.selectDisplayOrder ?? 0,
 });
 
 export const getBookDataFromUserBookAndBaseBook = (

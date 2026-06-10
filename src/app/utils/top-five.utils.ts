@@ -1,5 +1,6 @@
 import type { TopFiveEntityType } from '../models/top-five-model';
 import type { Book } from '../models/book-model';
+import type { ChildrenBook } from '../models/children-book-model';
 import type { Movie } from '../models/movie-model';
 import type { Serie } from '../models/serie-model';
 import type { Game } from '../models/game-model';
@@ -11,6 +12,7 @@ import type { Manwha } from '../models/manwha-model';
 
 export type Entity =
   | Book
+  | ChildrenBook
   | Movie
   | Serie
   | Game
@@ -28,6 +30,7 @@ export function getEntityKey(
   const e = entity as any;
   switch (entityType) {
     case 'books':
+    case 'children-books':
     case 'mangas':
     case 'manwhas':
       return `${e['title'] ?? ''}|${e['author'] ?? ''}`;
@@ -57,6 +60,7 @@ export function getEntityDisplayLabel(
     case 'musics':
       return [title, e['artist']].filter(Boolean).join(' – ');
     case 'books':
+    case 'children-books':
     case 'mangas':
     case 'manwhas':
       return [title, e['author']].filter(Boolean).join(' – ');

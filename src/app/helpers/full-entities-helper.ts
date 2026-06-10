@@ -1,5 +1,6 @@
 import { BaseBd, Bd } from '../models/bd-model';
 import { BaseBook, Book } from '../models/book-model';
+import { BaseChildrenBook, ChildrenBook } from '../models/children-book-model';
 import { BaseComic, Comic } from '../models/comic-model';
 import { BaseGame, Game } from '../models/game-model';
 import { BaseManga, Manga } from '../models/manga-model';
@@ -50,6 +51,9 @@ export const getFullComic = (comic: BaseComic): Comic => ({
   borrowed: '',
   loaned: '',
 });
+
+export const getFullChildrenBook = (book: BaseChildrenBook): ChildrenBook =>
+  getFullBook(book as BaseBook) as ChildrenBook;
 
 export const getFullBook = (book: BaseBook): Book => ({
   title: book.title,

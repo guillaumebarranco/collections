@@ -1,0 +1,110 @@
+<app-menu></app-menu>
+
+<ng-template #selectionSummaryBand>
+  <div class="selection-info">
+    <span class="count">{{ modifiedCount() }} livre(s) modifié(s)</span>
+    <span class="total">sur {{ allChildrenBooks().length }}</span>
+  </div>
+
+  <label class="select-filter-option">
+    <input
+      type="checkbox"
+      [checked]="showOnlyUnrated()"
+      (change)="toggleShowOnlyUnrated($any($event.target).checked)"
+    />
+    Filtrer sur les livres qui n'ont pas de note
+  </label>
+
+  <div class="select-search">
+    <input
+      type="search"
+      class="select-search-input"
+      placeholder="Rechercher par titre ou auteur…"
+      [value]="searchQuery()"
+      (input)="onSearchChange($any($event.target).value)"
+      aria-label="Rechercher un livre"
+    />
+  </div>
+
+  <div class="actions">
+    <button
+      class="makya-btn-big"
+      (click)="saveChildrenBooksRatings()"
+      [disabled]="allChildrenBooks().length === 0 || isSaving()"
+    >
+      ✅ Enregistrer mes notes ({{ modifiedCount() }})
+    </button>
+  </div>
+</ng-template>
+
+<div class="select-children-books-rating-container">
+  <div class="header">
+    <h1>Mettre à jour les notes de mes livres</h1>
+
+    <div class="selection-description">
+      <p>
+        Bonjour {{ username() }} 👋 <br /><br />
+        Sur cette page, tu peux mettre à jour la note de chaque livre de ta
+        collection. <br /><br />
+        Passe ta souris sur un livre pour voir les options de notes disponibles
+        et clique sur la note correspondante. <br /><br />
+        Une fois que tu as terminé, clique sur "Enregistrer mes notes" pour
+        appliquer les changements.
+      </p>
+    </div>
+  </div>
+
+  <div class="toolbar">
+    <ng-container *ngTemplateOutlet="selectionSummaryBand" />
+  </div>
+
+  @if (displayedChildrenBooks().length === 0 && allChildrenBooks().length > 0) {
+  <div class="select-empty-state">
+    @if (searchQuery().trim()) {
+    <p>Aucun livre ne correspond à ta recherche.</p>
+    } @else if (showOnlyUnrated()) {
+    <p>🎉 Tous tes livres ont déjà une note !</p>
+    }
+  </div>
+  }
+
+  <div class="children-books-grid">
+    @for (childrenBook of displayedChildrenBooks(); track `${childrenBook.title}-${childrenBook.author}`) {
+    <div class="childrenBook-cover" [title]="childrenBook.title + ' - ' + childrenBook.author">
+      <img [src]="childrenBook.coverUrl" [alt]="childrenBook.title" />
+      <div class="overlay">
+        <div class="childrenBook-info">
+          <span class="childrenBook-title">{{ childrenBook.title }}</span>
+          <div class="current-rating">
+            <div class="stars-display">
+              @for (star of getRatingStars(getRating(childrenBook)); track star.value) {
+              <span [class]="'star star-' + star.type"></span>
+              }
+              <span class="rating-value">{{ getRating(childrenBook) }}</span>
+            </div>
+          </div>
+        </div>
+        <div class="rating-buttons">
+          @for (rating of ratingOptions; track rating) {
+          <button
+            class="makya-btn-rating"
+            [class.active]="getRating(childrenBook) === rating"
+            (click)="updateRating(childrenBook, rating); $event.stopPropagation()"
+            (mousedown)="$event.stopPropagation()"
+          >
+            {{ rating }}
+          </button>
+          }
+        </div>
+      </div>
+    </div>
+    }
+  </div>
+
+  <div
+    class="toolbar toolbar--footer"
+    aria-label="Résumé des modifications et enregistrement en bas de page"
+  >
+    <ng-container *ngTemplateOutlet="selectionSummaryBand" />
+  </div>
+</div>

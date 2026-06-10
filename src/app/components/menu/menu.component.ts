@@ -161,6 +161,12 @@ export class MenuComponent implements OnInit {
   menuItems = [
     { label: 'Home', icon: '📊', key: 'dashboard', hideOnMobile: false },
     { label: 'Livres', icon: '📚', key: 'books', hideOnMobile: false },
+    {
+      label: 'Livres pour enfants',
+      icon: '🧒',
+      key: 'children-books',
+      hideOnMobile: false,
+    },
     { label: 'Films', icon: '🎬', key: 'movies', hideOnMobile: false },
     { label: 'Séries', icon: '📺', key: 'series', hideOnMobile: false },
     { label: 'Jeux', icon: '🎮', key: 'games', hideOnMobile: false },
@@ -285,6 +291,7 @@ export class MenuComponent implements OnInit {
   get readingMenuItems() {
     const readingKeys = new Set([
       'books',
+      'children-books',
       'mangas',
       'manwhas',
       'bds',
@@ -316,6 +323,7 @@ export class MenuComponent implements OnInit {
     if (this.isCompactMenu && withoutExtras.length < 5) return withoutExtras;
     const readingKeys = new Set([
       'books',
+      'children-books',
       'mangas',
       'manwhas',
       'bds',

@@ -1,5 +1,6 @@
 import { Routes } from '@angular/router';
 import { BooksComponent } from './containers/collections/books/books.component';
+import { ChildrenBooksComponent } from './containers/collections/children-books/children-books.component';
 import { MangasComponent } from './containers/collections/mangas/mangas.component';
 import { ManwhasComponent } from './containers/collections/manwhas/manwhas.component';
 import { ComicsComponent } from './containers/collections/comics/comics.component';
@@ -16,6 +17,10 @@ import { SelectBooksComponent } from './containers/selection/books/select-books/
 import { SelectBooksRatingComponent } from './containers/selection/books/select-books-rating/select-books-rating.component';
 import { SelectBooksTimesReadComponent } from './containers/selection/books/select-books-times-read/select-books-times-read.component';
 import { SelectBooksOwnedComponent } from './containers/selection/books/select-books-owned/select-books-owned.component';
+import { SelectChildrenBooksComponent } from './containers/selection/children-books/select-children-books/select-children-books.component';
+import { SelectChildrenBooksRatingComponent } from './containers/selection/children-books/select-children-books-rating/select-children-books-rating.component';
+import { SelectChildrenBooksTimesReadComponent } from './containers/selection/children-books/select-children-books-times-read/select-children-books-times-read.component';
+import { SelectChildrenBooksOwnedComponent } from './containers/selection/children-books/select-children-books-owned/select-children-books-owned.component';
 import { SelectSeriesComponent } from './containers/selection/series/select-series/select-series.component';
 import { SelectSeriesRatingComponent } from './containers/selection/series/select-series-rating/select-series-rating.component';
 import { SelectSeriesTimesWatchedComponent } from './containers/selection/series/select-series-times-watched/select-series-times-watched.component';
@@ -46,6 +51,7 @@ import { SelectMusicsRatingComponent } from './containers/selection/musics/selec
 import { SelectMusicsTimesListenedComponent } from './containers/selection/musics/select-musics-times-listened/select-musics-times-listened.component';
 import { EditMovieComponent } from './containers/edit/edit-movie/edit-movie.component';
 import { EditBookComponent } from './containers/edit/edit-book/edit-book.component';
+import { EditChildrenBookComponent } from './containers/edit/edit-children-book/edit-children-book.component';
 import { EditSerieComponent } from './containers/edit/edit-serie/edit-serie.component';
 import { EditGameComponent } from './containers/edit/edit-game/edit-game.component';
 import { AdminLayoutComponent } from './containers/admin-layout/admin-layout.component';
@@ -54,6 +60,7 @@ import { AdminMoviesComponent } from './containers/admin-collections/movies/movi
 import { AdminGamesComponent } from './containers/admin-collections/games/games.component';
 import { AdminSeriesComponent } from './containers/admin-collections/series/series.component';
 import { AdminBooksComponent } from './containers/admin-collections/books/books.component';
+import { AdminChildrenBooksComponent } from './containers/admin-collections/children-books/children-books.component';
 import { AdminMangasComponent } from './containers/admin-collections/mangas/mangas.component';
 import { AdminManwhasComponent } from './containers/admin-collections/manwhas/manwhas.component';
 import { AdminComicsComponent } from './containers/admin-collections/comics/comics.component';
@@ -88,6 +95,10 @@ export const routes: Routes = [
       {
         path: 'books',
         component: AdminBooksComponent,
+      },
+      {
+        path: 'children-books',
+        component: AdminChildrenBooksComponent,
       },
       {
         path: 'mangas',
@@ -193,6 +204,22 @@ export const routes: Routes = [
   {
     path: 'select-books-rating',
     component: SelectBooksRatingComponent,
+  },
+  {
+    path: 'select-children-books',
+    component: SelectChildrenBooksComponent,
+  },
+  {
+    path: 'select-children-books-times-read',
+    component: SelectChildrenBooksTimesReadComponent,
+  },
+  {
+    path: 'select-children-books-owned',
+    component: SelectChildrenBooksOwnedComponent,
+  },
+  {
+    path: 'select-children-books-rating',
+    component: SelectChildrenBooksRatingComponent,
   },
   {
     path: 'select-series',
@@ -315,6 +342,10 @@ export const routes: Routes = [
         component: EditBookComponent,
       },
       {
+        path: 'edit-children-book/:slug',
+        component: EditChildrenBookComponent,
+      },
+      {
         path: 'edit-game/:slug',
         component: EditGameComponent,
       },
@@ -329,6 +360,16 @@ export const routes: Routes = [
           {
             path: 'edit/:slug',
             component: EditBookComponent,
+          },
+        ],
+      },
+      {
+        path: 'children-books',
+        component: ChildrenBooksComponent,
+        children: [
+          {
+            path: 'edit/:slug',
+            component: EditChildrenBookComponent,
           },
         ],
       },
@@ -438,6 +479,22 @@ export const routes: Routes = [
       {
         path: 'select-books-rating',
         component: SelectBooksRatingComponent,
+      },
+      {
+        path: 'select-children-books',
+        component: SelectChildrenBooksComponent,
+      },
+      {
+        path: 'select-children-books-times-read',
+        component: SelectChildrenBooksTimesReadComponent,
+      },
+      {
+        path: 'select-children-books-owned',
+        component: SelectChildrenBooksOwnedComponent,
+      },
+      {
+        path: 'select-children-books-rating',
+        component: SelectChildrenBooksRatingComponent,
       },
       {
         path: 'select-series',

@@ -1,0 +1,155 @@
+<div class="children-books-header">
+  <h1>
+    {{ childrenBooksPageTitle() }} ({{
+      selectedView() === "recommendations"
+        ? recommendedChildrenBooksCount()
+        : filteredChildrenBooksCount()
+    }})
+  </h1>
+
+  @if(allChildrenBooksCount() === 0) {
+  <div class="empty-state">
+    <p class="empty-message">Vous n'avez aucun livre dans votre collection.</p>
+    <p class="empty-subtitle">
+      Commencez dès maintenant à créer votre bibliothèque personnelle !
+    </p>
+    <button class="makya-btn-ultra-big" [routerLink]="getSelectChildrenBooksRoute()">
+      Sélectionner mes livres
+    </button>
+  </div>
+  } @else {
+  <div class="children-books-header-top">
+    <app-view-toggle
+      [toggleClass]="'children-books-view-toggle'"
+      [options]="viewOptions()"
+      [selected]="selectedView()"
+      (selectedChange)="onViewChange.emit($any($event))"
+    ></app-view-toggle>
+  </div>
+
+  <div class="children-books-header-tools-accordion">
+    @if (isMobileViewport()) {
+    <button
+      type="button"
+      class="children-books-header-tools-accordion__summary"
+      [attr.aria-expanded]="toolsPanelExpanded()"
+      (click)="toggleToolsPanel()"
+    >
+      Afficher les actions et statistiques
+    </button>
+    }
+
+    <div
+      class="children-books-header-tools-accordion__content"
+      [class.children-books-header-tools-accordion__content--collapsed]="
+        isMobileViewport() && !toolsPanelExpanded()
+      "
+    >
+      <div class="children-books-actions" *appCanEdit>
+          <button
+            class="makya-btn-small"
+            type="button"
+            title="Configurer l'affichage des onglets"
+            (click)="onOpenViewConfig.emit()"
+          >
+            ⚙️ Configurer ma vue livres
+          </button>
+          @if(canShowAddChildrenBooksButton()) {
+          <button
+            class="makya-btn-small"
+            [routerLink]="getSelectChildrenBooksRoute()"
+            [queryParams]="{
+              readlist:
+                selectedView() === 'readlist' ||
+                selectedView() === 'readingInProgress',
+            }"
+            title="Ajouter des livres"
+          >
+            ➕
+            {{ addChildrenBooksButtonLabel() }}
+          </button>
+          } @if(canShowUpdateChildrenBooksRatingButton()) {
+          <button
+            class="makya-btn-small"
+            [routerLink]="getSelectChildrenBooksRatingRoute()"
+            title="Mettre à jour les notes de mes livres"
+          >
+            ⭐Notes
+          </button>
+          } @if(canShowUpdateChildrenBooksTimesReadButton()) {
+          <button
+            class="makya-btn-small"
+            [routerLink]="getSelectChildrenBooksTimesReadRoute()"
+            title="Mettre à jour le nombre de lectures de mes livres"
+          >
+            🎬 Lectures
+          </button>
+          } @if(canShowUpdateChildrenBooksOwnedButton()) {
+          <button
+            class="makya-btn-small"
+            [routerLink]="getSelectChildrenBooksOwnedRoute()"
+            title="Mettre à jour les livres possédés"
+          >
+            ✅ Possédés
+          </button>
+          } @if(canShowTopFiveRankButton()) {
+          <button
+            class="makya-btn-small"
+            [class.active]="showTopFiveRank()"
+            title="Voir les top 5 des livres"
+            (click)="onTopFiveRankChange.emit()"
+          >
+            🏆 Top 5
+          </button>
+          }
+      </div>
+
+      @if (showFiltersAndSearch() && canShowFiltersAndSearch()) {
+      <div class="children-books-stats-bloc">
+        <app-stats-display
+          [stats]="stats()"
+          [count]="filteredChildrenBooksCount()"
+          countLabel="livres"
+        >
+        </app-stats-display>
+
+        <div class="children-books-filters">
+          @if(selectedView() === 'read') {
+          <div class="children-books-filters-item">
+            <app-sort-dropdown
+              label="Filtrer par année :"
+              [sortOptions]="yearFilterOptions()"
+              [selectedSort]="selectedYearFilter()"
+              (sortChange)="onYearFilterChange.emit($event)"
+            >
+            </app-sort-dropdown>
+          </div>
+          } @if(canShowSortDropdown()) {
+          <app-sort-dropdown
+            label="Trier par :"
+            [sortOptions]="sortOptions()"
+            [selectedSort]="selectedSort()"
+            (sortChange)="onSortChange.emit($event)"
+          >
+          </app-sort-dropdown>
+          }
+        </div>
+      </div>
+
+      <div class="entity-input-search">
+        <input
+          type="text"
+          placeholder="Rechercher par titre, auteur, genre..."
+          [ngModel]="searchTerm()"
+          (ngModelChange)="onSearchChange.emit($event)"
+        />
+      </div>
+      } @if(noDataForThisView()) {
+      <div class="empty-state">
+        <p class="empty-message">{{ noDataMessageText() }}</p>
+      </div>
+      }
+    </div>
+  </div>
+  }
+</div>

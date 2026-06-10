@@ -1,0 +1,56 @@
+@use "../../../../styles/containers.scss" as containers;
+
+.children-books-header {
+  h1 {
+    @include containers.header-title-base;
+  }
+
+  .empty-state {
+    @include containers.empty-state-base;
+  }
+}
+
+.children-books-header-top {
+  @include containers.header-top-with-view-toggle;
+}
+
+.children-books-actions {
+  @include containers.header-actions-row;
+}
+
+.children-books-stats-bloc {
+  @include containers.header-base;
+
+  .children-books-filters {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    box-sizing: border-box;
+  }
+
+  .children-books-filters-item {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    color: #34495e;
+    font-size: 1rem;
+    font-weight: 500;
+    min-width: 0;
+  }
+}
+
+@include containers.responsive-base {
+  .children-books-stats-bloc {
+    flex-direction: column;
+    gap: 8px;
+    text-align: center;
+
+    .children-books-filters {
+      min-width: 0;
+      width: 100%;
+      max-width: 100%;
+    }
+  }
+}
+
+@include containers.header-tools-accordion("children-books-header-tools-accordion");

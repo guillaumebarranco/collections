@@ -1,0 +1,59 @@
+@use "../../select-base.scss" as *;
+
+.select-children-books-container {
+  @extend %select-container;
+
+  .header {
+    @extend %select-header;
+  }
+
+  .childrenBook-info {
+    @extend %select-item-info;
+  }
+
+  .toolbar {
+    @extend %select-toolbar;
+
+    .selection-info .count {
+      color: #28a745;
+    }
+
+    .makya-btn-big {
+      background: #28a745;
+
+      &:hover:not(:disabled) {
+        background: #218838;
+        box-shadow: 0 4px 8px rgba(40, 167, 69, 0.3);
+      }
+    }
+  }
+
+  .error-message {
+    margin: 12px auto 0;
+    max-width: 800px;
+    color: #ff7b7b;
+    font-size: 14px;
+    text-align: center;
+  }
+
+  .children-books-grid {
+    @extend %select-grid;
+  }
+
+  .childrenBook-cover {
+    @extend %select-item;
+
+    .overlay .checkmark {
+      color: #28a745;
+    }
+
+    &.selected {
+      border-color: #28a745;
+      box-shadow: 0 0 0 2px white, 0 0 0 4px #28a745;
+
+      .overlay {
+        background: rgba(40, 167, 69, 0.3);
+      }
+    }
+  }
+}

@@ -1,0 +1,135 @@
+<app-entity-card>
+  @if (!readOnly) {
+  <div entity-edit>
+    <button
+      type="button"
+      class="edit-button"
+      aria-label="Editer le livre"
+      (click)="requestEdit()"
+      *appCanEdit
+    >
+      &#9998;
+    </button>
+    @if (showCommunityWatchersButton) {
+    <button
+      type="button"
+      class="edit-button community-button"
+      (click)="openCommunityWatchersModal()"
+      aria-label="Voir qui a lu ce livre (communauté)"
+    >
+      👥
+    </button>
+    }
+  </div>
+  }
+
+  <ng-container entity-badges>
+    @if (showTopFiveSelector && !readOnly) {
+    <span class="top-five-selector">
+      <label
+        for="top5-{{ childrenBook.title }}-{{ childrenBook.author }}"
+        class="top-five-label"
+        >Top 5</label
+      >
+      <select
+        [id]="'top5-' + childrenBook.title + '-' + childrenBook.author"
+        [value]="topFiveRank !== null ? topFiveRank : ''"
+        (change)="onTopFiveSelect($event)"
+        class="top-five-select"
+      >
+        <option value="">—</option>
+        <option value="1">#1</option>
+        <option value="2">#2</option>
+        <option value="3">#3</option>
+        <option value="4">#4</option>
+        <option value="5">#5</option>
+      </select>
+    </span>
+    } @if (recommendationBadge) {
+    <span class="missing-badge">{{ recommendationBadge }}</span>
+    } @if (childrenBook.borrowed && !isBaseEntityView) {
+    <span class="missing-badge" style="background-color: #9c27b0; color: white"
+      >Emprunté à {{ childrenBook.borrowed }}</span
+    >
+    } @if (childrenBook.owned && selectedView === 'readlist' && !isBaseEntityView) {
+    <span class="missing-badge" style="background-color: #2e7d32; color: white"
+      >Possédé</span
+    >
+    } @if (childrenBook.loaned && !isBaseEntityView) {
+    <span class="missing-badge" style="background-color: #00695c; color: white"
+      >Prêté à {{ childrenBook.loaned }}</span
+    >
+    } @if (childrenBook.wantToReadAgain && !isBaseEntityView) {
+    <span class="missing-badge" style="background-color: #2196f3; color: white"
+      >À relire</span
+    >
+    } @if (sagaBadge) {
+    <span
+      class="missing-badge"
+      [style.background-color]="
+        sagaBadge === 'Saga terminée' ? '#4caf50' : '#ff9800'
+      "
+      [style.color]="'white'"
+      >{{ sagaBadge }}</span
+    >
+    } @if (showApproximateDateBadge && !isBaseEntityView) {
+    <span class="missing-badge approximate-date-badge">Date approximative</span>
+    }
+  </ng-container>
+
+  <img
+    entity-cover
+    [src]="childrenBook.coverUrl"
+    [alt]="childrenBook.title"
+    class="cover-image"
+    referrerpolicy="no-referrer"
+  />
+  <div entity-info>
+    <h3 class="childrenBook-title">{{ childrenBook.title }}</h3>
+    @if (childrenBook.saga && childrenBook.sagaOrder) {
+    <p class="childrenBook-saga">{{ childrenBook.saga }} : Tome {{ childrenBook.sagaOrder }}</p>
+    }
+    <p class="childrenBook-author">{{ childrenBook.author }}</p>
+    @if(childrenBook.releaseDate) {
+    <p class="childrenBook-pages">Paru en {{ childrenBook.releaseDate | date : "yyyy" }}</p>
+    } @if (childrenBook.description) {
+    <p class="childrenBook-description">{{ childrenBook.description }}</p>
+    } @if (childrenBook.pages) {
+    <p class="childrenBook-pages">
+      <span>{{ childrenBook.pages }}</span> pages
+    </p>
+    } @if ((childrenBook.lastReadDate || childrenBook.firstReadDate).includes('-') &&
+    !isBaseEntityView) {
+    <p class="childrenBook-read-times">
+      Lu le {{ childrenBook.lastReadDate || childrenBook.firstReadDate | date : "dd/MM/yyyy" }}
+    </p>
+    } @if (childrenBook.readTimes && childrenBook.readTimes > 1 && !isBaseEntityView) {
+    <p class="childrenBook-read-times">Lu {{ childrenBook.readTimes }} fois</p>
+    } @if ( !isBaseEntityView || (showAddToMyReadlist && (canAddToMyReadlist ||
+    canAddAsRead)) ) {
+    <app-entity-card-rating-and-buttons
+      [entityData]="getEntityData()"
+      [recommendationText]="recommendationText"
+      [recommendationBadge]="recommendationBadge"
+      [showRating]="!isBaseEntityView"
+      [selectedView]="selectedView"
+      [listReading]="isChildrenBookReading()"
+      [listReadTimes]="childrenBook.readTimes ?? 0"
+      [showAddToMyListActions]="showAddToMyReadlist"
+      [canAddToMyWishlist]="canAddToMyReadlist"
+      [canAddToMyDone]="canAddAsRead"
+      (openReview)="openReviewModal()"
+      (priorityUpdated)="updateReadPriority($event)"
+      (addFromList)="addChildrenBookFromReadlist()"
+      (startedReadingClick)="onStartedReadingClick()"
+      (addToList)="addToReadlist.emit(childrenBook)"
+      (wantToReReadClick)="wantToReRead.emit(childrenBook)"
+      (haveReReadClick)="haveReRead.emit(childrenBook)"
+      (addToMyWishlist)="addToMyReadlist.emit(childrenBook)"
+      (addToMyDone)="addToMyRead.emit(childrenBook)"
+    />
+    } @if (isBaseEntityView) {
+    <p class="childrenBook-genre">{{ childrenBook.genre.join(', ') }}</p>
+    }
+  </div>
+</app-entity-card>
