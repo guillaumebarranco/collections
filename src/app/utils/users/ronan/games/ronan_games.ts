@@ -1715,7 +1715,7 @@ export const ronanGames: UserGames = [
     wantToPlayAgain: true,
     ratingComment: "",
     borrowed: "",
-    loaned: "",
+    loaned: "Guillaume",
     sessions: [
 {
       finishedGame: false,

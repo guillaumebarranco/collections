@@ -1936,4 +1936,66 @@ export const baseMoviesApi: BaseMovie[] = [
     countryOrigin: ['Australie', 'États-Unis'],
     selectDisplayOrder: 0,
   },
+
+  {
+    title: "Disclosure Day",
+    director: "Steven Spielberg",
+    actors: [
+      {
+        name: "Josh O'Connor",
+      },
+      {
+        name: "Emily Blunt",
+      },
+      {
+        name: "Colin Firth",
+      },
+      {
+        name: "Colman Domingo",
+      },
+      {
+        name: "Eve Hewson",
+      },
+      {
+        name: "Wyatt Russel",
+      },
+    ],
+    coverUrl: "https://www.critikat.com/wp-content/uploads/2026/06/Disclosure-Day-affiche.jpg",
+    releaseDate: "2026-06-10",
+    length: 145,
+    genre: ['Science Fiction'],
+    saga: "",
+    description: "",
+    fromEntity: null,
+    countryOrigin: ['États-Unis'],
+    selectDisplayOrder: 0,
+  },
+
+  {
+    title: "Regretting You",
+    director: "Josh Boone",
+    actors: [
+      {
+        name: "McKenna Grace",
+      },
+      {
+        name: "Mason Thames",
+      },
+      {
+        name: "Allison Williams",
+      },
+      {
+        name: "Dave Franco",
+      },
+    ],
+    coverUrl: "https://fr.web.img6.acsta.net/img/4c/92/4c92464185c7a72bc6260dd9ec1051e8.jpg",
+    releaseDate: "2025-10-29",
+    length: 117,
+    genre: ['Comédie', 'Romance', 'Drame'],
+    saga: "",
+    description: "",
+    fromEntity: null,
+    countryOrigin: ['États-Unis'],
+    selectDisplayOrder: 0,
+  },
 ];
