@@ -2296,7 +2296,7 @@ export const ronanGames: UserGames = [
       platinedGame: false,
       additionnalEstimatedTime: 0,
       sessionStartDate: "",
-      sessionEndDate: "2026-05-27",
+      sessionEndDate: "2026-01-27",
       currentlyPlaying: false,
     }
     ],
