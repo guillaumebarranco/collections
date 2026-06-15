@@ -68,4 +68,47 @@ export const baseSeriesApi: BaseSerie[] = [
     saga: "Spider-Man",
     fromEntity: null,
   },
+
+  {
+    title: "Man on Fire",
+    director: "Kyle Killen",
+    actors: [
+      {
+        name: "Yahya Abdul-Mateen II",
+      },
+      {
+        name: "Billie Boullet",
+      },
+      {
+        name: "Alice Braga",
+      },
+      {
+        name: "Scoot McNairy",
+      },
+      {
+        name: "Bobby Cannavale",
+      },
+      {
+        name: "Jefferson Baptista",
+      },
+      {
+        name: "Iago Xavier",
+      },
+    ],
+    coverUrl: "https://m.media-amazon.com/images/M/MV5BZjFlMTMyZTAtY2NiZS00NzdjLWEwZTUtNDJjYjI4ZmU4NTBiXkEyXkFqcGc@._V1_.jpg",
+    releaseDate: "2026-04-30",
+    endDate: "",
+    genre: ['Action'],
+    seasonsData: [
+      {
+        seasonNumber: 1,
+        nbEpisodes: 7,
+        totalLength: 330,
+      },
+    ],
+    description: "",
+    countryOrigin: "États-Unis",
+    saga: "",
+    fromEntity: null,
+  },
 ];
