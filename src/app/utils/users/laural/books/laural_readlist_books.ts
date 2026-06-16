@@ -2,8 +2,8 @@ import { UserBook } from '../../../../models/book-model';
 
 export const lauralReadListBooks: UserBook[] = [
   {
-    title: "Les Hauts de Hurlevent",
-    author: "Emily Brontë",
+    title: 'Les Hauts de Hurlevent',
+    author: 'Emily Brontë',
     firstReadDate: '',
     lastReadDate: '',
     otherReadDates: [],
@@ -19,8 +19,8 @@ export const lauralReadListBooks: UserBook[] = [
   },
 
   {
-    title: "Le Procès",
-    author: "Franz Kafka",
+    title: 'Le Procès',
+    author: 'Franz Kafka',
     firstReadDate: '',
     lastReadDate: '',
     otherReadDates: [],
@@ -36,8 +36,8 @@ export const lauralReadListBooks: UserBook[] = [
   },
 
   {
-    title: "Cent ans de solitude",
-    author: "Gabriel García Márquez",
+    title: 'Cent ans de solitude',
+    author: 'Gabriel García Márquez',
     firstReadDate: '',
     lastReadDate: '',
     otherReadDates: [],
@@ -53,8 +53,8 @@ export const lauralReadListBooks: UserBook[] = [
   },
 
   {
-    title: "Hamlet",
-    author: "William Shakespeare",
+    title: 'Hamlet',
+    author: 'William Shakespeare',
     firstReadDate: '',
     lastReadDate: '',
     otherReadDates: [],
@@ -71,7 +71,7 @@ export const lauralReadListBooks: UserBook[] = [
 
   {
     title: "Le dernier jour d'un condamné",
-    author: "Victor Hugo",
+    author: 'Victor Hugo',
     firstReadDate: '',
     lastReadDate: '',
     otherReadDates: [],
@@ -88,7 +88,7 @@ export const lauralReadListBooks: UserBook[] = [
 
   {
     title: "L'Histoire sans fin",
-    author: "Michael Ende",
+    author: 'Michael Ende',
     firstReadDate: '',
     lastReadDate: '',
     otherReadDates: [],
@@ -104,8 +104,8 @@ export const lauralReadListBooks: UserBook[] = [
   },
 
   {
-    title: "Orgueil et Préjugés",
-    author: "Jane Austen",
+    title: 'Orgueil et Préjugés',
+    author: 'Jane Austen',
     firstReadDate: '',
     lastReadDate: '',
     otherReadDates: [],
@@ -121,25 +121,25 @@ export const lauralReadListBooks: UserBook[] = [
   },
 
   {
-    title: "Raison et sentiments",
-    author: "Jane Austen",
-    firstReadDate: "",
-    lastReadDate: "",
+    title: 'Raison et sentiments',
+    author: 'Jane Austen',
+    firstReadDate: '',
+    lastReadDate: '',
     otherReadDates: [],
     rating: 0,
     reading: false,
     readTimes: 1,
     owned: false,
-    borrowed: "",
-    loaned: "",
+    borrowed: '',
+    loaned: '',
     readPriority: 1,
     wantToReadAgain: false,
-    ratingComment: "",
+    ratingComment: '',
   },
 
   {
-    title: "Jane Eyre",
-    author: "Charlotte Brontë",
+    title: 'Jane Eyre',
+    author: 'Charlotte Brontë',
     firstReadDate: '',
     lastReadDate: '',
     otherReadDates: [],
@@ -156,7 +156,7 @@ export const lauralReadListBooks: UserBook[] = [
 
   {
     title: "L'homme invisible",
-    author: "H.G. Wells",
+    author: 'H.G. Wells',
     firstReadDate: '',
     lastReadDate: '',
     otherReadDates: [],
@@ -172,25 +172,8 @@ export const lauralReadListBooks: UserBook[] = [
   },
 
   {
-    title: "The Invisible Life of Addie LaRue",
-    author: "V.E. Schwab",
-    firstReadDate: "",
-    lastReadDate: "",
-    otherReadDates: [],
-    rating: 0,
-    reading: false,
-    readTimes: 1,
-    owned: false,
-    borrowed: "",
-    loaned: "",
-    readPriority: 0,
-    wantToReadAgain: false,
-    ratingComment: "",
-  },
-
-  {
-    title: "Player One",
-    author: "Ernest Cline",
+    title: 'The Invisible Life of Addie LaRue',
+    author: 'V.E. Schwab',
     firstReadDate: '',
     lastReadDate: '',
     otherReadDates: [],
@@ -206,8 +189,8 @@ export const lauralReadListBooks: UserBook[] = [
   },
 
   {
-    title: "Battle Royale",
-    author: "Kōshun Takami",
+    title: 'Player One',
+    author: 'Ernest Cline',
     firstReadDate: '',
     lastReadDate: '',
     otherReadDates: [],
@@ -223,8 +206,8 @@ export const lauralReadListBooks: UserBook[] = [
   },
 
   {
-    title: "Le fantôme de Canterville",
-    author: "Oscar Wilde",
+    title: 'Battle Royale',
+    author: 'Kōshun Takami',
     firstReadDate: '',
     lastReadDate: '',
     otherReadDates: [],
@@ -240,8 +223,8 @@ export const lauralReadListBooks: UserBook[] = [
   },
 
   {
-    title: "La Naissance de la tragédie",
-    author: "Friedrich Nietzsche",
+    title: 'Le fantôme de Canterville',
+    author: 'Oscar Wilde',
     firstReadDate: '',
     lastReadDate: '',
     otherReadDates: [],
@@ -257,8 +240,8 @@ export const lauralReadListBooks: UserBook[] = [
   },
 
   {
-    title: "Les Rêveries du promeneur solitaire",
-    author: "Jean-Jacques Rousseau",
+    title: 'La Naissance de la tragédie',
+    author: 'Friedrich Nietzsche',
     firstReadDate: '',
     lastReadDate: '',
     otherReadDates: [],
@@ -274,8 +257,8 @@ export const lauralReadListBooks: UserBook[] = [
   },
 
   {
-    title: "Les Souffrances du jeune Werther",
-    author: "Johann Wolfgang von Goethe",
+    title: 'Les Rêveries du promeneur solitaire',
+    author: 'Jean-Jacques Rousseau',
     firstReadDate: '',
     lastReadDate: '',
     otherReadDates: [],
@@ -291,8 +274,8 @@ export const lauralReadListBooks: UserBook[] = [
   },
 
   {
-    title: "Peau noire masques blancs",
-    author: "Frantz Fanon",
+    title: 'Les Souffrances du jeune Werther',
+    author: 'Johann Wolfgang von Goethe',
     firstReadDate: '',
     lastReadDate: '',
     otherReadDates: [],
@@ -308,8 +291,8 @@ export const lauralReadListBooks: UserBook[] = [
   },
 
   {
-    title: "Défier la nuit",
-    author: "Angèle Guissicca",
+    title: 'Peau noire masques blancs',
+    author: 'Frantz Fanon',
     firstReadDate: '',
     lastReadDate: '',
     otherReadDates: [],
@@ -325,8 +308,8 @@ export const lauralReadListBooks: UserBook[] = [
   },
 
   {
-    title: "La Maison sous la Maison",
-    author: "Émilie Chazerand",
+    title: 'Défier la nuit',
+    author: 'Angèle Guissicca',
     firstReadDate: '',
     lastReadDate: '',
     otherReadDates: [],
@@ -342,8 +325,8 @@ export const lauralReadListBooks: UserBook[] = [
   },
 
   {
-    title: "La Fille-Renard et la merveilleuse Boutique-sur-Pattes (1)",
-    author: "Andy Sagar",
+    title: 'La Maison sous la Maison',
+    author: 'Émilie Chazerand',
     firstReadDate: '',
     lastReadDate: '',
     otherReadDates: [],
@@ -359,8 +342,8 @@ export const lauralReadListBooks: UserBook[] = [
   },
 
   {
-    title: "Hotel Magnifique",
-    author: "Emily J. Taylor",
+    title: 'La Fille-Renard et la merveilleuse Boutique-sur-Pattes (1)',
+    author: 'Andy Sagar',
     firstReadDate: '',
     lastReadDate: '',
     otherReadDates: [],
@@ -376,8 +359,8 @@ export const lauralReadListBooks: UserBook[] = [
   },
 
   {
-    title: "En bons pères de famille",
-    author: "Rose Lamy",
+    title: 'Hotel Magnifique',
+    author: 'Emily J. Taylor',
     firstReadDate: '',
     lastReadDate: '',
     otherReadDates: [],
@@ -393,8 +376,8 @@ export const lauralReadListBooks: UserBook[] = [
   },
 
   {
-    title: "Le livre qui brisa le monde",
-    author: "Mark Lawrence",
+    title: 'En bons pères de famille',
+    author: 'Rose Lamy',
     firstReadDate: '',
     lastReadDate: '',
     otherReadDates: [],
@@ -410,8 +393,8 @@ export const lauralReadListBooks: UserBook[] = [
   },
 
   {
-    title: "Le problème à trois corps",
-    author: "Liu Cixin",
+    title: 'Le livre qui brisa le monde',
+    author: 'Mark Lawrence',
     firstReadDate: '',
     lastReadDate: '',
     otherReadDates: [],
@@ -427,8 +410,8 @@ export const lauralReadListBooks: UserBook[] = [
   },
 
   {
-    title: "Les disparus du phare de Tévennec",
-    author: "Aricia Favalli",
+    title: 'Le problème à trois corps',
+    author: 'Liu Cixin',
     firstReadDate: '',
     lastReadDate: '',
     otherReadDates: [],
@@ -444,8 +427,8 @@ export const lauralReadListBooks: UserBook[] = [
   },
 
   {
-    title: "Le Comte de Monte-Cristo",
-    author: "Alexandre Dumas",
+    title: 'Les disparus du phare de Tévennec',
+    author: 'Aricia Favalli',
     firstReadDate: '',
     lastReadDate: '',
     otherReadDates: [],
@@ -461,8 +444,8 @@ export const lauralReadListBooks: UserBook[] = [
   },
 
   {
-    title: "Bel-Ami",
-    author: "Guy de Maupassant",
+    title: 'Le Comte de Monte-Cristo',
+    author: 'Alexandre Dumas',
     firstReadDate: '',
     lastReadDate: '',
     otherReadDates: [],
@@ -478,8 +461,8 @@ export const lauralReadListBooks: UserBook[] = [
   },
 
   {
-    title: "La Métamorphose",
-    author: "Franz Kafka",
+    title: 'Bel-Ami',
+    author: 'Guy de Maupassant',
     firstReadDate: '',
     lastReadDate: '',
     otherReadDates: [],
@@ -495,8 +478,8 @@ export const lauralReadListBooks: UserBook[] = [
   },
 
   {
-    title: "La voleuse de livres",
-    author: "Markus Zusak",
+    title: 'La Métamorphose',
+    author: 'Franz Kafka',
     firstReadDate: '',
     lastReadDate: '',
     otherReadDates: [],
@@ -512,8 +495,8 @@ export const lauralReadListBooks: UserBook[] = [
   },
 
   {
-    title: "Le rouge et le noir",
-    author: "Stendhal",
+    title: 'La voleuse de livres',
+    author: 'Markus Zusak',
     firstReadDate: '',
     lastReadDate: '',
     otherReadDates: [],
@@ -529,8 +512,8 @@ export const lauralReadListBooks: UserBook[] = [
   },
 
   {
-    title: "Les Dents de la mer",
-    author: "Peter Benchley",
+    title: 'Le rouge et le noir',
+    author: 'Stendhal',
     firstReadDate: '',
     lastReadDate: '',
     otherReadDates: [],
@@ -546,8 +529,8 @@ export const lauralReadListBooks: UserBook[] = [
   },
 
   {
-    title: "Mary Poppins",
-    author: "Pamela L. Travers",
+    title: 'Les Dents de la mer',
+    author: 'Peter Benchley',
     firstReadDate: '',
     lastReadDate: '',
     otherReadDates: [],
@@ -563,8 +546,8 @@ export const lauralReadListBooks: UserBook[] = [
   },
 
   {
-    title: "Gatsby le magnifique",
-    author: "F. Scott Fitzgerald",
+    title: 'Mary Poppins',
+    author: 'Pamela L. Travers',
     firstReadDate: '',
     lastReadDate: '',
     otherReadDates: [],
@@ -580,8 +563,8 @@ export const lauralReadListBooks: UserBook[] = [
   },
 
   {
-    title: "Je suis une légende",
-    author: "Richard Matheson",
+    title: 'Gatsby le magnifique',
+    author: 'F. Scott Fitzgerald',
     firstReadDate: '',
     lastReadDate: '',
     otherReadDates: [],
@@ -597,8 +580,8 @@ export const lauralReadListBooks: UserBook[] = [
   },
 
   {
-    title: "Anna Karénine",
-    author: "Léon Tolstoï",
+    title: 'Je suis une légende',
+    author: 'Richard Matheson',
     firstReadDate: '',
     lastReadDate: '',
     otherReadDates: [],
@@ -614,8 +597,8 @@ export const lauralReadListBooks: UserBook[] = [
   },
 
   {
-    title: "Jurassic Park",
-    author: "Michael Crichton",
+    title: 'Anna Karénine',
+    author: 'Léon Tolstoï',
     firstReadDate: '',
     lastReadDate: '',
     otherReadDates: [],
@@ -631,8 +614,25 @@ export const lauralReadListBooks: UserBook[] = [
   },
 
   {
-    title: "La chronique des Bridgerton : La reine Charlotte",
-    author: "Julia Quinn",
+    title: 'Jurassic Park',
+    author: 'Michael Crichton',
+    firstReadDate: '',
+    lastReadDate: '',
+    otherReadDates: [],
+    rating: 0,
+    reading: false,
+    readTimes: 1,
+    owned: false,
+    borrowed: '',
+    loaned: '',
+    readPriority: 1,
+    wantToReadAgain: false,
+    ratingComment: '',
+  },
+
+  {
+    title: 'La chronique des Bridgerton : La reine Charlotte',
+    author: 'Julia Quinn',
     firstReadDate: '',
     lastReadDate: '',
     otherReadDates: [],
