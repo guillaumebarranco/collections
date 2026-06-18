@@ -6,6 +6,14 @@ import {
   todayIsoDate,
 } from '../../../utils/activity-extra-dates.utils';
 
+function clampPriority(
+  priority: number | null | undefined
+): number {
+  const n =
+    typeof priority === 'number' && Number.isFinite(priority) ? priority : 1;
+  return Math.min(3, Math.max(1, n));
+}
+
 export async function addChildrenBookToReadlist(
   childrenBook: ChildrenBook,
   getActiveUserId: string
@@ -92,7 +100,7 @@ export async function markChildrenBookAsWantToReRead(
         firstReadDate: childrenBook.firstReadDate,
         lastReadDate: childrenBook.lastReadDate,
         owned: childrenBook.owned,
-        readPriority: childrenBook.readPriority ?? 0,
+        readPriority: clampPriority(childrenBook.readPriority),
         wantToReadAgain: true,
         ratingComment: childrenBook.ratingComment ?? '',
       }),
@@ -152,7 +160,7 @@ export async function markChildrenBookAsReRead(
         lastReadDate: today,
         otherReadDates,
         owned: childrenBook.owned,
-        readPriority: childrenBook.readPriority ?? 0,
+        readPriority: clampPriority(childrenBook.readPriority),
         wantToReadAgain: false,
         ratingComment: childrenBook.ratingComment ?? '',
       }),
@@ -200,7 +208,7 @@ export async function markReadChildrenBookAsReadingInProgress(
         owned: childrenBook.owned ?? false,
         borrowed: childrenBook.borrowed ?? '',
         loaned: childrenBook.loaned ?? '',
-        readPriority: childrenBook.readPriority ?? 1,
+        readPriority: clampPriority(childrenBook.readPriority),
         wantToReadAgain: childrenBook.wantToReadAgain ?? false,
         ratingComment: childrenBook.ratingComment ?? '',
       }),
@@ -248,7 +256,7 @@ export async function markReadlistChildrenBookAsStarted(
         owned: childrenBook.owned ?? false,
         borrowed: childrenBook.borrowed ?? '',
         loaned: childrenBook.loaned ?? '',
-        readPriority: childrenBook.readPriority ?? 1,
+        readPriority: clampPriority(childrenBook.readPriority),
         wantToReadAgain: childrenBook.wantToReadAgain ?? false,
         ratingComment: childrenBook.ratingComment ?? '',
       }),
@@ -292,7 +300,7 @@ export async function updateReadPriority(
         firstReadDate: data.childrenBook.firstReadDate,
         lastReadDate: data.childrenBook.lastReadDate,
         owned: data.childrenBook.owned,
-        readPriority: data.priority,
+        readPriority: clampPriority(data.priority),
         wantToReadAgain: data.childrenBook.wantToReadAgain ?? false,
         ratingComment: data.childrenBook.ratingComment ?? '',
       }),

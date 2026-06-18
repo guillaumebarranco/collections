@@ -1,6 +1,14 @@
 import { getApiBaseUrl } from '../../../core/config';
 import { Game } from '../../../models/game-model';
 
+function clampPriority(
+  priority: number | null | undefined
+): number {
+  const n =
+    typeof priority === 'number' && Number.isFinite(priority) ? priority : 1;
+  return Math.min(3, Math.max(1, n));
+}
+
 export async function updateGamelistPriority(
   data: {
     game: Game;
@@ -20,7 +28,7 @@ export async function updateGamelistPriority(
         editor: data.game.editor,
         rating: data.game.rating,
         owned: data.game.owned,
-        gamelistPriority: data.priority,
+        gamelistPriority: clampPriority(data.priority),
         wantToPlayAgain: data.game.wantToPlayAgain ?? false,
         sessions: data.game.sessions ?? [],
         ratingComment: data.game.ratingComment ?? '',
@@ -60,7 +68,7 @@ export async function markGameAsWantToRePlay(
         editor: game.editor,
         rating: game.rating,
         owned: game.owned,
-        gamelistPriority: game.gamelistPriority ?? 1,
+        gamelistPriority: clampPriority(game.gamelistPriority),
         wantToPlayAgain: true,
         sessions: game.sessions ?? [],
         ratingComment: game.ratingComment ?? '',
@@ -92,7 +100,7 @@ export async function markGameAsRePlayed(
         editor: game.editor,
         rating: game.rating,
         owned: game.owned,
-        gamelistPriority: game.gamelistPriority ?? 1,
+        gamelistPriority: clampPriority(game.gamelistPriority),
         wantToPlayAgain: false,
         sessions: game.sessions ?? [],
         ratingComment: game.ratingComment ?? '',

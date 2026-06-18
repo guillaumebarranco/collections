@@ -6,6 +6,14 @@ import {
 } from '../../../utils/activity-extra-dates.utils';
 import type { UserMovieListItem } from '../../../models/movie-list.model';
 
+function clampPriority(
+  priority: number | null | undefined
+): number {
+  const n =
+    typeof priority === 'number' && Number.isFinite(priority) ? priority : 1;
+  return Math.min(3, Math.max(1, n));
+}
+
 export async function updateWatchPriority(
   data: {
     movie: Movie;
@@ -30,7 +38,7 @@ export async function updateWatchPriority(
         seenAtCinema: data.movie.seenAtCinema,
         owned: data.movie.owned,
         wantToSeeAgain: data.movie.wantToSeeAgain,
-        watchPriority: data.priority,
+        watchPriority: clampPriority(data.priority),
         ratingComment: data.movie.ratingComment ?? '',
         inList: data.movie.inList ?? [],
       }),
@@ -80,7 +88,7 @@ export async function markMovieAsReWatched(
         seenAtCinema: movie.seenAtCinema,
         owned: movie.owned,
         wantToSeeAgain: false,
-        watchPriority: movie.watchPriority ?? 1,
+        watchPriority: clampPriority(movie.watchPriority),
         ratingComment: movie.ratingComment ?? '',
         inList: movie.inList ?? [],
       }),
@@ -123,7 +131,7 @@ export async function markMovieAsWantToReWatch(
         seenAtCinema: movie.seenAtCinema,
         owned: movie.owned,
         wantToSeeAgain: true,
-        watchPriority: movie.watchPriority ?? 1,
+        watchPriority: clampPriority(movie.watchPriority),
         ratingComment: movie.ratingComment ?? '',
         inList: movie.inList ?? [],
       }),
@@ -314,7 +322,7 @@ export async function addMovieToList(
         seenAtCinema: movie.seenAtCinema,
         owned: movie.owned,
         wantToSeeAgain: movie.wantToSeeAgain,
-        watchPriority: movie.watchPriority ?? 1,
+        watchPriority: clampPriority(movie.watchPriority),
         ratingComment: movie.ratingComment ?? '',
         inList: [...currentList, listName],
       }),

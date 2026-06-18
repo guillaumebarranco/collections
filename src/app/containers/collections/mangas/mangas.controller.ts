@@ -1,6 +1,14 @@
 import { getApiBaseUrl } from '../../../core/config';
 import { Manga } from '../../../models/manga-model';
 
+function clampPriority(
+  priority: number | null | undefined
+): number {
+  const n =
+    typeof priority === 'number' && Number.isFinite(priority) ? priority : 1;
+  return Math.min(3, Math.max(1, n));
+}
+
 export async function updateReadPriority(
   data: {
     manga: Manga;
@@ -22,7 +30,7 @@ export async function updateReadPriority(
         readTimes: data.manga.readTimes,
         readDate: data.manga.readDate,
         owned: data.manga.owned,
-        readPriority: data.priority,
+        readPriority: clampPriority(data.priority),
         wantToReadAgain: data.manga.wantToReadAgain ?? false,
         ratingComment: data.manga.ratingComment ?? '',
       }),
@@ -63,7 +71,7 @@ export async function markMangaAsWantToReRead(
         readTimes: manga.readTimes,
         readDate: manga.readDate,
         owned: manga.owned,
-        readPriority: manga.readPriority ?? 1,
+        readPriority: clampPriority(manga.readPriority),
         wantToReadAgain: true,
         ratingComment: manga.ratingComment ?? '',
       }),
@@ -96,7 +104,7 @@ export async function markMangaAsReRead(
         readTimes: manga.readTimes,
         readDate: manga.readDate,
         owned: manga.owned,
-        readPriority: manga.readPriority ?? 1,
+        readPriority: clampPriority(manga.readPriority),
         wantToReadAgain: false,
         ratingComment: manga.ratingComment ?? '',
       }),
@@ -133,7 +141,7 @@ export async function markReadlistMangaAsStarted(
         owned: manga.owned ?? false,
         borrowed: manga.borrowed ?? '',
         loaned: manga.loaned ?? '',
-        readPriority: manga.readPriority ?? 1,
+        readPriority: clampPriority(manga.readPriority),
         wantToReadAgain: manga.wantToReadAgain ?? false,
         ratingComment: manga.ratingComment ?? '',
       }),

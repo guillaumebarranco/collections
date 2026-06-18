@@ -26,6 +26,14 @@ function buildWatchlistSeasonsWatching(serie: Serie): UserSerieSeason[] {
   }));
 }
 
+function clampPriority(
+  priority: number | null | undefined
+): number {
+  const n =
+    typeof priority === 'number' && Number.isFinite(priority) ? priority : 1;
+  return Math.min(3, Math.max(1, n));
+}
+
 export async function updateWatchPriority(
   data: {
     serie: Serie;
@@ -45,7 +53,7 @@ export async function updateWatchPriority(
         director: data.serie.director,
         seasons: data.serie.seasons,
         owned: data.serie.owned,
-        watchPriority: data.priority,
+        watchPriority: clampPriority(data.priority),
         wantToWatchAgain: data.serie.wantToWatchAgain ?? false,
         ratingComment: data.serie.ratingComment ?? '',
       }),
@@ -84,7 +92,7 @@ export async function markSerieAsWantToReWatch(
         director: serie.director,
         seasons: serie.seasons,
         owned: serie.owned,
-        watchPriority: serie.watchPriority ?? 1,
+        watchPriority: clampPriority(serie.watchPriority),
         wantToWatchAgain: true,
         ratingComment: serie.ratingComment ?? '',
       }),
@@ -115,7 +123,7 @@ export async function markSerieAsReWatched(
         director: serie.director,
         seasons: serie.seasons,
         owned: serie.owned,
-        watchPriority: serie.watchPriority ?? 1,
+        watchPriority: clampPriority(serie.watchPriority),
         wantToWatchAgain: false,
         ratingComment: serie.ratingComment ?? '',
       }),
@@ -221,7 +229,7 @@ export async function markWatchedSerieNextSeasonAsStarted(
         director: serie.director,
         seasons,
         owned: serie.owned ?? false,
-        watchPriority: serie.watchPriority ?? 1,
+        watchPriority: clampPriority(serie.watchPriority),
         wantToWatchAgain: serie.wantToWatchAgain ?? false,
         ratingComment: serie.ratingComment ?? '',
         borrowed: serie.borrowed ?? '',
@@ -265,7 +273,7 @@ export async function markWatchlistSerieAsStarted(
         director: serie.director,
         seasons,
         owned: serie.owned ?? false,
-        watchPriority: serie.watchPriority ?? 1,
+        watchPriority: clampPriority(serie.watchPriority),
         wantToWatchAgain: serie.wantToWatchAgain ?? false,
         ratingComment: serie.ratingComment ?? '',
         borrowed: serie.borrowed ?? '',

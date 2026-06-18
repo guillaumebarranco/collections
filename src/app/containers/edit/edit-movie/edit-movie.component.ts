@@ -463,7 +463,7 @@ export class EditMovieComponent {
           borrowed: form.borrowed,
           loaned: form.loaned,
           wantToSeeAgain: form.wantToSeeAgain,
-          watchPriority: form.watchPriority,
+          watchPriority: Math.min(3, Math.max(1, form.watchPriority ?? 1)),
           ratingComment: form.ratingComment ?? '',
           inList: form.inList ?? [],
           entity: this.isAdminView()
@@ -669,7 +669,7 @@ export class EditMovieComponent {
       borrowed: movie.borrowed ?? '',
       loaned: movie.loaned ?? '',
       wantToSeeAgain: movie.wantToSeeAgain ?? false,
-      watchPriority: movie.watchPriority ?? 1,
+      watchPriority: Math.min(3, Math.max(1, movie.watchPriority ?? 1)),
       ratingComment: movie.ratingComment ?? '',
       inList: movie.inList ?? [],
     };

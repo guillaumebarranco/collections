@@ -399,7 +399,7 @@ export class EditSerieComponent {
           owned: form.owned,
           borrowed: form.borrowed,
           loaned: form.loaned,
-          watchPriority: form.watchPriority,
+          watchPriority: Math.min(3, Math.max(1, form.watchPriority ?? 1)),
           wantToWatchAgain: form.wantToWatchAgain,
           ratingComment: form.ratingComment ?? '',
           entity: this.isAdminView()
@@ -599,7 +599,7 @@ export class EditSerieComponent {
       owned: serie.owned,
       borrowed: serie.borrowed ?? '',
       loaned: serie.loaned ?? '',
-      watchPriority: serie.watchPriority ?? 1,
+      watchPriority: Math.min(3, Math.max(1, serie.watchPriority ?? 1)),
       wantToWatchAgain: serie.wantToWatchAgain ?? false,
       ratingComment: serie.ratingComment ?? '',
     };

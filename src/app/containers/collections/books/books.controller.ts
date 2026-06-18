@@ -6,6 +6,14 @@ import {
   todayIsoDate,
 } from '../../../utils/activity-extra-dates.utils';
 
+function clampPriority(
+  priority: number | null | undefined
+): number {
+  const n =
+    typeof priority === 'number' && Number.isFinite(priority) ? priority : 1;
+  return Math.min(3, Math.max(1, n));
+}
+
 export async function addBookToReadlist(
   book: Book,
   getActiveUserId: string
@@ -92,7 +100,7 @@ export async function markBookAsWantToReRead(
         firstReadDate: book.firstReadDate,
         lastReadDate: book.lastReadDate,
         owned: book.owned,
-        readPriority: book.readPriority ?? 0,
+        readPriority: clampPriority(book.readPriority),
         wantToReadAgain: true,
         ratingComment: book.ratingComment ?? '',
       }),
@@ -152,7 +160,7 @@ export async function markBookAsReRead(
         lastReadDate: today,
         otherReadDates,
         owned: book.owned,
-        readPriority: book.readPriority ?? 0,
+        readPriority: clampPriority(book.readPriority),
         wantToReadAgain: false,
         ratingComment: book.ratingComment ?? '',
       }),
@@ -200,7 +208,7 @@ export async function markReadBookAsReadingInProgress(
         owned: book.owned ?? false,
         borrowed: book.borrowed ?? '',
         loaned: book.loaned ?? '',
-        readPriority: book.readPriority ?? 1,
+        readPriority: clampPriority(book.readPriority),
         wantToReadAgain: book.wantToReadAgain ?? false,
         ratingComment: book.ratingComment ?? '',
       }),
@@ -248,7 +256,7 @@ export async function markReadlistBookAsStarted(
         owned: book.owned ?? false,
         borrowed: book.borrowed ?? '',
         loaned: book.loaned ?? '',
-        readPriority: book.readPriority ?? 1,
+        readPriority: clampPriority(book.readPriority),
         wantToReadAgain: book.wantToReadAgain ?? false,
         ratingComment: book.ratingComment ?? '',
       }),
@@ -292,7 +300,7 @@ export async function updateReadPriority(
         firstReadDate: data.book.firstReadDate,
         lastReadDate: data.book.lastReadDate,
         owned: data.book.owned,
-        readPriority: data.priority,
+        readPriority: clampPriority(data.priority),
         wantToReadAgain: data.book.wantToReadAgain ?? false,
         ratingComment: data.book.ratingComment ?? '',
       }),

@@ -1,6 +1,14 @@
 import { getApiBaseUrl } from '../../../core/config';
 import { Comic } from '../../../models/comic-model';
 
+function clampPriority(
+  priority: number | null | undefined
+): number {
+  const n =
+    typeof priority === 'number' && Number.isFinite(priority) ? priority : 1;
+  return Math.min(3, Math.max(1, n));
+}
+
 export async function updateReadPriority(
   data: {
     comic: Comic;
@@ -22,7 +30,7 @@ export async function updateReadPriority(
         readTimes: data.comic.readTimes,
         readDate: data.comic.readDate,
         owned: data.comic.owned,
-        readPriority: data.priority,
+        readPriority: clampPriority(data.priority),
         wantToReadAgain: data.comic.wantToReadAgain ?? false,
         ratingComment: data.comic.ratingComment ?? '',
       }),
@@ -63,7 +71,7 @@ export async function markComicAsWantToReRead(
         readTimes: comic.readTimes,
         readDate: comic.readDate,
         owned: comic.owned,
-        readPriority: comic.readPriority ?? 1,
+        readPriority: clampPriority(comic.readPriority),
         wantToReadAgain: true,
         ratingComment: comic.ratingComment ?? '',
       }),
@@ -96,7 +104,7 @@ export async function markComicAsReRead(
         readTimes: comic.readTimes,
         readDate: comic.readDate,
         owned: comic.owned,
-        readPriority: comic.readPriority ?? 1,
+        readPriority: clampPriority(comic.readPriority),
         wantToReadAgain: false,
         ratingComment: comic.ratingComment ?? '',
       }),

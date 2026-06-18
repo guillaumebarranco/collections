@@ -297,7 +297,7 @@ export class EditBookComponent {
           owned: form.owned,
           borrowed: form.borrowed,
           loaned: form.loaned,
-          readPriority: form.readPriority,
+          readPriority: Math.min(3, Math.max(1, form.readPriority ?? 1)),
           wantToReadAgain: form.wantToReadAgain,
           ratingComment: form.ratingComment ?? '',
           entity: this.isAdminView()
@@ -493,7 +493,7 @@ export class EditBookComponent {
       owned: book.owned,
       borrowed: book.borrowed ?? '',
       loaned: book.loaned ?? '',
-      readPriority: book.readPriority ?? 0,
+      readPriority: Math.min(3, Math.max(1, book.readPriority ?? 1)),
       sagaFinished: book.sagaFinished,
       wantToReadAgain: book.wantToReadAgain ?? false,
       ratingComment: book.ratingComment ?? '',

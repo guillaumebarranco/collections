@@ -600,7 +600,10 @@ export class EditGameComponent {
           owned: form.owned,
           borrowed: form.borrowed,
           loaned: form.loaned,
-          gamelistPriority: form.gamelistPriority,
+          gamelistPriority: Math.min(
+            3,
+            Math.max(1, Number(form.gamelistPriority) || 1)
+          ),
           wantToPlayAgain: form.wantToPlayAgain,
           ratingComment: form.ratingComment ?? '',
           entity: this.isAdminView()
@@ -809,7 +812,7 @@ export class EditGameComponent {
       owned: game.owned,
       borrowed: game.borrowed ?? '',
       loaned: game.loaned ?? '',
-      gamelistPriority: game.gamelistPriority ?? 0,
+      gamelistPriority: Math.min(3, Math.max(1, game.gamelistPriority ?? 1)),
       wantToPlayAgain: game.wantToPlayAgain ?? false,
       ratingComment: game.ratingComment ?? '',
     };

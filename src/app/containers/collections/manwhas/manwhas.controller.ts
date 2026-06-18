@@ -1,6 +1,14 @@
 import { getApiBaseUrl } from '../../../core/config';
 import { Manwha } from '../../../models/manwha-model';
 
+function clampPriority(
+  priority: number | null | undefined
+): number {
+  const n =
+    typeof priority === 'number' && Number.isFinite(priority) ? priority : 1;
+  return Math.min(3, Math.max(1, n));
+}
+
 export async function updateReadPriority(
   data: {
     manwha: Manwha;
@@ -22,7 +30,7 @@ export async function updateReadPriority(
         readTimes: data.manwha.readTimes,
         readDate: data.manwha.readDate,
         owned: data.manwha.owned,
-        readPriority: data.priority,
+        readPriority: clampPriority(data.priority),
         wantToReadAgain: data.manwha.wantToReadAgain ?? false,
         ratingComment: data.manwha.ratingComment ?? '',
       }),
@@ -63,7 +71,7 @@ export async function markManwhaAsWantToReRead(
         readTimes: manwha.readTimes,
         readDate: manwha.readDate,
         owned: manwha.owned,
-        readPriority: manwha.readPriority ?? 1,
+        readPriority: clampPriority(manwha.readPriority),
         wantToReadAgain: true,
         ratingComment: manwha.ratingComment ?? '',
       }),
@@ -96,7 +104,7 @@ export async function markManwhaAsReRead(
         readTimes: manwha.readTimes,
         readDate: manwha.readDate,
         owned: manwha.owned,
-        readPriority: manwha.readPriority ?? 1,
+        readPriority: clampPriority(manwha.readPriority),
         wantToReadAgain: false,
         ratingComment: manwha.ratingComment ?? '',
       }),
@@ -133,7 +141,7 @@ export async function markReadlistManwhaAsStarted(
         owned: manwha.owned ?? false,
         borrowed: manwha.borrowed ?? '',
         loaned: manwha.loaned ?? '',
-        readPriority: manwha.readPriority ?? 1,
+        readPriority: clampPriority(manwha.readPriority),
         wantToReadAgain: manwha.wantToReadAgain ?? false,
         ratingComment: manwha.ratingComment ?? '',
       }),

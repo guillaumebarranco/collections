@@ -297,7 +297,7 @@ export class EditChildrenBookComponent {
           owned: form.owned,
           borrowed: form.borrowed,
           loaned: form.loaned,
-          readPriority: form.readPriority,
+          readPriority: Math.min(3, Math.max(1, form.readPriority ?? 1)),
           wantToReadAgain: form.wantToReadAgain,
           ratingComment: form.ratingComment ?? '',
           entity: this.isAdminView()
@@ -493,7 +493,7 @@ export class EditChildrenBookComponent {
       owned: childrenBook.owned,
       borrowed: childrenBook.borrowed ?? '',
       loaned: childrenBook.loaned ?? '',
-      readPriority: childrenBook.readPriority ?? 0,
+      readPriority: Math.min(3, Math.max(1, childrenBook.readPriority ?? 1)),
       sagaFinished: childrenBook.sagaFinished,
       wantToReadAgain: childrenBook.wantToReadAgain ?? false,
       ratingComment: childrenBook.ratingComment ?? '',

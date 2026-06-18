@@ -1,6 +1,14 @@
 import { getApiBaseUrl } from '../../../core/config';
 import { Bd } from '../../../models/bd-model';
 
+function clampPriority(
+  priority: number | null | undefined
+): number {
+  const n =
+    typeof priority === 'number' && Number.isFinite(priority) ? priority : 1;
+  return Math.min(3, Math.max(1, n));
+}
+
 export async function updateReadPriority(
   data: { bd: Bd; priority: number },
   getActiveUserId: string
@@ -19,7 +27,7 @@ export async function updateReadPriority(
         readTimes: data.bd.readTimes,
         readDate: data.bd.readDate,
         owned: data.bd.owned,
-        readPriority: data.priority,
+        readPriority: clampPriority(data.priority),
         wantToReadAgain: data.bd.wantToReadAgain ?? false,
         ratingComment: data.bd.ratingComment ?? '',
       }),
@@ -60,7 +68,7 @@ export async function markBdAsWantToReRead(
         readTimes: bd.readTimes,
         readDate: bd.readDate,
         owned: bd.owned,
-        readPriority: bd.readPriority ?? 1,
+        readPriority: clampPriority(bd.readPriority),
         wantToReadAgain: true,
         ratingComment: bd.ratingComment ?? '',
       }),
@@ -93,7 +101,7 @@ export async function markBdAsReRead(
         readTimes: bd.readTimes,
         readDate: bd.readDate,
         owned: bd.owned,
-        readPriority: bd.readPriority ?? 1,
+        readPriority: clampPriority(bd.readPriority),
         wantToReadAgain: false,
         ratingComment: bd.ratingComment ?? '',
       }),
