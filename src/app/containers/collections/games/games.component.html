@@ -72,9 +72,14 @@
         [game]="game"
         [list]="sortedGames()"
         [index]="i"
-        [isGamelistView]="selectedView() === 'gamelist'"
-        [showCommunityWatchersButton]="selectedView() === 'played'"
-        [selectedView]="selectedView()"
+        [isGamelistView]="
+          selectedView() === 'gamelist' || isGamelistOnlyInProgressGame(game)
+        "
+        [showCommunityWatchersButton]="
+          selectedView() === 'played' && isGameInPlayedLudotheque(game)
+        "
+        [selectedView]="getGameCardSelectedView(game)"
+        [isInGamelist]="isGamelistOnlyInProgressGame(game)"
         [showTopFiveSelector]="showTopFiveRank()"
         [topFiveRank]="getTopFiveRank(game)"
         [showAddToMyGamelist]="canShowAddToMyGamelist()"
@@ -86,6 +91,7 @@
         (gamelistPriorityUpdated)="updateGamelistPriority($event)"
         (wantToRePlay)="markGameAsWantToRePlay($event)"
         (haveRePlayed)="markGameAsRePlayed($event)"
+        (gamelistStartedPlaying)="onGamelistStartedPlaying($event)"
         (addToMyGamelist)="addGameToConnectedUserGamelist($event)"
         (addToMyPlayed)="addGameToConnectedUserAsPlayed($event)"
       ></app-game>

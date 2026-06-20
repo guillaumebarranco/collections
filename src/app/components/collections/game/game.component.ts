@@ -26,6 +26,7 @@ import {
   type GameLastSessionDisplay,
 } from '../../../utils/games.utils';
 
+import { isGameCurrentlyPlaying } from '../../../helpers/entities.helper';
 import { isBaseEntityView, getApiBaseUrl } from '../../../core/config';
 import { DEFAULT_USER_ID } from '../../../utils/constants';
 import { GameView } from '../../../containers/collections/games/games.utils';
@@ -81,6 +82,8 @@ export class GameComponent {
   }>();
   @Output() wantToRePlay = new EventEmitter<Game>();
   @Output() haveRePlayed = new EventEmitter<Game>();
+  /** Gamelist : marquer le jeu comme commencé (session en cours). */
+  @Output() gamelistStartedPlaying = new EventEmitter<Game>();
   @Input() showTopFiveSelector = false;
   @Input() topFiveRank: number | null = null;
   @Output() topFiveRankChange = new EventEmitter<number | null>();
@@ -88,6 +91,14 @@ export class GameComponent {
   @Input() showCommunityWatchersButton = false;
 
   isBaseEntityView = isBaseEntityView();
+
+  isGamePlaying(): boolean {
+    return isGameCurrentlyPlaying(this.game);
+  }
+
+  onStartedPlayingClick(): void {
+    this.gamelistStartedPlaying.emit(this.game);
+  }
 
   getActiveUserId(): string {
     const directId = this.activatedRoute.snapshot.params['id'];
@@ -162,7 +173,7 @@ export class GameComponent {
 
   getEntityData(): EntityCardEntityData {
     return {
-      alreadySeenRead: !!(this.game.sessions && this.game.sessions.length > 0),
+      alreadySeenRead: (this.game.timesFinished ?? 0) > 0,
       alreadyInList: this.isInGamelist,
       rating: this.game.rating ?? 0,
       hasRatingComment: !!this.game.ratingComment,

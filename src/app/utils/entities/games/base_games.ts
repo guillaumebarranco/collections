@@ -1782,6 +1782,21 @@ export const baseGames: BaseGame[] = [
     fromEntity: null,
   },
   {
+    title: 'It Takes Two',
+    editor: 'Hazelight Studios',
+    hero: 'Cody et May',
+    coverUrl:
+      'https://image.api.playstation.com/vulcan/ap/rnd/202012/0815/IjqyQi0J2PL7GdEo3K8jKWMh.png',
+    releaseDate: '2021-03-26',
+    averageTimeToFinish: 14,
+    averageTimeToHundredPercent: 16,
+    platform: 'PlayStation 5',
+    saga: 'It Takes Two',
+    platineTime: 16,
+    description: '',
+    fromEntity: null,
+  },
+  {
     title: 'Angry Birds',
     editor: 'Rovio Entertainment',
     hero: 'Oiseaux',
@@ -2825,8 +2840,7 @@ export const baseGames: BaseGame[] = [
     title: 'Tarzan Freeride',
     editor: 'Ubisoft',
     hero: 'Tarzan',
-    coverUrl:
-      '/games_pictures/e3c885e5a18c.jpg',
+    coverUrl: '/games_pictures/e3c885e5a18c.jpg',
     releaseDate: '2001-11-23',
     averageTimeToFinish: 8,
     averageTimeToHundredPercent: 0,

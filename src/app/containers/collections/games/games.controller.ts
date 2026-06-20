@@ -140,6 +140,61 @@ export async function addGameToGamelist(
   }
 }
 
+/** Gamelist : marque le jeu comme commencé (session en cours), reste dans la gamelist. */
+export async function markGamelistGameAsStarted(
+  game: Game,
+  getActiveUserId: string
+): Promise<boolean> {
+  const today = new Date().toISOString().slice(0, 10);
+  const existing = game.sessions ?? [];
+  const cleared = existing.map((session) => ({
+    ...session,
+    currentlyPlaying: false,
+  }));
+  const sessions = [
+    ...cleared,
+    {
+      finishedGame: false,
+      finishedGameWithHundredPercent: false,
+      platinedGame: false,
+      additionnalEstimatedTime: 0,
+      sessionStartDate: today,
+      sessionEndDate: '',
+      currentlyPlaying: true,
+    },
+  ];
+
+  try {
+    const response = await fetch(`${getApiBaseUrl()}/games`, {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({
+        userId: getActiveUserId,
+        title: game.title,
+        editor: game.editor,
+        rating: game.rating,
+        owned: game.owned,
+        gamelistPriority: clampPriority(game.gamelistPriority),
+        wantToPlayAgain: game.wantToPlayAgain ?? false,
+        sessions,
+        ratingComment: game.ratingComment ?? '',
+      }),
+    });
+    if (!response.ok) {
+      const payload = await response.json().catch(() => ({}));
+      console.warn(
+        'Échec du marquage « en cours de jeu » :',
+        payload?.error || response.statusText
+      );
+      return false;
+    }
+    return true;
+  } catch (error) {
+    console.warn('Erreur réseau lors du marquage « en cours de jeu ».', error);
+    return false;
+  }
+}
+
 export async function addGameAsPlayed(
   game: Game,
   userId: string

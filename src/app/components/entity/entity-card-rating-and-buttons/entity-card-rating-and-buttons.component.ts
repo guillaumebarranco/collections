@@ -66,6 +66,9 @@ export class EntityCardRatingAndButtonsComponent {
   /** Readlist : déjà en cours de lecture — masque « J'ai commencé ». */
   @Input() listReading = false;
 
+  /** Gamelist : déjà en cours de jeu — masque « J'ai commencé ce jeu ». */
+  @Input() listPlaying = false;
+
   /** readTimes côté readlist (pour possédés : livre encore à lire si < 1). */
   @Input() listReadTimes = 0;
 
@@ -253,6 +256,7 @@ export class EntityCardRatingAndButtonsComponent {
           haveReRead: "J'ai rejoué à ce jeu",
           addToMyWishlist: 'Je veux jouer à ce jeu',
           addToMyDone: "Tiens, j'ai déjà joué à ce jeu !",
+          markStartedReading: "J'ai commencé ce jeu",
         };
       case 'serie':
         return {
@@ -429,6 +433,9 @@ export class EntityCardRatingAndButtonsComponent {
       return (
         this.selectedView === 'watchlist' && this.watchlistSerieNotStarted
       );
+    }
+    if (this.entityData?.entityType === 'game') {
+      return this.selectedView === 'gamelist' && !this.listPlaying;
     }
     return false;
   }

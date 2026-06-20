@@ -45,6 +45,7 @@ import {
   updateGamelistPriority as updateGamelistPriorityApi,
   markGameAsWantToRePlay as markGameAsWantToRePlayApi,
   markGameAsRePlayed as markGameAsRePlayedApi,
+  markGamelistGameAsStarted as markGamelistGameAsStartedApi,
   addGameToGamelist as addGameToGamelistApi,
   addGameAsPlayed as addGameAsPlayedApi,
 } from './games.controller';
@@ -223,6 +224,12 @@ export class GamesComponent implements OnInit {
   showFiltersAndSearch = computed(() => {
     const view = this.selectedView();
     if (view === 'gamelist') return this.allGamelistGames().length > 0;
+    if (view === 'played') {
+      return (
+        this.allGames().length > 0 ||
+        this.allGamelistGames().some((game) => isGameCurrentlyPlaying(game))
+      );
+    }
     return this.allGames().length > 0;
   });
 
@@ -230,6 +237,17 @@ export class GamesComponent implements OnInit {
     let games: Game[];
     if (this.selectedView() === 'gamelist') {
       games = this.allGamelistGames();
+    } else if (this.selectedView() === 'played') {
+      const key = (g: Game) => this.getGameIdentityKey(g);
+      const played = this.allGames();
+      const inProgressFromGamelist = this.allGamelistGames().filter((game) =>
+        isGameCurrentlyPlaying(game)
+      );
+      const seen = new Set(played.map(key));
+      games = [
+        ...played,
+        ...inProgressFromGamelist.filter((game) => !seen.has(key(game))),
+      ];
     } else if (this.selectedView() === 'inProgress') {
       games = this.gamesInProgress();
     } else if (this.selectedView() === 'platined') {
@@ -624,6 +642,32 @@ export class GamesComponent implements OnInit {
     return `${game.title}|${game.editor}`;
   }
 
+  isGameInPlayedLudotheque(game: Game): boolean {
+    const key = this.getGameIdentityKey(game);
+    return this.allGames().some((g) => this.getGameIdentityKey(g) === key);
+  }
+
+  /** Jeu commencé depuis la gamelist, pas encore dans la ludothèque jouée. */
+  isGamelistOnlyInProgressGame(game: Game): boolean {
+    return (
+      isGameCurrentlyPlaying(game) &&
+      !this.isGameInPlayedLudotheque(game) &&
+      this.allGamelistGames().some(
+        (g) => this.getGameIdentityKey(g) === this.getGameIdentityKey(game)
+      )
+    );
+  }
+
+  getGameCardSelectedView(game: Game): GameView {
+    if (
+      this.selectedView() === 'played' &&
+      this.isGamelistOnlyInProgressGame(game)
+    ) {
+      return 'gamelist';
+    }
+    return this.selectedView();
+  }
+
   getGameRecommendationText(game: Game): string {
     const recommendationDetails =
       (game as RecommendedGame).recommendationDetails || [];
@@ -730,6 +774,16 @@ export class GamesComponent implements OnInit {
 
   async markGameAsRePlayed(game: Game): Promise<void> {
     const success = await markGameAsRePlayedApi(game, this.getActiveUserId());
+    if (success) {
+      await this.refreshGames();
+    }
+  }
+
+  async onGamelistStartedPlaying(game: Game): Promise<void> {
+    const success = await markGamelistGameAsStartedApi(
+      game,
+      this.getActiveUserId()
+    );
     if (success) {
       await this.refreshGames();
     }
