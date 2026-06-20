@@ -1952,4 +1952,21 @@ export const kevinBooks: UserBooks = [
     wantToReadAgain: false,
     ratingComment: "Encore un très bon livre, mais la surprise du premier tome s'efface et la qualité des personnages ne suffit pas à compenser une intrigue moins prenante.",
   },
+
+  {
+    title: "Soleil Sombre",
+    author: "Eric Emmanuel Schmitt",
+    firstReadDate: "2026-06-14",
+    lastReadDate: "2026-06-14",
+    otherReadDates: [],
+    rating: 3.75,
+    reading: false,
+    readTimes: 1,
+    owned: true,
+    borrowed: "",
+    loaned: "",
+    readPriority: 1,
+    wantToReadAgain: false,
+    ratingComment: "Le livre est à nouveau bien écrit, emballant quant à son univers mais trop répétitif quant à la quête du personnage principal.",
+  },
 ];

@@ -2000,4 +2000,19 @@ export const baseBooksApi: BaseBook[] = [
     countryOrigin: "France",
     selectDisplayOrder: 0,
   },
+
+  {
+    title: "Soleil Sombre",
+    author: "Eric Emmanuel Schmitt",
+    coverUrl: "https://m.media-amazon.com/images/I/914FRGKDzdL._AC_UF1000,1000_QL80_FMwebp_.jpg",
+    pages: 576,
+    genre: ['Romance', 'Fantastique'],
+    saga: "La Traversée des Temps",
+    sagaOrder: 3,
+    sagaFinished: true,
+    releaseDate: "2022-11-02",
+    description: "",
+    countryOrigin: "France",
+    selectDisplayOrder: 0,
+  },
 ];
