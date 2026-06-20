@@ -1989,7 +1989,7 @@ export const baseBooksApi: BaseBook[] = [
   {
     title: "La Porte du Ciel",
     author: "Eric Emmanuel Schmitt",
-    coverUrl: "https://m.media-amazon.com/images/I/81HIFNkmOoL._AC_SL1500_.jpg",
+    coverUrl: "/books_pictures/f56a71c6ff10.jpg",
     pages: 576,
     genre: [],
     saga: "La Traversée des Temps",
@@ -2004,7 +2004,7 @@ export const baseBooksApi: BaseBook[] = [
   {
     title: "Soleil Sombre",
     author: "Eric Emmanuel Schmitt",
-    coverUrl: "https://m.media-amazon.com/images/I/914FRGKDzdL._AC_UF1000,1000_QL80_FMwebp_.jpg",
+    coverUrl: "/books_pictures/aacbbd73ca1b.jpg",
     pages: 576,
     genre: ['Romance', 'Fantastique'],
     saga: "La Traversée des Temps",

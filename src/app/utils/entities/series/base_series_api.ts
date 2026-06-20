@@ -95,7 +95,7 @@ export const baseSeriesApi: BaseSerie[] = [
         name: "Iago Xavier",
       },
     ],
-    coverUrl: "https://m.media-amazon.com/images/M/MV5BZjFlMTMyZTAtY2NiZS00NzdjLWEwZTUtNDJjYjI4ZmU4NTBiXkEyXkFqcGc@._V1_.jpg",
+    coverUrl: "/series_pictures/4815c434190b.jpg",
     releaseDate: "2026-04-30",
     endDate: "",
     genre: ['Action'],

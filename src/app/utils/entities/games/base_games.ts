@@ -1786,7 +1786,7 @@ export const baseGames: BaseGame[] = [
     editor: 'Hazelight Studios',
     hero: 'Cody et May',
     coverUrl:
-      'https://image.api.playstation.com/vulcan/ap/rnd/202012/0815/IjqyQi0J2PL7GdEo3K8jKWMh.png',
+      '/games_pictures/b4d75ad8831b.png',
     releaseDate: '2021-03-26',
     averageTimeToFinish: 14,
     averageTimeToHundredPercent: 16,

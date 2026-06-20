@@ -1898,8 +1898,7 @@ export const baseBooksFromLaural: BaseBook[] = [
   {
     title: 'Le champ des soupirs',
     author: 'Elspeth Barker',
-    coverUrl:
-      'https://media.hachette.fr/imgArticle/LGFLIVREDEPOCHE/2023/9782253940890-001-X.jpeg?source=web',
+    coverUrl: '/books_pictures/74fa296379b0.jpeg',
     pages: 220,
     genre: ['Littérature'],
     saga: '',
@@ -1913,7 +1912,7 @@ export const baseBooksFromLaural: BaseBook[] = [
   {
     title: 'Le chant de la mutilation',
     author: 'Jason Hrivnak',
-    coverUrl: 'https://m.media-amazon.com/images/I/61IXRMSDJUL.jpg',
+    coverUrl: '/books_pictures/dc6873be3004.jpg',
     pages: 250,
     genre: ['Horreur'],
     saga: '',
@@ -1927,7 +1926,7 @@ export const baseBooksFromLaural: BaseBook[] = [
   {
     title: 'Le Chant du Troll',
     author: 'Pierre Bottero',
-    coverUrl: 'https://m.media-amazon.com/images/I/81tF1Hcs22L.jpg',
+    coverUrl: '/books_pictures/72dfd3d4594f.jpg',
     pages: 192,
     genre: ['Fantasy'],
     saga: '',
@@ -1941,8 +1940,7 @@ export const baseBooksFromLaural: BaseBook[] = [
   {
     title: 'Le chat qui reliait les âmes au Café Pont',
     author: 'Nagi Shimeno',
-    coverUrl:
-      'https://cdn1.booknode.com/book_cover/5778/full/le-chat-qui-reliait-les-ames-au-cafe-pont-5777529.jpg',
+    coverUrl: '/books_pictures/6ddd59d7dc61.jpg',
     pages: 320,
     genre: ['Littérature'],
     saga: '',
@@ -1956,7 +1954,7 @@ export const baseBooksFromLaural: BaseBook[] = [
   {
     title: 'Le Chuchoteur',
     author: 'Donato Carrisi',
-    coverUrl: 'https://m.media-amazon.com/images/I/71RwMPyK5WL.jpg',
+    coverUrl: '/books_pictures/7cffb87d54cf.jpg',
     pages: 437,
     genre: ['Thriller'],
     saga: '',
@@ -1984,8 +1982,7 @@ export const baseBooksFromLaural: BaseBook[] = [
   {
     title: "Le Courant d'air",
     author: 'Catherine Ryan Howard',
-    coverUrl:
-      'https://cdn1.booknode.com/book_cover/5651/full/le-courant-dair-5650761.jpg',
+    coverUrl: '/books_pictures/cf97c048d454.jpg',
     pages: 238,
     genre: ['Thriller'],
     saga: '',
@@ -1999,8 +1996,7 @@ export const baseBooksFromLaural: BaseBook[] = [
   {
     title: 'Le Démon de maître Prosper',
     author: 'K. J. Parker',
-    coverUrl:
-      'https://www.l-atalante.com/uploads/couvertures/kj-parker-le-demon-de-maitre-prosper.jpg',
+    coverUrl: '/books_pictures/96ec9e8374b6.jpg',
     pages: 104,
     genre: ['Littérature'],
     saga: '',
@@ -2014,8 +2010,7 @@ export const baseBooksFromLaural: BaseBook[] = [
   {
     title: "Le Fort Intérieur et la sorcière de l'île Moufle",
     author: 'Stella Benson',
-    coverUrl:
-      'https://media.senscritique.com/media/000019692309/0/le_fort_interieur_et_la_sorciere_de_l_ile_moufle.jpg',
+    coverUrl: '/books_pictures/7360307867b0.jpg',
     pages: 256,
     genre: ['Littérature'],
     saga: '',
@@ -2029,8 +2024,7 @@ export const baseBooksFromLaural: BaseBook[] = [
   {
     title: 'Le jeu du Chuchoteur',
     author: 'Donato Carrisi',
-    coverUrl:
-      'https://cdn1.booknode.com/book_cover/1262/full/le-jeu-du-chuchoteur-1262298.jpg',
+    coverUrl: '/books_pictures/3380391367de.jpg',
     pages: 437,
     genre: ['Thriller'],
     saga: '',
@@ -2044,7 +2038,7 @@ export const baseBooksFromLaural: BaseBook[] = [
   {
     title: 'Le Liseur',
     author: 'Bernhard Schlink',
-    coverUrl: 'https://media.groupe.gallimard.fr/couvHD/A79393.jpg',
+    coverUrl: '/books_pictures/5de4ed36a1fa.jpg',
     pages: 206,
     genre: ['Policier'],
     saga: '',
@@ -2058,8 +2052,7 @@ export const baseBooksFromLaural: BaseBook[] = [
   {
     title: 'Le Livre des portes',
     author: 'Gareth Brown',
-    coverUrl:
-      'https://cdn1.booknode.com/book_cover/5568/full/le-livre-des-portes-5568245.jpg',
+    coverUrl: '/books_pictures/b4b10f98bfd7.jpg',
     pages: 358,
     genre: ['Littérature'],
     saga: '',
@@ -2073,8 +2066,7 @@ export const baseBooksFromLaural: BaseBook[] = [
   {
     title: 'Le Loup des steppes',
     author: 'Hermann Hesse',
-    coverUrl:
-      'https://media.hachette.fr/imgArticle/LGFLIVREDEPOCHE/2024/9782253002932-001-X.jpeg?source=web&v=d961cf0330dcd1fb92571baffb0d1087',
+    coverUrl: '/books_pictures/11cc6cf900dd.jpeg',
     pages: 224,
     genre: ['Classiques'],
     saga: '',
@@ -2088,8 +2080,7 @@ export const baseBooksFromLaural: BaseBook[] = [
   {
     title: 'Le Magasin des suicides',
     author: 'Jean Teulé',
-    coverUrl:
-      'https://cdn.kobo.com/book-images/76bfd25e-0574-4f74-96d5-8b6bcd46fd59/1200/1200/False/le-magasin-des-suicides.jpg',
+    coverUrl: '/books_pictures/1fc2a8cace22.jpg',
     pages: 169,
     genre: ['Littérature'],
     saga: '',
@@ -2103,8 +2094,7 @@ export const baseBooksFromLaural: BaseBook[] = [
   {
     title: "Le mec de la tombe d'à côté",
     author: 'Katarina Mazetti',
-    coverUrl:
-      'https://actes-sud.fr/media/cache/meta/media/image/cover/9782742771905.jpg',
+    coverUrl: '/books_pictures/fd8ba86595c8.jpg',
     pages: 256,
     genre: ['Littérature'],
     saga: '',
@@ -2118,7 +2108,7 @@ export const baseBooksFromLaural: BaseBook[] = [
   {
     title: 'Le Métier de vivre',
     author: 'Cesare Pavese',
-    coverUrl: 'https://media.groupe.gallimard.fr/couvHD/A45357.jpg',
+    coverUrl: '/books_pictures/097aefdedcfb.jpg',
     pages: 327,
     genre: ['Littérature'],
     saga: '',
@@ -2132,8 +2122,7 @@ export const baseBooksFromLaural: BaseBook[] = [
   {
     title: 'Le monde de Charlie',
     author: 'Stephen Chbosky',
-    coverUrl:
-      'https://cdn1.booknode.com/book_cover/4227/full/le-monde-de-charlie-4226602.jpg',
+    coverUrl: '/books_pictures/5ca9aa190f3e.jpg',
     pages: 231,
     genre: ['Littérature'],
     saga: '',
@@ -2147,8 +2136,7 @@ export const baseBooksFromLaural: BaseBook[] = [
   {
     title: 'Le monde de Sophie',
     author: 'Jostein Gaarder',
-    coverUrl:
-      'https://www.albin-michel.fr/sites/default/files/couvertures/albin/Article/Image/2022/9782226464378-j.jpg',
+    coverUrl: '/books_pictures/2bc4bdd2d486.jpg',
     pages: 557,
     genre: ['Littérature'],
     saga: '',
@@ -2162,8 +2150,7 @@ export const baseBooksFromLaural: BaseBook[] = [
   {
     title: 'Le mythe de Sisyphe',
     author: 'Albert Camus',
-    coverUrl:
-      'https://librairiegrandselve.fr/cache/images/product/0004866-couverture1-xcgzbqmbjsupufk8_e8ix22fa0w_-hki4oq-sscfhzjmorl_l8th9a-cover-full.jpg',
+    coverUrl: '/books_pictures/28c03276591e.jpg',
     pages: 169,
     genre: ['Nonfiction'],
     saga: '',
@@ -2177,7 +2164,7 @@ export const baseBooksFromLaural: BaseBook[] = [
   {
     title: 'Le Nid du coucou',
     author: 'Camilla Läckberg',
-    coverUrl: '',
+    coverUrl: '/books_pictures/470763af111c.jpg',
     pages: 378,
     genre: ['Thriller'],
     saga: '',
@@ -2191,7 +2178,7 @@ export const baseBooksFromLaural: BaseBook[] = [
   {
     title: "Le Paris des merveilles, tome 1 : Les enchantements d'Ambremer",
     author: 'Pierre Pevel',
-    coverUrl: '',
+    coverUrl: '/books_pictures/bbce89d73ee6.jpg',
     pages: 384,
     genre: ['Fantasy'],
     saga: 'Le Paris des merveilles',
@@ -2205,7 +2192,7 @@ export const baseBooksFromLaural: BaseBook[] = [
   {
     title: 'Le Passeur de Prospera',
     author: 'Justin Cronin',
-    coverUrl: '',
+    coverUrl: '/books_pictures/460199163c37.jpg',
     pages: 906,
     genre: ['Science Fiction'],
     saga: '',
@@ -2219,7 +2206,7 @@ export const baseBooksFromLaural: BaseBook[] = [
   {
     title: 'Le Pavillon des Pivoines',
     author: 'Lisa See',
-    coverUrl: '',
+    coverUrl: '/books_pictures/019965a1-d14f-7595-9743-a4d175c64bb1.webp',
     pages: 454,
     genre: ['Fiction historique'],
     saga: '',
@@ -2233,7 +2220,7 @@ export const baseBooksFromLaural: BaseBook[] = [
   {
     title: "Le rêve d'un fou",
     author: 'Nadine Monfils',
-    coverUrl: '',
+    coverUrl: '/books_pictures/b532fe858a46.jpg',
     pages: 144,
     genre: ['Littérature'],
     saga: '',
@@ -2247,7 +2234,7 @@ export const baseBooksFromLaural: BaseBook[] = [
   {
     title: 'Le secret de Crickley Hall',
     author: 'James Herbert',
-    coverUrl: '',
+    coverUrl: '/books_pictures/9c42ed0f64b3.jpg',
     pages: 500,
     genre: ['Horreur'],
     saga: '',
@@ -2261,7 +2248,7 @@ export const baseBooksFromLaural: BaseBook[] = [
   {
     title: 'Le soleil se lèvera demain',
     author: 'Aurélie Massé',
-    coverUrl: '',
+    coverUrl: '/books_pictures/844edd9a6598.jpg',
     pages: 287,
     genre: ['Littérature'],
     saga: '',
@@ -2275,7 +2262,7 @@ export const baseBooksFromLaural: BaseBook[] = [
   {
     title: 'Le sort qui nous lie',
     author: 'Genevieve Gornichec',
-    coverUrl: '',
+    coverUrl: '/books_pictures/bc8f2a07ad95.jpg',
     pages: 368,
     genre: ['Fantasy'],
     saga: '',
@@ -2289,7 +2276,7 @@ export const baseBooksFromLaural: BaseBook[] = [
   {
     title: "Le Temps d'après",
     author: 'Jean Hegland',
-    coverUrl: '',
+    coverUrl: '/books_pictures/650059cb9078.jpg',
     pages: 178,
     genre: ['Littérature'],
     saga: '',
@@ -2303,7 +2290,7 @@ export const baseBooksFromLaural: BaseBook[] = [
   {
     title: 'Lemon',
     author: 'Kwon Yeo-sun',
-    coverUrl: '',
+    coverUrl: '/books_pictures/26c3e9765127.jpg',
     pages: 417,
     genre: ['Littérature'],
     saga: '',
@@ -2317,7 +2304,7 @@ export const baseBooksFromLaural: BaseBook[] = [
   {
     title: 'Les amoureux de la lune',
     author: 'Lizzie Felton',
-    coverUrl: '',
+    coverUrl: '/books_pictures/430596d6b566.jpg',
     pages: 189,
     genre: ['Littérature'],
     saga: '',
@@ -2331,7 +2318,7 @@ export const baseBooksFromLaural: BaseBook[] = [
   {
     title: 'Les Bouchères',
     author: 'Sophie Demange',
-    coverUrl: '',
+    coverUrl: '/books_pictures/2250c19650ef.jpg',
     pages: 75,
     genre: ['Littérature'],
     saga: '',
@@ -2345,7 +2332,7 @@ export const baseBooksFromLaural: BaseBook[] = [
   {
     title: "Les Brûleurs d'Or, tome 1 : Les apprentis de Mortcelieu",
     author: 'Alice Parriat',
-    coverUrl: '',
+    coverUrl: '/books_pictures/e88f84d01def.jpg',
     pages: 500,
     genre: ['Fantasy'],
     saga: "Les Brûleurs d'Or",
@@ -2359,7 +2346,7 @@ export const baseBooksFromLaural: BaseBook[] = [
   {
     title: 'Les Cahiers de Malte Laurids Brigge',
     author: 'Rainer Maria Rilke',
-    coverUrl: '',
+    coverUrl: '/books_pictures/637d9dc0e560.jpg',
     pages: 223,
     genre: ['Nonfiction'],
     saga: '',
@@ -2371,12 +2358,12 @@ export const baseBooksFromLaural: BaseBook[] = [
     selectDisplayOrder: 0,
   },
   {
-    title: "Les Carnets du sous-sol (Notes d'un sous-terrain)",
+    title: "Les Carnets du sous-sol (Notes d'un souterrain)",
     author: 'Fiodor Dostoïevski',
     coverUrl: '',
     pages: 128,
     genre: ['Littérature'],
-    saga: '',
+    saga: '/books_pictures/71Hl7TBBzwL._SL1491_.jpg',
     sagaOrder: 0,
     sagaFinished: false,
     releaseDate: '1864-01-01',
@@ -2387,7 +2374,7 @@ export const baseBooksFromLaural: BaseBook[] = [
   {
     title: 'Les Chats et 14 Histoires mystérieuses diaboliques cruelles',
     author: 'Bernard Minier',
-    coverUrl: '',
+    coverUrl: '/books_pictures/058f64039360.jpg',
     pages: 524,
     genre: ['Littérature'],
     saga: '',
@@ -2401,7 +2388,7 @@ export const baseBooksFromLaural: BaseBook[] = [
   {
     title: 'Les choses humaines',
     author: 'Karine Tuil',
-    coverUrl: '',
+    coverUrl: '/books_pictures/6de0070f421d.jpg',
     pages: 352,
     genre: ['Littérature'],
     saga: '',
@@ -2415,7 +2402,7 @@ export const baseBooksFromLaural: BaseBook[] = [
   {
     title: 'Les Dangers de fumer au lit',
     author: 'Mariana Enriquez',
-    coverUrl: '',
+    coverUrl: '/books_pictures/694cc9a91baf.jpg',
     pages: 206,
     genre: ['Horreur'],
     saga: '',
@@ -2429,7 +2416,7 @@ export const baseBooksFromLaural: BaseBook[] = [
   {
     title: 'Les Disparus du Pays imaginaire',
     author: 'Aiden Thomas',
-    coverUrl: '',
+    coverUrl: '/books_pictures/105b4ec5c196.jpg',
     pages: 356,
     genre: ['Fantasy'],
     saga: '',
@@ -2444,7 +2431,7 @@ export const baseBooksFromLaural: BaseBook[] = [
     title:
       "Les féministes t'encouragent à quitter ton mari, tuer tes enfants, pratiquer la sorcellerie, détruire le capitalisme et devenir trans-pédé-gouine",
     author: 'Alex Tamécylia',
-    coverUrl: '',
+    coverUrl: '/books_pictures/0b60e6489729.jpg',
     pages: 64,
     genre: ['Nonfiction'],
     saga: '',
@@ -2458,7 +2445,7 @@ export const baseBooksFromLaural: BaseBook[] = [
   {
     title: 'Les Indignes',
     author: 'Agustina Bazterrica',
-    coverUrl: '',
+    coverUrl: '/books_pictures/4494e51d8ce5.jpg',
     pages: 368,
     genre: ['Horreur'],
     saga: '',
@@ -2472,7 +2459,7 @@ export const baseBooksFromLaural: BaseBook[] = [
   {
     title: 'Les Mots pour le dire',
     author: 'Marie Cardinal',
-    coverUrl: '',
+    coverUrl: '/books_pictures/1c66468a3615.jpg',
     pages: 304,
     genre: ['Littérature'],
     saga: '',
@@ -2486,7 +2473,7 @@ export const baseBooksFromLaural: BaseBook[] = [
   {
     title: 'Les Mystères de la côte  : Le crime de la falaise',
     author: 'LJ Ross',
-    coverUrl: '',
+    coverUrl: '/books_pictures/88f9eabadfdc.jpg',
     pages: 314,
     genre: ['Thriller'],
     saga: '',
@@ -2500,7 +2487,7 @@ export const baseBooksFromLaural: BaseBook[] = [
   {
     title: "Les sept morts d'Evelyn Hardcastle",
     author: 'Stuart Turton',
-    coverUrl: '',
+    coverUrl: '/books_pictures/a5c57aa83d60.jpg',
     pages: 526,
     genre: ['Thriller'],
     saga: '',
@@ -2514,7 +2501,7 @@ export const baseBooksFromLaural: BaseBook[] = [
   {
     title: 'Les Sirènes',
     author: 'Emilia Hart',
-    coverUrl: '',
+    coverUrl: '/books_pictures/71x1ow4iuHL._SL1311_.jpg',
     pages: 374,
     genre: ['Littérature'],
     saga: '',
@@ -2528,7 +2515,7 @@ export const baseBooksFromLaural: BaseBook[] = [
   {
     title: 'Les Soeurs Carmines - Intégrale',
     author: 'Ariel Holzl',
-    coverUrl: '',
+    coverUrl: '/books_pictures/804563294910.png',
     pages: 272,
     genre: ['Fantasy'],
     saga: 'Les Soeurs Carmines',
@@ -2542,7 +2529,7 @@ export const baseBooksFromLaural: BaseBook[] = [
   {
     title: "Les Voleurs d'innocence",
     author: 'Sarai Walker',
-    coverUrl: '',
+    coverUrl: '/books_pictures/2af96d02d223.jpg',
     pages: 254,
     genre: ['Littérature'],
     saga: '',
@@ -2556,7 +2543,7 @@ export const baseBooksFromLaural: BaseBook[] = [
   {
     title: 'Les Whisperwicks, tome 1 : Le Labyrinthe sans fin',
     author: 'Jordan Lees',
-    coverUrl: '',
+    coverUrl: '/books_pictures/db98512afe18.jpg',
     pages: 448,
     genre: ['Fantasy'],
     saga: 'Les Whisperwicks',
@@ -2570,7 +2557,7 @@ export const baseBooksFromLaural: BaseBook[] = [
   {
     title: 'Lettres à un jeune poète',
     author: 'Rainer Maria Rilke',
-    coverUrl: '',
+    coverUrl: '/books_pictures/578c2ce36139.jpeg',
     pages: 101,
     genre: ['Classiques'],
     saga: '',
@@ -2584,7 +2571,7 @@ export const baseBooksFromLaural: BaseBook[] = [
   {
     title: 'Lolita',
     author: 'Vladimir Nabokov',
-    coverUrl: '',
+    coverUrl: '/books_pictures/222acb03acee.jpg',
     pages: 336,
     genre: ['Classiques'],
     saga: '',
@@ -2598,7 +2585,7 @@ export const baseBooksFromLaural: BaseBook[] = [
   {
     title: 'Love, Theoretically',
     author: 'Ali Hazelwood',
-    coverUrl: '',
+    coverUrl: '/books_pictures/95f6c17e3666.jpg',
     pages: 400,
     genre: ['Romance'],
     saga: '',
@@ -2612,7 +2599,7 @@ export const baseBooksFromLaural: BaseBook[] = [
   {
     title: 'Ma chère Lise',
     author: 'Vincent Almendros',
-    coverUrl: '',
+    coverUrl: '/books_pictures/a8d03e31aa0b.jpg',
     pages: 156,
     genre: ['Littérature'],
     saga: '',
@@ -2626,7 +2613,7 @@ export const baseBooksFromLaural: BaseBook[] = [
   {
     title: 'Mary',
     author: 'Anne Eekhout',
-    coverUrl: '',
+    coverUrl: '/books_pictures/8f2df9c8a9e5.jpg',
     pages: 400,
     genre: ['Littérature'],
     saga: '',
@@ -2640,7 +2627,7 @@ export const baseBooksFromLaural: BaseBook[] = [
   {
     title: 'Même le froid tremble',
     author: 'Nicole Mersey Ortega',
-    coverUrl: '',
+    coverUrl: '/books_pictures/1d9dd73b7772.jpg',
     pages: 320,
     genre: ['Horreur'],
     saga: '',
@@ -2654,7 +2641,7 @@ export const baseBooksFromLaural: BaseBook[] = [
   {
     title: 'Même pas morte',
     author: 'Geneviève Rioux',
-    coverUrl: '',
+    coverUrl: '/books_pictures/9ff39df5d3f8.webp',
     pages: 304,
     genre: ['Littérature'],
     saga: '',
@@ -2668,7 +2655,7 @@ export const baseBooksFromLaural: BaseBook[] = [
   {
     title: "Mémoires d'un expert psychiatre",
     author: 'Angélina Delcroix',
-    coverUrl: '',
+    coverUrl: '/books_pictures/e939340c3209.jpg',
     pages: 493,
     genre: ['Nonfiction'],
     saga: '',
@@ -2682,7 +2669,7 @@ export const baseBooksFromLaural: BaseBook[] = [
   {
     title: 'Métro 2033',
     author: 'Dmitry Glukhovsky',
-    coverUrl: '',
+    coverUrl: '/books_pictures/da033d9b3d52.jpg',
     pages: 544,
     genre: ['Science Fiction'],
     saga: '',
@@ -2696,7 +2683,7 @@ export const baseBooksFromLaural: BaseBook[] = [
   {
     title: 'Mi-Mouche, tome 1 : Tu veux te battre ?',
     author: 'Véro Cazot',
-    coverUrl: '',
+    coverUrl: '/books_pictures/606b22853a0d.jpg',
     pages: 152,
     genre: ['Fantasy'],
     saga: 'Mi-Mouche',
@@ -2710,7 +2697,7 @@ export const baseBooksFromLaural: BaseBook[] = [
   {
     title: 'Mile High',
     author: 'Liz Tomforde',
-    coverUrl: '',
+    coverUrl: '/books_pictures/be8cf55bc6ad.jpg',
     pages: 557,
     genre: ['Romance'],
     saga: '',
@@ -2724,7 +2711,7 @@ export const baseBooksFromLaural: BaseBook[] = [
   {
     title: 'Mon mari',
     author: 'Maud Ventura',
-    coverUrl: '',
+    coverUrl: '/books_pictures/457218338445.jpg',
     pages: 355,
     genre: ['Littérature'],
     saga: '',
@@ -2738,7 +2725,7 @@ export const baseBooksFromLaural: BaseBook[] = [
   {
     title: 'Monstres ordinaires',
     author: 'Steven Price',
-    coverUrl: '',
+    coverUrl: '/books_pictures/e65a83f6d95b.jpg',
     pages: 316,
     genre: ['Littérature'],
     saga: '',
@@ -2752,7 +2739,7 @@ export const baseBooksFromLaural: BaseBook[] = [
   {
     title: 'Mort aux cons',
     author: 'Carl Aderhold',
-    coverUrl: '',
+    coverUrl: '/books_pictures/7f49adce5788.jpeg',
     pages: 410,
     genre: ['Fiction'],
     saga: '',
@@ -2766,7 +2753,7 @@ export const baseBooksFromLaural: BaseBook[] = [
   {
     title: 'Mrs Dalloway',
     author: 'Virginia Woolf',
-    coverUrl: '',
+    coverUrl: '/books_pictures/1bc3ac63fcd2.jpg',
     pages: 224,
     genre: ['Classiques'],
     saga: '',
@@ -2780,7 +2767,7 @@ export const baseBooksFromLaural: BaseBook[] = [
   {
     title: "N'invite pas la forêt à entrer",
     author: 'C. G. Drews',
-    coverUrl: '',
+    coverUrl: '/books_pictures/fe28cdc16cb4.jpg',
     pages: 332,
     genre: ['Littérature'],
     saga: '',
@@ -2794,7 +2781,7 @@ export const baseBooksFromLaural: BaseBook[] = [
   {
     title: 'Ne raccroche pas',
     author: 'Julia Dessalles',
-    coverUrl: '',
+    coverUrl: '/books_pictures/614504b5eaf3.jpeg',
     pages: 406,
     genre: ['Thriller'],
     saga: '',
@@ -2808,7 +2795,7 @@ export const baseBooksFromLaural: BaseBook[] = [
   {
     title: 'No et moi',
     author: 'Delphine de Vigan',
-    coverUrl: '',
+    coverUrl: '/books_pictures/8af85ea71c02.jpeg',
     pages: 242,
     genre: ['Littérature'],
     saga: '',
@@ -2822,7 +2809,7 @@ export const baseBooksFromLaural: BaseBook[] = [
   {
     title: 'Norferville',
     author: 'Franck Thilliez',
-    coverUrl: '',
+    coverUrl: '/books_pictures/f5afab9d9ae2.jpg',
     pages: 608,
     genre: ['Thriller'],
     saga: '',
@@ -2836,7 +2823,7 @@ export const baseBooksFromLaural: BaseBook[] = [
   {
     title: 'Nos cœurs disparus',
     author: 'Celeste Ng',
-    coverUrl: '',
+    coverUrl: '/books_pictures/d328c5584062.jpg',
     pages: 364,
     genre: ['Littérature'],
     saga: '',
@@ -2850,7 +2837,7 @@ export const baseBooksFromLaural: BaseBook[] = [
   {
     title: 'Nos constellations',
     author: 'Florence Quentin (II)',
-    coverUrl: '',
+    coverUrl: '/books_pictures/4a3797a2b549.png',
     pages: 36,
     genre: ['Théâtre'],
     saga: '',
@@ -2864,7 +2851,7 @@ export const baseBooksFromLaural: BaseBook[] = [
   {
     title: 'Nos destins infinis',
     author: 'Laura Steven',
-    coverUrl: '',
+    coverUrl: '/books_pictures/641be8981c42.jpg',
     pages: 832,
     genre: ['Littérature'],
     saga: '',
@@ -2878,7 +2865,7 @@ export const baseBooksFromLaural: BaseBook[] = [
   {
     title: 'Not in love',
     author: 'Ali Hazelwood',
-    coverUrl: '',
+    coverUrl: '/books_pictures/22ef44fa4991.jpg',
     pages: 450,
     genre: ['Romance'],
     saga: '',
@@ -2892,7 +2879,7 @@ export const baseBooksFromLaural: BaseBook[] = [
   {
     title: 'Notre part de nuit',
     author: 'Mariana Enriquez',
-    coverUrl: '',
+    coverUrl: '/books_pictures/9b07ebfe8769.jpg',
     pages: 640,
     genre: ['Horreur'],
     saga: '',
@@ -2906,7 +2893,7 @@ export const baseBooksFromLaural: BaseBook[] = [
   {
     title: 'Nous rêvions juste de liberté',
     author: 'Henri Loevenbruck',
-    coverUrl: '',
+    coverUrl: '/books_pictures/0199c4a6-0fd2-7100-a865-b07ecd2f7a58.webp',
     pages: 432,
     genre: ['Fiction'],
     saga: '',
@@ -2920,7 +2907,7 @@ export const baseBooksFromLaural: BaseBook[] = [
   {
     title: 'Océan',
     author: 'Emma Emonds',
-    coverUrl: '',
+    coverUrl: '/books_pictures/46628eacbf22.jpg',
     pages: 217,
     genre: ['Littérature'],
     saga: '',
@@ -2934,7 +2921,7 @@ export const baseBooksFromLaural: BaseBook[] = [
   {
     title: 'Où tu seras reine',
     author: 'Chrystel Duchamp',
-    coverUrl: '',
+    coverUrl: '/books_pictures/7989e3c98b9b.jpg',
     pages: 170,
     genre: ['Littérature'],
     saga: '',
@@ -2948,7 +2935,7 @@ export const baseBooksFromLaural: BaseBook[] = [
   {
     title: 'Ouvre-moi',
     author: 'Claire McGowan',
-    coverUrl: '',
+    coverUrl: '/books_pictures/4bdf62126373.jpg',
     pages: 24,
     genre: ['Thriller'],
     saga: '',
@@ -2962,7 +2949,7 @@ export const baseBooksFromLaural: BaseBook[] = [
   {
     title: 'Parasites',
     author: 'Nicolas Framont',
-    coverUrl: '',
+    coverUrl: '/books_pictures/12df7df68949.jpeg',
     pages: 288,
     genre: ['Horreur'],
     saga: '',
@@ -2976,7 +2963,8 @@ export const baseBooksFromLaural: BaseBook[] = [
   {
     title: 'Parmi les fleurs bruissent les secrets',
     author: 'Adrienne Young',
-    coverUrl: '',
+    coverUrl:
+      '/books_pictures/parmi-les-fleurs-bruissent-les-secrets-5490118.jpg',
     pages: 352,
     genre: ['Fantasy'],
     saga: '',
@@ -2990,7 +2978,7 @@ export const baseBooksFromLaural: BaseBook[] = [
   {
     title: 'Poèmes saturniens - Fêtes galantes - Romances sans paroles',
     author: 'Paul Verlaine',
-    coverUrl: '',
+    coverUrl: '/books_pictures/4759698445d4.jpg',
     pages: 189,
     genre: ['Poésie'],
     saga: '',
@@ -3004,7 +2992,7 @@ export const baseBooksFromLaural: BaseBook[] = [
   {
     title: 'Psychopathe',
     author: 'Keith Ablow',
-    coverUrl: '',
+    coverUrl: '/books_pictures/2ae9c3fef0cb.jpg',
     pages: 352,
     genre: ['Horreur'],
     saga: '',
@@ -3018,7 +3006,7 @@ export const baseBooksFromLaural: BaseBook[] = [
   {
     title: 'Psychoses',
     author: 'Gilles Vincent',
-    coverUrl: '',
+    coverUrl: '/books_pictures/cc4493210514.jpg',
     pages: 352,
     genre: ['Nonfiction'],
     saga: '',
@@ -3032,7 +3020,7 @@ export const baseBooksFromLaural: BaseBook[] = [
   {
     title: 'Puisque rien ne dure',
     author: 'Laurence Tardieu',
-    coverUrl: '',
+    coverUrl: '/books_pictures/f6da6a50deea.jpg',
     pages: 125,
     genre: ['Littérature'],
     saga: '',
@@ -3046,7 +3034,7 @@ export const baseBooksFromLaural: BaseBook[] = [
   {
     title: 'Quand Haru était là',
     author: 'Dustin Thao',
-    coverUrl: '',
+    coverUrl: '/books_pictures/c021235860cd.jpg',
     pages: 304,
     genre: ['Fiction'],
     saga: '',
@@ -3060,7 +3048,7 @@ export const baseBooksFromLaural: BaseBook[] = [
   {
     title: 'Quand nos os retourneront à la terre',
     author: 'V. E. Schwab',
-    coverUrl: '',
+    coverUrl: '/books_pictures/68952bda4add.jpg',
     pages: 504,
     genre: ['Fantasy'],
     saga: '',
@@ -3074,7 +3062,7 @@ export const baseBooksFromLaural: BaseBook[] = [
   {
     title: 'Quand souffle le vent du nord',
     author: 'Daniel Glattauer',
-    coverUrl: '',
+    coverUrl: '/books_pictures/40820e61a1a9.jpg',
     pages: 352,
     genre: ['Littérature'],
     saga: '',
@@ -3088,7 +3076,7 @@ export const baseBooksFromLaural: BaseBook[] = [
   {
     title: 'Quatorze jours',
     author: 'Margaret Atwood',
-    coverUrl: '',
+    coverUrl: '/books_pictures/6feaec8b4be2.jpg',
     pages: 336,
     genre: ['Dystopie'],
     saga: '',
@@ -3102,7 +3090,7 @@ export const baseBooksFromLaural: BaseBook[] = [
   {
     title: 'Récitatif',
     author: 'Toni Morrison',
-    coverUrl: '',
+    coverUrl: '/books_pictures/59415f9e0597.jpg',
     pages: 80,
     genre: ['Fiction historique'],
     saga: '',
@@ -3116,7 +3104,7 @@ export const baseBooksFromLaural: BaseBook[] = [
   {
     title: 'Regis',
     author: 'James Osmont',
-    coverUrl: '',
+    coverUrl: '/books_pictures/f35c2d170aec.jpg',
     pages: 274,
     genre: ['Littérature'],
     saga: '',
@@ -3130,7 +3118,7 @@ export const baseBooksFromLaural: BaseBook[] = [
   {
     title: 'Résister à la culpabilisation',
     author: 'Mona Chollet',
-    coverUrl: '',
+    coverUrl: '/books_pictures/5072d2b72f23.jpg',
     pages: 267,
     genre: ['Nonfiction'],
     saga: '',
@@ -3144,7 +3132,7 @@ export const baseBooksFromLaural: BaseBook[] = [
   {
     title: "Rien n'est vrai",
     author: 'Lisa Jewell',
-    coverUrl: '',
+    coverUrl: '/books_pictures/bee3e523dcc9.jpg',
     pages: 84,
     genre: ['Thriller'],
     saga: '',
@@ -3158,7 +3146,7 @@ export const baseBooksFromLaural: BaseBook[] = [
   {
     title: 'Sarek',
     author: 'Ulf Kvensler',
-    coverUrl: '',
+    coverUrl: '/books_pictures/01996b31-4b3b-7535-bd60-d6cf63ace50e.webp',
     pages: 428,
     genre: ['Science Fiction'],
     saga: '',
@@ -3172,7 +3160,7 @@ export const baseBooksFromLaural: BaseBook[] = [
   {
     title: "Se méfier de l'eau qui dort",
     author: 'Julia Richard',
-    coverUrl: '',
+    coverUrl: '/books_pictures/aef8dd7bab2e.jpg',
     pages: 176,
     genre: ['Fiction'],
     saga: '',
@@ -3183,24 +3171,11 @@ export const baseBooksFromLaural: BaseBook[] = [
     countryOrigin: '',
     selectDisplayOrder: 0,
   },
-  {
-    title: 'Semantic Error, tome 1',
-    author: 'J. Soori',
-    coverUrl: '',
-    pages: 296,
-    genre: ['Fantasy'],
-    saga: 'Semantic Error',
-    sagaOrder: 1,
-    sagaFinished: false,
-    releaseDate: '2025-01-01',
-    description: '',
-    countryOrigin: 'Corée du Sud',
-    selectDisplayOrder: 0,
-  },
+
   {
     title: 'Serpent & Dove, tome 1',
     author: 'Shelby Mahurin',
-    coverUrl: '',
+    coverUrl: '/books_pictures/b357fb7318fa.jpg',
     pages: 524,
     genre: ['Fantasy'],
     saga: 'Serpent & Dove',
@@ -3211,24 +3186,11 @@ export const baseBooksFromLaural: BaseBook[] = [
     countryOrigin: 'États-Unis',
     selectDisplayOrder: 0,
   },
-  {
-    title: 'Son odeur après la pluie (BD)',
-    author: 'José Luis Munuera',
-    coverUrl: '',
-    pages: 288,
-    genre: ['Jeunesse'],
-    saga: '',
-    sagaOrder: 0,
-    sagaFinished: false,
-    releaseDate: '2023-01-01',
-    description: '',
-    countryOrigin: 'France',
-    selectDisplayOrder: 0,
-  },
+
   {
     title: 'Songlight',
     author: 'Moira Buffini',
-    coverUrl: '',
+    coverUrl: '/books_pictures/0b18575beefd.jpg',
     pages: 390,
     genre: ['Science Fiction'],
     saga: '',
@@ -3242,7 +3204,7 @@ export const baseBooksFromLaural: BaseBook[] = [
   {
     title: 'Sorcières : La puissance invaincue des femmes',
     author: 'Mona Chollet',
-    coverUrl: '',
+    coverUrl: '/books_pictures/d107a7cf1f94.jpg',
     pages: 240,
     genre: ['Nonfiction'],
     saga: '',
@@ -3256,7 +3218,7 @@ export const baseBooksFromLaural: BaseBook[] = [
   {
     title: 'Sorrowsong University, tome 1 : Nightshade',
     author: 'Autumn Woods',
-    coverUrl: '',
+    coverUrl: '/books_pictures/a0f67070a875.jpg',
     pages: 416,
     genre: ['Fantasy'],
     saga: 'Sorrowsong University',
@@ -3270,7 +3232,7 @@ export const baseBooksFromLaural: BaseBook[] = [
   {
     title: 'Stella Maris',
     author: 'Cormac McCarthy',
-    coverUrl: '',
+    coverUrl: '/books_pictures/6e149be0a160.jpg',
     pages: 624,
     genre: ['Littérature'],
     saga: '',
@@ -3284,7 +3246,7 @@ export const baseBooksFromLaural: BaseBook[] = [
   {
     title: 'Strange Pictures',
     author: 'Uketsu',
-    coverUrl: '',
+    coverUrl: '/books_pictures/c8b6ae2466c6.jpg',
     pages: 239,
     genre: ['Thriller'],
     saga: '',
@@ -3298,7 +3260,7 @@ export const baseBooksFromLaural: BaseBook[] = [
   {
     title: 'Sur les cimes du désespoir',
     author: 'Emil Cioran',
-    coverUrl: '',
+    coverUrl: '/books_pictures/f3594369b3b3.jpeg',
     pages: 150,
     genre: ['Littérature'],
     saga: '',
@@ -3312,7 +3274,7 @@ export const baseBooksFromLaural: BaseBook[] = [
   {
     title: 'Suzume (roman)',
     author: 'Makoto Shinkai',
-    coverUrl: '',
+    coverUrl: '/books_pictures/d771b73c1ab4.jpeg',
     pages: 165,
     genre: ['Littérature'],
     saga: '',
@@ -3326,7 +3288,7 @@ export const baseBooksFromLaural: BaseBook[] = [
   {
     title: "Syllogismes de l'amertume",
     author: 'Emil Cioran',
-    coverUrl: '',
+    coverUrl: '/books_pictures/3028223bcc60.jpg',
     pages: 169,
     genre: ['Littérature'],
     saga: '',
@@ -3340,7 +3302,7 @@ export const baseBooksFromLaural: BaseBook[] = [
   {
     title: 'Termush, côte Atlantique',
     author: 'Sven Holm',
-    coverUrl: '',
+    coverUrl: '/books_pictures/560b28ea6fc4.jpg',
     pages: 110,
     genre: ['Science Fiction'],
     saga: '',
@@ -3354,7 +3316,7 @@ export const baseBooksFromLaural: BaseBook[] = [
   {
     title: "Tes pas dans l'escalier",
     author: 'Antonio Muñoz Molina',
-    coverUrl: '',
+    coverUrl: '/books_pictures/5c61356c02ff.jpg',
     pages: 448,
     genre: ['Littérature'],
     saga: '',
@@ -3368,7 +3330,7 @@ export const baseBooksFromLaural: BaseBook[] = [
   {
     title: 'The Fallen Empire, tome 1 : Phoenix Unbound',
     author: 'Grace Draven',
-    coverUrl: '',
+    coverUrl: '/books_pictures/401410364f83.jpg',
     pages: 704,
     genre: ['Fantasy'],
     saga: 'The Fallen Empire',
@@ -3382,7 +3344,7 @@ export const baseBooksFromLaural: BaseBook[] = [
   {
     title: 'The Great Misfortune of Stella Sedgwick',
     author: 'Sophie Isabelle',
-    coverUrl: '',
+    coverUrl: '/books_pictures/0bbb23e63fb9.jpg',
     pages: 48,
     genre: ['Fiction'],
     saga: '',
@@ -3396,7 +3358,7 @@ export const baseBooksFromLaural: BaseBook[] = [
   {
     title: 'The Love Hypothesis',
     author: 'Ali Hazelwood',
-    coverUrl: '',
+    coverUrl: '/books_pictures/0442030a84cb.jpg',
     pages: 398,
     genre: ['Romance'],
     saga: '',
@@ -3410,7 +3372,7 @@ export const baseBooksFromLaural: BaseBook[] = [
   {
     title: 'The Way I Am Now',
     author: 'Amber Smith',
-    coverUrl: '',
+    coverUrl: '/books_pictures/a150f5aadbf5.jpg',
     pages: 320,
     genre: ['Littérature'],
     saga: '',
@@ -3424,7 +3386,7 @@ export const baseBooksFromLaural: BaseBook[] = [
   {
     title: 'The Way I Used to Be',
     author: 'Amber Smith',
-    coverUrl: '',
+    coverUrl: '/books_pictures/b93d82b49707.jpg',
     pages: 384,
     genre: ['Littérature'],
     saga: '',
@@ -3438,7 +3400,7 @@ export const baseBooksFromLaural: BaseBook[] = [
   {
     title: 'The Westing Game',
     author: 'Ellen Raskin',
-    coverUrl: '',
+    coverUrl: '/books_pictures/096f17a25519.jpg',
     pages: 192,
     genre: ['Jeunesse'],
     saga: '',
@@ -3452,7 +3414,7 @@ export const baseBooksFromLaural: BaseBook[] = [
   {
     title: 'Tokyo Rain',
     author: 'Yasmin Shakarami',
-    coverUrl: '',
+    coverUrl: '/books_pictures/886911db720c.jpeg',
     pages: 376,
     genre: ['Littérature'],
     saga: '',
@@ -3466,7 +3428,7 @@ export const baseBooksFromLaural: BaseBook[] = [
   {
     title: 'Tomber sept fois, se relever huit',
     author: 'Philippe Labro',
-    coverUrl: '',
+    coverUrl: '/books_pictures/aa53e978bb36.jpg',
     pages: 252,
     genre: ['Biographie'],
     saga: '',
@@ -3480,7 +3442,7 @@ export const baseBooksFromLaural: BaseBook[] = [
   {
     title: 'Ton jour viendra',
     author: 'Kimberly McCreight',
-    coverUrl: '',
+    coverUrl: '/books_pictures/dbce093e7f66.jpg',
     pages: 400,
     genre: ['Littérature'],
     saga: '',
@@ -3494,7 +3456,7 @@ export const baseBooksFromLaural: BaseBook[] = [
   {
     title: 'Transformations',
     author: 'Anne Sexton',
-    coverUrl: '',
+    coverUrl: '/books_pictures/81cd55ff1a86.jpg',
     pages: 112,
     genre: ['Poésie'],
     saga: '',
@@ -3508,7 +3470,7 @@ export const baseBooksFromLaural: BaseBook[] = [
   {
     title: 'Troublemaker, tome 1',
     author: 'Laura Swan',
-    coverUrl: '',
+    coverUrl: '/books_pictures/046b0e51ee09.jpeg',
     pages: 272,
     genre: ['Romance'],
     saga: 'Troublemaker',
@@ -3522,7 +3484,7 @@ export const baseBooksFromLaural: BaseBook[] = [
   {
     title: 'Troublemaker, tome 2',
     author: 'Laura Swan',
-    coverUrl: '',
+    coverUrl: '/books_pictures/8055c6490b6f.jpg',
     pages: 272,
     genre: ['Romance'],
     saga: 'Troublemaker',
@@ -3536,7 +3498,7 @@ export const baseBooksFromLaural: BaseBook[] = [
   {
     title: "Tu tueras l'ange",
     author: 'Sandrone Dazieri',
-    coverUrl: '',
+    coverUrl: '/books_pictures/1bbeb1d74f90.jpg',
     pages: 520,
     genre: ['Littérature'],
     saga: '',
@@ -3550,7 +3512,7 @@ export const baseBooksFromLaural: BaseBook[] = [
   {
     title: 'Tu tueras le Père',
     author: 'Sandrone Dazieri',
-    coverUrl: '',
+    coverUrl: '/books_pictures/a3939ec99cb5.jpg',
     pages: 520,
     genre: ['Littérature'],
     saga: '',
@@ -3564,7 +3526,7 @@ export const baseBooksFromLaural: BaseBook[] = [
   {
     title: 'Tu tueras le Roi',
     author: 'Sandrone Dazieri',
-    coverUrl: '',
+    coverUrl: '/books_pictures/685c714f9094.jpg',
     pages: 520,
     genre: ['Littérature'],
     saga: '',
@@ -3578,7 +3540,7 @@ export const baseBooksFromLaural: BaseBook[] = [
   {
     title: 'Tu verras, les âmes se retrouvent toujours quelque part',
     author: 'Sabrina Philippe',
-    coverUrl: '',
+    coverUrl: '/books_pictures/64e330cffbf9.jpg',
     pages: 286,
     genre: ['Littérature'],
     saga: '',
@@ -3592,7 +3554,7 @@ export const baseBooksFromLaural: BaseBook[] = [
   {
     title: 'Ubik',
     author: 'Philip K. Dick',
-    coverUrl: '',
+    coverUrl: '/books_pictures/6ea1031b74b8.jpg',
     pages: 224,
     genre: ['Science Fiction'],
     saga: '',
@@ -3606,7 +3568,7 @@ export const baseBooksFromLaural: BaseBook[] = [
   {
     title: 'Un castor de dix-huit mètres',
     author: 'Antti Tuomainen',
-    coverUrl: '',
+    coverUrl: '/books_pictures/fc87c81d59ae.jpg',
     pages: 245,
     genre: ['Thriller'],
     saga: '',
@@ -3620,7 +3582,7 @@ export const baseBooksFromLaural: BaseBook[] = [
   {
     title: 'Un don',
     author: 'Toni Morrison',
-    coverUrl: '',
+    coverUrl: '/books_pictures/8fc7784596cb.jpg',
     pages: 192,
     genre: ['Fiction historique'],
     saga: '',
@@ -3634,7 +3596,7 @@ export const baseBooksFromLaural: BaseBook[] = [
   {
     title: 'Un été',
     author: 'Vincent Almendros',
-    coverUrl: '',
+    coverUrl: '/books_pictures/e494d12c6d99.jpg',
     pages: 94,
     genre: ['Littérature'],
     saga: '',
@@ -3648,7 +3610,7 @@ export const baseBooksFromLaural: BaseBook[] = [
   {
     title: 'Un homme à distance',
     author: 'Katherine Pancol',
-    coverUrl: '',
+    coverUrl: '/books_pictures/d519a008a75b.jpg',
     pages: 170,
     genre: ['Littérature'],
     saga: '',
@@ -3662,7 +3624,7 @@ export const baseBooksFromLaural: BaseBook[] = [
   {
     title: 'Une chambre à soi (Un lieu à soi)',
     author: 'Virginia Woolf',
-    coverUrl: '',
+    coverUrl: '/books_pictures/a06dd6d1b9b3.jpg',
     pages: 143,
     genre: ['Classiques'],
     saga: '',
@@ -3676,7 +3638,7 @@ export const baseBooksFromLaural: BaseBook[] = [
   {
     title: 'Une invitée particulière',
     author: 'Nelle Lamarr',
-    coverUrl: '',
+    coverUrl: '/books_pictures/b0bef1e2ae8b.webp',
     pages: 256,
     genre: ['Littérature'],
     saga: '',
@@ -3690,7 +3652,7 @@ export const baseBooksFromLaural: BaseBook[] = [
   {
     title: 'Unfair, tome 1 : Moon',
     author: 'Océane Ghanem',
-    coverUrl: '',
+    coverUrl: '/books_pictures/33c79f0294db.jpg',
     pages: 317,
     genre: ['Théâtre'],
     saga: 'Unfair',
@@ -3704,7 +3666,7 @@ export const baseBooksFromLaural: BaseBook[] = [
   {
     title: 'Veronika décide de mourir',
     author: 'Paulo Coelho',
-    coverUrl: '',
+    coverUrl: '/books_pictures/f00464882bd6.jpg',
     pages: 287,
     genre: ['Littérature'],
     saga: '',
@@ -3718,7 +3680,7 @@ export const baseBooksFromLaural: BaseBook[] = [
   {
     title: "Vingt-quatre heures de la vie d'une femme",
     author: 'Stefan Zweig',
-    coverUrl: '',
+    coverUrl: '/books_pictures/410eb13e1203.jpg',
     pages: 80,
     genre: ['Fiction'],
     saga: '',
@@ -3732,7 +3694,7 @@ export const baseBooksFromLaural: BaseBook[] = [
   {
     title: 'Virtuoses : Retour de flamme',
     author: 'Tess Corsac',
-    coverUrl: '',
+    coverUrl: '/books_pictures/183763e6e092.jpg',
     pages: 352,
     genre: ['Littérature'],
     saga: '',
@@ -3746,7 +3708,7 @@ export const baseBooksFromLaural: BaseBook[] = [
   {
     title: 'Vivre avec les hommes : Réflexions sur le procès Pelicot',
     author: 'Manon Garcia',
-    coverUrl: '',
+    coverUrl: '/books_pictures/cb32f387a2d3.jpg',
     pages: 232,
     genre: ['Nonfiction'],
     saga: '',
@@ -3760,7 +3722,7 @@ export const baseBooksFromLaural: BaseBook[] = [
   {
     title: 'Vous êtes cordialement invités, tome 1',
     author: 'Alex Sol',
-    coverUrl: '',
+    coverUrl: '/books_pictures/6775a5261a9c.jpg',
     pages: 320,
     genre: ['Thriller'],
     saga: 'Vous êtes cordialement invités',
@@ -3774,7 +3736,7 @@ export const baseBooksFromLaural: BaseBook[] = [
   {
     title: 'Vue sur la mère',
     author: 'Julien Almendros',
-    coverUrl: '',
+    coverUrl: '/books_pictures/30fd828b9bf5.jpg',
     pages: 174,
     genre: ['Littérature'],
     saga: '',
@@ -3788,7 +3750,7 @@ export const baseBooksFromLaural: BaseBook[] = [
   {
     title: 'Wayward Pines, tome 1 : Révélation',
     author: 'Blake Crouch',
-    coverUrl: '',
+    coverUrl: '/books_pictures/822b89c183ff.jpg',
     pages: 343,
     genre: ['Science Fiction'],
     saga: 'Wayward Pines',
