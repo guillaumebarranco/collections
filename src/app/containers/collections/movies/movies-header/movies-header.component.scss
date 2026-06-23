@@ -12,6 +12,11 @@
 
 .movies-header-top {
   @include containers.header-top-with-view-toggle;
+
+  .movies-list-filters {
+    flex: 1 1 auto;
+    min-width: 0;
+  }
 }
 
 .movies-actions {

@@ -524,11 +524,16 @@ export class MoviesComponent implements OnInit {
           displayedUserId.toLowerCase() !== connectedUserId.toLowerCase()
       );
 
-      const [movies, watchlist, baseMovies, lists] = await Promise.all([
+      const [movies, watchlist, baseMovies] = await Promise.all([
         getAllMovies(displayedUserId),
         getAllWatchlistMovies(displayedUserId),
         getAllBaseMovies(),
-        getUserMoviesLists(displayedUserId),
+      ]);
+      const displayedMovies = movies[displayedUserId] ?? [];
+      const displayedWatchlist = watchlist[displayedUserId] ?? [];
+      const lists = await getUserMoviesLists(displayedUserId, [
+        ...displayedMovies,
+        ...displayedWatchlist,
       ]);
       this.moviesList.set(movies);
       this.watchingMoviesList.set(watchlist);

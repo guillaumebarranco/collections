@@ -15,6 +15,37 @@
       [selected]="selectedView()"
       (selectedChange)="onViewChange.emit($any($event))"
     ></app-view-toggle>
+
+    @if (selectedView() === 'watched' && userMoviesLists().length > 0) {
+    <div
+      class="movies-list-filters"
+      role="group"
+      aria-label="Filtrer par liste"
+    >
+      @for (list of userMoviesLists(); track list.name) {
+      <button
+        type="button"
+        class="movies-list-filter-chip"
+        [class.movies-list-filter-chip--selected]="
+          selectedListFilter() === list.name
+        "
+        [style.--list-color]="list.color"
+        (click)="
+          onListFilterChange.emit(
+            selectedListFilter() === list.name ? null : list.name
+          )
+        "
+        [attr.aria-pressed]="selectedListFilter() === list.name"
+        [attr.aria-label]="'Filtrer par liste : ' + list.name"
+      >
+        <span class="movies-list-filter-chip__icon" aria-hidden="true">{{
+          list.icon
+        }}</span>
+        <span class="movies-list-filter-chip__name">{{ list.name }}</span>
+      </button>
+      }
+    </div>
+    }
   </div>
 
   <div class="movies-header-tools-accordion">
@@ -109,36 +140,6 @@
             (ngModelChange)="handleSearchChange($event)"
           />
         </div>
-        @if (selectedView() === 'watched' && userMoviesLists().length > 0) {
-        <div
-          class="movies-list-filters"
-          role="group"
-          aria-label="Filtrer par liste"
-        >
-          @for (list of userMoviesLists(); track list.name) {
-          <button
-            type="button"
-            class="movies-list-filter-chip"
-            [class.movies-list-filter-chip--selected]="
-              selectedListFilter() === list.name
-            "
-            [style.--list-color]="list.color"
-            (click)="
-              onListFilterChange.emit(
-                selectedListFilter() === list.name ? null : list.name
-              )
-            "
-            [attr.aria-pressed]="selectedListFilter() === list.name"
-            [attr.aria-label]="'Filtrer par liste : ' + list.name"
-          >
-            <span class="movies-list-filter-chip__icon" aria-hidden="true">{{
-              list.icon
-            }}</span>
-            <span class="movies-list-filter-chip__name">{{ list.name }}</span>
-          </button>
-          }
-        </div>
-        }
       </div>
       } @if(noDataForThisView() && allMoviesCount() !== 0) {
       <div class="empty-state">

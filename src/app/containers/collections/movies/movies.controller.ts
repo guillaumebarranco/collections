@@ -5,6 +5,61 @@ import {
   todayIsoDate,
 } from '../../../utils/activity-extra-dates.utils';
 import type { UserMovieListItem } from '../../../models/movie-list.model';
+import { usersMoviesLists } from '../../../utils/users/user-movies-lists';
+
+const DEFAULT_LIST_ICON = '📋';
+const DEFAULT_LIST_COLOR = '#6b7280';
+
+function parseUserMoviesListsPayload(data: unknown): UserMovieListItem[] {
+  if (!Array.isArray(data)) return [];
+  return data
+    .map((item: unknown) => {
+      if (
+        item &&
+        typeof item === 'object' &&
+        'name' in item &&
+        typeof (item as UserMovieListItem).name === 'string'
+      ) {
+        const t = item as UserMovieListItem;
+        return {
+          name: t.name,
+          icon: t.icon ?? DEFAULT_LIST_ICON,
+          color: t.color ?? DEFAULT_LIST_COLOR,
+        };
+      }
+      if (typeof item === 'string') {
+        return { name: item, icon: DEFAULT_LIST_ICON, color: DEFAULT_LIST_COLOR };
+      }
+      return { name: '', icon: DEFAULT_LIST_ICON, color: DEFAULT_LIST_COLOR };
+    })
+    .filter((x: UserMovieListItem) => x.name.length > 0);
+}
+
+function getStaticMoviesListsForUser(userId: string): UserMovieListItem[] {
+  const normalizedId = userId.trim().toLowerCase();
+  return usersMoviesLists[normalizedId] ?? [];
+}
+
+/** Complète les métadonnées de listes à partir des noms présents dans movie.inList. */
+export function enrichUserMoviesListsFromMovies(
+  lists: UserMovieListItem[],
+  movies: Movie[]
+): UserMovieListItem[] {
+  const byName = new Map(lists.map((list) => [list.name, list]));
+  for (const movie of movies) {
+    for (const name of movie.inList ?? []) {
+      const trimmed = name?.trim();
+      if (trimmed && !byName.has(trimmed)) {
+        byName.set(trimmed, {
+          name: trimmed,
+          icon: DEFAULT_LIST_ICON,
+          color: DEFAULT_LIST_COLOR,
+        });
+      }
+    }
+  }
+  return Array.from(byName.values());
+}
 
 function clampPriority(
   priority: number | null | undefined
@@ -220,28 +275,29 @@ export async function addMovieAsWatched(
   }
 }
 
-/** Récupère les listes de films de l'utilisateur (name, icon, color). En local, lit toujours depuis le fichier statique (comme les films). */
+/** Récupère les listes de films de l'utilisateur (name, icon, color). Fallback fichier statique si l'API est indisponible. */
 export async function getUserMoviesLists(
-  userId: string
+  userId: string,
+  moviesForEnrichment: Movie[] = []
 ): Promise<UserMovieListItem[]> {
+  let lists: UserMovieListItem[] = [];
+
   try {
     const response = await fetch(
       `${getApiBaseUrl()}/users/${encodeURIComponent(userId)}/movies-lists`
     );
-    if (!response.ok) return [];
-    const data = await response.json();
-    if (!Array.isArray(data)) return [];
-    return data.map((item: unknown) => {
-      if (item && typeof item === 'object' && 'name' in item && typeof (item as UserMovieListItem).name === 'string') {
-        const t = item as UserMovieListItem;
-        return { name: t.name, icon: t.icon ?? '📋', color: t.color ?? '#6b7280' };
-      }
-      if (typeof item === 'string') return { name: item, icon: '📋', color: '#6b7280' };
-      return { name: '', icon: '📋', color: '#6b7280' };
-    }).filter((x: UserMovieListItem) => x.name.length > 0);
+    if (response.ok) {
+      lists = parseUserMoviesListsPayload(await response.json());
+    }
   } catch {
-    return [];
+    // Fallback statique ci-dessous
   }
+
+  if (lists.length === 0) {
+    lists = getStaticMoviesListsForUser(userId);
+  }
+
+  return enrichUserMoviesListsFromMovies(lists, moviesForEnrichment);
 }
 
 /** Crée une nouvelle liste de films pour l'utilisateur. Retourne la liste à jour. */
@@ -268,11 +324,20 @@ export async function createUserMovieList(
     const data = await response.json();
     if (!Array.isArray(data)) return null;
     return data.map((item: unknown) => {
-      if (item && typeof item === 'object' && 'name' in item && typeof (item as UserMovieListItem).name === 'string') {
+      if (
+        item &&
+        typeof item === 'object' &&
+        'name' in item &&
+        typeof (item as UserMovieListItem).name === 'string'
+      ) {
         const t = item as UserMovieListItem;
-        return { name: t.name, icon: t.icon ?? '📋', color: t.color ?? '#6b7280' };
+        return {
+          name: t.name,
+          icon: t.icon ?? DEFAULT_LIST_ICON,
+          color: t.color ?? DEFAULT_LIST_COLOR,
+        };
       }
-      return { name: '', icon: '📋', color: '#6b7280' };
+      return { name: '', icon: DEFAULT_LIST_ICON, color: DEFAULT_LIST_COLOR };
     }).filter((x: UserMovieListItem) => x.name.length > 0);
   } catch {
     return null;
