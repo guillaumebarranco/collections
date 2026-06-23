@@ -111,4 +111,50 @@ export const baseSeriesApi: BaseSerie[] = [
     saga: "",
     fromEntity: null,
   },
+
+  {
+    title: "Off Campus",
+    director: " Louisa Levy",
+    actors: [
+      {
+        name: "Ella Bright",
+      },
+      {
+        name: "Belmont Cameli",
+      },
+      {
+        name: "Mika Abdalla",
+      },
+      {
+        name: "Stephen Kalyn",
+      },
+      {
+        name: "Jalen Thomas Brooks",
+      },
+      {
+        name: "Antonio Cipriano",
+      },
+      {
+        name: "Julia Sarah Stone",
+      },
+      {
+        name: "Josh Heuston",
+      },
+    ],
+    coverUrl: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQOoUlo8Ll2RunyVuzRe4zorXhwjTKlppvgFcEs331mKG_RApt_geJduyE&s=10",
+    releaseDate: "2026-05-13",
+    endDate: "",
+    genre: ['Romance'],
+    seasonsData: [
+      {
+        seasonNumber: 1,
+        nbEpisodes: 8,
+        totalLength: 415,
+      },
+    ],
+    description: "",
+    countryOrigin: "États-Unis",
+    saga: "",
+    fromEntity: null,
+  },
 ];
