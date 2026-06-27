@@ -497,4 +497,19 @@ export const baseGamesApi: BaseGame[] = [
     description: '',
     fromEntity: null,
   },
+
+  {
+    title: "Saros",
+    editor: "Sony Interactive Entertainment",
+    hero: "",
+    coverUrl: "https://digitalworldpsn.com/wp-content/uploads/2026/03/Screenshot_6.jpg",
+    releaseDate: "2026-04-30",
+    averageTimeToFinish: 20,
+    averageTimeToHundredPercent: 0,
+    platform: "Playstation 5",
+    saga: "",
+    platineTime: 50,
+    description: "",
+    fromEntity: null,
+  },
 ];

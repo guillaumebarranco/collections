@@ -5119,4 +5119,19 @@ export const ronanGames: UserGames = [
     }
     ],
   }
+,
+  {
+    title: "Saros",
+    editor: "Sony Interactive Entertainment",
+    rating: 3.5,
+    owned: true,
+    gamelistPriority: 1,
+    wantToPlayAgain: false,
+    ratingComment: "",
+    borrowed: "",
+    loaned: "",
+    sessions: [
+      { finishedGame: true, finishedGameWithHundredPercent: false, platinedGame: false, additionnalEstimatedTime: 0, sessionStartDate: "2026-05-01", sessionEndDate: "2026-06-24" }
+    ],
+  },
 ];

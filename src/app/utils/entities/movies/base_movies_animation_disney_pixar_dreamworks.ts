@@ -1459,13 +1459,17 @@ export const baseMoviesAnimationDisneyPixarDreamworks: BaseMovie[] = [
   {
     title: 'Toy Story',
     director: 'John Lasseter',
-    actors: [{ name: 'Tom Hanks' }],
-    coverUrl: '/movies_pictures/1051e72bab57.png',
-    releaseDate: '1995-11-22',
+    actors: [
+      {
+        name: "Tom Hanks",
+      }
+    ],
+    coverUrl: "/movies_pictures/1051e72bab57.png",
+    releaseDate: "1995-11-22",
     length: 81,
     genre: ['Animation'],
-    saga: 'Pixar',
-    description: '',
+    saga: "Toy Story",
+    description: "",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 25,
@@ -1473,13 +1477,17 @@ export const baseMoviesAnimationDisneyPixarDreamworks: BaseMovie[] = [
   {
     title: 'Toy Story 2',
     director: 'John Lasseter',
-    actors: [{ name: 'Tom Hanks' }],
-    coverUrl: '/movies_pictures/8672b8dc88ba.jpg',
-    releaseDate: '1999-11-24',
+    actors: [
+      {
+        name: "Tom Hanks",
+      }
+    ],
+    coverUrl: "/movies_pictures/8672b8dc88ba.jpg",
+    releaseDate: "1999-11-24",
     length: 92,
     genre: ['Animation'],
-    saga: 'Pixar',
-    description: '',
+    saga: "Toy Story",
+    description: "",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 25,
@@ -1487,13 +1495,17 @@ export const baseMoviesAnimationDisneyPixarDreamworks: BaseMovie[] = [
   {
     title: 'Toy Story 3',
     director: 'Lee Unkrich',
-    actors: [{ name: 'Tom Hanks' }],
-    coverUrl: '/movies_pictures/d638aff13237.jpg',
-    releaseDate: '2010-06-18',
+    actors: [
+      {
+        name: "Tom Hanks",
+      }
+    ],
+    coverUrl: "/movies_pictures/d638aff13237.jpg",
+    releaseDate: "2010-06-18",
     length: 103,
     genre: ['Animation'],
-    saga: 'Pixar',
-    description: '',
+    saga: "Toy Story",
+    description: "",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 25,
@@ -1503,21 +1515,21 @@ export const baseMoviesAnimationDisneyPixarDreamworks: BaseMovie[] = [
     director: 'Josh Cooley',
     actors: [
       {
-        name: 'Tom Hanks',
+        name: "Tom Hanks",
       },
       {
-        name: 'Tim Allen',
+        name: "Tim Allen",
       },
       {
-        name: 'Annie Potts',
-      },
+        name: "Annie Potts",
+      }
     ],
-    coverUrl: '/movies_pictures/dbe0476a400d.png',
-    releaseDate: '2019-06-26',
+    coverUrl: "/movies_pictures/dbe0476a400d.png",
+    releaseDate: "2019-06-26",
     length: 100,
     genre: ['Animation'],
-    saga: 'Pixar',
-    description: '',
+    saga: "Toy Story",
+    description: "",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 25,
