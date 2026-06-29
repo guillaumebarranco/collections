@@ -1011,7 +1011,7 @@ export const lucileBooks: UserBook[] = [
     ratingComment: '',
   },
   {
-    title: "Divines Rivalités (Lettres d'enchantement, #1",
+    title: "Divines Rivalités (Lettres d'enchantement, #1)",
     author: 'Rebecca Ross',
     firstReadDate: '2024-06-14',
     lastReadDate: '2024-06-14',

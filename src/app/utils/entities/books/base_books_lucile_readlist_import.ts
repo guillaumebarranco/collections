@@ -382,7 +382,7 @@ export const baseBooksLucileReadlistImport: BaseBook[] = [
     selectDisplayOrder: 0,
   },
   {
-    title: "Divines Rivalités (Lettres d'enchantement, #1",
+    title: "Divines Rivalités (Lettres d'enchantement, #1)",
     author: 'Rebecca Ross',
     coverUrl: '/books_pictures/142dad6b7fac.jpg',
     pages: 416,

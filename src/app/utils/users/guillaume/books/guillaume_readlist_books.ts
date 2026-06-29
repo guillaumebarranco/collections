@@ -1473,4 +1473,21 @@ export const guillaumeReadlistBooks: UserBooks = [
     wantToReadAgain: false,
     ratingComment: '',
   },
+
+  {
+    title: "The Way I Used to Be",
+    author: "Amber Smith",
+    firstReadDate: "",
+    lastReadDate: "",
+    otherReadDates: [],
+    rating: 0,
+    reading: false,
+    readTimes: 1,
+    owned: false,
+    borrowed: "",
+    loaned: "",
+    readPriority: 3,
+    wantToReadAgain: false,
+    ratingComment: "",
+  },
 ];
