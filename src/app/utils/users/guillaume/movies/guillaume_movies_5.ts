@@ -1803,4 +1803,22 @@ export const guillaumeMoviesPage5: UserMovies = [
     loaned: '',
     inList: [],
   },
+  {
+    title: 'Cyprien',
+    director: 'David Charhon',
+    rating: 0,
+    timesWatched: 1,
+    firstViewedDate: '',
+    lastViewedDate: '',
+    otherSeenDates: [],
+    seenAtCinema: false,
+    owned: false,
+    wantToSeeAgain: false,
+    watchPriority: 1,
+    ratingComment: '',
+    borrowed: '',
+    loaned: '',
+    inList: [],
+  },
+
 ];
