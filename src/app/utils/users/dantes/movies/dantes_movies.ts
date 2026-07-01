@@ -13146,7 +13146,7 @@ export const dantesMovies: UserMovie[] = [
 
   {
     title: 'Hurlevent',
-    director: "Frances O'Connor",
+    director: 'Emerald Fennell',
     rating: 0,
     timesWatched: 1,
     firstViewedDate: '',

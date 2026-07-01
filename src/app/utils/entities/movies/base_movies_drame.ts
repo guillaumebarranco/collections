@@ -6376,7 +6376,7 @@ export const baseMoviesDrame: BaseMovie[] = [
   },
   {
     title: 'Hurlevent',
-    director: "Frances O'Connor",
+    director: 'Emerald Fennell',
     actors: [
       {
         name: 'Clément Bresson',
@@ -8921,7 +8921,7 @@ export const baseMoviesDrame: BaseMovie[] = [
       { name: 'Wagner Moura' },
       { name: 'Ana de Armas' },
       { name: 'Garret Dillahunt' },
-      { name: 'Brían F. O\'Byrne' },
+      { name: "Brían F. O'Byrne" },
       { name: 'Bradley Whitford' },
       { name: 'Will Dalton' },
       { name: 'Clemens Schick' },
@@ -12801,7 +12801,7 @@ export const baseMoviesDrame: BaseMovie[] = [
     title: 'Caddo Lake',
     director: 'Celine Held, Logan George',
     actors: [
-      { name: 'Dylan O\'Brien' },
+      { name: "Dylan O'Brien" },
       { name: 'Eliza Scanlen' },
       { name: 'Lauren Ambrose' },
       { name: 'Diana Hopper' },
@@ -13367,10 +13367,7 @@ export const baseMoviesDrame: BaseMovie[] = [
   {
     title: 'Malcolm & Marie',
     director: 'Sam Levinson',
-    actors: [
-      { name: 'John David Washington' },
-      { name: 'Zendaya' },
-    ],
+    actors: [{ name: 'John David Washington' }, { name: 'Zendaya' }],
     coverUrl: '/movies_pictures/malcolm_marie.jpg',
     releaseDate: '2021-02-05',
     length: 106,
@@ -13872,9 +13869,9 @@ export const baseMoviesDrame: BaseMovie[] = [
       { name: 'Matthew McConaughey' },
       { name: 'Jared Leto' },
       { name: 'Jennifer Garner' },
-      { name: 'Denis O\'Hare' },
+      { name: "Denis O'Hare" },
       { name: 'Steve Zahn' },
-      { name: 'Michael O\'Neill' },
+      { name: "Michael O'Neill" },
       { name: 'Dallas Roberts' },
     ],
     coverUrl: '/movies_pictures/dallas_buyers_club.jpg',
@@ -14154,7 +14151,7 @@ export const baseMoviesDrame: BaseMovie[] = [
       { name: 'Meagan Good' },
       { name: 'Jackie Long' },
       { name: 'Wesley Jonathan' },
-      { name: 'Lil\'JJ' },
+      { name: "Lil'JJ" },
     ],
     coverUrl: '/movies_pictures/you_got_served.jpg',
     releaseDate: '2004-06-02',
@@ -14371,7 +14368,7 @@ export const baseMoviesDrame: BaseMovie[] = [
       { name: 'Wil Wheaton' },
       { name: 'River Phoenix' },
       { name: 'Corey Feldman' },
-      { name: 'Jerry O\'Connell' },
+      { name: "Jerry O'Connell" },
       { name: 'Kiefer Sutherland' },
       { name: 'Richard Dreyfuss' },
       { name: 'John Cusack' },
