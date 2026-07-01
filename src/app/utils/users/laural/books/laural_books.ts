@@ -2397,4 +2397,21 @@ export const lauralBooks: UserBook[] = [
     wantToReadAgain: false,
     ratingComment: '',
   },
+
+  {
+    title: "Le Rêve d'un Homme Ridicule",
+    author: "Fiodor Dostoïevski",
+    firstReadDate: "2026-06-29",
+    lastReadDate: "",
+    otherReadDates: [],
+    rating: 3.5,
+    reading: false,
+    readTimes: 1,
+    owned: false,
+    borrowed: "",
+    loaned: "",
+    readPriority: 1,
+    wantToReadAgain: false,
+    ratingComment: "",
+  },
 ];

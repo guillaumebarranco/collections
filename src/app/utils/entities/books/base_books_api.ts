@@ -2015,4 +2015,19 @@ export const baseBooksApi: BaseBook[] = [
     countryOrigin: "France",
     selectDisplayOrder: 0,
   },
+
+  {
+    title: "Le Rêve d'un Homme Ridicule",
+    author: "Fiodor Dostoïevski",
+    coverUrl: "https://img.livraddict.com/covers/687/687478//couv15363477.png",
+    pages: 64,
+    genre: [],
+    saga: "",
+    sagaOrder: 0,
+    sagaFinished: true,
+    releaseDate: "1877-04-01",
+    description: "",
+    countryOrigin: "Russie",
+    selectDisplayOrder: 0,
+  },
 ];
