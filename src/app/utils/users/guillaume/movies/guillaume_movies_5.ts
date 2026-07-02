@@ -754,17 +754,17 @@ export const guillaumeMoviesPage5: UserMovies = [
     director: 'Marco Brambilla',
     rating: 4.5,
     timesWatched: 25,
-    firstViewedDate: "",
-    lastViewedDate: "",
+    firstViewedDate: '',
+    lastViewedDate: '',
     otherSeenDates: [],
     seenAtCinema: false,
     owned: false,
     wantToSeeAgain: false,
     watchPriority: 1,
-    ratingComment: "",
-    borrowed: "",
-    loaned: "",
-    inList: ["Mes classiques"],
+    ratingComment: '',
+    borrowed: '',
+    loaned: '',
+    inList: ['Mes classiques'],
   },
   {
     title: 'Le fugitif',
@@ -1602,7 +1602,7 @@ export const guillaumeMoviesPage5: UserMovies = [
   {
     title: 'The Princess Switch 3: Romancing the Star',
     director: 'Mike Rohl',
-    rating: 2,
+    rating: 2.25,
     timesWatched: 1,
     firstViewedDate: '2024-12-30',
     lastViewedDate: '2024-12-30',
@@ -1806,8 +1806,8 @@ export const guillaumeMoviesPage5: UserMovies = [
   {
     title: 'Cyprien',
     director: 'David Charhon',
-    rating: 0,
-    timesWatched: 1,
+    rating: 2.5,
+    timesWatched: 3,
     firstViewedDate: '',
     lastViewedDate: '',
     otherSeenDates: [],
@@ -1824,7 +1824,7 @@ export const guillaumeMoviesPage5: UserMovies = [
   {
     title: 'Bowling for Columbine',
     director: 'Michael Moore',
-    rating: 0,
+    rating: 3.5,
     timesWatched: 1,
     firstViewedDate: '',
     lastViewedDate: '',
@@ -1841,8 +1841,8 @@ export const guillaumeMoviesPage5: UserMovies = [
   {
     title: 'Allô maman, ici bébé',
     director: 'Amy Heckerling',
-    rating: 0,
-    timesWatched: 1,
+    rating: 3,
+    timesWatched: 5,
     firstViewedDate: '',
     lastViewedDate: '',
     otherSeenDates: [],
@@ -1858,7 +1858,7 @@ export const guillaumeMoviesPage5: UserMovies = [
   {
     title: 'Joue-la comme Beckham',
     director: 'Gurinder Chadha',
-    rating: 0,
+    rating: 3.25,
     timesWatched: 1,
     firstViewedDate: '',
     lastViewedDate: '',
@@ -1875,7 +1875,7 @@ export const guillaumeMoviesPage5: UserMovies = [
   {
     title: 'Le Boulet',
     director: 'Frédéric Forestier',
-    rating: 0,
+    rating: 3,
     timesWatched: 1,
     firstViewedDate: '',
     lastViewedDate: '',
@@ -1889,5 +1889,4 @@ export const guillaumeMoviesPage5: UserMovies = [
     loaned: '',
     inList: [],
   },
-
 ];

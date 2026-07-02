@@ -634,7 +634,7 @@ export const guillaumeMoviesPage4: UserMovies = [
   {
     title: 'Cowboys & Aliens',
     director: 'Jon Favreau',
-    rating: 2,
+    rating: 2.25,
     timesWatched: 1,
     firstViewedDate: '',
     lastViewedDate: '',

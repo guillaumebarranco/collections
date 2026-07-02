@@ -570,6 +570,39 @@ export const baseMoviesSagaAutres: BaseMovie[] = [
     selectDisplayOrder: 20,
   },
   {
+    title: 'Enola Holmes 3',
+    director: 'Philip Barantini',
+    actors: [
+      {
+        name: 'Millie Bobby Brown',
+      },
+      {
+        name: 'Henry Cavill',
+      },
+      {
+        name: 'Helena Bonham Carter',
+      },
+      {
+        name: 'Louis Partridge',
+      },
+      {
+        name: 'Himesh Patel',
+      },
+      {
+        name: 'Sharon Duncan-Brewster',
+      },
+    ],
+    coverUrl: 'https://www.ecranlarge.com/content/uploads/2026/07/image-1.png',
+    releaseDate: '2026-07-01',
+    length: 105,
+    genre: ['Policier'],
+    saga: 'Enola Holmes',
+    description: '',
+    fromEntity: null,
+    countryOrigin: ['États-Unis'],
+    selectDisplayOrder: 20,
+  },
+  {
     title: 'A couteaux tirés',
     director: 'Rian Johnson',
     actors: [
