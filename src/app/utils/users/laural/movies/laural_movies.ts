@@ -10445,7 +10445,7 @@ export const lauralMovies: UserMovie[] = [
     title: 'Mon beau-père, mes parents et moi',
     director: 'Jay Roach',
     rating: 0,
-    timesWatched: 0,
+    timesWatched: 1,
     firstViewedDate: '',
     lastViewedDate: '',
     otherSeenDates: [],
