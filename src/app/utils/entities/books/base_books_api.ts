@@ -2019,7 +2019,7 @@ export const baseBooksApi: BaseBook[] = [
   {
     title: "Le Rêve d'un Homme Ridicule",
     author: "Fiodor Dostoïevski",
-    coverUrl: "https://img.livraddict.com/covers/687/687478//couv15363477.png",
+    coverUrl: "/books_pictures/135d528c6539.png",
     pages: 64,
     genre: [],
     saga: "",

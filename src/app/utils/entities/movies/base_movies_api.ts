@@ -2054,7 +2054,7 @@ export const baseMoviesApi: BaseMovie[] = [
         name: "Lukita Maxwell",
       },
     ],
-    coverUrl: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSdAxYBJNWuRtGBEVkekBctJu4paQCl3lQYgY53laSzP7DO2vsrFYv9sNVC&s=10",
+    coverUrl: "/movies_pictures/82dc6197b09a.jpg",
     releaseDate: "2026-06-17",
     length: 111,
     genre: ['Horreur'],

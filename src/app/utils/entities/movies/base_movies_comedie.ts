@@ -13331,7 +13331,7 @@ export const baseMoviesComedie: BaseMovie[] = [
       { name: 'Jesse Plemons' },
     ],
     coverUrl:
-      'https://www.ecranlarge.com/content/uploads/2020/08/bhwdebce2j3bydje9yxyfwiwbhz-113.jpg',
+      '/movies_pictures/c753646a1530.jpg',
     releaseDate: '2002-07-03',
     length: 99,
     genre: ['Comédie', 'Jeunesse', 'Fantastique'],

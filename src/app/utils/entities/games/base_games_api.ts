@@ -502,7 +502,7 @@ export const baseGamesApi: BaseGame[] = [
     title: "Saros",
     editor: "Sony Interactive Entertainment",
     hero: "",
-    coverUrl: "https://digitalworldpsn.com/wp-content/uploads/2026/03/Screenshot_6.jpg",
+    coverUrl: "/games_pictures/fc29e31d2608.jpg",
     releaseDate: "2026-04-30",
     averageTimeToFinish: 20,
     averageTimeToHundredPercent: 0,

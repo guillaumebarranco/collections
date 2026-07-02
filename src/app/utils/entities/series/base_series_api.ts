@@ -141,7 +141,7 @@ export const baseSeriesApi: BaseSerie[] = [
         name: "Josh Heuston",
       },
     ],
-    coverUrl: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQOoUlo8Ll2RunyVuzRe4zorXhwjTKlppvgFcEs331mKG_RApt_geJduyE&s=10",
+    coverUrl: "/series_pictures/de5d3e6252ad.jpg",
     releaseDate: "2026-05-13",
     endDate: "",
     genre: ['Romance'],
