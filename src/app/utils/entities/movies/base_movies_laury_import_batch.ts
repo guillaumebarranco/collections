@@ -2916,7 +2916,7 @@ export const baseMoviesLauryImportBatch: BaseMovie[] = [
       { name: 'Juliet Stevenson' },
     ],
     coverUrl:
-      'https://m.media-amazon.com/images/M/MV5BM2YwYzA5NTctY2JjYy00ZWI3LTg4YjUtOTkyNGE4NzY4ZGJhXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg',
+      '/movies_pictures/248e30a8c46d.jpg',
     releaseDate: '2003-12-19',
     length: 117,
     genre: ['Drame', 'Romance'],
@@ -4108,7 +4108,7 @@ export const baseMoviesLauryImportBatch: BaseMovie[] = [
       { name: 'Alain Chabat' },
     ],
     coverUrl:
-      'https://m.media-amazon.com/images/M/MV5BMTQ2NzYyODcxN15BMl5BanBnXkFtZTYwNzY1Njg4._V1_FMjpg_UX1000_.jpg',
+      '/movies_pictures/c96fe2f12b24.jpg',
     releaseDate: '1999-03-31',
     length: 90,
     genre: ['Comédie'],
@@ -4308,7 +4308,7 @@ export const baseMoviesLauryImportBatch: BaseMovie[] = [
       { name: 'Ousseynou Diouf' },
     ],
     coverUrl:
-      'https://m.media-amazon.com/images/M/MV5BNWRiYjQ2ZjItMGM2MC00NGU0LWI1NWUtYTcyMjkxYjYyNzY3XkEyXkFqcGc@._V1_.jpg',
+      '/movies_pictures/f1c3ba4cd7b9.jpg',
     releaseDate: '1996-03-13',
     length: 100,
     genre: ['Aventure', 'Comédie'],
@@ -4353,7 +4353,7 @@ export const baseMoviesLauryImportBatch: BaseMovie[] = [
       { name: 'Simon Callow' },
     ],
     coverUrl:
-      'https://m.media-amazon.com/images/M/MV5BYmM3MTllNzYtN2MzNS00NWQwLTk0NTEtNjY1MmMwYjNkNTE5XkEyXkFqcGc@._V1_.jpg',
+      '/movies_pictures/d237ef20a037.jpg',
     releaseDate: '1998-12-11',
     length: 123,
     genre: ['Romance', 'Comédie'],
@@ -5308,7 +5308,7 @@ export const baseMoviesLauryImportBatch: BaseMovie[] = [
       { name: 'Marisa Tomei' },
       { name: 'Analeigh Tipton' },
     ],
-    coverUrl: 'https://m.media-amazon.com/images/I/81P3LIAju6L.jpg',
+    coverUrl: '/movies_pictures/8db9e5d9ae45.jpg',
     releaseDate: '2011-07-29',
     length: 118,
     genre: ['Comédie', 'Romance'],
@@ -5514,7 +5514,7 @@ export const baseMoviesLauryImportBatch: BaseMovie[] = [
       { name: 'Antonin Chalon' },
     ],
     coverUrl:
-      'https://media.hachette.fr/fit-in/1128x1128/2020-11/no-et-moi.jpg',
+      '/movies_pictures/8185444c248d.jpg',
     releaseDate: '2010-01-27',
     length: 102,
     genre: ['Drame'],
@@ -5583,7 +5583,7 @@ export const baseMoviesLauryImportBatch: BaseMovie[] = [
       { name: 'Peter McRobbie' },
     ],
     coverUrl:
-      'https://m.media-amazon.com/images/M/MV5BZWU5MTJiNDMtMmI0Yy00MWRjLTgwZjktODEyY2NmZThhM2EwXkEyXkFqcGc@._V1_.jpg',
+      '/movies_pictures/e19304211957.jpg',
     releaseDate: '2001-10-26',
     length: 120,
     genre: ['Science Fiction', 'Drame'],
@@ -5766,7 +5766,7 @@ export const baseMoviesLauryImportBatch: BaseMovie[] = [
       { name: 'Anne Heche' },
       { name: 'Zeljko Ivanek' },
     ],
-    coverUrl: 'https://www.legrandaction.com/wp-content/uploads/affiche-98.jpg',
+    coverUrl: '/movies_pictures/9175a0d6f115.jpg',
     releaseDate: '1997-02-28',
     length: 147,
     genre: ['Drame', 'Policier'],

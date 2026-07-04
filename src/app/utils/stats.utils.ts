@@ -48,6 +48,8 @@ export function capitalizeFirstLetter(val: string): string {
 // Estimation : 1 minute 30s par page en moyenne
 export const MINUTES_PER_PAGE = 1.5;
 export const SECONDS_PER_COMIC_PAGE = 20;
+// Estimation : 20 secondes par page pour un livre pour enfant
+export const SECONDS_PER_CHILDREN_BOOK_PAGE = 20;
 // Estimation : 200 pages par tome de manga en moyenne
 export const PAGES_PER_MANGA_TOME = 200;
 export const PAGES_PER_MANWHA_CHAPTER = 30;
@@ -214,6 +216,18 @@ export function getTotalBookReadingMinutes(items: ItemWithPages[]): number {
 
 export function getEstimatedReadingTime(items: ItemWithPages[]): TimeStats {
   return formatTimeStats(getTotalBookReadingMinutes(items));
+}
+
+export function getTotalChildrenBookReadingMinutes(
+  items: ItemWithPages[]
+): number {
+  return (getTotalPagesRead(items) * SECONDS_PER_CHILDREN_BOOK_PAGE) / 60;
+}
+
+export function getEstimatedChildrenBookReadingTime(
+  items: ItemWithPages[]
+): TimeStats {
+  return formatTimeStats(getTotalChildrenBookReadingMinutes(items));
 }
 
 export function getTotalMangaReadingMinutes(items: ItemWithTomes[]): number {

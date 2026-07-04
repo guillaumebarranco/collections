@@ -2082,7 +2082,7 @@ export const baseMoviesApi: BaseMovie[] = [
         name: "Greta Lee",
       },
     ],
-    coverUrl: "https://m.media-amazon.com/images/M/MV5BZTI1YTBiNmEtYWUxZi00YzFkLWIzNjMtMmZjMmY2NzM0ZWMzXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg",
+    coverUrl: "/movies_pictures/c45e6629bf16.jpg",
     releaseDate: "2026-06-17",
     length: 102,
     genre: ['Jeunesse', 'Animation'],

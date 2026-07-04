@@ -592,7 +592,7 @@ export const baseMoviesSagaAutres: BaseMovie[] = [
         name: 'Sharon Duncan-Brewster',
       },
     ],
-    coverUrl: 'https://www.ecranlarge.com/content/uploads/2026/07/image-1.png',
+    coverUrl: '/movies_pictures/4ec397df20f3.png',
     releaseDate: '2026-07-01',
     length: 105,
     genre: ['Policier'],

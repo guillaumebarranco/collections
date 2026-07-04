@@ -39,9 +39,9 @@ import {
 import {
   getTotalPages,
   getTotalPagesRead,
-  getEstimatedReadingTime,
+  getEstimatedChildrenBookReadingTime,
   formatTimeStats,
-  MINUTES_PER_PAGE,
+  SECONDS_PER_CHILDREN_BOOK_PAGE,
 } from '../../../utils/stats.utils';
 import { ActivatedRoute, Params, Router, RouterLink } from '@angular/router';
 import {
@@ -639,8 +639,10 @@ export class ChildrenBooksComponent implements OnInit {
     const estimatedReadingTime =
       this.selectedView() === 'readlist' ||
       this.selectedView() === 'readingInProgress'
-        ? formatTimeStats(totalPages * MINUTES_PER_PAGE)
-        : getEstimatedReadingTime(childrenBooksToUse);
+        ? formatTimeStats(
+            (totalPages * SECONDS_PER_CHILDREN_BOOK_PAGE) / 60
+          )
+        : getEstimatedChildrenBookReadingTime(childrenBooksToUse);
 
     const stats = [
       {
