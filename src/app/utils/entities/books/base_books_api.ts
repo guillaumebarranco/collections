@@ -2030,4 +2030,19 @@ export const baseBooksApi: BaseBook[] = [
     countryOrigin: "Russie",
     selectDisplayOrder: 0,
   },
+
+  {
+    title: "La Lumière du Bonheur",
+    author: "Eric Emmanuel Schmitt",
+    coverUrl: "https://pictures.abebooks.com/isbn/9782253252337-fr.jpg",
+    pages: 592,
+    genre: [],
+    saga: "La Traversée des Temps",
+    sagaOrder: 4,
+    sagaFinished: false,
+    releaseDate: "2025-08-20",
+    description: "",
+    countryOrigin: "France",
+    selectDisplayOrder: 0,
+  },
 ];

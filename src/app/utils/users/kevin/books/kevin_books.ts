@@ -1969,4 +1969,21 @@ export const kevinBooks: UserBooks = [
     wantToReadAgain: false,
     ratingComment: "Le livre est à nouveau bien écrit, emballant quant à son univers mais trop répétitif quant à la quête du personnage principal.",
   },
+
+  {
+    title: "La Lumière du Bonheur",
+    author: "Eric Emmanuel Schmitt",
+    firstReadDate: "2026-07-05",
+    lastReadDate: "2026-07-05",
+    otherReadDates: [],
+    rating: 4,
+    reading: false,
+    readTimes: 1,
+    owned: true,
+    borrowed: "",
+    loaned: "",
+    readPriority: 1,
+    wantToReadAgain: false,
+    ratingComment: "Le livre s'éloigne enfin de la relation entre les deux amoureux éternels de la saga, et présente superbement de nouvelles relations ainsi qu'un nouveau monde. Mon seul regret tient à mon manque de connaissance sur la période et les personnages historiques décrits. Néanmoins, le procédé de la tragédie subtilement annoncé tout au long du tome est splendide.",
+  },
 ];

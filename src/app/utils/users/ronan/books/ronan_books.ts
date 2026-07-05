@@ -1657,4 +1657,21 @@ export const ronanBooks: UserBooks = [
     wantToReadAgain: false,
     ratingComment: '',
   },
+
+  {
+    title: "Le Parfum",
+    author: "Patrick Süskind",
+    firstReadDate: "2026-07-04",
+    lastReadDate: "2026-07-04",
+    otherReadDates: [],
+    rating: 2.5,
+    reading: false,
+    readTimes: 1,
+    owned: true,
+    borrowed: "",
+    loaned: "",
+    readPriority: 1,
+    wantToReadAgain: false,
+    ratingComment: "",
+  },
 ];

@@ -1629,4 +1629,21 @@ export const guillaumeBooks: UserBooks = [
     wantToReadAgain: false,
     ratingComment: '',
   },
+
+  {
+    title: "La voleuse de livres",
+    author: "Markus Zusak",
+    firstReadDate: "2026-07-03",
+    lastReadDate: "2026-07-03",
+    otherReadDates: [],
+    rating: 4.5,
+    reading: false,
+    readTimes: 1,
+    owned: true,
+    borrowed: "",
+    loaned: "",
+    readPriority: 3,
+    wantToReadAgain: false,
+    ratingComment: "",
+  },
 ];
