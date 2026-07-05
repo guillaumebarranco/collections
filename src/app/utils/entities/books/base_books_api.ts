@@ -2034,7 +2034,7 @@ export const baseBooksApi: BaseBook[] = [
   {
     title: "La Lumière du Bonheur",
     author: "Eric Emmanuel Schmitt",
-    coverUrl: "https://pictures.abebooks.com/isbn/9782253252337-fr.jpg",
+    coverUrl: "/books_pictures/72021b7c0ae5.jpg",
     pages: 592,
     genre: [],
     saga: "La Traversée des Temps",

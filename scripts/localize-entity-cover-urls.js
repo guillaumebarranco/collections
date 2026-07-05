@@ -30,6 +30,7 @@ function getPublicSubdir(relativeFilePath) {
     movies: 'movies_pictures',
     series: 'series_pictures',
     books: 'books_pictures',
+    'children-books': 'children_books_pictures',
     bds: 'bds_pictures',
     comics: 'comics_pictures',
     mangas: 'mangas_pictures',

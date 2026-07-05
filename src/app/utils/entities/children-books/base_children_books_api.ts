@@ -1114,7 +1114,7 @@ export const baseChildrenBooksApi: BaseChildrenBook[] = [
     title: 'Les déchets',
     author: "P'tits docs",
     coverUrl:
-      'https://imagine.bayard.io/unsafe/560x0/bayard-static/edition/couvertures/9782408030049/9782408030049.jpg',
+      '/children_books_pictures/04b5eb75f74f.jpg',
     pages: 32,
     genre: ['Jeunesse', 'Nonfiction'],
     saga: "Mes p'tits docs",
@@ -2040,7 +2040,7 @@ export const baseChildrenBooksApi: BaseChildrenBook[] = [
     title: 'DISNEY - Combien de dodos avant... Mon anniversaire',
     author: 'Hachette Disney',
     coverUrl:
-      'https://products-images.di-static.com/image/disney-combien-de-dodos-avant-mon-anniversaire/9782017367673-475x500-1.webp',
+      '/children_books_pictures/fb8091e00d55.webp',
     pages: 32,
     genre: ['Jeunesse', 'Conte'],
     saga: 'Combien de dodos avant...',
