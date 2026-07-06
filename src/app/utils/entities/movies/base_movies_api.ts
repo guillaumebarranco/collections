@@ -2092,4 +2092,35 @@ export const baseMoviesApi: BaseMovie[] = [
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
   },
+
+  {
+    title: "Supergirl",
+    director: "Craig Gillespie",
+    actors: [
+      {
+        name: "Milly Alcock",
+      },
+      {
+        name: "Jason Momoa",
+      },
+      {
+        name: "David Corenswet",
+      },
+      {
+        name: "Eve Ridley",
+      },
+      {
+        name: "Matthias Schoenaerts",
+      }
+    ],
+    coverUrl: "https://www.daily-movies.ch/wp-content/uploads/2025/05/Supergirl-1.jpg",
+    releaseDate: "2026-07-01",
+    length: 110,
+    genre: ['Action', 'Fantastique'],
+    saga: "DCU",
+    description: "",
+    fromEntity: null,
+    countryOrigin: ['États-Unis'],
+    selectDisplayOrder: 0,
+  },
 ];

@@ -157,4 +157,85 @@ export const baseSeriesApi: BaseSerie[] = [
     saga: "",
     fromEntity: null,
   },
+
+  {
+    title: "The Bear",
+    director: "Christopher Storer",
+    actors: [
+      {
+        name: "Jeremy Allen White",
+      },
+      {
+        name: "Ebon Moss-Bachrach",
+      },
+      {
+        name: "Ayo Edebiri",
+      },
+      {
+        name: "Lionel Boyce",
+      },
+      {
+        name: "Liza Colón-Zayas",
+      },
+      {
+        name: "Abby Elliott",
+      },
+      {
+        name: "Matty Matheson",
+      },
+      {
+        name: "Jon Bernthal",
+      },
+      {
+        name: "Corey Hendrix",
+      },
+      {
+        name: "Oliver Platt",
+      },
+      {
+        name: "Ricky Staffieri",
+      },
+      {
+        name: "Sarah Ramos",
+      },
+      {
+        name: "Will Poulter",
+      },
+    ],
+    coverUrl: "https://m.media-amazon.com/images/M/MV5BNmMzNjc4OTYtNWJhYi00NWFkLTlhNTUtMDM2Njg3Mzc4NzFlXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg",
+    releaseDate: "2022-06-23",
+    endDate: "2026-06-25",
+    genre: ['Drame'],
+    seasonsData: [
+      {
+        seasonNumber: 1,
+        nbEpisodes: 8,
+        totalLength: 244,
+      },
+      {
+        seasonNumber: 2,
+        nbEpisodes: 10,
+        totalLength: 358,
+      },
+      {
+        seasonNumber: 3,
+        nbEpisodes: 10,
+        totalLength: 354,
+      },
+      {
+        seasonNumber: 4,
+        nbEpisodes: 10,
+        totalLength: 377,
+      },
+      {
+        seasonNumber: 5,
+        nbEpisodes: 8,
+        totalLength: 278,
+      },
+    ],
+    description: "",
+    countryOrigin: "États-Unis",
+    saga: "",
+    fromEntity: null,
+  },
 ];
