@@ -18041,4 +18041,22 @@ export const lauralMovies: UserMovie[] = [
     loaned: '',
     inList: [],
   },
+
+  {
+    title: "Wonder",
+    director: "Stephen Chbosky",
+    rating: 4,
+    timesWatched: 1,
+    firstViewedDate: "2026-07-04",
+    lastViewedDate: "",
+    otherSeenDates: [],
+    seenAtCinema: false,
+    owned: false,
+    wantToSeeAgain: false,
+    watchPriority: 1,
+    ratingComment: "",
+    inList: [],
+    borrowed: "",
+    loaned: "",
+  },
 ];

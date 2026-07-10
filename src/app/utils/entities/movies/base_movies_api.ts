@@ -2123,4 +2123,32 @@ export const baseMoviesApi: BaseMovie[] = [
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
   },
+
+  {
+    title: "Wonder",
+    director: "Stephen Chbosky",
+    actors: [
+      {
+        name: "Jacob Tremblay",
+      },
+      {
+        name: "Julia Roberts",
+      },
+      {
+        name: "Owen Wilson",
+      },
+      {
+        name: "Izabela Vodovic",
+      },
+    ],
+    coverUrl: "https://i.ebayimg.com/images/g/XPIAAOSwLjxacmrn/s-l1200.jpg",
+    releaseDate: "2017-12-20",
+    length: 111,
+    genre: ['Drame'],
+    saga: "",
+    description: "",
+    fromEntity: null,
+    countryOrigin: ['États-Unis'],
+    selectDisplayOrder: 0,
+  },
 ];

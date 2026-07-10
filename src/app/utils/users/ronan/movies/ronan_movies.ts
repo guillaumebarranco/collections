@@ -21052,4 +21052,22 @@ export const ronanMovies: UserMovies = [
     borrowed: "",
     loaned: "",
   },
+
+  {
+    title: "Wonder",
+    director: "Stephen Chbosky",
+    rating: 3.25,
+    timesWatched: 1,
+    firstViewedDate: "2026-07-06",
+    lastViewedDate: "2026-07-06",
+    otherSeenDates: [],
+    seenAtCinema: false,
+    owned: false,
+    wantToSeeAgain: false,
+    watchPriority: 1,
+    ratingComment: "",
+    inList: [],
+    borrowed: "",
+    loaned: "",
+  },
 ];
