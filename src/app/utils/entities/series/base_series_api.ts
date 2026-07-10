@@ -202,7 +202,7 @@ export const baseSeriesApi: BaseSerie[] = [
         name: "Will Poulter",
       },
     ],
-    coverUrl: "https://m.media-amazon.com/images/M/MV5BNmMzNjc4OTYtNWJhYi00NWFkLTlhNTUtMDM2Njg3Mzc4NzFlXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg",
+    coverUrl: "/series_pictures/2e2f208a03fc.jpg",
     releaseDate: "2022-06-23",
     endDate: "2026-06-25",
     genre: ['Drame'],

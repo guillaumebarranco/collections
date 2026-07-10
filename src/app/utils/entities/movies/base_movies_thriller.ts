@@ -1131,8 +1131,7 @@ export const baseMoviesThriller: BaseMovie[] = [
       { name: 'Shinji Kaseda' },
       { name: 'Mayuko Fujiyoshi' },
     ],
-    coverUrl:
-      '/movies_pictures/6e3b7bd19cc6.jpg',
+    coverUrl: '/movies_pictures/6e3b7bd19cc6.jpg',
     releaseDate: '2006-06-17',
     length: 126,
     genre: ['Thriller', 'Fantastique'],
@@ -1158,8 +1157,7 @@ export const baseMoviesThriller: BaseMovie[] = [
       { name: 'Miyuki Kaneko' },
       { name: 'Yoshiya Namba' },
     ],
-    coverUrl:
-      '/movies_pictures/8c6359899561.jpg',
+    coverUrl: '/movies_pictures/8c6359899561.jpg',
     releaseDate: '2006-11-03',
     length: 139,
     genre: ['Thriller', 'Fantastique'],
@@ -8190,5 +8188,27 @@ export const baseMoviesThriller: BaseMovie[] = [
     },
     countryOrigin: ['Suède'],
     selectDisplayOrder: 30,
+  },
+  {
+    title: 'Le Roi Soleil',
+    director: 'Vincent Maël Cardona',
+    actors: [
+      { name: 'Pio Marmaï' },
+      { name: 'Lucie Zhang' },
+      { name: 'Sofiane Zermani' },
+      { name: 'Panayotis Pascot' },
+      { name: 'Maria de Medeiros' },
+      { name: 'Joseph Olivennes' },
+    ],
+    coverUrl:
+      '/movies_pictures/cbafada46394.webp',
+    releaseDate: '2025-08-27',
+    length: 107,
+    genre: ['Thriller', 'Drame'],
+    saga: '',
+    description: '',
+    fromEntity: null,
+    countryOrigin: ['France'],
+    selectDisplayOrder: 5,
   },
 ];

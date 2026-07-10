@@ -2113,7 +2113,7 @@ export const baseMoviesApi: BaseMovie[] = [
         name: "Matthias Schoenaerts",
       }
     ],
-    coverUrl: "https://www.daily-movies.ch/wp-content/uploads/2025/05/Supergirl-1.jpg",
+    coverUrl: "/movies_pictures/e90e07bc4ee9.jpg",
     releaseDate: "2026-07-01",
     length: 110,
     genre: ['Action', 'Fantastique'],
@@ -2141,7 +2141,7 @@ export const baseMoviesApi: BaseMovie[] = [
         name: "Izabela Vodovic",
       },
     ],
-    coverUrl: "https://i.ebayimg.com/images/g/XPIAAOSwLjxacmrn/s-l1200.jpg",
+    coverUrl: "/movies_pictures/7c6878beb1bb.jpg",
     releaseDate: "2017-12-20",
     length: 111,
     genre: ['Drame'],
