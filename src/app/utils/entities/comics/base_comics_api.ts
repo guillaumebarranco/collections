@@ -64,4 +64,30 @@ export const baseComicsApi: BaseComic[] = [
     sagaOrder: 0,
     description: "",
   },
+
+  {
+    title: "Daredevil T01 – ConnaÎtre La Peur",
+    writer: "Chip Zdarsky",
+    designer: "Jorge Fornés, Lalit Kumar Sharma, Marco Checchetto",
+    coverUrl: "https://www.mdcu-comics.fr/upload/comics/covers/fr/img_comics_19180_daredevil-t01-connaitre-la-peur.jpg?v=1762539005",
+    releaseDate: "2024-02-07",
+    pages: 0,
+    genre: "Super-héro",
+    saga: "Daredevil par Zdarsky",
+    sagaOrder: 1,
+    description: "",
+  },
+
+  {
+    title: "Daredevil T02 - En Taule",
+    writer: "Chip Zdarsky",
+    designer: "Jorge Fornés, Marco Checchetto",
+    coverUrl: "https://www.excalibur-comics.fr/21376-large_default/daredevil-volume-2-par-zdarsky.jpg",
+    releaseDate: "2024-08-21",
+    pages: 0,
+    genre: "Super-héro",
+    saga: "Daredevil par Zdarsky",
+    sagaOrder: 2,
+    description: "",
+  },
 ];

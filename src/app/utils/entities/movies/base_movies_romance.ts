@@ -2731,30 +2731,30 @@ export const baseMoviesRomance: BaseMovie[] = [
     director: 'Vince Marcello',
     actors: [
       {
-        name: 'Joey King',
+        name: "Joey King",
       },
       {
-        name: 'Joel Courtney',
+        name: "Joel Courtney",
       },
       {
-        name: 'Jacob Elordi',
+        name: "Jacob Elordi",
       },
       {
-        name: 'Maisie Richardson-Sellers',
+        name: "Maisie Richardson-Sellers",
       },
       {
-        name: 'Molly Ringwald',
+        name: "Molly Ringwald",
       },
       {
-        name: 'Meganne Young',
-      },
+        name: "Meganne Young",
+      }
     ],
-    coverUrl: '/movies_pictures/0527531.webp',
-    releaseDate: '2020-07-24',
+    coverUrl: "/movies_pictures/0527531.webp",
+    releaseDate: "2020-07-24",
     length: 132,
     genre: ['Romance', 'Comédie'],
-    saga: '',
-    description: '',
+    saga: "The Kissing Booth",
+    description: "",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 10,

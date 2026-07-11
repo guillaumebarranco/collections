@@ -3468,4 +3468,22 @@ export const guillaumeMoviesPage1: UserMovies = [
     borrowed: '',
     loaned: '',
   },
+
+  {
+    title: "Sans aucun remords",
+    director: "Stefano Sollima",
+    rating: 3.25,
+    timesWatched: 1,
+    firstViewedDate: "2026-07-10",
+    lastViewedDate: "2026-07-10",
+    otherSeenDates: [],
+    seenAtCinema: false,
+    owned: false,
+    wantToSeeAgain: false,
+    watchPriority: 1,
+    ratingComment: "",
+    inList: [],
+    borrowed: "",
+    loaned: "",
+  },
 ];

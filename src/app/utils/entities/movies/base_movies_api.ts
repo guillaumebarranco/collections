@@ -2151,4 +2151,165 @@ export const baseMoviesApi: BaseMovie[] = [
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
   },
+
+  {
+    title: "The Kissing Booth 3",
+    director: "Vince Marcello",
+    actors: [
+      {
+        name: "Joey King",
+      },
+      {
+        name: "Joel Courtney",
+      },
+      {
+        name: "Jacob Elordi",
+      },
+      {
+        name: "Taylor Zakhar Perez",
+      },
+      {
+        name: "Maisie Richardson-Sellers",
+      },
+      {
+        name: "Meganne Young",
+      },
+      {
+        name: "Molly Ringwald",
+      },
+    ],
+    coverUrl: "https://upload.wikimedia.org/wikipedia/en/c/c3/The_Kissing_Booth_3.jpg",
+    releaseDate: "2021-08-11",
+    length: 113,
+    genre: ['Comédie', 'Romance'],
+    saga: "The Kissing Booth",
+    description: "",
+    fromEntity: null,
+    countryOrigin: ['États-Unis'],
+    selectDisplayOrder: 0,
+  },
+
+  {
+    title: "Fonzy",
+    director: "Isabelle Doval",
+    actors: [
+      {
+        name: "José Garcia",
+      },
+      {
+        name: "Audrey Fleurot",
+      },
+      {
+        name: "Lucien Jean-Baptisten Gérard Hernandez",
+      },
+      {
+        name: "Alice Belaidi",
+      },
+      {
+        name: "Hugo Dessioux",
+      },
+      {
+        name: "François Civil",
+      },
+    ],
+    coverUrl: "https://fr.web.img4.acsta.net/c_310_420/pictures/210/357/21035711_20130903101944234.jpg",
+    releaseDate: "2013-10-30",
+    length: 103,
+    genre: ['Comédie'],
+    saga: "",
+    description: "",
+    fromEntity: null,
+    countryOrigin: ['France'],
+    selectDisplayOrder: 0,
+  },
+
+  {
+    title: "Evil Dead Rise",
+    director: " Lee Cronin",
+    actors: [
+      {
+        name: "Lily Sullivan",
+      },
+      {
+        name: "Alyssa Sutherland",
+      },
+      {
+        name: "Gabrielle Echols",
+      },
+      {
+        name: "Morgan Davies",
+      },
+      {
+        name: "Nell Fisher",
+      },
+    ],
+    coverUrl: "https://m.media-amazon.com/images/M/MV5BMjM1ZmViMmYtOGYzZC00YzhmLWE0MTMtMzNjYzcyNjEwYWRkXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg",
+    releaseDate: "2023-04-19",
+    length: 97,
+    genre: ['Horreur'],
+    saga: "Evil Dead",
+    description: "",
+    fromEntity: null,
+    countryOrigin: ['États-Unis'],
+    selectDisplayOrder: 0,
+  },
+
+  {
+    title: "Evil Dead III : L'Armée des ténèbres",
+    director: "Sam Raimi",
+    actors: [
+      {
+        name: "Bruce Campbell",
+      },
+      {
+        name: "Embeth Davidtz",
+      },
+      {
+        name: "Marcus Gilbert",
+      },
+      {
+        name: "Ian Abercrombie",
+      },
+    ],
+    coverUrl: "https://m.media-amazon.com/images/M/MV5BN2FmMDQxODMtZmM0Yy00N2ZiLTk1MDgtMDkyZDlkYWM0MTk2XkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg",
+    releaseDate: "1993-02-19",
+    length: 88,
+    genre: ['Horreur'],
+    saga: "Evil Dead",
+    description: "",
+    fromEntity: null,
+    countryOrigin: ['États-Unis'],
+    selectDisplayOrder: 0,
+  },
+
+  {
+    title: "Evil Dead Burn",
+    director: "Sébastien Vaniček",
+    actors: [
+      {
+        name: "Souheila Yacoub",
+      },
+      {
+        name: "Tandi Wright",
+      },
+      {
+        name: "Hunter Doohan",
+      },
+      {
+        name: "Luciane Buchanan",
+      },
+      {
+        name: "Maude Davey",
+      },
+    ],
+    coverUrl: "https://www.franceinfo.fr/pictures/s7MyeWTM8ILvlW4mI2pzqz9Y_aY/0x0:720x1080/fit-in/720x/filters:format(jpg):quality(50)/2026/07/07/6a4cd619ebaa6231285917.jpg",
+    releaseDate: "2026-07-08",
+    length: 110,
+    genre: ['Horreur'],
+    saga: "Evil Dead",
+    description: "",
+    fromEntity: null,
+    countryOrigin: ['États-Unis', 'Canada', 'Nouvelle-Zélande'],
+    selectDisplayOrder: 0,
+  },
 ];

@@ -3744,20 +3744,34 @@ export const baseMoviesLauryImportBatch: BaseMovie[] = [
     title: 'The Kissing Booth',
     director: 'Vince Marcello',
     actors: [
-      { name: 'Joey King' },
-      { name: 'Jacob Elordi' },
-      { name: 'Joel Courtney' },
-      { name: 'Molly Ringwald' },
-      { name: 'Meg Donnelly' },
-      { name: 'Moses Arias' },
-      { name: 'Courtney Jines' },
+      {
+        name: "Joey King",
+      },
+      {
+        name: "Jacob Elordi",
+      },
+      {
+        name: "Joel Courtney",
+      },
+      {
+        name: "Molly Ringwald",
+      },
+      {
+        name: "Meg Donnelly",
+      },
+      {
+        name: "Moses Arias",
+      },
+      {
+        name: "Courtney Jines",
+      }
     ],
-    coverUrl: '/movies_pictures/4574d8e055c3.jpg',
-    releaseDate: '2018-05-11',
+    coverUrl: "/movies_pictures/4574d8e055c3.jpg",
+    releaseDate: "2018-05-11",
     length: 105,
     genre: ['Romance', 'Comédie'],
-    saga: '',
-    description: '',
+    saga: "The Kissing Booth",
+    description: "",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
