@@ -2312,4 +2312,35 @@ export const baseMoviesApi: BaseMovie[] = [
     countryOrigin: ['États-Unis', 'Canada', 'Nouvelle-Zélande'],
     selectDisplayOrder: 0,
   },
+
+  {
+    title: "La Bataille de Gaulle : J'écris ton nom",
+    director: "Antonin Baudry",
+    actors: [
+      {
+        name: "Simon Abkarian",
+      },
+      {
+        name: "Niels Schneider",
+      },
+      {
+        name: "Simon Russell Beale",
+      },
+      {
+        name: "Anamaria Vartolomei",
+      },
+      {
+        name: "Thierry Lhermitte",
+      },
+    ],
+    coverUrl: "https://www.auvergnerhonealpes-cinema.fr/wp-content/uploads/2024/07/LA-BATAILLE-DE-GAULLE-JECRIS-TON-NOM-affiche-def-site.jpg",
+    releaseDate: "2026-06-26",
+    length: 160,
+    genre: ['Historique', 'Guerre', 'Biographie'],
+    saga: "",
+    description: "",
+    fromEntity: null,
+    countryOrigin: ['France'],
+    selectDisplayOrder: 0,
+  },
 ];

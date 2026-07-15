@@ -1986,4 +1986,21 @@ export const kevinBooks: UserBooks = [
     wantToReadAgain: false,
     ratingComment: "Le livre s'éloigne enfin de la relation entre les deux amoureux éternels de la saga, et présente superbement de nouvelles relations ainsi qu'un nouveau monde. Mon seul regret tient à mon manque de connaissance sur la période et les personnages historiques décrits. Néanmoins, le procédé de la tragédie subtilement annoncé tout au long du tome est splendide.",
   },
+
+  {
+    title: "Jeux d'Ombres",
+    author: "Glen Cook",
+    firstReadDate: "2026-07-14",
+    lastReadDate: "2026-07-14",
+    otherReadDates: [],
+    rating: 4,
+    reading: false,
+    readTimes: 1,
+    owned: false,
+    borrowed: "",
+    loaned: "",
+    readPriority: 2,
+    wantToReadAgain: false,
+    ratingComment: "On met du temps à rentrer dedans mais le livre devient très prenant. Dommage que les intrigues manquent de clarté et tombent un peu dans le redondance (ennemis récurrents...). Peut être un point qui sera corrigé par les éclaircissements des prochains tomes.",
+  },
 ];
