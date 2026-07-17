@@ -18059,4 +18059,22 @@ export const lauralMovies: UserMovie[] = [
     borrowed: "",
     loaned: "",
   },
+
+  {
+    title: "L'Odyssée",
+    director: "Christopher Nolan",
+    rating: 4,
+    timesWatched: 1,
+    firstViewedDate: "2026-07-16",
+    lastViewedDate: "",
+    otherSeenDates: [],
+    seenAtCinema: true,
+    owned: false,
+    wantToSeeAgain: false,
+    watchPriority: 1,
+    ratingComment: "",
+    inList: [],
+    borrowed: "",
+    loaned: "",
+  },
 ];

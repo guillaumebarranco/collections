@@ -2343,4 +2343,44 @@ export const baseMoviesApi: BaseMovie[] = [
     countryOrigin: ['France'],
     selectDisplayOrder: 0,
   },
+
+  {
+    title: "L'Odyssée",
+    director: "Christopher Nolan",
+    actors: [
+      {
+        name: "Matt Damon",
+      },
+      {
+        name: "Tom Holland",
+      },
+      {
+        name: "Anne Hathaway",
+      },
+      {
+        name: "Robert Pattinson",
+      },
+      {
+        name: "Eliott Page",
+      },
+      {
+        name: "Jon Bernthal",
+      },
+      {
+        name: "Zendaya",
+      },
+      {
+        name: "Charlize Theron",
+      },
+    ],
+    coverUrl: "https://www.grignoux.be/upload/grignoux/films/3173/l_odyssee_affiche.webp",
+    releaseDate: "2026-07-15",
+    length: 172,
+    genre: ['Fantastique', 'Peplum'],
+    saga: "",
+    description: "",
+    fromEntity: null,
+    countryOrigin: ['États-Unis'],
+    selectDisplayOrder: 0,
+  },
 ];
