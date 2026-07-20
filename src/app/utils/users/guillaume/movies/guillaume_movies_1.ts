@@ -3504,4 +3504,22 @@ export const guillaumeMoviesPage1: UserMovies = [
     borrowed: "",
     loaned: "",
   },
+
+  {
+    title: "Obsession",
+    director: "Curry Barker",
+    rating: 3.5,
+    timesWatched: 1,
+    firstViewedDate: "2026-07-20",
+    lastViewedDate: "2026-07-20",
+    otherSeenDates: [],
+    seenAtCinema: false,
+    owned: false,
+    wantToSeeAgain: false,
+    watchPriority: 1,
+    ratingComment: "",
+    inList: [],
+    borrowed: "",
+    loaned: "",
+  },
 ];

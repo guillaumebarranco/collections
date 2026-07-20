@@ -3147,4 +3147,18 @@ export const ronanComics: UserComics = [
     borrowed: "",
     loaned: "",
   }
+,
+  {
+    title: "Daredevil T03 - Devil's Reign",
+    writer: "Chip Zdarsky",
+    readDate: "2026-07-20",
+    rating: 4,
+    readTimes: 1,
+    owned: true,
+    readPriority: 1,
+    wantToReadAgain: false,
+    ratingComment: "",
+    borrowed: "",
+    loaned: "",
+  },
 ];

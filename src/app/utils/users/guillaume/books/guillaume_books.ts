@@ -1646,4 +1646,21 @@ export const guillaumeBooks: UserBooks = [
     wantToReadAgain: false,
     ratingComment: "",
   },
+
+  {
+    title: "Plein-Ciel",
+    author: "Marie Pavlenko",
+    firstReadDate: "2026-07-20",
+    lastReadDate: "2026-07-20",
+    otherReadDates: [],
+    rating: 4.25,
+    reading: false,
+    readTimes: 1,
+    owned: false,
+    borrowed: "",
+    loaned: "",
+    readPriority: 3,
+    wantToReadAgain: false,
+    ratingComment: "",
+  },
 ];
