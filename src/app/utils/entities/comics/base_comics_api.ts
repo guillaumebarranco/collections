@@ -95,7 +95,7 @@ export const baseComicsApi: BaseComic[] = [
     title: "Daredevil T03 - Devil's Reign",
     writer: "Chip Zdarsky",
     designer: "Marco Checchetto, Mike Hawthorne, Stefano Landini",
-    coverUrl: "https://m.media-amazon.com/images/I/81LpJWHN7lL._AC_UF1000,1000_QL80_.jpg",
+    coverUrl: "/comics_pictures/93401a8966b5.jpg",
     releaseDate: "2025-01-02",
     pages: 0,
     genre: "Super-héro",

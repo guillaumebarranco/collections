@@ -1451,6 +1451,18 @@ export const baseMangas: BaseManga[] = [
     fromEntity: null,
   },
   {
+    title: 'Dorohedoro',
+    author: 'Q Hayashida',
+    coverUrl: '/mangas_pictures/dorohedoro.png',
+    genre: 'Seinen',
+    nbTomes: 23,
+    startDate: '2000-11-27',
+    endDate: '2018-09-12',
+    saga: '',
+    description: '',
+    fromEntity: null,
+  },
+  {
     title: 'Tokyo Revengers',
     author: 'Ken Wakui',
     coverUrl: '/mangas_pictures/2bbdd82c9dac.webp',
