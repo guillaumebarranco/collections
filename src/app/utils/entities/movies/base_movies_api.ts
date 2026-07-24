@@ -2383,4 +2383,38 @@ export const baseMoviesApi: BaseMovie[] = [
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
   },
+
+  {
+    title: "Marche ou Crève",
+    director: " Francis Lawrence",
+    actors: [
+      {
+        name: "Cooper Alexander",
+      },
+      {
+        name: "David Jonsson",
+      },
+      {
+        name: "Mark Hamill",
+      },
+      {
+        name: "Ben Wang",
+      },
+      {
+        name: "Judy Greer",
+      },
+      {
+        name: "Tut Nyuot",
+      },
+    ],
+    coverUrl: "https://cinema-alhambra.org/wp-content/uploads/2025/10/marche-ou-creve-scaled.jpg",
+    releaseDate: "2025-09-10",
+    length: 108,
+    genre: ['Dystopie'],
+    saga: "",
+    description: "",
+    fromEntity: null,
+    countryOrigin: ['États-Unis'],
+    selectDisplayOrder: 0,
+  },
 ];
