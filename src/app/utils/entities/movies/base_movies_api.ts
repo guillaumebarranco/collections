@@ -2407,7 +2407,7 @@ export const baseMoviesApi: BaseMovie[] = [
         name: "Tut Nyuot",
       },
     ],
-    coverUrl: "https://cinema-alhambra.org/wp-content/uploads/2025/10/marche-ou-creve-scaled.jpg",
+    coverUrl: "/movies_pictures/68c4cdcbbf72.jpg",
     releaseDate: "2025-09-10",
     length: 108,
     genre: ['Dystopie'],

@@ -2526,7 +2526,7 @@ export const baseChildrenBooksApi: BaseChildrenBook[] = [
   {
     title: 'La forêt aux sortilèges',
     author: 'Kochka, Anaïs Massini',
-    coverUrl: 'https://images.epagine.fr/650/9782745937650_1_75.jpg',
+    coverUrl: '/children_books_pictures/44207f23d90b.jpg',
     pages: 32,
     genre: ['Jeunesse', 'Conte'],
     saga: '',
@@ -2541,7 +2541,7 @@ export const baseChildrenBooksApi: BaseChildrenBook[] = [
     title: 'Sur mon île',
     author: 'Timothy Knapman, Sarah Warburton',
     coverUrl:
-      'https://m.media-amazon.com/images/I/71XGYAeFqIL._AC_UF1000,1000_QL80_.jpg',
+      '/children_books_pictures/d58da7e3c5e6.jpg',
     pages: 32,
     genre: ['Jeunesse', 'Conte'],
     saga: '',
@@ -2570,7 +2570,7 @@ export const baseChildrenBooksApi: BaseChildrenBook[] = [
     title: 'Falikou',
     author: 'Catherine Loëdec, Jörg',
     coverUrl:
-      'https://m.media-amazon.com/images/I/41e2P-XFdtL._AC_UF1000,1000_QL80_.jpg',
+      '/children_books_pictures/ecb70acf122b.jpg',
     pages: 32,
     genre: ['Jeunesse', 'Conte'],
     saga: '',
@@ -2599,7 +2599,7 @@ export const baseChildrenBooksApi: BaseChildrenBook[] = [
     title: 'Le faiseur de nuages',
     author: 'Sandrine Lévy, Selma Mandine',
     coverUrl:
-      'https://m.media-amazon.com/images/I/51dmBPbwixL._AC_UF1000,1000_QL80_.jpg',
+      '/children_books_pictures/d01f2116784c.jpg',
     pages: 32,
     genre: ['Jeunesse', 'Conte'],
     saga: '',
@@ -2614,7 +2614,7 @@ export const baseChildrenBooksApi: BaseChildrenBook[] = [
     title: "L'ours et son orchestre",
     author: 'David Litchfield',
     coverUrl:
-      'https://m.media-amazon.com/images/I/81gWOP1g1tL._AC_UF1000,1000_QL80_.jpg',
+      '/children_books_pictures/ef2321ad0da0.jpg',
     pages: 32,
     genre: ['Jeunesse', 'Conte'],
     saga: '',
@@ -2628,7 +2628,7 @@ export const baseChildrenBooksApi: BaseChildrenBook[] = [
   {
     title: 'Aladin et la lampe merveilleuse',
     author: 'Alberto Bertolazzi, Truc Duyen Do Pham',
-    coverUrl: 'https://images.epagine.fr/751/9782889356751_1_75.jpg',
+    coverUrl: '/children_books_pictures/766ef7d73336.jpg',
     pages: 32,
     genre: ['Jeunesse', 'Conte'],
     saga: '',
@@ -2643,7 +2643,7 @@ export const baseChildrenBooksApi: BaseChildrenBook[] = [
     title: 'Papa sur la lune',
     author: 'Adrien Albert',
     coverUrl:
-      'https://m.media-amazon.com/images/I/51n1pHrsV5L._AC_UF1000,1000_QL80_.jpg',
+      '/children_books_pictures/8dbf21d3bbb9.jpg',
     pages: 32,
     genre: ['Jeunesse', 'Conte'],
     saga: '',
@@ -2658,7 +2658,7 @@ export const baseChildrenBooksApi: BaseChildrenBook[] = [
     title: 'Adieu chaussette',
     author: 'Benjamin Chaud',
     coverUrl:
-      'https://m.media-amazon.com/images/I/71h0rs3KSNL._AC_UF1000,1000_QL80_.jpg',
+      '/children_books_pictures/f42edbe012fb.jpg',
     pages: 32,
     genre: ['Jeunesse', 'Conte'],
     saga: '',
@@ -2673,7 +2673,7 @@ export const baseChildrenBooksApi: BaseChildrenBook[] = [
     title: 'La tour Eiffel est amoureuse',
     author: 'Irène Cohen-Janca, Maurizio A. C. Quarello',
     coverUrl:
-      'https://m.media-amazon.com/images/I/91n6nFJfESL._AC_UF1000,1000_QL80_.jpg',
+      '/children_books_pictures/a6875d9f439d.jpg',
     pages: 32,
     genre: ['Jeunesse', 'Conte'],
     saga: '',
@@ -2687,7 +2687,7 @@ export const baseChildrenBooksApi: BaseChildrenBook[] = [
   {
     title: 'Le petit lion qui ne voulait pas dormir',
     author: 'Julie Bélaval Bazin, Florian Le Priol',
-    coverUrl: 'https://m.media-amazon.com/images/I/71J7L3qv8eL.jpg',
+    coverUrl: '/children_books_pictures/aebd4bbc2d5a.jpg',
     pages: 32,
     genre: ['Jeunesse', 'Conte'],
     saga: '',
@@ -2702,7 +2702,7 @@ export const baseChildrenBooksApi: BaseChildrenBook[] = [
     title: 'Si les éléphants portaient des pantalons...',
     author: 'Henriette Barkow, Richard Johnson',
     coverUrl:
-      'https://m.media-amazon.com/images/I/41xVA4XJxjL._AC_UF894,1000_QL80_.jpg',
+      '/children_books_pictures/1d6ad274a8d6.jpg',
     pages: 32,
     genre: ['Jeunesse', 'Conte'],
     saga: '',
@@ -2717,7 +2717,7 @@ export const baseChildrenBooksApi: BaseChildrenBook[] = [
     title: "L'extraordinaire cirque sous les mers",
     author: 'Felideus',
     coverUrl:
-      'https://gestes-edition-media.riashop.app/images/800x800/103438.png',
+      '/children_books_pictures/2922bb7aa164.png',
     pages: 32,
     genre: ['Jeunesse', 'Conte'],
     saga: '',
