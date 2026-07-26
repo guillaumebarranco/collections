@@ -1640,8 +1640,7 @@ export const baseMoviesApi: BaseMovie[] = [
         name: 'John Hurt',
       },
     ],
-    coverUrl:
-      '/movies_pictures/3e062e76ba1c.jpg',
+    coverUrl: '/movies_pictures/3e062e76ba1c.jpg',
     releaseDate: '2011-05-26',
     length: 136,
     genre: ['Drame', 'Science Fiction'],
@@ -1965,8 +1964,7 @@ export const baseMoviesApi: BaseMovie[] = [
         name: 'Wyatt Russel',
       },
     ],
-    coverUrl:
-      '/movies_pictures/2f6a59fee250.jpg',
+    coverUrl: '/movies_pictures/2f6a59fee250.jpg',
     releaseDate: '2026-06-10',
     length: 145,
     genre: ['Science Fiction'],
@@ -1994,8 +1992,7 @@ export const baseMoviesApi: BaseMovie[] = [
         name: 'Dave Franco',
       },
     ],
-    coverUrl:
-      '/movies_pictures/f8dd255928c7.jpg',
+    coverUrl: '/movies_pictures/f8dd255928c7.jpg',
     releaseDate: '2025-10-29',
     length: 117,
     genre: ['Comédie', 'Romance', 'Drame'],
@@ -2035,220 +2032,220 @@ export const baseMoviesApi: BaseMovie[] = [
   },
 
   {
-    title: "Backrooms",
-    director: " Kane Parsons",
+    title: 'Backrooms',
+    director: ' Kane Parsons',
     actors: [
       {
-        name: "Chiwetel Ejiofor",
+        name: 'Chiwetel Ejiofor',
       },
       {
-        name: "Renate Reinsve",
+        name: 'Renate Reinsve',
       },
       {
-        name: "Mark Duplass",
+        name: 'Mark Duplass',
       },
       {
-        name: "Finn Bennett",
+        name: 'Finn Bennett',
       },
       {
-        name: "Lukita Maxwell",
+        name: 'Lukita Maxwell',
       },
     ],
-    coverUrl: "/movies_pictures/82dc6197b09a.jpg",
-    releaseDate: "2026-06-17",
+    coverUrl: '/movies_pictures/82dc6197b09a.jpg',
+    releaseDate: '2026-06-17',
     length: 111,
     genre: ['Horreur'],
-    saga: "",
-    description: "",
+    saga: '',
+    description: '',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
   },
 
   {
-    title: "Toy Story 5",
-    director: "Andrew Stanton",
+    title: 'Toy Story 5',
+    director: 'Andrew Stanton',
     actors: [
       {
-        name: "Tom Hanks",
+        name: 'Tom Hanks',
       },
       {
-        name: "Joan Crusack",
+        name: 'Joan Crusack',
       },
       {
-        name: "Tim Allen",
+        name: 'Tim Allen',
       },
       {
-        name: "Greta Lee",
+        name: 'Greta Lee',
       },
     ],
-    coverUrl: "/movies_pictures/c45e6629bf16.jpg",
-    releaseDate: "2026-06-17",
+    coverUrl: '/movies_pictures/c45e6629bf16.jpg',
+    releaseDate: '2026-06-17',
     length: 102,
     genre: ['Jeunesse', 'Animation'],
-    saga: "Toy Story",
-    description: "",
+    saga: 'Toy Story',
+    description: '',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
   },
 
   {
-    title: "Supergirl",
-    director: "Craig Gillespie",
+    title: 'Supergirl',
+    director: 'Craig Gillespie',
     actors: [
       {
-        name: "Milly Alcock",
+        name: 'Milly Alcock',
       },
       {
-        name: "Jason Momoa",
+        name: 'Jason Momoa',
       },
       {
-        name: "David Corenswet",
+        name: 'David Corenswet',
       },
       {
-        name: "Eve Ridley",
+        name: 'Eve Ridley',
       },
       {
-        name: "Matthias Schoenaerts",
-      }
+        name: 'Matthias Schoenaerts',
+      },
     ],
-    coverUrl: "/movies_pictures/e90e07bc4ee9.jpg",
-    releaseDate: "2026-07-01",
+    coverUrl: '/movies_pictures/e90e07bc4ee9.jpg',
+    releaseDate: '2026-07-01',
     length: 110,
     genre: ['Action', 'Fantastique'],
-    saga: "DCU",
-    description: "",
+    saga: 'DCU',
+    description: '',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
   },
 
   {
-    title: "Wonder",
-    director: "Stephen Chbosky",
+    title: 'Wonder',
+    director: 'Stephen Chbosky',
     actors: [
       {
-        name: "Jacob Tremblay",
+        name: 'Jacob Tremblay',
       },
       {
-        name: "Julia Roberts",
+        name: 'Julia Roberts',
       },
       {
-        name: "Owen Wilson",
+        name: 'Owen Wilson',
       },
       {
-        name: "Izabela Vodovic",
+        name: 'Izabela Vodovic',
       },
     ],
-    coverUrl: "/movies_pictures/7c6878beb1bb.jpg",
-    releaseDate: "2017-12-20",
+    coverUrl: '/movies_pictures/7c6878beb1bb.jpg',
+    releaseDate: '2017-12-20',
     length: 111,
     genre: ['Drame'],
-    saga: "",
-    description: "",
+    saga: '',
+    description: '',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
   },
 
   {
-    title: "The Kissing Booth 3",
-    director: "Vince Marcello",
+    title: 'The Kissing Booth 3',
+    director: 'Vince Marcello',
     actors: [
       {
-        name: "Joey King",
+        name: 'Joey King',
       },
       {
-        name: "Joel Courtney",
+        name: 'Joel Courtney',
       },
       {
-        name: "Jacob Elordi",
+        name: 'Jacob Elordi',
       },
       {
-        name: "Taylor Zakhar Perez",
+        name: 'Taylor Zakhar Perez',
       },
       {
-        name: "Maisie Richardson-Sellers",
+        name: 'Maisie Richardson-Sellers',
       },
       {
-        name: "Meganne Young",
+        name: 'Meganne Young',
       },
       {
-        name: "Molly Ringwald",
+        name: 'Molly Ringwald',
       },
     ],
-    coverUrl: "/movies_pictures/852d674b3e4a.jpg",
-    releaseDate: "2021-08-11",
+    coverUrl: '/movies_pictures/852d674b3e4a.jpg',
+    releaseDate: '2021-08-11',
     length: 113,
     genre: ['Comédie', 'Romance'],
-    saga: "The Kissing Booth",
-    description: "",
+    saga: 'The Kissing Booth',
+    description: '',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
   },
 
   {
-    title: "Fonzy",
-    director: "Isabelle Doval",
+    title: 'Fonzy',
+    director: 'Isabelle Doval',
     actors: [
       {
-        name: "José Garcia",
+        name: 'José Garcia',
       },
       {
-        name: "Audrey Fleurot",
+        name: 'Audrey Fleurot',
       },
       {
-        name: "Lucien Jean-Baptisten Gérard Hernandez",
+        name: 'Lucien Jean-Baptisten Gérard Hernandez',
       },
       {
-        name: "Alice Belaidi",
+        name: 'Alice Belaidi',
       },
       {
-        name: "Hugo Dessioux",
+        name: 'Hugo Dessioux',
       },
       {
-        name: "François Civil",
+        name: 'François Civil',
       },
     ],
-    coverUrl: "/movies_pictures/1ea94f6e6484.jpg",
-    releaseDate: "2013-10-30",
+    coverUrl: '/movies_pictures/1ea94f6e6484.jpg',
+    releaseDate: '2013-10-30',
     length: 103,
     genre: ['Comédie'],
-    saga: "",
-    description: "",
+    saga: '',
+    description: '',
     fromEntity: null,
     countryOrigin: ['France'],
     selectDisplayOrder: 0,
   },
 
   {
-    title: "Evil Dead Rise",
-    director: " Lee Cronin",
+    title: 'Evil Dead Rise',
+    director: ' Lee Cronin',
     actors: [
       {
-        name: "Lily Sullivan",
+        name: 'Lily Sullivan',
       },
       {
-        name: "Alyssa Sutherland",
+        name: 'Alyssa Sutherland',
       },
       {
-        name: "Gabrielle Echols",
+        name: 'Gabrielle Echols',
       },
       {
-        name: "Morgan Davies",
+        name: 'Morgan Davies',
       },
       {
-        name: "Nell Fisher",
+        name: 'Nell Fisher',
       },
     ],
-    coverUrl: "/movies_pictures/45e3233c104f.jpg",
-    releaseDate: "2023-04-19",
+    coverUrl: '/movies_pictures/45e3233c104f.jpg',
+    releaseDate: '2023-04-19',
     length: 97,
     genre: ['Horreur'],
-    saga: "Evil Dead",
-    description: "",
+    saga: 'Evil Dead',
+    description: '',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -2256,58 +2253,58 @@ export const baseMoviesApi: BaseMovie[] = [
 
   {
     title: "Evil Dead III : L'Armée des ténèbres",
-    director: "Sam Raimi",
+    director: 'Sam Raimi',
     actors: [
       {
-        name: "Bruce Campbell",
+        name: 'Bruce Campbell',
       },
       {
-        name: "Embeth Davidtz",
+        name: 'Embeth Davidtz',
       },
       {
-        name: "Marcus Gilbert",
+        name: 'Marcus Gilbert',
       },
       {
-        name: "Ian Abercrombie",
+        name: 'Ian Abercrombie',
       },
     ],
-    coverUrl: "/movies_pictures/02ec36cd80e3.jpg",
-    releaseDate: "1993-02-19",
+    coverUrl: '/movies_pictures/02ec36cd80e3.jpg',
+    releaseDate: '1993-02-19',
     length: 88,
     genre: ['Horreur'],
-    saga: "Evil Dead",
-    description: "",
+    saga: 'Evil Dead',
+    description: '',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
   },
 
   {
-    title: "Evil Dead Burn",
-    director: "Sébastien Vaniček",
+    title: 'Evil Dead Burn',
+    director: 'Sébastien Vaniček',
     actors: [
       {
-        name: "Souheila Yacoub",
+        name: 'Souheila Yacoub',
       },
       {
-        name: "Tandi Wright",
+        name: 'Tandi Wright',
       },
       {
-        name: "Hunter Doohan",
+        name: 'Hunter Doohan',
       },
       {
-        name: "Luciane Buchanan",
+        name: 'Luciane Buchanan',
       },
       {
-        name: "Maude Davey",
+        name: 'Maude Davey',
       },
     ],
-    coverUrl: "/movies_pictures/a0b11571af1c.jpg",
-    releaseDate: "2026-07-08",
+    coverUrl: '/movies_pictures/a0b11571af1c.jpg',
+    releaseDate: '2026-07-08',
     length: 110,
     genre: ['Horreur'],
-    saga: "Evil Dead",
-    description: "",
+    saga: 'Evil Dead',
+    description: '',
     fromEntity: null,
     countryOrigin: ['États-Unis', 'Canada', 'Nouvelle-Zélande'],
     selectDisplayOrder: 0,
@@ -2315,30 +2312,30 @@ export const baseMoviesApi: BaseMovie[] = [
 
   {
     title: "La Bataille de Gaulle : J'écris ton nom",
-    director: "Antonin Baudry",
+    director: 'Antonin Baudry',
     actors: [
       {
-        name: "Simon Abkarian",
+        name: 'Simon Abkarian',
       },
       {
-        name: "Niels Schneider",
+        name: 'Niels Schneider',
       },
       {
-        name: "Simon Russell Beale",
+        name: 'Simon Russell Beale',
       },
       {
-        name: "Anamaria Vartolomei",
+        name: 'Anamaria Vartolomei',
       },
       {
-        name: "Thierry Lhermitte",
+        name: 'Thierry Lhermitte',
       },
     ],
-    coverUrl: "/movies_pictures/160df29a67c5.jpg",
-    releaseDate: "2026-06-26",
+    coverUrl: '/movies_pictures/160df29a67c5.jpg',
+    releaseDate: '2026-06-26',
     length: 160,
     genre: ['Historique', 'Guerre', 'Biographie'],
-    saga: "",
-    description: "",
+    saga: '',
+    description: '',
     fromEntity: null,
     countryOrigin: ['France'],
     selectDisplayOrder: 0,
@@ -2346,73 +2343,120 @@ export const baseMoviesApi: BaseMovie[] = [
 
   {
     title: "L'Odyssée",
-    director: "Christopher Nolan",
+    director: 'Christopher Nolan',
     actors: [
       {
-        name: "Matt Damon",
+        name: 'Matt Damon',
       },
       {
-        name: "Tom Holland",
+        name: 'Tom Holland',
       },
       {
-        name: "Anne Hathaway",
+        name: 'Anne Hathaway',
       },
       {
-        name: "Robert Pattinson",
+        name: 'Robert Pattinson',
       },
       {
-        name: "Eliott Page",
+        name: 'Eliott Page',
       },
       {
-        name: "Jon Bernthal",
+        name: 'Jon Bernthal',
       },
       {
-        name: "Zendaya",
+        name: 'Zendaya',
       },
       {
-        name: "Charlize Theron",
+        name: 'Charlize Theron',
       },
     ],
-    coverUrl: "/movies_pictures/7b8d3a77e0c5.webp",
-    releaseDate: "2026-07-15",
+    coverUrl: '/movies_pictures/7b8d3a77e0c5.webp',
+    releaseDate: '2026-07-15',
     length: 172,
     genre: ['Fantastique', 'Peplum'],
-    saga: "",
-    description: "",
+    saga: '',
+    description: '',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
   },
 
   {
-    title: "Marche ou Crève",
-    director: " Francis Lawrence",
+    title: 'Marche ou Crève',
+    director: ' Francis Lawrence',
     actors: [
       {
-        name: "Cooper Alexander",
+        name: 'Cooper Alexander',
       },
       {
-        name: "David Jonsson",
+        name: 'David Jonsson',
       },
       {
-        name: "Mark Hamill",
+        name: 'Mark Hamill',
       },
       {
-        name: "Ben Wang",
+        name: 'Ben Wang',
       },
       {
-        name: "Judy Greer",
+        name: 'Judy Greer',
       },
       {
-        name: "Tut Nyuot",
+        name: 'Tut Nyuot',
       },
     ],
-    coverUrl: "/movies_pictures/68c4cdcbbf72.jpg",
-    releaseDate: "2025-09-10",
+    coverUrl: '/movies_pictures/68c4cdcbbf72.jpg',
+    releaseDate: '2025-09-10',
     length: 108,
     genre: ['Dystopie'],
-    saga: "",
-    description: "",
+    saga: '',
+    description: '',
+    fromEntity: null,
+    countryOrigin: ['États-Unis'],
+    selectDisplayOrder: 0,
+  },
+
+  {
+    title: "Les Maîtres de l'univers",
+    director: 'Travis Knight',
+    actors: [
+      {
+        name: 'Nicholas Galitzine',
+      },
+      {
+        name: 'Jared Leto',
+      },
+      {
+        name: 'Camila Mendes',
+      },
+      {
+        name: 'Idris Elba',
+      },
+      {
+        name: 'Alison Brie',
+      },
+      {
+        name: 'James Purefoy',
+      },
+      {
+        name: 'Morena Baccarin',
+      },
+      {
+        name: 'Jóhannes Haukur Jóhannesson',
+      },
+      {
+        name: 'Charlotte Riley',
+      },
+      {
+        name: 'Kristen Wiig',
+      },
+    ],
+    coverUrl:
+      '/movies_pictures/678063418d0b.jpg',
+    releaseDate: '2026-06-05',
+    length: 140,
+    genre: ['Action', 'Fantastique', 'Aventure'],
+    saga: "Les Maîtres de l'univers",
+    description: '',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
