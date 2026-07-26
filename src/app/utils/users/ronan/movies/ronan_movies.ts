@@ -22222,4 +22222,22 @@ export const ronanMovies: UserMovies = [
     borrowed: "",
     loaned: "",
   },
+
+  {
+    title: "Les Maîtres de l'univers",
+    director: "Travis Knight",
+    rating: 3,
+    timesWatched: 1,
+    firstViewedDate: "2026-07-26",
+    lastViewedDate: "2026-07-26",
+    otherSeenDates: [],
+    seenAtCinema: false,
+    owned: false,
+    wantToSeeAgain: false,
+    watchPriority: 1,
+    ratingComment: "",
+    inList: [],
+    borrowed: "",
+    loaned: "",
+  },
 ];
