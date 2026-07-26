@@ -238,4 +238,50 @@ export const baseSeriesApi: BaseSerie[] = [
     saga: "",
     fromEntity: null,
   },
+
+  {
+    title: "Sur tes traces",
+    director: "Robert Hull",
+    actors: [
+      {
+        name: "Sam Worthington",
+      },
+      {
+        name: "Britt Lower",
+      },
+      {
+        name: "Chi McBride",
+      },
+      {
+        name: "Logan Browning",
+      },
+      {
+        name: "Erin Richards",
+      },
+      {
+        name: "Jonathan Tucker",
+      },
+      {
+        name: "Milo Ventimiglia",
+      },
+      {
+        name: "Aaron Ashmore",
+      },
+    ],
+    coverUrl: "https://m.media-amazon.com/images/M/MV5BYWFkOGU5ZTYtZTlhMi00NThiLWI3ZDEtMGQ2Y2UzNjlkZTUxXkEyXkFqcGc@._V1_.jpg",
+    releaseDate: "2026-06-18",
+    endDate: "2026-06-18",
+    genre: ['Thriller'],
+    seasonsData: [
+      {
+        seasonNumber: 1,
+        nbEpisodes: 8,
+        totalLength: 326,
+      },
+    ],
+    description: "",
+    countryOrigin: "États-Unis",
+    saga: "",
+    fromEntity: null,
+  },
 ];

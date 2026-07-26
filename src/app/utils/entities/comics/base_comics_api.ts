@@ -103,4 +103,17 @@ export const baseComicsApi: BaseComic[] = [
     sagaOrder: 3,
     description: "",
   },
+
+  {
+    title: "Daredevil T04 - Le Poing Rouge",
+    writer: "Chip Zdarsky",
+    designer: "Manuel Garcia, Rafael De Latorre, Marco Checchetto",
+    coverUrl: "https://m.media-amazon.com/images/I/81krnHRs6YL._AC_UF1000,1000_QL80_.jpg",
+    releaseDate: "2025-08-20",
+    pages: 0,
+    genre: "Super-héro",
+    saga: "Daredevil par Zdarsky",
+    sagaOrder: 4,
+    description: "",
+  },
 ];

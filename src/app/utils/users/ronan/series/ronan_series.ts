@@ -9854,4 +9854,26 @@ export const ronanSeries: UserSeries = [
     borrowed: "",
     loaned: "",
   },
+
+  {
+    title: "Sur tes traces",
+    director: "Robert Hull",
+    seasons: [
+      {
+        seasonNumber: 1,
+        seasonRating: 3,
+        watching: false,
+        seasonTimesWatched: 1,
+        firstViewedDate: "2026-07-19",
+        lastViewedDate: "2026-07-19",
+        otherViewedDates: [],
+      }
+    ],
+    owned: false,
+    watchPriority: 1,
+    wantToWatchAgain: false,
+    ratingComment: "",
+    borrowed: "",
+    loaned: "",
+  },
 ];

@@ -3161,4 +3161,18 @@ export const ronanComics: UserComics = [
     borrowed: "",
     loaned: "",
   },
+
+  {
+    title: "Daredevil T04 - Le Poing Rouge",
+    writer: "Chip Zdarsky",
+    readDate: "2026-07-24",
+    rating: 3.75,
+    readTimes: 1,
+    owned: true,
+    readPriority: 1,
+    wantToReadAgain: false,
+    ratingComment: "",
+    borrowed: "",
+    loaned: "",
+  },
 ];
