@@ -2383,7 +2383,7 @@ export const baseMoviesApi: BaseMovie[] = [
 
   {
     title: 'Marche ou Crève',
-    director: ' Francis Lawrence',
+    director: 'Francis Lawrence',
     actors: [
       {
         name: 'Cooper Alexander',
@@ -2450,8 +2450,7 @@ export const baseMoviesApi: BaseMovie[] = [
         name: 'Kristen Wiig',
       },
     ],
-    coverUrl:
-      '/movies_pictures/678063418d0b.jpg',
+    coverUrl: '/movies_pictures/678063418d0b.jpg',
     releaseDate: '2026-06-05',
     length: 140,
     genre: ['Action', 'Fantastique', 'Aventure'],

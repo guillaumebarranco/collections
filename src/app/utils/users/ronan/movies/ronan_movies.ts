@@ -22207,7 +22207,7 @@ export const ronanMovies: UserMovies = [
 
   {
     title: "Marche ou Crève",
-    director: " Francis Lawrence",
+    director: "Francis Lawrence",
     rating: 3,
     timesWatched: 1,
     firstViewedDate: "2026-07-22",
