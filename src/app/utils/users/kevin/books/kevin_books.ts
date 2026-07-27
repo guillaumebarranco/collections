@@ -2003,4 +2003,21 @@ export const kevinBooks: UserBooks = [
     wantToReadAgain: false,
     ratingComment: "On met du temps à rentrer dedans mais le livre devient très prenant. Dommage que les intrigues manquent de clarté et tombent un peu dans le redondance (ennemis récurrents...). Peut être un point qui sera corrigé par les éclaircissements des prochains tomes.",
   },
+
+  {
+    title: "Rêves d'Acier",
+    author: "Glen Cook",
+    firstReadDate: "2026-07-21",
+    lastReadDate: "2026-07-21",
+    otherReadDates: [],
+    rating: 4.5,
+    reading: false,
+    readTimes: 1,
+    owned: true,
+    borrowed: "",
+    loaned: "",
+    readPriority: 2,
+    wantToReadAgain: false,
+    ratingComment: "Ce livre était juste génial. Le changement de point de vue du narrateur est intéressant et surprenant, et l'intrigue du tome est juste géniale à suivre! Politique, magie, combats et retournements de situation... Le manque de moment réellement émouvant est tout ce qui empêche ce tome de décrocher les 5 étoiles.",
+  },
 ];
