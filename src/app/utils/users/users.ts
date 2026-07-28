@@ -130,5 +130,11 @@ export const users = [
     passwordHash: "bc66a341b0560c7d8ceb1de1e9b4669807433ccec16c4f2d42a6552b6dd92f1b4430d18573878ffb088d030e355ecdd6b4d5bff9a2b44e17684f9e597ffd7eb9",
     passwordSalt: "fb737a553b7cd7643f79306af97359d6",
     admin: false,
+  },
+  {
+    username: "giloufaust",
+    passwordHash: "d0ad0e16a9bb01a23b5df53c4b369b1e70d44fcd08c15f140859e39612e24c1fb8f54a93de7ae0a7999858e1e9a5bc6fa0a920f317a77e316669332a99dcb0e8",
+    passwordSalt: "bf19a0dd63b82d94932c47cb792a4af8",
+    admin: false,
   }
 ];
