@@ -240,11 +240,10 @@ export const baseBooksNonfiction: BaseBook[] = [
     selectDisplayOrder: 0,
   },
   {
-    title: 'Nous sommes tous des féministes',
+    title: "Nous sommes tous des féministes / Le danger de l'histoire unique",
     author: 'Chimamanda Ngozi Adichie',
-    coverUrl:
-      '/books_pictures/9f8f9d75e6a2.jpg',
-    pages: 96,
+    coverUrl: '/books_pictures/9f8f9d75e6a2.jpg',
+    pages: 76,
     genre: ['Nonfiction'],
     saga: '',
     sagaOrder: 0,
@@ -271,8 +270,7 @@ export const baseBooksNonfiction: BaseBook[] = [
   {
     title: 'Le capitalisme patriarcal',
     author: 'Silvia Federici',
-    coverUrl:
-      '/books_pictures/9b03fcb39504.jpeg',
+    coverUrl: '/books_pictures/9b03fcb39504.jpeg',
     pages: 190,
     genre: ['Nonfiction'],
     saga: '',
@@ -281,6 +279,37 @@ export const baseBooksNonfiction: BaseBook[] = [
     releaseDate: '2019-04-19',
     description: '',
     countryOrigin: 'Italie',
+    selectDisplayOrder: 0,
+  },
+  {
+    title:
+      'Le trouble borderline : Pour mieux comprendre la personnalité limite',
+    author: 'Jean-Pierre Guichard',
+    coverUrl:
+      'https://www.editions-ellipses.fr/48123-large_default/le-trouble-borderline-pour-mieux-comprendre-la-personnalite-limite.jpg',
+    pages: 291,
+    genre: ['Nonfiction'],
+    saga: '',
+    sagaOrder: 0,
+    sagaFinished: false,
+    releaseDate: '2024-02-13',
+    description: '',
+    countryOrigin: 'France',
+    selectDisplayOrder: 0,
+  },
+  {
+    title: 'Borderline: Une vie au bord du gouffre',
+    author: 'Catherine S. Danemark et Michel Kummer',
+    coverUrl:
+      'https://m.media-amazon.com/images/I/71T4ttXe79L._CR0%2C0%2C0%2C130_.jpg',
+    pages: 672,
+    genre: ['Nonfiction'],
+    saga: '',
+    sagaOrder: 0,
+    sagaFinished: false,
+    releaseDate: '2024-06-05',
+    description: '',
+    countryOrigin: 'France',
     selectDisplayOrder: 0,
   },
 ];
