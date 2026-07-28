@@ -1649,7 +1649,7 @@ export const guillaumeBooks: UserBooks = [
 
   {
     title: 'Plein-Ciel',
-    author: 'Marie Pavlenko',
+    author: 'Siècle Vaëlban',
     firstReadDate: '2026-07-20',
     lastReadDate: '2026-07-20',
     otherReadDates: [],

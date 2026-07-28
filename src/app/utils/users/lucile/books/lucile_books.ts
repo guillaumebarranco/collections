@@ -1188,7 +1188,7 @@ export const lucileBooks: UserBook[] = [
   },
   {
     title: 'Plein-Ciel',
-    author: 'Marie Pavlenko',
+    author: 'Siècle Vaëlban',
     firstReadDate: '2024-02-11',
     lastReadDate: '2024-02-11',
     otherReadDates: [],

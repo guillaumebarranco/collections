@@ -566,7 +566,7 @@ export const baseBooksLucileReadlistImport: BaseBook[] = [
   },
   {
     title: 'Plein-Ciel',
-    author: 'Marie Pavlenko',
+    author: 'Siècle Vaëlban',
     coverUrl: '/books_pictures/d4657b598b8a.jpg',
     pages: 672,
     genre: ['Fantasy'],
