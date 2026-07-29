@@ -4,9 +4,13 @@ import {
   UserSerie,
   UserSerieSeason,
 } from '../../models/serie-model';
+import type { LightSerie } from '../../models/entity-light.model';
 
 import {
   fetchBaseSeriesFromApi,
+  fetchBaseSeriesLightFromApi,
+  fetchMergedUserSeriesFromApi,
+  fetchMergedWatchlistSeriesFromApi,
   fetchUserSeriesFromApi,
   fetchWatchlistSeriesFromApi,
   fetchOtherUsersSeriesRatedFromApi,
@@ -21,6 +25,9 @@ import {
 import { isOfflineModeBlockingOtherUsers } from '../../core/offline/offline-mode.utils';
 
 const fetchBaseSeriesCached = createCachedFetcher(fetchBaseSeriesFromApi);
+const fetchBaseSeriesLightCached = createCachedFetcher(
+  fetchBaseSeriesLightFromApi
+);
 
 function buildSeasons(
   seasonsCount: number,
@@ -87,6 +94,24 @@ async function getAllSeriesData(series: UserSerie[]): Promise<Serie[]> {
   });
 }
 
+async function getMergedUserSeries(userId: string): Promise<Serie[]> {
+  try {
+    return await fetchMergedUserSeriesFromApi(userId);
+  } catch {
+    const userSeries = await fetchUserSeriesFromApi(userId);
+    return getAllSeriesData(userSeries);
+  }
+}
+
+async function getMergedWatchlistSeries(userId: string): Promise<Serie[]> {
+  try {
+    return await fetchMergedWatchlistSeriesFromApi(userId);
+  } catch {
+    const watchlist = await fetchWatchlistSeriesFromApi(userId);
+    return getAllSeriesData(watchlist);
+  }
+}
+
 export async function getAllSeries(
   currentUserId = 'guillaume'
 ): Promise<{ [key: string]: Serie[] }> {
@@ -101,9 +126,8 @@ export async function getAllSeries(
   }
 
   try {
-    const userSeries = await fetchUserSeriesFromApi(currentUserId);
     return {
-      [currentUserId]: await getAllSeriesData(userSeries),
+      [currentUserId]: await getMergedUserSeries(currentUserId),
     };
   } catch {
     return {
@@ -126,9 +150,8 @@ export async function getAllWatchlistSeries(
   }
 
   try {
-    const watchlist = await fetchWatchlistSeriesFromApi(currentUserId);
     return {
-      [currentUserId]: await getAllSeriesData(watchlist),
+      [currentUserId]: await getMergedWatchlistSeries(currentUserId),
     };
   } catch {
     return {
@@ -143,6 +166,26 @@ export async function getAllBaseSeries(): Promise<BaseSerie[]> {
 
   try {
     return await fetchBaseSeriesCached();
+  } catch {
+    return [];
+  }
+}
+
+/** Catalogue allégé pour les pages select. */
+export async function getAllBaseSeriesLight(): Promise<LightSerie[]> {
+  const offline = getActiveOfflineCache();
+  if (offline) {
+    return offline.series.base.map((s) => ({
+      title: s.title,
+      director: s.director,
+      coverUrl: s.coverUrl ?? '',
+      releaseDate: s.releaseDate ?? '',
+      seasonsCount: s.seasonsData?.length ?? 0,
+    }));
+  }
+
+  try {
+    return await fetchBaseSeriesLightCached();
   } catch {
     return [];
   }
@@ -175,8 +218,34 @@ export async function getSeriesByUser(userId: string): Promise<Serie[]> {
   }
 
   try {
-    const userSeries = await fetchUserSeriesFromApi(userId);
-    return getAllSeriesData(userSeries);
+    return await getMergedUserSeries(userId);
+  } catch {
+    return [];
+  }
+}
+
+/** User series bruts (clés d'exclusion select, sans join catalogue). */
+export async function getUserSeriesRaw(userId: string): Promise<UserSerie[]> {
+  const offline = getActiveOfflineCache();
+  if (offline) {
+    if (!canServeOfflineUser(userId)) return [];
+    return offline.series.user;
+  }
+  try {
+    return await fetchUserSeriesFromApi(userId);
+  } catch {
+    return [];
+  }
+}
+
+export async function getWatchlistSeriesRaw(userId: string): Promise<UserSerie[]> {
+  const offline = getActiveOfflineCache();
+  if (offline) {
+    if (!canServeOfflineUser(userId)) return [];
+    return offline.series.watchlist;
+  }
+  try {
+    return await fetchWatchlistSeriesFromApi(userId);
   } catch {
     return [];
   }
@@ -192,8 +261,7 @@ export async function getCurrentWatchlistSeriesByUser(
   }
 
   try {
-    const watchlist = await fetchWatchlistSeriesFromApi(userId);
-    return getAllSeriesData(watchlist);
+    return await getMergedWatchlistSeries(userId);
   } catch {
     return [];
   }

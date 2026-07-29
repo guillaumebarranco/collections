@@ -101,7 +101,7 @@ ${seasonsBlock}
   },`;
 }
 
-function getUserSeriesTargetFile(userId: string) {
+function getUserSeriesTargetFile(userId: string, isWatchlist: boolean) {
   const userDir = path.join(
     __dirname,
     '..',
@@ -122,10 +122,16 @@ function getUserSeriesTargetFile(userId: string) {
     .readdirSync(userDir)
     .filter((file: string) => file.endsWith('.ts') && file !== 'index.ts');
 
-  const preferred = files.find((file: string) =>
-    file.includes(`${userId}_series`)
+  const scopedFiles = files.filter((file: string) =>
+    isWatchlist ? file.includes('watchlist') : !file.includes('watchlist')
   );
-  const selected = preferred || files.sort()[0];
+
+  const preferred = scopedFiles.find((file: string) =>
+    isWatchlist
+      ? file.includes(`${userId}_watchlist_series`)
+      : file.includes(`${userId}_series`)
+  );
+  const selected = preferred || scopedFiles.sort()[0];
   if (!selected) {
     throw new Error(`User series file not found: ${userId}`);
   }
@@ -144,6 +150,7 @@ router.post('/add', (req: any, res: any) => {
 
     const entity = input.entity || {};
     const user = input.user || {};
+    const isWatchlist = normalizeBoolean(input.watchlist, 'watchlist') ?? false;
 
     const title = normalizeString(entity.title, 'title');
     const director = normalizeString(entity.director, 'director');
@@ -198,9 +205,10 @@ router.post('/add', (req: any, res: any) => {
           seasonNumber: index + 1,
           seasonRating:
             normalizeNumber(season.seasonRating, 'seasonRating') || 0,
-          seasonTimesWatched:
-            normalizeNumber(season.seasonTimesWatched, 'seasonTimesWatched') ||
-            0,
+          seasonTimesWatched: isWatchlist
+            ? 0
+            : normalizeNumber(season.seasonTimesWatched, 'seasonTimesWatched') ||
+              0,
           firstViewedDate:
             normalizeString(season.firstViewedDate, 'firstViewedDate') || '',
           lastViewedDate:
@@ -238,7 +246,7 @@ router.post('/add', (req: any, res: any) => {
     );
     fs.writeFileSync(BASE_SERIES_API_FILE, baseSerieContent, 'utf8');
 
-    const userSeriesFile = getUserSeriesTargetFile(userId);
+    const userSeriesFile = getUserSeriesTargetFile(userId, isWatchlist);
     const userSerieContent = appendObjectToArrayFile(
       userSeriesFile,
       formatUserSerie(userPayload)

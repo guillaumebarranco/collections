@@ -42,6 +42,7 @@ type AddGameUserForm = {
 
 type AddGameDialogData = {
   userId: string;
+  listMode?: 'watchlist' | 'readlist' | 'gamelist' | null;
 };
 
 @Component({
@@ -242,6 +243,12 @@ export class AddGameComponent {
     return this.dialogData?.userId || DEFAULT_USER_ID;
   }
 
+  get headerTitle(): string {
+    return this.dialogData?.listMode === 'gamelist'
+      ? 'Ajouter un jeu à faire'
+      : 'Ajouter un jeu';
+  }
+
   async onSubmit() {
     const entity = this.entityForm();
     const user = this.userForm();
@@ -283,6 +290,7 @@ export class AddGameComponent {
         },
         body: JSON.stringify({
           userId: this.getUserId(),
+          gamelist: this.dialogData?.listMode === 'gamelist',
           entity,
           user: userPayload,
         }),

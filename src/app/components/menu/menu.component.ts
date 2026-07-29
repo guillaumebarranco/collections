@@ -136,6 +136,11 @@ export class MenuComponent implements OnInit {
     return this.authService.isAdmin();
   }
 
+  /** True quand on est déjà dans l’interface admin. */
+  isAdminView(): boolean {
+    return this.router.url.startsWith('/admin');
+  }
+
   /** Retour sur son propre dashboard et arrêt de l'impersonation. */
   goToDashboard(): void {
     this.impersonateService.clearImpersonation();
@@ -416,6 +421,8 @@ export class MenuComponent implements OnInit {
     this.dialog.open(MenuConfigModalComponent, {
       width: 'auto',
       maxWidth: '95vw',
+      maxHeight: '90vh',
+      autoFocus: false,
       data: { initialTab } satisfies MenuConfigModalData,
     });
   }

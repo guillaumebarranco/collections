@@ -4,17 +4,30 @@ const {
   getBaseBooksFiles,
   parseBaseBooksFullFromFile,
 } = require('../../utils/books/books-utils');
-
-import type { BaseBook } from '../../../src/app/models/book-model';
+const { toLightBook } = require('../../utils/entity-light-mappers');
 
 const router = express.Router();
 
 router.get('/entities', (_req: any, res: any) => {
   try {
     const baseFiles = getBaseBooksFiles();
-    const books: BaseBook[] = baseFiles.flatMap((filePath: string) => {
+    const books = baseFiles.flatMap((filePath: string) => {
       const content = fs.readFileSync(filePath, 'utf8');
       return parseBaseBooksFullFromFile(content);
+    });
+
+    res.json(books);
+  } catch (error: any) {
+    res.status(500).json({ error: error.message || 'Unknown error' });
+  }
+});
+
+router.get('/entities/light', (_req: any, res: any) => {
+  try {
+    const baseFiles = getBaseBooksFiles();
+    const books = baseFiles.flatMap((filePath: string) => {
+      const content = fs.readFileSync(filePath, 'utf8');
+      return parseBaseBooksFullFromFile(content).map(toLightBook);
     });
 
     res.json(books);

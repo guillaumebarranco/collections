@@ -103,6 +103,14 @@ export class DashboardEntityChartsComponent implements OnInit, AfterViewInit {
   readonly embedded = input(false);
   readonly parentSelectedEntity = input<EntityType | undefined>(undefined);
 
+  /** Données fournies par le parent (évite un 2ᵉ fetch en mode embarqué). */
+  readonly parentMovies = input<Movie[] | undefined>(undefined);
+  readonly parentBooks = input<Book[] | undefined>(undefined);
+  readonly parentSeries = input<Serie[] | undefined>(undefined);
+  readonly parentMangas = input<Manga[] | undefined>(undefined);
+  readonly parentManwhas = input<Manwha[] | undefined>(undefined);
+  readonly parentGames = input<Game[] | undefined>(undefined);
+
   selectedEntity = signal<EntityType>('books');
 
   /** Entité effective : pilotée par le parent en mode embarqué, sinon signal interne. */
@@ -696,15 +704,46 @@ export class DashboardEntityChartsComponent implements OnInit, AfterViewInit {
         requestAnimationFrame(() => this.renderSeriesSeasonTimelineChart());
       });
     });
+
+    effect(() => {
+      if (!this.embedded()) return;
+      this.parentMovies();
+      this.parentBooks();
+      this.parentSeries();
+      this.parentMangas();
+      this.parentManwhas();
+      this.parentGames();
+      untracked(() => this.applyParentCollections());
+    });
   }
 
   ngOnInit() {
+    if (this.embedded()) {
+      this.applyParentCollections();
+      return;
+    }
     void this.loadMoviesData();
     void this.loadBooksData();
     void this.loadSeriesData();
     void this.loadMangasData();
     void this.loadManwhasData();
     void this.loadGamesData();
+  }
+
+  private applyParentCollections(): void {
+    const uid = this.userId();
+    const movies = this.parentMovies();
+    const books = this.parentBooks();
+    const series = this.parentSeries();
+    const mangas = this.parentMangas();
+    const manwhas = this.parentManwhas();
+    const games = this.parentGames();
+    if (movies) this.moviesList.set({ [uid]: movies });
+    if (books) this.booksList.set({ [uid]: books });
+    if (series) this.seriesList.set({ [uid]: series });
+    if (mangas) this.mangasList.set({ [uid]: mangas });
+    if (manwhas) this.manwhasList.set({ [uid]: manwhas });
+    if (games) this.gamesList.set({ [uid]: games });
   }
 
   ngAfterViewInit() {

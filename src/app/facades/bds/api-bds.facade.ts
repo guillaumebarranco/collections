@@ -25,10 +25,49 @@ export async function fetchReadlistBdsFromApi(
   return Array.isArray(data) ? data : data.bds || [];
 }
 
+/** Collection user déjà fusionnée (sans télécharger /entities côté client). */
+export async function fetchMergedUserBdsFromApi(
+  userId: string
+): Promise<import('../../models/bd-model').Bd[]> {
+  const response = await fetch(
+    `${getApiBaseUrl()}/bds/${encodeURIComponent(userId)}/merged`
+  );
+  if (!response.ok) {
+    throw new Error('Bds merged API error');
+  }
+  const data = await response.json();
+  return Array.isArray(data) ? data : [];
+}
+
+export async function fetchMergedReadlistBdsFromApi(
+  userId: string
+): Promise<import('../../models/bd-model').Bd[]> {
+  const response = await fetch(
+    `${getApiBaseUrl()}/bds/readlist/${encodeURIComponent(userId)}/merged`
+  );
+  if (!response.ok) {
+    throw new Error('Bds readlist merged API error');
+  }
+  const data = await response.json();
+  return Array.isArray(data) ? data : [];
+}
+
 export async function fetchBaseBdsFromApi(): Promise<BaseBd[]> {
   const response = await fetch(`${getApiBaseUrl()}/bds/entities`);
   if (!response.ok) {
     throw new Error('Bds entities API error');
+  }
+  const data = await response.json();
+  return Array.isArray(data) ? data : data.bds || [];
+}
+
+/** Catalogue allégé pour les pages select. */
+export async function fetchBaseBdsLightFromApi(): Promise<
+  import('../../models/entity-light.model').LightBd[]
+> {
+  const response = await fetch(`${getApiBaseUrl()}/bds/entities/light`);
+  if (!response.ok) {
+    throw new Error('Bds entities light API error');
   }
   const data = await response.json();
   return Array.isArray(data) ? data : data.bds || [];

@@ -1,6 +1,7 @@
 import { Music, BaseMusic, UserMusic } from '../../models/music-model';
 import {
   fetchBaseMusicsFromApi,
+  fetchMergedUserMusicsFromApi,
   fetchUserMusicsFromApi,
 } from './api-musics.facade';
 import {
@@ -37,6 +38,15 @@ async function getAllMusicsData(musics: UserMusic[]): Promise<Music[]> {
   });
 }
 
+async function getMergedUserMusics(userId: string): Promise<Music[]> {
+  try {
+    return await fetchMergedUserMusicsFromApi(userId);
+  } catch {
+    const userMusics = await fetchUserMusicsFromApi(userId);
+    return getAllMusicsData(userMusics);
+  }
+}
+
 export async function getAllMusics(
   currentUserId = 'guillaume'
 ): Promise<{ [key: string]: Music[] }> {
@@ -51,9 +61,8 @@ export async function getAllMusics(
   }
 
   try {
-    const userMusics = await fetchUserMusicsFromApi(currentUserId);
     return {
-      [currentUserId]: await getAllMusicsData(userMusics),
+      [currentUserId]: await getMergedUserMusics(currentUserId),
     };
   } catch {
     return {
@@ -100,8 +109,21 @@ export async function getMusicsByUser(userId: string): Promise<Music[]> {
   }
 
   try {
-    const userMusics = await fetchUserMusicsFromApi(userId);
-    return getAllMusicsData(userMusics);
+    return await getMergedUserMusics(userId);
+  } catch {
+    return [];
+  }
+}
+
+/** User musics bruts (clés d'exclusion select, sans join catalogue). */
+export async function getUserMusicsRaw(userId: string): Promise<UserMusic[]> {
+  const offline = getActiveOfflineCache();
+  if (offline) {
+    if (!canServeOfflineUser(userId)) return [];
+    return offline.musics.user;
+  }
+  try {
+    return await fetchUserMusicsFromApi(userId);
   } catch {
     return [];
   }

@@ -27,6 +27,33 @@ export async function fetchWatchlistMoviesFromApi(
   return Array.isArray(data) ? data : data.movies || [];
 }
 
+/** Collection user déjà fusionnée (sans télécharger /entities côté client). */
+export async function fetchMergedUserMoviesFromApi(
+  userId: string
+): Promise<import('../../models/movie-model').Movie[]> {
+  const response = await fetch(
+    `${getApiBaseUrl()}/movies/${encodeURIComponent(userId)}/merged`
+  );
+  if (!response.ok) {
+    throw new Error('Movies merged API error');
+  }
+  const data = await response.json();
+  return Array.isArray(data) ? data : [];
+}
+
+export async function fetchMergedWatchlistMoviesFromApi(
+  userId: string
+): Promise<import('../../models/movie-model').Movie[]> {
+  const response = await fetch(
+    `${getApiBaseUrl()}/movies/watchlist/${encodeURIComponent(userId)}/merged`
+  );
+  if (!response.ok) {
+    throw new Error('Movies watchlist merged API error');
+  }
+  const data = await response.json();
+  return Array.isArray(data) ? data : [];
+}
+
 export async function fetchBaseMoviesFromApi(): Promise<BaseMovie[]> {
   const response = await fetch(`${getApiBaseUrl()}/movies/entities`);
   if (!response.ok) {
@@ -38,6 +65,18 @@ export async function fetchBaseMoviesFromApi(): Promise<BaseMovie[]> {
     ...m,
     fromEntity: m.fromEntity ?? null,
   }));
+}
+
+/** Catalogue allégé pour les pages select. */
+export async function fetchBaseMoviesLightFromApi(): Promise<
+  import('../../models/entity-light.model').LightMovie[]
+> {
+  const response = await fetch(`${getApiBaseUrl()}/movies/entities/light`);
+  if (!response.ok) {
+    throw new Error('Movies entities light API error');
+  }
+  const data = await response.json();
+  return Array.isArray(data) ? data : data.movies || [];
 }
 
 export type OtherUserMovieRating = {

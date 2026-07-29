@@ -48,6 +48,7 @@ type AddMovieUserForm = {
 
 type AddMovieDialogData = {
   userId: string;
+  listMode?: 'watchlist' | 'readlist' | 'gamelist' | null;
 };
 
 @Component({
@@ -208,6 +209,12 @@ export class AddMovieComponent {
     return this.dialogData?.userId || DEFAULT_USER_ID;
   }
 
+  get headerTitle(): string {
+    return this.dialogData?.listMode === 'watchlist'
+      ? 'Ajouter un film à voir'
+      : 'Ajouter un film';
+  }
+
   async onSubmit() {
     const entity = this.entityForm();
     const user = this.userForm();
@@ -228,6 +235,7 @@ export class AddMovieComponent {
         },
         body: JSON.stringify({
           userId: this.getUserId(),
+          watchlist: this.dialogData?.listMode === 'watchlist',
           entity: {
             ...entity,
             actors: this.getActorsList(),

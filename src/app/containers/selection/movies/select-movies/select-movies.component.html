@@ -67,7 +67,8 @@
           Ajouter manuellement un film qui n'existe pas encore sur Makya
         </button>
       </div>
-      } } @else if(isWatchOrReadlistMode()) {
+      }
+      } @else if(isWatchOrReadlistMode()) {
       <p>
         Bonjour {{ username() }} <br /><br />
         Tu es en mode "Watchlist" ! Ici, tu peux sélectionner les films que tu
@@ -75,10 +76,19 @@
         <br /><br />
         Les films que tu as déjà vus sont automatiquement exclus de cette liste
         pour t'éviter les doublons.
-        <br /><br />
-        Sélectionne les films que tu aimerais voir et télécharge le fichier JSON
-        pour construire ta watchlist.
       </p>
+      <p>
+        Si tu ne trouves pas ton film dans la liste, demande son ajout ou
+        ajoute-le manuellement (il ira dans ta watchlist) :
+      </p>
+      <div class="select-add-actions">
+        <button class="makya-btn" (click)="openRequestEntityAddDialog()">
+          Demander à l'admin l'ajout d'un film sur Makya
+        </button>
+        <button class="makya-btn" (click)="openAddMovieDialog()">
+          Ajouter manuellement un film qui n'existe pas encore sur Makya
+        </button>
+      </div>
       } @else {
       <!-- <p>
         Bonjour {{ username() }} <br /><br />
@@ -109,7 +119,7 @@
 
   <div class="movies-grid" select-grid>
     @for (movie of filteredMovies(); track
-    `${movie.title}-${movie.releaseDate}`) {
+    `${movie.title}-${movie.director}`) {
     <div
       class="movie-poster"
       [class.selected]="isSelected(movie)"

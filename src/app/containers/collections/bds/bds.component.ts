@@ -394,9 +394,22 @@ export class BdsComponent implements OnInit {
 
   onViewChange(view: BdView) {
     this.selectedView.set(view);
+    if (this.viewNeedsBaseCatalog(view)) {
+      void this.ensureBaseBdsLoaded();
+    }
     if (view === 'recommendations') {
       void this.loadRecommendations();
     }
+  }
+
+  private viewNeedsBaseCatalog(view: BdView): boolean {
+    return view === 'sagas' || view === 'recommendations';
+  }
+
+  private async ensureBaseBdsLoaded(): Promise<void> {
+    if (this.baseBdsList().length > 0) return;
+    const baseBds = await getAllBaseBds();
+    this.baseBdsList.set(baseBds.map(getFullBd));
   }
 
   private matchesSearch(bd: Bd, term: string): boolean {
@@ -430,14 +443,16 @@ export class BdsComponent implements OnInit {
           displayedUserId.toLowerCase() !== connectedUserId.toLowerCase()
       );
 
-      const [bds, readlist, baseBds] = await Promise.all([
+      const [bds, readlist] = await Promise.all([
         getAllBds(displayedUserId),
         getAllReadlistBds(displayedUserId),
-        getAllBaseBds(),
       ]);
       this.bdsList.set(bds);
       this.readlistBdsList.set(readlist);
-      this.baseBdsList.set(baseBds.map(getFullBd));
+
+      if (this.viewNeedsBaseCatalog(this.selectedView())) {
+        await this.ensureBaseBdsLoaded();
+      }
 
       if (isViewingOther && connectedUserId) {
         const [connectedBds, connectedReadlist] = await Promise.all([
@@ -537,10 +552,7 @@ export class BdsComponent implements OnInit {
       return;
     }
 
-    // S'assurer que baseBdsList est chargé
-    if (this.baseBdsList().length === 0) {
-      await this.refreshBds();
-    }
+    await this.ensureBaseBdsLoaded();
 
     this.isLoadingRecommendations.set(true);
     try {

@@ -3,9 +3,9 @@ import { CommonModule } from '@angular/common';
 import { MenuComponent } from '../../../../components/menu/menu.component';
 import { Serie } from '../../../../models/serie-model';
 import {
-  getAllBaseSeries,
-  getCurrentWatchlistSeriesByUser,
-  getSeriesByUser,
+  getAllBaseSeriesLight,
+  getUserSeriesRaw,
+  getWatchlistSeriesRaw,
 } from '../../../../facades/series/series.facade';
 import { SelectEntitiesComponent } from '../../select-base.component';
 import { MatDialog, MatDialogModule } from '@angular/material/dialog';
@@ -85,7 +85,7 @@ export class SelectSeriesComponent
   }
 
   private getSerieKey(serie: Serie): string {
-    return `${serie.title}-${serie.releaseDate}`;
+    return `${serie.title}-${serie.director}`;
   }
 
   toggleSelection(serie: Serie): void {
@@ -111,7 +111,7 @@ export class SelectSeriesComponent
 
   openAddSerieDialog(): void {
     const dialogRef = this.dialog.open(AddSerieComponent, {
-      data: { userId: this.userId() },
+      data: { userId: this.userId(), listMode: this.listModeFlag() },
       width: '760px',
       maxWidth: '95vw',
     });
@@ -125,22 +125,33 @@ export class SelectSeriesComponent
 
   async ngOnInit() {
     const userId = this.userId();
-    const [series, watchlist] = await Promise.all([
-      getSeriesByUser(userId),
-      getCurrentWatchlistSeriesByUser(userId),
+    const [series, watchlist, allSeries] = await Promise.all([
+      getUserSeriesRaw(userId),
+      getWatchlistSeriesRaw(userId),
+      this.getAllSeriesForSelection(userId),
     ]);
-    const allSeries = await this.getAllSeriesForSelection(userId);
-    this.userSeries.set(series);
-    this.watchlistSeries.set(watchlist);
+    this.userSeries.set(series as Serie[]);
+    this.watchlistSeries.set(watchlist as Serie[]);
     this.allSeriesMergedList.set(allSeries);
   }
 
   private async getAllSeriesForSelection(userId: string): Promise<Serie[]> {
-    const baseSeries = await getAllBaseSeries();
+    const baseSeries = await getAllBaseSeriesLight();
     return baseSeries.map((serie) => ({
-      ...serie,
+      title: serie.title,
+      director: serie.director,
+      coverUrl: serie.coverUrl ?? '',
+      releaseDate: serie.releaseDate ?? '',
+      actors: [],
+      endDate: '',
+      genre: [],
+      seasonsData: [],
+      description: '',
+      countryOrigin: '' as const,
+      saga: '',
+      fromEntity: null,
       seasons: Array.from(
-        { length: serie.seasonsData?.length ?? 0 },
+        { length: serie.seasonsCount ?? 0 },
         (_, index) => ({
           seasonNumber: index + 1,
           seasonRating: 0,

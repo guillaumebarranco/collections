@@ -260,14 +260,16 @@ export class ChildrenBooksComponent implements OnInit {
           displayedUserId.toLowerCase() !== connectedUserId.toLowerCase()
       );
 
-      const [childrenBooks, readlist, baseChildrenBooks] = await Promise.all([
+      const [childrenBooks, readlist] = await Promise.all([
         getAllChildrenBooks(displayedUserId),
         getAllReadlistChildrenBooks(displayedUserId),
-        getAllBaseChildrenBooks(),
       ]);
       this.childrenBooksList.set(childrenBooks);
       this.readlistChildrenBooksList.set(readlist);
-      this.baseChildrenBooksList.set(baseChildrenBooks.map(getFullChildrenBook));
+
+      if (this.viewNeedsBaseCatalog(this.selectedView())) {
+        await this.ensureBaseChildrenBooksLoaded();
+      }
 
       if (isViewingOther && connectedUserId) {
         const [connectedChildrenBooks, connectedReadlist] = await Promise.all([
@@ -702,9 +704,27 @@ export class ChildrenBooksComponent implements OnInit {
     if (view === 'readlist' || view === 'readingInProgress') {
       this.selectedSort.set('readPriority');
     }
+    if (this.viewNeedsBaseCatalog(view)) {
+      void this.ensureBaseChildrenBooksLoaded();
+    }
     if (view === 'recommendations') {
       void this.loadRecommendations();
     }
+  }
+
+  private viewNeedsBaseCatalog(view: ChildrenBookView): boolean {
+    return (
+      view === 'authors' ||
+      view === 'sagas' ||
+      view === 'countries' ||
+      view === 'recommendations'
+    );
+  }
+
+  private async ensureBaseChildrenBooksLoaded(): Promise<void> {
+    if (this.baseChildrenBooksList().length > 0) return;
+    const baseChildrenBooks = await getAllBaseChildrenBooks();
+    this.baseChildrenBooksList.set(baseChildrenBooks.map(getFullChildrenBook));
   }
 
   onSearchChange(value: string) {
@@ -873,10 +893,7 @@ export class ChildrenBooksComponent implements OnInit {
         return;
       }
 
-      // S'assurer que baseChildrenBooksList est chargé
-      if (this.baseChildrenBooksList().length === 0) {
-        await this.refreshChildrenBooks();
-      }
+      await this.ensureBaseChildrenBooksLoaded();
 
       const othersRated = await getOtherUsersChildrenBooksRated(userId, 4, followedIds);
 

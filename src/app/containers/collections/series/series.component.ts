@@ -411,14 +411,16 @@ export class SeriesComponent implements OnInit {
           displayedUserId.toLowerCase() !== connectedUserId.toLowerCase()
       );
 
-      const [series, watchlist, baseSeries] = await Promise.all([
+      const [series, watchlist] = await Promise.all([
         getAllSeries(displayedUserId),
         getAllWatchlistSeries(displayedUserId),
-        getAllBaseSeries(),
       ]);
       this.seriesList.set(series);
       this.watchingSeriesList.set(watchlist);
-      this.baseSeriesList.set(baseSeries.map(getFullSerie));
+
+      if (this.viewNeedsBaseCatalog(this.selectedView())) {
+        await this.ensureBaseSeriesLoaded();
+      }
 
       if (isViewingOther && connectedUserId) {
         const [connectedSeries, connectedWatchlist] = await Promise.all([
@@ -508,9 +510,26 @@ export class SeriesComponent implements OnInit {
 
   onViewChange(view: SerieView) {
     this.selectedView.set(view);
+    if (this.viewNeedsBaseCatalog(view)) {
+      void this.ensureBaseSeriesLoaded();
+    }
     if (view === 'recommendations') {
       void this.loadRecommendations();
     }
+  }
+
+  private viewNeedsBaseCatalog(view: SerieView): boolean {
+    return (
+      view === 'sagas' ||
+      view === 'countries' ||
+      view === 'recommendations'
+    );
+  }
+
+  private async ensureBaseSeriesLoaded(): Promise<void> {
+    if (this.baseSeriesList().length > 0) return;
+    const baseSeries = await getAllBaseSeries();
+    this.baseSeriesList.set(baseSeries.map(getFullSerie));
   }
 
   seriesByCountry = computed(() => {
@@ -598,10 +617,7 @@ export class SeriesComponent implements OnInit {
       return;
     }
 
-    // S'assurer que baseSeriesList est chargé
-    if (this.baseSeriesList().length === 0) {
-      await this.refreshSeries();
-    }
+    await this.ensureBaseSeriesLoaded();
 
     this.isLoadingRecommendations.set(true);
     try {

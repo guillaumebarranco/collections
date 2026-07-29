@@ -27,10 +27,49 @@ export async function fetchReadlistComicsFromApi(
   return Array.isArray(data) ? data : data.comics || [];
 }
 
+/** Collection user déjà fusionnée (sans télécharger /entities côté client). */
+export async function fetchMergedUserComicsFromApi(
+  userId: string
+): Promise<import('../../models/comic-model').Comic[]> {
+  const response = await fetch(
+    `${getApiBaseUrl()}/comics/${encodeURIComponent(userId)}/merged`
+  );
+  if (!response.ok) {
+    throw new Error('Comics merged API error');
+  }
+  const data = await response.json();
+  return Array.isArray(data) ? data : [];
+}
+
+export async function fetchMergedReadlistComicsFromApi(
+  userId: string
+): Promise<import('../../models/comic-model').Comic[]> {
+  const response = await fetch(
+    `${getApiBaseUrl()}/comics/readlist/${encodeURIComponent(userId)}/merged`
+  );
+  if (!response.ok) {
+    throw new Error('Comics readlist merged API error');
+  }
+  const data = await response.json();
+  return Array.isArray(data) ? data : [];
+}
+
 export async function fetchBaseComicsFromApi(): Promise<BaseComic[]> {
   const response = await fetch(`${getApiBaseUrl()}/comics/entities`);
   if (!response.ok) {
     throw new Error('Comics entities API error');
+  }
+  const data = await response.json();
+  return Array.isArray(data) ? data : data.comics || [];
+}
+
+/** Catalogue allégé pour les pages select. */
+export async function fetchBaseComicsLightFromApi(): Promise<
+  import('../../models/entity-light.model').LightComic[]
+> {
+  const response = await fetch(`${getApiBaseUrl()}/comics/entities/light`);
+  if (!response.ok) {
+    throw new Error('Comics entities light API error');
   }
   const data = await response.json();
   return Array.isArray(data) ? data : data.comics || [];

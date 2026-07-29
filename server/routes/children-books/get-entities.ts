@@ -4,20 +4,33 @@ const {
   getBaseChildrenBooksFiles,
   parseBaseChildrenBooksFullFromFile,
 } = require('../../utils/children-books/children-books-utils');
-
-import type { BaseChildrenBook } from '../../../src/app/models/children-book-model';
+const { toLightBook } = require('../../utils/entity-light-mappers');
 
 const router = express.Router();
 
 router.get('/entities', (_req: any, res: any) => {
   try {
     const baseFiles = getBaseChildrenBooksFiles();
-    const childrenBooks: BaseChildrenBook[] = baseFiles.flatMap((filePath: string) => {
+    const books = baseFiles.flatMap((filePath: string) => {
       const content = fs.readFileSync(filePath, 'utf8');
       return parseBaseChildrenBooksFullFromFile(content);
     });
 
-    res.json(childrenBooks);
+    res.json(books);
+  } catch (error: any) {
+    res.status(500).json({ error: error.message || 'Unknown error' });
+  }
+});
+
+router.get('/entities/light', (_req: any, res: any) => {
+  try {
+    const baseFiles = getBaseChildrenBooksFiles();
+    const books = baseFiles.flatMap((filePath: string) => {
+      const content = fs.readFileSync(filePath, 'utf8');
+      return parseBaseChildrenBooksFullFromFile(content).map(toLightBook);
+    });
+
+    res.json(books);
   } catch (error: any) {
     res.status(500).json({ error: error.message || 'Unknown error' });
   }

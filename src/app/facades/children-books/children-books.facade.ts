@@ -1,6 +1,10 @@
 import { ChildrenBook, BaseChildrenBook, UserChildrenBook } from '../../models/children-book-model';
+import type { LightBook } from '../../models/entity-light.model';
 import {
   fetchBaseChildrenBooksFromApi,
+  fetchBaseChildrenBooksLightFromApi,
+  fetchMergedUserChildrenBooksFromApi,
+  fetchMergedReadlistChildrenBooksFromApi,
   fetchUserChildrenBooksFromApi,
   fetchReadlistChildrenBooksFromApi,
   fetchOtherUsersChildrenBooksRatedFromApi,
@@ -15,6 +19,9 @@ import {
 import { isOfflineModeBlockingOtherUsers } from '../../core/offline/offline-mode.utils';
 
 const fetchBaseChildrenBooksCached = createCachedFetcher(fetchBaseChildrenBooksFromApi);
+const fetchBaseChildrenBooksLightCached = createCachedFetcher(
+  fetchBaseChildrenBooksLightFromApi
+);
 
 async function getAllChildrenBooksData(childrenBooks: UserChildrenBook[]): Promise<ChildrenBook[]> {
   const baseChildrenBooks = await getAllBaseChildrenBooks();
@@ -35,12 +42,50 @@ async function getAllChildrenBooksData(childrenBooks: UserChildrenBook[]): Promi
   });
 }
 
+async function getMergedUserChildrenBooks(userId: string): Promise<ChildrenBook[]> {
+  try {
+    return await fetchMergedUserChildrenBooksFromApi(userId);
+  } catch {
+    const userChildrenBooks = await fetchUserChildrenBooksFromApi(userId);
+    return getAllChildrenBooksData(userChildrenBooks);
+  }
+}
+
+async function getMergedReadlistChildrenBooks(userId: string): Promise<ChildrenBook[]> {
+  try {
+    return await fetchMergedReadlistChildrenBooksFromApi(userId);
+  } catch {
+    const readlist = await fetchReadlistChildrenBooksFromApi(userId);
+    return getAllChildrenBooksData(readlist);
+  }
+}
+
 export async function getAllBaseChildrenBooks(): Promise<BaseChildrenBook[]> {
   const offline = getActiveOfflineCache();
   if (offline) return offline.childrenBooks.base;
 
   try {
     return await fetchBaseChildrenBooksCached();
+  } catch {
+    return [];
+  }
+}
+
+/** Catalogue allégé pour les pages select. */
+export async function getAllBaseChildrenBooksLight(): Promise<LightBook[]> {
+  const offline = getActiveOfflineCache();
+  if (offline) {
+    return offline.childrenBooks.base.map((b) => ({
+      title: b.title,
+      author: b.author,
+      coverUrl: b.coverUrl ?? '',
+      saga: b.saga ?? '',
+      selectDisplayOrder: b.selectDisplayOrder ?? 0,
+    }));
+  }
+
+  try {
+    return await fetchBaseChildrenBooksLightCached();
   } catch {
     return [];
   }
@@ -60,9 +105,8 @@ export async function getAllChildrenBooks(
   }
 
   try {
-    const userChildrenBooks = await fetchUserChildrenBooksFromApi(currentUserId);
     return {
-      [currentUserId]: await getAllChildrenBooksData(userChildrenBooks),
+      [currentUserId]: await getMergedUserChildrenBooks(currentUserId),
     };
   } catch {
     return {
@@ -85,9 +129,8 @@ export async function getAllReadlistChildrenBooks(
   }
 
   try {
-    const readlist = await fetchReadlistChildrenBooksFromApi(currentUserId);
     return {
-      [currentUserId]: await getAllChildrenBooksData(readlist),
+      [currentUserId]: await getMergedReadlistChildrenBooks(currentUserId),
     };
   } catch {
     return {
@@ -122,8 +165,36 @@ export async function getChildrenBooksByUser(userId: string): Promise<ChildrenBo
   }
 
   try {
-    const userChildrenBooks = await fetchUserChildrenBooksFromApi(userId);
-    return getAllChildrenBooksData(userChildrenBooks);
+    return await getMergedUserChildrenBooks(userId);
+  } catch {
+    return [];
+  }
+}
+
+/** User children books bruts (clés d'exclusion select, sans join catalogue). */
+export async function getUserChildrenBooksRaw(userId: string): Promise<UserChildrenBook[]> {
+  const offline = getActiveOfflineCache();
+  if (offline) {
+    if (!canServeOfflineUser(userId)) return [];
+    return offline.childrenBooks.user;
+  }
+  try {
+    return await fetchUserChildrenBooksFromApi(userId);
+  } catch {
+    return [];
+  }
+}
+
+export async function getReadlistChildrenBooksRaw(
+  userId: string
+): Promise<UserChildrenBook[]> {
+  const offline = getActiveOfflineCache();
+  if (offline) {
+    if (!canServeOfflineUser(userId)) return [];
+    return offline.childrenBooks.readlist;
+  }
+  try {
+    return await fetchReadlistChildrenBooksFromApi(userId);
   } catch {
     return [];
   }
@@ -139,8 +210,7 @@ export async function getCurrentReadlistChildrenBooksByUser(
   }
 
   try {
-    const readlist = await fetchReadlistChildrenBooksFromApi(userId);
-    return getAllChildrenBooksData(readlist);
+    return await getMergedReadlistChildrenBooks(userId);
   } catch {
     return [];
   }

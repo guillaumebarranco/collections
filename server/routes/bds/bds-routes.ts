@@ -3,6 +3,7 @@ const getBdWatchersRouter = require('./get-bd-watchers');
 const getBdsRouter = require('./get-bds');
 const getReadlistRouter = require('./get-readlist');
 const getEntitiesRouter = require('./get-entities');
+const getMergedRouter = require('./get-merged');
 const saveBdRouter = require('./save-bd');
 const batchRatingRouter = require('./batch-rating');
 const batchTimesReadRouter = require('./batch-times-read');
@@ -17,6 +18,7 @@ const router = express.Router();
 
 router.use(getBdWatchersRouter);
 router.use(getEntitiesRouter);
+router.use(getMergedRouter);
 router.use(getReadlistRouter);
 router.use(othersRatedRouter);
 router.use(getBdsRouter);

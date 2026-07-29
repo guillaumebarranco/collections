@@ -33,7 +33,7 @@ function formatUserManwha(user: any): string {
   },`;
 }
 
-function getUserManwhasTargetFile(userId: string) {
+function getUserManwhasTargetFile(userId: string, isReadlist: boolean) {
   const userDir = path.join(
     __dirname,
     '..',
@@ -52,15 +52,15 @@ function getUserManwhasTargetFile(userId: string) {
 
   const files = fs
     .readdirSync(userDir)
-    .filter(
-      (file: string) =>
-        file.endsWith('.ts') &&
-        file !== 'index.ts' &&
-        !file.includes('readlist')
+    .filter((file: string) => file.endsWith('.ts') && file !== 'index.ts')
+    .filter((file: string) =>
+      isReadlist ? file.includes('readlist') : !file.includes('readlist')
     );
 
   const preferred = files.find((file: string) =>
-    file.includes(`${userId}_manwhas`)
+    isReadlist
+      ? file.includes(`${userId}_readlist_manwhas`)
+      : file.includes(`${userId}_manwhas`)
   );
   const selected = preferred || files.sort()[0];
   if (!selected) {
@@ -81,6 +81,7 @@ router.post('/add', (req: any, res: any) => {
 
     const entity = input.entity || {};
     const user = input.user || {};
+    const isReadlist = normalizeBoolean(input.readlist, 'readlist') ?? false;
 
     const title = normalizeString(entity.title, 'title');
     const author = normalizeString(entity.author, 'author');
@@ -111,7 +112,9 @@ router.post('/add', (req: any, res: any) => {
       title,
       author,
       rating: normalizeNumber(user.rating, 'rating') ?? 0,
-      readTimes: normalizeNumber(user.readTimes, 'readTimes') ?? 1,
+      readTimes: isReadlist
+        ? 0
+        : normalizeNumber(user.readTimes, 'readTimes') ?? 1,
       readDate: normalizeString(user.readDate, 'readDate') || '',
       readingScanStartDate:
         normalizeString(user.readingScanStartDate, 'readingScanStartDate') || '',
@@ -132,7 +135,7 @@ router.post('/add', (req: any, res: any) => {
     );
     fs.writeFileSync(BASE_MANWHAS_API_FILE, baseManwhaContent, 'utf8');
 
-    const userManwhasFile = getUserManwhasTargetFile(userId);
+    const userManwhasFile = getUserManwhasTargetFile(userId, isReadlist);
     const userManwhaContent = appendObjectToArrayFile(
       userManwhasFile,
       formatUserManwha(userPayload)

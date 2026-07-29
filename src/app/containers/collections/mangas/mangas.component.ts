@@ -471,9 +471,22 @@ export class MangasComponent implements OnInit {
 
   onViewChange(view: MangaView) {
     this.selectedView.set(view);
+    if (this.viewNeedsBaseCatalog(view)) {
+      void this.ensureBaseMangasLoaded();
+    }
     if (view === 'recommendations') {
       void this.loadRecommendations();
     }
+  }
+
+  private viewNeedsBaseCatalog(view: MangaView): boolean {
+    return view === 'recommendations';
+  }
+
+  private async ensureBaseMangasLoaded(): Promise<void> {
+    if (this.baseMangasList().length > 0) return;
+    const baseMangas = await getAllBaseMangas();
+    this.baseMangasList.set(baseMangas.map(getFullManga));
   }
 
   private matchesSearch(manga: Manga, term: string): boolean {
@@ -518,14 +531,16 @@ export class MangasComponent implements OnInit {
           displayedUserId.toLowerCase() !== connectedUserId.toLowerCase()
       );
 
-      const [mangas, readlist, baseMangas] = await Promise.all([
+      const [mangas, readlist] = await Promise.all([
         getAllMangas(displayedUserId),
         getAllReadlistMangas(displayedUserId),
-        getAllBaseMangas(),
       ]);
       this.mangasList.set(mangas);
       this.readlistMangasList.set(readlist);
-      this.baseMangasList.set(baseMangas.map(getFullManga));
+
+      if (this.viewNeedsBaseCatalog(this.selectedView())) {
+        await this.ensureBaseMangasLoaded();
+      }
 
       this.cdr.detectChanges();
 
@@ -637,10 +652,7 @@ export class MangasComponent implements OnInit {
       return;
     }
 
-    // S'assurer que baseMangasList est chargé
-    if (this.baseMangasList().length === 0) {
-      await this.refreshMangas();
-    }
+    await this.ensureBaseMangasLoaded();
 
     this.isLoadingRecommendations.set(true);
     try {

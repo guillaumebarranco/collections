@@ -191,7 +191,7 @@
             >
               <span class="menu-label">Préférences</span>
             </button>
-            @if (isAdmin()) {
+            @if (isAdmin() && !isAdminView()) {
             <button class="menu-subitem" type="button" (click)="goToAdmin()">
               Aller sur la vue Admin
             </button>

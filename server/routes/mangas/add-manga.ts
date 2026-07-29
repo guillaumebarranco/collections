@@ -46,7 +46,7 @@ function formatUserManga(user: any): string {
   },`;
 }
 
-function getUserMangasTargetFile(userId: string) {
+function getUserMangasTargetFile(userId: string, isReadlist: boolean) {
   const userDir = path.join(
     __dirname,
     '..',
@@ -65,15 +65,15 @@ function getUserMangasTargetFile(userId: string) {
 
   const files = fs
     .readdirSync(userDir)
-    .filter(
-      (file: string) =>
-        file.endsWith('.ts') &&
-        file !== 'index.ts' &&
-        !file.includes('readlist')
+    .filter((file: string) => file.endsWith('.ts') && file !== 'index.ts')
+    .filter((file: string) =>
+      isReadlist ? file.includes('readlist') : !file.includes('readlist')
     );
 
   const preferred = files.find((file: string) =>
-    file.includes(`${userId}_mangas`)
+    isReadlist
+      ? file.includes(`${userId}_readlist_mangas`)
+      : file.includes(`${userId}_mangas`)
   );
   const selected = preferred || files.sort()[0];
   if (!selected) {
@@ -96,6 +96,7 @@ router.post('/add', (req: any, res: any) => {
 
     const entity = input.entity || {};
     const user = input.user || {};
+    const isReadlist = normalizeBoolean(input.readlist, 'readlist') ?? false;
 
     const title = normalizeString(entity.title, 'title');
     const author = normalizeString(entity.author, 'author');
@@ -124,7 +125,9 @@ router.post('/add', (req: any, res: any) => {
       title,
       author,
       rating: normalizeNumber(user.rating, 'rating') ?? 0,
-      readTimes: normalizeNumber(user.readTimes, 'readTimes') ?? 1,
+      readTimes: isReadlist
+        ? 0
+        : normalizeNumber(user.readTimes, 'readTimes') ?? 1,
       readDate: normalizeString(user.readDate, 'readDate') || '',
       readingScanStartDate:
         normalizeString(user.readingScanStartDate, 'readingScanStartDate') || '',
@@ -146,7 +149,7 @@ router.post('/add', (req: any, res: any) => {
     fs.writeFileSync(BASE_MANGAS_API_FILE, baseMangaContent, 'utf8');
 
     if (!baseMangaOnly) {
-      const userMangasFile = getUserMangasTargetFile(userId);
+      const userMangasFile = getUserMangasTargetFile(userId, isReadlist);
       const userMangaContent = appendObjectToArrayFile(
         userMangasFile,
         formatUserManga(userPayload)

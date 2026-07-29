@@ -44,7 +44,7 @@ function formatUserComic(user: any): string {
   },`;
 }
 
-function getUserComicsTargetFile(userId: string) {
+function getUserComicsTargetFile(userId: string, isReadlist: boolean) {
   const userDir = path.join(
     __dirname,
     '..',
@@ -63,15 +63,15 @@ function getUserComicsTargetFile(userId: string) {
 
   const files = fs
     .readdirSync(userDir)
-    .filter(
-      (file: string) =>
-        file.endsWith('.ts') &&
-        file !== 'index.ts' &&
-        !file.includes('readlist')
+    .filter((file: string) => file.endsWith('.ts') && file !== 'index.ts')
+    .filter((file: string) =>
+      isReadlist ? file.includes('readlist') : !file.includes('readlist')
     );
 
   const preferred = files.find((file: string) =>
-    file.includes(`${userId}_comics`)
+    isReadlist
+      ? file.includes(`${userId}_readlist_comics`)
+      : file.includes(`${userId}_comics`)
   );
   const selected = preferred || files.sort()[0];
   if (!selected) {
@@ -92,6 +92,7 @@ router.post('/add', (req: any, res: any) => {
 
     const entity = input.entity || {};
     const user = input.user || {};
+    const isReadlist = normalizeBoolean(input.readlist, 'readlist') ?? false;
 
     const title = normalizeString(entity.title, 'title');
     const writer = normalizeString(entity.writer, 'writer');
@@ -123,7 +124,9 @@ router.post('/add', (req: any, res: any) => {
       title,
       writer,
       rating: normalizeNumber(user.rating, 'rating') ?? 0,
-      readTimes: normalizeNumber(user.readTimes, 'readTimes') ?? 1,
+      readTimes: isReadlist
+        ? 0
+        : normalizeNumber(user.readTimes, 'readTimes') ?? 1,
       readDate: normalizeString(user.readDate, 'readDate') || '',
       owned: normalizeBoolean(user.owned, 'owned') ?? false,
       readPriority: normalizeNumber(user.readPriority, 'readPriority') ?? 1,
@@ -140,7 +143,7 @@ router.post('/add', (req: any, res: any) => {
     );
     fs.writeFileSync(BASE_COMICS_API_FILE, baseComicContent, 'utf8');
 
-    const userComicsFile = getUserComicsTargetFile(userId);
+    const userComicsFile = getUserComicsTargetFile(userId, isReadlist);
     const userComicContent = appendObjectToArrayFile(
       userComicsFile,
       formatUserComic(userPayload)

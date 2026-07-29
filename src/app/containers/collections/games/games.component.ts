@@ -358,14 +358,16 @@ export class GamesComponent implements OnInit {
           displayedUserId.toLowerCase() !== connectedUserId.toLowerCase()
       );
 
-      const [games, gamelist, baseGames] = await Promise.all([
+      const [games, gamelist] = await Promise.all([
         getAllGames(displayedUserId),
         getAllGamelistGames(displayedUserId),
-        getAllBaseGames(),
       ]);
       this.gamesList.set(games);
       this.gamelistGamesList.set(gamelist);
-      this.baseGamesList.set(baseGames.map(getFullGame));
+
+      if (this.viewNeedsBaseCatalog(this.selectedView())) {
+        await this.ensureBaseGamesLoaded();
+      }
 
       if (isViewingOther && connectedUserId) {
         const [connectedGames, connectedGamelist] = await Promise.all([
@@ -434,9 +436,22 @@ export class GamesComponent implements OnInit {
     if (!allowedSorts.has(this.selectedSort())) {
       this.selectedSort.set(getDefaultGamesSortForView(view));
     }
+    if (this.viewNeedsBaseCatalog(view)) {
+      void this.ensureBaseGamesLoaded();
+    }
     if (view === 'recommendations') {
       void this.loadRecommendations();
     }
+  }
+
+  private viewNeedsBaseCatalog(view: GameView): boolean {
+    return view === 'recommendations';
+  }
+
+  private async ensureBaseGamesLoaded(): Promise<void> {
+    if (this.baseGamesList().length > 0) return;
+    const baseGames = await getAllBaseGames();
+    this.baseGamesList.set(baseGames.map(getFullGame));
   }
 
   onSearchChange(value: string) {
@@ -558,10 +573,7 @@ export class GamesComponent implements OnInit {
       return;
     }
 
-    // S'assurer que baseGamesList est chargé
-    if (this.baseGamesList().length === 0) {
-      await this.refreshGames();
-    }
+    await this.ensureBaseGamesLoaded();
 
     this.isLoadingRecommendations.set(true);
     try {

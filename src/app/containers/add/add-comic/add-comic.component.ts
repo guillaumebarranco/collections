@@ -29,6 +29,7 @@ type AddComicUserForm = {
 
 type AddComicDialogData = {
   userId: string;
+  listMode?: 'watchlist' | 'readlist' | 'gamelist' | null;
 };
 
 @Component({
@@ -142,6 +143,12 @@ export class AddComicComponent {
     return this.dialogData?.userId || DEFAULT_USER_ID;
   }
 
+  get headerTitle(): string {
+    return this.dialogData?.listMode === 'readlist'
+      ? 'Ajouter un comic à lire'
+      : 'Ajouter un comic';
+  }
+
   async onSubmit() {
     const entity = this.entityForm();
     const user = this.userForm();
@@ -162,6 +169,7 @@ export class AddComicComponent {
         },
         body: JSON.stringify({
           userId: this.getUserId(),
+          readlist: this.dialogData?.listMode === 'readlist',
           entity,
           user,
         }),

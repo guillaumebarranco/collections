@@ -67,6 +67,18 @@
         <br /><br />
         Sélectionne les BD que tu aimerais lire et ajoute-les à ta liste.
       </p>
+      <p>
+        Si tu ne trouves pas ta BD dans la liste, demande son ajout ou
+        ajoute-la manuellement (elle ira dans ta readlist) :
+      </p>
+      <div class="select-add-actions">
+        <button class="makya-btn" (click)="openRequestEntityAddDialog()">
+          Demander à l'admin l'ajout d'une BD sur Makya
+        </button>
+        <button class="makya-btn" (click)="openAddBdDialog()">
+          Ajouter manuellement une BD qui n'existe pas encore sur Makya
+        </button>
+      </div>
       } @else { }
     </div>
   </div>

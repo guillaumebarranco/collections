@@ -260,14 +260,16 @@ export class BooksComponent implements OnInit {
           displayedUserId.toLowerCase() !== connectedUserId.toLowerCase()
       );
 
-      const [books, readlist, baseBooks] = await Promise.all([
+      const [books, readlist] = await Promise.all([
         getAllBooks(displayedUserId),
         getAllReadlistBooks(displayedUserId),
-        getAllBaseBooks(),
       ]);
       this.booksList.set(books);
       this.readlistBooksList.set(readlist);
-      this.baseBooksList.set(baseBooks.map(getFullBook));
+
+      if (this.viewNeedsBaseCatalog(this.selectedView())) {
+        await this.ensureBaseBooksLoaded();
+      }
 
       if (isViewingOther && connectedUserId) {
         const [connectedBooks, connectedReadlist] = await Promise.all([
@@ -700,9 +702,27 @@ export class BooksComponent implements OnInit {
     if (view === 'readlist' || view === 'readingInProgress') {
       this.selectedSort.set('readPriority');
     }
+    if (this.viewNeedsBaseCatalog(view)) {
+      void this.ensureBaseBooksLoaded();
+    }
     if (view === 'recommendations') {
       void this.loadRecommendations();
     }
+  }
+
+  private viewNeedsBaseCatalog(view: BookView): boolean {
+    return (
+      view === 'authors' ||
+      view === 'sagas' ||
+      view === 'countries' ||
+      view === 'recommendations'
+    );
+  }
+
+  private async ensureBaseBooksLoaded(): Promise<void> {
+    if (this.baseBooksList().length > 0) return;
+    const baseBooks = await getAllBaseBooks();
+    this.baseBooksList.set(baseBooks.map(getFullBook));
   }
 
   onSearchChange(value: string) {
@@ -871,10 +891,7 @@ export class BooksComponent implements OnInit {
         return;
       }
 
-      // S'assurer que baseBooksList est chargé
-      if (this.baseBooksList().length === 0) {
-        await this.refreshBooks();
-      }
+      await this.ensureBaseBooksLoaded();
 
       const othersRated = await getOtherUsersBooksRated(userId, 4, followedIds);
 

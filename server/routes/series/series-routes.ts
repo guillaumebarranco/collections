@@ -3,6 +3,7 @@ const getSerieWatchersRouter = require('./get-serie-watchers');
 const getSeriesRouter = require('./get-series');
 const getWatchlistRouter = require('./get-watchlist');
 const getEntitiesRouter = require('./get-entities');
+const getMergedRouter = require('./get-merged');
 const saveSerieRouter = require('./save-serie');
 const batchRatingRouter = require('./batch-rating');
 const batchTimesWatchedRouter = require('./batch-times-watched');
@@ -17,6 +18,7 @@ const router = express.Router();
 
 router.use(getSerieWatchersRouter);
 router.use(getEntitiesRouter);
+router.use(getMergedRouter);
 router.use(getWatchlistRouter);
 router.use(moveSerieFromWatchlistRouter);
 router.use(othersRatedRouter);

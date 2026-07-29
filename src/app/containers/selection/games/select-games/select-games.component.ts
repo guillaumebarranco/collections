@@ -3,9 +3,9 @@ import { CommonModule } from '@angular/common';
 import { MenuComponent } from '../../../../components/menu/menu.component';
 import { Game } from '../../../../models/game-model';
 import {
-  getAllBaseGames,
-  getCurrentGamelistGamesByUser,
-  getGamesByUser,
+  getAllBaseGamesLight,
+  getUserGamesRaw,
+  getGamelistGamesRaw,
 } from '../../../../facades/games/games.facade';
 import { SelectEntitiesComponent } from '../../select-base.component';
 import { MatDialog, MatDialogModule } from '@angular/material/dialog';
@@ -101,7 +101,7 @@ export class SelectGamesComponent
   }
 
   private getGameKey(game: Game): string {
-    return `${game.title}-${game.releaseDate}`;
+    return `${game.title}-${game.editor}`;
   }
 
   toggleSelection(game: Game): void {
@@ -127,7 +127,7 @@ export class SelectGamesComponent
 
   openAddGameDialog(): void {
     const dialogRef = this.dialog.open(AddGameComponent, {
-      data: { userId: this.userId() },
+      data: { userId: this.userId(), listMode: this.listModeFlag() },
       width: '760px',
       maxWidth: '95vw',
     });
@@ -141,18 +141,18 @@ export class SelectGamesComponent
 
   async ngOnInit() {
     const userId = this.userId();
-    const [games, gamelist] = await Promise.all([
-      getGamesByUser(userId),
-      getCurrentGamelistGamesByUser(userId),
+    const [games, gamelist, allGames] = await Promise.all([
+      getUserGamesRaw(userId),
+      getGamelistGamesRaw(userId),
+      this.getAllGamesForSelection(userId),
     ]);
-    const allGames = await this.getAllGamesForSelection(userId);
-    this.userGames.set(games);
-    this.gamelistGames.set(gamelist);
+    this.userGames.set(games as Game[]);
+    this.gamelistGames.set(gamelist as Game[]);
     this.allGamesMergedList.set(allGames);
   }
 
   private async getAllGamesForSelection(_userId: string): Promise<Game[]> {
-    return (await getAllBaseGames()).map(getEmptyGame);
+    return (await getAllBaseGamesLight()).map(getEmptyGame);
   }
 
   protected async addSelectedGames(): Promise<void> {

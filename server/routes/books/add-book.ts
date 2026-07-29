@@ -57,7 +57,7 @@ function formatUserBook(user: any): string {
   },`;
 }
 
-function getUserBooksTargetFile(userId: string) {
+function getUserBooksTargetFile(userId: string, isReadlist: boolean) {
   const userDir = path.join(
     __dirname,
     '..',
@@ -76,15 +76,15 @@ function getUserBooksTargetFile(userId: string) {
 
   const files = fs
     .readdirSync(userDir)
-    .filter(
-      (file: string) =>
-        file.endsWith('.ts') &&
-        file !== 'index.ts' &&
-        !file.includes('readlist')
+    .filter((file: string) => file.endsWith('.ts') && file !== 'index.ts')
+    .filter((file: string) =>
+      isReadlist ? file.includes('readlist') : !file.includes('readlist')
     );
 
   const preferred = files.find((file: string) =>
-    file.includes(`${userId}_books`)
+    isReadlist
+      ? file.includes(`${userId}_readlist_books`)
+      : file.includes(`${userId}_books`)
   );
   const selected = preferred || files.sort()[0];
   if (!selected) {
@@ -105,6 +105,7 @@ router.post('/add', (req: any, res: any) => {
 
     const entity = input.entity || {};
     const user = input.user || {};
+    const isReadlist = normalizeBoolean(input.readlist, 'readlist') ?? false;
 
     const title = normalizeString(entity.title, 'title');
     const author = normalizeString(entity.author, 'author');
@@ -140,7 +141,9 @@ router.post('/add', (req: any, res: any) => {
       title,
       author,
       rating: normalizeNumber(user.rating, 'rating') ?? 0,
-      readTimes: normalizeNumber(user.readTimes, 'readTimes') ?? 1,
+      readTimes: isReadlist
+        ? 0
+        : normalizeNumber(user.readTimes, 'readTimes') ?? 1,
       firstReadDate: normalizeString(user.firstReadDate, 'firstReadDate') || '',
       lastReadDate: normalizeString(user.lastReadDate, 'lastReadDate') || '',
       owned: normalizeBoolean(user.owned, 'owned') ?? false,
@@ -165,7 +168,7 @@ router.post('/add', (req: any, res: any) => {
     fs.writeFileSync(BASE_BOOKS_API_FILE, baseBookContent, 'utf8');
 
     if (userId !== 'admin') {
-      const userBooksFile = getUserBooksTargetFile(userId);
+      const userBooksFile = getUserBooksTargetFile(userId, isReadlist);
       const userBookContent = appendObjectToArrayFile(
         userBooksFile,
         formatUserBook(userPayload)

@@ -1,12 +1,12 @@
 import { Component, signal, computed, inject, OnInit } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { MenuComponent } from '../../../../components/menu/menu.component';
-import { BaseChildrenBook, ChildrenBook } from '../../../../models/children-book-model';
+import { ChildrenBook } from '../../../../models/children-book-model';
+import type { LightBook } from '../../../../models/entity-light.model';
 import {
-  getAllChildrenBooksMerged,
-  getChildrenBooksByUser,
-  getCurrentReadlistChildrenBooksByUser,
-  getAllBaseChildrenBooks,
+  getAllBaseChildrenBooksLight,
+  getUserChildrenBooksRaw,
+  getReadlistChildrenBooksRaw,
 } from '../../../../facades/children-books/children-books.facade';
 import { SelectEntitiesComponent } from '../../select-base.component';
 import { MatDialog, MatDialogModule } from '@angular/material/dialog';
@@ -35,7 +35,7 @@ export class SelectChildrenBooksComponent
 {
   private readonly dialog = inject(MatDialog);
 
-  baseChildrenBooks = signal<BaseChildrenBook[]>([]);
+  baseChildrenBooks = signal<LightBook[]>([]);
   userChildrenBooks = signal<ChildrenBook[]>([]);
   readlistChildrenBooks = signal<ChildrenBook[]>([]);
   allChildrenBooksMergedList = signal<ChildrenBook[]>([]);
@@ -98,15 +98,15 @@ export class SelectChildrenBooksComponent
   async ngOnInit() {
     const userId = this.userId();
     const [baseChildrenBooks, childrenBooks, readlist] = await Promise.all([
-      getAllBaseChildrenBooks(),
-      getChildrenBooksByUser(userId),
-      getCurrentReadlistChildrenBooksByUser(userId),
+      getAllBaseChildrenBooksLight(),
+      getUserChildrenBooksRaw(userId),
+      getReadlistChildrenBooksRaw(userId),
     ]);
 
     this.baseChildrenBooks.set(baseChildrenBooks);
     const allChildrenBooks = await this.getAllChildrenBooksForSelection(userId);
-    this.userChildrenBooks.set(childrenBooks);
-    this.readlistChildrenBooks.set(readlist);
+    this.userChildrenBooks.set(childrenBooks as ChildrenBook[]);
+    this.readlistChildrenBooks.set(readlist as ChildrenBook[]);
     this.allChildrenBooksMergedList.set(allChildrenBooks);
   }
 
@@ -141,7 +141,7 @@ export class SelectChildrenBooksComponent
 
   openAddChildrenBookDialog(): void {
     const dialogRef = this.dialog.open(AddChildrenBookComponent, {
-      data: { userId: this.userId() },
+      data: { userId: this.userId(), listMode: this.listModeFlag() },
       width: '760px',
       maxWidth: '95vw',
     });
@@ -154,7 +154,7 @@ export class SelectChildrenBooksComponent
   }
 
   private async getAllChildrenBooksForSelection(_userId: string): Promise<ChildrenBook[]> {
-    return (await getAllBaseChildrenBooks()).map(getEmptyChildrenBook);
+    return (await getAllBaseChildrenBooksLight()).map(getEmptyChildrenBook);
   }
 
   protected async addSelectedChildrenBooks(): Promise<void> {

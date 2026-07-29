@@ -4,17 +4,30 @@ const {
   getBaseComicsFiles,
   parseBaseComicsFullFromFile,
 } = require('../../utils/comics/comics-utils');
-
-import type { BaseComic } from '../../../src/app/models/comic-model';
+const { toLightComic } = require('../../utils/entity-light-mappers');
 
 const router = express.Router();
 
 router.get('/entities', (_req: any, res: any) => {
   try {
     const baseFiles = getBaseComicsFiles();
-    const comics: BaseComic[] = baseFiles.flatMap((filePath: string) => {
+    const comics = baseFiles.flatMap((filePath: string) => {
       const content = fs.readFileSync(filePath, 'utf8');
       return parseBaseComicsFullFromFile(content);
+    });
+
+    res.json(comics);
+  } catch (error: any) {
+    res.status(500).json({ error: error.message || 'Unknown error' });
+  }
+});
+
+router.get('/entities/light', (_req: any, res: any) => {
+  try {
+    const baseFiles = getBaseComicsFiles();
+    const comics = baseFiles.flatMap((filePath: string) => {
+      const content = fs.readFileSync(filePath, 'utf8');
+      return parseBaseComicsFullFromFile(content).map(toLightComic);
     });
 
     res.json(comics);

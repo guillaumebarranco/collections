@@ -28,6 +28,28 @@
   flex: 1 1 auto;
 }
 
+.dashboard-pending-requests {
+  margin-top: 20px;
+  padding: 14px 18px;
+  border-radius: 12px;
+  background: #fff7ed;
+  border: 1px solid #fed7aa;
+}
+
+.dashboard-pending-requests__content {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+}
+
+.dashboard-pending-requests__text {
+  margin: 0;
+  color: #9a3412;
+  font-weight: 600;
+}
+
 .dashboard-character {
   display: flex;
   justify-content: center;

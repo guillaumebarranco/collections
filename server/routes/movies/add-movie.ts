@@ -79,8 +79,8 @@ function formatUserMovie(user: any): string {
   },\n    borrowed: "${escapeString(user.borrowed ?? '')}",\n    loaned: "${escapeString(user.loaned ?? '')}",\n  },`;
 }
 
-function getUserMoviesTargetFile(userId: string) {
-  const userFile = path.join(
+function getUserMoviesTargetFile(userId: string, isWatchlist: boolean) {
+  const userDir = path.join(
     __dirname,
     '..',
     '..',
@@ -90,13 +90,30 @@ function getUserMoviesTargetFile(userId: string) {
     'utils',
     'users',
     userId,
-    'movies',
-    `${userId}_movies.ts`
+    'movies'
   );
-  if (!fs.existsSync(userFile)) {
+  if (!fs.existsSync(userDir)) {
+    throw new Error(`User movies directory not found: ${userId}`);
+  }
+
+  const files = fs
+    .readdirSync(userDir)
+    .filter((file: string) => file.endsWith('.ts') && file !== 'index.ts')
+    .filter((file: string) =>
+      isWatchlist ? file.includes('watchlist') : !file.includes('watchlist')
+    );
+
+  const preferred = files.find((file: string) =>
+    isWatchlist
+      ? file.includes(`${userId}_watchlist_movies`)
+      : file.includes(`${userId}_movies`)
+  );
+  const selected = preferred || files.sort()[0];
+  if (!selected) {
     throw new Error(`User movies file not found: ${userId}`);
   }
-  return userFile;
+
+  return path.join(userDir, selected);
 }
 
 router.post('/add', (req: any, res: any) => {
@@ -110,6 +127,7 @@ router.post('/add', (req: any, res: any) => {
 
     const entity = input.entity || {};
     const user = input.user || {};
+    const isWatchlist = normalizeBoolean(input.watchlist, 'watchlist') ?? false;
 
     const title = normalizeString(entity.title, 'title');
     const director = normalizeString(entity.director, 'director');
@@ -145,7 +163,9 @@ router.post('/add', (req: any, res: any) => {
       title,
       director,
       rating: normalizeNumber(user.rating, 'rating') ?? 0,
-      timesWatched: normalizeNumber(user.timesWatched, 'timesWatched') ?? 0,
+      timesWatched: isWatchlist
+        ? 0
+        : normalizeNumber(user.timesWatched, 'timesWatched') ?? 0,
       firstViewedDate:
         normalizeString(user.firstViewedDate, 'firstViewedDate') || '',
       lastViewedDate:
@@ -176,7 +196,7 @@ router.post('/add', (req: any, res: any) => {
     fs.writeFileSync(BASE_MOVIES_API_FILE, baseMovieContent, 'utf8');
 
     if (userId !== 'admin') {
-      const userMoviesFile = getUserMoviesTargetFile(userId);
+      const userMoviesFile = getUserMoviesTargetFile(userId, isWatchlist);
       const userMovieContent = appendObjectToArrayFile(
         userMoviesFile,
         formatUserMovie(userPayload)

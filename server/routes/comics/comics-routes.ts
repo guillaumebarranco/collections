@@ -3,6 +3,7 @@ const getComicWatchersRouter = require('./get-comic-watchers');
 const getComicsRouter = require('./get-comics');
 const getReadlistRouter = require('./get-readlist');
 const getEntitiesRouter = require('./get-entities');
+const getMergedRouter = require('./get-merged');
 const saveComicRouter = require('./save-comic');
 const batchRatingRouter = require('./batch-rating');
 const batchTimesReadRouter = require('./batch-times-read');
@@ -17,6 +18,7 @@ const router = express.Router();
 
 router.use(getComicWatchersRouter);
 router.use(getEntitiesRouter);
+router.use(getMergedRouter);
 router.use(getReadlistRouter);
 router.use(othersRatedRouter);
 router.use(getComicsRouter);

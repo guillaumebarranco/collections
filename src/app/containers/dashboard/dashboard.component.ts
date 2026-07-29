@@ -26,6 +26,7 @@ import { LoginComponent } from '../../components/login/login.component';
 
 import { ActivatedRoute, Params, Router, RouterModule } from '@angular/router';
 import { DEFAULT_USER_ID } from '../../utils/constants';
+import { getEntityAddRequests } from '../../facades/entity-add-requests/entity-add-requests.facade';
 import { Book } from '../../models/book-model';
 import { Movie } from '../../models/movie-model';
 import { Music } from '../../models/music-model';
@@ -119,6 +120,8 @@ import { OfflineModeService } from '../../services/offline-mode.service';
 import { isOfflineModeBlockingOtherUsers } from '../../core/offline/offline-mode.utils';
 import { OfflineRestrictedMessageComponent } from '../../components/shared/offline-restricted-message/offline-restricted-message.component';
 import { LoaderComponent } from '../../components/shared/loader/loader.component';
+import { getDashboardOverview } from '../../facades/dashboard/dashboard.facade';
+import type { DashboardOverview } from '../../models/dashboard-overview.model';
 
 interface TopBook extends Book {
   formattedReadingTime: string;
@@ -186,6 +189,8 @@ export class DashboardComponent implements OnInit {
 
   filledUserId = signal<string>('');
   isLoadingDashboardData = signal(false);
+  /** Collections GET classiques chargées (activité / top5 / badges). */
+  private fullCollectionsLoaded = signal(false);
   private dashboardLoadGeneration = 0;
   selectedTab = signal<
     'overview' | 'entities' | 'monthlyActivity' | 'top5' | 'badges'
@@ -220,6 +225,15 @@ export class DashboardComponent implements OnInit {
     return Boolean(uid && auth && uid.toLowerCase() === auth.toLowerCase());
   });
 
+  /**
+   * Encart demandes d'ajout : uniquement sur le dashboard utilisateur de Guillaume.
+   */
+  showPendingEntityAddRequestsBanner = computed<boolean>(() => {
+    const uid = this.userId()?.toLowerCase();
+    return uid === DEFAULT_USER_ID && this.isOwnUserDashboard();
+  });
+
+  readonly pendingEntityAddRequestsCount = signal(0);
   tabOptions: ViewToggleOption[] = [
     { value: 'overview', label: "Vue d'ensemble" },
     { value: 'monthlyActivity', label: 'Mon activité' },
@@ -949,6 +963,16 @@ export class DashboardComponent implements OnInit {
     tab: 'overview' | 'entities' | 'monthlyActivity' | 'top5' | 'badges'
   ): void {
     this.selectedTab.set(tab);
+    if (this.tabNeedsFullCollections(tab)) {
+      void this.ensureFullDashboardData();
+    }
+  }
+
+  private tabNeedsFullCollections(
+    tab: 'overview' | 'entities' | 'monthlyActivity' | 'top5' | 'badges'
+  ): boolean {
+    // « Statistiques par entité » charge ses GET full en autonomie.
+    return tab === 'monthlyActivity' || tab === 'top5' || tab === 'badges';
   }
 
   onTop5SubTabChange(tab: 'personal' | 'stats' | string): void {
@@ -1006,9 +1030,17 @@ export class DashboardComponent implements OnInit {
           void this.followsService.loadFromApi(uid);
           void this.feedService.loadFromApi(uid);
         }
+        if (uid.toLowerCase() === DEFAULT_USER_ID) {
+          void this.loadPendingEntityAddRequestsCount(uid);
+        } else {
+          this.pendingEntityAddRequestsCount.set(0);
+        }
+      } else {
+        this.pendingEntityAddRequestsCount.set(0);
       }
       this.isLoadingDashboardData.set(true);
-      void this.loadAllDashboardData();
+      this.fullCollectionsLoaded.set(false);
+      void this.loadDashboardForUser();
     });
 
     effect(() => {
@@ -1025,39 +1057,141 @@ export class DashboardComponent implements OnInit {
     this.topFiveService.loadFromStorage();
     this.badgesService.loadFromStorage();
     this.profileBadgeService.loadFromStorage();
+  }
+
+  /**
+   * Chargement initial : API overview light (peu de volume).
+   * Fallback GET classiques (offline / erreur API).
+   */
+  private async loadDashboardForUser(): Promise<void> {
+    const generation = ++this.dashboardLoadGeneration;
+    this.isLoadingDashboardData.set(true);
+    this.fullCollectionsLoaded.set(false);
+
+    try {
+      const userId = this.userId() || DEFAULT_USER_ID;
+      const overview = await getDashboardOverview(userId);
+      if (generation !== this.dashboardLoadGeneration) {
+        return;
+      }
+
+      if (overview) {
+        this.applyOverviewData(userId, overview);
+        if (this.tabNeedsFullCollections(this.selectedTab())) {
+          await this.loadAllDashboardCollections();
+          if (generation === this.dashboardLoadGeneration) {
+            this.fullCollectionsLoaded.set(true);
+            void this.loadBaseMoviesCatalog();
+          }
+        }
+      } else {
+        await this.loadAllDashboardCollections();
+        if (generation === this.dashboardLoadGeneration) {
+          this.fullCollectionsLoaded.set(true);
+          void this.loadBaseMoviesCatalog();
+        }
+      }
+    } finally {
+      if (generation === this.dashboardLoadGeneration) {
+        this.isLoadingDashboardData.set(false);
+      }
+    }
+  }
+
+  /** Charge les GET classiques pour activité mensuelle / top5 / badges. */
+  private async ensureFullDashboardData(): Promise<void> {
+    if (this.fullCollectionsLoaded()) {
+      return;
+    }
+    const generation = this.dashboardLoadGeneration;
+    // Pas de loader plein écran : la vue d'ensemble reste affichée pendant le fetch.
+    await this.loadAllDashboardCollections();
+    if (generation === this.dashboardLoadGeneration) {
+      this.fullCollectionsLoaded.set(true);
+      void this.loadBaseMoviesCatalog();
+    }
+  }
+
+  private loadBaseMoviesCatalog(): void {
     void getAllBaseMovies().then((movies) =>
       this.baseMoviesCatalog.set(movies)
     );
   }
 
-  private async loadAllDashboardData(): Promise<void> {
-    const generation = ++this.dashboardLoadGeneration;
-    this.isLoadingDashboardData.set(true);
+  private stubListCount<T extends object>(count: number): T[] {
+    return Array.from({ length: Math.max(0, count || 0) }, () => ({}) as T);
+  }
 
+  /** Les payloads overview sont partiels ; suffisants pour la vue d'ensemble. */
+  private asEntityList<T>(items: unknown): T[] {
+    return items as T[];
+  }
+
+  private applyOverviewData(userId: string, overview: DashboardOverview): void {
+    this.moviesList.set({ [userId]: this.asEntityList<Movie>(overview.movies) });
+    this.booksList.set({ [userId]: this.asEntityList<Book>(overview.books) });
+    this.seriesList.set({ [userId]: this.asEntityList<Serie>(overview.series) });
+    this.gamesList.set({ [userId]: this.asEntityList<Game>(overview.games) });
+    this.mangasList.set({ [userId]: this.asEntityList<Manga>(overview.mangas) });
+    this.manwhasList.set({
+      [userId]: this.asEntityList<Manwha>(overview.manwhas),
+    });
+    this.comicsList.set({ [userId]: this.asEntityList<Comic>(overview.comics) });
+    this.bdsList.set({ [userId]: this.asEntityList<Bd>(overview.bds) });
+    this.musicsList.set({ [userId]: this.asEntityList<Music>(overview.musics) });
+    this.childrenBooksList.set({ [userId]: [] });
+
+    this.watchlistMoviesList.set({
+      [userId]: this.stubListCount<Movie>(overview.watchlistMoviesCount),
+    });
+    this.watchlistSeriesList.set({
+      [userId]: this.stubListCount<Serie>(overview.watchlistSeriesCount),
+    });
+    this.readlistBooksList.set({
+      [userId]: this.stubListCount<Book>(overview.readlistBooksCount),
+    });
+    this.readlistMangasList.set({
+      [userId]: this.stubListCount<Manga>(overview.readlistMangasCount),
+    });
+    this.readlistComicsList.set({
+      [userId]: this.stubListCount<Comic>(overview.readlistComicsCount),
+    });
+    this.readlistBdsList.set({
+      [userId]: this.stubListCount<Bd>(overview.readlistBdsCount),
+    });
+    this.readlistManwhasList.set({
+      [userId]: this.stubListCount<Manwha>(overview.readlistManwhasCount),
+    });
+  }
+
+  private async loadAllDashboardCollections(): Promise<void> {
+    await Promise.all([
+      this.loadMoviesData(),
+      this.loadWatchlistMoviesData(),
+      this.loadBooksData(),
+      this.loadChildrenBooksData(),
+      this.loadReadlistBooksData(),
+      this.loadMangasData(),
+      this.loadReadlistMangasData(),
+      this.loadComicsData(),
+      this.loadReadlistComicsData(),
+      this.loadBdsData(),
+      this.loadReadlistBdsData(),
+      this.loadManwhasData(),
+      this.loadReadlistManwhasData(),
+      this.loadSeriesData(),
+      this.loadWatchlistSeriesData(),
+      this.loadGamesData(),
+      this.loadMusicsData(),
+    ]);
+  }
+
+  private async loadPendingEntityAddRequestsCount(adminUserId: string): Promise<void> {
     try {
-      await Promise.all([
-        this.loadMoviesData(),
-        this.loadWatchlistMoviesData(),
-        this.loadBooksData(),
-        this.loadChildrenBooksData(),
-        this.loadReadlistBooksData(),
-        this.loadMangasData(),
-        this.loadReadlistMangasData(),
-        this.loadComicsData(),
-        this.loadReadlistComicsData(),
-        this.loadBdsData(),
-        this.loadReadlistBdsData(),
-        this.loadManwhasData(),
-        this.loadReadlistManwhasData(),
-        this.loadSeriesData(),
-        this.loadWatchlistSeriesData(),
-        this.loadGamesData(),
-        this.loadMusicsData(),
-      ]);
-    } finally {
-      if (generation === this.dashboardLoadGeneration) {
-        this.isLoadingDashboardData.set(false);
-      }
+      const requests = await getEntityAddRequests(adminUserId);
+      this.pendingEntityAddRequestsCount.set(requests.length);
+    } catch {
+      this.pendingEntityAddRequestsCount.set(0);
     }
   }
 

@@ -1,12 +1,12 @@
 import { Component, signal, computed, inject, OnInit } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { MenuComponent } from '../../../../components/menu/menu.component';
-import { BaseBook, Book } from '../../../../models/book-model';
+import { Book } from '../../../../models/book-model';
+import type { LightBook } from '../../../../models/entity-light.model';
 import {
-  getAllBooksMerged,
-  getBooksByUser,
-  getCurrentReadlistBooksByUser,
-  getAllBaseBooks,
+  getAllBaseBooksLight,
+  getUserBooksRaw,
+  getReadlistBooksRaw,
 } from '../../../../facades/books/books.facade';
 import { SelectEntitiesComponent } from '../../select-base.component';
 import { MatDialog, MatDialogModule } from '@angular/material/dialog';
@@ -35,7 +35,7 @@ export class SelectBooksComponent
 {
   private readonly dialog = inject(MatDialog);
 
-  baseBooks = signal<BaseBook[]>([]);
+  baseBooks = signal<LightBook[]>([]);
   userBooks = signal<Book[]>([]);
   readlistBooks = signal<Book[]>([]);
   allBooksMergedList = signal<Book[]>([]);
@@ -98,15 +98,15 @@ export class SelectBooksComponent
   async ngOnInit() {
     const userId = this.userId();
     const [baseBooks, books, readlist] = await Promise.all([
-      getAllBaseBooks(),
-      getBooksByUser(userId),
-      getCurrentReadlistBooksByUser(userId),
+      getAllBaseBooksLight(),
+      getUserBooksRaw(userId),
+      getReadlistBooksRaw(userId),
     ]);
 
     this.baseBooks.set(baseBooks);
     const allBooks = await this.getAllBooksForSelection(userId);
-    this.userBooks.set(books);
-    this.readlistBooks.set(readlist);
+    this.userBooks.set(books as Book[]);
+    this.readlistBooks.set(readlist as Book[]);
     this.allBooksMergedList.set(allBooks);
   }
 
@@ -141,7 +141,7 @@ export class SelectBooksComponent
 
   openAddBookDialog(): void {
     const dialogRef = this.dialog.open(AddBookComponent, {
-      data: { userId: this.userId() },
+      data: { userId: this.userId(), listMode: this.listModeFlag() },
       width: '760px',
       maxWidth: '95vw',
     });
@@ -154,7 +154,7 @@ export class SelectBooksComponent
   }
 
   private async getAllBooksForSelection(_userId: string): Promise<Book[]> {
-    return (await getAllBaseBooks()).map(getEmptyBook);
+    return (await getAllBaseBooksLight()).map(getEmptyBook);
   }
 
   protected async addSelectedBooks(): Promise<void> {

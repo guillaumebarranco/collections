@@ -3,9 +3,10 @@ import { CommonModule } from '@angular/common';
 import { MenuComponent } from '../../../../components/menu/menu.component';
 import { Movie } from '../../../../models/movie-model';
 import {
-  getAllBaseMovies,
-  getCurrentWatchlistMoviesByUser,
+  getAllBaseMoviesLight,
   getMoviesByUser,
+  getUserMoviesRaw,
+  getWatchlistMoviesRaw,
 } from '../../../../facades/movies/movies.facade';
 import { SelectEntitiesComponent } from '../../select-base.component';
 import { MatDialog, MatDialogModule } from '@angular/material/dialog';
@@ -98,7 +99,7 @@ export class SelectMoviesComponent
   }
 
   private getMovieKey(movie: Movie): string {
-    return `${movie.title}-${movie.releaseDate}`;
+    return `${movie.title}-${movie.director}`;
   }
 
   toggleSelection(movie: Movie): void {
@@ -124,7 +125,7 @@ export class SelectMoviesComponent
 
   openAddMovieDialog(): void {
     const dialogRef = this.dialog.open(AddMovieComponent, {
-      data: { userId: this.userId() },
+      data: { userId: this.userId(), listMode: this.listModeFlag() },
       width: '760px',
       maxWidth: '95vw',
     });
@@ -138,26 +139,32 @@ export class SelectMoviesComponent
 
   async ngOnInit() {
     const userId = this.userId();
-    const [movies, watchlist] = await Promise.all([
-      getMoviesByUser(userId),
-      getCurrentWatchlistMoviesByUser(userId),
-    ]);
-    const allMovies = await this.getAllMoviesForSelection(userId);
-    this.userMovies.set(movies);
-    this.watchlistMovies.set(watchlist);
-    this.allMoviesMergedList.set(allMovies);
     if (this.isCinemaMode()) {
+      const movies = await getMoviesByUser(userId);
+      this.userMovies.set(movies);
+      const allMovies = await this.getAllMoviesForSelection(userId);
+      this.allMoviesMergedList.set(allMovies);
       const selected = new Set(
         movies
           .filter((movie) => movie.seenAtCinema === true)
           .map((movie) => this.getMovieKey(movie))
       );
       this.selectedMovies.set(selected);
+      return;
     }
+
+    const [movies, watchlist, allMovies] = await Promise.all([
+      getUserMoviesRaw(userId),
+      getWatchlistMoviesRaw(userId),
+      this.getAllMoviesForSelection(userId),
+    ]);
+    this.userMovies.set(movies as Movie[]);
+    this.watchlistMovies.set(watchlist as Movie[]);
+    this.allMoviesMergedList.set(allMovies);
   }
 
   private async getAllMoviesForSelection(userId: string): Promise<Movie[]> {
-    const baseMovies = await getAllBaseMovies();
+    const baseMovies = await getAllBaseMoviesLight();
     return baseMovies.map(getEmptyMovie);
   }
 

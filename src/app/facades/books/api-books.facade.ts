@@ -27,10 +27,49 @@ export async function fetchReadlistBooksFromApi(
   return Array.isArray(data) ? data : data.books || [];
 }
 
+/** Collection user déjà fusionnée (sans télécharger /entities côté client). */
+export async function fetchMergedUserBooksFromApi(
+  userId: string
+): Promise<import('../../models/book-model').Book[]> {
+  const response = await fetch(
+    `${getApiBaseUrl()}/books/${encodeURIComponent(userId)}/merged`
+  );
+  if (!response.ok) {
+    throw new Error('Books merged API error');
+  }
+  const data = await response.json();
+  return Array.isArray(data) ? data : [];
+}
+
+export async function fetchMergedReadlistBooksFromApi(
+  userId: string
+): Promise<import('../../models/book-model').Book[]> {
+  const response = await fetch(
+    `${getApiBaseUrl()}/books/readlist/${encodeURIComponent(userId)}/merged`
+  );
+  if (!response.ok) {
+    throw new Error('Books readlist merged API error');
+  }
+  const data = await response.json();
+  return Array.isArray(data) ? data : [];
+}
+
 export async function fetchBaseBooksFromApi(): Promise<BaseBook[]> {
   const response = await fetch(`${getApiBaseUrl()}/books/entities`);
   if (!response.ok) {
     throw new Error('Books entities API error');
+  }
+  const data = await response.json();
+  return Array.isArray(data) ? data : data.books || [];
+}
+
+/** Catalogue allégé pour les pages select. */
+export async function fetchBaseBooksLightFromApi(): Promise<
+  import('../../models/entity-light.model').LightBook[]
+> {
+  const response = await fetch(`${getApiBaseUrl()}/books/entities/light`);
+  if (!response.ok) {
+    throw new Error('Books entities light API error');
   }
   const data = await response.json();
   return Array.isArray(data) ? data : data.books || [];

@@ -4,17 +4,30 @@ const {
   getBaseMangasFiles,
   parseBaseMangasFullFromFile,
 } = require('../../utils/mangas/mangas-utils');
-
-import type { BaseManga } from '../../../src/app/models/manga-model';
+const { toLightManga } = require('../../utils/entity-light-mappers');
 
 const router = express.Router();
 
 router.get('/entities', (_req: any, res: any) => {
   try {
     const baseFiles = getBaseMangasFiles();
-    const mangas: BaseManga[] = baseFiles.flatMap((filePath: string) => {
+    const mangas = baseFiles.flatMap((filePath: string) => {
       const content = fs.readFileSync(filePath, 'utf8');
       return parseBaseMangasFullFromFile(content);
+    });
+
+    res.json(mangas);
+  } catch (error: any) {
+    res.status(500).json({ error: error.message || 'Unknown error' });
+  }
+});
+
+router.get('/entities/light', (_req: any, res: any) => {
+  try {
+    const baseFiles = getBaseMangasFiles();
+    const mangas = baseFiles.flatMap((filePath: string) => {
+      const content = fs.readFileSync(filePath, 'utf8');
+      return parseBaseMangasFullFromFile(content).map(toLightManga);
     });
 
     res.json(mangas);

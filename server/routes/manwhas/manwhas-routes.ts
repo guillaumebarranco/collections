@@ -3,6 +3,7 @@ const getManwhaWatchersRouter = require('./get-manwha-watchers');
 const getManwhasRouter = require('./get-manwhas');
 const getReadlistRouter = require('./get-readlist');
 const getEntitiesRouter = require('./get-entities');
+const getMergedRouter = require('./get-merged');
 const saveManwhaRouter = require('./save-manwha');
 const batchRatingRouter = require('./batch-rating');
 const batchTimesReadRouter = require('./batch-times-read');
@@ -17,6 +18,7 @@ const router = express.Router();
 
 router.use(getManwhaWatchersRouter);
 router.use(getEntitiesRouter);
+router.use(getMergedRouter);
 router.use(getReadlistRouter);
 router.use(othersRatedRouter);
 router.use(getManwhasRouter);

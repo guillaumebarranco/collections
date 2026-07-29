@@ -41,6 +41,24 @@
     </div>
   </div>
 
+  @if (showPendingEntityAddRequestsBanner()) {
+  <div class="dashboard-pending-requests" role="status">
+    <div class="dashboard-pending-requests__content">
+      <p class="dashboard-pending-requests__text">
+        @if (pendingEntityAddRequestsCount() === 0) {
+        Aucune œuvre en attente d'ajout de la part des utilisateurs.
+        } @else if (pendingEntityAddRequestsCount() === 1) {
+        1 œuvre en attente d'ajout de la part des utilisateurs.
+        } @else {
+        {{ pendingEntityAddRequestsCount() }} œuvres en attente d'ajout de la
+        part des utilisateurs.
+        }
+      </p>
+      <a routerLink="/admin" class="makya-btn-small">Voir dans l'admin</a>
+    </div>
+  </div>
+  }
+
   <app-view-toggle
     [toggleClass]="'dashboard-tabs'"
     [options]="tabOptions"

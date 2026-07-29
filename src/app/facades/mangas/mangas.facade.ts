@@ -1,7 +1,11 @@
 import { Manga, BaseManga, UserManga } from '../../models/manga-model';
+import type { LightManga } from '../../models/entity-light.model';
 
 import {
   fetchBaseMangasFromApi,
+  fetchBaseMangasLightFromApi,
+  fetchMergedUserMangasFromApi,
+  fetchMergedReadlistMangasFromApi,
   fetchUserMangasFromApi,
   fetchReadlistMangasFromApi,
   fetchOtherUsersMangasRatedFromApi,
@@ -16,6 +20,9 @@ import {
 import { isOfflineModeBlockingOtherUsers } from '../../core/offline/offline-mode.utils';
 
 const fetchBaseMangasCached = createCachedFetcher(fetchBaseMangasFromApi);
+const fetchBaseMangasLightCached = createCachedFetcher(
+  fetchBaseMangasLightFromApi
+);
 
 async function getAllMangasData(mangas: UserManga[]): Promise<Manga[]> {
   const baseMangas = await getAllBaseMangas();
@@ -39,6 +46,24 @@ async function getAllMangasData(mangas: UserManga[]): Promise<Manga[]> {
   });
 }
 
+async function getMergedUserMangas(userId: string): Promise<Manga[]> {
+  try {
+    return await fetchMergedUserMangasFromApi(userId);
+  } catch {
+    const userMangas = await fetchUserMangasFromApi(userId);
+    return getAllMangasData(userMangas);
+  }
+}
+
+async function getMergedReadlistMangas(userId: string): Promise<Manga[]> {
+  try {
+    return await fetchMergedReadlistMangasFromApi(userId);
+  } catch {
+    const readlist = await fetchReadlistMangasFromApi(userId);
+    return getAllMangasData(readlist);
+  }
+}
+
 export async function getAllMangas(
   currentUserId = 'guillaume'
 ): Promise<{ [key: string]: Manga[] }> {
@@ -53,9 +78,8 @@ export async function getAllMangas(
   }
 
   try {
-    const userMangas = await fetchUserMangasFromApi(currentUserId);
     return {
-      [currentUserId]: await getAllMangasData(userMangas),
+      [currentUserId]: await getMergedUserMangas(currentUserId),
     };
   } catch {
     return {
@@ -75,6 +99,24 @@ export async function getAllBaseMangas(): Promise<BaseManga[]> {
   }
 }
 
+/** Catalogue allégé pour les pages select. */
+export async function getAllBaseMangasLight(): Promise<LightManga[]> {
+  const offline = getActiveOfflineCache();
+  if (offline) {
+    return offline.mangas.base.map((m) => ({
+      title: m.title,
+      author: m.author,
+      coverUrl: m.coverUrl ?? '',
+    }));
+  }
+
+  try {
+    return await fetchBaseMangasLightCached();
+  } catch {
+    return [];
+  }
+}
+
 export async function getAllReadlistMangas(
   currentUserId = 'guillaume'
 ): Promise<{ [key: string]: Manga[] }> {
@@ -89,9 +131,8 @@ export async function getAllReadlistMangas(
   }
 
   try {
-    const readlist = await fetchReadlistMangasFromApi(currentUserId);
     return {
-      [currentUserId]: await getAllMangasData(readlist),
+      [currentUserId]: await getMergedReadlistMangas(currentUserId),
     };
   } catch {
     return {
@@ -126,8 +167,34 @@ export async function getMangasByUser(userId: string): Promise<Manga[]> {
   }
 
   try {
-    const userMangas = await fetchUserMangasFromApi(userId);
-    return getAllMangasData(userMangas);
+    return await getMergedUserMangas(userId);
+  } catch {
+    return [];
+  }
+}
+
+/** User mangas bruts (clés d'exclusion select, sans join catalogue). */
+export async function getUserMangasRaw(userId: string): Promise<UserManga[]> {
+  const offline = getActiveOfflineCache();
+  if (offline) {
+    if (!canServeOfflineUser(userId)) return [];
+    return offline.mangas.user;
+  }
+  try {
+    return await fetchUserMangasFromApi(userId);
+  } catch {
+    return [];
+  }
+}
+
+export async function getReadlistMangasRaw(userId: string): Promise<UserManga[]> {
+  const offline = getActiveOfflineCache();
+  if (offline) {
+    if (!canServeOfflineUser(userId)) return [];
+    return offline.mangas.readlist;
+  }
+  try {
+    return await fetchReadlistMangasFromApi(userId);
   } catch {
     return [];
   }
@@ -143,8 +210,7 @@ export async function getCurrentReadlistMangasByUser(
   }
 
   try {
-    const readlist = await fetchReadlistMangasFromApi(userId);
-    return getAllMangasData(readlist);
+    return await getMergedReadlistMangas(userId);
   } catch {
     return [];
   }

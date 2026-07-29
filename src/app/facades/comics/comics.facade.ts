@@ -1,6 +1,10 @@
 import { Comic, BaseComic, UserComic } from '../../models/comic-model';
+import type { LightComic } from '../../models/entity-light.model';
 import {
   fetchBaseComicsFromApi,
+  fetchBaseComicsLightFromApi,
+  fetchMergedUserComicsFromApi,
+  fetchMergedReadlistComicsFromApi,
   fetchReadlistComicsFromApi,
   fetchUserComicsFromApi,
   fetchOtherUsersComicsRatedFromApi,
@@ -15,6 +19,9 @@ import {
 import { isOfflineModeBlockingOtherUsers } from '../../core/offline/offline-mode.utils';
 
 const fetchBaseComicsCached = createCachedFetcher(fetchBaseComicsFromApi);
+const fetchBaseComicsLightCached = createCachedFetcher(
+  fetchBaseComicsLightFromApi
+);
 
 async function getAllComicsData(comics: UserComic[]): Promise<Comic[]> {
   const baseComics = await getAllBaseComics();
@@ -38,6 +45,24 @@ async function getAllComicsData(comics: UserComic[]): Promise<Comic[]> {
   });
 }
 
+async function getMergedUserComics(userId: string): Promise<Comic[]> {
+  try {
+    return await fetchMergedUserComicsFromApi(userId);
+  } catch {
+    const userComics = await fetchUserComicsFromApi(userId);
+    return getAllComicsData(userComics);
+  }
+}
+
+async function getMergedReadlistComics(userId: string): Promise<Comic[]> {
+  try {
+    return await fetchMergedReadlistComicsFromApi(userId);
+  } catch {
+    const readlist = await fetchReadlistComicsFromApi(userId);
+    return getAllComicsData(readlist);
+  }
+}
+
 export async function getAllComics(
   currentUserId = 'guillaume'
 ): Promise<{ [key: string]: Comic[] }> {
@@ -52,9 +77,8 @@ export async function getAllComics(
   }
 
   try {
-    const userComics = await fetchUserComicsFromApi(currentUserId);
     return {
-      [currentUserId]: await getAllComicsData(userComics),
+      [currentUserId]: await getMergedUserComics(currentUserId),
     };
   } catch {
     return {
@@ -77,9 +101,8 @@ export async function getAllReadlistComics(
   }
 
   try {
-    const readlist = await fetchReadlistComicsFromApi(currentUserId);
     return {
-      [currentUserId]: await getAllComicsData(readlist),
+      [currentUserId]: await getMergedReadlistComics(currentUserId),
     };
   } catch {
     return {
@@ -95,6 +118,25 @@ export async function getAllBaseComics(): Promise<BaseComic[]> {
   try {
     const apiComics = await fetchBaseComicsCached();
     return apiComics;
+  } catch {
+    return [];
+  }
+}
+
+/** Catalogue allégé pour les pages select. */
+export async function getAllBaseComicsLight(): Promise<LightComic[]> {
+  const offline = getActiveOfflineCache();
+  if (offline) {
+    return offline.comics.base.map((c) => ({
+      title: c.title,
+      writer: c.writer ?? '',
+      designer: c.designer ?? '',
+      coverUrl: c.coverUrl ?? '',
+    }));
+  }
+
+  try {
+    return await fetchBaseComicsLightCached();
   } catch {
     return [];
   }
@@ -126,8 +168,34 @@ export async function getComicsByUser(userId: string): Promise<Comic[]> {
   }
 
   try {
-    const userComics = await fetchUserComicsFromApi(userId);
-    return getAllComicsData(userComics);
+    return await getMergedUserComics(userId);
+  } catch {
+    return [];
+  }
+}
+
+/** User comics bruts (clés d'exclusion select, sans join catalogue). */
+export async function getUserComicsRaw(userId: string): Promise<UserComic[]> {
+  const offline = getActiveOfflineCache();
+  if (offline) {
+    if (!canServeOfflineUser(userId)) return [];
+    return offline.comics.user;
+  }
+  try {
+    return await fetchUserComicsFromApi(userId);
+  } catch {
+    return [];
+  }
+}
+
+export async function getReadlistComicsRaw(userId: string): Promise<UserComic[]> {
+  const offline = getActiveOfflineCache();
+  if (offline) {
+    if (!canServeOfflineUser(userId)) return [];
+    return offline.comics.readlist;
+  }
+  try {
+    return await fetchReadlistComicsFromApi(userId);
   } catch {
     return [];
   }
@@ -143,8 +211,7 @@ export async function getCurrentReadlistComicsByUser(
   }
 
   try {
-    const readlist = await fetchReadlistComicsFromApi(userId);
-    return getAllComicsData(readlist);
+    return await getMergedReadlistComics(userId);
   } catch {
     return [];
   }

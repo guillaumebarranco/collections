@@ -28,6 +28,7 @@ type AddManwhaUserForm = {
 
 type AddManwhaDialogData = {
   userId: string;
+  listMode?: 'watchlist' | 'readlist' | 'gamelist' | null;
 };
 
 @Component({
@@ -140,6 +141,12 @@ export class AddManwhaComponent {
     return this.dialogData?.userId || DEFAULT_USER_ID;
   }
 
+  get headerTitle(): string {
+    return this.dialogData?.listMode === 'readlist'
+      ? 'Ajouter un manwha à lire'
+      : 'Ajouter un manwha';
+  }
+
   async onSubmit() {
     const entity = this.entityForm();
     const user = this.userForm();
@@ -160,6 +167,7 @@ export class AddManwhaComponent {
         },
         body: JSON.stringify({
           userId: this.getUserId(),
+          readlist: this.dialogData?.listMode === 'readlist',
           entity,
           user,
         }),

@@ -30,6 +30,7 @@ type AddMangaDialogData = {
   userId?: string;
   /** Catalogue uniquement : pas d’entrée dans la liste d’un utilisateur */
   baseMangaOnly?: boolean;
+  listMode?: 'watchlist' | 'readlist' | 'gamelist' | null;
 };
 
 @Component({
@@ -147,6 +148,15 @@ export class AddMangaComponent {
     return this.dialogData?.userId || DEFAULT_USER_ID;
   }
 
+  get headerTitle(): string {
+    if (this.isBaseMangaOnly()) {
+      return 'Ajouter un manga au catalogue';
+    }
+    return this.dialogData?.listMode === 'readlist'
+      ? 'Ajouter un manga à lire'
+      : 'Ajouter un manga';
+  }
+
   async onSubmit() {
     const entity = this.entityForm();
     const user = this.userForm();
@@ -168,7 +178,11 @@ export class AddMangaComponent {
         body: JSON.stringify({
           ...(this.isBaseMangaOnly()
             ? { baseMangaOnly: true }
-            : { userId: this.getUserId(), user }),
+            : {
+                userId: this.getUserId(),
+                user,
+                readlist: this.dialogData?.listMode === 'readlist',
+              }),
           entity: { ...entity, fromEntity: null },
         }),
       });

@@ -30,6 +30,7 @@ type AddSerieEntityForm = {
 
 type AddSerieDialogData = {
   userId: string;
+  listMode?: 'watchlist' | 'readlist' | 'gamelist' | null;
 };
 
 type AddSerieUserForm = {
@@ -228,6 +229,12 @@ export class AddSerieComponent {
     return this.dialogData?.userId || DEFAULT_USER_ID;
   }
 
+  get headerTitle(): string {
+    return this.dialogData?.listMode === 'watchlist'
+      ? 'Ajouter une série à voir'
+      : 'Ajouter une série';
+  }
+
   async onSubmit() {
     const entity = this.entityForm();
     if (!entity.title || !entity.director) {
@@ -250,6 +257,7 @@ export class AddSerieComponent {
         },
         body: JSON.stringify({
           userId: this.getUserId(),
+          watchlist: this.dialogData?.listMode === 'watchlist',
           entity: {
             ...entity,
             actors: this.getActorsList(),

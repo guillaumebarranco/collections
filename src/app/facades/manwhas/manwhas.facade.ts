@@ -1,7 +1,11 @@
 import { Manwha, BaseManwha, UserManwha } from '../../models/manwha-model';
+import type { LightManwha } from '../../models/entity-light.model';
 
 import {
   fetchBaseManwhasFromApi,
+  fetchBaseManwhasLightFromApi,
+  fetchMergedUserManwhasFromApi,
+  fetchMergedReadlistManwhasFromApi,
   fetchUserManwhasFromApi,
   fetchReadlistManwhasFromApi,
   fetchOtherUsersManwhasRatedFromApi,
@@ -16,6 +20,9 @@ import {
 import { isOfflineModeBlockingOtherUsers } from '../../core/offline/offline-mode.utils';
 
 const fetchBaseManwhasCached = createCachedFetcher(fetchBaseManwhasFromApi);
+const fetchBaseManwhasLightCached = createCachedFetcher(
+  fetchBaseManwhasLightFromApi
+);
 
 async function getAllManwhasData(manwhas: UserManwha[]): Promise<Manwha[]> {
   const baseManwhas = await getAllBaseManwhas();
@@ -39,6 +46,24 @@ async function getAllManwhasData(manwhas: UserManwha[]): Promise<Manwha[]> {
   });
 }
 
+async function getMergedUserManwhas(userId: string): Promise<Manwha[]> {
+  try {
+    return await fetchMergedUserManwhasFromApi(userId);
+  } catch {
+    const userManwhas = await fetchUserManwhasFromApi(userId);
+    return getAllManwhasData(userManwhas);
+  }
+}
+
+async function getMergedReadlistManwhas(userId: string): Promise<Manwha[]> {
+  try {
+    return await fetchMergedReadlistManwhasFromApi(userId);
+  } catch {
+    const readlist = await fetchReadlistManwhasFromApi(userId);
+    return getAllManwhasData(readlist);
+  }
+}
+
 export async function getAllManwhas(
   currentUserId = 'guillaume'
 ): Promise<{ [key: string]: Manwha[] }> {
@@ -53,9 +78,8 @@ export async function getAllManwhas(
   }
 
   try {
-    const userManwhas = await fetchUserManwhasFromApi(currentUserId);
     return {
-      [currentUserId]: await getAllManwhasData(userManwhas),
+      [currentUserId]: await getMergedUserManwhas(currentUserId),
     };
   } catch {
     return {
@@ -75,6 +99,24 @@ export async function getAllBaseManwhas(): Promise<BaseManwha[]> {
   }
 }
 
+/** Catalogue allégé pour les pages select. */
+export async function getAllBaseManwhasLight(): Promise<LightManwha[]> {
+  const offline = getActiveOfflineCache();
+  if (offline) {
+    return offline.manwhas.base.map((m) => ({
+      title: m.title,
+      author: m.author,
+      coverUrl: m.coverUrl ?? '',
+    }));
+  }
+
+  try {
+    return await fetchBaseManwhasLightCached();
+  } catch {
+    return [];
+  }
+}
+
 export async function getAllReadlistManwhas(
   currentUserId = 'guillaume'
 ): Promise<{ [key: string]: Manwha[] }> {
@@ -89,9 +131,8 @@ export async function getAllReadlistManwhas(
   }
 
   try {
-    const readlist = await fetchReadlistManwhasFromApi(currentUserId);
     return {
-      [currentUserId]: await getAllManwhasData(readlist),
+      [currentUserId]: await getMergedReadlistManwhas(currentUserId),
     };
   } catch {
     return {
@@ -127,8 +168,34 @@ export async function getManwhasByUser(userId: string): Promise<Manwha[]> {
   }
 
   try {
-    const userManwhas = await fetchUserManwhasFromApi(userId);
-    return getAllManwhasData(userManwhas);
+    return await getMergedUserManwhas(userId);
+  } catch {
+    return [];
+  }
+}
+
+/** User manwhas bruts (clés d'exclusion select, sans join catalogue). */
+export async function getUserManwhasRaw(userId: string): Promise<UserManwha[]> {
+  const offline = getActiveOfflineCache();
+  if (offline) {
+    if (!canServeOfflineUser(userId)) return [];
+    return offline.manwhas.user;
+  }
+  try {
+    return await fetchUserManwhasFromApi(userId);
+  } catch {
+    return [];
+  }
+}
+
+export async function getReadlistManwhasRaw(userId: string): Promise<UserManwha[]> {
+  const offline = getActiveOfflineCache();
+  if (offline) {
+    if (!canServeOfflineUser(userId)) return [];
+    return offline.manwhas.readlist;
+  }
+  try {
+    return await fetchReadlistManwhasFromApi(userId);
   } catch {
     return [];
   }
@@ -144,8 +211,7 @@ export async function getCurrentReadlistManwhasByUser(
   }
 
   try {
-    const readlist = await fetchReadlistManwhasFromApi(userId);
-    return getAllManwhasData(readlist);
+    return await getMergedReadlistManwhas(userId);
   } catch {
     return [];
   }

@@ -27,10 +27,49 @@ export async function fetchReadlistManwhasFromApi(
   return Array.isArray(data) ? data : data.manwhas || [];
 }
 
+/** Collection user déjà fusionnée (sans télécharger /entities côté client). */
+export async function fetchMergedUserManwhasFromApi(
+  userId: string
+): Promise<import('../../models/manwha-model').Manwha[]> {
+  const response = await fetch(
+    `${getApiBaseUrl()}/manwhas/${encodeURIComponent(userId)}/merged`
+  );
+  if (!response.ok) {
+    throw new Error('Manwhas merged API error');
+  }
+  const data = await response.json();
+  return Array.isArray(data) ? data : [];
+}
+
+export async function fetchMergedReadlistManwhasFromApi(
+  userId: string
+): Promise<import('../../models/manwha-model').Manwha[]> {
+  const response = await fetch(
+    `${getApiBaseUrl()}/manwhas/readlist/${encodeURIComponent(userId)}/merged`
+  );
+  if (!response.ok) {
+    throw new Error('Manwhas readlist merged API error');
+  }
+  const data = await response.json();
+  return Array.isArray(data) ? data : [];
+}
+
 export async function fetchBaseManwhasFromApi(): Promise<BaseManwha[]> {
   const response = await fetch(`${getApiBaseUrl()}/manwhas/entities`);
   if (!response.ok) {
     throw new Error('Manwhas entities API error');
+  }
+  const data = await response.json();
+  return Array.isArray(data) ? data : data.manwhas || [];
+}
+
+/** Catalogue allégé pour les pages select. */
+export async function fetchBaseManwhasLightFromApi(): Promise<
+  import('../../models/entity-light.model').LightManwha[]
+> {
+  const response = await fetch(`${getApiBaseUrl()}/manwhas/entities/light`);
+  if (!response.ok) {
+    throw new Error('Manwhas entities light API error');
   }
   const data = await response.json();
   return Array.isArray(data) ? data : data.manwhas || [];

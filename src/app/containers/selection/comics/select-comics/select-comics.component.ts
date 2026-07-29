@@ -1,12 +1,12 @@
 import { Component, signal, computed, inject, OnInit } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { MenuComponent } from '../../../../components/menu/menu.component';
-import { BaseComic, Comic } from '../../../../models/comic-model';
+import { Comic } from '../../../../models/comic-model';
+import type { LightComic } from '../../../../models/entity-light.model';
 import {
-  getAllComicsMerged,
-  getCurrentReadlistComicsByUser,
-  getComicsByUser,
-  getAllBaseComics,
+  getAllBaseComicsLight,
+  getUserComicsRaw,
+  getReadlistComicsRaw,
 } from '../../../../facades/comics/comics.facade';
 import { SelectEntitiesComponent } from '../../select-base.component';
 import { MatDialog, MatDialogModule } from '@angular/material/dialog';
@@ -34,7 +34,7 @@ export class SelectComicsComponent
 {
   private readonly dialog = inject(MatDialog);
 
-  baseComics = signal<BaseComic[]>([]);
+  baseComics = signal<LightComic[]>([]);
   userComics = signal<Comic[]>([]);
   readlistComics = signal<Comic[]>([]);
   allComicsMergedList = signal<Comic[]>([]);
@@ -129,7 +129,7 @@ export class SelectComicsComponent
 
   openAddComicDialog(): void {
     const dialogRef = this.dialog.open(AddComicComponent, {
-      data: { userId: this.userId() },
+      data: { userId: this.userId(), listMode: this.listModeFlag() },
       width: '760px',
       maxWidth: '95vw',
     });
@@ -144,20 +144,20 @@ export class SelectComicsComponent
   async ngOnInit() {
     const userId = this.userId();
     const [baseComics, comics, readlist] = await Promise.all([
-      getAllBaseComics(),
-      getComicsByUser(userId),
-      getCurrentReadlistComicsByUser(userId),
+      getAllBaseComicsLight(),
+      getUserComicsRaw(userId),
+      getReadlistComicsRaw(userId),
     ]);
 
     this.baseComics.set(baseComics);
     const allComics = await this.getAllComicsForSelection(userId);
-    this.userComics.set(comics);
-    this.readlistComics.set(readlist);
+    this.userComics.set(comics as Comic[]);
+    this.readlistComics.set(readlist as Comic[]);
     this.allComicsMergedList.set(allComics);
   }
 
   private async getAllComicsForSelection(_userId: string): Promise<Comic[]> {
-    return (await getAllBaseComics()).map(getEmptyComic);
+    return (await getAllBaseComicsLight()).map(getEmptyComic);
   }
 
   protected async addSelectedComics(): Promise<void> {

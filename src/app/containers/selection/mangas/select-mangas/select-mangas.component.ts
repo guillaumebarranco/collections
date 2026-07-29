@@ -1,12 +1,12 @@
 import { Component, signal, computed, inject, OnInit } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { MenuComponent } from '../../../../components/menu/menu.component';
-import { BaseManga, Manga } from '../../../../models/manga-model';
+import { Manga } from '../../../../models/manga-model';
+import type { LightManga } from '../../../../models/entity-light.model';
 import {
-  getAllBaseMangas,
-  getAllMangasMerged,
-  getCurrentReadlistMangasByUser,
-  getMangasByUser,
+  getAllBaseMangasLight,
+  getUserMangasRaw,
+  getReadlistMangasRaw,
 } from '../../../../facades/mangas/mangas.facade';
 import { SelectEntitiesComponent } from '../../select-base.component';
 import { MatDialog, MatDialogModule } from '@angular/material/dialog';
@@ -35,7 +35,7 @@ export class SelectMangasComponent
   private readonly dialog = inject(MatDialog);
 
   userMangas = signal<Manga[]>([]);
-  baseMangas = signal<BaseManga[]>([]);
+  baseMangas = signal<LightManga[]>([]);
   readlistMangas = signal<Manga[]>([]);
   allMangasMergedList = signal<Manga[]>([]);
   searchTerm = signal('');
@@ -124,7 +124,7 @@ export class SelectMangasComponent
 
   openAddMangaDialog(): void {
     const dialogRef = this.dialog.open(AddMangaComponent, {
-      data: { userId: this.userId() },
+      data: { userId: this.userId(), listMode: this.listModeFlag() },
       width: '760px',
       maxWidth: '95vw',
     });
@@ -138,20 +138,20 @@ export class SelectMangasComponent
 
   async ngOnInit() {
     const userId = this.userId();
-    const [baseMangas, mangas, readlist] = await Promise.all([
-      getAllBaseMangas(),
-      getMangasByUser(userId),
-      getCurrentReadlistMangasByUser(userId),
+    const [baseMangas, mangas, readlist, allMangas] = await Promise.all([
+      getAllBaseMangasLight(),
+      getUserMangasRaw(userId),
+      getReadlistMangasRaw(userId),
+      this.getAllMangasForSelection(userId),
     ]);
-    const allMangas = await this.getAllMangasForSelection(userId);
     this.baseMangas.set(baseMangas);
-    this.userMangas.set(mangas);
-    this.readlistMangas.set(readlist);
+    this.userMangas.set(mangas as Manga[]);
+    this.readlistMangas.set(readlist as Manga[]);
     this.allMangasMergedList.set(allMangas);
   }
 
   private async getAllMangasForSelection(_userId: string): Promise<Manga[]> {
-    return (await getAllBaseMangas()).map(getEmptyManga);
+    return (await getAllBaseMangasLight()).map(getEmptyManga);
   }
 
   protected async addSelectedMangas(): Promise<void> {

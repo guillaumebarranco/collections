@@ -27,10 +27,51 @@ export async function fetchReadlistChildrenBooksFromApi(
   return Array.isArray(data) ? data : data['children-books'] || [];
 }
 
+/** Collection user déjà fusionnée (sans télécharger /entities côté client). */
+export async function fetchMergedUserChildrenBooksFromApi(
+  userId: string
+): Promise<import('../../models/children-book-model').ChildrenBook[]> {
+  const response = await fetch(
+    `${getApiBaseUrl()}/children-books/${encodeURIComponent(userId)}/merged`
+  );
+  if (!response.ok) {
+    throw new Error('Children books merged API error');
+  }
+  const data = await response.json();
+  return Array.isArray(data) ? data : [];
+}
+
+export async function fetchMergedReadlistChildrenBooksFromApi(
+  userId: string
+): Promise<import('../../models/children-book-model').ChildrenBook[]> {
+  const response = await fetch(
+    `${getApiBaseUrl()}/children-books/readlist/${encodeURIComponent(userId)}/merged`
+  );
+  if (!response.ok) {
+    throw new Error('Children books readlist merged API error');
+  }
+  const data = await response.json();
+  return Array.isArray(data) ? data : [];
+}
+
 export async function fetchBaseChildrenBooksFromApi(): Promise<BaseChildrenBook[]> {
   const response = await fetch(`${getApiBaseUrl()}/children-books/entities`);
   if (!response.ok) {
     throw new Error('Children books entities API error');
+  }
+  const data = await response.json();
+  return Array.isArray(data) ? data : data['children-books'] || [];
+}
+
+/** Catalogue allégé pour les pages select. */
+export async function fetchBaseChildrenBooksLightFromApi(): Promise<
+  import('../../models/entity-light.model').LightBook[]
+> {
+  const response = await fetch(
+    `${getApiBaseUrl()}/children-books/entities/light`
+  );
+  if (!response.ok) {
+    throw new Error('Children books entities light API error');
   }
   const data = await response.json();
   return Array.isArray(data) ? data : data['children-books'] || [];

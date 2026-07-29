@@ -1,12 +1,12 @@
 import { Component, signal, computed, inject, OnInit } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { MenuComponent } from '../../../../components/menu/menu.component';
-import { BaseManwha, Manwha } from '../../../../models/manwha-model';
+import { Manwha } from '../../../../models/manwha-model';
+import type { LightManwha } from '../../../../models/entity-light.model';
 import {
-  getAllBaseManwhas,
-  getAllManwhasMerged,
-  getCurrentReadlistManwhasByUser,
-  getManwhasByUser,
+  getAllBaseManwhasLight,
+  getUserManwhasRaw,
+  getReadlistManwhasRaw,
 } from '../../../../facades/manwhas/manwhas.facade';
 import { SelectEntitiesComponent } from '../../select-base.component';
 import { MatDialog, MatDialogModule } from '@angular/material/dialog';
@@ -35,7 +35,7 @@ export class SelectManwhasComponent
   private readonly dialog = inject(MatDialog);
 
   userManwhas = signal<Manwha[]>([]);
-  baseManwhas = signal<BaseManwha[]>([]);
+  baseManwhas = signal<LightManwha[]>([]);
   readlistManwhas = signal<Manwha[]>([]);
   allManwhasMergedList = signal<Manwha[]>([]);
   searchTerm = signal('');
@@ -124,7 +124,7 @@ export class SelectManwhasComponent
 
   openAddManwhaDialog(): void {
     const dialogRef = this.dialog.open(AddManwhaComponent, {
-      data: { userId: this.userId() },
+      data: { userId: this.userId(), listMode: this.listModeFlag() },
       width: '760px',
       maxWidth: '95vw',
     });
@@ -138,20 +138,20 @@ export class SelectManwhasComponent
 
   async ngOnInit() {
     const userId = this.userId();
-    const [baseManwhas, manwhas, readlist] = await Promise.all([
-      getAllBaseManwhas(),
-      getManwhasByUser(userId),
-      getCurrentReadlistManwhasByUser(userId),
+    const [baseManwhas, manwhas, readlist, allManwhas] = await Promise.all([
+      getAllBaseManwhasLight(),
+      getUserManwhasRaw(userId),
+      getReadlistManwhasRaw(userId),
+      this.getAllManwhasForSelection(userId),
     ]);
-    const allManwhas = await this.getAllManwhasForSelection(userId);
-    this.userManwhas.set(manwhas);
+    this.userManwhas.set(manwhas as Manwha[]);
     this.baseManwhas.set(baseManwhas);
-    this.readlistManwhas.set(readlist);
+    this.readlistManwhas.set(readlist as Manwha[]);
     this.allManwhasMergedList.set(allManwhas);
   }
 
   private async getAllManwhasForSelection(_userId: string): Promise<Manwha[]> {
-    return (await getAllBaseManwhas()).map(getEmptyManwha);
+    return (await getAllBaseManwhasLight()).map(getEmptyManwha);
   }
 
   protected async addSelectedManwhas(): Promise<void> {

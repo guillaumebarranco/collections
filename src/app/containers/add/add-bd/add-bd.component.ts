@@ -29,6 +29,7 @@ type AddBdUserForm = {
 
 type AddBdDialogData = {
   userId: string;
+  listMode?: 'watchlist' | 'readlist' | 'gamelist' | null;
 };
 
 @Component({
@@ -138,6 +139,12 @@ export class AddBdComponent {
     return this.dialogData?.userId || DEFAULT_USER_ID;
   }
 
+  get headerTitle(): string {
+    return this.dialogData?.listMode === 'readlist'
+      ? 'Ajouter une BD à lire'
+      : 'Ajouter une BD';
+  }
+
   async onSubmit() {
     const entity = this.entityForm();
     const user = this.userForm();
@@ -158,6 +165,7 @@ export class AddBdComponent {
         },
         body: JSON.stringify({
           userId: this.getUserId(),
+          readlist: this.dialogData?.listMode === 'readlist',
           entity,
           user,
         }),

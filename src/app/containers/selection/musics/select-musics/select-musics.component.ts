@@ -4,7 +4,7 @@ import { MenuComponent } from '../../../../components/menu/menu.component';
 import { Music } from '../../../../models/music-model';
 import {
   getAllBaseMusics,
-  getMusicsByUser,
+  getUserMusicsRaw,
 } from '../../../../facades/musics/musics.facade';
 import { SelectEntitiesComponent } from '../../select-base.component';
 import { getApiBaseUrl } from '../../../../core/config';
@@ -231,8 +231,8 @@ export class SelectMusicsComponent
 
   async ngOnInit() {
     const userId = this.userId();
-    const userMusics = await getMusicsByUser(userId);
-    this.userMusics.set(userMusics);
+    const userMusics = await getUserMusicsRaw(userId);
+    this.userMusics.set(userMusics as Music[]);
     const baseMusics = await getAllBaseMusics();
     this.allMusics.set(
       baseMusics.map((music) => ({

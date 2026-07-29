@@ -6,6 +6,7 @@ const getGameWatchers = require('./get-game-watchers');
 const getGames = require('./get-games');
 const getGamelist = require('./get-gamelist');
 const getEntities = require('./get-entities');
+const getMerged = require('./get-merged');
 const saveGame = require('./save-game');
 const batchRating = require('./batch-rating');
 const batchTimesFinished = require('./batch-times-finished');
@@ -21,6 +22,7 @@ router.use('/', getGamelist);
 router.use('/', othersRatedRouter);
 // /entities avant /:userId — sinon "entities" est pris pour un userId
 router.use('/', getEntities);
+router.use('/', getMerged);
 router.use('/', getGames);
 router.use('/', saveGame);
 router.use('/', batchRating);

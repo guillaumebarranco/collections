@@ -55,7 +55,7 @@ function formatUserGame(user: any): string {
   },`;
 }
 
-function getUserGamesTargetFile(userId: string) {
+function getUserGamesTargetFile(userId: string, isGamelist: boolean) {
   const userDir = path.join(
     __dirname,
     '..',
@@ -74,15 +74,15 @@ function getUserGamesTargetFile(userId: string) {
 
   const files = fs
     .readdirSync(userDir)
-    .filter(
-      (file: string) =>
-        file.endsWith('.ts') &&
-        file !== 'index.ts' &&
-        !file.includes('readlist')
+    .filter((file: string) => file.endsWith('.ts') && file !== 'index.ts')
+    .filter((file: string) =>
+      isGamelist ? file.includes('gamelist') : !file.includes('gamelist')
     );
 
   const preferred = files.find((file: string) =>
-    file.includes(`${userId}_games`)
+    isGamelist
+      ? file.includes(`${userId}_gamelist_games`)
+      : file.includes(`${userId}_games`)
   );
   const selected = preferred || files.sort()[0];
   if (!selected) {
@@ -101,6 +101,7 @@ router.post('/add', (req: any, res: any) => {
       return;
     }
 
+    const isGamelist = normalizeBoolean(input.gamelist, 'gamelist') ?? false;
     const entity = input.entity || {};
     const user = input.user || {};
 
@@ -125,28 +126,43 @@ router.post('/add', (req: any, res: any) => {
       averageTimeToFinish:
         normalizeNumber(entity.averageTimeToFinish, 'averageTimeToFinish') ?? 0,
       averageTimeToHundredPercent:
-        normalizeNumber(entity.averageTimeToHundredPercent, 'averageTimeToHundredPercent') ?? 0,
+        normalizeNumber(
+          entity.averageTimeToHundredPercent,
+          'averageTimeToHundredPercent'
+        ) ?? 0,
       platform: normalizeString(entity.platform, 'platform') || '',
       saga: normalizeString(entity.saga, 'saga') || '',
       platineTime: normalizeNumber(entity.platineTime, 'platineTime') ?? 0,
       description: normalizeString(entity.description, 'description') ?? '',
     };
 
-    const sessions = Array.isArray(user.sessions)
-      ? user.sessions.map((s: any) => ({
-          finishedGame: normalizeBoolean(s.finishedGame, 'finishedGame') ?? false,
-          finishedGameWithHundredPercent:
-            normalizeBoolean(s.finishedGameWithHundredPercent, 'finishedGameWithHundredPercent') ?? false,
-          platinedGame: normalizeBoolean(s.platinedGame, 'platinedGame') ?? false,
-          additionnalEstimatedTime:
-            normalizeNumber(s.additionnalEstimatedTime, 'additionnalEstimatedTime') ?? 0,
-          sessionStartDate:
-            normalizeString(s.sessionStartDate, 'sessionStartDate') ?? '',
-          sessionEndDate:
-            normalizeString(s.sessionEndDate ?? s.finishedSessionDate, 'sessionEndDate') ??
-            '',
-        }))
-      : [];
+    const sessions = isGamelist
+      ? []
+      : Array.isArray(user.sessions)
+        ? user.sessions.map((s: any) => ({
+            finishedGame:
+              normalizeBoolean(s.finishedGame, 'finishedGame') ?? false,
+            finishedGameWithHundredPercent:
+              normalizeBoolean(
+                s.finishedGameWithHundredPercent,
+                'finishedGameWithHundredPercent'
+              ) ?? false,
+            platinedGame:
+              normalizeBoolean(s.platinedGame, 'platinedGame') ?? false,
+            additionnalEstimatedTime:
+              normalizeNumber(
+                s.additionnalEstimatedTime,
+                'additionnalEstimatedTime'
+              ) ?? 0,
+            sessionStartDate:
+              normalizeString(s.sessionStartDate, 'sessionStartDate') ?? '',
+            sessionEndDate:
+              normalizeString(
+                s.sessionEndDate ?? s.finishedSessionDate,
+                'sessionEndDate'
+              ) ?? '',
+          }))
+        : [];
     const userPayload = {
       title,
       editor,
@@ -169,18 +185,25 @@ router.post('/add', (req: any, res: any) => {
     );
     fs.writeFileSync(BASE_GAMES_API_FILE, baseGameContent, 'utf8');
 
-    const userGamesFile = getUserGamesTargetFile(userId);
-    const userGameContent = appendObjectToArrayFile(
-      userGamesFile,
-      formatUserGame(userPayload)
-    );
-    fs.writeFileSync(userGamesFile, userGameContent, 'utf8');
+    if (userId !== 'admin') {
+      const userGamesFile = getUserGamesTargetFile(userId, isGamelist);
+      const userGameContent = appendObjectToArrayFile(
+        userGamesFile,
+        formatUserGame(userPayload)
+      );
+      fs.writeFileSync(userGamesFile, userGameContent, 'utf8');
 
-    res.json({
-      ok: true,
-      entityFile: BASE_GAMES_API_FILE,
-      userFile: userGamesFile,
-    });
+      res.json({
+        ok: true,
+        entityFile: BASE_GAMES_API_FILE,
+        userFile: userGamesFile,
+      });
+    } else {
+      res.json({
+        ok: true,
+        entityFile: BASE_GAMES_API_FILE,
+      });
+    }
   } catch (error: any) {
     res.status(500).json({ error: error.message || 'Unknown error' });
   }

@@ -68,6 +68,18 @@
         <br /><br />
         Sélectionne les manwhas que tu aimerais lire et ajoute-les à ta liste.
       </p>
+      <p>
+        Si tu ne trouves pas ton manwha dans la liste, demande son ajout ou
+        ajoute-le manuellement (il ira dans ta readlist) :
+      </p>
+      <div class="select-add-actions">
+        <button class="makya-btn" (click)="openRequestEntityAddDialog()">
+          Demander à l'admin l'ajout d'un manwha sur Makya
+        </button>
+        <button class="makya-btn" (click)="openAddManwhaDialog()">
+          Ajouter manuellement un manwha qui n'existe pas encore sur Makya
+        </button>
+      </div>
       } @else { }
     </div>
   </div>

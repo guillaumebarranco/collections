@@ -67,6 +67,18 @@
         <br /><br />
         Sélectionne les jeux que tu aimerais jouer et ajoute-les à ta gamelist.
       </p>
+      <p>
+        Si tu ne trouves pas ton jeu dans la liste, demande son ajout ou
+        ajoute-le manuellement (il ira dans ta gamelist) :
+      </p>
+      <div class="select-add-actions">
+        <button class="makya-btn" (click)="openRequestEntityAddDialog()">
+          Demander à l'admin l'ajout d'un jeu sur Makya
+        </button>
+        <button class="makya-btn" (click)="openAddGameDialog()">
+          Ajouter manuellement un jeu qui n'existe pas encore sur Makya
+        </button>
+      </div>
       } @else {
       <!-- <p>
         Bonjour {{ username() }} <br /><br />
@@ -96,7 +108,7 @@
   </div>
 
   <div class="games-grid" select-grid>
-    @for (game of filteredGames(); track `${game.title}-${game.releaseDate}`) {
+    @for (game of filteredGames(); track `${game.title}-${game.editor}`) {
     <div
       class="game-poster"
       [class.selected]="isSelected(game)"

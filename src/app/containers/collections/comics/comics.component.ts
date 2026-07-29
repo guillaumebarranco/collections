@@ -398,9 +398,22 @@ export class ComicsComponent implements OnInit {
 
   onViewChange(view: ComicView) {
     this.selectedView.set(view);
+    if (this.viewNeedsBaseCatalog(view)) {
+      void this.ensureBaseComicsLoaded();
+    }
     if (view === 'recommendations') {
       void this.loadRecommendations();
     }
+  }
+
+  private viewNeedsBaseCatalog(view: ComicView): boolean {
+    return view === 'sagas' || view === 'recommendations';
+  }
+
+  private async ensureBaseComicsLoaded(): Promise<void> {
+    if (this.baseComicsList().length > 0) return;
+    const baseComics = await getAllBaseComics();
+    this.baseComicsList.set(baseComics.map(getFullComic));
   }
 
   private matchesSearch(comic: Comic, term: string): boolean {
@@ -447,14 +460,16 @@ export class ComicsComponent implements OnInit {
           displayedUserId.toLowerCase() !== connectedUserId.toLowerCase()
       );
 
-      const [comics, readlist, baseComics] = await Promise.all([
+      const [comics, readlist] = await Promise.all([
         getAllComics(displayedUserId),
         getAllReadlistComics(displayedUserId),
-        getAllBaseComics(),
       ]);
       this.comicsList.set(comics);
       this.readlistComicsList.set(readlist);
-      this.baseComicsList.set(baseComics.map(getFullComic));
+
+      if (this.viewNeedsBaseCatalog(this.selectedView())) {
+        await this.ensureBaseComicsLoaded();
+      }
 
       if (isViewingOther && connectedUserId) {
         const [connectedComics, connectedReadlist] = await Promise.all([
@@ -581,10 +596,7 @@ export class ComicsComponent implements OnInit {
       return;
     }
 
-    // S'assurer que baseComicsList est chargé
-    if (this.baseComicsList().length === 0) {
-      await this.refreshComics();
-    }
+    await this.ensureBaseComicsLoaded();
 
     this.isLoadingRecommendations.set(true);
     try {

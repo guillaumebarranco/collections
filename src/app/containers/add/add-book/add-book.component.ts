@@ -43,6 +43,7 @@ type AddBookUserForm = {
 
 type AddBookDialogData = {
   userId: string;
+  listMode?: 'watchlist' | 'readlist' | 'gamelist' | null;
 };
 
 @Component({
@@ -191,6 +192,12 @@ export class AddBookComponent {
     return this.dialogData?.userId || DEFAULT_USER_ID;
   }
 
+  get headerTitle(): string {
+    return this.dialogData?.listMode === 'readlist'
+      ? 'Ajouter un livre à lire'
+      : 'Ajouter un livre';
+  }
+
   async onSubmit() {
     const entity = this.entityForm();
     const user = this.userForm();
@@ -211,6 +218,7 @@ export class AddBookComponent {
         },
         body: JSON.stringify({
           userId: this.getUserId(),
+          readlist: this.dialogData?.listMode === 'readlist',
           entity,
           user: {
             ...user,

@@ -1,12 +1,12 @@
 import { Component, signal, computed, inject, OnInit } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { MenuComponent } from '../../../../components/menu/menu.component';
-import { BaseBd, Bd } from '../../../../models/bd-model';
+import { Bd } from '../../../../models/bd-model';
+import type { LightBd } from '../../../../models/entity-light.model';
 import {
-  getAllBdsMerged,
-  getCurrentReadlistBdsByUser,
-  getBdsByUser,
-  getAllBaseBds,
+  getAllBaseBdsLight,
+  getUserBdsRaw,
+  getReadlistBdsRaw,
 } from '../../../../facades/bds/bds.facade';
 import { SelectEntitiesComponent } from '../../select-base.component';
 import { MatDialog, MatDialogModule } from '@angular/material/dialog';
@@ -34,7 +34,7 @@ export class SelectBdsComponent
 {
   private readonly dialog = inject(MatDialog);
 
-  baseBds = signal<BaseBd[]>([]);
+  baseBds = signal<LightBd[]>([]);
   userBds = signal<Bd[]>([]);
   readlistBds = signal<Bd[]>([]);
   allBdsMergedList = signal<Bd[]>([]);
@@ -129,7 +129,7 @@ export class SelectBdsComponent
 
   openAddBdDialog(): void {
     const dialogRef = this.dialog.open(AddBdComponent, {
-      data: { userId: this.userId() },
+      data: { userId: this.userId(), listMode: this.listModeFlag() },
       width: '760px',
       maxWidth: '95vw',
     });
@@ -144,19 +144,19 @@ export class SelectBdsComponent
   async ngOnInit() {
     const userId = this.userId();
     const [baseBds, bds, readlist] = await Promise.all([
-      getAllBaseBds(),
-      getBdsByUser(userId),
-      getCurrentReadlistBdsByUser(userId),
+      getAllBaseBdsLight(),
+      getUserBdsRaw(userId),
+      getReadlistBdsRaw(userId),
     ]);
     const allBds = await this.getAllBdsForSelection(userId);
     this.baseBds.set(baseBds);
-    this.userBds.set(bds);
-    this.readlistBds.set(readlist);
+    this.userBds.set(bds as Bd[]);
+    this.readlistBds.set(readlist as Bd[]);
     this.allBdsMergedList.set(allBds);
   }
 
   private async getAllBdsForSelection(_userId: string): Promise<Bd[]> {
-    return (await getAllBaseBds()).map(getEmptyBd);
+    return (await getAllBaseBdsLight()).map(getEmptyBd);
   }
 
   protected async addSelectedBds(): Promise<void> {

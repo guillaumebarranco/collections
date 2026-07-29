@@ -3,6 +3,7 @@ const getChildrenBookWatchersRouter = require('./get-children-book-watchers');
 const getChildrenBooksRouter = require('./get-children-books');
 const getReadlistRouter = require('./get-readlist');
 const getEntitiesRouter = require('./get-entities');
+const getMergedRouter = require('./get-merged');
 const saveChildrenBookRouter = require('./save-children-book');
 const batchRatingRouter = require('./batch-rating');
 const batchTimesReadRouter = require('./batch-times-read');
@@ -17,6 +18,7 @@ const router = express.Router();
 
 router.use(getChildrenBookWatchersRouter);
 router.use(getEntitiesRouter);
+router.use(getMergedRouter);
 router.use(getReadlistRouter);
 router.use(othersRatedRouter);
 router.use(getChildrenBooksRouter);

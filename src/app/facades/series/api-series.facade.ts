@@ -27,10 +27,49 @@ export async function fetchWatchlistSeriesFromApi(
   return Array.isArray(data) ? data : data.series || [];
 }
 
+/** Collection user déjà fusionnée (sans télécharger /entities côté client). */
+export async function fetchMergedUserSeriesFromApi(
+  userId: string
+): Promise<import('../../models/serie-model').Serie[]> {
+  const response = await fetch(
+    `${getApiBaseUrl()}/series/${encodeURIComponent(userId)}/merged`
+  );
+  if (!response.ok) {
+    throw new Error('Series merged API error');
+  }
+  const data = await response.json();
+  return Array.isArray(data) ? data : [];
+}
+
+export async function fetchMergedWatchlistSeriesFromApi(
+  userId: string
+): Promise<import('../../models/serie-model').Serie[]> {
+  const response = await fetch(
+    `${getApiBaseUrl()}/series/watchlist/${encodeURIComponent(userId)}/merged`
+  );
+  if (!response.ok) {
+    throw new Error('Series watchlist merged API error');
+  }
+  const data = await response.json();
+  return Array.isArray(data) ? data : [];
+}
+
 export async function fetchBaseSeriesFromApi(): Promise<BaseSerie[]> {
   const response = await fetch(`${getApiBaseUrl()}/series/entities`);
   if (!response.ok) {
     throw new Error('Series entities API error');
+  }
+  const data = await response.json();
+  return Array.isArray(data) ? data : data.series || [];
+}
+
+/** Catalogue allégé pour les pages select. */
+export async function fetchBaseSeriesLightFromApi(): Promise<
+  import('../../models/entity-light.model').LightSerie[]
+> {
+  const response = await fetch(`${getApiBaseUrl()}/series/entities/light`);
+  if (!response.ok) {
+    throw new Error('Series entities light API error');
   }
   const data = await response.json();
   return Array.isArray(data) ? data : data.series || [];

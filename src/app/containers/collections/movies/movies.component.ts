@@ -524,10 +524,9 @@ export class MoviesComponent implements OnInit {
           displayedUserId.toLowerCase() !== connectedUserId.toLowerCase()
       );
 
-      const [movies, watchlist, baseMovies] = await Promise.all([
+      const [movies, watchlist] = await Promise.all([
         getAllMovies(displayedUserId),
         getAllWatchlistMovies(displayedUserId),
-        getAllBaseMovies(),
       ]);
       const displayedMovies = movies[displayedUserId] ?? [];
       const displayedWatchlist = watchlist[displayedUserId] ?? [];
@@ -537,8 +536,11 @@ export class MoviesComponent implements OnInit {
       ]);
       this.moviesList.set(movies);
       this.watchingMoviesList.set(watchlist);
-      this.baseMoviesList.set(baseMovies.map(getFullMovie));
       this.userMoviesLists.set(lists);
+
+      if (this.viewNeedsBaseCatalog(this.selectedView())) {
+        await this.ensureBaseMoviesLoaded();
+      }
 
       if (isViewingOther && connectedUserId) {
         const [connectedMovies, connectedWatchlist] = await Promise.all([
@@ -557,6 +559,22 @@ export class MoviesComponent implements OnInit {
     } finally {
       this.isLoadingMovies.set(false);
     }
+  }
+
+  private viewNeedsBaseCatalog(view: MovieView): boolean {
+    return (
+      view === 'sagas' ||
+      view === 'actors' ||
+      view === 'directors' ||
+      view === 'countries' ||
+      view === 'recommendations'
+    );
+  }
+
+  private async ensureBaseMoviesLoaded(): Promise<void> {
+    if (this.baseMoviesList().length > 0) return;
+    const baseMovies = await getAllBaseMovies();
+    this.baseMoviesList.set(baseMovies.map(getFullMovie));
   }
 
   /** Après watchlist → vu : rafraîchit les listes puis modale félicitations / badges (profil affiché = le vôtre). */
@@ -619,6 +637,10 @@ export class MoviesComponent implements OnInit {
     this.selectedYearFilter.set('all');
     this.searchTerm.set('');
     this.selectedListFilter.set(null);
+
+    if (this.viewNeedsBaseCatalog(view)) {
+      void this.ensureBaseMoviesLoaded();
+    }
 
     // Réinitialiser le tri selon la vue
     if (

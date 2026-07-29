@@ -466,9 +466,22 @@ export class ManwhasComponent implements OnInit {
 
   onViewChange(view: ManwhaView) {
     this.selectedView.set(view);
+    if (this.viewNeedsBaseCatalog(view)) {
+      void this.ensureBaseManwhasLoaded();
+    }
     if (view === 'recommendations') {
       void this.loadRecommendations();
     }
+  }
+
+  private viewNeedsBaseCatalog(view: ManwhaView): boolean {
+    return view === 'recommendations';
+  }
+
+  private async ensureBaseManwhasLoaded(): Promise<void> {
+    if (this.baseManwhasList().length > 0) return;
+    const baseManwhas = await getAllBaseManwhas();
+    this.baseManwhasList.set(baseManwhas.map(getFullManwha));
   }
 
   private matchesSearch(manwha: Manwha, term: string): boolean {
@@ -565,14 +578,16 @@ export class ManwhasComponent implements OnInit {
           displayedUserId.toLowerCase() !== connectedUserId.toLowerCase()
       );
 
-      const [manwhas, readlist, baseManwhas] = await Promise.all([
+      const [manwhas, readlist] = await Promise.all([
         getAllManwhas(displayedUserId),
         getAllReadlistManwhas(displayedUserId),
-        getAllBaseManwhas(),
       ]);
       this.manwhasList.set(manwhas);
       this.readlistManwhasList.set(readlist);
-      this.baseManwhasList.set(baseManwhas.map(getFullManwha));
+
+      if (this.viewNeedsBaseCatalog(this.selectedView())) {
+        await this.ensureBaseManwhasLoaded();
+      }
 
       this.cdr.detectChanges();
 
@@ -637,10 +652,7 @@ export class ManwhasComponent implements OnInit {
       return;
     }
 
-    // S'assurer que baseManwhasList est chargé
-    if (this.baseManwhasList().length === 0) {
-      await this.refreshManwhas();
-    }
+    await this.ensureBaseManwhasLoaded();
 
     this.isLoadingRecommendations.set(true);
     try {

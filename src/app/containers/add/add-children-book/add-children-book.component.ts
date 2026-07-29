@@ -43,6 +43,7 @@ type AddChildrenBookUserForm = {
 
 type AddChildrenBookDialogData = {
   userId: string;
+  listMode?: 'watchlist' | 'readlist' | 'gamelist' | null;
 };
 
 @Component({
@@ -191,6 +192,12 @@ export class AddChildrenBookComponent {
     return this.dialogData?.userId || DEFAULT_USER_ID;
   }
 
+  get headerTitle(): string {
+    return this.dialogData?.listMode === 'readlist'
+      ? 'Ajouter un livre pour enfants à lire'
+      : 'Ajouter un livre pour enfants';
+  }
+
   async onSubmit() {
     const entity = this.entityForm();
     const user = this.userForm();
@@ -211,6 +218,7 @@ export class AddChildrenBookComponent {
         },
         body: JSON.stringify({
           userId: this.getUserId(),
+          readlist: this.dialogData?.listMode === 'readlist',
           entity,
           user: {
             ...user,

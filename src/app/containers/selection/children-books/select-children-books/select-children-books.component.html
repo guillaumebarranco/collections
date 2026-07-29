@@ -68,6 +68,18 @@
         Sélectionne les livres que tu aimerais lire et télécharge le fichier
         JSON pour construire ta readlist.
       </p>
+      <p>
+        Si tu ne trouves pas ton livre dans la liste, demande son ajout ou
+        ajoute-le manuellement (il ira dans ta readlist) :
+      </p>
+      <div class="select-add-actions">
+        <button class="makya-btn" (click)="openRequestEntityAddDialog()">
+          Demander à l'admin l'ajout d'un livre sur Makya
+        </button>
+        <button class="makya-btn" (click)="openAddChildrenBookDialog()">
+          Ajouter manuellement un livre qui n'existe pas encore sur Makya
+        </button>
+      </div>
       } @else {
       <!-- <p>
         Bonjour {{ username() }} <br /><br />

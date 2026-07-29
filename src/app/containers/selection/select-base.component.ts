@@ -12,21 +12,19 @@ export class SelectEntitiesComponent {
 
   // Mode watchlist détecté depuis query params
   isWatchOrReadlistMode = computed<boolean>(() => {
+    return this.listModeFlag() !== null;
+  });
+
+  /**
+   * Flag de liste « à voir / à lire / à jouer » selon les query params.
+   * `null` = ajout en collection « déjà vu / lu / terminé ».
+   */
+  listModeFlag = computed<'watchlist' | 'readlist' | 'gamelist' | null>(() => {
     const queryParams = this.activatedRoute.snapshot.queryParams;
-
-    if (queryParams['watchlist'] === 'true') {
-      return true;
-    }
-
-    if (queryParams['readlist'] === 'true') {
-      return true;
-    }
-
-    if (queryParams['gamelist'] === 'true') {
-      return true;
-    }
-
-    return false;
+    if (queryParams['watchlist'] === 'true') return 'watchlist';
+    if (queryParams['readlist'] === 'true') return 'readlist';
+    if (queryParams['gamelist'] === 'true') return 'gamelist';
+    return null;
   });
 
   // Mode cinema détecté depuis query params

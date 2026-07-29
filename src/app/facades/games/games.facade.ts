@@ -1,7 +1,11 @@
 import { Game, BaseGame, UserGame } from '../../models/game-model';
+import type { LightGame } from '../../models/entity-light.model';
 
 import {
   fetchBaseGamesFromApi,
+  fetchBaseGamesLightFromApi,
+  fetchMergedUserGamesFromApi,
+  fetchMergedGamelistGamesFromApi,
   fetchUserGamesFromApi,
   fetchGamelistGamesFromApi,
   fetchOtherUsersGamesRatedFromApi,
@@ -16,6 +20,9 @@ import {
 import { isOfflineModeBlockingOtherUsers } from '../../core/offline/offline-mode.utils';
 
 const fetchBaseGamesCached = createCachedFetcher(fetchBaseGamesFromApi);
+const fetchBaseGamesLightCached = createCachedFetcher(
+  fetchBaseGamesLightFromApi
+);
 
 /** À appeler après une modification admin des entités jeux (fichiers base). */
 export function invalidateBaseGamesCache(): void {
@@ -42,6 +49,24 @@ async function getAllGamesData(games: UserGame[]): Promise<Game[]> {
   });
 }
 
+async function getMergedUserGames(userId: string): Promise<Game[]> {
+  try {
+    return await fetchMergedUserGamesFromApi(userId);
+  } catch {
+    const userGames = await fetchUserGamesFromApi(userId);
+    return getAllGamesData(userGames);
+  }
+}
+
+async function getMergedGamelistGames(userId: string): Promise<Game[]> {
+  try {
+    return await fetchMergedGamelistGamesFromApi(userId);
+  } catch {
+    const gamelist = await fetchGamelistGamesFromApi(userId);
+    return getAllGamesData(gamelist);
+  }
+}
+
 export async function getAllGames(
   currentUserId = 'guillaume'
 ): Promise<{ [key: string]: Game[] }> {
@@ -56,9 +81,8 @@ export async function getAllGames(
   }
 
   try {
-    const userGames = await fetchUserGamesFromApi(currentUserId);
     return {
-      [currentUserId]: await getAllGamesData(userGames),
+      [currentUserId]: await getMergedUserGames(currentUserId),
     };
   } catch {
     return {
@@ -81,9 +105,8 @@ export async function getAllGamelistGames(
   }
 
   try {
-    const gamelist = await fetchGamelistGamesFromApi(currentUserId);
     return {
-      [currentUserId]: await getAllGamesData(gamelist),
+      [currentUserId]: await getMergedGamelistGames(currentUserId),
     };
   } catch {
     return {
@@ -102,6 +125,25 @@ export async function getAllBaseGames(): Promise<BaseGame[]> {
     console.warn(
       'Impossible de charger les jeux de base via l’API, repli sur le bundle embarqué.'
     );
+    return [];
+  }
+}
+
+/** Catalogue allégé pour les pages select. */
+export async function getAllBaseGamesLight(): Promise<LightGame[]> {
+  const offline = getActiveOfflineCache();
+  if (offline) {
+    return offline.games.base.map((g) => ({
+      title: g.title,
+      editor: g.editor,
+      coverUrl: g.coverUrl ?? '',
+      releaseDate: g.releaseDate ?? '',
+    }));
+  }
+
+  try {
+    return await fetchBaseGamesLightCached();
+  } catch {
     return [];
   }
 }
@@ -132,8 +174,34 @@ export async function getGamesByUser(userId: string): Promise<Game[]> {
   }
 
   try {
-    const userGames = await fetchUserGamesFromApi(userId);
-    return getAllGamesData(userGames);
+    return await getMergedUserGames(userId);
+  } catch {
+    return [];
+  }
+}
+
+/** User games bruts (clés d'exclusion select, sans join catalogue). */
+export async function getUserGamesRaw(userId: string): Promise<UserGame[]> {
+  const offline = getActiveOfflineCache();
+  if (offline) {
+    if (!canServeOfflineUser(userId)) return [];
+    return offline.games.user;
+  }
+  try {
+    return await fetchUserGamesFromApi(userId);
+  } catch {
+    return [];
+  }
+}
+
+export async function getGamelistGamesRaw(userId: string): Promise<UserGame[]> {
+  const offline = getActiveOfflineCache();
+  if (offline) {
+    if (!canServeOfflineUser(userId)) return [];
+    return offline.games.gamelist;
+  }
+  try {
+    return await fetchGamelistGamesFromApi(userId);
   } catch {
     return [];
   }
@@ -149,8 +217,7 @@ export async function getCurrentGamelistGamesByUser(
   }
 
   try {
-    const gamelist = await fetchGamelistGamesFromApi(userId);
-    return getAllGamesData(gamelist);
+    return await getMergedGamelistGames(userId);
   } catch {
     return [];
   }
