@@ -11,6 +11,7 @@ import {
 import { SelectEntitiesComponent } from '../../select-base.component';
 import { MatDialog, MatDialogModule } from '@angular/material/dialog';
 import { AddBdComponent } from '../../../add/add-bd/add-bd.component';
+import { RequestEntityAddModalComponent } from '../../../../components/modals/request-entity-add-modal/request-entity-add-modal.component';
 import { getApiBaseUrl } from '../../../../core/config';
 import { SelectEntityComponent } from '../../../../components/entity/select-entity/select-entity.component';
 import { getEmptyBd } from '../../../../helpers/empty-entities-helper';
@@ -116,6 +117,14 @@ export class SelectBdsComponent
     }
 
     this.selectedBds.set(selected);
+  }
+
+  openRequestEntityAddDialog(): void {
+    this.dialog.open(RequestEntityAddModalComponent, {
+      data: { entityType: 'bd', userId: this.userId() },
+      width: '480px',
+      maxWidth: '95vw',
+    });
   }
 
   openAddBdDialog(): void {

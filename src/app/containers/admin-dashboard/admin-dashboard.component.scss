@@ -19,6 +19,74 @@
   flex-shrink: 0;
 }
 
+.admin-requests {
+  margin: 16px 0 28px;
+  padding: 16px;
+  border: 1px solid #e5e7eb;
+  border-radius: 12px;
+  background: #fff;
+}
+
+.admin-requests__header {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  margin-bottom: 12px;
+
+  h2 {
+    margin: 0;
+    font-size: 1.25rem;
+  }
+}
+
+.admin-requests__empty,
+.admin-requests__count {
+  margin: 0 0 12px;
+  color: #6b7280;
+}
+
+.admin-requests__list {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+  gap: 12px;
+}
+
+.admin-request-card {
+  border: 1px solid #e5e7eb;
+  border-radius: 10px;
+  padding: 12px;
+  background: #f9fafb;
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.admin-request-card__type {
+  font-size: 0.75rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.03em;
+  color: #6b7280;
+}
+
+.admin-request-card__title {
+  font-size: 1.05rem;
+  font-weight: 600;
+  color: #111827;
+}
+
+.admin-request-card__secondary {
+  font-size: 0.9rem;
+  color: #374151;
+}
+
+.admin-request-card__meta {
+  font-size: 0.8rem;
+  color: #6b7280;
+}
+
 .admin-count {
   font-size: 1.25rem;
   margin: 8px 0 20px;

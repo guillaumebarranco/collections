@@ -11,6 +11,7 @@ import {
 import { SelectEntitiesComponent } from '../../select-base.component';
 import { MatDialog, MatDialogModule } from '@angular/material/dialog';
 import { AddBookComponent } from '../../../add/add-book/add-book.component';
+import { RequestEntityAddModalComponent } from '../../../../components/modals/request-entity-add-modal/request-entity-add-modal.component';
 import { SelectEntityComponent } from '../../../../components/entity/select-entity/select-entity.component';
 
 import { getApiBaseUrl } from '../../../../core/config';
@@ -128,6 +129,14 @@ export class SelectBooksComponent
     }
 
     this.selectedBooks.set(selected);
+  }
+
+  openRequestEntityAddDialog(): void {
+    this.dialog.open(RequestEntityAddModalComponent, {
+      data: { entityType: 'book', userId: this.userId() },
+      width: '480px',
+      maxWidth: '95vw',
+    });
   }
 
   openAddBookDialog(): void {

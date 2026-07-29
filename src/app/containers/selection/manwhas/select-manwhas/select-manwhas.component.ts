@@ -11,6 +11,7 @@ import {
 import { SelectEntitiesComponent } from '../../select-base.component';
 import { MatDialog, MatDialogModule } from '@angular/material/dialog';
 import { AddManwhaComponent } from '../../../add/add-manwha/add-manwha.component';
+import { RequestEntityAddModalComponent } from '../../../../components/modals/request-entity-add-modal/request-entity-add-modal.component';
 import { getApiBaseUrl } from '../../../../core/config';
 import { SelectEntityComponent } from '../../../../components/entity/select-entity/select-entity.component';
 import { getEmptyManwha } from '../../../../helpers/empty-entities-helper';
@@ -111,6 +112,14 @@ export class SelectManwhasComponent
     }
 
     this.selectedManwhas.set(selected);
+  }
+
+  openRequestEntityAddDialog(): void {
+    this.dialog.open(RequestEntityAddModalComponent, {
+      data: { entityType: 'manwha', userId: this.userId() },
+      width: '480px',
+      maxWidth: '95vw',
+    });
   }
 
   openAddManwhaDialog(): void {

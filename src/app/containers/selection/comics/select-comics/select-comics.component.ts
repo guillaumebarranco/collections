@@ -11,6 +11,7 @@ import {
 import { SelectEntitiesComponent } from '../../select-base.component';
 import { MatDialog, MatDialogModule } from '@angular/material/dialog';
 import { AddComicComponent } from '../../../add/add-comic/add-comic.component';
+import { RequestEntityAddModalComponent } from '../../../../components/modals/request-entity-add-modal/request-entity-add-modal.component';
 import { getApiBaseUrl } from '../../../../core/config';
 import { SelectEntityComponent } from '../../../../components/entity/select-entity/select-entity.component';
 import { getEmptyComic } from '../../../../helpers/empty-entities-helper';
@@ -116,6 +117,14 @@ export class SelectComicsComponent
     }
 
     this.selectedComics.set(selected);
+  }
+
+  openRequestEntityAddDialog(): void {
+    this.dialog.open(RequestEntityAddModalComponent, {
+      data: { entityType: 'comic', userId: this.userId() },
+      width: '480px',
+      maxWidth: '95vw',
+    });
   }
 
   openAddComicDialog(): void {

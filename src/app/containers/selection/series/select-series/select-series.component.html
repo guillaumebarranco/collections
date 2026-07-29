@@ -47,9 +47,14 @@
         Si tu ne trouves pas ta série dans la liste, ajoute-la d'abord dans les
         entités :
       </p>
-      <button class="makya-btn" (click)="openAddSerieDialog()">
-        Ajouter une série qui n'existe pas encore sur Makya
-      </button>
+      <div class="select-add-actions">
+        <button class="makya-btn" (click)="openRequestEntityAddDialog()">
+          Demander à l'admin l'ajout d'une série sur Makya
+        </button>
+        <button class="makya-btn" (click)="openAddSerieDialog()">
+          Ajouter manuellement une série qui n'existe pas encore sur Makya
+        </button>
+      </div>
       } } @else if(isWatchOrReadlistMode()) {
       <p>
         Bonjour {{ username() }} <br /><br />

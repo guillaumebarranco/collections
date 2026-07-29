@@ -10,6 +10,7 @@ import {
 import { SelectEntitiesComponent } from '../../select-base.component';
 import { MatDialog, MatDialogModule } from '@angular/material/dialog';
 import { AddGameComponent } from '../../../add/add-game/add-game.component';
+import { RequestEntityAddModalComponent } from '../../../../components/modals/request-entity-add-modal/request-entity-add-modal.component';
 import { SelectEntityComponent } from '../../../../components/entity/select-entity/select-entity.component';
 import { Router } from '@angular/router';
 import { getApiBaseUrl } from '../../../../core/config';
@@ -114,6 +115,14 @@ export class SelectGamesComponent
     }
 
     this.selectedGames.set(selected);
+  }
+
+  openRequestEntityAddDialog(): void {
+    this.dialog.open(RequestEntityAddModalComponent, {
+      data: { entityType: 'game', userId: this.userId() },
+      width: '480px',
+      maxWidth: '95vw',
+    });
   }
 
   openAddGameDialog(): void {

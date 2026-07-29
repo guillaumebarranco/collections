@@ -48,9 +48,14 @@
         entités (si jamais tu souhaites ajouter un grand nombre de mangas non
         présents ici, le mieux reste de contacter l'administrateur) :
       </p>
-      <button class="makya-btn" (click)="openAddMangaDialog()">
-        Ajouter un manga qui n'existe pas encore sur Makya
-      </button>
+      <div class="select-add-actions">
+        <button class="makya-btn" (click)="openRequestEntityAddDialog()">
+          Demander à l'admin l'ajout d'un manga sur Makya
+        </button>
+        <button class="makya-btn" (click)="openAddMangaDialog()">
+          Ajouter manuellement un manga qui n'existe pas encore sur Makya
+        </button>
+      </div>
       } } @else if(isWatchOrReadlistMode()) {
       <p>
         Bonjour {{ username() }} <br /><br />

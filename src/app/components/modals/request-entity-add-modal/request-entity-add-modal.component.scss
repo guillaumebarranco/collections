@@ -1,0 +1,68 @@
+.request-entity-add {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  padding: 20px 24px;
+  min-width: min(420px, 90vw);
+}
+
+.request-entity-add__header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 12px;
+
+  h2 {
+    margin: 0;
+    font-size: 1.25rem;
+  }
+}
+
+.close-btn {
+  border: none;
+  background: #f2f4f8;
+  border-radius: 999px;
+  width: 32px;
+  height: 32px;
+  cursor: pointer;
+}
+
+.request-entity-add__subtitle {
+  margin: 0;
+  color: #6b7280;
+  font-size: 0.95rem;
+}
+
+.form-row {
+  display: grid;
+  gap: 6px;
+
+  label {
+    font-weight: 600;
+    font-size: 0.9rem;
+  }
+
+  input {
+    padding: 10px 12px;
+    border: 1px solid #d1d5db;
+    border-radius: 8px;
+    font-size: 1rem;
+  }
+}
+
+.request-entity-add__error {
+  margin: 0;
+  color: #b91c1c;
+}
+
+.request-entity-add__success {
+  margin: 0;
+  color: #047857;
+}
+
+.request-entity-add__actions {
+  display: flex;
+  justify-content: flex-end;
+  gap: 10px;
+  flex-wrap: wrap;
+}

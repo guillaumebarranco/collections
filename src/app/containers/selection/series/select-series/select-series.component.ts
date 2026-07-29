@@ -10,6 +10,7 @@ import {
 import { SelectEntitiesComponent } from '../../select-base.component';
 import { MatDialog, MatDialogModule } from '@angular/material/dialog';
 import { AddSerieComponent } from '../../../add/add-serie/add-serie.component';
+import { RequestEntityAddModalComponent } from '../../../../components/modals/request-entity-add-modal/request-entity-add-modal.component';
 import { getApiBaseUrl } from '../../../../core/config';
 import { normalizeSearchText } from '../../../../utils/normalize-search-text';
 
@@ -98,6 +99,14 @@ export class SelectSeriesComponent
     }
 
     this.selectedSeries.set(selected);
+  }
+
+  openRequestEntityAddDialog(): void {
+    this.dialog.open(RequestEntityAddModalComponent, {
+      data: { entityType: 'serie', userId: this.userId() },
+      width: '480px',
+      maxWidth: '95vw',
+    });
   }
 
   openAddSerieDialog(): void {

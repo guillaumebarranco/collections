@@ -10,6 +10,7 @@ import {
 import { SelectEntitiesComponent } from '../../select-base.component';
 import { MatDialog, MatDialogModule } from '@angular/material/dialog';
 import { AddMovieComponent } from '../../../add/add-movie/add-movie.component';
+import { RequestEntityAddModalComponent } from '../../../../components/modals/request-entity-add-modal/request-entity-add-modal.component';
 import { SelectEntityComponent } from '../../../../components/entity/select-entity/select-entity.component';
 import { Router } from '@angular/router';
 import { getApiBaseUrl } from '../../../../core/config';
@@ -111,6 +112,14 @@ export class SelectMoviesComponent
     }
 
     this.selectedMovies.set(selected);
+  }
+
+  openRequestEntityAddDialog(): void {
+    this.dialog.open(RequestEntityAddModalComponent, {
+      data: { entityType: 'movie', userId: this.userId() },
+      width: '480px',
+      maxWidth: '95vw',
+    });
   }
 
   openAddMovieDialog(): void {

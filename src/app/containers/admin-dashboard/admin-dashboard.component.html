@@ -10,6 +10,49 @@
     </button>
   </div>
 
+  <section class="admin-requests">
+    <div class="admin-requests__header">
+      <h2>Demandes d'ajout d'œuvres</h2>
+      <button
+        type="button"
+        class="makya-btn-small"
+        [disabled]="isClearingRequests() || entityAddRequests().length === 0"
+        (click)="clearEntityAddRequestsList()"
+      >
+        {{ isClearingRequests() ? 'Vidage…' : 'Vider la liste' }}
+      </button>
+    </div>
+
+    @if (isLoadingRequests()) {
+    <p class="admin-loading">Chargement des demandes...</p>
+    } @else if (entityAddRequests().length === 0) {
+    <p class="admin-requests__empty">Aucune demande en attente.</p>
+    } @else {
+    <p class="admin-requests__count">
+      {{ entityAddRequests().length }} demande(s) en attente
+    </p>
+    <div class="admin-requests__list">
+      @for (request of entityAddRequests(); track request.id) {
+      <div class="admin-request-card">
+        <div class="admin-request-card__type">
+          {{ getEntityTypeLabel(request.entityType) }}
+        </div>
+        <div class="admin-request-card__title">{{ request.title }}</div>
+        <div class="admin-request-card__secondary">
+          {{ getSecondaryLabel(request.entityType) }} :
+          {{ request.secondaryKey }}
+        </div>
+        <div class="admin-request-card__meta">
+          Demandé par
+          {{ capitalizeFirstLetter(request.requestedBy) }} ·
+          {{ formatRequestDate(request.requestedAt) }}
+        </div>
+      </div>
+      }
+    </div>
+    }
+  </section>
+
   @if (isLoading()) {
   <p class="admin-loading">Chargement des utilisateurs...</p>
   } @else {

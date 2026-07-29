@@ -13,6 +13,7 @@ const quizzsRoutes = require('./routes/quizzs/quizzs-routes');
 const authRoutes = require('./routes/auth/auth-routes');
 const adminRoutes = require('./routes/admin/users-count');
 const usersRoutes = require('./routes/users/users-routes');
+const entityAddRequestsRoutes = require('./routes/entity-add-requests/entity-add-requests-routes');
 
 const PORT = 3001;
 
@@ -49,6 +50,7 @@ app.use('/api/quizzs', quizzsRoutes);
 app.use('/api/auth', authRoutes);
 app.use('/api/admin', adminRoutes);
 app.use('/api/users', usersRoutes);
+app.use('/api/entity-add-requests', entityAddRequestsRoutes);
 
 app.use((_req: any, res: any) => {
   res.status(404).json({ error: 'Not found' });

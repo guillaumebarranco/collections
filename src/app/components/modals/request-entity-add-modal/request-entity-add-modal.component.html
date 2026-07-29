@@ -1,0 +1,52 @@
+<div class="request-entity-add">
+  <div class="request-entity-add__header">
+    <h2>Demander l'ajout d'{{ config.article }} {{ config.label }}</h2>
+    <button class="close-btn" type="button" (click)="close()">✕</button>
+  </div>
+
+  <p class="request-entity-add__subtitle">
+    Indique seulement le titre et {{ config.secondaryLabel.toLowerCase() }}.
+    L'admin complétera le reste.
+  </p>
+
+  <div class="form-row">
+    <label for="request-title">Titre</label>
+    <input
+      id="request-title"
+      type="text"
+      [ngModel]="title()"
+      (ngModelChange)="title.set($event)"
+      autocomplete="off"
+    />
+  </div>
+
+  <div class="form-row">
+    <label for="request-secondary">{{ config.secondaryLabel }}</label>
+    <input
+      id="request-secondary"
+      type="text"
+      [ngModel]="secondaryKey()"
+      (ngModelChange)="secondaryKey.set($event)"
+      autocomplete="off"
+    />
+  </div>
+
+  @if (errorMessage()) {
+  <p class="request-entity-add__error">{{ errorMessage() }}</p>
+  }
+  @if (successMessage()) {
+  <p class="request-entity-add__success">{{ successMessage() }}</p>
+  }
+
+  <div class="request-entity-add__actions">
+    <button type="button" class="makya-btn" (click)="close()">Annuler</button>
+    <button
+      type="button"
+      class="makya-btn"
+      [disabled]="!canSubmit()"
+      (click)="submit()"
+    >
+      {{ isSaving() ? 'Envoi…' : 'Envoyer la demande' }}
+    </button>
+  </div>
+</div>
