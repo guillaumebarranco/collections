@@ -1714,4 +1714,21 @@ export const guillaumeBooks: UserBooks = [
     wantToReadAgain: false,
     ratingComment: '',
   },
+
+  {
+    title: "Le trouble borderline : Pour mieux comprendre la personnalité limite",
+    author: "Jean-Pierre Guichard",
+    firstReadDate: "2026-07-31",
+    lastReadDate: "2026-07-31",
+    otherReadDates: [],
+    rating: 4,
+    reading: false,
+    readTimes: 1,
+    owned: false,
+    borrowed: "",
+    loaned: "",
+    readPriority: 1,
+    wantToReadAgain: false,
+    ratingComment: "",
+  },
 ];

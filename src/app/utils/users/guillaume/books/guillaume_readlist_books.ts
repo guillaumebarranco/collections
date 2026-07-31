@@ -1472,25 +1472,7 @@ export const guillaumeReadlistBooks: UserBooks = [
     readPriority: 2,
     wantToReadAgain: false,
     ratingComment: "",
-  }
-,
-  {
-    title: "Le trouble borderline : Pour mieux comprendre la personnalité limite",
-    author: "Jean-Pierre Guichard",
-    firstReadDate: "",
-    lastReadDate: "",
-    otherReadDates: [],
-    rating: 0,
-    reading: true,
-    readTimes: 0,
-    owned: false,
-    borrowed: "",
-    loaned: "",
-    readPriority: 1,
-    wantToReadAgain: false,
-    ratingComment: "",
   },
-
   {
     title: "Borderline: Une vie au bord du gouffre",
     author: "Catherine S. Danemark et Michel Kummer",
@@ -1506,5 +1488,5 @@ export const guillaumeReadlistBooks: UserBooks = [
     readPriority: 3,
     wantToReadAgain: false,
     ratingComment: "",
-  },
+  }
 ];
