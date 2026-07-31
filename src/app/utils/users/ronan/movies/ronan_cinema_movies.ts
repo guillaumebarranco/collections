@@ -3251,7 +3251,7 @@ export const ronanCinemaMovies: UserMovies = [
     inList: [],
   },
   {
-    title: 'Godzilla: King of the Monsters',
+    title: 'Godzilla II - Roi des Monstres',
     director: 'Michael Dougherty',
     rating: 2.5,
     timesWatched: 1,

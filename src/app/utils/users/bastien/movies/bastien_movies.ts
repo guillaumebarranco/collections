@@ -3897,7 +3897,7 @@ export const bastienMovies: UserMovies = [
     inList: [],
   },
   {
-    title: 'Godzilla: King of the Monsters',
+    title: 'Godzilla II - Roi des Monstres',
     director: 'Michael Dougherty',
     rating: 4,
     timesWatched: 1,

@@ -161,7 +161,7 @@ export const baseMoviesSagaComedie: BaseMovie[] = [
       { name: 'Macaulay Culkin' },
       { name: 'Joe Pesci' },
       { name: 'Daniel Stern' },
-      { name: 'Catherine O\'Hara' },
+      { name: "Catherine O'Hara" },
       { name: 'John Heard' },
       { name: 'Tim Curry' },
       { name: 'Brenda Fricker' },
@@ -747,6 +747,42 @@ export const baseMoviesSagaComedie: BaseMovie[] = [
     selectDisplayOrder: 30,
   },
   {
+    title: 'Taxi 5',
+    director: 'Franck Gastambide',
+    actors: [
+      {
+        name: 'Franck Gastambide',
+      },
+      {
+        name: 'Malik Bentalha',
+      },
+      {
+        name: 'Bernard Farcy',
+      },
+      {
+        name: 'Salvatore Esposito',
+      },
+      {
+        name: 'Édouard Montoute',
+      },
+      {
+        name: 'Sabrina Ouazani',
+      },
+      {
+        name: 'Ramzy Bedia',
+      },
+    ],
+    coverUrl: '/movies_pictures/f04fe02df58f.jpg',
+    releaseDate: '2018-04-11',
+    length: 102,
+    genre: ['Action'],
+    saga: 'Taxi',
+    description: '',
+    fromEntity: null,
+    countryOrigin: ['France'],
+    selectDisplayOrder: 0,
+  },
+  {
     title: 'Scary Movie',
     director: 'Keenen Ivory Wayans',
     actors: [
@@ -883,6 +919,78 @@ export const baseMoviesSagaComedie: BaseMovie[] = [
     coverUrl: '/movies_pictures/560accb612ff.jpg',
     releaseDate: '2006-04-14',
     length: 83,
+    genre: ['Comédie'],
+    saga: 'Scary Movie',
+    description: '',
+    fromEntity: null,
+    countryOrigin: ['États-Unis'],
+    selectDisplayOrder: 30,
+  },
+  {
+    title: 'Scary Movie 5',
+    director: 'Malcolm D. Lee',
+    actors: [
+      {
+        name: 'Ashley Tisdale',
+      },
+      {
+        name: 'Simon Rex',
+      },
+      {
+        name: 'Erica Ash',
+      },
+      {
+        name: 'Charlie Sheen',
+      },
+      {
+        name: 'Lindsay Lohan',
+      },
+      {
+        name: 'Terry Crews',
+      },
+      {
+        name: 'Katt Williams',
+      },
+    ],
+    coverUrl: '/movies_pictures/a8f4a093cb90.jpg',
+    releaseDate: '2013-04-12',
+    length: 86,
+    genre: ['Comédie'],
+    saga: 'Scary Movie',
+    description: '',
+    fromEntity: null,
+    countryOrigin: ['États-Unis'],
+    selectDisplayOrder: 30,
+  },
+  {
+    title: 'Scary Movie (6)',
+    director: 'Michael Tiddes',
+    actors: [
+      {
+        name: 'Marlon Wayans',
+      },
+      {
+        name: 'Shawn Wayans',
+      },
+      {
+        name: 'Anna Faris',
+      },
+      {
+        name: 'Regina Hall',
+      },
+      {
+        name: 'Simon Rex',
+      },
+      {
+        name: 'Craig Wayans',
+      },
+      {
+        name: 'Affion Crockett',
+      },
+    ],
+    coverUrl: '/movies_pictures/f71af794912a.jpg',
+    releaseDate: '2026-06-03',
+    length: 96,
     genre: ['Comédie'],
     saga: 'Scary Movie',
     description: '',
@@ -1573,28 +1681,6 @@ export const baseMoviesSagaComedie: BaseMovie[] = [
     selectDisplayOrder: 5,
   },
   {
-    title: 'Magic Mike XXL',
-    director: 'Gregory Jacobs',
-    actors: [
-      { name: 'Channing Tatum' },
-      { name: 'Matt Bomer' },
-      { name: 'Joe Manganiello' },
-      { name: 'Adam Rodriguez' },
-      { name: 'Kevin Nash' },
-      { name: 'Amber Heard' },
-      { name: 'Jada Pinkett Smith' },
-    ],
-    coverUrl: '/movies_pictures/magic_mike_xxl.jpg',
-    releaseDate: '2015-07-08',
-    length: 115,
-    genre: ['Comédie'],
-    saga: 'Magic Mike',
-    description: '',
-    fromEntity: null,
-    countryOrigin: ['États-Unis'],
-    selectDisplayOrder: 5,
-  },
-  {
     title: 'Magic Mike',
     director: 'Steven Soderbergh',
     actors: [
@@ -1614,8 +1700,31 @@ export const baseMoviesSagaComedie: BaseMovie[] = [
     description: '',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
-    selectDisplayOrder: 5,
+    selectDisplayOrder: 30,
   },
+  {
+    title: 'Magic Mike XXL',
+    director: 'Gregory Jacobs',
+    actors: [
+      { name: 'Channing Tatum' },
+      { name: 'Matt Bomer' },
+      { name: 'Joe Manganiello' },
+      { name: 'Adam Rodriguez' },
+      { name: 'Kevin Nash' },
+      { name: 'Amber Heard' },
+      { name: 'Jada Pinkett Smith' },
+    ],
+    coverUrl: '/movies_pictures/magic_mike_xxl.jpg',
+    releaseDate: '2015-07-08',
+    length: 115,
+    genre: ['Comédie'],
+    saga: 'Magic Mike',
+    description: '',
+    fromEntity: null,
+    countryOrigin: ['États-Unis'],
+    selectDisplayOrder: 30,
+  },
+
   {
     title: 'Hot Fuzz',
     director: 'Edgar Wright',
@@ -1628,8 +1737,7 @@ export const baseMoviesSagaComedie: BaseMovie[] = [
       { name: 'Edward Woodward' },
       { name: 'Rafe Spall' },
     ],
-    coverUrl:
-      '/movies_pictures/9243a4d2e759.jpg',
+    coverUrl: '/movies_pictures/9243a4d2e759.jpg',
     releaseDate: '2007-07-18',
     length: 121,
     genre: ['Comédie'],

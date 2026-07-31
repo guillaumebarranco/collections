@@ -28,7 +28,7 @@ export const baseMoviesSagaAction: BaseMovie[] = [
       },
     ],
     coverUrl:
-      '/movies_pictures/46813-the-fast-and-the-furious-0-150-0-225-crop.jpg',
+      '/movies_pictures/793f10a53a6f.jpg',
     releaseDate: '2001-06-22',
     length: 106,
     genre: ['Action'],
@@ -137,7 +137,8 @@ export const baseMoviesSagaAction: BaseMovie[] = [
         name: 'Gal Gadot',
       },
     ],
-    coverUrl: '/movies_pictures/43582-fast-furious-0-150-0-225-crop.jpg',
+    coverUrl:
+      '/movies_pictures/6d3ede7f8c62.jpg',
     releaseDate: '2009-04-03',
     length: 107,
     genre: ['Action'],
@@ -1936,7 +1937,7 @@ export const baseMoviesSagaAction: BaseMovie[] = [
     director: 'John Glen',
     actors: [
       { name: 'Timothy Dalton' },
-      { name: 'Maryam d\'Abo' },
+      { name: "Maryam d'Abo" },
       { name: 'Jeroen Krabbé' },
       { name: 'Joe Don Baker' },
       { name: 'John Rhys-Davies' },
@@ -2915,7 +2916,7 @@ export const baseMoviesSagaAction: BaseMovie[] = [
       },
     ],
     coverUrl:
-      '/movies_pictures/45074-xxx-state-of-the-union-0-150-0-225-crop.jpg',
+      '/movies_pictures/4587801ece2c.jpg',
     releaseDate: '2005-04-29',
     length: 101,
     genre: ['Action'],
@@ -3233,7 +3234,8 @@ export const baseMoviesSagaAction: BaseMovie[] = [
         name: 'Xing Yu',
       },
     ],
-    coverUrl: '/movies_pictures/ip_man.jpg',
+    coverUrl:
+      '/movies_pictures/2e39b2a9c5ef.jpg',
     releaseDate: '2010-10-05',
     length: 106,
     genre: ['Action'],
@@ -4038,28 +4040,7 @@ export const baseMoviesSagaAction: BaseMovie[] = [
     countryOrigin: ['France'],
     selectDisplayOrder: 5,
   },
-  {
-    title: 'Jumanji: Next Level',
-    director: 'Jake Kasdan',
-    actors: [
-      { name: 'Dwayne Johnson' },
-      { name: 'Jack Black' },
-      { name: 'Kevin Hart' },
-      { name: 'Karen Gillan' },
-      { name: 'Nick Jonas' },
-      { name: 'Awkwafina' },
-      { name: 'Danny DeVito' },
-    ],
-    coverUrl: '/movies_pictures/jumanji_next_level.jpg',
-    releaseDate: '2019-12-04',
-    length: 114,
-    genre: ['Action'],
-    saga: 'Jumanji',
-    description: '',
-    fromEntity: null,
-    countryOrigin: ['États-Unis'],
-    selectDisplayOrder: 5,
-  },
+
   {
     title: 'Equalizer 2',
     director: 'Antoine Fuqua',
@@ -4082,42 +4063,7 @@ export const baseMoviesSagaAction: BaseMovie[] = [
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 5,
   },
-  {
-    title: 'Jumanji : Bienvenue dans la jungle',
-    director: 'Jake Kasdan',
-    actors: [
-      {
-        name: 'Dwayne Johnson',
-      },
-      {
-        name: 'Kevin Hart',
-      },
-      {
-        name: 'Jack Black',
-      },
-      {
-        name: 'Karen Gillan',
-      },
-      {
-        name: 'Nick Jonas',
-      },
-      {
-        name: 'Rhys Darby',
-      },
-      {
-        name: 'Bobby Cannavale',
-      },
-    ],
-    coverUrl: '/movies_pictures/jumanji_welcome_to_the_jungle.jpg',
-    releaseDate: '2017-12-20',
-    length: 119,
-    genre: ['Action'],
-    saga: 'Jumanji',
-    description: '',
-    fromEntity: null,
-    countryOrigin: ['États-Unis'],
-    selectDisplayOrder: 5,
-  },
+
   {
     title: 'Equalizer',
     director: 'Antoine Fuqua',

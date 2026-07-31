@@ -740,43 +740,6 @@ export const baseMoviesApi: BaseMovie[] = [
   },
 
   {
-    title: 'Scary Movie (6)',
-    director: 'Michael Tiddes',
-    actors: [
-      {
-        name: 'Marlon Wayans',
-      },
-      {
-        name: 'Shawn Wayans',
-      },
-      {
-        name: 'Anna Faris',
-      },
-      {
-        name: 'Regina Hall',
-      },
-      {
-        name: 'Simon Rex',
-      },
-      {
-        name: 'Craig Wayans',
-      },
-      {
-        name: 'Affion Crockett',
-      },
-    ],
-    coverUrl: '/movies_pictures/f71af794912a.jpg',
-    releaseDate: '2026-06-03',
-    length: 96,
-    genre: ['Comédie'],
-    saga: 'Scary Movie',
-    description: '',
-    fromEntity: null,
-    countryOrigin: ['États-Unis'],
-    selectDisplayOrder: 0,
-  },
-
-  {
     title: 'Who',
     director: 'Wil Aime',
     actors: [
@@ -2150,43 +2113,6 @@ export const baseMoviesApi: BaseMovie[] = [
   },
 
   {
-    title: 'The Kissing Booth 3',
-    director: 'Vince Marcello',
-    actors: [
-      {
-        name: 'Joey King',
-      },
-      {
-        name: 'Joel Courtney',
-      },
-      {
-        name: 'Jacob Elordi',
-      },
-      {
-        name: 'Taylor Zakhar Perez',
-      },
-      {
-        name: 'Maisie Richardson-Sellers',
-      },
-      {
-        name: 'Meganne Young',
-      },
-      {
-        name: 'Molly Ringwald',
-      },
-    ],
-    coverUrl: '/movies_pictures/852d674b3e4a.jpg',
-    releaseDate: '2021-08-11',
-    length: 113,
-    genre: ['Comédie', 'Romance'],
-    saga: 'The Kissing Booth',
-    description: '',
-    fromEntity: null,
-    countryOrigin: ['États-Unis'],
-    selectDisplayOrder: 0,
-  },
-
-  {
     title: 'Fonzy',
     director: 'Isabelle Doval',
     actors: [
@@ -2221,96 +2147,6 @@ export const baseMoviesApi: BaseMovie[] = [
   },
 
   {
-    title: 'Evil Dead Rise',
-    director: ' Lee Cronin',
-    actors: [
-      {
-        name: 'Lily Sullivan',
-      },
-      {
-        name: 'Alyssa Sutherland',
-      },
-      {
-        name: 'Gabrielle Echols',
-      },
-      {
-        name: 'Morgan Davies',
-      },
-      {
-        name: 'Nell Fisher',
-      },
-    ],
-    coverUrl: '/movies_pictures/45e3233c104f.jpg',
-    releaseDate: '2023-04-19',
-    length: 97,
-    genre: ['Horreur'],
-    saga: 'Evil Dead',
-    description: '',
-    fromEntity: null,
-    countryOrigin: ['États-Unis'],
-    selectDisplayOrder: 0,
-  },
-
-  {
-    title: "Evil Dead III : L'Armée des ténèbres",
-    director: 'Sam Raimi',
-    actors: [
-      {
-        name: 'Bruce Campbell',
-      },
-      {
-        name: 'Embeth Davidtz',
-      },
-      {
-        name: 'Marcus Gilbert',
-      },
-      {
-        name: 'Ian Abercrombie',
-      },
-    ],
-    coverUrl: '/movies_pictures/02ec36cd80e3.jpg',
-    releaseDate: '1993-02-19',
-    length: 88,
-    genre: ['Horreur'],
-    saga: 'Evil Dead',
-    description: '',
-    fromEntity: null,
-    countryOrigin: ['États-Unis'],
-    selectDisplayOrder: 0,
-  },
-
-  {
-    title: 'Evil Dead Burn',
-    director: 'Sébastien Vaniček',
-    actors: [
-      {
-        name: 'Souheila Yacoub',
-      },
-      {
-        name: 'Tandi Wright',
-      },
-      {
-        name: 'Hunter Doohan',
-      },
-      {
-        name: 'Luciane Buchanan',
-      },
-      {
-        name: 'Maude Davey',
-      },
-    ],
-    coverUrl: '/movies_pictures/a0b11571af1c.jpg',
-    releaseDate: '2026-07-08',
-    length: 110,
-    genre: ['Horreur'],
-    saga: 'Evil Dead',
-    description: '',
-    fromEntity: null,
-    countryOrigin: ['États-Unis', 'Canada', 'Nouvelle-Zélande'],
-    selectDisplayOrder: 0,
-  },
-
-  {
     title: "La Bataille de Gaulle : J'écris ton nom",
     director: 'Antonin Baudry',
     actors: [
@@ -2338,46 +2174,6 @@ export const baseMoviesApi: BaseMovie[] = [
     description: '',
     fromEntity: null,
     countryOrigin: ['France'],
-    selectDisplayOrder: 0,
-  },
-
-  {
-    title: "L'Odyssée",
-    director: 'Christopher Nolan',
-    actors: [
-      {
-        name: 'Matt Damon',
-      },
-      {
-        name: 'Tom Holland',
-      },
-      {
-        name: 'Anne Hathaway',
-      },
-      {
-        name: 'Robert Pattinson',
-      },
-      {
-        name: 'Eliott Page',
-      },
-      {
-        name: 'Jon Bernthal',
-      },
-      {
-        name: 'Zendaya',
-      },
-      {
-        name: 'Charlize Theron',
-      },
-    ],
-    coverUrl: '/movies_pictures/7b8d3a77e0c5.webp',
-    releaseDate: '2026-07-15',
-    length: 172,
-    genre: ['Fantastique', 'Peplum'],
-    saga: '',
-    description: '',
-    fromEntity: null,
-    countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
   },
 

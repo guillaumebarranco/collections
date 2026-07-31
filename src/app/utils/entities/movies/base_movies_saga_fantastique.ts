@@ -324,8 +324,7 @@ export const baseMoviesSagaFantastique: BaseMovie[] = [
       { name: 'Ezra Miller' },
       { name: 'Johnny Depp' },
     ],
-    coverUrl:
-      '/movies_pictures/f6f15d8891c5.jpg',
+    coverUrl: '/movies_pictures/f6f15d8891c5.jpg',
     releaseDate: '2016-11-18',
     length: 133,
     genre: ['Fantastique'],
@@ -351,8 +350,7 @@ export const baseMoviesSagaFantastique: BaseMovie[] = [
       { name: 'Alison Sudol' },
       { name: 'Ezra Miller' },
     ],
-    coverUrl:
-      '/movies_pictures/c337e1ad46d9.jpg',
+    coverUrl: '/movies_pictures/c337e1ad46d9.jpg',
     releaseDate: '2018-11-16',
     length: 134,
     genre: ['Fantastique'],
@@ -378,8 +376,7 @@ export const baseMoviesSagaFantastique: BaseMovie[] = [
       { name: 'Alison Sudol' },
       { name: 'Ezra Miller' },
     ],
-    coverUrl:
-      '/movies_pictures/1e64e25886a0.jpg',
+    coverUrl: '/movies_pictures/1e64e25886a0.jpg',
     releaseDate: '2022-04-15',
     length: 142,
     genre: ['Fantastique'],
@@ -774,8 +771,7 @@ export const baseMoviesSagaFantastique: BaseMovie[] = [
         name: 'Neal McDonough',
       },
     ],
-    coverUrl:
-      '/movies_pictures/4e548d9e0ed8.png',
+    coverUrl: '/movies_pictures/4e548d9e0ed8.png',
     releaseDate: '2001-12-19',
     length: 178,
     genre: ['Fantastique'],
@@ -815,8 +811,7 @@ export const baseMoviesSagaFantastique: BaseMovie[] = [
         name: 'Bernard Hill',
       },
     ],
-    coverUrl:
-      '/movies_pictures/745fc9e7276b.jpg',
+    coverUrl: '/movies_pictures/745fc9e7276b.jpg',
     releaseDate: '2002-12-18',
     length: 179,
     genre: ['Fantastique'],
@@ -856,8 +851,7 @@ export const baseMoviesSagaFantastique: BaseMovie[] = [
         name: 'Liv Tyler',
       },
     ],
-    coverUrl:
-      '/movies_pictures/daf13fbc530c.jpg',
+    coverUrl: '/movies_pictures/daf13fbc530c.jpg',
     releaseDate: '2003-12-17',
     length: 201,
     genre: ['Fantastique'],
@@ -1145,8 +1139,7 @@ export const baseMoviesSagaFantastique: BaseMovie[] = [
         name: "Dean O'Gorman",
       },
     ],
-    coverUrl:
-      '/movies_pictures/bb1dfe109bc8.jpg',
+    coverUrl: '/movies_pictures/bb1dfe109bc8.jpg',
     releaseDate: '2012-12-14',
     length: 169,
     genre: ['Fantastique', 'Aventure'],
@@ -1186,8 +1179,7 @@ export const baseMoviesSagaFantastique: BaseMovie[] = [
         name: 'Benedict Cumberbatch',
       },
     ],
-    coverUrl:
-      '/movies_pictures/4e558d0b37d7.jpg',
+    coverUrl: '/movies_pictures/4e558d0b37d7.jpg',
     releaseDate: '2013-12-11',
     length: 161,
     genre: ['Fantastique'],
@@ -1227,8 +1219,7 @@ export const baseMoviesSagaFantastique: BaseMovie[] = [
         name: 'Lee Pace',
       },
     ],
-    coverUrl:
-      '/movies_pictures/fe927610c3cd.jpg',
+    coverUrl: '/movies_pictures/fe927610c3cd.jpg',
     releaseDate: '2014-12-10',
     length: 144,
     genre: ['Fantastique'],
@@ -1383,7 +1374,8 @@ export const baseMoviesSagaFantastique: BaseMovie[] = [
         name: 'Penelope Mitchell',
       },
     ],
-    coverUrl: '/movies_pictures/51012-hellboy-0-150-0-225-crop.jpg',
+    coverUrl:
+      '/movies_pictures/fc7dffb2f2ca.jpg',
     releaseDate: '2004-04-02',
     length: 122,
     genre: ['Action', 'Fantastique'],
@@ -1420,7 +1412,7 @@ export const baseMoviesSagaFantastique: BaseMovie[] = [
       },
     ],
     coverUrl:
-      '/movies_pictures/45459-hellboy-ii-the-golden-army-0-150-0-225-crop.jpg',
+      '/movies_pictures/7079cdf512d8.jpg',
     releaseDate: '2008-07-11',
     length: 120,
     genre: ['Action', 'Fantastique'],
@@ -1778,7 +1770,8 @@ export const baseMoviesSagaFantastique: BaseMovie[] = [
         name: 'Ernie Hudson',
       },
     ],
-    coverUrl: '/movies_pictures/ghostbusters.jpg',
+    coverUrl:
+      '/movies_pictures/36c47a750abf.jpg',
     releaseDate: '1984-12-12',
     length: 107,
     genre: ['Fantastique'],
@@ -1814,7 +1807,8 @@ export const baseMoviesSagaFantastique: BaseMovie[] = [
         name: 'Annie Potts',
       },
     ],
-    coverUrl: '/movies_pictures/ghostbusters_ii.jpg',
+    coverUrl:
+      '/movies_pictures/37732d9df863.jpg',
     releaseDate: '1989-12-13',
     length: 108,
     genre: ['Fantastique', 'Comédie'],
@@ -1872,7 +1866,7 @@ export const baseMoviesSagaFantastique: BaseMovie[] = [
         name: 'Mckenna Grace',
       },
       {
-        name: 'Celeste O\'Connor',
+        name: "Celeste O'Connor",
       },
       {
         name: 'Carrie Coon',
@@ -1895,6 +1889,6 @@ export const baseMoviesSagaFantastique: BaseMovie[] = [
     description: '',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
-    selectDisplayOrder: 5,
+    selectDisplayOrder: 20,
   },
 ];

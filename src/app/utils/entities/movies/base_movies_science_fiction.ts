@@ -2455,33 +2455,33 @@ export const baseMoviesScienceFiction: BaseMovie[] = [
     director: 'Stanley Kubrick',
     actors: [
       {
-        name: "Keir Dullea",
+        name: 'Keir Dullea',
       },
       {
-        name: "Gary Lockwood",
+        name: 'Gary Lockwood',
       },
       {
-        name: "William Sylvester",
+        name: 'William Sylvester',
       },
       {
-        name: "Leonard Rossiter",
+        name: 'Leonard Rossiter',
       },
       {
-        name: "Margaret Tyzack",
+        name: 'Margaret Tyzack',
       },
       {
-        name: "Robert Beatty",
+        name: 'Robert Beatty',
       },
       {
-        name: "Sean Sullivan",
-      }
+        name: 'Sean Sullivan',
+      },
     ],
-    coverUrl: "/movies_pictures/2001-lodyssee-de-lespace.jpg",
-    releaseDate: "2018-07-30",
+    coverUrl: '/movies_pictures/2001-lodyssee-de-lespace.jpg',
+    releaseDate: '2018-07-30',
     length: 149,
     genre: ['Science Fiction'],
-    saga: "",
-    description: "",
+    saga: '',
+    description: '',
     fromEntity: null,
     countryOrigin: ['France'],
     selectDisplayOrder: 0,
@@ -2802,7 +2802,7 @@ export const baseMoviesScienceFiction: BaseMovie[] = [
     description: '',
     fromEntity: null,
     countryOrigin: ['Corée du Sud'],
-    selectDisplayOrder: 5,
+    selectDisplayOrder: 30,
   },
   {
     title: 'District 9',
@@ -2838,7 +2838,7 @@ export const baseMoviesScienceFiction: BaseMovie[] = [
     description: '',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
-    selectDisplayOrder: 5,
+    selectDisplayOrder: 30,
   },
   {
     title: 'Gattaca',
@@ -2874,7 +2874,7 @@ export const baseMoviesScienceFiction: BaseMovie[] = [
     description: '',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
-    selectDisplayOrder: 5,
+    selectDisplayOrder: 30,
   },
   {
     title: 'Mars Attacks !',
@@ -3006,7 +3006,7 @@ export const baseMoviesScienceFiction: BaseMovie[] = [
     description: '',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
-    selectDisplayOrder: 5,
+    selectDisplayOrder: 30,
   },
 
   {
@@ -3041,7 +3041,7 @@ export const baseMoviesScienceFiction: BaseMovie[] = [
       secondEntityKey: 'Stephen King',
     },
     countryOrigin: ['États-Unis'],
-    selectDisplayOrder: 5,
+    selectDisplayOrder: 30,
   },
   {
     title: 'Megalopolis',
@@ -3207,28 +3207,7 @@ export const baseMoviesScienceFiction: BaseMovie[] = [
     countryOrigin: ['Canada'],
     selectDisplayOrder: 5,
   },
-  {
-    title: 'Pacific Rim: Uprising',
-    director: 'Steven S. DeKnight',
-    actors: [
-      { name: 'John Boyega' },
-      { name: 'Scott Eastwood' },
-      { name: 'Cailee Spaeny' },
-      { name: 'Jing Tian' },
-      { name: 'Rinko Kikuchi' },
-      { name: 'Charlie Day' },
-      { name: 'Burn Gorman' },
-    ],
-    coverUrl: '/movies_pictures/pacific_rim_uprising.jpg',
-    releaseDate: '2018-03-21',
-    length: 111,
-    genre: ['Science Fiction'],
-    saga: '',
-    description: '',
-    fromEntity: null,
-    countryOrigin: ['États-Unis'],
-    selectDisplayOrder: 5,
-  },
+
   {
     title: 'Life : Origine inconnue',
     director: 'Daniel Espinosa',
@@ -3314,7 +3293,7 @@ export const baseMoviesScienceFiction: BaseMovie[] = [
     description: '',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
-    selectDisplayOrder: 5,
+    selectDisplayOrder: 30,
   },
   {
     title: 'Sunshine',

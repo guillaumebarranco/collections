@@ -151,11 +151,49 @@ export const baseMoviesAnimationOthers: BaseMovie[] = [
         name: 'Seth MacFarlane',
       },
     ],
-    coverUrl: '/movies_pictures/sing.jpg',
+    coverUrl:
+      '/movies_pictures/5b84ce795b24.jpg',
     releaseDate: '2017-01-25',
     length: 108,
     genre: ['Animation'],
-    saga: '',
+    saga: 'Tous en scène',
+    description: '',
+    fromEntity: null,
+    countryOrigin: ['États-Unis'],
+    selectDisplayOrder: 25,
+  },
+  {
+    title: 'Tous en scène 2',
+    director: 'Garth Jennings',
+    actors: [
+      {
+        name: 'Matthew McConaughey',
+      },
+      {
+        name: 'Reese Witherspoon',
+      },
+      {
+        name: 'Scarlett Johansson',
+      },
+      {
+        name: 'Taron Egerton',
+      },
+      {
+        name: 'Tori Kelly',
+      },
+      {
+        name: 'Bono',
+      },
+      {
+        name: 'Halsey',
+      },
+    ],
+    coverUrl:
+      '/movies_pictures/36109c417cd6.jpg',
+    releaseDate: '2021-12-22',
+    length: 110,
+    genre: ['Animation'],
+    saga: 'Tous en scène',
     description: '',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
@@ -1656,7 +1694,8 @@ export const baseMoviesAnimationOthers: BaseMovie[] = [
         name: 'Helena Bonham Carter',
       },
     ],
-    coverUrl: '/movies_pictures/corpse_bride.jpg',
+    coverUrl:
+      '/movies_pictures/44523dbdb877.jpg',
     releaseDate: '2005-10-19',
     length: 76,
     genre: ['Animation'],
@@ -1809,7 +1848,7 @@ export const baseMoviesAnimationOthers: BaseMovie[] = [
     description: '',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
-    selectDisplayOrder: 0,
+    selectDisplayOrder: 25,
   },
   {
     title: 'Lego Batman, le film',
@@ -1825,7 +1864,8 @@ export const baseMoviesAnimationOthers: BaseMovie[] = [
         name: 'Rosario Dawson',
       },
     ],
-    coverUrl: '/movies_pictures/the_lego_batman_movie.jpg',
+    coverUrl:
+      '/movies_pictures/f1cff5f6d13d.jpg',
     releaseDate: '2017-02-08',
     length: 104,
     genre: ['Animation'],

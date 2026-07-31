@@ -100,7 +100,8 @@ export const baseMoviesFantastique: BaseMovie[] = [
         name: 'Silvia Colloca',
       },
     ],
-    coverUrl: '/movies_pictures/48113-van-helsing-0-150-0-225-crop.jpg',
+    coverUrl:
+      '/movies_pictures/55a03e7b71f5.jpg',
     releaseDate: '2004-05-07',
     length: 131,
     genre: ['Fantastique', 'Action'],
@@ -212,11 +213,50 @@ export const baseMoviesFantastique: BaseMovie[] = [
         name: 'Missi Pyle',
       },
     ],
-    coverUrl:
-      '/movies_pictures/51932-charlie-and-the-chocolate-factory-0-150-0-225-crop.jpg',
+    coverUrl: '/movies_pictures/eb06955eee39.jpg',
     releaseDate: '2005-07-15',
     length: 115,
     genre: ['Fantastique'],
+    saga: '',
+    description: '',
+    fromEntity: {
+      entityType: 'book',
+      title: 'Charlie et la Chocolaterie',
+      secondEntityKey: 'Roald Dahl',
+    },
+    countryOrigin: ['États-Unis'],
+    selectDisplayOrder: 30,
+  },
+  {
+    title: 'Wonka',
+    director: 'Paul King',
+    actors: [
+      {
+        name: 'Timothée Chalamet',
+      },
+      {
+        name: 'Gustave Die',
+      },
+      {
+        name: 'Murray McArthur',
+      },
+      {
+        name: 'Paul G. Raymond',
+      },
+      {
+        name: 'Bertie Caplan',
+      },
+      {
+        name: 'Isy Suttie',
+      },
+      {
+        name: 'Kobna Holdbrook-Smith',
+      },
+    ],
+    coverUrl: '/movies_pictures/1249162.jpg',
+    releaseDate: '2023-12-15',
+    length: 116,
+    genre: ['Fantastique', 'Jeunesse'],
     saga: '',
     description: '',
     fromEntity: {
@@ -559,46 +599,7 @@ export const baseMoviesFantastique: BaseMovie[] = [
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
   },
-  {
-    title: 'Wonka',
-    director: 'Paul King',
-    actors: [
-      {
-        name: 'Timothée Chalamet',
-      },
-      {
-        name: 'Gustave Die',
-      },
-      {
-        name: 'Murray McArthur',
-      },
-      {
-        name: 'Paul G. Raymond',
-      },
-      {
-        name: 'Bertie Caplan',
-      },
-      {
-        name: 'Isy Suttie',
-      },
-      {
-        name: 'Kobna Holdbrook-Smith',
-      },
-    ],
-    coverUrl: '/movies_pictures/1249162.jpg',
-    releaseDate: '2023-12-15',
-    length: 116,
-    genre: ['Fantastique', 'Jeunesse'],
-    saga: '',
-    description: '',
-    fromEntity: {
-      entityType: 'book',
-      title: 'Charlie et la Chocolaterie',
-      secondEntityKey: 'Roald Dahl',
-    },
-    countryOrigin: ['États-Unis'],
-    selectDisplayOrder: 5,
-  },
+
   {
     title: "Donjons & Dragons : L'Honneur des voleurs",
     director: 'John Francis Daley, Jonathan Goldstein',
@@ -737,7 +738,7 @@ export const baseMoviesFantastique: BaseMovie[] = [
       { name: 'Samuel L. Jackson' },
       { name: 'Judi Dench' },
       { name: 'Ella Purnell' },
-      { name: 'Chris O\'Dowd' },
+      { name: "Chris O'Dowd" },
       { name: 'Allison Janney' },
     ],
     coverUrl: '/movies_pictures/413443.jpg',
@@ -1000,7 +1001,7 @@ export const baseMoviesFantastique: BaseMovie[] = [
     description: '',
     fromEntity: null,
     countryOrigin: ['Espagne'],
-    selectDisplayOrder: 5,
+    selectDisplayOrder: 30,
   },
   {
     title: 'Constantine',
@@ -1094,7 +1095,7 @@ export const baseMoviesFantastique: BaseMovie[] = [
     description: '',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
-    selectDisplayOrder: 5,
+    selectDisplayOrder: 30,
   },
   {
     title: 'Tuck Everlasting',
@@ -1166,7 +1167,7 @@ export const baseMoviesFantastique: BaseMovie[] = [
     description: '',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
-    selectDisplayOrder: 5,
+    selectDisplayOrder: 30,
   },
   {
     title: "Edward aux mains d'argent",
@@ -1242,7 +1243,7 @@ export const baseMoviesFantastique: BaseMovie[] = [
   },
 
   {
-    title: 'La Forme de l\'eau',
+    title: "La Forme de l'eau",
     director: 'Guillermo del Toro',
     actors: [
       { name: 'Sally Hawkins' },
@@ -1256,6 +1257,28 @@ export const baseMoviesFantastique: BaseMovie[] = [
     coverUrl: '/movies_pictures/the_shape_of_water.jpg',
     releaseDate: '2018-02-21',
     length: 123,
+    genre: ['Fantastique'],
+    saga: '',
+    description: '',
+    fromEntity: null,
+    countryOrigin: ['États-Unis'],
+    selectDisplayOrder: 5,
+  },
+  {
+    title: 'Blanche-Neige et le Chasseur',
+    director: 'Rupert Sanders',
+    actors: [
+      { name: 'Kristen Stewart' },
+      { name: 'Chris Hemsworth' },
+      { name: 'Charlize Theron' },
+      { name: 'Sam Claflin' },
+      { name: 'Bob Hoskins' },
+      { name: 'Ian McShane' },
+      { name: 'Ray Winstone' },
+    ],
+    coverUrl: '/movies_pictures/snow_white_and_the_huntsman.jpg',
+    releaseDate: '2012-06-13',
+    length: 126,
     genre: ['Fantastique'],
     saga: '',
     description: '',
@@ -1311,28 +1334,7 @@ export const baseMoviesFantastique: BaseMovie[] = [
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 5,
   },
-  {
-    title: 'Blanche-Neige et le Chasseur',
-    director: 'Rupert Sanders',
-    actors: [
-      { name: 'Kristen Stewart' },
-      { name: 'Chris Hemsworth' },
-      { name: 'Charlize Theron' },
-      { name: 'Sam Claflin' },
-      { name: 'Bob Hoskins' },
-      { name: 'Ian McShane' },
-      { name: 'Ray Winstone' },
-    ],
-    coverUrl: '/movies_pictures/snow_white_and_the_huntsman.jpg',
-    releaseDate: '2012-06-13',
-    length: 126,
-    genre: ['Fantastique'],
-    saga: '',
-    description: '',
-    fromEntity: null,
-    countryOrigin: ['États-Unis'],
-    selectDisplayOrder: 5,
-  },
+
   {
     title: 'Les Chroniques de Spiderwick',
     director: 'Mark Waters',
@@ -1356,7 +1358,7 @@ export const baseMoviesFantastique: BaseMovie[] = [
     selectDisplayOrder: 5,
   },
   {
-    title: 'À la croisée des mondes : La Boussole d\'or',
+    title: "À la croisée des mondes : La Boussole d'or",
     director: 'Chris Weitz',
     actors: [
       { name: 'Dakota Blue Richards' },
@@ -1398,7 +1400,7 @@ export const baseMoviesFantastique: BaseMovie[] = [
         name: 'Djimon Hounsou',
       },
     ],
-    coverUrl: '/movies_pictures/eragon.jpg',
+    coverUrl: '/movies_pictures/39967372eed4.jpg',
     releaseDate: '2006-12-20',
     length: 103,
     genre: ['Fantastique'],
@@ -1505,7 +1507,7 @@ export const baseMoviesFantastique: BaseMovie[] = [
     selectDisplayOrder: 5,
   },
   {
-    title: 'L\'Histoire sans fin',
+    title: "L'Histoire sans fin",
     director: 'Wolfgang Petersen',
     actors: [
       { name: 'Noah Hathaway' },

@@ -481,7 +481,8 @@ export const baseMoviesThriller: BaseMovie[] = [
         name: 'Jean-Yves Berteloot',
       },
     ],
-    coverUrl: '/movies_pictures/415280-the-wolf-s-call-0-150-0-225-crop.jpg',
+    coverUrl:
+      '/movies_pictures/7c4e72b90934.jpg',
     releaseDate: '2019-02-20',
     length: 116,
     genre: ['Thriller'],
@@ -489,7 +490,7 @@ export const baseMoviesThriller: BaseMovie[] = [
     description: '',
     fromEntity: null,
     countryOrigin: ['France'],
-    selectDisplayOrder: 20,
+    selectDisplayOrder: 30,
   },
   {
     title: 'Bird Box',
@@ -1237,7 +1238,7 @@ export const baseMoviesThriller: BaseMovie[] = [
         name: 'Brennan Brown',
       },
     ],
-    coverUrl: '/movies_pictures/180414-focus-0-150-0-225-crop.jpg',
+    coverUrl: '/movies_pictures/382932e03a4e.jpg',
     releaseDate: '2015-02-27',
     length: 105,
     genre: ['Policier'],
@@ -6444,7 +6445,7 @@ export const baseMoviesThriller: BaseMovie[] = [
     description: '',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
-    selectDisplayOrder: 5,
+    selectDisplayOrder: 30,
   },
   {
     title: 'Tower of Terror',
@@ -7490,7 +7491,7 @@ export const baseMoviesThriller: BaseMovie[] = [
     description: '',
     fromEntity: null,
     countryOrigin: ['France'],
-    selectDisplayOrder: 5,
+    selectDisplayOrder: 30,
   },
   {
     title: 'Bugonia',
@@ -8118,8 +8119,7 @@ export const baseMoviesThriller: BaseMovie[] = [
       { name: 'Marika Lagercrantz' },
       { name: 'Ingvar Hirdwall' },
     ],
-    coverUrl:
-      '/movies_pictures/millenium_tome_1_les_hommes_qui_naimaient_pas_les_femmes.jpg',
+    coverUrl: '/movies_pictures/a6455f6c8c37.jpg',
     releaseDate: '2009-02-27',
     length: 152,
     genre: ['Thriller'],
@@ -8146,8 +8146,7 @@ export const baseMoviesThriller: BaseMovie[] = [
       { name: 'Tanja Lorentzon' },
       { name: 'Annika Hallin' },
     ],
-    coverUrl:
-      '/movies_pictures/millenium_tome_2_la_fille_qui_revait_d_un_bidon_d_essence_et_d_une_allumette.jpg',
+    coverUrl: '/movies_pictures/52f42a85416a.jpg',
     releaseDate: '2009-09-18',
     length: 129,
     genre: ['Thriller'],
@@ -8174,8 +8173,7 @@ export const baseMoviesThriller: BaseMovie[] = [
       { name: 'Micke Spreitz' },
       { name: 'Per Oscarsson' },
     ],
-    coverUrl:
-      '/movies_pictures/millenium_tome_3_la_reine_dans_le_palais_des_courants_d_air.jpg',
+    coverUrl: '/movies_pictures/d39e30f526f7.jpg',
     releaseDate: '2009-11-27',
     length: 147,
     genre: ['Thriller'],
@@ -8200,8 +8198,7 @@ export const baseMoviesThriller: BaseMovie[] = [
       { name: 'Maria de Medeiros' },
       { name: 'Joseph Olivennes' },
     ],
-    coverUrl:
-      '/movies_pictures/cbafada46394.webp',
+    coverUrl: '/movies_pictures/cbafada46394.webp',
     releaseDate: '2025-08-27',
     length: 107,
     genre: ['Thriller', 'Drame'],

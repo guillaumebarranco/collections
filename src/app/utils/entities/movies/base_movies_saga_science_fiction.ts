@@ -1129,7 +1129,7 @@ export const baseMoviesSagaScienceFiction: BaseMovie[] = [
     description: '',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
-    selectDisplayOrder: 20,
+    selectDisplayOrder: 30,
   },
   {
     title: 'Prey',
@@ -1159,7 +1159,7 @@ export const baseMoviesSagaScienceFiction: BaseMovie[] = [
     description: '',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
-    selectDisplayOrder: 0,
+    selectDisplayOrder: 30,
   },
   {
     title: 'Alien vs. Predator',
@@ -1439,8 +1439,7 @@ export const baseMoviesSagaScienceFiction: BaseMovie[] = [
         name: 'Bill Pullman',
       },
     ],
-    coverUrl:
-      '/movies_pictures/877b550e24ba.jpg',
+    coverUrl: '/movies_pictures/877b550e24ba.jpg',
     releaseDate: '1996-07-03',
     length: 145,
     genre: ['Science Fiction'],

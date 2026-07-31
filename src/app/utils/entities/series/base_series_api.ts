@@ -268,7 +268,7 @@ export const baseSeriesApi: BaseSerie[] = [
         name: "Aaron Ashmore",
       },
     ],
-    coverUrl: "https://m.media-amazon.com/images/M/MV5BYWFkOGU5ZTYtZTlhMi00NThiLWI3ZDEtMGQ2Y2UzNjlkZTUxXkEyXkFqcGc@._V1_.jpg",
+    coverUrl: "/series_pictures/17627a71adeb.jpg",
     releaseDate: "2026-06-18",
     endDate: "2026-06-18",
     genre: ['Thriller'],

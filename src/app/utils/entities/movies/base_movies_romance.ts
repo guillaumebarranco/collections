@@ -1033,6 +1033,28 @@ export const baseMoviesRomance: BaseMovie[] = [
     selectDisplayOrder: 10,
   },
   {
+    title: 'Step Up: All In',
+    director: 'Trish Sie',
+    actors: [
+      { name: 'Ryan Guzman' },
+      { name: 'Briana Evigan' },
+      { name: 'Alyson Stoner' },
+      { name: 'Adam G. Sevani' },
+      { name: 'Stephen Boss' },
+      { name: 'Misha Gabriel' },
+      { name: 'Izabella Miko' },
+    ],
+    coverUrl: '/movies_pictures/step_up_all_in.jpg',
+    releaseDate: '2014-08-08',
+    length: 112,
+    genre: ['Drame'],
+    saga: 'Sexy Dance',
+    description: '',
+    fromEntity: null,
+    countryOrigin: ['États-Unis'],
+    selectDisplayOrder: 10,
+  },
+  {
     title: "L'Arnacœur",
     director: 'Pascal Chaumeil',
     actors: [
@@ -2691,6 +2713,28 @@ export const baseMoviesRomance: BaseMovie[] = [
     selectDisplayOrder: 10,
   },
   {
+    title: "À tous les garçons que j'ai aimés",
+    director: 'Susan Johnson',
+    actors: [
+      { name: 'Lana Condor' },
+      { name: 'Noah Centineo' },
+      { name: 'Janel Parrish' },
+      { name: 'Anna Cathcart' },
+      { name: 'John Corbett' },
+      { name: 'Israel Broussard' },
+      { name: 'Madeleine Arthur' },
+    ],
+    coverUrl: '/movies_pictures/to_all_the_boys_i_ve_loved_before.jpg',
+    releaseDate: '2018-08-17',
+    length: 99,
+    genre: ['Comédie'],
+    saga: '',
+    description: '',
+    fromEntity: null,
+    countryOrigin: ['États-Unis'],
+    selectDisplayOrder: 10,
+  },
+  {
     title: 'À tous les garçons : Pour toujours et à jamais',
     director: 'Michael Fimognari',
     actors: [
@@ -2727,34 +2771,142 @@ export const baseMoviesRomance: BaseMovie[] = [
     selectDisplayOrder: 10,
   },
   {
+    title: "À tous les garçons : P.S. Je t'aime toujours",
+    director: 'Michael Fimognari',
+    actors: [
+      {
+        name: 'Lana Condor',
+      },
+      {
+        name: 'Noah Centineo',
+      },
+      {
+        name: 'Jordan Fisher',
+      },
+      {
+        name: 'Anna Cathcart',
+      },
+      {
+        name: 'John Corbett',
+      },
+      {
+        name: 'Sarayu Blue',
+      },
+      {
+        name: 'Janel Parrish',
+      },
+    ],
+    coverUrl: '/movies_pictures/5599609.webp',
+    releaseDate: '2020-02-12',
+    length: 102,
+    genre: ['Romance', 'Comédie'],
+    saga: 'A Tous les Garçons',
+    description: '',
+    fromEntity: null,
+    countryOrigin: ['États-Unis'],
+    selectDisplayOrder: 10,
+  },
+  {
+    title: 'The Kissing Booth',
+    director: 'Vince Marcello',
+    actors: [
+      {
+        name: 'Joey King',
+      },
+      {
+        name: 'Jacob Elordi',
+      },
+      {
+        name: 'Joel Courtney',
+      },
+      {
+        name: 'Molly Ringwald',
+      },
+      {
+        name: 'Meg Donnelly',
+      },
+      {
+        name: 'Moses Arias',
+      },
+      {
+        name: 'Courtney Jines',
+      },
+    ],
+    coverUrl: '/movies_pictures/4574d8e055c3.jpg',
+    releaseDate: '2018-05-11',
+    length: 105,
+    genre: ['Romance', 'Comédie'],
+    saga: 'The Kissing Booth',
+    description: '',
+    fromEntity: null,
+    countryOrigin: ['États-Unis'],
+    selectDisplayOrder: 10,
+  },
+  {
     title: 'The Kissing Booth 2',
     director: 'Vince Marcello',
     actors: [
       {
-        name: "Joey King",
+        name: 'Joey King',
       },
       {
-        name: "Joel Courtney",
+        name: 'Joel Courtney',
       },
       {
-        name: "Jacob Elordi",
+        name: 'Jacob Elordi',
       },
       {
-        name: "Maisie Richardson-Sellers",
+        name: 'Maisie Richardson-Sellers',
       },
       {
-        name: "Molly Ringwald",
+        name: 'Molly Ringwald',
       },
       {
-        name: "Meganne Young",
-      }
+        name: 'Meganne Young',
+      },
     ],
-    coverUrl: "/movies_pictures/0527531.webp",
-    releaseDate: "2020-07-24",
+    coverUrl: '/movies_pictures/0527531.webp',
+    releaseDate: '2020-07-24',
     length: 132,
     genre: ['Romance', 'Comédie'],
-    saga: "The Kissing Booth",
-    description: "",
+    saga: 'The Kissing Booth',
+    description: '',
+    fromEntity: null,
+    countryOrigin: ['États-Unis'],
+    selectDisplayOrder: 10,
+  },
+  {
+    title: 'The Kissing Booth 3',
+    director: 'Vince Marcello',
+    actors: [
+      {
+        name: 'Joey King',
+      },
+      {
+        name: 'Joel Courtney',
+      },
+      {
+        name: 'Jacob Elordi',
+      },
+      {
+        name: 'Taylor Zakhar Perez',
+      },
+      {
+        name: 'Maisie Richardson-Sellers',
+      },
+      {
+        name: 'Meganne Young',
+      },
+      {
+        name: 'Molly Ringwald',
+      },
+    ],
+    coverUrl: '/movies_pictures/852d674b3e4a.jpg',
+    releaseDate: '2021-08-11',
+    length: 113,
+    genre: ['Comédie', 'Romance'],
+    saga: 'The Kissing Booth',
+    description: '',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 10,
@@ -2835,42 +2987,7 @@ export const baseMoviesRomance: BaseMovie[] = [
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 10,
   },
-  {
-    title: "À tous les garçons : P.S. Je t'aime toujours",
-    director: 'Michael Fimognari',
-    actors: [
-      {
-        name: 'Lana Condor',
-      },
-      {
-        name: 'Noah Centineo',
-      },
-      {
-        name: 'Jordan Fisher',
-      },
-      {
-        name: 'Anna Cathcart',
-      },
-      {
-        name: 'John Corbett',
-      },
-      {
-        name: 'Sarayu Blue',
-      },
-      {
-        name: 'Janel Parrish',
-      },
-    ],
-    coverUrl: '/movies_pictures/5599609.webp',
-    releaseDate: '2020-02-12',
-    length: 102,
-    genre: ['Romance', 'Comédie'],
-    saga: 'A Tous les Garçons',
-    description: '',
-    fromEntity: null,
-    countryOrigin: ['États-Unis'],
-    selectDisplayOrder: 10,
-  },
+
   {
     title: 'About Time',
     director: 'Richard Curtis',
@@ -3256,7 +3373,27 @@ export const baseMoviesRomance: BaseMovie[] = [
     releaseDate: '2001-04-13',
     length: 97,
     genre: ['Comédie', 'Romance'],
-    saga: '',
+    saga: 'Bridget Jones',
+    description: '',
+    fromEntity: null,
+    countryOrigin: ['États-Unis'],
+    selectDisplayOrder: 30,
+  },
+  {
+    title: "Bridget Jones : L'Âge de raison",
+    director: 'Beeban Kidron',
+    actors: [
+      { name: 'Renée Zellweger' },
+      { name: 'Colin Firth' },
+      { name: 'Hugh Grant' },
+      { name: 'Jim Broadbent' },
+      { name: 'Gemma Jones' },
+    ],
+    coverUrl: '/movies_pictures/7d28b2948ee9.jpg',
+    releaseDate: '2004-11-12',
+    length: 108,
+    genre: ['Comédie', 'Romance'],
+    saga: 'Bridget Jones',
     description: '',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
@@ -3319,6 +3456,50 @@ export const baseMoviesRomance: BaseMovie[] = [
     length: 108,
     genre: ['Comédie', 'Romance'],
     saga: 'Mon Beau-Père et... Moi',
+    description: '',
+    fromEntity: null,
+    countryOrigin: ['États-Unis'],
+    selectDisplayOrder: 10,
+  },
+  {
+    title: 'Mon beau-père, mes parents et moi',
+    director: 'Jay Roach',
+    actors: [
+      { name: 'Robert De Niro' },
+      { name: 'Ben Stiller' },
+      { name: 'Dustin Hoffman' },
+      { name: 'Barbra Streisand' },
+      { name: 'Teri Polo' },
+      { name: 'Blythe Danner' },
+      { name: 'Owen Wilson' },
+    ],
+    coverUrl: '/movies_pictures/8441ea155b52.jpg',
+    releaseDate: '2004-12-22',
+    length: 115,
+    genre: ['Comédie'],
+    saga: '',
+    description: '',
+    fromEntity: null,
+    countryOrigin: ['États-Unis'],
+    selectDisplayOrder: 10,
+  },
+  {
+    title: 'Mon beau-père et nous',
+    director: 'Paul Weitz',
+    actors: [
+      { name: 'Robert De Niro' },
+      { name: 'Ben Stiller' },
+      { name: 'Owen Wilson' },
+      { name: 'Teri Polo' },
+      { name: 'Jessica Alba' },
+      { name: 'Dustin Hoffman' },
+      { name: 'Barbra Streisand' },
+    ],
+    coverUrl: '/movies_pictures/42a7f948cc61.jpg',
+    releaseDate: '2010-12-22',
+    length: 98,
+    genre: ['Comédie'],
+    saga: '',
     description: '',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
@@ -4838,7 +5019,7 @@ export const baseMoviesRomance: BaseMovie[] = [
     description: '',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
-    selectDisplayOrder: 5,
+    selectDisplayOrder: 10,
   },
   {
     title: 'Mange, prie, aime',
@@ -4903,8 +5084,7 @@ export const baseMoviesRomance: BaseMovie[] = [
         name: 'Macy Gray',
       },
     ],
-    coverUrl:
-      '/movies_pictures/b885b5aad82c.jpg',
+    coverUrl: '/movies_pictures/b885b5aad82c.jpg',
     releaseDate: '2015-02-14',
     length: 94,
     genre: ['Comédie', 'Romance'],

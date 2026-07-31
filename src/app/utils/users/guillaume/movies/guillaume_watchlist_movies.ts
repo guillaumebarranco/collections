@@ -3827,7 +3827,7 @@ export const guillaumeWatchlistMovies: UserMovies = [
     inList: [],
   },
   {
-    title: "Godzilla: King of the Monsters",
+    title: "Godzilla II - Roi des Monstres",
     director: "Michael Dougherty",
     rating: 0,
     timesWatched: 0,

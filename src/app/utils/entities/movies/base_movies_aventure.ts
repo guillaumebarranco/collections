@@ -272,7 +272,8 @@ export const baseMoviesAventure: BaseMovie[] = [
         name: 'Naomi Watts',
       },
     ],
-    coverUrl: '/movies_pictures/king_kong.jpg',
+    coverUrl:
+      '/movies_pictures/ce2736656bb8.jpg',
     releaseDate: '2005-12-10',
     length: 187,
     genre: ['Aventure'],
@@ -280,7 +281,40 @@ export const baseMoviesAventure: BaseMovie[] = [
     description: '',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
-    selectDisplayOrder: 0,
+    selectDisplayOrder: 30,
+  },
+  {
+    title: 'Kong: Skull Island',
+    director: ' Jordan Vogt-Roberts',
+    actors: [
+      {
+        name: 'Tom Hiddleston',
+      },
+      {
+        name: 'Brie Larson',
+      },
+      {
+        name: 'Samuel L. Jackson',
+      },
+      {
+        name: 'John C Reilly',
+      },
+      {
+        name: 'John Goodman',
+      },
+      {
+        name: 'Toby Kebbell',
+      },
+    ],
+    coverUrl: '/movies_pictures/8c66fb0057c6.jpg',
+    releaseDate: '2017-03-08',
+    length: 118,
+    genre: ['Action'],
+    saga: 'MonsterVerse',
+    description: '',
+    fromEntity: null,
+    countryOrigin: ['États-Unis'],
+    selectDisplayOrder: 30,
   },
   {
     title: 'Voyage au Centre de la Terre',
@@ -340,10 +374,71 @@ export const baseMoviesAventure: BaseMovie[] = [
         name: 'Bradley Pierce',
       },
     ],
-    coverUrl: '/movies_pictures/jumanji.jpg',
+    coverUrl:
+      '/movies_pictures/6af73f17f7fd.jpg',
     releaseDate: '1995-12-15',
     length: 104,
     genre: ['Aventure'],
+    saga: 'Jumanji',
+    description: '',
+    fromEntity: null,
+    countryOrigin: ['États-Unis'],
+    selectDisplayOrder: 30,
+  },
+  {
+    title: 'Jumanji : Bienvenue dans la jungle',
+    director: 'Jake Kasdan',
+    actors: [
+      {
+        name: 'Dwayne Johnson',
+      },
+      {
+        name: 'Kevin Hart',
+      },
+      {
+        name: 'Jack Black',
+      },
+      {
+        name: 'Karen Gillan',
+      },
+      {
+        name: 'Nick Jonas',
+      },
+      {
+        name: 'Rhys Darby',
+      },
+      {
+        name: 'Bobby Cannavale',
+      },
+    ],
+    coverUrl:
+      '/movies_pictures/e05fcf3def2b.jpg',
+    releaseDate: '2017-12-20',
+    length: 119,
+    genre: ['Action'],
+    saga: 'Jumanji',
+    description: '',
+    fromEntity: null,
+    countryOrigin: ['États-Unis'],
+    selectDisplayOrder: 30,
+  },
+  {
+    title: 'Jumanji: Next Level',
+    director: 'Jake Kasdan',
+    actors: [
+      { name: 'Dwayne Johnson' },
+      { name: 'Jack Black' },
+      { name: 'Kevin Hart' },
+      { name: 'Karen Gillan' },
+      { name: 'Nick Jonas' },
+      { name: 'Awkwafina' },
+      { name: 'Danny DeVito' },
+    ],
+    coverUrl:
+      '/movies_pictures/c2f7adfa985b.jpg',
+    releaseDate: '2019-12-04',
+    length: 114,
+    genre: ['Action'],
     saga: 'Jumanji',
     description: '',
     fromEntity: null,
@@ -1155,6 +1250,56 @@ export const baseMoviesAventure: BaseMovie[] = [
     selectDisplayOrder: 5,
   },
   {
+    title: 'Les Trois Mousquetaires',
+    director: 'Paul W.S. Anderson',
+    actors: [
+      { name: 'Logan Lerman' },
+      { name: 'Milla Jovovich' },
+      { name: 'Matthew Macfadyen' },
+      { name: 'Ray Stevenson' },
+      { name: 'Luke Evans' },
+      { name: 'Mads Mikkelsen' },
+      { name: 'Christoph Waltz' },
+    ],
+    coverUrl:
+      '/movies_pictures/c3c0ec7574cf.jpg',
+    releaseDate: '2011-10-12',
+    length: 110,
+    genre: ['Action'],
+    saga: '',
+    description: '',
+    fromEntity: null,
+    countryOrigin: ['États-Unis'],
+    selectDisplayOrder: 30,
+  },
+  {
+    title: "Les trois mousquetaires: D'Artagnan",
+    director: 'Martin Bourboulon',
+    actors: [
+      { name: 'François Civil' },
+      { name: 'Vincent Cassel' },
+      { name: 'Romain Duris' },
+      { name: 'Pio Marmaï' },
+      { name: 'Eva Green' },
+      { name: 'Louis Garrel' },
+      { name: 'Lyna Khoudri' },
+    ],
+    coverUrl:
+      '/movies_pictures/093bb75f5f29.jpg',
+    releaseDate: '2023-01-01',
+    length: 121,
+    genre: ['Drame'],
+    saga: '',
+    description: '',
+    fromEntity: {
+      entityType: 'book',
+      title: 'Les Trois Mousquetaires',
+      secondEntityKey: 'Alexandre Dumas',
+    },
+    countryOrigin: ['France'],
+    selectDisplayOrder: 30,
+  },
+  {
     title: 'Les Trois Mousquetaires : Milady',
     director: 'Martin Bourboulon',
     actors: [
@@ -1174,7 +1319,8 @@ export const baseMoviesAventure: BaseMovie[] = [
         name: 'Pio Marmaï',
       },
     ],
-    coverUrl: '/movies_pictures/les_trois_mousquetaires_milady.jpg',
+    coverUrl:
+      '/movies_pictures/86dbbc2e8dcb.jpg',
     releaseDate: '2023-12-13',
     length: 114,
     genre: ['Aventure'],
@@ -1186,7 +1332,7 @@ export const baseMoviesAventure: BaseMovie[] = [
       secondEntityKey: 'Alexandre Dumas',
     },
     countryOrigin: ['France'],
-    selectDisplayOrder: 5,
+    selectDisplayOrder: 30,
   },
   {
     title: "Voyage au centre de la Terre 2 : L'Île mystérieuse",
@@ -1311,7 +1457,7 @@ export const baseMoviesAventure: BaseMovie[] = [
       { name: 'Russell Crowe' },
       { name: 'Paul Bettany' },
       { name: 'Billy Boyd' },
-      { name: 'James D\'Arcy' },
+      { name: "James D'Arcy" },
       { name: 'Lee Ingleby' },
       { name: 'George Innes' },
       { name: 'Chris Larkin' },
@@ -1427,7 +1573,8 @@ export const baseMoviesAventure: BaseMovie[] = [
       { name: 'Martha Plimpton' },
       { name: 'Ke Huy Quan' },
     ],
-    coverUrl: '/movies_pictures/the_goonies.jpg',
+    coverUrl:
+      '/movies_pictures/5e81ee15893b.jpg',
     releaseDate: '1985-12-04',
     length: 114,
     genre: ['Aventure'],

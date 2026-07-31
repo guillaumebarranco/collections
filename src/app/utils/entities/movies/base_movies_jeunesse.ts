@@ -315,7 +315,7 @@ export const baseMoviesJeunesse: BaseMovie[] = [
         name: 'Imelda Staunton',
       },
     ],
-    coverUrl: '/movies_pictures/malefique.jpg',
+    coverUrl: '/movies_pictures/449b5511f1e4.jpg',
     releaseDate: '2014-05-30',
     length: 97,
     genre: ['Fantastique'],
@@ -388,7 +388,7 @@ export const baseMoviesJeunesse: BaseMovie[] = [
       },
     ],
     coverUrl:
-      '/movies_pictures/248708-beauty-and-the-beast-0-150-0-225-crop.jpg',
+      '/movies_pictures/599ed5e8be56.jpg',
     releaseDate: '2017-03-17',
     length: 129,
     genre: ['Fantastique', 'Romance'],
@@ -424,7 +424,8 @@ export const baseMoviesJeunesse: BaseMovie[] = [
         name: 'Billy Magnussen',
       },
     ],
-    coverUrl: '/movies_pictures/354538-aladdin-0-150-0-225-crop.jpg',
+    coverUrl:
+      '/movies_pictures/f104e50be44a.jpg',
     releaseDate: '2019-05-24',
     length: 128,
     genre: ['Fantastique'],

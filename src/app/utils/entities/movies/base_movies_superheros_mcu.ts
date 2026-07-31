@@ -1139,6 +1139,47 @@ export const baseMoviesSuperherosMcu: BaseMovie[] = [
     selectDisplayOrder: 20,
   },
   {
+    title: 'Spider-Man : Brand New Day',
+    director: 'Destin Daniel Cretton',
+    actors: [
+      {
+        name: 'Tom Holland',
+      },
+      {
+        name: 'Zendaya',
+      },
+      {
+        name: 'Sadie Sink',
+      },
+      {
+        name: 'Jacob Batalon',
+      },
+      {
+        name: 'Jon Bernthal',
+      },
+      {
+        name: 'Mark Ruffalo',
+      },
+      {
+        name: 'Michael Mando',
+      },
+    ],
+    coverUrl:
+      '/movies_pictures/58b7fefe8ffc.jpg',
+    releaseDate: '2026-07-29',
+    length: 145,
+    genre: ['Action'],
+    saga: 'Marvel Cinematic Universe',
+    description: '',
+    fromEntity: {
+      entityType: 'comic',
+      title: 'Spider-Man',
+      secondEntityKey: 'Stan Lee',
+    },
+    countryOrigin: ['États-Unis'],
+    selectDisplayOrder: 0,
+  },
+  {
     title: 'Black Widow',
     director: 'Cate Shortland',
     actors: [

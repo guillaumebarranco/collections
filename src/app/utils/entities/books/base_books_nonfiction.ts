@@ -286,7 +286,7 @@ export const baseBooksNonfiction: BaseBook[] = [
       'Le trouble borderline : Pour mieux comprendre la personnalité limite',
     author: 'Jean-Pierre Guichard',
     coverUrl:
-      'https://www.editions-ellipses.fr/48123-large_default/le-trouble-borderline-pour-mieux-comprendre-la-personnalite-limite.jpg',
+      '/books_pictures/cbda1ede4b88.jpg',
     pages: 291,
     genre: ['Nonfiction'],
     saga: '',
@@ -301,7 +301,7 @@ export const baseBooksNonfiction: BaseBook[] = [
     title: 'Borderline: Une vie au bord du gouffre',
     author: 'Catherine S. Danemark et Michel Kummer',
     coverUrl:
-      'https://m.media-amazon.com/images/I/71T4ttXe79L._CR0%2C0%2C0%2C130_.jpg',
+      '/books_pictures/3a45cc2f6985.jpg',
     pages: 672,
     genre: ['Nonfiction'],
     saga: '',

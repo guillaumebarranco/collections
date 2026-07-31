@@ -217,6 +217,114 @@ export const baseMoviesSagaAutres: BaseMovie[] = [
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 30,
   },
+  {
+    title: 'Creed',
+    director: 'Ryan Coogler',
+    actors: [
+      {
+        name: 'Sylvester Stallone',
+      },
+      {
+        name: 'Michael B. Jordan',
+      },
+      {
+        name: 'Tessa Thompson',
+      },
+      {
+        name: 'Phylicia Rashād',
+      },
+      {
+        name: 'Tony Bellew',
+      },
+      {
+        name: 'Ritchie Coster',
+      },
+      {
+        name: 'Wood Harris',
+      },
+    ],
+    coverUrl: '/movies_pictures/239260-creed-0-150-0-225-crop.jpg',
+    releaseDate: '2015-11-25',
+    length: 133,
+    genre: ['Drame'],
+    saga: 'Rocky',
+    description: '',
+    fromEntity: null,
+    countryOrigin: ['États-Unis'],
+    selectDisplayOrder: 30,
+  },
+  {
+    title: 'Creed II',
+    director: 'Steven Caple Jr.',
+    actors: [
+      {
+        name: 'Michael B. Jordan',
+      },
+      {
+        name: 'Sylvester Stallone',
+      },
+      {
+        name: 'Tessa Thompson',
+      },
+      {
+        name: 'Dolph Lundgren',
+      },
+      {
+        name: 'Florian Munteanu',
+      },
+      {
+        name: 'Phylicia Rashād',
+      },
+      {
+        name: 'Andre Ward',
+      },
+    ],
+    coverUrl: '/movies_pictures/411439-creed-ii-0-150-0-225-crop.jpg',
+    releaseDate: '2018-11-21',
+    length: 130,
+    genre: ['Drame'],
+    saga: 'Rocky',
+    description: '',
+    fromEntity: null,
+    countryOrigin: ['États-Unis'],
+    selectDisplayOrder: 30,
+  },
+  {
+    title: 'Creed III',
+    director: 'Michael B. Jordan',
+    actors: [
+      {
+        name: 'Michael B. Jordan',
+      },
+      {
+        name: 'Tessa Thompson',
+      },
+      {
+        name: 'Phylicia Rashād',
+      },
+      {
+        name: 'Jonathan Majors',
+      },
+      {
+        name: 'Wood Harris',
+      },
+      {
+        name: 'Florian Munteanu',
+      },
+      {
+        name: 'Jose Benavidez',
+      },
+    ],
+    coverUrl: '/movies_pictures/601624-creed-iii-0-150-0-225-crop.jpg',
+    releaseDate: '2023-03-03',
+    length: 116,
+    genre: ['Drame'],
+    saga: 'Rocky',
+    description: '',
+    fromEntity: null,
+    countryOrigin: ['États-Unis'],
+    selectDisplayOrder: 30,
+  },
 
   {
     title: 'Spy Kids',
@@ -436,6 +544,42 @@ export const baseMoviesSagaAutres: BaseMovie[] = [
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 30,
   },
+  {
+    title: 'La Momie',
+    director: 'Alex Kurtzman',
+    actors: [
+      {
+        name: 'Tom Cruise',
+      },
+      {
+        name: 'Sofia Boutella',
+      },
+      {
+        name: 'Annabelle Wallis',
+      },
+      {
+        name: 'Jake Johnson',
+      },
+      {
+        name: 'Courtney B. Vance',
+      },
+      {
+        name: 'Russell Crowe',
+      },
+      {
+        name: 'Javier Botet',
+      },
+    ],
+    coverUrl: '/movies_pictures/286958.jpg',
+    releaseDate: '2017-06-09',
+    length: 110,
+    genre: ['Action'],
+    saga: '',
+    description: '',
+    fromEntity: null,
+    countryOrigin: ['États-Unis'],
+    selectDisplayOrder: 30,
+  },
 
   {
     title: 'Le Parrain',
@@ -508,6 +652,42 @@ export const baseMoviesSagaAutres: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 30,
+  },
+  {
+    title: 'Le Parrain, 3e partie',
+    director: 'Francis Ford Coppola',
+    actors: [
+      {
+        name: 'Al Pacino',
+      },
+      {
+        name: 'Diane Keaton',
+      },
+      {
+        name: 'Andy Garcia',
+      },
+      {
+        name: 'Talia Shire',
+      },
+      {
+        name: 'Eli Wallach',
+      },
+      {
+        name: 'Joe Mantegna',
+      },
+      {
+        name: 'Sofia Coppola',
+      },
+    ],
+    coverUrl: '/movies_pictures/b25fa6f596af.jpg',
+    releaseDate: '1991-03-27',
+    length: 162,
+    genre: ['Policier'],
+    saga: 'Le Parrain',
+    description: '',
+    fromEntity: null,
+    countryOrigin: ['États-Unis'],
+    selectDisplayOrder: 0,
   },
   {
     title: 'Enola Holmes',
@@ -784,114 +964,6 @@ export const baseMoviesSagaAutres: BaseMovie[] = [
     length: 129,
     genre: ['Thriller'],
     saga: 'Incassable',
-    description: '',
-    fromEntity: null,
-    countryOrigin: ['États-Unis'],
-    selectDisplayOrder: 20,
-  },
-  {
-    title: 'Creed',
-    director: 'Ryan Coogler',
-    actors: [
-      {
-        name: 'Sylvester Stallone',
-      },
-      {
-        name: 'Michael B. Jordan',
-      },
-      {
-        name: 'Tessa Thompson',
-      },
-      {
-        name: 'Phylicia Rashād',
-      },
-      {
-        name: 'Tony Bellew',
-      },
-      {
-        name: 'Ritchie Coster',
-      },
-      {
-        name: 'Wood Harris',
-      },
-    ],
-    coverUrl: '/movies_pictures/239260-creed-0-150-0-225-crop.jpg',
-    releaseDate: '2015-11-25',
-    length: 133,
-    genre: ['Drame'],
-    saga: 'Rocky',
-    description: '',
-    fromEntity: null,
-    countryOrigin: ['États-Unis'],
-    selectDisplayOrder: 20,
-  },
-  {
-    title: 'Creed II',
-    director: 'Steven Caple Jr.',
-    actors: [
-      {
-        name: 'Michael B. Jordan',
-      },
-      {
-        name: 'Sylvester Stallone',
-      },
-      {
-        name: 'Tessa Thompson',
-      },
-      {
-        name: 'Dolph Lundgren',
-      },
-      {
-        name: 'Florian Munteanu',
-      },
-      {
-        name: 'Phylicia Rashād',
-      },
-      {
-        name: 'Andre Ward',
-      },
-    ],
-    coverUrl: '/movies_pictures/411439-creed-ii-0-150-0-225-crop.jpg',
-    releaseDate: '2018-11-21',
-    length: 130,
-    genre: ['Drame'],
-    saga: 'Rocky',
-    description: '',
-    fromEntity: null,
-    countryOrigin: ['États-Unis'],
-    selectDisplayOrder: 20,
-  },
-  {
-    title: 'Creed III',
-    director: 'Michael B. Jordan',
-    actors: [
-      {
-        name: 'Michael B. Jordan',
-      },
-      {
-        name: 'Tessa Thompson',
-      },
-      {
-        name: 'Phylicia Rashād',
-      },
-      {
-        name: 'Jonathan Majors',
-      },
-      {
-        name: 'Wood Harris',
-      },
-      {
-        name: 'Florian Munteanu',
-      },
-      {
-        name: 'Jose Benavidez',
-      },
-    ],
-    coverUrl: '/movies_pictures/601624-creed-iii-0-150-0-225-crop.jpg',
-    releaseDate: '2023-03-03',
-    length: 116,
-    genre: ['Drame'],
-    saga: 'Rocky',
     description: '',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
@@ -1246,28 +1318,7 @@ export const baseMoviesSagaAutres: BaseMovie[] = [
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 5,
   },
-  {
-    title: 'Step Up: All In',
-    director: 'Trish Sie',
-    actors: [
-      { name: 'Ryan Guzman' },
-      { name: 'Briana Evigan' },
-      { name: 'Alyson Stoner' },
-      { name: 'Adam G. Sevani' },
-      { name: 'Stephen Boss' },
-      { name: 'Misha Gabriel' },
-      { name: 'Izabella Miko' },
-    ],
-    coverUrl: '/movies_pictures/step_up_all_in.jpg',
-    releaseDate: '2014-08-08',
-    length: 112,
-    genre: ['Drame'],
-    saga: 'Sexy Dance',
-    description: '',
-    fromEntity: null,
-    countryOrigin: ['États-Unis'],
-    selectDisplayOrder: 5,
-  },
+
   {
     title: 'High School Musical 3 : Nos années lycée',
     director: 'Kenny Ortega',

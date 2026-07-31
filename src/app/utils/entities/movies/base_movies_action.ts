@@ -569,7 +569,7 @@ export const baseMoviesAction: BaseMovie[] = [
         name: 'Don Ferguson',
       },
     ],
-    coverUrl: '/movies_pictures/47277-ong-bak-0-150-0-225-crop.jpg',
+    coverUrl: '/movies_pictures/ce3f9ce8cecf.jpg',
     releaseDate: '2003-01-21',
     length: 108,
     genre: ['Action'],
@@ -677,7 +677,7 @@ export const baseMoviesAction: BaseMovie[] = [
         name: 'Jennifer Connelly',
       },
     ],
-    coverUrl: '/movies_pictures/333832-alita-battle-angel-0-150-0-225-crop.jpg',
+    coverUrl: '/movies_pictures/829863017c22.jpg',
     releaseDate: '2019-02-14',
     length: 122,
     genre: ['Action', 'Science Fiction'],
@@ -835,42 +835,7 @@ export const baseMoviesAction: BaseMovie[] = [
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
   },
-  {
-    title: 'Les Fils du vent',
-    director: 'Julien Seri',
-    actors: [
-      {
-        name: 'Châu Belle Dinh',
-      },
-      {
-        name: 'Charles Perrière',
-      },
-      {
-        name: "Guylain N'Guba Boyeke",
-      },
-      {
-        name: 'Williams Belle',
-      },
-      {
-        name: 'Malik Diouf',
-      },
-      {
-        name: 'Yann Hnautra',
-      },
-      {
-        name: 'Laurent Piemontesi',
-      },
-    ],
-    coverUrl: '/movies_pictures/the_great_challenge.jpg',
-    releaseDate: '2004-10-27',
-    length: 89,
-    genre: ['Action'],
-    saga: '',
-    description: '',
-    fromEntity: null,
-    countryOrigin: ['France'],
-    selectDisplayOrder: 30,
-  },
+
   {
     title: 'Il faut sauver le soldat Ryan',
     director: 'Steven Spielberg',
@@ -1041,7 +1006,7 @@ export const baseMoviesAction: BaseMovie[] = [
         name: 'Harry Shearer',
       },
     ],
-    coverUrl: '/movies_pictures/51224-godzilla-0-150-0-225-crop.jpg',
+    coverUrl: '/movies_pictures/52fee35bea37.jpg',
     releaseDate: '1998-05-20',
     length: 139,
     genre: ['Action'],
@@ -1077,7 +1042,7 @@ export const baseMoviesAction: BaseMovie[] = [
         name: 'Juliette Binoche',
       },
     ],
-    coverUrl: '/movies_pictures/godzilla.jpg',
+    coverUrl: '/movies_pictures/492c25aba756.jpg',
     releaseDate: '2014-05-14',
     length: 123,
     genre: ['Action'],
@@ -1085,7 +1050,43 @@ export const baseMoviesAction: BaseMovie[] = [
     description: '',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
-    selectDisplayOrder: 5,
+    selectDisplayOrder: 30,
+  },
+  {
+    title: 'Godzilla II - Roi des Monstres',
+    director: 'Michael Dougherty',
+    actors: [
+      {
+        name: 'Kyle Chandler',
+      },
+      {
+        name: 'Vera Farmiga',
+      },
+      {
+        name: 'Millie Bobby Brown',
+      },
+      {
+        name: 'Ken Watanabe',
+      },
+      {
+        name: 'Sally Hawkins',
+      },
+      {
+        name: 'Charles Dance',
+      },
+      {
+        name: 'Zhang Ziyi',
+      },
+    ],
+    coverUrl: '/movies_pictures/0a5c7419d1ed.webp',
+    releaseDate: '2019-05-29',
+    length: 132,
+    genre: ['Action'],
+    saga: 'MonsterVerse',
+    description: '',
+    fromEntity: null,
+    countryOrigin: ['États-Unis'],
+    selectDisplayOrder: 30,
   },
   {
     title: 'Godzilla Minus One',
@@ -1113,7 +1114,8 @@ export const baseMoviesAction: BaseMovie[] = [
         name: 'Kuranosuke Sasaki',
       },
     ],
-    coverUrl: '/movies_pictures/godzilla_minus_one.jpg',
+    coverUrl:
+      '/movies_pictures/cb542fd95035.jpg',
     releaseDate: '2023-01-01',
     length: 125,
     genre: ['Action'],
@@ -1121,7 +1123,7 @@ export const baseMoviesAction: BaseMovie[] = [
     description: '',
     fromEntity: null,
     countryOrigin: ['Japon'],
-    selectDisplayOrder: 5,
+    selectDisplayOrder: 30,
   },
   {
     title: '300',
@@ -1149,10 +1151,32 @@ export const baseMoviesAction: BaseMovie[] = [
         name: 'David Wenham',
       },
     ],
-    coverUrl: '/movies_pictures/51111-300-0-150-0-225-crop.jpg',
+    coverUrl: '/movies_pictures/712299d782dc.jpg',
     releaseDate: '2007-03-09',
     length: 117,
     genre: ['Action'],
+    saga: '',
+    description: '',
+    fromEntity: null,
+    countryOrigin: ['États-Unis'],
+    selectDisplayOrder: 30,
+  },
+  {
+    title: "300 : La Naissance d'un Empire",
+    director: 'Noam Murro',
+    actors: [
+      { name: 'Sullivan Stapleton' },
+      { name: 'Eva Green' },
+      { name: 'Lena Headey' },
+      { name: 'Hans Matheson' },
+      { name: 'Callan Mulvey' },
+      { name: 'David Wenham' },
+      { name: 'Rodrigo Santoro' },
+    ],
+    coverUrl: '/movies_pictures/3e33c63105a7.jpg',
+    releaseDate: '2014-03-05',
+    length: 102,
+    genre: ['Action', 'Historique', 'Peplum'],
     saga: '',
     description: '',
     fromEntity: null,
@@ -1261,7 +1285,7 @@ export const baseMoviesAction: BaseMovie[] = [
         name: 'Chris Weitz',
       },
     ],
-    coverUrl: '/movies_pictures/51365-mr-mrs-smith-0-150-0-225-crop.jpg',
+    coverUrl: '/movies_pictures/4c2d279efdbe.jpeg',
     releaseDate: '2005-06-10',
     length: 120,
     genre: ['Action'],
@@ -1297,7 +1321,7 @@ export const baseMoviesAction: BaseMovie[] = [
         name: 'Peter Appel',
       },
     ],
-    coverUrl: '/movies_pictures/leon.jpg',
+    coverUrl: '/movies_pictures/4ed8737a489b.jpg',
     releaseDate: '1994-11-18',
     length: 110,
     genre: ['Action'],
@@ -1333,7 +1357,8 @@ export const baseMoviesAction: BaseMovie[] = [
         name: 'Tom Arnold',
       },
     ],
-    coverUrl: '/movies_pictures/true_lies.jpg',
+    coverUrl:
+      '/movies_pictures/38d140b905d5.jpg',
     releaseDate: '1994-07-15',
     length: 141,
     genre: ['Action'],
@@ -1369,11 +1394,47 @@ export const baseMoviesAction: BaseMovie[] = [
         name: 'Glenn E. Plummer',
       },
     ],
-    coverUrl: '/movies_pictures/50904-speed-0-150-0-225-crop.jpg',
+    coverUrl: '/movies_pictures/4ab45e21d06e.jpg',
     releaseDate: '1994-06-10',
     length: 116,
     genre: ['Action'],
-    saga: '',
+    saga: 'Speed',
+    description: '',
+    fromEntity: null,
+    countryOrigin: ['États-Unis'],
+    selectDisplayOrder: 30,
+  },
+  {
+    title: 'Speed 2',
+    director: 'Jan de Bont',
+    actors: [
+      {
+        name: 'Sandra Bullock',
+      },
+      {
+        name: 'Jason Patric',
+      },
+      {
+        name: 'Willem Dafoe',
+      },
+      {
+        name: 'Temuera Morrison',
+      },
+      {
+        name: 'Brian McCardie',
+      },
+      {
+        name: 'Joe Morton',
+      },
+      {
+        name: 'Glenn Plummer',
+      },
+    ],
+    coverUrl: '/movies_pictures/e73fe1d400bf.jpg',
+    releaseDate: '1997-07-23',
+    length: 121,
+    genre: ['Action'],
+    saga: 'Speed',
     description: '',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
@@ -1482,7 +1543,7 @@ export const baseMoviesAction: BaseMovie[] = [
         name: 'Q131577876',
       },
     ],
-    coverUrl: '/movies_pictures/268950-baby-driver-0-150-0-225-crop.jpg',
+    coverUrl: '/movies_pictures/f8dd3621725f.jpg',
     releaseDate: '2017-06-28',
     length: 113,
     genre: ['Action'],
@@ -1649,7 +1710,115 @@ export const baseMoviesAction: BaseMovie[] = [
     releaseDate: '1984-12-05',
     length: 105,
     genre: ['Action'],
-    saga: '',
+    saga: 'Le flic de Beverly Hills',
+    description: '',
+    fromEntity: null,
+    countryOrigin: ['États-Unis'],
+    selectDisplayOrder: 30,
+  },
+  {
+    title: 'Le Flic de Beverly Hills 2',
+    director: 'Tony Scott',
+    actors: [
+      {
+        name: 'Eddie Murphy',
+      },
+      {
+        name: 'Judge Reinhold',
+      },
+      {
+        name: 'Jürgen Prochnow',
+      },
+      {
+        name: 'Ronny Cox',
+      },
+      {
+        name: 'John Ashton',
+      },
+      {
+        name: 'Brigitte Nielsen',
+      },
+      {
+        name: 'Dean Stockwell',
+      },
+    ],
+    coverUrl: '/movies_pictures/ac4a4cb5f7a2.jpg',
+    releaseDate: '1987-08-26',
+    length: 103,
+    genre: ['Action'],
+    saga: 'Le flic de Beverly Hills',
+    description: '',
+    fromEntity: null,
+    countryOrigin: ['États-Unis'],
+    selectDisplayOrder: 30,
+  },
+  {
+    title: 'Le Flic de Beverly Hills 3',
+    director: 'John Landis',
+    actors: [
+      {
+        name: 'Eddie Murphy',
+      },
+      {
+        name: 'Judge Reinhold',
+      },
+      {
+        name: 'Héctor Elizondo',
+      },
+      {
+        name: 'Theresa Randle',
+      },
+      {
+        name: 'Timothy Carhart',
+      },
+      {
+        name: 'Bronson Pinchot',
+      },
+      {
+        name: 'John Saxon',
+      },
+    ],
+    coverUrl: '/movies_pictures/b44ed6727157.jpg',
+    releaseDate: '1994-05-25',
+    length: 104,
+    genre: ['Action'],
+    saga: 'Le flic de Beverly Hills',
+    description: '',
+    fromEntity: null,
+    countryOrigin: ['États-Unis'],
+    selectDisplayOrder: 30,
+  },
+  {
+    title: 'Le Flic de Beverly Hills : Axel F.',
+    director: 'Mark Molloy',
+    actors: [
+      {
+        name: 'Eddie Murphy',
+      },
+      {
+        name: 'Joseph Gordon-Levitt',
+      },
+      {
+        name: 'Taylour Paige',
+      },
+      {
+        name: 'Judge Reinhold',
+      },
+      {
+        name: 'John Ashton',
+      },
+      {
+        name: 'Kevin Bacon',
+      },
+      {
+        name: 'Bronson Pinchot',
+      },
+    ],
+    coverUrl: '/movies_pictures/8ee883ad9b3b.jpg',
+    releaseDate: '2024-07-03',
+    length: 115,
+    genre: ['Action'],
+    saga: 'Le flic de Beverly Hills',
     description: '',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
@@ -1907,7 +2076,8 @@ export const baseMoviesAction: BaseMovie[] = [
         name: 'Jack Black',
       },
     ],
-    coverUrl: '/movies_pictures/waterworld.jpg',
+    coverUrl:
+      '/movies_pictures/d8231e36795e.jpg',
     releaseDate: '1995-07-28',
     length: 135,
     genre: ['Action'],
@@ -2259,6 +2429,42 @@ export const baseMoviesAction: BaseMovie[] = [
     selectDisplayOrder: 0,
   },
   {
+    title: 'La Colère des Titans',
+    director: 'Jonathan Liebesman',
+    actors: [
+      {
+        name: 'Sam Worthington',
+      },
+      {
+        name: 'Liam Neeson',
+      },
+      {
+        name: 'Ralph Fiennes',
+      },
+      {
+        name: 'Danny Huston',
+      },
+      {
+        name: 'Rosamund Pike',
+      },
+      {
+        name: 'Édgar Ramírez',
+      },
+      {
+        name: 'Bill Nighy',
+      },
+    ],
+    coverUrl: '/movies_pictures/20043761.jpg',
+    releaseDate: '2012-01-01',
+    length: 99,
+    genre: ['Action'],
+    saga: '',
+    description: '',
+    fromEntity: null,
+    countryOrigin: ['États-Unis'],
+    selectDisplayOrder: 0,
+  },
+  {
     title: 'Mega Shark vs. Giant Octopus',
     director: 'Jack Perez',
     actors: [
@@ -2306,7 +2512,8 @@ export const baseMoviesAction: BaseMovie[] = [
         name: 'Woody Harrelson',
       },
     ],
-    coverUrl: '/movies_pictures/43301-2012-0-150-0-225-crop.jpg',
+    coverUrl:
+      '/movies_pictures/dba03b0edeab.jpg',
     releaseDate: '2009-11-13',
     length: 158,
     genre: ['Action', 'Drame'],
@@ -2400,11 +2607,34 @@ export const baseMoviesAction: BaseMovie[] = [
         name: 'Burn Gorman',
       },
     ],
-    coverUrl: '/movies_pictures/52508-pacific-rim-0-150-0-225-crop.jpg',
+    coverUrl: '/movies_pictures/1e26cd9f2660.jpg',
     releaseDate: '2013-07-12',
     length: 131,
     genre: ['Action'],
-    saga: '',
+    saga: 'Pacific Rim',
+    description: '',
+    fromEntity: null,
+    countryOrigin: ['États-Unis'],
+    selectDisplayOrder: 30,
+  },
+  {
+    title: 'Pacific Rim: Uprising',
+    director: 'Steven S. DeKnight',
+    actors: [
+      { name: 'John Boyega' },
+      { name: 'Scott Eastwood' },
+      { name: 'Cailee Spaeny' },
+      { name: 'Jing Tian' },
+      { name: 'Rinko Kikuchi' },
+      { name: 'Charlie Day' },
+      { name: 'Burn Gorman' },
+    ],
+    coverUrl:
+      '/movies_pictures/526f290d1033.jpg',
+    releaseDate: '2018-03-21',
+    length: 111,
+    genre: ['Science Fiction'],
+    saga: 'Pacific Rim',
     description: '',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
@@ -2842,7 +3072,7 @@ export const baseMoviesAction: BaseMovie[] = [
       { name: 'Christoph Waltz' },
     ],
     coverUrl:
-      '/movies_pictures/41352-inglourious-basterds-0-150-0-225-crop.jpg',
+      '/movies_pictures/5d0602486e43.jpg',
     releaseDate: '2009-08-21',
     length: 153,
     genre: ['Guerre'],
@@ -2994,7 +3224,7 @@ export const baseMoviesAction: BaseMovie[] = [
         name: 'Tom Sizemore',
       },
     ],
-    coverUrl: '/movies_pictures/51157-point-break-0-150-0-225-crop.jpg',
+    coverUrl: '/movies_pictures/9224f2a630e8.jpg',
     releaseDate: '1991-07-12',
     length: 122,
     genre: ['Action'],
@@ -3030,7 +3260,7 @@ export const baseMoviesAction: BaseMovie[] = [
         name: 'Noah Bean',
       },
     ],
-    coverUrl: '/movies_pictures/47271-la-femme-nikita-0-150-0-225-crop.jpg',
+    coverUrl: '/movies_pictures/8b419f5382b4.jpg',
     releaseDate: '1990-02-21',
     length: 117,
     genre: ['Action'],
@@ -5607,42 +5837,7 @@ export const baseMoviesAction: BaseMovie[] = [
     countryOrigin: ['France'],
     selectDisplayOrder: 0,
   },
-  {
-    title: 'La Colère des Titans',
-    director: 'Jonathan Liebesman',
-    actors: [
-      {
-        name: 'Sam Worthington',
-      },
-      {
-        name: 'Liam Neeson',
-      },
-      {
-        name: 'Ralph Fiennes',
-      },
-      {
-        name: 'Danny Huston',
-      },
-      {
-        name: 'Rosamund Pike',
-      },
-      {
-        name: 'Édgar Ramírez',
-      },
-      {
-        name: 'Bill Nighy',
-      },
-    ],
-    coverUrl: '/movies_pictures/20043761.jpg',
-    releaseDate: '2012-01-01',
-    length: 99,
-    genre: ['Action'],
-    saga: '',
-    description: '',
-    fromEntity: null,
-    countryOrigin: ['États-Unis'],
-    selectDisplayOrder: 0,
-  },
+
   {
     title: '60 secondes chrono',
     director: 'Dominic Sena',
@@ -7033,6 +7228,45 @@ export const baseMoviesAction: BaseMovie[] = [
     selectDisplayOrder: 30,
   },
   {
+    title: "L'Odyssée",
+    director: 'Christopher Nolan',
+    actors: [
+      {
+        name: 'Matt Damon',
+      },
+      {
+        name: 'Tom Holland',
+      },
+      {
+        name: 'Anne Hathaway',
+      },
+      {
+        name: 'Robert Pattinson',
+      },
+      {
+        name: 'Eliott Page',
+      },
+      {
+        name: 'Jon Bernthal',
+      },
+      {
+        name: 'Zendaya',
+      },
+      {
+        name: 'Charlize Theron',
+      },
+    ],
+    coverUrl: '/movies_pictures/7b8d3a77e0c5.webp',
+    releaseDate: '2026-07-15',
+    length: 172,
+    genre: ['Fantastique', 'Peplum'],
+    saga: '',
+    description: '',
+    fromEntity: null,
+    countryOrigin: ['États-Unis'],
+    selectDisplayOrder: 30,
+  },
+  {
     title: 'Face/Off',
     director: 'John Woo',
     actors: [
@@ -7178,39 +7412,6 @@ export const baseMoviesAction: BaseMovie[] = [
     },
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 30,
-  },
-  {
-    title: 'Kong: Skull Island',
-    director: ' Jordan Vogt-Roberts',
-    actors: [
-      {
-        name: 'Tom Hiddleston',
-      },
-      {
-        name: 'Brie Larson',
-      },
-      {
-        name: 'Samuel L. Jackson',
-      },
-      {
-        name: 'John C Reilly',
-      },
-      {
-        name: 'John Goodman',
-      },
-      {
-        name: 'Toby Kebbell',
-      },
-    ],
-    coverUrl: '/movies_pictures/8c66fb0057c6.jpg',
-    releaseDate: '2017-03-08',
-    length: 118,
-    genre: ['Action'],
-    saga: 'MonsterVerse',
-    description: '',
-    fromEntity: null,
-    countryOrigin: ['États-Unis'],
-    selectDisplayOrder: 5,
   },
 
   {
@@ -7809,28 +8010,7 @@ export const baseMoviesAction: BaseMovie[] = [
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 5,
   },
-  {
-    title: "300 : La Naissance d'un Empire",
-    director: 'Noam Murro',
-    actors: [
-      { name: 'Sullivan Stapleton' },
-      { name: 'Eva Green' },
-      { name: 'Lena Headey' },
-      { name: 'Hans Matheson' },
-      { name: 'Callan Mulvey' },
-      { name: 'David Wenham' },
-      { name: 'Rodrigo Santoro' },
-    ],
-    coverUrl: '/movies_pictures/300_rise_of_an_empire.jpg',
-    releaseDate: '2014-03-05',
-    length: 102,
-    genre: ['Action', 'Historique', 'Peplum'],
-    saga: '',
-    description: '',
-    fromEntity: null,
-    countryOrigin: ['États-Unis'],
-    selectDisplayOrder: 5,
-  },
+
   {
     title: 'The Monuments Men',
     director: 'George Clooney',
@@ -7946,28 +8126,7 @@ export const baseMoviesAction: BaseMovie[] = [
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 5,
   },
-  {
-    title: 'Les Trois Mousquetaires',
-    director: 'Paul W.S. Anderson',
-    actors: [
-      { name: 'Logan Lerman' },
-      { name: 'Milla Jovovich' },
-      { name: 'Matthew Macfadyen' },
-      { name: 'Ray Stevenson' },
-      { name: 'Luke Evans' },
-      { name: 'Mads Mikkelsen' },
-      { name: 'Christoph Waltz' },
-    ],
-    coverUrl: '/movies_pictures/the_three_musketeers.jpg',
-    releaseDate: '2011-10-12',
-    length: 110,
-    genre: ['Action'],
-    saga: '',
-    description: '',
-    fromEntity: null,
-    countryOrigin: ['États-Unis'],
-    selectDisplayOrder: 5,
-  },
+
   {
     title: "L'Agence tous risques",
     director: 'Joe Carnahan',
@@ -8204,7 +8363,7 @@ export const baseMoviesAction: BaseMovie[] = [
       { name: 'Diane Venora' },
       { name: 'Ashley Judd' },
     ],
-    coverUrl: '/movies_pictures/heat.jpg',
+    coverUrl: '/movies_pictures/5d3f3980dc2d.jpg',
     releaseDate: '1996-02-21',
     length: 170,
     genre: ['Action'],
