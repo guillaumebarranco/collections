@@ -168,66 +168,104 @@ function normalizeSerieGenres(genre: unknown): string[] {
   return [];
 }
 
-let cachedBase: Record<string, any[] | null> = {};
+type CachedBaseEntry = { stamp: string; data: any[] };
+let cachedBase: Record<string, CachedBaseEntry | undefined> = {};
 
-function getCachedBase(key: string, loader: () => any[]): any[] {
-  if (!cachedBase[key]) {
-    cachedBase[key] = loader();
+/** Invalide le cache catalogue si les fichiers base changent (mtime/size). */
+function filesStamp(files: string[]): string {
+  return files
+    .map((filePath) => {
+      try {
+        const st = fs.statSync(filePath);
+        return `${filePath}:${st.mtimeMs}:${st.size}`;
+      } catch {
+        return `${filePath}:missing`;
+      }
+    })
+    .join('|');
+}
+
+function getCachedBase(
+  key: string,
+  getFiles: () => string[],
+  parseFn: (content: string) => any[]
+): any[] {
+  const files = getFiles();
+  const stamp = filesStamp(files);
+  const existing = cachedBase[key];
+  if (!existing || existing.stamp !== stamp) {
+    cachedBase[key] = {
+      stamp,
+      data: loadFromFiles(files, parseFn),
+    };
   }
-  return cachedBase[key] as any[];
+  return cachedBase[key]!.data;
+}
+
+function invalidateCachedBase(key?: string) {
+  if (key) {
+    delete cachedBase[key];
+  } else {
+    cachedBase = {};
+  }
 }
 
 function loadBaseMovies() {
-  return getCachedBase('movies', () =>
-    loadFromFiles(getBaseMoviesFiles(), parseBaseMoviesFullFromFile)
+  return getCachedBase(
+    'movies',
+    getBaseMoviesFiles,
+    parseBaseMoviesFullFromFile
   );
 }
 function loadBaseBooks() {
-  return getCachedBase('books', () =>
-    loadFromFiles(getBaseBooksFiles(), parseBaseBooksFullFromFile)
-  );
+  return getCachedBase('books', getBaseBooksFiles, parseBaseBooksFullFromFile);
 }
 function loadBaseChildrenBooks() {
-  return getCachedBase('childrenBooks', () =>
-    loadFromFiles(
-      getBaseChildrenBooksFiles(),
-      parseBaseChildrenBooksFullFromFile
-    )
+  return getCachedBase(
+    'childrenBooks',
+    getBaseChildrenBooksFiles,
+    parseBaseChildrenBooksFullFromFile
   );
 }
 function loadBaseSeries() {
-  return getCachedBase('series', () =>
-    loadFromFiles(getBaseSeriesFiles(), parseBaseSeriesFullFromFile)
+  return getCachedBase(
+    'series',
+    getBaseSeriesFiles,
+    parseBaseSeriesFullFromFile
   );
 }
 function loadBaseGames() {
-  return getCachedBase('games', () =>
-    loadFromFiles(getBaseGamesFiles(), parseBaseGamesFullFromFile)
-  );
+  return getCachedBase('games', getBaseGamesFiles, parseBaseGamesFullFromFile);
 }
 function loadBaseMangas() {
-  return getCachedBase('mangas', () =>
-    loadFromFiles(getBaseMangasFiles(), parseBaseMangasFullFromFile)
+  return getCachedBase(
+    'mangas',
+    getBaseMangasFiles,
+    parseBaseMangasFullFromFile
   );
 }
 function loadBaseManwhas() {
-  return getCachedBase('manwhas', () =>
-    loadFromFiles(getBaseManwhasFiles(), parseBaseManwhasFullFromFile)
+  return getCachedBase(
+    'manwhas',
+    getBaseManwhasFiles,
+    parseBaseManwhasFullFromFile
   );
 }
 function loadBaseComics() {
-  return getCachedBase('comics', () =>
-    loadFromFiles(getBaseComicsFiles(), parseBaseComicsFullFromFile)
+  return getCachedBase(
+    'comics',
+    getBaseComicsFiles,
+    parseBaseComicsFullFromFile
   );
 }
 function loadBaseBds() {
-  return getCachedBase('bds', () =>
-    loadFromFiles(getBaseBdsFiles(), parseBaseBdsFullFromFile)
-  );
+  return getCachedBase('bds', getBaseBdsFiles, parseBaseBdsFullFromFile);
 }
 function loadBaseMusics() {
-  return getCachedBase('musics', () =>
-    loadFromFiles(getBaseMusicsFiles(), parseBaseMusicsFullFromFile)
+  return getCachedBase(
+    'musics',
+    getBaseMusicsFiles,
+    parseBaseMusicsFullFromFile
   );
 }
 
@@ -646,6 +684,7 @@ module.exports = {
   getMergedUserBds,
   getMergedReadlistBds,
   getMergedUserMusics,
+  invalidateCachedBase,
 };
 
 export {};

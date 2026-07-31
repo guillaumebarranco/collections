@@ -1164,8 +1164,7 @@ export const baseMoviesSuperherosMcu: BaseMovie[] = [
         name: 'Michael Mando',
       },
     ],
-    coverUrl:
-      '/movies_pictures/58b7fefe8ffc.jpg',
+    coverUrl: '/movies_pictures/58b7fefe8ffc.jpg',
     releaseDate: '2026-07-29',
     length: 145,
     genre: ['Action'],
@@ -1177,7 +1176,7 @@ export const baseMoviesSuperherosMcu: BaseMovie[] = [
       secondEntityKey: 'Stan Lee',
     },
     countryOrigin: ['États-Unis'],
-    selectDisplayOrder: 0,
+    selectDisplayOrder: 20,
   },
   {
     title: 'Black Widow',
