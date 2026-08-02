@@ -1488,7 +1488,6 @@ export const guillaumeReadlistBooks: UserBooks = [
     readPriority: 3,
     wantToReadAgain: false,
     ratingComment: "",
-<<<<<<< Updated upstream
   },
   {
     title: "Désirer la violence",
@@ -1505,7 +1504,6 @@ export const guillaumeReadlistBooks: UserBooks = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: "",
-=======
   }
 ,
   {
@@ -1523,6 +1521,5 @@ export const guillaumeReadlistBooks: UserBooks = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: '',
->>>>>>> Stashed changes
   },
 ];
