@@ -1488,5 +1488,21 @@ export const guillaumeReadlistBooks: UserBooks = [
     readPriority: 3,
     wantToReadAgain: false,
     ratingComment: "",
-  }
+  },
+  {
+    title: "Désirer la violence",
+    author: "Chloé Thibaud",
+    firstReadDate: "",
+    lastReadDate: "",
+    otherReadDates: [],
+    rating: 0,
+    reading: true,
+    readTimes: 0,
+    owned: false,
+    borrowed: "",
+    loaned: "",
+    readPriority: 1,
+    wantToReadAgain: false,
+    ratingComment: "",
+  },
 ];
