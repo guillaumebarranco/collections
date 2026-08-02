@@ -22240,4 +22240,22 @@ export const ronanMovies: UserMovies = [
     borrowed: "",
     loaned: "",
   },
+
+  {
+    title: "Spider-Man : Brand New Day",
+    director: "Destin Daniel Cretton",
+    rating: 3.5,
+    timesWatched: 2,
+    firstViewedDate: "2026-07-29",
+    lastViewedDate: "2026-07-29",
+    otherSeenDates: [],
+    seenAtCinema: true,
+    owned: false,
+    wantToSeeAgain: false,
+    watchPriority: 1,
+    ratingComment: "",
+    inList: [],
+    borrowed: "",
+    loaned: "",
+  },
 ];
