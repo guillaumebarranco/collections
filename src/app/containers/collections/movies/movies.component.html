@@ -22,12 +22,14 @@
     [visibleMovieViewOptions]="visibleMovieViewOptions()"
     [showTopFiveRank]="showTopFiveRank()"
     [userMoviesLists]="userMoviesLists()"
+    [emptyMovieListNames]="emptyMovieListNames()"
     [selectedListFilter]="selectedListFilter()"
     (onViewChange)="onViewChange($any($event))"
     (onOpenViewConfig)="openViewConfig()"
     (onSearchChange)="onSearchChange($event)"
     (onTopFiveRankChange)="toggleTopFiveRankDisplay()"
     (onListFilterChange)="onListFilterChange($event)"
+    (onDeleteMovieList)="onDeleteMovieList($event)"
   >
     <app-stats-display
       movies-stats-bloc-content

@@ -1,6 +1,6 @@
 <div class="movie-lists-modal">
   <div class="movie-lists-modal__header">
-    <h2 class="movie-lists-modal__title">Ajouter à une liste</h2>
+    <h2 class="movie-lists-modal__title">Gérer les listes</h2>
     <button
       type="button"
       class="movie-lists-modal__close"
@@ -19,6 +19,12 @@
         class="movie-lists-modal__item"
         [class.movie-lists-modal__item--in-list]="isInList(list.name)"
         role="listitem"
+        [attr.aria-pressed]="isInList(list.name)"
+        [attr.aria-label]="
+          isInList(list.name)
+            ? 'Retirer de la liste : ' + list.name
+            : 'Ajouter à la liste : ' + list.name
+        "
         (click)="selectList(list.name)"
       >
         <span class="movie-lists-modal__item-icon" aria-hidden="true">{{

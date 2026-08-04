@@ -1,0 +1,99 @@
+<div class="create-movie-list-modal">
+  <div class="create-movie-list-modal__header">
+    <h2 class="create-movie-list-modal__title">Créer une liste</h2>
+    <button
+      type="button"
+      class="create-movie-list-modal__close"
+      aria-label="Fermer"
+      (click)="close()"
+    >
+      ✕
+    </button>
+  </div>
+
+  <div class="create-movie-list-modal__body">
+    <div class="create-movie-list-modal__field">
+      <label for="create-movie-list-name">Nom de la liste</label>
+      <input
+        id="create-movie-list-name"
+        type="text"
+        [ngModel]="name()"
+        (ngModelChange)="name.set($event)"
+        autocomplete="off"
+        placeholder="Ex. Films d'écureuil"
+      />
+    </div>
+
+    <div class="create-movie-list-modal__field">
+      <label for="create-movie-list-icon">Icône</label>
+      <p class="create-movie-list-modal__hint">
+        Collez un emoji (copier-coller depuis votre clavier ou un site d’emojis).
+      </p>
+      <input
+        id="create-movie-list-icon"
+        type="text"
+        [ngModel]="icon()"
+        (ngModelChange)="icon.set($event)"
+        autocomplete="off"
+        placeholder="📋"
+        maxlength="8"
+      />
+    </div>
+
+    <div class="create-movie-list-modal__field">
+      <label for="create-movie-list-color">Couleur</label>
+      <p class="create-movie-list-modal__hint">
+        Entrez une couleur en hexadécimal, avec le préfixe
+        <code>#</code>
+        (ex. <code>#8B4513</code> ou <code>#ca8a04</code>).
+      </p>
+      <div class="create-movie-list-modal__color-row">
+        <input
+          id="create-movie-list-color"
+          type="text"
+          [ngModel]="color()"
+          (ngModelChange)="color.set($event)"
+          autocomplete="off"
+          placeholder="#6b7280"
+          spellcheck="false"
+        />
+        <span
+          class="create-movie-list-modal__color-swatch"
+          [style.background-color]="normalizedColor() || 'transparent'"
+          [class.create-movie-list-modal__color-swatch--invalid]="!!colorError()"
+          aria-hidden="true"
+        ></span>
+      </div>
+      @if (colorError()) {
+      <p class="create-movie-list-modal__error">{{ colorError() }}</p>
+      }
+    </div>
+
+    @if (name().trim()) {
+    <div class="create-movie-list-modal__preview" aria-live="polite">
+      <span class="create-movie-list-modal__preview-label">Aperçu</span>
+      <span
+        class="create-movie-list-modal__preview-chip"
+        [style.--list-color]="normalizedColor() || '#6b7280'"
+      >
+        <span aria-hidden="true">{{ icon().trim() || '📋' }}</span>
+        <span>{{ name().trim() }}</span>
+      </span>
+    </div>
+    }
+  </div>
+
+  <div class="create-movie-list-modal__footer">
+    <button type="button" class="makya-btn-small" (click)="close()">
+      Annuler
+    </button>
+    <button
+      type="button"
+      class="makya-btn-small"
+      [disabled]="!canSubmit()"
+      (click)="submit()"
+    >
+      Créer la liste
+    </button>
+  </div>
+</div>

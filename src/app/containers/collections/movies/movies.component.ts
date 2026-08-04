@@ -72,11 +72,14 @@ import {
   addMovieAsWatched,
   getUserMoviesLists,
   createUserMovieList,
+  deleteUserMovieList,
   addMovieToList,
 } from './movies.controller';
 import { AuthService } from '../../../core/auth.service';
 import { MatDialog } from '@angular/material/dialog';
 import { MovieUpdateFollowUpModalComponent } from '../../../components/modals/movie-update-follow-up-modal/movie-update-follow-up-modal.component';
+import { CreateMovieListModalComponent } from '../../../components/modals/create-movie-list-modal/create-movie-list-modal.component';
+import { firstValueFrom } from 'rxjs';
 import { buildMovieWatchFollowUpProgress } from '../../../utils/movie-watch-follow-up.utils';
 import { BadgesService } from '../../../services/badges.service';
 import { isOfflineModeBlockingOtherUsers } from '../../../core/offline/offline-mode.utils';
@@ -304,7 +307,7 @@ export class MoviesComponent implements OnInit {
       : this.allMovies().length > 0
   );
 
-  /** Liste sélectionnée pour filtrer les films vus (null = toutes les listes). */
+  /** Liste sélectionnée pour filtrer les films vus / à voir (null = toutes les listes). */
   selectedListFilter = signal<string | null>(null);
 
   filteredMovies = computed<Movie[]>(() => {
@@ -357,7 +360,11 @@ export class MoviesComponent implements OnInit {
       movies = this.allMovies();
     }
 
-    if (this.selectedView() === 'watched' && this.selectedListFilter()) {
+    if (
+      (this.selectedView() === 'watched' ||
+        this.selectedView() === 'watchlist') &&
+      this.selectedListFilter()
+    ) {
       const listName = this.selectedListFilter()!;
       movies = movies.filter((m) => (m.inList ?? []).includes(listName));
     }
@@ -446,6 +453,29 @@ export class MoviesComponent implements OnInit {
 
   /** Listes de films de l'utilisateur courant (pour "Ajouter à une liste" sur la card). */
   userMoviesLists = signal<UserMovieListItem[]>([]);
+
+  /** Noms des listes sans aucun film (vus + à voir) — éligibles à la suppression. */
+  emptyMovieListNames = computed(() => {
+    const counts = new Map<string, number>();
+    for (const list of this.userMoviesLists()) {
+      counts.set(list.name, 0);
+    }
+    for (const movie of [
+      ...this.allMovies(),
+      ...this.allWatchlistMovies(),
+    ]) {
+      for (const name of movie.inList ?? []) {
+        if (counts.has(name)) {
+          counts.set(name, (counts.get(name) ?? 0) + 1);
+        }
+      }
+    }
+    return new Set(
+      [...counts.entries()]
+        .filter(([, count]) => count === 0)
+        .map(([name]) => name)
+    );
+  });
 
   recommendedMovies = computed(() => {
     const term = this.searchTerm().trim().toLowerCase();
@@ -577,9 +607,12 @@ export class MoviesComponent implements OnInit {
     this.baseMoviesList.set(baseMovies.map(getFullMovie));
   }
 
-  /** Après watchlist → vu : rafraîchit les listes puis modale félicitations / badges (profil affiché = le vôtre). */
+  /** Après watchlist → vu : rafraîchit les listes, passe à la vue « Films visionnés », puis modale félicitations / badges. */
   async onWatchlistMarkedAsWatched(movie: Movie): Promise<void> {
     await this.refreshMovies();
+    if (this.selectedView() === 'watchlist') {
+      this.onViewChange('watched');
+    }
     if (this.isViewingOtherProfile()) return;
     const progressRows = buildMovieWatchFollowUpProgress(movie, this.allMovies());
     void this.badgesService.loadFromApi(this.getActiveUserId());
@@ -700,6 +733,18 @@ export class MoviesComponent implements OnInit {
 
   onListFilterChange(listName: string | null): void {
     this.selectedListFilter.set(listName);
+  }
+
+  async onDeleteMovieList(listName: string): Promise<void> {
+    if (!this.emptyMovieListNames().has(listName)) return;
+    const ok = await deleteUserMovieList(this.getActiveUserId(), listName);
+    if (!ok) return;
+    if (this.selectedListFilter() === listName) {
+      this.selectedListFilter.set(null);
+    }
+    this.userMoviesLists.update((lists) =>
+      lists.filter((list) => list.name !== listName)
+    );
   }
 
   readonly followedIdsForRecommendations = signal<string[]>([]);
@@ -1119,18 +1164,22 @@ export class MoviesComponent implements OnInit {
   }
 
   async onCreateListAndAddMovie(movie: Movie): Promise<void> {
-    const name = window.prompt('Nom de la nouvelle liste :');
-    if (!name?.trim()) return;
+    const dialogRef = this.dialog.open(CreateMovieListModalComponent, {
+      width: 'min(420px, 95vw)',
+    });
+    const result = await firstValueFrom(dialogRef.afterClosed());
+    if (!result?.name?.trim()) return;
+
     const userId = this.getActiveUserId();
     const updatedLists = await createUserMovieList(
       userId,
-      name.trim(),
-      '📋',
-      '#6b7280'
+      result.name.trim(),
+      result.icon,
+      result.color
     );
     if (updatedLists) {
       this.userMoviesLists.set(updatedLists);
-      const ok = await addMovieToList(movie, name.trim(), userId);
+      const ok = await addMovieToList(movie, result.name.trim(), userId);
       if (ok) await this.refreshMovies();
     }
   }

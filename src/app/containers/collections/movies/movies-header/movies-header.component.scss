@@ -55,16 +55,15 @@
 .movies-list-filter-chip {
   display: inline-flex;
   align-items: center;
-  gap: 6px;
-  padding: 6px 12px;
+  gap: 4px;
+  padding: 4px 4px 4px 10px;
   border-radius: 999px;
   font-size: 0.875rem;
   font-weight: 500;
   border: 2px solid var(--list-color, #6b7280);
   background: transparent;
   color: var(--list-color, #6b7280);
-  cursor: pointer;
-  transition: background-color 0.15s, color 0.15s;
+  transition: background-color 0.15s, color 0.15s, padding 0.15s;
 
   &:hover {
     background: rgba(107, 114, 128, 0.15);
@@ -81,6 +80,42 @@
       color: #fff;
       opacity: 0.9;
     }
+
+    .movies-list-filter-chip__main {
+      color: inherit;
+    }
+
+    .movies-list-filter-chip__delete {
+      color: #fff;
+
+      &:hover {
+        background: rgba(255, 255, 255, 0.25);
+      }
+    }
+  }
+
+  &--deletable:hover,
+  &--deletable:focus-within {
+    padding-right: 4px;
+
+    .movies-list-filter-chip__delete {
+      opacity: 1;
+      width: 22px;
+      pointer-events: auto;
+    }
+  }
+
+  &__main {
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    margin: 0;
+    padding: 2px 8px 2px 2px;
+    border: none;
+    background: transparent;
+    color: inherit;
+    font: inherit;
+    cursor: pointer;
   }
 
   &__icon {
@@ -90,6 +125,31 @@
   &__name {
     min-width: 0;
     white-space: nowrap;
+  }
+
+  &__delete {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 0;
+    height: 22px;
+    margin: 0;
+    padding: 0;
+    border: none;
+    border-radius: 999px;
+    background: transparent;
+    color: inherit;
+    font-size: 1rem;
+    line-height: 1;
+    cursor: pointer;
+    opacity: 0;
+    overflow: hidden;
+    pointer-events: none;
+    transition: opacity 0.15s, width 0.15s, background-color 0.15s;
+
+    &:hover {
+      background: rgba(0, 0, 0, 0.08);
+    }
   }
 }
 

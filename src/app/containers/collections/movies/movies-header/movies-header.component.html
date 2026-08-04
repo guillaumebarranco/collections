@@ -16,33 +16,55 @@
       (selectedChange)="onViewChange.emit($any($event))"
     ></app-view-toggle>
 
-    @if (selectedView() === 'watched' && userMoviesLists().length > 0) {
+    @if (
+      (selectedView() === 'watched' || selectedView() === 'watchlist') &&
+      userMoviesLists().length > 0
+    ) {
     <div
       class="movies-list-filters"
       role="group"
       aria-label="Filtrer par liste"
     >
       @for (list of userMoviesLists(); track list.name) {
-      <button
-        type="button"
+      <div
         class="movies-list-filter-chip"
         [class.movies-list-filter-chip--selected]="
           selectedListFilter() === list.name
         "
-        [style.--list-color]="list.color"
-        (click)="
-          onListFilterChange.emit(
-            selectedListFilter() === list.name ? null : list.name
-          )
+        [class.movies-list-filter-chip--deletable]="
+          emptyMovieListNames().has(list.name)
         "
-        [attr.aria-pressed]="selectedListFilter() === list.name"
-        [attr.aria-label]="'Filtrer par liste : ' + list.name"
+        [style.--list-color]="list.color"
       >
-        <span class="movies-list-filter-chip__icon" aria-hidden="true">{{
-          list.icon
-        }}</span>
-        <span class="movies-list-filter-chip__name">{{ list.name }}</span>
-      </button>
+        <button
+          type="button"
+          class="movies-list-filter-chip__main"
+          (click)="
+            onListFilterChange.emit(
+              selectedListFilter() === list.name ? null : list.name
+            )
+          "
+          [attr.aria-pressed]="selectedListFilter() === list.name"
+          [attr.aria-label]="'Filtrer par liste : ' + list.name"
+        >
+          <span class="movies-list-filter-chip__icon" aria-hidden="true">{{
+            list.icon
+          }}</span>
+          <span class="movies-list-filter-chip__name">{{ list.name }}</span>
+        </button>
+        @if (emptyMovieListNames().has(list.name)) {
+        <button
+          type="button"
+          class="movies-list-filter-chip__delete"
+          *appCanEdit
+          (click)="$event.stopPropagation(); onDeleteMovieList.emit(list.name)"
+          [attr.aria-label]="'Supprimer la liste : ' + list.name"
+          title="Supprimer cette liste vide"
+        >
+          ×
+        </button>
+        }
+      </div>
       }
     </div>
     }

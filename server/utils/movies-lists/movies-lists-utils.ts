@@ -24,6 +24,56 @@ const USERS_MOVIES_LISTS_FILE = path.join(
 const DEFAULT_ICON = '📋';
 const DEFAULT_COLOR = '#6b7280';
 
+/**
+ * Parse le littéral d'objet dans user-movies-lists.ts.
+ * Accepte le JSON strict (après écriture API) et le style TS/JS
+ * (clés non quotées, quotes simples, virgules finales) — sinon
+ * JSON.parse échoue, createList écrase le fichier et les listes
+ * réapparaissent via enrichissement inList sans icon/color.
+ */
+function parseUsersMoviesListsLiteral(literal: string): unknown {
+  const trimmed = literal.trim();
+  if (!trimmed) return {};
+  try {
+    return JSON.parse(trimmed);
+  } catch {
+    // Fichier édité à la main / format TS : évaluer comme littéral JS.
+    return new Function(`"use strict"; return (${trimmed});`)();
+  }
+}
+
+function normalizeUsersMoviesListsData(
+  data: unknown
+): Record<string, UserMovieListItem[]> {
+  if (typeof data !== 'object' || data === null) return {};
+  const out: Record<string, UserMovieListItem[]> = {};
+  for (const [uid, lists] of Object.entries(data)) {
+    const arr = Array.isArray(lists) ? lists : [];
+    out[uid] = arr
+      .map((item: any) => {
+        if (
+          item &&
+          typeof item === 'object' &&
+          'name' in item &&
+          typeof (item as Record<string, any>)['name'] === 'string'
+        ) {
+          const rec: any = item as Record<string, any>;
+          return {
+            name: rec.name as string,
+            icon: typeof rec.icon === 'string' ? rec.icon : DEFAULT_ICON,
+            color: typeof rec.color === 'string' ? rec.color : DEFAULT_COLOR,
+          };
+        }
+        if (typeof item === 'string') {
+          return { name: item, icon: DEFAULT_ICON, color: DEFAULT_COLOR };
+        }
+        return { name: '', icon: DEFAULT_ICON, color: DEFAULT_COLOR };
+      })
+      .filter((x: { name: string }) => x.name.length > 0);
+  }
+  return out;
+}
+
 function getUsersMoviesLists(): Record<string, UserMovieListItem[]> {
   if (!fs.existsSync(USERS_MOVIES_LISTS_FILE)) {
     return {};
@@ -34,41 +84,20 @@ function getUsersMoviesLists(): Record<string, UserMovieListItem[]> {
     if (eq === -1) return {};
     const jsonStart = eq + 3;
     const semi = content.lastIndexOf(';');
-    const jsonStr = (
+    const literal = (
       semi > jsonStart
         ? content.slice(jsonStart, semi)
         : content.slice(jsonStart)
     ).trim();
-    const data = JSON.parse(jsonStr);
-    if (typeof data !== 'object' || data === null) return {};
-    const out: Record<string, UserMovieListItem[]> = {};
-    for (const [uid, lists] of Object.entries(data)) {
-      const arr = Array.isArray(lists) ? lists : [];
-      out[uid] = arr
-        .map((item: any) => {
-          if (
-            item &&
-            typeof item === 'object' &&
-            'name' in item &&
-            typeof (item as Record<string, any>)['name'] === 'string'
-          ) {
-            const rec: any = item as Record<string, any>;
-            return {
-              name: rec.name as string,
-              icon: typeof rec.icon === 'string' ? rec.icon : DEFAULT_ICON,
-              color: typeof rec.color === 'string' ? rec.color : DEFAULT_COLOR,
-            };
-          }
-          if (typeof item === 'string') {
-            return { name: item, icon: DEFAULT_ICON, color: DEFAULT_COLOR };
-          }
-          return { name: '', icon: DEFAULT_ICON, color: DEFAULT_COLOR };
-        })
-        .filter((x: { name: string }) => x.name.length > 0);
-    }
-    return out;
-  } catch {
-    return {};
+    return normalizeUsersMoviesListsData(parseUsersMoviesListsLiteral(literal));
+  } catch (error) {
+    console.error(
+      '[movies-lists] Impossible de lire user-movies-lists.ts:',
+      error
+    );
+    throw new Error(
+      'Impossible de lire les listes de films existantes (parse échoué). Aucune modification n’a été écrite.'
+    );
   }
 }
 

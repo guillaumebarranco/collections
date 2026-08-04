@@ -364,7 +364,7 @@ export async function deleteUserMovieList(
   }
 }
 
-/** Ajoute un film à une liste (met à jour inList du film). */
+/** Ajoute ou retire un film d'une liste (toggle sur inList). */
 export async function addMovieToList(
   movie: Movie,
   listName: string,
@@ -372,7 +372,9 @@ export async function addMovieToList(
 ): Promise<boolean> {
   try {
     const currentList = movie.inList ?? [];
-    if (currentList.includes(listName)) return true;
+    const inList = currentList.includes(listName)
+      ? currentList.filter((name) => name !== listName)
+      : [...currentList, listName];
     const response = await fetch(`${getApiBaseUrl()}/movies`, {
       method: 'POST',
       headers: { 'Content-Type': 'application/json' },
@@ -389,17 +391,17 @@ export async function addMovieToList(
         wantToSeeAgain: movie.wantToSeeAgain,
         watchPriority: clampPriority(movie.watchPriority),
         ratingComment: movie.ratingComment ?? '',
-        inList: [...currentList, listName],
+        inList,
       }),
     });
     if (!response.ok) {
       const payload = await response.json().catch(() => ({}));
-      console.warn('Échec ajout film à la liste:', payload?.error || response.statusText);
+      console.warn('Échec mise à jour liste du film:', payload?.error || response.statusText);
       return false;
     }
     return true;
   } catch (error) {
-    console.warn('Erreur réseau ajout film à la liste.', error);
+    console.warn('Erreur réseau mise à jour liste du film.', error);
     return false;
   }
 }

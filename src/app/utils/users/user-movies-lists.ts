@@ -7,32 +7,37 @@
 import type { UserMovieListItem } from '../../models/movie-list.model';
 
 export const usersMoviesLists: Record<string, UserMovieListItem[]> = {
-  guillaume: [
+  "guillaume": [
     {
-      name: 'Mes classiques',
-      icon: '⭐',
-      color: '#ca8a04',
+      "name": "Mes classiques",
+      "icon": "⭐",
+      "color": "#ca8a04"
     },
     {
-      name: 'Mes romances',
-      icon: '💋',
-      color: '#FFB6C1',
+      "name": "Mes romances",
+      "icon": "💋",
+      "color": "#FFB6C1"
     },
     {
-      name: "Films d'écureuil",
-      icon: '🐿️',
-      color: '#8B4513',
+      "name": "Films d'écureuil",
+      "icon": "🐿️",
+      "color": "#8B4513"
     },
+    {
+      "name": "tste",
+      "icon": "😭​",
+      "color": "#aa5656"
+    }
   ],
-  ronan: [],
-  emmanuelle: [],
-  william: [],
-  amandine: [],
-  bastien: [],
-  cassandre: [],
-  kevin: [],
-  xeryth: [],
-  marina: [],
-  dantes: [],
-  unho: [],
+  "ronan": [],
+  "emmanuelle": [],
+  "william": [],
+  "amandine": [],
+  "bastien": [],
+  "cassandre": [],
+  "kevin": [],
+  "xeryth": [],
+  "marina": [],
+  "dantes": [],
+  "unho": []
 };

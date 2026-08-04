@@ -32,6 +32,7 @@ export class MoviesHeaderComponent {
   onSortChange = output<string>();
   onTopFiveRankChange = output<void>();
   onListFilterChange = output<string | null>();
+  onDeleteMovieList = output<string>();
 
   selectedView = input<MovieView>('watched');
   showTopFiveRank = input<boolean>(false);
@@ -40,8 +41,10 @@ export class MoviesHeaderComponent {
   recommendedMoviesCount = input<number>(0);
   /** Afficher le bloc stats, filtres et la recherche (masqué quand l'utilisateur n'a pas de films). */
   showFiltersAndSearch = input<boolean>(true);
-  /** Listes de films de l'utilisateur (pour filtre par liste sur la vue "Films visionnés"). */
+  /** Listes de films de l'utilisateur (filtre par liste sur les vues "Films visionnés" et "Films à voir"). */
   userMoviesLists = input<UserMovieListItem[]>([]);
+  /** Noms des listes sans aucun film (supprimables). */
+  emptyMovieListNames = input<ReadonlySet<string>>(new Set());
   /** Liste actuellement sélectionnée pour filtrer (null = pas de filtre). */
   selectedListFilter = input<string | null>(null);
   searchTermInput = input<string>('');
