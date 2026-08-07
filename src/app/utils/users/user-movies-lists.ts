@@ -22,11 +22,6 @@ export const usersMoviesLists: Record<string, UserMovieListItem[]> = {
       "name": "Films d'écureuil",
       "icon": "🐿️",
       "color": "#8B4513"
-    },
-    {
-      "name": "tste",
-      "icon": "😭​",
-      "color": "#aa5656"
     }
   ],
   "ronan": [],

@@ -2020,4 +2020,21 @@ export const kevinBooks: UserBooks = [
     wantToReadAgain: false,
     ratingComment: "Ce livre était juste génial. Le changement de point de vue du narrateur est intéressant et surprenant, et l'intrigue du tome est juste géniale à suivre! Politique, magie, combats et retournements de situation... Le manque de moment réellement émouvant est tout ce qui empêche ce tome de décrocher les 5 étoiles.",
   },
+
+  {
+    title: "La Pointe d'Argent",
+    author: "Glen Cook",
+    firstReadDate: "2026-08-04",
+    lastReadDate: "2026-08-04",
+    otherReadDates: [],
+    rating: 3.5,
+    reading: false,
+    readTimes: 1,
+    owned: false,
+    borrowed: "",
+    loaned: "",
+    readPriority: 1,
+    wantToReadAgain: false,
+    ratingComment: "D'un coup on change totalement de point de vue et de continent, ça semble hasardeux. Ce livre a des aspects intéressants, mais trop de lenteur à mon goût, et plus que tout on a du mal à caractériser les personnages. Les dernières pages réhaussent un peu le niveau tout en laissant un sentiment de déception : l'histoire est bonne mais mal réalisée.",
+  },
 ];

@@ -2,22 +2,6 @@ import { UserBooks } from '../../../../models/book-model';
 
 export const kevinReadListBooks: UserBooks = [
   {
-    title: "La Pointe d'Argent",
-    author: "Glen Cook",
-    firstReadDate: "",
-    lastReadDate: "",
-    otherReadDates: [],
-    rating: 0,
-    reading: false,
-    readTimes: 1,
-    owned: false,
-    borrowed: "",
-    loaned: "",
-    readPriority: 1,
-    wantToReadAgain: false,
-    ratingComment: "",
-  },
-  {
     title: "Saisons Funestes",
     author: "Glen Cook",
     firstReadDate: "",
