@@ -2256,4 +2256,32 @@ export const baseMoviesApi: BaseMovie[] = [
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
   },
+
+  {
+    title: "Les Spécialistes",
+    director: "Guy Ritchie",
+    actors: [
+      {
+        name: "Henry Cavill",
+      },
+      {
+        name: "Jack Gyllenhaal",
+      },
+      {
+        name: "Eiza Gonzales",
+      },
+      {
+        name: "Rosamund Pike",
+      },
+    ],
+    coverUrl: "https://fr.web.img5.acsta.net/img/2e/c2/2ec2ef1b93715059f3e1deff63934fc5.jpg",
+    releaseDate: "2026-05-15",
+    length: 94,
+    genre: ['Action'],
+    saga: "",
+    description: "",
+    fromEntity: null,
+    countryOrigin: ['États-Unis', 'Royaume-Uni'],
+    selectDisplayOrder: 0,
+  },
 ];

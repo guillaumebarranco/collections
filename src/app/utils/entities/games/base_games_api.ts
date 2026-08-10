@@ -512,4 +512,19 @@ export const baseGamesApi: BaseGame[] = [
     description: "",
     fromEntity: null,
   },
+
+  {
+    title: "007 First Light",
+    editor: "IO Interactive",
+    hero: "James Bond",
+    coverUrl: "https://static.actugaming.net/media/2025/06/007-first-light-jaquette.jpg",
+    releaseDate: "2026-05-27",
+    averageTimeToFinish: 17,
+    averageTimeToHundredPercent: 0,
+    platform: "Playstation 5",
+    saga: "James Bond",
+    platineTime: 25,
+    description: "",
+    fromEntity: null,
+  },
 ];

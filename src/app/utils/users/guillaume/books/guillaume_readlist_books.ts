@@ -1490,39 +1490,21 @@ export const guillaumeReadlistBooks: UserBooks = [
     ratingComment: "",
   },
   {
-    title: "Désirer la violence",
-    author: "Chloé Thibaud",
+    title: "King's Game Spiral",
+    author: "Nobuaki Kanazawa",
     firstReadDate: "",
     lastReadDate: "",
     otherReadDates: [],
     rating: 0,
-    reading: true,
-    readTimes: 0,
+    reading: false,
+    readTimes: 1,
     owned: false,
     borrowed: "",
     loaned: "",
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: "",
-  }
-,
-  {
-    title: "King's Game Spiral",
-    author: "Nobuaki Kanazawa",
-    firstReadDate: '',
-    lastReadDate: '',
-    otherReadDates: [],
-    rating: 0,
-    reading: false,
-    readTimes: 1,
-    owned: false,
-    borrowed: '',
-    loaned: '',
-    readPriority: 1,
-    wantToReadAgain: false,
-    ratingComment: '',
   },
-
   {
     title: "Je t'ai aimé dans une autre vie",
     author: "David Arnold",
@@ -1539,7 +1521,6 @@ export const guillaumeReadlistBooks: UserBooks = [
     wantToReadAgain: false,
     ratingComment: "",
   },
-
   {
     title: "L'Invitée surprise",
     author: "Alison Espach",
@@ -1556,7 +1537,6 @@ export const guillaumeReadlistBooks: UserBooks = [
     wantToReadAgain: false,
     ratingComment: "",
   },
-
   {
     title: "Les Sirènes",
     author: "Emilia Hart",
@@ -1572,5 +1552,5 @@ export const guillaumeReadlistBooks: UserBooks = [
     readPriority: 3,
     wantToReadAgain: false,
     ratingComment: "",
-  },
+  }
 ];

@@ -5134,4 +5134,19 @@ export const ronanGames: UserGames = [
       { finishedGame: true, finishedGameWithHundredPercent: false, platinedGame: false, additionnalEstimatedTime: 0, sessionStartDate: "2026-05-01", sessionEndDate: "2026-06-24" }
     ],
   },
+
+  {
+    title: "007 First Light",
+    editor: "IO Interactive",
+    rating: 3.75,
+    owned: true,
+    gamelistPriority: 1,
+    wantToPlayAgain: false,
+    ratingComment: "",
+    borrowed: "",
+    loaned: "",
+    sessions: [
+      { finishedGame: false, finishedGameWithHundredPercent: false, platinedGame: true, additionnalEstimatedTime: 0, sessionStartDate: "2026-08-05", sessionEndDate: "2026-08-09" }
+    ],
+  },
 ];

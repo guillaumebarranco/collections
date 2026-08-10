@@ -22258,4 +22258,22 @@ export const ronanMovies: UserMovies = [
     borrowed: "",
     loaned: "",
   },
+
+  {
+    title: "Les Spécialistes",
+    director: "Guy Ritchie",
+    rating: 3.5,
+    timesWatched: 1,
+    firstViewedDate: "2026-08-08",
+    lastViewedDate: "2026-08-08",
+    otherSeenDates: [],
+    seenAtCinema: false,
+    owned: false,
+    wantToSeeAgain: false,
+    watchPriority: 1,
+    ratingComment: "",
+    inList: [],
+    borrowed: "",
+    loaned: "",
+  },
 ];
