@@ -2284,4 +2284,32 @@ export const baseMoviesApi: BaseMovie[] = [
     countryOrigin: ['États-Unis', 'Royaume-Uni'],
     selectDisplayOrder: 0,
   },
+
+  {
+    title: "Un ours dans le Jura",
+    director: "Franck Dubosc",
+    actors: [
+      {
+        name: "Franck Dubosc",
+      },
+      {
+        name: "Laure Calamy",
+      },
+      {
+        name: "Benoît Poelvoorde",
+      },
+      {
+        name: "Joséphine de Meaux",
+      },
+    ],
+    coverUrl: "https://fr.web.img6.acsta.net/img/17/5f/175fbcee8f625ac212b06378b2d34435.jpg",
+    releaseDate: "2025-01-01",
+    length: 113,
+    genre: ['Comédie', 'Thriller'],
+    saga: "",
+    description: "",
+    fromEntity: null,
+    countryOrigin: ['France'],
+    selectDisplayOrder: 0,
+  },
 ];

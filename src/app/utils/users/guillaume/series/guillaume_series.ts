@@ -141,7 +141,7 @@ export const guillaumeSeries: UserSeries = [
       seasonTimesWatched: 20,
       firstViewedDate: "2012-07-04",
       lastViewedDate: "",
-      otherViewedDates: ["2020-10-13", "2021-08-10"],
+      otherViewedDates: ["2020-10-13", "2021-08-10", "2026-08-09"],
     },
     {
       seasonNumber: 8,

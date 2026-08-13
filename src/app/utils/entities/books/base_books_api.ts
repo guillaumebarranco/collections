@@ -2045,4 +2045,19 @@ export const baseBooksApi: BaseBook[] = [
     countryOrigin: "France",
     selectDisplayOrder: 0,
   },
+
+  {
+    title: "Parlez-moi d'amour",
+    author: "Raymond Carver",
+    coverUrl: "https://m.media-amazon.com/images/I/71sF+DC2foL._AC_UF1000,1000_QL80_.jpg",
+    pages: 183,
+    genre: [],
+    saga: "",
+    sagaOrder: 0,
+    sagaFinished: true,
+    releaseDate: "1986-01-01",
+    description: "",
+    countryOrigin: "États-Unis",
+    selectDisplayOrder: 0,
+  },
 ];

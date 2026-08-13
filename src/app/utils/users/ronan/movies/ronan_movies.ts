@@ -22276,4 +22276,22 @@ export const ronanMovies: UserMovies = [
     borrowed: "",
     loaned: "",
   },
+
+  {
+    title: "Un ours dans le Jura",
+    director: "Franck Dubosc",
+    rating: 3.5,
+    timesWatched: 1,
+    firstViewedDate: "2026-08-09",
+    lastViewedDate: "2026-08-09",
+    otherSeenDates: [],
+    seenAtCinema: false,
+    owned: false,
+    wantToSeeAgain: false,
+    watchPriority: 1,
+    ratingComment: "",
+    inList: [],
+    borrowed: "",
+    loaned: "",
+  },
 ];
