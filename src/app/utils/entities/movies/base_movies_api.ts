@@ -2312,4 +2312,32 @@ export const baseMoviesApi: BaseMovie[] = [
     countryOrigin: ['France'],
     selectDisplayOrder: 0,
   },
+
+  {
+    title: "Chainsaw Man, le film : L'arc de Reze",
+    director: "Tatsuya Yoshihara",
+    actors: [
+      {
+        name: "Kikunosuke Toya",
+      },
+      {
+        name: "Shôgo Sakata",
+      },
+      {
+        name: "Reina Ueda",
+      },
+      {
+        name: "Natsuki Hanae",
+      },
+    ],
+    coverUrl: "https://fr.web.img5.acsta.net/img/b5/a4/b5a4016e849b372cd08f7723ff8972b1.jpg",
+    releaseDate: "2025-10-22",
+    length: 101,
+    genre: ['Animation'],
+    saga: "Chainsaw Man",
+    description: "",
+    fromEntity: null,
+    countryOrigin: ['Japon'],
+    selectDisplayOrder: 0,
+  },
 ];

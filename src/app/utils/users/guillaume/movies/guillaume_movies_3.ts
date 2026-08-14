@@ -1014,7 +1014,7 @@ export const guillaumeMoviesPage3: UserMovies = [
     otherSeenDates: ['2020-03-17'],
     seenAtCinema: false,
     owned: false,
-    wantToSeeAgain: false,
+    wantToSeeAgain: true,
     watchPriority: 1,
     ratingComment: "",
     borrowed: '',

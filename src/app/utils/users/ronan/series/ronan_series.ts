@@ -9873,4 +9873,26 @@ export const ronanSeries: UserSeries = [
     borrowed: "",
     loaned: "",
   },
+
+  {
+    title: "Chainsaw Man",
+    director: "Tatsuki Fujimoto",
+    seasons: [
+    {
+      seasonNumber: 1,
+      seasonRating: 3,
+      watching: false,
+      seasonTimesWatched: 1,
+      firstViewedDate: "2026-08-13",
+      lastViewedDate: "2026-08-13",
+      otherViewedDates: [],
+    }
+  ],
+    owned: false,
+    watchPriority: 1,
+    wantToWatchAgain: false,
+    ratingComment: "",
+    borrowed: "",
+    loaned: "",
+  },
 ];

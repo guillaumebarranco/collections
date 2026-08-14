@@ -759,7 +759,7 @@ export const guillaumeMoviesPage5: UserMovies = [
     otherSeenDates: [],
     seenAtCinema: false,
     owned: false,
-    wantToSeeAgain: false,
+    wantToSeeAgain: true,
     watchPriority: 1,
     ratingComment: "",
     borrowed: '',

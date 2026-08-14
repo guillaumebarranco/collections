@@ -22294,4 +22294,22 @@ export const ronanMovies: UserMovies = [
     borrowed: "",
     loaned: "",
   },
+
+  {
+    title: "Chainsaw Man, le film : L'arc de Reze",
+    director: "Tatsuya Yoshihara",
+    rating: 3.75,
+    timesWatched: 1,
+    firstViewedDate: "2026-08-13",
+    lastViewedDate: "2026-08-13",
+    otherSeenDates: [],
+    seenAtCinema: false,
+    owned: false,
+    wantToSeeAgain: false,
+    watchPriority: 1,
+    ratingComment: "",
+    inList: [],
+    borrowed: "",
+    loaned: "",
+  },
 ];

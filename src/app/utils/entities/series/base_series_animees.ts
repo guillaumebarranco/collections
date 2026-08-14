@@ -1619,28 +1619,24 @@ export const baseSeriesAnimees: BaseSerie[] = [
     director: 'Tatsuki Fujimoto',
     actors: [
       {
-        name: 'Inconnu',
-      },
+        name: "Inconnu",
+      }
     ],
-    coverUrl: '/series_pictures/1492791.webp',
-    releaseDate: '2022-10-12',
-    endDate: '',
+    coverUrl: "/series_pictures/1492791.webp",
+    releaseDate: "2022-10-12",
+    endDate: "",
     genre: ['Animation', 'Action', 'Horror'],
     seasonsData: [
       {
         seasonNumber: 1,
         nbEpisodes: 12,
         totalLength: 240,
-      },
+      }
     ],
-    description: '',
-    saga: '',
-    fromEntity: {
-      entityType: 'manga',
-      title: 'Chainsaw Man',
-      secondEntityKey: 'Tatsuki Fujimoto',
-    },
-    countryOrigin: 'Japon',
+    description: "",
+    saga: "Chainsaw Man",
+    fromEntity: { entityType: "manga", title: "Chainsaw Man", secondEntityKey: "Tatsuki Fujimoto" },
+    countryOrigin: "Japon",
   },
   {
     title: 'Ken le Survivant',
