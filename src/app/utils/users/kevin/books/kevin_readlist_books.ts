@@ -529,21 +529,4 @@ export const kevinReadListBooks: UserBooks = [
     wantToReadAgain: false,
     ratingComment: "",
   }
-,
-  {
-    title: "Fahrenheit 451",
-    author: "Ray Bradbury",
-    firstReadDate: '',
-    lastReadDate: '',
-    otherReadDates: [],
-    rating: 0,
-    reading: false,
-    readTimes: 1,
-    owned: false,
-    borrowed: '',
-    loaned: '',
-    readPriority: 1,
-    wantToReadAgain: false,
-    ratingComment: '',
-  },
 ];

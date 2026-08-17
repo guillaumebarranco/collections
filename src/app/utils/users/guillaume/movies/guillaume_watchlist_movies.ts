@@ -2824,23 +2824,6 @@ export const guillaumeWatchlistMovies: UserMovies = [
     inList: [],
   },
   {
-    title: "Les Ensorceleuses",
-    director: "Griffin Dunne",
-    rating: 0,
-    timesWatched: 0,
-    firstViewedDate: "",
-    lastViewedDate: "",
-    otherSeenDates: [],
-    seenAtCinema: false,
-    owned: false,
-    wantToSeeAgain: false,
-    watchPriority: 3,
-    ratingComment: "https://nakastream.tv/content/movie/6435",
-    borrowed: "",
-    loaned: "",
-    inList: [],
-  },
-  {
     title: "Un Vent de folie",
     director: "Callie Khouri",
     rating: 0,
@@ -4148,8 +4131,7 @@ export const guillaumeWatchlistMovies: UserMovies = [
     borrowed: "",
     loaned: "",
     inList: [],
-  }
-,
+  },
   {
     title: "Thelma et Louise",
     director: "Ridley Scott",
@@ -4163,8 +4145,8 @@ export const guillaumeWatchlistMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 3,
     ratingComment: "",
+    borrowed: "",
+    loaned: "",
     inList: ["Films d'écureuil"],
-    borrowed: '',
-    loaned: '',
-  },
+  }
 ];

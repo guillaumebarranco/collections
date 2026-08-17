@@ -2071,4 +2071,21 @@ export const kevinBooks: UserBooks = [
     wantToReadAgain: false,
     ratingComment: "Une suite de nouvelle assez géniale. Les textes sont courts, percutants, parfois incompréhensible quant à leur objectif mais toutefois plaisant à lire. Difficile après en avoir fini un de ne pas prendre quelques secondes pour apprécier ce qu'on a lu. Rien que pour ça, la note vaut plus que 3. Néanmoins aucun texte ne me chamboule complètement. Ces nouvelles semblent liées autours du thème de l'alcool, mais j'ai manqué la connexion. Mention spéciale pour \"Et si vous dansiez\", \"La troisième chose qui a tué mon père\" et \"Un dernier mot\" qui auraient pu porter ce livre à 4 étoiles.",
   },
+
+  {
+    title: "Fahrenheit 451",
+    author: "Ray Bradbury",
+    firstReadDate: "2026-08-15",
+    lastReadDate: "2026-08-15",
+    otherReadDates: [],
+    rating: 5,
+    reading: false,
+    readTimes: 1,
+    owned: false,
+    borrowed: "",
+    loaned: "",
+    readPriority: 1,
+    wantToReadAgain: false,
+    ratingComment: "Soyons honnête, ce livre n'est pas sans défaut. Certains passages (la traque) m'ont moins marqué que d'autres. Mais les questionnements qu'il apporte sur notre société, la vision si juste qu'avait son auteur il y a pourtant une génération, les questionnements qu'il créer et la justesse des personnages en font pour moi un chef d'œuvre.",
+  },
 ];
