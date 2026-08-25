@@ -327,7 +327,7 @@ export const guillaumeMoviesLove: UserMovies = [
   {
     title: 'La Belle et la Bête',
     director: 'Bill Condon',
-    rating: 3.5,
+    rating: 3.75,
     timesWatched: 3,
     firstViewedDate: "",
     lastViewedDate: "",
@@ -337,8 +337,8 @@ export const guillaumeMoviesLove: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 1,
     ratingComment: "",
-    borrowed: '',
-    loaned: '',
+    borrowed: "",
+    loaned: "",
     inList: ["Films d'écureuil"],
   },
   {

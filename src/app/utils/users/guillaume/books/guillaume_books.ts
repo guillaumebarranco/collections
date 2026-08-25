@@ -1748,4 +1748,21 @@ export const guillaumeBooks: UserBooks = [
     wantToReadAgain: false,
     ratingComment: "",
   },
+
+  {
+    title: "Le Petit Prince",
+    author: "Antoine de Saint-Exupéry",
+    firstReadDate: "2026-08-17",
+    lastReadDate: "2026-08-17",
+    otherReadDates: [],
+    rating: 3.5,
+    reading: false,
+    readTimes: 1,
+    owned: false,
+    borrowed: "",
+    loaned: "",
+    readPriority: 1,
+    wantToReadAgain: false,
+    ratingComment: "",
+  },
 ];

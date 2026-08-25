@@ -2340,4 +2340,69 @@ export const baseMoviesApi: BaseMovie[] = [
     countryOrigin: ['Japon'],
     selectDisplayOrder: 0,
   },
+
+  {
+    title: "Le Grand Jeu",
+    director: " Aaron Sorkin",
+    actors: [
+      {
+        name: "Jessica Chastain",
+      },
+      {
+        name: "Idris Elba",
+      },
+      {
+        name: "Kevin Costner",
+      },
+      {
+        name: "Michael Cera",
+      },
+      {
+        name: "Jeremy Strong",
+      },
+    ],
+    coverUrl: "https://fr.web.img5.acsta.net/pictures/17/11/28/15/58/1888573.jpg",
+    releaseDate: "2017-09-08",
+    length: 140,
+    genre: ['Thriller', 'Drame'],
+    saga: "",
+    description: "",
+    fromEntity: null,
+    countryOrigin: ['États-Unis'],
+    selectDisplayOrder: 0,
+  },
+
+  {
+    title: "GOAT : Rêver plus Haut",
+    director: "Tyree Dillihay, Adam Rosette",
+    actors: [
+      {
+        name: "Caleb McLaughlin",
+      },
+      {
+        name: "Gabrielle Union",
+      },
+      {
+        name: "Stephen Curry",
+      },
+      {
+        name: "Aaron Pierre",
+      },
+      {
+        name: "Nicola Coughlan",
+      },
+      {
+        name: "David Harbour",
+      },
+    ],
+    coverUrl: "https://m.media-amazon.com/images/M/MV5BZmFiZWM5YzgtNzQ0MC00MjBjLWI0ODktYjU4MDJmNGUxZWQ3XkEyXkFqcGc@._V1_.jpg",
+    releaseDate: "2026-02-11",
+    length: 100,
+    genre: ['Jeunesse', 'Animation'],
+    saga: "",
+    description: "",
+    fromEntity: null,
+    countryOrigin: ['États-Unis'],
+    selectDisplayOrder: 0,
+  },
 ];
