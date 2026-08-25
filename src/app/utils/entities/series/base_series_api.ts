@@ -3,21 +3,21 @@ import { BaseSerie } from '../../../models/serie-model';
 export const baseSeriesApi: BaseSerie[] = [
   {
     title: "Maul : Seigneur de l'ombre",
-    director: "Dave Filoni, Matt Michnovetz",
+    director: 'Dave Filoni, Matt Michnovetz',
     actors: [
       {
-        name: "Sam Witwer",
+        name: 'Sam Witwer',
       },
       {
-        name: "Dennis Haysbert",
+        name: 'Dennis Haysbert',
       },
       {
-        name: "Gideon Adlon",
+        name: 'Gideon Adlon',
       },
     ],
-    coverUrl: "/series_pictures/6f8b1f6cec88.jpg",
-    releaseDate: "2026-04-06",
-    endDate: "",
+    coverUrl: '/series_pictures/6f8b1f6cec88.jpg',
+    releaseDate: '2026-04-06',
+    endDate: '',
     genre: ['Science Fiction', 'Aventure'],
     seasonsData: [
       {
@@ -26,35 +26,35 @@ export const baseSeriesApi: BaseSerie[] = [
         totalLength: 241,
       },
     ],
-    description: "",
-    countryOrigin: "États-Unis",
-    saga: "Star Wars",
+    description: '',
+    countryOrigin: 'États-Unis',
+    saga: 'Star Wars',
     fromEntity: null,
   },
 
   {
-    title: "Spider-Noir",
-    director: "Oren Uziel",
+    title: 'Spider-Noir',
+    director: 'Oren Uziel',
     actors: [
       {
-        name: "Nicolas Cage",
+        name: 'Nicolas Cage',
       },
       {
-        name: "Lamorne Morris",
+        name: 'Lamorne Morris',
       },
       {
-        name: "Brendan Gleeson",
+        name: 'Brendan Gleeson',
       },
       {
-        name: "Li Jun Li",
+        name: 'Li Jun Li',
       },
       {
-        name: "Karen Rodriguez",
+        name: 'Karen Rodriguez',
       },
     ],
-    coverUrl: "/series_pictures/11886816e5f4.jpg",
-    releaseDate: "2026-05-25",
-    endDate: "",
+    coverUrl: '/series_pictures/11886816e5f4.jpg',
+    releaseDate: '2026-05-25',
+    endDate: '',
     genre: ['Super-héro'],
     seasonsData: [
       {
@@ -63,41 +63,41 @@ export const baseSeriesApi: BaseSerie[] = [
         totalLength: 369,
       },
     ],
-    description: "",
-    countryOrigin: "États-Unis",
-    saga: "Spider-Man",
+    description: '',
+    countryOrigin: 'États-Unis',
+    saga: 'Spider-Man',
     fromEntity: null,
   },
 
   {
-    title: "Man on Fire",
-    director: "Kyle Killen",
+    title: 'Man on Fire',
+    director: 'Kyle Killen',
     actors: [
       {
-        name: "Yahya Abdul-Mateen II",
+        name: 'Yahya Abdul-Mateen II',
       },
       {
-        name: "Billie Boullet",
+        name: 'Billie Boullet',
       },
       {
-        name: "Alice Braga",
+        name: 'Alice Braga',
       },
       {
-        name: "Scoot McNairy",
+        name: 'Scoot McNairy',
       },
       {
-        name: "Bobby Cannavale",
+        name: 'Bobby Cannavale',
       },
       {
-        name: "Jefferson Baptista",
+        name: 'Jefferson Baptista',
       },
       {
-        name: "Iago Xavier",
+        name: 'Iago Xavier',
       },
     ],
-    coverUrl: "/series_pictures/4815c434190b.jpg",
-    releaseDate: "2026-04-30",
-    endDate: "",
+    coverUrl: '/series_pictures/4815c434190b.jpg',
+    releaseDate: '2026-04-30',
+    endDate: '',
     genre: ['Action'],
     seasonsData: [
       {
@@ -106,44 +106,44 @@ export const baseSeriesApi: BaseSerie[] = [
         totalLength: 330,
       },
     ],
-    description: "",
-    countryOrigin: "États-Unis",
-    saga: "",
+    description: '',
+    countryOrigin: 'États-Unis',
+    saga: '',
     fromEntity: null,
   },
 
   {
-    title: "Off Campus",
-    director: " Louisa Levy",
+    title: 'Off Campus',
+    director: ' Louisa Levy',
     actors: [
       {
-        name: "Ella Bright",
+        name: 'Ella Bright',
       },
       {
-        name: "Belmont Cameli",
+        name: 'Belmont Cameli',
       },
       {
-        name: "Mika Abdalla",
+        name: 'Mika Abdalla',
       },
       {
-        name: "Stephen Kalyn",
+        name: 'Stephen Kalyn',
       },
       {
-        name: "Jalen Thomas Brooks",
+        name: 'Jalen Thomas Brooks',
       },
       {
-        name: "Antonio Cipriano",
+        name: 'Antonio Cipriano',
       },
       {
-        name: "Julia Sarah Stone",
+        name: 'Julia Sarah Stone',
       },
       {
-        name: "Josh Heuston",
+        name: 'Josh Heuston',
       },
     ],
-    coverUrl: "/series_pictures/de5d3e6252ad.jpg",
-    releaseDate: "2026-05-13",
-    endDate: "",
+    coverUrl: '/series_pictures/de5d3e6252ad.jpg',
+    releaseDate: '2026-05-13',
+    endDate: '',
     genre: ['Romance'],
     seasonsData: [
       {
@@ -152,59 +152,59 @@ export const baseSeriesApi: BaseSerie[] = [
         totalLength: 415,
       },
     ],
-    description: "",
-    countryOrigin: "États-Unis",
-    saga: "",
+    description: '',
+    countryOrigin: 'États-Unis',
+    saga: '',
     fromEntity: null,
   },
 
   {
-    title: "The Bear",
-    director: "Christopher Storer",
+    title: 'The Bear',
+    director: 'Christopher Storer',
     actors: [
       {
-        name: "Jeremy Allen White",
+        name: 'Jeremy Allen White',
       },
       {
-        name: "Ebon Moss-Bachrach",
+        name: 'Ebon Moss-Bachrach',
       },
       {
-        name: "Ayo Edebiri",
+        name: 'Ayo Edebiri',
       },
       {
-        name: "Lionel Boyce",
+        name: 'Lionel Boyce',
       },
       {
-        name: "Liza Colón-Zayas",
+        name: 'Liza Colón-Zayas',
       },
       {
-        name: "Abby Elliott",
+        name: 'Abby Elliott',
       },
       {
-        name: "Matty Matheson",
+        name: 'Matty Matheson',
       },
       {
-        name: "Jon Bernthal",
+        name: 'Jon Bernthal',
       },
       {
-        name: "Corey Hendrix",
+        name: 'Corey Hendrix',
       },
       {
-        name: "Oliver Platt",
+        name: 'Oliver Platt',
       },
       {
-        name: "Ricky Staffieri",
+        name: 'Ricky Staffieri',
       },
       {
-        name: "Sarah Ramos",
+        name: 'Sarah Ramos',
       },
       {
-        name: "Will Poulter",
+        name: 'Will Poulter',
       },
     ],
-    coverUrl: "/series_pictures/2e2f208a03fc.jpg",
-    releaseDate: "2022-06-23",
-    endDate: "2026-06-25",
+    coverUrl: '/series_pictures/2e2f208a03fc.jpg',
+    releaseDate: '2022-06-23',
+    endDate: '2026-06-25',
     genre: ['Drame'],
     seasonsData: [
       {
@@ -233,44 +233,44 @@ export const baseSeriesApi: BaseSerie[] = [
         totalLength: 278,
       },
     ],
-    description: "",
-    countryOrigin: "États-Unis",
-    saga: "",
+    description: '',
+    countryOrigin: 'États-Unis',
+    saga: '',
     fromEntity: null,
   },
 
   {
-    title: "Sur tes traces",
-    director: "Robert Hull",
+    title: 'Sur tes traces',
+    director: 'Robert Hull',
     actors: [
       {
-        name: "Sam Worthington",
+        name: 'Sam Worthington',
       },
       {
-        name: "Britt Lower",
+        name: 'Britt Lower',
       },
       {
-        name: "Chi McBride",
+        name: 'Chi McBride',
       },
       {
-        name: "Logan Browning",
+        name: 'Logan Browning',
       },
       {
-        name: "Erin Richards",
+        name: 'Erin Richards',
       },
       {
-        name: "Jonathan Tucker",
+        name: 'Jonathan Tucker',
       },
       {
-        name: "Milo Ventimiglia",
+        name: 'Milo Ventimiglia',
       },
       {
-        name: "Aaron Ashmore",
+        name: 'Aaron Ashmore',
       },
     ],
-    coverUrl: "/series_pictures/17627a71adeb.jpg",
-    releaseDate: "2026-06-18",
-    endDate: "2026-06-18",
+    coverUrl: '/series_pictures/17627a71adeb.jpg',
+    releaseDate: '2026-06-18',
+    endDate: '2026-06-18',
     genre: ['Thriller'],
     seasonsData: [
       {
@@ -279,9 +279,87 @@ export const baseSeriesApi: BaseSerie[] = [
         totalLength: 326,
       },
     ],
-    description: "",
-    countryOrigin: "États-Unis",
-    saga: "",
+    description: '',
+    countryOrigin: 'États-Unis',
+    saga: '',
+    fromEntity: null,
+  },
+
+  {
+    title: 'The White Lotus',
+    director: 'Mike White',
+    actors: [
+      {
+        name: 'Jennifer Coolidge',
+      },
+      {
+        name: 'Natasha Rothwell',
+      },
+      {
+        name: 'Jon Gries',
+      },
+      {
+        name: 'Murray Bartlett',
+      },
+      {
+        name: 'Connie Britton',
+      },
+      {
+        name: 'Alexandra Daddario',
+      },
+      {
+        name: 'Sydney Sweeney',
+      },
+      {
+        name: 'Steve Zahn',
+      },
+      {
+        name: 'Michael Imperioli',
+      },
+      {
+        name: 'Aubrey Plaza',
+      },
+      {
+        name: 'Theo James',
+      },
+      {
+        name: 'Walton Goggins',
+      },
+      {
+        name: 'Carrie Coon',
+      },
+      {
+        name: 'Parker Posey',
+      },
+      {
+        name: 'Jason Isaacs',
+      },
+    ],
+    coverUrl: '/series_pictures/7335428.jpg',
+    releaseDate: '2021-07-11',
+    endDate: '',
+    genre: ['Comédie', 'Drame'],
+    seasonsData: [
+      {
+        seasonNumber: 1,
+        nbEpisodes: 6,
+        totalLength: 356,
+      },
+      {
+        seasonNumber: 2,
+        nbEpisodes: 7,
+        totalLength: 456,
+      },
+      {
+        seasonNumber: 3,
+        nbEpisodes: 8,
+        totalLength: 526,
+      },
+    ],
+    description:
+      "Satire sociale anthologique suivant les invités et le personnel d'un hôtel de luxe White Lotus pendant une semaine de vacances.",
+    countryOrigin: 'États-Unis',
+    saga: '',
     fromEntity: null,
   },
 ];
