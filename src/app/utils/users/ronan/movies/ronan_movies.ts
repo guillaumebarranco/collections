@@ -22402,4 +22402,22 @@ export const ronanMovies: UserMovies = [
     borrowed: "",
     loaned: "",
   },
+
+  {
+    title: "Kill Bill: The Whole Bloody Affair",
+    director: "Quentin Tarantino",
+    rating: 3.5,
+    timesWatched: 1,
+    firstViewedDate: "2026-08-23",
+    lastViewedDate: "2026-08-23",
+    otherSeenDates: [],
+    seenAtCinema: true,
+    owned: false,
+    wantToSeeAgain: false,
+    watchPriority: 1,
+    ratingComment: "",
+    inList: [],
+    borrowed: "",
+    loaned: "",
+  },
 ];

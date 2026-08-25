@@ -2405,4 +2405,41 @@ export const baseMoviesApi: BaseMovie[] = [
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
   },
+
+  {
+    title: "Kill Bill: The Whole Bloody Affair",
+    director: "Quentin Tarantino",
+    actors: [
+      {
+        name: "Uma Thurman",
+      },
+      {
+        name: "Lucy Liu",
+      },
+      {
+        name: "David Carradine",
+      },
+      {
+        name: "Julie Dreyfus",
+      },
+      {
+        name: "Daryl Hannah",
+      },
+      {
+        name: "Michael Madsen",
+      },
+      {
+        name: "Vivica A. Fox",
+      },
+    ],
+    coverUrl: "https://m.media-amazon.com/images/M/MV5BZDc2YzhkODAtZmRmZS00YzcxLWJkYWEtM2ZhZjY3MmMyZmJiXkEyXkFqcGc@._V1_.jpg",
+    releaseDate: "2026-07-08",
+    length: 274,
+    genre: ['Action'],
+    saga: "",
+    description: "",
+    fromEntity: null,
+    countryOrigin: ['États-Unis'],
+    selectDisplayOrder: 0,
+  },
 ];
