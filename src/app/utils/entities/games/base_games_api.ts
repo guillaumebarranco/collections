@@ -517,7 +517,7 @@ export const baseGamesApi: BaseGame[] = [
     title: "007 First Light",
     editor: "IO Interactive",
     hero: "James Bond",
-    coverUrl: "https://static.actugaming.net/media/2025/06/007-first-light-jaquette.jpg",
+    coverUrl: "/games_pictures/fa28395f812b.jpg",
     releaseDate: "2026-05-27",
     averageTimeToFinish: 17,
     averageTimeToHundredPercent: 0,
