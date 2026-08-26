@@ -1927,7 +1927,7 @@ export const baseBooksFromLaural: BaseBook[] = [
     title: 'Le Chant du Troll',
     author: 'Pierre Bottero',
     coverUrl: '/books_pictures/72dfd3d4594f.jpg',
-    pages: 192,
+    pages: 206,
     genre: ['Fantasy'],
     saga: '',
     sagaOrder: 0,

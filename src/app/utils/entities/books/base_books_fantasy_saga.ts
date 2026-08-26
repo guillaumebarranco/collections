@@ -81,7 +81,7 @@ export const baseBooksFantasySaga: BaseBook[] = [
     author: 'Pierre Bottero',
     coverUrl:
       '/books_pictures/la_quete_dewilan_tome_1_dun_monde_a_lautre-605310-264-432.jpg',
-    pages: 411,
+    pages: 320,
     genre: ['Fantasy'],
     saga: 'Ewilan',
     sagaOrder: 1,
@@ -96,7 +96,7 @@ export const baseBooksFantasySaga: BaseBook[] = [
     author: 'Pierre Bottero',
     coverUrl:
       '/books_pictures/la_quete_dewilan_tome_2_les_frontieres_de_glace-605311-264-432.jpg',
-    pages: 411,
+    pages: 352,
     genre: ['Fantasy'],
     saga: 'Ewilan',
     sagaOrder: 2,
@@ -111,7 +111,7 @@ export const baseBooksFantasySaga: BaseBook[] = [
     author: 'Pierre Bottero',
     coverUrl:
       '/books_pictures/la_quete_dewilan_tome_3_lile_du_destin-605313-264-432.jpg',
-    pages: 411,
+    pages: 352,
     genre: ['Fantasy'],
     saga: 'Ewilan',
     sagaOrder: 3,
@@ -126,7 +126,7 @@ export const baseBooksFantasySaga: BaseBook[] = [
     author: 'Pierre Bottero',
     coverUrl:
       '/books_pictures/les_mondes_dewilan_tome_1_la_foret_des_captifs-686716-264-432.jpg',
-    pages: 411,
+    pages: 384,
     genre: ['Fantasy'],
     saga: 'Ewilan',
     sagaOrder: 4,
@@ -141,7 +141,7 @@ export const baseBooksFantasySaga: BaseBook[] = [
     author: 'Pierre Bottero',
     coverUrl:
       '/books_pictures/les_mondes_dewilan_tome_2_loeil_dotolep-6550-264-432.jpg',
-    pages: 411,
+    pages: 384,
     genre: ['Fantasy'],
     saga: 'Ewilan',
     sagaOrder: 5,
@@ -156,7 +156,7 @@ export const baseBooksFantasySaga: BaseBook[] = [
     author: 'Pierre Bottero',
     coverUrl:
       '/books_pictures/les_mondes_dewilan_tome_3_les_tentacules_du_mal-6551-264-432.jpg',
-    pages: 411,
+    pages: 448,
     genre: ['Fantasy'],
     saga: 'Ewilan',
     sagaOrder: 6,
@@ -171,7 +171,7 @@ export const baseBooksFantasySaga: BaseBook[] = [
     author: 'Pierre Bottero',
     coverUrl:
       '/books_pictures/le_pacte_des_marchombres_tome_1_ellana-54302-264-432.jpg',
-    pages: 411,
+    pages: 448,
     genre: ['Fantasy'],
     saga: 'Ewilan',
     sagaOrder: 7,
@@ -186,7 +186,7 @@ export const baseBooksFantasySaga: BaseBook[] = [
     author: 'Pierre Bottero',
     coverUrl:
       '/books_pictures/le_pacte_des_marchombres_tome_2_ellana_lenvol-6778-264-432.jpg',
-    pages: 411,
+    pages: 480,
     genre: ['Fantasy'],
     saga: 'Ewilan',
     sagaOrder: 8,
@@ -201,7 +201,7 @@ export const baseBooksFantasySaga: BaseBook[] = [
     author: 'Pierre Bottero',
     coverUrl:
       '/books_pictures/le_pacte_des_marchombres_tome_3_ellana_la_prophetie-6781-264-432.jpg',
-    pages: 411,
+    pages: 640,
     genre: ['Fantasy'],
     saga: 'Ewilan',
     sagaOrder: 9,

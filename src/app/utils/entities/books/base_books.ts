@@ -109,7 +109,7 @@ export const baseBooks: BaseBook[] = [
     title: 'Le Souffle de la Hyène',
     author: 'Pierre Bottero',
     coverUrl: '/books_pictures/le-souffle-de-la-hyene.jpg',
-    pages: 309,
+    pages: 307,
     genre: ['Fantasy'],
     saga: '',
     sagaOrder: 0,
