@@ -377,8 +377,7 @@ export const baseMoviesSuperHerosDc: BaseMovie[] = [
         name: 'Amy Adams',
       },
     ],
-    coverUrl:
-      '/movies_pictures/df9028c7f49d.jpg',
+    coverUrl: '/movies_pictures/df9028c7f49d.jpg',
     releaseDate: '2016-03-25',
     length: 151,
     genre: ['Action'],
@@ -1038,7 +1037,8 @@ export const baseMoviesSuperHerosDc: BaseMovie[] = [
         name: 'Michael Massee',
       },
     ],
-    coverUrl: '/movies_pictures/51745-catwoman-0-150-0-225-crop.jpg',
+    coverUrl:
+      '/movies_pictures/7be50acab74f.jpg',
     releaseDate: '2004-07-23',
     length: 104,
     genre: ['Action'],
@@ -1046,7 +1046,7 @@ export const baseMoviesSuperHerosDc: BaseMovie[] = [
     description: '',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
-    selectDisplayOrder: 20,
+    selectDisplayOrder: 15,
   },
   {
     title: 'Wonder Woman',

@@ -192,7 +192,8 @@ export const baseMoviesSuperherosMcu: BaseMovie[] = [
         name: 'Dominic Cooper',
       },
     ],
-    coverUrl: '/movies_pictures/48f79142603f.jpg',
+    coverUrl:
+      '/movies_pictures/230ac327cdc5.jpg',
     releaseDate: '2011-07-22',
     length: 124,
     genre: ['Action'],
@@ -438,7 +439,8 @@ export const baseMoviesSuperherosMcu: BaseMovie[] = [
         name: 'Peter Mensah',
       },
     ],
-    coverUrl: '/movies_pictures/50827-the-incredible-hulk-0-150-0-225-crop.jpg',
+    coverUrl:
+      '/movies_pictures/1ff150a8f040.jpg',
     releaseDate: '2008-06-13',
     length: 112,
     genre: ['Action'],
@@ -474,7 +476,8 @@ export const baseMoviesSuperherosMcu: BaseMovie[] = [
         name: 'Kat Dennings',
       },
     ],
-    coverUrl: '/movies_pictures/46456-thor-0-150-0-225-crop.jpg',
+    coverUrl:
+      '/movies_pictures/1015cd2c21fe.jpg',
     releaseDate: '2011-05-06',
     length: 115,
     genre: ['Action'],
@@ -511,7 +514,7 @@ export const baseMoviesSuperherosMcu: BaseMovie[] = [
       },
     ],
     coverUrl:
-      '/movies_pictures/bnX5PqAdQZRXSw3aX3DutDcdso5-0-150-0-225-crop.jpg',
+      '/movies_pictures/ca7f0e8815e7.jpg',
     releaseDate: '2013-11-08',
     length: 112,
     genre: ['Action'],
@@ -547,7 +550,8 @@ export const baseMoviesSuperherosMcu: BaseMovie[] = [
         name: 'Karl Urban',
       },
     ],
-    coverUrl: '/movies_pictures/209382-thor-ragnarok-0-150-0-225-crop.jpg',
+    coverUrl:
+      '/movies_pictures/9d6422e02a66.jpg',
     releaseDate: '2017-11-03',
     length: 130,
     genre: ['Action'],
@@ -584,7 +588,7 @@ export const baseMoviesSuperherosMcu: BaseMovie[] = [
       },
     ],
     coverUrl:
-      '/movies_pictures/543002-thor-love-and-thunder-0-150-0-225-crop.jpg',
+      '/movies_pictures/e0d936ba23a6.jpg',
     releaseDate: '2022-07-08',
     length: 119,
     genre: ['Action'],
@@ -620,7 +624,8 @@ export const baseMoviesSuperherosMcu: BaseMovie[] = [
         name: 'Ben Mendelsohn',
       },
     ],
-    coverUrl: '/movies_pictures/226750-captain-marvel-0-150-0-225-crop.jpg',
+    coverUrl:
+      '/movies_pictures/aabafc325131.jpg',
     releaseDate: '2019-03-08',
     length: 123,
     genre: ['Action'],
@@ -656,7 +661,8 @@ export const baseMoviesSuperherosMcu: BaseMovie[] = [
         name: 'Bradley Cooper',
       },
     ],
-    coverUrl: '/movies_pictures/536970-the-marvels-0-150-0-225-crop.jpg',
+    coverUrl:
+      '/movies_pictures/1e2da74e178d.jpg',
     releaseDate: '2023-11-10',
     length: 105,
     genre: ['Action'],
@@ -693,7 +699,7 @@ export const baseMoviesSuperherosMcu: BaseMovie[] = [
       },
     ],
     coverUrl:
-      '/movies_pictures/494969-shang-chi-and-the-legend-of-the-ten-rings-0-150-0-225-crop.jpg',
+      '/movies_pictures/db458ec768fc.jpg',
     releaseDate: '2021-09-03',
     length: 132,
     genre: ['Action'],
@@ -729,7 +735,7 @@ export const baseMoviesSuperherosMcu: BaseMovie[] = [
         name: 'Amy Landecker',
       },
     ],
-    coverUrl: '/movies_pictures/209381-doctor-strange-0-150-0-225-crop.jpg',
+    coverUrl: '/movies_pictures/63d8d624bb5d.jpg',
     releaseDate: '2016-11-04',
     length: 115,
     genre: ['Action'],
@@ -752,7 +758,7 @@ export const baseMoviesSuperherosMcu: BaseMovie[] = [
       { name: 'Michael Stuhlbarg' },
     ],
     coverUrl:
-      '/movies_pictures/385511-doctor-strange-in-the-multiverse-of-madness-0-150-0-225-crop.jpg',
+      '/movies_pictures/1e3bb56efb37.jpg',
     releaseDate: '2022-05-06',
     length: 126,
     genre: ['Action'],
@@ -788,7 +794,8 @@ export const baseMoviesSuperherosMcu: BaseMovie[] = [
         name: 'Letitia Wright',
       },
     ],
-    coverUrl: '/movies_pictures/209383-black-panther-0-150-0-225-crop.jpg',
+    coverUrl:
+      '/movies_pictures/b4996301cc4b.jpg',
     releaseDate: '2018-02-16',
     length: 134,
     genre: ['Action'],
@@ -825,7 +832,7 @@ export const baseMoviesSuperherosMcu: BaseMovie[] = [
       },
     ],
     coverUrl:
-      '/movies_pictures/435460-black-panther-wakanda-forever-0-150-0-225-crop.jpg',
+      '/movies_pictures/34e4adcc5142.jpg',
     releaseDate: '2022-11-11',
     length: 161,
     genre: ['Action'],

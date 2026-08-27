@@ -117,8 +117,7 @@ export const baseMoviesSuperherosAutres: BaseMovie[] = [
         name: 'Natassia Malthe',
       },
     ],
-    coverUrl:
-      '/movies_pictures/4aa8cd4d8608.jpg',
+    coverUrl: '/movies_pictures/4aa8cd4d8608.jpg',
     releaseDate: '2005-01-14',
     length: 97,
     genre: ['Action'],
@@ -651,8 +650,7 @@ export const baseMoviesSuperherosAutres: BaseMovie[] = [
         name: 'Martin Sheen',
       },
     ],
-    coverUrl:
-      '/movies_pictures/50677-the-amazing-spider-man-0-150-0-225-crop.jpg',
+    coverUrl: '/movies_pictures/f7a95169ee98.jpg',
     releaseDate: '2012-07-03',
     length: 136,
     genre: ['Action'],
@@ -692,7 +690,8 @@ export const baseMoviesSuperherosAutres: BaseMovie[] = [
         name: 'Martin Sheen',
       },
     ],
-    coverUrl: '/movies_pictures/amazin_spiderman_2.jpg',
+    coverUrl:
+      '/movies_pictures/7404c81c84b3.jpg',
     releaseDate: '2014-05-02',
     length: 142,
     genre: ['Action'],
@@ -733,7 +732,8 @@ export const baseMoviesSuperherosAutres: BaseMovie[] = [
         name: 'Michael Rispoli',
       },
     ],
-    coverUrl: '/movies_pictures/kick_ass.jpg',
+    coverUrl:
+      '/movies_pictures/a7c9a9cd1afd.jpg',
     releaseDate: '2010-04-16',
     length: 117,
     genre: ['Action'],
@@ -769,7 +769,8 @@ export const baseMoviesSuperherosAutres: BaseMovie[] = [
         name: 'Augustus Prew',
       },
     ],
-    coverUrl: '/movies_pictures/kick_ass_2.jpg',
+    coverUrl:
+      '/movies_pictures/127ec6affa74.jpg',
     releaseDate: '2013-08-16',
     length: 103,
     genre: ['Action'],
@@ -805,7 +806,8 @@ export const baseMoviesSuperherosAutres: BaseMovie[] = [
         name: 'Thomas Lennon',
       },
     ],
-    coverUrl: '/movies_pictures/hancock.jpg',
+    coverUrl:
+      '/movies_pictures/ddaae50e3bfe.jpg',
     releaseDate: '2008-07-02',
     length: 92,
     genre: ['Action'],
@@ -841,7 +843,8 @@ export const baseMoviesSuperherosAutres: BaseMovie[] = [
         name: 'Hamish Linklater',
       },
     ],
-    coverUrl: '/movies_pictures/46869-fantastic-four-0-150-0-225-crop.jpg',
+    coverUrl:
+      '/movies_pictures/bb3d662cf146.jpg',
     releaseDate: '2005-07-08',
     length: 106,
     genre: ['Action'],
@@ -878,7 +881,7 @@ export const baseMoviesSuperherosAutres: BaseMovie[] = [
       },
     ],
     coverUrl:
-      '/movies_pictures/50631-fantastic-four-rise-of-the-silver-surfer-0-150-0-225-crop.jpg',
+      '/movies_pictures/c173b02a3f61.jpg',
     releaseDate: '2007-06-15',
     length: 92,
     genre: ['Action'],
@@ -914,7 +917,8 @@ export const baseMoviesSuperherosAutres: BaseMovie[] = [
         name: 'Peter Fonda',
       },
     ],
-    coverUrl: '/movies_pictures/51130-ghost-rider-0-150-0-225-crop.jpg',
+    coverUrl:
+      '/movies_pictures/6a224b15d6bc.jpg',
     releaseDate: '2007-02-16',
     length: 114,
     genre: ['Action'],
@@ -950,7 +954,8 @@ export const baseMoviesSuperherosAutres: BaseMovie[] = [
         name: 'Lynda Carter',
       },
     ],
-    coverUrl: '/movies_pictures/45283-sky-high-0-150-0-225-crop.jpg',
+    coverUrl:
+      '/movies_pictures/31d58c1e85bc.jpg',
     releaseDate: '2005-07-29',
     length: 100,
     genre: ['Comédie'],
@@ -986,7 +991,8 @@ export const baseMoviesSuperherosAutres: BaseMovie[] = [
         name: 'Celia Weston',
       },
     ],
-    coverUrl: '/movies_pictures/50678-hulk-0-150-0-225-crop.jpg',
+    coverUrl:
+      '/movies_pictures/228147416e2c.jpg',
     releaseDate: '2003-06-20',
     length: 138,
     genre: ['Action'],
@@ -1058,7 +1064,8 @@ export const baseMoviesSuperherosAutres: BaseMovie[] = [
         name: 'Tim Blake Nelson',
       },
     ],
-    coverUrl: '/movies_pictures/123065-fantastic-four-0-150-0-225-crop.jpg',
+    coverUrl:
+      '/movies_pictures/20379e46b786.jpg',
     releaseDate: '2015-08-07',
     length: 100,
     genre: ['Action'],
@@ -1118,7 +1125,8 @@ export const baseMoviesSuperherosAutres: BaseMovie[] = [
         name: 'Tahar Rahim',
       },
     ],
-    coverUrl: '/movies_pictures/madame_web.jpg',
+    coverUrl:
+      '/movies_pictures/d5d3a61dc913.jpg',
     releaseDate: '2024-01-01',
     length: 116,
     genre: [],
