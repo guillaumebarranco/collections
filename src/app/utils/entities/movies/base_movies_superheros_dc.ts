@@ -53,7 +53,8 @@ export const baseMoviesSuperHerosDc: BaseMovie[] = [
         name: 'Angela Bassett',
       },
     ],
-    coverUrl: '/movies_pictures/20293-green-lantern-0-150-0-225-crop.jpg',
+    coverUrl:
+      '/movies_pictures/f6ef7e0937ec.jpg',
     releaseDate: '2011-06-17',
     length: 114,
     genre: ['Action'],
@@ -89,7 +90,8 @@ export const baseMoviesSuperHerosDc: BaseMovie[] = [
         name: 'Pat Hingle',
       },
     ],
-    coverUrl: '/movies_pictures/51788-batman-0-150-0-225-crop.jpg',
+    coverUrl:
+      '/movies_pictures/1d03f0f98c3e.jpg',
     releaseDate: '1989-06-23',
     length: 126,
     genre: ['Action'],
@@ -112,7 +114,7 @@ export const baseMoviesSuperHerosDc: BaseMovie[] = [
       { name: 'Christopher Walken' },
       { name: 'Danny DeVito' },
     ],
-    coverUrl: '/movies_pictures/51709-batman-returns-0-150-0-225-crop.jpg',
+    coverUrl: '/movies_pictures/9eda3f116cb7.jpeg',
     releaseDate: '1992-06-19',
     length: 126,
     genre: ['Action'],
@@ -152,7 +154,8 @@ export const baseMoviesSuperHerosDc: BaseMovie[] = [
         name: 'Debi Mazar',
       },
     ],
-    coverUrl: '/movies_pictures/51678-batman-forever-0-150-0-225-crop.jpg',
+    coverUrl:
+      '/movies_pictures/40bc70e5ac02.jpg',
     releaseDate: '1995-06-16',
     length: 121,
     genre: ['Action'],
@@ -192,7 +195,8 @@ export const baseMoviesSuperHerosDc: BaseMovie[] = [
         name: 'Pat Hingle',
       },
     ],
-    coverUrl: '/movies_pictures/batman_and_robin.jpg',
+    coverUrl:
+      '/movies_pictures/0cfc249a14b5.jpg',
     releaseDate: '1997-06-20',
     length: 125,
     genre: ['Action'],
@@ -417,7 +421,8 @@ export const baseMoviesSuperHerosDc: BaseMovie[] = [
         name: 'Ian Chen',
       },
     ],
-    coverUrl: '/movies_pictures/213190-shazam--0-150-0-225-crop.jpg',
+    coverUrl:
+      '/movies_pictures/279411f0d61a.jpg',
     releaseDate: '2019-04-05',
     length: 132,
     genre: ['Action'],
@@ -453,7 +458,8 @@ export const baseMoviesSuperHerosDc: BaseMovie[] = [
         name: 'Djimon Hounsou',
       },
     ],
-    coverUrl: '/movies_pictures/shazam_la_rage_des_dieux.jpg',
+    coverUrl:
+      '/movies_pictures/0c575d603736.jpg',
     releaseDate: '2023-03-29',
     length: 130,
     genre: ['Action'],
@@ -489,7 +495,8 @@ export const baseMoviesSuperHerosDc: BaseMovie[] = [
         name: 'Yahya Abdul-Mateen II',
       },
     ],
-    coverUrl: '/movies_pictures/225060-aquaman-0-150-0-225-crop.jpg',
+    coverUrl:
+      '/movies_pictures/edc2d5337a44.jpg',
     releaseDate: '2018-12-21',
     length: 143,
     genre: ['Action', 'Aventure'],
@@ -525,7 +532,8 @@ export const baseMoviesSuperHerosDc: BaseMovie[] = [
         name: 'Randall Park',
       },
     ],
-    coverUrl: '/movies_pictures/aquaman_et_le_royaume_perdu.jpg',
+    coverUrl:
+      '/movies_pictures/6ee89ddb8f35.jpg',
     releaseDate: '2023-12-20',
     length: 124,
     genre: ['Action'],
@@ -561,7 +569,8 @@ export const baseMoviesSuperHerosDc: BaseMovie[] = [
         name: 'Marwan Kenzari',
       },
     ],
-    coverUrl: '/movies_pictures/369179-black-adam-0-150-0-225-crop.jpg',
+    coverUrl:
+      '/movies_pictures/3d6380beacea.jpg',
     releaseDate: '2022-10-21',
     length: 125,
     genre: ['Action'],
@@ -591,7 +600,8 @@ export const baseMoviesSuperHerosDc: BaseMovie[] = [
         name: 'Jeremy Irons',
       },
     ],
-    coverUrl: '/movies_pictures/justice_league.jpg',
+    coverUrl:
+      '/movies_pictures/bdc00735768d.jpg',
     releaseDate: '2017-11-15',
     length: 121,
     genre: ['Action'],
@@ -622,7 +632,7 @@ export const baseMoviesSuperHerosDc: BaseMovie[] = [
       },
     ],
     coverUrl:
-      '/movies_pictures/709530-zack-snyder-s-justice-league-0-150-0-225-crop.jpg',
+      '/movies_pictures/3e2e7fe6514a.jpg',
     releaseDate: '2021-03-18',
     length: 242,
     genre: ['Action'],
@@ -658,7 +668,8 @@ export const baseMoviesSuperHerosDc: BaseMovie[] = [
         name: 'Cara Delevingne',
       },
     ],
-    coverUrl: '/movies_pictures/suicide_squad.jpg',
+    coverUrl:
+      '/movies_pictures/b206f462b01d.jpg',
     releaseDate: '2016-08-05',
     length: 123,
     genre: ['Action'],
@@ -694,7 +705,8 @@ export const baseMoviesSuperHerosDc: BaseMovie[] = [
         name: 'Daniela Melchior',
       },
     ],
-    coverUrl: '/movies_pictures/the_suicide_squad.jpg',
+    coverUrl:
+      '/movies_pictures/ed62b69040e8.jpg',
     releaseDate: '2021-07-28',
     length: 132,
     genre: ['Action'],
@@ -847,7 +859,8 @@ export const baseMoviesSuperHerosDc: BaseMovie[] = [
         name: 'Mariel Hemingway',
       },
     ],
-    coverUrl: '/movies_pictures/superman_iv_the_quest_for_peace.jpg',
+    coverUrl:
+      '/movies_pictures/22717ad30430.jpg',
     releaseDate: '1987-10-28',
     length: 90,
     genre: ['Action'],
@@ -1037,8 +1050,7 @@ export const baseMoviesSuperHerosDc: BaseMovie[] = [
         name: 'Michael Massee',
       },
     ],
-    coverUrl:
-      '/movies_pictures/7be50acab74f.jpg',
+    coverUrl: '/movies_pictures/7be50acab74f.jpg',
     releaseDate: '2004-07-23',
     length: 104,
     genre: ['Action'],
@@ -1074,7 +1086,8 @@ export const baseMoviesSuperHerosDc: BaseMovie[] = [
         name: 'Robert Alda',
       },
     ],
-    coverUrl: '/movies_pictures/225027-wonder-woman-0-150-0-225-crop.jpg',
+    coverUrl:
+      '/movies_pictures/8d968df64832.jpg',
     releaseDate: '2017-06-02',
     length: 141,
     genre: ['Action'],
@@ -1110,7 +1123,8 @@ export const baseMoviesSuperHerosDc: BaseMovie[] = [
         name: 'Natasha Rothwell',
       },
     ],
-    coverUrl: '/movies_pictures/395731-wonder-woman-1984-0-150-0-225-crop.jpg',
+    coverUrl:
+      '/movies_pictures/31f21ae46b2d.jpg',
     releaseDate: '2020-12-25',
     length: 151,
     genre: ['Action'],
@@ -1146,7 +1160,8 @@ export const baseMoviesSuperHerosDc: BaseMovie[] = [
         name: 'Maribel Verdú',
       },
     ],
-    coverUrl: '/movies_pictures/225845-the-flash-0-150-0-225-crop.jpg',
+    coverUrl:
+      '/movies_pictures/327e3fb09c95.jpg',
     releaseDate: '2023-06-16',
     length: 144,
     genre: ['Action'],
@@ -1184,7 +1199,7 @@ export const baseMoviesSuperHerosDc: BaseMovie[] = [
       },
     ],
     coverUrl:
-      '/movies_pictures/426131-birds-of-prey-and-the-fantabulous-emancipation-of-one-har-0-150-0-225-crop.jpg',
+      '/movies_pictures/1352883567cc.jpg',
     releaseDate: '2020-02-07',
     length: 109,
     genre: ['Action'],
@@ -1214,7 +1229,8 @@ export const baseMoviesSuperHerosDc: BaseMovie[] = [
         name: 'Adriana Barraza',
       },
     ],
-    coverUrl: '/movies_pictures/blue_beetle.jpg',
+    coverUrl:
+      '/movies_pictures/6674ca94a968.jpg',
     releaseDate: '2023-08-16',
     length: 127,
     genre: ['Action'],

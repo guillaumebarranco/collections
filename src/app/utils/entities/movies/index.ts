@@ -26,3 +26,4 @@ export * from './base_movies_documentaire';
 export * from './base_movies_comedie_musicale';
 export * from './base_movies_laury_import_batch';
 export * from './base_movies_from_ninon';
+export * from './base_movies_known_missing_batch';

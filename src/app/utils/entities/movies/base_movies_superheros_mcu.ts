@@ -192,8 +192,7 @@ export const baseMoviesSuperherosMcu: BaseMovie[] = [
         name: 'Dominic Cooper',
       },
     ],
-    coverUrl:
-      '/movies_pictures/230ac327cdc5.jpg',
+    coverUrl: '/movies_pictures/230ac327cdc5.jpg',
     releaseDate: '2011-07-22',
     length: 124,
     genre: ['Action'],
@@ -439,8 +438,7 @@ export const baseMoviesSuperherosMcu: BaseMovie[] = [
         name: 'Peter Mensah',
       },
     ],
-    coverUrl:
-      '/movies_pictures/1ff150a8f040.jpg',
+    coverUrl: '/movies_pictures/1ff150a8f040.jpg',
     releaseDate: '2008-06-13',
     length: 112,
     genre: ['Action'],
@@ -476,8 +474,7 @@ export const baseMoviesSuperherosMcu: BaseMovie[] = [
         name: 'Kat Dennings',
       },
     ],
-    coverUrl:
-      '/movies_pictures/1015cd2c21fe.jpg',
+    coverUrl: '/movies_pictures/1015cd2c21fe.jpg',
     releaseDate: '2011-05-06',
     length: 115,
     genre: ['Action'],
@@ -513,8 +510,7 @@ export const baseMoviesSuperherosMcu: BaseMovie[] = [
         name: 'Christopher Eccleston',
       },
     ],
-    coverUrl:
-      '/movies_pictures/ca7f0e8815e7.jpg',
+    coverUrl: '/movies_pictures/ca7f0e8815e7.jpg',
     releaseDate: '2013-11-08',
     length: 112,
     genre: ['Action'],
@@ -550,8 +546,7 @@ export const baseMoviesSuperherosMcu: BaseMovie[] = [
         name: 'Karl Urban',
       },
     ],
-    coverUrl:
-      '/movies_pictures/9d6422e02a66.jpg',
+    coverUrl: '/movies_pictures/9d6422e02a66.jpg',
     releaseDate: '2017-11-03',
     length: 130,
     genre: ['Action'],
@@ -587,8 +582,7 @@ export const baseMoviesSuperherosMcu: BaseMovie[] = [
         name: 'Jaimie Alexander',
       },
     ],
-    coverUrl:
-      '/movies_pictures/e0d936ba23a6.jpg',
+    coverUrl: '/movies_pictures/e0d936ba23a6.jpg',
     releaseDate: '2022-07-08',
     length: 119,
     genre: ['Action'],
@@ -624,8 +618,7 @@ export const baseMoviesSuperherosMcu: BaseMovie[] = [
         name: 'Ben Mendelsohn',
       },
     ],
-    coverUrl:
-      '/movies_pictures/aabafc325131.jpg',
+    coverUrl: '/movies_pictures/aabafc325131.jpg',
     releaseDate: '2019-03-08',
     length: 123,
     genre: ['Action'],
@@ -661,8 +654,7 @@ export const baseMoviesSuperherosMcu: BaseMovie[] = [
         name: 'Bradley Cooper',
       },
     ],
-    coverUrl:
-      '/movies_pictures/1e2da74e178d.jpg',
+    coverUrl: '/movies_pictures/1e2da74e178d.jpg',
     releaseDate: '2023-11-10',
     length: 105,
     genre: ['Action'],
@@ -698,8 +690,7 @@ export const baseMoviesSuperherosMcu: BaseMovie[] = [
         name: 'Ben Kingsley',
       },
     ],
-    coverUrl:
-      '/movies_pictures/db458ec768fc.jpg',
+    coverUrl: '/movies_pictures/db458ec768fc.jpg',
     releaseDate: '2021-09-03',
     length: 132,
     genre: ['Action'],
@@ -757,8 +748,7 @@ export const baseMoviesSuperherosMcu: BaseMovie[] = [
       { name: 'Rachel McAdams' },
       { name: 'Michael Stuhlbarg' },
     ],
-    coverUrl:
-      '/movies_pictures/1e3bb56efb37.jpg',
+    coverUrl: '/movies_pictures/1e3bb56efb37.jpg',
     releaseDate: '2022-05-06',
     length: 126,
     genre: ['Action'],
@@ -794,8 +784,7 @@ export const baseMoviesSuperherosMcu: BaseMovie[] = [
         name: 'Letitia Wright',
       },
     ],
-    coverUrl:
-      '/movies_pictures/b4996301cc4b.jpg',
+    coverUrl: '/movies_pictures/b4996301cc4b.jpg',
     releaseDate: '2018-02-16',
     length: 134,
     genre: ['Action'],
@@ -831,8 +820,7 @@ export const baseMoviesSuperherosMcu: BaseMovie[] = [
         name: 'Dominique Thorne',
       },
     ],
-    coverUrl:
-      '/movies_pictures/34e4adcc5142.jpg',
+    coverUrl: '/movies_pictures/34e4adcc5142.jpg',
     releaseDate: '2022-11-11',
     length: 161,
     genre: ['Action'],
@@ -947,7 +935,8 @@ export const baseMoviesSuperherosMcu: BaseMovie[] = [
         name: 'Judy Greer',
       },
     ],
-    coverUrl: '/movies_pictures/83557-ant-man-0-150-0-225-crop.jpg',
+    coverUrl:
+      '/movies_pictures/5353543cf356.jpg',
     releaseDate: '2015-07-17',
     length: 117,
     genre: ['Action'],
@@ -984,7 +973,7 @@ export const baseMoviesSuperherosMcu: BaseMovie[] = [
       },
     ],
     coverUrl:
-      '/movies_pictures/296341-ant-man-and-the-wasp-0-150-0-225-crop.jpg',
+      '/movies_pictures/692dc9148b37.webp',
     releaseDate: '2018-07-06',
     length: 118,
     genre: ['Action'],
@@ -1021,7 +1010,7 @@ export const baseMoviesSuperherosMcu: BaseMovie[] = [
       },
     ],
     coverUrl:
-      '/movies_pictures/566237-ant-man-and-the-wasp-quantumania-0-150-0-225-crop.jpg',
+      '/movies_pictures/836841d067c8.jpg',
     releaseDate: '2023-02-17',
     length: 125,
     genre: ['Action', 'Aventure'],
@@ -1058,7 +1047,7 @@ export const baseMoviesSuperherosMcu: BaseMovie[] = [
       },
     ],
     coverUrl:
-      '/movies_pictures/242710-spider-man-homecoming-0-150-0-225-crop.jpg',
+      '/movies_pictures/ba37f0eaf8cb.jpg',
     releaseDate: '2017-07-07',
     length: 133,
     genre: ['Action'],
@@ -1090,7 +1079,7 @@ export const baseMoviesSuperherosMcu: BaseMovie[] = [
       },
     ],
     coverUrl:
-      '/movies_pictures/362977-spider-man-far-from-home-0-150-0-225-crop.jpg',
+      '/movies_pictures/17c3a8b5f31e.jpg',
     releaseDate: '2019-07-02',
     length: 129,
     genre: ['Action'],
@@ -1130,8 +1119,7 @@ export const baseMoviesSuperherosMcu: BaseMovie[] = [
         name: 'Jamie Foxx',
       },
     ],
-    coverUrl:
-      '/movies_pictures/560787-spider-man-no-way-home-0-150-0-225-crop.jpg',
+    coverUrl: '/movies_pictures/2fb338e051be.jpg',
     releaseDate: '2021-12-17',
     length: 148,
     genre: ['Action'],
@@ -1211,7 +1199,8 @@ export const baseMoviesSuperherosMcu: BaseMovie[] = [
         name: 'William Hurt',
       },
     ],
-    coverUrl: '/movies_pictures/427807-black-widow-0-150-0-225-crop.jpg',
+    coverUrl:
+      '/movies_pictures/9c99afeef620.jpg',
     releaseDate: '2021-07-09',
     length: 134,
     genre: ['Action'],
@@ -1283,7 +1272,8 @@ export const baseMoviesSuperherosMcu: BaseMovie[] = [
         name: 'Emma Corrin',
       },
     ],
-    coverUrl: '/movies_pictures/462870-deadpool-wolverine-0-150-0-225-crop.jpg',
+    coverUrl:
+      '/movies_pictures/f4963c810b79.jpg',
     releaseDate: '2024-07-26',
     length: 127,
     genre: ['Action'],
