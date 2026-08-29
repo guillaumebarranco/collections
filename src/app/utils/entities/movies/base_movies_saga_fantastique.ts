@@ -1,4 +1,4 @@
-import { BaseMovie } from '../../../models/movie-model';
+import { BaseMovie, OscarEnum } from '../../../models/movie-model';
 
 export const baseMoviesSagaFantastique: BaseMovie[] = [
   {
@@ -34,6 +34,7 @@ export const baseMoviesSagaFantastique: BaseMovie[] = [
     },
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 40,
+    oscars: [],
   },
   {
     title: 'Harry Potter et la chambre des secrets',
@@ -68,6 +69,7 @@ export const baseMoviesSagaFantastique: BaseMovie[] = [
     },
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 40,
+    oscars: [],
   },
   {
     title: "Harry Potter et le prisonnier d'Azkaban",
@@ -108,6 +110,7 @@ export const baseMoviesSagaFantastique: BaseMovie[] = [
     },
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 40,
+    oscars: [],
   },
   {
     title: 'Harry Potter et la coupe de feu',
@@ -148,6 +151,7 @@ export const baseMoviesSagaFantastique: BaseMovie[] = [
     },
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 40,
+    oscars: [],
   },
   {
     title: "Harry Potter et l'ordre du phénix",
@@ -194,6 +198,7 @@ export const baseMoviesSagaFantastique: BaseMovie[] = [
     },
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 40,
+    oscars: [],
   },
   {
     title: 'Harry Potter et le prince de sang-mêlé',
@@ -231,6 +236,7 @@ export const baseMoviesSagaFantastique: BaseMovie[] = [
     },
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 40,
+    oscars: [],
   },
   {
     title: 'Harry Potter et les reliques de la mort - partie 1',
@@ -271,6 +277,7 @@ export const baseMoviesSagaFantastique: BaseMovie[] = [
     },
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 40,
+    oscars: [],
   },
   {
     title: 'Harry Potter et les reliques de la mort - partie 2',
@@ -311,6 +318,7 @@ export const baseMoviesSagaFantastique: BaseMovie[] = [
     },
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 40,
+    oscars: [],
   },
   {
     title: 'Les Animaux Fantastiques',
@@ -337,6 +345,9 @@ export const baseMoviesSagaFantastique: BaseMovie[] = [
     },
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 30,
+    oscars: [
+      { type: OscarEnum.OSCAR_BEST_COSTUME_DESIGN, year: 2017 },
+    ],
   },
   {
     title: 'Les Animaux Fantastiques 2 : Les crimes de Grindelwald',
@@ -363,6 +374,7 @@ export const baseMoviesSagaFantastique: BaseMovie[] = [
     },
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 30,
+    oscars: [],
   },
   {
     title: 'Les Animaux Fantastiques 3 : Les Secrets de Dumbledore',
@@ -389,6 +401,7 @@ export const baseMoviesSagaFantastique: BaseMovie[] = [
     },
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 30,
+    oscars: [],
   },
   {
     title: 'Underworld',
@@ -425,6 +438,7 @@ export const baseMoviesSagaFantastique: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 20,
+    oscars: [],
   },
   {
     title: 'Underworld 2 : Évolution',
@@ -461,6 +475,7 @@ export const baseMoviesSagaFantastique: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 20,
+    oscars: [],
   },
   {
     title: 'Underworld 3 : Le Soulèvement des Lycans',
@@ -497,6 +512,7 @@ export const baseMoviesSagaFantastique: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 20,
+    oscars: [],
   },
   {
     title: 'Underworld 4 : Nouvelle ère',
@@ -533,6 +549,7 @@ export const baseMoviesSagaFantastique: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 20,
+    oscars: [],
   },
   {
     title: 'Underworld : Blood Wars',
@@ -569,6 +586,7 @@ export const baseMoviesSagaFantastique: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 20,
+    oscars: [],
   },
   {
     title: 'Twilight : Chapitre 1 - Fascination',
@@ -609,6 +627,7 @@ export const baseMoviesSagaFantastique: BaseMovie[] = [
     },
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 20,
+    oscars: [],
   },
   {
     title: 'Twilight : Chapitre 2 - Tentation',
@@ -650,6 +669,7 @@ export const baseMoviesSagaFantastique: BaseMovie[] = [
     },
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 20,
+    oscars: [],
   },
   {
     title: 'Twilight : Chapitre 3 - Hésitation',
@@ -690,6 +710,7 @@ export const baseMoviesSagaFantastique: BaseMovie[] = [
     },
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 20,
+    oscars: [],
   },
   {
     title: 'Twilight : Chapitre 4 - Révélation - Partie 1',
@@ -717,6 +738,7 @@ export const baseMoviesSagaFantastique: BaseMovie[] = [
     },
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 20,
+    oscars: [],
   },
   {
     title: 'Twilight : Chapitre 4 - Révélation - Partie 2',
@@ -744,6 +766,7 @@ export const baseMoviesSagaFantastique: BaseMovie[] = [
     },
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 20,
+    oscars: [],
   },
   {
     title: "Le Seigneur des anneaux : La Communauté de l'anneau",
@@ -784,6 +807,12 @@ export const baseMoviesSagaFantastique: BaseMovie[] = [
     },
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 30,
+    oscars: [
+      { type: OscarEnum.OSCAR_BEST_ORIGINAL_SCORE, year: 2002 },
+      { type: OscarEnum.OSCAR_BEST_CINEMATOGRAPHY, year: 2002 },
+      { type: OscarEnum.OSCAR_BEST_MAKEUP, year: 2002 },
+      { type: OscarEnum.OSCAR_BEST_VISUAL_EFFECTS, year: 2002 },
+    ],
   },
   {
     title: 'Le Seigneur des anneaux : Les Deux Tours',
@@ -824,6 +853,10 @@ export const baseMoviesSagaFantastique: BaseMovie[] = [
     },
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 30,
+    oscars: [
+      { type: OscarEnum.OSCAR_BEST_SOUND, year: 2003 },
+      { type: OscarEnum.OSCAR_BEST_VISUAL_EFFECTS, year: 2003 },
+    ],
   },
   {
     title: 'Le Seigneur des anneaux : Le Retour du roi',
@@ -864,6 +897,19 @@ export const baseMoviesSagaFantastique: BaseMovie[] = [
     },
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 30,
+    oscars: [
+      { type: OscarEnum.OSCAR_BEST_MOVIE, year: 2004 },
+      { type: OscarEnum.OSCAR_BEST_DIRECTOR, year: 2004 },
+      { type: OscarEnum.OSCAR_BEST_ADAPTED_SCREENPLAY, year: 2004 },
+      { type: OscarEnum.OSCAR_BEST_ORIGINAL_SCORE, year: 2004 },
+      { type: OscarEnum.OSCAR_BEST_ORIGINAL_SONG, year: 2004 },
+      { type: OscarEnum.OSCAR_BEST_PRODUCTION_DESIGN, year: 2004 },
+      { type: OscarEnum.OSCAR_BEST_COSTUME_DESIGN, year: 2004 },
+      { type: OscarEnum.OSCAR_BEST_FILM_EDITING, year: 2004 },
+      { type: OscarEnum.OSCAR_BEST_MAKEUP, year: 2004 },
+      { type: OscarEnum.OSCAR_BEST_SOUND, year: 2004 },
+      { type: OscarEnum.OSCAR_BEST_VISUAL_EFFECTS, year: 2004 },
+    ],
   },
   {
     title:
@@ -905,6 +951,7 @@ export const baseMoviesSagaFantastique: BaseMovie[] = [
     },
     countryOrigin: ['Nouvelle-Zélande'],
     selectDisplayOrder: 30,
+    oscars: [],
   },
   {
     title: 'Le Seigneur des Anneaux - Les Deux Tours - Version Longue',
@@ -945,6 +992,7 @@ export const baseMoviesSagaFantastique: BaseMovie[] = [
     },
     countryOrigin: ['Nouvelle-Zélande'],
     selectDisplayOrder: 30,
+    oscars: [],
   },
   {
     title: 'Le Seigneur des Anneaux - Le Retour du Roi - Version Longue',
@@ -985,6 +1033,7 @@ export const baseMoviesSagaFantastique: BaseMovie[] = [
     },
     countryOrigin: ['Nouvelle-Zélande'],
     selectDisplayOrder: 30,
+    oscars: [],
   },
   {
     title: 'Le Hobbit (1977)',
@@ -1011,6 +1060,7 @@ export const baseMoviesSagaFantastique: BaseMovie[] = [
     },
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Le Seigneur des anneaux (1978)',
@@ -1037,6 +1087,7 @@ export const baseMoviesSagaFantastique: BaseMovie[] = [
     },
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Le Retour du roi (1980)',
@@ -1077,6 +1128,7 @@ export const baseMoviesSagaFantastique: BaseMovie[] = [
     },
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'The Lord of the Rings: The War of the Rohirrim',
@@ -1112,6 +1164,7 @@ export const baseMoviesSagaFantastique: BaseMovie[] = [
     },
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Le Hobbit : Un voyage inattendu',
@@ -1152,6 +1205,7 @@ export const baseMoviesSagaFantastique: BaseMovie[] = [
     },
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 30,
+    oscars: [],
   },
   {
     title: 'Le Hobbit : La Désolation de Smaug',
@@ -1192,6 +1246,7 @@ export const baseMoviesSagaFantastique: BaseMovie[] = [
     },
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 30,
+    oscars: [],
   },
   {
     title: 'Le Hobbit : La Bataille des Cinq Armées',
@@ -1232,6 +1287,7 @@ export const baseMoviesSagaFantastique: BaseMovie[] = [
     },
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 30,
+    oscars: [],
   },
   {
     title:
@@ -1275,6 +1331,7 @@ export const baseMoviesSagaFantastique: BaseMovie[] = [
     },
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 20,
+    oscars: [],
   },
 
   {
@@ -1316,6 +1373,7 @@ export const baseMoviesSagaFantastique: BaseMovie[] = [
     },
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 20,
+    oscars: [],
   },
   {
     title: "Le Monde de Narnia : L'Odyssée du Passeur d'Aurore",
@@ -1347,6 +1405,7 @@ export const baseMoviesSagaFantastique: BaseMovie[] = [
     },
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 20,
+    oscars: [],
   },
   {
     title: 'Hellboy',
@@ -1384,6 +1443,7 @@ export const baseMoviesSagaFantastique: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 20,
+    oscars: [],
   },
   {
     title: "Hellboy 2 : Les Légions d'Or Maudites",
@@ -1421,6 +1481,7 @@ export const baseMoviesSagaFantastique: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 20,
+    oscars: [],
   },
   {
     title: 'Hellboy',
@@ -1457,6 +1518,7 @@ export const baseMoviesSagaFantastique: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 20,
+    oscars: [],
   },
   {
     title: 'Pirates des Caraïbes : La malédiction du Black Pearl',
@@ -1493,6 +1555,7 @@ export const baseMoviesSagaFantastique: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 30,
+    oscars: [],
   },
   {
     title: 'Pirates des Caraïbes 2 : Le Secret du Coffre Maudit',
@@ -1529,6 +1592,9 @@ export const baseMoviesSagaFantastique: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 30,
+    oscars: [
+      { type: OscarEnum.OSCAR_BEST_VISUAL_EFFECTS, year: 2007 },
+    ],
   },
   {
     title: "Pirates des Caraïbes 3 : Jusqu'au Bout du Monde",
@@ -1551,6 +1617,7 @@ export const baseMoviesSagaFantastique: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 30,
+    oscars: [],
   },
   {
     title: 'Pirates des Caraïbes 4 : La Fontaine de jouvence',
@@ -1587,6 +1654,7 @@ export const baseMoviesSagaFantastique: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 30,
+    oscars: [],
   },
   {
     title: 'Pirates des Caraïbes 5 : La Vengeance de Salazar',
@@ -1623,6 +1691,7 @@ export const baseMoviesSagaFantastique: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 30,
+    oscars: [],
   },
   {
     title: 'Sonic, le film',
@@ -1663,6 +1732,7 @@ export const baseMoviesSagaFantastique: BaseMovie[] = [
     },
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 20,
+    oscars: [],
   },
   {
     title: 'Sonic 2, le film',
@@ -1703,6 +1773,7 @@ export const baseMoviesSagaFantastique: BaseMovie[] = [
     },
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 20,
+    oscars: [],
   },
   {
     title: 'Sonic 3, le film',
@@ -1743,6 +1814,7 @@ export const baseMoviesSagaFantastique: BaseMovie[] = [
     },
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 20,
+    oscars: [],
   },
   {
     title: 'S.O.S. Fantômes',
@@ -1780,6 +1852,7 @@ export const baseMoviesSagaFantastique: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 20,
+    oscars: [],
   },
   {
     title: 'S.O.S. Fantômes 2',
@@ -1817,6 +1890,7 @@ export const baseMoviesSagaFantastique: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 20,
+    oscars: [],
   },
   {
     title: "S.O.S. Fantômes : L'Héritage",
@@ -1853,6 +1927,7 @@ export const baseMoviesSagaFantastique: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 20,
+    oscars: [],
   },
 
   {
@@ -1890,5 +1965,6 @@ export const baseMoviesSagaFantastique: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 20,
+    oscars: [],
   },
 ];

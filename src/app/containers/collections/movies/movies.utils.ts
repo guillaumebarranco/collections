@@ -12,6 +12,7 @@ export type MovieView =
   | 'actors'
   | 'directors'
   | 'countries'
+  | 'oscars'
   | 'recommendations';
 export type OptionalMovieView = Exclude<MovieView, 'watched' | 'watchlist'>;
 
@@ -53,6 +54,10 @@ export const moviesSortOptions = (
 
   if (selectedView === 'countries') {
     return countriesMoviesSortOptions;
+  }
+
+  if (selectedView === 'oscars') {
+    return [];
   }
 
   return [];
@@ -162,6 +167,7 @@ export const movieViewOptions: { value: MovieView; label: string }[] = [
   { value: 'actors', label: 'Voir par acteurs' },
   { value: 'directors', label: 'Voir par réalisateurs' },
   { value: 'countries', label: 'Voir par pays' },
+  { value: 'oscars', label: 'Voir par Oscars' },
   { value: 'recommendations', label: 'Recommandations' },
 ];
 
@@ -279,6 +285,23 @@ export type MoviesByCountryGroup = {
   country: string;
   seenMovies: Movie[];
   missingMovies: Movie[];
+};
+
+export type MoviesByOscarCountGroup = {
+  oscarCount: number;
+  label: string;
+  seenMovies: Movie[];
+  missingMovies: Movie[];
+};
+
+export const getMovieOscarCount = (movie: {
+  oscars?: unknown;
+}): number => {
+  return Array.isArray(movie.oscars) ? movie.oscars.length : 0;
+};
+
+export const formatOscarCountLabel = (count: number): string => {
+  return count <= 1 ? `${count} Oscar` : `${count} Oscars`;
 };
 
 const getMovieIdentityKey = (movie: Movie): string => {
@@ -845,4 +868,60 @@ export const getMoviesByCountry = ({
   });
 
   return filteredCountryGroups;
+};
+
+export const getMoviesByOscarCount = ({
+  sortedMovies,
+  allMovies,
+  baseMovies,
+}: {
+  sortedMovies: Movie[];
+  allMovies: Movie[];
+  baseMovies: Movie[];
+}): MoviesByOscarCountGroup[] => {
+  const seenByCount = new Map<number, Movie[]>();
+  for (const movie of sortedMovies) {
+    const count = getMovieOscarCount(movie);
+    if (count < 1) continue;
+    const list = seenByCount.get(count) ?? [];
+    list.push(movie);
+    seenByCount.set(count, list);
+  }
+
+  const seenKeys = new Set(
+    allMovies.map((movie) => getMovieIdentityKey(movie))
+  );
+  const missingByCount = new Map<number, Movie[]>();
+  for (const movie of baseMovies) {
+    if (seenKeys.has(getMovieIdentityKey(movie))) continue;
+    const count = getMovieOscarCount(movie);
+    if (count < 1) continue;
+    const list = missingByCount.get(count) ?? [];
+    list.push(movie);
+    missingByCount.set(count, list);
+  }
+
+  const allCounts = new Set<number>([
+    ...seenByCount.keys(),
+    ...missingByCount.keys(),
+  ]);
+
+  return Array.from(allCounts)
+    .sort((a, b) => b - a)
+    .map((oscarCount) => ({
+      oscarCount,
+      label: formatOscarCountLabel(oscarCount),
+      seenMovies: getSortedMovies(
+        [...(seenByCount.get(oscarCount) ?? [])],
+        'title'
+      ),
+      missingMovies: getSortedMovies(
+        [...(missingByCount.get(oscarCount) ?? [])],
+        'title'
+      ),
+    }))
+    .filter(
+      (group) =>
+        group.seenMovies.length > 0 || group.missingMovies.length > 0
+    );
 };

@@ -1,4 +1,4 @@
-import { BaseMovie } from '../../../models/movie-model';
+import { BaseMovie, OscarEnum } from '../../../models/movie-model';
 
 export const baseMoviesHorreur: BaseMovie[] = [
   {
@@ -40,6 +40,7 @@ export const baseMoviesHorreur: BaseMovie[] = [
     },
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 30,
+    oscars: [],
   },
   {
     title: 'The Shining',
@@ -80,6 +81,7 @@ export const baseMoviesHorreur: BaseMovie[] = [
     },
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 30,
+    oscars: [],
   },
   {
     title: "L'exorciste",
@@ -116,6 +118,10 @@ export const baseMoviesHorreur: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 30,
+    oscars: [
+      { type: OscarEnum.OSCAR_BEST_ADAPTED_SCREENPLAY, year: 1974 },
+      { type: OscarEnum.OSCAR_BEST_SOUND, year: 1974 },
+    ],
   },
   {
     title: 'Carrie au bal du diable',
@@ -142,6 +148,7 @@ export const baseMoviesHorreur: BaseMovie[] = [
     },
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 30,
+    oscars: [],
   },
   {
     title: 'Les oiseaux',
@@ -178,6 +185,7 @@ export const baseMoviesHorreur: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 30,
+    oscars: [],
   },
   {
     title: 'Psychose',
@@ -214,6 +222,7 @@ export const baseMoviesHorreur: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 30,
+    oscars: [],
   },
   {
     title: 'Les Dents de la mer',
@@ -250,6 +259,11 @@ export const baseMoviesHorreur: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 30,
+    oscars: [
+      { type: OscarEnum.OSCAR_BEST_SOUND, year: 1976 },
+      { type: OscarEnum.OSCAR_BEST_FILM_EDITING, year: 1976 },
+      { type: OscarEnum.OSCAR_BEST_ORIGINAL_SCORE, year: 1976 },
+    ],
   },
   {
     title: 'Les Dents de la mer, 2ᵉ partie',
@@ -272,6 +286,7 @@ export const baseMoviesHorreur: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 30,
+    oscars: [],
   },
   {
     title: 'Les Dents de la mer 3',
@@ -294,6 +309,7 @@ export const baseMoviesHorreur: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 30,
+    oscars: [],
   },
   {
     title: 'The Descent',
@@ -330,6 +346,7 @@ export const baseMoviesHorreur: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'The Visit',
@@ -366,6 +383,7 @@ export const baseMoviesHorreur: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'La chambre 1408',
@@ -402,6 +420,7 @@ export const baseMoviesHorreur: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Pas un bruit',
@@ -438,6 +457,7 @@ export const baseMoviesHorreur: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Sinners',
@@ -474,6 +494,12 @@ export const baseMoviesHorreur: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 30,
+    oscars: [
+      { type: OscarEnum.OSCAR_BEST_ACTOR, year: 2026 },
+      { type: OscarEnum.OSCAR_BEST_ORIGINAL_SCREENPLAY, year: 2026 },
+      { type: OscarEnum.OSCAR_BEST_CINEMATOGRAPHY, year: 2026 },
+      { type: OscarEnum.OSCAR_BEST_ORIGINAL_SCORE, year: 2026 },
+    ],
   },
   {
     title: 'Amityville',
@@ -510,6 +536,7 @@ export const baseMoviesHorreur: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Le Collectionneur',
@@ -546,6 +573,7 @@ export const baseMoviesHorreur: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Docteur Frankenstein',
@@ -586,6 +614,7 @@ export const baseMoviesHorreur: BaseMovie[] = [
     },
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Speak No Evil',
@@ -613,6 +642,7 @@ export const baseMoviesHorreur: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'The Strangers',
@@ -635,6 +665,7 @@ export const baseMoviesHorreur: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Massacre à la tronconneuse',
@@ -657,6 +688,7 @@ export const baseMoviesHorreur: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Vendredi 13',
@@ -679,6 +711,7 @@ export const baseMoviesHorreur: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'La Nuit des masques',
@@ -701,6 +734,7 @@ export const baseMoviesHorreur: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Les Griffes de la nuit',
@@ -723,6 +757,7 @@ export const baseMoviesHorreur: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'The Thing',
@@ -745,6 +780,7 @@ export const baseMoviesHorreur: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'The Wicker Man',
@@ -767,6 +803,7 @@ export const baseMoviesHorreur: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['Royaume-Uni'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Le Chien des Baskerville (1959)',
@@ -807,6 +844,7 @@ export const baseMoviesHorreur: BaseMovie[] = [
     },
     countryOrigin: ['Royaume-Uni'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Eraserhead',
@@ -843,6 +881,7 @@ export const baseMoviesHorreur: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Twin Peaks: Fire Walk with Me',
@@ -879,6 +918,7 @@ export const baseMoviesHorreur: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Cronos',
@@ -915,6 +955,7 @@ export const baseMoviesHorreur: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['Mexique'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: "L'Échine du diable",
@@ -951,6 +992,7 @@ export const baseMoviesHorreur: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['Espagne', 'Mexique'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: "Jusqu'en enfer",
@@ -987,6 +1029,7 @@ export const baseMoviesHorreur: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'The Fog',
@@ -1023,6 +1066,7 @@ export const baseMoviesHorreur: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Christine',
@@ -1059,6 +1103,7 @@ export const baseMoviesHorreur: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'In the Mouth of Madness',
@@ -1095,6 +1140,7 @@ export const baseMoviesHorreur: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'La Nuit des morts-vivants',
@@ -1131,6 +1177,7 @@ export const baseMoviesHorreur: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Zombie',
@@ -1167,6 +1214,7 @@ export const baseMoviesHorreur: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis', 'Italie'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Le Jour des morts-vivants',
@@ -1203,6 +1251,7 @@ export const baseMoviesHorreur: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Le Territoire des Morts',
@@ -1239,6 +1288,7 @@ export const baseMoviesHorreur: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['Canada', 'France', 'États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Martin',
@@ -1269,6 +1319,7 @@ export const baseMoviesHorreur: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'The Crazies',
@@ -1299,6 +1350,7 @@ export const baseMoviesHorreur: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Frankenstein',
@@ -1323,6 +1375,11 @@ export const baseMoviesHorreur: BaseMovie[] = [
     },
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 30,
+    oscars: [
+      { type: OscarEnum.OSCAR_BEST_PRODUCTION_DESIGN, year: 2026 },
+      { type: OscarEnum.OSCAR_BEST_MAKEUP, year: 2026 },
+      { type: OscarEnum.OSCAR_BEST_COSTUME_DESIGN, year: 2026 },
+    ],
   },
   {
     title: "Jennifer's Body",
@@ -1359,6 +1416,7 @@ export const baseMoviesHorreur: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 30,
+    oscars: [],
   },
   {
     title: 'Orphan',
@@ -1396,6 +1454,7 @@ export const baseMoviesHorreur: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 5,
+    oscars: [],
   },
   {
     title: 'The Others',
@@ -1432,6 +1491,7 @@ export const baseMoviesHorreur: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['Espagne'],
     selectDisplayOrder: 5,
+    oscars: [],
   },
   {
     title: 'Sleepy Hollow',
@@ -1468,6 +1528,9 @@ export const baseMoviesHorreur: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 5,
+    oscars: [
+      { type: OscarEnum.OSCAR_BEST_PRODUCTION_DESIGN, year: 2000 },
+    ],
   },
   {
     title: "Souviens-toi... l'été dernier",
@@ -1504,6 +1567,7 @@ export const baseMoviesHorreur: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 5,
+    oscars: [],
   },
   {
     title: 'Entretien avec un vampire',
@@ -1541,6 +1605,7 @@ export const baseMoviesHorreur: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 30,
+    oscars: [],
   },
   {
     title: 'Gremlins',
@@ -1577,6 +1642,7 @@ export const baseMoviesHorreur: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 30,
+    oscars: [],
   },
   {
     title: 'Gremlins 2 : La nouvelle génération',
@@ -1613,6 +1679,7 @@ export const baseMoviesHorreur: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 30,
+    oscars: [],
   },
   {
     title: 'Halloween',
@@ -1649,6 +1716,7 @@ export const baseMoviesHorreur: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 5,
+    oscars: [],
   },
   {
     title: 'Dans les hautes herbes',
@@ -1668,6 +1736,7 @@ export const baseMoviesHorreur: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Ghostland',
@@ -1687,6 +1756,7 @@ export const baseMoviesHorreur: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['France'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Black Phone',
@@ -1706,6 +1776,7 @@ export const baseMoviesHorreur: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'La maison de cire',
@@ -1725,6 +1796,7 @@ export const baseMoviesHorreur: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Happy Death Day',
@@ -1744,6 +1816,7 @@ export const baseMoviesHorreur: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Affamés',
@@ -1763,6 +1836,7 @@ export const baseMoviesHorreur: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'The Farm',
@@ -1782,6 +1856,7 @@ export const baseMoviesHorreur: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'La maison des 1000 morts',
@@ -1801,6 +1876,7 @@ export const baseMoviesHorreur: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'The Grudge',
@@ -1820,6 +1896,7 @@ export const baseMoviesHorreur: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Annabelle',
@@ -1839,6 +1916,7 @@ export const baseMoviesHorreur: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'La nonne',
@@ -1858,6 +1936,7 @@ export const baseMoviesHorreur: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'The Mortuary',
@@ -1877,6 +1956,7 @@ export const baseMoviesHorreur: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Eli',
@@ -1896,6 +1976,7 @@ export const baseMoviesHorreur: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Us',
@@ -1915,6 +1996,7 @@ export const baseMoviesHorreur: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Midsommar',
@@ -1934,6 +2016,7 @@ export const baseMoviesHorreur: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Baba Yaga',
@@ -1953,6 +2036,7 @@ export const baseMoviesHorreur: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Creep',
@@ -1971,6 +2055,7 @@ export const baseMoviesHorreur: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Wounds',
@@ -1990,6 +2075,7 @@ export const baseMoviesHorreur: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Grave',
@@ -2012,6 +2098,7 @@ export const baseMoviesHorreur: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['France'],
     selectDisplayOrder: 5,
+    oscars: [],
   },
   {
     title: 'Trouble Jeu',
@@ -2048,6 +2135,7 @@ export const baseMoviesHorreur: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 5,
+    oscars: [],
   },
 
   {
@@ -2085,6 +2173,7 @@ export const baseMoviesHorreur: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 5,
+    oscars: [],
   },
   {
     title: 'Until Dawn : La mort sans fin',
@@ -2115,6 +2204,7 @@ export const baseMoviesHorreur: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 5,
+    oscars: [],
   },
   {
     title: 'Nosferatu',
@@ -2149,6 +2239,7 @@ export const baseMoviesHorreur: BaseMovie[] = [
     },
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 5,
+    oscars: [],
   },
   {
     title: 'The Substance',
@@ -2176,6 +2267,9 @@ export const baseMoviesHorreur: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 30,
+    oscars: [
+      { type: OscarEnum.OSCAR_BEST_MAKEUP, year: 2025 },
+    ],
   },
   {
     title: 'Cinq nuits chez Freddy',
@@ -2206,6 +2300,7 @@ export const baseMoviesHorreur: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 5,
+    oscars: [],
   },
   {
     title: 'Cinq nuits chez Freddy 2',
@@ -2242,6 +2337,7 @@ export const baseMoviesHorreur: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 5,
+    oscars: [],
   },
   {
     title: 'Hérédité',
@@ -2264,6 +2360,7 @@ export const baseMoviesHorreur: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 5,
+    oscars: [],
   },
   {
     title: 'Ça',
@@ -2286,6 +2383,7 @@ export const baseMoviesHorreur: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 5,
+    oscars: [],
   },
   {
     title: 'Get Out',
@@ -2308,6 +2406,9 @@ export const baseMoviesHorreur: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 30,
+    oscars: [
+      { type: OscarEnum.OSCAR_BEST_ORIGINAL_SCREENPLAY, year: 2018 },
+    ],
   },
   {
     title: 'American Nightmare 3 : Élections',
@@ -2330,6 +2431,7 @@ export const baseMoviesHorreur: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 5,
+    oscars: [],
   },
   {
     title: 'Dernier train pour Busan',
@@ -2352,6 +2454,7 @@ export const baseMoviesHorreur: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['Corée du Sud'],
     selectDisplayOrder: 30,
+    oscars: [],
   },
   {
     title: 'Crimson Peak',
@@ -2374,6 +2477,7 @@ export const baseMoviesHorreur: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 5,
+    oscars: [],
   },
   {
     title: 'Maggie',
@@ -2396,6 +2500,7 @@ export const baseMoviesHorreur: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 5,
+    oscars: [],
   },
   {
     title: 'Mister Babadook',
@@ -2418,6 +2523,7 @@ export const baseMoviesHorreur: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 5,
+    oscars: [],
   },
   {
     title: 'Mama',
@@ -2440,6 +2546,7 @@ export const baseMoviesHorreur: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 5,
+    oscars: [],
   },
   {
     title: 'Sinister',
@@ -2462,6 +2569,7 @@ export const baseMoviesHorreur: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 5,
+    oscars: [],
   },
   {
     title: 'La Cabane dans les bois',
@@ -2484,6 +2592,7 @@ export const baseMoviesHorreur: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 5,
+    oscars: [],
   },
   {
     title: 'Piranha 3D',
@@ -2506,6 +2615,7 @@ export const baseMoviesHorreur: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 5,
+    oscars: [],
   },
   {
     title: 'Le Dernier Exorcisme',
@@ -2528,6 +2638,7 @@ export const baseMoviesHorreur: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 5,
+    oscars: [],
   },
   {
     title: '[REC]',
@@ -2550,6 +2661,7 @@ export const baseMoviesHorreur: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['Espagne'],
     selectDisplayOrder: 5,
+    oscars: [],
   },
   {
     title: 'La Colline a des yeux',
@@ -2572,6 +2684,7 @@ export const baseMoviesHorreur: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 5,
+    oscars: [],
   },
   {
     title: "L'Armée des morts",
@@ -2594,6 +2707,7 @@ export const baseMoviesHorreur: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 5,
+    oscars: [],
   },
   {
     title: 'Le Projet Blair Witch',
@@ -2616,6 +2730,7 @@ export const baseMoviesHorreur: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 5,
+    oscars: [],
   },
 
   {
@@ -2653,6 +2768,7 @@ export const baseMoviesHorreur: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 30,
+    oscars: [],
   },
   {
     title: 'Obsession',
@@ -2683,6 +2799,7 @@ export const baseMoviesHorreur: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Vermines',
@@ -2705,5 +2822,6 @@ export const baseMoviesHorreur: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['France'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
 ];

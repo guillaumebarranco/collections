@@ -1,4 +1,4 @@
-import { BaseMovie } from '../../../models/movie-model';
+import { BaseMovie, OscarEnum } from '../../../models/movie-model';
 
 export const baseMoviesSuperherosAutres: BaseMovie[] = [
   {
@@ -36,6 +36,7 @@ export const baseMoviesSuperherosAutres: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 20,
+    oscars: [],
   },
   {
     title: 'Deadpool 2',
@@ -63,6 +64,7 @@ export const baseMoviesSuperherosAutres: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 20,
+    oscars: [],
   },
   {
     title: 'Daredevil',
@@ -90,6 +92,7 @@ export const baseMoviesSuperherosAutres: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 20,
+    oscars: [],
   },
   {
     title: 'Elektra',
@@ -126,6 +129,7 @@ export const baseMoviesSuperherosAutres: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 20,
+    oscars: [],
   },
   {
     title: 'X-Men',
@@ -153,6 +157,7 @@ export const baseMoviesSuperherosAutres: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 20,
+    oscars: [],
   },
   {
     title: 'X-men 2',
@@ -172,6 +177,7 @@ export const baseMoviesSuperherosAutres: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 20,
+    oscars: [],
   },
   {
     title: "X-Men : L'Affrontement Final",
@@ -192,6 +198,7 @@ export const baseMoviesSuperherosAutres: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 20,
+    oscars: [],
   },
   {
     title: 'X-Men Origins : Wolverine',
@@ -229,6 +236,7 @@ export const baseMoviesSuperherosAutres: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 20,
+    oscars: [],
   },
   {
     title: 'The Wolverine',
@@ -265,6 +273,7 @@ export const baseMoviesSuperherosAutres: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 20,
+    oscars: [],
   },
   {
     title: 'Logan',
@@ -301,6 +310,7 @@ export const baseMoviesSuperherosAutres: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 20,
+    oscars: [],
   },
   {
     title: 'X-Men : Le Commencement',
@@ -337,6 +347,7 @@ export const baseMoviesSuperherosAutres: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 20,
+    oscars: [],
   },
   {
     title: 'X-Men : Days of Future Past',
@@ -357,6 +368,7 @@ export const baseMoviesSuperherosAutres: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 20,
+    oscars: [],
   },
   {
     title: 'X-Men : Apocalypse',
@@ -376,6 +388,7 @@ export const baseMoviesSuperherosAutres: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 20,
+    oscars: [],
   },
   {
     title: 'X-Men :Dark Phoenix',
@@ -397,6 +410,7 @@ export const baseMoviesSuperherosAutres: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 20,
+    oscars: [],
   },
   {
     title: 'Venom',
@@ -433,6 +447,7 @@ export const baseMoviesSuperherosAutres: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 20,
+    oscars: [],
   },
   {
     title: 'Venom : Let There Be Carnage',
@@ -467,6 +482,7 @@ export const baseMoviesSuperherosAutres: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 20,
+    oscars: [],
   },
   {
     title: 'Venom : The Last Dance',
@@ -503,6 +519,7 @@ export const baseMoviesSuperherosAutres: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 20,
+    oscars: [],
   },
   {
     title: 'Spider-Man',
@@ -543,6 +560,7 @@ export const baseMoviesSuperherosAutres: BaseMovie[] = [
     },
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 20,
+    oscars: [],
   },
   {
     title: 'Spider-Man 2',
@@ -583,6 +601,9 @@ export const baseMoviesSuperherosAutres: BaseMovie[] = [
     },
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 20,
+    oscars: [
+      { type: OscarEnum.OSCAR_BEST_VISUAL_EFFECTS, year: 2005 },
+    ],
   },
   {
     title: 'Spider-Man 3',
@@ -623,6 +644,7 @@ export const baseMoviesSuperherosAutres: BaseMovie[] = [
     },
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 20,
+    oscars: [],
   },
   {
     title: 'The Amazing Spider-Man',
@@ -663,6 +685,7 @@ export const baseMoviesSuperherosAutres: BaseMovie[] = [
     },
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 20,
+    oscars: [],
   },
   {
     title: "The Amazing Spider-Man : Le Destin d'un Héros",
@@ -704,6 +727,7 @@ export const baseMoviesSuperherosAutres: BaseMovie[] = [
     },
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 20,
+    oscars: [],
   },
 
   {
@@ -742,6 +766,7 @@ export const baseMoviesSuperherosAutres: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 20,
+    oscars: [],
   },
   {
     title: 'Kick-Ass 2',
@@ -779,6 +804,7 @@ export const baseMoviesSuperherosAutres: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 20,
+    oscars: [],
   },
   {
     title: 'Hancock',
@@ -816,6 +842,7 @@ export const baseMoviesSuperherosAutres: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 20,
+    oscars: [],
   },
   {
     title: 'Les 4 Fantastiques',
@@ -853,6 +880,7 @@ export const baseMoviesSuperherosAutres: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 20,
+    oscars: [],
   },
   {
     title: "Les 4 Fantastiques et le Surfeur d'Argent",
@@ -890,6 +918,7 @@ export const baseMoviesSuperherosAutres: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 20,
+    oscars: [],
   },
   {
     title: 'Ghost Rider',
@@ -927,6 +956,7 @@ export const baseMoviesSuperherosAutres: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 20,
+    oscars: [],
   },
   {
     title: 'Sky High',
@@ -964,6 +994,7 @@ export const baseMoviesSuperherosAutres: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 20,
+    oscars: [],
   },
   {
     title: 'Hulk',
@@ -1001,6 +1032,7 @@ export const baseMoviesSuperherosAutres: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 20,
+    oscars: [],
   },
   {
     title: 'The Punisher',
@@ -1037,6 +1069,7 @@ export const baseMoviesSuperherosAutres: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 20,
+    oscars: [],
   },
   {
     title: 'Les 4 Fantastiques',
@@ -1074,6 +1107,7 @@ export const baseMoviesSuperherosAutres: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 20,
+    oscars: [],
   },
   {
     title: 'Kraven the Hunter',
@@ -1104,6 +1138,7 @@ export const baseMoviesSuperherosAutres: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 20,
+    oscars: [],
   },
   {
     title: 'Madame Web',
@@ -1135,6 +1170,7 @@ export const baseMoviesSuperherosAutres: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 20,
+    oscars: [],
   },
   {
     title: 'Morbius',
@@ -1171,6 +1207,7 @@ export const baseMoviesSuperherosAutres: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 20,
+    oscars: [],
   },
   {
     title: 'Les Nouveaux Mutants',
@@ -1207,5 +1244,6 @@ export const baseMoviesSuperherosAutres: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 20,
+    oscars: [],
   },
 ];

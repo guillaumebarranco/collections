@@ -1,4 +1,4 @@
-import { BaseMovie } from '../../../models/movie-model';
+import { BaseMovie, OscarEnum } from '../../../models/movie-model';
 
 export const baseMoviesRomance: BaseMovie[] = [
   {
@@ -36,6 +36,7 @@ export const baseMoviesRomance: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['France'],
     selectDisplayOrder: 30,
+    oscars: [],
   },
 
   {
@@ -77,6 +78,7 @@ export const baseMoviesRomance: BaseMovie[] = [
     },
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 10,
+    oscars: [],
   },
   {
     title: 'Black/White',
@@ -113,6 +115,7 @@ export const baseMoviesRomance: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 10,
+    oscars: [],
   },
   {
     title: 'Demain est un autre jour',
@@ -149,6 +152,7 @@ export const baseMoviesRomance: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 10,
+    oscars: [],
   },
   {
     title: 'Nos étoiles contraires',
@@ -175,6 +179,7 @@ export const baseMoviesRomance: BaseMovie[] = [
     },
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 20,
+    oscars: [],
   },
   {
     title: 'Champagne Problems',
@@ -208,6 +213,7 @@ export const baseMoviesRomance: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 10,
+    oscars: [],
   },
   {
     title: 'Charlie, les filles lui disent merci',
@@ -245,6 +251,7 @@ export const baseMoviesRomance: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 10,
+    oscars: [],
   },
   {
     title: 'Honey',
@@ -281,6 +288,7 @@ export const baseMoviesRomance: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 10,
+    oscars: [],
   },
   {
     title: 'Le Chasseur de primes',
@@ -317,6 +325,7 @@ export const baseMoviesRomance: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 10,
+    oscars: [],
   },
   {
     title: 'People We Meet on Vacation',
@@ -353,6 +362,7 @@ export const baseMoviesRomance: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 10,
+    oscars: [],
   },
   {
     title: 'Trop loin pour toi',
@@ -389,6 +399,7 @@ export const baseMoviesRomance: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 10,
+    oscars: [],
   },
   {
     title: 'Tout le Bleu du Ciel',
@@ -412,6 +423,7 @@ export const baseMoviesRomance: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['France'],
     selectDisplayOrder: 10,
+    oscars: [],
   },
   {
     title: 'Nos coeurs meurtris',
@@ -448,6 +460,7 @@ export const baseMoviesRomance: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 10,
+    oscars: [],
   },
   {
     title: 'Au plaisir de se faire trahir',
@@ -484,6 +497,7 @@ export const baseMoviesRomance: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 10,
+    oscars: [],
   },
   {
     title: "La Probabilité statistique de l'amour au premier regard",
@@ -520,6 +534,7 @@ export const baseMoviesRomance: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 10,
+    oscars: [],
   },
   {
     title: 'Ce sera toi',
@@ -547,6 +562,7 @@ export const baseMoviesRomance: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 10,
+    oscars: [],
   },
   {
     title: 'Hello, adieu, et nous au milieu',
@@ -570,6 +586,7 @@ export const baseMoviesRomance: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 10,
+    oscars: [],
   },
   {
     title: 'Un Accord Parfait',
@@ -592,6 +609,7 @@ export const baseMoviesRomance: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 10,
+    oscars: [],
   },
   {
     title: 'The In-between',
@@ -628,6 +646,7 @@ export const baseMoviesRomance: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 10,
+    oscars: [],
   },
   {
     title: 'À Travers Ma Fenêtre',
@@ -661,6 +680,7 @@ export const baseMoviesRomance: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 10,
+    oscars: [],
   },
   {
     title: 'Love Hard',
@@ -697,6 +717,7 @@ export const baseMoviesRomance: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 10,
+    oscars: [],
   },
   {
     title: "L'Amour complexe",
@@ -719,6 +740,7 @@ export const baseMoviesRomance: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 10,
+    oscars: [],
   },
 
   {
@@ -753,6 +775,7 @@ export const baseMoviesRomance: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 10,
+    oscars: [],
   },
   {
     title: "L'agence",
@@ -789,6 +812,7 @@ export const baseMoviesRomance: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 10,
+    oscars: [],
   },
   {
     title: 'Un jour',
@@ -829,6 +853,7 @@ export const baseMoviesRomance: BaseMovie[] = [
     },
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 10,
+    oscars: [],
   },
   {
     title: 'Sex Friends',
@@ -865,6 +890,7 @@ export const baseMoviesRomance: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 30,
+    oscars: [],
   },
   {
     title: 'Love & autres drogues',
@@ -887,6 +913,7 @@ export const baseMoviesRomance: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 10,
+    oscars: [],
   },
   {
     title: 'Sexy Dance',
@@ -923,6 +950,7 @@ export const baseMoviesRomance: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 10,
+    oscars: [],
   },
   {
     title: 'Sexy Dance 2',
@@ -959,6 +987,7 @@ export const baseMoviesRomance: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 10,
+    oscars: [],
   },
   {
     title: 'Sexy Dance 3D',
@@ -995,6 +1024,7 @@ export const baseMoviesRomance: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 10,
+    oscars: [],
   },
   {
     title: 'Sexy Dance 4 : Miami Heat',
@@ -1031,6 +1061,7 @@ export const baseMoviesRomance: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 10,
+    oscars: [],
   },
   {
     title: 'Step Up: All In',
@@ -1053,6 +1084,7 @@ export const baseMoviesRomance: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 10,
+    oscars: [],
   },
   {
     title: "L'Arnacœur",
@@ -1089,6 +1121,7 @@ export const baseMoviesRomance: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['France'],
     selectDisplayOrder: 30,
+    oscars: [],
   },
   {
     title: 'Remember Me',
@@ -1125,6 +1158,7 @@ export const baseMoviesRomance: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 10,
+    oscars: [],
   },
   {
     title: "Valentine's Day",
@@ -1161,6 +1195,7 @@ export const baseMoviesRomance: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 30,
+    oscars: [],
   },
   {
     title: 'La proposition',
@@ -1197,6 +1232,7 @@ export const baseMoviesRomance: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 30,
+    oscars: [],
   },
   {
     title: '17 ans encore',
@@ -1233,6 +1269,7 @@ export const baseMoviesRomance: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 10,
+    oscars: [],
   },
   {
     title: '(500) Jours Ensemble',
@@ -1269,6 +1306,7 @@ export const baseMoviesRomance: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 10,
+    oscars: [],
   },
   {
     title: 'Jackpot',
@@ -1306,6 +1344,7 @@ export const baseMoviesRomance: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 10,
+    oscars: [],
   },
   {
     title: 'Juno',
@@ -1342,6 +1381,9 @@ export const baseMoviesRomance: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 10,
+    oscars: [
+      { type: OscarEnum.OSCAR_BEST_ORIGINAL_SCREENPLAY, year: 2008 },
+    ],
   },
   {
     title: 'Orgueil et Préjugés',
@@ -1382,6 +1424,7 @@ export const baseMoviesRomance: BaseMovie[] = [
     },
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 30,
+    oscars: [],
   },
   {
     title: 'Match Point',
@@ -1418,6 +1461,7 @@ export const baseMoviesRomance: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 30,
+    oscars: [],
   },
   {
     title: 'Hitch : Expert en Séduction',
@@ -1454,6 +1498,7 @@ export const baseMoviesRomance: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 30,
+    oscars: [],
   },
   {
     title: 'Des étoiles plein les yeux',
@@ -1490,6 +1535,7 @@ export const baseMoviesRomance: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 10,
+    oscars: [],
   },
   {
     title: 'Eternal Sunshine of the Spotless Mind',
@@ -1520,6 +1566,9 @@ export const baseMoviesRomance: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 30,
+    oscars: [
+      { type: OscarEnum.OSCAR_BEST_ORIGINAL_SCREENPLAY, year: 2005 },
+    ],
   },
   {
     title: 'The Girl Next Door',
@@ -1557,6 +1606,7 @@ export const baseMoviesRomance: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 10,
+    oscars: [],
   },
   {
     title: 'Amour & Amnésie',
@@ -1579,6 +1629,7 @@ export const baseMoviesRomance: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 30,
+    oscars: [],
   },
   {
     title: 'Love Actually',
@@ -1598,6 +1649,7 @@ export const baseMoviesRomance: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['Royaume-Uni'],
     selectDisplayOrder: 30,
+    oscars: [],
   },
   {
     title: "Le temps d'un automne",
@@ -1638,6 +1690,7 @@ export const baseMoviesRomance: BaseMovie[] = [
     },
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 10,
+    oscars: [],
   },
   {
     title: 'Pearl Harbor',
@@ -1674,6 +1727,9 @@ export const baseMoviesRomance: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 30,
+    oscars: [
+      { type: OscarEnum.OSCAR_BEST_SOUND, year: 2002 },
+    ],
   },
   {
     title: 'Ce que Veulent les Femmes',
@@ -1710,6 +1766,7 @@ export const baseMoviesRomance: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 10,
+    oscars: [],
   },
   {
     title: 'Coup de foudre à Notting Hill',
@@ -1746,6 +1803,7 @@ export const baseMoviesRomance: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 30,
+    oscars: [],
   },
   {
     title: 'Rencontre avec Joe Black',
@@ -1782,6 +1840,7 @@ export const baseMoviesRomance: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 10,
+    oscars: [],
   },
   {
     title: 'Pretty Woman',
@@ -1818,6 +1877,7 @@ export const baseMoviesRomance: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 30,
+    oscars: [],
   },
   {
     title: "L'Amour puissance mille",
@@ -1836,6 +1896,7 @@ export const baseMoviesRomance: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 10,
+    oscars: [],
   },
   {
     title: 'La La Land',
@@ -1872,6 +1933,14 @@ export const baseMoviesRomance: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 30,
+    oscars: [
+      { type: OscarEnum.OSCAR_BEST_DIRECTOR, year: 2017 },
+      { type: OscarEnum.OSCAR_BEST_ACTRESS, year: 2017 },
+      { type: OscarEnum.OSCAR_BEST_CINEMATOGRAPHY, year: 2017 },
+      { type: OscarEnum.OSCAR_BEST_ORIGINAL_SCORE, year: 2017 },
+      { type: OscarEnum.OSCAR_BEST_ORIGINAL_SONG, year: 2017 },
+      { type: OscarEnum.OSCAR_BEST_PRODUCTION_DESIGN, year: 2017 },
+    ],
   },
   {
     title: "L'amour ouf",
@@ -1908,6 +1977,7 @@ export const baseMoviesRomance: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['France'],
     selectDisplayOrder: 30,
+    oscars: [],
   },
   {
     title: 'The Princess Switch',
@@ -1936,6 +2006,7 @@ export const baseMoviesRomance: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 10,
+    oscars: [],
   },
   {
     title: 'The Princess Switch : Switched Again',
@@ -1973,6 +2044,7 @@ export const baseMoviesRomance: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 10,
+    oscars: [],
   },
   {
     title: 'The Princess Switch 3: Romancing the Star',
@@ -2009,6 +2081,7 @@ export const baseMoviesRomance: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 10,
+    oscars: [],
   },
   {
     title: 'Holidate',
@@ -2045,6 +2118,7 @@ export const baseMoviesRomance: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 10,
+    oscars: [],
   },
   {
     title: 'Rich in Love',
@@ -2067,6 +2141,7 @@ export const baseMoviesRomance: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 10,
+    oscars: [],
   },
   {
     title: 'Isi & Ossi',
@@ -2089,6 +2164,7 @@ export const baseMoviesRomance: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 10,
+    oscars: [],
   },
   {
     title: 'Last Christmas',
@@ -2125,6 +2201,7 @@ export const baseMoviesRomance: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 10,
+    oscars: [],
   },
   {
     title: '40 jours et 40 nuits',
@@ -2161,6 +2238,7 @@ export const baseMoviesRomance: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 10,
+    oscars: [],
   },
   {
     title: 'Coup de foudre à Manhattan',
@@ -2197,6 +2275,7 @@ export const baseMoviesRomance: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 10,
+    oscars: [],
   },
   {
     title: 'Love again: un peu, beaucoup, passionnément',
@@ -2233,6 +2312,7 @@ export const baseMoviesRomance: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 10,
+    oscars: [],
   },
   {
     title: 'LOL (Laughing Out Loud)',
@@ -2255,6 +2335,7 @@ export const baseMoviesRomance: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['France'],
     selectDisplayOrder: 30,
+    oscars: [],
   },
   {
     title: 'Marty Supreme',
@@ -2291,6 +2372,7 @@ export const baseMoviesRomance: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 30,
+    oscars: [],
   },
   {
     title: 'Valeur sentimentale (2025)',
@@ -2327,6 +2409,9 @@ export const baseMoviesRomance: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['Suède'],
     selectDisplayOrder: 10,
+    oscars: [
+      { type: OscarEnum.OSCAR_BEST_INTERNATIONAL_FEATURE, year: 2026 },
+    ],
   },
   {
     title: 'Forever My Girl',
@@ -2363,6 +2448,7 @@ export const baseMoviesRomance: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 10,
+    oscars: [],
   },
   {
     title: 'Maintenance Required',
@@ -2400,6 +2486,7 @@ export const baseMoviesRomance: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 10,
+    oscars: [],
   },
   {
     title: 'French Lover',
@@ -2421,6 +2508,7 @@ export const baseMoviesRomance: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['France'],
     selectDisplayOrder: 10,
+    oscars: [],
   },
   {
     title: 'Lettres à Juliette',
@@ -2457,6 +2545,7 @@ export const baseMoviesRomance: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 10,
+    oscars: [],
   },
   {
     title: 'My Oxford Year',
@@ -2493,6 +2582,7 @@ export const baseMoviesRomance: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 10,
+    oscars: [],
   },
   {
     title: 'Le témoin amoureux',
@@ -2529,6 +2619,7 @@ export const baseMoviesRomance: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 10,
+    oscars: [],
   },
   {
     title: 'Sexe entre amis',
@@ -2565,6 +2656,7 @@ export const baseMoviesRomance: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 10,
+    oscars: [],
   },
   {
     title: 'La carte qui mène à toi',
@@ -2599,6 +2691,7 @@ export const baseMoviesRomance: BaseMovie[] = [
     },
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 10,
+    oscars: [],
   },
   {
     title: "N'oublie Jamais",
@@ -2639,6 +2732,7 @@ export const baseMoviesRomance: BaseMovie[] = [
     },
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 10,
+    oscars: [],
   },
   {
     title: "L'Amour, c'est surcoté ",
@@ -2675,6 +2769,7 @@ export const baseMoviesRomance: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['France'],
     selectDisplayOrder: 10,
+    oscars: [],
   },
   {
     title: "He's All That",
@@ -2711,6 +2806,7 @@ export const baseMoviesRomance: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 10,
+    oscars: [],
   },
   {
     title: "À tous les garçons que j'ai aimés",
@@ -2733,6 +2829,7 @@ export const baseMoviesRomance: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 10,
+    oscars: [],
   },
   {
     title: 'À tous les garçons : Pour toujours et à jamais',
@@ -2769,6 +2866,7 @@ export const baseMoviesRomance: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 10,
+    oscars: [],
   },
   {
     title: "À tous les garçons : P.S. Je t'aime toujours",
@@ -2805,6 +2903,7 @@ export const baseMoviesRomance: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 10,
+    oscars: [],
   },
   {
     title: 'The Kissing Booth',
@@ -2841,6 +2940,7 @@ export const baseMoviesRomance: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 10,
+    oscars: [],
   },
   {
     title: 'The Kissing Booth 2',
@@ -2874,6 +2974,7 @@ export const baseMoviesRomance: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 10,
+    oscars: [],
   },
   {
     title: 'The Kissing Booth 3',
@@ -2910,6 +3011,7 @@ export const baseMoviesRomance: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 10,
+    oscars: [],
   },
   {
     title: 'Love Wedding Repeat',
@@ -2946,6 +3048,7 @@ export const baseMoviesRomance: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 10,
+    oscars: [],
   },
   {
     title: 'Emma.',
@@ -2986,6 +3089,7 @@ export const baseMoviesRomance: BaseMovie[] = [
     },
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 10,
+    oscars: [],
   },
 
   {
@@ -3023,6 +3127,7 @@ export const baseMoviesRomance: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 10,
+    oscars: [],
   },
   {
     title: 'Warm Bodies',
@@ -3059,6 +3164,7 @@ export const baseMoviesRomance: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 10,
+    oscars: [],
   },
   {
     title: 'Minuit à Paris',
@@ -3095,6 +3201,9 @@ export const baseMoviesRomance: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 10,
+    oscars: [
+      { type: OscarEnum.OSCAR_BEST_ORIGINAL_SCREENPLAY, year: 2012 },
+    ],
   },
   {
     title: 'Meilleures ennemies',
@@ -3131,6 +3240,7 @@ export const baseMoviesRomance: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 10,
+    oscars: [],
   },
   {
     title: 'Sex and the City',
@@ -3167,6 +3277,7 @@ export const baseMoviesRomance: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 30,
+    oscars: [],
   },
   {
     title: '27 Robes',
@@ -3203,6 +3314,7 @@ export const baseMoviesRomance: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 30,
+    oscars: [],
   },
   {
     title: 'P.S. I Love You',
@@ -3243,6 +3355,7 @@ export const baseMoviesRomance: BaseMovie[] = [
     },
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 10,
+    oscars: [],
   },
   {
     title: "Mémoires d'une geisha",
@@ -3269,6 +3382,11 @@ export const baseMoviesRomance: BaseMovie[] = [
     },
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 20,
+    oscars: [
+      { type: OscarEnum.OSCAR_BEST_PRODUCTION_DESIGN, year: 2006 },
+      { type: OscarEnum.OSCAR_BEST_CINEMATOGRAPHY, year: 2006 },
+      { type: OscarEnum.OSCAR_BEST_COSTUME_DESIGN, year: 2006 },
+    ],
   },
   {
     title: 'The Princess Diaries 2: Royal Engagement',
@@ -3305,6 +3423,7 @@ export const baseMoviesRomance: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 10,
+    oscars: [],
   },
   {
     title: 'Princesse malgré elle',
@@ -3341,6 +3460,7 @@ export const baseMoviesRomance: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 10,
+    oscars: [],
   },
 
   {
@@ -3378,6 +3498,7 @@ export const baseMoviesRomance: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 30,
+    oscars: [],
   },
   {
     title: "Bridget Jones : L'Âge de raison",
@@ -3398,6 +3519,7 @@ export const baseMoviesRomance: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 30,
+    oscars: [],
   },
   {
     title: 'Quatre filles et un jean',
@@ -3424,6 +3546,7 @@ export const baseMoviesRomance: BaseMovie[] = [
     },
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 20,
+    oscars: [],
   },
   {
     title: 'Mon beau-père et moi',
@@ -3460,6 +3583,7 @@ export const baseMoviesRomance: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 10,
+    oscars: [],
   },
   {
     title: 'Mon beau-père, mes parents et moi',
@@ -3482,6 +3606,7 @@ export const baseMoviesRomance: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 10,
+    oscars: [],
   },
   {
     title: 'Mon beau-père et nous',
@@ -3504,6 +3629,7 @@ export const baseMoviesRomance: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 10,
+    oscars: [],
   },
   {
     title: '10 bonnes raisons de te larguer',
@@ -3526,6 +3652,7 @@ export const baseMoviesRomance: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 10,
+    oscars: [],
   },
   {
     title: 'Elle est trop bien',
@@ -3562,6 +3689,7 @@ export const baseMoviesRomance: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 10,
+    oscars: [],
   },
   {
     title: 'Mary à tout prix',
@@ -3598,6 +3726,7 @@ export const baseMoviesRomance: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 10,
+    oscars: [],
   },
   {
     title: 'Titanic',
@@ -3634,6 +3763,18 @@ export const baseMoviesRomance: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 30,
+    oscars: [
+      { type: OscarEnum.OSCAR_BEST_MOVIE, year: 1998 },
+      { type: OscarEnum.OSCAR_BEST_DIRECTOR, year: 1998 },
+      { type: OscarEnum.OSCAR_BEST_ORIGINAL_SCORE, year: 1998 },
+      { type: OscarEnum.OSCAR_BEST_ORIGINAL_SONG, year: 1998 },
+      { type: OscarEnum.OSCAR_BEST_SOUND, year: 1998 },
+      { type: OscarEnum.OSCAR_BEST_PRODUCTION_DESIGN, year: 1998 },
+      { type: OscarEnum.OSCAR_BEST_CINEMATOGRAPHY, year: 1998 },
+      { type: OscarEnum.OSCAR_BEST_COSTUME_DESIGN, year: 1998 },
+      { type: OscarEnum.OSCAR_BEST_FILM_EDITING, year: 1998 },
+      { type: OscarEnum.OSCAR_BEST_VISUAL_EFFECTS, year: 1998 },
+    ],
   },
   {
     title: 'Roméo + Juliette',
@@ -3674,6 +3815,7 @@ export const baseMoviesRomance: BaseMovie[] = [
     },
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 10,
+    oscars: [],
   },
   {
     title: 'Strictly Ballroom',
@@ -3707,6 +3849,7 @@ export const baseMoviesRomance: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 10,
+    oscars: [],
   },
 
   {
@@ -3744,6 +3887,11 @@ export const baseMoviesRomance: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 10,
+    oscars: [
+      { type: OscarEnum.OSCAR_BEST_ACTRESS, year: 1954 },
+      { type: OscarEnum.OSCAR_BEST_COSTUME_DESIGN, year: 1954 },
+      { type: OscarEnum.OSCAR_BEST_ORIGINAL_SCREENPLAY, year: 1954 },
+    ],
   },
   {
     title: 'Jane Austen a gâché ma vie',
@@ -3780,6 +3928,7 @@ export const baseMoviesRomance: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['France'],
     selectDisplayOrder: 10,
+    oscars: [],
   },
   {
     title: 'Friendzone',
@@ -3802,6 +3951,7 @@ export const baseMoviesRomance: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['France'],
     selectDisplayOrder: 10,
+    oscars: [],
   },
   {
     title: 'Jeune et jolie',
@@ -3838,6 +3988,7 @@ export const baseMoviesRomance: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['France'],
     selectDisplayOrder: 10,
+    oscars: [],
   },
   {
     title: 'Dirty Dancing',
@@ -3874,6 +4025,9 @@ export const baseMoviesRomance: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 30,
+    oscars: [
+      { type: OscarEnum.OSCAR_BEST_ORIGINAL_SONG, year: 1988 },
+    ],
   },
   {
     title: 'The Lucky One',
@@ -3914,6 +4068,7 @@ export const baseMoviesRomance: BaseMovie[] = [
     },
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'The Perfect Date',
@@ -3944,6 +4099,7 @@ export const baseMoviesRomance: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Un Noël en Californie',
@@ -3980,6 +4136,7 @@ export const baseMoviesRomance: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: "20 ans d'écart",
@@ -4016,6 +4173,7 @@ export const baseMoviesRomance: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['France'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: "L'Amour en touriste",
@@ -4052,6 +4210,7 @@ export const baseMoviesRomance: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Dernier appel pour Istanbul',
@@ -4089,6 +4248,7 @@ export const baseMoviesRomance: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Mon âme sœur',
@@ -4125,6 +4285,7 @@ export const baseMoviesRomance: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Prise au jeu',
@@ -4161,6 +4322,7 @@ export const baseMoviesRomance: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'La Dernière Lettre de son amant',
@@ -4197,6 +4359,7 @@ export const baseMoviesRomance: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: "Par-delà l'univers",
@@ -4231,6 +4394,7 @@ export const baseMoviesRomance: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Nuits blanches à Seattle',
@@ -4267,6 +4431,7 @@ export const baseMoviesRomance: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 30,
+    oscars: [],
   },
   {
     title: 'Vous avez un message',
@@ -4303,6 +4468,7 @@ export const baseMoviesRomance: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Cocktail',
@@ -4339,6 +4505,7 @@ export const baseMoviesRomance: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Les Vendanges de feu',
@@ -4375,6 +4542,7 @@ export const baseMoviesRomance: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Sweet November',
@@ -4411,6 +4579,7 @@ export const baseMoviesRomance: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Tout peut arriver',
@@ -4447,6 +4616,7 @@ export const baseMoviesRomance: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Entre deux rives',
@@ -4483,6 +4653,7 @@ export const baseMoviesRomance: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Un jour, peut-être',
@@ -4519,6 +4690,7 @@ export const baseMoviesRomance: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: "L'Amour sans préavis",
@@ -4555,6 +4727,7 @@ export const baseMoviesRomance: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Demain on se marie',
@@ -4591,6 +4764,7 @@ export const baseMoviesRomance: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Vicky Cristina Barcelona',
@@ -4613,6 +4787,9 @@ export const baseMoviesRomance: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [
+      { type: OscarEnum.OSCAR_BEST_SUPPORTING_ACTRESS, year: 2009 },
+    ],
   },
   {
     title: "Jeux d'enfants",
@@ -4649,6 +4826,7 @@ export const baseMoviesRomance: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['France'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Un amour à New York',
@@ -4685,6 +4863,7 @@ export const baseMoviesRomance: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Cher John',
@@ -4721,6 +4900,7 @@ export const baseMoviesRomance: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Wild at Heart',
@@ -4757,6 +4937,7 @@ export const baseMoviesRomance: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Starman',
@@ -4793,6 +4974,7 @@ export const baseMoviesRomance: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Rebecca',
@@ -4829,6 +5011,7 @@ export const baseMoviesRomance: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 5,
+    oscars: [],
   },
   {
     title: 'La Belle et le Clochard',
@@ -4865,6 +5048,7 @@ export const baseMoviesRomance: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 5,
+    oscars: [],
   },
   {
     title: 'Ghost',
@@ -4901,6 +5085,9 @@ export const baseMoviesRomance: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 5,
+    oscars: [
+      { type: OscarEnum.OSCAR_BEST_SUPPORTING_ACTRESS, year: 1991 },
+    ],
   },
   {
     title: "L'Épreuve du feu",
@@ -4937,6 +5124,7 @@ export const baseMoviesRomance: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['France'],
     selectDisplayOrder: 5,
+    oscars: [],
   },
 
   {
@@ -4968,6 +5156,7 @@ export const baseMoviesRomance: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 5,
+    oscars: [],
   },
   {
     title: 'Fly Me to the Moon',
@@ -4998,6 +5187,7 @@ export const baseMoviesRomance: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 5,
+    oscars: [],
   },
   {
     title: "L'idée d'être avec toi",
@@ -5020,6 +5210,7 @@ export const baseMoviesRomance: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 10,
+    oscars: [],
   },
   {
     title: 'Mange, prie, aime',
@@ -5057,6 +5248,7 @@ export const baseMoviesRomance: BaseMovie[] = [
     },
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 20,
+    oscars: [],
   },
   {
     title: 'La règle de novembre',
@@ -5093,5 +5285,6 @@ export const baseMoviesRomance: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
 ];

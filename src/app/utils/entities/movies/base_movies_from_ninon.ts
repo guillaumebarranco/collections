@@ -1,4 +1,4 @@
-import { BaseMovie } from '../../../models/movie-model';
+import { BaseMovie, OscarEnum } from '../../../models/movie-model';
 
 /**
  * Films importés depuis la liste Ninon — `coverUrl` laissé vide à compléter.
@@ -29,6 +29,7 @@ export const baseMoviesFromNinon: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['Royaume-Uni'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Vingt Dieux',
@@ -51,6 +52,7 @@ export const baseMoviesFromNinon: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['France'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Avé, César !',
@@ -73,6 +75,7 @@ export const baseMoviesFromNinon: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Les 2 Sirènes',
@@ -95,6 +98,7 @@ export const baseMoviesFromNinon: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'La Couleur des sentiments',
@@ -117,6 +121,9 @@ export const baseMoviesFromNinon: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [
+      { type: OscarEnum.OSCAR_BEST_SUPPORTING_ACTRESS, year: 2012 },
+    ],
   },
   {
     title: 'Au revoir là-haut',
@@ -139,6 +146,7 @@ export const baseMoviesFromNinon: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['France'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Persepolis',
@@ -161,6 +169,7 @@ export const baseMoviesFromNinon: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['France'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: '99 Francs',
@@ -183,6 +192,7 @@ export const baseMoviesFromNinon: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['France'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Les Demoiselles de Rochefort',
@@ -205,6 +215,7 @@ export const baseMoviesFromNinon: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['France'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Mandibules',
@@ -227,6 +238,7 @@ export const baseMoviesFromNinon: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['France'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: "Un p'tit truc en plus",
@@ -249,6 +261,7 @@ export const baseMoviesFromNinon: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['France'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Coupez !',
@@ -271,6 +284,7 @@ export const baseMoviesFromNinon: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['France'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Upgrade',
@@ -293,6 +307,7 @@ export const baseMoviesFromNinon: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['Australie'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Bons baisers de Bruges',
@@ -315,6 +330,7 @@ export const baseMoviesFromNinon: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['Royaume-Uni'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'I Care a Lot',
@@ -337,6 +353,7 @@ export const baseMoviesFromNinon: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Le Goût des autres',
@@ -359,6 +376,7 @@ export const baseMoviesFromNinon: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['France'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Body Double',
@@ -381,6 +399,7 @@ export const baseMoviesFromNinon: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: "L'Empire (2024)",
@@ -403,6 +422,7 @@ export const baseMoviesFromNinon: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['France'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Dangereuse Alliance',
@@ -425,6 +445,7 @@ export const baseMoviesFromNinon: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Easy Girl',
@@ -447,6 +468,7 @@ export const baseMoviesFromNinon: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Le Pari',
@@ -469,6 +491,7 @@ export const baseMoviesFromNinon: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['France'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Les Rois mages',
@@ -491,6 +514,7 @@ export const baseMoviesFromNinon: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['France'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Idiocracy',
@@ -513,6 +537,7 @@ export const baseMoviesFromNinon: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Rose et Noir',
@@ -535,6 +560,7 @@ export const baseMoviesFromNinon: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['France'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Lake Placid',
@@ -557,6 +583,7 @@ export const baseMoviesFromNinon: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Zombillénium',
@@ -579,6 +606,7 @@ export const baseMoviesFromNinon: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['France'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Danish Girl',
@@ -601,6 +629,9 @@ export const baseMoviesFromNinon: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['Royaume-Uni'],
     selectDisplayOrder: 0,
+    oscars: [
+      { type: OscarEnum.OSCAR_BEST_SUPPORTING_ACTRESS, year: 2016 },
+    ],
   },
   {
     title: 'Le Caire confidentiel',
@@ -623,6 +654,7 @@ export const baseMoviesFromNinon: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['Suède'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Sierra Burgess Is a Loser',
@@ -645,6 +677,7 @@ export const baseMoviesFromNinon: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'The Lobster',
@@ -667,6 +700,7 @@ export const baseMoviesFromNinon: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['Royaume-Uni'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: '120 battements par minute',
@@ -689,6 +723,7 @@ export const baseMoviesFromNinon: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['France'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Ma vie de Courgette',
@@ -711,6 +746,7 @@ export const baseMoviesFromNinon: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['Suisse'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Jawbreaker',
@@ -733,6 +769,7 @@ export const baseMoviesFromNinon: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: "L'Île aux chiens",
@@ -755,6 +792,7 @@ export const baseMoviesFromNinon: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: '3 Billboards - Les Panneaux de la vengeance',
@@ -777,6 +815,10 @@ export const baseMoviesFromNinon: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['Royaume-Uni'],
     selectDisplayOrder: 0,
+    oscars: [
+      { type: OscarEnum.OSCAR_BEST_ACTRESS, year: 2018 },
+      { type: OscarEnum.OSCAR_BEST_SUPPORTING_ACTOR, year: 2018 },
+    ],
   },
   {
     title: 'À bord du Darjeeling Limited',
@@ -799,6 +841,7 @@ export const baseMoviesFromNinon: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Starbuck',
@@ -821,6 +864,7 @@ export const baseMoviesFromNinon: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['Canada'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Le Fondateur',
@@ -843,6 +887,7 @@ export const baseMoviesFromNinon: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Planète Terreur',
@@ -865,6 +910,7 @@ export const baseMoviesFromNinon: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Porco Rosso',
@@ -887,6 +933,7 @@ export const baseMoviesFromNinon: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['Japon'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: '10 Cloverfield Lane',
@@ -909,6 +956,7 @@ export const baseMoviesFromNinon: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Attack the Block',
@@ -931,6 +979,7 @@ export const baseMoviesFromNinon: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['Royaume-Uni'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Jackie Brown',
@@ -953,6 +1002,7 @@ export const baseMoviesFromNinon: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Juste la fin du monde',
@@ -975,6 +1025,7 @@ export const baseMoviesFromNinon: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['Canada'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Stalker',
@@ -997,6 +1048,7 @@ export const baseMoviesFromNinon: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['Russie'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'État second',
@@ -1019,6 +1071,7 @@ export const baseMoviesFromNinon: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'À bout de course',
@@ -1041,6 +1094,7 @@ export const baseMoviesFromNinon: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Deux jours à tuer',
@@ -1063,6 +1117,7 @@ export const baseMoviesFromNinon: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['France'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Bernie',
@@ -1085,6 +1140,7 @@ export const baseMoviesFromNinon: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['France'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Dans la peau de John Malkovich',
@@ -1107,6 +1163,7 @@ export const baseMoviesFromNinon: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Legend',
@@ -1129,6 +1186,7 @@ export const baseMoviesFromNinon: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: "L'Homme qui voulait savoir",
@@ -1151,6 +1209,7 @@ export const baseMoviesFromNinon: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['Pays-Bas'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Sirāt',
@@ -1173,6 +1232,7 @@ export const baseMoviesFromNinon: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['Espagne', 'France'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: "La Zone d'intérêt",
@@ -1195,6 +1255,7 @@ export const baseMoviesFromNinon: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['Royaume-Uni'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Tatami',
@@ -1217,6 +1278,7 @@ export const baseMoviesFromNinon: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['France', 'Israël'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Delicatessen',
@@ -1239,6 +1301,7 @@ export const baseMoviesFromNinon: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['France'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Le Trou',
@@ -1261,6 +1324,7 @@ export const baseMoviesFromNinon: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['France'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Buffet froid',
@@ -1283,6 +1347,7 @@ export const baseMoviesFromNinon: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['France'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Le Lac des morts vivants',
@@ -1305,6 +1370,7 @@ export const baseMoviesFromNinon: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['France'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'La Folle Journée de Ferris Bueller',
@@ -1327,6 +1393,7 @@ export const baseMoviesFromNinon: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Only Lovers Left Alive',
@@ -1349,6 +1416,7 @@ export const baseMoviesFromNinon: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['Royaume-Uni'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Mademoiselle',
@@ -1371,6 +1439,7 @@ export const baseMoviesFromNinon: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['Corée du Sud'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Belles à mourir',
@@ -1393,6 +1462,7 @@ export const baseMoviesFromNinon: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Paris, Texas',
@@ -1415,6 +1485,7 @@ export const baseMoviesFromNinon: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['Allemagne', 'France'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: "L'Antre de la folie",
@@ -1437,6 +1508,7 @@ export const baseMoviesFromNinon: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'La Crise',
@@ -1459,6 +1531,7 @@ export const baseMoviesFromNinon: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['France'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'The Taste of Tea',
@@ -1481,6 +1554,7 @@ export const baseMoviesFromNinon: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['Japon'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Interstate 60',
@@ -1503,6 +1577,7 @@ export const baseMoviesFromNinon: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis', 'Canada'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: "Anatomie d'une chute",
@@ -1525,6 +1600,7 @@ export const baseMoviesFromNinon: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['France'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Suspiria',
@@ -1547,6 +1623,7 @@ export const baseMoviesFromNinon: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['Italie'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Funny Games',
@@ -1569,6 +1646,7 @@ export const baseMoviesFromNinon: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['Autriche'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Climax',
@@ -1591,6 +1669,7 @@ export const baseMoviesFromNinon: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['France'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'La Mort de Staline',
@@ -1613,6 +1692,7 @@ export const baseMoviesFromNinon: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['Royaume-Uni'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Mustang',
@@ -1635,6 +1715,7 @@ export const baseMoviesFromNinon: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['Turquie', 'France'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Captain Fantastic',
@@ -1657,6 +1738,7 @@ export const baseMoviesFromNinon: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'The Room',
@@ -1679,6 +1761,7 @@ export const baseMoviesFromNinon: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'The Disaster Artist',
@@ -1701,6 +1784,7 @@ export const baseMoviesFromNinon: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Jacky au royaume des filles',
@@ -1723,6 +1807,7 @@ export const baseMoviesFromNinon: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['France'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Réalité',
@@ -1745,6 +1830,7 @@ export const baseMoviesFromNinon: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['France'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: "Certains l'aiment chaud !",
@@ -1767,6 +1853,9 @@ export const baseMoviesFromNinon: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [
+      { type: OscarEnum.OSCAR_BEST_COSTUME_DESIGN, year: 1960 },
+    ],
   },
   {
     title: "L'Impossible Monsieur Bébé",
@@ -1789,6 +1878,7 @@ export const baseMoviesFromNinon: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'La Famille Tenenbaum',
@@ -1811,6 +1901,7 @@ export const baseMoviesFromNinon: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Pink Floyd: The Wall',
@@ -1833,6 +1924,7 @@ export const baseMoviesFromNinon: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['Royaume-Uni'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Laissez bronzer les cadavres',
@@ -1855,6 +1947,7 @@ export const baseMoviesFromNinon: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['Belgique', 'France'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: "L'Étrange couleur des larmes de ton corps",
@@ -1877,6 +1970,7 @@ export const baseMoviesFromNinon: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['Belgique', 'France'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Solaris',
@@ -1899,6 +1993,7 @@ export const baseMoviesFromNinon: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['Russie'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'La piel que habito',
@@ -1921,6 +2016,7 @@ export const baseMoviesFromNinon: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['Espagne'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Holy Motors',
@@ -1943,6 +2039,7 @@ export const baseMoviesFromNinon: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['France'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Las Vegas Parano',
@@ -1965,6 +2062,7 @@ export const baseMoviesFromNinon: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'The Neon Demon',
@@ -1987,6 +2085,7 @@ export const baseMoviesFromNinon: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Midnight Special',
@@ -2009,6 +2108,7 @@ export const baseMoviesFromNinon: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Take Shelter',
@@ -2031,6 +2131,7 @@ export const baseMoviesFromNinon: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'True Grit',
@@ -2053,5 +2154,6 @@ export const baseMoviesFromNinon: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
 ];

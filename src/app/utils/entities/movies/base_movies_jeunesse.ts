@@ -1,4 +1,4 @@
-import { BaseMovie } from '../../../models/movie-model';
+import { BaseMovie, OscarEnum } from '../../../models/movie-model';
 
 export const baseMoviesJeunesse: BaseMovie[] = [
   {
@@ -36,6 +36,9 @@ export const baseMoviesJeunesse: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 20,
+    oscars: [
+      { type: OscarEnum.OSCAR_BEST_COSTUME_DESIGN, year: 2022 },
+    ],
   },
   {
     title: 'Le Livre de la jungle',
@@ -72,6 +75,9 @@ export const baseMoviesJeunesse: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 20,
+    oscars: [
+      { type: OscarEnum.OSCAR_BEST_VISUAL_EFFECTS, year: 2017 },
+    ],
   },
   {
     title: 'Dumbo',
@@ -108,6 +114,7 @@ export const baseMoviesJeunesse: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 20,
+    oscars: [],
   },
   {
     title: 'Le Roi Lion',
@@ -144,6 +151,7 @@ export const baseMoviesJeunesse: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 20,
+    oscars: [],
   },
   {
     title: 'Mufasa : Le Roi Lion',
@@ -180,6 +188,7 @@ export const baseMoviesJeunesse: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 20,
+    oscars: [],
   },
   {
     title: 'Mulan',
@@ -216,6 +225,7 @@ export const baseMoviesJeunesse: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 20,
+    oscars: [],
   },
   {
     title: 'Cendrillon',
@@ -252,6 +262,7 @@ export const baseMoviesJeunesse: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 20,
+    oscars: [],
   },
   {
     title: 'Cendrillon',
@@ -288,6 +299,7 @@ export const baseMoviesJeunesse: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 20,
+    oscars: [],
   },
   {
     title: 'Maléfique',
@@ -324,6 +336,7 @@ export const baseMoviesJeunesse: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 20,
+    oscars: [],
   },
   {
     title: 'Maléfique : Le Pouvoir du Mal',
@@ -360,6 +373,7 @@ export const baseMoviesJeunesse: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 20,
+    oscars: [],
   },
   {
     title: 'La Belle et la Bête',
@@ -397,6 +411,7 @@ export const baseMoviesJeunesse: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 20,
+    oscars: [],
   },
   {
     title: 'Aladdin',
@@ -434,6 +449,7 @@ export const baseMoviesJeunesse: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 20,
+    oscars: [],
   },
   {
     title: 'La Petite Sirène',
@@ -470,6 +486,7 @@ export const baseMoviesJeunesse: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 20,
+    oscars: [],
   },
   {
     title: 'Les 101 Dalmatiens',
@@ -506,6 +523,7 @@ export const baseMoviesJeunesse: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 20,
+    oscars: [],
   },
   {
     title: "L'Incroyable Histoire de Winter le dauphin",
@@ -542,6 +560,7 @@ export const baseMoviesJeunesse: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Paddington 2',
@@ -578,6 +597,7 @@ export const baseMoviesJeunesse: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['Royaume-Uni'],
     selectDisplayOrder: 5,
+    oscars: [],
   },
   {
     title: 'Paddington',
@@ -614,6 +634,7 @@ export const baseMoviesJeunesse: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['Royaume-Uni'],
     selectDisplayOrder: 5,
+    oscars: [],
   },
   {
     title: 'Stuart Little',
@@ -650,6 +671,7 @@ export const baseMoviesJeunesse: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 5,
+    oscars: [],
   },
   {
     title: 'Charlie et la Chocolaterie',
@@ -669,5 +691,6 @@ export const baseMoviesJeunesse: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
 ];

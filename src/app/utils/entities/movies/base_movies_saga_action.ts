@@ -1,4 +1,4 @@
-import { BaseMovie } from '../../../models/movie-model';
+import { BaseMovie, OscarEnum } from '../../../models/movie-model';
 
 export const baseMoviesSagaAction: BaseMovie[] = [
   {
@@ -37,6 +37,7 @@ export const baseMoviesSagaAction: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 20,
+    oscars: [],
   },
   {
     title: '2 Fast 2 Furious',
@@ -73,6 +74,7 @@ export const baseMoviesSagaAction: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 20,
+    oscars: [],
   },
   {
     title: 'Fast and Furious : Tokyo Drift',
@@ -110,6 +112,7 @@ export const baseMoviesSagaAction: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 20,
+    oscars: [],
   },
   {
     title: 'Fast & Furious 4',
@@ -147,6 +150,7 @@ export const baseMoviesSagaAction: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 20,
+    oscars: [],
   },
   {
     title: 'Fast & Furious 5',
@@ -183,6 +187,7 @@ export const baseMoviesSagaAction: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 20,
+    oscars: [],
   },
   {
     title: 'Fast & Furious 6',
@@ -219,6 +224,7 @@ export const baseMoviesSagaAction: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 20,
+    oscars: [],
   },
   {
     title: 'Fast & Furious 7',
@@ -255,6 +261,7 @@ export const baseMoviesSagaAction: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 20,
+    oscars: [],
   },
   {
     title: 'Fast & Furious Presents: Hobbs & Shaw',
@@ -292,6 +299,7 @@ export const baseMoviesSagaAction: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 20,
+    oscars: [],
   },
   {
     title: 'Fast & Furious 9',
@@ -328,6 +336,7 @@ export const baseMoviesSagaAction: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 20,
+    oscars: [],
   },
   {
     title: 'Fast & Furious X',
@@ -364,6 +373,7 @@ export const baseMoviesSagaAction: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 20,
+    oscars: [],
   },
   {
     title: 'Bad Boys',
@@ -400,6 +410,7 @@ export const baseMoviesSagaAction: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 30,
+    oscars: [],
   },
   {
     title: 'Bad Boys II',
@@ -436,6 +447,7 @@ export const baseMoviesSagaAction: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 30,
+    oscars: [],
   },
   {
     title: 'Bad Boys for Life',
@@ -472,6 +484,7 @@ export const baseMoviesSagaAction: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 30,
+    oscars: [],
   },
   {
     title: 'Bad Boys Ride or Die',
@@ -508,6 +521,7 @@ export const baseMoviesSagaAction: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 30,
+    oscars: [],
   },
   {
     title: 'Lara Croft : Tomb Raider',
@@ -548,6 +562,7 @@ export const baseMoviesSagaAction: BaseMovie[] = [
     },
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 30,
+    oscars: [],
   },
   {
     title: 'Tomb Raider : le berceau de la vie',
@@ -574,6 +589,7 @@ export const baseMoviesSagaAction: BaseMovie[] = [
     },
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 30,
+    oscars: [],
   },
   {
     title: 'Tomb Raider',
@@ -610,6 +626,7 @@ export const baseMoviesSagaAction: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 5,
+    oscars: [],
   },
   {
     title: "L'arme fatale",
@@ -640,6 +657,7 @@ export const baseMoviesSagaAction: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 30,
+    oscars: [],
   },
   {
     title: "L'arme fatale 2",
@@ -676,6 +694,7 @@ export const baseMoviesSagaAction: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 30,
+    oscars: [],
   },
   {
     title: "L'arme fatale 3",
@@ -712,6 +731,7 @@ export const baseMoviesSagaAction: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 30,
+    oscars: [],
   },
   {
     title: "L'arme fatale 4",
@@ -748,6 +768,7 @@ export const baseMoviesSagaAction: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 30,
+    oscars: [],
   },
   {
     title: 'Rambo : First Blood',
@@ -784,6 +805,7 @@ export const baseMoviesSagaAction: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 30,
+    oscars: [],
   },
   {
     title: 'Rambo 2 : la mission',
@@ -820,6 +842,7 @@ export const baseMoviesSagaAction: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 30,
+    oscars: [],
   },
   {
     title: 'Rambo 3',
@@ -856,6 +879,7 @@ export const baseMoviesSagaAction: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 30,
+    oscars: [],
   },
   {
     title: 'John Rambo',
@@ -892,6 +916,7 @@ export const baseMoviesSagaAction: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 30,
+    oscars: [],
   },
   {
     title: 'Rambo: Last Blood',
@@ -928,6 +953,7 @@ export const baseMoviesSagaAction: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 30,
+    oscars: [],
   },
   {
     title: 'RED',
@@ -948,6 +974,7 @@ export const baseMoviesSagaAction: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 20,
+    oscars: [],
   },
   {
     title: 'RED 2',
@@ -984,6 +1011,7 @@ export const baseMoviesSagaAction: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 20,
+    oscars: [],
   },
   {
     title: 'Die Hard : Piège de cristal',
@@ -1020,6 +1048,7 @@ export const baseMoviesSagaAction: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 30,
+    oscars: [],
   },
   {
     title: 'Die Hard 2 : 58 minutes pour vivre',
@@ -1056,6 +1085,7 @@ export const baseMoviesSagaAction: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 30,
+    oscars: [],
   },
   {
     title: 'Die Hard 3 : une journée en enfer',
@@ -1092,6 +1122,7 @@ export const baseMoviesSagaAction: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 30,
+    oscars: [],
   },
   {
     title: 'Die Hard 4 : Retour en Enfer',
@@ -1128,6 +1159,7 @@ export const baseMoviesSagaAction: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 30,
+    oscars: [],
   },
   {
     title: 'Die Hard 5 : Belle Journée pour Mourir',
@@ -1164,6 +1196,7 @@ export const baseMoviesSagaAction: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 30,
+    oscars: [],
   },
   {
     title: 'John Wick',
@@ -1200,6 +1233,7 @@ export const baseMoviesSagaAction: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 30,
+    oscars: [],
   },
   {
     title: 'John Wick : Chapitre 2',
@@ -1236,6 +1270,7 @@ export const baseMoviesSagaAction: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 30,
+    oscars: [],
   },
   {
     title: 'John Wick: Chapter 3 - Parabellum',
@@ -1272,6 +1307,7 @@ export const baseMoviesSagaAction: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 30,
+    oscars: [],
   },
   {
     title: 'John Wick : Chapitre 4',
@@ -1308,6 +1344,7 @@ export const baseMoviesSagaAction: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 30,
+    oscars: [],
   },
   {
     title: 'Ballerina',
@@ -1344,6 +1381,7 @@ export const baseMoviesSagaAction: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 30,
+    oscars: [],
   },
   {
     title: 'Jack Reacher',
@@ -1380,6 +1418,7 @@ export const baseMoviesSagaAction: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 20,
+    oscars: [],
   },
   {
     title: 'Jack Reacher : Never Go Back',
@@ -1416,6 +1455,7 @@ export const baseMoviesSagaAction: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 20,
+    oscars: [],
   },
   {
     title: 'James Bond 007 contre Dr. No',
@@ -1456,6 +1496,7 @@ export const baseMoviesSagaAction: BaseMovie[] = [
     },
     countryOrigin: ['Royaume-Uni', 'États-Unis'],
     selectDisplayOrder: 20,
+    oscars: [],
   },
   {
     title: 'James Bond : Bons baisers de Russie',
@@ -1496,6 +1537,7 @@ export const baseMoviesSagaAction: BaseMovie[] = [
     },
     countryOrigin: ['Royaume-Uni'],
     selectDisplayOrder: 20,
+    oscars: [],
   },
   {
     title: 'James Bond : Goldfinger',
@@ -1536,6 +1578,9 @@ export const baseMoviesSagaAction: BaseMovie[] = [
     },
     countryOrigin: ['Royaume-Uni'],
     selectDisplayOrder: 20,
+    oscars: [
+      { type: OscarEnum.OSCAR_BEST_SOUND, year: 1965 },
+    ],
   },
   {
     title: 'James Bond : Opération tonnerre',
@@ -1562,6 +1607,9 @@ export const baseMoviesSagaAction: BaseMovie[] = [
     },
     countryOrigin: ['Royaume-Uni'],
     selectDisplayOrder: 20,
+    oscars: [
+      { type: OscarEnum.OSCAR_BEST_VISUAL_EFFECTS, year: 1966 },
+    ],
   },
   {
     title: 'James Bond : On ne vit que deux fois',
@@ -1588,6 +1636,7 @@ export const baseMoviesSagaAction: BaseMovie[] = [
     },
     countryOrigin: ['Royaume-Uni'],
     selectDisplayOrder: 20,
+    oscars: [],
   },
   {
     title: 'James Bond : Casino Royale (1967, film parodique)',
@@ -1615,6 +1664,7 @@ export const baseMoviesSagaAction: BaseMovie[] = [
     },
     countryOrigin: ['Royaume-Uni', 'États-Unis', 'France'],
     selectDisplayOrder: 20,
+    oscars: [],
   },
   {
     title: 'James Bond : Au service secret de Sa Majesté',
@@ -1655,6 +1705,7 @@ export const baseMoviesSagaAction: BaseMovie[] = [
     },
     countryOrigin: ['Royaume-Uni'],
     selectDisplayOrder: 20,
+    oscars: [],
   },
   {
     title: 'James Bond : Les diamants sont éternels',
@@ -1681,6 +1732,7 @@ export const baseMoviesSagaAction: BaseMovie[] = [
     },
     countryOrigin: ['Royaume-Uni'],
     selectDisplayOrder: 20,
+    oscars: [],
   },
   {
     title: 'James Bond : Vivre et laisser mourir',
@@ -1707,6 +1759,7 @@ export const baseMoviesSagaAction: BaseMovie[] = [
     },
     countryOrigin: ['Royaume-Uni'],
     selectDisplayOrder: 20,
+    oscars: [],
   },
   {
     title: "James Bond : L'homme au pistolet d'or",
@@ -1747,6 +1800,7 @@ export const baseMoviesSagaAction: BaseMovie[] = [
     },
     countryOrigin: ['Royaume-Uni'],
     selectDisplayOrder: 20,
+    oscars: [],
   },
   {
     title: "James Bond : L'espion qui m'aimait",
@@ -1773,6 +1827,7 @@ export const baseMoviesSagaAction: BaseMovie[] = [
     },
     countryOrigin: ['Royaume-Uni'],
     selectDisplayOrder: 20,
+    oscars: [],
   },
   {
     title: 'James Bond : Moonraker',
@@ -1813,6 +1868,7 @@ export const baseMoviesSagaAction: BaseMovie[] = [
     },
     countryOrigin: ['Royaume-Uni', 'France'],
     selectDisplayOrder: 20,
+    oscars: [],
   },
   {
     title: 'James Bond : Rien que pour vos yeux',
@@ -1853,6 +1909,7 @@ export const baseMoviesSagaAction: BaseMovie[] = [
     },
     countryOrigin: ['Royaume-Uni'],
     selectDisplayOrder: 20,
+    oscars: [],
   },
   {
     title: 'James Bond : Octopussy',
@@ -1879,6 +1936,7 @@ export const baseMoviesSagaAction: BaseMovie[] = [
     },
     countryOrigin: ['Royaume-Uni'],
     selectDisplayOrder: 20,
+    oscars: [],
   },
   {
     title: 'James Bond : Jamais plus jamais',
@@ -1905,6 +1963,7 @@ export const baseMoviesSagaAction: BaseMovie[] = [
     },
     countryOrigin: ['Royaume-Uni', 'États-Unis'],
     selectDisplayOrder: 20,
+    oscars: [],
   },
   {
     title: 'James Bond : Dangereusement vôtre',
@@ -1931,6 +1990,7 @@ export const baseMoviesSagaAction: BaseMovie[] = [
     },
     countryOrigin: ['Royaume-Uni'],
     selectDisplayOrder: 20,
+    oscars: [],
   },
   {
     title: "James Bond : Tuer n'est pas jouer",
@@ -1957,6 +2017,7 @@ export const baseMoviesSagaAction: BaseMovie[] = [
     },
     countryOrigin: ['Royaume-Uni'],
     selectDisplayOrder: 20,
+    oscars: [],
   },
   {
     title: 'James Bond : Permis de tuer',
@@ -1983,6 +2044,7 @@ export const baseMoviesSagaAction: BaseMovie[] = [
     },
     countryOrigin: ['Royaume-Uni', 'États-Unis'],
     selectDisplayOrder: 20,
+    oscars: [],
   },
 
   {
@@ -2010,6 +2072,7 @@ export const baseMoviesSagaAction: BaseMovie[] = [
     },
     countryOrigin: ['Royaume-Uni', 'États-Unis'],
     selectDisplayOrder: 20,
+    oscars: [],
   },
   {
     title: 'James Bond : Le monde ne suffit pas',
@@ -2036,6 +2099,7 @@ export const baseMoviesSagaAction: BaseMovie[] = [
     },
     countryOrigin: ['Royaume-Uni', 'États-Unis'],
     selectDisplayOrder: 20,
+    oscars: [],
   },
   {
     title: 'James Bond: Meurs un autre jour',
@@ -2062,6 +2126,7 @@ export const baseMoviesSagaAction: BaseMovie[] = [
     },
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 20,
+    oscars: [],
   },
   {
     title: 'James Bond : Casino Royale',
@@ -2088,6 +2153,7 @@ export const baseMoviesSagaAction: BaseMovie[] = [
     },
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 20,
+    oscars: [],
   },
   {
     title: 'James Bond : Quantum of Solace',
@@ -2128,6 +2194,7 @@ export const baseMoviesSagaAction: BaseMovie[] = [
     },
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 20,
+    oscars: [],
   },
   {
     title: 'James Bond : Skyfall',
@@ -2168,6 +2235,10 @@ export const baseMoviesSagaAction: BaseMovie[] = [
     },
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 20,
+    oscars: [
+      { type: OscarEnum.OSCAR_BEST_ORIGINAL_SONG, year: 2013 },
+      { type: OscarEnum.OSCAR_BEST_SOUND, year: 2013 },
+    ],
   },
   {
     title: 'James Bond : Spectre',
@@ -2208,6 +2279,9 @@ export const baseMoviesSagaAction: BaseMovie[] = [
     },
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 20,
+    oscars: [
+      { type: OscarEnum.OSCAR_BEST_ORIGINAL_SONG, year: 2016 },
+    ],
   },
   {
     title: 'James Bond : Mourir Peut Attendre',
@@ -2239,6 +2313,7 @@ export const baseMoviesSagaAction: BaseMovie[] = [
     },
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 20,
+    oscars: [],
   },
   {
     title: 'La mémoire dans la peau',
@@ -2275,6 +2350,7 @@ export const baseMoviesSagaAction: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 20,
+    oscars: [],
   },
   {
     title: 'La Mort dans la Peau',
@@ -2311,6 +2387,7 @@ export const baseMoviesSagaAction: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 20,
+    oscars: [],
   },
   {
     title: 'La Vengeance dans la Peau',
@@ -2347,6 +2424,10 @@ export const baseMoviesSagaAction: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 20,
+    oscars: [
+      { type: OscarEnum.OSCAR_BEST_FILM_EDITING, year: 2008 },
+      { type: OscarEnum.OSCAR_BEST_SOUND, year: 2008 },
+    ],
   },
   {
     title: 'Jason Bourne',
@@ -2383,6 +2464,7 @@ export const baseMoviesSagaAction: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 20,
+    oscars: [],
   },
   {
     title: 'Taken',
@@ -2419,6 +2501,7 @@ export const baseMoviesSagaAction: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 20,
+    oscars: [],
   },
   {
     title: 'Taken 2',
@@ -2455,6 +2538,7 @@ export const baseMoviesSagaAction: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 20,
+    oscars: [],
   },
   {
     title: 'Taken 3',
@@ -2491,6 +2575,7 @@ export const baseMoviesSagaAction: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 20,
+    oscars: [],
   },
   {
     title: 'Banlieue 13',
@@ -2527,6 +2612,7 @@ export const baseMoviesSagaAction: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['France'],
     selectDisplayOrder: 20,
+    oscars: [],
   },
   {
     title: 'Banlieue 13 : Ultimatum',
@@ -2564,6 +2650,7 @@ export const baseMoviesSagaAction: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 20,
+    oscars: [],
   },
   {
     title: 'Rush Hour',
@@ -2600,6 +2687,7 @@ export const baseMoviesSagaAction: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 30,
+    oscars: [],
   },
   {
     title: 'Rush Hour 2',
@@ -2636,6 +2724,7 @@ export const baseMoviesSagaAction: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 30,
+    oscars: [],
   },
   {
     title: 'Rush Hour 3',
@@ -2672,6 +2761,7 @@ export const baseMoviesSagaAction: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 30,
+    oscars: [],
   },
   {
     title: 'Kill Bill: Vol. 1',
@@ -2708,6 +2798,7 @@ export const baseMoviesSagaAction: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 30,
+    oscars: [],
   },
   {
     title: 'Kill Bill: Vol. 2',
@@ -2744,6 +2835,7 @@ export const baseMoviesSagaAction: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 30,
+    oscars: [],
   },
   {
     title: 'Le Transporteur',
@@ -2780,6 +2872,7 @@ export const baseMoviesSagaAction: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 20,
+    oscars: [],
   },
   {
     title: 'Le Transporteur 2',
@@ -2816,6 +2909,7 @@ export const baseMoviesSagaAction: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 20,
+    oscars: [],
   },
   {
     title: 'Le Transporteur 3',
@@ -2852,6 +2946,7 @@ export const baseMoviesSagaAction: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 20,
+    oscars: [],
   },
   {
     title: 'xXx',
@@ -2888,6 +2983,7 @@ export const baseMoviesSagaAction: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 20,
+    oscars: [],
   },
   {
     title: 'xXx² : The Next Level',
@@ -2925,6 +3021,7 @@ export const baseMoviesSagaAction: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 20,
+    oscars: [],
   },
   {
     title: 'Blade',
@@ -2961,6 +3058,7 @@ export const baseMoviesSagaAction: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 20,
+    oscars: [],
   },
   {
     title: 'Blade II',
@@ -2997,6 +3095,7 @@ export const baseMoviesSagaAction: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 20,
+    oscars: [],
   },
   {
     title: 'Blade : Trinity',
@@ -3033,6 +3132,7 @@ export const baseMoviesSagaAction: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 20,
+    oscars: [],
   },
   {
     title: "Les Aventuriers de l'Arche perdue",
@@ -3069,6 +3169,12 @@ export const baseMoviesSagaAction: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 30,
+    oscars: [
+      { type: OscarEnum.OSCAR_BEST_PRODUCTION_DESIGN, year: 1982 },
+      { type: OscarEnum.OSCAR_BEST_FILM_EDITING, year: 1982 },
+      { type: OscarEnum.OSCAR_BEST_SOUND, year: 1982 },
+      { type: OscarEnum.OSCAR_BEST_VISUAL_EFFECTS, year: 1982 },
+    ],
   },
   {
     title: 'Indiana Jones et le Temple maudit',
@@ -3105,6 +3211,9 @@ export const baseMoviesSagaAction: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 30,
+    oscars: [
+      { type: OscarEnum.OSCAR_BEST_VISUAL_EFFECTS, year: 1985 },
+    ],
   },
   {
     title: 'Indiana Jones et la Dernière Croisade',
@@ -3141,6 +3250,9 @@ export const baseMoviesSagaAction: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 30,
+    oscars: [
+      { type: OscarEnum.OSCAR_BEST_SOUND, year: 1990 },
+    ],
   },
   {
     title: 'Indiana Jones et le Royaume du crâne de cristal',
@@ -3177,6 +3289,7 @@ export const baseMoviesSagaAction: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 30,
+    oscars: [],
   },
   {
     title: 'Indiana Jones et le Cadran de la destinée',
@@ -3207,6 +3320,7 @@ export const baseMoviesSagaAction: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 30,
+    oscars: [],
   },
   {
     title: 'Ip Man',
@@ -3244,6 +3358,7 @@ export const baseMoviesSagaAction: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 20,
+    oscars: [],
   },
   {
     title: 'Ip Man 2 : Le Retour du grand maître',
@@ -3280,6 +3395,7 @@ export const baseMoviesSagaAction: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 20,
+    oscars: [],
   },
   {
     title: 'Ip Man 3',
@@ -3316,6 +3432,7 @@ export const baseMoviesSagaAction: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 20,
+    oscars: [],
   },
   {
     title: 'Expendables : Unité Spéciale',
@@ -3335,6 +3452,7 @@ export const baseMoviesSagaAction: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 20,
+    oscars: [],
   },
   {
     title: 'Expendables 2',
@@ -3371,6 +3489,7 @@ export const baseMoviesSagaAction: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 20,
+    oscars: [],
   },
   {
     title: 'Expendables 3',
@@ -3407,6 +3526,7 @@ export const baseMoviesSagaAction: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 20,
+    oscars: [],
   },
   {
     title: 'Expend4bles',
@@ -3443,6 +3563,7 @@ export const baseMoviesSagaAction: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 20,
+    oscars: [],
   },
   {
     title: 'Mission : Impossible',
@@ -3479,6 +3600,7 @@ export const baseMoviesSagaAction: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 20,
+    oscars: [],
   },
   {
     title: 'Mission : Impossible 2',
@@ -3515,6 +3637,7 @@ export const baseMoviesSagaAction: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 20,
+    oscars: [],
   },
   {
     title: 'Mission : Impossible III',
@@ -3551,6 +3674,7 @@ export const baseMoviesSagaAction: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 20,
+    oscars: [],
   },
   {
     title: 'Mission : Impossible - Protocole Fantôme',
@@ -3587,6 +3711,7 @@ export const baseMoviesSagaAction: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 20,
+    oscars: [],
   },
   {
     title: 'Mission : Impossible – Rogue Nation',
@@ -3623,6 +3748,7 @@ export const baseMoviesSagaAction: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 20,
+    oscars: [],
   },
   {
     title: 'Mission : Impossible – Fallout',
@@ -3659,6 +3785,7 @@ export const baseMoviesSagaAction: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 20,
+    oscars: [],
   },
   {
     title: 'Mission: Impossible – Dead Reckoning Partie 1',
@@ -3689,6 +3816,7 @@ export const baseMoviesSagaAction: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 20,
+    oscars: [],
   },
   {
     title: 'Mission: Impossible – The Final Reckoning',
@@ -3722,6 +3850,7 @@ export const baseMoviesSagaAction: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 20,
+    oscars: [],
   },
   {
     title: 'Kingsman : Services Secrets',
@@ -3758,6 +3887,7 @@ export const baseMoviesSagaAction: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['Royaume-Uni'],
     selectDisplayOrder: 30,
+    oscars: [],
   },
 
   {
@@ -3781,6 +3911,7 @@ export const baseMoviesSagaAction: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: "The King's Man : Première mission",
@@ -3817,6 +3948,7 @@ export const baseMoviesSagaAction: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Nobody',
@@ -3854,6 +3986,7 @@ export const baseMoviesSagaAction: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Nobody 2',
@@ -3890,6 +4023,7 @@ export const baseMoviesSagaAction: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Hitman & Bodyguard',
@@ -3926,6 +4060,7 @@ export const baseMoviesSagaAction: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Hitman & Bodyguard 2',
@@ -3953,6 +4088,7 @@ export const baseMoviesSagaAction: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
 
   {
@@ -3984,6 +4120,7 @@ export const baseMoviesSagaAction: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 5,
+    oscars: [],
   },
   {
     title: 'Last Bullet',
@@ -4017,6 +4154,7 @@ export const baseMoviesSagaAction: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['France'],
     selectDisplayOrder: 5,
+    oscars: [],
   },
   {
     title: 'Balle perdue 2',
@@ -4039,6 +4177,7 @@ export const baseMoviesSagaAction: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['France'],
     selectDisplayOrder: 5,
+    oscars: [],
   },
 
   {
@@ -4062,6 +4201,7 @@ export const baseMoviesSagaAction: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 5,
+    oscars: [],
   },
 
   {
@@ -4085,6 +4225,7 @@ export const baseMoviesSagaAction: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 5,
+    oscars: [],
   },
   {
     title: 'Les Tortues Ninja 3',
@@ -4107,6 +4248,7 @@ export const baseMoviesSagaAction: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 5,
+    oscars: [],
   },
   {
     title: 'Les Tortues Ninja 2 : Les héros sont de retour',
@@ -4130,6 +4272,7 @@ export const baseMoviesSagaAction: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 5,
+    oscars: [],
   },
   {
     title: 'Les Tortues Ninja',
@@ -4152,5 +4295,6 @@ export const baseMoviesSagaAction: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 5,
+    oscars: [],
   },
 ];

@@ -1,4 +1,4 @@
-import { BaseMovie } from '../../../models/movie-model';
+import { BaseMovie, OscarEnum } from '../../../models/movie-model';
 
 export const baseMoviesSagaAutres: BaseMovie[] = [
   {
@@ -36,6 +36,11 @@ export const baseMoviesSagaAutres: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 30,
+    oscars: [
+      { type: OscarEnum.OSCAR_BEST_MOVIE, year: 1977 },
+      { type: OscarEnum.OSCAR_BEST_DIRECTOR, year: 1977 },
+      { type: OscarEnum.OSCAR_BEST_FILM_EDITING, year: 1977 },
+    ],
   },
   {
     title: 'Rocky II',
@@ -72,6 +77,7 @@ export const baseMoviesSagaAutres: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 30,
+    oscars: [],
   },
   {
     title: 'Rocky III',
@@ -108,6 +114,7 @@ export const baseMoviesSagaAutres: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 30,
+    oscars: [],
   },
   {
     title: 'Rocky IV',
@@ -144,6 +151,7 @@ export const baseMoviesSagaAutres: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 30,
+    oscars: [],
   },
   {
     title: 'Rocky V',
@@ -180,6 +188,7 @@ export const baseMoviesSagaAutres: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 30,
+    oscars: [],
   },
   {
     title: 'Rocky Balboa',
@@ -216,6 +225,7 @@ export const baseMoviesSagaAutres: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 30,
+    oscars: [],
   },
   {
     title: 'Creed',
@@ -252,6 +262,7 @@ export const baseMoviesSagaAutres: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 30,
+    oscars: [],
   },
   {
     title: 'Creed II',
@@ -288,6 +299,7 @@ export const baseMoviesSagaAutres: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 30,
+    oscars: [],
   },
   {
     title: 'Creed III',
@@ -324,6 +336,7 @@ export const baseMoviesSagaAutres: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 30,
+    oscars: [],
   },
 
   {
@@ -361,6 +374,7 @@ export const baseMoviesSagaAutres: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Spy Kids 2 : Espions en herbe',
@@ -397,6 +411,7 @@ export const baseMoviesSagaAutres: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Spy Kids 3 : Mission 3D',
@@ -434,6 +449,7 @@ export const baseMoviesSagaAutres: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
 
   {
@@ -471,6 +487,7 @@ export const baseMoviesSagaAutres: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 30,
+    oscars: [],
   },
   {
     title: 'Le Retour de la Momie',
@@ -507,6 +524,7 @@ export const baseMoviesSagaAutres: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 30,
+    oscars: [],
   },
   {
     title: "La momie : la tombe de l'empereur dragon",
@@ -543,6 +561,7 @@ export const baseMoviesSagaAutres: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 30,
+    oscars: [],
   },
   {
     title: 'La Momie',
@@ -579,6 +598,7 @@ export const baseMoviesSagaAutres: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 30,
+    oscars: [],
   },
 
   {
@@ -616,6 +636,11 @@ export const baseMoviesSagaAutres: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 30,
+    oscars: [
+      { type: OscarEnum.OSCAR_BEST_MOVIE, year: 1973 },
+      { type: OscarEnum.OSCAR_BEST_ACTOR, year: 1973 },
+      { type: OscarEnum.OSCAR_BEST_ADAPTED_SCREENPLAY, year: 1973 },
+    ],
   },
   {
     title: 'Le Parrain 2',
@@ -652,6 +677,14 @@ export const baseMoviesSagaAutres: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 30,
+    oscars: [
+      { type: OscarEnum.OSCAR_BEST_MOVIE, year: 1975 },
+      { type: OscarEnum.OSCAR_BEST_DIRECTOR, year: 1975 },
+      { type: OscarEnum.OSCAR_BEST_SUPPORTING_ACTOR, year: 1975 },
+      { type: OscarEnum.OSCAR_BEST_ADAPTED_SCREENPLAY, year: 1975 },
+      { type: OscarEnum.OSCAR_BEST_PRODUCTION_DESIGN, year: 1975 },
+      { type: OscarEnum.OSCAR_BEST_ORIGINAL_SCORE, year: 1975 },
+    ],
   },
   {
     title: 'Le Parrain, 3e partie',
@@ -688,6 +721,7 @@ export const baseMoviesSagaAutres: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Enola Holmes',
@@ -718,6 +752,7 @@ export const baseMoviesSagaAutres: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 20,
+    oscars: [],
   },
   {
     title: 'Enola Holmes 2',
@@ -748,6 +783,7 @@ export const baseMoviesSagaAutres: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 20,
+    oscars: [],
   },
   {
     title: 'Enola Holmes 3',
@@ -781,6 +817,7 @@ export const baseMoviesSagaAutres: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 20,
+    oscars: [],
   },
   {
     title: 'A couteaux tirés',
@@ -808,6 +845,7 @@ export const baseMoviesSagaAutres: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 20,
+    oscars: [],
   },
   {
     title: 'A couteaux tirés 2 : Glass Onion',
@@ -831,6 +869,7 @@ export const baseMoviesSagaAutres: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 20,
+    oscars: [],
   },
   {
     title: 'Wake up dead man : une histoire à couteaux tirés',
@@ -868,6 +907,7 @@ export const baseMoviesSagaAutres: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 20,
+    oscars: [],
   },
 
   {
@@ -905,6 +945,7 @@ export const baseMoviesSagaAutres: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 20,
+    oscars: [],
   },
   {
     title: 'Split',
@@ -941,6 +982,7 @@ export const baseMoviesSagaAutres: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 20,
+    oscars: [],
   },
   {
     title: 'Glass',
@@ -968,6 +1010,7 @@ export const baseMoviesSagaAutres: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 20,
+    oscars: [],
   },
 
   {
@@ -989,6 +1032,7 @@ export const baseMoviesSagaAutres: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 20,
+    oscars: [],
   },
   {
     title: 'Insaisissables 2',
@@ -1009,6 +1053,7 @@ export const baseMoviesSagaAutres: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 20,
+    oscars: [],
   },
   {
     title: 'Insaisissables 3',
@@ -1042,6 +1087,7 @@ export const baseMoviesSagaAutres: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 20,
+    oscars: [],
   },
 
   {
@@ -1062,6 +1108,7 @@ export const baseMoviesSagaAutres: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 30,
+    oscars: [],
   },
   {
     title: "Ocean's Twelve",
@@ -1082,6 +1129,7 @@ export const baseMoviesSagaAutres: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 30,
+    oscars: [],
   },
   {
     title: "Ocean's Thirteen",
@@ -1118,6 +1166,7 @@ export const baseMoviesSagaAutres: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 30,
+    oscars: [],
   },
   {
     title: "Ocean's Eight",
@@ -1154,6 +1203,7 @@ export const baseMoviesSagaAutres: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 30,
+    oscars: [],
   },
 
   {
@@ -1191,6 +1241,7 @@ export const baseMoviesSagaAutres: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 20,
+    oscars: [],
   },
   {
     title: "Sin City : J'ai Tué pour Elle",
@@ -1228,6 +1279,7 @@ export const baseMoviesSagaAutres: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 20,
+    oscars: [],
   },
 
   {
@@ -1251,6 +1303,7 @@ export const baseMoviesSagaAutres: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 5,
+    oscars: [],
   },
   {
     title: 'Werewolf by Night',
@@ -1273,6 +1326,7 @@ export const baseMoviesSagaAutres: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 5,
+    oscars: [],
   },
   {
     title: 'Balle Perdue',
@@ -1295,6 +1349,7 @@ export const baseMoviesSagaAutres: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['France'],
     selectDisplayOrder: 5,
+    oscars: [],
   },
   {
     title: 'En avant',
@@ -1317,6 +1372,7 @@ export const baseMoviesSagaAutres: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 5,
+    oscars: [],
   },
 
   {
@@ -1340,6 +1396,7 @@ export const baseMoviesSagaAutres: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 5,
+    oscars: [],
   },
   {
     title: 'High School Musical 2',
@@ -1362,6 +1419,7 @@ export const baseMoviesSagaAutres: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 5,
+    oscars: [],
   },
   {
     title: 'High School Musical : Premiers pas sur scène',
@@ -1384,5 +1442,6 @@ export const baseMoviesSagaAutres: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 5,
+    oscars: [],
   },
 ];

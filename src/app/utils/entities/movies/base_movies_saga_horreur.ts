@@ -37,6 +37,7 @@ export const baseMoviesSagaHorreur: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 20,
+    oscars: [],
   },
   {
     title: 'Destination Finale 2',
@@ -74,6 +75,7 @@ export const baseMoviesSagaHorreur: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 20,
+    oscars: [],
   },
   {
     title: 'Destination Finale 3',
@@ -111,6 +113,7 @@ export const baseMoviesSagaHorreur: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 20,
+    oscars: [],
   },
   {
     title: 'Destination Finale 4',
@@ -148,6 +151,7 @@ export const baseMoviesSagaHorreur: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 20,
+    oscars: [],
   },
   {
     title: 'Destination Finale 5',
@@ -185,6 +189,7 @@ export const baseMoviesSagaHorreur: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 20,
+    oscars: [],
   },
   {
     title: 'Destination Finale : Bloodlines',
@@ -215,6 +220,7 @@ export const baseMoviesSagaHorreur: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 20,
+    oscars: [],
   },
   {
     title: 'Scream',
@@ -251,6 +257,7 @@ export const baseMoviesSagaHorreur: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 20,
+    oscars: [],
   },
   {
     title: 'Scream 2',
@@ -287,6 +294,7 @@ export const baseMoviesSagaHorreur: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 20,
+    oscars: [],
   },
   {
     title: 'Scream 3',
@@ -323,6 +331,7 @@ export const baseMoviesSagaHorreur: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 20,
+    oscars: [],
   },
   {
     title: 'Scream 4',
@@ -359,6 +368,7 @@ export const baseMoviesSagaHorreur: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 20,
+    oscars: [],
   },
   {
     title: 'Scream',
@@ -395,6 +405,7 @@ export const baseMoviesSagaHorreur: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 20,
+    oscars: [],
   },
   {
     title: 'Scream VI',
@@ -431,6 +442,7 @@ export const baseMoviesSagaHorreur: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 20,
+    oscars: [],
   },
   {
     title: 'Scream 7',
@@ -467,6 +479,7 @@ export const baseMoviesSagaHorreur: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['France'],
     selectDisplayOrder: 20,
+    oscars: [],
   },
   {
     title: '28 jours plus tard',
@@ -503,6 +516,7 @@ export const baseMoviesSagaHorreur: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['Royaume-Uni'],
     selectDisplayOrder: 20,
+    oscars: [],
   },
   {
     title: '28 Semaines Plus Tard',
@@ -539,6 +553,7 @@ export const baseMoviesSagaHorreur: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['Espagne'],
     selectDisplayOrder: 20,
+    oscars: [],
   },
   {
     title: '28 ans plus tard',
@@ -575,6 +590,7 @@ export const baseMoviesSagaHorreur: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['Royaume-Uni'],
     selectDisplayOrder: 20,
+    oscars: [],
   },
 
   {
@@ -612,6 +628,7 @@ export const baseMoviesSagaHorreur: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 20,
+    oscars: [],
   },
   {
     title: 'Conjuring 2 : Le Cas Enfield',
@@ -648,6 +665,7 @@ export const baseMoviesSagaHorreur: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 20,
+    oscars: [],
   },
   {
     title: "Conjuring : Sous l'emprise du diable",
@@ -684,6 +702,7 @@ export const baseMoviesSagaHorreur: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 20,
+    oscars: [],
   },
   {
     title: "Conjuring : L'Heure du jugement",
@@ -720,6 +739,7 @@ export const baseMoviesSagaHorreur: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 20,
+    oscars: [],
   },
 
   {
@@ -741,6 +761,7 @@ export const baseMoviesSagaHorreur: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 20,
+    oscars: [],
   },
   {
     title: 'Paranormal Activity 2',
@@ -777,6 +798,7 @@ export const baseMoviesSagaHorreur: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 20,
+    oscars: [],
   },
   {
     title: 'Paranormal Activity 3',
@@ -813,6 +835,7 @@ export const baseMoviesSagaHorreur: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 20,
+    oscars: [],
   },
   {
     title: 'Paranormal Activity 4',
@@ -849,6 +872,7 @@ export const baseMoviesSagaHorreur: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 20,
+    oscars: [],
   },
   {
     title: 'Paranormal Activity: The Marked Ones',
@@ -885,6 +909,7 @@ export const baseMoviesSagaHorreur: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 20,
+    oscars: [],
   },
   {
     title: 'Paranormal Activity 5 : Ghost Dimension',
@@ -921,6 +946,7 @@ export const baseMoviesSagaHorreur: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 20,
+    oscars: [],
   },
 
   {
@@ -958,6 +984,7 @@ export const baseMoviesSagaHorreur: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 20,
+    oscars: [],
   },
   {
     title: 'Saw II',
@@ -994,6 +1021,7 @@ export const baseMoviesSagaHorreur: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 20,
+    oscars: [],
   },
   {
     title: 'Saw III',
@@ -1030,6 +1058,7 @@ export const baseMoviesSagaHorreur: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 20,
+    oscars: [],
   },
   {
     title: 'Saw IV',
@@ -1066,6 +1095,7 @@ export const baseMoviesSagaHorreur: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 20,
+    oscars: [],
   },
   {
     title: 'Saw V',
@@ -1102,6 +1132,7 @@ export const baseMoviesSagaHorreur: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 20,
+    oscars: [],
   },
   {
     title: 'Saw VI',
@@ -1138,6 +1169,7 @@ export const baseMoviesSagaHorreur: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 20,
+    oscars: [],
   },
   {
     title: 'Saw 3D : Chapitre final',
@@ -1174,6 +1206,7 @@ export const baseMoviesSagaHorreur: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 20,
+    oscars: [],
   },
 
   {
@@ -1197,6 +1230,7 @@ export const baseMoviesSagaHorreur: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 5,
+    oscars: [],
   },
   {
     title: 'Sans un bruit 2',
@@ -1219,6 +1253,7 @@ export const baseMoviesSagaHorreur: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 5,
+    oscars: [],
   },
   {
     title: 'American Nightmare 4 : Les Origines',
@@ -1241,6 +1276,7 @@ export const baseMoviesSagaHorreur: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 5,
+    oscars: [],
   },
 
   {
@@ -1264,6 +1300,7 @@ export const baseMoviesSagaHorreur: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 5,
+    oscars: [],
   },
 
   {
@@ -1287,6 +1324,7 @@ export const baseMoviesSagaHorreur: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 5,
+    oscars: [],
   },
   {
     title: 'Evil Dead',
@@ -1309,6 +1347,7 @@ export const baseMoviesSagaHorreur: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 5,
+    oscars: [],
   },
   {
     title: 'Insidious',
@@ -1331,6 +1370,7 @@ export const baseMoviesSagaHorreur: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 5,
+    oscars: [],
   },
   {
     title: 'Insidious : Chapitre 2',
@@ -1353,6 +1393,7 @@ export const baseMoviesSagaHorreur: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 5,
+    oscars: [],
   },
   {
     title: 'Insidious: The Red Door',
@@ -1375,6 +1416,7 @@ export const baseMoviesSagaHorreur: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 5,
+    oscars: [],
   },
   {
     title: 'Evil Dead',
@@ -1397,6 +1439,7 @@ export const baseMoviesSagaHorreur: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 5,
+    oscars: [],
   },
   {
     title: 'Evil Dead II',
@@ -1419,6 +1462,7 @@ export const baseMoviesSagaHorreur: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 5,
+    oscars: [],
   },
   {
     title: 'Evil Dead Rise',
@@ -1449,6 +1493,7 @@ export const baseMoviesSagaHorreur: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 5,
+    oscars: [],
   },
 
   {
@@ -1477,6 +1522,7 @@ export const baseMoviesSagaHorreur: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 5,
+    oscars: [],
   },
 
   {
@@ -1508,5 +1554,6 @@ export const baseMoviesSagaHorreur: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis', 'Canada', 'Nouvelle-Zélande'],
     selectDisplayOrder: 5,
+    oscars: [],
   },
 ];

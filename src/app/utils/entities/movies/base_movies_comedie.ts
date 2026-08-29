@@ -1,4 +1,4 @@
-import { BaseMovie } from '../../../models/movie-model';
+import { BaseMovie, OscarEnum } from '../../../models/movie-model';
 
 export const baseMoviesComedie: BaseMovie[] = [
   {
@@ -22,6 +22,7 @@ export const baseMoviesComedie: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['France'],
     selectDisplayOrder: 30,
+    oscars: [],
   },
   {
     title: 'La Boum 2',
@@ -44,6 +45,7 @@ export const baseMoviesComedie: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['France'],
     selectDisplayOrder: 30,
+    oscars: [],
   },
   {
     title: 'La Guerre des boutons',
@@ -70,6 +72,7 @@ export const baseMoviesComedie: BaseMovie[] = [
     },
     countryOrigin: ['France'],
     selectDisplayOrder: 30,
+    oscars: [],
   },
   {
     title: 'Mais où est donc passée la 7ème compagnie ?',
@@ -92,6 +95,7 @@ export const baseMoviesComedie: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['France'],
     selectDisplayOrder: 30,
+    oscars: [],
   },
   {
     title: 'Barbie',
@@ -128,6 +132,9 @@ export const baseMoviesComedie: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 30,
+    oscars: [
+      { type: OscarEnum.OSCAR_BEST_ORIGINAL_SONG, year: 2024 },
+    ],
   },
   {
     title: "Don't look up, déni cosmique",
@@ -167,6 +174,7 @@ export const baseMoviesComedie: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 30,
+    oscars: [],
   },
   {
     title: "Le Diable s'Habille en Prada",
@@ -207,6 +215,7 @@ export const baseMoviesComedie: BaseMovie[] = [
     },
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 30,
+    oscars: [],
   },
   {
     title: "Le Diable s'habille en Prada 2",
@@ -229,6 +238,7 @@ export const baseMoviesComedie: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 30,
+    oscars: [],
   },
   {
     title: 'Free Guy',
@@ -265,6 +275,7 @@ export const baseMoviesComedie: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 30,
+    oscars: [],
   },
   {
     title: 'Tanguy',
@@ -301,6 +312,7 @@ export const baseMoviesComedie: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['France'],
     selectDisplayOrder: 30,
+    oscars: [],
   },
   {
     title: 'Shaolin Soccer',
@@ -337,6 +349,7 @@ export const baseMoviesComedie: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Miss Détective',
@@ -373,6 +386,7 @@ export const baseMoviesComedie: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Snatch',
@@ -409,6 +423,7 @@ export const baseMoviesComedie: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['Royaume-Uni'],
     selectDisplayOrder: 30,
+    oscars: [],
   },
   {
     title: 'Dans tes rêves',
@@ -431,6 +446,7 @@ export const baseMoviesComedie: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'DodgeBall: Même pas mal',
@@ -468,6 +484,7 @@ export const baseMoviesComedie: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 30,
+    oscars: [],
   },
   {
     title: 'Garfield',
@@ -504,6 +521,7 @@ export const baseMoviesComedie: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 30,
+    oscars: [],
   },
   {
     title: 'Garfield 2',
@@ -540,6 +558,7 @@ export const baseMoviesComedie: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis', 'Royaume-Uni'],
     selectDisplayOrder: 30,
+    oscars: [],
   },
   {
     title: 'Harold & Kumar Go to White Castle',
@@ -576,6 +595,7 @@ export const baseMoviesComedie: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: "Le Joyeux Noël d'Harold et Kumar",
@@ -612,6 +632,7 @@ export const baseMoviesComedie: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Shaun of the Dead',
@@ -649,6 +670,7 @@ export const baseMoviesComedie: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['Royaume-Uni'],
     selectDisplayOrder: 30,
+    oscars: [],
   },
   {
     title: 'EuroTrip',
@@ -685,6 +707,7 @@ export const baseMoviesComedie: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Les 11 commandements',
@@ -722,6 +745,7 @@ export const baseMoviesComedie: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['France'],
     selectDisplayOrder: 30,
+    oscars: [],
   },
   {
     title: 'RRRrrrr!!!',
@@ -755,6 +779,7 @@ export const baseMoviesComedie: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['France'],
     selectDisplayOrder: 30,
+    oscars: [],
   },
   {
     title: 'Bruce tout-puissant',
@@ -791,6 +816,7 @@ export const baseMoviesComedie: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 30,
+    oscars: [],
   },
   {
     title: 'Moi, Cesar, 10 ans et demi, 1m39',
@@ -813,6 +839,7 @@ export const baseMoviesComedie: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['France'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'En sursis',
@@ -849,6 +876,7 @@ export const baseMoviesComedie: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'La Beuze',
@@ -885,6 +913,7 @@ export const baseMoviesComedie: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['France'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Opération antisèche',
@@ -921,6 +950,7 @@ export const baseMoviesComedie: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Malavita',
@@ -957,6 +987,7 @@ export const baseMoviesComedie: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Fanfan la Tulipe',
@@ -993,6 +1024,7 @@ export const baseMoviesComedie: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['France'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Le Murder Club du jeudi',
@@ -1015,6 +1047,7 @@ export const baseMoviesComedie: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['Royaume-Uni'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Ce soir je dors chez toi',
@@ -1051,6 +1084,7 @@ export const baseMoviesComedie: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['France'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Rasta Rockett',
@@ -1087,6 +1121,7 @@ export const baseMoviesComedie: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 30,
+    oscars: [],
   },
   {
     title: 'Yao',
@@ -1123,6 +1158,7 @@ export const baseMoviesComedie: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['France'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Bienvenue à Marly-Gomont',
@@ -1153,6 +1189,7 @@ export const baseMoviesComedie: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['France'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Hot Shots!',
@@ -1189,6 +1226,7 @@ export const baseMoviesComedie: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Hot Shots! 2',
@@ -1225,6 +1263,7 @@ export const baseMoviesComedie: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'MASH',
@@ -1261,6 +1300,9 @@ export const baseMoviesComedie: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [
+      { type: OscarEnum.OSCAR_BEST_ADAPTED_SCREENPLAY, year: 1971 },
+    ],
   },
   {
     title: 'Palm Springs',
@@ -1297,6 +1339,7 @@ export const baseMoviesComedie: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'La soupe aux choux',
@@ -1319,6 +1362,7 @@ export const baseMoviesComedie: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['France'],
     selectDisplayOrder: 30,
+    oscars: [],
   },
   {
     title: 'La Grande Vadrouille',
@@ -1355,6 +1399,7 @@ export const baseMoviesComedie: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['France'],
     selectDisplayOrder: 30,
+    oscars: [],
   },
   {
     title: "L'aile ou la cuisse",
@@ -1391,6 +1436,7 @@ export const baseMoviesComedie: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['France'],
     selectDisplayOrder: 30,
+    oscars: [],
   },
   {
     title: 'Les aventures de Rabbi Jacob',
@@ -1427,6 +1473,7 @@ export const baseMoviesComedie: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['France'],
     selectDisplayOrder: 30,
+    oscars: [],
   },
   {
     title: 'La Folie des grandeurs',
@@ -1464,6 +1511,7 @@ export const baseMoviesComedie: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['France'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Oscar',
@@ -1494,6 +1542,7 @@ export const baseMoviesComedie: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['France'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Pouic-Pouic',
@@ -1530,6 +1579,7 @@ export const baseMoviesComedie: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['France'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Faites sauter la banque !',
@@ -1566,6 +1616,7 @@ export const baseMoviesComedie: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['France'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Des pissenlits par la racine',
@@ -1602,6 +1653,7 @@ export const baseMoviesComedie: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['France'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Une souris chez les hommes',
@@ -1638,6 +1690,7 @@ export const baseMoviesComedie: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['France'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Le Corniaud',
@@ -1674,6 +1727,7 @@ export const baseMoviesComedie: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['France'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Les Bons Vivants',
@@ -1710,6 +1764,7 @@ export const baseMoviesComedie: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['France'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Le Gendarme à New York',
@@ -1746,6 +1801,7 @@ export const baseMoviesComedie: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['France'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Fantomas se déchaîne',
@@ -1782,6 +1838,7 @@ export const baseMoviesComedie: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['France'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Le Grand Restaurant',
@@ -1818,6 +1875,7 @@ export const baseMoviesComedie: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['France'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Fantomas contre Scotland Yard',
@@ -1854,6 +1912,7 @@ export const baseMoviesComedie: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['France'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Les Grandes Vacances',
@@ -1890,6 +1949,7 @@ export const baseMoviesComedie: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['France'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Le Petit Baigneur',
@@ -1926,6 +1986,7 @@ export const baseMoviesComedie: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['France'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Le Tatoué',
@@ -1962,6 +2023,7 @@ export const baseMoviesComedie: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['France'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Le gendarme se marie',
@@ -1998,6 +2060,7 @@ export const baseMoviesComedie: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['France'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Hibernatus',
@@ -2034,6 +2097,7 @@ export const baseMoviesComedie: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['France'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: "L'Homme orchestre",
@@ -2070,6 +2134,7 @@ export const baseMoviesComedie: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['France'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Le Gendarme en balade',
@@ -2106,6 +2171,7 @@ export const baseMoviesComedie: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['France'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Sur un arbre perché',
@@ -2142,6 +2208,7 @@ export const baseMoviesComedie: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['France'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Jo',
@@ -2178,6 +2245,7 @@ export const baseMoviesComedie: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['France'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'La Zizanie',
@@ -2214,6 +2282,7 @@ export const baseMoviesComedie: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['France'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Le Gendarme et les Extra-terrestres',
@@ -2250,6 +2319,7 @@ export const baseMoviesComedie: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['France'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'L’Avare',
@@ -2286,6 +2356,7 @@ export const baseMoviesComedie: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['France'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Le Gendarme et les Gendarmettes',
@@ -2322,6 +2393,7 @@ export const baseMoviesComedie: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['France'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Le Gendarme de Saint-Tropez',
@@ -2359,6 +2431,7 @@ export const baseMoviesComedie: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['France'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Les temps modernes',
@@ -2382,6 +2455,7 @@ export const baseMoviesComedie: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 30,
+    oscars: [],
   },
   {
     title: 'Yamakasi',
@@ -2405,6 +2479,7 @@ export const baseMoviesComedie: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['France'],
     selectDisplayOrder: 30,
+    oscars: [],
   },
   {
     title: 'Les Fils du vent',
@@ -2442,6 +2517,7 @@ export const baseMoviesComedie: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['France'],
     selectDisplayOrder: 30,
+    oscars: [],
   },
   {
     title: 'Jackie chan dans le bronx',
@@ -2476,6 +2552,7 @@ export const baseMoviesComedie: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
 
   {
@@ -2517,6 +2594,7 @@ export const baseMoviesComedie: BaseMovie[] = [
     },
     countryOrigin: ['France'],
     selectDisplayOrder: 30,
+    oscars: [],
   },
   {
     title: 'Astérix & Obélix : Mission Cléopâtre',
@@ -2557,6 +2635,7 @@ export const baseMoviesComedie: BaseMovie[] = [
     },
     countryOrigin: ['France'],
     selectDisplayOrder: 30,
+    oscars: [],
   },
   {
     title: 'Astérix aux Jeux Olympiques',
@@ -2597,6 +2676,7 @@ export const baseMoviesComedie: BaseMovie[] = [
     },
     countryOrigin: ['France'],
     selectDisplayOrder: 30,
+    oscars: [],
   },
   {
     title: 'Astérix et Obélix : Au service de Sa Majesté',
@@ -2638,6 +2718,7 @@ export const baseMoviesComedie: BaseMovie[] = [
     },
     countryOrigin: ['France'],
     selectDisplayOrder: 30,
+    oscars: [],
   },
   {
     title: "Astérix et Obélix : L'Empire du Milieu",
@@ -2679,6 +2760,7 @@ export const baseMoviesComedie: BaseMovie[] = [
     },
     countryOrigin: ['France'],
     selectDisplayOrder: 30,
+    oscars: [],
   },
   {
     title: 'Wild Wild West',
@@ -2715,6 +2797,7 @@ export const baseMoviesComedie: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Mon voisin le tueur',
@@ -2752,6 +2835,7 @@ export const baseMoviesComedie: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Hors de Prix',
@@ -2788,6 +2872,7 @@ export const baseMoviesComedie: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['France'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Admis à tout prix',
@@ -2824,6 +2909,7 @@ export const baseMoviesComedie: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Nos Jours heureux',
@@ -2861,6 +2947,7 @@ export const baseMoviesComedie: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['France'],
     selectDisplayOrder: 30,
+    oscars: [],
   },
 
   {
@@ -2884,6 +2971,7 @@ export const baseMoviesComedie: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Camping',
@@ -2921,6 +3009,7 @@ export const baseMoviesComedie: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['France'],
     selectDisplayOrder: 30,
+    oscars: [],
   },
   {
     title: 'Camping 2',
@@ -2941,6 +3030,7 @@ export const baseMoviesComedie: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 30,
+    oscars: [],
   },
   {
     title: 'Incontrôlable',
@@ -2977,6 +3067,7 @@ export const baseMoviesComedie: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['France'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: '40 Ans, Toujours Puceau',
@@ -3004,6 +3095,7 @@ export const baseMoviesComedie: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 30,
+    oscars: [],
   },
   {
     title: 'Serial Nocers',
@@ -3040,6 +3132,7 @@ export const baseMoviesComedie: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Baby Sittor',
@@ -3076,6 +3169,7 @@ export const baseMoviesComedie: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'The Mask',
@@ -3117,6 +3211,7 @@ export const baseMoviesComedie: BaseMovie[] = [
     },
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 30,
+    oscars: [],
   },
   {
     title: 'La cité de la peur',
@@ -3154,6 +3249,7 @@ export const baseMoviesComedie: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['France'],
     selectDisplayOrder: 30,
+    oscars: [],
   },
   {
     title: 'Mrs. Doubtfire',
@@ -3190,6 +3286,9 @@ export const baseMoviesComedie: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 30,
+    oscars: [
+      { type: OscarEnum.OSCAR_BEST_MAKEUP, year: 1994 },
+    ],
   },
   {
     title: 'Le Dîner de Cons',
@@ -3226,6 +3325,7 @@ export const baseMoviesComedie: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['France'],
     selectDisplayOrder: 30,
+    oscars: [],
   },
   {
     title: 'The Big Lebowski',
@@ -3263,6 +3363,7 @@ export const baseMoviesComedie: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 30,
+    oscars: [],
   },
   {
     title: 'Il a Déjà Tes Yeux',
@@ -3297,6 +3398,7 @@ export const baseMoviesComedie: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['France'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Swiss Army Man',
@@ -3330,6 +3432,7 @@ export const baseMoviesComedie: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: "Comment c'est loin",
@@ -3366,6 +3469,7 @@ export const baseMoviesComedie: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['France'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Pixels',
@@ -3402,6 +3506,7 @@ export const baseMoviesComedie: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Le médaillon',
@@ -3438,6 +3543,7 @@ export const baseMoviesComedie: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Smoking',
@@ -3474,6 +3580,7 @@ export const baseMoviesComedie: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Brice de Nice',
@@ -3510,6 +3617,7 @@ export const baseMoviesComedie: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['France'],
     selectDisplayOrder: 30,
+    oscars: [],
   },
   {
     title: 'La tour Montparnasse infernale',
@@ -3546,6 +3654,7 @@ export const baseMoviesComedie: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['France'],
     selectDisplayOrder: 30,
+    oscars: [],
   },
   {
     title: 'Spaceballs',
@@ -3582,6 +3691,7 @@ export const baseMoviesComedie: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'I Love You Phillip Morris',
@@ -3618,6 +3728,7 @@ export const baseMoviesComedie: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Yes Man',
@@ -3654,6 +3765,7 @@ export const baseMoviesComedie: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Rien que pour vos cheveux',
@@ -3690,6 +3802,7 @@ export const baseMoviesComedie: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Evan tout-puissant',
@@ -3726,6 +3839,7 @@ export const baseMoviesComedie: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Supergrave',
@@ -3762,6 +3876,7 @@ export const baseMoviesComedie: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Un indien dans la ville',
@@ -3796,6 +3911,7 @@ export const baseMoviesComedie: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['France'],
     selectDisplayOrder: 30,
+    oscars: [],
   },
   {
     title: 'Dumb & Dumber',
@@ -3833,6 +3949,7 @@ export const baseMoviesComedie: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
 
   {
@@ -3853,6 +3970,7 @@ export const baseMoviesComedie: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 5,
+    oscars: [],
   },
   {
     title: 'Comment tuer son boss 2',
@@ -3889,6 +4007,7 @@ export const baseMoviesComedie: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 5,
+    oscars: [],
   },
   {
     title: 'Paul',
@@ -3925,6 +4044,7 @@ export const baseMoviesComedie: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Fatal',
@@ -3964,6 +4084,7 @@ export const baseMoviesComedie: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['France'],
     selectDisplayOrder: 30,
+    oscars: [],
   },
   {
     title: 'Lucky Luke',
@@ -4004,6 +4125,7 @@ export const baseMoviesComedie: BaseMovie[] = [
     },
     countryOrigin: ['France'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Zombieland',
@@ -4040,6 +4162,7 @@ export const baseMoviesComedie: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Les seigneurs',
@@ -4076,6 +4199,7 @@ export const baseMoviesComedie: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['France'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'The Dictator',
@@ -4112,6 +4236,7 @@ export const baseMoviesComedie: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: '21 Jump Street',
@@ -4148,6 +4273,7 @@ export const baseMoviesComedie: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 30,
+    oscars: [],
   },
   {
     title: '22 Jump Street',
@@ -4185,6 +4311,7 @@ export const baseMoviesComedie: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 30,
+    oscars: [],
   },
   {
     title: 'Intouchables',
@@ -4222,6 +4349,7 @@ export const baseMoviesComedie: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['France'],
     selectDisplayOrder: 30,
+    oscars: [],
   },
   {
     title: 'Good Morning, Vietnam',
@@ -4259,6 +4387,7 @@ export const baseMoviesComedie: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 30,
+    oscars: [],
   },
   {
     title: 'Les visiteurs',
@@ -4296,6 +4425,7 @@ export const baseMoviesComedie: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['France'],
     selectDisplayOrder: 30,
+    oscars: [],
   },
   {
     title: 'Les Visiteurs II : Les couloirs du temps',
@@ -4333,6 +4463,7 @@ export const baseMoviesComedie: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['France'],
     selectDisplayOrder: 30,
+    oscars: [],
   },
   {
     title: 'Les Visiteurs en Amérique',
@@ -4369,6 +4500,7 @@ export const baseMoviesComedie: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['France', 'États-Unis'],
     selectDisplayOrder: 30,
+    oscars: [],
   },
   {
     title: 'Les Visiteurs : La Révolution',
@@ -4405,6 +4537,7 @@ export const baseMoviesComedie: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['France'],
     selectDisplayOrder: 30,
+    oscars: [],
   },
   {
     title: 'Nos 18 ans',
@@ -4441,6 +4574,7 @@ export const baseMoviesComedie: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['France'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'The Do-Over',
@@ -4477,6 +4611,7 @@ export const baseMoviesComedie: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Eh mec, elle est où ma caisse ?',
@@ -4513,6 +4648,7 @@ export const baseMoviesComedie: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Amour et turbulences',
@@ -4549,6 +4685,7 @@ export const baseMoviesComedie: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Hot Babes',
@@ -4585,6 +4722,7 @@ export const baseMoviesComedie: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'The Sex List',
@@ -4621,6 +4759,7 @@ export const baseMoviesComedie: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Ali G',
@@ -4657,6 +4796,7 @@ export const baseMoviesComedie: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 30,
+    oscars: [],
   },
   {
     title: 'Ce Que Veulent Les Hommes',
@@ -4693,6 +4833,7 @@ export const baseMoviesComedie: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Walter',
@@ -4729,6 +4870,7 @@ export const baseMoviesComedie: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['France'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Le Prénom',
@@ -4765,6 +4907,7 @@ export const baseMoviesComedie: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['France'],
     selectDisplayOrder: 30,
+    oscars: [],
   },
   {
     title: 'Deux moi',
@@ -4801,6 +4944,7 @@ export const baseMoviesComedie: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['France'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: "L'Héritage",
@@ -4815,6 +4959,7 @@ export const baseMoviesComedie: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Shotgun Wedding',
@@ -4851,6 +4996,7 @@ export const baseMoviesComedie: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Borat',
@@ -4881,6 +5027,7 @@ export const baseMoviesComedie: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 30,
+    oscars: [],
   },
   {
     title: 'The Worst Person in the World',
@@ -4918,6 +5065,7 @@ export const baseMoviesComedie: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Rhinestone',
@@ -4951,6 +5099,7 @@ export const baseMoviesComedie: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Jumeaux',
@@ -4987,6 +5136,7 @@ export const baseMoviesComedie: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Un flic à la maternelle',
@@ -5023,6 +5173,7 @@ export const baseMoviesComedie: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Junior',
@@ -5059,6 +5210,7 @@ export const baseMoviesComedie: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Killing Gunther',
@@ -5095,6 +5247,7 @@ export const baseMoviesComedie: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Hudson Hawk, gentleman et cambrioleur',
@@ -5132,6 +5285,7 @@ export const baseMoviesComedie: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'La mort vous va si bien',
@@ -5168,6 +5322,7 @@ export const baseMoviesComedie: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Un homme presque parfait',
@@ -5204,6 +5359,7 @@ export const baseMoviesComedie: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Sale Môme',
@@ -5240,6 +5396,7 @@ export const baseMoviesComedie: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Bandits',
@@ -5276,6 +5433,7 @@ export const baseMoviesComedie: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Mon voisin le tueur 2',
@@ -5312,6 +5470,7 @@ export const baseMoviesComedie: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Moonrise Kingdom',
@@ -5348,6 +5507,7 @@ export const baseMoviesComedie: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
 
   {
@@ -5386,6 +5546,7 @@ export const baseMoviesComedie: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: "Fous d'Irène",
@@ -5422,6 +5583,7 @@ export const baseMoviesComedie: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Braqueurs amateurs',
@@ -5458,6 +5620,7 @@ export const baseMoviesComedie: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'M. Popper et ses pingouins',
@@ -5494,6 +5657,7 @@ export const baseMoviesComedie: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Dogma : Resurrected !',
@@ -5530,6 +5694,7 @@ export const baseMoviesComedie: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Zack et Miri font un porno',
@@ -5566,6 +5731,7 @@ export const baseMoviesComedie: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Deux en un',
@@ -5602,6 +5768,7 @@ export const baseMoviesComedie: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'The Informant !',
@@ -5638,6 +5805,7 @@ export const baseMoviesComedie: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Downsizing',
@@ -5674,6 +5842,7 @@ export const baseMoviesComedie: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Bienvenue à Suburbicon',
@@ -5710,6 +5879,7 @@ export const baseMoviesComedie: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Burn After Reading',
@@ -5746,6 +5916,7 @@ export const baseMoviesComedie: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'War Machine',
@@ -5782,6 +5953,7 @@ export const baseMoviesComedie: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'That Thing You Do!',
@@ -5818,6 +5990,7 @@ export const baseMoviesComedie: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: "Il n'est jamais trop tard",
@@ -5854,6 +6027,7 @@ export const baseMoviesComedie: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Un hologramme pour le roi',
@@ -5890,6 +6064,7 @@ export const baseMoviesComedie: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Le Pire Voisin au monde',
@@ -5926,6 +6101,7 @@ export const baseMoviesComedie: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Asteroid City',
@@ -5953,6 +6129,7 @@ export const baseMoviesComedie: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Jerry Maguire',
@@ -5989,6 +6166,9 @@ export const baseMoviesComedie: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [
+      { type: OscarEnum.OSCAR_BEST_SUPPORTING_ACTOR, year: 1997 },
+    ],
   },
   {
     title: 'Tonnerre sous les Tropiques',
@@ -6016,6 +6196,7 @@ export const baseMoviesComedie: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
 
   {
@@ -6053,6 +6234,7 @@ export const baseMoviesComedie: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Scoop',
@@ -6089,6 +6271,7 @@ export const baseMoviesComedie: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
 
   {
@@ -6126,6 +6309,7 @@ export const baseMoviesComedie: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Les Remplaçants',
@@ -6162,6 +6346,7 @@ export const baseMoviesComedie: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Âge difficile obscur',
@@ -6198,6 +6383,7 @@ export const baseMoviesComedie: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Mords-moi sans hésitation',
@@ -6234,6 +6420,7 @@ export const baseMoviesComedie: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Super Héros Movie',
@@ -6270,6 +6457,7 @@ export const baseMoviesComedie: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Spoof Movie',
@@ -6306,6 +6494,7 @@ export const baseMoviesComedie: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: "Adventureland : Un job d'été à éviter",
@@ -6328,6 +6517,7 @@ export const baseMoviesComedie: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Paper Man',
@@ -6364,6 +6554,7 @@ export const baseMoviesComedie: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: "Deux drôles d'oiseaux",
@@ -6400,6 +6591,7 @@ export const baseMoviesComedie: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: "Pour l'amour de l'art",
@@ -6436,6 +6628,7 @@ export const baseMoviesComedie: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Les Ensorceleuses',
@@ -6472,6 +6665,7 @@ export const baseMoviesComedie: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: '28 Jours en sursis',
@@ -6508,6 +6702,7 @@ export const baseMoviesComedie: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Un Vent de folie',
@@ -6544,6 +6739,7 @@ export const baseMoviesComedie: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Les Flingueuses',
@@ -6580,6 +6776,7 @@ export const baseMoviesComedie: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Our Brand Is Crisis',
@@ -6616,6 +6813,7 @@ export const baseMoviesComedie: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Dirty Work',
@@ -6652,6 +6850,7 @@ export const baseMoviesComedie: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Big Daddy',
@@ -6688,6 +6887,7 @@ export const baseMoviesComedie: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Punch-Drunk Love',
@@ -6725,6 +6925,7 @@ export const baseMoviesComedie: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Self control',
@@ -6761,6 +6962,7 @@ export const baseMoviesComedie: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Histoires enchantées',
@@ -6797,6 +6999,7 @@ export const baseMoviesComedie: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Zookeeper',
@@ -6833,6 +7036,7 @@ export const baseMoviesComedie: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Le Mytho',
@@ -6869,6 +7073,7 @@ export const baseMoviesComedie: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Crazy Dad',
@@ -6905,6 +7110,7 @@ export const baseMoviesComedie: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Famille recomposée',
@@ -6941,6 +7147,7 @@ export const baseMoviesComedie: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'The Cobbler',
@@ -6977,6 +7184,7 @@ export const baseMoviesComedie: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'The Ridiculous 6',
@@ -7013,6 +7221,7 @@ export const baseMoviesComedie: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Sandy Wexler',
@@ -7049,6 +7258,7 @@ export const baseMoviesComedie: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Happy Gilmore',
@@ -7085,6 +7295,7 @@ export const baseMoviesComedie: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: "Le Songe d'une nuit d'été",
@@ -7125,6 +7336,7 @@ export const baseMoviesComedie: BaseMovie[] = [
     },
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'American Bluff',
@@ -7152,6 +7364,7 @@ export const baseMoviesComedie: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Ghost World',
@@ -7188,6 +7401,7 @@ export const baseMoviesComedie: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'The Perfect Score',
@@ -7224,6 +7438,7 @@ export const baseMoviesComedie: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Chef',
@@ -7260,6 +7475,7 @@ export const baseMoviesComedie: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Jojo Rabbit',
@@ -7296,6 +7512,9 @@ export const baseMoviesComedie: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [
+      { type: OscarEnum.OSCAR_BEST_ADAPTED_SCREENPLAY, year: 2020 },
+    ],
   },
   {
     title: 'Whiskey Tango Foxtrot',
@@ -7332,6 +7551,7 @@ export const baseMoviesComedie: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Jack',
@@ -7368,6 +7588,7 @@ export const baseMoviesComedie: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Harry dans tous ses états',
@@ -7404,6 +7625,7 @@ export const baseMoviesComedie: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Le Bûcher des vanités',
@@ -7426,6 +7648,7 @@ export const baseMoviesComedie: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Sans plus attendre',
@@ -7463,6 +7686,7 @@ export const baseMoviesComedie: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Last Vegas',
@@ -7499,6 +7723,7 @@ export const baseMoviesComedie: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: "Braquage à l'ancienne",
@@ -7521,6 +7746,7 @@ export const baseMoviesComedie: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Le Dictateur',
@@ -7557,6 +7783,7 @@ export const baseMoviesComedie: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Les Lumières de la ville',
@@ -7593,6 +7820,7 @@ export const baseMoviesComedie: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 1,
+    oscars: [],
   },
   {
     title: "La Ruée vers l'or",
@@ -7629,6 +7857,7 @@ export const baseMoviesComedie: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 1,
+    oscars: [],
   },
   {
     title: 'Les Tontons flingueurs',
@@ -7665,6 +7894,7 @@ export const baseMoviesComedie: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['France'],
     selectDisplayOrder: 30,
+    oscars: [],
   },
   {
     title: 'Sunshine Cleaning',
@@ -7701,6 +7931,7 @@ export const baseMoviesComedie: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Neuilly, sa mère !',
@@ -7737,6 +7968,7 @@ export const baseMoviesComedie: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['France'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Neuilly, sa mère sa mère',
@@ -7773,6 +8005,7 @@ export const baseMoviesComedie: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['France'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Jack Mimoun et les Secrets de Val Verde',
@@ -7803,6 +8036,7 @@ export const baseMoviesComedie: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['France'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Les petits mouchoirs',
@@ -7839,6 +8073,7 @@ export const baseMoviesComedie: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['France'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Un plus une',
@@ -7875,6 +8110,7 @@ export const baseMoviesComedie: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['France'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Un homme à la hauteur',
@@ -7902,6 +8138,7 @@ export const baseMoviesComedie: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['France'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Le père Noël est une ordure',
@@ -7938,6 +8175,7 @@ export const baseMoviesComedie: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['France'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Seuls Two',
@@ -7974,6 +8212,7 @@ export const baseMoviesComedie: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['France'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: "Le Fabuleux Destin d'Amélie Poulain",
@@ -8010,6 +8249,7 @@ export const baseMoviesComedie: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['France'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Les trois frères',
@@ -8046,6 +8286,7 @@ export const baseMoviesComedie: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['France'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: "Qu'est-ce qu'on a fait au bon dieu ?",
@@ -8082,6 +8323,7 @@ export const baseMoviesComedie: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['France'],
     selectDisplayOrder: 30,
+    oscars: [],
   },
   {
     title: "Qu'est-ce qu'on a encore fait au Bon Dieu ?",
@@ -8104,6 +8346,7 @@ export const baseMoviesComedie: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['France'],
     selectDisplayOrder: 30,
+    oscars: [],
   },
   {
     title: "Qu'est-ce qu'on a tous fait au Bon Dieu ?",
@@ -8126,6 +8369,7 @@ export const baseMoviesComedie: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['France'],
     selectDisplayOrder: 30,
+    oscars: [],
   },
   {
     title: 'Babysitting',
@@ -8162,6 +8406,7 @@ export const baseMoviesComedie: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['France'],
     selectDisplayOrder: 30,
+    oscars: [],
   },
   {
     title: 'Babysitting 2',
@@ -8198,6 +8443,7 @@ export const baseMoviesComedie: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['France'],
     selectDisplayOrder: 30,
+    oscars: [],
   },
   {
     title: "Bienvenue chez les Ch'tis",
@@ -8234,6 +8480,7 @@ export const baseMoviesComedie: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['France'],
     selectDisplayOrder: 30,
+    oscars: [],
   },
   {
     title: 'Les Beaux Gosses',
@@ -8270,6 +8517,7 @@ export const baseMoviesComedie: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['France'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Un singe en hiver',
@@ -8306,6 +8554,7 @@ export const baseMoviesComedie: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['France'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Tais-toi',
@@ -8342,6 +8591,7 @@ export const baseMoviesComedie: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['France'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'La vérité si je mens !',
@@ -8378,6 +8628,7 @@ export const baseMoviesComedie: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['France'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Steak',
@@ -8414,6 +8665,7 @@ export const baseMoviesComedie: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['France'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Pour le pire et pour le meilleur',
@@ -8450,6 +8702,10 @@ export const baseMoviesComedie: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [
+      { type: OscarEnum.OSCAR_BEST_ACTOR, year: 1998 },
+      { type: OscarEnum.OSCAR_BEST_ACTRESS, year: 1998 },
+    ],
   },
   {
     title: 'Happiness Therapy',
@@ -8486,6 +8742,9 @@ export const baseMoviesComedie: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [
+      { type: OscarEnum.OSCAR_BEST_ACTRESS, year: 2013 },
+    ],
   },
   {
     title: 'Hysteria',
@@ -8523,6 +8782,7 @@ export const baseMoviesComedie: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Love and Friendship',
@@ -8559,6 +8819,7 @@ export const baseMoviesComedie: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Ça chauffe au lycée Ridgemont',
@@ -8595,6 +8856,7 @@ export const baseMoviesComedie: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: "L'Étoile de Harlem",
@@ -8617,6 +8879,7 @@ export const baseMoviesComedie: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Boogie Woogie',
@@ -8653,6 +8916,7 @@ export const baseMoviesComedie: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'A Bag of Hammers',
@@ -8689,6 +8953,7 @@ export const baseMoviesComedie: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Winter Break',
@@ -8711,6 +8976,7 @@ export const baseMoviesComedie: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Jouer avec le feu',
@@ -8734,6 +9000,7 @@ export const baseMoviesComedie: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['France'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Wolfs',
@@ -8756,6 +9023,7 @@ export const baseMoviesComedie: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['Royaume-Uni'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Ave, César',
@@ -8778,6 +9046,7 @@ export const baseMoviesComedie: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: "Les Banshees d'Inisherin",
@@ -8800,6 +9069,7 @@ export const baseMoviesComedie: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['Irlande'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Booksmart',
@@ -8822,6 +9092,7 @@ export const baseMoviesComedie: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Poker Face',
@@ -8844,6 +9115,7 @@ export const baseMoviesComedie: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'My Dinner with Andrew',
@@ -8859,6 +9131,7 @@ export const baseMoviesComedie: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Family Man',
@@ -8881,6 +9154,7 @@ export const baseMoviesComedie: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'They Might Be Giants',
@@ -8921,6 +9195,7 @@ export const baseMoviesComedie: BaseMovie[] = [
     },
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Without a clue',
@@ -8961,6 +9236,7 @@ export const baseMoviesComedie: BaseMovie[] = [
     },
     countryOrigin: ['Royaume-Uni'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Holmes & Watson',
@@ -9001,6 +9277,7 @@ export const baseMoviesComedie: BaseMovie[] = [
     },
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Bagdad Café',
@@ -9023,6 +9300,7 @@ export const baseMoviesComedie: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['Allemagne'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Before Sunrise',
@@ -9045,6 +9323,7 @@ export const baseMoviesComedie: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Samba',
@@ -9081,6 +9360,7 @@ export const baseMoviesComedie: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['France'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Hors normes',
@@ -9111,6 +9391,7 @@ export const baseMoviesComedie: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['France'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Tellement proches',
@@ -9147,6 +9428,7 @@ export const baseMoviesComedie: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['France'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Émotifs anonymes',
@@ -9183,6 +9465,7 @@ export const baseMoviesComedie: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['France', 'Belgique'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Demain tout commence',
@@ -9219,6 +9502,7 @@ export const baseMoviesComedie: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['France'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Le Sens de la fête',
@@ -9255,6 +9539,7 @@ export const baseMoviesComedie: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['France'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Chacun pour tous',
@@ -9288,6 +9573,7 @@ export const baseMoviesComedie: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['France'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: '10 jours sans maman',
@@ -9324,6 +9610,7 @@ export const baseMoviesComedie: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['France'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: '10 jours encore sans maman',
@@ -9360,6 +9647,7 @@ export const baseMoviesComedie: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['France'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Matchstick Men',
@@ -9396,6 +9684,7 @@ export const baseMoviesComedie: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'After Hours',
@@ -9432,6 +9721,7 @@ export const baseMoviesComedie: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Inherent Vice',
@@ -9468,6 +9758,7 @@ export const baseMoviesComedie: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Licorice Pizza',
@@ -9504,6 +9795,7 @@ export const baseMoviesComedie: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Army of Darkness',
@@ -9540,6 +9832,7 @@ export const baseMoviesComedie: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'On the Rocks',
@@ -9576,6 +9869,7 @@ export const baseMoviesComedie: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'American Graffiti',
@@ -9612,6 +9906,7 @@ export const baseMoviesComedie: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'The Kid',
@@ -9648,6 +9943,7 @@ export const baseMoviesComedie: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'The Circus',
@@ -9684,6 +9980,7 @@ export const baseMoviesComedie: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Monsieur Verdoux',
@@ -9720,6 +10017,7 @@ export const baseMoviesComedie: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Austin Powers dans Goldmember',
@@ -9756,6 +10054,7 @@ export const baseMoviesComedie: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: "Austin Powers - L'Espion qui m'a tirée",
@@ -9792,6 +10091,7 @@ export const baseMoviesComedie: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Johnny English',
@@ -9828,6 +10128,7 @@ export const baseMoviesComedie: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['Royaume-Uni', 'France', 'États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Johnny English, le retour',
@@ -9864,6 +10165,7 @@ export const baseMoviesComedie: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['Royaume-Uni', 'France', 'États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Johnny English 3 : Contre-attaque',
@@ -9900,6 +10202,7 @@ export const baseMoviesComedie: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['Royaume-Uni', 'France', 'États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: "Y a-t-il un pilote dans l'avion ?",
@@ -9936,6 +10239,7 @@ export const baseMoviesComedie: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Y a-t-il un flic pour sauver le président ?',
@@ -9972,6 +10276,7 @@ export const baseMoviesComedie: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Y a-t-il un flic pour sauver la reine ?',
@@ -10008,6 +10313,7 @@ export const baseMoviesComedie: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Sex Academy',
@@ -10044,6 +10350,7 @@ export const baseMoviesComedie: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Mexican Pie',
@@ -10080,6 +10387,7 @@ export const baseMoviesComedie: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Tucker et Dale fightent le mal',
@@ -10116,6 +10424,7 @@ export const baseMoviesComedie: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['Canada', 'États-Unis', 'Royaume-Uni', 'Inde'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Cinéman',
@@ -10155,6 +10464,7 @@ export const baseMoviesComedie: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['France', 'Belgique'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Deux heures moins le quart avant Jésus-Christ',
@@ -10191,6 +10501,7 @@ export const baseMoviesComedie: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['France', 'Tunisie'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
 
   {
@@ -10229,6 +10540,7 @@ export const baseMoviesComedie: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 5,
+    oscars: [],
   },
 
   {
@@ -10252,6 +10564,7 @@ export const baseMoviesComedie: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 5,
+    oscars: [],
   },
   {
     title: 'Ted 2',
@@ -10279,6 +10592,7 @@ export const baseMoviesComedie: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 5,
+    oscars: [],
   },
   {
     title: 'Dark Shadows',
@@ -10315,6 +10629,7 @@ export const baseMoviesComedie: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 30,
+    oscars: [],
   },
 
   {
@@ -10352,6 +10667,7 @@ export const baseMoviesComedie: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 5,
+    oscars: [],
   },
 
   {
@@ -10389,6 +10705,7 @@ export const baseMoviesComedie: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 5,
+    oscars: [],
   },
   {
     title: 'Lolita malgré moi',
@@ -10425,6 +10742,7 @@ export const baseMoviesComedie: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 5,
+    oscars: [],
   },
   {
     title: '30 ans sinon rien',
@@ -10461,6 +10779,7 @@ export const baseMoviesComedie: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 5,
+    oscars: [],
   },
   {
     title: 'Une nana au poil',
@@ -10497,6 +10816,7 @@ export const baseMoviesComedie: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 5,
+    oscars: [],
   },
   {
     title: 'Le Manoir hanté et les 999 Fantômes',
@@ -10533,6 +10853,7 @@ export const baseMoviesComedie: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 5,
+    oscars: [],
   },
   {
     title: 'George de la jungle',
@@ -10569,6 +10890,7 @@ export const baseMoviesComedie: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 5,
+    oscars: [],
   },
   {
     title: 'George de la Jungle 2',
@@ -10605,6 +10927,7 @@ export const baseMoviesComedie: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 5,
+    oscars: [],
   },
   {
     title: 'Un vendredi dingue, dingue, dingue',
@@ -10641,6 +10964,7 @@ export const baseMoviesComedie: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 5,
+    oscars: [],
   },
 
   {
@@ -10678,6 +11002,7 @@ export const baseMoviesComedie: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 5,
+    oscars: [],
   },
   {
     title: 'Le Grinch',
@@ -10714,6 +11039,9 @@ export const baseMoviesComedie: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 30,
+    oscars: [
+      { type: OscarEnum.OSCAR_BEST_MAKEUP, year: 2001 },
+    ],
   },
   {
     title: 'À nous quatre',
@@ -10750,6 +11078,7 @@ export const baseMoviesComedie: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 5,
+    oscars: [],
   },
   {
     title: 'Flubber',
@@ -10787,6 +11116,7 @@ export const baseMoviesComedie: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 5,
+    oscars: [],
   },
   {
     title: 'Austin Powers',
@@ -10823,6 +11153,7 @@ export const baseMoviesComedie: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 5,
+    oscars: [],
   },
   {
     title: 'Matilda',
@@ -10859,6 +11190,7 @@ export const baseMoviesComedie: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 5,
+    oscars: [],
   },
   {
     title: 'Super Noël',
@@ -10895,6 +11227,7 @@ export const baseMoviesComedie: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 5,
+    oscars: [],
   },
   {
     title: 'Un jour sans fin',
@@ -10931,6 +11264,7 @@ export const baseMoviesComedie: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 30,
+    oscars: [],
   },
   {
     title: 'La Famille Addams',
@@ -10967,6 +11301,7 @@ export const baseMoviesComedie: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 5,
+    oscars: [],
   },
   {
     title: 'Beetlejuice',
@@ -11003,6 +11338,9 @@ export const baseMoviesComedie: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 5,
+    oscars: [
+      { type: OscarEnum.OSCAR_BEST_MAKEUP, year: 1989 },
+    ],
   },
   {
     title: 'Beetlejuice Beetlejuice',
@@ -11033,6 +11371,7 @@ export const baseMoviesComedie: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 5,
+    oscars: [],
   },
   {
     title: 'Le coup du siècle',
@@ -11052,6 +11391,7 @@ export const baseMoviesComedie: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['Royaume-Uni'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Ma sorcière bien aimée',
@@ -11071,6 +11411,7 @@ export const baseMoviesComedie: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
 
   {
@@ -11108,6 +11449,7 @@ export const baseMoviesComedie: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['France'],
     selectDisplayOrder: 5,
+    oscars: [],
   },
   {
     title: "O'Brother",
@@ -11144,6 +11486,7 @@ export const baseMoviesComedie: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 5,
+    oscars: [],
   },
   {
     title: 'Marsupilami',
@@ -11181,6 +11524,7 @@ export const baseMoviesComedie: BaseMovie[] = [
     },
     countryOrigin: ['France'],
     selectDisplayOrder: 5,
+    oscars: [],
   },
   {
     title: "L'Auberge Espagnol",
@@ -11217,6 +11561,7 @@ export const baseMoviesComedie: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['France'],
     selectDisplayOrder: 5,
+    oscars: [],
   },
 
   {
@@ -11245,6 +11590,7 @@ export const baseMoviesComedie: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['France'],
     selectDisplayOrder: 5,
+    oscars: [],
   },
   {
     title: 'Le Coursier',
@@ -11275,6 +11621,7 @@ export const baseMoviesComedie: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['France'],
     selectDisplayOrder: 5,
+    oscars: [],
   },
   {
     title: 'Les Sous-doués',
@@ -11294,6 +11641,7 @@ export const baseMoviesComedie: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['France'],
     selectDisplayOrder: 5,
+    oscars: [],
   },
   {
     title: 'Case départ',
@@ -11313,6 +11661,7 @@ export const baseMoviesComedie: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['France'],
     selectDisplayOrder: 5,
+    oscars: [],
   },
   {
     title: 'Monty Python - Sacré Graal !',
@@ -11334,6 +11683,7 @@ export const baseMoviesComedie: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['Royaume-Uni'],
     selectDisplayOrder: 30,
+    oscars: [],
   },
   {
     title: 'Arnaques, crimes & botanique',
@@ -11354,6 +11704,7 @@ export const baseMoviesComedie: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['Royaume-Uni'],
     selectDisplayOrder: 30,
+    oscars: [],
   },
   {
     title: 'Le Dernier Pub avant la fin du monde',
@@ -11375,6 +11726,7 @@ export const baseMoviesComedie: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['Royaume-Uni'],
     selectDisplayOrder: 5,
+    oscars: [],
   },
   {
     title: "Chérie, j'ai rétréci les gosses",
@@ -11394,6 +11746,7 @@ export const baseMoviesComedie: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 30,
+    oscars: [],
   },
   {
     title: "La Venue de l'Avenir",
@@ -11433,6 +11786,7 @@ export const baseMoviesComedie: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['France'],
     selectDisplayOrder: 5,
+    oscars: [],
   },
   {
     title: 'Materialists',
@@ -11469,6 +11823,7 @@ export const baseMoviesComedie: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 5,
+    oscars: [],
   },
   {
     title: 'Iznogoud',
@@ -11505,6 +11860,7 @@ export const baseMoviesComedie: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['France'],
     selectDisplayOrder: 5,
+    oscars: [],
   },
   {
     title: 'Sur la piste du Marsupilami',
@@ -11535,6 +11891,7 @@ export const baseMoviesComedie: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['France'],
     selectDisplayOrder: 5,
+    oscars: [],
   },
   {
     title: 'Casse-tête Chinois',
@@ -11571,6 +11928,7 @@ export const baseMoviesComedie: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['France'],
     selectDisplayOrder: 5,
+    oscars: [],
   },
   {
     title: 'Ace Ventura, détective pour chiens et chats',
@@ -11607,6 +11965,7 @@ export const baseMoviesComedie: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 30,
+    oscars: [],
   },
   {
     title: 'Ace Ventura en Afrique',
@@ -11644,6 +12003,7 @@ export const baseMoviesComedie: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 30,
+    oscars: [],
   },
   {
     title: 'Le Mystère Henri Pick',
@@ -11675,6 +12035,7 @@ export const baseMoviesComedie: BaseMovie[] = [
     },
     countryOrigin: ['France'],
     selectDisplayOrder: 5,
+    oscars: [],
   },
   {
     title: 'Les Profs',
@@ -11702,6 +12063,7 @@ export const baseMoviesComedie: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['France'],
     selectDisplayOrder: 5,
+    oscars: [],
   },
   {
     title: "L'Élève Ducobu",
@@ -11729,6 +12091,7 @@ export const baseMoviesComedie: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['France'],
     selectDisplayOrder: 5,
+    oscars: [],
   },
   {
     title: 'Les Vacances de Ducobu',
@@ -11756,6 +12119,7 @@ export const baseMoviesComedie: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['France'],
     selectDisplayOrder: 5,
+    oscars: [],
   },
   {
     title: 'Le Petit Nicolas',
@@ -11786,6 +12150,7 @@ export const baseMoviesComedie: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['France'],
     selectDisplayOrder: 5,
+    oscars: [],
   },
   {
     title: 'Juste une illusion',
@@ -11816,6 +12181,7 @@ export const baseMoviesComedie: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['France'],
     selectDisplayOrder: 5,
+    oscars: [],
   },
   {
     title: 'Click : Télécommandez votre vie',
@@ -11838,6 +12204,7 @@ export const baseMoviesComedie: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 5,
+    oscars: [],
   },
   {
     title: "L'arnaque",
@@ -11860,6 +12227,15 @@ export const baseMoviesComedie: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 5,
+    oscars: [
+      { type: OscarEnum.OSCAR_BEST_MOVIE, year: 1974 },
+      { type: OscarEnum.OSCAR_BEST_DIRECTOR, year: 1974 },
+      { type: OscarEnum.OSCAR_BEST_ORIGINAL_SCREENPLAY, year: 1974 },
+      { type: OscarEnum.OSCAR_BEST_PRODUCTION_DESIGN, year: 1974 },
+      { type: OscarEnum.OSCAR_BEST_COSTUME_DESIGN, year: 1974 },
+      { type: OscarEnum.OSCAR_BEST_FILM_EDITING, year: 1974 },
+      { type: OscarEnum.OSCAR_BEST_ORIGINAL_SCORE, year: 1974 },
+    ],
   },
   {
     title: 'Spartatouille',
@@ -11882,6 +12258,7 @@ export const baseMoviesComedie: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 5,
+    oscars: [],
   },
   {
     title: 'Big movie',
@@ -11904,6 +12281,7 @@ export const baseMoviesComedie: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis', 'Allemagne'],
     selectDisplayOrder: 5,
+    oscars: [],
   },
   {
     title: 'Docteur Folamour',
@@ -11926,6 +12304,7 @@ export const baseMoviesComedie: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis', 'Royaume-Uni'],
     selectDisplayOrder: 5,
+    oscars: [],
   },
   {
     title: 'How High',
@@ -11948,6 +12327,7 @@ export const baseMoviesComedie: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 5,
+    oscars: [],
   },
 
   {
@@ -11971,6 +12351,7 @@ export const baseMoviesComedie: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['France'],
     selectDisplayOrder: 5,
+    oscars: [],
   },
   {
     title: 'Loups-Garous',
@@ -12004,6 +12385,7 @@ export const baseMoviesComedie: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['France'],
     selectDisplayOrder: 5,
+    oscars: [],
   },
 
   {
@@ -12035,6 +12417,7 @@ export const baseMoviesComedie: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['France'],
     selectDisplayOrder: 5,
+    oscars: [],
   },
   {
     title: 'Tout sauf toi',
@@ -12065,6 +12448,7 @@ export const baseMoviesComedie: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 5,
+    oscars: [],
   },
   {
     title: 'Pauvres Créatures',
@@ -12095,6 +12479,12 @@ export const baseMoviesComedie: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 30,
+    oscars: [
+      { type: OscarEnum.OSCAR_BEST_ACTRESS, year: 2024 },
+      { type: OscarEnum.OSCAR_BEST_PRODUCTION_DESIGN, year: 2024 },
+      { type: OscarEnum.OSCAR_BEST_MAKEUP, year: 2024 },
+      { type: OscarEnum.OSCAR_BEST_COSTUME_DESIGN, year: 2024 },
+    ],
   },
   {
     title: 'Le Manoir hanté',
@@ -12125,6 +12515,7 @@ export const baseMoviesComedie: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 5,
+    oscars: [],
   },
   {
     title: 'Yannick',
@@ -12152,6 +12543,7 @@ export const baseMoviesComedie: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['France'],
     selectDisplayOrder: 5,
+    oscars: [],
   },
   {
     title: 'Le Challenge',
@@ -12182,6 +12574,7 @@ export const baseMoviesComedie: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 5,
+    oscars: [],
   },
   {
     title: 'Mon crime',
@@ -12212,6 +12605,7 @@ export const baseMoviesComedie: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['France'],
     selectDisplayOrder: 5,
+    oscars: [],
   },
   {
     title: 'Alibi.com',
@@ -12234,6 +12628,7 @@ export const baseMoviesComedie: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['France'],
     selectDisplayOrder: 5,
+    oscars: [],
   },
   {
     title: 'Alibi.com 2',
@@ -12256,6 +12651,7 @@ export const baseMoviesComedie: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['France'],
     selectDisplayOrder: 5,
+    oscars: [],
   },
   {
     title: 'Le Menu',
@@ -12279,6 +12675,7 @@ export const baseMoviesComedie: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 30,
+    oscars: [],
   },
   {
     title: 'Ténor',
@@ -12301,6 +12698,7 @@ export const baseMoviesComedie: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['France'],
     selectDisplayOrder: 5,
+    oscars: [],
   },
   {
     title: 'Super-héros malgré lui',
@@ -12323,6 +12721,7 @@ export const baseMoviesComedie: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 5,
+    oscars: [],
   },
   {
     title: 'The Trip',
@@ -12343,6 +12742,7 @@ export const baseMoviesComedie: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['Norvège'],
     selectDisplayOrder: 5,
+    oscars: [],
   },
   {
     title: 'Un papa hors pair',
@@ -12365,6 +12765,7 @@ export const baseMoviesComedie: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 5,
+    oscars: [],
   },
   {
     title: 'Play',
@@ -12387,6 +12788,7 @@ export const baseMoviesComedie: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['France'],
     selectDisplayOrder: 5,
+    oscars: [],
   },
 
   {
@@ -12410,6 +12812,7 @@ export const baseMoviesComedie: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 5,
+    oscars: [],
   },
   {
     title: 'Ne coupez pas !',
@@ -12432,6 +12835,7 @@ export const baseMoviesComedie: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['Japon'],
     selectDisplayOrder: 5,
+    oscars: [],
   },
   {
     title: 'The Babysitter',
@@ -12454,6 +12858,7 @@ export const baseMoviesComedie: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 5,
+    oscars: [],
   },
   {
     title: 'Lady Bird',
@@ -12476,6 +12881,7 @@ export const baseMoviesComedie: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 5,
+    oscars: [],
   },
   {
     title: 'La Colle',
@@ -12498,6 +12904,7 @@ export const baseMoviesComedie: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['France'],
     selectDisplayOrder: 5,
+    oscars: [],
   },
 
   {
@@ -12521,6 +12928,7 @@ export const baseMoviesComedie: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 5,
+    oscars: [],
   },
   {
     title: 'War Dogs',
@@ -12543,6 +12951,7 @@ export const baseMoviesComedie: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 5,
+    oscars: [],
   },
   {
     title: 'The Nice Guys',
@@ -12565,6 +12974,7 @@ export const baseMoviesComedie: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 5,
+    oscars: [],
   },
 
   {
@@ -12588,6 +12998,7 @@ export const baseMoviesComedie: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['France'],
     selectDisplayOrder: 5,
+    oscars: [],
   },
 
   {
@@ -12611,6 +13022,7 @@ export const baseMoviesComedie: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 5,
+    oscars: [],
   },
   {
     title: 'Nos pires voisins',
@@ -12633,6 +13045,7 @@ export const baseMoviesComedie: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 5,
+    oscars: [],
   },
   {
     title: 'Nos pires voisins 2',
@@ -12655,6 +13068,7 @@ export const baseMoviesComedie: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 5,
+    oscars: [],
   },
   {
     title: 'The Grand Budapest Hotel',
@@ -12677,6 +13091,12 @@ export const baseMoviesComedie: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 5,
+    oscars: [
+      { type: OscarEnum.OSCAR_BEST_ORIGINAL_SCORE, year: 2015 },
+      { type: OscarEnum.OSCAR_BEST_PRODUCTION_DESIGN, year: 2015 },
+      { type: OscarEnum.OSCAR_BEST_COSTUME_DESIGN, year: 2015 },
+      { type: OscarEnum.OSCAR_BEST_MAKEUP, year: 2015 },
+    ],
   },
   {
     title: 'Vampires en toute intimité',
@@ -12699,6 +13119,7 @@ export const baseMoviesComedie: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['Nouvelle-Zélande'],
     selectDisplayOrder: 5,
+    oscars: [],
   },
   {
     title: 'Et (beaucoup) plus si affinités',
@@ -12721,6 +13142,7 @@ export const baseMoviesComedie: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 5,
+    oscars: [],
   },
   {
     title: 'New York Melody',
@@ -12743,6 +13165,7 @@ export const baseMoviesComedie: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 5,
+    oscars: [],
   },
   {
     title: 'Les Miller, une famille en herbe',
@@ -12765,6 +13188,7 @@ export const baseMoviesComedie: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 5,
+    oscars: [],
   },
   {
     title: 'Copains pour toujours',
@@ -12787,6 +13211,7 @@ export const baseMoviesComedie: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 5,
+    oscars: [],
   },
   {
     title: 'Copains pour toujours 2',
@@ -12809,6 +13234,7 @@ export const baseMoviesComedie: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 5,
+    oscars: [],
   },
   {
     title: 'Les Stagiaires',
@@ -12831,6 +13257,7 @@ export const baseMoviesComedie: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 5,
+    oscars: [],
   },
   {
     title: "C'est la fin",
@@ -12853,6 +13280,7 @@ export const baseMoviesComedie: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 5,
+    oscars: [],
   },
   {
     title: 'Seven Psychopaths',
@@ -12875,6 +13303,7 @@ export const baseMoviesComedie: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 5,
+    oscars: [],
   },
   {
     title: 'Happy New Year',
@@ -12897,6 +13326,7 @@ export const baseMoviesComedie: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 5,
+    oscars: [],
   },
   {
     title: '10 ans déjà !',
@@ -12919,6 +13349,7 @@ export const baseMoviesComedie: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 5,
+    oscars: [],
   },
   {
     title: 'Bad Teacher',
@@ -12941,6 +13372,7 @@ export const baseMoviesComedie: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 5,
+    oscars: [],
   },
   {
     title: 'Scott Pilgrim',
@@ -12963,6 +13395,7 @@ export const baseMoviesComedie: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 5,
+    oscars: [],
   },
 
   {
@@ -12986,6 +13419,7 @@ export const baseMoviesComedie: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 5,
+    oscars: [],
   },
   {
     title: 'Coco',
@@ -13008,6 +13442,7 @@ export const baseMoviesComedie: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 5,
+    oscars: [],
   },
   {
     title: 'Little Miss Sunshine',
@@ -13031,6 +13466,10 @@ export const baseMoviesComedie: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 30,
+    oscars: [
+      { type: OscarEnum.OSCAR_BEST_SUPPORTING_ACTOR, year: 2007 },
+      { type: OscarEnum.OSCAR_BEST_ORIGINAL_SCREENPLAY, year: 2007 },
+    ],
   },
   {
     title: 'Treize à la douzaine',
@@ -13053,6 +13492,7 @@ export const baseMoviesComedie: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 5,
+    oscars: [],
   },
   {
     title: 'Treize à la douzaine 2',
@@ -13075,6 +13515,7 @@ export const baseMoviesComedie: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 5,
+    oscars: [],
   },
   {
     title: 'Kiss Kiss Bang Bang',
@@ -13098,6 +13539,7 @@ export const baseMoviesComedie: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 30,
+    oscars: [],
   },
   {
     title: 'Le Fils du Mask',
@@ -13124,6 +13566,7 @@ export const baseMoviesComedie: BaseMovie[] = [
     },
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 5,
+    oscars: [],
   },
   {
     title: 'Les Dalton',
@@ -13150,6 +13593,7 @@ export const baseMoviesComedie: BaseMovie[] = [
     },
     countryOrigin: ['France'],
     selectDisplayOrder: 5,
+    oscars: [],
   },
   {
     title: 'F.B.I. : Fausses blondes infiltrées',
@@ -13172,6 +13616,7 @@ export const baseMoviesComedie: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 5,
+    oscars: [],
   },
 
   {
@@ -13195,6 +13640,7 @@ export const baseMoviesComedie: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 5,
+    oscars: [],
   },
   {
     title: 'Comment se faire larguer en dix leçons',
@@ -13217,6 +13663,7 @@ export const baseMoviesComedie: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 5,
+    oscars: [],
   },
   {
     title: 'Zoolander',
@@ -13239,6 +13686,7 @@ export const baseMoviesComedie: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 5,
+    oscars: [],
   },
   {
     title: 'La Course au jouet',
@@ -13266,6 +13714,7 @@ export const baseMoviesComedie: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 5,
+    oscars: [],
   },
   {
     title: 'Sister Act',
@@ -13288,6 +13737,7 @@ export const baseMoviesComedie: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 5,
+    oscars: [],
   },
   {
     title: 'Sister Act, acte 2',
@@ -13310,6 +13760,7 @@ export const baseMoviesComedie: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 5,
+    oscars: [],
   },
 
   {
@@ -13333,6 +13784,7 @@ export const baseMoviesComedie: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 5,
+    oscars: [],
   },
   {
     title: 'La Folle Journée de Ferris Bueller',
@@ -13355,6 +13807,7 @@ export const baseMoviesComedie: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 5,
+    oscars: [],
   },
   {
     title: 'Risky Business',
@@ -13378,6 +13831,7 @@ export const baseMoviesComedie: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 30,
+    oscars: [],
   },
   {
     title: 'Les Valseuses',
@@ -13400,6 +13854,7 @@ export const baseMoviesComedie: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['France'],
     selectDisplayOrder: 5,
+    oscars: [],
   },
   {
     title: "Les Mémoires d'un assassin international",
@@ -13422,6 +13877,7 @@ export const baseMoviesComedie: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Magic Baskets',
@@ -13444,5 +13900,6 @@ export const baseMoviesComedie: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
 ];

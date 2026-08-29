@@ -1,4 +1,4 @@
-import { BaseMovie } from '../../../models/movie-model';
+import { BaseMovie, OscarEnum } from '../../../models/movie-model';
 
 export const baseMoviesSuperHerosDc: BaseMovie[] = [
   {
@@ -26,6 +26,7 @@ export const baseMoviesSuperHerosDc: BaseMovie[] = [
     },
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Green Lantern',
@@ -63,6 +64,7 @@ export const baseMoviesSuperHerosDc: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 15,
+    oscars: [],
   },
   {
     title: 'Batman',
@@ -104,6 +106,9 @@ export const baseMoviesSuperHerosDc: BaseMovie[] = [
     },
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 15,
+    oscars: [
+      { type: OscarEnum.OSCAR_BEST_PRODUCTION_DESIGN, year: 1990 },
+    ],
   },
   {
     title: 'Batman Returns',
@@ -127,6 +132,7 @@ export const baseMoviesSuperHerosDc: BaseMovie[] = [
     },
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 15,
+    oscars: [],
   },
   {
     title: 'Batman Forever',
@@ -168,6 +174,7 @@ export const baseMoviesSuperHerosDc: BaseMovie[] = [
     },
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 15,
+    oscars: [],
   },
   {
     title: 'Batman & Robin',
@@ -209,6 +216,7 @@ export const baseMoviesSuperHerosDc: BaseMovie[] = [
     },
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 15,
+    oscars: [],
   },
   {
     title: 'Batman Begins',
@@ -246,6 +254,7 @@ export const baseMoviesSuperHerosDc: BaseMovie[] = [
     },
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 30,
+    oscars: [],
   },
   {
     title: 'The Dark Knight : Le Chevalier Noir',
@@ -280,6 +289,10 @@ export const baseMoviesSuperHerosDc: BaseMovie[] = [
     },
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 30,
+    oscars: [
+      { type: OscarEnum.OSCAR_BEST_SUPPORTING_ACTOR, year: 2009 },
+      { type: OscarEnum.OSCAR_BEST_SOUND, year: 2009 },
+    ],
   },
   {
     title: 'The Dark Knight Rises',
@@ -317,6 +330,7 @@ export const baseMoviesSuperHerosDc: BaseMovie[] = [
     },
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 30,
+    oscars: [],
   },
   {
     title: 'The Batman',
@@ -357,6 +371,7 @@ export const baseMoviesSuperHerosDc: BaseMovie[] = [
     },
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 30,
+    oscars: [],
   },
   {
     title: "Batman v Superman : L'Aube de la Justice",
@@ -394,6 +409,7 @@ export const baseMoviesSuperHerosDc: BaseMovie[] = [
     },
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 30,
+    oscars: [],
   },
   {
     title: 'Shazam!',
@@ -431,6 +447,7 @@ export const baseMoviesSuperHerosDc: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 15,
+    oscars: [],
   },
   {
     title: 'Shazam! La Rage des Dieux',
@@ -468,6 +485,7 @@ export const baseMoviesSuperHerosDc: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 15,
+    oscars: [],
   },
   {
     title: 'Aquaman',
@@ -505,6 +523,7 @@ export const baseMoviesSuperHerosDc: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 15,
+    oscars: [],
   },
   {
     title: 'Aquaman et le Royaume perdu',
@@ -542,6 +561,7 @@ export const baseMoviesSuperHerosDc: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 15,
+    oscars: [],
   },
   {
     title: 'Black Adam',
@@ -579,6 +599,7 @@ export const baseMoviesSuperHerosDc: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 15,
+    oscars: [],
   },
   {
     title: 'Justice League',
@@ -610,6 +631,7 @@ export const baseMoviesSuperHerosDc: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 15,
+    oscars: [],
   },
   {
     title: "Zack Snyder's Justice League",
@@ -641,6 +663,7 @@ export const baseMoviesSuperHerosDc: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 15,
+    oscars: [],
   },
   {
     title: 'Suicide Squad',
@@ -678,6 +701,9 @@ export const baseMoviesSuperHerosDc: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 15,
+    oscars: [
+      { type: OscarEnum.OSCAR_BEST_MAKEUP, year: 2017 },
+    ],
   },
   {
     title: 'The Suicide Squad',
@@ -715,6 +741,7 @@ export const baseMoviesSuperHerosDc: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 15,
+    oscars: [],
   },
   {
     title: 'Superman',
@@ -755,6 +782,9 @@ export const baseMoviesSuperHerosDc: BaseMovie[] = [
     },
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 15,
+    oscars: [
+      { type: OscarEnum.OSCAR_BEST_VISUAL_EFFECTS, year: 1979 },
+    ],
   },
   {
     title: 'Superman II',
@@ -795,6 +825,7 @@ export const baseMoviesSuperHerosDc: BaseMovie[] = [
     },
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 15,
+    oscars: [],
   },
   {
     title: 'Superman III',
@@ -832,6 +863,7 @@ export const baseMoviesSuperHerosDc: BaseMovie[] = [
     },
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 15,
+    oscars: [],
   },
   {
     title: 'Superman IV : Le Face-à-face',
@@ -869,6 +901,7 @@ export const baseMoviesSuperHerosDc: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 15,
+    oscars: [],
   },
   {
     title: 'Superman Returns',
@@ -909,6 +942,7 @@ export const baseMoviesSuperHerosDc: BaseMovie[] = [
     },
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 30,
+    oscars: [],
   },
   {
     title: 'Man of Steel',
@@ -943,6 +977,7 @@ export const baseMoviesSuperHerosDc: BaseMovie[] = [
     },
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 30,
+    oscars: [],
   },
   {
     title: 'Superman',
@@ -983,6 +1018,7 @@ export const baseMoviesSuperHerosDc: BaseMovie[] = [
     },
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 30,
+    oscars: [],
   },
   {
     title: 'Watchmen : Les Gardiens',
@@ -1023,6 +1059,7 @@ export const baseMoviesSuperHerosDc: BaseMovie[] = [
     },
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 15,
+    oscars: [],
   },
   {
     title: 'Catwoman',
@@ -1059,6 +1096,7 @@ export const baseMoviesSuperHerosDc: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 15,
+    oscars: [],
   },
   {
     title: 'Wonder Woman',
@@ -1096,6 +1134,7 @@ export const baseMoviesSuperHerosDc: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 15,
+    oscars: [],
   },
   {
     title: 'Wonder Woman 1984',
@@ -1133,6 +1172,7 @@ export const baseMoviesSuperHerosDc: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 15,
+    oscars: [],
   },
   {
     title: 'The Flash',
@@ -1174,6 +1214,7 @@ export const baseMoviesSuperHerosDc: BaseMovie[] = [
     },
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 15,
+    oscars: [],
   },
   {
     title: 'Birds of Prey',
@@ -1208,6 +1249,7 @@ export const baseMoviesSuperHerosDc: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 15,
+    oscars: [],
   },
   {
     title: 'Blue Beetle',
@@ -1239,5 +1281,6 @@ export const baseMoviesSuperHerosDc: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 15,
+    oscars: [],
   },
 ];

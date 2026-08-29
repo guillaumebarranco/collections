@@ -210,7 +210,11 @@ export class MovieComponent {
   private get isGroupedMovieView(): boolean {
     const v = this.selectedView;
     return (
-      v === 'actors' || v === 'directors' || v === 'sagas' || v === 'countries'
+      v === 'actors' ||
+      v === 'directors' ||
+      v === 'sagas' ||
+      v === 'countries' ||
+      v === 'oscars'
     );
   }
 

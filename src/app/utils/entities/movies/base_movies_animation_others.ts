@@ -1,4 +1,4 @@
-import { BaseMovie } from '../../../models/movie-model';
+import { BaseMovie, OscarEnum } from '../../../models/movie-model';
 
 export const baseMoviesAnimationOthers: BaseMovie[] = [
   {
@@ -18,6 +18,7 @@ export const baseMoviesAnimationOthers: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: "Kubo et l'Armure magique",
@@ -36,6 +37,7 @@ export const baseMoviesAnimationOthers: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
 
   {
@@ -55,6 +57,7 @@ export const baseMoviesAnimationOthers: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['France'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'La Traversée du temps',
@@ -73,6 +76,7 @@ export const baseMoviesAnimationOthers: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['Japon'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Ne Zha',
@@ -87,6 +91,7 @@ export const baseMoviesAnimationOthers: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['Chine'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Ne Zha 2',
@@ -101,6 +106,7 @@ export const baseMoviesAnimationOthers: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['Chine'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Nezha Reborn',
@@ -115,6 +121,7 @@ export const baseMoviesAnimationOthers: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['Chine'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Vaillant, pigeon de combat !',
@@ -136,6 +143,7 @@ export const baseMoviesAnimationOthers: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['Royaume-Uni', 'États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Tous en scène',
@@ -161,6 +169,7 @@ export const baseMoviesAnimationOthers: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 25,
+    oscars: [],
   },
   {
     title: 'Tous en scène 2',
@@ -198,6 +207,7 @@ export const baseMoviesAnimationOthers: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 25,
+    oscars: [],
   },
   {
     title: 'Kirikou et la Sorcière',
@@ -217,6 +227,7 @@ export const baseMoviesAnimationOthers: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['France'],
     selectDisplayOrder: 25,
+    oscars: [],
   },
   {
     title: 'La Nuit au musée : Le Retour de Kahmunrah',
@@ -250,6 +261,7 @@ export const baseMoviesAnimationOthers: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 20,
+    oscars: [],
   },
   {
     title: 'Spider-Man: New Generation',
@@ -272,6 +284,9 @@ export const baseMoviesAnimationOthers: BaseMovie[] = [
     },
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 25,
+    oscars: [
+      { type: OscarEnum.OSCAR_BEST_ANIMATED_FEATURE, year: 2019 },
+    ],
   },
   {
     title: 'Spider-Man : À Travers le Spider-Verse',
@@ -294,6 +309,7 @@ export const baseMoviesAnimationOthers: BaseMovie[] = [
     },
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 25,
+    oscars: [],
   },
 
   {
@@ -317,6 +333,7 @@ export const baseMoviesAnimationOthers: BaseMovie[] = [
     },
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 25,
+    oscars: [],
   },
   {
     title: 'Super Mario Galaxy, le film',
@@ -354,6 +371,7 @@ export const baseMoviesAnimationOthers: BaseMovie[] = [
     },
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 25,
+    oscars: [],
   },
   {
     title: 'Moi, Moche et Méchant',
@@ -368,6 +386,7 @@ export const baseMoviesAnimationOthers: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 25,
+    oscars: [],
   },
   {
     title: 'Moi, Moche et Méchant 2',
@@ -382,6 +401,7 @@ export const baseMoviesAnimationOthers: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 25,
+    oscars: [],
   },
   {
     title: 'Les Minions',
@@ -396,6 +416,7 @@ export const baseMoviesAnimationOthers: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 25,
+    oscars: [],
   },
   {
     title: 'Moi, Moche et Méchant 3',
@@ -410,6 +431,7 @@ export const baseMoviesAnimationOthers: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 25,
+    oscars: [],
   },
   {
     title: 'Les Minions 2 : Il était une fois Gru',
@@ -424,6 +446,7 @@ export const baseMoviesAnimationOthers: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 25,
+    oscars: [],
   },
   {
     title: 'Moi, Moche et Méchant 4',
@@ -438,6 +461,7 @@ export const baseMoviesAnimationOthers: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 25,
+    oscars: [],
   },
   {
     title: "L'Âge de Glace",
@@ -452,6 +476,7 @@ export const baseMoviesAnimationOthers: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 25,
+    oscars: [],
   },
   {
     title: "L'Âge de Glace 2",
@@ -466,6 +491,7 @@ export const baseMoviesAnimationOthers: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 25,
+    oscars: [],
   },
   {
     title: "L'Âge de Glace 3 : Le Temps des Dinosaures",
@@ -480,6 +506,7 @@ export const baseMoviesAnimationOthers: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 25,
+    oscars: [],
   },
   {
     title: "L'Âge de Glace 4 : La Dérive des Continents",
@@ -494,6 +521,7 @@ export const baseMoviesAnimationOthers: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 25,
+    oscars: [],
   },
   {
     title: "L'Âge de glace : Les Lois de l'Univers",
@@ -508,6 +536,7 @@ export const baseMoviesAnimationOthers: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 25,
+    oscars: [],
   },
   {
     title: 'Arthur et les Minimoys',
@@ -544,6 +573,7 @@ export const baseMoviesAnimationOthers: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['France'],
     selectDisplayOrder: 25,
+    oscars: [],
   },
   {
     title: 'Arthur et la Vengeance de Maltazard',
@@ -580,6 +610,7 @@ export const baseMoviesAnimationOthers: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['France'],
     selectDisplayOrder: 25,
+    oscars: [],
   },
   {
     title: 'Arthur 3 : La Guerre des Deux Mondes',
@@ -610,6 +641,7 @@ export const baseMoviesAnimationOthers: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['France'],
     selectDisplayOrder: 25,
+    oscars: [],
   },
   {
     title: 'Tempête de Boulettes Géantes',
@@ -624,6 +656,7 @@ export const baseMoviesAnimationOthers: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 25,
+    oscars: [],
   },
   {
     title: "Bee Movie : Drôle d'Abeille",
@@ -638,6 +671,7 @@ export const baseMoviesAnimationOthers: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Les Simpson, le Film',
@@ -660,6 +694,7 @@ export const baseMoviesAnimationOthers: BaseMovie[] = [
     },
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 25,
+    oscars: [],
   },
   {
     title: 'South Park, le Film',
@@ -683,6 +718,7 @@ export const baseMoviesAnimationOthers: BaseMovie[] = [
     },
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 25,
+    oscars: [],
   },
   {
     title: 'Space Jam',
@@ -719,6 +755,7 @@ export const baseMoviesAnimationOthers: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 25,
+    oscars: [],
   },
   {
     title: 'Horton',
@@ -733,6 +770,7 @@ export const baseMoviesAnimationOthers: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 25,
+    oscars: [],
   },
   {
     title: 'Superman/Batman : Apocalypse',
@@ -757,6 +795,7 @@ export const baseMoviesAnimationOthers: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Batman et Red Hood : Sous le masque rouge',
@@ -785,6 +824,7 @@ export const baseMoviesAnimationOthers: BaseMovie[] = [
     },
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Superman/Batman : Ennemis publics',
@@ -809,6 +849,7 @@ export const baseMoviesAnimationOthers: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'TMNT : Les Tortues Ninja',
@@ -833,6 +874,7 @@ export const baseMoviesAnimationOthers: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Le Pôle Express',
@@ -857,6 +899,7 @@ export const baseMoviesAnimationOthers: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Batman : La Mystérieuse Batwoman',
@@ -885,6 +928,7 @@ export const baseMoviesAnimationOthers: BaseMovie[] = [
     },
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Batman vs. Robin',
@@ -913,6 +957,7 @@ export const baseMoviesAnimationOthers: BaseMovie[] = [
     },
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Batman: The Dark Knight Returns, Part 2',
@@ -941,6 +986,7 @@ export const baseMoviesAnimationOthers: BaseMovie[] = [
     },
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Batman: The Dark Knight Returns, Part 1',
@@ -969,6 +1015,7 @@ export const baseMoviesAnimationOthers: BaseMovie[] = [
     },
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: "Superman contre l'Élite",
@@ -993,6 +1040,7 @@ export const baseMoviesAnimationOthers: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Le Lorax',
@@ -1017,6 +1065,7 @@ export const baseMoviesAnimationOthers: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Batman: Year One',
@@ -1045,6 +1094,7 @@ export const baseMoviesAnimationOthers: BaseMovie[] = [
     },
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Teenage Mutant Ninja Turtles: Mutant Mayhem',
@@ -1075,6 +1125,7 @@ export const baseMoviesAnimationOthers: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Krypto et les Super-Animaux',
@@ -1099,6 +1150,7 @@ export const baseMoviesAnimationOthers: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 25,
+    oscars: [],
   },
   {
     title: 'Le Monstre des mers',
@@ -1123,6 +1175,7 @@ export const baseMoviesAnimationOthers: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Batman : Mask of the Phantasm',
@@ -1145,6 +1198,7 @@ export const baseMoviesAnimationOthers: BaseMovie[] = [
     },
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Batman & Mr. Freeze : SubZero',
@@ -1163,6 +1217,7 @@ export const baseMoviesAnimationOthers: BaseMovie[] = [
     },
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Batman Beyond : Le Retour du Joker',
@@ -1185,6 +1240,7 @@ export const baseMoviesAnimationOthers: BaseMovie[] = [
     },
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Batman contre Dracula',
@@ -1203,6 +1259,7 @@ export const baseMoviesAnimationOthers: BaseMovie[] = [
     },
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Batman: Gotham Knight',
@@ -1232,6 +1289,7 @@ export const baseMoviesAnimationOthers: BaseMovie[] = [
     },
     countryOrigin: ['États-Unis', 'Japon'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Son of Batman',
@@ -1254,6 +1312,7 @@ export const baseMoviesAnimationOthers: BaseMovie[] = [
     },
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Batman: Assault on Arkham',
@@ -1272,6 +1331,7 @@ export const baseMoviesAnimationOthers: BaseMovie[] = [
     },
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Batman: Bad Blood',
@@ -1294,6 +1354,7 @@ export const baseMoviesAnimationOthers: BaseMovie[] = [
     },
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Batman: The Killing Joke',
@@ -1316,6 +1377,7 @@ export const baseMoviesAnimationOthers: BaseMovie[] = [
     },
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Batman and Harley Quinn',
@@ -1338,6 +1400,7 @@ export const baseMoviesAnimationOthers: BaseMovie[] = [
     },
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Batman vs. Two-Face',
@@ -1360,6 +1423,7 @@ export const baseMoviesAnimationOthers: BaseMovie[] = [
     },
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Batman: Gotham by Gaslight',
@@ -1378,6 +1442,7 @@ export const baseMoviesAnimationOthers: BaseMovie[] = [
     },
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Batman Ninja',
@@ -1396,6 +1461,7 @@ export const baseMoviesAnimationOthers: BaseMovie[] = [
     },
     countryOrigin: ['Japon'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Batman: Hush',
@@ -1418,6 +1484,7 @@ export const baseMoviesAnimationOthers: BaseMovie[] = [
     },
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Batman vs. Teenage Mutant Ninja Turtles',
@@ -1440,6 +1507,7 @@ export const baseMoviesAnimationOthers: BaseMovie[] = [
     },
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Batman: Soul of the Dragon',
@@ -1462,6 +1530,7 @@ export const baseMoviesAnimationOthers: BaseMovie[] = [
     },
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Batman: The Long Halloween, Part One',
@@ -1484,6 +1553,7 @@ export const baseMoviesAnimationOthers: BaseMovie[] = [
     },
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Batman: The Long Halloween, Part Two',
@@ -1506,6 +1576,7 @@ export const baseMoviesAnimationOthers: BaseMovie[] = [
     },
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Batman: The Doom That Came to Gotham',
@@ -1528,6 +1599,7 @@ export const baseMoviesAnimationOthers: BaseMovie[] = [
     },
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Saludos Amigos',
@@ -1562,6 +1634,7 @@ export const baseMoviesAnimationOthers: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 25,
+    oscars: [],
   },
   {
     title: 'Oliver et Compagnie',
@@ -1576,6 +1649,7 @@ export const baseMoviesAnimationOthers: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 25,
+    oscars: [],
   },
 
   {
@@ -1591,6 +1665,7 @@ export const baseMoviesAnimationOthers: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 25,
+    oscars: [],
   },
   {
     title: 'James et la Pêche géante',
@@ -1624,6 +1699,7 @@ export const baseMoviesAnimationOthers: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 25,
+    oscars: [],
   },
 
   {
@@ -1639,6 +1715,9 @@ export const baseMoviesAnimationOthers: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 25,
+    oscars: [
+      { type: OscarEnum.OSCAR_BEST_ORIGINAL_SONG, year: 1999 },
+    ],
   },
   {
     title: "La Route d'Eldorado",
@@ -1653,6 +1732,7 @@ export const baseMoviesAnimationOthers: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 25,
+    oscars: [],
   },
   {
     title: 'Le Royaume des chats',
@@ -1667,6 +1747,7 @@ export const baseMoviesAnimationOthers: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 25,
+    oscars: [],
   },
   {
     title: 'Mickey, Donald, Dingo : Les Trois Mousquetaires',
@@ -1682,6 +1763,7 @@ export const baseMoviesAnimationOthers: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 25,
+    oscars: [],
   },
   {
     title: 'Les Noces funèbres',
@@ -1704,6 +1786,7 @@ export const baseMoviesAnimationOthers: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 25,
+    oscars: [],
   },
   {
     title: 'Happy Feet',
@@ -1719,6 +1802,9 @@ export const baseMoviesAnimationOthers: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 25,
+    oscars: [
+      { type: OscarEnum.OSCAR_BEST_ANIMATED_FEATURE, year: 2007 },
+    ],
   },
   {
     title: "Madagascar 3 : Bons Baisers d'Europe",
@@ -1743,6 +1829,7 @@ export const baseMoviesAnimationOthers: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 25,
+    oscars: [],
   },
   {
     title: 'Coraline',
@@ -1757,6 +1844,7 @@ export const baseMoviesAnimationOthers: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 25,
+    oscars: [],
   },
   {
     title: 'Arrietty, le petit monde des chapardeurs',
@@ -1778,6 +1866,7 @@ export const baseMoviesAnimationOthers: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['Japon'],
     selectDisplayOrder: 25,
+    oscars: [],
   },
   {
     title: 'Rango',
@@ -1792,6 +1881,9 @@ export const baseMoviesAnimationOthers: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 25,
+    oscars: [
+      { type: OscarEnum.OSCAR_BEST_ANIMATED_FEATURE, year: 2012 },
+    ],
   },
   {
     title: 'Hôtel Transylvanie',
@@ -1806,6 +1898,7 @@ export const baseMoviesAnimationOthers: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 25,
+    oscars: [],
   },
   {
     title: 'La Grande Aventure Lego',
@@ -1831,6 +1924,7 @@ export const baseMoviesAnimationOthers: BaseMovie[] = [
     },
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 25,
+    oscars: [],
   },
   {
     title: 'La Grande Aventure Lego 2',
@@ -1849,6 +1943,7 @@ export const baseMoviesAnimationOthers: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 25,
+    oscars: [],
   },
   {
     title: 'Lego Batman, le film',
@@ -1878,6 +1973,7 @@ export const baseMoviesAnimationOthers: BaseMovie[] = [
     },
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 25,
+    oscars: [],
   },
   {
     title: 'Piper',
@@ -1892,6 +1988,7 @@ export const baseMoviesAnimationOthers: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 25,
+    oscars: [],
   },
   {
     title: 'Klaus',
@@ -1906,6 +2003,7 @@ export const baseMoviesAnimationOthers: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['Espagne'],
     selectDisplayOrder: 25,
+    oscars: [],
   },
   {
     title: 'Bubble',
@@ -1920,6 +2018,7 @@ export const baseMoviesAnimationOthers: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['Japon'],
     selectDisplayOrder: 25,
+    oscars: [],
   },
   {
     title: 'Arco',
@@ -1941,6 +2040,7 @@ export const baseMoviesAnimationOthers: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['France'],
     selectDisplayOrder: 25,
+    oscars: [],
   },
   {
     title: 'KPop Demon Hunters',
@@ -1968,6 +2068,10 @@ export const baseMoviesAnimationOthers: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 25,
+    oscars: [
+      { type: OscarEnum.OSCAR_BEST_ANIMATED_FEATURE, year: 2026 },
+      { type: OscarEnum.OSCAR_BEST_ORIGINAL_SONG, year: 2026 },
+    ],
   },
   {
     title: 'Nimona',
@@ -1998,6 +2102,7 @@ export const baseMoviesAnimationOthers: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
 
   {
@@ -2027,6 +2132,7 @@ export const baseMoviesAnimationOthers: BaseMovie[] = [
     },
     countryOrigin: ['France'],
     selectDisplayOrder: 25,
+    oscars: [],
   },
   {
     title: 'Astérix et les Vikings',
@@ -2055,6 +2161,7 @@ export const baseMoviesAnimationOthers: BaseMovie[] = [
     },
     countryOrigin: ['France'],
     selectDisplayOrder: 25,
+    oscars: [],
   },
   {
     title: 'Astérix et les Indiens',
@@ -2083,6 +2190,7 @@ export const baseMoviesAnimationOthers: BaseMovie[] = [
     },
     countryOrigin: ['France'],
     selectDisplayOrder: 25,
+    oscars: [],
   },
   {
     title: 'Astérix et le Coup du menhir',
@@ -2105,6 +2213,7 @@ export const baseMoviesAnimationOthers: BaseMovie[] = [
     },
     countryOrigin: ['France'],
     selectDisplayOrder: 25,
+    oscars: [],
   },
   {
     title: 'Astérix chez les Bretons',
@@ -2127,6 +2236,7 @@ export const baseMoviesAnimationOthers: BaseMovie[] = [
     },
     countryOrigin: ['France'],
     selectDisplayOrder: 25,
+    oscars: [],
   },
   {
     title: 'Astérix et la Surprise de César',
@@ -2149,6 +2259,7 @@ export const baseMoviesAnimationOthers: BaseMovie[] = [
     },
     countryOrigin: ['France'],
     selectDisplayOrder: 25,
+    oscars: [],
   },
   {
     title: "Les 12 Travaux d'Astérix",
@@ -2171,6 +2282,7 @@ export const baseMoviesAnimationOthers: BaseMovie[] = [
     },
     countryOrigin: ['France'],
     selectDisplayOrder: 25,
+    oscars: [],
   },
   {
     title: 'Astérix et Cléopâtre',
@@ -2199,6 +2311,7 @@ export const baseMoviesAnimationOthers: BaseMovie[] = [
     },
     countryOrigin: ['France'],
     selectDisplayOrder: 25,
+    oscars: [],
   },
 
   {
@@ -2218,6 +2331,7 @@ export const baseMoviesAnimationOthers: BaseMovie[] = [
     },
     countryOrigin: ['France'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title:
@@ -2237,6 +2351,7 @@ export const baseMoviesAnimationOthers: BaseMovie[] = [
     },
     countryOrigin: ['France'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Attention Menhir !',
@@ -2255,6 +2370,7 @@ export const baseMoviesAnimationOthers: BaseMovie[] = [
     },
     countryOrigin: ['France'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Astérix : Le Secret de la potion magique',
@@ -2283,6 +2399,7 @@ export const baseMoviesAnimationOthers: BaseMovie[] = [
     },
     countryOrigin: ['France'],
     selectDisplayOrder: 25,
+    oscars: [],
   },
   {
     title: 'Astérix : Le Domaine des dieux',
@@ -2311,6 +2428,7 @@ export const baseMoviesAnimationOthers: BaseMovie[] = [
     },
     countryOrigin: ['France'],
     selectDisplayOrder: 25,
+    oscars: [],
   },
   {
     title: 'Astérix et le Royaume de Nubie',
@@ -2329,6 +2447,7 @@ export const baseMoviesAnimationOthers: BaseMovie[] = [
     },
     countryOrigin: ['France'],
     selectDisplayOrder: 25,
+    oscars: [],
   },
 
   {
@@ -2348,6 +2467,7 @@ export const baseMoviesAnimationOthers: BaseMovie[] = [
     },
     countryOrigin: ['Malaisie', 'États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
 
   {
@@ -2367,6 +2487,7 @@ export const baseMoviesAnimationOthers: BaseMovie[] = [
     },
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
 
   {
@@ -2386,6 +2507,7 @@ export const baseMoviesAnimationOthers: BaseMovie[] = [
     },
     countryOrigin: ['France', 'Belgique'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Tintin et le lac aux requins',
@@ -2404,6 +2526,7 @@ export const baseMoviesAnimationOthers: BaseMovie[] = [
     },
     countryOrigin: ['France', 'Belgique'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'South Park : Imaginationland',
@@ -2422,6 +2545,7 @@ export const baseMoviesAnimationOthers: BaseMovie[] = [
     },
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'South Park : Post Covid',
@@ -2440,6 +2564,7 @@ export const baseMoviesAnimationOthers: BaseMovie[] = [
     },
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'South Park : Post Covid : Le retour du Covid',
@@ -2458,6 +2583,7 @@ export const baseMoviesAnimationOthers: BaseMovie[] = [
     },
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'South Park : Les Guerres du streaming',
@@ -2476,6 +2602,7 @@ export const baseMoviesAnimationOthers: BaseMovie[] = [
     },
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'South Park : Les Guerres du streaming, partie 2',
@@ -2494,6 +2621,7 @@ export const baseMoviesAnimationOthers: BaseMovie[] = [
     },
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'South Park : Bienvenue dans le Panderverse',
@@ -2512,6 +2640,7 @@ export const baseMoviesAnimationOthers: BaseMovie[] = [
     },
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'South Park : Déconseillé aux enfants',
@@ -2530,6 +2659,7 @@ export const baseMoviesAnimationOthers: BaseMovie[] = [
     },
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: "South Park : La fin de l'obésité",
@@ -2548,6 +2678,7 @@ export const baseMoviesAnimationOthers: BaseMovie[] = [
     },
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
 
   {
@@ -2567,6 +2698,7 @@ export const baseMoviesAnimationOthers: BaseMovie[] = [
     },
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: "Spider-Man : La Riposte de l'Homme Araignée",
@@ -2592,6 +2724,7 @@ export const baseMoviesAnimationOthers: BaseMovie[] = [
     },
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Spider-Man : Le Défi du dragon',
@@ -2610,6 +2743,7 @@ export const baseMoviesAnimationOthers: BaseMovie[] = [
     },
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Resident Evil : Death Island',
@@ -2650,6 +2784,7 @@ export const baseMoviesAnimationOthers: BaseMovie[] = [
     },
     countryOrigin: ['Japon'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Resident Evil: Degeneration',
@@ -2690,6 +2825,7 @@ export const baseMoviesAnimationOthers: BaseMovie[] = [
     },
     countryOrigin: ['Japon'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Resident Evil: Damnation',
@@ -2730,6 +2866,7 @@ export const baseMoviesAnimationOthers: BaseMovie[] = [
     },
     countryOrigin: ['Japon'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Resident Evil: Vendetta',
@@ -2748,6 +2885,7 @@ export const baseMoviesAnimationOthers: BaseMovie[] = [
     },
     countryOrigin: ['Japon'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Sonic the Hedgehog: The Movie',
@@ -2766,6 +2904,7 @@ export const baseMoviesAnimationOthers: BaseMovie[] = [
     },
     countryOrigin: ['Japon', 'États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Sonic : Le Film de Noël',
@@ -2784,6 +2923,7 @@ export const baseMoviesAnimationOthers: BaseMovie[] = [
     },
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Barbie dans Casse-noisette',
@@ -2802,6 +2942,7 @@ export const baseMoviesAnimationOthers: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Barbie, princesse Raiponce',
@@ -2820,6 +2961,7 @@ export const baseMoviesAnimationOthers: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Barbie et le Lac des cygnes',
@@ -2838,6 +2980,7 @@ export const baseMoviesAnimationOthers: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Barbie : Cœur de princesse',
@@ -2856,6 +2999,7 @@ export const baseMoviesAnimationOthers: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Barbie Fairytopia',
@@ -2874,6 +3018,7 @@ export const baseMoviesAnimationOthers: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Barbie et le Cheval magique',
@@ -2892,6 +3037,7 @@ export const baseMoviesAnimationOthers: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Barbie Fairytopia: Mermaidia',
@@ -2910,6 +3056,7 @@ export const baseMoviesAnimationOthers: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Le Journal de Barbie',
@@ -2928,6 +3075,7 @@ export const baseMoviesAnimationOthers: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Barbie au bal des douze princesses',
@@ -2946,6 +3094,7 @@ export const baseMoviesAnimationOthers: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: "Barbie Fairytopia: Magie de l'arc-en-ciel",
@@ -2964,6 +3113,7 @@ export const baseMoviesAnimationOthers: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: "Barbie, princesse de l'Île merveilleuse",
@@ -2982,6 +3132,7 @@ export const baseMoviesAnimationOthers: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Barbie: Mariposa et ses amies les fées papillons',
@@ -3000,6 +3151,7 @@ export const baseMoviesAnimationOthers: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Barbie et le Palais de diamant',
@@ -3018,6 +3170,7 @@ export const baseMoviesAnimationOthers: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Barbie et la Magie de Noël',
@@ -3036,6 +3189,7 @@ export const baseMoviesAnimationOthers: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Barbie présente Lilipucia',
@@ -3054,6 +3208,7 @@ export const baseMoviesAnimationOthers: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Barbie et les Trois Mousquetaires',
@@ -3072,6 +3227,7 @@ export const baseMoviesAnimationOthers: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Barbie et le Secret des sirènes',
@@ -3090,6 +3246,7 @@ export const baseMoviesAnimationOthers: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Barbie: La Magie de la mode',
@@ -3108,6 +3265,7 @@ export const baseMoviesAnimationOthers: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Barbie: Le Secret des fées',
@@ -3126,6 +3284,7 @@ export const baseMoviesAnimationOthers: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Barbie, apprentie princesse',
@@ -3144,6 +3303,7 @@ export const baseMoviesAnimationOthers: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Barbie : Le Secret des sirènes 2',
@@ -3162,6 +3322,7 @@ export const baseMoviesAnimationOthers: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Barbie : La Princesse et la Popstar',
@@ -3180,6 +3341,7 @@ export const baseMoviesAnimationOthers: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Barbie : Rêve de danseuse étoile',
@@ -3198,6 +3360,7 @@ export const baseMoviesAnimationOthers: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Barbie : Mariposa et le Royaume des fées',
@@ -3216,6 +3379,7 @@ export const baseMoviesAnimationOthers: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Barbie et ses sœurs au club hippique',
@@ -3234,6 +3398,7 @@ export const baseMoviesAnimationOthers: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Barbie et la Magie des perles',
@@ -3252,6 +3417,7 @@ export const baseMoviesAnimationOthers: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Barbie et la Porte secrète',
@@ -3270,6 +3436,7 @@ export const baseMoviesAnimationOthers: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Barbie en super princesse',
@@ -3288,6 +3455,7 @@ export const baseMoviesAnimationOthers: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Barbie : Rock et Royales',
@@ -3306,6 +3474,7 @@ export const baseMoviesAnimationOthers: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Barbie et ses sœurs : La Grande Aventure des chiots',
@@ -3324,6 +3493,7 @@ export const baseMoviesAnimationOthers: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Barbie : Agents secrets',
@@ -3342,6 +3512,7 @@ export const baseMoviesAnimationOthers: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Barbie : Aventure dans les étoiles',
@@ -3360,6 +3531,7 @@ export const baseMoviesAnimationOthers: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Barbie et ses sœurs : À la recherche des chiots',
@@ -3378,6 +3550,7 @@ export const baseMoviesAnimationOthers: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Barbie : Héroïne de jeu vidéo',
@@ -3396,6 +3569,7 @@ export const baseMoviesAnimationOthers: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Le Drôle de Noël de Scrooge',
@@ -3432,6 +3606,7 @@ export const baseMoviesAnimationOthers: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Mister Showman',
@@ -3468,6 +3643,7 @@ export const baseMoviesAnimationOthers: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Le Conte de la princesse Kaguya',
@@ -3486,6 +3662,7 @@ export const baseMoviesAnimationOthers: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['Japon'],
     selectDisplayOrder: 1,
+    oscars: [],
   },
   {
     title: 'Epic : La Bataille du royaume secret',
@@ -3522,6 +3699,7 @@ export const baseMoviesAnimationOthers: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Perfect Blue',
@@ -3540,6 +3718,7 @@ export const baseMoviesAnimationOthers: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['Japon'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Chico et Rita',
@@ -3558,6 +3737,7 @@ export const baseMoviesAnimationOthers: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['Espagne'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Mars Express',
@@ -3576,6 +3756,7 @@ export const baseMoviesAnimationOthers: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['France'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Paprika',
@@ -3594,6 +3775,7 @@ export const baseMoviesAnimationOthers: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['Japon'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Fantastic Mr. Fox',
@@ -3612,6 +3794,7 @@ export const baseMoviesAnimationOthers: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Frankenweenie',
@@ -3648,6 +3831,7 @@ export const baseMoviesAnimationOthers: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Le magasin des suicides',
@@ -3667,6 +3851,7 @@ export const baseMoviesAnimationOthers: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['France'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: "Scarlet et l'éternité",
@@ -3688,6 +3873,7 @@ export const baseMoviesAnimationOthers: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['Japon'],
     selectDisplayOrder: 5,
+    oscars: [],
   },
 
   {
@@ -3713,6 +3899,7 @@ export const baseMoviesAnimationOthers: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 5,
+    oscars: [],
   },
   {
     title: 'Nicky Larson Private Eyes',
@@ -3741,6 +3928,7 @@ export const baseMoviesAnimationOthers: BaseMovie[] = [
     },
     countryOrigin: ['France'],
     selectDisplayOrder: 5,
+    oscars: [],
   },
   {
     title: 'Le Grinch',
@@ -3765,5 +3953,6 @@ export const baseMoviesAnimationOthers: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 5,
+    oscars: [],
   },
 ];

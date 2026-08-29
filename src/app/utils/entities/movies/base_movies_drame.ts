@@ -1,4 +1,4 @@
-import { BaseMovie } from '../../../models/movie-model';
+import { BaseMovie, OscarEnum } from '../../../models/movie-model';
 
 export const baseMoviesDrame: BaseMovie[] = [
   {
@@ -33,6 +33,7 @@ export const baseMoviesDrame: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 30,
+    oscars: [],
   },
   {
     title: 'Oppenheimer',
@@ -60,6 +61,15 @@ export const baseMoviesDrame: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 30,
+    oscars: [
+      { type: OscarEnum.OSCAR_BEST_MOVIE, year: 2024 },
+      { type: OscarEnum.OSCAR_BEST_DIRECTOR, year: 2024 },
+      { type: OscarEnum.OSCAR_BEST_ACTOR, year: 2024 },
+      { type: OscarEnum.OSCAR_BEST_SUPPORTING_ACTOR, year: 2024 },
+      { type: OscarEnum.OSCAR_BEST_CINEMATOGRAPHY, year: 2024 },
+      { type: OscarEnum.OSCAR_BEST_FILM_EDITING, year: 2024 },
+      { type: OscarEnum.OSCAR_BEST_ORIGINAL_SCORE, year: 2024 },
+    ],
   },
   {
     title: 'Babylon',
@@ -100,6 +110,7 @@ export const baseMoviesDrame: BaseMovie[] = [
     },
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Oliver Twist',
@@ -126,6 +137,7 @@ export const baseMoviesDrame: BaseMovie[] = [
     },
     countryOrigin: ['Royaume-Uni'],
     selectDisplayOrder: 30,
+    oscars: [],
   },
   {
     title: 'Le haut du panier',
@@ -162,6 +174,7 @@ export const baseMoviesDrame: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'La méthode Williams',
@@ -198,6 +211,9 @@ export const baseMoviesDrame: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 30,
+    oscars: [
+      { type: OscarEnum.OSCAR_BEST_ACTOR, year: 2022 },
+    ],
   },
   {
     title: 'Mulholland Drive',
@@ -234,6 +250,7 @@ export const baseMoviesDrame: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 30,
+    oscars: [],
   },
   {
     title: 'Requiem for a Dream',
@@ -270,6 +287,7 @@ export const baseMoviesDrame: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 30,
+    oscars: [],
   },
   {
     title: '84 m²',
@@ -306,6 +324,7 @@ export const baseMoviesDrame: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['Corée du Sud'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Ordinary Angels',
@@ -342,6 +361,7 @@ export const baseMoviesDrame: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Oldboy',
@@ -378,6 +398,7 @@ export const baseMoviesDrame: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['Corée du Sud'],
     selectDisplayOrder: 30,
+    oscars: [],
   },
   {
     title: 'La princesse de Montpensier',
@@ -414,6 +435,7 @@ export const baseMoviesDrame: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['France'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Chocolat',
@@ -450,6 +472,7 @@ export const baseMoviesDrame: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['France'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Joker',
@@ -490,6 +513,10 @@ export const baseMoviesDrame: BaseMovie[] = [
     },
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 30,
+    oscars: [
+      { type: OscarEnum.OSCAR_BEST_ACTOR, year: 2020 },
+      { type: OscarEnum.OSCAR_BEST_ORIGINAL_SCORE, year: 2020 },
+    ],
   },
   {
     title: 'Joker : Folie à Deux',
@@ -524,6 +551,7 @@ export const baseMoviesDrame: BaseMovie[] = [
     },
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 30,
+    oscars: [],
   },
   {
     title: 'A Star Is Born',
@@ -560,6 +588,9 @@ export const baseMoviesDrame: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 30,
+    oscars: [
+      { type: OscarEnum.OSCAR_BEST_ORIGINAL_SONG, year: 2019 },
+    ],
   },
   {
     title: '12 hommes en colère',
@@ -596,6 +627,7 @@ export const baseMoviesDrame: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 30,
+    oscars: [],
   },
   {
     title: 'Citizen Kane',
@@ -632,6 +664,9 @@ export const baseMoviesDrame: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 30,
+    oscars: [
+      { type: OscarEnum.OSCAR_BEST_ORIGINAL_SCREENPLAY, year: 1942 },
+    ],
   },
   {
     title: 'Pentagon Papers',
@@ -668,6 +703,7 @@ export const baseMoviesDrame: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Empire du soleil',
@@ -704,6 +740,7 @@ export const baseMoviesDrame: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Amistad',
@@ -731,6 +768,7 @@ export const baseMoviesDrame: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 30,
+    oscars: [],
   },
   {
     title: 'Lincoln',
@@ -753,6 +791,10 @@ export const baseMoviesDrame: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [
+      { type: OscarEnum.OSCAR_BEST_ACTOR, year: 2013 },
+      { type: OscarEnum.OSCAR_BEST_PRODUCTION_DESIGN, year: 2013 },
+    ],
   },
   {
     title: 'La Liste de Schindler',
@@ -789,6 +831,15 @@ export const baseMoviesDrame: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 30,
+    oscars: [
+      { type: OscarEnum.OSCAR_BEST_MOVIE, year: 1994 },
+      { type: OscarEnum.OSCAR_BEST_DIRECTOR, year: 1994 },
+      { type: OscarEnum.OSCAR_BEST_ADAPTED_SCREENPLAY, year: 1994 },
+      { type: OscarEnum.OSCAR_BEST_ORIGINAL_SCORE, year: 1994 },
+      { type: OscarEnum.OSCAR_BEST_PRODUCTION_DESIGN, year: 1994 },
+      { type: OscarEnum.OSCAR_BEST_CINEMATOGRAPHY, year: 1994 },
+      { type: OscarEnum.OSCAR_BEST_FILM_EDITING, year: 1994 },
+    ],
   },
   {
     title: 'The Fabelmans',
@@ -825,6 +876,7 @@ export const baseMoviesDrame: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Le Terminal',
@@ -861,6 +913,7 @@ export const baseMoviesDrame: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 30,
+    oscars: [],
   },
   {
     title: 'American Beauty',
@@ -897,6 +950,13 @@ export const baseMoviesDrame: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 30,
+    oscars: [
+      { type: OscarEnum.OSCAR_BEST_MOVIE, year: 2000 },
+      { type: OscarEnum.OSCAR_BEST_DIRECTOR, year: 2000 },
+      { type: OscarEnum.OSCAR_BEST_ACTOR, year: 2000 },
+      { type: OscarEnum.OSCAR_BEST_ORIGINAL_SCREENPLAY, year: 2000 },
+      { type: OscarEnum.OSCAR_BEST_CINEMATOGRAPHY, year: 2000 },
+    ],
   },
   {
     title: 'Sex intentions',
@@ -937,6 +997,7 @@ export const baseMoviesDrame: BaseMovie[] = [
     },
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 30,
+    oscars: [],
   },
   {
     title: 'The Truman Show',
@@ -973,6 +1034,7 @@ export const baseMoviesDrame: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 30,
+    oscars: [],
   },
   {
     title: 'Godzilla vs. Kong',
@@ -1009,6 +1071,7 @@ export const baseMoviesDrame: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 5,
+    oscars: [],
   },
   {
     title: 'Godzilla × Kong: The New Empire',
@@ -1039,6 +1102,7 @@ export const baseMoviesDrame: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 5,
+    oscars: [],
   },
   {
     title: 'La Ligne Verte',
@@ -1079,6 +1143,7 @@ export const baseMoviesDrame: BaseMovie[] = [
     },
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 30,
+    oscars: [],
   },
   {
     title: 'À la Recherche du Bonheur',
@@ -1115,6 +1180,7 @@ export const baseMoviesDrame: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 30,
+    oscars: [],
   },
   {
     title: 'Blood Diamond',
@@ -1137,6 +1203,7 @@ export const baseMoviesDrame: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 30,
+    oscars: [],
   },
   {
     title: 'Babel',
@@ -1173,6 +1240,9 @@ export const baseMoviesDrame: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [
+      { type: OscarEnum.OSCAR_BEST_ORIGINAL_SCORE, year: 2007 },
+    ],
   },
   {
     title: 'Volver',
@@ -1209,6 +1279,7 @@ export const baseMoviesDrame: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['Espagne'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Million Dollar Baby',
@@ -1231,6 +1302,12 @@ export const baseMoviesDrame: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 30,
+    oscars: [
+      { type: OscarEnum.OSCAR_BEST_MOVIE, year: 2005 },
+      { type: OscarEnum.OSCAR_BEST_DIRECTOR, year: 2005 },
+      { type: OscarEnum.OSCAR_BEST_ACTRESS, year: 2005 },
+      { type: OscarEnum.OSCAR_BEST_SUPPORTING_ACTOR, year: 2005 },
+    ],
   },
   {
     title: 'Forrest Gump',
@@ -1267,6 +1344,14 @@ export const baseMoviesDrame: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 30,
+    oscars: [
+      { type: OscarEnum.OSCAR_BEST_MOVIE, year: 1995 },
+      { type: OscarEnum.OSCAR_BEST_DIRECTOR, year: 1995 },
+      { type: OscarEnum.OSCAR_BEST_ACTOR, year: 1995 },
+      { type: OscarEnum.OSCAR_BEST_ADAPTED_SCREENPLAY, year: 1995 },
+      { type: OscarEnum.OSCAR_BEST_FILM_EDITING, year: 1995 },
+      { type: OscarEnum.OSCAR_BEST_VISUAL_EFFECTS, year: 1995 },
+    ],
   },
   {
     title: 'Will Hunting',
@@ -1303,6 +1388,10 @@ export const baseMoviesDrame: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 30,
+    oscars: [
+      { type: OscarEnum.OSCAR_BEST_SUPPORTING_ACTOR, year: 1998 },
+      { type: OscarEnum.OSCAR_BEST_ORIGINAL_SCREENPLAY, year: 1998 },
+    ],
   },
   {
     title: 'Monster',
@@ -1339,6 +1428,9 @@ export const baseMoviesDrame: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 30,
+    oscars: [
+      { type: OscarEnum.OSCAR_BEST_ACTRESS, year: 2004 },
+    ],
   },
   {
     title: 'Aftermath',
@@ -1375,6 +1467,7 @@ export const baseMoviesDrame: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Demolition',
@@ -1411,6 +1504,7 @@ export const baseMoviesDrame: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Room',
@@ -1447,6 +1541,9 @@ export const baseMoviesDrame: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 30,
+    oscars: [
+      { type: OscarEnum.OSCAR_BEST_ACTRESS, year: 2016 },
+    ],
   },
   {
     title: 'La rage au ventre',
@@ -1483,6 +1580,7 @@ export const baseMoviesDrame: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Cinquante Nuances de Grey',
@@ -1523,6 +1621,7 @@ export const baseMoviesDrame: BaseMovie[] = [
     },
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 30,
+    oscars: [],
   },
   {
     title: 'Cinquante Nuances plus sombres',
@@ -1563,6 +1662,7 @@ export const baseMoviesDrame: BaseMovie[] = [
     },
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 30,
+    oscars: [],
   },
   {
     title: 'Cinquante Nuances plus claires',
@@ -1603,6 +1703,7 @@ export const baseMoviesDrame: BaseMovie[] = [
     },
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 30,
+    oscars: [],
   },
   {
     title: 'Birdman',
@@ -1639,6 +1740,12 @@ export const baseMoviesDrame: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [
+      { type: OscarEnum.OSCAR_BEST_MOVIE, year: 2015 },
+      { type: OscarEnum.OSCAR_BEST_DIRECTOR, year: 2015 },
+      { type: OscarEnum.OSCAR_BEST_ORIGINAL_SCREENPLAY, year: 2015 },
+      { type: OscarEnum.OSCAR_BEST_CINEMATOGRAPHY, year: 2015 },
+    ],
   },
   {
     title: 'Over the Top : Le bras de fer',
@@ -1672,6 +1779,7 @@ export const baseMoviesDrame: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Karate Kid',
@@ -1708,6 +1816,7 @@ export const baseMoviesDrame: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 30,
+    oscars: [],
   },
   {
     title: 'Sept Vies',
@@ -1744,6 +1853,7 @@ export const baseMoviesDrame: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 30,
+    oscars: [],
   },
   {
     title: 'Gran Torino',
@@ -1780,6 +1890,7 @@ export const baseMoviesDrame: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
 
   {
@@ -1821,6 +1932,7 @@ export const baseMoviesDrame: BaseMovie[] = [
     },
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 30,
+    oscars: [],
   },
   {
     title: 'Into the Wild',
@@ -1861,6 +1973,7 @@ export const baseMoviesDrame: BaseMovie[] = [
     },
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 30,
+    oscars: [],
   },
   {
     title: 'Trainspotting',
@@ -1901,6 +2014,7 @@ export const baseMoviesDrame: BaseMovie[] = [
     },
     countryOrigin: ['Royaume-Uni'],
     selectDisplayOrder: 30,
+    oscars: [],
   },
   {
     title: 'The Artist',
@@ -1937,6 +2051,13 @@ export const baseMoviesDrame: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['France'],
     selectDisplayOrder: 30,
+    oscars: [
+      { type: OscarEnum.OSCAR_BEST_MOVIE, year: 2012 },
+      { type: OscarEnum.OSCAR_BEST_DIRECTOR, year: 2012 },
+      { type: OscarEnum.OSCAR_BEST_ACTOR, year: 2012 },
+      { type: OscarEnum.OSCAR_BEST_COSTUME_DESIGN, year: 2012 },
+      { type: OscarEnum.OSCAR_BEST_ORIGINAL_SCORE, year: 2012 },
+    ],
   },
   {
     title: 'The Social Network',
@@ -1959,6 +2080,11 @@ export const baseMoviesDrame: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 30,
+    oscars: [
+      { type: OscarEnum.OSCAR_BEST_ADAPTED_SCREENPLAY, year: 2011 },
+      { type: OscarEnum.OSCAR_BEST_ORIGINAL_SCORE, year: 2011 },
+      { type: OscarEnum.OSCAR_BEST_FILM_EDITING, year: 2011 },
+    ],
   },
   {
     title: '127 Heures',
@@ -1995,6 +2121,7 @@ export const baseMoviesDrame: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Black Swan',
@@ -2031,6 +2158,9 @@ export const baseMoviesDrame: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 30,
+    oscars: [
+      { type: OscarEnum.OSCAR_BEST_ACTRESS, year: 2011 },
+    ],
   },
   {
     title: 'Brothers',
@@ -2053,6 +2183,7 @@ export const baseMoviesDrame: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Zombieland: Double Tap',
@@ -2089,6 +2220,7 @@ export const baseMoviesDrame: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'The Blind Side',
@@ -2125,6 +2257,9 @@ export const baseMoviesDrame: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [
+      { type: OscarEnum.OSCAR_BEST_ACTRESS, year: 2010 },
+    ],
   },
   {
     title: 'Le Majordome',
@@ -2161,6 +2296,7 @@ export const baseMoviesDrame: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 30,
+    oscars: [],
   },
   {
     title: 'Django Unchained',
@@ -2183,6 +2319,10 @@ export const baseMoviesDrame: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 30,
+    oscars: [
+      { type: OscarEnum.OSCAR_BEST_SUPPORTING_ACTOR, year: 2013 },
+      { type: OscarEnum.OSCAR_BEST_ORIGINAL_SCREENPLAY, year: 2013 },
+    ],
   },
   {
     title: 'Footloose',
@@ -2219,6 +2359,7 @@ export const baseMoviesDrame: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Warrior',
@@ -2258,6 +2399,7 @@ export const baseMoviesDrame: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Le cercle des poètes disparus',
@@ -2294,6 +2436,9 @@ export const baseMoviesDrame: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 30,
+    oscars: [
+      { type: OscarEnum.OSCAR_BEST_ORIGINAL_SCREENPLAY, year: 1990 },
+    ],
   },
   {
     title: 'Qui veut la peau de Roger Rabbit',
@@ -2330,6 +2475,11 @@ export const baseMoviesDrame: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 30,
+    oscars: [
+      { type: OscarEnum.OSCAR_BEST_FILM_EDITING, year: 1989 },
+      { type: OscarEnum.OSCAR_BEST_SOUND, year: 1989 },
+      { type: OscarEnum.OSCAR_BEST_VISUAL_EFFECTS, year: 1989 },
+    ],
   },
   {
     title: 'Les Evadés',
@@ -2366,6 +2516,7 @@ export const baseMoviesDrame: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 30,
+    oscars: [],
   },
   {
     title: 'Écrire pour exister',
@@ -2402,6 +2553,7 @@ export const baseMoviesDrame: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Cours particulier',
@@ -2438,6 +2590,7 @@ export const baseMoviesDrame: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Reviens-moi',
@@ -2474,6 +2627,9 @@ export const baseMoviesDrame: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [
+      { type: OscarEnum.OSCAR_BEST_ORIGINAL_SCORE, year: 2008 },
+    ],
   },
   {
     title: 'Philadelphia',
@@ -2510,6 +2666,10 @@ export const baseMoviesDrame: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 30,
+    oscars: [
+      { type: OscarEnum.OSCAR_BEST_ACTOR, year: 1994 },
+      { type: OscarEnum.OSCAR_BEST_ORIGINAL_SONG, year: 1994 },
+    ],
   },
   {
     title: 'Sully',
@@ -2546,6 +2706,7 @@ export const baseMoviesDrame: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Once Upon a Time in Hollywood',
@@ -2568,6 +2729,10 @@ export const baseMoviesDrame: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 30,
+    oscars: [
+      { type: OscarEnum.OSCAR_BEST_SUPPORTING_ACTOR, year: 2020 },
+      { type: OscarEnum.OSCAR_BEST_PRODUCTION_DESIGN, year: 2020 },
+    ],
   },
   {
     title: "Jusqu'au bout du rêve",
@@ -2604,6 +2769,7 @@ export const baseMoviesDrame: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'La Légende de Bagger Vance',
@@ -2640,6 +2806,7 @@ export const baseMoviesDrame: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Ali',
@@ -2676,6 +2843,7 @@ export const baseMoviesDrame: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 30,
+    oscars: [],
   },
   {
     title: 'Père et fille',
@@ -2703,6 +2871,7 @@ export const baseMoviesDrame: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Emancipation',
@@ -2730,6 +2899,7 @@ export const baseMoviesDrame: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'À nous la victoire',
@@ -2766,6 +2936,7 @@ export const baseMoviesDrame: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Une vie à deux',
@@ -2802,6 +2973,7 @@ export const baseMoviesDrame: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'True West',
@@ -2839,6 +3011,7 @@ export const baseMoviesDrame: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'The Astronaut Farmer',
@@ -2876,6 +3049,7 @@ export const baseMoviesDrame: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'De si jolis chevaux',
@@ -2912,6 +3086,7 @@ export const baseMoviesDrame: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'À la rencontre de Forrester',
@@ -2948,6 +3123,7 @@ export const baseMoviesDrame: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: "Confessions d'un homme dangereux",
@@ -2984,6 +3160,7 @@ export const baseMoviesDrame: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Gerry',
@@ -3020,6 +3197,7 @@ export const baseMoviesDrame: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Invictus',
@@ -3056,6 +3234,7 @@ export const baseMoviesDrame: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 30,
+    oscars: [],
   },
   {
     title: 'Au-delà',
@@ -3092,6 +3271,7 @@ export const baseMoviesDrame: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Margaret',
@@ -3128,6 +3308,7 @@ export const baseMoviesDrame: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Nouveau Départ',
@@ -3164,6 +3345,7 @@ export const baseMoviesDrame: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Promised Land',
@@ -3200,6 +3382,7 @@ export const baseMoviesDrame: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Ma vie avec Liberace',
@@ -3236,6 +3419,7 @@ export const baseMoviesDrame: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Stillwater',
@@ -3263,6 +3447,7 @@ export const baseMoviesDrame: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: "Légendes d'automne",
@@ -3299,6 +3484,9 @@ export const baseMoviesDrame: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [
+      { type: OscarEnum.OSCAR_BEST_CINEMATOGRAPHY, year: 1995 },
+    ],
   },
   {
     title: 'Sleepers',
@@ -3336,6 +3524,7 @@ export const baseMoviesDrame: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Sept Ans au Tibet',
@@ -3372,6 +3561,7 @@ export const baseMoviesDrame: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: "L'Assassinat de Jesse James par le lâche Robert Ford",
@@ -3408,6 +3598,7 @@ export const baseMoviesDrame: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Le stratège',
@@ -3444,6 +3635,7 @@ export const baseMoviesDrame: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'The Tree of Life',
@@ -3480,6 +3672,7 @@ export const baseMoviesDrame: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: '12 Years a Slave',
@@ -3520,6 +3713,11 @@ export const baseMoviesDrame: BaseMovie[] = [
     },
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 30,
+    oscars: [
+      { type: OscarEnum.OSCAR_BEST_MOVIE, year: 2014 },
+      { type: OscarEnum.OSCAR_BEST_SUPPORTING_ACTRESS, year: 2014 },
+      { type: OscarEnum.OSCAR_BEST_ADAPTED_SCREENPLAY, year: 2014 },
+    ],
   },
   {
     title: 'Vue sur mer',
@@ -3556,6 +3754,7 @@ export const baseMoviesDrame: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'The Big Short',
@@ -3589,6 +3788,7 @@ export const baseMoviesDrame: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 30,
+    oscars: [],
   },
   {
     title: 'Apollo 13',
@@ -3625,6 +3825,10 @@ export const baseMoviesDrame: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [
+      { type: OscarEnum.OSCAR_BEST_FILM_EDITING, year: 1996 },
+      { type: OscarEnum.OSCAR_BEST_SOUND, year: 1996 },
+    ],
   },
   {
     title: 'La Guerre selon Charlie Wilson',
@@ -3661,6 +3865,7 @@ export const baseMoviesDrame: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Ithaca',
@@ -3697,6 +3902,7 @@ export const baseMoviesDrame: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: "L'Extraordinaire Mr. Rogers",
@@ -3733,6 +3939,7 @@ export const baseMoviesDrame: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'La Mission',
@@ -3769,6 +3976,7 @@ export const baseMoviesDrame: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Here - Les plus belles années de notre vie',
@@ -3805,6 +4013,7 @@ export const baseMoviesDrame: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Outsiders',
@@ -3841,6 +4050,7 @@ export const baseMoviesDrame: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: "La Couleur de l'argent",
@@ -3877,6 +4087,7 @@ export const baseMoviesDrame: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Horizons lointains',
@@ -3913,6 +4124,7 @@ export const baseMoviesDrame: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: "Des hommes d'honneur",
@@ -3949,6 +4161,7 @@ export const baseMoviesDrame: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Magnolia',
@@ -3985,6 +4198,7 @@ export const baseMoviesDrame: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Lions et Agneaux',
@@ -4021,6 +4235,7 @@ export const baseMoviesDrame: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Gilbert Grape',
@@ -4057,6 +4272,7 @@ export const baseMoviesDrame: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Basketball Diaries',
@@ -4093,6 +4309,7 @@ export const baseMoviesDrame: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Rimbaud Verlaine',
@@ -4129,6 +4346,7 @@ export const baseMoviesDrame: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Simples Secrets',
@@ -4156,6 +4374,7 @@ export const baseMoviesDrame: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: "Don's Plum",
@@ -4192,6 +4411,7 @@ export const baseMoviesDrame: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Les Noces rebelles',
@@ -4228,6 +4448,7 @@ export const baseMoviesDrame: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'J. Edgar',
@@ -4264,6 +4485,7 @@ export const baseMoviesDrame: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'The Revenant',
@@ -4300,6 +4522,11 @@ export const baseMoviesDrame: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [
+      { type: OscarEnum.OSCAR_BEST_DIRECTOR, year: 2016 },
+      { type: OscarEnum.OSCAR_BEST_ACTOR, year: 2016 },
+      { type: OscarEnum.OSCAR_BEST_CINEMATOGRAPHY, year: 2016 },
+    ],
   },
   {
     title: 'Proof',
@@ -4336,6 +4563,7 @@ export const baseMoviesDrame: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Everest',
@@ -4372,6 +4600,7 @@ export const baseMoviesDrame: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Stronger',
@@ -4408,6 +4637,7 @@ export const baseMoviesDrame: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'The Fountain',
@@ -4444,6 +4674,7 @@ export const baseMoviesDrame: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Australia',
@@ -4480,6 +4711,7 @@ export const baseMoviesDrame: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Snow Flower and the Secret Fan',
@@ -4510,6 +4742,7 @@ export const baseMoviesDrame: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Eddie the Eagle',
@@ -4546,6 +4779,7 @@ export const baseMoviesDrame: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Front Runner : Le Scandale',
@@ -4582,6 +4816,7 @@ export const baseMoviesDrame: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'The Son',
@@ -4618,6 +4853,7 @@ export const baseMoviesDrame: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Little Buddha',
@@ -4654,6 +4890,7 @@ export const baseMoviesDrame: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Feeling Minnesota',
@@ -4690,6 +4927,7 @@ export const baseMoviesDrame: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Hardball',
@@ -4726,6 +4964,7 @@ export const baseMoviesDrame: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Les vies privées de Pippa Lee',
@@ -4762,6 +5001,7 @@ export const baseMoviesDrame: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'To the Bone',
@@ -4795,6 +5035,7 @@ export const baseMoviesDrame: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Jane',
@@ -4831,6 +5072,7 @@ export const baseMoviesDrame: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Rachel se marie',
@@ -4867,6 +5109,7 @@ export const baseMoviesDrame: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Dark Waters',
@@ -4903,6 +5146,7 @@ export const baseMoviesDrame: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'The Nines',
@@ -4939,6 +5183,7 @@ export const baseMoviesDrame: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Leçons de vie',
@@ -4976,6 +5221,7 @@ export const baseMoviesDrame: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Fireflies in the Garden',
@@ -5000,6 +5246,7 @@ export const baseMoviesDrame: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'La Femme au tableau',
@@ -5036,6 +5283,7 @@ export const baseMoviesDrame: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Nashville Blues',
@@ -5072,6 +5320,7 @@ export const baseMoviesDrame: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Ainsi va la vie',
@@ -5108,6 +5357,7 @@ export const baseMoviesDrame: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Les Divins Secrets',
@@ -5144,6 +5394,7 @@ export const baseMoviesDrame: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Collision',
@@ -5180,6 +5431,11 @@ export const baseMoviesDrame: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [
+      { type: OscarEnum.OSCAR_BEST_MOVIE, year: 2006 },
+      { type: OscarEnum.OSCAR_BEST_ORIGINAL_SCREENPLAY, year: 2006 },
+      { type: OscarEnum.OSCAR_BEST_FILM_EDITING, year: 2006 },
+    ],
   },
   {
     title: 'Scandaleusement célèbre',
@@ -5216,6 +5472,7 @@ export const baseMoviesDrame: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Extrêmement fort et incroyablement près',
@@ -5252,6 +5509,7 @@ export const baseMoviesDrame: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Impardonnable',
@@ -5288,6 +5546,7 @@ export const baseMoviesDrame: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'À cœur ouvert',
@@ -5324,6 +5583,7 @@ export const baseMoviesDrame: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Men, Women and Children',
@@ -5360,6 +5620,7 @@ export const baseMoviesDrame: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Swing Kids',
@@ -5396,6 +5657,7 @@ export const baseMoviesDrame: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Les Quatre Filles du docteur March',
@@ -5436,6 +5698,7 @@ export const baseMoviesDrame: BaseMovie[] = [
     },
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Portrait de femme',
@@ -5458,6 +5721,7 @@ export const baseMoviesDrame: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Metroland',
@@ -5494,6 +5758,7 @@ export const baseMoviesDrame: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Velvet Goldmine',
@@ -5516,6 +5781,7 @@ export const baseMoviesDrame: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'All the Little Animals',
@@ -5546,6 +5812,7 @@ export const baseMoviesDrame: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Mary, Mother of Jesus',
@@ -5582,6 +5849,7 @@ export const baseMoviesDrame: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Capitaine Corelli',
@@ -5604,6 +5872,7 @@ export const baseMoviesDrame: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Laurel Canyon',
@@ -5634,6 +5903,7 @@ export const baseMoviesDrame: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Le Nouveau Monde',
@@ -5670,6 +5940,7 @@ export const baseMoviesDrame: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Rescue Dawn',
@@ -5706,6 +5977,7 @@ export const baseMoviesDrame: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: "I'm Not There",
@@ -5742,6 +6014,7 @@ export const baseMoviesDrame: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Fighter',
@@ -5764,6 +6037,10 @@ export const baseMoviesDrame: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [
+      { type: OscarEnum.OSCAR_BEST_SUPPORTING_ACTOR, year: 2011 },
+      { type: OscarEnum.OSCAR_BEST_SUPPORTING_ACTRESS, year: 2011 },
+    ],
   },
   {
     title: 'Sacrifices of War',
@@ -5800,6 +6077,7 @@ export const baseMoviesDrame: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'La Promesse',
@@ -5836,6 +6114,7 @@ export const baseMoviesDrame: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Vice',
@@ -5872,6 +6151,9 @@ export const baseMoviesDrame: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [
+      { type: OscarEnum.OSCAR_BEST_MAKEUP, year: 2019 },
+    ],
   },
   {
     title: "L'Homme qui murmurait à l'oreille des chevaux",
@@ -5912,6 +6194,7 @@ export const baseMoviesDrame: BaseMovie[] = [
     },
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'American Rhapsody',
@@ -5948,6 +6231,7 @@ export const baseMoviesDrame: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'The Barber',
@@ -5978,6 +6262,7 @@ export const baseMoviesDrame: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'La Jeune Fille à la perle',
@@ -6014,6 +6299,7 @@ export const baseMoviesDrame: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Love Song',
@@ -6050,6 +6336,7 @@ export const baseMoviesDrame: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Deux Sœurs pour un roi',
@@ -6086,6 +6373,7 @@ export const baseMoviesDrame: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Hitchcock',
@@ -6122,6 +6410,7 @@ export const baseMoviesDrame: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Suite Française',
@@ -6158,6 +6447,7 @@ export const baseMoviesDrame: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Goodbye Christopher Robin',
@@ -6194,6 +6484,7 @@ export const baseMoviesDrame: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Moi, Tonya',
@@ -6230,6 +6521,9 @@ export const baseMoviesDrame: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [
+      { type: OscarEnum.OSCAR_BEST_SUPPORTING_ACTRESS, year: 2018 },
+    ],
   },
   {
     title: "Marie Stuart, reine d'Écosse",
@@ -6266,6 +6560,7 @@ export const baseMoviesDrame: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Scandale',
@@ -6302,6 +6597,9 @@ export const baseMoviesDrame: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [
+      { type: OscarEnum.OSCAR_BEST_MAKEUP, year: 2020 },
+    ],
   },
   {
     title: 'Hurlevent',
@@ -6336,6 +6634,7 @@ export const baseMoviesDrame: BaseMovie[] = [
     },
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'La Dernière Passe',
@@ -6358,6 +6657,7 @@ export const baseMoviesDrame: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: "L'Eveil",
@@ -6394,6 +6694,7 @@ export const baseMoviesDrame: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'The Fisher King : Le Roi pêcheur',
@@ -6430,6 +6731,9 @@ export const baseMoviesDrame: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [
+      { type: OscarEnum.OSCAR_BEST_SUPPORTING_ACTRESS, year: 1992 },
+    ],
   },
   {
     title: 'Hamlet',
@@ -6466,6 +6770,7 @@ export const baseMoviesDrame: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Jakob le menteur',
@@ -6502,6 +6807,7 @@ export const baseMoviesDrame: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Au-delà de nos rêves',
@@ -6538,6 +6844,7 @@ export const baseMoviesDrame: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'La Rue',
@@ -6574,6 +6881,7 @@ export const baseMoviesDrame: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Levity',
@@ -6610,6 +6918,7 @@ export const baseMoviesDrame: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Une vie inachevée',
@@ -6632,6 +6941,7 @@ export const baseMoviesDrame: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'La Chute du Président Nixon',
@@ -6654,6 +6964,7 @@ export const baseMoviesDrame: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: "Vol au-dessus d'un nid de coucou",
@@ -6690,6 +7001,13 @@ export const baseMoviesDrame: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [
+      { type: OscarEnum.OSCAR_BEST_MOVIE, year: 1976 },
+      { type: OscarEnum.OSCAR_BEST_DIRECTOR, year: 1976 },
+      { type: OscarEnum.OSCAR_BEST_ACTOR, year: 1976 },
+      { type: OscarEnum.OSCAR_BEST_ACTRESS, year: 1976 },
+      { type: OscarEnum.OSCAR_BEST_ADAPTED_SCREENPLAY, year: 1976 },
+    ],
   },
   {
     title: 'La Vie est belle',
@@ -6730,6 +7048,11 @@ export const baseMoviesDrame: BaseMovie[] = [
     },
     countryOrigin: ['Italie'],
     selectDisplayOrder: 1,
+    oscars: [
+      { type: OscarEnum.OSCAR_BEST_ACTOR, year: 1999 },
+      { type: OscarEnum.OSCAR_BEST_INTERNATIONAL_FEATURE, year: 1999 },
+      { type: OscarEnum.OSCAR_BEST_ORIGINAL_SCORE, year: 1999 },
+    ],
   },
   {
     title: 'Harakiri',
@@ -6766,6 +7089,7 @@ export const baseMoviesDrame: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['Japon'],
     selectDisplayOrder: 1,
+    oscars: [],
   },
   {
     title: 'Le Pianiste',
@@ -6802,6 +7126,11 @@ export const baseMoviesDrame: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['France'],
     selectDisplayOrder: 1,
+    oscars: [
+      { type: OscarEnum.OSCAR_BEST_DIRECTOR, year: 2003 },
+      { type: OscarEnum.OSCAR_BEST_ACTOR, year: 2003 },
+      { type: OscarEnum.OSCAR_BEST_ADAPTED_SCREENPLAY, year: 2003 },
+    ],
   },
   {
     title: 'Je verrai toujours vos visages',
@@ -6838,6 +7167,7 @@ export const baseMoviesDrame: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['France'],
     selectDisplayOrder: 1,
+    oscars: [],
   },
   {
     title: "L'Intendant Sansho",
@@ -6874,6 +7204,7 @@ export const baseMoviesDrame: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['Japon'],
     selectDisplayOrder: 1,
+    oscars: [],
   },
   {
     title: 'Elephant Man',
@@ -6910,6 +7241,7 @@ export const baseMoviesDrame: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 1,
+    oscars: [],
   },
   {
     title: 'Barry Lyndon',
@@ -6946,6 +7278,12 @@ export const baseMoviesDrame: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['Royaume-Uni'],
     selectDisplayOrder: 1,
+    oscars: [
+      { type: OscarEnum.OSCAR_BEST_CINEMATOGRAPHY, year: 1976 },
+      { type: OscarEnum.OSCAR_BEST_PRODUCTION_DESIGN, year: 1976 },
+      { type: OscarEnum.OSCAR_BEST_COSTUME_DESIGN, year: 1976 },
+      { type: OscarEnum.OSCAR_BEST_ORIGINAL_SCORE, year: 1976 },
+    ],
   },
   {
     title: 'Vivre',
@@ -6982,6 +7320,7 @@ export const baseMoviesDrame: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['Japon'],
     selectDisplayOrder: 1,
+    oscars: [],
   },
   {
     title: 'Une journée particulière',
@@ -7018,6 +7357,7 @@ export const baseMoviesDrame: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 1,
+    oscars: [],
   },
   {
     title: 'La Vérité',
@@ -7054,6 +7394,7 @@ export const baseMoviesDrame: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['France'],
     selectDisplayOrder: 1,
+    oscars: [],
   },
   {
     title: 'Barberousse',
@@ -7090,6 +7431,7 @@ export const baseMoviesDrame: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['Japon'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'La Vie est belle',
@@ -7126,6 +7468,7 @@ export const baseMoviesDrame: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: "Le Discours d'un roi",
@@ -7162,6 +7505,12 @@ export const baseMoviesDrame: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['Royaume-Uni'],
     selectDisplayOrder: 30,
+    oscars: [
+      { type: OscarEnum.OSCAR_BEST_MOVIE, year: 2011 },
+      { type: OscarEnum.OSCAR_BEST_DIRECTOR, year: 2011 },
+      { type: OscarEnum.OSCAR_BEST_ACTOR, year: 2011 },
+      { type: OscarEnum.OSCAR_BEST_ORIGINAL_SCREENPLAY, year: 2011 },
+    ],
   },
   {
     title: 'Imitation Game',
@@ -7199,6 +7548,9 @@ export const baseMoviesDrame: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [
+      { type: OscarEnum.OSCAR_BEST_ADAPTED_SCREENPLAY, year: 2015 },
+    ],
   },
   {
     title: 'La Passion du Christ',
@@ -7235,6 +7587,7 @@ export const baseMoviesDrame: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 30,
+    oscars: [],
   },
   {
     title: 'Knight of Cups',
@@ -7271,6 +7624,7 @@ export const baseMoviesDrame: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Jackie',
@@ -7307,6 +7661,7 @@ export const baseMoviesDrame: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: "L'École de tous les talents",
@@ -7343,6 +7698,7 @@ export const baseMoviesDrame: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'My Week With Marilyn',
@@ -7379,6 +7735,7 @@ export const baseMoviesDrame: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Le Monde de Charlie',
@@ -7419,6 +7776,7 @@ export const baseMoviesDrame: BaseMovie[] = [
     },
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'The Bling Ring',
@@ -7455,6 +7813,7 @@ export const baseMoviesDrame: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Colonia',
@@ -7491,6 +7850,7 @@ export const baseMoviesDrame: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Les Filles du docteur March',
@@ -7531,6 +7891,9 @@ export const baseMoviesDrame: BaseMovie[] = [
     },
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [
+      { type: OscarEnum.OSCAR_BEST_COSTUME_DESIGN, year: 2020 },
+    ],
   },
   {
     title: 'Respire',
@@ -7567,6 +7930,7 @@ export const baseMoviesDrame: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['France'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Eugénie Grandet',
@@ -7603,6 +7967,7 @@ export const baseMoviesDrame: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['France'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Sur les chemins noirs',
@@ -7636,6 +8001,7 @@ export const baseMoviesDrame: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['France'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Ma mère, Dieu et Sylvie Vartan',
@@ -7672,6 +8038,7 @@ export const baseMoviesDrame: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['France'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'La Haine',
@@ -7708,6 +8075,7 @@ export const baseMoviesDrame: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['France'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Polisse',
@@ -7744,6 +8112,7 @@ export const baseMoviesDrame: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['France'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: "La vie d'Adèle",
@@ -7780,6 +8149,7 @@ export const baseMoviesDrame: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['France'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Le Grand bleu',
@@ -7816,6 +8186,7 @@ export const baseMoviesDrame: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['France'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Tchao Pantin',
@@ -7852,6 +8223,7 @@ export const baseMoviesDrame: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['France'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Quai des Brumes',
@@ -7888,6 +8260,7 @@ export const baseMoviesDrame: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['France'],
     selectDisplayOrder: 30,
+    oscars: [],
   },
   {
     title: 'Patients',
@@ -7924,6 +8297,7 @@ export const baseMoviesDrame: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['France'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'La Môme',
@@ -7960,6 +8334,10 @@ export const baseMoviesDrame: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['France'],
     selectDisplayOrder: 0,
+    oscars: [
+      { type: OscarEnum.OSCAR_BEST_ACTRESS, year: 2008 },
+      { type: OscarEnum.OSCAR_BEST_MAKEUP, year: 2008 },
+    ],
   },
   {
     title: 'Germinal',
@@ -8000,6 +8378,7 @@ export const baseMoviesDrame: BaseMovie[] = [
     },
     countryOrigin: ['France'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Monsieur Schmidt',
@@ -8036,6 +8415,7 @@ export const baseMoviesDrame: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Macbeth',
@@ -8062,6 +8442,7 @@ export const baseMoviesDrame: BaseMovie[] = [
     },
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: "Le Dernier Roi d'Écosse",
@@ -8098,6 +8479,9 @@ export const baseMoviesDrame: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [
+      { type: OscarEnum.OSCAR_BEST_ACTOR, year: 2007 },
+    ],
   },
   {
     title: 'Submergence',
@@ -8134,6 +8518,7 @@ export const baseMoviesDrame: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Mother!',
@@ -8170,6 +8555,7 @@ export const baseMoviesDrame: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Radioactive',
@@ -8206,6 +8592,7 @@ export const baseMoviesDrame: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Here Are the Young Men',
@@ -8242,6 +8629,7 @@ export const baseMoviesDrame: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Amsterdam',
@@ -8264,6 +8652,7 @@ export const baseMoviesDrame: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: "À l'ombre de la haine",
@@ -8300,6 +8689,7 @@ export const baseMoviesDrame: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Nos souvenirs brûlés',
@@ -8336,6 +8726,7 @@ export const baseMoviesDrame: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Snow Angels',
@@ -8372,6 +8763,7 @@ export const baseMoviesDrame: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: "Everybody's Fine",
@@ -8394,6 +8786,7 @@ export const baseMoviesDrame: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: "Prisoner's Daughter",
@@ -8424,6 +8817,7 @@ export const baseMoviesDrame: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Étroite Surveillance',
@@ -8460,6 +8854,7 @@ export const baseMoviesDrame: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Bird',
@@ -8496,6 +8891,7 @@ export const baseMoviesDrame: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'La Voie de la justice',
@@ -8518,6 +8914,7 @@ export const baseMoviesDrame: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Chloé',
@@ -8554,6 +8951,7 @@ export const baseMoviesDrame: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'The End of Love',
@@ -8590,6 +8988,7 @@ export const baseMoviesDrame: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Père et fille',
@@ -8626,6 +9025,7 @@ export const baseMoviesDrame: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Sur le chemin de la rédemption',
@@ -8662,6 +9062,7 @@ export const baseMoviesDrame: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: "Dans les yeux d'Enzo",
@@ -8698,6 +9099,7 @@ export const baseMoviesDrame: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Mank',
@@ -8734,6 +9136,10 @@ export const baseMoviesDrame: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [
+      { type: OscarEnum.OSCAR_BEST_CINEMATOGRAPHY, year: 2021 },
+      { type: OscarEnum.OSCAR_BEST_PRODUCTION_DESIGN, year: 2021 },
+    ],
   },
   {
     title: 'Le souffle coupé',
@@ -8770,6 +9176,7 @@ export const baseMoviesDrame: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Hands of Stone',
@@ -8806,6 +9213,7 @@ export const baseMoviesDrame: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Cuban Network',
@@ -8842,6 +9250,7 @@ export const baseMoviesDrame: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Sergio',
@@ -8864,6 +9273,7 @@ export const baseMoviesDrame: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Burning',
@@ -8886,6 +9296,7 @@ export const baseMoviesDrame: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['Corée du Sud'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Quelque part dans le temps',
@@ -8908,6 +9319,7 @@ export const baseMoviesDrame: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Silence',
@@ -8930,6 +9342,7 @@ export const baseMoviesDrame: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['Royaume-Uni'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Take Shelter',
@@ -8952,6 +9365,7 @@ export const baseMoviesDrame: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Démineurs',
@@ -8974,6 +9388,13 @@ export const baseMoviesDrame: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [
+      { type: OscarEnum.OSCAR_BEST_MOVIE, year: 2010 },
+      { type: OscarEnum.OSCAR_BEST_DIRECTOR, year: 2010 },
+      { type: OscarEnum.OSCAR_BEST_ORIGINAL_SCREENPLAY, year: 2010 },
+      { type: OscarEnum.OSCAR_BEST_FILM_EDITING, year: 2010 },
+      { type: OscarEnum.OSCAR_BEST_SOUND, year: 2010 },
+    ],
   },
   {
     title: 'Neverland',
@@ -8996,6 +9417,9 @@ export const baseMoviesDrame: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [
+      { type: OscarEnum.OSCAR_BEST_ORIGINAL_SCORE, year: 2005 },
+    ],
   },
   {
     title: "La Zone d'intérêt",
@@ -9018,6 +9442,7 @@ export const baseMoviesDrame: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['Royaume-Uni'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'The Lost Bus - Au cœur de...',
@@ -9040,6 +9465,7 @@ export const baseMoviesDrame: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Un grand voyage vers la nuit',
@@ -9062,6 +9488,7 @@ export const baseMoviesDrame: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['Chine'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Ray',
@@ -9084,6 +9511,10 @@ export const baseMoviesDrame: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [
+      { type: OscarEnum.OSCAR_BEST_ACTOR, year: 2005 },
+      { type: OscarEnum.OSCAR_BEST_SOUND, year: 2005 },
+    ],
   },
   {
     title: 'Primer',
@@ -9106,6 +9537,7 @@ export const baseMoviesDrame: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'The Man from Earth',
@@ -9128,6 +9560,7 @@ export const baseMoviesDrame: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Sans un bruit : Jour 1',
@@ -9150,6 +9583,7 @@ export const baseMoviesDrame: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Back to Black',
@@ -9172,6 +9606,7 @@ export const baseMoviesDrame: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['Royaume-Uni'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Before Midnight',
@@ -9194,6 +9629,7 @@ export const baseMoviesDrame: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Empire of Light',
@@ -9216,6 +9652,7 @@ export const baseMoviesDrame: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['Royaume-Uni'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Le Monde après nous',
@@ -9238,6 +9675,7 @@ export const baseMoviesDrame: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Malcolm X',
@@ -9260,6 +9698,7 @@ export const baseMoviesDrame: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['Japon'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Aftersun',
@@ -9282,6 +9721,7 @@ export const baseMoviesDrame: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['Royaume-Uni'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Snowden',
@@ -9304,6 +9744,7 @@ export const baseMoviesDrame: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Foxcatcher',
@@ -9326,6 +9767,7 @@ export const baseMoviesDrame: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Spotlight',
@@ -9348,6 +9790,10 @@ export const baseMoviesDrame: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [
+      { type: OscarEnum.OSCAR_BEST_MOVIE, year: 2016 },
+      { type: OscarEnum.OSCAR_BEST_ORIGINAL_SCREENPLAY, year: 2016 },
+    ],
   },
   {
     title: 'Last Night in Soho',
@@ -9370,6 +9816,7 @@ export const baseMoviesDrame: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['Royaume-Uni'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'First Man - Le Premier Homme sur la Lune',
@@ -9392,6 +9839,9 @@ export const baseMoviesDrame: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [
+      { type: OscarEnum.OSCAR_BEST_VISUAL_EFFECTS, year: 2019 },
+    ],
   },
   {
     title: 'Magazine Dreams',
@@ -9414,6 +9864,7 @@ export const baseMoviesDrame: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Cléopâtre',
@@ -9450,6 +9901,9 @@ export const baseMoviesDrame: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['Royaume-Uni'],
     selectDisplayOrder: 0,
+    oscars: [
+      { type: OscarEnum.OSCAR_BEST_CINEMATOGRAPHY, year: 1935 },
+    ],
   },
   {
     title: 'Le Garçon au pyjama rayé',
@@ -9472,6 +9926,7 @@ export const baseMoviesDrame: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['Royaume-Uni'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'La Chute',
@@ -9494,6 +9949,7 @@ export const baseMoviesDrame: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['Allemagne'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Papillon',
@@ -9516,6 +9972,7 @@ export const baseMoviesDrame: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['France'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Festen',
@@ -9538,6 +9995,7 @@ export const baseMoviesDrame: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['Suède'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Armageddon Time',
@@ -9560,6 +10018,7 @@ export const baseMoviesDrame: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['Brésil'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Novembre',
@@ -9582,6 +10041,7 @@ export const baseMoviesDrame: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['Estonie'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'The Reader',
@@ -9604,6 +10064,9 @@ export const baseMoviesDrame: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['Allemagne'],
     selectDisplayOrder: 0,
+    oscars: [
+      { type: OscarEnum.OSCAR_BEST_ACTRESS, year: 2009 },
+    ],
   },
   {
     title: "La Proie d'une ombre",
@@ -9626,6 +10089,7 @@ export const baseMoviesDrame: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['Royaume-Uni'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Le Plus Beau des combats',
@@ -9648,6 +10112,7 @@ export const baseMoviesDrame: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Les Marches du pouvoir',
@@ -9670,6 +10135,7 @@ export const baseMoviesDrame: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Le cas Richard Jewell',
@@ -9692,6 +10158,7 @@ export const baseMoviesDrame: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Palmer',
@@ -9714,6 +10181,7 @@ export const baseMoviesDrame: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Tu ne tueras point',
@@ -9736,6 +10204,10 @@ export const baseMoviesDrame: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [
+      { type: OscarEnum.OSCAR_BEST_FILM_EDITING, year: 2017 },
+      { type: OscarEnum.OSCAR_BEST_SOUND, year: 2017 },
+    ],
   },
   {
     title: 'Les Misérables (1935)',
@@ -9777,6 +10249,7 @@ export const baseMoviesDrame: BaseMovie[] = [
     },
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Les Misérables (1958)',
@@ -9817,6 +10290,7 @@ export const baseMoviesDrame: BaseMovie[] = [
     },
     countryOrigin: ['France', 'Italie'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Les Misérables (1978)',
@@ -9857,6 +10331,7 @@ export const baseMoviesDrame: BaseMovie[] = [
     },
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Les Misérables (1982)',
@@ -9897,6 +10372,7 @@ export const baseMoviesDrame: BaseMovie[] = [
     },
     countryOrigin: ['France'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Les Misérables (1995)',
@@ -9937,6 +10413,7 @@ export const baseMoviesDrame: BaseMovie[] = [
     },
     countryOrigin: ['France'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Les Misérables (1998)',
@@ -9977,6 +10454,7 @@ export const baseMoviesDrame: BaseMovie[] = [
     },
     countryOrigin: ['Royaume-Uni', 'Allemagne', 'États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Irréversible',
@@ -10013,6 +10491,7 @@ export const baseMoviesDrame: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: [],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'La Fièvre du Samedi soir',
@@ -10035,6 +10514,7 @@ export const baseMoviesDrame: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Mr. Holmes',
@@ -10075,6 +10555,7 @@ export const baseMoviesDrame: BaseMovie[] = [
     },
     countryOrigin: ['Royaume-Uni', 'États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Le Secret des Marrowbone',
@@ -10097,6 +10578,7 @@ export const baseMoviesDrame: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['Espagne'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Sur la route de Madison',
@@ -10119,6 +10601,7 @@ export const baseMoviesDrame: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Chaplin',
@@ -10141,6 +10624,7 @@ export const baseMoviesDrame: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['Royaume-Uni'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'The Father',
@@ -10163,6 +10647,10 @@ export const baseMoviesDrame: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['Royaume-Uni'],
     selectDisplayOrder: 0,
+    oscars: [
+      { type: OscarEnum.OSCAR_BEST_ACTOR, year: 2021 },
+      { type: OscarEnum.OSCAR_BEST_ADAPTED_SCREENPLAY, year: 2021 },
+    ],
   },
   {
     title: 'La 25ème Heure',
@@ -10185,6 +10673,7 @@ export const baseMoviesDrame: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Boyhood',
@@ -10207,6 +10696,9 @@ export const baseMoviesDrame: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [
+      { type: OscarEnum.OSCAR_BEST_SUPPORTING_ACTRESS, year: 2015 },
+    ],
   },
   {
     title: 'Before Sunset',
@@ -10229,6 +10721,7 @@ export const baseMoviesDrame: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Cherry',
@@ -10251,6 +10744,7 @@ export const baseMoviesDrame: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Autant en emporte le vent',
@@ -10282,6 +10776,16 @@ export const baseMoviesDrame: BaseMovie[] = [
     },
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 30,
+    oscars: [
+      { type: OscarEnum.OSCAR_BEST_MOVIE, year: 1940 },
+      { type: OscarEnum.OSCAR_BEST_DIRECTOR, year: 1940 },
+      { type: OscarEnum.OSCAR_BEST_ACTRESS, year: 1940 },
+      { type: OscarEnum.OSCAR_BEST_SUPPORTING_ACTRESS, year: 1940 },
+      { type: OscarEnum.OSCAR_BEST_ADAPTED_SCREENPLAY, year: 1940 },
+      { type: OscarEnum.OSCAR_BEST_PRODUCTION_DESIGN, year: 1940 },
+      { type: OscarEnum.OSCAR_BEST_CINEMATOGRAPHY, year: 1940 },
+      { type: OscarEnum.OSCAR_BEST_FILM_EDITING, year: 1940 },
+    ],
   },
   {
     title: 'There Will Be Blood',
@@ -10304,6 +10808,10 @@ export const baseMoviesDrame: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [
+      { type: OscarEnum.OSCAR_BEST_ACTOR, year: 2008 },
+      { type: OscarEnum.OSCAR_BEST_CINEMATOGRAPHY, year: 2008 },
+    ],
   },
   {
     title: "L'Échange",
@@ -10326,6 +10834,7 @@ export const baseMoviesDrame: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 30,
+    oscars: [],
   },
   {
     title: 'Ed Wood',
@@ -10362,6 +10871,10 @@ export const baseMoviesDrame: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [
+      { type: OscarEnum.OSCAR_BEST_SUPPORTING_ACTOR, year: 1995 },
+      { type: OscarEnum.OSCAR_BEST_MAKEUP, year: 1995 },
+    ],
   },
   {
     title: 'Napoléon',
@@ -10398,6 +10911,7 @@ export const baseMoviesDrame: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'House of Gucci',
@@ -10434,6 +10948,7 @@ export const baseMoviesDrame: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Raging Bull',
@@ -10470,6 +10985,10 @@ export const baseMoviesDrame: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [
+      { type: OscarEnum.OSCAR_BEST_ACTOR, year: 1981 },
+      { type: OscarEnum.OSCAR_BEST_FILM_EDITING, year: 1981 },
+    ],
   },
   {
     title: "La Couleur de l'argent",
@@ -10506,6 +11025,7 @@ export const baseMoviesDrame: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: "Le temps de l'innocence",
@@ -10542,6 +11062,7 @@ export const baseMoviesDrame: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'The Irishman',
@@ -10578,6 +11099,7 @@ export const baseMoviesDrame: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Bringing Out the Dead',
@@ -10614,6 +11136,7 @@ export const baseMoviesDrame: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Kundun',
@@ -10650,6 +11173,7 @@ export const baseMoviesDrame: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
 
   {
@@ -10687,6 +11211,7 @@ export const baseMoviesDrame: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Hard Eight',
@@ -10723,6 +11248,7 @@ export const baseMoviesDrame: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Boogie Nights',
@@ -10759,6 +11285,7 @@ export const baseMoviesDrame: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'The Master',
@@ -10795,6 +11322,7 @@ export const baseMoviesDrame: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Phantom Thread',
@@ -10831,6 +11359,9 @@ export const baseMoviesDrame: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [
+      { type: OscarEnum.OSCAR_BEST_COSTUME_DESIGN, year: 2018 },
+    ],
   },
   {
     title: 'The Virgin Suicides',
@@ -10867,6 +11398,7 @@ export const baseMoviesDrame: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Somewhere',
@@ -10903,6 +11435,7 @@ export const baseMoviesDrame: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis', 'Italie'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Les Proies',
@@ -10939,6 +11472,7 @@ export const baseMoviesDrame: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Priscilla',
@@ -10975,6 +11509,7 @@ export const baseMoviesDrame: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis', 'Italie'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'The Rainmaker',
@@ -11011,6 +11546,7 @@ export const baseMoviesDrame: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Tucker: The Man and His Dream',
@@ -11047,6 +11583,7 @@ export const baseMoviesDrame: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Rumble Fish',
@@ -11083,6 +11620,7 @@ export const baseMoviesDrame: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
 
   {
@@ -11120,6 +11658,7 @@ export const baseMoviesDrame: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['Canada', 'États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Crash',
@@ -11156,6 +11695,7 @@ export const baseMoviesDrame: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['Canada', 'Royaume-Uni'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
 
   {
@@ -11193,6 +11733,7 @@ export const baseMoviesDrame: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 5,
+    oscars: [],
   },
 
   {
@@ -11230,6 +11771,7 @@ export const baseMoviesDrame: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 5,
+    oscars: [],
   },
   {
     title: '2 Hearts',
@@ -11263,6 +11805,7 @@ export const baseMoviesDrame: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 5,
+    oscars: [],
   },
   {
     title: 'Hollywood',
@@ -11300,6 +11843,7 @@ export const baseMoviesDrame: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 5,
+    oscars: [],
   },
   {
     title: 'The King',
@@ -11337,6 +11881,7 @@ export const baseMoviesDrame: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 5,
+    oscars: [],
   },
   {
     title: 'Slumdog Millionaire',
@@ -11373,6 +11918,16 @@ export const baseMoviesDrame: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 30,
+    oscars: [
+      { type: OscarEnum.OSCAR_BEST_MOVIE, year: 2009 },
+      { type: OscarEnum.OSCAR_BEST_DIRECTOR, year: 2009 },
+      { type: OscarEnum.OSCAR_BEST_ADAPTED_SCREENPLAY, year: 2009 },
+      { type: OscarEnum.OSCAR_BEST_ORIGINAL_SCORE, year: 2009 },
+      { type: OscarEnum.OSCAR_BEST_ORIGINAL_SONG, year: 2009 },
+      { type: OscarEnum.OSCAR_BEST_SOUND, year: 2009 },
+      { type: OscarEnum.OSCAR_BEST_CINEMATOGRAPHY, year: 2009 },
+      { type: OscarEnum.OSCAR_BEST_FILM_EDITING, year: 2009 },
+    ],
   },
   {
     title: 'Lion',
@@ -11409,6 +11964,7 @@ export const baseMoviesDrame: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 30,
+    oscars: [],
   },
   {
     title: 'Big Eyes',
@@ -11445,6 +12001,7 @@ export const baseMoviesDrame: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 5,
+    oscars: [],
   },
   {
     title: 'Little White Lies',
@@ -11481,6 +12038,7 @@ export const baseMoviesDrame: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 5,
+    oscars: [],
   },
   {
     title: 'Lovely Bones',
@@ -11517,6 +12075,7 @@ export const baseMoviesDrame: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 5,
+    oscars: [],
   },
   {
     title: "L'Étrange Histoire de Benjamin Button",
@@ -11557,6 +12116,11 @@ export const baseMoviesDrame: BaseMovie[] = [
     },
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 30,
+    oscars: [
+      { type: OscarEnum.OSCAR_BEST_PRODUCTION_DESIGN, year: 2009 },
+      { type: OscarEnum.OSCAR_BEST_MAKEUP, year: 2009 },
+      { type: OscarEnum.OSCAR_BEST_VISUAL_EFFECTS, year: 2009 },
+    ],
   },
   {
     title: 'Marie Antoinette',
@@ -11593,6 +12157,9 @@ export const baseMoviesDrame: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 5,
+    oscars: [
+      { type: OscarEnum.OSCAR_BEST_COSTUME_DESIGN, year: 2007 },
+    ],
   },
   {
     title: 'Aviator',
@@ -11615,6 +12182,13 @@ export const baseMoviesDrame: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 30,
+    oscars: [
+      { type: OscarEnum.OSCAR_BEST_SUPPORTING_ACTRESS, year: 2005 },
+      { type: OscarEnum.OSCAR_BEST_PRODUCTION_DESIGN, year: 2005 },
+      { type: OscarEnum.OSCAR_BEST_COSTUME_DESIGN, year: 2005 },
+      { type: OscarEnum.OSCAR_BEST_FILM_EDITING, year: 2005 },
+      { type: OscarEnum.OSCAR_BEST_CINEMATOGRAPHY, year: 2005 },
+    ],
   },
   {
     title: 'Le Dernier Samouraï',
@@ -11651,6 +12225,7 @@ export const baseMoviesDrame: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 5,
+    oscars: [],
   },
   {
     title: 'Thirteen',
@@ -11687,6 +12262,7 @@ export const baseMoviesDrame: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 5,
+    oscars: [],
   },
 
   {
@@ -11724,6 +12300,7 @@ export const baseMoviesDrame: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 5,
+    oscars: [],
   },
   {
     title: 'Fight Club',
@@ -11764,6 +12341,7 @@ export const baseMoviesDrame: BaseMovie[] = [
     },
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 30,
+    oscars: [],
   },
   {
     title: 'Braveheart',
@@ -11800,6 +12378,13 @@ export const baseMoviesDrame: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 5,
+    oscars: [
+      { type: OscarEnum.OSCAR_BEST_MOVIE, year: 1996 },
+      { type: OscarEnum.OSCAR_BEST_DIRECTOR, year: 1996 },
+      { type: OscarEnum.OSCAR_BEST_CINEMATOGRAPHY, year: 1996 },
+      { type: OscarEnum.OSCAR_BEST_MAKEUP, year: 1996 },
+      { type: OscarEnum.OSCAR_BEST_SOUND, year: 1996 },
+    ],
   },
   {
     title: 'JFK',
@@ -11836,6 +12421,10 @@ export const baseMoviesDrame: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 5,
+    oscars: [
+      { type: OscarEnum.OSCAR_BEST_CINEMATOGRAPHY, year: 1992 },
+      { type: OscarEnum.OSCAR_BEST_FILM_EDITING, year: 1992 },
+    ],
   },
   {
     title: 'La fracture',
@@ -11858,6 +12447,7 @@ export const baseMoviesDrame: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['France'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Lovely Bones',
@@ -11877,6 +12467,7 @@ export const baseMoviesDrame: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Rivales',
@@ -11896,6 +12487,7 @@ export const baseMoviesDrame: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'The Ugly Stepsister',
@@ -11915,6 +12507,7 @@ export const baseMoviesDrame: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Barbare',
@@ -11934,6 +12527,7 @@ export const baseMoviesDrame: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Irrémédiable',
@@ -11953,6 +12547,7 @@ export const baseMoviesDrame: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Casablanca',
@@ -11989,6 +12584,11 @@ export const baseMoviesDrame: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 30,
+    oscars: [
+      { type: OscarEnum.OSCAR_BEST_MOVIE, year: 1943 },
+      { type: OscarEnum.OSCAR_BEST_DIRECTOR, year: 1943 },
+      { type: OscarEnum.OSCAR_BEST_ADAPTED_SCREENPLAY, year: 1943 },
+    ],
   },
   {
     title: 'Greenland - Le Dernier Refuge',
@@ -12025,6 +12625,7 @@ export const baseMoviesDrame: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 5,
+    oscars: [],
   },
   {
     title: 'La Cité de Dieu',
@@ -12052,6 +12653,7 @@ export const baseMoviesDrame: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['Brésil'],
     selectDisplayOrder: 5,
+    oscars: [],
   },
   {
     title: 'Wedding Daze',
@@ -12088,6 +12690,7 @@ export const baseMoviesDrame: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 5,
+    oscars: [],
   },
   {
     title: 'Hamnet',
@@ -12128,6 +12731,9 @@ export const baseMoviesDrame: BaseMovie[] = [
     },
     countryOrigin: ['Royaume-Uni'],
     selectDisplayOrder: 5,
+    oscars: [
+      { type: OscarEnum.OSCAR_BEST_ACTRESS, year: 2026 },
+    ],
   },
   {
     title: 'Un prophète',
@@ -12150,6 +12756,7 @@ export const baseMoviesDrame: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['France'],
     selectDisplayOrder: 5,
+    oscars: [],
   },
   {
     title: 'Le Rêve Américain',
@@ -12186,6 +12793,7 @@ export const baseMoviesDrame: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['France'],
     selectDisplayOrder: 5,
+    oscars: [],
   },
   {
     title: "Peaky Blinders : L'Immortel",
@@ -12219,6 +12827,7 @@ export const baseMoviesDrame: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['Royaume-Uni'],
     selectDisplayOrder: 5,
+    oscars: [],
   },
   {
     title: "L'Épreuve d'amour",
@@ -12255,6 +12864,7 @@ export const baseMoviesDrame: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['France'],
     selectDisplayOrder: 5,
+    oscars: [],
   },
   {
     title: 'The Drama',
@@ -12282,6 +12892,7 @@ export const baseMoviesDrame: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 30,
+    oscars: [],
   },
   {
     title: 'Lolita',
@@ -12304,6 +12915,7 @@ export const baseMoviesDrame: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis', 'Royaume-Uni'],
     selectDisplayOrder: 5,
+    oscars: [],
   },
   {
     title: 'Spartacus',
@@ -12326,6 +12938,12 @@ export const baseMoviesDrame: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 5,
+    oscars: [
+      { type: OscarEnum.OSCAR_BEST_SUPPORTING_ACTOR, year: 1961 },
+      { type: OscarEnum.OSCAR_BEST_PRODUCTION_DESIGN, year: 1961 },
+      { type: OscarEnum.OSCAR_BEST_CINEMATOGRAPHY, year: 1961 },
+      { type: OscarEnum.OSCAR_BEST_COSTUME_DESIGN, year: 1961 },
+    ],
   },
 
   {
@@ -12357,6 +12975,7 @@ export const baseMoviesDrame: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 5,
+    oscars: [],
   },
   {
     title: 'Smashing Machine',
@@ -12387,6 +13006,7 @@ export const baseMoviesDrame: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 30,
+    oscars: [],
   },
   {
     title: 'Jay Kelly',
@@ -12423,6 +13043,7 @@ export const baseMoviesDrame: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 5,
+    oscars: [],
   },
   {
     title: 'F1',
@@ -12459,6 +13080,9 @@ export const baseMoviesDrame: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 5,
+    oscars: [
+      { type: OscarEnum.OSCAR_BEST_SOUND, year: 2026 },
+    ],
   },
   {
     title: 'Le Son des souvenirs',
@@ -12492,6 +13116,7 @@ export const baseMoviesDrame: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 5,
+    oscars: [],
   },
   {
     title: "The Party's Over!",
@@ -12522,6 +13147,7 @@ export const baseMoviesDrame: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['France'],
     selectDisplayOrder: 5,
+    oscars: [],
   },
   {
     title: 'Highest 2 Lowest',
@@ -12552,6 +13178,7 @@ export const baseMoviesDrame: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 5,
+    oscars: [],
   },
   {
     title: 'Alpha',
@@ -12574,6 +13201,7 @@ export const baseMoviesDrame: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['France'],
     selectDisplayOrder: 5,
+    oscars: [],
   },
   {
     title: 'The Phoenician Scheme',
@@ -12604,6 +13232,7 @@ export const baseMoviesDrame: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 5,
+    oscars: [],
   },
   {
     title: 'Exit 8',
@@ -12634,6 +13263,7 @@ export const baseMoviesDrame: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 5,
+    oscars: [],
   },
   {
     title: 'Eddington',
@@ -12667,6 +13297,7 @@ export const baseMoviesDrame: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 5,
+    oscars: [],
   },
   {
     title: 'Partir un jour',
@@ -12700,6 +13331,7 @@ export const baseMoviesDrame: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['France'],
     selectDisplayOrder: 5,
+    oscars: [],
   },
   {
     title: 'Train Dreams',
@@ -12730,6 +13362,7 @@ export const baseMoviesDrame: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 5,
+    oscars: [],
   },
   {
     title: 'Un parfait inconnu',
@@ -12760,6 +13393,7 @@ export const baseMoviesDrame: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 5,
+    oscars: [],
   },
   {
     title: 'Caddo Lake',
@@ -12782,6 +13416,7 @@ export const baseMoviesDrame: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 5,
+    oscars: [],
   },
   {
     title: 'Heretic',
@@ -12812,6 +13447,7 @@ export const baseMoviesDrame: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 5,
+    oscars: [],
   },
   {
     title: 'Life of Chuck',
@@ -12842,6 +13478,7 @@ export const baseMoviesDrame: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 30,
+    oscars: [],
   },
 
   {
@@ -12865,6 +13502,13 @@ export const baseMoviesDrame: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 30,
+    oscars: [
+      { type: OscarEnum.OSCAR_BEST_MOVIE, year: 2025 },
+      { type: OscarEnum.OSCAR_BEST_DIRECTOR, year: 2025 },
+      { type: OscarEnum.OSCAR_BEST_ACTRESS, year: 2025 },
+      { type: OscarEnum.OSCAR_BEST_ORIGINAL_SCREENPLAY, year: 2025 },
+      { type: OscarEnum.OSCAR_BEST_FILM_EDITING, year: 2025 },
+    ],
   },
   {
     title: 'The Marching Band',
@@ -12895,6 +13539,7 @@ export const baseMoviesDrame: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['France'],
     selectDisplayOrder: 5,
+    oscars: [],
   },
   {
     title: 'Emilia Pérez',
@@ -12925,6 +13570,10 @@ export const baseMoviesDrame: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['France'],
     selectDisplayOrder: 30,
+    oscars: [
+      { type: OscarEnum.OSCAR_BEST_SUPPORTING_ACTRESS, year: 2025 },
+      { type: OscarEnum.OSCAR_BEST_ORIGINAL_SONG, year: 2025 },
+    ],
   },
   {
     title: 'Rebel Moon – Part Two: The Scargiver',
@@ -12955,6 +13604,7 @@ export const baseMoviesDrame: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 5,
+    oscars: [],
   },
   {
     title: 'Iron Claw',
@@ -12985,6 +13635,7 @@ export const baseMoviesDrame: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 5,
+    oscars: [],
   },
   {
     title: 'Ferrari',
@@ -13015,6 +13666,7 @@ export const baseMoviesDrame: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 5,
+    oscars: [],
   },
   {
     title: 'Killers of the Flower Moon',
@@ -13037,6 +13689,7 @@ export const baseMoviesDrame: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 5,
+    oscars: [],
   },
 
   {
@@ -13060,6 +13713,7 @@ export const baseMoviesDrame: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 5,
+    oscars: [],
   },
   {
     title: 'Knock at the Cabin',
@@ -13082,6 +13736,7 @@ export const baseMoviesDrame: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 5,
+    oscars: [],
   },
   {
     title: "Past Lives – Nos vies d'avant",
@@ -13104,6 +13759,7 @@ export const baseMoviesDrame: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 5,
+    oscars: [],
   },
   {
     title: 'Slumberland',
@@ -13126,6 +13782,7 @@ export const baseMoviesDrame: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 5,
+    oscars: [],
   },
   {
     title: 'The Whale',
@@ -13148,6 +13805,10 @@ export const baseMoviesDrame: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 30,
+    oscars: [
+      { type: OscarEnum.OSCAR_BEST_ACTOR, year: 2023 },
+      { type: OscarEnum.OSCAR_BEST_MAKEUP, year: 2023 },
+    ],
   },
   {
     title: 'Athena',
@@ -13170,6 +13831,7 @@ export const baseMoviesDrame: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['France'],
     selectDisplayOrder: 5,
+    oscars: [],
   },
   {
     title: 'The Princess',
@@ -13192,6 +13854,7 @@ export const baseMoviesDrame: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 5,
+    oscars: [],
   },
   {
     title: 'The Night of the 12th',
@@ -13214,6 +13877,7 @@ export const baseMoviesDrame: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['France'],
     selectDisplayOrder: 5,
+    oscars: [],
   },
   {
     title: 'tick, tick... BOOM!',
@@ -13236,6 +13900,7 @@ export const baseMoviesDrame: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 5,
+    oscars: [],
   },
   {
     title: 'The Last Duel',
@@ -13258,6 +13923,7 @@ export const baseMoviesDrame: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 5,
+    oscars: [],
   },
   {
     title: 'The Stronghold',
@@ -13280,6 +13946,7 @@ export const baseMoviesDrame: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 5,
+    oscars: [],
   },
   {
     title: 'The Woman in the Window',
@@ -13302,6 +13969,7 @@ export const baseMoviesDrame: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 5,
+    oscars: [],
   },
   {
     title: 'Malcolm & Marie',
@@ -13316,6 +13984,7 @@ export const baseMoviesDrame: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 5,
+    oscars: [],
   },
   {
     title: 'The Little Things',
@@ -13338,6 +14007,7 @@ export const baseMoviesDrame: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 5,
+    oscars: [],
   },
   {
     title: 'Da 5 Bloods : Frères de sang',
@@ -13360,6 +14030,7 @@ export const baseMoviesDrame: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 5,
+    oscars: [],
   },
   {
     title: 'The Invisible Man',
@@ -13382,6 +14053,7 @@ export const baseMoviesDrame: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 5,
+    oscars: [],
   },
   {
     title: 'Gemini Man',
@@ -13404,6 +14076,7 @@ export const baseMoviesDrame: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 5,
+    oscars: [],
   },
   {
     title: 'Le Mans 66',
@@ -13426,6 +14099,10 @@ export const baseMoviesDrame: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 30,
+    oscars: [
+      { type: OscarEnum.OSCAR_BEST_FILM_EDITING, year: 2020 },
+      { type: OscarEnum.OSCAR_BEST_SOUND, year: 2020 },
+    ],
   },
   {
     title: 'Marriage Story',
@@ -13448,6 +14125,9 @@ export const baseMoviesDrame: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 5,
+    oscars: [
+      { type: OscarEnum.OSCAR_BEST_SUPPORTING_ACTRESS, year: 2020 },
+    ],
   },
   {
     title: 'It Chapter Two',
@@ -13470,6 +14150,7 @@ export const baseMoviesDrame: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 5,
+    oscars: [],
   },
   {
     title: 'The Specials',
@@ -13492,6 +14173,7 @@ export const baseMoviesDrame: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['France'],
     selectDisplayOrder: 5,
+    oscars: [],
   },
   {
     title: 'Yesterday',
@@ -13514,6 +14196,7 @@ export const baseMoviesDrame: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 5,
+    oscars: [],
   },
   {
     title: 'Tolkien',
@@ -13536,6 +14219,7 @@ export const baseMoviesDrame: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 5,
+    oscars: [],
   },
   {
     title: 'Green Book : Sur les routes du Sud',
@@ -13558,6 +14242,11 @@ export const baseMoviesDrame: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 5,
+    oscars: [
+      { type: OscarEnum.OSCAR_BEST_MOVIE, year: 2019 },
+      { type: OscarEnum.OSCAR_BEST_SUPPORTING_ACTOR, year: 2019 },
+      { type: OscarEnum.OSCAR_BEST_ORIGINAL_SCREENPLAY, year: 2019 },
+    ],
   },
   {
     title: 'Dunkerque',
@@ -13580,6 +14269,10 @@ export const baseMoviesDrame: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 5,
+    oscars: [
+      { type: OscarEnum.OSCAR_BEST_FILM_EDITING, year: 2018 },
+      { type: OscarEnum.OSCAR_BEST_SOUND, year: 2018 },
+    ],
   },
   {
     title: 'Mary',
@@ -13602,6 +14295,7 @@ export const baseMoviesDrame: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 5,
+    oscars: [],
   },
   {
     title: 'Call Me by Your Name',
@@ -13624,6 +14318,9 @@ export const baseMoviesDrame: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 5,
+    oscars: [
+      { type: OscarEnum.OSCAR_BEST_ADAPTED_SCREENPLAY, year: 2018 },
+    ],
   },
   {
     title: 'Beauté cachée',
@@ -13646,6 +14343,7 @@ export const baseMoviesDrame: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 5,
+    oscars: [],
   },
   {
     title: "Les Figures de l'ombre",
@@ -13668,6 +14366,7 @@ export const baseMoviesDrame: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 5,
+    oscars: [],
   },
   {
     title: 'Moonlight',
@@ -13690,6 +14389,11 @@ export const baseMoviesDrame: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 5,
+    oscars: [
+      { type: OscarEnum.OSCAR_BEST_MOVIE, year: 2017 },
+      { type: OscarEnum.OSCAR_BEST_SUPPORTING_ACTOR, year: 2017 },
+      { type: OscarEnum.OSCAR_BEST_ADAPTED_SCREENPLAY, year: 2017 },
+    ],
   },
   {
     title: 'Steve Jobs',
@@ -13712,6 +14416,7 @@ export const baseMoviesDrame: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 5,
+    oscars: [],
   },
   {
     title: 'Éternelle Adaline',
@@ -13734,6 +14439,7 @@ export const baseMoviesDrame: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 5,
+    oscars: [],
   },
   {
     title: 'Fury',
@@ -13756,6 +14462,7 @@ export const baseMoviesDrame: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 5,
+    oscars: [],
   },
   {
     title: 'Noé',
@@ -13778,6 +14485,7 @@ export const baseMoviesDrame: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 5,
+    oscars: [],
   },
   {
     title: 'Whiplash',
@@ -13800,6 +14508,11 @@ export const baseMoviesDrame: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 30,
+    oscars: [
+      { type: OscarEnum.OSCAR_BEST_SUPPORTING_ACTOR, year: 2015 },
+      { type: OscarEnum.OSCAR_BEST_FILM_EDITING, year: 2015 },
+      { type: OscarEnum.OSCAR_BEST_SOUND, year: 2015 },
+    ],
   },
   {
     title: 'Dallas Buyers Club',
@@ -13822,6 +14535,11 @@ export const baseMoviesDrame: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 5,
+    oscars: [
+      { type: OscarEnum.OSCAR_BEST_ACTOR, year: 2014 },
+      { type: OscarEnum.OSCAR_BEST_SUPPORTING_ACTOR, year: 2014 },
+      { type: OscarEnum.OSCAR_BEST_MAKEUP, year: 2014 },
+    ],
   },
   {
     title: 'Gatsby le Magnifique',
@@ -13859,6 +14577,10 @@ export const baseMoviesDrame: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 30,
+    oscars: [
+      { type: OscarEnum.OSCAR_BEST_PRODUCTION_DESIGN, year: 2014 },
+      { type: OscarEnum.OSCAR_BEST_COSTUME_DESIGN, year: 2014 },
+    ],
   },
   {
     title: 'Jobs',
@@ -13881,6 +14603,7 @@ export const baseMoviesDrame: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 30,
+    oscars: [],
   },
   {
     title: 'La Couleur des sentiments',
@@ -13903,6 +14626,9 @@ export const baseMoviesDrame: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 5,
+    oscars: [
+      { type: OscarEnum.OSCAR_BEST_SUPPORTING_ACTRESS, year: 2012 },
+    ],
   },
   {
     title: 'Incendies',
@@ -13926,6 +14652,7 @@ export const baseMoviesDrame: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['Canada'],
     selectDisplayOrder: 30,
+    oscars: [],
   },
   {
     title: 'Le Secret de Charlie',
@@ -13948,6 +14675,7 @@ export const baseMoviesDrame: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 5,
+    oscars: [],
   },
   {
     title: 'La Rafle',
@@ -13970,6 +14698,7 @@ export const baseMoviesDrame: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 5,
+    oscars: [],
   },
   {
     title: 'La Route',
@@ -13992,6 +14721,7 @@ export const baseMoviesDrame: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 5,
+    oscars: [],
   },
   {
     title: 'Le Secret de Brokeback Mountain',
@@ -14023,6 +14753,12 @@ export const baseMoviesDrame: BaseMovie[] = [
     },
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 30,
+    oscars: [
+      { type: OscarEnum.OSCAR_BEST_DIRECTOR, year: 2006 },
+      { type: OscarEnum.OSCAR_BEST_ADAPTED_SCREENPLAY, year: 2006 },
+      { type: OscarEnum.OSCAR_BEST_ORIGINAL_SCORE, year: 2006 },
+      { type: OscarEnum.OSCAR_BEST_ORIGINAL_SONG, year: 2006 },
+    ],
   },
   {
     title: 'Hooligans',
@@ -14045,6 +14781,7 @@ export const baseMoviesDrame: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 5,
+    oscars: [],
   },
   {
     title: 'Les Choristes',
@@ -14081,6 +14818,7 @@ export const baseMoviesDrame: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['France'],
     selectDisplayOrder: 30,
+    oscars: [],
   },
   {
     title: 'Street Dancers',
@@ -14103,6 +14841,7 @@ export const baseMoviesDrame: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 5,
+    oscars: [],
   },
   {
     title: 'Lost in Translation',
@@ -14125,6 +14864,9 @@ export const baseMoviesDrame: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 5,
+    oscars: [
+      { type: OscarEnum.OSCAR_BEST_ORIGINAL_SCREENPLAY, year: 2004 },
+    ],
   },
   {
     title: 'Gangs of New York',
@@ -14147,6 +14889,7 @@ export const baseMoviesDrame: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 5,
+    oscars: [],
   },
   {
     title: 'Erin Brockovich, seule contre tous',
@@ -14170,6 +14913,9 @@ export const baseMoviesDrame: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 30,
+    oscars: [
+      { type: OscarEnum.OSCAR_BEST_ACTRESS, year: 2001 },
+    ],
   },
   {
     title: 'Ghost Dog : La Voie du samouraï',
@@ -14192,6 +14938,7 @@ export const baseMoviesDrame: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 5,
+    oscars: [],
   },
   {
     title: 'American History X',
@@ -14214,6 +14961,7 @@ export const baseMoviesDrame: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 30,
+    oscars: [],
   },
   {
     title: 'Bodyguard',
@@ -14236,6 +14984,7 @@ export const baseMoviesDrame: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 5,
+    oscars: [],
   },
   {
     title: 'Thelma et Louise',
@@ -14259,6 +15008,9 @@ export const baseMoviesDrame: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 30,
+    oscars: [
+      { type: OscarEnum.OSCAR_BEST_ORIGINAL_SCREENPLAY, year: 1992 },
+    ],
   },
   {
     title: 'Rain Man',
@@ -14281,6 +15033,12 @@ export const baseMoviesDrame: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 5,
+    oscars: [
+      { type: OscarEnum.OSCAR_BEST_MOVIE, year: 1989 },
+      { type: OscarEnum.OSCAR_BEST_DIRECTOR, year: 1989 },
+      { type: OscarEnum.OSCAR_BEST_ACTOR, year: 1989 },
+      { type: OscarEnum.OSCAR_BEST_ORIGINAL_SCREENPLAY, year: 1989 },
+    ],
   },
   {
     title: 'Full Metal Jacket',
@@ -14303,6 +15061,7 @@ export const baseMoviesDrame: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 30,
+    oscars: [],
   },
   {
     title: 'Stand by Me',
@@ -14325,6 +15084,7 @@ export const baseMoviesDrame: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 30,
+    oscars: [],
   },
   {
     title: 'Breakfast Club',
@@ -14347,6 +15107,7 @@ export const baseMoviesDrame: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 5,
+    oscars: [],
   },
   {
     title: 'Amadeus',
@@ -14369,5 +15130,15 @@ export const baseMoviesDrame: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 30,
+    oscars: [
+      { type: OscarEnum.OSCAR_BEST_MOVIE, year: 1985 },
+      { type: OscarEnum.OSCAR_BEST_DIRECTOR, year: 1985 },
+      { type: OscarEnum.OSCAR_BEST_ACTOR, year: 1985 },
+      { type: OscarEnum.OSCAR_BEST_ADAPTED_SCREENPLAY, year: 1985 },
+      { type: OscarEnum.OSCAR_BEST_SOUND, year: 1985 },
+      { type: OscarEnum.OSCAR_BEST_PRODUCTION_DESIGN, year: 1985 },
+      { type: OscarEnum.OSCAR_BEST_MAKEUP, year: 1985 },
+      { type: OscarEnum.OSCAR_BEST_COSTUME_DESIGN, year: 1985 },
+    ],
   },
 ];

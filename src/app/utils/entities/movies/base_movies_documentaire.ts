@@ -36,6 +36,7 @@ export const baseMoviesDocumentaire: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Magnifique désolation : marchons sur la lune',
@@ -72,6 +73,7 @@ export const baseMoviesDocumentaire: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Catching Fire: The Story of Anita Pallenberg',
@@ -108,6 +110,7 @@ export const baseMoviesDocumentaire: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Muganga - Celui qui soigne',
@@ -144,6 +147,7 @@ export const baseMoviesDocumentaire: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Val',
@@ -166,6 +170,7 @@ export const baseMoviesDocumentaire: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Derrière nos écrans de fumée',
@@ -188,6 +193,7 @@ export const baseMoviesDocumentaire: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Les Étoiles Vagabondes',
@@ -211,6 +217,7 @@ export const baseMoviesDocumentaire: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['France'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Pornhub : Gros plan sur le géant du sexe',
@@ -234,5 +241,6 @@ export const baseMoviesDocumentaire: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
 ];

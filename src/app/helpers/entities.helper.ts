@@ -321,6 +321,7 @@ export const getMovieDataFromUserMovieAndBaseMovie = (
   countryOrigin: baseMovie?.countryOrigin ?? [],
   selectDisplayOrder: baseMovie?.selectDisplayOrder ?? 0,
   fromEntity: baseMovie?.fromEntity ?? null,
+  oscars: baseMovie?.oscars ?? [],
   ratingComment: userMovie.ratingComment ?? '',
   inList: userMovie.inList ?? [],
   borrowed: userMovie.borrowed ?? '',

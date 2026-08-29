@@ -60,6 +60,7 @@ export class AdminMoviesHeaderComponent {
     if (view === 'actors') return 'Films par acteur';
     if (view === 'directors') return 'Films par réalisateur';
     if (view === 'countries') return 'Films par pays';
+    if (view === 'oscars') return 'Films par Oscars';
     return 'Films';
   });
 

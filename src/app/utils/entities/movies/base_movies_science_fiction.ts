@@ -1,4 +1,4 @@
-import { BaseMovie } from '../../../models/movie-model';
+import { BaseMovie, OscarEnum } from '../../../models/movie-model';
 
 export const baseMoviesScienceFiction: BaseMovie[] = [
   {
@@ -36,6 +36,7 @@ export const baseMoviesScienceFiction: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 30,
+    oscars: [],
   },
   {
     title: 'Mickey 17',
@@ -72,6 +73,7 @@ export const baseMoviesScienceFiction: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 30,
+    oscars: [],
   },
   {
     title: 'Blade Runner',
@@ -112,6 +114,7 @@ export const baseMoviesScienceFiction: BaseMovie[] = [
     },
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 20,
+    oscars: [],
   },
   {
     title: 'Blade Runner 2049',
@@ -152,6 +155,10 @@ export const baseMoviesScienceFiction: BaseMovie[] = [
     },
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [
+      { type: OscarEnum.OSCAR_BEST_CINEMATOGRAPHY, year: 2018 },
+      { type: OscarEnum.OSCAR_BEST_VISUAL_EFFECTS, year: 2018 },
+    ],
   },
   {
     title: 'La 5ème Vague',
@@ -178,6 +185,7 @@ export const baseMoviesScienceFiction: BaseMovie[] = [
     },
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 10,
+    oscars: [],
   },
 
   {
@@ -215,6 +223,15 @@ export const baseMoviesScienceFiction: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 30,
+    oscars: [
+      { type: OscarEnum.OSCAR_BEST_MOVIE, year: 2023 },
+      { type: OscarEnum.OSCAR_BEST_DIRECTOR, year: 2023 },
+      { type: OscarEnum.OSCAR_BEST_ACTRESS, year: 2023 },
+      { type: OscarEnum.OSCAR_BEST_SUPPORTING_ACTOR, year: 2023 },
+      { type: OscarEnum.OSCAR_BEST_SUPPORTING_ACTRESS, year: 2023 },
+      { type: OscarEnum.OSCAR_BEST_ORIGINAL_SCREENPLAY, year: 2023 },
+      { type: OscarEnum.OSCAR_BEST_FILM_EDITING, year: 2023 },
+    ],
   },
   {
     title: 'The One',
@@ -251,6 +268,7 @@ export const baseMoviesScienceFiction: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 30,
+    oscars: [],
   },
   {
     title: "A l'aube du 6ème jour",
@@ -273,6 +291,7 @@ export const baseMoviesScienceFiction: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Premier contact',
@@ -295,6 +314,9 @@ export const baseMoviesScienceFiction: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 30,
+    oscars: [
+      { type: OscarEnum.OSCAR_BEST_SOUND, year: 2017 },
+    ],
   },
   {
     title: 'Source Code',
@@ -317,6 +339,7 @@ export const baseMoviesScienceFiction: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: "Le Jour d'Après",
@@ -353,6 +376,7 @@ export const baseMoviesScienceFiction: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 30,
+    oscars: [],
   },
   {
     title: 'Equilibrium',
@@ -389,6 +413,7 @@ export const baseMoviesScienceFiction: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 30,
+    oscars: [],
   },
   {
     title: 'Chaos Walking',
@@ -425,6 +450,7 @@ export const baseMoviesScienceFiction: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Tenet',
@@ -462,6 +488,9 @@ export const baseMoviesScienceFiction: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 30,
+    oscars: [
+      { type: OscarEnum.OSCAR_BEST_VISUAL_EFFECTS, year: 2021 },
+    ],
   },
   {
     title: 'Minority Report',
@@ -498,6 +527,7 @@ export const baseMoviesScienceFiction: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 30,
+    oscars: [],
   },
   {
     title: 'La guerre des mondes',
@@ -538,6 +568,7 @@ export const baseMoviesScienceFiction: BaseMovie[] = [
     },
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 30,
+    oscars: [],
   },
   {
     title: 'La guerre des mondes (1953)',
@@ -578,6 +609,9 @@ export const baseMoviesScienceFiction: BaseMovie[] = [
     },
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [
+      { type: OscarEnum.OSCAR_BEST_VISUAL_EFFECTS, year: 1954 },
+    ],
   },
   {
     title: 'La grande guerre martienne (1913-1917)',
@@ -596,6 +630,7 @@ export const baseMoviesScienceFiction: BaseMovie[] = [
     },
     countryOrigin: ['Royaume-Uni', 'Canada'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'A.I. Intelligence artificielle',
@@ -632,6 +667,7 @@ export const baseMoviesScienceFiction: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'E.T. the Extra-Terrestrial',
@@ -669,6 +705,11 @@ export const baseMoviesScienceFiction: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 30,
+    oscars: [
+      { type: OscarEnum.OSCAR_BEST_ORIGINAL_SCORE, year: 1983 },
+      { type: OscarEnum.OSCAR_BEST_SOUND, year: 1983 },
+      { type: OscarEnum.OSCAR_BEST_VISUAL_EFFECTS, year: 1983 },
+    ],
   },
   {
     title: 'Ready Player One',
@@ -709,6 +750,7 @@ export const baseMoviesScienceFiction: BaseMovie[] = [
     },
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 30,
+    oscars: [],
   },
   {
     title: 'Le Cinquième Élément',
@@ -745,6 +787,7 @@ export const baseMoviesScienceFiction: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['France'],
     selectDisplayOrder: 30,
+    oscars: [],
   },
   {
     title: 'Serenity',
@@ -781,6 +824,7 @@ export const baseMoviesScienceFiction: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Valérian et la Cité des Mille Planètes',
@@ -818,6 +862,7 @@ export const baseMoviesScienceFiction: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['France'],
     selectDisplayOrder: 30,
+    oscars: [],
   },
   {
     title: 'Interstellar',
@@ -840,6 +885,9 @@ export const baseMoviesScienceFiction: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 30,
+    oscars: [
+      { type: OscarEnum.OSCAR_BEST_VISUAL_EFFECTS, year: 2015 },
+    ],
   },
   {
     title: 'Prédictions',
@@ -876,6 +924,7 @@ export const baseMoviesScienceFiction: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Jumper',
@@ -916,6 +965,7 @@ export const baseMoviesScienceFiction: BaseMovie[] = [
     },
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Je Suis une Légende',
@@ -956,6 +1006,7 @@ export const baseMoviesScienceFiction: BaseMovie[] = [
     },
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 30,
+    oscars: [],
   },
   {
     title: 'Push',
@@ -992,6 +1043,7 @@ export const baseMoviesScienceFiction: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Super 8',
@@ -1028,6 +1080,7 @@ export const baseMoviesScienceFiction: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Inception',
@@ -1064,6 +1117,11 @@ export const baseMoviesScienceFiction: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 30,
+    oscars: [
+      { type: OscarEnum.OSCAR_BEST_CINEMATOGRAPHY, year: 2011 },
+      { type: OscarEnum.OSCAR_BEST_SOUND, year: 2011 },
+      { type: OscarEnum.OSCAR_BEST_VISUAL_EFFECTS, year: 2011 },
+    ],
   },
   {
     title: 'Mr. Nobody',
@@ -1100,6 +1158,7 @@ export const baseMoviesScienceFiction: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 30,
+    oscars: [],
   },
   {
     title: 'Edge of Tomorrow',
@@ -1140,6 +1199,7 @@ export const baseMoviesScienceFiction: BaseMovie[] = [
     },
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 30,
+    oscars: [],
   },
   {
     title: 'Gravity',
@@ -1170,6 +1230,14 @@ export const baseMoviesScienceFiction: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 30,
+    oscars: [
+      { type: OscarEnum.OSCAR_BEST_DIRECTOR, year: 2014 },
+      { type: OscarEnum.OSCAR_BEST_CINEMATOGRAPHY, year: 2014 },
+      { type: OscarEnum.OSCAR_BEST_FILM_EDITING, year: 2014 },
+      { type: OscarEnum.OSCAR_BEST_ORIGINAL_SCORE, year: 2014 },
+      { type: OscarEnum.OSCAR_BEST_SOUND, year: 2014 },
+      { type: OscarEnum.OSCAR_BEST_VISUAL_EFFECTS, year: 2014 },
+    ],
   },
   {
     title: 'Elysium',
@@ -1206,6 +1274,7 @@ export const baseMoviesScienceFiction: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'After Earth',
@@ -1242,6 +1311,7 @@ export const baseMoviesScienceFiction: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Oblivion',
@@ -1264,6 +1334,7 @@ export const baseMoviesScienceFiction: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Chronicle',
@@ -1297,6 +1368,7 @@ export const baseMoviesScienceFiction: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Time Out',
@@ -1333,6 +1405,7 @@ export const baseMoviesScienceFiction: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 30,
+    oscars: [],
   },
   {
     title: 'Cowboys & Aliens',
@@ -1369,6 +1442,7 @@ export const baseMoviesScienceFiction: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'The Running Man',
@@ -1409,6 +1483,7 @@ export const baseMoviesScienceFiction: BaseMovie[] = [
     },
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Total Recall',
@@ -1445,6 +1520,9 @@ export const baseMoviesScienceFiction: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [
+      { type: OscarEnum.OSCAR_BEST_VISUAL_EFFECTS, year: 1991 },
+    ],
   },
   {
     title: 'Adam à travers le temps',
@@ -1472,6 +1550,7 @@ export const baseMoviesScienceFiction: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'The Electric State',
@@ -1508,6 +1587,7 @@ export const baseMoviesScienceFiction: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Renaissances',
@@ -1544,6 +1624,7 @@ export const baseMoviesScienceFiction: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Companion',
@@ -1580,6 +1661,7 @@ export const baseMoviesScienceFiction: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Predestination',
@@ -1610,6 +1692,7 @@ export const baseMoviesScienceFiction: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Looper',
@@ -1646,6 +1729,7 @@ export const baseMoviesScienceFiction: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Seul sur Mars',
@@ -1682,6 +1766,7 @@ export const baseMoviesScienceFiction: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 30,
+    oscars: [],
   },
   {
     title: 'Seul contre tous',
@@ -1718,6 +1803,7 @@ export const baseMoviesScienceFiction: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'La Fin des temps',
@@ -1754,6 +1840,7 @@ export const baseMoviesScienceFiction: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: "L'Armée des 12 singes",
@@ -1776,6 +1863,7 @@ export const baseMoviesScienceFiction: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 30,
+    oscars: [],
   },
   {
     title: 'Clones',
@@ -1812,6 +1900,7 @@ export const baseMoviesScienceFiction: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Ad Astra',
@@ -1848,6 +1937,7 @@ export const baseMoviesScienceFiction: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Cloud Atlas',
@@ -1884,6 +1974,7 @@ export const baseMoviesScienceFiction: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Finch',
@@ -1917,6 +2008,7 @@ export const baseMoviesScienceFiction: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Vanilla Sky',
@@ -1953,6 +2045,7 @@ export const baseMoviesScienceFiction: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Okja',
@@ -1989,6 +2082,7 @@ export const baseMoviesScienceFiction: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['Corée du Sud'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Reminiscence',
@@ -2025,6 +2119,7 @@ export const baseMoviesScienceFiction: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'A Scanner Darkly',
@@ -2061,6 +2156,7 @@ export const baseMoviesScienceFiction: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Spaceman',
@@ -2094,6 +2190,7 @@ export const baseMoviesScienceFiction: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'The Island',
@@ -2116,6 +2213,7 @@ export const baseMoviesScienceFiction: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Ghost in the Shell',
@@ -2152,6 +2250,7 @@ export const baseMoviesScienceFiction: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Final cut',
@@ -2188,6 +2287,7 @@ export const baseMoviesScienceFiction: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Deep Impact',
@@ -2225,6 +2325,7 @@ export const baseMoviesScienceFiction: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Transcendance',
@@ -2247,6 +2348,7 @@ export const baseMoviesScienceFiction: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Signes',
@@ -2283,6 +2385,7 @@ export const baseMoviesScienceFiction: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 30,
+    oscars: [],
   },
   {
     title: 'Annihilation',
@@ -2319,6 +2422,7 @@ export const baseMoviesScienceFiction: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Passengers',
@@ -2355,6 +2459,7 @@ export const baseMoviesScienceFiction: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'La Mutante',
@@ -2391,6 +2496,7 @@ export const baseMoviesScienceFiction: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Anon',
@@ -2427,6 +2533,7 @@ export const baseMoviesScienceFiction: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Seven Sisters',
@@ -2449,6 +2556,7 @@ export const baseMoviesScienceFiction: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: "2001 : L'Odyssée de l'espace",
@@ -2485,6 +2593,7 @@ export const baseMoviesScienceFiction: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['France'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Dune',
@@ -2521,6 +2630,7 @@ export const baseMoviesScienceFiction: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Mimic',
@@ -2557,6 +2667,7 @@ export const baseMoviesScienceFiction: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'THX 1138',
@@ -2593,6 +2704,7 @@ export const baseMoviesScienceFiction: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Videodrome',
@@ -2629,6 +2741,7 @@ export const baseMoviesScienceFiction: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['Canada'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'La Mouche',
@@ -2659,6 +2772,9 @@ export const baseMoviesScienceFiction: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis', 'Canada'],
     selectDisplayOrder: 0,
+    oscars: [
+      { type: OscarEnum.OSCAR_BEST_MAKEUP, year: 1987 },
+    ],
   },
   {
     title: 'eXistenZ',
@@ -2695,6 +2811,7 @@ export const baseMoviesScienceFiction: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['Canada', 'Royaume-Uni', 'France'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Scanners',
@@ -2731,6 +2848,7 @@ export const baseMoviesScienceFiction: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['Canada'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'They Live',
@@ -2767,6 +2885,7 @@ export const baseMoviesScienceFiction: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Snowpiercer',
@@ -2803,6 +2922,7 @@ export const baseMoviesScienceFiction: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['Corée du Sud'],
     selectDisplayOrder: 30,
+    oscars: [],
   },
   {
     title: 'District 9',
@@ -2839,6 +2959,7 @@ export const baseMoviesScienceFiction: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 30,
+    oscars: [],
   },
   {
     title: 'Gattaca',
@@ -2875,6 +2996,7 @@ export const baseMoviesScienceFiction: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 30,
+    oscars: [],
   },
   {
     title: 'Mars Attacks !',
@@ -2911,6 +3033,7 @@ export const baseMoviesScienceFiction: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 5,
+    oscars: [],
   },
   {
     title: 'Nope',
@@ -2947,6 +3070,7 @@ export const baseMoviesScienceFiction: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 5,
+    oscars: [],
   },
   {
     title: 'Orange mécanique',
@@ -2971,6 +3095,7 @@ export const baseMoviesScienceFiction: BaseMovie[] = [
     },
     countryOrigin: ['Royaume-Uni'],
     selectDisplayOrder: 30,
+    oscars: [],
   },
   {
     title: 'Projet Dernière Chance',
@@ -3007,6 +3132,7 @@ export const baseMoviesScienceFiction: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 30,
+    oscars: [],
   },
 
   {
@@ -3042,6 +3168,7 @@ export const baseMoviesScienceFiction: BaseMovie[] = [
     },
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 30,
+    oscars: [],
   },
   {
     title: 'Megalopolis',
@@ -3072,6 +3199,7 @@ export const baseMoviesScienceFiction: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 5,
+    oscars: [],
   },
   {
     title: 'Code 8 : Partie II',
@@ -3102,6 +3230,7 @@ export const baseMoviesScienceFiction: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['Canada'],
     selectDisplayOrder: 5,
+    oscars: [],
   },
   {
     title: 'Rebel Moon - Partie 1 : Enfant du feu',
@@ -3132,6 +3261,7 @@ export const baseMoviesScienceFiction: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 5,
+    oscars: [],
   },
   {
     title: 'The Creator',
@@ -3162,6 +3292,7 @@ export const baseMoviesScienceFiction: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 5,
+    oscars: [],
   },
   {
     title: 'Le Visiteur du Futur',
@@ -3184,6 +3315,7 @@ export const baseMoviesScienceFiction: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['France'],
     selectDisplayOrder: 5,
+    oscars: [],
   },
   {
     title: 'Code 8',
@@ -3206,6 +3338,7 @@ export const baseMoviesScienceFiction: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['Canada'],
     selectDisplayOrder: 5,
+    oscars: [],
   },
 
   {
@@ -3228,6 +3361,7 @@ export const baseMoviesScienceFiction: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 5,
+    oscars: [],
   },
   {
     title: 'À la poursuite de demain',
@@ -3250,6 +3384,7 @@ export const baseMoviesScienceFiction: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 5,
+    oscars: [],
   },
   {
     title: 'Chappie',
@@ -3272,6 +3407,7 @@ export const baseMoviesScienceFiction: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 5,
+    oscars: [],
   },
   {
     title: 'Her',
@@ -3294,6 +3430,9 @@ export const baseMoviesScienceFiction: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 30,
+    oscars: [
+      { type: OscarEnum.OSCAR_BEST_ORIGINAL_SCREENPLAY, year: 2014 },
+    ],
   },
   {
     title: 'Sunshine',
@@ -3316,6 +3455,7 @@ export const baseMoviesScienceFiction: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 5,
+    oscars: [],
   },
   {
     title: "Les Fils de l'homme",
@@ -3338,5 +3478,6 @@ export const baseMoviesScienceFiction: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 5,
+    oscars: [],
   },
 ];

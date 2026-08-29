@@ -1,4 +1,4 @@
-import { BaseMovie } from '../../../models/movie-model';
+import { BaseMovie, OscarEnum } from '../../../models/movie-model';
 
 export const baseMoviesAnimationDisneyPixarDreamworks: BaseMovie[] = [
   {
@@ -24,6 +24,7 @@ export const baseMoviesAnimationDisneyPixarDreamworks: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 25,
+    oscars: [],
   },
   {
     title: "Les Aventures de Winnie L'Ourson",
@@ -42,6 +43,7 @@ export const baseMoviesAnimationDisneyPixarDreamworks: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 25,
+    oscars: [],
   },
   {
     title: "Winnie L'Ourson 2 - Le grand voyage",
@@ -60,6 +62,7 @@ export const baseMoviesAnimationDisneyPixarDreamworks: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 25,
+    oscars: [],
   },
   {
     title: "Les Aventures de Tigrou et de Winnie l'ourson",
@@ -78,6 +81,7 @@ export const baseMoviesAnimationDisneyPixarDreamworks: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 25,
+    oscars: [],
   },
   {
     title: 'Les Aventures de Porcinet',
@@ -96,6 +100,7 @@ export const baseMoviesAnimationDisneyPixarDreamworks: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 25,
+    oscars: [],
   },
   {
     title: 'Les Aventures de Petit Gourou',
@@ -114,6 +119,7 @@ export const baseMoviesAnimationDisneyPixarDreamworks: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 25,
+    oscars: [],
   },
   {
     title: 'Blanche-Neige et les Sept Nains',
@@ -128,6 +134,7 @@ export const baseMoviesAnimationDisneyPixarDreamworks: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 25,
+    oscars: [],
   },
   {
     title: 'Pinocchio',
@@ -147,6 +154,10 @@ export const baseMoviesAnimationDisneyPixarDreamworks: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 25,
+    oscars: [
+      { type: OscarEnum.OSCAR_BEST_ORIGINAL_SCORE, year: 1941 },
+      { type: OscarEnum.OSCAR_BEST_ORIGINAL_SONG, year: 1941 },
+    ],
   },
   {
     title: 'Fantasia',
@@ -168,6 +179,7 @@ export const baseMoviesAnimationDisneyPixarDreamworks: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 25,
+    oscars: [],
   },
   {
     title: 'Fantasia 2000',
@@ -182,6 +194,7 @@ export const baseMoviesAnimationDisneyPixarDreamworks: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 25,
+    oscars: [],
   },
   {
     title: 'Dumbo',
@@ -206,6 +219,9 @@ export const baseMoviesAnimationDisneyPixarDreamworks: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 25,
+    oscars: [
+      { type: OscarEnum.OSCAR_BEST_ORIGINAL_SCORE, year: 1942 },
+    ],
   },
   {
     title: 'Bambi',
@@ -220,6 +236,7 @@ export const baseMoviesAnimationDisneyPixarDreamworks: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 25,
+    oscars: [],
   },
   {
     title: 'Pierre et le Loup',
@@ -234,6 +251,7 @@ export const baseMoviesAnimationDisneyPixarDreamworks: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 25,
+    oscars: [],
   },
   {
     title: 'Cendrillon',
@@ -248,6 +266,7 @@ export const baseMoviesAnimationDisneyPixarDreamworks: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 25,
+    oscars: [],
   },
   {
     title: 'Cendrillon 2 : Une vie de princesse',
@@ -266,6 +285,7 @@ export const baseMoviesAnimationDisneyPixarDreamworks: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 25,
+    oscars: [],
   },
   {
     title: 'Alice au pays des merveilles',
@@ -280,6 +300,7 @@ export const baseMoviesAnimationDisneyPixarDreamworks: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 25,
+    oscars: [],
   },
   {
     title: 'Peter Pan',
@@ -294,6 +315,7 @@ export const baseMoviesAnimationDisneyPixarDreamworks: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 25,
+    oscars: [],
   },
   {
     title: 'Peter Pan 2 : Retour au pays imaginaire',
@@ -312,6 +334,7 @@ export const baseMoviesAnimationDisneyPixarDreamworks: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 25,
+    oscars: [],
   },
   {
     title: 'La Belle et le Clochard',
@@ -326,6 +349,7 @@ export const baseMoviesAnimationDisneyPixarDreamworks: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 25,
+    oscars: [],
   },
   {
     title: "La Belle et le Clochard 2 : L'Appel de la rue",
@@ -344,6 +368,7 @@ export const baseMoviesAnimationDisneyPixarDreamworks: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 25,
+    oscars: [],
   },
   {
     title: 'La Belle au bois dormant',
@@ -358,6 +383,7 @@ export const baseMoviesAnimationDisneyPixarDreamworks: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 25,
+    oscars: [],
   },
   {
     title: 'Les 101 Dalmatiens',
@@ -372,6 +398,7 @@ export const baseMoviesAnimationDisneyPixarDreamworks: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 25,
+    oscars: [],
   },
   {
     title: 'Les 101 Dalmatiens 2 : Sur la trace des héros',
@@ -390,6 +417,7 @@ export const baseMoviesAnimationDisneyPixarDreamworks: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 25,
+    oscars: [],
   },
   {
     title: "Merlin l'enchanteur",
@@ -408,6 +436,7 @@ export const baseMoviesAnimationDisneyPixarDreamworks: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 25,
+    oscars: [],
   },
   {
     title: 'Le Livre de la jungle',
@@ -429,6 +458,7 @@ export const baseMoviesAnimationDisneyPixarDreamworks: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 25,
+    oscars: [],
   },
   {
     title: 'Le Livre de la jungle 2',
@@ -447,6 +477,7 @@ export const baseMoviesAnimationDisneyPixarDreamworks: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 25,
+    oscars: [],
   },
   {
     title: 'Robin des bois',
@@ -465,6 +496,7 @@ export const baseMoviesAnimationDisneyPixarDreamworks: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 25,
+    oscars: [],
   },
   {
     title: 'Les Aventures de Bernard et Bianca',
@@ -483,6 +515,7 @@ export const baseMoviesAnimationDisneyPixarDreamworks: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 25,
+    oscars: [],
   },
   {
     title: 'Bernard et Bianca au pays des kangourous',
@@ -501,6 +534,7 @@ export const baseMoviesAnimationDisneyPixarDreamworks: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 25,
+    oscars: [],
   },
   {
     title: 'Peter et Elliott le dragon',
@@ -519,6 +553,7 @@ export const baseMoviesAnimationDisneyPixarDreamworks: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 25,
+    oscars: [],
   },
   {
     title: 'Rox et Rouky',
@@ -537,6 +572,7 @@ export const baseMoviesAnimationDisneyPixarDreamworks: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 25,
+    oscars: [],
   },
   {
     title: 'Rox et Rouky 2',
@@ -555,6 +591,7 @@ export const baseMoviesAnimationDisneyPixarDreamworks: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 25,
+    oscars: [],
   },
   {
     title: 'La petite sirène',
@@ -569,6 +606,10 @@ export const baseMoviesAnimationDisneyPixarDreamworks: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 25,
+    oscars: [
+      { type: OscarEnum.OSCAR_BEST_ORIGINAL_SCORE, year: 1990 },
+      { type: OscarEnum.OSCAR_BEST_ORIGINAL_SONG, year: 1990 },
+    ],
   },
   {
     title: "La Petite Sirène 2 : Retour à l'océan",
@@ -583,6 +624,7 @@ export const baseMoviesAnimationDisneyPixarDreamworks: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 25,
+    oscars: [],
   },
   {
     title: 'La Belle et la Bête',
@@ -619,6 +661,10 @@ export const baseMoviesAnimationDisneyPixarDreamworks: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 25,
+    oscars: [
+      { type: OscarEnum.OSCAR_BEST_ORIGINAL_SCORE, year: 1992 },
+      { type: OscarEnum.OSCAR_BEST_ORIGINAL_SONG, year: 1992 },
+    ],
   },
   {
     title: 'Le Monde magique de la Belle et la Bête',
@@ -633,6 +679,7 @@ export const baseMoviesAnimationDisneyPixarDreamworks: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 25,
+    oscars: [],
   },
   {
     title: 'Aladdin',
@@ -647,6 +694,10 @@ export const baseMoviesAnimationDisneyPixarDreamworks: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 25,
+    oscars: [
+      { type: OscarEnum.OSCAR_BEST_ORIGINAL_SCORE, year: 1993 },
+      { type: OscarEnum.OSCAR_BEST_ORIGINAL_SONG, year: 1993 },
+    ],
   },
   {
     title: 'Le Retour de Jafar',
@@ -661,6 +712,7 @@ export const baseMoviesAnimationDisneyPixarDreamworks: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 25,
+    oscars: [],
   },
   {
     title: 'Aladdin et le Roi des voleurs',
@@ -675,6 +727,7 @@ export const baseMoviesAnimationDisneyPixarDreamworks: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 25,
+    oscars: [],
   },
   {
     title: 'Le Roi Lion',
@@ -689,6 +742,10 @@ export const baseMoviesAnimationDisneyPixarDreamworks: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 25,
+    oscars: [
+      { type: OscarEnum.OSCAR_BEST_ORIGINAL_SCORE, year: 1995 },
+      { type: OscarEnum.OSCAR_BEST_ORIGINAL_SONG, year: 1995 },
+    ],
   },
   {
     title: "Le Roi Lion 2 : L'Honneur de la tribu",
@@ -703,6 +760,7 @@ export const baseMoviesAnimationDisneyPixarDreamworks: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 25,
+    oscars: [],
   },
   {
     title: 'Le Roi Lion 3 - Hakuna Matata',
@@ -721,6 +779,7 @@ export const baseMoviesAnimationDisneyPixarDreamworks: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 25,
+    oscars: [],
   },
   {
     title: 'Dingo et Max',
@@ -739,6 +798,7 @@ export const baseMoviesAnimationDisneyPixarDreamworks: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 25,
+    oscars: [],
   },
   {
     title: "Dingo et Max 2 : Les Sportifs de l'extrême",
@@ -757,6 +817,7 @@ export const baseMoviesAnimationDisneyPixarDreamworks: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 25,
+    oscars: [],
   },
   {
     title: 'Pocahontas',
@@ -771,6 +832,10 @@ export const baseMoviesAnimationDisneyPixarDreamworks: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 25,
+    oscars: [
+      { type: OscarEnum.OSCAR_BEST_ORIGINAL_SCORE, year: 1996 },
+      { type: OscarEnum.OSCAR_BEST_ORIGINAL_SONG, year: 1996 },
+    ],
   },
   {
     title: 'Pocahontas 2 : Un monde nouveau',
@@ -785,6 +850,7 @@ export const baseMoviesAnimationDisneyPixarDreamworks: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 25,
+    oscars: [],
   },
   {
     title: 'Le Bossu de Notre-Dame',
@@ -799,6 +865,7 @@ export const baseMoviesAnimationDisneyPixarDreamworks: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 25,
+    oscars: [],
   },
   {
     title: 'Anastasia',
@@ -813,6 +880,7 @@ export const baseMoviesAnimationDisneyPixarDreamworks: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 25,
+    oscars: [],
   },
 
   {
@@ -850,6 +918,7 @@ export const baseMoviesAnimationDisneyPixarDreamworks: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 25,
+    oscars: [],
   },
   {
     title: 'Mulan',
@@ -887,6 +956,7 @@ export const baseMoviesAnimationDisneyPixarDreamworks: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 25,
+    oscars: [],
   },
   {
     title: 'Mulan 2',
@@ -901,6 +971,7 @@ export const baseMoviesAnimationDisneyPixarDreamworks: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 25,
+    oscars: [],
   },
   {
     title: 'Tarzan',
@@ -925,6 +996,9 @@ export const baseMoviesAnimationDisneyPixarDreamworks: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 25,
+    oscars: [
+      { type: OscarEnum.OSCAR_BEST_ORIGINAL_SONG, year: 2000 },
+    ],
   },
   {
     title: 'La Légende de Tarzan et Jane',
@@ -949,6 +1023,7 @@ export const baseMoviesAnimationDisneyPixarDreamworks: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 25,
+    oscars: [],
   },
   {
     title: 'Tarzan 2',
@@ -963,6 +1038,7 @@ export const baseMoviesAnimationDisneyPixarDreamworks: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 25,
+    oscars: [],
   },
   {
     title: 'Dinosaure',
@@ -999,6 +1075,7 @@ export const baseMoviesAnimationDisneyPixarDreamworks: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 25,
+    oscars: [],
   },
   {
     title: "Kuzco, l'Empereur mégalo",
@@ -1013,6 +1090,7 @@ export const baseMoviesAnimationDisneyPixarDreamworks: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 25,
+    oscars: [],
   },
   {
     title: 'Kuzco 2',
@@ -1032,6 +1110,7 @@ export const baseMoviesAnimationDisneyPixarDreamworks: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 25,
+    oscars: [],
   },
   {
     title: "Atlantide : L'Empire perdu",
@@ -1046,6 +1125,7 @@ export const baseMoviesAnimationDisneyPixarDreamworks: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 25,
+    oscars: [],
   },
   {
     title: 'Lilo et Stitch',
@@ -1060,6 +1140,7 @@ export const baseMoviesAnimationDisneyPixarDreamworks: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 25,
+    oscars: [],
   },
   {
     title: 'La Planète au trésor',
@@ -1085,6 +1166,7 @@ export const baseMoviesAnimationDisneyPixarDreamworks: BaseMovie[] = [
     },
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 25,
+    oscars: [],
   },
   {
     title: 'Frère des ours',
@@ -1099,6 +1181,7 @@ export const baseMoviesAnimationDisneyPixarDreamworks: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 25,
+    oscars: [],
   },
   {
     title: 'Volt, star malgré lui',
@@ -1113,6 +1196,7 @@ export const baseMoviesAnimationDisneyPixarDreamworks: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 25,
+    oscars: [],
   },
   {
     title: 'La Princesse et la Grenouille',
@@ -1127,6 +1211,7 @@ export const baseMoviesAnimationDisneyPixarDreamworks: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 25,
+    oscars: [],
   },
   {
     title: 'Raiponce',
@@ -1151,6 +1236,7 @@ export const baseMoviesAnimationDisneyPixarDreamworks: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 25,
+    oscars: [],
   },
   {
     title: 'Rio',
@@ -1165,6 +1251,7 @@ export const baseMoviesAnimationDisneyPixarDreamworks: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 25,
+    oscars: [],
   },
   {
     title: 'Les Mondes de Ralph',
@@ -1179,6 +1266,7 @@ export const baseMoviesAnimationDisneyPixarDreamworks: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 25,
+    oscars: [],
   },
   {
     title: 'Ralph 2.0',
@@ -1197,6 +1285,7 @@ export const baseMoviesAnimationDisneyPixarDreamworks: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 25,
+    oscars: [],
   },
   {
     title: 'La Reine des Neiges',
@@ -1211,6 +1300,10 @@ export const baseMoviesAnimationDisneyPixarDreamworks: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 25,
+    oscars: [
+      { type: OscarEnum.OSCAR_BEST_ANIMATED_FEATURE, year: 2014 },
+      { type: OscarEnum.OSCAR_BEST_ORIGINAL_SONG, year: 2014 },
+    ],
   },
   {
     title: 'La Reine des neiges 2',
@@ -1232,6 +1325,7 @@ export const baseMoviesAnimationDisneyPixarDreamworks: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 25,
+    oscars: [],
   },
   {
     title: 'Les Nouveaux Héros',
@@ -1246,6 +1340,9 @@ export const baseMoviesAnimationDisneyPixarDreamworks: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 25,
+    oscars: [
+      { type: OscarEnum.OSCAR_BEST_ANIMATED_FEATURE, year: 2015 },
+    ],
   },
   {
     title: 'Zootopie',
@@ -1260,6 +1357,9 @@ export const baseMoviesAnimationDisneyPixarDreamworks: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 25,
+    oscars: [
+      { type: OscarEnum.OSCAR_BEST_ANIMATED_FEATURE, year: 2017 },
+    ],
   },
   {
     title: 'Zootopie 2',
@@ -1290,6 +1390,7 @@ export const baseMoviesAnimationDisneyPixarDreamworks: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 25,
+    oscars: [],
   },
   {
     title: 'Coco',
@@ -1304,6 +1405,10 @@ export const baseMoviesAnimationDisneyPixarDreamworks: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 25,
+    oscars: [
+      { type: OscarEnum.OSCAR_BEST_ANIMATED_FEATURE, year: 2018 },
+      { type: OscarEnum.OSCAR_BEST_ORIGINAL_SONG, year: 2018 },
+    ],
   },
   {
     title: 'Vaiana',
@@ -1318,6 +1423,7 @@ export const baseMoviesAnimationDisneyPixarDreamworks: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 25,
+    oscars: [],
   },
   {
     title: 'Vaiana 2',
@@ -1332,6 +1438,7 @@ export const baseMoviesAnimationDisneyPixarDreamworks: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 25,
+    oscars: [],
   },
   {
     title: 'Raya et le Dernier Dragon',
@@ -1351,6 +1458,7 @@ export const baseMoviesAnimationDisneyPixarDreamworks: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 25,
+    oscars: [],
   },
   {
     title: 'Encanto',
@@ -1370,6 +1478,9 @@ export const baseMoviesAnimationDisneyPixarDreamworks: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 25,
+    oscars: [
+      { type: OscarEnum.OSCAR_BEST_ANIMATED_FEATURE, year: 2022 },
+    ],
   },
   {
     title: 'Wish : Asha et la Bonne Étoile',
@@ -1400,6 +1511,7 @@ export const baseMoviesAnimationDisneyPixarDreamworks: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 25,
+    oscars: [],
   },
   {
     title: 'La ferme se rebelle',
@@ -1418,6 +1530,7 @@ export const baseMoviesAnimationDisneyPixarDreamworks: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 25,
+    oscars: [],
   },
   {
     title: 'Chicken Little',
@@ -1436,6 +1549,7 @@ export const baseMoviesAnimationDisneyPixarDreamworks: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 25,
+    oscars: [],
   },
   {
     title: 'La Fée Clochette',
@@ -1454,6 +1568,7 @@ export const baseMoviesAnimationDisneyPixarDreamworks: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 25,
+    oscars: [],
   },
   {
     title: 'Clochette et le Secret des fées',
@@ -1472,6 +1587,7 @@ export const baseMoviesAnimationDisneyPixarDreamworks: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 25,
+    oscars: [],
   },
   {
     title: "Le Voyage d'Arlo",
@@ -1490,6 +1606,7 @@ export const baseMoviesAnimationDisneyPixarDreamworks: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 25,
+    oscars: [],
   },
   {
     title: 'Toy Story',
@@ -1508,6 +1625,7 @@ export const baseMoviesAnimationDisneyPixarDreamworks: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 25,
+    oscars: [],
   },
   {
     title: 'Toy Story 2',
@@ -1526,6 +1644,7 @@ export const baseMoviesAnimationDisneyPixarDreamworks: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 25,
+    oscars: [],
   },
   {
     title: 'Toy Story 3',
@@ -1544,6 +1663,10 @@ export const baseMoviesAnimationDisneyPixarDreamworks: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 25,
+    oscars: [
+      { type: OscarEnum.OSCAR_BEST_ANIMATED_FEATURE, year: 2011 },
+      { type: OscarEnum.OSCAR_BEST_ORIGINAL_SONG, year: 2011 },
+    ],
   },
   {
     title: 'Toy Story 4',
@@ -1568,6 +1691,9 @@ export const baseMoviesAnimationDisneyPixarDreamworks: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 25,
+    oscars: [
+      { type: OscarEnum.OSCAR_BEST_ANIMATED_FEATURE, year: 2020 },
+    ],
   },
   {
     title: 'Fourmiz',
@@ -1583,6 +1709,7 @@ export const baseMoviesAnimationDisneyPixarDreamworks: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 25,
+    oscars: [],
   },
   {
     title: '1001 Pattes',
@@ -1597,6 +1724,7 @@ export const baseMoviesAnimationDisneyPixarDreamworks: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 25,
+    oscars: [],
   },
 
   {
@@ -1612,6 +1740,9 @@ export const baseMoviesAnimationDisneyPixarDreamworks: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 25,
+    oscars: [
+      { type: OscarEnum.OSCAR_BEST_ORIGINAL_SONG, year: 2002 },
+    ],
   },
   {
     title: 'Monstres Academy',
@@ -1626,6 +1757,7 @@ export const baseMoviesAnimationDisneyPixarDreamworks: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 25,
+    oscars: [],
   },
   {
     title: 'Le monde de Nemo',
@@ -1640,6 +1772,9 @@ export const baseMoviesAnimationDisneyPixarDreamworks: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 25,
+    oscars: [
+      { type: OscarEnum.OSCAR_BEST_ANIMATED_FEATURE, year: 2004 },
+    ],
   },
   {
     title: 'Le monde de Dory',
@@ -1654,6 +1789,7 @@ export const baseMoviesAnimationDisneyPixarDreamworks: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 25,
+    oscars: [],
   },
   {
     title: 'Les Indestructibles',
@@ -1668,6 +1804,10 @@ export const baseMoviesAnimationDisneyPixarDreamworks: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 25,
+    oscars: [
+      { type: OscarEnum.OSCAR_BEST_ANIMATED_FEATURE, year: 2005 },
+      { type: OscarEnum.OSCAR_BEST_SOUND, year: 2005 },
+    ],
   },
   {
     title: 'Les Indestructibles 2',
@@ -1686,6 +1826,7 @@ export const baseMoviesAnimationDisneyPixarDreamworks: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 25,
+    oscars: [],
   },
   {
     title: 'Cars',
@@ -1701,6 +1842,7 @@ export const baseMoviesAnimationDisneyPixarDreamworks: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 25,
+    oscars: [],
   },
   {
     title: 'Cars 2',
@@ -1715,6 +1857,7 @@ export const baseMoviesAnimationDisneyPixarDreamworks: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 25,
+    oscars: [],
   },
   {
     title: 'Cars 3',
@@ -1729,6 +1872,7 @@ export const baseMoviesAnimationDisneyPixarDreamworks: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 25,
+    oscars: [],
   },
   {
     title: 'Planes',
@@ -1743,6 +1887,7 @@ export const baseMoviesAnimationDisneyPixarDreamworks: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 25,
+    oscars: [],
   },
   {
     title: 'Planes 2',
@@ -1757,6 +1902,7 @@ export const baseMoviesAnimationDisneyPixarDreamworks: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 25,
+    oscars: [],
   },
   {
     title: 'Ratatouille',
@@ -1772,6 +1918,9 @@ export const baseMoviesAnimationDisneyPixarDreamworks: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 25,
+    oscars: [
+      { type: OscarEnum.OSCAR_BEST_ANIMATED_FEATURE, year: 2008 },
+    ],
   },
   {
     title: 'WALL-E',
@@ -1786,6 +1935,9 @@ export const baseMoviesAnimationDisneyPixarDreamworks: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 25,
+    oscars: [
+      { type: OscarEnum.OSCAR_BEST_ANIMATED_FEATURE, year: 2009 },
+    ],
   },
   {
     title: 'Là-haut',
@@ -1800,6 +1952,10 @@ export const baseMoviesAnimationDisneyPixarDreamworks: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 25,
+    oscars: [
+      { type: OscarEnum.OSCAR_BEST_ANIMATED_FEATURE, year: 2010 },
+      { type: OscarEnum.OSCAR_BEST_ORIGINAL_SCORE, year: 2010 },
+    ],
   },
 
   {
@@ -1815,6 +1971,9 @@ export const baseMoviesAnimationDisneyPixarDreamworks: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 25,
+    oscars: [
+      { type: OscarEnum.OSCAR_BEST_ANIMATED_FEATURE, year: 2013 },
+    ],
   },
 
   {
@@ -1841,6 +2000,9 @@ export const baseMoviesAnimationDisneyPixarDreamworks: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 25,
+    oscars: [
+      { type: OscarEnum.OSCAR_BEST_ANIMATED_FEATURE, year: 2016 },
+    ],
   },
   {
     title: 'Vice-Versa 2',
@@ -1855,6 +2017,7 @@ export const baseMoviesAnimationDisneyPixarDreamworks: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 25,
+    oscars: [],
   },
 
   {
@@ -1880,6 +2043,10 @@ export const baseMoviesAnimationDisneyPixarDreamworks: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 25,
+    oscars: [
+      { type: OscarEnum.OSCAR_BEST_ANIMATED_FEATURE, year: 2021 },
+      { type: OscarEnum.OSCAR_BEST_ORIGINAL_SCORE, year: 2021 },
+    ],
   },
   {
     title: 'Luca',
@@ -1894,6 +2061,7 @@ export const baseMoviesAnimationDisneyPixarDreamworks: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 25,
+    oscars: [],
   },
   {
     title: 'Élémentaire',
@@ -1908,6 +2076,7 @@ export const baseMoviesAnimationDisneyPixarDreamworks: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 25,
+    oscars: [],
   },
 
   {
@@ -1923,6 +2092,7 @@ export const baseMoviesAnimationDisneyPixarDreamworks: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 25,
+    oscars: [],
   },
   {
     title: 'Shrek',
@@ -1937,6 +2107,9 @@ export const baseMoviesAnimationDisneyPixarDreamworks: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 25,
+    oscars: [
+      { type: OscarEnum.OSCAR_BEST_ANIMATED_FEATURE, year: 2002 },
+    ],
   },
   {
     title: 'Shrek 2',
@@ -1951,6 +2124,7 @@ export const baseMoviesAnimationDisneyPixarDreamworks: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 25,
+    oscars: [],
   },
   {
     title: 'Shrek le Troisième',
@@ -1965,6 +2139,7 @@ export const baseMoviesAnimationDisneyPixarDreamworks: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 25,
+    oscars: [],
   },
   {
     title: 'Shrek 4 : Il Était une Fin',
@@ -1979,6 +2154,7 @@ export const baseMoviesAnimationDisneyPixarDreamworks: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 25,
+    oscars: [],
   },
   {
     title: 'Gang de requins',
@@ -2004,6 +2180,7 @@ export const baseMoviesAnimationDisneyPixarDreamworks: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 25,
+    oscars: [],
   },
   {
     title: 'Nos voisins, les hommes',
@@ -2022,6 +2199,7 @@ export const baseMoviesAnimationDisneyPixarDreamworks: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 25,
+    oscars: [],
   },
   {
     title: 'Madagascar',
@@ -2036,6 +2214,7 @@ export const baseMoviesAnimationDisneyPixarDreamworks: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 25,
+    oscars: [],
   },
   {
     title: 'Madagascar 2',
@@ -2050,6 +2229,7 @@ export const baseMoviesAnimationDisneyPixarDreamworks: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 25,
+    oscars: [],
   },
   {
     title: 'Kung Fu Panda',
@@ -2087,6 +2267,7 @@ export const baseMoviesAnimationDisneyPixarDreamworks: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 25,
+    oscars: [],
   },
   {
     title: 'Kung Fu Panda 2',
@@ -2101,6 +2282,7 @@ export const baseMoviesAnimationDisneyPixarDreamworks: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 25,
+    oscars: [],
   },
   {
     title: 'Kung Fu Panda 3',
@@ -2125,6 +2307,7 @@ export const baseMoviesAnimationDisneyPixarDreamworks: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 25,
+    oscars: [],
   },
   {
     title: 'Kung Fu Panda 4',
@@ -2155,6 +2338,7 @@ export const baseMoviesAnimationDisneyPixarDreamworks: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 25,
+    oscars: [],
   },
   {
     title: 'Dragons',
@@ -2170,6 +2354,7 @@ export const baseMoviesAnimationDisneyPixarDreamworks: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 25,
+    oscars: [],
   },
   {
     title: 'Dragons 2',
@@ -2185,6 +2370,7 @@ export const baseMoviesAnimationDisneyPixarDreamworks: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 25,
+    oscars: [],
   },
   {
     title: 'Dragons 3 : Le Monde caché',
@@ -2204,6 +2390,7 @@ export const baseMoviesAnimationDisneyPixarDreamworks: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 25,
+    oscars: [],
   },
   {
     title: 'Megamind',
@@ -2218,6 +2405,7 @@ export const baseMoviesAnimationDisneyPixarDreamworks: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 25,
+    oscars: [],
   },
   {
     title: 'Le Chat Potté',
@@ -2232,6 +2420,7 @@ export const baseMoviesAnimationDisneyPixarDreamworks: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 25,
+    oscars: [],
   },
   {
     title: 'Le Chat Potté 2 : La Dernière Quête',
@@ -2250,6 +2439,7 @@ export const baseMoviesAnimationDisneyPixarDreamworks: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 25,
+    oscars: [],
   },
   {
     title: 'Les Cinq Légendes',
@@ -2264,6 +2454,7 @@ export const baseMoviesAnimationDisneyPixarDreamworks: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 25,
+    oscars: [],
   },
   {
     title: 'Les Trolls',
@@ -2288,6 +2479,7 @@ export const baseMoviesAnimationDisneyPixarDreamworks: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Baby boss',
@@ -2302,6 +2494,7 @@ export const baseMoviesAnimationDisneyPixarDreamworks: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 25,
+    oscars: [],
   },
   {
     title: 'Le Robot sauvage',
@@ -2332,6 +2525,7 @@ export const baseMoviesAnimationDisneyPixarDreamworks: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 25,
+    oscars: [],
   },
   {
     title: 'Monstres contre Aliens',
@@ -2346,5 +2540,6 @@ export const baseMoviesAnimationDisneyPixarDreamworks: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 25,
+    oscars: [],
   },
 ];

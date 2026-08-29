@@ -1,4 +1,4 @@
-import { BaseMovie } from '../../../models/movie-model';
+import { BaseMovie, OscarEnum } from '../../../models/movie-model';
 
 export const baseMoviesSuperherosMcu: BaseMovie[] = [
   {
@@ -36,6 +36,7 @@ export const baseMoviesSuperherosMcu: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 30,
+    oscars: [],
   },
   {
     title: "Avengers : L'Ère d'Ultron",
@@ -72,6 +73,7 @@ export const baseMoviesSuperherosMcu: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 30,
+    oscars: [],
   },
   {
     title: 'Avengers: Infinity War',
@@ -120,6 +122,7 @@ export const baseMoviesSuperherosMcu: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 30,
+    oscars: [],
   },
   {
     title: 'Avengers: Endgame',
@@ -165,6 +168,7 @@ export const baseMoviesSuperherosMcu: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 30,
+    oscars: [],
   },
   {
     title: 'Captain America : First Avenger',
@@ -201,6 +205,7 @@ export const baseMoviesSuperherosMcu: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 20,
+    oscars: [],
   },
   {
     title: "Captain America : Le Soldat de l'Hiver",
@@ -237,6 +242,7 @@ export const baseMoviesSuperherosMcu: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 20,
+    oscars: [],
   },
   {
     title: 'Captain America : Civil War',
@@ -270,6 +276,7 @@ export const baseMoviesSuperherosMcu: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 20,
+    oscars: [],
   },
   {
     title: 'Captain America: Brave New World',
@@ -306,6 +313,7 @@ export const baseMoviesSuperherosMcu: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 20,
+    oscars: [],
   },
   {
     title: 'Iron Man',
@@ -342,6 +350,7 @@ export const baseMoviesSuperherosMcu: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 20,
+    oscars: [],
   },
   {
     title: 'Iron Man 2',
@@ -375,6 +384,7 @@ export const baseMoviesSuperherosMcu: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 20,
+    oscars: [],
   },
   {
     title: 'Iron Man 3',
@@ -411,6 +421,7 @@ export const baseMoviesSuperherosMcu: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 20,
+    oscars: [],
   },
   {
     title: "L'Incroyable Hulk",
@@ -447,6 +458,7 @@ export const baseMoviesSuperherosMcu: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 20,
+    oscars: [],
   },
   {
     title: 'Thor',
@@ -483,6 +495,7 @@ export const baseMoviesSuperherosMcu: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 20,
+    oscars: [],
   },
   {
     title: 'Thor : le monde des ténèbres',
@@ -519,6 +532,7 @@ export const baseMoviesSuperherosMcu: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 20,
+    oscars: [],
   },
   {
     title: 'Thor: Ragnarok',
@@ -555,6 +569,7 @@ export const baseMoviesSuperherosMcu: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 20,
+    oscars: [],
   },
   {
     title: 'Thor : Love & Thunder',
@@ -591,6 +606,7 @@ export const baseMoviesSuperherosMcu: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 20,
+    oscars: [],
   },
   {
     title: 'Captain Marvel',
@@ -627,6 +643,7 @@ export const baseMoviesSuperherosMcu: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 20,
+    oscars: [],
   },
   {
     title: 'Les Marvels',
@@ -663,6 +680,7 @@ export const baseMoviesSuperherosMcu: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 20,
+    oscars: [],
   },
   {
     title: 'Shang-Chi et la Légende des Dix Anneaux',
@@ -699,6 +717,7 @@ export const baseMoviesSuperherosMcu: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 20,
+    oscars: [],
   },
   {
     title: 'Doctor Strange',
@@ -735,6 +754,7 @@ export const baseMoviesSuperherosMcu: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 20,
+    oscars: [],
   },
   {
     title: 'Doctor Strange dans le Multivers de la Folie',
@@ -757,6 +777,7 @@ export const baseMoviesSuperherosMcu: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 20,
+    oscars: [],
   },
   {
     title: 'Black Panther',
@@ -793,6 +814,11 @@ export const baseMoviesSuperherosMcu: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 20,
+    oscars: [
+      { type: OscarEnum.OSCAR_BEST_PRODUCTION_DESIGN, year: 2019 },
+      { type: OscarEnum.OSCAR_BEST_COSTUME_DESIGN, year: 2019 },
+      { type: OscarEnum.OSCAR_BEST_ORIGINAL_SCORE, year: 2019 },
+    ],
   },
   {
     title: 'Black Panther : Wakanda pour Toujours',
@@ -829,6 +855,9 @@ export const baseMoviesSuperherosMcu: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 20,
+    oscars: [
+      { type: OscarEnum.OSCAR_BEST_COSTUME_DESIGN, year: 2023 },
+    ],
   },
   {
     title: 'Les Gardiens de la Galaxie',
@@ -854,6 +883,7 @@ export const baseMoviesSuperherosMcu: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 20,
+    oscars: [],
   },
   {
     title: 'Les Gardiens de la Galaxie Vol. 2',
@@ -881,6 +911,7 @@ export const baseMoviesSuperherosMcu: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 20,
+    oscars: [],
   },
   {
     title: 'Les Gardiens de la Galaxie Vol. 3',
@@ -908,6 +939,7 @@ export const baseMoviesSuperherosMcu: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 20,
+    oscars: [],
   },
   {
     title: 'Ant-Man',
@@ -945,6 +977,7 @@ export const baseMoviesSuperherosMcu: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 20,
+    oscars: [],
   },
   {
     title: 'Ant-Man et la Guêpe',
@@ -982,6 +1015,7 @@ export const baseMoviesSuperherosMcu: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 20,
+    oscars: [],
   },
   {
     title: 'Ant-Man et la Guêpe : Quantumania',
@@ -1019,6 +1053,7 @@ export const baseMoviesSuperherosMcu: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 20,
+    oscars: [],
   },
   {
     title: 'Spider-Man: Homecoming',
@@ -1060,6 +1095,7 @@ export const baseMoviesSuperherosMcu: BaseMovie[] = [
     },
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 20,
+    oscars: [],
   },
   {
     title: 'Spider-Man: Far From Home',
@@ -1092,6 +1128,7 @@ export const baseMoviesSuperherosMcu: BaseMovie[] = [
     },
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 20,
+    oscars: [],
   },
   {
     title: 'Spider-Man : No Way Home',
@@ -1132,6 +1169,7 @@ export const baseMoviesSuperherosMcu: BaseMovie[] = [
     },
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 20,
+    oscars: [],
   },
   {
     title: 'Spider-Man : Brand New Day',
@@ -1172,6 +1210,7 @@ export const baseMoviesSuperherosMcu: BaseMovie[] = [
     },
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 20,
+    oscars: [],
   },
   {
     title: 'Black Widow',
@@ -1209,6 +1248,7 @@ export const baseMoviesSuperherosMcu: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 20,
+    oscars: [],
   },
   {
     title: 'Les Éternels',
@@ -1245,6 +1285,7 @@ export const baseMoviesSuperherosMcu: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 20,
+    oscars: [],
   },
   {
     title: 'Deadpool et Wolverine',
@@ -1282,6 +1323,7 @@ export const baseMoviesSuperherosMcu: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 20,
+    oscars: [],
   },
   {
     title: 'Les 4 fantastiques',
@@ -1310,6 +1352,7 @@ export const baseMoviesSuperherosMcu: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 20,
+    oscars: [],
   },
   {
     title: 'Thunderbolts',
@@ -1346,5 +1389,6 @@ export const baseMoviesSuperherosMcu: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 20,
+    oscars: [],
   },
 ];

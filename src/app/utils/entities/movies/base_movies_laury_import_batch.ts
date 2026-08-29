@@ -1,4 +1,4 @@
-import { BaseMovie } from '../../../models/movie-model';
+import { BaseMovie, OscarEnum } from '../../../models/movie-model';
 
 /**
  * Films ajoutés en lot — pas de doublon avec les entrées existantes
@@ -26,6 +26,7 @@ export const baseMoviesLauryImportBatch: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Vidocq',
@@ -48,6 +49,7 @@ export const baseMoviesLauryImportBatch: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['France'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Les Rivières pourpres',
@@ -70,6 +72,7 @@ export const baseMoviesLauryImportBatch: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['France'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Les Rivières pourpres 2 : Les Anges de l’apocalypse',
@@ -92,6 +95,7 @@ export const baseMoviesLauryImportBatch: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['France'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Le Fantôme de l’Opéra',
@@ -114,6 +118,7 @@ export const baseMoviesLauryImportBatch: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Stalingrad',
@@ -137,6 +142,7 @@ export const baseMoviesLauryImportBatch: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['Russie'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: "Shooter, tireur d'élite",
@@ -159,6 +165,7 @@ export const baseMoviesLauryImportBatch: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Alexandre',
@@ -181,6 +188,7 @@ export const baseMoviesLauryImportBatch: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Das Boot',
@@ -203,6 +211,7 @@ export const baseMoviesLauryImportBatch: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['Allemagne'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Event Horizon',
@@ -225,6 +234,7 @@ export const baseMoviesLauryImportBatch: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Paycheck',
@@ -247,6 +257,7 @@ export const baseMoviesLauryImportBatch: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'The X-Files : Combattre le futur',
@@ -269,6 +280,7 @@ export const baseMoviesLauryImportBatch: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Le Secret des poignards volants',
@@ -291,6 +303,7 @@ export const baseMoviesLauryImportBatch: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['Chine'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Final Fantasy : Les Créatures de l’esprit',
@@ -313,6 +326,7 @@ export const baseMoviesLauryImportBatch: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis', 'Japon'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Final Fantasy VII : Advent Children',
@@ -335,6 +349,7 @@ export const baseMoviesLauryImportBatch: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['Japon'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'L’Attaque du métro 123',
@@ -357,6 +372,7 @@ export const baseMoviesLauryImportBatch: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Daybreakers',
@@ -379,6 +395,7 @@ export const baseMoviesLauryImportBatch: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Jack le chasseur de géants',
@@ -401,6 +418,7 @@ export const baseMoviesLauryImportBatch: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: '30 jours de nuit',
@@ -423,6 +441,7 @@ export const baseMoviesLauryImportBatch: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: '88 minutes',
@@ -445,6 +464,7 @@ export const baseMoviesLauryImportBatch: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
 
   {
@@ -468,6 +488,11 @@ export const baseMoviesLauryImportBatch: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [
+      { type: OscarEnum.OSCAR_BEST_MOVIE, year: 2013 },
+      { type: OscarEnum.OSCAR_BEST_ADAPTED_SCREENPLAY, year: 2013 },
+      { type: OscarEnum.OSCAR_BEST_FILM_EDITING, year: 2013 },
+    ],
   },
   {
     title: 'Beowulf',
@@ -490,6 +515,7 @@ export const baseMoviesLauryImportBatch: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Flyboys',
@@ -512,6 +538,7 @@ export const baseMoviesLauryImportBatch: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Le Négociateur',
@@ -534,6 +561,7 @@ export const baseMoviesLauryImportBatch: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'The Invasion',
@@ -556,6 +584,7 @@ export const baseMoviesLauryImportBatch: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: '2 Guns',
@@ -578,6 +607,7 @@ export const baseMoviesLauryImportBatch: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Don’t Be Afraid of the Dark',
@@ -600,6 +630,7 @@ export const baseMoviesLauryImportBatch: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Horizons lointains',
@@ -622,6 +653,7 @@ export const baseMoviesLauryImportBatch: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Doom',
@@ -644,6 +676,7 @@ export const baseMoviesLauryImportBatch: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Cheval de guerre',
@@ -666,6 +699,7 @@ export const baseMoviesLauryImportBatch: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Moon',
@@ -688,6 +722,7 @@ export const baseMoviesLauryImportBatch: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['Royaume-Uni'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Homefront',
@@ -710,6 +745,7 @@ export const baseMoviesLauryImportBatch: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'U-571',
@@ -732,6 +768,9 @@ export const baseMoviesLauryImportBatch: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [
+      { type: OscarEnum.OSCAR_BEST_SOUND, year: 2001 },
+    ],
   },
   {
     title: 'John Carter',
@@ -754,6 +793,7 @@ export const baseMoviesLauryImportBatch: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Peur bleue',
@@ -776,6 +816,7 @@ export const baseMoviesLauryImportBatch: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Meg 2',
@@ -798,6 +839,7 @@ export const baseMoviesLauryImportBatch: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Halloween 2',
@@ -820,6 +862,7 @@ export const baseMoviesLauryImportBatch: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Halloween 3',
@@ -842,6 +885,7 @@ export const baseMoviesLauryImportBatch: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Halloween 4',
@@ -864,6 +908,7 @@ export const baseMoviesLauryImportBatch: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Hostel',
@@ -886,6 +931,7 @@ export const baseMoviesLauryImportBatch: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Hostel : Part II',
@@ -908,6 +954,7 @@ export const baseMoviesLauryImportBatch: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Hostel : Part III',
@@ -930,6 +977,7 @@ export const baseMoviesLauryImportBatch: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Rock',
@@ -952,6 +1000,7 @@ export const baseMoviesLauryImportBatch: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'La Voix des morts',
@@ -974,6 +1023,7 @@ export const baseMoviesLauryImportBatch: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
 
   {
@@ -997,6 +1047,7 @@ export const baseMoviesLauryImportBatch: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['France'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: '15 Minutes',
@@ -1019,6 +1070,7 @@ export const baseMoviesLauryImportBatch: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: '30 ans sinon rien',
@@ -1041,6 +1093,7 @@ export const baseMoviesLauryImportBatch: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'À bras ouverts',
@@ -1063,6 +1116,7 @@ export const baseMoviesLauryImportBatch: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['France'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'On ne choisit pas sa famille',
@@ -1085,6 +1139,7 @@ export const baseMoviesLauryImportBatch: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['France'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Aeon Flux',
@@ -1107,6 +1162,7 @@ export const baseMoviesLauryImportBatch: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Amityville 2 : Le Possédé',
@@ -1129,6 +1185,7 @@ export const baseMoviesLauryImportBatch: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Apocalypto',
@@ -1151,6 +1208,7 @@ export const baseMoviesLauryImportBatch: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Au-delà de nos rêves',
@@ -1173,6 +1231,7 @@ export const baseMoviesLauryImportBatch: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Bangkok Dangerous',
@@ -1195,6 +1254,7 @@ export const baseMoviesLauryImportBatch: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Contagion',
@@ -1217,6 +1277,7 @@ export const baseMoviesLauryImportBatch: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Détour mortel',
@@ -1239,6 +1300,7 @@ export const baseMoviesLauryImportBatch: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Esther',
@@ -1261,6 +1323,7 @@ export const baseMoviesLauryImportBatch: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Évolution',
@@ -1283,6 +1346,7 @@ export const baseMoviesLauryImportBatch: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Instinct de survie',
@@ -1305,6 +1369,7 @@ export const baseMoviesLauryImportBatch: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'The Reef',
@@ -1327,6 +1392,7 @@ export const baseMoviesLauryImportBatch: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['Australie'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'The Reef: Stalked',
@@ -1349,6 +1415,7 @@ export const baseMoviesLauryImportBatch: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['Australie'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'La Chute de Londres',
@@ -1371,6 +1438,7 @@ export const baseMoviesLauryImportBatch: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'La Chute du président',
@@ -1393,6 +1461,7 @@ export const baseMoviesLauryImportBatch: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'La Colline a des yeux 2',
@@ -1415,6 +1484,7 @@ export const baseMoviesLauryImportBatch: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Titan A.E.',
@@ -1437,6 +1507,7 @@ export const baseMoviesLauryImportBatch: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Ultraviolet',
@@ -1459,6 +1530,7 @@ export const baseMoviesLauryImportBatch: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: "Un cri dans l'océan",
@@ -1481,6 +1553,7 @@ export const baseMoviesLauryImportBatch: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Un crime dans la tête',
@@ -1503,6 +1576,7 @@ export const baseMoviesLauryImportBatch: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Barbecue',
@@ -1525,6 +1599,7 @@ export const baseMoviesLauryImportBatch: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['France'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Radin !',
@@ -1547,6 +1622,7 @@ export const baseMoviesLauryImportBatch: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['France'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Eyjafjallajökull',
@@ -1569,6 +1645,7 @@ export const baseMoviesLauryImportBatch: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['France'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Rien à déclarer',
@@ -1591,6 +1668,7 @@ export const baseMoviesLauryImportBatch: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['France', 'Belgique'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'La Maison du bonheur',
@@ -1613,6 +1691,7 @@ export const baseMoviesLauryImportBatch: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['France'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'La Doublure',
@@ -1635,6 +1714,7 @@ export const baseMoviesLauryImportBatch: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['France'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: "Bob l'éponge, le film",
@@ -1657,6 +1737,7 @@ export const baseMoviesLauryImportBatch: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Freddy : Les Griffes de la nuit',
@@ -1679,6 +1760,7 @@ export const baseMoviesLauryImportBatch: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Les Griffes de la nuit',
@@ -1701,6 +1783,7 @@ export const baseMoviesLauryImportBatch: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Freddy contre Jason',
@@ -1723,6 +1806,7 @@ export const baseMoviesLauryImportBatch: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: '13 Fantômes',
@@ -1745,6 +1829,7 @@ export const baseMoviesLauryImportBatch: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Megan',
@@ -1767,6 +1852,7 @@ export const baseMoviesLauryImportBatch: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Mirrors',
@@ -1789,6 +1875,7 @@ export const baseMoviesLauryImportBatch: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Mirrors 2',
@@ -1811,6 +1898,7 @@ export const baseMoviesLauryImportBatch: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Laisse-moi entrer',
@@ -1833,6 +1921,7 @@ export const baseMoviesLauryImportBatch: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'La Vérité si je mens !',
@@ -1855,6 +1944,7 @@ export const baseMoviesLauryImportBatch: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['France'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'La Vérité si je mens ! 2',
@@ -1877,6 +1967,7 @@ export const baseMoviesLauryImportBatch: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['France'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: "Le Jour où la Terre s'arrêta",
@@ -1899,6 +1990,7 @@ export const baseMoviesLauryImportBatch: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Le Rite',
@@ -1921,6 +2013,7 @@ export const baseMoviesLauryImportBatch: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Silent Hill',
@@ -1943,6 +2036,7 @@ export const baseMoviesLauryImportBatch: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['France', 'Canada'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Silent Hill: Revelation',
@@ -1965,6 +2059,7 @@ export const baseMoviesLauryImportBatch: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['Canada', 'France'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Robots',
@@ -1987,6 +2082,7 @@ export const baseMoviesLauryImportBatch: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Supercondriaque',
@@ -2009,6 +2105,7 @@ export const baseMoviesLauryImportBatch: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['France'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: "La Ch'tite Famille",
@@ -2031,6 +2128,7 @@ export const baseMoviesLauryImportBatch: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['France'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Cloverfield',
@@ -2053,6 +2151,7 @@ export const baseMoviesLauryImportBatch: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'The Crazies',
@@ -2075,6 +2174,7 @@ export const baseMoviesLauryImportBatch: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'The Darkest Hour',
@@ -2097,6 +2197,7 @@ export const baseMoviesLauryImportBatch: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'The Green Hornet',
@@ -2119,6 +2220,7 @@ export const baseMoviesLauryImportBatch: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
 
   {
@@ -2142,6 +2244,7 @@ export const baseMoviesLauryImportBatch: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Mr. Brooks',
@@ -2164,6 +2267,7 @@ export const baseMoviesLauryImportBatch: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Nid de guêpes',
@@ -2186,6 +2290,7 @@ export const baseMoviesLauryImportBatch: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['France'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Passager 57',
@@ -2208,6 +2313,7 @@ export const baseMoviesLauryImportBatch: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Passengers',
@@ -2230,6 +2336,7 @@ export const baseMoviesLauryImportBatch: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Repo Men',
@@ -2252,6 +2359,7 @@ export const baseMoviesLauryImportBatch: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Rencontres du troisième type',
@@ -2274,6 +2382,10 @@ export const baseMoviesLauryImportBatch: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [
+      { type: OscarEnum.OSCAR_BEST_CINEMATOGRAPHY, year: 1978 },
+      { type: OscarEnum.OSCAR_BEST_SOUND, year: 1978 },
+    ],
   },
   {
     title: 'Ultime Décision',
@@ -2296,6 +2408,7 @@ export const baseMoviesLauryImportBatch: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
 
   {
@@ -2319,6 +2432,7 @@ export const baseMoviesLauryImportBatch: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Desperados',
@@ -2340,6 +2454,7 @@ export const baseMoviesLauryImportBatch: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Desperado',
@@ -2361,6 +2476,7 @@ export const baseMoviesLauryImportBatch: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: "L'Empire des ombres",
@@ -2383,6 +2499,7 @@ export const baseMoviesLauryImportBatch: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['France'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: "L'Enjeu",
@@ -2405,6 +2522,7 @@ export const baseMoviesLauryImportBatch: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: "L'île aux pirates",
@@ -2427,6 +2545,7 @@ export const baseMoviesLauryImportBatch: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Les Enfants de la pluie',
@@ -2449,6 +2568,7 @@ export const baseMoviesLauryImportBatch: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['France'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Les Femmes de ses rêves',
@@ -2471,6 +2591,7 @@ export const baseMoviesLauryImportBatch: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Les Griffes du cauchemar',
@@ -2493,6 +2614,7 @@ export const baseMoviesLauryImportBatch: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Ma sorcière bien-aimée',
@@ -2515,6 +2637,7 @@ export const baseMoviesLauryImportBatch: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: "Microcosmos : Le peuple de l'herbe",
@@ -2529,6 +2652,7 @@ export const baseMoviesLauryImportBatch: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['France'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'La Prophétie des ombres',
@@ -2551,6 +2675,7 @@ export const baseMoviesLauryImportBatch: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Le Jeu de la mort',
@@ -2573,6 +2698,7 @@ export const baseMoviesLauryImportBatch: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['Hong Kong'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Le Tour du monde en quatre-vingts jours',
@@ -2595,6 +2721,7 @@ export const baseMoviesLauryImportBatch: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Les Contes de Terremer',
@@ -2617,6 +2744,7 @@ export const baseMoviesLauryImportBatch: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['Japon'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Mystère à Venise',
@@ -2639,6 +2767,7 @@ export const baseMoviesLauryImportBatch: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Profession profiler',
@@ -2661,6 +2790,7 @@ export const baseMoviesLauryImportBatch: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Désigné pour mourir',
@@ -2683,6 +2813,7 @@ export const baseMoviesLauryImportBatch: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Jean (2016)',
@@ -2705,6 +2836,7 @@ export const baseMoviesLauryImportBatch: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['Danemark'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Apparences',
@@ -2727,6 +2859,7 @@ export const baseMoviesLauryImportBatch: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Du sang et des larmes',
@@ -2749,6 +2882,7 @@ export const baseMoviesLauryImportBatch: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Taram et le chaudron magique',
@@ -2771,6 +2905,7 @@ export const baseMoviesLauryImportBatch: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: '50 degrés Fahrenheit',
@@ -2793,6 +2928,7 @@ export const baseMoviesLauryImportBatch: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Phénomènes',
@@ -2815,6 +2951,7 @@ export const baseMoviesLauryImportBatch: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Le Sourire de Mona Lisa',
@@ -2837,6 +2974,7 @@ export const baseMoviesLauryImportBatch: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'À contre-sens 2',
@@ -2859,6 +2997,7 @@ export const baseMoviesLauryImportBatch: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Noël à Pemberley',
@@ -2881,6 +3020,7 @@ export const baseMoviesLauryImportBatch: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'A Christmas Prince',
@@ -2903,6 +3043,7 @@ export const baseMoviesLauryImportBatch: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Begin Again',
@@ -2925,6 +3066,7 @@ export const baseMoviesLauryImportBatch: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Intolérable Cruauté',
@@ -2947,6 +3089,7 @@ export const baseMoviesLauryImportBatch: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: "Isn't It Romantic",
@@ -2969,6 +3112,7 @@ export const baseMoviesLauryImportBatch: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'I Feel Pretty',
@@ -2991,6 +3135,7 @@ export const baseMoviesLauryImportBatch: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Tous nos jours parfaits',
@@ -3014,6 +3159,7 @@ export const baseMoviesLauryImportBatch: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Joli Désastre',
@@ -3036,6 +3182,7 @@ export const baseMoviesLauryImportBatch: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'À la folie... pas du tout',
@@ -3058,6 +3205,7 @@ export const baseMoviesLauryImportBatch: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'A Cure for Life',
@@ -3080,6 +3228,7 @@ export const baseMoviesLauryImportBatch: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: "L'amour dans l'objectif",
@@ -3102,6 +3251,7 @@ export const baseMoviesLauryImportBatch: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: "Larissa : L'autre facette d'Anitta",
@@ -3124,6 +3274,7 @@ export const baseMoviesLauryImportBatch: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: "F*ckin' Fred : Comme un Léopard",
@@ -3146,6 +3297,7 @@ export const baseMoviesLauryImportBatch: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Falling Inn Love',
@@ -3168,6 +3320,7 @@ export const baseMoviesLauryImportBatch: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Désobéissance',
@@ -3190,6 +3343,7 @@ export const baseMoviesLauryImportBatch: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Madame Bovary',
@@ -3212,6 +3366,7 @@ export const baseMoviesLauryImportBatch: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: '6 Years',
@@ -3234,6 +3389,7 @@ export const baseMoviesLauryImportBatch: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'The Discovery',
@@ -3256,6 +3412,7 @@ export const baseMoviesLauryImportBatch: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Below Her Mouth',
@@ -3278,6 +3435,7 @@ export const baseMoviesLauryImportBatch: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'High School Musical 4',
@@ -3300,6 +3458,7 @@ export const baseMoviesLauryImportBatch: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'La Ballade de Buster Scruggs',
@@ -3322,6 +3481,7 @@ export const baseMoviesLauryImportBatch: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Gemma Bovery',
@@ -3344,6 +3504,7 @@ export const baseMoviesLauryImportBatch: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'J. K. Rowling : La Magie des mots',
@@ -3366,6 +3527,7 @@ export const baseMoviesLauryImportBatch: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: "Steppin'",
@@ -3388,6 +3550,7 @@ export const baseMoviesLauryImportBatch: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Née pour danser 2',
@@ -3410,6 +3573,7 @@ export const baseMoviesLauryImportBatch: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: "Elle s'appelait Sarah",
@@ -3432,6 +3596,7 @@ export const baseMoviesLauryImportBatch: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: "L'Expérience interdite : Flatliners",
@@ -3454,6 +3619,7 @@ export const baseMoviesLauryImportBatch: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'White Bird',
@@ -3476,6 +3642,7 @@ export const baseMoviesLauryImportBatch: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Restless',
@@ -3498,6 +3665,7 @@ export const baseMoviesLauryImportBatch: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Tel père',
@@ -3520,6 +3688,7 @@ export const baseMoviesLauryImportBatch: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Last Night',
@@ -3542,6 +3711,7 @@ export const baseMoviesLauryImportBatch: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Les Garçons et Guillaume, à table !',
@@ -3564,6 +3734,7 @@ export const baseMoviesLauryImportBatch: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'This Is It',
@@ -3586,6 +3757,7 @@ export const baseMoviesLauryImportBatch: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Ibiza',
@@ -3608,6 +3780,7 @@ export const baseMoviesLauryImportBatch: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Alex Strangelove',
@@ -3630,6 +3803,7 @@ export const baseMoviesLauryImportBatch: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Playboy à saisir',
@@ -3652,6 +3826,7 @@ export const baseMoviesLauryImportBatch: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
 
   {
@@ -3675,6 +3850,7 @@ export const baseMoviesLauryImportBatch: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Wild',
@@ -3697,6 +3873,7 @@ export const baseMoviesLauryImportBatch: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Step Sisters',
@@ -3719,6 +3896,7 @@ export const baseMoviesLauryImportBatch: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Blue Crush',
@@ -3741,6 +3919,7 @@ export const baseMoviesLauryImportBatch: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'The Fundamentals of Caring',
@@ -3763,6 +3942,7 @@ export const baseMoviesLauryImportBatch: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Le Cygne et la Princesse',
@@ -3785,6 +3965,7 @@ export const baseMoviesLauryImportBatch: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Un long dimanche de fiançailles',
@@ -3807,6 +3988,7 @@ export const baseMoviesLauryImportBatch: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Fievel au Far West',
@@ -3829,6 +4011,7 @@ export const baseMoviesLauryImportBatch: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Une journée à New York',
@@ -3851,6 +4034,7 @@ export const baseMoviesLauryImportBatch: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Gnoméo et Juliette',
@@ -3873,6 +4057,7 @@ export const baseMoviesLauryImportBatch: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Échange standard',
@@ -3895,6 +4080,7 @@ export const baseMoviesLauryImportBatch: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Starsky et Hutch',
@@ -3917,6 +4103,7 @@ export const baseMoviesLauryImportBatch: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Gomez et Tavarès',
@@ -3939,6 +4126,7 @@ export const baseMoviesLauryImportBatch: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Balto',
@@ -3961,6 +4149,7 @@ export const baseMoviesLauryImportBatch: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Bandidas',
@@ -3983,6 +4172,7 @@ export const baseMoviesLauryImportBatch: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: "Quasimodo d'El Paris",
@@ -4005,6 +4195,7 @@ export const baseMoviesLauryImportBatch: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
 
   {
@@ -4028,6 +4219,7 @@ export const baseMoviesLauryImportBatch: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: "Interstellar: Nolan's Odyssey",
@@ -4050,6 +4242,7 @@ export const baseMoviesLauryImportBatch: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Esprits rebelles',
@@ -4072,6 +4265,7 @@ export const baseMoviesLauryImportBatch: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Le Voyage extraordinaire de Samy',
@@ -4094,6 +4288,7 @@ export const baseMoviesLauryImportBatch: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: "Dreamcatcher : L'Attrape-rêves",
@@ -4116,6 +4311,7 @@ export const baseMoviesLauryImportBatch: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: "L'Île de Nim",
@@ -4138,6 +4334,7 @@ export const baseMoviesLauryImportBatch: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: "L'Affaire Tournesol",
@@ -4160,6 +4357,7 @@ export const baseMoviesLauryImportBatch: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Le Jaguar',
@@ -4182,6 +4380,7 @@ export const baseMoviesLauryImportBatch: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Lilo et Stitch 2',
@@ -4204,6 +4403,7 @@ export const baseMoviesLauryImportBatch: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Shakespeare in Love',
@@ -4226,6 +4426,15 @@ export const baseMoviesLauryImportBatch: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [
+      { type: OscarEnum.OSCAR_BEST_MOVIE, year: 1999 },
+      { type: OscarEnum.OSCAR_BEST_ACTRESS, year: 1999 },
+      { type: OscarEnum.OSCAR_BEST_SUPPORTING_ACTRESS, year: 1999 },
+      { type: OscarEnum.OSCAR_BEST_ORIGINAL_SCREENPLAY, year: 1999 },
+      { type: OscarEnum.OSCAR_BEST_PRODUCTION_DESIGN, year: 1999 },
+      { type: OscarEnum.OSCAR_BEST_COSTUME_DESIGN, year: 1999 },
+      { type: OscarEnum.OSCAR_BEST_ORIGINAL_SCORE, year: 1999 },
+    ],
   },
   {
     title: 'Polly et moi',
@@ -4248,6 +4457,7 @@ export const baseMoviesLauryImportBatch: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'The Town',
@@ -4270,6 +4480,7 @@ export const baseMoviesLauryImportBatch: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Rio 2',
@@ -4292,6 +4503,7 @@ export const baseMoviesLauryImportBatch: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Le Mac',
@@ -4314,6 +4526,7 @@ export const baseMoviesLauryImportBatch: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Le Secret de la Petite Sirène',
@@ -4336,6 +4549,7 @@ export const baseMoviesLauryImportBatch: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: "La Marche de l'empereur",
@@ -4358,6 +4572,9 @@ export const baseMoviesLauryImportBatch: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [
+      { type: OscarEnum.OSCAR_BEST_DOCUMENTARY, year: 2006 },
+    ],
   },
   {
     title: 'Le Roi Arthur',
@@ -4380,6 +4597,7 @@ export const baseMoviesLauryImportBatch: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'The Place Beyond the Pines',
@@ -4402,6 +4620,7 @@ export const baseMoviesLauryImportBatch: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Cyprien',
@@ -4424,6 +4643,7 @@ export const baseMoviesLauryImportBatch: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Les Rebelles de la forêt',
@@ -4446,6 +4666,7 @@ export const baseMoviesLauryImportBatch: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Le Roi Scorpion',
@@ -4468,6 +4689,7 @@ export const baseMoviesLauryImportBatch: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'La Vérité si je mens ! 3',
@@ -4490,6 +4712,7 @@ export const baseMoviesLauryImportBatch: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: '102 Dalmatiens',
@@ -4512,6 +4735,7 @@ export const baseMoviesLauryImportBatch: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: "Spirit, l'étalon des plaines",
@@ -4534,6 +4758,7 @@ export const baseMoviesLauryImportBatch: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Babe, le cochon devenu berger',
@@ -4556,6 +4781,9 @@ export const baseMoviesLauryImportBatch: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [
+      { type: OscarEnum.OSCAR_BEST_VISUAL_EFFECTS, year: 1996 },
+    ],
   },
   {
     title: 'Docteur Dolittle',
@@ -4578,6 +4806,7 @@ export const baseMoviesLauryImportBatch: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Les Aristochats',
@@ -4600,6 +4829,7 @@ export const baseMoviesLauryImportBatch: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Sauvez Willy',
@@ -4622,6 +4852,7 @@ export const baseMoviesLauryImportBatch: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Belphégor, le fantôme du Louvre',
@@ -4644,6 +4875,7 @@ export const baseMoviesLauryImportBatch: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Podium',
@@ -4666,6 +4898,7 @@ export const baseMoviesLauryImportBatch: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Hypnose',
@@ -4688,6 +4921,7 @@ export const baseMoviesLauryImportBatch: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: "La Jeune Fille de l'eau",
@@ -4710,6 +4944,7 @@ export const baseMoviesLauryImportBatch: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Jeepers Creepers - Le Chant Du Diable',
@@ -4732,6 +4967,7 @@ export const baseMoviesLauryImportBatch: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Misery',
@@ -4754,6 +4990,9 @@ export const baseMoviesLauryImportBatch: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [
+      { type: OscarEnum.OSCAR_BEST_ACTRESS, year: 1991 },
+    ],
   },
   {
     title: 'Awake',
@@ -4777,6 +5016,7 @@ export const baseMoviesLauryImportBatch: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Contre-enquête',
@@ -4799,6 +5039,7 @@ export const baseMoviesLauryImportBatch: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'La Recrue',
@@ -4821,6 +5062,7 @@ export const baseMoviesLauryImportBatch: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Flight Plan',
@@ -4843,6 +5085,7 @@ export const baseMoviesLauryImportBatch: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: "Bleu d'enfer",
@@ -4865,6 +5108,7 @@ export const baseMoviesLauryImportBatch: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Fenêtre secrète',
@@ -4887,6 +5131,7 @@ export const baseMoviesLauryImportBatch: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'From Hell',
@@ -4909,6 +5154,7 @@ export const baseMoviesLauryImportBatch: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Haute Voltige',
@@ -4931,6 +5177,7 @@ export const baseMoviesLauryImportBatch: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Simone',
@@ -4953,6 +5200,7 @@ export const baseMoviesLauryImportBatch: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Le merveilleux magasin de Mr Magorium',
@@ -4975,6 +5223,7 @@ export const baseMoviesLauryImportBatch: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Dark Skies',
@@ -4997,6 +5246,7 @@ export const baseMoviesLauryImportBatch: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: "Albator, corsaire de l'espace",
@@ -5019,6 +5269,7 @@ export const baseMoviesLauryImportBatch: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Starship Troopers',
@@ -5041,6 +5292,7 @@ export const baseMoviesLauryImportBatch: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Une nouvelle chance',
@@ -5063,6 +5315,7 @@ export const baseMoviesLauryImportBatch: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: "Un homme d'exception",
@@ -5085,6 +5338,12 @@ export const baseMoviesLauryImportBatch: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [
+      { type: OscarEnum.OSCAR_BEST_MOVIE, year: 2002 },
+      { type: OscarEnum.OSCAR_BEST_DIRECTOR, year: 2002 },
+      { type: OscarEnum.OSCAR_BEST_SUPPORTING_ACTRESS, year: 2002 },
+      { type: OscarEnum.OSCAR_BEST_ADAPTED_SCREENPLAY, year: 2002 },
+    ],
   },
   {
     title: 'Le Professeur foldingue',
@@ -5107,6 +5366,7 @@ export const baseMoviesLauryImportBatch: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Flashdance',
@@ -5129,6 +5389,9 @@ export const baseMoviesLauryImportBatch: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [
+      { type: OscarEnum.OSCAR_BEST_ORIGINAL_SONG, year: 1984 },
+    ],
   },
   {
     title: "De l'eau pour les éléphants",
@@ -5151,6 +5414,7 @@ export const baseMoviesLauryImportBatch: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Crazy, Stupid, Love',
@@ -5173,6 +5437,7 @@ export const baseMoviesLauryImportBatch: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Le Sortilège de Cendrillon',
@@ -5195,6 +5460,7 @@ export const baseMoviesLauryImportBatch: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Spice World, le film',
@@ -5217,6 +5483,7 @@ export const baseMoviesLauryImportBatch: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Le Cygne et la Princesse 2',
@@ -5239,6 +5506,7 @@ export const baseMoviesLauryImportBatch: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Charlie',
@@ -5261,6 +5529,7 @@ export const baseMoviesLauryImportBatch: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Splash',
@@ -5283,6 +5552,7 @@ export const baseMoviesLauryImportBatch: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Richard au pays des livres magiques',
@@ -5305,6 +5575,7 @@ export const baseMoviesLauryImportBatch: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: "L'Indien du placard",
@@ -5327,6 +5598,7 @@ export const baseMoviesLauryImportBatch: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Cœur de dragon',
@@ -5349,6 +5621,7 @@ export const baseMoviesLauryImportBatch: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'No et moi',
@@ -5371,6 +5644,7 @@ export const baseMoviesLauryImportBatch: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Quelques minutes après minuit',
@@ -5393,6 +5667,7 @@ export const baseMoviesLauryImportBatch: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Sleeping Beauty',
@@ -5415,6 +5690,7 @@ export const baseMoviesLauryImportBatch: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: "K-PAX : l'homme qui vient de loin",
@@ -5437,6 +5713,7 @@ export const baseMoviesLauryImportBatch: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Last Days of Summer',
@@ -5459,6 +5736,7 @@ export const baseMoviesLauryImportBatch: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: "L'Exorcisme d'Emily Rose",
@@ -5481,6 +5759,7 @@ export const baseMoviesLauryImportBatch: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Un monde meilleur',
@@ -5503,6 +5782,7 @@ export const baseMoviesLauryImportBatch: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'En pleine tempête',
@@ -5525,6 +5805,7 @@ export const baseMoviesLauryImportBatch: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Dance with Me',
@@ -5547,6 +5828,7 @@ export const baseMoviesLauryImportBatch: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'A Single Man',
@@ -5569,6 +5851,7 @@ export const baseMoviesLauryImportBatch: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Coach Carter',
@@ -5591,6 +5874,7 @@ export const baseMoviesLauryImportBatch: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Donnie Brasco',
@@ -5613,6 +5897,7 @@ export const baseMoviesLauryImportBatch: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Carol',
@@ -5635,6 +5920,7 @@ export const baseMoviesLauryImportBatch: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Brisby et le Secret de NIMH',
@@ -5657,6 +5943,7 @@ export const baseMoviesLauryImportBatch: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'World Trade Center',
@@ -5679,6 +5966,7 @@ export const baseMoviesLauryImportBatch: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Now is Good',
@@ -5701,6 +5989,7 @@ export const baseMoviesLauryImportBatch: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Bel-Ami',
@@ -5723,6 +6012,7 @@ export const baseMoviesLauryImportBatch: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Ma meilleure ennemie',
@@ -5745,6 +6035,7 @@ export const baseMoviesLauryImportBatch: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Closer, entre adultes consentants',
@@ -5764,6 +6055,7 @@ export const baseMoviesLauryImportBatch: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Effets secondaires',
@@ -5784,6 +6076,7 @@ export const baseMoviesLauryImportBatch: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: "L'Orphelinat",
@@ -5804,6 +6097,7 @@ export const baseMoviesLauryImportBatch: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Shame',
@@ -5823,6 +6117,7 @@ export const baseMoviesLauryImportBatch: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: "L'Histoire sans fin 2 : Un nouveau chapitre",
@@ -5843,6 +6138,7 @@ export const baseMoviesLauryImportBatch: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Jack et la mécanique du cœur',
@@ -5863,6 +6159,7 @@ export const baseMoviesLauryImportBatch: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Elephant',
@@ -5883,6 +6180,7 @@ export const baseMoviesLauryImportBatch: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Harvey Milk',
@@ -5904,6 +6202,10 @@ export const baseMoviesLauryImportBatch: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [
+      { type: OscarEnum.OSCAR_BEST_ACTOR, year: 2009 },
+      { type: OscarEnum.OSCAR_BEST_ORIGINAL_SCREENPLAY, year: 2009 },
+    ],
   },
   {
     title: 'A Dangerous Method',
@@ -5924,6 +6226,7 @@ export const baseMoviesLauryImportBatch: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Anna Karénine',
@@ -5944,6 +6247,9 @@ export const baseMoviesLauryImportBatch: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [
+      { type: OscarEnum.OSCAR_BEST_COSTUME_DESIGN, year: 2013 },
+    ],
   },
   {
     title: 'The Duchess',
@@ -5964,6 +6270,9 @@ export const baseMoviesLauryImportBatch: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [
+      { type: OscarEnum.OSCAR_BEST_COSTUME_DESIGN, year: 2009 },
+    ],
   },
   {
     title: 'Une merveilleuse histoire du temps',
@@ -5984,6 +6293,9 @@ export const baseMoviesLauryImportBatch: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [
+      { type: OscarEnum.OSCAR_BEST_ACTOR, year: 2015 },
+    ],
   },
   {
     title: "De rouille et d'os",
@@ -6004,6 +6316,7 @@ export const baseMoviesLauryImportBatch: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Auprès de moi toujours',
@@ -6024,6 +6337,7 @@ export const baseMoviesLauryImportBatch: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'The Giver',
@@ -6045,6 +6359,7 @@ export const baseMoviesLauryImportBatch: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Océans',
@@ -6059,6 +6374,7 @@ export const baseMoviesLauryImportBatch: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Home',
@@ -6077,6 +6393,7 @@ export const baseMoviesLauryImportBatch: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Bowling for Columbine',
@@ -6096,6 +6413,9 @@ export const baseMoviesLauryImportBatch: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [
+      { type: OscarEnum.OSCAR_BEST_DOCUMENTARY, year: 2003 },
+    ],
   },
   {
     title: 'Safari',
@@ -6116,6 +6436,7 @@ export const baseMoviesLauryImportBatch: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'My Girl',
@@ -6135,6 +6456,7 @@ export const baseMoviesLauryImportBatch: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Molière',
@@ -6155,6 +6477,7 @@ export const baseMoviesLauryImportBatch: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Disjoncté',
@@ -6175,6 +6498,7 @@ export const baseMoviesLauryImportBatch: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Mon pire cauchemar',
@@ -6194,6 +6518,7 @@ export const baseMoviesLauryImportBatch: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Le Fils de Chucky',
@@ -6214,6 +6539,7 @@ export const baseMoviesLauryImportBatch: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: "L'Aventure intérieure",
@@ -6234,6 +6560,7 @@ export const baseMoviesLauryImportBatch: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Sheitan',
@@ -6254,6 +6581,7 @@ export const baseMoviesLauryImportBatch: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Casper et Wendy',
@@ -6274,6 +6602,7 @@ export const baseMoviesLauryImportBatch: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: "Comme t'y es belle !",
@@ -6294,6 +6623,7 @@ export const baseMoviesLauryImportBatch: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Stars 80',
@@ -6313,6 +6643,7 @@ export const baseMoviesLauryImportBatch: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'God Bless America',
@@ -6332,6 +6663,7 @@ export const baseMoviesLauryImportBatch: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Lizzie McGuire, le film',
@@ -6352,6 +6684,7 @@ export const baseMoviesLauryImportBatch: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'La Délicatesse',
@@ -6371,6 +6704,7 @@ export const baseMoviesLauryImportBatch: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: "Wayne's World",
@@ -6391,6 +6725,7 @@ export const baseMoviesLauryImportBatch: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Trois Zéros',
@@ -6411,6 +6746,7 @@ export const baseMoviesLauryImportBatch: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Jean-Philippe',
@@ -6430,6 +6766,7 @@ export const baseMoviesLauryImportBatch: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: "L'Étrange Pouvoir de Norman",
@@ -6450,6 +6787,7 @@ export const baseMoviesLauryImportBatch: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: "L'Île des Miam-nimaux : Tempête de boulettes géantes 2",
@@ -6470,6 +6808,7 @@ export const baseMoviesLauryImportBatch: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Hocus Pocus : Les Trois Sorcières',
@@ -6490,6 +6829,7 @@ export const baseMoviesLauryImportBatch: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Six jours, sept nuits',
@@ -6509,6 +6849,7 @@ export const baseMoviesLauryImportBatch: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Paulette',
@@ -6529,6 +6870,7 @@ export const baseMoviesLauryImportBatch: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Gazon maudit',
@@ -6549,6 +6891,7 @@ export const baseMoviesLauryImportBatch: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Mais qui a tué Pamela Rose ?',
@@ -6569,6 +6912,7 @@ export const baseMoviesLauryImportBatch: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Mais qui a re-tué Pamela Rose ?',
@@ -6589,6 +6933,7 @@ export const baseMoviesLauryImportBatch: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Bienvenue à bord',
@@ -6609,6 +6954,7 @@ export const baseMoviesLauryImportBatch: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Allumeuses !',
@@ -6629,6 +6975,7 @@ export const baseMoviesLauryImportBatch: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Les Rois de la glisse',
@@ -6649,6 +6996,7 @@ export const baseMoviesLauryImportBatch: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: "Ensemble, c'est tout",
@@ -6668,6 +7016,7 @@ export const baseMoviesLauryImportBatch: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Disco',
@@ -6688,6 +7037,7 @@ export const baseMoviesLauryImportBatch: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: "Et si c'était vrai…",
@@ -6708,6 +7058,7 @@ export const baseMoviesLauryImportBatch: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Allô maman, ici bébé',
@@ -6728,6 +7079,7 @@ export const baseMoviesLauryImportBatch: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: "L'amour dure trois ans",
@@ -6748,6 +7100,7 @@ export const baseMoviesLauryImportBatch: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Comme des bêtes',
@@ -6768,6 +7121,7 @@ export const baseMoviesLauryImportBatch: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Prête-moi ta main',
@@ -6788,6 +7142,7 @@ export const baseMoviesLauryImportBatch: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Marley et moi',
@@ -6808,6 +7163,7 @@ export const baseMoviesLauryImportBatch: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Joue-la comme Beckham',
@@ -6828,6 +7184,7 @@ export const baseMoviesLauryImportBatch: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Coyote Girls',
@@ -6848,6 +7205,7 @@ export const baseMoviesLauryImportBatch: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Le Boulet',
@@ -6868,6 +7226,7 @@ export const baseMoviesLauryImportBatch: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: "L'Amour extra-large",
@@ -6888,6 +7247,7 @@ export const baseMoviesLauryImportBatch: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
 
   {
@@ -6909,6 +7269,7 @@ export const baseMoviesLauryImportBatch: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Chouchou',
@@ -6929,6 +7290,7 @@ export const baseMoviesLauryImportBatch: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Tout ce qui Brille',
@@ -6949,6 +7311,7 @@ export const baseMoviesLauryImportBatch: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Hollywoo',
@@ -6968,6 +7331,7 @@ export const baseMoviesLauryImportBatch: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Freaky Friday',
@@ -6988,6 +7352,7 @@ export const baseMoviesLauryImportBatch: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
 
   {
@@ -7009,6 +7374,7 @@ export const baseMoviesLauryImportBatch: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: "Jeanne d'Arc",
@@ -7029,6 +7395,7 @@ export const baseMoviesLauryImportBatch: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Le Raid',
@@ -7049,6 +7416,7 @@ export const baseMoviesLauryImportBatch: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Crossroads',
@@ -7069,6 +7437,7 @@ export const baseMoviesLauryImportBatch: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Bronson',
@@ -7089,6 +7458,7 @@ export const baseMoviesLauryImportBatch: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Dobermann',
@@ -7109,6 +7479,7 @@ export const baseMoviesLauryImportBatch: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Mon ami Joe',
@@ -7129,6 +7500,7 @@ export const baseMoviesLauryImportBatch: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Chérie, nous avons été rétrécis',
@@ -7149,6 +7521,7 @@ export const baseMoviesLauryImportBatch: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: "L'interview qui tue !",
@@ -7169,6 +7542,7 @@ export const baseMoviesLauryImportBatch: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Twister',
@@ -7189,6 +7563,7 @@ export const baseMoviesLauryImportBatch: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: "L'ennemi public n°1",
@@ -7209,6 +7584,7 @@ export const baseMoviesLauryImportBatch: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: "L'instinct de mort",
@@ -7229,6 +7605,7 @@ export const baseMoviesLauryImportBatch: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Tron',
@@ -7249,6 +7626,7 @@ export const baseMoviesLauryImportBatch: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Pompéi',
@@ -7269,6 +7647,7 @@ export const baseMoviesLauryImportBatch: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Robin des Bois, prince des voleurs',
@@ -7289,6 +7668,7 @@ export const baseMoviesLauryImportBatch: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: "Charlie's Angels : Les Anges se déchaînent !",
@@ -7309,6 +7689,7 @@ export const baseMoviesLauryImportBatch: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: "L'Abominable Vérité",
@@ -7329,6 +7710,7 @@ export const baseMoviesLauryImportBatch: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Le Come-Back',
@@ -7349,6 +7731,7 @@ export const baseMoviesLauryImportBatch: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Dans la ligne de mire',
@@ -7369,6 +7752,7 @@ export const baseMoviesLauryImportBatch: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'À tout jamais, une histoire de Cendrillon',
@@ -7389,6 +7773,7 @@ export const baseMoviesLauryImportBatch: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'La Voleuse de livres',
@@ -7409,6 +7794,7 @@ export const baseMoviesLauryImportBatch: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Dirty Dancing 2',
@@ -7429,6 +7815,7 @@ export const baseMoviesLauryImportBatch: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Je veux vivre !',
@@ -7449,6 +7836,9 @@ export const baseMoviesLauryImportBatch: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [
+      { type: OscarEnum.OSCAR_BEST_ACTRESS, year: 1959 },
+    ],
   },
   {
     title: 'Boys and Girls',
@@ -7469,6 +7859,7 @@ export const baseMoviesLauryImportBatch: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Save the Last Dance',
@@ -7489,6 +7880,7 @@ export const baseMoviesLauryImportBatch: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Les Rois du désert',
@@ -7509,6 +7901,7 @@ export const baseMoviesLauryImportBatch: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Les Folles Aventures de Bill et Ted',
@@ -7529,6 +7922,7 @@ export const baseMoviesLauryImportBatch: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Truman Capote',
@@ -7549,6 +7943,9 @@ export const baseMoviesLauryImportBatch: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [
+      { type: OscarEnum.OSCAR_BEST_ACTOR, year: 2006 },
+    ],
   },
   {
     title: 'Dance-Off',
@@ -7571,5 +7968,6 @@ export const baseMoviesLauryImportBatch: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
 ];

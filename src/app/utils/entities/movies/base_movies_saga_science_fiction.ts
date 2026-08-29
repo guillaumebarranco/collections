@@ -1,4 +1,4 @@
-import { BaseMovie } from '../../../models/movie-model';
+import { BaseMovie, OscarEnum } from '../../../models/movie-model';
 
 export const baseMoviesSagaScienceFiction: BaseMovie[] = [
   {
@@ -36,6 +36,7 @@ export const baseMoviesSagaScienceFiction: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 40,
+    oscars: [],
   },
   {
     title: "Star Wars: Episode 2 - L'attaque des clones",
@@ -72,6 +73,7 @@ export const baseMoviesSagaScienceFiction: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 40,
+    oscars: [],
   },
   {
     title: 'Star Wars : Épisode 3 - La revanche des Sith',
@@ -108,6 +110,7 @@ export const baseMoviesSagaScienceFiction: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 40,
+    oscars: [],
   },
   {
     title: 'Star Wars : Episode 4 - Un nouvel espoir',
@@ -144,6 +147,14 @@ export const baseMoviesSagaScienceFiction: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 40,
+    oscars: [
+      { type: OscarEnum.OSCAR_BEST_PRODUCTION_DESIGN, year: 1978 },
+      { type: OscarEnum.OSCAR_BEST_COSTUME_DESIGN, year: 1978 },
+      { type: OscarEnum.OSCAR_BEST_SOUND, year: 1978 },
+      { type: OscarEnum.OSCAR_BEST_FILM_EDITING, year: 1978 },
+      { type: OscarEnum.OSCAR_BEST_ORIGINAL_SCORE, year: 1978 },
+      { type: OscarEnum.OSCAR_BEST_VISUAL_EFFECTS, year: 1978 },
+    ],
   },
   {
     title: "Star Wars : Episode 5 - L'empire contre-attaque",
@@ -180,6 +191,10 @@ export const baseMoviesSagaScienceFiction: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 40,
+    oscars: [
+      { type: OscarEnum.OSCAR_BEST_SOUND, year: 1981 },
+      { type: OscarEnum.OSCAR_BEST_VISUAL_EFFECTS, year: 1981 },
+    ],
   },
   {
     title: 'Star Wars : Episode 6 - Le retour du Jedi',
@@ -216,6 +231,9 @@ export const baseMoviesSagaScienceFiction: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 40,
+    oscars: [
+      { type: OscarEnum.OSCAR_BEST_VISUAL_EFFECTS, year: 1984 },
+    ],
   },
   {
     title: 'Star Wars : Episode 7 - Le réveil de la Force',
@@ -252,6 +270,7 @@ export const baseMoviesSagaScienceFiction: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 40,
+    oscars: [],
   },
   {
     title: 'Star Wars : Episode 8 - Le dernier Jedi',
@@ -279,6 +298,7 @@ export const baseMoviesSagaScienceFiction: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 40,
+    oscars: [],
   },
   {
     title: "Star Wars : Episode 9 - L'ascension de Skywalker",
@@ -315,6 +335,7 @@ export const baseMoviesSagaScienceFiction: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 40,
+    oscars: [],
   },
   {
     title: 'Solo: A Star Wars Story',
@@ -351,6 +372,7 @@ export const baseMoviesSagaScienceFiction: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 30,
+    oscars: [],
   },
   {
     title: 'Rogue One : A Star Wars Story',
@@ -387,6 +409,7 @@ export const baseMoviesSagaScienceFiction: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 30,
+    oscars: [],
   },
   {
     title: 'Terminator',
@@ -423,6 +446,7 @@ export const baseMoviesSagaScienceFiction: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 30,
+    oscars: [],
   },
   {
     title: 'Terminator 2 : Le Jugement dernier',
@@ -459,6 +483,11 @@ export const baseMoviesSagaScienceFiction: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 30,
+    oscars: [
+      { type: OscarEnum.OSCAR_BEST_SOUND, year: 1992 },
+      { type: OscarEnum.OSCAR_BEST_MAKEUP, year: 1992 },
+      { type: OscarEnum.OSCAR_BEST_VISUAL_EFFECTS, year: 1992 },
+    ],
   },
   {
     title: 'Terminator 3 : Le Soulèvement des machines',
@@ -495,6 +524,7 @@ export const baseMoviesSagaScienceFiction: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 30,
+    oscars: [],
   },
   {
     title: 'Terminator Renaissance',
@@ -531,6 +561,7 @@ export const baseMoviesSagaScienceFiction: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 30,
+    oscars: [],
   },
   {
     title: 'Terminator Genisys',
@@ -567,6 +598,7 @@ export const baseMoviesSagaScienceFiction: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 30,
+    oscars: [],
   },
   {
     title: 'Terminator: Dark Fate',
@@ -603,6 +635,7 @@ export const baseMoviesSagaScienceFiction: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 30,
+    oscars: [],
   },
   {
     title: 'Matrix',
@@ -639,6 +672,11 @@ export const baseMoviesSagaScienceFiction: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 30,
+    oscars: [
+      { type: OscarEnum.OSCAR_BEST_SOUND, year: 2000 },
+      { type: OscarEnum.OSCAR_BEST_FILM_EDITING, year: 2000 },
+      { type: OscarEnum.OSCAR_BEST_VISUAL_EFFECTS, year: 2000 },
+    ],
   },
   {
     title: 'The Matrix Reloaded',
@@ -675,6 +713,7 @@ export const baseMoviesSagaScienceFiction: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 30,
+    oscars: [],
   },
   {
     title: 'The Matrix Revolutions',
@@ -711,6 +750,7 @@ export const baseMoviesSagaScienceFiction: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 30,
+    oscars: [],
   },
   {
     title: 'Matrix Resurrections',
@@ -747,6 +787,7 @@ export const baseMoviesSagaScienceFiction: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 30,
+    oscars: [],
   },
   {
     title: 'Alien, le huitième passager',
@@ -783,6 +824,9 @@ export const baseMoviesSagaScienceFiction: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 30,
+    oscars: [
+      { type: OscarEnum.OSCAR_BEST_VISUAL_EFFECTS, year: 1980 },
+    ],
   },
   {
     title: 'Aliens, le retour',
@@ -819,6 +863,10 @@ export const baseMoviesSagaScienceFiction: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 30,
+    oscars: [
+      { type: OscarEnum.OSCAR_BEST_SOUND, year: 1987 },
+      { type: OscarEnum.OSCAR_BEST_VISUAL_EFFECTS, year: 1987 },
+    ],
   },
   {
     title: 'Alien 3',
@@ -855,6 +903,7 @@ export const baseMoviesSagaScienceFiction: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 30,
+    oscars: [],
   },
   {
     title: 'Alien : La Résurrection',
@@ -877,6 +926,7 @@ export const baseMoviesSagaScienceFiction: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 30,
+    oscars: [],
   },
   {
     title: 'Prometheus',
@@ -913,6 +963,7 @@ export const baseMoviesSagaScienceFiction: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 30,
+    oscars: [],
   },
   {
     title: 'Alien: Covenant',
@@ -949,6 +1000,7 @@ export const baseMoviesSagaScienceFiction: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 30,
+    oscars: [],
   },
   {
     title: 'Alien : Romulus',
@@ -985,6 +1037,7 @@ export const baseMoviesSagaScienceFiction: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['Royaume-Uni'],
     selectDisplayOrder: 30,
+    oscars: [],
   },
   {
     title: 'Predator',
@@ -1021,6 +1074,7 @@ export const baseMoviesSagaScienceFiction: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 30,
+    oscars: [],
   },
   {
     title: 'Predator 2',
@@ -1057,6 +1111,7 @@ export const baseMoviesSagaScienceFiction: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 30,
+    oscars: [],
   },
   {
     title: 'Predators',
@@ -1093,6 +1148,7 @@ export const baseMoviesSagaScienceFiction: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 30,
+    oscars: [],
   },
 
   {
@@ -1130,6 +1186,7 @@ export const baseMoviesSagaScienceFiction: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 30,
+    oscars: [],
   },
   {
     title: 'Prey',
@@ -1160,6 +1217,7 @@ export const baseMoviesSagaScienceFiction: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 30,
+    oscars: [],
   },
   {
     title: 'Alien vs. Predator',
@@ -1196,6 +1254,7 @@ export const baseMoviesSagaScienceFiction: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 30,
+    oscars: [],
   },
   {
     title: 'Alien vs. Predator : Requiem',
@@ -1232,6 +1291,7 @@ export const baseMoviesSagaScienceFiction: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 30,
+    oscars: [],
   },
   {
     title: 'Men in Black',
@@ -1268,6 +1328,9 @@ export const baseMoviesSagaScienceFiction: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 30,
+    oscars: [
+      { type: OscarEnum.OSCAR_BEST_MAKEUP, year: 1998 },
+    ],
   },
   {
     title: 'Men in Black II',
@@ -1304,6 +1367,7 @@ export const baseMoviesSagaScienceFiction: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 30,
+    oscars: [],
   },
   {
     title: 'Men in Black 3',
@@ -1340,6 +1404,7 @@ export const baseMoviesSagaScienceFiction: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 30,
+    oscars: [],
   },
   {
     title: 'Men in Black: International',
@@ -1376,6 +1441,7 @@ export const baseMoviesSagaScienceFiction: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 30,
+    oscars: [],
   },
   {
     title: 'Independence Day',
@@ -1412,6 +1478,9 @@ export const baseMoviesSagaScienceFiction: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 30,
+    oscars: [
+      { type: OscarEnum.OSCAR_BEST_VISUAL_EFFECTS, year: 1997 },
+    ],
   },
   {
     title: 'Independence Day 2',
@@ -1448,6 +1517,7 @@ export const baseMoviesSagaScienceFiction: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 30,
+    oscars: [],
   },
   {
     title: 'Retour vers le futur',
@@ -1484,6 +1554,9 @@ export const baseMoviesSagaScienceFiction: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 30,
+    oscars: [
+      { type: OscarEnum.OSCAR_BEST_SOUND, year: 1986 },
+    ],
   },
   {
     title: 'Retour vers le futur 2',
@@ -1520,6 +1593,7 @@ export const baseMoviesSagaScienceFiction: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 30,
+    oscars: [],
   },
   {
     title: 'Retour vers le futur 3',
@@ -1556,6 +1630,7 @@ export const baseMoviesSagaScienceFiction: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 30,
+    oscars: [],
   },
   {
     title: 'Le Labyrinthe',
@@ -1592,6 +1667,7 @@ export const baseMoviesSagaScienceFiction: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 30,
+    oscars: [],
   },
   {
     title: 'Le Labyrinthe 2 : La Terre Brûlée',
@@ -1632,6 +1708,7 @@ export const baseMoviesSagaScienceFiction: BaseMovie[] = [
     },
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 30,
+    oscars: [],
   },
   {
     title: 'Le Labyrinthe 3 : Le remède mortel',
@@ -1654,6 +1731,7 @@ export const baseMoviesSagaScienceFiction: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 30,
+    oscars: [],
   },
   {
     title: 'Hunger Games',
@@ -1694,6 +1772,7 @@ export const baseMoviesSagaScienceFiction: BaseMovie[] = [
     },
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 30,
+    oscars: [],
   },
   {
     title: "Hunger Games : L'Embrasement",
@@ -1734,6 +1813,7 @@ export const baseMoviesSagaScienceFiction: BaseMovie[] = [
     },
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 30,
+    oscars: [],
   },
   {
     title: 'Hunger Games : La Révolte - Partie 1',
@@ -1774,6 +1854,7 @@ export const baseMoviesSagaScienceFiction: BaseMovie[] = [
     },
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 30,
+    oscars: [],
   },
   {
     title: 'Hunger Games : La Révolte, partie 2',
@@ -1814,6 +1895,7 @@ export const baseMoviesSagaScienceFiction: BaseMovie[] = [
     },
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 30,
+    oscars: [],
   },
   {
     title: "Hunger Games : La Ballade du serpent et de l'oiseau chanteur",
@@ -1848,6 +1930,7 @@ export const baseMoviesSagaScienceFiction: BaseMovie[] = [
     },
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 30,
+    oscars: [],
   },
   {
     title: 'Divergente',
@@ -1888,6 +1971,7 @@ export const baseMoviesSagaScienceFiction: BaseMovie[] = [
     },
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 20,
+    oscars: [],
   },
   {
     title: "Divergente 2 : L'Insurrection",
@@ -1928,6 +2012,7 @@ export const baseMoviesSagaScienceFiction: BaseMovie[] = [
     },
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 20,
+    oscars: [],
   },
   {
     title: 'Divergente 3 : Au-delà du Mur',
@@ -1968,6 +2053,7 @@ export const baseMoviesSagaScienceFiction: BaseMovie[] = [
     },
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 20,
+    oscars: [],
   },
   {
     title: 'Transformers',
@@ -2004,6 +2090,7 @@ export const baseMoviesSagaScienceFiction: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 30,
+    oscars: [],
   },
   {
     title: 'Transformers 2 : La Revanche',
@@ -2040,6 +2127,7 @@ export const baseMoviesSagaScienceFiction: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 30,
+    oscars: [],
   },
   {
     title: 'Transformers 3 : La Face Cachée de la Lune',
@@ -2076,6 +2164,7 @@ export const baseMoviesSagaScienceFiction: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 30,
+    oscars: [],
   },
   {
     title: "Transformers 4 : L'Âge de l'Extinction",
@@ -2112,6 +2201,7 @@ export const baseMoviesSagaScienceFiction: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 30,
+    oscars: [],
   },
   {
     title: 'Transformers: The Last Knight',
@@ -2149,6 +2239,7 @@ export const baseMoviesSagaScienceFiction: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 30,
+    oscars: [],
   },
   {
     title: 'Bumblebee',
@@ -2185,6 +2276,7 @@ export const baseMoviesSagaScienceFiction: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 30,
+    oscars: [],
   },
   {
     title: 'Transformers: Rise of the Beasts',
@@ -2215,6 +2307,7 @@ export const baseMoviesSagaScienceFiction: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 30,
+    oscars: [],
   },
   {
     title: 'Dune',
@@ -2255,6 +2348,14 @@ export const baseMoviesSagaScienceFiction: BaseMovie[] = [
     },
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 30,
+    oscars: [
+      { type: OscarEnum.OSCAR_BEST_CINEMATOGRAPHY, year: 2022 },
+      { type: OscarEnum.OSCAR_BEST_FILM_EDITING, year: 2022 },
+      { type: OscarEnum.OSCAR_BEST_ORIGINAL_SCORE, year: 2022 },
+      { type: OscarEnum.OSCAR_BEST_PRODUCTION_DESIGN, year: 2022 },
+      { type: OscarEnum.OSCAR_BEST_SOUND, year: 2022 },
+      { type: OscarEnum.OSCAR_BEST_VISUAL_EFFECTS, year: 2022 },
+    ],
   },
   {
     title: 'Dune : Partie 2',
@@ -2295,6 +2396,10 @@ export const baseMoviesSagaScienceFiction: BaseMovie[] = [
     },
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 30,
+    oscars: [
+      { type: OscarEnum.OSCAR_BEST_SOUND, year: 2025 },
+      { type: OscarEnum.OSCAR_BEST_VISUAL_EFFECTS, year: 2025 },
+    ],
   },
   {
     title: 'Resident Evil',
@@ -2335,6 +2440,7 @@ export const baseMoviesSagaScienceFiction: BaseMovie[] = [
     },
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 20,
+    oscars: [],
   },
   {
     title: 'Resident Evil : Apocalypse',
@@ -2376,6 +2482,7 @@ export const baseMoviesSagaScienceFiction: BaseMovie[] = [
     },
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 20,
+    oscars: [],
   },
   {
     title: 'Resident Evil : Extinction',
@@ -2417,6 +2524,7 @@ export const baseMoviesSagaScienceFiction: BaseMovie[] = [
     },
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 20,
+    oscars: [],
   },
   {
     title: 'Resident Evil : Afterlife',
@@ -2457,6 +2565,7 @@ export const baseMoviesSagaScienceFiction: BaseMovie[] = [
     },
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 20,
+    oscars: [],
   },
   {
     title: 'Resident Evil : Retribution',
@@ -2497,6 +2606,7 @@ export const baseMoviesSagaScienceFiction: BaseMovie[] = [
     },
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 20,
+    oscars: [],
   },
   {
     title: 'Resident Evil : Chapitre final',
@@ -2537,6 +2647,7 @@ export const baseMoviesSagaScienceFiction: BaseMovie[] = [
     },
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 20,
+    oscars: [],
   },
   {
     title: 'Resident Evil : Bienvenue à Raccoon City',
@@ -2577,6 +2688,7 @@ export const baseMoviesSagaScienceFiction: BaseMovie[] = [
     },
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 20,
+    oscars: [],
   },
   {
     title: 'Avatar',
@@ -2613,6 +2725,11 @@ export const baseMoviesSagaScienceFiction: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 20,
+    oscars: [
+      { type: OscarEnum.OSCAR_BEST_PRODUCTION_DESIGN, year: 2010 },
+      { type: OscarEnum.OSCAR_BEST_CINEMATOGRAPHY, year: 2010 },
+      { type: OscarEnum.OSCAR_BEST_VISUAL_EFFECTS, year: 2010 },
+    ],
   },
   {
     title: "Avatar : La Voie de l'Eau",
@@ -2650,6 +2767,9 @@ export const baseMoviesSagaScienceFiction: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 20,
+    oscars: [
+      { type: OscarEnum.OSCAR_BEST_VISUAL_EFFECTS, year: 2023 },
+    ],
   },
   {
     title: 'Avatar : De feu et de cendres',
@@ -2680,6 +2800,9 @@ export const baseMoviesSagaScienceFiction: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 20,
+    oscars: [
+      { type: OscarEnum.OSCAR_BEST_VISUAL_EFFECTS, year: 2026 },
+    ],
   },
   {
     title: 'Jurassic Park',
@@ -2716,6 +2839,10 @@ export const baseMoviesSagaScienceFiction: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 20,
+    oscars: [
+      { type: OscarEnum.OSCAR_BEST_SOUND, year: 1994 },
+      { type: OscarEnum.OSCAR_BEST_VISUAL_EFFECTS, year: 1994 },
+    ],
   },
   {
     title: 'Le Monde perdu : Jurassic Park',
@@ -2752,6 +2879,7 @@ export const baseMoviesSagaScienceFiction: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 20,
+    oscars: [],
   },
   {
     title: 'Jurassic Park 3',
@@ -2788,6 +2916,7 @@ export const baseMoviesSagaScienceFiction: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 20,
+    oscars: [],
   },
   {
     title: 'Jurassic World',
@@ -2824,6 +2953,7 @@ export const baseMoviesSagaScienceFiction: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 20,
+    oscars: [],
   },
   {
     title: 'Jurassic World: Fallen Kingdom',
@@ -2860,6 +2990,7 @@ export const baseMoviesSagaScienceFiction: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 20,
+    oscars: [],
   },
   {
     title: "Jurassic World : Le Monde d'après",
@@ -2896,6 +3027,7 @@ export const baseMoviesSagaScienceFiction: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 20,
+    oscars: [],
   },
   {
     title: 'Jurassic World : Renaissance',
@@ -2929,6 +3061,7 @@ export const baseMoviesSagaScienceFiction: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 20,
+    oscars: [],
   },
   {
     title: 'Star Trek',
@@ -2965,6 +3098,9 @@ export const baseMoviesSagaScienceFiction: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 20,
+    oscars: [
+      { type: OscarEnum.OSCAR_BEST_MAKEUP, year: 2010 },
+    ],
   },
   {
     title: 'Star Trek Into Darkness',
@@ -2992,6 +3128,7 @@ export const baseMoviesSagaScienceFiction: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 20,
+    oscars: [],
   },
   {
     title: 'Star Trek : Sans limites',
@@ -3019,6 +3156,7 @@ export const baseMoviesSagaScienceFiction: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 20,
+    oscars: [],
   },
   {
     title: 'Mad Max',
@@ -3055,6 +3193,7 @@ export const baseMoviesSagaScienceFiction: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 20,
+    oscars: [],
   },
   {
     title: 'Mad Max 2',
@@ -3091,6 +3230,7 @@ export const baseMoviesSagaScienceFiction: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 20,
+    oscars: [],
   },
   {
     title: 'Mad Max: Fury Road',
@@ -3127,6 +3267,13 @@ export const baseMoviesSagaScienceFiction: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 20,
+    oscars: [
+      { type: OscarEnum.OSCAR_BEST_FILM_EDITING, year: 2016 },
+      { type: OscarEnum.OSCAR_BEST_PRODUCTION_DESIGN, year: 2016 },
+      { type: OscarEnum.OSCAR_BEST_COSTUME_DESIGN, year: 2016 },
+      { type: OscarEnum.OSCAR_BEST_MAKEUP, year: 2016 },
+      { type: OscarEnum.OSCAR_BEST_SOUND, year: 2016 },
+    ],
   },
   {
     title: 'Furiosa',
@@ -3163,6 +3310,7 @@ export const baseMoviesSagaScienceFiction: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 20,
+    oscars: [],
   },
   {
     title: 'La Planète des singes',
@@ -3199,6 +3347,7 @@ export const baseMoviesSagaScienceFiction: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 20,
+    oscars: [],
   },
   {
     title: 'La Planète des singes : Les Origines',
@@ -3235,6 +3384,7 @@ export const baseMoviesSagaScienceFiction: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 20,
+    oscars: [],
   },
   {
     title: "La Planète des singes : l'affrontement",
@@ -3271,6 +3421,7 @@ export const baseMoviesSagaScienceFiction: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 20,
+    oscars: [],
   },
   {
     title: 'La Planète des singes : Suprématie',
@@ -3307,6 +3458,7 @@ export const baseMoviesSagaScienceFiction: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 20,
+    oscars: [],
   },
   {
     title: 'La Planète des Singes : Le Nouveau Royaume',
@@ -3337,6 +3489,7 @@ export const baseMoviesSagaScienceFiction: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 20,
+    oscars: [],
   },
 
   {
@@ -3374,5 +3527,6 @@ export const baseMoviesSagaScienceFiction: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 5,
+    oscars: [],
   },
 ];

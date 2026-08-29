@@ -4,7 +4,8 @@
     selectedView() === 'sagas' ||
     selectedView() === 'actors' ||
     selectedView() === 'directors' ||
-    selectedView() === 'countries'
+    selectedView() === 'countries' ||
+    selectedView() === 'oscars'
   "
 >
   @if (isLoadingMovies()) {
@@ -249,6 +250,47 @@
         </div>
       </div>
       } }
+    </section>
+    }
+  </div>
+
+  <!-- Movies by Oscars -->
+  } @else if (selectedView() === 'oscars') {
+  <div class="movies-by-saga">
+    @for (oscarGroup of moviesByOscarCount(); track oscarGroup.oscarCount) {
+    <section class="movies-saga-section">
+      <h2 class="movies-saga-title">
+        <button
+          type="button"
+          class="movies-saga-toggle"
+          [attr.aria-expanded]="!isOscarCountCollapsed(oscarGroup.oscarCount)"
+          (click)="toggleOscarCount(oscarGroup.oscarCount)"
+        >
+          <span class="movies-saga-toggle-icon">
+            {{ isOscarCountCollapsed(oscarGroup.oscarCount) ? "▶" : "▼" }}
+          </span>
+          {{ oscarGroup.label }}
+          ({{
+            oscarGroup.seenMovies.length + oscarGroup.missingMovies.length
+          }})
+        </button>
+      </h2>
+      @if (!isOscarCountCollapsed(oscarGroup.oscarCount)) {
+      <div class="movies">
+        @for (movie of oscarGroup.seenMovies; track
+        `${movie.title}-${movie.releaseDate}-${movie.director}-${$index}`; let i = $index) {
+        <div class="movie-card">
+          <app-movie
+            [movie]="movie"
+            [list]="oscarGroup.seenMovies"
+            [selectedView]="selectedView()"
+            [index]="i"
+            (movieUpdated)="refreshMovies()"
+          ></app-movie>
+        </div>
+        }
+      </div>
+      }
     </section>
     }
   </div>

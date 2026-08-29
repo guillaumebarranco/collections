@@ -36,6 +36,7 @@ export const baseMoviesSagaComedie: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Scooby-Doo 2: Monsters Unleashed',
@@ -73,6 +74,7 @@ export const baseMoviesSagaComedie: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Inspecteur Gadget',
@@ -95,6 +97,7 @@ export const baseMoviesSagaComedie: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Inspecteur Gadget 2',
@@ -117,6 +120,7 @@ export const baseMoviesSagaComedie: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: "Maman j'ai raté l'avion",
@@ -153,6 +157,7 @@ export const baseMoviesSagaComedie: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 30,
+    oscars: [],
   },
   {
     title: "Maman j'ai encore raté l'avion",
@@ -175,6 +180,7 @@ export const baseMoviesSagaComedie: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 30,
+    oscars: [],
   },
   {
     title: "Maman je m'occupe des méchants",
@@ -211,6 +217,7 @@ export const baseMoviesSagaComedie: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 30,
+    oscars: [],
   },
   {
     title: 'Very Bad Trip',
@@ -247,6 +254,7 @@ export const baseMoviesSagaComedie: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 30,
+    oscars: [],
   },
   {
     title: 'Very Bad Trip 2',
@@ -283,6 +291,7 @@ export const baseMoviesSagaComedie: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 30,
+    oscars: [],
   },
   {
     title: 'Very Bad Trip 3',
@@ -319,6 +328,7 @@ export const baseMoviesSagaComedie: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 30,
+    oscars: [],
   },
   {
     title: 'Murder Mystery',
@@ -355,6 +365,7 @@ export const baseMoviesSagaComedie: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Murder Mystery 2',
@@ -391,6 +402,7 @@ export const baseMoviesSagaComedie: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: "OSS 117 : Le Caire, Nid d'Espions",
@@ -427,6 +439,7 @@ export const baseMoviesSagaComedie: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['France'],
     selectDisplayOrder: 20,
+    oscars: [],
   },
   {
     title: 'OSS 117 : Rio ne Répond Plus',
@@ -463,6 +476,7 @@ export const baseMoviesSagaComedie: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['France'],
     selectDisplayOrder: 20,
+    oscars: [],
   },
   {
     title: 'OSS 117 : Alerte Rouge en Afrique Noire',
@@ -496,6 +510,7 @@ export const baseMoviesSagaComedie: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['France'],
     selectDisplayOrder: 20,
+    oscars: [],
   },
   {
     title: 'La nuit au musée',
@@ -532,6 +547,7 @@ export const baseMoviesSagaComedie: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 20,
+    oscars: [],
   },
   {
     title: 'La Nuit au musée 2',
@@ -568,6 +584,7 @@ export const baseMoviesSagaComedie: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 20,
+    oscars: [],
   },
   {
     title: 'La Nuit au musée : Le Secret des Pharaons',
@@ -601,6 +618,7 @@ export const baseMoviesSagaComedie: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 20,
+    oscars: [],
   },
   {
     title: 'Taxi',
@@ -637,6 +655,7 @@ export const baseMoviesSagaComedie: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['France'],
     selectDisplayOrder: 30,
+    oscars: [],
   },
   {
     title: 'Taxi 2',
@@ -673,6 +692,7 @@ export const baseMoviesSagaComedie: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['France'],
     selectDisplayOrder: 30,
+    oscars: [],
   },
   {
     title: 'Taxi 3',
@@ -709,6 +729,7 @@ export const baseMoviesSagaComedie: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['France'],
     selectDisplayOrder: 30,
+    oscars: [],
   },
   {
     title: 'Taxi 4',
@@ -745,6 +766,7 @@ export const baseMoviesSagaComedie: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['France'],
     selectDisplayOrder: 30,
+    oscars: [],
   },
   {
     title: 'Taxi 5',
@@ -781,6 +803,7 @@ export const baseMoviesSagaComedie: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['France'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Scary Movie',
@@ -817,6 +840,7 @@ export const baseMoviesSagaComedie: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 30,
+    oscars: [],
   },
   {
     title: 'Scary Movie 2',
@@ -853,6 +877,7 @@ export const baseMoviesSagaComedie: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 30,
+    oscars: [],
   },
   {
     title: 'Scary Movie 3',
@@ -889,6 +914,7 @@ export const baseMoviesSagaComedie: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 30,
+    oscars: [],
   },
   {
     title: 'Scary Movie 4',
@@ -925,6 +951,7 @@ export const baseMoviesSagaComedie: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 30,
+    oscars: [],
   },
   {
     title: 'Scary Movie 5',
@@ -961,6 +988,7 @@ export const baseMoviesSagaComedie: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 30,
+    oscars: [],
   },
   {
     title: 'Scary Movie (6)',
@@ -997,6 +1025,7 @@ export const baseMoviesSagaComedie: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 30,
+    oscars: [],
   },
 
   {
@@ -1035,6 +1064,7 @@ export const baseMoviesSagaComedie: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['France'],
     selectDisplayOrder: 20,
+    oscars: [],
   },
   {
     title: 'Les bronzés font du ski',
@@ -1072,6 +1102,7 @@ export const baseMoviesSagaComedie: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['France'],
     selectDisplayOrder: 20,
+    oscars: [],
   },
   {
     title: 'Les Bronzés 3 : Amis pour la Vie',
@@ -1109,6 +1140,7 @@ export const baseMoviesSagaComedie: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['France'],
     selectDisplayOrder: 20,
+    oscars: [],
   },
   {
     title: 'American Pie',
@@ -1145,6 +1177,7 @@ export const baseMoviesSagaComedie: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 20,
+    oscars: [],
   },
   {
     title: 'American Pie 2',
@@ -1181,6 +1214,7 @@ export const baseMoviesSagaComedie: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 20,
+    oscars: [],
   },
   {
     title: 'American Pie 3 : Marions-les',
@@ -1217,6 +1251,7 @@ export const baseMoviesSagaComedie: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 20,
+    oscars: [],
   },
   {
     title: 'American Pie Presents: Beta House',
@@ -1253,6 +1288,7 @@ export const baseMoviesSagaComedie: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 20,
+    oscars: [],
   },
   {
     title: 'American Pie Presents: The Naked Mile',
@@ -1290,6 +1326,7 @@ export const baseMoviesSagaComedie: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 20,
+    oscars: [],
   },
   {
     title: 'American Pie Presents: Band Camp',
@@ -1326,6 +1363,7 @@ export const baseMoviesSagaComedie: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 20,
+    oscars: [],
   },
   {
     title: 'American Pie Presents: The Book of Love',
@@ -1363,6 +1401,7 @@ export const baseMoviesSagaComedie: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 20,
+    oscars: [],
   },
   {
     title: 'American Pie 4',
@@ -1399,6 +1438,7 @@ export const baseMoviesSagaComedie: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 20,
+    oscars: [],
   },
   {
     title: 'Big Mamma',
@@ -1435,6 +1475,7 @@ export const baseMoviesSagaComedie: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Big Mamma 2',
@@ -1471,6 +1512,7 @@ export const baseMoviesSagaComedie: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Les Tuche',
@@ -1507,6 +1549,7 @@ export const baseMoviesSagaComedie: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['France'],
     selectDisplayOrder: 30,
+    oscars: [],
   },
   {
     title: 'Les Tuche 2 : Le Rêve américain',
@@ -1537,6 +1580,7 @@ export const baseMoviesSagaComedie: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['France'],
     selectDisplayOrder: 30,
+    oscars: [],
   },
   {
     title: 'Les Tuche 3 : Liberté, Égalité, Fraternituche',
@@ -1573,6 +1617,7 @@ export const baseMoviesSagaComedie: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['France'],
     selectDisplayOrder: 30,
+    oscars: [],
   },
   {
     title: 'Les Tuche 4',
@@ -1612,6 +1657,7 @@ export const baseMoviesSagaComedie: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['France'],
     selectDisplayOrder: 30,
+    oscars: [],
   },
   {
     title: 'Les Tuche 5 - God Save the Tuche',
@@ -1648,6 +1694,7 @@ export const baseMoviesSagaComedie: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['France'],
     selectDisplayOrder: 30,
+    oscars: [],
   },
 
   {
@@ -1679,6 +1726,7 @@ export const baseMoviesSagaComedie: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 5,
+    oscars: [],
   },
   {
     title: 'Magic Mike',
@@ -1701,6 +1749,7 @@ export const baseMoviesSagaComedie: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 30,
+    oscars: [],
   },
   {
     title: 'Magic Mike XXL',
@@ -1723,6 +1772,7 @@ export const baseMoviesSagaComedie: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 30,
+    oscars: [],
   },
 
   {
@@ -1746,5 +1796,6 @@ export const baseMoviesSagaComedie: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['Royaume-Uni'],
     selectDisplayOrder: 30,
+    oscars: [],
   },
 ];

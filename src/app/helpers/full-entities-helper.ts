@@ -158,6 +158,7 @@ export const getFullMovie = (movie: BaseMovie): Movie => ({
   countryOrigin: movie.countryOrigin ?? [],
   selectDisplayOrder: movie.selectDisplayOrder ?? 0,
   fromEntity: movie.fromEntity ?? null,
+  oscars: movie.oscars ?? [],
   rating: 0,
   timesWatched: 0,
   firstViewedDate: '',

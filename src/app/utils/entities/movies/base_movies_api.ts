@@ -1,4 +1,4 @@
-import { BaseMovie } from '../../../models/movie-model';
+import { BaseMovie, OscarEnum } from '../../../models/movie-model';
 
 export const baseMoviesApi: BaseMovie[] = [
   {
@@ -33,6 +33,7 @@ export const baseMoviesApi: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
 
   {
@@ -67,6 +68,7 @@ export const baseMoviesApi: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
 
   {
@@ -104,6 +106,7 @@ export const baseMoviesApi: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
 
   {
@@ -138,6 +141,7 @@ export const baseMoviesApi: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['France'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
 
   {
@@ -172,6 +176,7 @@ export const baseMoviesApi: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['Norvège', 'Roumanie'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
 
   {
@@ -206,6 +211,7 @@ export const baseMoviesApi: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis', 'Danemark'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
 
   {
@@ -243,6 +249,7 @@ export const baseMoviesApi: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['Corée du Sud'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
 
   {
@@ -277,6 +284,7 @@ export const baseMoviesApi: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
 
   {
@@ -314,6 +322,7 @@ export const baseMoviesApi: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['Japon'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
 
   {
@@ -351,6 +360,7 @@ export const baseMoviesApi: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
 
   {
@@ -385,6 +395,7 @@ export const baseMoviesApi: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['France'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
 
   {
@@ -419,6 +430,7 @@ export const baseMoviesApi: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['France', 'Italie'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
 
   {
@@ -453,6 +465,7 @@ export const baseMoviesApi: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['France'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
 
   {
@@ -487,6 +500,7 @@ export const baseMoviesApi: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['France'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
 
   {
@@ -521,6 +535,7 @@ export const baseMoviesApi: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['Espagne'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
 
   {
@@ -558,6 +573,7 @@ export const baseMoviesApi: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['Royaume-Uni'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
 
   {
@@ -592,6 +608,7 @@ export const baseMoviesApi: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['France'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
 
   {
@@ -629,6 +646,7 @@ export const baseMoviesApi: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis', 'Royaume-Uni'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
 
   {
@@ -663,6 +681,7 @@ export const baseMoviesApi: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['France'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
 
   {
@@ -700,6 +719,7 @@ export const baseMoviesApi: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
 
   {
@@ -737,6 +757,7 @@ export const baseMoviesApi: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
 
   {
@@ -771,6 +792,7 @@ export const baseMoviesApi: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['France'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
 
   {
@@ -805,6 +827,7 @@ export const baseMoviesApi: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['France'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
 
   {
@@ -839,6 +862,7 @@ export const baseMoviesApi: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['France'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
 
   {
@@ -873,6 +897,7 @@ export const baseMoviesApi: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
 
   {
@@ -907,6 +932,7 @@ export const baseMoviesApi: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['Corée du Sud'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
 
   {
@@ -941,6 +967,7 @@ export const baseMoviesApi: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['Royaume-Uni'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
 
   {
@@ -975,6 +1002,7 @@ export const baseMoviesApi: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['Maroc', 'France'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
 
   {
@@ -1012,6 +1040,7 @@ export const baseMoviesApi: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
 
   {
@@ -1046,6 +1075,7 @@ export const baseMoviesApi: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['Italie'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
 
   {
@@ -1080,6 +1110,7 @@ export const baseMoviesApi: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['Corée du Sud'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
 
   {
@@ -1114,6 +1145,7 @@ export const baseMoviesApi: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['Royaume-Uni', 'Nigeria'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
 
   {
@@ -1148,6 +1180,7 @@ export const baseMoviesApi: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
 
   {
@@ -1182,6 +1215,7 @@ export const baseMoviesApi: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['Palestine', 'États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
 
   {
@@ -1219,6 +1253,7 @@ export const baseMoviesApi: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['Espagne'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
 
   {
@@ -1253,6 +1288,7 @@ export const baseMoviesApi: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['Royaume-Uni'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
 
   {
@@ -1290,6 +1326,7 @@ export const baseMoviesApi: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['Royaume-Uni'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
 
   {
@@ -1327,6 +1364,7 @@ export const baseMoviesApi: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['France'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
 
   {
@@ -1361,6 +1399,7 @@ export const baseMoviesApi: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
 
   {
@@ -1395,6 +1434,7 @@ export const baseMoviesApi: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['Norvège'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
 
   {
@@ -1429,6 +1469,7 @@ export const baseMoviesApi: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
 
   {
@@ -1470,6 +1511,7 @@ export const baseMoviesApi: BaseMovie[] = [
     },
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
 
   {
@@ -1504,6 +1546,7 @@ export const baseMoviesApi: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['Espagne'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
 
   {
@@ -1538,6 +1581,7 @@ export const baseMoviesApi: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['France'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
 
   {
@@ -1575,6 +1619,10 @@ export const baseMoviesApi: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [
+      { type: OscarEnum.OSCAR_BEST_ACTOR, year: 2017 },
+      { type: OscarEnum.OSCAR_BEST_ORIGINAL_SCREENPLAY, year: 2017 },
+    ],
   },
 
   {
@@ -1612,6 +1660,7 @@ export const baseMoviesApi: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['Danemark'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
 
   {
@@ -1649,6 +1698,7 @@ export const baseMoviesApi: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
 
   {
@@ -1686,6 +1736,7 @@ export const baseMoviesApi: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
 
   {
@@ -1720,6 +1771,7 @@ export const baseMoviesApi: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
 
   {
@@ -1754,6 +1806,7 @@ export const baseMoviesApi: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['Canada'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
 
   {
@@ -1791,6 +1844,7 @@ export const baseMoviesApi: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
 
   {
@@ -1828,6 +1882,7 @@ export const baseMoviesApi: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['Australie', 'États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
 
   {
@@ -1865,6 +1920,7 @@ export const baseMoviesApi: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['Australie', 'États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
 
   {
@@ -1902,6 +1958,7 @@ export const baseMoviesApi: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['Australie', 'États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
 
   {
@@ -1936,6 +1993,7 @@ export const baseMoviesApi: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
 
   {
@@ -1964,6 +2022,7 @@ export const baseMoviesApi: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
 
   {
@@ -1992,6 +2051,7 @@ export const baseMoviesApi: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis', 'Royaume-Uni'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
 
   {
@@ -2023,6 +2083,7 @@ export const baseMoviesApi: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
 
   {
@@ -2051,6 +2112,7 @@ export const baseMoviesApi: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
 
   {
@@ -2082,6 +2144,7 @@ export const baseMoviesApi: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
 
   {
@@ -2110,6 +2173,7 @@ export const baseMoviesApi: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
 
   {
@@ -2144,6 +2208,7 @@ export const baseMoviesApi: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['France'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
 
   {
@@ -2175,6 +2240,7 @@ export const baseMoviesApi: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['France'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
 
   {
@@ -2209,6 +2275,7 @@ export const baseMoviesApi: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
 
   {
@@ -2255,6 +2322,7 @@ export const baseMoviesApi: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
 
   {
@@ -2283,6 +2351,7 @@ export const baseMoviesApi: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis', 'Royaume-Uni'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
 
   {
@@ -2311,6 +2380,7 @@ export const baseMoviesApi: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['France'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
 
   {
@@ -2339,6 +2409,7 @@ export const baseMoviesApi: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['Japon'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
 
   {
@@ -2370,6 +2441,7 @@ export const baseMoviesApi: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
 
   {
@@ -2404,6 +2476,7 @@ export const baseMoviesApi: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
 
   {
@@ -2441,5 +2514,6 @@ export const baseMoviesApi: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
 ];

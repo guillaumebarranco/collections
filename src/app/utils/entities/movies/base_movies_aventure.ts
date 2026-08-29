@@ -1,4 +1,4 @@
-import { BaseMovie } from '../../../models/movie-model';
+import { BaseMovie, OscarEnum } from '../../../models/movie-model';
 
 export const baseMoviesAventure: BaseMovie[] = [
   {
@@ -37,6 +37,7 @@ export const baseMoviesAventure: BaseMovie[] = [
     },
     countryOrigin: ['France'],
     selectDisplayOrder: 30,
+    oscars: [],
   },
   {
     title: 'Love and Monsters',
@@ -64,6 +65,7 @@ export const baseMoviesAventure: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Fantomas',
@@ -86,6 +88,7 @@ export const baseMoviesAventure: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['France', 'Italie'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: "Tintin et le Mystère de la Toison d'or",
@@ -126,6 +129,7 @@ export const baseMoviesAventure: BaseMovie[] = [
     },
     countryOrigin: ['France', 'Belgique'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Tintin et les Oranges bleues',
@@ -166,6 +170,7 @@ export const baseMoviesAventure: BaseMovie[] = [
     },
     countryOrigin: ['France', 'Espagne'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Les Aventures de Tintin',
@@ -192,6 +197,7 @@ export const baseMoviesAventure: BaseMovie[] = [
     },
     countryOrigin: ['États-Unis', 'Nouvelle-Zélande'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Hook ou la Revanche du capitaine Crochet',
@@ -228,6 +234,7 @@ export const baseMoviesAventure: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 30,
+    oscars: [],
   },
   {
     title: 'Arsène Lupin',
@@ -251,6 +258,7 @@ export const baseMoviesAventure: BaseMovie[] = [
     },
     countryOrigin: ['France', 'Italie', 'Espagne', 'Royaume-Uni'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'King Kong',
@@ -282,6 +290,10 @@ export const baseMoviesAventure: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 30,
+    oscars: [
+      { type: OscarEnum.OSCAR_BEST_SOUND, year: 2006 },
+      { type: OscarEnum.OSCAR_BEST_VISUAL_EFFECTS, year: 2006 },
+    ],
   },
   {
     title: 'Kong: Skull Island',
@@ -315,6 +327,7 @@ export const baseMoviesAventure: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 30,
+    oscars: [],
   },
   {
     title: 'Voyage au Centre de la Terre',
@@ -347,6 +360,7 @@ export const baseMoviesAventure: BaseMovie[] = [
     },
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Jumanji',
@@ -384,6 +398,7 @@ export const baseMoviesAventure: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 30,
+    oscars: [],
   },
   {
     title: 'Jumanji : Bienvenue dans la jungle',
@@ -421,6 +436,7 @@ export const baseMoviesAventure: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 30,
+    oscars: [],
   },
   {
     title: 'Jumanji: Next Level',
@@ -444,6 +460,7 @@ export const baseMoviesAventure: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 30,
+    oscars: [],
   },
   {
     title: 'Percy Jackson : La Mer des monstres',
@@ -484,6 +501,7 @@ export const baseMoviesAventure: BaseMovie[] = [
     },
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'La Vie Rêvée de Walter Mitty',
@@ -520,6 +538,7 @@ export const baseMoviesAventure: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Seul au monde',
@@ -557,6 +576,7 @@ export const baseMoviesAventure: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 30,
+    oscars: [],
   },
   {
     title: "L'Île au trésor",
@@ -598,6 +618,7 @@ export const baseMoviesAventure: BaseMovie[] = [
     },
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: "Lawrence d'Arabie",
@@ -634,6 +655,15 @@ export const baseMoviesAventure: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['Royaume-Uni'],
     selectDisplayOrder: 0,
+    oscars: [
+      { type: OscarEnum.OSCAR_BEST_MOVIE, year: 1963 },
+      { type: OscarEnum.OSCAR_BEST_DIRECTOR, year: 1963 },
+      { type: OscarEnum.OSCAR_BEST_PRODUCTION_DESIGN, year: 1963 },
+      { type: OscarEnum.OSCAR_BEST_CINEMATOGRAPHY, year: 1963 },
+      { type: OscarEnum.OSCAR_BEST_SOUND, year: 1963 },
+      { type: OscarEnum.OSCAR_BEST_FILM_EDITING, year: 1963 },
+      { type: OscarEnum.OSCAR_BEST_ORIGINAL_SCORE, year: 1963 },
+    ],
   },
   {
     title: "L'Imaginarium du Docteur Parnassus",
@@ -656,6 +686,7 @@ export const baseMoviesAventure: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['Royaume-Uni'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'La Chair et le Sang',
@@ -678,6 +709,7 @@ export const baseMoviesAventure: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['Pays-Bas'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Le Règne animal',
@@ -700,6 +732,7 @@ export const baseMoviesAventure: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['France'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Excalibur',
@@ -722,6 +755,7 @@ export const baseMoviesAventure: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['Royaume-Uni'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Le Comte de Monte-Cristo (1934)',
@@ -762,6 +796,7 @@ export const baseMoviesAventure: BaseMovie[] = [
     },
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Le Comte de Monte-Cristo (1954)',
@@ -802,6 +837,7 @@ export const baseMoviesAventure: BaseMovie[] = [
     },
     countryOrigin: ['France', 'Italie'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Le Comte de Monte-Cristo (1961)',
@@ -842,6 +878,7 @@ export const baseMoviesAventure: BaseMovie[] = [
     },
     countryOrigin: ['France', 'Italie'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Le Comte de Monte-Cristo (1975)',
@@ -882,6 +919,7 @@ export const baseMoviesAventure: BaseMovie[] = [
     },
     countryOrigin: ['Royaume-Uni', 'États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Le Comte de Monte-Cristo (2002)',
@@ -908,6 +946,7 @@ export const baseMoviesAventure: BaseMovie[] = [
     },
     countryOrigin: ['États-Unis', 'Irlande'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Le secret de la pyramide',
@@ -948,6 +987,7 @@ export const baseMoviesAventure: BaseMovie[] = [
     },
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'The Green Knight',
@@ -970,6 +1010,7 @@ export const baseMoviesAventure: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Casse-Noisette et les Quatre Royaumes',
@@ -992,6 +1033,7 @@ export const baseMoviesAventure: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['Canada'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Ben-Hur',
@@ -1014,6 +1056,19 @@ export const baseMoviesAventure: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 30,
+    oscars: [
+      { type: OscarEnum.OSCAR_BEST_MOVIE, year: 1960 },
+      { type: OscarEnum.OSCAR_BEST_DIRECTOR, year: 1960 },
+      { type: OscarEnum.OSCAR_BEST_ACTOR, year: 1960 },
+      { type: OscarEnum.OSCAR_BEST_SUPPORTING_ACTOR, year: 1960 },
+      { type: OscarEnum.OSCAR_BEST_ORIGINAL_SCORE, year: 1960 },
+      { type: OscarEnum.OSCAR_BEST_SOUND, year: 1960 },
+      { type: OscarEnum.OSCAR_BEST_PRODUCTION_DESIGN, year: 1960 },
+      { type: OscarEnum.OSCAR_BEST_CINEMATOGRAPHY, year: 1960 },
+      { type: OscarEnum.OSCAR_BEST_COSTUME_DESIGN, year: 1960 },
+      { type: OscarEnum.OSCAR_BEST_FILM_EDITING, year: 1960 },
+      { type: OscarEnum.OSCAR_BEST_VISUAL_EFFECTS, year: 1960 },
+    ],
   },
   {
     title: "Pee-wee's Big Adventure",
@@ -1050,6 +1105,7 @@ export const baseMoviesAventure: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Super Mario Bros.',
@@ -1090,6 +1146,7 @@ export const baseMoviesAventure: BaseMovie[] = [
     },
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Oz the Great and Powerful',
@@ -1126,6 +1183,7 @@ export const baseMoviesAventure: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Jungle Cruise',
@@ -1159,6 +1217,7 @@ export const baseMoviesAventure: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 5,
+    oscars: [],
   },
   {
     title: 'Hugo',
@@ -1195,6 +1254,12 @@ export const baseMoviesAventure: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 5,
+    oscars: [
+      { type: OscarEnum.OSCAR_BEST_CINEMATOGRAPHY, year: 2012 },
+      { type: OscarEnum.OSCAR_BEST_PRODUCTION_DESIGN, year: 2012 },
+      { type: OscarEnum.OSCAR_BEST_SOUND, year: 2012 },
+      { type: OscarEnum.OSCAR_BEST_VISUAL_EFFECTS, year: 2012 },
+    ],
   },
   {
     title: 'Les déstreuses aventures des Orphelins Baudelaire',
@@ -1217,6 +1282,9 @@ export const baseMoviesAventure: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 30,
+    oscars: [
+      { type: OscarEnum.OSCAR_BEST_MAKEUP, year: 2005 },
+    ],
   },
 
   {
@@ -1248,6 +1316,7 @@ export const baseMoviesAventure: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 5,
+    oscars: [],
   },
   {
     title: 'Les Trois Mousquetaires',
@@ -1271,6 +1340,7 @@ export const baseMoviesAventure: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 30,
+    oscars: [],
   },
   {
     title: "Les trois mousquetaires: D'Artagnan",
@@ -1298,6 +1368,7 @@ export const baseMoviesAventure: BaseMovie[] = [
     },
     countryOrigin: ['France'],
     selectDisplayOrder: 30,
+    oscars: [],
   },
   {
     title: 'Les Trois Mousquetaires : Milady',
@@ -1333,6 +1404,7 @@ export const baseMoviesAventure: BaseMovie[] = [
     },
     countryOrigin: ['France'],
     selectDisplayOrder: 30,
+    oscars: [],
   },
   {
     title: "Voyage au centre de la Terre 2 : L'Île mystérieuse",
@@ -1355,6 +1427,7 @@ export const baseMoviesAventure: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 5,
+    oscars: [],
   },
   {
     title: 'Benjamin Gates et le Livre des secrets',
@@ -1377,6 +1450,7 @@ export const baseMoviesAventure: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 5,
+    oscars: [],
   },
   {
     title: 'Benjamin Gates et le Trésor des Templiers',
@@ -1413,6 +1487,7 @@ export const baseMoviesAventure: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 5,
+    oscars: [],
   },
   {
     title: 'Deux Frères',
@@ -1449,6 +1524,7 @@ export const baseMoviesAventure: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['France'],
     selectDisplayOrder: 5,
+    oscars: [],
   },
   {
     title: "Master and Commander : De l'autre côté du monde",
@@ -1472,6 +1548,10 @@ export const baseMoviesAventure: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 5,
+    oscars: [
+      { type: OscarEnum.OSCAR_BEST_SOUND, year: 2004 },
+      { type: OscarEnum.OSCAR_BEST_CINEMATOGRAPHY, year: 2004 },
+    ],
   },
   {
     title: 'La Plage',
@@ -1494,6 +1574,7 @@ export const baseMoviesAventure: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 5,
+    oscars: [],
   },
   {
     title: 'Le Masque de Zorro',
@@ -1516,6 +1597,7 @@ export const baseMoviesAventure: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 5,
+    oscars: [],
   },
   {
     title: 'Lancelot, le premier chevalier',
@@ -1538,6 +1620,7 @@ export const baseMoviesAventure: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 5,
+    oscars: [],
   },
   {
     title: 'Le Dernier des Mohicans',
@@ -1560,6 +1643,9 @@ export const baseMoviesAventure: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 5,
+    oscars: [
+      { type: OscarEnum.OSCAR_BEST_SOUND, year: 1993 },
+    ],
   },
   {
     title: 'Les Goonies',
@@ -1583,6 +1669,7 @@ export const baseMoviesAventure: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 30,
+    oscars: [],
   },
   {
     title: 'Conan le Barbare',
@@ -1605,5 +1692,6 @@ export const baseMoviesAventure: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 5,
+    oscars: [],
   },
 ];

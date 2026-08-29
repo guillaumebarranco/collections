@@ -295,6 +295,7 @@ function mergeMovies(userMovies: any[]): any[] {
       countryOrigin: base?.countryOrigin ?? [],
       selectDisplayOrder: base?.selectDisplayOrder ?? 0,
       fromEntity: base?.fromEntity ?? null,
+      oscars: base?.oscars ?? [],
       ratingComment: movie.ratingComment ?? '',
       inList: movie.inList ?? [],
       borrowed: movie.borrowed ?? '',

@@ -23,6 +23,7 @@ export const getEmptyMovie = (movie: BaseMovie | LightMovie): Movie => {
     saga: full.saga ?? '',
     description: full.description ?? '',
     fromEntity: full.fromEntity ?? null,
+    oscars: full.oscars ?? [],
     countryOrigin: full.countryOrigin ?? [],
     rating: 0,
     timesWatched: 0,

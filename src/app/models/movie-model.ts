@@ -3,6 +3,16 @@ import type {
   MovieFromEntityAdaptation,
   MovieFromEntityType,
 } from './from-entity.model';
+import type { MovieOscar } from './oscar.enum';
+
+export type { MovieOscar } from './oscar.enum';
+export {
+  OscarEnum,
+  OSCAR_ENUM_OPTIONS,
+  OSCAR_LABELS,
+  filterToMovieOscars,
+  isOscarEnum,
+} from './oscar.enum';
 
 const MOVIE_COUNTRY_LABEL_SET = new Set(
   COUNTRY_SELECT_OPTIONS.filter((c): c is Exclude<Country, ''> => c !== '')
@@ -94,6 +104,8 @@ export interface BaseMovie extends MandatoryMovieData {
   /** Ordre d'affichage dans les sélecteurs (0 = ordre par défaut). */
   selectDisplayOrder: number;
   fromEntity: MovieFromEntityAdaptation | null;
+  /** Oscars remportés (tableau vide si aucun). */
+  oscars: MovieOscar[];
 }
 
 export type { MovieFromEntityAdaptation, MovieFromEntityType };

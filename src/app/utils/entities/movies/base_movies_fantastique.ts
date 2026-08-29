@@ -1,4 +1,4 @@
-import { BaseMovie } from '../../../models/movie-model';
+import { BaseMovie, OscarEnum } from '../../../models/movie-model';
 
 export const baseMoviesFantastique: BaseMovie[] = [
   {
@@ -36,6 +36,7 @@ export const baseMoviesFantastique: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: "L'École du Bien et du Mal",
@@ -73,6 +74,7 @@ export const baseMoviesFantastique: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Van Helsing',
@@ -114,6 +116,7 @@ export const baseMoviesFantastique: BaseMovie[] = [
     },
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 30,
+    oscars: [],
   },
   {
     title: 'Adèle Blanc-Sec',
@@ -150,6 +153,7 @@ export const baseMoviesFantastique: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['France'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Nanny McPhee',
@@ -186,6 +190,7 @@ export const baseMoviesFantastique: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Charlie et la Chocolaterie',
@@ -226,6 +231,7 @@ export const baseMoviesFantastique: BaseMovie[] = [
     },
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 30,
+    oscars: [],
   },
   {
     title: 'Wonka',
@@ -266,6 +272,7 @@ export const baseMoviesFantastique: BaseMovie[] = [
     },
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 30,
+    oscars: [],
   },
   {
     title: 'Alice au Pays des Merveilles',
@@ -302,6 +309,10 @@ export const baseMoviesFantastique: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 30,
+    oscars: [
+      { type: OscarEnum.OSCAR_BEST_PRODUCTION_DESIGN, year: 2011 },
+      { type: OscarEnum.OSCAR_BEST_COSTUME_DESIGN, year: 2011 },
+    ],
   },
   {
     title: "Alice de l'autre côté du miroir",
@@ -338,6 +349,7 @@ export const baseMoviesFantastique: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 30,
+    oscars: [],
   },
   {
     title: 'Percy Jackson : Le Voleur de Foudre',
@@ -379,6 +391,7 @@ export const baseMoviesFantastique: BaseMovie[] = [
     },
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'La Princesse Enchantée',
@@ -416,6 +429,7 @@ export const baseMoviesFantastique: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Conan le destructeur',
@@ -453,6 +467,7 @@ export const baseMoviesFantastique: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Kalidor : la légende du talisman',
@@ -490,6 +505,7 @@ export const baseMoviesFantastique: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Les Frères Grimm',
@@ -526,6 +542,7 @@ export const baseMoviesFantastique: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Pan',
@@ -562,6 +579,7 @@ export const baseMoviesFantastique: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Le Chaperon rouge',
@@ -598,6 +616,7 @@ export const baseMoviesFantastique: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
 
   {
@@ -636,6 +655,7 @@ export const baseMoviesFantastique: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 5,
+    oscars: [],
   },
   {
     title: 'Il était une fois 2',
@@ -672,6 +692,7 @@ export const baseMoviesFantastique: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 5,
+    oscars: [],
   },
   {
     title: 'Pinocchio',
@@ -691,6 +712,9 @@ export const baseMoviesFantastique: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 5,
+    oscars: [
+      { type: OscarEnum.OSCAR_BEST_ANIMATED_FEATURE, year: 2023 },
+    ],
   },
   {
     title: 'Sacrées sorcières',
@@ -727,6 +751,7 @@ export const baseMoviesFantastique: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 5,
+    oscars: [],
   },
 
   {
@@ -750,6 +775,7 @@ export const baseMoviesFantastique: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 5,
+    oscars: [],
   },
   {
     title: 'Warcraft',
@@ -786,6 +812,7 @@ export const baseMoviesFantastique: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 5,
+    oscars: [],
   },
   {
     title: "Le Monde fantastique d'Oz",
@@ -822,6 +849,7 @@ export const baseMoviesFantastique: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 5,
+    oscars: [],
   },
   {
     title: "L'Apprenti sorcier",
@@ -858,6 +886,7 @@ export const baseMoviesFantastique: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 5,
+    oscars: [],
   },
   {
     title: 'Enchanted',
@@ -894,6 +923,7 @@ export const baseMoviesFantastique: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 5,
+    oscars: [],
   },
   {
     title: 'Stardust',
@@ -930,6 +960,7 @@ export const baseMoviesFantastique: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 5,
+    oscars: [],
   },
   {
     title: 'Le Secret de Terabithia',
@@ -966,6 +997,7 @@ export const baseMoviesFantastique: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 5,
+    oscars: [],
   },
   {
     title: 'Le Labyrinthe de Pan',
@@ -1002,6 +1034,11 @@ export const baseMoviesFantastique: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['Espagne'],
     selectDisplayOrder: 30,
+    oscars: [
+      { type: OscarEnum.OSCAR_BEST_PRODUCTION_DESIGN, year: 2007 },
+      { type: OscarEnum.OSCAR_BEST_CINEMATOGRAPHY, year: 2007 },
+      { type: OscarEnum.OSCAR_BEST_MAKEUP, year: 2007 },
+    ],
   },
   {
     title: 'Constantine',
@@ -1024,6 +1061,7 @@ export const baseMoviesFantastique: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 30,
+    oscars: [],
   },
   {
     title: 'Ella au pays enchanté',
@@ -1060,6 +1098,7 @@ export const baseMoviesFantastique: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 5,
+    oscars: [],
   },
   {
     title: 'Big Fish',
@@ -1096,6 +1135,7 @@ export const baseMoviesFantastique: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 30,
+    oscars: [],
   },
   {
     title: 'Tuck Everlasting',
@@ -1132,6 +1172,7 @@ export const baseMoviesFantastique: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 5,
+    oscars: [],
   },
   {
     title: 'Casper',
@@ -1168,6 +1209,7 @@ export const baseMoviesFantastique: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 30,
+    oscars: [],
   },
   {
     title: "Edward aux mains d'argent",
@@ -1204,6 +1246,7 @@ export const baseMoviesFantastique: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 30,
+    oscars: [],
   },
   {
     title: 'Labyrinthe',
@@ -1240,6 +1283,7 @@ export const baseMoviesFantastique: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 5,
+    oscars: [],
   },
 
   {
@@ -1263,6 +1307,12 @@ export const baseMoviesFantastique: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 5,
+    oscars: [
+      { type: OscarEnum.OSCAR_BEST_MOVIE, year: 2018 },
+      { type: OscarEnum.OSCAR_BEST_DIRECTOR, year: 2018 },
+      { type: OscarEnum.OSCAR_BEST_PRODUCTION_DESIGN, year: 2018 },
+      { type: OscarEnum.OSCAR_BEST_ORIGINAL_SCORE, year: 2018 },
+    ],
   },
   {
     title: 'Blanche-Neige et le Chasseur',
@@ -1285,6 +1335,7 @@ export const baseMoviesFantastique: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 5,
+    oscars: [],
   },
   {
     title: 'Le Chasseur et la Reine des glaces',
@@ -1307,6 +1358,7 @@ export const baseMoviesFantastique: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 5,
+    oscars: [],
   },
   {
     title: 'Dracula Untold',
@@ -1333,6 +1385,7 @@ export const baseMoviesFantastique: BaseMovie[] = [
     },
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 5,
+    oscars: [],
   },
 
   {
@@ -1356,6 +1409,7 @@ export const baseMoviesFantastique: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 5,
+    oscars: [],
   },
   {
     title: "À la croisée des mondes : La Boussole d'or",
@@ -1382,6 +1436,9 @@ export const baseMoviesFantastique: BaseMovie[] = [
     },
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 5,
+    oscars: [
+      { type: OscarEnum.OSCAR_BEST_VISUAL_EFFECTS, year: 2008 },
+    ],
   },
   {
     title: 'Eragon',
@@ -1413,6 +1470,7 @@ export const baseMoviesFantastique: BaseMovie[] = [
     },
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 30,
+    oscars: [],
   },
   {
     title: 'Donnie Darko',
@@ -1435,6 +1493,7 @@ export const baseMoviesFantastique: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 5,
+    oscars: [],
   },
   {
     title: 'The Crow',
@@ -1457,6 +1516,7 @@ export const baseMoviesFantastique: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 5,
+    oscars: [],
   },
   {
     title: 'Dracula',
@@ -1483,6 +1543,11 @@ export const baseMoviesFantastique: BaseMovie[] = [
     },
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 5,
+    oscars: [
+      { type: OscarEnum.OSCAR_BEST_SOUND, year: 1993 },
+      { type: OscarEnum.OSCAR_BEST_MAKEUP, year: 1993 },
+      { type: OscarEnum.OSCAR_BEST_COSTUME_DESIGN, year: 1993 },
+    ],
   },
   {
     title: 'Willow',
@@ -1505,6 +1570,7 @@ export const baseMoviesFantastique: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 5,
+    oscars: [],
   },
   {
     title: "L'Histoire sans fin",
@@ -1531,5 +1597,6 @@ export const baseMoviesFantastique: BaseMovie[] = [
     },
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 5,
+    oscars: [],
   },
 ];

@@ -1,4 +1,4 @@
-import { BaseMovie } from '../../../models/movie-model';
+import { BaseMovie, OscarEnum } from '../../../models/movie-model';
 
 export const baseMoviesThriller: BaseMovie[] = [
   {
@@ -36,6 +36,7 @@ export const baseMoviesThriller: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Battle Royale',
@@ -72,6 +73,7 @@ export const baseMoviesThriller: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['Japon'],
     selectDisplayOrder: 30,
+    oscars: [],
   },
   {
     title: 'Memento',
@@ -108,6 +110,7 @@ export const baseMoviesThriller: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 30,
+    oscars: [],
   },
   {
     title: 'Brick',
@@ -144,6 +147,7 @@ export const baseMoviesThriller: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Une femme en jeu',
@@ -180,6 +184,7 @@ export const baseMoviesThriller: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Le silence des agneaux',
@@ -216,6 +221,13 @@ export const baseMoviesThriller: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 30,
+    oscars: [
+      { type: OscarEnum.OSCAR_BEST_MOVIE, year: 1992 },
+      { type: OscarEnum.OSCAR_BEST_DIRECTOR, year: 1992 },
+      { type: OscarEnum.OSCAR_BEST_ACTOR, year: 1992 },
+      { type: OscarEnum.OSCAR_BEST_ACTRESS, year: 1992 },
+      { type: OscarEnum.OSCAR_BEST_ADAPTED_SCREENPLAY, year: 1992 },
+    ],
   },
   {
     title: 'Nocturnal Animals',
@@ -252,6 +264,7 @@ export const baseMoviesThriller: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 30,
+    oscars: [],
   },
   {
     title: 'Enemy',
@@ -285,6 +298,7 @@ export const baseMoviesThriller: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['Canada'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: "L'effet papillon",
@@ -321,6 +335,7 @@ export const baseMoviesThriller: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 30,
+    oscars: [],
   },
   {
     title: 'Phone Game',
@@ -357,6 +372,7 @@ export const baseMoviesThriller: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 30,
+    oscars: [],
   },
   {
     title: 'La femme de ménage',
@@ -383,6 +399,7 @@ export const baseMoviesThriller: BaseMovie[] = [
     },
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 30,
+    oscars: [],
   },
   {
     title: 'Eaux profondes',
@@ -406,6 +423,7 @@ export const baseMoviesThriller: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Le Parfum',
@@ -432,6 +450,7 @@ export const baseMoviesThriller: BaseMovie[] = [
     },
     countryOrigin: ['Allemagne'],
     selectDisplayOrder: 30,
+    oscars: [],
   },
   {
     title: 'Le Jeu',
@@ -454,6 +473,7 @@ export const baseMoviesThriller: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['France'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Le chant du loup',
@@ -491,6 +511,7 @@ export const baseMoviesThriller: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['France'],
     selectDisplayOrder: 30,
+    oscars: [],
   },
   {
     title: 'Bird Box',
@@ -527,6 +548,7 @@ export const baseMoviesThriller: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Taxi Driver',
@@ -563,6 +585,7 @@ export const baseMoviesThriller: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 30,
+    oscars: [],
   },
   {
     title: 'Le Pont des espions',
@@ -599,6 +622,9 @@ export const baseMoviesThriller: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [
+      { type: OscarEnum.OSCAR_BEST_SUPPORTING_ACTOR, year: 2016 },
+    ],
   },
   {
     title: 'Arrête-moi si tu peux',
@@ -621,6 +647,7 @@ export const baseMoviesThriller: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 30,
+    oscars: [],
   },
   {
     title: 'Arsène Lupin',
@@ -661,6 +688,7 @@ export const baseMoviesThriller: BaseMovie[] = [
     },
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: '813',
@@ -687,6 +715,7 @@ export const baseMoviesThriller: BaseMovie[] = [
     },
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: "Les Aventures d'Arsène Lupin",
@@ -727,6 +756,7 @@ export const baseMoviesThriller: BaseMovie[] = [
     },
     countryOrigin: ['France'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Signé Arsène Lupin',
@@ -767,6 +797,7 @@ export const baseMoviesThriller: BaseMovie[] = [
     },
     countryOrigin: ['France'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Calculs Meurtriers',
@@ -803,6 +834,7 @@ export const baseMoviesThriller: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Panic Room',
@@ -824,6 +856,7 @@ export const baseMoviesThriller: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 30,
+    oscars: [],
   },
   {
     title: "L'Associé du diable",
@@ -860,6 +893,7 @@ export const baseMoviesThriller: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 30,
+    oscars: [],
   },
   {
     title: 'Sixième Sens',
@@ -896,6 +930,7 @@ export const baseMoviesThriller: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 30,
+    oscars: [],
   },
   {
     title: 'Le Prestige',
@@ -922,6 +957,7 @@ export const baseMoviesThriller: BaseMovie[] = [
     },
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 30,
+    oscars: [],
   },
   {
     title: 'Les Infiltrés',
@@ -944,6 +980,12 @@ export const baseMoviesThriller: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 30,
+    oscars: [
+      { type: OscarEnum.OSCAR_BEST_MOVIE, year: 2007 },
+      { type: OscarEnum.OSCAR_BEST_DIRECTOR, year: 2007 },
+      { type: OscarEnum.OSCAR_BEST_ADAPTED_SCREENPLAY, year: 2007 },
+      { type: OscarEnum.OSCAR_BEST_FILM_EDITING, year: 2007 },
+    ],
   },
   {
     title: 'Da Vinci Code',
@@ -984,6 +1026,7 @@ export const baseMoviesThriller: BaseMovie[] = [
     },
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 30,
+    oscars: [],
   },
   {
     title: 'Lord of War',
@@ -1020,6 +1063,7 @@ export const baseMoviesThriller: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Sous haute pression',
@@ -1056,6 +1100,7 @@ export const baseMoviesThriller: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Pulp Fiction',
@@ -1083,6 +1128,9 @@ export const baseMoviesThriller: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 30,
+    oscars: [
+      { type: OscarEnum.OSCAR_BEST_ORIGINAL_SCREENPLAY, year: 1995 },
+    ],
   },
   {
     title: 'Code mercury',
@@ -1119,6 +1167,7 @@ export const baseMoviesThriller: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Death Note (2006)',
@@ -1145,6 +1194,7 @@ export const baseMoviesThriller: BaseMovie[] = [
     },
     countryOrigin: ['Japon'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Death Note : The Last Name',
@@ -1171,6 +1221,7 @@ export const baseMoviesThriller: BaseMovie[] = [
     },
     countryOrigin: ['Japon'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Death Note',
@@ -1211,6 +1262,7 @@ export const baseMoviesThriller: BaseMovie[] = [
     },
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Diversion',
@@ -1247,6 +1299,7 @@ export const baseMoviesThriller: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 30,
+    oscars: [],
   },
   {
     title: 'Knock Knock',
@@ -1280,6 +1333,7 @@ export const baseMoviesThriller: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Gone Girl',
@@ -1316,6 +1370,7 @@ export const baseMoviesThriller: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 30,
+    oscars: [],
   },
   {
     title: 'Les Incorruptibles',
@@ -1353,6 +1408,9 @@ export const baseMoviesThriller: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [
+      { type: OscarEnum.OSCAR_BEST_SUPPORTING_ACTOR, year: 1988 },
+    ],
   },
   {
     title: 'Scarface',
@@ -1389,6 +1447,7 @@ export const baseMoviesThriller: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 30,
+    oscars: [],
   },
   {
     title: 'The Dead Zone',
@@ -1429,6 +1488,7 @@ export const baseMoviesThriller: BaseMovie[] = [
     },
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: "L'Œil du mal",
@@ -1465,6 +1525,7 @@ export const baseMoviesThriller: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 30,
+    oscars: [],
   },
   {
     title: 'Gone Baby Gone',
@@ -1489,6 +1550,7 @@ export const baseMoviesThriller: BaseMovie[] = [
     },
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 30,
+    oscars: [],
   },
   {
     title: 'No Country for Old Men',
@@ -1525,6 +1587,12 @@ export const baseMoviesThriller: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 30,
+    oscars: [
+      { type: OscarEnum.OSCAR_BEST_MOVIE, year: 2008 },
+      { type: OscarEnum.OSCAR_BEST_DIRECTOR, year: 2008 },
+      { type: OscarEnum.OSCAR_BEST_SUPPORTING_ACTOR, year: 2008 },
+      { type: OscarEnum.OSCAR_BEST_ADAPTED_SCREENPLAY, year: 2008 },
+    ],
   },
   {
     title: 'Dangereuse séduction',
@@ -1561,6 +1629,7 @@ export const baseMoviesThriller: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Paranoïak',
@@ -1597,6 +1666,7 @@ export const baseMoviesThriller: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Zodiac',
@@ -1633,6 +1703,7 @@ export const baseMoviesThriller: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 30,
+    oscars: [],
   },
   {
     title: 'Prémonitions',
@@ -1669,6 +1740,7 @@ export const baseMoviesThriller: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Seven',
@@ -1688,6 +1760,7 @@ export const baseMoviesThriller: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 30,
+    oscars: [],
   },
   {
     title: 'The Usual Suspects',
@@ -1724,6 +1797,10 @@ export const baseMoviesThriller: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 30,
+    oscars: [
+      { type: OscarEnum.OSCAR_BEST_SUPPORTING_ACTOR, year: 1996 },
+      { type: OscarEnum.OSCAR_BEST_ORIGINAL_SCREENPLAY, year: 1996 },
+    ],
   },
   {
     title: 'Drive',
@@ -1760,6 +1837,7 @@ export const baseMoviesThriller: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Shutter Island',
@@ -1800,6 +1878,7 @@ export const baseMoviesThriller: BaseMovie[] = [
     },
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 30,
+    oscars: [],
   },
   {
     title: 'Le beau-père',
@@ -1836,6 +1915,7 @@ export const baseMoviesThriller: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Le Loup de Wall Street',
@@ -1858,6 +1938,7 @@ export const baseMoviesThriller: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 30,
+    oscars: [],
   },
   {
     title: 'Prisoners',
@@ -1881,6 +1962,7 @@ export const baseMoviesThriller: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 30,
+    oscars: [],
   },
   {
     title: 'No pain no gain',
@@ -1917,6 +1999,7 @@ export const baseMoviesThriller: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Basic Instinct',
@@ -1953,6 +2036,7 @@ export const baseMoviesThriller: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 30,
+    oscars: [],
   },
   {
     title: 'Reservoir Dogs',
@@ -1989,6 +2073,7 @@ export const baseMoviesThriller: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 30,
+    oscars: [],
   },
   {
     title: 'Les Affranchis',
@@ -2025,6 +2110,9 @@ export const baseMoviesThriller: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 30,
+    oscars: [
+      { type: OscarEnum.OSCAR_BEST_SUPPORTING_ACTOR, year: 1991 },
+    ],
   },
   {
     title: 'Exam',
@@ -2058,6 +2146,7 @@ export const baseMoviesThriller: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Traque sur Internet',
@@ -2094,6 +2183,7 @@ export const baseMoviesThriller: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Sous la Seine',
@@ -2127,6 +2217,7 @@ export const baseMoviesThriller: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['France'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Le nombre 23',
@@ -2163,6 +2254,7 @@ export const baseMoviesThriller: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Triangle',
@@ -2200,6 +2292,7 @@ export const baseMoviesThriller: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Uncut Gems',
@@ -2236,6 +2329,7 @@ export const baseMoviesThriller: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Copland',
@@ -2272,6 +2366,7 @@ export const baseMoviesThriller: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Billy Bathgate',
@@ -2308,6 +2403,7 @@ export const baseMoviesThriller: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Pensées mortelles',
@@ -2344,6 +2440,7 @@ export const baseMoviesThriller: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Piège en eaux troubles',
@@ -2380,6 +2477,7 @@ export const baseMoviesThriller: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Color of Night',
@@ -2416,6 +2514,7 @@ export const baseMoviesThriller: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Alpha Dog',
@@ -2452,6 +2551,7 @@ export const baseMoviesThriller: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Slevin',
@@ -2482,6 +2582,7 @@ export const baseMoviesThriller: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Les Joueurs',
@@ -2518,6 +2619,7 @@ export const baseMoviesThriller: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Le Talentueux Mr Ripley',
@@ -2558,6 +2660,7 @@ export const baseMoviesThriller: BaseMovie[] = [
     },
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Syriana',
@@ -2594,6 +2697,9 @@ export const baseMoviesThriller: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [
+      { type: OscarEnum.OSCAR_BEST_SUPPORTING_ACTOR, year: 2006 },
+    ],
   },
   {
     title: "Raisons d'Etat",
@@ -2630,6 +2736,7 @@ export const baseMoviesThriller: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Contagion',
@@ -2666,6 +2773,7 @@ export const baseMoviesThriller: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Cogan - Killing Them Softly',
@@ -2702,6 +2810,7 @@ export const baseMoviesThriller: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Alliés',
@@ -2738,6 +2847,7 @@ export const baseMoviesThriller: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Les Sentiers de la perdition',
@@ -2774,6 +2884,9 @@ export const baseMoviesThriller: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [
+      { type: OscarEnum.OSCAR_BEST_CINEMATOGRAPHY, year: 2003 },
+    ],
   },
   {
     title: 'Anges et démons',
@@ -2814,6 +2927,7 @@ export const baseMoviesThriller: BaseMovie[] = [
     },
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Capitaine Phillips',
@@ -2850,6 +2964,7 @@ export const baseMoviesThriller: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Inferno',
@@ -2890,6 +3005,7 @@ export const baseMoviesThriller: BaseMovie[] = [
     },
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'The Circle',
@@ -2926,6 +3042,7 @@ export const baseMoviesThriller: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'La Firme',
@@ -2962,6 +3079,7 @@ export const baseMoviesThriller: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Eyes Wide Shut',
@@ -2998,6 +3116,7 @@ export const baseMoviesThriller: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Walkyrie',
@@ -3034,6 +3153,7 @@ export const baseMoviesThriller: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: "Mensonges d'État",
@@ -3070,6 +3190,7 @@ export const baseMoviesThriller: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: "Une bataille après l'autre",
@@ -3106,6 +3227,7 @@ export const baseMoviesThriller: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Détention secrète',
@@ -3142,6 +3264,7 @@ export const baseMoviesThriller: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Night Call',
@@ -3175,6 +3298,7 @@ export const baseMoviesThriller: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Bad Education',
@@ -3208,6 +3332,7 @@ export const baseMoviesThriller: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Suicide Club',
@@ -3245,6 +3370,7 @@ export const baseMoviesThriller: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Intuitions',
@@ -3281,6 +3407,7 @@ export const baseMoviesThriller: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Au bout de la nuit',
@@ -3317,6 +3444,7 @@ export const baseMoviesThriller: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'The Whole Truth',
@@ -3347,6 +3475,7 @@ export const baseMoviesThriller: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Serenity',
@@ -3380,6 +3509,7 @@ export const baseMoviesThriller: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: "Mothers' Instinct",
@@ -3407,6 +3537,7 @@ export const baseMoviesThriller: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'La Théorie du Chaos',
@@ -3444,6 +3575,7 @@ export const baseMoviesThriller: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Buried',
@@ -3480,6 +3612,7 @@ export const baseMoviesThriller: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Captives',
@@ -3516,6 +3649,7 @@ export const baseMoviesThriller: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'La Disparue',
@@ -3549,6 +3683,7 @@ export const baseMoviesThriller: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Le Droit de tuer ?',
@@ -3568,6 +3703,7 @@ export const baseMoviesThriller: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'The Machinist',
@@ -3604,6 +3740,7 @@ export const baseMoviesThriller: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Bad Times',
@@ -3640,6 +3777,7 @@ export const baseMoviesThriller: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'The Pale Blue Eye',
@@ -3676,6 +3814,7 @@ export const baseMoviesThriller: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Le Dahlia noir',
@@ -3716,6 +3855,7 @@ export const baseMoviesThriller: BaseMovie[] = [
     },
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Dreamland',
@@ -3746,6 +3886,7 @@ export const baseMoviesThriller: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Dead Again',
@@ -3782,6 +3923,7 @@ export const baseMoviesThriller: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Docteur Patch',
@@ -3818,6 +3960,7 @@ export const baseMoviesThriller: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Photo Obsession',
@@ -3854,6 +3997,7 @@ export const baseMoviesThriller: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Le Prince de Greenwich Village',
@@ -3890,6 +4034,7 @@ export const baseMoviesThriller: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'La Loi du Silence',
@@ -3926,6 +4071,7 @@ export const baseMoviesThriller: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: "La Puissance de l'ange",
@@ -3962,6 +4108,7 @@ export const baseMoviesThriller: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: "Le Masque de l'araignée",
@@ -3998,6 +4145,7 @@ export const baseMoviesThriller: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Crimes et Pouvoir',
@@ -4034,6 +4182,7 @@ export const baseMoviesThriller: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: "L'impasse",
@@ -4070,6 +4219,7 @@ export const baseMoviesThriller: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Il était une fois en Amérique',
@@ -4106,6 +4256,7 @@ export const baseMoviesThriller: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Le Trou',
@@ -4142,6 +4293,7 @@ export const baseMoviesThriller: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 1,
+    oscars: [],
   },
   {
     title: 'Fenêtre sur cour',
@@ -4178,6 +4330,7 @@ export const baseMoviesThriller: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 1,
+    oscars: [],
   },
   {
     title: 'La Corde',
@@ -4200,6 +4353,7 @@ export const baseMoviesThriller: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 1,
+    oscars: [],
   },
   {
     title: "Entre le ciel et l'enfer",
@@ -4236,6 +4390,7 @@ export const baseMoviesThriller: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['Japon'],
     selectDisplayOrder: 1,
+    oscars: [],
   },
   {
     title: 'Sueurs froides',
@@ -4272,6 +4427,7 @@ export const baseMoviesThriller: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'La Mort aux trousses',
@@ -4308,6 +4464,7 @@ export const baseMoviesThriller: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Casino',
@@ -4344,6 +4501,7 @@ export const baseMoviesThriller: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 30,
+    oscars: [],
   },
   {
     title: 'La Nuit du chasseur',
@@ -4380,6 +4538,7 @@ export const baseMoviesThriller: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 30,
+    oscars: [],
   },
   {
     title: 'M le Maudit',
@@ -4416,6 +4575,7 @@ export const baseMoviesThriller: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Le Nom de la Rose',
@@ -4452,6 +4612,7 @@ export const baseMoviesThriller: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['France'],
     selectDisplayOrder: 30,
+    oscars: [],
   },
   {
     title: 'Sans identité',
@@ -4488,6 +4649,7 @@ export const baseMoviesThriller: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Régression',
@@ -4524,6 +4686,7 @@ export const baseMoviesThriller: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Irréprochable',
@@ -4560,6 +4723,7 @@ export const baseMoviesThriller: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['France'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Möbius',
@@ -4596,6 +4760,7 @@ export const baseMoviesThriller: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['France'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'La French',
@@ -4632,6 +4797,7 @@ export const baseMoviesThriller: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['France'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Dos au mur',
@@ -4668,6 +4834,7 @@ export const baseMoviesThriller: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Le facteur sonne toujours deux fois',
@@ -4704,6 +4871,7 @@ export const baseMoviesThriller: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Le diable tout le temps',
@@ -4744,6 +4912,7 @@ export const baseMoviesThriller: BaseMovie[] = [
     },
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Red Sparrow',
@@ -4780,6 +4949,7 @@ export const baseMoviesThriller: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Pur-sang',
@@ -4810,6 +4980,7 @@ export const baseMoviesThriller: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Gothika',
@@ -4846,6 +5017,7 @@ export const baseMoviesThriller: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'The Call',
@@ -4882,6 +5054,7 @@ export const baseMoviesThriller: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Le Prix du silence',
@@ -4918,6 +5091,7 @@ export const baseMoviesThriller: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Mensonges et Faux Semblants',
@@ -4955,6 +5129,7 @@ export const baseMoviesThriller: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'The Crying Game',
@@ -4991,6 +5166,9 @@ export const baseMoviesThriller: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [
+      { type: OscarEnum.OSCAR_BEST_ORIGINAL_SCREENPLAY, year: 1993 },
+    ],
   },
   {
     title: "Angles d'attaque",
@@ -5013,6 +5191,7 @@ export const baseMoviesThriller: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Disparue',
@@ -5049,6 +5228,7 @@ export const baseMoviesThriller: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'The Informer',
@@ -5085,6 +5265,7 @@ export const baseMoviesThriller: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Blackout',
@@ -5112,6 +5293,7 @@ export const baseMoviesThriller: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Blood Ties',
@@ -5134,6 +5316,7 @@ export const baseMoviesThriller: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Longlegs',
@@ -5156,6 +5339,7 @@ export const baseMoviesThriller: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['Canada'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Sympathy for Mister Vengeance',
@@ -5178,6 +5362,7 @@ export const baseMoviesThriller: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['Corée du Sud'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: "Les Promesses de l'ombre",
@@ -5200,6 +5385,7 @@ export const baseMoviesThriller: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['Royaume-Uni'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Loft',
@@ -5222,6 +5408,7 @@ export const baseMoviesThriller: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['Belgique'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Taking Lives, destins violés',
@@ -5244,6 +5431,7 @@ export const baseMoviesThriller: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Rupture fatale',
@@ -5266,6 +5454,7 @@ export const baseMoviesThriller: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'La Fracture',
@@ -5288,6 +5477,7 @@ export const baseMoviesThriller: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: "Anatomie d'une chute",
@@ -5310,6 +5500,7 @@ export const baseMoviesThriller: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['France'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: "L'Homme qui en savait trop",
@@ -5332,6 +5523,9 @@ export const baseMoviesThriller: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [
+      { type: OscarEnum.OSCAR_BEST_ORIGINAL_SONG, year: 1957 },
+    ],
   },
   {
     title: 'Nightmare Alley',
@@ -5354,6 +5548,7 @@ export const baseMoviesThriller: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Under the Silver Lake',
@@ -5376,6 +5571,7 @@ export const baseMoviesThriller: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Lady Vengeance',
@@ -5398,6 +5594,7 @@ export const baseMoviesThriller: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['Corée du Sud'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Il était une fois le Bronx',
@@ -5420,6 +5617,7 @@ export const baseMoviesThriller: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Fargo',
@@ -5442,6 +5640,10 @@ export const baseMoviesThriller: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['Royaume-Uni'],
     selectDisplayOrder: 0,
+    oscars: [
+      { type: OscarEnum.OSCAR_BEST_ACTRESS, year: 1997 },
+      { type: OscarEnum.OSCAR_BEST_ORIGINAL_SCREENPLAY, year: 1997 },
+    ],
   },
   {
     title: 'Blow Out',
@@ -5464,6 +5666,7 @@ export const baseMoviesThriller: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'The Bikeriders',
@@ -5486,6 +5689,7 @@ export const baseMoviesThriller: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Wind River',
@@ -5508,6 +5712,7 @@ export const baseMoviesThriller: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['Royaume-Uni'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Killer Joe',
@@ -5530,6 +5735,7 @@ export const baseMoviesThriller: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Le Chien des Baskerville (1939)',
@@ -5570,6 +5776,7 @@ export const baseMoviesThriller: BaseMovie[] = [
     },
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Les Aventures de Sherlock Holmes (1939)',
@@ -5610,6 +5817,7 @@ export const baseMoviesThriller: BaseMovie[] = [
     },
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'La Vie privée de Sherlock Holmes',
@@ -5650,6 +5858,7 @@ export const baseMoviesThriller: BaseMovie[] = [
     },
     countryOrigin: ['Royaume-Uni', 'États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Meurtre par décret',
@@ -5690,6 +5899,7 @@ export const baseMoviesThriller: BaseMovie[] = [
     },
     countryOrigin: ['Royaume-Uni', 'Canada'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'La Solution à sept pour cent',
@@ -5716,6 +5926,7 @@ export const baseMoviesThriller: BaseMovie[] = [
     },
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Peur primale',
@@ -5738,6 +5949,7 @@ export const baseMoviesThriller: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Snake Eyes',
@@ -5760,6 +5972,7 @@ export const baseMoviesThriller: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Coherence',
@@ -5782,6 +5995,7 @@ export const baseMoviesThriller: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'American Gangster',
@@ -5818,6 +6032,7 @@ export const baseMoviesThriller: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Mean Streets',
@@ -5840,6 +6055,7 @@ export const baseMoviesThriller: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Les Nerfs à vif',
@@ -5876,6 +6092,7 @@ export const baseMoviesThriller: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Blue Velvet',
@@ -5912,6 +6129,7 @@ export const baseMoviesThriller: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Lost Highway',
@@ -5948,6 +6166,7 @@ export const baseMoviesThriller: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis', 'France'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Inland Empire',
@@ -5984,6 +6203,7 @@ export const baseMoviesThriller: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis', 'France', 'Pologne'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Un plan simple',
@@ -6020,6 +6240,7 @@ export const baseMoviesThriller: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'The Gift',
@@ -6056,6 +6277,7 @@ export const baseMoviesThriller: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Conversation Secrète',
@@ -6092,6 +6314,7 @@ export const baseMoviesThriller: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Eastern Promises',
@@ -6128,6 +6351,7 @@ export const baseMoviesThriller: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['Royaume-Uni', 'Canada', 'États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Mort sur le Nil',
@@ -6168,6 +6392,7 @@ export const baseMoviesThriller: BaseMovie[] = [
     },
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 5,
+    oscars: [],
   },
   {
     title: 'Old',
@@ -6204,6 +6429,7 @@ export const baseMoviesThriller: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 5,
+    oscars: [],
   },
   {
     title: 'The Gentlemen',
@@ -6240,6 +6466,7 @@ export const baseMoviesThriller: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 5,
+    oscars: [],
   },
   {
     title: 'Parasite',
@@ -6276,6 +6503,12 @@ export const baseMoviesThriller: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['Corée du Sud'],
     selectDisplayOrder: 30,
+    oscars: [
+      { type: OscarEnum.OSCAR_BEST_MOVIE, year: 2020 },
+      { type: OscarEnum.OSCAR_BEST_DIRECTOR, year: 2020 },
+      { type: OscarEnum.OSCAR_BEST_ORIGINAL_SCREENPLAY, year: 2020 },
+      { type: OscarEnum.OSCAR_BEST_INTERNATIONAL_FEATURE, year: 2020 },
+    ],
   },
   {
     title: 'BlacKkKlansman',
@@ -6312,6 +6545,9 @@ export const baseMoviesThriller: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 5,
+    oscars: [
+      { type: OscarEnum.OSCAR_BEST_ADAPTED_SCREENPLAY, year: 2019 },
+    ],
   },
   {
     title: "Le Crime de l'Orient-Express",
@@ -6352,6 +6588,7 @@ export const baseMoviesThriller: BaseMovie[] = [
     },
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 5,
+    oscars: [],
   },
   {
     title: 'Public Enemies',
@@ -6374,6 +6611,7 @@ export const baseMoviesThriller: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 5,
+    oscars: [],
   },
   {
     title: 'Le Village',
@@ -6410,6 +6648,7 @@ export const baseMoviesThriller: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 5,
+    oscars: [],
   },
   {
     title: 'Insomnia',
@@ -6446,6 +6685,7 @@ export const baseMoviesThriller: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 30,
+    oscars: [],
   },
   {
     title: 'Tower of Terror',
@@ -6482,6 +6722,7 @@ export const baseMoviesThriller: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 5,
+    oscars: [],
   },
   {
     title: 'Wedding Nightmare',
@@ -6501,6 +6742,7 @@ export const baseMoviesThriller: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Jessie',
@@ -6520,6 +6762,7 @@ export const baseMoviesThriller: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: "Don't Breathe",
@@ -6539,6 +6782,7 @@ export const baseMoviesThriller: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'I Spit on Your Grave',
@@ -6558,6 +6802,7 @@ export const baseMoviesThriller: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Ma',
@@ -6577,6 +6822,7 @@ export const baseMoviesThriller: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Intrusion',
@@ -6599,6 +6845,7 @@ export const baseMoviesThriller: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: "L'intrusion",
@@ -6621,6 +6868,7 @@ export const baseMoviesThriller: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'The Weekend Away',
@@ -6640,6 +6888,7 @@ export const baseMoviesThriller: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'La femme à la fenêtre',
@@ -6659,6 +6908,7 @@ export const baseMoviesThriller: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Obsession secrète',
@@ -6681,6 +6931,7 @@ export const baseMoviesThriller: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Fatale',
@@ -6700,6 +6951,7 @@ export const baseMoviesThriller: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Rencontre fatale',
@@ -6722,6 +6974,7 @@ export const baseMoviesThriller: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Mea Culpa',
@@ -6741,6 +6994,7 @@ export const baseMoviesThriller: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Double vice',
@@ -6763,6 +7017,7 @@ export const baseMoviesThriller: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Liaison fatale',
@@ -6782,6 +7037,7 @@ export const baseMoviesThriller: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Fair Play',
@@ -6801,6 +7057,7 @@ export const baseMoviesThriller: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'The Jane Doe Identity',
@@ -6823,6 +7080,7 @@ export const baseMoviesThriller: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Action ou vérité',
@@ -6850,6 +7108,7 @@ export const baseMoviesThriller: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Play or Die',
@@ -6869,6 +7128,7 @@ export const baseMoviesThriller: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['France'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Couple modèle',
@@ -6888,6 +7148,7 @@ export const baseMoviesThriller: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Jamais plus',
@@ -6907,6 +7168,7 @@ export const baseMoviesThriller: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Escape Room',
@@ -6926,6 +7188,7 @@ export const baseMoviesThriller: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Final Girl',
@@ -6945,6 +7208,7 @@ export const baseMoviesThriller: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Le cas 39',
@@ -6964,6 +7228,7 @@ export const baseMoviesThriller: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Tin et Tina',
@@ -6983,6 +7248,7 @@ export const baseMoviesThriller: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['Espagne'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Run Rabbit Run',
@@ -7002,6 +7268,7 @@ export const baseMoviesThriller: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['Australie'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Les guetteurs',
@@ -7021,6 +7288,7 @@ export const baseMoviesThriller: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'I See You',
@@ -7040,6 +7308,7 @@ export const baseMoviesThriller: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Le monde de John',
@@ -7059,6 +7328,7 @@ export const baseMoviesThriller: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Dans les angles morts',
@@ -7078,6 +7348,7 @@ export const baseMoviesThriller: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Identity',
@@ -7097,6 +7368,7 @@ export const baseMoviesThriller: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Jeu intérieur',
@@ -7116,6 +7388,7 @@ export const baseMoviesThriller: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Re Member',
@@ -7135,6 +7408,7 @@ export const baseMoviesThriller: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: "Ne t'endors pas",
@@ -7154,6 +7428,7 @@ export const baseMoviesThriller: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: "Don't Worry Darling",
@@ -7173,6 +7448,7 @@ export const baseMoviesThriller: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Les couleurs du mal Rouge',
@@ -7192,6 +7468,7 @@ export const baseMoviesThriller: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'The Privilege',
@@ -7211,6 +7488,7 @@ export const baseMoviesThriller: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['Allemagne'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Séminaire',
@@ -7230,6 +7508,7 @@ export const baseMoviesThriller: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: "N'écoute pas",
@@ -7249,6 +7528,7 @@ export const baseMoviesThriller: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Hypnotique',
@@ -7268,6 +7548,7 @@ export const baseMoviesThriller: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: "Don't Move",
@@ -7287,6 +7568,7 @@ export const baseMoviesThriller: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'La prison de verre',
@@ -7306,6 +7588,7 @@ export const baseMoviesThriller: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Locked In',
@@ -7325,6 +7608,7 @@ export const baseMoviesThriller: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['Royaume-Uni'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Brick',
@@ -7344,6 +7628,7 @@ export const baseMoviesThriller: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Chez moi',
@@ -7363,6 +7648,7 @@ export const baseMoviesThriller: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'The Perfection',
@@ -7382,6 +7668,7 @@ export const baseMoviesThriller: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Eileen',
@@ -7401,6 +7688,7 @@ export const baseMoviesThriller: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Escape Game 2',
@@ -7420,6 +7708,7 @@ export const baseMoviesThriller: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'The Rip',
@@ -7456,6 +7745,7 @@ export const baseMoviesThriller: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 5,
+    oscars: [],
   },
   {
     title: 'Gourou',
@@ -7492,6 +7782,7 @@ export const baseMoviesThriller: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['France'],
     selectDisplayOrder: 30,
+    oscars: [],
   },
   {
     title: 'Bugonia',
@@ -7522,6 +7813,7 @@ export const baseMoviesThriller: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 5,
+    oscars: [],
   },
   {
     title: 'The Ghost Writer',
@@ -7541,6 +7833,7 @@ export const baseMoviesThriller: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['Royaume-Uni'],
     selectDisplayOrder: 5,
+    oscars: [],
   },
 
   {
@@ -7578,6 +7871,7 @@ export const baseMoviesThriller: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 5,
+    oscars: [],
   },
   {
     title: 'Juré n°2',
@@ -7608,6 +7902,7 @@ export const baseMoviesThriller: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 5,
+    oscars: [],
   },
   {
     title: 'Trap',
@@ -7638,6 +7933,7 @@ export const baseMoviesThriller: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 5,
+    oscars: [],
   },
   {
     title: 'Civil War',
@@ -7668,6 +7964,7 @@ export const baseMoviesThriller: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 5,
+    oscars: [],
   },
   {
     title: 'The Killer',
@@ -7698,6 +7995,7 @@ export const baseMoviesThriller: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 5,
+    oscars: [],
   },
   {
     title: 'Boîte noire',
@@ -7720,6 +8018,7 @@ export const baseMoviesThriller: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['France'],
     selectDisplayOrder: 5,
+    oscars: [],
   },
   {
     title: 'Escape Game',
@@ -7742,6 +8041,7 @@ export const baseMoviesThriller: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 5,
+    oscars: [],
   },
   {
     title: "Sale temps à l'hôtel El Royale",
@@ -7764,6 +8064,7 @@ export const baseMoviesThriller: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 5,
+    oscars: [],
   },
   {
     title: 'Good Time',
@@ -7786,6 +8087,7 @@ export const baseMoviesThriller: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 5,
+    oscars: [],
   },
   {
     title: 'Money Monster',
@@ -7808,6 +8110,7 @@ export const baseMoviesThriller: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 5,
+    oscars: [],
   },
   {
     title: 'Sicario',
@@ -7830,6 +8133,7 @@ export const baseMoviesThriller: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 5,
+    oscars: [],
   },
   {
     title: 'Les Brasiers de la colère',
@@ -7860,6 +8164,7 @@ export const baseMoviesThriller: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 5,
+    oscars: [],
   },
   {
     title: 'Mindscape',
@@ -7882,6 +8187,7 @@ export const baseMoviesThriller: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 5,
+    oscars: [],
   },
   {
     title: 'Gangster Squad',
@@ -7904,6 +8210,7 @@ export const baseMoviesThriller: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 5,
+    oscars: [],
   },
   {
     title: 'Funny Games U.S.',
@@ -7926,6 +8233,7 @@ export const baseMoviesThriller: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 5,
+    oscars: [],
   },
   {
     title: 'Hannibal Lecter : Les Origines du mal',
@@ -7948,6 +8256,7 @@ export const baseMoviesThriller: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 5,
+    oscars: [],
   },
   {
     title: "Inside Man : L'Homme de l'intérieur",
@@ -7970,6 +8279,7 @@ export const baseMoviesThriller: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 5,
+    oscars: [],
   },
   {
     title: 'Collatéral',
@@ -7992,6 +8302,7 @@ export const baseMoviesThriller: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 5,
+    oscars: [],
   },
   {
     title: 'Mystic River',
@@ -8014,6 +8325,10 @@ export const baseMoviesThriller: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 5,
+    oscars: [
+      { type: OscarEnum.OSCAR_BEST_ACTOR, year: 2004 },
+      { type: OscarEnum.OSCAR_BEST_SUPPORTING_ACTOR, year: 2004 },
+    ],
   },
   {
     title: 'Dragon rouge',
@@ -8036,6 +8351,7 @@ export const baseMoviesThriller: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 5,
+    oscars: [],
   },
   {
     title: 'Hannibal',
@@ -8058,6 +8374,7 @@ export const baseMoviesThriller: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 5,
+    oscars: [],
   },
   {
     title: 'American Psycho',
@@ -8084,6 +8401,7 @@ export const baseMoviesThriller: BaseMovie[] = [
     },
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 30,
+    oscars: [],
   },
   {
     title: 'The Game',
@@ -8106,6 +8424,7 @@ export const baseMoviesThriller: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 5,
+    oscars: [],
   },
   {
     title: "Millénium : Les hommes qui n'aimaient pas les femmes",
@@ -8132,6 +8451,7 @@ export const baseMoviesThriller: BaseMovie[] = [
     },
     countryOrigin: ['Suède'],
     selectDisplayOrder: 30,
+    oscars: [],
   },
   {
     title:
@@ -8160,6 +8480,7 @@ export const baseMoviesThriller: BaseMovie[] = [
     },
     countryOrigin: ['Suède'],
     selectDisplayOrder: 30,
+    oscars: [],
   },
   {
     title: "Millénium 3 : La reine dans le palais des courants d'air",
@@ -8186,6 +8507,7 @@ export const baseMoviesThriller: BaseMovie[] = [
     },
     countryOrigin: ['Suède'],
     selectDisplayOrder: 30,
+    oscars: [],
   },
   {
     title: 'Le Roi Soleil',
@@ -8207,5 +8529,6 @@ export const baseMoviesThriller: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['France'],
     selectDisplayOrder: 5,
+    oscars: [],
   },
 ];

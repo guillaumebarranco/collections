@@ -341,6 +341,42 @@ function parsefromEntityField(objectText: string) {
   return null;
 }
 
+function parseOscarsField(objectText: string): { type: string; year: number }[] {
+  const keyMatch = objectText.match(/\boscars\s*:\s*/);
+  if (!keyMatch || keyMatch.index === undefined) {
+    return [];
+  }
+  let pos = keyMatch.index + keyMatch[0].length;
+  while (pos < objectText.length && /\s/.test(objectText[pos])) {
+    pos += 1;
+  }
+  if (objectText[pos] !== '[') {
+    return [];
+  }
+  let depth = 1;
+  let i = pos + 1;
+  while (i < objectText.length && depth > 0) {
+    const c = objectText[i];
+    if (c === '[') depth += 1;
+    else if (c === ']') depth -= 1;
+    i += 1;
+  }
+  const inner = objectText.slice(pos + 1, i - 1);
+  const oscars: { type: string; year: number }[] = [];
+  const itemRe =
+    /\{\s*type\s*:\s*(?:OscarEnum\.)?(['"]?)([A-Z_]+)\1\s*,\s*year\s*:\s*(\d+)\s*\}/g;
+  let match = itemRe.exec(inner);
+  while (match) {
+    const type = match[2];
+    const year = Number(match[3]);
+    if (type && Number.isFinite(year) && year > 0) {
+      oscars.push({ type, year });
+    }
+    match = itemRe.exec(inner);
+  }
+  return oscars;
+}
+
 function parseMoviesFromFile(content: string): UserMovie[] {
   const exportIndex = content.indexOf('export const');
   if (exportIndex === -1) {
@@ -521,6 +557,7 @@ function parseBaseMoviesFullFromFile(content: string): BaseMovie[] {
           selectDisplayOrder:
             parseNumberField(objectText, 'selectDisplayOrder') ?? 0,
           fromEntity: parsefromEntityField(objectText) ?? null,
+          oscars: parseOscarsField(objectText) as BaseMovie['oscars'],
         } as BaseMovie);
       }
     }

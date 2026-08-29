@@ -58,6 +58,7 @@ import {
   getMoviesByDirector,
   getMoviesBySaga,
   getMoviesByCountry,
+  getMoviesByOscarCount,
 } from './movies.utils';
 import { getApiBaseUrl } from '../../../core/config';
 import { MoviesHeaderComponent } from './movies-header/movies-header.component';
@@ -145,6 +146,7 @@ export class MoviesComponent implements OnInit {
     actors: false,
     directors: false,
     countries: false,
+    oscars: true,
     recommendations: false,
   });
 
@@ -353,6 +355,7 @@ export class MoviesComponent implements OnInit {
       this.selectedView() === 'actors' ||
       this.selectedView() === 'directors' ||
       this.selectedView() === 'countries' ||
+      this.selectedView() === 'oscars' ||
       this.selectedView() === 'recommendations'
     ) {
       movies = this.allMovies();
@@ -401,7 +404,8 @@ export class MoviesComponent implements OnInit {
       this.selectedView() === 'sagas' ||
       this.selectedView() === 'actors' ||
       this.selectedView() === 'directors' ||
-      this.selectedView() === 'countries'
+      this.selectedView() === 'countries' ||
+      this.selectedView() === 'oscars'
     ) {
       if (this.selectedYearFilter() !== 'all') {
         if (allYearsSince2000.includes(Number(this.selectedYearFilter()))) {
@@ -446,6 +450,7 @@ export class MoviesComponent implements OnInit {
   collapsedActors = signal<Record<string, boolean>>({});
   collapsedDirectors = signal<Record<string, boolean>>({});
   collapsedCountries = signal<Record<string, boolean>>({});
+  collapsedOscarCounts = signal<Record<number, boolean>>({});
   recommendations = signal<RecommendedMovie[]>([]);
   isLoadingRecommendations = signal<boolean>(false);
   recommendationsOfflineBlocked = signal(false);
@@ -528,6 +533,7 @@ export class MoviesComponent implements OnInit {
       queryParams['view'] === 'actors' ||
       queryParams['view'] === 'directors' ||
       queryParams['view'] === 'countries' ||
+      queryParams['view'] === 'oscars' ||
       queryParams['view'] === 'recommendations'
     ) {
       this.selectedView.set(queryParams['view'] as MovieView);
@@ -597,6 +603,7 @@ export class MoviesComponent implements OnInit {
       view === 'actors' ||
       view === 'directors' ||
       view === 'countries' ||
+      view === 'oscars' ||
       view === 'recommendations'
     );
   }
@@ -691,6 +698,8 @@ export class MoviesComponent implements OnInit {
       this.selectedSort.set('saga-count');
     } else if (view === 'countries') {
       this.selectedSort.set('country-count');
+    } else if (view === 'oscars') {
+      this.selectedSort.set('title');
     } else {
       // Pour watchlist, recommendations : pas de tri ou tri par défaut
       this.selectedSort.set('title');
@@ -888,6 +897,17 @@ export class MoviesComponent implements OnInit {
     return Boolean(this.collapsedDirectors()[director]);
   }
 
+  toggleOscarCount(oscarCount: number) {
+    this.collapsedOscarCounts.update((current) => ({
+      ...current,
+      [oscarCount]: !current[oscarCount],
+    }));
+  }
+
+  isOscarCountCollapsed(oscarCount: number): boolean {
+    return Boolean(this.collapsedOscarCounts()[oscarCount]);
+  }
+
   toggleCountry(country: string) {
     this.collapsedCountries.update((current) => ({
       ...current,
@@ -958,6 +978,17 @@ export class MoviesComponent implements OnInit {
     });
   });
 
+  moviesByOscarCount = computed(() => {
+    if (this.selectedView() !== 'oscars') {
+      return [];
+    }
+    return getMoviesByOscarCount({
+      sortedMovies: this.sortedMovies(),
+      allMovies: this.allMovies(),
+      baseMovies: this.baseMoviesList(),
+    });
+  });
+
   private getMovieIdentityKey(movie: Movie): string {
     return `${movie.title}|${movie.director}`;
   }
@@ -1014,6 +1045,7 @@ export class MoviesComponent implements OnInit {
       actors: parsed.actors ?? false,
       directors: parsed.directors ?? false,
       countries: parsed.countries ?? false,
+      oscars: parsed.oscars ?? true,
       recommendations: parsed.recommendations ?? false,
       toReWatch: parsed.toReWatch ?? true,
     });

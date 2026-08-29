@@ -1,4 +1,4 @@
-import { BaseMovie } from '../../../models/movie-model';
+import { BaseMovie, OscarEnum } from '../../../models/movie-model';
 
 export const baseMoviesComedieMusicale: BaseMovie[] = [
   {
@@ -36,6 +36,7 @@ export const baseMoviesComedieMusicale: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 5,
+    oscars: [],
   },
   {
     title: 'West Side Story',
@@ -76,6 +77,18 @@ export const baseMoviesComedieMusicale: BaseMovie[] = [
     },
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 30,
+    oscars: [
+      { type: OscarEnum.OSCAR_BEST_MOVIE, year: 1962 },
+      { type: OscarEnum.OSCAR_BEST_DIRECTOR, year: 1962 },
+      { type: OscarEnum.OSCAR_BEST_SUPPORTING_ACTOR, year: 1962 },
+      { type: OscarEnum.OSCAR_BEST_SUPPORTING_ACTRESS, year: 1962 },
+      { type: OscarEnum.OSCAR_BEST_PRODUCTION_DESIGN, year: 1962 },
+      { type: OscarEnum.OSCAR_BEST_CINEMATOGRAPHY, year: 1962 },
+      { type: OscarEnum.OSCAR_BEST_COSTUME_DESIGN, year: 1962 },
+      { type: OscarEnum.OSCAR_BEST_SOUND, year: 1962 },
+      { type: OscarEnum.OSCAR_BEST_FILM_EDITING, year: 1962 },
+      { type: OscarEnum.OSCAR_BEST_ORIGINAL_SCORE, year: 1962 },
+    ],
   },
   {
     title: 'West Side Story',
@@ -116,6 +129,9 @@ export const baseMoviesComedieMusicale: BaseMovie[] = [
     },
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 30,
+    oscars: [
+      { type: OscarEnum.OSCAR_BEST_SUPPORTING_ACTRESS, year: 2022 },
+    ],
   },
   {
     title: 'Rock Forever',
@@ -152,6 +168,7 @@ export const baseMoviesComedieMusicale: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Sur un air de blues',
@@ -188,6 +205,7 @@ export const baseMoviesComedieMusicale: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Wicked',
@@ -224,6 +242,10 @@ export const baseMoviesComedieMusicale: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 30,
+    oscars: [
+      { type: OscarEnum.OSCAR_BEST_PRODUCTION_DESIGN, year: 2025 },
+      { type: OscarEnum.OSCAR_BEST_COSTUME_DESIGN, year: 2025 },
+    ],
   },
   {
     title: 'Wicked: For Good',
@@ -261,6 +283,7 @@ export const baseMoviesComedieMusicale: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 30,
+    oscars: [],
   },
   {
     title: 'Mamma Mia!',
@@ -297,6 +320,7 @@ export const baseMoviesComedieMusicale: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 5,
+    oscars: [],
   },
   {
     title: 'Mamma Mia! Here We Go Again',
@@ -333,6 +357,7 @@ export const baseMoviesComedieMusicale: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 5,
+    oscars: [],
   },
   {
     title: 'Pitch Perfect',
@@ -370,6 +395,7 @@ export const baseMoviesComedieMusicale: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 5,
+    oscars: [],
   },
   {
     title: 'Pitch Perfect 2',
@@ -406,6 +432,7 @@ export const baseMoviesComedieMusicale: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 5,
+    oscars: [],
   },
   {
     title: 'Pitch Perfect 3',
@@ -442,6 +469,7 @@ export const baseMoviesComedieMusicale: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 5,
+    oscars: [],
   },
   {
     title: 'The Greatest Showman',
@@ -479,6 +507,7 @@ export const baseMoviesComedieMusicale: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 30,
+    oscars: [],
   },
   {
     title: 'Les Misérables',
@@ -519,6 +548,11 @@ export const baseMoviesComedieMusicale: BaseMovie[] = [
     },
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 30,
+    oscars: [
+      { type: OscarEnum.OSCAR_BEST_SUPPORTING_ACTRESS, year: 2013 },
+      { type: OscarEnum.OSCAR_BEST_MAKEUP, year: 2013 },
+      { type: OscarEnum.OSCAR_BEST_SOUND, year: 2013 },
+    ],
   },
   {
     title: 'Chicago',
@@ -555,6 +589,14 @@ export const baseMoviesComedieMusicale: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 5,
+    oscars: [
+      { type: OscarEnum.OSCAR_BEST_MOVIE, year: 2003 },
+      { type: OscarEnum.OSCAR_BEST_SUPPORTING_ACTRESS, year: 2003 },
+      { type: OscarEnum.OSCAR_BEST_PRODUCTION_DESIGN, year: 2003 },
+      { type: OscarEnum.OSCAR_BEST_COSTUME_DESIGN, year: 2003 },
+      { type: OscarEnum.OSCAR_BEST_FILM_EDITING, year: 2003 },
+      { type: OscarEnum.OSCAR_BEST_SOUND, year: 2003 },
+    ],
   },
   {
     title: 'The Blues Brothers',
@@ -591,6 +633,7 @@ export const baseMoviesComedieMusicale: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 30,
+    oscars: [],
   },
   {
     title: 'Camp Rock',
@@ -610,6 +653,7 @@ export const baseMoviesComedieMusicale: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Camp Rock 2',
@@ -629,6 +673,7 @@ export const baseMoviesComedieMusicale: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Hannah Montana - Le Film',
@@ -665,6 +710,7 @@ export const baseMoviesComedieMusicale: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 5,
+    oscars: [],
   },
   {
     title: 'Chantons sous la pluie',
@@ -701,6 +747,7 @@ export const baseMoviesComedieMusicale: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 5,
+    oscars: [],
   },
   {
     title: 'Les Parapluies de Cherbourg',
@@ -737,6 +784,7 @@ export const baseMoviesComedieMusicale: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['France'],
     selectDisplayOrder: 5,
+    oscars: [],
   },
   {
     title: 'La Mélodie du bonheur',
@@ -773,6 +821,13 @@ export const baseMoviesComedieMusicale: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 5,
+    oscars: [
+      { type: OscarEnum.OSCAR_BEST_MOVIE, year: 1966 },
+      { type: OscarEnum.OSCAR_BEST_DIRECTOR, year: 1966 },
+      { type: OscarEnum.OSCAR_BEST_SOUND, year: 1966 },
+      { type: OscarEnum.OSCAR_BEST_FILM_EDITING, year: 1966 },
+      { type: OscarEnum.OSCAR_BEST_ORIGINAL_SCORE, year: 1966 },
+    ],
   },
   {
     title: 'Sweeney Todd : Le Diabolique Barbier de Fleet Street',
@@ -809,6 +864,9 @@ export const baseMoviesComedieMusicale: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 5,
+    oscars: [
+      { type: OscarEnum.OSCAR_BEST_PRODUCTION_DESIGN, year: 2008 },
+    ],
   },
   {
     title: 'Moulin Rouge !',
@@ -845,6 +903,10 @@ export const baseMoviesComedieMusicale: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 30,
+    oscars: [
+      { type: OscarEnum.OSCAR_BEST_PRODUCTION_DESIGN, year: 2002 },
+      { type: OscarEnum.OSCAR_BEST_COSTUME_DESIGN, year: 2002 },
+    ],
   },
   {
     title: 'Grease',
@@ -881,6 +943,7 @@ export const baseMoviesComedieMusicale: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 30,
+    oscars: [],
   },
   {
     title: 'Grease 2',
@@ -917,6 +980,7 @@ export const baseMoviesComedieMusicale: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 30,
+    oscars: [],
   },
   {
     title: 'Mary Poppins',
@@ -953,6 +1017,13 @@ export const baseMoviesComedieMusicale: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 5,
+    oscars: [
+      { type: OscarEnum.OSCAR_BEST_ACTRESS, year: 1965 },
+      { type: OscarEnum.OSCAR_BEST_ORIGINAL_SCORE, year: 1965 },
+      { type: OscarEnum.OSCAR_BEST_ORIGINAL_SONG, year: 1965 },
+      { type: OscarEnum.OSCAR_BEST_FILM_EDITING, year: 1965 },
+      { type: OscarEnum.OSCAR_BEST_VISUAL_EFFECTS, year: 1965 },
+    ],
   },
 
   {
@@ -990,6 +1061,7 @@ export const baseMoviesComedieMusicale: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 5,
+    oscars: [],
   },
   {
     title: "Le Magicien d'Oz",
@@ -1026,6 +1098,10 @@ export const baseMoviesComedieMusicale: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 5,
+    oscars: [
+      { type: OscarEnum.OSCAR_BEST_ORIGINAL_SCORE, year: 1940 },
+      { type: OscarEnum.OSCAR_BEST_ORIGINAL_SONG, year: 1940 },
+    ],
   },
   {
     title: 'Bohemian Rhapsody',
@@ -1062,6 +1138,11 @@ export const baseMoviesComedieMusicale: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 30,
+    oscars: [
+      { type: OscarEnum.OSCAR_BEST_ACTOR, year: 2019 },
+      { type: OscarEnum.OSCAR_BEST_FILM_EDITING, year: 2019 },
+      { type: OscarEnum.OSCAR_BEST_SOUND, year: 2019 },
+    ],
   },
   {
     title: 'Rocketman',
@@ -1098,6 +1179,9 @@ export const baseMoviesComedieMusicale: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 30,
+    oscars: [
+      { type: OscarEnum.OSCAR_BEST_ORIGINAL_SONG, year: 2020 },
+    ],
   },
   {
     title: 'Elvis',
@@ -1134,6 +1218,7 @@ export const baseMoviesComedieMusicale: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 5,
+    oscars: [],
   },
   {
     title: 'The Cotton Club',
@@ -1170,6 +1255,7 @@ export const baseMoviesComedieMusicale: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'New York, New York',
@@ -1206,6 +1292,7 @@ export const baseMoviesComedieMusicale: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Limelight',
@@ -1242,6 +1329,9 @@ export const baseMoviesComedieMusicale: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [
+      { type: OscarEnum.OSCAR_BEST_ORIGINAL_SCORE, year: 1973 },
+    ],
   },
   {
     title: '8 Mile',
@@ -1278,5 +1368,8 @@ export const baseMoviesComedieMusicale: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 30,
+    oscars: [
+      { type: OscarEnum.OSCAR_BEST_ORIGINAL_SONG, year: 2003 },
+    ],
   },
 ];

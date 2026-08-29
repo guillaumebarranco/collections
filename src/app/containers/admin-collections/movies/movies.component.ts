@@ -25,6 +25,7 @@ import {
   getMoviesByDirector,
   getMoviesBySaga,
   getMoviesByCountry,
+  getMoviesByOscarCount,
 } from '../../collections/movies/movies.utils';
 import { getFullMovie } from '../../../helpers/full-entities-helper';
 import { AdminMoviesHeaderComponent } from './movies-header/movies-header.component';
@@ -36,6 +37,7 @@ const ADMIN_VIEWS: MovieView[] = [
   'actors',
   'directors',
   'countries',
+  'oscars',
 ];
 
 @Component({
@@ -129,10 +131,20 @@ export class AdminMoviesComponent implements OnInit {
     });
   });
 
+  moviesByOscarCount = computed(() => {
+    if (this.selectedView() !== 'oscars') return [];
+    return getMoviesByOscarCount({
+      sortedMovies: this.sortedMovies(),
+      allMovies: this.allMovies(),
+      baseMovies: this.baseMoviesList(),
+    });
+  });
+
   collapsedSagas = signal<Record<string, boolean>>({});
   collapsedActors = signal<Record<string, boolean>>({});
   collapsedDirectors = signal<Record<string, boolean>>({});
   collapsedCountries = signal<Record<string, boolean>>({});
+  collapsedOscarCounts = signal<Record<number, boolean>>({});
 
   ngOnInit() {
     this.selectedView.set('watched');
@@ -158,6 +170,7 @@ export class AdminMoviesComponent implements OnInit {
     else if (view === 'directors') this.selectedSort.set('director-count');
     else if (view === 'sagas') this.selectedSort.set('saga-count');
     else if (view === 'countries') this.selectedSort.set('country-count');
+    else if (view === 'oscars') this.selectedSort.set('title');
     else this.selectedSort.set('title'); // "Voir tout" and default
   }
 
@@ -201,6 +214,17 @@ export class AdminMoviesComponent implements OnInit {
 
   isCountryCollapsed(country: string): boolean {
     return Boolean(this.collapsedCountries()[country]);
+  }
+
+  toggleOscarCount(oscarCount: number) {
+    this.collapsedOscarCounts.update((c) => ({
+      ...c,
+      [oscarCount]: !c[oscarCount],
+    }));
+  }
+
+  isOscarCountCollapsed(oscarCount: number): boolean {
+    return Boolean(this.collapsedOscarCounts()[oscarCount]);
   }
 
   private matchesSearch(movie: Movie, term: string): boolean {

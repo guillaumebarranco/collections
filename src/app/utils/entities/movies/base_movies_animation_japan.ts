@@ -1,4 +1,4 @@
-import { BaseMovie } from '../../../models/movie-model';
+import { BaseMovie, OscarEnum } from '../../../models/movie-model';
 
 export const baseMoviesAnimationJapan: BaseMovie[] = [
   {
@@ -18,6 +18,7 @@ export const baseMoviesAnimationJapan: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['Japon'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Akira',
@@ -46,6 +47,7 @@ export const baseMoviesAnimationJapan: BaseMovie[] = [
     },
     countryOrigin: ['Japon'],
     selectDisplayOrder: 25,
+    oscars: [],
   },
   {
     title: 'La Colline aux coquelicots',
@@ -70,6 +72,7 @@ export const baseMoviesAnimationJapan: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['Japon'],
     selectDisplayOrder: 25,
+    oscars: [],
   },
   {
     title: 'Princesse Mononoké',
@@ -84,6 +87,7 @@ export const baseMoviesAnimationJapan: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['Japon'],
     selectDisplayOrder: 25,
+    oscars: [],
   },
   {
     title: 'Le Garçon et le héron',
@@ -102,6 +106,9 @@ export const baseMoviesAnimationJapan: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['Japon'],
     selectDisplayOrder: 0,
+    oscars: [
+      { type: OscarEnum.OSCAR_BEST_ANIMATED_FEATURE, year: 2024 },
+    ],
   },
   {
     title: 'Le Voyage de Chihiro',
@@ -116,6 +123,9 @@ export const baseMoviesAnimationJapan: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['Japon'],
     selectDisplayOrder: 25,
+    oscars: [
+      { type: OscarEnum.OSCAR_BEST_ANIMATED_FEATURE, year: 2003 },
+    ],
   },
   {
     title: 'Lupin III : Le Château de Cagliostro',
@@ -138,6 +148,7 @@ export const baseMoviesAnimationJapan: BaseMovie[] = [
     },
     countryOrigin: ['Japon'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Nausicaä de la Vallée du Vent',
@@ -152,6 +163,7 @@ export const baseMoviesAnimationJapan: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['Japon'],
     selectDisplayOrder: 25,
+    oscars: [],
   },
   {
     title: 'Le Château dans le ciel',
@@ -166,6 +178,7 @@ export const baseMoviesAnimationJapan: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['Japon'],
     selectDisplayOrder: 25,
+    oscars: [],
   },
   {
     title: 'Le Tombeau des lucioles',
@@ -187,6 +200,7 @@ export const baseMoviesAnimationJapan: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['Japon'],
     selectDisplayOrder: 25,
+    oscars: [],
   },
   {
     title: 'Mon voisin Totoro',
@@ -208,6 +222,7 @@ export const baseMoviesAnimationJapan: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['Japon'],
     selectDisplayOrder: 25,
+    oscars: [],
   },
   {
     title: 'Le Château ambulant',
@@ -232,6 +247,7 @@ export const baseMoviesAnimationJapan: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['Japon'],
     selectDisplayOrder: 25,
+    oscars: [],
   },
   {
     title: 'Kiki la petite sorcière',
@@ -246,6 +262,7 @@ export const baseMoviesAnimationJapan: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['Japon'],
     selectDisplayOrder: 25,
+    oscars: [],
   },
   {
     title: 'Ponyo',
@@ -260,6 +277,7 @@ export const baseMoviesAnimationJapan: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['Japon'],
     selectDisplayOrder: 25,
+    oscars: [],
   },
   {
     title: 'Je veux manger ton pancréas',
@@ -296,6 +314,7 @@ export const baseMoviesAnimationJapan: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['Japon'],
     selectDisplayOrder: 25,
+    oscars: [],
   },
   {
     title: 'Your Name',
@@ -329,6 +348,7 @@ export const baseMoviesAnimationJapan: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['Japon'],
     selectDisplayOrder: 25,
+    oscars: [],
   },
   {
     title: 'Dragon Ball : Salut ! Son Goku et ses amis sont de retour !!',
@@ -360,6 +380,7 @@ export const baseMoviesAnimationJapan: BaseMovie[] = [
     },
     countryOrigin: ['Japon'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Dragon Ball Z : La Menace de Namek',
@@ -388,6 +409,7 @@ export const baseMoviesAnimationJapan: BaseMovie[] = [
     },
     countryOrigin: ['Japon'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Dragon Ball Z : Le Père de Sangoku',
@@ -416,6 +438,7 @@ export const baseMoviesAnimationJapan: BaseMovie[] = [
     },
     countryOrigin: ['Japon'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Dragon Ball Z: The Tree of Might',
@@ -444,6 +467,7 @@ export const baseMoviesAnimationJapan: BaseMovie[] = [
     },
     countryOrigin: ['Japon'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: "Dragon Ball Z : L'Attaque du dragon",
@@ -472,6 +496,7 @@ export const baseMoviesAnimationJapan: BaseMovie[] = [
     },
     countryOrigin: ['Japon'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Dragon Ball Z : Fusions',
@@ -500,6 +525,7 @@ export const baseMoviesAnimationJapan: BaseMovie[] = [
     },
     countryOrigin: ['Japon'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Dragon Ball Z : Bio-Broly',
@@ -528,6 +554,7 @@ export const baseMoviesAnimationJapan: BaseMovie[] = [
     },
     countryOrigin: ['Japon'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Dragon Ball Z : Rivaux dangereux',
@@ -556,6 +583,7 @@ export const baseMoviesAnimationJapan: BaseMovie[] = [
     },
     countryOrigin: ['Japon'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Dragon Ball Z: Bojack Unbound',
@@ -584,6 +612,7 @@ export const baseMoviesAnimationJapan: BaseMovie[] = [
     },
     countryOrigin: ['Japon'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Dragon Ball Z : Broly le super guerrier',
@@ -613,6 +642,7 @@ export const baseMoviesAnimationJapan: BaseMovie[] = [
     },
     countryOrigin: ['Japon'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: "Dragon Ball Z : L'Histoire de Trunks",
@@ -641,6 +671,7 @@ export const baseMoviesAnimationJapan: BaseMovie[] = [
     },
     countryOrigin: ['Japon'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: "Dragon Ball Z : L'Offensive des cyborgs",
@@ -669,6 +700,7 @@ export const baseMoviesAnimationJapan: BaseMovie[] = [
     },
     countryOrigin: ['Japon'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Dragon Ball Z : Cent Mille Guerriers de métal',
@@ -697,6 +729,7 @@ export const baseMoviesAnimationJapan: BaseMovie[] = [
     },
     countryOrigin: ['Japon'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Dragon Ball Z : La Revanche de Cooler',
@@ -725,6 +758,7 @@ export const baseMoviesAnimationJapan: BaseMovie[] = [
     },
     countryOrigin: ['Japon'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Dragon Ball Z : Le Robot des glaces',
@@ -753,6 +787,7 @@ export const baseMoviesAnimationJapan: BaseMovie[] = [
     },
     countryOrigin: ['Japon'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Dragon Ball Z : À la poursuite de Garlic',
@@ -781,6 +816,7 @@ export const baseMoviesAnimationJapan: BaseMovie[] = [
     },
     countryOrigin: ['Japon'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Dragon Ball Z: Battle of Gods',
@@ -799,6 +835,7 @@ export const baseMoviesAnimationJapan: BaseMovie[] = [
     },
     countryOrigin: ['Japon'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: "Dragon Ball Z : La Résurrection de 'F'",
@@ -827,6 +864,7 @@ export const baseMoviesAnimationJapan: BaseMovie[] = [
     },
     countryOrigin: ['Japon'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Dragon Ball Super: Broly',
@@ -845,6 +883,7 @@ export const baseMoviesAnimationJapan: BaseMovie[] = [
     },
     countryOrigin: ['Japon'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Un monstre à Paris',
@@ -869,6 +908,7 @@ export const baseMoviesAnimationJapan: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 25,
+    oscars: [],
   },
   {
     title: 'Dragon Ball Super: Super Hero',
@@ -887,6 +927,7 @@ export const baseMoviesAnimationJapan: BaseMovie[] = [
     },
     countryOrigin: ['Japon'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'One Piece : Le film',
@@ -905,6 +946,7 @@ export const baseMoviesAnimationJapan: BaseMovie[] = [
     },
     countryOrigin: ['Japon'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: "One Piece : L'Aventure de l'île de l'horloge",
@@ -924,6 +966,7 @@ export const baseMoviesAnimationJapan: BaseMovie[] = [
     },
     countryOrigin: ['Japon'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: "One Piece : Le Royaume de Chopper, l'île des bêtes étranges",
@@ -942,6 +985,7 @@ export const baseMoviesAnimationJapan: BaseMovie[] = [
     },
     countryOrigin: ['Japon'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: "One Piece : L'Aventure sans issue",
@@ -961,6 +1005,7 @@ export const baseMoviesAnimationJapan: BaseMovie[] = [
     },
     countryOrigin: ['Japon'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: "One Piece : La Malédiction de l'épée sacrée",
@@ -979,6 +1024,7 @@ export const baseMoviesAnimationJapan: BaseMovie[] = [
     },
     countryOrigin: ['Japon'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: "One Piece : Le baron Omatsuri et l'île secrète",
@@ -997,6 +1043,7 @@ export const baseMoviesAnimationJapan: BaseMovie[] = [
     },
     countryOrigin: ['Japon'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'One Piece : Le Mecha géant du château Karakuri',
@@ -1015,6 +1062,7 @@ export const baseMoviesAnimationJapan: BaseMovie[] = [
     },
     countryOrigin: ['Japon'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'One Piece Film: Strong World',
@@ -1043,6 +1091,7 @@ export const baseMoviesAnimationJapan: BaseMovie[] = [
     },
     countryOrigin: ['Japon'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'One Piece Film Z',
@@ -1071,6 +1120,7 @@ export const baseMoviesAnimationJapan: BaseMovie[] = [
     },
     countryOrigin: ['Japon'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'One Piece : Gold',
@@ -1089,6 +1139,7 @@ export const baseMoviesAnimationJapan: BaseMovie[] = [
     },
     countryOrigin: ['Japon'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'One Piece: Stampede',
@@ -1107,6 +1158,7 @@ export const baseMoviesAnimationJapan: BaseMovie[] = [
     },
     countryOrigin: ['Japon'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'One Piece Film: Red',
@@ -1135,6 +1187,7 @@ export const baseMoviesAnimationJapan: BaseMovie[] = [
     },
     countryOrigin: ['Japon'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Naruto Shippuden : Le Film',
@@ -1153,6 +1206,7 @@ export const baseMoviesAnimationJapan: BaseMovie[] = [
     },
     countryOrigin: ['Japon'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Naruto Shippuden : Les Liens',
@@ -1171,6 +1225,7 @@ export const baseMoviesAnimationJapan: BaseMovie[] = [
     },
     countryOrigin: ['Japon'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Naruto Shippuden : La Flamme de la volonté',
@@ -1189,6 +1244,7 @@ export const baseMoviesAnimationJapan: BaseMovie[] = [
     },
     countryOrigin: ['Japon'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Naruto Shippuden : La Tour perdue',
@@ -1207,6 +1263,7 @@ export const baseMoviesAnimationJapan: BaseMovie[] = [
     },
     countryOrigin: ['Japon'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Naruto Shippuden : Blood Prison',
@@ -1225,6 +1282,7 @@ export const baseMoviesAnimationJapan: BaseMovie[] = [
     },
     countryOrigin: ['Japon'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Road to Ninja : Naruto le film',
@@ -1243,6 +1301,7 @@ export const baseMoviesAnimationJapan: BaseMovie[] = [
     },
     countryOrigin: ['Japon'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'The Last: Naruto the Movie',
@@ -1261,6 +1320,7 @@ export const baseMoviesAnimationJapan: BaseMovie[] = [
     },
     countryOrigin: ['Japon'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Boruto : Naruto, le film',
@@ -1279,6 +1339,7 @@ export const baseMoviesAnimationJapan: BaseMovie[] = [
     },
     countryOrigin: ['Japon'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: "Demon Slayer : Le Train de l'infini",
@@ -1297,6 +1358,7 @@ export const baseMoviesAnimationJapan: BaseMovie[] = [
     },
     countryOrigin: ['Japon'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Demon Slayer : Vers le village des forgerons',
@@ -1315,6 +1377,7 @@ export const baseMoviesAnimationJapan: BaseMovie[] = [
     },
     countryOrigin: ['Japon'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: "Demon Slayer : Vers l'entraînement des Piliers",
@@ -1333,6 +1396,7 @@ export const baseMoviesAnimationJapan: BaseMovie[] = [
     },
     countryOrigin: ['Japon'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
 
   {
@@ -1356,6 +1420,7 @@ export const baseMoviesAnimationJapan: BaseMovie[] = [
     },
     countryOrigin: ['Japon'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Puella Magi Madoka Magica : La Partie 2 - Une histoire éternelle',
@@ -1378,6 +1443,7 @@ export const baseMoviesAnimationJapan: BaseMovie[] = [
     },
     countryOrigin: ['Japon'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Puella Magi Madoka Magica : La Partie 3 - Rebellion',
@@ -1400,6 +1466,7 @@ export const baseMoviesAnimationJapan: BaseMovie[] = [
     },
     countryOrigin: ['Japon'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Olive et Tom : La grande bataille européenne',
@@ -1418,6 +1485,7 @@ export const baseMoviesAnimationJapan: BaseMovie[] = [
     },
     countryOrigin: ['Japon'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Olive et Tom : Attention ! Toute la sélection junior du Japon',
@@ -1436,6 +1504,7 @@ export const baseMoviesAnimationJapan: BaseMovie[] = [
     },
     countryOrigin: ['Japon'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Olive et Tom : Courons vers demain !',
@@ -1454,6 +1523,7 @@ export const baseMoviesAnimationJapan: BaseMovie[] = [
     },
     countryOrigin: ['Japon'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Olive et Tom : La coupe du monde des juniors',
@@ -1472,6 +1542,7 @@ export const baseMoviesAnimationJapan: BaseMovie[] = [
     },
     countryOrigin: ['Japon'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Olive et Tom : Le plus fort des adversaires - Les Pays-Bas juniors',
@@ -1490,6 +1561,7 @@ export const baseMoviesAnimationJapan: BaseMovie[] = [
     },
     countryOrigin: ['Japon'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Pokémon, le film : Mewtwo contre-attaque',
@@ -1508,6 +1580,7 @@ export const baseMoviesAnimationJapan: BaseMovie[] = [
     },
     countryOrigin: ['Japon'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Pokémon 2 : Le Pouvoir est en toi',
@@ -1526,6 +1599,7 @@ export const baseMoviesAnimationJapan: BaseMovie[] = [
     },
     countryOrigin: ['Japon'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Pokémon 3 : Le Sort des Zarbi',
@@ -1544,6 +1618,7 @@ export const baseMoviesAnimationJapan: BaseMovie[] = [
     },
     countryOrigin: ['Japon'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Pokémon 4 : Pokémon 4Ever',
@@ -1562,6 +1637,7 @@ export const baseMoviesAnimationJapan: BaseMovie[] = [
     },
     countryOrigin: ['Japon'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Pokémon Heroes',
@@ -1580,6 +1656,7 @@ export const baseMoviesAnimationJapan: BaseMovie[] = [
     },
     countryOrigin: ['Japon'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Pokémon : Jirachi, le génie des vœux',
@@ -1598,6 +1675,7 @@ export const baseMoviesAnimationJapan: BaseMovie[] = [
     },
     countryOrigin: ['Japon'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Pokémon : La destinée de Deoxys',
@@ -1616,6 +1694,7 @@ export const baseMoviesAnimationJapan: BaseMovie[] = [
     },
     countryOrigin: ['Japon'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Pokémon : Lucario et le mystère de Mew',
@@ -1634,6 +1713,7 @@ export const baseMoviesAnimationJapan: BaseMovie[] = [
     },
     countryOrigin: ['Japon'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Pokémon Ranger et le temple des mers',
@@ -1652,6 +1732,7 @@ export const baseMoviesAnimationJapan: BaseMovie[] = [
     },
     countryOrigin: ['Japon'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: "Pokémon : L'ascension de Darkrai",
@@ -1670,6 +1751,7 @@ export const baseMoviesAnimationJapan: BaseMovie[] = [
     },
     countryOrigin: ['Japon'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Pokémon : Giratina et le gardien du ciel',
@@ -1688,6 +1770,7 @@ export const baseMoviesAnimationJapan: BaseMovie[] = [
     },
     countryOrigin: ['Japon'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Pokémon : Arceus et le joyau de vie',
@@ -1706,6 +1789,7 @@ export const baseMoviesAnimationJapan: BaseMovie[] = [
     },
     countryOrigin: ['Japon'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Pokémon : Zoroark, le maître des illusions',
@@ -1724,6 +1808,7 @@ export const baseMoviesAnimationJapan: BaseMovie[] = [
     },
     countryOrigin: ['Japon'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Pokémon, le film : Noir — Victini et Reshiram',
@@ -1742,6 +1827,7 @@ export const baseMoviesAnimationJapan: BaseMovie[] = [
     },
     countryOrigin: ['Japon'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Pokémon, le film : Blanc — Victini et Zekrom',
@@ -1760,6 +1846,7 @@ export const baseMoviesAnimationJapan: BaseMovie[] = [
     },
     countryOrigin: ['Japon'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Pokémon : Kyurem contre la lame de la justice',
@@ -1778,6 +1865,7 @@ export const baseMoviesAnimationJapan: BaseMovie[] = [
     },
     countryOrigin: ['Japon'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: "Pokémon : Genesect et l'éveil de la légende",
@@ -1796,6 +1884,7 @@ export const baseMoviesAnimationJapan: BaseMovie[] = [
     },
     countryOrigin: ['Japon'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Pokémon : Diancie et le cocon destructeur',
@@ -1814,6 +1903,7 @@ export const baseMoviesAnimationJapan: BaseMovie[] = [
     },
     countryOrigin: ['Japon'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Pokémon : Hoopa et le choc des légendes',
@@ -1832,6 +1922,7 @@ export const baseMoviesAnimationJapan: BaseMovie[] = [
     },
     countryOrigin: ['Japon'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Pokémon : Volcanion et la merveille mécanique',
@@ -1850,6 +1941,7 @@ export const baseMoviesAnimationJapan: BaseMovie[] = [
     },
     countryOrigin: ['Japon'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Pokémon, le film : Je te choisis !',
@@ -1868,6 +1960,7 @@ export const baseMoviesAnimationJapan: BaseMovie[] = [
     },
     countryOrigin: ['Japon'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Pokémon, le film : Le pouvoir est en nous',
@@ -1886,6 +1979,7 @@ export const baseMoviesAnimationJapan: BaseMovie[] = [
     },
     countryOrigin: ['Japon'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Mewtwo contre-attaque : Évolution',
@@ -1904,6 +1998,7 @@ export const baseMoviesAnimationJapan: BaseMovie[] = [
     },
     countryOrigin: ['Japon'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Pokémon, le film : Les secrets de la jungle',
@@ -1922,6 +2017,7 @@ export const baseMoviesAnimationJapan: BaseMovie[] = [
     },
     countryOrigin: ['Japon'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Pokémon : Détective Pikachu',
@@ -1940,6 +2036,7 @@ export const baseMoviesAnimationJapan: BaseMovie[] = [
     },
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Yu-Gi-Oh! (film, 1999)',
@@ -1958,6 +2055,7 @@ export const baseMoviesAnimationJapan: BaseMovie[] = [
     },
     countryOrigin: ['Japon'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Yu-Gi-Oh! : La pyramide de lumière',
@@ -1976,6 +2074,7 @@ export const baseMoviesAnimationJapan: BaseMovie[] = [
     },
     countryOrigin: ['Japon'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Yu-Gi-Oh! 3D : Bonds Beyond Time',
@@ -1994,6 +2093,7 @@ export const baseMoviesAnimationJapan: BaseMovie[] = [
     },
     countryOrigin: ['Japon'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Yu-Gi-Oh! : The Dark Side of Dimensions',
@@ -2012,6 +2112,7 @@ export const baseMoviesAnimationJapan: BaseMovie[] = [
     },
     countryOrigin: ['Japon'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Street Fighter II : The Animated Movie',
@@ -2030,6 +2131,7 @@ export const baseMoviesAnimationJapan: BaseMovie[] = [
     },
     countryOrigin: ['Japon'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Tekken: Blood Vengeance',
@@ -2048,6 +2150,7 @@ export const baseMoviesAnimationJapan: BaseMovie[] = [
     },
     countryOrigin: ['Japon'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Bleach : Memories of Nobody',
@@ -2066,6 +2169,7 @@ export const baseMoviesAnimationJapan: BaseMovie[] = [
     },
     countryOrigin: ['Japon'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Bleach : The DiamondDust Rebellion',
@@ -2084,6 +2188,7 @@ export const baseMoviesAnimationJapan: BaseMovie[] = [
     },
     countryOrigin: ['Japon'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Bleach : Fade to Black',
@@ -2102,6 +2207,7 @@ export const baseMoviesAnimationJapan: BaseMovie[] = [
     },
     countryOrigin: ['Japon'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Bleach : Hell Verse',
@@ -2120,6 +2226,7 @@ export const baseMoviesAnimationJapan: BaseMovie[] = [
     },
     countryOrigin: ['Japon'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: "Les Chevaliers du Zodiaque : La Légende de la pomme d'or",
@@ -2138,6 +2245,7 @@ export const baseMoviesAnimationJapan: BaseMovie[] = [
     },
     countryOrigin: ['Japon'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Les Chevaliers du Zodiaque : La Grande Bataille des dieux',
@@ -2156,6 +2264,7 @@ export const baseMoviesAnimationJapan: BaseMovie[] = [
     },
     countryOrigin: ['Japon'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Les Chevaliers du Zodiaque : La Légende des jeunes guerriers',
@@ -2174,6 +2283,7 @@ export const baseMoviesAnimationJapan: BaseMovie[] = [
     },
     countryOrigin: ['Japon'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Les Chevaliers du Zodiaque : Tenkai-hen Joso — Le Chapitre du ciel',
@@ -2192,6 +2302,7 @@ export const baseMoviesAnimationJapan: BaseMovie[] = [
     },
     countryOrigin: ['Japon'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Saint Seiya : La Légende du sanctuaire',
@@ -2210,6 +2321,7 @@ export const baseMoviesAnimationJapan: BaseMovie[] = [
     },
     countryOrigin: ['Japon'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Yu Yu Hakusho : Le secret du sceau d’or',
@@ -2228,6 +2340,7 @@ export const baseMoviesAnimationJapan: BaseMovie[] = [
     },
     countryOrigin: ['Japon'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Yu Yu Hakusho : La légende du royaume des ombres',
@@ -2246,6 +2359,7 @@ export const baseMoviesAnimationJapan: BaseMovie[] = [
     },
     countryOrigin: ['Japon'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Yu Yu Hakusho : Two Shots & All or Nothing',
@@ -2264,6 +2378,7 @@ export const baseMoviesAnimationJapan: BaseMovie[] = [
     },
     countryOrigin: ['Japon'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Détective Conan : Le Gratte-Ciel à retardement',
@@ -2282,6 +2397,7 @@ export const baseMoviesAnimationJapan: BaseMovie[] = [
     },
     countryOrigin: ['Japon'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Détective Conan : La Quatorzième cible',
@@ -2300,6 +2416,7 @@ export const baseMoviesAnimationJapan: BaseMovie[] = [
     },
     countryOrigin: ['Japon'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Détective Conan : Le Dernier magicien du siècle',
@@ -2318,6 +2435,7 @@ export const baseMoviesAnimationJapan: BaseMovie[] = [
     },
     countryOrigin: ['Japon'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Détective Conan : Capturée par ses yeux',
@@ -2336,6 +2454,7 @@ export const baseMoviesAnimationJapan: BaseMovie[] = [
     },
     countryOrigin: ['Japon'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Détective Conan : Compte à rebours pour le paradis',
@@ -2354,6 +2473,7 @@ export const baseMoviesAnimationJapan: BaseMovie[] = [
     },
     countryOrigin: ['Japon'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Détective Conan : Le Fantôme de Baker Street',
@@ -2372,6 +2492,7 @@ export const baseMoviesAnimationJapan: BaseMovie[] = [
     },
     countryOrigin: ['Japon'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: "Détective Conan : Croisement dans l'ancienne capitale",
@@ -2390,6 +2511,7 @@ export const baseMoviesAnimationJapan: BaseMovie[] = [
     },
     countryOrigin: ['Japon'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Détective Conan : Magicien du ciel argenté',
@@ -2408,6 +2530,7 @@ export const baseMoviesAnimationJapan: BaseMovie[] = [
     },
     countryOrigin: ['Japon'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Détective Conan : Stratégie au-dessus des abysses',
@@ -2426,6 +2549,7 @@ export const baseMoviesAnimationJapan: BaseMovie[] = [
     },
     countryOrigin: ['Japon'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Détective Conan : Le Requiem des détectives',
@@ -2444,6 +2568,7 @@ export const baseMoviesAnimationJapan: BaseMovie[] = [
     },
     countryOrigin: ['Japon'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: "Détective Conan : Jolly Roger et le cercueil d'azur profond",
@@ -2462,6 +2587,7 @@ export const baseMoviesAnimationJapan: BaseMovie[] = [
     },
     countryOrigin: ['Japon'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Détective Conan : Le gratte-ciel infernal',
@@ -2480,6 +2606,7 @@ export const baseMoviesAnimationJapan: BaseMovie[] = [
     },
     countryOrigin: ['Japon'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Détective Conan : Le chasseur noir de jais',
@@ -2498,6 +2625,7 @@ export const baseMoviesAnimationJapan: BaseMovie[] = [
     },
     countryOrigin: ['Japon'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Détective Conan : Le Navire perdu dans le ciel',
@@ -2516,6 +2644,7 @@ export const baseMoviesAnimationJapan: BaseMovie[] = [
     },
     countryOrigin: ['Japon'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Détective Conan : Quinze minutes de silence',
@@ -2534,6 +2663,7 @@ export const baseMoviesAnimationJapan: BaseMovie[] = [
     },
     countryOrigin: ['Japon'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Détective Conan : Le Onzième avant-centre',
@@ -2552,6 +2682,7 @@ export const baseMoviesAnimationJapan: BaseMovie[] = [
     },
     countryOrigin: ['Japon'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Détective Conan : Détective privé en mer lointaine',
@@ -2570,6 +2701,7 @@ export const baseMoviesAnimationJapan: BaseMovie[] = [
     },
     countryOrigin: ['Japon'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: "Détective Conan : Tireur d'élite dimensionnel",
@@ -2588,6 +2720,7 @@ export const baseMoviesAnimationJapan: BaseMovie[] = [
     },
     countryOrigin: ['Japon'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Détective Conan : Les Tournesols des flammes infernales',
@@ -2606,6 +2739,7 @@ export const baseMoviesAnimationJapan: BaseMovie[] = [
     },
     countryOrigin: ['Japon'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Détective Conan : Le Cauchemar le plus noir',
@@ -2625,6 +2759,7 @@ export const baseMoviesAnimationJapan: BaseMovie[] = [
     },
     countryOrigin: ['Japon'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: "Détective Conan : La Lettre d'amour écarlate",
@@ -2643,6 +2778,7 @@ export const baseMoviesAnimationJapan: BaseMovie[] = [
     },
     countryOrigin: ['Japon'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: "Détective Conan : Zero l'exécuteur",
@@ -2661,6 +2797,7 @@ export const baseMoviesAnimationJapan: BaseMovie[] = [
     },
     countryOrigin: ['Japon'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Détective Conan : Le Poing de saphir bleu',
@@ -2679,6 +2816,7 @@ export const baseMoviesAnimationJapan: BaseMovie[] = [
     },
     countryOrigin: ['Japon'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Détective Conan : La Balle écarlate',
@@ -2697,6 +2835,7 @@ export const baseMoviesAnimationJapan: BaseMovie[] = [
     },
     countryOrigin: ['Japon'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Détective Conan : La Fiancée de Halloween',
@@ -2715,6 +2854,7 @@ export const baseMoviesAnimationJapan: BaseMovie[] = [
     },
     countryOrigin: ['Japon'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: "Détective Conan : Le Sous-marin d'acier noir",
@@ -2733,6 +2873,7 @@ export const baseMoviesAnimationJapan: BaseMovie[] = [
     },
     countryOrigin: ['Japon'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Détective Conan : Le Pentagramme aux millions de dollars',
@@ -2751,6 +2892,7 @@ export const baseMoviesAnimationJapan: BaseMovie[] = [
     },
     countryOrigin: ['Japon'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Détective Conan : Flashback du regard unique',
@@ -2769,6 +2911,7 @@ export const baseMoviesAnimationJapan: BaseMovie[] = [
     },
     countryOrigin: ['Japon'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: "Lupin III : La Légende de l'or de Babylone",
@@ -2787,6 +2930,7 @@ export const baseMoviesAnimationJapan: BaseMovie[] = [
     },
     countryOrigin: ['Japon'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Lupin III : Adieu à Nostradamus',
@@ -2805,6 +2949,7 @@ export const baseMoviesAnimationJapan: BaseMovie[] = [
     },
     countryOrigin: ['Japon'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Lupin III : Mort ou vif',
@@ -2823,6 +2968,7 @@ export const baseMoviesAnimationJapan: BaseMovie[] = [
     },
     countryOrigin: ['Japon'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Lupin III : Episode 0 – First Contact',
@@ -2841,6 +2987,7 @@ export const baseMoviesAnimationJapan: BaseMovie[] = [
     },
     countryOrigin: ['Japon'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Lupin III : The First',
@@ -2859,6 +3006,7 @@ export const baseMoviesAnimationJapan: BaseMovie[] = [
     },
     countryOrigin: ['Japon'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Lupin III vs Détective Conan (téléfilm)',
@@ -2877,6 +3025,7 @@ export const baseMoviesAnimationJapan: BaseMovie[] = [
     },
     countryOrigin: ['Japon'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: "Détective Conan : L'Ange déchu de l'autoroute",
@@ -2895,5 +3044,6 @@ export const baseMoviesAnimationJapan: BaseMovie[] = [
     },
     countryOrigin: ['Japon'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
 ];

@@ -6,7 +6,8 @@
     selectedView() === 'sagas' ||
     selectedView() === 'actors' ||
     selectedView() === 'directors' ||
-    selectedView() === 'countries'
+    selectedView() === 'countries' ||
+    selectedView() === 'oscars'
   "
 >
   @if (isLoadingMovies()) {
@@ -429,6 +430,89 @@
     } }
   </div>
 
+  <!-- Movies by Oscars -->
+  } @else if (selectedView() === 'oscars') {
+  <div class="movies-by-saga">
+    @if (moviesByOscarCount().length === 0) {
+    <p class="movies-empty-view-message">
+      Aucun film oscarisé dans le catalogue pour le moment.
+    </p>
+    } @else { @for (oscarGroup of moviesByOscarCount(); track
+    oscarGroup.oscarCount) {
+    <section class="movies-saga-section">
+      <h2 class="movies-saga-title">
+        <button
+          type="button"
+          class="movies-saga-toggle"
+          [attr.aria-expanded]="!isOscarCountCollapsed(oscarGroup.oscarCount)"
+          (click)="toggleOscarCount(oscarGroup.oscarCount)"
+        >
+          <span class="movies-saga-toggle-icon">
+            {{ isOscarCountCollapsed(oscarGroup.oscarCount) ? "▶" : "▼" }}
+          </span>
+          {{ oscarGroup.label }}
+          ({{ oscarGroup.seenMovies.length }} films vus) ({{
+            oscarGroup.missingMovies.length
+          }}
+          films restants à voir)
+        </button>
+      </h2>
+      @if (!isOscarCountCollapsed(oscarGroup.oscarCount)) {
+      @if (oscarGroup.seenMovies.length > 0) {
+      <div class="movies">
+        @for (movie of oscarGroup.seenMovies; track
+        `${movie.title}-${movie.releaseDate}`; let i = $index) {
+        <div class="movie-card">
+          <app-movie
+            [movie]="movie"
+            [list]="oscarGroup.seenMovies"
+            [selectedView]="selectedView()"
+            [index]="i"
+            [showTopFiveSelector]="showTopFiveRank()"
+            [topFiveRank]="getTopFiveRank(movie)"
+            [showAddToMyWatchlist]="canShowAddToMyWatchlist()"
+            [canAddToMyWatchlist]="canAddMovieToMyWatchlist(movie)"
+            [canAddAsWatched]="canAddMovieToMyWatched(movie)"
+            (movieUpdated)="refreshMovies()"
+            (watchlistMarkedAsWatched)="onWatchlistMarkedAsWatched($event)"
+            (topFiveRankChange)="onTopFiveRankChange(movie, $event)"
+            (wantToReWatch)="markMovieAsWantToReWatch($event)"
+            (addToMyWatchlist)="addMovieToConnectedUserWatchlist($event)"
+            (addToMyWatched)="addMovieToConnectedUserAsWatched($event)"
+          ></app-movie>
+        </div>
+        }
+      </div>
+      }
+      @if (oscarGroup.missingMovies.length > 0) {
+      <div class="movies-saga-missing">
+        <p class="movies-saga-missing-label">Films pas encore vus</p>
+        <div class="movies">
+          @for (movie of oscarGroup.missingMovies; track
+          `${movie.title}-${movie.releaseDate}`) {
+          <div class="movie-card movie-card--missing">
+            <app-movie
+              [movie]="movie"
+              [readOnly]="true"
+              [recommendationBadge]="'Non vu'"
+              [selectedView]="selectedView()"
+              [isInWatchlist]="movieAlreadyInUserWatchlist(movie)"
+              [showAddToMyWatchlist]="canShowAddToMyWatchlist()"
+              [canAddToMyWatchlist]="canAddMovieToMyWatchlist(movie)"
+              [canAddAsWatched]="canAddMovieToMyWatched(movie)"
+              (addToWatchlist)="addMovieToWatchlist($event)"
+              (addToMyWatchlist)="addMovieToConnectedUserWatchlist($event)"
+              (addToMyWatched)="addMovieToConnectedUserAsWatched($event)"
+            ></app-movie>
+          </div>
+          }
+        </div>
+      </div>
+      } }
+    </section>
+    } }
+  </div>
+
   <!-- Classic Movies list -->
   } @else {
   <div class="movies">
@@ -572,6 +656,16 @@
           "
         />
         Voir par pays
+      </label>
+      <label class="movies-config-option">
+        <input
+          type="checkbox"
+          [checked]="optionalViewConfig().oscars"
+          (change)="
+            onOptionalViewChange('oscars', $any($event.target).checked)
+          "
+        />
+        Voir par Oscars
       </label>
       <label class="movies-config-option">
         <input

@@ -1,4 +1,4 @@
-import { BaseMovie } from '../../../models/movie-model';
+import { BaseMovie, OscarEnum } from '../../../models/movie-model';
 
 export const baseMoviesWestern: BaseMovie[] = [
   {
@@ -37,6 +37,7 @@ export const baseMoviesWestern: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Mort ou vif',
@@ -73,6 +74,7 @@ export const baseMoviesWestern: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: '3 h 10 pour Yuma',
@@ -109,6 +111,7 @@ export const baseMoviesWestern: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Hostiles',
@@ -145,6 +148,7 @@ export const baseMoviesWestern: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Impitoyable',
@@ -181,6 +185,12 @@ export const baseMoviesWestern: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [
+      { type: OscarEnum.OSCAR_BEST_MOVIE, year: 1993 },
+      { type: OscarEnum.OSCAR_BEST_DIRECTOR, year: 1993 },
+      { type: OscarEnum.OSCAR_BEST_SUPPORTING_ACTOR, year: 1993 },
+      { type: OscarEnum.OSCAR_BEST_FILM_EDITING, year: 1993 },
+    ],
   },
   {
     title: 'Le Bon, la brute et le truand',
@@ -217,6 +227,7 @@ export const baseMoviesWestern: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Danse avec les loups',
@@ -253,6 +264,15 @@ export const baseMoviesWestern: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [
+      { type: OscarEnum.OSCAR_BEST_MOVIE, year: 1991 },
+      { type: OscarEnum.OSCAR_BEST_DIRECTOR, year: 1991 },
+      { type: OscarEnum.OSCAR_BEST_ADAPTED_SCREENPLAY, year: 1991 },
+      { type: OscarEnum.OSCAR_BEST_ORIGINAL_SCORE, year: 1991 },
+      { type: OscarEnum.OSCAR_BEST_CINEMATOGRAPHY, year: 1991 },
+      { type: OscarEnum.OSCAR_BEST_FILM_EDITING, year: 1991 },
+      { type: OscarEnum.OSCAR_BEST_SOUND, year: 1991 },
+    ],
   },
   {
     title: 'Et pour quelques dollars de plus',
@@ -289,6 +309,7 @@ export const baseMoviesWestern: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Maverick',
@@ -319,6 +340,7 @@ export const baseMoviesWestern: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
   {
     title: 'Jane Got a Gun',
@@ -355,6 +377,7 @@ export const baseMoviesWestern: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
+    oscars: [],
   },
 
   {
@@ -378,6 +401,9 @@ export const baseMoviesWestern: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 5,
+    oscars: [
+      { type: OscarEnum.OSCAR_BEST_ORIGINAL_SCORE, year: 2016 },
+    ],
   },
   {
     title: "Il était une fois dans l'Ouest",
@@ -400,5 +426,6 @@ export const baseMoviesWestern: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 30,
+    oscars: [],
   },
 ];

@@ -173,6 +173,8 @@ export class MoviesHeaderComponent {
       ? 'Films par réalisateur'
       : this.selectedView() === 'countries'
       ? 'Films par pays'
+      : this.selectedView() === 'oscars'
+      ? 'Films par Oscars'
       : this.selectedView() === 'recommendations'
       ? 'Recommandations'
       : this.selectedView() === 'owned'

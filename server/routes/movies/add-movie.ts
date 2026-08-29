@@ -44,7 +44,7 @@ function formatBaseMovie(entity: any): string {
     entity.description ?? ''
   )}",\n    fromEntity: null,\n    countryOrigin: ${formatMovieCountryOriginArrayTs(
     normalizeMovieCountryOriginInput(entity.countryOrigin)
-  )},\n    selectDisplayOrder: ${entity.selectDisplayOrder ?? 0},\n  },`;
+  )},\n    selectDisplayOrder: ${entity.selectDisplayOrder ?? 0},\n    oscars: [],\n  },`;
 }
 
 function formatUserMovie(user: any): string {
