@@ -2095,4 +2095,19 @@ export const baseBooksApi: BaseBook[] = [
     countryOrigin: 'France',
     selectDisplayOrder: 0,
   },
+
+  {
+    title: "Renoncer à la dépendance affective : S'aimer et se laisser aimer",
+    author: "Catherine Dupont",
+    coverUrl: "https://m.media-amazon.com/images/I/51MnSns4dcL._SL1174_.jpg",
+    pages: 290,
+    genre: ['Nonfiction'],
+    saga: "",
+    sagaOrder: 0,
+    sagaFinished: true,
+    releaseDate: "2023-04-20",
+    description: "",
+    countryOrigin: "France",
+    selectDisplayOrder: 0,
+  },
 ];

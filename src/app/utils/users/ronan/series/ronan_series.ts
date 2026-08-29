@@ -9895,4 +9895,44 @@ export const ronanSeries: UserSeries = [
     borrowed: "",
     loaned: "",
   },
+
+  {
+    title: "The White Lotus",
+    director: "Mike White",
+    seasons: [
+    {
+      seasonNumber: 1,
+      seasonRating: 3.5,
+      watching: false,
+      seasonTimesWatched: 1,
+      firstViewedDate: "2026-07-26",
+      lastViewedDate: "2026-07-26",
+      otherViewedDates: [],
+    },
+    {
+      seasonNumber: 2,
+      seasonRating: 3.5,
+      watching: false,
+      seasonTimesWatched: 1,
+      firstViewedDate: "2026-08-04",
+      lastViewedDate: "2026-08-04",
+      otherViewedDates: [],
+    },
+    {
+      seasonNumber: 3,
+      seasonRating: 3,
+      watching: false,
+      seasonTimesWatched: 1,
+      firstViewedDate: "2026-08-25",
+      lastViewedDate: "2026-08-25",
+      otherViewedDates: [],
+    }
+  ],
+    owned: false,
+    watchPriority: 1,
+    wantToWatchAgain: false,
+    ratingComment: "",
+    borrowed: "",
+    loaned: "",
+  },
 ];
