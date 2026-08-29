@@ -291,7 +291,7 @@ export const baseMoviesSuperHerosDc: BaseMovie[] = [
     selectDisplayOrder: 30,
     oscars: [
       { type: OscarEnum.OSCAR_BEST_SUPPORTING_ACTOR, year: 2009 },
-      { type: OscarEnum.OSCAR_BEST_SOUND, year: 2009 },
+      { type: OscarEnum.OSCAR_BEST_SOUND_EDITING, year: 2009 },
     ],
   },
   {

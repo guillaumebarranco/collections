@@ -456,7 +456,7 @@ export const baseMoviesKnownMissingBatch: BaseMovie[] = [
     countryOrigin: ['États-Unis', 'Japon'],
     selectDisplayOrder: 0,
     oscars: [
-      { type: OscarEnum.OSCAR_BEST_SOUND, year: 2007 },
+      { type: OscarEnum.OSCAR_BEST_SOUND_EDITING, year: 2007 },
     ],
   },
   {
@@ -1088,7 +1088,7 @@ export const baseMoviesKnownMissingBatch: BaseMovie[] = [
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
     oscars: [
-      { type: OscarEnum.OSCAR_BEST_SOUND, year: 2015 },
+      { type: OscarEnum.OSCAR_BEST_SOUND_EDITING, year: 2015 },
     ],
   },
   {
@@ -1319,6 +1319,7 @@ export const baseMoviesKnownMissingBatch: BaseMovie[] = [
     oscars: [
       { type: OscarEnum.OSCAR_BEST_FILM_EDITING, year: 2021 },
       { type: OscarEnum.OSCAR_BEST_SOUND, year: 2021 },
+      { type: OscarEnum.OSCAR_BEST_SOUND_EDITING, year: 2021 },
     ],
   },
   {

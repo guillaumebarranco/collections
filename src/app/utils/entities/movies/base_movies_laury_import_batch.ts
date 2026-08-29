@@ -769,7 +769,7 @@ export const baseMoviesLauryImportBatch: BaseMovie[] = [
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
     oscars: [
-      { type: OscarEnum.OSCAR_BEST_SOUND, year: 2001 },
+      { type: OscarEnum.OSCAR_BEST_SOUND_EDITING, year: 2001 },
     ],
   },
   {
@@ -2384,7 +2384,7 @@ export const baseMoviesLauryImportBatch: BaseMovie[] = [
     selectDisplayOrder: 0,
     oscars: [
       { type: OscarEnum.OSCAR_BEST_CINEMATOGRAPHY, year: 1978 },
-      { type: OscarEnum.OSCAR_BEST_SOUND, year: 1978 },
+      { type: OscarEnum.OSCAR_BEST_SOUND_EDITING, year: 1978 },
     ],
   },
   {

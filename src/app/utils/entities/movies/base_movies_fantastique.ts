@@ -1544,7 +1544,7 @@ export const baseMoviesFantastique: BaseMovie[] = [
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 5,
     oscars: [
-      { type: OscarEnum.OSCAR_BEST_SOUND, year: 1993 },
+      { type: OscarEnum.OSCAR_BEST_SOUND_EDITING, year: 1993 },
       { type: OscarEnum.OSCAR_BEST_MAKEUP, year: 1993 },
       { type: OscarEnum.OSCAR_BEST_COSTUME_DESIGN, year: 1993 },
     ],

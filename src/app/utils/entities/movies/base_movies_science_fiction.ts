@@ -315,7 +315,7 @@ export const baseMoviesScienceFiction: BaseMovie[] = [
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 30,
     oscars: [
-      { type: OscarEnum.OSCAR_BEST_SOUND, year: 2017 },
+      { type: OscarEnum.OSCAR_BEST_SOUND_EDITING, year: 2017 },
     ],
   },
   {
@@ -708,6 +708,7 @@ export const baseMoviesScienceFiction: BaseMovie[] = [
     oscars: [
       { type: OscarEnum.OSCAR_BEST_ORIGINAL_SCORE, year: 1983 },
       { type: OscarEnum.OSCAR_BEST_SOUND, year: 1983 },
+      { type: OscarEnum.OSCAR_BEST_SOUND_EDITING, year: 1983 },
       { type: OscarEnum.OSCAR_BEST_VISUAL_EFFECTS, year: 1983 },
     ],
   },
@@ -1120,6 +1121,7 @@ export const baseMoviesScienceFiction: BaseMovie[] = [
     oscars: [
       { type: OscarEnum.OSCAR_BEST_CINEMATOGRAPHY, year: 2011 },
       { type: OscarEnum.OSCAR_BEST_SOUND, year: 2011 },
+      { type: OscarEnum.OSCAR_BEST_SOUND_EDITING, year: 2011 },
       { type: OscarEnum.OSCAR_BEST_VISUAL_EFFECTS, year: 2011 },
     ],
   },
@@ -1236,6 +1238,7 @@ export const baseMoviesScienceFiction: BaseMovie[] = [
       { type: OscarEnum.OSCAR_BEST_FILM_EDITING, year: 2014 },
       { type: OscarEnum.OSCAR_BEST_ORIGINAL_SCORE, year: 2014 },
       { type: OscarEnum.OSCAR_BEST_SOUND, year: 2014 },
+      { type: OscarEnum.OSCAR_BEST_SOUND_EDITING, year: 2014 },
       { type: OscarEnum.OSCAR_BEST_VISUAL_EFFECTS, year: 2014 },
     ],
   },

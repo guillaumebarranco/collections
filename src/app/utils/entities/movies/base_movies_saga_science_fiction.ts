@@ -193,6 +193,7 @@ export const baseMoviesSagaScienceFiction: BaseMovie[] = [
     selectDisplayOrder: 40,
     oscars: [
       { type: OscarEnum.OSCAR_BEST_SOUND, year: 1981 },
+      { type: OscarEnum.OSCAR_BEST_SOUND_EDITING, year: 1981 },
       { type: OscarEnum.OSCAR_BEST_VISUAL_EFFECTS, year: 1981 },
     ],
   },
@@ -485,6 +486,7 @@ export const baseMoviesSagaScienceFiction: BaseMovie[] = [
     selectDisplayOrder: 30,
     oscars: [
       { type: OscarEnum.OSCAR_BEST_SOUND, year: 1992 },
+      { type: OscarEnum.OSCAR_BEST_SOUND_EDITING, year: 1992 },
       { type: OscarEnum.OSCAR_BEST_MAKEUP, year: 1992 },
       { type: OscarEnum.OSCAR_BEST_VISUAL_EFFECTS, year: 1992 },
     ],
@@ -674,6 +676,7 @@ export const baseMoviesSagaScienceFiction: BaseMovie[] = [
     selectDisplayOrder: 30,
     oscars: [
       { type: OscarEnum.OSCAR_BEST_SOUND, year: 2000 },
+      { type: OscarEnum.OSCAR_BEST_SOUND_EDITING, year: 2000 },
       { type: OscarEnum.OSCAR_BEST_FILM_EDITING, year: 2000 },
       { type: OscarEnum.OSCAR_BEST_VISUAL_EFFECTS, year: 2000 },
     ],
@@ -864,7 +867,7 @@ export const baseMoviesSagaScienceFiction: BaseMovie[] = [
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 30,
     oscars: [
-      { type: OscarEnum.OSCAR_BEST_SOUND, year: 1987 },
+      { type: OscarEnum.OSCAR_BEST_SOUND_EDITING, year: 1987 },
       { type: OscarEnum.OSCAR_BEST_VISUAL_EFFECTS, year: 1987 },
     ],
   },
@@ -1555,7 +1558,7 @@ export const baseMoviesSagaScienceFiction: BaseMovie[] = [
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 30,
     oscars: [
-      { type: OscarEnum.OSCAR_BEST_SOUND, year: 1986 },
+      { type: OscarEnum.OSCAR_BEST_SOUND_EDITING, year: 1986 },
     ],
   },
   {
@@ -2841,6 +2844,7 @@ export const baseMoviesSagaScienceFiction: BaseMovie[] = [
     selectDisplayOrder: 20,
     oscars: [
       { type: OscarEnum.OSCAR_BEST_SOUND, year: 1994 },
+      { type: OscarEnum.OSCAR_BEST_SOUND_EDITING, year: 1994 },
       { type: OscarEnum.OSCAR_BEST_VISUAL_EFFECTS, year: 1994 },
     ],
   },
@@ -3273,6 +3277,7 @@ export const baseMoviesSagaScienceFiction: BaseMovie[] = [
       { type: OscarEnum.OSCAR_BEST_COSTUME_DESIGN, year: 2016 },
       { type: OscarEnum.OSCAR_BEST_MAKEUP, year: 2016 },
       { type: OscarEnum.OSCAR_BEST_SOUND, year: 2016 },
+      { type: OscarEnum.OSCAR_BEST_SOUND_EDITING, year: 2016 },
     ],
   },
   {

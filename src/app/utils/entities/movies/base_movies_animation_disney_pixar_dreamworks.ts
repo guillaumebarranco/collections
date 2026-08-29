@@ -1806,7 +1806,7 @@ export const baseMoviesAnimationDisneyPixarDreamworks: BaseMovie[] = [
     selectDisplayOrder: 25,
     oscars: [
       { type: OscarEnum.OSCAR_BEST_ANIMATED_FEATURE, year: 2005 },
-      { type: OscarEnum.OSCAR_BEST_SOUND, year: 2005 },
+      { type: OscarEnum.OSCAR_BEST_SOUND_EDITING, year: 2005 },
     ],
   },
   {

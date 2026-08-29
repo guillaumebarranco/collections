@@ -292,6 +292,7 @@ export const baseMoviesAventure: BaseMovie[] = [
     selectDisplayOrder: 30,
     oscars: [
       { type: OscarEnum.OSCAR_BEST_SOUND, year: 2006 },
+      { type: OscarEnum.OSCAR_BEST_SOUND_EDITING, year: 2006 },
       { type: OscarEnum.OSCAR_BEST_VISUAL_EFFECTS, year: 2006 },
     ],
   },
@@ -1258,6 +1259,7 @@ export const baseMoviesAventure: BaseMovie[] = [
       { type: OscarEnum.OSCAR_BEST_CINEMATOGRAPHY, year: 2012 },
       { type: OscarEnum.OSCAR_BEST_PRODUCTION_DESIGN, year: 2012 },
       { type: OscarEnum.OSCAR_BEST_SOUND, year: 2012 },
+      { type: OscarEnum.OSCAR_BEST_SOUND_EDITING, year: 2012 },
       { type: OscarEnum.OSCAR_BEST_VISUAL_EFFECTS, year: 2012 },
     ],
   },
@@ -1549,7 +1551,7 @@ export const baseMoviesAventure: BaseMovie[] = [
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 5,
     oscars: [
-      { type: OscarEnum.OSCAR_BEST_SOUND, year: 2004 },
+      { type: OscarEnum.OSCAR_BEST_SOUND_EDITING, year: 2004 },
       { type: OscarEnum.OSCAR_BEST_CINEMATOGRAPHY, year: 2004 },
     ],
   },

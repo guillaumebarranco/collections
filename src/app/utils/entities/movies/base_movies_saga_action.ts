@@ -1579,7 +1579,7 @@ export const baseMoviesSagaAction: BaseMovie[] = [
     countryOrigin: ['Royaume-Uni'],
     selectDisplayOrder: 20,
     oscars: [
-      { type: OscarEnum.OSCAR_BEST_SOUND, year: 1965 },
+      { type: OscarEnum.OSCAR_BEST_SOUND_EDITING, year: 1965 },
     ],
   },
   {
@@ -2427,6 +2427,7 @@ export const baseMoviesSagaAction: BaseMovie[] = [
     oscars: [
       { type: OscarEnum.OSCAR_BEST_FILM_EDITING, year: 2008 },
       { type: OscarEnum.OSCAR_BEST_SOUND, year: 2008 },
+      { type: OscarEnum.OSCAR_BEST_SOUND_EDITING, year: 2008 },
     ],
   },
   {
@@ -3173,6 +3174,7 @@ export const baseMoviesSagaAction: BaseMovie[] = [
       { type: OscarEnum.OSCAR_BEST_PRODUCTION_DESIGN, year: 1982 },
       { type: OscarEnum.OSCAR_BEST_FILM_EDITING, year: 1982 },
       { type: OscarEnum.OSCAR_BEST_SOUND, year: 1982 },
+      { type: OscarEnum.OSCAR_BEST_SOUND_EDITING, year: 1982 },
       { type: OscarEnum.OSCAR_BEST_VISUAL_EFFECTS, year: 1982 },
     ],
   },
@@ -3251,7 +3253,7 @@ export const baseMoviesSagaAction: BaseMovie[] = [
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 30,
     oscars: [
-      { type: OscarEnum.OSCAR_BEST_SOUND, year: 1990 },
+      { type: OscarEnum.OSCAR_BEST_SOUND_EDITING, year: 1990 },
     ],
   },
   {

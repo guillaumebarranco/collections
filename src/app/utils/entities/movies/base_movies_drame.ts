@@ -2477,7 +2477,7 @@ export const baseMoviesDrame: BaseMovie[] = [
     selectDisplayOrder: 30,
     oscars: [
       { type: OscarEnum.OSCAR_BEST_FILM_EDITING, year: 1989 },
-      { type: OscarEnum.OSCAR_BEST_SOUND, year: 1989 },
+      { type: OscarEnum.OSCAR_BEST_SOUND_EDITING, year: 1989 },
       { type: OscarEnum.OSCAR_BEST_VISUAL_EFFECTS, year: 1989 },
     ],
   },
@@ -9394,6 +9394,7 @@ export const baseMoviesDrame: BaseMovie[] = [
       { type: OscarEnum.OSCAR_BEST_ORIGINAL_SCREENPLAY, year: 2010 },
       { type: OscarEnum.OSCAR_BEST_FILM_EDITING, year: 2010 },
       { type: OscarEnum.OSCAR_BEST_SOUND, year: 2010 },
+      { type: OscarEnum.OSCAR_BEST_SOUND_EDITING, year: 2010 },
     ],
   },
   {
@@ -12383,7 +12384,7 @@ export const baseMoviesDrame: BaseMovie[] = [
       { type: OscarEnum.OSCAR_BEST_DIRECTOR, year: 1996 },
       { type: OscarEnum.OSCAR_BEST_CINEMATOGRAPHY, year: 1996 },
       { type: OscarEnum.OSCAR_BEST_MAKEUP, year: 1996 },
-      { type: OscarEnum.OSCAR_BEST_SOUND, year: 1996 },
+      { type: OscarEnum.OSCAR_BEST_SOUND_EDITING, year: 1996 },
     ],
   },
   {
@@ -14101,7 +14102,7 @@ export const baseMoviesDrame: BaseMovie[] = [
     selectDisplayOrder: 30,
     oscars: [
       { type: OscarEnum.OSCAR_BEST_FILM_EDITING, year: 2020 },
-      { type: OscarEnum.OSCAR_BEST_SOUND, year: 2020 },
+      { type: OscarEnum.OSCAR_BEST_SOUND_EDITING, year: 2020 },
     ],
   },
   {
@@ -14272,6 +14273,7 @@ export const baseMoviesDrame: BaseMovie[] = [
     oscars: [
       { type: OscarEnum.OSCAR_BEST_FILM_EDITING, year: 2018 },
       { type: OscarEnum.OSCAR_BEST_SOUND, year: 2018 },
+      { type: OscarEnum.OSCAR_BEST_SOUND_EDITING, year: 2018 },
     ],
   },
   {

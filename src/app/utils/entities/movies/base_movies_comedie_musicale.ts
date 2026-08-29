@@ -1142,6 +1142,7 @@ export const baseMoviesComedieMusicale: BaseMovie[] = [
       { type: OscarEnum.OSCAR_BEST_ACTOR, year: 2019 },
       { type: OscarEnum.OSCAR_BEST_FILM_EDITING, year: 2019 },
       { type: OscarEnum.OSCAR_BEST_SOUND, year: 2019 },
+      { type: OscarEnum.OSCAR_BEST_SOUND_EDITING, year: 2019 },
     ],
   },
   {

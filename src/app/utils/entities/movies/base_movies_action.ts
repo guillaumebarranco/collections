@@ -910,6 +910,7 @@ export const baseMoviesAction: BaseMovie[] = [
     oscars: [
       { type: OscarEnum.OSCAR_BEST_DIRECTOR, year: 1999 },
       { type: OscarEnum.OSCAR_BEST_SOUND, year: 1999 },
+      { type: OscarEnum.OSCAR_BEST_SOUND_EDITING, year: 1999 },
       { type: OscarEnum.OSCAR_BEST_CINEMATOGRAPHY, year: 1999 },
       { type: OscarEnum.OSCAR_BEST_FILM_EDITING, year: 1999 },
     ],
@@ -1463,6 +1464,7 @@ export const baseMoviesAction: BaseMovie[] = [
     selectDisplayOrder: 30,
     oscars: [
       { type: OscarEnum.OSCAR_BEST_SOUND, year: 1995 },
+      { type: OscarEnum.OSCAR_BEST_SOUND_EDITING, year: 1995 },
     ],
   },
   {

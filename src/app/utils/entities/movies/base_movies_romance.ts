@@ -1728,7 +1728,7 @@ export const baseMoviesRomance: BaseMovie[] = [
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 30,
     oscars: [
-      { type: OscarEnum.OSCAR_BEST_SOUND, year: 2002 },
+      { type: OscarEnum.OSCAR_BEST_SOUND_EDITING, year: 2002 },
     ],
   },
   {
@@ -3769,6 +3769,7 @@ export const baseMoviesRomance: BaseMovie[] = [
       { type: OscarEnum.OSCAR_BEST_ORIGINAL_SCORE, year: 1998 },
       { type: OscarEnum.OSCAR_BEST_ORIGINAL_SONG, year: 1998 },
       { type: OscarEnum.OSCAR_BEST_SOUND, year: 1998 },
+      { type: OscarEnum.OSCAR_BEST_SOUND_EDITING, year: 1998 },
       { type: OscarEnum.OSCAR_BEST_PRODUCTION_DESIGN, year: 1998 },
       { type: OscarEnum.OSCAR_BEST_CINEMATOGRAPHY, year: 1998 },
       { type: OscarEnum.OSCAR_BEST_COSTUME_DESIGN, year: 1998 },

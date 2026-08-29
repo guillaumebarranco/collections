@@ -854,7 +854,7 @@ export const baseMoviesSagaFantastique: BaseMovie[] = [
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 30,
     oscars: [
-      { type: OscarEnum.OSCAR_BEST_SOUND, year: 2003 },
+      { type: OscarEnum.OSCAR_BEST_SOUND_EDITING, year: 2003 },
       { type: OscarEnum.OSCAR_BEST_VISUAL_EFFECTS, year: 2003 },
     ],
   },
