@@ -159,8 +159,7 @@ export const baseMoviesAnimationOthers: BaseMovie[] = [
         name: 'Seth MacFarlane',
       },
     ],
-    coverUrl:
-      '/movies_pictures/5b84ce795b24.jpg',
+    coverUrl: '/movies_pictures/5b84ce795b24.jpg',
     releaseDate: '2017-01-25',
     length: 108,
     genre: ['Animation'],
@@ -197,8 +196,7 @@ export const baseMoviesAnimationOthers: BaseMovie[] = [
         name: 'Halsey',
       },
     ],
-    coverUrl:
-      '/movies_pictures/36109c417cd6.jpg',
+    coverUrl: '/movies_pictures/36109c417cd6.jpg',
     releaseDate: '2021-12-22',
     length: 110,
     genre: ['Animation'],
@@ -284,9 +282,7 @@ export const baseMoviesAnimationOthers: BaseMovie[] = [
     },
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 25,
-    oscars: [
-      { type: OscarEnum.OSCAR_BEST_ANIMATED_FEATURE, year: 2019 },
-    ],
+    oscars: [{ type: OscarEnum.OSCAR_BEST_ANIMATED_FEATURE, year: 2019 }],
   },
   {
     title: 'Spider-Man : À Travers le Spider-Verse',
@@ -1715,9 +1711,7 @@ export const baseMoviesAnimationOthers: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 25,
-    oscars: [
-      { type: OscarEnum.OSCAR_BEST_ORIGINAL_SONG, year: 1999 },
-    ],
+    oscars: [{ type: OscarEnum.OSCAR_BEST_ORIGINAL_SONG, year: 1999 }],
   },
   {
     title: "La Route d'Eldorado",
@@ -1776,8 +1770,7 @@ export const baseMoviesAnimationOthers: BaseMovie[] = [
         name: 'Helena Bonham Carter',
       },
     ],
-    coverUrl:
-      '/movies_pictures/44523dbdb877.jpg',
+    coverUrl: '/movies_pictures/44523dbdb877.jpg',
     releaseDate: '2005-10-19',
     length: 76,
     genre: ['Animation'],
@@ -1802,9 +1795,7 @@ export const baseMoviesAnimationOthers: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 25,
-    oscars: [
-      { type: OscarEnum.OSCAR_BEST_ANIMATED_FEATURE, year: 2007 },
-    ],
+    oscars: [{ type: OscarEnum.OSCAR_BEST_ANIMATED_FEATURE, year: 2007 }],
   },
   {
     title: "Madagascar 3 : Bons Baisers d'Europe",
@@ -1881,9 +1872,7 @@ export const baseMoviesAnimationOthers: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 25,
-    oscars: [
-      { type: OscarEnum.OSCAR_BEST_ANIMATED_FEATURE, year: 2012 },
-    ],
+    oscars: [{ type: OscarEnum.OSCAR_BEST_ANIMATED_FEATURE, year: 2012 }],
   },
   {
     title: 'Hôtel Transylvanie',
@@ -1959,8 +1948,7 @@ export const baseMoviesAnimationOthers: BaseMovie[] = [
         name: 'Rosario Dawson',
       },
     ],
-    coverUrl:
-      '/movies_pictures/f1cff5f6d13d.jpg',
+    coverUrl: '/movies_pictures/f1cff5f6d13d.jpg',
     releaseDate: '2017-02-08',
     length: 104,
     genre: ['Animation'],
@@ -3953,6 +3941,22 @@ export const baseMoviesAnimationOthers: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 5,
+    oscars: [],
+  },
+  {
+    title: 'Les belles cicatrices',
+    director: 'Raphaël Jouzeau',
+    actors: [{ name: 'Fanny Sidney' }, { name: 'Quentin Dolmaire' }],
+    coverUrl:
+      '/movies_pictures/c6721f4d1d63.webp',
+    releaseDate: '2024-05-16',
+    length: 15,
+    genre: ['Animation', 'Drame'],
+    saga: '',
+    description: '',
+    fromEntity: null,
+    countryOrigin: ['France'],
+    selectDisplayOrder: 0,
     oscars: [],
   },
 ];

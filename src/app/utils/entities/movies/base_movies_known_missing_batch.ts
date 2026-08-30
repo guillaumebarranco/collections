@@ -1463,7 +1463,7 @@ export const baseMoviesKnownMissingBatch: BaseMovie[] = [
       { name: 'Miyu Sasaki' },
     ],
     coverUrl:
-      'https://fr.web.img6.acsta.net/pictures/18/06/01/14/20/3937174.jpg',
+      '/movies_pictures/ef7b3aa2eaf4.jpg',
     releaseDate: '2018-05-13',
     length: 121,
     genre: ['Drame'],
@@ -1484,7 +1484,7 @@ export const baseMoviesKnownMissingBatch: BaseMovie[] = [
       { name: 'Kawthar Al Haddad' },
     ],
     coverUrl:
-      'https://fr.web.img2.acsta.net/pictures/18/09/11/09/08/2776515.jpg',
+      '/movies_pictures/dd91a09039ba.jpg',
     releaseDate: '2018-05-17',
     length: 126,
     genre: ['Drame'],
@@ -1505,7 +1505,7 @@ export const baseMoviesKnownMissingBatch: BaseMovie[] = [
       { name: 'Agata Kulesza' },
     ],
     coverUrl:
-      'https://lanticapitaliste.org/sites/default/files/styles/pour_facebook/public/coldwar.jpg?itok=CJZFItxa',
+      '/movies_pictures/aa4bd10c6389.jpg',
     releaseDate: '2018-05-10',
     length: 88,
     genre: ['Drame', 'Romance'],
@@ -1527,7 +1527,7 @@ export const baseMoviesKnownMissingBatch: BaseMovie[] = [
       { name: 'Lu Hong' },
     ],
     coverUrl:
-      'https://fr.web.img5.acsta.net/pictures/19/11/07/17/12/5655916.jpg',
+      '/movies_pictures/f5f2838e0436.jpg',
     releaseDate: '2019-01-25',
     length: 100,
     genre: ['Drame', 'Comédie'],
@@ -1548,7 +1548,7 @@ export const baseMoviesKnownMissingBatch: BaseMovie[] = [
       { name: 'Penélope Cruz' },
     ],
     coverUrl:
-      'https://cinedweller.com/wp-content/uploads/2019/05/Douleur-et-gloire-affiche.jpg.webp',
+      '/movies_pictures/e35d4260d1fc.webp',
     releaseDate: '2019-03-22',
     length: 113,
     genre: ['Drame'],
@@ -1570,7 +1570,7 @@ export const baseMoviesKnownMissingBatch: BaseMovie[] = [
       { name: 'Timothy Spall' },
     ],
     coverUrl:
-      'https://www.troiscouleurs.fr/wp-content/uploads/2024/11/439b75fd-b6bc-4612-bb8c-2dc5fc330fd1_spencer2.jpg',
+      '/movies_pictures/32f6601caf62.jpg',
     releaseDate: '2021-09-03',
     length: 117,
     genre: ['Drame', 'Biographie'],
@@ -1591,7 +1591,7 @@ export const baseMoviesKnownMissingBatch: BaseMovie[] = [
       { name: 'Kodi Smit-McPhee' },
     ],
     coverUrl:
-      'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcThYIbVsqenZssn7fcQaSrW_DsOrozQd0qS2D_7IQ7Siw&s=10',
+      '/movies_pictures/e7960b5ada78.jpg',
     releaseDate: '2021-09-02',
     length: 126,
     genre: ['Drame', 'Western'],
@@ -1619,7 +1619,7 @@ export const baseMoviesKnownMissingBatch: BaseMovie[] = [
       { name: 'Sarah Silverman' },
     ],
     coverUrl:
-      'https://www.grignoux.be/upload/grignoux/films/2146/maestro_affiche.webp',
+      '/movies_pictures/8af8e0e5edd5.webp',
     releaseDate: '2023-09-02',
     length: 129,
     genre: ['Drame', 'Biographie'],
@@ -1641,7 +1641,7 @@ export const baseMoviesKnownMissingBatch: BaseMovie[] = [
       { name: 'Leslie Uggams' },
     ],
     coverUrl:
-      'https://media.senscritique.com/media/000021800350/0/american_fiction.jpg',
+      '/movies_pictures/900914eee59f.jpg',
     releaseDate: '2023-09-08',
     length: 117,
     genre: ['Comédie', 'Drame'],
@@ -1668,7 +1668,7 @@ export const baseMoviesKnownMissingBatch: BaseMovie[] = [
       { name: 'Cory Michael Smith' },
     ],
     coverUrl:
-      'https://filmexposure.ch/wp-content/uploads/2024/03/aaaaqfdq3qcmcigv0mdcrz8ub5khkdfdfbmojqsy8umo6q5bfsxszlhqe0ykw3qklocgio_zk0adpjt6iiqwuxdiboe8zgb88njjvgthxr0rp6gupuf0vzbsmrhgeddremfxueghre5uznoy23-kl_5lkc-z.jpg',
+      '/movies_pictures/d1c65f7e058f.jpg',
     releaseDate: '2023-05-20',
     length: 117,
     genre: ['Drame'],
@@ -1689,7 +1689,7 @@ export const baseMoviesKnownMissingBatch: BaseMovie[] = [
       { name: 'Jamie Bell' },
     ],
     coverUrl:
-      'https://image.over-blog.com/GlkU1rnKXm0ObAqf5RNgBtWXAn0=/filters:no_upscale()/image%2F0953084%2F20231204%2Fob_b12a60_mv5bzmyzmjmzn2etmgywni00odc3lwi3ytctmj.jpg',
+      '/movies_pictures/d089c12300a3.jpg',
     releaseDate: '2023-08-31',
     length: 105,
     genre: ['Drame', 'Romance'],
@@ -1710,7 +1710,7 @@ export const baseMoviesKnownMissingBatch: BaseMovie[] = [
       { name: 'Setareh Maleki' },
     ],
     coverUrl:
-      'https://fr.web.img4.acsta.net/img/38/1e/381e47f91ac66b215d8140e10f0eac44.jpg',
+      '/movies_pictures/e172e86ec15b.jpg',
     releaseDate: '2024-05-24',
     length: 168,
     genre: ['Drame'],
@@ -1732,7 +1732,7 @@ export const baseMoviesKnownMissingBatch: BaseMovie[] = [
       { name: 'Jonah Hill' },
     ],
     coverUrl:
-      'https://tv-programme.com/photos/streaming-en-cloque-mode-d-emploi-0-8574-1200.webp',
+      '/movies_pictures/8c158d1e2c86.webp',
     releaseDate: '2007-06-01',
     length: 129,
     genre: ['Comédie', 'Romance'],
@@ -1754,7 +1754,7 @@ export const baseMoviesKnownMissingBatch: BaseMovie[] = [
       { name: 'Wendi McLendon-Covey' },
     ],
     coverUrl:
-      'https://www.critikat.com/wp-content/uploads/2011/08/artoff5009.jpg',
+      '/movies_pictures/f31edf86eac2.jpg',
     releaseDate: '2011-04-28',
     length: 125,
     genre: ['Comédie'],
@@ -1776,7 +1776,7 @@ export const baseMoviesKnownMissingBatch: BaseMovie[] = [
       { name: 'David Koechner' },
     ],
     coverUrl:
-      'https://m.media-amazon.com/images/M/MV5BY2FiZDYzY2UtYjc4ZS00MWM2LTlmZjktMWRiNjdiYjI2Y2VhXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg',
+      '/movies_pictures/4dadb3409cc5.jpg',
     releaseDate: '2004-07-09',
     length: 94,
     genre: ['Comédie'],
@@ -1798,7 +1798,7 @@ export const baseMoviesKnownMissingBatch: BaseMovie[] = [
       { name: 'Christina Applegate' },
     ],
     coverUrl:
-      'https://thepostculture.wordpress.com/wp-content/uploads/2013/12/hr_anchorman_2__the_legend_continues_7.jpg',
+      '/movies_pictures/a1e23e6bdf31.jpg',
     releaseDate: '2013-12-18',
     length: 119,
     genre: ['Comédie'],
@@ -1820,7 +1820,7 @@ export const baseMoviesKnownMissingBatch: BaseMovie[] = [
       { name: 'Adam Scott' },
     ],
     coverUrl:
-      'https://m.media-amazon.com/images/M/MV5BNWYzNjFkOGYtMWNhMy00ZWFlLTg3ZWMtYTdhZmQyNjQzNDM5XkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg',
+      '/movies_pictures/250854dbbd98.jpg',
     releaseDate: '2008-07-25',
     length: 113,
     genre: ['Comédie'],
@@ -1842,7 +1842,7 @@ export const baseMoviesKnownMissingBatch: BaseMovie[] = [
       { name: 'Edward Asner' },
     ],
     coverUrl:
-      'https://www.ecranlarge.com/content/uploads/2020/08/mof5u7qwjaja4dudsq28yohloos-891.jpg',
+      '/movies_pictures/93c40ecdd42d.jpg',
     releaseDate: '2003-11-07',
     length: 97,
     genre: ['Comédie', 'Jeunesse'],
@@ -1864,7 +1864,7 @@ export const baseMoviesKnownMissingBatch: BaseMovie[] = [
       { name: 'Bill Hader' },
     ],
     coverUrl:
-      'https://thumb.canalplus.pro/http/unsafe/%7BresolutionXY%7D/filters:quality(%7BimageQualityPercentage%7D)/img-hapi.canalplus.pro:80/ServiceImage/ImageID/110264239',
+      '/movies_pictures/4697d10e4267.jpg',
     releaseDate: '2008-04-18',
     length: 105,
     genre: ['Comédie', 'Romance'],
@@ -1886,7 +1886,7 @@ export const baseMoviesKnownMissingBatch: BaseMovie[] = [
       { name: 'Rosie Perez' },
     ],
     coverUrl:
-      'https://m.media-amazon.com/images/M/MV5BMTY1MTE4NzAwM15BMl5BanBnXkFtZTcwNzg3Mjg2MQ@@._V1_FMjpg_UX1000_.jpg',
+      '/movies_pictures/853030306a73.jpg',
     releaseDate: '2008-08-06',
     length: 102,
     genre: ['Comédie'],
@@ -1908,7 +1908,7 @@ export const baseMoviesKnownMissingBatch: BaseMovie[] = [
       { name: 'Steve Coogan' },
     ],
     coverUrl:
-      'https://www.critikat.com/wp-content/uploads/2010/10/artoff4346.jpg',
+      '/movies_pictures/819d168b3c6f.jpg',
     releaseDate: '2010-08-13',
     length: 116,
     genre: ['Comédie', 'Action'],
@@ -1930,7 +1930,7 @@ export const baseMoviesKnownMissingBatch: BaseMovie[] = [
       { name: 'Dwight Howard' },
     ],
     coverUrl:
-      'https://www.ecranlarge.com/content/uploads/2020/08/bu9iy1fkzuqgs9usuk2zhjqasyx-780.jpg',
+      '/movies_pictures/5240aa3a309c.jpg',
     releaseDate: '2010-06-04',
     length: 88,
     genre: ['Comédie'],
@@ -1952,7 +1952,7 @@ export const baseMoviesKnownMissingBatch: BaseMovie[] = [
       { name: 'Anjelica Huston' },
     ],
     coverUrl:
-      'https://www.critikat.com/wp-content/uploads/2011/11/artoff5238.jpg',
+      '/movies_pictures/34eb5cedaef9.jpg',
     releaseDate: '2011-09-12',
     length: 100,
     genre: ['Comédie', 'Drame'],
@@ -1974,7 +1974,7 @@ export const baseMoviesKnownMissingBatch: BaseMovie[] = [
       { name: 'John Cena' },
     ],
     coverUrl:
-      'https://fr.web.img4.acsta.net/pictures/15/05/11/16/51/495532.jpg',
+      '/movies_pictures/68be9b979a80.jpg',
     releaseDate: '2015-07-17',
     length: 125,
     genre: ['Comédie', 'Romance'],
@@ -1996,7 +1996,7 @@ export const baseMoviesKnownMissingBatch: BaseMovie[] = [
       { name: 'Jon Gries' },
     ],
     coverUrl:
-      'https://d28hgpri8am2if.cloudfront.net/book_images/cvr9781416927662_9781416927662_hr.jpg',
+      '/movies_pictures/7d35a336196e.jpg',
     releaseDate: '2004-01-17',
     length: 95,
     genre: ['Comédie'],
@@ -2018,7 +2018,7 @@ export const baseMoviesKnownMissingBatch: BaseMovie[] = [
       { name: 'Juliette Lewis' },
     ],
     coverUrl:
-      'https://unobtainium13.com/wp-content/uploads/2026/07/old-school.jpg',
+      '/movies_pictures/8e3ad8695532.jpg',
     releaseDate: '2003-02-21',
     length: 91,
     genre: ['Comédie'],
@@ -2039,7 +2039,7 @@ export const baseMoviesKnownMissingBatch: BaseMovie[] = [
       { name: 'Lauren Graham' },
       { name: 'Bernie Mac' },
     ],
-    coverUrl: 'https://m.media-amazon.com/images/I/91CmfLWZKSL.jpg',
+    coverUrl: '/movies_pictures/bd9af1cd8eaa.jpg',
     releaseDate: '2003-11-26',
     length: 91,
     genre: ['Comédie', 'Policier'],
@@ -2061,7 +2061,7 @@ export const baseMoviesKnownMissingBatch: BaseMovie[] = [
       { name: 'Jane Lynch' },
     ],
     coverUrl:
-      'https://www.lemelies.com/wp-content/uploads/2025/03/FLIA37U1.jpg',
+      '/movies_pictures/c7c23c214433.jpg',
     releaseDate: '2006-08-04',
     length: 108,
     genre: ['Comédie'],
@@ -2083,7 +2083,7 @@ export const baseMoviesKnownMissingBatch: BaseMovie[] = [
       { name: 'Jon Favreau' },
     ],
     coverUrl:
-      'https://images.contentstack.io/v3/assets/blt13adb7e2033fcee5/bltce625010bddd6a1d/691c8933bb16ff61e201cb0c/TheBreakUp_Poster_2000x3000_uaa.jpg?width=2560',
+      '/movies_pictures/3c03cba10646.jpg',
     releaseDate: '2006-06-02',
     length: 106,
     genre: ['Comédie', 'Romance'],
@@ -2105,7 +2105,7 @@ export const baseMoviesKnownMissingBatch: BaseMovie[] = [
       { name: 'Seth Rogen' },
     ],
     coverUrl:
-      'https://m.media-amazon.com/images/S/pv-target-images/f31cf00d91f847fef358c943395b895f1ad1ca921541927206a8b28ceeaa24ef.jpg',
+      '/movies_pictures/2b75492115cb.jpg',
     releaseDate: '2006-07-14',
     length: 110,
     genre: ['Comédie'],
@@ -2127,7 +2127,7 @@ export const baseMoviesKnownMissingBatch: BaseMovie[] = [
       { name: 'Lake Bell' },
     ],
     coverUrl:
-      'https://www.critikat.com/wp-content/uploads/2009/12/artoff3657.jpg',
+      '/movies_pictures/486d86ae8584.jpg',
     releaseDate: '2009-12-08',
     length: 120,
     genre: ['Comédie', 'Romance'],
@@ -2148,7 +2148,7 @@ export const baseMoviesKnownMissingBatch: BaseMovie[] = [
       { name: 'Chris Messina' },
     ],
     coverUrl:
-      'https://www.ecranlarge.com/content/uploads/2020/08/rtzquhkuentfq3yto3v4l5rtanw-583.jpg',
+      '/movies_pictures/e5344dfd28d6.jpg',
     releaseDate: '2009-08-07',
     length: 123,
     genre: ['Comédie', 'Drame', 'Biographie'],
@@ -2170,7 +2170,7 @@ export const baseMoviesKnownMissingBatch: BaseMovie[] = [
       { name: 'Ed Helms' },
     ],
     coverUrl:
-      'https://www.avoir-alire.com/IMG/logo/arnaque_a_la_carte_2013_.jpg',
+      '/movies_pictures/82b62fe9449f.jpg',
     releaseDate: '2013-05-10',
     length: 92,
     genre: ['Comédie', 'Policier'],

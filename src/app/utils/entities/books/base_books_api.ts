@@ -2099,7 +2099,7 @@ export const baseBooksApi: BaseBook[] = [
   {
     title: "Renoncer à la dépendance affective : S'aimer et se laisser aimer",
     author: "Catherine Dupont",
-    coverUrl: "https://m.media-amazon.com/images/I/51MnSns4dcL._SL1174_.jpg",
+    coverUrl: "/books_pictures/ce5a88d2d496.jpg",
     pages: 290,
     genre: ['Nonfiction'],
     saga: "",
