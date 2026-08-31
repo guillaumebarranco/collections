@@ -1603,8 +1603,8 @@ export const guillaumeReadlistBooks: UserBooks = [
   }
 ,
   {
-    title: "Renoncer à la dépendance affective : S'aimer et se laisser aimer",
-    author: "Catherine Dupont",
+    title: "Post-romantique",
+    author: "Aline Laurent-Mayard",
     firstReadDate: "",
     lastReadDate: "",
     otherReadDates: [],

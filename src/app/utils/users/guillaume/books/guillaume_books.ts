@@ -1799,4 +1799,21 @@ export const guillaumeBooks: UserBooks = [
     wantToReadAgain: false,
     ratingComment: "",
   },
+
+  {
+    title: "Renoncer à la dépendance affective : S'aimer et se laisser aimer",
+    author: "Catherine Dupont",
+    firstReadDate: "2026-08-31",
+    lastReadDate: "2026-08-31",
+    otherReadDates: [],
+    rating: 3.5,
+    reading: false,
+    readTimes: 1,
+    owned: false,
+    borrowed: "",
+    loaned: "",
+    readPriority: 3,
+    wantToReadAgain: false,
+    ratingComment: "",
+  },
 ];

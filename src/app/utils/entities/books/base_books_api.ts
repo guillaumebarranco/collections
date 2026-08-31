@@ -2110,4 +2110,19 @@ export const baseBooksApi: BaseBook[] = [
     countryOrigin: "France",
     selectDisplayOrder: 0,
   },
+
+  {
+    title: "Post-romantique",
+    author: "Aline Laurent-Mayard",
+    coverUrl: "https://media.hachette.fr/imgArticle/LGFLIVREDEPOCHE/2026/9782253908845-001-T.jpeg?source=web&v=e493b9caaad0dba149af09783752cbc7",
+    pages: 288,
+    genre: ['Nonfiction'],
+    saga: "",
+    sagaOrder: 0,
+    sagaFinished: true,
+    releaseDate: "2024-01-10",
+    description: "",
+    countryOrigin: "France",
+    selectDisplayOrder: 0,
+  },
 ];

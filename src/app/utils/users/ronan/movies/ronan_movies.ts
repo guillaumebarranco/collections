@@ -22420,4 +22420,22 @@ export const ronanMovies: UserMovies = [
     borrowed: "",
     loaned: "",
   },
+
+  {
+    title: "Les belles cicatrices",
+    director: "Raphaël Jouzeau",
+    rating: 4.5,
+    timesWatched: 4,
+    firstViewedDate: "2026-08-27",
+    lastViewedDate: "2026-08-30",
+    otherSeenDates: ["2026-08-28"],
+    seenAtCinema: false,
+    owned: false,
+    wantToSeeAgain: false,
+    watchPriority: 1,
+    ratingComment: "",
+    inList: [],
+    borrowed: "",
+    loaned: "",
+  },
 ];
