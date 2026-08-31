@@ -1,4 +1,4 @@
-import { BaseMovie } from '../../../models/movie-model';
+import { BaseMovie, OscarEnum } from '../../../models/movie-model';
 
 export const baseMoviesDocumentaire: BaseMovie[] = [
   {
@@ -242,5 +242,20 @@ export const baseMoviesDocumentaire: BaseMovie[] = [
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
     oscars: [],
+  },
+  {
+    title: 'Inside Job',
+    director: 'Charles Ferguson',
+    actors: [{ name: 'Matt Damon' }],
+    coverUrl: '/movies_pictures/7d99c6782390.jpg',
+    releaseDate: '2010-05-16',
+    length: 108,
+    genre: ['Documentaire'],
+    saga: '',
+    description: '',
+    fromEntity: null,
+    countryOrigin: ['États-Unis'],
+    selectDisplayOrder: 0,
+    oscars: [{ type: OscarEnum.OSCAR_BEST_DOCUMENTARY, year: 2011 }],
   },
 ];
