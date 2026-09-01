@@ -2125,4 +2125,19 @@ export const baseBooksApi: BaseBook[] = [
     countryOrigin: "France",
     selectDisplayOrder: 0,
   },
+
+  {
+    title: "Martyrs - Livre 1",
+    author: "Oliver Peru",
+    coverUrl: "https://static.fnac-static.com/multimedia/PE/Images/FR/NR/42/a6/1a/18523714/1507-1/tsp20251001075209/Martyrs.jpg",
+    pages: 700,
+    genre: ['Fantasy', 'Aventure'],
+    saga: "Martyrs",
+    sagaOrder: 1,
+    sagaFinished: true,
+    releaseDate: "2013-03-26",
+    description: "",
+    countryOrigin: "France",
+    selectDisplayOrder: 0,
+  },
 ];
