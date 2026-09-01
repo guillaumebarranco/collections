@@ -146,6 +146,10 @@ export class MoviesHeaderComponent {
         return 'Aucun film à afficher par réalisateur. Ajoutez des réalisateurs ou des films.';
       case 'countries':
         return 'Aucun film à afficher par pays. Complétez les pays sur vos films.';
+      case 'oscars':
+        return 'Aucun film oscarisé à afficher pour le moment.';
+      case 'oscarsByYear':
+        return 'Aucun film oscarisé à afficher par année pour le moment.';
       case 'recommendations':
         return 'Aucune recommandation pour le moment.';
       default:
@@ -175,6 +179,8 @@ export class MoviesHeaderComponent {
       ? 'Films par pays'
       : this.selectedView() === 'oscars'
       ? 'Films par Oscars'
+      : this.selectedView() === 'oscarsByYear'
+      ? 'Films par Oscars (années)'
       : this.selectedView() === 'recommendations'
       ? 'Recommandations'
       : this.selectedView() === 'owned'

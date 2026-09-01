@@ -26,6 +26,8 @@ import { normalizeSearchText } from '../../../utils/normalize-search-text';
 import {
   getMovieCountryOriginLabels,
   Movie,
+  OSCAR_LABELS,
+  OscarEnum,
 } from '../../../models/movie-model';
 import type { UserMovieListItem } from '../../../models/movie-list.model';
 import { DEFAULT_USER_ID } from '../../../utils/constants';
@@ -59,6 +61,8 @@ import {
   getMoviesBySaga,
   getMoviesByCountry,
   getMoviesByOscarCount,
+  getMoviesByOscarYear,
+  type MoviesByOscarYearRow,
 } from './movies.utils';
 import { getApiBaseUrl } from '../../../core/config';
 import { MoviesHeaderComponent } from './movies-header/movies-header.component';
@@ -78,6 +82,7 @@ import {
 } from './movies.controller';
 import { AuthService } from '../../../core/auth.service';
 import { MatDialog } from '@angular/material/dialog';
+import { EditMovieComponent } from '../../edit/edit-movie/edit-movie.component';
 import { MovieUpdateFollowUpModalComponent } from '../../../components/modals/movie-update-follow-up-modal/movie-update-follow-up-modal.component';
 import { CreateMovieListModalComponent } from '../../../components/modals/create-movie-list-modal/create-movie-list-modal.component';
 import { firstValueFrom } from 'rxjs';
@@ -146,7 +151,8 @@ export class MoviesComponent implements OnInit {
     actors: false,
     directors: false,
     countries: false,
-    oscars: true,
+    oscars: false,
+    oscarsByYear: false,
     recommendations: false,
   });
 
@@ -265,6 +271,7 @@ export class MoviesComponent implements OnInit {
   });
 
   movieViewOptions: { value: MovieView; label: string }[] = movieViewOptions;
+  readonly oscarBestMovieLabel = OSCAR_LABELS[OscarEnum.OSCAR_BEST_MOVIE];
 
   visibleMovieViewOptions = computed(() =>
     this.movieViewOptions.filter((option) =>
@@ -356,6 +363,7 @@ export class MoviesComponent implements OnInit {
       this.selectedView() === 'directors' ||
       this.selectedView() === 'countries' ||
       this.selectedView() === 'oscars' ||
+      this.selectedView() === 'oscarsByYear' ||
       this.selectedView() === 'recommendations'
     ) {
       movies = this.allMovies();
@@ -405,7 +413,8 @@ export class MoviesComponent implements OnInit {
       this.selectedView() === 'actors' ||
       this.selectedView() === 'directors' ||
       this.selectedView() === 'countries' ||
-      this.selectedView() === 'oscars'
+      this.selectedView() === 'oscars' ||
+      this.selectedView() === 'oscarsByYear'
     ) {
       if (this.selectedYearFilter() !== 'all') {
         if (allYearsSince2000.includes(Number(this.selectedYearFilter()))) {
@@ -451,6 +460,7 @@ export class MoviesComponent implements OnInit {
   collapsedDirectors = signal<Record<string, boolean>>({});
   collapsedCountries = signal<Record<string, boolean>>({});
   collapsedOscarCounts = signal<Record<number, boolean>>({});
+  collapsedOscarYears = signal<Record<number, boolean>>({});
   recommendations = signal<RecommendedMovie[]>([]);
   isLoadingRecommendations = signal<boolean>(false);
   recommendationsOfflineBlocked = signal(false);
@@ -534,6 +544,7 @@ export class MoviesComponent implements OnInit {
       queryParams['view'] === 'directors' ||
       queryParams['view'] === 'countries' ||
       queryParams['view'] === 'oscars' ||
+      queryParams['view'] === 'oscarsByYear' ||
       queryParams['view'] === 'recommendations'
     ) {
       this.selectedView.set(queryParams['view'] as MovieView);
@@ -604,6 +615,7 @@ export class MoviesComponent implements OnInit {
       view === 'directors' ||
       view === 'countries' ||
       view === 'oscars' ||
+      view === 'oscarsByYear' ||
       view === 'recommendations'
     );
   }
@@ -698,7 +710,7 @@ export class MoviesComponent implements OnInit {
       this.selectedSort.set('saga-count');
     } else if (view === 'countries') {
       this.selectedSort.set('country-count');
-    } else if (view === 'oscars') {
+    } else if (view === 'oscars' || view === 'oscarsByYear') {
       this.selectedSort.set('title');
     } else {
       // Pour watchlist, recommendations : pas de tri ou tri par défaut
@@ -908,6 +920,17 @@ export class MoviesComponent implements OnInit {
     return Boolean(this.collapsedOscarCounts()[oscarCount]);
   }
 
+  toggleOscarYear(year: number) {
+    this.collapsedOscarYears.update((current) => ({
+      ...current,
+      [year]: !current[year],
+    }));
+  }
+
+  isOscarYearCollapsed(year: number): boolean {
+    return Boolean(this.collapsedOscarYears()[year]);
+  }
+
   toggleCountry(country: string) {
     this.collapsedCountries.update((current) => ({
       ...current,
@@ -989,6 +1012,40 @@ export class MoviesComponent implements OnInit {
     });
   });
 
+  moviesByOscarYear = computed(() => {
+    if (this.selectedView() !== 'oscarsByYear') {
+      return [];
+    }
+    return getMoviesByOscarYear({
+      sortedMovies: this.sortedMovies(),
+      allMovies: this.allMovies(),
+      baseMovies: this.baseMoviesList(),
+    });
+  });
+
+  onOscarYearRowClick(row: MoviesByOscarYearRow): void {
+    if (row.missing || this.isViewingOtherProfile()) return;
+    this.openOscarYearMovie(row.movie);
+  }
+
+  private openOscarYearMovie(movie: Movie): void {
+    const dialogRef = this.dialog.open(EditMovieComponent, {
+      data: {
+        movie,
+        userId: this.getActiveUserId() || DEFAULT_USER_ID,
+        list: [movie],
+        index: 0,
+      },
+      width: '720px',
+      maxWidth: '95vw',
+    });
+    dialogRef.afterClosed().subscribe((result) => {
+      if (result?.updated) {
+        void this.refreshMovies();
+      }
+    });
+  }
+
   private getMovieIdentityKey(movie: Movie): string {
     return `${movie.title}|${movie.director}`;
   }
@@ -1045,7 +1102,8 @@ export class MoviesComponent implements OnInit {
       actors: parsed.actors ?? false,
       directors: parsed.directors ?? false,
       countries: parsed.countries ?? false,
-      oscars: parsed.oscars ?? true,
+      oscars: parsed.oscars ?? false,
+      oscarsByYear: parsed.oscarsByYear ?? false,
       recommendations: parsed.recommendations ?? false,
       toReWatch: parsed.toReWatch ?? true,
     });

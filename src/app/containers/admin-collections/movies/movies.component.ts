@@ -12,6 +12,8 @@ import { MovieComponent } from '../../../components/collections/movie/movie.comp
 import {
   getMovieCountryOriginLabels,
   Movie,
+  OSCAR_LABELS,
+  OscarEnum,
 } from '../../../models/movie-model';
 
 import { getAllBaseMovies } from '../../../facades/movies/movies.facade';
@@ -26,10 +28,15 @@ import {
   getMoviesBySaga,
   getMoviesByCountry,
   getMoviesByOscarCount,
+  getMoviesByOscarYear,
+  type MoviesByOscarYearRow,
 } from '../../collections/movies/movies.utils';
 import { getFullMovie } from '../../../helpers/full-entities-helper';
 import { AdminMoviesHeaderComponent } from './movies-header/movies-header.component';
 import { LoaderComponent } from '../../../components/shared/loader/loader.component';
+import { MatDialog } from '@angular/material/dialog';
+import { EditMovieComponent } from '../../edit/edit-movie/edit-movie.component';
+import { DEFAULT_USER_ID } from '../../../utils/constants';
 
 const ADMIN_VIEWS: MovieView[] = [
   'watched',
@@ -38,6 +45,7 @@ const ADMIN_VIEWS: MovieView[] = [
   'directors',
   'countries',
   'oscars',
+  'oscarsByYear',
 ];
 
 @Component({
@@ -53,6 +61,7 @@ const ADMIN_VIEWS: MovieView[] = [
   changeDetection: ChangeDetectionStrategy.OnPush,
 })
 export class AdminMoviesComponent implements OnInit {
+  private readonly dialog = inject(MatDialog);
   selectedSort = signal<string>('title');
   selectedView = signal<MovieView>('watched');
   searchTerm = signal<string>('');
@@ -79,6 +88,7 @@ export class AdminMoviesComponent implements OnInit {
   );
 
   movieViewOptions: { value: MovieView; label: string }[] = movieViewOptions;
+  readonly oscarBestMovieLabel = OSCAR_LABELS[OscarEnum.OSCAR_BEST_MOVIE];
 
   visibleMovieViewOptions = computed(() => {
     const adminOptions = this.movieViewOptions.filter((option) =>
@@ -140,11 +150,39 @@ export class AdminMoviesComponent implements OnInit {
     });
   });
 
+  moviesByOscarYear = computed(() => {
+    if (this.selectedView() !== 'oscarsByYear') return [];
+    return getMoviesByOscarYear({
+      sortedMovies: this.sortedMovies(),
+      allMovies: this.allMovies(),
+      baseMovies: this.baseMoviesList(),
+    });
+  });
+
+  onOscarYearRowClick(row: MoviesByOscarYearRow): void {
+    const dialogRef = this.dialog.open(EditMovieComponent, {
+      data: {
+        movie: row.movie,
+        userId: DEFAULT_USER_ID,
+        list: [row.movie],
+        index: 0,
+      },
+      width: '720px',
+      maxWidth: '95vw',
+    });
+    dialogRef.afterClosed().subscribe((result) => {
+      if (result?.updated) {
+        void this.refreshMovies();
+      }
+    });
+  }
+
   collapsedSagas = signal<Record<string, boolean>>({});
   collapsedActors = signal<Record<string, boolean>>({});
   collapsedDirectors = signal<Record<string, boolean>>({});
   collapsedCountries = signal<Record<string, boolean>>({});
   collapsedOscarCounts = signal<Record<number, boolean>>({});
+  collapsedOscarYears = signal<Record<number, boolean>>({});
 
   ngOnInit() {
     this.selectedView.set('watched');
@@ -170,7 +208,7 @@ export class AdminMoviesComponent implements OnInit {
     else if (view === 'directors') this.selectedSort.set('director-count');
     else if (view === 'sagas') this.selectedSort.set('saga-count');
     else if (view === 'countries') this.selectedSort.set('country-count');
-    else if (view === 'oscars') this.selectedSort.set('title');
+    else if (view === 'oscars' || view === 'oscarsByYear') this.selectedSort.set('title');
     else this.selectedSort.set('title'); // "Voir tout" and default
   }
 
@@ -225,6 +263,14 @@ export class AdminMoviesComponent implements OnInit {
 
   isOscarCountCollapsed(oscarCount: number): boolean {
     return Boolean(this.collapsedOscarCounts()[oscarCount]);
+  }
+
+  toggleOscarYear(year: number) {
+    this.collapsedOscarYears.update((c) => ({ ...c, [year]: !c[year] }));
+  }
+
+  isOscarYearCollapsed(year: number): boolean {
+    return Boolean(this.collapsedOscarYears()[year]);
   }
 
   private matchesSearch(movie: Movie, term: string): boolean {

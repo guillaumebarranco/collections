@@ -7,7 +7,8 @@
     selectedView() === 'actors' ||
     selectedView() === 'directors' ||
     selectedView() === 'countries' ||
-    selectedView() === 'oscars'
+    selectedView() === 'oscars' ||
+    selectedView() === 'oscarsByYear'
   "
 >
   @if (isLoadingMovies()) {
@@ -513,6 +514,133 @@
     } }
   </div>
 
+  <!-- Movies by Oscars (ceremony years) -->
+  } @else if (selectedView() === 'oscarsByYear') {
+  <div class="movies-by-saga">
+    @if (moviesByOscarYear().length === 0) {
+    <p class="movies-empty-view-message">
+      Aucun film oscarisé dans le catalogue pour le moment.
+    </p>
+    } @else { @for (yearGroup of moviesByOscarYear(); track yearGroup.year) {
+    <section class="movies-saga-section">
+      <h2 class="movies-saga-title">
+        <button
+          type="button"
+          class="movies-saga-toggle"
+          [attr.aria-expanded]="!isOscarYearCollapsed(yearGroup.year)"
+          (click)="toggleOscarYear(yearGroup.year)"
+        >
+          <span class="movies-saga-toggle-icon">
+            {{ isOscarYearCollapsed(yearGroup.year) ? "▶" : "▼" }}
+          </span>
+          Oscars {{ yearGroup.year }}
+          ({{ yearGroup.seenCount }} films vus) ({{ yearGroup.missingCount }}
+          films restants à voir)
+        </button>
+      </h2>
+      @if (!isOscarYearCollapsed(yearGroup.year)) {
+      <div class="movies-oscar-year-grid">
+        @for (row of yearGroup.rows; track
+        `${row.movie.title}-${row.movie.director}-${row.missing}`)
+        {
+        <div
+          class="movies-oscar-year-row"
+          [class.movies-oscar-year-row--missing]="row.missing"
+          [class.movies-oscar-year-row--multi]="row.categoryLabels.length > 1"
+          [class.movies-oscar-year-row--clickable]="
+            !row.missing && !isViewingOtherProfile()
+          "
+          [attr.role]="
+            !row.missing && !isViewingOtherProfile() ? 'button' : null
+          "
+          [attr.tabindex]="
+            !row.missing && !isViewingOtherProfile() ? 0 : null
+          "
+          [attr.aria-label]="
+            row.categoryLabels.join(', ') + ' : ' + row.movie.title
+          "
+          (click)="onOscarYearRowClick(row)"
+          (keydown.enter)="onOscarYearRowClick(row)"
+        >
+          <ul class="movies-oscar-year-categories">
+            @for (label of row.categoryLabels; track label) {
+            <li
+              [class.movies-oscar-year-best-picture]="
+                label === oscarBestMovieLabel
+              "
+            >
+              {{ label }}
+            </li>
+            }
+          </ul>
+          <img
+            class="movies-oscar-year-poster"
+            [src]="row.movie.coverUrl || '/movies_pictures/poster.jpg'"
+            [alt]="row.movie.title"
+            referrerpolicy="no-referrer"
+          />
+          <div class="movies-oscar-year-film">
+            <span class="movies-oscar-year-title">{{ row.movie.title }}</span>
+            <span class="movies-oscar-year-meta">
+              @if (row.movie.releaseDate) {
+              <span>{{ row.movie.releaseDate | date : "yyyy" }}</span>
+              } @if (!row.missing && row.movie.rating > 0) {
+              <span>{{ row.movie.rating }}/5</span>
+              } @if (row.oscarYearCount > 1) {
+              <span class="movies-oscar-year-count"
+                >{{ row.oscarYearCount }} Oscars</span
+              >
+              } @if (row.missing) {
+              <span class="movies-oscar-year-unseen">Non vu</span>
+              }
+            </span>
+          </div>
+          @if (row.missing) {
+          <div class="movies-oscar-year-actions">
+            @if (!isViewingOtherProfile() && !movieAlreadyInUserWatchlist(row.movie))
+            {
+            <button
+              type="button"
+              class="makya-btn-small"
+              (click)="$event.stopPropagation(); addMovieToWatchlist(row.movie)"
+            >
+              À voir
+            </button>
+            } @if (canShowAddToMyWatchlist() && canAddMovieToMyWatchlist(row.movie))
+            {
+            <button
+              type="button"
+              class="makya-btn-small"
+              (click)="
+                $event.stopPropagation();
+                addMovieToConnectedUserWatchlist(row.movie)
+              "
+            >
+              À voir
+            </button>
+            } @if (canShowAddToMyWatchlist() && canAddMovieToMyWatched(row.movie))
+            {
+            <button
+              type="button"
+              class="makya-btn-small"
+              (click)="
+                $event.stopPropagation();
+                addMovieToConnectedUserAsWatched(row.movie)
+              "
+            >
+              Vu
+            </button>
+            }
+          </div>
+          }
+        </div>
+        }
+      </div>
+      }
+    </section>
+    } }
+  </div>
+
   <!-- Classic Movies list -->
   } @else {
   <div class="movies">
@@ -666,6 +794,16 @@
           "
         />
         Voir par Oscars
+      </label>
+      <label class="movies-config-option">
+        <input
+          type="checkbox"
+          [checked]="optionalViewConfig().oscarsByYear"
+          (change)="
+            onOptionalViewChange('oscarsByYear', $any($event.target).checked)
+          "
+        />
+        Voir par Oscars (années)
       </label>
       <label class="movies-config-option">
         <input

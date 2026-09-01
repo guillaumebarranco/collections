@@ -63,6 +63,10 @@
     >
     } @if (showApproximateDateBadge && !isBaseEntityView) {
     <span class="missing-badge approximate-date-badge">Date approximative</span>
+    } @if (oscarYearCount > 1) {
+    <span class="missing-badge oscar-year-count-badge"
+      >{{ oscarYearCount }} Oscars</span
+    >
     }
   </ng-container>
   <img

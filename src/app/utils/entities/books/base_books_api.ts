@@ -2114,7 +2114,7 @@ export const baseBooksApi: BaseBook[] = [
   {
     title: "Post-romantique",
     author: "Aline Laurent-Mayard",
-    coverUrl: "https://media.hachette.fr/imgArticle/LGFLIVREDEPOCHE/2026/9782253908845-001-T.jpeg?source=web&v=e493b9caaad0dba149af09783752cbc7",
+    coverUrl: "/books_pictures/ca10cbb1c156.jpeg",
     pages: 288,
     genre: ['Nonfiction'],
     saga: "",

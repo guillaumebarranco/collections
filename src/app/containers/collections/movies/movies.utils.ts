@@ -1,4 +1,11 @@
-import { getMovieCountryOriginLabels, Movie } from '../../../models/movie-model';
+import {
+  getMovieCountryOriginLabels,
+  Movie,
+  OSCAR_ENUM_OPTIONS,
+  OSCAR_LABELS,
+  OscarEnum,
+  isOscarEnum,
+} from '../../../models/movie-model';
 
 export type MovieView =
   | 'watched'
@@ -13,6 +20,7 @@ export type MovieView =
   | 'directors'
   | 'countries'
   | 'oscars'
+  | 'oscarsByYear'
   | 'recommendations';
 export type OptionalMovieView = Exclude<MovieView, 'watched' | 'watchlist'>;
 
@@ -56,7 +64,7 @@ export const moviesSortOptions = (
     return countriesMoviesSortOptions;
   }
 
-  if (selectedView === 'oscars') {
+  if (selectedView === 'oscars' || selectedView === 'oscarsByYear') {
     return [];
   }
 
@@ -168,6 +176,7 @@ export const movieViewOptions: { value: MovieView; label: string }[] = [
   { value: 'directors', label: 'Voir par réalisateurs' },
   { value: 'countries', label: 'Voir par pays' },
   { value: 'oscars', label: 'Voir par Oscars' },
+  { value: 'oscarsByYear', label: 'Voir par Oscars (années)' },
   { value: 'recommendations', label: 'Recommandations' },
 ];
 
@@ -924,4 +933,184 @@ export const getMoviesByOscarCount = ({
       (group) =>
         group.seenMovies.length > 0 || group.missingMovies.length > 0
     );
+};
+
+export type MoviesByOscarYearCategory = {
+  type: OscarEnum;
+  label: string;
+  seenMovies: Movie[];
+  missingMovies: Movie[];
+};
+
+export type MoviesByOscarYearRow = {
+  categoryLabels: string[];
+  movie: Movie;
+  missing: boolean;
+  oscarYearCount: number;
+};
+
+export type MoviesByOscarYearGroup = {
+  year: number;
+  seenCount: number;
+  missingCount: number;
+  categories: MoviesByOscarYearCategory[];
+  rows: MoviesByOscarYearRow[];
+};
+
+type OscarYearBucket = {
+  seen: Map<string, Movie>;
+  missing: Map<string, Movie>;
+};
+
+export const getMovieOscarCountForYear = (
+  movie: { oscars?: unknown },
+  year: number
+): number => {
+  if (!Array.isArray(movie.oscars)) return 0;
+  return movie.oscars.filter(
+    (oscar) => oscar && typeof oscar.year === 'number' && oscar.year === year
+  ).length;
+};
+
+export const getMoviesByOscarYear = ({
+  sortedMovies,
+  allMovies,
+  baseMovies,
+}: {
+  sortedMovies: Movie[];
+  allMovies: Movie[];
+  baseMovies: Movie[];
+}): MoviesByOscarYearGroup[] => {
+  const byYear = new Map<number, Map<OscarEnum, OscarYearBucket>>();
+
+  const ensureBucket = (year: number, type: OscarEnum): OscarYearBucket => {
+    let yearMap = byYear.get(year);
+    if (!yearMap) {
+      yearMap = new Map();
+      byYear.set(year, yearMap);
+    }
+    let bucket = yearMap.get(type);
+    if (!bucket) {
+      bucket = { seen: new Map(), missing: new Map() };
+      yearMap.set(type, bucket);
+    }
+    return bucket;
+  };
+
+  const addMovieOscars = (movie: Movie, isSeen: boolean): void => {
+    const oscars = Array.isArray(movie.oscars) ? movie.oscars : [];
+    const key = getMovieIdentityKey(movie);
+    for (const oscar of oscars) {
+      if (!oscar || !isOscarEnum(oscar.type) || !Number.isFinite(oscar.year)) {
+        continue;
+      }
+      const bucket = ensureBucket(oscar.year, oscar.type);
+      if (isSeen) {
+        bucket.seen.set(key, movie);
+      } else {
+        bucket.missing.set(key, movie);
+      }
+    }
+  };
+
+  for (const movie of sortedMovies) {
+    if (getMovieOscarCount(movie) < 1) continue;
+    addMovieOscars(movie, true);
+  }
+
+  const seenKeys = new Set(
+    allMovies.map((movie) => getMovieIdentityKey(movie))
+  );
+  for (const movie of baseMovies) {
+    if (seenKeys.has(getMovieIdentityKey(movie))) continue;
+    if (getMovieOscarCount(movie) < 1) continue;
+    addMovieOscars(movie, false);
+  }
+
+  return Array.from(byYear.keys())
+    .sort((a, b) => b - a)
+    .map((year) => {
+      const yearMap = byYear.get(year);
+      if (!yearMap) {
+        return {
+          year,
+          seenCount: 0,
+          missingCount: 0,
+          categories: [],
+          rows: [],
+        };
+      }
+
+      const categories = OSCAR_ENUM_OPTIONS.map((type) => {
+        const bucket = yearMap.get(type);
+        if (!bucket) return null;
+        const seenMovies = getSortedMovies([...bucket.seen.values()], 'title');
+        const missingMovies = getSortedMovies(
+          [...bucket.missing.values()],
+          'title'
+        );
+        if (seenMovies.length === 0 && missingMovies.length === 0) {
+          return null;
+        }
+        return {
+          type,
+          label: OSCAR_LABELS[type],
+          seenMovies,
+          missingMovies,
+        };
+      }).filter((category): category is MoviesByOscarYearCategory =>
+        Boolean(category)
+      );
+
+      const seenIds = new Set<string>();
+      const missingIds = new Set<string>();
+      for (const category of categories) {
+        for (const movie of category.seenMovies) {
+          seenIds.add(getMovieIdentityKey(movie));
+        }
+        for (const movie of category.missingMovies) {
+          missingIds.add(getMovieIdentityKey(movie));
+        }
+      }
+
+      const rows: MoviesByOscarYearRow[] = [];
+      const addedMovieKeys = new Set<string>();
+      const pushMovieRow = (movie: Movie, missing: boolean): void => {
+        const identity = getMovieIdentityKey(movie);
+        const rowKey = `${identity}|${missing ? 'missing' : 'seen'}`;
+        if (addedMovieKeys.has(rowKey)) return;
+        addedMovieKeys.add(rowKey);
+        const categoryLabels = categories
+          .filter((category) => {
+            const list = missing ? category.missingMovies : category.seenMovies;
+            return list.some(
+              (candidate) => getMovieIdentityKey(candidate) === identity
+            );
+          })
+          .map((category) => category.label);
+        rows.push({
+          categoryLabels,
+          movie,
+          missing,
+          oscarYearCount: getMovieOscarCountForYear(movie, year),
+        });
+      };
+      for (const category of categories) {
+        for (const movie of category.seenMovies) {
+          pushMovieRow(movie, false);
+        }
+        for (const movie of category.missingMovies) {
+          pushMovieRow(movie, true);
+        }
+      }
+
+      return {
+        year,
+        seenCount: seenIds.size,
+        missingCount: missingIds.size,
+        categories,
+        rows,
+      };
+    })
+    .filter((group) => group.categories.length > 0);
 };

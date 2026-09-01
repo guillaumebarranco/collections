@@ -69,6 +69,8 @@ export class MovieComponent {
   @Input() isInWatchlist = false;
   @Input() selectedView: MovieView = 'watched';
   @Input() recommendationBadge = '';
+  /** Nombre d’Oscars remportés par le film à la cérémonie affichée (vue par années). */
+  @Input() oscarYearCount = 0;
   /** Afficher les boutons "Je veux voir ce film" / "Tiens, j'ai déjà vu ce film !" (consultation du profil d'un autre). */
   @Input() showAddToMyWatchlist = false;
   @Input() canAddToMyWatchlist = false;
@@ -214,7 +216,8 @@ export class MovieComponent {
       v === 'directors' ||
       v === 'sagas' ||
       v === 'countries' ||
-      v === 'oscars'
+      v === 'oscars' ||
+      v === 'oscarsByYear'
     );
   }
 

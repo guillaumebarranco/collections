@@ -107,6 +107,12 @@
   @include components.component-genre-base;
 }
 
+.oscar-year-count-badge {
+  background: #c9a227;
+  color: #fff;
+  border-color: #a6851a;
+}
+
 :host {
   display: block;
   height: 100%;

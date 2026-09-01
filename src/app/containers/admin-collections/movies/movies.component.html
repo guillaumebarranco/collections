@@ -5,7 +5,8 @@
     selectedView() === 'actors' ||
     selectedView() === 'directors' ||
     selectedView() === 'countries' ||
-    selectedView() === 'oscars'
+    selectedView() === 'oscars' ||
+    selectedView() === 'oscarsByYear'
   "
 >
   @if (isLoadingMovies()) {
@@ -287,6 +288,78 @@
             [index]="i"
             (movieUpdated)="refreshMovies()"
           ></app-movie>
+        </div>
+        }
+      </div>
+      }
+    </section>
+    }
+  </div>
+
+  <!-- Movies by Oscars (ceremony years) -->
+  } @else if (selectedView() === 'oscarsByYear') {
+  <div class="movies-by-saga">
+    @for (yearGroup of moviesByOscarYear(); track yearGroup.year) {
+    <section class="movies-saga-section">
+      <h2 class="movies-saga-title">
+        <button
+          type="button"
+          class="movies-saga-toggle"
+          [attr.aria-expanded]="!isOscarYearCollapsed(yearGroup.year)"
+          (click)="toggleOscarYear(yearGroup.year)"
+        >
+          <span class="movies-saga-toggle-icon">
+            {{ isOscarYearCollapsed(yearGroup.year) ? "▶" : "▼" }}
+          </span>
+          Oscars {{ yearGroup.year }}
+          ({{ yearGroup.seenCount + yearGroup.missingCount }})
+        </button>
+      </h2>
+      @if (!isOscarYearCollapsed(yearGroup.year)) {
+      <div class="movies-oscar-year-grid">
+        @for (row of yearGroup.rows; track
+        `${row.movie.title}-${row.movie.director}-${row.missing}`)
+        {
+        <div
+          class="movies-oscar-year-row movies-oscar-year-row--clickable"
+          [class.movies-oscar-year-row--multi]="row.categoryLabels.length > 1"
+          role="button"
+          tabindex="0"
+          [attr.aria-label]="
+            row.categoryLabels.join(', ') + ' : ' + row.movie.title
+          "
+          (click)="onOscarYearRowClick(row)"
+          (keydown.enter)="onOscarYearRowClick(row)"
+        >
+          <ul class="movies-oscar-year-categories">
+            @for (label of row.categoryLabels; track label) {
+            <li
+              [class.movies-oscar-year-best-picture]="
+                label === oscarBestMovieLabel
+              "
+            >
+              {{ label }}
+            </li>
+            }
+          </ul>
+          <img
+            class="movies-oscar-year-poster"
+            [src]="row.movie.coverUrl || '/movies_pictures/poster.jpg'"
+            [alt]="row.movie.title"
+            referrerpolicy="no-referrer"
+          />
+          <div class="movies-oscar-year-film">
+            <span class="movies-oscar-year-title">{{ row.movie.title }}</span>
+            <span class="movies-oscar-year-meta">
+              @if (row.movie.releaseDate) {
+              <span>{{ row.movie.releaseDate | date : "yyyy" }}</span>
+              } @if (row.oscarYearCount > 1) {
+              <span class="movies-oscar-year-count"
+                >{{ row.oscarYearCount }} Oscars</span
+              >
+              }
+            </span>
+          </div>
         </div>
         }
       </div>
