@@ -314,9 +314,7 @@ export const baseMoviesScienceFiction: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 30,
-    oscars: [
-      { type: OscarEnum.OSCAR_BEST_SOUND_EDITING, year: 2017 },
-    ],
+    oscars: [{ type: OscarEnum.OSCAR_BEST_SOUND_EDITING, year: 2017 }],
   },
   {
     title: 'Source Code',
@@ -488,9 +486,7 @@ export const baseMoviesScienceFiction: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 30,
-    oscars: [
-      { type: OscarEnum.OSCAR_BEST_VISUAL_EFFECTS, year: 2021 },
-    ],
+    oscars: [{ type: OscarEnum.OSCAR_BEST_VISUAL_EFFECTS, year: 2021 }],
   },
   {
     title: 'Minority Report',
@@ -609,9 +605,7 @@ export const baseMoviesScienceFiction: BaseMovie[] = [
     },
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
-    oscars: [
-      { type: OscarEnum.OSCAR_BEST_VISUAL_EFFECTS, year: 1954 },
-    ],
+    oscars: [{ type: OscarEnum.OSCAR_BEST_VISUAL_EFFECTS, year: 1954 }],
   },
   {
     title: 'La grande guerre martienne (1913-1917)',
@@ -886,9 +880,7 @@ export const baseMoviesScienceFiction: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 30,
-    oscars: [
-      { type: OscarEnum.OSCAR_BEST_VISUAL_EFFECTS, year: 2015 },
-    ],
+    oscars: [{ type: OscarEnum.OSCAR_BEST_VISUAL_EFFECTS, year: 2015 }],
   },
   {
     title: 'Prédictions',
@@ -1523,9 +1515,7 @@ export const baseMoviesScienceFiction: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
-    oscars: [
-      { type: OscarEnum.OSCAR_BEST_VISUAL_EFFECTS, year: 1991 },
-    ],
+    oscars: [{ type: OscarEnum.OSCAR_BEST_VISUAL_EFFECTS, year: 1991 }],
   },
   {
     title: 'Adam à travers le temps',
@@ -2775,9 +2765,7 @@ export const baseMoviesScienceFiction: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis', 'Canada'],
     selectDisplayOrder: 0,
-    oscars: [
-      { type: OscarEnum.OSCAR_BEST_MAKEUP, year: 1987 },
-    ],
+    oscars: [{ type: OscarEnum.OSCAR_BEST_MAKEUP, year: 1987 }],
   },
   {
     title: 'eXistenZ',
@@ -3433,9 +3421,7 @@ export const baseMoviesScienceFiction: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 30,
-    oscars: [
-      { type: OscarEnum.OSCAR_BEST_ORIGINAL_SCREENPLAY, year: 2014 },
-    ],
+    oscars: [{ type: OscarEnum.OSCAR_BEST_ORIGINAL_SCREENPLAY, year: 2014 }],
   },
   {
     title: 'Sunshine',
@@ -3502,5 +3488,32 @@ export const baseMoviesScienceFiction: BaseMovie[] = [
     countryOrigin: ['Royaume-Uni'],
     selectDisplayOrder: 0,
     oscars: [{ type: OscarEnum.OSCAR_BEST_VISUAL_EFFECTS, year: 2016 }],
+  },
+  {
+    title: 'The Dog Stars',
+    director: 'Ridley Scott',
+    actors: [
+      { name: 'Jacob Elordi' },
+      { name: 'Josh Brolin' },
+      { name: 'Margaret Qualley' },
+      { name: 'Guy Pearce' },
+      { name: 'Allison Janney' },
+      { name: 'Benedict Wong' },
+    ],
+    coverUrl:
+      'https://www.ecranlarge.com/content/uploads/2026/08/the-dog-stars-affiche-officielle-scaled.jpg',
+    releaseDate: '2026-08-28',
+    length: 118,
+    genre: ['Science Fiction', 'Dystopie', 'Drame'],
+    saga: '',
+    description: '',
+    fromEntity: {
+      entityType: 'book',
+      title: 'The Dog Stars',
+      secondEntityKey: 'Peter Heller',
+    },
+    countryOrigin: ['États-Unis', 'Royaume-Uni'],
+    selectDisplayOrder: 0,
+    oscars: [],
   },
 ];
