@@ -1137,7 +1137,7 @@ export const baseMoviesMissingAnnees19951999: BaseMovie[] = [
       { name: 'Kristin Scott Thomas' },
       { name: 'Naveen Andrews' },
     ],
-    coverUrl: '',
+    coverUrl: '/movies_pictures/33e53c6af77f.jpg',
     releaseDate: '1996-12-06',
     length: 162,
     genre: ['Drame', 'Romance', 'Guerre'],

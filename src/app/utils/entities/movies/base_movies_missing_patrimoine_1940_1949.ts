@@ -605,7 +605,8 @@ export const baseMoviesMissingPatrimoine19401949: BaseMovie[] = [
       { name: 'Frank McHugh' },
       { name: 'Gene Lockhart' },
     ],
-    coverUrl: '',
+    coverUrl:
+      '/movies_pictures/64c736af5bdf.jpg',
     releaseDate: '1944-05-03',
     length: 126,
     genre: ['Comédie', 'Drame'],

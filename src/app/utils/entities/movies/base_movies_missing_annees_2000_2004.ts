@@ -493,7 +493,8 @@ export const baseMoviesMissingAnnees20002004: BaseMovie[] = [
       { name: 'Don Cheadle' },
       { name: 'Erika Christensen' },
     ],
-    coverUrl: '',
+    coverUrl:
+      '/movies_pictures/e32e08b11ab5.jpg',
     releaseDate: '2000-12-27',
     length: 147,
     genre: ['Thriller', 'Drame', 'Policier'],
@@ -1812,8 +1813,7 @@ export const baseMoviesMissingAnnees20002004: BaseMovie[] = [
       { name: 'Marina Hands' },
       { name: 'Dorothée Berryman' },
     ],
-    coverUrl:
-      '/movies_pictures/5b4b5589c903.jpg',
+    coverUrl: '/movies_pictures/5b4b5589c903.jpg',
     releaseDate: '2003-05-21',
     length: 99,
     genre: ['Drame', 'Comédie'],
@@ -2063,8 +2063,7 @@ export const baseMoviesMissingAnnees20002004: BaseMovie[] = [
       { name: 'Mía Maestro' },
       { name: 'Jorge Chiarella' },
     ],
-    coverUrl:
-      '/movies_pictures/15ccbddb0ddc.jpg',
+    coverUrl: '/movies_pictures/15ccbddb0ddc.jpg',
     releaseDate: '2004-03-24',
     length: 126,
     genre: ['Drame', 'Biographie', 'Aventure'],
@@ -2252,8 +2251,7 @@ export const baseMoviesMissingAnnees20002004: BaseMovie[] = [
       { name: 'Mabel Rivera' },
       { name: 'Celso Bugallo' },
     ],
-    coverUrl:
-      '/movies_pictures/e4fc9ff25f59.jpg',
+    coverUrl: '/movies_pictures/e4fc9ff25f59.jpg',
     releaseDate: '2004-09-03',
     length: 126,
     genre: ['Drame', 'Biographie'],
