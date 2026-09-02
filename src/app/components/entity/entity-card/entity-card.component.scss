@@ -6,6 +6,17 @@ app-entity-card {
     position: relative;
   }
 
+  .entity-card > [entity-edit] {
+    position: absolute;
+    top: 8px;
+    right: 8px;
+    z-index: 3;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: flex-end;
+  }
+
   .entity-badges {
     display: flex;
     flex-direction: column;
@@ -14,9 +25,7 @@ app-entity-card {
   }
 
   .edit-button {
-    position: absolute;
-    top: 8px;
-    right: 8px;
+    position: relative;
     border: none;
     color: #fff;
     width: 32px;
@@ -28,19 +37,8 @@ app-entity-card {
     cursor: pointer;
     font-size: 14px;
     z-index: 2;
+    flex-shrink: 0;
     transition: background 0.2s ease, transform 0.2s ease;
-
-    &.community-button {
-      top: 50px;
-    }
-
-    &.lists-button {
-      top: 92px;
-    }
-
-    &.lists-button.lists-button--stack-second {
-      top: 50px;
-    }
   }
 
   .edit-button:hover {

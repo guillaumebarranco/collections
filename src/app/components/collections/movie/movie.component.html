@@ -1,35 +1,110 @@
 <app-entity-card>
+  @if (hasCardActions) {
   <div entity-edit>
-    <button
-      type="button"
-      aria-label="Éditer le film"
-      class="edit-button"
-      (click)="navigateToEdit()"
-      *appCanEdit
-    >
-      &#9998;
-    </button>
-    @if (showCommunityWatchersButton) {
-    <button
-      type="button"
-      class="edit-button community-button"
-      (click)="openCommunityWatchersModal()"
-      aria-label="Voir qui a vu ce film (communauté)"
-    >
-      👥
-    </button>
-    }
-    <button
-      *appCanEdit
-      type="button"
-      class="edit-button lists-button"
-      [class.lists-button--stack-second]="!showCommunityWatchersButton"
-      (click)="openMovieListsModal()"
-      aria-label="Gérer les listes"
-    >
-      📋
-    </button>
+    <div class="movie-card-actions movie-card-actions--desktop">
+      <button
+        type="button"
+        aria-label="Éditer le film"
+        class="edit-button"
+        (click)="navigateToEdit()"
+        *appCanEdit
+      >
+        &#9998;
+      </button>
+      @if (showCommunityWatchersButton) {
+      <button
+        type="button"
+        class="edit-button community-button"
+        (click)="openCommunityWatchersModal()"
+        aria-label="Voir qui a vu ce film (communauté)"
+      >
+        👥
+      </button>
+      }
+      <button
+        *appCanEdit
+        type="button"
+        class="edit-button lists-button"
+        (click)="openMovieListsModal()"
+        aria-label="Gérer les listes"
+      >
+        📋
+      </button>
+      @if (isFromBook) {
+      <button
+        type="button"
+        class="edit-button book-source-button"
+        (click)="openSourceBookModal()"
+        aria-label="Voir le livre source"
+      >
+        📖
+      </button>
+      }
+    </div>
+
+    <div class="movie-card-actions movie-card-actions--mobile">
+      <button
+        type="button"
+        class="edit-button movie-card-actions-burger"
+        [class.movie-card-actions-burger--open]="cardMenuOpen()"
+        [attr.aria-expanded]="cardMenuOpen()"
+        aria-haspopup="true"
+        aria-label="Actions du film"
+        (click)="toggleCardMenu($event)"
+      >
+        <span class="movie-card-actions-burger__bars" aria-hidden="true">
+          <span></span>
+          <span></span>
+          <span></span>
+        </span>
+      </button>
+      @if (cardMenuOpen()) {
+      <ul class="movie-card-actions-menu" role="menu">
+        <li *appCanEdit role="none">
+          <button
+            type="button"
+            role="menuitem"
+            (click)="navigateToEdit()"
+          >
+            Éditer
+          </button>
+        </li>
+        @if (showCommunityWatchersButton) {
+        <li role="none">
+          <button
+            type="button"
+            role="menuitem"
+            (click)="openCommunityWatchersModal()"
+          >
+            Qui a vu ce film ?
+          </button>
+        </li>
+        }
+        <li *appCanEdit role="none">
+          <button
+            type="button"
+            role="menuitem"
+            (click)="openMovieListsModal()"
+          >
+            Gérer les listes
+          </button>
+        </li>
+        @if (isFromBook) {
+        <li role="none">
+          <button
+            type="button"
+            role="menuitem"
+            (click)="openSourceBookModal()"
+          >
+            Livre source
+          </button>
+        </li>
+        }
+      </ul>
+      }
+    </div>
   </div>
+  }
 
   <ng-container entity-badges>
     @if (showTopFiveSelector && !readOnly) {
@@ -128,7 +203,7 @@
     <p class="movie-release-date">{{ movie.releaseDate | date : "yyyy" }}</p>
     @if (movie.description) {
     <p class="movie-description">{{ movie.description }}</p>
-    } @if (movie.fromEntity) { } @if (movie.timesWatched && movie.timesWatched >
+    } @if (movie.timesWatched && movie.timesWatched >
     1 && !isBaseEntityView) {
     <p class="movie-times-watched">🎬 Visionné {{ movie.timesWatched }} fois</p>
     } @if(movie.timesWatched === 1 && movie.firstViewedDate) {

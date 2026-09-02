@@ -894,7 +894,7 @@ export const baseMoviesMissingDocumentaire: BaseMovie[] = [
       { name: 'Kato Kaelin' },
     ],
     coverUrl:
-      'https://assets.vogue.com/photos/589140c358aa89a00d54248a/master/w_1600%2Cc_limit/01-oj-made-in-america.jpg',
+      '/movies_pictures/1e9b68948ff7.jpg',
     releaseDate: '2016-05-20',
     length: 467,
     genre: ['Documentaire', 'Biographie', 'Policier'],

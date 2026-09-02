@@ -1,0 +1,103 @@
+<div class="movie-source-book-modal">
+  <div class="movie-source-book-modal__header">
+    <h2 class="movie-source-book-modal__title">Livre source</h2>
+    <button
+      type="button"
+      class="movie-source-book-modal__close"
+      aria-label="Fermer"
+      (click)="close()"
+    >
+      ✕
+    </button>
+  </div>
+
+  <div class="movie-source-book-modal__body">
+    @if (loading()) {
+    <p class="movie-source-book-modal__status">Chargement…</p>
+    } @else {
+    <div class="movie-source-book-modal__book">
+      @if (baseBook()?.coverUrl) {
+      <img
+        class="movie-source-book-modal__cover"
+        [src]="baseBook()!.coverUrl"
+        [alt]="sourceTitle()"
+        referrerpolicy="no-referrer"
+      />
+      }
+      <div class="movie-source-book-modal__meta">
+        <h3 class="movie-source-book-modal__book-title">{{ sourceTitle() }}</h3>
+        @if (sourceAuthor()) {
+        <p class="movie-source-book-modal__author">{{ sourceAuthor() }}</p>
+        } @if (baseBook()?.saga) {
+        <p class="movie-source-book-modal__detail">
+          {{ baseBook()!.saga
+          }}@if (baseBook()!.sagaOrder) { — tome {{ baseBook()!.sagaOrder }}}
+        </p>
+        } @if (baseBook()?.releaseDate) {
+        <p class="movie-source-book-modal__detail">
+          Paru en {{ baseBook()!.releaseDate | date : "yyyy" }}
+        </p>
+        } @if (baseBook()?.pages) {
+        <p class="movie-source-book-modal__detail">
+          {{ baseBook()!.pages }} pages
+        </p>
+        } @if (baseBook()?.genre?.length) {
+        <p class="movie-source-book-modal__detail">
+          {{ baseBook()!.genre.join(", ") }}
+        </p>
+        }
+      </div>
+    </div>
+
+    @if (baseBook()?.description) {
+    <p class="movie-source-book-modal__description">
+      {{ baseBook()!.description }}
+    </p>
+    } @if (status() === "missing") {
+    <p class="movie-source-book-modal__status">
+      Ce livre n’est pas (encore) dans le catalogue Makya.
+    </p>
+    } @if (status() === "readlist") {
+    <p class="movie-source-book-modal__status movie-source-book-modal__status--ok">
+      Déjà dans votre liste de lecture.
+    </p>
+    } @if (status() === "read") {
+    <p class="movie-source-book-modal__status movie-source-book-modal__status--ok">
+      Déjà dans vos livres lus.
+    </p>
+    } @if (errorMessage()) {
+    <p class="movie-source-book-modal__status movie-source-book-modal__status--error">
+      {{ errorMessage() }}
+    </p>
+    } @if (successMessage()) {
+    <p class="movie-source-book-modal__status movie-source-book-modal__status--ok">
+      {{ successMessage() }}
+    </p>
+    } @if (status() === "none" && baseBook() && data.userId) {
+    <div class="movie-source-book-modal__actions">
+      <button
+        type="button"
+        class="makya-btn-small"
+        [disabled]="saving()"
+        (click)="addToReadlist()"
+      >
+        Ajouter à ma readlist
+      </button>
+      <button
+        type="button"
+        class="makya-btn-small"
+        [disabled]="saving()"
+        (click)="addAsRead()"
+      >
+        Tiens, j'ai déjà lu ce livre !
+      </button>
+    </div>
+    } }
+  </div>
+
+  <div class="movie-source-book-modal__footer">
+    <button type="button" class="makya-btn-small" (click)="close()">
+      Fermer
+    </button>
+  </div>
+</div>

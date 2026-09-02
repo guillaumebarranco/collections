@@ -1,7 +1,9 @@
 import {
   ChangeDetectionStrategy,
   Component,
+  ElementRef,
   EventEmitter,
+  HostListener,
   Input,
   Output,
   computed,
@@ -26,6 +28,7 @@ import {
   type MovieListsModalResult,
 } from '../../modals/movie-lists-modal/movie-lists-modal.component';
 import { MovieCommunityWatchersModalComponent } from '../../modals/movie-community-watchers-modal/movie-community-watchers-modal.component';
+import { MovieSourceBookModalComponent } from '../../modals/movie-source-book-modal/movie-source-book-modal.component';
 import { AuthService } from '../../../core/auth.service';
 import { EntityCardComponent } from '../../entity/entity-card/entity-card.component';
 import {
@@ -57,6 +60,9 @@ export class MovieComponent {
   private readonly router = inject(Router);
   private readonly dialog = inject(MatDialog);
   private readonly authService = inject(AuthService);
+  private readonly host = inject(ElementRef<HTMLElement>);
+
+  readonly cardMenuOpen = signal(false);
 
   @Input() movie!: Movie;
   get showApproximateDateBadge(): boolean {
@@ -154,6 +160,50 @@ export class MovieComponent {
     this.directorsExpanded.update((v) => !v);
   }
 
+  get isFromBook(): boolean {
+    return this.movie?.fromEntity?.entityType === 'book';
+  }
+
+  get canEditCard(): boolean {
+    const isAdminView =
+      this.authService.isAdmin() && this.router.url.startsWith('/admin');
+    return isAdminView || this.authService.canEdit(this.getActiveUserId());
+  }
+
+  get hasCardActions(): boolean {
+    return (
+      this.canEditCard ||
+      this.showCommunityWatchersButton ||
+      this.isFromBook
+    );
+  }
+
+  toggleCardMenu(event: Event): void {
+    event.stopPropagation();
+    this.cardMenuOpen.update((open) => !open);
+  }
+
+  closeCardMenu(): void {
+    this.cardMenuOpen.set(false);
+  }
+
+  @HostListener('document:click', ['$event'])
+  onDocumentClick(event: MouseEvent): void {
+    if (!this.cardMenuOpen()) return;
+    const target = event.target;
+    if (target instanceof Node && this.host.nativeElement.contains(target)) {
+      return;
+    }
+    this.closeCardMenu();
+  }
+
+  @HostListener('document:keydown', ['$event'])
+  onDocumentKeydown(event: KeyboardEvent): void {
+    if (event.key === 'Escape' && this.cardMenuOpen()) {
+      this.closeCardMenu();
+    }
+  }
+
   getActiveUserId(): string {
     const params: Params = this.activatedRoute.snapshot.params;
     return params['id'] ?? DEFAULT_USER_ID;
@@ -180,6 +230,7 @@ export class MovieComponent {
   }
 
   navigateToEdit(): void {
+    this.closeCardMenu();
     const directId = this.activatedRoute.snapshot.params['id'];
     const parentId = this.activatedRoute.parent?.snapshot.params['id'];
     const userId = directId || parentId;
@@ -200,6 +251,20 @@ export class MovieComponent {
       if (result?.updated) {
         this.movieUpdated.emit();
       }
+    });
+  }
+
+  openSourceBookModal(): void {
+    const fromEntity = this.movie?.fromEntity;
+    if (!fromEntity || fromEntity.entityType !== 'book') return;
+    this.closeCardMenu();
+    this.dialog.open(MovieSourceBookModalComponent, {
+      data: {
+        fromEntity,
+        userId: this.authService.getAuthenticatedUserId(),
+      },
+      width: 'min(440px, 95vw)',
+      maxWidth: '95vw',
     });
   }
 
@@ -257,6 +322,7 @@ export class MovieComponent {
   }
 
   openCommunityWatchersModal(): void {
+    this.closeCardMenu();
     const authId = this.authService.getAuthenticatedUserId();
     const profileId = this.getActiveUserId();
     const currentUserId = (authId ?? profileId).toLowerCase();
@@ -277,6 +343,7 @@ export class MovieComponent {
   }
 
   openMovieListsModal(): void {
+    this.closeCardMenu();
     const lists = this.userLists() ?? [];
     if (lists.length === 0) {
       this.createListAndAddMovie.emit(this.movie);

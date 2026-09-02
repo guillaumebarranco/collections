@@ -19,3 +19,4 @@ export { baseBooksBond } from './base_books_bond';
 export { baseBooksRonanReadlistImport } from './base_books_ronan_readlist_import';
 export { baseBooksLucileReadlistImport } from './base_books_lucile_readlist_import';
 export { baseBooksFromLaural } from './base_books_from_laural';
+export { baseBooksInspiringMovies } from './base_books_inspiring_movies';

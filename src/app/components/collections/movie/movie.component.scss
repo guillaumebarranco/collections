@@ -118,6 +118,91 @@
   height: 100%;
 }
 
+.movie-card-actions--desktop {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: flex-end;
+}
+
+.movie-card-actions--mobile {
+  display: none;
+}
+
+.movie-card-actions .edit-button {
+  background: rgba(0, 0, 0, 0.55);
+}
+
+.movie-card-actions-burger {
+  background: rgba(0, 0, 0, 0.6);
+}
+
+.movie-card-actions-burger__bars {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 3px;
+  width: 14px;
+}
+
+.movie-card-actions-burger__bars span {
+  display: block;
+  height: 2px;
+  width: 100%;
+  border-radius: 1px;
+  background: currentColor;
+}
+
+.movie-card-actions-menu {
+  position: absolute;
+  top: calc(100% + 6px);
+  right: 0;
+  z-index: 20;
+  min-width: 180px;
+  margin: 0;
+  padding: 6px 0;
+  list-style: none;
+  background: #fff;
+  border: 1px solid #e5e7eb;
+  border-radius: 8px;
+  box-shadow: 0 8px 24px rgba(15, 23, 42, 0.16);
+  pointer-events: auto;
+}
+
+.movie-card-actions-menu button {
+  display: block;
+  width: 100%;
+  padding: 10px 14px;
+  border: none;
+  background: transparent;
+  color: #1f2937;
+  font-size: 0.9rem;
+  text-align: left;
+  cursor: pointer;
+}
+
+.movie-card-actions-menu button:hover,
+.movie-card-actions-menu button:focus-visible {
+  background: #f3f4f6;
+}
+
+@media (max-width: 768px) {
+  .movie-card-actions--desktop {
+    display: none;
+  }
+
+  .movie-card-actions--mobile {
+    display: block;
+    position: relative;
+  }
+}
+
 :host-context(.collection-view) {
   @include components.entity-card-mobile-horizontal-layout;
+
+  @media (max-width: 768px) {
+    ::ng-deep .entity-info {
+      padding-right: 40px;
+    }
+  }
 }

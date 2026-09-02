@@ -1,0 +1,119 @@
+.movie-source-book-modal {
+  min-width: 280px;
+  max-width: 440px;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+}
+
+.movie-source-book-modal__header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: 16px 20px;
+  border-bottom: 1px solid #ecf0f1;
+  gap: 12px;
+}
+
+.movie-source-book-modal__title {
+  margin: 0;
+  font-size: 1.1rem;
+  font-weight: 600;
+  color: #2c3e50;
+}
+
+.movie-source-book-modal__close {
+  background: none;
+  border: none;
+  font-size: 1.25rem;
+  line-height: 1;
+  color: #7f8c8d;
+  cursor: pointer;
+  padding: 0 4px;
+
+  &:hover {
+    color: #2c3e50;
+  }
+}
+
+.movie-source-book-modal__body {
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+}
+
+.movie-source-book-modal__book {
+  display: flex;
+  gap: 14px;
+  align-items: flex-start;
+}
+
+.movie-source-book-modal__cover {
+  width: 84px;
+  height: 126px;
+  object-fit: cover;
+  border-radius: 4px;
+  flex-shrink: 0;
+  background: #ecf0f1;
+}
+
+.movie-source-book-modal__meta {
+  min-width: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.movie-source-book-modal__book-title {
+  margin: 0;
+  font-size: 1.05rem;
+  font-weight: 600;
+  color: #2c3e50;
+  line-height: 1.3;
+}
+
+.movie-source-book-modal__author {
+  margin: 0;
+  font-size: 0.95rem;
+  color: #4a5568;
+}
+
+.movie-source-book-modal__detail {
+  margin: 0;
+  font-size: 0.85rem;
+  color: #64748b;
+}
+
+.movie-source-book-modal__description {
+  margin: 0;
+  font-size: 0.9rem;
+  line-height: 1.45;
+  color: #374151;
+}
+
+.movie-source-book-modal__status {
+  margin: 0;
+  font-size: 0.9rem;
+  color: #64748b;
+}
+
+.movie-source-book-modal__status--ok {
+  color: #059669;
+}
+
+.movie-source-book-modal__status--error {
+  color: #dc2626;
+}
+
+.movie-source-book-modal__actions {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 8px;
+}
+
+.movie-source-book-modal__footer {
+  padding: 12px 20px 20px;
+  border-top: 1px solid #ecf0f1;
+}
