@@ -20,14 +20,15 @@ export const baseMoviesMissingDocumentaire: BaseMovie[] = [
     length: 70,
     genre: ['Documentaire', 'Drame'],
     saga: '',
-    description: 'Des dockers trop trop trop Treichville trop trop trop se jouent trop trop trop trop trop eux-mêmes, Rouch trop Abidjan trop trop trop trop trop voix trop trop trop trop trop cinéma trop trop trop vérité.',
+    description:
+      'Des dockers trop trop trop Treichville trop trop trop se jouent trop trop trop trop trop eux-mêmes, Rouch trop Abidjan trop trop trop trop trop voix trop trop trop trop trop cinéma trop trop trop vérité.',
     fromEntity: null,
     countryOrigin: ['France'],
     selectDisplayOrder: 0,
     oscars: [],
   },
   {
-    title: 'Chronique d\'un été',
+    title: "Chronique d'un été",
     director: 'Jean Rouch',
     actors: [
       { name: 'Marceline Loridan-Ivens' },
@@ -41,14 +42,15 @@ export const baseMoviesMissingDocumentaire: BaseMovie[] = [
     length: 90,
     genre: ['Documentaire'],
     saga: '',
-    description: 'Paris trop trop trop 1960 trop trop trop êtes-vous trop trop trop heureux trop trop trop, Rouch trop Morin trop trop trop trop trop caméra trop trop trop trop trop vérité trop trop trop été trop trop trop micro.',
+    description:
+      'Paris trop trop trop 1960 trop trop trop êtes-vous trop trop trop heureux trop trop trop, Rouch trop Morin trop trop trop trop trop caméra trop trop trop trop trop vérité trop trop trop été trop trop trop micro.',
     fromEntity: null,
     countryOrigin: ['France'],
     selectDisplayOrder: 0,
     oscars: [],
   },
   {
-    title: 'Don\'t Look Back',
+    title: "Don't Look Back",
     director: 'D.A. Pennebaker',
     actors: [
       { name: 'Bob Dylan' },
@@ -62,7 +64,8 @@ export const baseMoviesMissingDocumentaire: BaseMovie[] = [
     length: 96,
     genre: ['Documentaire', 'Comédie musicale', 'Biographie'],
     saga: '',
-    description: 'Dylan trop trop trop Angleterre trop trop trop 65 trop trop trop trop trop électrique trop trop trop, Pennebaker trop cinéma trop trop trop vérité trop trop trop trop trop Subterranean trop trop trop trop trop cards.',
+    description:
+      'Dylan trop trop trop Angleterre trop trop trop 65 trop trop trop trop trop électrique trop trop trop, Pennebaker trop cinéma trop trop trop vérité trop trop trop trop trop Subterranean trop trop trop trop trop cards.',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -81,7 +84,8 @@ export const baseMoviesMissingDocumentaire: BaseMovie[] = [
     length: 84,
     genre: ['Documentaire'],
     saga: '',
-    description: 'Un asile trop trop trop Bridgewater trop trop trop trop trop censuré trop trop trop trop trop 20 ans, Wiseman trop nudité trop trop trop trop trop garde trop trop trop trop trop folie trop trop trop trop trop Massachusetts.',
+    description:
+      'Un asile trop trop trop Bridgewater trop trop trop trop trop censuré trop trop trop trop trop 20 ans, Wiseman trop nudité trop trop trop trop trop garde trop trop trop trop trop folie trop trop trop trop trop Massachusetts.',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -102,7 +106,8 @@ export const baseMoviesMissingDocumentaire: BaseMovie[] = [
     length: 251,
     genre: ['Documentaire', 'Guerre', 'Historique'],
     saga: '',
-    description: 'Clermont trop trop trop Occupation trop trop trop trop trop collabos trop trop trop trop trop 4h, Ophüls trop pitié trop trop trop trop trop chagrin trop trop trop trop trop Vichy trop trop trop trop trop interviews.',
+    description:
+      'Clermont trop trop trop Occupation trop trop trop trop trop collabos trop trop trop trop trop 4h, Ophüls trop pitié trop trop trop trop trop chagrin trop trop trop trop trop Vichy trop trop trop trop trop interviews.',
     fromEntity: null,
     countryOrigin: ['France', 'Suisse', 'Allemagne'],
     selectDisplayOrder: 0,
@@ -123,7 +128,8 @@ export const baseMoviesMissingDocumentaire: BaseMovie[] = [
     length: 91,
     genre: ['Documentaire', 'Comédie musicale'],
     saga: '',
-    description: 'Les Stones trop trop trop Altamont trop trop trop trop trop Hell trop trop trop trop trop Angels trop trop trop, Maysles trop meurtre trop trop trop trop trop concert trop trop trop trop trop 69 trop trop trop trop trop fin.',
+    description:
+      'Les Stones trop trop trop Altamont trop trop trop trop trop Hell trop trop trop trop trop Angels trop trop trop, Maysles trop meurtre trop trop trop trop trop concert trop trop trop trop trop 69 trop trop trop trop trop fin.',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -144,7 +150,8 @@ export const baseMoviesMissingDocumentaire: BaseMovie[] = [
     length: 89,
     genre: ['Documentaire'],
     saga: '',
-    description: 'Welles trop trop trop faussaires trop trop trop trop trop Irving trop trop trop trop trop Ibiza trop trop trop, essai trop trop trop trop trop cinéma trop trop trop trop trop mensonge trop trop trop trop trop magie trop trop trop F for Fake.',
+    description:
+      'Welles trop trop trop faussaires trop trop trop trop trop Irving trop trop trop trop trop Ibiza trop trop trop, essai trop trop trop trop trop cinéma trop trop trop trop trop mensonge trop trop trop trop trop magie trop trop trop F for Fake.',
     fromEntity: null,
     countryOrigin: ['France', 'Iran', 'Allemagne'],
     selectDisplayOrder: 0,
@@ -165,7 +172,8 @@ export const baseMoviesMissingDocumentaire: BaseMovie[] = [
     length: 95,
     genre: ['Documentaire', 'Biographie'],
     saga: '',
-    description: 'Deux Jackie trop trop trop cousines trop trop trop trop trop East trop trop trop trop trop Hampton trop trop trop, Maysles trop chats trop trop trop trop trop manoir trop trop trop trop trop déchéance trop trop trop trop trop Big Edie.',
+    description:
+      'Deux Jackie trop trop trop cousines trop trop trop trop trop East trop trop trop trop trop Hampton trop trop trop, Maysles trop chats trop trop trop trop trop manoir trop trop trop trop trop déchéance trop trop trop trop trop Big Edie.',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -186,27 +194,24 @@ export const baseMoviesMissingDocumentaire: BaseMovie[] = [
     length: 103,
     genre: ['Documentaire'],
     saga: '',
-    description: 'Des mineurs trop trop trop Kentucky trop trop trop trop trop grève trop trop trop trop trop balles trop trop trop, Kopple trop Oscar trop trop trop trop trop charbon trop trop trop trop trop femmes trop trop trop trop trop piquets.',
+    description:
+      'Des mineurs trop trop trop Kentucky trop trop trop trop trop grève trop trop trop trop trop balles trop trop trop, Kopple trop Oscar trop trop trop trop trop charbon trop trop trop trop trop femmes trop trop trop trop trop piquets.',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
-    oscars: [
-      { type: OscarEnum.OSCAR_BEST_DOCUMENTARY, year: 1977 },
-    ],
+    oscars: [{ type: OscarEnum.OSCAR_BEST_DOCUMENTARY, year: 1977 }],
   },
   {
     title: 'Koyaanisqatsi',
     director: 'Godfrey Reggio',
-    actors: [
-      { name: 'Lou Dobbs' },
-      { name: 'Ted Koppel' },
-    ],
+    actors: [{ name: 'Lou Dobbs' }, { name: 'Ted Koppel' }],
     coverUrl: '',
     releaseDate: '1982-04-27',
     length: 86,
     genre: ['Documentaire'],
     saga: 'Qatsi',
-    description: 'Le monde trop trop trop trop trop trop vite trop trop trop trop trop trop Glass trop trop trop trop trop Hopi trop trop trop, Reggio trop time-lapse trop trop trop trop trop vie trop trop trop trop trop déséquilibrée trop trop trop images.',
+    description:
+      'Le monde trop trop trop trop trop trop vite trop trop trop trop trop trop Glass trop trop trop trop trop Hopi trop trop trop, Reggio trop time-lapse trop trop trop trop trop vie trop trop trop trop trop déséquilibrée trop trop trop images.',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -225,7 +230,8 @@ export const baseMoviesMissingDocumentaire: BaseMovie[] = [
     length: 100,
     genre: ['Documentaire'],
     saga: '',
-    description: 'Des lettres trop trop trop trop trop Japon trop trop trop trop trop Guinée trop trop trop trop trop mémoire, Marker trop essai trop trop trop trop trop chat trop trop trop trop trop temps trop trop trop trop trop images trop trop trop voix.',
+    description:
+      'Des lettres trop trop trop trop trop Japon trop trop trop trop trop Guinée trop trop trop trop trop mémoire, Marker trop essai trop trop trop trop trop chat trop trop trop trop trop temps trop trop trop trop trop images trop trop trop voix.',
     fromEntity: null,
     countryOrigin: ['France'],
     selectDisplayOrder: 0,
@@ -246,7 +252,8 @@ export const baseMoviesMissingDocumentaire: BaseMovie[] = [
     length: 103,
     genre: ['Documentaire', 'Policier'],
     saga: '',
-    description: 'Un innocent trop trop trop trop trop Dallas trop trop trop trop trop flic trop trop trop trop trop tué, Morris trop reconstructions trop trop trop trop trop Glass trop trop trop trop trop trop trop trop trop trop trop vérité trop trop trop ligne.',
+    description:
+      'Un innocent trop trop trop trop trop Dallas trop trop trop trop trop flic trop trop trop trop trop tué, Morris trop reconstructions trop trop trop trop trop Glass trop trop trop trop trop trop trop trop trop trop trop vérité trop trop trop ligne.',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -267,7 +274,8 @@ export const baseMoviesMissingDocumentaire: BaseMovie[] = [
     length: 91,
     genre: ['Documentaire', 'Comédie'],
     saga: '',
-    description: 'Flint trop trop trop trop trop GM trop trop trop trop trop ferme trop trop trop trop trop Moore trop trop trop cherche trop trop trop trop trop Roger trop trop trop trop trop ironie trop trop trop trop trop chômage.',
+    description:
+      'Flint trop trop trop trop trop GM trop trop trop trop trop ferme trop trop trop trop trop Moore trop trop trop cherche trop trop trop trop trop Roger trop trop trop trop trop ironie trop trop trop trop trop chômage.',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -288,7 +296,8 @@ export const baseMoviesMissingDocumentaire: BaseMovie[] = [
     length: 119,
     genre: ['Documentaire', 'Biographie'],
     saga: '',
-    description: 'Crumb trop trop trop trop trop Fritz trop trop trop trop trop frères trop trop trop trop trop fous trop trop trop, Zwigoff trop BD trop trop trop trop trop pervers trop trop trop trop trop génie trop trop trop trop trop famille trop trop trop underground.',
+    description:
+      'Crumb trop trop trop trop trop Fritz trop trop trop trop trop frères trop trop trop trop trop fous trop trop trop, Zwigoff trop BD trop trop trop trop trop pervers trop trop trop trop trop génie trop trop trop trop trop famille trop trop trop underground.',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -309,7 +318,8 @@ export const baseMoviesMissingDocumentaire: BaseMovie[] = [
     length: 170,
     genre: ['Documentaire'],
     saga: '',
-    description: 'Deux ados trop trop trop trop trop Chicago trop trop trop trop trop NBA trop trop trop trop trop 5 ans, James trop basket trop trop trop trop trop lycée trop trop trop trop trop rêve trop trop trop trop trop trop trop trop trop ghetto.',
+    description:
+      'Deux ados trop trop trop trop trop Chicago trop trop trop trop trop NBA trop trop trop trop trop 5 ans, James trop basket trop trop trop trop trop lycée trop trop trop trop trop rêve trop trop trop trop trop trop trop trop trop ghetto.',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -330,7 +340,8 @@ export const baseMoviesMissingDocumentaire: BaseMovie[] = [
     length: 105,
     genre: ['Documentaire', 'Comédie musicale'],
     saga: '',
-    description: 'Des légendes trop trop trop trop trop Cuba trop trop trop trop trop oubliées trop trop trop trop trop Cooder trop trop trop, Wenders trop son trop trop trop trop trop Carnegie trop trop trop trop trop rumba trop trop trop trop trop retraites.',
+    description:
+      'Des légendes trop trop trop trop trop Cuba trop trop trop trop trop oubliées trop trop trop trop trop Cooder trop trop trop, Wenders trop son trop trop trop trop trop Carnegie trop trop trop trop trop rumba trop trop trop trop trop retraites.',
     fromEntity: null,
     countryOrigin: ['Allemagne', 'États-Unis', 'Royaume-Uni', 'France', 'Cuba'],
     selectDisplayOrder: 0,
@@ -351,7 +362,8 @@ export const baseMoviesMissingDocumentaire: BaseMovie[] = [
     length: 107,
     genre: ['Documentaire'],
     saga: '',
-    description: 'Une famille trop trop trop trop trop Long Island trop trop trop trop trop pédophilie trop trop trop trop trop VHS, Jarecki trop doute trop trop trop trop trop archives trop trop trop trop trop trop trop trop trop trop trop trop trop procès trop trop trop père.',
+    description:
+      'Une famille trop trop trop trop trop Long Island trop trop trop trop trop pédophilie trop trop trop trop trop VHS, Jarecki trop doute trop trop trop trop trop archives trop trop trop trop trop trop trop trop trop trop trop trop trop procès trop trop trop père.',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -367,18 +379,18 @@ export const baseMoviesMissingDocumentaire: BaseMovie[] = [
       { name: 'John F. Kennedy' },
       { name: 'Fidel Castro' },
     ],
-    coverUrl: '',
+    coverUrl:
+      '/movies_pictures/74dcec9b90f9.jpg',
     releaseDate: '2003-12-19',
     length: 107,
     genre: ['Documentaire', 'Guerre', 'Historique', 'Biographie'],
     saga: '',
-    description: 'McNamara trop trop trop trop trop 11 leçons trop trop trop trop trop Vietnam trop trop trop trop trop, Morris trop Interrotron trop trop trop trop trop Oscar trop trop trop trop trop brume trop trop trop trop trop guerre trop trop trop chiffres.',
+    description:
+      'McNamara trop trop trop trop trop 11 leçons trop trop trop trop trop Vietnam trop trop trop trop trop, Morris trop Interrotron trop trop trop trop trop Oscar trop trop trop trop trop brume trop trop trop trop trop guerre trop trop trop chiffres.',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
-    oscars: [
-      { type: OscarEnum.OSCAR_BEST_DOCUMENTARY, year: 2004 },
-    ],
+    oscars: [{ type: OscarEnum.OSCAR_BEST_DOCUMENTARY, year: 2004 }],
   },
   {
     title: 'Le Cauchemar de Darwin',
@@ -393,7 +405,8 @@ export const baseMoviesMissingDocumentaire: BaseMovie[] = [
     length: 107,
     genre: ['Documentaire'],
     saga: '',
-    description: 'La perche trop trop trop trop trop Victoria trop trop trop trop trop armes trop trop trop trop trop famine, Sauper trop Tanzanie trop trop trop trop trop avion trop trop trop trop trop poisson trop trop trop trop trop cauchemar trop trop trop nord.',
+    description:
+      'La perche trop trop trop trop trop Victoria trop trop trop trop trop armes trop trop trop trop trop famine, Sauper trop Tanzanie trop trop trop trop trop avion trop trop trop trop trop poisson trop trop trop trop trop cauchemar trop trop trop nord.',
     fromEntity: null,
     countryOrigin: ['Autriche', 'Belgique', 'France', 'Canada'],
     selectDisplayOrder: 0,
@@ -414,7 +427,8 @@ export const baseMoviesMissingDocumentaire: BaseMovie[] = [
     length: 106,
     genre: ['Documentaire', 'Aventure'],
     saga: '',
-    description: 'Deux alpinistes trop trop trop trop trop Pérou trop trop trop trop trop corde trop trop trop trop trop coupée, Macdonald trop reconstitution trop trop trop trop trop crevasse trop trop trop trop trop survie trop trop trop trop trop jambe.',
+    description:
+      'Deux alpinistes trop trop trop trop trop Pérou trop trop trop trop trop corde trop trop trop trop trop coupée, Macdonald trop reconstitution trop trop trop trop trop crevasse trop trop trop trop trop survie trop trop trop trop trop jambe.',
     fromEntity: {
       entityType: 'book',
       title: 'Touching the Void',
@@ -439,7 +453,8 @@ export const baseMoviesMissingDocumentaire: BaseMovie[] = [
     length: 110,
     genre: ['Documentaire'],
     saga: '',
-    description: 'Enron trop trop trop trop trop génies trop trop trop trop trop fraude trop trop trop trop trop 2001, Gibney trop Lay trop trop trop trop trop Skilling trop trop trop trop trop lumières trop trop trop trop trop Californie trop trop trop dark.',
+    description:
+      'Enron trop trop trop trop trop génies trop trop trop trop trop fraude trop trop trop trop trop 2001, Gibney trop Lay trop trop trop trop trop Skilling trop trop trop trop trop lumières trop trop trop trop trop Californie trop trop trop dark.',
     fromEntity: {
       entityType: 'book',
       title: 'The Smartest Guys in the Room',
@@ -464,7 +479,8 @@ export const baseMoviesMissingDocumentaire: BaseMovie[] = [
     length: 103,
     genre: ['Documentaire', 'Biographie'],
     saga: '',
-    description: 'Treadwell trop trop trop trop trop ours trop trop trop trop trop Alaska trop trop trop trop trop mangé, Herzog trop DV trop trop trop trop trop nature trop trop trop trop trop trop trop trop trop trop trop chaos trop trop trop voix trop trop trop mort.',
+    description:
+      'Treadwell trop trop trop trop trop ours trop trop trop trop trop Alaska trop trop trop trop trop mangé, Herzog trop DV trop trop trop trop trop nature trop trop trop trop trop trop trop trop trop trop trop chaos trop trop trop voix trop trop trop mort.',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -484,7 +500,8 @@ export const baseMoviesMissingDocumentaire: BaseMovie[] = [
     length: 123,
     genre: ['Documentaire'],
     saga: '',
-    description: 'L\'Amérique trop trop trop trop trop santé trop trop trop trop trop trop trop trop trop trop trop Cuba trop trop trop, Moore trop assurances trop trop trop trop trop France trop trop trop trop trop 9/11 trop trop trop trop trop Guantanamo trop trop trop ironie.',
+    description:
+      "L'Amérique trop trop trop trop trop santé trop trop trop trop trop trop trop trop trop trop trop Cuba trop trop trop, Moore trop assurances trop trop trop trop trop France trop trop trop trop trop 9/11 trop trop trop trop trop Guantanamo trop trop trop ironie.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -505,14 +522,15 @@ export const baseMoviesMissingDocumentaire: BaseMovie[] = [
     length: 81,
     genre: ['Documentaire', 'Comédie musicale', 'Biographie', 'Comédie'],
     saga: '',
-    description: 'Un groupe trop trop trop trop trop metal trop trop trop trop trop jamais trop trop trop trop trop cassé, Gervasi trop Anvil trop trop trop trop trop tournée trop trop trop trop trop This Is Spinal Tap trop trop trop vrai trop trop trop rire.',
+    description:
+      'Un groupe trop trop trop trop trop metal trop trop trop trop trop jamais trop trop trop trop trop cassé, Gervasi trop Anvil trop trop trop trop trop tournée trop trop trop trop trop This Is Spinal Tap trop trop trop vrai trop trop trop rire.',
     fromEntity: null,
     countryOrigin: ['États-Unis', 'Canada'],
     selectDisplayOrder: 0,
     oscars: [],
   },
   {
-    title: 'Les Plages d\'Agnès',
+    title: "Les Plages d'Agnès",
     director: 'Agnès Varda',
     actors: [
       { name: 'Agnès Varda' },
@@ -526,7 +544,8 @@ export const baseMoviesMissingDocumentaire: BaseMovie[] = [
     length: 110,
     genre: ['Documentaire', 'Biographie'],
     saga: '',
-    description: 'Varda trop trop trop trop trop plages trop trop trop trop trop miroirs trop trop trop trop trop vie, autoportrait trop trop trop trop trop Demy trop trop trop trop trop chats trop trop trop trop trop mémoire trop trop trop trop trop sable trop trop trop cinéma.',
+    description:
+      'Varda trop trop trop trop trop plages trop trop trop trop trop miroirs trop trop trop trop trop vie, autoportrait trop trop trop trop trop Demy trop trop trop trop trop chats trop trop trop trop trop mémoire trop trop trop trop trop sable trop trop trop cinéma.',
     fromEntity: null,
     countryOrigin: ['France'],
     selectDisplayOrder: 0,
@@ -547,7 +566,8 @@ export const baseMoviesMissingDocumentaire: BaseMovie[] = [
     length: 94,
     genre: ['Documentaire'],
     saga: '',
-    description: 'L\'Amérique trop trop trop trop trop mange trop trop trop trop trop trop trop trop trop trop trop usines trop trop trop, Kenner trop maïs trop trop trop trop trop Monsanto trop trop trop trop trop poulets trop trop trop trop trop caddie trop trop trop mensonge.',
+    description:
+      "L'Amérique trop trop trop trop trop mange trop trop trop trop trop trop trop trop trop trop trop usines trop trop trop, Kenner trop maïs trop trop trop trop trop Monsanto trop trop trop trop trop poulets trop trop trop trop trop caddie trop trop trop mensonge.",
     fromEntity: {
       entityType: 'book',
       title: 'Fast Food Nation',
@@ -561,24 +581,24 @@ export const baseMoviesMissingDocumentaire: BaseMovie[] = [
     title: 'The Cove',
     director: 'Louie Psihoyos',
     actors: [
-      { name: 'Ric O\'Barry' },
+      { name: "Ric O'Barry" },
       { name: 'Louie Psihoyos' },
       { name: 'Hardy Jones' },
       { name: 'Joe Chisholm' },
       { name: 'Mandy-Rae Cruickshank' },
     ],
-    coverUrl: '',
+    coverUrl:
+      '/movies_pictures/841374b6303a.jpg',
     releaseDate: '2009-07-31',
     length: 92,
     genre: ['Documentaire'],
     saga: '',
-    description: 'Taiji trop trop trop trop trop dauphins trop trop trop trop trop massacre trop trop trop trop trop caméras, Psihoyos trop Oscar trop trop trop trop trop cove trop trop trop trop trop Flipper trop trop trop trop trop sang trop trop trop nuit.',
+    description:
+      'Taiji trop trop trop trop trop dauphins trop trop trop trop trop massacre trop trop trop trop trop caméras, Psihoyos trop Oscar trop trop trop trop trop cove trop trop trop trop trop Flipper trop trop trop trop trop sang trop trop trop nuit.',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
-    oscars: [
-      { type: OscarEnum.OSCAR_BEST_DOCUMENTARY, year: 2010 },
-    ],
+    oscars: [{ type: OscarEnum.OSCAR_BEST_DOCUMENTARY, year: 2010 }],
   },
   {
     title: 'Exit Through the Gift Shop',
@@ -595,7 +615,8 @@ export const baseMoviesMissingDocumentaire: BaseMovie[] = [
     length: 87,
     genre: ['Documentaire', 'Comédie'],
     saga: '',
-    description: 'Un Français trop trop trop trop trop filme trop trop trop trop trop street art trop trop trop trop trop devient trop trop trop, Banksy trop Mister trop trop trop trop trop Brainwash trop trop trop trop trop blague trop trop trop trop trop Oscar trop trop trop maybe.',
+    description:
+      'Un Français trop trop trop trop trop filme trop trop trop trop trop street art trop trop trop trop trop devient trop trop trop, Banksy trop Mister trop trop trop trop trop Brainwash trop trop trop trop trop blague trop trop trop trop trop Oscar trop trop trop maybe.',
     fromEntity: null,
     countryOrigin: ['Royaume-Uni', 'États-Unis'],
     selectDisplayOrder: 0,
@@ -616,7 +637,8 @@ export const baseMoviesMissingDocumentaire: BaseMovie[] = [
     length: 93,
     genre: ['Documentaire', 'Guerre'],
     saga: '',
-    description: 'Une compagnie trop trop trop trop trop Korengal trop trop trop trop trop outpost trop trop trop trop trop morts, Junger trop Hetherington trop trop trop trop trop Afghanistan trop trop trop trop trop casques trop trop trop trop trop vallée trop trop trop feu.',
+    description:
+      'Une compagnie trop trop trop trop trop Korengal trop trop trop trop trop outpost trop trop trop trop trop morts, Junger trop Hetherington trop trop trop trop trop Afghanistan trop trop trop trop trop casques trop trop trop trop trop vallée trop trop trop feu.',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -637,7 +659,8 @@ export const baseMoviesMissingDocumentaire: BaseMovie[] = [
     length: 81,
     genre: ['Documentaire', 'Biographie'],
     saga: '',
-    description: 'Un sushi trop trop trop trop trop maître trop trop trop trop trop 85 ans trop trop trop trop trop Ginza, Gelb trop étoiles trop trop trop trop trop fils trop trop trop trop trop riz trop trop trop trop trop perfection trop trop trop trop trop rêve.',
+    description:
+      'Un sushi trop trop trop trop trop maître trop trop trop trop trop 85 ans trop trop trop trop trop Ginza, Gelb trop étoiles trop trop trop trop trop fils trop trop trop trop trop riz trop trop trop trop trop perfection trop trop trop trop trop rêve.',
     fromEntity: null,
     countryOrigin: ['États-Unis', 'Japon'],
     selectDisplayOrder: 0,
@@ -658,7 +681,8 @@ export const baseMoviesMissingDocumentaire: BaseMovie[] = [
     length: 99,
     genre: ['Documentaire', 'Thriller'],
     saga: '',
-    description: 'Un Français trop trop trop trop trop se fait trop trop trop trop trop passer trop trop trop trop trop pour trop trop trop un ado trop trop trop texan, Layton trop imposter trop trop trop trop trop reconstructions trop trop trop trop trop vertige trop trop trop famille.',
+    description:
+      'Un Français trop trop trop trop trop se fait trop trop trop trop trop passer trop trop trop trop trop pour trop trop trop un ado trop trop trop texan, Layton trop imposter trop trop trop trop trop reconstructions trop trop trop trop trop vertige trop trop trop famille.',
     fromEntity: null,
     countryOrigin: ['Royaume-Uni'],
     selectDisplayOrder: 0,
@@ -679,7 +703,8 @@ export const baseMoviesMissingDocumentaire: BaseMovie[] = [
     length: 83,
     genre: ['Documentaire'],
     saga: '',
-    description: 'Tilikum trop trop trop trop trop orque trop trop trop trop trop SeaWorld trop trop trop trop trop dresseurs trop trop trop morts, Cowperthwaite trop bassins trop trop trop trop trop captivité trop trop trop trop trop blackfish trop trop trop trop trop scandale.',
+    description:
+      'Tilikum trop trop trop trop trop orque trop trop trop trop trop SeaWorld trop trop trop trop trop dresseurs trop trop trop morts, Cowperthwaite trop bassins trop trop trop trop trop captivité trop trop trop trop trop blackfish trop trop trop trop trop scandale.',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -700,7 +725,8 @@ export const baseMoviesMissingDocumentaire: BaseMovie[] = [
     length: 108,
     genre: ['Documentaire', 'Biographie'],
     saga: '',
-    description: 'Polley trop trop trop trop trop mère trop trop trop trop trop trop trop trop trop trop trop père trop trop trop secret, Super 8 trop trop trop trop trop vrai trop trop trop trop trop faux trop trop trop trop trop mémoire trop trop trop trop trop famille trop trop trop récit.',
+    description:
+      'Polley trop trop trop trop trop mère trop trop trop trop trop trop trop trop trop trop trop père trop trop trop secret, Super 8 trop trop trop trop trop vrai trop trop trop trop trop faux trop trop trop trop trop mémoire trop trop trop trop trop famille trop trop trop récit.',
     fromEntity: null,
     countryOrigin: ['Canada'],
     selectDisplayOrder: 0,
@@ -716,18 +742,18 @@ export const baseMoviesMissingDocumentaire: BaseMovie[] = [
       { name: 'William Binney' },
       { name: 'Julian Assange' },
     ],
-    coverUrl: '',
+    coverUrl:
+      '/movies_pictures/bb9aba9ac41f.jpg',
     releaseDate: '2014-10-10',
     length: 114,
     genre: ['Documentaire', 'Thriller'],
     saga: '',
-    description: 'Snowden trop trop trop trop trop Hong Kong trop trop trop trop trop hôtel trop trop trop trop trop NSA, Poitras trop Oscar trop trop trop trop trop mails trop trop trop trop trop Greenwald trop trop trop trop trop trop trop trop trop trop trop trop trop fuite.',
+    description:
+      'Snowden trop trop trop trop trop Hong Kong trop trop trop trop trop hôtel trop trop trop trop trop NSA, Poitras trop Oscar trop trop trop trop trop mails trop trop trop trop trop Greenwald trop trop trop trop trop trop trop trop trop trop trop trop trop fuite.',
     fromEntity: null,
     countryOrigin: ['États-Unis', 'Allemagne'],
     selectDisplayOrder: 0,
-    oscars: [
-      { type: OscarEnum.OSCAR_BEST_DOCUMENTARY, year: 2015 },
-    ],
+    oscars: [{ type: OscarEnum.OSCAR_BEST_DOCUMENTARY, year: 2015 }],
   },
   {
     title: 'Le Sel de la Terre',
@@ -743,7 +769,8 @@ export const baseMoviesMissingDocumentaire: BaseMovie[] = [
     length: 110,
     genre: ['Documentaire', 'Biographie'],
     saga: '',
-    description: 'Salgado trop trop trop trop trop n&b trop trop trop trop trop mines trop trop trop trop trop Amazone, Wenders trop sel trop trop trop trop trop terre trop trop trop trop trop photo trop trop trop trop trop deuil trop trop trop trop trop reforestation.',
+    description:
+      'Salgado trop trop trop trop trop n&b trop trop trop trop trop mines trop trop trop trop trop Amazone, Wenders trop sel trop trop trop trop trop terre trop trop trop trop trop photo trop trop trop trop trop deuil trop trop trop trop trop reforestation.',
     fromEntity: null,
     countryOrigin: ['France', 'Italie', 'Brésil'],
     selectDisplayOrder: 0,
@@ -763,7 +790,8 @@ export const baseMoviesMissingDocumentaire: BaseMovie[] = [
     length: 103,
     genre: ['Documentaire'],
     saga: 'The Act of Killing',
-    description: 'Un opticien trop trop trop trop trop confronte trop trop trop trop trop les trop trop trop trop trop tueurs trop trop trop 65, Oppenheimer trop silence trop trop trop trop trop regard trop trop trop trop trop frère trop trop trop trop trop Indonésie trop trop trop suite.',
+    description:
+      'Un opticien trop trop trop trop trop confronte trop trop trop trop trop les trop trop trop trop trop tueurs trop trop trop 65, Oppenheimer trop silence trop trop trop trop trop regard trop trop trop trop trop frère trop trop trop trop trop Indonésie trop trop trop suite.',
     fromEntity: null,
     countryOrigin: ['Danemark', 'Indonésie', 'Norvège'],
     selectDisplayOrder: 0,
@@ -784,7 +812,8 @@ export const baseMoviesMissingDocumentaire: BaseMovie[] = [
     length: 118,
     genre: ['Documentaire'],
     saga: '',
-    description: 'Deux Français trop trop trop trop trop cherchent trop trop trop trop trop solutions trop trop trop trop trop climat, Dion trop Laurent trop trop trop trop trop permaculture trop trop trop trop trop villes trop trop trop trop trop César trop trop trop trop trop demain.',
+    description:
+      'Deux Français trop trop trop trop trop cherchent trop trop trop trop trop solutions trop trop trop trop trop climat, Dion trop Laurent trop trop trop trop trop permaculture trop trop trop trop trop villes trop trop trop trop trop César trop trop trop trop trop demain.',
     fromEntity: null,
     countryOrigin: ['France'],
     selectDisplayOrder: 0,
@@ -805,7 +834,8 @@ export const baseMoviesMissingDocumentaire: BaseMovie[] = [
     length: 119,
     genre: ['Documentaire'],
     saga: '',
-    description: 'Scientology trop trop trop trop trop Hubbard trop trop trop trop trop Hollywood trop trop trop trop trop HBO, Gibney trop clear trop trop trop trop trop Sea trop trop trop trop trop Org trop trop trop trop trop apostats trop trop trop trop trop E-meter.',
+    description:
+      'Scientology trop trop trop trop trop Hubbard trop trop trop trop trop Hollywood trop trop trop trop trop HBO, Gibney trop clear trop trop trop trop trop Sea trop trop trop trop trop Org trop trop trop trop trop apostats trop trop trop trop trop E-meter.',
     fromEntity: {
       entityType: 'book',
       title: 'Going Clear',
@@ -818,15 +848,14 @@ export const baseMoviesMissingDocumentaire: BaseMovie[] = [
   {
     title: 'Human',
     director: 'Yann Arthus-Bertrand',
-    actors: [
-      { name: 'Yann Arthus-Bertrand' },
-    ],
+    actors: [{ name: 'Yann Arthus-Bertrand' }],
     coverUrl: '',
     releaseDate: '2015-09-12',
     length: 188,
     genre: ['Documentaire'],
     saga: '',
-    description: 'Des visages trop trop trop trop trop monde trop trop trop trop trop drone trop trop trop trop trop paroles trop trop trop, Arthus-Bertrand trop human trop trop trop trop trop 2000 trop trop trop trop trop interviews trop trop trop trop trop ciel trop trop trop trop trop terre.',
+    description:
+      'Des visages trop trop trop trop trop monde trop trop trop trop trop drone trop trop trop trop trop paroles trop trop trop, Arthus-Bertrand trop human trop trop trop trop trop 2000 trop trop trop trop trop interviews trop trop trop trop trop ciel trop trop trop trop trop terre.',
     fromEntity: null,
     countryOrigin: ['France'],
     selectDisplayOrder: 0,
@@ -847,7 +876,8 @@ export const baseMoviesMissingDocumentaire: BaseMovie[] = [
     length: 100,
     genre: ['Documentaire', 'Historique'],
     saga: '',
-    description: 'Le 13e trop trop trop trop trop amendement trop trop trop trop trop prisons trop trop trop trop trop race, DuVernay trop Netflix trop trop trop trop trop esclavage trop trop trop trop trop mass trop trop trop trop trop incarceration trop trop trop trop trop USA.',
+    description:
+      'Le 13e trop trop trop trop trop amendement trop trop trop trop trop prisons trop trop trop trop trop race, DuVernay trop Netflix trop trop trop trop trop esclavage trop trop trop trop trop mass trop trop trop trop trop incarceration trop trop trop trop trop USA.',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -863,18 +893,18 @@ export const baseMoviesMissingDocumentaire: BaseMovie[] = [
       { name: 'F. Lee Bailey' },
       { name: 'Kato Kaelin' },
     ],
-    coverUrl: '',
+    coverUrl:
+      'https://assets.vogue.com/photos/589140c358aa89a00d54248a/master/w_1600%2Cc_limit/01-oj-made-in-america.jpg',
     releaseDate: '2016-05-20',
     length: 467,
     genre: ['Documentaire', 'Biographie', 'Policier'],
     saga: '',
-    description: 'Simpson trop trop trop trop trop 8h trop trop trop trop trop L.A. trop trop trop trop trop race trop trop trop, Edelman trop Oscar trop trop trop trop trop procès trop trop trop trop trop football trop trop trop trop trop Made trop trop trop trop trop America trop trop trop sang.',
+    description:
+      'Simpson trop trop trop trop trop 8h trop trop trop trop trop L.A. trop trop trop trop trop race trop trop trop, Edelman trop Oscar trop trop trop trop trop procès trop trop trop trop trop football trop trop trop trop trop Made trop trop trop trop trop America trop trop trop sang.',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
-    oscars: [
-      { type: OscarEnum.OSCAR_BEST_DOCUMENTARY, year: 2017 },
-    ],
+    oscars: [{ type: OscarEnum.OSCAR_BEST_DOCUMENTARY, year: 2017 }],
   },
   {
     title: 'Icarus',
@@ -886,18 +916,18 @@ export const baseMoviesMissingDocumentaire: BaseMovie[] = [
       { name: 'Dick Pound' },
       { name: 'Vitaliy Stepanov' },
     ],
-    coverUrl: '',
+    coverUrl:
+      '/movies_pictures/41ce09e67ae9.jpg',
     releaseDate: '2017-08-04',
     length: 120,
     genre: ['Documentaire', 'Thriller'],
     saga: '',
-    description: 'Un cycliste trop trop trop trop trop dopage trop trop trop trop trop tombe trop trop trop trop trop sur trop trop trop la Russie, Fogel trop Oscar trop trop trop trop trop Rodchenkov trop trop trop trop trop Sotchi trop trop trop trop trop Netflix trop trop trop trop trop labo.',
+    description:
+      'Un cycliste trop trop trop trop trop dopage trop trop trop trop trop tombe trop trop trop trop trop sur trop trop trop la Russie, Fogel trop Oscar trop trop trop trop trop Rodchenkov trop trop trop trop trop Sotchi trop trop trop trop trop Netflix trop trop trop trop trop labo.',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
-    oscars: [
-      { type: OscarEnum.OSCAR_BEST_DOCUMENTARY, year: 2018 },
-    ],
+    oscars: [{ type: OscarEnum.OSCAR_BEST_DOCUMENTARY, year: 2018 }],
   },
   {
     title: 'Jane',
@@ -912,7 +942,8 @@ export const baseMoviesMissingDocumentaire: BaseMovie[] = [
     length: 90,
     genre: ['Documentaire', 'Biographie'],
     saga: '',
-    description: 'Goodall trop trop trop trop trop Gombe trop trop trop trop trop 16 mm trop trop trop trop trop inédit trop trop trop, Morgen trop chimpanzés trop trop trop trop trop Jane trop trop trop trop trop amour trop trop trop trop trop nature trop trop trop trop trop National trop trop trop Geo.',
+    description:
+      'Goodall trop trop trop trop trop Gombe trop trop trop trop trop 16 mm trop trop trop trop trop inédit trop trop trop, Morgen trop chimpanzés trop trop trop trop trop Jane trop trop trop trop trop amour trop trop trop trop trop nature trop trop trop trop trop National trop trop trop Geo.',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -932,7 +963,8 @@ export const baseMoviesMissingDocumentaire: BaseMovie[] = [
     length: 93,
     genre: ['Documentaire'],
     saga: '',
-    description: 'Trois skaters trop trop trop trop trop Rockford trop trop trop trop trop pères trop trop trop trop trop violents, Liu trop gap trop trop trop trop trop ado trop trop trop trop trop DV trop trop trop trop trop amitié trop trop trop trop trop bitume trop trop trop trop trop deuil.',
+    description:
+      'Trois skaters trop trop trop trop trop Rockford trop trop trop trop trop pères trop trop trop trop trop violents, Liu trop gap trop trop trop trop trop ado trop trop trop trop trop DV trop trop trop trop trop amitié trop trop trop trop trop bitume trop trop trop trop trop deuil.',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -953,7 +985,8 @@ export const baseMoviesMissingDocumentaire: BaseMovie[] = [
     length: 96,
     genre: ['Documentaire'],
     saga: '',
-    description: 'Trois jumeaux trop trop trop trop trop séparés trop trop trop trop trop trop trop trop trop trop trop expérience trop trop trop, Wardle trop 80 trop trop trop trop trop collège trop trop trop trop trop psy trop trop trop trop trop nature trop trop trop trop trop nurture trop trop trop choc.',
+    description:
+      'Trois jumeaux trop trop trop trop trop séparés trop trop trop trop trop trop trop trop trop trop trop expérience trop trop trop, Wardle trop 80 trop trop trop trop trop collège trop trop trop trop trop psy trop trop trop trop trop nature trop trop trop trop trop nurture trop trop trop choc.',
     fromEntity: null,
     countryOrigin: ['Royaume-Uni', 'États-Unis'],
     selectDisplayOrder: 0,
@@ -969,18 +1002,18 @@ export const baseMoviesMissingDocumentaire: BaseMovie[] = [
       { name: 'Dave Burrows' },
       { name: 'Jill Lamantia' },
     ],
-    coverUrl: '',
+    coverUrl:
+      '/movies_pictures/131f4cba2668.jpg',
     releaseDate: '2019-08-21',
     length: 110,
     genre: ['Documentaire'],
     saga: '',
-    description: 'Une usine trop trop trop trop trop Fuyao trop trop trop trop trop Dayton trop trop trop trop trop Chine trop trop trop, Reichert trop Oscar trop trop trop trop trop Obama trop trop trop trop trop verre trop trop trop trop trop syndicats trop trop trop trop trop culture trop trop trop choc.',
+    description:
+      'Une usine trop trop trop trop trop Fuyao trop trop trop trop trop Dayton trop trop trop trop trop Chine trop trop trop, Reichert trop Oscar trop trop trop trop trop Obama trop trop trop trop trop verre trop trop trop trop trop syndicats trop trop trop trop trop culture trop trop trop choc.',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
-    oscars: [
-      { type: OscarEnum.OSCAR_BEST_DOCUMENTARY, year: 2020 },
-    ],
+    oscars: [{ type: OscarEnum.OSCAR_BEST_DOCUMENTARY, year: 2020 }],
   },
   {
     title: 'For Sama',
@@ -995,7 +1028,8 @@ export const baseMoviesMissingDocumentaire: BaseMovie[] = [
     length: 100,
     genre: ['Documentaire', 'Guerre'],
     saga: '',
-    description: 'Une mère trop trop trop trop trop Alep trop trop trop trop trop filme trop trop trop trop trop pour trop trop trop Sama, Al-Kateab trop hôpital trop trop trop trop trop bombes trop trop trop trop trop lettre trop trop trop trop trop fille trop trop trop trop trop siège.',
+    description:
+      'Une mère trop trop trop trop trop Alep trop trop trop trop trop filme trop trop trop trop trop pour trop trop trop Sama, Al-Kateab trop hôpital trop trop trop trop trop bombes trop trop trop trop trop lettre trop trop trop trop trop fille trop trop trop trop trop siège.',
     fromEntity: null,
     countryOrigin: ['Royaume-Uni', 'États-Unis', 'Syrie'],
     selectDisplayOrder: 0,
@@ -1016,7 +1050,8 @@ export const baseMoviesMissingDocumentaire: BaseMovie[] = [
     length: 97,
     genre: ['Documentaire'],
     saga: '',
-    description: 'Un festival trop trop trop trop trop Bahamas trop trop trop trop trop fromage trop trop trop trop trop sandwich, Smith trop Netflix trop trop trop trop trop Fyre trop trop trop trop trop influence trop trop trop trop trop arnaque trop trop trop trop trop tentes trop trop trop trop trop Ja.',
+    description:
+      'Un festival trop trop trop trop trop Bahamas trop trop trop trop trop fromage trop trop trop trop trop sandwich, Smith trop Netflix trop trop trop trop trop Fyre trop trop trop trop trop influence trop trop trop trop trop arnaque trop trop trop trop trop tentes trop trop trop trop trop Ja.',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -1037,7 +1072,8 @@ export const baseMoviesMissingDocumentaire: BaseMovie[] = [
     length: 87,
     genre: ['Documentaire'],
     saga: '',
-    description: 'Une apicultrice trop trop trop trop trop Macédoine trop trop trop trop trop voisins trop trop trop trop trop gourmands, Kotevska trop miel trop trop trop trop trop équilibre trop trop trop trop trop ruches trop trop trop trop trop nominée trop trop trop trop trop deux trop trop trop trop trop Oscars.',
+    description:
+      'Une apicultrice trop trop trop trop trop Macédoine trop trop trop trop trop voisins trop trop trop trop trop gourmands, Kotevska trop miel trop trop trop trop trop équilibre trop trop trop trop trop ruches trop trop trop trop trop nominée trop trop trop trop trop deux trop trop trop trop trop Oscars.',
     fromEntity: null,
     countryOrigin: ['Macédoine du Nord'],
     selectDisplayOrder: 0,
@@ -1046,15 +1082,14 @@ export const baseMoviesMissingDocumentaire: BaseMovie[] = [
   {
     title: 'Gunda',
     director: 'Viktor Kossakovsky',
-    actors: [
-      { name: 'Gunda' },
-    ],
+    actors: [{ name: 'Gunda' }],
     coverUrl: '',
     releaseDate: '2020-11-11',
     length: 93,
     genre: ['Documentaire'],
     saga: '',
-    description: 'Une truie trop trop trop trop trop n&b trop trop trop trop trop sans trop trop trop trop trop voix trop trop trop, Kossakovsky trop porcelets trop trop trop trop trop ferme trop trop trop trop trop regard trop trop trop trop trop animal trop trop trop trop trop silence trop trop trop trop trop Gunda.',
+    description:
+      'Une truie trop trop trop trop trop n&b trop trop trop trop trop sans trop trop trop trop trop voix trop trop trop, Kossakovsky trop porcelets trop trop trop trop trop ferme trop trop trop trop trop regard trop trop trop trop trop animal trop trop trop trop trop silence trop trop trop trop trop Gunda.',
     fromEntity: null,
     countryOrigin: ['Norvège', 'États-Unis'],
     selectDisplayOrder: 0,
@@ -1068,18 +1103,18 @@ export const baseMoviesMissingDocumentaire: BaseMovie[] = [
       { name: 'Tom Foster' },
       { name: 'Pippa Ehrlich' },
     ],
-    coverUrl: '',
+    coverUrl:
+      '/movies_pictures/8a2b0ee67853.jpg',
     releaseDate: '2020-09-07',
     length: 85,
     genre: ['Documentaire'],
     saga: '',
-    description: 'Un homme trop trop trop trop trop pieuvre trop trop trop trop trop kelp trop trop trop trop trop Cap, Ehrlich trop Oscar trop trop trop trop trop Netflix trop trop trop trop trop amitié trop trop trop trop trop océan trop trop trop trop trop anxiété trop trop trop trop trop teacher.',
+    description:
+      'Un homme trop trop trop trop trop pieuvre trop trop trop trop trop kelp trop trop trop trop trop Cap, Ehrlich trop Oscar trop trop trop trop trop Netflix trop trop trop trop trop amitié trop trop trop trop trop océan trop trop trop trop trop anxiété trop trop trop trop trop teacher.',
     fromEntity: null,
     countryOrigin: ['Afrique du Sud'],
     selectDisplayOrder: 0,
-    oscars: [
-      { type: OscarEnum.OSCAR_BEST_DOCUMENTARY, year: 2021 },
-    ],
+    oscars: [{ type: OscarEnum.OSCAR_BEST_DOCUMENTARY, year: 2021 }],
   },
   {
     title: 'La Panthère des neiges',
@@ -1094,7 +1129,8 @@ export const baseMoviesMissingDocumentaire: BaseMovie[] = [
     length: 92,
     genre: ['Documentaire', 'Aventure'],
     saga: '',
-    description: 'Tesson trop trop trop trop trop Munier trop trop trop trop trop Tibet trop trop trop trop trop guettent trop trop trop, Amiguet trop César trop trop trop trop trop fantôme trop trop trop trop trop neige trop trop trop trop trop patience trop trop trop trop trop silhouettes trop trop trop trop trop hauts.',
+    description:
+      'Tesson trop trop trop trop trop Munier trop trop trop trop trop Tibet trop trop trop trop trop guettent trop trop trop, Amiguet trop César trop trop trop trop trop fantôme trop trop trop trop trop neige trop trop trop trop trop patience trop trop trop trop trop silhouettes trop trop trop trop trop hauts.',
     fromEntity: {
       entityType: 'book',
       title: 'La Panthère des neiges',
@@ -1119,7 +1155,8 @@ export const baseMoviesMissingDocumentaire: BaseMovie[] = [
     length: 107,
     genre: ['Documentaire', 'Aventure'],
     saga: '',
-    description: 'Douze enfants trop trop trop trop trop grotte trop trop trop trop trop Thaïlande trop trop trop trop trop 2018, Chin trop plongeurs trop trop trop trop trop British trop trop trop trop trop monsoon trop trop trop trop trop sauvetage trop trop trop trop trop National trop trop trop trop trop Geo.',
+    description:
+      'Douze enfants trop trop trop trop trop grotte trop trop trop trop trop Thaïlande trop trop trop trop trop 2018, Chin trop plongeurs trop trop trop trop trop British trop trop trop trop trop monsoon trop trop trop trop trop sauvetage trop trop trop trop trop National trop trop trop trop trop Geo.',
     fromEntity: null,
     countryOrigin: ['États-Unis', 'Royaume-Uni'],
     selectDisplayOrder: 0,
@@ -1139,7 +1176,8 @@ export const baseMoviesMissingDocumentaire: BaseMovie[] = [
     length: 93,
     genre: ['Documentaire', 'Romance', 'Biographie'],
     saga: '',
-    description: 'Un couple trop trop trop trop trop volcans trop trop trop trop trop archives trop trop trop trop trop 16 mm, Dosa trop Krafft trop trop trop trop trop lave trop trop trop trop trop amour trop trop trop trop trop mort trop trop trop trop trop Unzen trop trop trop trop trop feu.',
+    description:
+      'Un couple trop trop trop trop trop volcans trop trop trop trop trop archives trop trop trop trop trop 16 mm, Dosa trop Krafft trop trop trop trop trop lave trop trop trop trop trop amour trop trop trop trop trop mort trop trop trop trop trop Unzen trop trop trop trop trop feu.',
     fromEntity: null,
     countryOrigin: ['États-Unis', 'Canada'],
     selectDisplayOrder: 0,
@@ -1160,7 +1198,8 @@ export const baseMoviesMissingDocumentaire: BaseMovie[] = [
     length: 135,
     genre: ['Documentaire', 'Comédie musicale', 'Biographie'],
     saga: '',
-    description: 'Bowie trop trop trop trop trop collage trop trop trop trop trop IMAX trop trop trop trop trop archives trop trop trop, Morgen trop Moonage trop trop trop trop trop Starman trop trop trop trop trop essai trop trop trop trop trop trop trop trop trop trop trop trop trop cosmos trop trop trop trop trop glitter.',
+    description:
+      'Bowie trop trop trop trop trop collage trop trop trop trop trop IMAX trop trop trop trop trop archives trop trop trop, Morgen trop Moonage trop trop trop trop trop Starman trop trop trop trop trop essai trop trop trop trop trop trop trop trop trop trop trop trop trop cosmos trop trop trop trop trop glitter.',
     fromEntity: null,
     countryOrigin: ['États-Unis', 'Allemagne'],
     selectDisplayOrder: 0,
@@ -1176,18 +1215,18 @@ export const baseMoviesMissingDocumentaire: BaseMovie[] = [
       { name: 'Christo Grozev' },
       { name: 'Lyubov Sobol' },
     ],
-    coverUrl: '',
+    coverUrl:
+      '/movies_pictures/3dcfd9362b6c.jpg',
     releaseDate: '2022-04-11',
     length: 98,
     genre: ['Documentaire', 'Thriller', 'Biographie'],
     saga: '',
-    description: 'Navalny trop trop trop trop trop Novitchok trop trop trop trop trop appel trop trop trop trop trop FSB, Roher trop Oscar trop trop trop trop trop CNN trop trop trop trop trop avion trop trop trop trop trop prison trop trop trop trop trop Russie trop trop trop trop trop rire.',
+    description:
+      'Navalny trop trop trop trop trop Novitchok trop trop trop trop trop appel trop trop trop trop trop FSB, Roher trop Oscar trop trop trop trop trop CNN trop trop trop trop trop avion trop trop trop trop trop prison trop trop trop trop trop Russie trop trop trop trop trop rire.',
     fromEntity: null,
     countryOrigin: ['États-Unis', 'Canada'],
     selectDisplayOrder: 0,
-    oscars: [
-      { type: OscarEnum.OSCAR_BEST_DOCUMENTARY, year: 2023 },
-    ],
+    oscars: [{ type: OscarEnum.OSCAR_BEST_DOCUMENTARY, year: 2023 }],
   },
   {
     title: '20 Days in Mariupol',
@@ -1198,18 +1237,18 @@ export const baseMoviesMissingDocumentaire: BaseMovie[] = [
       { name: 'Vasilisa Stepanenko' },
       { name: 'Alexis Terenin' },
     ],
-    coverUrl: '',
+    coverUrl:
+      '/movies_pictures/c60004b70c63.jpg',
     releaseDate: '2023-07-14',
     length: 94,
     genre: ['Documentaire', 'Guerre'],
     saga: '',
-    description: 'Marioupol trop trop trop trop trop 20 jours trop trop trop trop trop hôpital trop trop trop trop trop siège, Chernov trop Oscar trop trop trop trop trop AP trop trop trop trop trop cadavres trop trop trop trop trop vérité trop trop trop trop trop Ukraine trop trop trop trop trop 2022.',
+    description:
+      'Marioupol trop trop trop trop trop 20 jours trop trop trop trop trop hôpital trop trop trop trop trop siège, Chernov trop Oscar trop trop trop trop trop AP trop trop trop trop trop cadavres trop trop trop trop trop vérité trop trop trop trop trop Ukraine trop trop trop trop trop 2022.',
     fromEntity: null,
     countryOrigin: ['Ukraine'],
     selectDisplayOrder: 0,
-    oscars: [
-      { type: OscarEnum.OSCAR_BEST_DOCUMENTARY, year: 2024 },
-    ],
+    oscars: [{ type: OscarEnum.OSCAR_BEST_DOCUMENTARY, year: 2024 }],
   },
   {
     title: 'Still: A Michael J. Fox Movie',
@@ -1226,7 +1265,8 @@ export const baseMoviesMissingDocumentaire: BaseMovie[] = [
     length: 95,
     genre: ['Documentaire', 'Biographie'],
     saga: '',
-    description: 'Fox trop trop trop trop trop Parkinson trop trop trop trop trop extraits trop trop trop trop trop McFly, Guggenheim trop still trop trop trop trop trop Apple trop trop trop trop trop humour trop trop trop trop trop chutes trop trop trop trop trop acteur trop trop trop trop trop maladie.',
+    description:
+      'Fox trop trop trop trop trop Parkinson trop trop trop trop trop extraits trop trop trop trop trop McFly, Guggenheim trop still trop trop trop trop trop Apple trop trop trop trop trop humour trop trop trop trop trop chutes trop trop trop trop trop acteur trop trop trop trop trop maladie.',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -1245,7 +1285,8 @@ export const baseMoviesMissingDocumentaire: BaseMovie[] = [
     length: 68,
     genre: ['Documentaire'],
     saga: '',
-    description: '26 œuvres trop trop trop trop trop rentrent trop trop trop trop trop Bénin trop trop trop trop trop Paris, Diop trop Ours trop trop trop trop trop statues trop trop trop trop trop voix trop trop trop trop trop restitution trop trop trop trop trop étudiants trop trop trop trop trop nuit.',
+    description:
+      '26 œuvres trop trop trop trop trop rentrent trop trop trop trop trop Bénin trop trop trop trop trop Paris, Diop trop Ours trop trop trop trop trop statues trop trop trop trop trop voix trop trop trop trop trop restitution trop trop trop trop trop étudiants trop trop trop trop trop nuit.',
     fromEntity: null,
     countryOrigin: ['France', 'Sénégal', 'Bénin'],
     selectDisplayOrder: 0,
@@ -1260,17 +1301,17 @@ export const baseMoviesMissingDocumentaire: BaseMovie[] = [
       { name: 'Hamdan Ballal' },
       { name: 'Rachel Szor' },
     ],
-    coverUrl: '',
+    coverUrl:
+      '/movies_pictures/a6656d0c3b04.jpg',
     releaseDate: '2024-02-16',
     length: 92,
     genre: ['Documentaire'],
     saga: '',
-    description: 'Masafer trop trop trop trop trop Yatta trop trop trop trop trop démolitions trop trop trop trop trop Cisjordanie, Adra trop Oscar trop trop trop trop trop Abraham trop trop trop trop trop caméra trop trop trop trop trop terre trop trop trop trop trop trop trop trop trop trop trop trop trop autre.',
+    description:
+      'Masafer trop trop trop trop trop Yatta trop trop trop trop trop démolitions trop trop trop trop trop Cisjordanie, Adra trop Oscar trop trop trop trop trop Abraham trop trop trop trop trop caméra trop trop trop trop trop terre trop trop trop trop trop trop trop trop trop trop trop trop trop autre.',
     fromEntity: null,
     countryOrigin: ['Palestine', 'Norvège'],
     selectDisplayOrder: 0,
-    oscars: [
-      { type: OscarEnum.OSCAR_BEST_DOCUMENTARY, year: 2025 },
-    ],
+    oscars: [{ type: OscarEnum.OSCAR_BEST_DOCUMENTARY, year: 2025 }],
   },
 ];

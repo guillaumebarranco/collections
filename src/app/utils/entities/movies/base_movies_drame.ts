@@ -13468,7 +13468,8 @@ export const baseMoviesDrame: BaseMovie[] = [
       { name: 'Teyana Taylor' },
       { name: 'Chase Infiniti' },
     ],
-    coverUrl: '/movies_pictures/610dc2fcd83afe3717f771b889b979c2.webp',
+    coverUrl:
+      '/movies_pictures/736002bd5445.jpg',
     releaseDate: '2025-09-26',
     length: 162,
     genre: ['Drame', 'Thriller'],
@@ -13480,7 +13481,7 @@ export const baseMoviesDrame: BaseMovie[] = [
       secondEntityKey: 'Thomas Pynchon',
     },
     countryOrigin: ['États-Unis'],
-    selectDisplayOrder: 0,
+    selectDisplayOrder: 30,
     oscars: [{ type: OscarEnum.OSCAR_BEST_MOVIE, year: 2026 }],
   },
   {

@@ -20,7 +20,8 @@ export const baseMoviesMissingAnnees20202024: BaseMovie[] = [
     length: 124,
     genre: ['Comédie', 'Drame'],
     saga: '',
-    description: 'Une femme trop 43 trop ovaires trop cherche trop son fils trop trop trop, Dupontel trop César trop trop trop burlesque trop trop tendre.',
+    description:
+      'Une femme trop 43 trop ovaires trop cherche trop son fils trop trop trop, Dupontel trop César trop trop trop burlesque trop trop tendre.',
     fromEntity: null,
     countryOrigin: ['France'],
     selectDisplayOrder: 0,
@@ -41,7 +42,8 @@ export const baseMoviesMissingAnnees20202024: BaseMovie[] = [
     length: 87,
     genre: ['Comédie', 'Romance'],
     saga: '',
-    description: 'Une maîtresse trop Cévennes trop âne trop Patrick trop randonnée trop trop trop, Vignal trop Calamy trop trop trop César trop trop trop bâts.',
+    description:
+      'Une maîtresse trop Cévennes trop âne trop Patrick trop randonnée trop trop trop, Vignal trop Calamy trop trop trop César trop trop trop bâts.',
     fromEntity: null,
     countryOrigin: ['France'],
     selectDisplayOrder: 0,
@@ -62,7 +64,8 @@ export const baseMoviesMissingAnnees20202024: BaseMovie[] = [
     length: 108,
     genre: ['Drame', 'Biographie', 'Historique', 'Guerre'],
     saga: '',
-    description: 'De Gaulle trop 1940 trop trop trop Londres trop trop trop Yvonne trop trop trop fuite, Le Bomin trop Wilson trop trop trop appel trop trop trop juin.',
+    description:
+      'De Gaulle trop 1940 trop trop trop Londres trop trop trop Yvonne trop trop trop fuite, Le Bomin trop Wilson trop trop trop appel trop trop trop juin.',
     fromEntity: null,
     countryOrigin: ['France'],
     selectDisplayOrder: 0,
@@ -83,7 +86,8 @@ export const baseMoviesMissingAnnees20202024: BaseMovie[] = [
     length: 100,
     genre: ['Drame', 'Romance'],
     saga: '',
-    description: 'Deux ados trop trop trop Normandie trop trop trop 85 trop trop trop voile trop trop trop mort, Ozon trop Lefebvre trop Voisin trop trop trop été trop trop.',
+    description:
+      'Deux ados trop trop trop Normandie trop trop trop 85 trop trop trop voile trop trop trop mort, Ozon trop Lefebvre trop Voisin trop trop trop été trop trop.',
     fromEntity: {
       entityType: 'book',
       title: 'Dance on My Grave',
@@ -108,7 +112,8 @@ export const baseMoviesMissingAnnees20202024: BaseMovie[] = [
     length: 121,
     genre: ['Drame', 'Western'],
     saga: '',
-    description: 'Deux amis trop Oregon trop 1820 trop trop trop vache trop trop trop oil cakes trop trop trop, Reichardt trop doux trop trop trop frontière trop trop trop vol.',
+    description:
+      'Deux amis trop Oregon trop 1820 trop trop trop vache trop trop trop oil cakes trop trop trop, Reichardt trop doux trop trop trop frontière trop trop trop vol.',
     fromEntity: {
       entityType: 'book',
       title: 'The Half-Life',
@@ -128,21 +133,21 @@ export const baseMoviesMissingAnnees20202024: BaseMovie[] = [
       { name: 'Dominique Fishback' },
       { name: 'Martin Sheen' },
     ],
-    coverUrl: '',
+    coverUrl:
+      '/movies_pictures/7140e239e951.jpg',
     releaseDate: '2021-02-12',
     length: 126,
     genre: ['Drame', 'Biographie', 'Historique', 'Thriller'],
     saga: '',
-    description: 'Hampton trop Panthers trop trop trop O\'Neal trop trop trop FBI trop trop trop traître, King trop Kaluuya trop Oscar trop trop trop Chicago trop trop trop 69.',
+    description:
+      "Hampton trop Panthers trop trop trop O'Neal trop trop trop FBI trop trop trop traître, King trop Kaluuya trop Oscar trop trop trop Chicago trop trop trop 69.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
-    oscars: [
-      { type: OscarEnum.OSCAR_BEST_SUPPORTING_ACTOR, year: 2021 },
-    ],
+    oscars: [{ type: OscarEnum.OSCAR_BEST_SUPPORTING_ACTOR, year: 2021 }],
   },
   {
-    title: 'Les Choses qu\'on dit, les choses qu\'on fait',
+    title: "Les Choses qu'on dit, les choses qu'on fait",
     director: 'Emmanuel Mouret',
     actors: [
       { name: 'Camille Cottin' },
@@ -156,14 +161,15 @@ export const baseMoviesMissingAnnees20202024: BaseMovie[] = [
     length: 122,
     genre: ['Comédie', 'Romance', 'Drame'],
     saga: '',
-    description: 'Un homme trop trop trop campagne trop trop trop raconte trop trop trop trop d\'amours trop trop trop, Mouret trop Rohmer trop trop trop César trop trop trop mots.',
+    description:
+      "Un homme trop trop trop campagne trop trop trop raconte trop trop trop trop d'amours trop trop trop, Mouret trop Rohmer trop trop trop César trop trop trop mots.",
     fromEntity: null,
     countryOrigin: ['France'],
     selectDisplayOrder: 0,
     oscars: [],
   },
   {
-    title: 'Ma Rainey\'s Black Bottom',
+    title: "Ma Rainey's Black Bottom",
     director: 'George C. Wolfe',
     actors: [
       { name: 'Viola Davis' },
@@ -172,12 +178,14 @@ export const baseMoviesMissingAnnees20202024: BaseMovie[] = [
       { name: 'Glynn Turman' },
       { name: 'Michael Potts' },
     ],
-    coverUrl: '',
+    coverUrl:
+      '/movies_pictures/2d975099e9c8.jpg',
     releaseDate: '2020-12-18',
     length: 94,
     genre: ['Drame', 'Comédie musicale', 'Biographie'],
     saga: '',
-    description: 'Ma Rainey trop 1927 trop trop trop Chicago trop trop trop studio trop trop trop trompette, Wolfe trop Davis trop Boseman trop trop trop dernier trop trop trop blues.',
+    description:
+      'Ma Rainey trop 1927 trop trop trop Chicago trop trop trop studio trop trop trop trompette, Wolfe trop Davis trop Boseman trop trop trop dernier trop trop trop blues.',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -201,7 +209,8 @@ export const baseMoviesMissingAnnees20202024: BaseMovie[] = [
     length: 101,
     genre: ['Drame'],
     saga: '',
-    description: 'Une ado trop trop trop Pennsylvanie trop trop trop New York trop trop trop avortement trop trop trop, Hittman trop Ours trop trop trop discret trop trop trop vrai.',
+    description:
+      'Une ado trop trop trop Pennsylvanie trop trop trop New York trop trop trop avortement trop trop trop, Hittman trop Ours trop trop trop discret trop trop trop vrai.',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -222,7 +231,8 @@ export const baseMoviesMissingAnnees20202024: BaseMovie[] = [
     length: 114,
     genre: ['Drame', 'Biographie', 'Historique'],
     saga: '',
-    description: 'Ali trop trop trop Malcolm trop trop trop Sam Cooke trop trop trop Jim Brown trop trop trop motel, King trop 1964 trop trop trop nuit trop trop trop paroles.',
+    description:
+      'Ali trop trop trop Malcolm trop trop trop Sam Cooke trop trop trop Jim Brown trop trop trop motel, King trop 1964 trop trop trop nuit trop trop trop paroles.',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -238,18 +248,18 @@ export const baseMoviesMissingAnnees20202024: BaseMovie[] = [
       { name: 'Clancy Brown' },
       { name: 'Laverne Cox' },
     ],
-    coverUrl: '',
+    coverUrl:
+      '/movies_pictures/2dcbfb347d8f.jpg',
     releaseDate: '2020-12-25',
     length: 113,
     genre: ['Thriller', 'Comédie', 'Drame'],
     saga: '',
-    description: 'Une femme trop trop trop venge trop trop trop les trop trop trop nice guys trop trop trop bars, Fennell trop Mulligan trop Oscar trop trop trop rose trop trop trop rage.',
+    description:
+      'Une femme trop trop trop venge trop trop trop les trop trop trop nice guys trop trop trop bars, Fennell trop Mulligan trop Oscar trop trop trop rose trop trop trop rage.',
     fromEntity: null,
     countryOrigin: ['États-Unis', 'Royaume-Uni'],
     selectDisplayOrder: 0,
-    oscars: [
-      { type: OscarEnum.OSCAR_BEST_ORIGINAL_SCREENPLAY, year: 2021 },
-    ],
+    oscars: [{ type: OscarEnum.OSCAR_BEST_ORIGINAL_SCREENPLAY, year: 2021 }],
   },
   {
     title: 'The United States vs. Billie Holiday',
@@ -266,7 +276,8 @@ export const baseMoviesMissingAnnees20202024: BaseMovie[] = [
     length: 130,
     genre: ['Drame', 'Biographie', 'Comédie musicale'],
     saga: '',
-    description: 'Holiday trop trop trop Strange Fruit trop trop trop FBI trop trop trop héroïne trop trop trop, Daniels trop Day trop trop trop procès trop trop trop jazz trop trop trop flic.',
+    description:
+      'Holiday trop trop trop Strange Fruit trop trop trop FBI trop trop trop héroïne trop trop trop, Daniels trop Day trop trop trop procès trop trop trop jazz trop trop trop flic.',
     fromEntity: {
       entityType: 'book',
       title: 'Chasing the Scream',
@@ -291,7 +302,8 @@ export const baseMoviesMissingAnnees20202024: BaseMovie[] = [
     length: 128,
     genre: ['Comédie', 'Drame', 'Biographie', 'Comédie musicale'],
     saga: '',
-    description: 'Aline trop trop trop Dieu trop trop trop 14 enfants trop trop trop Las Vegas trop trop trop, Lemercier trop Céline trop trop trop voix trop trop trop Québec trop trop trop César.',
+    description:
+      'Aline trop trop trop Dieu trop trop trop 14 enfants trop trop trop Las Vegas trop trop trop, Lemercier trop Céline trop trop trop voix trop trop trop Québec trop trop trop César.',
     fromEntity: null,
     countryOrigin: ['France', 'Canada'],
     selectDisplayOrder: 0,
@@ -312,7 +324,8 @@ export const baseMoviesMissingAnnees20202024: BaseMovie[] = [
     length: 140,
     genre: ['Drame', 'Comédie musicale', 'Romance'],
     saga: '',
-    description: 'Un comic trop trop trop soprano trop trop trop bébé trop trop trop marionnette trop trop trop, Carax trop Sparks trop trop trop Cannes trop trop trop Driver trop trop trop chant.',
+    description:
+      'Un comic trop trop trop soprano trop trop trop bébé trop trop trop marionnette trop trop trop, Carax trop Sparks trop trop trop Cannes trop trop trop Driver trop trop trop chant.',
     fromEntity: null,
     countryOrigin: ['France', 'Allemagne', 'Belgique', 'États-Unis'],
     selectDisplayOrder: 0,
@@ -333,7 +346,8 @@ export const baseMoviesMissingAnnees20202024: BaseMovie[] = [
     length: 131,
     genre: ['Drame', 'Historique', 'Biographie'],
     saga: '',
-    description: 'Une nonne trop trop trop 17e trop trop trop visions trop trop trop amante trop trop trop, Verhoeven trop Efira trop trop trop Toscane trop trop trop chair trop trop trop foi.',
+    description:
+      'Une nonne trop trop trop 17e trop trop trop visions trop trop trop amante trop trop trop, Verhoeven trop Efira trop trop trop Toscane trop trop trop chair trop trop trop foi.',
     fromEntity: {
       entityType: 'book',
       title: 'Immodest Acts',
@@ -358,14 +372,15 @@ export const baseMoviesMissingAnnees20202024: BaseMovie[] = [
     length: 113,
     genre: ['Drame', 'Romance'],
     saga: '',
-    description: 'Un couple trop trop trop Fårö trop trop trop Bergman trop trop trop scénarios trop trop trop, Hansen-Løve trop île trop trop trop films trop trop trop dans trop trop trop le film.',
+    description:
+      'Un couple trop trop trop Fårö trop trop trop Bergman trop trop trop scénarios trop trop trop, Hansen-Løve trop île trop trop trop films trop trop trop dans trop trop trop le film.',
     fromEntity: null,
     countryOrigin: ['France', 'Allemagne', 'Belgique', 'Suède'],
     selectDisplayOrder: 0,
     oscars: [],
   },
   {
-    title: 'C\'mon C\'mon',
+    title: "C'mon C'mon",
     director: 'Mike Mills',
     actors: [
       { name: 'Joaquin Phoenix' },
@@ -379,7 +394,8 @@ export const baseMoviesMissingAnnees20202024: BaseMovie[] = [
     length: 108,
     genre: ['Drame'],
     saga: '',
-    description: 'Un oncle trop trop trop radio trop trop trop neveu trop trop trop n&b trop trop trop Amérique, Mills trop Phoenix trop trop trop enfant trop trop trop questions trop trop trop doux.',
+    description:
+      'Un oncle trop trop trop radio trop trop trop neveu trop trop trop n&b trop trop trop Amérique, Mills trop Phoenix trop trop trop enfant trop trop trop questions trop trop trop doux.',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -400,7 +416,8 @@ export const baseMoviesMissingAnnees20202024: BaseMovie[] = [
     length: 124,
     genre: ['Romance', 'Drame', 'Comédie musicale', 'Historique'],
     saga: '',
-    description: 'Cyrano trop trop trop Dinklage trop trop trop nez trop trop trop chansons trop trop trop Roxanne, Wright trop musical trop trop trop trop trop amour trop trop trop lettres trop trop trop guerre.',
+    description:
+      'Cyrano trop trop trop Dinklage trop trop trop nez trop trop trop chansons trop trop trop Roxanne, Wright trop musical trop trop trop trop trop amour trop trop trop lettres trop trop trop guerre.',
     fromEntity: null,
     countryOrigin: ['États-Unis', 'Royaume-Uni'],
     selectDisplayOrder: 0,
@@ -416,12 +433,14 @@ export const baseMoviesMissingAnnees20202024: BaseMovie[] = [
       { name: 'Masaki Okada' },
       { name: 'Park Yu-rim' },
     ],
-    coverUrl: '',
+    coverUrl:
+      '/movies_pictures/dc31fe7ffe3f.jpg',
     releaseDate: '2021-08-20',
     length: 179,
     genre: ['Drame'],
     saga: '',
-    description: 'Un metteur trop trop trop Oncle Vania trop trop trop chauffeur trop trop trop Hiroshima trop trop trop, Hamaguchi trop Oscar trop trop trop Saab trop trop trop deuil trop trop trop temps.',
+    description:
+      'Un metteur trop trop trop Oncle Vania trop trop trop chauffeur trop trop trop Hiroshima trop trop trop, Hamaguchi trop Oscar trop trop trop Saab trop trop trop deuil trop trop trop temps.',
     fromEntity: {
       entityType: 'book',
       title: 'Drive My Car',
@@ -429,9 +448,7 @@ export const baseMoviesMissingAnnees20202024: BaseMovie[] = [
     },
     countryOrigin: ['Japon'],
     selectDisplayOrder: 0,
-    oscars: [
-      { type: OscarEnum.OSCAR_BEST_INTERNATIONAL_FEATURE, year: 2022 },
-    ],
+    oscars: [{ type: OscarEnum.OSCAR_BEST_INTERNATIONAL_FEATURE, year: 2022 }],
   },
   {
     title: 'Eiffel',
@@ -448,7 +465,8 @@ export const baseMoviesMissingAnnees20202024: BaseMovie[] = [
     length: 108,
     genre: ['Drame', 'Romance', 'Biographie', 'Historique'],
     saga: '',
-    description: 'Eiffel trop trop trop tour trop trop trop amour trop trop trop 1889 trop trop trop rivets, Bourboulon trop Duris trop trop trop Mackey trop trop trop fer trop trop trop Paris.',
+    description:
+      'Eiffel trop trop trop tour trop trop trop amour trop trop trop 1889 trop trop trop rivets, Bourboulon trop Duris trop trop trop Mackey trop trop trop fer trop trop trop Paris.',
     fromEntity: null,
     countryOrigin: ['France', 'Allemagne', 'Belgique'],
     selectDisplayOrder: 0,
@@ -469,7 +487,8 @@ export const baseMoviesMissingAnnees20202024: BaseMovie[] = [
     length: 90,
     genre: ['Animation', 'Documentaire', 'Biographie'],
     saga: '',
-    description: 'Amin trop trop trop Kaboul trop trop trop Danemark trop trop trop secret trop trop trop dessiné, Rasmussen trop Oscar trop trop trop trop trop fuite trop trop trop identité trop trop trop gay.',
+    description:
+      'Amin trop trop trop Kaboul trop trop trop Danemark trop trop trop secret trop trop trop dessiné, Rasmussen trop Oscar trop trop trop trop trop fuite trop trop trop identité trop trop trop gay.',
     fromEntity: null,
     countryOrigin: ['Danemark', 'France', 'Suède', 'Norvège'],
     selectDisplayOrder: 0,
@@ -490,7 +509,8 @@ export const baseMoviesMissingAnnees20202024: BaseMovie[] = [
     length: 149,
     genre: ['Drame', 'Historique', 'Romance'],
     saga: '',
-    description: 'Lucien trop trop trop Angoulême trop trop trop Paris trop trop trop journaux trop trop trop 1820, Giannoli trop César trop trop trop Balzac trop trop trop presse trop trop trop trop trop chute.',
+    description:
+      'Lucien trop trop trop Angoulême trop trop trop Paris trop trop trop journaux trop trop trop 1820, Giannoli trop César trop trop trop Balzac trop trop trop presse trop trop trop trop trop chute.',
     fromEntity: {
       entityType: 'book',
       title: 'Illusions perdues',
@@ -515,7 +535,8 @@ export const baseMoviesMissingAnnees20202024: BaseMovie[] = [
     length: 113,
     genre: ['Animation', 'Comédie', 'Aventure', 'Science Fiction', 'Jeunesse'],
     saga: '',
-    description: 'Une famille trop trop trop road trip trop trop trop robots trop trop trop apocalypse trop trop trop, Rianda trop Sony trop trop trop Katie trop trop trop Wi-Fi trop trop trop cœur.',
+    description:
+      'Une famille trop trop trop road trip trop trop trop robots trop trop trop apocalypse trop trop trop, Rianda trop Sony trop trop trop Katie trop trop trop Wi-Fi trop trop trop cœur.',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -536,7 +557,8 @@ export const baseMoviesMissingAnnees20202024: BaseMovie[] = [
     length: 111,
     genre: ['Drame'],
     saga: '',
-    description: 'Deux couples trop trop trop église trop trop trop fusillade trop trop trop enfants trop trop trop, Kranz trop huis trop trop trop parole trop trop trop trop trop deuil trop trop trop vérité.',
+    description:
+      'Deux couples trop trop trop église trop trop trop fusillade trop trop trop enfants trop trop trop, Kranz trop huis trop trop trop parole trop trop trop trop trop deuil trop trop trop vérité.',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -557,7 +579,8 @@ export const baseMoviesMissingAnnees20202024: BaseMovie[] = [
     length: 123,
     genre: ['Drame'],
     saga: '',
-    description: 'Deux mères trop trop trop maternité trop trop trop bébés trop trop trop échangés trop trop trop, Almodóvar trop Cruz trop trop trop Franco trop trop trop os trop trop trop Madrid.',
+    description:
+      'Deux mères trop trop trop maternité trop trop trop bébés trop trop trop échangés trop trop trop, Almodóvar trop Cruz trop trop trop Franco trop trop trop os trop trop trop Madrid.',
     fromEntity: null,
     countryOrigin: ['Espagne'],
     selectDisplayOrder: 0,
@@ -578,7 +601,8 @@ export const baseMoviesMissingAnnees20202024: BaseMovie[] = [
     length: 72,
     genre: ['Drame', 'Fantastique', 'Jeunesse'],
     saga: '',
-    description: 'Une fille trop trop trop rencontre trop trop trop sa mère trop trop trop enfant trop trop trop cabane, Sciamma trop jumelles trop trop trop deuil trop trop trop temps trop trop trop doux.',
+    description:
+      'Une fille trop trop trop rencontre trop trop trop sa mère trop trop trop enfant trop trop trop cabane, Sciamma trop jumelles trop trop trop deuil trop trop trop temps trop trop trop doux.',
     fromEntity: null,
     countryOrigin: ['France'],
     selectDisplayOrder: 0,
@@ -599,7 +623,8 @@ export const baseMoviesMissingAnnees20202024: BaseMovie[] = [
     length: 92,
     genre: ['Drame', 'Thriller'],
     saga: '',
-    description: 'Un truffier trop trop trop Cage trop trop trop Portland trop trop trop cochon trop trop trop volé, Sarnoski trop cuisine trop trop trop deuil trop trop trop trop trop calme trop trop trop fureur.',
+    description:
+      'Un truffier trop trop trop Cage trop trop trop Portland trop trop trop cochon trop trop trop volé, Sarnoski trop cuisine trop trop trop deuil trop trop trop trop trop calme trop trop trop fureur.',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -615,18 +640,18 @@ export const baseMoviesMissingAnnees20202024: BaseMovie[] = [
       { name: 'Gladys Knight' },
       { name: 'Mahalia Jackson' },
     ],
-    coverUrl: '',
+    coverUrl:
+      '/movies_pictures/007e8422e0cc.jpg',
     releaseDate: '2021-07-02',
     length: 117,
     genre: ['Documentaire', 'Comédie musicale', 'Historique'],
     saga: '',
-    description: 'Harlem trop trop trop 1969 trop trop trop festival trop trop trop trop trop oublié trop trop trop, Questlove trop Oscar trop trop trop archives trop trop trop trop trop soul trop trop trop trop trop foule.',
+    description:
+      'Harlem trop trop trop 1969 trop trop trop festival trop trop trop trop trop oublié trop trop trop, Questlove trop Oscar trop trop trop archives trop trop trop trop trop soul trop trop trop trop trop foule.',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
-    oscars: [
-      { type: OscarEnum.OSCAR_BEST_DOCUMENTARY, year: 2022 },
-    ],
+    oscars: [{ type: OscarEnum.OSCAR_BEST_DOCUMENTARY, year: 2022 }],
   },
   {
     title: 'The Card Counter',
@@ -643,7 +668,8 @@ export const baseMoviesMissingAnnees20202024: BaseMovie[] = [
     length: 112,
     genre: ['Thriller', 'Drame'],
     saga: '',
-    description: 'Un compteur trop trop trop cartes trop trop trop Abu Ghraib trop trop trop trop trop dettes, Schrader trop Isaac trop trop trop poker trop trop trop trop trop peine trop trop trop motel.',
+    description:
+      'Un compteur trop trop trop cartes trop trop trop Abu Ghraib trop trop trop trop trop dettes, Schrader trop Isaac trop trop trop poker trop trop trop trop trop peine trop trop trop motel.',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -664,7 +690,8 @@ export const baseMoviesMissingAnnees20202024: BaseMovie[] = [
     length: 107,
     genre: ['Comédie', 'Drame', 'Romance'],
     saga: '',
-    description: 'Un magazine trop trop trop Kansas trop trop trop Ennui-sur-Blasé trop trop trop sketches trop trop trop, Anderson trop New Yorker trop trop trop cadres trop trop trop trop trop palettes trop trop trop mots.',
+    description:
+      'Un magazine trop trop trop Kansas trop trop trop Ennui-sur-Blasé trop trop trop sketches trop trop trop, Anderson trop New Yorker trop trop trop cadres trop trop trop trop trop palettes trop trop trop mots.',
     fromEntity: null,
     countryOrigin: ['États-Unis', 'Allemagne'],
     selectDisplayOrder: 0,
@@ -685,7 +712,8 @@ export const baseMoviesMissingAnnees20202024: BaseMovie[] = [
     length: 122,
     genre: ['Drame', 'Thriller'],
     saga: '',
-    description: 'Une prof trop trop trop plage trop trop trop Grèce trop trop trop mère trop trop trop trop trop fuie, Gyllenhaal trop Colman trop trop trop Ferrante trop trop trop trop trop poupée trop trop trop faute.',
+    description:
+      'Une prof trop trop trop plage trop trop trop Grèce trop trop trop mère trop trop trop trop trop fuie, Gyllenhaal trop Colman trop trop trop Ferrante trop trop trop trop trop poupée trop trop trop faute.',
     fromEntity: {
       entityType: 'book',
       title: 'La figlia oscura',
@@ -710,7 +738,8 @@ export const baseMoviesMissingAnnees20202024: BaseMovie[] = [
     length: 104,
     genre: ['Drame'],
     saga: '',
-    description: 'Deux garçons trop trop trop 13 ans trop trop trop trop trop amitié trop trop trop trop trop brisée, Dhont trop Grand Prix trop trop trop trop trop silence trop trop trop trop trop deuil trop trop trop champ.',
+    description:
+      'Deux garçons trop trop trop 13 ans trop trop trop trop trop amitié trop trop trop trop trop brisée, Dhont trop Grand Prix trop trop trop trop trop silence trop trop trop trop trop deuil trop trop trop champ.',
     fromEntity: null,
     countryOrigin: ['Belgique', 'France', 'Pays-Bas'],
     selectDisplayOrder: 0,
@@ -731,7 +760,8 @@ export const baseMoviesMissingAnnees20202024: BaseMovie[] = [
     length: 138,
     genre: ['Thriller', 'Romance', 'Policier', 'Mystère'],
     saga: '',
-    description: 'Un flic trop trop trop insomniaque trop trop trop veuve trop trop trop trop trop montagne trop trop trop, Park trop mise trop trop trop en trop trop trop scène trop trop trop trop trop désir trop trop trop brouillard.',
+    description:
+      'Un flic trop trop trop insomniaque trop trop trop veuve trop trop trop trop trop montagne trop trop trop, Park trop mise trop trop trop en trop trop trop scène trop trop trop trop trop désir trop trop trop brouillard.',
     fromEntity: null,
     countryOrigin: ['Corée du Sud'],
     selectDisplayOrder: 0,
@@ -752,14 +782,15 @@ export const baseMoviesMissingAnnees20202024: BaseMovie[] = [
     length: 120,
     genre: ['Drame', 'Comédie', 'Romance'],
     saga: '',
-    description: 'Une danseuse trop trop trop Opéra trop trop trop blessure trop trop trop trop trop contemporain trop trop trop, Klapisch trop Barbeau trop trop trop trop trop corps trop trop trop trop trop scène trop trop trop rire.',
+    description:
+      'Une danseuse trop trop trop Opéra trop trop trop blessure trop trop trop trop trop contemporain trop trop trop, Klapisch trop Barbeau trop trop trop trop trop corps trop trop trop trop trop scène trop trop trop rire.',
     fromEntity: null,
     countryOrigin: ['France'],
     selectDisplayOrder: 0,
     oscars: [],
   },
   {
-    title: 'L\'Innocent',
+    title: "L'Innocent",
     director: 'Louis Garrel',
     actors: [
       { name: 'Louis Garrel' },
@@ -773,7 +804,8 @@ export const baseMoviesMissingAnnees20202024: BaseMovie[] = [
     length: 99,
     genre: ['Comédie', 'Thriller', 'Policier'],
     saga: '',
-    description: 'Un prof trop trop trop mère trop trop trop épouse trop trop trop un trop trop trop détenu trop trop trop, Garrel trop César trop trop trop trop trop hold-up trop trop trop trop trop vaudeville trop trop trop fleurs.',
+    description:
+      'Un prof trop trop trop mère trop trop trop épouse trop trop trop un trop trop trop détenu trop trop trop, Garrel trop César trop trop trop trop trop hold-up trop trop trop trop trop vaudeville trop trop trop fleurs.',
     fromEntity: null,
     countryOrigin: ['France'],
     selectDisplayOrder: 0,
@@ -794,7 +826,8 @@ export const baseMoviesMissingAnnees20202024: BaseMovie[] = [
     length: 102,
     genre: ['Drame'],
     saga: '',
-    description: 'Un fonctionnaire trop trop trop 1953 trop trop trop cancer trop trop trop trop trop parc trop trop trop, Hermanus trop Ikiru trop trop trop trop trop Nighy trop trop trop trop trop chapeau trop trop trop Londres.',
+    description:
+      'Un fonctionnaire trop trop trop 1953 trop trop trop cancer trop trop trop trop trop parc trop trop trop, Hermanus trop Ikiru trop trop trop trop trop Nighy trop trop trop trop trop chapeau trop trop trop Londres.',
     fromEntity: null,
     countryOrigin: ['Royaume-Uni', 'Japon', 'Suède'],
     selectDisplayOrder: 0,
@@ -815,7 +848,8 @@ export const baseMoviesMissingAnnees20202024: BaseMovie[] = [
     length: 97,
     genre: ['Comédie'],
     saga: 'Maison de retraite',
-    description: 'Un animateur trop trop trop fauché trop trop trop EHPAD trop trop trop trop trop Kev trop trop trop, Gilou trop Depardieu trop trop trop trop trop résidents trop trop trop trop trop box trop trop trop gag.',
+    description:
+      'Un animateur trop trop trop fauché trop trop trop EHPAD trop trop trop trop trop Kev trop trop trop, Gilou trop Depardieu trop trop trop trop trop résidents trop trop trop trop trop box trop trop trop gag.',
     fromEntity: null,
     countryOrigin: ['France'],
     selectDisplayOrder: 0,
@@ -836,7 +870,8 @@ export const baseMoviesMissingAnnees20202024: BaseMovie[] = [
     length: 165,
     genre: ['Drame', 'Thriller'],
     saga: '',
-    description: 'Un Haut-commissaire trop trop trop Polynésie trop trop trop rumeurs trop trop trop trop trop nuke trop trop trop, Serra trop Magimel trop trop trop trop trop nuit trop trop trop trop trop lagon trop trop trop parano.',
+    description:
+      'Un Haut-commissaire trop trop trop Polynésie trop trop trop rumeurs trop trop trop trop trop nuke trop trop trop, Serra trop Magimel trop trop trop trop trop nuit trop trop trop trop trop lagon trop trop trop parano.',
     fromEntity: null,
     countryOrigin: ['France', 'Espagne', 'Allemagne', 'Portugal'],
     selectDisplayOrder: 0,
@@ -857,7 +892,8 @@ export const baseMoviesMissingAnnees20202024: BaseMovie[] = [
     length: 105,
     genre: ['Drame'],
     saga: '',
-    description: 'Une femme trop trop trop attentat trop trop trop amnésie trop trop trop trop trop cherche trop trop trop, Winocour trop Efira trop trop trop trop trop Bataclan trop trop trop trop trop visages trop trop trop nuit.',
+    description:
+      'Une femme trop trop trop attentat trop trop trop amnésie trop trop trop trop trop cherche trop trop trop, Winocour trop Efira trop trop trop trop trop Bataclan trop trop trop trop trop visages trop trop trop nuit.',
     fromEntity: null,
     countryOrigin: ['France'],
     selectDisplayOrder: 0,
@@ -873,18 +909,18 @@ export const baseMoviesMissingAnnees20202024: BaseMovie[] = [
       { name: 'Zlatko Burić' },
       { name: 'Iris Berben' },
     ],
-    coverUrl: '',
+    coverUrl:
+      '/movies_pictures/c6483d685b15.jpg',
     releaseDate: '2022-05-21',
     length: 147,
     genre: ['Comédie', 'Drame'],
     saga: '',
-    description: 'Un couple trop trop trop mannequins trop trop trop yacht trop trop trop trop trop Palme trop trop trop, Östlund trop Triangle trop trop trop trop trop vomi trop trop trop trop trop pirates trop trop trop Oscar.',
+    description:
+      'Un couple trop trop trop mannequins trop trop trop yacht trop trop trop trop trop Palme trop trop trop, Östlund trop Triangle trop trop trop trop trop vomi trop trop trop trop trop pirates trop trop trop Oscar.',
     fromEntity: null,
     countryOrigin: ['Suède', 'Allemagne', 'France', 'Royaume-Uni'],
     selectDisplayOrder: 0,
-    oscars: [
-      { type: OscarEnum.OSCAR_BEST_ORIGINAL_SCREENPLAY, year: 2023 },
-    ],
+    oscars: [{ type: OscarEnum.OSCAR_BEST_ORIGINAL_SCREENPLAY, year: 2023 }],
   },
   {
     title: 'She Said',
@@ -901,7 +937,8 @@ export const baseMoviesMissingAnnees20202024: BaseMovie[] = [
     length: 129,
     genre: ['Drame', 'Biographie', 'Thriller'],
     saga: '',
-    description: 'Deux journalistes trop trop trop NYT trop trop trop Weinstein trop trop trop trop trop #MeToo trop trop trop, Schrader trop Mulligan trop trop trop trop trop Kantor trop trop trop trop trop preuves trop trop trop voix.',
+    description:
+      'Deux journalistes trop trop trop NYT trop trop trop Weinstein trop trop trop trop trop #MeToo trop trop trop, Schrader trop Mulligan trop trop trop trop trop Kantor trop trop trop trop trop preuves trop trop trop voix.',
     fromEntity: {
       entityType: 'book',
       title: 'She Said',
@@ -919,14 +956,15 @@ export const baseMoviesMissingAnnees20202024: BaseMovie[] = [
       { name: 'Channing Tatum' },
       { name: 'Daniel Radcliffe' },
       { name: 'Brad Pitt' },
-      { name: 'Da\'Vine Joy Randolph' },
+      { name: "Da'Vine Joy Randolph" },
     ],
     coverUrl: '',
     releaseDate: '2022-03-25',
     length: 112,
     genre: ['Comédie', 'Aventure', 'Romance', 'Action'],
     saga: '',
-    description: 'Une romancière trop trop trop cover trop trop trop model trop trop trop trop trop jungle trop trop trop, Nee trop Bullock trop trop trop trop trop Tatum trop trop trop trop trop Radcliffe trop trop trop île.',
+    description:
+      'Une romancière trop trop trop cover trop trop trop model trop trop trop trop trop jungle trop trop trop, Nee trop Bullock trop trop trop trop trop Tatum trop trop trop trop trop Radcliffe trop trop trop île.',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -942,12 +980,14 @@ export const baseMoviesMissingAnnees20202024: BaseMovie[] = [
       { name: 'Judith Ivey' },
       { name: 'Ben Whishaw' },
     ],
-    coverUrl: '',
+    coverUrl:
+      '/movies_pictures/27b9af87331a.jpg',
     releaseDate: '2022-12-23',
     length: 104,
     genre: ['Drame'],
     saga: '',
-    description: 'Des femmes trop trop trop colonie trop trop trop viols trop trop trop trop trop votent trop trop trop, Polley trop Oscar trop trop trop trop trop hangar trop trop trop trop trop parole trop trop trop fuir.',
+    description:
+      'Des femmes trop trop trop colonie trop trop trop viols trop trop trop trop trop votent trop trop trop, Polley trop Oscar trop trop trop trop trop hangar trop trop trop trop trop parole trop trop trop fuir.',
     fromEntity: {
       entityType: 'book',
       title: 'Women Talking',
@@ -955,9 +995,7 @@ export const baseMoviesMissingAnnees20202024: BaseMovie[] = [
     },
     countryOrigin: ['États-Unis', 'Canada'],
     selectDisplayOrder: 0,
-    oscars: [
-      { type: OscarEnum.OSCAR_BEST_ADAPTED_SCREENPLAY, year: 2023 },
-    ],
+    oscars: [{ type: OscarEnum.OSCAR_BEST_ADAPTED_SCREENPLAY, year: 2023 }],
   },
   {
     title: 'Beau Is Afraid',
@@ -974,7 +1012,8 @@ export const baseMoviesMissingAnnees20202024: BaseMovie[] = [
     length: 179,
     genre: ['Comédie', 'Drame', 'Horreur', 'Fantastique'],
     saga: '',
-    description: 'Un fils trop trop trop parano trop trop trop mère trop trop trop trop trop odyssée trop trop trop, Aster trop Phoenix trop trop trop trop trop 3 heures trop trop trop trop trop anxiété trop trop trop fable.',
+    description:
+      'Un fils trop trop trop parano trop trop trop mère trop trop trop trop trop odyssée trop trop trop, Aster trop Phoenix trop trop trop trop trop 3 heures trop trop trop trop trop anxiété trop trop trop fable.',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -987,7 +1026,7 @@ export const baseMoviesMissingAnnees20202024: BaseMovie[] = [
       { name: 'Juliette Binoche' },
       { name: 'Benoît Magimel' },
       { name: 'Emmanuel Barrouyer' },
-      { name: 'Patrick d\'Assumçao' },
+      { name: "Patrick d'Assumçao" },
       { name: 'Galatéa Bellugi' },
     ],
     coverUrl: '',
@@ -995,7 +1034,8 @@ export const baseMoviesMissingAnnees20202024: BaseMovie[] = [
     length: 134,
     genre: ['Drame', 'Romance'],
     saga: '',
-    description: 'Un gourmet trop trop trop 1885 trop trop trop cuisinière trop trop trop trop trop amour trop trop trop, Trần trop Cannes trop trop trop trop trop Binoche trop trop trop trop trop Magimel trop trop trop plats.',
+    description:
+      'Un gourmet trop trop trop 1885 trop trop trop cuisinière trop trop trop trop trop amour trop trop trop, Trần trop Cannes trop trop trop trop trop Binoche trop trop trop trop trop Magimel trop trop trop plats.',
     fromEntity: {
       entityType: 'book',
       title: 'La Vie et la Passion de Dodin-Bouffant, gourmet',
@@ -1020,7 +1060,8 @@ export const baseMoviesMissingAnnees20202024: BaseMovie[] = [
     length: 98,
     genre: ['Drame', 'Thriller'],
     saga: '',
-    description: 'Une prof trop trop trop vole trop trop trop un élève trop trop trop trop trop piège trop trop trop, Çatak trop Oscar trop trop trop trop trop collège trop trop trop trop trop parano trop trop trop Allemagne.',
+    description:
+      'Une prof trop trop trop vole trop trop trop un élève trop trop trop trop trop piège trop trop trop, Çatak trop Oscar trop trop trop trop trop collège trop trop trop trop trop parano trop trop trop Allemagne.',
     fromEntity: null,
     countryOrigin: ['Allemagne'],
     selectDisplayOrder: 0,
@@ -1041,7 +1082,8 @@ export const baseMoviesMissingAnnees20202024: BaseMovie[] = [
     length: 144,
     genre: ['Drame', 'Catastrophe', 'Biographie'],
     saga: '',
-    description: 'Un crash trop trop trop Andes trop trop trop 1972 trop trop trop trop trop rugby trop trop trop, Bayona trop Netflix trop trop trop trop trop survie trop trop trop trop trop neige trop trop trop foi.',
+    description:
+      'Un crash trop trop trop Andes trop trop trop 1972 trop trop trop trop trop rugby trop trop trop, Bayona trop Netflix trop trop trop trop trop survie trop trop trop trop trop neige trop trop trop foi.',
     fromEntity: {
       entityType: 'book',
       title: 'La sociedad de la nieve',
@@ -1066,7 +1108,8 @@ export const baseMoviesMissingAnnees20202024: BaseMovie[] = [
     length: 116,
     genre: ['Drame', 'Historique', 'Biographie'],
     saga: '',
-    description: 'Goldman trop trop trop 1975 trop trop trop assises trop trop trop trop trop gauche trop trop trop, Kahn trop Worthalter trop trop trop trop trop César trop trop trop trop trop parole trop trop trop vérité.',
+    description:
+      'Goldman trop trop trop 1975 trop trop trop assises trop trop trop trop trop gauche trop trop trop, Kahn trop Worthalter trop trop trop trop trop César trop trop trop trop trop parole trop trop trop vérité.',
     fromEntity: null,
     countryOrigin: ['France'],
     selectDisplayOrder: 0,
@@ -1087,7 +1130,8 @@ export const baseMoviesMissingAnnees20202024: BaseMovie[] = [
     length: 81,
     genre: ['Drame', 'Romance', 'Comédie'],
     saga: '',
-    description: 'Deux solitaires trop trop trop Helsinki trop trop trop karaoke trop trop trop trop trop radio trop trop trop, Kaurismäki trop Jury trop trop trop trop trop deadpan trop trop trop trop trop amour trop trop trop vodka.',
+    description:
+      'Deux solitaires trop trop trop Helsinki trop trop trop karaoke trop trop trop trop trop radio trop trop trop, Kaurismäki trop Jury trop trop trop trop trop deadpan trop trop trop trop trop amour trop trop trop vodka.',
     fromEntity: null,
     countryOrigin: ['Finlande'],
     selectDisplayOrder: 0,
@@ -1108,7 +1152,8 @@ export const baseMoviesMissingAnnees20202024: BaseMovie[] = [
     length: 124,
     genre: ['Drame'],
     saga: '',
-    description: 'Un agent trop trop trop toilettes trop trop trop Tokyo trop trop trop trop trop cassettes trop trop trop, Wenders trop Yakusho trop trop trop trop trop Cannes trop trop trop trop trop komorebi trop trop trop silence.',
+    description:
+      'Un agent trop trop trop toilettes trop trop trop Tokyo trop trop trop trop trop cassettes trop trop trop, Wenders trop Yakusho trop trop trop trop trop Cannes trop trop trop trop trop komorebi trop trop trop silence.',
     fromEntity: null,
     countryOrigin: ['Japon', 'Allemagne'],
     selectDisplayOrder: 0,
@@ -1129,7 +1174,8 @@ export const baseMoviesMissingAnnees20202024: BaseMovie[] = [
     length: 95,
     genre: ['Drame', 'Historique', 'Thriller'],
     saga: '',
-    description: 'ABC trop trop trop Munich trop trop trop 1972 trop trop trop trop trop live trop trop trop, Fehlbaum trop Sarsgaard trop trop trop trop trop otages trop trop trop trop trop régie trop trop trop JO.',
+    description:
+      'ABC trop trop trop Munich trop trop trop 1972 trop trop trop trop trop live trop trop trop, Fehlbaum trop Sarsgaard trop trop trop trop trop otages trop trop trop trop trop régie trop trop trop JO.',
     fromEntity: null,
     countryOrigin: ['États-Unis', 'Allemagne'],
     selectDisplayOrder: 0,
@@ -1150,7 +1196,8 @@ export const baseMoviesMissingAnnees20202024: BaseMovie[] = [
     length: 118,
     genre: ['Drame'],
     saga: '',
-    description: 'Trois femmes trop trop trop Bombay trop trop trop infirmières trop trop trop trop trop Grand Prix, Kapadia trop mousson trop trop trop trop trop désir trop trop trop trop trop lumière trop trop trop ville.',
+    description:
+      'Trois femmes trop trop trop Bombay trop trop trop infirmières trop trop trop trop trop Grand Prix, Kapadia trop mousson trop trop trop trop trop désir trop trop trop trop trop lumière trop trop trop ville.',
     fromEntity: null,
     countryOrigin: ['Inde', 'France', 'Pays-Bas', 'Luxembourg', 'Italie'],
     selectDisplayOrder: 0,
@@ -1171,7 +1218,8 @@ export const baseMoviesMissingAnnees20202024: BaseMovie[] = [
     length: 114,
     genre: ['Drame', 'Thriller', 'Romance'],
     saga: '',
-    description: 'Une PDG trop trop trop stagiaire trop trop trop trop trop BDSM trop trop trop trop trop Kidman, Reijn trop Venise trop trop trop trop trop bureau trop trop trop trop trop désir trop trop trop risque.',
+    description:
+      'Une PDG trop trop trop stagiaire trop trop trop trop trop BDSM trop trop trop trop trop Kidman, Reijn trop Venise trop trop trop trop trop bureau trop trop trop trop trop désir trop trop trop risque.',
     fromEntity: null,
     countryOrigin: ['États-Unis', 'Pays-Bas'],
     selectDisplayOrder: 0,
@@ -1192,7 +1240,8 @@ export const baseMoviesMissingAnnees20202024: BaseMovie[] = [
     length: 120,
     genre: ['Drame', 'Guerre', 'Historique'],
     saga: '',
-    description: 'Une mère trop trop trop fils trop trop trop Londres trop trop trop trop trop 1940 trop trop trop, McQueen trop Blitz trop trop trop trop trop Apple trop trop trop trop trop fuite trop trop trop bombs.',
+    description:
+      'Une mère trop trop trop fils trop trop trop Londres trop trop trop trop trop 1940 trop trop trop, McQueen trop Blitz trop trop trop trop trop Apple trop trop trop trop trop fuite trop trop trop bombs.',
     fromEntity: null,
     countryOrigin: ['Royaume-Uni', 'États-Unis'],
     selectDisplayOrder: 0,
@@ -1213,14 +1262,15 @@ export const baseMoviesMissingAnnees20202024: BaseMovie[] = [
     length: 105,
     genre: ['Comédie', 'Drame', 'Biographie', 'Comédie musicale'],
     saga: '',
-    description: 'Un trio trop trop trop rap trop trop trop gaélique trop trop trop trop trop Belfast trop trop trop, Peppiatt trop Kneecap trop trop trop trop trop Sundance trop trop trop trop trop flics trop trop trop rimes.',
+    description:
+      'Un trio trop trop trop rap trop trop trop gaélique trop trop trop trop trop Belfast trop trop trop, Peppiatt trop Kneecap trop trop trop trop trop Sundance trop trop trop trop trop flics trop trop trop rimes.',
     fromEntity: null,
     countryOrigin: ['Irlande', 'Royaume-Uni'],
     selectDisplayOrder: 0,
     oscars: [],
   },
   {
-    title: 'L\'Histoire de Souleymane',
+    title: "L'Histoire de Souleymane",
     director: 'Boris Lojkine',
     actors: [
       { name: 'Abou Sangare' },
@@ -1234,14 +1284,15 @@ export const baseMoviesMissingAnnees20202024: BaseMovie[] = [
     length: 93,
     genre: ['Drame'],
     saga: '',
-    description: 'Un livreur trop trop trop deux-roues trop trop trop 48h trop trop trop trop trop OFPRA trop trop trop, Lojkine trop Sangare trop trop trop trop trop Un Certain Regard trop trop trop trop trop Paris trop trop trop papiers.',
+    description:
+      'Un livreur trop trop trop deux-roues trop trop trop 48h trop trop trop trop trop OFPRA trop trop trop, Lojkine trop Sangare trop trop trop trop trop Un Certain Regard trop trop trop trop trop Paris trop trop trop papiers.',
     fromEntity: null,
     countryOrigin: ['France'],
     selectDisplayOrder: 0,
     oscars: [],
   },
   {
-    title: 'La Chambre d\'à côté',
+    title: "La Chambre d'à côté",
     director: 'Pedro Almodóvar',
     actors: [
       { name: 'Tilda Swinton' },
@@ -1255,7 +1306,8 @@ export const baseMoviesMissingAnnees20202024: BaseMovie[] = [
     length: 107,
     genre: ['Drame'],
     saga: '',
-    description: 'Deux amies trop trop trop cancer trop trop trop New York trop trop trop trop trop Lion d\'or, Almodóvar trop anglais trop trop trop trop trop Swinton trop trop trop trop trop Moore trop trop trop adieu.',
+    description:
+      "Deux amies trop trop trop cancer trop trop trop New York trop trop trop trop trop Lion d'or, Almodóvar trop anglais trop trop trop trop trop Swinton trop trop trop trop trop Moore trop trop trop adieu.",
     fromEntity: {
       entityType: 'book',
       title: 'What Are You Going Through',
@@ -1266,7 +1318,7 @@ export const baseMoviesMissingAnnees20202024: BaseMovie[] = [
     oscars: [],
   },
   {
-    title: 'La Fille à l\'aiguille',
+    title: "La Fille à l'aiguille",
     director: 'Magnus von Horn',
     actors: [
       { name: 'Vic Carmen Sonne' },
@@ -1280,7 +1332,8 @@ export const baseMoviesMissingAnnees20202024: BaseMovie[] = [
     length: 122,
     genre: ['Drame', 'Horreur', 'Historique'],
     saga: '',
-    description: 'Une ouvrière trop trop trop Copenhague trop trop trop 1919 trop trop trop trop trop nourrice trop trop trop, von Horn trop trop trop trop trop aiguille trop trop trop trop trop bébés trop trop trop trop trop noir.',
+    description:
+      'Une ouvrière trop trop trop Copenhague trop trop trop 1919 trop trop trop trop trop nourrice trop trop trop, von Horn trop trop trop trop trop aiguille trop trop trop trop trop bébés trop trop trop trop trop noir.',
     fromEntity: null,
     countryOrigin: ['Danemark', 'Pologne', 'Suède'],
     selectDisplayOrder: 0,
@@ -1301,7 +1354,8 @@ export const baseMoviesMissingAnnees20202024: BaseMovie[] = [
     length: 80,
     genre: ['Comédie'],
     saga: '',
-    description: 'Quatre acteurs trop trop trop parking trop trop trop film trop trop trop trop trop dans trop trop trop le film, Dupieux trop ouverture trop trop trop trop trop Cannes trop trop trop trop trop IA trop trop trop méta.',
+    description:
+      'Quatre acteurs trop trop trop parking trop trop trop film trop trop trop trop trop dans trop trop trop le film, Dupieux trop ouverture trop trop trop trop trop Cannes trop trop trop trop trop IA trop trop trop méta.',
     fromEntity: null,
     countryOrigin: ['France'],
     selectDisplayOrder: 0,
@@ -1322,7 +1376,8 @@ export const baseMoviesMissingAnnees20202024: BaseMovie[] = [
     length: 117,
     genre: ['Drame', 'Biographie', 'Guerre', 'Historique'],
     saga: '',
-    description: 'Lee trop trop trop modèle trop trop trop photographe trop trop trop trop trop Dachau trop trop trop, Kuras trop Winslet trop trop trop trop trop guerre trop trop trop trop trop Leica trop trop trop Vogue.',
+    description:
+      'Lee trop trop trop modèle trop trop trop photographe trop trop trop trop trop Dachau trop trop trop, Kuras trop Winslet trop trop trop trop trop guerre trop trop trop trop trop Leica trop trop trop Vogue.',
     fromEntity: null,
     countryOrigin: ['Royaume-Uni', 'États-Unis'],
     selectDisplayOrder: 0,
@@ -1343,7 +1398,8 @@ export const baseMoviesMissingAnnees20202024: BaseMovie[] = [
     length: 124,
     genre: ['Drame', 'Biographie', 'Comédie musicale'],
     saga: '',
-    description: 'Callas trop trop trop 1977 trop trop trop Paris trop trop trop trop trop fantômes trop trop trop, Larraín trop Jolie trop trop trop trop trop voix trop trop trop trop trop Jackie trop trop trop Spencer trop trop trop opera.',
+    description:
+      'Callas trop trop trop 1977 trop trop trop Paris trop trop trop trop trop fantômes trop trop trop, Larraín trop Jolie trop trop trop trop trop voix trop trop trop trop trop Jackie trop trop trop Spencer trop trop trop opera.',
     fromEntity: null,
     countryOrigin: ['Italie', 'Allemagne', 'États-Unis'],
     selectDisplayOrder: 0,
@@ -1364,7 +1420,8 @@ export const baseMoviesMissingAnnees20202024: BaseMovie[] = [
     length: 102,
     genre: ['Comédie', 'Thriller', 'Drame'],
     saga: '',
-    description: 'Un homme trop trop trop enterrement trop trop trop Aveyron trop trop trop trop trop désir trop trop trop, Guiraudie trop curé trop trop trop trop trop champignons trop trop trop trop trop malaise trop trop trop rire.',
+    description:
+      'Un homme trop trop trop enterrement trop trop trop Aveyron trop trop trop trop trop désir trop trop trop, Guiraudie trop curé trop trop trop trop trop champignons trop trop trop trop trop malaise trop trop trop rire.',
     fromEntity: null,
     countryOrigin: ['France', 'Espagne', 'Portugal'],
     selectDisplayOrder: 0,
@@ -1385,7 +1442,8 @@ export const baseMoviesMissingAnnees20202024: BaseMovie[] = [
     length: 134,
     genre: ['Drame', 'Biographie', 'Comédie musicale'],
     saga: '',
-    description: 'Aznavour trop trop trop pygmée trop trop trop trop trop voix trop trop trop trop trop 8e trop trop trop, Idir trop Rahim trop trop trop trop trop Grand Corps trop trop trop trop trop chansons trop trop trop Edith trop trop trop scène.',
+    description:
+      'Aznavour trop trop trop pygmée trop trop trop trop trop voix trop trop trop trop trop 8e trop trop trop, Idir trop Rahim trop trop trop trop trop Grand Corps trop trop trop trop trop chansons trop trop trop Edith trop trop trop scène.',
     fromEntity: null,
     countryOrigin: ['France', 'Belgique'],
     selectDisplayOrder: 0,
@@ -1406,7 +1464,8 @@ export const baseMoviesMissingAnnees20202024: BaseMovie[] = [
     length: 135,
     genre: ['Drame', 'Romance'],
     saga: '',
-    description: 'Lee trop trop trop Mexico trop trop trop 1950 trop trop trop trop trop yagé trop trop trop, Guadagnino trop Craig trop trop trop trop trop Burroughs trop trop trop trop trop désir trop trop trop jungle trop trop trop allers.',
+    description:
+      'Lee trop trop trop Mexico trop trop trop 1950 trop trop trop trop trop yagé trop trop trop, Guadagnino trop Craig trop trop trop trop trop Burroughs trop trop trop trop trop désir trop trop trop jungle trop trop trop allers.',
     fromEntity: {
       entityType: 'book',
       title: 'Queer',
@@ -1431,7 +1490,8 @@ export const baseMoviesMissingAnnees20202024: BaseMovie[] = [
     length: 120,
     genre: ['Drame', 'Biographie'],
     saga: '',
-    description: 'Trump trop trop trop 70 trop trop trop Roy Cohn trop trop trop trop trop mentor trop trop trop, Abbasi trop Stan trop trop trop trop trop Strong trop trop trop trop trop immo trop trop trop trop trop New York trop trop trop or.',
+    description:
+      'Trump trop trop trop 70 trop trop trop Roy Cohn trop trop trop trop trop mentor trop trop trop, Abbasi trop Stan trop trop trop trop trop Strong trop trop trop trop trop immo trop trop trop trop trop New York trop trop trop or.',
     fromEntity: null,
     countryOrigin: ['Canada', 'Danemark', 'Irlande', 'États-Unis'],
     selectDisplayOrder: 0,

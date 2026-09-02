@@ -20,14 +20,15 @@ export const baseMoviesMissingAnnees20052009: BaseMovie[] = [
     length: 90,
     genre: ['Thriller', 'Romance'],
     saga: '',
-    description: 'Une femme doit reconnaître un inconnu sur un train, Côte d\'Azur, Salle déjà trop lisse.',
+    description:
+      "Une femme doit reconnaître un inconnu sur un train, Côte d'Azur, Salle déjà trop lisse.",
     fromEntity: null,
     countryOrigin: ['France'],
     selectDisplayOrder: 0,
     oscars: [],
   },
   {
-    title: 'De battre mon cœur s\'est arrêté',
+    title: "De battre mon cœur s'est arrêté",
     director: 'Jacques Audiard',
     actors: [
       { name: 'Romain Duris' },
@@ -41,7 +42,8 @@ export const baseMoviesMissingAnnees20052009: BaseMovie[] = [
     length: 107,
     genre: ['Drame', 'Policier'],
     saga: '',
-    description: 'Un voyou reprend le piano trop tard, père trop dur, Audiard déjà trop tendu, Duris trop nerveux.',
+    description:
+      'Un voyou reprend le piano trop tard, père trop dur, Audiard déjà trop tendu, Duris trop nerveux.',
     fromEntity: null,
     countryOrigin: ['France'],
     selectDisplayOrder: 0,
@@ -62,7 +64,8 @@ export const baseMoviesMissingAnnees20052009: BaseMovie[] = [
     length: 93,
     genre: ['Drame', 'Historique', 'Biographie'],
     saga: '',
-    description: 'Murrow affronte McCarthy à la télé, noir et blanc, cigarettes, Clooney trop sobre.',
+    description:
+      'Murrow affronte McCarthy à la télé, noir et blanc, cigarettes, Clooney trop sobre.',
     fromEntity: null,
     countryOrigin: ['États-Unis', 'France', 'Royaume-Uni', 'Japon'],
     selectDisplayOrder: 0,
@@ -78,18 +81,18 @@ export const baseMoviesMissingAnnees20052009: BaseMovie[] = [
       { name: 'Taraji P. Henson' },
       { name: 'Ludacris' },
     ],
-    coverUrl: '',
+    coverUrl:
+      '/movies_pictures/371dcbe449ab.jpg',
     releaseDate: '2005-07-22',
     length: 116,
     genre: ['Drame', 'Comédie musicale'],
     saga: '',
-    description: 'Un maquereau de Memphis enregistre un tube, studio trop bricole, pimp too hard.',
+    description:
+      'Un maquereau de Memphis enregistre un tube, studio trop bricole, pimp too hard.',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
-    oscars: [
-      { type: OscarEnum.OSCAR_BEST_ORIGINAL_SONG, year: 2006 },
-    ],
+    oscars: [{ type: OscarEnum.OSCAR_BEST_ORIGINAL_SONG, year: 2006 }],
   },
   {
     title: 'Je vous trouve très beau',
@@ -106,7 +109,8 @@ export const baseMoviesMissingAnnees20052009: BaseMovie[] = [
     length: 90,
     genre: ['Comédie', 'Romance'],
     saga: '',
-    description: 'Un éleveur veuf fait venir une Roumaine trop jeune, Blanc déjà trop sec, trop tendre.',
+    description:
+      'Un éleveur veuf fait venir une Roumaine trop jeune, Blanc déjà trop sec, trop tendre.',
     fromEntity: null,
     countryOrigin: ['France'],
     selectDisplayOrder: 0,
@@ -127,14 +131,15 @@ export const baseMoviesMissingAnnees20052009: BaseMovie[] = [
     length: 116,
     genre: ['Guerre', 'Drame', 'Historique'],
     saga: '',
-    description: 'Noël 1914, les tranchées chantent, football trop bref, fraternisation trop vraie.',
+    description:
+      'Noël 1914, les tranchées chantent, football trop bref, fraternisation trop vraie.',
     fromEntity: null,
     countryOrigin: ['France', 'Allemagne', 'Royaume-Uni', 'Belgique'],
     selectDisplayOrder: 0,
     oscars: [],
   },
   {
-    title: 'L\'Enfant',
+    title: "L'Enfant",
     director: 'Jean-Pierre Dardenne',
     actors: [
       { name: 'Jérémie Renier' },
@@ -148,7 +153,8 @@ export const baseMoviesMissingAnnees20052009: BaseMovie[] = [
     length: 95,
     genre: ['Drame'],
     saga: '',
-    description: 'Bruno vend son nouveau-né, Seraing trop gris, Dardenne déjà trop proche, Palme trop sèche.',
+    description:
+      'Bruno vend son nouveau-né, Seraing trop gris, Dardenne déjà trop proche, Palme trop sèche.',
     fromEntity: null,
     countryOrigin: ['Belgique', 'France'],
     selectDisplayOrder: 0,
@@ -169,7 +175,8 @@ export const baseMoviesMissingAnnees20052009: BaseMovie[] = [
     length: 84,
     genre: ['Thriller', 'Drame'],
     saga: '',
-    description: 'Un homme se rase, personne ne se souvient de sa moustache, Hong Kong, Carrère trop angoissé.',
+    description:
+      'Un homme se rase, personne ne se souvient de sa moustache, Hong Kong, Carrère trop angoissé.',
     fromEntity: {
       entityType: 'book',
       title: 'La Moustache',
@@ -194,7 +201,8 @@ export const baseMoviesMissingAnnees20052009: BaseMovie[] = [
     length: 99,
     genre: ['Drame', 'Biographie', 'Historique'],
     saga: '',
-    description: 'Mitterrand mourant se raconte à un journaliste trop jeune, Bouquet trop vrai, secret trop lourd.',
+    description:
+      'Mitterrand mourant se raconte à un journaliste trop jeune, Bouquet trop vrai, secret trop lourd.',
     fromEntity: {
       entityType: 'book',
       title: 'Le Dernier Mitterrand',
@@ -219,7 +227,8 @@ export const baseMoviesMissingAnnees20052009: BaseMovie[] = [
     length: 129,
     genre: ['Thriller', 'Drame'],
     saga: '',
-    description: 'Un couple trop lisse, des lemmings dans les tuyaux, Rampling trop glaciale, Moll déjà trop trouble.',
+    description:
+      'Un couple trop lisse, des lemmings dans les tuyaux, Rampling trop glaciale, Moll déjà trop trouble.',
     fromEntity: null,
     countryOrigin: ['France'],
     selectDisplayOrder: 0,
@@ -240,7 +249,8 @@ export const baseMoviesMissingAnnees20052009: BaseMovie[] = [
     length: 175,
     genre: ['Drame', 'Romance', 'Historique'],
     saga: '',
-    description: 'Mai 68, un poète trop beau, l\'après trop vide, noir et blanc, Garrel déjà trop élégiaque.',
+    description:
+      "Mai 68, un poète trop beau, l'après trop vide, noir et blanc, Garrel déjà trop élégiaque.",
     fromEntity: null,
     countryOrigin: ['France'],
     selectDisplayOrder: 0,
@@ -261,7 +271,8 @@ export const baseMoviesMissingAnnees20052009: BaseMovie[] = [
     length: 102,
     genre: ['Action', 'Aventure'],
     saga: '',
-    description: 'Deux pilotes de Mirage, un vol trop vrai, Pirès déjà trop clip, ciel trop français.',
+    description:
+      'Deux pilotes de Mirage, un vol trop vrai, Pirès déjà trop clip, ciel trop français.',
     fromEntity: {
       entityType: 'comic',
       title: 'Les Chevaliers du ciel',
@@ -286,7 +297,8 @@ export const baseMoviesMissingAnnees20052009: BaseMovie[] = [
     length: 100,
     genre: ['Comédie'],
     saga: '',
-    description: 'Une princesse trop pop dans une monarchie trop coincée, Lemercier déjà trop libre.',
+    description:
+      'Une princesse trop pop dans une monarchie trop coincée, Lemercier déjà trop libre.',
     fromEntity: null,
     countryOrigin: ['France'],
     selectDisplayOrder: 0,
@@ -307,7 +319,8 @@ export const baseMoviesMissingAnnees20052009: BaseMovie[] = [
     length: 105,
     genre: ['Comédie', 'Drame'],
     saga: '',
-    description: 'Des héritiers trop brouillés doivent marcher jusqu\'à Compostelle, Serreau déjà trop morale.',
+    description:
+      "Des héritiers trop brouillés doivent marcher jusqu'à Compostelle, Serreau déjà trop morale.",
     fromEntity: null,
     countryOrigin: ['France'],
     selectDisplayOrder: 0,
@@ -318,7 +331,7 @@ export const baseMoviesMissingAnnees20052009: BaseMovie[] = [
     director: 'Terrence Malick',
     actors: [
       { name: 'Colin Farrell' },
-      { name: 'Q\'orianka Kilcher' },
+      { name: "Q'orianka Kilcher" },
       { name: 'Christopher Plummer' },
       { name: 'Christian Bale' },
       { name: 'Wes Studi' },
@@ -328,7 +341,8 @@ export const baseMoviesMissingAnnees20052009: BaseMovie[] = [
     length: 150,
     genre: ['Drame', 'Historique', 'Romance'],
     saga: '',
-    description: 'Pocahontas, Jamestown, Malick trop contemplatif, herbes, voix off, monde trop neuf.',
+    description:
+      'Pocahontas, Jamestown, Malick trop contemplatif, herbes, voix off, monde trop neuf.',
     fromEntity: null,
     countryOrigin: ['États-Unis', 'Royaume-Uni'],
     selectDisplayOrder: 0,
@@ -349,7 +363,8 @@ export const baseMoviesMissingAnnees20052009: BaseMovie[] = [
     length: 81,
     genre: ['Drame', 'Comédie'],
     saga: '',
-    description: 'Un divorce à Brooklyn, un père trop écrivain, des fils trop pris, Baumbach déjà trop autobiographique.',
+    description:
+      'Un divorce à Brooklyn, un père trop écrivain, des fils trop pris, Baumbach déjà trop autobiographique.',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -370,7 +385,8 @@ export const baseMoviesMissingAnnees20052009: BaseMovie[] = [
     length: 103,
     genre: ['Drame', 'Comédie'],
     saga: '',
-    description: 'Une femme trans découvre un fils trop street, road trip, Huffman trop juste, opération trop proche.',
+    description:
+      'Une femme trans découvre un fils trop street, road trip, Huffman trop juste, opération trop proche.',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -391,7 +407,8 @@ export const baseMoviesMissingAnnees20052009: BaseMovie[] = [
     length: 105,
     genre: ['Drame'],
     saga: '',
-    description: 'Des touristes trop âgées aiment des jeunes Haïtiens, Port-au-Prince trop tendu, Cantet trop froid.',
+    description:
+      'Des touristes trop âgées aiment des jeunes Haïtiens, Port-au-Prince trop tendu, Cantet trop froid.',
     fromEntity: {
       entityType: 'book',
       title: 'La Chair du maître',
@@ -411,18 +428,18 @@ export const baseMoviesMissingAnnees20052009: BaseMovie[] = [
       { name: 'Peter Kay' },
       { name: 'Nicholas Smith' },
     ],
-    coverUrl: '',
+    coverUrl:
+      '/movies_pictures/fd2eeaae84f3.jpg',
     releaseDate: '2005-10-14',
     length: 85,
     genre: ['Animation', 'Comédie', 'Jeunesse'],
     saga: 'Wallace et Gromit',
-    description: 'Un élevage de lapins trop inquiétant, pâte à modeler, fromage, Aardman trop malin.',
+    description:
+      'Un élevage de lapins trop inquiétant, pâte à modeler, fromage, Aardman trop malin.',
     fromEntity: null,
     countryOrigin: ['Royaume-Uni'],
     selectDisplayOrder: 0,
-    oscars: [
-      { type: OscarEnum.OSCAR_BEST_ANIMATED_FEATURE, year: 2006 },
-    ],
+    oscars: [{ type: OscarEnum.OSCAR_BEST_ANIMATED_FEATURE, year: 2006 }],
   },
   {
     title: 'Cœurs',
@@ -439,7 +456,8 @@ export const baseMoviesMissingAnnees20052009: BaseMovie[] = [
     length: 120,
     genre: ['Drame', 'Comédie', 'Romance'],
     saga: '',
-    description: 'Six solitudes parisiennes sous la neige, Resnais trop doux, cœurs trop gelés.',
+    description:
+      'Six solitudes parisiennes sous la neige, Resnais trop doux, cœurs trop gelés.',
     fromEntity: null,
     countryOrigin: ['France', 'Italie'],
     selectDisplayOrder: 0,
@@ -460,7 +478,8 @@ export const baseMoviesMissingAnnees20052009: BaseMovie[] = [
     length: 85,
     genre: ['Comédie'],
     saga: '',
-    description: 'Bruxelles, un costaud trop bête, répliques trop cultes, Damiens déjà trop fort.',
+    description:
+      'Bruxelles, un costaud trop bête, répliques trop cultes, Damiens déjà trop fort.',
     fromEntity: null,
     countryOrigin: ['Belgique', 'France'],
     selectDisplayOrder: 0,
@@ -476,12 +495,14 @@ export const baseMoviesMissingAnnees20052009: BaseMovie[] = [
       { name: 'Jennifer Hudson' },
       { name: 'Anika Noni Rose' },
     ],
-    coverUrl: '',
+    coverUrl:
+      '/movies_pictures/f005bf5e64bc.jpg',
     releaseDate: '2006-12-15',
     length: 130,
     genre: ['Comédie musicale', 'Drame'],
     saga: '',
-    description: 'Un girl group trop Motown, une voix trop grosse écartée, Hudson déjà trop vraie.',
+    description:
+      'Un girl group trop Motown, une voix trop grosse écartée, Hudson déjà trop vraie.',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -491,7 +512,7 @@ export const baseMoviesMissingAnnees20052009: BaseMovie[] = [
     ],
   },
   {
-    title: 'Fauteuils d\'orchestre',
+    title: "Fauteuils d'orchestre",
     director: 'Danièle Thompson',
     actors: [
       { name: 'Cécile de France' },
@@ -505,7 +526,8 @@ export const baseMoviesMissingAnnees20052009: BaseMovie[] = [
     length: 106,
     genre: ['Comédie', 'Drame'],
     saga: '',
-    description: 'Une serveuse trop vive croise une star trop lasse, Champs-Élysées, Thompson déjà trop mondaine.',
+    description:
+      'Une serveuse trop vive croise une star trop lasse, Champs-Élysées, Thompson déjà trop mondaine.',
     fromEntity: null,
     countryOrigin: ['France'],
     selectDisplayOrder: 0,
@@ -526,14 +548,15 @@ export const baseMoviesMissingAnnees20052009: BaseMovie[] = [
     length: 128,
     genre: ['Guerre', 'Drame', 'Historique'],
     saga: '',
-    description: 'Des tirailleurs nord-africains libèrent la France trop ingrate, Alsace, pensions trop oubliées.',
+    description:
+      'Des tirailleurs nord-africains libèrent la France trop ingrate, Alsace, pensions trop oubliées.',
     fromEntity: null,
     countryOrigin: ['France', 'Maroc', 'Belgique', 'Algérie'],
     selectDisplayOrder: 0,
     oscars: [],
   },
   {
-    title: 'Je vais bien, ne t\'en fais pas',
+    title: "Je vais bien, ne t'en fais pas",
     director: 'Philippe Lioret',
     actors: [
       { name: 'Mélanie Laurent' },
@@ -547,10 +570,11 @@ export const baseMoviesMissingAnnees20052009: BaseMovie[] = [
     length: 100,
     genre: ['Drame'],
     saga: '',
-    description: 'Une sœur trop anorexique cherche un frère trop disparu, Lioret déjà trop juste, Laurent trop vive.',
+    description:
+      'Une sœur trop anorexique cherche un frère trop disparu, Lioret déjà trop juste, Laurent trop vive.',
     fromEntity: {
       entityType: 'book',
-      title: 'Je vais bien, ne t\'en fais pas',
+      title: "Je vais bien, ne t'en fais pas",
       secondEntityKey: 'Olivier Adam',
     },
     countryOrigin: ['France'],
@@ -572,7 +596,8 @@ export const baseMoviesMissingAnnees20052009: BaseMovie[] = [
     length: 105,
     genre: ['Comédie', 'Romance', 'Fantastique'],
     saga: '',
-    description: 'Un Mexicain trop rêveur aime une voisine trop vraie, carton, stop-motion, Gondry déjà trop tendre.',
+    description:
+      'Un Mexicain trop rêveur aime une voisine trop vraie, carton, stop-motion, Gondry déjà trop tendre.',
     fromEntity: null,
     countryOrigin: ['France', 'Italie'],
     selectDisplayOrder: 0,
@@ -588,18 +613,18 @@ export const baseMoviesMissingAnnees20052009: BaseMovie[] = [
       { name: 'Ulrich Tukur' },
       { name: 'Thomas Thieme' },
     ],
-    coverUrl: '',
+    coverUrl:
+      '/movies_pictures/73170fa69dea.jpg',
     releaseDate: '2006-03-23',
     length: 137,
     genre: ['Drame', 'Thriller', 'Historique'],
     saga: '',
-    description: 'Un agent de la Stasi trop rigide s\'attache à un couple d\'artistes, RDA trop grise, trop juste.',
+    description:
+      "Un agent de la Stasi trop rigide s'attache à un couple d'artistes, RDA trop grise, trop juste.",
     fromEntity: null,
     countryOrigin: ['Allemagne'],
     selectDisplayOrder: 0,
-    oscars: [
-      { type: OscarEnum.OSCAR_BEST_INTERNATIONAL_FEATURE, year: 2007 },
-    ],
+    oscars: [{ type: OscarEnum.OSCAR_BEST_INTERNATIONAL_FEATURE, year: 2007 }],
   },
   {
     title: 'Le Voile des illusions',
@@ -616,7 +641,8 @@ export const baseMoviesMissingAnnees20052009: BaseMovie[] = [
     length: 125,
     genre: ['Drame', 'Romance', 'Historique'],
     saga: '',
-    description: 'Un couple trop mal marié, choléra en Chine, Watts trop belle, Maugham trop amer.',
+    description:
+      'Un couple trop mal marié, choléra en Chine, Watts trop belle, Maugham trop amer.',
     fromEntity: {
       entityType: 'book',
       title: 'The Painted Veil',
@@ -641,7 +667,8 @@ export const baseMoviesMissingAnnees20052009: BaseMovie[] = [
     length: 125,
     genre: ['Policier', 'Aventure', 'Historique'],
     saga: '',
-    description: '1912, la police trop moderne chasse un anarchiste, auto, Kruger trop spy, Baer trop dandy.',
+    description:
+      '1912, la police trop moderne chasse un anarchiste, auto, Kruger trop spy, Baer trop dandy.',
     fromEntity: {
       entityType: 'serie',
       title: 'Les Brigades du Tigre',
@@ -666,7 +693,8 @@ export const baseMoviesMissingAnnees20052009: BaseMovie[] = [
     length: 94,
     genre: ['Comédie', 'Drame'],
     saga: '',
-    description: 'Un antiquaire trop seul doit prouver qu\'il a un ami, Boon trop chaleureux, pari trop cruel.',
+    description:
+      "Un antiquaire trop seul doit prouver qu'il a un ami, Boon trop chaleureux, pari trop cruel.",
     fromEntity: null,
     countryOrigin: ['France'],
     selectDisplayOrder: 0,
@@ -687,7 +715,8 @@ export const baseMoviesMissingAnnees20052009: BaseMovie[] = [
     length: 131,
     genre: ['Thriller', 'Policier'],
     saga: '',
-    description: 'Un pédiatre croit sa femme morte trop vivante, Canet déjà trop Hollywood, Cluzet trop juste.',
+    description:
+      'Un pédiatre croit sa femme morte trop vivante, Canet déjà trop Hollywood, Cluzet trop juste.',
     fromEntity: {
       entityType: 'book',
       title: 'Ne le dis à personne',
@@ -712,7 +741,8 @@ export const baseMoviesMissingAnnees20052009: BaseMovie[] = [
     length: 92,
     genre: ['Drame', 'Thriller'],
     saga: '',
-    description: 'Une prof trop seule tient le journal d\'une collègue trop coupable, Dench trop venimeuse.',
+    description:
+      "Une prof trop seule tient le journal d'une collègue trop coupable, Dench trop venimeuse.",
     fromEntity: {
       entityType: 'book',
       title: 'Notes on a Scandal',
@@ -737,7 +767,8 @@ export const baseMoviesMissingAnnees20052009: BaseMovie[] = [
     length: 119,
     genre: ['Science Fiction', 'Horreur', 'Comédie', 'Drame'],
     saga: '',
-    description: 'Un monstre trop toxique sort de la Han, une famille trop bancale court après une gosse trop vive.',
+    description:
+      'Un monstre trop toxique sort de la Han, une famille trop bancale court après une gosse trop vive.',
     fromEntity: null,
     countryOrigin: ['Corée du Sud'],
     selectDisplayOrder: 0,
@@ -758,7 +789,8 @@ export const baseMoviesMissingAnnees20052009: BaseMovie[] = [
     length: 110,
     genre: ['Drame', 'Romance', 'Mystère'],
     saga: '',
-    description: 'Vienne 1900, un illusionniste trop amoureux, un prince trop jaloux, tour de passe-passe trop beau.',
+    description:
+      'Vienne 1900, un illusionniste trop amoureux, un prince trop jaloux, tour de passe-passe trop beau.',
     fromEntity: {
       entityType: 'book',
       title: 'Eisenheim the Illusionist',
@@ -778,12 +810,14 @@ export const baseMoviesMissingAnnees20052009: BaseMovie[] = [
       { name: 'Ronald Reagan' },
       { name: 'George Bush Sr.' },
     ],
-    coverUrl: '',
+    coverUrl:
+      '/movies_pictures/957044bd6cba.jpg',
     releaseDate: '2006-05-24',
     length: 96,
     genre: ['Documentaire'],
     saga: '',
-    description: 'Al Gore, slides trop clairs, climat trop chaud, Oscar trop politique.',
+    description:
+      'Al Gore, slides trop clairs, climat trop chaud, Oscar trop politique.',
     fromEntity: {
       entityType: 'book',
       title: 'An Inconvenient Truth',
@@ -811,7 +845,8 @@ export const baseMoviesMissingAnnees20052009: BaseMovie[] = [
     length: 96,
     genre: ['Comédie', 'Romance', 'Drame'],
     saga: '',
-    description: 'Un couple trop fragile passe deux jours à Paris, ex trop nombreux, Delpy déjà trop vive.',
+    description:
+      'Un couple trop fragile passe deux jours à Paris, ex trop nombreux, Delpy déjà trop vive.',
     fromEntity: null,
     countryOrigin: ['France', 'Allemagne'],
     selectDisplayOrder: 0,
@@ -832,7 +867,8 @@ export const baseMoviesMissingAnnees20052009: BaseMovie[] = [
     length: 133,
     genre: ['Comédie musicale', 'Drame', 'Romance'],
     saga: '',
-    description: 'Les sixties en chansons Beatles, Viet Nam, pommes trop Taymor, Lucy in the sky trop littéral.',
+    description:
+      'Les sixties en chansons Beatles, Viet Nam, pommes trop Taymor, Lucy in the sky trop littéral.',
     fromEntity: null,
     countryOrigin: ['États-Unis', 'Royaume-Uni'],
     selectDisplayOrder: 0,
@@ -853,7 +889,8 @@ export const baseMoviesMissingAnnees20052009: BaseMovie[] = [
     length: 117,
     genre: ['Thriller', 'Drame', 'Policier'],
     saga: '',
-    description: 'Deux frères braquent la bijouterie de leurs parents, Lumet trop féroce, hold-up trop familial.',
+    description:
+      'Deux frères braquent la bijouterie de leurs parents, Lumet trop féroce, hold-up trop familial.',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -874,7 +911,8 @@ export const baseMoviesMissingAnnees20052009: BaseMovie[] = [
     length: 122,
     genre: ['Drame', 'Biographie', 'Comédie musicale'],
     saga: '',
-    description: 'Ian Curtis, Joy Division, épilepsie, noir et blanc, Corbijn trop photographe, trop juste.',
+    description:
+      'Ian Curtis, Joy Division, épilepsie, noir et blanc, Corbijn trop photographe, trop juste.',
     fromEntity: {
       entityType: 'book',
       title: 'Touching from a Distance',
@@ -885,7 +923,7 @@ export const baseMoviesMissingAnnees20052009: BaseMovie[] = [
     oscars: [],
   },
   {
-    title: 'Dans la vallée d\'Elah',
+    title: "Dans la vallée d'Elah",
     director: 'Paul Haggis',
     actors: [
       { name: 'Tommy Lee Jones' },
@@ -899,7 +937,8 @@ export const baseMoviesMissingAnnees20052009: BaseMovie[] = [
     length: 121,
     genre: ['Drame', 'Policier', 'Guerre'],
     saga: '',
-    description: 'Un père trop militaire cherche son fils rentré d\'Irak, morceaux trop épars, drapeau trop brûlé.',
+    description:
+      "Un père trop militaire cherche son fils rentré d'Irak, morceaux trop épars, drapeau trop brûlé.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -920,7 +959,8 @@ export const baseMoviesMissingAnnees20052009: BaseMovie[] = [
     length: 109,
     genre: ['Drame', 'Comédie'],
     saga: '',
-    description: 'Un peintre parisien retrouve un copain trop jardinier, légumes, cancer trop discret, Becker.',
+    description:
+      'Un peintre parisien retrouve un copain trop jardinier, légumes, cancer trop discret, Becker.',
     fromEntity: {
       entityType: 'book',
       title: 'Dialogue avec mon jardinier',
@@ -931,7 +971,7 @@ export const baseMoviesMissingAnnees20052009: BaseMovie[] = [
     oscars: [],
   },
   {
-    title: 'L\'Ennemi intime',
+    title: "L'Ennemi intime",
     director: 'Florent Emilio Siri',
     actors: [
       { name: 'Benoît Magimel' },
@@ -945,7 +985,8 @@ export const baseMoviesMissingAnnees20052009: BaseMovie[] = [
     length: 111,
     genre: ['Guerre', 'Drame'],
     saga: '',
-    description: 'Algérie 1959, un lieutenant trop neuf, un sergent trop usé, ratissages trop vrais.',
+    description:
+      'Algérie 1959, un lieutenant trop neuf, un sergent trop usé, ratissages trop vrais.',
     fromEntity: null,
     countryOrigin: ['France'],
     selectDisplayOrder: 0,
@@ -966,7 +1007,8 @@ export const baseMoviesMissingAnnees20052009: BaseMovie[] = [
     length: 151,
     genre: ['Drame'],
     saga: '',
-    description: 'Un ouvrier trop licencié ouvre un resto de couscous, fille trop danseuse, Kechiche trop long, trop juste.',
+    description:
+      'Un ouvrier trop licencié ouvre un resto de couscous, fille trop danseuse, Kechiche trop long, trop juste.',
     fromEntity: null,
     countryOrigin: ['France'],
     selectDisplayOrder: 0,
@@ -987,7 +1029,8 @@ export const baseMoviesMissingAnnees20052009: BaseMovie[] = [
     length: 106,
     genre: ['Comédie', 'Drame', 'Romance'],
     saga: '',
-    description: 'Un taciturne présente une poupée trop réelle, un village trop doux, Gosling déjà trop tendre.',
+    description:
+      'Un taciturne présente une poupée trop réelle, un village trop doux, Gosling déjà trop tendre.',
     fromEntity: null,
     countryOrigin: ['États-Unis', 'Canada'],
     selectDisplayOrder: 0,
@@ -1008,7 +1051,8 @@ export const baseMoviesMissingAnnees20052009: BaseMovie[] = [
     length: 128,
     genre: ['Drame'],
     saga: '',
-    description: 'Deux enfants de Kaboul, une trahison trop lourde, un retour trop tard, cerfs-volants trop hauts.',
+    description:
+      'Deux enfants de Kaboul, une trahison trop lourde, un retour trop tard, cerfs-volants trop hauts.',
     fromEntity: {
       entityType: 'book',
       title: 'Les Cerfs-volants de Kaboul',
@@ -1033,7 +1077,8 @@ export const baseMoviesMissingAnnees20052009: BaseMovie[] = [
     length: 112,
     genre: ['Drame', 'Romance'],
     saga: '',
-    description: '1984, le sida trop tôt, un flic trop droit, Téchiné déjà trop juste, Blanc trop secret.',
+    description:
+      '1984, le sida trop tôt, un flic trop droit, Téchiné déjà trop juste, Blanc trop secret.',
     fromEntity: null,
     countryOrigin: ['France'],
     selectDisplayOrder: 0,
@@ -1054,7 +1099,8 @@ export const baseMoviesMissingAnnees20052009: BaseMovie[] = [
     length: 157,
     genre: ['Drame', 'Thriller', 'Romance', 'Historique'],
     saga: '',
-    description: 'Shanghai occupée, une étudiante trop espionne, un collabo trop dangereux, Lee trop charnel.',
+    description:
+      'Shanghai occupée, une étudiante trop espionne, un collabo trop dangereux, Lee trop charnel.',
     fromEntity: {
       entityType: 'book',
       title: 'Lust, Caution',
@@ -1074,18 +1120,18 @@ export const baseMoviesMissingAnnees20052009: BaseMovie[] = [
       { name: 'Gerard Hendrick' },
       { name: 'Alaistair Foley' },
     ],
-    coverUrl: '',
+    coverUrl:
+      '/movies_pictures/b54f0a41dcff.jpg',
     releaseDate: '2007-03-23',
     length: 85,
     genre: ['Drame', 'Romance', 'Comédie musicale'],
     saga: '',
-    description: 'Un musicien trop fauché, une Tchèque trop vraie, Dublin, une chanson trop Oscar.',
+    description:
+      'Un musicien trop fauché, une Tchèque trop vraie, Dublin, une chanson trop Oscar.',
     fromEntity: null,
     countryOrigin: ['Irlande'],
     selectDisplayOrder: 0,
-    oscars: [
-      { type: OscarEnum.OSCAR_BEST_ORIGINAL_SONG, year: 2008 },
-    ],
+    oscars: [{ type: OscarEnum.OSCAR_BEST_ORIGINAL_SONG, year: 2008 }],
   },
   {
     title: 'The Assassination of Jesse James',
@@ -1102,7 +1148,8 @@ export const baseMoviesMissingAnnees20052009: BaseMovie[] = [
     length: 160,
     genre: ['Western', 'Drame', 'Biographie'],
     saga: '',
-    description: 'Robert Ford trop fan tue Jesse trop fatigué, hiver trop long, Dominik trop beau.',
+    description:
+      'Robert Ford trop fan tue Jesse trop fatigué, hiver trop long, Dominik trop beau.',
     fromEntity: {
       entityType: 'book',
       title: 'The Assassination of Jesse James by the Coward Robert Ford',
@@ -1127,14 +1174,15 @@ export const baseMoviesMissingAnnees20052009: BaseMovie[] = [
     length: 101,
     genre: ['Drame'],
     saga: '',
-    description: '1983, un gamin trop seul rejoint des skinheads trop durs, Meadows trop juste, trop vrai.',
+    description:
+      '1983, un gamin trop seul rejoint des skinheads trop durs, Meadows trop juste, trop vrai.',
     fromEntity: null,
     countryOrigin: ['Royaume-Uni'],
     selectDisplayOrder: 0,
     oscars: [],
   },
   {
-    title: 'Un baiser s\'il vous plaît',
+    title: "Un baiser s'il vous plaît",
     director: 'Emmanuel Mouret',
     actors: [
       { name: 'Virginie Ledoyen' },
@@ -1148,7 +1196,8 @@ export const baseMoviesMissingAnnees20052009: BaseMovie[] = [
     length: 102,
     genre: ['Comédie', 'Romance'],
     saga: '',
-    description: 'Un baiser trop anodin tout gâcher, Marivaux trop contemporain, Mouret déjà trop fin.',
+    description:
+      'Un baiser trop anodin tout gâcher, Marivaux trop contemporain, Mouret déjà trop fin.',
     fromEntity: null,
     countryOrigin: ['France'],
     selectDisplayOrder: 0,
@@ -1169,7 +1218,8 @@ export const baseMoviesMissingAnnees20052009: BaseMovie[] = [
     length: 105,
     genre: ['Drame', 'Historique'],
     saga: '',
-    description: 'Une famille trop sportive cache une première femme trop morte, Occupation trop présente.',
+    description:
+      'Une famille trop sportive cache une première femme trop morte, Occupation trop présente.',
     fromEntity: {
       entityType: 'book',
       title: 'Un secret',
@@ -1194,7 +1244,8 @@ export const baseMoviesMissingAnnees20052009: BaseMovie[] = [
     length: 116,
     genre: ['Comédie musicale', 'Drame'],
     saga: '',
-    description: '1936, un music-hall trop fauché, Front populaire, Barratier déjà trop Choristes.',
+    description:
+      '1936, un music-hall trop fauché, Front populaire, Barratier déjà trop Choristes.',
     fromEntity: null,
     countryOrigin: ['France', 'Allemagne', 'Tchéquie'],
     selectDisplayOrder: 0,
@@ -1215,7 +1266,8 @@ export const baseMoviesMissingAnnees20052009: BaseMovie[] = [
     length: 137,
     genre: ['Drame', 'Policier'],
     saga: '',
-    description: 'Cinq vies trop ordinaires dans le système camorriste, Naples trop vraie, Garrone trop sec.',
+    description:
+      'Cinq vies trop ordinaires dans le système camorriste, Naples trop vraie, Garrone trop sec.',
     fromEntity: {
       entityType: 'book',
       title: 'Gomorra',
@@ -1240,14 +1292,15 @@ export const baseMoviesMissingAnnees20052009: BaseMovie[] = [
     length: 118,
     genre: ['Comédie', 'Drame'],
     saga: '',
-    description: 'Poppy trop joyeuse, un moniteur trop rageur, Leigh déjà trop juste, sourire trop tenace.',
+    description:
+      'Poppy trop joyeuse, un moniteur trop rageur, Leigh déjà trop juste, sourire trop tenace.',
     fromEntity: null,
     countryOrigin: ['Royaume-Uni'],
     selectDisplayOrder: 0,
     oscars: [],
   },
   {
-    title: 'Il y a longtemps que je t\'aime',
+    title: "Il y a longtemps que je t'aime",
     director: 'Philippe Claudel',
     actors: [
       { name: 'Kristin Scott Thomas' },
@@ -1261,7 +1314,8 @@ export const baseMoviesMissingAnnees20052009: BaseMovie[] = [
     length: 117,
     genre: ['Drame'],
     saga: '',
-    description: 'Une femme trop longtemps en prison retrouve sa sœur, secret trop lourd, Scott Thomas trop juste.',
+    description:
+      'Une femme trop longtemps en prison retrouve sa sœur, secret trop lourd, Scott Thomas trop juste.',
     fromEntity: null,
     countryOrigin: ['France', 'Allemagne'],
     selectDisplayOrder: 0,
@@ -1282,14 +1336,15 @@ export const baseMoviesMissingAnnees20052009: BaseMovie[] = [
     length: 114,
     genre: ['Drame', 'Comédie'],
     saga: '',
-    description: 'Cinq jours, cinq ans, une famille trop normale, Bezançon déjà trop choral, trop juste.',
+    description:
+      'Cinq jours, cinq ans, une famille trop normale, Bezançon déjà trop choral, trop juste.',
     fromEntity: null,
     countryOrigin: ['France'],
     selectDisplayOrder: 0,
     oscars: [],
   },
   {
-    title: 'Les Femmes de l\'ombre',
+    title: "Les Femmes de l'ombre",
     director: 'Jean-Paul Salomé',
     actors: [
       { name: 'Sophie Marceau' },
@@ -1303,7 +1358,8 @@ export const baseMoviesMissingAnnees20052009: BaseMovie[] = [
     length: 118,
     genre: ['Guerre', 'Thriller', 'Historique'],
     saga: '',
-    description: 'Des résistantes trop oubliées, un internat trop nazi, Marceau trop SOE, Occupation trop tendue.',
+    description:
+      'Des résistantes trop oubliées, un internat trop nazi, Marceau trop SOE, Occupation trop tendue.',
     fromEntity: null,
     countryOrigin: ['France'],
     selectDisplayOrder: 0,
@@ -1324,7 +1380,8 @@ export const baseMoviesMissingAnnees20052009: BaseMovie[] = [
     length: 137,
     genre: ['Guerre', 'Drame', 'Historique'],
     saga: '',
-    description: 'Des frères Bielski trop durs sauvent des milliers de juifs dans la forêt biélorusse, Zwick trop Hollywood.',
+    description:
+      'Des frères Bielski trop durs sauvent des milliers de juifs dans la forêt biélorusse, Zwick trop Hollywood.',
     fromEntity: {
       entityType: 'book',
       title: 'Defiance',
@@ -1344,12 +1401,13 @@ export const baseMoviesMissingAnnees20052009: BaseMovie[] = [
       { name: 'Jean-François Heckel' },
       { name: 'Barry Greenhouse' },
     ],
-    coverUrl: '',
+    coverUrl: '/movies_pictures/483b709caf63.jpg',
     releaseDate: '2008-07-25',
     length: 94,
     genre: ['Documentaire'],
     saga: '',
-    description: 'Petit tend un câble entre les Twin Towers, 1974, funambule trop fou, Oscar trop léger.',
+    description:
+      'Petit tend un câble entre les Twin Towers, 1974, funambule trop fou, Oscar trop léger.',
     fromEntity: {
       entityType: 'book',
       title: 'To Reach the Clouds',
@@ -1357,12 +1415,10 @@ export const baseMoviesMissingAnnees20052009: BaseMovie[] = [
     },
     countryOrigin: ['Royaume-Uni'],
     selectDisplayOrder: 0,
-    oscars: [
-      { type: OscarEnum.OSCAR_BEST_DOCUMENTARY, year: 2009 },
-    ],
+    oscars: [{ type: OscarEnum.OSCAR_BEST_DOCUMENTARY, year: 2009 }],
   },
   {
-    title: 'Mesrine : L\'Ennemi public n°1',
+    title: "Mesrine : L'Ennemi public n°1",
     director: 'Jean-François Richet',
     actors: [
       { name: 'Vincent Cassel' },
@@ -1376,10 +1432,11 @@ export const baseMoviesMissingAnnees20052009: BaseMovie[] = [
     length: 133,
     genre: ['Policier', 'Biographie', 'Drame', 'Action'],
     saga: 'Mesrine',
-    description: 'Mesrine trop médiatique, La Santé trop poreuse, Cassel trop fort, fin trop mitraillée.',
+    description:
+      'Mesrine trop médiatique, La Santé trop poreuse, Cassel trop fort, fin trop mitraillée.',
     fromEntity: {
       entityType: 'book',
-      title: 'L\'Instinct de mort',
+      title: "L'Instinct de mort",
       secondEntityKey: 'Jacques Mesrine',
     },
     countryOrigin: ['France', 'Canada'],
@@ -1387,7 +1444,7 @@ export const baseMoviesMissingAnnees20052009: BaseMovie[] = [
     oscars: [],
   },
   {
-    title: 'Mesrine : L\'Instinct de mort',
+    title: "Mesrine : L'Instinct de mort",
     director: 'Jean-François Richet',
     actors: [
       { name: 'Vincent Cassel' },
@@ -1401,10 +1458,11 @@ export const baseMoviesMissingAnnees20052009: BaseMovie[] = [
     length: 113,
     genre: ['Policier', 'Biographie', 'Drame', 'Action'],
     saga: 'Mesrine',
-    description: 'De l\'Algérie au Québec, Mesrine trop violent devient trop célèbre, Cassel déjà trop vivant.',
+    description:
+      "De l'Algérie au Québec, Mesrine trop violent devient trop célèbre, Cassel déjà trop vivant.",
     fromEntity: {
       entityType: 'book',
-      title: 'L\'Instinct de mort',
+      title: "L'Instinct de mort",
       secondEntityKey: 'Jacques Mesrine',
     },
     countryOrigin: ['France', 'Canada'],
@@ -1426,7 +1484,8 @@ export const baseMoviesMissingAnnees20052009: BaseMovie[] = [
     length: 130,
     genre: ['Drame', 'Comédie', 'Romance'],
     saga: '',
-    description: 'Un danseur trop malade, des vies trop parisiennes, Klapisch déjà trop choral, toit trop beau.',
+    description:
+      'Un danseur trop malade, des vies trop parisiennes, Klapisch déjà trop choral, toit trop beau.',
     fromEntity: null,
     countryOrigin: ['France'],
     selectDisplayOrder: 0,
@@ -1439,7 +1498,7 @@ export const baseMoviesMissingAnnees20052009: BaseMovie[] = [
       { name: 'Paul Rudd' },
       { name: 'Seann William Scott' },
       { name: 'Christopher Mintz-Plasse' },
-      { name: 'Bobb\'e J. Thompson' },
+      { name: "Bobb'e J. Thompson" },
       { name: 'Jane Lynch' },
     ],
     coverUrl: '',
@@ -1447,7 +1506,8 @@ export const baseMoviesMissingAnnees20052009: BaseMovie[] = [
     length: 99,
     genre: ['Comédie'],
     saga: '',
-    description: 'Deux vendeurs trop immatures mentorent des gosses trop différents, LARP trop nerd, Rudd trop sec.',
+    description:
+      'Deux vendeurs trop immatures mentorent des gosses trop différents, LARP trop nerd, Rudd trop sec.',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -1468,7 +1528,8 @@ export const baseMoviesMissingAnnees20052009: BaseMovie[] = [
     length: 125,
     genre: ['Drame', 'Biographie'],
     saga: '',
-    description: 'Séraphine de Senlis, femme de ménage trop peintre, Uhde trop mécène, Moreau trop juste.',
+    description:
+      'Séraphine de Senlis, femme de ménage trop peintre, Uhde trop mécène, Moreau trop juste.',
     fromEntity: null,
     countryOrigin: ['France', 'Belgique'],
     selectDisplayOrder: 0,
@@ -1489,7 +1550,8 @@ export const baseMoviesMissingAnnees20052009: BaseMovie[] = [
     length: 124,
     genre: ['Drame'],
     saga: '',
-    description: 'Un metteur en scène trop malade reconstruit sa vie en hangar trop grand, Kaufman trop vertigineux.',
+    description:
+      'Un metteur en scène trop malade reconstruit sa vie en hangar trop grand, Kaufman trop vertigineux.',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -1510,7 +1572,8 @@ export const baseMoviesMissingAnnees20052009: BaseMovie[] = [
     length: 150,
     genre: ['Drame', 'Comédie'],
     saga: '',
-    description: 'Une famille trop cancéreuse se réunit à Roubaix, Desplechin trop bavard, trop Shakespeare, trop Noël.',
+    description:
+      'Une famille trop cancéreuse se réunit à Roubaix, Desplechin trop bavard, trop Shakespeare, trop Noël.',
     fromEntity: null,
     countryOrigin: ['France'],
     selectDisplayOrder: 0,
@@ -1531,14 +1594,15 @@ export const baseMoviesMissingAnnees20052009: BaseMovie[] = [
     length: 90,
     genre: ['Animation', 'Documentaire', 'Guerre'],
     saga: '',
-    description: 'Un soldat trop amnésique reconstitue Sabra et Chatila, rotoscope trop hypnotique, mémoire trop trouée.',
+    description:
+      'Un soldat trop amnésique reconstitue Sabra et Chatila, rotoscope trop hypnotique, mémoire trop trouée.',
     fromEntity: null,
     countryOrigin: ['Israël', 'France', 'Allemagne'],
     selectDisplayOrder: 0,
     oscars: [],
   },
   {
-    title: 'À l\'origine',
+    title: "À l'origine",
     director: 'Xavier Giannoli',
     actors: [
       { name: 'François Cluzet' },
@@ -1552,7 +1616,8 @@ export const baseMoviesMissingAnnees20052009: BaseMovie[] = [
     length: 130,
     genre: ['Drame'],
     saga: '',
-    description: 'Un escroc trop fatigué lance un chantier d\'autoroute trop vrai, un village trop croyant, Cluzet trop juste.',
+    description:
+      "Un escroc trop fatigué lance un chantier d'autoroute trop vrai, un village trop croyant, Cluzet trop juste.",
     fromEntity: null,
     countryOrigin: ['France'],
     selectDisplayOrder: 0,
@@ -1565,7 +1630,7 @@ export const baseMoviesMissingAnnees20052009: BaseMovie[] = [
       { name: 'Sacha Baron Cohen' },
       { name: 'Gustaf Hammarsten' },
       { name: 'Clifford Bañagale' },
-      { name: 'Chriz\'n' },
+      { name: "Chriz'n" },
       { name: 'Josh Meyers' },
     ],
     coverUrl: '',
@@ -1573,7 +1638,8 @@ export const baseMoviesMissingAnnees20052009: BaseMovie[] = [
     length: 81,
     genre: ['Comédie'],
     saga: '',
-    description: 'Un Autrichien trop gay chasse la célébrité américaine, pièges trop cruels, Cohen déjà trop Borat.',
+    description:
+      'Un Autrichien trop gay chasse la célébrité américaine, pièges trop cruels, Cohen déjà trop Borat.',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -1594,7 +1660,8 @@ export const baseMoviesMissingAnnees20052009: BaseMovie[] = [
     length: 105,
     genre: ['Drame', 'Biographie', 'Historique'],
     saga: '',
-    description: 'Gabrielle trop pauvre devient Chanel, orphelinat, amants trop riches, Tautou trop miniature.',
+    description:
+      'Gabrielle trop pauvre devient Chanel, orphelinat, amants trop riches, Tautou trop miniature.',
     fromEntity: null,
     countryOrigin: ['France', 'Belgique'],
     selectDisplayOrder: 0,
@@ -1615,7 +1682,8 @@ export const baseMoviesMissingAnnees20052009: BaseMovie[] = [
     length: 127,
     genre: ['Drame', 'Romance', 'Thriller'],
     saga: '',
-    description: 'Un cinéaste trop aveugle, une actrice trop morte, Almodóvar trop mélo, trop cinéma dans le cinéma.',
+    description:
+      'Un cinéaste trop aveugle, une actrice trop morte, Almodóvar trop mélo, trop cinéma dans le cinéma.',
     fromEntity: null,
     countryOrigin: ['Espagne'],
     selectDisplayOrder: 0,
@@ -1636,7 +1704,8 @@ export const baseMoviesMissingAnnees20052009: BaseMovie[] = [
     length: 123,
     genre: ['Drame'],
     saga: '',
-    description: 'Une ado trop rageuse de Essex, un beau-père trop charmeur, Arnold trop proche, hip-hop trop fort.',
+    description:
+      'Une ado trop rageuse de Essex, un beau-père trop charmeur, Arnold trop proche, hip-hop trop fort.',
     fromEntity: null,
     countryOrigin: ['Royaume-Uni'],
     selectDisplayOrder: 0,
@@ -1657,7 +1726,8 @@ export const baseMoviesMissingAnnees20052009: BaseMovie[] = [
     length: 105,
     genre: ['Comédie', 'Romance'],
     saga: '',
-    description: 'Un fiancé trop sans potes cherche un témoin, bromance trop assumée, Rush trop loud.',
+    description:
+      'Un fiancé trop sans potes cherche un témoin, bromance trop assumée, Rush trop loud.',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -1678,7 +1748,8 @@ export const baseMoviesMissingAnnees20052009: BaseMovie[] = [
     length: 106,
     genre: ['Comédie'],
     saga: '',
-    description: 'La guerre se décide à coups d\'insultes trop britanniques, Capaldi trop féroce, Washington trop loin.',
+    description:
+      "La guerre se décide à coups d'insultes trop britanniques, Capaldi trop féroce, Washington trop loin.",
     fromEntity: {
       entityType: 'serie',
       title: 'The Thick of It',
@@ -1689,7 +1760,7 @@ export const baseMoviesMissingAnnees20052009: BaseMovie[] = [
     oscars: [],
   },
   {
-    title: 'Io sono l\'amore',
+    title: "Io sono l'amore",
     director: 'Luca Guadagnino',
     actors: [
       { name: 'Tilda Swinton' },
@@ -1703,7 +1774,8 @@ export const baseMoviesMissingAnnees20052009: BaseMovie[] = [
     length: 120,
     genre: ['Drame', 'Romance'],
     saga: '',
-    description: 'Une femme trop russe dans une famille trop milanaise, cuisine trop charnelle, Guadagnino trop baroque.',
+    description:
+      'Une femme trop russe dans une famille trop milanaise, cuisine trop charnelle, Guadagnino trop baroque.',
     fromEntity: null,
     countryOrigin: ['Italie'],
     selectDisplayOrder: 0,
@@ -1724,7 +1796,8 @@ export const baseMoviesMissingAnnees20052009: BaseMovie[] = [
     length: 95,
     genre: ['Drame', 'Comédie'],
     saga: '',
-    description: 'Une bonne trop possessive voit arriver une trop jeune, Santiago trop bourgeois, Silva trop juste.',
+    description:
+      'Une bonne trop possessive voit arriver une trop jeune, Santiago trop bourgeois, Silva trop juste.',
     fromEntity: null,
     countryOrigin: ['Chili'],
     selectDisplayOrder: 0,
@@ -1745,7 +1818,8 @@ export const baseMoviesMissingAnnees20052009: BaseMovie[] = [
     length: 90,
     genre: ['Comédie'],
     saga: '',
-    description: 'Un père trop fauché emmène sa famille trop nombreuse au ski, Antilles trop chaudes, neige trop chère.',
+    description:
+      'Un père trop fauché emmène sa famille trop nombreuse au ski, Antilles trop chaudes, neige trop chère.',
     fromEntity: null,
     countryOrigin: ['France'],
     selectDisplayOrder: 0,
@@ -1766,7 +1840,8 @@ export const baseMoviesMissingAnnees20052009: BaseMovie[] = [
     length: 99,
     genre: ['Comédie', 'Drame'],
     saga: '',
-    description: 'Un dîner trop bourgeois, des SMS trop vrais, Thompson déjà trop vaudeville, codes trop cassés.',
+    description:
+      'Un dîner trop bourgeois, des SMS trop vrais, Thompson déjà trop vaudeville, codes trop cassés.',
     fromEntity: null,
     countryOrigin: ['France'],
     selectDisplayOrder: 0,
@@ -1787,7 +1862,8 @@ export const baseMoviesMissingAnnees20052009: BaseMovie[] = [
     length: 119,
     genre: ['Comédie', 'Drame', 'Comédie musicale'],
     saga: '',
-    description: 'Un chef trop déchu reconstitue un orchestre trop soviétique au Châtelet, Tchaïkovski trop ému.',
+    description:
+      'Un chef trop déchu reconstitue un orchestre trop soviétique au Châtelet, Tchaïkovski trop ému.',
     fromEntity: null,
     countryOrigin: ['France', 'Italie', 'Roumanie', 'Belgique'],
     selectDisplayOrder: 0,
@@ -1808,10 +1884,11 @@ export const baseMoviesMissingAnnees20052009: BaseMovie[] = [
     length: 100,
     genre: ['Drame'],
     saga: '',
-    description: 'Une concierge trop secrète, une gosse trop suicidaire, un Japonais trop discret, palier trop parisien.',
+    description:
+      'Une concierge trop secrète, une gosse trop suicidaire, un Japonais trop discret, palier trop parisien.',
     fromEntity: {
       entityType: 'book',
-      title: 'L\'Élégance du hérisson',
+      title: "L'Élégance du hérisson",
       secondEntityKey: 'Muriel Barbery',
     },
     countryOrigin: ['France'],
@@ -1833,7 +1910,8 @@ export const baseMoviesMissingAnnees20052009: BaseMovie[] = [
     length: 144,
     genre: ['Drame', 'Historique'],
     saga: '',
-    description: 'Un village protestant trop sage, des enfants trop cruels, 1913, noir et blanc, Haneke trop glacial.',
+    description:
+      'Un village protestant trop sage, des enfants trop cruels, 1913, noir et blanc, Haneke trop glacial.',
     fromEntity: null,
     countryOrigin: ['Autriche', 'Allemagne', 'France'],
     selectDisplayOrder: 0,
@@ -1854,10 +1932,11 @@ export const baseMoviesMissingAnnees20052009: BaseMovie[] = [
     length: 104,
     genre: ['Comédie', 'Drame', 'Romance'],
     saga: '',
-    description: 'Un portefeuille trop perdu, deux inconnus trop liés, Resnais trop léger, trop surréaliste encore.',
+    description:
+      'Un portefeuille trop perdu, deux inconnus trop liés, Resnais trop léger, trop surréaliste encore.',
     fromEntity: {
       entityType: 'book',
-      title: 'L\'Incident',
+      title: "L'Incident",
       secondEntityKey: 'Christian Gailly',
     },
     countryOrigin: ['France', 'Italie'],
@@ -1879,7 +1958,8 @@ export const baseMoviesMissingAnnees20052009: BaseMovie[] = [
     length: 101,
     genre: ['Fantastique', 'Aventure', 'Jeunesse', 'Drame'],
     saga: '',
-    description: 'Un gosse trop en colère devient roi des monstres trop tristes, Jonze trop fidèle, trop sauvage.',
+    description:
+      'Un gosse trop en colère devient roi des monstres trop tristes, Jonze trop fidèle, trop sauvage.',
     fromEntity: {
       entityType: 'book',
       title: 'Max et les Maximonstres',
@@ -1904,7 +1984,8 @@ export const baseMoviesMissingAnnees20052009: BaseMovie[] = [
     length: 104,
     genre: ['Comédie', 'Aventure'],
     saga: '',
-    description: 'Un bricoleur trop balle dans le crâne venge deux marchands d\'armes, Jeunet trop gadget, trop doux.',
+    description:
+      "Un bricoleur trop balle dans le crâne venge deux marchands d'armes, Jeunet trop gadget, trop doux.",
     fromEntity: null,
     countryOrigin: ['France'],
     selectDisplayOrder: 0,
@@ -1925,7 +2006,8 @@ export const baseMoviesMissingAnnees20052009: BaseMovie[] = [
     length: 125,
     genre: ['Thriller', 'Drame'],
     saga: '',
-    description: 'Un patron trop riche est enlevé, l\'oreille trop coupée, Belvaux trop froid, trop vrai.',
+    description:
+      "Un patron trop riche est enlevé, l'oreille trop coupée, Belvaux trop froid, trop vrai.",
     fromEntity: null,
     countryOrigin: ['France', 'Belgique'],
     selectDisplayOrder: 0,
@@ -1946,7 +2028,8 @@ export const baseMoviesMissingAnnees20052009: BaseMovie[] = [
     length: 112,
     genre: ['Drame', 'Biographie', 'Historique'],
     saga: '',
-    description: 'Tolstoï trop vieux, sa femme trop jalouse de la fondation, gare trop finale, Plummer trop lion.',
+    description:
+      'Tolstoï trop vieux, sa femme trop jalouse de la fondation, gare trop finale, Plummer trop lion.',
     fromEntity: {
       entityType: 'book',
       title: 'The Last Station',
@@ -1971,7 +2054,8 @@ export const baseMoviesMissingAnnees20052009: BaseMovie[] = [
     length: 113,
     genre: ['Drame', 'Guerre'],
     saga: '',
-    description: 'Deux soldats trop usés annoncent les morts, portes trop lourdes, Harrelson trop juste.',
+    description:
+      'Deux soldats trop usés annoncent les morts, portes trop lourdes, Harrelson trop juste.',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -1992,7 +2076,8 @@ export const baseMoviesMissingAnnees20052009: BaseMovie[] = [
     length: 134,
     genre: ['Horreur', 'Drame', 'Romance'],
     saga: '',
-    description: 'Un prêtre trop vampire aime une belle trop étouffée, Park trop baroque, sang trop catholique.',
+    description:
+      'Un prêtre trop vampire aime une belle trop étouffée, Park trop baroque, sang trop catholique.',
     fromEntity: {
       entityType: 'book',
       title: 'Thérèse Raquin',
@@ -2017,7 +2102,8 @@ export const baseMoviesMissingAnnees20052009: BaseMovie[] = [
     length: 110,
     genre: ['Drame'],
     saga: '',
-    description: 'Un maître-nageur trop seul apprend à un Kurde trop jeune à nager vers l\'Angleterre, Calais trop froid.',
+    description:
+      "Un maître-nageur trop seul apprend à un Kurde trop jeune à nager vers l'Angleterre, Calais trop froid.",
     fromEntity: null,
     countryOrigin: ['France'],
     selectDisplayOrder: 0,

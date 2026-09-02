@@ -20,7 +20,8 @@ export const baseMoviesMissingAnnees20002004: BaseMovie[] = [
     length: 154,
     genre: ['Drame', 'Thriller'],
     saga: '',
-    description: 'Trois histoires de Mexico se percutent dans un accident, chiens, amour et sang.',
+    description:
+      'Trois histoires de Mexico se percutent dans un accident, chiens, amour et sang.',
     fromEntity: null,
     countryOrigin: ['Mexique'],
     selectDisplayOrder: 0,
@@ -32,7 +33,7 @@ export const baseMoviesMissingAnnees20002004: BaseMovie[] = [
     actors: [
       { name: 'Christopher Guest' },
       { name: 'Eugene Levy' },
-      { name: 'Catherine O\'Hara' },
+      { name: "Catherine O'Hara" },
       { name: 'Parker Posey' },
       { name: 'Fred Willard' },
     ],
@@ -41,7 +42,8 @@ export const baseMoviesMissingAnnees20002004: BaseMovie[] = [
     length: 90,
     genre: ['Comédie'],
     saga: '',
-    description: 'Un concours canin, des maîtres trop investis, mockumentary et commentaires à côté de la plaque.',
+    description:
+      'Un concours canin, des maîtres trop investis, mockumentary et commentaires à côté de la plaque.',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -62,7 +64,8 @@ export const baseMoviesMissingAnnees20002004: BaseMovie[] = [
     length: 118,
     genre: ['Drame'],
     saga: '',
-    description: 'Paris, un sachet de papier déclenche des vies qui ne se parlent plus, plans-séquences trop secs.',
+    description:
+      'Paris, un sachet de papier déclenche des vies qui ne se parlent plus, plans-séquences trop secs.',
     fromEntity: null,
     countryOrigin: ['France', 'Allemagne', 'Roumanie'],
     selectDisplayOrder: 0,
@@ -83,7 +86,8 @@ export const baseMoviesMissingAnnees20002004: BaseMovie[] = [
     length: 140,
     genre: ['Drame', 'Comédie musicale'],
     saga: '',
-    description: 'Une ouvrière presque aveugle s\'évade en comédie musicale, jusqu\'à la corde, Dogme et larmes.',
+    description:
+      "Une ouvrière presque aveugle s'évade en comédie musicale, jusqu'à la corde, Dogme et larmes.",
     fromEntity: null,
     countryOrigin: ['Danemark', 'Suède', 'France'],
     selectDisplayOrder: 0,
@@ -104,7 +108,8 @@ export const baseMoviesMissingAnnees20002004: BaseMovie[] = [
     length: 95,
     genre: ['Drame', 'Comédie'],
     saga: '',
-    description: 'Un jeune Homme séropositif hitchhike vers Marseille chercher un père, rencontres trop humaines.',
+    description:
+      'Un jeune Homme séropositif hitchhike vers Marseille chercher un père, rencontres trop humaines.',
     fromEntity: null,
     countryOrigin: ['France'],
     selectDisplayOrder: 0,
@@ -125,7 +130,8 @@ export const baseMoviesMissingAnnees20002004: BaseMovie[] = [
     length: 117,
     genre: ['Thriller', 'Drame'],
     saga: '',
-    description: 'Un père de famille croise un copain trop serviable ; Harry règle les problèmes à la machette.',
+    description:
+      'Un père de famille croise un copain trop serviable ; Harry règle les problèmes à la machette.',
     fromEntity: null,
     countryOrigin: ['France'],
     selectDisplayOrder: 0,
@@ -146,14 +152,15 @@ export const baseMoviesMissingAnnees20002004: BaseMovie[] = [
     length: 98,
     genre: ['Drame', 'Romance'],
     saga: '',
-    description: 'Hong Kong 1962, deux voisins dont les conjoints se trompent n\'osent pas, nouilles, fentes, Yumeji.',
+    description:
+      "Hong Kong 1962, deux voisins dont les conjoints se trompent n'osent pas, nouilles, fentes, Yumeji.",
     fromEntity: null,
     countryOrigin: ['Chine', 'France'],
     selectDisplayOrder: 0,
     oscars: [],
   },
   {
-    title: 'L\'Homme sans ombre',
+    title: "L'Homme sans ombre",
     director: 'Paul Verhoeven',
     actors: [
       { name: 'Kevin Bacon' },
@@ -167,7 +174,8 @@ export const baseMoviesMissingAnnees20002004: BaseMovie[] = [
     length: 112,
     genre: ['Science Fiction', 'Thriller', 'Horreur'],
     saga: '',
-    description: 'Un scientifique se rend invisible et ne sait plus se retenir, voyeurisme, chasse et Verhoeven.',
+    description:
+      'Un scientifique se rend invisible et ne sait plus se retenir, voyeurisme, chasse et Verhoeven.',
     fromEntity: {
       entityType: 'book',
       title: 'The Invisible Man',
@@ -192,7 +200,8 @@ export const baseMoviesMissingAnnees20002004: BaseMovie[] = [
     length: 112,
     genre: ['Drame', 'Historique', 'Romance'],
     saga: '',
-    description: 'Saint-Pierre-et-Miquelon, une femme veut sauver un condamné en attendant la guillotine trop lente.',
+    description:
+      'Saint-Pierre-et-Miquelon, une femme veut sauver un condamné en attendant la guillotine trop lente.',
     fromEntity: null,
     countryOrigin: ['France', 'Canada'],
     selectDisplayOrder: 0,
@@ -213,7 +222,8 @@ export const baseMoviesMissingAnnees20002004: BaseMovie[] = [
     length: 101,
     genre: ['Drame', 'Romance'],
     saga: '',
-    description: 'Un écrivain rentre à Medellín et aime un sicario trop jeune, Vierge, balles, Vallejo.',
+    description:
+      'Un écrivain rentre à Medellín et aime un sicario trop jeune, Vierge, balles, Vallejo.',
     fromEntity: {
       entityType: 'book',
       title: 'La Vierge des tueurs',
@@ -238,7 +248,8 @@ export const baseMoviesMissingAnnees20002004: BaseMovie[] = [
     length: 180,
     genre: ['Drame', 'Romance', 'Historique'],
     saga: '',
-    description: 'Un pasteur quitte l\'Église, aime, dirige une porcelaine, trois décennies trop longues, trop belles.',
+    description:
+      "Un pasteur quitte l'Église, aime, dirige une porcelaine, trois décennies trop longues, trop belles.",
     fromEntity: {
       entityType: 'book',
       title: 'Les Destinées sentimentales',
@@ -263,7 +274,8 @@ export const baseMoviesMissingAnnees20002004: BaseMovie[] = [
     length: 99,
     genre: ['Thriller', 'Drame'],
     saga: '',
-    description: 'Une héritière de chocolat drogue trop souvent, Lausanne, piano, Huppert trop calme.',
+    description:
+      'Une héritière de chocolat drogue trop souvent, Lausanne, piano, Huppert trop calme.',
     fromEntity: {
       entityType: 'book',
       title: 'The Chocolate Cobweb',
@@ -288,7 +300,8 @@ export const baseMoviesMissingAnnees20002004: BaseMovie[] = [
     length: 116,
     genre: ['Comédie'],
     saga: '',
-    description: 'Un flic trop gentil se dédouble en brute, Rhode Island, Farrelly, Carrey en deux.',
+    description:
+      'Un flic trop gentil se dédouble en brute, Rhode Island, Farrelly, Carrey en deux.',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -309,7 +322,8 @@ export const baseMoviesMissingAnnees20002004: BaseMovie[] = [
     length: 92,
     genre: ['Comédie', 'Drame'],
     saga: '',
-    description: 'Un foyer pour handicapés, un éducateur trop humain, sexe, N7 et rire trop vrai.',
+    description:
+      'Un foyer pour handicapés, un éducateur trop humain, sexe, N7 et rire trop vrai.',
     fromEntity: null,
     countryOrigin: ['France'],
     selectDisplayOrder: 0,
@@ -330,7 +344,8 @@ export const baseMoviesMissingAnnees20002004: BaseMovie[] = [
     length: 114,
     genre: ['Policier', 'Thriller', 'Comédie'],
     saga: '',
-    description: 'Deux arnaqueurs de Buenos Aires visent un timbre trop rare ; chacun croit duper l\'autre.',
+    description:
+      "Deux arnaqueurs de Buenos Aires visent un timbre trop rare ; chacun croit duper l'autre.",
     fromEntity: null,
     countryOrigin: ['Argentine'],
     selectDisplayOrder: 0,
@@ -351,7 +366,8 @@ export const baseMoviesMissingAnnees20002004: BaseMovie[] = [
     length: 109,
     genre: ['Science Fiction', 'Horreur', 'Action'],
     saga: 'Riddick',
-    description: 'Un crash sur une planète où trois soleils se couchent : les créatures sortent, Riddick aussi.',
+    description:
+      'Un crash sur une planète où trois soleils se couchent : les créatures sortent, Riddick aussi.',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -372,7 +388,8 @@ export const baseMoviesMissingAnnees20002004: BaseMovie[] = [
     length: 93,
     genre: ['Comédie'],
     saga: '',
-    description: 'Un étudiant doit récupérer une cassette trop osée avant sa copine, road movie de campus.',
+    description:
+      'Un étudiant doit récupérer une cassette trop osée avant sa copine, road movie de campus.',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -393,7 +410,8 @@ export const baseMoviesMissingAnnees20002004: BaseMovie[] = [
     length: 89,
     genre: ['Policier', 'Thriller', 'Drame'],
     saga: '',
-    description: 'Un retraité en Espagne est rappelé par Don Logan, Kingsley trop féroce, un dernier casse.',
+    description:
+      'Un retraité en Espagne est rappelé par Don Logan, Kingsley trop féroce, un dernier casse.',
     fromEntity: null,
     countryOrigin: ['Royaume-Uni', 'Espagne'],
     selectDisplayOrder: 0,
@@ -414,7 +432,8 @@ export const baseMoviesMissingAnnees20002004: BaseMovie[] = [
     length: 110,
     genre: ['Action', 'Comédie', 'Western'],
     saga: 'Shanghai Kid',
-    description: 'Un garde impérial et un cowboy menteur sauvent une princesse dans le Far West, Chan déjà.',
+    description:
+      'Un garde impérial et un cowboy menteur sauvent une princesse dans le Far West, Chan déjà.',
     fromEntity: null,
     countryOrigin: ['États-Unis', 'Chine'],
     selectDisplayOrder: 0,
@@ -435,7 +454,8 @@ export const baseMoviesMissingAnnees20002004: BaseMovie[] = [
     length: 92,
     genre: ['Drame'],
     saga: '',
-    description: 'Une femme refuse que son mari ait disparu à la plage ; Rampling tient le deuil à bout de bras.',
+    description:
+      'Une femme refuse que son mari ait disparu à la plage ; Rampling tient le deuil à bout de bras.',
     fromEntity: null,
     countryOrigin: ['France'],
     selectDisplayOrder: 0,
@@ -447,7 +467,7 @@ export const baseMoviesMissingAnnees20002004: BaseMovie[] = [
     actors: [
       { name: 'Jennifer Lopez' },
       { name: 'Vince Vaughn' },
-      { name: 'Vincent D\'Onofrio' },
+      { name: "Vincent D'Onofrio" },
       { name: 'Jake Weber' },
       { name: 'Dylan Baker' },
     ],
@@ -456,7 +476,8 @@ export const baseMoviesMissingAnnees20002004: BaseMovie[] = [
     length: 107,
     genre: ['Thriller', 'Horreur', 'Science Fiction'],
     saga: '',
-    description: 'Une thérapeute plonge dans l\'esprit d\'un tueur en coma, décors trop beaux, trop sales.',
+    description:
+      "Une thérapeute plonge dans l'esprit d'un tueur en coma, décors trop beaux, trop sales.",
     fromEntity: null,
     countryOrigin: ['États-Unis', 'Allemagne'],
     selectDisplayOrder: 0,
@@ -477,7 +498,8 @@ export const baseMoviesMissingAnnees20002004: BaseMovie[] = [
     length: 147,
     genre: ['Thriller', 'Drame', 'Policier'],
     saga: '',
-    description: 'La guerre de la drogue, Tijuana, Washington, une fille trop blanche, Soderbergh en filtres.',
+    description:
+      'La guerre de la drogue, Tijuana, Washington, une fille trop blanche, Soderbergh en filtres.',
     fromEntity: {
       entityType: 'serie',
       title: 'Traffik',
@@ -507,7 +529,8 @@ export const baseMoviesMissingAnnees20002004: BaseMovie[] = [
     length: 106,
     genre: ['Thriller', 'Fantastique', 'Drame'],
     saga: 'Unbreakable',
-    description: 'Seul survivant d\'un train, un homme rencontre un collectionneur de comics trop fragile.',
+    description:
+      "Seul survivant d'un train, un homme rencontre un collectionneur de comics trop fragile.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -528,7 +551,8 @@ export const baseMoviesMissingAnnees20002004: BaseMovie[] = [
     length: 90,
     genre: ['Thriller', 'Drame'],
     saga: '',
-    description: 'Un industriel embauche un goûteur trop parfait ; l\'emprise dépasse les assiettes.',
+    description:
+      "Un industriel embauche un goûteur trop parfait ; l'emprise dépasse les assiettes.",
     fromEntity: null,
     countryOrigin: ['France'],
     selectDisplayOrder: 0,
@@ -549,7 +573,8 @@ export const baseMoviesMissingAnnees20002004: BaseMovie[] = [
     length: 173,
     genre: ['Drame'],
     saga: '',
-    description: 'Une famille de Taipei, mariage, coma, un gosse qui photographie les nuques, Yang trop juste.',
+    description:
+      'Une famille de Taipei, mariage, coma, un gosse qui photographie les nuques, Yang trop juste.',
     fromEntity: null,
     countryOrigin: ['Taïwan', 'Japon'],
     selectDisplayOrder: 0,
@@ -570,7 +595,8 @@ export const baseMoviesMissingAnnees20002004: BaseMovie[] = [
     length: 111,
     genre: ['Drame'],
     saga: '',
-    description: 'Une sœur trop sage, un frère trop perdu, une petite ville de l\'État de New York, Lonergan déjà.',
+    description:
+      "Une sœur trop sage, un frère trop perdu, une petite ville de l'État de New York, Lonergan déjà.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -591,7 +617,8 @@ export const baseMoviesMissingAnnees20002004: BaseMovie[] = [
     length: 105,
     genre: ['Comédie'],
     saga: '',
-    description: 'Eddie et Patsy à la française, champagne, fille trop sage, Balasko et Baye déjà soûles.',
+    description:
+      'Eddie et Patsy à la française, champagne, fille trop sage, Balasko et Baye déjà soûles.',
     fromEntity: {
       entityType: 'serie',
       title: 'Absolutely Fabulous',
@@ -616,7 +643,8 @@ export const baseMoviesMissingAnnees20002004: BaseMovie[] = [
     length: 124,
     genre: ['Drame', 'Biographie', 'Policier'],
     saga: '',
-    description: 'George Jung, de la weed à la coke de Pablo, Depp trop beau pour finir en taule.',
+    description:
+      'George Jung, de la weed à la coke de Pablo, Depp trop beau pour finir en taule.',
     fromEntity: {
       entityType: 'book',
       title: 'Blow',
@@ -641,14 +669,15 @@ export const baseMoviesMissingAnnees20002004: BaseMovie[] = [
     length: 109,
     genre: ['Comédie', 'Drame', 'Thriller'],
     saga: '',
-    description: 'Un couple trop coincé recueille une prostituée tabassée ; tout le salon bascule.',
+    description:
+      'Un couple trop coincé recueille une prostituée tabassée ; tout le salon bascule.',
     fromEntity: null,
     countryOrigin: ['France'],
     selectDisplayOrder: 0,
     oscars: [],
   },
   {
-    title: 'Éloge de l\'amour',
+    title: "Éloge de l'amour",
     director: 'Jean-Luc Godard',
     actors: [
       { name: 'Bruno Putzulu' },
@@ -662,7 +691,8 @@ export const baseMoviesMissingAnnees20002004: BaseMovie[] = [
     length: 97,
     genre: ['Drame'],
     saga: '',
-    description: 'Un projet sur les quatre âges de l\'amour, noir et blanc puis couleur, Godard déjà testamentaire.',
+    description:
+      "Un projet sur les quatre âges de l'amour, noir et blanc puis couleur, Godard déjà testamentaire.",
     fromEntity: null,
     countryOrigin: ['France', 'Suisse'],
     selectDisplayOrder: 0,
@@ -683,13 +713,12 @@ export const baseMoviesMissingAnnees20002004: BaseMovie[] = [
     length: 137,
     genre: ['Drame', 'Mystère', 'Comédie'],
     saga: '',
-    description: 'Un week-end 1932, maîtres et domestiques, un meurtre, Altman orchestre trop de mondes à la fois.',
+    description:
+      'Un week-end 1932, maîtres et domestiques, un meurtre, Altman orchestre trop de mondes à la fois.',
     fromEntity: null,
     countryOrigin: ['Royaume-Uni', 'États-Unis'],
     selectDisplayOrder: 0,
-    oscars: [
-      { type: OscarEnum.OSCAR_BEST_ORIGINAL_SCREENPLAY, year: 2002 },
-    ],
+    oscars: [{ type: OscarEnum.OSCAR_BEST_ORIGINAL_SCREENPLAY, year: 2002 }],
   },
   {
     title: 'Hedwig and the Angry Inch',
@@ -706,7 +735,8 @@ export const baseMoviesMissingAnnees20002004: BaseMovie[] = [
     length: 95,
     genre: ['Comédie musicale', 'Drame'],
     saga: '',
-    description: 'Une chanteuse trans est-allemande raconte une opération trop bâclée, rock, perruque, Origin of Love.',
+    description:
+      'Une chanteuse trans est-allemande raconte une opération trop bâclée, rock, perruque, Origin of Love.',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -727,7 +757,8 @@ export const baseMoviesMissingAnnees20002004: BaseMovie[] = [
     length: 131,
     genre: ['Drame', 'Thriller'],
     saga: '',
-    description: 'Un couple du Maine perd son fils ; le deuil trop silencieux prépare une vengeance trop calme.',
+    description:
+      'Un couple du Maine perd son fils ; le deuil trop silencieux prépare une vengeance trop calme.',
     fromEntity: {
       entityType: 'book',
       title: 'Killings',
@@ -752,7 +783,8 @@ export const baseMoviesMissingAnnees20002004: BaseMovie[] = [
     length: 119,
     genre: ['Drame', 'Romance'],
     saga: '',
-    description: 'Deux inconnus se retrouvent chaque mercredi sans se parler, Londres, corps trop vrais.',
+    description:
+      'Deux inconnus se retrouvent chaque mercredi sans se parler, Londres, corps trop vrais.',
     fromEntity: {
       entityType: 'book',
       title: 'Intimacy',
@@ -777,7 +809,8 @@ export const baseMoviesMissingAnnees20002004: BaseMovie[] = [
     length: 91,
     genre: ['Drame', 'Biographie', 'Romance'],
     saga: '',
-    description: 'Iris Murdoch, de l\'éclat à Alzheimer, deux âges, Broadbent trop tendre.',
+    description:
+      "Iris Murdoch, de l'éclat à Alzheimer, deux âges, Broadbent trop tendre.",
     fromEntity: {
       entityType: 'book',
       title: 'Elegy for Iris',
@@ -785,23 +818,19 @@ export const baseMoviesMissingAnnees20002004: BaseMovie[] = [
     },
     countryOrigin: ['Royaume-Uni', 'États-Unis'],
     selectDisplayOrder: 0,
-    oscars: [
-      { type: OscarEnum.OSCAR_BEST_SUPPORTING_ACTOR, year: 2002 },
-    ],
+    oscars: [{ type: OscarEnum.OSCAR_BEST_SUPPORTING_ACTOR, year: 2002 }],
   },
   {
     title: 'Le Peuple migrateur',
     director: 'Jacques Perrin',
-    actors: [
-      { name: 'Jacques Perrin' },
-      { name: 'Philippe Labro' },
-    ],
+    actors: [{ name: 'Jacques Perrin' }, { name: 'Philippe Labro' }],
     coverUrl: '',
     releaseDate: '2001-12-12',
     length: 89,
     genre: ['Documentaire'],
     saga: '',
-    description: 'Des oiseaux migrateurs filmés à leur hauteur, ailes, vent, presque pas de commentaire.',
+    description:
+      'Des oiseaux migrateurs filmés à leur hauteur, ailes, vent, presque pas de commentaire.',
     fromEntity: null,
     countryOrigin: ['France', 'Allemagne', 'Italie', 'Espagne'],
     selectDisplayOrder: 0,
@@ -822,7 +851,8 @@ export const baseMoviesMissingAnnees20002004: BaseMovie[] = [
     length: 84,
     genre: ['Comédie'],
     saga: '',
-    description: 'Un comptable trop fade se fait passer pour gay pour sauver son poste, Veber déjà huilé.',
+    description:
+      'Un comptable trop fade se fait passer pour gay pour sauver son poste, Veber déjà huilé.',
     fromEntity: null,
     countryOrigin: ['France'],
     selectDisplayOrder: 0,
@@ -843,7 +873,8 @@ export const baseMoviesMissingAnnees20002004: BaseMovie[] = [
     length: 119,
     genre: ['Comédie'],
     saga: '',
-    description: 'Un cycliste belge trop nul rêve du Tour 1974, dopage, Poelvoorde déjà trop vrai.',
+    description:
+      'Un cycliste belge trop nul rêve du Tour 1974, dopage, Poelvoorde déjà trop vrai.',
     fromEntity: null,
     countryOrigin: ['France', 'Belgique'],
     selectDisplayOrder: 0,
@@ -864,14 +895,15 @@ export const baseMoviesMissingAnnees20002004: BaseMovie[] = [
     length: 95,
     genre: ['Comédie', 'Romance'],
     saga: '',
-    description: 'Un journaliste jalouse les baisers de sa femme à l\'écran, Attal déjà trop transparent.',
+    description:
+      "Un journaliste jalouse les baisers de sa femme à l'écran, Attal déjà trop transparent.",
     fromEntity: null,
     countryOrigin: ['France'],
     selectDisplayOrder: 0,
     oscars: [],
   },
   {
-    title: 'Monster\'s Ball',
+    title: "Monster's Ball",
     director: 'Marc Forster',
     actors: [
       { name: 'Halle Berry' },
@@ -885,16 +917,15 @@ export const baseMoviesMissingAnnees20002004: BaseMovie[] = [
     length: 111,
     genre: ['Drame', 'Romance'],
     saga: '',
-    description: 'Un gardien de couloir de la mort et la veuve de l\'exécuté, Géorgie, racisme, Berry trop nue.',
+    description:
+      "Un gardien de couloir de la mort et la veuve de l'exécuté, Géorgie, racisme, Berry trop nue.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
-    oscars: [
-      { type: OscarEnum.OSCAR_BEST_ACTRESS, year: 2002 },
-    ],
+    oscars: [{ type: OscarEnum.OSCAR_BEST_ACTRESS, year: 2002 }],
   },
   {
-    title: 'No Man\'s Land',
+    title: "No Man's Land",
     director: 'Danis Tanović',
     actors: [
       { name: 'Branko Đurić' },
@@ -908,13 +939,12 @@ export const baseMoviesMissingAnnees20002004: BaseMovie[] = [
     length: 98,
     genre: ['Guerre', 'Drame', 'Comédie'],
     saga: '',
-    description: 'Deux soldats ennemis coincés dans un trou, une mine sous un troisième, ONU trop inutile.',
+    description:
+      'Deux soldats ennemis coincés dans un trou, une mine sous un troisième, ONU trop inutile.',
     fromEntity: null,
     countryOrigin: ['Bosnie-Herzégovine', 'France', 'Belgique', 'Royaume-Uni'],
     selectDisplayOrder: 0,
-    oscars: [
-      { type: OscarEnum.OSCAR_BEST_INTERNATIONAL_FEATURE, year: 2002 },
-    ],
+    oscars: [{ type: OscarEnum.OSCAR_BEST_INTERNATIONAL_FEATURE, year: 2002 }],
   },
   {
     title: 'Se souvenir des belles choses',
@@ -931,7 +961,8 @@ export const baseMoviesMissingAnnees20002004: BaseMovie[] = [
     length: 110,
     genre: ['Drame', 'Romance'],
     saga: '',
-    description: 'Une jeune femme amnésique aime un homme déjà marqué, centre de soins, mémoire trop fragile.',
+    description:
+      'Une jeune femme amnésique aime un homme déjà marqué, centre de soins, mémoire trop fragile.',
     fromEntity: null,
     countryOrigin: ['France'],
     selectDisplayOrder: 0,
@@ -952,14 +983,15 @@ export const baseMoviesMissingAnnees20002004: BaseMovie[] = [
     length: 115,
     genre: ['Thriller', 'Policier', 'Romance'],
     saga: '',
-    description: 'Une secrétaire malentendante et un voyou se complètent, lecture labiale, Audiard trop tendu.',
+    description:
+      'Une secrétaire malentendante et un voyou se complètent, lecture labiale, Audiard trop tendu.',
     fromEntity: null,
     countryOrigin: ['France'],
     selectDisplayOrder: 0,
     oscars: [],
   },
   {
-    title: 'The Man Who Wasn\'t There',
+    title: "The Man Who Wasn't There",
     director: 'Joel Coen',
     actors: [
       { name: 'Billy Bob Thornton' },
@@ -973,7 +1005,8 @@ export const baseMoviesMissingAnnees20002004: BaseMovie[] = [
     length: 116,
     genre: ['Policier', 'Drame'],
     saga: '',
-    description: 'Un coiffeur trop silencieux fait chanter le patron de sa femme, noir et blanc, Coen 1949.',
+    description:
+      'Un coiffeur trop silencieux fait chanter le patron de sa femme, noir et blanc, Coen 1949.',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -994,7 +1027,8 @@ export const baseMoviesMissingAnnees20002004: BaseMovie[] = [
     length: 101,
     genre: ['Horreur', 'Drame', 'Romance'],
     saga: '',
-    description: 'Deux amants cannibales, Paris, sang trop lent, Denis déjà trop charnelle.',
+    description:
+      'Deux amants cannibales, Paris, sang trop lent, Denis déjà trop charnelle.',
     fromEntity: null,
     countryOrigin: ['France', 'Allemagne', 'Japon'],
     selectDisplayOrder: 0,
@@ -1015,7 +1049,8 @@ export const baseMoviesMissingAnnees20002004: BaseMovie[] = [
     length: 132,
     genre: ['Aventure', 'Comédie', 'Romance'],
     saga: '',
-    description: 'Un écuyer se fait passer pour chevalier, joutes, Queen, Ledger déjà trop charmeur.',
+    description:
+      'Un écuyer se fait passer pour chevalier, joutes, Queen, Ledger déjà trop charmeur.',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -1036,7 +1071,8 @@ export const baseMoviesMissingAnnees20002004: BaseMovie[] = [
     length: 111,
     genre: ['Comédie', 'Mystère', 'Comédie musicale'],
     saga: '',
-    description: 'Un cadavre dans un manoir, huit femmes, huit chansons, Ozon en vaudeville trop kitsch.',
+    description:
+      'Un cadavre dans un manoir, huit femmes, huit chansons, Ozon en vaudeville trop kitsch.',
     fromEntity: {
       entityType: 'book',
       title: 'Huit Femmes',
@@ -1061,7 +1097,8 @@ export const baseMoviesMissingAnnees20002004: BaseMovie[] = [
     length: 125,
     genre: ['Drame', 'Comédie'],
     saga: '',
-    description: 'Un retraité d\'Omaha écrit à un filleul tanzanien, camping-car, fille trop mal mariée, Payne.',
+    description:
+      "Un retraité d'Omaha écrit à un filleul tanzanien, camping-car, fille trop mal mariée, Payne.",
     fromEntity: {
       entityType: 'book',
       title: 'About Schmidt',
@@ -1072,7 +1109,7 @@ export const baseMoviesMissingAnnees20002004: BaseMovie[] = [
     oscars: [],
   },
   {
-    title: 'Ah ! Si j\'étais riche',
+    title: "Ah ! Si j'étais riche",
     director: 'Michel Munz',
     actors: [
       { name: 'Jean-Pierre Darroussin' },
@@ -1086,7 +1123,8 @@ export const baseMoviesMissingAnnees20002004: BaseMovie[] = [
     length: 100,
     genre: ['Comédie'],
     saga: '',
-    description: 'Un cadre apprend qu\'il est riche le jour où on le vire, quiproquos, Darroussin trop juste.',
+    description:
+      "Un cadre apprend qu'il est riche le jour où on le vire, quiproquos, Darroussin trop juste.",
     fromEntity: null,
     countryOrigin: ['France'],
     selectDisplayOrder: 0,
@@ -1107,7 +1145,8 @@ export const baseMoviesMissingAnnees20002004: BaseMovie[] = [
     length: 132,
     genre: ['Drame', 'Historique', 'Guerre'],
     saga: '',
-    description: 'Un officier SS et un jésuite veulent alerter Pie XII sur les camps, Vatican trop sourd.',
+    description:
+      'Un officier SS et un jésuite veulent alerter Pie XII sur les camps, Vatican trop sourd.',
     fromEntity: {
       entityType: 'book',
       title: 'Le Vicaire',
@@ -1132,7 +1171,8 @@ export const baseMoviesMissingAnnees20002004: BaseMovie[] = [
     length: 107,
     genre: ['Drame', 'Historique', 'Guerre'],
     saga: '',
-    description: 'Derry 1972, une marche pacifique, l\'armée tire, caméra à l\'épaule déjà Greengrass.',
+    description:
+      "Derry 1972, une marche pacifique, l'armée tire, caméra à l'épaule déjà Greengrass.",
     fromEntity: null,
     countryOrigin: ['Royaume-Uni', 'Irlande'],
     selectDisplayOrder: 0,
@@ -1153,7 +1193,8 @@ export const baseMoviesMissingAnnees20002004: BaseMovie[] = [
     length: 103,
     genre: ['Comédie', 'Drame'],
     saga: '',
-    description: 'Le Touquet, des couples se recroisent, mensonges, Blanc déjà trop méchant avec les vacances.',
+    description:
+      'Le Touquet, des couples se recroisent, mensonges, Blanc déjà trop méchant avec les vacances.',
     fromEntity: {
       entityType: 'book',
       title: 'Vacances anglaises',
@@ -1166,15 +1207,14 @@ export const baseMoviesMissingAnnees20002004: BaseMovie[] = [
   {
     title: 'Être et avoir',
     director: 'Nicolas Philibert',
-    actors: [
-      { name: 'Georges Lopez' },
-    ],
+    actors: [{ name: 'Georges Lopez' }],
     coverUrl: '',
     releaseDate: '2002-08-28',
     length: 104,
     genre: ['Documentaire'],
     saga: '',
-    description: 'Une classe unique du Cantal, un maître trop patient, neige, dictée, presque un conte.',
+    description:
+      'Une classe unique du Cantal, un maître trop patient, neige, dictée, presque un conte.',
     fromEntity: null,
     countryOrigin: ['France'],
     selectDisplayOrder: 0,
@@ -1195,14 +1235,15 @@ export const baseMoviesMissingAnnees20002004: BaseMovie[] = [
     length: 124,
     genre: ['Drame', 'Thriller', 'Romance'],
     saga: '',
-    description: 'Une femme au foyer trop sage aime un Français à SoHo ; le mari comprend trop tard.',
+    description:
+      'Une femme au foyer trop sage aime un Français à SoHo ; le mari comprend trop tard.',
     fromEntity: null,
     countryOrigin: ['États-Unis', 'Allemagne'],
     selectDisplayOrder: 0,
     oscars: [],
   },
   {
-    title: 'L\'Adversaire',
+    title: "L'Adversaire",
     director: 'Nicole Garcia',
     actors: [
       { name: 'Daniel Auteuil' },
@@ -1216,10 +1257,11 @@ export const baseMoviesMissingAnnees20002004: BaseMovie[] = [
     length: 129,
     genre: ['Drame', 'Thriller', 'Biographie'],
     saga: '',
-    description: 'Un homme invente une vie de médecin, tue sa famille, Romand trop banal, Auteuil trop vide.',
+    description:
+      'Un homme invente une vie de médecin, tue sa famille, Romand trop banal, Auteuil trop vide.',
     fromEntity: {
       entityType: 'book',
-      title: 'L\'Adversaire',
+      title: "L'Adversaire",
       secondEntityKey: 'Emmanuel Carrère',
     },
     countryOrigin: ['France', 'Espagne', 'Suisse'],
@@ -1227,21 +1269,22 @@ export const baseMoviesMissingAnnees20002004: BaseMovie[] = [
     oscars: [],
   },
   {
-    title: 'L\'Auberge espagnole',
+    title: "L'Auberge espagnole",
     director: 'Cédric Klapisch',
     actors: [
       { name: 'Romain Duris' },
       { name: 'Audrey Tautou' },
       { name: 'Cécile de France' },
       { name: 'Kelly Reilly' },
-      { name: 'Federico D\'Anna' },
+      { name: "Federico D'Anna" },
     ],
     coverUrl: '',
     releaseDate: '2002-06-19',
     length: 122,
     genre: ['Comédie', 'Drame', 'Romance'],
-    saga: 'L\'Auberge espagnole',
-    description: 'Un Erasmus à Barcelone, coloc trop européenne, Klapisch déjà en split screen.',
+    saga: "L'Auberge espagnole",
+    description:
+      'Un Erasmus à Barcelone, coloc trop européenne, Klapisch déjà en split screen.',
     fromEntity: null,
     countryOrigin: ['France', 'Espagne'],
     selectDisplayOrder: 0,
@@ -1262,7 +1305,8 @@ export const baseMoviesMissingAnnees20002004: BaseMovie[] = [
     length: 116,
     genre: ['Policier', 'Thriller'],
     saga: '',
-    description: 'Un braqueur sort de taule, son cousin trop nerveux, banlieue, Naceri déjà trop vif.',
+    description:
+      'Un braqueur sort de taule, son cousin trop nerveux, banlieue, Naceri déjà trop vif.',
     fromEntity: null,
     countryOrigin: ['France'],
     selectDisplayOrder: 0,
@@ -1283,7 +1327,8 @@ export const baseMoviesMissingAnnees20002004: BaseMovie[] = [
     length: 170,
     genre: ['Drame', 'Historique', 'Guerre'],
     saga: '',
-    description: 'Le cinéma français sous l\'Occupation, Continental, deux destins, Tavernier trop documenté.',
+    description:
+      "Le cinéma français sous l'Occupation, Continental, deux destins, Tavernier trop documenté.",
     fromEntity: null,
     countryOrigin: ['France', 'Allemagne', 'Espagne'],
     selectDisplayOrder: 0,
@@ -1304,7 +1349,8 @@ export const baseMoviesMissingAnnees20002004: BaseMovie[] = [
     length: 100,
     genre: ['Comédie', 'Thriller'],
     saga: '',
-    description: 'Un jeune scénariste week-end chez une star trop perverse, Canet déjà trop malin, Cluzet trop fort.',
+    description:
+      'Un jeune scénariste week-end chez une star trop perverse, Canet déjà trop malin, Cluzet trop fort.',
     fromEntity: null,
     countryOrigin: ['France'],
     selectDisplayOrder: 0,
@@ -1325,7 +1371,8 @@ export const baseMoviesMissingAnnees20002004: BaseMovie[] = [
     length: 100,
     genre: ['Drame', 'Comédie', 'Guerre'],
     saga: '',
-    description: 'Un commerçant collabo cache un enfant juif, Occupation, Jugnot déjà trop humain.',
+    description:
+      'Un commerçant collabo cache un enfant juif, Occupation, Jugnot déjà trop humain.',
     fromEntity: null,
     countryOrigin: ['France'],
     selectDisplayOrder: 0,
@@ -1346,7 +1393,8 @@ export const baseMoviesMissingAnnees20002004: BaseMovie[] = [
     length: 111,
     genre: ['Policier', 'Drame', 'Thriller'],
     saga: '',
-    description: 'Une serveuse filme un braquage, tombe amoureuse du chef, Klapisch trop gris, trop juste.',
+    description:
+      'Une serveuse filme un braquage, tombe amoureuse du chef, Klapisch trop gris, trop juste.',
     fromEntity: null,
     countryOrigin: ['France'],
     selectDisplayOrder: 0,
@@ -1367,7 +1415,8 @@ export const baseMoviesMissingAnnees20002004: BaseMovie[] = [
     length: 111,
     genre: ['Drame', 'Romance', 'Comédie'],
     saga: '',
-    description: 'Une secrétaire trop fragile aime un avocat trop dur, fessées, plantes, contrat trop tendre.',
+    description:
+      'Une secrétaire trop fragile aime un avocat trop dur, fessées, plantes, contrat trop tendre.',
     fromEntity: {
       entityType: 'book',
       title: 'Bad Behavior',
@@ -1392,7 +1441,8 @@ export const baseMoviesMissingAnnees20002004: BaseMovie[] = [
     length: 106,
     genre: ['Drame'],
     saga: '',
-    description: 'Un ado de Greenock veut une caravane pour sa mère qui sort de taule, Loach trop dur, trop vrai.',
+    description:
+      'Un ado de Greenock veut une caravane pour sa mère qui sort de taule, Loach trop dur, trop vrai.',
     fromEntity: null,
     countryOrigin: ['Royaume-Uni', 'Allemagne', 'Espagne'],
     selectDisplayOrder: 0,
@@ -1413,7 +1463,8 @@ export const baseMoviesMissingAnnees20002004: BaseMovie[] = [
     length: 119,
     genre: ['Drame', 'Historique'],
     saga: '',
-    description: 'Des jeunes Irlandaises enfermées au couvent, linge, humiliations, Église trop impunie.',
+    description:
+      'Des jeunes Irlandaises enfermées au couvent, linge, humiliations, Église trop impunie.',
     fromEntity: null,
     countryOrigin: ['Irlande', 'Royaume-Uni'],
     selectDisplayOrder: 0,
@@ -1434,7 +1485,8 @@ export const baseMoviesMissingAnnees20002004: BaseMovie[] = [
     length: 101,
     genre: ['Drame', 'Thriller', 'Guerre', 'Romance'],
     saga: '',
-    description: 'Saïgon 1952, un journaliste anglais, un idéaliste CIA, une femme trop convoitée, Caine trop juste.',
+    description:
+      'Saïgon 1952, un journaliste anglais, un idéaliste CIA, une femme trop convoitée, Caine trop juste.',
     fromEntity: {
       entityType: 'book',
       title: 'Un Américain bien tranquille',
@@ -1459,7 +1511,8 @@ export const baseMoviesMissingAnnees20002004: BaseMovie[] = [
     length: 101,
     genre: ['Drame'],
     saga: '',
-    description: 'Une fillette maorie veut devenir chef malgré son grand-père, baleines, rite trop fermé.',
+    description:
+      'Une fillette maorie veut devenir chef malgré son grand-père, baleines, rite trop fermé.',
     fromEntity: {
       entityType: 'book',
       title: 'The Whale Rider',
@@ -1484,7 +1537,8 @@ export const baseMoviesMissingAnnees20002004: BaseMovie[] = [
     length: 124,
     genre: ['Drame', 'Thriller'],
     saga: '',
-    description: 'Un accident lie un ex-taulard, une mère et un cardiaque, récits mêlés, 21 grammes d\'âme.',
+    description:
+      "Un accident lie un ex-taulard, une mère et un cardiaque, récits mêlés, 21 grammes d'âme.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -1505,7 +1559,8 @@ export const baseMoviesMissingAnnees20002004: BaseMovie[] = [
     length: 101,
     genre: ['Comédie', 'Drame', 'Biographie'],
     saga: '',
-    description: 'Harvey Pekar, employé trop morose, devient héros de comics, vrai Harvey dans le faux film.',
+    description:
+      'Harvey Pekar, employé trop morose, devient héros de comics, vrai Harvey dans le faux film.',
     fromEntity: {
       entityType: 'comic',
       title: 'American Splendor',
@@ -1530,7 +1585,8 @@ export const baseMoviesMissingAnnees20002004: BaseMovie[] = [
     length: 114,
     genre: ['Comédie', 'Drame', 'Guerre'],
     saga: '',
-    description: 'Juin 40, une star, un écrivain, un physicien, Bordeaux trop saturé, Rappeneau déjà en fuite.',
+    description:
+      'Juin 40, une star, un écrivain, un physicien, Bordeaux trop saturé, Rappeneau déjà en fuite.',
     fromEntity: null,
     countryOrigin: ['France'],
     selectDisplayOrder: 0,
@@ -1551,14 +1607,15 @@ export const baseMoviesMissingAnnees20002004: BaseMovie[] = [
     length: 108,
     genre: ['Comédie', 'Drame'],
     saga: '',
-    description: 'Des dames du WI posent nues pour un calendrier, Yorkshire, cancer, rire trop britannique.',
+    description:
+      'Des dames du WI posent nues pour un calendrier, Yorkshire, cancer, rire trop britannique.',
     fromEntity: null,
     countryOrigin: ['Royaume-Uni'],
     selectDisplayOrder: 0,
     oscars: [],
   },
   {
-    title: 'Depuis qu\'Otar est parti',
+    title: "Depuis qu'Otar est parti",
     director: 'Julie Bertuccelli',
     actors: [
       { name: 'Esther Gorintin' },
@@ -1572,7 +1629,8 @@ export const baseMoviesMissingAnnees20002004: BaseMovie[] = [
     length: 103,
     genre: ['Drame'],
     saga: '',
-    description: 'Tbilissi, trois générations de femmes mentent sur un fils mort en France, lettres trop tendres.',
+    description:
+      'Tbilissi, trois générations de femmes mentent sur un fils mort en France, lettres trop tendres.',
     fromEntity: null,
     countryOrigin: ['France', 'Belgique'],
     selectDisplayOrder: 0,
@@ -1593,7 +1651,8 @@ export const baseMoviesMissingAnnees20002004: BaseMovie[] = [
     length: 178,
     genre: ['Drame'],
     saga: 'USA – Land of Opportunities',
-    description: 'Grace se réfugie dans un village dessiné à la craie ; l\'Amérique trop cruelle, Trier trop nu.',
+    description:
+      "Grace se réfugie dans un village dessiné à la craie ; l'Amérique trop cruelle, Trier trop nu.",
     fromEntity: null,
     countryOrigin: ['Danemark', 'Suède', 'France', 'Pays-Bas'],
     selectDisplayOrder: 0,
@@ -1614,7 +1673,8 @@ export const baseMoviesMissingAnnees20002004: BaseMovie[] = [
     length: 121,
     genre: ['Comédie', 'Drame'],
     saga: '',
-    description: 'Un fils reconstitue la RDA dans un appartement pour sa mère trop fragile, mur déjà tombé.',
+    description:
+      'Un fils reconstitue la RDA dans un appartement pour sa mère trop fragile, mur déjà tombé.',
     fromEntity: null,
     countryOrigin: ['Allemagne'],
     selectDisplayOrder: 0,
@@ -1635,7 +1695,8 @@ export const baseMoviesMissingAnnees20002004: BaseMovie[] = [
     length: 126,
     genre: ['Drame'],
     saga: '',
-    description: 'Une maison saisie, une Américaine, un colonel iranien, Californie trop brumeuse, trop fatale.',
+    description:
+      'Une maison saisie, une Américaine, un colonel iranien, Californie trop brumeuse, trop fatale.',
     fromEntity: {
       entityType: 'book',
       title: 'House of Sand and Fog',
@@ -1660,7 +1721,8 @@ export const baseMoviesMissingAnnees20002004: BaseMovie[] = [
     length: 105,
     genre: ['Drame'],
     saga: '',
-    description: 'Une famille irlandaise à New York, un frère mort trop présent, loft, Hounsou trop lumineux.',
+    description:
+      'Une famille irlandaise à New York, un frère mort trop présent, loft, Hounsou trop lumineux.',
     fromEntity: null,
     countryOrigin: ['Irlande', 'Royaume-Uni'],
     selectDisplayOrder: 0,
@@ -1681,7 +1743,8 @@ export const baseMoviesMissingAnnees20002004: BaseMovie[] = [
     length: 115,
     genre: ['Drame', 'Romance'],
     saga: '',
-    description: 'Mai 68, trois cinéphiles s\'enferment, incestueux, Cinémathèque, Bertolucci trop nu.',
+    description:
+      "Mai 68, trois cinéphiles s'enferment, incestueux, Cinémathèque, Bertolucci trop nu.",
     fromEntity: {
       entityType: 'book',
       title: 'The Dreamers',
@@ -1692,7 +1755,7 @@ export const baseMoviesMissingAnnees20002004: BaseMovie[] = [
     oscars: [],
   },
   {
-    title: 'L\'Esquive',
+    title: "L'Esquive",
     director: 'Abdellatif Kechiche',
     actors: [
       { name: 'Osman Elkharraz' },
@@ -1706,7 +1769,8 @@ export const baseMoviesMissingAnnees20002004: BaseMovie[] = [
     length: 117,
     genre: ['Drame', 'Romance', 'Comédie'],
     saga: '',
-    description: 'Une cité, Marivaux trop difficile, un ado trop timide, Kechiche déjà trop proche.',
+    description:
+      'Une cité, Marivaux trop difficile, un ado trop timide, Kechiche déjà trop proche.',
     fromEntity: null,
     countryOrigin: ['France'],
     selectDisplayOrder: 0,
@@ -1727,7 +1791,8 @@ export const baseMoviesMissingAnnees20002004: BaseMovie[] = [
     length: 118,
     genre: ['Mystère', 'Comédie', 'Policier'],
     saga: 'Rouletabille',
-    description: 'Rouletabille, une pièce close, un professeur trop blessé, Podalydès déjà trop joueur.',
+    description:
+      'Rouletabille, une pièce close, un professeur trop blessé, Podalydès déjà trop joueur.',
     fromEntity: {
       entityType: 'book',
       title: 'Le Mystère de la chambre jaune',
@@ -1747,18 +1812,18 @@ export const baseMoviesMissingAnnees20002004: BaseMovie[] = [
       { name: 'Marina Hands' },
       { name: 'Dorothée Berryman' },
     ],
-    coverUrl: '',
+    coverUrl:
+      '/movies_pictures/5b4b5589c903.jpg',
     releaseDate: '2003-05-21',
     length: 99,
     genre: ['Drame', 'Comédie'],
-    saga: 'Le Déclin de l\'empire américain',
-    description: 'Un prof mourant réunit ses amis, héroïne trop douce, fils trop riche, Arcand déjà testamentaire.',
+    saga: "Le Déclin de l'empire américain",
+    description:
+      'Un prof mourant réunit ses amis, héroïne trop douce, fils trop riche, Arcand déjà testamentaire.',
     fromEntity: null,
     countryOrigin: ['Canada', 'France'],
     selectDisplayOrder: 0,
-    oscars: [
-      { type: OscarEnum.OSCAR_BEST_INTERNATIONAL_FEATURE, year: 2004 },
-    ],
+    oscars: [{ type: OscarEnum.OSCAR_BEST_INTERNATIONAL_FEATURE, year: 2004 }],
   },
   {
     title: 'Les Sentiments',
@@ -1775,7 +1840,8 @@ export const baseMoviesMissingAnnees20002004: BaseMovie[] = [
     length: 93,
     genre: ['Comédie', 'Drame', 'Romance'],
     saga: '',
-    description: 'Un jeune couple de médecins emménage chez des voisins trop accueillants, désir trop gêné.',
+    description:
+      'Un jeune couple de médecins emménage chez des voisins trop accueillants, désir trop gêné.',
     fromEntity: null,
     countryOrigin: ['France'],
     selectDisplayOrder: 0,
@@ -1796,7 +1862,8 @@ export const baseMoviesMissingAnnees20002004: BaseMovie[] = [
     length: 78,
     genre: ['Animation', 'Comédie', 'Aventure'],
     saga: '',
-    description: 'Une grand-mère, un chien, trois chanteuses trop vieilles sauvent un cycliste enlevé, presque sans mots.',
+    description:
+      'Une grand-mère, un chien, trois chanteuses trop vieilles sauvent un cycliste enlevé, presque sans mots.',
     fromEntity: null,
     countryOrigin: ['France', 'Belgique', 'Canada', 'Royaume-Uni'],
     selectDisplayOrder: 0,
@@ -1817,7 +1884,8 @@ export const baseMoviesMissingAnnees20002004: BaseMovie[] = [
     length: 132,
     genre: ['Policier', 'Thriller', 'Drame'],
     saga: '',
-    description: 'Des flics trop rudes chassent un tueur en série dans la campagne coréenne des années 80, pluie trop longue.',
+    description:
+      'Des flics trop rudes chassent un tueur en série dans la campagne coréenne des années 80, pluie trop longue.',
     fromEntity: {
       entityType: 'book',
       title: 'Come to See Me',
@@ -1842,7 +1910,8 @@ export const baseMoviesMissingAnnees20002004: BaseMovie[] = [
     length: 95,
     genre: ['Drame'],
     saga: '',
-    description: 'Un épicier musulman adopte un gosse juif de la rue Bleue, Coran, tendresse, Sharif trop doux.',
+    description:
+      'Un épicier musulman adopte un gosse juif de la rue Bleue, Coran, tendresse, Sharif trop doux.',
     fromEntity: {
       entityType: 'book',
       title: 'Monsieur Ibrahim et les Fleurs du Coran',
@@ -1867,7 +1936,8 @@ export const baseMoviesMissingAnnees20002004: BaseMovie[] = [
     length: 117,
     genre: ['Comédie musicale', 'Comédie'],
     saga: '',
-    description: 'Une opérette 1925, un mari américain trop caché, Resnais déjà en chanson, trop léger, trop précis.',
+    description:
+      'Une opérette 1925, un mari américain trop caché, Resnais déjà en chanson, trop léger, trop précis.',
     fromEntity: null,
     countryOrigin: ['France', 'Suisse'],
     selectDisplayOrder: 0,
@@ -1888,7 +1958,8 @@ export const baseMoviesMissingAnnees20002004: BaseMovie[] = [
     length: 103,
     genre: ['Drame'],
     saga: '',
-    description: 'Un temple flottant, un moine, un enfant, quatre saisons, péché trop lourd, Kim trop zen.',
+    description:
+      'Un temple flottant, un moine, un enfant, quatre saisons, péché trop lourd, Kim trop zen.',
     fromEntity: null,
     countryOrigin: ['Corée du Sud', 'Allemagne'],
     selectDisplayOrder: 0,
@@ -1909,7 +1980,8 @@ export const baseMoviesMissingAnnees20002004: BaseMovie[] = [
     length: 102,
     genre: ['Thriller', 'Drame'],
     saga: '',
-    description: 'Une romancière trop sage croise la fille trop nue de son éditeur, Lubéron, meurtre peut-être.',
+    description:
+      'Une romancière trop sage croise la fille trop nue de son éditeur, Lubéron, meurtre peut-être.',
     fromEntity: null,
     countryOrigin: ['France', 'Royaume-Uni'],
     selectDisplayOrder: 0,
@@ -1930,7 +2002,8 @@ export const baseMoviesMissingAnnees20002004: BaseMovie[] = [
     length: 89,
     genre: ['Drame', 'Comédie'],
     saga: '',
-    description: 'Un nain hérite d\'une gare du New Jersey, deux voisins trop bavards, amitié trop discrète.',
+    description:
+      "Un nain hérite d'une gare du New Jersey, deux voisins trop bavards, amitié trop discrète.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -1951,7 +2024,8 @@ export const baseMoviesMissingAnnees20002004: BaseMovie[] = [
     length: 111,
     genre: ['Policier', 'Thriller', 'Drame'],
     saga: '',
-    description: 'Deux flics se trahissent pour un poste trop convoité, hold-up, 36, Marchal trop sale.',
+    description:
+      'Deux flics se trahissent pour un poste trop convoité, hold-up, 36, Marchal trop sale.',
     fromEntity: null,
     countryOrigin: ['France'],
     selectDisplayOrder: 0,
@@ -1972,7 +2046,8 @@ export const baseMoviesMissingAnnees20002004: BaseMovie[] = [
     length: 88,
     genre: ['Drame'],
     saga: '',
-    description: 'Une adolescente enceinte apprend la broderie chez une femme trop secrète, Luberon trop calme.',
+    description:
+      'Une adolescente enceinte apprend la broderie chez une femme trop secrète, Luberon trop calme.',
     fromEntity: null,
     countryOrigin: ['France'],
     selectDisplayOrder: 0,
@@ -1988,22 +2063,22 @@ export const baseMoviesMissingAnnees20002004: BaseMovie[] = [
       { name: 'Mía Maestro' },
       { name: 'Jorge Chiarella' },
     ],
-    coverUrl: '',
+    coverUrl:
+      '/movies_pictures/15ccbddb0ddc.jpg',
     releaseDate: '2004-03-24',
     length: 126,
     genre: ['Drame', 'Biographie', 'Aventure'],
     saga: '',
-    description: 'Le jeune Guevara traverse l\'Amérique latine à moto, lèpre, Andes, politique trop tôt.',
+    description:
+      "Le jeune Guevara traverse l'Amérique latine à moto, lèpre, Andes, politique trop tôt.",
     fromEntity: {
       entityType: 'book',
-      title: 'De moto à travers l\'Amérique du Sud',
+      title: "De moto à travers l'Amérique du Sud",
       secondEntityKey: 'Ernesto Guevara',
     },
     countryOrigin: ['États-Unis', 'Allemagne', 'Royaume-Uni', 'Argentine'],
     selectDisplayOrder: 0,
-    oscars: [
-      { type: OscarEnum.OSCAR_BEST_ORIGINAL_SONG, year: 2005 },
-    ],
+    oscars: [{ type: OscarEnum.OSCAR_BEST_ORIGINAL_SONG, year: 2005 }],
   },
   {
     title: 'Closer',
@@ -2020,7 +2095,8 @@ export const baseMoviesMissingAnnees20002004: BaseMovie[] = [
     length: 104,
     genre: ['Drame', 'Romance'],
     saga: '',
-    description: 'Quatre Londoniens se trompent, se disent trop vrai, Nichols déjà trop cruel, strip-tease.',
+    description:
+      'Quatre Londoniens se trompent, se disent trop vrai, Nichols déjà trop cruel, strip-tease.',
     fromEntity: null,
     countryOrigin: ['États-Unis', 'Royaume-Uni'],
     selectDisplayOrder: 0,
@@ -2041,7 +2117,8 @@ export const baseMoviesMissingAnnees20002004: BaseMovie[] = [
     length: 114,
     genre: ['Comédie', 'Drame'],
     saga: '',
-    description: 'Un écrivain trop célèbre ignore sa fille trop ronde, Jaoui déjà trop juste, Bacri trop dur.',
+    description:
+      'Un écrivain trop célèbre ignore sa fille trop ronde, Jaoui déjà trop juste, Bacri trop dur.',
     fromEntity: null,
     countryOrigin: ['France'],
     selectDisplayOrder: 0,
@@ -2062,14 +2139,15 @@ export const baseMoviesMissingAnnees20002004: BaseMovie[] = [
     length: 122,
     genre: ['Documentaire'],
     saga: '',
-    description: 'Moore relie Bush, le pétrole et l\'Irak, Palme trop politique, images trop connues.',
+    description:
+      "Moore relie Bush, le pétrole et l'Irak, Palme trop politique, images trop connues.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
     oscars: [],
   },
   {
-    title: 'L\'Enquête corse',
+    title: "L'Enquête corse",
     director: 'Alain Berberian',
     actors: [
       { name: 'Christian Clavier' },
@@ -2083,10 +2161,11 @@ export const baseMoviesMissingAnnees20002004: BaseMovie[] = [
     length: 91,
     genre: ['Comédie'],
     saga: '',
-    description: 'Un détective trop parisien cherche un indépendantiste, Clavier et Reno déjà en duo trop large.',
+    description:
+      'Un détective trop parisien cherche un indépendantiste, Clavier et Reno déjà en duo trop large.',
     fromEntity: {
       entityType: 'comic',
-      title: 'L\'Enquête corse',
+      title: "L'Enquête corse",
       secondEntityKey: 'Pétillon',
     },
     countryOrigin: ['France'],
@@ -2108,7 +2187,8 @@ export const baseMoviesMissingAnnees20002004: BaseMovie[] = [
     length: 105,
     genre: ['Policier', 'Thriller'],
     saga: '',
-    description: 'Un dealer trop chic veut sortir, un dernier job, ecstasy, Craig déjà trop Bond avant Bond.',
+    description:
+      'Un dealer trop chic veut sortir, un dernier job, ecstasy, Craig déjà trop Bond avant Bond.',
     fromEntity: {
       entityType: 'book',
       title: 'Layer Cake',
@@ -2133,7 +2213,8 @@ export const baseMoviesMissingAnnees20002004: BaseMovie[] = [
     length: 95,
     genre: ['Thriller', 'Policier', 'Drame'],
     saga: '',
-    description: 'Un nouveau dans une société de fourgons trop visée, Dupontel trop calme, Dujardin trop nerveux.',
+    description:
+      'Un nouveau dans une société de fourgons trop visée, Dupontel trop calme, Dujardin trop nerveux.',
     fromEntity: null,
     countryOrigin: ['France'],
     selectDisplayOrder: 0,
@@ -2154,7 +2235,8 @@ export const baseMoviesMissingAnnees20002004: BaseMovie[] = [
     length: 96,
     genre: ['Drame', 'Romance'],
     saga: '',
-    description: 'Un ingénieur retrouve à Tanger la femme qu\'il aime trop tard, Téchiné déjà trop discret.',
+    description:
+      "Un ingénieur retrouve à Tanger la femme qu'il aime trop tard, Téchiné déjà trop discret.",
     fromEntity: null,
     countryOrigin: ['France'],
     selectDisplayOrder: 0,
@@ -2170,12 +2252,14 @@ export const baseMoviesMissingAnnees20002004: BaseMovie[] = [
       { name: 'Mabel Rivera' },
       { name: 'Celso Bugallo' },
     ],
-    coverUrl: '',
+    coverUrl:
+      '/movies_pictures/e4fc9ff25f59.jpg',
     releaseDate: '2004-09-03',
     length: 126,
     genre: ['Drame', 'Biographie'],
     saga: '',
-    description: 'Ramón Sampedro, tétraplégique, veut mourir, mer trop belle, Bardem trop juste.',
+    description:
+      'Ramón Sampedro, tétraplégique, veut mourir, mer trop belle, Bardem trop juste.',
     fromEntity: null,
     countryOrigin: ['Espagne', 'France', 'Italie'],
     selectDisplayOrder: 0,
@@ -2199,7 +2283,8 @@ export const baseMoviesMissingAnnees20002004: BaseMovie[] = [
     length: 101,
     genre: ['Drame', 'Thriller'],
     saga: '',
-    description: 'Une Colombienne avale des ovules de coke pour New York, ventre trop plein, grâce trop dure.',
+    description:
+      'Une Colombienne avale des ovules de coke pour New York, ventre trop plein, grâce trop dure.',
     fromEntity: null,
     countryOrigin: ['États-Unis', 'Colombie', 'Équateur'],
     selectDisplayOrder: 0,
@@ -2220,7 +2305,8 @@ export const baseMoviesMissingAnnees20002004: BaseMovie[] = [
     length: 105,
     genre: ['Comédie'],
     saga: '',
-    description: 'Un narcoleptique trop rêveur, un patron trop dur, Kourtrajmé déjà trop clip, Canet trop mou.',
+    description:
+      'Un narcoleptique trop rêveur, un patron trop dur, Kourtrajmé déjà trop clip, Canet trop mou.',
     fromEntity: null,
     countryOrigin: ['France'],
     selectDisplayOrder: 0,
@@ -2241,7 +2327,8 @@ export const baseMoviesMissingAnnees20002004: BaseMovie[] = [
     length: 150,
     genre: ['Drame', 'Comédie'],
     saga: '',
-    description: 'Une femme et un ex interné, un père mourant, Desplechin trop bavard, trop juste, trop long.',
+    description:
+      'Une femme et un ex interné, un père mourant, Desplechin trop bavard, trop juste, trop long.',
     fromEntity: null,
     countryOrigin: ['France'],
     selectDisplayOrder: 0,
@@ -2262,7 +2349,8 @@ export const baseMoviesMissingAnnees20002004: BaseMovie[] = [
     length: 100,
     genre: ['Documentaire', 'Comédie'],
     saga: '',
-    description: 'Un mois de McDo, foie trop gras, Super Size, Spurlock déjà trop militant.',
+    description:
+      'Un mois de McDo, foie trop gras, Super Size, Spurlock déjà trop militant.',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -2283,7 +2371,8 @@ export const baseMoviesMissingAnnees20002004: BaseMovie[] = [
     length: 125,
     genre: ['Drame', 'Historique'],
     saga: '',
-    description: 'Londres 1950, une femme trop douce pratique des avortements, jusqu\'à la police trop tard.',
+    description:
+      "Londres 1950, une femme trop douce pratique des avortements, jusqu'à la police trop tard.",
     fromEntity: null,
     countryOrigin: ['Royaume-Uni', 'France'],
     selectDisplayOrder: 0,
