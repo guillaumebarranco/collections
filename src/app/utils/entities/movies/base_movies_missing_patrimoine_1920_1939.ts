@@ -775,6 +775,28 @@ export const baseMoviesMissingPatrimoine19201939: BaseMovie[] = [
     oscars: [],
   },
   {
+    title: 'La Mélodie de Broadway',
+    director: 'Harry Beaumont',
+    actors: [
+      { name: 'Charles King' },
+      { name: 'Anita Page' },
+      { name: 'Bessie Love' },
+      { name: 'Mary Doran' },
+      { name: 'Eddie Kane' },
+    ],
+    coverUrl: '',
+    releaseDate: '1929-02-01',
+    length: 100,
+    genre: ['Comédie musicale'],
+    saga: '',
+    description:
+      'Deux sœurs débarquent à Broadway ; l’une vole le rôle et le fiancé de l’autre, jusqu’à la réconciliation en duo.',
+    fromEntity: null,
+    countryOrigin: ['États-Unis'],
+    selectDisplayOrder: 0,
+    oscars: [{ type: OscarEnum.OSCAR_BEST_MOVIE, year: 1930 }],
+  },
+  {
     title: "À l'Ouest rien de nouveau",
     director: 'Lewis Milestone',
     actors: [
@@ -1616,6 +1638,36 @@ export const baseMoviesMissingPatrimoine19201939: BaseMovie[] = [
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
     oscars: [],
+  },
+  {
+    title: 'Cavalcade',
+    director: 'Frank Lloyd',
+    actors: [
+      { name: 'Diana Wynyard' },
+      { name: 'Clive Brook' },
+      { name: 'Una O\'Connor' },
+      { name: 'Herbert Mundin' },
+      { name: 'Ursula Jeans' },
+    ],
+    coverUrl: '',
+    releaseDate: '1933-01-05',
+    length: 110,
+    genre: ['Drame', 'Historique'],
+    saga: '',
+    description:
+      'Une famille londonienne traverse la guerre des Boers, le Titanic et 1914, du salon victorien aux lendemains de 1918.',
+    fromEntity: {
+      entityType: 'book',
+      title: 'Cavalcade',
+      secondEntityKey: 'Noël Coward',
+    },
+    countryOrigin: ['États-Unis'],
+    selectDisplayOrder: 0,
+    oscars: [
+      { type: OscarEnum.OSCAR_BEST_MOVIE, year: 1934 },
+      { type: OscarEnum.OSCAR_BEST_DIRECTOR, year: 1934 },
+      { type: OscarEnum.OSCAR_BEST_PRODUCTION_DESIGN, year: 1934 },
+    ],
   },
   {
     title: 'Zéro de conduite',

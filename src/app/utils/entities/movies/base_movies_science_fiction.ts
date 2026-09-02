@@ -3501,7 +3501,7 @@ export const baseMoviesScienceFiction: BaseMovie[] = [
       { name: 'Benedict Wong' },
     ],
     coverUrl:
-      'https://www.ecranlarge.com/content/uploads/2026/08/the-dog-stars-affiche-officielle-scaled.jpg',
+      '/movies_pictures/fabb3efae133.jpg',
     releaseDate: '2026-08-28',
     length: 118,
     genre: ['Science Fiction', 'Dystopie', 'Drame'],

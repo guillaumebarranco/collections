@@ -596,6 +596,35 @@ export const baseMoviesMissingPatrimoine19401949: BaseMovie[] = [
     oscars: [],
   },
   {
+    title: "La Route semée d'étoiles",
+    director: 'Leo McCarey',
+    actors: [
+      { name: 'Bing Crosby' },
+      { name: 'Barry Fitzgerald' },
+      { name: 'Risë Stevens' },
+      { name: 'Frank McHugh' },
+      { name: 'Gene Lockhart' },
+    ],
+    coverUrl: '',
+    releaseDate: '1944-05-03',
+    length: 126,
+    genre: ['Comédie', 'Drame'],
+    saga: '',
+    description:
+      "Un prêtre chanteur modernise une paroisse new-yorkaise et réchauffe le vieux curé qui n'y croyait plus.",
+    fromEntity: null,
+    countryOrigin: ['États-Unis'],
+    selectDisplayOrder: 0,
+    oscars: [
+      { type: OscarEnum.OSCAR_BEST_MOVIE, year: 1945 },
+      { type: OscarEnum.OSCAR_BEST_DIRECTOR, year: 1945 },
+      { type: OscarEnum.OSCAR_BEST_ACTOR, year: 1945 },
+      { type: OscarEnum.OSCAR_BEST_SUPPORTING_ACTOR, year: 1945 },
+      { type: OscarEnum.OSCAR_BEST_ORIGINAL_SCREENPLAY, year: 1945 },
+      { type: OscarEnum.OSCAR_BEST_ORIGINAL_SONG, year: 1945 },
+    ],
+  },
+  {
     title: 'Hantise',
     director: 'George Cukor',
     actors: [
@@ -1236,6 +1265,36 @@ export const baseMoviesMissingPatrimoine19401949: BaseMovie[] = [
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
     oscars: [],
+  },
+  {
+    title: 'Le Mur invisible',
+    director: 'Elia Kazan',
+    actors: [
+      { name: 'Gregory Peck' },
+      { name: 'Dorothy McGuire' },
+      { name: 'John Garfield' },
+      { name: 'Celeste Holm' },
+      { name: 'Anne Revere' },
+    ],
+    coverUrl: '',
+    releaseDate: '1947-11-11',
+    length: 118,
+    genre: ['Drame'],
+    saga: '',
+    description:
+      "Un journaliste se fait passer pour juif afin d'écrire sur l'antisémitisme, et voit les portes se fermer.",
+    fromEntity: {
+      entityType: 'book',
+      title: "Gentleman's Agreement",
+      secondEntityKey: 'Laura Z. Hobson',
+    },
+    countryOrigin: ['États-Unis'],
+    selectDisplayOrder: 0,
+    oscars: [
+      { type: OscarEnum.OSCAR_BEST_MOVIE, year: 1948 },
+      { type: OscarEnum.OSCAR_BEST_DIRECTOR, year: 1948 },
+      { type: OscarEnum.OSCAR_BEST_SUPPORTING_ACTRESS, year: 1948 },
+    ],
   },
   {
     title: 'La Griffe du passé',

@@ -2129,7 +2129,7 @@ export const baseBooksApi: BaseBook[] = [
   {
     title: "Martyrs - Livre 1",
     author: "Oliver Peru",
-    coverUrl: "https://static.fnac-static.com/multimedia/PE/Images/FR/NR/42/a6/1a/18523714/1507-1/tsp20251001075209/Martyrs.jpg",
+    coverUrl: "/books_pictures/45cd84001736.jpg",
     pages: 700,
     genre: ['Fantasy', 'Aventure'],
     saga: "Martyrs",

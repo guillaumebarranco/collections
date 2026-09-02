@@ -590,9 +590,14 @@
               <span class="movies-oscar-year-count"
                 >{{ row.oscarYearCount }} Oscars</span
               >
-              } @if (row.missing) {
-              <span class="movies-oscar-year-unseen">Non vu</span>
               }
+              <span
+                class="movies-oscar-year-status"
+                [class.movies-oscar-year-status--unseen]="row.missing"
+                [class.movies-oscar-year-status--seen]="!row.missing"
+              >
+                {{ row.missing ? "Non vu" : "Vu" }}
+              </span>
             </span>
           </div>
           @if (row.missing) {

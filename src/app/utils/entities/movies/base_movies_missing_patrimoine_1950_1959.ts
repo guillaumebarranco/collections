@@ -15,12 +15,14 @@ export const baseMoviesMissingPatrimoine19501959: BaseMovie[] = [
       { name: 'Nancy Olson' },
       { name: 'Fred Clark' },
     ],
-    coverUrl: '',
+    coverUrl:
+      '/movies_pictures/7342a553eb44.jpg',
     releaseDate: '1950-08-10',
     length: 110,
     genre: ['Drame'],
     saga: '',
-    description: 'Un scénariste fauché devient le gigolo d\'une star silencieuse qui prépare son retour, jusqu\'à la piscine.',
+    description:
+      "Un scénariste fauché devient le gigolo d'une star silencieuse qui prépare son retour, jusqu'à la piscine.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -40,12 +42,14 @@ export const baseMoviesMissingPatrimoine19501959: BaseMovie[] = [
       { name: 'Celeste Holm' },
       { name: 'Gary Merrill' },
     ],
-    coverUrl: '',
+    coverUrl:
+      '/movies_pictures/d29d8b13fbf8.jpg',
     releaseDate: '1950-10-13',
     length: 138,
     genre: ['Drame'],
     saga: '',
-    description: 'Une ingénie dévouée s\'insinue dans la vie d\'une star de Broadway, jusqu\'à lui voler le rôle et l\'homme.',
+    description:
+      "Une ingénie dévouée s'insinue dans la vie d'une star de Broadway, jusqu'à lui voler le rôle et l'homme.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -68,12 +72,14 @@ export const baseMoviesMissingPatrimoine19501959: BaseMovie[] = [
       { name: 'Danielle Darrieux' },
       { name: 'Jean-Louis Barrault' },
     ],
-    coverUrl: '',
+    coverUrl:
+      '/movies_pictures/35f05477f2fb.jpg',
     releaseDate: '1950-09-27',
     length: 97,
     genre: ['Comédie', 'Romance', 'Drame'],
     saga: '',
-    description: 'À Vienne, une ronde d\'amants se passe le relais, commentée par un meneur de jeu au manège.',
+    description:
+      "À Vienne, une ronde d'amants se passe le relais, commentée par un meneur de jeu au manège.",
     fromEntity: null,
     countryOrigin: ['France'],
     selectDisplayOrder: 0,
@@ -89,12 +95,14 @@ export const baseMoviesMissingPatrimoine19501959: BaseMovie[] = [
       { name: 'Carl Benton Reid' },
       { name: 'Art Smith' },
     ],
-    coverUrl: '',
+    coverUrl:
+      '/movies_pictures/a9e5a1518721.webp',
     releaseDate: '1950-05-17',
     length: 94,
     genre: ['Thriller', 'Drame'],
     saga: '',
-    description: 'Un scénariste soupçonné du meurtre d\'une jeune fille se terre, entre amnésie, colère et Hollywood.',
+    description:
+      "Un scénariste soupçonné du meurtre d'une jeune fille se terre, entre amnésie, colère et Hollywood.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -110,12 +118,14 @@ export const baseMoviesMissingPatrimoine19501959: BaseMovie[] = [
       { name: 'Marie Déa' },
       { name: 'Édouard Dermit' },
     ],
-    coverUrl: '',
+    coverUrl:
+      '/movies_pictures/bc9e0557c6b3.jpg',
     releaseDate: '1950-09-29',
     length: 95,
     genre: ['Fantastique', 'Drame'],
     saga: '',
-    description: 'Un poète suit la Mort à travers les miroirs, entre radio d\'outre-tombe et motards de l\'au-delà.',
+    description:
+      "Un poète suit la Mort à travers les miroirs, entre radio d'outre-tombe et motards de l'au-delà.",
     fromEntity: null,
     countryOrigin: ['France'],
     selectDisplayOrder: 0,
@@ -131,12 +141,14 @@ export const baseMoviesMissingPatrimoine19501959: BaseMovie[] = [
       { name: 'James Whitmore' },
       { name: 'Sam Jaffe' },
     ],
-    coverUrl: '',
+    coverUrl:
+      '/movies_pictures/90b40f98a825.jpg',
     releaseDate: '1950-06-09',
     length: 112,
     genre: ['Policier', 'Thriller'],
     saga: '',
-    description: 'Un hold-up de bijoux minutieusement préparé s\'effondre par la cupidité, la chance et un cheval à la campagne.',
+    description:
+      "Un hold-up de bijoux minutieusement préparé s'effondre par la cupidité, la chance et un cheval à la campagne.",
     fromEntity: {
       entityType: 'book',
       title: 'The Asphalt Jungle',
@@ -156,12 +168,14 @@ export const baseMoviesMissingPatrimoine19501959: BaseMovie[] = [
       { name: 'Takashi Shimura' },
       { name: 'Minoru Chiaki' },
     ],
-    coverUrl: '',
+    coverUrl:
+      '/movies_pictures/bce13fdb2ebf.jpeg',
     releaseDate: '1950-08-25',
     length: 88,
     genre: ['Drame', 'Mystère'],
     saga: '',
-    description: 'Un viol et un meurtre en forêt sont racontés quatre fois, chacune contredisant les autres, sous la porte Rashômon.',
+    description:
+      'Un viol et un meurtre en forêt sont racontés quatre fois, chacune contredisant les autres, sous la porte Rashômon.',
     fromEntity: null,
     countryOrigin: ['Japon'],
     selectDisplayOrder: 0,
@@ -172,17 +186,19 @@ export const baseMoviesMissingPatrimoine19501959: BaseMovie[] = [
     director: 'John Ford',
     actors: [
       { name: 'John Wayne' },
-      { name: 'Maureen O\'Hara' },
+      { name: "Maureen O'Hara" },
       { name: 'Ben Johnson' },
       { name: 'Claude Jarman Jr.' },
       { name: 'Harry Carey Jr.' },
     ],
-    coverUrl: '',
+    coverUrl:
+      '/movies_pictures/1af495a75a0f.jpg',
     releaseDate: '1950-11-15',
     length: 105,
     genre: ['Western'],
     saga: 'La Cavalerie',
-    description: 'Un colonel à la frontière mexicaine retrouve sa femme et son fils enrôlé, entre Apache et honneur.',
+    description:
+      'Un colonel à la frontière mexicaine retrouve sa femme et son fils enrôlé, entre Apache et honneur.',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -198,12 +214,13 @@ export const baseMoviesMissingPatrimoine19501959: BaseMovie[] = [
       { name: 'Mario Sponzo' },
       { name: 'Gaetano Famularo' },
     ],
-    coverUrl: '',
+    coverUrl: '/movies_pictures/51be1627f1bb.jpg',
     releaseDate: '1950-02-15',
     length: 107,
     genre: ['Drame'],
     saga: '',
-    description: 'Une Lituanienne épouse un pêcheur pour sortir du camp et se heurte à l\'île volcanique et à ses habitants.',
+    description:
+      "Une Lituanienne épouse un pêcheur pour sortir du camp et se heurte à l'île volcanique et à ses habitants.",
     fromEntity: null,
     countryOrigin: ['Italie'],
     selectDisplayOrder: 0,
@@ -224,7 +241,8 @@ export const baseMoviesMissingPatrimoine19501959: BaseMovie[] = [
     length: 92,
     genre: ['Western'],
     saga: '',
-    description: 'Un tireur poursuit son frère, qui lui a volé la carabine parfaite, à travers la Frontière.',
+    description:
+      'Un tireur poursuit son frère, qui lui a volé la carabine parfaite, à travers la Frontière.',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -245,14 +263,15 @@ export const baseMoviesMissingPatrimoine19501959: BaseMovie[] = [
     length: 114,
     genre: ['Drame', 'Comédie'],
     saga: '',
-    description: 'Une mère de Cinecittà pousse sa fille à un casting, jusqu\'à voir le cinéma tel qu\'il est.',
+    description:
+      "Une mère de Cinecittà pousse sa fille à un casting, jusqu'à voir le cinéma tel qu'il est.",
     fromEntity: null,
     countryOrigin: ['Italie'],
     selectDisplayOrder: 0,
     oscars: [],
   },
   {
-    title: 'Journal d\'un curé de campagne',
+    title: "Journal d'un curé de campagne",
     director: 'Robert Bresson',
     actors: [
       { name: 'Claude Laydu' },
@@ -266,10 +285,11 @@ export const baseMoviesMissingPatrimoine19501959: BaseMovie[] = [
     length: 115,
     genre: ['Drame'],
     saga: '',
-    description: 'Un jeune prêtre malade arrive dans une paroisse hostile et tient le journal de sa grâce et de son échec.',
+    description:
+      'Un jeune prêtre malade arrive dans une paroisse hostile et tient le journal de sa grâce et de son échec.',
     fromEntity: {
       entityType: 'book',
-      title: 'Journal d\'un curé de campagne',
+      title: "Journal d'un curé de campagne",
       secondEntityKey: 'Georges Bernanos',
     },
     countryOrigin: ['France'],
@@ -277,7 +297,7 @@ export const baseMoviesMissingPatrimoine19501959: BaseMovie[] = [
     oscars: [],
   },
   {
-    title: 'L\'Inconnu du Nord-Express',
+    title: "L'Inconnu du Nord-Express",
     director: 'Alfred Hitchcock',
     actors: [
       { name: 'Farley Granger' },
@@ -291,7 +311,8 @@ export const baseMoviesMissingPatrimoine19501959: BaseMovie[] = [
     length: 101,
     genre: ['Thriller', 'Mystère'],
     saga: '',
-    description: 'Dans un train, un playboy propose à un joueur de tennis d\'échanger leurs meurtres.',
+    description:
+      "Dans un train, un playboy propose à un joueur de tennis d'échanger leurs meurtres.",
     fromEntity: {
       entityType: 'book',
       title: 'Strangers on a Train',
@@ -302,7 +323,7 @@ export const baseMoviesMissingPatrimoine19501959: BaseMovie[] = [
     oscars: [],
   },
   {
-    title: 'L\'Odyssée de l\'African Queen',
+    title: "L'Odyssée de l'African Queen",
     director: 'John Huston',
     actors: [
       { name: 'Humphrey Bogart' },
@@ -316,7 +337,8 @@ export const baseMoviesMissingPatrimoine19501959: BaseMovie[] = [
     length: 105,
     genre: ['Aventure', 'Romance', 'Guerre'],
     saga: '',
-    description: 'Une missionnaire et un skipper ivrogne descendent un fleuve africain pour torpiller un canonnière allemande.',
+    description:
+      'Une missionnaire et un skipper ivrogne descendent un fleuve africain pour torpiller un canonnière allemande.',
     fromEntity: {
       entityType: 'book',
       title: 'The African Queen',
@@ -324,9 +346,7 @@ export const baseMoviesMissingPatrimoine19501959: BaseMovie[] = [
     },
     countryOrigin: ['États-Unis', 'Royaume-Uni'],
     selectDisplayOrder: 0,
-    oscars: [
-      { type: OscarEnum.OSCAR_BEST_ACTOR, year: 1952 },
-    ],
+    oscars: [{ type: OscarEnum.OSCAR_BEST_ACTOR, year: 1952 }],
   },
   {
     title: 'Le Fleuve',
@@ -343,7 +363,8 @@ export const baseMoviesMissingPatrimoine19501959: BaseMovie[] = [
     length: 99,
     genre: ['Drame'],
     saga: '',
-    description: 'Sur les bords du Gange, une adolescente anglaise aime, jalouse et voit la mort entrer dans sa maison.',
+    description:
+      'Sur les bords du Gange, une adolescente anglaise aime, jalouse et voit la mort entrer dans sa maison.',
     fromEntity: {
       entityType: 'book',
       title: 'The River',
@@ -368,14 +389,15 @@ export const baseMoviesMissingPatrimoine19501959: BaseMovie[] = [
     length: 111,
     genre: ['Drame'],
     saga: '',
-    description: 'Un journaliste désespéré retarde le sauvetage d\'un homme coincé dans une grotte pour fabriquer un scoop.',
+    description:
+      "Un journaliste désespéré retarde le sauvetage d'un homme coincé dans une grotte pour fabriquer un scoop.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
     oscars: [],
   },
   {
-    title: 'Le Jour où la Terre s\'arrêta',
+    title: "Le Jour où la Terre s'arrêta",
     director: 'Robert Wise',
     actors: [
       { name: 'Michael Rennie' },
@@ -389,7 +411,8 @@ export const baseMoviesMissingPatrimoine19501959: BaseMovie[] = [
     length: 92,
     genre: ['Science Fiction'],
     saga: '',
-    description: 'Un extraterrestre et son robot atterrissent à Washington pour exiger la paix, sous peine d\'anéantir la Terre.',
+    description:
+      "Un extraterrestre et son robot atterrissent à Washington pour exiger la paix, sous peine d'anéantir la Terre.",
     fromEntity: {
       entityType: 'book',
       title: 'Farewell to the Master',
@@ -414,7 +437,8 @@ export const baseMoviesMissingPatrimoine19501959: BaseMovie[] = [
     length: 100,
     genre: ['Comédie', 'Fantastique', 'Drame'],
     saga: '',
-    description: 'Un orphelin au grand cœur organise un bidonville, jusqu\'à s\'envoler vers un pays « où c\'est bien ».',
+    description:
+      "Un orphelin au grand cœur organise un bidonville, jusqu'à s'envoler vers un pays « où c'est bien ».",
     fromEntity: null,
     countryOrigin: ['Italie'],
     selectDisplayOrder: 0,
@@ -435,7 +459,8 @@ export const baseMoviesMissingPatrimoine19501959: BaseMovie[] = [
     length: 113,
     genre: ['Comédie musicale', 'Romance'],
     saga: '',
-    description: 'Un peintre GI reste à Paris, aime une jeune Française, et termine en ballet Gershwin de dix-sept minutes.',
+    description:
+      'Un peintre GI reste à Paris, aime une jeune Française, et termine en ballet Gershwin de dix-sept minutes.',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -463,7 +488,8 @@ export const baseMoviesMissingPatrimoine19501959: BaseMovie[] = [
     length: 122,
     genre: ['Drame'],
     saga: '',
-    description: 'Blanche DuBois se réfugie chez sa sœur Stella à La Nouvelle-Orléans et s\'entrechoque avec Stanley Kowalski.',
+    description:
+      "Blanche DuBois se réfugie chez sa sœur Stella à La Nouvelle-Orléans et s'entrechoque avec Stanley Kowalski.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -489,7 +515,8 @@ export const baseMoviesMissingPatrimoine19501959: BaseMovie[] = [
     length: 122,
     genre: ['Drame', 'Romance'],
     saga: '',
-    description: 'Un neveu ambitieux aime une héritière et veut se débarrasser de l\'ouvrière qu\'il a mise enceinte.',
+    description:
+      "Un neveu ambitieux aime une héritière et veut se débarrasser de l'ouvrière qu'il a mise enceinte.",
     fromEntity: {
       entityType: 'book',
       title: 'An American Tragedy',
@@ -507,7 +534,7 @@ export const baseMoviesMissingPatrimoine19501959: BaseMovie[] = [
     ],
   },
   {
-    title: 'Casque d\'or',
+    title: "Casque d'or",
     director: 'Jacques Becker',
     actors: [
       { name: 'Simone Signoret' },
@@ -521,7 +548,8 @@ export const baseMoviesMissingPatrimoine19501959: BaseMovie[] = [
     length: 96,
     genre: ['Drame', 'Romance', 'Policier'],
     saga: '',
-    description: 'À Belleville vers 1900, une fille de bande aime un charpentier ; le chef d\'Apache sème le sang.',
+    description:
+      "À Belleville vers 1900, une fille de bande aime un charpentier ; le chef d'Apache sème le sang.",
     fromEntity: null,
     countryOrigin: ['France'],
     selectDisplayOrder: 0,
@@ -542,7 +570,8 @@ export const baseMoviesMissingPatrimoine19501959: BaseMovie[] = [
     length: 113,
     genre: ['Drame'],
     saga: '',
-    description: 'Après le suicide de son fils, une bourgeoise romaine cherche un sens parmi les pauvres et finit internée.',
+    description:
+      'Après le suicide de son fils, une bourgeoise romaine cherche un sens parmi les pauvres et finit internée.',
     fromEntity: null,
     countryOrigin: ['Italie'],
     selectDisplayOrder: 0,
@@ -563,7 +592,8 @@ export const baseMoviesMissingPatrimoine19501959: BaseMovie[] = [
     length: 102,
     genre: ['Aventure', 'Comédie'],
     saga: '',
-    description: 'Un conscrit de Louis XV, trompé par une prédiction, devient héros malgré lui et aime la fille de Mme de Pompadour.',
+    description:
+      'Un conscrit de Louis XV, trompé par une prédiction, devient héros malgré lui et aime la fille de Mme de Pompadour.',
     fromEntity: null,
     countryOrigin: ['France'],
     selectDisplayOrder: 0,
@@ -584,18 +614,19 @@ export const baseMoviesMissingPatrimoine19501959: BaseMovie[] = [
     length: 86,
     genre: ['Drame', 'Guerre'],
     saga: '',
-    description: 'Une fillette orpheline de l\'exode et un petit paysan enterrent les morts dans un cimetière d\'animaux.',
+    description:
+      "Une fillette orpheline de l'exode et un petit paysan enterrent les morts dans un cimetière d'animaux.",
     fromEntity: null,
     countryOrigin: ['France'],
     selectDisplayOrder: 0,
     oscars: [],
   },
   {
-    title: 'L\'Homme tranquille',
+    title: "L'Homme tranquille",
     director: 'John Ford',
     actors: [
       { name: 'John Wayne' },
-      { name: 'Maureen O\'Hara' },
+      { name: "Maureen O'Hara" },
       { name: 'Barry Fitzgerald' },
       { name: 'Ward Bond' },
       { name: 'Victor McLaglen' },
@@ -605,7 +636,8 @@ export const baseMoviesMissingPatrimoine19501959: BaseMovie[] = [
     length: 129,
     genre: ['Romance', 'Comédie', 'Drame'],
     saga: '',
-    description: 'Un boxeur américain rentre au village irlandais de ses parents et courtise une rousse indomptable.',
+    description:
+      'Un boxeur américain rentre au village irlandais de ses parents et courtise une rousse indomptable.',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -615,7 +647,7 @@ export const baseMoviesMissingPatrimoine19501959: BaseMovie[] = [
     ],
   },
   {
-    title: 'La Vie d\'Oharu, femme galante',
+    title: "La Vie d'Oharu, femme galante",
     director: 'Kenji Mizoguchi',
     actors: [
       { name: 'Kinuyo Tanaka' },
@@ -629,7 +661,8 @@ export const baseMoviesMissingPatrimoine19501959: BaseMovie[] = [
     length: 136,
     genre: ['Drame', 'Historique'],
     saga: '',
-    description: 'Une courtisane vieillie raconte sa chute, de dame de cour à mendiante, dans le Japon d\'Edo.',
+    description:
+      "Une courtisane vieillie raconte sa chute, de dame de cour à mendiante, dans le Japon d'Edo.",
     fromEntity: null,
     countryOrigin: ['Japon'],
     selectDisplayOrder: 0,
@@ -650,7 +683,8 @@ export const baseMoviesMissingPatrimoine19501959: BaseMovie[] = [
     length: 115,
     genre: ['Drame'],
     saga: '',
-    description: 'Un cadre de Tokyo et sa femme silencieuse voient leur mariage se vider, entre voyages d\'affaires et arrangements.',
+    description:
+      "Un cadre de Tokyo et sa femme silencieuse voient leur mariage se vider, entre voyages d'affaires et arrangements.",
     fromEntity: null,
     countryOrigin: ['Japon'],
     selectDisplayOrder: 0,
@@ -671,7 +705,8 @@ export const baseMoviesMissingPatrimoine19501959: BaseMovie[] = [
     length: 107,
     genre: ['Comédie'],
     saga: 'Don Camillo',
-    description: 'Un curé et un maire communiste se disputent un village de la plaine du Pô, sous l\'œil du Christ de l\'église.',
+    description:
+      "Un curé et un maire communiste se disputent un village de la plaine du Pô, sous l'œil du Christ de l'église.",
     fromEntity: {
       entityType: 'book',
       title: 'Le Petit Monde de don Camillo',
@@ -696,7 +731,8 @@ export const baseMoviesMissingPatrimoine19501959: BaseMovie[] = [
     length: 97,
     genre: ['Drame', 'Comédie'],
     saga: '',
-    description: 'Trois sketches maupassantiens : le masque, le bordel fermé, le modèle qui se jette par la fenêtre.',
+    description:
+      'Trois sketches maupassantiens : le masque, le bordel fermé, le modèle qui se jette par la fenêtre.',
     fromEntity: {
       entityType: 'book',
       title: 'Le Plaisir',
@@ -721,7 +757,8 @@ export const baseMoviesMissingPatrimoine19501959: BaseMovie[] = [
     length: 85,
     genre: ['Western'],
     saga: '',
-    description: 'Un marshal le jour de son mariage attend midi et le train qui ramène un tueur, abandonné par la ville.',
+    description:
+      'Un marshal le jour de son mariage attend midi et le train qui ramène un tueur, abandonné par la ville.',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -747,7 +784,8 @@ export const baseMoviesMissingPatrimoine19501959: BaseMovie[] = [
     length: 134,
     genre: ['Drame'],
     saga: '',
-    description: 'Un producteur sans scrupules, viré par le studio, est raconté par ceux qu\'il a brûlés et lancés.',
+    description:
+      "Un producteur sans scrupules, viré par le studio, est raconté par ceux qu'il a brûlés et lancés.",
     fromEntity: {
       entityType: 'book',
       title: 'The Bad and the Beautiful',
@@ -778,7 +816,8 @@ export const baseMoviesMissingPatrimoine19501959: BaseMovie[] = [
     length: 90,
     genre: ['Drame'],
     saga: '',
-    description: 'Le Maure de Venise, miné par Iago, étrangle Desdémone — filmé par fragments au Maroc et en Italie.',
+    description:
+      'Le Maure de Venise, miné par Iago, étrangle Desdémone — filmé par fragments au Maroc et en Italie.',
     fromEntity: {
       entityType: 'book',
       title: 'Othello',
@@ -787,6 +826,28 @@ export const baseMoviesMissingPatrimoine19501959: BaseMovie[] = [
     countryOrigin: ['Maroc', 'Italie', 'France'],
     selectDisplayOrder: 0,
     oscars: [],
+  },
+  {
+    title: 'Sous le plus grand chapiteau du monde',
+    director: 'Cecil B. DeMille',
+    actors: [
+      { name: 'Charlton Heston' },
+      { name: 'Betty Hutton' },
+      { name: 'Cornel Wilde' },
+      { name: 'James Stewart' },
+      { name: 'Dorothy Lamour' },
+    ],
+    coverUrl: '',
+    releaseDate: '1952-01-10',
+    length: 152,
+    genre: ['Drame', 'Aventure'],
+    saga: '',
+    description:
+      "Sous le chapiteau du plus grand cirque du monde, amours, rivalités et un clown triste avant la catastrophe sur les rails.",
+    fromEntity: null,
+    countryOrigin: ['États-Unis'],
+    selectDisplayOrder: 0,
+    oscars: [{ type: OscarEnum.OSCAR_BEST_MOVIE, year: 1953 }],
   },
   {
     title: 'Umberto D.',
@@ -803,7 +864,8 @@ export const baseMoviesMissingPatrimoine19501959: BaseMovie[] = [
     length: 89,
     genre: ['Drame'],
     saga: '',
-    description: 'Un retraité romain et sa chienne Flike luttent contre l\'expulsion, la faim et l\'indignité.',
+    description:
+      "Un retraité romain et sa chienne Flike luttent contre l'expulsion, la faim et l'indignité.",
     fromEntity: null,
     countryOrigin: ['Italie'],
     selectDisplayOrder: 0,
@@ -824,16 +886,15 @@ export const baseMoviesMissingPatrimoine19501959: BaseMovie[] = [
     length: 113,
     genre: ['Drame', 'Biographie', 'Historique'],
     saga: '',
-    description: 'Emiliano Zapata passe de paysan à révolutionnaire, puis se heurte au pouvoir qu\'il a aidé à prendre.',
+    description:
+      "Emiliano Zapata passe de paysan à révolutionnaire, puis se heurte au pouvoir qu'il a aidé à prendre.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
-    oscars: [
-      { type: OscarEnum.OSCAR_BEST_SUPPORTING_ACTOR, year: 1953 },
-    ],
+    oscars: [{ type: OscarEnum.OSCAR_BEST_SUPPORTING_ACTOR, year: 1953 }],
   },
   {
-    title: 'L\'Homme des vallées perdues',
+    title: "L'Homme des vallées perdues",
     director: 'George Stevens',
     actors: [
       { name: 'Alan Ladd' },
@@ -847,13 +908,12 @@ export const baseMoviesMissingPatrimoine19501959: BaseMovie[] = [
     length: 118,
     genre: ['Western'],
     saga: '',
-    description: 'Un pistoler solitaire défend une famille de colons contre un éleveur, sous les yeux d\'un petit garçon.',
+    description:
+      "Un pistoler solitaire défend une famille de colons contre un éleveur, sous les yeux d'un petit garçon.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
-    oscars: [
-      { type: OscarEnum.OSCAR_BEST_CINEMATOGRAPHY, year: 1954 },
-    ],
+    oscars: [{ type: OscarEnum.OSCAR_BEST_CINEMATOGRAPHY, year: 1954 }],
   },
   {
     title: 'Le Retour de don Camillo',
@@ -870,7 +930,8 @@ export const baseMoviesMissingPatrimoine19501959: BaseMovie[] = [
     length: 115,
     genre: ['Comédie'],
     saga: 'Don Camillo',
-    description: 'Don Camillo revient d\'exil : le Christ, Peppone et le village n\'ont pas désarmé.',
+    description:
+      "Don Camillo revient d'exil : le Christ, Peppone et le village n'ont pas désarmé.",
     fromEntity: null,
     countryOrigin: ['France', 'Italie'],
     selectDisplayOrder: 0,
@@ -891,7 +952,8 @@ export const baseMoviesMissingPatrimoine19501959: BaseMovie[] = [
     length: 131,
     genre: ['Thriller', 'Aventure', 'Drame'],
     saga: '',
-    description: 'Quatre hommes conduisent deux camions de nitroglycérine à travers une montagne sud-américaine.',
+    description:
+      'Quatre hommes conduisent deux camions de nitroglycérine à travers une montagne sud-américaine.',
     fromEntity: {
       entityType: 'book',
       title: 'Le Salaire de la peur',
@@ -916,7 +978,8 @@ export const baseMoviesMissingPatrimoine19501959: BaseMovie[] = [
     length: 96,
     genre: ['Fantastique', 'Drame'],
     saga: '',
-    description: 'Deux paysans partent à la guerre : l\'un revient fantôme auprès de sa femme, l\'autre riche et damné.',
+    description:
+      "Deux paysans partent à la guerre : l'un revient fantôme auprès de sa femme, l'autre riche et damné.",
     fromEntity: null,
     countryOrigin: ['Japon'],
     selectDisplayOrder: 0,
@@ -937,7 +1000,8 @@ export const baseMoviesMissingPatrimoine19501959: BaseMovie[] = [
     length: 91,
     genre: ['Comédie', 'Comédie musicale'],
     saga: '',
-    description: 'Lorelei et Dorothy croisent milliardaires et détectives sur un paquebot vers la France. Diamonds are a girl\'s best friend.',
+    description:
+      "Lorelei et Dorothy croisent milliardaires et détectives sur un paquebot vers la France. Diamonds are a girl's best friend.",
     fromEntity: {
       entityType: 'book',
       title: 'Gentlemen Prefer Blondes',
@@ -962,7 +1026,8 @@ export const baseMoviesMissingPatrimoine19501959: BaseMovie[] = [
     length: 114,
     genre: ['Comédie'],
     saga: 'Monsieur Hulot',
-    description: 'M. Hulot passe des vacances à la mer : pipe, tangage de la voiture et chaos poli de la plage.',
+    description:
+      'M. Hulot passe des vacances à la mer : pipe, tangage de la voiture et chaos poli de la plage.',
     fromEntity: null,
     countryOrigin: ['France'],
     selectDisplayOrder: 0,
@@ -983,7 +1048,8 @@ export const baseMoviesMissingPatrimoine19501959: BaseMovie[] = [
     length: 107,
     genre: ['Drame', 'Comédie'],
     saga: '',
-    description: 'Cinq jeunes hommes d\'une ville de province italienne tuent le temps, entre bals, dettes et départs.',
+    description:
+      "Cinq jeunes hommes d'une ville de province italienne tuent le temps, entre bals, dettes et départs.",
     fromEntity: null,
     countryOrigin: ['Italie'],
     selectDisplayOrder: 0,
@@ -1004,7 +1070,8 @@ export const baseMoviesMissingPatrimoine19501959: BaseMovie[] = [
     length: 105,
     genre: ['Drame', 'Romance'],
     saga: '',
-    description: 'Des boucles d\'oreilles circulent de la femme à l\'amant, et reviennent, jusqu\'au duel.',
+    description:
+      "Des boucles d'oreilles circulent de la femme à l'amant, et reviennent, jusqu'au duel.",
     fromEntity: {
       entityType: 'book',
       title: 'Madame de',
@@ -1029,7 +1096,8 @@ export const baseMoviesMissingPatrimoine19501959: BaseMovie[] = [
     length: 89,
     genre: ['Comédie', 'Aventure'],
     saga: '',
-    description: 'Des aigrefins coincés dans un port italien attendent un bateau pour l\'Afrique et un filon d\'uranium.',
+    description:
+      "Des aigrefins coincés dans un port italien attendent un bateau pour l'Afrique et un filon d'uranium.",
     fromEntity: {
       entityType: 'book',
       title: 'Beat the Devil',
@@ -1054,14 +1122,15 @@ export const baseMoviesMissingPatrimoine19501959: BaseMovie[] = [
     length: 89,
     genre: ['Policier', 'Thriller'],
     saga: '',
-    description: 'Un flic intègre, après l\'attentat à la bombe contre sa femme, part en guerre contre le syndicat du crime.',
+    description:
+      "Un flic intègre, après l'attentat à la bombe contre sa femme, part en guerre contre le syndicat du crime.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
     oscars: [],
   },
   {
-    title: 'Tant qu\'il y aura des hommes',
+    title: "Tant qu'il y aura des hommes",
     director: 'Fred Zinnemann',
     actors: [
       { name: 'Burt Lancaster' },
@@ -1075,7 +1144,8 @@ export const baseMoviesMissingPatrimoine19501959: BaseMovie[] = [
     length: 118,
     genre: ['Drame', 'Romance', 'Guerre'],
     saga: '',
-    description: 'À Pearl Harbor, juste avant l\'attaque, des soldats aiment, boxent et se heurtent à l\'armée.',
+    description:
+      "À Pearl Harbor, juste avant l'attaque, des soldats aiment, boxent et se heurtent à l'armée.",
     fromEntity: {
       entityType: 'book',
       title: 'From Here to Eternity',
@@ -1109,7 +1179,8 @@ export const baseMoviesMissingPatrimoine19501959: BaseMovie[] = [
     length: 102,
     genre: ['Drame', 'Thriller'],
     saga: '',
-    description: 'Thérèse et son amant tuent le mari ; un témoin infirme les fait chanter à Lyon.',
+    description:
+      'Thérèse et son amant tuent le mari ; un témoin infirme les fait chanter à Lyon.',
     fromEntity: {
       entityType: 'book',
       title: 'Thérèse Raquin',
@@ -1134,7 +1205,8 @@ export const baseMoviesMissingPatrimoine19501959: BaseMovie[] = [
     length: 111,
     genre: ['Comédie musicale'],
     saga: '',
-    description: 'Une star de la comédie musicale déclinante monte un spectacle, entre Dancing in the Dark et The Girl Hunt.',
+    description:
+      'Une star de la comédie musicale déclinante monte un spectacle, entre Dancing in the Dark et The Girl Hunt.',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -1155,7 +1227,8 @@ export const baseMoviesMissingPatrimoine19501959: BaseMovie[] = [
     length: 96,
     genre: ['Drame', 'Romance'],
     saga: '',
-    description: 'Deux adolescents fuient Stockholm pour un été d\'amour dans l\'archipel, puis rentrent au monde adulte.',
+    description:
+      "Deux adolescents fuient Stockholm pour un été d'amour dans l'archipel, puis rentrent au monde adulte.",
     fromEntity: null,
     countryOrigin: ['Suède'],
     selectDisplayOrder: 0,
@@ -1176,7 +1249,8 @@ export const baseMoviesMissingPatrimoine19501959: BaseMovie[] = [
     length: 136,
     genre: ['Drame'],
     saga: '',
-    description: 'Un couple âgé rend visite à ses enfants à Tokyo et comprend qu\'il est de trop, sauf pour la veuve Noriko.',
+    description:
+      "Un couple âgé rend visite à ses enfants à Tokyo et comprend qu'il est de trop, sauf pour la veuve Noriko.",
     fromEntity: null,
     countryOrigin: ['Japon'],
     selectDisplayOrder: 0,
@@ -1197,7 +1271,8 @@ export const baseMoviesMissingPatrimoine19501959: BaseMovie[] = [
     length: 105,
     genre: ['Comédie musicale', 'Drame'],
     saga: '',
-    description: 'Carmen, ouvrière d\'une usine de parachutes, séduit un GI et le mène à sa perte, sur la musique de Bizet.',
+    description:
+      "Carmen, ouvrière d'une usine de parachutes, séduit un GI et le mène à sa perte, sur la musique de Bizet.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -1218,7 +1293,8 @@ export const baseMoviesMissingPatrimoine19501959: BaseMovie[] = [
     length: 96,
     genre: ['Science Fiction', 'Horreur', 'Catastrophe'],
     saga: 'Godzilla',
-    description: 'Un dinosaure radioactif émerge du Pacifique et ravage Tokyo, métaphore de Hiroshima et des essais H.',
+    description:
+      'Un dinosaure radioactif émerge du Pacifique et ravage Tokyo, métaphore de Hiroshima et des essais H.',
     fromEntity: null,
     countryOrigin: ['Japon'],
     selectDisplayOrder: 0,
@@ -1239,7 +1315,8 @@ export const baseMoviesMissingPatrimoine19501959: BaseMovie[] = [
     length: 110,
     genre: ['Western', 'Drame'],
     saga: '',
-    description: 'Vienna, patronne de saloon, attend le chemin de fer ; une rivale et un pistolero nommé Johnny Guitare arrivent.',
+    description:
+      'Vienna, patronne de saloon, attend le chemin de fer ; une rivale et un pistolero nommé Johnny Guitare arrivent.',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -1251,7 +1328,7 @@ export const baseMoviesMissingPatrimoine19501959: BaseMovie[] = [
     actors: [
       { name: 'Humphrey Bogart' },
       { name: 'Ava Gardner' },
-      { name: 'Edmond O\'Brien' },
+      { name: "Edmond O'Brien" },
       { name: 'Marius Goring' },
       { name: 'Valentina Cortese' },
     ],
@@ -1260,13 +1337,12 @@ export const baseMoviesMissingPatrimoine19501959: BaseMovie[] = [
     length: 128,
     genre: ['Drame', 'Romance'],
     saga: '',
-    description: 'Un scénariste raconte la vie de Maria d\'Amata, danseuse devenue comtesse, assassinée sur une plage italienne.',
+    description:
+      "Un scénariste raconte la vie de Maria d'Amata, danseuse devenue comtesse, assassinée sur une plage italienne.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
-    oscars: [
-      { type: OscarEnum.OSCAR_BEST_ORIGINAL_SCREENPLAY, year: 1955 },
-    ],
+    oscars: [{ type: OscarEnum.OSCAR_BEST_ORIGINAL_SCREENPLAY, year: 1955 }],
   },
   {
     title: 'La Main au collet',
@@ -1283,7 +1359,8 @@ export const baseMoviesMissingPatrimoine19501959: BaseMovie[] = [
     length: 106,
     genre: ['Thriller', 'Romance', 'Comédie'],
     saga: '',
-    description: 'Un ancien cambrioleur à la retraite sur la Côte d\'Azur est soupçonné d\'une série de vols de bijoux.',
+    description:
+      "Un ancien cambrioleur à la retraite sur la Côte d'Azur est soupçonné d'une série de vols de bijoux.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -1304,13 +1381,12 @@ export const baseMoviesMissingPatrimoine19501959: BaseMovie[] = [
     length: 108,
     genre: ['Drame'],
     saga: '',
-    description: 'Gelsomina, simple d\'esprit, est vendue à Zampanò le forain ; un funambule lui ouvre une brèche de poésie.',
+    description:
+      "Gelsomina, simple d'esprit, est vendue à Zampanò le forain ; un funambule lui ouvre une brèche de poésie.",
     fromEntity: null,
     countryOrigin: ['Italie'],
     selectDisplayOrder: 0,
-    oscars: [
-      { type: OscarEnum.OSCAR_BEST_INTERNATIONAL_FEATURE, year: 1957 },
-    ],
+    oscars: [{ type: OscarEnum.OSCAR_BEST_INTERNATIONAL_FEATURE, year: 1957 }],
   },
   {
     title: 'Le Crime était presque parfait',
@@ -1327,7 +1403,8 @@ export const baseMoviesMissingPatrimoine19501959: BaseMovie[] = [
     length: 105,
     genre: ['Thriller', 'Mystère'],
     saga: '',
-    description: 'Un mari fait étrangler sa femme au téléphone ; elle se défend, et le piège se retourne en 3D.',
+    description:
+      'Un mari fait étrangler sa femme au téléphone ; elle se défend, et le piège se retourne en 3D.',
     fromEntity: {
       entityType: 'book',
       title: 'Dial M for Murder',
@@ -1352,7 +1429,8 @@ export const baseMoviesMissingPatrimoine19501959: BaseMovie[] = [
     length: 91,
     genre: ['Western', 'Aventure'],
     saga: '',
-    description: 'Un fermier et une chanteuse de saloon descendent une rivière du Nord-Ouest, poursuivis par un bandit.',
+    description:
+      'Un fermier et une chanteuse de saloon descendent une rivière du Nord-Ouest, poursuivis par un bandit.',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -1373,13 +1451,12 @@ export const baseMoviesMissingPatrimoine19501959: BaseMovie[] = [
     length: 113,
     genre: ['Comédie', 'Romance'],
     saga: '',
-    description: 'La fille du chauffeur revient de Paris transformée ; les deux fils du patron se la disputent.',
+    description:
+      'La fille du chauffeur revient de Paris transformée ; les deux fils du patron se la disputent.',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
-    oscars: [
-      { type: OscarEnum.OSCAR_BEST_COSTUME_DESIGN, year: 1955 },
-    ],
+    oscars: [{ type: OscarEnum.OSCAR_BEST_COSTUME_DESIGN, year: 1955 }],
   },
   {
     title: 'Senso',
@@ -1396,14 +1473,15 @@ export const baseMoviesMissingPatrimoine19501959: BaseMovie[] = [
     length: 123,
     genre: ['Drame', 'Romance', 'Historique'],
     saga: '',
-    description: 'En 1866 à Venise, une comtesse italienne s\'abîme d\'amour pour un officier autrichien, jusqu\'à la trahison.',
+    description:
+      "En 1866 à Venise, une comtesse italienne s'abîme d'amour pour un officier autrichien, jusqu'à la trahison.",
     fromEntity: null,
     countryOrigin: ['Italie'],
     selectDisplayOrder: 0,
     oscars: [],
   },
   {
-    title: 'Sourires d\'une nuit d\'été',
+    title: "Sourires d'une nuit d'été",
     director: 'Ingmar Bergman',
     actors: [
       { name: 'Eva Dahlbeck' },
@@ -1417,7 +1495,8 @@ export const baseMoviesMissingPatrimoine19501959: BaseMovie[] = [
     length: 108,
     genre: ['Comédie', 'Romance'],
     saga: '',
-    description: 'Un week-end dans un manoir suédois du tournant du siècle : couples, duels et chassés-croisés amoureux.',
+    description:
+      'Un week-end dans un manoir suédois du tournant du siècle : couples, duels et chassés-croisés amoureux.',
     fromEntity: null,
     countryOrigin: ['Suède'],
     selectDisplayOrder: 0,
@@ -1438,7 +1517,8 @@ export const baseMoviesMissingPatrimoine19501959: BaseMovie[] = [
     length: 108,
     genre: ['Drame', 'Policier'],
     saga: '',
-    description: 'Un docker, « contender » manqué, témoigne contre le syndicat mafieux, entre pigeons et témoignage.',
+    description:
+      'Un docker, « contender » manqué, témoigne contre le syndicat mafieux, entre pigeons et témoignage.',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -1468,7 +1548,8 @@ export const baseMoviesMissingPatrimoine19501959: BaseMovie[] = [
     length: 94,
     genre: ['Policier', 'Drame'],
     saga: '',
-    description: 'Max le Menteur veut profiter d\'un dernier coup ; l\'amitié et une femme font tout basculer.',
+    description:
+      "Max le Menteur veut profiter d'un dernier coup ; l'amitié et une femme font tout basculer.",
     fromEntity: {
       entityType: 'book',
       title: 'Touchez pas au grisbi',
@@ -1493,7 +1574,8 @@ export const baseMoviesMissingPatrimoine19501959: BaseMovie[] = [
     length: 154,
     genre: ['Drame', 'Comédie musicale', 'Romance'],
     saga: '',
-    description: 'Une chanteuse de cabaret est lancée par une star alcoolique qui s\'efface à mesure qu\'elle monte.',
+    description:
+      "Une chanteuse de cabaret est lancée par une star alcoolique qui s'efface à mesure qu'elle monte.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -1514,14 +1596,15 @@ export const baseMoviesMissingPatrimoine19501959: BaseMovie[] = [
     length: 97,
     genre: ['Drame', 'Romance'],
     saga: '',
-    description: 'Un couple anglais en crise parcourt Naples et Pompéi, jusqu\'à une procession qui les rapproche.',
+    description:
+      "Un couple anglais en crise parcourt Naples et Pompéi, jusqu'à une procession qui les rapproche.",
     fromEntity: null,
     countryOrigin: ['Italie', 'France'],
     selectDisplayOrder: 0,
     oscars: [],
   },
   {
-    title: 'À l\'est d\'Éden',
+    title: "À l'est d'Éden",
     director: 'Elia Kazan',
     actors: [
       { name: 'James Dean' },
@@ -1535,17 +1618,16 @@ export const baseMoviesMissingPatrimoine19501959: BaseMovie[] = [
     length: 115,
     genre: ['Drame'],
     saga: '',
-    description: 'Dans la Salinas Valley, Cal, le fils « maudit », rivalise avec son frère Aron pour l\'amour d\'un père inflexible.',
+    description:
+      "Dans la Salinas Valley, Cal, le fils « maudit », rivalise avec son frère Aron pour l'amour d'un père inflexible.",
     fromEntity: {
       entityType: 'book',
-      title: 'À l\'est d\'Éden',
+      title: "À l'est d'Éden",
       secondEntityKey: 'John Steinbeck',
     },
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
-    oscars: [
-      { type: OscarEnum.OSCAR_BEST_SUPPORTING_ACTRESS, year: 1956 },
-    ],
+    oscars: [{ type: OscarEnum.OSCAR_BEST_SUPPORTING_ACTRESS, year: 1956 }],
   },
   {
     title: 'Du rififi chez les hommes',
@@ -1562,7 +1644,8 @@ export const baseMoviesMissingPatrimoine19501959: BaseMovie[] = [
     length: 118,
     genre: ['Policier', 'Thriller'],
     saga: '',
-    description: 'Un casse de joaillerie filmé sans musique ni dialogue, puis la chute d\'une équipe trahie.',
+    description:
+      "Un casse de joaillerie filmé sans musique ni dialogue, puis la chute d'une équipe trahie.",
     fromEntity: {
       entityType: 'book',
       title: 'Du rififi chez les hommes',
@@ -1587,7 +1670,8 @@ export const baseMoviesMissingPatrimoine19501959: BaseMovie[] = [
     length: 106,
     genre: ['Policier', 'Thriller', 'Science Fiction'],
     saga: '',
-    description: 'Le privé Mike Hammer ouvre une valise atomique, « the great whatsit », et met Los Angeles en cendres.',
+    description:
+      'Le privé Mike Hammer ouvre une valise atomique, « the great whatsit », et met Los Angeles en cendres.',
     fromEntity: {
       entityType: 'book',
       title: 'Kiss Me, Deadly',
@@ -1612,14 +1696,15 @@ export const baseMoviesMissingPatrimoine19501959: BaseMovie[] = [
     length: 102,
     genre: ['Comédie', 'Comédie musicale', 'Romance'],
     saga: '',
-    description: 'Un impresario relance le café-concert et invente le French cancan, entre deux femmes et la butte Montmartre.',
+    description:
+      'Un impresario relance le café-concert et invente le French cancan, entre deux femmes et la butte Montmartre.',
     fromEntity: null,
     countryOrigin: ['France'],
     selectDisplayOrder: 0,
     oscars: [],
   },
   {
-    title: 'L\'Homme au bras d\'or',
+    title: "L'Homme au bras d'or",
     director: 'Otto Preminger',
     actors: [
       { name: 'Frank Sinatra' },
@@ -1633,7 +1718,8 @@ export const baseMoviesMissingPatrimoine19501959: BaseMovie[] = [
     length: 119,
     genre: ['Drame'],
     saga: '',
-    description: 'Un batteur de Chicago sort de prison décidé à ne plus se piquer, et recroise le dealer et sa femme.',
+    description:
+      'Un batteur de Chicago sort de prison décidé à ne plus se piquer, et recroise le dealer et sa femme.',
     fromEntity: {
       entityType: 'book',
       title: 'The Man with the Golden Arm',
@@ -1644,13 +1730,13 @@ export const baseMoviesMissingPatrimoine19501959: BaseMovie[] = [
     oscars: [],
   },
   {
-    title: 'L\'Homme de la plaine',
+    title: "L'Homme de la plaine",
     director: 'Anthony Mann',
     actors: [
       { name: 'James Stewart' },
       { name: 'Arthur Kennedy' },
       { name: 'Donald Crisp' },
-      { name: 'Cathy O\'Donnell' },
+      { name: "Cathy O'Donnell" },
       { name: 'Alex Nicol' },
     ],
     coverUrl: '',
@@ -1658,14 +1744,15 @@ export const baseMoviesMissingPatrimoine19501959: BaseMovie[] = [
     length: 104,
     genre: ['Western'],
     saga: '',
-    description: 'Un inconnu arrive à Laramie pour venger son frère ; le shérif et un clan d\'éleveurs lui barrent la route.',
+    description:
+      "Un inconnu arrive à Laramie pour venger son frère ; le shérif et un clan d'éleveurs lui barrent la route.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
     oscars: [],
   },
   {
-    title: 'L\'Impératrice Yang Kwei-Fei',
+    title: "L'Impératrice Yang Kwei-Fei",
     director: 'Kenji Mizoguchi',
     actors: [
       { name: 'Machiko Kyô' },
@@ -1679,7 +1766,8 @@ export const baseMoviesMissingPatrimoine19501959: BaseMovie[] = [
     length: 98,
     genre: ['Drame', 'Historique', 'Romance'],
     saga: '',
-    description: 'Yang Guifei, favorite de l\'empereur Xuanzong, s\'élève et chute dans la Chine des Tang.',
+    description:
+      "Yang Guifei, favorite de l'empereur Xuanzong, s'élève et chute dans la Chine des Tang.",
     fromEntity: null,
     countryOrigin: ['Japon'],
     selectDisplayOrder: 0,
@@ -1699,8 +1787,9 @@ export const baseMoviesMissingPatrimoine19501959: BaseMovie[] = [
     releaseDate: '1955-08-26',
     length: 125,
     genre: ['Drame'],
-    saga: 'La Trilogie d\'Apu',
-    description: 'Dans un village du Bengale, l\'enfance d\'Apu, la sœur Durga, la faim et le départ vers Bénarès.',
+    saga: "La Trilogie d'Apu",
+    description:
+      "Dans un village du Bengale, l'enfance d'Apu, la sœur Durga, la faim et le départ vers Bénarès.",
     fromEntity: {
       entityType: 'book',
       title: 'Pather Panchali',
@@ -1725,7 +1814,8 @@ export const baseMoviesMissingPatrimoine19501959: BaseMovie[] = [
     length: 111,
     genre: ['Drame'],
     saga: '',
-    description: 'Jim Stark, nouvel élève, joue sa vie dans une course de voitures et cherche une famille de substitution.',
+    description:
+      'Jim Stark, nouvel élève, joue sa vie dans une course de voitures et cherche une famille de substitution.',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -1746,7 +1836,8 @@ export const baseMoviesMissingPatrimoine19501959: BaseMovie[] = [
     length: 87,
     genre: ['Aventure'],
     saga: '',
-    description: 'Un enfant de Dorset s\'attache à un gentilhomme contrebandier et cherche un diamant dans les tombes.',
+    description:
+      "Un enfant de Dorset s'attache à un gentilhomme contrebandier et cherche un diamant dans les tombes.",
     fromEntity: {
       entityType: 'book',
       title: 'Moonfleet',
@@ -1771,10 +1862,11 @@ export const baseMoviesMissingPatrimoine19501959: BaseMovie[] = [
     length: 117,
     genre: ['Thriller', 'Mystère', 'Horreur'],
     saga: '',
-    description: 'La femme et la maîtresse d\'un pensionnat noient le tyran ; le cadavre disparaît, puis revient.',
+    description:
+      "La femme et la maîtresse d'un pensionnat noient le tyran ; le cadavre disparaît, puis revient.",
     fromEntity: {
       entityType: 'book',
-      title: 'Celle qui n\'était plus',
+      title: "Celle qui n'était plus",
       secondEntityKey: 'Boileau-Narcejac',
     },
     countryOrigin: ['France'],
@@ -1796,7 +1888,8 @@ export const baseMoviesMissingPatrimoine19501959: BaseMovie[] = [
     length: 116,
     genre: ['Drame', 'Biographie', 'Romance'],
     saga: '',
-    description: 'La courtisane Lola Montès raconte sa vie dans un cirque américain, sous le regard d\'un présentateur.',
+    description:
+      "La courtisane Lola Montès raconte sa vie dans un cirque américain, sous le regard d'un présentateur.",
     fromEntity: null,
     countryOrigin: ['France', 'Allemagne'],
     selectDisplayOrder: 0,
@@ -1817,7 +1910,8 @@ export const baseMoviesMissingPatrimoine19501959: BaseMovie[] = [
     length: 99,
     genre: ['Comédie', 'Mystère'],
     saga: '',
-    description: 'Un cadavre réapparaît dans un village du Vermont ; chacun croit l\'avoir tué, l\'automne est magnifique.',
+    description:
+      "Un cadavre réapparaît dans un village du Vermont ; chacun croit l'avoir tué, l'automne est magnifique.",
     fromEntity: {
       entityType: 'book',
       title: 'The Trouble with Harry',
@@ -1842,7 +1936,8 @@ export const baseMoviesMissingPatrimoine19501959: BaseMovie[] = [
     length: 90,
     genre: ['Drame', 'Romance'],
     saga: '',
-    description: 'Un boucher du Bronx, trop vieux pour sa mère, rencontre une institutrice aussi seule que lui.',
+    description:
+      'Un boucher du Bronx, trop vieux pour sa mère, rencontre une institutrice aussi seule que lui.',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -1856,15 +1951,14 @@ export const baseMoviesMissingPatrimoine19501959: BaseMovie[] = [
   {
     title: 'Nuit et Brouillard',
     director: 'Alain Resnais',
-    actors: [
-      { name: 'Michel Bouquet' },
-    ],
+    actors: [{ name: 'Michel Bouquet' }],
     coverUrl: '',
     releaseDate: '1956-01-01',
     length: 32,
     genre: ['Documentaire', 'Historique'],
     saga: '',
-    description: 'Court métrage sur les camps nazis : le présent en couleur, les archives en noir et blanc, texte de Cayrol.',
+    description:
+      'Court métrage sur les camps nazis : le présent en couleur, les archives en noir et blanc, texte de Cayrol.',
     fromEntity: null,
     countryOrigin: ['France'],
     selectDisplayOrder: 0,
@@ -1885,7 +1979,8 @@ export const baseMoviesMissingPatrimoine19501959: BaseMovie[] = [
     length: 126,
     genre: ['Drame'],
     saga: '',
-    description: 'Dans une ferme jutlandaise, la foi, la folie et un miracle de résurrection déchirent une famille.',
+    description:
+      'Dans une ferme jutlandaise, la foi, la folie et un miracle de résurrection déchirent une famille.',
     fromEntity: null,
     countryOrigin: ['Danemark'],
     selectDisplayOrder: 0,
@@ -1906,7 +2001,8 @@ export const baseMoviesMissingPatrimoine19501959: BaseMovie[] = [
     length: 105,
     genre: ['Comédie', 'Romance'],
     saga: '',
-    description: 'Un mari seul à Manhattan fantasme sur la voisine d\'en haut, robe blanche et bouche d\'aération.',
+    description:
+      "Un mari seul à Manhattan fantasme sur la voisine d'en haut, robe blanche et bouche d'aération.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -1927,7 +2023,8 @@ export const baseMoviesMissingPatrimoine19501959: BaseMovie[] = [
     length: 89,
     genre: ['Drame', 'Romance'],
     saga: '',
-    description: 'Une veuve aisée aime son jardinier plus jeune ; les enfants et le club de country la rappellent à l\'ordre.',
+    description:
+      "Une veuve aisée aime son jardinier plus jeune ; les enfants et le club de country la rappellent à l'ordre.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -1948,7 +2045,8 @@ export const baseMoviesMissingPatrimoine19501959: BaseMovie[] = [
     length: 98,
     genre: ['Policier', 'Drame'],
     saga: '',
-    description: 'Un vieux joueur de Montmartre monte le casse du casino de Deauville, entre honneur de voyou et aube grise.',
+    description:
+      'Un vieux joueur de Montmartre monte le casse du casino de Deauville, entre honneur de voyou et aube grise.',
     fromEntity: null,
     countryOrigin: ['France'],
     selectDisplayOrder: 0,
@@ -1969,7 +2067,8 @@ export const baseMoviesMissingPatrimoine19501959: BaseMovie[] = [
     length: 95,
     genre: ['Drame'],
     saga: '',
-    description: 'Un professeur de banlieue, accro à la cortisone, se prend pour un prophète et terrorise sa famille.',
+    description:
+      'Un professeur de banlieue, accro à la cortisone, se prend pour un prophète et terrorise sa famille.',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -1990,7 +2089,8 @@ export const baseMoviesMissingPatrimoine19501959: BaseMovie[] = [
     length: 95,
     genre: ['Comédie', 'Romance'],
     saga: '',
-    description: 'Une princesse polonaise à Paris fait tourner la tête d\'un général et d\'un comte, entre 14 Juillet et intrigues.',
+    description:
+      "Une princesse polonaise à Paris fait tourner la tête d'un général et d'un comte, entre 14 Juillet et intrigues.",
     fromEntity: null,
     countryOrigin: ['France', 'Italie'],
     selectDisplayOrder: 0,
@@ -2011,7 +2111,8 @@ export const baseMoviesMissingPatrimoine19501959: BaseMovie[] = [
     length: 201,
     genre: ['Drame', 'Western'],
     saga: '',
-    description: 'Une dynastie texane, le pétrole et un cow-boy qui refuse de disparaître, sur vingt-cinq ans de ranch.',
+    description:
+      'Une dynastie texane, le pétrole et un cow-boy qui refuse de disparaître, sur vingt-cinq ans de ranch.',
     fromEntity: {
       entityType: 'book',
       title: 'Giant',
@@ -2019,12 +2120,10 @@ export const baseMoviesMissingPatrimoine19501959: BaseMovie[] = [
     },
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
-    oscars: [
-      { type: OscarEnum.OSCAR_BEST_DIRECTOR, year: 1957 },
-    ],
+    oscars: [{ type: OscarEnum.OSCAR_BEST_DIRECTOR, year: 1957 }],
   },
   {
-    title: 'L\'Invaincu',
+    title: "L'Invaincu",
     director: 'Satyajit Ray',
     actors: [
       { name: 'Pinaki Sengupta' },
@@ -2037,8 +2136,9 @@ export const baseMoviesMissingPatrimoine19501959: BaseMovie[] = [
     releaseDate: '1956-10-11',
     length: 110,
     genre: ['Drame'],
-    saga: 'La Trilogie d\'Apu',
-    description: 'Apu quitte Bénarès pour Calcutta, étudie, et voit sa mère s\'éteindre au village.',
+    saga: "La Trilogie d'Apu",
+    description:
+      "Apu quitte Bénarès pour Calcutta, étudie, et voit sa mère s'éteindre au village.",
     fromEntity: {
       entityType: 'book',
       title: 'Aparajito',
@@ -2049,7 +2149,7 @@ export const baseMoviesMissingPatrimoine19501959: BaseMovie[] = [
     oscars: [],
   },
   {
-    title: 'L\'Invasion des profanateurs de sépultures',
+    title: "L'Invasion des profanateurs de sépultures",
     director: 'Don Siegel',
     actors: [
       { name: 'Kevin McCarthy' },
@@ -2063,7 +2163,8 @@ export const baseMoviesMissingPatrimoine19501959: BaseMovie[] = [
     length: 80,
     genre: ['Science Fiction', 'Horreur'],
     saga: '',
-    description: 'Dans une petite ville de Californie, les habitants sont remplacés par des copies nées de cosses.',
+    description:
+      'Dans une petite ville de Californie, les habitants sont remplacés par des copies nées de cosses.',
     fromEntity: {
       entityType: 'book',
       title: 'The Body Snatchers',
@@ -2074,7 +2175,7 @@ export const baseMoviesMissingPatrimoine19501959: BaseMovie[] = [
     oscars: [],
   },
   {
-    title: 'L\'Invraisemblable Vérité',
+    title: "L'Invraisemblable Vérité",
     director: 'Fritz Lang',
     actors: [
       { name: 'Dana Andrews' },
@@ -2088,7 +2189,8 @@ export const baseMoviesMissingPatrimoine19501959: BaseMovie[] = [
     length: 80,
     genre: ['Thriller', 'Drame'],
     saga: '',
-    description: 'Un écrivain accepte de se laisser accuser d\'un meurtre pour démontrer les failles de la peine de mort.',
+    description:
+      "Un écrivain accepte de se laisser accuser d'un meurtre pour démontrer les failles de la peine de mort.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -2109,7 +2211,8 @@ export const baseMoviesMissingPatrimoine19501959: BaseMovie[] = [
     length: 100,
     genre: ['Policier', 'Thriller'],
     saga: '',
-    description: 'Un tueur étrangle des femmes à New York ; trois journaux et un flic se disputent l\'enquête.',
+    description:
+      "Un tueur étrangle des femmes à New York ; trois journaux et un flic se disputent l'enquête.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -2130,7 +2233,8 @@ export const baseMoviesMissingPatrimoine19501959: BaseMovie[] = [
     length: 119,
     genre: ['Western'],
     saga: '',
-    description: 'Ethan Edwards cherche pendant des années sa nièce enlevée par les Comanches, haine raciale comprise.',
+    description:
+      'Ethan Edwards cherche pendant des années sa nièce enlevée par les Comanches, haine raciale comprise.',
     fromEntity: {
       entityType: 'book',
       title: 'The Searchers',
@@ -2155,7 +2259,8 @@ export const baseMoviesMissingPatrimoine19501959: BaseMovie[] = [
     length: 83,
     genre: ['Comédie', 'Drame', 'Guerre'],
     saga: '',
-    description: 'Deux hommes traversent Paris occupé avec un cochon découpé en valises, entre milice et marché noir.',
+    description:
+      'Deux hommes traversent Paris occupé avec un cochon découpé en valises, entre milice et marché noir.',
     fromEntity: {
       entityType: 'book',
       title: 'La Traversée de Paris',
@@ -2180,7 +2285,8 @@ export const baseMoviesMissingPatrimoine19501959: BaseMovie[] = [
     length: 105,
     genre: ['Thriller', 'Drame'],
     saga: '',
-    description: 'Un musicien de jazz new-yorkais est arrêté pour des hold-up qu\'il n\'a pas commis, ressemblance oblige.',
+    description:
+      "Un musicien de jazz new-yorkais est arrêté pour des hold-up qu'il n'a pas commis, ressemblance oblige.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -2200,13 +2306,12 @@ export const baseMoviesMissingPatrimoine19501959: BaseMovie[] = [
     length: 86,
     genre: ['Documentaire'],
     saga: '',
-    description: 'À bord de la Calypso, Cousteau filme les fonds marins en couleur, dauphins, épaves et chasse sous-marine.',
+    description:
+      'À bord de la Calypso, Cousteau filme les fonds marins en couleur, dauphins, épaves et chasse sous-marine.',
     fromEntity: null,
     countryOrigin: ['France'],
     selectDisplayOrder: 0,
-    oscars: [
-      { type: OscarEnum.OSCAR_BEST_DOCUMENTARY, year: 1957 },
-    ],
+    oscars: [{ type: OscarEnum.OSCAR_BEST_DOCUMENTARY, year: 1957 }],
   },
   {
     title: 'Le Tour du monde en 80 jours',
@@ -2223,7 +2328,8 @@ export const baseMoviesMissingPatrimoine19501959: BaseMovie[] = [
     length: 175,
     genre: ['Aventure', 'Comédie'],
     saga: '',
-    description: 'Phileas Fogg parie qu\'il fera le tour du monde en quatre-vingts jours, Passepartout sur les talons.',
+    description:
+      "Phileas Fogg parie qu'il fera le tour du monde en quatre-vingts jours, Passepartout sur les talons.",
     fromEntity: {
       entityType: 'book',
       title: 'Le Tour du monde en quatre-vingts jours',
@@ -2254,7 +2360,8 @@ export const baseMoviesMissingPatrimoine19501959: BaseMovie[] = [
     length: 98,
     genre: ['Science Fiction'],
     saga: '',
-    description: 'Un croiseur spatial atterrit sur Altair IV : un savant, sa fille, Robby le robot et le monstre de l\'id.',
+    description:
+      "Un croiseur spatial atterrit sur Altair IV : un savant, sa fille, Robby le robot et le monstre de l'id.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -2275,7 +2382,8 @@ export const baseMoviesMissingPatrimoine19501959: BaseMovie[] = [
     length: 87,
     genre: ['Drame'],
     saga: '',
-    description: 'Cinq prostituées d\'un quartier de Tokyo voient la loi anti-maisons closes changer leur destin.',
+    description:
+      "Cinq prostituées d'un quartier de Tokyo voient la loi anti-maisons closes changer leur destin.",
     fromEntity: null,
     countryOrigin: ['Japon'],
     selectDisplayOrder: 0,
@@ -2296,14 +2404,15 @@ export const baseMoviesMissingPatrimoine19501959: BaseMovie[] = [
     length: 78,
     genre: ['Western'],
     saga: '',
-    description: 'Un shérif à la retraite escorte une diligence et venge sa femme, sept tueurs à abattre.',
+    description:
+      'Un shérif à la retraite escorte une diligence et venge sa femme, sept tueurs à abattre.',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
     oscars: [],
   },
   {
-    title: 'Un condamné à mort s\'est échappé',
+    title: "Un condamné à mort s'est échappé",
     director: 'Robert Bresson',
     actors: [
       { name: 'François Leterrier' },
@@ -2317,7 +2426,8 @@ export const baseMoviesMissingPatrimoine19501959: BaseMovie[] = [
     length: 99,
     genre: ['Drame', 'Guerre', 'Thriller'],
     saga: '',
-    description: 'À Montluc, un résistant prépare son évasion planche par planche, corde et cuillère.',
+    description:
+      'À Montluc, un résistant prépare son évasion planche par planche, corde et cuillère.',
     fromEntity: null,
     countryOrigin: ['France'],
     selectDisplayOrder: 0,
@@ -2338,7 +2448,8 @@ export const baseMoviesMissingPatrimoine19501959: BaseMovie[] = [
     length: 103,
     genre: ['Comédie musicale', 'Romance'],
     saga: '',
-    description: 'Un photographe de mode transforme une libraire de Greenwich Village en icône à Paris.',
+    description:
+      'Un photographe de mode transforme une libraire de Greenwich Village en icône à Paris.',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -2359,19 +2470,20 @@ export const baseMoviesMissingPatrimoine19501959: BaseMovie[] = [
     length: 91,
     genre: ['Guerre', 'Drame'],
     saga: '',
-    description: 'Lors de l\'insurrection de Varsovie, un détachement de résistants s\'enfuit par les égouts vers une issue bouchée.',
+    description:
+      "Lors de l'insurrection de Varsovie, un détachement de résistants s'enfuit par les égouts vers une issue bouchée.",
     fromEntity: null,
     countryOrigin: ['Pologne'],
     selectDisplayOrder: 0,
     oscars: [],
   },
   {
-    title: 'L\'Homme de l\'Arizona',
+    title: "L'Homme de l'Arizona",
     director: 'Budd Boetticher',
     actors: [
       { name: 'Randolph Scott' },
       { name: 'Richard Boone' },
-      { name: 'Maureen O\'Sullivan' },
+      { name: "Maureen O'Sullivan" },
       { name: 'Skip Homeier' },
       { name: 'Henry Silva' },
     ],
@@ -2380,7 +2492,8 @@ export const baseMoviesMissingPatrimoine19501959: BaseMovie[] = [
     length: 78,
     genre: ['Western'],
     saga: '',
-    description: 'Un cowboy rachète un relais de diligence et se retrouve otage d\'un bandit charmeur dans un relais isolé.',
+    description:
+      "Un cowboy rachète un relais de diligence et se retrouve otage d'un bandit charmeur dans un relais isolé.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -2401,14 +2514,15 @@ export const baseMoviesMissingPatrimoine19501959: BaseMovie[] = [
     length: 98,
     genre: ['Drame'],
     saga: '',
-    description: 'François revient au village soigner une tuberculose et retrouve Serge, ami d\'enfance sombré dans l\'alcool.',
+    description:
+      "François revient au village soigner une tuberculose et retrouve Serge, ami d'enfance sombré dans l'alcool.",
     fromEntity: null,
     countryOrigin: ['France'],
     selectDisplayOrder: 0,
     oscars: [],
   },
   {
-    title: 'Le Château de l\'araignée',
+    title: "Le Château de l'araignée",
     director: 'Akira Kurosawa',
     actors: [
       { name: 'Toshiro Mifune' },
@@ -2422,7 +2536,8 @@ export const baseMoviesMissingPatrimoine19501959: BaseMovie[] = [
     length: 110,
     genre: ['Drame', 'Historique'],
     saga: '',
-    description: 'Un samouraï, poussé par sa femme et une prédiction dans la forêt, assassine son seigneur.',
+    description:
+      'Un samouraï, poussé par sa femme et une prédiction dans la forêt, assassine son seigneur.',
     fromEntity: {
       entityType: 'book',
       title: 'Macbeth',
@@ -2447,7 +2562,8 @@ export const baseMoviesMissingPatrimoine19501959: BaseMovie[] = [
     length: 161,
     genre: ['Guerre', 'Drame', 'Aventure'],
     saga: '',
-    description: 'Des prisonniers britanniques construisent un pont pour l\'armée japonaise ; un commando doit le faire sauter.',
+    description:
+      "Des prisonniers britanniques construisent un pont pour l'armée japonaise ; un commando doit le faire sauter.",
     fromEntity: {
       entityType: 'book',
       title: 'Le Pont de la rivière Kwaï',
@@ -2480,7 +2596,8 @@ export const baseMoviesMissingPatrimoine19501959: BaseMovie[] = [
     length: 96,
     genre: ['Drame', 'Fantastique', 'Historique'],
     saga: '',
-    description: 'Un chevalier de retour de croisade joue aux échecs avec la Mort, pendant que la peste ravage la Suède.',
+    description:
+      'Un chevalier de retour de croisade joue aux échecs avec la Mort, pendant que la peste ravage la Suède.',
     fromEntity: null,
     countryOrigin: ['Suède'],
     selectDisplayOrder: 0,
@@ -2501,7 +2618,8 @@ export const baseMoviesMissingPatrimoine19501959: BaseMovie[] = [
     length: 91,
     genre: ['Drame'],
     saga: '',
-    description: 'Un professeur octogénaire traverse la Suède pour un doctorat honoris causa, entre rêves, regrets et fraises.',
+    description:
+      'Un professeur octogénaire traverse la Suède pour un doctorat honoris causa, entre rêves, regrets et fraises.',
     fromEntity: null,
     countryOrigin: ['Suède'],
     selectDisplayOrder: 0,
@@ -2522,13 +2640,12 @@ export const baseMoviesMissingPatrimoine19501959: BaseMovie[] = [
     length: 110,
     genre: ['Drame'],
     saga: '',
-    description: 'Cabiria, prostituée romaine, croit encore à l\'amour après chaque humiliation, jusqu\'au sourire final.',
+    description:
+      "Cabiria, prostituée romaine, croit encore à l'amour après chaque humiliation, jusqu'au sourire final.",
     fromEntity: null,
     countryOrigin: ['Italie'],
     selectDisplayOrder: 0,
-    oscars: [
-      { type: OscarEnum.OSCAR_BEST_INTERNATIONAL_FEATURE, year: 1958 },
-    ],
+    oscars: [{ type: OscarEnum.OSCAR_BEST_INTERNATIONAL_FEATURE, year: 1958 }],
   },
   {
     title: 'Témoin à charge',
@@ -2545,7 +2662,8 @@ export const baseMoviesMissingPatrimoine19501959: BaseMovie[] = [
     length: 116,
     genre: ['Policier', 'Mystère', 'Drame'],
     saga: '',
-    description: 'Un avocat convalescent défend un homme accusé d\'avoir tué une veuve ; l\'épouse allemande témoigne contre lui.',
+    description:
+      "Un avocat convalescent défend un homme accusé d'avoir tué une veuve ; l'épouse allemande témoigne contre lui.",
     fromEntity: {
       entityType: 'book',
       title: 'Témoin à charge',
@@ -2570,7 +2688,8 @@ export const baseMoviesMissingPatrimoine19501959: BaseMovie[] = [
     length: 110,
     genre: ['Comédie', 'Drame'],
     saga: '',
-    description: 'Un roi détrôné débarque à New York, se fait happer par la pub et le maccarthysme.',
+    description:
+      'Un roi détrôné débarque à New York, se fait happer par la pub et le maccarthysme.',
     fromEntity: null,
     countryOrigin: ['Royaume-Uni'],
     selectDisplayOrder: 0,
@@ -2591,7 +2710,8 @@ export const baseMoviesMissingPatrimoine19501959: BaseMovie[] = [
     length: 125,
     genre: ['Drame'],
     saga: '',
-    description: 'Un vagabond devenu star de télévision révèle sa face sombre dès qu\'on lui donne un micro.',
+    description:
+      "Un vagabond devenu star de télévision révèle sa face sombre dès qu'on lui donne un micro.",
     fromEntity: {
       entityType: 'book',
       title: 'Your Arkansas Traveler',
@@ -2602,7 +2722,7 @@ export const baseMoviesMissingPatrimoine19501959: BaseMovie[] = [
     oscars: [],
   },
   {
-    title: 'Ascenseur pour l\'échafaud',
+    title: "Ascenseur pour l'échafaud",
     director: 'Louis Malle',
     actors: [
       { name: 'Jeanne Moreau' },
@@ -2616,10 +2736,11 @@ export const baseMoviesMissingPatrimoine19501959: BaseMovie[] = [
     length: 91,
     genre: ['Thriller', 'Policier'],
     saga: '',
-    description: 'Un amant tue le mari, reste coincé dans l\'ascenseur ; Jeanne Moreau erre la nuit sur une musique de Miles Davis.',
+    description:
+      "Un amant tue le mari, reste coincé dans l'ascenseur ; Jeanne Moreau erre la nuit sur une musique de Miles Davis.",
     fromEntity: {
       entityType: 'book',
-      title: 'Ascenseur pour l\'échafaud',
+      title: "Ascenseur pour l'échafaud",
       secondEntityKey: 'Noël Calef',
     },
     countryOrigin: ['France'],
@@ -2641,7 +2762,8 @@ export const baseMoviesMissingPatrimoine19501959: BaseMovie[] = [
     length: 94,
     genre: ['Comédie', 'Drame'],
     saga: '',
-    description: 'Deux enfants font la grève de la parole pour obtenir un téléviseur, dans une banlieue de Tokyo.',
+    description:
+      'Deux enfants font la grève de la parole pour obtenir un téléviseur, dans une banlieue de Tokyo.',
     fromEntity: null,
     countryOrigin: ['Japon'],
     selectDisplayOrder: 0,
@@ -2662,7 +2784,8 @@ export const baseMoviesMissingPatrimoine19501959: BaseMovie[] = [
     length: 103,
     genre: ['Drame', 'Guerre'],
     saga: '',
-    description: 'Le 8 mai 1945, un résistant de l\'Armia Krajowa doit tuer un responsable communiste, lunettes noires et vodka.',
+    description:
+      "Le 8 mai 1945, un résistant de l'Armia Krajowa doit tuer un responsable communiste, lunettes noires et vodka.",
     fromEntity: {
       entityType: 'book',
       title: 'Cendres et diamant',
@@ -2687,7 +2810,8 @@ export const baseMoviesMissingPatrimoine19501959: BaseMovie[] = [
     length: 115,
     genre: ['Comédie musicale', 'Romance'],
     saga: '',
-    description: 'À Paris, une jeune fille élevée pour être courtisane bouleverse le mondain qui devait l\'entretenir.',
+    description:
+      "À Paris, une jeune fille élevée pour être courtisane bouleverse le mondain qui devait l'entretenir.",
     fromEntity: {
       entityType: 'book',
       title: 'Gigi',
@@ -2708,13 +2832,13 @@ export const baseMoviesMissingPatrimoine19501959: BaseMovie[] = [
     ],
   },
   {
-    title: 'L\'Homme de l\'Ouest',
+    title: "L'Homme de l'Ouest",
     director: 'Anthony Mann',
     actors: [
       { name: 'Gary Cooper' },
       { name: 'Julie London' },
       { name: 'Lee J. Cobb' },
-      { name: 'Arthur O\'Connell' },
+      { name: "Arthur O'Connell" },
       { name: 'Jack Lord' },
     ],
     coverUrl: '',
@@ -2722,7 +2846,8 @@ export const baseMoviesMissingPatrimoine19501959: BaseMovie[] = [
     length: 100,
     genre: ['Western'],
     saga: '',
-    description: 'Un ancien hors-la-loi, bloqué dans un relais, est reconnu par sa bande et forcé de reprendre le fusil.',
+    description:
+      'Un ancien hors-la-loi, bloqué dans un relais, est reconnu par sa bande et forcé de reprendre le fusil.',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -2743,7 +2868,8 @@ export const baseMoviesMissingPatrimoine19501959: BaseMovie[] = [
     length: 108,
     genre: ['Drame'],
     saga: '',
-    description: 'Au Mississippi, Brick, Maggie et Big Daddy s\'entre-déchirent autour d\'un héritage et d\'un secret.',
+    description:
+      "Au Mississippi, Brick, Maggie et Big Daddy s'entre-déchirent autour d'un héritage et d'un secret.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -2764,7 +2890,8 @@ export const baseMoviesMissingPatrimoine19501959: BaseMovie[] = [
     length: 139,
     genre: ['Aventure', 'Action'],
     saga: '',
-    description: 'Deux paysans lâches escortent une princesse et un général à travers les lignes ennemies.',
+    description:
+      'Deux paysans lâches escortent une princesse et un général à travers les lignes ennemies.',
     fromEntity: null,
     countryOrigin: ['Japon'],
     selectDisplayOrder: 0,
@@ -2785,7 +2912,8 @@ export const baseMoviesMissingPatrimoine19501959: BaseMovie[] = [
     length: 111,
     genre: ['Policier', 'Thriller'],
     saga: '',
-    description: 'À la frontière mexicano-américaine, un flic corpulent fabrique les preuves ; un plan-séquence ouvre le film.',
+    description:
+      'À la frontière mexicano-américaine, un flic corpulent fabrique les preuves ; un plan-séquence ouvre le film.',
     fromEntity: {
       entityType: 'book',
       title: 'Badge of Evil',
@@ -2810,7 +2938,8 @@ export const baseMoviesMissingPatrimoine19501959: BaseMovie[] = [
     length: 111,
     genre: ['Comédie', 'Policier'],
     saga: '',
-    description: 'Une bande de petits voyous romains monte un casse de bijouterie qui tourne au fiasco.',
+    description:
+      'Une bande de petits voyous romains monte un casse de bijouterie qui tourne au fiasco.',
     fromEntity: null,
     countryOrigin: ['Italie'],
     selectDisplayOrder: 0,
@@ -2831,7 +2960,8 @@ export const baseMoviesMissingPatrimoine19501959: BaseMovie[] = [
     length: 100,
     genre: ['Drame'],
     saga: '',
-    description: 'Un zamindar ruiné s\'accroche à ses concerts de musique classique pendant que le monde féodal s\'écroule.',
+    description:
+      "Un zamindar ruiné s'accroche à ses concerts de musique classique pendant que le monde féodal s'écroule.",
     fromEntity: null,
     countryOrigin: ['Inde'],
     selectDisplayOrder: 0,
@@ -2852,7 +2982,8 @@ export const baseMoviesMissingPatrimoine19501959: BaseMovie[] = [
     length: 107,
     genre: ['Drame', 'Fantastique'],
     saga: '',
-    description: 'Un prestidigitateur et sa troupe sont arrêtés en route vers Stockholm ; science et magie s\'affrontent.',
+    description:
+      "Un prestidigitateur et sa troupe sont arrêtés en route vers Stockholm ; science et magie s'affrontent.",
     fromEntity: null,
     countryOrigin: ['Suède'],
     selectDisplayOrder: 0,
@@ -2873,7 +3004,8 @@ export const baseMoviesMissingPatrimoine19501959: BaseMovie[] = [
     length: 112,
     genre: ['Drame'],
     saga: '',
-    description: 'Un provincial s\'installe chez son cousin parisien, dandy corrompu, et perd tout au jeu de l\'élégance.',
+    description:
+      "Un provincial s'installe chez son cousin parisien, dandy corrompu, et perd tout au jeu de l'élégance.",
     fromEntity: null,
     countryOrigin: ['France'],
     selectDisplayOrder: 0,
@@ -2894,22 +3026,21 @@ export const baseMoviesMissingPatrimoine19501959: BaseMovie[] = [
     length: 117,
     genre: ['Comédie'],
     saga: 'Monsieur Hulot',
-    description: 'Hulot visite la villa tout-électrique de sa sœur et ramène son neveu vers les terrains vagues.',
+    description:
+      'Hulot visite la villa tout-électrique de sa sœur et ramène son neveu vers les terrains vagues.',
     fromEntity: null,
     countryOrigin: ['France'],
     selectDisplayOrder: 0,
-    oscars: [
-      { type: OscarEnum.OSCAR_BEST_INTERNATIONAL_FEATURE, year: 1959 },
-    ],
+    oscars: [{ type: OscarEnum.OSCAR_BEST_INTERNATIONAL_FEATURE, year: 1959 }],
   },
   {
-    title: 'Autopsie d\'un meurtre',
+    title: "Autopsie d'un meurtre",
     director: 'Otto Preminger',
     actors: [
       { name: 'James Stewart' },
       { name: 'Lee Remick' },
       { name: 'Ben Gazzara' },
-      { name: 'Arthur O\'Connell' },
+      { name: "Arthur O'Connell" },
       { name: 'George C. Scott' },
     ],
     coverUrl: '',
@@ -2917,7 +3048,8 @@ export const baseMoviesMissingPatrimoine19501959: BaseMovie[] = [
     length: 161,
     genre: ['Policier', 'Drame'],
     saga: '',
-    description: 'Un avocat du Michigan défend un lieutenant qui a tué l\'homme accusé d\'avoir violé sa femme.',
+    description:
+      "Un avocat du Michigan défend un lieutenant qui a tué l'homme accusé d'avoir violé sa femme.",
     fromEntity: {
       entityType: 'book',
       title: 'Anatomy of a Murder',
@@ -2942,14 +3074,15 @@ export const baseMoviesMissingPatrimoine19501959: BaseMovie[] = [
     length: 90,
     genre: ['Drame', 'Romance'],
     saga: '',
-    description: 'Une actrice française et un architecte japonais s\'aiment à Hiroshima, mémoire de Nevers et de la bombe.',
+    description:
+      "Une actrice française et un architecte japonais s'aiment à Hiroshima, mémoire de Nevers et de la bombe.",
     fromEntity: null,
     countryOrigin: ['France', 'Japon'],
     selectDisplayOrder: 0,
     oscars: [],
   },
   {
-    title: 'L\'Homme à l\'affût',
+    title: "L'Homme à l'affût",
     director: 'Budd Boetticher',
     actors: [
       { name: 'Randolph Scott' },
@@ -2963,14 +3096,15 @@ export const baseMoviesMissingPatrimoine19501959: BaseMovie[] = [
     length: 73,
     genre: ['Western'],
     saga: '',
-    description: 'Un cowboy escorte une diligence et une veuve à travers le désert, vers une vengeance déjà écrite.',
+    description:
+      'Un cowboy escorte une diligence et une veuve à travers le désert, vers une vengeance déjà écrite.',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
     oscars: [],
   },
   {
-    title: 'La Condition de l\'homme',
+    title: "La Condition de l'homme",
     director: 'Masaki Kobayashi',
     actors: [
       { name: 'Tatsuya Nakadai' },
@@ -2984,7 +3118,8 @@ export const baseMoviesMissingPatrimoine19501959: BaseMovie[] = [
     length: 208,
     genre: ['Guerre', 'Drame'],
     saga: '',
-    description: 'Kaji, pacifiste, est envoyé gérer un camp de travail en Mandchourie, puis enrôlé dans l\'armée impériale.',
+    description:
+      "Kaji, pacifiste, est envoyé gérer un camp de travail en Mandchourie, puis enrôlé dans l'armée impériale.",
     fromEntity: {
       entityType: 'book',
       title: 'Ningen no jôken',
@@ -3009,7 +3144,8 @@ export const baseMoviesMissingPatrimoine19501959: BaseMovie[] = [
     length: 137,
     genre: ['Guerre', 'Comédie', 'Drame'],
     saga: '',
-    description: 'Deux embusqués italiens de 14-18 survivent par la lâcheté, jusqu\'à un geste qui les dépasse.',
+    description:
+      "Deux embusqués italiens de 14-18 survivent par la lâcheté, jusqu'à un geste qui les dépasse.",
     fromEntity: null,
     countryOrigin: ['Italie', 'France'],
     selectDisplayOrder: 0,
@@ -3030,7 +3166,8 @@ export const baseMoviesMissingPatrimoine19501959: BaseMovie[] = [
     length: 118,
     genre: ['Comédie', 'Guerre'],
     saga: '',
-    description: 'Un prisonnier français s\'évade d\'Allemagne en emmenant une vache, Marguerite, comme alibi.',
+    description:
+      "Un prisonnier français s'évade d'Allemagne en emmenant une vache, Marguerite, comme alibi.",
     fromEntity: {
       entityType: 'book',
       title: 'La Vache et le Prisonnier',
@@ -3041,7 +3178,7 @@ export const baseMoviesMissingPatrimoine19501959: BaseMovie[] = [
     oscars: [],
   },
   {
-    title: 'Le Journal d\'Anne Frank',
+    title: "Le Journal d'Anne Frank",
     director: 'George Stevens',
     actors: [
       { name: 'Millie Perkins' },
@@ -3055,10 +3192,11 @@ export const baseMoviesMissingPatrimoine19501959: BaseMovie[] = [
     length: 180,
     genre: ['Drame', 'Biographie', 'Historique'],
     saga: '',
-    description: 'Deux familles juives se cachent à Amsterdam ; Anne écrit, aime et espère, jusqu\'à la rafle.',
+    description:
+      "Deux familles juives se cachent à Amsterdam ; Anne écrit, aime et espère, jusqu'à la rafle.",
     fromEntity: {
       entityType: 'book',
-      title: 'Le Journal d\'Anne Frank',
+      title: "Le Journal d'Anne Frank",
       secondEntityKey: 'Anne Frank',
     },
     countryOrigin: ['États-Unis'],
@@ -3070,7 +3208,7 @@ export const baseMoviesMissingPatrimoine19501959: BaseMovie[] = [
     ],
   },
   {
-    title: 'Le Monde d\'Apu',
+    title: "Le Monde d'Apu",
     director: 'Satyajit Ray',
     actors: [
       { name: 'Soumitra Chatterjee' },
@@ -3083,8 +3221,9 @@ export const baseMoviesMissingPatrimoine19501959: BaseMovie[] = [
     releaseDate: '1959-05-01',
     length: 105,
     genre: ['Drame'],
-    saga: 'La Trilogie d\'Apu',
-    description: 'Apu, écrivain pauvre à Calcutta, épouse Aparna par hasard, perd tout, et retrouve son fils.',
+    saga: "La Trilogie d'Apu",
+    description:
+      'Apu, écrivain pauvre à Calcutta, épouse Aparna par hasard, perd tout, et retrouve son fils.',
     fromEntity: {
       entityType: 'book',
       title: 'Aparajito',
@@ -3109,7 +3248,8 @@ export const baseMoviesMissingPatrimoine19501959: BaseMovie[] = [
     length: 99,
     genre: ['Drame'],
     saga: 'Antoine Doinel',
-    description: 'Antoine Doinel, collégien incompris, vole, fuit, et s\'arrête face à la mer, regard caméra.',
+    description:
+      "Antoine Doinel, collégien incompris, vole, fuit, et s'arrête face à la mer, regard caméra.",
     fromEntity: null,
     countryOrigin: ['France'],
     selectDisplayOrder: 0,
@@ -3130,7 +3270,8 @@ export const baseMoviesMissingPatrimoine19501959: BaseMovie[] = [
     length: 90,
     genre: ['Horreur', 'Thriller'],
     saga: '',
-    description: 'Un chirurgien enlève le visage de jeunes femmes pour le greffer à sa fille défigurée, masque blanc.',
+    description:
+      'Un chirurgien enlève le visage de jeunes femmes pour le greffer à sa fille défigurée, masque blanc.',
     fromEntity: null,
     countryOrigin: ['France'],
     selectDisplayOrder: 0,
@@ -3151,13 +3292,12 @@ export const baseMoviesMissingPatrimoine19501959: BaseMovie[] = [
     length: 100,
     genre: ['Drame', 'Romance', 'Fantastique'],
     saga: '',
-    description: 'Orphée et Eurydice revivent dans les favelas de Rio, au carnaval, jusqu\'à la descente aux enfers.',
+    description:
+      "Orphée et Eurydice revivent dans les favelas de Rio, au carnaval, jusqu'à la descente aux enfers.",
     fromEntity: null,
     countryOrigin: ['France', 'Italie', 'Brésil'],
     selectDisplayOrder: 0,
-    oscars: [
-      { type: OscarEnum.OSCAR_BEST_INTERNATIONAL_FEATURE, year: 1960 },
-    ],
+    oscars: [{ type: OscarEnum.OSCAR_BEST_INTERNATIONAL_FEATURE, year: 1960 }],
   },
   {
     title: 'Pickpocket',
@@ -3174,7 +3314,8 @@ export const baseMoviesMissingPatrimoine19501959: BaseMovie[] = [
     length: 75,
     genre: ['Drame', 'Policier'],
     saga: '',
-    description: 'Michel vole dans le métro parisien, théorise le crime, et ne se rachète que par une main tendue en prison.',
+    description:
+      'Michel vole dans le métro parisien, théorise le crime, et ne se rachète que par une main tendue en prison.',
     fromEntity: null,
     countryOrigin: ['France'],
     selectDisplayOrder: 0,
@@ -3195,7 +3336,8 @@ export const baseMoviesMissingPatrimoine19501959: BaseMovie[] = [
     length: 97,
     genre: ['Drame', 'Guerre', 'Romance'],
     saga: '',
-    description: 'Veronika attend Boris parti au front ; Moscou bombardée, un mariage par dépit, et les cigognes.',
+    description:
+      'Veronika attend Boris parti au front ; Moscou bombardée, un mariage par dépit, et les cigognes.',
     fromEntity: null,
     countryOrigin: ['Russie'],
     selectDisplayOrder: 0,
@@ -3216,14 +3358,15 @@ export const baseMoviesMissingPatrimoine19501959: BaseMovie[] = [
     length: 141,
     genre: ['Western'],
     saga: '',
-    description: 'Un shérif, un ivrogne, un jeune pistoler et un vieil estropié tiennent une prison contre un clan.',
+    description:
+      'Un shérif, un ivrogne, un jeune pistoler et un vieil estropié tiennent une prison contre un clan.',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
     oscars: [],
   },
   {
-    title: 'Soudain l\'été dernier',
+    title: "Soudain l'été dernier",
     director: 'Joseph L. Mankiewicz',
     actors: [
       { name: 'Elizabeth Taylor' },
@@ -3237,7 +3380,8 @@ export const baseMoviesMissingPatrimoine19501959: BaseMovie[] = [
     length: 114,
     genre: ['Drame', 'Thriller'],
     saga: '',
-    description: 'Une tante veut faire lobotomiser sa nièce pour ensevelir la vérité sur la mort de Sebastian, poète cannibalisé.',
+    description:
+      'Une tante veut faire lobotomiser sa nièce pour ensevelir la vérité sur la mort de Sebastian, poète cannibalisé.',
     fromEntity: null,
     countryOrigin: ['États-Unis', 'Royaume-Uni'],
     selectDisplayOrder: 0,

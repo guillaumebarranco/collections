@@ -501,8 +501,7 @@ export const baseMoviesThriller: BaseMovie[] = [
         name: 'Jean-Yves Berteloot',
       },
     ],
-    coverUrl:
-      '/movies_pictures/7c4e72b90934.jpg',
+    coverUrl: '/movies_pictures/7c4e72b90934.jpg',
     releaseDate: '2019-02-20',
     length: 116,
     genre: ['Thriller'],
@@ -622,9 +621,7 @@ export const baseMoviesThriller: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
-    oscars: [
-      { type: OscarEnum.OSCAR_BEST_SUPPORTING_ACTOR, year: 2016 },
-    ],
+    oscars: [{ type: OscarEnum.OSCAR_BEST_SUPPORTING_ACTOR, year: 2016 }],
   },
   {
     title: 'Arrête-moi si tu peux',
@@ -1128,9 +1125,7 @@ export const baseMoviesThriller: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 30,
-    oscars: [
-      { type: OscarEnum.OSCAR_BEST_ORIGINAL_SCREENPLAY, year: 1995 },
-    ],
+    oscars: [{ type: OscarEnum.OSCAR_BEST_ORIGINAL_SCREENPLAY, year: 1995 }],
   },
   {
     title: 'Code mercury',
@@ -1408,9 +1403,7 @@ export const baseMoviesThriller: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
-    oscars: [
-      { type: OscarEnum.OSCAR_BEST_SUPPORTING_ACTOR, year: 1988 },
-    ],
+    oscars: [{ type: OscarEnum.OSCAR_BEST_SUPPORTING_ACTOR, year: 1988 }],
   },
   {
     title: 'Scarface',
@@ -2110,9 +2103,7 @@ export const baseMoviesThriller: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 30,
-    oscars: [
-      { type: OscarEnum.OSCAR_BEST_SUPPORTING_ACTOR, year: 1991 },
-    ],
+    oscars: [{ type: OscarEnum.OSCAR_BEST_SUPPORTING_ACTOR, year: 1991 }],
   },
   {
     title: 'Exam',
@@ -2697,9 +2688,7 @@ export const baseMoviesThriller: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
-    oscars: [
-      { type: OscarEnum.OSCAR_BEST_SUPPORTING_ACTOR, year: 2006 },
-    ],
+    oscars: [{ type: OscarEnum.OSCAR_BEST_SUPPORTING_ACTOR, year: 2006 }],
   },
   {
     title: "Raisons d'Etat",
@@ -2884,9 +2873,7 @@ export const baseMoviesThriller: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
-    oscars: [
-      { type: OscarEnum.OSCAR_BEST_CINEMATOGRAPHY, year: 2003 },
-    ],
+    oscars: [{ type: OscarEnum.OSCAR_BEST_CINEMATOGRAPHY, year: 2003 }],
   },
   {
     title: 'Anges et démons',
@@ -3185,43 +3172,6 @@ export const baseMoviesThriller: BaseMovie[] = [
     releaseDate: '2008-10-10',
     length: 128,
     genre: ['Thriller'],
-    saga: '',
-    description: '',
-    fromEntity: null,
-    countryOrigin: ['États-Unis'],
-    selectDisplayOrder: 0,
-    oscars: [],
-  },
-  {
-    title: "Une bataille après l'autre",
-    director: 'Paul Thomas Anderson',
-    actors: [
-      {
-        name: 'Jesse Eisenberg',
-      },
-      {
-        name: 'Woody Harrelson',
-      },
-      {
-        name: 'Isla Fisher',
-      },
-      {
-        name: 'Dave Franco',
-      },
-      {
-        name: 'Morgan Freeman',
-      },
-      {
-        name: 'Justice Smith',
-      },
-      {
-        name: 'Rosamund Pike',
-      },
-    ],
-    coverUrl: '/movies_pictures/610dc2fcd83afe3717f771b889b979c2.webp',
-    releaseDate: '2023-10-20',
-    length: 206,
-    genre: ['Policier'],
     saga: '',
     description: '',
     fromEntity: null,
@@ -5166,9 +5116,7 @@ export const baseMoviesThriller: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
-    oscars: [
-      { type: OscarEnum.OSCAR_BEST_ORIGINAL_SCREENPLAY, year: 1993 },
-    ],
+    oscars: [{ type: OscarEnum.OSCAR_BEST_ORIGINAL_SCREENPLAY, year: 1993 }],
   },
   {
     title: "Angles d'attaque",
@@ -5523,9 +5471,7 @@ export const baseMoviesThriller: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
-    oscars: [
-      { type: OscarEnum.OSCAR_BEST_ORIGINAL_SONG, year: 1957 },
-    ],
+    oscars: [{ type: OscarEnum.OSCAR_BEST_ORIGINAL_SONG, year: 1957 }],
   },
   {
     title: 'Nightmare Alley',
@@ -6545,9 +6491,7 @@ export const baseMoviesThriller: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 5,
-    oscars: [
-      { type: OscarEnum.OSCAR_BEST_ADAPTED_SCREENPLAY, year: 2019 },
-    ],
+    oscars: [{ type: OscarEnum.OSCAR_BEST_ADAPTED_SCREENPLAY, year: 2019 }],
   },
   {
     title: "Le Crime de l'Orient-Express",

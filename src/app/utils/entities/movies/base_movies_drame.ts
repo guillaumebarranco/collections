@@ -211,9 +211,7 @@ export const baseMoviesDrame: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 30,
-    oscars: [
-      { type: OscarEnum.OSCAR_BEST_ACTOR, year: 2022 },
-    ],
+    oscars: [{ type: OscarEnum.OSCAR_BEST_ACTOR, year: 2022 }],
   },
   {
     title: 'Mulholland Drive',
@@ -588,9 +586,7 @@ export const baseMoviesDrame: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 30,
-    oscars: [
-      { type: OscarEnum.OSCAR_BEST_ORIGINAL_SONG, year: 2019 },
-    ],
+    oscars: [{ type: OscarEnum.OSCAR_BEST_ORIGINAL_SONG, year: 2019 }],
   },
   {
     title: '12 hommes en colère',
@@ -664,9 +660,7 @@ export const baseMoviesDrame: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 30,
-    oscars: [
-      { type: OscarEnum.OSCAR_BEST_ORIGINAL_SCREENPLAY, year: 1942 },
-    ],
+    oscars: [{ type: OscarEnum.OSCAR_BEST_ORIGINAL_SCREENPLAY, year: 1942 }],
   },
   {
     title: 'Pentagon Papers',
@@ -1240,9 +1234,7 @@ export const baseMoviesDrame: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
-    oscars: [
-      { type: OscarEnum.OSCAR_BEST_ORIGINAL_SCORE, year: 2007 },
-    ],
+    oscars: [{ type: OscarEnum.OSCAR_BEST_ORIGINAL_SCORE, year: 2007 }],
   },
   {
     title: 'Volver',
@@ -1428,9 +1420,7 @@ export const baseMoviesDrame: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 30,
-    oscars: [
-      { type: OscarEnum.OSCAR_BEST_ACTRESS, year: 2004 },
-    ],
+    oscars: [{ type: OscarEnum.OSCAR_BEST_ACTRESS, year: 2004 }],
   },
   {
     title: 'Aftermath',
@@ -1541,9 +1531,7 @@ export const baseMoviesDrame: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 30,
-    oscars: [
-      { type: OscarEnum.OSCAR_BEST_ACTRESS, year: 2016 },
-    ],
+    oscars: [{ type: OscarEnum.OSCAR_BEST_ACTRESS, year: 2016 }],
   },
   {
     title: 'La rage au ventre',
@@ -2158,9 +2146,7 @@ export const baseMoviesDrame: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 30,
-    oscars: [
-      { type: OscarEnum.OSCAR_BEST_ACTRESS, year: 2011 },
-    ],
+    oscars: [{ type: OscarEnum.OSCAR_BEST_ACTRESS, year: 2011 }],
   },
   {
     title: 'Brothers',
@@ -2257,9 +2243,7 @@ export const baseMoviesDrame: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
-    oscars: [
-      { type: OscarEnum.OSCAR_BEST_ACTRESS, year: 2010 },
-    ],
+    oscars: [{ type: OscarEnum.OSCAR_BEST_ACTRESS, year: 2010 }],
   },
   {
     title: 'Le Majordome',
@@ -2436,9 +2420,7 @@ export const baseMoviesDrame: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 30,
-    oscars: [
-      { type: OscarEnum.OSCAR_BEST_ORIGINAL_SCREENPLAY, year: 1990 },
-    ],
+    oscars: [{ type: OscarEnum.OSCAR_BEST_ORIGINAL_SCREENPLAY, year: 1990 }],
   },
   {
     title: 'Qui veut la peau de Roger Rabbit',
@@ -2627,9 +2609,7 @@ export const baseMoviesDrame: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
-    oscars: [
-      { type: OscarEnum.OSCAR_BEST_ORIGINAL_SCORE, year: 2008 },
-    ],
+    oscars: [{ type: OscarEnum.OSCAR_BEST_ORIGINAL_SCORE, year: 2008 }],
   },
   {
     title: 'Philadelphia',
@@ -3484,9 +3464,7 @@ export const baseMoviesDrame: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
-    oscars: [
-      { type: OscarEnum.OSCAR_BEST_CINEMATOGRAPHY, year: 1995 },
-    ],
+    oscars: [{ type: OscarEnum.OSCAR_BEST_CINEMATOGRAPHY, year: 1995 }],
   },
   {
     title: 'Sleepers',
@@ -6151,9 +6129,7 @@ export const baseMoviesDrame: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
-    oscars: [
-      { type: OscarEnum.OSCAR_BEST_MAKEUP, year: 2019 },
-    ],
+    oscars: [{ type: OscarEnum.OSCAR_BEST_MAKEUP, year: 2019 }],
   },
   {
     title: "L'Homme qui murmurait à l'oreille des chevaux",
@@ -6521,9 +6497,7 @@ export const baseMoviesDrame: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
-    oscars: [
-      { type: OscarEnum.OSCAR_BEST_SUPPORTING_ACTRESS, year: 2018 },
-    ],
+    oscars: [{ type: OscarEnum.OSCAR_BEST_SUPPORTING_ACTRESS, year: 2018 }],
   },
   {
     title: "Marie Stuart, reine d'Écosse",
@@ -6597,9 +6571,7 @@ export const baseMoviesDrame: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
-    oscars: [
-      { type: OscarEnum.OSCAR_BEST_MAKEUP, year: 2020 },
-    ],
+    oscars: [{ type: OscarEnum.OSCAR_BEST_MAKEUP, year: 2020 }],
   },
   {
     title: 'Hurlevent',
@@ -6731,9 +6703,7 @@ export const baseMoviesDrame: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
-    oscars: [
-      { type: OscarEnum.OSCAR_BEST_SUPPORTING_ACTRESS, year: 1992 },
-    ],
+    oscars: [{ type: OscarEnum.OSCAR_BEST_SUPPORTING_ACTRESS, year: 1992 }],
   },
   {
     title: 'Hamlet',
@@ -7548,9 +7518,7 @@ export const baseMoviesDrame: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
-    oscars: [
-      { type: OscarEnum.OSCAR_BEST_ADAPTED_SCREENPLAY, year: 2015 },
-    ],
+    oscars: [{ type: OscarEnum.OSCAR_BEST_ADAPTED_SCREENPLAY, year: 2015 }],
   },
   {
     title: 'La Passion du Christ',
@@ -7891,9 +7859,7 @@ export const baseMoviesDrame: BaseMovie[] = [
     },
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
-    oscars: [
-      { type: OscarEnum.OSCAR_BEST_COSTUME_DESIGN, year: 2020 },
-    ],
+    oscars: [{ type: OscarEnum.OSCAR_BEST_COSTUME_DESIGN, year: 2020 }],
   },
   {
     title: 'Respire',
@@ -8479,9 +8445,7 @@ export const baseMoviesDrame: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
-    oscars: [
-      { type: OscarEnum.OSCAR_BEST_ACTOR, year: 2007 },
-    ],
+    oscars: [{ type: OscarEnum.OSCAR_BEST_ACTOR, year: 2007 }],
   },
   {
     title: 'Submergence',
@@ -9418,9 +9382,7 @@ export const baseMoviesDrame: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
-    oscars: [
-      { type: OscarEnum.OSCAR_BEST_ORIGINAL_SCORE, year: 2005 },
-    ],
+    oscars: [{ type: OscarEnum.OSCAR_BEST_ORIGINAL_SCORE, year: 2005 }],
   },
   {
     title: "La Zone d'intérêt",
@@ -9840,9 +9802,7 @@ export const baseMoviesDrame: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
-    oscars: [
-      { type: OscarEnum.OSCAR_BEST_VISUAL_EFFECTS, year: 2019 },
-    ],
+    oscars: [{ type: OscarEnum.OSCAR_BEST_VISUAL_EFFECTS, year: 2019 }],
   },
   {
     title: 'Magazine Dreams',
@@ -9902,9 +9862,7 @@ export const baseMoviesDrame: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['Royaume-Uni'],
     selectDisplayOrder: 0,
-    oscars: [
-      { type: OscarEnum.OSCAR_BEST_CINEMATOGRAPHY, year: 1935 },
-    ],
+    oscars: [{ type: OscarEnum.OSCAR_BEST_CINEMATOGRAPHY, year: 1935 }],
   },
   {
     title: 'Le Garçon au pyjama rayé',
@@ -10065,9 +10023,7 @@ export const baseMoviesDrame: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['Allemagne'],
     selectDisplayOrder: 0,
-    oscars: [
-      { type: OscarEnum.OSCAR_BEST_ACTRESS, year: 2009 },
-    ],
+    oscars: [{ type: OscarEnum.OSCAR_BEST_ACTRESS, year: 2009 }],
   },
   {
     title: "La Proie d'une ombre",
@@ -10697,9 +10653,7 @@ export const baseMoviesDrame: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
-    oscars: [
-      { type: OscarEnum.OSCAR_BEST_SUPPORTING_ACTRESS, year: 2015 },
-    ],
+    oscars: [{ type: OscarEnum.OSCAR_BEST_SUPPORTING_ACTRESS, year: 2015 }],
   },
   {
     title: 'Before Sunset',
@@ -11360,9 +11314,7 @@ export const baseMoviesDrame: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
-    oscars: [
-      { type: OscarEnum.OSCAR_BEST_COSTUME_DESIGN, year: 2018 },
-    ],
+    oscars: [{ type: OscarEnum.OSCAR_BEST_COSTUME_DESIGN, year: 2018 }],
   },
   {
     title: 'The Virgin Suicides',
@@ -12158,9 +12110,7 @@ export const baseMoviesDrame: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 5,
-    oscars: [
-      { type: OscarEnum.OSCAR_BEST_COSTUME_DESIGN, year: 2007 },
-    ],
+    oscars: [{ type: OscarEnum.OSCAR_BEST_COSTUME_DESIGN, year: 2007 }],
   },
   {
     title: 'Aviator',
@@ -12586,9 +12536,9 @@ export const baseMoviesDrame: BaseMovie[] = [
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 30,
     oscars: [
-      { type: OscarEnum.OSCAR_BEST_MOVIE, year: 1943 },
-      { type: OscarEnum.OSCAR_BEST_DIRECTOR, year: 1943 },
-      { type: OscarEnum.OSCAR_BEST_ADAPTED_SCREENPLAY, year: 1943 },
+      { type: OscarEnum.OSCAR_BEST_MOVIE, year: 1944 },
+      { type: OscarEnum.OSCAR_BEST_DIRECTOR, year: 1944 },
+      { type: OscarEnum.OSCAR_BEST_ADAPTED_SCREENPLAY, year: 1944 },
     ],
   },
   {
@@ -12732,9 +12682,7 @@ export const baseMoviesDrame: BaseMovie[] = [
     },
     countryOrigin: ['Royaume-Uni'],
     selectDisplayOrder: 5,
-    oscars: [
-      { type: OscarEnum.OSCAR_BEST_ACTRESS, year: 2026 },
-    ],
+    oscars: [{ type: OscarEnum.OSCAR_BEST_ACTRESS, year: 2026 }],
   },
   {
     title: 'Un prophète',
@@ -13081,9 +13029,7 @@ export const baseMoviesDrame: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 5,
-    oscars: [
-      { type: OscarEnum.OSCAR_BEST_SOUND, year: 2026 },
-    ],
+    oscars: [{ type: OscarEnum.OSCAR_BEST_SOUND, year: 2026 }],
   },
   {
     title: 'Le Son des souvenirs',
@@ -13510,6 +13456,32 @@ export const baseMoviesDrame: BaseMovie[] = [
       { type: OscarEnum.OSCAR_BEST_ORIGINAL_SCREENPLAY, year: 2025 },
       { type: OscarEnum.OSCAR_BEST_FILM_EDITING, year: 2025 },
     ],
+  },
+  {
+    title: "Une bataille après l'autre",
+    director: 'Paul Thomas Anderson',
+    actors: [
+      { name: 'Leonardo DiCaprio' },
+      { name: 'Sean Penn' },
+      { name: 'Benicio del Toro' },
+      { name: 'Regina Hall' },
+      { name: 'Teyana Taylor' },
+      { name: 'Chase Infiniti' },
+    ],
+    coverUrl: '/movies_pictures/610dc2fcd83afe3717f771b889b979c2.webp',
+    releaseDate: '2025-09-26',
+    length: 162,
+    genre: ['Drame', 'Thriller'],
+    saga: '',
+    description: '',
+    fromEntity: {
+      entityType: 'book',
+      title: 'Vineland',
+      secondEntityKey: 'Thomas Pynchon',
+    },
+    countryOrigin: ['États-Unis'],
+    selectDisplayOrder: 0,
+    oscars: [{ type: OscarEnum.OSCAR_BEST_MOVIE, year: 2026 }],
   },
   {
     title: 'The Marching Band',
@@ -14126,9 +14098,7 @@ export const baseMoviesDrame: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 5,
-    oscars: [
-      { type: OscarEnum.OSCAR_BEST_SUPPORTING_ACTRESS, year: 2020 },
-    ],
+    oscars: [{ type: OscarEnum.OSCAR_BEST_SUPPORTING_ACTRESS, year: 2020 }],
   },
   {
     title: 'It Chapter Two',
@@ -14320,9 +14290,7 @@ export const baseMoviesDrame: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 5,
-    oscars: [
-      { type: OscarEnum.OSCAR_BEST_ADAPTED_SCREENPLAY, year: 2018 },
-    ],
+    oscars: [{ type: OscarEnum.OSCAR_BEST_ADAPTED_SCREENPLAY, year: 2018 }],
   },
   {
     title: 'Beauté cachée',
@@ -14569,8 +14537,7 @@ export const baseMoviesDrame: BaseMovie[] = [
         name: 'Elizabeth Debicki',
       },
     ],
-    coverUrl:
-      '/movies_pictures/10160b7b4bb0.jpg',
+    coverUrl: '/movies_pictures/10160b7b4bb0.jpg',
     releaseDate: '2013-05-15',
     length: 143,
     genre: ['Drame'],
@@ -14628,9 +14595,7 @@ export const baseMoviesDrame: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 5,
-    oscars: [
-      { type: OscarEnum.OSCAR_BEST_SUPPORTING_ACTRESS, year: 2012 },
-    ],
+    oscars: [{ type: OscarEnum.OSCAR_BEST_SUPPORTING_ACTRESS, year: 2012 }],
   },
   {
     title: 'Incendies',
@@ -14644,8 +14609,7 @@ export const baseMoviesDrame: BaseMovie[] = [
       { name: 'Allen Altman' },
       { name: 'Mohamed Majd' },
     ],
-    coverUrl:
-      '/movies_pictures/d4867dce734a.jpg',
+    coverUrl: '/movies_pictures/d4867dce734a.jpg',
     releaseDate: '2011-01-12',
     length: 130,
     genre: ['Drame'],
@@ -14866,9 +14830,7 @@ export const baseMoviesDrame: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 5,
-    oscars: [
-      { type: OscarEnum.OSCAR_BEST_ORIGINAL_SCREENPLAY, year: 2004 },
-    ],
+    oscars: [{ type: OscarEnum.OSCAR_BEST_ORIGINAL_SCREENPLAY, year: 2004 }],
   },
   {
     title: 'Gangs of New York',
@@ -14905,8 +14867,7 @@ export const baseMoviesDrame: BaseMovie[] = [
       { name: 'Veanne Cox' },
       { name: 'Conchata Ferrell' },
     ],
-    coverUrl:
-      '/movies_pictures/91aca9c30386.jpg',
+    coverUrl: '/movies_pictures/91aca9c30386.jpg',
     releaseDate: '2000-04-26',
     length: 131,
     genre: ['Drame'],
@@ -14915,9 +14876,7 @@ export const baseMoviesDrame: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 30,
-    oscars: [
-      { type: OscarEnum.OSCAR_BEST_ACTRESS, year: 2001 },
-    ],
+    oscars: [{ type: OscarEnum.OSCAR_BEST_ACTRESS, year: 2001 }],
   },
   {
     title: 'Ghost Dog : La Voie du samouraï',
@@ -15000,8 +14959,7 @@ export const baseMoviesDrame: BaseMovie[] = [
       { name: 'Christopher McDonald' },
       { name: 'Stephen Tobolowsky' },
     ],
-    coverUrl:
-      '/movies_pictures/bb61086f0cd7.jpg',
+    coverUrl: '/movies_pictures/bb61086f0cd7.jpg',
     releaseDate: '1991-05-29',
     length: 130,
     genre: ['Drame'],
@@ -15010,9 +14968,7 @@ export const baseMoviesDrame: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 30,
-    oscars: [
-      { type: OscarEnum.OSCAR_BEST_ORIGINAL_SCREENPLAY, year: 1992 },
-    ],
+    oscars: [{ type: OscarEnum.OSCAR_BEST_ORIGINAL_SCREENPLAY, year: 1992 }],
   },
   {
     title: 'Rain Man',
