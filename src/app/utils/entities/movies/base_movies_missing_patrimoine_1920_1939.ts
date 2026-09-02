@@ -784,7 +784,8 @@ export const baseMoviesMissingPatrimoine19201939: BaseMovie[] = [
       { name: 'Mary Doran' },
       { name: 'Eddie Kane' },
     ],
-    coverUrl: '',
+    coverUrl:
+      '/movies_pictures/1084395178ed.jpg',
     releaseDate: '1929-02-01',
     length: 100,
     genre: ['Comédie musicale'],
@@ -1645,11 +1646,12 @@ export const baseMoviesMissingPatrimoine19201939: BaseMovie[] = [
     actors: [
       { name: 'Diana Wynyard' },
       { name: 'Clive Brook' },
-      { name: 'Una O\'Connor' },
+      { name: "Una O'Connor" },
       { name: 'Herbert Mundin' },
       { name: 'Ursula Jeans' },
     ],
-    coverUrl: '',
+    coverUrl:
+      '/movies_pictures/24a8fc546c86.jpg',
     releaseDate: '1933-01-05',
     length: 110,
     genre: ['Drame', 'Historique'],

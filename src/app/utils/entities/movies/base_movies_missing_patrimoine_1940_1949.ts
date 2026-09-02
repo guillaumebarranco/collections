@@ -605,8 +605,7 @@ export const baseMoviesMissingPatrimoine19401949: BaseMovie[] = [
       { name: 'Frank McHugh' },
       { name: 'Gene Lockhart' },
     ],
-    coverUrl:
-      '/movies_pictures/64c736af5bdf.jpg',
+    coverUrl: '/movies_pictures/64c736af5bdf.jpg',
     releaseDate: '1944-05-03',
     length: 126,
     genre: ['Comédie', 'Drame'],
@@ -1277,7 +1276,8 @@ export const baseMoviesMissingPatrimoine19401949: BaseMovie[] = [
       { name: 'Celeste Holm' },
       { name: 'Anne Revere' },
     ],
-    coverUrl: '',
+    coverUrl:
+      '/movies_pictures/f78c619ea102.jpg',
     releaseDate: '1947-11-11',
     length: 118,
     genre: ['Drame'],
