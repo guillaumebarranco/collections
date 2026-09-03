@@ -3,8 +3,10 @@ import {
   Component,
   EventEmitter,
   Input,
+  OnInit,
   Output,
   inject,
+  signal,
 } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { ActivatedRoute, Router } from '@angular/router';
@@ -31,8 +33,10 @@ import {
   MoveEntityReviewModalResult,
 } from '../../modals/move-entity-review-modal/move-entity-review-modal.component';
 import { MovieCommunityWatchersModalComponent } from '../../modals/movie-community-watchers-modal/movie-community-watchers-modal.component';
+import { BookInspiredMoviesModalComponent } from '../../modals/book-inspired-movies-modal/book-inspired-movies-modal.component';
 import { AuthService } from '../../../core/auth.service';
 import { isBookApproximateReadDate } from '../../../utils/approximate-date-badges.utils';
+import { bookHasInspiredMovies } from '../../../utils/book-movie-adaptations.utils';
 
 @Component({
   selector: 'app-book',
@@ -48,11 +52,13 @@ import { isBookApproximateReadDate } from '../../../utils/approximate-date-badge
   styleUrls: ['./book.component.scss'],
   changeDetection: ChangeDetectionStrategy.OnPush,
 })
-export class BookComponent {
+export class BookComponent implements OnInit {
   private readonly activatedRoute = inject(ActivatedRoute);
   private readonly router = inject(Router);
   private readonly dialog = inject(MatDialog);
   private readonly authService = inject(AuthService);
+
+  readonly hasInspiredMovies = signal(false);
 
   @Input() book!: any;
 
@@ -100,8 +106,25 @@ export class BookComponent {
 
   isBaseEntityView = isBaseEntityView();
 
+  ngOnInit(): void {
+    void this.refreshInspiredMovies();
+  }
+
   requestEdit(): void {
     this.editRequested.emit();
+  }
+
+  openInspiredMoviesModal(): void {
+    if (!this.hasInspiredMovies()) return;
+    this.dialog.open(BookInspiredMoviesModalComponent, {
+      data: {
+        bookTitle: this.book.title,
+        bookAuthor: this.book.author ?? '',
+        userId: this.authService.getAuthenticatedUserId(),
+      },
+      width: 'min(480px, 95vw)',
+      maxWidth: '95vw',
+    });
   }
 
   isBookReading(): boolean {
@@ -228,6 +251,20 @@ export class BookComponent {
       this.readlistMarkedAsRead.emit(this.book);
     } catch (error) {
       console.warn("Erreur réseau lors de l'ajout batch des livres.", error);
+    }
+  }
+
+  private async refreshInspiredMovies(): Promise<void> {
+    const title = this.book?.title ?? '';
+    const author = this.book?.author ?? '';
+    if (!title) {
+      this.hasInspiredMovies.set(false);
+      return;
+    }
+    try {
+      this.hasInspiredMovies.set(await bookHasInspiredMovies(title, author));
+    } catch {
+      this.hasInspiredMovies.set(false);
     }
   }
 }

@@ -1,6 +1,7 @@
 <app-entity-card>
-  @if (!readOnly) {
+  @if (!readOnly || hasInspiredMovies()) {
   <div entity-edit>
+    @if (!readOnly) {
     <button
       type="button"
       class="edit-button"
@@ -18,6 +19,16 @@
       aria-label="Voir qui a lu ce livre (communauté)"
     >
       👥
+    </button>
+    }
+    } @if (hasInspiredMovies()) {
+    <button
+      type="button"
+      class="edit-button inspired-movies-button"
+      (click)="openInspiredMoviesModal()"
+      aria-label="Voir les films inspirés par ce livre"
+    >
+      🎬
     </button>
     }
   </div>

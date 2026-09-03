@@ -1,0 +1,140 @@
+.book-inspired-movies-modal {
+  min-width: 280px;
+  max-width: 480px;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+}
+
+.book-inspired-movies-modal__header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: 16px 20px;
+  border-bottom: 1px solid #ecf0f1;
+  gap: 12px;
+}
+
+.book-inspired-movies-modal__title {
+  margin: 0;
+  font-size: 1.1rem;
+  font-weight: 600;
+  color: #2c3e50;
+}
+
+.book-inspired-movies-modal__close {
+  background: none;
+  border: none;
+  font-size: 1.25rem;
+  line-height: 1;
+  color: #7f8c8d;
+  cursor: pointer;
+  padding: 0 4px;
+
+  &:hover {
+    color: #2c3e50;
+  }
+}
+
+.book-inspired-movies-modal__body {
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+  max-height: min(70vh, 640px);
+  overflow: auto;
+}
+
+.book-inspired-movies-modal__source {
+  margin: 0;
+  font-size: 0.9rem;
+  color: #4a5568;
+}
+
+.book-inspired-movies-modal__list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.book-inspired-movies-modal__item {
+  padding-bottom: 16px;
+  border-bottom: 1px solid #ecf0f1;
+
+  &:last-child {
+    padding-bottom: 0;
+    border-bottom: none;
+  }
+}
+
+.book-inspired-movies-modal__movie {
+  display: flex;
+  gap: 14px;
+  align-items: flex-start;
+}
+
+.book-inspired-movies-modal__cover {
+  width: 84px;
+  height: 126px;
+  object-fit: cover;
+  border-radius: 4px;
+  flex-shrink: 0;
+  background: #ecf0f1;
+}
+
+.book-inspired-movies-modal__meta {
+  min-width: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.book-inspired-movies-modal__movie-title {
+  margin: 0;
+  font-size: 1.05rem;
+  font-weight: 600;
+  color: #2c3e50;
+  line-height: 1.3;
+}
+
+.book-inspired-movies-modal__director {
+  margin: 0;
+  font-size: 0.95rem;
+  color: #4a5568;
+}
+
+.book-inspired-movies-modal__detail {
+  margin: 0;
+  font-size: 0.85rem;
+  color: #64748b;
+}
+
+.book-inspired-movies-modal__status {
+  margin: 0;
+  font-size: 0.9rem;
+  color: #64748b;
+}
+
+.book-inspired-movies-modal__status--ok {
+  color: #059669;
+}
+
+.book-inspired-movies-modal__status--error {
+  color: #dc2626;
+}
+
+.book-inspired-movies-modal__actions {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 8px;
+  margin-top: 6px;
+}
+
+.book-inspired-movies-modal__footer {
+  padding: 12px 20px 20px;
+  border-top: 1px solid #ecf0f1;
+}

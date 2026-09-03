@@ -1,0 +1,106 @@
+<div class="book-inspired-movies-modal">
+  <div class="book-inspired-movies-modal__header">
+    <h2 class="book-inspired-movies-modal__title">{{ modalTitle() }}</h2>
+    <button
+      type="button"
+      class="book-inspired-movies-modal__close"
+      aria-label="Fermer"
+      (click)="close()"
+    >
+      ✕
+    </button>
+  </div>
+
+  <div class="book-inspired-movies-modal__body">
+    <p class="book-inspired-movies-modal__source">
+      {{ data.bookTitle }}
+      @if (data.bookAuthor) {
+      <span> — {{ data.bookAuthor }}</span>
+      }
+    </p>
+
+    @if (loading()) {
+    <p class="book-inspired-movies-modal__status">Chargement…</p>
+    } @else if (rows().length === 0) {
+    <p class="book-inspired-movies-modal__status">
+      Aucun film du catalogue n’est lié à ce livre.
+    </p>
+    } @else {
+    <ul class="book-inspired-movies-modal__list" role="list">
+      @for (row of rows(); track movieKey(row.movie)) {
+      <li class="book-inspired-movies-modal__item" role="listitem">
+        <div class="book-inspired-movies-modal__movie">
+          <img
+            class="book-inspired-movies-modal__cover"
+            [src]="row.movie.coverUrl || '/movies_pictures/poster.jpg'"
+            [alt]="row.movie.title"
+            referrerpolicy="no-referrer"
+          />
+          <div class="book-inspired-movies-modal__meta">
+            <h3 class="book-inspired-movies-modal__movie-title">
+              {{ row.movie.title }}
+            </h3>
+            @if (row.movie.director) {
+            <p class="book-inspired-movies-modal__director">
+              {{ row.movie.director }}
+            </p>
+            } @if (row.movie.releaseDate) {
+            <p class="book-inspired-movies-modal__detail">
+              {{ row.movie.releaseDate | date : "yyyy" }}
+            </p>
+            } @if (row.movie.length) {
+            <p class="book-inspired-movies-modal__detail">
+              {{ row.movie.length }} min
+            </p>
+            } @if (row.status === "watchlist") {
+            <p
+              class="book-inspired-movies-modal__status book-inspired-movies-modal__status--ok"
+            >
+              Déjà dans votre watchlist.
+            </p>
+            } @if (row.status === "watched") {
+            <p
+              class="book-inspired-movies-modal__status book-inspired-movies-modal__status--ok"
+            >
+              Déjà dans vos films vus.
+            </p>
+            } @if (row.status === "none" && data.userId) {
+            <div class="book-inspired-movies-modal__actions">
+              <button
+                type="button"
+                class="makya-btn-small"
+                [disabled]="savingKey() !== ''"
+                (click)="addToWatchlist(row)"
+              >
+                Ajouter à ma watchlist
+              </button>
+              <button
+                type="button"
+                class="makya-btn-small"
+                [disabled]="savingKey() !== ''"
+                (click)="addAsWatched(row)"
+              >
+                Tiens, j'ai déjà vu ce film !
+              </button>
+            </div>
+            }
+          </div>
+        </div>
+      </li>
+      }
+    </ul>
+    } @if (errorMessage()) {
+    <p
+      class="book-inspired-movies-modal__status book-inspired-movies-modal__status--error"
+    >
+      {{ errorMessage() }}
+    </p>
+    }
+  </div>
+
+  <div class="book-inspired-movies-modal__footer">
+    <button type="button" class="makya-btn-small" (click)="close()">
+      Fermer
+    </button>
+  </div>
+</div>
