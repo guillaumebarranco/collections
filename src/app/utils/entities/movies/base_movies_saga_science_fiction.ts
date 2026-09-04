@@ -3349,7 +3349,11 @@ export const baseMoviesSagaScienceFiction: BaseMovie[] = [
     genre: ['Science Fiction', 'Aventure'],
     saga: '',
     description: '',
-    fromEntity: null,
+    fromEntity: {
+      entityType: 'book',
+      title: "La Planète des singes",
+      secondEntityKey: "Pierre Boulle",
+    },
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 20,
     oscars: [],

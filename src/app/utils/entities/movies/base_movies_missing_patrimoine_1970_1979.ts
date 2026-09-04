@@ -645,7 +645,11 @@ export const baseMoviesMissingPatrimoine19701979: BaseMovie[] = [
     saga: '',
     description:
       "Un privé de Pennsylvanie enquête à New York auprès d'une call-girl, Bree, visée par un tueur.",
-    fromEntity: null,
+    fromEntity: {
+      entityType: 'book',
+      title: 'Klute',
+      secondEntityKey: 'Dorothy Uhnak',
+    },
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
     oscars: [{ type: OscarEnum.OSCAR_BEST_ACTRESS, year: 1972 }],
@@ -2205,7 +2209,11 @@ export const baseMoviesMissingPatrimoine19701979: BaseMovie[] = [
     saga: '',
     description:
       'Un capitaine aveugle et cynique emmène un jeune recrue à Naples et Rome, avant un rendez-vous fatal.',
-    fromEntity: null,
+    fromEntity: {
+      entityType: 'book',
+      title: 'Parfum de femme',
+      secondEntityKey: 'Giovanni Arpino',
+    },
     countryOrigin: ['Italie'],
     selectDisplayOrder: 0,
     oscars: [],
@@ -3468,7 +3476,11 @@ export const baseMoviesMissingPatrimoine19701979: BaseMovie[] = [
     saga: '',
     description:
       "Un couple de Saint-Tropez doit se faire passer pour bourgeois face aux beaux-parents d'extrême droite.",
-    fromEntity: null,
+    fromEntity: {
+      entityType: 'book',
+      title: 'La Cage aux folles',
+      secondEntityKey: 'Jean Poiret',
+    },
     countryOrigin: ['France', 'Italie'],
     selectDisplayOrder: 0,
     oscars: [],

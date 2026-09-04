@@ -962,7 +962,11 @@ export const baseMoviesMissingAnnees19801984: BaseMovie[] = [
     saga: '',
     description:
       "Un couple octogénaire passe l'été au lac ; la fille ramène un petit-fils et de vieux comptes.",
-    fromEntity: null,
+    fromEntity: {
+      entityType: 'book',
+      title: "On Golden Pond",
+      secondEntityKey: "Ernest Thompson",
+    },
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
     oscars: [

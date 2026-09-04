@@ -633,7 +633,11 @@ export const baseMoviesSagaAutres: BaseMovie[] = [
     genre: ['Policier'],
     saga: 'Le Parrain',
     description: '',
-    fromEntity: null,
+    fromEntity: {
+      entityType: 'book',
+      title: 'Le Parrain',
+      secondEntityKey: 'Mario Puzo',
+    },
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 30,
     oscars: [
@@ -674,7 +678,11 @@ export const baseMoviesSagaAutres: BaseMovie[] = [
     genre: ['Policier'],
     saga: 'Le Parrain',
     description: '',
-    fromEntity: null,
+    fromEntity: {
+      entityType: 'book',
+      title: 'Le Parrain',
+      secondEntityKey: 'Mario Puzo',
+    },
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 30,
     oscars: [
@@ -749,7 +757,11 @@ export const baseMoviesSagaAutres: BaseMovie[] = [
     genre: ['Policier'],
     saga: 'Enola Holmes',
     description: '',
-    fromEntity: null,
+    fromEntity: {
+      entityType: 'book',
+      title: "Enola Holmes : La Double disparition",
+      secondEntityKey: "Nancy Springer",
+    },
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 20,
     oscars: [],

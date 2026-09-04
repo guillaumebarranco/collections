@@ -526,7 +526,11 @@ export const baseMoviesMissingAnnees20102014: BaseMovie[] = [
     saga: '',
     description:
       'Un couple trop brisé par un fils trop mort, groupe trop de deuil, Kidman trop contenue.',
-    fromEntity: null,
+    fromEntity: {
+      entityType: 'book',
+      title: "Rabbit Hole",
+      secondEntityKey: "David Lindsay-Abaire",
+    },
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
     oscars: [],
@@ -548,7 +552,11 @@ export const baseMoviesMissingAnnees20102014: BaseMovie[] = [
     saga: '',
     description:
       'Trois agents trop Mossad, un nazi trop échappé, un mensonge trop long, Mirren trop dure.',
-    fromEntity: null,
+    fromEntity: {
+      entityType: 'book',
+      title: "Rabbit Hole",
+      secondEntityKey: "David Lindsay-Abaire",
+    },
     countryOrigin: ['États-Unis', 'Royaume-Uni'],
     selectDisplayOrder: 0,
     oscars: [],
@@ -662,7 +670,11 @@ export const baseMoviesMissingAnnees20102014: BaseMovie[] = [
     saga: '',
     description:
       "Deux couples trop bien élevés s'étripent pour une bagarre d'enfants, Polanski trop huis clos.",
-    fromEntity: null,
+    fromEntity: {
+      entityType: 'book',
+      title: "Le Dieu du carnage",
+      secondEntityKey: "Yasmina Reza",
+    },
     countryOrigin: ['France', 'Allemagne', 'Pologne', 'Espagne'],
     selectDisplayOrder: 0,
     oscars: [],

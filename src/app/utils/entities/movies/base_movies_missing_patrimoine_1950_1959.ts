@@ -48,7 +48,11 @@ export const baseMoviesMissingPatrimoine19501959: BaseMovie[] = [
     saga: '',
     description:
       "Une ingénie dévouée s'insinue dans la vie d'une star de Broadway, jusqu'à lui voler le rôle et l'homme.",
-    fromEntity: null,
+    fromEntity: {
+      entityType: 'book',
+      title: "The Wisdom of Eve",
+      secondEntityKey: "Mary Orr",
+    },
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
     oscars: [
@@ -77,7 +81,11 @@ export const baseMoviesMissingPatrimoine19501959: BaseMovie[] = [
     saga: '',
     description:
       "À Vienne, une ronde d'amants se passe le relais, commentée par un meneur de jeu au manège.",
-    fromEntity: null,
+    fromEntity: {
+      entityType: 'book',
+      title: "La Ronde",
+      secondEntityKey: "Arthur Schnitzler",
+    },
     countryOrigin: ['France'],
     selectDisplayOrder: 0,
     oscars: [],
@@ -99,7 +107,11 @@ export const baseMoviesMissingPatrimoine19501959: BaseMovie[] = [
     saga: '',
     description:
       "Un scénariste soupçonné du meurtre d'une jeune fille se terre, entre amnésie, colère et Hollywood.",
-    fromEntity: null,
+    fromEntity: {
+      entityType: 'book',
+      title: "In a Lonely Place",
+      secondEntityKey: "Dorothy B. Hughes",
+    },
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
     oscars: [],
@@ -169,7 +181,11 @@ export const baseMoviesMissingPatrimoine19501959: BaseMovie[] = [
     saga: '',
     description:
       'Un viol et un meurtre en forêt sont racontés quatre fois, chacune contredisant les autres, sous la porte Rashômon.',
-    fromEntity: null,
+    fromEntity: {
+      entityType: 'book',
+      title: "Rashômon",
+      secondEntityKey: "Ryunosuke Akutagawa",
+    },
     countryOrigin: ['Japon'],
     selectDisplayOrder: 0,
     oscars: [],
@@ -191,7 +207,11 @@ export const baseMoviesMissingPatrimoine19501959: BaseMovie[] = [
     saga: 'La Cavalerie',
     description:
       'Un colonel à la frontière mexicaine retrouve sa femme et son fils enrôlé, entre Apache et honneur.',
-    fromEntity: null,
+    fromEntity: {
+      entityType: 'book',
+      title: "Rashômon",
+      secondEntityKey: "Ryunosuke Akutagawa",
+    },
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
     oscars: [],
@@ -482,7 +502,11 @@ export const baseMoviesMissingPatrimoine19501959: BaseMovie[] = [
     saga: '',
     description:
       "Blanche DuBois se réfugie chez sa sœur Stella à La Nouvelle-Orléans et s'entrechoque avec Stanley Kowalski.",
-    fromEntity: null,
+    fromEntity: {
+      entityType: 'book',
+      title: "Un tramway nommé Désir",
+      secondEntityKey: "Tennessee Williams",
+    },
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
     oscars: [
@@ -608,7 +632,11 @@ export const baseMoviesMissingPatrimoine19501959: BaseMovie[] = [
     saga: '',
     description:
       "Une fillette orpheline de l'exode et un petit paysan enterrent les morts dans un cimetière d'animaux.",
-    fromEntity: null,
+    fromEntity: {
+      entityType: 'book',
+      title: "Jeux interdits",
+      secondEntityKey: "François Boyer",
+    },
     countryOrigin: ['France'],
     selectDisplayOrder: 0,
     oscars: [],
@@ -630,7 +658,11 @@ export const baseMoviesMissingPatrimoine19501959: BaseMovie[] = [
     saga: '',
     description:
       'Un boxeur américain rentre au village irlandais de ses parents et courtise une rousse indomptable.',
-    fromEntity: null,
+    fromEntity: {
+      entityType: 'book',
+      title: "Jeux interdits",
+      secondEntityKey: "François Boyer",
+    },
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
     oscars: [
@@ -1265,7 +1297,11 @@ export const baseMoviesMissingPatrimoine19501959: BaseMovie[] = [
     saga: '',
     description:
       "Carmen, ouvrière d'une usine de parachutes, séduit un GI et le mène à sa perte, sur la musique de Bizet.",
-    fromEntity: null,
+    fromEntity: {
+      entityType: 'book',
+      title: "Carmen",
+      secondEntityKey: "Prosper Mérimée",
+    },
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
     oscars: [],

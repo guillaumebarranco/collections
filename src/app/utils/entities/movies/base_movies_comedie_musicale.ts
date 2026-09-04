@@ -239,7 +239,11 @@ export const baseMoviesComedieMusicale: BaseMovie[] = [
     genre: ['Comédie musicale', 'Fantastique'],
     saga: '',
     description: '',
-    fromEntity: null,
+    fromEntity: {
+      entityType: 'book',
+      title: "Wicked",
+      secondEntityKey: "Gregory Maguire",
+    },
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 30,
     oscars: [
@@ -1014,7 +1018,11 @@ export const baseMoviesComedieMusicale: BaseMovie[] = [
     genre: ['Fantastique', 'Comédie musicale'],
     saga: 'Disney Classique',
     description: '',
-    fromEntity: null,
+    fromEntity: {
+      entityType: 'book',
+      title: "Mary Poppins",
+      secondEntityKey: "P. L. Travers",
+    },
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 5,
     oscars: [
@@ -1095,7 +1103,11 @@ export const baseMoviesComedieMusicale: BaseMovie[] = [
     genre: ['Fantastique', 'Comédie musicale'],
     saga: '',
     description: '',
-    fromEntity: null,
+    fromEntity: {
+      entityType: 'book',
+      title: "Le Magicien d'Oz",
+      secondEntityKey: "L. Frank Baum",
+    },
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 5,
     oscars: [

@@ -186,7 +186,11 @@ export const baseMoviesMissingAnnees20202024: BaseMovie[] = [
     saga: '',
     description:
       'Ma Rainey trop 1927 trop trop trop Chicago trop trop trop studio trop trop trop trompette, Wolfe trop Davis trop Boseman trop trop trop dernier trop trop trop blues.',
-    fromEntity: null,
+    fromEntity: {
+      entityType: 'book',
+      title: "Ma Rainey's Black Bottom",
+      secondEntityKey: "August Wilson",
+    },
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
     oscars: [
@@ -233,7 +237,11 @@ export const baseMoviesMissingAnnees20202024: BaseMovie[] = [
     saga: '',
     description:
       'Ali trop trop trop Malcolm trop trop trop Sam Cooke trop trop trop Jim Brown trop trop trop motel, King trop 1964 trop trop trop nuit trop trop trop paroles.',
-    fromEntity: null,
+    fromEntity: {
+      entityType: 'book',
+      title: "One Night in Miami",
+      secondEntityKey: "Kemp Powers",
+    },
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
     oscars: [],
@@ -418,7 +426,11 @@ export const baseMoviesMissingAnnees20202024: BaseMovie[] = [
     saga: '',
     description:
       'Cyrano trop trop trop Dinklage trop trop trop nez trop trop trop chansons trop trop trop Roxanne, Wright trop musical trop trop trop trop trop amour trop trop trop lettres trop trop trop guerre.',
-    fromEntity: null,
+    fromEntity: {
+      entityType: 'book',
+      title: "Cyrano de Bergerac",
+      secondEntityKey: "Edmond Rostand",
+    },
     countryOrigin: ['États-Unis', 'Royaume-Uni'],
     selectDisplayOrder: 0,
     oscars: [],
@@ -828,7 +840,11 @@ export const baseMoviesMissingAnnees20202024: BaseMovie[] = [
     saga: '',
     description:
       'Un fonctionnaire trop trop trop 1953 trop trop trop cancer trop trop trop trop trop parc trop trop trop, Hermanus trop Ikiru trop trop trop trop trop Nighy trop trop trop trop trop chapeau trop trop trop Londres.',
-    fromEntity: null,
+    fromEntity: {
+      entityType: 'book',
+      title: "La Mort d’Ivan Ilitch",
+      secondEntityKey: "Léon Tolstoï",
+    },
     countryOrigin: ['Royaume-Uni', 'Japon', 'Suède'],
     selectDisplayOrder: 0,
     oscars: [],

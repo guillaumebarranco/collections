@@ -541,7 +541,11 @@ export const baseMoviesMissingAnnees19851989: BaseMovie[] = [
     saga: '',
     description:
       'Un seigneur divise son domaine entre trois fils ; le chaos, les couleurs et le feu répondent.',
-    fromEntity: null,
+    fromEntity: {
+      entityType: 'book',
+      title: "Le Roi Lear",
+      secondEntityKey: "William Shakespeare",
+    },
     countryOrigin: ['Japon', 'France'],
     selectDisplayOrder: 0,
     oscars: [{ type: OscarEnum.OSCAR_BEST_COSTUME_DESIGN, year: 1986 }],
@@ -1237,7 +1241,11 @@ export const baseMoviesMissingAnnees19851989: BaseMovie[] = [
     saga: '',
     description:
       "Un prof pour sourds tombe amoureux d'une femme qui refuse de parler, signes et colère.",
-    fromEntity: null,
+    fromEntity: {
+      entityType: 'book',
+      title: "Children of a Lesser God",
+      secondEntityKey: "Mark Medoff",
+    },
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
     oscars: [{ type: OscarEnum.OSCAR_BEST_ACTRESS, year: 1987 }],

@@ -66,7 +66,11 @@ export const baseMoviesMissingPatrimoine19201939: BaseMovie[] = [
     saga: 'Docteur Mabuse',
     description:
       "Un maître du crime et de l'hypnose sème le chaos dans le Berlin de l'après-guerre, poursuivi par le procureur von Wenk.",
-    fromEntity: null,
+    fromEntity: {
+      entityType: 'book',
+      title: "Docteur Mabuse",
+      secondEntityKey: "Norbert Jacques",
+    },
     countryOrigin: ['Allemagne'],
     selectDisplayOrder: 0,
     oscars: [],
@@ -577,7 +581,11 @@ export const baseMoviesMissingPatrimoine19201939: BaseMovie[] = [
     saga: '',
     description:
       "Dans une ville futuriste coupée en deux, le fils du maître découvre l'enfer des ouvriers et un robot à l'image de Maria.",
-    fromEntity: null,
+    fromEntity: {
+      entityType: 'book',
+      title: "Metropolis",
+      secondEntityKey: "Thea von Harbou",
+    },
     countryOrigin: ['Allemagne'],
     selectDisplayOrder: 0,
     oscars: [],
@@ -599,7 +607,11 @@ export const baseMoviesMissingPatrimoine19201939: BaseMovie[] = [
     saga: '',
     description:
       "De Brienne à la campagne d'Italie, l'ascension de Bonaparte filmée en polyvision et en montage lyrique.",
-    fromEntity: null,
+    fromEntity: {
+      entityType: 'book',
+      title: "Metropolis",
+      secondEntityKey: "Thea von Harbou",
+    },
     countryOrigin: ['France'],
     selectDisplayOrder: 0,
     oscars: [],
@@ -1131,7 +1143,11 @@ export const baseMoviesMissingPatrimoine19201939: BaseMovie[] = [
     saga: '',
     description:
       "Mackie Messer règne sur les bas-fonds de Londres, jusqu'à ce que Polly Peachum bouleverse l'équilibre du crime.",
-    fromEntity: null,
+    fromEntity: {
+      entityType: 'book',
+      title: "L'Opéra de quat'sous",
+      secondEntityKey: "Bertolt Brecht",
+    },
     countryOrigin: ['Allemagne'],
     selectDisplayOrder: 0,
     oscars: [],
@@ -1201,7 +1217,11 @@ export const baseMoviesMissingPatrimoine19201939: BaseMovie[] = [
     saga: 'Marius, Fanny, César',
     description:
       'Sur le Vieux-Port, Marius aime Fanny mais rêve de partir en mer ; César, son père, tient le bar.',
-    fromEntity: null,
+    fromEntity: {
+      entityType: 'book',
+      title: "Marius",
+      secondEntityKey: "Marcel Pagnol",
+    },
     countryOrigin: ['France'],
     selectDisplayOrder: 0,
     oscars: [],
@@ -1223,7 +1243,11 @@ export const baseMoviesMissingPatrimoine19201939: BaseMovie[] = [
     saga: '',
     description:
       'À Bora-Bora, deux amants fuient un interdit sacré qui condamne la jeune femme à devenir vestale.',
-    fromEntity: null,
+    fromEntity: {
+      entityType: 'book',
+      title: "Marius",
+      secondEntityKey: "Marcel Pagnol",
+    },
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
     oscars: [],

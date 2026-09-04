@@ -22,7 +22,11 @@ export const baseMoviesMissingPatrimoine19401949: BaseMovie[] = [
     saga: '',
     description:
       'À la veille de se remarier, une mondaine voit revenir son ex-mari et un journaliste trop curieux.',
-    fromEntity: null,
+    fromEntity: {
+      entityType: 'book',
+      title: "The Philadelphia Story",
+      secondEntityKey: "Philip Barry",
+    },
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
     oscars: [
@@ -47,7 +51,11 @@ export const baseMoviesMissingPatrimoine19401949: BaseMovie[] = [
     saga: '',
     description:
       'Un rédacteur en chef retient sa star reporter, prête à se marier, avec un scoop et un condamné à mort.',
-    fromEntity: null,
+    fromEntity: {
+      entityType: 'book',
+      title: "The Front Page",
+      secondEntityKey: "Ben Hecht et Charles MacArthur",
+    },
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
     oscars: [],
@@ -373,7 +381,11 @@ export const baseMoviesMissingPatrimoine19401949: BaseMovie[] = [
     saga: '',
     description:
       "Une famille anglaise traverse le Blitz, de la régate du village à l'abri antiaérien.",
-    fromEntity: null,
+    fromEntity: {
+      entityType: 'book',
+      title: 'Madame Miniver',
+      secondEntityKey: 'Jan Struther',
+    },
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
     oscars: [
@@ -564,7 +576,11 @@ export const baseMoviesMissingPatrimoine19401949: BaseMovie[] = [
     saga: '',
     description:
       'Un critique de théâtre découvre que ses tantes empoisonnent les vieux messieurs et les enterrent à la cave.',
-    fromEntity: null,
+    fromEntity: {
+      entityType: 'book',
+      title: 'Arsenic et vieilles dentelles',
+      secondEntityKey: 'Joseph Kesselring',
+    },
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
     oscars: [],
@@ -641,7 +657,11 @@ export const baseMoviesMissingPatrimoine19401949: BaseMovie[] = [
     saga: '',
     description:
       'À Londres, un mari tente de faire passer sa femme pour folle en faisant disparaître des bijoux et le gaz.',
-    fromEntity: null,
+    fromEntity: {
+      entityType: 'book',
+      title: 'Gaslight',
+      secondEntityKey: 'Patrick Hamilton',
+    },
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
     oscars: [
@@ -688,7 +708,11 @@ export const baseMoviesMissingPatrimoine19401949: BaseMovie[] = [
     saga: '',
     description:
       "Un détective enquête sur le meurtre d'une mondaine dont le portrait le fascine — jusqu'à ce qu'elle réapparaisse.",
-    fromEntity: null,
+    fromEntity: {
+      entityType: 'book',
+      title: 'Laura',
+      secondEntityKey: 'Vera Caspary',
+    },
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
     oscars: [{ type: OscarEnum.OSCAR_BEST_CINEMATOGRAPHY, year: 1945 }],
@@ -806,7 +830,11 @@ export const baseMoviesMissingPatrimoine19401949: BaseMovie[] = [
     saga: '',
     description:
       "Deux inconnus se parlent dans une gare de banlieue et vivent un amour d'après-midi, voué à s'éteindre.",
-    fromEntity: null,
+    fromEntity: {
+      entityType: 'book',
+      title: 'Brève Rencontre',
+      secondEntityKey: 'Noel Coward',
+    },
     countryOrigin: ['Royaume-Uni'],
     selectDisplayOrder: 0,
     oscars: [],
@@ -908,7 +936,11 @@ export const baseMoviesMissingPatrimoine19401949: BaseMovie[] = [
     saga: '',
     description:
       "Une femme délaissée pousse son ancien amant dans les bras d'une jeune femme qu'elle sait perdue.",
-    fromEntity: null,
+    fromEntity: {
+      entityType: 'book',
+      title: 'Les Dames du bois de Boulogne',
+      secondEntityKey: 'Honoré de Balzac',
+    },
     countryOrigin: ['France'],
     selectDisplayOrder: 0,
     oscars: [],
@@ -1025,7 +1057,11 @@ export const baseMoviesMissingPatrimoine19401949: BaseMovie[] = [
     saga: '',
     description:
       "Belle accepte de vivre au château d'une Bête pour sauver son père, entre brasero et miroir magique.",
-    fromEntity: null,
+    fromEntity: {
+      entityType: 'book',
+      title: 'La Belle et la Bête',
+      secondEntityKey: 'Gabrielle-Suzanne de Villeneuve',
+    },
     countryOrigin: ['France'],
     selectDisplayOrder: 0,
     oscars: [],
@@ -1117,7 +1153,11 @@ export const baseMoviesMissingPatrimoine19401949: BaseMovie[] = [
     saga: '',
     description:
       'Trois vétérans rentrent à Boone City et tentent de reprendre une vie civile qui a changé sans eux.',
-    fromEntity: null,
+    fromEntity: {
+      entityType: 'book',
+      title: 'Les Plus Belles Années de notre vie',
+      secondEntityKey: 'MacKinlay Kantor',
+    },
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
     oscars: [
@@ -1420,7 +1460,11 @@ export const baseMoviesMissingPatrimoine19401949: BaseMovie[] = [
     saga: '',
     description:
       "Un vétéran est retenu dans un hôtel des Keys par un gangster, pendant qu'un ouragan s'approche.",
-    fromEntity: null,
+    fromEntity: {
+      entityType: 'book',
+      title: 'Key Largo',
+      secondEntityKey: 'John Patrick',
+    },
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
     oscars: [{ type: OscarEnum.OSCAR_BEST_SUPPORTING_ACTRESS, year: 1949 }],
@@ -1464,7 +1508,11 @@ export const baseMoviesMissingPatrimoine19401949: BaseMovie[] = [
     saga: '',
     description:
       'Un éleveur tyrannique mène un troupeau vers le Missouri ; son fils adoptif se révolte en chemin.',
-    fromEntity: null,
+    fromEntity: {
+      entityType: 'book',
+      title: 'La Rivière rouge',
+      secondEntityKey: 'Borden Chase',
+    },
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
     oscars: [],
@@ -1612,7 +1660,11 @@ export const baseMoviesMissingPatrimoine19401949: BaseMovie[] = [
     saga: '',
     description:
       "Une danseuse doit choisir entre l'amour et l'art, sous l'emprise d'un impresario diabolique.",
-    fromEntity: null,
+    fromEntity: {
+      entityType: 'book',
+      title: 'Les Chaussons rouges',
+      secondEntityKey: 'Hans Christian Andersen',
+    },
     countryOrigin: ['Royaume-Uni'],
     selectDisplayOrder: 0,
     oscars: [
@@ -1910,7 +1962,11 @@ export const baseMoviesMissingPatrimoine19401949: BaseMovie[] = [
     saga: '',
     description:
       "Une fille dévouée refuse de se marier pour rester avec son père veuf, jusqu'à ce qu'il feigne de se remarier.",
-    fromEntity: null,
+    fromEntity: {
+      entityType: 'book',
+      title: 'Printemps tardif',
+      secondEntityKey: 'Kōgo Noda',
+    },
     countryOrigin: ['Japon'],
     selectDisplayOrder: 0,
     oscars: [],

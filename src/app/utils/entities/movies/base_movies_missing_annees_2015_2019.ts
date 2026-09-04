@@ -271,7 +271,11 @@ export const baseMoviesMissingAnnees20152019: BaseMovie[] = [
     saga: '',
     description:
       'Un voleur trop 2015 trop lampes trop Bagdad trop Kev, Benzaquen trop pantomime trop tapis trop box-office.',
-    fromEntity: null,
+    fromEntity: {
+      entityType: 'book',
+      title: "Aladin ou la Lampe merveilleuse",
+      secondEntityKey: "Les Mille et Une Nuits",
+    },
     countryOrigin: ['France'],
     selectDisplayOrder: 0,
     oscars: [],
@@ -471,8 +475,8 @@ export const baseMoviesMissingAnnees20152019: BaseMovie[] = [
       'Bridget trop 40 trop enceinte trop deux pères trop possibles, Maguire trop Darcy trop journal trop couches.',
     fromEntity: {
       entityType: 'book',
-      title: "Bridget Jones's Baby",
-      secondEntityKey: 'Helen Fielding',
+      title: "Bridget Jones’s Baby",
+      secondEntityKey: "Helen Fielding",
     },
     countryOrigin: ['Royaume-Uni', 'États-Unis', 'France'],
     selectDisplayOrder: 0,
@@ -610,7 +614,11 @@ export const baseMoviesMissingAnnees20152019: BaseMovie[] = [
     saga: '',
     description:
       'Un éboueur trop Pittsburgh trop 50 trop fils trop rancœur trop clôture, Denzel trop Wilson trop Viola trop Oscar.',
-    fromEntity: null,
+    fromEntity: {
+      entityType: 'book',
+      title: "Fences",
+      secondEntityKey: "August Wilson",
+    },
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
     oscars: [{ type: OscarEnum.OSCAR_BEST_SUPPORTING_ACTRESS, year: 2017 }],
@@ -632,7 +640,11 @@ export const baseMoviesMissingAnnees20152019: BaseMovie[] = [
     saga: '',
     description:
       'Une Allemande trop 1919 trop tombe trop un Français trop qui ment trop n&b, Ozon trop Lubitsch trop deuil trop mensonge.',
-    fromEntity: null,
+    fromEntity: {
+      entityType: 'book',
+      title: "Fences",
+      secondEntityKey: "August Wilson",
+    },
     countryOrigin: ['France', 'Allemagne'],
     selectDisplayOrder: 0,
     oscars: [],
@@ -769,7 +781,11 @@ export const baseMoviesMissingAnnees20152019: BaseMovie[] = [
     saga: '',
     description:
       'Un couple trop Téhéran trop appartement trop agression trop Miller, Farhadi trop Oscar trop non-dits trop scène.',
-    fromEntity: null,
+    fromEntity: {
+      entityType: 'book',
+      title: "Mort d’un commis voyageur",
+      secondEntityKey: "Arthur Miller",
+    },
     countryOrigin: ['Iran', 'France'],
     selectDisplayOrder: 0,
     oscars: [{ type: OscarEnum.OSCAR_BEST_INTERNATIONAL_FEATURE, year: 2017 }],

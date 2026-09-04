@@ -34,7 +34,11 @@ export const baseMoviesWestern: BaseMovie[] = [
     genre: ['Western'],
     saga: '',
     description: '',
-    fromEntity: null,
+    fromEntity: {
+      entityType: 'book',
+      title: "True Grit",
+      secondEntityKey: "Charles Portis",
+    },
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
     oscars: [],
@@ -108,7 +112,11 @@ export const baseMoviesWestern: BaseMovie[] = [
     genre: ['Western'],
     saga: '',
     description: '',
-    fromEntity: null,
+    fromEntity: {
+      entityType: 'book',
+      title: "Three-Ten to Yuma",
+      secondEntityKey: "Elmore Leonard",
+    },
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
     oscars: [],
@@ -261,7 +269,11 @@ export const baseMoviesWestern: BaseMovie[] = [
     genre: ['Western'],
     saga: '',
     description: '',
-    fromEntity: null,
+    fromEntity: {
+      entityType: 'book',
+      title: "Danse avec les loups",
+      secondEntityKey: "Michael Blake",
+    },
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
     oscars: [

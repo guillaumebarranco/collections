@@ -884,7 +884,11 @@ export const baseMoviesMissingPatrimoine19601969: BaseMovie[] = [
     saga: '',
     description:
       "Un sénateur revient ensevelir un ami : qui a vraiment tué Liberty Valance, la légende ou l'homme ?",
-    fromEntity: null,
+    fromEntity: {
+      entityType: 'book',
+      title: "The Man Who Shot Liberty Valance",
+      secondEntityKey: "Dorothy M. Johnson",
+    },
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
     oscars: [],
@@ -2903,7 +2907,11 @@ export const baseMoviesMissingPatrimoine19601969: BaseMovie[] = [
     saga: '',
     description:
       'George et Martha invitent un jeune couple ; la nuit devient un jeu de massacre conjugal.',
-    fromEntity: null,
+    fromEntity: {
+      entityType: 'book',
+      title: 'Qui a peur de Virginia Woolf ?',
+      secondEntityKey: 'Edward Albee',
+    },
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
     oscars: [
@@ -3142,7 +3150,11 @@ export const baseMoviesMissingPatrimoine19601969: BaseMovie[] = [
     saga: 'Six contes moraux',
     description:
       "Deux amis en vacances dans le Var se jurent d'ignorer Haydée, qui collectionne les hommes.",
-    fromEntity: null,
+    fromEntity: {
+      entityType: 'book',
+      title: 'The Collector',
+      secondEntityKey: 'John Fowles',
+    },
     countryOrigin: ['France'],
     selectDisplayOrder: 0,
     oscars: [],
@@ -3256,7 +3268,11 @@ export const baseMoviesMissingPatrimoine19601969: BaseMovie[] = [
     saga: '',
     description:
       "Sous l'Occupation, un enfant juif est caché chez un vieux paysan antisémite qui s'attache à lui.",
-    fromEntity: null,
+    fromEntity: {
+      entityType: 'book',
+      title: 'Le Vieil Homme et la Mer',
+      secondEntityKey: 'Ernest Hemingway',
+    },
     countryOrigin: ['France'],
     selectDisplayOrder: 0,
     oscars: [],
@@ -3430,7 +3446,11 @@ export const baseMoviesMissingPatrimoine19601969: BaseMovie[] = [
     saga: '',
     description:
       'Kowalski parie de relier Denver à San Francisco en quinze heures, Dodge Challenger et désert.',
-    fromEntity: null,
+    fromEntity: {
+      entityType: 'book',
+      title: 'Fail-Safe',
+      secondEntityKey: 'Eugene Burdick et Harvey Wheeler',
+    },
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
     oscars: [],
@@ -3846,7 +3866,11 @@ export const baseMoviesMissingPatrimoine19601969: BaseMovie[] = [
     saga: '',
     description:
       "Noël 1183 : Henri II et Aliénor d'Aquitaine se déchirent pour l'héritage, trois fils en embuscade.",
-    fromEntity: null,
+    fromEntity: {
+      entityType: 'book',
+      title: 'The Lion in Winter',
+      secondEntityKey: 'James Goldman',
+    },
     countryOrigin: ['Royaume-Uni'],
     selectDisplayOrder: 0,
     oscars: [

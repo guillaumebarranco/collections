@@ -1028,7 +1028,11 @@ export const baseMoviesMissingAnnees19901994: BaseMovie[] = [
     genre: ['Romance', 'Comédie', 'Drame'],
     saga: '',
     description: 'Un cuistot sorti de taule courtise une serveuse trop blessée, diner new-yorkais et timidité.',
-    fromEntity: null,
+    fromEntity: {
+      entityType: 'book',
+      title: "Frankie and Johnny in the Clair de Lune",
+      secondEntityKey: "Terrence McNally",
+    },
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
     oscars: [],

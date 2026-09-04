@@ -598,8 +598,8 @@ export const baseMoviesMissingAnnees19951999: BaseMovie[] = [
     description: 'Les sœurs Dashwood, l\'une trop sage l\'autre trop vive, cherchent un mari après la ruine du père.',
     fromEntity: {
       entityType: 'book',
-      title: 'Raison et Sensibilité',
-      secondEntityKey: 'Jane Austen',
+      title: "Raison et Sentiments",
+      secondEntityKey: "Jane Austen",
     },
     countryOrigin: ['Royaume-Uni', 'États-Unis'],
     selectDisplayOrder: 0,
@@ -623,7 +623,11 @@ export const baseMoviesMissingAnnees19951999: BaseMovie[] = [
     genre: ['Aventure', 'Drame', 'Historique'],
     saga: '',
     description: 'Un chef de clan écossais est trahi par un aristocrate ; épée, honneur et Tim Roth trop cruel.',
-    fromEntity: null,
+    fromEntity: {
+      entityType: 'book',
+      title: "Rob Roy",
+      secondEntityKey: "Walter Scott",
+    },
     countryOrigin: ['États-Unis', 'Royaume-Uni'],
     selectDisplayOrder: 0,
     oscars: [],
