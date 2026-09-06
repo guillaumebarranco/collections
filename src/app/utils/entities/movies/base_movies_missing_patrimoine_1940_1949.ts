@@ -641,27 +641,33 @@ export const baseMoviesMissingPatrimoine19401949: BaseMovie[] = [
     ],
   },
   {
-    title: 'Hantise',
+    title: "Gaslight",
     director: 'George Cukor',
     actors: [
-      { name: 'Ingrid Bergman' },
-      { name: 'Charles Boyer' },
-      { name: 'Joseph Cotten' },
-      { name: 'May Whitty' },
-      { name: 'Angela Lansbury' },
+      {
+        name: "Ingrid Bergman",
+      },
+      {
+        name: "Charles Boyer",
+      },
+      {
+        name: "Joseph Cotten",
+      },
+      {
+        name: "May Whitty",
+      },
+      {
+        name: "Angela Lansbury",
+      }
     ],
-    coverUrl: '/movies_pictures/517e01ce70c9.jpg',
-    releaseDate: '1944-05-04',
+    coverUrl: "/movies_pictures/517e01ce70c9.jpg",
+    releaseDate: "1944-05-04",
     length: 114,
     genre: ['Thriller', 'Drame', 'Mystère'],
-    saga: '',
+    saga: "",
     description:
-      'À Londres, un mari tente de faire passer sa femme pour folle en faisant disparaître des bijoux et le gaz.',
-    fromEntity: {
-      entityType: 'book',
-      title: 'Gaslight',
-      secondEntityKey: 'Patrick Hamilton',
-    },
+      "À Londres, un mari tente de faire passer sa femme pour folle en faisant disparaître des bijoux et le gaz.",
+    fromEntity: { entityType: "book", title: "Gaslight", secondEntityKey: "Patrick Hamilton" },
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
     oscars: [

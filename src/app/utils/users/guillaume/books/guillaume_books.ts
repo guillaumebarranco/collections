@@ -1833,4 +1833,21 @@ export const guillaumeBooks: UserBooks = [
     wantToReadAgain: false,
     ratingComment: "",
   },
+
+  {
+    title: "King's Game",
+    author: "Nobuaki Kanazawa",
+    firstReadDate: "2026-09-04",
+    lastReadDate: "2026-09-04",
+    otherReadDates: [],
+    rating: 3.25,
+    reading: false,
+    readTimes: 1,
+    owned: false,
+    borrowed: "Marina",
+    loaned: "",
+    readPriority: 3,
+    wantToReadAgain: false,
+    ratingComment: "",
+  },
 ];

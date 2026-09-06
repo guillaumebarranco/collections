@@ -4148,8 +4148,7 @@ export const guillaumeWatchlistMovies: UserMovies = [
     borrowed: "",
     loaned: "",
     inList: ["Films d'écureuil"],
-  }
-,
+  },
   {
     title: "Une femme disparaît",
     director: "Alfred Hitchcock",
@@ -4163,26 +4162,8 @@ export const guillaumeWatchlistMovies: UserMovies = [
     wantToSeeAgain: false,
     watchPriority: 3,
     ratingComment: "",
+    borrowed: "",
+    loaned: "",
     inList: [],
-    borrowed: '',
-    loaned: '',
-  },
-
-  {
-    title: "Hantise",
-    director: "George Cukor",
-    rating: 0,
-    timesWatched: 0,
-    firstViewedDate: "",
-    lastViewedDate: "",
-    otherSeenDates: [],
-    seenAtCinema: false,
-    owned: false,
-    wantToSeeAgain: false,
-    watchPriority: 3,
-    ratingComment: "",
-    inList: [],
-    borrowed: '',
-    loaned: '',
-  },
+  }
 ];

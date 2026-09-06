@@ -22438,4 +22438,22 @@ export const ronanMovies: UserMovies = [
     borrowed: "",
     loaned: "",
   },
+
+  {
+    title: "The Dog Stars",
+    director: "Ridley Scott",
+    rating: 3,
+    timesWatched: 1,
+    firstViewedDate: "2026-09-01",
+    lastViewedDate: "2026-09-01",
+    otherSeenDates: [],
+    seenAtCinema: true,
+    owned: false,
+    wantToSeeAgain: false,
+    watchPriority: 1,
+    ratingComment: "",
+    inList: [],
+    borrowed: "",
+    loaned: "",
+  },
 ];
