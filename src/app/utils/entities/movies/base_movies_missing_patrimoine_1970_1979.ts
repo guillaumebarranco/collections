@@ -2790,7 +2790,7 @@ export const baseMoviesMissingPatrimoine19701979: BaseMovie[] = [
       { name: 'Peter Ustinov' },
     ],
     coverUrl:
-      'https://www.filmsfantastiques.com/wp-content/uploads/2021/03/Age-de-cristal-poster.jpg',
+      '/movies_pictures/903e0e4853fa.jpg',
     releaseDate: '1976-06-23',
     length: 118,
     genre: ['Science Fiction', 'Dystopie', 'Aventure'],
