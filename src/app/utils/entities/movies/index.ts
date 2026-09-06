@@ -43,3 +43,5 @@ export * from './base_movies_missing_annees_2020_2024';
 export * from './base_movies_missing_documentaire';
 export * from './base_movies_missing_horreur';
 export * from './base_movies_missing_western';
+export * from './base_movies_missing_directors_batch';
+export * from './base_movies_george_cukor';

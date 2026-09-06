@@ -71,11 +71,7 @@ export const baseMoviesRomance: BaseMovie[] = [
     genre: ['Romance'],
     saga: '',
     description: '',
-    fromEntity: {
-      entityType: 'book',
-      title: 'Nos cœurs meurtris',
-      secondEntityKey: 'Tess Wakefield',
-    },
+    fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 10,
     oscars: [],
@@ -361,8 +357,8 @@ export const baseMoviesRomance: BaseMovie[] = [
     description: '',
     fromEntity: {
       entityType: 'book',
-      title: "People We Meet on Vacation",
-      secondEntityKey: "Emily Henry",
+      title: 'People We Meet on Vacation',
+      secondEntityKey: 'Emily Henry',
     },
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 10,
@@ -426,8 +422,8 @@ export const baseMoviesRomance: BaseMovie[] = [
     description: '',
     fromEntity: {
       entityType: 'book',
-      title: "Tout le bleu du ciel",
-      secondEntityKey: "Mélissa Da Costa",
+      title: 'Tout le bleu du ciel',
+      secondEntityKey: 'Mélissa Da Costa',
     },
     countryOrigin: ['France'],
     selectDisplayOrder: 10,
@@ -467,8 +463,8 @@ export const baseMoviesRomance: BaseMovie[] = [
     description: '',
     fromEntity: {
       entityType: 'book',
-      title: "It Ends with Us",
-      secondEntityKey: "Colleen Hoover",
+      title: 'Nos cœurs meurtris',
+      secondEntityKey: 'Tess Wakefield',
     },
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 10,
@@ -601,8 +597,8 @@ export const baseMoviesRomance: BaseMovie[] = [
     description: '',
     fromEntity: {
       entityType: 'book',
-      title: "Hello Goodbye and Everything in Between",
-      secondEntityKey: "Jamie McGuire",
+      title: 'Hello Goodbye and Everything in Between',
+      secondEntityKey: 'Jamie McGuire',
     },
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 10,
@@ -798,8 +794,8 @@ export const baseMoviesRomance: BaseMovie[] = [
     description: '',
     fromEntity: {
       entityType: 'book',
-      title: "Un choix",
-      secondEntityKey: "Nicholas Sparks",
+      title: 'Un choix',
+      secondEntityKey: 'Nicholas Sparks',
     },
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 10,
@@ -1409,9 +1405,7 @@ export const baseMoviesRomance: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 10,
-    oscars: [
-      { type: OscarEnum.OSCAR_BEST_ORIGINAL_SCREENPLAY, year: 2008 },
-    ],
+    oscars: [{ type: OscarEnum.OSCAR_BEST_ORIGINAL_SCREENPLAY, year: 2008 }],
   },
   {
     title: 'Orgueil et Préjugés',
@@ -1560,11 +1554,7 @@ export const baseMoviesRomance: BaseMovie[] = [
     genre: ['Romance'],
     saga: '',
     description: '',
-    fromEntity: {
-      entityType: 'book',
-      title: "Dear John",
-      secondEntityKey: "Nicholas Sparks",
-    },
+    fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 10,
     oscars: [],
@@ -1598,9 +1588,7 @@ export const baseMoviesRomance: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 30,
-    oscars: [
-      { type: OscarEnum.OSCAR_BEST_ORIGINAL_SCREENPLAY, year: 2005 },
-    ],
+    oscars: [{ type: OscarEnum.OSCAR_BEST_ORIGINAL_SCREENPLAY, year: 2005 }],
   },
   {
     title: 'The Girl Next Door',
@@ -1759,9 +1747,7 @@ export const baseMoviesRomance: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 30,
-    oscars: [
-      { type: OscarEnum.OSCAR_BEST_SOUND_EDITING, year: 2002 },
-    ],
+    oscars: [{ type: OscarEnum.OSCAR_BEST_SOUND_EDITING, year: 2002 }],
   },
   {
     title: 'Ce que Veulent les Femmes',
@@ -2441,9 +2427,7 @@ export const baseMoviesRomance: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['Suède'],
     selectDisplayOrder: 10,
-    oscars: [
-      { type: OscarEnum.OSCAR_BEST_INTERNATIONAL_FEATURE, year: 2026 },
-    ],
+    oscars: [{ type: OscarEnum.OSCAR_BEST_INTERNATIONAL_FEATURE, year: 2026 }],
   },
   {
     title: 'Forever My Girl',
@@ -3233,9 +3217,7 @@ export const baseMoviesRomance: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 10,
-    oscars: [
-      { type: OscarEnum.OSCAR_BEST_ORIGINAL_SCREENPLAY, year: 2012 },
-    ],
+    oscars: [{ type: OscarEnum.OSCAR_BEST_ORIGINAL_SCREENPLAY, year: 2012 }],
   },
   {
     title: 'Meilleures ennemies',
@@ -3527,7 +3509,11 @@ export const baseMoviesRomance: BaseMovie[] = [
     genre: ['Comédie', 'Romance'],
     saga: 'Bridget Jones',
     description: '',
-    fromEntity: null,
+    fromEntity: {
+      entityType: 'book',
+      title: 'Le Journal de Bridget Jones',
+      secondEntityKey: 'Helen Fielding',
+    },
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 30,
     oscars: [],
@@ -4058,9 +4044,7 @@ export const baseMoviesRomance: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 30,
-    oscars: [
-      { type: OscarEnum.OSCAR_BEST_ORIGINAL_SONG, year: 1988 },
-    ],
+    oscars: [{ type: OscarEnum.OSCAR_BEST_ORIGINAL_SONG, year: 1988 }],
   },
   {
     title: 'The Lucky One',
@@ -4820,9 +4804,7 @@ export const baseMoviesRomance: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
-    oscars: [
-      { type: OscarEnum.OSCAR_BEST_SUPPORTING_ACTRESS, year: 2009 },
-    ],
+    oscars: [{ type: OscarEnum.OSCAR_BEST_SUPPORTING_ACTRESS, year: 2009 }],
   },
   {
     title: "Jeux d'enfants",
@@ -5118,9 +5100,7 @@ export const baseMoviesRomance: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 5,
-    oscars: [
-      { type: OscarEnum.OSCAR_BEST_SUPPORTING_ACTRESS, year: 1991 },
-    ],
+    oscars: [{ type: OscarEnum.OSCAR_BEST_SUPPORTING_ACTRESS, year: 1991 }],
   },
   {
     title: "L'Épreuve du feu",

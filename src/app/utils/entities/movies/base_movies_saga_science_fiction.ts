@@ -232,9 +232,7 @@ export const baseMoviesSagaScienceFiction: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 40,
-    oscars: [
-      { type: OscarEnum.OSCAR_BEST_VISUAL_EFFECTS, year: 1984 },
-    ],
+    oscars: [{ type: OscarEnum.OSCAR_BEST_VISUAL_EFFECTS, year: 1984 }],
   },
   {
     title: 'Star Wars : Episode 7 - Le réveil de la Force',
@@ -827,9 +825,7 @@ export const baseMoviesSagaScienceFiction: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 30,
-    oscars: [
-      { type: OscarEnum.OSCAR_BEST_VISUAL_EFFECTS, year: 1980 },
-    ],
+    oscars: [{ type: OscarEnum.OSCAR_BEST_VISUAL_EFFECTS, year: 1980 }],
   },
   {
     title: 'Aliens, le retour',
@@ -1331,9 +1327,7 @@ export const baseMoviesSagaScienceFiction: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 30,
-    oscars: [
-      { type: OscarEnum.OSCAR_BEST_MAKEUP, year: 1998 },
-    ],
+    oscars: [{ type: OscarEnum.OSCAR_BEST_MAKEUP, year: 1998 }],
   },
   {
     title: 'Men in Black II',
@@ -1481,9 +1475,7 @@ export const baseMoviesSagaScienceFiction: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 30,
-    oscars: [
-      { type: OscarEnum.OSCAR_BEST_VISUAL_EFFECTS, year: 1997 },
-    ],
+    oscars: [{ type: OscarEnum.OSCAR_BEST_VISUAL_EFFECTS, year: 1997 }],
   },
   {
     title: 'Independence Day 2',
@@ -1557,9 +1549,7 @@ export const baseMoviesSagaScienceFiction: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 30,
-    oscars: [
-      { type: OscarEnum.OSCAR_BEST_SOUND_EDITING, year: 1986 },
-    ],
+    oscars: [{ type: OscarEnum.OSCAR_BEST_SOUND_EDITING, year: 1986 }],
   },
   {
     title: 'Retour vers le futur 2',
@@ -1667,7 +1657,11 @@ export const baseMoviesSagaScienceFiction: BaseMovie[] = [
     genre: ['Action', 'Dystopie', 'Science Fiction'],
     saga: 'Le Labyrinthe',
     description: '',
-    fromEntity: null,
+    fromEntity: {
+      entityType: 'book',
+      title: 'Le Labyrinthe',
+      secondEntityKey: 'James Dashner',
+    },
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 30,
     oscars: [],
@@ -1731,7 +1725,11 @@ export const baseMoviesSagaScienceFiction: BaseMovie[] = [
     genre: ['Action', 'Dystopie', 'Science Fiction'],
     saga: 'Le Labyrinthe',
     description: '',
-    fromEntity: null,
+    fromEntity: {
+      entityType: 'book',
+      title: 'Le Labyrinthe',
+      secondEntityKey: 'James Dashner',
+    },
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 30,
     oscars: [],
@@ -2770,9 +2768,7 @@ export const baseMoviesSagaScienceFiction: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 20,
-    oscars: [
-      { type: OscarEnum.OSCAR_BEST_VISUAL_EFFECTS, year: 2023 },
-    ],
+    oscars: [{ type: OscarEnum.OSCAR_BEST_VISUAL_EFFECTS, year: 2023 }],
   },
   {
     title: 'Avatar : De feu et de cendres',
@@ -2803,9 +2799,7 @@ export const baseMoviesSagaScienceFiction: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 20,
-    oscars: [
-      { type: OscarEnum.OSCAR_BEST_VISUAL_EFFECTS, year: 2026 },
-    ],
+    oscars: [{ type: OscarEnum.OSCAR_BEST_VISUAL_EFFECTS, year: 2026 }],
   },
   {
     title: 'Jurassic Park',
@@ -3102,9 +3096,7 @@ export const baseMoviesSagaScienceFiction: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 20,
-    oscars: [
-      { type: OscarEnum.OSCAR_BEST_MAKEUP, year: 2010 },
-    ],
+    oscars: [{ type: OscarEnum.OSCAR_BEST_MAKEUP, year: 2010 }],
   },
   {
     title: 'Star Trek Into Darkness',
@@ -3351,8 +3343,8 @@ export const baseMoviesSagaScienceFiction: BaseMovie[] = [
     description: '',
     fromEntity: {
       entityType: 'book',
-      title: "La Planète des singes",
-      secondEntityKey: "Pierre Boulle",
+      title: 'La Planète des singes',
+      secondEntityKey: 'Pierre Boulle',
     },
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 20,

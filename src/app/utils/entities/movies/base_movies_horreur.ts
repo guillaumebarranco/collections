@@ -33,11 +33,7 @@ export const baseMoviesHorreur: BaseMovie[] = [
     genre: ['Horreur'],
     saga: '',
     description: '',
-    fromEntity: {
-      entityType: 'book',
-      title: 'Les oiseaux et autres nouvelles',
-      secondEntityKey: 'Daphné du Maurier',
-    },
+    fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 30,
     oscars: [],
@@ -118,7 +114,7 @@ export const baseMoviesHorreur: BaseMovie[] = [
     fromEntity: {
       entityType: 'book',
       title: "L'Exorciste",
-      secondEntityKey: "William Peter Blatty",
+      secondEntityKey: 'William Peter Blatty',
     },
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 30,
@@ -188,8 +184,8 @@ export const baseMoviesHorreur: BaseMovie[] = [
     description: '',
     fromEntity: {
       entityType: 'book',
-      title: "Les Oiseaux",
-      secondEntityKey: "Daphne du Maurier",
+      title: 'Les oiseaux et autres nouvelles',
+      secondEntityKey: 'Daphné du Maurier',
     },
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 30,
@@ -229,8 +225,8 @@ export const baseMoviesHorreur: BaseMovie[] = [
     description: '',
     fromEntity: {
       entityType: 'book',
-      title: "Psychose",
-      secondEntityKey: "Robert Bloch",
+      title: 'Psychose',
+      secondEntityKey: 'Robert Bloch',
     },
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 30,
@@ -270,8 +266,8 @@ export const baseMoviesHorreur: BaseMovie[] = [
     description: '',
     fromEntity: {
       entityType: 'book',
-      title: "Les Dents de la mer",
-      secondEntityKey: "Peter Benchley",
+      title: 'Les Dents de la mer',
+      secondEntityKey: 'Peter Benchley',
     },
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 30,
@@ -435,8 +431,8 @@ export const baseMoviesHorreur: BaseMovie[] = [
     description: '',
     fromEntity: {
       entityType: 'book',
-      title: "1408",
-      secondEntityKey: "Stephen King",
+      title: '1408',
+      secondEntityKey: 'Stephen King',
     },
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -555,8 +551,8 @@ export const baseMoviesHorreur: BaseMovie[] = [
     description: '',
     fromEntity: {
       entityType: 'book',
-      title: "Amityville Horror",
-      secondEntityKey: "Jay Anson",
+      title: 'Amityville Horror',
+      secondEntityKey: 'Jay Anson',
     },
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -803,8 +799,8 @@ export const baseMoviesHorreur: BaseMovie[] = [
     description: '',
     fromEntity: {
       entityType: 'book',
-      title: "Who Goes There?",
-      secondEntityKey: "John W. Campbell",
+      title: 'Who Goes There?',
+      secondEntityKey: 'John W. Campbell',
     },
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -830,8 +826,8 @@ export const baseMoviesHorreur: BaseMovie[] = [
     description: '',
     fromEntity: {
       entityType: 'book',
-      title: "Ritual",
-      secondEntityKey: "David Pinner",
+      title: 'Ritual',
+      secondEntityKey: 'David Pinner',
     },
     countryOrigin: ['Royaume-Uni'],
     selectDisplayOrder: 0,
@@ -1134,8 +1130,8 @@ export const baseMoviesHorreur: BaseMovie[] = [
     description: '',
     fromEntity: {
       entityType: 'book',
-      title: "Christine",
-      secondEntityKey: "Stephen King",
+      title: 'Christine',
+      secondEntityKey: 'Stephen King',
     },
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -1563,14 +1559,12 @@ export const baseMoviesHorreur: BaseMovie[] = [
     description: '',
     fromEntity: {
       entityType: 'book',
-      title: "The Legend of Sleepy Hollow",
-      secondEntityKey: "Washington Irving",
+      title: 'The Legend of Sleepy Hollow',
+      secondEntityKey: 'Washington Irving',
     },
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 5,
-    oscars: [
-      { type: OscarEnum.OSCAR_BEST_PRODUCTION_DESIGN, year: 2000 },
-    ],
+    oscars: [{ type: OscarEnum.OSCAR_BEST_PRODUCTION_DESIGN, year: 2000 }],
   },
   {
     title: "Souviens-toi... l'été dernier",
@@ -1644,8 +1638,8 @@ export const baseMoviesHorreur: BaseMovie[] = [
     description: '',
     fromEntity: {
       entityType: 'book',
-      title: "Entretien avec un vampire",
-      secondEntityKey: "Anne Rice",
+      title: 'Entretien avec un vampire',
+      secondEntityKey: 'Anne Rice',
     },
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 30,
@@ -1779,8 +1773,8 @@ export const baseMoviesHorreur: BaseMovie[] = [
     description: '',
     fromEntity: {
       entityType: 'book',
-      title: "Dans les hautes herbes",
-      secondEntityKey: "Stephen King et Joe Hill",
+      title: 'Dans les hautes herbes',
+      secondEntityKey: 'Stephen King et Joe Hill',
     },
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -1823,8 +1817,8 @@ export const baseMoviesHorreur: BaseMovie[] = [
     description: '',
     fromEntity: {
       entityType: 'book',
-      title: "The Black Phone",
-      secondEntityKey: "Joe Hill",
+      title: 'The Black Phone',
+      secondEntityKey: 'Joe Hill',
     },
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -2319,9 +2313,7 @@ export const baseMoviesHorreur: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 30,
-    oscars: [
-      { type: OscarEnum.OSCAR_BEST_MAKEUP, year: 2025 },
-    ],
+    oscars: [{ type: OscarEnum.OSCAR_BEST_MAKEUP, year: 2025 }],
   },
   {
     title: 'Cinq nuits chez Freddy',
@@ -2458,9 +2450,7 @@ export const baseMoviesHorreur: BaseMovie[] = [
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 30,
-    oscars: [
-      { type: OscarEnum.OSCAR_BEST_ORIGINAL_SCREENPLAY, year: 2018 },
-    ],
+    oscars: [{ type: OscarEnum.OSCAR_BEST_ORIGINAL_SCREENPLAY, year: 2018 }],
   },
   {
     title: 'American Nightmare 3 : Élections',

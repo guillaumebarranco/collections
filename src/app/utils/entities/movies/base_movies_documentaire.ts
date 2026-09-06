@@ -181,10 +181,11 @@ export const baseMoviesDocumentaire: BaseMovie[] = [
       { name: 'Shoshana Zuboff' },
       { name: 'Justin Rosenstein' },
       { name: 'Roger McNamee' },
-      { name: 'Cathy O\'Neil' },
+      { name: "Cathy O'Neil" },
       { name: 'Jeff Orlowski' },
     ],
-    coverUrl: '',
+    coverUrl:
+      'https://assets.diverto.tv/media/remote/aHR0cHM6Ly9pbWFnZS50bWRiLm9yZy90L3AvL29yaWdpbmFsLy85V2JDVzJPN3g0WVdzem1hU3k5cVlIVE1hZmQuanBn?fit=contain&fm=webp&s=5c1709eda2c33844b2cdfc46df25ab1c',
     releaseDate: '2020-09-09',
     length: 94,
     genre: ['Documentaire'],
@@ -207,8 +208,7 @@ export const baseMoviesDocumentaire: BaseMovie[] = [
       { name: 'Lomepal' },
       { name: 'Damso' },
     ],
-    coverUrl:
-      '/movies_pictures/70a1abfdad71.jpg',
+    coverUrl: '/movies_pictures/70a1abfdad71.jpg',
     releaseDate: '2019-10-09',
     length: 82,
     genre: ['Documentaire'],
@@ -231,7 +231,8 @@ export const baseMoviesDocumentaire: BaseMovie[] = [
       { name: 'Noelle Perdue' },
       { name: 'Wolf Hudson' },
     ],
-    coverUrl: '',
+    coverUrl:
+      '/movies_pictures/6c0e44af5e26.jpg',
     releaseDate: '2023-03-15',
     length: 94,
     genre: ['Documentaire'],

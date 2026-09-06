@@ -4694,7 +4694,7 @@ export const baseMoviesMissingPatrimoine19601969: BaseMovie[] = [
       { name: 'Charles Denner' },
     ],
     coverUrl:
-      'https://s3.amazonaws.com/criterion-production/films/ce4dea23892206f842ea9e71a0efb172/vOVg5PTddWrSxKJfoqSO1jsZfAfEBB_large.jpg',
+      '/movies_pictures/a5157191ee8c.jpg',
     releaseDate: '1969-02-26',
     length: 127,
     genre: ['Thriller', 'Drame', 'Historique'],
