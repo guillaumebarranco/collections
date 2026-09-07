@@ -645,4 +645,20 @@ export const baseBooksRomance: BaseBook[] = [
     countryOrigin: 'États-Unis',
     selectDisplayOrder: 0,
   },
+  {
+    title: 'La Vengeance de la Veuve Noire',
+    author: 'Morgane Moncomble',
+    coverUrl:
+      '/books_pictures/4a4ed79bb571.jpg',
+    pages: 592,
+    genre: ['Romance', 'Fiction historique'],
+    saga: 'Inheritance',
+    sagaOrder: 2,
+    sagaFinished: false,
+    releaseDate: '2026-09-02',
+    description:
+      'Londres 1812 : Wisteria, apothicaire le jour et Veuve Noire la nuit, s’allie à l’enquêteur William pour traquer Jack l’Égorgeur, entre poison et attirance interdite.',
+    countryOrigin: 'France',
+    selectDisplayOrder: 0,
+  },
 ];

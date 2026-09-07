@@ -1616,5 +1616,21 @@ export const guillaumeReadlistBooks: UserBooks = [
     readPriority: 1,
     wantToReadAgain: false,
     ratingComment: "",
-  }
+  },
+  {
+    title: "La Vengeance de la Veuve Noire",
+    author: "Morgane Moncomble",
+    firstReadDate: "",
+    lastReadDate: "",
+    otherReadDates: [],
+    rating: 0,
+    reading: false,
+    readTimes: 0,
+    owned: true,
+    borrowed: "",
+    loaned: "",
+    readPriority: 1,
+    wantToReadAgain: false,
+    ratingComment: "",
+  },
 ];
