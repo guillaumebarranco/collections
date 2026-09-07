@@ -15,19 +15,20 @@ export const baseMoviesMissingAnnees19901994: BaseMovie[] = [
       { name: 'Nancy Travis' },
       { name: 'Robin Weisman' },
     ],
-    coverUrl: '',
+    coverUrl: 'https://i.ebayimg.com/images/g/tH8AAOSwrHFmcEYC/s-l1200.jpg',
     releaseDate: '1990-11-21',
     length: 104,
     genre: ['Comédie'],
     saga: 'Trois hommes et un bébé',
-    description: 'Mary a cinq ans, sa mère veut l\'emmener en Angleterre ; les trois pères improvisent un enlèvement.',
+    description:
+      "Mary a cinq ans, sa mère veut l'emmener en Angleterre ; les trois pères improvisent un enlèvement.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
     oscars: [],
   },
   {
-    title: 'À la poursuite d\'Octobre rouge',
+    title: "À la poursuite d'Octobre rouge",
     director: 'John McTiernan',
     actors: [
       { name: 'Sean Connery' },
@@ -36,12 +37,14 @@ export const baseMoviesMissingAnnees19901994: BaseMovie[] = [
       { name: 'Sam Neill' },
       { name: 'James Earl Jones' },
     ],
-    coverUrl: '',
+    coverUrl:
+      'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQH3qxTbrlPq17oz-uNfATEDnm32-I59CVJ8vFXWldztUlhTpLKpkoNnu9r&s=10',
     releaseDate: '1990-03-02',
     length: 135,
     genre: ['Thriller', 'Action', 'Guerre'],
     saga: 'Jack Ryan',
-    description: 'Un commandant soviétique dévie son sous-marin furtif vers l\'Amérique ; Ryan doit convaincre les deux flottes.',
+    description:
+      "Un commandant soviétique dévie son sous-marin furtif vers l'Amérique ; Ryan doit convaincre les deux flottes.",
     fromEntity: {
       entityType: 'book',
       title: 'Octobre rouge',
@@ -49,9 +52,7 @@ export const baseMoviesMissingAnnees19901994: BaseMovie[] = [
     },
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
-    oscars: [
-      { type: OscarEnum.OSCAR_BEST_SOUND_EDITING, year: 1991 },
-    ],
+    oscars: [{ type: OscarEnum.OSCAR_BEST_SOUND_EDITING, year: 1991 }],
   },
   {
     title: 'Air America',
@@ -63,12 +64,13 @@ export const baseMoviesMissingAnnees19901994: BaseMovie[] = [
       { name: 'Ken Jenkins' },
       { name: 'David Marshall Grant' },
     ],
-    coverUrl: '',
+    coverUrl: 'https://www.ibs.it/images/8055713370690_0_0_0_0_0.jpg',
     releaseDate: '1990-08-10',
     length: 113,
     genre: ['Action', 'Comédie', 'Guerre'],
     saga: '',
-    description: 'Deux pilotes de la CIA au Laos découvrent que la compagnie transporte aussi de l\'opium.',
+    description:
+      "Deux pilotes de la CIA au Laos découvrent que la compagnie transporte aussi de l'opium.",
     fromEntity: {
       entityType: 'book',
       title: 'Air America',
@@ -93,7 +95,8 @@ export const baseMoviesMissingAnnees19901994: BaseMovie[] = [
     length: 106,
     genre: ['Comédie', 'Romance', 'Fantastique'],
     saga: '',
-    description: 'Une femme de la Upper East Side avale les herbes d\'un acupuncteur et devient invisible, amoureuse, lucide.',
+    description:
+      "Une femme de la Upper East Side avale les herbes d'un acupuncteur et devient invisible, amoureuse, lucide.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -107,14 +110,15 @@ export const baseMoviesMissingAnnees19901994: BaseMovie[] = [
       { name: 'Nick Nolte' },
       { name: 'Brion James' },
       { name: 'Kevin Tighe' },
-      { name: 'Ed O\'Ross' },
+      { name: "Ed O'Ross" },
     ],
     coverUrl: '',
     releaseDate: '1990-06-08',
     length: 93,
     genre: ['Action', 'Comédie', 'Policier'],
     saga: '48 heures',
-    description: 'Reggie est de nouveau sorti de taule pour aider Cates à coincer un chef de gang, même duo, plus d\'âge.',
+    description:
+      "Reggie est de nouveau sorti de taule pour aider Cates à coincer un chef de gang, même duo, plus d'âge.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -135,7 +139,8 @@ export const baseMoviesMissingAnnees19901994: BaseMovie[] = [
     length: 109,
     genre: ['Horreur', 'Comédie', 'Thriller'],
     saga: '',
-    description: 'Un médecin de Californie ramène d\'Amazonie une araignée tueuse ; le village se couvre de toiles.',
+    description:
+      "Un médecin de Californie ramène d'Amazonie une araignée tueuse ; le village se couvre de toiles.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -156,7 +161,8 @@ export const baseMoviesMissingAnnees19901994: BaseMovie[] = [
     length: 121,
     genre: ['Drame', 'Biographie'],
     saga: '',
-    description: 'Un neurologue réveille des patients catatoniques depuis des décennies ; le miracle ne dure pas.',
+    description:
+      'Un neurologue réveille des patients catatoniques depuis des décennies ; le miracle ne dure pas.',
     fromEntity: {
       entityType: 'book',
       title: 'Éveils',
@@ -181,7 +187,8 @@ export const baseMoviesMissingAnnees19901994: BaseMovie[] = [
     length: 110,
     genre: ['Action', 'Comédie', 'Romance'],
     saga: '',
-    description: 'Une avocate retrouve son ex, devenu témoin protégé, et fuit avec lui des flics corrompus.',
+    description:
+      'Une avocate retrouve son ex, devenu témoin protégé, et fuit avec lui des flics corrompus.',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -202,7 +209,8 @@ export const baseMoviesMissingAnnees19901994: BaseMovie[] = [
     length: 96,
     genre: ['Policier', 'Action', 'Drame'],
     saga: '',
-    description: 'Un joueur de baseball amateur veut venger un ami tabassé par des yakuzas, et tout dérape.',
+    description:
+      'Un joueur de baseball amateur veut venger un ami tabassé par des yakuzas, et tout dérape.',
     fromEntity: null,
     countryOrigin: ['Japon'],
     selectDisplayOrder: 0,
@@ -223,7 +231,8 @@ export const baseMoviesMissingAnnees19901994: BaseMovie[] = [
     length: 98,
     genre: ['Drame', 'Documentaire'],
     saga: '',
-    description: 'Un chômeur se fait passer pour le cinéaste Makhmalbaf chez une famille de Téhéran ; le procès est le film.',
+    description:
+      'Un chômeur se fait passer pour le cinéaste Makhmalbaf chez une famille de Téhéran ; le procès est le film.',
     fromEntity: null,
     countryOrigin: ['Iran'],
     selectDisplayOrder: 0,
@@ -244,7 +253,8 @@ export const baseMoviesMissingAnnees19901994: BaseMovie[] = [
     length: 137,
     genre: ['Drame', 'Romance', 'Historique'],
     saga: '',
-    description: 'Le cadet de Gascogne prête sa plume à Christian pour aimer Roxane, panache et nez trop long.',
+    description:
+      'Le cadet de Gascogne prête sa plume à Christian pour aimer Roxane, panache et nez trop long.',
     fromEntity: {
       entityType: 'book',
       title: 'Cyrano de Bergerac',
@@ -252,9 +262,7 @@ export const baseMoviesMissingAnnees19901994: BaseMovie[] = [
     },
     countryOrigin: ['France'],
     selectDisplayOrder: 0,
-    oscars: [
-      { type: OscarEnum.OSCAR_BEST_COSTUME_DESIGN, year: 1991 },
-    ],
+    oscars: [{ type: OscarEnum.OSCAR_BEST_COSTUME_DESIGN, year: 1991 }],
   },
   {
     title: 'Death Warrant',
@@ -271,7 +279,8 @@ export const baseMoviesMissingAnnees19901994: BaseMovie[] = [
     length: 89,
     genre: ['Action', 'Thriller'],
     saga: '',
-    description: 'Un flic s\'infiltre en prison pour pister un tueur ; le trafic d\'organes dépasse le simple meurtre.',
+    description:
+      "Un flic s'infiltre en prison pour pister un tueur ; le trafic d'organes dépasse le simple meurtre.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -292,7 +301,8 @@ export const baseMoviesMissingAnnees19901994: BaseMovie[] = [
     length: 115,
     genre: ['Thriller', 'Science Fiction', 'Horreur'],
     saga: '',
-    description: 'Des internes s\'arrêtent le cœur pour visiter la mort ; chacun ramène ses fautes dans le réel.',
+    description:
+      "Des internes s'arrêtent le cœur pour visiter la mort ; chacun ramène ses fautes dans le réel.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -313,7 +323,8 @@ export const baseMoviesMissingAnnees19901994: BaseMovie[] = [
     length: 107,
     genre: ['Comédie', 'Romance'],
     saga: '',
-    description: 'Un Français et une horticultrice se marient pour les papiers, puis l\'immigration vérifie l\'amour.',
+    description:
+      "Un Français et une horticultrice se marient pour les papiers, puis l'immigration vérifie l'amour.",
     fromEntity: null,
     countryOrigin: ['États-Unis', 'Australie'],
     selectDisplayOrder: 0,
@@ -334,14 +345,15 @@ export const baseMoviesMissingAnnees19901994: BaseMovie[] = [
     length: 104,
     genre: ['Fantastique', 'Romance', 'Aventure'],
     saga: 'Histoire de fantômes chinois',
-    description: 'Ning-choi retrouve son fantôme, un démon-arbre et un seigneur qui collectionne les esprits.',
+    description:
+      'Ning-choi retrouve son fantôme, un démon-arbre et un seigneur qui collectionne les esprits.',
     fromEntity: null,
     countryOrigin: ['Chine'],
     selectDisplayOrder: 0,
     oscars: [],
   },
   {
-    title: 'Jeu d\'enfant 2',
+    title: "Jeu d'enfant 2",
     director: 'John Lafia',
     actors: [
       { name: 'Alex Vincent' },
@@ -355,7 +367,8 @@ export const baseMoviesMissingAnnees19901994: BaseMovie[] = [
     length: 84,
     genre: ['Horreur'],
     saga: 'Chucky',
-    description: 'Chucky est recousu en usine et reprend la chasse à Andy, aujourd\'hui en famille d\'accueil.',
+    description:
+      "Chucky est recousu en usine et reprend la chasse à Andy, aujourd'hui en famille d'accueil.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -376,7 +389,8 @@ export const baseMoviesMissingAnnees19901994: BaseMovie[] = [
     length: 102,
     genre: ['Comédie', 'Romance', 'Fantastique'],
     saga: '',
-    description: 'Un employé morose, condamné, accepte de se jeter dans un volcan contre un voyage et Meg Ryan en triple rôle.',
+    description:
+      'Un employé morose, condamné, accepte de se jeter dans un volcan contre un voyage et Meg Ryan en triple rôle.',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -397,7 +411,8 @@ export const baseMoviesMissingAnnees19901994: BaseMovie[] = [
     length: 95,
     genre: ['Drame', 'Romance'],
     saga: '',
-    description: 'Dans une teinturerie, une femme battue aime le neveu du mari ; le rouge des tissus accuse.',
+    description:
+      'Dans une teinturerie, une femme battue aime le neveu du mari ; le rouge des tissus accuse.',
     fromEntity: null,
     countryOrigin: ['Chine', 'Japon'],
     selectDisplayOrder: 0,
@@ -417,8 +432,9 @@ export const baseMoviesMissingAnnees19901994: BaseMovie[] = [
     releaseDate: '1990-08-29',
     length: 105,
     genre: ['Drame', 'Comédie', 'Jeunesse'],
-    saga: 'Souvenirs d\'enfance',
-    description: 'L\'été 1900, le petit Marcel voit son instituteur de père rater une chasse et devenir un héros malgré tout.',
+    saga: "Souvenirs d'enfance",
+    description:
+      "L'été 1900, le petit Marcel voit son instituteur de père rater une chasse et devenir un héros malgré tout.",
     fromEntity: {
       entityType: 'book',
       title: 'La Gloire de mon père',
@@ -442,8 +458,9 @@ export const baseMoviesMissingAnnees19901994: BaseMovie[] = [
     releaseDate: '1990-10-26',
     length: 98,
     genre: ['Drame', 'Comédie', 'Jeunesse'],
-    saga: 'Souvenirs d\'enfance',
-    description: 'Les raccourcis du canal, le château interdit, et la mère qui vieillit trop vite dans le souvenir.',
+    saga: "Souvenirs d'enfance",
+    description:
+      'Les raccourcis du canal, le château interdit, et la mère qui vieillit trop vite dans le souvenir.',
     fromEntity: {
       entityType: 'book',
       title: 'Le Château de ma mère',
@@ -468,7 +485,8 @@ export const baseMoviesMissingAnnees19901994: BaseMovie[] = [
     length: 82,
     genre: ['Drame', 'Romance', 'Comédie'],
     saga: '',
-    description: 'Antoine n\'aime que les coiffeuses ; il épouse Mathilde, et le bonheur tient dans un salon trop petit.',
+    description:
+      "Antoine n'aime que les coiffeuses ; il épouse Mathilde, et le bonheur tient dans un salon trop petit.",
     fromEntity: null,
     countryOrigin: ['France'],
     selectDisplayOrder: 0,
@@ -489,14 +507,15 @@ export const baseMoviesMissingAnnees19901994: BaseMovie[] = [
     length: 105,
     genre: ['Action', 'Drame'],
     saga: '',
-    description: 'Un légionnaire déserte pour sauver sa belle-sœur et se bat dans des cages clandestines de Los Angeles.',
+    description:
+      'Un légionnaire déserte pour sauver sa belle-sœur et se bat dans des cages clandestines de Los Angeles.',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
     oscars: [],
   },
   {
-    title: 'Miller\'s Crossing',
+    title: "Miller's Crossing",
     director: 'Joel Coen',
     actors: [
       { name: 'Gabriel Byrne' },
@@ -510,7 +529,8 @@ export const baseMoviesMissingAnnees19901994: BaseMovie[] = [
     length: 115,
     genre: ['Policier', 'Drame', 'Thriller'],
     saga: '',
-    description: 'Un conseiller de caïd joue double jeu entre deux gangs irlandais, chapeau, forêt et « Danny Boy ».',
+    description:
+      'Un conseiller de caïd joue double jeu entre deux gangs irlandais, chapeau, forêt et « Danny Boy ».',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -531,7 +551,8 @@ export const baseMoviesMissingAnnees19901994: BaseMovie[] = [
     length: 107,
     genre: ['Comédie', 'Drame'],
     saga: '',
-    description: 'Mai 68, une famille se déchire autour d\'un héritage pendant que Paris s\'embrase, loin du Gers.',
+    description:
+      "Mai 68, une famille se déchire autour d'un héritage pendant que Paris s'embrase, loin du Gers.",
     fromEntity: null,
     countryOrigin: ['France', 'Italie'],
     selectDisplayOrder: 0,
@@ -552,7 +573,8 @@ export const baseMoviesMissingAnnees19901994: BaseMovie[] = [
     length: 94,
     genre: ['Drame', 'Romance'],
     saga: '',
-    description: 'Hong Kong 1960, un dandy refuse d\'aimer vraiment, montres arrêtées et humidité de la colonie.',
+    description:
+      "Hong Kong 1960, un dandy refuse d'aimer vraiment, montres arrêtées et humidité de la colonie.",
     fromEntity: null,
     countryOrigin: ['Chine'],
     selectDisplayOrder: 0,
@@ -573,7 +595,8 @@ export const baseMoviesMissingAnnees19901994: BaseMovie[] = [
     length: 103,
     genre: ['Action', 'Comédie', 'Policier'],
     saga: '',
-    description: 'Trois orphelins voleurs se retrouvent, musée, Ferrari et Woo qui s\'amuse presque en comédie.',
+    description:
+      "Trois orphelins voleurs se retrouvent, musée, Ferrari et Woo qui s'amuse presque en comédie.",
     fromEntity: null,
     countryOrigin: ['Chine'],
     selectDisplayOrder: 0,
@@ -594,7 +617,8 @@ export const baseMoviesMissingAnnees19901994: BaseMovie[] = [
     length: 78,
     genre: ['Documentaire'],
     saga: '',
-    description: 'Les balls de Harlem, houses, voguing : une communauté trans et gay se filme avant l\'épidémie.',
+    description:
+      "Les balls de Harlem, houses, voguing : une communauté trans et gay se filme avant l'épidémie.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -615,7 +639,8 @@ export const baseMoviesMissingAnnees19901994: BaseMovie[] = [
     length: 127,
     genre: ['Thriller', 'Policier', 'Drame'],
     saga: '',
-    description: 'Un procureur enquête sur le meurtre de sa maîtresse et se retrouve accusé, bureau et lit trop proches.',
+    description:
+      'Un procureur enquête sur le meurtre de sa maîtresse et se retrouve accusé, bureau et lit trop proches.',
     fromEntity: {
       entityType: 'book',
       title: 'Présumé innocent',
@@ -640,7 +665,8 @@ export const baseMoviesMissingAnnees19901994: BaseMovie[] = [
     length: 109,
     genre: ['Comédie', 'Policier'],
     saga: 'Les Ripoux',
-    description: 'René et François découvrent que d\'autres flics raflent plus gros qu\'eux, Belleville toujours.',
+    description:
+      "René et François découvrent que d'autres flics raflent plus gros qu'eux, Belleville toujours.",
     fromEntity: null,
     countryOrigin: ['France'],
     selectDisplayOrder: 0,
@@ -661,7 +687,8 @@ export const baseMoviesMissingAnnees19901994: BaseMovie[] = [
     length: 110,
     genre: ['Comédie'],
     saga: '',
-    description: 'Une vieille tante odieuse débarque chez son neveu et terrorise la maisonnée, jusqu\'à la nounou.',
+    description:
+      "Une vieille tante odieuse débarque chez son neveu et terrorise la maisonnée, jusqu'à la nounou.",
     fromEntity: null,
     countryOrigin: ['France'],
     selectDisplayOrder: 0,
@@ -682,10 +709,11 @@ export const baseMoviesMissingAnnees19901994: BaseMovie[] = [
     length: 107,
     genre: ['Thriller', 'Drame'],
     saga: '',
-    description: 'Un couple anglais à Venise tombe sous le charme d\'un hôte trop courtois ; le piège se referme.',
+    description:
+      "Un couple anglais à Venise tombe sous le charme d'un hôte trop courtois ; le piège se referme.",
     fromEntity: {
       entityType: 'book',
-      title: 'L\'Inconfort des inconnus',
+      title: "L'Inconfort des inconnus",
       secondEntityKey: 'Ian McEwan',
     },
     countryOrigin: ['Italie', 'Royaume-Uni'],
@@ -707,7 +735,8 @@ export const baseMoviesMissingAnnees19901994: BaseMovie[] = [
     length: 96,
     genre: ['Horreur', 'Comédie', 'Science Fiction'],
     saga: 'Tremors',
-    description: 'Dans un bled du Nevada, des vers géants chassent sous la terre ; il faut rester perché.',
+    description:
+      'Dans un bled du Nevada, des vers géants chassent sous la terre ; il faut rester perché.',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -728,7 +757,8 @@ export const baseMoviesMissingAnnees19901994: BaseMovie[] = [
     length: 136,
     genre: ['Action', 'Guerre', 'Drame'],
     saga: '',
-    description: 'Trois amis de Hong Kong partent au Vietnam faire fortune ; la guerre et une balle les séparent.',
+    description:
+      'Trois amis de Hong Kong partent au Vietnam faire fortune ; la guerre et une balle les séparent.',
     fromEntity: null,
     countryOrigin: ['Chine'],
     selectDisplayOrder: 0,
@@ -749,7 +779,8 @@ export const baseMoviesMissingAnnees19901994: BaseMovie[] = [
     length: 100,
     genre: ['Drame', 'Comédie', 'Historique'],
     saga: '',
-    description: 'À la Libération, un village règle ses comptes : collabos, communistes, poète et dénonciations.',
+    description:
+      'À la Libération, un village règle ses comptes : collabos, communistes, poète et dénonciations.',
     fromEntity: {
       entityType: 'book',
       title: 'Uranus',
@@ -774,7 +805,8 @@ export const baseMoviesMissingAnnees19901994: BaseMovie[] = [
     length: 237,
     genre: ['Drame', 'Historique'],
     saga: '',
-    description: 'Taipei 1960, un ado, un couteau, des gangs de lycée et l\'attente d\'une Chine qui ne revient pas.',
+    description:
+      "Taipei 1960, un ado, un couteau, des gangs de lycée et l'attente d'une Chine qui ne revient pas.",
     fromEntity: null,
     countryOrigin: ['Taïwan'],
     selectDisplayOrder: 0,
@@ -795,7 +827,8 @@ export const baseMoviesMissingAnnees19901994: BaseMovie[] = [
     length: 108,
     genre: ['Comédie', 'Policier', 'Romance'],
     saga: '',
-    description: 'Un naïf d\'Harlem tombe amoureux d\'une voleuse qui cache de l\'or dans une malle, 1956.',
+    description:
+      "Un naïf d'Harlem tombe amoureux d'une voleuse qui cache de l'or dans une malle, 1956.",
     fromEntity: {
       entityType: 'book',
       title: 'A Rage in Harlem',
@@ -806,7 +839,7 @@ export const baseMoviesMissingAnnees19901994: BaseMovie[] = [
     oscars: [],
   },
   {
-    title: 'Aujourd\'hui peut-être',
+    title: "Aujourd'hui peut-être",
     director: 'Jean-Louis Bertuccelli',
     actors: [
       { name: 'Giulietta Masina' },
@@ -820,7 +853,8 @@ export const baseMoviesMissingAnnees19901994: BaseMovie[] = [
     length: 90,
     genre: ['Drame', 'Comédie'],
     saga: '',
-    description: 'Une mère italienne à Paris réunit ses enfants trop occupés ; peut-être qu\'ils viendront vraiment.',
+    description:
+      "Une mère italienne à Paris réunit ses enfants trop occupés ; peut-être qu'ils viendront vraiment.",
     fromEntity: null,
     countryOrigin: ['France'],
     selectDisplayOrder: 0,
@@ -841,7 +875,8 @@ export const baseMoviesMissingAnnees19901994: BaseMovie[] = [
     length: 137,
     genre: ['Action', 'Drame', 'Thriller'],
     saga: '',
-    description: 'Deux frères pompiers de Chicago chassent un pyromane ; le feu a une signature.',
+    description:
+      'Deux frères pompiers de Chicago chassent un pyromane ; le feu a une signature.',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -862,7 +897,8 @@ export const baseMoviesMissingAnnees19901994: BaseMovie[] = [
     length: 116,
     genre: ['Drame', 'Comédie', 'Thriller'],
     saga: '',
-    description: 'Un auteur new-yorkais bloqué à Hollywood dans un hôtel infernal, papier peint et tueur au couloir.',
+    description:
+      'Un auteur new-yorkais bloqué à Hollywood dans un hôtel infernal, papier peint et tueur au couloir.',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -883,7 +919,8 @@ export const baseMoviesMissingAnnees19901994: BaseMovie[] = [
     length: 88,
     genre: ['Horreur', 'Thriller', 'Science Fiction'],
     saga: '',
-    description: 'Un psychologue reçoit le bras d\'un condamné ; le membre se souvient du meurtre.',
+    description:
+      "Un psychologue reçoit le bras d'un condamné ; le membre se souvient du meurtre.",
     fromEntity: {
       entityType: 'book',
       title: 'Choice Cuts',
@@ -908,7 +945,8 @@ export const baseMoviesMissingAnnees19901994: BaseMovie[] = [
     length: 112,
     genre: ['Drame'],
     saga: '',
-    description: 'South Central, un père élève son fils entre le lycée, les gangs et les balles trop proches.',
+    description:
+      'South Central, un père élève son fils entre le lycée, les gangs et les balles trop proches.',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -929,13 +967,12 @@ export const baseMoviesMissingAnnees19901994: BaseMovie[] = [
     length: 112,
     genre: ['Comédie', 'Western'],
     saga: 'City Slickers',
-    description: 'Trois New-Yorkais en crise partent en transhumance ; un vrai cow-boy leur apprend à vieillir.',
+    description:
+      'Trois New-Yorkais en crise partent en transhumance ; un vrai cow-boy leur apprend à vieillir.',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
-    oscars: [
-      { type: OscarEnum.OSCAR_BEST_SUPPORTING_ACTOR, year: 1992 },
-    ],
+    oscars: [{ type: OscarEnum.OSCAR_BEST_SUPPORTING_ACTOR, year: 1992 }],
   },
   {
     title: 'Doc Hollywood',
@@ -952,7 +989,8 @@ export const baseMoviesMissingAnnees19901994: BaseMovie[] = [
     length: 103,
     genre: ['Comédie', 'Romance'],
     saga: '',
-    description: 'Un chirurgien plasticien casse sa Porsche dans un bled et doit y soigner, malgré Beverly Hills.',
+    description:
+      'Un chirurgien plasticien casse sa Porsche dans un bled et doit y soigner, malgré Beverly Hills.',
     fromEntity: {
       entityType: 'book',
       title: 'What? Dead... Again?',
@@ -977,7 +1015,8 @@ export const baseMoviesMissingAnnees19901994: BaseMovie[] = [
     length: 125,
     genre: ['Drame', 'Historique', 'Romance'],
     saga: '',
-    description: 'Une étudiante devient quatrième épouse ; les lanternes rouges disent qui couche, qui meurt.',
+    description:
+      'Une étudiante devient quatrième épouse ; les lanternes rouges disent qui couche, qui meurt.',
     fromEntity: {
       entityType: 'book',
       title: 'Wives and Concubines',
@@ -1002,7 +1041,8 @@ export const baseMoviesMissingAnnees19901994: BaseMovie[] = [
     length: 112,
     genre: ['Drame', 'Guerre', 'Biographie'],
     saga: '',
-    description: 'Un adolescent juif survit en se faisant passer pour hitlérien, jusqu\'à la circoncision trop visible.',
+    description:
+      "Un adolescent juif survit en se faisant passer pour hitlérien, jusqu'à la circoncision trop visible.",
     fromEntity: {
       entityType: 'book',
       title: 'Europa Europa',
@@ -1027,11 +1067,12 @@ export const baseMoviesMissingAnnees19901994: BaseMovie[] = [
     length: 118,
     genre: ['Romance', 'Comédie', 'Drame'],
     saga: '',
-    description: 'Un cuistot sorti de taule courtise une serveuse trop blessée, diner new-yorkais et timidité.',
+    description:
+      'Un cuistot sorti de taule courtise une serveuse trop blessée, diner new-yorkais et timidité.',
     fromEntity: {
       entityType: 'book',
-      title: "Frankie and Johnny in the Clair de Lune",
-      secondEntityKey: "Terrence McNally",
+      title: 'Frankie and Johnny in the Clair de Lune',
+      secondEntityKey: 'Terrence McNally',
     },
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -1052,14 +1093,15 @@ export const baseMoviesMissingAnnees19901994: BaseMovie[] = [
     length: 134,
     genre: ['Action', 'Aventure', 'Historique'],
     saga: 'Il était une fois en Chine',
-    description: 'Wong Fei-hung défend Foshan contre les occidentaux, nunchaku, lion dance et fusils.',
+    description:
+      'Wong Fei-hung défend Foshan contre les occidentaux, nunchaku, lion dance et fusils.',
     fromEntity: null,
     countryOrigin: ['Chine'],
     selectDisplayOrder: 0,
     oscars: [],
   },
   {
-    title: 'J\'embrasse pas',
+    title: "J'embrasse pas",
     director: 'André Téchiné',
     actors: [
       { name: 'Manuel Blanc' },
@@ -1073,14 +1115,15 @@ export const baseMoviesMissingAnnees19901994: BaseMovie[] = [
     length: 115,
     genre: ['Drame'],
     saga: '',
-    description: 'Un provincial monte à Paris, se prostitue, et refuse encore le baiser, Noiret en protecteur trouble.',
+    description:
+      'Un provincial monte à Paris, se prostitue, et refuse encore le baiser, Noiret en protecteur trouble.',
     fromEntity: null,
     countryOrigin: ['France'],
     selectDisplayOrder: 0,
     oscars: [],
   },
   {
-    title: 'Jeu d\'enfant 3',
+    title: "Jeu d'enfant 3",
     director: 'Jack Bender',
     actors: [
       { name: 'Justin Whalin' },
@@ -1094,7 +1137,8 @@ export const baseMoviesMissingAnnees19901994: BaseMovie[] = [
     length: 90,
     genre: ['Horreur'],
     saga: 'Chucky',
-    description: 'Andy est en école militaire ; Chucky arrive par colis et vise un autre corps d\'adolescent.',
+    description:
+      "Andy est en école militaire ; Chucky arrive par colis et vise un autre corps d'adolescent.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -1115,14 +1159,15 @@ export const baseMoviesMissingAnnees19901994: BaseMovie[] = [
     length: 132,
     genre: ['Drame', 'Romance'],
     saga: '',
-    description: 'Un architecte black et une secrétaire italienne s\'aiment ; Harlem et Bensonhurst ne pardonnent pas.',
+    description:
+      "Un architecte black et une secrétaire italienne s'aiment ; Harlem et Bensonhurst ne pardonnent pas.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
     oscars: [],
   },
   {
-    title: 'L\'Opération Corned-Beef',
+    title: "L'Opération Corned-Beef",
     director: 'Jean-Marie Poiré',
     actors: [
       { name: 'Jean Reno' },
@@ -1136,7 +1181,8 @@ export const baseMoviesMissingAnnees19901994: BaseMovie[] = [
     length: 105,
     genre: ['Comédie', 'Action'],
     saga: '',
-    description: 'Un agent de la DGSE doit surveiller un fonctionnaire nul ; Adjani, squellette et courses parisiennes.',
+    description:
+      'Un agent de la DGSE doit surveiller un fonctionnaire nul ; Adjani, squellette et courses parisiennes.',
     fromEntity: null,
     countryOrigin: ['France'],
     selectDisplayOrder: 0,
@@ -1157,7 +1203,8 @@ export const baseMoviesMissingAnnees19901994: BaseMovie[] = [
     length: 98,
     genre: ['Drame', 'Fantastique', 'Romance'],
     saga: '',
-    description: 'Deux femmes identiques, l\'une en Pologne l\'autre en France, sentent la mort de l\'autre, pupille et chant.',
+    description:
+      "Deux femmes identiques, l'une en Pologne l'autre en France, sentent la mort de l'autre, pupille et chant.",
     fromEntity: null,
     countryOrigin: ['France', 'Pologne'],
     selectDisplayOrder: 0,
@@ -1178,7 +1225,8 @@ export const baseMoviesMissingAnnees19901994: BaseMovie[] = [
     length: 102,
     genre: ['Comédie', 'Action'],
     saga: '',
-    description: 'Un père de famille est agent secret à l\'insu des siens ; sa femme s\'ennuie et flirte avec un voyou.',
+    description:
+      "Un père de famille est agent secret à l'insu des siens ; sa femme s'ennuie et flirte avec un voyou.",
     fromEntity: null,
     countryOrigin: ['France'],
     selectDisplayOrder: 0,
@@ -1199,7 +1247,8 @@ export const baseMoviesMissingAnnees19901994: BaseMovie[] = [
     length: 125,
     genre: ['Drame', 'Romance'],
     saga: '',
-    description: 'Deux SDF s\'aiment sur le Pont-Neuf fermé, feu d\'artifice, cécité qui avance, radeau.',
+    description:
+      "Deux SDF s'aiment sur le Pont-Neuf fermé, feu d'artifice, cécité qui avance, radeau.",
     fromEntity: null,
     countryOrigin: ['France'],
     selectDisplayOrder: 0,
@@ -1220,13 +1269,12 @@ export const baseMoviesMissingAnnees19901994: BaseMovie[] = [
     length: 96,
     genre: ['Comédie', 'Guerre', 'Drame'],
     saga: '',
-    description: 'Des soldats italiens oubliés sur une île grecque oublient la guerre, volleyball et amours locales.',
+    description:
+      'Des soldats italiens oubliés sur une île grecque oublient la guerre, volleyball et amours locales.',
     fromEntity: null,
     countryOrigin: ['Italie'],
     selectDisplayOrder: 0,
-    oscars: [
-      { type: OscarEnum.OSCAR_BEST_INTERNATIONAL_FEATURE, year: 1992 },
-    ],
+    oscars: [{ type: OscarEnum.OSCAR_BEST_INTERNATIONAL_FEATURE, year: 1992 }],
   },
   {
     title: 'Merci la vie',
@@ -1243,7 +1291,8 @@ export const baseMoviesMissingAnnees19901994: BaseMovie[] = [
     length: 117,
     genre: ['Comédie', 'Drame'],
     saga: '',
-    description: 'Deux jeunes femmes croisent un camion de cinéma, le sida, la guerre, et Blier qui mélange tout.',
+    description:
+      'Deux jeunes femmes croisent un camion de cinéma, le sida, la guerre, et Blier qui mélange tout.',
     fromEntity: null,
     countryOrigin: ['France'],
     selectDisplayOrder: 0,
@@ -1264,7 +1313,8 @@ export const baseMoviesMissingAnnees19901994: BaseMovie[] = [
     length: 105,
     genre: ['Comédie'],
     saga: '',
-    description: 'Un père en vacances à Maurice se prête au mensonge de sa fille ado : il serait son amant.',
+    description:
+      'Un père en vacances à Maurice se prête au mensonge de sa fille ado : il serait son amant.',
     fromEntity: null,
     countryOrigin: ['France'],
     selectDisplayOrder: 0,
@@ -1285,7 +1335,8 @@ export const baseMoviesMissingAnnees19901994: BaseMovie[] = [
     length: 104,
     genre: ['Drame', 'Romance'],
     saga: '',
-    description: 'Deux gigolos de Portland, l\'un narcoleptique, l\'autre prince déchu, cherchent une mère et un père.',
+    description:
+      "Deux gigolos de Portland, l'un narcoleptique, l'autre prince déchu, cherchent une mère et un père.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -1306,7 +1357,8 @@ export const baseMoviesMissingAnnees19901994: BaseMovie[] = [
     length: 101,
     genre: ['Policier', 'Action', 'Drame'],
     saga: '',
-    description: 'Un caïd du crack prend un immeuble de Harlem ; deux flics, l\'un black l\'autre blanc, le démontent.',
+    description:
+      "Un caïd du crack prend un immeuble de Harlem ; deux flics, l'un black l'autre blanc, le démontent.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -1327,7 +1379,8 @@ export const baseMoviesMissingAnnees19901994: BaseMovie[] = [
     length: 106,
     genre: ['Action', 'Aventure', 'Comédie'],
     saga: 'Opération Condor',
-    description: 'Jackie cherche de l\'or nazi dans le Sahara, base secrète, sables et cascades sans filet.',
+    description:
+      "Jackie cherche de l'or nazi dans le Sahara, base secrète, sables et cascades sans filet.",
     fromEntity: null,
     countryOrigin: ['Chine'],
     selectDisplayOrder: 0,
@@ -1348,7 +1401,8 @@ export const baseMoviesMissingAnnees19901994: BaseMovie[] = [
     length: 118,
     genre: ['Animation', 'Drame', 'Romance'],
     saga: '',
-    description: 'Une trentenaire rentre à la campagne et revit son enfance, Ghibli sans magie autre que la mémoire.',
+    description:
+      'Une trentenaire rentre à la campagne et revit son enfance, Ghibli sans magie autre que la mémoire.',
     fromEntity: null,
     countryOrigin: ['Japon'],
     selectDisplayOrder: 0,
@@ -1369,7 +1423,8 @@ export const baseMoviesMissingAnnees19901994: BaseMovie[] = [
     length: 118,
     genre: ['Comédie musicale', 'Drame', 'Comédie'],
     saga: '',
-    description: 'Des chômeurs de Dublin montent un groupe soul, ego, cuivres et « Mustang Sally ».',
+    description:
+      'Des chômeurs de Dublin montent un groupe soul, ego, cuivres et « Mustang Sally ».',
     fromEntity: {
       entityType: 'book',
       title: 'The Commitments',
@@ -1394,7 +1449,8 @@ export const baseMoviesMissingAnnees19901994: BaseMovie[] = [
     length: 140,
     genre: ['Drame', 'Biographie', 'Comédie musicale'],
     saga: '',
-    description: 'Jim Morrison, du UCLA à Paris, chamanisme, whisky et un Val Kilmer trop ressemblant.',
+    description:
+      'Jim Morrison, du UCLA à Paris, chamanisme, whisky et un Val Kilmer trop ressemblant.',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -1415,7 +1471,8 @@ export const baseMoviesMissingAnnees19901994: BaseMovie[] = [
     length: 108,
     genre: ['Aventure', 'Science Fiction', 'Action'],
     saga: '',
-    description: 'Un pilote de 1938 enfile un réacteur volé par les nazis, Hollywood, zeppelins et pin-up.',
+    description:
+      'Un pilote de 1938 enfile un réacteur volé par les nazis, Hollywood, zeppelins et pin-up.',
     fromEntity: {
       entityType: 'comic',
       title: 'The Rocketeer',
@@ -1440,7 +1497,8 @@ export const baseMoviesMissingAnnees19901994: BaseMovie[] = [
     length: 115,
     genre: ['Drame', 'Biographie', 'Historique'],
     saga: '',
-    description: 'Monsieur de Sainte-Colombe enseigne la viole à Marin Marais, deuil, silence et note tenue.',
+    description:
+      'Monsieur de Sainte-Colombe enseigne la viole à Marin Marais, deuil, silence et note tenue.',
     fromEntity: {
       entityType: 'book',
       title: 'Tous les matins du monde',
@@ -1465,7 +1523,8 @@ export const baseMoviesMissingAnnees19901994: BaseMovie[] = [
     length: 98,
     genre: ['Comédie', 'Drame'],
     saga: '',
-    description: 'Un cadre au chômage glisse à la rue et trouve une famille de SDF, humour triste et métro.',
+    description:
+      'Un cadre au chômage glisse à la rue et trouve une famille de SDF, humour triste et métro.',
     fromEntity: null,
     countryOrigin: ['France'],
     selectDisplayOrder: 0,
@@ -1486,7 +1545,8 @@ export const baseMoviesMissingAnnees19901994: BaseMovie[] = [
     length: 109,
     genre: ['Thriller', 'Policier', 'Drame'],
     saga: '',
-    description: 'Une flic s\'infiltre chez les Hassidim de Brooklyn pour un meurtre, perruque et maladresses.',
+    description:
+      "Une flic s'infiltre chez les Hassidim de Brooklyn pour un meurtre, perruque et maladresses.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -1507,14 +1567,15 @@ export const baseMoviesMissingAnnees19901994: BaseMovie[] = [
     length: 128,
     genre: ['Action', 'Policier', 'Thriller'],
     saga: '',
-    description: 'Un flic et un tueur sous couverture se lient dans une triade, hôpital, colombes, balles à n\'en plus finir.',
+    description:
+      "Un flic et un tueur sous couverture se lient dans une triade, hôpital, colombes, balles à n'en plus finir.",
     fromEntity: null,
     countryOrigin: ['Chine'],
     selectDisplayOrder: 0,
     oscars: [],
   },
   {
-    title: 'All\'s Well, Ends Well',
+    title: "All's Well, Ends Well",
     director: 'Clifton Ko',
     actors: [
       { name: 'Leslie Cheung' },
@@ -1527,8 +1588,9 @@ export const baseMoviesMissingAnnees19901994: BaseMovie[] = [
     releaseDate: '1992-01-25',
     length: 101,
     genre: ['Comédie', 'Romance'],
-    saga: 'All\'s Well, Ends Well',
-    description: 'Trois frères, trois mariages impossibles, farce de Nouvel An hongkongais et Stephen Chow déjà fou.',
+    saga: "All's Well, Ends Well",
+    description:
+      'Trois frères, trois mariages impossibles, farce de Nouvel An hongkongais et Stephen Chow déjà fou.',
     fromEntity: null,
     countryOrigin: ['Chine'],
     selectDisplayOrder: 0,
@@ -1549,7 +1611,8 @@ export const baseMoviesMissingAnnees19901994: BaseMovie[] = [
     length: 125,
     genre: ['Drame', 'Policier', 'Biographie'],
     saga: '',
-    description: 'Un chef de gang chicano sort de Folsom et retrouve un East L.A. qu\'il a lui-même empoisonné.',
+    description:
+      "Un chef de gang chicano sort de Folsom et retrouve un East L.A. qu'il a lui-même empoisonné.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -1570,13 +1633,12 @@ export const baseMoviesMissingAnnees19901994: BaseMovie[] = [
     length: 109,
     genre: ['Comédie', 'Romance', 'Drame'],
     saga: '',
-    description: 'Espagne 1931, un déserteur est recueilli par un anarchiste et ses quatre filles, une par saison.',
+    description:
+      'Espagne 1931, un déserteur est recueilli par un anarchiste et ses quatre filles, une par saison.',
     fromEntity: null,
     countryOrigin: ['Espagne'],
     selectDisplayOrder: 0,
-    oscars: [
-      { type: OscarEnum.OSCAR_BEST_INTERNATIONAL_FEATURE, year: 1994 },
-    ],
+    oscars: [{ type: OscarEnum.OSCAR_BEST_INTERNATIONAL_FEATURE, year: 1994 }],
   },
   {
     title: 'Boomerang',
@@ -1593,7 +1655,8 @@ export const baseMoviesMissingAnnees19901994: BaseMovie[] = [
     length: 117,
     genre: ['Comédie', 'Romance'],
     saga: '',
-    description: 'Un séducteur en pub se fait traiter comme il traitait les femmes, costumes et retournement.',
+    description:
+      'Un séducteur en pub se fait traiter comme il traitait les femmes, costumes et retournement.',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -1614,7 +1677,8 @@ export const baseMoviesMissingAnnees19901994: BaseMovie[] = [
     length: 104,
     genre: ['Horreur', 'Comédie'],
     saga: '',
-    description: 'Un rat-singe mord une mère possessive ; Wellington se noie sous les boyaux et la tondeuse.',
+    description:
+      'Un rat-singe mord une mère possessive ; Wellington se noie sous les boyaux et la tondeuse.',
     fromEntity: null,
     countryOrigin: ['Nouvelle-Zélande'],
     selectDisplayOrder: 0,
@@ -1635,7 +1699,8 @@ export const baseMoviesMissingAnnees19901994: BaseMovie[] = [
     length: 86,
     genre: ['Comédie', 'Horreur', 'Fantastique'],
     saga: 'Buffy contre les vampires',
-    description: 'Une pom-pom girl de Los Angeles apprend qu\'elle est l\'Élue, malls, pieux et vampires kitsch.',
+    description:
+      "Une pom-pom girl de Los Angeles apprend qu'elle est l'Élue, malls, pieux et vampires kitsch.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -1656,7 +1721,8 @@ export const baseMoviesMissingAnnees19901994: BaseMovie[] = [
     length: 99,
     genre: ['Horreur'],
     saga: 'Candyman',
-    description: 'Une chercheuse dit cinq fois le nom dans le miroir ; Cabrini-Green et un crochet pour main.',
+    description:
+      'Une chercheuse dit cinq fois le nom dans le miroir ; Cabrini-Green et un crochet pour main.',
     fromEntity: {
       entityType: 'book',
       title: 'The Forbidden',
@@ -1681,7 +1747,8 @@ export const baseMoviesMissingAnnees19901994: BaseMovie[] = [
     length: 99,
     genre: ['Thriller', 'Drame'],
     saga: '',
-    description: 'Un couple échange de partenaires avec les voisins ; l\'assurance-vie et le cadavre suivent.',
+    description:
+      "Un couple échange de partenaires avec les voisins ; l'assurance-vie et le cadavre suivent.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -1702,7 +1769,8 @@ export const baseMoviesMissingAnnees19901994: BaseMovie[] = [
     length: 102,
     genre: ['Romance', 'Science Fiction', 'Drame'],
     saga: '',
-    description: 'Un pilote de 1939 se fait cryogéniser et se réveille en 1992, amour perdu et enfant du voisin.',
+    description:
+      'Un pilote de 1939 se fait cryogéniser et se réveille en 1992, amour perdu et enfant du voisin.',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -1723,7 +1791,8 @@ export const baseMoviesMissingAnnees19901994: BaseMovie[] = [
     length: 100,
     genre: ['Drame'],
     saga: '',
-    description: 'Des vendeurs immobiliers se battent pour des leads, Baldwin en costume, café et humiliation.',
+    description:
+      'Des vendeurs immobiliers se battent pour des leads, Baldwin en costume, café et humiliation.',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -1744,7 +1813,8 @@ export const baseMoviesMissingAnnees19901994: BaseMovie[] = [
     length: 97,
     genre: ['Horreur', 'Fantastique'],
     saga: 'Hellraiser',
-    description: 'Pinhead sort d\'une statue à New York, discothèque, chaînes et reporter trop curieuse.',
+    description:
+      "Pinhead sort d'une statue à New York, discothèque, chaînes et reporter trop curieuse.",
     fromEntity: null,
     countryOrigin: ['États-Unis', 'Royaume-Uni'],
     selectDisplayOrder: 0,
@@ -1765,7 +1835,8 @@ export const baseMoviesMissingAnnees19901994: BaseMovie[] = [
     length: 113,
     genre: ['Action', 'Aventure', 'Historique'],
     saga: 'Il était une fois en Chine',
-    description: 'Wong Fei-hung affronte un maître du jingwu et les Boxers, Donnie Yen déjà terrible.',
+    description:
+      'Wong Fei-hung affronte un maître du jingwu et les Boxers, Donnie Yen déjà terrible.',
     fromEntity: null,
     countryOrigin: ['Chine'],
     selectDisplayOrder: 0,
@@ -1786,13 +1857,12 @@ export const baseMoviesMissingAnnees19901994: BaseMovie[] = [
     length: 159,
     genre: ['Drame', 'Romance', 'Historique'],
     saga: '',
-    description: 'Une planteuse de caoutchouc et sa fille adoptive aiment le même officier, Vietnam colonial qui s\'écroule.',
+    description:
+      "Une planteuse de caoutchouc et sa fille adoptive aiment le même officier, Vietnam colonial qui s'écroule.",
     fromEntity: null,
     countryOrigin: ['France'],
     selectDisplayOrder: 0,
-    oscars: [
-      { type: OscarEnum.OSCAR_BEST_INTERNATIONAL_FEATURE, year: 1993 },
-    ],
+    oscars: [{ type: OscarEnum.OSCAR_BEST_INTERNATIONAL_FEATURE, year: 1993 }],
   },
   {
     title: 'L.627',
@@ -1809,14 +1879,15 @@ export const baseMoviesMissingAnnees19901994: BaseMovie[] = [
     length: 145,
     genre: ['Policier', 'Drame'],
     saga: '',
-    description: 'Un flic de stup parisiens, procédures, dealers et fatigue : le quotidien sans héros.',
+    description:
+      'Un flic de stup parisiens, procédures, dealers et fatigue : le quotidien sans héros.',
     fromEntity: null,
     countryOrigin: ['France'],
     selectDisplayOrder: 0,
     oscars: [],
   },
   {
-    title: 'L\'Amant',
+    title: "L'Amant",
     director: 'Jean-Jacques Annaud',
     actors: [
       { name: 'Jane March' },
@@ -1830,10 +1901,11 @@ export const baseMoviesMissingAnnees19901994: BaseMovie[] = [
     length: 115,
     genre: ['Drame', 'Romance'],
     saga: '',
-    description: 'Saïgon 1929, une lycéenne pauvre et un Chinois riche, bac, chapeau et voix off de Duras.',
+    description:
+      'Saïgon 1929, une lycéenne pauvre et un Chinois riche, bac, chapeau et voix off de Duras.',
     fromEntity: {
       entityType: 'book',
-      title: 'L\'Amant',
+      title: "L'Amant",
       secondEntityKey: 'Marguerite Duras',
     },
     countryOrigin: ['France', 'Royaume-Uni'],
@@ -1855,7 +1927,8 @@ export const baseMoviesMissingAnnees19901994: BaseMovie[] = [
     length: 126,
     genre: ['Drame', 'Romance', 'Biographie'],
     saga: '',
-    description: 'Un cinéaste séropositif aime une jeune fille et un homme, nuits, sang et refus de se protéger.',
+    description:
+      'Un cinéaste séropositif aime une jeune fille et un homme, nuits, sang et refus de se protéger.',
     fromEntity: {
       entityType: 'book',
       title: 'Les Nuits fauves',
@@ -1880,7 +1953,8 @@ export const baseMoviesMissingAnnees19901994: BaseMovie[] = [
     length: 100,
     genre: ['Horreur'],
     saga: 'Simetierre',
-    description: 'Un ado enterre sa mère et son chien au cimetière indien ; ils reviennent, plus méchants.',
+    description:
+      'Un ado enterre sa mère et son chien au cimetière indien ; ils reviennent, plus méchants.',
     fromEntity: {
       entityType: 'book',
       title: 'Simetierre',
@@ -1905,10 +1979,11 @@ export const baseMoviesMissingAnnees19901994: BaseMovie[] = [
     length: 113,
     genre: ['Drame', 'Comédie'],
     saga: '',
-    description: 'Une paysanne enceinte veut des excuses du chef de village, bureaucratie jusqu\'à Pékin.',
+    description:
+      "Une paysanne enceinte veut des excuses du chef de village, bureaucratie jusqu'à Pékin.",
     fromEntity: {
       entityType: 'book',
-      title: 'The Wan Family\'s Lawsuit',
+      title: "The Wan Family's Lawsuit",
       secondEntityKey: 'Chen Yuanbin',
     },
     countryOrigin: ['Chine'],
@@ -1930,7 +2005,8 @@ export const baseMoviesMissingAnnees19901994: BaseMovie[] = [
     length: 140,
     genre: ['Drame', 'Romance', 'Historique'],
     saga: '',
-    description: 'Deux sœurs Schlegel croisent les Wilcox et les Bast, une maison de campagne et l\'Angleterre de classe.',
+    description:
+      "Deux sœurs Schlegel croisent les Wilcox et les Bast, une maison de campagne et l'Angleterre de classe.",
     fromEntity: {
       entityType: 'book',
       title: 'Howards End',
@@ -1959,7 +2035,8 @@ export const baseMoviesMissingAnnees19901994: BaseMovie[] = [
     length: 96,
     genre: ['Action', 'Comédie', 'Policier'],
     saga: 'Police Story',
-    description: 'Ka-kui et une flic de Malaisie démantèlent un réseau, train, moto et Michelle Yeoh sans cascadeuse.',
+    description:
+      'Ka-kui et une flic de Malaisie démantèlent un réseau, train, moto et Michelle Yeoh sans cascadeuse.',
     fromEntity: null,
     countryOrigin: ['Chine'],
     selectDisplayOrder: 0,
@@ -1980,7 +2057,8 @@ export const baseMoviesMissingAnnees19901994: BaseMovie[] = [
     length: 81,
     genre: ['Horreur', 'Science Fiction'],
     saga: 'Tetsuo',
-    description: 'Un père de famille se métamorphose en arme de métal, couleur, bodybuilding et catastrophe urbaine.',
+    description:
+      'Un père de famille se métamorphose en arme de métal, couleur, bodybuilding et catastrophe urbaine.',
     fromEntity: null,
     countryOrigin: ['Japon'],
     selectDisplayOrder: 0,
@@ -2001,7 +2079,8 @@ export const baseMoviesMissingAnnees19901994: BaseMovie[] = [
     length: 124,
     genre: ['Comédie', 'Thriller', 'Drame'],
     saga: '',
-    description: 'Un producteur tue un scénariste éconduit et survit à Hollywood, cameos et happy end cynique.',
+    description:
+      'Un producteur tue un scénariste éconduit et survit à Hollywood, cameos et happy end cynique.',
     fromEntity: {
       entityType: 'book',
       title: 'The Player',
@@ -2026,7 +2105,8 @@ export const baseMoviesMissingAnnees19901994: BaseMovie[] = [
     length: 105,
     genre: ['Drame', 'Romance'],
     saga: '',
-    description: 'Un luthier se refuse à aimer la violoniste de son associé, Ravel, silence et cruauté douce.',
+    description:
+      'Un luthier se refuse à aimer la violoniste de son associé, Ravel, silence et cruauté douce.',
     fromEntity: null,
     countryOrigin: ['France'],
     selectDisplayOrder: 0,
@@ -2040,14 +2120,15 @@ export const baseMoviesMissingAnnees19901994: BaseMovie[] = [
       { name: 'Tom Hanks' },
       { name: 'Madonna' },
       { name: 'Lori Petty' },
-      { name: 'Rosie O\'Donnell' },
+      { name: "Rosie O'Donnell" },
     ],
     coverUrl: '',
     releaseDate: '1992-07-01',
     length: 128,
     genre: ['Comédie', 'Drame'],
     saga: '',
-    description: 'Pendant la guerre, une ligue féminine de baseball, un coach alcoolique et « there\'s no crying ».',
+    description:
+      "Pendant la guerre, une ligue féminine de baseball, un coach alcoolique et « there's no crying ».",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -2060,7 +2141,7 @@ export const baseMoviesMissingAnnees19901994: BaseMovie[] = [
       { name: 'Jean-Claude Van Damme' },
       { name: 'Dolph Lundgren' },
       { name: 'Ally Walker' },
-      { name: 'Ed O\'Ross' },
+      { name: "Ed O'Ross" },
       { name: 'Jerry Orbach' },
     ],
     coverUrl: '',
@@ -2068,14 +2149,15 @@ export const baseMoviesMissingAnnees19901994: BaseMovie[] = [
     length: 102,
     genre: ['Action', 'Science Fiction'],
     saga: 'Universal Soldier',
-    description: 'Des soldats morts au Vietnam sont recyclés en armes ; l\'un se souvient, l\'autre veut encore tuer.',
+    description:
+      "Des soldats morts au Vietnam sont recyclés en armes ; l'un se souvient, l'autre veut encore tuer.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
     oscars: [],
   },
   {
-    title: 'White Men Can\'t Jump',
+    title: "White Men Can't Jump",
     director: 'Ron Shelton',
     actors: [
       { name: 'Woody Harrelson' },
@@ -2089,7 +2171,8 @@ export const baseMoviesMissingAnnees19901994: BaseMovie[] = [
     length: 115,
     genre: ['Comédie', 'Drame'],
     saga: '',
-    description: 'Deux arnaqueurs de streetball à Venice, l\'un blanc trop sûr, l\'autre black trop fort, et une femme au Jeopardy.',
+    description:
+      "Deux arnaqueurs de streetball à Venice, l'un blanc trop sûr, l'autre black trop fort, et une femme au Jeopardy.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -2110,7 +2193,8 @@ export const baseMoviesMissingAnnees19901994: BaseMovie[] = [
     length: 121,
     genre: ['Drame', 'Policier'],
     saga: '',
-    description: 'Un gamin du Bronx entre son père chauffeur et un caïd qui lui sourit, 1960, race et loyauté.',
+    description:
+      'Un gamin du Bronx entre son père chauffeur et un caïd qui lui sourit, 1960, race et loyauté.',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -2131,7 +2215,8 @@ export const baseMoviesMissingAnnees19901994: BaseMovie[] = [
     length: 171,
     genre: ['Drame', 'Romance', 'Historique'],
     saga: '',
-    description: 'Deux acteurs d\'opéra de Pékin, de l\'enfance à la Révolution culturelle, rôles figés et trahisons.',
+    description:
+      "Deux acteurs d'opéra de Pékin, de l'enfance à la Révolution culturelle, rôles figés et trahisons.",
     fromEntity: {
       entityType: 'book',
       title: 'Adieu ma concubine',
@@ -2156,7 +2241,8 @@ export const baseMoviesMissingAnnees19901994: BaseMovie[] = [
     length: 133,
     genre: ['Drame', 'Biographie', 'Historique'],
     saga: '',
-    description: 'Gerry Conlon, accusé à tort des bombes de Guilford, pourrit en taule avec son père innocent.',
+    description:
+      'Gerry Conlon, accusé à tort des bombes de Guilford, pourrit en taule avec son père innocent.',
     fromEntity: {
       entityType: 'book',
       title: 'Proved Innocent',
@@ -2181,7 +2267,8 @@ export const baseMoviesMissingAnnees19901994: BaseMovie[] = [
     length: 98,
     genre: ['Romance', 'Comédie', 'Drame'],
     saga: '',
-    description: 'Un illuminé à la Chaplin s\'installe chez une schizophrène et son frère trop protecteur.',
+    description:
+      "Un illuminé à la Chaplin s'installe chez une schizophrène et son frère trop protecteur.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -2201,11 +2288,12 @@ export const baseMoviesMissingAnnees19901994: BaseMovie[] = [
     releaseDate: '1993-01-01',
     length: 87,
     genre: ['Horreur', 'Science Fiction', 'Thriller'],
-    saga: 'L\'Invasion des profanateurs',
-    description: 'Sur une base militaire, une ado voit sa famille remplacée par des cosses, cri qui n\'en finit pas.',
+    saga: "L'Invasion des profanateurs",
+    description:
+      "Sur une base militaire, une ado voit sa famille remplacée par des cosses, cri qui n'en finit pas.",
     fromEntity: {
       entityType: 'book',
-      title: 'L\'Invasion des profanateurs',
+      title: "L'Invasion des profanateurs",
       secondEntityKey: 'Jack Finney',
     },
     countryOrigin: ['États-Unis'],
@@ -2227,7 +2315,8 @@ export const baseMoviesMissingAnnees19901994: BaseMovie[] = [
     length: 113,
     genre: ['Thriller', 'Drame'],
     saga: '',
-    description: 'Un ingénieur licencié traverse L.A. à pied, bâton, fast-food et colère blanche qui tue.',
+    description:
+      'Un ingénieur licencié traverse L.A. à pied, bâton, fast-food et colère blanche qui tue.',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -2248,7 +2337,8 @@ export const baseMoviesMissingAnnees19901994: BaseMovie[] = [
     length: 95,
     genre: ['Comédie'],
     saga: '',
-    description: 'Un dîner d\'amis, un plat qui n\'arrive pas, rancœurs et répliques de Bacri-Jaoui autour de la table.',
+    description:
+      "Un dîner d'amis, un plat qui n'arrive pas, rancœurs et répliques de Bacri-Jaoui autour de la table.",
     fromEntity: null,
     countryOrigin: ['France'],
     selectDisplayOrder: 0,
@@ -2269,7 +2359,8 @@ export const baseMoviesMissingAnnees19901994: BaseMovie[] = [
     length: 110,
     genre: ['Comédie'],
     saga: '',
-    description: 'Un sosie du président le remplace après un AVC et gouverne trop bien, au goût du staff.',
+    description:
+      'Un sosie du président le remplace après un AVC et gouverne trop bien, au goût du staff.',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -2290,7 +2381,8 @@ export const baseMoviesMissingAnnees19901994: BaseMovie[] = [
     length: 102,
     genre: ['Comédie', 'Drame'],
     saga: '',
-    description: 'Texas 1976, le dernier jour de lycée, bizutage, bière, Aerosmith et McConaughey déjà all right all right.',
+    description:
+      'Texas 1976, le dernier jour de lycée, bizutage, bière, Aerosmith et McConaughey déjà all right all right.',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -2311,7 +2403,8 @@ export const baseMoviesMissingAnnees19901994: BaseMovie[] = [
     length: 85,
     genre: ['Comédie', 'Romance'],
     saga: '',
-    description: 'Alexandre aime Fanfan, déjà prise ; il s\'installe dans sa vie à force de charme et de mensonges tendres.',
+    description:
+      "Alexandre aime Fanfan, déjà prise ; il s'installe dans sa vie à force de charme et de mensonges tendres.",
     fromEntity: null,
     countryOrigin: ['France'],
     selectDisplayOrder: 0,
@@ -2332,7 +2425,8 @@ export const baseMoviesMissingAnnees19901994: BaseMovie[] = [
     length: 112,
     genre: ['Action', 'Aventure', 'Historique'],
     saga: 'Il était une fois en Chine',
-    description: 'Wong Fei-hung affronte un Russe à la force brute et un tournoi que Pékin veut truquer.',
+    description:
+      'Wong Fei-hung affronte un Russe à la force brute et un tournoi que Pékin veut truquer.',
     fromEntity: null,
     countryOrigin: ['Chine'],
     selectDisplayOrder: 0,
@@ -2353,7 +2447,8 @@ export const baseMoviesMissingAnnees19901994: BaseMovie[] = [
     length: 121,
     genre: ['Drame', 'Romance', 'Historique'],
     saga: '',
-    description: 'Une muette écossaise et son piano débarquent en Nouvelle-Zélande ; un colon lui rend les touches une à une.',
+    description:
+      'Une muette écossaise et son piano débarquent en Nouvelle-Zélande ; un colon lui rend les touches une à une.',
     fromEntity: null,
     countryOrigin: ['Nouvelle-Zélande', 'Australie', 'France'],
     selectDisplayOrder: 0,
@@ -2378,7 +2473,8 @@ export const baseMoviesMissingAnnees19901994: BaseMovie[] = [
     length: 94,
     genre: ['Comédie', 'Fantastique', 'Jeunesse'],
     saga: 'La Famille Addams',
-    description: 'Une nounou veut le coffre d\'Oncle Fester ; mercredi joue déjà trop bien à la chaise électrique.',
+    description:
+      "Une nounou veut le coffre d'Oncle Fester ; mercredi joue déjà trop bien à la chaise électrique.",
     fromEntity: {
       entityType: 'comic',
       title: 'The Addams Family',
@@ -2403,7 +2499,8 @@ export const baseMoviesMissingAnnees19901994: BaseMovie[] = [
     length: 134,
     genre: ['Drame', 'Romance', 'Historique'],
     saga: '',
-    description: 'Un majordome anglais a trop bien servi, trop peu aimé ; le voyage d\'après-guerre arrive trop tard.',
+    description:
+      "Un majordome anglais a trop bien servi, trop peu aimé ; le voyage d'après-guerre arrive trop tard.",
     fromEntity: {
       entityType: 'book',
       title: 'Les Vestiges du jour',
@@ -2428,7 +2525,8 @@ export const baseMoviesMissingAnnees19901994: BaseMovie[] = [
     length: 125,
     genre: ['Drame'],
     saga: '',
-    description: 'Un frère et une sœur se retrouvent autour d\'une mère malade, rancune, Hôpital et Noël impossible.',
+    description:
+      "Un frère et une sœur se retrouvent autour d'une mère malade, rancune, Hôpital et Noël impossible.",
     fromEntity: null,
     countryOrigin: ['France'],
     selectDisplayOrder: 0,
@@ -2449,7 +2547,8 @@ export const baseMoviesMissingAnnees19901994: BaseMovie[] = [
     length: 97,
     genre: ['Drame', 'Policier'],
     saga: '',
-    description: 'Watts, un ado veut sortir du trafic ; chaque choix le ramène vers une balle.',
+    description:
+      'Watts, un ado veut sortir du trafic ; chaque choix le ramène vers une balle.',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -2470,7 +2569,8 @@ export const baseMoviesMissingAnnees19901994: BaseMovie[] = [
     length: 188,
     genre: ['Drame', 'Comédie'],
     saga: '',
-    description: 'Vingt-deux vies de Los Angeles se croisent, tremblement de terre, infidélités et poisson trop cuit.',
+    description:
+      'Vingt-deux vies de Los Angeles se croisent, tremblement de terre, infidélités et poisson trop cuit.',
     fromEntity: {
       entityType: 'book',
       title: 'Short Cuts',
@@ -2495,7 +2595,8 @@ export const baseMoviesMissingAnnees19901994: BaseMovie[] = [
     length: 101,
     genre: ['Comédie', 'Jeunesse', 'Drame'],
     saga: '',
-    description: 'Été 1962, des gosses de baseball et un chien-monstre derrière la clôture, « you\'re killing me Smalls ».',
+    description:
+      "Été 1962, des gosses de baseball et un chien-monstre derrière la clôture, « you're killing me Smalls ».",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -2516,7 +2617,8 @@ export const baseMoviesMissingAnnees19901994: BaseMovie[] = [
     length: 130,
     genre: ['Western', 'Drame', 'Biographie'],
     saga: '',
-    description: 'Wyatt Earp à Tombstone, Doc Holliday tuberculeux, O.K. Corral et « I\'m your huckleberry ».',
+    description:
+      "Wyatt Earp à Tombstone, Doc Holliday tuberculeux, O.K. Corral et « I'm your huckleberry ».",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -2537,7 +2639,8 @@ export const baseMoviesMissingAnnees19901994: BaseMovie[] = [
     length: 98,
     genre: ['Drame'],
     saga: 'Trois couleurs',
-    description: 'Une veuve veut tout effacer après l\'accident ; le bleu, la musique inachevée et la liberté impossible.',
+    description:
+      "Une veuve veut tout effacer après l'accident ; le bleu, la musique inachevée et la liberté impossible.",
     fromEntity: null,
     countryOrigin: ['France', 'Pologne', 'Suisse'],
     selectDisplayOrder: 0,
@@ -2558,7 +2661,8 @@ export const baseMoviesMissingAnnees19901994: BaseMovie[] = [
     length: 119,
     genre: ['Action', 'Romance', 'Policier'],
     saga: '',
-    description: 'Un vendeur et une call-girl fuient avec de la coke, Tarantino au scénario, Sicile et Detroit.',
+    description:
+      'Un vendeur et une call-girl fuient avec de la coke, Tarantino au scénario, Sicile et Detroit.',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -2579,14 +2683,15 @@ export const baseMoviesMissingAnnees19901994: BaseMovie[] = [
     length: 138,
     genre: ['Drame', 'Thriller', 'Policier'],
     saga: '',
-    description: 'Un évadé kidnappe un gamin au Texas ; le flic qui les poursuit comprend trop tard qu\'ils s\'aiment.',
+    description:
+      "Un évadé kidnappe un gamin au Texas ; le flic qui les poursuit comprend trop tard qu'ils s'aiment.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
     oscars: [],
   },
   {
-    title: 'Wayne\'s World 2',
+    title: "Wayne's World 2",
     director: 'Stephen Surjik',
     actors: [
       { name: 'Mike Myers' },
@@ -2599,8 +2704,9 @@ export const baseMoviesMissingAnnees19901994: BaseMovie[] = [
     releaseDate: '1993-12-10',
     length: 95,
     genre: ['Comédie', 'Comédie musicale'],
-    saga: 'Wayne\'s World',
-    description: 'Wayne organise un festival, Aerosmith, un producteur louche et encore des citations de films.',
+    saga: "Wayne's World",
+    description:
+      'Wayne organise un festival, Aerosmith, un producteur louche et encore des citations de films.',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -2621,7 +2727,8 @@ export const baseMoviesMissingAnnees19901994: BaseMovie[] = [
     length: 93,
     genre: ['Drame'],
     saga: '',
-    description: 'Un lycéen de basket hésite entre le coach et un dealer, Harlem, playground et Tupac.',
+    description:
+      'Un lycéen de basket hésite entre le coach et un dealer, Harlem, playground et Tupac.',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -2635,14 +2742,15 @@ export const baseMoviesMissingAnnees19901994: BaseMovie[] = [
       { name: 'Sheryl Lee' },
       { name: 'Ian Hart' },
       { name: 'Gary Bakewell' },
-      { name: 'Chris O\'Neill' },
+      { name: "Chris O'Neill" },
     ],
     coverUrl: '',
     releaseDate: '1994-04-14',
     length: 100,
     genre: ['Drame', 'Biographie', 'Romance'],
     saga: '',
-    description: 'Hambourg 1960, Stuart Sutcliffe aime une photographe et quitte les Beatles trop tôt.',
+    description:
+      'Hambourg 1960, Stuart Sutcliffe aime une photographe et quitte les Beatles trop tôt.',
     fromEntity: null,
     countryOrigin: ['Royaume-Uni'],
     selectDisplayOrder: 0,
@@ -2663,7 +2771,8 @@ export const baseMoviesMissingAnnees19901994: BaseMovie[] = [
     length: 101,
     genre: ['Comédie', 'Drame', 'Romance'],
     saga: '',
-    description: 'Deux Américains à Barcelone, l\'un vendeur l\'autre navy, filles, anti-américanisme et last days of disco avant l\'heure.',
+    description:
+      "Deux Américains à Barcelone, l'un vendeur l'autre navy, filles, anti-américanisme et last days of disco avant l'heure.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -2684,7 +2793,8 @@ export const baseMoviesMissingAnnees19901994: BaseMovie[] = [
     length: 121,
     genre: ['Action', 'Thriller'],
     saga: '',
-    description: 'Un démineur de Boston est poursuivi par un poseur de bombes irlandais, oncle et fils mêlés.',
+    description:
+      'Un démineur de Boston est poursuivi par un poseur de bombes irlandais, oncle et fils mêlés.',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -2705,7 +2815,8 @@ export const baseMoviesMissingAnnees19901994: BaseMovie[] = [
     length: 102,
     genre: ['Romance', 'Drame', 'Comédie'],
     saga: '',
-    description: 'Deux flics, deux amours, boîtes de sardines périmées et Faye Wong dans un snack de l\'aéroport.',
+    description:
+      "Deux flics, deux amours, boîtes de sardines périmées et Faye Wong dans un snack de l'aéroport.",
     fromEntity: null,
     countryOrigin: ['Chine'],
     selectDisplayOrder: 0,
@@ -2715,7 +2826,7 @@ export const baseMoviesMissingAnnees19901994: BaseMovie[] = [
     title: 'Clerks',
     director: 'Kevin Smith',
     actors: [
-      { name: 'Brian O\'Halloran' },
+      { name: "Brian O'Halloran" },
       { name: 'Jeff Anderson' },
       { name: 'Marilyn Ghigliotti' },
       { name: 'Lisa Spoonauer' },
@@ -2726,7 +2837,8 @@ export const baseMoviesMissingAnnees19901994: BaseMovie[] = [
     length: 92,
     genre: ['Comédie'],
     saga: 'View Askewniverse',
-    description: 'Une journée dans un minimarket du New Jersey, clients, hockey sur le toit et débats Star Wars.',
+    description:
+      'Une journée dans un minimarket du New Jersey, clients, hockey sur le toit et débats Star Wars.',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -2747,13 +2859,12 @@ export const baseMoviesMissingAnnees19901994: BaseMovie[] = [
     length: 98,
     genre: ['Comédie', 'Drame'],
     saga: '',
-    description: 'Un auteur de 1928 laisse un tueur de la mafia réécrire sa pièce ; Wiest, Tilly et Palminteri volent la scène.',
+    description:
+      'Un auteur de 1928 laisse un tueur de la mafia réécrire sa pièce ; Wiest, Tilly et Palminteri volent la scène.',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
-    oscars: [
-      { type: OscarEnum.OSCAR_BEST_SUPPORTING_ACTRESS, year: 1995 },
-    ],
+    oscars: [{ type: OscarEnum.OSCAR_BEST_SUPPORTING_ACTRESS, year: 1995 }],
   },
   {
     title: 'Dellamorte Dellamore',
@@ -2770,7 +2881,8 @@ export const baseMoviesMissingAnnees19901994: BaseMovie[] = [
     length: 105,
     genre: ['Horreur', 'Comédie', 'Romance'],
     saga: '',
-    description: 'Un gardien de cimetière descend les morts qui se relèvent, aime une veuve trop souvent, Buffalora.',
+    description:
+      'Un gardien de cimetière descend les morts qui se relèvent, aime une veuve trop souvent, Buffalora.',
     fromEntity: {
       entityType: 'comic',
       title: 'Dylan Dog',
@@ -2795,7 +2907,8 @@ export const baseMoviesMissingAnnees19901994: BaseMovie[] = [
     length: 102,
     genre: ['Action', 'Comédie'],
     saga: 'Drunken Master',
-    description: 'Wong Fei-hung ivre affronte un axe colonial, baguettes enflammées et la forge finale.',
+    description:
+      'Wong Fei-hung ivre affronte un axe colonial, baguettes enflammées et la forge finale.',
     fromEntity: null,
     countryOrigin: ['Chine'],
     selectDisplayOrder: 0,
@@ -2816,7 +2929,8 @@ export const baseMoviesMissingAnnees19901994: BaseMovie[] = [
     length: 103,
     genre: ['Drame', 'Thriller'],
     saga: '',
-    description: 'Un fiscaliste fréquente un club de strip-tease pour revoir, encore, la même danseuse-écolière.',
+    description:
+      'Un fiscaliste fréquente un club de strip-tease pour revoir, encore, la même danseuse-écolière.',
     fromEntity: null,
     countryOrigin: ['Canada'],
     selectDisplayOrder: 0,
@@ -2837,7 +2951,8 @@ export const baseMoviesMissingAnnees19901994: BaseMovie[] = [
     length: 103,
     genre: ['Action', 'Drame', 'Historique'],
     saga: '',
-    description: 'Chen Zhen venge son maître tué par les Japonais, jingwu, dojo et Jet Li au sommet du réalisme.',
+    description:
+      'Chen Zhen venge son maître tué par les Japonais, jingwu, dojo et Jet Li au sommet du réalisme.',
     fromEntity: null,
     countryOrigin: ['Chine'],
     selectDisplayOrder: 0,
@@ -2858,14 +2973,15 @@ export const baseMoviesMissingAnnees19901994: BaseMovie[] = [
     length: 84,
     genre: ['Comédie'],
     saga: '',
-    description: 'Michel Blanc est doublé par un sosie qui lui vole rôles et femme, Cannes et paranoïa.',
+    description:
+      'Michel Blanc est doublé par un sosie qui lui vole rôles et femme, Cannes et paranoïa.',
     fromEntity: null,
     countryOrigin: ['France'],
     selectDisplayOrder: 0,
     oscars: [],
   },
   {
-    title: 'L\'Eau froide',
+    title: "L'Eau froide",
     director: 'Olivier Assayas',
     actors: [
       { name: 'Virginie Ledoyen' },
@@ -2879,7 +2995,8 @@ export const baseMoviesMissingAnnees19901994: BaseMovie[] = [
     length: 92,
     genre: ['Drame', 'Romance'],
     saga: '',
-    description: '1972, deux ados en rupture brûlent une maison de campagne, Creedence et fugue d\'hiver.',
+    description:
+      "1972, deux ados en rupture brûlent une maison de campagne, Creedence et fugue d'hiver.",
     fromEntity: null,
     countryOrigin: ['France'],
     selectDisplayOrder: 0,
@@ -2900,7 +3017,8 @@ export const baseMoviesMissingAnnees19901994: BaseMovie[] = [
     length: 162,
     genre: ['Drame', 'Historique', 'Romance'],
     saga: '',
-    description: '1572, Margot épouse Henri de Navarre ; la Saint-Barthélemy inonde le Louvre de sang.',
+    description:
+      '1572, Margot épouse Henri de Navarre ; la Saint-Barthélemy inonde le Louvre de sang.',
     fromEntity: {
       entityType: 'book',
       title: 'La Reine Margot',
@@ -2925,7 +3043,8 @@ export const baseMoviesMissingAnnees19901994: BaseMovie[] = [
     length: 110,
     genre: ['Drame', 'Historique'],
     saga: '',
-    description: 'Un colonel laissé pour mort à Eylau revient à Paris ; sa femme a déjà hérité et se remarié.',
+    description:
+      'Un colonel laissé pour mort à Eylau revient à Paris ; sa femme a déjà hérité et se remarié.',
     fromEntity: {
       entityType: 'book',
       title: 'Le Colonel Chabert',
@@ -2950,7 +3069,8 @@ export const baseMoviesMissingAnnees19901994: BaseMovie[] = [
     length: 100,
     genre: ['Action', 'Drame', 'Romance'],
     saga: '',
-    description: 'Des épéistes errants, désert, souvenirs d\'un amour trop tard, wuxia de la mémoire plus que du coup.',
+    description:
+      "Des épéistes errants, désert, souvenirs d'un amour trop tard, wuxia de la mémoire plus que du coup.",
     fromEntity: null,
     countryOrigin: ['Chine'],
     selectDisplayOrder: 0,
@@ -2971,7 +3091,8 @@ export const baseMoviesMissingAnnees19901994: BaseMovie[] = [
     length: 110,
     genre: ['Drame', 'Romance'],
     saga: '',
-    description: '1962, un internat du Sud-Ouest, l\'Algérie, un ado qui s\'aime et un pied-noir trop beau.',
+    description:
+      "1962, un internat du Sud-Ouest, l'Algérie, un ado qui s'aime et un pied-noir trop beau.",
     fromEntity: null,
     countryOrigin: ['France'],
     selectDisplayOrder: 0,
@@ -2992,7 +3113,8 @@ export const baseMoviesMissingAnnees19901994: BaseMovie[] = [
     length: 106,
     genre: ['Comédie', 'Drame', 'Romance'],
     saga: '',
-    description: 'Muriel, maladroite et fan d\'ABBA, s\'invite au mariage de son amie et se trouve enfin.',
+    description:
+      "Muriel, maladroite et fan d'ABBA, s'invite au mariage de son amie et se trouve enfin.",
     fromEntity: null,
     countryOrigin: ['Australie'],
     selectDisplayOrder: 0,
@@ -3013,7 +3135,8 @@ export const baseMoviesMissingAnnees19901994: BaseMovie[] = [
     length: 102,
     genre: ['Drame'],
     saga: '',
-    description: 'Une famille maorie, un mari violent, un fils qui cherche les anciens, Auckland trop dur.',
+    description:
+      'Une famille maorie, un mari violent, un fils qui cherche les anciens, Auckland trop dur.',
     fromEntity: {
       entityType: 'book',
       title: 'Once Were Warriors',
@@ -3038,7 +3161,8 @@ export const baseMoviesMissingAnnees19901994: BaseMovie[] = [
     length: 119,
     genre: ['Animation', 'Fantastique', 'Comédie'],
     saga: '',
-    description: 'Des tanuki transforment leurs testicules en armes pour sauver la forêt, Ghibli écologique et grotesque.',
+    description:
+      'Des tanuki transforment leurs testicules en armes pour sauver la forêt, Ghibli écologique et grotesque.',
     fromEntity: null,
     countryOrigin: ['Japon'],
     selectDisplayOrder: 0,
@@ -3059,13 +3183,12 @@ export const baseMoviesMissingAnnees19901994: BaseMovie[] = [
     length: 104,
     genre: ['Comédie', 'Comédie musicale', 'Drame'],
     saga: '',
-    description: 'Trois drag queens traversent l\'Outback dans un bus lavande, aborigènes, lèvres et « I Will Survive ».',
+    description:
+      "Trois drag queens traversent l'Outback dans un bus lavande, aborigènes, lèvres et « I Will Survive ».",
     fromEntity: null,
     countryOrigin: ['Australie'],
     selectDisplayOrder: 0,
-    oscars: [
-      { type: OscarEnum.OSCAR_BEST_COSTUME_DESIGN, year: 1995 },
-    ],
+    oscars: [{ type: OscarEnum.OSCAR_BEST_COSTUME_DESIGN, year: 1995 }],
   },
   {
     title: 'Quatre mariages et un enterrement',
@@ -3082,7 +3205,8 @@ export const baseMoviesMissingAnnees19901994: BaseMovie[] = [
     length: 117,
     genre: ['Comédie', 'Romance'],
     saga: '',
-    description: 'Charles collectionne les cérémonies, bafouille, et rattrape Carrie au cinquième rendez-vous.',
+    description:
+      'Charles collectionne les cérémonies, bafouille, et rattrape Carrie au cinquième rendez-vous.',
     fromEntity: null,
     countryOrigin: ['Royaume-Uni'],
     selectDisplayOrder: 0,
@@ -3103,7 +3227,8 @@ export const baseMoviesMissingAnnees19901994: BaseMovie[] = [
     length: 133,
     genre: ['Drame', 'Historique', 'Biographie'],
     saga: '',
-    description: 'Les jeux télévisés des années 50 sont truqués ; un héros trop propre accepte les réponses.',
+    description:
+      'Les jeux télévisés des années 50 sont truqués ; un héros trop propre accepte les réponses.',
     fromEntity: {
       entityType: 'book',
       title: 'Remembering America',
@@ -3128,7 +3253,8 @@ export const baseMoviesMissingAnnees19901994: BaseMovie[] = [
     length: 90,
     genre: ['Policier', 'Thriller', 'Drame'],
     saga: '',
-    description: 'Un flic veuf recueille un jeune menteur ; un tueur à gages vieillissant achève ses contrats.',
+    description:
+      'Un flic veuf recueille un jeune menteur ; un tueur à gages vieillissant achève ses contrats.',
     fromEntity: {
       entityType: 'book',
       title: 'Triangle',
@@ -3153,7 +3279,8 @@ export const baseMoviesMissingAnnees19901994: BaseMovie[] = [
     length: 121,
     genre: ['Science Fiction', 'Aventure', 'Action'],
     saga: 'Stargate',
-    description: 'Une porte égyptienne ouvre sur une autre planète ; un colonel et un égyptologue réveillent un dieu.',
+    description:
+      'Une porte égyptienne ouvre sur une autre planète ; un colonel et un égyptologue réveillent un dieu.',
     fromEntity: null,
     countryOrigin: ['États-Unis', 'France'],
     selectDisplayOrder: 0,
@@ -3174,7 +3301,8 @@ export const baseMoviesMissingAnnees19901994: BaseMovie[] = [
     length: 111,
     genre: ['Comédie'],
     saga: '',
-    description: 'Un naïf est nommé PDG pour faire chuter l\'action ; il invente le hula-hoop, Capra version Coen.',
+    description:
+      "Un naïf est nommé PDG pour faire chuter l'action ; il invente le hula-hoop, Capra version Coen.",
     fromEntity: null,
     countryOrigin: ['États-Unis', 'Royaume-Uni'],
     selectDisplayOrder: 0,
@@ -3195,7 +3323,8 @@ export const baseMoviesMissingAnnees19901994: BaseMovie[] = [
     length: 99,
     genre: ['Action', 'Science Fiction', 'Policier'],
     saga: 'Timecop',
-    description: 'Un flic temporel empêche un sénateur de s\'enrichir dans le passé, et de tuer sa femme.',
+    description:
+      "Un flic temporel empêche un sénateur de s'enrichir dans le passé, et de tuer sa femme.",
     fromEntity: {
       entityType: 'comic',
       title: 'Timecop',
@@ -3220,7 +3349,8 @@ export const baseMoviesMissingAnnees19901994: BaseMovie[] = [
     length: 92,
     genre: ['Drame', 'Comédie'],
     saga: 'Trois couleurs',
-    description: 'Un Polonais humilié à Paris rentre à Varsovie, se fait passer pour mort et égalise le score.',
+    description:
+      'Un Polonais humilié à Paris rentre à Varsovie, se fait passer pour mort et égalise le score.',
     fromEntity: null,
     countryOrigin: ['France', 'Pologne', 'Suisse'],
     selectDisplayOrder: 0,
@@ -3241,7 +3371,8 @@ export const baseMoviesMissingAnnees19901994: BaseMovie[] = [
     length: 99,
     genre: ['Drame', 'Romance'],
     saga: 'Trois couleurs',
-    description: 'Une mannequin croise un juge qui écoute ses voisins ; fraternité, ferry et hasard qui referme la trilogie.',
+    description:
+      'Une mannequin croise un juge qui écoute ses voisins ; fraternité, ferry et hasard qui referme la trilogie.',
     fromEntity: null,
     countryOrigin: ['France', 'Pologne', 'Suisse'],
     selectDisplayOrder: 0,
@@ -3262,7 +3393,8 @@ export const baseMoviesMissingAnnees19901994: BaseMovie[] = [
     length: 119,
     genre: ['Thriller', 'Action', 'Drame'],
     saga: '',
-    description: 'Un couple de tueurs devient star télé, Stone zappe les styles, médias et sang.',
+    description:
+      'Un couple de tueurs devient star télé, Stone zappe les styles, médias et sang.',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
