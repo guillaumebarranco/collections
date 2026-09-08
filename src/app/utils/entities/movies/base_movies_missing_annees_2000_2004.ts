@@ -39,7 +39,7 @@ export const baseMoviesMissingAnnees20002004: BaseMovie[] = [
       { name: 'Fred Willard' },
     ],
     coverUrl:
-      'https://m.media-amazon.com/images/M/MV5BMTQ5OTc0NDU1MF5BMl5BanBnXkFtZTYwNzk1OTI3._V1_FMjpg_UX1000_.jpg',
+      '/movies_pictures/4c2131567ae4.jpg',
     releaseDate: '2000-09-29',
     length: 90,
     genre: ['Comédie'],
@@ -175,7 +175,7 @@ export const baseMoviesMissingAnnees20002004: BaseMovie[] = [
       { name: 'Greg Grunberg' },
     ],
     coverUrl:
-      'https://m.media-amazon.com/images/S/pv-target-images/5c97d91db62d2850d04583293222a6d7b02850bf931b4744f5cb6182a9a0ec5a.jpg',
+      '/movies_pictures/be3de1671df3.jpg',
     releaseDate: '2000-08-04',
     length: 112,
     genre: ['Science Fiction', 'Thriller', 'Horreur'],
@@ -250,7 +250,7 @@ export const baseMoviesMissingAnnees20002004: BaseMovie[] = [
       { name: 'Dominique Reymond' },
       { name: 'Olivier Perrier' },
     ],
-    coverUrl: 'https://m.media-amazon.com/images/I/71uRP+skyyL.jpg',
+    coverUrl: '/movies_pictures/833dcd88ad5c.jpg',
     releaseDate: '2000-07-12',
     length: 180,
     genre: ['Drame', 'Romance', 'Historique'],
@@ -396,7 +396,7 @@ export const baseMoviesMissingAnnees20002004: BaseMovie[] = [
       { name: 'James Fox' },
     ],
     coverUrl:
-      'https://m.media-amazon.com/images/M/MV5BZTliMzE0YTgtNjg3ZC00ZDM5LWFkZDQtZTU2OWQyOGQxYjY5XkEyXkFqcGc@._V1_.jpg',
+      '/movies_pictures/8c78884d1908.jpg',
     releaseDate: '2000-09-13',
     length: 89,
     genre: ['Policier', 'Thriller', 'Drame'],
@@ -442,7 +442,7 @@ export const baseMoviesMissingAnnees20002004: BaseMovie[] = [
       { name: 'Pierre Vernier' },
     ],
     coverUrl:
-      'https://m.media-amazon.com/images/S/pv-target-images/a571e8141f25ed84fe2f6f5af7b0c57d98b2305c0d02b02755291d8327f6afdf.jpg',
+      '/movies_pictures/f12cbe9419ac.jpg',
     releaseDate: '2000-12-20',
     length: 92,
     genre: ['Drame'],
@@ -921,7 +921,7 @@ export const baseMoviesMissingAnnees20002004: BaseMovie[] = [
       { name: 'Katrin Cartlidge' },
     ],
     coverUrl:
-      'https://m.media-amazon.com/images/M/MV5BNTY3MzY5OWQtOWE1NC00OTVmLWExZDctNzEyMjhiYTJlZTMzXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg',
+      '/movies_pictures/7e838a08013a.jpg',
     releaseDate: '2001-09-19',
     length: 98,
     genre: ['Guerre', 'Drame', 'Comédie'],
