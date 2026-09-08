@@ -843,7 +843,7 @@ export const baseMoviesMissingAnnees19951999: BaseMovie[] = [
       { name: 'Patrick Lung' },
     ],
     coverUrl:
-      'https://www.sevensept.com/SiteS7/151/2D%20BLACK%20MASK%20DVD%20Version%20remasterisee%203512394012493.jpg',
+      '/movies_pictures/656e03acb514.jpg',
     releaseDate: '1996-11-09',
     length: 99,
     genre: ['Action', 'Science Fiction'],
