@@ -21,7 +21,7 @@ export const baseMoviesMissingDocumentaire: BaseMovie[] = [
     genre: ['Documentaire', 'Drame'],
     saga: '',
     description:
-      'Des dockers trop trop trop Treichville trop trop trop se jouent eux-mêmes, Rouch trop Abidjan voix cinéma trop trop trop vérité.',
+      'Jean Rouch filme des dockers ivoiriens qui jouent leur propre vie à Abidjan, entre rêves de cinéma, identités inventées et vérité sociale.',
     fromEntity: null,
     countryOrigin: ['France'],
     selectDisplayOrder: 0,
@@ -43,7 +43,7 @@ export const baseMoviesMissingDocumentaire: BaseMovie[] = [
     genre: ['Documentaire'],
     saga: '',
     description:
-      'Paris trop trop trop 1960 trop trop trop êtes-vous trop trop trop heureux trop trop trop, Rouch trop Morin caméra vérité trop trop trop été trop trop trop micro.',
+      'Jean Rouch et Edgar Morin interrogent des Parisiens en 1960 sur leur bonheur, dans une expérience fondatrice du cinéma vérité.',
     fromEntity: null,
     countryOrigin: ['France'],
     selectDisplayOrder: 0,
@@ -65,7 +65,7 @@ export const baseMoviesMissingDocumentaire: BaseMovie[] = [
     genre: ['Documentaire', 'Comédie musicale', 'Biographie'],
     saga: '',
     description:
-      'Dylan trop trop trop Angleterre trop trop trop 65 électrique trop trop trop, Pennebaker trop cinéma trop trop trop vérité Subterranean cards.',
+      'D.A. Pennebaker suit Bob Dylan lors de sa tournée britannique de 1965, entre concerts électriques, provocations médiatiques et intimité d\'une star en mutation.',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -85,7 +85,7 @@ export const baseMoviesMissingDocumentaire: BaseMovie[] = [
     genre: ['Documentaire'],
     saga: '',
     description:
-      'Un asile trop trop trop Bridgewater censuré 20 ans, Wiseman trop nudité garde folie Massachusetts.',
+      'Frederick Wiseman plonge dans un hôpital psychiatrique pour criminels au Massachusetts et expose méthodes, humiliations et dysfonctionnements de l\'institution.',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -107,7 +107,7 @@ export const baseMoviesMissingDocumentaire: BaseMovie[] = [
     genre: ['Documentaire', 'Guerre', 'Historique'],
     saga: '',
     description:
-      'Clermont trop trop trop Occupation collabos 4h, Ophüls trop pitié chagrin Vichy interviews.',
+      'Marcel Ophüls reconstitue, à travers des témoignages, la collaboration et la résistance à Clermont-Ferrand pendant l\'Occupation.',
     fromEntity: null,
     countryOrigin: ['France', 'Suisse', 'Allemagne'],
     selectDisplayOrder: 0,
@@ -129,7 +129,7 @@ export const baseMoviesMissingDocumentaire: BaseMovie[] = [
     genre: ['Documentaire', 'Comédie musicale'],
     saga: '',
     description:
-      'Les Stones trop trop trop Altamont Hell Angels trop trop trop, Maysles trop meurtre concert 69 fin.',
+      'Les frères Maysles filment la tournée des Rolling Stones en 1969 jusqu\'au concert d\'Altamont, où la violence des Hell\'s Angels bascule en tragédie.',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -151,7 +151,7 @@ export const baseMoviesMissingDocumentaire: BaseMovie[] = [
     genre: ['Documentaire'],
     saga: '',
     description:
-      'Welles trop trop trop faussaires Irving Ibiza trop trop trop, essai cinéma mensonge magie trop trop trop F for Fake.',
+      'Orson Welles tisse un montage labyrinthique autour de faussaires, imposteurs et légendes pour questionner la frontière entre vérité et fiction.',
     fromEntity: null,
     countryOrigin: ['France', 'Iran', 'Allemagne'],
     selectDisplayOrder: 0,
@@ -173,7 +173,7 @@ export const baseMoviesMissingDocumentaire: BaseMovie[] = [
     genre: ['Documentaire', 'Biographie'],
     saga: '',
     description:
-      'Deux Jackie trop trop trop cousines East Hampton trop trop trop, Maysles trop chats manoir déchéance Big Edie.',
+      'Albert et David Maysles filment la vie recluse de « Big Edie » et « Little Edie » Beale, cousines de Jackie Kennedy, dans leur manoir délabré.',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -195,7 +195,7 @@ export const baseMoviesMissingDocumentaire: BaseMovie[] = [
     genre: ['Documentaire'],
     saga: '',
     description:
-      'Des mineurs trop trop trop Kentucky grève balles trop trop trop, Kopple trop Oscar charbon femmes piquets.',
+      'Barbara Kopple suit pendant des mois la grève violente des mineurs de charbon du Kentucky contre la compagnie Eastover Mining.',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -211,7 +211,7 @@ export const baseMoviesMissingDocumentaire: BaseMovie[] = [
     genre: ['Documentaire'],
     saga: 'Qatsi',
     description:
-      'Le monde trop vite trop Glass Hopi trop trop trop, Reggio trop time-lapse vie déséquilibrée trop trop trop images.',
+      'Sans dialogue, le film enchaîne images aériennes et urbaines sur une musique de Philip Glass pour dresser un portrait hypnotique de la modernité déséquilibrée.',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -231,7 +231,7 @@ export const baseMoviesMissingDocumentaire: BaseMovie[] = [
     genre: ['Documentaire'],
     saga: '',
     description:
-      'Des lettres Japon Guinée mémoire, Marker trop essai chat temps images trop trop trop voix.',
+      'Chris Marker compose un essai poétique à partir de lettres d\'un cameraman voyageur, mêlant mémoire, images trouvées et réflexion sur le temps.',
     fromEntity: null,
     countryOrigin: ['France'],
     selectDisplayOrder: 0,
@@ -253,7 +253,7 @@ export const baseMoviesMissingDocumentaire: BaseMovie[] = [
     genre: ['Documentaire', 'Policier'],
     saga: '',
     description:
-      'Un innocent Dallas flic tué, Morris trop reconstructions Glass trop vérité trop trop trop ligne.',
+      'Errol Morris réexamine l\'affaire Randall Adams, condamné à mort pour un meurtre de policier, et montre comment le doute peut sauver un innocent.',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -275,7 +275,7 @@ export const baseMoviesMissingDocumentaire: BaseMovie[] = [
     genre: ['Documentaire', 'Comédie'],
     saga: '',
     description:
-      'Flint GM ferme Moore trop trop trop cherche Roger ironie chômage.',
+      'Michael Moore retourne à Flint, Michigan, pour confronter Roger Smith et montrer les conséquences humaines de la fermeture des usines General Motors.',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -297,7 +297,7 @@ export const baseMoviesMissingDocumentaire: BaseMovie[] = [
     genre: ['Documentaire', 'Biographie'],
     saga: '',
     description:
-      'Crumb Fritz frères fous trop trop trop, Zwigoff trop BD pervers génie famille trop trop trop underground.',
+      'Terry Zwigoff filme le dessinateur underground Robert Crumb et sa famille troublée, entre génie artistique, traumatismes et dérision féroce.',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -319,7 +319,7 @@ export const baseMoviesMissingDocumentaire: BaseMovie[] = [
     genre: ['Documentaire'],
     saga: '',
     description:
-      'Deux ados Chicago NBA 5 ans, James trop basket lycée rêve trop trop trop trop ghetto.',
+      'Pendant cinq ans, le documentaire suit deux lycéens de Chicago qui rêvent de devenir stars du basket, entre espoir, pression familiale et inégalités sociales.',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -341,7 +341,7 @@ export const baseMoviesMissingDocumentaire: BaseMovie[] = [
     genre: ['Documentaire', 'Comédie musicale'],
     saga: '',
     description:
-      'Des légendes Cuba oubliées Cooder trop trop trop, Wenders trop son Carnegie rumba retraites.',
+      'Wim Wenders accompagne Ry Cooder à La Havane pour redécouvrir des musiciens cubains oubliés et enregistrer un album devenu légendaire.',
     fromEntity: null,
     countryOrigin: ['Allemagne', 'États-Unis', 'Royaume-Uni', 'France', 'Cuba'],
     selectDisplayOrder: 0,
@@ -363,7 +363,7 @@ export const baseMoviesMissingDocumentaire: BaseMovie[] = [
     genre: ['Documentaire'],
     saga: '',
     description:
-      'Une famille Long Island pédophilie VHS, Jarecki trop doute archives trop trop trop procès trop trop trop père.',
+      'Andrew Jarecki reconstitue l\'affaire Friedman, famille de banlieue new-yorkaise accusée d\'abus, en mêlant archives familiales et doutes sur la justice.',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -385,7 +385,7 @@ export const baseMoviesMissingDocumentaire: BaseMovie[] = [
     genre: ['Documentaire', 'Guerre', 'Historique', 'Biographie'],
     saga: '',
     description:
-      'McNamara 11 leçons Vietnam, Morris trop Interrotron Oscar brume guerre trop trop trop chiffres.',
+      'Errol Morris interroge longuement Robert McNamara sur ses décisions pendant la guerre du Vietnam et les leçons morales du pouvoir.',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -405,7 +405,7 @@ export const baseMoviesMissingDocumentaire: BaseMovie[] = [
     genre: ['Documentaire'],
     saga: '',
     description:
-      'La perche Victoria armes famine, Sauper trop Tanzanie avion poisson cauchemar trop trop trop nord.',
+      'Barbet Schroeder enquête sur le génocide des Papous en Indonésie et sur la responsabilité du gouvernement australien dans cette tragédie méconnue.',
     fromEntity: null,
     countryOrigin: ['Autriche', 'Belgique', 'France', 'Canada'],
     selectDisplayOrder: 0,
@@ -427,7 +427,7 @@ export const baseMoviesMissingDocumentaire: BaseMovie[] = [
     genre: ['Documentaire', 'Aventure'],
     saga: '',
     description:
-      'Deux alpinistes Pérou corde coupée, Macdonald trop reconstitution crevasse survie jambe.',
+      'Kevin Macdonald reconstruit la descente du Huascarán par Joe Simpson et Simon Yates, où une jambe brisée, une corde coupée et trois jours seuls dans une crevasse deviennent une leçon vertigineuse de survie alpine.',
     fromEntity: {
       entityType: 'book',
       title: 'Touching the Void',
@@ -453,7 +453,7 @@ export const baseMoviesMissingDocumentaire: BaseMovie[] = [
     genre: ['Documentaire'],
     saga: '',
     description:
-      'Enron génies fraude 2001, Gibney trop Lay Skilling lumières Californie trop trop trop dark.',
+      'Le film retrace l\'ascension et la chute d\'Enron, révélant fraudes comptables, hubris et corruption au cœur du capitalisme américain.',
     fromEntity: {
       entityType: 'book',
       title: 'The Smartest Guys in the Room',
@@ -479,7 +479,7 @@ export const baseMoviesMissingDocumentaire: BaseMovie[] = [
     genre: ['Documentaire', 'Biographie'],
     saga: '',
     description:
-      'Treadwell ours Alaska mangé, Herzog trop DV nature trop chaos trop trop trop voix trop trop trop mort.',
+      'Werner Herzog assemble les images tournées par Timothy Treadwell parmi les grizzlys de l\'Alaska, jusqu\'à sa mort tragique avec sa compagne.',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -500,7 +500,7 @@ export const baseMoviesMissingDocumentaire: BaseMovie[] = [
     genre: ['Documentaire'],
     saga: '',
     description:
-      "L'Amérique santé trop Cuba trop trop trop, Moore trop assurances France 9/11 Guantanamo trop trop trop ironie.",
+      "Michael Moore compare le système de santé américain à d'autres pays et dénonce l'inaccessibilité des soins pour des patients ordinaires.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -522,7 +522,7 @@ export const baseMoviesMissingDocumentaire: BaseMovie[] = [
     genre: ['Documentaire', 'Comédie musicale', 'Biographie', 'Comédie'],
     saga: '',
     description:
-      'Un groupe metal jamais cassé, Gervasi trop Anvil tournée This Is Spinal Tap trop trop trop vrai trop trop trop rire.',
+      'Un groupe de heavy metal canadien culte persiste malgré l\'échec commercial, entre tournées précaires, amitié indestructible et rêve adolescent intact.',
     fromEntity: null,
     countryOrigin: ['États-Unis', 'Canada'],
     selectDisplayOrder: 0,
@@ -544,7 +544,7 @@ export const baseMoviesMissingDocumentaire: BaseMovie[] = [
     genre: ['Documentaire', 'Biographie'],
     saga: '',
     description:
-      'Varda plages miroirs vie, autoportrait Demy chats mémoire sable trop trop trop cinéma.',
+      'Agnès Varda revisite sa vie, ses lieux et ses proches à travers des reconstitutions ludiques, des images d\'archives et une méditation sur le temps qui passe.',
     fromEntity: null,
     countryOrigin: ['France'],
     selectDisplayOrder: 0,
@@ -566,7 +566,7 @@ export const baseMoviesMissingDocumentaire: BaseMovie[] = [
     genre: ['Documentaire'],
     saga: '',
     description:
-      "L'Amérique mange trop usines trop trop trop, Kenner trop maïs Monsanto poulets caddie trop trop trop mensonge.",
+      "Le documentaire expose la concentration de l'industrie agroalimentaire américaine et ses conséquences sur la santé, les animaux et les petits producteurs.",
     fromEntity: {
       entityType: 'book',
       title: 'Fast Food Nation',
@@ -592,7 +592,7 @@ export const baseMoviesMissingDocumentaire: BaseMovie[] = [
     genre: ['Documentaire'],
     saga: '',
     description:
-      'Taiji dauphins massacre caméras, Psihoyos trop Oscar cove Flipper sang trop trop trop nuit.',
+      'Des activistes infiltrent secrètement une crique japonaise pour documenter la chasse annuelle aux dauphins et dénoncer un massacre dissimulé au public.',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -614,7 +614,7 @@ export const baseMoviesMissingDocumentaire: BaseMovie[] = [
     genre: ['Documentaire', 'Comédie'],
     saga: '',
     description:
-      'Un Français filme street art devient trop trop trop, Banksy trop Mister Brainwash blague Oscar trop trop trop maybe.',
+      'Un collectionneur français filme le street art avant qu\'un mystérieux Banksy ne retourne la caméra pour interroger l\'authenticité de l\'art contemporain.',
     fromEntity: null,
     countryOrigin: ['Royaume-Uni', 'États-Unis'],
     selectDisplayOrder: 0,
@@ -636,7 +636,7 @@ export const baseMoviesMissingDocumentaire: BaseMovie[] = [
     genre: ['Documentaire', 'Guerre'],
     saga: '',
     description:
-      'Une compagnie Korengal outpost morts, Junger trop Hetherington Afghanistan casques vallée trop trop trop feu.',
+      'Tim Hetherington et Sebastian Junger suivent une compagnie américaine déployée dans la vallée du Korangal en Afghanistan, entre combats, attentes et pertes.',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -658,7 +658,7 @@ export const baseMoviesMissingDocumentaire: BaseMovie[] = [
     genre: ['Documentaire', 'Biographie'],
     saga: '',
     description:
-      'Un sushi maître 85 ans Ginza, Gelb trop étoiles fils riz perfection rêve.',
+      'David Gelb suit Jiro Ono, maître sushi de 85 ans à Ginza, obsédé par la perfection du riz et du poisson alors qu\'il prépare fils et apprentis à perpétuer un art minimaliste.',
     fromEntity: null,
     countryOrigin: ['États-Unis', 'Japon'],
     selectDisplayOrder: 0,
@@ -680,7 +680,7 @@ export const baseMoviesMissingDocumentaire: BaseMovie[] = [
     genre: ['Documentaire', 'Thriller'],
     saga: '',
     description:
-      'Un Français se fait passer pour trop trop trop un ado trop trop trop texan, Layton trop imposter reconstructions vertige trop trop trop famille.',
+      'Un jeune imposteur français prétend être un adolescent texan disparu ; le récit reconstruit une histoire invraisemblable mêlant mensonge, famille et justice.',
     fromEntity: null,
     countryOrigin: ['Royaume-Uni'],
     selectDisplayOrder: 0,
@@ -702,7 +702,7 @@ export const baseMoviesMissingDocumentaire: BaseMovie[] = [
     genre: ['Documentaire'],
     saga: '',
     description:
-      'Tilikum orque SeaWorld dresseurs trop trop trop morts, Cowperthwaite trop bassins captivité blackfish scandale.',
+      'Le film examine la captivité des orques chez SeaWorld à travers l\'histoire de Tilikum et questionne la sécurité humaine comme le bien-être animal.',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -724,7 +724,7 @@ export const baseMoviesMissingDocumentaire: BaseMovie[] = [
     genre: ['Documentaire', 'Biographie'],
     saga: '',
     description:
-      'Polley mère trop père trop trop trop secret, Super 8 vrai faux mémoire famille trop trop trop récit.',
+      'Sarah Polley interroge sa famille et ses proches pour démêler le secret autour de son père biologique, entre documentaire intime et mise en scène du souvenir.',
     fromEntity: null,
     countryOrigin: ['Canada'],
     selectDisplayOrder: 0,
@@ -746,7 +746,7 @@ export const baseMoviesMissingDocumentaire: BaseMovie[] = [
     genre: ['Documentaire', 'Thriller'],
     saga: '',
     description:
-      'Snowden Hong Kong hôtel NSA, Poitras trop Oscar mails Greenwald trop trop trop fuite.',
+      'Laura Poitras filme en direct l\'exfiltration d\'Edward Snowden et la révélation des programmes de surveillance de la NSA.',
     fromEntity: null,
     countryOrigin: ['États-Unis', 'Allemagne'],
     selectDisplayOrder: 0,
@@ -767,7 +767,7 @@ export const baseMoviesMissingDocumentaire: BaseMovie[] = [
     genre: ['Documentaire', 'Biographie'],
     saga: '',
     description:
-      'Salgado n&b mines Amazone, Wenders trop sel terre photo deuil reforestation.',
+      'Wim Wenders expose l\'œuvre photographique épique de Sebastião Salgado, des mines du Brésil aux tragédies du Sahel jusqu\'au projet de reforestation planté avec son fils.',
     fromEntity: null,
     countryOrigin: ['France', 'Italie', 'Brésil'],
     selectDisplayOrder: 0,
@@ -788,7 +788,7 @@ export const baseMoviesMissingDocumentaire: BaseMovie[] = [
     genre: ['Documentaire'],
     saga: 'The Act of Killing',
     description:
-      'Un opticien confronte les tueurs trop trop trop 65, Oppenheimer trop silence regard frère Indonésie trop trop trop suite.',
+      'Un optométriste indonésien confronte en silence les auteurs des massacres de 1965, complétant le regard glaçant initié par The Act of Killing.',
     fromEntity: null,
     countryOrigin: ['Danemark', 'Indonésie', 'Norvège'],
     selectDisplayOrder: 0,
@@ -810,7 +810,7 @@ export const baseMoviesMissingDocumentaire: BaseMovie[] = [
     genre: ['Documentaire'],
     saga: '',
     description:
-      'Deux Français cherchent solutions climat, Dion trop Laurent permaculture villes César demain.',
+      'Cyril Dion et Mélanie Laurent parcourent le monde pour filmer initiatives locales face au changement climatique, de l\'agroécologie aux monnaies citoyennes, en portant un optimisme critique et concret.',
     fromEntity: null,
     countryOrigin: ['France'],
     selectDisplayOrder: 0,
@@ -832,7 +832,7 @@ export const baseMoviesMissingDocumentaire: BaseMovie[] = [
     genre: ['Documentaire'],
     saga: '',
     description:
-      'Scientology Hubbard Hollywood HBO, Gibney trop clear Sea Org apostats E-meter.',
+      'Alex Gibney dissèque l\'histoire de l\'Église de Scientologie, de L. Ron Hubbard aux stars hollywoodiennes, en s\'appuyant sur les témoignages d\'anciens membres traumatisés.',
     fromEntity: {
       entityType: 'book',
       title: 'Going Clear',
@@ -852,7 +852,7 @@ export const baseMoviesMissingDocumentaire: BaseMovie[] = [
     genre: ['Documentaire'],
     saga: '',
     description:
-      'Des visages monde drone paroles trop trop trop, Arthus-Bertrand trop human 2000 interviews ciel terre.',
+      'Yann Arthus-Bertrand filme des visages en gros plan contre des plans aériens, tandis que des voix du monde entier racontent amour, guerre, pauvreté et espoir.',
     fromEntity: null,
     countryOrigin: ['France'],
     selectDisplayOrder: 0,
@@ -874,7 +874,7 @@ export const baseMoviesMissingDocumentaire: BaseMovie[] = [
     genre: ['Documentaire', 'Historique'],
     saga: '',
     description:
-      'Le 13e amendement prisons race, DuVernay trop Netflix esclavage mass incarceration USA.',
+      'Ava DuVernay analyse comment le 13e amendement américain a nourri mécanismes de mass incarceration, stigmatisation raciale et profits privés dans les prisons des États-Unis.',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -896,7 +896,7 @@ export const baseMoviesMissingDocumentaire: BaseMovie[] = [
     genre: ['Documentaire', 'Biographie', 'Policier'],
     saga: '',
     description:
-      'Simpson 8h L.A. race trop trop trop, Edelman trop Oscar procès football Made America trop trop trop sang.',
+      'Ce documentaire en cinq parties replace l\'affaire O.J. Simpson dans l\'histoire de Los Angeles, de la célébrité sportive et des tensions raciales.',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -918,7 +918,7 @@ export const baseMoviesMissingDocumentaire: BaseMovie[] = [
     genre: ['Documentaire', 'Thriller'],
     saga: '',
     description:
-      'Un cycliste dopage tombe sur trop trop trop la Russie, Fogel trop Oscar Rodchenkov Sotchi Netflix labo.',
+      'Une enquête sur le dopage russe part d\'une expérience personnelle du réalisateur et se transforme en révélation majeure sur le scandale olympique.',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -938,7 +938,7 @@ export const baseMoviesMissingDocumentaire: BaseMovie[] = [
     genre: ['Documentaire', 'Biographie'],
     saga: '',
     description:
-      'Goodall Gombe 16 mm inédit trop trop trop, Morgen trop chimpanzés Jane amour nature National trop trop trop Geo.',
+      'Des images d\'archives inédites retracent le travail de Jane Goodall avec les chimpanzés en Tanzanie et l\'émergence de la primatologie moderne.',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -959,7 +959,7 @@ export const baseMoviesMissingDocumentaire: BaseMovie[] = [
     genre: ['Documentaire'],
     saga: '',
     description:
-      'Trois skaters Rockford pères violents, Liu trop gap ado DV amitié bitume deuil.',
+      'Bing Liu filme pendant douze ans trois amis skaters de Rockford, Illinois, dont il fait partie, pour relier passions adolescentes, violences domestiques et deuils familiaux longtemps tus.',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -981,7 +981,7 @@ export const baseMoviesMissingDocumentaire: BaseMovie[] = [
     genre: ['Documentaire'],
     saga: '',
     description:
-      'Trois jumeaux séparés trop expérience trop trop trop, Wardle trop 80 collège psy nature nurture trop trop trop choc.',
+      'Trois frères jumeaux séparés à la naissance se retrouvent par hasard, avant qu\'une enquête ne révèle une expérience scientifique troublante.',
     fromEntity: null,
     countryOrigin: ['Royaume-Uni', 'États-Unis'],
     selectDisplayOrder: 0,
@@ -1003,7 +1003,7 @@ export const baseMoviesMissingDocumentaire: BaseMovie[] = [
     genre: ['Documentaire'],
     saga: '',
     description:
-      'Une usine Fuyao Dayton Chine trop trop trop, Reichert trop Oscar Obama verre syndicats culture trop trop trop choc.',
+      'Une usine chinoise s\'installe dans une ancienne usine General Motors de l\'Ohio, mettant en tension cultures du travail, syndicats et automatisation.',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -1023,7 +1023,7 @@ export const baseMoviesMissingDocumentaire: BaseMovie[] = [
     genre: ['Documentaire', 'Guerre'],
     saga: '',
     description:
-      'Une mère Alep filme pour trop trop trop Sama, Al-Kateab trop hôpital bombes lettre fille siège.',
+      'Waad al-Kateab filme cinq ans de guerre à Alep et la naissance de sa fille, témoignage intime d\'une ville assiégée vue par une mère et une citoyenne.',
     fromEntity: null,
     countryOrigin: ['Royaume-Uni', 'États-Unis', 'Syrie'],
     selectDisplayOrder: 0,
@@ -1045,7 +1045,7 @@ export const baseMoviesMissingDocumentaire: BaseMovie[] = [
     genre: ['Documentaire'],
     saga: '',
     description:
-      'Un festival Bahamas fromage sandwich, Smith trop Netflix Fyre influence arnaque tentes Ja.',
+      'Chris Smith reconstitue l\'arnaque du festival Fyre sur une île bahaméenne promise aux influenceurs, où manque d\'organisation, mensonges et sandwiches froids révèlent les excès du marketing digital.',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -1067,7 +1067,7 @@ export const baseMoviesMissingDocumentaire: BaseMovie[] = [
     genre: ['Documentaire'],
     saga: '',
     description:
-      'Une apicultrice Macédoine voisins gourmands, Kotevska trop miel équilibre ruches nominée deux Oscars.',
+      'Tamara Kotevska suit Hatidze, apicultrice macédonienne qui vit en harmonie avec ses ruches jusqu\'à l\'arrivée de voisins avides qui bouleversent son équilibre ancestral et fragile.',
     fromEntity: null,
     countryOrigin: ['Macédoine du Nord'],
     selectDisplayOrder: 0,
@@ -1083,7 +1083,7 @@ export const baseMoviesMissingDocumentaire: BaseMovie[] = [
     genre: ['Documentaire'],
     saga: '',
     description:
-      'Une truie n&b sans voix trop trop trop, Kossakovsky trop porcelets ferme regard animal silence Gunda.',
+      'Victor Kossakovsky observe en plan-séquence cochons, vaches et poules dans une ferme, sans commentaire, pour une méditation sensorielle sur la vie animale.',
     fromEntity: null,
     countryOrigin: ['Norvège', 'États-Unis'],
     selectDisplayOrder: 0,
@@ -1103,7 +1103,7 @@ export const baseMoviesMissingDocumentaire: BaseMovie[] = [
     genre: ['Documentaire'],
     saga: '',
     description:
-      'Un homme pieuvre kelp Cap, Ehrlich trop Oscar Netflix amitié océan anxiété teacher.',
+      'Craig Foster documente une amitié improbable avec une pieuvre vivant dans une forêt de kelp au large du Cap, où l\'immersion quotidienne lui redonne sens et confiance après l\'épuisement.',
     fromEntity: null,
     countryOrigin: ['Afrique du Sud'],
     selectDisplayOrder: 0,
@@ -1123,7 +1123,7 @@ export const baseMoviesMissingDocumentaire: BaseMovie[] = [
     genre: ['Documentaire', 'Aventure'],
     saga: '',
     description:
-      'Tesson Munier Tibet guettent trop trop trop, Amiguet trop César fantôme neige patience silhouettes hauts.',
+      'Marie Amiguet et Vincent Munier suivent le photographe naturaliste dans l\'Himalaya tibétain à la recherche du léopard des neiges et du silence.',
     fromEntity: {
       entityType: 'book',
       title: 'La Panthère des neiges',
@@ -1149,7 +1149,7 @@ export const baseMoviesMissingDocumentaire: BaseMovie[] = [
     genre: ['Documentaire', 'Aventure'],
     saga: '',
     description:
-      'Douze enfants grotte Thaïlande 2018, Chin trop plongeurs British monsoon sauvetage National Geo.',
+      'Jimmy Chin et Elizabeth Chai Vasarhelyi racontent minute par minute le sauvetage des douze footballeurs thaïlandais piégés dans la grotte inondée de Tham Luang en 2018.',
     fromEntity: null,
     countryOrigin: ['États-Unis', 'Royaume-Uni'],
     selectDisplayOrder: 0,
@@ -1170,7 +1170,7 @@ export const baseMoviesMissingDocumentaire: BaseMovie[] = [
     genre: ['Documentaire', 'Romance', 'Biographie'],
     saga: '',
     description:
-      'Un couple volcans archives 16 mm, Dosa trop Krafft lave amour mort Unzen feu.',
+      'Sara Dosa monte les archives 16 mm de Katia et Maurice Krafft, volcanologues amoureux et téméraires, dont la passion pour les volcans les mène jusqu\'à leur mort sur le Mont Unzen.',
     fromEntity: null,
     countryOrigin: ['États-Unis', 'Canada'],
     selectDisplayOrder: 0,
@@ -1192,7 +1192,7 @@ export const baseMoviesMissingDocumentaire: BaseMovie[] = [
     genre: ['Documentaire', 'Comédie musicale', 'Biographie'],
     saga: '',
     description:
-      'Bowie collage IMAX archives trop trop trop, Morgen trop Moonage Starman essai trop trop trop cosmos glitter.',
+      'Brett Morgen recombine archives, concerts et entretiens pour composer un portrait sensoriel et non linéaire de David Bowie.',
     fromEntity: null,
     countryOrigin: ['États-Unis', 'Allemagne'],
     selectDisplayOrder: 0,
@@ -1214,7 +1214,7 @@ export const baseMoviesMissingDocumentaire: BaseMovie[] = [
     genre: ['Documentaire', 'Thriller', 'Biographie'],
     saga: '',
     description:
-      'Navalny Novitchok appel FSB, Roher trop Oscar CNN avion prison Russie rire.',
+      'Daniel Roher filme Alexeï Navalny après son empoisonnement au Novitchok, en suivant son enquête sur les services secrets russes, son retour en avion et sa détention carcérale.',
     fromEntity: null,
     countryOrigin: ['États-Unis', 'Canada'],
     selectDisplayOrder: 0,
@@ -1235,7 +1235,7 @@ export const baseMoviesMissingDocumentaire: BaseMovie[] = [
     genre: ['Documentaire', 'Guerre'],
     saga: '',
     description:
-      'Marioupol 20 jours hôpital siège, Chernov trop Oscar AP cadavres vérité Ukraine 2022.',
+      'Mstyslav Chernov enregistre vingt jours d\'assiège à Marioupol en 2022, entre hôpitaux saturés, corps sans sépulture et courage journaliste au cœur de l\'invasion ukrainienne.',
     fromEntity: null,
     countryOrigin: ['Ukraine'],
     selectDisplayOrder: 0,
@@ -1257,7 +1257,7 @@ export const baseMoviesMissingDocumentaire: BaseMovie[] = [
     genre: ['Documentaire', 'Biographie'],
     saga: '',
     description:
-      'Fox Parkinson extraits McFly, Guggenheim trop still Apple humour chutes acteur maladie.',
+      'Davis Guggenheim croise archives, extraits de carrière et présent de Michael J. Fox atteint de Parkinson pour raconter avec humour lucide une vie d\'acteur transformée par la maladie.',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -1277,7 +1277,7 @@ export const baseMoviesMissingDocumentaire: BaseMovie[] = [
     genre: ['Documentaire'],
     saga: '',
     description:
-      '26 œuvres rentrent Bénin Paris, Diop trop Ours statues voix restitution étudiants nuit.',
+      'Mati Diop suit le retour au Bénin de vingt-six œuvres spoliées depuis le palais d\'Abomey, en laissant les statues et les étudiants commenter mémoire coloniale, nuit et restitution.',
     fromEntity: null,
     countryOrigin: ['France', 'Sénégal', 'Bénin'],
     selectDisplayOrder: 0,
@@ -1298,7 +1298,7 @@ export const baseMoviesMissingDocumentaire: BaseMovie[] = [
     genre: ['Documentaire'],
     saga: '',
     description:
-      'Masafer Yatta démolitions Cisjordanie, Adra trop Oscar Abraham caméra terre trop trop trop autre.',
+      'Des activistes palestiniens et israéliens filment les démolitions de villages en Cisjordanie et la résistance quotidienne contre l\'expansion des colonies.',
     fromEntity: null,
     countryOrigin: ['Palestine', 'Norvège'],
     selectDisplayOrder: 0,

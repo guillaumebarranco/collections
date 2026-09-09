@@ -22,7 +22,7 @@ export const baseMoviesMissingAnnees20102014: BaseMovie[] = [
     genre: ['Policier', 'Thriller', 'Drame'],
     saga: '',
     description:
-      'Un ado trop orphelin tombe dans une famille trop criminelle de Melbourne, Weaver trop maternelle.',
+      'Animal Kingdom, ou La Loi du plus fort au Québec, est un film policier australien écrit et réalisé par David Michôd, sorti en 2010.',
     fromEntity: null,
     countryOrigin: ['Australie'],
     selectDisplayOrder: 0,
@@ -45,7 +45,7 @@ export const baseMoviesMissingAnnees20102014: BaseMovie[] = [
     genre: ['Drame', 'Comédie'],
     saga: '',
     description:
-      'Un couple trop heureux, des amis trop seuls, quatre saisons, Leigh trop juste, Manville trop vraie.',
+      'Another Year est un film britannique du réalisateur Mike Leigh, sorti en 2010.',
     fromEntity: null,
     countryOrigin: ['Royaume-Uni'],
     selectDisplayOrder: 0,
@@ -68,7 +68,7 @@ export const baseMoviesMissingAnnees20102014: BaseMovie[] = [
     genre: ['Drame'],
     saga: '',
     description:
-      'Un père trop malade de Barcelone parle aux morts, clandestins trop cassés, Bardem trop immense.',
+      'Biutiful est un film mexicano-espagnol réalisé par Alejandro González Iñárritu, sorti en 2010.',
     fromEntity: null,
     countryOrigin: ['Mexique', 'Espagne'],
     selectDisplayOrder: 0,
@@ -90,7 +90,7 @@ export const baseMoviesMissingAnnees20102014: BaseMovie[] = [
     genre: ['Drame', 'Romance'],
     saga: '',
     description:
-      'Un couple trop usé, le début trop beau, la fin trop motel, Cianfrance trop cru, trop tendre.',
+      'Blue Valentine, ou Blue Valentine : Une histoire d\'amour au Québec, est un film dramatique américain, réalisé par Derek Cianfrance en 2010.',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -113,7 +113,7 @@ export const baseMoviesMissingAnnees20102014: BaseMovie[] = [
     genre: ['Drame'],
     saga: '',
     description:
-      'Des enfants trop enfermés apprennent des mots trop faux, Lanthimos déjà trop sec, trop grec.',
+      'Canine est un drame psychologique grec co-écrit et réalisé par Yórgos Lánthimos, sorti en 2009.',
     fromEntity: null,
     countryOrigin: ['Grèce'],
     selectDisplayOrder: 0,
@@ -136,7 +136,7 @@ export const baseMoviesMissingAnnees20102014: BaseMovie[] = [
     genre: ['Drame', 'Biographie', 'Thriller'],
     saga: '',
     description:
-      'Carlos trop terroriste, OPEP trop occupée, Assayas trop long, Ramírez trop vivant.',
+      'Biopic en trois parties sur Ilich Ramírez Sánchez, dit Carlos, terroriste international des années 1970-90, de ses attentats à sa traque jusqu\'à son arrestation.',
     fromEntity: null,
     countryOrigin: ['France', 'Allemagne'],
     selectDisplayOrder: 0,
@@ -159,7 +159,7 @@ export const baseMoviesMissingAnnees20102014: BaseMovie[] = [
     genre: ['Drame', 'Biographie'],
     saga: '',
     description:
-      'Une sœur trop têtue devient avocate pour innocentier son frère trop condamné, ADN trop tard.',
+      'Betty Anne Waters, serveuse devenue avocate, passe près de vingt ans à prouver l\'innocence de son frère condamné à perpétuité pour meurtre.',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -182,7 +182,7 @@ export const baseMoviesMissingAnnees20102014: BaseMovie[] = [
     genre: ['Comédie', 'Drame'],
     saga: '',
     description:
-      'Une mère trop hippie veut reconquérir sa fille trop sage, camping belge trop triste, Huppert trop drôle.',
+      'Babou, mère célibataire au bord du gouffre, se retrouve guide pour un voyage organisé à Copacabana et tente de reprendre pied.',
     fromEntity: null,
     countryOrigin: ['France', 'Belgique'],
     selectDisplayOrder: 0,
@@ -205,7 +205,7 @@ export const baseMoviesMissingAnnees20102014: BaseMovie[] = [
     genre: ['Drame', 'Romance'],
     saga: '',
     description:
-      'Un Anglais trop essayiste, une Française trop guide, Toscane, le couple trop peut-être faux.',
+      'Un écrivain britannique et une Française se rencontrent en Toscane ; leur journée oscille entre séduction, jeu de rôles et crise de couple.',
     fromEntity: null,
     countryOrigin: ['France', 'Italie', 'Belgique'],
     selectDisplayOrder: 0,
@@ -228,7 +228,7 @@ export const baseMoviesMissingAnnees20102014: BaseMovie[] = [
     genre: ['Drame', 'Historique', 'Biographie'],
     saga: '',
     description:
-      'Des moines trop de Tibhirine restent trop longtemps, GIA trop proche, Beauvois trop liturgique.',
+      'Dans un monastère cistercien en Algérie, huit moines français doivent choisir entre rester auprès des villageois ou fuir face à la menace islamiste.',
     fromEntity: null,
     countryOrigin: ['France'],
     selectDisplayOrder: 0,
@@ -251,7 +251,7 @@ export const baseMoviesMissingAnnees20102014: BaseMovie[] = [
     genre: ['Drame', 'Fantastique'],
     saga: '',
     description:
-      'Un dealer trop mort survole Tokyo, DMT trop long, Noé trop vertigineux, trop uterine.',
+      'À Tokyo, un jeune dealer tué par la police revit sa vie et celle de sa sœur sous forme d\'esprit errant, dans un trip visuel halluciné.',
     fromEntity: null,
     countryOrigin: ['France', 'Allemagne', 'Italie'],
     selectDisplayOrder: 0,
@@ -274,7 +274,7 @@ export const baseMoviesMissingAnnees20102014: BaseMovie[] = [
     genre: ['Thriller', 'Drame', 'Biographie'],
     saga: '',
     description:
-      'Valerie Plame trop CIA trop outée, Irak trop menti, Liman trop tendu, Watts trop juste.',
+      'L\'agente de la CIA Valerie Plame voit son identité révélée après que son mari ait contesté les justificatifs de la guerre en Irak.',
     fromEntity: {
       entityType: 'book',
       title: 'Fair Game',
@@ -300,7 +300,7 @@ export const baseMoviesMissingAnnees20102014: BaseMovie[] = [
     genre: ['Drame', 'Biographie', 'Comédie musicale'],
     saga: '',
     description:
-      'Gainsbourg trop laid trop génie, une Gueule trop suivie, Sfar trop BD, Elmosnino trop vrai.',
+      'Portrait fantasmé de Serge Gainsbourg, de son enfance à Paris jusqu\'à la gloire sulfureuse, peuplé de doubles et de démons intérieurs.',
     fromEntity: {
       entityType: 'bd',
       title: 'Gainsbourg',
@@ -326,7 +326,7 @@ export const baseMoviesMissingAnnees20102014: BaseMovie[] = [
     genre: ['Drame', 'Guerre', 'Historique', 'Policier'],
     saga: '',
     description:
-      "Trois frères trop Sétif trop FLN trop Pigalle, Bouchareb trop western, trop guerre d'Algérie.",
+      "Trois frères algériens émigrés en France après le massacre de Sétif s'engagent, chacun à sa manière, dans la lutte pour l'indépendance.",
     fromEntity: null,
     countryOrigin: ['France', 'Algérie', 'Belgique'],
     selectDisplayOrder: 0,
@@ -349,7 +349,7 @@ export const baseMoviesMissingAnnees20102014: BaseMovie[] = [
     genre: ['Policier', 'Action', 'Thriller'],
     saga: '',
     description:
-      'Charly Ferré trop sorti de taule, Marseille trop milice, Reno trop fatigué, 22 balles trop vraies.',
+      'Charly Matteï, ancien caïd marseillais sorti de prison, retrouve une ville changée et doit affronter ceux qui veulent sa peau.',
     fromEntity: {
       entityType: 'book',
       title: "L'Immortel",
@@ -376,7 +376,7 @@ export const baseMoviesMissingAnnees20102014: BaseMovie[] = [
     genre: ['Drame', 'Comédie'],
     saga: '',
     description:
-      'Un analphabète trop tendre apprend à lire avec une vieille trop vive, Becker trop doux.',
+      'Germain, cinquantenaire analphabète, se lie d\'amitié avec Margueritte, une vieille dame qui lui fait découvrir la lecture sur un banc public.',
     fromEntity: {
       entityType: 'book',
       title: 'La Tête en friche',
@@ -403,7 +403,7 @@ export const baseMoviesMissingAnnees20102014: BaseMovie[] = [
     genre: ['Comédie', 'Drame'],
     saga: '',
     description:
-      'Un retraité trop mammouth reprend la moto trop vieille, papiers trop perdus, Groland trop poétique.',
+      'À la retraite, un ancien ouvrier traverse la France à moto pour récupérer des bulletins de salaire manquants et croise un passé qu\'il croyait oublié.',
     fromEntity: null,
     countryOrigin: ['France'],
     selectDisplayOrder: 0,
@@ -426,7 +426,7 @@ export const baseMoviesMissingAnnees20102014: BaseMovie[] = [
     genre: ['Drame', 'Science Fiction', 'Romance'],
     saga: '',
     description:
-      'Des clones trop élèves trop donneurs, Angleterre trop verte, Ishiguro trop doux, trop atroce.',
+      'Trois amis élevés dans un internat anglais découvrent qu\'ils sont des clones destinés à donner leurs organes, et tentent d\'échapper à leur sort.',
     fromEntity: {
       entityType: 'book',
       title: 'Never Let Me Go',
@@ -453,7 +453,7 @@ export const baseMoviesMissingAnnees20102014: BaseMovie[] = [
     genre: ['Drame', 'Biographie', 'Comédie musicale'],
     saga: '',
     description:
-      'Le jeune Lennon trop orphelin, deux mères trop opposées, rock trop tôt, Scott Thomas trop tante.',
+      'Nowhere Boy is a 2009 British biographical drama film, directed by Sam Taylor-Johnson in her directorial debut. Written by Matt Greenhalgh, it is based on Julia Baird\'s biography of her half-brother, the musician John Lennon.',
     fromEntity: null,
     countryOrigin: ['Royaume-Uni', 'Canada'],
     selectDisplayOrder: 0,
@@ -476,7 +476,7 @@ export const baseMoviesMissingAnnees20102014: BaseMovie[] = [
     genre: ['Drame', 'Fantastique'],
     saga: '',
     description:
-      'Un oncle trop mourant reçoit fantômes et singes trop rouges, jungle trop Palme, trop lent, trop beau.',
+      'Dans la campagne thaïlandaise, un homme malade reçoit la visite de parents défunts et d\'êtres surnaturels alors que sa fin approche.',
     fromEntity: null,
     countryOrigin: ['Thaïlande', 'Royaume-Uni', 'France'],
     selectDisplayOrder: 0,
@@ -499,7 +499,7 @@ export const baseMoviesMissingAnnees20102014: BaseMovie[] = [
     genre: ['Drame'],
     saga: '',
     description:
-      'Une grand-mère trop Alzheimer écrit des vers, un petit-fils trop coupable, Lee trop juste.',
+      'Les archives du film coréen ou Korea Film Archive, aussi appelées fédération coréenne des archives du film, est la seule cinémathèque de Corée du Sud bénéficiant d\'une couverture nationale.',
     fromEntity: null,
     countryOrigin: ['Corée du Sud'],
     selectDisplayOrder: 0,
@@ -521,7 +521,7 @@ export const baseMoviesMissingAnnees20102014: BaseMovie[] = [
     genre: ['Comédie'],
     saga: '',
     description:
-      "Une femme trop trophée reprend l'usine trop 1977, Ozon trop vaudeville, Deneuve trop pop.",
+      "Dans les années 1970, une épouse de patron d'usine jusque-là invisible prend les rênes de l'entreprise pendant la grève et s'émancipe.",
     fromEntity: null,
     countryOrigin: ['France'],
     selectDisplayOrder: 0,
@@ -544,7 +544,7 @@ export const baseMoviesMissingAnnees20102014: BaseMovie[] = [
     genre: ['Drame'],
     saga: '',
     description:
-      'Un couple trop brisé par un fils trop mort, groupe trop de deuil, Kidman trop contenue.',
+      'Un couple tente de survivre au deuil de leur fils, entre thérapie de groupe, non-dits et rencontre troublante avec le jeune conducteur responsable.',
     fromEntity: {
       entityType: 'book',
       title: 'Rabbit Hole',
@@ -571,7 +571,7 @@ export const baseMoviesMissingAnnees20102014: BaseMovie[] = [
     genre: ['Thriller', 'Drame'],
     saga: '',
     description:
-      'Trois agents trop Mossad, un nazi trop échappé, un mensonge trop long, Mirren trop dure.',
+      'Trois agents du Mossad, après une mission secrète pour capturer un nazi, doivent confronter des décennies plus tard le mensonge qui a fondé leur légende.',
     fromEntity: {
       entityType: 'book',
       title: 'Rabbit Hole',
@@ -597,7 +597,7 @@ export const baseMoviesMissingAnnees20102014: BaseMovie[] = [
     genre: ['Thriller', 'Drame', 'Action'],
     saga: '',
     description:
-      'Un prof trop doux fait évader sa femme trop condamnée, Haggis trop remake, Crowe trop tendu.',
+      'Un professeur prépare l\'évasion de sa femme condamnée à perpétuité pour un meurtre qu\'elle nie, avec l\'aide de son frère ex-flic.',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -620,7 +620,7 @@ export const baseMoviesMissingAnnees20102014: BaseMovie[] = [
     genre: ['Drame', 'Biographie', 'Comédie musicale'],
     saga: '',
     description:
-      'Joan Jett trop rock, Cherie trop jeune, Kim Fowley trop toxique, Stewart trop juste.',
+      'Ascension et chute du groupe de rock The Runaways, vu à travers l\'amitié explosive entre Joan Jett et Cherie Currie.',
     fromEntity: {
       entityType: 'book',
       title: 'Neon Angel',
@@ -647,7 +647,7 @@ export const baseMoviesMissingAnnees20102014: BaseMovie[] = [
     genre: ['Drame', 'Comédie'],
     saga: '',
     description:
-      'Un producteur trop raté ramène un burlesque trop américain sur la côte, Amalric trop vivant.',
+      'Un producteur français ramène en tournée des showgirls américaines de burlesque à travers les salles de province, entre rêve et déclin.',
     fromEntity: null,
     countryOrigin: ['France'],
     selectDisplayOrder: 0,
@@ -670,7 +670,7 @@ export const baseMoviesMissingAnnees20102014: BaseMovie[] = [
     genre: ['Action', 'Thriller', 'Catastrophe'],
     saga: '',
     description:
-      'Un train trop fou, deux cheminots trop opposés, Scott trop nerveux, Denzel trop calme.',
+      'Deux cheminots tentent d\'arrêter un train de marchandises sans conducteur chargé de produits toxiques qui fonce vers une zone peuplée.',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -692,7 +692,7 @@ export const baseMoviesMissingAnnees20102014: BaseMovie[] = [
     genre: ['Comédie', 'Drame'],
     saga: '',
     description:
-      "Deux couples trop bien élevés s'étripent pour une bagarre d'enfants, Polanski trop huis clos.",
+      "Après une bagarre entre leurs fils, deux couples bourgeois new-yorkais tentent de régler le conflit civilisé… et s'entre-déchirent.",
     fromEntity: {
       entityType: 'book',
       title: 'Le Dieu du carnage',
@@ -719,7 +719,7 @@ export const baseMoviesMissingAnnees20102014: BaseMovie[] = [
     genre: ['Drame', 'Historique'],
     saga: '',
     description:
-      'Un bordel trop Belle Époque trop finissant, filles trop belles trop brisées, Bonello trop languide.',
+      'Au début du XXe siècle, la vie quotidienne d\'une maison close parisienne, entre sororité, exploitation et fin d\'une époque.',
     fromEntity: null,
     countryOrigin: ['France'],
     selectDisplayOrder: 0,
@@ -741,7 +741,7 @@ export const baseMoviesMissingAnnees20102014: BaseMovie[] = [
     genre: ['Drame'],
     saga: '',
     description:
-      'Un ministre trop Transports, une grève trop dure, Gourmet trop suant, Schoeller trop Palais.',
+      'Immersion dans le quotidien d\'un ministre des Transports français, entre crises, cabinets et solitude du pouvoir.',
     fromEntity: null,
     countryOrigin: ['France', 'Belgique'],
     selectDisplayOrder: 0,
@@ -764,7 +764,7 @@ export const baseMoviesMissingAnnees20102014: BaseMovie[] = [
     genre: ['Drame', 'Biographie'],
     saga: '',
     description:
-      "Sarkozy trop conquiert l'Élysée, Cécilia trop part, Podalydès trop lui, Durringer trop vite.",
+      "Chronique romancée de l'ascension de Nicolas Sarkozy jusqu'à l'Élysée, sur fond de rivalités politiques et de vie privée.",
     fromEntity: null,
     countryOrigin: ['France'],
     selectDisplayOrder: 0,
@@ -787,7 +787,7 @@ export const baseMoviesMissingAnnees20102014: BaseMovie[] = [
     genre: ['Drame', 'Romance', 'Comédie'],
     saga: '',
     description:
-      'Un couple trop amoureux, un fils trop tumeur, Donzelli trop vive, trop chantée, trop vraie.',
+      'Un jeune couple découvre que leur bébé est atteint d\'une tumeur rare et transforme le combat médical en déclaration d\'amour à la vie.',
     fromEntity: null,
     countryOrigin: ['France'],
     selectDisplayOrder: 0,
@@ -810,7 +810,7 @@ export const baseMoviesMissingAnnees20102014: BaseMovie[] = [
     genre: ['Drame'],
     saga: '',
     description:
-      'Un cheval trop arrêté, un père trop fille trop pommes de terre, Tarr trop noir, trop fin du monde.',
+      'Durant six jours, un cocher et sa fille survivent dans une ferme battue par le vent, tandis que le monde semble s\'éteindre autour d\'eux.',
     fromEntity: null,
     countryOrigin: ['Hongrie', 'France', 'Allemagne', 'Suisse'],
     selectDisplayOrder: 0,
@@ -833,7 +833,7 @@ export const baseMoviesMissingAnnees20102014: BaseMovie[] = [
     genre: ['Drame', 'Comédie'],
     saga: '',
     description:
-      'Un cireur trop Havre cache un enfant trop clandestin, Kaurismäki trop tendre, trop deadpan.',
+      'Au Havre, un vieux cirageur de chaussures protège un jeune migrant africain et mobilise son quartier pour le soustraire à la police.',
     fromEntity: null,
     countryOrigin: ['Finlande', 'France', 'Allemagne'],
     selectDisplayOrder: 0,
@@ -856,7 +856,7 @@ export const baseMoviesMissingAnnees20102014: BaseMovie[] = [
     genre: ['Comédie'],
     saga: '',
     description:
-      'Un bourgeois trop 1960 découvre les Espagnoles trop du sixième, Luchini trop charmé.',
+      'Dans le Paris des années 1960, un bourgeois découvre le monde des femmes de ménage espagnoles du sixième étage et bouleverse sa vie rangée.',
     fromEntity: null,
     countryOrigin: ['France', 'Espagne'],
     selectDisplayOrder: 0,
@@ -879,7 +879,7 @@ export const baseMoviesMissingAnnees20102014: BaseMovie[] = [
     genre: ['Policier', 'Drame'],
     saga: '',
     description:
-      'Le gang des Lyonnais trop braqueurs trop 70, Lanvin trop Vidal, Marchal trop flic trop voyou.',
+      'Sur trente ans, l\'ascension et la chute d\'Edmond Vidal, figure du banditisme lyonnais, entre amitié, trahison et nostalgie.',
     fromEntity: null,
     countryOrigin: ['France'],
     selectDisplayOrder: 0,
@@ -902,7 +902,7 @@ export const baseMoviesMissingAnnees20102014: BaseMovie[] = [
     genre: ['Drame'],
     saga: '',
     description:
-      'Un dockers trop à la retraite, un cambriolage trop proche, Guédiguian trop Marseille trop classe.',
+      'Un docker marseillais à la retraite, militant de gauche, voit son quotidien et ses convictions ébranlés après un cambriolage familial.',
     fromEntity: null,
     countryOrigin: ['France'],
     selectDisplayOrder: 0,
@@ -925,7 +925,7 @@ export const baseMoviesMissingAnnees20102014: BaseMovie[] = [
     genre: ['Thriller', 'Science Fiction'],
     saga: '',
     description:
-      'Un écrivain trop raté avale une pilule trop génie, Cooper trop rapide, trop Wall Street.',
+      'Un écrivain en panne découvre une drogue qui démultiplie ses capacités cognitives, au prix d\'une dépendance et d\'ennemis dangereux.',
     fromEntity: {
       entityType: 'book',
       title: 'The Dark Fields',
@@ -951,7 +951,7 @@ export const baseMoviesMissingAnnees20102014: BaseMovie[] = [
     genre: ['Drame', 'Thriller'],
     saga: '',
     description:
-      'Une banque trop 2008 vend tout trop la nuit, Chandor trop huis clos, Irons trop prédateur.',
+      'Sur 24 heures, les cadres d\'une banque d\'investissement Wall Street découvrent un produit toxique qui peut faire s\'effondrer la firme.',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -974,7 +974,7 @@ export const baseMoviesMissingAnnees20102014: BaseMovie[] = [
     genre: ['Drame', 'Thriller'],
     saga: '',
     description:
-      "Une jeune trop échappée d'une secte trop New York, Olsen trop trouée, Durkin trop trouble.",
+      "Après s'être échappée d'une secte, une jeune femme se réfugie chez sa sœur mais reste hantée par la paranoïa et les traumatismes.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -997,7 +997,7 @@ export const baseMoviesMissingAnnees20102014: BaseMovie[] = [
     genre: ['Drame', 'Policier', 'Mystère'],
     saga: '',
     description:
-      'Une nuit trop anatolie trop cadavre trop introuvable, Ceylan trop lent, trop beau, trop steppe.',
+      'Une nuit en Anatolie, procureurs et policiers cherchent un cadavre avec l\'aide des suspects, dans une enquête lente et philosophique.',
     fromEntity: null,
     countryOrigin: ['Turquie', 'Bosnie-Herzégovine'],
     selectDisplayOrder: 0,
@@ -1019,7 +1019,7 @@ export const baseMoviesMissingAnnees20102014: BaseMovie[] = [
     genre: ['Documentaire', 'Comédie musicale'],
     saga: '',
     description:
-      'Pina trop morte trop dansée, Wenders trop 3D trop Wuppertal, corps trop parlants.',
+      'Documentaire-hommage à la chorégraphe Pina Bausch, où danseurs du Tanztheater Wuppertal revisitent ses pièces dans la ville.',
     fromEntity: null,
     countryOrigin: ['Allemagne', 'France', 'Royaume-Uni'],
     selectDisplayOrder: 0,
@@ -1042,7 +1042,7 @@ export const baseMoviesMissingAnnees20102014: BaseMovie[] = [
     genre: ['Documentaire', 'Biographie'],
     saga: '',
     description:
-      'Senna trop dieu trop Imola, archives trop pures, Kapadia trop sans voix off, trop vite.',
+      'Documentaire sur Ayrton Senna, génie de la Formule 1, de ses titres mondiaux jusqu\'à sa mort à Imola, à travers archives et courses.',
     fromEntity: null,
     countryOrigin: ['Royaume-Uni', 'France', 'Brésil'],
     selectDisplayOrder: 0,
@@ -1065,7 +1065,7 @@ export const baseMoviesMissingAnnees20102014: BaseMovie[] = [
     genre: ['Comédie', 'Policier'],
     saga: '',
     description:
-      'Un flic trop Connemara trop raciste trop drôle, FBI trop Cheadle, McDonagh trop In Bruges frère.',
+      'En Irlande, un flic provincial cynique et un agent du FBI trop droit collaborent pour démanteler un réseau de trafic de drogue.',
     fromEntity: null,
     countryOrigin: ['Irlande', 'Royaume-Uni'],
     selectDisplayOrder: 0,
@@ -1088,7 +1088,7 @@ export const baseMoviesMissingAnnees20102014: BaseMovie[] = [
     genre: ['Comédie', 'Drame'],
     saga: '',
     description:
-      'Un avocat trop fauché tutelle un vieux trop wrestler, un ado trop lutteur, McCarthy trop juste.',
+      'Un avocat de province au bord de la faillite accueille un adolescent wrestler et tente un arrangement moralement glissant pour sauver son cabinet.',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -1111,7 +1111,7 @@ export const baseMoviesMissingAnnees20102014: BaseMovie[] = [
     genre: ['Comédie', 'Drame'],
     saga: '',
     description:
-      "Une auteure trop YA trop alcool trop rentre au bled reconquérir l'ex trop marié, Reitman trop acide.",
+      "Une auteure de jeunes adultes alcoolique revient dans sa ville natale pour reconquérir son ex, au mépris de la réalité et de son propre déclin.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -1133,7 +1133,7 @@ export const baseMoviesMissingAnnees20102014: BaseMovie[] = [
     genre: ['Drame', 'Romance'],
     saga: '',
     description:
-      'Un couple trop vieux trop amour trop AVC, Haneke trop Palme, Riva trop Trintignant trop chambre.',
+      'Un couple de professeurs de musique octogénaires voit sa vie basculer quand la femme est frappée par une attaque ; l\'amour devient aussi devoir et fin.',
     fromEntity: null,
     countryOrigin: ['Autriche', 'France', 'Allemagne'],
     selectDisplayOrder: 0,
@@ -1156,7 +1156,7 @@ export const baseMoviesMissingAnnees20102014: BaseMovie[] = [
     genre: ['Drame'],
     saga: '',
     description:
-      'Deux amies trop orphelinat trop couvent, un exorcisme trop Moldavie, Mungiu trop sec trop long.',
+      'Dans un monastère orthodoxe roumain, l\'amitié entre deux jeunes femmes se heurte au dogme, à l\'exorcisme et à la tragédie.',
     fromEntity: null,
     countryOrigin: ['Roumanie', 'France', 'Belgique'],
     selectDisplayOrder: 0,
@@ -1179,7 +1179,7 @@ export const baseMoviesMissingAnnees20102014: BaseMovie[] = [
     genre: ['Comédie', 'Drame', 'Fantastique'],
     saga: '',
     description:
-      'Une mère trop 40 trop retombe en 1985 trop lycée, Lvovsky trop magique trop douloureuse.',
+      'Camille, après une rupture, se retrouve projetée dans son passé de lycéenne et tente de réécrire sa vie amoureuse.',
     fromEntity: null,
     countryOrigin: ['France'],
     selectDisplayOrder: 0,
@@ -1202,7 +1202,7 @@ export const baseMoviesMissingAnnees20102014: BaseMovie[] = [
     genre: ['Drame', 'Biographie', 'Comédie musicale'],
     saga: '',
     description:
-      'Claude François trop showbiz trop mort trop prise, Renier trop lui, Siri trop disco trop sombre.',
+      'Biopic de Claude François, de l\'Égypte de son enfance à la gloire des années yé-yé, jusqu\'à sa mort accidentelle.',
     fromEntity: null,
     countryOrigin: ['France', 'Belgique'],
     selectDisplayOrder: 0,
@@ -1225,7 +1225,7 @@ export const baseMoviesMissingAnnees20102014: BaseMovie[] = [
     genre: ['Drame', 'Thriller'],
     saga: '',
     description:
-      'Un milliardaire trop limousine trop New York trop crash, Cronenberg trop DeLillo, Pattinson trop froid.',
+      'Dans un limousine à travers Manhattan, un jeune milliardaire voit sa fortune et son monde s\'effondrer au fil d\'une journée apocalyptique.',
     fromEntity: {
       entityType: 'book',
       title: 'Cosmopolis',
@@ -1252,7 +1252,7 @@ export const baseMoviesMissingAnnees20102014: BaseMovie[] = [
     genre: ['Thriller', 'Drame', 'Comédie'],
     saga: '',
     description:
-      "Un prof trop s'emballe pour un élève trop qui raconte trop la maison d'à côté, Ozon trop malin.",
+      "Un professeur de français s'entiche des devoirs d'un élève qui s'immisce dans une famille bourgeoise, brouillant fiction et réalité.",
     fromEntity: null,
     countryOrigin: ['France'],
     selectDisplayOrder: 0,
@@ -1274,7 +1274,7 @@ export const baseMoviesMissingAnnees20102014: BaseMovie[] = [
     genre: ['Drame', 'Thriller', 'Catastrophe'],
     saga: '',
     description:
-      'Un pilote trop ivre trop héroïque trop inversé, Zemeckis trop crash, Denzel trop addicted.',
+      'Un pilote sauve un avion en panne par un exploit technique, puis doit affronter son alcoolisme quand l\'enquête s\'intéresse à son état.',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -1297,7 +1297,7 @@ export const baseMoviesMissingAnnees20102014: BaseMovie[] = [
     genre: ['Policier', 'Thriller', 'Drame'],
     saga: '',
     description:
-      'Un tueur trop Pitt trop 2008 trop poker trop volé, Dominik trop crise, trop mafia trop molle.',
+      'Pendant la crise de 2008, un tueur à gages est chargé de rétablir l\'ordre dans le milieu après le braquage d\'une partie de poker mafieuse.',
     fromEntity: {
       entityType: 'book',
       title: "Cogan's Trade",
@@ -1323,7 +1323,7 @@ export const baseMoviesMissingAnnees20102014: BaseMovie[] = [
     genre: ['Drame', 'Thriller'],
     saga: '',
     description:
-      'Un instit trop accusé trop à tort trop village, Vinterberg trop Dogme trop Mikkelsen trop brisé.',
+      'Dans un village danois, un instituteur adoré voit sa vie détruite par une fausse accusation d\'abus sur une petite fille.',
     fromEntity: null,
     countryOrigin: ['Danemark', 'Suède'],
     selectDisplayOrder: 0,
@@ -1345,7 +1345,7 @@ export const baseMoviesMissingAnnees20102014: BaseMovie[] = [
     genre: ['Drame', 'Romance'],
     saga: '',
     description:
-      'Un prof trop devient femme trop 90, Dolan trop long trop beau, Poupaud trop Clément trop amour.',
+      'Sur une décennie, l\'amour tumultueux entre une femme et un homme qui décide de vivre en femme, dans le Montréal des années 1990.',
     fromEntity: null,
     countryOrigin: ['Canada', 'France'],
     selectDisplayOrder: 0,
@@ -1367,7 +1367,7 @@ export const baseMoviesMissingAnnees20102014: BaseMovie[] = [
     genre: ['Drame', 'Fantastique'],
     saga: '',
     description:
-      'Une gamine trop bayou trop inondation trop père trop malade, Zeitlin trop fable, trop Hushpuppy.',
+      'Dans le bayou, une petite fille et son père malade luttent pour rester sur leur terre isolée face aux éléments et aux autorités.',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -1389,7 +1389,7 @@ export const baseMoviesMissingAnnees20102014: BaseMovie[] = [
     genre: ['Comédie'],
     saga: '',
     description:
-      'Des sketches trop adultère trop Dujardin trop Lellouche, trop variés trop potaches trop 2012.',
+      'Film à sketches sur l\'infidélité masculine, entre comédie grinçante, mensonges conjugaux et crises de couple.',
     fromEntity: null,
     countryOrigin: ['France'],
     selectDisplayOrder: 0,
@@ -1411,7 +1411,7 @@ export const baseMoviesMissingAnnees20102014: BaseMovie[] = [
     genre: ['Comédie'],
     saga: '',
     description:
-      'Trois copains trop cités trop porno trop tournage, Gastambide trop Kaïra, trop M6 trop hit.',
+      'Trois amis de cité décident de se lancer dans le porno amateur pour s\'enrichir, dans une comédie trash et absurde.',
     fromEntity: null,
     countryOrigin: ['France'],
     selectDisplayOrder: 0,
@@ -1433,7 +1433,7 @@ export const baseMoviesMissingAnnees20102014: BaseMovie[] = [
     genre: ['Comédie', 'Drame', 'Biographie'],
     saga: '',
     description:
-      'Une cuisinière trop Périgord trop Élysée trop Chirac, Frot trop cassoulet, trop Palais trop simple.',
+      'Une cuisinière périgourdine est engagée à l\'Élysée pour préparer les repas du Président, entre tradition et protocole.',
     fromEntity: null,
     countryOrigin: ['France'],
     selectDisplayOrder: 0,
@@ -1455,7 +1455,7 @@ export const baseMoviesMissingAnnees20102014: BaseMovie[] = [
     genre: ['Comédie', 'Romance'],
     saga: '',
     description:
-      'Une dactylo trop 1959 trop championne trop vitesse, Roinsard trop pastel, Duris trop coach trop amour.',
+      'Dans les années 1950, une jeune secrétaire douée en dactylographie est entraînée par son patron vers les championnats de vitesse.',
     fromEntity: null,
     countryOrigin: ['France', 'Belgique'],
     selectDisplayOrder: 0,
@@ -1477,7 +1477,7 @@ export const baseMoviesMissingAnnees20102014: BaseMovie[] = [
     genre: ['Drame'],
     saga: '',
     description:
-      'Un fils trop sorti de taule trop mère trop euthanasie, Brizé trop sec, Lindon trop silence.',
+      'Un homme sorti de prison revient vivre chez sa mère malade et tente une coexistence difficile avant une éventuelle euthanasie.',
     fromEntity: null,
     countryOrigin: ['France'],
     selectDisplayOrder: 0,
@@ -1499,7 +1499,7 @@ export const baseMoviesMissingAnnees20102014: BaseMovie[] = [
     genre: ['Documentaire', 'Biographie', 'Comédie musicale'],
     saga: '',
     description:
-      'Un chanteur trop Détroit trop dieu trop Afrique du Sud trop disparu, Bendjelloul trop conte trop vrai.',
+      'Deux fans sud-africains partent à la recherche de Sixto Rodriguez, auteur-compositeur américain devenu légende sans le savoir.',
     fromEntity: null,
     countryOrigin: ['Suède', 'Royaume-Uni'],
     selectDisplayOrder: 0,
@@ -1521,7 +1521,7 @@ export const baseMoviesMissingAnnees20102014: BaseMovie[] = [
     genre: ['Horreur', 'Comédie', 'Fantastique'],
     saga: '',
     description:
-      'Cinq ados trop chalet trop tropes trop laboratoire, Goddard trop Whedon trop méta trop sang.',
+      'Des étudiants passent un week-end dans une cabane isolée, sans savoir qu\'ils sont les pions d\'un rituel contrôlé en coulisses.',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -1543,7 +1543,7 @@ export const baseMoviesMissingAnnees20102014: BaseMovie[] = [
     genre: ['Comédie', 'Romance'],
     saga: '',
     description:
-      'Un pianiste trop célibataire trop tombe sur une mère trop trois enfants, Huth trop romcom trop Paris.',
+      'Un chanteur sur le déclin tombe amoureux d\'une business woman surmenée et père de trois enfants, entre comédie et romance.',
     fromEntity: null,
     countryOrigin: ['France'],
     selectDisplayOrder: 0,
@@ -1565,7 +1565,7 @@ export const baseMoviesMissingAnnees20102014: BaseMovie[] = [
     genre: ['Drame', 'Jeunesse'],
     saga: '',
     description:
-      'Une gamine trop Riyad trop veut un vélo trop interdit, al-Mansour trop première, trop douce trop nette.',
+      'En Arabie saoudite, une fillette rêve d\'acheter un vélo interdit aux filles et vend des objets pour y parvenir.',
     fromEntity: null,
     countryOrigin: ['Arabie saoudite', 'Allemagne'],
     selectDisplayOrder: 0,
@@ -1587,7 +1587,7 @@ export const baseMoviesMissingAnnees20102014: BaseMovie[] = [
     genre: ['Comédie'],
     saga: '',
     description:
-      'Une juge trop enceinte trop ne sait pas de qui, Dupontel trop burlesque trop palais trop justice.',
+      'Une juge aux mœurs strictes découvre qu\'elle est enceinte sans se souvenir de la nuit en question, et mène l\'enquête sur elle-même.',
     fromEntity: null,
     countryOrigin: ['France'],
     selectDisplayOrder: 0,
@@ -1609,7 +1609,7 @@ export const baseMoviesMissingAnnees20102014: BaseMovie[] = [
     genre: ['Comédie', 'Drame'],
     saga: '',
     description:
-      'Deux acteurs trop Île de Ré trop Misanthrope trop ego, Le Guay trop Molière, Luchini trop Wilson.',
+      'Un acteur acariâtre à la retraite et une star de cinéma se retrouvent pour répéter Le Misanthrope dans une maison au bord de la mer.',
     fromEntity: null,
     countryOrigin: ['France'],
     selectDisplayOrder: 0,
@@ -1631,7 +1631,7 @@ export const baseMoviesMissingAnnees20102014: BaseMovie[] = [
     genre: ['Drame', 'Comédie'],
     saga: '',
     description:
-      'Une famille trop Oklahoma trop enterrement trop méchanceté, Streep trop pilules, trop Tracy Letts.',
+      'Après la disparition du patriarche, une famille du Oklahoma se déchire sous le regard acide et toxique de la mère.',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -1653,7 +1653,7 @@ export const baseMoviesMissingAnnees20102014: BaseMovie[] = [
     genre: ['Aventure', 'Jeunesse', 'Drame'],
     saga: 'Belle et Sébastien',
     description:
-      'Un gamin trop Alpes trop 1943 trop chien trop Pyrénées, Vanier trop neige, trop Gestapo trop tendre.',
+      'Dans les Alpes pendant l\'Occupation, un enfant se lie d\'amitié avec une chienne réputée dangereuse et aide des résistants.',
     fromEntity: {
       entityType: 'book',
       title: 'Belle et Sébastien',
@@ -1679,7 +1679,7 @@ export const baseMoviesMissingAnnees20102014: BaseMovie[] = [
     genre: ['Aventure', 'Drame', 'Thriller'],
     saga: '',
     description:
-      'Un skipper trop Vendée Globe trop clandestin trop à bord, Offenstein trop mer, Cluzet trop seul.',
+      'Un skippeur en course autour du monde découvre un passager clandestin à bord et doit choisir entre règlement et humanité.',
     fromEntity: null,
     countryOrigin: ['France'],
     selectDisplayOrder: 0,
@@ -1701,7 +1701,7 @@ export const baseMoviesMissingAnnees20102014: BaseMovie[] = [
     genre: ['Comédie', 'Drame'],
     saga: '',
     description:
-      'Une danseuse trop New York trop 27 ans trop pas de sous, Baumbach trop n&b, Gerwig trop clumsie trop vraie.',
+      'À New York, une danseuse sans le sou navigue entre amitiés, colocations et rêves artistiques dans une comédie en noir et blanc.',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -1723,7 +1723,7 @@ export const baseMoviesMissingAnnees20102014: BaseMovie[] = [
     genre: ['Drame', 'Biographie'],
     saga: '',
     description:
-      'Oscar Grant trop dernier jour trop BART trop 2009, Coogler trop juste, Jordan trop vivant trop mort.',
+      'Reconstruction des dernières 24 heures d\'Oscar Grant, jeune Noir américain tué par la police dans une station de métro de Oakland.',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -1745,7 +1745,7 @@ export const baseMoviesMissingAnnees20102014: BaseMovie[] = [
     genre: ['Romance', 'Fantastique', 'Drame'],
     saga: '',
     description:
-      'Colin trop aime Chloé trop nénuphar trop poumon, Gondry trop Vian trop gadgets trop triste.',
+      'Adaptation féerique et musicale du roman de Vian : Colin et Chloé vivent un amour menacé par une maladie absurde et poétique.',
     fromEntity: {
       entityType: 'book',
       title: "L'Écume des jours",
@@ -1771,7 +1771,7 @@ export const baseMoviesMissingAnnees20102014: BaseMovie[] = [
     genre: ['Thriller', 'Drame', 'Romance'],
     saga: '',
     description:
-      'Un lac trop gay trop cruising trop meurtre, Guiraudie trop soleil trop désir trop danger.',
+      'Sur une plage gay isolée, un homme tombe amoureux d\'un inconnu après avoir assisté à un meurtre, entre désir et danger.',
     fromEntity: null,
     countryOrigin: ['France'],
     selectDisplayOrder: 0,
@@ -1793,7 +1793,7 @@ export const baseMoviesMissingAnnees20102014: BaseMovie[] = [
     genre: ['Comédie'],
     saga: '',
     description:
-      'Des Portugais trop concierges trop Paris trop veulent rentrer, Alves trop chanson trop clichés trop chauds.',
+      'Une famille portugaise installée en France depuis des années voit son équilibre menacé quand un héritage l\'invite à rentrer au pays.',
     fromEntity: null,
     countryOrigin: ['France', 'Portugal'],
     selectDisplayOrder: 0,
@@ -1815,7 +1815,7 @@ export const baseMoviesMissingAnnees20102014: BaseMovie[] = [
     genre: ['Drame'],
     saga: '',
     description:
-      'Un mondain trop Rome trop 65 ans trop vide trop beau, Sorrentino trop Fellini, Servillo trop Jep.',
+      'À Rome, un journaliste mondain sexagénaire repense sa vie vide de sens après la mort d\'un amour de jeunesse.',
     fromEntity: null,
     countryOrigin: ['Italie', 'France'],
     selectDisplayOrder: 0,
@@ -1835,7 +1835,7 @@ export const baseMoviesMissingAnnees20102014: BaseMovie[] = [
     genre: ['Drame', 'Thriller'],
     saga: '',
     description:
-      'Un metteur en scène trop audition trop actrice trop qui le domine, Polanski trop huis clos trop fourrure.',
+      'Dans un théâtre vide, un metteur en scène auditionne une actrice pour son adaptation de Sacher-Masoch ; le pouvoir change de camp.',
     fromEntity: {
       entityType: 'book',
       title: 'La Vénus à la fourrure',
@@ -1861,7 +1861,7 @@ export const baseMoviesMissingAnnees20102014: BaseMovie[] = [
     genre: ['Drame'],
     saga: '',
     description:
-      'Un Iranien trop divorce trop Banlieue trop secrets trop belle-fille, Farhadi trop huis, trop non-dits.',
+      'Un Iranien revient à Paris pour divorcer ; le passé et les non-dits d\'une famille recomposée ressurgissent autour d\'une adolescente.',
     fromEntity: null,
     countryOrigin: ['France', 'Italie', 'Iran'],
     selectDisplayOrder: 0,
@@ -1883,7 +1883,7 @@ export const baseMoviesMissingAnnees20102014: BaseMovie[] = [
     genre: ['Drame', 'Biographie', 'Historique'],
     saga: '',
     description:
-      'Mandela trop avocat trop Robben trop président, Chadwick trop biopic, Elba trop stature trop U2.',
+      'Biopic de Nelson Mandela, de l\'avocat militant à Robben Island jusqu\'à la présidence et la fin de l\'apartheid.',
     fromEntity: {
       entityType: 'book',
       title: 'Un long chemin vers la liberté',
@@ -1909,7 +1909,7 @@ export const baseMoviesMissingAnnees20102014: BaseMovie[] = [
     genre: ['Comédie'],
     saga: '',
     description:
-      'Un ministre trop Affaires étrangères trop lyrisme trop stagiaire, Tavernier trop Villepin trop BD.',
+      'Un jeune normalien découvre les coulisses absurdes du Quai d\'Orsay au service d\'un ministre des Affaires étrangères théâtral.',
     fromEntity: {
       entityType: 'bd',
       title: "Quai d'Orsay",
@@ -1935,7 +1935,7 @@ export const baseMoviesMissingAnnees20102014: BaseMovie[] = [
     genre: ['Drame', 'Thriller', 'Policier'],
     saga: '',
     description:
-      'Quatre filles trop spring break trop braquage trop rappeur, Korine trop neon, Franco trop Alien trop fluo.',
+      'Quatre étudiantes américaines plongent dans le crime à Miami pour financer leurs vacances, sous l\'emprise d\'un rappeur louche.',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -1957,7 +1957,7 @@ export const baseMoviesMissingAnnees20102014: BaseMovie[] = [
     genre: ['Documentaire'],
     saga: '',
     description:
-      'Des tueurs trop 1965 trop Indonésie trop rejouent trop leurs massacres, Oppenheimer trop vertige trop karaoké.',
+      'Des assassins indonésiens rejouent leurs crimes de 1965 comme des scènes de cinéma, dans un documentaire saisissant sur l\'impunité.',
     fromEntity: null,
     countryOrigin: ['Danemark', 'Norvège', 'Royaume-Uni'],
     selectDisplayOrder: 0,
@@ -1979,7 +1979,7 @@ export const baseMoviesMissingAnnees20102014: BaseMovie[] = [
     genre: ['Drame', 'Romance'],
     saga: '',
     description:
-      'Un lycéen trop charme trop alcool trop rencontre une fille trop sage, Ponsoldt trop juste trop Teller.',
+      'Un lycéen charmeur et une fille sérieuse entament une romance fragile, entre alcool, maturité et choix d\'avenir.',
     fromEntity: {
       entityType: 'book',
       title: 'The Spectacular Now',
@@ -2005,7 +2005,7 @@ export const baseMoviesMissingAnnees20102014: BaseMovie[] = [
     genre: ['Drame'],
     saga: '',
     description:
-      'Quatre ados trop cités trop amitié trop genre, Sciamma trop Céline trop collège trop tendre trop dur.',
+      'Dans une cité de la banlieue parisienne, une adolescente rejoint un gang de filles pour échapper à la violence familiale et exister.',
     fromEntity: null,
     countryOrigin: ['France'],
     selectDisplayOrder: 0,
@@ -2027,7 +2027,7 @@ export const baseMoviesMissingAnnees20102014: BaseMovie[] = [
     genre: ['Drame', 'Thriller'],
     saga: '',
     description:
-      'Un prêtre trop menacé trop sept jours trop Irlande, McDonagh trop noir, Gleeson trop calme trop croix.',
+      'En Irlande, un prêtre apprend qu\'il sera tué dans une semaine pour les péchés de l\'Église, et continue d\'aider son village.',
     fromEntity: null,
     countryOrigin: ['Irlande', 'Royaume-Uni'],
     selectDisplayOrder: 0,
@@ -2049,7 +2049,7 @@ export const baseMoviesMissingAnnees20102014: BaseMovie[] = [
     genre: ['Drame'],
     saga: '',
     description:
-      'Une ouvrière trop dépression trop weekend trop collègues trop votes, Dardenne trop Cotillard trop Seraing.',
+      'Sandra, remise d\'une dépression, a un week-end pour convaincre ses collègues de renoncer à leur prime afin de sauver son emploi.',
     fromEntity: null,
     countryOrigin: ['Belgique', 'France', 'Italie'],
     selectDisplayOrder: 0,
@@ -2071,7 +2071,7 @@ export const baseMoviesMissingAnnees20102014: BaseMovie[] = [
     genre: ['Drame', 'Historique', 'Guerre', 'Thriller'],
     saga: '',
     description:
-      'Nordling trop convainc Choltitz trop de ne pas brûler Paris 1944, Schlöndorff trop huis trop Palais.',
+      'En août 1944, le consul suédois Nordling tente de dissuader le général allemand von Choltitz de détruire Paris.',
     fromEntity: null,
     countryOrigin: ['France', 'Allemagne'],
     selectDisplayOrder: 0,
@@ -2093,7 +2093,7 @@ export const baseMoviesMissingAnnees20102014: BaseMovie[] = [
     genre: ['Drame', 'Comédie'],
     saga: 'Hippocrate',
     description:
-      'Un interne trop fils de trop hôpital trop public trop craque, Lilti trop médecin trop vrai trop internat.',
+      'Un interne idéaliste découvre le chaos d\'un service hospitalier public, entre manque de moyens, éthique et désillusion.',
     fromEntity: null,
     countryOrigin: ['France'],
     selectDisplayOrder: 0,
@@ -2115,7 +2115,7 @@ export const baseMoviesMissingAnnees20102014: BaseMovie[] = [
     genre: ['Comédie', 'Romance', 'Drame'],
     saga: '',
     description:
-      'Un menuisier trop rencontre une survivaliste trop musclée, Cailley trop été trop Landes trop amour trop fin du monde.',
+      'Un jeune homme rencontre une survivaliste paranoïaque ; leur romance se noue autour de l\'entraînement à la fin du monde.',
     fromEntity: null,
     countryOrigin: ['France'],
     selectDisplayOrder: 0,
@@ -2137,7 +2137,7 @@ export const baseMoviesMissingAnnees20102014: BaseMovie[] = [
     genre: ['Drame', 'Thriller'],
     saga: '',
     description:
-      'Un homme trop béton trop voiture trop une nuit trop appels, Knight trop huis, Hardy trop Welsh trop craque.',
+      'En une nuit au téléphone, un chef de chantier voit sa vie personnelle et professionnelle s\'effondrer pendant qu\'il conduit vers Londres.',
     fromEntity: null,
     countryOrigin: ['Royaume-Uni', 'États-Unis'],
     selectDisplayOrder: 0,
@@ -2159,7 +2159,7 @@ export const baseMoviesMissingAnnees20102014: BaseMovie[] = [
     genre: ['Comédie', 'Drame', 'Historique', 'Biographie'],
     saga: '',
     description:
-      'Des gays trop Londres trop soutiennent trop mineurs trop 1984, Warchus trop LGSM trop chœur trop vrai.',
+      'En 1984, des militants LGBT londoniens soutiennent les mineurs en grève au Pays de Galles, malgré les préjugés des deux côtés.',
     fromEntity: null,
     countryOrigin: ['Royaume-Uni'],
     selectDisplayOrder: 0,
@@ -2181,7 +2181,7 @@ export const baseMoviesMissingAnnees20102014: BaseMovie[] = [
     genre: ['Drame', 'Biographie'],
     saga: '',
     description:
-      'Yves trop 67-76 trop Bergé trop nuits trop opium, Bonello trop fashion trop Ulliel trop décadent.',
+      'Portrait fictionnel de Yves Saint Laurent dans les années 1970, entre création, excès, amours et solitude de l\'icône.',
     fromEntity: null,
     countryOrigin: ['France'],
     selectDisplayOrder: 0,
@@ -2203,7 +2203,7 @@ export const baseMoviesMissingAnnees20102014: BaseMovie[] = [
     genre: ['Drame', 'Comédie'],
     saga: '',
     description:
-      'Un père trop avalanche trop lâche trop ski, Östlund trop malaise trop Force Majeure trop couple.',
+      'Une famille bourgeoise suédoise en ski voit ses non-dits exploser après une avalanche, dans une satire du couple et de la parentalité.',
     fromEntity: null,
     countryOrigin: ['Suède', 'France', 'Norvège', 'Danemark'],
     selectDisplayOrder: 0,
@@ -2225,7 +2225,7 @@ export const baseMoviesMissingAnnees20102014: BaseMovie[] = [
     genre: ['Horreur', 'Drame'],
     saga: '',
     description:
-      'Une veuve trop fils trop livre trop pop-up trop Babadook, Kent trop deuil trop armoire trop cri.',
+      'Une veuve et son fils sont hantés par une créature née d\'un livre pour enfants, métaphore terrifiante du deuil et de la maternité.',
     fromEntity: null,
     countryOrigin: ['Australie'],
     selectDisplayOrder: 0,
@@ -2247,7 +2247,7 @@ export const baseMoviesMissingAnnees20102014: BaseMovie[] = [
     genre: ['Comédie', 'Action'],
     saga: '',
     description:
-      'Deux animateurs trop interviewent trop Kim trop assassinat, Rogen trop Sony trop hack trop potache.',
+      'Deux animateurs télé américains sont recrutés par la CIA pour assassiner Kim Jong-un lors d\'une interview exclusive.',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -2269,7 +2269,7 @@ export const baseMoviesMissingAnnees20102014: BaseMovie[] = [
     genre: ['Drame'],
     saga: '',
     description:
-      'Un éleveur trop Niger trop djihad trop football trop interdit, Sissako trop Mali trop poésie trop charia.',
+      'Dans une ville du nord du Mali sous occupation djihadiste, un éleveur et sa famille tentent de vivre malgré la terreur et l\'arbitraire.',
     fromEntity: null,
     countryOrigin: ['France', 'Mauritanie'],
     selectDisplayOrder: 0,
@@ -2291,7 +2291,7 @@ export const baseMoviesMissingAnnees20102014: BaseMovie[] = [
     genre: ['Science Fiction', 'Thriller', 'Horreur'],
     saga: '',
     description:
-      'Une extra-terrestre trop Johansson trop Glasgow trop hommes trop van, Glazer trop Mica trop peau.',
+      'Une extraterrestre à l\'apparence d\'une femme parcourt l\'Écosse pour séduire des hommes, jusqu\'à ce que l\'humanité la trouble.',
     fromEntity: {
       entityType: 'book',
       title: 'Under the Skin',
@@ -2317,7 +2317,7 @@ export const baseMoviesMissingAnnees20102014: BaseMovie[] = [
     genre: ['Drame'],
     saga: '',
     description:
-      'Un hôtelier trop Cappadoce trop théâtre trop ego trop neige, Ceylan trop Palme trop dialogues trop long.',
+      'Dans un hôtel en Cappadoce, un ancien acteur devenu hôte aisé se heurte à sa jeune femme et à ses locataires pendant un long hiver.',
     fromEntity: null,
     countryOrigin: ['Turquie', 'France', 'Allemagne'],
     selectDisplayOrder: 0,
@@ -2339,7 +2339,7 @@ export const baseMoviesMissingAnnees20102014: BaseMovie[] = [
     genre: ['Drame', 'Biographie'],
     saga: '',
     description:
-      'Yves trop jeune trop Dior trop Bergé trop Maroc, Lespert trop biopic officiel, Niney trop lui trop César.',
+      'Biopic officiel d\'Yves Saint Laurent, de ses débuts chez Dior à l\'empire de la mode, avec Pierre Bergé à ses côtés.',
     fromEntity: null,
     countryOrigin: ['France'],
     selectDisplayOrder: 0,
@@ -2361,7 +2361,7 @@ export const baseMoviesMissingAnnees20102014: BaseMovie[] = [
     genre: ['Thriller', 'Drame'],
     saga: '',
     description:
-      'Trois mineurs trop centre trop correctionnel trop gangs trop gardiens, Chapiron trop remake trop Scum trop violence trop froide.',
+      'Trois adolescents arrivent dans un centre de détention pour mineurs canadien et découvrent un système de violence entre détenus et gardiens.',
     fromEntity: null,
     countryOrigin: ['France', 'Canada'],
     selectDisplayOrder: 0,

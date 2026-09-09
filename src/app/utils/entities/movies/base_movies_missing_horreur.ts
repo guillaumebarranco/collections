@@ -21,7 +21,7 @@ export const baseMoviesMissingHorreur: BaseMovie[] = [
     genre: ['Horreur', 'Science Fiction'],
     saga: '',
     description:
-      'Internet fantômes Tokyo vide, Kurosawa trop Kairo écrans suicide gris Pulse.',
+      'Tokyo se vide lorsque des esprits envahissent Internet et incitent les habitants au suicide ; Kiyoshi Kurosawa transforme l\'écran et la solitude urbaine en cauchemar gris et implacable.',
     fromEntity: null,
     countryOrigin: ['Japon'],
     selectDisplayOrder: 0,
@@ -43,7 +43,7 @@ export const baseMoviesMissingHorreur: BaseMovie[] = [
     genre: ['Horreur', 'Thriller', 'Mystère'],
     saga: '',
     description:
-      'Une équipe désamiante asile Danvers, Anderson trop bandes session 9 folie amiante.',
+      'Une équipe de désamiantage investit l\'hôpital psychiatrique abandonné de Danvers et découvre que les bandes audio d\'une ancienne thérapie semblent encore manipuler leurs esprits.',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -65,7 +65,7 @@ export const baseMoviesMissingHorreur: BaseMovie[] = [
     genre: ['Horreur', 'Drame'],
     saga: '',
     description:
-      'Une mère fille immeuble fuite, Nakata trop Suzuki réservoir sac rouge Tokyo eau.',
+      'Une mère et sa fille fuient leur mari violent dans un immeuble miteux, où une fuite d\'eau du plafond révèle une malédiction d\'enfance enfermée dans le réservoir.',
     fromEntity: {
       entityType: 'book',
       title: 'Honogurai mizu no soko kara',
@@ -91,7 +91,7 @@ export const baseMoviesMissingHorreur: BaseMovie[] = [
     genre: ['Horreur', 'Action', 'Guerre'],
     saga: '',
     description:
-      'Des paras Écosse lycans chalet, Marshall trop Dog Soldiers humour sang lune pack.',
+      'Des parachutistes britanniques piégés dans une cabane des Highlands affrontent une meute de lycanthropes lors d\'une nuit de pleine lune mêlant humour macabre et carnage.',
     fromEntity: null,
     countryOrigin: ['Royaume-Uni'],
     selectDisplayOrder: 0,
@@ -113,7 +113,7 @@ export const baseMoviesMissingHorreur: BaseMovie[] = [
     genre: ['Horreur', 'Drame', 'Thriller'],
     saga: '',
     description:
-      'Deux sœurs maison belle-mère armoire, Kim trop Janghwa Hongryeon psyché Corée conte sang.',
+      'Deux sœurs traumatisées rentrent chez leur père et sa nouvelle belle-mère ; des visites en hôpital psychiatrique et des détails inquiétants brouillent la frontière entre mémoire, culpabilité et fantômes familiaux.',
     fromEntity: null,
     countryOrigin: ['Corée du Sud'],
     selectDisplayOrder: 0,
@@ -135,7 +135,7 @@ export const baseMoviesMissingHorreur: BaseMovie[] = [
     genre: ['Horreur', 'Thriller'],
     saga: '',
     description:
-      'Deux copines campagne tueur camion, Aja trop New French Extremity twist trop trop trop scie.',
+      'Deux étudiantes en vacances dans une ferme isolée sont traquées par un tueur sadique ; Alexandre Aja enchaîne tension viscérale et retournements brutaux.',
     fromEntity: null,
     countryOrigin: ['France'],
     selectDisplayOrder: 0,
@@ -157,7 +157,7 @@ export const baseMoviesMissingHorreur: BaseMovie[] = [
     genre: ['Horreur'],
     saga: 'Ju-On',
     description:
-      'Une maison malédiction Kayako croassement, Shimizu trop Grudge original Tokyo assistant social mort.',
+      'Dans une maison tokyoïte, la malédiction Kayako se propage de locataire en locataire à chaque contact mortel ; Takashi Shimizu invente une horreur glaçante fondée sur la répétition et le râle spectral.',
     fromEntity: null,
     countryOrigin: ['Japon'],
     selectDisplayOrder: 0,
@@ -179,7 +179,7 @@ export const baseMoviesMissingHorreur: BaseMovie[] = [
     genre: ['Horreur', 'Thriller'],
     saga: 'Wolf Creek',
     description:
-      'Trois backpackers outback Mick Taylor, McLean trop vrai crime météore cave Australie loup.',
+      'Trois backpackers abandonnés dans l\'outback australien croisent Mick Taylor, un chasseur sadique inspiré d\'affaires réelles, dans un survival horror implacable et cru.',
     fromEntity: null,
     countryOrigin: ['Australie'],
     selectDisplayOrder: 0,
@@ -201,7 +201,7 @@ export const baseMoviesMissingHorreur: BaseMovie[] = [
     genre: ['Horreur', 'Thriller'],
     saga: '',
     description:
-      'Un couple Bucarest ado maison, Moreau trop Palud 77 min home invasion nuit ils.',
+      'Un couple écrivain reste seul dans leur nouvelle maison de Bucarest pendant qu\'une bande d\'adolescents harcèle le quartier ; David Moreau en fait un home invasion nocturne nerveux et efficace.',
     fromEntity: null,
     countryOrigin: ['France', 'Roumanie'],
     selectDisplayOrder: 0,
@@ -223,7 +223,7 @@ export const baseMoviesMissingHorreur: BaseMovie[] = [
     genre: ['Horreur'],
     saga: '',
     description:
-      'Une enceinte veuve Dalle ciseaux, Bustillo trop Maury Noël fœtus New French sang intérieur.',
+      'Une veuve enceinte, seule pour la veille de Noël, voit une femme déterminée à lui arracher l\'enfant du ventre ; le film annonce le nouveau cinéma d\'horreur français dans une violence implacable.',
     fromEntity: null,
     countryOrigin: ['France'],
     selectDisplayOrder: 0,
@@ -245,7 +245,7 @@ export const baseMoviesMissingHorreur: BaseMovie[] = [
     genre: ['Horreur', 'Thriller'],
     saga: '',
     description:
-      'Des braqueurs auberge nazis famille, Gens trop 2002 Le Pen abattoir enceinte frontières horreur.',
+      'Des braqueurs en fuite trouvent refuge dans une auberge tenue par une famille fanatique aux méthodes d\'abattoir ; Xavier Gens pousse le home invasion européen vers une brutalité politique glaçante.',
     fromEntity: null,
     countryOrigin: ['France'],
     selectDisplayOrder: 0,
@@ -267,7 +267,7 @@ export const baseMoviesMissingHorreur: BaseMovie[] = [
     genre: ['Horreur', 'Thriller'],
     saga: '',
     description:
-      'Un couple lac ados hoodies, Watkins trop Fassbender Reilly chav pneus Eden enfer.',
+      'Un couple londonien part camper près d\'un lac idyllique mais tombe sous la loi de jeunes voyous impunis ; le film transforme l\'anonymat péri-urbain britannique en cauchemar social claustrophobique.',
     fromEntity: null,
     countryOrigin: ['Royaume-Uni'],
     selectDisplayOrder: 0,
@@ -289,7 +289,7 @@ export const baseMoviesMissingHorreur: BaseMovie[] = [
     genre: ['Horreur'],
     saga: '',
     description:
-      'Deux amies vengeance secte peau, Laugier trop martyre New French Extremity trop trop trop vision.',
+      'Une jeune femme traque ceux qui l\'ont torturée enfant, plongeant dans un culte secret où souffrance et transcendance se confondent dans l\'horreur extrême.',
     fromEntity: null,
     countryOrigin: ['France', 'Canada'],
     selectDisplayOrder: 0,
@@ -305,7 +305,7 @@ export const baseMoviesMissingHorreur: BaseMovie[] = [
     genre: ['Horreur', 'Drame'],
     saga: '',
     description:
-      'Un couple deuil forêt Eden, von Trier trop Gainsbourg Dafoe genital Chaos règnes antichrist.',
+      'Après la mort de leur enfant, un thérapeute et sa femme partent se soigner dans une cabane sylvée où la culpabilité, la sexualité et la violence basculent en chaos visionnaire.',
     fromEntity: null,
     countryOrigin: ['Danemark', 'Allemagne', 'France', 'Suède'],
     selectDisplayOrder: 0,
@@ -327,7 +327,7 @@ export const baseMoviesMissingHorreur: BaseMovie[] = [
     genre: ['Horreur', 'Comédie', 'Fantastique'],
     saga: '',
     description:
-      'Une banquière refuse un prêt malédiction, Raimi trop Evil Dead bouton goat enfer gore gag.',
+      'Une conseillère bancaire refuse un prêt à une vieille Romni et hérite d\'une malédiction qui l\'envoie vers l\'enfer ; Sam Raimi renoue avec le gore burlesque et les frissons à l\'ancienne.',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -349,7 +349,7 @@ export const baseMoviesMissingHorreur: BaseMovie[] = [
     genre: ['Horreur', 'Thriller', 'Policier'],
     saga: '',
     description:
-      'Un agent NIS chasse le tueur trop trop trop de trop trop trop sa trop trop trop femme, Kim trop Choi Lee vengeance trop trop trop cycle diable.',
+      'Un agent secret traque le serial killer qui a assassiné sa fiancée et choisit une vengeance aussi méthodique que monstrueuse.',
     fromEntity: null,
     countryOrigin: ['Corée du Sud'],
     selectDisplayOrder: 0,
@@ -371,7 +371,7 @@ export const baseMoviesMissingHorreur: BaseMovie[] = [
     genre: ['Horreur', 'Drame', 'Romance'],
     saga: '',
     description:
-      'Un ado Los Alamos voisine vampire, Reeves trop remake Lindqvist neige Moretz piscine entre.',
+      'Dans le New Mexico des années 1980, un garçon solitaire se lie à une voisine étrange qui ne sort que la nuit ; Matt Reeves transpose enneigée et mélancolique le vampirisme de Let the Right One In.',
     fromEntity: {
       entityType: 'book',
       title: 'Låt den rätte komma in',
@@ -397,7 +397,7 @@ export const baseMoviesMissingHorreur: BaseMovie[] = [
     genre: ['Horreur', 'Thriller', 'Policier'],
     saga: '',
     description:
-      'Deux potes hitmen liste trop trop cult, Wheatley trop folk horror dîner marteau Kill List.',
+      'Deux tueurs à gages britanniques acceptent un contrat qui les entraîne dans un rituel occulte aux conséquences de plus en plus paranoïaques.',
     fromEntity: null,
     countryOrigin: ['Royaume-Uni'],
     selectDisplayOrder: 0,
@@ -419,7 +419,7 @@ export const baseMoviesMissingHorreur: BaseMovie[] = [
     genre: ['Horreur', 'Thriller', 'Comédie'],
     saga: '',
     description:
-      'Une réunion familiale masques animaux, Wingard trop survival girl hache home invasion next.',
+      'Lors d\'une réunion familiale, une bande de tueurs masqués surgit dans la propriété isolée, mais l\'une des invitées possède des compétences de survie que personne n\'anticipait.',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -441,7 +441,7 @@ export const baseMoviesMissingHorreur: BaseMovie[] = [
     genre: ['Horreur', 'Thriller', 'Drame'],
     saga: '',
     description:
-      'Un ingénieur son giallo Italie, Strickland trop Foley pastèque folie studio Berberian cri.',
+      'Un ingénieur du son britannique débarque en Italie pour doubler un giallo sanglant des années 1970 et perd pied entre bruitages, cris et paranoïa dans la cabine de montage.',
     fromEntity: null,
     countryOrigin: ['Royaume-Uni'],
     selectDisplayOrder: 0,
@@ -463,7 +463,7 @@ export const baseMoviesMissingHorreur: BaseMovie[] = [
     genre: ['Horreur', 'Thriller', 'Mystère'],
     saga: 'La Dame en noir',
     description:
-      'Un notaire marais maison Eel, Watkins trop Radcliffe Hammer voile enfants dame noire.',
+      'Un jeune avoué londonien se rend dans un village marécageux pour régler une succession et découvre qu\'une femme en deuil exige toujours la vie des enfants du coin.',
     fromEntity: {
       entityType: 'book',
       title: 'The Woman in Black',
@@ -489,7 +489,7 @@ export const baseMoviesMissingHorreur: BaseMovie[] = [
     genre: ['Horreur', 'Fantastique', 'Guerre', 'Historique'],
     saga: '',
     description:
-      'Des déserteurs 1648 champignons n&b, Wheatley trop guerre civile alchimie champ Angleterre trip.',
+      'Pendant la guerre civile anglaise, des déserteurs traversent un champ en quête d\'un trésor alchimique sous l\'effet de champignons ; Ben Wheatley filme en noir et blanc une hallucination historique violente.',
     fromEntity: null,
     countryOrigin: ['Royaume-Uni'],
     selectDisplayOrder: 0,
@@ -511,7 +511,7 @@ export const baseMoviesMissingHorreur: BaseMovie[] = [
     genre: ['Horreur', 'Thriller', 'Mystère'],
     saga: '',
     description:
-      'Un frère sœur miroir maudit, Flanagan trop Oculus timelines trop trop trop pomme sang verre.',
+      'Un frère et une sœur adultes tentent de prouver qu\'un miroir antique a détruit leur famille, mais l\'objet semble manipuler temps et mémoire.',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -533,7 +533,7 @@ export const baseMoviesMissingHorreur: BaseMovie[] = [
     genre: ['Horreur', 'Thriller', 'Aventure'],
     saga: '',
     description:
-      'Une archéologue catacombes Paris found footage, Dowdle trop Enfer Dante pierre philosophe dessous comme dessus.',
+      'Une archéologue pénètre les catacombes de Paris à la recherche d\'une pierre philosophale et voit ses traumatismes ressurgir dans un found footage claustrophobique inspiré de Dante.',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -555,7 +555,7 @@ export const baseMoviesMissingHorreur: BaseMovie[] = [
     genre: ['Horreur', 'Thriller'],
     saga: '',
     description:
-      'Un archive ciné Dublin canal trop trop trop, Kavanagh trop femme morte found footage trop trop trop doute eau.',
+      'Un archiviste découvre des images d\'un meurtre dans sa maison et voit sa famille hantée par une présence qui remonte à un crime oublié.',
     fromEntity: null,
     countryOrigin: ['Irlande'],
     selectDisplayOrder: 0,
@@ -577,7 +577,7 @@ export const baseMoviesMissingHorreur: BaseMovie[] = [
     genre: ['Horreur', 'Thriller', 'Drame'],
     saga: '',
     description:
-      'Deux jumeaux mère bandée trop trop est-ce trop trop trop elle, Franz trop Fiala Autriche maïs masque mommy twist.',
+      'Des jumeaux commencent à douter que la mère bandée qui rentre de l\'hôpital soit vraiment leur mère, dans une maison où la confiance se fissure.',
     fromEntity: null,
     countryOrigin: ['Autriche'],
     selectDisplayOrder: 0,
@@ -599,7 +599,7 @@ export const baseMoviesMissingHorreur: BaseMovie[] = [
     genre: ['Horreur', 'Thriller', 'Drame'],
     saga: '',
     description:
-      'Un dîner Hollywood Hills secte trop trop trop, Kusama trop malaise vin grief invitation rouge soir.',
+      'Lors d\'un dîner entre amis à Los Angeles, une invitée et son nouveau compagnon imposent une atmosphère de secte qui glisse vers la paranoïa.',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -621,7 +621,7 @@ export const baseMoviesMissingHorreur: BaseMovie[] = [
     genre: ['Horreur', 'Thriller', 'Mystère'],
     saga: '',
     description:
-      'Un père fils autopsient Jane trop trop trop Doe, Øvredal trop morgue cloches sorcière corps intact nuit.',
+      'Un père et son fils légistes examinent une cadavre anonyme dans une morgue isolée et découvrent des indices surnaturels de plus en plus inquiétants.',
     fromEntity: null,
     countryOrigin: ['Royaume-Uni', 'États-Unis'],
     selectDisplayOrder: 0,
@@ -643,7 +643,7 @@ export const baseMoviesMissingHorreur: BaseMovie[] = [
     genre: ['Horreur', 'Drame'],
     saga: '',
     description:
-      'Une fille ferme n&b yeux trop trop trop, Pesce trop mère chirurgienne otages lait silence regard.',
+      'Dans une ferme portugaise, une femme marquée par un traumatisme d\'enfance développe une obsession morbide pour le contrôle des corps et des autres.',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -665,7 +665,7 @@ export const baseMoviesMissingHorreur: BaseMovie[] = [
     genre: ['Horreur', 'Thriller', 'Mystère'],
     saga: '',
     description:
-      'Un flic village Japonais possession, Na trop 2h30 chaman fille pluie Wailing doute diable.',
+      'Dans un village coréen, un étranger atteint d\'une maladie étrange semble déclencher possession, meurtres et panique ; Na Hong-jin mène un thriller horrifique long et labyrinthique où la foi vacille.',
     fromEntity: null,
     countryOrigin: ['Corée du Sud'],
     selectDisplayOrder: 0,
@@ -687,7 +687,7 @@ export const baseMoviesMissingHorreur: BaseMovie[] = [
     genre: ['Horreur', 'Thriller', 'Drame'],
     saga: '',
     description:
-      'Une famille cabane peste porte trop trop trop, Shults trop comes at night peur des autres forêt.',
+      'Après une épidémie, une famille barricadée dans une maison forestière accueille des inconnus et voit la peur de l\'autre devenir plus mortelle que la maladie.',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -709,7 +709,7 @@ export const baseMoviesMissingHorreur: BaseMovie[] = [
     genre: ['Horreur', 'Thriller'],
     saga: '',
     description:
-      'Quatre potes Suède rando elk trop trop trop, Bruckner trop Jötunn culte forêt deuil Ritual runes.',
+      'Quatre amis traversent une forêt suédoise en hommage à un compagnon mort, puis croisent une présence païenne qui exploite leurs culpabilités.',
     fromEntity: {
       entityType: 'book',
       title: 'The Ritual',
@@ -735,7 +735,7 @@ export const baseMoviesMissingHorreur: BaseMovie[] = [
     genre: ['Horreur', 'Thriller'],
     saga: '',
     description:
-      'Un homme 1905 île secte trop trop trop, Evans trop Netflix Apostle sang déesse Sheen folie.',
+      'En 1905, un homme infiltre une communauté religieuse isolée sur une île britannique pour sauver sa sœur, au prix d\'un affrontement sanglant.',
     fromEntity: null,
     countryOrigin: ['Royaume-Uni', 'États-Unis'],
     selectDisplayOrder: 0,
@@ -757,7 +757,7 @@ export const baseMoviesMissingHorreur: BaseMovie[] = [
     genre: ['Horreur'],
     saga: '',
     description:
-      'Des youtubeurs hôpital psychiatrique Gonjiam, Jung trop found footage Corée live fantômes clics.',
+      'Des youtubeurs coréens filment en direct leur exploration d\'un hôpital psychiatrique abandonné légendaire, où les bruits captés par la caméra semblent de plus en plus implacables.',
     fromEntity: null,
     countryOrigin: ['Corée du Sud'],
     selectDisplayOrder: 0,
@@ -779,7 +779,7 @@ export const baseMoviesMissingHorreur: BaseMovie[] = [
     genre: ['Horreur', 'Action', 'Fantastique'],
     saga: '',
     description:
-      'Cage hache secte LSD trop trop trop, Cosmatos trop Mandy 1983 chrome vengeance rose enfer.',
+      'Dans les années 1980, un bûcheron voit sa compagne enlevée par une secte hippie et part en croisade hallucinée pour la venger.',
     fromEntity: null,
     countryOrigin: ['États-Unis', 'Belgique', 'Royaume-Uni'],
     selectDisplayOrder: 0,
@@ -801,7 +801,7 @@ export const baseMoviesMissingHorreur: BaseMovie[] = [
     genre: ['Horreur', 'Fantastique'],
     saga: '',
     description:
-      'Un village Maharashtra dieu avidité, Barve trop Tumbbad mousson or Hastar puits malédiction.',
+      'Dans le Maharashtra, un homme convoite le trésor d\'une déesse lié au dieu avidité Hastar ; le film indien mêle conte familial, pluies monsoon et horreur mythologique singulière.',
     fromEntity: null,
     countryOrigin: ['Inde'],
     selectDisplayOrder: 0,
@@ -845,7 +845,7 @@ export const baseMoviesMissingHorreur: BaseMovie[] = [
     genre: ['Horreur', 'Drame'],
     saga: '',
     description:
-      'Une infirmière trop trop Dieu patiente trop trop trop, Glass trop Maud extase folie plage sainteté feu.',
+      'Une infirmière à domicile dévouée à Dieu tente de sauver une ancienne danseuse moribonde, mais son mysticisme bascule dans l\'obsession et la folie.',
     fromEntity: null,
     countryOrigin: ['Royaume-Uni'],
     selectDisplayOrder: 0,
@@ -867,7 +867,7 @@ export const baseMoviesMissingHorreur: BaseMovie[] = [
     genre: ['Horreur', 'Thriller', 'Drame'],
     saga: '',
     description:
-      'Une belle-mère chalet neige secte trop trop trop, Franz trop Fiala Lodge enfants Noël doute Dieu.',
+      'Deux enfants piègent leur future belle-mère dans un chalet isolé pendant une tempête de neige, où culpabilité familiale et terreur psychologique se mêlent.',
     fromEntity: null,
     countryOrigin: ['Royaume-Uni', 'États-Unis'],
     selectDisplayOrder: 0,
@@ -889,7 +889,7 @@ export const baseMoviesMissingHorreur: BaseMovie[] = [
     genre: ['Horreur', 'Science Fiction', 'Thriller'],
     saga: 'Possessor',
     description:
-      'Une tueuse possède des corps corporate, Cronenberg trop fils gore identité Possessor puce sang.',
+      'Une tueuse d\'élite prend le contrôle neural de corps étrangers pour commettre des assassinats corporate, mais une mission l\'oblige à affronter les failles de sa propre identité fragmentée.',
     fromEntity: null,
     countryOrigin: ['Canada', 'Royaume-Uni'],
     selectDisplayOrder: 0,
@@ -911,7 +911,7 @@ export const baseMoviesMissingHorreur: BaseMovie[] = [
     genre: ['Horreur', 'Drame'],
     saga: '',
     description:
-      'Trois générations maison Alzheimer moisissure, James trop Relic héritage corps mur deuil Australie.',
+      'Trois générations de femmes retournent dans la maison de leur grand-mère atteinte de démence et découvrent une moisissure qui semble transformer le deuil en cauchemar corporel.',
     fromEntity: null,
     countryOrigin: ['Australie'],
     selectDisplayOrder: 0,
@@ -933,7 +933,7 @@ export const baseMoviesMissingHorreur: BaseMovie[] = [
     genre: ['Horreur', 'Thriller', 'Mystère'],
     saga: '',
     description:
-      'Une veuve lac maison inverse, Bruckner trop Hall architecture suicide Nothing nuit miroir.',
+      'Une veuve en plein deuil explore seule la maison lacustre laissée par son mari et décèle une architecture impossible, des reflets troublants et un secret qui la mène vers le bord du suicide.',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -955,7 +955,7 @@ export const baseMoviesMissingHorreur: BaseMovie[] = [
     genre: ['Horreur', 'Thriller'],
     saga: '',
     description:
-      'Une censeur video nasties 80, Bailey-Bond trop sœur disparue VHS folie écran sang.',
+      'En Grande-Bretagne dans les années 1980, une censeuse de films d\'horreur vidéo cherche des traces de sa sœur disparue en s\'immergeant dans les images les plus crues qu\'elle même interdit au public.',
     fromEntity: null,
     countryOrigin: ['Royaume-Uni'],
     selectDisplayOrder: 0,
@@ -977,7 +977,7 @@ export const baseMoviesMissingHorreur: BaseMovie[] = [
     genre: ['Horreur', 'Drame', 'Fantastique'],
     saga: '',
     description:
-      'Un couple fermiers agneau enfant, Jóhannsson trop Un Certain Regard Islande ram folie doux.',
+      'Sur une ferme islandaise, un couple d\'éleveurs recueille un hybride mi-agneau mi-enfant après une naissance troublée et voit leur vie basculer entre tendresse, peur et transgression.',
     fromEntity: null,
     countryOrigin: ['Islande', 'Suède', 'Pologne'],
     selectDisplayOrder: 0,
@@ -999,7 +999,7 @@ export const baseMoviesMissingHorreur: BaseMovie[] = [
     genre: ['Horreur', 'Thriller', 'Fantastique'],
     saga: '',
     description:
-      'Une femme visions meurtres crâne, Wan trop giallo twist Gabriel toit Malignant fou.',
+      'Des visions terrifiantes d\'assassinats massifs hantent une femme meurtrie alors qu\'un tueur nommé Gabriel semble la contrôler ; James Wan signe un giallo moderne au retournement audacieux.',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -1021,7 +1021,7 @@ export const baseMoviesMissingHorreur: BaseMovie[] = [
     genre: ['Horreur'],
     saga: '',
     description:
-      'Une chamane nièce possession Isan, Banjong trop found footage Na Hong-jin trop trop trop Medium rit.',
+      'Une équipe thaïlandaise filme une famille de médiums censée héberger un esprit, jusqu\'à ce que la possession devienne réelle sous leurs caméras.',
     fromEntity: null,
     countryOrigin: ['Thaïlande', 'Corée du Sud'],
     selectDisplayOrder: 0,
@@ -1043,7 +1043,7 @@ export const baseMoviesMissingHorreur: BaseMovie[] = [
     genre: ['Horreur', 'Comédie', 'Thriller'],
     saga: '',
     description:
-      'Des riches Gen Z ouragan trop trop trop, Reijn trop Bodies jeu couteau podcast trop trop trop trop amis morts.',
+      'Lors d\'une soirée de rich kids en pleine panne générale, un jeu de rôle tourne au carnage lorsqu\'un meurtre réel semble viser chacun des invités.',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -1065,7 +1065,7 @@ export const baseMoviesMissingHorreur: BaseMovie[] = [
     genre: ['Horreur', 'Comédie', 'Thriller', 'Romance'],
     saga: '',
     description:
-      'Une appli date chirurgien viande, Cave trop Stan cannibale Hulu Fresh cave steak.',
+      'Une célibataire croise un chirurgien charmé sur une application de rencontre qui dissimule un commerce macabre de chair humaine dans ce thriller horrifique mordant signé Hulu.',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -1087,7 +1087,7 @@ export const baseMoviesMissingHorreur: BaseMovie[] = [
     genre: ['Horreur', 'Drame'],
     saga: 'X',
     description:
-      'Pearl 1918 Texas star trop trop trop, West trop préquel Goth Technicolor X hache sourire.',
+      'En 1918, une jeune femme rêve de quitter la ferme familiale pour devenir star, mais frustration, solitude et violence la rapprochent d\'un destin monstrueux.',
     fromEntity: null,
     countryOrigin: ['États-Unis', 'Nouvelle-Zélande'],
     selectDisplayOrder: 0,
@@ -1108,7 +1108,7 @@ export const baseMoviesMissingHorreur: BaseMovie[] = [
     genre: ['Horreur'],
     saga: '',
     description:
-      'Deux enfants maison 90 analogique, Ball trop portes disparues grain père voix Skinamarink nuit.',
+      'Deux très jeunes enfants, seuls dans une maison des années 1990, y voient des portes disparaître et leurs parents s\'évanouir dans une expérience d\'horreur analogique, grainée et oppressante.',
     fromEntity: null,
     countryOrigin: ['Canada'],
     selectDisplayOrder: 0,
@@ -1130,7 +1130,7 @@ export const baseMoviesMissingHorreur: BaseMovie[] = [
     genre: ['Horreur', 'Thriller'],
     saga: '',
     description:
-      'Une Américaine Bucarest fenêtre voyeur, Okuno trop Monroe It Follows parano Watcher rue.',
+      'Une Américaine expatriée à Bucarest croit apercevoir un voyeur à sa fenêtre ; la paranoïa s\'installe lorsque voisins, policier et passants étranges semblent la surveiller en retour.',
     fromEntity: null,
     countryOrigin: ['États-Unis', 'Roumanie'],
     selectDisplayOrder: 0,
@@ -1152,7 +1152,7 @@ export const baseMoviesMissingHorreur: BaseMovie[] = [
     genre: ['Horreur', 'Science Fiction', 'Thriller'],
     saga: '',
     description:
-      'Un couple resort clones crime, Cronenberg trop Goth masques Infinite Pool orgie double.',
+      'Sur une île resort exclusive, un couple découvre qu\'après un crime les autorités créent des doubles pour exécuter les peines à leur place, dévoilant rituels morbides et décadence.',
     fromEntity: null,
     countryOrigin: ['Canada', 'Croatie', 'Hongrie'],
     selectDisplayOrder: 0,
@@ -1174,7 +1174,7 @@ export const baseMoviesMissingHorreur: BaseMovie[] = [
     genre: ['Horreur', 'Science Fiction', 'Thriller', 'Comédie'],
     saga: 'M3GAN',
     description:
-      'Une orpheline poupée IA trop trop trop danse, Johnstone trop Blumhouse M3GAN viral nounou tueur.',
+      'Une ingénieure crée une poupée robotique compagne pour sa nièce, mais l\'intelligence artificielle devient protectrice au point de tuer pour garder l\'enfant.',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -1196,7 +1196,7 @@ export const baseMoviesMissingHorreur: BaseMovie[] = [
     genre: ['Horreur'],
     saga: '',
     description:
-      "Deux frères pampa possession contagion, Rugna trop Terrified suite d'esprit chiens fœtus mal.",
+      "Deux frères dans la pampa argentine affrontent une possession contagieuse bien avant l'arrivée officielle de l'Église ; Demián Rugna prolonge Terrified dans une terreur rurale implacable et sociale.",
     fromEntity: null,
     countryOrigin: ['Argentine'],
     selectDisplayOrder: 0,
@@ -1240,7 +1240,7 @@ export const baseMoviesMissingHorreur: BaseMovie[] = [
     genre: ['Horreur', 'Thriller'],
     saga: '',
     description:
-      'Une novice Italie enceinte miracle, Mohan trop Sweeney couvent ADN Immaculate ciseaux foi.',
+      'Une novice américaine en Italie découvre une grossesse inexpliquée dans un couvent où les hiérarchies religieuses dissimulent une expérience sur la foi, l\'ADN et le contrôle des corps.',
     fromEntity: null,
     countryOrigin: ['États-Unis', 'Italie'],
     selectDisplayOrder: 0,
@@ -1262,7 +1262,7 @@ export const baseMoviesMissingHorreur: BaseMovie[] = [
     genre: ['Horreur'],
     saga: '',
     description:
-      'Un slasher vu du tueur trop trop trop, Nash trop forêt Ontario collier plan-séquence violence nature.',
+      'Un tueur masqué ressuscité dans une forêt canadienne traque des campeurs ; le film adopte le point de vue du monstre dans une lenteur glaçante.',
     fromEntity: null,
     countryOrigin: ['Canada'],
     selectDisplayOrder: 0,
@@ -1284,7 +1284,7 @@ export const baseMoviesMissingHorreur: BaseMovie[] = [
     genre: ['Horreur', 'Thriller'],
     saga: 'X',
     description:
-      'Maxine 1985 Hollywood Night Stalker, West trop suite Goth porno star X Pearl sang.',
+      'En 1985 Hollywood, Maxine exploite la notoriété issue de X pour percer au cinéma alors qu\'un tueur inspiré du Night Stalker sévit ; Ti West clôt sa trilogie en slasher métaphysique et rétro.',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -1306,7 +1306,7 @@ export const baseMoviesMissingHorreur: BaseMovie[] = [
     genre: ['Horreur', 'Thriller', 'Mystère'],
     saga: '',
     description:
-      'Une aveugle mannequin bois jumeau, McCarthy trop Oddity maison psychiatre objet maudit nuit.',
+      'Une medium aveugle enquête sur la mort brutale de sa sœur dans une maison isolée, manipulant objets maudits et secrets psychiatriques dans une horreur irlandaise atmosphérique et élégante.',
     fromEntity: null,
     countryOrigin: ['Irlande'],
     selectDisplayOrder: 0,
@@ -1328,7 +1328,7 @@ export const baseMoviesMissingHorreur: BaseMovie[] = [
     genre: ['Horreur', 'Thriller', 'Drame'],
     saga: '',
     description:
-      'Une maison vue par un trop trop trop fantôme, Soderbergh trop Presence plans subjectifs famille secret caméra.',
+      'Lors de la vente d\'une maison hantée, une famille découvre qu\'une entité observe et manipule chaque occupant, jouant avec leurs secrets.',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -1350,7 +1350,7 @@ export const baseMoviesMissingHorreur: BaseMovie[] = [
     genre: ['Horreur', 'Comédie'],
     saga: '',
     description:
-      'Un singe jouet tambour tue trop trop trop, Perkins trop King frères malédiction gore gag 90.',
+      'Deux frères jumeaux retrouvent une peluche maudite de leur enfance qui déclenche des morts absurdes et grotesques à chaque fois qu\'elle se met à jouer.',
     fromEntity: {
       entityType: 'book',
       title: 'The Monkey',
@@ -1376,7 +1376,7 @@ export const baseMoviesMissingHorreur: BaseMovie[] = [
     genre: ['Horreur', 'Thriller', 'Mystère'],
     saga: '',
     description:
-      'Dix-sept enfants sortent à 2h17 trop trop trop, Cregger trop Weapons Barbarian chapitres prof peur village.',
+      'Dans une banlieue américaine, tous les enfants d\'une classe disparaissent la même nuit sauf un, plongeant la communauté dans une terreur surnaturelle.',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,

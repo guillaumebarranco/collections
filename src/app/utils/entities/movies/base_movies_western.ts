@@ -33,7 +33,7 @@ export const baseMoviesWestern: BaseMovie[] = [
     length: 110,
     genre: ['Western'],
     saga: '',
-    description: '',
+    description: 'Une adolescente obstinée engage Rooster Cogburn, shérif bourru, pour traquer le meurtrier de son père à travers les Territoires indiens, dans une adaptation sèche et féroce du roman de Charles Portis.',
     fromEntity: {
       entityType: 'book',
       title: "True Grit",
@@ -74,7 +74,7 @@ export const baseMoviesWestern: BaseMovie[] = [
     length: 108,
     genre: ['Western'],
     saga: '',
-    description: '',
+    description: 'Dans une ville morte du Far West, une étrangère au passé trouble défie les meilleurs tireurs lors d\'un duel où le maire régente impitoyablement les matchs.',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -111,7 +111,7 @@ export const baseMoviesWestern: BaseMovie[] = [
     length: 122,
     genre: ['Western'],
     saga: '',
-    description: '',
+    description: 'Un rancher endetté accepte d\'escorter un dangereux bandit jusqu\'au train de Yuma, affrontant l\'armée de sbires du criminel dans une course contre la montre.',
     fromEntity: {
       entityType: 'book',
       title: "Three-Ten to Yuma",
@@ -152,7 +152,7 @@ export const baseMoviesWestern: BaseMovie[] = [
     length: 134,
     genre: ['Western'],
     saga: '',
-    description: '',
+    description: 'En 1892, un capitaine hanté par la guerre escorte une Cheyenne mourante et une veuve traumatisée à travers des terres hostiles du Nouveau-Mexique.',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -189,7 +189,7 @@ export const baseMoviesWestern: BaseMovie[] = [
     length: 131,
     genre: ['Western'],
     saga: '',
-    description: '',
+    description: 'Un ancien tueur à gages, devenu fermier veuf, reprend les armes pour une dernière prime et affronter la brutalité qu\'il pensait avoir quittée.',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -231,7 +231,7 @@ export const baseMoviesWestern: BaseMovie[] = [
     length: 178,
     genre: ['Western'],
     saga: '',
-    description: '',
+    description: 'Trois hommes traquent ensemble un trésor de guerre caché durant la guerre de Sécession, chacun trahissant l\'autre dans le désert américain.',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -268,7 +268,7 @@ export const baseMoviesWestern: BaseMovie[] = [
     length: 181,
     genre: ['Western'],
     saga: '',
-    description: '',
+    description: 'Un officier nordiste, posté dans le Dakota, s\'intègre à une tribu Sioux et découvre une culture menacée par l\'avancée de l\'armée américaine.',
     fromEntity: {
       entityType: 'book',
       title: "Danse avec les loups",
@@ -317,7 +317,7 @@ export const baseMoviesWestern: BaseMovie[] = [
     length: 132,
     genre: ['Western'],
     saga: '',
-    description: '',
+    description: 'Deux chasseurs de primes poursuivent un dangereux bandit, mais leurs alliances se brouillent alors que tout le monde convoite la même prime.',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -348,7 +348,7 @@ export const baseMoviesWestern: BaseMovie[] = [
     length: 127,
     genre: ['Western'],
     saga: '',
-    description: '',
+    description: 'Un aventurier du poker et ses rivaux se retrouvent sur un bateau vers le tournoi final, où bluffs, trafics et duels jalonnent la route.',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -385,7 +385,7 @@ export const baseMoviesWestern: BaseMovie[] = [
     length: 98,
     genre: ['Western'],
     saga: '',
-    description: '',
+    description: 'Une pionnière du Nouveau-Mexique, devenue veuve, se prépare à affronter un bandit devenu puissant qui menace encore sa ferme et sa fille.',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -409,7 +409,7 @@ export const baseMoviesWestern: BaseMovie[] = [
     length: 167,
     genre: ['Western'],
     saga: '',
-    description: '',
+    description: 'Des chasseurs de primes, une prisonnière et des voyageurs pris dans une auberge pendant une tempête de neige déchirent leurs masques dans une fresque violente.',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 5,
@@ -434,7 +434,7 @@ export const baseMoviesWestern: BaseMovie[] = [
     length: 165,
     genre: ['Western'],
     saga: '',
-    description: '',
+    description: 'La construction du chemin de fer bouleverse une ville-frontière où le passé d\'une femme, la vengeance d\'un tueur à gage et l\'arrivée d\'un hors-la-loi se croisent.',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 30,
@@ -1430,7 +1430,7 @@ export const baseMoviesWestern: BaseMovie[] = [
     length: 110,
     genre: ['Western', 'Aventure'],
     saga: '',
-    description: '',
+    description: 'Une adolescente obstinée engage Rooster Cogburn, shérif bourru, pour traquer le meurtrier de son père à travers les Territoires indiens, dans une adaptation sèche et féroce du roman de Charles Portis.',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -1453,7 +1453,7 @@ export const baseMoviesWestern: BaseMovie[] = [
     length: 132,
     genre: ['Western', 'Comédie'],
     saga: '',
-    description: '',
+    description: 'Six nouvelles western, entre ballade chantée, duels burlesques et moralité sombre, composent une fresque du Far West vue par les frères Coen.',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -1476,7 +1476,7 @@ export const baseMoviesWestern: BaseMovie[] = [
     genre: ['Western', 'Aventure'],
     saga: '',
     description:
-      'Une caravane trop Oregon trop 1840 trop Wayne trop trop jeune, Walsh trop 70 mm trop Grande Piste pionniers.',
+      'Dans les années 1840, une caravane de pionniers entreprend le périlleux voyage de l\'Oregon à travers plaines arides, rivières tumultueuses et tensions avec les peuples autochtones.',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -1499,7 +1499,7 @@ export const baseMoviesWestern: BaseMovie[] = [
     genre: ['Western', 'Biographie', 'Drame'],
     saga: 'Jesse James',
     description:
-      'Jesse trop Frank railroad vengeance King, Power trop Fonda frères Fox 39.',
+      'Tyrone Power incarne Jesse James, qui bascule dans la criminalité aux côtés de son frère Frank après une injustice des compagnies ferroviaires, dans un biopic romancé de Henry King.',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -1545,7 +1545,7 @@ export const baseMoviesWestern: BaseMovie[] = [
     genre: ['Western', 'Drame'],
     saga: '',
     description:
-      'Un lynchage Nevada Fonda trop tard, Wellman trop n&b 75 min Ox-Bow injustice corde.',
+      'Deux cow-boys découvrent qu\'un homme lynché pour vol de bétail pourrait être innocent, dans une fable morale sur la justice populaire signée William A. Wellman.',
     fromEntity: {
       entityType: 'book',
       title: 'The Ox-Bow Incident',
@@ -1572,7 +1572,7 @@ export const baseMoviesWestern: BaseMovie[] = [
     genre: ['Western', 'Drame', 'Romance'],
     saga: '',
     description:
-      'Une métisse Texas deux frères Peck Jones, Vidor trop Selznick lust soleil Duel trop trop opéra.',
+      'Au Texas, une métisse déchirée entre deux frères, l\'un noble et l\'autre bandit, voit sa passion provoquer jalousie, trahison et vengeance dans une fresque grandiose.',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -1618,7 +1618,7 @@ export const baseMoviesWestern: BaseMovie[] = [
     genre: ['Western', 'Drame', 'Historique'],
     saga: '',
     description:
-      'Stewart Cochise paix Apache 1870, Daves trop Flèche brisée Chandler Paget Technicolor 50.',
+      'Un ancien soldat noue une amitié avec le chef apache Cochise et tente de pacifier les relations entre colons et peuples autochtones dans l\'Arizona.',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -1641,7 +1641,7 @@ export const baseMoviesWestern: BaseMovie[] = [
     genre: ['Western', 'Drame'],
     saga: '',
     description:
-      'Un pistolero fatigué saloon trop trop jeune qui le cherche, King trop Peck 85 min n&b fatal Gunfighter.',
+      'Un célèbre pistolero, usé par la gloire et les duels, tente de fuir sa réputation mais chaque saloon semble héberger un jeune homme avide de le surpasser.',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -1687,7 +1687,7 @@ export const baseMoviesWestern: BaseMovie[] = [
     genre: ['Western', 'Aventure'],
     saga: '',
     description:
-      'Stewart Oregon bétail Kennedy traître, Mann trop Bend of the River Hudson rivière 52.',
+      'Un chasseur de primes traque un dangereux hors-la-loi dans les montagnes rocheuses, aidé par des compagnons dont les motivations restent troubles.',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -1709,7 +1709,7 @@ export const baseMoviesWestern: BaseMovie[] = [
     genre: ['Western'],
     saga: '',
     description:
-      'Wayne cavalerie veuve Apache 3D, Farrow trop Hondo Page chien Sam désert 53.',
+      'Un éclaireur dur à cuire protège une veuve et son fils d\'une attaque apache dans une ferme isolée du territoire d\'Arizona.',
     fromEntity: {
       entityType: 'book',
       title: 'The Gift of Cochise',
@@ -1736,7 +1736,7 @@ export const baseMoviesWestern: BaseMovie[] = [
     genre: ['Western', 'Thriller'],
     saga: '',
     description:
-      'Un chasseur primes Stewart Ryan montagnes, Mann trop Naked Spur Leigh neige appât 53 n&b.',
+      'James Stewart débarque dans une ville du Nouveau-Mexique dominée par un puissant rancher et cherche à venger la mort d\'un proche.',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -1759,7 +1759,7 @@ export const baseMoviesWestern: BaseMovie[] = [
     genre: ['Western', 'Drame', 'Guerre'],
     saga: '',
     description:
-      'Lancaster Massai dernier Apache libre, Aldrich trop Bronson Peters Floride révolte 54.',
+      'Massai, dernier guerrier apache à refuser la reddition, mène une résistance solitaire contre l\'armée américaine qui a déporté son peuple.',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -1782,7 +1782,7 @@ export const baseMoviesWestern: BaseMovie[] = [
     genre: ['Western', 'Aventure'],
     saga: '',
     description:
-      'Stewart Alaska troupeau Brennan juge, Mann trop Far Country Yukon rivière 54 aventurier.',
+      'Un éleveur indépendant affronte un shérif corrompu en Alaska pendant la ruée vers l\'or, dans un western froid signé Anthony Mann.',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -1804,7 +1804,7 @@ export const baseMoviesWestern: BaseMovie[] = [
     genre: ['Western', 'Aventure'],
     saga: '',
     description:
-      'Cooper Lancaster Mexique 1866 or, Aldrich trop Vera Cruz Juaristes Maxim 54 SuperScope.',
+      'Deux mercenaires américains escortent une diligence d\'or au Mexique en pleine révolution, dans un western où trahisons et cupidité dominent.',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -1827,7 +1827,7 @@ export const baseMoviesWestern: BaseMovie[] = [
     genre: ['Western', 'Drame'],
     saga: '',
     description:
-      'Ford ranch Othello Wyoming Steiger, Daves trop Jubal Borgnine jalousie 56 CinemaScope.',
+      'Un voyageur embauché dans un ranch du Wyoming devient la cible d\'un contremaître jaloux et des manigances de l\'épouse du propriétaire.',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -1850,7 +1850,7 @@ export const baseMoviesWestern: BaseMovie[] = [
     genre: ['Western'],
     saga: '',
     description:
-      'Stanwyck 40 hommes fusil whip, Fuller trop Forty Guns Scope 80 min 57 noir.',
+      'Une puissante baronne du bétail règne sur une ville de l\'Arizona avec quarante hommes armés jusqu\'à l\'arrivée d\'un marshal déterminé.',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -1872,7 +1872,7 @@ export const baseMoviesWestern: BaseMovie[] = [
     genre: ['Western', 'Biographie', 'Historique'],
     saga: '',
     description:
-      'Wyatt Doc Tombstone Lancaster Douglas, Sturges trop O.K. Corral 57 VistaVision Tiomkin duel.',
+      'Wyatt Earp, Doc Holliday et leurs frères affrontent le gang des Clanton lors de la célèbre fusillade d\'O.K. Corral à Tombstone.',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -1894,7 +1894,7 @@ export const baseMoviesWestern: BaseMovie[] = [
     genre: ['Western', 'Drame'],
     saga: '',
     description:
-      'Deux familles Texas terre Peck Heston, Wyler trop Big Country Ives Oscar 58 165 min espaces.',
+      'Un capitaine de la marine de l\'Est hérite d\'un ranch du Texas et se retrouve pris entre deux barons du bétail rivaux dans une vaste fresque.',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -1917,7 +1917,7 @@ export const baseMoviesWestern: BaseMovie[] = [
     genre: ['Western', 'Thriller'],
     saga: '',
     description:
-      'Douglas marshal Quinn fils viol train, Sturges trop Gun Hill 94 min 59 ultimatum gare.',
+      'Un marshal traque les hommes qui ont violé et tué sa femme avant qu\'ils ne quittent la ville sur le dernier train du soir.',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -1985,7 +1985,7 @@ export const baseMoviesWestern: BaseMovie[] = [
     genre: ['Western', 'Aventure', 'Historique'],
     saga: '',
     description:
-      'Trois réalisateurs Cinerama Stewart Wayne 50 ans, Hathaway trop Ford Marshall Ouest 62 trois Oscars 64.',
+      'Épopée en plusieurs tableaux sur plusieurs générations de pionniers, de la ruée vers l\'or à la construction du chemin de fer américain.',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -2012,7 +2012,7 @@ export const baseMoviesWestern: BaseMovie[] = [
     genre: ['Western', 'Drame'],
     saga: '',
     description:
-      'Douglas cowboy moderne hélicoptère Matthau, Miller trop Lonely Are the Brave 62 n&b last cowboy.',
+      'Un cow-boy indépendant refuse les contraintes de la société moderne et affronte la prison après avoir aidé un ami sans papiers.',
     fromEntity: {
       entityType: 'book',
       title: 'The Brave Cowboy',
@@ -2039,7 +2039,7 @@ export const baseMoviesWestern: BaseMovie[] = [
     genre: ['Western', 'Comédie'],
     saga: '',
     description:
-      "Wayne O'Hara ranch bagarre mud, McLaglen trop McLintock 63 comédie Taming of the Shrew far west.",
+      "Un puissant éleveur du Texas retrouve son ex-femme et affronte conflits fonciers, indiens et politiciens locaux avec humour et poings.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -2062,7 +2062,7 @@ export const baseMoviesWestern: BaseMovie[] = [
     genre: ['Western'],
     saga: '',
     description:
-      'Quatre frères Wayne Martin mère morte ranch, Hathaway trop Katie Elder 65 Texas vengeance poker.',
+      'Quatre frères éloignés se retrouvent aux funérailles de leur mère et doivent honorer sa mémoire en vengeant le meurtre de leur père.',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -2085,7 +2085,7 @@ export const baseMoviesWestern: BaseMovie[] = [
     genre: ['Western', 'Drame'],
     saga: '',
     description:
-      'McQueen métis vengeance trois tueurs parents, Hathaway trop Nevada Smith 66 Malden Keith apprentissage.',
+      'Un jeune homme métis traque les trois assassins de ses parents et apprend à manier les armes pour devenir le redoutable Nevada Smith.',
     fromEntity: {
       entityType: 'book',
       title: 'The Carpetbaggers',
@@ -2112,7 +2112,7 @@ export const baseMoviesWestern: BaseMovie[] = [
     genre: ['Western'],
     saga: '',
     description:
-      'Reynolds Navajo vengeance scalp village, Corbucci trop Morricone 66 spaghetti rouge Joe trop trop fusils.',
+      'Un guerrier navajo mène seul une guerre de vengeance contre des bandits qui ont massacré son village, dans un western spaghetti brutal tourné en Italie.',
     fromEntity: null,
     countryOrigin: ['Italie', 'Espagne'],
     selectDisplayOrder: 0,
@@ -2135,7 +2135,7 @@ export const baseMoviesWestern: BaseMovie[] = [
     genre: ['Western', 'Drame'],
     saga: '',
     description:
-      'Un prof tuberculose bandit Milian Volonté, Sollima trop Faccia a faccia 67 politique spaghetti face.',
+      'Un professeur d\'histoire rencontre un légendaire hors-la-loi et bascule peu à peu dans la violence, dans un western psychologique de Sergio Sollima.',
     fromEntity: null,
     countryOrigin: ['Italie', 'Espagne'],
     selectDisplayOrder: 0,
@@ -2158,7 +2158,7 @@ export const baseMoviesWestern: BaseMovie[] = [
     genre: ['Western'],
     saga: '',
     description:
-      'Van Cleef enfant massacre Law blond, Petroni trop Morricone 67 Death Rides a Horse duel.',
+      'Un jeune homme obsédé par le massacre de sa famille s\'allie à un chasseur de primes pour retrouver les bandits responsables quatorze ans plus tôt.',
     fromEntity: null,
     countryOrigin: ['Italie', 'Espagne'],
     selectDisplayOrder: 0,
@@ -2181,7 +2181,7 @@ export const baseMoviesWestern: BaseMovie[] = [
     genre: ['Western'],
     saga: '',
     description:
-      "Eastwood pendu survit marshal vengeance, Post trop Hang 'Em High 68 Leone USA première US western.",
+      "Lynché à tort puis miraculeusement sauvé, un fermier devient marshal et traque un par un les membres du gang qui ont tenté de le tuer.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -2203,7 +2203,7 @@ export const baseMoviesWestern: BaseMovie[] = [
     genre: ['Western'],
     saga: 'Sabata',
     description:
-      'Van Cleef canne fusil banque complot, Parolini trop Sabata 69 spaghetti gadgets chapeau noir.',
+      'Le mystérieux pistolero Sabata aide une ville à récupérer de l\'or volé par des officiers de l\'armée corrompus, dans un western spaghetti haletant.',
     fromEntity: null,
     countryOrigin: ['Italie'],
     selectDisplayOrder: 0,
@@ -2226,7 +2226,7 @@ export const baseMoviesWestern: BaseMovie[] = [
     genre: ['Western', 'Biographie'],
     saga: '',
     description:
-      'Wayne éleveur Lincoln County War Billy, McLaglen trop Chisum 70 Murphy ranch New Mexico.',
+      'Le puissant éleveur John Chisum affronte Lawrence Murphy, qui tente de s\'emparer de ses terres et déclenche la guerre du comté de Lincoln.',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -2248,7 +2248,7 @@ export const baseMoviesWestern: BaseMovie[] = [
     genre: ['Western', 'Comédie', 'Aventure'],
     saga: '',
     description:
-      'Nero Suédois Milian Mexique révolution Palance, Corbucci trop Compañeros 70 Morricone zapata rire fusils.',
+      'Un mercenaire suédois et un bandit mexicain s\'allient pour libérer un révolutionnaire emprisonné, dans un western spaghetti politique de Sergio Corbucci.',
     fromEntity: null,
     countryOrigin: ['Italie', 'Espagne', 'Allemagne'],
     selectDisplayOrder: 0,
@@ -2317,7 +2317,7 @@ export const baseMoviesWestern: BaseMovie[] = [
     genre: ['Western', 'Aventure', 'Comédie'],
     saga: '',
     description:
-      'Eastwood mercenaire nonne MacLaine dynamite, Siegel trop Two Mules 70 Juaristes mule trop trop Sierra torride.',
+      'Pendant la révolution du Juarès, un mercenaire amer se voit confier la protection d\'une nonne en mission, entre explosions, trahisons et complicité improbable.',
     fromEntity: null,
     countryOrigin: ['États-Unis', 'Mexique'],
     selectDisplayOrder: 0,
@@ -2340,7 +2340,7 @@ export const baseMoviesWestern: BaseMovie[] = [
     genre: ['Western', 'Guerre', 'Drame'],
     saga: '',
     description:
-      'Sand Creek massacre Bergen captive Cheyenne, Nelson trop Soldier Blue 70 Vietnam allégorie sang bleu.',
+      'Une jeune femme et un soldat survivent au massacre d\'un village cheyenne et traversent un territoire hostile, dans une allégorie anti-guerre du Far West.',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -2363,7 +2363,7 @@ export const baseMoviesWestern: BaseMovie[] = [
     genre: ['Western', 'Aventure', 'Drame'],
     saga: 'Un homme nommé Cheval',
     description:
-      'Harris lord Sioux initiation poitrine cordes, Silverstein trop Horse 70 Sun Dance western ethnographique pain.',
+      'Un aristocrate anglais capturé par les Sioux doit endurer des rites d\'initiation brutaux pour gagner le respect de la tribu qui le retient.',
     fromEntity: {
       entityType: 'book',
       title: 'A Man Called Horse',
@@ -2390,7 +2390,7 @@ export const baseMoviesWestern: BaseMovie[] = [
     genre: ['Western'],
     saga: '',
     description:
-      "Wayne 1909 petit-fils kidnap Boone rançon, Sherman trop Big Jake 71 mitrailleuse chien Dog trop trop fin d'une ère.",
+      "En 1909, un rancher sévère et vieillissant reprend les armes lorsque des bandits kidnappement son petit-fils et exigent une lourde rançon.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -2413,7 +2413,7 @@ export const baseMoviesWestern: BaseMovie[] = [
     genre: ['Western', 'Comédie'],
     saga: 'Trinita',
     description:
-      'Hill Spencer omelettes gifle Mormon suite, Barboni trop Trinita 71 spaghetti comédie box office trop trop italien.',
+      'Deux truands maladroits escortent une veuve et son fils vers l\'héritage familial, croisant des hors-la-loi, des shérifs et leurs propres disputes burlesques.',
     fromEntity: null,
     countryOrigin: ['Italie'],
     selectDisplayOrder: 0,
@@ -2435,7 +2435,7 @@ export const baseMoviesWestern: BaseMovie[] = [
     genre: ['Western', 'Drame'],
     saga: '',
     description:
-      'Lancaster constable métis justice ranch raciste, Sherin trop Valdez 71 Leonard 90 min fusil trop trop dignité.',
+      'Un shérif modèle est humilié par un riche ranchero puis retrouve sa conscience en exigeant réparation pour la famille d\'un homme qu\'il a fait exécuter par erreur.',
     fromEntity: {
       entityType: 'book',
       title: 'Valdez Is Coming',
@@ -2461,7 +2461,7 @@ export const baseMoviesWestern: BaseMovie[] = [
     genre: ['Western'],
     saga: '',
     description:
-      'Eastwood chasseur primes Duvall propriétaire Mexicains, Sturges trop Joe Kidd 72 train Siegel producteur 88 min.',
+      'Un ancien chasseur de primes accepte de traquer des révolutionnaires mexicains, puis change de camp face à un riche propriétaire terrien avide.',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -2484,7 +2484,7 @@ export const baseMoviesWestern: BaseMovie[] = [
     genre: ['Western', 'Drame'],
     saga: '',
     description:
-      "McQueen rodéo Arizona père Preston fin d'un monde, Peckinpah trop Junior Bonner 72 doux twilight western.",
+      "Un cow-boy de rodéo vieillissant revient dans sa ville natale et tente de se réconcilier avec une famille éclatée dans un Ouest en mutation.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -2507,7 +2507,7 @@ export const baseMoviesWestern: BaseMovie[] = [
     genre: ['Western'],
     saga: '',
     description:
-      'Van Cleef shérif jeune accusé Morricone, Santi trop Grand Duel 72 spaghetti 98 min pistolet trop trop train.',
+      'Un mystérieux shérif protège un jeune accusé de meurtre alors que toute une ville veut le lyncher, dans un western italien au rythme de fusillades.',
     fromEntity: null,
     countryOrigin: ['Italie', 'Allemagne', 'France'],
     selectDisplayOrder: 0,
@@ -2530,7 +2530,7 @@ export const baseMoviesWestern: BaseMovie[] = [
     genre: ['Western'],
     saga: '',
     description:
-      'Nero métis peste frères racistes Strode, Castellari trop Keoma 76 crépuscule spaghetti chant folk sang.',
+      'Un métis revenu de la guerre de Sécession retrouve sa ville ravagée par la peste et affronte sa famille raciste ainsi qu\'un gang de mercenaires.',
     fromEntity: null,
     countryOrigin: ['Italie'],
     selectDisplayOrder: 0,
@@ -2553,7 +2553,7 @@ export const baseMoviesWestern: BaseMovie[] = [
     genre: ['Western', 'Drame', 'Comédie'],
     saga: '',
     description:
-      'Brando regulator Nicholson voleur chevaux robe, Penn trop Missouri Breaks 76 bizarre crépuscule Montana duo.',
+      'Des voleurs de bétail sont traqués par un régulateur excentrique engagé par une association d\'éleveurs dans le Montana des années 1880.',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -2576,7 +2576,7 @@ export const baseMoviesWestern: BaseMovie[] = [
     genre: ['Western', 'Romance', 'Comédie', 'Drame'],
     saga: '',
     description:
-      'Redford cowboy pub Fonda journaliste cheval volé, Pollack trop Electric Horseman 79 Vegas contemporain western neon.',
+      'Une ancienne star du rodéo enlevée par une multinationale s\'enfuit à cheval à travers le désert, suivi par une journaliste et des hommes de main.',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -2599,7 +2599,7 @@ export const baseMoviesWestern: BaseMovie[] = [
     genre: ['Western', 'Aventure'],
     saga: '',
     description:
-      'Quatre cowboys Kasdan Costner Glover 85, Silverado hommage classique 133 min Dennehy shérif trop trop fun.',
+      'Quatre étrangers se lient d\'amitié en reprenant une ville du Kansas aux mains d\'un shérif corrompu et de gangs de ranchers voraces.',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -2622,7 +2622,7 @@ export const baseMoviesWestern: BaseMovie[] = [
     genre: ['Western', 'Biographie', 'Action'],
     saga: 'Young Guns',
     description:
-      'Billy Kid Brat Pack Estevez 88, Cain trop Young Guns Lincoln County Sheen Sutherland trop trop jeunes.',
+      'Les Regulators, dont Billy the Kid, affrontent le cartel du comté de Lincoln au Nouveau-Mexique dans une violente chronique de la jeunesse du Far West.',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -2645,7 +2645,7 @@ export const baseMoviesWestern: BaseMovie[] = [
     genre: ['Western', 'Biographie', 'Action'],
     saga: 'Young Guns',
     description:
-      'Billy toujours en fuite Slater Pat Garrett, Murphy trop Young Guns 2 90 Bon Jovi chanson suite.',
+      'Billy the Kid continue sa cavale au Nouveau-Mexique, traqué par Pat Garrett, dans la suite sanglante de la saga des Regulators.',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -2668,7 +2668,7 @@ export const baseMoviesWestern: BaseMovie[] = [
     genre: ['Western', 'Biographie', 'Guerre', 'Historique'],
     saga: '',
     description:
-      'Studi Geronimo Apache Hill 93 cavalerie, Hackman Duvall Damon trop trop légende trop trop reddition trop trop désert.',
+      'Officiers et politiques tentent de négocier la reddition du chef apache Geronimo, entre respect, trahison et fin annoncée d\'une ère pour les peuples autochtones.',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -2691,7 +2691,7 @@ export const baseMoviesWestern: BaseMovie[] = [
     genre: ['Western', 'Biographie', 'Drame'],
     saga: '',
     description:
-      "Costner Earp 191 min Tombstone Quaid Doc, Kasdan trop 94 biopic trop trop long trop trop versus trop trop Kilmer trop trop l'autre.",
+      "Épopée biographique du marshal Wyatt Earp, de son enfance à la célèbre fusillade d'O.K. Corral et aux vengeances sanglantes qui ont suivi.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -2714,7 +2714,7 @@ export const baseMoviesWestern: BaseMovie[] = [
     genre: ['Western', 'Biographie', 'Drame'],
     saga: '',
     description:
-      'Bridges Hickok Deadwood Barkin Calamity 95, Hill trop Wild Bill 98 min crépuscule cartes trop trop balle trop trop dos.',
+      'Derniers jours du légendaire Wild Bill Hickok, entre poker, nostalgie, amants et menace permanente d\'un assassinat dans les rues de Deadwood.',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -2737,7 +2737,7 @@ export const baseMoviesWestern: BaseMovie[] = [
     genre: ['Western', 'Drame', 'Romance'],
     saga: '',
     description:
-      'Un maire Sierra vend femme fille or, Winterbottom trop Claim 2000 Hardy neige 120 min trop trop frontière trop trop faute.',
+      'Dans une ville minière de montagne sous la neige, un homme riche doit affronter le retour de l\'épouse et de la fille qu\'il abandonna vingt ans plus tôt.',
     fromEntity: {
       entityType: 'book',
       title: 'The Mayor of Casterbridge',
@@ -2764,7 +2764,7 @@ export const baseMoviesWestern: BaseMovie[] = [
     genre: ['Western', 'Drame'],
     saga: '',
     description:
-      'Duvall Costner free range Gambon baron, Costner trop Open Range 2003 fusillade 139 min Bening trop trop troupeau.',
+      'Deux éleveurs libres et leurs cow-boys défendent leur troupeau et leur mode de vie contre un baron du bétail qui veut étendre son empire dans le Montana.',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -2787,7 +2787,7 @@ export const baseMoviesWestern: BaseMovie[] = [
     genre: ['Western', 'Thriller', 'Drame'],
     saga: '',
     description:
-      'Blanchett Jones fille kidnappée Apache 1885, Howard trop Missing 2003 137 min New Mexico trop trop chasse trop trop père.',
+      'En Nouveau-Mexique, une guérisseuse et son père, éloignés depuis longtemps, traquent des Apaches et des trafiquants qui ont enlevé sa fille.',
     fromEntity: {
       entityType: 'book',
       title: 'The Last Ride',
@@ -2814,7 +2814,7 @@ export const baseMoviesWestern: BaseMovie[] = [
     genre: ['Western', 'Drame', 'Thriller'],
     saga: '',
     description:
-      'Pearce outback 1880 tuer son frère ou pendu, Hillcoat trop Cave 2005 Proposition poussière trop trop sang trop trop soleil.',
+      'Dans l\'Australie coloniale, un hors-la-loi doit abattre son propre frère pour sauver un cadet des autorités britanniques qui ont pris son frère aîné en otage.',
     fromEntity: null,
     countryOrigin: ['Australie', 'Royaume-Uni'],
     selectDisplayOrder: 0,
@@ -2837,7 +2837,7 @@ export const baseMoviesWestern: BaseMovie[] = [
     genre: ['Western', 'Drame'],
     saga: '',
     description:
-      'Harris Mortensen marshals Irons rancher Zellweger, Appaloosa 2008 Parker 115 min amitié trop trop pistolets trop trop ville.',
+      'Deux hommes de loi à la retraite tentent de pacifier une ville du Nouveau-Mexique menacée par un rancher et son sbire, mais une femme troublante brouille leurs pactes.',
     fromEntity: {
       entityType: 'book',
       title: 'Appaloosa',
@@ -2863,7 +2863,7 @@ export const baseMoviesWestern: BaseMovie[] = [
     genre: ['Western', 'Drame'],
     saga: '',
     description:
-      'Une caravane Oregon 1845 guide perdu Williams, Reichardt trop Meek 2010 1.33 silence désert trop trop eau trop trop peur.',
+      'En 1845, des pionniers égarés sur la piste de l\'Oregon, guidés par un homme douteux, luttent contre la soif et la paranoïa dans un western minimaliste.',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -2886,7 +2886,7 @@ export const baseMoviesWestern: BaseMovie[] = [
     genre: ['Western', 'Drame'],
     saga: '',
     description:
-      'Swank Jones ramènent trois folles Nebraska Iowa, Homesman 2014 122 min hiver trop trop frontière trop trop dur.',
+      'Une fermière du Nebraska et un vaurien taciturne traversent des terres glacées pour ramener trois femmes atteintes de démence vers le Midwest.',
     fromEntity: {
       entityType: 'book',
       title: 'The Homesman',
@@ -2913,7 +2913,7 @@ export const baseMoviesWestern: BaseMovie[] = [
     genre: ['Western'],
     saga: '',
     description:
-      'Mikkelsen Danois Ouest femme tuée Morgan gang, Levring trop Salvation 2014 92 min Cantona Green trop trop vengeance trop trop creux.',
+      'Un immigrant danois, ancien soldat, cherche une vie tranquille dans l\'Ouest américain mais bascule dans la vengeance après le meurtre de sa femme.',
     fromEntity: null,
     countryOrigin: ['Danemark', 'Royaume-Uni', 'Afrique du Sud'],
     selectDisplayOrder: 0,
@@ -2936,7 +2936,7 @@ export const baseMoviesWestern: BaseMovie[] = [
     genre: ['Western', 'Horreur'],
     saga: '',
     description:
-      'Russell shérif canyon cannibales 132 min Zahler, Bone Tomahawk 2015 os scie trop trop western trop trop gore trop trop nuit.',
+      'Un shérif, son adjoint et un chasseur de primes partent secourir des otages kidnappés par une tribu cannibale dans les canyons du Far West.',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -2959,7 +2959,7 @@ export const baseMoviesWestern: BaseMovie[] = [
     genre: ['Western', 'Drame', 'Romance'],
     saga: '',
     description:
-      'Un Écossais 16 ans Colorado Fassbender bounty 84 min, Maclean trop Slow West 2015 fable trop trop balle trop trop amour trop trop ouest.',
+      'Un Écossais de seize ans traverse l\'Amérique pour retrouver la femme qu\'il aime, guidé par un chasseur de primes aussi cynique que dangereux.',
     fromEntity: null,
     countryOrigin: ['Royaume-Uni', 'Nouvelle-Zélande'],
     selectDisplayOrder: 0,
@@ -2982,7 +2982,7 @@ export const baseMoviesWestern: BaseMovie[] = [
     genre: ['Western', 'Comédie', 'Drame'],
     saga: '',
     description:
-      'Deux frères tueurs Reilly Phoenix or 1851, Audiard trop Sisters 2018 deWitt 122 min dents trop trop comédie trop trop crépuscule.',
+      'Deux tueurs à gages frères et alcooliques sont missionnés pour abattre un chimiste en pleine ruée vers l\'or, une chasse qui devient plus absurde que sanglante.',
     fromEntity: {
       entityType: 'book',
       title: 'The Sisters Brothers',
@@ -3009,7 +3009,7 @@ export const baseMoviesWestern: BaseMovie[] = [
     genre: ['Western', 'Drame', 'Aventure'],
     saga: '',
     description:
-      'Hanks 1870 lit les journaux fille Kiowa, Greengrass trop News 2020 118 min Texas trop trop route trop trop deuil trop trop voix.',
+      'Après la guerre de Sécession, un vétéran parcourt le Texas en lisant les nouvelles aux villages isolés et héberge une orpheline arrachée aux Kiowa.',
     fromEntity: {
       entityType: 'book',
       title: 'News of the World',
@@ -3036,7 +3036,7 @@ export const baseMoviesWestern: BaseMovie[] = [
     genre: ['Western', 'Drame', 'Thriller'],
     saga: '',
     description:
-      "Nelson fermier 1906 sac d'or fils twist, Ponciroli trop Old Henry 2021 99 min huis trop trop western trop trop légende trop trop fusil.",
+      "Sur sa ferme isolée, un fermier veuf mène une vie simple jusqu'à ce que des fugitifs et un shérif corrompu viennent mettre à nu son passé secret.",
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -3059,7 +3059,7 @@ export const baseMoviesWestern: BaseMovie[] = [
     genre: ['Western', 'Action'],
     saga: '',
     description:
-      'Majors Elba western black Netflix 131 min, Samuel trop Harder They Fall 2021 vengeance trop trop style trop trop pistolets trop trop ost.',
+      'Nat Love mène une bande de hors-la-loi contre R.S. Jones, redoutable roi de la ville, dans un western contemporain peuplé de figures historiques réinventées.',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -3082,7 +3082,7 @@ export const baseMoviesWestern: BaseMovie[] = [
     genre: ['Western', 'Drame', 'Romance'],
     saga: '',
     description:
-      "Krieps indépendante Mortensen soldat 1860 129 min, Dead Don't Hurt 2023 western trop trop femme trop trop frontière trop trop guerre.",
+      "Dans une ville frontière, une femme téméraire tombe amoureuse d'un étranger pendant que la guerre de Sécession menace d'écraser leur idylle.",
     fromEntity: null,
     countryOrigin: ['Canada', 'Mexique', 'Danemark'],
     selectDisplayOrder: 0,
@@ -3105,7 +3105,7 @@ export const baseMoviesWestern: BaseMovie[] = [
     genre: ['Western', 'Drame', 'Aventure', 'Historique'],
     saga: 'Horizon',
     description:
-      'Costner 1860 181 min chapitre 1 pionniers guerres, Horizon 2024 saga trop trop américaine trop trop Cannes trop trop western trop trop fleuve.',
+      'Premier chapitre d\'une épopée signée Kevin Costner sur la conquête de l\'Ouest, entre pionniers, guerres autochtones et naissance de communautés au bord du Snake River.',
     fromEntity: null,
     countryOrigin: ['États-Unis'],
     selectDisplayOrder: 0,
@@ -3217,7 +3217,7 @@ export const baseMoviesWestern: BaseMovie[] = [
     genre: ['Western', 'Drame', 'Biographie'],
     saga: '',
     description:
-      'Robert Ford trop fan tue Jesse trop fatigué, hiver trop long, Dominik trop beau.',
+      'Jesse James voit sa gloire décliner alors que Robert Ford, jeune admirateur devenu traître, prépare le coup qui l\'immortalisera dans l\'histoire du Far West.',
     fromEntity: {
       entityType: 'book',
       title: 'The Assassination of Jesse James by the Coward Robert Ford',
